@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 #include <cstddef>
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -19,8 +18,8 @@ namespace UnityEngine {
 struct CORDL_TYPE MatchTargetWeightMask : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "m_PositionXYZWeight", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_RotationWeight", ty: "float_t", modifiers: "", def_value: None }]
-constexpr MatchTargetWeightMask(::UnityEngine::Vector3 m_PositionXYZWeight, float_t m_RotationWeight) noexcept;
+// Ctor Parameters [CppParam { name: "m_PositionXYZWeight", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_RotationWeight", ty: "float_t", modifiers: "", def_value: None }]
+constexpr MatchTargetWeightMask(UnityEngine::Vector3 m_PositionXYZWeight, float_t m_RotationWeight) noexcept;
 
 
                     constexpr MatchTargetWeightMask(MatchTargetWeightMask const&) = default;
@@ -53,11 +52,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_m_PositionXYZWeight, put=__set_m_PositionXYZWeight))  m_PositionXYZWeight;
+ UnityEngine::Vector3 __declspec(property(get=__get_m_PositionXYZWeight, put=__set_m_PositionXYZWeight))  m_PositionXYZWeight;
 
-constexpr void __set_m_PositionXYZWeight(::UnityEngine::Vector3 value) ;
+constexpr void __set_m_PositionXYZWeight(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_m_PositionXYZWeight() const;
+constexpr UnityEngine::Vector3 __get_m_PositionXYZWeight() const;
 
  float_t __declspec(property(get=__get_m_RotationWeight, put=__set_m_RotationWeight))  m_RotationWeight;
 
@@ -69,5 +68,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::MatchTargetWeightMask, "UnityEngine", "MatchTargetWeightMask");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MatchTargetWeightMask, "UnityEngine", "MatchTargetWeightMask");

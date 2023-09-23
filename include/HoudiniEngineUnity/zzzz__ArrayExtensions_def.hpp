@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -60,7 +59,7 @@ static void Init(::ArrayW<T> array, T defaultValue) ;
 
 /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static void Init(::System::Collections::Generic::List_1<T> array, T defaultValue) ;
+static void Init(System::Collections::Generic::List_1<T> array, T defaultValue) ;
 
 /// @brief Method CopyToWithResize addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
@@ -78,6 +77,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::ArrayExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::ArrayExtensions, "HoudiniEngineUnity", "ArrayExtensions");
+NEED_NO_BOX(HoudiniEngineUnity::ArrayExtensions);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::ArrayExtensions, "HoudiniEngineUnity", "ArrayExtensions");

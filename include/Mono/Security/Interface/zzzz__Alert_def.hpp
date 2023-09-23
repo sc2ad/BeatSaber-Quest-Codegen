@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace Mono::Security::Interface {
 struct AlertLevel;
 }
@@ -55,39 +54,39 @@ constexpr explicit Alert(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr)
 
 // Fields
 
- ::Mono::Security::Interface::AlertLevel __declspec(property(get=__get_level, put=__set_level))  level;
+ Mono::Security::Interface::AlertLevel __declspec(property(get=__get_level, put=__set_level))  level;
 
-constexpr void __set_level(::Mono::Security::Interface::AlertLevel value) ;
+constexpr void __set_level(Mono::Security::Interface::AlertLevel value) ;
 
-constexpr ::Mono::Security::Interface::AlertLevel __get_level() const;
+constexpr Mono::Security::Interface::AlertLevel __get_level() const;
 
- ::Mono::Security::Interface::AlertDescription __declspec(property(get=__get_description, put=__set_description))  description;
+ Mono::Security::Interface::AlertDescription __declspec(property(get=__get_description, put=__set_description))  description;
 
-constexpr void __set_description(::Mono::Security::Interface::AlertDescription value) ;
+constexpr void __set_description(Mono::Security::Interface::AlertDescription value) ;
 
-constexpr ::Mono::Security::Interface::AlertDescription __get_description() const;
+constexpr Mono::Security::Interface::AlertDescription __get_description() const;
 
 
 // Properties
 
- ::Mono::Security::Interface::AlertLevel __declspec(property(get=get_Level))  Level;
+ Mono::Security::Interface::AlertLevel __declspec(property(get=get_Level))  Level;
 
- ::Mono::Security::Interface::AlertDescription __declspec(property(get=get_Description))  Description;
+ Mono::Security::Interface::AlertDescription __declspec(property(get=get_Description))  Description;
 
 
 // Methods
 
 /// @brief Method get_Level addr 0x22952c8 size 0x8 virtual false final false
- ::Mono::Security::Interface::AlertLevel get_Level() ;
+ Mono::Security::Interface::AlertLevel get_Level() ;
 
 /// @brief Method get_Description addr 0x22952d0 size 0x8 virtual false final false
- ::Mono::Security::Interface::AlertDescription get_Description() ;
+ Mono::Security::Interface::AlertDescription get_Description() ;
 
-// Ctor Parameters [CppParam { name: "description", ty: "::Mono::Security::Interface::AlertDescription", modifiers: "", def_value: None }]
-explicit Alert(::Mono::Security::Interface::AlertDescription description) ;
+// Ctor Parameters [CppParam { name: "description", ty: "Mono::Security::Interface::AlertDescription", modifiers: "", def_value: None }]
+explicit Alert(Mono::Security::Interface::AlertDescription description) ;
 
 /// @brief Method .ctor addr 0x22952d8 size 0x6c virtual false final false
- void _ctor(::Mono::Security::Interface::AlertDescription description) ;
+ void _ctor(Mono::Security::Interface::AlertDescription description) ;
 
 /// @brief Method inferAlertLevel addr 0x2295344 size 0x40 virtual false final false
  void inferAlertLevel() ;
@@ -99,6 +98,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Security::Interface
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Security::Interface::Alert);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Interface::Alert, "Mono.Security.Interface", "Alert");
+NEED_NO_BOX(Mono::Security::Interface::Alert);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::Alert, "Mono.Security.Interface", "Alert");

@@ -3,24 +3,23 @@
 #include "GlobalNamespace/zzzz__PlatformLeaderboardsHandler_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class GlobalNamespace__PlatformLeaderboardsModel__UploadScoreCompletionHandler;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__PlatformLeaderboardsModel__GetScoresCompletionHandler;
+class GlobalNamespace__PlatformLeaderboardsModel__GetScoresCompletionHandler;
 }
 namespace GlobalNamespace {
 class HMAsyncRequest;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__PlatformLeaderboardsModel__ScoresScope;
+struct GlobalNamespace__PlatformLeaderboardsModel__ScoresScope;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__LeaderboardScoreUploader__ScoreData;
+class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__PlatformLeaderboardsModel__UploadScoreCompletionHandler;
+class GlobalNamespace__LeaderboardScoreUploader__ScoreData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,7 +31,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4253))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4254))
 // CS Name: TestPlatformLeaderboardsHandler
-class CORDL_TYPE TestPlatformLeaderboardsHandler : public ::GlobalNamespace::PlatformLeaderboardsHandler {
+class CORDL_TYPE TestPlatformLeaderboardsHandler : public GlobalNamespace::PlatformLeaderboardsHandler {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -47,7 +46,7 @@ constexpr TestPlatformLeaderboardsHandler(TestPlatformLeaderboardsHandler const&
 constexpr TestPlatformLeaderboardsHandler(TestPlatformLeaderboardsHandler&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TestPlatformLeaderboardsHandler(void* ptr) noexcept : ::GlobalNamespace::PlatformLeaderboardsHandler(ptr) {
+constexpr explicit TestPlatformLeaderboardsHandler(void* ptr) noexcept : GlobalNamespace::PlatformLeaderboardsHandler(ptr) {
 }
 
 
@@ -69,10 +68,10 @@ constexpr explicit TestPlatformLeaderboardsHandler(void* ptr) noexcept : ::Globa
 // Methods
 
 /// @brief Method GetScores addr 0x21c7624 size 0x5c virtual true final false
- ::GlobalNamespace::HMAsyncRequest GetScores(::GlobalNamespace::IDifficultyBeatmap beatmap, int32_t count, int32_t fromRank, ::GlobalNamespace::____GlobalNamespace__PlatformLeaderboardsModel__ScoresScope scope, ::StringW referencePlayerId, ::GlobalNamespace::____GlobalNamespace__PlatformLeaderboardsModel__GetScoresCompletionHandler completionHandler) ;
+ GlobalNamespace::HMAsyncRequest GetScores(GlobalNamespace::IDifficultyBeatmap beatmap, int32_t count, int32_t fromRank, GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__ScoresScope scope, ::StringW referencePlayerId, GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__GetScoresCompletionHandler completionHandler) ;
 
 /// @brief Method UploadScore addr 0x21c7680 size 0x5c virtual true final false
- ::GlobalNamespace::HMAsyncRequest UploadScore(::GlobalNamespace::____GlobalNamespace__LeaderboardScoreUploader__ScoreData scoreData, ::GlobalNamespace::____GlobalNamespace__PlatformLeaderboardsModel__UploadScoreCompletionHandler completionHandler) ;
+ GlobalNamespace::HMAsyncRequest UploadScore(GlobalNamespace::GlobalNamespace__LeaderboardScoreUploader__ScoreData scoreData, GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__UploadScoreCompletionHandler completionHandler) ;
 
 // Ctor Parameters []
 explicit TestPlatformLeaderboardsHandler() ;
@@ -84,6 +83,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::TestPlatformLeaderboardsHandler);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TestPlatformLeaderboardsHandler, "", "TestPlatformLeaderboardsHandler");
+NEED_NO_BOX(GlobalNamespace::TestPlatformLeaderboardsHandler);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestPlatformLeaderboardsHandler, "", "TestPlatformLeaderboardsHandler");

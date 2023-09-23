@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/XR/zzzz__XRMeshSubsystem_def.hpp"
 #include "UnityEngine/zzzz__IntegratedSubsystemDescriptor_1_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::XR {
 class XRMeshSubsystemDescriptor;
@@ -10,10 +9,10 @@ class XRMeshSubsystemDescriptor;
 // Type: UnityEngine.XR::XRMeshSubsystemDescriptor
 namespace UnityEngine::XR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15844)), TypeDefinitionIndex(TypeDefinitionIndex(15589)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15844), inst: 3777 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15589)), TypeDefinitionIndex(TypeDefinitionIndex(15844)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15844), inst: 3777 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15582))
 // CS Name: UnityEngine.XR.XRMeshSubsystemDescriptor
-class CORDL_TYPE XRMeshSubsystemDescriptor : public ::UnityEngine::IntegratedSubsystemDescriptor_1<::UnityEngine::XR::XRMeshSubsystem> {
+class CORDL_TYPE XRMeshSubsystemDescriptor : public UnityEngine::IntegratedSubsystemDescriptor_1<UnityEngine::XR::XRMeshSubsystem> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr XRMeshSubsystemDescriptor(XRMeshSubsystemDescriptor const& ) noexcept 
 constexpr XRMeshSubsystemDescriptor(XRMeshSubsystemDescriptor&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XRMeshSubsystemDescriptor(void* ptr) noexcept : ::UnityEngine::IntegratedSubsystemDescriptor_1<::UnityEngine::XR::XRMeshSubsystem>(ptr) {
+constexpr explicit XRMeshSubsystemDescriptor(void* ptr) noexcept : UnityEngine::IntegratedSubsystemDescriptor_1<UnityEngine::XR::XRMeshSubsystem>(ptr) {
 }
 
 
@@ -59,6 +58,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::XR::XRMeshSubsystemDescriptor);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::XRMeshSubsystemDescriptor, "UnityEngine.XR", "XRMeshSubsystemDescriptor");
+NEED_NO_BOX(UnityEngine::XR::XRMeshSubsystemDescriptor);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRMeshSubsystemDescriptor, "UnityEngine.XR", "XRMeshSubsystemDescriptor");

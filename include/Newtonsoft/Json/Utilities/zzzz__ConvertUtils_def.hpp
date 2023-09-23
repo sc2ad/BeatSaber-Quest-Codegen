@@ -6,48 +6,47 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System::Globalization {
-class CultureInfo;
+namespace System {
+struct Guid;
+}
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
 }
 namespace Newtonsoft::Json::Utilities {
 struct ParseResult;
-}
-namespace System::ComponentModel {
-class TypeConverter;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace System {
-class IConvertible;
-}
-namespace Newtonsoft::Json::Utilities {
-struct PrimitiveTypeCode;
-}
-namespace System {
-struct TimeSpan;
 }
 namespace System {
 class Version;
 }
 namespace System {
-struct Guid;
-}
-namespace Newtonsoft::Json::Utilities {
-class TypeInformation;
+struct TimeSpan;
 }
 namespace System {
 class Type;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace Newtonsoft::Json::Utilities {
+struct PrimitiveTypeCode;
+}
+namespace System {
+class IConvertible;
+}
+namespace Newtonsoft::Json::Utilities {
+class TypeInformation;
 }
 namespace Newtonsoft::Json::Utilities {
 template<typename TKey,typename TValue>
 class ThreadSafeStore_2;
 }
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System::ComponentModel {
+class TypeConverter;
 }
 namespace Newtonsoft::Json::Utilities {
 template<typename T,typename TResult>
@@ -55,16 +54,16 @@ class MethodCall_2;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
-struct ____Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult;
+struct Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult;
 }
 namespace Newtonsoft::Json::Utilities {
 class ConvertUtils;
 }
 namespace Newtonsoft::Json::Utilities {
-class ____Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0;
+class Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0;
 }
 namespace Newtonsoft::Json::Utilities {
-struct ____Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey;
+struct Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey;
 }
 // Type: ::TypeConvertKey
 namespace Newtonsoft::Json::Utilities {
@@ -72,20 +71,20 @@ namespace Newtonsoft::Json::Utilities {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11815))
 // CS Name: Newtonsoft.Json.Utilities.ConvertUtils::TypeConvertKey
-struct CORDL_TYPE ____Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "_initialType", ty: "::System::Type", modifiers: "", def_value: None }, CppParam { name: "_targetType", ty: "::System::Type", modifiers: "", def_value: None }]
-constexpr ____Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey(::System::Type _initialType, ::System::Type _targetType) noexcept;
+// Ctor Parameters [CppParam { name: "_initialType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "_targetType", ty: "System::Type", modifiers: "", def_value: None }]
+constexpr Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey(System::Type _initialType, System::Type _targetType) noexcept;
 
 
-                    constexpr ____Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey(____Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey const&) = default;
-                    constexpr ____Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey(____Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey&&) = default;
-                    constexpr ____Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey& operator=(____Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey const& o) {
+                    constexpr Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey(Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey const&) = default;
+                    constexpr Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey(Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey&&) = default;
+                    constexpr Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey& operator=(Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey& operator=(____Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey&& o) noexcept {
+                    constexpr Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey& operator=(Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -98,7 +97,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x10};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -109,36 +108,36 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::Type __declspec(property(get=__get__initialType, put=__set__initialType))  _initialType;
+ System::Type __declspec(property(get=__get__initialType, put=__set__initialType))  _initialType;
 
-constexpr void __set__initialType(::System::Type value) ;
+constexpr void __set__initialType(System::Type value) ;
 
-constexpr ::System::Type __get__initialType() const;
+constexpr System::Type __get__initialType() const;
 
- ::System::Type __declspec(property(get=__get__targetType, put=__set__targetType))  _targetType;
+ System::Type __declspec(property(get=__get__targetType, put=__set__targetType))  _targetType;
 
-constexpr void __set__targetType(::System::Type value) ;
+constexpr void __set__targetType(System::Type value) ;
 
-constexpr ::System::Type __get__targetType() const;
+constexpr System::Type __get__targetType() const;
 
 
 // Properties
 
- ::System::Type __declspec(property(get=get_InitialType))  InitialType;
+ System::Type __declspec(property(get=get_InitialType))  InitialType;
 
- ::System::Type __declspec(property(get=get_TargetType))  TargetType;
+ System::Type __declspec(property(get=get_TargetType))  TargetType;
 
 
 // Methods
 
 /// @brief Method get_InitialType addr 0x24e6b88 size 0x8 virtual false final false
- ::System::Type get_InitialType() ;
+ System::Type get_InitialType() ;
 
 /// @brief Method get_TargetType addr 0x24e6b90 size 0x8 virtual false final false
- ::System::Type get_TargetType() ;
+ System::Type get_TargetType() ;
 
 /// @brief Method .ctor addr 0x24e55bc size 0x8 virtual false final false
- void _ctor(::System::Type initialType, ::System::Type targetType) ;
+ void _ctor(System::Type initialType, System::Type targetType) ;
 
 /// @brief Method GetHashCode addr 0x24e6b98 size 0x48 virtual true final false
  int32_t GetHashCode() ;
@@ -147,7 +146,7 @@ constexpr ::System::Type __get__targetType() const;
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x24e6c68 size 0x24 virtual false final false
- bool Equals(::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey other) ;
+ bool Equals(Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey other) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -159,20 +158,20 @@ namespace Newtonsoft::Json::Utilities {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11816))
 // CS Name: Newtonsoft.Json.Utilities.ConvertUtils::ConvertResult
-struct CORDL_TYPE ____Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult(int32_t value__) noexcept;
+constexpr Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult(int32_t value__) noexcept;
 
 
-                    constexpr ____Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult(____Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult const&) = default;
-                    constexpr ____Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult(____Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult&&) = default;
-                    constexpr ____Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult& operator=(____Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult const& o) {
+                    constexpr Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult(Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult const&) = default;
+                    constexpr Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult(Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult&&) = default;
+                    constexpr Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult& operator=(Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult& operator=(____Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult&& o) noexcept {
+                    constexpr Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult& operator=(Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -185,7 +184,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -193,7 +192,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult_Unwrapped : int32_t {
+enum class __Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult_Unwrapped : int32_t {
 __Success = 0,
 __CannotConvertNull = 1,
 __NotInstantiableType = 2,
@@ -201,8 +200,8 @@ __NoValidConversion = 3,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult_Unwrapped () const noexcept {
-return std::bit_cast<______Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult_Unwrapped>(__instance);
+constexpr operator __Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult_Unwrapped () const noexcept {
+return std::bit_cast<__Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult_Unwrapped>(__instance);
 }
 
 
@@ -215,16 +214,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Success offset 0
-static ::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult const Success;
+static Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult const Success;
 
 /// @brief Field CannotConvertNull offset 0
-static ::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult const CannotConvertNull;
+static Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult const CannotConvertNull;
 
 /// @brief Field NotInstantiableType offset 0
-static ::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult const NotInstantiableType;
+static Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult const NotInstantiableType;
 
 /// @brief Field NoValidConversion offset 0
-static ::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult const NoValidConversion;
+static Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult const NoValidConversion;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -236,53 +235,53 @@ namespace Newtonsoft::Json::Utilities {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11817))
 // CS Name: Newtonsoft.Json.Utilities.ConvertUtils::<>c__DisplayClass9_0
-class CORDL_TYPE ____Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0() = default;
+virtual ~Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0", modifiers: " const&", def_value: None }]
-constexpr ____Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0(____Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0", modifiers: " const&", def_value: None }]
+constexpr Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0(Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0", modifiers: "&&", def_value: None }]
-constexpr ____Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0(____Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0", modifiers: "&&", def_value: None }]
+constexpr Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0(Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0& operator=(std::nullptr_t) noexcept {
+  constexpr Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0& operator=(void* o) noexcept {
+  constexpr Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0& operator=(____Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0&& o) noexcept = default;
-  constexpr ____Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0& operator=(____Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0 const& o) noexcept = default;
+  constexpr Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0& operator=(Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0&& o) noexcept = default;
+  constexpr Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0& operator=(Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::Newtonsoft::Json::Utilities::MethodCall_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType> __declspec(property(get=__get_call, put=__set_call))  call;
+ Newtonsoft::Json::Utilities::MethodCall_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType> __declspec(property(get=__get_call, put=__set_call))  call;
 
-constexpr void __set_call(::Newtonsoft::Json::Utilities::MethodCall_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType> value) ;
+constexpr void __set_call(Newtonsoft::Json::Utilities::MethodCall_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType> value) ;
 
-constexpr ::Newtonsoft::Json::Utilities::MethodCall_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType> __get_call() const;
+constexpr Newtonsoft::Json::Utilities::MethodCall_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType> __get_call() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0() ;
+explicit Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0() ;
 
 /// @brief Method .ctor addr 0x24e4300 size 0x8 virtual false final false
  void _ctor() ;
@@ -303,11 +302,11 @@ namespace Newtonsoft::Json::Utilities {
 class CORDL_TYPE ConvertUtils : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using __c__DisplayClass9_0 = ::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0;
+using __c__DisplayClass9_0 = Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0;
 
-using ConvertResult = ::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult;
+using ConvertResult = Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult;
 
-using TypeConvertKey = ::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey;
+using TypeConvertKey = Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -342,77 +341,77 @@ constexpr explicit ConvertUtils(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 
 // Fields
 
-static ::System::Collections::Generic::Dictionary_2<::System::Type,::Newtonsoft::Json::Utilities::PrimitiveTypeCode> __declspec(property(get=__get_TypeCodeMap, put=__set_TypeCodeMap))  TypeCodeMap;
+static System::Collections::Generic::Dictionary_2<System::Type,Newtonsoft::Json::Utilities::PrimitiveTypeCode> __declspec(property(get=__get_TypeCodeMap, put=__set_TypeCodeMap))  TypeCodeMap;
 
-static void __set_TypeCodeMap(::System::Collections::Generic::Dictionary_2<::System::Type,::Newtonsoft::Json::Utilities::PrimitiveTypeCode> value) ;
+static void __set_TypeCodeMap(System::Collections::Generic::Dictionary_2<System::Type,Newtonsoft::Json::Utilities::PrimitiveTypeCode> value) ;
 
-static ::System::Collections::Generic::Dictionary_2<::System::Type,::Newtonsoft::Json::Utilities::PrimitiveTypeCode> __get_TypeCodeMap() ;
+static System::Collections::Generic::Dictionary_2<System::Type,Newtonsoft::Json::Utilities::PrimitiveTypeCode> __get_TypeCodeMap() ;
 
-static ::ArrayW<::Newtonsoft::Json::Utilities::TypeInformation> __declspec(property(get=__get_PrimitiveTypeCodes, put=__set_PrimitiveTypeCodes))  PrimitiveTypeCodes;
+static ::ArrayW<Newtonsoft::Json::Utilities::TypeInformation> __declspec(property(get=__get_PrimitiveTypeCodes, put=__set_PrimitiveTypeCodes))  PrimitiveTypeCodes;
 
-static void __set_PrimitiveTypeCodes(::ArrayW<::Newtonsoft::Json::Utilities::TypeInformation> value) ;
+static void __set_PrimitiveTypeCodes(::ArrayW<Newtonsoft::Json::Utilities::TypeInformation> value) ;
 
-static ::ArrayW<::Newtonsoft::Json::Utilities::TypeInformation> __get_PrimitiveTypeCodes() ;
+static ::ArrayW<Newtonsoft::Json::Utilities::TypeInformation> __get_PrimitiveTypeCodes() ;
 
-static ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey,::System::Func_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType>> __declspec(property(get=__get_CastConverters, put=__set_CastConverters))  CastConverters;
+static Newtonsoft::Json::Utilities::ThreadSafeStore_2<Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey,System::Func_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType>> __declspec(property(get=__get_CastConverters, put=__set_CastConverters))  CastConverters;
 
-static void __set_CastConverters(::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey,::System::Func_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType>> value) ;
+static void __set_CastConverters(Newtonsoft::Json::Utilities::ThreadSafeStore_2<Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey,System::Func_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType>> value) ;
 
-static ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey,::System::Func_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType>> __get_CastConverters() ;
+static Newtonsoft::Json::Utilities::ThreadSafeStore_2<Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey,System::Func_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType>> __get_CastConverters() ;
 
 
 // Methods
 
 /// @brief Method GetTypeCode addr 0x24df5c0 size 0x68 virtual false final false
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode GetTypeCode(::System::Type t) ;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode GetTypeCode(System::Type t) ;
 
 /// @brief Method GetTypeCode addr 0x24e3c60 size 0x280 virtual false final false
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode GetTypeCode(::System::Type t, ByRef<bool> isEnum) ;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode GetTypeCode(System::Type t, ByRef<bool> isEnum) ;
 
 /// @brief Method GetTypeInformation addr 0x24e0840 size 0xec virtual false final false
-static ::Newtonsoft::Json::Utilities::TypeInformation GetTypeInformation(::System::IConvertible convertable) ;
+static Newtonsoft::Json::Utilities::TypeInformation GetTypeInformation(System::IConvertible convertable) ;
 
 /// @brief Method IsConvertible addr 0x24e3fe0 size 0x94 virtual false final false
-static bool IsConvertible(::System::Type t) ;
+static bool IsConvertible(System::Type t) ;
 
 /// @brief Method ParseTimeSpan addr 0x24e4074 size 0x58 virtual false final false
-static ::System::TimeSpan ParseTimeSpan(::StringW input) ;
+static System::TimeSpan ParseTimeSpan(::StringW input) ;
 
 /// @brief Method CreateCastConverter addr 0x24e40cc size 0x234 virtual false final false
-static ::System::Func_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType> CreateCastConverter(::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey t) ;
+static System::Func_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType> CreateCastConverter(Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey t) ;
 
 /// @brief Method Convert addr 0x24e4308 size 0x274 virtual false final false
-static ::bs_hook::Il2CppWrapperType Convert(::bs_hook::Il2CppWrapperType initialValue, ::System::Globalization::CultureInfo culture, ::System::Type targetType) ;
+static ::bs_hook::Il2CppWrapperType Convert(::bs_hook::Il2CppWrapperType initialValue, System::Globalization::CultureInfo culture, System::Type targetType) ;
 
 /// @brief Method TryConvert addr 0x24e4e8c size 0x108 virtual false final false
-static bool TryConvert(::bs_hook::Il2CppWrapperType initialValue, ::System::Globalization::CultureInfo culture, ::System::Type targetType, ByRef<::bs_hook::Il2CppWrapperType> value) ;
+static bool TryConvert(::bs_hook::Il2CppWrapperType initialValue, System::Globalization::CultureInfo culture, System::Type targetType, ByRef<::bs_hook::Il2CppWrapperType> value) ;
 
 /// @brief Method TryConvertInternal addr 0x24e457c size 0x910 virtual false final false
-static ::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult TryConvertInternal(::bs_hook::Il2CppWrapperType initialValue, ::System::Globalization::CultureInfo culture, ::System::Type targetType, ByRef<::bs_hook::Il2CppWrapperType> value) ;
+static Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult TryConvertInternal(::bs_hook::Il2CppWrapperType initialValue, System::Globalization::CultureInfo culture, System::Type targetType, ByRef<::bs_hook::Il2CppWrapperType> value) ;
 
 /// @brief Method ConvertOrCast addr 0x24e543c size 0x170 virtual false final false
-static ::bs_hook::Il2CppWrapperType ConvertOrCast(::bs_hook::Il2CppWrapperType initialValue, ::System::Globalization::CultureInfo culture, ::System::Type targetType) ;
+static ::bs_hook::Il2CppWrapperType ConvertOrCast(::bs_hook::Il2CppWrapperType initialValue, System::Globalization::CultureInfo culture, System::Type targetType) ;
 
 /// @brief Method EnsureTypeAssignable addr 0x24e5208 size 0x1ec virtual false final false
-static ::bs_hook::Il2CppWrapperType EnsureTypeAssignable(::bs_hook::Il2CppWrapperType value, ::System::Type initialType, ::System::Type targetType) ;
+static ::bs_hook::Il2CppWrapperType EnsureTypeAssignable(::bs_hook::Il2CppWrapperType value, System::Type initialType, System::Type targetType) ;
 
 /// @brief Method GetConverter addr 0x24e5114 size 0x58 virtual false final false
-static ::System::ComponentModel::TypeConverter GetConverter(::System::Type t) ;
+static System::ComponentModel::TypeConverter GetConverter(System::Type t) ;
 
 /// @brief Method VersionTryParse addr 0x24e5024 size 0xf0 virtual false final false
-static bool VersionTryParse(::StringW input, ByRef<::System::Version> result) ;
+static bool VersionTryParse(::StringW input, ByRef<System::Version> result) ;
 
 /// @brief Method IsInteger addr 0x24e4f94 size 0x90 virtual false final false
 static bool IsInteger(::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method Int32TryParse addr 0x24e55c4 size 0x164 virtual false final false
-static ::Newtonsoft::Json::Utilities::ParseResult Int32TryParse(::ArrayW<char16_t> chars, int32_t start, int32_t length, ByRef<int32_t> value) ;
+static Newtonsoft::Json::Utilities::ParseResult Int32TryParse(::ArrayW<char16_t> chars, int32_t start, int32_t length, ByRef<int32_t> value) ;
 
 /// @brief Method Int64TryParse addr 0x24e5728 size 0x158 virtual false final false
-static ::Newtonsoft::Json::Utilities::ParseResult Int64TryParse(::ArrayW<char16_t> chars, int32_t start, int32_t length, ByRef<int64_t> value) ;
+static Newtonsoft::Json::Utilities::ParseResult Int64TryParse(::ArrayW<char16_t> chars, int32_t start, int32_t length, ByRef<int64_t> value) ;
 
 /// @brief Method TryConvertGuid addr 0x24e5880 size 0x138 virtual false final false
-static bool TryConvertGuid(::StringW s, ByRef<::System::Guid> g) ;
+static bool TryConvertGuid(::StringW s, ByRef<System::Guid> g) ;
 
 /// @brief Method HexTextToInt addr 0x24e59b8 size 0xe0 virtual false final false
 static int32_t HexTextToInt(::ArrayW<char16_t> text, int32_t start, int32_t end) ;
@@ -424,10 +423,9 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Utilities
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult, "Newtonsoft.Json.Utilities", "ConvertUtils/ConvertResult");
-NEED_NO_BOX(::Newtonsoft::Json::Utilities::ConvertUtils);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::ConvertUtils, "Newtonsoft.Json.Utilities", "ConvertUtils");
-NEED_NO_BOX(::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0, "Newtonsoft.Json.Utilities", "ConvertUtils/<>c__DisplayClass9_0");
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey, "Newtonsoft.Json.Utilities", "ConvertUtils/TypeConvertKey");
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult, "Newtonsoft.Json.Utilities", "ConvertUtils/ConvertResult");
+NEED_NO_BOX(Newtonsoft::Json::Utilities::ConvertUtils);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::ConvertUtils, "Newtonsoft.Json.Utilities", "ConvertUtils");
+NEED_NO_BOX(Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0, "Newtonsoft.Json.Utilities", "ConvertUtils/<>c__DisplayClass9_0");
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey, "Newtonsoft.Json.Utilities", "ConvertUtils/TypeConvertKey");

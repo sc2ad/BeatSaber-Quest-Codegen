@@ -2,44 +2,43 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-class IMenuButtonTrigger;
+struct GlobalNamespace__MultiplayerController__State;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__MultiplayerController__State;
-}
-namespace GlobalNamespace {
-class SaberManager;
+class MultiplayerController;
 }
 namespace GlobalNamespace {
 class IGamePause;
 }
 namespace GlobalNamespace {
-class IVRPlatformHelper;
+class SaberManager;
 }
 namespace GlobalNamespace {
-class MultiplayerController;
+class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
+class MultiplayerLocalActivePlayerInGameMenuViewController;
+}
+namespace GlobalNamespace {
+class IMenuButtonTrigger;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace GlobalNamespace {
-class MultiplayerLocalActivePlayerInGameMenuViewController;
-}
-namespace GlobalNamespace {
-class BeatmapObjectManager;
+class IVRPlatformHelper;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-class MultiplayerLocalActivePlayerInGameMenuController;
+class GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0;
+class MultiplayerLocalActivePlayerInGameMenuController;
 }
 // Type: ::<>c__DisplayClass19_0
 namespace GlobalNamespace {
@@ -47,37 +46,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5156))
 // CS Name: MultiplayerLocalActivePlayerInGameMenuController::<>c__DisplayClass19_0
-class CORDL_TYPE ____GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0() = default;
+virtual ~GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0(____GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0(GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0(____GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0(GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0& operator=(____GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0&& o) noexcept = default;
-  constexpr ____GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0& operator=(____GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0 const& o) noexcept = default;
+  constexpr GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0& operator=(GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0&& o) noexcept = default;
+  constexpr GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0& operator=(GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0 const& o) noexcept = default;
                 
 
 
@@ -93,7 +92,7 @@ constexpr bool __get_value() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0() ;
+explicit GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0() ;
 
 /// @brief Method .ctor addr 0x20cf238 size 0x8 virtual false final false
  void _ctor() ;
@@ -111,10 +110,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5157))
 // CS Name: MultiplayerLocalActivePlayerInGameMenuController
-class CORDL_TYPE MultiplayerLocalActivePlayerInGameMenuController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerLocalActivePlayerInGameMenuController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using __c__DisplayClass19_0 = ::GlobalNamespace::____GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0;
+using __c__DisplayClass19_0 = GlobalNamespace::GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x70};
@@ -128,7 +127,7 @@ constexpr MultiplayerLocalActivePlayerInGameMenuController(MultiplayerLocalActiv
 constexpr MultiplayerLocalActivePlayerInGameMenuController(MultiplayerLocalActivePlayerInGameMenuController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerLocalActivePlayerInGameMenuController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerLocalActivePlayerInGameMenuController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -149,65 +148,65 @@ constexpr explicit MultiplayerLocalActivePlayerInGameMenuController(void* ptr) n
 
 // Fields
 
- ::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController __declspec(property(get=__get__inGameMenuViewController, put=__set__inGameMenuViewController))  _inGameMenuViewController;
+ GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController __declspec(property(get=__get__inGameMenuViewController, put=__set__inGameMenuViewController))  _inGameMenuViewController;
 
-constexpr void __set__inGameMenuViewController(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController value) ;
+constexpr void __set__inGameMenuViewController(GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController value) ;
 
-constexpr ::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController __get__inGameMenuViewController() const;
+constexpr GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController __get__inGameMenuViewController() const;
 
- ::GlobalNamespace::IMenuButtonTrigger __declspec(property(get=__get__menuButtonTrigger, put=__set__menuButtonTrigger))  _menuButtonTrigger;
+ GlobalNamespace::IMenuButtonTrigger __declspec(property(get=__get__menuButtonTrigger, put=__set__menuButtonTrigger))  _menuButtonTrigger;
 
-constexpr void __set__menuButtonTrigger(::GlobalNamespace::IMenuButtonTrigger value) ;
+constexpr void __set__menuButtonTrigger(GlobalNamespace::IMenuButtonTrigger value) ;
 
-constexpr ::GlobalNamespace::IMenuButtonTrigger __get__menuButtonTrigger() const;
+constexpr GlobalNamespace::IMenuButtonTrigger __get__menuButtonTrigger() const;
 
- ::GlobalNamespace::IVRPlatformHelper __declspec(property(get=__get__vrPlatformHelper, put=__set__vrPlatformHelper))  _vrPlatformHelper;
+ GlobalNamespace::IVRPlatformHelper __declspec(property(get=__get__vrPlatformHelper, put=__set__vrPlatformHelper))  _vrPlatformHelper;
 
-constexpr void __set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper value) ;
+constexpr void __set__vrPlatformHelper(GlobalNamespace::IVRPlatformHelper value) ;
 
-constexpr ::GlobalNamespace::IVRPlatformHelper __get__vrPlatformHelper() const;
+constexpr GlobalNamespace::IVRPlatformHelper __get__vrPlatformHelper() const;
 
- ::GlobalNamespace::IGamePause __declspec(property(get=__get__gamePause, put=__set__gamePause))  _gamePause;
+ GlobalNamespace::IGamePause __declspec(property(get=__get__gamePause, put=__set__gamePause))  _gamePause;
 
-constexpr void __set__gamePause(::GlobalNamespace::IGamePause value) ;
+constexpr void __set__gamePause(GlobalNamespace::IGamePause value) ;
 
-constexpr ::GlobalNamespace::IGamePause __get__gamePause() const;
+constexpr GlobalNamespace::IGamePause __get__gamePause() const;
 
- ::GlobalNamespace::MultiplayerController __declspec(property(get=__get__multiplayerController, put=__set__multiplayerController))  _multiplayerController;
+ GlobalNamespace::MultiplayerController __declspec(property(get=__get__multiplayerController, put=__set__multiplayerController))  _multiplayerController;
 
-constexpr void __set__multiplayerController(::GlobalNamespace::MultiplayerController value) ;
+constexpr void __set__multiplayerController(GlobalNamespace::MultiplayerController value) ;
 
-constexpr ::GlobalNamespace::MultiplayerController __get__multiplayerController() const;
+constexpr GlobalNamespace::MultiplayerController __get__multiplayerController() const;
 
- ::GlobalNamespace::SaberManager __declspec(property(get=__get__saberManager, put=__set__saberManager))  _saberManager;
+ GlobalNamespace::SaberManager __declspec(property(get=__get__saberManager, put=__set__saberManager))  _saberManager;
 
-constexpr void __set__saberManager(::GlobalNamespace::SaberManager value) ;
+constexpr void __set__saberManager(GlobalNamespace::SaberManager value) ;
 
-constexpr ::GlobalNamespace::SaberManager __get__saberManager() const;
+constexpr GlobalNamespace::SaberManager __get__saberManager() const;
 
- ::GlobalNamespace::BeatmapObjectManager __declspec(property(get=__get__beatmapObjectManager, put=__set__beatmapObjectManager))  _beatmapObjectManager;
+ GlobalNamespace::BeatmapObjectManager __declspec(property(get=__get__beatmapObjectManager, put=__set__beatmapObjectManager))  _beatmapObjectManager;
 
-constexpr void __set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager value) ;
+constexpr void __set__beatmapObjectManager(GlobalNamespace::BeatmapObjectManager value) ;
 
-constexpr ::GlobalNamespace::BeatmapObjectManager __get__beatmapObjectManager() const;
+constexpr GlobalNamespace::BeatmapObjectManager __get__beatmapObjectManager() const;
 
- ::System::Action __declspec(property(get=__get_didGiveUpEvent, put=__set_didGiveUpEvent))  didGiveUpEvent;
+ System::Action __declspec(property(get=__get_didGiveUpEvent, put=__set_didGiveUpEvent))  didGiveUpEvent;
 
-constexpr void __set_didGiveUpEvent(::System::Action value) ;
+constexpr void __set_didGiveUpEvent(System::Action value) ;
 
-constexpr ::System::Action __get_didGiveUpEvent() const;
+constexpr System::Action __get_didGiveUpEvent() const;
 
- ::System::Action_1<::System::Action_1<bool>> __declspec(property(get=__get_canShowInGameMenuEvent, put=__set_canShowInGameMenuEvent))  canShowInGameMenuEvent;
+ System::Action_1<System::Action_1<bool>> __declspec(property(get=__get_canShowInGameMenuEvent, put=__set_canShowInGameMenuEvent))  canShowInGameMenuEvent;
 
-constexpr void __set_canShowInGameMenuEvent(::System::Action_1<::System::Action_1<bool>> value) ;
+constexpr void __set_canShowInGameMenuEvent(System::Action_1<System::Action_1<bool>> value) ;
 
-constexpr ::System::Action_1<::System::Action_1<bool>> __get_canShowInGameMenuEvent() const;
+constexpr System::Action_1<System::Action_1<bool>> __get_canShowInGameMenuEvent() const;
 
- ::System::Action __declspec(property(get=__get_requestsDisconnectEvent, put=__set_requestsDisconnectEvent))  requestsDisconnectEvent;
+ System::Action __declspec(property(get=__get_requestsDisconnectEvent, put=__set_requestsDisconnectEvent))  requestsDisconnectEvent;
 
-constexpr void __set_requestsDisconnectEvent(::System::Action value) ;
+constexpr void __set_requestsDisconnectEvent(System::Action value) ;
 
-constexpr ::System::Action __get_requestsDisconnectEvent() const;
+constexpr System::Action __get_requestsDisconnectEvent() const;
 
  bool __declspec(property(get=__get__gameMenuIsShown, put=__set__gameMenuIsShown))  _gameMenuIsShown;
 
@@ -226,22 +225,22 @@ constexpr bool __get__gameMenuIsShown() const;
 // Methods
 
 /// @brief Method add_didGiveUpEvent addr 0x20ced74 size 0x9c virtual false final false
- void add_didGiveUpEvent(::System::Action value) ;
+ void add_didGiveUpEvent(System::Action value) ;
 
 /// @brief Method remove_didGiveUpEvent addr 0x20cee10 size 0x9c virtual false final false
- void remove_didGiveUpEvent(::System::Action value) ;
+ void remove_didGiveUpEvent(System::Action value) ;
 
 /// @brief Method add_canShowInGameMenuEvent addr 0x20ceeac size 0xb0 virtual false final false
- void add_canShowInGameMenuEvent(::System::Action_1<::System::Action_1<bool>> value) ;
+ void add_canShowInGameMenuEvent(System::Action_1<System::Action_1<bool>> value) ;
 
 /// @brief Method remove_canShowInGameMenuEvent addr 0x20cef5c size 0xb0 virtual false final false
- void remove_canShowInGameMenuEvent(::System::Action_1<::System::Action_1<bool>> value) ;
+ void remove_canShowInGameMenuEvent(System::Action_1<System::Action_1<bool>> value) ;
 
 /// @brief Method add_requestsDisconnectEvent addr 0x20cf00c size 0x9c virtual false final false
- void add_requestsDisconnectEvent(::System::Action value) ;
+ void add_requestsDisconnectEvent(System::Action value) ;
 
 /// @brief Method remove_requestsDisconnectEvent addr 0x20cf0a8 size 0x9c virtual false final false
- void remove_requestsDisconnectEvent(::System::Action value) ;
+ void remove_requestsDisconnectEvent(System::Action value) ;
 
 /// @brief Method get_gameMenuIsShown addr 0x20cf144 size 0x8 virtual false final false
  bool get_gameMenuIsShown() ;
@@ -280,7 +279,7 @@ constexpr bool __get__gameMenuIsShown() const;
  void HandleInGameMenuViewControllerDidPressDisconnectButton() ;
 
 /// @brief Method HandleStateChanged addr 0x20cff70 size 0x1d0 virtual false final false
- void HandleStateChanged(::GlobalNamespace::____GlobalNamespace__MultiplayerController__State state) ;
+ void HandleStateChanged(GlobalNamespace::GlobalNamespace__MultiplayerController__State state) ;
 
 // Ctor Parameters []
 explicit MultiplayerLocalActivePlayerInGameMenuController() ;
@@ -292,8 +291,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController, "", "MultiplayerLocalActivePlayerInGameMenuController");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0, "", "MultiplayerLocalActivePlayerInGameMenuController/<>c__DisplayClass19_0");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0, "", "MultiplayerLocalActivePlayerInGameMenuController/<>c__DisplayClass19_0");
+NEED_NO_BOX(GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController, "", "MultiplayerLocalActivePlayerInGameMenuController");

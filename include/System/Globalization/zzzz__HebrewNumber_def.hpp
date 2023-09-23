@@ -6,7 +6,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System::Globalization {
 struct HebrewNumberParsingContext;
 }
@@ -15,16 +14,16 @@ struct HebrewNumberParsingState;
 }
 // Forward declare root types
 namespace System::Globalization {
-struct ____System__Globalization__HebrewNumber__HS;
+struct System__Globalization__HebrewNumber__HS;
 }
 namespace System::Globalization {
-struct ____System__Globalization__HebrewNumber__HebrewToken;
+struct System__Globalization__HebrewNumber__HebrewToken;
 }
 namespace System::Globalization {
 class HebrewNumber;
 }
 namespace System::Globalization {
-struct ____System__Globalization__HebrewNumber__HebrewValue;
+struct System__Globalization__HebrewNumber__HebrewValue;
 }
 // Type: ::HebrewToken
 namespace System::Globalization {
@@ -32,20 +31,20 @@ namespace System::Globalization {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3660))
 // CS Name: System.Globalization.HebrewNumber::HebrewToken
-struct CORDL_TYPE ____System__Globalization__HebrewNumber__HebrewToken : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE System__Globalization__HebrewNumber__HebrewToken : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int16_t", modifiers: "", def_value: None }]
-constexpr ____System__Globalization__HebrewNumber__HebrewToken(int16_t value__) noexcept;
+constexpr System__Globalization__HebrewNumber__HebrewToken(int16_t value__) noexcept;
 
 
-                    constexpr ____System__Globalization__HebrewNumber__HebrewToken(____System__Globalization__HebrewNumber__HebrewToken const&) = default;
-                    constexpr ____System__Globalization__HebrewNumber__HebrewToken(____System__Globalization__HebrewNumber__HebrewToken&&) = default;
-                    constexpr ____System__Globalization__HebrewNumber__HebrewToken& operator=(____System__Globalization__HebrewNumber__HebrewToken const& o) {
+                    constexpr System__Globalization__HebrewNumber__HebrewToken(System__Globalization__HebrewNumber__HebrewToken const&) = default;
+                    constexpr System__Globalization__HebrewNumber__HebrewToken(System__Globalization__HebrewNumber__HebrewToken&&) = default;
+                    constexpr System__Globalization__HebrewNumber__HebrewToken& operator=(System__Globalization__HebrewNumber__HebrewToken const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Globalization__HebrewNumber__HebrewToken& operator=(____System__Globalization__HebrewNumber__HebrewToken&& o) noexcept {
+                    constexpr System__Globalization__HebrewNumber__HebrewToken& operator=(System__Globalization__HebrewNumber__HebrewToken&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -58,7 +57,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x2};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Globalization__HebrewNumber__HebrewToken(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Globalization__HebrewNumber__HebrewToken(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -66,7 +65,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______System__Globalization__HebrewNumber__HebrewToken_Unwrapped : int16_t {
+enum class __System__Globalization__HebrewNumber__HebrewToken_Unwrapped : int16_t {
 __Invalid = -1,
 __Digit400 = 0,
 __Digit200_300 = 1,
@@ -81,8 +80,8 @@ __DoubleQuote = 9,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______System__Globalization__HebrewNumber__HebrewToken_Unwrapped () const noexcept {
-return std::bit_cast<______System__Globalization__HebrewNumber__HebrewToken_Unwrapped>(__instance);
+constexpr operator __System__Globalization__HebrewNumber__HebrewToken_Unwrapped () const noexcept {
+return std::bit_cast<__System__Globalization__HebrewNumber__HebrewToken_Unwrapped>(__instance);
 }
 
 
@@ -95,37 +94,37 @@ constexpr void __set_value__(int16_t value) ;
 constexpr int16_t __get_value__() const;
 
 /// @brief Field Invalid offset 0
-static ::System::Globalization::____System__Globalization__HebrewNumber__HebrewToken const Invalid;
+static System::Globalization::System__Globalization__HebrewNumber__HebrewToken const Invalid;
 
 /// @brief Field Digit400 offset 0
-static ::System::Globalization::____System__Globalization__HebrewNumber__HebrewToken const Digit400;
+static System::Globalization::System__Globalization__HebrewNumber__HebrewToken const Digit400;
 
 /// @brief Field Digit200_300 offset 0
-static ::System::Globalization::____System__Globalization__HebrewNumber__HebrewToken const Digit200_300;
+static System::Globalization::System__Globalization__HebrewNumber__HebrewToken const Digit200_300;
 
 /// @brief Field Digit100 offset 0
-static ::System::Globalization::____System__Globalization__HebrewNumber__HebrewToken const Digit100;
+static System::Globalization::System__Globalization__HebrewNumber__HebrewToken const Digit100;
 
 /// @brief Field Digit10 offset 0
-static ::System::Globalization::____System__Globalization__HebrewNumber__HebrewToken const Digit10;
+static System::Globalization::System__Globalization__HebrewNumber__HebrewToken const Digit10;
 
 /// @brief Field Digit1 offset 0
-static ::System::Globalization::____System__Globalization__HebrewNumber__HebrewToken const Digit1;
+static System::Globalization::System__Globalization__HebrewNumber__HebrewToken const Digit1;
 
 /// @brief Field Digit6_7 offset 0
-static ::System::Globalization::____System__Globalization__HebrewNumber__HebrewToken const Digit6_7;
+static System::Globalization::System__Globalization__HebrewNumber__HebrewToken const Digit6_7;
 
 /// @brief Field Digit7 offset 0
-static ::System::Globalization::____System__Globalization__HebrewNumber__HebrewToken const Digit7;
+static System::Globalization::System__Globalization__HebrewNumber__HebrewToken const Digit7;
 
 /// @brief Field Digit9 offset 0
-static ::System::Globalization::____System__Globalization__HebrewNumber__HebrewToken const Digit9;
+static System::Globalization::System__Globalization__HebrewNumber__HebrewToken const Digit9;
 
 /// @brief Field SingleQuote offset 0
-static ::System::Globalization::____System__Globalization__HebrewNumber__HebrewToken const SingleQuote;
+static System::Globalization::System__Globalization__HebrewNumber__HebrewToken const SingleQuote;
 
 /// @brief Field DoubleQuote offset 0
-static ::System::Globalization::____System__Globalization__HebrewNumber__HebrewToken const DoubleQuote;
+static System::Globalization::System__Globalization__HebrewNumber__HebrewToken const DoubleQuote;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -137,20 +136,20 @@ namespace System::Globalization {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3661))
 // CS Name: System.Globalization.HebrewNumber::HebrewValue
-struct CORDL_TYPE ____System__Globalization__HebrewNumber__HebrewValue : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE System__Globalization__HebrewNumber__HebrewValue : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "token", ty: "::System::Globalization::____System__Globalization__HebrewNumber__HebrewToken", modifiers: "", def_value: None }, CppParam { name: "value", ty: "int16_t", modifiers: "", def_value: None }]
-constexpr ____System__Globalization__HebrewNumber__HebrewValue(::System::Globalization::____System__Globalization__HebrewNumber__HebrewToken token, int16_t value) noexcept;
+// Ctor Parameters [CppParam { name: "token", ty: "System::Globalization::System__Globalization__HebrewNumber__HebrewToken", modifiers: "", def_value: None }, CppParam { name: "value", ty: "int16_t", modifiers: "", def_value: None }]
+constexpr System__Globalization__HebrewNumber__HebrewValue(System::Globalization::System__Globalization__HebrewNumber__HebrewToken token, int16_t value) noexcept;
 
 
-                    constexpr ____System__Globalization__HebrewNumber__HebrewValue(____System__Globalization__HebrewNumber__HebrewValue const&) = default;
-                    constexpr ____System__Globalization__HebrewNumber__HebrewValue(____System__Globalization__HebrewNumber__HebrewValue&&) = default;
-                    constexpr ____System__Globalization__HebrewNumber__HebrewValue& operator=(____System__Globalization__HebrewNumber__HebrewValue const& o) {
+                    constexpr System__Globalization__HebrewNumber__HebrewValue(System__Globalization__HebrewNumber__HebrewValue const&) = default;
+                    constexpr System__Globalization__HebrewNumber__HebrewValue(System__Globalization__HebrewNumber__HebrewValue&&) = default;
+                    constexpr System__Globalization__HebrewNumber__HebrewValue& operator=(System__Globalization__HebrewNumber__HebrewValue const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Globalization__HebrewNumber__HebrewValue& operator=(____System__Globalization__HebrewNumber__HebrewValue&& o) noexcept {
+                    constexpr System__Globalization__HebrewNumber__HebrewValue& operator=(System__Globalization__HebrewNumber__HebrewValue&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -163,7 +162,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Globalization__HebrewNumber__HebrewValue(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Globalization__HebrewNumber__HebrewValue(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -174,11 +173,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::Globalization::____System__Globalization__HebrewNumber__HebrewToken __declspec(property(get=__get_token, put=__set_token))  token;
+ System::Globalization::System__Globalization__HebrewNumber__HebrewToken __declspec(property(get=__get_token, put=__set_token))  token;
 
-constexpr void __set_token(::System::Globalization::____System__Globalization__HebrewNumber__HebrewToken value) ;
+constexpr void __set_token(System::Globalization::System__Globalization__HebrewNumber__HebrewToken value) ;
 
-constexpr ::System::Globalization::____System__Globalization__HebrewNumber__HebrewToken __get_token() const;
+constexpr System::Globalization::System__Globalization__HebrewNumber__HebrewToken __get_token() const;
 
  int16_t __declspec(property(get=__get_value, put=__set_value))  value;
 
@@ -190,7 +189,7 @@ constexpr int16_t __get_value() const;
 // Methods
 
 /// @brief Method .ctor addr 0x23e570c size 0xc virtual false final false
- void _ctor(::System::Globalization::____System__Globalization__HebrewNumber__HebrewToken token, int16_t value) ;
+ void _ctor(System::Globalization::System__Globalization__HebrewNumber__HebrewToken token, int16_t value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -202,20 +201,20 @@ namespace System::Globalization {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3662))
 // CS Name: System.Globalization.HebrewNumber::HS
-struct CORDL_TYPE ____System__Globalization__HebrewNumber__HS : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE System__Globalization__HebrewNumber__HS : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int8_t", modifiers: "", def_value: None }]
-constexpr ____System__Globalization__HebrewNumber__HS(int8_t value__) noexcept;
+constexpr System__Globalization__HebrewNumber__HS(int8_t value__) noexcept;
 
 
-                    constexpr ____System__Globalization__HebrewNumber__HS(____System__Globalization__HebrewNumber__HS const&) = default;
-                    constexpr ____System__Globalization__HebrewNumber__HS(____System__Globalization__HebrewNumber__HS&&) = default;
-                    constexpr ____System__Globalization__HebrewNumber__HS& operator=(____System__Globalization__HebrewNumber__HS const& o) {
+                    constexpr System__Globalization__HebrewNumber__HS(System__Globalization__HebrewNumber__HS const&) = default;
+                    constexpr System__Globalization__HebrewNumber__HS(System__Globalization__HebrewNumber__HS&&) = default;
+                    constexpr System__Globalization__HebrewNumber__HS& operator=(System__Globalization__HebrewNumber__HS const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Globalization__HebrewNumber__HS& operator=(____System__Globalization__HebrewNumber__HS&& o) noexcept {
+                    constexpr System__Globalization__HebrewNumber__HS& operator=(System__Globalization__HebrewNumber__HS&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -228,7 +227,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x1};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Globalization__HebrewNumber__HS(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Globalization__HebrewNumber__HS(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -236,7 +235,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______System__Globalization__HebrewNumber__HS_Unwrapped : int8_t {
+enum class __System__Globalization__HebrewNumber__HS_Unwrapped : int8_t {
 ___err = -1,
 __Start = 0,
 __S400 = 1,
@@ -259,8 +258,8 @@ __END = 100,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______System__Globalization__HebrewNumber__HS_Unwrapped () const noexcept {
-return std::bit_cast<______System__Globalization__HebrewNumber__HS_Unwrapped>(__instance);
+constexpr operator __System__Globalization__HebrewNumber__HS_Unwrapped () const noexcept {
+return std::bit_cast<__System__Globalization__HebrewNumber__HS_Unwrapped>(__instance);
 }
 
 
@@ -273,61 +272,61 @@ constexpr void __set_value__(int8_t value) ;
 constexpr int8_t __get_value__() const;
 
 /// @brief Field _err offset 0
-static ::System::Globalization::____System__Globalization__HebrewNumber__HS const _err;
+static System::Globalization::System__Globalization__HebrewNumber__HS const _err;
 
 /// @brief Field Start offset 0
-static ::System::Globalization::____System__Globalization__HebrewNumber__HS const Start;
+static System::Globalization::System__Globalization__HebrewNumber__HS const Start;
 
 /// @brief Field S400 offset 0
-static ::System::Globalization::____System__Globalization__HebrewNumber__HS const S400;
+static System::Globalization::System__Globalization__HebrewNumber__HS const S400;
 
 /// @brief Field S400_400 offset 0
-static ::System::Globalization::____System__Globalization__HebrewNumber__HS const S400_400;
+static System::Globalization::System__Globalization__HebrewNumber__HS const S400_400;
 
 /// @brief Field S400_X00 offset 0
-static ::System::Globalization::____System__Globalization__HebrewNumber__HS const S400_X00;
+static System::Globalization::System__Globalization__HebrewNumber__HS const S400_X00;
 
 /// @brief Field S400_X0 offset 0
-static ::System::Globalization::____System__Globalization__HebrewNumber__HS const S400_X0;
+static System::Globalization::System__Globalization__HebrewNumber__HS const S400_X0;
 
 /// @brief Field X00_DQ offset 0
-static ::System::Globalization::____System__Globalization__HebrewNumber__HS const X00_DQ;
+static System::Globalization::System__Globalization__HebrewNumber__HS const X00_DQ;
 
 /// @brief Field S400_X00_X0 offset 0
-static ::System::Globalization::____System__Globalization__HebrewNumber__HS const S400_X00_X0;
+static System::Globalization::System__Globalization__HebrewNumber__HS const S400_X00_X0;
 
 /// @brief Field X0_DQ offset 0
-static ::System::Globalization::____System__Globalization__HebrewNumber__HS const X0_DQ;
+static System::Globalization::System__Globalization__HebrewNumber__HS const X0_DQ;
 
 /// @brief Field X offset 0
-static ::System::Globalization::____System__Globalization__HebrewNumber__HS const X;
+static System::Globalization::System__Globalization__HebrewNumber__HS const X;
 
 /// @brief Field X0 offset 0
-static ::System::Globalization::____System__Globalization__HebrewNumber__HS const X0;
+static System::Globalization::System__Globalization__HebrewNumber__HS const X0;
 
 /// @brief Field X00 offset 0
-static ::System::Globalization::____System__Globalization__HebrewNumber__HS const X00;
+static System::Globalization::System__Globalization__HebrewNumber__HS const X00;
 
 /// @brief Field S400_DQ offset 0
-static ::System::Globalization::____System__Globalization__HebrewNumber__HS const S400_DQ;
+static System::Globalization::System__Globalization__HebrewNumber__HS const S400_DQ;
 
 /// @brief Field S400_400_DQ offset 0
-static ::System::Globalization::____System__Globalization__HebrewNumber__HS const S400_400_DQ;
+static System::Globalization::System__Globalization__HebrewNumber__HS const S400_400_DQ;
 
 /// @brief Field S400_400_100 offset 0
-static ::System::Globalization::____System__Globalization__HebrewNumber__HS const S400_400_100;
+static System::Globalization::System__Globalization__HebrewNumber__HS const S400_400_100;
 
 /// @brief Field S9 offset 0
-static ::System::Globalization::____System__Globalization__HebrewNumber__HS const S9;
+static System::Globalization::System__Globalization__HebrewNumber__HS const S9;
 
 /// @brief Field X00_S9 offset 0
-static ::System::Globalization::____System__Globalization__HebrewNumber__HS const X00_S9;
+static System::Globalization::System__Globalization__HebrewNumber__HS const X00_S9;
 
 /// @brief Field S9_DQ offset 0
-static ::System::Globalization::____System__Globalization__HebrewNumber__HS const S9_DQ;
+static System::Globalization::System__Globalization__HebrewNumber__HS const S9_DQ;
 
 /// @brief Field END offset 0
-static ::System::Globalization::____System__Globalization__HebrewNumber__HS const END;
+static System::Globalization::System__Globalization__HebrewNumber__HS const END;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -342,11 +341,11 @@ namespace System::Globalization {
 class CORDL_TYPE HebrewNumber : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using HS = ::System::Globalization::____System__Globalization__HebrewNumber__HS;
+using HS = System::Globalization::System__Globalization__HebrewNumber__HS;
 
-using HebrewValue = ::System::Globalization::____System__Globalization__HebrewNumber__HebrewValue;
+using HebrewValue = System::Globalization::System__Globalization__HebrewNumber__HebrewValue;
 
-using HebrewToken = ::System::Globalization::____System__Globalization__HebrewNumber__HebrewToken;
+using HebrewToken = System::Globalization::System__Globalization__HebrewNumber__HebrewToken;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -381,11 +380,11 @@ constexpr explicit HebrewNumber(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 
 // Fields
 
-static ::ArrayW<::System::Globalization::____System__Globalization__HebrewNumber__HebrewValue> __declspec(property(get=__get_s_hebrewValues, put=__set_s_hebrewValues))  s_hebrewValues;
+static ::ArrayW<System::Globalization::System__Globalization__HebrewNumber__HebrewValue> __declspec(property(get=__get_s_hebrewValues, put=__set_s_hebrewValues))  s_hebrewValues;
 
-static void __set_s_hebrewValues(::ArrayW<::System::Globalization::____System__Globalization__HebrewNumber__HebrewValue> value) ;
+static void __set_s_hebrewValues(::ArrayW<System::Globalization::System__Globalization__HebrewNumber__HebrewValue> value) ;
 
-static ::ArrayW<::System::Globalization::____System__Globalization__HebrewNumber__HebrewValue> __get_s_hebrewValues() ;
+static ::ArrayW<System::Globalization::System__Globalization__HebrewNumber__HebrewValue> __get_s_hebrewValues() ;
 
 static char16_t __declspec(property(get=__get_s_maxHebrewNumberCh, put=__set_s_maxHebrewNumberCh))  s_maxHebrewNumberCh;
 
@@ -393,11 +392,11 @@ static void __set_s_maxHebrewNumberCh(char16_t value) ;
 
 static char16_t __get_s_maxHebrewNumberCh() ;
 
-static ::ArrayW<::System::Globalization::____System__Globalization__HebrewNumber__HS> __declspec(property(get=__get_s_numberPasingState, put=__set_s_numberPasingState))  s_numberPasingState;
+static ::ArrayW<System::Globalization::System__Globalization__HebrewNumber__HS> __declspec(property(get=__get_s_numberPasingState, put=__set_s_numberPasingState))  s_numberPasingState;
 
-static void __set_s_numberPasingState(::ArrayW<::System::Globalization::____System__Globalization__HebrewNumber__HS> value) ;
+static void __set_s_numberPasingState(::ArrayW<System::Globalization::System__Globalization__HebrewNumber__HS> value) ;
 
-static ::ArrayW<::System::Globalization::____System__Globalization__HebrewNumber__HS> __get_s_numberPasingState() ;
+static ::ArrayW<System::Globalization::System__Globalization__HebrewNumber__HS> __get_s_numberPasingState() ;
 
 
 // Methods
@@ -406,7 +405,7 @@ static ::ArrayW<::System::Globalization::____System__Globalization__HebrewNumber
 static ::StringW ToString(int32_t Number) ;
 
 /// @brief Method ParseByChar addr 0x23e3420 size 0x190 virtual false final false
-static ::System::Globalization::HebrewNumberParsingState ParseByChar(char16_t ch, ByRef<::System::Globalization::HebrewNumberParsingContext> context) ;
+static System::Globalization::HebrewNumberParsingState ParseByChar(char16_t ch, ByRef<System::Globalization::HebrewNumberParsingContext> context) ;
 
 /// @brief Method IsDigit addr 0x23e3344 size 0xd0 virtual false final false
 static bool IsDigit(char16_t ch) ;
@@ -415,9 +414,8 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Globalization
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::____System__Globalization__HebrewNumber__HS, "System.Globalization", "HebrewNumber/HS");
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::____System__Globalization__HebrewNumber__HebrewToken, "System.Globalization", "HebrewNumber/HebrewToken");
-NEED_NO_BOX(::System::Globalization::HebrewNumber);
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::HebrewNumber, "System.Globalization", "HebrewNumber");
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::____System__Globalization__HebrewNumber__HebrewValue, "System.Globalization", "HebrewNumber/HebrewValue");
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::System__Globalization__HebrewNumber__HS, "System.Globalization", "HebrewNumber/HS");
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::System__Globalization__HebrewNumber__HebrewToken, "System.Globalization", "HebrewNumber/HebrewToken");
+NEED_NO_BOX(System::Globalization::HebrewNumber);
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::HebrewNumber, "System.Globalization", "HebrewNumber");
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::System__Globalization__HebrewNumber__HebrewValue, "System.Globalization", "HebrewNumber/HebrewValue");

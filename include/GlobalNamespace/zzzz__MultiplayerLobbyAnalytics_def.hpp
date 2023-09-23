@@ -2,19 +2,18 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace GlobalNamespace {
 class IAnalyticsModel;
-}
-namespace GlobalNamespace {
-class GameServerLobbyFlowCoordinator;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__GameServerLobbyFlowCoordinator__LobbyType;
+struct GlobalNamespace__GameServerLobbyFlowCoordinator__LobbyType;
+}
+namespace GlobalNamespace {
+class GameServerLobbyFlowCoordinator;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,7 +25,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4004))
 // CS Name: MultiplayerLobbyAnalytics
-class CORDL_TYPE MultiplayerLobbyAnalytics : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerLobbyAnalytics : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -41,7 +40,7 @@ constexpr MultiplayerLobbyAnalytics(MultiplayerLobbyAnalytics const& ) noexcept 
 constexpr MultiplayerLobbyAnalytics(MultiplayerLobbyAnalytics&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerLobbyAnalytics(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerLobbyAnalytics(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -62,17 +61,17 @@ constexpr explicit MultiplayerLobbyAnalytics(void* ptr) noexcept : ::UnityEngine
 
 // Fields
 
- ::GlobalNamespace::GameServerLobbyFlowCoordinator __declspec(property(get=__get__gameServerLobbyFlowCoordinator, put=__set__gameServerLobbyFlowCoordinator))  _gameServerLobbyFlowCoordinator;
+ GlobalNamespace::GameServerLobbyFlowCoordinator __declspec(property(get=__get__gameServerLobbyFlowCoordinator, put=__set__gameServerLobbyFlowCoordinator))  _gameServerLobbyFlowCoordinator;
 
-constexpr void __set__gameServerLobbyFlowCoordinator(::GlobalNamespace::GameServerLobbyFlowCoordinator value) ;
+constexpr void __set__gameServerLobbyFlowCoordinator(GlobalNamespace::GameServerLobbyFlowCoordinator value) ;
 
-constexpr ::GlobalNamespace::GameServerLobbyFlowCoordinator __get__gameServerLobbyFlowCoordinator() const;
+constexpr GlobalNamespace::GameServerLobbyFlowCoordinator __get__gameServerLobbyFlowCoordinator() const;
 
- ::GlobalNamespace::IAnalyticsModel __declspec(property(get=__get__analyticsModel, put=__set__analyticsModel))  _analyticsModel;
+ GlobalNamespace::IAnalyticsModel __declspec(property(get=__get__analyticsModel, put=__set__analyticsModel))  _analyticsModel;
 
-constexpr void __set__analyticsModel(::GlobalNamespace::IAnalyticsModel value) ;
+constexpr void __set__analyticsModel(GlobalNamespace::IAnalyticsModel value) ;
 
-constexpr ::GlobalNamespace::IAnalyticsModel __get__analyticsModel() const;
+constexpr GlobalNamespace::IAnalyticsModel __get__analyticsModel() const;
 
 
 // Methods
@@ -96,10 +95,10 @@ constexpr ::GlobalNamespace::IAnalyticsModel __get__analyticsModel() const;
  void HandleGameServerLobbyFlowCoordinatorDidOpenInvitePanel() ;
 
 /// @brief Method LogClick addr 0x20b2b78 size 0xcc virtual false final false
- void LogClick(::System::Collections::Generic::Dictionary_2<::StringW,::StringW> clickData) ;
+ void LogClick(System::Collections::Generic::Dictionary_2<::StringW,::StringW> clickData) ;
 
 /// @brief Method GetEventTypeFromLobbyType addr 0x20b29e4 size 0x80 virtual false final false
- ::StringW GetEventTypeFromLobbyType(::GlobalNamespace::____GlobalNamespace__GameServerLobbyFlowCoordinator__LobbyType lobbyType) ;
+ ::StringW GetEventTypeFromLobbyType(GlobalNamespace::GlobalNamespace__GameServerLobbyFlowCoordinator__LobbyType lobbyType) ;
 
 // Ctor Parameters []
 explicit MultiplayerLobbyAnalytics() ;
@@ -111,6 +110,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerLobbyAnalytics);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerLobbyAnalytics, "", "MultiplayerLobbyAnalytics");
+NEED_NO_BOX(GlobalNamespace::MultiplayerLobbyAnalytics);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyAnalytics, "", "MultiplayerLobbyAnalytics");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace UnityEngine {
 struct Color32;
 }
@@ -52,15 +51,14 @@ constexpr explicit ColorUtilities(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 // Methods
 
 /// @brief Method CompareColors addr 0x2bd3f38 size 0x10 virtual false final false
-static bool CompareColors(::UnityEngine::Color32 a, ::UnityEngine::Color32 b) ;
+static bool CompareColors(UnityEngine::Color32 a, UnityEngine::Color32 b) ;
 
 /// @brief Method MultiplyColors addr 0x2bd3f48 size 0xc0 virtual false final false
-static ::UnityEngine::Color32 MultiplyColors(::UnityEngine::Color32 c1, ::UnityEngine::Color32 c2) ;
+static UnityEngine::Color32 MultiplyColors(UnityEngine::Color32 c1, UnityEngine::Color32 c2) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::Text
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::TextCore::Text::ColorUtilities);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::ColorUtilities, "UnityEngine.TextCore.Text", "ColorUtilities");
+NEED_NO_BOX(UnityEngine::TextCore::Text::ColorUtilities);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Text::ColorUtilities, "UnityEngine.TextCore.Text", "ColorUtilities");

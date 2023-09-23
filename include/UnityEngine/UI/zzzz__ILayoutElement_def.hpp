@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UI {
 class ILayoutElement;
@@ -73,6 +72,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UI
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UI::ILayoutElement);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::ILayoutElement, "UnityEngine.UI", "ILayoutElement");
+NEED_NO_BOX(UnityEngine::UI::ILayoutElement);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ILayoutElement, "UnityEngine.UI", "ILayoutElement");

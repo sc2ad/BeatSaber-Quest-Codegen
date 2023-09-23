@@ -4,12 +4,11 @@
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
 namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Processors {
@@ -18,10 +17,10 @@ class StickDeadzoneProcessor;
 // Type: UnityEngine.InputSystem.Processors::StickDeadzoneProcessor
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6319), inst: 393 }), TypeDefinitionIndex(TypeDefinitionIndex(10184)), TypeDefinitionIndex(TypeDefinitionIndex(6319))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10184)), TypeDefinitionIndex(TypeDefinitionIndex(6319)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6319), inst: 393 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6676))
 // CS Name: UnityEngine.InputSystem.Processors.StickDeadzoneProcessor
-class CORDL_TYPE StickDeadzoneProcessor : public ::UnityEngine::InputSystem::InputProcessor_1<::UnityEngine::Vector2> {
+class CORDL_TYPE StickDeadzoneProcessor : public UnityEngine::InputSystem::InputProcessor_1<UnityEngine::Vector2> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr StickDeadzoneProcessor(StickDeadzoneProcessor const& ) noexcept = defa
 constexpr StickDeadzoneProcessor(StickDeadzoneProcessor&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit StickDeadzoneProcessor(void* ptr) noexcept : ::UnityEngine::InputSystem::InputProcessor_1<::UnityEngine::Vector2>(ptr) {
+constexpr explicit StickDeadzoneProcessor(void* ptr) noexcept : UnityEngine::InputSystem::InputProcessor_1<UnityEngine::Vector2>(ptr) {
 }
 
 
@@ -86,7 +85,7 @@ constexpr float_t __get_max() const;
  float_t get_maxOrDefault() ;
 
 /// @brief Method Process addr 0x2967584 size 0xd0 virtual true final false
- ::UnityEngine::Vector2 Process(::UnityEngine::Vector2 value, ::UnityEngine::InputSystem::InputControl control) ;
+ UnityEngine::Vector2 Process(UnityEngine::Vector2 value, UnityEngine::InputSystem::InputControl control) ;
 
 /// @brief Method GetDeadZoneAdjustedValue addr 0x2967654 size 0x68 virtual false final false
  float_t GetDeadZoneAdjustedValue(float_t value) ;
@@ -104,6 +103,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Processors
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Processors::StickDeadzoneProcessor);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Processors::StickDeadzoneProcessor, "UnityEngine.InputSystem.Processors", "StickDeadzoneProcessor");
+NEED_NO_BOX(UnityEngine::InputSystem::Processors::StickDeadzoneProcessor);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Processors::StickDeadzoneProcessor, "UnityEngine.InputSystem.Processors", "StickDeadzoneProcessor");

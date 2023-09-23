@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace Zenject {
 struct PoolExpandMethods;
 }
@@ -58,11 +57,11 @@ constexpr void __set__ShowExpandWarning_k__BackingField(bool value) ;
 
 constexpr bool __get__ShowExpandWarning_k__BackingField() const;
 
- ::Zenject::PoolExpandMethods __declspec(property(get=__get__ExpandMethod_k__BackingField, put=__set__ExpandMethod_k__BackingField))  _ExpandMethod_k__BackingField;
+ Zenject::PoolExpandMethods __declspec(property(get=__get__ExpandMethod_k__BackingField, put=__set__ExpandMethod_k__BackingField))  _ExpandMethod_k__BackingField;
 
-constexpr void __set__ExpandMethod_k__BackingField(::Zenject::PoolExpandMethods value) ;
+constexpr void __set__ExpandMethod_k__BackingField(Zenject::PoolExpandMethods value) ;
 
-constexpr ::Zenject::PoolExpandMethods __get__ExpandMethod_k__BackingField() const;
+constexpr Zenject::PoolExpandMethods __get__ExpandMethod_k__BackingField() const;
 
  int32_t __declspec(property(get=__get__InitialSize_k__BackingField, put=__set__InitialSize_k__BackingField))  _InitialSize_k__BackingField;
 
@@ -81,7 +80,7 @@ constexpr int32_t __get__MaxSize_k__BackingField() const;
 
  bool __declspec(property(get=get_ShowExpandWarning, put=set_ShowExpandWarning))  ShowExpandWarning;
 
- ::Zenject::PoolExpandMethods __declspec(property(get=get_ExpandMethod, put=set_ExpandMethod))  ExpandMethod;
+ Zenject::PoolExpandMethods __declspec(property(get=get_ExpandMethod, put=set_ExpandMethod))  ExpandMethod;
 
  int32_t __declspec(property(get=get_InitialSize, put=set_InitialSize))  InitialSize;
 
@@ -103,10 +102,10 @@ explicit MemoryPoolBindInfo() ;
  void set_ShowExpandWarning(bool value) ;
 
 /// @brief Method get_ExpandMethod addr 0x2d661cc size 0x8 virtual false final false
- ::Zenject::PoolExpandMethods get_ExpandMethod() ;
+ Zenject::PoolExpandMethods get_ExpandMethod() ;
 
 /// @brief Method set_ExpandMethod addr 0x2d661d4 size 0x8 virtual false final false
- void set_ExpandMethod(::Zenject::PoolExpandMethods value) ;
+ void set_ExpandMethod(Zenject::PoolExpandMethods value) ;
 
 /// @brief Method get_InitialSize addr 0x2d661dc size 0x8 virtual false final false
  int32_t get_InitialSize() ;
@@ -124,6 +123,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::MemoryPoolBindInfo);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::MemoryPoolBindInfo, "Zenject", "MemoryPoolBindInfo");
+NEED_NO_BOX(Zenject::MemoryPoolBindInfo);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::MemoryPoolBindInfo, "Zenject", "MemoryPoolBindInfo");

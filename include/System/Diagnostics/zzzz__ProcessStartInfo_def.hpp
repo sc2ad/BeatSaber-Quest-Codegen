@@ -4,32 +4,31 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace System::Diagnostics {
+class Process;
+}
 namespace System::Collections::ObjectModel {
 template<typename T>
 class Collection_1;
 }
+namespace System::Collections::Specialized {
+class StringDictionary;
+}
+namespace System {
+class WeakReference;
+}
 namespace System::Text {
 class Encoding;
 }
-namespace System::Security {
-class SecureString;
+namespace System::Diagnostics {
+struct ProcessWindowStyle;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class IDictionary_2;
 }
-namespace System {
-class WeakReference;
-}
-namespace System::Collections::Specialized {
-class StringDictionary;
-}
-namespace System::Diagnostics {
-class Process;
-}
-namespace System::Diagnostics {
-struct ProcessWindowStyle;
+namespace System::Security {
+class SecureString;
 }
 // Forward declare root types
 namespace System::Diagnostics {
@@ -101,11 +100,11 @@ constexpr void __set_verb(::StringW value) ;
 
 constexpr ::StringW __get_verb() const;
 
- ::System::Diagnostics::ProcessWindowStyle __declspec(property(get=__get_windowStyle, put=__set_windowStyle))  windowStyle;
+ System::Diagnostics::ProcessWindowStyle __declspec(property(get=__get_windowStyle, put=__set_windowStyle))  windowStyle;
 
-constexpr void __set_windowStyle(::System::Diagnostics::ProcessWindowStyle value) ;
+constexpr void __set_windowStyle(System::Diagnostics::ProcessWindowStyle value) ;
 
-constexpr ::System::Diagnostics::ProcessWindowStyle __get_windowStyle() const;
+constexpr System::Diagnostics::ProcessWindowStyle __get_windowStyle() const;
 
  bool __declspec(property(get=__get_errorDialog, put=__set_errorDialog))  errorDialog;
 
@@ -137,11 +136,11 @@ constexpr void __set_domain(::StringW value) ;
 
 constexpr ::StringW __get_domain() const;
 
- ::System::Security::SecureString __declspec(property(get=__get_password, put=__set_password))  password;
+ System::Security::SecureString __declspec(property(get=__get_password, put=__set_password))  password;
 
-constexpr void __set_password(::System::Security::SecureString value) ;
+constexpr void __set_password(System::Security::SecureString value) ;
 
-constexpr ::System::Security::SecureString __get_password() const;
+constexpr System::Security::SecureString __get_password() const;
 
  ::StringW __declspec(property(get=__get_passwordInClearText, put=__set_passwordInClearText))  passwordInClearText;
 
@@ -173,17 +172,17 @@ constexpr void __set_redirectStandardError(bool value) ;
 
 constexpr bool __get_redirectStandardError() const;
 
- ::System::Text::Encoding __declspec(property(get=__get_standardOutputEncoding, put=__set_standardOutputEncoding))  standardOutputEncoding;
+ System::Text::Encoding __declspec(property(get=__get_standardOutputEncoding, put=__set_standardOutputEncoding))  standardOutputEncoding;
 
-constexpr void __set_standardOutputEncoding(::System::Text::Encoding value) ;
+constexpr void __set_standardOutputEncoding(System::Text::Encoding value) ;
 
-constexpr ::System::Text::Encoding __get_standardOutputEncoding() const;
+constexpr System::Text::Encoding __get_standardOutputEncoding() const;
 
- ::System::Text::Encoding __declspec(property(get=__get_standardErrorEncoding, put=__set_standardErrorEncoding))  standardErrorEncoding;
+ System::Text::Encoding __declspec(property(get=__get_standardErrorEncoding, put=__set_standardErrorEncoding))  standardErrorEncoding;
 
-constexpr void __set_standardErrorEncoding(::System::Text::Encoding value) ;
+constexpr void __set_standardErrorEncoding(System::Text::Encoding value) ;
 
-constexpr ::System::Text::Encoding __get_standardErrorEncoding() const;
+constexpr System::Text::Encoding __get_standardErrorEncoding() const;
 
  bool __declspec(property(get=__get_createNoWindow, put=__set_createNoWindow))  createNoWindow;
 
@@ -191,17 +190,17 @@ constexpr void __set_createNoWindow(bool value) ;
 
 constexpr bool __get_createNoWindow() const;
 
- ::System::WeakReference __declspec(property(get=__get_weakParentProcess, put=__set_weakParentProcess))  weakParentProcess;
+ System::WeakReference __declspec(property(get=__get_weakParentProcess, put=__set_weakParentProcess))  weakParentProcess;
 
-constexpr void __set_weakParentProcess(::System::WeakReference value) ;
+constexpr void __set_weakParentProcess(System::WeakReference value) ;
 
-constexpr ::System::WeakReference __get_weakParentProcess() const;
+constexpr System::WeakReference __get_weakParentProcess() const;
 
- ::System::Collections::Specialized::StringDictionary __declspec(property(get=__get_environmentVariables, put=__set_environmentVariables))  environmentVariables;
+ System::Collections::Specialized::StringDictionary __declspec(property(get=__get_environmentVariables, put=__set_environmentVariables))  environmentVariables;
 
-constexpr void __set_environmentVariables(::System::Collections::Specialized::StringDictionary value) ;
+constexpr void __set_environmentVariables(System::Collections::Specialized::StringDictionary value) ;
 
-constexpr ::System::Collections::Specialized::StringDictionary __get_environmentVariables() const;
+constexpr System::Collections::Specialized::StringDictionary __get_environmentVariables() const;
 
 static ::ArrayW<::StringW> __declspec(property(get=__get_empty, put=__set_empty))  empty;
 
@@ -209,32 +208,32 @@ static void __set_empty(::ArrayW<::StringW> value) ;
 
 static ::ArrayW<::StringW> __get_empty() ;
 
- ::System::Collections::ObjectModel::Collection_1<::StringW> __declspec(property(get=__get__argumentList, put=__set__argumentList))  _argumentList;
+ System::Collections::ObjectModel::Collection_1<::StringW> __declspec(property(get=__get__argumentList, put=__set__argumentList))  _argumentList;
 
-constexpr void __set__argumentList(::System::Collections::ObjectModel::Collection_1<::StringW> value) ;
+constexpr void __set__argumentList(System::Collections::ObjectModel::Collection_1<::StringW> value) ;
 
-constexpr ::System::Collections::ObjectModel::Collection_1<::StringW> __get__argumentList() const;
+constexpr System::Collections::ObjectModel::Collection_1<::StringW> __get__argumentList() const;
 
- ::System::Collections::Generic::IDictionary_2<::StringW,::StringW> __declspec(property(get=__get_environment, put=__set_environment))  environment;
+ System::Collections::Generic::IDictionary_2<::StringW,::StringW> __declspec(property(get=__get_environment, put=__set_environment))  environment;
 
-constexpr void __set_environment(::System::Collections::Generic::IDictionary_2<::StringW,::StringW> value) ;
+constexpr void __set_environment(System::Collections::Generic::IDictionary_2<::StringW,::StringW> value) ;
 
-constexpr ::System::Collections::Generic::IDictionary_2<::StringW,::StringW> __get_environment() const;
+constexpr System::Collections::Generic::IDictionary_2<::StringW,::StringW> __get_environment() const;
 
- ::System::Text::Encoding __declspec(property(get=__get__StandardInputEncoding_k__BackingField, put=__set__StandardInputEncoding_k__BackingField))  _StandardInputEncoding_k__BackingField;
+ System::Text::Encoding __declspec(property(get=__get__StandardInputEncoding_k__BackingField, put=__set__StandardInputEncoding_k__BackingField))  _StandardInputEncoding_k__BackingField;
 
-constexpr void __set__StandardInputEncoding_k__BackingField(::System::Text::Encoding value) ;
+constexpr void __set__StandardInputEncoding_k__BackingField(System::Text::Encoding value) ;
 
-constexpr ::System::Text::Encoding __get__StandardInputEncoding_k__BackingField() const;
+constexpr System::Text::Encoding __get__StandardInputEncoding_k__BackingField() const;
 
 
 // Properties
 
- ::System::Collections::ObjectModel::Collection_1<::StringW> __declspec(property(get=get_ArgumentList))  ArgumentList;
+ System::Collections::ObjectModel::Collection_1<::StringW> __declspec(property(get=get_ArgumentList))  ArgumentList;
 
  ::StringW __declspec(property(get=get_Arguments, put=set_Arguments))  Arguments;
 
- ::System::Collections::Specialized::StringDictionary __declspec(property(get=get_EnvironmentVariables))  EnvironmentVariables;
+ System::Collections::Specialized::StringDictionary __declspec(property(get=get_EnvironmentVariables))  EnvironmentVariables;
 
  bool __declspec(property(get=get_RedirectStandardInput))  RedirectStandardInput;
 
@@ -242,15 +241,15 @@ constexpr ::System::Text::Encoding __get__StandardInputEncoding_k__BackingField(
 
  bool __declspec(property(get=get_RedirectStandardError))  RedirectStandardError;
 
- ::System::Text::Encoding __declspec(property(get=get_StandardErrorEncoding))  StandardErrorEncoding;
+ System::Text::Encoding __declspec(property(get=get_StandardErrorEncoding))  StandardErrorEncoding;
 
- ::System::Text::Encoding __declspec(property(get=get_StandardOutputEncoding))  StandardOutputEncoding;
+ System::Text::Encoding __declspec(property(get=get_StandardOutputEncoding))  StandardOutputEncoding;
 
  bool __declspec(property(get=get_UseShellExecute))  UseShellExecute;
 
  ::StringW __declspec(property(get=get_UserName))  UserName;
 
- ::System::Security::SecureString __declspec(property(get=get_Password))  Password;
+ System::Security::SecureString __declspec(property(get=get_Password))  Password;
 
  ::StringW __declspec(property(get=get_Domain))  Domain;
 
@@ -262,19 +261,19 @@ constexpr ::System::Text::Encoding __get__StandardInputEncoding_k__BackingField(
 
  bool __declspec(property(get=get_HaveEnvVars))  HaveEnvVars;
 
- ::System::Text::Encoding __declspec(property(get=get_StandardInputEncoding))  StandardInputEncoding;
+ System::Text::Encoding __declspec(property(get=get_StandardInputEncoding))  StandardInputEncoding;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "parent", ty: "::System::Diagnostics::Process", modifiers: "", def_value: None }]
-explicit ProcessStartInfo(::System::Diagnostics::Process parent) ;
+// Ctor Parameters [CppParam { name: "parent", ty: "System::Diagnostics::Process", modifiers: "", def_value: None }]
+explicit ProcessStartInfo(System::Diagnostics::Process parent) ;
 
 /// @brief Method .ctor addr 0x27ddb20 size 0x84 virtual false final false
- void _ctor(::System::Diagnostics::Process parent) ;
+ void _ctor(System::Diagnostics::Process parent) ;
 
 /// @brief Method get_ArgumentList addr 0x27e0c98 size 0x80 virtual false final false
- ::System::Collections::ObjectModel::Collection_1<::StringW> get_ArgumentList() ;
+ System::Collections::ObjectModel::Collection_1<::StringW> get_ArgumentList() ;
 
 /// @brief Method get_Arguments addr 0x27e0d18 size 0x54 virtual false final false
  ::StringW get_Arguments() ;
@@ -283,7 +282,7 @@ explicit ProcessStartInfo(::System::Diagnostics::Process parent) ;
  void set_Arguments(::StringW value) ;
 
 /// @brief Method get_EnvironmentVariables addr 0x27e0728 size 0x570 virtual false final false
- ::System::Collections::Specialized::StringDictionary get_EnvironmentVariables() ;
+ System::Collections::Specialized::StringDictionary get_EnvironmentVariables() ;
 
 /// @brief Method get_RedirectStandardInput addr 0x27e0e1c size 0x8 virtual false final false
  bool get_RedirectStandardInput() ;
@@ -295,10 +294,10 @@ explicit ProcessStartInfo(::System::Diagnostics::Process parent) ;
  bool get_RedirectStandardError() ;
 
 /// @brief Method get_StandardErrorEncoding addr 0x27e0e34 size 0x8 virtual false final false
- ::System::Text::Encoding get_StandardErrorEncoding() ;
+ System::Text::Encoding get_StandardErrorEncoding() ;
 
 /// @brief Method get_StandardOutputEncoding addr 0x27e0e3c size 0x8 virtual false final false
- ::System::Text::Encoding get_StandardOutputEncoding() ;
+ System::Text::Encoding get_StandardOutputEncoding() ;
 
 /// @brief Method get_UseShellExecute addr 0x27e0e44 size 0x8 virtual false final false
  bool get_UseShellExecute() ;
@@ -307,7 +306,7 @@ explicit ProcessStartInfo(::System::Diagnostics::Process parent) ;
  ::StringW get_UserName() ;
 
 /// @brief Method get_Password addr 0x27e0e4c size 0x8 virtual false final false
- ::System::Security::SecureString get_Password() ;
+ System::Security::SecureString get_Password() ;
 
 /// @brief Method get_Domain addr 0x27e0dc0 size 0x54 virtual false final false
  ::StringW get_Domain() ;
@@ -328,12 +327,11 @@ explicit ProcessStartInfo(::System::Diagnostics::Process parent) ;
  bool get_HaveEnvVars() ;
 
 /// @brief Method get_StandardInputEncoding addr 0x27e0e64 size 0x8 virtual false final false
- ::System::Text::Encoding get_StandardInputEncoding() ;
+ System::Text::Encoding get_StandardInputEncoding() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Diagnostics
-} // end anonymous namespace
-NEED_NO_BOX(::System::Diagnostics::ProcessStartInfo);
-DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::ProcessStartInfo, "System.Diagnostics", "ProcessStartInfo");
+NEED_NO_BOX(System::Diagnostics::ProcessStartInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::ProcessStartInfo, "System.Diagnostics", "ProcessStartInfo");

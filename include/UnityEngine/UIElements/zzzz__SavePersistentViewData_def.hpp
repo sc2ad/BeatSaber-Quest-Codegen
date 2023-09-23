@@ -3,7 +3,6 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class SavePersistentViewData;
@@ -14,7 +13,7 @@ namespace UnityEngine::UIElements {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6960))
 // CS Name: UnityEngine.UIElements.SavePersistentViewData
-class CORDL_TYPE SavePersistentViewData : public ::System::MulticastDelegate {
+class CORDL_TYPE SavePersistentViewData : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr SavePersistentViewData(SavePersistentViewData const& ) noexcept = defa
 constexpr SavePersistentViewData(SavePersistentViewData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SavePersistentViewData(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit SavePersistentViewData(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -63,6 +62,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::SavePersistentViewData);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::SavePersistentViewData, "UnityEngine.UIElements", "SavePersistentViewData");
+NEED_NO_BOX(UnityEngine::UIElements::SavePersistentViewData);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::SavePersistentViewData, "UnityEngine.UIElements", "SavePersistentViewData");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HAPI_PDG_WorkitemState;
@@ -75,38 +74,37 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field HAPI_PDG_WORKITEM_UNDEFINED offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_UNDEFINED;
+static HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_UNDEFINED;
 
 /// @brief Field HAPI_PDG_WORKITEM_UNCOOKED offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_UNCOOKED;
+static HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_UNCOOKED;
 
 /// @brief Field HAPI_PDG_WORKITEM_WAITING offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_WAITING;
+static HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_WAITING;
 
 /// @brief Field HAPI_PDG_WORKITEM_SCHEDULED offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_SCHEDULED;
+static HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_SCHEDULED;
 
 /// @brief Field HAPI_PDG_WORKITEM_COOKING offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_COOKING;
+static HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_COOKING;
 
 /// @brief Field HAPI_PDG_WORKITEM_COOKED_SUCCESS offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_COOKED_SUCCESS;
+static HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_COOKED_SUCCESS;
 
 /// @brief Field HAPI_PDG_WORKITEM_COOKED_CACHE offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_COOKED_CACHE;
+static HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_COOKED_CACHE;
 
 /// @brief Field HAPI_PDG_WORKITEM_COOKED_FAIL offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_COOKED_FAIL;
+static HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_COOKED_FAIL;
 
 /// @brief Field HAPI_PDG_WORKITEM_COOKED_CANCEL offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_COOKED_CANCEL;
+static HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_COOKED_CANCEL;
 
 /// @brief Field HAPI_PDG_WORKITEM_DIRTY offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_DIRTY;
+static HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_DIRTY;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_PDG_WorkitemState, "HoudiniEngineUnity", "HAPI_PDG_WorkitemState");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_PDG_WorkitemState, "HoudiniEngineUnity", "HAPI_PDG_WorkitemState");

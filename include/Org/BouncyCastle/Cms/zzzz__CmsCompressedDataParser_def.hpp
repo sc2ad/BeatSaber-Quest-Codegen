@@ -3,12 +3,11 @@
 #include "Org/BouncyCastle/Cms/zzzz__CmsContentInfoParser_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Cms {
-class CmsTypedStream;
-}
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsTypedStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -20,7 +19,7 @@ namespace Org::BouncyCastle::Cms {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(620))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(630))
 // CS Name: Org.BouncyCastle.Cms.CmsCompressedDataParser
-class CORDL_TYPE CmsCompressedDataParser : public ::Org::BouncyCastle::Cms::CmsContentInfoParser {
+class CORDL_TYPE CmsCompressedDataParser : public Org::BouncyCastle::Cms::CmsContentInfoParser {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr CmsCompressedDataParser(CmsCompressedDataParser const& ) noexcept = de
 constexpr CmsCompressedDataParser(CmsCompressedDataParser&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CmsCompressedDataParser(void* ptr) noexcept : ::Org::BouncyCastle::Cms::CmsContentInfoParser(ptr) {
+constexpr explicit CmsCompressedDataParser(void* ptr) noexcept : Org::BouncyCastle::Cms::CmsContentInfoParser(ptr) {
 }
 
 
@@ -62,19 +61,18 @@ explicit CmsCompressedDataParser(::ArrayW<uint8_t> compressedData) ;
 /// @brief Method .ctor addr 0x1152d84 size 0x78 virtual false final false
  void _ctor(::ArrayW<uint8_t> compressedData) ;
 
-// Ctor Parameters [CppParam { name: "compressedData", ty: "::System::IO::Stream", modifiers: "", def_value: None }]
-explicit CmsCompressedDataParser(::System::IO::Stream compressedData) ;
+// Ctor Parameters [CppParam { name: "compressedData", ty: "System::IO::Stream", modifiers: "", def_value: None }]
+explicit CmsCompressedDataParser(System::IO::Stream compressedData) ;
 
 /// @brief Method .ctor addr 0x1152dfc size 0x4 virtual false final false
- void _ctor(::System::IO::Stream compressedData) ;
+ void _ctor(System::IO::Stream compressedData) ;
 
 /// @brief Method GetContent addr 0x1152e00 size 0x300 virtual false final false
- ::Org::BouncyCastle::Cms::CmsTypedStream GetContent() ;
+ Org::BouncyCastle::Cms::CmsTypedStream GetContent() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Cms
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Cms::CmsCompressedDataParser);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::CmsCompressedDataParser, "Org.BouncyCastle.Cms", "CmsCompressedDataParser");
+NEED_NO_BOX(Org::BouncyCastle::Cms::CmsCompressedDataParser);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Cms::CmsCompressedDataParser, "Org.BouncyCastle.Cms", "CmsCompressedDataParser");

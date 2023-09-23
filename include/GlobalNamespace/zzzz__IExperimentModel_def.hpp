@@ -1,6 +1,5 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
@@ -31,15 +30,14 @@ constexpr explicit IExperimentModel(void* ptr) noexcept : ::cordl_internals::Int
 // Methods
 
 /// @brief Method IsEmployee addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Threading::Tasks::Task_1<bool> IsEmployee() ;
+ System::Threading::Tasks::Task_1<bool> IsEmployee() ;
 
 /// @brief Method IsInTest addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Threading::Tasks::Task_1<bool> IsInTest(::GlobalNamespace::IExperimentData data) ;
+ System::Threading::Tasks::Task_1<bool> IsInTest(GlobalNamespace::IExperimentData data) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IExperimentModel);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IExperimentModel, "", "IExperimentModel");
+NEED_NO_BOX(GlobalNamespace::IExperimentModel);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IExperimentModel, "", "IExperimentModel");

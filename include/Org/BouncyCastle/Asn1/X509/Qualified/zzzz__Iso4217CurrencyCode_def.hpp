@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Choice;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509::Qualified {
@@ -24,11 +23,11 @@ namespace Org::BouncyCastle::Asn1::X509::Qualified {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(329))
 // CS Name: Org.BouncyCastle.Asn1.X509.Qualified.Iso4217CurrencyCode
-class CORDL_TYPE Iso4217CurrencyCode : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
+class CORDL_TYPE Iso4217CurrencyCode : public Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Asn1::IAsn1Choice
-constexpr operator  ::Org::BouncyCastle::Asn1::IAsn1Choice() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Asn1::IAsn1Choice
+constexpr operator  Org::BouncyCastle::Asn1::IAsn1Choice() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -42,7 +41,7 @@ constexpr Iso4217CurrencyCode(Iso4217CurrencyCode const& ) noexcept = default;
 constexpr Iso4217CurrencyCode(Iso4217CurrencyCode&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Iso4217CurrencyCode(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
+constexpr explicit Iso4217CurrencyCode(void* ptr) noexcept : Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
 }
 
 
@@ -72,11 +71,11 @@ static constexpr int32_t  NumericMinSize{1};
 /// @brief Field NumericMaxSize offset 0
 static constexpr int32_t  NumericMaxSize{999};
 
- ::Org::BouncyCastle::Asn1::Asn1Encodable __declspec(property(get=__get_obj, put=__set_obj))  obj;
+ Org::BouncyCastle::Asn1::Asn1Encodable __declspec(property(get=__get_obj, put=__set_obj))  obj;
 
-constexpr void __set_obj(::Org::BouncyCastle::Asn1::Asn1Encodable value) ;
+constexpr void __set_obj(Org::BouncyCastle::Asn1::Asn1Encodable value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable __get_obj() const;
+constexpr Org::BouncyCastle::Asn1::Asn1Encodable __get_obj() const;
 
 
 // Properties
@@ -91,7 +90,7 @@ constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable __get_obj() const;
 // Methods
 
 /// @brief Method GetInstance addr 0xff385c size 0x1ec virtual false final false
-static ::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode GetInstance(::bs_hook::Il2CppWrapperType obj) ;
+static Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
 // Ctor Parameters [CppParam { name: "numeric", ty: "int32_t", modifiers: "", def_value: None }]
 explicit Iso4217CurrencyCode(int32_t numeric) ;
@@ -115,12 +114,11 @@ explicit Iso4217CurrencyCode(::StringW alphabetic) ;
  int32_t get_Numeric() ;
 
 /// @brief Method ToAsn1Object addr 0xff3f1c size 0x20 virtual true final false
- ::Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
+ Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::X509::Qualified
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode, "Org.BouncyCastle.Asn1.X509.Qualified", "Iso4217CurrencyCode");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode, "Org.BouncyCastle.Asn1.X509.Qualified", "Iso4217CurrencyCode");

@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_def.hpp"
 #include "Oculus/Platform/Models/zzzz__InstalledApplication_def.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class InstalledApplicationList;
@@ -14,7 +13,7 @@ namespace Oculus::Platform::Models {
 // Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1137 }), TypeDefinitionIndex(TypeDefinitionIndex(13410)), TypeDefinitionIndex(TypeDefinitionIndex(13417))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13418))
 // CS Name: Oculus.Platform.Models.InstalledApplicationList
-class CORDL_TYPE InstalledApplicationList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::InstalledApplication> {
+class CORDL_TYPE InstalledApplicationList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::InstalledApplication> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr InstalledApplicationList(InstalledApplicationList const& ) noexcept = 
 constexpr InstalledApplicationList(InstalledApplicationList&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit InstalledApplicationList(void* ptr) noexcept : ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::InstalledApplication>(ptr) {
+constexpr explicit InstalledApplicationList(void* ptr) noexcept : Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::InstalledApplication>(ptr) {
 }
 
 
@@ -60,6 +59,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::InstalledApplicationList);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::InstalledApplicationList, "Oculus.Platform.Models", "InstalledApplicationList");
+NEED_NO_BOX(Oculus::Platform::Models::InstalledApplicationList);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::InstalledApplicationList, "Oculus.Platform.Models", "InstalledApplicationList");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System {
 class Action;
 }
@@ -21,8 +20,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE MockLevelEndActions : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::ILevelEndActions
-constexpr operator  ::GlobalNamespace::ILevelEndActions() const noexcept;
+/// @brief Convert operator to GlobalNamespace::ILevelEndActions
+constexpr operator  GlobalNamespace::ILevelEndActions() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -57,32 +56,32 @@ constexpr explicit MockLevelEndActions(void* ptr) noexcept : ::bs_hook::Il2CppWr
 
 // Fields
 
- ::System::Action __declspec(property(get=__get_levelFailedEvent, put=__set_levelFailedEvent))  levelFailedEvent;
+ System::Action __declspec(property(get=__get_levelFailedEvent, put=__set_levelFailedEvent))  levelFailedEvent;
 
-constexpr void __set_levelFailedEvent(::System::Action value) ;
+constexpr void __set_levelFailedEvent(System::Action value) ;
 
-constexpr ::System::Action __get_levelFailedEvent() const;
+constexpr System::Action __get_levelFailedEvent() const;
 
- ::System::Action __declspec(property(get=__get_levelFinishedEvent, put=__set_levelFinishedEvent))  levelFinishedEvent;
+ System::Action __declspec(property(get=__get_levelFinishedEvent, put=__set_levelFinishedEvent))  levelFinishedEvent;
 
-constexpr void __set_levelFinishedEvent(::System::Action value) ;
+constexpr void __set_levelFinishedEvent(System::Action value) ;
 
-constexpr ::System::Action __get_levelFinishedEvent() const;
+constexpr System::Action __get_levelFinishedEvent() const;
 
 
 // Methods
 
 /// @brief Method add_levelFailedEvent addr 0x2271784 size 0x9c virtual true final true
- void add_levelFailedEvent(::System::Action value) ;
+ void add_levelFailedEvent(System::Action value) ;
 
 /// @brief Method remove_levelFailedEvent addr 0x2271820 size 0x9c virtual true final true
- void remove_levelFailedEvent(::System::Action value) ;
+ void remove_levelFailedEvent(System::Action value) ;
 
 /// @brief Method add_levelFinishedEvent addr 0x22718bc size 0x9c virtual true final true
- void add_levelFinishedEvent(::System::Action value) ;
+ void add_levelFinishedEvent(System::Action value) ;
 
 /// @brief Method remove_levelFinishedEvent addr 0x2271958 size 0x9c virtual true final true
- void remove_levelFinishedEvent(::System::Action value) ;
+ void remove_levelFinishedEvent(System::Action value) ;
 
 // Ctor Parameters []
 explicit MockLevelEndActions() ;
@@ -94,6 +93,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MockLevelEndActions);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MockLevelEndActions, "", "MockLevelEndActions");
+NEED_NO_BOX(GlobalNamespace::MockLevelEndActions);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockLevelEndActions, "", "MockLevelEndActions");

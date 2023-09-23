@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "RootMotion/FinalIK/zzzz__Poser_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace UnityEngine {
 class Transform;
 }
@@ -22,7 +21,7 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12559))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12558))
 // CS Name: RootMotion.FinalIK.HandPoser
-class CORDL_TYPE HandPoser : public ::RootMotion::FinalIK::Poser {
+class CORDL_TYPE HandPoser : public RootMotion::FinalIK::Poser {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr HandPoser(HandPoser const& ) noexcept = default;
 constexpr HandPoser(HandPoser&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HandPoser(void* ptr) noexcept : ::RootMotion::FinalIK::Poser(ptr) {
+constexpr explicit HandPoser(void* ptr) noexcept : RootMotion::FinalIK::Poser(ptr) {
 }
 
 
@@ -58,35 +57,35 @@ constexpr explicit HandPoser(void* ptr) noexcept : ::RootMotion::FinalIK::Poser(
 
 // Fields
 
- ::ArrayW<::UnityEngine::Transform> __declspec(property(get=__get_children, put=__set_children))  children;
+ ::ArrayW<UnityEngine::Transform> __declspec(property(get=__get_children, put=__set_children))  children;
 
-constexpr void __set_children(::ArrayW<::UnityEngine::Transform> value) ;
+constexpr void __set_children(::ArrayW<UnityEngine::Transform> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Transform> __get_children() const;
+constexpr ::ArrayW<UnityEngine::Transform> __get_children() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__poseRoot, put=__set__poseRoot))  _poseRoot;
+ UnityEngine::Transform __declspec(property(get=__get__poseRoot, put=__set__poseRoot))  _poseRoot;
 
-constexpr void __set__poseRoot(::UnityEngine::Transform value) ;
+constexpr void __set__poseRoot(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__poseRoot() const;
+constexpr UnityEngine::Transform __get__poseRoot() const;
 
- ::ArrayW<::UnityEngine::Transform> __declspec(property(get=__get_poseChildren, put=__set_poseChildren))  poseChildren;
+ ::ArrayW<UnityEngine::Transform> __declspec(property(get=__get_poseChildren, put=__set_poseChildren))  poseChildren;
 
-constexpr void __set_poseChildren(::ArrayW<::UnityEngine::Transform> value) ;
+constexpr void __set_poseChildren(::ArrayW<UnityEngine::Transform> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Transform> __get_poseChildren() const;
+constexpr ::ArrayW<UnityEngine::Transform> __get_poseChildren() const;
 
- ::ArrayW<::UnityEngine::Vector3> __declspec(property(get=__get_defaultLocalPositions, put=__set_defaultLocalPositions))  defaultLocalPositions;
+ ::ArrayW<UnityEngine::Vector3> __declspec(property(get=__get_defaultLocalPositions, put=__set_defaultLocalPositions))  defaultLocalPositions;
 
-constexpr void __set_defaultLocalPositions(::ArrayW<::UnityEngine::Vector3> value) ;
+constexpr void __set_defaultLocalPositions(::ArrayW<UnityEngine::Vector3> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector3> __get_defaultLocalPositions() const;
+constexpr ::ArrayW<UnityEngine::Vector3> __get_defaultLocalPositions() const;
 
- ::ArrayW<::UnityEngine::Quaternion> __declspec(property(get=__get_defaultLocalRotations, put=__set_defaultLocalRotations))  defaultLocalRotations;
+ ::ArrayW<UnityEngine::Quaternion> __declspec(property(get=__get_defaultLocalRotations, put=__set_defaultLocalRotations))  defaultLocalRotations;
 
-constexpr void __set_defaultLocalRotations(::ArrayW<::UnityEngine::Quaternion> value) ;
+constexpr void __set_defaultLocalRotations(::ArrayW<UnityEngine::Quaternion> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Quaternion> __get_defaultLocalRotations() const;
+constexpr ::ArrayW<UnityEngine::Quaternion> __get_defaultLocalRotations() const;
 
 
 // Methods
@@ -116,6 +115,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::HandPoser);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::HandPoser, "RootMotion.FinalIK", "HandPoser");
+NEED_NO_BOX(RootMotion::FinalIK::HandPoser);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HandPoser, "RootMotion.FinalIK", "HandPoser");

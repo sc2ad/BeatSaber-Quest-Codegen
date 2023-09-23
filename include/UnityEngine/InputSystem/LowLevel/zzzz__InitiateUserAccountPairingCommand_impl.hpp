@@ -1,33 +1,32 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
-namespace {
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InitiateUserAccountPairingCommand_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceCommand_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InitiateUserAccountPairingCommand__Result::____UnityEngine__InputSystem__LowLevel__InitiateUserAccountPairingCommand__Result(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
+constexpr UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InitiateUserAccountPairingCommand__Result::UnityEngine__InputSystem__LowLevel__InitiateUserAccountPairingCommand__Result(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
-constexpr void ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InitiateUserAccountPairingCommand__Result::__set_value__(int32_t value)  {
+constexpr void UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InitiateUserAccountPairingCommand__Result::__set_value__(int32_t value)  {
 ::cordl_internals::setInstanceField<int32_t, 0x0>(this->__instance, std::forward<int32_t>(value));
 }
-constexpr int32_t ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InitiateUserAccountPairingCommand__Result::__get_value__() const {
+constexpr int32_t UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InitiateUserAccountPairingCommand__Result::__get_value__() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x0>(this->__instance);
 }
-constexpr ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InitiateUserAccountPairingCommand__Result  ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InitiateUserAccountPairingCommand__Result::SuccessfullyInitiated{1};
-constexpr ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InitiateUserAccountPairingCommand__Result  ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InitiateUserAccountPairingCommand__Result::ErrorNotSupported{-1};
-constexpr ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InitiateUserAccountPairingCommand__Result  ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InitiateUserAccountPairingCommand__Result::ErrorAlreadyInProgress{-2};
-//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand.get_Type
+constexpr UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InitiateUserAccountPairingCommand__Result  UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InitiateUserAccountPairingCommand__Result::SuccessfullyInitiated{1};
+constexpr UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InitiateUserAccountPairingCommand__Result  UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InitiateUserAccountPairingCommand__Result::ErrorNotSupported{-1};
+constexpr UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InitiateUserAccountPairingCommand__Result  UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InitiateUserAccountPairingCommand__Result::ErrorAlreadyInProgress{-2};
+//  Writing Method size for method: UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand.get_Type
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(&::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand::get_Type)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::InputSystem::Utilities::FourCC (*)()>(&UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand::get_Type)> {
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x2954cc0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand>::get(),
                             "get_Type",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -35,16 +34,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand.get_typeStatic
+//  Writing Method size for method: UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand.get_typeStatic
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand::*)()>(&::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand::get_typeStatic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::InputSystem::Utilities::FourCC (UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand::*)()>(&UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand::get_typeStatic)> {
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x2954cf0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand>::get(),
                             "get_typeStatic",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -52,16 +51,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand.Create
+//  Writing Method size for method: UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand.Create
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand (*)()>(&::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand (*)()>(&UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand::Create)> {
   constexpr static std::size_t size = 0x34;
   constexpr static std::size_t addrs = 0x2954d20;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand>::get(),
                             "Create",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -69,44 +68,43 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ___internal_method;
   }
 };
-/// @brief Convert operator to ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo
-constexpr  ::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand::operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo() const {
-return ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo(::cordl_internals::Box(this).convert());
+/// @brief Convert operator to UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo
+constexpr  UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand::operator UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo() const {
+return UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo(::cordl_internals::Box(this).convert());
 }
-// Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand::InitiateUserAccountPairingCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand) noexcept : ::bs_hook::ValueTypeWrapper() {this->baseCommand = baseCommand;
+// Ctor Parameters [CppParam { name: "baseCommand", ty: "UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: Some("{}") }]
+constexpr UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand::InitiateUserAccountPairingCommand(UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand) noexcept : ::bs_hook::ValueTypeWrapper() {this->baseCommand = baseCommand;
 }
-constexpr void ::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand::__set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand value)  {
-::cordl_internals::setInstanceField<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand, 0x0>(this->__instance, std::forward<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand>(value));
+constexpr void UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand::__set_baseCommand(UnityEngine::InputSystem::LowLevel::InputDeviceCommand value)  {
+::cordl_internals::setInstanceField<UnityEngine::InputSystem::LowLevel::InputDeviceCommand, 0x0>(this->__instance, std::forward<UnityEngine::InputSystem::LowLevel::InputDeviceCommand>(value));
 }
-constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand ::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand::__get_baseCommand() const {
-return ::cordl_internals::getInstanceField<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand, 0x0>(this->__instance);
+constexpr UnityEngine::InputSystem::LowLevel::InputDeviceCommand UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand::__get_baseCommand() const {
+return ::cordl_internals::getInstanceField<UnityEngine::InputSystem::LowLevel::InputDeviceCommand, 0x0>(this->__instance);
 }
- ::UnityEngine::InputSystem::Utilities::FourCC ::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand::get_Type()  {
+ UnityEngine::InputSystem::Utilities::FourCC UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand::get_Type()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand>::get(),
                             "get_Type",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::Utilities::FourCC, false>(nullptr, ___internal_method);
+return ::cordl_internals::RunMethodRethrow<UnityEngine::InputSystem::Utilities::FourCC, false>(nullptr, ___internal_method);
 }
- ::UnityEngine::InputSystem::Utilities::FourCC ::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand::get_typeStatic()  {
+ UnityEngine::InputSystem::Utilities::FourCC UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand::get_typeStatic()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand>::get(),
                             "get_typeStatic",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::Utilities::FourCC, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method);
+return ::cordl_internals::RunMethodRethrow<UnityEngine::InputSystem::Utilities::FourCC, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method);
 }
- ::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand ::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand::Create()  {
+ UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand::Create()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand>::get(),
                             "Create",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand, false>(nullptr, ___internal_method);
+return ::cordl_internals::RunMethodRethrow<UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand, false>(nullptr, ___internal_method);
 }
-} // end anonymous namespace

@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 namespace System {
 class Type;
 }
@@ -15,7 +14,7 @@ namespace UnityEngine::Timeline {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14126))
 // CS Name: UnityEngine.Timeline.TrackClipTypeAttribute
-class CORDL_TYPE TrackClipTypeAttribute : public ::System::Attribute {
+class CORDL_TYPE TrackClipTypeAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr TrackClipTypeAttribute(TrackClipTypeAttribute const& ) noexcept = defa
 constexpr TrackClipTypeAttribute(TrackClipTypeAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TrackClipTypeAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit TrackClipTypeAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit TrackClipTypeAttribute(void* ptr) noexcept : ::System::Attrib
 
 // Fields
 
- ::System::Type __declspec(property(get=__get_inspectedType, put=__set_inspectedType))  inspectedType;
+ System::Type __declspec(property(get=__get_inspectedType, put=__set_inspectedType))  inspectedType;
 
-constexpr void __set_inspectedType(::System::Type value) ;
+constexpr void __set_inspectedType(System::Type value) ;
 
-constexpr ::System::Type __get_inspectedType() const;
+constexpr System::Type __get_inspectedType() const;
 
  bool __declspec(property(get=__get_allowAutoCreate, put=__set_allowAutoCreate))  allowAutoCreate;
 
@@ -66,22 +65,21 @@ constexpr bool __get_allowAutoCreate() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "clipClass", ty: "::System::Type", modifiers: "", def_value: None }]
-explicit TrackClipTypeAttribute(::System::Type clipClass) ;
+// Ctor Parameters [CppParam { name: "clipClass", ty: "System::Type", modifiers: "", def_value: None }]
+explicit TrackClipTypeAttribute(System::Type clipClass) ;
 
 /// @brief Method .ctor addr 0x2ad5cec size 0x30 virtual false final false
- void _ctor(::System::Type clipClass) ;
+ void _ctor(System::Type clipClass) ;
 
-// Ctor Parameters [CppParam { name: "clipClass", ty: "::System::Type", modifiers: "", def_value: None }, CppParam { name: "allowAutoCreate", ty: "bool", modifiers: "", def_value: None }]
-explicit TrackClipTypeAttribute(::System::Type clipClass, bool allowAutoCreate) ;
+// Ctor Parameters [CppParam { name: "clipClass", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "allowAutoCreate", ty: "bool", modifiers: "", def_value: None }]
+explicit TrackClipTypeAttribute(System::Type clipClass, bool allowAutoCreate) ;
 
 /// @brief Method .ctor addr 0x2ad5d1c size 0x28 virtual false final false
- void _ctor(::System::Type clipClass, bool allowAutoCreate) ;
+ void _ctor(System::Type clipClass, bool allowAutoCreate) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Timeline::TrackClipTypeAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::TrackClipTypeAttribute, "UnityEngine.Timeline", "TrackClipTypeAttribute");
+NEED_NO_BOX(UnityEngine::Timeline::TrackClipTypeAttribute);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackClipTypeAttribute, "UnityEngine.Timeline", "TrackClipTypeAttribute");

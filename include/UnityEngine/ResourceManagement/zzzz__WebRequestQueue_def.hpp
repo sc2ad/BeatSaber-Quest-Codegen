@@ -2,26 +2,25 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
+namespace UnityEngine::Networking {
+class UnityWebRequestAsyncOperation;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine::Networking {
-class UnityWebRequestAsyncOperation;
+namespace UnityEngine::ResourceManagement {
+class WebRequestQueueOperation;
 }
 namespace UnityEngine::Networking {
 class UnityWebRequest;
 }
-namespace UnityEngine::ResourceManagement {
-class WebRequestQueueOperation;
+namespace UnityEngine {
+class AsyncOperation;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class Queue_1;
-}
-namespace UnityEngine {
-class AsyncOperation;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement {
@@ -75,17 +74,17 @@ static void __set_s_MaxRequest(int32_t value) ;
 
 static int32_t __get_s_MaxRequest() ;
 
-static ::System::Collections::Generic::Queue_1<::UnityEngine::ResourceManagement::WebRequestQueueOperation> __declspec(property(get=__get_s_QueuedOperations, put=__set_s_QueuedOperations))  s_QueuedOperations;
+static System::Collections::Generic::Queue_1<UnityEngine::ResourceManagement::WebRequestQueueOperation> __declspec(property(get=__get_s_QueuedOperations, put=__set_s_QueuedOperations))  s_QueuedOperations;
 
-static void __set_s_QueuedOperations(::System::Collections::Generic::Queue_1<::UnityEngine::ResourceManagement::WebRequestQueueOperation> value) ;
+static void __set_s_QueuedOperations(System::Collections::Generic::Queue_1<UnityEngine::ResourceManagement::WebRequestQueueOperation> value) ;
 
-static ::System::Collections::Generic::Queue_1<::UnityEngine::ResourceManagement::WebRequestQueueOperation> __get_s_QueuedOperations() ;
+static System::Collections::Generic::Queue_1<UnityEngine::ResourceManagement::WebRequestQueueOperation> __get_s_QueuedOperations() ;
 
-static ::System::Collections::Generic::List_1<::UnityEngine::Networking::UnityWebRequestAsyncOperation> __declspec(property(get=__get_s_ActiveRequests, put=__set_s_ActiveRequests))  s_ActiveRequests;
+static System::Collections::Generic::List_1<UnityEngine::Networking::UnityWebRequestAsyncOperation> __declspec(property(get=__get_s_ActiveRequests, put=__set_s_ActiveRequests))  s_ActiveRequests;
 
-static void __set_s_ActiveRequests(::System::Collections::Generic::List_1<::UnityEngine::Networking::UnityWebRequestAsyncOperation> value) ;
+static void __set_s_ActiveRequests(System::Collections::Generic::List_1<UnityEngine::Networking::UnityWebRequestAsyncOperation> value) ;
 
-static ::System::Collections::Generic::List_1<::UnityEngine::Networking::UnityWebRequestAsyncOperation> __get_s_ActiveRequests() ;
+static System::Collections::Generic::List_1<UnityEngine::Networking::UnityWebRequestAsyncOperation> __get_s_ActiveRequests() ;
 
 
 // Methods
@@ -94,18 +93,17 @@ static ::System::Collections::Generic::List_1<::UnityEngine::Networking::UnityWe
 static void SetMaxConcurrentRequests(int32_t maxRequests) ;
 
 /// @brief Method QueueRequest addr 0x2a376e8 size 0x344 virtual false final false
-static ::UnityEngine::ResourceManagement::WebRequestQueueOperation QueueRequest(::UnityEngine::Networking::UnityWebRequest request) ;
+static UnityEngine::ResourceManagement::WebRequestQueueOperation QueueRequest(UnityEngine::Networking::UnityWebRequest request) ;
 
 /// @brief Method WaitForRequestToBeActive addr 0x2a37c8c size 0x48c virtual false final false
-static void WaitForRequestToBeActive(::UnityEngine::ResourceManagement::WebRequestQueueOperation request, int32_t millisecondsTimeout) ;
+static void WaitForRequestToBeActive(UnityEngine::ResourceManagement::WebRequestQueueOperation request, int32_t millisecondsTimeout) ;
 
 /// @brief Method OnWebAsyncOpComplete addr 0x2a37a2c size 0x260 virtual false final false
-static void OnWebAsyncOpComplete(::UnityEngine::AsyncOperation operation) ;
+static void OnWebAsyncOpComplete(UnityEngine::AsyncOperation operation) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ResourceManagement
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ResourceManagement::WebRequestQueue);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::WebRequestQueue, "UnityEngine.ResourceManagement", "WebRequestQueue");
+NEED_NO_BOX(UnityEngine::ResourceManagement::WebRequestQueue);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::WebRequestQueue, "UnityEngine.ResourceManagement", "WebRequestQueue");

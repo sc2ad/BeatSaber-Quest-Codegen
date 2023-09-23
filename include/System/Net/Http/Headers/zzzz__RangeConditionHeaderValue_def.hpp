@@ -4,19 +4,18 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-struct DateTimeOffset;
-}
 namespace System {
 template<typename T>
 struct Nullable_1;
 }
-namespace System::Net::Http::Headers {
-class EntityTagHeaderValue;
+namespace System {
+struct DateTimeOffset;
 }
 namespace System {
 class ICloneable;
+}
+namespace System::Net::Http::Headers {
+class EntityTagHeaderValue;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -31,8 +30,8 @@ namespace System::Net::Http::Headers {
 class CORDL_TYPE RangeConditionHeaderValue : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::ICloneable
-constexpr operator  ::System::ICloneable() const noexcept;
+/// @brief Convert operator to System::ICloneable
+constexpr operator  System::ICloneable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -67,51 +66,51 @@ constexpr explicit RangeConditionHeaderValue(void* ptr) noexcept : ::bs_hook::Il
 
 // Fields
 
- ::System::Nullable_1<::System::DateTimeOffset> __declspec(property(get=__get__Date_k__BackingField, put=__set__Date_k__BackingField))  _Date_k__BackingField;
+ System::Nullable_1<System::DateTimeOffset> __declspec(property(get=__get__Date_k__BackingField, put=__set__Date_k__BackingField))  _Date_k__BackingField;
 
-constexpr void __set__Date_k__BackingField(::System::Nullable_1<::System::DateTimeOffset> value) ;
+constexpr void __set__Date_k__BackingField(System::Nullable_1<System::DateTimeOffset> value) ;
 
-constexpr ::System::Nullable_1<::System::DateTimeOffset> __get__Date_k__BackingField() const;
+constexpr System::Nullable_1<System::DateTimeOffset> __get__Date_k__BackingField() const;
 
- ::System::Net::Http::Headers::EntityTagHeaderValue __declspec(property(get=__get__EntityTag_k__BackingField, put=__set__EntityTag_k__BackingField))  _EntityTag_k__BackingField;
+ System::Net::Http::Headers::EntityTagHeaderValue __declspec(property(get=__get__EntityTag_k__BackingField, put=__set__EntityTag_k__BackingField))  _EntityTag_k__BackingField;
 
-constexpr void __set__EntityTag_k__BackingField(::System::Net::Http::Headers::EntityTagHeaderValue value) ;
+constexpr void __set__EntityTag_k__BackingField(System::Net::Http::Headers::EntityTagHeaderValue value) ;
 
-constexpr ::System::Net::Http::Headers::EntityTagHeaderValue __get__EntityTag_k__BackingField() const;
+constexpr System::Net::Http::Headers::EntityTagHeaderValue __get__EntityTag_k__BackingField() const;
 
 
 // Properties
 
- ::System::Nullable_1<::System::DateTimeOffset> __declspec(property(get=get_Date, put=set_Date))  Date;
+ System::Nullable_1<System::DateTimeOffset> __declspec(property(get=get_Date, put=set_Date))  Date;
 
- ::System::Net::Http::Headers::EntityTagHeaderValue __declspec(property(get=get_EntityTag, put=set_EntityTag))  EntityTag;
+ System::Net::Http::Headers::EntityTagHeaderValue __declspec(property(get=get_EntityTag, put=set_EntityTag))  EntityTag;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "date", ty: "::System::DateTimeOffset", modifiers: "", def_value: None }]
-explicit RangeConditionHeaderValue(::System::DateTimeOffset date) ;
+// Ctor Parameters [CppParam { name: "date", ty: "System::DateTimeOffset", modifiers: "", def_value: None }]
+explicit RangeConditionHeaderValue(System::DateTimeOffset date) ;
 
 /// @brief Method .ctor addr 0x26ae138 size 0x90 virtual false final false
- void _ctor(::System::DateTimeOffset date) ;
+ void _ctor(System::DateTimeOffset date) ;
 
-// Ctor Parameters [CppParam { name: "entityTag", ty: "::System::Net::Http::Headers::EntityTagHeaderValue", modifiers: "", def_value: None }]
-explicit RangeConditionHeaderValue(::System::Net::Http::Headers::EntityTagHeaderValue entityTag) ;
+// Ctor Parameters [CppParam { name: "entityTag", ty: "System::Net::Http::Headers::EntityTagHeaderValue", modifiers: "", def_value: None }]
+explicit RangeConditionHeaderValue(System::Net::Http::Headers::EntityTagHeaderValue entityTag) ;
 
 /// @brief Method .ctor addr 0x26ae1c8 size 0x78 virtual false final false
- void _ctor(::System::Net::Http::Headers::EntityTagHeaderValue entityTag) ;
+ void _ctor(System::Net::Http::Headers::EntityTagHeaderValue entityTag) ;
 
 /// @brief Method get_Date addr 0x26ae240 size 0x14 virtual false final false
- ::System::Nullable_1<::System::DateTimeOffset> get_Date() ;
+ System::Nullable_1<System::DateTimeOffset> get_Date() ;
 
 /// @brief Method set_Date addr 0x26ae254 size 0x14 virtual false final false
- void set_Date(::System::Nullable_1<::System::DateTimeOffset> value) ;
+ void set_Date(System::Nullable_1<System::DateTimeOffset> value) ;
 
 /// @brief Method get_EntityTag addr 0x26ae268 size 0x8 virtual false final false
- ::System::Net::Http::Headers::EntityTagHeaderValue get_EntityTag() ;
+ System::Net::Http::Headers::EntityTagHeaderValue get_EntityTag() ;
 
 /// @brief Method set_EntityTag addr 0x26ae270 size 0x8 virtual false final false
- void set_EntityTag(::System::Net::Http::Headers::EntityTagHeaderValue value) ;
+ void set_EntityTag(System::Net::Http::Headers::EntityTagHeaderValue value) ;
 
 /// @brief Method System.ICloneable.Clone addr 0x26ae278 size 0x8 virtual true final true
  ::bs_hook::Il2CppWrapperType System_ICloneable_Clone() ;
@@ -123,7 +122,7 @@ explicit RangeConditionHeaderValue(::System::Net::Http::Headers::EntityTagHeader
  int32_t GetHashCode() ;
 
 /// @brief Method TryParse addr 0x26ae448 size 0x24c virtual false final false
-static bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::RangeConditionHeaderValue> parsedValue) ;
+static bool TryParse(::StringW input, ByRef<System::Net::Http::Headers::RangeConditionHeaderValue> parsedValue) ;
 
 /// @brief Method ToString addr 0x26ae694 size 0xe4 virtual true final false
  ::StringW ToString() ;
@@ -132,6 +131,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Http::Headers
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Http::Headers::RangeConditionHeaderValue);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::RangeConditionHeaderValue, "System.Net.Http.Headers", "RangeConditionHeaderValue");
+NEED_NO_BOX(System::Net::Http::Headers::RangeConditionHeaderValue);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::RangeConditionHeaderValue, "System.Net.Http.Headers", "RangeConditionHeaderValue");

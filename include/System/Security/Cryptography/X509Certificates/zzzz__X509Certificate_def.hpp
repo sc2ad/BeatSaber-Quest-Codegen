@@ -4,15 +4,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
 namespace System {
 class IDisposable;
 }
-namespace System::Runtime::Serialization {
-class ISerializable;
+namespace System {
+struct DateTime;
+}
+namespace System::Security::Cryptography::X509Certificates {
+struct X509KeyStorageFlags;
 }
 namespace System::Runtime::Serialization {
-class IDeserializationCallback;
+class ISerializable;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateImpl;
@@ -20,14 +25,8 @@ class X509CertificateImpl;
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System {
-struct DateTime;
-}
 namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Security::Cryptography::X509Certificates {
-struct X509KeyStorageFlags;
+class IDeserializationCallback;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -42,14 +41,14 @@ namespace System::Security::Cryptography::X509Certificates {
 class CORDL_TYPE X509Certificate : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
-/// @brief Convert operator to ::System::Runtime::Serialization::IDeserializationCallback
-constexpr operator  ::System::Runtime::Serialization::IDeserializationCallback() const noexcept;
+/// @brief Convert operator to System::Runtime::Serialization::IDeserializationCallback
+constexpr operator  System::Runtime::Serialization::IDeserializationCallback() const noexcept;
 
-/// @brief Convert operator to ::System::Runtime::Serialization::ISerializable
-constexpr operator  ::System::Runtime::Serialization::ISerializable() const noexcept;
+/// @brief Convert operator to System::Runtime::Serialization::ISerializable
+constexpr operator  System::Runtime::Serialization::ISerializable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x60};
@@ -84,11 +83,11 @@ constexpr explicit X509Certificate(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Fields
 
- ::System::Security::Cryptography::X509Certificates::X509CertificateImpl __declspec(property(get=__get_impl, put=__set_impl))  impl;
+ System::Security::Cryptography::X509Certificates::X509CertificateImpl __declspec(property(get=__get_impl, put=__set_impl))  impl;
 
-constexpr void __set_impl(::System::Security::Cryptography::X509Certificates::X509CertificateImpl value) ;
+constexpr void __set_impl(System::Security::Cryptography::X509Certificates::X509CertificateImpl value) ;
 
-constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateImpl __get_impl() const;
+constexpr System::Security::Cryptography::X509Certificates::X509CertificateImpl __get_impl() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get_lazyCertHash, put=__set_lazyCertHash))  lazyCertHash;
 
@@ -132,17 +131,17 @@ constexpr void __set_lazyPublicKey(::ArrayW<uint8_t> value) ;
 
 constexpr ::ArrayW<uint8_t> __get_lazyPublicKey() const;
 
- ::System::DateTime __declspec(property(get=__get_lazyNotBefore, put=__set_lazyNotBefore))  lazyNotBefore;
+ System::DateTime __declspec(property(get=__get_lazyNotBefore, put=__set_lazyNotBefore))  lazyNotBefore;
 
-constexpr void __set_lazyNotBefore(::System::DateTime value) ;
+constexpr void __set_lazyNotBefore(System::DateTime value) ;
 
-constexpr ::System::DateTime __get_lazyNotBefore() const;
+constexpr System::DateTime __get_lazyNotBefore() const;
 
- ::System::DateTime __declspec(property(get=__get_lazyNotAfter, put=__set_lazyNotAfter))  lazyNotAfter;
+ System::DateTime __declspec(property(get=__get_lazyNotAfter, put=__set_lazyNotAfter))  lazyNotAfter;
 
-constexpr void __set_lazyNotAfter(::System::DateTime value) ;
+constexpr void __set_lazyNotAfter(System::DateTime value) ;
 
-constexpr ::System::DateTime __get_lazyNotAfter() const;
+constexpr System::DateTime __get_lazyNotAfter() const;
 
 
 // Properties
@@ -151,7 +150,7 @@ constexpr ::System::DateTime __get_lazyNotAfter() const;
 
  ::StringW __declspec(property(get=get_Subject))  Subject;
 
- ::System::Security::Cryptography::X509Certificates::X509CertificateImpl __declspec(property(get=get_Impl))  Impl;
+ System::Security::Cryptography::X509Certificates::X509CertificateImpl __declspec(property(get=get_Impl))  Impl;
 
  bool __declspec(property(get=get_IsValid))  IsValid;
 
@@ -173,11 +172,11 @@ explicit X509Certificate(::ArrayW<uint8_t> data) ;
 /// @brief Method .ctor addr 0x23099d4 size 0xa0 virtual false final false
  void _ctor(::ArrayW<uint8_t> data) ;
 
-// Ctor Parameters [CppParam { name: "impl", ty: "::System::Security::Cryptography::X509Certificates::X509CertificateImpl", modifiers: "", def_value: None }]
-explicit X509Certificate(::System::Security::Cryptography::X509Certificates::X509CertificateImpl impl) ;
+// Ctor Parameters [CppParam { name: "impl", ty: "System::Security::Cryptography::X509Certificates::X509CertificateImpl", modifiers: "", def_value: None }]
+explicit X509Certificate(System::Security::Cryptography::X509Certificates::X509CertificateImpl impl) ;
 
 /// @brief Method .ctor addr 0x2309a74 size 0x94 virtual false final false
- void _ctor(::System::Security::Cryptography::X509Certificates::X509CertificateImpl impl) ;
+ void _ctor(System::Security::Cryptography::X509Certificates::X509CertificateImpl impl) ;
 
 // Ctor Parameters [CppParam { name: "fileName", ty: "::StringW", modifiers: "", def_value: None }]
 explicit X509Certificate(::StringW fileName) ;
@@ -185,26 +184,26 @@ explicit X509Certificate(::StringW fileName) ;
 /// @brief Method .ctor addr 0x2309b08 size 0xc virtual false final false
  void _ctor(::StringW fileName) ;
 
-// Ctor Parameters [CppParam { name: "fileName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "keyStorageFlags", ty: "::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags", modifiers: "", def_value: None }]
-explicit X509Certificate(::StringW fileName, ::StringW password, ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags) ;
+// Ctor Parameters [CppParam { name: "fileName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "keyStorageFlags", ty: "System::Security::Cryptography::X509Certificates::X509KeyStorageFlags", modifiers: "", def_value: None }]
+explicit X509Certificate(::StringW fileName, ::StringW password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags) ;
 
 /// @brief Method .ctor addr 0x2309b14 size 0x264 virtual false final false
- void _ctor(::StringW fileName, ::StringW password, ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags) ;
+ void _ctor(::StringW fileName, ::StringW password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags) ;
 
-// Ctor Parameters [CppParam { name: "cert", ty: "::System::Security::Cryptography::X509Certificates::X509Certificate", modifiers: "", def_value: None }]
-explicit X509Certificate(::System::Security::Cryptography::X509Certificates::X509Certificate cert) ;
+// Ctor Parameters [CppParam { name: "cert", ty: "System::Security::Cryptography::X509Certificates::X509Certificate", modifiers: "", def_value: None }]
+explicit X509Certificate(System::Security::Cryptography::X509Certificates::X509Certificate cert) ;
 
 /// @brief Method .ctor addr 0x2309e8c size 0xe4 virtual false final false
- void _ctor(::System::Security::Cryptography::X509Certificates::X509Certificate cert) ;
+ void _ctor(System::Security::Cryptography::X509Certificates::X509Certificate cert) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit X509Certificate(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit X509Certificate(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x2309f70 size 0x44 virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData addr 0x2309fb4 size 0x40 virtual true final true
- void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization addr 0x2309ff4 size 0x40 virtual true final true
  void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::bs_hook::Il2CppWrapperType sender) ;
@@ -225,7 +224,7 @@ explicit X509Certificate(::System::Runtime::Serialization::SerializationInfo inf
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x230a1a8 size 0xec virtual true final false
- bool Equals(::System::Security::Cryptography::X509Certificates::X509Certificate other) ;
+ bool Equals(System::Security::Cryptography::X509Certificates::X509Certificate other) ;
 
 /// @brief Method GetCertHash addr 0x230a2e4 size 0x28 virtual true final false
  ::ArrayW<uint8_t> GetCertHash() ;
@@ -267,22 +266,22 @@ explicit X509Certificate(::System::Runtime::Serialization::SerializationInfo inf
  ::StringW ToString(bool fVerbose) ;
 
 /// @brief Method GetNotAfter addr 0x230aae0 size 0xa0 virtual false final false
- ::System::DateTime GetNotAfter() ;
+ System::DateTime GetNotAfter() ;
 
 /// @brief Method GetNotBefore addr 0x230a930 size 0xa0 virtual false final false
- ::System::DateTime GetNotBefore() ;
+ System::DateTime GetNotBefore() ;
 
 /// @brief Method FormatDate addr 0x230a9d0 size 0x110 virtual false final false
-static ::StringW FormatDate(::System::DateTime date) ;
+static ::StringW FormatDate(System::DateTime date) ;
 
 /// @brief Method ValidateKeyStorageFlags addr 0x2309d78 size 0x114 virtual false final false
-static void ValidateKeyStorageFlags(::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags) ;
+static void ValidateKeyStorageFlags(System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags) ;
 
 /// @brief Method ImportHandle addr 0x230ab80 size 0x30 virtual false final false
- void ImportHandle(::System::Security::Cryptography::X509Certificates::X509CertificateImpl impl) ;
+ void ImportHandle(System::Security::Cryptography::X509Certificates::X509CertificateImpl impl) ;
 
 /// @brief Method get_Impl addr 0x230abb0 size 0x8 virtual false final false
- ::System::Security::Cryptography::X509Certificates::X509CertificateImpl get_Impl() ;
+ System::Security::Cryptography::X509Certificates::X509CertificateImpl get_Impl() ;
 
 /// @brief Method get_IsValid addr 0x230abb8 size 0xc virtual false final false
  bool get_IsValid() ;
@@ -294,6 +293,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography::X509Certificates
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::X509Certificates::X509Certificate);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::X509Certificates::X509Certificate, "System.Security.Cryptography.X509Certificates", "X509Certificate");
+NEED_NO_BOX(System::Security::Cryptography::X509Certificates::X509Certificate);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509Certificate, "System.Security.Cryptography.X509Certificates", "X509Certificate");

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace MS::Internal::Xml::Cache {
 struct XPathNode;
 }
@@ -65,11 +64,11 @@ constexpr void __set__nodeCount(int32_t value) ;
 
 constexpr int32_t __get__nodeCount() const;
 
- ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> __declspec(property(get=__get__pageNext, put=__set__pageNext))  _pageNext;
+ ::ArrayW<MS::Internal::Xml::Cache::XPathNode> __declspec(property(get=__get__pageNext, put=__set__pageNext))  _pageNext;
 
-constexpr void __set__pageNext(::ArrayW<::MS::Internal::Xml::Cache::XPathNode> value) ;
+constexpr void __set__pageNext(::ArrayW<MS::Internal::Xml::Cache::XPathNode> value) ;
 
-constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> __get__pageNext() const;
+constexpr ::ArrayW<MS::Internal::Xml::Cache::XPathNode> __get__pageNext() const;
 
 
 // Properties
@@ -78,7 +77,7 @@ constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> __get__pageNext() cons
 
  int32_t __declspec(property(get=get_NodeCount))  NodeCount;
 
- ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> __declspec(property(get=get_NextPage))  NextPage;
+ ::ArrayW<MS::Internal::Xml::Cache::XPathNode> __declspec(property(get=get_NextPage))  NextPage;
 
 
 // Methods
@@ -90,12 +89,11 @@ constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> __get__pageNext() cons
  int32_t get_NodeCount() ;
 
 /// @brief Method get_NextPage addr 0x2757eac size 0x8 virtual false final false
- ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> get_NextPage() ;
+ ::ArrayW<MS::Internal::Xml::Cache::XPathNode> get_NextPage() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def MS::Internal::Xml::Cache
-} // end anonymous namespace
-NEED_NO_BOX(::MS::Internal::Xml::Cache::XPathNodePageInfo);
-DEFINE_IL2CPP_ARG_TYPE(::MS::Internal::Xml::Cache::XPathNodePageInfo, "MS.Internal.Xml.Cache", "XPathNodePageInfo");
+NEED_NO_BOX(MS::Internal::Xml::Cache::XPathNodePageInfo);
+DEFINE_IL2CPP_ARG_TYPE(MS::Internal::Xml::Cache::XPathNodePageInfo, "MS.Internal.Xml.Cache", "XPathNodePageInfo");

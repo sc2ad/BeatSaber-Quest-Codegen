@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct EventModifiers;
 }
@@ -30,13 +29,13 @@ constexpr explicit IMouseEvent(void* ptr) noexcept : ::cordl_internals::Interfac
 
 // Properties
 
- ::UnityEngine::EventModifiers __declspec(property(get=get_modifiers))  modifiers;
+ UnityEngine::EventModifiers __declspec(property(get=get_modifiers))  modifiers;
 
- ::UnityEngine::Vector2 __declspec(property(get=get_mousePosition))  mousePosition;
+ UnityEngine::Vector2 __declspec(property(get=get_mousePosition))  mousePosition;
 
- ::UnityEngine::Vector2 __declspec(property(get=get_localMousePosition))  localMousePosition;
+ UnityEngine::Vector2 __declspec(property(get=get_localMousePosition))  localMousePosition;
 
- ::UnityEngine::Vector2 __declspec(property(get=get_mouseDelta))  mouseDelta;
+ UnityEngine::Vector2 __declspec(property(get=get_mouseDelta))  mouseDelta;
 
  int32_t __declspec(property(get=get_clickCount))  clickCount;
 
@@ -56,16 +55,16 @@ constexpr explicit IMouseEvent(void* ptr) noexcept : ::cordl_internals::Interfac
 // Methods
 
 /// @brief Method get_modifiers addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::EventModifiers get_modifiers() ;
+ UnityEngine::EventModifiers get_modifiers() ;
 
 /// @brief Method get_mousePosition addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Vector2 get_mousePosition() ;
+ UnityEngine::Vector2 get_mousePosition() ;
 
 /// @brief Method get_localMousePosition addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Vector2 get_localMousePosition() ;
+ UnityEngine::Vector2 get_localMousePosition() ;
 
 /// @brief Method get_mouseDelta addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Vector2 get_mouseDelta() ;
+ UnityEngine::Vector2 get_mouseDelta() ;
 
 /// @brief Method get_clickCount addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t get_clickCount() ;
@@ -92,6 +91,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::IMouseEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::IMouseEvent, "UnityEngine.UIElements", "IMouseEvent");
+NEED_NO_BOX(UnityEngine::UIElements::IMouseEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::IMouseEvent, "UnityEngine.UIElements", "IMouseEvent");

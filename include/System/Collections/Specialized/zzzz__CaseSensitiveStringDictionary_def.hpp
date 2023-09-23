@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Collections/Specialized/zzzz__StringDictionary_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace System::Collections::Specialized {
 class CaseSensitiveStringDictionary;
@@ -13,7 +12,7 @@ namespace System::Collections::Specialized {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8369))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8370))
 // CS Name: System.Collections.Specialized.CaseSensitiveStringDictionary
-class CORDL_TYPE CaseSensitiveStringDictionary : public ::System::Collections::Specialized::StringDictionary {
+class CORDL_TYPE CaseSensitiveStringDictionary : public System::Collections::Specialized::StringDictionary {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr CaseSensitiveStringDictionary(CaseSensitiveStringDictionary const& ) n
 constexpr CaseSensitiveStringDictionary(CaseSensitiveStringDictionary&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CaseSensitiveStringDictionary(void* ptr) noexcept : ::System::Collections::Specialized::StringDictionary(ptr) {
+constexpr explicit CaseSensitiveStringDictionary(void* ptr) noexcept : System::Collections::Specialized::StringDictionary(ptr) {
 }
 
 
@@ -62,6 +61,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Collections::Specialized
-} // end anonymous namespace
-NEED_NO_BOX(::System::Collections::Specialized::CaseSensitiveStringDictionary);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Specialized::CaseSensitiveStringDictionary, "System.Collections.Specialized", "CaseSensitiveStringDictionary");
+NEED_NO_BOX(System::Collections::Specialized::CaseSensitiveStringDictionary);
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::CaseSensitiveStringDictionary, "System.Collections.Specialized", "CaseSensitiveStringDictionary");

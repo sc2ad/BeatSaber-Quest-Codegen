@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Threading {
 struct EventResetMode;
@@ -67,14 +66,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field AutoReset offset 0
-static ::System::Threading::EventResetMode const AutoReset;
+static System::Threading::EventResetMode const AutoReset;
 
 /// @brief Field ManualReset offset 0
-static ::System::Threading::EventResetMode const ManualReset;
+static System::Threading::EventResetMode const ManualReset;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Threading
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::EventResetMode, "System.Threading", "EventResetMode");
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::EventResetMode, "System.Threading", "EventResetMode");

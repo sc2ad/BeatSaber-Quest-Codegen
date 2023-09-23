@@ -3,7 +3,6 @@
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::ComponentModel {
 struct EditorBrowsableState;
 }
@@ -17,7 +16,7 @@ namespace System::ComponentModel {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8235))
 // CS Name: System.ComponentModel.EditorBrowsableAttribute
-class CORDL_TYPE EditorBrowsableAttribute : public ::System::Attribute {
+class CORDL_TYPE EditorBrowsableAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr EditorBrowsableAttribute(EditorBrowsableAttribute const& ) noexcept = 
 constexpr EditorBrowsableAttribute(EditorBrowsableAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EditorBrowsableAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit EditorBrowsableAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -53,20 +52,20 @@ constexpr explicit EditorBrowsableAttribute(void* ptr) noexcept : ::System::Attr
 
 // Fields
 
- ::System::ComponentModel::EditorBrowsableState __declspec(property(get=__get_browsableState, put=__set_browsableState))  browsableState;
+ System::ComponentModel::EditorBrowsableState __declspec(property(get=__get_browsableState, put=__set_browsableState))  browsableState;
 
-constexpr void __set_browsableState(::System::ComponentModel::EditorBrowsableState value) ;
+constexpr void __set_browsableState(System::ComponentModel::EditorBrowsableState value) ;
 
-constexpr ::System::ComponentModel::EditorBrowsableState __get_browsableState() const;
+constexpr System::ComponentModel::EditorBrowsableState __get_browsableState() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "state", ty: "::System::ComponentModel::EditorBrowsableState", modifiers: "", def_value: None }]
-explicit EditorBrowsableAttribute(::System::ComponentModel::EditorBrowsableState state) ;
+// Ctor Parameters [CppParam { name: "state", ty: "System::ComponentModel::EditorBrowsableState", modifiers: "", def_value: None }]
+explicit EditorBrowsableAttribute(System::ComponentModel::EditorBrowsableState state) ;
 
 /// @brief Method .ctor addr 0x2770fa4 size 0x28 virtual false final false
- void _ctor(::System::ComponentModel::EditorBrowsableState state) ;
+ void _ctor(System::ComponentModel::EditorBrowsableState state) ;
 
 /// @brief Method Equals addr 0x2770fcc size 0x8c virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -78,6 +77,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::EditorBrowsableAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::EditorBrowsableAttribute, "System.ComponentModel", "EditorBrowsableAttribute");
+NEED_NO_BOX(System::ComponentModel::EditorBrowsableAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::EditorBrowsableAttribute, "System.ComponentModel", "EditorBrowsableAttribute");

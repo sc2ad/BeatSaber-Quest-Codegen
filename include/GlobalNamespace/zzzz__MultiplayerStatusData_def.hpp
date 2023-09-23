@@ -5,19 +5,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
-struct ____GlobalNamespace__MultiplayerStatusData__AvailabilityStatus;
+struct GlobalNamespace__MultiplayerStatusData__AvailabilityStatus;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerStatusData__UserMessage;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage;
 }
 namespace GlobalNamespace {
 class MultiplayerStatusData;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__MultiplayerStatusData__UserMessage;
-}
-namespace GlobalNamespace {
-class ______GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage;
 }
 // Type: ::AvailabilityStatus
 namespace GlobalNamespace {
@@ -25,20 +24,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4478))
 // CS Name: MultiplayerStatusData::AvailabilityStatus
-struct CORDL_TYPE ____GlobalNamespace__MultiplayerStatusData__AvailabilityStatus : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__MultiplayerStatusData__AvailabilityStatus : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__MultiplayerStatusData__AvailabilityStatus(int32_t value__) noexcept;
+constexpr GlobalNamespace__MultiplayerStatusData__AvailabilityStatus(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__MultiplayerStatusData__AvailabilityStatus(____GlobalNamespace__MultiplayerStatusData__AvailabilityStatus const&) = default;
-                    constexpr ____GlobalNamespace__MultiplayerStatusData__AvailabilityStatus(____GlobalNamespace__MultiplayerStatusData__AvailabilityStatus&&) = default;
-                    constexpr ____GlobalNamespace__MultiplayerStatusData__AvailabilityStatus& operator=(____GlobalNamespace__MultiplayerStatusData__AvailabilityStatus const& o) {
+                    constexpr GlobalNamespace__MultiplayerStatusData__AvailabilityStatus(GlobalNamespace__MultiplayerStatusData__AvailabilityStatus const&) = default;
+                    constexpr GlobalNamespace__MultiplayerStatusData__AvailabilityStatus(GlobalNamespace__MultiplayerStatusData__AvailabilityStatus&&) = default;
+                    constexpr GlobalNamespace__MultiplayerStatusData__AvailabilityStatus& operator=(GlobalNamespace__MultiplayerStatusData__AvailabilityStatus const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__MultiplayerStatusData__AvailabilityStatus& operator=(____GlobalNamespace__MultiplayerStatusData__AvailabilityStatus&& o) noexcept {
+                    constexpr GlobalNamespace__MultiplayerStatusData__AvailabilityStatus& operator=(GlobalNamespace__MultiplayerStatusData__AvailabilityStatus&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -51,7 +50,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__MultiplayerStatusData__AvailabilityStatus(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__MultiplayerStatusData__AvailabilityStatus(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -59,15 +58,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__MultiplayerStatusData__AvailabilityStatus_Unwrapped : int32_t {
+enum class __GlobalNamespace__MultiplayerStatusData__AvailabilityStatus_Unwrapped : int32_t {
 __Online = 0,
 __MaintenanceUpcoming = 1,
 __Offline = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__MultiplayerStatusData__AvailabilityStatus_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__MultiplayerStatusData__AvailabilityStatus_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__MultiplayerStatusData__AvailabilityStatus_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__MultiplayerStatusData__AvailabilityStatus_Unwrapped>(__instance);
 }
 
 
@@ -80,13 +79,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Online offset 0
-static ::GlobalNamespace::____GlobalNamespace__MultiplayerStatusData__AvailabilityStatus const Online;
+static GlobalNamespace::GlobalNamespace__MultiplayerStatusData__AvailabilityStatus const Online;
 
 /// @brief Field MaintenanceUpcoming offset 0
-static ::GlobalNamespace::____GlobalNamespace__MultiplayerStatusData__AvailabilityStatus const MaintenanceUpcoming;
+static GlobalNamespace::GlobalNamespace__MultiplayerStatusData__AvailabilityStatus const MaintenanceUpcoming;
 
 /// @brief Field Offline offset 0
-static ::GlobalNamespace::____GlobalNamespace__MultiplayerStatusData__AvailabilityStatus const Offline;
+static GlobalNamespace::GlobalNamespace__MultiplayerStatusData__AvailabilityStatus const Offline;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -98,37 +97,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4479))
 // CS Name: MultiplayerStatusData::UserMessage::LocalizedMessage
-class CORDL_TYPE ______GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~______GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage() = default;
+virtual ~GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "______GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage", modifiers: " const&", def_value: None }]
-constexpr ______GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage(______GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage(GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "______GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage", modifiers: "&&", def_value: None }]
-constexpr ______GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage(______GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage(GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ______GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ______GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ______GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ______GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage& operator=(______GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage&& o) noexcept = default;
-  constexpr ______GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage& operator=(______GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage const& o) noexcept = default;
+  constexpr GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage& operator=(GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage&& o) noexcept = default;
+  constexpr GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage& operator=(GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage const& o) noexcept = default;
                 
 
 
@@ -150,7 +149,7 @@ constexpr ::StringW __get_message() const;
 // Methods
 
 // Ctor Parameters []
-explicit ______GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage() ;
+explicit GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage() ;
 
 /// @brief Method .ctor addr 0x21f1388 size 0x8 virtual false final false
  void _ctor() ;
@@ -165,55 +164,55 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4480))
 // CS Name: MultiplayerStatusData::UserMessage
-class CORDL_TYPE ____GlobalNamespace__MultiplayerStatusData__UserMessage : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__MultiplayerStatusData__UserMessage : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using LocalizedMessage = ::GlobalNamespace::______GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage;
+using LocalizedMessage = GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____GlobalNamespace__MultiplayerStatusData__UserMessage() = default;
+virtual ~GlobalNamespace__MultiplayerStatusData__UserMessage() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__MultiplayerStatusData__UserMessage", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__MultiplayerStatusData__UserMessage(____GlobalNamespace__MultiplayerStatusData__UserMessage const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__MultiplayerStatusData__UserMessage", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__MultiplayerStatusData__UserMessage(GlobalNamespace__MultiplayerStatusData__UserMessage const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__MultiplayerStatusData__UserMessage", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__MultiplayerStatusData__UserMessage(____GlobalNamespace__MultiplayerStatusData__UserMessage&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__MultiplayerStatusData__UserMessage", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__MultiplayerStatusData__UserMessage(GlobalNamespace__MultiplayerStatusData__UserMessage&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__MultiplayerStatusData__UserMessage(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__MultiplayerStatusData__UserMessage(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__MultiplayerStatusData__UserMessage& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__MultiplayerStatusData__UserMessage& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__MultiplayerStatusData__UserMessage& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__MultiplayerStatusData__UserMessage& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__MultiplayerStatusData__UserMessage& operator=(____GlobalNamespace__MultiplayerStatusData__UserMessage&& o) noexcept = default;
-  constexpr ____GlobalNamespace__MultiplayerStatusData__UserMessage& operator=(____GlobalNamespace__MultiplayerStatusData__UserMessage const& o) noexcept = default;
+  constexpr GlobalNamespace__MultiplayerStatusData__UserMessage& operator=(GlobalNamespace__MultiplayerStatusData__UserMessage&& o) noexcept = default;
+  constexpr GlobalNamespace__MultiplayerStatusData__UserMessage& operator=(GlobalNamespace__MultiplayerStatusData__UserMessage const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::ArrayW<::GlobalNamespace::______GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage> __declspec(property(get=__get_localizations, put=__set_localizations))  localizations;
+ ::ArrayW<GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage> __declspec(property(get=__get_localizations, put=__set_localizations))  localizations;
 
-constexpr void __set_localizations(::ArrayW<::GlobalNamespace::______GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage> value) ;
+constexpr void __set_localizations(::ArrayW<GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::______GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage> __get_localizations() const;
+constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage> __get_localizations() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__MultiplayerStatusData__UserMessage() ;
+explicit GlobalNamespace__MultiplayerStatusData__UserMessage() ;
 
 /// @brief Method .ctor addr 0x21f1380 size 0x8 virtual false final false
  void _ctor() ;
@@ -231,9 +230,9 @@ namespace GlobalNamespace {
 class CORDL_TYPE MultiplayerStatusData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using UserMessage = ::GlobalNamespace::____GlobalNamespace__MultiplayerStatusData__UserMessage;
+using UserMessage = GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMessage;
 
-using AvailabilityStatus = ::GlobalNamespace::____GlobalNamespace__MultiplayerStatusData__AvailabilityStatus;
+using AvailabilityStatus = GlobalNamespace::GlobalNamespace__MultiplayerStatusData__AvailabilityStatus;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -274,11 +273,11 @@ constexpr void __set_minimumAppVersion(::StringW value) ;
 
 constexpr ::StringW __get_minimumAppVersion() const;
 
- ::GlobalNamespace::____GlobalNamespace__MultiplayerStatusData__AvailabilityStatus __declspec(property(get=__get_status, put=__set_status))  status;
+ GlobalNamespace::GlobalNamespace__MultiplayerStatusData__AvailabilityStatus __declspec(property(get=__get_status, put=__set_status))  status;
 
-constexpr void __set_status(::GlobalNamespace::____GlobalNamespace__MultiplayerStatusData__AvailabilityStatus value) ;
+constexpr void __set_status(GlobalNamespace::GlobalNamespace__MultiplayerStatusData__AvailabilityStatus value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__MultiplayerStatusData__AvailabilityStatus __get_status() const;
+constexpr GlobalNamespace::GlobalNamespace__MultiplayerStatusData__AvailabilityStatus __get_status() const;
 
  int64_t __declspec(property(get=__get_maintenanceStartTime, put=__set_maintenanceStartTime))  maintenanceStartTime;
 
@@ -292,11 +291,11 @@ constexpr void __set_maintenanceEndTime(int64_t value) ;
 
 constexpr int64_t __get_maintenanceEndTime() const;
 
- ::GlobalNamespace::____GlobalNamespace__MultiplayerStatusData__UserMessage __declspec(property(get=__get_userMessage, put=__set_userMessage))  userMessage;
+ GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMessage __declspec(property(get=__get_userMessage, put=__set_userMessage))  userMessage;
 
-constexpr void __set_userMessage(::GlobalNamespace::____GlobalNamespace__MultiplayerStatusData__UserMessage value) ;
+constexpr void __set_userMessage(GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMessage value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__MultiplayerStatusData__UserMessage __get_userMessage() const;
+constexpr GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMessage __get_userMessage() const;
 
  bool __declspec(property(get=__get_useGamelift, put=__set_useGamelift))  useGamelift;
 
@@ -317,7 +316,7 @@ constexpr bool __get_useXPlatformAuth() const;
 
  int64_t __declspec(property(get=get__maintenanceStartTime, put=set__maintenanceStartTime))  _maintenanceStartTime;
 
- ::GlobalNamespace::____GlobalNamespace__MultiplayerStatusData__UserMessage __declspec(property(get=get__userMessage, put=set__userMessage))  _userMessage;
+ GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMessage __declspec(property(get=get__userMessage, put=set__userMessage))  _userMessage;
 
  bool __declspec(property(get=get__useGamelift, put=set__useGamelift))  _useGamelift;
 
@@ -339,10 +338,10 @@ constexpr bool __get_useXPlatformAuth() const;
  void set__maintenanceStartTime(int64_t value) ;
 
 /// @brief Method get__userMessage addr 0x21f1340 size 0x8 virtual false final false
- ::GlobalNamespace::____GlobalNamespace__MultiplayerStatusData__UserMessage get__userMessage() ;
+ GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMessage get__userMessage() ;
 
 /// @brief Method set__userMessage addr 0x21f1348 size 0x8 virtual false final false
- void set__userMessage(::GlobalNamespace::____GlobalNamespace__MultiplayerStatusData__UserMessage value) ;
+ void set__userMessage(GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMessage value) ;
 
 /// @brief Method get__useGamelift addr 0x21f1350 size 0x8 virtual false final false
  bool get__useGamelift() ;
@@ -366,11 +365,10 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__MultiplayerStatusData__AvailabilityStatus, "", "MultiplayerStatusData/AvailabilityStatus");
-NEED_NO_BOX(::GlobalNamespace::MultiplayerStatusData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerStatusData, "", "MultiplayerStatusData");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__MultiplayerStatusData__UserMessage);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__MultiplayerStatusData__UserMessage, "", "MultiplayerStatusData/UserMessage");
-NEED_NO_BOX(::GlobalNamespace::______GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::______GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage, "", "MultiplayerStatusData/UserMessage/LocalizedMessage");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__MultiplayerStatusData__AvailabilityStatus, "", "MultiplayerStatusData/AvailabilityStatus");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMessage);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMessage, "", "MultiplayerStatusData/UserMessage");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage, "", "MultiplayerStatusData/UserMessage/LocalizedMessage");
+NEED_NO_BOX(GlobalNamespace::MultiplayerStatusData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerStatusData, "", "MultiplayerStatusData");

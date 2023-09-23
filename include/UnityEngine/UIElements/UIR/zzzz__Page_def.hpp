@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine::UIElements {
 struct Vertex;
 }
@@ -10,37 +9,37 @@ namespace System {
 class IDisposable;
 }
 namespace UnityEngine::UIElements::UIR {
-class GPUBufferAllocator;
+struct GfxUpdateBufferRange;
+}
+namespace UnityEngine::UIElements::UIR {
+template<typename T>
+class UnityEngine__UIElements__UIR__Utility__GPUBuffer_1;
 }
 namespace Unity::Collections {
 template<typename T>
 struct NativeArray_1;
 }
 namespace UnityEngine::UIElements::UIR {
-template<typename T>
-class ____UnityEngine__UIElements__UIR__Utility__GPUBuffer_1;
+class GPUBufferAllocator;
 }
 namespace UnityEngine::UIElements::UIR {
-struct GfxUpdateBufferRange;
-}
-namespace UnityEngine::UIElements::UIR {
-struct ____UnityEngine__UIElements__UIR__Utility__GPUBufferType;
+struct UnityEngine__UIElements__UIR__Utility__GPUBufferType;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
 template<typename T>
-class ____UnityEngine__UIElements__UIR__Page__DataSet_1;
+class UnityEngine__UIElements__UIR__Page__DataSet_1;
 }
 namespace UnityEngine::UIElements::UIR {
 class Page;
 }
 namespace UnityEngine::UIElements::UIR {
 template<>
-class ____UnityEngine__UIElements__UIR__Page__DataSet_1<::UnityEngine::UIElements::Vertex>;
+class UnityEngine__UIElements__UIR__Page__DataSet_1<UnityEngine::UIElements::Vertex>;
 }
 namespace UnityEngine::UIElements::UIR {
 template<>
-class ____UnityEngine__UIElements__UIR__Page__DataSet_1<uint16_t>;
+class UnityEngine__UIElements__UIR__Page__DataSet_1<uint16_t>;
 }
 // Type: ::DataSet`1
 // Type: UnityEngine.UIElements.UIR::Page
@@ -53,10 +52,10 @@ class CORDL_TYPE Page : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 template<typename T>
-using DataSet_1 = ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Page__DataSet_1<T>;
+using DataSet_1 = UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Page__DataSet_1<T>;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -97,23 +96,23 @@ constexpr void __set__disposed_k__BackingField(bool value) ;
 
 constexpr bool __get__disposed_k__BackingField() const;
 
- ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Page__DataSet_1<::UnityEngine::UIElements::Vertex> __declspec(property(get=__get_vertices, put=__set_vertices))  vertices;
+ UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Page__DataSet_1<UnityEngine::UIElements::Vertex> __declspec(property(get=__get_vertices, put=__set_vertices))  vertices;
 
-constexpr void __set_vertices(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Page__DataSet_1<::UnityEngine::UIElements::Vertex> value) ;
+constexpr void __set_vertices(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Page__DataSet_1<UnityEngine::UIElements::Vertex> value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Page__DataSet_1<::UnityEngine::UIElements::Vertex> __get_vertices() const;
+constexpr UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Page__DataSet_1<UnityEngine::UIElements::Vertex> __get_vertices() const;
 
- ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Page__DataSet_1<uint16_t> __declspec(property(get=__get_indices, put=__set_indices))  indices;
+ UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Page__DataSet_1<uint16_t> __declspec(property(get=__get_indices, put=__set_indices))  indices;
 
-constexpr void __set_indices(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Page__DataSet_1<uint16_t> value) ;
+constexpr void __set_indices(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Page__DataSet_1<uint16_t> value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Page__DataSet_1<uint16_t> __get_indices() const;
+constexpr UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Page__DataSet_1<uint16_t> __get_indices() const;
 
- ::UnityEngine::UIElements::UIR::Page __declspec(property(get=__get_next, put=__set_next))  next;
+ UnityEngine::UIElements::UIR::Page __declspec(property(get=__get_next, put=__set_next))  next;
 
-constexpr void __set_next(::UnityEngine::UIElements::UIR::Page value) ;
+constexpr void __set_next(UnityEngine::UIElements::UIR::Page value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::Page __get_next() const;
+constexpr UnityEngine::UIElements::UIR::Page __get_next() const;
 
  int32_t __declspec(property(get=__get_framesEmpty, put=__set_framesEmpty))  framesEmpty;
 
@@ -164,40 +163,40 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7538))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7538), inst: 728 })
 // CS Name: UnityEngine.UIElements.UIR.Page::DataSet`1
-class CORDL_TYPE ____UnityEngine__UIElements__UIR__Page__DataSet_1<uint16_t> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__UIElements__UIR__Page__DataSet_1<uint16_t> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x70};
 
-virtual ~____UnityEngine__UIElements__UIR__Page__DataSet_1() = default;
+virtual ~UnityEngine__UIElements__UIR__Page__DataSet_1() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__UIR__Page__DataSet_1", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__UIElements__UIR__Page__DataSet_1(____UnityEngine__UIElements__UIR__Page__DataSet_1 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__UIR__Page__DataSet_1", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__UIElements__UIR__Page__DataSet_1(UnityEngine__UIElements__UIR__Page__DataSet_1 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__UIR__Page__DataSet_1", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__UIElements__UIR__Page__DataSet_1(____UnityEngine__UIElements__UIR__Page__DataSet_1&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__UIR__Page__DataSet_1", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__UIElements__UIR__Page__DataSet_1(UnityEngine__UIElements__UIR__Page__DataSet_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UIElements__UIR__Page__DataSet_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__UIElements__UIR__Page__DataSet_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__UIElements__UIR__Page__DataSet_1& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__UIElements__UIR__Page__DataSet_1& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__UIR__Page__DataSet_1& operator=(void* o) noexcept {
+  constexpr UnityEngine__UIElements__UIR__Page__DataSet_1& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__UIR__Page__DataSet_1& operator=(____UnityEngine__UIElements__UIR__Page__DataSet_1&& o) noexcept = default;
-  constexpr ____UnityEngine__UIElements__UIR__Page__DataSet_1& operator=(____UnityEngine__UIElements__UIR__Page__DataSet_1 const& o) noexcept = default;
+  constexpr UnityEngine__UIElements__UIR__Page__DataSet_1& operator=(UnityEngine__UIElements__UIR__Page__DataSet_1&& o) noexcept = default;
+  constexpr UnityEngine__UIElements__UIR__Page__DataSet_1& operator=(UnityEngine__UIElements__UIR__Page__DataSet_1 const& o) noexcept = default;
                 
 
 
@@ -209,29 +208,29 @@ constexpr void __set__disposed_k__BackingField(bool value) ;
 
 constexpr bool __get__disposed_k__BackingField() const;
 
- ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Utility__GPUBuffer_1<uint16_t> __declspec(property(get=__get_gpuData, put=__set_gpuData))  gpuData;
+ UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Utility__GPUBuffer_1<uint16_t> __declspec(property(get=__get_gpuData, put=__set_gpuData))  gpuData;
 
-constexpr void __set_gpuData(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Utility__GPUBuffer_1<uint16_t> value) ;
+constexpr void __set_gpuData(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Utility__GPUBuffer_1<uint16_t> value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Utility__GPUBuffer_1<uint16_t> __get_gpuData() const;
+constexpr UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Utility__GPUBuffer_1<uint16_t> __get_gpuData() const;
 
- ::Unity::Collections::NativeArray_1<uint16_t> __declspec(property(get=__get_cpuData, put=__set_cpuData))  cpuData;
+ Unity::Collections::NativeArray_1<uint16_t> __declspec(property(get=__get_cpuData, put=__set_cpuData))  cpuData;
 
-constexpr void __set_cpuData(::Unity::Collections::NativeArray_1<uint16_t> value) ;
+constexpr void __set_cpuData(Unity::Collections::NativeArray_1<uint16_t> value) ;
 
-constexpr ::Unity::Collections::NativeArray_1<uint16_t> __get_cpuData() const;
+constexpr Unity::Collections::NativeArray_1<uint16_t> __get_cpuData() const;
 
- ::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::UIR::GfxUpdateBufferRange> __declspec(property(get=__get_updateRanges, put=__set_updateRanges))  updateRanges;
+ Unity::Collections::NativeArray_1<UnityEngine::UIElements::UIR::GfxUpdateBufferRange> __declspec(property(get=__get_updateRanges, put=__set_updateRanges))  updateRanges;
 
-constexpr void __set_updateRanges(::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::UIR::GfxUpdateBufferRange> value) ;
+constexpr void __set_updateRanges(Unity::Collections::NativeArray_1<UnityEngine::UIElements::UIR::GfxUpdateBufferRange> value) ;
 
-constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::UIR::GfxUpdateBufferRange> __get_updateRanges() const;
+constexpr Unity::Collections::NativeArray_1<UnityEngine::UIElements::UIR::GfxUpdateBufferRange> __get_updateRanges() const;
 
- ::UnityEngine::UIElements::UIR::GPUBufferAllocator __declspec(property(get=__get_allocator, put=__set_allocator))  allocator;
+ UnityEngine::UIElements::UIR::GPUBufferAllocator __declspec(property(get=__get_allocator, put=__set_allocator))  allocator;
 
-constexpr void __set_allocator(::UnityEngine::UIElements::UIR::GPUBufferAllocator value) ;
+constexpr void __set_allocator(UnityEngine::UIElements::UIR::GPUBufferAllocator value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::GPUBufferAllocator __get_allocator() const;
+constexpr UnityEngine::UIElements::UIR::GPUBufferAllocator __get_allocator() const;
 
  uint32_t __declspec(property(get=__get_m_UpdateRangePoolSize, put=__set_m_UpdateRangePoolSize))  m_UpdateRangePoolSize;
 
@@ -283,11 +282,11 @@ constexpr bool __get_m_UpdateRangesSaturated() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bufferType", ty: "::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Utility__GPUBufferType", modifiers: "", def_value: None }, CppParam { name: "totalCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "maxQueuedFrameCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "updateRangePoolSize", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "mockBuffer", ty: "bool", modifiers: "", def_value: None }]
-explicit ____UnityEngine__UIElements__UIR__Page__DataSet_1(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Utility__GPUBufferType bufferType, uint32_t totalCount, uint32_t maxQueuedFrameCount, uint32_t updateRangePoolSize, bool mockBuffer) ;
+// Ctor Parameters [CppParam { name: "bufferType", ty: "UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Utility__GPUBufferType", modifiers: "", def_value: None }, CppParam { name: "totalCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "maxQueuedFrameCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "updateRangePoolSize", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "mockBuffer", ty: "bool", modifiers: "", def_value: None }]
+explicit UnityEngine__UIElements__UIR__Page__DataSet_1(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Utility__GPUBufferType bufferType, uint32_t totalCount, uint32_t maxQueuedFrameCount, uint32_t updateRangePoolSize, bool mockBuffer) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Utility__GPUBufferType bufferType, uint32_t totalCount, uint32_t maxQueuedFrameCount, uint32_t updateRangePoolSize, bool mockBuffer) ;
+ void _ctor(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Utility__GPUBufferType bufferType, uint32_t totalCount, uint32_t maxQueuedFrameCount, uint32_t updateRangePoolSize, bool mockBuffer) ;
 
 /// @brief Method get_disposed addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_disposed() ;
@@ -331,40 +330,40 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7538))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7538), inst: 732 })
 // CS Name: UnityEngine.UIElements.UIR.Page::DataSet`1
-class CORDL_TYPE ____UnityEngine__UIElements__UIR__Page__DataSet_1<::UnityEngine::UIElements::Vertex> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__UIElements__UIR__Page__DataSet_1<UnityEngine::UIElements::Vertex> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x70};
 
-virtual ~____UnityEngine__UIElements__UIR__Page__DataSet_1() = default;
+virtual ~UnityEngine__UIElements__UIR__Page__DataSet_1() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__UIR__Page__DataSet_1", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__UIElements__UIR__Page__DataSet_1(____UnityEngine__UIElements__UIR__Page__DataSet_1 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__UIR__Page__DataSet_1", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__UIElements__UIR__Page__DataSet_1(UnityEngine__UIElements__UIR__Page__DataSet_1 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__UIR__Page__DataSet_1", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__UIElements__UIR__Page__DataSet_1(____UnityEngine__UIElements__UIR__Page__DataSet_1&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__UIR__Page__DataSet_1", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__UIElements__UIR__Page__DataSet_1(UnityEngine__UIElements__UIR__Page__DataSet_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UIElements__UIR__Page__DataSet_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__UIElements__UIR__Page__DataSet_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__UIElements__UIR__Page__DataSet_1& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__UIElements__UIR__Page__DataSet_1& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__UIR__Page__DataSet_1& operator=(void* o) noexcept {
+  constexpr UnityEngine__UIElements__UIR__Page__DataSet_1& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__UIR__Page__DataSet_1& operator=(____UnityEngine__UIElements__UIR__Page__DataSet_1&& o) noexcept = default;
-  constexpr ____UnityEngine__UIElements__UIR__Page__DataSet_1& operator=(____UnityEngine__UIElements__UIR__Page__DataSet_1 const& o) noexcept = default;
+  constexpr UnityEngine__UIElements__UIR__Page__DataSet_1& operator=(UnityEngine__UIElements__UIR__Page__DataSet_1&& o) noexcept = default;
+  constexpr UnityEngine__UIElements__UIR__Page__DataSet_1& operator=(UnityEngine__UIElements__UIR__Page__DataSet_1 const& o) noexcept = default;
                 
 
 
@@ -376,29 +375,29 @@ constexpr void __set__disposed_k__BackingField(bool value) ;
 
 constexpr bool __get__disposed_k__BackingField() const;
 
- ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Utility__GPUBuffer_1<::UnityEngine::UIElements::Vertex> __declspec(property(get=__get_gpuData, put=__set_gpuData))  gpuData;
+ UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Utility__GPUBuffer_1<UnityEngine::UIElements::Vertex> __declspec(property(get=__get_gpuData, put=__set_gpuData))  gpuData;
 
-constexpr void __set_gpuData(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Utility__GPUBuffer_1<::UnityEngine::UIElements::Vertex> value) ;
+constexpr void __set_gpuData(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Utility__GPUBuffer_1<UnityEngine::UIElements::Vertex> value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Utility__GPUBuffer_1<::UnityEngine::UIElements::Vertex> __get_gpuData() const;
+constexpr UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Utility__GPUBuffer_1<UnityEngine::UIElements::Vertex> __get_gpuData() const;
 
- ::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::Vertex> __declspec(property(get=__get_cpuData, put=__set_cpuData))  cpuData;
+ Unity::Collections::NativeArray_1<UnityEngine::UIElements::Vertex> __declspec(property(get=__get_cpuData, put=__set_cpuData))  cpuData;
 
-constexpr void __set_cpuData(::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::Vertex> value) ;
+constexpr void __set_cpuData(Unity::Collections::NativeArray_1<UnityEngine::UIElements::Vertex> value) ;
 
-constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::Vertex> __get_cpuData() const;
+constexpr Unity::Collections::NativeArray_1<UnityEngine::UIElements::Vertex> __get_cpuData() const;
 
- ::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::UIR::GfxUpdateBufferRange> __declspec(property(get=__get_updateRanges, put=__set_updateRanges))  updateRanges;
+ Unity::Collections::NativeArray_1<UnityEngine::UIElements::UIR::GfxUpdateBufferRange> __declspec(property(get=__get_updateRanges, put=__set_updateRanges))  updateRanges;
 
-constexpr void __set_updateRanges(::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::UIR::GfxUpdateBufferRange> value) ;
+constexpr void __set_updateRanges(Unity::Collections::NativeArray_1<UnityEngine::UIElements::UIR::GfxUpdateBufferRange> value) ;
 
-constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::UIR::GfxUpdateBufferRange> __get_updateRanges() const;
+constexpr Unity::Collections::NativeArray_1<UnityEngine::UIElements::UIR::GfxUpdateBufferRange> __get_updateRanges() const;
 
- ::UnityEngine::UIElements::UIR::GPUBufferAllocator __declspec(property(get=__get_allocator, put=__set_allocator))  allocator;
+ UnityEngine::UIElements::UIR::GPUBufferAllocator __declspec(property(get=__get_allocator, put=__set_allocator))  allocator;
 
-constexpr void __set_allocator(::UnityEngine::UIElements::UIR::GPUBufferAllocator value) ;
+constexpr void __set_allocator(UnityEngine::UIElements::UIR::GPUBufferAllocator value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::GPUBufferAllocator __get_allocator() const;
+constexpr UnityEngine::UIElements::UIR::GPUBufferAllocator __get_allocator() const;
 
  uint32_t __declspec(property(get=__get_m_UpdateRangePoolSize, put=__set_m_UpdateRangePoolSize))  m_UpdateRangePoolSize;
 
@@ -450,11 +449,11 @@ constexpr bool __get_m_UpdateRangesSaturated() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bufferType", ty: "::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Utility__GPUBufferType", modifiers: "", def_value: None }, CppParam { name: "totalCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "maxQueuedFrameCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "updateRangePoolSize", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "mockBuffer", ty: "bool", modifiers: "", def_value: None }]
-explicit ____UnityEngine__UIElements__UIR__Page__DataSet_1(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Utility__GPUBufferType bufferType, uint32_t totalCount, uint32_t maxQueuedFrameCount, uint32_t updateRangePoolSize, bool mockBuffer) ;
+// Ctor Parameters [CppParam { name: "bufferType", ty: "UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Utility__GPUBufferType", modifiers: "", def_value: None }, CppParam { name: "totalCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "maxQueuedFrameCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "updateRangePoolSize", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "mockBuffer", ty: "bool", modifiers: "", def_value: None }]
+explicit UnityEngine__UIElements__UIR__Page__DataSet_1(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Utility__GPUBufferType bufferType, uint32_t totalCount, uint32_t maxQueuedFrameCount, uint32_t updateRangePoolSize, bool mockBuffer) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Utility__GPUBufferType bufferType, uint32_t totalCount, uint32_t maxQueuedFrameCount, uint32_t updateRangePoolSize, bool mockBuffer) ;
+ void _ctor(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Utility__GPUBufferType bufferType, uint32_t totalCount, uint32_t maxQueuedFrameCount, uint32_t updateRangePoolSize, bool mockBuffer) ;
 
 /// @brief Method get_disposed addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_disposed() ;
@@ -490,7 +489,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::UIR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Page__DataSet_1, "UnityEngine.UIElements.UIR", "Page/DataSet`1");
-NEED_NO_BOX(::UnityEngine::UIElements::UIR::Page);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::Page, "UnityEngine.UIElements.UIR", "Page");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Page__DataSet_1, "UnityEngine.UIElements.UIR", "Page/DataSet`1");
+NEED_NO_BOX(UnityEngine::UIElements::UIR::Page);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::Page, "UnityEngine.UIElements.UIR", "Page");

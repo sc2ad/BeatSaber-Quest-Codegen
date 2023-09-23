@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
 // Forward declare root types
 namespace System::Threading {
 template<typename T>
@@ -93,5 +92,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Threading
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Threading::AsyncLocalValueChangedArgs_1, "System.Threading", "AsyncLocalValueChangedArgs`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::Threading::AsyncLocalValueChangedArgs_1, "System.Threading", "AsyncLocalValueChangedArgs`1");

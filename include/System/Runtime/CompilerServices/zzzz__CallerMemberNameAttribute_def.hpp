@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
 class CallerMemberNameAttribute;
@@ -12,7 +11,7 @@ namespace System::Runtime::CompilerServices {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3352))
 // CS Name: System.Runtime.CompilerServices.CallerMemberNameAttribute
-class CORDL_TYPE CallerMemberNameAttribute : public ::System::Attribute {
+class CORDL_TYPE CallerMemberNameAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr CallerMemberNameAttribute(CallerMemberNameAttribute const& ) noexcept 
 constexpr CallerMemberNameAttribute(CallerMemberNameAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CallerMemberNameAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit CallerMemberNameAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::CompilerServices
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::CompilerServices::CallerMemberNameAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::CallerMemberNameAttribute, "System.Runtime.CompilerServices", "CallerMemberNameAttribute");
+NEED_NO_BOX(System::Runtime::CompilerServices::CallerMemberNameAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::CallerMemberNameAttribute, "System.Runtime.CompilerServices", "CallerMemberNameAttribute");

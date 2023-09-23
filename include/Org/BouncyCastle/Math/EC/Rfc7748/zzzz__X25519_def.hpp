@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
@@ -78,7 +77,7 @@ static uint32_t Decode32(::ArrayW<uint8_t> bs, int32_t off) ;
 static void DecodeScalar(::ArrayW<uint8_t> k, int32_t kOff, ::ArrayW<uint32_t> n) ;
 
 /// @brief Method GeneratePrivateKey addr 0xfae354 size 0x58 virtual false final false
-static void GeneratePrivateKey(::Org::BouncyCastle::Security::SecureRandom random, ::ArrayW<uint8_t> k) ;
+static void GeneratePrivateKey(Org::BouncyCastle::Security::SecureRandom random, ::ArrayW<uint8_t> k) ;
 
 /// @brief Method GeneratePublicKey addr 0xfae3ac size 0x4 virtual false final false
 static void GeneratePublicKey(::ArrayW<uint8_t> k, int32_t kOff, ::ArrayW<uint8_t> r, int32_t rOff) ;
@@ -105,6 +104,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Math::EC::Rfc7748
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Rfc7748::X25519);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Rfc7748::X25519, "Org.BouncyCastle.Math.EC.Rfc7748", "X25519");
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Rfc7748::X25519);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc7748::X25519, "Org.BouncyCastle.Math.EC.Rfc7748", "X25519");

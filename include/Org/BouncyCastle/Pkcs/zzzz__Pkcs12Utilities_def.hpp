@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Pkcs {
 class Pkcs12Utilities;
@@ -66,6 +65,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Pkcs
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Pkcs::Pkcs12Utilities);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Pkcs::Pkcs12Utilities, "Org.BouncyCastle.Pkcs", "Pkcs12Utilities");
+NEED_NO_BOX(Org::BouncyCastle::Pkcs::Pkcs12Utilities);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Pkcs::Pkcs12Utilities, "Org.BouncyCastle.Pkcs", "Pkcs12Utilities");

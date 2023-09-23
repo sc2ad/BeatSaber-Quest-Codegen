@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::ComponentModel {
 class PropertyDescriptor;
 }
@@ -32,15 +31,14 @@ constexpr explicit ITypedList(void* ptr) noexcept : ::cordl_internals::Interface
 // Methods
 
 /// @brief Method GetListName addr 0x0 size 0xffffffffffffffff virtual true final false
- ::StringW GetListName(::ArrayW<::System::ComponentModel::PropertyDescriptor> listAccessors) ;
+ ::StringW GetListName(::ArrayW<System::ComponentModel::PropertyDescriptor> listAccessors) ;
 
 /// @brief Method GetItemProperties addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::ComponentModel::PropertyDescriptorCollection GetItemProperties(::ArrayW<::System::ComponentModel::PropertyDescriptor> listAccessors) ;
+ System::ComponentModel::PropertyDescriptorCollection GetItemProperties(::ArrayW<System::ComponentModel::PropertyDescriptor> listAccessors) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::ITypedList);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::ITypedList, "System.ComponentModel", "ITypedList");
+NEED_NO_BOX(System::ComponentModel::ITypedList);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::ITypedList, "System.ComponentModel", "ITypedList");

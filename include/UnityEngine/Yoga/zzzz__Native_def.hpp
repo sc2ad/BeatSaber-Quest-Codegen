@@ -3,39 +3,38 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine::Yoga {
 struct YogaDisplay;
-}
-namespace UnityEngine::Yoga {
-struct YogaDirection;
-}
-namespace UnityEngine::Yoga {
-struct YogaPositionType;
-}
-namespace UnityEngine::Yoga {
-struct YogaMeasureMode;
-}
-namespace UnityEngine::Yoga {
-struct YogaOverflow;
-}
-namespace UnityEngine::Yoga {
-struct YogaJustify;
-}
-namespace UnityEngine::Yoga {
-struct YogaAlign;
-}
-namespace UnityEngine::Yoga {
-struct YogaFlexDirection;
-}
-namespace UnityEngine::Yoga {
-struct YogaWrap;
 }
 namespace UnityEngine::Yoga {
 struct YogaEdge;
 }
 namespace UnityEngine::Yoga {
+struct YogaFlexDirection;
+}
+namespace UnityEngine::Yoga {
+struct YogaMeasureMode;
+}
+namespace UnityEngine::Yoga {
+struct YogaWrap;
+}
+namespace UnityEngine::Yoga {
+struct YogaDirection;
+}
+namespace UnityEngine::Yoga {
 class YogaNode;
+}
+namespace UnityEngine::Yoga {
+struct YogaOverflow;
+}
+namespace UnityEngine::Yoga {
+struct YogaAlign;
+}
+namespace UnityEngine::Yoga {
+struct YogaPositionType;
+}
+namespace UnityEngine::Yoga {
+struct YogaJustify;
 }
 // Forward declare root types
 namespace UnityEngine::Yoga {
@@ -93,7 +92,7 @@ static void YGNodeFree(::cordl_internals::intptr_t ygNode) ;
 static void YGNodeFreeInternal(::cordl_internals::intptr_t ygNode) ;
 
 /// @brief Method YGSetManagedObject addr 0x2d2d3c0 size 0x44 virtual false final false
-static void YGSetManagedObject(::cordl_internals::intptr_t ygNode, ::UnityEngine::Yoga::YogaNode node) ;
+static void YGSetManagedObject(::cordl_internals::intptr_t ygNode, UnityEngine::Yoga::YogaNode node) ;
 
 /// @brief Method YGNodeSetConfig addr 0x2d2ba74 size 0x44 virtual false final false
 static void YGNodeSetConfig(::cordl_internals::intptr_t ygNode, ::cordl_internals::intptr_t config) ;
@@ -126,7 +125,7 @@ static void YGNodeInsertChild(::cordl_internals::intptr_t node, ::cordl_internal
 static void YGNodeRemoveChild(::cordl_internals::intptr_t node, ::cordl_internals::intptr_t child) ;
 
 /// @brief Method YGNodeCalculateLayout addr 0x2d2d53c size 0x5c virtual false final false
-static void YGNodeCalculateLayout(::cordl_internals::intptr_t node, float_t availableWidth, float_t availableHeight, ::UnityEngine::Yoga::YogaDirection parentDirection) ;
+static void YGNodeCalculateLayout(::cordl_internals::intptr_t node, float_t availableWidth, float_t availableHeight, UnityEngine::Yoga::YogaDirection parentDirection) ;
 
 /// @brief Method YGNodeMarkDirty addr 0x2d2bb6c size 0x3c virtual false final false
 static void YGNodeMarkDirty(::cordl_internals::intptr_t node) ;
@@ -144,10 +143,10 @@ static void YGNodeSetMeasureFunc(::cordl_internals::intptr_t node) ;
 static void YGNodeRemoveMeasureFunc(::cordl_internals::intptr_t node) ;
 
 /// @brief Method YGNodeMeasureInvoke addr 0x2d2db00 size 0x64 virtual false final false
-static void YGNodeMeasureInvoke(::UnityEngine::Yoga::YogaNode node, float_t width, ::UnityEngine::Yoga::YogaMeasureMode widthMode, float_t height, ::UnityEngine::Yoga::YogaMeasureMode heightMode, ::cordl_internals::intptr_t returnValueAddress) ;
+static void YGNodeMeasureInvoke(UnityEngine::Yoga::YogaNode node, float_t width, UnityEngine::Yoga::YogaMeasureMode widthMode, float_t height, UnityEngine::Yoga::YogaMeasureMode heightMode, ::cordl_internals::intptr_t returnValueAddress) ;
 
 /// @brief Method YGNodeBaselineInvoke addr 0x2d2db64 size 0x4c virtual false final false
-static void YGNodeBaselineInvoke(::UnityEngine::Yoga::YogaNode node, float_t width, float_t height, ::cordl_internals::intptr_t returnValueAddress) ;
+static void YGNodeBaselineInvoke(UnityEngine::Yoga::YogaNode node, float_t width, float_t height, ::cordl_internals::intptr_t returnValueAddress) ;
 
 /// @brief Method YGNodeSetHasNewLayout addr 0x2d2cfbc size 0x44 virtual false final false
 static void YGNodeSetHasNewLayout(::cordl_internals::intptr_t node, bool hasNewLayout) ;
@@ -156,34 +155,34 @@ static void YGNodeSetHasNewLayout(::cordl_internals::intptr_t node, bool hasNewL
 static bool YGNodeGetHasNewLayout(::cordl_internals::intptr_t node) ;
 
 /// @brief Method YGNodeStyleGetDirection addr 0x2d2d500 size 0x3c virtual false final false
-static ::UnityEngine::Yoga::YogaDirection YGNodeStyleGetDirection(::cordl_internals::intptr_t node) ;
+static UnityEngine::Yoga::YogaDirection YGNodeStyleGetDirection(::cordl_internals::intptr_t node) ;
 
 /// @brief Method YGNodeStyleSetFlexDirection addr 0x2d2bd14 size 0x44 virtual false final false
-static void YGNodeStyleSetFlexDirection(::cordl_internals::intptr_t node, ::UnityEngine::Yoga::YogaFlexDirection flexDirection) ;
+static void YGNodeStyleSetFlexDirection(::cordl_internals::intptr_t node, UnityEngine::Yoga::YogaFlexDirection flexDirection) ;
 
 /// @brief Method YGNodeStyleSetJustifyContent addr 0x2d2bd9c size 0x44 virtual false final false
-static void YGNodeStyleSetJustifyContent(::cordl_internals::intptr_t node, ::UnityEngine::Yoga::YogaJustify justifyContent) ;
+static void YGNodeStyleSetJustifyContent(::cordl_internals::intptr_t node, UnityEngine::Yoga::YogaJustify justifyContent) ;
 
 /// @brief Method YGNodeStyleSetAlignContent addr 0x2d2bfbc size 0x44 virtual false final false
-static void YGNodeStyleSetAlignContent(::cordl_internals::intptr_t node, ::UnityEngine::Yoga::YogaAlign alignContent) ;
+static void YGNodeStyleSetAlignContent(::cordl_internals::intptr_t node, UnityEngine::Yoga::YogaAlign alignContent) ;
 
 /// @brief Method YGNodeStyleSetAlignItems addr 0x2d2beac size 0x44 virtual false final false
-static void YGNodeStyleSetAlignItems(::cordl_internals::intptr_t node, ::UnityEngine::Yoga::YogaAlign alignItems) ;
+static void YGNodeStyleSetAlignItems(::cordl_internals::intptr_t node, UnityEngine::Yoga::YogaAlign alignItems) ;
 
 /// @brief Method YGNodeStyleSetAlignSelf addr 0x2d2bf34 size 0x44 virtual false final false
-static void YGNodeStyleSetAlignSelf(::cordl_internals::intptr_t node, ::UnityEngine::Yoga::YogaAlign alignSelf) ;
+static void YGNodeStyleSetAlignSelf(::cordl_internals::intptr_t node, UnityEngine::Yoga::YogaAlign alignSelf) ;
 
 /// @brief Method YGNodeStyleSetPositionType addr 0x2d2c044 size 0x44 virtual false final false
-static void YGNodeStyleSetPositionType(::cordl_internals::intptr_t node, ::UnityEngine::Yoga::YogaPositionType positionType) ;
+static void YGNodeStyleSetPositionType(::cordl_internals::intptr_t node, UnityEngine::Yoga::YogaPositionType positionType) ;
 
 /// @brief Method YGNodeStyleSetFlexWrap addr 0x2d2c0cc size 0x44 virtual false final false
-static void YGNodeStyleSetFlexWrap(::cordl_internals::intptr_t node, ::UnityEngine::Yoga::YogaWrap flexWrap) ;
+static void YGNodeStyleSetFlexWrap(::cordl_internals::intptr_t node, UnityEngine::Yoga::YogaWrap flexWrap) ;
 
 /// @brief Method YGNodeStyleSetOverflow addr 0x2d2ceec size 0x44 virtual false final false
-static void YGNodeStyleSetOverflow(::cordl_internals::intptr_t node, ::UnityEngine::Yoga::YogaOverflow flexWrap) ;
+static void YGNodeStyleSetOverflow(::cordl_internals::intptr_t node, UnityEngine::Yoga::YogaOverflow flexWrap) ;
 
 /// @brief Method YGNodeStyleSetDisplay addr 0x2d2be24 size 0x44 virtual false final false
-static void YGNodeStyleSetDisplay(::cordl_internals::intptr_t node, ::UnityEngine::Yoga::YogaDisplay display) ;
+static void YGNodeStyleSetDisplay(::cordl_internals::intptr_t node, UnityEngine::Yoga::YogaDisplay display) ;
 
 /// @brief Method YGNodeStyleSetFlex addr 0x2d2c15c size 0x4c virtual false final false
 static void YGNodeStyleSetFlex(::cordl_internals::intptr_t node, float_t flex) ;
@@ -246,28 +245,28 @@ static void YGNodeStyleSetMaxHeight(::cordl_internals::intptr_t node, float_t ma
 static void YGNodeStyleSetMaxHeightPercent(::cordl_internals::intptr_t node, float_t maxHeight) ;
 
 /// @brief Method YGNodeStyleSetPosition addr 0x2d2ae38 size 0x54 virtual false final false
-static void YGNodeStyleSetPosition(::cordl_internals::intptr_t node, ::UnityEngine::Yoga::YogaEdge edge, float_t position) ;
+static void YGNodeStyleSetPosition(::cordl_internals::intptr_t node, UnityEngine::Yoga::YogaEdge edge, float_t position) ;
 
 /// @brief Method YGNodeStyleSetPositionPercent addr 0x2d2ade4 size 0x54 virtual false final false
-static void YGNodeStyleSetPositionPercent(::cordl_internals::intptr_t node, ::UnityEngine::Yoga::YogaEdge edge, float_t position) ;
+static void YGNodeStyleSetPositionPercent(::cordl_internals::intptr_t node, UnityEngine::Yoga::YogaEdge edge, float_t position) ;
 
 /// @brief Method YGNodeStyleSetMargin addr 0x2d2b01c size 0x54 virtual false final false
-static void YGNodeStyleSetMargin(::cordl_internals::intptr_t node, ::UnityEngine::Yoga::YogaEdge edge, float_t margin) ;
+static void YGNodeStyleSetMargin(::cordl_internals::intptr_t node, UnityEngine::Yoga::YogaEdge edge, float_t margin) ;
 
 /// @brief Method YGNodeStyleSetMarginPercent addr 0x2d2af84 size 0x54 virtual false final false
-static void YGNodeStyleSetMarginPercent(::cordl_internals::intptr_t node, ::UnityEngine::Yoga::YogaEdge edge, float_t margin) ;
+static void YGNodeStyleSetMarginPercent(::cordl_internals::intptr_t node, UnityEngine::Yoga::YogaEdge edge, float_t margin) ;
 
 /// @brief Method YGNodeStyleSetMarginAuto addr 0x2d2afd8 size 0x44 virtual false final false
-static void YGNodeStyleSetMarginAuto(::cordl_internals::intptr_t node, ::UnityEngine::Yoga::YogaEdge edge) ;
+static void YGNodeStyleSetMarginAuto(::cordl_internals::intptr_t node, UnityEngine::Yoga::YogaEdge edge) ;
 
 /// @brief Method YGNodeStyleSetPadding addr 0x2d2b178 size 0x54 virtual false final false
-static void YGNodeStyleSetPadding(::cordl_internals::intptr_t node, ::UnityEngine::Yoga::YogaEdge edge, float_t padding) ;
+static void YGNodeStyleSetPadding(::cordl_internals::intptr_t node, UnityEngine::Yoga::YogaEdge edge, float_t padding) ;
 
 /// @brief Method YGNodeStyleSetPaddingPercent addr 0x2d2b124 size 0x54 virtual false final false
-static void YGNodeStyleSetPaddingPercent(::cordl_internals::intptr_t node, ::UnityEngine::Yoga::YogaEdge edge, float_t padding) ;
+static void YGNodeStyleSetPaddingPercent(::cordl_internals::intptr_t node, UnityEngine::Yoga::YogaEdge edge, float_t padding) ;
 
 /// @brief Method YGNodeStyleSetBorder addr 0x2d2b21c size 0x54 virtual false final false
-static void YGNodeStyleSetBorder(::cordl_internals::intptr_t node, ::UnityEngine::Yoga::YogaEdge edge, float_t border) ;
+static void YGNodeStyleSetBorder(::cordl_internals::intptr_t node, UnityEngine::Yoga::YogaEdge edge, float_t border) ;
 
 /// @brief Method YGNodeLayoutGetLeft addr 0x2d2cc14 size 0x3c virtual false final false
 static float_t YGNodeLayoutGetLeft(::cordl_internals::intptr_t node) ;
@@ -288,18 +287,17 @@ static float_t YGNodeLayoutGetWidth(::cordl_internals::intptr_t node) ;
 static float_t YGNodeLayoutGetHeight(::cordl_internals::intptr_t node) ;
 
 /// @brief Method YGNodeLayoutGetMargin addr 0x2d2b3a0 size 0x44 virtual false final false
-static float_t YGNodeLayoutGetMargin(::cordl_internals::intptr_t node, ::UnityEngine::Yoga::YogaEdge edge) ;
+static float_t YGNodeLayoutGetMargin(::cordl_internals::intptr_t node, UnityEngine::Yoga::YogaEdge edge) ;
 
 /// @brief Method YGNodeLayoutGetPadding addr 0x2d2b4e4 size 0x44 virtual false final false
-static float_t YGNodeLayoutGetPadding(::cordl_internals::intptr_t node, ::UnityEngine::Yoga::YogaEdge edge) ;
+static float_t YGNodeLayoutGetPadding(::cordl_internals::intptr_t node, UnityEngine::Yoga::YogaEdge edge) ;
 
 /// @brief Method YGNodeLayoutGetBorder addr 0x2d2b628 size 0x44 virtual false final false
-static float_t YGNodeLayoutGetBorder(::cordl_internals::intptr_t node, ::UnityEngine::Yoga::YogaEdge edge) ;
+static float_t YGNodeLayoutGetBorder(::cordl_internals::intptr_t node, UnityEngine::Yoga::YogaEdge edge) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Yoga
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Yoga::Native);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Yoga::Native, "UnityEngine.Yoga", "Native");
+NEED_NO_BOX(UnityEngine::Yoga::Native);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Yoga::Native, "UnityEngine.Yoga", "Native");

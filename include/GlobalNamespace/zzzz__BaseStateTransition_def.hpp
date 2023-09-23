@@ -1,18 +1,17 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
+namespace GlobalNamespace {
+class SelectableStateController;
+}
 namespace GlobalNamespace {
 class BaseTransitionSO;
 }
 namespace GlobalNamespace {
-class SelectableStateController;
+struct GlobalNamespace__SelectableStateController__ViewState;
 }
 namespace Tweening {
 class TimeTweeningManager;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__SelectableStateController__ViewState;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,7 +23,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5543))
 // CS Name: BaseStateTransition
-class CORDL_TYPE BaseStateTransition : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE BaseStateTransition : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr BaseStateTransition(BaseStateTransition const& ) noexcept = default;
 constexpr BaseStateTransition(BaseStateTransition&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BaseStateTransition(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit BaseStateTransition(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -60,30 +59,30 @@ constexpr explicit BaseStateTransition(void* ptr) noexcept : ::UnityEngine::Mono
 
 // Fields
 
- ::GlobalNamespace::SelectableStateController __declspec(property(get=__get__selectableStateController, put=__set__selectableStateController))  _selectableStateController;
+ GlobalNamespace::SelectableStateController __declspec(property(get=__get__selectableStateController, put=__set__selectableStateController))  _selectableStateController;
 
-constexpr void __set__selectableStateController(::GlobalNamespace::SelectableStateController value) ;
+constexpr void __set__selectableStateController(GlobalNamespace::SelectableStateController value) ;
 
-constexpr ::GlobalNamespace::SelectableStateController __get__selectableStateController() const;
+constexpr GlobalNamespace::SelectableStateController __get__selectableStateController() const;
 
 
 // Properties
 
- ::Tweening::TimeTweeningManager __declspec(property(get=get_tweeningManager))  tweeningManager;
+ Tweening::TimeTweeningManager __declspec(property(get=get_tweeningManager))  tweeningManager;
 
- ::GlobalNamespace::BaseTransitionSO __declspec(property(get=get_transition))  transition;
+ GlobalNamespace::BaseTransitionSO __declspec(property(get=get_transition))  transition;
 
 
 // Methods
 
 /// @brief Method get_tweeningManager addr 0x2127b68 size 0x1c virtual false final false
- ::Tweening::TimeTweeningManager get_tweeningManager() ;
+ Tweening::TimeTweeningManager get_tweeningManager() ;
 
 /// @brief Method get_transition addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::BaseTransitionSO get_transition() ;
+ GlobalNamespace::BaseTransitionSO get_transition() ;
 
 /// @brief Method SetState addr 0x2127b84 size 0x7c virtual false final false
- void SetState(::GlobalNamespace::____GlobalNamespace__SelectableStateController__ViewState viewState) ;
+ void SetState(GlobalNamespace::GlobalNamespace__SelectableStateController__ViewState viewState) ;
 
 /// @brief Method OnEnable addr 0x2127c00 size 0xa8 virtual false final false
  void OnEnable() ;
@@ -95,7 +94,7 @@ constexpr ::GlobalNamespace::SelectableStateController __get__selectableStateCon
  void OnDestroy() ;
 
 /// @brief Method HandleSelectableStateControllerStateDidChange addr 0x2127dcc size 0x6c virtual false final false
- void HandleSelectableStateControllerStateDidChange(::GlobalNamespace::____GlobalNamespace__SelectableStateController__ViewState state, bool animated) ;
+ void HandleSelectableStateControllerStateDidChange(GlobalNamespace::GlobalNamespace__SelectableStateController__ViewState state, bool animated) ;
 
 /// @brief Method TransitionToNormalState addr 0x2127e38 size 0x4 virtual true final false
  void TransitionToNormalState() ;
@@ -143,6 +142,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BaseStateTransition);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BaseStateTransition, "", "BaseStateTransition");
+NEED_NO_BOX(GlobalNamespace::BaseStateTransition);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseStateTransition, "", "BaseStateTransition");

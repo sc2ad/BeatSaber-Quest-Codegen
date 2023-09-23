@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class IDisposable;
 }
@@ -23,10 +22,10 @@ namespace UnityEngine::UIElements {
 class UIRAtlasAllocator;
 }
 namespace UnityEngine::UIElements {
-class ____UnityEngine__UIElements__UIRAtlasAllocator__AreaNode;
+class UnityEngine__UIElements__UIRAtlasAllocator__AreaNode;
 }
 namespace UnityEngine::UIElements {
-class ____UnityEngine__UIElements__UIRAtlasAllocator__Row;
+class UnityEngine__UIElements__UIRAtlasAllocator__Row;
 }
 // Type: ::Row
 namespace UnityEngine::UIElements {
@@ -34,47 +33,47 @@ namespace UnityEngine::UIElements {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7423))
 // CS Name: UnityEngine.UIElements.UIRAtlasAllocator::Row
-class CORDL_TYPE ____UnityEngine__UIElements__UIRAtlasAllocator__Row : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__UIElements__UIRAtlasAllocator__Row : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____UnityEngine__UIElements__UIRAtlasAllocator__Row() = default;
+virtual ~UnityEngine__UIElements__UIRAtlasAllocator__Row() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__UIRAtlasAllocator__Row", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__UIElements__UIRAtlasAllocator__Row(____UnityEngine__UIElements__UIRAtlasAllocator__Row const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__UIRAtlasAllocator__Row", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__UIElements__UIRAtlasAllocator__Row(UnityEngine__UIElements__UIRAtlasAllocator__Row const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__UIRAtlasAllocator__Row", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__UIElements__UIRAtlasAllocator__Row(____UnityEngine__UIElements__UIRAtlasAllocator__Row&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__UIRAtlasAllocator__Row", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__UIElements__UIRAtlasAllocator__Row(UnityEngine__UIElements__UIRAtlasAllocator__Row&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UIElements__UIRAtlasAllocator__Row(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__UIElements__UIRAtlasAllocator__Row(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__UIElements__UIRAtlasAllocator__Row& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__UIElements__UIRAtlasAllocator__Row& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__UIRAtlasAllocator__Row& operator=(void* o) noexcept {
+  constexpr UnityEngine__UIElements__UIRAtlasAllocator__Row& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__UIRAtlasAllocator__Row& operator=(____UnityEngine__UIElements__UIRAtlasAllocator__Row&& o) noexcept = default;
-  constexpr ____UnityEngine__UIElements__UIRAtlasAllocator__Row& operator=(____UnityEngine__UIElements__UIRAtlasAllocator__Row const& o) noexcept = default;
+  constexpr UnityEngine__UIElements__UIRAtlasAllocator__Row& operator=(UnityEngine__UIElements__UIRAtlasAllocator__Row&& o) noexcept = default;
+  constexpr UnityEngine__UIElements__UIRAtlasAllocator__Row& operator=(UnityEngine__UIElements__UIRAtlasAllocator__Row const& o) noexcept = default;
                 
 
 
 // Fields
 
-static ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::____UnityEngine__UIElements__UIRAtlasAllocator__Row> __declspec(property(get=__get_s_Pool, put=__set_s_Pool))  s_Pool;
+static UnityEngine::UIElements::ObjectPool_1<UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__Row> __declspec(property(get=__get_s_Pool, put=__set_s_Pool))  s_Pool;
 
-static void __set_s_Pool(::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::____UnityEngine__UIElements__UIRAtlasAllocator__Row> value) ;
+static void __set_s_Pool(UnityEngine::UIElements::ObjectPool_1<UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__Row> value) ;
 
-static ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::____UnityEngine__UIElements__UIRAtlasAllocator__Row> __get_s_Pool() ;
+static UnityEngine::UIElements::ObjectPool_1<UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__Row> __get_s_Pool() ;
 
  int32_t __declspec(property(get=__get__offsetX_k__BackingField, put=__set__offsetX_k__BackingField))  _offsetX_k__BackingField;
 
@@ -142,13 +141,13 @@ constexpr int32_t __get_Cursor() const;
  void set_height(int32_t value) ;
 
 /// @brief Method Acquire addr 0x2cffed4 size 0xac virtual false final false
-static ::UnityEngine::UIElements::____UnityEngine__UIElements__UIRAtlasAllocator__Row Acquire(int32_t offsetX, int32_t offsetY, int32_t width, int32_t height) ;
+static UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__Row Acquire(int32_t offsetX, int32_t offsetY, int32_t width, int32_t height) ;
 
 /// @brief Method Release addr 0x2cff32c size 0x90 virtual false final false
  void Release() ;
 
 // Ctor Parameters []
-explicit ____UnityEngine__UIElements__UIRAtlasAllocator__Row() ;
+explicit UnityEngine__UIElements__UIRAtlasAllocator__Row() ;
 
 /// @brief Method .ctor addr 0x2d00100 size 0x8 virtual false final false
  void _ctor() ;
@@ -163,71 +162,71 @@ namespace UnityEngine::UIElements {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7424))
 // CS Name: UnityEngine.UIElements.UIRAtlasAllocator::AreaNode
-class CORDL_TYPE ____UnityEngine__UIElements__UIRAtlasAllocator__AreaNode : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__UIElements__UIRAtlasAllocator__AreaNode : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____UnityEngine__UIElements__UIRAtlasAllocator__AreaNode() = default;
+virtual ~UnityEngine__UIElements__UIRAtlasAllocator__AreaNode() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__UIRAtlasAllocator__AreaNode", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__UIElements__UIRAtlasAllocator__AreaNode(____UnityEngine__UIElements__UIRAtlasAllocator__AreaNode const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__UIRAtlasAllocator__AreaNode", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__UIElements__UIRAtlasAllocator__AreaNode(UnityEngine__UIElements__UIRAtlasAllocator__AreaNode const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__UIRAtlasAllocator__AreaNode", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__UIElements__UIRAtlasAllocator__AreaNode(____UnityEngine__UIElements__UIRAtlasAllocator__AreaNode&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__UIRAtlasAllocator__AreaNode", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__UIElements__UIRAtlasAllocator__AreaNode(UnityEngine__UIElements__UIRAtlasAllocator__AreaNode&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UIElements__UIRAtlasAllocator__AreaNode(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__UIElements__UIRAtlasAllocator__AreaNode(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__UIElements__UIRAtlasAllocator__AreaNode& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__UIElements__UIRAtlasAllocator__AreaNode& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__UIRAtlasAllocator__AreaNode& operator=(void* o) noexcept {
+  constexpr UnityEngine__UIElements__UIRAtlasAllocator__AreaNode& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__UIRAtlasAllocator__AreaNode& operator=(____UnityEngine__UIElements__UIRAtlasAllocator__AreaNode&& o) noexcept = default;
-  constexpr ____UnityEngine__UIElements__UIRAtlasAllocator__AreaNode& operator=(____UnityEngine__UIElements__UIRAtlasAllocator__AreaNode const& o) noexcept = default;
+  constexpr UnityEngine__UIElements__UIRAtlasAllocator__AreaNode& operator=(UnityEngine__UIElements__UIRAtlasAllocator__AreaNode&& o) noexcept = default;
+  constexpr UnityEngine__UIElements__UIRAtlasAllocator__AreaNode& operator=(UnityEngine__UIElements__UIRAtlasAllocator__AreaNode const& o) noexcept = default;
                 
 
 
 // Fields
 
-static ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::____UnityEngine__UIElements__UIRAtlasAllocator__AreaNode> __declspec(property(get=__get_s_Pool, put=__set_s_Pool))  s_Pool;
+static UnityEngine::UIElements::ObjectPool_1<UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__AreaNode> __declspec(property(get=__get_s_Pool, put=__set_s_Pool))  s_Pool;
 
-static void __set_s_Pool(::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::____UnityEngine__UIElements__UIRAtlasAllocator__AreaNode> value) ;
+static void __set_s_Pool(UnityEngine::UIElements::ObjectPool_1<UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__AreaNode> value) ;
 
-static ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::____UnityEngine__UIElements__UIRAtlasAllocator__AreaNode> __get_s_Pool() ;
+static UnityEngine::UIElements::ObjectPool_1<UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__AreaNode> __get_s_Pool() ;
 
- ::UnityEngine::RectInt __declspec(property(get=__get_rect, put=__set_rect))  rect;
+ UnityEngine::RectInt __declspec(property(get=__get_rect, put=__set_rect))  rect;
 
-constexpr void __set_rect(::UnityEngine::RectInt value) ;
+constexpr void __set_rect(UnityEngine::RectInt value) ;
 
-constexpr ::UnityEngine::RectInt __get_rect() const;
+constexpr UnityEngine::RectInt __get_rect() const;
 
- ::UnityEngine::UIElements::____UnityEngine__UIElements__UIRAtlasAllocator__AreaNode __declspec(property(get=__get_previous, put=__set_previous))  previous;
+ UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__AreaNode __declspec(property(get=__get_previous, put=__set_previous))  previous;
 
-constexpr void __set_previous(::UnityEngine::UIElements::____UnityEngine__UIElements__UIRAtlasAllocator__AreaNode value) ;
+constexpr void __set_previous(UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__AreaNode value) ;
 
-constexpr ::UnityEngine::UIElements::____UnityEngine__UIElements__UIRAtlasAllocator__AreaNode __get_previous() const;
+constexpr UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__AreaNode __get_previous() const;
 
- ::UnityEngine::UIElements::____UnityEngine__UIElements__UIRAtlasAllocator__AreaNode __declspec(property(get=__get_next, put=__set_next))  next;
+ UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__AreaNode __declspec(property(get=__get_next, put=__set_next))  next;
 
-constexpr void __set_next(::UnityEngine::UIElements::____UnityEngine__UIElements__UIRAtlasAllocator__AreaNode value) ;
+constexpr void __set_next(UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__AreaNode value) ;
 
-constexpr ::UnityEngine::UIElements::____UnityEngine__UIElements__UIRAtlasAllocator__AreaNode __get_next() const;
+constexpr UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__AreaNode __get_next() const;
 
 
 // Methods
 
 /// @brief Method Acquire addr 0x2cff738 size 0x98 virtual false final false
-static ::UnityEngine::UIElements::____UnityEngine__UIElements__UIRAtlasAllocator__AreaNode Acquire(::UnityEngine::RectInt rect) ;
+static UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__AreaNode Acquire(UnityEngine::RectInt rect) ;
 
 /// @brief Method Release addr 0x2cff3bc size 0x80 virtual false final false
  void Release() ;
@@ -236,10 +235,10 @@ static ::UnityEngine::UIElements::____UnityEngine__UIElements__UIRAtlasAllocator
  void RemoveFromChain() ;
 
 /// @brief Method AddAfter addr 0x2cfffa8 size 0xac virtual false final false
- void AddAfter(::UnityEngine::UIElements::____UnityEngine__UIElements__UIRAtlasAllocator__AreaNode previous) ;
+ void AddAfter(UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__AreaNode previous) ;
 
 // Ctor Parameters []
-explicit ____UnityEngine__UIElements__UIRAtlasAllocator__AreaNode() ;
+explicit UnityEngine__UIElements__UIRAtlasAllocator__AreaNode() ;
 
 /// @brief Method .ctor addr 0x2d00198 size 0x8 virtual false final false
  void _ctor() ;
@@ -257,12 +256,12 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE UIRAtlasAllocator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using AreaNode = ::UnityEngine::UIElements::____UnityEngine__UIElements__UIRAtlasAllocator__AreaNode;
+using AreaNode = UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__AreaNode;
 
-using Row = ::UnityEngine::UIElements::____UnityEngine__UIElements__UIRAtlasAllocator__Row;
+using Row = UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__Row;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x50};
@@ -339,17 +338,17 @@ constexpr void __set__physicalHeight_k__BackingField(int32_t value) ;
 
 constexpr int32_t __get__physicalHeight_k__BackingField() const;
 
- ::UnityEngine::UIElements::____UnityEngine__UIElements__UIRAtlasAllocator__AreaNode __declspec(property(get=__get_m_FirstUnpartitionedArea, put=__set_m_FirstUnpartitionedArea))  m_FirstUnpartitionedArea;
+ UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__AreaNode __declspec(property(get=__get_m_FirstUnpartitionedArea, put=__set_m_FirstUnpartitionedArea))  m_FirstUnpartitionedArea;
 
-constexpr void __set_m_FirstUnpartitionedArea(::UnityEngine::UIElements::____UnityEngine__UIElements__UIRAtlasAllocator__AreaNode value) ;
+constexpr void __set_m_FirstUnpartitionedArea(UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__AreaNode value) ;
 
-constexpr ::UnityEngine::UIElements::____UnityEngine__UIElements__UIRAtlasAllocator__AreaNode __get_m_FirstUnpartitionedArea() const;
+constexpr UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__AreaNode __get_m_FirstUnpartitionedArea() const;
 
- ::ArrayW<::UnityEngine::UIElements::____UnityEngine__UIElements__UIRAtlasAllocator__Row> __declspec(property(get=__get_m_OpenRows, put=__set_m_OpenRows))  m_OpenRows;
+ ::ArrayW<UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__Row> __declspec(property(get=__get_m_OpenRows, put=__set_m_OpenRows))  m_OpenRows;
 
-constexpr void __set_m_OpenRows(::ArrayW<::UnityEngine::UIElements::____UnityEngine__UIElements__UIRAtlasAllocator__Row> value) ;
+constexpr void __set_m_OpenRows(::ArrayW<UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__Row> value) ;
 
-constexpr ::ArrayW<::UnityEngine::UIElements::____UnityEngine__UIElements__UIRAtlasAllocator__Row> __get_m_OpenRows() const;
+constexpr ::ArrayW<UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__Row> __get_m_OpenRows() const;
 
  int32_t __declspec(property(get=__get_m_1SidePadding, put=__set_m_1SidePadding))  m_1SidePadding;
 
@@ -363,11 +362,11 @@ constexpr void __set_m_2SidePadding(int32_t value) ;
 
 constexpr int32_t __get_m_2SidePadding() const;
 
-static ::Unity::Profiling::ProfilerMarker __declspec(property(get=__get_s_MarkerTryAllocate, put=__set_s_MarkerTryAllocate))  s_MarkerTryAllocate;
+static Unity::Profiling::ProfilerMarker __declspec(property(get=__get_s_MarkerTryAllocate, put=__set_s_MarkerTryAllocate))  s_MarkerTryAllocate;
 
-static void __set_s_MarkerTryAllocate(::Unity::Profiling::ProfilerMarker value) ;
+static void __set_s_MarkerTryAllocate(Unity::Profiling::ProfilerMarker value) ;
 
-static ::Unity::Profiling::ProfilerMarker __get_s_MarkerTryAllocate() ;
+static Unity::Profiling::ProfilerMarker __get_s_MarkerTryAllocate() ;
 
  bool __declspec(property(get=__get__disposed_k__BackingField, put=__set__disposed_k__BackingField))  _disposed_k__BackingField;
 
@@ -452,10 +451,10 @@ explicit UIRAtlasAllocator(int32_t initialAtlasSize, int32_t maxAtlasSize, int32
  void _ctor(int32_t initialAtlasSize, int32_t maxAtlasSize, int32_t sidePadding) ;
 
 /// @brief Method TryAllocate addr 0x2cff8dc size 0x3e0 virtual false final false
- bool TryAllocate(int32_t width, int32_t height, ByRef<::UnityEngine::RectInt> location) ;
+ bool TryAllocate(int32_t width, int32_t height, ByRef<UnityEngine::RectInt> location) ;
 
 /// @brief Method TryPartitionArea addr 0x2cffcbc size 0x218 virtual false final false
- bool TryPartitionArea(::UnityEngine::UIElements::____UnityEngine__UIElements__UIRAtlasAllocator__AreaNode areaNode, int32_t rowIndex, int32_t rowHeight, int32_t minWidth) ;
+ bool TryPartitionArea(UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__AreaNode areaNode, int32_t rowIndex, int32_t rowHeight, int32_t minWidth) ;
 
 /// @brief Method BuildAreas addr 0x2cff7d0 size 0x10c virtual false final false
  void BuildAreas() ;
@@ -464,10 +463,9 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::UIRAtlasAllocator);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIRAtlasAllocator, "UnityEngine.UIElements", "UIRAtlasAllocator");
-NEED_NO_BOX(::UnityEngine::UIElements::____UnityEngine__UIElements__UIRAtlasAllocator__AreaNode);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::____UnityEngine__UIElements__UIRAtlasAllocator__AreaNode, "UnityEngine.UIElements", "UIRAtlasAllocator/AreaNode");
-NEED_NO_BOX(::UnityEngine::UIElements::____UnityEngine__UIElements__UIRAtlasAllocator__Row);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::____UnityEngine__UIElements__UIRAtlasAllocator__Row, "UnityEngine.UIElements", "UIRAtlasAllocator/Row");
+NEED_NO_BOX(UnityEngine::UIElements::UIRAtlasAllocator);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIRAtlasAllocator, "UnityEngine.UIElements", "UIRAtlasAllocator");
+NEED_NO_BOX(UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__AreaNode);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__AreaNode, "UnityEngine.UIElements", "UIRAtlasAllocator/AreaNode");
+NEED_NO_BOX(UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__Row);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__Row, "UnityEngine.UIElements", "UIRAtlasAllocator/Row");

@@ -2,16 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System::Text::RegularExpressions {
-struct RegexPrefix;
-}
-namespace System::Text::RegularExpressions {
-class RegexFC;
-}
-namespace System::Text::RegularExpressions {
-class RegexTree;
-}
 namespace System {
 template<typename T>
 struct Span_1;
@@ -20,16 +10,25 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace System::Collections::Generic {
-template<typename T>
-struct ValueListBuilder_1;
+namespace System::Text::RegularExpressions {
+class RegexFC;
 }
 namespace System::Text::RegularExpressions {
 class RegexNode;
 }
+namespace System::Text::RegularExpressions {
+class RegexTree;
+}
 namespace System {
 template<typename T>
 struct Nullable_1;
+}
+namespace System::Text::RegularExpressions {
+struct RegexPrefix;
+}
+namespace System::Collections::Generic {
+template<typename T>
+struct ValueListBuilder_1;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {
@@ -44,8 +43,8 @@ namespace System::Text::RegularExpressions {
 struct CORDL_TYPE RegexFCD : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "_fcStack", ty: "::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexFC>", modifiers: "", def_value: None }, CppParam { name: "_intStack", ty: "::System::Collections::Generic::ValueListBuilder_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "_skipAllChildren", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_skipchild", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_failed", ty: "bool", modifiers: "", def_value: None }]
-constexpr RegexFCD(::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexFC> _fcStack, ::System::Collections::Generic::ValueListBuilder_1<int32_t> _intStack, bool _skipAllChildren, bool _skipchild, bool _failed) noexcept;
+// Ctor Parameters [CppParam { name: "_fcStack", ty: "System::Collections::Generic::List_1<System::Text::RegularExpressions::RegexFC>", modifiers: "", def_value: None }, CppParam { name: "_intStack", ty: "System::Collections::Generic::ValueListBuilder_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "_skipAllChildren", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_skipchild", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_failed", ty: "bool", modifiers: "", def_value: None }]
+constexpr RegexFCD(System::Collections::Generic::List_1<System::Text::RegularExpressions::RegexFC> _fcStack, System::Collections::Generic::ValueListBuilder_1<int32_t> _intStack, bool _skipAllChildren, bool _skipchild, bool _failed) noexcept;
 
 
                     constexpr RegexFCD(RegexFCD const&) = default;
@@ -78,17 +77,17 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexFC> __declspec(property(get=__get__fcStack, put=__set__fcStack))  _fcStack;
+ System::Collections::Generic::List_1<System::Text::RegularExpressions::RegexFC> __declspec(property(get=__get__fcStack, put=__set__fcStack))  _fcStack;
 
-constexpr void __set__fcStack(::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexFC> value) ;
+constexpr void __set__fcStack(System::Collections::Generic::List_1<System::Text::RegularExpressions::RegexFC> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexFC> __get__fcStack() const;
+constexpr System::Collections::Generic::List_1<System::Text::RegularExpressions::RegexFC> __get__fcStack() const;
 
- ::System::Collections::Generic::ValueListBuilder_1<int32_t> __declspec(property(get=__get__intStack, put=__set__intStack))  _intStack;
+ System::Collections::Generic::ValueListBuilder_1<int32_t> __declspec(property(get=__get__intStack, put=__set__intStack))  _intStack;
 
-constexpr void __set__intStack(::System::Collections::Generic::ValueListBuilder_1<int32_t> value) ;
+constexpr void __set__intStack(System::Collections::Generic::ValueListBuilder_1<int32_t> value) ;
 
-constexpr ::System::Collections::Generic::ValueListBuilder_1<int32_t> __get__intStack() const;
+constexpr System::Collections::Generic::ValueListBuilder_1<int32_t> __get__intStack() const;
 
  bool __declspec(property(get=__get__skipAllChildren, put=__set__skipAllChildren))  _skipAllChildren;
 
@@ -112,16 +111,16 @@ constexpr bool __get__failed() const;
 // Methods
 
 /// @brief Method .ctor addr 0x27cbb24 size 0xd4 virtual false final false
- void _ctor(::System::Span_1<int32_t> intStack) ;
+ void _ctor(System::Span_1<int32_t> intStack) ;
 
 /// @brief Method FirstChars addr 0x27cbbf8 size 0x180 virtual false final false
-static ::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix> FirstChars(::System::Text::RegularExpressions::RegexTree t) ;
+static System::Nullable_1<System::Text::RegularExpressions::RegexPrefix> FirstChars(System::Text::RegularExpressions::RegexTree t) ;
 
 /// @brief Method Prefix addr 0x27cbfa0 size 0x218 virtual false final false
-static ::System::Text::RegularExpressions::RegexPrefix Prefix(::System::Text::RegularExpressions::RegexTree tree) ;
+static System::Text::RegularExpressions::RegexPrefix Prefix(System::Text::RegularExpressions::RegexTree tree) ;
 
 /// @brief Method Anchors addr 0x27cc25c size 0x130 virtual false final false
-static int32_t Anchors(::System::Text::RegularExpressions::RegexTree tree) ;
+static int32_t Anchors(System::Text::RegularExpressions::RegexTree tree) ;
 
 /// @brief Method AnchorFromType addr 0x27cc38c size 0x70 virtual false final false
 static int32_t AnchorFromType(int32_t type) ;
@@ -136,32 +135,31 @@ static int32_t AnchorFromType(int32_t type) ;
  int32_t PopInt() ;
 
 /// @brief Method PushFC addr 0x27cc550 size 0xa8 virtual false final false
- void PushFC(::System::Text::RegularExpressions::RegexFC fc) ;
+ void PushFC(System::Text::RegularExpressions::RegexFC fc) ;
 
 /// @brief Method FCIsEmpty addr 0x27cc5f8 size 0x50 virtual false final false
  bool FCIsEmpty() ;
 
 /// @brief Method PopFC addr 0x27cc648 size 0x7c virtual false final false
- ::System::Text::RegularExpressions::RegexFC PopFC() ;
+ System::Text::RegularExpressions::RegexFC PopFC() ;
 
 /// @brief Method TopFC addr 0x27cc6c4 size 0x64 virtual false final false
- ::System::Text::RegularExpressions::RegexFC TopFC() ;
+ System::Text::RegularExpressions::RegexFC TopFC() ;
 
 /// @brief Method Dispose addr 0x27cbf10 size 0x48 virtual false final false
  void Dispose() ;
 
 /// @brief Method RegexFCFromRegexTree addr 0x27cbd78 size 0x198 virtual false final false
- ::System::Text::RegularExpressions::RegexFC RegexFCFromRegexTree(::System::Text::RegularExpressions::RegexTree tree) ;
+ System::Text::RegularExpressions::RegexFC RegexFCFromRegexTree(System::Text::RegularExpressions::RegexTree tree) ;
 
 /// @brief Method SkipChild addr 0x27ccb14 size 0xc virtual false final false
  void SkipChild() ;
 
 /// @brief Method CalculateFC addr 0x27cc728 size 0x3ec virtual false final false
- void CalculateFC(int32_t NodeType, ::System::Text::RegularExpressions::RegexNode node, int32_t CurIndex) ;
+ void CalculateFC(int32_t NodeType, System::Text::RegularExpressions::RegexNode node, int32_t CurIndex) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Text::RegularExpressions
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::RegularExpressions::RegexFCD, "System.Text.RegularExpressions", "RegexFCD");
+DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexFCD, "System.Text.RegularExpressions", "RegexFCD");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System::Net::NetworkInformation {
 struct in6_addr;
 }
@@ -19,8 +18,8 @@ namespace System::Net::NetworkInformation {
 struct CORDL_TYPE sockaddr_in6 : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "sin6_family", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "sin6_port", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "sin6_flowinfo", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "sin6_addr", ty: "::System::Net::NetworkInformation::in6_addr", modifiers: "", def_value: None }, CppParam { name: "sin6_scope_id", ty: "uint32_t", modifiers: "", def_value: None }]
-constexpr sockaddr_in6(uint16_t sin6_family, uint16_t sin6_port, uint32_t sin6_flowinfo, ::System::Net::NetworkInformation::in6_addr sin6_addr, uint32_t sin6_scope_id) noexcept;
+// Ctor Parameters [CppParam { name: "sin6_family", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "sin6_port", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "sin6_flowinfo", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "sin6_addr", ty: "System::Net::NetworkInformation::in6_addr", modifiers: "", def_value: None }, CppParam { name: "sin6_scope_id", ty: "uint32_t", modifiers: "", def_value: None }]
+constexpr sockaddr_in6(uint16_t sin6_family, uint16_t sin6_port, uint32_t sin6_flowinfo, System::Net::NetworkInformation::in6_addr sin6_addr, uint32_t sin6_scope_id) noexcept;
 
 
                     constexpr sockaddr_in6(sockaddr_in6 const&) = default;
@@ -71,11 +70,11 @@ constexpr void __set_sin6_flowinfo(uint32_t value) ;
 
 constexpr uint32_t __get_sin6_flowinfo() const;
 
- ::System::Net::NetworkInformation::in6_addr __declspec(property(get=__get_sin6_addr, put=__set_sin6_addr))  sin6_addr;
+ System::Net::NetworkInformation::in6_addr __declspec(property(get=__get_sin6_addr, put=__set_sin6_addr))  sin6_addr;
 
-constexpr void __set_sin6_addr(::System::Net::NetworkInformation::in6_addr value) ;
+constexpr void __set_sin6_addr(System::Net::NetworkInformation::in6_addr value) ;
 
-constexpr ::System::Net::NetworkInformation::in6_addr __get_sin6_addr() const;
+constexpr System::Net::NetworkInformation::in6_addr __get_sin6_addr() const;
 
  uint32_t __declspec(property(get=__get_sin6_scope_id, put=__set_sin6_scope_id))  sin6_scope_id;
 
@@ -87,5 +86,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net::NetworkInformation
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::sockaddr_in6, "System.Net.NetworkInformation", "sockaddr_in6");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::sockaddr_in6, "System.Net.NetworkInformation", "sockaddr_in6");

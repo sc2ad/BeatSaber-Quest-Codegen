@@ -5,7 +5,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 class IEquatable_1;
@@ -23,8 +22,8 @@ namespace UnityEngine::XR {
 struct CORDL_TYPE InputDevice : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::XR::InputDevice>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::XR::InputDevice>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::XR::InputDevice>
+constexpr operator  System::IEquatable_1<UnityEngine::XR::InputDevice>() const;
 
 // Ctor Parameters [CppParam { name: "m_DeviceId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "m_Initialized", ty: "bool", modifiers: "", def_value: None }]
 constexpr InputDevice(uint64_t m_DeviceId, bool m_Initialized) noexcept;
@@ -109,7 +108,7 @@ constexpr bool __get_m_Initialized() const;
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x2d3901c size 0x28 virtual true final true
- bool Equals(::UnityEngine::XR::InputDevice other) ;
+ bool Equals(UnityEngine::XR::InputDevice other) ;
 
 /// @brief Method GetHashCode addr 0x2d39044 size 0x34 virtual true final false
  int32_t GetHashCode() ;
@@ -118,5 +117,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::InputDevice, "UnityEngine.XR", "InputDevice");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::InputDevice, "UnityEngine.XR", "InputDevice");

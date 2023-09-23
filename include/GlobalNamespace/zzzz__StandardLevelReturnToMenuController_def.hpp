@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class PrepareLevelCompletionResults;
-}
 namespace GlobalNamespace {
 class IReturnToMenuController;
+}
+namespace GlobalNamespace {
+class PrepareLevelCompletionResults;
 }
 namespace GlobalNamespace {
 class StandardLevelScenesTransitionSetupDataSO;
@@ -21,11 +20,11 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5183))
 // CS Name: StandardLevelReturnToMenuController
-class CORDL_TYPE StandardLevelReturnToMenuController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE StandardLevelReturnToMenuController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IReturnToMenuController
-constexpr operator  ::GlobalNamespace::IReturnToMenuController() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IReturnToMenuController
+constexpr operator  GlobalNamespace::IReturnToMenuController() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -39,7 +38,7 @@ constexpr StandardLevelReturnToMenuController(StandardLevelReturnToMenuControlle
 constexpr StandardLevelReturnToMenuController(StandardLevelReturnToMenuController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit StandardLevelReturnToMenuController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit StandardLevelReturnToMenuController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -60,17 +59,17 @@ constexpr explicit StandardLevelReturnToMenuController(void* ptr) noexcept : ::U
 
 // Fields
 
- ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO __declspec(property(get=__get__standardLevelSceneSetupData, put=__set__standardLevelSceneSetupData))  _standardLevelSceneSetupData;
+ GlobalNamespace::StandardLevelScenesTransitionSetupDataSO __declspec(property(get=__get__standardLevelSceneSetupData, put=__set__standardLevelSceneSetupData))  _standardLevelSceneSetupData;
 
-constexpr void __set__standardLevelSceneSetupData(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO value) ;
+constexpr void __set__standardLevelSceneSetupData(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO value) ;
 
-constexpr ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO __get__standardLevelSceneSetupData() const;
+constexpr GlobalNamespace::StandardLevelScenesTransitionSetupDataSO __get__standardLevelSceneSetupData() const;
 
- ::GlobalNamespace::PrepareLevelCompletionResults __declspec(property(get=__get__prepareLevelCompletionResults, put=__set__prepareLevelCompletionResults))  _prepareLevelCompletionResults;
+ GlobalNamespace::PrepareLevelCompletionResults __declspec(property(get=__get__prepareLevelCompletionResults, put=__set__prepareLevelCompletionResults))  _prepareLevelCompletionResults;
 
-constexpr void __set__prepareLevelCompletionResults(::GlobalNamespace::PrepareLevelCompletionResults value) ;
+constexpr void __set__prepareLevelCompletionResults(GlobalNamespace::PrepareLevelCompletionResults value) ;
 
-constexpr ::GlobalNamespace::PrepareLevelCompletionResults __get__prepareLevelCompletionResults() const;
+constexpr GlobalNamespace::PrepareLevelCompletionResults __get__prepareLevelCompletionResults() const;
 
 
 // Methods
@@ -88,6 +87,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::StandardLevelReturnToMenuController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StandardLevelReturnToMenuController, "", "StandardLevelReturnToMenuController");
+NEED_NO_BOX(GlobalNamespace::StandardLevelReturnToMenuController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelReturnToMenuController, "", "StandardLevelReturnToMenuController");

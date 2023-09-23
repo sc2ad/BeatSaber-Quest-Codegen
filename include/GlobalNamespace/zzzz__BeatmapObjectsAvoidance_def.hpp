@@ -4,39 +4,38 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 class IAudioTimeSource;
 }
 namespace UnityEngine {
-class Transform;
+struct Vector2;
 }
 namespace GlobalNamespace {
 class BeatmapObjectAvoidancePathEvaluator;
 }
 namespace GlobalNamespace {
-class IReadonlyBeatmapData;
+class BezierSplineEvaluator;
+}
+namespace GlobalNamespace {
+struct OffsetDirection;
+}
+namespace GlobalNamespace {
+class BeatmapObjectAvoidanceTiltEvaluator;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace GlobalNamespace {
 class PlayerTransforms;
+}
+namespace GlobalNamespace {
+class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
 class IBeatmapObjectSpawnController;
 }
 namespace GlobalNamespace {
 class BeatmapObjectAvoidanceYOffsetEvaluator;
-}
-namespace GlobalNamespace {
-struct OffsetDirection;
-}
-namespace GlobalNamespace {
-class BezierSplineEvaluator;
-}
-namespace GlobalNamespace {
-class BeatmapObjectAvoidanceTiltEvaluator;
-}
-namespace UnityEngine {
-struct Vector2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -48,7 +47,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3946))
 // CS Name: BeatmapObjectsAvoidance
-class CORDL_TYPE BeatmapObjectsAvoidance : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE BeatmapObjectsAvoidance : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -63,7 +62,7 @@ constexpr BeatmapObjectsAvoidance(BeatmapObjectsAvoidance const& ) noexcept = de
 constexpr BeatmapObjectsAvoidance(BeatmapObjectsAvoidance&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BeatmapObjectsAvoidance(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit BeatmapObjectsAvoidance(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -96,77 +95,77 @@ constexpr void __set__yOffset(float_t value) ;
 
 constexpr float_t __get__yOffset() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get__gravity, put=__set__gravity))  _gravity;
+ UnityEngine::Vector2 __declspec(property(get=__get__gravity, put=__set__gravity))  _gravity;
 
-constexpr void __set__gravity(::UnityEngine::Vector2 value) ;
+constexpr void __set__gravity(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get__gravity() const;
+constexpr UnityEngine::Vector2 __get__gravity() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__towardsPlayerWrapperTransform, put=__set__towardsPlayerWrapperTransform))  _towardsPlayerWrapperTransform;
+ UnityEngine::Transform __declspec(property(get=__get__towardsPlayerWrapperTransform, put=__set__towardsPlayerWrapperTransform))  _towardsPlayerWrapperTransform;
 
-constexpr void __set__towardsPlayerWrapperTransform(::UnityEngine::Transform value) ;
+constexpr void __set__towardsPlayerWrapperTransform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__towardsPlayerWrapperTransform() const;
+constexpr UnityEngine::Transform __get__towardsPlayerWrapperTransform() const;
 
- ::GlobalNamespace::IAudioTimeSource __declspec(property(get=__get__audioTimeSource, put=__set__audioTimeSource))  _audioTimeSource;
+ GlobalNamespace::IAudioTimeSource __declspec(property(get=__get__audioTimeSource, put=__set__audioTimeSource))  _audioTimeSource;
 
-constexpr void __set__audioTimeSource(::GlobalNamespace::IAudioTimeSource value) ;
+constexpr void __set__audioTimeSource(GlobalNamespace::IAudioTimeSource value) ;
 
-constexpr ::GlobalNamespace::IAudioTimeSource __get__audioTimeSource() const;
+constexpr GlobalNamespace::IAudioTimeSource __get__audioTimeSource() const;
 
- ::GlobalNamespace::IReadonlyBeatmapData __declspec(property(get=__get__beatmapData, put=__set__beatmapData))  _beatmapData;
+ GlobalNamespace::IReadonlyBeatmapData __declspec(property(get=__get__beatmapData, put=__set__beatmapData))  _beatmapData;
 
-constexpr void __set__beatmapData(::GlobalNamespace::IReadonlyBeatmapData value) ;
+constexpr void __set__beatmapData(GlobalNamespace::IReadonlyBeatmapData value) ;
 
-constexpr ::GlobalNamespace::IReadonlyBeatmapData __get__beatmapData() const;
+constexpr GlobalNamespace::IReadonlyBeatmapData __get__beatmapData() const;
 
- ::GlobalNamespace::IBeatmapObjectSpawnController __declspec(property(get=__get__beatmapObjectSpawnController, put=__set__beatmapObjectSpawnController))  _beatmapObjectSpawnController;
+ GlobalNamespace::IBeatmapObjectSpawnController __declspec(property(get=__get__beatmapObjectSpawnController, put=__set__beatmapObjectSpawnController))  _beatmapObjectSpawnController;
 
-constexpr void __set__beatmapObjectSpawnController(::GlobalNamespace::IBeatmapObjectSpawnController value) ;
+constexpr void __set__beatmapObjectSpawnController(GlobalNamespace::IBeatmapObjectSpawnController value) ;
 
-constexpr ::GlobalNamespace::IBeatmapObjectSpawnController __get__beatmapObjectSpawnController() const;
+constexpr GlobalNamespace::IBeatmapObjectSpawnController __get__beatmapObjectSpawnController() const;
 
- ::GlobalNamespace::PlayerTransforms __declspec(property(get=__get__playerTransforms, put=__set__playerTransforms))  _playerTransforms;
+ GlobalNamespace::PlayerTransforms __declspec(property(get=__get__playerTransforms, put=__set__playerTransforms))  _playerTransforms;
 
-constexpr void __set__playerTransforms(::GlobalNamespace::PlayerTransforms value) ;
+constexpr void __set__playerTransforms(GlobalNamespace::PlayerTransforms value) ;
 
-constexpr ::GlobalNamespace::PlayerTransforms __get__playerTransforms() const;
+constexpr GlobalNamespace::PlayerTransforms __get__playerTransforms() const;
 
- ::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator __declspec(property(get=__get__avoidanceYOffsetEvaluatorProvider, put=__set__avoidanceYOffsetEvaluatorProvider))  _avoidanceYOffsetEvaluatorProvider;
+ GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator __declspec(property(get=__get__avoidanceYOffsetEvaluatorProvider, put=__set__avoidanceYOffsetEvaluatorProvider))  _avoidanceYOffsetEvaluatorProvider;
 
-constexpr void __set__avoidanceYOffsetEvaluatorProvider(::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator value) ;
+constexpr void __set__avoidanceYOffsetEvaluatorProvider(GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator value) ;
 
-constexpr ::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator __get__avoidanceYOffsetEvaluatorProvider() const;
+constexpr GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator __get__avoidanceYOffsetEvaluatorProvider() const;
 
- ::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator __declspec(property(get=__get__pathEvaluator, put=__set__pathEvaluator))  _pathEvaluator;
+ GlobalNamespace::BeatmapObjectAvoidancePathEvaluator __declspec(property(get=__get__pathEvaluator, put=__set__pathEvaluator))  _pathEvaluator;
 
-constexpr void __set__pathEvaluator(::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator value) ;
+constexpr void __set__pathEvaluator(GlobalNamespace::BeatmapObjectAvoidancePathEvaluator value) ;
 
-constexpr ::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator __get__pathEvaluator() const;
+constexpr GlobalNamespace::BeatmapObjectAvoidancePathEvaluator __get__pathEvaluator() const;
 
- ::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator __declspec(property(get=__get__tiltEvaluator, put=__set__tiltEvaluator))  _tiltEvaluator;
+ GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator __declspec(property(get=__get__tiltEvaluator, put=__set__tiltEvaluator))  _tiltEvaluator;
 
-constexpr void __set__tiltEvaluator(::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator value) ;
+constexpr void __set__tiltEvaluator(GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator value) ;
 
-constexpr ::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator __get__tiltEvaluator() const;
+constexpr GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator __get__tiltEvaluator() const;
 
- ::GlobalNamespace::BezierSplineEvaluator __declspec(property(get=__get__pathBezierSplineEvaluator, put=__set__pathBezierSplineEvaluator))  _pathBezierSplineEvaluator;
+ GlobalNamespace::BezierSplineEvaluator __declspec(property(get=__get__pathBezierSplineEvaluator, put=__set__pathBezierSplineEvaluator))  _pathBezierSplineEvaluator;
 
-constexpr void __set__pathBezierSplineEvaluator(::GlobalNamespace::BezierSplineEvaluator value) ;
+constexpr void __set__pathBezierSplineEvaluator(GlobalNamespace::BezierSplineEvaluator value) ;
 
-constexpr ::GlobalNamespace::BezierSplineEvaluator __get__pathBezierSplineEvaluator() const;
+constexpr GlobalNamespace::BezierSplineEvaluator __get__pathBezierSplineEvaluator() const;
 
- ::GlobalNamespace::BezierSplineEvaluator __declspec(property(get=__get__accelerationBezierSplineEvaluator, put=__set__accelerationBezierSplineEvaluator))  _accelerationBezierSplineEvaluator;
+ GlobalNamespace::BezierSplineEvaluator __declspec(property(get=__get__accelerationBezierSplineEvaluator, put=__set__accelerationBezierSplineEvaluator))  _accelerationBezierSplineEvaluator;
 
-constexpr void __set__accelerationBezierSplineEvaluator(::GlobalNamespace::BezierSplineEvaluator value) ;
+constexpr void __set__accelerationBezierSplineEvaluator(GlobalNamespace::BezierSplineEvaluator value) ;
 
-constexpr ::GlobalNamespace::BezierSplineEvaluator __get__accelerationBezierSplineEvaluator() const;
+constexpr GlobalNamespace::BezierSplineEvaluator __get__accelerationBezierSplineEvaluator() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
+ UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
 
-constexpr void __set__transform(::UnityEngine::Transform value) ;
+constexpr void __set__transform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__transform() const;
+constexpr UnityEngine::Transform __get__transform() const;
 
 
 // Methods
@@ -190,7 +189,7 @@ constexpr ::UnityEngine::Transform __get__transform() const;
  bool BuildAnimationCurvePath() ;
 
 /// @brief Method AdjustPositionWithOffsetDirection addr 0x20a6254 size 0x2f0 virtual false final false
- void AdjustPositionWithOffsetDirection(ByRef<::UnityEngine::Vector2> position, int32_t lineIndex, ::GlobalNamespace::OffsetDirection offsetDirection) ;
+ void AdjustPositionWithOffsetDirection(ByRef<UnityEngine::Vector2> position, int32_t lineIndex, GlobalNamespace::OffsetDirection offsetDirection) ;
 
 /// @brief Method HandleBeatmapObjectSpawnControllerDidInit addr 0x20a6da4 size 0x4 virtual false final false
  void HandleBeatmapObjectSpawnControllerDidInit() ;
@@ -205,6 +204,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BeatmapObjectsAvoidance);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapObjectsAvoidance, "", "BeatmapObjectsAvoidance");
+NEED_NO_BOX(GlobalNamespace::BeatmapObjectsAvoidance);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectsAvoidance, "", "BeatmapObjectsAvoidance");

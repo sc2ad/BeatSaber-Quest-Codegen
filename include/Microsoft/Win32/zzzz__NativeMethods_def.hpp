@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
-namespace {
 namespace System::Runtime::InteropServices {
 class SafeHandle;
 }
-namespace Microsoft::Win32::SafeHandles {
-class SafeWaitHandle;
-}
 namespace System::Runtime::InteropServices {
 struct HandleRef;
+}
+namespace Microsoft::Win32::SafeHandles {
+class SafeWaitHandle;
 }
 namespace Microsoft::Win32::SafeHandles {
 class SafeProcessHandle;
@@ -63,10 +62,10 @@ constexpr explicit NativeMethods(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 // Methods
 
 /// @brief Method DuplicateHandle addr 0x2698f00 size 0x204 virtual false final false
-static bool DuplicateHandle(::System::Runtime::InteropServices::HandleRef hSourceProcessHandle, ::System::Runtime::InteropServices::SafeHandle hSourceHandle, ::System::Runtime::InteropServices::HandleRef hTargetProcess, ByRef<::Microsoft::Win32::SafeHandles::SafeWaitHandle> targetHandle, int32_t dwDesiredAccess, bool bInheritHandle, int32_t dwOptions) ;
+static bool DuplicateHandle(System::Runtime::InteropServices::HandleRef hSourceProcessHandle, System::Runtime::InteropServices::SafeHandle hSourceHandle, System::Runtime::InteropServices::HandleRef hTargetProcess, ByRef<Microsoft::Win32::SafeHandles::SafeWaitHandle> targetHandle, int32_t dwDesiredAccess, bool bInheritHandle, int32_t dwOptions) ;
 
 /// @brief Method DuplicateHandle addr 0x2699104 size 0x150 virtual false final false
-static bool DuplicateHandle(::System::Runtime::InteropServices::HandleRef hSourceProcessHandle, ::System::Runtime::InteropServices::HandleRef hSourceHandle, ::System::Runtime::InteropServices::HandleRef hTargetProcess, ByRef<::Microsoft::Win32::SafeHandles::SafeProcessHandle> targetHandle, int32_t dwDesiredAccess, bool bInheritHandle, int32_t dwOptions) ;
+static bool DuplicateHandle(System::Runtime::InteropServices::HandleRef hSourceProcessHandle, System::Runtime::InteropServices::HandleRef hSourceHandle, System::Runtime::InteropServices::HandleRef hTargetProcess, ByRef<Microsoft::Win32::SafeHandles::SafeProcessHandle> targetHandle, int32_t dwDesiredAccess, bool bInheritHandle, int32_t dwOptions) ;
 
 /// @brief Method GetCurrentProcess addr 0x2699280 size 0x4 virtual false final false
 static ::cordl_internals::intptr_t GetCurrentProcess() ;
@@ -75,13 +74,13 @@ static ::cordl_internals::intptr_t GetCurrentProcess() ;
 static bool GetExitCodeProcess(::cordl_internals::intptr_t processHandle, ByRef<int32_t> exitCode) ;
 
 /// @brief Method GetExitCodeProcess addr 0x2699288 size 0xe8 virtual false final false
-static bool GetExitCodeProcess(::Microsoft::Win32::SafeHandles::SafeProcessHandle processHandle, ByRef<int32_t> exitCode) ;
+static bool GetExitCodeProcess(Microsoft::Win32::SafeHandles::SafeProcessHandle processHandle, ByRef<int32_t> exitCode) ;
 
 /// @brief Method GetProcessTimes addr 0x2699370 size 0x4 virtual false final false
 static bool GetProcessTimes(::cordl_internals::intptr_t handle, ByRef<int64_t> creation, ByRef<int64_t> exit, ByRef<int64_t> kernel, ByRef<int64_t> user) ;
 
 /// @brief Method GetProcessTimes addr 0x2699374 size 0x108 virtual false final false
-static bool GetProcessTimes(::Microsoft::Win32::SafeHandles::SafeProcessHandle handle, ByRef<int64_t> creation, ByRef<int64_t> exit, ByRef<int64_t> kernel, ByRef<int64_t> user) ;
+static bool GetProcessTimes(Microsoft::Win32::SafeHandles::SafeProcessHandle handle, ByRef<int64_t> creation, ByRef<int64_t> exit, ByRef<int64_t> kernel, ByRef<int64_t> user) ;
 
 /// @brief Method GetCurrentProcessId addr 0x269947c size 0x4 virtual false final false
 static int32_t GetCurrentProcessId() ;
@@ -93,6 +92,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Microsoft::Win32
-} // end anonymous namespace
-NEED_NO_BOX(::Microsoft::Win32::NativeMethods);
-DEFINE_IL2CPP_ARG_TYPE(::Microsoft::Win32::NativeMethods, "Microsoft.Win32", "NativeMethods");
+NEED_NO_BOX(Microsoft::Win32::NativeMethods);
+DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::NativeMethods, "Microsoft.Win32", "NativeMethods");

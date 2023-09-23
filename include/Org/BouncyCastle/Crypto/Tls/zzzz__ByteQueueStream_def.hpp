@@ -3,12 +3,11 @@
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto::Tls {
-class ByteQueue;
-}
 namespace System::IO {
 struct SeekOrigin;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class ByteQueue;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -20,7 +19,7 @@ namespace Org::BouncyCastle::Crypto::Tls {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3604))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1184))
 // CS Name: Org.BouncyCastle.Crypto.Tls.ByteQueueStream
-class CORDL_TYPE ByteQueueStream : public ::System::IO::Stream {
+class CORDL_TYPE ByteQueueStream : public System::IO::Stream {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr ByteQueueStream(ByteQueueStream const& ) noexcept = default;
 constexpr ByteQueueStream(ByteQueueStream&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ByteQueueStream(void* ptr) noexcept : ::System::IO::Stream(ptr) {
+constexpr explicit ByteQueueStream(void* ptr) noexcept : System::IO::Stream(ptr) {
 }
 
 
@@ -56,11 +55,11 @@ constexpr explicit ByteQueueStream(void* ptr) noexcept : ::System::IO::Stream(pt
 
 // Fields
 
- ::Org::BouncyCastle::Crypto::Tls::ByteQueue __declspec(property(get=__get_buffer, put=__set_buffer))  buffer;
+ Org::BouncyCastle::Crypto::Tls::ByteQueue __declspec(property(get=__get_buffer, put=__set_buffer))  buffer;
 
-constexpr void __set_buffer(::Org::BouncyCastle::Crypto::Tls::ByteQueue value) ;
+constexpr void __set_buffer(Org::BouncyCastle::Crypto::Tls::ByteQueue value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::ByteQueue __get_buffer() const;
+constexpr Org::BouncyCastle::Crypto::Tls::ByteQueue __get_buffer() const;
 
 
 // Properties
@@ -123,7 +122,7 @@ explicit ByteQueueStream() ;
  int32_t ReadByte() ;
 
 /// @brief Method Seek addr 0xecf124 size 0x40 virtual true final false
- int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin) ;
+ int64_t Seek(int64_t offset, System::IO::SeekOrigin origin) ;
 
 /// @brief Method SetLength addr 0xecf164 size 0x40 virtual true final false
  void SetLength(int64_t value) ;
@@ -144,6 +143,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::ByteQueueStream);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::ByteQueueStream, "Org.BouncyCastle.Crypto.Tls", "ByteQueueStream");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::ByteQueueStream);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::ByteQueueStream, "Org.BouncyCastle.Crypto.Tls", "ByteQueueStream");

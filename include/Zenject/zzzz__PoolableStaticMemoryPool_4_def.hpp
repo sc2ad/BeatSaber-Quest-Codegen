@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__StaticMemoryPool_4_def.hpp"
-namespace {
 // Forward declare root types
 namespace Zenject {
 template<typename TParam1,typename TParam2,typename TParam3,typename TValue>
@@ -17,10 +16,10 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TParam2,::cordl_internals::il2cpp_reference_type TParam3,::cordl_internals::il2cpp_reference_type TValue>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11031), inst: 3503 }), TypeDefinitionIndex(TypeDefinitionIndex(11031)), TypeDefinitionIndex(TypeDefinitionIndex(11021))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11021)), TypeDefinitionIndex(TypeDefinitionIndex(11031)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11031), inst: 3503 })}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11021), inst: 5937 })
 // CS Name: Zenject.PoolableStaticMemoryPool`4
-class CORDL_TYPE PoolableStaticMemoryPool_4<TParam1,TParam2,TParam3,TValue> : public ::Zenject::StaticMemoryPool_4<TParam1,TParam2,TParam3,TValue> {
+class CORDL_TYPE PoolableStaticMemoryPool_4<TParam1,TParam2,TParam3,TValue> : public Zenject::StaticMemoryPool_4<TParam1,TParam2,TParam3,TValue> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr PoolableStaticMemoryPool_4(PoolableStaticMemoryPool_4 const& ) noexcep
 constexpr PoolableStaticMemoryPool_4(PoolableStaticMemoryPool_4&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PoolableStaticMemoryPool_4(void* ptr) noexcept : ::Zenject::StaticMemoryPool_4<TParam1,TParam2,TParam3,TValue>(ptr) {
+constexpr explicit PoolableStaticMemoryPool_4(void* ptr) noexcept : Zenject::StaticMemoryPool_4<TParam1,TParam2,TParam3,TValue>(ptr) {
 }
 
 
@@ -72,5 +71,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::PoolableStaticMemoryPool_4, "Zenject", "PoolableStaticMemoryPool`4");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::PoolableStaticMemoryPool_4, "Zenject", "PoolableStaticMemoryPool`4");

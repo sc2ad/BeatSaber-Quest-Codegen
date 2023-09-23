@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/ProBuilder/zzzz__EntityBehaviour_def.hpp"
-namespace {
 namespace UnityEngine::SceneManagement {
 struct LoadSceneMode;
 }
@@ -18,7 +17,7 @@ namespace UnityEngine::ProBuilder {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12065))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12152))
 // CS Name: UnityEngine.ProBuilder.TriggerBehaviour
-class CORDL_TYPE TriggerBehaviour : public ::UnityEngine::ProBuilder::EntityBehaviour {
+class CORDL_TYPE TriggerBehaviour : public UnityEngine::ProBuilder::EntityBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr TriggerBehaviour(TriggerBehaviour const& ) noexcept = default;
 constexpr TriggerBehaviour(TriggerBehaviour&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TriggerBehaviour(void* ptr) noexcept : ::UnityEngine::ProBuilder::EntityBehaviour(ptr) {
+constexpr explicit TriggerBehaviour(void* ptr) noexcept : UnityEngine::ProBuilder::EntityBehaviour(ptr) {
 }
 
 
@@ -61,7 +60,7 @@ constexpr explicit TriggerBehaviour(void* ptr) noexcept : ::UnityEngine::ProBuil
  void OnEnterPlayMode() ;
 
 /// @brief Method OnSceneLoaded addr 0x29e85ac size 0xb8 virtual true final false
- void OnSceneLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode mode) ;
+ void OnSceneLoaded(UnityEngine::SceneManagement::Scene scene, UnityEngine::SceneManagement::LoadSceneMode mode) ;
 
 // Ctor Parameters []
 explicit TriggerBehaviour() ;
@@ -73,6 +72,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::TriggerBehaviour);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::TriggerBehaviour, "UnityEngine.ProBuilder", "TriggerBehaviour");
+NEED_NO_BOX(UnityEngine::ProBuilder::TriggerBehaviour);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::TriggerBehaviour, "UnityEngine.ProBuilder", "TriggerBehaviour");

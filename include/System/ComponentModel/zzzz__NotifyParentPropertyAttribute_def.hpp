@@ -3,7 +3,6 @@
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::ComponentModel {
 class NotifyParentPropertyAttribute;
@@ -14,7 +13,7 @@ namespace System::ComponentModel {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8344))
 // CS Name: System.ComponentModel.NotifyParentPropertyAttribute
-class CORDL_TYPE NotifyParentPropertyAttribute : public ::System::Attribute {
+class CORDL_TYPE NotifyParentPropertyAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr NotifyParentPropertyAttribute(NotifyParentPropertyAttribute const& ) n
 constexpr NotifyParentPropertyAttribute(NotifyParentPropertyAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NotifyParentPropertyAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit NotifyParentPropertyAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -50,23 +49,23 @@ constexpr explicit NotifyParentPropertyAttribute(void* ptr) noexcept : ::System:
 
 // Fields
 
-static ::System::ComponentModel::NotifyParentPropertyAttribute __declspec(property(get=__get_Yes, put=__set_Yes))  Yes;
+static System::ComponentModel::NotifyParentPropertyAttribute __declspec(property(get=__get_Yes, put=__set_Yes))  Yes;
 
-static void __set_Yes(::System::ComponentModel::NotifyParentPropertyAttribute value) ;
+static void __set_Yes(System::ComponentModel::NotifyParentPropertyAttribute value) ;
 
-static ::System::ComponentModel::NotifyParentPropertyAttribute __get_Yes() ;
+static System::ComponentModel::NotifyParentPropertyAttribute __get_Yes() ;
 
-static ::System::ComponentModel::NotifyParentPropertyAttribute __declspec(property(get=__get_No, put=__set_No))  No;
+static System::ComponentModel::NotifyParentPropertyAttribute __declspec(property(get=__get_No, put=__set_No))  No;
 
-static void __set_No(::System::ComponentModel::NotifyParentPropertyAttribute value) ;
+static void __set_No(System::ComponentModel::NotifyParentPropertyAttribute value) ;
 
-static ::System::ComponentModel::NotifyParentPropertyAttribute __get_No() ;
+static System::ComponentModel::NotifyParentPropertyAttribute __get_No() ;
 
-static ::System::ComponentModel::NotifyParentPropertyAttribute __declspec(property(get=__get_Default, put=__set_Default))  Default;
+static System::ComponentModel::NotifyParentPropertyAttribute __declspec(property(get=__get_Default, put=__set_Default))  Default;
 
-static void __set_Default(::System::ComponentModel::NotifyParentPropertyAttribute value) ;
+static void __set_Default(System::ComponentModel::NotifyParentPropertyAttribute value) ;
 
-static ::System::ComponentModel::NotifyParentPropertyAttribute __get_Default() ;
+static System::ComponentModel::NotifyParentPropertyAttribute __get_Default() ;
 
  bool __declspec(property(get=__get_notifyParent, put=__set_notifyParent))  notifyParent;
 
@@ -104,6 +103,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::NotifyParentPropertyAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::NotifyParentPropertyAttribute, "System.ComponentModel", "NotifyParentPropertyAttribute");
+NEED_NO_BOX(System::ComponentModel::NotifyParentPropertyAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::NotifyParentPropertyAttribute, "System.ComponentModel", "NotifyParentPropertyAttribute");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Mono::Security::Interface {
 struct AlertDescription;
@@ -90,83 +89,82 @@ constexpr void __set_value__(uint8_t value) ;
 constexpr uint8_t __get_value__() const;
 
 /// @brief Field CloseNotify offset 0
-static ::Mono::Security::Interface::AlertDescription const CloseNotify;
+static Mono::Security::Interface::AlertDescription const CloseNotify;
 
 /// @brief Field UnexpectedMessage offset 0
-static ::Mono::Security::Interface::AlertDescription const UnexpectedMessage;
+static Mono::Security::Interface::AlertDescription const UnexpectedMessage;
 
 /// @brief Field BadRecordMAC offset 0
-static ::Mono::Security::Interface::AlertDescription const BadRecordMAC;
+static Mono::Security::Interface::AlertDescription const BadRecordMAC;
 
 /// @brief Field DecryptionFailed_RESERVED offset 0
-static ::Mono::Security::Interface::AlertDescription const DecryptionFailed_RESERVED;
+static Mono::Security::Interface::AlertDescription const DecryptionFailed_RESERVED;
 
 /// @brief Field RecordOverflow offset 0
-static ::Mono::Security::Interface::AlertDescription const RecordOverflow;
+static Mono::Security::Interface::AlertDescription const RecordOverflow;
 
 /// @brief Field DecompressionFailure offset 0
-static ::Mono::Security::Interface::AlertDescription const DecompressionFailure;
+static Mono::Security::Interface::AlertDescription const DecompressionFailure;
 
 /// @brief Field HandshakeFailure offset 0
-static ::Mono::Security::Interface::AlertDescription const HandshakeFailure;
+static Mono::Security::Interface::AlertDescription const HandshakeFailure;
 
 /// @brief Field NoCertificate_RESERVED offset 0
-static ::Mono::Security::Interface::AlertDescription const NoCertificate_RESERVED;
+static Mono::Security::Interface::AlertDescription const NoCertificate_RESERVED;
 
 /// @brief Field BadCertificate offset 0
-static ::Mono::Security::Interface::AlertDescription const BadCertificate;
+static Mono::Security::Interface::AlertDescription const BadCertificate;
 
 /// @brief Field UnsupportedCertificate offset 0
-static ::Mono::Security::Interface::AlertDescription const UnsupportedCertificate;
+static Mono::Security::Interface::AlertDescription const UnsupportedCertificate;
 
 /// @brief Field CertificateRevoked offset 0
-static ::Mono::Security::Interface::AlertDescription const CertificateRevoked;
+static Mono::Security::Interface::AlertDescription const CertificateRevoked;
 
 /// @brief Field CertificateExpired offset 0
-static ::Mono::Security::Interface::AlertDescription const CertificateExpired;
+static Mono::Security::Interface::AlertDescription const CertificateExpired;
 
 /// @brief Field CertificateUnknown offset 0
-static ::Mono::Security::Interface::AlertDescription const CertificateUnknown;
+static Mono::Security::Interface::AlertDescription const CertificateUnknown;
 
 /// @brief Field IlegalParameter offset 0
-static ::Mono::Security::Interface::AlertDescription const IlegalParameter;
+static Mono::Security::Interface::AlertDescription const IlegalParameter;
 
 /// @brief Field UnknownCA offset 0
-static ::Mono::Security::Interface::AlertDescription const UnknownCA;
+static Mono::Security::Interface::AlertDescription const UnknownCA;
 
 /// @brief Field AccessDenied offset 0
-static ::Mono::Security::Interface::AlertDescription const AccessDenied;
+static Mono::Security::Interface::AlertDescription const AccessDenied;
 
 /// @brief Field DecodeError offset 0
-static ::Mono::Security::Interface::AlertDescription const DecodeError;
+static Mono::Security::Interface::AlertDescription const DecodeError;
 
 /// @brief Field DecryptError offset 0
-static ::Mono::Security::Interface::AlertDescription const DecryptError;
+static Mono::Security::Interface::AlertDescription const DecryptError;
 
 /// @brief Field ExportRestriction offset 0
-static ::Mono::Security::Interface::AlertDescription const ExportRestriction;
+static Mono::Security::Interface::AlertDescription const ExportRestriction;
 
 /// @brief Field ProtocolVersion offset 0
-static ::Mono::Security::Interface::AlertDescription const ProtocolVersion;
+static Mono::Security::Interface::AlertDescription const ProtocolVersion;
 
 /// @brief Field InsuficientSecurity offset 0
-static ::Mono::Security::Interface::AlertDescription const InsuficientSecurity;
+static Mono::Security::Interface::AlertDescription const InsuficientSecurity;
 
 /// @brief Field InternalError offset 0
-static ::Mono::Security::Interface::AlertDescription const InternalError;
+static Mono::Security::Interface::AlertDescription const InternalError;
 
 /// @brief Field UserCancelled offset 0
-static ::Mono::Security::Interface::AlertDescription const UserCancelled;
+static Mono::Security::Interface::AlertDescription const UserCancelled;
 
 /// @brief Field NoRenegotiation offset 0
-static ::Mono::Security::Interface::AlertDescription const NoRenegotiation;
+static Mono::Security::Interface::AlertDescription const NoRenegotiation;
 
 /// @brief Field UnsupportedExtension offset 0
-static ::Mono::Security::Interface::AlertDescription const UnsupportedExtension;
+static Mono::Security::Interface::AlertDescription const UnsupportedExtension;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Mono::Security::Interface
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Interface::AlertDescription, "Mono.Security.Interface", "AlertDescription");
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::AlertDescription, "Mono.Security.Interface", "AlertDescription");

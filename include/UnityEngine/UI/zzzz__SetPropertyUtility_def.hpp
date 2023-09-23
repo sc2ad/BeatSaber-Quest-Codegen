@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace {
 namespace UnityEngine {
 struct Color;
 }
@@ -53,7 +52,7 @@ constexpr explicit SetPropertyUtility(void* ptr) noexcept : ::bs_hook::Il2CppWra
 // Methods
 
 /// @brief Method SetColor addr 0x2c0f0cc size 0x48 virtual false final false
-static bool SetColor(ByRef<::UnityEngine::Color> currentValue, ::UnityEngine::Color newValue) ;
+static bool SetColor(ByRef<UnityEngine::Color> currentValue, UnityEngine::Color newValue) ;
 
 /// @brief Method SetStruct addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
@@ -67,6 +66,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UI
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UI::SetPropertyUtility);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::SetPropertyUtility, "UnityEngine.UI", "SetPropertyUtility");
+NEED_NO_BOX(UnityEngine::UI::SetPropertyUtility);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::SetPropertyUtility, "UnityEngine.UI", "SetPropertyUtility");

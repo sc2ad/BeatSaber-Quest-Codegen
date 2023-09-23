@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Mono::Net::Security {
 struct AsyncOperationStatus;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Initialize offset 0
-static ::Mono::Net::Security::AsyncOperationStatus const Initialize;
+static Mono::Net::Security::AsyncOperationStatus const Initialize;
 
 /// @brief Field Continue offset 0
-static ::Mono::Net::Security::AsyncOperationStatus const Continue;
+static Mono::Net::Security::AsyncOperationStatus const Continue;
 
 /// @brief Field ReadDone offset 0
-static ::Mono::Net::Security::AsyncOperationStatus const ReadDone;
+static Mono::Net::Security::AsyncOperationStatus const ReadDone;
 
 /// @brief Field Complete offset 0
-static ::Mono::Net::Security::AsyncOperationStatus const Complete;
+static Mono::Net::Security::AsyncOperationStatus const Complete;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Mono::Net::Security
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Net::Security::AsyncOperationStatus, "Mono.Net.Security", "AsyncOperationStatus");
+DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncOperationStatus, "Mono.Net.Security", "AsyncOperationStatus");

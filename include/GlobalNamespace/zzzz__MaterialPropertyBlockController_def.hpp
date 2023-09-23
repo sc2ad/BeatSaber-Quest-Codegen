@@ -3,12 +3,11 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class Renderer;
-}
 namespace UnityEngine {
 class MaterialPropertyBlock;
+}
+namespace UnityEngine {
+class Renderer;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -24,7 +23,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14726))
 // CS Name: MaterialPropertyBlockController
-class CORDL_TYPE MaterialPropertyBlockController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MaterialPropertyBlockController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr MaterialPropertyBlockController(MaterialPropertyBlockController const&
 constexpr MaterialPropertyBlockController(MaterialPropertyBlockController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MaterialPropertyBlockController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MaterialPropertyBlockController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -60,23 +59,23 @@ constexpr explicit MaterialPropertyBlockController(void* ptr) noexcept : ::Unity
 
 // Fields
 
- ::ArrayW<::UnityEngine::Renderer> __declspec(property(get=__get__renderers, put=__set__renderers))  _renderers;
+ ::ArrayW<UnityEngine::Renderer> __declspec(property(get=__get__renderers, put=__set__renderers))  _renderers;
 
-constexpr void __set__renderers(::ArrayW<::UnityEngine::Renderer> value) ;
+constexpr void __set__renderers(::ArrayW<UnityEngine::Renderer> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Renderer> __get__renderers() const;
+constexpr ::ArrayW<UnityEngine::Renderer> __get__renderers() const;
 
- ::UnityEngine::MaterialPropertyBlock __declspec(property(get=__get__materialPropertyBlock, put=__set__materialPropertyBlock))  _materialPropertyBlock;
+ UnityEngine::MaterialPropertyBlock __declspec(property(get=__get__materialPropertyBlock, put=__set__materialPropertyBlock))  _materialPropertyBlock;
 
-constexpr void __set__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock value) ;
+constexpr void __set__materialPropertyBlock(UnityEngine::MaterialPropertyBlock value) ;
 
-constexpr ::UnityEngine::MaterialPropertyBlock __get__materialPropertyBlock() const;
+constexpr UnityEngine::MaterialPropertyBlock __get__materialPropertyBlock() const;
 
- ::System::Collections::Generic::List_1<int32_t> __declspec(property(get=__get__numberOfMaterialsInRenderers, put=__set__numberOfMaterialsInRenderers))  _numberOfMaterialsInRenderers;
+ System::Collections::Generic::List_1<int32_t> __declspec(property(get=__get__numberOfMaterialsInRenderers, put=__set__numberOfMaterialsInRenderers))  _numberOfMaterialsInRenderers;
 
-constexpr void __set__numberOfMaterialsInRenderers(::System::Collections::Generic::List_1<int32_t> value) ;
+constexpr void __set__numberOfMaterialsInRenderers(System::Collections::Generic::List_1<int32_t> value) ;
 
-constexpr ::System::Collections::Generic::List_1<int32_t> __get__numberOfMaterialsInRenderers() const;
+constexpr System::Collections::Generic::List_1<int32_t> __get__numberOfMaterialsInRenderers() const;
 
  bool __declspec(property(get=__get__isInitialized, put=__set__isInitialized))  _isInitialized;
 
@@ -87,18 +86,18 @@ constexpr bool __get__isInitialized() const;
 
 // Properties
 
- ::ArrayW<::UnityEngine::Renderer> __declspec(property(get=get_renderers))  renderers;
+ ::ArrayW<UnityEngine::Renderer> __declspec(property(get=get_renderers))  renderers;
 
- ::UnityEngine::MaterialPropertyBlock __declspec(property(get=get_materialPropertyBlock))  materialPropertyBlock;
+ UnityEngine::MaterialPropertyBlock __declspec(property(get=get_materialPropertyBlock))  materialPropertyBlock;
 
 
 // Methods
 
 /// @brief Method get_renderers addr 0x1fa25f0 size 0x8 virtual false final false
- ::ArrayW<::UnityEngine::Renderer> get_renderers() ;
+ ::ArrayW<UnityEngine::Renderer> get_renderers() ;
 
 /// @brief Method get_materialPropertyBlock addr 0x1fa23d8 size 0x6c virtual false final false
- ::UnityEngine::MaterialPropertyBlock get_materialPropertyBlock() ;
+ UnityEngine::MaterialPropertyBlock get_materialPropertyBlock() ;
 
 /// @brief Method ApplyChanges addr 0x1fa2174 size 0x1f0 virtual false final false
  void ApplyChanges() ;
@@ -113,6 +112,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MaterialPropertyBlockController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MaterialPropertyBlockController, "", "MaterialPropertyBlockController");
+NEED_NO_BOX(GlobalNamespace::MaterialPropertyBlockController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyBlockController, "", "MaterialPropertyBlockController");

@@ -1,6 +1,5 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace UnityEngine::UIElements {
 struct StyleKeyword;
 }
@@ -31,7 +30,7 @@ constexpr explicit IStyleValue_1(void* ptr) noexcept : ::cordl_internals::Interf
 
  T __declspec(property(get=get_value))  value;
 
- ::UnityEngine::UIElements::StyleKeyword __declspec(property(get=get_keyword))  keyword;
+ UnityEngine::UIElements::StyleKeyword __declspec(property(get=get_keyword))  keyword;
 
 
 // Methods
@@ -40,11 +39,10 @@ constexpr explicit IStyleValue_1(void* ptr) noexcept : ::cordl_internals::Interf
  T get_value() ;
 
 /// @brief Method get_keyword addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::UIElements::StyleKeyword get_keyword() ;
+ UnityEngine::UIElements::StyleKeyword get_keyword() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::IStyleValue_1, "UnityEngine.UIElements", "IStyleValue`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::UIElements::IStyleValue_1, "UnityEngine.UIElements", "IStyleValue`1");

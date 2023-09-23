@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class InputEvent;
@@ -10,10 +9,10 @@ class InputEvent;
 // Type: UnityEngine.UIElements::InputEvent
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7279), inst: 1641 }), TypeDefinitionIndex(TypeDefinitionIndex(7279))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7279)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7279), inst: 1641 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7345))
 // CS Name: UnityEngine.UIElements.InputEvent
-class CORDL_TYPE InputEvent : public ::UnityEngine::UIElements::EventBase_1<::UnityEngine::UIElements::InputEvent> {
+class CORDL_TYPE InputEvent : public UnityEngine::UIElements::EventBase_1<UnityEngine::UIElements::InputEvent> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr InputEvent(InputEvent const& ) noexcept = default;
 constexpr InputEvent(InputEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit InputEvent(void* ptr) noexcept : ::UnityEngine::UIElements::EventBase_1<::UnityEngine::UIElements::InputEvent>(ptr) {
+constexpr explicit InputEvent(void* ptr) noexcept : UnityEngine::UIElements::EventBase_1<UnityEngine::UIElements::InputEvent>(ptr) {
 }
 
 
@@ -84,7 +83,7 @@ constexpr ::StringW __get__newData_k__BackingField() const;
  void LocalInit() ;
 
 /// @brief Method GetPooled addr 0x2cdba2c size 0x84 virtual false final false
-static ::UnityEngine::UIElements::InputEvent GetPooled(::StringW previousData, ::StringW newData) ;
+static UnityEngine::UIElements::InputEvent GetPooled(::StringW previousData, ::StringW newData) ;
 
 // Ctor Parameters []
 explicit InputEvent() ;
@@ -96,6 +95,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::InputEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InputEvent, "UnityEngine.UIElements", "InputEvent");
+NEED_NO_BOX(UnityEngine::UIElements::InputEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::InputEvent, "UnityEngine.UIElements", "InputEvent");

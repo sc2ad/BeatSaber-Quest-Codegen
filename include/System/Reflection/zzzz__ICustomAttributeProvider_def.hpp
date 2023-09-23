@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace System {
 class Type;
 }
@@ -32,15 +31,14 @@ constexpr explicit ICustomAttributeProvider(void* ptr) noexcept : ::cordl_intern
  ::ArrayW<::bs_hook::Il2CppWrapperType> GetCustomAttributes(bool inherit) ;
 
 /// @brief Method GetCustomAttributes addr 0x0 size 0xffffffffffffffff virtual true final false
- ::ArrayW<::bs_hook::Il2CppWrapperType> GetCustomAttributes(::System::Type attributeType, bool inherit) ;
+ ::ArrayW<::bs_hook::Il2CppWrapperType> GetCustomAttributes(System::Type attributeType, bool inherit) ;
 
 /// @brief Method IsDefined addr 0x0 size 0xffffffffffffffff virtual true final false
- bool IsDefined(::System::Type attributeType, bool inherit) ;
+ bool IsDefined(System::Type attributeType, bool inherit) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Reflection
-} // end anonymous namespace
-NEED_NO_BOX(::System::Reflection::ICustomAttributeProvider);
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::ICustomAttributeProvider, "System.Reflection", "ICustomAttributeProvider");
+NEED_NO_BOX(System::Reflection::ICustomAttributeProvider);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ICustomAttributeProvider, "System.Reflection", "ICustomAttributeProvider");

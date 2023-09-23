@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class Type;
 }
@@ -53,11 +52,11 @@ constexpr explicit LocalVariableInfo(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 
 // Fields
 
- ::System::Type __declspec(property(get=__get_type, put=__set_type))  type;
+ System::Type __declspec(property(get=__get_type, put=__set_type))  type;
 
-constexpr void __set_type(::System::Type value) ;
+constexpr void __set_type(System::Type value) ;
 
-constexpr ::System::Type __get_type() const;
+constexpr System::Type __get_type() const;
 
  bool __declspec(property(get=__get_is_pinned, put=__set_is_pinned))  is_pinned;
 
@@ -87,6 +86,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Reflection
-} // end anonymous namespace
-NEED_NO_BOX(::System::Reflection::LocalVariableInfo);
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::LocalVariableInfo, "System.Reflection", "LocalVariableInfo");
+NEED_NO_BOX(System::Reflection::LocalVariableInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::LocalVariableInfo, "System.Reflection", "LocalVariableInfo");

@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerEnumerated_def.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Asn1 {
 class DerEnumerated;
 }
@@ -16,7 +15,7 @@ namespace Org::BouncyCastle::Asn1::Ocsp {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(213))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(214))
 // CS Name: Org.BouncyCastle.Asn1.Ocsp.OcspResponseStatus
-class CORDL_TYPE OcspResponseStatus : public ::Org::BouncyCastle::Asn1::DerEnumerated {
+class CORDL_TYPE OcspResponseStatus : public Org::BouncyCastle::Asn1::DerEnumerated {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr OcspResponseStatus(OcspResponseStatus const& ) noexcept = default;
 constexpr OcspResponseStatus(OcspResponseStatus&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OcspResponseStatus(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::DerEnumerated(ptr) {
+constexpr explicit OcspResponseStatus(void* ptr) noexcept : Org::BouncyCastle::Asn1::DerEnumerated(ptr) {
 }
 
 
@@ -79,16 +78,15 @@ explicit OcspResponseStatus(int32_t value) ;
 /// @brief Method .ctor addr 0xef3eec size 0x64 virtual false final false
  void _ctor(int32_t value) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "::Org::BouncyCastle::Asn1::DerEnumerated", modifiers: "", def_value: None }]
-explicit OcspResponseStatus(::Org::BouncyCastle::Asn1::DerEnumerated value) ;
+// Ctor Parameters [CppParam { name: "value", ty: "Org::BouncyCastle::Asn1::DerEnumerated", modifiers: "", def_value: None }]
+explicit OcspResponseStatus(Org::BouncyCastle::Asn1::DerEnumerated value) ;
 
 /// @brief Method .ctor addr 0xef3398 size 0x6c virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::DerEnumerated value) ;
+ void _ctor(Org::BouncyCastle::Asn1::DerEnumerated value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::Ocsp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus, "Org.BouncyCastle.Asn1.Ocsp", "OcspResponseStatus");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus, "Org.BouncyCastle.Asn1.Ocsp", "OcspResponseStatus");

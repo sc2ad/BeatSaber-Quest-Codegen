@@ -2,24 +2,23 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
-namespace UnityEngine {
-class Camera;
-}
-namespace UnityEngine {
-class GameObject;
-}
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
-struct Vector3;
+class Camera;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRManager__TrackingOrigin;
 }
 namespace GlobalNamespace {
 class OVRComposition;
 }
-namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRManager__TrackingOrigin;
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace GlobalNamespace {
 class OVRMixedRealityCaptureConfiguration;
@@ -76,23 +75,23 @@ static void __set_useFakeExternalCamera(bool value) ;
 
 static bool __get_useFakeExternalCamera() ;
 
-static ::UnityEngine::Vector3 __declspec(property(get=__get_fakeCameraFloorLevelPosition, put=__set_fakeCameraFloorLevelPosition))  fakeCameraFloorLevelPosition;
+static UnityEngine::Vector3 __declspec(property(get=__get_fakeCameraFloorLevelPosition, put=__set_fakeCameraFloorLevelPosition))  fakeCameraFloorLevelPosition;
 
-static void __set_fakeCameraFloorLevelPosition(::UnityEngine::Vector3 value) ;
+static void __set_fakeCameraFloorLevelPosition(UnityEngine::Vector3 value) ;
 
-static ::UnityEngine::Vector3 __get_fakeCameraFloorLevelPosition() ;
+static UnityEngine::Vector3 __get_fakeCameraFloorLevelPosition() ;
 
-static ::UnityEngine::Vector3 __declspec(property(get=__get_fakeCameraEyeLevelPosition, put=__set_fakeCameraEyeLevelPosition))  fakeCameraEyeLevelPosition;
+static UnityEngine::Vector3 __declspec(property(get=__get_fakeCameraEyeLevelPosition, put=__set_fakeCameraEyeLevelPosition))  fakeCameraEyeLevelPosition;
 
-static void __set_fakeCameraEyeLevelPosition(::UnityEngine::Vector3 value) ;
+static void __set_fakeCameraEyeLevelPosition(UnityEngine::Vector3 value) ;
 
-static ::UnityEngine::Vector3 __get_fakeCameraEyeLevelPosition() ;
+static UnityEngine::Vector3 __get_fakeCameraEyeLevelPosition() ;
 
-static ::UnityEngine::Quaternion __declspec(property(get=__get_fakeCameraRotation, put=__set_fakeCameraRotation))  fakeCameraRotation;
+static UnityEngine::Quaternion __declspec(property(get=__get_fakeCameraRotation, put=__set_fakeCameraRotation))  fakeCameraRotation;
 
-static void __set_fakeCameraRotation(::UnityEngine::Quaternion value) ;
+static void __set_fakeCameraRotation(UnityEngine::Quaternion value) ;
 
-static ::UnityEngine::Quaternion __get_fakeCameraRotation() ;
+static UnityEngine::Quaternion __get_fakeCameraRotation() ;
 
 static float_t __declspec(property(get=__get_fakeCameraFov, put=__set_fakeCameraFov))  fakeCameraFov;
 
@@ -106,17 +105,17 @@ static void __set_fakeCameraAspect(float_t value) ;
 
 static float_t __get_fakeCameraAspect() ;
 
-static ::GlobalNamespace::OVRComposition __declspec(property(get=__get_currentComposition, put=__set_currentComposition))  currentComposition;
+static GlobalNamespace::OVRComposition __declspec(property(get=__get_currentComposition, put=__set_currentComposition))  currentComposition;
 
-static void __set_currentComposition(::GlobalNamespace::OVRComposition value) ;
+static void __set_currentComposition(GlobalNamespace::OVRComposition value) ;
 
-static ::GlobalNamespace::OVRComposition __get_currentComposition() ;
+static GlobalNamespace::OVRComposition __get_currentComposition() ;
 
 
 // Methods
 
 /// @brief Method Update addr 0x25cf61c size 0x4e0 virtual false final false
-static void Update(::UnityEngine::GameObject parentObject, ::UnityEngine::Camera mainCamera, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration configuration, ::GlobalNamespace::____GlobalNamespace__OVRManager__TrackingOrigin trackingOrigin, float_t displayFrequency) ;
+static void Update(UnityEngine::GameObject parentObject, UnityEngine::Camera mainCamera, GlobalNamespace::OVRMixedRealityCaptureConfiguration configuration, GlobalNamespace::GlobalNamespace__OVRManager__TrackingOrigin trackingOrigin, float_t displayFrequency) ;
 
 /// @brief Method Cleanup addr 0x25cfdd4 size 0xe0 virtual false final false
 static void Cleanup() ;
@@ -128,6 +127,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OVRMixedReality);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRMixedReality, "", "OVRMixedReality");
+NEED_NO_BOX(GlobalNamespace::OVRMixedReality);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedReality, "", "OVRMixedReality");

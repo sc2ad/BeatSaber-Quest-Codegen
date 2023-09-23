@@ -6,7 +6,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace RootMotion::FinalIK {
 class FABRIK;
 }
@@ -59,11 +58,11 @@ constexpr explicit FABRIKChain(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 
 // Fields
 
- ::RootMotion::FinalIK::FABRIK __declspec(property(get=__get_ik, put=__set_ik))  ik;
+ RootMotion::FinalIK::FABRIK __declspec(property(get=__get_ik, put=__set_ik))  ik;
 
-constexpr void __set_ik(::RootMotion::FinalIK::FABRIK value) ;
+constexpr void __set_ik(RootMotion::FinalIK::FABRIK value) ;
 
-constexpr ::RootMotion::FinalIK::FABRIK __get_ik() const;
+constexpr RootMotion::FinalIK::FABRIK __get_ik() const;
 
  float_t __declspec(property(get=__get_pull, put=__set_pull))  pull;
 
@@ -93,13 +92,13 @@ constexpr ::ArrayW<int32_t> __get_children() const;
  void Initiate() ;
 
 /// @brief Method Stage1 addr 0x11c6bdc size 0xc0 virtual false final false
- void Stage1(::ArrayW<::RootMotion::FinalIK::FABRIKChain> chain) ;
+ void Stage1(::ArrayW<RootMotion::FinalIK::FABRIKChain> chain) ;
 
 /// @brief Method Stage2 addr 0x11c6e30 size 0xe4 virtual false final false
- void Stage2(::UnityEngine::Vector3 rootPosition, ::ArrayW<::RootMotion::FinalIK::FABRIKChain> chain) ;
+ void Stage2(UnityEngine::Vector3 rootPosition, ::ArrayW<RootMotion::FinalIK::FABRIKChain> chain) ;
 
 /// @brief Method GetCentroid addr 0x11c6c9c size 0x194 virtual false final false
- ::UnityEngine::Vector3 GetCentroid(::ArrayW<::RootMotion::FinalIK::FABRIKChain> chain) ;
+ UnityEngine::Vector3 GetCentroid(::ArrayW<RootMotion::FinalIK::FABRIKChain> chain) ;
 
 // Ctor Parameters []
 explicit FABRIKChain() ;
@@ -111,6 +110,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::FABRIKChain);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::FABRIKChain, "RootMotion.FinalIK", "FABRIKChain");
+NEED_NO_BOX(RootMotion::FinalIK::FABRIKChain);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FABRIKChain, "RootMotion.FinalIK", "FABRIKChain");

@@ -3,15 +3,14 @@
 #include "GlobalNamespace/zzzz__TextureEffectSO_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-class TextureEffectSO;
-}
 namespace GlobalNamespace {
 class IBloomPrePassParams;
 }
 namespace GlobalNamespace {
 struct ToneMapping;
+}
+namespace GlobalNamespace {
+class TextureEffectSO;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -26,11 +25,11 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14739))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14631))
 // CS Name: BloomPrePassEffectSO
-class CORDL_TYPE BloomPrePassEffectSO : public ::GlobalNamespace::TextureEffectSO {
+class CORDL_TYPE BloomPrePassEffectSO : public GlobalNamespace::TextureEffectSO {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IBloomPrePassParams
-constexpr operator  ::GlobalNamespace::IBloomPrePassParams() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IBloomPrePassParams
+constexpr operator  GlobalNamespace::IBloomPrePassParams() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -44,7 +43,7 @@ constexpr BloomPrePassEffectSO(BloomPrePassEffectSO const& ) noexcept = default;
 constexpr BloomPrePassEffectSO(BloomPrePassEffectSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BloomPrePassEffectSO(void* ptr) noexcept : ::GlobalNamespace::TextureEffectSO(ptr) {
+constexpr explicit BloomPrePassEffectSO(void* ptr) noexcept : GlobalNamespace::TextureEffectSO(ptr) {
 }
 
 
@@ -77,11 +76,11 @@ constexpr void __set__textureHeight(int32_t value) ;
 
 constexpr int32_t __get__textureHeight() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get__fov, put=__set__fov))  _fov;
+ UnityEngine::Vector2 __declspec(property(get=__get__fov, put=__set__fov))  _fov;
 
-constexpr void __set__fov(::UnityEngine::Vector2 value) ;
+constexpr void __set__fov(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get__fov() const;
+constexpr UnityEngine::Vector2 __get__fov() const;
 
  float_t __declspec(property(get=__get__linesWidth, put=__set__linesWidth))  _linesWidth;
 
@@ -92,23 +91,23 @@ constexpr float_t __get__linesWidth() const;
 
 // Properties
 
- ::GlobalNamespace::TextureEffectSO __declspec(property(get=get_textureEffect))  textureEffect;
+ GlobalNamespace::TextureEffectSO __declspec(property(get=get_textureEffect))  textureEffect;
 
  int32_t __declspec(property(get=get_textureWidth))  textureWidth;
 
  int32_t __declspec(property(get=get_textureHeight))  textureHeight;
 
- ::UnityEngine::Vector2 __declspec(property(get=get_fov))  fov;
+ UnityEngine::Vector2 __declspec(property(get=get_fov))  fov;
 
  float_t __declspec(property(get=get_linesWidth))  linesWidth;
 
- ::GlobalNamespace::ToneMapping __declspec(property(get=get_toneMapping))  toneMapping;
+ GlobalNamespace::ToneMapping __declspec(property(get=get_toneMapping))  toneMapping;
 
 
 // Methods
 
 /// @brief Method get_textureEffect addr 0x1f94620 size 0x4 virtual true final true
- ::GlobalNamespace::TextureEffectSO get_textureEffect() ;
+ GlobalNamespace::TextureEffectSO get_textureEffect() ;
 
 /// @brief Method get_textureWidth addr 0x1f94624 size 0x8 virtual true final true
  int32_t get_textureWidth() ;
@@ -117,13 +116,13 @@ constexpr float_t __get__linesWidth() const;
  int32_t get_textureHeight() ;
 
 /// @brief Method get_fov addr 0x1f94634 size 0x8 virtual true final true
- ::UnityEngine::Vector2 get_fov() ;
+ UnityEngine::Vector2 get_fov() ;
 
 /// @brief Method get_linesWidth addr 0x1f9463c size 0x8 virtual true final true
  float_t get_linesWidth() ;
 
 /// @brief Method get_toneMapping addr 0x1f94644 size 0x8 virtual true final false
- ::GlobalNamespace::ToneMapping get_toneMapping() ;
+ GlobalNamespace::ToneMapping get_toneMapping() ;
 
 // Ctor Parameters []
 explicit BloomPrePassEffectSO() ;
@@ -135,6 +134,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BloomPrePassEffectSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BloomPrePassEffectSO, "", "BloomPrePassEffectSO");
+NEED_NO_BOX(GlobalNamespace::BloomPrePassEffectSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassEffectSO, "", "BloomPrePassEffectSO");

@@ -5,7 +5,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace ENet {
 struct Address;
 }
@@ -19,19 +18,19 @@ namespace GlobalNamespace {
 struct GameplayServerConfiguration;
 }
 namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__BodyState;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Posef;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRSceneManager__LogForwarder;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent;
+}
+namespace GlobalNamespace {
 struct OVRPose;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRPlugin__BodyState;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRPlugin__Posef;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRSceneManager__LogForwarder;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent;
 }
 namespace Newtonsoft::Json {
 struct JsonPosition;
@@ -82,7 +81,19 @@ namespace UnityEngine::InputSystem::Layouts {
 struct InputDeviceMatcher;
 }
 namespace UnityEngine::InputSystem::Layouts {
-struct ____UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem;
+struct UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputAction__CallbackContext;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputControlScheme__MatchResult;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputRemoting__Message;
 }
 namespace UnityEngine::InputSystem::Users {
 struct InputUser;
@@ -96,18 +107,6 @@ struct PrimitiveValue;
 namespace UnityEngine::InputSystem::Utilities {
 template<typename TValue>
 struct ReadOnlyArray_1;
-}
-namespace UnityEngine::InputSystem {
-struct ____UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride;
-}
-namespace UnityEngine::InputSystem {
-struct ____UnityEngine__InputSystem__InputAction__CallbackContext;
-}
-namespace UnityEngine::InputSystem {
-struct ____UnityEngine__InputSystem__InputControlScheme__MatchResult;
-}
-namespace UnityEngine::InputSystem {
-struct ____UnityEngine__InputSystem__InputRemoting__Message;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -125,151 +124,151 @@ struct Nullable_1;
 }
 namespace System {
 template<>
-struct Nullable_1<::ENet::Address>;
+struct Nullable_1<ENet::Address>;
 }
 namespace System {
 template<>
-struct Nullable_1<::GlobalNamespace::AuthenticationToken>;
+struct Nullable_1<GlobalNamespace::AuthenticationToken>;
 }
 namespace System {
 template<>
-struct Nullable_1<::GlobalNamespace::BeatmapLevelSelectionMask>;
+struct Nullable_1<GlobalNamespace::BeatmapLevelSelectionMask>;
 }
 namespace System {
 template<>
-struct Nullable_1<::GlobalNamespace::GameplayServerConfiguration>;
+struct Nullable_1<GlobalNamespace::GameplayServerConfiguration>;
 }
 namespace System {
 template<>
-struct Nullable_1<::GlobalNamespace::OVRPose>;
+struct Nullable_1<GlobalNamespace::GlobalNamespace__OVRPlugin__BodyState>;
 }
 namespace System {
 template<>
-struct Nullable_1<::GlobalNamespace::____GlobalNamespace__OVRPlugin__BodyState>;
+struct Nullable_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Posef>;
 }
 namespace System {
 template<>
-struct Nullable_1<::GlobalNamespace::____GlobalNamespace__OVRPlugin__Posef>;
+struct Nullable_1<GlobalNamespace::GlobalNamespace__OVRSceneManager__LogForwarder>;
 }
 namespace System {
 template<>
-struct Nullable_1<::GlobalNamespace::____GlobalNamespace__OVRSceneManager__LogForwarder>;
+struct Nullable_1<GlobalNamespace::GlobalNamespace__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent>;
 }
 namespace System {
 template<>
-struct Nullable_1<::GlobalNamespace::____GlobalNamespace__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent>;
+struct Nullable_1<GlobalNamespace::OVRPose>;
 }
 namespace System {
 template<>
-struct Nullable_1<::Newtonsoft::Json::JsonPosition>;
+struct Nullable_1<Newtonsoft::Json::JsonPosition>;
 }
 namespace System {
 template<>
-struct Nullable_1<::System::ByteEnum>;
+struct Nullable_1<System::ByteEnum>;
 }
 namespace System {
 template<>
-struct Nullable_1<::System::DateTime>;
+struct Nullable_1<System::DateTime>;
 }
 namespace System {
 template<>
-struct Nullable_1<::System::DateTimeOffset>;
+struct Nullable_1<System::DateTimeOffset>;
 }
 namespace System {
 template<>
-struct Nullable_1<::System::Decimal>;
+struct Nullable_1<System::Decimal>;
 }
 namespace System {
 template<>
-struct Nullable_1<::System::Guid>;
+struct Nullable_1<System::Guid>;
 }
 namespace System {
 template<>
-struct Nullable_1<::System::Int32Enum>;
+struct Nullable_1<System::Int32Enum>;
 }
 namespace System {
 template<>
-struct Nullable_1<::System::Net::Http::Headers::Token>;
+struct Nullable_1<System::Net::Http::Headers::Token>;
 }
 namespace System {
 template<>
-struct Nullable_1<::System::Runtime::Serialization::StreamingContext>;
+struct Nullable_1<System::Runtime::Serialization::StreamingContext>;
 }
 namespace System {
 template<>
-struct Nullable_1<::System::Text::RegularExpressions::RegexPrefix>;
+struct Nullable_1<System::Text::RegularExpressions::RegexPrefix>;
 }
 namespace System {
 template<>
-struct Nullable_1<::System::TimeSpan>;
+struct Nullable_1<System::TimeSpan>;
 }
 namespace System {
 template<>
-struct Nullable_1<::Unity::Jobs::JobHandle>;
+struct Nullable_1<Unity::Jobs::JobHandle>;
 }
 namespace System {
 template<>
-struct Nullable_1<::UnityEngine::Color>;
+struct Nullable_1<UnityEngine::Color>;
 }
 namespace System {
 template<>
-struct Nullable_1<::UnityEngine::InputSystem::InputBinding>;
+struct Nullable_1<UnityEngine::InputSystem::InputBinding>;
 }
 namespace System {
 template<>
-struct Nullable_1<::UnityEngine::InputSystem::InputControlScheme>;
+struct Nullable_1<UnityEngine::InputSystem::InputControlScheme>;
 }
 namespace System {
 template<>
-struct Nullable_1<::UnityEngine::InputSystem::Layouts::InputDeviceMatcher>;
+struct Nullable_1<UnityEngine::InputSystem::Layouts::InputDeviceMatcher>;
 }
 namespace System {
 template<>
-struct Nullable_1<::UnityEngine::InputSystem::Layouts::____UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem>;
+struct Nullable_1<UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem>;
 }
 namespace System {
 template<>
-struct Nullable_1<::UnityEngine::InputSystem::Users::InputUser>;
+struct Nullable_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride>;
 }
 namespace System {
 template<>
-struct Nullable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle>;
+struct Nullable_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>;
 }
 namespace System {
 template<>
-struct Nullable_1<::UnityEngine::InputSystem::Utilities::PrimitiveValue>;
+struct Nullable_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlScheme__MatchResult>;
 }
 namespace System {
 template<>
-struct Nullable_1<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::bs_hook::Il2CppWrapperType>>;
+struct Nullable_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputRemoting__Message>;
 }
 namespace System {
 template<>
-struct Nullable_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride>;
+struct Nullable_1<UnityEngine::InputSystem::Users::InputUser>;
 }
 namespace System {
 template<>
-struct Nullable_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>;
+struct Nullable_1<UnityEngine::InputSystem::Users::InputUserAccountHandle>;
 }
 namespace System {
 template<>
-struct Nullable_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputControlScheme__MatchResult>;
+struct Nullable_1<UnityEngine::InputSystem::Utilities::PrimitiveValue>;
 }
 namespace System {
 template<>
-struct Nullable_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputRemoting__Message>;
+struct Nullable_1<UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::bs_hook::Il2CppWrapperType>>;
 }
 namespace System {
 template<>
-struct Nullable_1<::UnityEngine::Quaternion>;
+struct Nullable_1<UnityEngine::Quaternion>;
 }
 namespace System {
 template<>
-struct Nullable_1<::UnityEngine::UIElements::EventDispatcherGate>;
+struct Nullable_1<UnityEngine::UIElements::EventDispatcherGate>;
 }
 namespace System {
 template<>
-struct Nullable_1<::UnityEngine::Vector3>;
+struct Nullable_1<UnityEngine::Vector3>;
 }
 namespace System {
 template<>
@@ -412,13 +411,13 @@ constexpr int32_t __get_value() const;
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<int32_t> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<int32_t> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<int32_t> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<int32_t> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<int32_t> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<int32_t> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -516,13 +515,13 @@ constexpr bool __get_value() const;
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<bool> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<bool> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<bool> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<bool> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<bool> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<bool> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -620,13 +619,13 @@ constexpr char16_t __get_value() const;
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<char16_t> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<char16_t> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<char16_t> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<char16_t> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<char16_t> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<char16_t> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -640,11 +639,11 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2447)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 280 })
 // CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::UnityEngine::Color> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Nullable_1<UnityEngine::Color> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::UnityEngine::Color", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::UnityEngine::Color value) noexcept;
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "UnityEngine::Color", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, UnityEngine::Color value) noexcept;
 
 
                     constexpr Nullable_1(Nullable_1 const&) = default;
@@ -683,36 +682,36 @@ constexpr void __set_hasValue(bool value) ;
 
 constexpr bool __get_hasValue() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_value, put=__set_value))  value;
+ UnityEngine::Color __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::UnityEngine::Color value) ;
+constexpr void __set_value(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_value() const;
+constexpr UnityEngine::Color __get_value() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_HasValue))  HasValue;
 
- ::UnityEngine::Color __declspec(property(get=get_Value))  Value;
+ UnityEngine::Color __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::UnityEngine::Color value) ;
+ void _ctor(UnityEngine::Color value) ;
 
 /// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_HasValue() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::Color get_Value() ;
+ UnityEngine::Color get_Value() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::Color GetValueOrDefault() ;
+ UnityEngine::Color GetValueOrDefault() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::Color GetValueOrDefault(::UnityEngine::Color defaultValue) ;
+ UnityEngine::Color GetValueOrDefault(UnityEngine::Color defaultValue) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
@@ -724,13 +723,13 @@ constexpr ::UnityEngine::Color __get_value() const;
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::UnityEngine::Color> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<UnityEngine::Color> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::UnityEngine::Color> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<UnityEngine::Color> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::UnityEngine::Color> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<UnityEngine::Color> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -828,13 +827,13 @@ constexpr float_t __get_value() const;
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<float_t> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<float_t> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<float_t> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<float_t> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<float_t> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<float_t> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -932,13 +931,13 @@ constexpr uint64_t __get_value() const;
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<uint64_t> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<uint64_t> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<uint64_t> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<uint64_t> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<uint64_t> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<uint64_t> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -949,14 +948,14 @@ namespace System {
 // cpp template
 template<>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2447))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2447)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 394 })
 // CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::UnityEngine::Vector3> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Nullable_1<UnityEngine::Vector3> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::UnityEngine::Vector3 value) noexcept;
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, UnityEngine::Vector3 value) noexcept;
 
 
                     constexpr Nullable_1(Nullable_1 const&) = default;
@@ -995,36 +994,36 @@ constexpr void __set_hasValue(bool value) ;
 
 constexpr bool __get_hasValue() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_value, put=__set_value))  value;
+ UnityEngine::Vector3 __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::UnityEngine::Vector3 value) ;
+constexpr void __set_value(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_value() const;
+constexpr UnityEngine::Vector3 __get_value() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_HasValue))  HasValue;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_Value))  Value;
+ UnityEngine::Vector3 __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::UnityEngine::Vector3 value) ;
+ void _ctor(UnityEngine::Vector3 value) ;
 
 /// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_HasValue() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::Vector3 get_Value() ;
+ UnityEngine::Vector3 get_Value() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::Vector3 GetValueOrDefault() ;
+ UnityEngine::Vector3 GetValueOrDefault() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::Vector3 GetValueOrDefault(::UnityEngine::Vector3 defaultValue) ;
+ UnityEngine::Vector3 GetValueOrDefault(UnityEngine::Vector3 defaultValue) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
@@ -1036,13 +1035,13 @@ constexpr ::UnityEngine::Vector3 __get_value() const;
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::UnityEngine::Vector3> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<UnityEngine::Vector3> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::UnityEngine::Vector3> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<UnityEngine::Vector3> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::UnityEngine::Vector3> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<UnityEngine::Vector3> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -1056,11 +1055,11 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2447)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 408 })
 // CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Nullable_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext value) noexcept;
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext value) noexcept;
 
 
                     constexpr Nullable_1(Nullable_1 const&) = default;
@@ -1099,36 +1098,36 @@ constexpr void __set_hasValue(bool value) ;
 
 constexpr bool __get_hasValue() const;
 
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext __declspec(property(get=__get_value, put=__set_value))  value;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext value) ;
+constexpr void __set_value(UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext value) ;
 
-constexpr ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext __get_value() const;
+constexpr UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext __get_value() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_HasValue))  HasValue;
 
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext __declspec(property(get=get_Value))  Value;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext value) ;
+ void _ctor(UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext value) ;
 
 /// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_HasValue() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext get_Value() ;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext get_Value() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext GetValueOrDefault() ;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext GetValueOrDefault() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext GetValueOrDefault(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext defaultValue) ;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext GetValueOrDefault(UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext defaultValue) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
@@ -1140,13 +1139,13 @@ constexpr ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction_
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -1157,7 +1156,7 @@ namespace System {
 // cpp template
 template<>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2447)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2447))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 717 })
 // CS Name: System.Nullable`1
 struct CORDL_TYPE Nullable_1<uint8_t> : public ::bs_hook::ValueTypeWrapper {
@@ -1244,13 +1243,13 @@ constexpr uint8_t __get_value() const;
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<uint8_t> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<uint8_t> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<uint8_t> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<uint8_t> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<uint8_t> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<uint8_t> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -1261,7 +1260,7 @@ namespace System {
 // cpp template
 template<>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2447))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2447)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 721 })
 // CS Name: System.Nullable`1
 struct CORDL_TYPE Nullable_1<int16_t> : public ::bs_hook::ValueTypeWrapper {
@@ -1348,13 +1347,13 @@ constexpr int16_t __get_value() const;
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<int16_t> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<int16_t> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<int16_t> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<int16_t> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<int16_t> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<int16_t> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -1365,7 +1364,7 @@ namespace System {
 // cpp template
 template<>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2447))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2447)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 728 })
 // CS Name: System.Nullable`1
 struct CORDL_TYPE Nullable_1<uint16_t> : public ::bs_hook::ValueTypeWrapper {
@@ -1452,13 +1451,13 @@ constexpr uint16_t __get_value() const;
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<uint16_t> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<uint16_t> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<uint16_t> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<uint16_t> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<uint16_t> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<uint16_t> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -1556,13 +1555,13 @@ constexpr uint32_t __get_value() const;
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<uint32_t> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<uint32_t> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<uint32_t> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<uint32_t> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<uint32_t> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<uint32_t> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -1660,13 +1659,13 @@ constexpr int64_t __get_value() const;
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<int64_t> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<int64_t> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<int64_t> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<int64_t> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<int64_t> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<int64_t> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -1680,11 +1679,11 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2447)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 847 })
 // CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::GlobalNamespace::AuthenticationToken> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Nullable_1<GlobalNamespace::AuthenticationToken> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::GlobalNamespace::AuthenticationToken", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::GlobalNamespace::AuthenticationToken value) noexcept;
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "GlobalNamespace::AuthenticationToken", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, GlobalNamespace::AuthenticationToken value) noexcept;
 
 
                     constexpr Nullable_1(Nullable_1 const&) = default;
@@ -1723,36 +1722,36 @@ constexpr void __set_hasValue(bool value) ;
 
 constexpr bool __get_hasValue() const;
 
- ::GlobalNamespace::AuthenticationToken __declspec(property(get=__get_value, put=__set_value))  value;
+ GlobalNamespace::AuthenticationToken __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::GlobalNamespace::AuthenticationToken value) ;
+constexpr void __set_value(GlobalNamespace::AuthenticationToken value) ;
 
-constexpr ::GlobalNamespace::AuthenticationToken __get_value() const;
+constexpr GlobalNamespace::AuthenticationToken __get_value() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_HasValue))  HasValue;
 
- ::GlobalNamespace::AuthenticationToken __declspec(property(get=get_Value))  Value;
+ GlobalNamespace::AuthenticationToken __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::GlobalNamespace::AuthenticationToken value) ;
+ void _ctor(GlobalNamespace::AuthenticationToken value) ;
 
 /// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_HasValue() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::GlobalNamespace::AuthenticationToken get_Value() ;
+ GlobalNamespace::AuthenticationToken get_Value() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::GlobalNamespace::AuthenticationToken GetValueOrDefault() ;
+ GlobalNamespace::AuthenticationToken GetValueOrDefault() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::GlobalNamespace::AuthenticationToken GetValueOrDefault(::GlobalNamespace::AuthenticationToken defaultValue) ;
+ GlobalNamespace::AuthenticationToken GetValueOrDefault(GlobalNamespace::AuthenticationToken defaultValue) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
@@ -1764,13 +1763,13 @@ constexpr ::GlobalNamespace::AuthenticationToken __get_value() const;
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::GlobalNamespace::AuthenticationToken> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<GlobalNamespace::AuthenticationToken> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::GlobalNamespace::AuthenticationToken> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<GlobalNamespace::AuthenticationToken> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::GlobalNamespace::AuthenticationToken> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<GlobalNamespace::AuthenticationToken> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -1781,14 +1780,14 @@ namespace System {
 // cpp template
 template<>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2447))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2447)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 2494 })
 // CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::System::Guid> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Nullable_1<System::Guid> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::System::Guid", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::System::Guid value) noexcept;
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "System::Guid", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, System::Guid value) noexcept;
 
 
                     constexpr Nullable_1(Nullable_1 const&) = default;
@@ -1827,36 +1826,36 @@ constexpr void __set_hasValue(bool value) ;
 
 constexpr bool __get_hasValue() const;
 
- ::System::Guid __declspec(property(get=__get_value, put=__set_value))  value;
+ System::Guid __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::System::Guid value) ;
+constexpr void __set_value(System::Guid value) ;
 
-constexpr ::System::Guid __get_value() const;
+constexpr System::Guid __get_value() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_HasValue))  HasValue;
 
- ::System::Guid __declspec(property(get=get_Value))  Value;
+ System::Guid __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Guid value) ;
+ void _ctor(System::Guid value) ;
 
 /// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_HasValue() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Guid get_Value() ;
+ System::Guid get_Value() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Guid GetValueOrDefault() ;
+ System::Guid GetValueOrDefault() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Guid GetValueOrDefault(::System::Guid defaultValue) ;
+ System::Guid GetValueOrDefault(System::Guid defaultValue) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
@@ -1868,13 +1867,13 @@ constexpr ::System::Guid __get_value() const;
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::System::Guid> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<System::Guid> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::System::Guid> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<System::Guid> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::System::Guid> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<System::Guid> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -1888,11 +1887,11 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2447)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 2595 })
 // CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::System::DateTime> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Nullable_1<System::DateTime> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::System::DateTime", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::System::DateTime value) noexcept;
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "System::DateTime", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, System::DateTime value) noexcept;
 
 
                     constexpr Nullable_1(Nullable_1 const&) = default;
@@ -1931,36 +1930,36 @@ constexpr void __set_hasValue(bool value) ;
 
 constexpr bool __get_hasValue() const;
 
- ::System::DateTime __declspec(property(get=__get_value, put=__set_value))  value;
+ System::DateTime __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::System::DateTime value) ;
+constexpr void __set_value(System::DateTime value) ;
 
-constexpr ::System::DateTime __get_value() const;
+constexpr System::DateTime __get_value() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_HasValue))  HasValue;
 
- ::System::DateTime __declspec(property(get=get_Value))  Value;
+ System::DateTime __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::DateTime value) ;
+ void _ctor(System::DateTime value) ;
 
 /// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_HasValue() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::DateTime get_Value() ;
+ System::DateTime get_Value() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::DateTime GetValueOrDefault() ;
+ System::DateTime GetValueOrDefault() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::DateTime GetValueOrDefault(::System::DateTime defaultValue) ;
+ System::DateTime GetValueOrDefault(System::DateTime defaultValue) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
@@ -1972,13 +1971,13 @@ constexpr ::System::DateTime __get_value() const;
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::System::DateTime> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<System::DateTime> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::System::DateTime> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<System::DateTime> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::System::DateTime> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<System::DateTime> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -1989,14 +1988,14 @@ namespace System {
 // cpp template
 template<>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2447)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2447))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 2596 })
 // CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::System::DateTimeOffset> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Nullable_1<System::DateTimeOffset> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::System::DateTimeOffset", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::System::DateTimeOffset value) noexcept;
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "System::DateTimeOffset", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, System::DateTimeOffset value) noexcept;
 
 
                     constexpr Nullable_1(Nullable_1 const&) = default;
@@ -2035,36 +2034,36 @@ constexpr void __set_hasValue(bool value) ;
 
 constexpr bool __get_hasValue() const;
 
- ::System::DateTimeOffset __declspec(property(get=__get_value, put=__set_value))  value;
+ System::DateTimeOffset __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::System::DateTimeOffset value) ;
+constexpr void __set_value(System::DateTimeOffset value) ;
 
-constexpr ::System::DateTimeOffset __get_value() const;
+constexpr System::DateTimeOffset __get_value() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_HasValue))  HasValue;
 
- ::System::DateTimeOffset __declspec(property(get=get_Value))  Value;
+ System::DateTimeOffset __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::DateTimeOffset value) ;
+ void _ctor(System::DateTimeOffset value) ;
 
 /// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_HasValue() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::DateTimeOffset get_Value() ;
+ System::DateTimeOffset get_Value() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::DateTimeOffset GetValueOrDefault() ;
+ System::DateTimeOffset GetValueOrDefault() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::DateTimeOffset GetValueOrDefault(::System::DateTimeOffset defaultValue) ;
+ System::DateTimeOffset GetValueOrDefault(System::DateTimeOffset defaultValue) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
@@ -2076,13 +2075,13 @@ constexpr ::System::DateTimeOffset __get_value() const;
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::System::DateTimeOffset> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<System::DateTimeOffset> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::System::DateTimeOffset> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<System::DateTimeOffset> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::System::DateTimeOffset> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<System::DateTimeOffset> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -2096,11 +2095,11 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2447))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 2597 })
 // CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::System::Decimal> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Nullable_1<System::Decimal> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::System::Decimal", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::System::Decimal value) noexcept;
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "System::Decimal", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, System::Decimal value) noexcept;
 
 
                     constexpr Nullable_1(Nullable_1 const&) = default;
@@ -2139,36 +2138,36 @@ constexpr void __set_hasValue(bool value) ;
 
 constexpr bool __get_hasValue() const;
 
- ::System::Decimal __declspec(property(get=__get_value, put=__set_value))  value;
+ System::Decimal __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::System::Decimal value) ;
+constexpr void __set_value(System::Decimal value) ;
 
-constexpr ::System::Decimal __get_value() const;
+constexpr System::Decimal __get_value() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_HasValue))  HasValue;
 
- ::System::Decimal __declspec(property(get=get_Value))  Value;
+ System::Decimal __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Decimal value) ;
+ void _ctor(System::Decimal value) ;
 
 /// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_HasValue() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Decimal get_Value() ;
+ System::Decimal get_Value() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Decimal GetValueOrDefault() ;
+ System::Decimal GetValueOrDefault() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Decimal GetValueOrDefault(::System::Decimal defaultValue) ;
+ System::Decimal GetValueOrDefault(System::Decimal defaultValue) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
@@ -2180,13 +2179,13 @@ constexpr ::System::Decimal __get_value() const;
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::System::Decimal> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<System::Decimal> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::System::Decimal> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<System::Decimal> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::System::Decimal> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<System::Decimal> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -2284,13 +2283,13 @@ constexpr double_t __get_value() const;
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<double_t> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<double_t> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<double_t> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<double_t> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<double_t> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<double_t> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -2388,117 +2387,13 @@ constexpr int8_t __get_value() const;
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<int8_t> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<int8_t> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<int8_t> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<int8_t> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<int8_t> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-} // namespace end def System
-// Type: System::Nullable`1
-namespace System {
-// cpp template
-template<>
-// Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2447))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 2605 })
-// CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::System::TimeSpan> : public ::bs_hook::ValueTypeWrapper {
-public:
-// Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::System::TimeSpan", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::System::TimeSpan value) noexcept;
-
-
-                    constexpr Nullable_1(Nullable_1 const&) = default;
-                    constexpr Nullable_1(Nullable_1&&) = default;
-                    constexpr Nullable_1& operator=(Nullable_1 const& o) {
-                        __instance = o.__instance;
-                        return *this;
-                    };
-                    constexpr Nullable_1& operator=(Nullable_1&& o) noexcept {
-                        __instance = std::move(o.__instance);
-                        return *this;
-                    };
-                
-
-/// @brief The size of the true value type
-static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x10};
-
-/// @brief Holds the value type data
- std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
-
-// Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit Nullable_1(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
-}
-
-/// @brief conversion method for value type
-constexpr void* convert() const noexcept {
-return const_cast<void*>(static_cast<const void*>(__instance.data()));
-}
-
-
-// Fields
-
- bool __declspec(property(get=__get_hasValue, put=__set_hasValue))  hasValue;
-
-constexpr void __set_hasValue(bool value) ;
-
-constexpr bool __get_hasValue() const;
-
- ::System::TimeSpan __declspec(property(get=__get_value, put=__set_value))  value;
-
-constexpr void __set_value(::System::TimeSpan value) ;
-
-constexpr ::System::TimeSpan __get_value() const;
-
-
-// Properties
-
- bool __declspec(property(get=get_HasValue))  HasValue;
-
- ::System::TimeSpan __declspec(property(get=get_Value))  Value;
-
-
-// Methods
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::TimeSpan value) ;
-
-/// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
- bool get_HasValue() ;
-
-/// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::TimeSpan get_Value() ;
-
-/// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::TimeSpan GetValueOrDefault() ;
-
-/// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::TimeSpan GetValueOrDefault(::System::TimeSpan defaultValue) ;
-
-/// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
- bool Equals(::bs_hook::Il2CppWrapperType other) ;
-
-/// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
- int32_t GetHashCode() ;
-
-/// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
- ::StringW ToString() ;
-
-/// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::System::TimeSpan> o) ;
-
-/// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::System::TimeSpan> Unbox(::bs_hook::Il2CppWrapperType o) ;
-
-/// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::System::TimeSpan> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<int8_t> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -2510,13 +2405,13 @@ namespace System {
 template<>
 // Is value type: true
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2447)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 2996 })
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 2605 })
 // CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::UnityEngine::InputSystem::InputBinding> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Nullable_1<System::TimeSpan> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::UnityEngine::InputSystem::InputBinding", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::UnityEngine::InputSystem::InputBinding value) noexcept;
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "System::TimeSpan", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, System::TimeSpan value) noexcept;
 
 
                     constexpr Nullable_1(Nullable_1 const&) = default;
@@ -2555,36 +2450,36 @@ constexpr void __set_hasValue(bool value) ;
 
 constexpr bool __get_hasValue() const;
 
- ::UnityEngine::InputSystem::InputBinding __declspec(property(get=__get_value, put=__set_value))  value;
+ System::TimeSpan __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::UnityEngine::InputSystem::InputBinding value) ;
+constexpr void __set_value(System::TimeSpan value) ;
 
-constexpr ::UnityEngine::InputSystem::InputBinding __get_value() const;
+constexpr System::TimeSpan __get_value() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_HasValue))  HasValue;
 
- ::UnityEngine::InputSystem::InputBinding __declspec(property(get=get_Value))  Value;
+ System::TimeSpan __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::UnityEngine::InputSystem::InputBinding value) ;
+ void _ctor(System::TimeSpan value) ;
 
 /// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_HasValue() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::InputBinding get_Value() ;
+ System::TimeSpan get_Value() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::InputBinding GetValueOrDefault() ;
+ System::TimeSpan GetValueOrDefault() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::InputBinding GetValueOrDefault(::UnityEngine::InputSystem::InputBinding defaultValue) ;
+ System::TimeSpan GetValueOrDefault(System::TimeSpan defaultValue) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
@@ -2596,13 +2491,13 @@ constexpr ::UnityEngine::InputSystem::InputBinding __get_value() const;
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<System::TimeSpan> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<System::TimeSpan> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<System::TimeSpan> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -2614,13 +2509,13 @@ namespace System {
 template<>
 // Is value type: true
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2447))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 2998 })
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 2996 })
 // CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::UnityEngine::InputSystem::InputControlScheme> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Nullable_1<UnityEngine::InputSystem::InputBinding> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::UnityEngine::InputSystem::InputControlScheme", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::UnityEngine::InputSystem::InputControlScheme value) noexcept;
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "UnityEngine::InputSystem::InputBinding", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, UnityEngine::InputSystem::InputBinding value) noexcept;
 
 
                     constexpr Nullable_1(Nullable_1 const&) = default;
@@ -2659,36 +2554,36 @@ constexpr void __set_hasValue(bool value) ;
 
 constexpr bool __get_hasValue() const;
 
- ::UnityEngine::InputSystem::InputControlScheme __declspec(property(get=__get_value, put=__set_value))  value;
+ UnityEngine::InputSystem::InputBinding __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::UnityEngine::InputSystem::InputControlScheme value) ;
+constexpr void __set_value(UnityEngine::InputSystem::InputBinding value) ;
 
-constexpr ::UnityEngine::InputSystem::InputControlScheme __get_value() const;
+constexpr UnityEngine::InputSystem::InputBinding __get_value() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_HasValue))  HasValue;
 
- ::UnityEngine::InputSystem::InputControlScheme __declspec(property(get=get_Value))  Value;
+ UnityEngine::InputSystem::InputBinding __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::UnityEngine::InputSystem::InputControlScheme value) ;
+ void _ctor(UnityEngine::InputSystem::InputBinding value) ;
 
 /// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_HasValue() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::InputControlScheme get_Value() ;
+ UnityEngine::InputSystem::InputBinding get_Value() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::InputControlScheme GetValueOrDefault() ;
+ UnityEngine::InputSystem::InputBinding GetValueOrDefault() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::InputControlScheme GetValueOrDefault(::UnityEngine::InputSystem::InputControlScheme defaultValue) ;
+ UnityEngine::InputSystem::InputBinding GetValueOrDefault(UnityEngine::InputSystem::InputBinding defaultValue) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
@@ -2700,13 +2595,117 @@ constexpr ::UnityEngine::InputSystem::InputControlScheme __get_value() const;
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::UnityEngine::InputSystem::InputControlScheme> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<UnityEngine::InputSystem::InputBinding> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::UnityEngine::InputSystem::InputControlScheme> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<UnityEngine::InputSystem::InputBinding> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::UnityEngine::InputSystem::InputControlScheme> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<UnityEngine::InputSystem::InputBinding> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+} // namespace end def System
+// Type: System::Nullable`1
+namespace System {
+// cpp template
+template<>
+// Is value type: true
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2447)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 2998 })
+// CS Name: System.Nullable`1
+struct CORDL_TYPE Nullable_1<UnityEngine::InputSystem::InputControlScheme> : public ::bs_hook::ValueTypeWrapper {
+public:
+// Declarations
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "UnityEngine::InputSystem::InputControlScheme", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, UnityEngine::InputSystem::InputControlScheme value) noexcept;
+
+
+                    constexpr Nullable_1(Nullable_1 const&) = default;
+                    constexpr Nullable_1(Nullable_1&&) = default;
+                    constexpr Nullable_1& operator=(Nullable_1 const& o) {
+                        __instance = o.__instance;
+                        return *this;
+                    };
+                    constexpr Nullable_1& operator=(Nullable_1&& o) noexcept {
+                        __instance = std::move(o.__instance);
+                        return *this;
+                    };
+                
+
+/// @brief The size of the true value type
+static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x10};
+
+/// @brief Holds the value type data
+ std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
+
+// Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
+constexpr explicit Nullable_1(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+}
+
+/// @brief conversion method for value type
+constexpr void* convert() const noexcept {
+return const_cast<void*>(static_cast<const void*>(__instance.data()));
+}
+
+
+// Fields
+
+ bool __declspec(property(get=__get_hasValue, put=__set_hasValue))  hasValue;
+
+constexpr void __set_hasValue(bool value) ;
+
+constexpr bool __get_hasValue() const;
+
+ UnityEngine::InputSystem::InputControlScheme __declspec(property(get=__get_value, put=__set_value))  value;
+
+constexpr void __set_value(UnityEngine::InputSystem::InputControlScheme value) ;
+
+constexpr UnityEngine::InputSystem::InputControlScheme __get_value() const;
+
+
+// Properties
+
+ bool __declspec(property(get=get_HasValue))  HasValue;
+
+ UnityEngine::InputSystem::InputControlScheme __declspec(property(get=get_Value))  Value;
+
+
+// Methods
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor(UnityEngine::InputSystem::InputControlScheme value) ;
+
+/// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
+ bool get_HasValue() ;
+
+/// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
+ UnityEngine::InputSystem::InputControlScheme get_Value() ;
+
+/// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
+ UnityEngine::InputSystem::InputControlScheme GetValueOrDefault() ;
+
+/// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
+ UnityEngine::InputSystem::InputControlScheme GetValueOrDefault(UnityEngine::InputSystem::InputControlScheme defaultValue) ;
+
+/// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
+ bool Equals(::bs_hook::Il2CppWrapperType other) ;
+
+/// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
+ int32_t GetHashCode() ;
+
+/// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
+ ::StringW ToString() ;
+
+/// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<UnityEngine::InputSystem::InputControlScheme> o) ;
+
+/// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
+static System::Nullable_1<UnityEngine::InputSystem::InputControlScheme> Unbox(::bs_hook::Il2CppWrapperType o) ;
+
+/// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
+static System::Nullable_1<UnityEngine::InputSystem::InputControlScheme> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -2720,11 +2719,11 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2447)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 3157 })
 // CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::GlobalNamespace::BeatmapLevelSelectionMask> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Nullable_1<GlobalNamespace::BeatmapLevelSelectionMask> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::GlobalNamespace::BeatmapLevelSelectionMask", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::GlobalNamespace::BeatmapLevelSelectionMask value) noexcept;
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "GlobalNamespace::BeatmapLevelSelectionMask", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, GlobalNamespace::BeatmapLevelSelectionMask value) noexcept;
 
 
                     constexpr Nullable_1(Nullable_1 const&) = default;
@@ -2763,36 +2762,36 @@ constexpr void __set_hasValue(bool value) ;
 
 constexpr bool __get_hasValue() const;
 
- ::GlobalNamespace::BeatmapLevelSelectionMask __declspec(property(get=__get_value, put=__set_value))  value;
+ GlobalNamespace::BeatmapLevelSelectionMask __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::GlobalNamespace::BeatmapLevelSelectionMask value) ;
+constexpr void __set_value(GlobalNamespace::BeatmapLevelSelectionMask value) ;
 
-constexpr ::GlobalNamespace::BeatmapLevelSelectionMask __get_value() const;
+constexpr GlobalNamespace::BeatmapLevelSelectionMask __get_value() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_HasValue))  HasValue;
 
- ::GlobalNamespace::BeatmapLevelSelectionMask __declspec(property(get=get_Value))  Value;
+ GlobalNamespace::BeatmapLevelSelectionMask __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::GlobalNamespace::BeatmapLevelSelectionMask value) ;
+ void _ctor(GlobalNamespace::BeatmapLevelSelectionMask value) ;
 
 /// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_HasValue() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::GlobalNamespace::BeatmapLevelSelectionMask get_Value() ;
+ GlobalNamespace::BeatmapLevelSelectionMask get_Value() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::GlobalNamespace::BeatmapLevelSelectionMask GetValueOrDefault() ;
+ GlobalNamespace::BeatmapLevelSelectionMask GetValueOrDefault() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::GlobalNamespace::BeatmapLevelSelectionMask GetValueOrDefault(::GlobalNamespace::BeatmapLevelSelectionMask defaultValue) ;
+ GlobalNamespace::BeatmapLevelSelectionMask GetValueOrDefault(GlobalNamespace::BeatmapLevelSelectionMask defaultValue) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
@@ -2804,13 +2803,13 @@ constexpr ::GlobalNamespace::BeatmapLevelSelectionMask __get_value() const;
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::GlobalNamespace::BeatmapLevelSelectionMask> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<GlobalNamespace::BeatmapLevelSelectionMask> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::GlobalNamespace::BeatmapLevelSelectionMask> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<GlobalNamespace::BeatmapLevelSelectionMask> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::GlobalNamespace::BeatmapLevelSelectionMask> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<GlobalNamespace::BeatmapLevelSelectionMask> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -2821,14 +2820,14 @@ namespace System {
 // cpp template
 template<>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2447))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2447)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 3173 })
 // CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::UnityEngine::UIElements::EventDispatcherGate> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Nullable_1<UnityEngine::UIElements::EventDispatcherGate> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::UnityEngine::UIElements::EventDispatcherGate", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::UnityEngine::UIElements::EventDispatcherGate value) noexcept;
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "UnityEngine::UIElements::EventDispatcherGate", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, UnityEngine::UIElements::EventDispatcherGate value) noexcept;
 
 
                     constexpr Nullable_1(Nullable_1 const&) = default;
@@ -2867,36 +2866,36 @@ constexpr void __set_hasValue(bool value) ;
 
 constexpr bool __get_hasValue() const;
 
- ::UnityEngine::UIElements::EventDispatcherGate __declspec(property(get=__get_value, put=__set_value))  value;
+ UnityEngine::UIElements::EventDispatcherGate __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::UnityEngine::UIElements::EventDispatcherGate value) ;
+constexpr void __set_value(UnityEngine::UIElements::EventDispatcherGate value) ;
 
-constexpr ::UnityEngine::UIElements::EventDispatcherGate __get_value() const;
+constexpr UnityEngine::UIElements::EventDispatcherGate __get_value() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_HasValue))  HasValue;
 
- ::UnityEngine::UIElements::EventDispatcherGate __declspec(property(get=get_Value))  Value;
+ UnityEngine::UIElements::EventDispatcherGate __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::UnityEngine::UIElements::EventDispatcherGate value) ;
+ void _ctor(UnityEngine::UIElements::EventDispatcherGate value) ;
 
 /// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_HasValue() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::UIElements::EventDispatcherGate get_Value() ;
+ UnityEngine::UIElements::EventDispatcherGate get_Value() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::UIElements::EventDispatcherGate GetValueOrDefault() ;
+ UnityEngine::UIElements::EventDispatcherGate GetValueOrDefault() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::UIElements::EventDispatcherGate GetValueOrDefault(::UnityEngine::UIElements::EventDispatcherGate defaultValue) ;
+ UnityEngine::UIElements::EventDispatcherGate GetValueOrDefault(UnityEngine::UIElements::EventDispatcherGate defaultValue) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
@@ -2908,13 +2907,13 @@ constexpr ::UnityEngine::UIElements::EventDispatcherGate __get_value() const;
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::UnityEngine::UIElements::EventDispatcherGate> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<UnityEngine::UIElements::EventDispatcherGate> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::UnityEngine::UIElements::EventDispatcherGate> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<UnityEngine::UIElements::EventDispatcherGate> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::UnityEngine::UIElements::EventDispatcherGate> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<UnityEngine::UIElements::EventDispatcherGate> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -2928,11 +2927,11 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2447))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 3177 })
 // CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::GlobalNamespace::GameplayServerConfiguration> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Nullable_1<GlobalNamespace::GameplayServerConfiguration> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::GlobalNamespace::GameplayServerConfiguration", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::GlobalNamespace::GameplayServerConfiguration value) noexcept;
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "GlobalNamespace::GameplayServerConfiguration", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, GlobalNamespace::GameplayServerConfiguration value) noexcept;
 
 
                     constexpr Nullable_1(Nullable_1 const&) = default;
@@ -2971,36 +2970,36 @@ constexpr void __set_hasValue(bool value) ;
 
 constexpr bool __get_hasValue() const;
 
- ::GlobalNamespace::GameplayServerConfiguration __declspec(property(get=__get_value, put=__set_value))  value;
+ GlobalNamespace::GameplayServerConfiguration __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::GlobalNamespace::GameplayServerConfiguration value) ;
+constexpr void __set_value(GlobalNamespace::GameplayServerConfiguration value) ;
 
-constexpr ::GlobalNamespace::GameplayServerConfiguration __get_value() const;
+constexpr GlobalNamespace::GameplayServerConfiguration __get_value() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_HasValue))  HasValue;
 
- ::GlobalNamespace::GameplayServerConfiguration __declspec(property(get=get_Value))  Value;
+ GlobalNamespace::GameplayServerConfiguration __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::GlobalNamespace::GameplayServerConfiguration value) ;
+ void _ctor(GlobalNamespace::GameplayServerConfiguration value) ;
 
 /// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_HasValue() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::GlobalNamespace::GameplayServerConfiguration get_Value() ;
+ GlobalNamespace::GameplayServerConfiguration get_Value() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::GlobalNamespace::GameplayServerConfiguration GetValueOrDefault() ;
+ GlobalNamespace::GameplayServerConfiguration GetValueOrDefault() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::GlobalNamespace::GameplayServerConfiguration GetValueOrDefault(::GlobalNamespace::GameplayServerConfiguration defaultValue) ;
+ GlobalNamespace::GameplayServerConfiguration GetValueOrDefault(GlobalNamespace::GameplayServerConfiguration defaultValue) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
@@ -3012,13 +3011,13 @@ constexpr ::GlobalNamespace::GameplayServerConfiguration __get_value() const;
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::GlobalNamespace::GameplayServerConfiguration> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<GlobalNamespace::GameplayServerConfiguration> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::GlobalNamespace::GameplayServerConfiguration> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<GlobalNamespace::GameplayServerConfiguration> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::GlobalNamespace::GameplayServerConfiguration> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<GlobalNamespace::GameplayServerConfiguration> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -3029,14 +3028,14 @@ namespace System {
 // cpp template
 template<>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2447)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2447))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 3192 })
 // CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::UnityEngine::InputSystem::Layouts::InputDeviceMatcher> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Nullable_1<UnityEngine::InputSystem::Layouts::InputDeviceMatcher> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::UnityEngine::InputSystem::Layouts::InputDeviceMatcher", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher value) noexcept;
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "UnityEngine::InputSystem::Layouts::InputDeviceMatcher", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, UnityEngine::InputSystem::Layouts::InputDeviceMatcher value) noexcept;
 
 
                     constexpr Nullable_1(Nullable_1 const&) = default;
@@ -3075,36 +3074,36 @@ constexpr void __set_hasValue(bool value) ;
 
 constexpr bool __get_hasValue() const;
 
- ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher __declspec(property(get=__get_value, put=__set_value))  value;
+ UnityEngine::InputSystem::Layouts::InputDeviceMatcher __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher value) ;
+constexpr void __set_value(UnityEngine::InputSystem::Layouts::InputDeviceMatcher value) ;
 
-constexpr ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher __get_value() const;
+constexpr UnityEngine::InputSystem::Layouts::InputDeviceMatcher __get_value() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_HasValue))  HasValue;
 
- ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher __declspec(property(get=get_Value))  Value;
+ UnityEngine::InputSystem::Layouts::InputDeviceMatcher __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher value) ;
+ void _ctor(UnityEngine::InputSystem::Layouts::InputDeviceMatcher value) ;
 
 /// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_HasValue() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher get_Value() ;
+ UnityEngine::InputSystem::Layouts::InputDeviceMatcher get_Value() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher GetValueOrDefault() ;
+ UnityEngine::InputSystem::Layouts::InputDeviceMatcher GetValueOrDefault() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher GetValueOrDefault(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher defaultValue) ;
+ UnityEngine::InputSystem::Layouts::InputDeviceMatcher GetValueOrDefault(UnityEngine::InputSystem::Layouts::InputDeviceMatcher defaultValue) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
@@ -3116,13 +3115,13 @@ constexpr ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher __get_value() 
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::UnityEngine::InputSystem::Layouts::InputDeviceMatcher> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<UnityEngine::InputSystem::Layouts::InputDeviceMatcher> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::UnityEngine::InputSystem::Layouts::InputDeviceMatcher> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<UnityEngine::InputSystem::Layouts::InputDeviceMatcher> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::UnityEngine::InputSystem::Layouts::InputDeviceMatcher> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<UnityEngine::InputSystem::Layouts::InputDeviceMatcher> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -3133,14 +3132,14 @@ namespace System {
 // cpp template
 template<>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2447)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2447))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 3194 })
 // CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::UnityEngine::InputSystem::Users::InputUser> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Nullable_1<UnityEngine::InputSystem::Users::InputUser> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::UnityEngine::InputSystem::Users::InputUser", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::UnityEngine::InputSystem::Users::InputUser value) noexcept;
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "UnityEngine::InputSystem::Users::InputUser", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, UnityEngine::InputSystem::Users::InputUser value) noexcept;
 
 
                     constexpr Nullable_1(Nullable_1 const&) = default;
@@ -3179,36 +3178,36 @@ constexpr void __set_hasValue(bool value) ;
 
 constexpr bool __get_hasValue() const;
 
- ::UnityEngine::InputSystem::Users::InputUser __declspec(property(get=__get_value, put=__set_value))  value;
+ UnityEngine::InputSystem::Users::InputUser __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::UnityEngine::InputSystem::Users::InputUser value) ;
+constexpr void __set_value(UnityEngine::InputSystem::Users::InputUser value) ;
 
-constexpr ::UnityEngine::InputSystem::Users::InputUser __get_value() const;
+constexpr UnityEngine::InputSystem::Users::InputUser __get_value() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_HasValue))  HasValue;
 
- ::UnityEngine::InputSystem::Users::InputUser __declspec(property(get=get_Value))  Value;
+ UnityEngine::InputSystem::Users::InputUser __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::UnityEngine::InputSystem::Users::InputUser value) ;
+ void _ctor(UnityEngine::InputSystem::Users::InputUser value) ;
 
 /// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_HasValue() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::Users::InputUser get_Value() ;
+ UnityEngine::InputSystem::Users::InputUser get_Value() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::Users::InputUser GetValueOrDefault() ;
+ UnityEngine::InputSystem::Users::InputUser GetValueOrDefault() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::Users::InputUser GetValueOrDefault(::UnityEngine::InputSystem::Users::InputUser defaultValue) ;
+ UnityEngine::InputSystem::Users::InputUser GetValueOrDefault(UnityEngine::InputSystem::Users::InputUser defaultValue) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
@@ -3220,13 +3219,13 @@ constexpr ::UnityEngine::InputSystem::Users::InputUser __get_value() const;
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::UnityEngine::InputSystem::Users::InputUser> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<UnityEngine::InputSystem::Users::InputUser> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::UnityEngine::InputSystem::Users::InputUser> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<UnityEngine::InputSystem::Users::InputUser> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::UnityEngine::InputSystem::Users::InputUser> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<UnityEngine::InputSystem::Users::InputUser> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -3237,14 +3236,14 @@ namespace System {
 // cpp template
 template<>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2447)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2447))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 3195 })
 // CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Nullable_1<UnityEngine::InputSystem::Users::InputUserAccountHandle> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::UnityEngine::InputSystem::Users::InputUserAccountHandle", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::UnityEngine::InputSystem::Users::InputUserAccountHandle value) noexcept;
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "UnityEngine::InputSystem::Users::InputUserAccountHandle", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, UnityEngine::InputSystem::Users::InputUserAccountHandle value) noexcept;
 
 
                     constexpr Nullable_1(Nullable_1 const&) = default;
@@ -3283,36 +3282,36 @@ constexpr void __set_hasValue(bool value) ;
 
 constexpr bool __get_hasValue() const;
 
- ::UnityEngine::InputSystem::Users::InputUserAccountHandle __declspec(property(get=__get_value, put=__set_value))  value;
+ UnityEngine::InputSystem::Users::InputUserAccountHandle __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::UnityEngine::InputSystem::Users::InputUserAccountHandle value) ;
+constexpr void __set_value(UnityEngine::InputSystem::Users::InputUserAccountHandle value) ;
 
-constexpr ::UnityEngine::InputSystem::Users::InputUserAccountHandle __get_value() const;
+constexpr UnityEngine::InputSystem::Users::InputUserAccountHandle __get_value() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_HasValue))  HasValue;
 
- ::UnityEngine::InputSystem::Users::InputUserAccountHandle __declspec(property(get=get_Value))  Value;
+ UnityEngine::InputSystem::Users::InputUserAccountHandle __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::UnityEngine::InputSystem::Users::InputUserAccountHandle value) ;
+ void _ctor(UnityEngine::InputSystem::Users::InputUserAccountHandle value) ;
 
 /// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_HasValue() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::Users::InputUserAccountHandle get_Value() ;
+ UnityEngine::InputSystem::Users::InputUserAccountHandle get_Value() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::Users::InputUserAccountHandle GetValueOrDefault() ;
+ UnityEngine::InputSystem::Users::InputUserAccountHandle GetValueOrDefault() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::Users::InputUserAccountHandle GetValueOrDefault(::UnityEngine::InputSystem::Users::InputUserAccountHandle defaultValue) ;
+ UnityEngine::InputSystem::Users::InputUserAccountHandle GetValueOrDefault(UnityEngine::InputSystem::Users::InputUserAccountHandle defaultValue) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
@@ -3324,13 +3323,13 @@ constexpr ::UnityEngine::InputSystem::Users::InputUserAccountHandle __get_value(
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<UnityEngine::InputSystem::Users::InputUserAccountHandle> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<UnityEngine::InputSystem::Users::InputUserAccountHandle> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<UnityEngine::InputSystem::Users::InputUserAccountHandle> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -3344,11 +3343,11 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2447)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 3220 })
 // CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::UnityEngine::InputSystem::Utilities::PrimitiveValue> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Nullable_1<UnityEngine::InputSystem::Utilities::PrimitiveValue> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::UnityEngine::InputSystem::Utilities::PrimitiveValue", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::UnityEngine::InputSystem::Utilities::PrimitiveValue value) noexcept;
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "UnityEngine::InputSystem::Utilities::PrimitiveValue", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, UnityEngine::InputSystem::Utilities::PrimitiveValue value) noexcept;
 
 
                     constexpr Nullable_1(Nullable_1 const&) = default;
@@ -3387,36 +3386,36 @@ constexpr void __set_hasValue(bool value) ;
 
 constexpr bool __get_hasValue() const;
 
- ::UnityEngine::InputSystem::Utilities::PrimitiveValue __declspec(property(get=__get_value, put=__set_value))  value;
+ UnityEngine::InputSystem::Utilities::PrimitiveValue __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::UnityEngine::InputSystem::Utilities::PrimitiveValue value) ;
+constexpr void __set_value(UnityEngine::InputSystem::Utilities::PrimitiveValue value) ;
 
-constexpr ::UnityEngine::InputSystem::Utilities::PrimitiveValue __get_value() const;
+constexpr UnityEngine::InputSystem::Utilities::PrimitiveValue __get_value() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_HasValue))  HasValue;
 
- ::UnityEngine::InputSystem::Utilities::PrimitiveValue __declspec(property(get=get_Value))  Value;
+ UnityEngine::InputSystem::Utilities::PrimitiveValue __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::UnityEngine::InputSystem::Utilities::PrimitiveValue value) ;
+ void _ctor(UnityEngine::InputSystem::Utilities::PrimitiveValue value) ;
 
 /// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_HasValue() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::Utilities::PrimitiveValue get_Value() ;
+ UnityEngine::InputSystem::Utilities::PrimitiveValue get_Value() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::Utilities::PrimitiveValue GetValueOrDefault() ;
+ UnityEngine::InputSystem::Utilities::PrimitiveValue GetValueOrDefault() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::Utilities::PrimitiveValue GetValueOrDefault(::UnityEngine::InputSystem::Utilities::PrimitiveValue defaultValue) ;
+ UnityEngine::InputSystem::Utilities::PrimitiveValue GetValueOrDefault(UnityEngine::InputSystem::Utilities::PrimitiveValue defaultValue) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
@@ -3428,13 +3427,13 @@ constexpr ::UnityEngine::InputSystem::Utilities::PrimitiveValue __get_value() co
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::UnityEngine::InputSystem::Utilities::PrimitiveValue> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<UnityEngine::InputSystem::Utilities::PrimitiveValue> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::UnityEngine::InputSystem::Utilities::PrimitiveValue> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<UnityEngine::InputSystem::Utilities::PrimitiveValue> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::UnityEngine::InputSystem::Utilities::PrimitiveValue> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<UnityEngine::InputSystem::Utilities::PrimitiveValue> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -3448,11 +3447,11 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2447)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 3222 })
 // CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::UnityEngine::Quaternion> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Nullable_1<UnityEngine::Quaternion> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::UnityEngine::Quaternion value) noexcept;
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "UnityEngine::Quaternion", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, UnityEngine::Quaternion value) noexcept;
 
 
                     constexpr Nullable_1(Nullable_1 const&) = default;
@@ -3491,36 +3490,36 @@ constexpr void __set_hasValue(bool value) ;
 
 constexpr bool __get_hasValue() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get_value, put=__set_value))  value;
+ UnityEngine::Quaternion __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::UnityEngine::Quaternion value) ;
+constexpr void __set_value(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get_value() const;
+constexpr UnityEngine::Quaternion __get_value() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_HasValue))  HasValue;
 
- ::UnityEngine::Quaternion __declspec(property(get=get_Value))  Value;
+ UnityEngine::Quaternion __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::UnityEngine::Quaternion value) ;
+ void _ctor(UnityEngine::Quaternion value) ;
 
 /// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_HasValue() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::Quaternion get_Value() ;
+ UnityEngine::Quaternion get_Value() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::Quaternion GetValueOrDefault() ;
+ UnityEngine::Quaternion GetValueOrDefault() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::Quaternion GetValueOrDefault(::UnityEngine::Quaternion defaultValue) ;
+ UnityEngine::Quaternion GetValueOrDefault(UnityEngine::Quaternion defaultValue) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
@@ -3532,13 +3531,13 @@ constexpr ::UnityEngine::Quaternion __get_value() const;
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::UnityEngine::Quaternion> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<UnityEngine::Quaternion> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::UnityEngine::Quaternion> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<UnityEngine::Quaternion> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::UnityEngine::Quaternion> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<UnityEngine::Quaternion> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -3552,11 +3551,11 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2447)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 3541 })
 // CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputRemoting__Message> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Nullable_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputRemoting__Message> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputRemoting__Message", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputRemoting__Message value) noexcept;
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "UnityEngine::InputSystem::UnityEngine__InputSystem__InputRemoting__Message", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, UnityEngine::InputSystem::UnityEngine__InputSystem__InputRemoting__Message value) noexcept;
 
 
                     constexpr Nullable_1(Nullable_1 const&) = default;
@@ -3595,36 +3594,36 @@ constexpr void __set_hasValue(bool value) ;
 
 constexpr bool __get_hasValue() const;
 
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputRemoting__Message __declspec(property(get=__get_value, put=__set_value))  value;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputRemoting__Message __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputRemoting__Message value) ;
+constexpr void __set_value(UnityEngine::InputSystem::UnityEngine__InputSystem__InputRemoting__Message value) ;
 
-constexpr ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputRemoting__Message __get_value() const;
+constexpr UnityEngine::InputSystem::UnityEngine__InputSystem__InputRemoting__Message __get_value() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_HasValue))  HasValue;
 
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputRemoting__Message __declspec(property(get=get_Value))  Value;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputRemoting__Message __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputRemoting__Message value) ;
+ void _ctor(UnityEngine::InputSystem::UnityEngine__InputSystem__InputRemoting__Message value) ;
 
 /// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_HasValue() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputRemoting__Message get_Value() ;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputRemoting__Message get_Value() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputRemoting__Message GetValueOrDefault() ;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputRemoting__Message GetValueOrDefault() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputRemoting__Message GetValueOrDefault(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputRemoting__Message defaultValue) ;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputRemoting__Message GetValueOrDefault(UnityEngine::InputSystem::UnityEngine__InputSystem__InputRemoting__Message defaultValue) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
@@ -3636,13 +3635,13 @@ constexpr ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputRemotin
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputRemoting__Message> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputRemoting__Message> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputRemoting__Message> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputRemoting__Message> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputRemoting__Message> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputRemoting__Message> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -3653,14 +3652,14 @@ namespace System {
 // cpp template
 template<>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2447))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2447)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 4073 })
 // CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::Newtonsoft::Json::JsonPosition> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Nullable_1<Newtonsoft::Json::JsonPosition> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::Newtonsoft::Json::JsonPosition", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::Newtonsoft::Json::JsonPosition value) noexcept;
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "Newtonsoft::Json::JsonPosition", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, Newtonsoft::Json::JsonPosition value) noexcept;
 
 
                     constexpr Nullable_1(Nullable_1 const&) = default;
@@ -3699,36 +3698,36 @@ constexpr void __set_hasValue(bool value) ;
 
 constexpr bool __get_hasValue() const;
 
- ::Newtonsoft::Json::JsonPosition __declspec(property(get=__get_value, put=__set_value))  value;
+ Newtonsoft::Json::JsonPosition __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::Newtonsoft::Json::JsonPosition value) ;
+constexpr void __set_value(Newtonsoft::Json::JsonPosition value) ;
 
-constexpr ::Newtonsoft::Json::JsonPosition __get_value() const;
+constexpr Newtonsoft::Json::JsonPosition __get_value() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_HasValue))  HasValue;
 
- ::Newtonsoft::Json::JsonPosition __declspec(property(get=get_Value))  Value;
+ Newtonsoft::Json::JsonPosition __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::Newtonsoft::Json::JsonPosition value) ;
+ void _ctor(Newtonsoft::Json::JsonPosition value) ;
 
 /// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_HasValue() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::Newtonsoft::Json::JsonPosition get_Value() ;
+ Newtonsoft::Json::JsonPosition get_Value() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::Newtonsoft::Json::JsonPosition GetValueOrDefault() ;
+ Newtonsoft::Json::JsonPosition GetValueOrDefault() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::Newtonsoft::Json::JsonPosition GetValueOrDefault(::Newtonsoft::Json::JsonPosition defaultValue) ;
+ Newtonsoft::Json::JsonPosition GetValueOrDefault(Newtonsoft::Json::JsonPosition defaultValue) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
@@ -3740,13 +3739,13 @@ constexpr ::Newtonsoft::Json::JsonPosition __get_value() const;
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::Newtonsoft::Json::JsonPosition> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<Newtonsoft::Json::JsonPosition> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::Newtonsoft::Json::JsonPosition> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<Newtonsoft::Json::JsonPosition> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::Newtonsoft::Json::JsonPosition> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<Newtonsoft::Json::JsonPosition> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -3760,11 +3759,11 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2447))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 4236 })
 // CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::UnityEngine::InputSystem::Layouts::____UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Nullable_1<UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::UnityEngine::InputSystem::Layouts::____UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::UnityEngine::InputSystem::Layouts::____UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem value) noexcept;
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem value) noexcept;
 
 
                     constexpr Nullable_1(Nullable_1 const&) = default;
@@ -3803,36 +3802,36 @@ constexpr void __set_hasValue(bool value) ;
 
 constexpr bool __get_hasValue() const;
 
- ::UnityEngine::InputSystem::Layouts::____UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem __declspec(property(get=__get_value, put=__set_value))  value;
+ UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::UnityEngine::InputSystem::Layouts::____UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem value) ;
+constexpr void __set_value(UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem value) ;
 
-constexpr ::UnityEngine::InputSystem::Layouts::____UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem __get_value() const;
+constexpr UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem __get_value() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_HasValue))  HasValue;
 
- ::UnityEngine::InputSystem::Layouts::____UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem __declspec(property(get=get_Value))  Value;
+ UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::UnityEngine::InputSystem::Layouts::____UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem value) ;
+ void _ctor(UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem value) ;
 
 /// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_HasValue() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::Layouts::____UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem get_Value() ;
+ UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem get_Value() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::Layouts::____UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem GetValueOrDefault() ;
+ UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem GetValueOrDefault() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::Layouts::____UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem GetValueOrDefault(::UnityEngine::InputSystem::Layouts::____UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem defaultValue) ;
+ UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem GetValueOrDefault(UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem defaultValue) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
@@ -3844,13 +3843,13 @@ constexpr ::UnityEngine::InputSystem::Layouts::____UnityEngine__InputSystem__Lay
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::UnityEngine::InputSystem::Layouts::____UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::UnityEngine::InputSystem::Layouts::____UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::UnityEngine::InputSystem::Layouts::____UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -3861,14 +3860,14 @@ namespace System {
 // cpp template
 template<>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2447))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2447)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 4588 })
 // CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::ENet::Address> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Nullable_1<ENet::Address> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::ENet::Address", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::ENet::Address value) noexcept;
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "ENet::Address", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, ENet::Address value) noexcept;
 
 
                     constexpr Nullable_1(Nullable_1 const&) = default;
@@ -3907,36 +3906,36 @@ constexpr void __set_hasValue(bool value) ;
 
 constexpr bool __get_hasValue() const;
 
- ::ENet::Address __declspec(property(get=__get_value, put=__set_value))  value;
+ ENet::Address __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::ENet::Address value) ;
+constexpr void __set_value(ENet::Address value) ;
 
-constexpr ::ENet::Address __get_value() const;
+constexpr ENet::Address __get_value() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_HasValue))  HasValue;
 
- ::ENet::Address __declspec(property(get=get_Value))  Value;
+ ENet::Address __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::ENet::Address value) ;
+ void _ctor(ENet::Address value) ;
 
 /// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_HasValue() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ENet::Address get_Value() ;
+ ENet::Address get_Value() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ENet::Address GetValueOrDefault() ;
+ ENet::Address GetValueOrDefault() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ENet::Address GetValueOrDefault(::ENet::Address defaultValue) ;
+ ENet::Address GetValueOrDefault(ENet::Address defaultValue) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
@@ -3948,13 +3947,13 @@ constexpr ::ENet::Address __get_value() const;
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::ENet::Address> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<ENet::Address> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::ENet::Address> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<ENet::Address> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::ENet::Address> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<ENet::Address> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -3968,11 +3967,11 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2447)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 4602 })
 // CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::Unity::Jobs::JobHandle> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Nullable_1<Unity::Jobs::JobHandle> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::Unity::Jobs::JobHandle", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::Unity::Jobs::JobHandle value) noexcept;
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "Unity::Jobs::JobHandle", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, Unity::Jobs::JobHandle value) noexcept;
 
 
                     constexpr Nullable_1(Nullable_1 const&) = default;
@@ -4011,36 +4010,36 @@ constexpr void __set_hasValue(bool value) ;
 
 constexpr bool __get_hasValue() const;
 
- ::Unity::Jobs::JobHandle __declspec(property(get=__get_value, put=__set_value))  value;
+ Unity::Jobs::JobHandle __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::Unity::Jobs::JobHandle value) ;
+constexpr void __set_value(Unity::Jobs::JobHandle value) ;
 
-constexpr ::Unity::Jobs::JobHandle __get_value() const;
+constexpr Unity::Jobs::JobHandle __get_value() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_HasValue))  HasValue;
 
- ::Unity::Jobs::JobHandle __declspec(property(get=get_Value))  Value;
+ Unity::Jobs::JobHandle __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::Unity::Jobs::JobHandle value) ;
+ void _ctor(Unity::Jobs::JobHandle value) ;
 
 /// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_HasValue() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::Unity::Jobs::JobHandle get_Value() ;
+ Unity::Jobs::JobHandle get_Value() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::Unity::Jobs::JobHandle GetValueOrDefault() ;
+ Unity::Jobs::JobHandle GetValueOrDefault() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::Unity::Jobs::JobHandle GetValueOrDefault(::Unity::Jobs::JobHandle defaultValue) ;
+ Unity::Jobs::JobHandle GetValueOrDefault(Unity::Jobs::JobHandle defaultValue) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
@@ -4052,13 +4051,13 @@ constexpr ::Unity::Jobs::JobHandle __get_value() const;
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::Unity::Jobs::JobHandle> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<Unity::Jobs::JobHandle> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::Unity::Jobs::JobHandle> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<Unity::Jobs::JobHandle> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::Unity::Jobs::JobHandle> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<Unity::Jobs::JobHandle> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -4072,11 +4071,11 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2447)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 4611 })
 // CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::GlobalNamespace::OVRPose> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Nullable_1<GlobalNamespace::OVRPose> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::GlobalNamespace::OVRPose", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::GlobalNamespace::OVRPose value) noexcept;
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "GlobalNamespace::OVRPose", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, GlobalNamespace::OVRPose value) noexcept;
 
 
                     constexpr Nullable_1(Nullable_1 const&) = default;
@@ -4115,36 +4114,36 @@ constexpr void __set_hasValue(bool value) ;
 
 constexpr bool __get_hasValue() const;
 
- ::GlobalNamespace::OVRPose __declspec(property(get=__get_value, put=__set_value))  value;
+ GlobalNamespace::OVRPose __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::GlobalNamespace::OVRPose value) ;
+constexpr void __set_value(GlobalNamespace::OVRPose value) ;
 
-constexpr ::GlobalNamespace::OVRPose __get_value() const;
+constexpr GlobalNamespace::OVRPose __get_value() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_HasValue))  HasValue;
 
- ::GlobalNamespace::OVRPose __declspec(property(get=get_Value))  Value;
+ GlobalNamespace::OVRPose __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::GlobalNamespace::OVRPose value) ;
+ void _ctor(GlobalNamespace::OVRPose value) ;
 
 /// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_HasValue() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::GlobalNamespace::OVRPose get_Value() ;
+ GlobalNamespace::OVRPose get_Value() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::GlobalNamespace::OVRPose GetValueOrDefault() ;
+ GlobalNamespace::OVRPose GetValueOrDefault() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::GlobalNamespace::OVRPose GetValueOrDefault(::GlobalNamespace::OVRPose defaultValue) ;
+ GlobalNamespace::OVRPose GetValueOrDefault(GlobalNamespace::OVRPose defaultValue) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
@@ -4156,13 +4155,13 @@ constexpr ::GlobalNamespace::OVRPose __get_value() const;
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::GlobalNamespace::OVRPose> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<GlobalNamespace::OVRPose> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::GlobalNamespace::OVRPose> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<GlobalNamespace::OVRPose> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::GlobalNamespace::OVRPose> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<GlobalNamespace::OVRPose> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -4176,11 +4175,11 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2447))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 4615 })
 // CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::System::Text::RegularExpressions::RegexPrefix> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Nullable_1<System::Text::RegularExpressions::RegexPrefix> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::System::Text::RegularExpressions::RegexPrefix", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::System::Text::RegularExpressions::RegexPrefix value) noexcept;
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "System::Text::RegularExpressions::RegexPrefix", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, System::Text::RegularExpressions::RegexPrefix value) noexcept;
 
 
                     constexpr Nullable_1(Nullable_1 const&) = default;
@@ -4219,36 +4218,36 @@ constexpr void __set_hasValue(bool value) ;
 
 constexpr bool __get_hasValue() const;
 
- ::System::Text::RegularExpressions::RegexPrefix __declspec(property(get=__get_value, put=__set_value))  value;
+ System::Text::RegularExpressions::RegexPrefix __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::System::Text::RegularExpressions::RegexPrefix value) ;
+constexpr void __set_value(System::Text::RegularExpressions::RegexPrefix value) ;
 
-constexpr ::System::Text::RegularExpressions::RegexPrefix __get_value() const;
+constexpr System::Text::RegularExpressions::RegexPrefix __get_value() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_HasValue))  HasValue;
 
- ::System::Text::RegularExpressions::RegexPrefix __declspec(property(get=get_Value))  Value;
+ System::Text::RegularExpressions::RegexPrefix __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Text::RegularExpressions::RegexPrefix value) ;
+ void _ctor(System::Text::RegularExpressions::RegexPrefix value) ;
 
 /// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_HasValue() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Text::RegularExpressions::RegexPrefix get_Value() ;
+ System::Text::RegularExpressions::RegexPrefix get_Value() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Text::RegularExpressions::RegexPrefix GetValueOrDefault() ;
+ System::Text::RegularExpressions::RegexPrefix GetValueOrDefault() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Text::RegularExpressions::RegexPrefix GetValueOrDefault(::System::Text::RegularExpressions::RegexPrefix defaultValue) ;
+ System::Text::RegularExpressions::RegexPrefix GetValueOrDefault(System::Text::RegularExpressions::RegexPrefix defaultValue) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
@@ -4260,13 +4259,13 @@ constexpr ::System::Text::RegularExpressions::RegexPrefix __get_value() const;
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<System::Text::RegularExpressions::RegexPrefix> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<System::Text::RegularExpressions::RegexPrefix> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<System::Text::RegularExpressions::RegexPrefix> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -4277,14 +4276,14 @@ namespace System {
 // cpp template
 template<>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2447)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2447))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 4618 })
 // CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::System::Runtime::Serialization::StreamingContext> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Nullable_1<System::Runtime::Serialization::StreamingContext> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::System::Runtime::Serialization::StreamingContext value) noexcept;
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, System::Runtime::Serialization::StreamingContext value) noexcept;
 
 
                     constexpr Nullable_1(Nullable_1 const&) = default;
@@ -4323,36 +4322,36 @@ constexpr void __set_hasValue(bool value) ;
 
 constexpr bool __get_hasValue() const;
 
- ::System::Runtime::Serialization::StreamingContext __declspec(property(get=__get_value, put=__set_value))  value;
+ System::Runtime::Serialization::StreamingContext __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::System::Runtime::Serialization::StreamingContext value) ;
+constexpr void __set_value(System::Runtime::Serialization::StreamingContext value) ;
 
-constexpr ::System::Runtime::Serialization::StreamingContext __get_value() const;
+constexpr System::Runtime::Serialization::StreamingContext __get_value() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_HasValue))  HasValue;
 
- ::System::Runtime::Serialization::StreamingContext __declspec(property(get=get_Value))  Value;
+ System::Runtime::Serialization::StreamingContext __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Runtime::Serialization::StreamingContext value) ;
+ void _ctor(System::Runtime::Serialization::StreamingContext value) ;
 
 /// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_HasValue() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Runtime::Serialization::StreamingContext get_Value() ;
+ System::Runtime::Serialization::StreamingContext get_Value() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Runtime::Serialization::StreamingContext GetValueOrDefault() ;
+ System::Runtime::Serialization::StreamingContext GetValueOrDefault() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Runtime::Serialization::StreamingContext GetValueOrDefault(::System::Runtime::Serialization::StreamingContext defaultValue) ;
+ System::Runtime::Serialization::StreamingContext GetValueOrDefault(System::Runtime::Serialization::StreamingContext defaultValue) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
@@ -4364,13 +4363,13 @@ constexpr ::System::Runtime::Serialization::StreamingContext __get_value() const
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::System::Runtime::Serialization::StreamingContext> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<System::Runtime::Serialization::StreamingContext> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::System::Runtime::Serialization::StreamingContext> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<System::Runtime::Serialization::StreamingContext> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::System::Runtime::Serialization::StreamingContext> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<System::Runtime::Serialization::StreamingContext> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -4381,14 +4380,14 @@ namespace System {
 // cpp template
 template<>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2447)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2447))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 4621 })
 // CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::System::Net::Http::Headers::Token> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Nullable_1<System::Net::Http::Headers::Token> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::System::Net::Http::Headers::Token", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::System::Net::Http::Headers::Token value) noexcept;
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "System::Net::Http::Headers::Token", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, System::Net::Http::Headers::Token value) noexcept;
 
 
                     constexpr Nullable_1(Nullable_1 const&) = default;
@@ -4427,36 +4426,36 @@ constexpr void __set_hasValue(bool value) ;
 
 constexpr bool __get_hasValue() const;
 
- ::System::Net::Http::Headers::Token __declspec(property(get=__get_value, put=__set_value))  value;
+ System::Net::Http::Headers::Token __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::System::Net::Http::Headers::Token value) ;
+constexpr void __set_value(System::Net::Http::Headers::Token value) ;
 
-constexpr ::System::Net::Http::Headers::Token __get_value() const;
+constexpr System::Net::Http::Headers::Token __get_value() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_HasValue))  HasValue;
 
- ::System::Net::Http::Headers::Token __declspec(property(get=get_Value))  Value;
+ System::Net::Http::Headers::Token __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Net::Http::Headers::Token value) ;
+ void _ctor(System::Net::Http::Headers::Token value) ;
 
 /// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_HasValue() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Net::Http::Headers::Token get_Value() ;
+ System::Net::Http::Headers::Token get_Value() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Net::Http::Headers::Token GetValueOrDefault() ;
+ System::Net::Http::Headers::Token GetValueOrDefault() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Net::Http::Headers::Token GetValueOrDefault(::System::Net::Http::Headers::Token defaultValue) ;
+ System::Net::Http::Headers::Token GetValueOrDefault(System::Net::Http::Headers::Token defaultValue) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
@@ -4468,13 +4467,13 @@ constexpr ::System::Net::Http::Headers::Token __get_value() const;
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::System::Net::Http::Headers::Token> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<System::Net::Http::Headers::Token> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::System::Net::Http::Headers::Token> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<System::Net::Http::Headers::Token> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::System::Net::Http::Headers::Token> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<System::Net::Http::Headers::Token> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -4488,11 +4487,11 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2447))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 4628 })
 // CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Nullable_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride value) noexcept;
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride value) noexcept;
 
 
                     constexpr Nullable_1(Nullable_1 const&) = default;
@@ -4531,36 +4530,36 @@ constexpr void __set_hasValue(bool value) ;
 
 constexpr bool __get_hasValue() const;
 
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride __declspec(property(get=__get_value, put=__set_value))  value;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride value) ;
+constexpr void __set_value(UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride value) ;
 
-constexpr ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride __get_value() const;
+constexpr UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride __get_value() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_HasValue))  HasValue;
 
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride __declspec(property(get=get_Value))  Value;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride value) ;
+ void _ctor(UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride value) ;
 
 /// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_HasValue() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride get_Value() ;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride get_Value() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride GetValueOrDefault() ;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride GetValueOrDefault() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride GetValueOrDefault(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride defaultValue) ;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride GetValueOrDefault(UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride defaultValue) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
@@ -4572,13 +4571,13 @@ constexpr ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputActionR
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -4592,11 +4591,11 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2447)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 4631 })
 // CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::GlobalNamespace::____GlobalNamespace__OVRPlugin__BodyState> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Nullable_1<GlobalNamespace::GlobalNamespace__OVRPlugin__BodyState> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::GlobalNamespace::____GlobalNamespace__OVRPlugin__BodyState", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::GlobalNamespace::____GlobalNamespace__OVRPlugin__BodyState value) noexcept;
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "GlobalNamespace::GlobalNamespace__OVRPlugin__BodyState", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, GlobalNamespace::GlobalNamespace__OVRPlugin__BodyState value) noexcept;
 
 
                     constexpr Nullable_1(Nullable_1 const&) = default;
@@ -4635,36 +4634,36 @@ constexpr void __set_hasValue(bool value) ;
 
 constexpr bool __get_hasValue() const;
 
- ::GlobalNamespace::____GlobalNamespace__OVRPlugin__BodyState __declspec(property(get=__get_value, put=__set_value))  value;
+ GlobalNamespace::GlobalNamespace__OVRPlugin__BodyState __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::GlobalNamespace::____GlobalNamespace__OVRPlugin__BodyState value) ;
+constexpr void __set_value(GlobalNamespace::GlobalNamespace__OVRPlugin__BodyState value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVRPlugin__BodyState __get_value() const;
+constexpr GlobalNamespace::GlobalNamespace__OVRPlugin__BodyState __get_value() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_HasValue))  HasValue;
 
- ::GlobalNamespace::____GlobalNamespace__OVRPlugin__BodyState __declspec(property(get=get_Value))  Value;
+ GlobalNamespace::GlobalNamespace__OVRPlugin__BodyState __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::GlobalNamespace::____GlobalNamespace__OVRPlugin__BodyState value) ;
+ void _ctor(GlobalNamespace::GlobalNamespace__OVRPlugin__BodyState value) ;
 
 /// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_HasValue() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::GlobalNamespace::____GlobalNamespace__OVRPlugin__BodyState get_Value() ;
+ GlobalNamespace::GlobalNamespace__OVRPlugin__BodyState get_Value() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::GlobalNamespace::____GlobalNamespace__OVRPlugin__BodyState GetValueOrDefault() ;
+ GlobalNamespace::GlobalNamespace__OVRPlugin__BodyState GetValueOrDefault() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::GlobalNamespace::____GlobalNamespace__OVRPlugin__BodyState GetValueOrDefault(::GlobalNamespace::____GlobalNamespace__OVRPlugin__BodyState defaultValue) ;
+ GlobalNamespace::GlobalNamespace__OVRPlugin__BodyState GetValueOrDefault(GlobalNamespace::GlobalNamespace__OVRPlugin__BodyState defaultValue) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
@@ -4676,13 +4675,13 @@ constexpr ::GlobalNamespace::____GlobalNamespace__OVRPlugin__BodyState __get_val
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::GlobalNamespace::____GlobalNamespace__OVRPlugin__BodyState> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<GlobalNamespace::GlobalNamespace__OVRPlugin__BodyState> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::GlobalNamespace::____GlobalNamespace__OVRPlugin__BodyState> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<GlobalNamespace::GlobalNamespace__OVRPlugin__BodyState> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::GlobalNamespace::____GlobalNamespace__OVRPlugin__BodyState> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<GlobalNamespace::GlobalNamespace__OVRPlugin__BodyState> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -4696,11 +4695,11 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2447)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 4632 })
 // CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::GlobalNamespace::____GlobalNamespace__OVRPlugin__Posef> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Nullable_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Posef> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::GlobalNamespace::____GlobalNamespace__OVRPlugin__Posef", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::GlobalNamespace::____GlobalNamespace__OVRPlugin__Posef value) noexcept;
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "GlobalNamespace::GlobalNamespace__OVRPlugin__Posef", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, GlobalNamespace::GlobalNamespace__OVRPlugin__Posef value) noexcept;
 
 
                     constexpr Nullable_1(Nullable_1 const&) = default;
@@ -4739,36 +4738,36 @@ constexpr void __set_hasValue(bool value) ;
 
 constexpr bool __get_hasValue() const;
 
- ::GlobalNamespace::____GlobalNamespace__OVRPlugin__Posef __declspec(property(get=__get_value, put=__set_value))  value;
+ GlobalNamespace::GlobalNamespace__OVRPlugin__Posef __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::GlobalNamespace::____GlobalNamespace__OVRPlugin__Posef value) ;
+constexpr void __set_value(GlobalNamespace::GlobalNamespace__OVRPlugin__Posef value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVRPlugin__Posef __get_value() const;
+constexpr GlobalNamespace::GlobalNamespace__OVRPlugin__Posef __get_value() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_HasValue))  HasValue;
 
- ::GlobalNamespace::____GlobalNamespace__OVRPlugin__Posef __declspec(property(get=get_Value))  Value;
+ GlobalNamespace::GlobalNamespace__OVRPlugin__Posef __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::GlobalNamespace::____GlobalNamespace__OVRPlugin__Posef value) ;
+ void _ctor(GlobalNamespace::GlobalNamespace__OVRPlugin__Posef value) ;
 
 /// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_HasValue() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::GlobalNamespace::____GlobalNamespace__OVRPlugin__Posef get_Value() ;
+ GlobalNamespace::GlobalNamespace__OVRPlugin__Posef get_Value() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::GlobalNamespace::____GlobalNamespace__OVRPlugin__Posef GetValueOrDefault() ;
+ GlobalNamespace::GlobalNamespace__OVRPlugin__Posef GetValueOrDefault() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::GlobalNamespace::____GlobalNamespace__OVRPlugin__Posef GetValueOrDefault(::GlobalNamespace::____GlobalNamespace__OVRPlugin__Posef defaultValue) ;
+ GlobalNamespace::GlobalNamespace__OVRPlugin__Posef GetValueOrDefault(GlobalNamespace::GlobalNamespace__OVRPlugin__Posef defaultValue) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
@@ -4780,13 +4779,13 @@ constexpr ::GlobalNamespace::____GlobalNamespace__OVRPlugin__Posef __get_value()
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::GlobalNamespace::____GlobalNamespace__OVRPlugin__Posef> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Posef> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::GlobalNamespace::____GlobalNamespace__OVRPlugin__Posef> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Posef> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::GlobalNamespace::____GlobalNamespace__OVRPlugin__Posef> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Posef> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -4797,14 +4796,14 @@ namespace System {
 // cpp template
 template<>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2447))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2447)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 4634 })
 // CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::GlobalNamespace::____GlobalNamespace__OVRSceneManager__LogForwarder> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Nullable_1<GlobalNamespace::GlobalNamespace__OVRSceneManager__LogForwarder> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::GlobalNamespace::____GlobalNamespace__OVRSceneManager__LogForwarder", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::GlobalNamespace::____GlobalNamespace__OVRSceneManager__LogForwarder value) noexcept;
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "GlobalNamespace::GlobalNamespace__OVRSceneManager__LogForwarder", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, GlobalNamespace::GlobalNamespace__OVRSceneManager__LogForwarder value) noexcept;
 
 
                     constexpr Nullable_1(Nullable_1 const&) = default;
@@ -4843,36 +4842,36 @@ constexpr void __set_hasValue(bool value) ;
 
 constexpr bool __get_hasValue() const;
 
- ::GlobalNamespace::____GlobalNamespace__OVRSceneManager__LogForwarder __declspec(property(get=__get_value, put=__set_value))  value;
+ GlobalNamespace::GlobalNamespace__OVRSceneManager__LogForwarder __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::GlobalNamespace::____GlobalNamespace__OVRSceneManager__LogForwarder value) ;
+constexpr void __set_value(GlobalNamespace::GlobalNamespace__OVRSceneManager__LogForwarder value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVRSceneManager__LogForwarder __get_value() const;
+constexpr GlobalNamespace::GlobalNamespace__OVRSceneManager__LogForwarder __get_value() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_HasValue))  HasValue;
 
- ::GlobalNamespace::____GlobalNamespace__OVRSceneManager__LogForwarder __declspec(property(get=get_Value))  Value;
+ GlobalNamespace::GlobalNamespace__OVRSceneManager__LogForwarder __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::GlobalNamespace::____GlobalNamespace__OVRSceneManager__LogForwarder value) ;
+ void _ctor(GlobalNamespace::GlobalNamespace__OVRSceneManager__LogForwarder value) ;
 
 /// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_HasValue() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::GlobalNamespace::____GlobalNamespace__OVRSceneManager__LogForwarder get_Value() ;
+ GlobalNamespace::GlobalNamespace__OVRSceneManager__LogForwarder get_Value() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::GlobalNamespace::____GlobalNamespace__OVRSceneManager__LogForwarder GetValueOrDefault() ;
+ GlobalNamespace::GlobalNamespace__OVRSceneManager__LogForwarder GetValueOrDefault() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::GlobalNamespace::____GlobalNamespace__OVRSceneManager__LogForwarder GetValueOrDefault(::GlobalNamespace::____GlobalNamespace__OVRSceneManager__LogForwarder defaultValue) ;
+ GlobalNamespace::GlobalNamespace__OVRSceneManager__LogForwarder GetValueOrDefault(GlobalNamespace::GlobalNamespace__OVRSceneManager__LogForwarder defaultValue) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
@@ -4884,13 +4883,13 @@ constexpr ::GlobalNamespace::____GlobalNamespace__OVRSceneManager__LogForwarder 
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::GlobalNamespace::____GlobalNamespace__OVRSceneManager__LogForwarder> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<GlobalNamespace::GlobalNamespace__OVRSceneManager__LogForwarder> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::GlobalNamespace::____GlobalNamespace__OVRSceneManager__LogForwarder> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<GlobalNamespace::GlobalNamespace__OVRSceneManager__LogForwarder> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::GlobalNamespace::____GlobalNamespace__OVRSceneManager__LogForwarder> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<GlobalNamespace::GlobalNamespace__OVRSceneManager__LogForwarder> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -4901,14 +4900,14 @@ namespace System {
 // cpp template
 template<>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2447))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2447)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 4635 })
 // CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::GlobalNamespace::____GlobalNamespace__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Nullable_1<GlobalNamespace::GlobalNamespace__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::GlobalNamespace::____GlobalNamespace__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::GlobalNamespace::____GlobalNamespace__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent value) noexcept;
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "GlobalNamespace::GlobalNamespace__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, GlobalNamespace::GlobalNamespace__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent value) noexcept;
 
 
                     constexpr Nullable_1(Nullable_1 const&) = default;
@@ -4947,36 +4946,36 @@ constexpr void __set_hasValue(bool value) ;
 
 constexpr bool __get_hasValue() const;
 
- ::GlobalNamespace::____GlobalNamespace__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent __declspec(property(get=__get_value, put=__set_value))  value;
+ GlobalNamespace::GlobalNamespace__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::GlobalNamespace::____GlobalNamespace__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent value) ;
+constexpr void __set_value(GlobalNamespace::GlobalNamespace__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent __get_value() const;
+constexpr GlobalNamespace::GlobalNamespace__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent __get_value() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_HasValue))  HasValue;
 
- ::GlobalNamespace::____GlobalNamespace__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent __declspec(property(get=get_Value))  Value;
+ GlobalNamespace::GlobalNamespace__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::GlobalNamespace::____GlobalNamespace__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent value) ;
+ void _ctor(GlobalNamespace::GlobalNamespace__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent value) ;
 
 /// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_HasValue() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::GlobalNamespace::____GlobalNamespace__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent get_Value() ;
+ GlobalNamespace::GlobalNamespace__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent get_Value() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::GlobalNamespace::____GlobalNamespace__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent GetValueOrDefault() ;
+ GlobalNamespace::GlobalNamespace__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent GetValueOrDefault() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::GlobalNamespace::____GlobalNamespace__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent GetValueOrDefault(::GlobalNamespace::____GlobalNamespace__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent defaultValue) ;
+ GlobalNamespace::GlobalNamespace__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent GetValueOrDefault(GlobalNamespace::GlobalNamespace__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent defaultValue) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
@@ -4988,117 +4987,13 @@ constexpr ::GlobalNamespace::____GlobalNamespace__OVRTrackedKeyboardHands__Track
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::GlobalNamespace::____GlobalNamespace__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<GlobalNamespace::GlobalNamespace__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::GlobalNamespace::____GlobalNamespace__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<GlobalNamespace::GlobalNamespace__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::GlobalNamespace::____GlobalNamespace__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-} // namespace end def System
-// Type: System::Nullable`1
-namespace System {
-// cpp template
-template<>
-// Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2447)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 4825 })
-// CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::System::Int32Enum> : public ::bs_hook::ValueTypeWrapper {
-public:
-// Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::System::Int32Enum", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::System::Int32Enum value) noexcept;
-
-
-                    constexpr Nullable_1(Nullable_1 const&) = default;
-                    constexpr Nullable_1(Nullable_1&&) = default;
-                    constexpr Nullable_1& operator=(Nullable_1 const& o) {
-                        __instance = o.__instance;
-                        return *this;
-                    };
-                    constexpr Nullable_1& operator=(Nullable_1&& o) noexcept {
-                        __instance = std::move(o.__instance);
-                        return *this;
-                    };
-                
-
-/// @brief The size of the true value type
-static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x10};
-
-/// @brief Holds the value type data
- std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
-
-// Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit Nullable_1(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
-}
-
-/// @brief conversion method for value type
-constexpr void* convert() const noexcept {
-return const_cast<void*>(static_cast<const void*>(__instance.data()));
-}
-
-
-// Fields
-
- bool __declspec(property(get=__get_hasValue, put=__set_hasValue))  hasValue;
-
-constexpr void __set_hasValue(bool value) ;
-
-constexpr bool __get_hasValue() const;
-
- ::System::Int32Enum __declspec(property(get=__get_value, put=__set_value))  value;
-
-constexpr void __set_value(::System::Int32Enum value) ;
-
-constexpr ::System::Int32Enum __get_value() const;
-
-
-// Properties
-
- bool __declspec(property(get=get_HasValue))  HasValue;
-
- ::System::Int32Enum __declspec(property(get=get_Value))  Value;
-
-
-// Methods
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Int32Enum value) ;
-
-/// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
- bool get_HasValue() ;
-
-/// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Int32Enum get_Value() ;
-
-/// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Int32Enum GetValueOrDefault() ;
-
-/// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Int32Enum GetValueOrDefault(::System::Int32Enum defaultValue) ;
-
-/// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
- bool Equals(::bs_hook::Il2CppWrapperType other) ;
-
-/// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
- int32_t GetHashCode() ;
-
-/// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
- ::StringW ToString() ;
-
-/// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::System::Int32Enum> o) ;
-
-/// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::System::Int32Enum> Unbox(::bs_hook::Il2CppWrapperType o) ;
-
-/// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::System::Int32Enum> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<GlobalNamespace::GlobalNamespace__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -5110,13 +5005,13 @@ namespace System {
 template<>
 // Is value type: true
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2447))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 6976 })
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 4825 })
 // CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::System::ByteEnum> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Nullable_1<System::Int32Enum> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::System::ByteEnum", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::System::ByteEnum value) noexcept;
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "System::Int32Enum", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, System::Int32Enum value) noexcept;
 
 
                     constexpr Nullable_1(Nullable_1 const&) = default;
@@ -5155,36 +5050,36 @@ constexpr void __set_hasValue(bool value) ;
 
 constexpr bool __get_hasValue() const;
 
- ::System::ByteEnum __declspec(property(get=__get_value, put=__set_value))  value;
+ System::Int32Enum __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::System::ByteEnum value) ;
+constexpr void __set_value(System::Int32Enum value) ;
 
-constexpr ::System::ByteEnum __get_value() const;
+constexpr System::Int32Enum __get_value() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_HasValue))  HasValue;
 
- ::System::ByteEnum __declspec(property(get=get_Value))  Value;
+ System::Int32Enum __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::ByteEnum value) ;
+ void _ctor(System::Int32Enum value) ;
 
 /// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_HasValue() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::ByteEnum get_Value() ;
+ System::Int32Enum get_Value() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::ByteEnum GetValueOrDefault() ;
+ System::Int32Enum GetValueOrDefault() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::ByteEnum GetValueOrDefault(::System::ByteEnum defaultValue) ;
+ System::Int32Enum GetValueOrDefault(System::Int32Enum defaultValue) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
@@ -5196,13 +5091,13 @@ constexpr ::System::ByteEnum __get_value() const;
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::System::ByteEnum> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<System::Int32Enum> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::System::ByteEnum> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<System::Int32Enum> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::System::ByteEnum> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<System::Int32Enum> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -5214,13 +5109,13 @@ namespace System {
 template<>
 // Is value type: true
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2447)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 7472 })
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 6976 })
 // CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::bs_hook::Il2CppWrapperType>> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Nullable_1<System::ByteEnum> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::bs_hook::Il2CppWrapperType> value) noexcept;
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "System::ByteEnum", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, System::ByteEnum value) noexcept;
 
 
                     constexpr Nullable_1(Nullable_1 const&) = default;
@@ -5259,36 +5154,36 @@ constexpr void __set_hasValue(bool value) ;
 
 constexpr bool __get_hasValue() const;
 
- ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get_value, put=__set_value))  value;
+ System::ByteEnum __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::bs_hook::Il2CppWrapperType> value) ;
+constexpr void __set_value(System::ByteEnum value) ;
 
-constexpr ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::bs_hook::Il2CppWrapperType> __get_value() const;
+constexpr System::ByteEnum __get_value() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_HasValue))  HasValue;
 
- ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=get_Value))  Value;
+ System::ByteEnum __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::bs_hook::Il2CppWrapperType> value) ;
+ void _ctor(System::ByteEnum value) ;
 
 /// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_HasValue() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::bs_hook::Il2CppWrapperType> get_Value() ;
+ System::ByteEnum get_Value() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::bs_hook::Il2CppWrapperType> GetValueOrDefault() ;
+ System::ByteEnum GetValueOrDefault() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::bs_hook::Il2CppWrapperType> GetValueOrDefault(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::bs_hook::Il2CppWrapperType> defaultValue) ;
+ System::ByteEnum GetValueOrDefault(System::ByteEnum defaultValue) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
@@ -5300,13 +5195,117 @@ constexpr ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::bs_hook::Il2C
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::bs_hook::Il2CppWrapperType>> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<System::ByteEnum> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::bs_hook::Il2CppWrapperType>> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<System::ByteEnum> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::bs_hook::Il2CppWrapperType>> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<System::ByteEnum> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+} // namespace end def System
+// Type: System::Nullable`1
+namespace System {
+// cpp template
+template<>
+// Is value type: true
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2447))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 7472 })
+// CS Name: System.Nullable`1
+struct CORDL_TYPE Nullable_1<UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::bs_hook::Il2CppWrapperType>> : public ::bs_hook::ValueTypeWrapper {
+public:
+// Declarations
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::bs_hook::Il2CppWrapperType> value) noexcept;
+
+
+                    constexpr Nullable_1(Nullable_1 const&) = default;
+                    constexpr Nullable_1(Nullable_1&&) = default;
+                    constexpr Nullable_1& operator=(Nullable_1 const& o) {
+                        __instance = o.__instance;
+                        return *this;
+                    };
+                    constexpr Nullable_1& operator=(Nullable_1&& o) noexcept {
+                        __instance = std::move(o.__instance);
+                        return *this;
+                    };
+                
+
+/// @brief The size of the true value type
+static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x10};
+
+/// @brief Holds the value type data
+ std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
+
+// Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
+constexpr explicit Nullable_1(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+}
+
+/// @brief conversion method for value type
+constexpr void* convert() const noexcept {
+return const_cast<void*>(static_cast<const void*>(__instance.data()));
+}
+
+
+// Fields
+
+ bool __declspec(property(get=__get_hasValue, put=__set_hasValue))  hasValue;
+
+constexpr void __set_hasValue(bool value) ;
+
+constexpr bool __get_hasValue() const;
+
+ UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get_value, put=__set_value))  value;
+
+constexpr void __set_value(UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::bs_hook::Il2CppWrapperType> value) ;
+
+constexpr UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::bs_hook::Il2CppWrapperType> __get_value() const;
+
+
+// Properties
+
+ bool __declspec(property(get=get_HasValue))  HasValue;
+
+ UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=get_Value))  Value;
+
+
+// Methods
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor(UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::bs_hook::Il2CppWrapperType> value) ;
+
+/// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
+ bool get_HasValue() ;
+
+/// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
+ UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::bs_hook::Il2CppWrapperType> get_Value() ;
+
+/// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
+ UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::bs_hook::Il2CppWrapperType> GetValueOrDefault() ;
+
+/// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
+ UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::bs_hook::Il2CppWrapperType> GetValueOrDefault(UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::bs_hook::Il2CppWrapperType> defaultValue) ;
+
+/// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
+ bool Equals(::bs_hook::Il2CppWrapperType other) ;
+
+/// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
+ int32_t GetHashCode() ;
+
+/// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
+ ::StringW ToString() ;
+
+/// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::bs_hook::Il2CppWrapperType>> o) ;
+
+/// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
+static System::Nullable_1<UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::bs_hook::Il2CppWrapperType>> Unbox(::bs_hook::Il2CppWrapperType o) ;
+
+/// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
+static System::Nullable_1<UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::bs_hook::Il2CppWrapperType>> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -5320,11 +5319,11 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2447)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 7482 })
 // CS Name: System.Nullable`1
-struct CORDL_TYPE Nullable_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputControlScheme__MatchResult> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Nullable_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlScheme__MatchResult> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputControlScheme__MatchResult", modifiers: "", def_value: None }]
-constexpr Nullable_1(bool hasValue, ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputControlScheme__MatchResult value) noexcept;
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlScheme__MatchResult", modifiers: "", def_value: None }]
+constexpr Nullable_1(bool hasValue, UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlScheme__MatchResult value) noexcept;
 
 
                     constexpr Nullable_1(Nullable_1 const&) = default;
@@ -5363,36 +5362,36 @@ constexpr void __set_hasValue(bool value) ;
 
 constexpr bool __get_hasValue() const;
 
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputControlScheme__MatchResult __declspec(property(get=__get_value, put=__set_value))  value;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlScheme__MatchResult __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputControlScheme__MatchResult value) ;
+constexpr void __set_value(UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlScheme__MatchResult value) ;
 
-constexpr ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputControlScheme__MatchResult __get_value() const;
+constexpr UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlScheme__MatchResult __get_value() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_HasValue))  HasValue;
 
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputControlScheme__MatchResult __declspec(property(get=get_Value))  Value;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlScheme__MatchResult __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputControlScheme__MatchResult value) ;
+ void _ctor(UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlScheme__MatchResult value) ;
 
 /// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_HasValue() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputControlScheme__MatchResult get_Value() ;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlScheme__MatchResult get_Value() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputControlScheme__MatchResult GetValueOrDefault() ;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlScheme__MatchResult GetValueOrDefault() ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputControlScheme__MatchResult GetValueOrDefault(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputControlScheme__MatchResult defaultValue) ;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlScheme__MatchResult GetValueOrDefault(UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlScheme__MatchResult defaultValue) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
@@ -5404,17 +5403,16 @@ constexpr ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputControl
  ::StringW ToString() ;
 
 /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::bs_hook::Il2CppWrapperType Box(::System::Nullable_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputControlScheme__MatchResult> o) ;
+static ::bs_hook::Il2CppWrapperType Box(System::Nullable_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlScheme__MatchResult> o) ;
 
 /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputControlScheme__MatchResult> Unbox(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlScheme__MatchResult> Unbox(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Nullable_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputControlScheme__MatchResult> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
+static System::Nullable_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlScheme__MatchResult> UnboxExact(::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Nullable_1, "System", "Nullable`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::Nullable_1, "System", "Nullable`1");

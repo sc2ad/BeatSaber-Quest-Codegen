@@ -3,20 +3,19 @@
 #include "UnityEngine/UIElements/zzzz__VisualElementAsset_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
-namespace {
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__VisualTreeAsset__SlotUsageEntry;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace UnityEngine::UIElements {
-struct ____UnityEngine__UIElements__VisualTreeAsset__SlotUsageEntry;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class TemplateAsset;
 }
 namespace UnityEngine::UIElements {
-struct ____UnityEngine__UIElements__TemplateAsset__AttributeOverride;
+struct UnityEngine__UIElements__TemplateAsset__AttributeOverride;
 }
 // Type: ::AttributeOverride
 namespace UnityEngine::UIElements {
@@ -24,20 +23,20 @@ namespace UnityEngine::UIElements {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7092))
 // CS Name: UnityEngine.UIElements.TemplateAsset::AttributeOverride
-struct CORDL_TYPE ____UnityEngine__UIElements__TemplateAsset__AttributeOverride : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__UIElements__TemplateAsset__AttributeOverride : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "m_ElementName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_AttributeName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Value", ty: "::StringW", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__UIElements__TemplateAsset__AttributeOverride(::StringW m_ElementName, ::StringW m_AttributeName, ::StringW m_Value) noexcept;
+constexpr UnityEngine__UIElements__TemplateAsset__AttributeOverride(::StringW m_ElementName, ::StringW m_AttributeName, ::StringW m_Value) noexcept;
 
 
-                    constexpr ____UnityEngine__UIElements__TemplateAsset__AttributeOverride(____UnityEngine__UIElements__TemplateAsset__AttributeOverride const&) = default;
-                    constexpr ____UnityEngine__UIElements__TemplateAsset__AttributeOverride(____UnityEngine__UIElements__TemplateAsset__AttributeOverride&&) = default;
-                    constexpr ____UnityEngine__UIElements__TemplateAsset__AttributeOverride& operator=(____UnityEngine__UIElements__TemplateAsset__AttributeOverride const& o) {
+                    constexpr UnityEngine__UIElements__TemplateAsset__AttributeOverride(UnityEngine__UIElements__TemplateAsset__AttributeOverride const&) = default;
+                    constexpr UnityEngine__UIElements__TemplateAsset__AttributeOverride(UnityEngine__UIElements__TemplateAsset__AttributeOverride&&) = default;
+                    constexpr UnityEngine__UIElements__TemplateAsset__AttributeOverride& operator=(UnityEngine__UIElements__TemplateAsset__AttributeOverride const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__UIElements__TemplateAsset__AttributeOverride& operator=(____UnityEngine__UIElements__TemplateAsset__AttributeOverride&& o) noexcept {
+                    constexpr UnityEngine__UIElements__TemplateAsset__AttributeOverride& operator=(UnityEngine__UIElements__TemplateAsset__AttributeOverride&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -50,7 +49,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x18};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UIElements__TemplateAsset__AttributeOverride(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__UIElements__TemplateAsset__AttributeOverride(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -89,10 +88,10 @@ namespace UnityEngine::UIElements {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7106))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7093))
 // CS Name: UnityEngine.UIElements.TemplateAsset
-class CORDL_TYPE TemplateAsset : public ::UnityEngine::UIElements::VisualElementAsset {
+class CORDL_TYPE TemplateAsset : public UnityEngine::UIElements::VisualElementAsset {
 public:
 // Declarations
-using AttributeOverride = ::UnityEngine::UIElements::____UnityEngine__UIElements__TemplateAsset__AttributeOverride;
+using AttributeOverride = UnityEngine::UIElements::UnityEngine__UIElements__TemplateAsset__AttributeOverride;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x78};
@@ -106,7 +105,7 @@ constexpr TemplateAsset(TemplateAsset const& ) noexcept = default;
 constexpr TemplateAsset(TemplateAsset&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TemplateAsset(void* ptr) noexcept : ::UnityEngine::UIElements::VisualElementAsset(ptr) {
+constexpr explicit TemplateAsset(void* ptr) noexcept : UnityEngine::UIElements::VisualElementAsset(ptr) {
 }
 
 
@@ -133,39 +132,38 @@ constexpr void __set_m_TemplateAlias(::StringW value) ;
 
 constexpr ::StringW __get_m_TemplateAlias() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::UIElements::____UnityEngine__UIElements__TemplateAsset__AttributeOverride> __declspec(property(get=__get_m_AttributeOverrides, put=__set_m_AttributeOverrides))  m_AttributeOverrides;
+ System::Collections::Generic::List_1<UnityEngine::UIElements::UnityEngine__UIElements__TemplateAsset__AttributeOverride> __declspec(property(get=__get_m_AttributeOverrides, put=__set_m_AttributeOverrides))  m_AttributeOverrides;
 
-constexpr void __set_m_AttributeOverrides(::System::Collections::Generic::List_1<::UnityEngine::UIElements::____UnityEngine__UIElements__TemplateAsset__AttributeOverride> value) ;
+constexpr void __set_m_AttributeOverrides(System::Collections::Generic::List_1<UnityEngine::UIElements::UnityEngine__UIElements__TemplateAsset__AttributeOverride> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::____UnityEngine__UIElements__TemplateAsset__AttributeOverride> __get_m_AttributeOverrides() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::UIElements::UnityEngine__UIElements__TemplateAsset__AttributeOverride> __get_m_AttributeOverrides() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::UIElements::____UnityEngine__UIElements__VisualTreeAsset__SlotUsageEntry> __declspec(property(get=__get_m_SlotUsages, put=__set_m_SlotUsages))  m_SlotUsages;
+ System::Collections::Generic::List_1<UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset__SlotUsageEntry> __declspec(property(get=__get_m_SlotUsages, put=__set_m_SlotUsages))  m_SlotUsages;
 
-constexpr void __set_m_SlotUsages(::System::Collections::Generic::List_1<::UnityEngine::UIElements::____UnityEngine__UIElements__VisualTreeAsset__SlotUsageEntry> value) ;
+constexpr void __set_m_SlotUsages(System::Collections::Generic::List_1<UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset__SlotUsageEntry> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::____UnityEngine__UIElements__VisualTreeAsset__SlotUsageEntry> __get_m_SlotUsages() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset__SlotUsageEntry> __get_m_SlotUsages() const;
 
 
 // Properties
 
- ::System::Collections::Generic::List_1<::UnityEngine::UIElements::____UnityEngine__UIElements__TemplateAsset__AttributeOverride> __declspec(property(get=get_attributeOverrides))  attributeOverrides;
+ System::Collections::Generic::List_1<UnityEngine::UIElements::UnityEngine__UIElements__TemplateAsset__AttributeOverride> __declspec(property(get=get_attributeOverrides))  attributeOverrides;
 
- ::System::Collections::Generic::List_1<::UnityEngine::UIElements::____UnityEngine__UIElements__VisualTreeAsset__SlotUsageEntry> __declspec(property(get=get_slotUsages))  slotUsages;
+ System::Collections::Generic::List_1<UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset__SlotUsageEntry> __declspec(property(get=get_slotUsages))  slotUsages;
 
 
 // Methods
 
 /// @brief Method get_attributeOverrides addr 0x2c98fc0 size 0x80 virtual false final false
- ::System::Collections::Generic::List_1<::UnityEngine::UIElements::____UnityEngine__UIElements__TemplateAsset__AttributeOverride> get_attributeOverrides() ;
+ System::Collections::Generic::List_1<UnityEngine::UIElements::UnityEngine__UIElements__TemplateAsset__AttributeOverride> get_attributeOverrides() ;
 
 /// @brief Method get_slotUsages addr 0x2c99040 size 0x8 virtual false final false
- ::System::Collections::Generic::List_1<::UnityEngine::UIElements::____UnityEngine__UIElements__VisualTreeAsset__SlotUsageEntry> get_slotUsages() ;
+ System::Collections::Generic::List_1<UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset__SlotUsageEntry> get_slotUsages() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::TemplateAsset);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::TemplateAsset, "UnityEngine.UIElements", "TemplateAsset");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::____UnityEngine__UIElements__TemplateAsset__AttributeOverride, "UnityEngine.UIElements", "TemplateAsset/AttributeOverride");
+NEED_NO_BOX(UnityEngine::UIElements::TemplateAsset);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::TemplateAsset, "UnityEngine.UIElements", "TemplateAsset");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UnityEngine__UIElements__TemplateAsset__AttributeOverride, "UnityEngine.UIElements", "TemplateAsset/AttributeOverride");

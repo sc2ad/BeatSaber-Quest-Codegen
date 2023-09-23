@@ -2,28 +2,27 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__CommandBufferGOCore_def.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class Camera;
-}
 namespace UnityEngine::Rendering {
-class CommandBuffer;
+struct CameraEvent;
 }
 namespace GlobalNamespace {
 class KawaseBlurRendererSO;
 }
-namespace GlobalNamespace {
-class CommandBufferOwners;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__KawaseBlurRendererSO__KernelSize;
+namespace UnityEngine::Rendering {
+class CommandBuffer;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace UnityEngine::Rendering {
-struct CameraEvent;
+namespace GlobalNamespace {
+struct GlobalNamespace__KawaseBlurRendererSO__KernelSize;
+}
+namespace GlobalNamespace {
+class CommandBufferOwners;
+}
+namespace UnityEngine {
+class Camera;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,7 +34,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15299))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15297))
 // CS Name: CommandBufferBlurryScreenGrab
-class CORDL_TYPE CommandBufferBlurryScreenGrab : public ::GlobalNamespace::CommandBufferGOCore {
+class CORDL_TYPE CommandBufferBlurryScreenGrab : public GlobalNamespace::CommandBufferGOCore {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -50,7 +49,7 @@ constexpr CommandBufferBlurryScreenGrab(CommandBufferBlurryScreenGrab const& ) n
 constexpr CommandBufferBlurryScreenGrab(CommandBufferBlurryScreenGrab&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CommandBufferBlurryScreenGrab(void* ptr) noexcept : ::GlobalNamespace::CommandBufferGOCore(ptr) {
+constexpr explicit CommandBufferBlurryScreenGrab(void* ptr) noexcept : GlobalNamespace::CommandBufferGOCore(ptr) {
 }
 
 
@@ -71,23 +70,23 @@ constexpr explicit CommandBufferBlurryScreenGrab(void* ptr) noexcept : ::GlobalN
 
 // Fields
 
- ::GlobalNamespace::KawaseBlurRendererSO __declspec(property(get=__get__kawaseBlurRenderer, put=__set__kawaseBlurRenderer))  _kawaseBlurRenderer;
+ GlobalNamespace::KawaseBlurRendererSO __declspec(property(get=__get__kawaseBlurRenderer, put=__set__kawaseBlurRenderer))  _kawaseBlurRenderer;
 
-constexpr void __set__kawaseBlurRenderer(::GlobalNamespace::KawaseBlurRendererSO value) ;
+constexpr void __set__kawaseBlurRenderer(GlobalNamespace::KawaseBlurRendererSO value) ;
 
-constexpr ::GlobalNamespace::KawaseBlurRendererSO __get__kawaseBlurRenderer() const;
+constexpr GlobalNamespace::KawaseBlurRendererSO __get__kawaseBlurRenderer() const;
 
- ::GlobalNamespace::____GlobalNamespace__KawaseBlurRendererSO__KernelSize __declspec(property(get=__get__kernelSize, put=__set__kernelSize))  _kernelSize;
+ GlobalNamespace::GlobalNamespace__KawaseBlurRendererSO__KernelSize __declspec(property(get=__get__kernelSize, put=__set__kernelSize))  _kernelSize;
 
-constexpr void __set__kernelSize(::GlobalNamespace::____GlobalNamespace__KawaseBlurRendererSO__KernelSize value) ;
+constexpr void __set__kernelSize(GlobalNamespace::GlobalNamespace__KawaseBlurRendererSO__KernelSize value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__KawaseBlurRendererSO__KernelSize __get__kernelSize() const;
+constexpr GlobalNamespace::GlobalNamespace__KawaseBlurRendererSO__KernelSize __get__kernelSize() const;
 
- ::UnityEngine::Rendering::CameraEvent __declspec(property(get=__get__cameraEvent, put=__set__cameraEvent))  _cameraEvent;
+ UnityEngine::Rendering::CameraEvent __declspec(property(get=__get__cameraEvent, put=__set__cameraEvent))  _cameraEvent;
 
-constexpr void __set__cameraEvent(::UnityEngine::Rendering::CameraEvent value) ;
+constexpr void __set__cameraEvent(UnityEngine::Rendering::CameraEvent value) ;
 
-constexpr ::UnityEngine::Rendering::CameraEvent __get__cameraEvent() const;
+constexpr UnityEngine::Rendering::CameraEvent __get__cameraEvent() const;
 
  int32_t __declspec(property(get=__get__downsample, put=__set__downsample))  _downsample;
 
@@ -95,23 +94,23 @@ constexpr void __set__downsample(int32_t value) ;
 
 constexpr int32_t __get__downsample() const;
 
-static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera,::GlobalNamespace::CommandBufferOwners> __declspec(property(get=__get__cameras, put=__set__cameras))  _cameras;
+static System::Collections::Generic::Dictionary_2<UnityEngine::Camera,GlobalNamespace::CommandBufferOwners> __declspec(property(get=__get__cameras, put=__set__cameras))  _cameras;
 
-static void __set__cameras(::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera,::GlobalNamespace::CommandBufferOwners> value) ;
+static void __set__cameras(System::Collections::Generic::Dictionary_2<UnityEngine::Camera,GlobalNamespace::CommandBufferOwners> value) ;
 
-static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera,::GlobalNamespace::CommandBufferOwners> __get__cameras() ;
+static System::Collections::Generic::Dictionary_2<UnityEngine::Camera,GlobalNamespace::CommandBufferOwners> __get__cameras() ;
 
 
 // Methods
 
 /// @brief Method CreateCommandBuffer addr 0x2674ed0 size 0xfc virtual true final false
- ::UnityEngine::Rendering::CommandBuffer CreateCommandBuffer(::UnityEngine::Camera camera) ;
+ UnityEngine::Rendering::CommandBuffer CreateCommandBuffer(UnityEngine::Camera camera) ;
 
 /// @brief Method CamerasDict addr 0x2674fcc size 0x58 virtual true final false
- ::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera,::GlobalNamespace::CommandBufferOwners> CamerasDict() ;
+ System::Collections::Generic::Dictionary_2<UnityEngine::Camera,GlobalNamespace::CommandBufferOwners> CamerasDict() ;
 
 /// @brief Method CommandBufferCameraEvent addr 0x2675024 size 0x8 virtual true final false
- ::UnityEngine::Rendering::CameraEvent CommandBufferCameraEvent() ;
+ UnityEngine::Rendering::CameraEvent CommandBufferCameraEvent() ;
 
 // Ctor Parameters []
 explicit CommandBufferBlurryScreenGrab() ;
@@ -123,6 +122,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::CommandBufferBlurryScreenGrab);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CommandBufferBlurryScreenGrab, "", "CommandBufferBlurryScreenGrab");
+NEED_NO_BOX(GlobalNamespace::CommandBufferBlurryScreenGrab);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CommandBufferBlurryScreenGrab, "", "CommandBufferBlurryScreenGrab");

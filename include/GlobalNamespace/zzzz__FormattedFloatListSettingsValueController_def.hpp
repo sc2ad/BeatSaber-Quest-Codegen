@@ -7,13 +7,12 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 class FloatSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct ____GlobalNamespace__FormattedFloatListSettingsValueController__ValueType;
+struct GlobalNamespace__FormattedFloatListSettingsValueController__ValueType;
 }
 namespace GlobalNamespace {
 class FormattedFloatListSettingsValueController;
@@ -24,20 +23,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5682))
 // CS Name: FormattedFloatListSettingsValueController::ValueType
-struct CORDL_TYPE ____GlobalNamespace__FormattedFloatListSettingsValueController__ValueType : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__FormattedFloatListSettingsValueController__ValueType : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__FormattedFloatListSettingsValueController__ValueType(int32_t value__) noexcept;
+constexpr GlobalNamespace__FormattedFloatListSettingsValueController__ValueType(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__FormattedFloatListSettingsValueController__ValueType(____GlobalNamespace__FormattedFloatListSettingsValueController__ValueType const&) = default;
-                    constexpr ____GlobalNamespace__FormattedFloatListSettingsValueController__ValueType(____GlobalNamespace__FormattedFloatListSettingsValueController__ValueType&&) = default;
-                    constexpr ____GlobalNamespace__FormattedFloatListSettingsValueController__ValueType& operator=(____GlobalNamespace__FormattedFloatListSettingsValueController__ValueType const& o) {
+                    constexpr GlobalNamespace__FormattedFloatListSettingsValueController__ValueType(GlobalNamespace__FormattedFloatListSettingsValueController__ValueType const&) = default;
+                    constexpr GlobalNamespace__FormattedFloatListSettingsValueController__ValueType(GlobalNamespace__FormattedFloatListSettingsValueController__ValueType&&) = default;
+                    constexpr GlobalNamespace__FormattedFloatListSettingsValueController__ValueType& operator=(GlobalNamespace__FormattedFloatListSettingsValueController__ValueType const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__FormattedFloatListSettingsValueController__ValueType& operator=(____GlobalNamespace__FormattedFloatListSettingsValueController__ValueType&& o) noexcept {
+                    constexpr GlobalNamespace__FormattedFloatListSettingsValueController__ValueType& operator=(GlobalNamespace__FormattedFloatListSettingsValueController__ValueType&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -50,7 +49,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__FormattedFloatListSettingsValueController__ValueType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__FormattedFloatListSettingsValueController__ValueType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -58,15 +57,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__FormattedFloatListSettingsValueController__ValueType_Unwrapped : int32_t {
+enum class __GlobalNamespace__FormattedFloatListSettingsValueController__ValueType_Unwrapped : int32_t {
 __Normal = 0,
 __Normalized = 1,
 __InvertedNormalized = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__FormattedFloatListSettingsValueController__ValueType_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__FormattedFloatListSettingsValueController__ValueType_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__FormattedFloatListSettingsValueController__ValueType_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__FormattedFloatListSettingsValueController__ValueType_Unwrapped>(__instance);
 }
 
 
@@ -79,13 +78,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Normal offset 0
-static ::GlobalNamespace::____GlobalNamespace__FormattedFloatListSettingsValueController__ValueType const Normal;
+static GlobalNamespace::GlobalNamespace__FormattedFloatListSettingsValueController__ValueType const Normal;
 
 /// @brief Field Normalized offset 0
-static ::GlobalNamespace::____GlobalNamespace__FormattedFloatListSettingsValueController__ValueType const Normalized;
+static GlobalNamespace::GlobalNamespace__FormattedFloatListSettingsValueController__ValueType const Normalized;
 
 /// @brief Field InvertedNormalized offset 0
-static ::GlobalNamespace::____GlobalNamespace__FormattedFloatListSettingsValueController__ValueType const InvertedNormalized;
+static GlobalNamespace::GlobalNamespace__FormattedFloatListSettingsValueController__ValueType const InvertedNormalized;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -97,10 +96,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5687))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5683))
 // CS Name: FormattedFloatListSettingsValueController
-class CORDL_TYPE FormattedFloatListSettingsValueController : public ::GlobalNamespace::ListSettingsController {
+class CORDL_TYPE FormattedFloatListSettingsValueController : public GlobalNamespace::ListSettingsController {
 public:
 // Declarations
-using ValueType = ::GlobalNamespace::____GlobalNamespace__FormattedFloatListSettingsValueController__ValueType;
+using ValueType = GlobalNamespace::GlobalNamespace__FormattedFloatListSettingsValueController__ValueType;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x50};
@@ -114,7 +113,7 @@ constexpr FormattedFloatListSettingsValueController(FormattedFloatListSettingsVa
 constexpr FormattedFloatListSettingsValueController(FormattedFloatListSettingsValueController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FormattedFloatListSettingsValueController(void* ptr) noexcept : ::GlobalNamespace::ListSettingsController(ptr) {
+constexpr explicit FormattedFloatListSettingsValueController(void* ptr) noexcept : GlobalNamespace::ListSettingsController(ptr) {
 }
 
 
@@ -135,11 +134,11 @@ constexpr explicit FormattedFloatListSettingsValueController(void* ptr) noexcept
 
 // Fields
 
- ::GlobalNamespace::FloatSO __declspec(property(get=__get__settingsValue, put=__set__settingsValue))  _settingsValue;
+ GlobalNamespace::FloatSO __declspec(property(get=__get__settingsValue, put=__set__settingsValue))  _settingsValue;
 
-constexpr void __set__settingsValue(::GlobalNamespace::FloatSO value) ;
+constexpr void __set__settingsValue(GlobalNamespace::FloatSO value) ;
 
-constexpr ::GlobalNamespace::FloatSO __get__settingsValue() const;
+constexpr GlobalNamespace::FloatSO __get__settingsValue() const;
 
  ::ArrayW<float_t> __declspec(property(get=__get__values, put=__set__values))  _values;
 
@@ -153,11 +152,11 @@ constexpr void __set__formattingString(::StringW value) ;
 
 constexpr ::StringW __get__formattingString() const;
 
- ::GlobalNamespace::____GlobalNamespace__FormattedFloatListSettingsValueController__ValueType __declspec(property(get=__get_valueType, put=__set_valueType))  valueType;
+ GlobalNamespace::GlobalNamespace__FormattedFloatListSettingsValueController__ValueType __declspec(property(get=__get_valueType, put=__set_valueType))  valueType;
 
-constexpr void __set_valueType(::GlobalNamespace::____GlobalNamespace__FormattedFloatListSettingsValueController__ValueType value) ;
+constexpr void __set_valueType(GlobalNamespace::GlobalNamespace__FormattedFloatListSettingsValueController__ValueType value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__FormattedFloatListSettingsValueController__ValueType __get_valueType() const;
+constexpr GlobalNamespace::GlobalNamespace__FormattedFloatListSettingsValueController__ValueType __get_valueType() const;
 
  float_t __declspec(property(get=__get__min, put=__set__min))  _min;
 
@@ -193,7 +192,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__FormattedFloatListSettingsValueController__ValueType, "", "FormattedFloatListSettingsValueController/ValueType");
-NEED_NO_BOX(::GlobalNamespace::FormattedFloatListSettingsValueController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FormattedFloatListSettingsValueController, "", "FormattedFloatListSettingsValueController");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__FormattedFloatListSettingsValueController__ValueType, "", "FormattedFloatListSettingsValueController/ValueType");
+NEED_NO_BOX(GlobalNamespace::FormattedFloatListSettingsValueController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FormattedFloatListSettingsValueController, "", "FormattedFloatListSettingsValueController");

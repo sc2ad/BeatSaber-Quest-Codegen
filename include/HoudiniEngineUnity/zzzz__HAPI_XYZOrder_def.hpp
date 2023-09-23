@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HAPI_XYZOrder;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field HAPI_XYZ offset 0
-static ::HoudiniEngineUnity::HAPI_XYZOrder const HAPI_XYZ;
+static HoudiniEngineUnity::HAPI_XYZOrder const HAPI_XYZ;
 
 /// @brief Field HAPI_XZY offset 0
-static ::HoudiniEngineUnity::HAPI_XYZOrder const HAPI_XZY;
+static HoudiniEngineUnity::HAPI_XYZOrder const HAPI_XZY;
 
 /// @brief Field HAPI_YXZ offset 0
-static ::HoudiniEngineUnity::HAPI_XYZOrder const HAPI_YXZ;
+static HoudiniEngineUnity::HAPI_XYZOrder const HAPI_YXZ;
 
 /// @brief Field HAPI_YZX offset 0
-static ::HoudiniEngineUnity::HAPI_XYZOrder const HAPI_YZX;
+static HoudiniEngineUnity::HAPI_XYZOrder const HAPI_YZX;
 
 /// @brief Field HAPI_ZXY offset 0
-static ::HoudiniEngineUnity::HAPI_XYZOrder const HAPI_ZXY;
+static HoudiniEngineUnity::HAPI_XYZOrder const HAPI_ZXY;
 
 /// @brief Field HAPI_ZYX offset 0
-static ::HoudiniEngineUnity::HAPI_XYZOrder const HAPI_ZYX;
+static HoudiniEngineUnity::HAPI_XYZOrder const HAPI_ZYX;
 
 /// @brief Field HAPI_XYZORDER_DEFAULT offset 0
-static ::HoudiniEngineUnity::HAPI_XYZOrder const HAPI_XYZORDER_DEFAULT;
+static HoudiniEngineUnity::HAPI_XYZOrder const HAPI_XYZORDER_DEFAULT;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_XYZOrder, "HoudiniEngineUnity", "HAPI_XYZOrder");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_XYZOrder, "HoudiniEngineUnity", "HAPI_XYZOrder");

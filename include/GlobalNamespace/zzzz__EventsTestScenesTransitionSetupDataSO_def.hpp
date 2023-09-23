@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class EnvironmentInfoSO;
-}
 namespace GlobalNamespace {
 class SceneInfo;
+}
+namespace GlobalNamespace {
+class EnvironmentInfoSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13874))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6119))
 // CS Name: EventsTestScenesTransitionSetupDataSO
-class CORDL_TYPE EventsTestScenesTransitionSetupDataSO : public ::GlobalNamespace::ScenesTransitionSetupDataSO {
+class CORDL_TYPE EventsTestScenesTransitionSetupDataSO : public GlobalNamespace::ScenesTransitionSetupDataSO {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr EventsTestScenesTransitionSetupDataSO(EventsTestScenesTransitionSetupD
 constexpr EventsTestScenesTransitionSetupDataSO(EventsTestScenesTransitionSetupDataSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EventsTestScenesTransitionSetupDataSO(void* ptr) noexcept : ::GlobalNamespace::ScenesTransitionSetupDataSO(ptr) {
+constexpr explicit EventsTestScenesTransitionSetupDataSO(void* ptr) noexcept : GlobalNamespace::ScenesTransitionSetupDataSO(ptr) {
 }
 
 
@@ -54,23 +53,23 @@ constexpr explicit EventsTestScenesTransitionSetupDataSO(void* ptr) noexcept : :
 
 // Fields
 
- ::GlobalNamespace::EnvironmentInfoSO __declspec(property(get=__get__environmentInfo, put=__set__environmentInfo))  _environmentInfo;
+ GlobalNamespace::EnvironmentInfoSO __declspec(property(get=__get__environmentInfo, put=__set__environmentInfo))  _environmentInfo;
 
-constexpr void __set__environmentInfo(::GlobalNamespace::EnvironmentInfoSO value) ;
+constexpr void __set__environmentInfo(GlobalNamespace::EnvironmentInfoSO value) ;
 
-constexpr ::GlobalNamespace::EnvironmentInfoSO __get__environmentInfo() const;
+constexpr GlobalNamespace::EnvironmentInfoSO __get__environmentInfo() const;
 
- ::GlobalNamespace::SceneInfo __declspec(property(get=__get__eventsTestSceneInfo, put=__set__eventsTestSceneInfo))  _eventsTestSceneInfo;
+ GlobalNamespace::SceneInfo __declspec(property(get=__get__eventsTestSceneInfo, put=__set__eventsTestSceneInfo))  _eventsTestSceneInfo;
 
-constexpr void __set__eventsTestSceneInfo(::GlobalNamespace::SceneInfo value) ;
+constexpr void __set__eventsTestSceneInfo(GlobalNamespace::SceneInfo value) ;
 
-constexpr ::GlobalNamespace::SceneInfo __get__eventsTestSceneInfo() const;
+constexpr GlobalNamespace::SceneInfo __get__eventsTestSceneInfo() const;
 
- ::GlobalNamespace::SceneInfo __declspec(property(get=__get__gameCoreSceneInfo, put=__set__gameCoreSceneInfo))  _gameCoreSceneInfo;
+ GlobalNamespace::SceneInfo __declspec(property(get=__get__gameCoreSceneInfo, put=__set__gameCoreSceneInfo))  _gameCoreSceneInfo;
 
-constexpr void __set__gameCoreSceneInfo(::GlobalNamespace::SceneInfo value) ;
+constexpr void __set__gameCoreSceneInfo(GlobalNamespace::SceneInfo value) ;
 
-constexpr ::GlobalNamespace::SceneInfo __get__gameCoreSceneInfo() const;
+constexpr GlobalNamespace::SceneInfo __get__gameCoreSceneInfo() const;
 
 
 // Methods
@@ -88,6 +87,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::EventsTestScenesTransitionSetupDataSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EventsTestScenesTransitionSetupDataSO, "", "EventsTestScenesTransitionSetupDataSO");
+NEED_NO_BOX(GlobalNamespace::EventsTestScenesTransitionSetupDataSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EventsTestScenesTransitionSetupDataSO, "", "EventsTestScenesTransitionSetupDataSO");

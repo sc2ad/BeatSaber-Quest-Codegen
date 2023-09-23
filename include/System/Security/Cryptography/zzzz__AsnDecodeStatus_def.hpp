@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security::Cryptography {
 struct AsnDecodeStatus;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field NotDecoded offset 0
-static ::System::Security::Cryptography::AsnDecodeStatus const NotDecoded;
+static System::Security::Cryptography::AsnDecodeStatus const NotDecoded;
 
 /// @brief Field Ok offset 0
-static ::System::Security::Cryptography::AsnDecodeStatus const Ok;
+static System::Security::Cryptography::AsnDecodeStatus const Ok;
 
 /// @brief Field BadAsn offset 0
-static ::System::Security::Cryptography::AsnDecodeStatus const BadAsn;
+static System::Security::Cryptography::AsnDecodeStatus const BadAsn;
 
 /// @brief Field BadTag offset 0
-static ::System::Security::Cryptography::AsnDecodeStatus const BadTag;
+static System::Security::Cryptography::AsnDecodeStatus const BadTag;
 
 /// @brief Field BadLength offset 0
-static ::System::Security::Cryptography::AsnDecodeStatus const BadLength;
+static System::Security::Cryptography::AsnDecodeStatus const BadLength;
 
 /// @brief Field InformationNotAvailable offset 0
-static ::System::Security::Cryptography::AsnDecodeStatus const InformationNotAvailable;
+static System::Security::Cryptography::AsnDecodeStatus const InformationNotAvailable;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::AsnDecodeStatus, "System.Security.Cryptography", "AsnDecodeStatus");
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::AsnDecodeStatus, "System.Security.Cryptography", "AsnDecodeStatus");

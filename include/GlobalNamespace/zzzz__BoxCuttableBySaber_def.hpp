@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__CuttableBySaber_def.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
 class Saber;
 }
@@ -25,7 +24,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5376))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5374))
 // CS Name: BoxCuttableBySaber
-class CORDL_TYPE BoxCuttableBySaber : public ::GlobalNamespace::CuttableBySaber {
+class CORDL_TYPE BoxCuttableBySaber : public GlobalNamespace::CuttableBySaber {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr BoxCuttableBySaber(BoxCuttableBySaber const& ) noexcept = default;
 constexpr BoxCuttableBySaber(BoxCuttableBySaber&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BoxCuttableBySaber(void* ptr) noexcept : ::GlobalNamespace::CuttableBySaber(ptr) {
+constexpr explicit BoxCuttableBySaber(void* ptr) noexcept : GlobalNamespace::CuttableBySaber(ptr) {
 }
 
 
@@ -61,11 +60,11 @@ constexpr explicit BoxCuttableBySaber(void* ptr) noexcept : ::GlobalNamespace::C
 
 // Fields
 
- ::UnityEngine::BoxCollider __declspec(property(get=__get__collider, put=__set__collider))  _collider;
+ UnityEngine::BoxCollider __declspec(property(get=__get__collider, put=__set__collider))  _collider;
 
-constexpr void __set__collider(::UnityEngine::BoxCollider value) ;
+constexpr void __set__collider(UnityEngine::BoxCollider value) ;
 
-constexpr ::UnityEngine::BoxCollider __get__collider() const;
+constexpr UnityEngine::BoxCollider __get__collider() const;
 
  bool __declspec(property(get=__get__canBeCut, put=__set__canBeCut))  _canBeCut;
 
@@ -86,9 +85,9 @@ constexpr float_t __get__radius() const;
 
  bool __declspec(property(get=get_canBeCut, put=set_canBeCut))  canBeCut;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_colliderSize, put=set_colliderSize))  colliderSize;
+ UnityEngine::Vector3 __declspec(property(get=get_colliderSize, put=set_colliderSize))  colliderSize;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_colliderCenter, put=set_colliderCenter))  colliderCenter;
+ UnityEngine::Vector3 __declspec(property(get=get_colliderCenter, put=set_colliderCenter))  colliderCenter;
 
 
 // Methods
@@ -103,25 +102,25 @@ constexpr float_t __get__radius() const;
  bool get_canBeCut() ;
 
 /// @brief Method set_colliderSize addr 0x210a488 size 0x28 virtual false final false
- void set_colliderSize(::UnityEngine::Vector3 value) ;
+ void set_colliderSize(UnityEngine::Vector3 value) ;
 
 /// @brief Method get_colliderSize addr 0x210a518 size 0x1c virtual false final false
- ::UnityEngine::Vector3 get_colliderSize() ;
+ UnityEngine::Vector3 get_colliderSize() ;
 
 /// @brief Method set_colliderCenter addr 0x210a534 size 0x1c virtual false final false
- void set_colliderCenter(::UnityEngine::Vector3 value) ;
+ void set_colliderCenter(UnityEngine::Vector3 value) ;
 
 /// @brief Method get_colliderCenter addr 0x210a550 size 0x1c virtual false final false
- ::UnityEngine::Vector3 get_colliderCenter() ;
+ UnityEngine::Vector3 get_colliderCenter() ;
 
 /// @brief Method Awake addr 0x210a56c size 0x30 virtual false final false
  void Awake() ;
 
 /// @brief Method Cut addr 0x210a59c size 0x34 virtual true final false
- void Cut(::GlobalNamespace::Saber saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec) ;
+ void Cut(GlobalNamespace::Saber saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec) ;
 
 /// @brief Method SetColliderCenterAndSize addr 0x210a5fc size 0x58 virtual false final false
- void SetColliderCenterAndSize(::UnityEngine::Vector3 center, ::UnityEngine::Vector3 size) ;
+ void SetColliderCenterAndSize(UnityEngine::Vector3 center, UnityEngine::Vector3 size) ;
 
 /// @brief Method RefreshRadius addr 0x210a4b0 size 0x68 virtual false final false
  void RefreshRadius() ;
@@ -136,6 +135,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BoxCuttableBySaber);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BoxCuttableBySaber, "", "BoxCuttableBySaber");
+NEED_NO_BOX(GlobalNamespace::BoxCuttableBySaber);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BoxCuttableBySaber, "", "BoxCuttableBySaber");

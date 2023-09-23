@@ -2,21 +2,20 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
-namespace Zenject {
-class ITickable;
-}
 namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-struct Vector3;
+struct Vector2;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Vector3;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace Zenject {
+class ITickable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,11 +27,11 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4965))
 // CS Name: FloatingTransformEffect
-class CORDL_TYPE FloatingTransformEffect : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE FloatingTransformEffect : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-/// @brief Convert operator to ::Zenject::ITickable
-constexpr operator  ::Zenject::ITickable() const noexcept;
+/// @brief Convert operator to Zenject::ITickable
+constexpr operator  Zenject::ITickable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xb8};
@@ -46,7 +45,7 @@ constexpr FloatingTransformEffect(FloatingTransformEffect const& ) noexcept = de
 constexpr FloatingTransformEffect(FloatingTransformEffect&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FloatingTransformEffect(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit FloatingTransformEffect(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -67,23 +66,23 @@ constexpr explicit FloatingTransformEffect(void* ptr) noexcept : ::UnityEngine::
 
 // Fields
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__positionMultiplier, put=__set__positionMultiplier))  _positionMultiplier;
+ UnityEngine::Vector3 __declspec(property(get=__get__positionMultiplier, put=__set__positionMultiplier))  _positionMultiplier;
 
-constexpr void __set__positionMultiplier(::UnityEngine::Vector3 value) ;
+constexpr void __set__positionMultiplier(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__positionMultiplier() const;
+constexpr UnityEngine::Vector3 __get__positionMultiplier() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__rotationMultiplier, put=__set__rotationMultiplier))  _rotationMultiplier;
+ UnityEngine::Vector3 __declspec(property(get=__get__rotationMultiplier, put=__set__rotationMultiplier))  _rotationMultiplier;
 
-constexpr void __set__rotationMultiplier(::UnityEngine::Vector3 value) ;
+constexpr void __set__rotationMultiplier(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__rotationMultiplier() const;
+constexpr UnityEngine::Vector3 __get__rotationMultiplier() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__rotationTransform, put=__set__rotationTransform))  _rotationTransform;
+ UnityEngine::Transform __declspec(property(get=__get__rotationTransform, put=__set__rotationTransform))  _rotationTransform;
 
-constexpr void __set__rotationTransform(::UnityEngine::Transform value) ;
+constexpr void __set__rotationTransform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__rotationTransform() const;
+constexpr UnityEngine::Transform __get__rotationTransform() const;
 
  float_t __declspec(property(get=__get__maxRotationDegrees, put=__set__maxRotationDegrees))  _maxRotationDegrees;
 
@@ -91,53 +90,53 @@ constexpr void __set__maxRotationDegrees(float_t value) ;
 
 constexpr float_t __get__maxRotationDegrees() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get__xAmplitude, put=__set__xAmplitude))  _xAmplitude;
+ UnityEngine::Vector2 __declspec(property(get=__get__xAmplitude, put=__set__xAmplitude))  _xAmplitude;
 
-constexpr void __set__xAmplitude(::UnityEngine::Vector2 value) ;
+constexpr void __set__xAmplitude(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get__xAmplitude() const;
+constexpr UnityEngine::Vector2 __get__xAmplitude() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get__xFrequency, put=__set__xFrequency))  _xFrequency;
+ UnityEngine::Vector2 __declspec(property(get=__get__xFrequency, put=__set__xFrequency))  _xFrequency;
 
-constexpr void __set__xFrequency(::UnityEngine::Vector2 value) ;
+constexpr void __set__xFrequency(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get__xFrequency() const;
+constexpr UnityEngine::Vector2 __get__xFrequency() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get__yAmplitude, put=__set__yAmplitude))  _yAmplitude;
+ UnityEngine::Vector2 __declspec(property(get=__get__yAmplitude, put=__set__yAmplitude))  _yAmplitude;
 
-constexpr void __set__yAmplitude(::UnityEngine::Vector2 value) ;
+constexpr void __set__yAmplitude(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get__yAmplitude() const;
+constexpr UnityEngine::Vector2 __get__yAmplitude() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get__yFrequency, put=__set__yFrequency))  _yFrequency;
+ UnityEngine::Vector2 __declspec(property(get=__get__yFrequency, put=__set__yFrequency))  _yFrequency;
 
-constexpr void __set__yFrequency(::UnityEngine::Vector2 value) ;
+constexpr void __set__yFrequency(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get__yFrequency() const;
+constexpr UnityEngine::Vector2 __get__yFrequency() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get__zAmplitude, put=__set__zAmplitude))  _zAmplitude;
+ UnityEngine::Vector2 __declspec(property(get=__get__zAmplitude, put=__set__zAmplitude))  _zAmplitude;
 
-constexpr void __set__zAmplitude(::UnityEngine::Vector2 value) ;
+constexpr void __set__zAmplitude(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get__zAmplitude() const;
+constexpr UnityEngine::Vector2 __get__zAmplitude() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get__zFrequency, put=__set__zFrequency))  _zFrequency;
+ UnityEngine::Vector2 __declspec(property(get=__get__zFrequency, put=__set__zFrequency))  _zFrequency;
 
-constexpr void __set__zFrequency(::UnityEngine::Vector2 value) ;
+constexpr void __set__zFrequency(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get__zFrequency() const;
+constexpr UnityEngine::Vector2 __get__zFrequency() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
+ UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
 
-constexpr void __set__transform(::UnityEngine::Transform value) ;
+constexpr void __set__transform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__transform() const;
+constexpr UnityEngine::Transform __get__transform() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__origin, put=__set__origin))  _origin;
+ UnityEngine::Vector3 __declspec(property(get=__get__origin, put=__set__origin))  _origin;
 
-constexpr void __set__origin(::UnityEngine::Vector3 value) ;
+constexpr void __set__origin(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__origin() const;
+constexpr UnityEngine::Vector3 __get__origin() const;
 
  float_t __declspec(property(get=__get__offsetX, put=__set__offsetX))  _offsetX;
 
@@ -193,11 +192,11 @@ constexpr void __set__frequencyZ(float_t value) ;
 
 constexpr float_t __get__frequencyZ() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get__targetRotation, put=__set__targetRotation))  _targetRotation;
+ UnityEngine::Quaternion __declspec(property(get=__get__targetRotation, put=__set__targetRotation))  _targetRotation;
 
-constexpr void __set__targetRotation(::UnityEngine::Quaternion value) ;
+constexpr void __set__targetRotation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get__targetRotation() const;
+constexpr UnityEngine::Quaternion __get__targetRotation() const;
 
 
 // Methods
@@ -212,7 +211,7 @@ constexpr ::UnityEngine::Quaternion __get__targetRotation() const;
  void Refresh() ;
 
 /// @brief Method GetPoint addr 0x2250460 size 0x8c virtual false final false
- ::UnityEngine::Vector3 GetPoint(float_t time) ;
+ UnityEngine::Vector3 GetPoint(float_t time) ;
 
 // Ctor Parameters []
 explicit FloatingTransformEffect() ;
@@ -224,6 +223,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::FloatingTransformEffect);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FloatingTransformEffect, "", "FloatingTransformEffect");
+NEED_NO_BOX(GlobalNamespace::FloatingTransformEffect);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FloatingTransformEffect, "", "FloatingTransformEffect");

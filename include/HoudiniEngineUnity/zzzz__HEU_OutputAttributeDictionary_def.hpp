@@ -3,7 +3,6 @@
 #include "HoudiniEngineUnity/zzzz__HEU_OutputAttribute_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_SerializableDictionary_2_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 class HEU_OutputAttributeDictionary;
@@ -14,7 +13,7 @@ namespace HoudiniEngineUnity {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9607)), TypeDefinitionIndex(TypeDefinitionIndex(9796)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9796), inst: 2474 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9608))
 // CS Name: HoudiniEngineUnity.HEU_OutputAttributeDictionary
-class CORDL_TYPE HEU_OutputAttributeDictionary : public ::HoudiniEngineUnity::HEU_SerializableDictionary_2<::StringW,::HoudiniEngineUnity::HEU_OutputAttribute> {
+class CORDL_TYPE HEU_OutputAttributeDictionary : public HoudiniEngineUnity::HEU_SerializableDictionary_2<::StringW,HoudiniEngineUnity::HEU_OutputAttribute> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr HEU_OutputAttributeDictionary(HEU_OutputAttributeDictionary const& ) n
 constexpr HEU_OutputAttributeDictionary(HEU_OutputAttributeDictionary&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HEU_OutputAttributeDictionary(void* ptr) noexcept : ::HoudiniEngineUnity::HEU_SerializableDictionary_2<::StringW,::HoudiniEngineUnity::HEU_OutputAttribute>(ptr) {
+constexpr explicit HEU_OutputAttributeDictionary(void* ptr) noexcept : HoudiniEngineUnity::HEU_SerializableDictionary_2<::StringW,HoudiniEngineUnity::HEU_OutputAttribute>(ptr) {
 }
 
 
@@ -60,6 +59,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_OutputAttributeDictionary);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_OutputAttributeDictionary, "HoudiniEngineUnity", "HEU_OutputAttributeDictionary");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_OutputAttributeDictionary);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_OutputAttributeDictionary, "HoudiniEngineUnity", "HEU_OutputAttributeDictionary");

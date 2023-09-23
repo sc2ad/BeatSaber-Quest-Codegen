@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Newtonsoft::Json {
 struct DefaultValueHandling;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Include offset 0
-static ::Newtonsoft::Json::DefaultValueHandling const Include;
+static Newtonsoft::Json::DefaultValueHandling const Include;
 
 /// @brief Field Ignore offset 0
-static ::Newtonsoft::Json::DefaultValueHandling const Ignore;
+static Newtonsoft::Json::DefaultValueHandling const Ignore;
 
 /// @brief Field Populate offset 0
-static ::Newtonsoft::Json::DefaultValueHandling const Populate;
+static Newtonsoft::Json::DefaultValueHandling const Populate;
 
 /// @brief Field IgnoreAndPopulate offset 0
-static ::Newtonsoft::Json::DefaultValueHandling const IgnoreAndPopulate;
+static Newtonsoft::Json::DefaultValueHandling const IgnoreAndPopulate;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::DefaultValueHandling, "Newtonsoft.Json", "DefaultValueHandling");
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::DefaultValueHandling, "Newtonsoft.Json", "DefaultValueHandling");

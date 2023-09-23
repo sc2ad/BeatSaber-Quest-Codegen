@@ -5,25 +5,24 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System {
-struct Guid;
-}
-namespace System {
-class IDisposable;
-}
 namespace System::Diagnostics::Tracing {
 struct EventKeywords;
 }
+namespace System {
+struct Guid;
+}
 namespace System::Diagnostics::Tracing {
 struct EventLevel;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Diagnostics::Tracing {
 class EventSource;
 }
 namespace System::Diagnostics::Tracing {
-struct ____System__Diagnostics__Tracing__EventSource__EventData;
+struct System__Diagnostics__Tracing__EventSource__EventData;
 }
 // Type: ::EventData
 namespace System::Diagnostics::Tracing {
@@ -31,20 +30,20 @@ namespace System::Diagnostics::Tracing {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3731))
 // CS Name: System.Diagnostics.Tracing.EventSource::EventData
-struct CORDL_TYPE ____System__Diagnostics__Tracing__EventSource__EventData : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE System__Diagnostics__Tracing__EventSource__EventData : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "_DataPointer_k__BackingField", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "_Size_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_Reserved_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____System__Diagnostics__Tracing__EventSource__EventData(::cordl_internals::intptr_t _DataPointer_k__BackingField, int32_t _Size_k__BackingField, int32_t _Reserved_k__BackingField) noexcept;
+constexpr System__Diagnostics__Tracing__EventSource__EventData(::cordl_internals::intptr_t _DataPointer_k__BackingField, int32_t _Size_k__BackingField, int32_t _Reserved_k__BackingField) noexcept;
 
 
-                    constexpr ____System__Diagnostics__Tracing__EventSource__EventData(____System__Diagnostics__Tracing__EventSource__EventData const&) = default;
-                    constexpr ____System__Diagnostics__Tracing__EventSource__EventData(____System__Diagnostics__Tracing__EventSource__EventData&&) = default;
-                    constexpr ____System__Diagnostics__Tracing__EventSource__EventData& operator=(____System__Diagnostics__Tracing__EventSource__EventData const& o) {
+                    constexpr System__Diagnostics__Tracing__EventSource__EventData(System__Diagnostics__Tracing__EventSource__EventData const&) = default;
+                    constexpr System__Diagnostics__Tracing__EventSource__EventData(System__Diagnostics__Tracing__EventSource__EventData&&) = default;
+                    constexpr System__Diagnostics__Tracing__EventSource__EventData& operator=(System__Diagnostics__Tracing__EventSource__EventData const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Diagnostics__Tracing__EventSource__EventData& operator=(____System__Diagnostics__Tracing__EventSource__EventData&& o) noexcept {
+                    constexpr System__Diagnostics__Tracing__EventSource__EventData& operator=(System__Diagnostics__Tracing__EventSource__EventData&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -57,7 +56,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x10};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Diagnostics__Tracing__EventSource__EventData(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Diagnostics__Tracing__EventSource__EventData(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -120,10 +119,10 @@ namespace System::Diagnostics::Tracing {
 class CORDL_TYPE EventSource : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using EventData = ::System::Diagnostics::Tracing::____System__Diagnostics__Tracing__EventSource__EventData;
+using EventData = System::Diagnostics::Tracing::System__Diagnostics__Tracing__EventSource__EventData;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -184,11 +183,11 @@ explicit EventSource(::StringW eventSourceName) ;
 /// @brief Method .ctor addr 0x240dc78 size 0x28 virtual false final false
  void _ctor(::StringW eventSourceName) ;
 
-// Ctor Parameters [CppParam { name: "eventSourceGuid", ty: "::System::Guid", modifiers: "", def_value: None }, CppParam { name: "eventSourceName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit EventSource(::System::Guid eventSourceGuid, ::StringW eventSourceName) ;
+// Ctor Parameters [CppParam { name: "eventSourceGuid", ty: "System::Guid", modifiers: "", def_value: None }, CppParam { name: "eventSourceName", ty: "::StringW", modifiers: "", def_value: None }]
+explicit EventSource(System::Guid eventSourceGuid, ::StringW eventSourceName) ;
 
 /// @brief Method .ctor addr 0x240dca0 size 0x28 virtual false final false
- void _ctor(::System::Guid eventSourceGuid, ::StringW eventSourceName) ;
+ void _ctor(System::Guid eventSourceGuid, ::StringW eventSourceName) ;
 
 /// @brief Method Finalize addr 0x240dcc8 size 0xa0 virtual true final false
  void Finalize() ;
@@ -200,7 +199,7 @@ explicit EventSource(::System::Guid eventSourceGuid, ::StringW eventSourceName) 
  bool IsEnabled() ;
 
 /// @brief Method IsEnabled addr 0x240dd78 size 0x8 virtual false final false
- bool IsEnabled(::System::Diagnostics::Tracing::EventLevel level, ::System::Diagnostics::Tracing::EventKeywords keywords) ;
+ bool IsEnabled(System::Diagnostics::Tracing::EventLevel level, System::Diagnostics::Tracing::EventKeywords keywords) ;
 
 /// @brief Method Dispose addr 0x240dd80 size 0x6c virtual true final true
  void Dispose() ;
@@ -233,7 +232,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Diagnostics::Tracing
-} // end anonymous namespace
-NEED_NO_BOX(::System::Diagnostics::Tracing::EventSource);
-DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::Tracing::EventSource, "System.Diagnostics.Tracing", "EventSource");
-DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::Tracing::____System__Diagnostics__Tracing__EventSource__EventData, "System.Diagnostics.Tracing", "EventSource/EventData");
+NEED_NO_BOX(System::Diagnostics::Tracing::EventSource);
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventSource, "System.Diagnostics.Tracing", "EventSource");
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::System__Diagnostics__Tracing__EventSource__EventData, "System.Diagnostics.Tracing", "EventSource/EventData");

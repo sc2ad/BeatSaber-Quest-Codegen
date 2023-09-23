@@ -1,6 +1,5 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace GlobalNamespace {
 class SliderController;
 }
@@ -27,12 +26,11 @@ constexpr explicit ISliderTailDidMovePastCutMarkEvent(void* ptr) noexcept : ::co
 // Methods
 
 /// @brief Method HandleSliderTailDidMovePastCutMark addr 0x0 size 0xffffffffffffffff virtual true final false
- void HandleSliderTailDidMovePastCutMark(::GlobalNamespace::SliderController sliderController) ;
+ void HandleSliderTailDidMovePastCutMark(GlobalNamespace::SliderController sliderController) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ISliderTailDidMovePastCutMarkEvent);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ISliderTailDidMovePastCutMarkEvent, "", "ISliderTailDidMovePastCutMarkEvent");
+NEED_NO_BOX(GlobalNamespace::ISliderTailDidMovePastCutMarkEvent);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ISliderTailDidMovePastCutMarkEvent, "", "ISliderTailDidMovePastCutMarkEvent");

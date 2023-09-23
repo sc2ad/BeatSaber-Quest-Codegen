@@ -1,15 +1,14 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
+namespace UnityEngine::UIElements {
+class EventBase;
+}
 namespace System {
 class IDisposable;
 }
 namespace System {
 class Delegate;
-}
-namespace UnityEngine::UIElements {
-class EventBase;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -24,8 +23,8 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE EventDebuggerLogCall : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const;
 
 
                     constexpr EventDebuggerLogCall(EventDebuggerLogCall const&) = default;
@@ -59,7 +58,7 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 // Methods
 
 /// @brief Method .ctor addr 0x2d0d2f8 size 0x4 virtual false final false
- void _ctor(::System::Delegate callback, ::UnityEngine::UIElements::EventBase evt) ;
+ void _ctor(System::Delegate callback, UnityEngine::UIElements::EventBase evt) ;
 
 /// @brief Method Dispose addr 0x2d0d2fc size 0x4 virtual true final true
  void Dispose() ;
@@ -68,5 +67,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::EventDebuggerLogCall, "UnityEngine.UIElements", "EventDebuggerLogCall");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::EventDebuggerLogCall, "UnityEngine.UIElements", "EventDebuggerLogCall");

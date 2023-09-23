@@ -1,15 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace GlobalNamespace {
-struct GameplayModifierMask;
+struct BeatmapDifficultyMask;
 }
 namespace GlobalNamespace {
 struct SongPackMask;
 }
 namespace GlobalNamespace {
-struct BeatmapDifficultyMask;
+struct GameplayModifierMask;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -63,11 +62,11 @@ constexpr void __set_filterByDifficulty(bool value) ;
 
 constexpr bool __get_filterByDifficulty() const;
 
- ::GlobalNamespace::BeatmapDifficultyMask __declspec(property(get=__get_filteredDifficulty, put=__set_filteredDifficulty))  filteredDifficulty;
+ GlobalNamespace::BeatmapDifficultyMask __declspec(property(get=__get_filteredDifficulty, put=__set_filteredDifficulty))  filteredDifficulty;
 
-constexpr void __set_filteredDifficulty(::GlobalNamespace::BeatmapDifficultyMask value) ;
+constexpr void __set_filteredDifficulty(GlobalNamespace::BeatmapDifficultyMask value) ;
 
-constexpr ::GlobalNamespace::BeatmapDifficultyMask __get_filteredDifficulty() const;
+constexpr GlobalNamespace::BeatmapDifficultyMask __get_filteredDifficulty() const;
 
  bool __declspec(property(get=__get_filterByModifiers, put=__set_filterByModifiers))  filterByModifiers;
 
@@ -75,11 +74,11 @@ constexpr void __set_filterByModifiers(bool value) ;
 
 constexpr bool __get_filterByModifiers() const;
 
- ::GlobalNamespace::GameplayModifierMask __declspec(property(get=__get_filteredModifiers, put=__set_filteredModifiers))  filteredModifiers;
+ GlobalNamespace::GameplayModifierMask __declspec(property(get=__get_filteredModifiers, put=__set_filteredModifiers))  filteredModifiers;
 
-constexpr void __set_filteredModifiers(::GlobalNamespace::GameplayModifierMask value) ;
+constexpr void __set_filteredModifiers(GlobalNamespace::GameplayModifierMask value) ;
 
-constexpr ::GlobalNamespace::GameplayModifierMask __get_filteredModifiers() const;
+constexpr GlobalNamespace::GameplayModifierMask __get_filteredModifiers() const;
 
  bool __declspec(property(get=__get_filterBySongPacks, put=__set_filterBySongPacks))  filterBySongPacks;
 
@@ -87,11 +86,11 @@ constexpr void __set_filterBySongPacks(bool value) ;
 
 constexpr bool __get_filterBySongPacks() const;
 
- ::GlobalNamespace::SongPackMask __declspec(property(get=__get_filteredSongPacks, put=__set_filteredSongPacks))  filteredSongPacks;
+ GlobalNamespace::SongPackMask __declspec(property(get=__get_filteredSongPacks, put=__set_filteredSongPacks))  filteredSongPacks;
 
-constexpr void __set_filteredSongPacks(::GlobalNamespace::SongPackMask value) ;
+constexpr void __set_filteredSongPacks(GlobalNamespace::SongPackMask value) ;
 
-constexpr ::GlobalNamespace::SongPackMask __get_filteredSongPacks() const;
+constexpr GlobalNamespace::SongPackMask __get_filteredSongPacks() const;
 
  bool __declspec(property(get=__get_showFull, put=__set_showFull))  showFull;
 
@@ -124,6 +123,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::GameServersFilter);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameServersFilter, "", "GameServersFilter");
+NEED_NO_BOX(GlobalNamespace::GameServersFilter);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServersFilter, "", "GameServersFilter");

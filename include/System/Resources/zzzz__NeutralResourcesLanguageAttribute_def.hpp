@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Resources {
 struct UltimateResourceFallbackLocation;
 }
@@ -16,7 +15,7 @@ namespace System::Resources {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3419))
 // CS Name: System.Resources.NeutralResourcesLanguageAttribute
-class CORDL_TYPE NeutralResourcesLanguageAttribute : public ::System::Attribute {
+class CORDL_TYPE NeutralResourcesLanguageAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr NeutralResourcesLanguageAttribute(NeutralResourcesLanguageAttribute co
 constexpr NeutralResourcesLanguageAttribute(NeutralResourcesLanguageAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NeutralResourcesLanguageAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit NeutralResourcesLanguageAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -58,18 +57,18 @@ constexpr void __set__CultureName_k__BackingField(::StringW value) ;
 
 constexpr ::StringW __get__CultureName_k__BackingField() const;
 
- ::System::Resources::UltimateResourceFallbackLocation __declspec(property(get=__get__Location_k__BackingField, put=__set__Location_k__BackingField))  _Location_k__BackingField;
+ System::Resources::UltimateResourceFallbackLocation __declspec(property(get=__get__Location_k__BackingField, put=__set__Location_k__BackingField))  _Location_k__BackingField;
 
-constexpr void __set__Location_k__BackingField(::System::Resources::UltimateResourceFallbackLocation value) ;
+constexpr void __set__Location_k__BackingField(System::Resources::UltimateResourceFallbackLocation value) ;
 
-constexpr ::System::Resources::UltimateResourceFallbackLocation __get__Location_k__BackingField() const;
+constexpr System::Resources::UltimateResourceFallbackLocation __get__Location_k__BackingField() const;
 
 
 // Properties
 
  ::StringW __declspec(property(get=get_CultureName))  CultureName;
 
- ::System::Resources::UltimateResourceFallbackLocation __declspec(property(get=get_Location))  Location;
+ System::Resources::UltimateResourceFallbackLocation __declspec(property(get=get_Location))  Location;
 
 
 // Methods
@@ -84,12 +83,11 @@ explicit NeutralResourcesLanguageAttribute(::StringW cultureName) ;
  ::StringW get_CultureName() ;
 
 /// @brief Method get_Location addr 0x2370d8c size 0x8 virtual false final false
- ::System::Resources::UltimateResourceFallbackLocation get_Location() ;
+ System::Resources::UltimateResourceFallbackLocation get_Location() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Resources
-} // end anonymous namespace
-NEED_NO_BOX(::System::Resources::NeutralResourcesLanguageAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Resources::NeutralResourcesLanguageAttribute, "System.Resources", "NeutralResourcesLanguageAttribute");
+NEED_NO_BOX(System::Resources::NeutralResourcesLanguageAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Resources::NeutralResourcesLanguageAttribute, "System.Resources", "NeutralResourcesLanguageAttribute");

@@ -2,12 +2,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
+namespace UnityEngine::LowLevel {
+class UnityEngine__LowLevel__PlayerLoopSystem__UpdateFunction;
+}
 namespace System {
 class Type;
-}
-namespace UnityEngine::LowLevel {
-class ____UnityEngine__LowLevel__PlayerLoopSystem__UpdateFunction;
 }
 // Forward declare root types
 namespace UnityEngine::LowLevel {
@@ -22,8 +21,8 @@ namespace UnityEngine::LowLevel {
 struct CORDL_TYPE PlayerLoopSystemInternal : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "type", ty: "::System::Type", modifiers: "", def_value: None }, CppParam { name: "updateDelegate", ty: "::UnityEngine::LowLevel::____UnityEngine__LowLevel__PlayerLoopSystem__UpdateFunction", modifiers: "", def_value: None }, CppParam { name: "updateFunction", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "loopConditionFunction", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "numSubSystems", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr PlayerLoopSystemInternal(::System::Type type, ::UnityEngine::LowLevel::____UnityEngine__LowLevel__PlayerLoopSystem__UpdateFunction updateDelegate, ::cordl_internals::intptr_t updateFunction, ::cordl_internals::intptr_t loopConditionFunction, int32_t numSubSystems) noexcept;
+// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "updateDelegate", ty: "UnityEngine::LowLevel::UnityEngine__LowLevel__PlayerLoopSystem__UpdateFunction", modifiers: "", def_value: None }, CppParam { name: "updateFunction", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "loopConditionFunction", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "numSubSystems", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr PlayerLoopSystemInternal(System::Type type, UnityEngine::LowLevel::UnityEngine__LowLevel__PlayerLoopSystem__UpdateFunction updateDelegate, ::cordl_internals::intptr_t updateFunction, ::cordl_internals::intptr_t loopConditionFunction, int32_t numSubSystems) noexcept;
 
 
                     constexpr PlayerLoopSystemInternal(PlayerLoopSystemInternal const&) = default;
@@ -56,17 +55,17 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::Type __declspec(property(get=__get_type, put=__set_type))  type;
+ System::Type __declspec(property(get=__get_type, put=__set_type))  type;
 
-constexpr void __set_type(::System::Type value) ;
+constexpr void __set_type(System::Type value) ;
 
-constexpr ::System::Type __get_type() const;
+constexpr System::Type __get_type() const;
 
- ::UnityEngine::LowLevel::____UnityEngine__LowLevel__PlayerLoopSystem__UpdateFunction __declspec(property(get=__get_updateDelegate, put=__set_updateDelegate))  updateDelegate;
+ UnityEngine::LowLevel::UnityEngine__LowLevel__PlayerLoopSystem__UpdateFunction __declspec(property(get=__get_updateDelegate, put=__set_updateDelegate))  updateDelegate;
 
-constexpr void __set_updateDelegate(::UnityEngine::LowLevel::____UnityEngine__LowLevel__PlayerLoopSystem__UpdateFunction value) ;
+constexpr void __set_updateDelegate(UnityEngine::LowLevel::UnityEngine__LowLevel__PlayerLoopSystem__UpdateFunction value) ;
 
-constexpr ::UnityEngine::LowLevel::____UnityEngine__LowLevel__PlayerLoopSystem__UpdateFunction __get_updateDelegate() const;
+constexpr UnityEngine::LowLevel::UnityEngine__LowLevel__PlayerLoopSystem__UpdateFunction __get_updateDelegate() const;
 
  ::cordl_internals::intptr_t __declspec(property(get=__get_updateFunction, put=__set_updateFunction))  updateFunction;
 
@@ -90,5 +89,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::LowLevel
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::LowLevel::PlayerLoopSystemInternal, "UnityEngine.LowLevel", "PlayerLoopSystemInternal");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LowLevel::PlayerLoopSystemInternal, "UnityEngine.LowLevel", "PlayerLoopSystemInternal");

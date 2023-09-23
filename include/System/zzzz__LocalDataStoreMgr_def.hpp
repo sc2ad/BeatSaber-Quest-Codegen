@@ -4,10 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+namespace System {
+class LocalDataStoreSlot;
+}
+namespace System {
+class LocalDataStore;
 }
 namespace System {
 class LocalDataStoreHolder;
@@ -16,11 +17,9 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace System {
-class LocalDataStore;
-}
-namespace System {
-class LocalDataStoreSlot;
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 // Forward declare root types
 namespace System {
@@ -89,17 +88,17 @@ constexpr void __set_m_FirstAvailableSlot(int32_t value) ;
 
 constexpr int32_t __get_m_FirstAvailableSlot() const;
 
- ::System::Collections::Generic::List_1<::System::LocalDataStore> __declspec(property(get=__get_m_ManagedLocalDataStores, put=__set_m_ManagedLocalDataStores))  m_ManagedLocalDataStores;
+ System::Collections::Generic::List_1<System::LocalDataStore> __declspec(property(get=__get_m_ManagedLocalDataStores, put=__set_m_ManagedLocalDataStores))  m_ManagedLocalDataStores;
 
-constexpr void __set_m_ManagedLocalDataStores(::System::Collections::Generic::List_1<::System::LocalDataStore> value) ;
+constexpr void __set_m_ManagedLocalDataStores(System::Collections::Generic::List_1<System::LocalDataStore> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::System::LocalDataStore> __get_m_ManagedLocalDataStores() const;
+constexpr System::Collections::Generic::List_1<System::LocalDataStore> __get_m_ManagedLocalDataStores() const;
 
- ::System::Collections::Generic::Dictionary_2<::StringW,::System::LocalDataStoreSlot> __declspec(property(get=__get_m_KeyToSlotMap, put=__set_m_KeyToSlotMap))  m_KeyToSlotMap;
+ System::Collections::Generic::Dictionary_2<::StringW,System::LocalDataStoreSlot> __declspec(property(get=__get_m_KeyToSlotMap, put=__set_m_KeyToSlotMap))  m_KeyToSlotMap;
 
-constexpr void __set_m_KeyToSlotMap(::System::Collections::Generic::Dictionary_2<::StringW,::System::LocalDataStoreSlot> value) ;
+constexpr void __set_m_KeyToSlotMap(System::Collections::Generic::Dictionary_2<::StringW,System::LocalDataStoreSlot> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::StringW,::System::LocalDataStoreSlot> __get_m_KeyToSlotMap() const;
+constexpr System::Collections::Generic::Dictionary_2<::StringW,System::LocalDataStoreSlot> __get_m_KeyToSlotMap() const;
 
  int64_t __declspec(property(get=__get_m_CookieGenerator, put=__set_m_CookieGenerator))  m_CookieGenerator;
 
@@ -111,19 +110,19 @@ constexpr int64_t __get_m_CookieGenerator() const;
 // Methods
 
 /// @brief Method CreateLocalDataStore addr 0x246a19c size 0x1c0 virtual false final false
- ::System::LocalDataStoreHolder CreateLocalDataStore() ;
+ System::LocalDataStoreHolder CreateLocalDataStore() ;
 
 /// @brief Method DeleteLocalDataStore addr 0x24698b4 size 0x104 virtual false final false
- void DeleteLocalDataStore(::System::LocalDataStore store) ;
+ void DeleteLocalDataStore(System::LocalDataStore store) ;
 
 /// @brief Method AllocateDataSlot addr 0x246a35c size 0x250 virtual false final false
- ::System::LocalDataStoreSlot AllocateDataSlot() ;
+ System::LocalDataStoreSlot AllocateDataSlot() ;
 
 /// @brief Method AllocateNamedDataSlot addr 0x246a5ac size 0x11c virtual false final false
- ::System::LocalDataStoreSlot AllocateNamedDataSlot(::StringW name) ;
+ System::LocalDataStoreSlot AllocateNamedDataSlot(::StringW name) ;
 
 /// @brief Method GetNamedDataSlot addr 0x246a6c8 size 0x11c virtual false final false
- ::System::LocalDataStoreSlot GetNamedDataSlot(::StringW name) ;
+ System::LocalDataStoreSlot GetNamedDataSlot(::StringW name) ;
 
 /// @brief Method FreeNamedDataSlot addr 0x246a7e4 size 0x104 virtual false final false
  void FreeNamedDataSlot(::StringW name) ;
@@ -132,7 +131,7 @@ constexpr int64_t __get_m_CookieGenerator() const;
  void FreeDataSlot(int32_t slot, int64_t cookie) ;
 
 /// @brief Method ValidateSlot addr 0x2469a90 size 0x7c virtual false final false
- void ValidateSlot(::System::LocalDataStoreSlot slot) ;
+ void ValidateSlot(System::LocalDataStoreSlot slot) ;
 
 /// @brief Method GetSlotTableLength addr 0x2469ee4 size 0x1c virtual false final false
  int32_t GetSlotTableLength() ;
@@ -147,6 +146,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::LocalDataStoreMgr);
-DEFINE_IL2CPP_ARG_TYPE(::System::LocalDataStoreMgr, "System", "LocalDataStoreMgr");
+NEED_NO_BOX(System::LocalDataStoreMgr);
+DEFINE_IL2CPP_ARG_TYPE(System::LocalDataStoreMgr, "System", "LocalDataStoreMgr");

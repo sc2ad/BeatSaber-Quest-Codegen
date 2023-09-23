@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class ICloneable;
 }
@@ -19,8 +18,8 @@ namespace System::Runtime::Remoting::Messaging {
 class CORDL_TYPE CallContextRemotingData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::ICloneable
-constexpr operator  ::System::ICloneable() const noexcept;
+/// @brief Convert operator to System::ICloneable
+constexpr operator  System::ICloneable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -93,6 +92,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Messaging
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Messaging::CallContextRemotingData);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::CallContextRemotingData, "System.Runtime.Remoting.Messaging", "CallContextRemotingData");
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::CallContextRemotingData);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CallContextRemotingData, "System.Runtime.Remoting.Messaging", "CallContextRemotingData");

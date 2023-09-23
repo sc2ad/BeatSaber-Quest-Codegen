@@ -1,12 +1,11 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace System::Runtime::Remoting {
-class ObjRef;
-}
 namespace System::Collections {
 class ArrayList;
+}
+namespace System::Runtime::Remoting {
+class ObjRef;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Services {
@@ -54,20 +53,20 @@ constexpr explicit TrackingServices(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
-static ::System::Collections::ArrayList __declspec(property(get=__get__handlers, put=__set__handlers))  _handlers;
+static System::Collections::ArrayList __declspec(property(get=__get__handlers, put=__set__handlers))  _handlers;
 
-static void __set__handlers(::System::Collections::ArrayList value) ;
+static void __set__handlers(System::Collections::ArrayList value) ;
 
-static ::System::Collections::ArrayList __get__handlers() ;
+static System::Collections::ArrayList __get__handlers() ;
 
 
 // Methods
 
 /// @brief Method NotifyMarshaledObject addr 0x2329ac4 size 0x310 virtual false final false
-static void NotifyMarshaledObject(::bs_hook::Il2CppWrapperType obj, ::System::Runtime::Remoting::ObjRef or) ;
+static void NotifyMarshaledObject(::bs_hook::Il2CppWrapperType obj, System::Runtime::Remoting::ObjRef or) ;
 
 /// @brief Method NotifyUnmarshaledObject addr 0x2329dd4 size 0x310 virtual false final false
-static void NotifyUnmarshaledObject(::bs_hook::Il2CppWrapperType obj, ::System::Runtime::Remoting::ObjRef or) ;
+static void NotifyUnmarshaledObject(::bs_hook::Il2CppWrapperType obj, System::Runtime::Remoting::ObjRef or) ;
 
 /// @brief Method NotifyDisconnectedObject addr 0x2327220 size 0x304 virtual false final false
 static void NotifyDisconnectedObject(::bs_hook::Il2CppWrapperType obj) ;
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Services
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Services::TrackingServices);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Services::TrackingServices, "System.Runtime.Remoting.Services", "TrackingServices");
+NEED_NO_BOX(System::Runtime::Remoting::Services::TrackingServices);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Services::TrackingServices, "System.Runtime.Remoting.Services", "TrackingServices");

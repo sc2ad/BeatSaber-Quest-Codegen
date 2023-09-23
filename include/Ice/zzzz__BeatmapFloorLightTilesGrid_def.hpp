@@ -3,12 +3,11 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace Ice {
-class FloorLightTilesGrid;
-}
 namespace GlobalNamespace {
 class IBeatmapObjectSpawnController;
+}
+namespace Ice {
+class FloorLightTilesGrid;
 }
 // Forward declare root types
 namespace Ice {
@@ -20,7 +19,7 @@ namespace Ice {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15996))
 // CS Name: Ice.BeatmapFloorLightTilesGrid
-class CORDL_TYPE BeatmapFloorLightTilesGrid : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE BeatmapFloorLightTilesGrid : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr BeatmapFloorLightTilesGrid(BeatmapFloorLightTilesGrid const& ) noexcep
 constexpr BeatmapFloorLightTilesGrid(BeatmapFloorLightTilesGrid&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BeatmapFloorLightTilesGrid(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit BeatmapFloorLightTilesGrid(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -74,17 +73,17 @@ constexpr void __set__tileHeight(float_t value) ;
 
 constexpr float_t __get__tileHeight() const;
 
- ::Ice::FloorLightTilesGrid __declspec(property(get=__get__floorLightTilesGrid, put=__set__floorLightTilesGrid))  _floorLightTilesGrid;
+ Ice::FloorLightTilesGrid __declspec(property(get=__get__floorLightTilesGrid, put=__set__floorLightTilesGrid))  _floorLightTilesGrid;
 
-constexpr void __set__floorLightTilesGrid(::Ice::FloorLightTilesGrid value) ;
+constexpr void __set__floorLightTilesGrid(Ice::FloorLightTilesGrid value) ;
 
-constexpr ::Ice::FloorLightTilesGrid __get__floorLightTilesGrid() const;
+constexpr Ice::FloorLightTilesGrid __get__floorLightTilesGrid() const;
 
- ::GlobalNamespace::IBeatmapObjectSpawnController __declspec(property(get=__get__beatmapObjectSpawnController, put=__set__beatmapObjectSpawnController))  _beatmapObjectSpawnController;
+ GlobalNamespace::IBeatmapObjectSpawnController __declspec(property(get=__get__beatmapObjectSpawnController, put=__set__beatmapObjectSpawnController))  _beatmapObjectSpawnController;
 
-constexpr void __set__beatmapObjectSpawnController(::GlobalNamespace::IBeatmapObjectSpawnController value) ;
+constexpr void __set__beatmapObjectSpawnController(GlobalNamespace::IBeatmapObjectSpawnController value) ;
 
-constexpr ::GlobalNamespace::IBeatmapObjectSpawnController __get__beatmapObjectSpawnController() const;
+constexpr GlobalNamespace::IBeatmapObjectSpawnController __get__beatmapObjectSpawnController() const;
 
 
 // Methods
@@ -102,6 +101,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Ice
-} // end anonymous namespace
-NEED_NO_BOX(::Ice::BeatmapFloorLightTilesGrid);
-DEFINE_IL2CPP_ARG_TYPE(::Ice::BeatmapFloorLightTilesGrid, "Ice", "BeatmapFloorLightTilesGrid");
+NEED_NO_BOX(Ice::BeatmapFloorLightTilesGrid);
+DEFINE_IL2CPP_ARG_TYPE(Ice::BeatmapFloorLightTilesGrid, "Ice", "BeatmapFloorLightTilesGrid");

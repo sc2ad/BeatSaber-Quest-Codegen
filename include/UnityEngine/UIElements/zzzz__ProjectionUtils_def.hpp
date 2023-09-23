@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 struct Matrix4x4;
 }
@@ -53,12 +52,11 @@ constexpr explicit ProjectionUtils(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 // Methods
 
 /// @brief Method Ortho addr 0x2c28410 size 0x70 virtual false final false
-static ::UnityEngine::Matrix4x4 Ortho(float_t left, float_t right, float_t bottom, float_t top, float_t near, float_t far) ;
+static UnityEngine::Matrix4x4 Ortho(float_t left, float_t right, float_t bottom, float_t top, float_t near, float_t far) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::ProjectionUtils);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ProjectionUtils, "UnityEngine.UIElements", "ProjectionUtils");
+NEED_NO_BOX(UnityEngine::UIElements::ProjectionUtils);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::ProjectionUtils, "UnityEngine.UIElements", "ProjectionUtils");

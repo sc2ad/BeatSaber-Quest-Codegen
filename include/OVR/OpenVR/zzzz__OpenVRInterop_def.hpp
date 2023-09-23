@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace OVR::OpenVR {
-struct EVRInitError;
-}
 namespace OVR::OpenVR {
 struct EVRApplicationType;
+}
+namespace OVR::OpenVR {
+struct EVRInitError;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -58,10 +57,10 @@ constexpr explicit OpenVRInterop(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 // Methods
 
 /// @brief Method InitInternal addr 0x2668950 size 0x84 virtual false final false
-static uint32_t InitInternal(ByRef<::OVR::OpenVR::EVRInitError> peError, ::OVR::OpenVR::EVRApplicationType eApplicationType) ;
+static uint32_t InitInternal(ByRef<OVR::OpenVR::EVRInitError> peError, OVR::OpenVR::EVRApplicationType eApplicationType) ;
 
 /// @brief Method InitInternal2 addr 0x26689d4 size 0xb0 virtual false final false
-static uint32_t InitInternal2(ByRef<::OVR::OpenVR::EVRInitError> peError, ::OVR::OpenVR::EVRApplicationType eApplicationType, ByRefConst<::StringW> pStartupInfo) ;
+static uint32_t InitInternal2(ByRef<OVR::OpenVR::EVRInitError> peError, OVR::OpenVR::EVRApplicationType eApplicationType, ByRefConst<::StringW> pStartupInfo) ;
 
 /// @brief Method ShutdownInternal addr 0x2668a84 size 0x64 virtual false final false
 static void ShutdownInternal() ;
@@ -73,10 +72,10 @@ static bool IsHmdPresent() ;
 static bool IsRuntimeInstalled() ;
 
 /// @brief Method GetStringForHmdError addr 0x2668bc8 size 0x7c virtual false final false
-static ::cordl_internals::intptr_t GetStringForHmdError(::OVR::OpenVR::EVRInitError error) ;
+static ::cordl_internals::intptr_t GetStringForHmdError(OVR::OpenVR::EVRInitError error) ;
 
 /// @brief Method GetGenericInterface addr 0x2668c44 size 0x9c virtual false final false
-static ::cordl_internals::intptr_t GetGenericInterface(ByRefConst<::StringW> pchInterfaceVersion, ByRef<::OVR::OpenVR::EVRInitError> peError) ;
+static ::cordl_internals::intptr_t GetGenericInterface(ByRefConst<::StringW> pchInterfaceVersion, ByRef<OVR::OpenVR::EVRInitError> peError) ;
 
 /// @brief Method IsInterfaceVersionValid addr 0x2668ce0 size 0x98 virtual false final false
 static bool IsInterfaceVersionValid(ByRefConst<::StringW> pchInterfaceVersion) ;
@@ -94,6 +93,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-NEED_NO_BOX(::OVR::OpenVR::OpenVRInterop);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::OpenVRInterop, "OVR.OpenVR", "OpenVRInterop");
+NEED_NO_BOX(OVR::OpenVR::OpenVRInterop);
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::OpenVRInterop, "OVR.OpenVR", "OpenVRInterop");

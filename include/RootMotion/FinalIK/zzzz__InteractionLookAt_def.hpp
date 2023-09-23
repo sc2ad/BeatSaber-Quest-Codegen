@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
 namespace RootMotion::FinalIK {
 class LookAtIK;
 }
@@ -55,11 +54,11 @@ constexpr explicit InteractionLookAt(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 
 // Fields
 
- ::RootMotion::FinalIK::LookAtIK __declspec(property(get=__get_ik, put=__set_ik))  ik;
+ RootMotion::FinalIK::LookAtIK __declspec(property(get=__get_ik, put=__set_ik))  ik;
 
-constexpr void __set_ik(::RootMotion::FinalIK::LookAtIK value) ;
+constexpr void __set_ik(RootMotion::FinalIK::LookAtIK value) ;
 
-constexpr ::RootMotion::FinalIK::LookAtIK __get_ik() const;
+constexpr RootMotion::FinalIK::LookAtIK __get_ik() const;
 
  float_t __declspec(property(get=__get_lerpSpeed, put=__set_lerpSpeed))  lerpSpeed;
 
@@ -79,11 +78,11 @@ constexpr void __set_isPaused(bool value) ;
 
 constexpr bool __get_isPaused() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_lookAtTarget, put=__set_lookAtTarget))  lookAtTarget;
+ UnityEngine::Transform __declspec(property(get=__get_lookAtTarget, put=__set_lookAtTarget))  lookAtTarget;
 
-constexpr void __set_lookAtTarget(::UnityEngine::Transform value) ;
+constexpr void __set_lookAtTarget(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_lookAtTarget() const;
+constexpr UnityEngine::Transform __get_lookAtTarget() const;
 
  float_t __declspec(property(get=__get_stopLookTime, put=__set_stopLookTime))  stopLookTime;
 
@@ -107,7 +106,7 @@ constexpr bool __get_firstFBBIKSolve() const;
 // Methods
 
 /// @brief Method Look addr 0x11f9fd8 size 0x110 virtual false final false
- void Look(::UnityEngine::Transform target, float_t time) ;
+ void Look(UnityEngine::Transform target, float_t time) ;
 
 /// @brief Method OnFixTransforms addr 0x11fa0e8 size 0x98 virtual false final false
  void OnFixTransforms() ;
@@ -131,6 +130,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::InteractionLookAt);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::InteractionLookAt, "RootMotion.FinalIK", "InteractionLookAt");
+NEED_NO_BOX(RootMotion::FinalIK::InteractionLookAt);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionLookAt, "RootMotion.FinalIK", "InteractionLookAt");

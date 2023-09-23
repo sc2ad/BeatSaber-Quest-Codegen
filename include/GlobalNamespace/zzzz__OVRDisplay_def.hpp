@@ -5,12 +5,11 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System {
-class Action;
-}
 namespace UnityEngine::XR {
 struct XRNode;
+}
+namespace System {
+class Action;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -23,13 +22,13 @@ namespace GlobalNamespace {
 class OVRDisplay;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRDisplay__EyeFov;
+struct GlobalNamespace__OVRDisplay__EyeFov;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRDisplay__EyeRenderDesc;
+struct GlobalNamespace__OVRDisplay__EyeRenderDesc;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRDisplay__LatencyData;
+struct GlobalNamespace__OVRDisplay__LatencyData;
 }
 // Type: ::EyeFov
 namespace GlobalNamespace {
@@ -37,20 +36,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8457))
 // CS Name: OVRDisplay::EyeFov
-struct CORDL_TYPE ____GlobalNamespace__OVRDisplay__EyeFov : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__OVRDisplay__EyeFov : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "UpFov", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "DownFov", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "LeftFov", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "RightFov", ty: "float_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__OVRDisplay__EyeFov(float_t UpFov, float_t DownFov, float_t LeftFov, float_t RightFov) noexcept;
+constexpr GlobalNamespace__OVRDisplay__EyeFov(float_t UpFov, float_t DownFov, float_t LeftFov, float_t RightFov) noexcept;
 
 
-                    constexpr ____GlobalNamespace__OVRDisplay__EyeFov(____GlobalNamespace__OVRDisplay__EyeFov const&) = default;
-                    constexpr ____GlobalNamespace__OVRDisplay__EyeFov(____GlobalNamespace__OVRDisplay__EyeFov&&) = default;
-                    constexpr ____GlobalNamespace__OVRDisplay__EyeFov& operator=(____GlobalNamespace__OVRDisplay__EyeFov const& o) {
+                    constexpr GlobalNamespace__OVRDisplay__EyeFov(GlobalNamespace__OVRDisplay__EyeFov const&) = default;
+                    constexpr GlobalNamespace__OVRDisplay__EyeFov(GlobalNamespace__OVRDisplay__EyeFov&&) = default;
+                    constexpr GlobalNamespace__OVRDisplay__EyeFov& operator=(GlobalNamespace__OVRDisplay__EyeFov const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__OVRDisplay__EyeFov& operator=(____GlobalNamespace__OVRDisplay__EyeFov&& o) noexcept {
+                    constexpr GlobalNamespace__OVRDisplay__EyeFov& operator=(GlobalNamespace__OVRDisplay__EyeFov&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -63,7 +62,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x10};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVRDisplay__EyeFov(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__OVRDisplay__EyeFov(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -108,20 +107,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8458))
 // CS Name: OVRDisplay::EyeRenderDesc
-struct CORDL_TYPE ____GlobalNamespace__OVRDisplay__EyeRenderDesc : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__OVRDisplay__EyeRenderDesc : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "resolution", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "fov", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "fullFov", ty: "::GlobalNamespace::____GlobalNamespace__OVRDisplay__EyeFov", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__OVRDisplay__EyeRenderDesc(::UnityEngine::Vector2 resolution, ::UnityEngine::Vector2 fov, ::GlobalNamespace::____GlobalNamespace__OVRDisplay__EyeFov fullFov) noexcept;
+// Ctor Parameters [CppParam { name: "resolution", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "fov", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "fullFov", ty: "GlobalNamespace::GlobalNamespace__OVRDisplay__EyeFov", modifiers: "", def_value: None }]
+constexpr GlobalNamespace__OVRDisplay__EyeRenderDesc(UnityEngine::Vector2 resolution, UnityEngine::Vector2 fov, GlobalNamespace::GlobalNamespace__OVRDisplay__EyeFov fullFov) noexcept;
 
 
-                    constexpr ____GlobalNamespace__OVRDisplay__EyeRenderDesc(____GlobalNamespace__OVRDisplay__EyeRenderDesc const&) = default;
-                    constexpr ____GlobalNamespace__OVRDisplay__EyeRenderDesc(____GlobalNamespace__OVRDisplay__EyeRenderDesc&&) = default;
-                    constexpr ____GlobalNamespace__OVRDisplay__EyeRenderDesc& operator=(____GlobalNamespace__OVRDisplay__EyeRenderDesc const& o) {
+                    constexpr GlobalNamespace__OVRDisplay__EyeRenderDesc(GlobalNamespace__OVRDisplay__EyeRenderDesc const&) = default;
+                    constexpr GlobalNamespace__OVRDisplay__EyeRenderDesc(GlobalNamespace__OVRDisplay__EyeRenderDesc&&) = default;
+                    constexpr GlobalNamespace__OVRDisplay__EyeRenderDesc& operator=(GlobalNamespace__OVRDisplay__EyeRenderDesc const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__OVRDisplay__EyeRenderDesc& operator=(____GlobalNamespace__OVRDisplay__EyeRenderDesc&& o) noexcept {
+                    constexpr GlobalNamespace__OVRDisplay__EyeRenderDesc& operator=(GlobalNamespace__OVRDisplay__EyeRenderDesc&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -134,7 +133,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x20};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVRDisplay__EyeRenderDesc(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__OVRDisplay__EyeRenderDesc(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -145,23 +144,23 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_resolution, put=__set_resolution))  resolution;
+ UnityEngine::Vector2 __declspec(property(get=__get_resolution, put=__set_resolution))  resolution;
 
-constexpr void __set_resolution(::UnityEngine::Vector2 value) ;
+constexpr void __set_resolution(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_resolution() const;
+constexpr UnityEngine::Vector2 __get_resolution() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_fov, put=__set_fov))  fov;
+ UnityEngine::Vector2 __declspec(property(get=__get_fov, put=__set_fov))  fov;
 
-constexpr void __set_fov(::UnityEngine::Vector2 value) ;
+constexpr void __set_fov(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_fov() const;
+constexpr UnityEngine::Vector2 __get_fov() const;
 
- ::GlobalNamespace::____GlobalNamespace__OVRDisplay__EyeFov __declspec(property(get=__get_fullFov, put=__set_fullFov))  fullFov;
+ GlobalNamespace::GlobalNamespace__OVRDisplay__EyeFov __declspec(property(get=__get_fullFov, put=__set_fullFov))  fullFov;
 
-constexpr void __set_fullFov(::GlobalNamespace::____GlobalNamespace__OVRDisplay__EyeFov value) ;
+constexpr void __set_fullFov(GlobalNamespace::GlobalNamespace__OVRDisplay__EyeFov value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVRDisplay__EyeFov __get_fullFov() const;
+constexpr GlobalNamespace::GlobalNamespace__OVRDisplay__EyeFov __get_fullFov() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -173,20 +172,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8459))
 // CS Name: OVRDisplay::LatencyData
-struct CORDL_TYPE ____GlobalNamespace__OVRDisplay__LatencyData : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__OVRDisplay__LatencyData : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "render", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "timeWarp", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "postPresent", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "renderError", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "timeWarpError", ty: "float_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__OVRDisplay__LatencyData(float_t render, float_t timeWarp, float_t postPresent, float_t renderError, float_t timeWarpError) noexcept;
+constexpr GlobalNamespace__OVRDisplay__LatencyData(float_t render, float_t timeWarp, float_t postPresent, float_t renderError, float_t timeWarpError) noexcept;
 
 
-                    constexpr ____GlobalNamespace__OVRDisplay__LatencyData(____GlobalNamespace__OVRDisplay__LatencyData const&) = default;
-                    constexpr ____GlobalNamespace__OVRDisplay__LatencyData(____GlobalNamespace__OVRDisplay__LatencyData&&) = default;
-                    constexpr ____GlobalNamespace__OVRDisplay__LatencyData& operator=(____GlobalNamespace__OVRDisplay__LatencyData const& o) {
+                    constexpr GlobalNamespace__OVRDisplay__LatencyData(GlobalNamespace__OVRDisplay__LatencyData const&) = default;
+                    constexpr GlobalNamespace__OVRDisplay__LatencyData(GlobalNamespace__OVRDisplay__LatencyData&&) = default;
+                    constexpr GlobalNamespace__OVRDisplay__LatencyData& operator=(GlobalNamespace__OVRDisplay__LatencyData const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__OVRDisplay__LatencyData& operator=(____GlobalNamespace__OVRDisplay__LatencyData&& o) noexcept {
+                    constexpr GlobalNamespace__OVRDisplay__LatencyData& operator=(GlobalNamespace__OVRDisplay__LatencyData&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -199,7 +198,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x14};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVRDisplay__LatencyData(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__OVRDisplay__LatencyData(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -253,11 +252,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRDisplay : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using LatencyData = ::GlobalNamespace::____GlobalNamespace__OVRDisplay__LatencyData;
+using LatencyData = GlobalNamespace::GlobalNamespace__OVRDisplay__LatencyData;
 
-using EyeRenderDesc = ::GlobalNamespace::____GlobalNamespace__OVRDisplay__EyeRenderDesc;
+using EyeRenderDesc = GlobalNamespace::GlobalNamespace__OVRDisplay__EyeRenderDesc;
 
-using EyeFov = ::GlobalNamespace::____GlobalNamespace__OVRDisplay__EyeFov;
+using EyeFov = GlobalNamespace::GlobalNamespace__OVRDisplay__EyeFov;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -298,11 +297,11 @@ constexpr void __set_needsConfigureTexture(bool value) ;
 
 constexpr bool __get_needsConfigureTexture() const;
 
- ::ArrayW<::GlobalNamespace::____GlobalNamespace__OVRDisplay__EyeRenderDesc> __declspec(property(get=__get_eyeDescs, put=__set_eyeDescs))  eyeDescs;
+ ::ArrayW<GlobalNamespace::GlobalNamespace__OVRDisplay__EyeRenderDesc> __declspec(property(get=__get_eyeDescs, put=__set_eyeDescs))  eyeDescs;
 
-constexpr void __set_eyeDescs(::ArrayW<::GlobalNamespace::____GlobalNamespace__OVRDisplay__EyeRenderDesc> value) ;
+constexpr void __set_eyeDescs(::ArrayW<GlobalNamespace::GlobalNamespace__OVRDisplay__EyeRenderDesc> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::____GlobalNamespace__OVRDisplay__EyeRenderDesc> __get_eyeDescs() const;
+constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__OVRDisplay__EyeRenderDesc> __get_eyeDescs() const;
 
  bool __declspec(property(get=__get_recenterRequested, put=__set_recenterRequested))  recenterRequested;
 
@@ -322,24 +321,24 @@ constexpr void __set_localTrackingSpaceRecenterCount(int32_t value) ;
 
 constexpr int32_t __get_localTrackingSpaceRecenterCount() const;
 
- ::System::Action __declspec(property(get=__get_RecenteredPose, put=__set_RecenteredPose))  RecenteredPose;
+ System::Action __declspec(property(get=__get_RecenteredPose, put=__set_RecenteredPose))  RecenteredPose;
 
-constexpr void __set_RecenteredPose(::System::Action value) ;
+constexpr void __set_RecenteredPose(System::Action value) ;
 
-constexpr ::System::Action __get_RecenteredPose() const;
+constexpr System::Action __get_RecenteredPose() const;
 
 
 // Properties
 
- ::UnityEngine::Vector3 __declspec(property(get=get_acceleration))  acceleration;
+ UnityEngine::Vector3 __declspec(property(get=get_acceleration))  acceleration;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_angularAcceleration))  angularAcceleration;
+ UnityEngine::Vector3 __declspec(property(get=get_angularAcceleration))  angularAcceleration;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_velocity))  velocity;
+ UnityEngine::Vector3 __declspec(property(get=get_velocity))  velocity;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_angularVelocity))  angularVelocity;
+ UnityEngine::Vector3 __declspec(property(get=get_angularVelocity))  angularVelocity;
 
- ::GlobalNamespace::____GlobalNamespace__OVRDisplay__LatencyData __declspec(property(get=get_latency))  latency;
+ GlobalNamespace::GlobalNamespace__OVRDisplay__LatencyData __declspec(property(get=get_latency))  latency;
 
  float_t __declspec(property(get=get_appFramerate))  appFramerate;
 
@@ -362,31 +361,31 @@ explicit OVRDisplay() ;
  void Update() ;
 
 /// @brief Method add_RecenteredPose addr 0x25ae7ec size 0x9c virtual false final false
- void add_RecenteredPose(::System::Action value) ;
+ void add_RecenteredPose(System::Action value) ;
 
 /// @brief Method remove_RecenteredPose addr 0x25ae888 size 0x9c virtual false final false
- void remove_RecenteredPose(::System::Action value) ;
+ void remove_RecenteredPose(System::Action value) ;
 
 /// @brief Method RecenterPose addr 0x25ae924 size 0x78 virtual false final false
  void RecenterPose() ;
 
 /// @brief Method get_acceleration addr 0x25ae99c size 0x124 virtual false final false
- ::UnityEngine::Vector3 get_acceleration() ;
+ UnityEngine::Vector3 get_acceleration() ;
 
 /// @brief Method get_angularAcceleration addr 0x25aeac0 size 0x124 virtual false final false
- ::UnityEngine::Vector3 get_angularAcceleration() ;
+ UnityEngine::Vector3 get_angularAcceleration() ;
 
 /// @brief Method get_velocity addr 0x25aebe4 size 0x124 virtual false final false
- ::UnityEngine::Vector3 get_velocity() ;
+ UnityEngine::Vector3 get_velocity() ;
 
 /// @brief Method get_angularVelocity addr 0x25aed08 size 0x124 virtual false final false
- ::UnityEngine::Vector3 get_angularVelocity() ;
+ UnityEngine::Vector3 get_angularVelocity() ;
 
 /// @brief Method GetEyeRenderDesc addr 0x25aee2c size 0x38 virtual false final false
- ::GlobalNamespace::____GlobalNamespace__OVRDisplay__EyeRenderDesc GetEyeRenderDesc(::UnityEngine::XR::XRNode eye) ;
+ GlobalNamespace::GlobalNamespace__OVRDisplay__EyeRenderDesc GetEyeRenderDesc(UnityEngine::XR::XRNode eye) ;
 
 /// @brief Method get_latency addr 0x25aee64 size 0x1d0 virtual false final false
- ::GlobalNamespace::____GlobalNamespace__OVRDisplay__LatencyData get_latency() ;
+ GlobalNamespace::GlobalNamespace__OVRDisplay__LatencyData get_latency() ;
 
 /// @brief Method get_appFramerate addr 0x25af034 size 0x90 virtual false final false
  float_t get_appFramerate() ;
@@ -407,15 +406,14 @@ explicit OVRDisplay() ;
  void UpdateTextures() ;
 
 /// @brief Method ConfigureEyeDesc addr 0x25af220 size 0x254 virtual false final false
- void ConfigureEyeDesc(::UnityEngine::XR::XRNode eye) ;
+ void ConfigureEyeDesc(UnityEngine::XR::XRNode eye) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OVRDisplay);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRDisplay, "", "OVRDisplay");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVRDisplay__EyeFov, "", "OVRDisplay/EyeFov");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVRDisplay__EyeRenderDesc, "", "OVRDisplay/EyeRenderDesc");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVRDisplay__LatencyData, "", "OVRDisplay/LatencyData");
+NEED_NO_BOX(GlobalNamespace::OVRDisplay);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDisplay, "", "OVRDisplay");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRDisplay__EyeFov, "", "OVRDisplay/EyeFov");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRDisplay__EyeRenderDesc, "", "OVRDisplay/EyeRenderDesc");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRDisplay__LatencyData, "", "OVRDisplay/LatencyData");

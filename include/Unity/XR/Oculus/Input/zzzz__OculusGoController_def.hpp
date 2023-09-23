@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Unity/XR/Oculus/Input/zzzz__GearVRTrackedController_def.hpp"
-namespace {
 // Forward declare root types
 namespace Unity::XR::Oculus::Input {
 class OculusGoController;
@@ -12,7 +11,7 @@ namespace Unity::XR::Oculus::Input {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15248))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15246))
 // CS Name: Unity.XR.Oculus.Input.OculusGoController
-class CORDL_TYPE OculusGoController : public ::Unity::XR::Oculus::Input::GearVRTrackedController {
+class CORDL_TYPE OculusGoController : public Unity::XR::Oculus::Input::GearVRTrackedController {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr OculusGoController(OculusGoController const& ) noexcept = default;
 constexpr OculusGoController(OculusGoController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OculusGoController(void* ptr) noexcept : ::Unity::XR::Oculus::Input::GearVRTrackedController(ptr) {
+constexpr explicit OculusGoController(void* ptr) noexcept : Unity::XR::Oculus::Input::GearVRTrackedController(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Unity::XR::Oculus::Input
-} // end anonymous namespace
-NEED_NO_BOX(::Unity::XR::Oculus::Input::OculusGoController);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::XR::Oculus::Input::OculusGoController, "Unity.XR.Oculus.Input", "OculusGoController");
+NEED_NO_BOX(Unity::XR::Oculus::Input::OculusGoController);
+DEFINE_IL2CPP_ARG_TYPE(Unity::XR::Oculus::Input::OculusGoController, "Unity.XR.Oculus.Input", "OculusGoController");

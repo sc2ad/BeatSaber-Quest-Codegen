@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::Runtime::Remoting::Messaging {
 class Header;
 }
@@ -18,7 +17,7 @@ namespace System::Runtime::Remoting::Messaging {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3162))
 // CS Name: System.Runtime.Remoting.Messaging.HeaderHandler
-class CORDL_TYPE HeaderHandler : public ::System::MulticastDelegate {
+class CORDL_TYPE HeaderHandler : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr HeaderHandler(HeaderHandler const& ) noexcept = default;
 constexpr HeaderHandler(HeaderHandler&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HeaderHandler(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit HeaderHandler(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -61,12 +60,11 @@ explicit HeaderHandler(::bs_hook::Il2CppWrapperType object, ::cordl_internals::i
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x2341578 size 0x14 virtual true final false
- ::bs_hook::Il2CppWrapperType Invoke(::ArrayW<::System::Runtime::Remoting::Messaging::Header> headers) ;
+ ::bs_hook::Il2CppWrapperType Invoke(::ArrayW<System::Runtime::Remoting::Messaging::Header> headers) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Messaging
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Messaging::HeaderHandler);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::HeaderHandler, "System.Runtime.Remoting.Messaging", "HeaderHandler");
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::HeaderHandler);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::HeaderHandler, "System.Runtime.Remoting.Messaging", "HeaderHandler");

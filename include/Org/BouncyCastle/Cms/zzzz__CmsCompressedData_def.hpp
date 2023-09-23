@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Asn1::Cms {
 class ContentInfo;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -56,16 +55,16 @@ constexpr explicit CmsCompressedData(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 
 // Fields
 
- ::Org::BouncyCastle::Asn1::Cms::ContentInfo __declspec(property(get=__get_contentInfo, put=__set_contentInfo))  contentInfo;
+ Org::BouncyCastle::Asn1::Cms::ContentInfo __declspec(property(get=__get_contentInfo, put=__set_contentInfo))  contentInfo;
 
-constexpr void __set_contentInfo(::Org::BouncyCastle::Asn1::Cms::ContentInfo value) ;
+constexpr void __set_contentInfo(Org::BouncyCastle::Asn1::Cms::ContentInfo value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfo __get_contentInfo() const;
+constexpr Org::BouncyCastle::Asn1::Cms::ContentInfo __get_contentInfo() const;
 
 
 // Properties
 
- ::Org::BouncyCastle::Asn1::Cms::ContentInfo __declspec(property(get=get_ContentInfo))  ContentInfo;
+ Org::BouncyCastle::Asn1::Cms::ContentInfo __declspec(property(get=get_ContentInfo))  ContentInfo;
 
 
 // Methods
@@ -76,17 +75,17 @@ explicit CmsCompressedData(::ArrayW<uint8_t> compressedData) ;
 /// @brief Method .ctor addr 0x1152480 size 0x38 virtual false final false
  void _ctor(::ArrayW<uint8_t> compressedData) ;
 
-// Ctor Parameters [CppParam { name: "compressedDataStream", ty: "::System::IO::Stream", modifiers: "", def_value: None }]
-explicit CmsCompressedData(::System::IO::Stream compressedDataStream) ;
+// Ctor Parameters [CppParam { name: "compressedDataStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
+explicit CmsCompressedData(System::IO::Stream compressedDataStream) ;
 
 /// @brief Method .ctor addr 0x11524e0 size 0x38 virtual false final false
- void _ctor(::System::IO::Stream compressedDataStream) ;
+ void _ctor(System::IO::Stream compressedDataStream) ;
 
-// Ctor Parameters [CppParam { name: "contentInfo", ty: "::Org::BouncyCastle::Asn1::Cms::ContentInfo", modifiers: "", def_value: None }]
-explicit CmsCompressedData(::Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo) ;
+// Ctor Parameters [CppParam { name: "contentInfo", ty: "Org::BouncyCastle::Asn1::Cms::ContentInfo", modifiers: "", def_value: None }]
+explicit CmsCompressedData(Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo) ;
 
 /// @brief Method .ctor addr 0x11524b8 size 0x28 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo) ;
+ void _ctor(Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo) ;
 
 /// @brief Method GetContent addr 0x1152518 size 0x26c virtual false final false
  ::ArrayW<uint8_t> GetContent() ;
@@ -95,7 +94,7 @@ explicit CmsCompressedData(::Org::BouncyCastle::Asn1::Cms::ContentInfo contentIn
  ::ArrayW<uint8_t> GetContent(int32_t limit) ;
 
 /// @brief Method get_ContentInfo addr 0x115296c size 0x8 virtual false final false
- ::Org::BouncyCastle::Asn1::Cms::ContentInfo get_ContentInfo() ;
+ Org::BouncyCastle::Asn1::Cms::ContentInfo get_ContentInfo() ;
 
 /// @brief Method GetEncoded addr 0x1152974 size 0x1c virtual false final false
  ::ArrayW<uint8_t> GetEncoded() ;
@@ -104,6 +103,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Cms
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Cms::CmsCompressedData);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::CmsCompressedData, "Org.BouncyCastle.Cms", "CmsCompressedData");
+NEED_NO_BOX(Org::BouncyCastle::Cms::CmsCompressedData);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Cms::CmsCompressedData, "Org.BouncyCastle.Cms", "CmsCompressedData");

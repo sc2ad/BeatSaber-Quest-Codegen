@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -14,7 +13,7 @@ namespace RootMotion::FinalIK {
 class AimPoser;
 }
 namespace RootMotion::FinalIK {
-class ____RootMotion__FinalIK__AimPoser__Pose;
+class RootMotion__FinalIK__AimPoser__Pose;
 }
 // Type: ::Pose
 namespace RootMotion::FinalIK {
@@ -22,37 +21,37 @@ namespace RootMotion::FinalIK {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12573))
 // CS Name: RootMotion.FinalIK.AimPoser::Pose
-class CORDL_TYPE ____RootMotion__FinalIK__AimPoser__Pose : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE RootMotion__FinalIK__AimPoser__Pose : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
 
-virtual ~____RootMotion__FinalIK__AimPoser__Pose() = default;
+virtual ~RootMotion__FinalIK__AimPoser__Pose() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____RootMotion__FinalIK__AimPoser__Pose", modifiers: " const&", def_value: None }]
-constexpr ____RootMotion__FinalIK__AimPoser__Pose(____RootMotion__FinalIK__AimPoser__Pose const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "RootMotion__FinalIK__AimPoser__Pose", modifiers: " const&", def_value: None }]
+constexpr RootMotion__FinalIK__AimPoser__Pose(RootMotion__FinalIK__AimPoser__Pose const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____RootMotion__FinalIK__AimPoser__Pose", modifiers: "&&", def_value: None }]
-constexpr ____RootMotion__FinalIK__AimPoser__Pose(____RootMotion__FinalIK__AimPoser__Pose&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "RootMotion__FinalIK__AimPoser__Pose", modifiers: "&&", def_value: None }]
+constexpr RootMotion__FinalIK__AimPoser__Pose(RootMotion__FinalIK__AimPoser__Pose&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____RootMotion__FinalIK__AimPoser__Pose(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit RootMotion__FinalIK__AimPoser__Pose(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____RootMotion__FinalIK__AimPoser__Pose& operator=(std::nullptr_t) noexcept {
+  constexpr RootMotion__FinalIK__AimPoser__Pose& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____RootMotion__FinalIK__AimPoser__Pose& operator=(void* o) noexcept {
+  constexpr RootMotion__FinalIK__AimPoser__Pose& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____RootMotion__FinalIK__AimPoser__Pose& operator=(____RootMotion__FinalIK__AimPoser__Pose&& o) noexcept = default;
-  constexpr ____RootMotion__FinalIK__AimPoser__Pose& operator=(____RootMotion__FinalIK__AimPoser__Pose const& o) noexcept = default;
+  constexpr RootMotion__FinalIK__AimPoser__Pose& operator=(RootMotion__FinalIK__AimPoser__Pose&& o) noexcept = default;
+  constexpr RootMotion__FinalIK__AimPoser__Pose& operator=(RootMotion__FinalIK__AimPoser__Pose const& o) noexcept = default;
                 
 
 
@@ -70,11 +69,11 @@ constexpr void __set_name(::StringW value) ;
 
 constexpr ::StringW __get_name() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_direction, put=__set_direction))  direction;
+ UnityEngine::Vector3 __declspec(property(get=__get_direction, put=__set_direction))  direction;
 
-constexpr void __set_direction(::UnityEngine::Vector3 value) ;
+constexpr void __set_direction(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_direction() const;
+constexpr UnityEngine::Vector3 __get_direction() const;
 
  float_t __declspec(property(get=__get_yaw, put=__set_yaw))  yaw;
 
@@ -98,13 +97,13 @@ constexpr float_t __get_angleBuffer() const;
 // Methods
 
 /// @brief Method IsInDirection addr 0x1206d58 size 0x4b0 virtual false final false
- bool IsInDirection(::UnityEngine::Vector3 d) ;
+ bool IsInDirection(UnityEngine::Vector3 d) ;
 
 /// @brief Method SetAngleBuffer addr 0x12072c8 size 0x8 virtual false final false
  void SetAngleBuffer(float_t value) ;
 
 // Ctor Parameters []
-explicit ____RootMotion__FinalIK__AimPoser__Pose() ;
+explicit RootMotion__FinalIK__AimPoser__Pose() ;
 
 /// @brief Method .ctor addr 0x12072d0 size 0x1c virtual false final false
  void _ctor() ;
@@ -119,10 +118,10 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12574))
 // CS Name: RootMotion.FinalIK.AimPoser
-class CORDL_TYPE AimPoser : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE AimPoser : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using Pose = ::RootMotion::FinalIK::____RootMotion__FinalIK__AimPoser__Pose;
+using Pose = RootMotion::FinalIK::RootMotion__FinalIK__AimPoser__Pose;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -136,7 +135,7 @@ constexpr AimPoser(AimPoser const& ) noexcept = default;
 constexpr AimPoser(AimPoser&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AimPoser(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit AimPoser(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -163,20 +162,20 @@ constexpr void __set_angleBuffer(float_t value) ;
 
 constexpr float_t __get_angleBuffer() const;
 
- ::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__AimPoser__Pose> __declspec(property(get=__get_poses, put=__set_poses))  poses;
+ ::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__AimPoser__Pose> __declspec(property(get=__get_poses, put=__set_poses))  poses;
 
-constexpr void __set_poses(::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__AimPoser__Pose> value) ;
+constexpr void __set_poses(::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__AimPoser__Pose> value) ;
 
-constexpr ::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__AimPoser__Pose> __get_poses() const;
+constexpr ::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__AimPoser__Pose> __get_poses() const;
 
 
 // Methods
 
 /// @brief Method GetPose addr 0x1206c88 size 0xd0 virtual false final false
- ::RootMotion::FinalIK::____RootMotion__FinalIK__AimPoser__Pose GetPose(::UnityEngine::Vector3 localDirection) ;
+ RootMotion::FinalIK::RootMotion__FinalIK__AimPoser__Pose GetPose(UnityEngine::Vector3 localDirection) ;
 
 /// @brief Method SetPoseActive addr 0x1207208 size 0x60 virtual false final false
- void SetPoseActive(::RootMotion::FinalIK::____RootMotion__FinalIK__AimPoser__Pose pose) ;
+ void SetPoseActive(RootMotion::FinalIK::RootMotion__FinalIK__AimPoser__Pose pose) ;
 
 // Ctor Parameters []
 explicit AimPoser() ;
@@ -188,8 +187,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::AimPoser);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::AimPoser, "RootMotion.FinalIK", "AimPoser");
-NEED_NO_BOX(::RootMotion::FinalIK::____RootMotion__FinalIK__AimPoser__Pose);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::____RootMotion__FinalIK__AimPoser__Pose, "RootMotion.FinalIK", "AimPoser/Pose");
+NEED_NO_BOX(RootMotion::FinalIK::AimPoser);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::AimPoser, "RootMotion.FinalIK", "AimPoser");
+NEED_NO_BOX(RootMotion::FinalIK::RootMotion__FinalIK__AimPoser__Pose);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RootMotion__FinalIK__AimPoser__Pose, "RootMotion.FinalIK", "AimPoser/Pose");

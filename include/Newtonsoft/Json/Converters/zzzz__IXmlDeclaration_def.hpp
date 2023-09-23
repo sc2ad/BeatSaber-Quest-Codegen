@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace Newtonsoft::Json::Converters {
 class IXmlNode;
 }
@@ -18,8 +17,8 @@ namespace Newtonsoft::Json::Converters {
 class CORDL_TYPE IXmlDeclaration : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::Newtonsoft::Json::Converters::IXmlNode
-constexpr operator  ::Newtonsoft::Json::Converters::IXmlNode() const noexcept;
+/// @brief Convert operator to Newtonsoft::Json::Converters::IXmlNode
+constexpr operator  Newtonsoft::Json::Converters::IXmlNode() const noexcept;
 
 ~IXmlDeclaration() = default;
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Converters
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Converters::IXmlDeclaration);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Converters::IXmlDeclaration, "Newtonsoft.Json.Converters", "IXmlDeclaration");
+NEED_NO_BOX(Newtonsoft::Json::Converters::IXmlDeclaration);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Converters::IXmlDeclaration, "Newtonsoft.Json.Converters", "IXmlDeclaration");

@@ -2,21 +2,20 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System::Security::Cryptography::X509Certificates {
-struct X509RevocationMode;
-}
 namespace System::Net::Security {
 struct EncryptionPolicy;
 }
-namespace System::Net::Security {
-class LocalCertificateSelectionCallback;
+namespace System::Security::Cryptography::X509Certificates {
+struct X509RevocationMode;
 }
 namespace System::Security::Authentication {
 struct SslProtocols;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateCollection;
+}
+namespace System::Net::Security {
+class LocalCertificateSelectionCallback;
 }
 // Forward declare root types
 namespace System::Net::Security {
@@ -64,23 +63,23 @@ constexpr explicit SslClientAuthenticationOptions(void* ptr) noexcept : ::bs_hoo
 
 // Fields
 
- ::System::Net::Security::EncryptionPolicy __declspec(property(get=__get__encryptionPolicy, put=__set__encryptionPolicy))  _encryptionPolicy;
+ System::Net::Security::EncryptionPolicy __declspec(property(get=__get__encryptionPolicy, put=__set__encryptionPolicy))  _encryptionPolicy;
 
-constexpr void __set__encryptionPolicy(::System::Net::Security::EncryptionPolicy value) ;
+constexpr void __set__encryptionPolicy(System::Net::Security::EncryptionPolicy value) ;
 
-constexpr ::System::Net::Security::EncryptionPolicy __get__encryptionPolicy() const;
+constexpr System::Net::Security::EncryptionPolicy __get__encryptionPolicy() const;
 
- ::System::Security::Cryptography::X509Certificates::X509RevocationMode __declspec(property(get=__get__checkCertificateRevocation, put=__set__checkCertificateRevocation))  _checkCertificateRevocation;
+ System::Security::Cryptography::X509Certificates::X509RevocationMode __declspec(property(get=__get__checkCertificateRevocation, put=__set__checkCertificateRevocation))  _checkCertificateRevocation;
 
-constexpr void __set__checkCertificateRevocation(::System::Security::Cryptography::X509Certificates::X509RevocationMode value) ;
+constexpr void __set__checkCertificateRevocation(System::Security::Cryptography::X509Certificates::X509RevocationMode value) ;
 
-constexpr ::System::Security::Cryptography::X509Certificates::X509RevocationMode __get__checkCertificateRevocation() const;
+constexpr System::Security::Cryptography::X509Certificates::X509RevocationMode __get__checkCertificateRevocation() const;
 
- ::System::Security::Authentication::SslProtocols __declspec(property(get=__get__enabledSslProtocols, put=__set__enabledSslProtocols))  _enabledSslProtocols;
+ System::Security::Authentication::SslProtocols __declspec(property(get=__get__enabledSslProtocols, put=__set__enabledSslProtocols))  _enabledSslProtocols;
 
-constexpr void __set__enabledSslProtocols(::System::Security::Authentication::SslProtocols value) ;
+constexpr void __set__enabledSslProtocols(System::Security::Authentication::SslProtocols value) ;
 
-constexpr ::System::Security::Authentication::SslProtocols __get__enabledSslProtocols() const;
+constexpr System::Security::Authentication::SslProtocols __get__enabledSslProtocols() const;
 
  bool __declspec(property(get=__get__allowRenegotiation, put=__set__allowRenegotiation))  _allowRenegotiation;
 
@@ -88,11 +87,11 @@ constexpr void __set__allowRenegotiation(bool value) ;
 
 constexpr bool __get__allowRenegotiation() const;
 
- ::System::Net::Security::LocalCertificateSelectionCallback __declspec(property(get=__get__LocalCertificateSelectionCallback_k__BackingField, put=__set__LocalCertificateSelectionCallback_k__BackingField))  _LocalCertificateSelectionCallback_k__BackingField;
+ System::Net::Security::LocalCertificateSelectionCallback __declspec(property(get=__get__LocalCertificateSelectionCallback_k__BackingField, put=__set__LocalCertificateSelectionCallback_k__BackingField))  _LocalCertificateSelectionCallback_k__BackingField;
 
-constexpr void __set__LocalCertificateSelectionCallback_k__BackingField(::System::Net::Security::LocalCertificateSelectionCallback value) ;
+constexpr void __set__LocalCertificateSelectionCallback_k__BackingField(System::Net::Security::LocalCertificateSelectionCallback value) ;
 
-constexpr ::System::Net::Security::LocalCertificateSelectionCallback __get__LocalCertificateSelectionCallback_k__BackingField() const;
+constexpr System::Net::Security::LocalCertificateSelectionCallback __get__LocalCertificateSelectionCallback_k__BackingField() const;
 
  ::StringW __declspec(property(get=__get__TargetHost_k__BackingField, put=__set__TargetHost_k__BackingField))  _TargetHost_k__BackingField;
 
@@ -100,32 +99,32 @@ constexpr void __set__TargetHost_k__BackingField(::StringW value) ;
 
 constexpr ::StringW __get__TargetHost_k__BackingField() const;
 
- ::System::Security::Cryptography::X509Certificates::X509CertificateCollection __declspec(property(get=__get__ClientCertificates_k__BackingField, put=__set__ClientCertificates_k__BackingField))  _ClientCertificates_k__BackingField;
+ System::Security::Cryptography::X509Certificates::X509CertificateCollection __declspec(property(get=__get__ClientCertificates_k__BackingField, put=__set__ClientCertificates_k__BackingField))  _ClientCertificates_k__BackingField;
 
-constexpr void __set__ClientCertificates_k__BackingField(::System::Security::Cryptography::X509Certificates::X509CertificateCollection value) ;
+constexpr void __set__ClientCertificates_k__BackingField(System::Security::Cryptography::X509Certificates::X509CertificateCollection value) ;
 
-constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateCollection __get__ClientCertificates_k__BackingField() const;
+constexpr System::Security::Cryptography::X509Certificates::X509CertificateCollection __get__ClientCertificates_k__BackingField() const;
 
 
 // Properties
 
- ::System::Net::Security::LocalCertificateSelectionCallback __declspec(property(put=set_LocalCertificateSelectionCallback))  LocalCertificateSelectionCallback;
+ System::Net::Security::LocalCertificateSelectionCallback __declspec(property(put=set_LocalCertificateSelectionCallback))  LocalCertificateSelectionCallback;
 
  ::StringW __declspec(property(get=get_TargetHost, put=set_TargetHost))  TargetHost;
 
- ::System::Security::Cryptography::X509Certificates::X509CertificateCollection __declspec(property(get=get_ClientCertificates, put=set_ClientCertificates))  ClientCertificates;
+ System::Security::Cryptography::X509Certificates::X509CertificateCollection __declspec(property(get=get_ClientCertificates, put=set_ClientCertificates))  ClientCertificates;
 
- ::System::Security::Cryptography::X509Certificates::X509RevocationMode __declspec(property(put=set_CertificateRevocationCheckMode))  CertificateRevocationCheckMode;
+ System::Security::Cryptography::X509Certificates::X509RevocationMode __declspec(property(put=set_CertificateRevocationCheckMode))  CertificateRevocationCheckMode;
 
- ::System::Net::Security::EncryptionPolicy __declspec(property(put=set_EncryptionPolicy))  EncryptionPolicy;
+ System::Net::Security::EncryptionPolicy __declspec(property(put=set_EncryptionPolicy))  EncryptionPolicy;
 
- ::System::Security::Authentication::SslProtocols __declspec(property(get=get_EnabledSslProtocols, put=set_EnabledSslProtocols))  EnabledSslProtocols;
+ System::Security::Authentication::SslProtocols __declspec(property(get=get_EnabledSslProtocols, put=set_EnabledSslProtocols))  EnabledSslProtocols;
 
 
 // Methods
 
 /// @brief Method set_LocalCertificateSelectionCallback addr 0x276cae8 size 0x8 virtual false final false
- void set_LocalCertificateSelectionCallback(::System::Net::Security::LocalCertificateSelectionCallback value) ;
+ void set_LocalCertificateSelectionCallback(System::Net::Security::LocalCertificateSelectionCallback value) ;
 
 /// @brief Method get_TargetHost addr 0x276caf0 size 0x8 virtual false final false
  ::StringW get_TargetHost() ;
@@ -134,22 +133,22 @@ constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateCol
  void set_TargetHost(::StringW value) ;
 
 /// @brief Method get_ClientCertificates addr 0x276cb00 size 0x8 virtual false final false
- ::System::Security::Cryptography::X509Certificates::X509CertificateCollection get_ClientCertificates() ;
+ System::Security::Cryptography::X509Certificates::X509CertificateCollection get_ClientCertificates() ;
 
 /// @brief Method set_ClientCertificates addr 0x276cb08 size 0x8 virtual false final false
- void set_ClientCertificates(::System::Security::Cryptography::X509Certificates::X509CertificateCollection value) ;
+ void set_ClientCertificates(System::Security::Cryptography::X509Certificates::X509CertificateCollection value) ;
 
 /// @brief Method set_CertificateRevocationCheckMode addr 0x276cb10 size 0xa0 virtual false final false
- void set_CertificateRevocationCheckMode(::System::Security::Cryptography::X509Certificates::X509RevocationMode value) ;
+ void set_CertificateRevocationCheckMode(System::Security::Cryptography::X509Certificates::X509RevocationMode value) ;
 
 /// @brief Method set_EncryptionPolicy addr 0x276cbb0 size 0xa0 virtual false final false
- void set_EncryptionPolicy(::System::Net::Security::EncryptionPolicy value) ;
+ void set_EncryptionPolicy(System::Net::Security::EncryptionPolicy value) ;
 
 /// @brief Method get_EnabledSslProtocols addr 0x276cc50 size 0x8 virtual false final false
- ::System::Security::Authentication::SslProtocols get_EnabledSslProtocols() ;
+ System::Security::Authentication::SslProtocols get_EnabledSslProtocols() ;
 
 /// @brief Method set_EnabledSslProtocols addr 0x276cc58 size 0x8 virtual false final false
- void set_EnabledSslProtocols(::System::Security::Authentication::SslProtocols value) ;
+ void set_EnabledSslProtocols(System::Security::Authentication::SslProtocols value) ;
 
 // Ctor Parameters []
 explicit SslClientAuthenticationOptions() ;
@@ -161,6 +160,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Security
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Security::SslClientAuthenticationOptions);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Security::SslClientAuthenticationOptions, "System.Net.Security", "SslClientAuthenticationOptions");
+NEED_NO_BOX(System::Net::Security::SslClientAuthenticationOptions);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Security::SslClientAuthenticationOptions, "System.Net.Security", "SslClientAuthenticationOptions");

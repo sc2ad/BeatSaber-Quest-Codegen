@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
@@ -24,7 +23,7 @@ namespace Org::BouncyCastle::Asn1::IsisMtt::Ocsp {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(179))
 // CS Name: Org.BouncyCastle.Asn1.IsisMtt.Ocsp.CertHash
-class CORDL_TYPE CertHash : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
+class CORDL_TYPE CertHash : public Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr CertHash(CertHash const& ) noexcept = default;
 constexpr CertHash(CertHash&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CertHash(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
+constexpr explicit CertHash(void* ptr) noexcept : Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
 }
 
 
@@ -60,11 +59,11 @@ constexpr explicit CertHash(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::Asn
 
 // Fields
 
- ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __declspec(property(get=__get_hashAlgorithm, put=__set_hashAlgorithm))  hashAlgorithm;
+ Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __declspec(property(get=__get_hashAlgorithm, put=__set_hashAlgorithm))  hashAlgorithm;
 
-constexpr void __set_hashAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier value) ;
+constexpr void __set_hashAlgorithm(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __get_hashAlgorithm() const;
+constexpr Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __get_hashAlgorithm() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get_certificateHash, put=__set_certificateHash))  certificateHash;
 
@@ -75,7 +74,7 @@ constexpr ::ArrayW<uint8_t> __get_certificateHash() const;
 
 // Properties
 
- ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __declspec(property(get=get_HashAlgorithm))  HashAlgorithm;
+ Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __declspec(property(get=get_HashAlgorithm))  HashAlgorithm;
 
  ::ArrayW<uint8_t> __declspec(property(get=get_CertificateHash))  CertificateHash;
 
@@ -83,33 +82,32 @@ constexpr ::ArrayW<uint8_t> __get_certificateHash() const;
 // Methods
 
 /// @brief Method GetInstance addr 0xee7a40 size 0x188 virtual false final false
-static ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::CertHash GetInstance(::bs_hook::Il2CppWrapperType obj) ;
+static Org::BouncyCastle::Asn1::IsisMtt::Ocsp::CertHash GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "::Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit CertHash(::Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
+explicit CertHash(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xee7bc8 size 0x11c virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+ void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "hashAlgorithm", ty: "::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "certificateHash", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit CertHash(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier hashAlgorithm, ::ArrayW<uint8_t> certificateHash) ;
+// Ctor Parameters [CppParam { name: "hashAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "certificateHash", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
+explicit CertHash(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier hashAlgorithm, ::ArrayW<uint8_t> certificateHash) ;
 
 /// @brief Method .ctor addr 0xee7ce4 size 0x130 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier hashAlgorithm, ::ArrayW<uint8_t> certificateHash) ;
+ void _ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier hashAlgorithm, ::ArrayW<uint8_t> certificateHash) ;
 
 /// @brief Method get_HashAlgorithm addr 0xee7e14 size 0x8 virtual false final false
- ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier get_HashAlgorithm() ;
+ Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier get_HashAlgorithm() ;
 
 /// @brief Method get_CertificateHash addr 0xee7e1c size 0x78 virtual false final false
  ::ArrayW<uint8_t> get_CertificateHash() ;
 
 /// @brief Method ToAsn1Object addr 0xee7e94 size 0x11c virtual true final false
- ::Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
+ Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::IsisMtt::Ocsp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::CertHash);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::CertHash, "Org.BouncyCastle.Asn1.IsisMtt.Ocsp", "CertHash");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::IsisMtt::Ocsp::CertHash);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::IsisMtt::Ocsp::CertHash, "Org.BouncyCastle.Asn1.IsisMtt.Ocsp", "CertHash");

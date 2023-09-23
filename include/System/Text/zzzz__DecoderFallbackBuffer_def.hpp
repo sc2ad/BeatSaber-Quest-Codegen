@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Text {
 class DecoderFallbackBuffer;
@@ -108,6 +107,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Text
-} // end anonymous namespace
-NEED_NO_BOX(::System::Text::DecoderFallbackBuffer);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::DecoderFallbackBuffer, "System.Text", "DecoderFallbackBuffer");
+NEED_NO_BOX(System::Text::DecoderFallbackBuffer);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::DecoderFallbackBuffer, "System.Text", "DecoderFallbackBuffer");

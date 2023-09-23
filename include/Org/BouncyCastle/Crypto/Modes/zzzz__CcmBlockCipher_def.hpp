@@ -4,21 +4,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
-namespace System::IO {
-class MemoryStream;
+namespace Org::BouncyCastle::Crypto::Modes {
+class IAeadBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto::Modes {
 class IAeadCipher;
 }
-namespace Org::BouncyCastle::Crypto::Modes {
-class IAeadBlockCipher;
+namespace System::IO {
+class MemoryStream;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class IBlockCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Modes {
@@ -33,11 +32,11 @@ namespace Org::BouncyCastle::Crypto::Modes {
 class CORDL_TYPE CcmBlockCipher : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher
-constexpr operator  ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher
+constexpr operator  Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher() const noexcept;
 
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Modes::IAeadCipher
-constexpr operator  ::Org::BouncyCastle::Crypto::Modes::IAeadCipher() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Modes::IAeadCipher
+constexpr operator  Org::BouncyCastle::Crypto::Modes::IAeadCipher() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x58};
@@ -78,11 +77,11 @@ static void __set_BlockSize(int32_t value) ;
 
 static int32_t __get_BlockSize() ;
 
- ::Org::BouncyCastle::Crypto::IBlockCipher __declspec(property(get=__get_cipher, put=__set_cipher))  cipher;
+ Org::BouncyCastle::Crypto::IBlockCipher __declspec(property(get=__get_cipher, put=__set_cipher))  cipher;
 
-constexpr void __set_cipher(::Org::BouncyCastle::Crypto::IBlockCipher value) ;
+constexpr void __set_cipher(Org::BouncyCastle::Crypto::IBlockCipher value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IBlockCipher __get_cipher() const;
+constexpr Org::BouncyCastle::Crypto::IBlockCipher __get_cipher() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get_macBlock, put=__set_macBlock))  macBlock;
 
@@ -114,23 +113,23 @@ constexpr void __set_macSize(int32_t value) ;
 
 constexpr int32_t __get_macSize() const;
 
- ::Org::BouncyCastle::Crypto::ICipherParameters __declspec(property(get=__get_keyParam, put=__set_keyParam))  keyParam;
+ Org::BouncyCastle::Crypto::ICipherParameters __declspec(property(get=__get_keyParam, put=__set_keyParam))  keyParam;
 
-constexpr void __set_keyParam(::Org::BouncyCastle::Crypto::ICipherParameters value) ;
+constexpr void __set_keyParam(Org::BouncyCastle::Crypto::ICipherParameters value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::ICipherParameters __get_keyParam() const;
+constexpr Org::BouncyCastle::Crypto::ICipherParameters __get_keyParam() const;
 
- ::System::IO::MemoryStream __declspec(property(get=__get_associatedText, put=__set_associatedText))  associatedText;
+ System::IO::MemoryStream __declspec(property(get=__get_associatedText, put=__set_associatedText))  associatedText;
 
-constexpr void __set_associatedText(::System::IO::MemoryStream value) ;
+constexpr void __set_associatedText(System::IO::MemoryStream value) ;
 
-constexpr ::System::IO::MemoryStream __get_associatedText() const;
+constexpr System::IO::MemoryStream __get_associatedText() const;
 
- ::System::IO::MemoryStream __declspec(property(get=__get_data, put=__set_data))  data;
+ System::IO::MemoryStream __declspec(property(get=__get_data, put=__set_data))  data;
 
-constexpr void __set_data(::System::IO::MemoryStream value) ;
+constexpr void __set_data(System::IO::MemoryStream value) ;
 
-constexpr ::System::IO::MemoryStream __get_data() const;
+constexpr System::IO::MemoryStream __get_data() const;
 
 
 // Properties
@@ -140,17 +139,17 @@ constexpr ::System::IO::MemoryStream __get_data() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "::Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
-explicit CcmBlockCipher(::Org::BouncyCastle::Crypto::IBlockCipher cipher) ;
+// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
+explicit CcmBlockCipher(Org::BouncyCastle::Crypto::IBlockCipher cipher) ;
 
 /// @brief Method .ctor addr 0xe893c4 size 0x22c virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher cipher) ;
+ void _ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher) ;
 
 /// @brief Method GetUnderlyingCipher addr 0xe895f0 size 0x8 virtual true final false
- ::Org::BouncyCastle::Crypto::IBlockCipher GetUnderlyingCipher() ;
+ Org::BouncyCastle::Crypto::IBlockCipher GetUnderlyingCipher() ;
 
 /// @brief Method Init addr 0xe895f8 size 0x1d8 virtual true final false
- void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method get_AlgorithmName addr 0xe89840 size 0xc0 virtual true final false
  ::StringW get_AlgorithmName() ;
@@ -207,6 +206,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Modes
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Modes::CcmBlockCipher);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Modes::CcmBlockCipher, "Org.BouncyCastle.Crypto.Modes", "CcmBlockCipher");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Modes::CcmBlockCipher);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::CcmBlockCipher, "Org.BouncyCastle.Crypto.Modes", "CcmBlockCipher");

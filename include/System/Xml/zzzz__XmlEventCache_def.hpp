@@ -6,7 +6,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
+namespace System::Xml::Xsl::Runtime {
+struct StringConcat;
+}
+namespace System::Xml {
+struct XmlStandalone;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -14,21 +19,15 @@ class List_1;
 namespace System::Xml {
 class XmlWriter;
 }
-namespace System::Xml {
-struct XmlStandalone;
-}
-namespace System::Xml::Xsl::Runtime {
-struct StringConcat;
-}
 // Forward declare root types
 namespace System::Xml {
-struct ____System__Xml__XmlEventCache__XmlEventType;
+struct System__Xml__XmlEventCache__XmlEventType;
 }
 namespace System::Xml {
 class XmlEventCache;
 }
 namespace System::Xml {
-struct ____System__Xml__XmlEventCache__XmlEvent;
+struct System__Xml__XmlEventCache__XmlEvent;
 }
 // Type: ::XmlEventType
 namespace System::Xml {
@@ -36,20 +35,20 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11393))
 // CS Name: System.Xml.XmlEventCache::XmlEventType
-struct CORDL_TYPE ____System__Xml__XmlEventCache__XmlEventType : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE System__Xml__XmlEventCache__XmlEventType : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____System__Xml__XmlEventCache__XmlEventType(int32_t value__) noexcept;
+constexpr System__Xml__XmlEventCache__XmlEventType(int32_t value__) noexcept;
 
 
-                    constexpr ____System__Xml__XmlEventCache__XmlEventType(____System__Xml__XmlEventCache__XmlEventType const&) = default;
-                    constexpr ____System__Xml__XmlEventCache__XmlEventType(____System__Xml__XmlEventCache__XmlEventType&&) = default;
-                    constexpr ____System__Xml__XmlEventCache__XmlEventType& operator=(____System__Xml__XmlEventCache__XmlEventType const& o) {
+                    constexpr System__Xml__XmlEventCache__XmlEventType(System__Xml__XmlEventCache__XmlEventType const&) = default;
+                    constexpr System__Xml__XmlEventCache__XmlEventType(System__Xml__XmlEventCache__XmlEventType&&) = default;
+                    constexpr System__Xml__XmlEventCache__XmlEventType& operator=(System__Xml__XmlEventCache__XmlEventType const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Xml__XmlEventCache__XmlEventType& operator=(____System__Xml__XmlEventCache__XmlEventType&& o) noexcept {
+                    constexpr System__Xml__XmlEventCache__XmlEventType& operator=(System__Xml__XmlEventCache__XmlEventType&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -62,7 +61,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Xml__XmlEventCache__XmlEventType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Xml__XmlEventCache__XmlEventType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -70,7 +69,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______System__Xml__XmlEventCache__XmlEventType_Unwrapped : int32_t {
+enum class __System__Xml__XmlEventCache__XmlEventType_Unwrapped : int32_t {
 __Unknown = 0,
 __DocType = 1,
 __StartElem = 2,
@@ -100,8 +99,8 @@ __Dispose = 25,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______System__Xml__XmlEventCache__XmlEventType_Unwrapped () const noexcept {
-return std::bit_cast<______System__Xml__XmlEventCache__XmlEventType_Unwrapped>(__instance);
+constexpr operator __System__Xml__XmlEventCache__XmlEventType_Unwrapped () const noexcept {
+return std::bit_cast<__System__Xml__XmlEventCache__XmlEventType_Unwrapped>(__instance);
 }
 
 
@@ -114,82 +113,82 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::System::Xml::____System__Xml__XmlEventCache__XmlEventType const Unknown;
+static System::Xml::System__Xml__XmlEventCache__XmlEventType const Unknown;
 
 /// @brief Field DocType offset 0
-static ::System::Xml::____System__Xml__XmlEventCache__XmlEventType const DocType;
+static System::Xml::System__Xml__XmlEventCache__XmlEventType const DocType;
 
 /// @brief Field StartElem offset 0
-static ::System::Xml::____System__Xml__XmlEventCache__XmlEventType const StartElem;
+static System::Xml::System__Xml__XmlEventCache__XmlEventType const StartElem;
 
 /// @brief Field StartAttr offset 0
-static ::System::Xml::____System__Xml__XmlEventCache__XmlEventType const StartAttr;
+static System::Xml::System__Xml__XmlEventCache__XmlEventType const StartAttr;
 
 /// @brief Field EndAttr offset 0
-static ::System::Xml::____System__Xml__XmlEventCache__XmlEventType const EndAttr;
+static System::Xml::System__Xml__XmlEventCache__XmlEventType const EndAttr;
 
 /// @brief Field CData offset 0
-static ::System::Xml::____System__Xml__XmlEventCache__XmlEventType const CData;
+static System::Xml::System__Xml__XmlEventCache__XmlEventType const CData;
 
 /// @brief Field Comment offset 0
-static ::System::Xml::____System__Xml__XmlEventCache__XmlEventType const Comment;
+static System::Xml::System__Xml__XmlEventCache__XmlEventType const Comment;
 
 /// @brief Field PI offset 0
-static ::System::Xml::____System__Xml__XmlEventCache__XmlEventType const PI;
+static System::Xml::System__Xml__XmlEventCache__XmlEventType const PI;
 
 /// @brief Field Whitespace offset 0
-static ::System::Xml::____System__Xml__XmlEventCache__XmlEventType const Whitespace;
+static System::Xml::System__Xml__XmlEventCache__XmlEventType const Whitespace;
 
 /// @brief Field String offset 0
-static ::System::Xml::____System__Xml__XmlEventCache__XmlEventType const String;
+static System::Xml::System__Xml__XmlEventCache__XmlEventType const String;
 
 /// @brief Field Raw offset 0
-static ::System::Xml::____System__Xml__XmlEventCache__XmlEventType const Raw;
+static System::Xml::System__Xml__XmlEventCache__XmlEventType const Raw;
 
 /// @brief Field EntRef offset 0
-static ::System::Xml::____System__Xml__XmlEventCache__XmlEventType const EntRef;
+static System::Xml::System__Xml__XmlEventCache__XmlEventType const EntRef;
 
 /// @brief Field CharEnt offset 0
-static ::System::Xml::____System__Xml__XmlEventCache__XmlEventType const CharEnt;
+static System::Xml::System__Xml__XmlEventCache__XmlEventType const CharEnt;
 
 /// @brief Field SurrCharEnt offset 0
-static ::System::Xml::____System__Xml__XmlEventCache__XmlEventType const SurrCharEnt;
+static System::Xml::System__Xml__XmlEventCache__XmlEventType const SurrCharEnt;
 
 /// @brief Field Base64 offset 0
-static ::System::Xml::____System__Xml__XmlEventCache__XmlEventType const Base64;
+static System::Xml::System__Xml__XmlEventCache__XmlEventType const Base64;
 
 /// @brief Field BinHex offset 0
-static ::System::Xml::____System__Xml__XmlEventCache__XmlEventType const BinHex;
+static System::Xml::System__Xml__XmlEventCache__XmlEventType const BinHex;
 
 /// @brief Field XmlDecl1 offset 0
-static ::System::Xml::____System__Xml__XmlEventCache__XmlEventType const XmlDecl1;
+static System::Xml::System__Xml__XmlEventCache__XmlEventType const XmlDecl1;
 
 /// @brief Field XmlDecl2 offset 0
-static ::System::Xml::____System__Xml__XmlEventCache__XmlEventType const XmlDecl2;
+static System::Xml::System__Xml__XmlEventCache__XmlEventType const XmlDecl2;
 
 /// @brief Field StartContent offset 0
-static ::System::Xml::____System__Xml__XmlEventCache__XmlEventType const StartContent;
+static System::Xml::System__Xml__XmlEventCache__XmlEventType const StartContent;
 
 /// @brief Field EndElem offset 0
-static ::System::Xml::____System__Xml__XmlEventCache__XmlEventType const EndElem;
+static System::Xml::System__Xml__XmlEventCache__XmlEventType const EndElem;
 
 /// @brief Field FullEndElem offset 0
-static ::System::Xml::____System__Xml__XmlEventCache__XmlEventType const FullEndElem;
+static System::Xml::System__Xml__XmlEventCache__XmlEventType const FullEndElem;
 
 /// @brief Field Nmsp offset 0
-static ::System::Xml::____System__Xml__XmlEventCache__XmlEventType const Nmsp;
+static System::Xml::System__Xml__XmlEventCache__XmlEventType const Nmsp;
 
 /// @brief Field EndBase64 offset 0
-static ::System::Xml::____System__Xml__XmlEventCache__XmlEventType const EndBase64;
+static System::Xml::System__Xml__XmlEventCache__XmlEventType const EndBase64;
 
 /// @brief Field Close offset 0
-static ::System::Xml::____System__Xml__XmlEventCache__XmlEventType const Close;
+static System::Xml::System__Xml__XmlEventCache__XmlEventType const Close;
 
 /// @brief Field Flush offset 0
-static ::System::Xml::____System__Xml__XmlEventCache__XmlEventType const Flush;
+static System::Xml::System__Xml__XmlEventCache__XmlEventType const Flush;
 
 /// @brief Field Dispose offset 0
-static ::System::Xml::____System__Xml__XmlEventCache__XmlEventType const Dispose;
+static System::Xml::System__Xml__XmlEventCache__XmlEventType const Dispose;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -201,20 +200,20 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11394))
 // CS Name: System.Xml.XmlEventCache::XmlEvent
-struct CORDL_TYPE ____System__Xml__XmlEventCache__XmlEvent : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE System__Xml__XmlEventCache__XmlEvent : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "eventType", ty: "::System::Xml::____System__Xml__XmlEventCache__XmlEventType", modifiers: "", def_value: None }, CppParam { name: "s1", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "s2", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "s3", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "o", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-constexpr ____System__Xml__XmlEventCache__XmlEvent(::System::Xml::____System__Xml__XmlEventCache__XmlEventType eventType, ::StringW s1, ::StringW s2, ::StringW s3, ::bs_hook::Il2CppWrapperType o) noexcept;
+// Ctor Parameters [CppParam { name: "eventType", ty: "System::Xml::System__Xml__XmlEventCache__XmlEventType", modifiers: "", def_value: None }, CppParam { name: "s1", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "s2", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "s3", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "o", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
+constexpr System__Xml__XmlEventCache__XmlEvent(System::Xml::System__Xml__XmlEventCache__XmlEventType eventType, ::StringW s1, ::StringW s2, ::StringW s3, ::bs_hook::Il2CppWrapperType o) noexcept;
 
 
-                    constexpr ____System__Xml__XmlEventCache__XmlEvent(____System__Xml__XmlEventCache__XmlEvent const&) = default;
-                    constexpr ____System__Xml__XmlEventCache__XmlEvent(____System__Xml__XmlEventCache__XmlEvent&&) = default;
-                    constexpr ____System__Xml__XmlEventCache__XmlEvent& operator=(____System__Xml__XmlEventCache__XmlEvent const& o) {
+                    constexpr System__Xml__XmlEventCache__XmlEvent(System__Xml__XmlEventCache__XmlEvent const&) = default;
+                    constexpr System__Xml__XmlEventCache__XmlEvent(System__Xml__XmlEventCache__XmlEvent&&) = default;
+                    constexpr System__Xml__XmlEventCache__XmlEvent& operator=(System__Xml__XmlEventCache__XmlEvent const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Xml__XmlEventCache__XmlEvent& operator=(____System__Xml__XmlEventCache__XmlEvent&& o) noexcept {
+                    constexpr System__Xml__XmlEventCache__XmlEvent& operator=(System__Xml__XmlEventCache__XmlEvent&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -227,7 +226,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x28};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Xml__XmlEventCache__XmlEvent(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Xml__XmlEventCache__XmlEvent(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -238,11 +237,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::Xml::____System__Xml__XmlEventCache__XmlEventType __declspec(property(get=__get_eventType, put=__set_eventType))  eventType;
+ System::Xml::System__Xml__XmlEventCache__XmlEventType __declspec(property(get=__get_eventType, put=__set_eventType))  eventType;
 
-constexpr void __set_eventType(::System::Xml::____System__Xml__XmlEventCache__XmlEventType value) ;
+constexpr void __set_eventType(System::Xml::System__Xml__XmlEventCache__XmlEventType value) ;
 
-constexpr ::System::Xml::____System__Xml__XmlEventCache__XmlEventType __get_eventType() const;
+constexpr System::Xml::System__Xml__XmlEventCache__XmlEventType __get_eventType() const;
 
  ::StringW __declspec(property(get=__get_s1, put=__set_s1))  s1;
 
@@ -271,7 +270,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_o() const;
 
 // Properties
 
- ::System::Xml::____System__Xml__XmlEventCache__XmlEventType __declspec(property(get=get_EventType))  EventType;
+ System::Xml::System__Xml__XmlEventCache__XmlEventType __declspec(property(get=get_EventType))  EventType;
 
  ::StringW __declspec(property(get=get_String1))  String1;
 
@@ -285,25 +284,25 @@ constexpr ::bs_hook::Il2CppWrapperType __get_o() const;
 // Methods
 
 /// @brief Method InitEvent addr 0x26c6c5c size 0x8 virtual false final false
- void InitEvent(::System::Xml::____System__Xml__XmlEventCache__XmlEventType eventType) ;
+ void InitEvent(System::Xml::System__Xml__XmlEventCache__XmlEventType eventType) ;
 
 /// @brief Method InitEvent addr 0x26c6c18 size 0xc virtual false final false
- void InitEvent(::System::Xml::____System__Xml__XmlEventCache__XmlEventType eventType, ::StringW s1) ;
+ void InitEvent(System::Xml::System__Xml__XmlEventCache__XmlEventType eventType, ::StringW s1) ;
 
 /// @brief Method InitEvent addr 0x26c6c24 size 0xc virtual false final false
- void InitEvent(::System::Xml::____System__Xml__XmlEventCache__XmlEventType eventType, ::StringW s1, ::StringW s2) ;
+ void InitEvent(System::Xml::System__Xml__XmlEventCache__XmlEventType eventType, ::StringW s1, ::StringW s2) ;
 
 /// @brief Method InitEvent addr 0x26c6c30 size 0x10 virtual false final false
- void InitEvent(::System::Xml::____System__Xml__XmlEventCache__XmlEventType eventType, ::StringW s1, ::StringW s2, ::StringW s3) ;
+ void InitEvent(System::Xml::System__Xml__XmlEventCache__XmlEventType eventType, ::StringW s1, ::StringW s2, ::StringW s3) ;
 
 /// @brief Method InitEvent addr 0x26c6c40 size 0x10 virtual false final false
- void InitEvent(::System::Xml::____System__Xml__XmlEventCache__XmlEventType eventType, ::StringW s1, ::StringW s2, ::StringW s3, ::bs_hook::Il2CppWrapperType o) ;
+ void InitEvent(System::Xml::System__Xml__XmlEventCache__XmlEventType eventType, ::StringW s1, ::StringW s2, ::StringW s3, ::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method InitEvent addr 0x26c6c50 size 0xc virtual false final false
- void InitEvent(::System::Xml::____System__Xml__XmlEventCache__XmlEventType eventType, ::bs_hook::Il2CppWrapperType o) ;
+ void InitEvent(System::Xml::System__Xml__XmlEventCache__XmlEventType eventType, ::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method get_EventType addr 0x26c6c64 size 0x8 virtual false final false
- ::System::Xml::____System__Xml__XmlEventCache__XmlEventType get_EventType() ;
+ System::Xml::System__Xml__XmlEventCache__XmlEventType get_EventType() ;
 
 /// @brief Method get_String1 addr 0x26c6c6c size 0x8 virtual false final false
  ::StringW get_String1() ;
@@ -327,12 +326,12 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11397))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11395))
 // CS Name: System.Xml.XmlEventCache
-class CORDL_TYPE XmlEventCache : public ::System::Xml::XmlRawWriter {
+class CORDL_TYPE XmlEventCache : public System::Xml::XmlRawWriter {
 public:
 // Declarations
-using XmlEvent = ::System::Xml::____System__Xml__XmlEventCache__XmlEvent;
+using XmlEvent = System::Xml::System__Xml__XmlEventCache__XmlEvent;
 
-using XmlEventType = ::System::Xml::____System__Xml__XmlEventCache__XmlEventType;
+using XmlEventType = System::Xml::System__Xml__XmlEventCache__XmlEventType;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x78};
@@ -346,7 +345,7 @@ constexpr XmlEventCache(XmlEventCache const& ) noexcept = default;
 constexpr XmlEventCache(XmlEventCache&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XmlEventCache(void* ptr) noexcept : ::System::Xml::XmlRawWriter(ptr) {
+constexpr explicit XmlEventCache(void* ptr) noexcept : System::Xml::XmlRawWriter(ptr) {
 }
 
 
@@ -367,17 +366,17 @@ constexpr explicit XmlEventCache(void* ptr) noexcept : ::System::Xml::XmlRawWrit
 
 // Fields
 
- ::System::Collections::Generic::List_1<::ArrayW<::System::Xml::____System__Xml__XmlEventCache__XmlEvent>> __declspec(property(get=__get_pages, put=__set_pages))  pages;
+ System::Collections::Generic::List_1<::ArrayW<System::Xml::System__Xml__XmlEventCache__XmlEvent>> __declspec(property(get=__get_pages, put=__set_pages))  pages;
 
-constexpr void __set_pages(::System::Collections::Generic::List_1<::ArrayW<::System::Xml::____System__Xml__XmlEventCache__XmlEvent>> value) ;
+constexpr void __set_pages(System::Collections::Generic::List_1<::ArrayW<System::Xml::System__Xml__XmlEventCache__XmlEvent>> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::ArrayW<::System::Xml::____System__Xml__XmlEventCache__XmlEvent>> __get_pages() const;
+constexpr System::Collections::Generic::List_1<::ArrayW<System::Xml::System__Xml__XmlEventCache__XmlEvent>> __get_pages() const;
 
- ::ArrayW<::System::Xml::____System__Xml__XmlEventCache__XmlEvent> __declspec(property(get=__get_pageCurr, put=__set_pageCurr))  pageCurr;
+ ::ArrayW<System::Xml::System__Xml__XmlEventCache__XmlEvent> __declspec(property(get=__get_pageCurr, put=__set_pageCurr))  pageCurr;
 
-constexpr void __set_pageCurr(::ArrayW<::System::Xml::____System__Xml__XmlEventCache__XmlEvent> value) ;
+constexpr void __set_pageCurr(::ArrayW<System::Xml::System__Xml__XmlEventCache__XmlEvent> value) ;
 
-constexpr ::ArrayW<::System::Xml::____System__Xml__XmlEventCache__XmlEvent> __get_pageCurr() const;
+constexpr ::ArrayW<System::Xml::System__Xml__XmlEventCache__XmlEvent> __get_pageCurr() const;
 
  int32_t __declspec(property(get=__get_pageSize, put=__set_pageSize))  pageSize;
 
@@ -391,11 +390,11 @@ constexpr void __set_hasRootNode(bool value) ;
 
 constexpr bool __get_hasRootNode() const;
 
- ::System::Xml::Xsl::Runtime::StringConcat __declspec(property(get=__get_singleText, put=__set_singleText))  singleText;
+ System::Xml::Xsl::Runtime::StringConcat __declspec(property(get=__get_singleText, put=__set_singleText))  singleText;
 
-constexpr void __set_singleText(::System::Xml::Xsl::Runtime::StringConcat value) ;
+constexpr void __set_singleText(System::Xml::Xsl::Runtime::StringConcat value) ;
 
-constexpr ::System::Xml::Xsl::Runtime::StringConcat __get_singleText() const;
+constexpr System::Xml::Xsl::Runtime::StringConcat __get_singleText() const;
 
  ::StringW __declspec(property(get=__get_baseUri, put=__set_baseUri))  baseUri;
 
@@ -416,7 +415,7 @@ explicit XmlEventCache(::StringW baseUri, bool hasRootNode) ;
  void EndEvents() ;
 
 /// @brief Method EventsToWriter addr 0x26c3670 size 0x6f4 virtual false final false
- void EventsToWriter(::System::Xml::XmlWriter writer) ;
+ void EventsToWriter(System::Xml::XmlWriter writer) ;
 
 /// @brief Method WriteDocType addr 0x26c6394 size 0x18 virtual true final false
  void WriteDocType(::StringW name, ::StringW pubid, ::StringW sysid, ::StringW subset) ;
@@ -482,7 +481,7 @@ explicit XmlEventCache(::StringW baseUri, bool hasRootNode) ;
  void Dispose(bool disposing) ;
 
 /// @brief Method WriteXmlDeclaration addr 0x26c6950 size 0x6c virtual true final false
- void WriteXmlDeclaration(::System::Xml::XmlStandalone standalone) ;
+ void WriteXmlDeclaration(System::Xml::XmlStandalone standalone) ;
 
 /// @brief Method WriteXmlDeclaration addr 0x26c69bc size 0xc virtual true final false
  void WriteXmlDeclaration(::StringW xmldecl) ;
@@ -503,22 +502,22 @@ explicit XmlEventCache(::StringW baseUri, bool hasRootNode) ;
  void WriteEndBase64() ;
 
 /// @brief Method AddEvent addr 0x26c634c size 0x48 virtual false final false
- void AddEvent(::System::Xml::____System__Xml__XmlEventCache__XmlEventType eventType) ;
+ void AddEvent(System::Xml::System__Xml__XmlEventCache__XmlEventType eventType) ;
 
 /// @brief Method AddEvent addr 0x26c64bc size 0x50 virtual false final false
- void AddEvent(::System::Xml::____System__Xml__XmlEventCache__XmlEventType eventType, ::StringW s1) ;
+ void AddEvent(System::Xml::System__Xml__XmlEventCache__XmlEventType eventType, ::StringW s1) ;
 
 /// @brief Method AddEvent addr 0x26c6528 size 0x5c virtual false final false
- void AddEvent(::System::Xml::____System__Xml__XmlEventCache__XmlEventType eventType, ::StringW s1, ::StringW s2) ;
+ void AddEvent(System::Xml::System__Xml__XmlEventCache__XmlEventType eventType, ::StringW s1, ::StringW s2) ;
 
 /// @brief Method AddEvent addr 0x26c6430 size 0x64 virtual false final false
- void AddEvent(::System::Xml::____System__Xml__XmlEventCache__XmlEventType eventType, ::StringW s1, ::StringW s2, ::StringW s3) ;
+ void AddEvent(System::Xml::System__Xml__XmlEventCache__XmlEventType eventType, ::StringW s1, ::StringW s2, ::StringW s3) ;
 
 /// @brief Method AddEvent addr 0x26c63ac size 0x70 virtual false final false
- void AddEvent(::System::Xml::____System__Xml__XmlEventCache__XmlEventType eventType, ::StringW s1, ::StringW s2, ::StringW s3, ::bs_hook::Il2CppWrapperType o) ;
+ void AddEvent(System::Xml::System__Xml__XmlEventCache__XmlEventType eventType, ::StringW s1, ::StringW s2, ::StringW s3, ::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method AddEvent addr 0x26c6698 size 0x50 virtual false final false
- void AddEvent(::System::Xml::____System__Xml__XmlEventCache__XmlEventType eventType, ::bs_hook::Il2CppWrapperType o) ;
+ void AddEvent(System::Xml::System__Xml__XmlEventCache__XmlEventType eventType, ::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method NewEvent addr 0x26c6a10 size 0x208 virtual false final false
  int32_t NewEvent() ;
@@ -530,8 +529,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::____System__Xml__XmlEventCache__XmlEventType, "System.Xml", "XmlEventCache/XmlEventType");
-NEED_NO_BOX(::System::Xml::XmlEventCache);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlEventCache, "System.Xml", "XmlEventCache");
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::____System__Xml__XmlEventCache__XmlEvent, "System.Xml", "XmlEventCache/XmlEvent");
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::System__Xml__XmlEventCache__XmlEventType, "System.Xml", "XmlEventCache/XmlEventType");
+NEED_NO_BOX(System::Xml::XmlEventCache);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlEventCache, "System.Xml", "XmlEventCache");
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::System__Xml__XmlEventCache__XmlEvent, "System.Xml", "XmlEventCache/XmlEvent");

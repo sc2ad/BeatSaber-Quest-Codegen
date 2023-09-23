@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class AudioTimeSyncController;
 }
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5471))
 // CS Name: SongTimeAnimationPlayer
-class CORDL_TYPE SongTimeAnimationPlayer : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SongTimeAnimationPlayer : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr SongTimeAnimationPlayer(SongTimeAnimationPlayer const& ) noexcept = de
 constexpr SongTimeAnimationPlayer(SongTimeAnimationPlayer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SongTimeAnimationPlayer(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SongTimeAnimationPlayer(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -54,17 +53,17 @@ constexpr explicit SongTimeAnimationPlayer(void* ptr) noexcept : ::UnityEngine::
 
 // Fields
 
- ::UnityEngine::AnimationClip __declspec(property(get=__get__animationClip, put=__set__animationClip))  _animationClip;
+ UnityEngine::AnimationClip __declspec(property(get=__get__animationClip, put=__set__animationClip))  _animationClip;
 
-constexpr void __set__animationClip(::UnityEngine::AnimationClip value) ;
+constexpr void __set__animationClip(UnityEngine::AnimationClip value) ;
 
-constexpr ::UnityEngine::AnimationClip __get__animationClip() const;
+constexpr UnityEngine::AnimationClip __get__animationClip() const;
 
- ::GlobalNamespace::AudioTimeSyncController __declspec(property(get=__get__audioTimeSyncController, put=__set__audioTimeSyncController))  _audioTimeSyncController;
+ GlobalNamespace::AudioTimeSyncController __declspec(property(get=__get__audioTimeSyncController, put=__set__audioTimeSyncController))  _audioTimeSyncController;
 
-constexpr void __set__audioTimeSyncController(::GlobalNamespace::AudioTimeSyncController value) ;
+constexpr void __set__audioTimeSyncController(GlobalNamespace::AudioTimeSyncController value) ;
 
-constexpr ::GlobalNamespace::AudioTimeSyncController __get__audioTimeSyncController() const;
+constexpr GlobalNamespace::AudioTimeSyncController __get__audioTimeSyncController() const;
 
 
 // Methods
@@ -82,6 +81,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SongTimeAnimationPlayer);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SongTimeAnimationPlayer, "", "SongTimeAnimationPlayer");
+NEED_NO_BOX(GlobalNamespace::SongTimeAnimationPlayer);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongTimeAnimationPlayer, "", "SongTimeAnimationPlayer");

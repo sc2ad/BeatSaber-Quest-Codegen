@@ -3,27 +3,26 @@
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
-struct Vector2;
-}
-namespace TMPro {
-class TextMeshPro;
+struct Vector4;
 }
 namespace TMPro {
 struct TextContainerAnchors;
 }
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine {
-class RectTransform;
+namespace TMPro {
+class TextMeshPro;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine {
 struct Rect;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace TMPro {
@@ -35,7 +34,7 @@ namespace TMPro {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13153))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12248))
 // CS Name: TMPro.TextContainer
-class CORDL_TYPE TextContainer : public ::UnityEngine::EventSystems::UIBehaviour {
+class CORDL_TYPE TextContainer : public UnityEngine::EventSystems::UIBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -50,7 +49,7 @@ constexpr TextContainer(TextContainer const& ) noexcept = default;
 constexpr TextContainer(TextContainer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TextContainer(void* ptr) noexcept : ::UnityEngine::EventSystems::UIBehaviour(ptr) {
+constexpr explicit TextContainer(void* ptr) noexcept : UnityEngine::EventSystems::UIBehaviour(ptr) {
 }
 
 
@@ -77,23 +76,23 @@ constexpr void __set_m_hasChanged(bool value) ;
 
 constexpr bool __get_m_hasChanged() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_m_pivot, put=__set_m_pivot))  m_pivot;
+ UnityEngine::Vector2 __declspec(property(get=__get_m_pivot, put=__set_m_pivot))  m_pivot;
 
-constexpr void __set_m_pivot(::UnityEngine::Vector2 value) ;
+constexpr void __set_m_pivot(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_m_pivot() const;
+constexpr UnityEngine::Vector2 __get_m_pivot() const;
 
- ::TMPro::TextContainerAnchors __declspec(property(get=__get_m_anchorPosition, put=__set_m_anchorPosition))  m_anchorPosition;
+ TMPro::TextContainerAnchors __declspec(property(get=__get_m_anchorPosition, put=__set_m_anchorPosition))  m_anchorPosition;
 
-constexpr void __set_m_anchorPosition(::TMPro::TextContainerAnchors value) ;
+constexpr void __set_m_anchorPosition(TMPro::TextContainerAnchors value) ;
 
-constexpr ::TMPro::TextContainerAnchors __get_m_anchorPosition() const;
+constexpr TMPro::TextContainerAnchors __get_m_anchorPosition() const;
 
- ::UnityEngine::Rect __declspec(property(get=__get_m_rect, put=__set_m_rect))  m_rect;
+ UnityEngine::Rect __declspec(property(get=__get_m_rect, put=__set_m_rect))  m_rect;
 
-constexpr void __set_m_rect(::UnityEngine::Rect value) ;
+constexpr void __set_m_rect(UnityEngine::Rect value) ;
 
-constexpr ::UnityEngine::Rect __get_m_rect() const;
+constexpr UnityEngine::Rect __get_m_rect() const;
 
  bool __declspec(property(get=__get_m_isDefaultWidth, put=__set_m_isDefaultWidth))  m_isDefaultWidth;
 
@@ -113,54 +112,54 @@ constexpr void __set_m_isAutoFitting(bool value) ;
 
 constexpr bool __get_m_isAutoFitting() const;
 
- ::ArrayW<::UnityEngine::Vector3> __declspec(property(get=__get_m_corners, put=__set_m_corners))  m_corners;
+ ::ArrayW<UnityEngine::Vector3> __declspec(property(get=__get_m_corners, put=__set_m_corners))  m_corners;
 
-constexpr void __set_m_corners(::ArrayW<::UnityEngine::Vector3> value) ;
+constexpr void __set_m_corners(::ArrayW<UnityEngine::Vector3> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector3> __get_m_corners() const;
+constexpr ::ArrayW<UnityEngine::Vector3> __get_m_corners() const;
 
- ::ArrayW<::UnityEngine::Vector3> __declspec(property(get=__get_m_worldCorners, put=__set_m_worldCorners))  m_worldCorners;
+ ::ArrayW<UnityEngine::Vector3> __declspec(property(get=__get_m_worldCorners, put=__set_m_worldCorners))  m_worldCorners;
 
-constexpr void __set_m_worldCorners(::ArrayW<::UnityEngine::Vector3> value) ;
+constexpr void __set_m_worldCorners(::ArrayW<UnityEngine::Vector3> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector3> __get_m_worldCorners() const;
+constexpr ::ArrayW<UnityEngine::Vector3> __get_m_worldCorners() const;
 
- ::UnityEngine::Vector4 __declspec(property(get=__get_m_margins, put=__set_m_margins))  m_margins;
+ UnityEngine::Vector4 __declspec(property(get=__get_m_margins, put=__set_m_margins))  m_margins;
 
-constexpr void __set_m_margins(::UnityEngine::Vector4 value) ;
+constexpr void __set_m_margins(UnityEngine::Vector4 value) ;
 
-constexpr ::UnityEngine::Vector4 __get_m_margins() const;
+constexpr UnityEngine::Vector4 __get_m_margins() const;
 
- ::UnityEngine::RectTransform __declspec(property(get=__get_m_rectTransform, put=__set_m_rectTransform))  m_rectTransform;
+ UnityEngine::RectTransform __declspec(property(get=__get_m_rectTransform, put=__set_m_rectTransform))  m_rectTransform;
 
-constexpr void __set_m_rectTransform(::UnityEngine::RectTransform value) ;
+constexpr void __set_m_rectTransform(UnityEngine::RectTransform value) ;
 
-constexpr ::UnityEngine::RectTransform __get_m_rectTransform() const;
+constexpr UnityEngine::RectTransform __get_m_rectTransform() const;
 
-static ::UnityEngine::Vector2 __declspec(property(get=__get_k_defaultSize, put=__set_k_defaultSize))  k_defaultSize;
+static UnityEngine::Vector2 __declspec(property(get=__get_k_defaultSize, put=__set_k_defaultSize))  k_defaultSize;
 
-static void __set_k_defaultSize(::UnityEngine::Vector2 value) ;
+static void __set_k_defaultSize(UnityEngine::Vector2 value) ;
 
-static ::UnityEngine::Vector2 __get_k_defaultSize() ;
+static UnityEngine::Vector2 __get_k_defaultSize() ;
 
- ::TMPro::TextMeshPro __declspec(property(get=__get_m_textMeshPro, put=__set_m_textMeshPro))  m_textMeshPro;
+ TMPro::TextMeshPro __declspec(property(get=__get_m_textMeshPro, put=__set_m_textMeshPro))  m_textMeshPro;
 
-constexpr void __set_m_textMeshPro(::TMPro::TextMeshPro value) ;
+constexpr void __set_m_textMeshPro(TMPro::TextMeshPro value) ;
 
-constexpr ::TMPro::TextMeshPro __get_m_textMeshPro() const;
+constexpr TMPro::TextMeshPro __get_m_textMeshPro() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_hasChanged, put=set_hasChanged))  hasChanged;
 
- ::UnityEngine::Vector2 __declspec(property(get=get_pivot, put=set_pivot))  pivot;
+ UnityEngine::Vector2 __declspec(property(get=get_pivot, put=set_pivot))  pivot;
 
- ::TMPro::TextContainerAnchors __declspec(property(get=get_anchorPosition, put=set_anchorPosition))  anchorPosition;
+ TMPro::TextContainerAnchors __declspec(property(get=get_anchorPosition, put=set_anchorPosition))  anchorPosition;
 
- ::UnityEngine::Rect __declspec(property(get=get_rect, put=set_rect))  rect;
+ UnityEngine::Rect __declspec(property(get=get_rect, put=set_rect))  rect;
 
- ::UnityEngine::Vector2 __declspec(property(get=get_size, put=set_size))  size;
+ UnityEngine::Vector2 __declspec(property(get=get_size, put=set_size))  size;
 
  float_t __declspec(property(get=get_width, put=set_width))  width;
 
@@ -172,15 +171,15 @@ constexpr ::TMPro::TextMeshPro __get_m_textMeshPro() const;
 
  bool __declspec(property(get=get_isAutoFitting, put=set_isAutoFitting))  isAutoFitting;
 
- ::ArrayW<::UnityEngine::Vector3> __declspec(property(get=get_corners))  corners;
+ ::ArrayW<UnityEngine::Vector3> __declspec(property(get=get_corners))  corners;
 
- ::ArrayW<::UnityEngine::Vector3> __declspec(property(get=get_worldCorners))  worldCorners;
+ ::ArrayW<UnityEngine::Vector3> __declspec(property(get=get_worldCorners))  worldCorners;
 
- ::UnityEngine::Vector4 __declspec(property(get=get_margins, put=set_margins))  margins;
+ UnityEngine::Vector4 __declspec(property(get=get_margins, put=set_margins))  margins;
 
- ::UnityEngine::RectTransform __declspec(property(get=get_rectTransform))  rectTransform;
+ UnityEngine::RectTransform __declspec(property(get=get_rectTransform))  rectTransform;
 
- ::TMPro::TextMeshPro __declspec(property(get=get_textMeshPro))  textMeshPro;
+ TMPro::TextMeshPro __declspec(property(get=get_textMeshPro))  textMeshPro;
 
 
 // Methods
@@ -192,28 +191,28 @@ constexpr ::TMPro::TextMeshPro __get_m_textMeshPro() const;
  void set_hasChanged(bool value) ;
 
 /// @brief Method get_pivot addr 0x2a588d0 size 0x8 virtual false final false
- ::UnityEngine::Vector2 get_pivot() ;
+ UnityEngine::Vector2 get_pivot() ;
 
 /// @brief Method set_pivot addr 0x2a588d8 size 0x58 virtual false final false
- void set_pivot(::UnityEngine::Vector2 value) ;
+ void set_pivot(UnityEngine::Vector2 value) ;
 
 /// @brief Method get_anchorPosition addr 0x2a58b70 size 0x8 virtual false final false
- ::TMPro::TextContainerAnchors get_anchorPosition() ;
+ TMPro::TextContainerAnchors get_anchorPosition() ;
 
 /// @brief Method set_anchorPosition addr 0x2a58b78 size 0x3c virtual false final false
- void set_anchorPosition(::TMPro::TextContainerAnchors value) ;
+ void set_anchorPosition(TMPro::TextContainerAnchors value) ;
 
 /// @brief Method get_rect addr 0x2a58c2c size 0xc virtual false final false
- ::UnityEngine::Rect get_rect() ;
+ UnityEngine::Rect get_rect() ;
 
 /// @brief Method set_rect addr 0x2a58c38 size 0x7c virtual false final false
- void set_rect(::UnityEngine::Rect value) ;
+ void set_rect(UnityEngine::Rect value) ;
 
 /// @brief Method get_size addr 0x2a58cb4 size 0x3c virtual false final false
- ::UnityEngine::Vector2 get_size() ;
+ UnityEngine::Vector2 get_size() ;
 
 /// @brief Method set_size addr 0x2a58cf0 size 0xa8 virtual false final false
- void set_size(::UnityEngine::Vector2 value) ;
+ void set_size(UnityEngine::Vector2 value) ;
 
 /// @brief Method get_width addr 0x2a58e18 size 0xc virtual false final false
  float_t get_width() ;
@@ -240,22 +239,22 @@ constexpr ::TMPro::TextMeshPro __get_m_textMeshPro() const;
  void set_isAutoFitting(bool value) ;
 
 /// @brief Method get_corners addr 0x2a58ee0 size 0x8 virtual false final false
- ::ArrayW<::UnityEngine::Vector3> get_corners() ;
+ ::ArrayW<UnityEngine::Vector3> get_corners() ;
 
 /// @brief Method get_worldCorners addr 0x2a58ee8 size 0x8 virtual false final false
- ::ArrayW<::UnityEngine::Vector3> get_worldCorners() ;
+ ::ArrayW<UnityEngine::Vector3> get_worldCorners() ;
 
 /// @brief Method get_margins addr 0x2a58ef0 size 0xc virtual false final false
- ::UnityEngine::Vector4 get_margins() ;
+ UnityEngine::Vector4 get_margins() ;
 
 /// @brief Method set_margins addr 0x2a58efc size 0x5c virtual false final false
- void set_margins(::UnityEngine::Vector4 value) ;
+ void set_margins(UnityEngine::Vector4 value) ;
 
 /// @brief Method get_rectTransform addr 0x2a58f58 size 0x94 virtual false final false
- ::UnityEngine::RectTransform get_rectTransform() ;
+ UnityEngine::RectTransform get_rectTransform() ;
 
 /// @brief Method get_textMeshPro addr 0x2a58fec size 0x94 virtual false final false
- ::TMPro::TextMeshPro get_textMeshPro() ;
+ TMPro::TextMeshPro get_textMeshPro() ;
 
 /// @brief Method Awake addr 0x2a59080 size 0xc8 virtual true final false
  void Awake() ;
@@ -273,16 +272,16 @@ constexpr ::TMPro::TextMeshPro __get_m_textMeshPro() const;
  void OnRectTransformDimensionsChange() ;
 
 /// @brief Method SetRect addr 0x2a58d98 size 0x80 virtual false final false
- void SetRect(::UnityEngine::Vector2 size) ;
+ void SetRect(UnityEngine::Vector2 size) ;
 
 /// @brief Method UpdateCorners addr 0x2a59150 size 0x1d8 virtual false final false
  void UpdateCorners() ;
 
 /// @brief Method GetPivot addr 0x2a58bb4 size 0x78 virtual false final false
- ::UnityEngine::Vector2 GetPivot(::TMPro::TextContainerAnchors anchor) ;
+ UnityEngine::Vector2 GetPivot(TMPro::TextContainerAnchors anchor) ;
 
 /// @brief Method GetAnchorPosition addr 0x2a58930 size 0xf0 virtual false final false
- ::TMPro::TextContainerAnchors GetAnchorPosition(::UnityEngine::Vector2 pivot) ;
+ TMPro::TextContainerAnchors GetAnchorPosition(UnityEngine::Vector2 pivot) ;
 
 // Ctor Parameters []
 explicit TextContainer() ;
@@ -294,6 +293,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-NEED_NO_BOX(::TMPro::TextContainer);
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::TextContainer, "TMPro", "TextContainer");
+NEED_NO_BOX(TMPro::TextContainer);
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TextContainer, "TMPro", "TextContainer");

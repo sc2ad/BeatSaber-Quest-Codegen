@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__BlockedUserList_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
 class BlockedUserList;
 }
@@ -17,7 +16,7 @@ namespace Oculus::Platform {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13396)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4434 }), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13221))
 // CS Name: Oculus.Platform.MessageWithBlockedUserList
-class CORDL_TYPE MessageWithBlockedUserList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::BlockedUserList> {
+class CORDL_TYPE MessageWithBlockedUserList : public Oculus::Platform::Message_1<Oculus::Platform::Models::BlockedUserList> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr MessageWithBlockedUserList(MessageWithBlockedUserList const& ) noexcep
 constexpr MessageWithBlockedUserList(MessageWithBlockedUserList&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MessageWithBlockedUserList(void* ptr) noexcept : ::Oculus::Platform::Message_1<::Oculus::Platform::Models::BlockedUserList>(ptr) {
+constexpr explicit MessageWithBlockedUserList(void* ptr) noexcept : Oculus::Platform::Message_1<Oculus::Platform::Models::BlockedUserList>(ptr) {
 }
 
 
@@ -60,15 +59,14 @@ explicit MessageWithBlockedUserList(::cordl_internals::intptr_t c_message) ;
  void _ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method GetBlockedUserList addr 0x2580650 size 0x3c virtual true final false
- ::Oculus::Platform::Models::BlockedUserList GetBlockedUserList() ;
+ Oculus::Platform::Models::BlockedUserList GetBlockedUserList() ;
 
 /// @brief Method GetDataFromMessage addr 0x258068c size 0x9c virtual true final false
- ::Oculus::Platform::Models::BlockedUserList GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
+ Oculus::Platform::Models::BlockedUserList GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::MessageWithBlockedUserList);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithBlockedUserList, "Oculus.Platform", "MessageWithBlockedUserList");
+NEED_NO_BOX(Oculus::Platform::MessageWithBlockedUserList);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithBlockedUserList, "Oculus.Platform", "MessageWithBlockedUserList");

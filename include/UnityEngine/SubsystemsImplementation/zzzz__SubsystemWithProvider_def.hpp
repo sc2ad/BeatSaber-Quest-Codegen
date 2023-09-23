@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace UnityEngine {
 class ISubsystem;
 }
@@ -21,8 +20,8 @@ namespace UnityEngine::SubsystemsImplementation {
 class CORDL_TYPE SubsystemWithProvider : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::ISubsystem
-constexpr operator  ::UnityEngine::ISubsystem() const noexcept;
+/// @brief Convert operator to UnityEngine::ISubsystem
+constexpr operator  UnityEngine::ISubsystem() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -63,18 +62,18 @@ constexpr void __set__running_k__BackingField(bool value) ;
 
 constexpr bool __get__running_k__BackingField() const;
 
- ::UnityEngine::SubsystemsImplementation::SubsystemProvider __declspec(property(get=__get__providerBase_k__BackingField, put=__set__providerBase_k__BackingField))  _providerBase_k__BackingField;
+ UnityEngine::SubsystemsImplementation::SubsystemProvider __declspec(property(get=__get__providerBase_k__BackingField, put=__set__providerBase_k__BackingField))  _providerBase_k__BackingField;
 
-constexpr void __set__providerBase_k__BackingField(::UnityEngine::SubsystemsImplementation::SubsystemProvider value) ;
+constexpr void __set__providerBase_k__BackingField(UnityEngine::SubsystemsImplementation::SubsystemProvider value) ;
 
-constexpr ::UnityEngine::SubsystemsImplementation::SubsystemProvider __get__providerBase_k__BackingField() const;
+constexpr UnityEngine::SubsystemsImplementation::SubsystemProvider __get__providerBase_k__BackingField() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_running, put=set_running))  running;
 
- ::UnityEngine::SubsystemsImplementation::SubsystemProvider __declspec(property(get=get_providerBase))  providerBase;
+ UnityEngine::SubsystemsImplementation::SubsystemProvider __declspec(property(get=get_providerBase))  providerBase;
 
 
 // Methods
@@ -104,7 +103,7 @@ constexpr ::UnityEngine::SubsystemsImplementation::SubsystemProvider __get__prov
  void set_running(bool value) ;
 
 /// @brief Method get_providerBase addr 0x2ba43f8 size 0x8 virtual false final false
- ::UnityEngine::SubsystemsImplementation::SubsystemProvider get_providerBase() ;
+ UnityEngine::SubsystemsImplementation::SubsystemProvider get_providerBase() ;
 
 // Ctor Parameters []
 explicit SubsystemWithProvider() ;
@@ -116,6 +115,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::SubsystemsImplementation
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::SubsystemsImplementation::SubsystemWithProvider);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SubsystemsImplementation::SubsystemWithProvider, "UnityEngine.SubsystemsImplementation", "SubsystemWithProvider");
+NEED_NO_BOX(UnityEngine::SubsystemsImplementation::SubsystemWithProvider);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SubsystemsImplementation::SubsystemWithProvider, "UnityEngine.SubsystemsImplementation", "SubsystemWithProvider");

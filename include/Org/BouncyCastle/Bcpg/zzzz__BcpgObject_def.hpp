@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Bcpg {
 class BcpgOutputStream;
 }
@@ -57,7 +56,7 @@ constexpr explicit BcpgObject(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType
  ::ArrayW<uint8_t> GetEncoded() ;
 
 /// @brief Method Encode addr 0x0 size 0xffffffffffffffff virtual true final false
- void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream bcpgOut) ;
+ void Encode(Org::BouncyCastle::Bcpg::BcpgOutputStream bcpgOut) ;
 
 // Ctor Parameters []
 explicit BcpgObject() ;
@@ -69,6 +68,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::BcpgObject);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::BcpgObject, "Org.BouncyCastle.Bcpg", "BcpgObject");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::BcpgObject);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::BcpgObject, "Org.BouncyCastle.Bcpg", "BcpgObject");

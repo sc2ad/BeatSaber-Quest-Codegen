@@ -1,11 +1,10 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
-namespace {
-namespace System::Runtime::Remoting::Lifetime {
-class ILease;
-}
 namespace System {
 struct TimeSpan;
+}
+namespace System::Runtime::Remoting::Lifetime {
+class ILease;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Lifetime {
@@ -30,12 +29,11 @@ constexpr explicit ISponsor(void* ptr) noexcept : ::cordl_internals::InterfaceW(
 // Methods
 
 /// @brief Method Renewal addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::TimeSpan Renewal(::System::Runtime::Remoting::Lifetime::ILease lease) ;
+ System::TimeSpan Renewal(System::Runtime::Remoting::Lifetime::ILease lease) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Lifetime
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Lifetime::ISponsor);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Lifetime::ISponsor, "System.Runtime.Remoting.Lifetime", "ISponsor");
+NEED_NO_BOX(System::Runtime::Remoting::Lifetime::ISponsor);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Lifetime::ISponsor, "System.Runtime.Remoting.Lifetime", "ISponsor");

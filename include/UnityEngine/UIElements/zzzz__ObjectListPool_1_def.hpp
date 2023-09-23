@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -64,24 +63,23 @@ constexpr explicit ObjectListPool_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
-static ::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::List_1<T>> __declspec(property(get=__get_pool, put=__set_pool))  pool;
+static UnityEngine::UIElements::ObjectPool_1<System::Collections::Generic::List_1<T>> __declspec(property(get=__get_pool, put=__set_pool))  pool;
 
-static void __set_pool(::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::List_1<T>> value) ;
+static void __set_pool(UnityEngine::UIElements::ObjectPool_1<System::Collections::Generic::List_1<T>> value) ;
 
-static ::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::List_1<T>> __get_pool() ;
+static UnityEngine::UIElements::ObjectPool_1<System::Collections::Generic::List_1<T>> __get_pool() ;
 
 
 // Methods
 
 /// @brief Method Get addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Collections::Generic::List_1<T> Get() ;
+static System::Collections::Generic::List_1<T> Get() ;
 
 /// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual false final false
-static void Release(::System::Collections::Generic::List_1<T> elements) ;
+static void Release(System::Collections::Generic::List_1<T> elements) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::ObjectListPool_1, "UnityEngine.UIElements", "ObjectListPool`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::UIElements::ObjectListPool_1, "UnityEngine.UIElements", "ObjectListPool`1");

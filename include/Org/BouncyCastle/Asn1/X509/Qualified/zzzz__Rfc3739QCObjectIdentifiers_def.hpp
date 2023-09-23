@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
@@ -51,23 +50,23 @@ constexpr explicit Rfc3739QCObjectIdentifiers(void* ptr) noexcept : ::bs_hook::I
 
 // Fields
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_IdQcs, put=__set_IdQcs))  IdQcs;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_IdQcs, put=__set_IdQcs))  IdQcs;
 
-static void __set_IdQcs(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_IdQcs(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_IdQcs() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_IdQcs() ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_IdQcsPkixQCSyntaxV1, put=__set_IdQcsPkixQCSyntaxV1))  IdQcsPkixQCSyntaxV1;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_IdQcsPkixQCSyntaxV1, put=__set_IdQcsPkixQCSyntaxV1))  IdQcsPkixQCSyntaxV1;
 
-static void __set_IdQcsPkixQCSyntaxV1(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_IdQcsPkixQCSyntaxV1(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_IdQcsPkixQCSyntaxV1() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_IdQcsPkixQCSyntaxV1() ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_IdQcsPkixQCSyntaxV2, put=__set_IdQcsPkixQCSyntaxV2))  IdQcsPkixQCSyntaxV2;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_IdQcsPkixQCSyntaxV2, put=__set_IdQcsPkixQCSyntaxV2))  IdQcsPkixQCSyntaxV2;
 
-static void __set_IdQcsPkixQCSyntaxV2(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_IdQcsPkixQCSyntaxV2(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_IdQcsPkixQCSyntaxV2() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_IdQcsPkixQCSyntaxV2() ;
 
 
 // Methods
@@ -82,6 +81,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::X509::Qualified
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::Qualified::Rfc3739QCObjectIdentifiers);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X509::Qualified::Rfc3739QCObjectIdentifiers, "Org.BouncyCastle.Asn1.X509.Qualified", "Rfc3739QCObjectIdentifiers");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::Qualified::Rfc3739QCObjectIdentifiers);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::Qualified::Rfc3739QCObjectIdentifiers, "Org.BouncyCastle.Asn1.X509.Qualified", "Rfc3739QCObjectIdentifiers");

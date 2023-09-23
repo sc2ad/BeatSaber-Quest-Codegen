@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Assets::OVR::Scripts {
 class FixMethodDelegate;
 }
@@ -21,7 +20,7 @@ namespace Assets::OVR::Scripts {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9513))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9516))
 // CS Name: Assets.OVR.Scripts.FixRecord
-class CORDL_TYPE FixRecord : public ::Assets::OVR::Scripts::Record {
+class CORDL_TYPE FixRecord : public Assets::OVR::Scripts::Record {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr FixRecord(FixRecord const& ) noexcept = default;
 constexpr FixRecord(FixRecord&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FixRecord(void* ptr) noexcept : ::Assets::OVR::Scripts::Record(ptr) {
+constexpr explicit FixRecord(void* ptr) noexcept : Assets::OVR::Scripts::Record(ptr) {
 }
 
 
@@ -57,17 +56,17 @@ constexpr explicit FixRecord(void* ptr) noexcept : ::Assets::OVR::Scripts::Recor
 
 // Fields
 
- ::Assets::OVR::Scripts::FixMethodDelegate __declspec(property(get=__get_fixMethod, put=__set_fixMethod))  fixMethod;
+ Assets::OVR::Scripts::FixMethodDelegate __declspec(property(get=__get_fixMethod, put=__set_fixMethod))  fixMethod;
 
-constexpr void __set_fixMethod(::Assets::OVR::Scripts::FixMethodDelegate value) ;
+constexpr void __set_fixMethod(Assets::OVR::Scripts::FixMethodDelegate value) ;
 
-constexpr ::Assets::OVR::Scripts::FixMethodDelegate __get_fixMethod() const;
+constexpr Assets::OVR::Scripts::FixMethodDelegate __get_fixMethod() const;
 
- ::UnityEngine::Object __declspec(property(get=__get_targetObject, put=__set_targetObject))  targetObject;
+ UnityEngine::Object __declspec(property(get=__get_targetObject, put=__set_targetObject))  targetObject;
 
-constexpr void __set_targetObject(::UnityEngine::Object value) ;
+constexpr void __set_targetObject(UnityEngine::Object value) ;
 
-constexpr ::UnityEngine::Object __get_targetObject() const;
+constexpr UnityEngine::Object __get_targetObject() const;
 
  ::ArrayW<::StringW> __declspec(property(get=__get_buttonNames, put=__set_buttonNames))  buttonNames;
 
@@ -90,16 +89,15 @@ constexpr bool __get_complete() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "order", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cat", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "msg", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "fix", ty: "::Assets::OVR::Scripts::FixMethodDelegate", modifiers: "", def_value: None }, CppParam { name: "target", ty: "::UnityEngine::Object", modifiers: "", def_value: None }, CppParam { name: "editRequired", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "buttons", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }]
-explicit FixRecord(int32_t order, ::StringW cat, ::StringW msg, ::Assets::OVR::Scripts::FixMethodDelegate fix, ::UnityEngine::Object target, bool editRequired, ::ArrayW<::StringW> buttons) ;
+// Ctor Parameters [CppParam { name: "order", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cat", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "msg", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "fix", ty: "Assets::OVR::Scripts::FixMethodDelegate", modifiers: "", def_value: None }, CppParam { name: "target", ty: "UnityEngine::Object", modifiers: "", def_value: None }, CppParam { name: "editRequired", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "buttons", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }]
+explicit FixRecord(int32_t order, ::StringW cat, ::StringW msg, Assets::OVR::Scripts::FixMethodDelegate fix, UnityEngine::Object target, bool editRequired, ::ArrayW<::StringW> buttons) ;
 
 /// @brief Method .ctor addr 0x266abb0 size 0x6c virtual false final false
- void _ctor(int32_t order, ::StringW cat, ::StringW msg, ::Assets::OVR::Scripts::FixMethodDelegate fix, ::UnityEngine::Object target, bool editRequired, ::ArrayW<::StringW> buttons) ;
+ void _ctor(int32_t order, ::StringW cat, ::StringW msg, Assets::OVR::Scripts::FixMethodDelegate fix, UnityEngine::Object target, bool editRequired, ::ArrayW<::StringW> buttons) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Assets::OVR::Scripts
-} // end anonymous namespace
-NEED_NO_BOX(::Assets::OVR::Scripts::FixRecord);
-DEFINE_IL2CPP_ARG_TYPE(::Assets::OVR::Scripts::FixRecord, "Assets.OVR.Scripts", "FixRecord");
+NEED_NO_BOX(Assets::OVR::Scripts::FixRecord);
+DEFINE_IL2CPP_ARG_TYPE(Assets::OVR::Scripts::FixRecord, "Assets.OVR.Scripts", "FixRecord");

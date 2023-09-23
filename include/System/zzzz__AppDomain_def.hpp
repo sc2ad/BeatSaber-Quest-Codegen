@@ -6,16 +6,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace System {
-class ResolveEventHandler;
+namespace System::Runtime::ExceptionServices {
+class FirstChanceExceptionEventArgs;
 }
 namespace System {
 class AssemblyLoadEventHandler;
+}
+namespace System::Runtime::Remoting::Messaging {
+class CADMethodReturnMessage;
+}
+namespace System::Security::Policy {
+class Evidence;
+}
+namespace System {
+class UnhandledExceptionEventHandler;
 }
 namespace System {
 class EventHandler;
@@ -27,33 +31,28 @@ class Dictionary_2;
 namespace System::Reflection {
 class Assembly;
 }
-namespace System::Security::Policy {
-class Evidence;
+namespace System::Reflection {
+class MethodInfo;
 }
-namespace System::Runtime::Remoting::Messaging {
-class CADMethodReturnMessage;
+namespace System::Threading {
+struct StackCrawlMark;
+}
+namespace System {
+class ResolveEventHandler;
 }
 namespace System::Runtime::Remoting::Messaging {
 class CADMethodCallMessage;
-}
-namespace System::Runtime::ExceptionServices {
-class FirstChanceExceptionEventArgs;
-}
-namespace System {
-class UnhandledExceptionEventHandler;
 }
 namespace System {
 template<typename TEventArgs>
 class EventHandler_1;
 }
-namespace System::Threading {
-struct StackCrawlMark;
-}
-namespace System::Reflection {
-class MethodInfo;
-}
 namespace System::Runtime::Remoting::Contexts {
 class Context;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace System {
@@ -65,7 +64,7 @@ namespace System {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2604))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2574))
 // CS Name: System.AppDomain
-class CORDL_TYPE AppDomain : public ::System::MarshalByRefObject {
+class CORDL_TYPE AppDomain : public System::MarshalByRefObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -80,7 +79,7 @@ constexpr AppDomain(AppDomain const& ) noexcept = default;
 constexpr AppDomain(AppDomain&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AppDomain(void* ptr) noexcept : ::System::MarshalByRefObject(ptr) {
+constexpr explicit AppDomain(void* ptr) noexcept : System::MarshalByRefObject(ptr) {
 }
 
 
@@ -113,23 +112,23 @@ static void __set__process_guid(::StringW value) ;
 
 static ::StringW __get__process_guid() ;
 
-static ::System::Collections::Generic::Dictionary_2<::StringW,::bs_hook::Il2CppWrapperType> __declspec(property(get=__get_type_resolve_in_progress, put=__set_type_resolve_in_progress))  type_resolve_in_progress;
+static System::Collections::Generic::Dictionary_2<::StringW,::bs_hook::Il2CppWrapperType> __declspec(property(get=__get_type_resolve_in_progress, put=__set_type_resolve_in_progress))  type_resolve_in_progress;
 
-static void __set_type_resolve_in_progress(::System::Collections::Generic::Dictionary_2<::StringW,::bs_hook::Il2CppWrapperType> value) ;
+static void __set_type_resolve_in_progress(System::Collections::Generic::Dictionary_2<::StringW,::bs_hook::Il2CppWrapperType> value) ;
 
-static ::System::Collections::Generic::Dictionary_2<::StringW,::bs_hook::Il2CppWrapperType> __get_type_resolve_in_progress() ;
+static System::Collections::Generic::Dictionary_2<::StringW,::bs_hook::Il2CppWrapperType> __get_type_resolve_in_progress() ;
 
-static ::System::Collections::Generic::Dictionary_2<::StringW,::bs_hook::Il2CppWrapperType> __declspec(property(get=__get_assembly_resolve_in_progress, put=__set_assembly_resolve_in_progress))  assembly_resolve_in_progress;
+static System::Collections::Generic::Dictionary_2<::StringW,::bs_hook::Il2CppWrapperType> __declspec(property(get=__get_assembly_resolve_in_progress, put=__set_assembly_resolve_in_progress))  assembly_resolve_in_progress;
 
-static void __set_assembly_resolve_in_progress(::System::Collections::Generic::Dictionary_2<::StringW,::bs_hook::Il2CppWrapperType> value) ;
+static void __set_assembly_resolve_in_progress(System::Collections::Generic::Dictionary_2<::StringW,::bs_hook::Il2CppWrapperType> value) ;
 
-static ::System::Collections::Generic::Dictionary_2<::StringW,::bs_hook::Il2CppWrapperType> __get_assembly_resolve_in_progress() ;
+static System::Collections::Generic::Dictionary_2<::StringW,::bs_hook::Il2CppWrapperType> __get_assembly_resolve_in_progress() ;
 
-static ::System::Collections::Generic::Dictionary_2<::StringW,::bs_hook::Il2CppWrapperType> __declspec(property(get=__get_assembly_resolve_in_progress_refonly, put=__set_assembly_resolve_in_progress_refonly))  assembly_resolve_in_progress_refonly;
+static System::Collections::Generic::Dictionary_2<::StringW,::bs_hook::Il2CppWrapperType> __declspec(property(get=__get_assembly_resolve_in_progress_refonly, put=__set_assembly_resolve_in_progress_refonly))  assembly_resolve_in_progress_refonly;
 
-static void __set_assembly_resolve_in_progress_refonly(::System::Collections::Generic::Dictionary_2<::StringW,::bs_hook::Il2CppWrapperType> value) ;
+static void __set_assembly_resolve_in_progress_refonly(System::Collections::Generic::Dictionary_2<::StringW,::bs_hook::Il2CppWrapperType> value) ;
 
-static ::System::Collections::Generic::Dictionary_2<::StringW,::bs_hook::Il2CppWrapperType> __get_assembly_resolve_in_progress_refonly() ;
+static System::Collections::Generic::Dictionary_2<::StringW,::bs_hook::Il2CppWrapperType> __get_assembly_resolve_in_progress_refonly() ;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=__get__evidence, put=__set__evidence))  _evidence;
 
@@ -149,53 +148,53 @@ constexpr void __set__principalPolicy(int32_t value) ;
 
 constexpr int32_t __get__principalPolicy() const;
 
- ::System::AssemblyLoadEventHandler __declspec(property(get=__get_AssemblyLoad, put=__set_AssemblyLoad))  AssemblyLoad;
+ System::AssemblyLoadEventHandler __declspec(property(get=__get_AssemblyLoad, put=__set_AssemblyLoad))  AssemblyLoad;
 
-constexpr void __set_AssemblyLoad(::System::AssemblyLoadEventHandler value) ;
+constexpr void __set_AssemblyLoad(System::AssemblyLoadEventHandler value) ;
 
-constexpr ::System::AssemblyLoadEventHandler __get_AssemblyLoad() const;
+constexpr System::AssemblyLoadEventHandler __get_AssemblyLoad() const;
 
- ::System::ResolveEventHandler __declspec(property(get=__get_AssemblyResolve, put=__set_AssemblyResolve))  AssemblyResolve;
+ System::ResolveEventHandler __declspec(property(get=__get_AssemblyResolve, put=__set_AssemblyResolve))  AssemblyResolve;
 
-constexpr void __set_AssemblyResolve(::System::ResolveEventHandler value) ;
+constexpr void __set_AssemblyResolve(System::ResolveEventHandler value) ;
 
-constexpr ::System::ResolveEventHandler __get_AssemblyResolve() const;
+constexpr System::ResolveEventHandler __get_AssemblyResolve() const;
 
- ::System::EventHandler __declspec(property(get=__get_DomainUnload, put=__set_DomainUnload))  DomainUnload;
+ System::EventHandler __declspec(property(get=__get_DomainUnload, put=__set_DomainUnload))  DomainUnload;
 
-constexpr void __set_DomainUnload(::System::EventHandler value) ;
+constexpr void __set_DomainUnload(System::EventHandler value) ;
 
-constexpr ::System::EventHandler __get_DomainUnload() const;
+constexpr System::EventHandler __get_DomainUnload() const;
 
- ::System::EventHandler __declspec(property(get=__get_ProcessExit, put=__set_ProcessExit))  ProcessExit;
+ System::EventHandler __declspec(property(get=__get_ProcessExit, put=__set_ProcessExit))  ProcessExit;
 
-constexpr void __set_ProcessExit(::System::EventHandler value) ;
+constexpr void __set_ProcessExit(System::EventHandler value) ;
 
-constexpr ::System::EventHandler __get_ProcessExit() const;
+constexpr System::EventHandler __get_ProcessExit() const;
 
- ::System::ResolveEventHandler __declspec(property(get=__get_ResourceResolve, put=__set_ResourceResolve))  ResourceResolve;
+ System::ResolveEventHandler __declspec(property(get=__get_ResourceResolve, put=__set_ResourceResolve))  ResourceResolve;
 
-constexpr void __set_ResourceResolve(::System::ResolveEventHandler value) ;
+constexpr void __set_ResourceResolve(System::ResolveEventHandler value) ;
 
-constexpr ::System::ResolveEventHandler __get_ResourceResolve() const;
+constexpr System::ResolveEventHandler __get_ResourceResolve() const;
 
- ::System::ResolveEventHandler __declspec(property(get=__get_TypeResolve, put=__set_TypeResolve))  TypeResolve;
+ System::ResolveEventHandler __declspec(property(get=__get_TypeResolve, put=__set_TypeResolve))  TypeResolve;
 
-constexpr void __set_TypeResolve(::System::ResolveEventHandler value) ;
+constexpr void __set_TypeResolve(System::ResolveEventHandler value) ;
 
-constexpr ::System::ResolveEventHandler __get_TypeResolve() const;
+constexpr System::ResolveEventHandler __get_TypeResolve() const;
 
- ::System::UnhandledExceptionEventHandler __declspec(property(get=__get_UnhandledException, put=__set_UnhandledException))  UnhandledException;
+ System::UnhandledExceptionEventHandler __declspec(property(get=__get_UnhandledException, put=__set_UnhandledException))  UnhandledException;
 
-constexpr void __set_UnhandledException(::System::UnhandledExceptionEventHandler value) ;
+constexpr void __set_UnhandledException(System::UnhandledExceptionEventHandler value) ;
 
-constexpr ::System::UnhandledExceptionEventHandler __get_UnhandledException() const;
+constexpr System::UnhandledExceptionEventHandler __get_UnhandledException() const;
 
- ::System::EventHandler_1<::System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs> __declspec(property(get=__get_FirstChanceException, put=__set_FirstChanceException))  FirstChanceException;
+ System::EventHandler_1<System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs> __declspec(property(get=__get_FirstChanceException, put=__set_FirstChanceException))  FirstChanceException;
 
-constexpr void __set_FirstChanceException(::System::EventHandler_1<::System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs> value) ;
+constexpr void __set_FirstChanceException(System::EventHandler_1<System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs> value) ;
 
-constexpr ::System::EventHandler_1<::System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs> __get_FirstChanceException() const;
+constexpr System::EventHandler_1<System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs> __get_FirstChanceException() const;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=__get__domain_manager, put=__set__domain_manager))  _domain_manager;
 
@@ -203,11 +202,11 @@ constexpr void __set__domain_manager(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get__domain_manager() const;
 
- ::System::ResolveEventHandler __declspec(property(get=__get_ReflectionOnlyAssemblyResolve, put=__set_ReflectionOnlyAssemblyResolve))  ReflectionOnlyAssemblyResolve;
+ System::ResolveEventHandler __declspec(property(get=__get_ReflectionOnlyAssemblyResolve, put=__set_ReflectionOnlyAssemblyResolve))  ReflectionOnlyAssemblyResolve;
 
-constexpr void __set_ReflectionOnlyAssemblyResolve(::System::ResolveEventHandler value) ;
+constexpr void __set_ReflectionOnlyAssemblyResolve(System::ResolveEventHandler value) ;
 
-constexpr ::System::ResolveEventHandler __get_ReflectionOnlyAssemblyResolve() const;
+constexpr System::ResolveEventHandler __get_ReflectionOnlyAssemblyResolve() const;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=__get__activation, put=__set__activation))  _activation;
 
@@ -221,16 +220,16 @@ constexpr void __set__applicationIdentity(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get__applicationIdentity() const;
 
- ::System::Collections::Generic::List_1<::StringW> __declspec(property(get=__get_compatibility_switch, put=__set_compatibility_switch))  compatibility_switch;
+ System::Collections::Generic::List_1<::StringW> __declspec(property(get=__get_compatibility_switch, put=__set_compatibility_switch))  compatibility_switch;
 
-constexpr void __set_compatibility_switch(::System::Collections::Generic::List_1<::StringW> value) ;
+constexpr void __set_compatibility_switch(System::Collections::Generic::List_1<::StringW> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::StringW> __get_compatibility_switch() const;
+constexpr System::Collections::Generic::List_1<::StringW> __get_compatibility_switch() const;
 
 
 // Properties
 
-static ::System::AppDomain __declspec(property(get=get_CurrentDomain))  CurrentDomain;
+static System::AppDomain __declspec(property(get=get_CurrentDomain))  CurrentDomain;
 
 
 // Methods
@@ -248,16 +247,16 @@ explicit AppDomain() ;
  ::StringW getFriendlyName() ;
 
 /// @brief Method getCurDomain addr 0x2485918 size 0x4 virtual false final false
-static ::System::AppDomain getCurDomain() ;
+static System::AppDomain getCurDomain() ;
 
 /// @brief Method get_CurrentDomain addr 0x248591c size 0x4 virtual false final false
-static ::System::AppDomain get_CurrentDomain() ;
+static System::AppDomain get_CurrentDomain() ;
 
 /// @brief Method GetAssemblies addr 0x2485920 size 0x8 virtual false final false
- ::ArrayW<::System::Reflection::Assembly> GetAssemblies(bool refOnly) ;
+ ::ArrayW<System::Reflection::Assembly> GetAssemblies(bool refOnly) ;
 
 /// @brief Method GetAssemblies addr 0x2485928 size 0x8 virtual true final true
- ::ArrayW<::System::Reflection::Assembly> GetAssemblies() ;
+ ::ArrayW<System::Reflection::Assembly> GetAssemblies() ;
 
 /// @brief Method GetData addr 0x2485930 size 0x4 virtual true final true
  ::bs_hook::Il2CppWrapperType GetData(::StringW name) ;
@@ -266,19 +265,19 @@ static ::System::AppDomain get_CurrentDomain() ;
  ::bs_hook::Il2CppWrapperType InitializeLifetimeService() ;
 
 /// @brief Method LoadAssembly addr 0x248593c size 0x8 virtual false final false
- ::System::Reflection::Assembly LoadAssembly(::StringW assemblyRef, ::System::Security::Policy::Evidence securityEvidence, bool refOnly, ByRef<::System::Threading::StackCrawlMark> stackMark) ;
+ System::Reflection::Assembly LoadAssembly(::StringW assemblyRef, System::Security::Policy::Evidence securityEvidence, bool refOnly, ByRef<System::Threading::StackCrawlMark> stackMark) ;
 
 /// @brief Method Load addr 0x2485944 size 0x24 virtual true final true
- ::System::Reflection::Assembly Load(::StringW assemblyString) ;
+ System::Reflection::Assembly Load(::StringW assemblyString) ;
 
 /// @brief Method Load addr 0x2485968 size 0x110 virtual false final false
- ::System::Reflection::Assembly Load(::StringW assemblyString, ::System::Security::Policy::Evidence assemblySecurity, bool refonly, ByRef<::System::Threading::StackCrawlMark> stackMark) ;
+ System::Reflection::Assembly Load(::StringW assemblyString, System::Security::Policy::Evidence assemblySecurity, bool refonly, ByRef<System::Threading::StackCrawlMark> stackMark) ;
 
 /// @brief Method InternalSetDomainByID addr 0x2485a78 size 0x4 virtual false final false
-static ::System::AppDomain InternalSetDomainByID(int32_t domain_id) ;
+static System::AppDomain InternalSetDomainByID(int32_t domain_id) ;
 
 /// @brief Method InternalSetDomain addr 0x2485a7c size 0x4 virtual false final false
-static ::System::AppDomain InternalSetDomain(::System::AppDomain context) ;
+static System::AppDomain InternalSetDomain(System::AppDomain context) ;
 
 /// @brief Method InternalPushDomainRefByID addr 0x2485a80 size 0x4 virtual false final false
 static void InternalPushDomainRefByID(int32_t domain_id) ;
@@ -287,19 +286,19 @@ static void InternalPushDomainRefByID(int32_t domain_id) ;
 static void InternalPopDomainRef() ;
 
 /// @brief Method InternalSetContext addr 0x2485a88 size 0x4 virtual false final false
-static ::System::Runtime::Remoting::Contexts::Context InternalSetContext(::System::Runtime::Remoting::Contexts::Context context) ;
+static System::Runtime::Remoting::Contexts::Context InternalSetContext(System::Runtime::Remoting::Contexts::Context context) ;
 
 /// @brief Method InternalGetContext addr 0x2485a8c size 0x4 virtual false final false
-static ::System::Runtime::Remoting::Contexts::Context InternalGetContext() ;
+static System::Runtime::Remoting::Contexts::Context InternalGetContext() ;
 
 /// @brief Method InternalGetDefaultContext addr 0x2485a90 size 0x4 virtual false final false
-static ::System::Runtime::Remoting::Contexts::Context InternalGetDefaultContext() ;
+static System::Runtime::Remoting::Contexts::Context InternalGetDefaultContext() ;
 
 /// @brief Method InternalGetProcessGuid addr 0x2485a94 size 0x4 virtual false final false
 static ::StringW InternalGetProcessGuid(::StringW newguid) ;
 
 /// @brief Method InvokeInDomainByID addr 0x2485a98 size 0x190 virtual false final false
-static ::bs_hook::Il2CppWrapperType InvokeInDomainByID(int32_t domain_id, ::System::Reflection::MethodInfo method, ::bs_hook::Il2CppWrapperType obj, ::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
+static ::bs_hook::Il2CppWrapperType InvokeInDomainByID(int32_t domain_id, System::Reflection::MethodInfo method, ::bs_hook::Il2CppWrapperType obj, ::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
 
 /// @brief Method GetProcessGuid addr 0x2485c28 size 0x88 virtual false final false
 static ::StringW GetProcessGuid() ;
@@ -317,13 +316,13 @@ static bool InternalIsFinalizingForUnload(int32_t domain_id) ;
  ::StringW ToString() ;
 
 /// @brief Method DoAssemblyLoad addr 0x2485cd4 size 0x98 virtual false final false
- void DoAssemblyLoad(::System::Reflection::Assembly assembly) ;
+ void DoAssemblyLoad(System::Reflection::Assembly assembly) ;
 
 /// @brief Method DoAssemblyResolve addr 0x2485d6c size 0x310 virtual false final false
- ::System::Reflection::Assembly DoAssemblyResolve(::StringW name, ::System::Reflection::Assembly requestingAssembly, bool refonly) ;
+ System::Reflection::Assembly DoAssemblyResolve(::StringW name, System::Reflection::Assembly requestingAssembly, bool refonly) ;
 
 /// @brief Method DoTypeResolve addr 0x248607c size 0x2d0 virtual false final false
- ::System::Reflection::Assembly DoTypeResolve(::StringW name) ;
+ System::Reflection::Assembly DoTypeResolve(::StringW name) ;
 
 /// @brief Method DoDomainUnload addr 0x248634c size 0x24 virtual false final false
  void DoDomainUnload() ;
@@ -332,24 +331,23 @@ static bool InternalIsFinalizingForUnload(int32_t domain_id) ;
  ::ArrayW<uint8_t> GetMarshalledDomainObjRef() ;
 
 /// @brief Method ProcessMessageInDomain addr 0x2486448 size 0x130 virtual false final false
- void ProcessMessageInDomain(::ArrayW<uint8_t> arrRequest, ::System::Runtime::Remoting::Messaging::CADMethodCallMessage cadMsg, ByRef<::ArrayW<uint8_t>> arrResponse, ByRef<::System::Runtime::Remoting::Messaging::CADMethodReturnMessage> cadMrm) ;
+ void ProcessMessageInDomain(::ArrayW<uint8_t> arrRequest, System::Runtime::Remoting::Messaging::CADMethodCallMessage cadMsg, ByRef<::ArrayW<uint8_t>> arrResponse, ByRef<System::Runtime::Remoting::Messaging::CADMethodReturnMessage> cadMrm) ;
 
 /// @brief Method add_DomainUnload addr 0x2486578 size 0x98 virtual true final true
- void add_DomainUnload(::System::EventHandler value) ;
+ void add_DomainUnload(System::EventHandler value) ;
 
 /// @brief Method remove_DomainUnload addr 0x2486784 size 0x98 virtual true final true
- void remove_DomainUnload(::System::EventHandler value) ;
+ void remove_DomainUnload(System::EventHandler value) ;
 
 /// @brief Method add_UnhandledException addr 0x248698c size 0x98 virtual true final true
- void add_UnhandledException(::System::UnhandledExceptionEventHandler value) ;
+ void add_UnhandledException(System::UnhandledExceptionEventHandler value) ;
 
 /// @brief Method remove_UnhandledException addr 0x2486a24 size 0x98 virtual true final true
- void remove_UnhandledException(::System::UnhandledExceptionEventHandler value) ;
+ void remove_UnhandledException(System::UnhandledExceptionEventHandler value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::AppDomain);
-DEFINE_IL2CPP_ARG_TYPE(::System::AppDomain, "System", "AppDomain");
+NEED_NO_BOX(System::AppDomain);
+DEFINE_IL2CPP_ARG_TYPE(System::AppDomain, "System", "AppDomain");

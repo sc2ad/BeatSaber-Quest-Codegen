@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
 struct CompressionAlgorithmTag;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Uncompressed offset 0
-static ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag const Uncompressed;
+static Org::BouncyCastle::Bcpg::CompressionAlgorithmTag const Uncompressed;
 
 /// @brief Field Zip offset 0
-static ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag const Zip;
+static Org::BouncyCastle::Bcpg::CompressionAlgorithmTag const Zip;
 
 /// @brief Field ZLib offset 0
-static ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag const ZLib;
+static Org::BouncyCastle::Bcpg::CompressionAlgorithmTag const ZLib;
 
 /// @brief Field BZip2 offset 0
-static ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag const BZip2;
+static Org::BouncyCastle::Bcpg::CompressionAlgorithmTag const BZip2;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag, "Org.BouncyCastle.Bcpg", "CompressionAlgorithmTag");
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::CompressionAlgorithmTag, "Org.BouncyCastle.Bcpg", "CompressionAlgorithmTag");

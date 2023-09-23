@@ -1,6 +1,5 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace UnityEngine {
 struct PropertyName;
 }
@@ -26,18 +25,17 @@ constexpr explicit INotification(void* ptr) noexcept : ::cordl_internals::Interf
 
 // Properties
 
- ::UnityEngine::PropertyName __declspec(property(get=get_id))  id;
+ UnityEngine::PropertyName __declspec(property(get=get_id))  id;
 
 
 // Methods
 
 /// @brief Method get_id addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::PropertyName get_id() ;
+ UnityEngine::PropertyName get_id() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Playables
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Playables::INotification);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Playables::INotification, "UnityEngine.Playables", "INotification");
+NEED_NO_BOX(UnityEngine::Playables::INotification);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::INotification, "UnityEngine.Playables", "INotification");

@@ -1,13 +1,12 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace UnityEngine::InputSystem {
-struct ____UnityEngine__InputSystem__InputAction__CallbackContext;
-}
 namespace System {
 template<typename T>
 struct Nullable_1;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputAction__CallbackContext;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -55,11 +54,11 @@ constexpr explicit InputValue(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType
 
 // Fields
 
- ::System::Nullable_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext> __declspec(property(get=__get_m_Context, put=__set_m_Context))  m_Context;
+ System::Nullable_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext> __declspec(property(get=__get_m_Context, put=__set_m_Context))  m_Context;
 
-constexpr void __set_m_Context(::System::Nullable_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext> value) ;
+constexpr void __set_m_Context(System::Nullable_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext> value) ;
 
-constexpr ::System::Nullable_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext> __get_m_Context() const;
+constexpr System::Nullable_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext> __get_m_Context() const;
 
 
 // Properties
@@ -89,6 +88,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::InputValue);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::InputValue, "UnityEngine.InputSystem", "InputValue");
+NEED_NO_BOX(UnityEngine::InputSystem::InputValue);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::InputValue, "UnityEngine.InputSystem", "InputValue");

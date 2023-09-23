@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine::InputSystem {
 class IInputInteraction;
 }
@@ -23,8 +22,8 @@ namespace UnityEngine::InputSystem::Interactions {
 class CORDL_TYPE TapInteraction : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::InputSystem::IInputInteraction
-constexpr operator  ::UnityEngine::InputSystem::IInputInteraction() const noexcept;
+/// @brief Convert operator to UnityEngine::InputSystem::IInputInteraction
+constexpr operator  UnityEngine::InputSystem::IInputInteraction() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -99,7 +98,7 @@ constexpr double_t __get_m_TapStartTime() const;
  float_t get_releasePointOrDefault() ;
 
 /// @brief Method Process addr 0x297aa08 size 0x160 virtual true final true
- void Process(ByRef<::UnityEngine::InputSystem::InputInteractionContext> context) ;
+ void Process(ByRef<UnityEngine::InputSystem::InputInteractionContext> context) ;
 
 /// @brief Method Reset addr 0x297ab68 size 0x8 virtual true final true
  void Reset() ;
@@ -114,6 +113,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Interactions
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Interactions::TapInteraction);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Interactions::TapInteraction, "UnityEngine.InputSystem.Interactions", "TapInteraction");
+NEED_NO_BOX(UnityEngine::InputSystem::Interactions::TapInteraction);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Interactions::TapInteraction, "UnityEngine.InputSystem.Interactions", "TapInteraction");

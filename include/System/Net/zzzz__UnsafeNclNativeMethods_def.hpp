@@ -4,22 +4,21 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Security {
 class SecureString;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-class ______System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID;
+class System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID;
+}
+namespace System::Net {
+class System__Net__UnsafeNclNativeMethods__HttpApi;
+}
+namespace System::Net {
+class System__Net__UnsafeNclNativeMethods__SecureStringHelper;
 }
 namespace System::Net {
 class UnsafeNclNativeMethods;
-}
-namespace System::Net {
-class ____System__Net__UnsafeNclNativeMethods__HttpApi;
-}
-namespace System::Net {
-class ____System__Net__UnsafeNclNativeMethods__SecureStringHelper;
 }
 // Type: ::HTTP_REQUEST_HEADER_ID
 namespace GlobalNamespace {
@@ -27,37 +26,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7992))
 // CS Name: System.Net.UnsafeNclNativeMethods::HttpApi::HTTP_REQUEST_HEADER_ID
-class CORDL_TYPE ______System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~______System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID() = default;
+virtual ~System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "______System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID", modifiers: " const&", def_value: None }]
-constexpr ______System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID(______System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID", modifiers: " const&", def_value: None }]
+constexpr System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID(System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "______System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID", modifiers: "&&", def_value: None }]
-constexpr ______System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID(______System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID", modifiers: "&&", def_value: None }]
+constexpr System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID(System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ______System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ______System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID& operator=(std::nullptr_t) noexcept {
+  constexpr System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ______System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID& operator=(void* o) noexcept {
+  constexpr System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ______System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID& operator=(______System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID&& o) noexcept = default;
-  constexpr ______System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID& operator=(______System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID const& o) noexcept = default;
+  constexpr System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID& operator=(System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID&& o) noexcept = default;
+  constexpr System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID& operator=(System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID const& o) noexcept = default;
                 
 
 
@@ -85,39 +84,39 @@ namespace System::Net {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7993))
 // CS Name: System.Net.UnsafeNclNativeMethods::HttpApi
-class CORDL_TYPE ____System__Net__UnsafeNclNativeMethods__HttpApi : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Net__UnsafeNclNativeMethods__HttpApi : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using HTTP_REQUEST_HEADER_ID = ::GlobalNamespace::______System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID;
+using HTTP_REQUEST_HEADER_ID = GlobalNamespace::System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____System__Net__UnsafeNclNativeMethods__HttpApi() = default;
+virtual ~System__Net__UnsafeNclNativeMethods__HttpApi() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Net__UnsafeNclNativeMethods__HttpApi", modifiers: " const&", def_value: None }]
-constexpr ____System__Net__UnsafeNclNativeMethods__HttpApi(____System__Net__UnsafeNclNativeMethods__HttpApi const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Net__UnsafeNclNativeMethods__HttpApi", modifiers: " const&", def_value: None }]
+constexpr System__Net__UnsafeNclNativeMethods__HttpApi(System__Net__UnsafeNclNativeMethods__HttpApi const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Net__UnsafeNclNativeMethods__HttpApi", modifiers: "&&", def_value: None }]
-constexpr ____System__Net__UnsafeNclNativeMethods__HttpApi(____System__Net__UnsafeNclNativeMethods__HttpApi&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Net__UnsafeNclNativeMethods__HttpApi", modifiers: "&&", def_value: None }]
+constexpr System__Net__UnsafeNclNativeMethods__HttpApi(System__Net__UnsafeNclNativeMethods__HttpApi&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Net__UnsafeNclNativeMethods__HttpApi(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Net__UnsafeNclNativeMethods__HttpApi(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Net__UnsafeNclNativeMethods__HttpApi& operator=(std::nullptr_t) noexcept {
+  constexpr System__Net__UnsafeNclNativeMethods__HttpApi& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Net__UnsafeNclNativeMethods__HttpApi& operator=(void* o) noexcept {
+  constexpr System__Net__UnsafeNclNativeMethods__HttpApi& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Net__UnsafeNclNativeMethods__HttpApi& operator=(____System__Net__UnsafeNclNativeMethods__HttpApi&& o) noexcept = default;
-  constexpr ____System__Net__UnsafeNclNativeMethods__HttpApi& operator=(____System__Net__UnsafeNclNativeMethods__HttpApi const& o) noexcept = default;
+  constexpr System__Net__UnsafeNclNativeMethods__HttpApi& operator=(System__Net__UnsafeNclNativeMethods__HttpApi&& o) noexcept = default;
+  constexpr System__Net__UnsafeNclNativeMethods__HttpApi& operator=(System__Net__UnsafeNclNativeMethods__HttpApi const& o) noexcept = default;
                 
 
 
@@ -142,47 +141,47 @@ namespace System::Net {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7994))
 // CS Name: System.Net.UnsafeNclNativeMethods::SecureStringHelper
-class CORDL_TYPE ____System__Net__UnsafeNclNativeMethods__SecureStringHelper : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Net__UnsafeNclNativeMethods__SecureStringHelper : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____System__Net__UnsafeNclNativeMethods__SecureStringHelper() = default;
+virtual ~System__Net__UnsafeNclNativeMethods__SecureStringHelper() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Net__UnsafeNclNativeMethods__SecureStringHelper", modifiers: " const&", def_value: None }]
-constexpr ____System__Net__UnsafeNclNativeMethods__SecureStringHelper(____System__Net__UnsafeNclNativeMethods__SecureStringHelper const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Net__UnsafeNclNativeMethods__SecureStringHelper", modifiers: " const&", def_value: None }]
+constexpr System__Net__UnsafeNclNativeMethods__SecureStringHelper(System__Net__UnsafeNclNativeMethods__SecureStringHelper const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Net__UnsafeNclNativeMethods__SecureStringHelper", modifiers: "&&", def_value: None }]
-constexpr ____System__Net__UnsafeNclNativeMethods__SecureStringHelper(____System__Net__UnsafeNclNativeMethods__SecureStringHelper&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Net__UnsafeNclNativeMethods__SecureStringHelper", modifiers: "&&", def_value: None }]
+constexpr System__Net__UnsafeNclNativeMethods__SecureStringHelper(System__Net__UnsafeNclNativeMethods__SecureStringHelper&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Net__UnsafeNclNativeMethods__SecureStringHelper(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Net__UnsafeNclNativeMethods__SecureStringHelper(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Net__UnsafeNclNativeMethods__SecureStringHelper& operator=(std::nullptr_t) noexcept {
+  constexpr System__Net__UnsafeNclNativeMethods__SecureStringHelper& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Net__UnsafeNclNativeMethods__SecureStringHelper& operator=(void* o) noexcept {
+  constexpr System__Net__UnsafeNclNativeMethods__SecureStringHelper& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Net__UnsafeNclNativeMethods__SecureStringHelper& operator=(____System__Net__UnsafeNclNativeMethods__SecureStringHelper&& o) noexcept = default;
-  constexpr ____System__Net__UnsafeNclNativeMethods__SecureStringHelper& operator=(____System__Net__UnsafeNclNativeMethods__SecureStringHelper const& o) noexcept = default;
+  constexpr System__Net__UnsafeNclNativeMethods__SecureStringHelper& operator=(System__Net__UnsafeNclNativeMethods__SecureStringHelper&& o) noexcept = default;
+  constexpr System__Net__UnsafeNclNativeMethods__SecureStringHelper& operator=(System__Net__UnsafeNclNativeMethods__SecureStringHelper const& o) noexcept = default;
                 
 
 
 // Methods
 
 /// @brief Method CreateString addr 0x2827f14 size 0x1b0 virtual false final false
-static ::StringW CreateString(::System::Security::SecureString secureString) ;
+static ::StringW CreateString(System::Security::SecureString secureString) ;
 
 /// @brief Method CreateSecureString addr 0x28280c4 size 0xac virtual false final false
-static ::System::Security::SecureString CreateSecureString(::StringW plainString) ;
+static System::Security::SecureString CreateSecureString(::StringW plainString) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -197,9 +196,9 @@ namespace System::Net {
 class CORDL_TYPE UnsafeNclNativeMethods : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using SecureStringHelper = ::System::Net::____System__Net__UnsafeNclNativeMethods__SecureStringHelper;
+using SecureStringHelper = System::Net::System__Net__UnsafeNclNativeMethods__SecureStringHelper;
 
-using HttpApi = ::System::Net::____System__Net__UnsafeNclNativeMethods__HttpApi;
+using HttpApi = System::Net::System__Net__UnsafeNclNativeMethods__HttpApi;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -235,12 +234,11 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::______System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::______System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID, "System.Net", "UnsafeNclNativeMethods/HttpApi/HTTP_REQUEST_HEADER_ID");
-NEED_NO_BOX(::System::Net::UnsafeNclNativeMethods);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::UnsafeNclNativeMethods, "System.Net", "UnsafeNclNativeMethods");
-NEED_NO_BOX(::System::Net::____System__Net__UnsafeNclNativeMethods__HttpApi);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::____System__Net__UnsafeNclNativeMethods__HttpApi, "System.Net", "UnsafeNclNativeMethods/HttpApi");
-NEED_NO_BOX(::System::Net::____System__Net__UnsafeNclNativeMethods__SecureStringHelper);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::____System__Net__UnsafeNclNativeMethods__SecureStringHelper, "System.Net", "UnsafeNclNativeMethods/SecureStringHelper");
+NEED_NO_BOX(GlobalNamespace::System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID, "System.Net", "UnsafeNclNativeMethods/HttpApi/HTTP_REQUEST_HEADER_ID");
+NEED_NO_BOX(System::Net::System__Net__UnsafeNclNativeMethods__HttpApi);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::System__Net__UnsafeNclNativeMethods__HttpApi, "System.Net", "UnsafeNclNativeMethods/HttpApi");
+NEED_NO_BOX(System::Net::System__Net__UnsafeNclNativeMethods__SecureStringHelper);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::System__Net__UnsafeNclNativeMethods__SecureStringHelper, "System.Net", "UnsafeNclNativeMethods/SecureStringHelper");
+NEED_NO_BOX(System::Net::UnsafeNclNativeMethods);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::UnsafeNclNativeMethods, "System.Net", "UnsafeNclNativeMethods");

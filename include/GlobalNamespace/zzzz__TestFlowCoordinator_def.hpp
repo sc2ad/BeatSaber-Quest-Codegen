@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__FlowCoordinator_def.hpp"
-namespace {
 namespace HMUI {
 class ViewController;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13633))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5618))
 // CS Name: TestFlowCoordinator
-class CORDL_TYPE TestFlowCoordinator : public ::HMUI::FlowCoordinator {
+class CORDL_TYPE TestFlowCoordinator : public HMUI::FlowCoordinator {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr TestFlowCoordinator(TestFlowCoordinator const& ) noexcept = default;
 constexpr TestFlowCoordinator(TestFlowCoordinator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TestFlowCoordinator(void* ptr) noexcept : ::HMUI::FlowCoordinator(ptr) {
+constexpr explicit TestFlowCoordinator(void* ptr) noexcept : HMUI::FlowCoordinator(ptr) {
 }
 
 
@@ -51,35 +50,35 @@ constexpr explicit TestFlowCoordinator(void* ptr) noexcept : ::HMUI::FlowCoordin
 
 // Fields
 
- ::HMUI::ViewController __declspec(property(get=__get__viewController, put=__set__viewController))  _viewController;
+ HMUI::ViewController __declspec(property(get=__get__viewController, put=__set__viewController))  _viewController;
 
-constexpr void __set__viewController(::HMUI::ViewController value) ;
+constexpr void __set__viewController(HMUI::ViewController value) ;
 
-constexpr ::HMUI::ViewController __get__viewController() const;
+constexpr HMUI::ViewController __get__viewController() const;
 
- ::HMUI::ViewController __declspec(property(get=__get__leftViewController, put=__set__leftViewController))  _leftViewController;
+ HMUI::ViewController __declspec(property(get=__get__leftViewController, put=__set__leftViewController))  _leftViewController;
 
-constexpr void __set__leftViewController(::HMUI::ViewController value) ;
+constexpr void __set__leftViewController(HMUI::ViewController value) ;
 
-constexpr ::HMUI::ViewController __get__leftViewController() const;
+constexpr HMUI::ViewController __get__leftViewController() const;
 
- ::HMUI::ViewController __declspec(property(get=__get__rightViewController, put=__set__rightViewController))  _rightViewController;
+ HMUI::ViewController __declspec(property(get=__get__rightViewController, put=__set__rightViewController))  _rightViewController;
 
-constexpr void __set__rightViewController(::HMUI::ViewController value) ;
+constexpr void __set__rightViewController(HMUI::ViewController value) ;
 
-constexpr ::HMUI::ViewController __get__rightViewController() const;
+constexpr HMUI::ViewController __get__rightViewController() const;
 
- ::HMUI::ViewController __declspec(property(get=__get__bottomScreenViewController, put=__set__bottomScreenViewController))  _bottomScreenViewController;
+ HMUI::ViewController __declspec(property(get=__get__bottomScreenViewController, put=__set__bottomScreenViewController))  _bottomScreenViewController;
 
-constexpr void __set__bottomScreenViewController(::HMUI::ViewController value) ;
+constexpr void __set__bottomScreenViewController(HMUI::ViewController value) ;
 
-constexpr ::HMUI::ViewController __get__bottomScreenViewController() const;
+constexpr HMUI::ViewController __get__bottomScreenViewController() const;
 
- ::HMUI::ViewController __declspec(property(get=__get__topScreenViewController, put=__set__topScreenViewController))  _topScreenViewController;
+ HMUI::ViewController __declspec(property(get=__get__topScreenViewController, put=__set__topScreenViewController))  _topScreenViewController;
 
-constexpr void __set__topScreenViewController(::HMUI::ViewController value) ;
+constexpr void __set__topScreenViewController(HMUI::ViewController value) ;
 
-constexpr ::HMUI::ViewController __get__topScreenViewController() const;
+constexpr HMUI::ViewController __get__topScreenViewController() const;
 
 
 // Methods
@@ -97,6 +96,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::TestFlowCoordinator);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TestFlowCoordinator, "", "TestFlowCoordinator");
+NEED_NO_BOX(GlobalNamespace::TestFlowCoordinator);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestFlowCoordinator, "", "TestFlowCoordinator");

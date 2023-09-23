@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Experimental::Rendering {
 struct TextureCreationFlags;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::Experimental::Rendering::TextureCreationFlags const None;
+static UnityEngine::Experimental::Rendering::TextureCreationFlags const None;
 
 /// @brief Field MipChain offset 0
-static ::UnityEngine::Experimental::Rendering::TextureCreationFlags const MipChain;
+static UnityEngine::Experimental::Rendering::TextureCreationFlags const MipChain;
 
 /// @brief Field Crunch offset 0
-static ::UnityEngine::Experimental::Rendering::TextureCreationFlags const Crunch;
+static UnityEngine::Experimental::Rendering::TextureCreationFlags const Crunch;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Experimental::Rendering
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::Rendering::TextureCreationFlags, "UnityEngine.Experimental.Rendering", "TextureCreationFlags");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Rendering::TextureCreationFlags, "UnityEngine.Experimental.Rendering", "TextureCreationFlags");

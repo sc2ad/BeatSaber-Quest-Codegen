@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ScrollView_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace TMPro {
 class TextMeshProUGUI;
 }
@@ -16,7 +15,7 @@ namespace HMUI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13699))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13721))
 // CS Name: HMUI.TextPageScrollView
-class CORDL_TYPE TextPageScrollView : public ::HMUI::ScrollView {
+class CORDL_TYPE TextPageScrollView : public HMUI::ScrollView {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr TextPageScrollView(TextPageScrollView const& ) noexcept = default;
 constexpr TextPageScrollView(TextPageScrollView&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TextPageScrollView(void* ptr) noexcept : ::HMUI::ScrollView(ptr) {
+constexpr explicit TextPageScrollView(void* ptr) noexcept : HMUI::ScrollView(ptr) {
 }
 
 
@@ -52,11 +51,11 @@ constexpr explicit TextPageScrollView(void* ptr) noexcept : ::HMUI::ScrollView(p
 
 // Fields
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__text, put=__set__text))  _text;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__text, put=__set__text))  _text;
 
-constexpr void __set__text(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__text(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__text() const;
+constexpr TMPro::TextMeshProUGUI __get__text() const;
 
 
 // Methods
@@ -74,6 +73,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HMUI
-} // end anonymous namespace
-NEED_NO_BOX(::HMUI::TextPageScrollView);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::TextPageScrollView, "HMUI", "TextPageScrollView");
+NEED_NO_BOX(HMUI::TextPageScrollView);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::TextPageScrollView, "HMUI", "TextPageScrollView");

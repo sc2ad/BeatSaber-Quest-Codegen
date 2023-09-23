@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
 namespace TMPro {
 class TextMeshProUGUI;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5857))
 // CS Name: BasicLevelParamsPanel
-class CORDL_TYPE BasicLevelParamsPanel : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE BasicLevelParamsPanel : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr BasicLevelParamsPanel(BasicLevelParamsPanel const& ) noexcept = defaul
 constexpr BasicLevelParamsPanel(BasicLevelParamsPanel&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BasicLevelParamsPanel(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit BasicLevelParamsPanel(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -52,17 +51,17 @@ constexpr explicit BasicLevelParamsPanel(void* ptr) noexcept : ::UnityEngine::Mo
 
 // Fields
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__durationText, put=__set__durationText))  _durationText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__durationText, put=__set__durationText))  _durationText;
 
-constexpr void __set__durationText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__durationText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__durationText() const;
+constexpr TMPro::TextMeshProUGUI __get__durationText() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__bpmText, put=__set__bpmText))  _bpmText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__bpmText, put=__set__bpmText))  _bpmText;
 
-constexpr void __set__bpmText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__bpmText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__bpmText() const;
+constexpr TMPro::TextMeshProUGUI __get__bpmText() const;
 
 
 // Properties
@@ -90,6 +89,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BasicLevelParamsPanel);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BasicLevelParamsPanel, "", "BasicLevelParamsPanel");
+NEED_NO_BOX(GlobalNamespace::BasicLevelParamsPanel);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BasicLevelParamsPanel, "", "BasicLevelParamsPanel");

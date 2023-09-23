@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct EHiddenAreaMeshType;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field k_eHiddenAreaMesh_Standard offset 0
-static ::OVR::OpenVR::EHiddenAreaMeshType const k_eHiddenAreaMesh_Standard;
+static OVR::OpenVR::EHiddenAreaMeshType const k_eHiddenAreaMesh_Standard;
 
 /// @brief Field k_eHiddenAreaMesh_Inverse offset 0
-static ::OVR::OpenVR::EHiddenAreaMeshType const k_eHiddenAreaMesh_Inverse;
+static OVR::OpenVR::EHiddenAreaMeshType const k_eHiddenAreaMesh_Inverse;
 
 /// @brief Field k_eHiddenAreaMesh_LineLoop offset 0
-static ::OVR::OpenVR::EHiddenAreaMeshType const k_eHiddenAreaMesh_LineLoop;
+static OVR::OpenVR::EHiddenAreaMeshType const k_eHiddenAreaMesh_LineLoop;
 
 /// @brief Field k_eHiddenAreaMesh_Max offset 0
-static ::OVR::OpenVR::EHiddenAreaMeshType const k_eHiddenAreaMesh_Max;
+static OVR::OpenVR::EHiddenAreaMeshType const k_eHiddenAreaMesh_Max;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EHiddenAreaMeshType, "OVR.OpenVR", "EHiddenAreaMeshType");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EHiddenAreaMeshType, "OVR.OpenVR", "EHiddenAreaMeshType");

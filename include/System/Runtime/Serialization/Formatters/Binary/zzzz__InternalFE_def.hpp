@@ -1,12 +1,11 @@
 #pragma once
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace System::Runtime::Serialization::Formatters {
-struct FormatterTypeStyle;
-}
 namespace System::Runtime::Serialization::Formatters::Binary {
 struct InternalSerializerTypeE;
+}
+namespace System::Runtime::Serialization::Formatters {
+struct FormatterTypeStyle;
 }
 namespace System::Runtime::Serialization::Formatters {
 struct FormatterAssemblyStyle;
@@ -60,29 +59,29 @@ constexpr explicit InternalFE(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType
 
 // Fields
 
- ::System::Runtime::Serialization::Formatters::FormatterTypeStyle __declspec(property(get=__get_FEtypeFormat, put=__set_FEtypeFormat))  FEtypeFormat;
+ System::Runtime::Serialization::Formatters::FormatterTypeStyle __declspec(property(get=__get_FEtypeFormat, put=__set_FEtypeFormat))  FEtypeFormat;
 
-constexpr void __set_FEtypeFormat(::System::Runtime::Serialization::Formatters::FormatterTypeStyle value) ;
+constexpr void __set_FEtypeFormat(System::Runtime::Serialization::Formatters::FormatterTypeStyle value) ;
 
-constexpr ::System::Runtime::Serialization::Formatters::FormatterTypeStyle __get_FEtypeFormat() const;
+constexpr System::Runtime::Serialization::Formatters::FormatterTypeStyle __get_FEtypeFormat() const;
 
- ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle __declspec(property(get=__get_FEassemblyFormat, put=__set_FEassemblyFormat))  FEassemblyFormat;
+ System::Runtime::Serialization::Formatters::FormatterAssemblyStyle __declspec(property(get=__get_FEassemblyFormat, put=__set_FEassemblyFormat))  FEassemblyFormat;
 
-constexpr void __set_FEassemblyFormat(::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle value) ;
+constexpr void __set_FEassemblyFormat(System::Runtime::Serialization::Formatters::FormatterAssemblyStyle value) ;
 
-constexpr ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle __get_FEassemblyFormat() const;
+constexpr System::Runtime::Serialization::Formatters::FormatterAssemblyStyle __get_FEassemblyFormat() const;
 
- ::System::Runtime::Serialization::Formatters::TypeFilterLevel __declspec(property(get=__get_FEsecurityLevel, put=__set_FEsecurityLevel))  FEsecurityLevel;
+ System::Runtime::Serialization::Formatters::TypeFilterLevel __declspec(property(get=__get_FEsecurityLevel, put=__set_FEsecurityLevel))  FEsecurityLevel;
 
-constexpr void __set_FEsecurityLevel(::System::Runtime::Serialization::Formatters::TypeFilterLevel value) ;
+constexpr void __set_FEsecurityLevel(System::Runtime::Serialization::Formatters::TypeFilterLevel value) ;
 
-constexpr ::System::Runtime::Serialization::Formatters::TypeFilterLevel __get_FEsecurityLevel() const;
+constexpr System::Runtime::Serialization::Formatters::TypeFilterLevel __get_FEsecurityLevel() const;
 
- ::System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE __declspec(property(get=__get_FEserializerTypeEnum, put=__set_FEserializerTypeEnum))  FEserializerTypeEnum;
+ System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE __declspec(property(get=__get_FEserializerTypeEnum, put=__set_FEserializerTypeEnum))  FEserializerTypeEnum;
 
-constexpr void __set_FEserializerTypeEnum(::System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE value) ;
+constexpr void __set_FEserializerTypeEnum(System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE value) ;
 
-constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE __get_FEserializerTypeEnum() const;
+constexpr System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE __get_FEserializerTypeEnum() const;
 
 
 // Methods
@@ -97,6 +96,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization::Formatters::Binary
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::InternalFE);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::InternalFE, "System.Runtime.Serialization.Formatters.Binary", "InternalFE");
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::InternalFE);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::InternalFE, "System.Runtime.Serialization.Formatters.Binary", "InternalFE");

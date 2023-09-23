@@ -5,29 +5,28 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace System::Collections {
 class IEnumerator;
-}
-namespace System {
-class IDisposable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
+namespace System {
+class IDisposable;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
 // Forward declare root types
 namespace HMUI {
+class HMUI__HoverTextController___HideTextCoroutine_d__12;
+}
+namespace HMUI {
+class HMUI__HoverTextController___ShowTextCoroutine_d__10;
+}
+namespace HMUI {
 class HoverTextController;
-}
-namespace HMUI {
-class ____HMUI__HoverTextController___HideTextCoroutine_d__12;
-}
-namespace HMUI {
-class ____HMUI__HoverTextController___ShowTextCoroutine_d__10;
 }
 // Type: ::<ShowTextCoroutine>d__10
 namespace HMUI {
@@ -35,46 +34,46 @@ namespace HMUI {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13594))
 // CS Name: HMUI.HoverTextController::<ShowTextCoroutine>d__10
-class CORDL_TYPE ____HMUI__HoverTextController___ShowTextCoroutine_d__10 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE HMUI__HoverTextController___ShowTextCoroutine_d__10 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____HMUI__HoverTextController___ShowTextCoroutine_d__10() = default;
+virtual ~HMUI__HoverTextController___ShowTextCoroutine_d__10() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____HMUI__HoverTextController___ShowTextCoroutine_d__10", modifiers: " const&", def_value: None }]
-constexpr ____HMUI__HoverTextController___ShowTextCoroutine_d__10(____HMUI__HoverTextController___ShowTextCoroutine_d__10 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "HMUI__HoverTextController___ShowTextCoroutine_d__10", modifiers: " const&", def_value: None }]
+constexpr HMUI__HoverTextController___ShowTextCoroutine_d__10(HMUI__HoverTextController___ShowTextCoroutine_d__10 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____HMUI__HoverTextController___ShowTextCoroutine_d__10", modifiers: "&&", def_value: None }]
-constexpr ____HMUI__HoverTextController___ShowTextCoroutine_d__10(____HMUI__HoverTextController___ShowTextCoroutine_d__10&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "HMUI__HoverTextController___ShowTextCoroutine_d__10", modifiers: "&&", def_value: None }]
+constexpr HMUI__HoverTextController___ShowTextCoroutine_d__10(HMUI__HoverTextController___ShowTextCoroutine_d__10&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____HMUI__HoverTextController___ShowTextCoroutine_d__10(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit HMUI__HoverTextController___ShowTextCoroutine_d__10(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____HMUI__HoverTextController___ShowTextCoroutine_d__10& operator=(std::nullptr_t) noexcept {
+  constexpr HMUI__HoverTextController___ShowTextCoroutine_d__10& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____HMUI__HoverTextController___ShowTextCoroutine_d__10& operator=(void* o) noexcept {
+  constexpr HMUI__HoverTextController___ShowTextCoroutine_d__10& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____HMUI__HoverTextController___ShowTextCoroutine_d__10& operator=(____HMUI__HoverTextController___ShowTextCoroutine_d__10&& o) noexcept = default;
-  constexpr ____HMUI__HoverTextController___ShowTextCoroutine_d__10& operator=(____HMUI__HoverTextController___ShowTextCoroutine_d__10 const& o) noexcept = default;
+  constexpr HMUI__HoverTextController___ShowTextCoroutine_d__10& operator=(HMUI__HoverTextController___ShowTextCoroutine_d__10&& o) noexcept = default;
+  constexpr HMUI__HoverTextController___ShowTextCoroutine_d__10& operator=(HMUI__HoverTextController___ShowTextCoroutine_d__10 const& o) noexcept = default;
                 
 
 
@@ -92,11 +91,11 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::HMUI::HoverTextController __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ HMUI::HoverTextController __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::HMUI::HoverTextController value) ;
+constexpr void __set___4__this(HMUI::HoverTextController value) ;
 
-constexpr ::HMUI::HoverTextController __get___4__this() const;
+constexpr HMUI::HoverTextController __get___4__this() const;
 
 
 // Properties
@@ -109,7 +108,7 @@ constexpr ::HMUI::HoverTextController __get___4__this() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____HMUI__HoverTextController___ShowTextCoroutine_d__10(int32_t __1__state) ;
+explicit HMUI__HoverTextController___ShowTextCoroutine_d__10(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1fab6d4 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -139,46 +138,46 @@ namespace HMUI {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13595))
 // CS Name: HMUI.HoverTextController::<HideTextCoroutine>d__12
-class CORDL_TYPE ____HMUI__HoverTextController___HideTextCoroutine_d__12 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE HMUI__HoverTextController___HideTextCoroutine_d__12 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____HMUI__HoverTextController___HideTextCoroutine_d__12() = default;
+virtual ~HMUI__HoverTextController___HideTextCoroutine_d__12() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____HMUI__HoverTextController___HideTextCoroutine_d__12", modifiers: " const&", def_value: None }]
-constexpr ____HMUI__HoverTextController___HideTextCoroutine_d__12(____HMUI__HoverTextController___HideTextCoroutine_d__12 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "HMUI__HoverTextController___HideTextCoroutine_d__12", modifiers: " const&", def_value: None }]
+constexpr HMUI__HoverTextController___HideTextCoroutine_d__12(HMUI__HoverTextController___HideTextCoroutine_d__12 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____HMUI__HoverTextController___HideTextCoroutine_d__12", modifiers: "&&", def_value: None }]
-constexpr ____HMUI__HoverTextController___HideTextCoroutine_d__12(____HMUI__HoverTextController___HideTextCoroutine_d__12&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "HMUI__HoverTextController___HideTextCoroutine_d__12", modifiers: "&&", def_value: None }]
+constexpr HMUI__HoverTextController___HideTextCoroutine_d__12(HMUI__HoverTextController___HideTextCoroutine_d__12&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____HMUI__HoverTextController___HideTextCoroutine_d__12(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit HMUI__HoverTextController___HideTextCoroutine_d__12(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____HMUI__HoverTextController___HideTextCoroutine_d__12& operator=(std::nullptr_t) noexcept {
+  constexpr HMUI__HoverTextController___HideTextCoroutine_d__12& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____HMUI__HoverTextController___HideTextCoroutine_d__12& operator=(void* o) noexcept {
+  constexpr HMUI__HoverTextController___HideTextCoroutine_d__12& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____HMUI__HoverTextController___HideTextCoroutine_d__12& operator=(____HMUI__HoverTextController___HideTextCoroutine_d__12&& o) noexcept = default;
-  constexpr ____HMUI__HoverTextController___HideTextCoroutine_d__12& operator=(____HMUI__HoverTextController___HideTextCoroutine_d__12 const& o) noexcept = default;
+  constexpr HMUI__HoverTextController___HideTextCoroutine_d__12& operator=(HMUI__HoverTextController___HideTextCoroutine_d__12&& o) noexcept = default;
+  constexpr HMUI__HoverTextController___HideTextCoroutine_d__12& operator=(HMUI__HoverTextController___HideTextCoroutine_d__12 const& o) noexcept = default;
                 
 
 
@@ -196,11 +195,11 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::HMUI::HoverTextController __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ HMUI::HoverTextController __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::HMUI::HoverTextController value) ;
+constexpr void __set___4__this(HMUI::HoverTextController value) ;
 
-constexpr ::HMUI::HoverTextController __get___4__this() const;
+constexpr HMUI::HoverTextController __get___4__this() const;
 
 
 // Properties
@@ -213,7 +212,7 @@ constexpr ::HMUI::HoverTextController __get___4__this() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____HMUI__HoverTextController___HideTextCoroutine_d__12(int32_t __1__state) ;
+explicit HMUI__HoverTextController___HideTextCoroutine_d__12(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1fab7d0 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -243,12 +242,12 @@ namespace HMUI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13596))
 // CS Name: HMUI.HoverTextController
-class CORDL_TYPE HoverTextController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE HoverTextController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using _HideTextCoroutine_d__12 = ::HMUI::____HMUI__HoverTextController___HideTextCoroutine_d__12;
+using _HideTextCoroutine_d__12 = HMUI::HMUI__HoverTextController___HideTextCoroutine_d__12;
 
-using _ShowTextCoroutine_d__10 = ::HMUI::____HMUI__HoverTextController___ShowTextCoroutine_d__10;
+using _ShowTextCoroutine_d__10 = HMUI::HMUI__HoverTextController___ShowTextCoroutine_d__10;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -262,7 +261,7 @@ constexpr HoverTextController(HoverTextController const& ) noexcept = default;
 constexpr HoverTextController(HoverTextController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HoverTextController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit HoverTextController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -283,11 +282,11 @@ constexpr explicit HoverTextController(void* ptr) noexcept : ::UnityEngine::Mono
 
 // Fields
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__textMesh, put=__set__textMesh))  _textMesh;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__textMesh, put=__set__textMesh))  _textMesh;
 
-constexpr void __set__textMesh(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__textMesh(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__textMesh() const;
+constexpr TMPro::TextMeshProUGUI __get__textMesh() const;
 
  float_t __declspec(property(get=__get__fadeInDelay, put=__set__fadeInDelay))  _fadeInDelay;
 
@@ -335,13 +334,13 @@ constexpr bool __get__isFadingIn() const;
  void ShowText(::StringW text) ;
 
 /// @brief Method ShowTextCoroutine addr 0x1fab66c size 0x68 virtual false final false
- ::System::Collections::IEnumerator ShowTextCoroutine() ;
+ System::Collections::IEnumerator ShowTextCoroutine() ;
 
 /// @brief Method HideText addr 0x1fab6fc size 0x6c virtual false final false
  void HideText() ;
 
 /// @brief Method HideTextCoroutine addr 0x1fab768 size 0x68 virtual false final false
- ::System::Collections::IEnumerator HideTextCoroutine() ;
+ System::Collections::IEnumerator HideTextCoroutine() ;
 
 // Ctor Parameters []
 explicit HoverTextController() ;
@@ -353,10 +352,9 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HMUI
-} // end anonymous namespace
-NEED_NO_BOX(::HMUI::HoverTextController);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::HoverTextController, "HMUI", "HoverTextController");
-NEED_NO_BOX(::HMUI::____HMUI__HoverTextController___HideTextCoroutine_d__12);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::____HMUI__HoverTextController___HideTextCoroutine_d__12, "HMUI", "HoverTextController/<HideTextCoroutine>d__12");
-NEED_NO_BOX(::HMUI::____HMUI__HoverTextController___ShowTextCoroutine_d__10);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::____HMUI__HoverTextController___ShowTextCoroutine_d__10, "HMUI", "HoverTextController/<ShowTextCoroutine>d__10");
+NEED_NO_BOX(HMUI::HMUI__HoverTextController___HideTextCoroutine_d__12);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::HMUI__HoverTextController___HideTextCoroutine_d__12, "HMUI", "HoverTextController/<HideTextCoroutine>d__12");
+NEED_NO_BOX(HMUI::HMUI__HoverTextController___ShowTextCoroutine_d__10);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::HMUI__HoverTextController___ShowTextCoroutine_d__10, "HMUI", "HoverTextController/<ShowTextCoroutine>d__10");
+NEED_NO_BOX(HMUI::HoverTextController);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverTextController, "HMUI", "HoverTextController");

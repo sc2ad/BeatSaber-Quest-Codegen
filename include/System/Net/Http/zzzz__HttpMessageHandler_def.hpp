@@ -1,12 +1,14 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
+namespace System {
+class IDisposable;
+}
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace System {
-class IDisposable;
+namespace System::Net::Http {
+class HttpRequestMessage;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
@@ -14,9 +16,6 @@ class Task_1;
 }
 namespace System::Net::Http {
 class HttpResponseMessage;
-}
-namespace System::Net::Http {
-class HttpRequestMessage;
 }
 // Forward declare root types
 namespace System::Net::Http {
@@ -31,8 +30,8 @@ namespace System::Net::Http {
 class CORDL_TYPE HttpMessageHandler : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -74,7 +73,7 @@ constexpr explicit HttpMessageHandler(void* ptr) noexcept : ::bs_hook::Il2CppWra
  void Dispose(bool disposing) ;
 
 /// @brief Method SendAsync addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage> SendAsync(::System::Net::Http::HttpRequestMessage request, ::System::Threading::CancellationToken cancellationToken) ;
+ System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage> SendAsync(System::Net::Http::HttpRequestMessage request, System::Threading::CancellationToken cancellationToken) ;
 
 // Ctor Parameters []
 explicit HttpMessageHandler() ;
@@ -86,6 +85,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Http
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Http::HttpMessageHandler);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::HttpMessageHandler, "System.Net.Http", "HttpMessageHandler");
+NEED_NO_BOX(System::Net::Http::HttpMessageHandler);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpMessageHandler, "System.Net.Http", "HttpMessageHandler");

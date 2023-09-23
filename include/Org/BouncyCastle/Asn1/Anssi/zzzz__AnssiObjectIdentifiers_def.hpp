@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
@@ -51,11 +50,11 @@ constexpr explicit AnssiObjectIdentifiers(void* ptr) noexcept : ::bs_hook::Il2Cp
 
 // Fields
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_FRP256v1, put=__set_FRP256v1))  FRP256v1;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_FRP256v1, put=__set_FRP256v1))  FRP256v1;
 
-static void __set_FRP256v1(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_FRP256v1(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_FRP256v1() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_FRP256v1() ;
 
 
 // Methods
@@ -70,6 +69,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::Anssi
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers, "Org.BouncyCastle.Asn1.Anssi", "AnssiObjectIdentifiers");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers, "Org.BouncyCastle.Asn1.Anssi", "AnssiObjectIdentifiers");

@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 class Mesh;
 }
@@ -18,7 +17,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10006))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15775))
 // CS Name: UnityEngine.ParticleSystemRenderer
-class CORDL_TYPE ParticleSystemRenderer : public ::UnityEngine::Renderer {
+class CORDL_TYPE ParticleSystemRenderer : public UnityEngine::Renderer {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr ParticleSystemRenderer(ParticleSystemRenderer const& ) noexcept = defa
 constexpr ParticleSystemRenderer(ParticleSystemRenderer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ParticleSystemRenderer(void* ptr) noexcept : ::UnityEngine::Renderer(ptr) {
+constexpr explicit ParticleSystemRenderer(void* ptr) noexcept : UnityEngine::Renderer(ptr) {
 }
 
 
@@ -55,12 +54,11 @@ constexpr explicit ParticleSystemRenderer(void* ptr) noexcept : ::UnityEngine::R
 // Methods
 
 /// @brief Method GetMeshes addr 0x2b99844 size 0x44 virtual false final false
- int32_t GetMeshes(ByRef<::ArrayW<::UnityEngine::Mesh>> meshes) ;
+ int32_t GetMeshes(ByRef<::ArrayW<UnityEngine::Mesh>> meshes) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ParticleSystemRenderer);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ParticleSystemRenderer, "UnityEngine", "ParticleSystemRenderer");
+NEED_NO_BOX(UnityEngine::ParticleSystemRenderer);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystemRenderer, "UnityEngine", "ParticleSystemRenderer");

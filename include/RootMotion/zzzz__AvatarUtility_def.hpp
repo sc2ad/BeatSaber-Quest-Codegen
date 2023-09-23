@@ -2,21 +2,20 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
-struct AvatarIKGoal;
-}
-namespace RootMotion {
-class TQ;
-}
-namespace UnityEngine {
-struct HumanBodyBones;
+class Avatar;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
-class Avatar;
+struct HumanBodyBones;
+}
+namespace UnityEngine {
+struct AvatarIKGoal;
+}
+namespace RootMotion {
+class TQ;
 }
 // Forward declare root types
 namespace RootMotion {
@@ -65,13 +64,13 @@ constexpr explicit AvatarUtility(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 // Methods
 
 /// @brief Method GetPostRotation addr 0x11a7a3c size 0x230 virtual false final false
-static ::UnityEngine::Quaternion GetPostRotation(::UnityEngine::Avatar avatar, ::UnityEngine::AvatarIKGoal avatarIKGoal) ;
+static UnityEngine::Quaternion GetPostRotation(UnityEngine::Avatar avatar, UnityEngine::AvatarIKGoal avatarIKGoal) ;
 
 /// @brief Method GetIKGoalTQ addr 0x11a7c8c size 0x658 virtual false final false
-static ::RootMotion::TQ GetIKGoalTQ(::UnityEngine::Avatar avatar, float_t humanScale, ::UnityEngine::AvatarIKGoal avatarIKGoal, ::RootMotion::TQ bodyPositionRotation, ::RootMotion::TQ boneTQ) ;
+static RootMotion::TQ GetIKGoalTQ(UnityEngine::Avatar avatar, float_t humanScale, UnityEngine::AvatarIKGoal avatarIKGoal, RootMotion::TQ bodyPositionRotation, RootMotion::TQ boneTQ) ;
 
 /// @brief Method HumanIDFromAvatarIKGoal addr 0x11a7c6c size 0x20 virtual false final false
-static ::UnityEngine::HumanBodyBones HumanIDFromAvatarIKGoal(::UnityEngine::AvatarIKGoal avatarIKGoal) ;
+static UnityEngine::HumanBodyBones HumanIDFromAvatarIKGoal(UnityEngine::AvatarIKGoal avatarIKGoal) ;
 
 // Ctor Parameters []
 explicit AvatarUtility() ;
@@ -83,6 +82,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::AvatarUtility);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::AvatarUtility, "RootMotion", "AvatarUtility");
+NEED_NO_BOX(RootMotion::AvatarUtility);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::AvatarUtility, "RootMotion", "AvatarUtility");

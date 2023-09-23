@@ -1,21 +1,20 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
+namespace GlobalNamespace {
+struct SaberType;
+}
 namespace GlobalNamespace {
 class ColorScheme;
 }
 namespace GlobalNamespace {
 struct EnvironmentColorType;
 }
-namespace GlobalNamespace {
-struct ColorType;
-}
 namespace UnityEngine {
 struct Color;
 }
 namespace GlobalNamespace {
-struct SaberType;
+struct ColorType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -63,40 +62,40 @@ constexpr explicit ColorManager(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 
 // Fields
 
- ::GlobalNamespace::ColorScheme __declspec(property(get=__get__colorScheme, put=__set__colorScheme))  _colorScheme;
+ GlobalNamespace::ColorScheme __declspec(property(get=__get__colorScheme, put=__set__colorScheme))  _colorScheme;
 
-constexpr void __set__colorScheme(::GlobalNamespace::ColorScheme value) ;
+constexpr void __set__colorScheme(GlobalNamespace::ColorScheme value) ;
 
-constexpr ::GlobalNamespace::ColorScheme __get__colorScheme() const;
+constexpr GlobalNamespace::ColorScheme __get__colorScheme() const;
 
 
 // Properties
 
- ::UnityEngine::Color __declspec(property(get=get_obstaclesColor))  obstaclesColor;
+ UnityEngine::Color __declspec(property(get=get_obstaclesColor))  obstaclesColor;
 
 
 // Methods
 
 /// @brief Method get_obstaclesColor addr 0x2191cd8 size 0x20 virtual false final false
- ::UnityEngine::Color get_obstaclesColor() ;
+ UnityEngine::Color get_obstaclesColor() ;
 
 /// @brief Method SetColorScheme addr 0x2191cf8 size 0x8 virtual false final false
- void SetColorScheme(::GlobalNamespace::ColorScheme colorScheme) ;
+ void SetColorScheme(GlobalNamespace::ColorScheme colorScheme) ;
 
 /// @brief Method ColorForType addr 0x2191d00 size 0xe8 virtual false final false
- ::UnityEngine::Color ColorForType(::GlobalNamespace::EnvironmentColorType type, bool boost) ;
+ UnityEngine::Color ColorForType(GlobalNamespace::EnvironmentColorType type, bool boost) ;
 
 /// @brief Method ColorForType addr 0x2191de8 size 0x74 virtual false final false
- ::UnityEngine::Color ColorForType(::GlobalNamespace::ColorType type) ;
+ UnityEngine::Color ColorForType(GlobalNamespace::ColorType type) ;
 
 /// @brief Method ColorForSaberType addr 0x2191e5c size 0x54 virtual false final false
- ::UnityEngine::Color ColorForSaberType(::GlobalNamespace::SaberType type) ;
+ UnityEngine::Color ColorForSaberType(GlobalNamespace::SaberType type) ;
 
 /// @brief Method EffectsColorForSaberType addr 0x2191eb0 size 0x90 virtual false final false
- ::UnityEngine::Color EffectsColorForSaberType(::GlobalNamespace::SaberType type) ;
+ UnityEngine::Color EffectsColorForSaberType(GlobalNamespace::SaberType type) ;
 
 /// @brief Method GetObstacleEffectColor addr 0x2191f40 size 0x5c virtual false final false
- ::UnityEngine::Color GetObstacleEffectColor() ;
+ UnityEngine::Color GetObstacleEffectColor() ;
 
 // Ctor Parameters []
 explicit ColorManager() ;
@@ -108,6 +107,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ColorManager);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ColorManager, "", "ColorManager");
+NEED_NO_BOX(GlobalNamespace::ColorManager);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorManager, "", "ColorManager");

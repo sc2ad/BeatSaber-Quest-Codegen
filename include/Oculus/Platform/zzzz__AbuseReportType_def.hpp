@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform {
 struct AbuseReportType;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::Oculus::Platform::AbuseReportType const Unknown;
+static Oculus::Platform::AbuseReportType const Unknown;
 
 /// @brief Field Object offset 0
-static ::Oculus::Platform::AbuseReportType const Object;
+static Oculus::Platform::AbuseReportType const Object;
 
 /// @brief Field User offset 0
-static ::Oculus::Platform::AbuseReportType const User;
+static Oculus::Platform::AbuseReportType const User;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::AbuseReportType, "Oculus.Platform", "AbuseReportType");
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::AbuseReportType, "Oculus.Platform", "AbuseReportType");

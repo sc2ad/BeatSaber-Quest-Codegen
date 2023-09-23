@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 class AudioSource;
 }
@@ -57,11 +56,11 @@ constexpr explicit BufferedAudioStream(void* ptr) noexcept : ::bs_hook::Il2CppWr
 /// @brief Field VerboseLogging offset 0
 static constexpr bool  VerboseLogging{false};
 
- ::UnityEngine::AudioSource __declspec(property(get=__get_audio, put=__set_audio))  audio;
+ UnityEngine::AudioSource __declspec(property(get=__get_audio, put=__set_audio))  audio;
 
-constexpr void __set_audio(::UnityEngine::AudioSource value) ;
+constexpr void __set_audio(UnityEngine::AudioSource value) ;
 
-constexpr ::UnityEngine::AudioSource __get_audio() const;
+constexpr UnityEngine::AudioSource __get_audio() const;
 
  ::ArrayW<float_t> __declspec(property(get=__get_audioBuffer, put=__set_audioBuffer))  audioBuffer;
 
@@ -102,11 +101,11 @@ constexpr float_t __get_remainingBufferTime() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "audio", ty: "::UnityEngine::AudioSource", modifiers: "", def_value: None }]
-explicit BufferedAudioStream(::UnityEngine::AudioSource audio) ;
+// Ctor Parameters [CppParam { name: "audio", ty: "UnityEngine::AudioSource", modifiers: "", def_value: None }]
+explicit BufferedAudioStream(UnityEngine::AudioSource audio) ;
 
 /// @brief Method .ctor addr 0x2551c24 size 0xc4 virtual false final false
- void _ctor(::UnityEngine::AudioSource audio) ;
+ void _ctor(UnityEngine::AudioSource audio) ;
 
 /// @brief Method Update addr 0x2551d2c size 0x1d0 virtual false final false
  void Update() ;
@@ -121,6 +120,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BufferedAudioStream);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BufferedAudioStream, "", "BufferedAudioStream");
+NEED_NO_BOX(GlobalNamespace::BufferedAudioStream);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BufferedAudioStream, "", "BufferedAudioStream");

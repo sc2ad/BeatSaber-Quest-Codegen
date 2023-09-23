@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Exception_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 class ExitGUIException;
@@ -12,7 +11,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2560))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14786))
 // CS Name: UnityEngine.ExitGUIException
-class CORDL_TYPE ExitGUIException : public ::System::Exception {
+class CORDL_TYPE ExitGUIException : public System::Exception {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr ExitGUIException(ExitGUIException const& ) noexcept = default;
 constexpr ExitGUIException(ExitGUIException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ExitGUIException(void* ptr) noexcept : ::System::Exception(ptr) {
+constexpr explicit ExitGUIException(void* ptr) noexcept : System::Exception(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ExitGUIException);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ExitGUIException, "UnityEngine", "ExitGUIException");
+NEED_NO_BOX(UnityEngine::ExitGUIException);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ExitGUIException, "UnityEngine", "ExitGUIException");

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -64,12 +63,11 @@ static uint32_t ToUpperASCIIFast(uint32_t c) ;
 static int32_t GetHashCodeCaseInSensitive(::StringW s) ;
 
 /// @brief Method UintToString addr 0x2bc6d00 size 0xd8 virtual false final false
-static ::StringW UintToString(::System::Collections::Generic::List_1<uint32_t> unicodes) ;
+static ::StringW UintToString(System::Collections::Generic::List_1<uint32_t> unicodes) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::Text
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::TextCore::Text::TextUtilities);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::TextUtilities, "UnityEngine.TextCore.Text", "TextUtilities");
+NEED_NO_BOX(UnityEngine::TextCore::Text::TextUtilities);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Text::TextUtilities, "UnityEngine.TextCore.Text", "TextUtilities");

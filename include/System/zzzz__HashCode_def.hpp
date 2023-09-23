@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 struct HashCode;
@@ -144,5 +143,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::HashCode, "System", "HashCode");
+DEFINE_IL2CPP_ARG_TYPE(System::HashCode, "System", "HashCode");

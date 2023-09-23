@@ -3,18 +3,17 @@
 #include "GlobalNamespace/zzzz__PoolableSerializable_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-struct NoteLineLayer;
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 namespace GlobalNamespace {
-struct Vector3Serializable;
+struct NoteLineLayer;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace LiteNetLib::Utils {
-class NetDataWriter;
+namespace GlobalNamespace {
+struct Vector3Serializable;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
@@ -29,7 +28,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15122))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15118))
 // CS Name: ObstacleSpawnInfoNetSerializable
-class CORDL_TYPE ObstacleSpawnInfoNetSerializable : public ::GlobalNamespace::PoolableSerializable {
+class CORDL_TYPE ObstacleSpawnInfoNetSerializable : public GlobalNamespace::PoolableSerializable {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -44,7 +43,7 @@ constexpr ObstacleSpawnInfoNetSerializable(ObstacleSpawnInfoNetSerializable cons
 constexpr ObstacleSpawnInfoNetSerializable(ObstacleSpawnInfoNetSerializable&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ObstacleSpawnInfoNetSerializable(void* ptr) noexcept : ::GlobalNamespace::PoolableSerializable(ptr) {
+constexpr explicit ObstacleSpawnInfoNetSerializable(void* ptr) noexcept : GlobalNamespace::PoolableSerializable(ptr) {
 }
 
 
@@ -77,11 +76,11 @@ constexpr void __set_lineIndex(int32_t value) ;
 
 constexpr int32_t __get_lineIndex() const;
 
- ::GlobalNamespace::NoteLineLayer __declspec(property(get=__get_lineLayer, put=__set_lineLayer))  lineLayer;
+ GlobalNamespace::NoteLineLayer __declspec(property(get=__get_lineLayer, put=__set_lineLayer))  lineLayer;
 
-constexpr void __set_lineLayer(::GlobalNamespace::NoteLineLayer value) ;
+constexpr void __set_lineLayer(GlobalNamespace::NoteLineLayer value) ;
 
-constexpr ::GlobalNamespace::NoteLineLayer __get_lineLayer() const;
+constexpr GlobalNamespace::NoteLineLayer __get_lineLayer() const;
 
  float_t __declspec(property(get=__get_duration, put=__set_duration))  duration;
 
@@ -101,23 +100,23 @@ constexpr void __set_height(int32_t value) ;
 
 constexpr int32_t __get_height() const;
 
- ::GlobalNamespace::Vector3Serializable __declspec(property(get=__get_moveStartPos, put=__set_moveStartPos))  moveStartPos;
+ GlobalNamespace::Vector3Serializable __declspec(property(get=__get_moveStartPos, put=__set_moveStartPos))  moveStartPos;
 
-constexpr void __set_moveStartPos(::GlobalNamespace::Vector3Serializable value) ;
+constexpr void __set_moveStartPos(GlobalNamespace::Vector3Serializable value) ;
 
-constexpr ::GlobalNamespace::Vector3Serializable __get_moveStartPos() const;
+constexpr GlobalNamespace::Vector3Serializable __get_moveStartPos() const;
 
- ::GlobalNamespace::Vector3Serializable __declspec(property(get=__get_moveEndPos, put=__set_moveEndPos))  moveEndPos;
+ GlobalNamespace::Vector3Serializable __declspec(property(get=__get_moveEndPos, put=__set_moveEndPos))  moveEndPos;
 
-constexpr void __set_moveEndPos(::GlobalNamespace::Vector3Serializable value) ;
+constexpr void __set_moveEndPos(GlobalNamespace::Vector3Serializable value) ;
 
-constexpr ::GlobalNamespace::Vector3Serializable __get_moveEndPos() const;
+constexpr GlobalNamespace::Vector3Serializable __get_moveEndPos() const;
 
- ::GlobalNamespace::Vector3Serializable __declspec(property(get=__get_jumpEndPos, put=__set_jumpEndPos))  jumpEndPos;
+ GlobalNamespace::Vector3Serializable __declspec(property(get=__get_jumpEndPos, put=__set_jumpEndPos))  jumpEndPos;
 
-constexpr void __set_jumpEndPos(::GlobalNamespace::Vector3Serializable value) ;
+constexpr void __set_jumpEndPos(GlobalNamespace::Vector3Serializable value) ;
 
-constexpr ::GlobalNamespace::Vector3Serializable __get_jumpEndPos() const;
+constexpr GlobalNamespace::Vector3Serializable __get_jumpEndPos() const;
 
  float_t __declspec(property(get=__get_obstacleHeight, put=__set_obstacleHeight))  obstacleHeight;
 
@@ -153,10 +152,10 @@ constexpr float_t __get_rotation() const;
 // Methods
 
 /// @brief Method Obtain addr 0x1218148 size 0x64 virtual false final false
-static ::GlobalNamespace::ObstacleSpawnInfoNetSerializable Obtain() ;
+static GlobalNamespace::ObstacleSpawnInfoNetSerializable Obtain() ;
 
 /// @brief Method Init addr 0x12181ac size 0x120 virtual false final false
- ::GlobalNamespace::ObstacleSpawnInfoNetSerializable Init(float_t time, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, float_t duration, int32_t width, int32_t height, ::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos, float_t obstacleHeight, float_t moveDuration, float_t jumpDuration, float_t noteLinesDistance, float_t rotation) ;
+ GlobalNamespace::ObstacleSpawnInfoNetSerializable Init(float_t time, int32_t lineIndex, GlobalNamespace::NoteLineLayer lineLayer, float_t duration, int32_t width, int32_t height, UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float_t obstacleHeight, float_t moveDuration, float_t jumpDuration, float_t noteLinesDistance, float_t rotation) ;
 
 // Ctor Parameters []
 explicit ObstacleSpawnInfoNetSerializable() ;
@@ -165,15 +164,14 @@ explicit ObstacleSpawnInfoNetSerializable() ;
  void _ctor() ;
 
 /// @brief Method Serialize addr 0x1218324 size 0x104 virtual true final false
- void Serialize(::LiteNetLib::Utils::NetDataWriter writer) ;
+ void Serialize(LiteNetLib::Utils::NetDataWriter writer) ;
 
 /// @brief Method Deserialize addr 0x1218428 size 0x118 virtual true final false
- void Deserialize(::LiteNetLib::Utils::NetDataReader reader) ;
+ void Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ObstacleSpawnInfoNetSerializable);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ObstacleSpawnInfoNetSerializable, "", "ObstacleSpawnInfoNetSerializable");
+NEED_NO_BOX(GlobalNamespace::ObstacleSpawnInfoNetSerializable);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleSpawnInfoNetSerializable, "", "ObstacleSpawnInfoNetSerializable");

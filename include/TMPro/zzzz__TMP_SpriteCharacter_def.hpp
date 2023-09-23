@@ -3,12 +3,11 @@
 #include "TMPro/zzzz__TMP_TextElement_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace TMPro {
-class TMP_SpriteAsset;
-}
 namespace TMPro {
 class TMP_SpriteGlyph;
+}
+namespace TMPro {
+class TMP_SpriteAsset;
 }
 // Forward declare root types
 namespace TMPro {
@@ -20,7 +19,7 @@ namespace TMPro {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12390))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12364))
 // CS Name: TMPro.TMP_SpriteCharacter
-class CORDL_TYPE TMP_SpriteCharacter : public ::TMPro::TMP_TextElement {
+class CORDL_TYPE TMP_SpriteCharacter : public TMPro::TMP_TextElement {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr TMP_SpriteCharacter(TMP_SpriteCharacter const& ) noexcept = default;
 constexpr TMP_SpriteCharacter(TMP_SpriteCharacter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TMP_SpriteCharacter(void* ptr) noexcept : ::TMPro::TMP_TextElement(ptr) {
+constexpr explicit TMP_SpriteCharacter(void* ptr) noexcept : TMPro::TMP_TextElement(ptr) {
 }
 
 
@@ -93,17 +92,17 @@ explicit TMP_SpriteCharacter() ;
 /// @brief Method .ctor addr 0x2aaccc8 size 0x20 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "unicode", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "glyph", ty: "::TMPro::TMP_SpriteGlyph", modifiers: "", def_value: None }]
-explicit TMP_SpriteCharacter(uint32_t unicode, ::TMPro::TMP_SpriteGlyph glyph) ;
+// Ctor Parameters [CppParam { name: "unicode", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "glyph", ty: "TMPro::TMP_SpriteGlyph", modifiers: "", def_value: None }]
+explicit TMP_SpriteCharacter(uint32_t unicode, TMPro::TMP_SpriteGlyph glyph) ;
 
 /// @brief Method .ctor addr 0x2aacf40 size 0x54 virtual false final false
- void _ctor(uint32_t unicode, ::TMPro::TMP_SpriteGlyph glyph) ;
+ void _ctor(uint32_t unicode, TMPro::TMP_SpriteGlyph glyph) ;
 
-// Ctor Parameters [CppParam { name: "unicode", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "spriteAsset", ty: "::TMPro::TMP_SpriteAsset", modifiers: "", def_value: None }, CppParam { name: "glyph", ty: "::TMPro::TMP_SpriteGlyph", modifiers: "", def_value: None }]
-explicit TMP_SpriteCharacter(uint32_t unicode, ::TMPro::TMP_SpriteAsset spriteAsset, ::TMPro::TMP_SpriteGlyph glyph) ;
+// Ctor Parameters [CppParam { name: "unicode", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "spriteAsset", ty: "TMPro::TMP_SpriteAsset", modifiers: "", def_value: None }, CppParam { name: "glyph", ty: "TMPro::TMP_SpriteGlyph", modifiers: "", def_value: None }]
+explicit TMP_SpriteCharacter(uint32_t unicode, TMPro::TMP_SpriteAsset spriteAsset, TMPro::TMP_SpriteGlyph glyph) ;
 
 /// @brief Method .ctor addr 0x2aacf94 size 0x60 virtual false final false
- void _ctor(uint32_t unicode, ::TMPro::TMP_SpriteAsset spriteAsset, ::TMPro::TMP_SpriteGlyph glyph) ;
+ void _ctor(uint32_t unicode, TMPro::TMP_SpriteAsset spriteAsset, TMPro::TMP_SpriteGlyph glyph) ;
 
 // Ctor Parameters [CppParam { name: "unicode", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "glyphIndex", ty: "uint32_t", modifiers: "", def_value: None }]
 explicit TMP_SpriteCharacter(uint32_t unicode, uint32_t glyphIndex) ;
@@ -115,6 +114,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-NEED_NO_BOX(::TMPro::TMP_SpriteCharacter);
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_SpriteCharacter, "TMPro", "TMP_SpriteCharacter");
+NEED_NO_BOX(TMPro::TMP_SpriteCharacter);
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteCharacter, "TMPro", "TMP_SpriteCharacter");

@@ -3,34 +3,33 @@
 #include "UnityEngine/UIElements/zzzz__BindableElement_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace UnityEngine::UIElements {
-class Label;
-}
 namespace UnityEngine::UIElements {
 class IGroupBox;
 }
 namespace UnityEngine::UIElements {
-class UxmlStringAttributeDescription;
+class Label;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;
 }
 namespace UnityEngine::UIElements {
+class IUxmlAttributes;
+}
+namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-class IUxmlAttributes;
+class UxmlStringAttributeDescription;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class GroupBox;
 }
 namespace UnityEngine::UIElements {
-class ____UnityEngine__UIElements__GroupBox__UxmlFactory;
+class UnityEngine__UIElements__GroupBox__UxmlFactory;
 }
 namespace UnityEngine::UIElements {
-class ____UnityEngine__UIElements__GroupBox__UxmlTraits;
+class UnityEngine__UIElements__GroupBox__UxmlTraits;
 }
 // Type: ::UxmlTraits
 namespace UnityEngine::UIElements {
@@ -38,56 +37,56 @@ namespace UnityEngine::UIElements {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6885))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7212))
 // CS Name: UnityEngine.UIElements.GroupBox::UxmlTraits
-class CORDL_TYPE ____UnityEngine__UIElements__GroupBox__UxmlTraits : public ::UnityEngine::UIElements::____UnityEngine__UIElements__BindableElement__UxmlTraits {
+class CORDL_TYPE UnityEngine__UIElements__GroupBox__UxmlTraits : public UnityEngine::UIElements::UnityEngine__UIElements__BindableElement__UxmlTraits {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x80};
 
-virtual ~____UnityEngine__UIElements__GroupBox__UxmlTraits() = default;
+virtual ~UnityEngine__UIElements__GroupBox__UxmlTraits() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__GroupBox__UxmlTraits", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__UIElements__GroupBox__UxmlTraits(____UnityEngine__UIElements__GroupBox__UxmlTraits const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__GroupBox__UxmlTraits", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__UIElements__GroupBox__UxmlTraits(UnityEngine__UIElements__GroupBox__UxmlTraits const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__GroupBox__UxmlTraits", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__UIElements__GroupBox__UxmlTraits(____UnityEngine__UIElements__GroupBox__UxmlTraits&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__GroupBox__UxmlTraits", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__UIElements__GroupBox__UxmlTraits(UnityEngine__UIElements__GroupBox__UxmlTraits&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UIElements__GroupBox__UxmlTraits(void* ptr) noexcept : ::UnityEngine::UIElements::____UnityEngine__UIElements__BindableElement__UxmlTraits(ptr) {
+constexpr explicit UnityEngine__UIElements__GroupBox__UxmlTraits(void* ptr) noexcept : UnityEngine::UIElements::UnityEngine__UIElements__BindableElement__UxmlTraits(ptr) {
 }
 
 
-  constexpr ____UnityEngine__UIElements__GroupBox__UxmlTraits& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__UIElements__GroupBox__UxmlTraits& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__GroupBox__UxmlTraits& operator=(void* o) noexcept {
+  constexpr UnityEngine__UIElements__GroupBox__UxmlTraits& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__GroupBox__UxmlTraits& operator=(____UnityEngine__UIElements__GroupBox__UxmlTraits&& o) noexcept = default;
-  constexpr ____UnityEngine__UIElements__GroupBox__UxmlTraits& operator=(____UnityEngine__UIElements__GroupBox__UxmlTraits const& o) noexcept = default;
+  constexpr UnityEngine__UIElements__GroupBox__UxmlTraits& operator=(UnityEngine__UIElements__GroupBox__UxmlTraits&& o) noexcept = default;
+  constexpr UnityEngine__UIElements__GroupBox__UxmlTraits& operator=(UnityEngine__UIElements__GroupBox__UxmlTraits const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::UnityEngine::UIElements::UxmlStringAttributeDescription __declspec(property(get=__get_m_Text, put=__set_m_Text))  m_Text;
+ UnityEngine::UIElements::UxmlStringAttributeDescription __declspec(property(get=__get_m_Text, put=__set_m_Text))  m_Text;
 
-constexpr void __set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription value) ;
+constexpr void __set_m_Text(UnityEngine::UIElements::UxmlStringAttributeDescription value) ;
 
-constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription __get_m_Text() const;
+constexpr UnityEngine::UIElements::UxmlStringAttributeDescription __get_m_Text() const;
 
 
 // Methods
 
 /// @brief Method Init addr 0x2cc147c size 0xf8 virtual true final false
- void Init(::UnityEngine::UIElements::VisualElement ve, ::UnityEngine::UIElements::IUxmlAttributes bag, ::UnityEngine::UIElements::CreationContext cc) ;
+ void Init(UnityEngine::UIElements::VisualElement ve, UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
 // Ctor Parameters []
-explicit ____UnityEngine__UIElements__GroupBox__UxmlTraits() ;
+explicit UnityEngine__UIElements__GroupBox__UxmlTraits() ;
 
 /// @brief Method .ctor addr 0x2cc1574 size 0x84 virtual false final false
  void _ctor() ;
@@ -102,15 +101,15 @@ namespace UnityEngine::UIElements {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6886))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7213))
 // CS Name: UnityEngine.UIElements.GroupBox
-class CORDL_TYPE GroupBox : public ::UnityEngine::UIElements::BindableElement {
+class CORDL_TYPE GroupBox : public UnityEngine::UIElements::BindableElement {
 public:
 // Declarations
-using UxmlTraits = ::UnityEngine::UIElements::____UnityEngine__UIElements__GroupBox__UxmlTraits;
+using UxmlTraits = UnityEngine::UIElements::UnityEngine__UIElements__GroupBox__UxmlTraits;
 
-using UxmlFactory = ::UnityEngine::UIElements::____UnityEngine__UIElements__GroupBox__UxmlFactory;
+using UxmlFactory = UnityEngine::UIElements::UnityEngine__UIElements__GroupBox__UxmlFactory;
 
-/// @brief Convert operator to ::UnityEngine::UIElements::IGroupBox
-constexpr operator  ::UnityEngine::UIElements::IGroupBox() const noexcept;
+/// @brief Convert operator to UnityEngine::UIElements::IGroupBox
+constexpr operator  UnityEngine::UIElements::IGroupBox() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x3c8};
@@ -124,7 +123,7 @@ constexpr GroupBox(GroupBox const& ) noexcept = default;
 constexpr GroupBox(GroupBox&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GroupBox(void* ptr) noexcept : ::UnityEngine::UIElements::BindableElement(ptr) {
+constexpr explicit GroupBox(void* ptr) noexcept : UnityEngine::UIElements::BindableElement(ptr) {
 }
 
 
@@ -157,11 +156,11 @@ static void __set_labelUssClassName(::StringW value) ;
 
 static ::StringW __get_labelUssClassName() ;
 
- ::UnityEngine::UIElements::Label __declspec(property(get=__get_m_TitleLabel, put=__set_m_TitleLabel))  m_TitleLabel;
+ UnityEngine::UIElements::Label __declspec(property(get=__get_m_TitleLabel, put=__set_m_TitleLabel))  m_TitleLabel;
 
-constexpr void __set_m_TitleLabel(::UnityEngine::UIElements::Label value) ;
+constexpr void __set_m_TitleLabel(UnityEngine::UIElements::Label value) ;
 
-constexpr ::UnityEngine::UIElements::Label __get_m_TitleLabel() const;
+constexpr UnityEngine::UIElements::Label __get_m_TitleLabel() const;
 
 
 // Properties
@@ -193,47 +192,47 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::UxmlFactory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5088 }), TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(7213)), TypeDefinitionIndex(TypeDefinitionIndex(7212))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7212)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5088 }), TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(7213))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7211))
 // CS Name: UnityEngine.UIElements.GroupBox::UxmlFactory
-class CORDL_TYPE ____UnityEngine__UIElements__GroupBox__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::GroupBox,::UnityEngine::UIElements::____UnityEngine__UIElements__GroupBox__UxmlTraits> {
+class CORDL_TYPE UnityEngine__UIElements__GroupBox__UxmlFactory : public UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::GroupBox,UnityEngine::UIElements::UnityEngine__UIElements__GroupBox__UxmlTraits> {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____UnityEngine__UIElements__GroupBox__UxmlFactory() = default;
+virtual ~UnityEngine__UIElements__GroupBox__UxmlFactory() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__GroupBox__UxmlFactory", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__UIElements__GroupBox__UxmlFactory(____UnityEngine__UIElements__GroupBox__UxmlFactory const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__GroupBox__UxmlFactory", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__UIElements__GroupBox__UxmlFactory(UnityEngine__UIElements__GroupBox__UxmlFactory const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__GroupBox__UxmlFactory", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__UIElements__GroupBox__UxmlFactory(____UnityEngine__UIElements__GroupBox__UxmlFactory&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__GroupBox__UxmlFactory", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__UIElements__GroupBox__UxmlFactory(UnityEngine__UIElements__GroupBox__UxmlFactory&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UIElements__GroupBox__UxmlFactory(void* ptr) noexcept : ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::GroupBox,::UnityEngine::UIElements::____UnityEngine__UIElements__GroupBox__UxmlTraits>(ptr) {
+constexpr explicit UnityEngine__UIElements__GroupBox__UxmlFactory(void* ptr) noexcept : UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::GroupBox,UnityEngine::UIElements::UnityEngine__UIElements__GroupBox__UxmlTraits>(ptr) {
 }
 
 
-  constexpr ____UnityEngine__UIElements__GroupBox__UxmlFactory& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__UIElements__GroupBox__UxmlFactory& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__GroupBox__UxmlFactory& operator=(void* o) noexcept {
+  constexpr UnityEngine__UIElements__GroupBox__UxmlFactory& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__GroupBox__UxmlFactory& operator=(____UnityEngine__UIElements__GroupBox__UxmlFactory&& o) noexcept = default;
-  constexpr ____UnityEngine__UIElements__GroupBox__UxmlFactory& operator=(____UnityEngine__UIElements__GroupBox__UxmlFactory const& o) noexcept = default;
+  constexpr UnityEngine__UIElements__GroupBox__UxmlFactory& operator=(UnityEngine__UIElements__GroupBox__UxmlFactory&& o) noexcept = default;
+  constexpr UnityEngine__UIElements__GroupBox__UxmlFactory& operator=(UnityEngine__UIElements__GroupBox__UxmlFactory const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__UIElements__GroupBox__UxmlFactory() ;
+explicit UnityEngine__UIElements__GroupBox__UxmlFactory() ;
 
 /// @brief Method .ctor addr 0x2cc1434 size 0x48 virtual false final false
  void _ctor() ;
@@ -242,10 +241,9 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::GroupBox);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::GroupBox, "UnityEngine.UIElements", "GroupBox");
-NEED_NO_BOX(::UnityEngine::UIElements::____UnityEngine__UIElements__GroupBox__UxmlFactory);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::____UnityEngine__UIElements__GroupBox__UxmlFactory, "UnityEngine.UIElements", "GroupBox/UxmlFactory");
-NEED_NO_BOX(::UnityEngine::UIElements::____UnityEngine__UIElements__GroupBox__UxmlTraits);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::____UnityEngine__UIElements__GroupBox__UxmlTraits, "UnityEngine.UIElements", "GroupBox/UxmlTraits");
+NEED_NO_BOX(UnityEngine::UIElements::GroupBox);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::GroupBox, "UnityEngine.UIElements", "GroupBox");
+NEED_NO_BOX(UnityEngine::UIElements::UnityEngine__UIElements__GroupBox__UxmlFactory);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UnityEngine__UIElements__GroupBox__UxmlFactory, "UnityEngine.UIElements", "GroupBox/UxmlFactory");
+NEED_NO_BOX(UnityEngine::UIElements::UnityEngine__UIElements__GroupBox__UxmlTraits);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UnityEngine__UIElements__GroupBox__UxmlTraits, "UnityEngine.UIElements", "GroupBox/UxmlTraits");

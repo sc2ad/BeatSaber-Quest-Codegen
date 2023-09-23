@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__ObservableVariableSO_1_def.hpp"
 #include <cmath>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class DoubleSO;
@@ -13,7 +12,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13904)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13904), inst: 2598 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13898))
 // CS Name: DoubleSO
-class CORDL_TYPE DoubleSO : public ::GlobalNamespace::ObservableVariableSO_1<double_t> {
+class CORDL_TYPE DoubleSO : public GlobalNamespace::ObservableVariableSO_1<double_t> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr DoubleSO(DoubleSO const& ) noexcept = default;
 constexpr DoubleSO(DoubleSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DoubleSO(void* ptr) noexcept : ::GlobalNamespace::ObservableVariableSO_1<double_t>(ptr) {
+constexpr explicit DoubleSO(void* ptr) noexcept : GlobalNamespace::ObservableVariableSO_1<double_t>(ptr) {
 }
 
 
@@ -59,6 +58,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::DoubleSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DoubleSO, "", "DoubleSO");
+NEED_NO_BOX(GlobalNamespace::DoubleSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DoubleSO, "", "DoubleSO");

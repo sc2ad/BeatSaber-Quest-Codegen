@@ -1,15 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
 namespace ENet {
-class AllocCallback;
+class FreeCallback;
 }
 namespace ENet {
 class NoMemoryCallback;
 }
 namespace ENet {
-class FreeCallback;
+class AllocCallback;
 }
 // Forward declare root types
 namespace ENet {
@@ -24,8 +23,8 @@ namespace ENet {
 struct CORDL_TYPE ENetCallbacks : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "malloc", ty: "::ENet::AllocCallback", modifiers: "", def_value: None }, CppParam { name: "free", ty: "::ENet::FreeCallback", modifiers: "", def_value: None }, CppParam { name: "noMemory", ty: "::ENet::NoMemoryCallback", modifiers: "", def_value: None }]
-constexpr ENetCallbacks(::ENet::AllocCallback malloc, ::ENet::FreeCallback free, ::ENet::NoMemoryCallback noMemory) noexcept;
+// Ctor Parameters [CppParam { name: "malloc", ty: "ENet::AllocCallback", modifiers: "", def_value: None }, CppParam { name: "free", ty: "ENet::FreeCallback", modifiers: "", def_value: None }, CppParam { name: "noMemory", ty: "ENet::NoMemoryCallback", modifiers: "", def_value: None }]
+constexpr ENetCallbacks(ENet::AllocCallback malloc, ENet::FreeCallback free, ENet::NoMemoryCallback noMemory) noexcept;
 
 
                     constexpr ENetCallbacks(ENetCallbacks const&) = default;
@@ -58,27 +57,26 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::ENet::AllocCallback __declspec(property(get=__get_malloc, put=__set_malloc))  malloc;
+ ENet::AllocCallback __declspec(property(get=__get_malloc, put=__set_malloc))  malloc;
 
-constexpr void __set_malloc(::ENet::AllocCallback value) ;
+constexpr void __set_malloc(ENet::AllocCallback value) ;
 
-constexpr ::ENet::AllocCallback __get_malloc() const;
+constexpr ENet::AllocCallback __get_malloc() const;
 
- ::ENet::FreeCallback __declspec(property(get=__get_free, put=__set_free))  free;
+ ENet::FreeCallback __declspec(property(get=__get_free, put=__set_free))  free;
 
-constexpr void __set_free(::ENet::FreeCallback value) ;
+constexpr void __set_free(ENet::FreeCallback value) ;
 
-constexpr ::ENet::FreeCallback __get_free() const;
+constexpr ENet::FreeCallback __get_free() const;
 
- ::ENet::NoMemoryCallback __declspec(property(get=__get_noMemory, put=__set_noMemory))  noMemory;
+ ENet::NoMemoryCallback __declspec(property(get=__get_noMemory, put=__set_noMemory))  noMemory;
 
-constexpr void __set_noMemory(::ENet::NoMemoryCallback value) ;
+constexpr void __set_noMemory(ENet::NoMemoryCallback value) ;
 
-constexpr ::ENet::NoMemoryCallback __get_noMemory() const;
+constexpr ENet::NoMemoryCallback __get_noMemory() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def ENet
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::ENet::ENetCallbacks, "ENet", "ENetCallbacks");
+DEFINE_IL2CPP_ARG_TYPE(ENet::ENetCallbacks, "ENet", "ENetCallbacks");

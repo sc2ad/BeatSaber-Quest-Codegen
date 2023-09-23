@@ -3,7 +3,6 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 class NoteMovement;
 }
@@ -20,7 +19,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5057))
 // CS Name: NoteTrailEffect
-class CORDL_TYPE NoteTrailEffect : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE NoteTrailEffect : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr NoteTrailEffect(NoteTrailEffect const& ) noexcept = default;
 constexpr NoteTrailEffect(NoteTrailEffect&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NoteTrailEffect(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit NoteTrailEffect(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -68,17 +67,17 @@ constexpr void __set__maxSpawnDistance(float_t value) ;
 
 constexpr float_t __get__maxSpawnDistance() const;
 
- ::GlobalNamespace::NoteMovement __declspec(property(get=__get__noteMovement, put=__set__noteMovement))  _noteMovement;
+ GlobalNamespace::NoteMovement __declspec(property(get=__get__noteMovement, put=__set__noteMovement))  _noteMovement;
 
-constexpr void __set__noteMovement(::GlobalNamespace::NoteMovement value) ;
+constexpr void __set__noteMovement(GlobalNamespace::NoteMovement value) ;
 
-constexpr ::GlobalNamespace::NoteMovement __get__noteMovement() const;
+constexpr GlobalNamespace::NoteMovement __get__noteMovement() const;
 
- ::GlobalNamespace::NoteTrailParticleSystem __declspec(property(get=__get__noteTrailParticleSystem, put=__set__noteTrailParticleSystem))  _noteTrailParticleSystem;
+ GlobalNamespace::NoteTrailParticleSystem __declspec(property(get=__get__noteTrailParticleSystem, put=__set__noteTrailParticleSystem))  _noteTrailParticleSystem;
 
-constexpr void __set__noteTrailParticleSystem(::GlobalNamespace::NoteTrailParticleSystem value) ;
+constexpr void __set__noteTrailParticleSystem(GlobalNamespace::NoteTrailParticleSystem value) ;
 
-constexpr ::GlobalNamespace::NoteTrailParticleSystem __get__noteTrailParticleSystem() const;
+constexpr GlobalNamespace::NoteTrailParticleSystem __get__noteTrailParticleSystem() const;
 
 
 // Methods
@@ -108,6 +107,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::NoteTrailEffect);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoteTrailEffect, "", "NoteTrailEffect");
+NEED_NO_BOX(GlobalNamespace::NoteTrailEffect);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteTrailEffect, "", "NoteTrailEffect");

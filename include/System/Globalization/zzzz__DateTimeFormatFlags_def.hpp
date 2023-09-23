@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Globalization {
 struct DateTimeFormatFlags;
@@ -73,32 +72,31 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::Globalization::DateTimeFormatFlags const None;
+static System::Globalization::DateTimeFormatFlags const None;
 
 /// @brief Field UseGenitiveMonth offset 0
-static ::System::Globalization::DateTimeFormatFlags const UseGenitiveMonth;
+static System::Globalization::DateTimeFormatFlags const UseGenitiveMonth;
 
 /// @brief Field UseLeapYearMonth offset 0
-static ::System::Globalization::DateTimeFormatFlags const UseLeapYearMonth;
+static System::Globalization::DateTimeFormatFlags const UseLeapYearMonth;
 
 /// @brief Field UseSpacesInMonthNames offset 0
-static ::System::Globalization::DateTimeFormatFlags const UseSpacesInMonthNames;
+static System::Globalization::DateTimeFormatFlags const UseSpacesInMonthNames;
 
 /// @brief Field UseHebrewRule offset 0
-static ::System::Globalization::DateTimeFormatFlags const UseHebrewRule;
+static System::Globalization::DateTimeFormatFlags const UseHebrewRule;
 
 /// @brief Field UseSpacesInDayNames offset 0
-static ::System::Globalization::DateTimeFormatFlags const UseSpacesInDayNames;
+static System::Globalization::DateTimeFormatFlags const UseSpacesInDayNames;
 
 /// @brief Field UseDigitPrefixInTokens offset 0
-static ::System::Globalization::DateTimeFormatFlags const UseDigitPrefixInTokens;
+static System::Globalization::DateTimeFormatFlags const UseDigitPrefixInTokens;
 
 /// @brief Field NotInitialized offset 0
-static ::System::Globalization::DateTimeFormatFlags const NotInitialized;
+static System::Globalization::DateTimeFormatFlags const NotInitialized;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Globalization
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::DateTimeFormatFlags, "System.Globalization", "DateTimeFormatFlags");
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::DateTimeFormatFlags, "System.Globalization", "DateTimeFormatFlags");

@@ -3,9 +3,15 @@
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
 namespace UnityEngine {
 class GameObject;
+}
+namespace HoudiniEngineUnity {
+class HEU_PartData;
 }
 namespace HoudiniEngineUnity {
 class HEU_InstancedInput;
@@ -13,13 +19,6 @@ class HEU_InstancedInput;
 namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivable_1;
-}
-namespace HoudiniEngineUnity {
-class HEU_PartData;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -31,11 +30,11 @@ namespace HoudiniEngineUnity {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10151))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9593))
 // CS Name: HoudiniEngineUnity.HEU_ObjectInstanceInfo
-class CORDL_TYPE HEU_ObjectInstanceInfo : public ::UnityEngine::ScriptableObject {
+class CORDL_TYPE HEU_ObjectInstanceInfo : public UnityEngine::ScriptableObject {
 public:
 // Declarations
-/// @brief Convert operator to ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>
-constexpr operator  ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>() const noexcept;
+/// @brief Convert operator to HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_ObjectInstanceInfo>
+constexpr operator  HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_ObjectInstanceInfo>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -49,7 +48,7 @@ constexpr HEU_ObjectInstanceInfo(HEU_ObjectInstanceInfo const& ) noexcept = defa
 constexpr HEU_ObjectInstanceInfo(HEU_ObjectInstanceInfo&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HEU_ObjectInstanceInfo(void* ptr) noexcept : ::UnityEngine::ScriptableObject(ptr) {
+constexpr explicit HEU_ObjectInstanceInfo(void* ptr) noexcept : UnityEngine::ScriptableObject(ptr) {
 }
 
 
@@ -70,17 +69,17 @@ constexpr explicit HEU_ObjectInstanceInfo(void* ptr) noexcept : ::UnityEngine::S
 
 // Fields
 
- ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InstancedInput> __declspec(property(get=__get__instancedInputs, put=__set__instancedInputs))  _instancedInputs;
+ System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InstancedInput> __declspec(property(get=__get__instancedInputs, put=__set__instancedInputs))  _instancedInputs;
 
-constexpr void __set__instancedInputs(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InstancedInput> value) ;
+constexpr void __set__instancedInputs(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InstancedInput> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InstancedInput> __get__instancedInputs() const;
+constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InstancedInput> __get__instancedInputs() const;
 
- ::HoudiniEngineUnity::HEU_PartData __declspec(property(get=__get__partTarget, put=__set__partTarget))  _partTarget;
+ HoudiniEngineUnity::HEU_PartData __declspec(property(get=__get__partTarget, put=__set__partTarget))  _partTarget;
 
-constexpr void __set__partTarget(::HoudiniEngineUnity::HEU_PartData value) ;
+constexpr void __set__partTarget(HoudiniEngineUnity::HEU_PartData value) ;
 
-constexpr ::HoudiniEngineUnity::HEU_PartData __get__partTarget() const;
+constexpr HoudiniEngineUnity::HEU_PartData __get__partTarget() const;
 
  int32_t __declspec(property(get=__get__instancedObjectNodeID, put=__set__instancedObjectNodeID))  _instancedObjectNodeID;
 
@@ -94,17 +93,17 @@ constexpr void __set__instancedObjectPath(::StringW value) ;
 
 constexpr ::StringW __get__instancedObjectPath() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::GameObject> __declspec(property(get=__get__instances, put=__set__instances))  _instances;
+ System::Collections::Generic::List_1<UnityEngine::GameObject> __declspec(property(get=__get__instances, put=__set__instances))  _instances;
 
-constexpr void __set__instances(::System::Collections::Generic::List_1<::UnityEngine::GameObject> value) ;
+constexpr void __set__instances(System::Collections::Generic::List_1<UnityEngine::GameObject> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::GameObject> __get__instances() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::GameObject> __get__instances() const;
 
 
 // Methods
 
 /// @brief Method IsEquivalentTo addr 0x1ffee08 size 0x148 virtual true final true
- bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ObjectInstanceInfo other) ;
+ bool IsEquivalentTo(HoudiniEngineUnity::HEU_ObjectInstanceInfo other) ;
 
 // Ctor Parameters []
 explicit HEU_ObjectInstanceInfo() ;
@@ -116,6 +115,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_ObjectInstanceInfo);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_ObjectInstanceInfo, "HoudiniEngineUnity", "HEU_ObjectInstanceInfo");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_ObjectInstanceInfo);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ObjectInstanceInfo, "HoudiniEngineUnity", "HEU_ObjectInstanceInfo");

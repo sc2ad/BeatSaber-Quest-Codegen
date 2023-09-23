@@ -2,15 +2,8 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace GlobalNamespace {
-class IBeatmapLevelData;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class PreviewDifficultyBeatmap;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
@@ -19,7 +12,13 @@ namespace GlobalNamespace {
 class IDifficultyBeatmapSet;
 }
 namespace GlobalNamespace {
-class PreviewDifficultyBeatmap;
+class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelData;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -68,21 +67,20 @@ constexpr explicit BeatmapLevelDataExtensions(void* ptr) noexcept : ::bs_hook::I
 // Methods
 
 /// @brief Method GetDifficultyBeatmap addr 0x21eb17c size 0x418 virtual false final false
-static ::GlobalNamespace::IDifficultyBeatmap GetDifficultyBeatmap(::GlobalNamespace::IBeatmapLevelData beatmapLevelData, ::GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty difficulty) ;
+static GlobalNamespace::IDifficultyBeatmap GetDifficultyBeatmap(GlobalNamespace::IBeatmapLevelData beatmapLevelData, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, GlobalNamespace::BeatmapDifficulty difficulty) ;
 
 /// @brief Method GetDifficultyBeatmapSet addr 0x21eb594 size 0x4a0 virtual false final false
-static ::GlobalNamespace::IDifficultyBeatmapSet GetDifficultyBeatmapSet(::GlobalNamespace::IBeatmapLevelData beatmapLevelData, ::GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic) ;
+static GlobalNamespace::IDifficultyBeatmapSet GetDifficultyBeatmapSet(GlobalNamespace::IBeatmapLevelData beatmapLevelData, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic) ;
 
 /// @brief Method GetDifficultyBeatmap addr 0x21eba34 size 0x20 virtual false final false
-static ::GlobalNamespace::IDifficultyBeatmap GetDifficultyBeatmap(::GlobalNamespace::IBeatmapLevelData beatmapLevelData, ::GlobalNamespace::PreviewDifficultyBeatmap previewDifficultyBeatmap) ;
+static GlobalNamespace::IDifficultyBeatmap GetDifficultyBeatmap(GlobalNamespace::IBeatmapLevelData beatmapLevelData, GlobalNamespace::PreviewDifficultyBeatmap previewDifficultyBeatmap) ;
 
 /// @brief Method GetDifficultyBeatmapSet addr 0x21eba54 size 0x478 virtual false final false
-static ::GlobalNamespace::IDifficultyBeatmapSet GetDifficultyBeatmapSet(::GlobalNamespace::IBeatmapLevelData beatmapLevelData, ::StringW beatmapCharacteristicName) ;
+static GlobalNamespace::IDifficultyBeatmapSet GetDifficultyBeatmapSet(GlobalNamespace::IBeatmapLevelData beatmapLevelData, ::StringW beatmapCharacteristicName) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BeatmapLevelDataExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapLevelDataExtensions, "", "BeatmapLevelDataExtensions");
+NEED_NO_BOX(GlobalNamespace::BeatmapLevelDataExtensions);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelDataExtensions, "", "BeatmapLevelDataExtensions");

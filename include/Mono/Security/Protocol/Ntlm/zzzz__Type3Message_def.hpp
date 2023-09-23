@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Mono::Security::Protocol::Ntlm {
 class Type2Message;
 }
@@ -21,7 +20,7 @@ namespace Mono::Security::Protocol::Ntlm {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13976))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13982))
 // CS Name: Mono.Security.Protocol.Ntlm.Type3Message
-class CORDL_TYPE Type3Message : public ::Mono::Security::Protocol::Ntlm::MessageBase {
+class CORDL_TYPE Type3Message : public Mono::Security::Protocol::Ntlm::MessageBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr Type3Message(Type3Message const& ) noexcept = default;
 constexpr Type3Message(Type3Message&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Type3Message(void* ptr) noexcept : ::Mono::Security::Protocol::Ntlm::MessageBase(ptr) {
+constexpr explicit Type3Message(void* ptr) noexcept : Mono::Security::Protocol::Ntlm::MessageBase(ptr) {
 }
 
 
@@ -57,11 +56,11 @@ constexpr explicit Type3Message(void* ptr) noexcept : ::Mono::Security::Protocol
 
 // Fields
 
- ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel __declspec(property(get=__get__level, put=__set__level))  _level;
+ Mono::Security::Protocol::Ntlm::NtlmAuthLevel __declspec(property(get=__get__level, put=__set__level))  _level;
 
-constexpr void __set__level(::Mono::Security::Protocol::Ntlm::NtlmAuthLevel value) ;
+constexpr void __set__level(Mono::Security::Protocol::Ntlm::NtlmAuthLevel value) ;
 
-constexpr ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel __get__level() const;
+constexpr Mono::Security::Protocol::Ntlm::NtlmAuthLevel __get__level() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get__challenge, put=__set__challenge))  _challenge;
 
@@ -93,11 +92,11 @@ constexpr void __set__password(::StringW value) ;
 
 constexpr ::StringW __get__password() const;
 
- ::Mono::Security::Protocol::Ntlm::Type2Message __declspec(property(get=__get__type2, put=__set__type2))  _type2;
+ Mono::Security::Protocol::Ntlm::Type2Message __declspec(property(get=__get__type2, put=__set__type2))  _type2;
 
-constexpr void __set__type2(::Mono::Security::Protocol::Ntlm::Type2Message value) ;
+constexpr void __set__type2(Mono::Security::Protocol::Ntlm::Type2Message value) ;
 
-constexpr ::Mono::Security::Protocol::Ntlm::Type2Message __get__type2() const;
+constexpr Mono::Security::Protocol::Ntlm::Type2Message __get__type2() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get__lm, put=__set__lm))  _lm;
 
@@ -123,11 +122,11 @@ constexpr ::ArrayW<uint8_t> __get__nt() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type2", ty: "::Mono::Security::Protocol::Ntlm::Type2Message", modifiers: "", def_value: None }]
-explicit Type3Message(::Mono::Security::Protocol::Ntlm::Type2Message type2) ;
+// Ctor Parameters [CppParam { name: "type2", ty: "Mono::Security::Protocol::Ntlm::Type2Message", modifiers: "", def_value: None }]
+explicit Type3Message(Mono::Security::Protocol::Ntlm::Type2Message type2) ;
 
 /// @brief Method .ctor addr 0x229463c size 0x1ec virtual false final false
- void _ctor(::Mono::Security::Protocol::Ntlm::Type2Message type2) ;
+ void _ctor(Mono::Security::Protocol::Ntlm::Type2Message type2) ;
 
 /// @brief Method Finalize addr 0x2294828 size 0xe0 virtual true final false
  void Finalize() ;
@@ -157,6 +156,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Security::Protocol::Ntlm
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Security::Protocol::Ntlm::Type3Message);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Protocol::Ntlm::Type3Message, "Mono.Security.Protocol.Ntlm", "Type3Message");
+NEED_NO_BOX(Mono::Security::Protocol::Ntlm::Type3Message);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::Type3Message, "Mono.Security.Protocol.Ntlm", "Type3Message");

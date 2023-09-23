@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace System::Collections {
-class IList;
+namespace Org::BouncyCastle::Tsp {
+class TimeStampRequest;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerBoolean;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
@@ -20,11 +19,11 @@ class Asn1Encodable;
 namespace System::Collections {
 class IDictionary;
 }
-namespace Org::BouncyCastle::Tsp {
-class TimeStampRequest;
+namespace Org::BouncyCastle::Asn1 {
+class DerBoolean;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Tsp {
@@ -72,29 +71,29 @@ constexpr explicit TimeStampRequestGenerator(void* ptr) noexcept : ::bs_hook::Il
 
 // Fields
 
- ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_reqPolicy, put=__set_reqPolicy))  reqPolicy;
+ Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_reqPolicy, put=__set_reqPolicy))  reqPolicy;
 
-constexpr void __set_reqPolicy(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+constexpr void __set_reqPolicy(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_reqPolicy() const;
+constexpr Org::BouncyCastle::Asn1::DerObjectIdentifier __get_reqPolicy() const;
 
- ::Org::BouncyCastle::Asn1::DerBoolean __declspec(property(get=__get_certReq, put=__set_certReq))  certReq;
+ Org::BouncyCastle::Asn1::DerBoolean __declspec(property(get=__get_certReq, put=__set_certReq))  certReq;
 
-constexpr void __set_certReq(::Org::BouncyCastle::Asn1::DerBoolean value) ;
+constexpr void __set_certReq(Org::BouncyCastle::Asn1::DerBoolean value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::DerBoolean __get_certReq() const;
+constexpr Org::BouncyCastle::Asn1::DerBoolean __get_certReq() const;
 
- ::System::Collections::IDictionary __declspec(property(get=__get_extensions, put=__set_extensions))  extensions;
+ System::Collections::IDictionary __declspec(property(get=__get_extensions, put=__set_extensions))  extensions;
 
-constexpr void __set_extensions(::System::Collections::IDictionary value) ;
+constexpr void __set_extensions(System::Collections::IDictionary value) ;
 
-constexpr ::System::Collections::IDictionary __get_extensions() const;
+constexpr System::Collections::IDictionary __get_extensions() const;
 
- ::System::Collections::IList __declspec(property(get=__get_extOrdering, put=__set_extOrdering))  extOrdering;
+ System::Collections::IList __declspec(property(get=__get_extOrdering, put=__set_extOrdering))  extOrdering;
 
-constexpr void __set_extOrdering(::System::Collections::IList value) ;
+constexpr void __set_extOrdering(System::Collections::IList value) ;
 
-constexpr ::System::Collections::IList __get_extOrdering() const;
+constexpr System::Collections::IList __get_extOrdering() const;
 
 
 // Methods
@@ -106,28 +105,28 @@ constexpr ::System::Collections::IList __get_extOrdering() const;
  void SetCertReq(bool certReq) ;
 
 /// @brief Method AddExtension addr 0x10c3e18 size 0x44 virtual false final false
- void AddExtension(::StringW oid, bool critical, ::Org::BouncyCastle::Asn1::Asn1Encodable value) ;
+ void AddExtension(::StringW oid, bool critical, Org::BouncyCastle::Asn1::Asn1Encodable value) ;
 
 /// @brief Method AddExtension addr 0x10c3e5c size 0x1d8 virtual false final false
  void AddExtension(::StringW oid, bool critical, ::ArrayW<uint8_t> value) ;
 
 /// @brief Method AddExtension addr 0x10c4034 size 0x4c virtual true final false
- void AddExtension(::Org::BouncyCastle::Asn1::DerObjectIdentifier oid, bool critical, ::Org::BouncyCastle::Asn1::Asn1Encodable extValue) ;
+ void AddExtension(Org::BouncyCastle::Asn1::DerObjectIdentifier oid, bool critical, Org::BouncyCastle::Asn1::Asn1Encodable extValue) ;
 
 /// @brief Method AddExtension addr 0x10c4080 size 0x1a8 virtual true final false
- void AddExtension(::Org::BouncyCastle::Asn1::DerObjectIdentifier oid, bool critical, ::ArrayW<uint8_t> extValue) ;
+ void AddExtension(Org::BouncyCastle::Asn1::DerObjectIdentifier oid, bool critical, ::ArrayW<uint8_t> extValue) ;
 
 /// @brief Method Generate addr 0x10c4228 size 0x8 virtual false final false
- ::Org::BouncyCastle::Tsp::TimeStampRequest Generate(::StringW digestAlgorithm, ::ArrayW<uint8_t> digest) ;
+ Org::BouncyCastle::Tsp::TimeStampRequest Generate(::StringW digestAlgorithm, ::ArrayW<uint8_t> digest) ;
 
 /// @brief Method Generate addr 0x10c4230 size 0x2d0 virtual false final false
- ::Org::BouncyCastle::Tsp::TimeStampRequest Generate(::StringW digestAlgorithmOid, ::ArrayW<uint8_t> digest, ::Org::BouncyCastle::Math::BigInteger nonce) ;
+ Org::BouncyCastle::Tsp::TimeStampRequest Generate(::StringW digestAlgorithmOid, ::ArrayW<uint8_t> digest, Org::BouncyCastle::Math::BigInteger nonce) ;
 
 /// @brief Method Generate addr 0x10c4500 size 0x1c virtual true final false
- ::Org::BouncyCastle::Tsp::TimeStampRequest Generate(::Org::BouncyCastle::Asn1::DerObjectIdentifier digestAlgorithm, ::ArrayW<uint8_t> digest) ;
+ Org::BouncyCastle::Tsp::TimeStampRequest Generate(Org::BouncyCastle::Asn1::DerObjectIdentifier digestAlgorithm, ::ArrayW<uint8_t> digest) ;
 
 /// @brief Method Generate addr 0x10c451c size 0x18 virtual true final false
- ::Org::BouncyCastle::Tsp::TimeStampRequest Generate(::Org::BouncyCastle::Asn1::DerObjectIdentifier digestAlgorithm, ::ArrayW<uint8_t> digest, ::Org::BouncyCastle::Math::BigInteger nonce) ;
+ Org::BouncyCastle::Tsp::TimeStampRequest Generate(Org::BouncyCastle::Asn1::DerObjectIdentifier digestAlgorithm, ::ArrayW<uint8_t> digest, Org::BouncyCastle::Math::BigInteger nonce) ;
 
 // Ctor Parameters []
 explicit TimeStampRequestGenerator() ;
@@ -139,6 +138,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Tsp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Tsp::TimeStampRequestGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Tsp::TimeStampRequestGenerator, "Org.BouncyCastle.Tsp", "TimeStampRequestGenerator");
+NEED_NO_BOX(Org::BouncyCastle::Tsp::TimeStampRequestGenerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Tsp::TimeStampRequestGenerator, "Org.BouncyCastle.Tsp", "TimeStampRequestGenerator");

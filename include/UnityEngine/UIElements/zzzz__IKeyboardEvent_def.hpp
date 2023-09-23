@@ -1,11 +1,10 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
-namespace UnityEngine {
-struct KeyCode;
-}
 namespace UnityEngine {
 struct EventModifiers;
+}
+namespace UnityEngine {
+struct KeyCode;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -29,28 +28,27 @@ constexpr explicit IKeyboardEvent(void* ptr) noexcept : ::cordl_internals::Inter
 
 // Properties
 
- ::UnityEngine::EventModifiers __declspec(property(get=get_modifiers))  modifiers;
+ UnityEngine::EventModifiers __declspec(property(get=get_modifiers))  modifiers;
 
  char16_t __declspec(property(get=get_character))  character;
 
- ::UnityEngine::KeyCode __declspec(property(get=get_keyCode))  keyCode;
+ UnityEngine::KeyCode __declspec(property(get=get_keyCode))  keyCode;
 
 
 // Methods
 
 /// @brief Method get_modifiers addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::EventModifiers get_modifiers() ;
+ UnityEngine::EventModifiers get_modifiers() ;
 
 /// @brief Method get_character addr 0x0 size 0xffffffffffffffff virtual true final false
  char16_t get_character() ;
 
 /// @brief Method get_keyCode addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::KeyCode get_keyCode() ;
+ UnityEngine::KeyCode get_keyCode() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::IKeyboardEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::IKeyboardEvent, "UnityEngine.UIElements", "IKeyboardEvent");
+NEED_NO_BOX(UnityEngine::UIElements::IKeyboardEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::IKeyboardEvent, "UnityEngine.UIElements", "IKeyboardEvent");

@@ -3,15 +3,14 @@
 #include "GlobalNamespace/zzzz__OVRCursor_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-class OVRProgressIndicator;
+namespace UnityEngine {
+class Transform;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+class OVRProgressIndicator;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,7 +22,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8887))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8904))
 // CS Name: OVRGazePointer
-class CORDL_TYPE OVRGazePointer : public ::GlobalNamespace::OVRCursor {
+class CORDL_TYPE OVRGazePointer : public GlobalNamespace::OVRCursor {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr OVRGazePointer(OVRGazePointer const& ) noexcept = default;
 constexpr OVRGazePointer(OVRGazePointer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OVRGazePointer(void* ptr) noexcept : ::GlobalNamespace::OVRCursor(ptr) {
+constexpr explicit OVRGazePointer(void* ptr) noexcept : GlobalNamespace::OVRCursor(ptr) {
 }
 
 
@@ -59,11 +58,11 @@ constexpr explicit OVRGazePointer(void* ptr) noexcept : ::GlobalNamespace::OVRCu
 
 // Fields
 
- ::UnityEngine::Transform __declspec(property(get=__get_gazeIcon, put=__set_gazeIcon))  gazeIcon;
+ UnityEngine::Transform __declspec(property(get=__get_gazeIcon, put=__set_gazeIcon))  gazeIcon;
 
-constexpr void __set_gazeIcon(::UnityEngine::Transform value) ;
+constexpr void __set_gazeIcon(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_gazeIcon() const;
+constexpr UnityEngine::Transform __get_gazeIcon() const;
 
  bool __declspec(property(get=__get_hideByDefault, put=__set_hideByDefault))  hideByDefault;
 
@@ -101,11 +100,11 @@ constexpr void __set_matchNormalOnPhysicsColliders(bool value) ;
 
 constexpr bool __get_matchNormalOnPhysicsColliders() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_rayTransform, put=__set_rayTransform))  rayTransform;
+ UnityEngine::Transform __declspec(property(get=__get_rayTransform, put=__set_rayTransform))  rayTransform;
 
-constexpr void __set_rayTransform(::UnityEngine::Transform value) ;
+constexpr void __set_rayTransform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_rayTransform() const;
+constexpr UnityEngine::Transform __get_rayTransform() const;
 
  bool __declspec(property(get=__get__hidden_k__BackingField, put=__set__hidden_k__BackingField))  _hidden_k__BackingField;
 
@@ -149,17 +148,17 @@ constexpr void __set_lastHideRequestTime(float_t value) ;
 
 constexpr float_t __get_lastHideRequestTime() const;
 
- ::GlobalNamespace::OVRProgressIndicator __declspec(property(get=__get_progressIndicator, put=__set_progressIndicator))  progressIndicator;
+ GlobalNamespace::OVRProgressIndicator __declspec(property(get=__get_progressIndicator, put=__set_progressIndicator))  progressIndicator;
 
-constexpr void __set_progressIndicator(::GlobalNamespace::OVRProgressIndicator value) ;
+constexpr void __set_progressIndicator(GlobalNamespace::OVRProgressIndicator value) ;
 
-constexpr ::GlobalNamespace::OVRProgressIndicator __get_progressIndicator() const;
+constexpr GlobalNamespace::OVRProgressIndicator __get_progressIndicator() const;
 
-static ::GlobalNamespace::OVRGazePointer __declspec(property(get=__get__instance, put=__set__instance))  _instance;
+static GlobalNamespace::OVRGazePointer __declspec(property(get=__get__instance, put=__set__instance))  _instance;
 
-static void __set__instance(::GlobalNamespace::OVRGazePointer value) ;
+static void __set__instance(GlobalNamespace::OVRGazePointer value) ;
 
-static ::GlobalNamespace::OVRGazePointer __get__instance() ;
+static GlobalNamespace::OVRGazePointer __get__instance() ;
 
 
 // Properties
@@ -168,7 +167,7 @@ static ::GlobalNamespace::OVRGazePointer __get__instance() ;
 
  float_t __declspec(property(get=get_currentScale, put=set_currentScale))  currentScale;
 
-static ::GlobalNamespace::OVRGazePointer __declspec(property(get=get_instance))  instance;
+static GlobalNamespace::OVRGazePointer __declspec(property(get=get_instance))  instance;
 
  float_t __declspec(property(get=get_visibilityStrength))  visibilityStrength;
 
@@ -190,7 +189,7 @@ static ::GlobalNamespace::OVRGazePointer __declspec(property(get=get_instance)) 
  void set_currentScale(float_t value) ;
 
 /// @brief Method get_instance addr 0x2620580 size 0x214 virtual false final false
-static ::GlobalNamespace::OVRGazePointer get_instance() ;
+static GlobalNamespace::OVRGazePointer get_instance() ;
 
 /// @brief Method get_visibilityStrength addr 0x2620794 size 0x9c virtual false final false
  float_t get_visibilityStrength() ;
@@ -208,10 +207,10 @@ static ::GlobalNamespace::OVRGazePointer get_instance() ;
  void Update() ;
 
 /// @brief Method SetCursorStartDest addr 0x2620e60 size 0x1e0 virtual true final false
- void SetCursorStartDest(::UnityEngine::Vector3 _, ::UnityEngine::Vector3 pos, ::UnityEngine::Vector3 normal) ;
+ void SetCursorStartDest(UnityEngine::Vector3 _, UnityEngine::Vector3 pos, UnityEngine::Vector3 normal) ;
 
 /// @brief Method SetCursorRay addr 0x2621060 size 0x4 virtual true final false
- void SetCursorRay(::UnityEngine::Transform ray) ;
+ void SetCursorRay(UnityEngine::Transform ray) ;
 
 /// @brief Method LateUpdate addr 0x2621064 size 0x178 virtual false final false
  void LateUpdate() ;
@@ -238,6 +237,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OVRGazePointer);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRGazePointer, "", "OVRGazePointer");
+NEED_NO_BOX(GlobalNamespace::OVRGazePointer);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRGazePointer, "", "OVRGazePointer");

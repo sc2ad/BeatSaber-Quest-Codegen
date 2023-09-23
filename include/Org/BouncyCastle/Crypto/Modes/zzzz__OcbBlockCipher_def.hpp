@@ -4,21 +4,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
 namespace Org::BouncyCastle::Crypto::Modes {
 class IAeadCipher;
 }
 namespace System::Collections {
 class IList;
 }
-namespace Org::BouncyCastle::Crypto::Modes {
-class IAeadBlockCipher;
-}
 namespace Org::BouncyCastle::Crypto {
 class IBlockCipher;
 }
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+namespace Org::BouncyCastle::Crypto::Modes {
+class IAeadBlockCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Modes {
@@ -33,11 +32,11 @@ namespace Org::BouncyCastle::Crypto::Modes {
 class CORDL_TYPE OcbBlockCipher : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher
-constexpr operator  ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher
+constexpr operator  Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher() const noexcept;
 
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Modes::IAeadCipher
-constexpr operator  ::Org::BouncyCastle::Crypto::Modes::IAeadCipher() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Modes::IAeadCipher
+constexpr operator  Org::BouncyCastle::Crypto::Modes::IAeadCipher() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xb0};
@@ -75,17 +74,17 @@ constexpr explicit OcbBlockCipher(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 /// @brief Field BLOCK_SIZE offset 0
 static constexpr int32_t  BLOCK_SIZE{16};
 
- ::Org::BouncyCastle::Crypto::IBlockCipher __declspec(property(get=__get_hashCipher, put=__set_hashCipher))  hashCipher;
+ Org::BouncyCastle::Crypto::IBlockCipher __declspec(property(get=__get_hashCipher, put=__set_hashCipher))  hashCipher;
 
-constexpr void __set_hashCipher(::Org::BouncyCastle::Crypto::IBlockCipher value) ;
+constexpr void __set_hashCipher(Org::BouncyCastle::Crypto::IBlockCipher value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IBlockCipher __get_hashCipher() const;
+constexpr Org::BouncyCastle::Crypto::IBlockCipher __get_hashCipher() const;
 
- ::Org::BouncyCastle::Crypto::IBlockCipher __declspec(property(get=__get_mainCipher, put=__set_mainCipher))  mainCipher;
+ Org::BouncyCastle::Crypto::IBlockCipher __declspec(property(get=__get_mainCipher, put=__set_mainCipher))  mainCipher;
 
-constexpr void __set_mainCipher(::Org::BouncyCastle::Crypto::IBlockCipher value) ;
+constexpr void __set_mainCipher(Org::BouncyCastle::Crypto::IBlockCipher value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IBlockCipher __get_mainCipher() const;
+constexpr Org::BouncyCastle::Crypto::IBlockCipher __get_mainCipher() const;
 
  bool __declspec(property(get=__get_forEncryption, put=__set_forEncryption))  forEncryption;
 
@@ -105,11 +104,11 @@ constexpr void __set_initialAssociatedText(::ArrayW<uint8_t> value) ;
 
 constexpr ::ArrayW<uint8_t> __get_initialAssociatedText() const;
 
- ::System::Collections::IList __declspec(property(get=__get_L, put=__set_L))  L;
+ System::Collections::IList __declspec(property(get=__get_L, put=__set_L))  L;
 
-constexpr void __set_L(::System::Collections::IList value) ;
+constexpr void __set_L(System::Collections::IList value) ;
 
-constexpr ::System::Collections::IList __get_L() const;
+constexpr System::Collections::IList __get_L() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get_L_Asterisk, put=__set_L_Asterisk))  L_Asterisk;
 
@@ -215,20 +214,20 @@ constexpr ::ArrayW<uint8_t> __get_macBlock() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "hashCipher", ty: "::Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }, CppParam { name: "mainCipher", ty: "::Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
-explicit OcbBlockCipher(::Org::BouncyCastle::Crypto::IBlockCipher hashCipher, ::Org::BouncyCastle::Crypto::IBlockCipher mainCipher) ;
+// Ctor Parameters [CppParam { name: "hashCipher", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }, CppParam { name: "mainCipher", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
+explicit OcbBlockCipher(Org::BouncyCastle::Crypto::IBlockCipher hashCipher, Org::BouncyCastle::Crypto::IBlockCipher mainCipher) ;
 
 /// @brief Method .ctor addr 0xe97020 size 0x3e4 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher hashCipher, ::Org::BouncyCastle::Crypto::IBlockCipher mainCipher) ;
+ void _ctor(Org::BouncyCastle::Crypto::IBlockCipher hashCipher, Org::BouncyCastle::Crypto::IBlockCipher mainCipher) ;
 
 /// @brief Method GetUnderlyingCipher addr 0xe97404 size 0x8 virtual true final false
- ::Org::BouncyCastle::Crypto::IBlockCipher GetUnderlyingCipher() ;
+ Org::BouncyCastle::Crypto::IBlockCipher GetUnderlyingCipher() ;
 
 /// @brief Method get_AlgorithmName addr 0xe9740c size 0xc0 virtual true final false
  ::StringW get_AlgorithmName() ;
 
 /// @brief Method Init addr 0xe974cc size 0x6dc virtual true final false
- void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method ProcessNonce addr 0xe97c40 size 0x238 virtual true final false
  int32_t ProcessNonce(::ArrayW<uint8_t> N) ;
@@ -300,6 +299,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Modes
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Modes::OcbBlockCipher);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Modes::OcbBlockCipher, "Org.BouncyCastle.Crypto.Modes", "OcbBlockCipher");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Modes::OcbBlockCipher);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::OcbBlockCipher, "Org.BouncyCastle.Crypto.Modes", "OcbBlockCipher");

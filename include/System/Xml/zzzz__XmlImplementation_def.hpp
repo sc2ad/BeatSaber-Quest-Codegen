@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Xml {
 class XmlNameTable;
 }
@@ -54,16 +53,16 @@ constexpr explicit XmlImplementation(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 
 // Fields
 
- ::System::Xml::XmlNameTable __declspec(property(get=__get_nameTable, put=__set_nameTable))  nameTable;
+ System::Xml::XmlNameTable __declspec(property(get=__get_nameTable, put=__set_nameTable))  nameTable;
 
-constexpr void __set_nameTable(::System::Xml::XmlNameTable value) ;
+constexpr void __set_nameTable(System::Xml::XmlNameTable value) ;
 
-constexpr ::System::Xml::XmlNameTable __get_nameTable() const;
+constexpr System::Xml::XmlNameTable __get_nameTable() const;
 
 
 // Properties
 
- ::System::Xml::XmlNameTable __declspec(property(get=get_NameTable))  NameTable;
+ System::Xml::XmlNameTable __declspec(property(get=get_NameTable))  NameTable;
 
 
 // Methods
@@ -74,22 +73,21 @@ explicit XmlImplementation() ;
 /// @brief Method .ctor addr 0x26f68c8 size 0x68 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "nt", ty: "::System::Xml::XmlNameTable", modifiers: "", def_value: None }]
-explicit XmlImplementation(::System::Xml::XmlNameTable nt) ;
+// Ctor Parameters [CppParam { name: "nt", ty: "System::Xml::XmlNameTable", modifiers: "", def_value: None }]
+explicit XmlImplementation(System::Xml::XmlNameTable nt) ;
 
 /// @brief Method .ctor addr 0x26f69a0 size 0x28 virtual false final false
- void _ctor(::System::Xml::XmlNameTable nt) ;
+ void _ctor(System::Xml::XmlNameTable nt) ;
 
 /// @brief Method CreateDocument addr 0x26f69c8 size 0x64 virtual true final false
- ::System::Xml::XmlDocument CreateDocument() ;
+ System::Xml::XmlDocument CreateDocument() ;
 
 /// @brief Method get_NameTable addr 0x26f6a2c size 0x8 virtual false final false
- ::System::Xml::XmlNameTable get_NameTable() ;
+ System::Xml::XmlNameTable get_NameTable() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::XmlImplementation);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlImplementation, "System.Xml", "XmlImplementation");
+NEED_NO_BOX(System::Xml::XmlImplementation);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlImplementation, "System.Xml", "XmlImplementation");

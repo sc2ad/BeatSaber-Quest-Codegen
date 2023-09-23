@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
@@ -109,19 +108,19 @@ explicit PbeParametersGenerator() ;
  int32_t get_IterationCount() ;
 
 /// @brief Method GenerateDerivedParameters addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Crypto::ICipherParameters GenerateDerivedParameters(int32_t keySize) ;
+ Org::BouncyCastle::Crypto::ICipherParameters GenerateDerivedParameters(int32_t keySize) ;
 
 /// @brief Method GenerateDerivedParameters addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Crypto::ICipherParameters GenerateDerivedParameters(::StringW algorithm, int32_t keySize) ;
+ Org::BouncyCastle::Crypto::ICipherParameters GenerateDerivedParameters(::StringW algorithm, int32_t keySize) ;
 
 /// @brief Method GenerateDerivedParameters addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Crypto::ICipherParameters GenerateDerivedParameters(int32_t keySize, int32_t ivSize) ;
+ Org::BouncyCastle::Crypto::ICipherParameters GenerateDerivedParameters(int32_t keySize, int32_t ivSize) ;
 
 /// @brief Method GenerateDerivedParameters addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Crypto::ICipherParameters GenerateDerivedParameters(::StringW algorithm, int32_t keySize, int32_t ivSize) ;
+ Org::BouncyCastle::Crypto::ICipherParameters GenerateDerivedParameters(::StringW algorithm, int32_t keySize, int32_t ivSize) ;
 
 /// @brief Method GenerateDerivedMacParameters addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Crypto::ICipherParameters GenerateDerivedMacParameters(int32_t keySize) ;
+ Org::BouncyCastle::Crypto::ICipherParameters GenerateDerivedMacParameters(int32_t keySize) ;
 
 /// @brief Method Pkcs5PasswordToBytes addr 0xe7690c size 0x60 virtual false final false
 static ::ArrayW<uint8_t> Pkcs5PasswordToBytes(::ArrayW<char16_t> password) ;
@@ -145,6 +144,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::PbeParametersGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::PbeParametersGenerator, "Org.BouncyCastle.Crypto", "PbeParametersGenerator");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::PbeParametersGenerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::PbeParametersGenerator, "Org.BouncyCastle.Crypto", "PbeParametersGenerator");

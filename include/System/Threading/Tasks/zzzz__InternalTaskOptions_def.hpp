@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Threading::Tasks {
 struct InternalTaskOptions;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::Threading::Tasks::InternalTaskOptions const None;
+static System::Threading::Tasks::InternalTaskOptions const None;
 
 /// @brief Field InternalOptionsMask offset 0
-static ::System::Threading::Tasks::InternalTaskOptions const InternalOptionsMask;
+static System::Threading::Tasks::InternalTaskOptions const InternalOptionsMask;
 
 /// @brief Field ContinuationTask offset 0
-static ::System::Threading::Tasks::InternalTaskOptions const ContinuationTask;
+static System::Threading::Tasks::InternalTaskOptions const ContinuationTask;
 
 /// @brief Field PromiseTask offset 0
-static ::System::Threading::Tasks::InternalTaskOptions const PromiseTask;
+static System::Threading::Tasks::InternalTaskOptions const PromiseTask;
 
 /// @brief Field LazyCancellation offset 0
-static ::System::Threading::Tasks::InternalTaskOptions const LazyCancellation;
+static System::Threading::Tasks::InternalTaskOptions const LazyCancellation;
 
 /// @brief Field QueuedByRuntime offset 0
-static ::System::Threading::Tasks::InternalTaskOptions const QueuedByRuntime;
+static System::Threading::Tasks::InternalTaskOptions const QueuedByRuntime;
 
 /// @brief Field DoNotDispose offset 0
-static ::System::Threading::Tasks::InternalTaskOptions const DoNotDispose;
+static System::Threading::Tasks::InternalTaskOptions const DoNotDispose;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Threading::Tasks
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::InternalTaskOptions, "System.Threading.Tasks", "InternalTaskOptions");
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::InternalTaskOptions, "System.Threading.Tasks", "InternalTaskOptions");

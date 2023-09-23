@@ -4,32 +4,31 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-class IExperimentModel;
-}
 namespace GlobalNamespace {
 class IExperimentData;
 }
+namespace GlobalNamespace {
+class IExperimentModel;
+}
 namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+struct AsyncVoidMethodBuilder;
 }
 // Forward declare root types
+namespace GlobalNamespace {
+class GlobalNamespace__OculusTestExperiment__ExperimentData;
+}
 namespace GlobalNamespace {
 class OculusTestExperiment;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__OculusTestExperiment__ExperimentData;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__OculusTestExperiment___Init_d__3;
+struct GlobalNamespace__OculusTestExperiment___Init_d__3;
 }
 // Type: ::ExperimentData
 namespace GlobalNamespace {
@@ -37,40 +36,40 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4216))
 // CS Name: OculusTestExperiment::ExperimentData
-class CORDL_TYPE ____GlobalNamespace__OculusTestExperiment__ExperimentData : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__OculusTestExperiment__ExperimentData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IExperimentData
-constexpr operator  ::GlobalNamespace::IExperimentData() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IExperimentData
+constexpr operator  GlobalNamespace::IExperimentData() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____GlobalNamespace__OculusTestExperiment__ExperimentData() = default;
+virtual ~GlobalNamespace__OculusTestExperiment__ExperimentData() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OculusTestExperiment__ExperimentData", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__OculusTestExperiment__ExperimentData(____GlobalNamespace__OculusTestExperiment__ExperimentData const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OculusTestExperiment__ExperimentData", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__OculusTestExperiment__ExperimentData(GlobalNamespace__OculusTestExperiment__ExperimentData const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OculusTestExperiment__ExperimentData", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__OculusTestExperiment__ExperimentData(____GlobalNamespace__OculusTestExperiment__ExperimentData&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OculusTestExperiment__ExperimentData", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__OculusTestExperiment__ExperimentData(GlobalNamespace__OculusTestExperiment__ExperimentData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OculusTestExperiment__ExperimentData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__OculusTestExperiment__ExperimentData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__OculusTestExperiment__ExperimentData& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__OculusTestExperiment__ExperimentData& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OculusTestExperiment__ExperimentData& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__OculusTestExperiment__ExperimentData& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OculusTestExperiment__ExperimentData& operator=(____GlobalNamespace__OculusTestExperiment__ExperimentData&& o) noexcept = default;
-  constexpr ____GlobalNamespace__OculusTestExperiment__ExperimentData& operator=(____GlobalNamespace__OculusTestExperiment__ExperimentData const& o) noexcept = default;
+  constexpr GlobalNamespace__OculusTestExperiment__ExperimentData& operator=(GlobalNamespace__OculusTestExperiment__ExperimentData&& o) noexcept = default;
+  constexpr GlobalNamespace__OculusTestExperiment__ExperimentData& operator=(GlobalNamespace__OculusTestExperiment__ExperimentData const& o) noexcept = default;
                 
 
 
@@ -94,7 +93,7 @@ constexpr ::StringW __get__experimentPlatformKey() const;
  ::StringW get_experimentPlatformKey() ;
 
 // Ctor Parameters [CppParam { name: "experimentPlatformKey", ty: "::StringW", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__OculusTestExperiment__ExperimentData(::StringW experimentPlatformKey) ;
+explicit GlobalNamespace__OculusTestExperiment__ExperimentData(::StringW experimentPlatformKey) ;
 
 /// @brief Method .ctor addr 0x21bf95c size 0x28 virtual false final false
  void _ctor(::StringW experimentPlatformKey) ;
@@ -109,23 +108,23 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4217))
 // CS Name: OculusTestExperiment::<Init>d__3
-struct CORDL_TYPE ____GlobalNamespace__OculusTestExperiment___Init_d__3 : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__OculusTestExperiment___Init_d__3 : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::CompilerServices::IAsyncStateMachine
-constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine() const;
+/// @brief Convert operator to System::Runtime::CompilerServices::IAsyncStateMachine
+constexpr operator  System::Runtime::CompilerServices::IAsyncStateMachine() const;
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::OculusTestExperiment", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__OculusTestExperiment___Init_d__3(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::GlobalNamespace::OculusTestExperiment __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "GlobalNamespace::OculusTestExperiment", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }]
+constexpr GlobalNamespace__OculusTestExperiment___Init_d__3(int32_t __1__state, System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, GlobalNamespace::OculusTestExperiment __4__this, System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
 
-                    constexpr ____GlobalNamespace__OculusTestExperiment___Init_d__3(____GlobalNamespace__OculusTestExperiment___Init_d__3 const&) = default;
-                    constexpr ____GlobalNamespace__OculusTestExperiment___Init_d__3(____GlobalNamespace__OculusTestExperiment___Init_d__3&&) = default;
-                    constexpr ____GlobalNamespace__OculusTestExperiment___Init_d__3& operator=(____GlobalNamespace__OculusTestExperiment___Init_d__3 const& o) {
+                    constexpr GlobalNamespace__OculusTestExperiment___Init_d__3(GlobalNamespace__OculusTestExperiment___Init_d__3 const&) = default;
+                    constexpr GlobalNamespace__OculusTestExperiment___Init_d__3(GlobalNamespace__OculusTestExperiment___Init_d__3&&) = default;
+                    constexpr GlobalNamespace__OculusTestExperiment___Init_d__3& operator=(GlobalNamespace__OculusTestExperiment___Init_d__3 const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__OculusTestExperiment___Init_d__3& operator=(____GlobalNamespace__OculusTestExperiment___Init_d__3&& o) noexcept {
+                    constexpr GlobalNamespace__OculusTestExperiment___Init_d__3& operator=(GlobalNamespace__OculusTestExperiment___Init_d__3&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -138,7 +137,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x38};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OculusTestExperiment___Init_d__3(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__OculusTestExperiment___Init_d__3(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -155,23 +154,23 @@ constexpr void __set___1__state(int32_t value) ;
 
 constexpr int32_t __get___1__state() const;
 
- ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
+ System::Runtime::CompilerServices::AsyncVoidMethodBuilder __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
 
-constexpr void __set___t__builder(::System::Runtime::CompilerServices::AsyncVoidMethodBuilder value) ;
+constexpr void __set___t__builder(System::Runtime::CompilerServices::AsyncVoidMethodBuilder value) ;
 
-constexpr ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __get___t__builder() const;
+constexpr System::Runtime::CompilerServices::AsyncVoidMethodBuilder __get___t__builder() const;
 
- ::GlobalNamespace::OculusTestExperiment __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::OculusTestExperiment __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::OculusTestExperiment value) ;
+constexpr void __set___4__this(GlobalNamespace::OculusTestExperiment value) ;
 
-constexpr ::GlobalNamespace::OculusTestExperiment __get___4__this() const;
+constexpr GlobalNamespace::OculusTestExperiment __get___4__this() const;
 
- ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
+ System::Runtime::CompilerServices::TaskAwaiter_1<bool> __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
 
-constexpr void __set___u__1(::System::Runtime::CompilerServices::TaskAwaiter_1<bool> value) ;
+constexpr void __set___u__1(System::Runtime::CompilerServices::TaskAwaiter_1<bool> value) ;
 
-constexpr ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __get___u__1() const;
+constexpr System::Runtime::CompilerServices::TaskAwaiter_1<bool> __get___u__1() const;
 
 
 // Methods
@@ -180,7 +179,7 @@ constexpr ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __get___u__1(
  void MoveNext() ;
 
 /// @brief Method SetStateMachine addr 0x21bfdf4 size 0xc virtual true final true
- void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
+ void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -195,9 +194,9 @@ namespace GlobalNamespace {
 class CORDL_TYPE OculusTestExperiment : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using _Init_d__3 = ::GlobalNamespace::____GlobalNamespace__OculusTestExperiment___Init_d__3;
+using _Init_d__3 = GlobalNamespace::GlobalNamespace__OculusTestExperiment___Init_d__3;
 
-using ExperimentData = ::GlobalNamespace::____GlobalNamespace__OculusTestExperiment__ExperimentData;
+using ExperimentData = GlobalNamespace::GlobalNamespace__OculusTestExperiment__ExperimentData;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -235,11 +234,11 @@ constexpr explicit OculusTestExperiment(void* ptr) noexcept : ::bs_hook::Il2CppW
 /// @brief Field kIsInTest1Key offset 0
 static constexpr ::ConstString  kIsInTest1Key{u"beatsaber_experiments:test_parameter"};
 
- ::GlobalNamespace::IExperimentModel __declspec(property(get=__get__experimentModel, put=__set__experimentModel))  _experimentModel;
+ GlobalNamespace::IExperimentModel __declspec(property(get=__get__experimentModel, put=__set__experimentModel))  _experimentModel;
 
-constexpr void __set__experimentModel(::GlobalNamespace::IExperimentModel value) ;
+constexpr void __set__experimentModel(GlobalNamespace::IExperimentModel value) ;
 
-constexpr ::GlobalNamespace::IExperimentModel __get__experimentModel() const;
+constexpr GlobalNamespace::IExperimentModel __get__experimentModel() const;
 
 
 // Methods
@@ -257,9 +256,8 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OculusTestExperiment);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OculusTestExperiment, "", "OculusTestExperiment");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__OculusTestExperiment__ExperimentData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OculusTestExperiment__ExperimentData, "", "OculusTestExperiment/ExperimentData");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OculusTestExperiment___Init_d__3, "", "OculusTestExperiment/<Init>d__3");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__OculusTestExperiment__ExperimentData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OculusTestExperiment__ExperimentData, "", "OculusTestExperiment/ExperimentData");
+NEED_NO_BOX(GlobalNamespace::OculusTestExperiment);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusTestExperiment, "", "OculusTestExperiment");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OculusTestExperiment___Init_d__3, "", "OculusTestExperiment/<Init>d__3");

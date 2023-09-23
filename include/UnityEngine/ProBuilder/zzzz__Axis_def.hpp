@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
 struct Axis;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Right offset 0
-static ::UnityEngine::ProBuilder::Axis const Right;
+static UnityEngine::ProBuilder::Axis const Right;
 
 /// @brief Field Left offset 0
-static ::UnityEngine::ProBuilder::Axis const Left;
+static UnityEngine::ProBuilder::Axis const Left;
 
 /// @brief Field Up offset 0
-static ::UnityEngine::ProBuilder::Axis const Up;
+static UnityEngine::ProBuilder::Axis const Up;
 
 /// @brief Field Down offset 0
-static ::UnityEngine::ProBuilder::Axis const Down;
+static UnityEngine::ProBuilder::Axis const Down;
 
 /// @brief Field Forward offset 0
-static ::UnityEngine::ProBuilder::Axis const Forward;
+static UnityEngine::ProBuilder::Axis const Forward;
 
 /// @brief Field Backward offset 0
-static ::UnityEngine::ProBuilder::Axis const Backward;
+static UnityEngine::ProBuilder::Axis const Backward;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Axis, "UnityEngine.ProBuilder", "Axis");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Axis, "UnityEngine.ProBuilder", "Axis");

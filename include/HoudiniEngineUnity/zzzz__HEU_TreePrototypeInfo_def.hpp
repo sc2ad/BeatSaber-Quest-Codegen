@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
 namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivable_1;
@@ -21,8 +20,8 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE HEU_TreePrototypeInfo : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo>
-constexpr operator  ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo>() const noexcept;
+/// @brief Convert operator to HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_TreePrototypeInfo>
+constexpr operator  HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_TreePrototypeInfo>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -73,7 +72,7 @@ constexpr float_t __get__bendfactor() const;
 // Methods
 
 /// @brief Method IsEquivalentTo addr 0x2077c34 size 0x14c virtual true final true
- bool IsEquivalentTo(::HoudiniEngineUnity::HEU_TreePrototypeInfo other) ;
+ bool IsEquivalentTo(HoudiniEngineUnity::HEU_TreePrototypeInfo other) ;
 
 // Ctor Parameters []
 explicit HEU_TreePrototypeInfo() ;
@@ -85,6 +84,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_TreePrototypeInfo);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_TreePrototypeInfo, "HoudiniEngineUnity", "HEU_TreePrototypeInfo");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_TreePrototypeInfo);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_TreePrototypeInfo, "HoudiniEngineUnity", "HEU_TreePrototypeInfo");

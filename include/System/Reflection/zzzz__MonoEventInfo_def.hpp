@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
-namespace {
-namespace System::Reflection {
-struct EventAttributes;
+namespace System {
+class Type;
 }
 namespace System::Reflection {
 class MethodInfo;
 }
-namespace System {
-class Type;
+namespace System::Reflection {
+struct EventAttributes;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -26,8 +25,8 @@ namespace System::Reflection {
 struct CORDL_TYPE MonoEventInfo : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "declaring_type", ty: "::System::Type", modifiers: "", def_value: None }, CppParam { name: "reflected_type", ty: "::System::Type", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "add_method", ty: "::System::Reflection::MethodInfo", modifiers: "", def_value: None }, CppParam { name: "remove_method", ty: "::System::Reflection::MethodInfo", modifiers: "", def_value: None }, CppParam { name: "raise_method", ty: "::System::Reflection::MethodInfo", modifiers: "", def_value: None }, CppParam { name: "attrs", ty: "::System::Reflection::EventAttributes", modifiers: "", def_value: None }, CppParam { name: "other_methods", ty: "::ArrayW<::System::Reflection::MethodInfo>", modifiers: "", def_value: None }]
-constexpr MonoEventInfo(::System::Type declaring_type, ::System::Type reflected_type, ::StringW name, ::System::Reflection::MethodInfo add_method, ::System::Reflection::MethodInfo remove_method, ::System::Reflection::MethodInfo raise_method, ::System::Reflection::EventAttributes attrs, ::ArrayW<::System::Reflection::MethodInfo> other_methods) noexcept;
+// Ctor Parameters [CppParam { name: "declaring_type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "reflected_type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "add_method", ty: "System::Reflection::MethodInfo", modifiers: "", def_value: None }, CppParam { name: "remove_method", ty: "System::Reflection::MethodInfo", modifiers: "", def_value: None }, CppParam { name: "raise_method", ty: "System::Reflection::MethodInfo", modifiers: "", def_value: None }, CppParam { name: "attrs", ty: "System::Reflection::EventAttributes", modifiers: "", def_value: None }, CppParam { name: "other_methods", ty: "::ArrayW<System::Reflection::MethodInfo>", modifiers: "", def_value: None }]
+constexpr MonoEventInfo(System::Type declaring_type, System::Type reflected_type, ::StringW name, System::Reflection::MethodInfo add_method, System::Reflection::MethodInfo remove_method, System::Reflection::MethodInfo raise_method, System::Reflection::EventAttributes attrs, ::ArrayW<System::Reflection::MethodInfo> other_methods) noexcept;
 
 
                     constexpr MonoEventInfo(MonoEventInfo const&) = default;
@@ -60,17 +59,17 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::Type __declspec(property(get=__get_declaring_type, put=__set_declaring_type))  declaring_type;
+ System::Type __declspec(property(get=__get_declaring_type, put=__set_declaring_type))  declaring_type;
 
-constexpr void __set_declaring_type(::System::Type value) ;
+constexpr void __set_declaring_type(System::Type value) ;
 
-constexpr ::System::Type __get_declaring_type() const;
+constexpr System::Type __get_declaring_type() const;
 
- ::System::Type __declspec(property(get=__get_reflected_type, put=__set_reflected_type))  reflected_type;
+ System::Type __declspec(property(get=__get_reflected_type, put=__set_reflected_type))  reflected_type;
 
-constexpr void __set_reflected_type(::System::Type value) ;
+constexpr void __set_reflected_type(System::Type value) ;
 
-constexpr ::System::Type __get_reflected_type() const;
+constexpr System::Type __get_reflected_type() const;
 
  ::StringW __declspec(property(get=__get_name, put=__set_name))  name;
 
@@ -78,39 +77,38 @@ constexpr void __set_name(::StringW value) ;
 
 constexpr ::StringW __get_name() const;
 
- ::System::Reflection::MethodInfo __declspec(property(get=__get_add_method, put=__set_add_method))  add_method;
+ System::Reflection::MethodInfo __declspec(property(get=__get_add_method, put=__set_add_method))  add_method;
 
-constexpr void __set_add_method(::System::Reflection::MethodInfo value) ;
+constexpr void __set_add_method(System::Reflection::MethodInfo value) ;
 
-constexpr ::System::Reflection::MethodInfo __get_add_method() const;
+constexpr System::Reflection::MethodInfo __get_add_method() const;
 
- ::System::Reflection::MethodInfo __declspec(property(get=__get_remove_method, put=__set_remove_method))  remove_method;
+ System::Reflection::MethodInfo __declspec(property(get=__get_remove_method, put=__set_remove_method))  remove_method;
 
-constexpr void __set_remove_method(::System::Reflection::MethodInfo value) ;
+constexpr void __set_remove_method(System::Reflection::MethodInfo value) ;
 
-constexpr ::System::Reflection::MethodInfo __get_remove_method() const;
+constexpr System::Reflection::MethodInfo __get_remove_method() const;
 
- ::System::Reflection::MethodInfo __declspec(property(get=__get_raise_method, put=__set_raise_method))  raise_method;
+ System::Reflection::MethodInfo __declspec(property(get=__get_raise_method, put=__set_raise_method))  raise_method;
 
-constexpr void __set_raise_method(::System::Reflection::MethodInfo value) ;
+constexpr void __set_raise_method(System::Reflection::MethodInfo value) ;
 
-constexpr ::System::Reflection::MethodInfo __get_raise_method() const;
+constexpr System::Reflection::MethodInfo __get_raise_method() const;
 
- ::System::Reflection::EventAttributes __declspec(property(get=__get_attrs, put=__set_attrs))  attrs;
+ System::Reflection::EventAttributes __declspec(property(get=__get_attrs, put=__set_attrs))  attrs;
 
-constexpr void __set_attrs(::System::Reflection::EventAttributes value) ;
+constexpr void __set_attrs(System::Reflection::EventAttributes value) ;
 
-constexpr ::System::Reflection::EventAttributes __get_attrs() const;
+constexpr System::Reflection::EventAttributes __get_attrs() const;
 
- ::ArrayW<::System::Reflection::MethodInfo> __declspec(property(get=__get_other_methods, put=__set_other_methods))  other_methods;
+ ::ArrayW<System::Reflection::MethodInfo> __declspec(property(get=__get_other_methods, put=__set_other_methods))  other_methods;
 
-constexpr void __set_other_methods(::ArrayW<::System::Reflection::MethodInfo> value) ;
+constexpr void __set_other_methods(::ArrayW<System::Reflection::MethodInfo> value) ;
 
-constexpr ::ArrayW<::System::Reflection::MethodInfo> __get_other_methods() const;
+constexpr ::ArrayW<System::Reflection::MethodInfo> __get_other_methods() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Reflection
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::MonoEventInfo, "System.Reflection", "MonoEventInfo");
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoEventInfo, "System.Reflection", "MonoEventInfo");

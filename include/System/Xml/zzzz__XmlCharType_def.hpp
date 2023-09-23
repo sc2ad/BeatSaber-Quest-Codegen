@@ -6,7 +6,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Xml {
 struct XmlCharType;
@@ -77,7 +76,7 @@ constexpr ::ArrayW<uint8_t> __get_charProperties() const;
 
 static ::bs_hook::Il2CppWrapperType __declspec(property(get=get_StaticLock))  StaticLock;
 
-static ::System::Xml::XmlCharType __declspec(property(get=get_Instance))  Instance;
+static System::Xml::XmlCharType __declspec(property(get=get_Instance))  Instance;
 
 
 // Methods
@@ -95,7 +94,7 @@ static void SetProperties(::ArrayW<uint8_t> chProps, ::StringW ranges, uint8_t v
  void _ctor(::ArrayW<uint8_t> charProperties) ;
 
 /// @brief Method get_Instance addr 0x27099f8 size 0x68 virtual false final false
-static ::System::Xml::XmlCharType get_Instance() ;
+static System::Xml::XmlCharType get_Instance() ;
 
 /// @brief Method IsWhiteSpace addr 0x270a120 size 0x34 virtual false final false
  bool IsWhiteSpace(char16_t ch) ;
@@ -170,5 +169,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlCharType, "System.Xml", "XmlCharType");
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlCharType, "System.Xml", "XmlCharType");

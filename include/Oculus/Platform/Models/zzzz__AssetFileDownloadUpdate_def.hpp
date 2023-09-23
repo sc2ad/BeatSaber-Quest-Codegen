@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class AssetFileDownloadUpdate;
@@ -92,6 +91,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::AssetFileDownloadUpdate);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::AssetFileDownloadUpdate, "Oculus.Platform.Models", "AssetFileDownloadUpdate");
+NEED_NO_BOX(Oculus::Platform::Models::AssetFileDownloadUpdate);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AssetFileDownloadUpdate, "Oculus.Platform.Models", "AssetFileDownloadUpdate");

@@ -7,9 +7,8 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace Unity::XR::Oculus {
-struct ____Unity__XR__Oculus__Boundary__BoundaryType;
+struct Unity__XR__Oculus__Boundary__BoundaryType;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -22,10 +21,10 @@ namespace Unity::XR::Oculus {
 class NativeMethods;
 }
 namespace Unity::XR::Oculus {
-class ____Unity__XR__Oculus__NativeMethods__Internal;
+class Unity__XR__Oculus__NativeMethods__Internal;
 }
 namespace Unity::XR::Oculus {
-struct ____Unity__XR__Oculus__NativeMethods__UserDefinedSettings;
+struct Unity__XR__Oculus__NativeMethods__UserDefinedSettings;
 }
 // Type: ::UserDefinedSettings
 namespace Unity::XR::Oculus {
@@ -33,20 +32,20 @@ namespace Unity::XR::Oculus {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15229))
 // CS Name: Unity.XR.Oculus.NativeMethods::UserDefinedSettings
-struct CORDL_TYPE ____Unity__XR__Oculus__NativeMethods__UserDefinedSettings : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Unity__XR__Oculus__NativeMethods__UserDefinedSettings : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "sharedDepthBuffer", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "dashSupport", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "stereoRenderingMode", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "colorSpace", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "lowOverheadMode", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "optimizeBufferDiscards", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "phaseSync", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "symmetricProjection", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "subsampledLayout", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "lateLatching", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "lateLatchingDebug", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "enableTrackingOriginStageMode", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "spaceWarp", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "depthSubmission", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "foveatedRenderingMethod", ty: "uint16_t", modifiers: "", def_value: None }]
-constexpr ____Unity__XR__Oculus__NativeMethods__UserDefinedSettings(uint16_t sharedDepthBuffer, uint16_t dashSupport, uint16_t stereoRenderingMode, uint16_t colorSpace, uint16_t lowOverheadMode, uint16_t optimizeBufferDiscards, uint16_t phaseSync, uint16_t symmetricProjection, uint16_t subsampledLayout, uint16_t lateLatching, uint16_t lateLatchingDebug, uint16_t enableTrackingOriginStageMode, uint16_t spaceWarp, uint16_t depthSubmission, uint16_t foveatedRenderingMethod) noexcept;
+constexpr Unity__XR__Oculus__NativeMethods__UserDefinedSettings(uint16_t sharedDepthBuffer, uint16_t dashSupport, uint16_t stereoRenderingMode, uint16_t colorSpace, uint16_t lowOverheadMode, uint16_t optimizeBufferDiscards, uint16_t phaseSync, uint16_t symmetricProjection, uint16_t subsampledLayout, uint16_t lateLatching, uint16_t lateLatchingDebug, uint16_t enableTrackingOriginStageMode, uint16_t spaceWarp, uint16_t depthSubmission, uint16_t foveatedRenderingMethod) noexcept;
 
 
-                    constexpr ____Unity__XR__Oculus__NativeMethods__UserDefinedSettings(____Unity__XR__Oculus__NativeMethods__UserDefinedSettings const&) = default;
-                    constexpr ____Unity__XR__Oculus__NativeMethods__UserDefinedSettings(____Unity__XR__Oculus__NativeMethods__UserDefinedSettings&&) = default;
-                    constexpr ____Unity__XR__Oculus__NativeMethods__UserDefinedSettings& operator=(____Unity__XR__Oculus__NativeMethods__UserDefinedSettings const& o) {
+                    constexpr Unity__XR__Oculus__NativeMethods__UserDefinedSettings(Unity__XR__Oculus__NativeMethods__UserDefinedSettings const&) = default;
+                    constexpr Unity__XR__Oculus__NativeMethods__UserDefinedSettings(Unity__XR__Oculus__NativeMethods__UserDefinedSettings&&) = default;
+                    constexpr Unity__XR__Oculus__NativeMethods__UserDefinedSettings& operator=(Unity__XR__Oculus__NativeMethods__UserDefinedSettings const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____Unity__XR__Oculus__NativeMethods__UserDefinedSettings& operator=(____Unity__XR__Oculus__NativeMethods__UserDefinedSettings&& o) noexcept {
+                    constexpr Unity__XR__Oculus__NativeMethods__UserDefinedSettings& operator=(Unity__XR__Oculus__NativeMethods__UserDefinedSettings&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -59,7 +58,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x1e};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____Unity__XR__Oculus__NativeMethods__UserDefinedSettings(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit Unity__XR__Oculus__NativeMethods__UserDefinedSettings(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -170,37 +169,37 @@ namespace Unity::XR::Oculus {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15230))
 // CS Name: Unity.XR.Oculus.NativeMethods::Internal
-class CORDL_TYPE ____Unity__XR__Oculus__NativeMethods__Internal : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Unity__XR__Oculus__NativeMethods__Internal : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____Unity__XR__Oculus__NativeMethods__Internal() = default;
+virtual ~Unity__XR__Oculus__NativeMethods__Internal() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Unity__XR__Oculus__NativeMethods__Internal", modifiers: " const&", def_value: None }]
-constexpr ____Unity__XR__Oculus__NativeMethods__Internal(____Unity__XR__Oculus__NativeMethods__Internal const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Unity__XR__Oculus__NativeMethods__Internal", modifiers: " const&", def_value: None }]
+constexpr Unity__XR__Oculus__NativeMethods__Internal(Unity__XR__Oculus__NativeMethods__Internal const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Unity__XR__Oculus__NativeMethods__Internal", modifiers: "&&", def_value: None }]
-constexpr ____Unity__XR__Oculus__NativeMethods__Internal(____Unity__XR__Oculus__NativeMethods__Internal&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Unity__XR__Oculus__NativeMethods__Internal", modifiers: "&&", def_value: None }]
+constexpr Unity__XR__Oculus__NativeMethods__Internal(Unity__XR__Oculus__NativeMethods__Internal&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Unity__XR__Oculus__NativeMethods__Internal(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Unity__XR__Oculus__NativeMethods__Internal(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Unity__XR__Oculus__NativeMethods__Internal& operator=(std::nullptr_t) noexcept {
+  constexpr Unity__XR__Oculus__NativeMethods__Internal& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Unity__XR__Oculus__NativeMethods__Internal& operator=(void* o) noexcept {
+  constexpr Unity__XR__Oculus__NativeMethods__Internal& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Unity__XR__Oculus__NativeMethods__Internal& operator=(____Unity__XR__Oculus__NativeMethods__Internal&& o) noexcept = default;
-  constexpr ____Unity__XR__Oculus__NativeMethods__Internal& operator=(____Unity__XR__Oculus__NativeMethods__Internal const& o) noexcept = default;
+  constexpr Unity__XR__Oculus__NativeMethods__Internal& operator=(Unity__XR__Oculus__NativeMethods__Internal&& o) noexcept = default;
+  constexpr Unity__XR__Oculus__NativeMethods__Internal& operator=(Unity__XR__Oculus__NativeMethods__Internal const& o) noexcept = default;
                 
 
 
@@ -222,7 +221,7 @@ static bool LoadOVRPlugin(::StringW ovrpPath) ;
 static void UnloadOVRPlugin() ;
 
 /// @brief Method SetUserDefinedSettings addr 0x2ae177c size 0x8c virtual false final false
-static void SetUserDefinedSettings(::Unity::XR::Oculus::____Unity__XR__Oculus__NativeMethods__UserDefinedSettings settings) ;
+static void SetUserDefinedSettings(Unity::XR::Oculus::Unity__XR__Oculus__NativeMethods__UserDefinedSettings settings) ;
 
 /// @brief Method SetHasUserAuthorizedEyeTrackingPermission addr 0x2ae1808 size 0x7c virtual false final false
 static void SetHasUserAuthorizedEyeTrackingPermission(bool authorized) ;
@@ -252,7 +251,7 @@ static bool GetAppHasInputFocus() ;
 static bool GetBoundaryConfigured() ;
 
 /// @brief Method GetBoundaryDimensions addr 0x2ae1c58 size 0x8c virtual false final false
-static bool GetBoundaryDimensions(::Unity::XR::Oculus::____Unity__XR__Oculus__Boundary__BoundaryType boundaryType, ByRef<::UnityEngine::Vector3> dimensions) ;
+static bool GetBoundaryDimensions(Unity::XR::Oculus::Unity__XR__Oculus__Boundary__BoundaryType boundaryType, ByRef<UnityEngine::Vector3> dimensions) ;
 
 /// @brief Method GetBoundaryVisible addr 0x2ae1ce4 size 0x70 virtual false final false
 static bool GetBoundaryVisible() ;
@@ -273,7 +272,7 @@ static bool SetDisplayFrequency(float_t refreshRate) ;
 static bool GetDisplayFrequency(ByRef<float_t> refreshRate) ;
 
 /// @brief Method GetSystemHeadsetType addr 0x2ae1fd8 size 0x68 virtual false final false
-static ::Unity::XR::Oculus::SystemHeadset GetSystemHeadsetType() ;
+static Unity::XR::Oculus::SystemHeadset GetSystemHeadsetType() ;
 
 /// @brief Method GetTiledMultiResSupported addr 0x2ae2040 size 0x70 virtual false final false
 static bool GetTiledMultiResSupported() ;
@@ -306,9 +305,9 @@ namespace Unity::XR::Oculus {
 class CORDL_TYPE NativeMethods : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using Internal = ::Unity::XR::Oculus::____Unity__XR__Oculus__NativeMethods__Internal;
+using Internal = Unity::XR::Oculus::Unity__XR__Oculus__NativeMethods__Internal;
 
-using UserDefinedSettings = ::Unity::XR::Oculus::____Unity__XR__Oculus__NativeMethods__UserDefinedSettings;
+using UserDefinedSettings = Unity::XR::Oculus::Unity__XR__Oculus__NativeMethods__UserDefinedSettings;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -359,7 +358,7 @@ static bool LoadOVRPlugin(::StringW ovrpPath) ;
 static void UnloadOVRPlugin() ;
 
 /// @brief Method SetUserDefinedSettings addr 0x2adfa78 size 0x2c virtual false final false
-static void SetUserDefinedSettings(::Unity::XR::Oculus::____Unity__XR__Oculus__NativeMethods__UserDefinedSettings settings) ;
+static void SetUserDefinedSettings(Unity::XR::Oculus::Unity__XR__Oculus__NativeMethods__UserDefinedSettings settings) ;
 
 /// @brief Method SetHasUserAuthorizedEyeTrackingPermission addr 0x2adfb88 size 0x8 virtual false final false
 static void SetHasUserAuthorizedEyeTrackingPermission(bool authorized) ;
@@ -389,7 +388,7 @@ static bool GetHasInputFocus() ;
 static bool GetBoundaryConfigured() ;
 
 /// @brief Method GetBoundaryDimensions addr 0x2adecd0 size 0x4 virtual false final false
-static bool GetBoundaryDimensions(::Unity::XR::Oculus::____Unity__XR__Oculus__Boundary__BoundaryType boundaryType, ByRef<::UnityEngine::Vector3> dimensions) ;
+static bool GetBoundaryDimensions(Unity::XR::Oculus::Unity__XR__Oculus__Boundary__BoundaryType boundaryType, ByRef<UnityEngine::Vector3> dimensions) ;
 
 /// @brief Method GetBoundaryVisible addr 0x2adecd8 size 0x4 virtual false final false
 static bool GetBoundaryVisible() ;
@@ -410,7 +409,7 @@ static bool SetDisplayFrequency(float_t refreshRate) ;
 static bool GetDisplayFrequency(ByRef<float_t> refreshRate) ;
 
 /// @brief Method GetSystemHeadsetType addr 0x2ade784 size 0x4 virtual false final false
-static ::Unity::XR::Oculus::SystemHeadset GetSystemHeadsetType() ;
+static Unity::XR::Oculus::SystemHeadset GetSystemHeadsetType() ;
 
 /// @brief Method GetTiledMultiResSupported addr 0x2ade814 size 0x4 virtual false final false
 static bool GetTiledMultiResSupported() ;
@@ -434,9 +433,8 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Unity::XR::Oculus
-} // end anonymous namespace
-NEED_NO_BOX(::Unity::XR::Oculus::NativeMethods);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::XR::Oculus::NativeMethods, "Unity.XR.Oculus", "NativeMethods");
-NEED_NO_BOX(::Unity::XR::Oculus::____Unity__XR__Oculus__NativeMethods__Internal);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::XR::Oculus::____Unity__XR__Oculus__NativeMethods__Internal, "Unity.XR.Oculus", "NativeMethods/Internal");
-DEFINE_IL2CPP_ARG_TYPE(::Unity::XR::Oculus::____Unity__XR__Oculus__NativeMethods__UserDefinedSettings, "Unity.XR.Oculus", "NativeMethods/UserDefinedSettings");
+NEED_NO_BOX(Unity::XR::Oculus::NativeMethods);
+DEFINE_IL2CPP_ARG_TYPE(Unity::XR::Oculus::NativeMethods, "Unity.XR.Oculus", "NativeMethods");
+NEED_NO_BOX(Unity::XR::Oculus::Unity__XR__Oculus__NativeMethods__Internal);
+DEFINE_IL2CPP_ARG_TYPE(Unity::XR::Oculus::Unity__XR__Oculus__NativeMethods__Internal, "Unity.XR.Oculus", "NativeMethods/Internal");
+DEFINE_IL2CPP_ARG_TYPE(Unity::XR::Oculus::Unity__XR__Oculus__NativeMethods__UserDefinedSettings, "Unity.XR.Oculus", "NativeMethods/UserDefinedSettings");

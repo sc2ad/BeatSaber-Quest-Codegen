@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class Exception;
 }
@@ -66,10 +65,10 @@ static void Warn(::StringW message, ::ArrayW<::bs_hook::Il2CppWrapperType> args)
 static void Trace(::StringW message, ::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
 
 /// @brief Method ErrorException addr 0x2d42dd0 size 0x58 virtual false final false
-static void ErrorException(::System::Exception e) ;
+static void ErrorException(System::Exception e) ;
 
 /// @brief Method ErrorException addr 0x2d42e28 size 0x70 virtual false final false
-static void ErrorException(::StringW message, ::System::Exception e) ;
+static void ErrorException(::StringW message, System::Exception e) ;
 
 /// @brief Method Error addr 0x2d42e98 size 0x78 virtual false final false
 static void Error(::StringW message, ::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
@@ -78,6 +77,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def ModestTree
-} // end anonymous namespace
-NEED_NO_BOX(::ModestTree::Log);
-DEFINE_IL2CPP_ARG_TYPE(::ModestTree::Log, "ModestTree", "Log");
+NEED_NO_BOX(ModestTree::Log);
+DEFINE_IL2CPP_ARG_TYPE(ModestTree::Log, "ModestTree", "Log");

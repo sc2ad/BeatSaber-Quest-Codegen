@@ -3,10 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto::Tls {
-class HeartbeatExtension;
-}
 namespace System::Collections {
 class IDictionary;
 }
@@ -15,6 +11,9 @@ class ServerNameList;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class CertificateStatusRequest;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class HeartbeatExtension;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -63,79 +62,79 @@ constexpr explicit TlsExtensionsUtilities(void* ptr) noexcept : ::bs_hook::Il2Cp
 // Methods
 
 /// @brief Method EnsureExtensionsInitialised addr 0xf1ee00 size 0x68 virtual false final false
-static ::System::Collections::IDictionary EnsureExtensionsInitialised(::System::Collections::IDictionary extensions) ;
+static System::Collections::IDictionary EnsureExtensionsInitialised(System::Collections::IDictionary extensions) ;
 
 /// @brief Method AddClientCertificateTypeExtensionClient addr 0xf1ee68 size 0xf0 virtual false final false
-static void AddClientCertificateTypeExtensionClient(::System::Collections::IDictionary extensions, ::ArrayW<uint8_t> certificateTypes) ;
+static void AddClientCertificateTypeExtensionClient(System::Collections::IDictionary extensions, ::ArrayW<uint8_t> certificateTypes) ;
 
 /// @brief Method AddClientCertificateTypeExtensionServer addr 0xf1effc size 0xf0 virtual false final false
-static void AddClientCertificateTypeExtensionServer(::System::Collections::IDictionary extensions, uint8_t certificateType) ;
+static void AddClientCertificateTypeExtensionServer(System::Collections::IDictionary extensions, uint8_t certificateType) ;
 
 /// @brief Method AddEncryptThenMacExtension addr 0xf1f140 size 0xe8 virtual false final false
-static void AddEncryptThenMacExtension(::System::Collections::IDictionary extensions) ;
+static void AddEncryptThenMacExtension(System::Collections::IDictionary extensions) ;
 
 /// @brief Method AddExtendedMasterSecretExtension addr 0xf1f278 size 0xe8 virtual false final false
-static void AddExtendedMasterSecretExtension(::System::Collections::IDictionary extensions) ;
+static void AddExtendedMasterSecretExtension(System::Collections::IDictionary extensions) ;
 
 /// @brief Method AddHeartbeatExtension addr 0xf1f3b0 size 0xf0 virtual false final false
-static void AddHeartbeatExtension(::System::Collections::IDictionary extensions, ::Org::BouncyCastle::Crypto::Tls::HeartbeatExtension heartbeatExtension) ;
+static void AddHeartbeatExtension(System::Collections::IDictionary extensions, Org::BouncyCastle::Crypto::Tls::HeartbeatExtension heartbeatExtension) ;
 
 /// @brief Method AddMaxFragmentLengthExtension addr 0xf1f560 size 0xf0 virtual false final false
-static void AddMaxFragmentLengthExtension(::System::Collections::IDictionary extensions, uint8_t maxFragmentLength) ;
+static void AddMaxFragmentLengthExtension(System::Collections::IDictionary extensions, uint8_t maxFragmentLength) ;
 
 /// @brief Method AddPaddingExtension addr 0xf1f6a4 size 0xf0 virtual false final false
-static void AddPaddingExtension(::System::Collections::IDictionary extensions, int32_t dataLength) ;
+static void AddPaddingExtension(System::Collections::IDictionary extensions, int32_t dataLength) ;
 
 /// @brief Method AddServerCertificateTypeExtensionClient addr 0xf1f808 size 0xf0 virtual false final false
-static void AddServerCertificateTypeExtensionClient(::System::Collections::IDictionary extensions, ::ArrayW<uint8_t> certificateTypes) ;
+static void AddServerCertificateTypeExtensionClient(System::Collections::IDictionary extensions, ::ArrayW<uint8_t> certificateTypes) ;
 
 /// @brief Method AddServerCertificateTypeExtensionServer addr 0xf1f8f8 size 0xf0 virtual false final false
-static void AddServerCertificateTypeExtensionServer(::System::Collections::IDictionary extensions, uint8_t certificateType) ;
+static void AddServerCertificateTypeExtensionServer(System::Collections::IDictionary extensions, uint8_t certificateType) ;
 
 /// @brief Method AddServerNameExtension addr 0xf1f9e8 size 0xec virtual false final false
-static void AddServerNameExtension(::System::Collections::IDictionary extensions, ::Org::BouncyCastle::Crypto::Tls::ServerNameList serverNameList) ;
+static void AddServerNameExtension(System::Collections::IDictionary extensions, Org::BouncyCastle::Crypto::Tls::ServerNameList serverNameList) ;
 
 /// @brief Method AddStatusRequestExtension addr 0xf1fb94 size 0xf0 virtual false final false
-static void AddStatusRequestExtension(::System::Collections::IDictionary extensions, ::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest statusRequest) ;
+static void AddStatusRequestExtension(System::Collections::IDictionary extensions, Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest statusRequest) ;
 
 /// @brief Method AddTruncatedHMacExtension addr 0xf1fd44 size 0xe8 virtual false final false
-static void AddTruncatedHMacExtension(::System::Collections::IDictionary extensions) ;
+static void AddTruncatedHMacExtension(System::Collections::IDictionary extensions) ;
 
 /// @brief Method GetClientCertificateTypeExtensionClient addr 0xf1fe7c size 0x6c virtual false final false
-static ::ArrayW<uint8_t> GetClientCertificateTypeExtensionClient(::System::Collections::IDictionary extensions) ;
+static ::ArrayW<uint8_t> GetClientCertificateTypeExtensionClient(System::Collections::IDictionary extensions) ;
 
 /// @brief Method GetClientCertificateTypeExtensionServer addr 0xf200a4 size 0x70 virtual false final false
-static int16_t GetClientCertificateTypeExtensionServer(::System::Collections::IDictionary extensions) ;
+static int16_t GetClientCertificateTypeExtensionServer(System::Collections::IDictionary extensions) ;
 
 /// @brief Method GetHeartbeatExtension addr 0xf20168 size 0x6c virtual false final false
-static ::Org::BouncyCastle::Crypto::Tls::HeartbeatExtension GetHeartbeatExtension(::System::Collections::IDictionary extensions) ;
+static Org::BouncyCastle::Crypto::Tls::HeartbeatExtension GetHeartbeatExtension(System::Collections::IDictionary extensions) ;
 
 /// @brief Method GetMaxFragmentLengthExtension addr 0xf202a8 size 0x70 virtual false final false
-static int16_t GetMaxFragmentLengthExtension(::System::Collections::IDictionary extensions) ;
+static int16_t GetMaxFragmentLengthExtension(System::Collections::IDictionary extensions) ;
 
 /// @brief Method GetPaddingExtension addr 0xf2036c size 0x70 virtual false final false
-static int32_t GetPaddingExtension(::System::Collections::IDictionary extensions) ;
+static int32_t GetPaddingExtension(System::Collections::IDictionary extensions) ;
 
 /// @brief Method GetServerCertificateTypeExtensionClient addr 0xf20498 size 0x6c virtual false final false
-static ::ArrayW<uint8_t> GetServerCertificateTypeExtensionClient(::System::Collections::IDictionary extensions) ;
+static ::ArrayW<uint8_t> GetServerCertificateTypeExtensionClient(System::Collections::IDictionary extensions) ;
 
 /// @brief Method GetServerCertificateTypeExtensionServer addr 0xf20504 size 0x70 virtual false final false
-static int16_t GetServerCertificateTypeExtensionServer(::System::Collections::IDictionary extensions) ;
+static int16_t GetServerCertificateTypeExtensionServer(System::Collections::IDictionary extensions) ;
 
 /// @brief Method GetServerNameExtension addr 0xf20574 size 0x6c virtual false final false
-static ::Org::BouncyCastle::Crypto::Tls::ServerNameList GetServerNameExtension(::System::Collections::IDictionary extensions) ;
+static Org::BouncyCastle::Crypto::Tls::ServerNameList GetServerNameExtension(System::Collections::IDictionary extensions) ;
 
 /// @brief Method GetStatusRequestExtension addr 0xf206b4 size 0x6c virtual false final false
-static ::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest GetStatusRequestExtension(::System::Collections::IDictionary extensions) ;
+static Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest GetStatusRequestExtension(System::Collections::IDictionary extensions) ;
 
 /// @brief Method HasEncryptThenMacExtension addr 0xf207f4 size 0x68 virtual false final false
-static bool HasEncryptThenMacExtension(::System::Collections::IDictionary extensions) ;
+static bool HasEncryptThenMacExtension(System::Collections::IDictionary extensions) ;
 
 /// @brief Method HasExtendedMasterSecretExtension addr 0xf20870 size 0x68 virtual false final false
-static bool HasExtendedMasterSecretExtension(::System::Collections::IDictionary extensions) ;
+static bool HasExtendedMasterSecretExtension(System::Collections::IDictionary extensions) ;
 
 /// @brief Method HasTruncatedHMacExtension addr 0xf208ec size 0x68 virtual false final false
-static bool HasTruncatedHMacExtension(::System::Collections::IDictionary extensions) ;
+static bool HasTruncatedHMacExtension(System::Collections::IDictionary extensions) ;
 
 /// @brief Method CreateCertificateTypeExtensionClient addr 0xf1ef58 size 0xa4 virtual false final false
 static ::ArrayW<uint8_t> CreateCertificateTypeExtensionClient(::ArrayW<uint8_t> certificateTypes) ;
@@ -153,7 +152,7 @@ static ::ArrayW<uint8_t> CreateEncryptThenMacExtension() ;
 static ::ArrayW<uint8_t> CreateExtendedMasterSecretExtension() ;
 
 /// @brief Method CreateHeartbeatExtension addr 0xf1f4a0 size 0xc0 virtual false final false
-static ::ArrayW<uint8_t> CreateHeartbeatExtension(::Org::BouncyCastle::Crypto::Tls::HeartbeatExtension heartbeatExtension) ;
+static ::ArrayW<uint8_t> CreateHeartbeatExtension(Org::BouncyCastle::Crypto::Tls::HeartbeatExtension heartbeatExtension) ;
 
 /// @brief Method CreateMaxFragmentLengthExtension addr 0xf1f650 size 0x54 virtual false final false
 static ::ArrayW<uint8_t> CreateMaxFragmentLengthExtension(uint8_t maxFragmentLength) ;
@@ -162,10 +161,10 @@ static ::ArrayW<uint8_t> CreateMaxFragmentLengthExtension(uint8_t maxFragmentLen
 static ::ArrayW<uint8_t> CreatePaddingExtension(int32_t dataLength) ;
 
 /// @brief Method CreateServerNameExtension addr 0xf1fad4 size 0xc0 virtual false final false
-static ::ArrayW<uint8_t> CreateServerNameExtension(::Org::BouncyCastle::Crypto::Tls::ServerNameList serverNameList) ;
+static ::ArrayW<uint8_t> CreateServerNameExtension(Org::BouncyCastle::Crypto::Tls::ServerNameList serverNameList) ;
 
 /// @brief Method CreateStatusRequestExtension addr 0xf1fc84 size 0xc0 virtual false final false
-static ::ArrayW<uint8_t> CreateStatusRequestExtension(::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest statusRequest) ;
+static ::ArrayW<uint8_t> CreateStatusRequestExtension(Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest statusRequest) ;
 
 /// @brief Method CreateTruncatedHMacExtension addr 0xf1fe2c size 0x50 virtual false final false
 static ::ArrayW<uint8_t> CreateTruncatedHMacExtension() ;
@@ -186,7 +185,7 @@ static bool ReadEncryptThenMacExtension(::ArrayW<uint8_t> extensionData) ;
 static bool ReadExtendedMasterSecretExtension(::ArrayW<uint8_t> extensionData) ;
 
 /// @brief Method ReadHeartbeatExtension addr 0xf201d4 size 0xd4 virtual false final false
-static ::Org::BouncyCastle::Crypto::Tls::HeartbeatExtension ReadHeartbeatExtension(::ArrayW<uint8_t> extensionData) ;
+static Org::BouncyCastle::Crypto::Tls::HeartbeatExtension ReadHeartbeatExtension(::ArrayW<uint8_t> extensionData) ;
 
 /// @brief Method ReadMaxFragmentLengthExtension addr 0xf20318 size 0x54 virtual false final false
 static uint8_t ReadMaxFragmentLengthExtension(::ArrayW<uint8_t> extensionData) ;
@@ -195,10 +194,10 @@ static uint8_t ReadMaxFragmentLengthExtension(::ArrayW<uint8_t> extensionData) ;
 static int32_t ReadPaddingExtension(::ArrayW<uint8_t> extensionData) ;
 
 /// @brief Method ReadServerNameExtension addr 0xf205e0 size 0xd4 virtual false final false
-static ::Org::BouncyCastle::Crypto::Tls::ServerNameList ReadServerNameExtension(::ArrayW<uint8_t> extensionData) ;
+static Org::BouncyCastle::Crypto::Tls::ServerNameList ReadServerNameExtension(::ArrayW<uint8_t> extensionData) ;
 
 /// @brief Method ReadStatusRequestExtension addr 0xf20720 size 0xd4 virtual false final false
-static ::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest ReadStatusRequestExtension(::ArrayW<uint8_t> extensionData) ;
+static Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest ReadStatusRequestExtension(::ArrayW<uint8_t> extensionData) ;
 
 /// @brief Method ReadTruncatedHMacExtension addr 0xf20954 size 0x14 virtual false final false
 static bool ReadTruncatedHMacExtension(::ArrayW<uint8_t> extensionData) ;
@@ -213,6 +212,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsExtensionsUtilities);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::TlsExtensionsUtilities, "Org.BouncyCastle.Crypto.Tls", "TlsExtensionsUtilities");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::TlsExtensionsUtilities);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::TlsExtensionsUtilities, "Org.BouncyCastle.Crypto.Tls", "TlsExtensionsUtilities");

@@ -3,38 +3,37 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerator_1;
+class List_1;
+}
+namespace BGNet::Core {
+class ITimeProvider;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace GlobalNamespace {
+template<typename T>
+class OrderedSet_1;
+}
+namespace System {
+class IDisposable;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerable_1;
-}
-namespace System {
-class IDisposable;
-}
-namespace BGNet::Core {
-class ITimeProvider;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace GlobalNamespace {
-template<typename T>
-class OrderedSet_1;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+class IEnumerator_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -43,11 +42,11 @@ class ExpiringDictionary_2;
 }
 namespace GlobalNamespace {
 template<typename TKey,typename TValue>
-class ____GlobalNamespace__ExpiringDictionary_2__Entry;
+class GlobalNamespace__ExpiringDictionary_2__Entry;
 }
 namespace GlobalNamespace {
 template<typename TKey,typename TValue>
-class ____GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14;
+class GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14;
 }
 namespace GlobalNamespace {
 template<::cordl_internals::il2cpp_reference_type TKey,::cordl_internals::il2cpp_reference_type TValue>
@@ -55,11 +54,11 @@ class ExpiringDictionary_2<TKey,TValue>;
 }
 namespace GlobalNamespace {
 template<::cordl_internals::il2cpp_reference_type TKey,::cordl_internals::il2cpp_reference_type TValue>
-class ____GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue>;
+class GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue>;
 }
 namespace GlobalNamespace {
 template<::cordl_internals::il2cpp_reference_type TKey,::cordl_internals::il2cpp_reference_type TValue>
-class ____GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14<TKey,TValue>;
+class GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14<TKey,TValue>;
 }
 // Type: ::Entry
 // Type: ::<Enumerate>d__14
@@ -72,40 +71,40 @@ template<::cordl_internals::il2cpp_reference_type TKey,::cordl_internals::il2cpp
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12670))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12670), inst: 80 })
 // CS Name: ExpiringDictionary`2::Entry
-class CORDL_TYPE ____GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____GlobalNamespace__ExpiringDictionary_2__Entry() = default;
+virtual ~GlobalNamespace__ExpiringDictionary_2__Entry() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__ExpiringDictionary_2__Entry", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__ExpiringDictionary_2__Entry(____GlobalNamespace__ExpiringDictionary_2__Entry const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__ExpiringDictionary_2__Entry", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__ExpiringDictionary_2__Entry(GlobalNamespace__ExpiringDictionary_2__Entry const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__ExpiringDictionary_2__Entry", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__ExpiringDictionary_2__Entry(____GlobalNamespace__ExpiringDictionary_2__Entry&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__ExpiringDictionary_2__Entry", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__ExpiringDictionary_2__Entry(GlobalNamespace__ExpiringDictionary_2__Entry&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__ExpiringDictionary_2__Entry(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__ExpiringDictionary_2__Entry(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__ExpiringDictionary_2__Entry& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__ExpiringDictionary_2__Entry& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__ExpiringDictionary_2__Entry& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__ExpiringDictionary_2__Entry& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__ExpiringDictionary_2__Entry& operator=(____GlobalNamespace__ExpiringDictionary_2__Entry&& o) noexcept = default;
-  constexpr ____GlobalNamespace__ExpiringDictionary_2__Entry& operator=(____GlobalNamespace__ExpiringDictionary_2__Entry const& o) noexcept = default;
+  constexpr GlobalNamespace__ExpiringDictionary_2__Entry& operator=(GlobalNamespace__ExpiringDictionary_2__Entry&& o) noexcept = default;
+  constexpr GlobalNamespace__ExpiringDictionary_2__Entry& operator=(GlobalNamespace__ExpiringDictionary_2__Entry const& o) noexcept = default;
                 
 
 
@@ -136,7 +135,7 @@ constexpr int64_t __get_expireTime() const;
  void Dispose() ;
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__ExpiringDictionary_2__Entry() ;
+explicit GlobalNamespace__ExpiringDictionary_2__Entry() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -153,46 +152,46 @@ template<::cordl_internals::il2cpp_reference_type TKey,::cordl_internals::il2cpp
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12671))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12671), inst: 80 })
 // CS Name: ExpiringDictionary`2::<Enumerate>d__14
-class CORDL_TYPE ____GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14<TKey,TValue> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14<TKey,TValue> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<TValue>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<TValue>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<TValue>
+constexpr operator  System::Collections::Generic::IEnumerator_1<TValue>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14() = default;
+virtual ~GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14(____GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14(GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14(____GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14(GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14& operator=(____GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14&& o) noexcept = default;
-  constexpr ____GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14& operator=(____GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14 const& o) noexcept = default;
+  constexpr GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14& operator=(GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14&& o) noexcept = default;
+  constexpr GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14& operator=(GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14 const& o) noexcept = default;
                 
 
 
@@ -210,17 +209,17 @@ constexpr void __set___2__current(TValue value) ;
 
 constexpr TValue __get___2__current() const;
 
- ::GlobalNamespace::ExpiringDictionary_2<TKey,TValue> __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::ExpiringDictionary_2<TKey,TValue> __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::ExpiringDictionary_2<TKey,TValue> value) ;
+constexpr void __set___4__this(GlobalNamespace::ExpiringDictionary_2<TKey,TValue> value) ;
 
-constexpr ::GlobalNamespace::ExpiringDictionary_2<TKey,TValue> __get___4__this() const;
+constexpr GlobalNamespace::ExpiringDictionary_2<TKey,TValue> __get___4__this() const;
 
- ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::____GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue>> __declspec(property(get=__get___7__wrap1, put=__set___7__wrap1))  __7__wrap1;
+ System::Collections::Generic::IEnumerator_1<GlobalNamespace::GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue>> __declspec(property(get=__get___7__wrap1, put=__set___7__wrap1))  __7__wrap1;
 
-constexpr void __set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::____GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue>> value) ;
+constexpr void __set___7__wrap1(System::Collections::Generic::IEnumerator_1<GlobalNamespace::GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue>> value) ;
 
-constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::____GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue>> __get___7__wrap1() const;
+constexpr System::Collections::Generic::IEnumerator_1<GlobalNamespace::GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue>> __get___7__wrap1() const;
 
 
 // Properties
@@ -233,7 +232,7 @@ constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::____G
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14(int32_t __1__state) ;
+explicit GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -271,18 +270,18 @@ template<::cordl_internals::il2cpp_reference_type TKey,::cordl_internals::il2cpp
 class CORDL_TYPE ExpiringDictionary_2<TKey,TValue> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using _Enumerate_d__14 = ::GlobalNamespace::____GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14<TKey, TValue>;
+using _Enumerate_d__14 = GlobalNamespace::GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14<TKey, TValue>;
 
-using Entry = ::GlobalNamespace::____GlobalNamespace__ExpiringDictionary_2__Entry<TKey, TValue>;
+using Entry = GlobalNamespace::GlobalNamespace__ExpiringDictionary_2__Entry<TKey, TValue>;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerable_1<TValue>
-constexpr operator  ::System::Collections::Generic::IEnumerable_1<TValue>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerable_1<TValue>
+constexpr operator  System::Collections::Generic::IEnumerable_1<TValue>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -320,11 +319,11 @@ constexpr explicit ExpiringDictionary_2(void* ptr) noexcept : ::bs_hook::Il2CppW
 /// @brief Field kMaxReusableEntries offset 0
 static constexpr int32_t  kMaxReusableEntries{1024};
 
- ::BGNet::Core::ITimeProvider __declspec(property(get=__get__timeProvider, put=__set__timeProvider))  _timeProvider;
+ BGNet::Core::ITimeProvider __declspec(property(get=__get__timeProvider, put=__set__timeProvider))  _timeProvider;
 
-constexpr void __set__timeProvider(::BGNet::Core::ITimeProvider value) ;
+constexpr void __set__timeProvider(BGNet::Core::ITimeProvider value) ;
 
-constexpr ::BGNet::Core::ITimeProvider __get__timeProvider() const;
+constexpr BGNet::Core::ITimeProvider __get__timeProvider() const;
 
  int64_t __declspec(property(get=__get__expirationLengthMs, put=__set__expirationLengthMs))  _expirationLengthMs;
 
@@ -332,23 +331,23 @@ constexpr void __set__expirationLengthMs(int64_t value) ;
 
 constexpr int64_t __get__expirationLengthMs() const;
 
- ::GlobalNamespace::OrderedSet_1<::GlobalNamespace::____GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue>> __declspec(property(get=__get__expirationQueue, put=__set__expirationQueue))  _expirationQueue;
+ GlobalNamespace::OrderedSet_1<GlobalNamespace::GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue>> __declspec(property(get=__get__expirationQueue, put=__set__expirationQueue))  _expirationQueue;
 
-constexpr void __set__expirationQueue(::GlobalNamespace::OrderedSet_1<::GlobalNamespace::____GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue>> value) ;
+constexpr void __set__expirationQueue(GlobalNamespace::OrderedSet_1<GlobalNamespace::GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue>> value) ;
 
-constexpr ::GlobalNamespace::OrderedSet_1<::GlobalNamespace::____GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue>> __get__expirationQueue() const;
+constexpr GlobalNamespace::OrderedSet_1<GlobalNamespace::GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue>> __get__expirationQueue() const;
 
- ::System::Collections::Generic::Dictionary_2<TKey,::GlobalNamespace::____GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue>> __declspec(property(get=__get__entryLookup, put=__set__entryLookup))  _entryLookup;
+ System::Collections::Generic::Dictionary_2<TKey,GlobalNamespace::GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue>> __declspec(property(get=__get__entryLookup, put=__set__entryLookup))  _entryLookup;
 
-constexpr void __set__entryLookup(::System::Collections::Generic::Dictionary_2<TKey,::GlobalNamespace::____GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue>> value) ;
+constexpr void __set__entryLookup(System::Collections::Generic::Dictionary_2<TKey,GlobalNamespace::GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue>> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<TKey,::GlobalNamespace::____GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue>> __get__entryLookup() const;
+constexpr System::Collections::Generic::Dictionary_2<TKey,GlobalNamespace::GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue>> __get__entryLookup() const;
 
- ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue>> __declspec(property(get=__get__reusableEntries, put=__set__reusableEntries))  _reusableEntries;
+ System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue>> __declspec(property(get=__get__reusableEntries, put=__set__reusableEntries))  _reusableEntries;
 
-constexpr void __set__reusableEntries(::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue>> value) ;
+constexpr void __set__reusableEntries(System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue>> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue>> __get__reusableEntries() const;
+constexpr System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue>> __get__reusableEntries() const;
 
 
 // Properties
@@ -363,26 +362,26 @@ constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNa
 /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t get_Count() ;
 
-// Ctor Parameters [CppParam { name: "timeProvider", ty: "::BGNet::Core::ITimeProvider", modifiers: "", def_value: None }, CppParam { name: "expirationLengthMs", ty: "int64_t", modifiers: "", def_value: None }]
-explicit ExpiringDictionary_2(::BGNet::Core::ITimeProvider timeProvider, int64_t expirationLengthMs) ;
+// Ctor Parameters [CppParam { name: "timeProvider", ty: "BGNet::Core::ITimeProvider", modifiers: "", def_value: None }, CppParam { name: "expirationLengthMs", ty: "int64_t", modifiers: "", def_value: None }]
+explicit ExpiringDictionary_2(BGNet::Core::ITimeProvider timeProvider, int64_t expirationLengthMs) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::BGNet::Core::ITimeProvider timeProvider, int64_t expirationLengthMs) ;
+ void _ctor(BGNet::Core::ITimeProvider timeProvider, int64_t expirationLengthMs) ;
 
 /// @brief Method CompareEntries addr 0x0 size 0xffffffffffffffff virtual false final false
-static int32_t CompareEntries(::GlobalNamespace::____GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue> a, ::GlobalNamespace::____GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue> b) ;
+static int32_t CompareEntries(GlobalNamespace::GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue> a, GlobalNamespace::GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue> b) ;
 
 /// @brief Method RemoveExpiredEntries addr 0x0 size 0xffffffffffffffff virtual false final false
  void RemoveExpiredEntries() ;
 
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
+ System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
 /// @brief Method System.Collections.Generic.IEnumerable<TValue>.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Collections::Generic::IEnumerator_1<TValue> System_Collections_Generic_IEnumerable_TValue__GetEnumerator() ;
+ System::Collections::Generic::IEnumerator_1<TValue> System_Collections_Generic_IEnumerable_TValue__GetEnumerator() ;
 
 /// @brief Method Enumerate addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Collections::Generic::IEnumerator_1<TValue> Enumerate() ;
+ System::Collections::Generic::IEnumerator_1<TValue> Enumerate() ;
 
 /// @brief Method ContainsKey addr 0x0 size 0xffffffffffffffff virtual false final false
  bool ContainsKey(TKey key) ;
@@ -421,16 +420,15 @@ static int32_t CompareEntries(::GlobalNamespace::____GlobalNamespace__ExpiringDi
  void Dispose() ;
 
 /// @brief Method GetEntry addr 0x0 size 0xffffffffffffffff virtual false final false
- ::GlobalNamespace::____GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue> GetEntry(TKey key, TValue value) ;
+ GlobalNamespace::GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue> GetEntry(TKey key, TValue value) ;
 
 /// @brief Method ReleaseEntry addr 0x0 size 0xffffffffffffffff virtual false final false
- void ReleaseEntry(::GlobalNamespace::____GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue> entry) ;
+ void ReleaseEntry(GlobalNamespace::GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue> entry) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::ExpiringDictionary_2, "", "ExpiringDictionary`2");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::____GlobalNamespace__ExpiringDictionary_2__Entry, "", "ExpiringDictionary`2/Entry");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::____GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14, "", "ExpiringDictionary`2/<Enumerate>d__14");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::ExpiringDictionary_2, "", "ExpiringDictionary`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::GlobalNamespace__ExpiringDictionary_2__Entry, "", "ExpiringDictionary`2/Entry");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14, "", "ExpiringDictionary`2/<Enumerate>d__14");

@@ -1,12 +1,11 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace Newtonsoft::Json::Utilities {
-struct PrimitiveTypeCode;
-}
 namespace System {
 class Type;
+}
+namespace Newtonsoft::Json::Utilities {
+struct PrimitiveTypeCode;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
@@ -54,39 +53,39 @@ constexpr explicit TypeInformation(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Fields
 
- ::System::Type __declspec(property(get=__get__Type_k__BackingField, put=__set__Type_k__BackingField))  _Type_k__BackingField;
+ System::Type __declspec(property(get=__get__Type_k__BackingField, put=__set__Type_k__BackingField))  _Type_k__BackingField;
 
-constexpr void __set__Type_k__BackingField(::System::Type value) ;
+constexpr void __set__Type_k__BackingField(System::Type value) ;
 
-constexpr ::System::Type __get__Type_k__BackingField() const;
+constexpr System::Type __get__Type_k__BackingField() const;
 
- ::Newtonsoft::Json::Utilities::PrimitiveTypeCode __declspec(property(get=__get__TypeCode_k__BackingField, put=__set__TypeCode_k__BackingField))  _TypeCode_k__BackingField;
+ Newtonsoft::Json::Utilities::PrimitiveTypeCode __declspec(property(get=__get__TypeCode_k__BackingField, put=__set__TypeCode_k__BackingField))  _TypeCode_k__BackingField;
 
-constexpr void __set__TypeCode_k__BackingField(::Newtonsoft::Json::Utilities::PrimitiveTypeCode value) ;
+constexpr void __set__TypeCode_k__BackingField(Newtonsoft::Json::Utilities::PrimitiveTypeCode value) ;
 
-constexpr ::Newtonsoft::Json::Utilities::PrimitiveTypeCode __get__TypeCode_k__BackingField() const;
+constexpr Newtonsoft::Json::Utilities::PrimitiveTypeCode __get__TypeCode_k__BackingField() const;
 
 
 // Properties
 
- ::System::Type __declspec(property(get=get_Type, put=set_Type))  Type;
+ System::Type __declspec(property(get=get_Type, put=set_Type))  Type;
 
- ::Newtonsoft::Json::Utilities::PrimitiveTypeCode __declspec(property(get=get_TypeCode, put=set_TypeCode))  TypeCode;
+ Newtonsoft::Json::Utilities::PrimitiveTypeCode __declspec(property(get=get_TypeCode, put=set_TypeCode))  TypeCode;
 
 
 // Methods
 
 /// @brief Method get_Type addr 0x24e3c38 size 0x8 virtual false final false
- ::System::Type get_Type() ;
+ System::Type get_Type() ;
 
 /// @brief Method set_Type addr 0x24e3c40 size 0x8 virtual false final false
- void set_Type(::System::Type value) ;
+ void set_Type(System::Type value) ;
 
 /// @brief Method get_TypeCode addr 0x24e3c48 size 0x8 virtual false final false
- ::Newtonsoft::Json::Utilities::PrimitiveTypeCode get_TypeCode() ;
+ Newtonsoft::Json::Utilities::PrimitiveTypeCode get_TypeCode() ;
 
 /// @brief Method set_TypeCode addr 0x24e3c50 size 0x8 virtual false final false
- void set_TypeCode(::Newtonsoft::Json::Utilities::PrimitiveTypeCode value) ;
+ void set_TypeCode(Newtonsoft::Json::Utilities::PrimitiveTypeCode value) ;
 
 // Ctor Parameters []
 explicit TypeInformation() ;
@@ -98,6 +97,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Utilities
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Utilities::TypeInformation);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::TypeInformation, "Newtonsoft.Json.Utilities", "TypeInformation");
+NEED_NO_BOX(Newtonsoft::Json::Utilities::TypeInformation);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::TypeInformation, "Newtonsoft.Json.Utilities", "TypeInformation");

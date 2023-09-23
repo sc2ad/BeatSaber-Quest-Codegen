@@ -1,18 +1,17 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Newtonsoft::Json {
 class JsonSerializer;
-}
-namespace Newtonsoft::Json {
-class JsonWriter;
 }
 namespace Newtonsoft::Json {
 class JsonReader;
 }
 namespace System {
 class Type;
+}
+namespace Newtonsoft::Json {
+class JsonWriter;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {
@@ -68,13 +67,13 @@ constexpr explicit JsonConverter(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 // Methods
 
 /// @brief Method WriteJson addr 0x0 size 0xffffffffffffffff virtual true final false
- void WriteJson(::Newtonsoft::Json::JsonWriter writer, ::bs_hook::Il2CppWrapperType value, ::Newtonsoft::Json::JsonSerializer serializer) ;
+ void WriteJson(Newtonsoft::Json::JsonWriter writer, ::bs_hook::Il2CppWrapperType value, Newtonsoft::Json::JsonSerializer serializer) ;
 
 /// @brief Method ReadJson addr 0x0 size 0xffffffffffffffff virtual true final false
- ::bs_hook::Il2CppWrapperType ReadJson(::Newtonsoft::Json::JsonReader reader, ::System::Type objectType, ::bs_hook::Il2CppWrapperType existingValue, ::Newtonsoft::Json::JsonSerializer serializer) ;
+ ::bs_hook::Il2CppWrapperType ReadJson(Newtonsoft::Json::JsonReader reader, System::Type objectType, ::bs_hook::Il2CppWrapperType existingValue, Newtonsoft::Json::JsonSerializer serializer) ;
 
 /// @brief Method CanConvert addr 0x0 size 0xffffffffffffffff virtual true final false
- bool CanConvert(::System::Type objectType) ;
+ bool CanConvert(System::Type objectType) ;
 
 /// @brief Method get_CanRead addr 0x24d34dc size 0x8 virtual true final false
  bool get_CanRead() ;
@@ -92,6 +91,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::JsonConverter);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonConverter, "Newtonsoft.Json", "JsonConverter");
+NEED_NO_BOX(Newtonsoft::Json::JsonConverter);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::JsonConverter, "Newtonsoft.Json", "JsonConverter");

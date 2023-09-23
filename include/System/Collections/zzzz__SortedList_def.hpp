@@ -3,19 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-class Array;
-}
-namespace System::Collections {
-class IDictionaryEnumerator;
-}
-namespace System::Collections {
-class IList;
-}
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System::Collections {
 class ICollection;
 }
@@ -23,13 +10,25 @@ namespace System {
 class ICloneable;
 }
 namespace System::Collections {
-class IComparer;
+class IEnumerator;
+}
+namespace System::Collections {
+class IList;
 }
 namespace System::Collections {
 class IDictionary;
 }
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
+}
+namespace System {
+class Array;
+}
+namespace System::Collections {
+class IDictionaryEnumerator;
+}
+namespace System::Collections {
+class IComparer;
 }
 namespace System::Collections {
 struct DictionaryEntry;
@@ -39,19 +38,19 @@ namespace System::Collections {
 class SortedList;
 }
 namespace System::Collections {
-class ____System__Collections__SortedList__KeyList;
+class System__Collections__SortedList__KeyList;
 }
 namespace System::Collections {
-class ____System__Collections__SortedList__SortedListDebugView;
+class System__Collections__SortedList__SortedListDebugView;
 }
 namespace System::Collections {
-class ____System__Collections__SortedList__SortedListEnumerator;
+class System__Collections__SortedList__SortedListEnumerator;
 }
 namespace System::Collections {
-class ____System__Collections__SortedList__SyncSortedList;
+class System__Collections__SortedList__SyncSortedList;
 }
 namespace System::Collections {
-class ____System__Collections__SortedList__ValueList;
+class System__Collections__SortedList__ValueList;
 }
 // Type: System.Collections::SortedList
 namespace System::Collections {
@@ -62,27 +61,27 @@ namespace System::Collections {
 class CORDL_TYPE SortedList : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using SortedListDebugView = ::System::Collections::____System__Collections__SortedList__SortedListDebugView;
+using SortedListDebugView = System::Collections::System__Collections__SortedList__SortedListDebugView;
 
-using ValueList = ::System::Collections::____System__Collections__SortedList__ValueList;
+using ValueList = System::Collections::System__Collections__SortedList__ValueList;
 
-using KeyList = ::System::Collections::____System__Collections__SortedList__KeyList;
+using KeyList = System::Collections::System__Collections__SortedList__KeyList;
 
-using SortedListEnumerator = ::System::Collections::____System__Collections__SortedList__SortedListEnumerator;
+using SortedListEnumerator = System::Collections::System__Collections__SortedList__SortedListEnumerator;
 
-using SyncSortedList = ::System::Collections::____System__Collections__SortedList__SyncSortedList;
+using SyncSortedList = System::Collections::System__Collections__SortedList__SyncSortedList;
 
-/// @brief Convert operator to ::System::Collections::IDictionary
-constexpr operator  ::System::Collections::IDictionary() const noexcept;
+/// @brief Convert operator to System::Collections::IDictionary
+constexpr operator  System::Collections::IDictionary() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::ICollection
-constexpr operator  ::System::Collections::ICollection() const noexcept;
+/// @brief Convert operator to System::Collections::ICollection
+constexpr operator  System::Collections::ICollection() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
-/// @brief Convert operator to ::System::ICloneable
-constexpr operator  ::System::ICloneable() const noexcept;
+/// @brief Convert operator to System::ICloneable
+constexpr operator  System::ICloneable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
@@ -141,23 +140,23 @@ constexpr void __set_version(int32_t value) ;
 
 constexpr int32_t __get_version() const;
 
- ::System::Collections::IComparer __declspec(property(get=__get_comparer, put=__set_comparer))  comparer;
+ System::Collections::IComparer __declspec(property(get=__get_comparer, put=__set_comparer))  comparer;
 
-constexpr void __set_comparer(::System::Collections::IComparer value) ;
+constexpr void __set_comparer(System::Collections::IComparer value) ;
 
-constexpr ::System::Collections::IComparer __get_comparer() const;
+constexpr System::Collections::IComparer __get_comparer() const;
 
- ::System::Collections::____System__Collections__SortedList__KeyList __declspec(property(get=__get_keyList, put=__set_keyList))  keyList;
+ System::Collections::System__Collections__SortedList__KeyList __declspec(property(get=__get_keyList, put=__set_keyList))  keyList;
 
-constexpr void __set_keyList(::System::Collections::____System__Collections__SortedList__KeyList value) ;
+constexpr void __set_keyList(System::Collections::System__Collections__SortedList__KeyList value) ;
 
-constexpr ::System::Collections::____System__Collections__SortedList__KeyList __get_keyList() const;
+constexpr System::Collections::System__Collections__SortedList__KeyList __get_keyList() const;
 
- ::System::Collections::____System__Collections__SortedList__ValueList __declspec(property(get=__get_valueList, put=__set_valueList))  valueList;
+ System::Collections::System__Collections__SortedList__ValueList __declspec(property(get=__get_valueList, put=__set_valueList))  valueList;
 
-constexpr void __set_valueList(::System::Collections::____System__Collections__SortedList__ValueList value) ;
+constexpr void __set_valueList(System::Collections::System__Collections__SortedList__ValueList value) ;
 
-constexpr ::System::Collections::____System__Collections__SortedList__ValueList __get_valueList() const;
+constexpr System::Collections::System__Collections__SortedList__ValueList __get_valueList() const;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=__get__syncRoot, put=__set__syncRoot))  _syncRoot;
 
@@ -172,9 +171,9 @@ constexpr ::bs_hook::Il2CppWrapperType __get__syncRoot() const;
 
  int32_t __declspec(property(get=get_Count))  Count;
 
- ::System::Collections::ICollection __declspec(property(get=get_Keys))  Keys;
+ System::Collections::ICollection __declspec(property(get=get_Keys))  Keys;
 
- ::System::Collections::ICollection __declspec(property(get=get_Values))  Values;
+ System::Collections::ICollection __declspec(property(get=get_Values))  Values;
 
  bool __declspec(property(get=get_IsReadOnly))  IsReadOnly;
 
@@ -204,11 +203,11 @@ explicit SortedList(int32_t initialCapacity) ;
 /// @brief Method .ctor addr 0x24120d0 size 0x144 virtual false final false
  void _ctor(int32_t initialCapacity) ;
 
-// Ctor Parameters [CppParam { name: "comparer", ty: "::System::Collections::IComparer", modifiers: "", def_value: None }]
-explicit SortedList(::System::Collections::IComparer comparer) ;
+// Ctor Parameters [CppParam { name: "comparer", ty: "System::Collections::IComparer", modifiers: "", def_value: None }]
+explicit SortedList(System::Collections::IComparer comparer) ;
 
 /// @brief Method .ctor addr 0x2412214 size 0x34 virtual false final false
- void _ctor(::System::Collections::IComparer comparer) ;
+ void _ctor(System::Collections::IComparer comparer) ;
 
 /// @brief Method Add addr 0x2412248 size 0x130 virtual true final false
  void Add(::bs_hook::Il2CppWrapperType key, ::bs_hook::Il2CppWrapperType value) ;
@@ -220,10 +219,10 @@ explicit SortedList(::System::Collections::IComparer comparer) ;
  int32_t get_Count() ;
 
 /// @brief Method get_Keys addr 0x2412698 size 0x10 virtual true final false
- ::System::Collections::ICollection get_Keys() ;
+ System::Collections::ICollection get_Keys() ;
 
 /// @brief Method get_Values addr 0x24126a8 size 0x10 virtual true final false
- ::System::Collections::ICollection get_Values() ;
+ System::Collections::ICollection get_Values() ;
 
 /// @brief Method get_IsReadOnly addr 0x24126b8 size 0x8 virtual true final false
  bool get_IsReadOnly() ;
@@ -250,7 +249,7 @@ explicit SortedList(::System::Collections::IComparer comparer) ;
  bool ContainsValue(::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method CopyTo addr 0x2412880 size 0x280 virtual true final false
- void CopyTo(::System::Array array, int32_t arrayIndex) ;
+ void CopyTo(System::Array array, int32_t arrayIndex) ;
 
 /// @brief Method EnsureCapacity addr 0x2412b00 size 0x4c virtual false final false
  void EnsureCapacity(int32_t min) ;
@@ -259,19 +258,19 @@ explicit SortedList(::System::Collections::IComparer comparer) ;
  ::bs_hook::Il2CppWrapperType GetByIndex(int32_t index) ;
 
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x2412c08 size 0x70 virtual true final true
- ::System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
+ System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
 /// @brief Method GetEnumerator addr 0x2412cd8 size 0x70 virtual true final false
- ::System::Collections::IDictionaryEnumerator GetEnumerator() ;
+ System::Collections::IDictionaryEnumerator GetEnumerator() ;
 
 /// @brief Method GetKey addr 0x2412d48 size 0xbc virtual true final false
  ::bs_hook::Il2CppWrapperType GetKey(int32_t index) ;
 
 /// @brief Method GetKeyList addr 0x2412e04 size 0x70 virtual true final false
- ::System::Collections::IList GetKeyList() ;
+ System::Collections::IList GetKeyList() ;
 
 /// @brief Method GetValueList addr 0x2412e9c size 0x70 virtual true final false
- ::System::Collections::IList GetValueList() ;
+ System::Collections::IList GetValueList() ;
 
 /// @brief Method get_Item addr 0x2412f34 size 0x50 virtual true final false
  ::bs_hook::Il2CppWrapperType get_Item(::bs_hook::Il2CppWrapperType key) ;
@@ -295,7 +294,7 @@ explicit SortedList(::System::Collections::IComparer comparer) ;
  void Remove(::bs_hook::Il2CppWrapperType key) ;
 
 /// @brief Method Synchronized addr 0x2413324 size 0xb0 virtual false final false
-static ::System::Collections::SortedList Synchronized(::System::Collections::SortedList list) ;
+static System::Collections::SortedList Synchronized(System::Collections::SortedList list) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -307,47 +306,47 @@ namespace System::Collections {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3768))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3763))
 // CS Name: System.Collections.SortedList::SyncSortedList
-class CORDL_TYPE ____System__Collections__SortedList__SyncSortedList : public ::System::Collections::SortedList {
+class CORDL_TYPE System__Collections__SortedList__SyncSortedList : public System::Collections::SortedList {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x58};
 
-virtual ~____System__Collections__SortedList__SyncSortedList() = default;
+virtual ~System__Collections__SortedList__SyncSortedList() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__SortedList__SyncSortedList", modifiers: " const&", def_value: None }]
-constexpr ____System__Collections__SortedList__SyncSortedList(____System__Collections__SortedList__SyncSortedList const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__SortedList__SyncSortedList", modifiers: " const&", def_value: None }]
+constexpr System__Collections__SortedList__SyncSortedList(System__Collections__SortedList__SyncSortedList const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__SortedList__SyncSortedList", modifiers: "&&", def_value: None }]
-constexpr ____System__Collections__SortedList__SyncSortedList(____System__Collections__SortedList__SyncSortedList&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__SortedList__SyncSortedList", modifiers: "&&", def_value: None }]
+constexpr System__Collections__SortedList__SyncSortedList(System__Collections__SortedList__SyncSortedList&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Collections__SortedList__SyncSortedList(void* ptr) noexcept : ::System::Collections::SortedList(ptr) {
+constexpr explicit System__Collections__SortedList__SyncSortedList(void* ptr) noexcept : System::Collections::SortedList(ptr) {
 }
 
 
-  constexpr ____System__Collections__SortedList__SyncSortedList& operator=(std::nullptr_t) noexcept {
+  constexpr System__Collections__SortedList__SyncSortedList& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Collections__SortedList__SyncSortedList& operator=(void* o) noexcept {
+  constexpr System__Collections__SortedList__SyncSortedList& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Collections__SortedList__SyncSortedList& operator=(____System__Collections__SortedList__SyncSortedList&& o) noexcept = default;
-  constexpr ____System__Collections__SortedList__SyncSortedList& operator=(____System__Collections__SortedList__SyncSortedList const& o) noexcept = default;
+  constexpr System__Collections__SortedList__SyncSortedList& operator=(System__Collections__SortedList__SyncSortedList&& o) noexcept = default;
+  constexpr System__Collections__SortedList__SyncSortedList& operator=(System__Collections__SortedList__SyncSortedList const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Collections::SortedList __declspec(property(get=__get__list, put=__set__list))  _list;
+ System::Collections::SortedList __declspec(property(get=__get__list, put=__set__list))  _list;
 
-constexpr void __set__list(::System::Collections::SortedList value) ;
+constexpr void __set__list(System::Collections::SortedList value) ;
 
-constexpr ::System::Collections::SortedList __get__list() const;
+constexpr System::Collections::SortedList __get__list() const;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=__get__root, put=__set__root))  _root;
 
@@ -373,11 +372,11 @@ constexpr ::bs_hook::Il2CppWrapperType __get__root() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "list", ty: "::System::Collections::SortedList", modifiers: "", def_value: None }]
-explicit ____System__Collections__SortedList__SyncSortedList(::System::Collections::SortedList list) ;
+// Ctor Parameters [CppParam { name: "list", ty: "System::Collections::SortedList", modifiers: "", def_value: None }]
+explicit System__Collections__SortedList__SyncSortedList(System::Collections::SortedList list) ;
 
 /// @brief Method .ctor addr 0x24133d4 size 0x50 virtual false final false
- void _ctor(::System::Collections::SortedList list) ;
+ void _ctor(System::Collections::SortedList list) ;
 
 /// @brief Method get_Count addr 0x2413424 size 0xe4 virtual true final false
  int32_t get_Count() ;
@@ -416,22 +415,22 @@ explicit ____System__Collections__SortedList__SyncSortedList(::System::Collectio
  bool ContainsValue(::bs_hook::Il2CppWrapperType key) ;
 
 /// @brief Method CopyTo addr 0x2413ba4 size 0xe4 virtual true final false
- void CopyTo(::System::Array array, int32_t index) ;
+ void CopyTo(System::Array array, int32_t index) ;
 
 /// @brief Method GetByIndex addr 0x2413c88 size 0xec virtual true final false
  ::bs_hook::Il2CppWrapperType GetByIndex(int32_t index) ;
 
 /// @brief Method GetEnumerator addr 0x2413d74 size 0xe4 virtual true final false
- ::System::Collections::IDictionaryEnumerator GetEnumerator() ;
+ System::Collections::IDictionaryEnumerator GetEnumerator() ;
 
 /// @brief Method GetKey addr 0x2413e58 size 0xec virtual true final false
  ::bs_hook::Il2CppWrapperType GetKey(int32_t index) ;
 
 /// @brief Method GetKeyList addr 0x2413f44 size 0xe4 virtual true final false
- ::System::Collections::IList GetKeyList() ;
+ System::Collections::IList GetKeyList() ;
 
 /// @brief Method GetValueList addr 0x2414028 size 0xe4 virtual true final false
- ::System::Collections::IList GetValueList() ;
+ System::Collections::IList GetValueList() ;
 
 /// @brief Method IndexOfKey addr 0x241410c size 0x154 virtual true final false
  int32_t IndexOfKey(::bs_hook::Il2CppWrapperType key) ;
@@ -455,56 +454,56 @@ namespace System::Collections {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3764))
 // CS Name: System.Collections.SortedList::SortedListEnumerator
-class CORDL_TYPE ____System__Collections__SortedList__SortedListEnumerator : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Collections__SortedList__SortedListEnumerator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::IDictionaryEnumerator
-constexpr operator  ::System::Collections::IDictionaryEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IDictionaryEnumerator
+constexpr operator  System::Collections::IDictionaryEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::ICloneable
-constexpr operator  ::System::ICloneable() const noexcept;
+/// @brief Convert operator to System::ICloneable
+constexpr operator  System::ICloneable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
 
-virtual ~____System__Collections__SortedList__SortedListEnumerator() = default;
+virtual ~System__Collections__SortedList__SortedListEnumerator() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__SortedList__SortedListEnumerator", modifiers: " const&", def_value: None }]
-constexpr ____System__Collections__SortedList__SortedListEnumerator(____System__Collections__SortedList__SortedListEnumerator const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__SortedList__SortedListEnumerator", modifiers: " const&", def_value: None }]
+constexpr System__Collections__SortedList__SortedListEnumerator(System__Collections__SortedList__SortedListEnumerator const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__SortedList__SortedListEnumerator", modifiers: "&&", def_value: None }]
-constexpr ____System__Collections__SortedList__SortedListEnumerator(____System__Collections__SortedList__SortedListEnumerator&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__SortedList__SortedListEnumerator", modifiers: "&&", def_value: None }]
+constexpr System__Collections__SortedList__SortedListEnumerator(System__Collections__SortedList__SortedListEnumerator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Collections__SortedList__SortedListEnumerator(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Collections__SortedList__SortedListEnumerator(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Collections__SortedList__SortedListEnumerator& operator=(std::nullptr_t) noexcept {
+  constexpr System__Collections__SortedList__SortedListEnumerator& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Collections__SortedList__SortedListEnumerator& operator=(void* o) noexcept {
+  constexpr System__Collections__SortedList__SortedListEnumerator& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Collections__SortedList__SortedListEnumerator& operator=(____System__Collections__SortedList__SortedListEnumerator&& o) noexcept = default;
-  constexpr ____System__Collections__SortedList__SortedListEnumerator& operator=(____System__Collections__SortedList__SortedListEnumerator const& o) noexcept = default;
+  constexpr System__Collections__SortedList__SortedListEnumerator& operator=(System__Collections__SortedList__SortedListEnumerator&& o) noexcept = default;
+  constexpr System__Collections__SortedList__SortedListEnumerator& operator=(System__Collections__SortedList__SortedListEnumerator const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Collections::SortedList __declspec(property(get=__get__sortedList, put=__set__sortedList))  _sortedList;
+ System::Collections::SortedList __declspec(property(get=__get__sortedList, put=__set__sortedList))  _sortedList;
 
-constexpr void __set__sortedList(::System::Collections::SortedList value) ;
+constexpr void __set__sortedList(System::Collections::SortedList value) ;
 
-constexpr ::System::Collections::SortedList __get__sortedList() const;
+constexpr System::Collections::SortedList __get__sortedList() const;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=__get__key, put=__set__key))  _key;
 
@@ -559,7 +558,7 @@ constexpr int32_t __get__getObjectRetType() const;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_Key))  Key;
 
- ::System::Collections::DictionaryEntry __declspec(property(get=get_Entry))  Entry;
+ System::Collections::DictionaryEntry __declspec(property(get=get_Entry))  Entry;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_Current))  Current;
 
@@ -568,11 +567,11 @@ constexpr int32_t __get__getObjectRetType() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "sortedList", ty: "::System::Collections::SortedList", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "getObjRetType", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____System__Collections__SortedList__SortedListEnumerator(::System::Collections::SortedList sortedList, int32_t index, int32_t count, int32_t getObjRetType) ;
+// Ctor Parameters [CppParam { name: "sortedList", ty: "System::Collections::SortedList", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "getObjRetType", ty: "int32_t", modifiers: "", def_value: None }]
+explicit System__Collections__SortedList__SortedListEnumerator(System::Collections::SortedList sortedList, int32_t index, int32_t count, int32_t getObjRetType) ;
 
 /// @brief Method .ctor addr 0x2412c78 size 0x60 virtual false final false
- void _ctor(::System::Collections::SortedList sortedList, int32_t index, int32_t count, int32_t getObjRetType) ;
+ void _ctor(System::Collections::SortedList sortedList, int32_t index, int32_t count, int32_t getObjRetType) ;
 
 /// @brief Method Clone addr 0x2414504 size 0x8 virtual true final true
  ::bs_hook::Il2CppWrapperType Clone() ;
@@ -584,7 +583,7 @@ explicit ____System__Collections__SortedList__SortedListEnumerator(::System::Col
  bool MoveNext() ;
 
 /// @brief Method get_Entry addr 0x241469c size 0xa8 virtual true final false
- ::System::Collections::DictionaryEntry get_Entry() ;
+ System::Collections::DictionaryEntry get_Entry() ;
 
 /// @brief Method get_Current addr 0x2414744 size 0xd4 virtual true final false
  ::bs_hook::Il2CppWrapperType get_Current() ;
@@ -605,56 +604,56 @@ namespace System::Collections {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3765))
 // CS Name: System.Collections.SortedList::KeyList
-class CORDL_TYPE ____System__Collections__SortedList__KeyList : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Collections__SortedList__KeyList : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::IList
-constexpr operator  ::System::Collections::IList() const noexcept;
+/// @brief Convert operator to System::Collections::IList
+constexpr operator  System::Collections::IList() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::ICollection
-constexpr operator  ::System::Collections::ICollection() const noexcept;
+/// @brief Convert operator to System::Collections::ICollection
+constexpr operator  System::Collections::ICollection() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____System__Collections__SortedList__KeyList() = default;
+virtual ~System__Collections__SortedList__KeyList() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__SortedList__KeyList", modifiers: " const&", def_value: None }]
-constexpr ____System__Collections__SortedList__KeyList(____System__Collections__SortedList__KeyList const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__SortedList__KeyList", modifiers: " const&", def_value: None }]
+constexpr System__Collections__SortedList__KeyList(System__Collections__SortedList__KeyList const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__SortedList__KeyList", modifiers: "&&", def_value: None }]
-constexpr ____System__Collections__SortedList__KeyList(____System__Collections__SortedList__KeyList&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__SortedList__KeyList", modifiers: "&&", def_value: None }]
+constexpr System__Collections__SortedList__KeyList(System__Collections__SortedList__KeyList&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Collections__SortedList__KeyList(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Collections__SortedList__KeyList(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Collections__SortedList__KeyList& operator=(std::nullptr_t) noexcept {
+  constexpr System__Collections__SortedList__KeyList& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Collections__SortedList__KeyList& operator=(void* o) noexcept {
+  constexpr System__Collections__SortedList__KeyList& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Collections__SortedList__KeyList& operator=(____System__Collections__SortedList__KeyList&& o) noexcept = default;
-  constexpr ____System__Collections__SortedList__KeyList& operator=(____System__Collections__SortedList__KeyList const& o) noexcept = default;
+  constexpr System__Collections__SortedList__KeyList& operator=(System__Collections__SortedList__KeyList&& o) noexcept = default;
+  constexpr System__Collections__SortedList__KeyList& operator=(System__Collections__SortedList__KeyList const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Collections::SortedList __declspec(property(get=__get_sortedList, put=__set_sortedList))  sortedList;
+ System::Collections::SortedList __declspec(property(get=__get_sortedList, put=__set_sortedList))  sortedList;
 
-constexpr void __set_sortedList(::System::Collections::SortedList value) ;
+constexpr void __set_sortedList(System::Collections::SortedList value) ;
 
-constexpr ::System::Collections::SortedList __get_sortedList() const;
+constexpr System::Collections::SortedList __get_sortedList() const;
 
 
 // Properties
@@ -674,11 +673,11 @@ constexpr ::System::Collections::SortedList __get_sortedList() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "sortedList", ty: "::System::Collections::SortedList", modifiers: "", def_value: None }]
-explicit ____System__Collections__SortedList__KeyList(::System::Collections::SortedList sortedList) ;
+// Ctor Parameters [CppParam { name: "sortedList", ty: "System::Collections::SortedList", modifiers: "", def_value: None }]
+explicit System__Collections__SortedList__KeyList(System::Collections::SortedList sortedList) ;
 
 /// @brief Method .ctor addr 0x2412e74 size 0x28 virtual false final false
- void _ctor(::System::Collections::SortedList sortedList) ;
+ void _ctor(System::Collections::SortedList sortedList) ;
 
 /// @brief Method get_Count addr 0x2414940 size 0x1c virtual true final false
  int32_t get_Count() ;
@@ -705,7 +704,7 @@ explicit ____System__Collections__SortedList__KeyList(::System::Collections::Sor
  bool Contains(::bs_hook::Il2CppWrapperType key) ;
 
 /// @brief Method CopyTo addr 0x2414a78 size 0xd0 virtual true final false
- void CopyTo(::System::Array array, int32_t arrayIndex) ;
+ void CopyTo(System::Array array, int32_t arrayIndex) ;
 
 /// @brief Method Insert addr 0x2414b48 size 0x50 virtual true final false
  void Insert(int32_t index, ::bs_hook::Il2CppWrapperType value) ;
@@ -717,7 +716,7 @@ explicit ____System__Collections__SortedList__KeyList(::System::Collections::Sor
  void set_Item(int32_t index, ::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method GetEnumerator addr 0x2414c0c size 0x90 virtual true final false
- ::System::Collections::IEnumerator GetEnumerator() ;
+ System::Collections::IEnumerator GetEnumerator() ;
 
 /// @brief Method IndexOf addr 0x2414c9c size 0xcc virtual true final false
  int32_t IndexOf(::bs_hook::Il2CppWrapperType key) ;
@@ -738,56 +737,56 @@ namespace System::Collections {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3766))
 // CS Name: System.Collections.SortedList::ValueList
-class CORDL_TYPE ____System__Collections__SortedList__ValueList : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Collections__SortedList__ValueList : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::IList
-constexpr operator  ::System::Collections::IList() const noexcept;
+/// @brief Convert operator to System::Collections::IList
+constexpr operator  System::Collections::IList() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::ICollection
-constexpr operator  ::System::Collections::ICollection() const noexcept;
+/// @brief Convert operator to System::Collections::ICollection
+constexpr operator  System::Collections::ICollection() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____System__Collections__SortedList__ValueList() = default;
+virtual ~System__Collections__SortedList__ValueList() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__SortedList__ValueList", modifiers: " const&", def_value: None }]
-constexpr ____System__Collections__SortedList__ValueList(____System__Collections__SortedList__ValueList const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__SortedList__ValueList", modifiers: " const&", def_value: None }]
+constexpr System__Collections__SortedList__ValueList(System__Collections__SortedList__ValueList const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__SortedList__ValueList", modifiers: "&&", def_value: None }]
-constexpr ____System__Collections__SortedList__ValueList(____System__Collections__SortedList__ValueList&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__SortedList__ValueList", modifiers: "&&", def_value: None }]
+constexpr System__Collections__SortedList__ValueList(System__Collections__SortedList__ValueList&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Collections__SortedList__ValueList(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Collections__SortedList__ValueList(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Collections__SortedList__ValueList& operator=(std::nullptr_t) noexcept {
+  constexpr System__Collections__SortedList__ValueList& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Collections__SortedList__ValueList& operator=(void* o) noexcept {
+  constexpr System__Collections__SortedList__ValueList& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Collections__SortedList__ValueList& operator=(____System__Collections__SortedList__ValueList&& o) noexcept = default;
-  constexpr ____System__Collections__SortedList__ValueList& operator=(____System__Collections__SortedList__ValueList const& o) noexcept = default;
+  constexpr System__Collections__SortedList__ValueList& operator=(System__Collections__SortedList__ValueList&& o) noexcept = default;
+  constexpr System__Collections__SortedList__ValueList& operator=(System__Collections__SortedList__ValueList const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Collections::SortedList __declspec(property(get=__get_sortedList, put=__set_sortedList))  sortedList;
+ System::Collections::SortedList __declspec(property(get=__get_sortedList, put=__set_sortedList))  sortedList;
 
-constexpr void __set_sortedList(::System::Collections::SortedList value) ;
+constexpr void __set_sortedList(System::Collections::SortedList value) ;
 
-constexpr ::System::Collections::SortedList __get_sortedList() const;
+constexpr System::Collections::SortedList __get_sortedList() const;
 
 
 // Properties
@@ -807,11 +806,11 @@ constexpr ::System::Collections::SortedList __get_sortedList() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "sortedList", ty: "::System::Collections::SortedList", modifiers: "", def_value: None }]
-explicit ____System__Collections__SortedList__ValueList(::System::Collections::SortedList sortedList) ;
+// Ctor Parameters [CppParam { name: "sortedList", ty: "System::Collections::SortedList", modifiers: "", def_value: None }]
+explicit System__Collections__SortedList__ValueList(System::Collections::SortedList sortedList) ;
 
 /// @brief Method .ctor addr 0x2412f0c size 0x28 virtual false final false
- void _ctor(::System::Collections::SortedList sortedList) ;
+ void _ctor(System::Collections::SortedList sortedList) ;
 
 /// @brief Method get_Count addr 0x2414e08 size 0x1c virtual true final false
  int32_t get_Count() ;
@@ -838,7 +837,7 @@ explicit ____System__Collections__SortedList__ValueList(::System::Collections::S
  bool Contains(::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method CopyTo addr 0x2414f40 size 0xd0 virtual true final false
- void CopyTo(::System::Array array, int32_t arrayIndex) ;
+ void CopyTo(System::Array array, int32_t arrayIndex) ;
 
 /// @brief Method Insert addr 0x2415010 size 0x50 virtual true final false
  void Insert(int32_t index, ::bs_hook::Il2CppWrapperType value) ;
@@ -850,7 +849,7 @@ explicit ____System__Collections__SortedList__ValueList(::System::Collections::S
  void set_Item(int32_t index, ::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method GetEnumerator addr 0x24150d4 size 0x90 virtual true final false
- ::System::Collections::IEnumerator GetEnumerator() ;
+ System::Collections::IEnumerator GetEnumerator() ;
 
 /// @brief Method IndexOf addr 0x2415164 size 0x78 virtual true final false
  int32_t IndexOf(::bs_hook::Il2CppWrapperType value) ;
@@ -871,53 +870,52 @@ namespace System::Collections {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3767))
 // CS Name: System.Collections.SortedList::SortedListDebugView
-class CORDL_TYPE ____System__Collections__SortedList__SortedListDebugView : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Collections__SortedList__SortedListDebugView : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____System__Collections__SortedList__SortedListDebugView() = default;
+virtual ~System__Collections__SortedList__SortedListDebugView() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__SortedList__SortedListDebugView", modifiers: " const&", def_value: None }]
-constexpr ____System__Collections__SortedList__SortedListDebugView(____System__Collections__SortedList__SortedListDebugView const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__SortedList__SortedListDebugView", modifiers: " const&", def_value: None }]
+constexpr System__Collections__SortedList__SortedListDebugView(System__Collections__SortedList__SortedListDebugView const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__SortedList__SortedListDebugView", modifiers: "&&", def_value: None }]
-constexpr ____System__Collections__SortedList__SortedListDebugView(____System__Collections__SortedList__SortedListDebugView&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__SortedList__SortedListDebugView", modifiers: "&&", def_value: None }]
+constexpr System__Collections__SortedList__SortedListDebugView(System__Collections__SortedList__SortedListDebugView&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Collections__SortedList__SortedListDebugView(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Collections__SortedList__SortedListDebugView(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Collections__SortedList__SortedListDebugView& operator=(std::nullptr_t) noexcept {
+  constexpr System__Collections__SortedList__SortedListDebugView& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Collections__SortedList__SortedListDebugView& operator=(void* o) noexcept {
+  constexpr System__Collections__SortedList__SortedListDebugView& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Collections__SortedList__SortedListDebugView& operator=(____System__Collections__SortedList__SortedListDebugView&& o) noexcept = default;
-  constexpr ____System__Collections__SortedList__SortedListDebugView& operator=(____System__Collections__SortedList__SortedListDebugView const& o) noexcept = default;
+  constexpr System__Collections__SortedList__SortedListDebugView& operator=(System__Collections__SortedList__SortedListDebugView&& o) noexcept = default;
+  constexpr System__Collections__SortedList__SortedListDebugView& operator=(System__Collections__SortedList__SortedListDebugView const& o) noexcept = default;
                 
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Collections
-} // end anonymous namespace
-NEED_NO_BOX(::System::Collections::SortedList);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::SortedList, "System.Collections", "SortedList");
-NEED_NO_BOX(::System::Collections::____System__Collections__SortedList__KeyList);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::____System__Collections__SortedList__KeyList, "System.Collections", "SortedList/KeyList");
-NEED_NO_BOX(::System::Collections::____System__Collections__SortedList__SortedListDebugView);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::____System__Collections__SortedList__SortedListDebugView, "System.Collections", "SortedList/SortedListDebugView");
-NEED_NO_BOX(::System::Collections::____System__Collections__SortedList__SortedListEnumerator);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::____System__Collections__SortedList__SortedListEnumerator, "System.Collections", "SortedList/SortedListEnumerator");
-NEED_NO_BOX(::System::Collections::____System__Collections__SortedList__SyncSortedList);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::____System__Collections__SortedList__SyncSortedList, "System.Collections", "SortedList/SyncSortedList");
-NEED_NO_BOX(::System::Collections::____System__Collections__SortedList__ValueList);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::____System__Collections__SortedList__ValueList, "System.Collections", "SortedList/ValueList");
+NEED_NO_BOX(System::Collections::SortedList);
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::SortedList, "System.Collections", "SortedList");
+NEED_NO_BOX(System::Collections::System__Collections__SortedList__KeyList);
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::System__Collections__SortedList__KeyList, "System.Collections", "SortedList/KeyList");
+NEED_NO_BOX(System::Collections::System__Collections__SortedList__SortedListDebugView);
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::System__Collections__SortedList__SortedListDebugView, "System.Collections", "SortedList/SortedListDebugView");
+NEED_NO_BOX(System::Collections::System__Collections__SortedList__SortedListEnumerator);
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::System__Collections__SortedList__SortedListEnumerator, "System.Collections", "SortedList/SortedListEnumerator");
+NEED_NO_BOX(System::Collections::System__Collections__SortedList__SyncSortedList);
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::System__Collections__SortedList__SyncSortedList, "System.Collections", "SortedList/SyncSortedList");
+NEED_NO_BOX(System::Collections::System__Collections__SortedList__ValueList);
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::System__Collections__SortedList__ValueList, "System.Collections", "SortedList/ValueList");

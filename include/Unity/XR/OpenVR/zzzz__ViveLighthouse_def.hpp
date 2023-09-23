@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/zzzz__TrackedDevice_def.hpp"
-namespace {
 // Forward declare root types
 namespace Unity::XR::OpenVR {
 class ViveLighthouse;
@@ -12,7 +11,7 @@ namespace Unity::XR::OpenVR {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6372))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6201))
 // CS Name: Unity.XR.OpenVR.ViveLighthouse
-class CORDL_TYPE ViveLighthouse : public ::UnityEngine::InputSystem::TrackedDevice {
+class CORDL_TYPE ViveLighthouse : public UnityEngine::InputSystem::TrackedDevice {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr ViveLighthouse(ViveLighthouse const& ) noexcept = default;
 constexpr ViveLighthouse(ViveLighthouse&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ViveLighthouse(void* ptr) noexcept : ::UnityEngine::InputSystem::TrackedDevice(ptr) {
+constexpr explicit ViveLighthouse(void* ptr) noexcept : UnityEngine::InputSystem::TrackedDevice(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Unity::XR::OpenVR
-} // end anonymous namespace
-NEED_NO_BOX(::Unity::XR::OpenVR::ViveLighthouse);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::XR::OpenVR::ViveLighthouse, "Unity.XR.OpenVR", "ViveLighthouse");
+NEED_NO_BOX(Unity::XR::OpenVR::ViveLighthouse);
+DEFINE_IL2CPP_ARG_TYPE(Unity::XR::OpenVR::ViveLighthouse, "Unity.XR.OpenVR", "ViveLighthouse");

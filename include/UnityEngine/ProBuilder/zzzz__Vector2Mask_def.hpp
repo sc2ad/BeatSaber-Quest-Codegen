@@ -3,12 +3,11 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -63,11 +62,11 @@ static constexpr uint8_t  X{1u};
 /// @brief Field Y offset 0
 static constexpr uint8_t  Y{2u};
 
-static ::UnityEngine::ProBuilder::Vector2Mask __declspec(property(get=__get_XY, put=__set_XY))  XY;
+static UnityEngine::ProBuilder::Vector2Mask __declspec(property(get=__get_XY, put=__set_XY))  XY;
 
-static void __set_XY(::UnityEngine::ProBuilder::Vector2Mask value) ;
+static void __set_XY(UnityEngine::ProBuilder::Vector2Mask value) ;
 
-static ::UnityEngine::ProBuilder::Vector2Mask __get_XY() ;
+static UnityEngine::ProBuilder::Vector2Mask __get_XY() ;
 
  uint8_t __declspec(property(get=__get_m_Mask, put=__set_m_Mask))  m_Mask;
 
@@ -92,32 +91,31 @@ constexpr uint8_t __get_m_Mask() const;
  float_t get_y() ;
 
 /// @brief Method .ctor addr 0x29eaccc size 0x24 virtual false final false
- void _ctor(::UnityEngine::Vector3 v, float_t epsilon) ;
+ void _ctor(UnityEngine::Vector3 v, float_t epsilon) ;
 
 /// @brief Method .ctor addr 0x29eacf0 size 0x8 virtual false final false
  void _ctor(uint8_t mask) ;
 
 /// @brief Method op_Implicit addr 0x29eacf8 size 0x1c virtual false final false
-static ::UnityEngine::Vector2 op_Implicit___UnityEngine__Vector2(::UnityEngine::ProBuilder::Vector2Mask mask) ;
+static UnityEngine::Vector2 op_Implicit_UnityEngine__Vector2(UnityEngine::ProBuilder::Vector2Mask mask) ;
 
 /// @brief Method op_Implicit addr 0x29ead14 size 0x28 virtual false final false
-static ::UnityEngine::ProBuilder::Vector2Mask op_Implicit___UnityEngine__ProBuilder__Vector2Mask(::UnityEngine::Vector2 v) ;
+static UnityEngine::ProBuilder::Vector2Mask op_Implicit_UnityEngine__ProBuilder__Vector2Mask(UnityEngine::Vector2 v) ;
 
 /// @brief Method op_BitwiseOr addr 0x29ead3c size 0xc virtual false final false
-static ::UnityEngine::ProBuilder::Vector2Mask op_BitwiseOr(::UnityEngine::ProBuilder::Vector2Mask left, ::UnityEngine::ProBuilder::Vector2Mask right) ;
+static UnityEngine::ProBuilder::Vector2Mask op_BitwiseOr(UnityEngine::ProBuilder::Vector2Mask left, UnityEngine::ProBuilder::Vector2Mask right) ;
 
 /// @brief Method op_BitwiseAnd addr 0x29ead48 size 0xc virtual false final false
-static ::UnityEngine::ProBuilder::Vector2Mask op_BitwiseAnd(::UnityEngine::ProBuilder::Vector2Mask left, ::UnityEngine::ProBuilder::Vector2Mask right) ;
+static UnityEngine::ProBuilder::Vector2Mask op_BitwiseAnd(UnityEngine::ProBuilder::Vector2Mask left, UnityEngine::ProBuilder::Vector2Mask right) ;
 
 /// @brief Method op_ExclusiveOr addr 0x29ead54 size 0xc virtual false final false
-static ::UnityEngine::ProBuilder::Vector2Mask op_ExclusiveOr(::UnityEngine::ProBuilder::Vector2Mask left, ::UnityEngine::ProBuilder::Vector2Mask right) ;
+static UnityEngine::ProBuilder::Vector2Mask op_ExclusiveOr(UnityEngine::ProBuilder::Vector2Mask left, UnityEngine::ProBuilder::Vector2Mask right) ;
 
 /// @brief Method op_Multiply addr 0x29ead60 size 0x28 virtual false final false
-static ::UnityEngine::Vector2 op_Multiply(::UnityEngine::ProBuilder::Vector2Mask mask, float_t value) ;
+static UnityEngine::Vector2 op_Multiply(UnityEngine::ProBuilder::Vector2Mask mask, float_t value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Vector2Mask, "UnityEngine.ProBuilder", "Vector2Mask");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Vector2Mask, "UnityEngine.ProBuilder", "Vector2Mask");

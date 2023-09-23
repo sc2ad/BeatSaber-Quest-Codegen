@@ -4,16 +4,15 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine::Rendering {
-struct VertexAttributeFormat;
+namespace System {
+template<typename T>
+class IEquatable_1;
 }
 namespace UnityEngine::Rendering {
 struct VertexAttribute;
 }
-namespace System {
-template<typename T>
-class IEquatable_1;
+namespace UnityEngine::Rendering {
+struct VertexAttributeFormat;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -28,11 +27,11 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE VertexAttributeDescriptor : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::Rendering::VertexAttributeDescriptor>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::Rendering::VertexAttributeDescriptor>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::Rendering::VertexAttributeDescriptor>
+constexpr operator  System::IEquatable_1<UnityEngine::Rendering::VertexAttributeDescriptor>() const;
 
-// Ctor Parameters [CppParam { name: "_attribute_k__BackingField", ty: "::UnityEngine::Rendering::VertexAttribute", modifiers: "", def_value: None }, CppParam { name: "_format_k__BackingField", ty: "::UnityEngine::Rendering::VertexAttributeFormat", modifiers: "", def_value: None }, CppParam { name: "_dimension_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_stream_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr VertexAttributeDescriptor(::UnityEngine::Rendering::VertexAttribute _attribute_k__BackingField, ::UnityEngine::Rendering::VertexAttributeFormat _format_k__BackingField, int32_t _dimension_k__BackingField, int32_t _stream_k__BackingField) noexcept;
+// Ctor Parameters [CppParam { name: "_attribute_k__BackingField", ty: "UnityEngine::Rendering::VertexAttribute", modifiers: "", def_value: None }, CppParam { name: "_format_k__BackingField", ty: "UnityEngine::Rendering::VertexAttributeFormat", modifiers: "", def_value: None }, CppParam { name: "_dimension_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_stream_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr VertexAttributeDescriptor(UnityEngine::Rendering::VertexAttribute _attribute_k__BackingField, UnityEngine::Rendering::VertexAttributeFormat _format_k__BackingField, int32_t _dimension_k__BackingField, int32_t _stream_k__BackingField) noexcept;
 
 
                     constexpr VertexAttributeDescriptor(VertexAttributeDescriptor const&) = default;
@@ -65,17 +64,17 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Rendering::VertexAttribute __declspec(property(get=__get__attribute_k__BackingField, put=__set__attribute_k__BackingField))  _attribute_k__BackingField;
+ UnityEngine::Rendering::VertexAttribute __declspec(property(get=__get__attribute_k__BackingField, put=__set__attribute_k__BackingField))  _attribute_k__BackingField;
 
-constexpr void __set__attribute_k__BackingField(::UnityEngine::Rendering::VertexAttribute value) ;
+constexpr void __set__attribute_k__BackingField(UnityEngine::Rendering::VertexAttribute value) ;
 
-constexpr ::UnityEngine::Rendering::VertexAttribute __get__attribute_k__BackingField() const;
+constexpr UnityEngine::Rendering::VertexAttribute __get__attribute_k__BackingField() const;
 
- ::UnityEngine::Rendering::VertexAttributeFormat __declspec(property(get=__get__format_k__BackingField, put=__set__format_k__BackingField))  _format_k__BackingField;
+ UnityEngine::Rendering::VertexAttributeFormat __declspec(property(get=__get__format_k__BackingField, put=__set__format_k__BackingField))  _format_k__BackingField;
 
-constexpr void __set__format_k__BackingField(::UnityEngine::Rendering::VertexAttributeFormat value) ;
+constexpr void __set__format_k__BackingField(UnityEngine::Rendering::VertexAttributeFormat value) ;
 
-constexpr ::UnityEngine::Rendering::VertexAttributeFormat __get__format_k__BackingField() const;
+constexpr UnityEngine::Rendering::VertexAttributeFormat __get__format_k__BackingField() const;
 
  int32_t __declspec(property(get=__get__dimension_k__BackingField, put=__set__dimension_k__BackingField))  _dimension_k__BackingField;
 
@@ -92,9 +91,9 @@ constexpr int32_t __get__stream_k__BackingField() const;
 
 // Properties
 
- ::UnityEngine::Rendering::VertexAttribute __declspec(property(get=get_attribute, put=set_attribute))  attribute;
+ UnityEngine::Rendering::VertexAttribute __declspec(property(get=get_attribute, put=set_attribute))  attribute;
 
- ::UnityEngine::Rendering::VertexAttributeFormat __declspec(property(get=get_format, put=set_format))  format;
+ UnityEngine::Rendering::VertexAttributeFormat __declspec(property(get=get_format, put=set_format))  format;
 
  int32_t __declspec(property(get=get_dimension, put=set_dimension))  dimension;
 
@@ -104,16 +103,16 @@ constexpr int32_t __get__stream_k__BackingField() const;
 // Methods
 
 /// @brief Method get_attribute addr 0x2b73d90 size 0x8 virtual false final false
- ::UnityEngine::Rendering::VertexAttribute get_attribute() ;
+ UnityEngine::Rendering::VertexAttribute get_attribute() ;
 
 /// @brief Method set_attribute addr 0x2b73d98 size 0x8 virtual false final false
- void set_attribute(::UnityEngine::Rendering::VertexAttribute value) ;
+ void set_attribute(UnityEngine::Rendering::VertexAttribute value) ;
 
 /// @brief Method get_format addr 0x2b73da0 size 0x8 virtual false final false
- ::UnityEngine::Rendering::VertexAttributeFormat get_format() ;
+ UnityEngine::Rendering::VertexAttributeFormat get_format() ;
 
 /// @brief Method set_format addr 0x2b73da8 size 0x8 virtual false final false
- void set_format(::UnityEngine::Rendering::VertexAttributeFormat value) ;
+ void set_format(UnityEngine::Rendering::VertexAttributeFormat value) ;
 
 /// @brief Method get_dimension addr 0x2b73db0 size 0x8 virtual false final false
  int32_t get_dimension() ;
@@ -128,7 +127,7 @@ constexpr int32_t __get__stream_k__BackingField() const;
  void set_stream(int32_t value) ;
 
 /// @brief Method .ctor addr 0x2b73dd0 size 0xc virtual false final false
- void _ctor(::UnityEngine::Rendering::VertexAttribute attribute, ::UnityEngine::Rendering::VertexAttributeFormat format, int32_t dimension, int32_t stream) ;
+ void _ctor(UnityEngine::Rendering::VertexAttribute attribute, UnityEngine::Rendering::VertexAttributeFormat format, int32_t dimension, int32_t stream) ;
 
 /// @brief Method ToString addr 0x2b73ddc size 0x1d4 virtual true final false
  ::StringW ToString() ;
@@ -140,11 +139,10 @@ constexpr int32_t __get__stream_k__BackingField() const;
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
 
 /// @brief Method Equals addr 0x2b74080 size 0x44 virtual true final true
- bool Equals(::UnityEngine::Rendering::VertexAttributeDescriptor other) ;
+ bool Equals(UnityEngine::Rendering::VertexAttributeDescriptor other) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Rendering
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::VertexAttributeDescriptor, "UnityEngine.Rendering", "VertexAttributeDescriptor");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::VertexAttributeDescriptor, "UnityEngine.Rendering", "VertexAttributeDescriptor");

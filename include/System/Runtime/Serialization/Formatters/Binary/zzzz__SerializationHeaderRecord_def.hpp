@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryParser;
-}
 namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryWriter;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class __BinaryParser;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 struct BinaryHeaderEnum;
@@ -71,11 +70,11 @@ constexpr void __set_binaryFormatterMinorVersion(int32_t value) ;
 
 constexpr int32_t __get_binaryFormatterMinorVersion() const;
 
- ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum __declspec(property(get=__get_binaryHeaderEnum, put=__set_binaryHeaderEnum))  binaryHeaderEnum;
+ System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum __declspec(property(get=__get_binaryHeaderEnum, put=__set_binaryHeaderEnum))  binaryHeaderEnum;
 
-constexpr void __set_binaryHeaderEnum(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum value) ;
+constexpr void __set_binaryHeaderEnum(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum value) ;
 
-constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum __get_binaryHeaderEnum() const;
+constexpr System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum __get_binaryHeaderEnum() const;
 
  int32_t __declspec(property(get=__get_topId, put=__set_topId))  topId;
 
@@ -110,20 +109,20 @@ explicit SerializationHeaderRecord() ;
 /// @brief Method .ctor addr 0x2355898 size 0x10 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "binaryHeaderEnum", ty: "::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum", modifiers: "", def_value: None }, CppParam { name: "topId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "headerId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "majorVersion", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "minorVersion", ty: "int32_t", modifiers: "", def_value: None }]
-explicit SerializationHeaderRecord(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum, int32_t topId, int32_t headerId, int32_t majorVersion, int32_t minorVersion) ;
+// Ctor Parameters [CppParam { name: "binaryHeaderEnum", ty: "System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum", modifiers: "", def_value: None }, CppParam { name: "topId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "headerId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "majorVersion", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "minorVersion", ty: "int32_t", modifiers: "", def_value: None }]
+explicit SerializationHeaderRecord(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum, int32_t topId, int32_t headerId, int32_t majorVersion, int32_t minorVersion) ;
 
 /// @brief Method .ctor addr 0x23558a8 size 0x58 virtual false final false
- void _ctor(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum, int32_t topId, int32_t headerId, int32_t majorVersion, int32_t minorVersion) ;
+ void _ctor(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum, int32_t topId, int32_t headerId, int32_t majorVersion, int32_t minorVersion) ;
 
 /// @brief Method Write addr 0x2355900 size 0xb0 virtual true final true
- void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter sout) ;
+ void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter sout) ;
 
 /// @brief Method GetInt32 addr 0x23559b0 size 0x74 virtual false final false
 static int32_t GetInt32(::ArrayW<uint8_t> buffer, int32_t index) ;
 
 /// @brief Method Read addr 0x2355a24 size 0x164 virtual true final true
- void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser input) ;
+ void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser input) ;
 
 /// @brief Method Dump addr 0x2355b88 size 0x4 virtual false final false
  void Dump() ;
@@ -132,6 +131,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization::Formatters::Binary
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord, "System.Runtime.Serialization.Formatters.Binary", "SerializationHeaderRecord");
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord, "System.Runtime.Serialization.Formatters.Binary", "SerializationHeaderRecord");

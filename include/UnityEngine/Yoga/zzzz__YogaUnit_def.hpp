@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Yoga {
 struct YogaUnit;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Undefined offset 0
-static ::UnityEngine::Yoga::YogaUnit const Undefined;
+static UnityEngine::Yoga::YogaUnit const Undefined;
 
 /// @brief Field Point offset 0
-static ::UnityEngine::Yoga::YogaUnit const Point;
+static UnityEngine::Yoga::YogaUnit const Point;
 
 /// @brief Field Percent offset 0
-static ::UnityEngine::Yoga::YogaUnit const Percent;
+static UnityEngine::Yoga::YogaUnit const Percent;
 
 /// @brief Field Auto offset 0
-static ::UnityEngine::Yoga::YogaUnit const Auto;
+static UnityEngine::Yoga::YogaUnit const Auto;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Yoga
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Yoga::YogaUnit, "UnityEngine.Yoga", "YogaUnit");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Yoga::YogaUnit, "UnityEngine.Yoga", "YogaUnit");

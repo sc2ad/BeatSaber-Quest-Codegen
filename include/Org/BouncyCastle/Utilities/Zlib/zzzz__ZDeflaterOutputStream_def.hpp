@@ -3,15 +3,14 @@
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
+namespace System::IO {
+class Stream;
+}
 namespace Org::BouncyCastle::Utilities::Zlib {
 class ZStream;
 }
 namespace System::IO {
 struct SeekOrigin;
-}
-namespace System::IO {
-class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Zlib {
@@ -23,7 +22,7 @@ namespace Org::BouncyCastle::Utilities::Zlib {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3604))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1827))
 // CS Name: Org.BouncyCastle.Utilities.Zlib.ZDeflaterOutputStream
-class CORDL_TYPE ZDeflaterOutputStream : public ::System::IO::Stream {
+class CORDL_TYPE ZDeflaterOutputStream : public System::IO::Stream {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr ZDeflaterOutputStream(ZDeflaterOutputStream const& ) noexcept = defaul
 constexpr ZDeflaterOutputStream(ZDeflaterOutputStream&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ZDeflaterOutputStream(void* ptr) noexcept : ::System::IO::Stream(ptr) {
+constexpr explicit ZDeflaterOutputStream(void* ptr) noexcept : System::IO::Stream(ptr) {
 }
 
 
@@ -62,11 +61,11 @@ constexpr explicit ZDeflaterOutputStream(void* ptr) noexcept : ::System::IO::Str
 /// @brief Field BUFSIZE offset 0
 static constexpr int32_t  BUFSIZE{4192};
 
- ::Org::BouncyCastle::Utilities::Zlib::ZStream __declspec(property(get=__get_z, put=__set_z))  z;
+ Org::BouncyCastle::Utilities::Zlib::ZStream __declspec(property(get=__get_z, put=__set_z))  z;
 
-constexpr void __set_z(::Org::BouncyCastle::Utilities::Zlib::ZStream value) ;
+constexpr void __set_z(Org::BouncyCastle::Utilities::Zlib::ZStream value) ;
 
-constexpr ::Org::BouncyCastle::Utilities::Zlib::ZStream __get_z() const;
+constexpr Org::BouncyCastle::Utilities::Zlib::ZStream __get_z() const;
 
  int32_t __declspec(property(get=__get_flushLevel, put=__set_flushLevel))  flushLevel;
 
@@ -86,11 +85,11 @@ constexpr void __set_buf1(::ArrayW<uint8_t> value) ;
 
 constexpr ::ArrayW<uint8_t> __get_buf1() const;
 
- ::System::IO::Stream __declspec(property(get=__get_outp, put=__set_outp))  outp;
+ System::IO::Stream __declspec(property(get=__get_outp, put=__set_outp))  outp;
 
-constexpr void __set_outp(::System::IO::Stream value) ;
+constexpr void __set_outp(System::IO::Stream value) ;
 
-constexpr ::System::IO::Stream __get_outp() const;
+constexpr System::IO::Stream __get_outp() const;
 
 
 // Properties
@@ -108,23 +107,23 @@ constexpr ::System::IO::Stream __get_outp() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "outp", ty: "::System::IO::Stream", modifiers: "", def_value: None }]
-explicit ZDeflaterOutputStream(::System::IO::Stream outp) ;
+// Ctor Parameters [CppParam { name: "outp", ty: "System::IO::Stream", modifiers: "", def_value: None }]
+explicit ZDeflaterOutputStream(System::IO::Stream outp) ;
 
 /// @brief Method .ctor addr 0x10de51c size 0xc virtual false final false
- void _ctor(::System::IO::Stream outp) ;
+ void _ctor(System::IO::Stream outp) ;
 
-// Ctor Parameters [CppParam { name: "outp", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "level", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ZDeflaterOutputStream(::System::IO::Stream outp, int32_t level) ;
+// Ctor Parameters [CppParam { name: "outp", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "level", ty: "int32_t", modifiers: "", def_value: None }]
+explicit ZDeflaterOutputStream(System::IO::Stream outp, int32_t level) ;
 
 /// @brief Method .ctor addr 0x10de620 size 0x8 virtual false final false
- void _ctor(::System::IO::Stream outp, int32_t level) ;
+ void _ctor(System::IO::Stream outp, int32_t level) ;
 
-// Ctor Parameters [CppParam { name: "outp", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "level", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nowrap", ty: "bool", modifiers: "", def_value: None }]
-explicit ZDeflaterOutputStream(::System::IO::Stream outp, int32_t level, bool nowrap) ;
+// Ctor Parameters [CppParam { name: "outp", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "level", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nowrap", ty: "bool", modifiers: "", def_value: None }]
+explicit ZDeflaterOutputStream(System::IO::Stream outp, int32_t level, bool nowrap) ;
 
 /// @brief Method .ctor addr 0x10de528 size 0xf8 virtual false final false
- void _ctor(::System::IO::Stream outp, int32_t level, bool nowrap) ;
+ void _ctor(System::IO::Stream outp, int32_t level, bool nowrap) ;
 
 /// @brief Method get_CanRead addr 0x10de69c size 0x8 virtual true final false
  bool get_CanRead() ;
@@ -148,7 +147,7 @@ explicit ZDeflaterOutputStream(::System::IO::Stream outp, int32_t level, bool no
  void Write(::ArrayW<uint8_t> b, int32_t off, int32_t len) ;
 
 /// @brief Method Seek addr 0x10de824 size 0x8 virtual true final false
- int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin) ;
+ int64_t Seek(int64_t offset, System::IO::SeekOrigin origin) ;
 
 /// @brief Method SetLength addr 0x10de82c size 0x4 virtual true final false
  void SetLength(int64_t value) ;
@@ -175,6 +174,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities::Zlib
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream, "Org.BouncyCastle.Utilities.Zlib", "ZDeflaterOutputStream");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream, "Org.BouncyCastle.Utilities.Zlib", "ZDeflaterOutputStream");

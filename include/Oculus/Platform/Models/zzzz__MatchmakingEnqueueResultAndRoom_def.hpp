@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
 class Room;
 }
@@ -55,17 +54,17 @@ constexpr explicit MatchmakingEnqueueResultAndRoom(void* ptr) noexcept : ::bs_ho
 
 // Fields
 
- ::Oculus::Platform::Models::MatchmakingEnqueueResult __declspec(property(get=__get_MatchmakingEnqueueResult, put=__set_MatchmakingEnqueueResult))  MatchmakingEnqueueResult;
+ Oculus::Platform::Models::MatchmakingEnqueueResult __declspec(property(get=__get_MatchmakingEnqueueResult, put=__set_MatchmakingEnqueueResult))  MatchmakingEnqueueResult;
 
-constexpr void __set_MatchmakingEnqueueResult(::Oculus::Platform::Models::MatchmakingEnqueueResult value) ;
+constexpr void __set_MatchmakingEnqueueResult(Oculus::Platform::Models::MatchmakingEnqueueResult value) ;
 
-constexpr ::Oculus::Platform::Models::MatchmakingEnqueueResult __get_MatchmakingEnqueueResult() const;
+constexpr Oculus::Platform::Models::MatchmakingEnqueueResult __get_MatchmakingEnqueueResult() const;
 
- ::Oculus::Platform::Models::Room __declspec(property(get=__get_Room, put=__set_Room))  Room;
+ Oculus::Platform::Models::Room __declspec(property(get=__get_Room, put=__set_Room))  Room;
 
-constexpr void __set_Room(::Oculus::Platform::Models::Room value) ;
+constexpr void __set_Room(Oculus::Platform::Models::Room value) ;
 
-constexpr ::Oculus::Platform::Models::Room __get_Room() const;
+constexpr Oculus::Platform::Models::Room __get_Room() const;
 
 
 // Methods
@@ -80,6 +79,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom, "Oculus.Platform.Models", "MatchmakingEnqueueResultAndRoom");
+NEED_NO_BOX(Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom, "Oculus.Platform.Models", "MatchmakingEnqueueResultAndRoom");

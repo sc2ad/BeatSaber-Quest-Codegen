@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__ArgumentException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System {
@@ -19,7 +18,7 @@ namespace System {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2344))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2345))
 // CS Name: System.ArgumentNullException
-class CORDL_TYPE ArgumentNullException : public ::System::ArgumentException {
+class CORDL_TYPE ArgumentNullException : public System::ArgumentException {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr ArgumentNullException(ArgumentNullException const& ) noexcept = defaul
 constexpr ArgumentNullException(ArgumentNullException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ArgumentNullException(void* ptr) noexcept : ::System::ArgumentException(ptr) {
+constexpr explicit ArgumentNullException(void* ptr) noexcept : System::ArgumentException(ptr) {
 }
 
 
@@ -73,16 +72,15 @@ explicit ArgumentNullException(::StringW paramName, ::StringW message) ;
 /// @brief Method .ctor addr 0x23b41cc size 0x38 virtual false final false
  void _ctor(::StringW paramName, ::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit ArgumentNullException(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit ArgumentNullException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x23b4204 size 0x4 virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::ArgumentNullException);
-DEFINE_IL2CPP_ARG_TYPE(::System::ArgumentNullException, "System", "ArgumentNullException");
+NEED_NO_BOX(System::ArgumentNullException);
+DEFINE_IL2CPP_ARG_TYPE(System::ArgumentNullException, "System", "ArgumentNullException");

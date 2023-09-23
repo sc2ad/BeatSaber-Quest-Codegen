@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
-namespace {
 namespace System {
 class Action;
 }
@@ -15,7 +14,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10142))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10035))
 // CS Name: UnityEngine.LightProbes
-class CORDL_TYPE LightProbes : public ::UnityEngine::Object {
+class CORDL_TYPE LightProbes : public UnityEngine::Object {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr LightProbes(LightProbes const& ) noexcept = default;
 constexpr LightProbes(LightProbes&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LightProbes(void* ptr) noexcept : ::UnityEngine::Object(ptr) {
+constexpr explicit LightProbes(void* ptr) noexcept : UnityEngine::Object(ptr) {
 }
 
 
@@ -51,17 +50,17 @@ constexpr explicit LightProbes(void* ptr) noexcept : ::UnityEngine::Object(ptr) 
 
 // Fields
 
-static ::System::Action __declspec(property(get=__get_tetrahedralizationCompleted, put=__set_tetrahedralizationCompleted))  tetrahedralizationCompleted;
+static System::Action __declspec(property(get=__get_tetrahedralizationCompleted, put=__set_tetrahedralizationCompleted))  tetrahedralizationCompleted;
 
-static void __set_tetrahedralizationCompleted(::System::Action value) ;
+static void __set_tetrahedralizationCompleted(System::Action value) ;
 
-static ::System::Action __get_tetrahedralizationCompleted() ;
+static System::Action __get_tetrahedralizationCompleted() ;
 
-static ::System::Action __declspec(property(get=__get_needsRetetrahedralization, put=__set_needsRetetrahedralization))  needsRetetrahedralization;
+static System::Action __declspec(property(get=__get_needsRetetrahedralization, put=__set_needsRetetrahedralization))  needsRetetrahedralization;
 
-static void __set_needsRetetrahedralization(::System::Action value) ;
+static void __set_needsRetetrahedralization(System::Action value) ;
 
-static ::System::Action __get_needsRetetrahedralization() ;
+static System::Action __get_needsRetetrahedralization() ;
 
 
 // Methods
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::LightProbes);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::LightProbes, "UnityEngine", "LightProbes");
+NEED_NO_BOX(UnityEngine::LightProbes);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LightProbes, "UnityEngine", "LightProbes");

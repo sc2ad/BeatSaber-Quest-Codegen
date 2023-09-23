@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
@@ -26,8 +25,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE GameLiftClientConnectionRequestHandler : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IConnectionRequestHandler
-constexpr operator  ::GlobalNamespace::IConnectionRequestHandler() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IConnectionRequestHandler
+constexpr operator  GlobalNamespace::IConnectionRequestHandler() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -83,10 +82,10 @@ constexpr ::StringW __get__playerSessionId_k__BackingField() const;
  void set_playerSessionId(::StringW value) ;
 
 /// @brief Method GetConnectionMessage addr 0xda9c84 size 0x70 virtual true final true
- void GetConnectionMessage(::LiteNetLib::Utils::NetDataWriter writer, ::StringW userId, ::StringW userName, bool isConnectionOwner) ;
+ void GetConnectionMessage(LiteNetLib::Utils::NetDataWriter writer, ::StringW userId, ::StringW userName, bool isConnectionOwner) ;
 
 /// @brief Method ValidateConnectionMessage addr 0xda9cf4 size 0x14 virtual true final true
- bool ValidateConnectionMessage(::LiteNetLib::Utils::NetDataReader reader, ByRef<::StringW> userId, ByRef<::StringW> userName, ByRef<bool> isConnectionOwner) ;
+ bool ValidateConnectionMessage(LiteNetLib::Utils::NetDataReader reader, ByRef<::StringW> userId, ByRef<::StringW> userName, ByRef<bool> isConnectionOwner) ;
 
 // Ctor Parameters []
 explicit GameLiftClientConnectionRequestHandler() ;
@@ -98,6 +97,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::GameLiftClientConnectionRequestHandler);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameLiftClientConnectionRequestHandler, "", "GameLiftClientConnectionRequestHandler");
+NEED_NO_BOX(GlobalNamespace::GameLiftClientConnectionRequestHandler);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameLiftClientConnectionRequestHandler, "", "GameLiftClientConnectionRequestHandler");

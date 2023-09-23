@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace UnityEngine {
 class Object;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5907))
 // CS Name: AssetObjectListSO
-class CORDL_TYPE AssetObjectListSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE AssetObjectListSO : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr AssetObjectListSO(AssetObjectListSO const& ) noexcept = default;
 constexpr AssetObjectListSO(AssetObjectListSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AssetObjectListSO(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit AssetObjectListSO(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -52,22 +51,22 @@ constexpr explicit AssetObjectListSO(void* ptr) noexcept : ::GlobalNamespace::Pe
 
 // Fields
 
- ::ArrayW<::UnityEngine::Object> __declspec(property(get=__get__objects, put=__set__objects))  _objects;
+ ::ArrayW<UnityEngine::Object> __declspec(property(get=__get__objects, put=__set__objects))  _objects;
 
-constexpr void __set__objects(::ArrayW<::UnityEngine::Object> value) ;
+constexpr void __set__objects(::ArrayW<UnityEngine::Object> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Object> __get__objects() const;
+constexpr ::ArrayW<UnityEngine::Object> __get__objects() const;
 
 
 // Properties
 
- ::ArrayW<::UnityEngine::Object> __declspec(property(get=get_objects))  objects;
+ ::ArrayW<UnityEngine::Object> __declspec(property(get=get_objects))  objects;
 
 
 // Methods
 
 /// @brief Method get_objects addr 0x2190cc0 size 0x8 virtual false final false
- ::ArrayW<::UnityEngine::Object> get_objects() ;
+ ::ArrayW<UnityEngine::Object> get_objects() ;
 
 // Ctor Parameters []
 explicit AssetObjectListSO() ;
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::AssetObjectListSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AssetObjectListSO, "", "AssetObjectListSO");
+NEED_NO_BOX(GlobalNamespace::AssetObjectListSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AssetObjectListSO, "", "AssetObjectListSO");

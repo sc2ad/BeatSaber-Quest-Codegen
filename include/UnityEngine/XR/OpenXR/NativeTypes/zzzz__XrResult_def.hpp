@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::XR::OpenXR::NativeTypes {
 struct XrResult;
@@ -123,182 +122,181 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Success offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const Success;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const Success;
 
 /// @brief Field TimeoutExpored offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const TimeoutExpored;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const TimeoutExpored;
 
 /// @brief Field LossPending offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const LossPending;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const LossPending;
 
 /// @brief Field EventUnavailable offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const EventUnavailable;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const EventUnavailable;
 
 /// @brief Field SpaceBoundsUnavailable offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpaceBoundsUnavailable;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpaceBoundsUnavailable;
 
 /// @brief Field SessionNotFocused offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SessionNotFocused;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const SessionNotFocused;
 
 /// @brief Field FrameDiscarded offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const FrameDiscarded;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const FrameDiscarded;
 
 /// @brief Field ValidationFailure offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const ValidationFailure;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const ValidationFailure;
 
 /// @brief Field RuntimeFailure offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const RuntimeFailure;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const RuntimeFailure;
 
 /// @brief Field OutOfMemory offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const OutOfMemory;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const OutOfMemory;
 
 /// @brief Field ApiVersionUnsupported offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const ApiVersionUnsupported;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const ApiVersionUnsupported;
 
 /// @brief Field InitializationFailed offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const InitializationFailed;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const InitializationFailed;
 
 /// @brief Field FunctionUnsupported offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const FunctionUnsupported;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const FunctionUnsupported;
 
 /// @brief Field FeatureUnsupported offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const FeatureUnsupported;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const FeatureUnsupported;
 
 /// @brief Field ExtensionNotPresent offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const ExtensionNotPresent;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const ExtensionNotPresent;
 
 /// @brief Field LimitReached offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const LimitReached;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const LimitReached;
 
 /// @brief Field SizeInsufficient offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SizeInsufficient;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const SizeInsufficient;
 
 /// @brief Field HandleInvalid offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const HandleInvalid;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const HandleInvalid;
 
 /// @brief Field InstanceLOst offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const InstanceLOst;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const InstanceLOst;
 
 /// @brief Field SessionRunning offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SessionRunning;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const SessionRunning;
 
 /// @brief Field SessionNotRunning offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SessionNotRunning;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const SessionNotRunning;
 
 /// @brief Field SessionLost offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SessionLost;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const SessionLost;
 
 /// @brief Field SystemInvalid offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SystemInvalid;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const SystemInvalid;
 
 /// @brief Field PathInvalid offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const PathInvalid;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const PathInvalid;
 
 /// @brief Field PathCountExceeded offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const PathCountExceeded;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const PathCountExceeded;
 
 /// @brief Field PathFormatInvalid offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const PathFormatInvalid;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const PathFormatInvalid;
 
 /// @brief Field PathUnsupported offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const PathUnsupported;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const PathUnsupported;
 
 /// @brief Field LayerInvalid offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const LayerInvalid;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const LayerInvalid;
 
 /// @brief Field LayerLimitExceeded offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const LayerLimitExceeded;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const LayerLimitExceeded;
 
 /// @brief Field SpwachainRectInvalid offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpwachainRectInvalid;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpwachainRectInvalid;
 
 /// @brief Field SwapchainFormatUnsupported offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SwapchainFormatUnsupported;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const SwapchainFormatUnsupported;
 
 /// @brief Field ActionTypeMismatch offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const ActionTypeMismatch;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const ActionTypeMismatch;
 
 /// @brief Field SessionNotReady offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SessionNotReady;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const SessionNotReady;
 
 /// @brief Field SessionNotStopping offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SessionNotStopping;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const SessionNotStopping;
 
 /// @brief Field TimeInvalid offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const TimeInvalid;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const TimeInvalid;
 
 /// @brief Field ReferenceSpaceUnsupported offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const ReferenceSpaceUnsupported;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const ReferenceSpaceUnsupported;
 
 /// @brief Field FileAccessError offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const FileAccessError;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const FileAccessError;
 
 /// @brief Field FileContentsInvalid offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const FileContentsInvalid;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const FileContentsInvalid;
 
 /// @brief Field FormFactorUnsupported offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const FormFactorUnsupported;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const FormFactorUnsupported;
 
 /// @brief Field FormFactorUnavailable offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const FormFactorUnavailable;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const FormFactorUnavailable;
 
 /// @brief Field ApiLayerNotPresent offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const ApiLayerNotPresent;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const ApiLayerNotPresent;
 
 /// @brief Field CallOrderInvalid offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const CallOrderInvalid;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const CallOrderInvalid;
 
 /// @brief Field GraphicsDeviceInvalid offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const GraphicsDeviceInvalid;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const GraphicsDeviceInvalid;
 
 /// @brief Field PoseInvalid offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const PoseInvalid;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const PoseInvalid;
 
 /// @brief Field IndexOutOfRange offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const IndexOutOfRange;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const IndexOutOfRange;
 
 /// @brief Field ViewConfigurationTypeUnsupported offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const ViewConfigurationTypeUnsupported;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const ViewConfigurationTypeUnsupported;
 
 /// @brief Field EnvironmentBlendModeUnsupported offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const EnvironmentBlendModeUnsupported;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const EnvironmentBlendModeUnsupported;
 
 /// @brief Field NameDuplicated offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const NameDuplicated;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const NameDuplicated;
 
 /// @brief Field NameInvalid offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const NameInvalid;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const NameInvalid;
 
 /// @brief Field ActionsetNotAttached offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const ActionsetNotAttached;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const ActionsetNotAttached;
 
 /// @brief Field ActionsetsAlreadyAttached offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const ActionsetsAlreadyAttached;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const ActionsetsAlreadyAttached;
 
 /// @brief Field LocalizedNameDuplicated offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const LocalizedNameDuplicated;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const LocalizedNameDuplicated;
 
 /// @brief Field LocalizedNameInvalid offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const LocalizedNameInvalid;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const LocalizedNameInvalid;
 
 /// @brief Field AndroidThreadSettingsIdInvalidKHR offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const AndroidThreadSettingsIdInvalidKHR;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const AndroidThreadSettingsIdInvalidKHR;
 
 /// @brief Field AndroidThreadSettingsdFailureKHR offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const AndroidThreadSettingsdFailureKHR;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const AndroidThreadSettingsdFailureKHR;
 
 /// @brief Field CreateSpatialAnchorFailedMSFT offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const CreateSpatialAnchorFailedMSFT;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const CreateSpatialAnchorFailedMSFT;
 
 /// @brief Field SecondaryViewConfigurationTypeNotEnabledMSFT offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SecondaryViewConfigurationTypeNotEnabledMSFT;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const SecondaryViewConfigurationTypeNotEnabledMSFT;
 
 /// @brief Field MaxResult offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const MaxResult;
+static UnityEngine::XR::OpenXR::NativeTypes::XrResult const MaxResult;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR::OpenXR::NativeTypes
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::NativeTypes::XrResult, "UnityEngine.XR.OpenXR.NativeTypes", "XrResult");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::OpenXR::NativeTypes::XrResult, "UnityEngine.XR.OpenXR.NativeTypes", "XrResult");

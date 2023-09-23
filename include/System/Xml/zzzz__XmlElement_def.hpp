@@ -2,27 +2,26 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/zzzz__XmlLinkedNode_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Xml {
-class XmlName;
+class XmlAttribute;
 }
 namespace System::Xml {
 class XmlAttributeCollection;
 }
 namespace System::Xml {
+class XmlName;
+}
+namespace System::Xml {
 class XmlLinkedNode;
 }
 namespace System::Xml {
-class XmlAttribute;
+struct XmlNodeType;
 }
 namespace System::Xml {
 class XmlNode;
 }
 namespace System::Xml {
 class XmlDocument;
-}
-namespace System::Xml {
-struct XmlNodeType;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -34,7 +33,7 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11455))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11450))
 // CS Name: System.Xml.XmlElement
-class CORDL_TYPE XmlElement : public ::System::Xml::XmlLinkedNode {
+class CORDL_TYPE XmlElement : public System::Xml::XmlLinkedNode {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -49,7 +48,7 @@ constexpr XmlElement(XmlElement const& ) noexcept = default;
 constexpr XmlElement(XmlElement&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XmlElement(void* ptr) noexcept : ::System::Xml::XmlLinkedNode(ptr) {
+constexpr explicit XmlElement(void* ptr) noexcept : System::Xml::XmlLinkedNode(ptr) {
 }
 
 
@@ -70,28 +69,28 @@ constexpr explicit XmlElement(void* ptr) noexcept : ::System::Xml::XmlLinkedNode
 
 // Fields
 
- ::System::Xml::XmlName __declspec(property(get=__get_name, put=__set_name))  name;
+ System::Xml::XmlName __declspec(property(get=__get_name, put=__set_name))  name;
 
-constexpr void __set_name(::System::Xml::XmlName value) ;
+constexpr void __set_name(System::Xml::XmlName value) ;
 
-constexpr ::System::Xml::XmlName __get_name() const;
+constexpr System::Xml::XmlName __get_name() const;
 
- ::System::Xml::XmlAttributeCollection __declspec(property(get=__get_attributes, put=__set_attributes))  attributes;
+ System::Xml::XmlAttributeCollection __declspec(property(get=__get_attributes, put=__set_attributes))  attributes;
 
-constexpr void __set_attributes(::System::Xml::XmlAttributeCollection value) ;
+constexpr void __set_attributes(System::Xml::XmlAttributeCollection value) ;
 
-constexpr ::System::Xml::XmlAttributeCollection __get_attributes() const;
+constexpr System::Xml::XmlAttributeCollection __get_attributes() const;
 
- ::System::Xml::XmlLinkedNode __declspec(property(get=__get_lastChild, put=__set_lastChild))  lastChild;
+ System::Xml::XmlLinkedNode __declspec(property(get=__get_lastChild, put=__set_lastChild))  lastChild;
 
-constexpr void __set_lastChild(::System::Xml::XmlLinkedNode value) ;
+constexpr void __set_lastChild(System::Xml::XmlLinkedNode value) ;
 
-constexpr ::System::Xml::XmlLinkedNode __get_lastChild() const;
+constexpr System::Xml::XmlLinkedNode __get_lastChild() const;
 
 
 // Properties
 
- ::System::Xml::XmlName __declspec(property(get=get_XmlName, put=set_XmlName))  XmlName;
+ System::Xml::XmlName __declspec(property(get=get_XmlName, put=set_XmlName))  XmlName;
 
  ::StringW __declspec(property(get=get_Name))  Name;
 
@@ -101,19 +100,19 @@ constexpr ::System::Xml::XmlLinkedNode __get_lastChild() const;
 
  ::StringW __declspec(property(get=get_Prefix))  Prefix;
 
- ::System::Xml::XmlNodeType __declspec(property(get=get_NodeType))  NodeType;
+ System::Xml::XmlNodeType __declspec(property(get=get_NodeType))  NodeType;
 
- ::System::Xml::XmlNode __declspec(property(get=get_ParentNode))  ParentNode;
+ System::Xml::XmlNode __declspec(property(get=get_ParentNode))  ParentNode;
 
- ::System::Xml::XmlDocument __declspec(property(get=get_OwnerDocument))  OwnerDocument;
+ System::Xml::XmlDocument __declspec(property(get=get_OwnerDocument))  OwnerDocument;
 
  bool __declspec(property(get=get_IsContainer))  IsContainer;
 
  bool __declspec(property(get=get_IsEmpty, put=set_IsEmpty))  IsEmpty;
 
- ::System::Xml::XmlLinkedNode __declspec(property(get=get_LastNode, put=set_LastNode))  LastNode;
+ System::Xml::XmlLinkedNode __declspec(property(get=get_LastNode, put=set_LastNode))  LastNode;
 
- ::System::Xml::XmlAttributeCollection __declspec(property(get=get_Attributes))  Attributes;
+ System::Xml::XmlAttributeCollection __declspec(property(get=get_Attributes))  Attributes;
 
  bool __declspec(property(get=get_HasAttributes))  HasAttributes;
 
@@ -121,31 +120,31 @@ constexpr ::System::Xml::XmlLinkedNode __get_lastChild() const;
 
  ::StringW __declspec(property(get=get_InnerText, put=set_InnerText))  InnerText;
 
- ::System::Xml::XmlNode __declspec(property(get=get_NextSibling))  NextSibling;
+ System::Xml::XmlNode __declspec(property(get=get_NextSibling))  NextSibling;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::System::Xml::XmlName", modifiers: "", def_value: None }, CppParam { name: "empty", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "::System::Xml::XmlDocument", modifiers: "", def_value: None }]
-explicit XmlElement(::System::Xml::XmlName name, bool empty, ::System::Xml::XmlDocument doc) ;
+// Ctor Parameters [CppParam { name: "name", ty: "System::Xml::XmlName", modifiers: "", def_value: None }, CppParam { name: "empty", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
+explicit XmlElement(System::Xml::XmlName name, bool empty, System::Xml::XmlDocument doc) ;
 
 /// @brief Method .ctor addr 0x26f48b4 size 0x120 virtual false final false
- void _ctor(::System::Xml::XmlName name, bool empty, ::System::Xml::XmlDocument doc) ;
+ void _ctor(System::Xml::XmlName name, bool empty, System::Xml::XmlDocument doc) ;
 
-// Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "localName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "namespaceURI", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "::System::Xml::XmlDocument", modifiers: "", def_value: None }]
-explicit XmlElement(::StringW prefix, ::StringW localName, ::StringW namespaceURI, ::System::Xml::XmlDocument doc) ;
+// Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "localName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "namespaceURI", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
+explicit XmlElement(::StringW prefix, ::StringW localName, ::StringW namespaceURI, System::Xml::XmlDocument doc) ;
 
 /// @brief Method .ctor addr 0x26f49d4 size 0x44 virtual false final false
- void _ctor(::StringW prefix, ::StringW localName, ::StringW namespaceURI, ::System::Xml::XmlDocument doc) ;
+ void _ctor(::StringW prefix, ::StringW localName, ::StringW namespaceURI, System::Xml::XmlDocument doc) ;
 
 /// @brief Method get_XmlName addr 0x26f4a18 size 0x8 virtual false final false
- ::System::Xml::XmlName get_XmlName() ;
+ System::Xml::XmlName get_XmlName() ;
 
 /// @brief Method set_XmlName addr 0x26f4a20 size 0x8 virtual false final false
- void set_XmlName(::System::Xml::XmlName value) ;
+ void set_XmlName(System::Xml::XmlName value) ;
 
 /// @brief Method CloneNode addr 0x26f4a28 size 0x58c virtual true final false
- ::System::Xml::XmlNode CloneNode(bool deep) ;
+ System::Xml::XmlNode CloneNode(bool deep) ;
 
 /// @brief Method get_Name addr 0x26f4ffc size 0x18 virtual true final false
  ::StringW get_Name() ;
@@ -160,19 +159,19 @@ explicit XmlElement(::StringW prefix, ::StringW localName, ::StringW namespaceUR
  ::StringW get_Prefix() ;
 
 /// @brief Method get_NodeType addr 0x26f5214 size 0x8 virtual true final false
- ::System::Xml::XmlNodeType get_NodeType() ;
+ System::Xml::XmlNodeType get_NodeType() ;
 
 /// @brief Method get_ParentNode addr 0x26f521c size 0x8 virtual true final false
- ::System::Xml::XmlNode get_ParentNode() ;
+ System::Xml::XmlNode get_ParentNode() ;
 
 /// @brief Method get_OwnerDocument addr 0x26f5224 size 0x1c virtual true final false
- ::System::Xml::XmlDocument get_OwnerDocument() ;
+ System::Xml::XmlDocument get_OwnerDocument() ;
 
 /// @brief Method get_IsContainer addr 0x26f5240 size 0x8 virtual true final false
  bool get_IsContainer() ;
 
 /// @brief Method AppendChildForLoad addr 0x26f5248 size 0x168 virtual true final false
- ::System::Xml::XmlNode AppendChildForLoad(::System::Xml::XmlNode newChild, ::System::Xml::XmlDocument doc) ;
+ System::Xml::XmlNode AppendChildForLoad(System::Xml::XmlNode newChild, System::Xml::XmlDocument doc) ;
 
 /// @brief Method get_IsEmpty addr 0x26f4fb4 size 0x10 virtual false final false
  bool get_IsEmpty() ;
@@ -181,22 +180,22 @@ explicit XmlElement(::StringW prefix, ::StringW localName, ::StringW namespaceUR
  void set_IsEmpty(bool value) ;
 
 /// @brief Method get_LastNode addr 0x26f53cc size 0x10 virtual true final false
- ::System::Xml::XmlLinkedNode get_LastNode() ;
+ System::Xml::XmlLinkedNode get_LastNode() ;
 
 /// @brief Method set_LastNode addr 0x26f53dc size 0x8 virtual true final false
- void set_LastNode(::System::Xml::XmlLinkedNode value) ;
+ void set_LastNode(System::Xml::XmlLinkedNode value) ;
 
 /// @brief Method IsValidChildType addr 0x26f53e4 size 0x24 virtual true final false
- bool IsValidChildType(::System::Xml::XmlNodeType type) ;
+ bool IsValidChildType(System::Xml::XmlNodeType type) ;
 
 /// @brief Method get_Attributes addr 0x26f5408 size 0x144 virtual true final false
- ::System::Xml::XmlAttributeCollection get_Attributes() ;
+ System::Xml::XmlAttributeCollection get_Attributes() ;
 
 /// @brief Method get_HasAttributes addr 0x26f554c size 0x28 virtual true final false
  bool get_HasAttributes() ;
 
 /// @brief Method SetAttributeNode addr 0x26f5574 size 0x118 virtual true final false
- ::System::Xml::XmlAttribute SetAttributeNode(::System::Xml::XmlAttribute newAttr) ;
+ System::Xml::XmlAttribute SetAttributeNode(System::Xml::XmlAttribute newAttr) ;
 
 /// @brief Method RemoveAllAttributes addr 0x26f568c size 0x3c virtual true final false
  void RemoveAllAttributes() ;
@@ -217,15 +216,14 @@ explicit XmlElement(::StringW prefix, ::StringW localName, ::StringW namespaceUR
  void set_InnerText(::StringW value) ;
 
 /// @brief Method get_NextSibling addr 0x26f5a08 size 0x3c virtual true final false
- ::System::Xml::XmlNode get_NextSibling() ;
+ System::Xml::XmlNode get_NextSibling() ;
 
 /// @brief Method SetParent addr 0x26f5a44 size 0x8 virtual true final false
- void SetParent(::System::Xml::XmlNode node) ;
+ void SetParent(System::Xml::XmlNode node) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::XmlElement);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlElement, "System.Xml", "XmlElement");
+NEED_NO_BOX(System::Xml::XmlElement);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlElement, "System.Xml", "XmlElement");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct FFTWindow;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Rectangular offset 0
-static ::UnityEngine::FFTWindow const Rectangular;
+static UnityEngine::FFTWindow const Rectangular;
 
 /// @brief Field Triangle offset 0
-static ::UnityEngine::FFTWindow const Triangle;
+static UnityEngine::FFTWindow const Triangle;
 
 /// @brief Field Hamming offset 0
-static ::UnityEngine::FFTWindow const Hamming;
+static UnityEngine::FFTWindow const Hamming;
 
 /// @brief Field Hanning offset 0
-static ::UnityEngine::FFTWindow const Hanning;
+static UnityEngine::FFTWindow const Hanning;
 
 /// @brief Field Blackman offset 0
-static ::UnityEngine::FFTWindow const Blackman;
+static UnityEngine::FFTWindow const Blackman;
 
 /// @brief Field BlackmanHarris offset 0
-static ::UnityEngine::FFTWindow const BlackmanHarris;
+static UnityEngine::FFTWindow const BlackmanHarris;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::FFTWindow, "UnityEngine", "FFTWindow");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::FFTWindow, "UnityEngine", "FFTWindow");

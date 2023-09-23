@@ -3,24 +3,23 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Net {
-class HttpConnection;
-}
-namespace System::Net {
-class HttpListenerRequest;
+namespace System::Security::Principal {
+class IPrincipal;
 }
 namespace System::Net {
 class HttpListener;
 }
 namespace System::Net {
-class HttpListenerResponse;
-}
-namespace System::Security::Principal {
-class IPrincipal;
+struct AuthenticationSchemes;
 }
 namespace System::Net {
-struct AuthenticationSchemes;
+class HttpListenerRequest;
+}
+namespace System::Net {
+class HttpConnection;
+}
+namespace System::Net {
+class HttpListenerResponse;
 }
 // Forward declare root types
 namespace System::Net {
@@ -68,29 +67,29 @@ constexpr explicit HttpListenerContext(void* ptr) noexcept : ::bs_hook::Il2CppWr
 
 // Fields
 
- ::System::Net::HttpListenerRequest __declspec(property(get=__get_request, put=__set_request))  request;
+ System::Net::HttpListenerRequest __declspec(property(get=__get_request, put=__set_request))  request;
 
-constexpr void __set_request(::System::Net::HttpListenerRequest value) ;
+constexpr void __set_request(System::Net::HttpListenerRequest value) ;
 
-constexpr ::System::Net::HttpListenerRequest __get_request() const;
+constexpr System::Net::HttpListenerRequest __get_request() const;
 
- ::System::Net::HttpListenerResponse __declspec(property(get=__get_response, put=__set_response))  response;
+ System::Net::HttpListenerResponse __declspec(property(get=__get_response, put=__set_response))  response;
 
-constexpr void __set_response(::System::Net::HttpListenerResponse value) ;
+constexpr void __set_response(System::Net::HttpListenerResponse value) ;
 
-constexpr ::System::Net::HttpListenerResponse __get_response() const;
+constexpr System::Net::HttpListenerResponse __get_response() const;
 
- ::System::Security::Principal::IPrincipal __declspec(property(get=__get_user, put=__set_user))  user;
+ System::Security::Principal::IPrincipal __declspec(property(get=__get_user, put=__set_user))  user;
 
-constexpr void __set_user(::System::Security::Principal::IPrincipal value) ;
+constexpr void __set_user(System::Security::Principal::IPrincipal value) ;
 
-constexpr ::System::Security::Principal::IPrincipal __get_user() const;
+constexpr System::Security::Principal::IPrincipal __get_user() const;
 
- ::System::Net::HttpConnection __declspec(property(get=__get_cnc, put=__set_cnc))  cnc;
+ System::Net::HttpConnection __declspec(property(get=__get_cnc, put=__set_cnc))  cnc;
 
-constexpr void __set_cnc(::System::Net::HttpConnection value) ;
+constexpr void __set_cnc(System::Net::HttpConnection value) ;
 
-constexpr ::System::Net::HttpConnection __get_cnc() const;
+constexpr System::Net::HttpConnection __get_cnc() const;
 
  ::StringW __declspec(property(get=__get_error, put=__set_error))  error;
 
@@ -104,11 +103,11 @@ constexpr void __set_err_status(int32_t value) ;
 
 constexpr int32_t __get_err_status() const;
 
- ::System::Net::HttpListener __declspec(property(get=__get_Listener, put=__set_Listener))  Listener;
+ System::Net::HttpListener __declspec(property(get=__get_Listener, put=__set_Listener))  Listener;
 
-constexpr void __set_Listener(::System::Net::HttpListener value) ;
+constexpr void __set_Listener(System::Net::HttpListener value) ;
 
-constexpr ::System::Net::HttpListener __get_Listener() const;
+constexpr System::Net::HttpListener __get_Listener() const;
 
 
 // Properties
@@ -119,20 +118,20 @@ constexpr ::System::Net::HttpListener __get_Listener() const;
 
  bool __declspec(property(get=get_HaveError))  HaveError;
 
- ::System::Net::HttpConnection __declspec(property(get=get_Connection))  Connection;
+ System::Net::HttpConnection __declspec(property(get=get_Connection))  Connection;
 
- ::System::Net::HttpListenerRequest __declspec(property(get=get_Request))  Request;
+ System::Net::HttpListenerRequest __declspec(property(get=get_Request))  Request;
 
- ::System::Net::HttpListenerResponse __declspec(property(get=get_Response))  Response;
+ System::Net::HttpListenerResponse __declspec(property(get=get_Response))  Response;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "cnc", ty: "::System::Net::HttpConnection", modifiers: "", def_value: None }]
-explicit HttpListenerContext(::System::Net::HttpConnection cnc) ;
+// Ctor Parameters [CppParam { name: "cnc", ty: "System::Net::HttpConnection", modifiers: "", def_value: None }]
+explicit HttpListenerContext(System::Net::HttpConnection cnc) ;
 
 /// @brief Method .ctor addr 0x283294c size 0xb4 virtual false final false
- void _ctor(::System::Net::HttpConnection cnc) ;
+ void _ctor(System::Net::HttpConnection cnc) ;
 
 /// @brief Method get_ErrorStatus addr 0x283703c size 0x8 virtual false final false
  int32_t get_ErrorStatus() ;
@@ -150,24 +149,23 @@ explicit HttpListenerContext(::System::Net::HttpConnection cnc) ;
  bool get_HaveError() ;
 
 /// @brief Method get_Connection addr 0x283705c size 0x8 virtual false final false
- ::System::Net::HttpConnection get_Connection() ;
+ System::Net::HttpConnection get_Connection() ;
 
 /// @brief Method get_Request addr 0x2837064 size 0x8 virtual false final false
- ::System::Net::HttpListenerRequest get_Request() ;
+ System::Net::HttpListenerRequest get_Request() ;
 
 /// @brief Method get_Response addr 0x283706c size 0x8 virtual false final false
- ::System::Net::HttpListenerResponse get_Response() ;
+ System::Net::HttpListenerResponse get_Response() ;
 
 /// @brief Method ParseAuthentication addr 0x2836aec size 0x120 virtual false final false
- void ParseAuthentication(::System::Net::AuthenticationSchemes expectedSchemes) ;
+ void ParseAuthentication(System::Net::AuthenticationSchemes expectedSchemes) ;
 
 /// @brief Method ParseBasicAuthentication addr 0x2837074 size 0x24c virtual false final false
- ::System::Security::Principal::IPrincipal ParseBasicAuthentication(::StringW authData) ;
+ System::Security::Principal::IPrincipal ParseBasicAuthentication(::StringW authData) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::HttpListenerContext);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::HttpListenerContext, "System.Net", "HttpListenerContext");
+NEED_NO_BOX(System::Net::HttpListenerContext);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListenerContext, "System.Net", "HttpListenerContext");

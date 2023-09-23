@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 #include <cstddef>
-namespace {
 namespace TMPro {
 struct GlyphValueRecord_Legacy;
 }
@@ -122,17 +121,16 @@ constexpr float_t __get_m_YAdvance() const;
  void _ctor(float_t xPlacement, float_t yPlacement, float_t xAdvance, float_t yAdvance) ;
 
 /// @brief Method .ctor addr 0x2a7a7c8 size 0xc virtual false final false
- void _ctor(::TMPro::GlyphValueRecord_Legacy valueRecord) ;
+ void _ctor(TMPro::GlyphValueRecord_Legacy valueRecord) ;
 
 /// @brief Method .ctor addr 0x2a7a7d4 size 0x60 virtual false final false
- void _ctor(::UnityEngine::TextCore::LowLevel::GlyphValueRecord valueRecord) ;
+ void _ctor(UnityEngine::TextCore::LowLevel::GlyphValueRecord valueRecord) ;
 
 /// @brief Method op_Addition addr 0x2a7a834 size 0x14 virtual false final false
-static ::TMPro::TMP_GlyphValueRecord op_Addition(::TMPro::TMP_GlyphValueRecord a, ::TMPro::TMP_GlyphValueRecord b) ;
+static TMPro::TMP_GlyphValueRecord op_Addition(TMPro::TMP_GlyphValueRecord a, TMPro::TMP_GlyphValueRecord b) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_GlyphValueRecord, "TMPro", "TMP_GlyphValueRecord");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_GlyphValueRecord, "TMPro", "TMP_GlyphValueRecord");

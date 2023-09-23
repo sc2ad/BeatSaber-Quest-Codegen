@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform {
 struct LivestreamingAudience;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::Oculus::Platform::LivestreamingAudience const Unknown;
+static Oculus::Platform::LivestreamingAudience const Unknown;
 
 /// @brief Field Public offset 0
-static ::Oculus::Platform::LivestreamingAudience const Public;
+static Oculus::Platform::LivestreamingAudience const Public;
 
 /// @brief Field Friends offset 0
-static ::Oculus::Platform::LivestreamingAudience const Friends;
+static Oculus::Platform::LivestreamingAudience const Friends;
 
 /// @brief Field OnlyMe offset 0
-static ::Oculus::Platform::LivestreamingAudience const OnlyMe;
+static Oculus::Platform::LivestreamingAudience const OnlyMe;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::LivestreamingAudience, "Oculus.Platform", "LivestreamingAudience");
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::LivestreamingAudience, "Oculus.Platform", "LivestreamingAudience");

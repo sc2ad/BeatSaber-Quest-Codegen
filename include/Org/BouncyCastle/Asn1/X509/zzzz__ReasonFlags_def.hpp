@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerBitString_def.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Asn1 {
 class DerBitString;
 }
@@ -16,7 +15,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(34))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(379))
 // CS Name: Org.BouncyCastle.Asn1.X509.ReasonFlags
-class CORDL_TYPE ReasonFlags : public ::Org::BouncyCastle::Asn1::DerBitString {
+class CORDL_TYPE ReasonFlags : public Org::BouncyCastle::Asn1::DerBitString {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr ReasonFlags(ReasonFlags const& ) noexcept = default;
 constexpr ReasonFlags(ReasonFlags&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ReasonFlags(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::DerBitString(ptr) {
+constexpr explicit ReasonFlags(void* ptr) noexcept : Org::BouncyCastle::Asn1::DerBitString(ptr) {
 }
 
 
@@ -88,16 +87,15 @@ explicit ReasonFlags(int32_t reasons) ;
 /// @brief Method .ctor addr 0x110b49c size 0x68 virtual false final false
  void _ctor(int32_t reasons) ;
 
-// Ctor Parameters [CppParam { name: "reasons", ty: "::Org::BouncyCastle::Asn1::DerBitString", modifiers: "", def_value: None }]
-explicit ReasonFlags(::Org::BouncyCastle::Asn1::DerBitString reasons) ;
+// Ctor Parameters [CppParam { name: "reasons", ty: "Org::BouncyCastle::Asn1::DerBitString", modifiers: "", def_value: None }]
+explicit ReasonFlags(Org::BouncyCastle::Asn1::DerBitString reasons) ;
 
 /// @brief Method .ctor addr 0x1101e08 size 0x94 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::DerBitString reasons) ;
+ void _ctor(Org::BouncyCastle::Asn1::DerBitString reasons) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::X509
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::ReasonFlags);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X509::ReasonFlags, "Org.BouncyCastle.Asn1.X509", "ReasonFlags");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::ReasonFlags);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::ReasonFlags, "Org.BouncyCastle.Asn1.X509", "ReasonFlags");

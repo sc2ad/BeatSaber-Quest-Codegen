@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct CubemapFace;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::UnityEngine::CubemapFace const Unknown;
+static UnityEngine::CubemapFace const Unknown;
 
 /// @brief Field PositiveX offset 0
-static ::UnityEngine::CubemapFace const PositiveX;
+static UnityEngine::CubemapFace const PositiveX;
 
 /// @brief Field NegativeX offset 0
-static ::UnityEngine::CubemapFace const NegativeX;
+static UnityEngine::CubemapFace const NegativeX;
 
 /// @brief Field PositiveY offset 0
-static ::UnityEngine::CubemapFace const PositiveY;
+static UnityEngine::CubemapFace const PositiveY;
 
 /// @brief Field NegativeY offset 0
-static ::UnityEngine::CubemapFace const NegativeY;
+static UnityEngine::CubemapFace const NegativeY;
 
 /// @brief Field PositiveZ offset 0
-static ::UnityEngine::CubemapFace const PositiveZ;
+static UnityEngine::CubemapFace const PositiveZ;
 
 /// @brief Field NegativeZ offset 0
-static ::UnityEngine::CubemapFace const NegativeZ;
+static UnityEngine::CubemapFace const NegativeZ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::CubemapFace, "UnityEngine", "CubemapFace");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CubemapFace, "UnityEngine", "CubemapFace");

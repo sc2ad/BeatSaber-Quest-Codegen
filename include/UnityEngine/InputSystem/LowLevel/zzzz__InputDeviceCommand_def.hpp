@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
@@ -26,11 +25,11 @@ namespace UnityEngine::InputSystem::LowLevel {
 struct CORDL_TYPE InputDeviceCommand : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo
-constexpr operator  ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo() const;
+/// @brief Convert operator to UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo
+constexpr operator  UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo() const;
 
-// Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::InputSystem::Utilities::FourCC", modifiers: "", def_value: None }, CppParam { name: "sizeInBytes", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr InputDeviceCommand(::UnityEngine::InputSystem::Utilities::FourCC type, int32_t sizeInBytes) noexcept;
+// Ctor Parameters [CppParam { name: "type", ty: "UnityEngine::InputSystem::Utilities::FourCC", modifiers: "", def_value: None }, CppParam { name: "sizeInBytes", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr InputDeviceCommand(UnityEngine::InputSystem::Utilities::FourCC type, int32_t sizeInBytes) noexcept;
 
 
                     constexpr InputDeviceCommand(InputDeviceCommand const&) = default;
@@ -75,11 +74,11 @@ static constexpr int64_t  GenericFailure{-1};
 /// @brief Field GenericSuccess offset 0
 static constexpr int64_t  GenericSuccess{1};
 
- ::UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=__get_type, put=__set_type))  type;
+ UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=__get_type, put=__set_type))  type;
 
-constexpr void __set_type(::UnityEngine::InputSystem::Utilities::FourCC value) ;
+constexpr void __set_type(UnityEngine::InputSystem::Utilities::FourCC value) ;
 
-constexpr ::UnityEngine::InputSystem::Utilities::FourCC __get_type() const;
+constexpr UnityEngine::InputSystem::Utilities::FourCC __get_type() const;
 
  int32_t __declspec(property(get=__get_sizeInBytes, put=__set_sizeInBytes))  sizeInBytes;
 
@@ -94,7 +93,7 @@ constexpr int32_t __get_sizeInBytes() const;
 
  void* __declspec(property(get=get_payloadPtr))  payloadPtr;
 
- ::UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_typeStatic))  typeStatic;
+ UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_typeStatic))  typeStatic;
 
 
 // Methods
@@ -106,17 +105,16 @@ constexpr int32_t __get_sizeInBytes() const;
  void* get_payloadPtr() ;
 
 /// @brief Method .ctor addr 0x2954b5c size 0x8 virtual false final false
- void _ctor(::UnityEngine::InputSystem::Utilities::FourCC type, int32_t sizeInBytes) ;
+ void _ctor(UnityEngine::InputSystem::Utilities::FourCC type, int32_t sizeInBytes) ;
 
 /// @brief Method AllocateNative addr 0x29550a0 size 0xb0 virtual false final false
-static ::Unity::Collections::NativeArray_1<uint8_t> AllocateNative(::UnityEngine::InputSystem::Utilities::FourCC type, int32_t payloadSize) ;
+static Unity::Collections::NativeArray_1<uint8_t> AllocateNative(UnityEngine::InputSystem::Utilities::FourCC type, int32_t payloadSize) ;
 
 /// @brief Method get_typeStatic addr 0x2955150 size 0x8 virtual true final true
- ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic() ;
+ UnityEngine::InputSystem::Utilities::FourCC get_typeStatic() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::LowLevel
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand, "UnityEngine.InputSystem.LowLevel", "InputDeviceCommand");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::LowLevel::InputDeviceCommand, "UnityEngine.InputSystem.LowLevel", "InputDeviceCommand");

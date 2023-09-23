@@ -2,7 +2,9 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__FlowCoordinator_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
+namespace GlobalNamespace {
+class ScenesTransitionSetupDataSO;
+}
 namespace GlobalNamespace {
 class GameScenesManager;
 }
@@ -10,20 +12,17 @@ namespace GlobalNamespace {
 class RecordingToolConfigViewController;
 }
 namespace GlobalNamespace {
-class RecordingToolSettingsViewController;
-}
-namespace GlobalNamespace {
 class RecordingToolLoggingViewController;
 }
 namespace GlobalNamespace {
-class ScenesTransitionSetupDataSO;
+class RecordingToolSettingsViewController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-class RecordingToolSettingsFlowCoordinator;
+class GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData;
+class RecordingToolSettingsFlowCoordinator;
 }
 // Type: ::InitData
 namespace GlobalNamespace {
@@ -31,56 +30,56 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5610))
 // CS Name: RecordingToolSettingsFlowCoordinator::InitData
-class CORDL_TYPE ____GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData() = default;
+virtual ~GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData(____GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData(GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData(____GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData(GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData& operator=(____GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData&& o) noexcept = default;
-  constexpr ____GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData& operator=(____GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData const& o) noexcept = default;
+  constexpr GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData& operator=(GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData&& o) noexcept = default;
+  constexpr GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData& operator=(GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::GlobalNamespace::ScenesTransitionSetupDataSO __declspec(property(get=__get_nextScenesTransitionSetupData, put=__set_nextScenesTransitionSetupData))  nextScenesTransitionSetupData;
+ GlobalNamespace::ScenesTransitionSetupDataSO __declspec(property(get=__get_nextScenesTransitionSetupData, put=__set_nextScenesTransitionSetupData))  nextScenesTransitionSetupData;
 
-constexpr void __set_nextScenesTransitionSetupData(::GlobalNamespace::ScenesTransitionSetupDataSO value) ;
+constexpr void __set_nextScenesTransitionSetupData(GlobalNamespace::ScenesTransitionSetupDataSO value) ;
 
-constexpr ::GlobalNamespace::ScenesTransitionSetupDataSO __get_nextScenesTransitionSetupData() const;
+constexpr GlobalNamespace::ScenesTransitionSetupDataSO __get_nextScenesTransitionSetupData() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "nextScenesTransitionSetupData", ty: "::GlobalNamespace::ScenesTransitionSetupDataSO", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData(::GlobalNamespace::ScenesTransitionSetupDataSO nextScenesTransitionSetupData) ;
+// Ctor Parameters [CppParam { name: "nextScenesTransitionSetupData", ty: "GlobalNamespace::ScenesTransitionSetupDataSO", modifiers: "", def_value: None }]
+explicit GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData(GlobalNamespace::ScenesTransitionSetupDataSO nextScenesTransitionSetupData) ;
 
 /// @brief Method .ctor addr 0x21449bc size 0x28 virtual false final false
- void _ctor(::GlobalNamespace::ScenesTransitionSetupDataSO nextScenesTransitionSetupData) ;
+ void _ctor(GlobalNamespace::ScenesTransitionSetupDataSO nextScenesTransitionSetupData) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -92,10 +91,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13633))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5611))
 // CS Name: RecordingToolSettingsFlowCoordinator
-class CORDL_TYPE RecordingToolSettingsFlowCoordinator : public ::HMUI::FlowCoordinator {
+class CORDL_TYPE RecordingToolSettingsFlowCoordinator : public HMUI::FlowCoordinator {
 public:
 // Declarations
-using InitData = ::GlobalNamespace::____GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData;
+using InitData = GlobalNamespace::GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xd0};
@@ -109,7 +108,7 @@ constexpr RecordingToolSettingsFlowCoordinator(RecordingToolSettingsFlowCoordina
 constexpr RecordingToolSettingsFlowCoordinator(RecordingToolSettingsFlowCoordinator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RecordingToolSettingsFlowCoordinator(void* ptr) noexcept : ::HMUI::FlowCoordinator(ptr) {
+constexpr explicit RecordingToolSettingsFlowCoordinator(void* ptr) noexcept : HMUI::FlowCoordinator(ptr) {
 }
 
 
@@ -130,35 +129,35 @@ constexpr explicit RecordingToolSettingsFlowCoordinator(void* ptr) noexcept : ::
 
 // Fields
 
- ::GlobalNamespace::RecordingToolConfigViewController __declspec(property(get=__get__recordingToolConfigViewController, put=__set__recordingToolConfigViewController))  _recordingToolConfigViewController;
+ GlobalNamespace::RecordingToolConfigViewController __declspec(property(get=__get__recordingToolConfigViewController, put=__set__recordingToolConfigViewController))  _recordingToolConfigViewController;
 
-constexpr void __set__recordingToolConfigViewController(::GlobalNamespace::RecordingToolConfigViewController value) ;
+constexpr void __set__recordingToolConfigViewController(GlobalNamespace::RecordingToolConfigViewController value) ;
 
-constexpr ::GlobalNamespace::RecordingToolConfigViewController __get__recordingToolConfigViewController() const;
+constexpr GlobalNamespace::RecordingToolConfigViewController __get__recordingToolConfigViewController() const;
 
- ::GlobalNamespace::RecordingToolSettingsViewController __declspec(property(get=__get__recordingToolSettingsViewController, put=__set__recordingToolSettingsViewController))  _recordingToolSettingsViewController;
+ GlobalNamespace::RecordingToolSettingsViewController __declspec(property(get=__get__recordingToolSettingsViewController, put=__set__recordingToolSettingsViewController))  _recordingToolSettingsViewController;
 
-constexpr void __set__recordingToolSettingsViewController(::GlobalNamespace::RecordingToolSettingsViewController value) ;
+constexpr void __set__recordingToolSettingsViewController(GlobalNamespace::RecordingToolSettingsViewController value) ;
 
-constexpr ::GlobalNamespace::RecordingToolSettingsViewController __get__recordingToolSettingsViewController() const;
+constexpr GlobalNamespace::RecordingToolSettingsViewController __get__recordingToolSettingsViewController() const;
 
- ::GlobalNamespace::RecordingToolLoggingViewController __declspec(property(get=__get__recordingToolLoggingViewController, put=__set__recordingToolLoggingViewController))  _recordingToolLoggingViewController;
+ GlobalNamespace::RecordingToolLoggingViewController __declspec(property(get=__get__recordingToolLoggingViewController, put=__set__recordingToolLoggingViewController))  _recordingToolLoggingViewController;
 
-constexpr void __set__recordingToolLoggingViewController(::GlobalNamespace::RecordingToolLoggingViewController value) ;
+constexpr void __set__recordingToolLoggingViewController(GlobalNamespace::RecordingToolLoggingViewController value) ;
 
-constexpr ::GlobalNamespace::RecordingToolLoggingViewController __get__recordingToolLoggingViewController() const;
+constexpr GlobalNamespace::RecordingToolLoggingViewController __get__recordingToolLoggingViewController() const;
 
- ::GlobalNamespace::GameScenesManager __declspec(property(get=__get__gameScenesManager, put=__set__gameScenesManager))  _gameScenesManager;
+ GlobalNamespace::GameScenesManager __declspec(property(get=__get__gameScenesManager, put=__set__gameScenesManager))  _gameScenesManager;
 
-constexpr void __set__gameScenesManager(::GlobalNamespace::GameScenesManager value) ;
+constexpr void __set__gameScenesManager(GlobalNamespace::GameScenesManager value) ;
 
-constexpr ::GlobalNamespace::GameScenesManager __get__gameScenesManager() const;
+constexpr GlobalNamespace::GameScenesManager __get__gameScenesManager() const;
 
- ::GlobalNamespace::____GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData __declspec(property(get=__get__initData, put=__set__initData))  _initData;
+ GlobalNamespace::GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData __declspec(property(get=__get__initData, put=__set__initData))  _initData;
 
-constexpr void __set__initData(::GlobalNamespace::____GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData value) ;
+constexpr void __set__initData(GlobalNamespace::GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData __get__initData() const;
+constexpr GlobalNamespace::GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData __get__initData() const;
 
 
 // Methods
@@ -188,8 +187,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::RecordingToolSettingsFlowCoordinator);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RecordingToolSettingsFlowCoordinator, "", "RecordingToolSettingsFlowCoordinator");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData, "", "RecordingToolSettingsFlowCoordinator/InitData");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData, "", "RecordingToolSettingsFlowCoordinator/InitData");
+NEED_NO_BOX(GlobalNamespace::RecordingToolSettingsFlowCoordinator);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RecordingToolSettingsFlowCoordinator, "", "RecordingToolSettingsFlowCoordinator");

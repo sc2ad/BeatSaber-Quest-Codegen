@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Rendering {
 struct VertexAttribute;
@@ -79,50 +78,49 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Position offset 0
-static ::UnityEngine::Rendering::VertexAttribute const Position;
+static UnityEngine::Rendering::VertexAttribute const Position;
 
 /// @brief Field Normal offset 0
-static ::UnityEngine::Rendering::VertexAttribute const Normal;
+static UnityEngine::Rendering::VertexAttribute const Normal;
 
 /// @brief Field Tangent offset 0
-static ::UnityEngine::Rendering::VertexAttribute const Tangent;
+static UnityEngine::Rendering::VertexAttribute const Tangent;
 
 /// @brief Field Color offset 0
-static ::UnityEngine::Rendering::VertexAttribute const Color;
+static UnityEngine::Rendering::VertexAttribute const Color;
 
 /// @brief Field TexCoord0 offset 0
-static ::UnityEngine::Rendering::VertexAttribute const TexCoord0;
+static UnityEngine::Rendering::VertexAttribute const TexCoord0;
 
 /// @brief Field TexCoord1 offset 0
-static ::UnityEngine::Rendering::VertexAttribute const TexCoord1;
+static UnityEngine::Rendering::VertexAttribute const TexCoord1;
 
 /// @brief Field TexCoord2 offset 0
-static ::UnityEngine::Rendering::VertexAttribute const TexCoord2;
+static UnityEngine::Rendering::VertexAttribute const TexCoord2;
 
 /// @brief Field TexCoord3 offset 0
-static ::UnityEngine::Rendering::VertexAttribute const TexCoord3;
+static UnityEngine::Rendering::VertexAttribute const TexCoord3;
 
 /// @brief Field TexCoord4 offset 0
-static ::UnityEngine::Rendering::VertexAttribute const TexCoord4;
+static UnityEngine::Rendering::VertexAttribute const TexCoord4;
 
 /// @brief Field TexCoord5 offset 0
-static ::UnityEngine::Rendering::VertexAttribute const TexCoord5;
+static UnityEngine::Rendering::VertexAttribute const TexCoord5;
 
 /// @brief Field TexCoord6 offset 0
-static ::UnityEngine::Rendering::VertexAttribute const TexCoord6;
+static UnityEngine::Rendering::VertexAttribute const TexCoord6;
 
 /// @brief Field TexCoord7 offset 0
-static ::UnityEngine::Rendering::VertexAttribute const TexCoord7;
+static UnityEngine::Rendering::VertexAttribute const TexCoord7;
 
 /// @brief Field BlendWeight offset 0
-static ::UnityEngine::Rendering::VertexAttribute const BlendWeight;
+static UnityEngine::Rendering::VertexAttribute const BlendWeight;
 
 /// @brief Field BlendIndices offset 0
-static ::UnityEngine::Rendering::VertexAttribute const BlendIndices;
+static UnityEngine::Rendering::VertexAttribute const BlendIndices;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Rendering
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::VertexAttribute, "UnityEngine.Rendering", "VertexAttribute");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::VertexAttribute, "UnityEngine.Rendering", "VertexAttribute");

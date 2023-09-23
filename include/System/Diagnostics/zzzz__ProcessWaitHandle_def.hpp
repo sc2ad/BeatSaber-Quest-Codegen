@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/Threading/zzzz__WaitHandle_def.hpp"
-namespace {
 namespace Microsoft::Win32::SafeHandles {
 class SafeProcessHandle;
 }
@@ -15,7 +14,7 @@ namespace System::Diagnostics {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2739))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7808))
 // CS Name: System.Diagnostics.ProcessWaitHandle
-class CORDL_TYPE ProcessWaitHandle : public ::System::Threading::WaitHandle {
+class CORDL_TYPE ProcessWaitHandle : public System::Threading::WaitHandle {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr ProcessWaitHandle(ProcessWaitHandle const& ) noexcept = default;
 constexpr ProcessWaitHandle(ProcessWaitHandle&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ProcessWaitHandle(void* ptr) noexcept : ::System::Threading::WaitHandle(ptr) {
+constexpr explicit ProcessWaitHandle(void* ptr) noexcept : System::Threading::WaitHandle(ptr) {
 }
 
 
@@ -51,16 +50,15 @@ constexpr explicit ProcessWaitHandle(void* ptr) noexcept : ::System::Threading::
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "processHandle", ty: "::Microsoft::Win32::SafeHandles::SafeProcessHandle", modifiers: "", def_value: None }]
-explicit ProcessWaitHandle(::Microsoft::Win32::SafeHandles::SafeProcessHandle processHandle) ;
+// Ctor Parameters [CppParam { name: "processHandle", ty: "Microsoft::Win32::SafeHandles::SafeProcessHandle", modifiers: "", def_value: None }]
+explicit ProcessWaitHandle(Microsoft::Win32::SafeHandles::SafeProcessHandle processHandle) ;
 
 /// @brief Method .ctor addr 0x27dd4c4 size 0x154 virtual false final false
- void _ctor(::Microsoft::Win32::SafeHandles::SafeProcessHandle processHandle) ;
+ void _ctor(Microsoft::Win32::SafeHandles::SafeProcessHandle processHandle) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Diagnostics
-} // end anonymous namespace
-NEED_NO_BOX(::System::Diagnostics::ProcessWaitHandle);
-DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::ProcessWaitHandle, "System.Diagnostics", "ProcessWaitHandle");
+NEED_NO_BOX(System::Diagnostics::ProcessWaitHandle);
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::ProcessWaitHandle, "System.Diagnostics", "ProcessWaitHandle");

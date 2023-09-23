@@ -3,19 +3,6 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
-namespace GlobalNamespace {
-class IAudioTimeSource;
-}
-namespace GlobalNamespace {
-class BTSCharacterSpawnController;
-}
-namespace GlobalNamespace {
-class StandardGameplaySceneSetupData;
-}
-namespace UnityEngine {
-struct LayerMask;
-}
 namespace UnityEngine {
 struct Vector3;
 }
@@ -23,7 +10,19 @@ namespace GlobalNamespace {
 class GameplayCoreSceneSetupData;
 }
 namespace UnityEngine {
+struct LayerMask;
+}
+namespace UnityEngine {
 class Transform;
+}
+namespace GlobalNamespace {
+class IAudioTimeSource;
+}
+namespace GlobalNamespace {
+class StandardGameplaySceneSetupData;
+}
+namespace GlobalNamespace {
+class BTSCharacterSpawnController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,7 +34,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5129))
 // CS Name: WaypointsTestGameplayManager
-class CORDL_TYPE WaypointsTestGameplayManager : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE WaypointsTestGameplayManager : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -50,7 +49,7 @@ constexpr WaypointsTestGameplayManager(WaypointsTestGameplayManager const& ) noe
 constexpr WaypointsTestGameplayManager(WaypointsTestGameplayManager&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit WaypointsTestGameplayManager(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit WaypointsTestGameplayManager(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -71,17 +70,17 @@ constexpr explicit WaypointsTestGameplayManager(void* ptr) noexcept : ::UnityEng
 
 // Fields
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__outerCapsuleStart, put=__set__outerCapsuleStart))  _outerCapsuleStart;
+ UnityEngine::Vector3 __declspec(property(get=__get__outerCapsuleStart, put=__set__outerCapsuleStart))  _outerCapsuleStart;
 
-constexpr void __set__outerCapsuleStart(::UnityEngine::Vector3 value) ;
+constexpr void __set__outerCapsuleStart(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__outerCapsuleStart() const;
+constexpr UnityEngine::Vector3 __get__outerCapsuleStart() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__outerCapsuleEnd, put=__set__outerCapsuleEnd))  _outerCapsuleEnd;
+ UnityEngine::Vector3 __declspec(property(get=__get__outerCapsuleEnd, put=__set__outerCapsuleEnd))  _outerCapsuleEnd;
 
-constexpr void __set__outerCapsuleEnd(::UnityEngine::Vector3 value) ;
+constexpr void __set__outerCapsuleEnd(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__outerCapsuleEnd() const;
+constexpr UnityEngine::Vector3 __get__outerCapsuleEnd() const;
 
  float_t __declspec(property(get=__get__outerCapsuleRadius, put=__set__outerCapsuleRadius))  _outerCapsuleRadius;
 
@@ -89,11 +88,11 @@ constexpr void __set__outerCapsuleRadius(float_t value) ;
 
 constexpr float_t __get__outerCapsuleRadius() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__innerSphereOffset, put=__set__innerSphereOffset))  _innerSphereOffset;
+ UnityEngine::Vector3 __declspec(property(get=__get__innerSphereOffset, put=__set__innerSphereOffset))  _innerSphereOffset;
 
-constexpr void __set__innerSphereOffset(::UnityEngine::Vector3 value) ;
+constexpr void __set__innerSphereOffset(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__innerSphereOffset() const;
+constexpr UnityEngine::Vector3 __get__innerSphereOffset() const;
 
  float_t __declspec(property(get=__get__innerSphereRadius, put=__set__innerSphereRadius))  _innerSphereRadius;
 
@@ -101,41 +100,41 @@ constexpr void __set__innerSphereRadius(float_t value) ;
 
 constexpr float_t __get__innerSphereRadius() const;
 
- ::UnityEngine::LayerMask __declspec(property(get=__get__layersToColliderWith, put=__set__layersToColliderWith))  _layersToColliderWith;
+ UnityEngine::LayerMask __declspec(property(get=__get__layersToColliderWith, put=__set__layersToColliderWith))  _layersToColliderWith;
 
-constexpr void __set__layersToColliderWith(::UnityEngine::LayerMask value) ;
+constexpr void __set__layersToColliderWith(UnityEngine::LayerMask value) ;
 
-constexpr ::UnityEngine::LayerMask __get__layersToColliderWith() const;
+constexpr UnityEngine::LayerMask __get__layersToColliderWith() const;
 
- ::GlobalNamespace::BTSCharacterSpawnController __declspec(property(get=__get__characterSpawnController, put=__set__characterSpawnController))  _characterSpawnController;
+ GlobalNamespace::BTSCharacterSpawnController __declspec(property(get=__get__characterSpawnController, put=__set__characterSpawnController))  _characterSpawnController;
 
-constexpr void __set__characterSpawnController(::GlobalNamespace::BTSCharacterSpawnController value) ;
+constexpr void __set__characterSpawnController(GlobalNamespace::BTSCharacterSpawnController value) ;
 
-constexpr ::GlobalNamespace::BTSCharacterSpawnController __get__characterSpawnController() const;
+constexpr GlobalNamespace::BTSCharacterSpawnController __get__characterSpawnController() const;
 
- ::GlobalNamespace::IAudioTimeSource __declspec(property(get=__get__audioTimeSource, put=__set__audioTimeSource))  _audioTimeSource;
+ GlobalNamespace::IAudioTimeSource __declspec(property(get=__get__audioTimeSource, put=__set__audioTimeSource))  _audioTimeSource;
 
-constexpr void __set__audioTimeSource(::GlobalNamespace::IAudioTimeSource value) ;
+constexpr void __set__audioTimeSource(GlobalNamespace::IAudioTimeSource value) ;
 
-constexpr ::GlobalNamespace::IAudioTimeSource __get__audioTimeSource() const;
+constexpr GlobalNamespace::IAudioTimeSource __get__audioTimeSource() const;
 
- ::GlobalNamespace::StandardGameplaySceneSetupData __declspec(property(get=__get__standardSceneSetupData, put=__set__standardSceneSetupData))  _standardSceneSetupData;
+ GlobalNamespace::StandardGameplaySceneSetupData __declspec(property(get=__get__standardSceneSetupData, put=__set__standardSceneSetupData))  _standardSceneSetupData;
 
-constexpr void __set__standardSceneSetupData(::GlobalNamespace::StandardGameplaySceneSetupData value) ;
+constexpr void __set__standardSceneSetupData(GlobalNamespace::StandardGameplaySceneSetupData value) ;
 
-constexpr ::GlobalNamespace::StandardGameplaySceneSetupData __get__standardSceneSetupData() const;
+constexpr GlobalNamespace::StandardGameplaySceneSetupData __get__standardSceneSetupData() const;
 
- ::GlobalNamespace::GameplayCoreSceneSetupData __declspec(property(get=__get__levelSceneSetupData, put=__set__levelSceneSetupData))  _levelSceneSetupData;
+ GlobalNamespace::GameplayCoreSceneSetupData __declspec(property(get=__get__levelSceneSetupData, put=__set__levelSceneSetupData))  _levelSceneSetupData;
 
-constexpr void __set__levelSceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData value) ;
+constexpr void __set__levelSceneSetupData(GlobalNamespace::GameplayCoreSceneSetupData value) ;
 
-constexpr ::GlobalNamespace::GameplayCoreSceneSetupData __get__levelSceneSetupData() const;
+constexpr GlobalNamespace::GameplayCoreSceneSetupData __get__levelSceneSetupData() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__target, put=__set__target))  _target;
+ UnityEngine::Transform __declspec(property(get=__get__target, put=__set__target))  _target;
 
-constexpr void __set__target(::UnityEngine::Transform value) ;
+constexpr void __set__target(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__target() const;
+constexpr UnityEngine::Transform __get__target() const;
 
  bool __declspec(property(get=__get__firstPosSaved, put=__set__firstPosSaved))  _firstPosSaved;
 
@@ -149,11 +148,11 @@ constexpr void __set__speedSaved(bool value) ;
 
 constexpr bool __get__speedSaved() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__lastFramePos, put=__set__lastFramePos))  _lastFramePos;
+ UnityEngine::Vector3 __declspec(property(get=__get__lastFramePos, put=__set__lastFramePos))  _lastFramePos;
 
-constexpr void __set__lastFramePos(::UnityEngine::Vector3 value) ;
+constexpr void __set__lastFramePos(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__lastFramePos() const;
+constexpr UnityEngine::Vector3 __get__lastFramePos() const;
 
  float_t __declspec(property(get=__get__lastFrameSpeed, put=__set__lastFrameSpeed))  _lastFrameSpeed;
 
@@ -213,6 +212,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::WaypointsTestGameplayManager);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::WaypointsTestGameplayManager, "", "WaypointsTestGameplayManager");
+NEED_NO_BOX(GlobalNamespace::WaypointsTestGameplayManager);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::WaypointsTestGameplayManager, "", "WaypointsTestGameplayManager");

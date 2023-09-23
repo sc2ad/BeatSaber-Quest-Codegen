@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace GlobalNamespace {
 struct ConnectionFailedReason;
 }
@@ -98,15 +97,14 @@ static constexpr ::ConstString  kConnectionFailedFailedToFindMatch{u"CONNECTION_
 // Methods
 
 /// @brief Method LocalizedKey addr 0x21f2d3c size 0xb4 virtual false final false
-static ::StringW LocalizedKey(::GlobalNamespace::ConnectionFailedReason connectionFailedReason) ;
+static ::StringW LocalizedKey(GlobalNamespace::ConnectionFailedReason connectionFailedReason) ;
 
 /// @brief Method ErrorCode addr 0x21f2df0 size 0x80 virtual false final false
-static ::StringW ErrorCode(::GlobalNamespace::ConnectionFailedReason connectionFailedReason) ;
+static ::StringW ErrorCode(GlobalNamespace::ConnectionFailedReason connectionFailedReason) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ConnectionFailedReasonMethods);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ConnectionFailedReasonMethods, "", "ConnectionFailedReasonMethods");
+NEED_NO_BOX(GlobalNamespace::ConnectionFailedReasonMethods);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectionFailedReasonMethods, "", "ConnectionFailedReasonMethods");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net::NetworkInformation {
 struct NetworkInterfaceComponent;
@@ -67,14 +66,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field IPv4 offset 0
-static ::System::Net::NetworkInformation::NetworkInterfaceComponent const IPv4;
+static System::Net::NetworkInformation::NetworkInterfaceComponent const IPv4;
 
 /// @brief Field IPv6 offset 0
-static ::System::Net::NetworkInformation::NetworkInterfaceComponent const IPv6;
+static System::Net::NetworkInformation::NetworkInterfaceComponent const IPv6;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net::NetworkInformation
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::NetworkInterfaceComponent, "System.Net.NetworkInformation", "NetworkInterfaceComponent");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::NetworkInterfaceComponent, "System.Net.NetworkInformation", "NetworkInterfaceComponent");

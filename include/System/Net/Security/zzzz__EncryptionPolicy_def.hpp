@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net::Security {
 struct EncryptionPolicy;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field RequireEncryption offset 0
-static ::System::Net::Security::EncryptionPolicy const RequireEncryption;
+static System::Net::Security::EncryptionPolicy const RequireEncryption;
 
 /// @brief Field AllowNoEncryption offset 0
-static ::System::Net::Security::EncryptionPolicy const AllowNoEncryption;
+static System::Net::Security::EncryptionPolicy const AllowNoEncryption;
 
 /// @brief Field NoEncryption offset 0
-static ::System::Net::Security::EncryptionPolicy const NoEncryption;
+static System::Net::Security::EncryptionPolicy const NoEncryption;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net::Security
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Security::EncryptionPolicy, "System.Net.Security", "EncryptionPolicy");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Security::EncryptionPolicy, "System.Net.Security", "EncryptionPolicy");

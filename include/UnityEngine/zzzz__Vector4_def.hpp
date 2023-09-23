@@ -5,9 +5,8 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System {
-class IFormatProvider;
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -17,10 +16,10 @@ template<typename T>
 class IEquatable_1;
 }
 namespace System {
-class IFormattable;
+class IFormatProvider;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace System {
+class IFormattable;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -35,11 +34,11 @@ namespace UnityEngine {
 struct CORDL_TYPE Vector4 : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::Vector4>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::Vector4>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::Vector4>
+constexpr operator  System::IEquatable_1<UnityEngine::Vector4>() const;
 
-/// @brief Convert operator to ::System::IFormattable
-constexpr operator  ::System::IFormattable() const;
+/// @brief Convert operator to System::IFormattable
+constexpr operator  System::IFormattable() const;
 
 // Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "z", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "w", ty: "float_t", modifiers: "", def_value: None }]
 constexpr Vector4(float_t x, float_t y, float_t z, float_t w) noexcept;
@@ -102,29 +101,29 @@ constexpr void __set_w(float_t value) ;
 
 constexpr float_t __get_w() const;
 
-static ::UnityEngine::Vector4 __declspec(property(get=__get_zeroVector, put=__set_zeroVector))  zeroVector;
+static UnityEngine::Vector4 __declspec(property(get=__get_zeroVector, put=__set_zeroVector))  zeroVector;
 
-static void __set_zeroVector(::UnityEngine::Vector4 value) ;
+static void __set_zeroVector(UnityEngine::Vector4 value) ;
 
-static ::UnityEngine::Vector4 __get_zeroVector() ;
+static UnityEngine::Vector4 __get_zeroVector() ;
 
-static ::UnityEngine::Vector4 __declspec(property(get=__get_oneVector, put=__set_oneVector))  oneVector;
+static UnityEngine::Vector4 __declspec(property(get=__get_oneVector, put=__set_oneVector))  oneVector;
 
-static void __set_oneVector(::UnityEngine::Vector4 value) ;
+static void __set_oneVector(UnityEngine::Vector4 value) ;
 
-static ::UnityEngine::Vector4 __get_oneVector() ;
+static UnityEngine::Vector4 __get_oneVector() ;
 
-static ::UnityEngine::Vector4 __declspec(property(get=__get_positiveInfinityVector, put=__set_positiveInfinityVector))  positiveInfinityVector;
+static UnityEngine::Vector4 __declspec(property(get=__get_positiveInfinityVector, put=__set_positiveInfinityVector))  positiveInfinityVector;
 
-static void __set_positiveInfinityVector(::UnityEngine::Vector4 value) ;
+static void __set_positiveInfinityVector(UnityEngine::Vector4 value) ;
 
-static ::UnityEngine::Vector4 __get_positiveInfinityVector() ;
+static UnityEngine::Vector4 __get_positiveInfinityVector() ;
 
-static ::UnityEngine::Vector4 __declspec(property(get=__get_negativeInfinityVector, put=__set_negativeInfinityVector))  negativeInfinityVector;
+static UnityEngine::Vector4 __declspec(property(get=__get_negativeInfinityVector, put=__set_negativeInfinityVector))  negativeInfinityVector;
 
-static void __set_negativeInfinityVector(::UnityEngine::Vector4 value) ;
+static void __set_negativeInfinityVector(UnityEngine::Vector4 value) ;
 
-static ::UnityEngine::Vector4 __get_negativeInfinityVector() ;
+static UnityEngine::Vector4 __get_negativeInfinityVector() ;
 
 
 // Properties
@@ -135,9 +134,9 @@ static ::UnityEngine::Vector4 __get_negativeInfinityVector() ;
 
  float_t __declspec(property(get=get_sqrMagnitude))  sqrMagnitude;
 
-static ::UnityEngine::Vector4 __declspec(property(get=get_zero))  zero;
+static UnityEngine::Vector4 __declspec(property(get=get_zero))  zero;
 
-static ::UnityEngine::Vector4 __declspec(property(get=get_one))  one;
+static UnityEngine::Vector4 __declspec(property(get=get_one))  one;
 
 
 // Methods
@@ -152,7 +151,7 @@ static ::UnityEngine::Vector4 __declspec(property(get=get_one))  one;
  void _ctor(float_t x, float_t y, float_t z, float_t w) ;
 
 /// @brief Method Scale addr 0x2b60484 size 0x1c virtual false final false
- void Scale(::UnityEngine::Vector4 scale) ;
+ void Scale(UnityEngine::Vector4 scale) ;
 
 /// @brief Method GetHashCode addr 0x2b604a0 size 0x64 virtual true final false
  int32_t GetHashCode() ;
@@ -161,16 +160,16 @@ static ::UnityEngine::Vector4 __declspec(property(get=get_one))  one;
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
 
 /// @brief Method Equals addr 0x2b605ac size 0x3c virtual true final true
- bool Equals(::UnityEngine::Vector4 other) ;
+ bool Equals(UnityEngine::Vector4 other) ;
 
 /// @brief Method Normalize addr 0x2b605e8 size 0xe0 virtual false final false
  void Normalize() ;
 
 /// @brief Method Dot addr 0x2b606c8 size 0x20 virtual false final false
-static float_t Dot(::UnityEngine::Vector4 a, ::UnityEngine::Vector4 b) ;
+static float_t Dot(UnityEngine::Vector4 a, UnityEngine::Vector4 b) ;
 
 /// @brief Method Magnitude addr 0x2b606e8 size 0x8c virtual false final false
-static float_t Magnitude(::UnityEngine::Vector4 a) ;
+static float_t Magnitude(UnityEngine::Vector4 a) ;
 
 /// @brief Method get_magnitude addr 0x2b60774 size 0x80 virtual false final false
  float_t get_magnitude() ;
@@ -179,40 +178,40 @@ static float_t Magnitude(::UnityEngine::Vector4 a) ;
  float_t get_sqrMagnitude() ;
 
 /// @brief Method get_zero addr 0x2b6081c size 0x4c virtual false final false
-static ::UnityEngine::Vector4 get_zero() ;
+static UnityEngine::Vector4 get_zero() ;
 
 /// @brief Method get_one addr 0x2b60868 size 0x4c virtual false final false
-static ::UnityEngine::Vector4 get_one() ;
+static UnityEngine::Vector4 get_one() ;
 
 /// @brief Method op_Addition addr 0x2b608b4 size 0x14 virtual false final false
-static ::UnityEngine::Vector4 op_Addition(::UnityEngine::Vector4 a, ::UnityEngine::Vector4 b) ;
+static UnityEngine::Vector4 op_Addition(UnityEngine::Vector4 a, UnityEngine::Vector4 b) ;
 
 /// @brief Method op_Subtraction addr 0x2b608c8 size 0x14 virtual false final false
-static ::UnityEngine::Vector4 op_Subtraction(::UnityEngine::Vector4 a, ::UnityEngine::Vector4 b) ;
+static UnityEngine::Vector4 op_Subtraction(UnityEngine::Vector4 a, UnityEngine::Vector4 b) ;
 
 /// @brief Method op_Multiply addr 0x2b608dc size 0x14 virtual false final false
-static ::UnityEngine::Vector4 op_Multiply(::UnityEngine::Vector4 a, float_t d) ;
+static UnityEngine::Vector4 op_Multiply(UnityEngine::Vector4 a, float_t d) ;
 
 /// @brief Method op_Division addr 0x2b608f0 size 0x14 virtual false final false
-static ::UnityEngine::Vector4 op_Division(::UnityEngine::Vector4 a, float_t d) ;
+static UnityEngine::Vector4 op_Division(UnityEngine::Vector4 a, float_t d) ;
 
 /// @brief Method op_Equality addr 0x2b60904 size 0x40 virtual false final false
-static bool op_Equality(::UnityEngine::Vector4 lhs, ::UnityEngine::Vector4 rhs) ;
+static bool op_Equality(UnityEngine::Vector4 lhs, UnityEngine::Vector4 rhs) ;
 
 /// @brief Method op_Inequality addr 0x2b60944 size 0x40 virtual false final false
-static bool op_Inequality(::UnityEngine::Vector4 lhs, ::UnityEngine::Vector4 rhs) ;
+static bool op_Inequality(UnityEngine::Vector4 lhs, UnityEngine::Vector4 rhs) ;
 
 /// @brief Method op_Implicit addr 0x2b60984 size 0x8 virtual false final false
-static ::UnityEngine::Vector4 op_Implicit___UnityEngine__Vector4(::UnityEngine::Vector3 v) ;
+static UnityEngine::Vector4 op_Implicit_UnityEngine__Vector4(UnityEngine::Vector3 v) ;
 
 /// @brief Method op_Implicit addr 0x2b6098c size 0x4 virtual false final false
-static ::UnityEngine::Vector3 op_Implicit___UnityEngine__Vector3(::UnityEngine::Vector4 v) ;
+static UnityEngine::Vector3 op_Implicit_UnityEngine__Vector3(UnityEngine::Vector4 v) ;
 
 /// @brief Method op_Implicit addr 0x2b60990 size 0xc virtual false final false
-static ::UnityEngine::Vector4 op_Implicit___UnityEngine__Vector4(::UnityEngine::Vector2 v) ;
+static UnityEngine::Vector4 op_Implicit_UnityEngine__Vector4(UnityEngine::Vector2 v) ;
 
 /// @brief Method op_Implicit addr 0x2b6099c size 0x4 virtual false final false
-static ::UnityEngine::Vector2 op_Implicit___UnityEngine__Vector2(::UnityEngine::Vector4 v) ;
+static UnityEngine::Vector2 op_Implicit_UnityEngine__Vector2(UnityEngine::Vector4 v) ;
 
 /// @brief Method ToString addr 0x2b609a0 size 0xc virtual true final false
  ::StringW ToString() ;
@@ -221,11 +220,10 @@ static ::UnityEngine::Vector2 op_Implicit___UnityEngine__Vector2(::UnityEngine::
  ::StringW ToString(::StringW format) ;
 
 /// @brief Method ToString addr 0x2b609ac size 0x208 virtual true final true
- ::StringW ToString(::StringW format, ::System::IFormatProvider formatProvider) ;
+ ::StringW ToString(::StringW format, System::IFormatProvider formatProvider) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Vector4, "UnityEngine", "Vector4");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Vector4, "UnityEngine", "Vector4");

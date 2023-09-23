@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
 class MatchmakingAdminSnapshot;
 }
@@ -53,17 +52,17 @@ constexpr explicit MatchmakingEnqueueResult(void* ptr) noexcept : ::bs_hook::Il2
 
 // Fields
 
- ::Oculus::Platform::Models::MatchmakingAdminSnapshot __declspec(property(get=__get_AdminSnapshotOptional, put=__set_AdminSnapshotOptional))  AdminSnapshotOptional;
+ Oculus::Platform::Models::MatchmakingAdminSnapshot __declspec(property(get=__get_AdminSnapshotOptional, put=__set_AdminSnapshotOptional))  AdminSnapshotOptional;
 
-constexpr void __set_AdminSnapshotOptional(::Oculus::Platform::Models::MatchmakingAdminSnapshot value) ;
+constexpr void __set_AdminSnapshotOptional(Oculus::Platform::Models::MatchmakingAdminSnapshot value) ;
 
-constexpr ::Oculus::Platform::Models::MatchmakingAdminSnapshot __get_AdminSnapshotOptional() const;
+constexpr Oculus::Platform::Models::MatchmakingAdminSnapshot __get_AdminSnapshotOptional() const;
 
- ::Oculus::Platform::Models::MatchmakingAdminSnapshot __declspec(property(get=__get_AdminSnapshot, put=__set_AdminSnapshot))  AdminSnapshot;
+ Oculus::Platform::Models::MatchmakingAdminSnapshot __declspec(property(get=__get_AdminSnapshot, put=__set_AdminSnapshot))  AdminSnapshot;
 
-constexpr void __set_AdminSnapshot(::Oculus::Platform::Models::MatchmakingAdminSnapshot value) ;
+constexpr void __set_AdminSnapshot(Oculus::Platform::Models::MatchmakingAdminSnapshot value) ;
 
-constexpr ::Oculus::Platform::Models::MatchmakingAdminSnapshot __get_AdminSnapshot() const;
+constexpr Oculus::Platform::Models::MatchmakingAdminSnapshot __get_AdminSnapshot() const;
 
  uint32_t __declspec(property(get=__get_AverageWait, put=__set_AverageWait))  AverageWait;
 
@@ -114,6 +113,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::MatchmakingEnqueueResult);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::MatchmakingEnqueueResult, "Oculus.Platform.Models", "MatchmakingEnqueueResult");
+NEED_NO_BOX(Oculus::Platform::Models::MatchmakingEnqueueResult);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::MatchmakingEnqueueResult, "Oculus.Platform.Models", "MatchmakingEnqueueResult");

@@ -2,15 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
+namespace UnityEngine {
+class GameObject;
+}
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
 class Transform;
-}
-namespace UnityEngine {
-class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,7 +21,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13799))
 // CS Name: FlexyFollow
-class CORDL_TYPE FlexyFollow : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE FlexyFollow : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr FlexyFollow(FlexyFollow const& ) noexcept = default;
 constexpr FlexyFollow(FlexyFollow&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FlexyFollow(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit FlexyFollow(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -58,11 +57,11 @@ constexpr explicit FlexyFollow(void* ptr) noexcept : ::UnityEngine::MonoBehaviou
 
 // Fields
 
- ::UnityEngine::GameObject __declspec(property(get=__get__followObject, put=__set__followObject))  _followObject;
+ UnityEngine::GameObject __declspec(property(get=__get__followObject, put=__set__followObject))  _followObject;
 
-constexpr void __set__followObject(::UnityEngine::GameObject value) ;
+constexpr void __set__followObject(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__followObject() const;
+constexpr UnityEngine::GameObject __get__followObject() const;
 
  float_t __declspec(property(get=__get__followSpeed, put=__set__followSpeed))  _followSpeed;
 
@@ -70,11 +69,11 @@ constexpr void __set__followSpeed(float_t value) ;
 
 constexpr float_t __get__followSpeed() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__offset, put=__set__offset))  _offset;
+ UnityEngine::Vector3 __declspec(property(get=__get__offset, put=__set__offset))  _offset;
 
-constexpr void __set__offset(::UnityEngine::Vector3 value) ;
+constexpr void __set__offset(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__offset() const;
+constexpr UnityEngine::Vector3 __get__offset() const;
 
  bool __declspec(property(get=__get__fixedXOffset, put=__set__fixedXOffset))  _fixedXOffset;
 
@@ -100,17 +99,17 @@ constexpr void __set__useLocalPosition(bool value) ;
 
 constexpr bool __get__useLocalPosition() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__followTransform, put=__set__followTransform))  _followTransform;
+ UnityEngine::Transform __declspec(property(get=__get__followTransform, put=__set__followTransform))  _followTransform;
 
-constexpr void __set__followTransform(::UnityEngine::Transform value) ;
+constexpr void __set__followTransform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__followTransform() const;
+constexpr UnityEngine::Transform __get__followTransform() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
+ UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
 
-constexpr void __set__transform(::UnityEngine::Transform value) ;
+constexpr void __set__transform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__transform() const;
+constexpr UnityEngine::Transform __get__transform() const;
 
 
 // Methods
@@ -131,6 +130,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::FlexyFollow);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FlexyFollow, "", "FlexyFollow");
+NEED_NO_BOX(GlobalNamespace::FlexyFollow);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlexyFollow, "", "FlexyFollow");

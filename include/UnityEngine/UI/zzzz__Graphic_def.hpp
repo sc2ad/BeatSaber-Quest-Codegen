@@ -4,30 +4,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-class Mesh;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::UI::CoroutineTween {
-struct ColorTween;
-}
-namespace UnityEngine::UI {
-class VertexHelper;
-}
-namespace UnityEngine::UI {
-class ICanvasElement;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine {
-class Canvas;
+class CanvasRenderer;
 }
 namespace UnityEngine {
 class Camera;
@@ -35,40 +13,61 @@ class Camera;
 namespace UnityEngine {
 class Transform;
 }
-namespace UnityEngine::UI::CoroutineTween {
-template<typename T>
-class TweenRunner_1;
-}
-namespace UnityEngine::Events {
-class UnityAction;
-}
 namespace UnityEngine {
 class Material;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace UnityEngine::UI {
+class VertexHelper;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine {
 class Texture;
 }
 namespace UnityEngine {
-struct UIVertex;
+class Canvas;
 }
-namespace UnityEngine {
-class Texture2D;
-}
-namespace UnityEngine {
-struct Rect;
+namespace UnityEngine::UI {
+struct CanvasUpdate;
 }
 namespace UnityEngine {
 class RectTransform;
+}
+namespace UnityEngine::Events {
+class UnityAction;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine {
-class CanvasRenderer;
+struct Rect;
 }
 namespace UnityEngine::UI {
-struct CanvasUpdate;
+class ICanvasElement;
+}
+namespace UnityEngine {
+class Texture2D;
+}
+namespace UnityEngine::UI::CoroutineTween {
+struct ColorTween;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace UnityEngine {
+struct UIVertex;
+}
+namespace UnityEngine::UI::CoroutineTween {
+template<typename T>
+class TweenRunner_1;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -80,11 +79,11 @@ namespace UnityEngine::UI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13153))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12981))
 // CS Name: UnityEngine.UI.Graphic
-class CORDL_TYPE Graphic : public ::UnityEngine::EventSystems::UIBehaviour {
+class CORDL_TYPE Graphic : public UnityEngine::EventSystems::UIBehaviour {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::UI::ICanvasElement
-constexpr operator  ::UnityEngine::UI::ICanvasElement() const noexcept;
+/// @brief Convert operator to UnityEngine::UI::ICanvasElement
+constexpr operator  UnityEngine::UI::ICanvasElement() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xa0};
@@ -98,7 +97,7 @@ constexpr Graphic(Graphic const& ) noexcept = default;
 constexpr Graphic(Graphic&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Graphic(void* ptr) noexcept : ::UnityEngine::EventSystems::UIBehaviour(ptr) {
+constexpr explicit Graphic(void* ptr) noexcept : UnityEngine::EventSystems::UIBehaviour(ptr) {
 }
 
 
@@ -119,29 +118,29 @@ constexpr explicit Graphic(void* ptr) noexcept : ::UnityEngine::EventSystems::UI
 
 // Fields
 
-static ::UnityEngine::Material __declspec(property(get=__get_s_DefaultUI, put=__set_s_DefaultUI))  s_DefaultUI;
+static UnityEngine::Material __declspec(property(get=__get_s_DefaultUI, put=__set_s_DefaultUI))  s_DefaultUI;
 
-static void __set_s_DefaultUI(::UnityEngine::Material value) ;
+static void __set_s_DefaultUI(UnityEngine::Material value) ;
 
-static ::UnityEngine::Material __get_s_DefaultUI() ;
+static UnityEngine::Material __get_s_DefaultUI() ;
 
-static ::UnityEngine::Texture2D __declspec(property(get=__get_s_WhiteTexture, put=__set_s_WhiteTexture))  s_WhiteTexture;
+static UnityEngine::Texture2D __declspec(property(get=__get_s_WhiteTexture, put=__set_s_WhiteTexture))  s_WhiteTexture;
 
-static void __set_s_WhiteTexture(::UnityEngine::Texture2D value) ;
+static void __set_s_WhiteTexture(UnityEngine::Texture2D value) ;
 
-static ::UnityEngine::Texture2D __get_s_WhiteTexture() ;
+static UnityEngine::Texture2D __get_s_WhiteTexture() ;
 
- ::UnityEngine::Material __declspec(property(get=__get_m_Material, put=__set_m_Material))  m_Material;
+ UnityEngine::Material __declspec(property(get=__get_m_Material, put=__set_m_Material))  m_Material;
 
-constexpr void __set_m_Material(::UnityEngine::Material value) ;
+constexpr void __set_m_Material(UnityEngine::Material value) ;
 
-constexpr ::UnityEngine::Material __get_m_Material() const;
+constexpr UnityEngine::Material __get_m_Material() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_m_Color, put=__set_m_Color))  m_Color;
+ UnityEngine::Color __declspec(property(get=__get_m_Color, put=__set_m_Color))  m_Color;
 
-constexpr void __set_m_Color(::UnityEngine::Color value) ;
+constexpr void __set_m_Color(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_m_Color() const;
+constexpr UnityEngine::Color __get_m_Color() const;
 
  bool __declspec(property(get=__get_m_SkipLayoutUpdate, put=__set_m_SkipLayoutUpdate))  m_SkipLayoutUpdate;
 
@@ -167,29 +166,29 @@ constexpr void __set_m_RaycastTargetCache(bool value) ;
 
 constexpr bool __get_m_RaycastTargetCache() const;
 
- ::UnityEngine::Vector4 __declspec(property(get=__get_m_RaycastPadding, put=__set_m_RaycastPadding))  m_RaycastPadding;
+ UnityEngine::Vector4 __declspec(property(get=__get_m_RaycastPadding, put=__set_m_RaycastPadding))  m_RaycastPadding;
 
-constexpr void __set_m_RaycastPadding(::UnityEngine::Vector4 value) ;
+constexpr void __set_m_RaycastPadding(UnityEngine::Vector4 value) ;
 
-constexpr ::UnityEngine::Vector4 __get_m_RaycastPadding() const;
+constexpr UnityEngine::Vector4 __get_m_RaycastPadding() const;
 
- ::UnityEngine::RectTransform __declspec(property(get=__get_m_RectTransform, put=__set_m_RectTransform))  m_RectTransform;
+ UnityEngine::RectTransform __declspec(property(get=__get_m_RectTransform, put=__set_m_RectTransform))  m_RectTransform;
 
-constexpr void __set_m_RectTransform(::UnityEngine::RectTransform value) ;
+constexpr void __set_m_RectTransform(UnityEngine::RectTransform value) ;
 
-constexpr ::UnityEngine::RectTransform __get_m_RectTransform() const;
+constexpr UnityEngine::RectTransform __get_m_RectTransform() const;
 
- ::UnityEngine::CanvasRenderer __declspec(property(get=__get_m_CanvasRenderer, put=__set_m_CanvasRenderer))  m_CanvasRenderer;
+ UnityEngine::CanvasRenderer __declspec(property(get=__get_m_CanvasRenderer, put=__set_m_CanvasRenderer))  m_CanvasRenderer;
 
-constexpr void __set_m_CanvasRenderer(::UnityEngine::CanvasRenderer value) ;
+constexpr void __set_m_CanvasRenderer(UnityEngine::CanvasRenderer value) ;
 
-constexpr ::UnityEngine::CanvasRenderer __get_m_CanvasRenderer() const;
+constexpr UnityEngine::CanvasRenderer __get_m_CanvasRenderer() const;
 
- ::UnityEngine::Canvas __declspec(property(get=__get_m_Canvas, put=__set_m_Canvas))  m_Canvas;
+ UnityEngine::Canvas __declspec(property(get=__get_m_Canvas, put=__set_m_Canvas))  m_Canvas;
 
-constexpr void __set_m_Canvas(::UnityEngine::Canvas value) ;
+constexpr void __set_m_Canvas(UnityEngine::Canvas value) ;
 
-constexpr ::UnityEngine::Canvas __get_m_Canvas() const;
+constexpr UnityEngine::Canvas __get_m_Canvas() const;
 
  bool __declspec(property(get=__get_m_VertsDirty, put=__set_m_VertsDirty))  m_VertsDirty;
 
@@ -203,53 +202,53 @@ constexpr void __set_m_MaterialDirty(bool value) ;
 
 constexpr bool __get_m_MaterialDirty() const;
 
- ::UnityEngine::Events::UnityAction __declspec(property(get=__get_m_OnDirtyLayoutCallback, put=__set_m_OnDirtyLayoutCallback))  m_OnDirtyLayoutCallback;
+ UnityEngine::Events::UnityAction __declspec(property(get=__get_m_OnDirtyLayoutCallback, put=__set_m_OnDirtyLayoutCallback))  m_OnDirtyLayoutCallback;
 
-constexpr void __set_m_OnDirtyLayoutCallback(::UnityEngine::Events::UnityAction value) ;
+constexpr void __set_m_OnDirtyLayoutCallback(UnityEngine::Events::UnityAction value) ;
 
-constexpr ::UnityEngine::Events::UnityAction __get_m_OnDirtyLayoutCallback() const;
+constexpr UnityEngine::Events::UnityAction __get_m_OnDirtyLayoutCallback() const;
 
- ::UnityEngine::Events::UnityAction __declspec(property(get=__get_m_OnDirtyVertsCallback, put=__set_m_OnDirtyVertsCallback))  m_OnDirtyVertsCallback;
+ UnityEngine::Events::UnityAction __declspec(property(get=__get_m_OnDirtyVertsCallback, put=__set_m_OnDirtyVertsCallback))  m_OnDirtyVertsCallback;
 
-constexpr void __set_m_OnDirtyVertsCallback(::UnityEngine::Events::UnityAction value) ;
+constexpr void __set_m_OnDirtyVertsCallback(UnityEngine::Events::UnityAction value) ;
 
-constexpr ::UnityEngine::Events::UnityAction __get_m_OnDirtyVertsCallback() const;
+constexpr UnityEngine::Events::UnityAction __get_m_OnDirtyVertsCallback() const;
 
- ::UnityEngine::Events::UnityAction __declspec(property(get=__get_m_OnDirtyMaterialCallback, put=__set_m_OnDirtyMaterialCallback))  m_OnDirtyMaterialCallback;
+ UnityEngine::Events::UnityAction __declspec(property(get=__get_m_OnDirtyMaterialCallback, put=__set_m_OnDirtyMaterialCallback))  m_OnDirtyMaterialCallback;
 
-constexpr void __set_m_OnDirtyMaterialCallback(::UnityEngine::Events::UnityAction value) ;
+constexpr void __set_m_OnDirtyMaterialCallback(UnityEngine::Events::UnityAction value) ;
 
-constexpr ::UnityEngine::Events::UnityAction __get_m_OnDirtyMaterialCallback() const;
+constexpr UnityEngine::Events::UnityAction __get_m_OnDirtyMaterialCallback() const;
 
-static ::UnityEngine::Mesh __declspec(property(get=__get_s_Mesh, put=__set_s_Mesh))  s_Mesh;
+static UnityEngine::Mesh __declspec(property(get=__get_s_Mesh, put=__set_s_Mesh))  s_Mesh;
 
-static void __set_s_Mesh(::UnityEngine::Mesh value) ;
+static void __set_s_Mesh(UnityEngine::Mesh value) ;
 
-static ::UnityEngine::Mesh __get_s_Mesh() ;
+static UnityEngine::Mesh __get_s_Mesh() ;
 
-static ::UnityEngine::UI::VertexHelper __declspec(property(get=__get_s_VertexHelper, put=__set_s_VertexHelper))  s_VertexHelper;
+static UnityEngine::UI::VertexHelper __declspec(property(get=__get_s_VertexHelper, put=__set_s_VertexHelper))  s_VertexHelper;
 
-static void __set_s_VertexHelper(::UnityEngine::UI::VertexHelper value) ;
+static void __set_s_VertexHelper(UnityEngine::UI::VertexHelper value) ;
 
-static ::UnityEngine::UI::VertexHelper __get_s_VertexHelper() ;
+static UnityEngine::UI::VertexHelper __get_s_VertexHelper() ;
 
- ::UnityEngine::Mesh __declspec(property(get=__get_m_CachedMesh, put=__set_m_CachedMesh))  m_CachedMesh;
+ UnityEngine::Mesh __declspec(property(get=__get_m_CachedMesh, put=__set_m_CachedMesh))  m_CachedMesh;
 
-constexpr void __set_m_CachedMesh(::UnityEngine::Mesh value) ;
+constexpr void __set_m_CachedMesh(UnityEngine::Mesh value) ;
 
-constexpr ::UnityEngine::Mesh __get_m_CachedMesh() const;
+constexpr UnityEngine::Mesh __get_m_CachedMesh() const;
 
- ::ArrayW<::UnityEngine::Vector2> __declspec(property(get=__get_m_CachedUvs, put=__set_m_CachedUvs))  m_CachedUvs;
+ ::ArrayW<UnityEngine::Vector2> __declspec(property(get=__get_m_CachedUvs, put=__set_m_CachedUvs))  m_CachedUvs;
 
-constexpr void __set_m_CachedUvs(::ArrayW<::UnityEngine::Vector2> value) ;
+constexpr void __set_m_CachedUvs(::ArrayW<UnityEngine::Vector2> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector2> __get_m_CachedUvs() const;
+constexpr ::ArrayW<UnityEngine::Vector2> __get_m_CachedUvs() const;
 
- ::UnityEngine::UI::CoroutineTween::TweenRunner_1<::UnityEngine::UI::CoroutineTween::ColorTween> __declspec(property(get=__get_m_ColorTweenRunner, put=__set_m_ColorTweenRunner))  m_ColorTweenRunner;
+ UnityEngine::UI::CoroutineTween::TweenRunner_1<UnityEngine::UI::CoroutineTween::ColorTween> __declspec(property(get=__get_m_ColorTweenRunner, put=__set_m_ColorTweenRunner))  m_ColorTweenRunner;
 
-constexpr void __set_m_ColorTweenRunner(::UnityEngine::UI::CoroutineTween::TweenRunner_1<::UnityEngine::UI::CoroutineTween::ColorTween> value) ;
+constexpr void __set_m_ColorTweenRunner(UnityEngine::UI::CoroutineTween::TweenRunner_1<UnityEngine::UI::CoroutineTween::ColorTween> value) ;
 
-constexpr ::UnityEngine::UI::CoroutineTween::TweenRunner_1<::UnityEngine::UI::CoroutineTween::ColorTween> __get_m_ColorTweenRunner() const;
+constexpr UnityEngine::UI::CoroutineTween::TweenRunner_1<UnityEngine::UI::CoroutineTween::ColorTween> __get_m_ColorTweenRunner() const;
 
  bool __declspec(property(get=__get__useLegacyMeshGeneration_k__BackingField, put=__set__useLegacyMeshGeneration_k__BackingField))  _useLegacyMeshGeneration_k__BackingField;
 
@@ -260,45 +259,45 @@ constexpr bool __get__useLegacyMeshGeneration_k__BackingField() const;
 
 // Properties
 
-static ::UnityEngine::Material __declspec(property(get=get_defaultGraphicMaterial))  defaultGraphicMaterial;
+static UnityEngine::Material __declspec(property(get=get_defaultGraphicMaterial))  defaultGraphicMaterial;
 
- ::UnityEngine::Color __declspec(property(get=get_color, put=set_color))  color;
+ UnityEngine::Color __declspec(property(get=get_color, put=set_color))  color;
 
  bool __declspec(property(get=get_raycastTarget, put=set_raycastTarget))  raycastTarget;
 
- ::UnityEngine::Vector4 __declspec(property(get=get_raycastPadding, put=set_raycastPadding))  raycastPadding;
+ UnityEngine::Vector4 __declspec(property(get=get_raycastPadding, put=set_raycastPadding))  raycastPadding;
 
  bool __declspec(property(get=get_useLegacyMeshGeneration, put=set_useLegacyMeshGeneration))  useLegacyMeshGeneration;
 
  int32_t __declspec(property(get=get_depth))  depth;
 
- ::UnityEngine::RectTransform __declspec(property(get=get_rectTransform))  rectTransform;
+ UnityEngine::RectTransform __declspec(property(get=get_rectTransform))  rectTransform;
 
- ::UnityEngine::Canvas __declspec(property(get=get_canvas))  canvas;
+ UnityEngine::Canvas __declspec(property(get=get_canvas))  canvas;
 
- ::UnityEngine::CanvasRenderer __declspec(property(get=get_canvasRenderer))  canvasRenderer;
+ UnityEngine::CanvasRenderer __declspec(property(get=get_canvasRenderer))  canvasRenderer;
 
- ::UnityEngine::Material __declspec(property(get=get_defaultMaterial))  defaultMaterial;
+ UnityEngine::Material __declspec(property(get=get_defaultMaterial))  defaultMaterial;
 
- ::UnityEngine::Material __declspec(property(get=get_material, put=set_material))  material;
+ UnityEngine::Material __declspec(property(get=get_material, put=set_material))  material;
 
- ::UnityEngine::Material __declspec(property(get=get_materialForRendering))  materialForRendering;
+ UnityEngine::Material __declspec(property(get=get_materialForRendering))  materialForRendering;
 
- ::UnityEngine::Texture __declspec(property(get=get_mainTexture))  mainTexture;
+ UnityEngine::Texture __declspec(property(get=get_mainTexture))  mainTexture;
 
-static ::UnityEngine::Mesh __declspec(property(get=get_workerMesh))  workerMesh;
+static UnityEngine::Mesh __declspec(property(get=get_workerMesh))  workerMesh;
 
 
 // Methods
 
 /// @brief Method get_defaultGraphicMaterial addr 0x2be2710 size 0xdc virtual false final false
-static ::UnityEngine::Material get_defaultGraphicMaterial() ;
+static UnityEngine::Material get_defaultGraphicMaterial() ;
 
 /// @brief Method get_color addr 0x2be27ec size 0xc virtual true final false
- ::UnityEngine::Color get_color() ;
+ UnityEngine::Color get_color() ;
 
 /// @brief Method set_color addr 0x2be27f8 size 0x38 virtual true final false
- void set_color(::UnityEngine::Color value) ;
+ void set_color(UnityEngine::Color value) ;
 
 /// @brief Method get_raycastTarget addr 0x2be2830 size 0x8 virtual true final false
  bool get_raycastTarget() ;
@@ -307,10 +306,10 @@ static ::UnityEngine::Material get_defaultGraphicMaterial() ;
  void set_raycastTarget(bool value) ;
 
 /// @brief Method get_raycastPadding addr 0x2be2cf0 size 0xc virtual false final false
- ::UnityEngine::Vector4 get_raycastPadding() ;
+ UnityEngine::Vector4 get_raycastPadding() ;
 
 /// @brief Method set_raycastPadding addr 0x2be2cfc size 0xc virtual false final false
- void set_raycastPadding(::UnityEngine::Vector4 value) ;
+ void set_raycastPadding(UnityEngine::Vector4 value) ;
 
 /// @brief Method get_useLegacyMeshGeneration addr 0x2be2d08 size 0x8 virtual false final false
  bool get_useLegacyMeshGeneration() ;
@@ -352,31 +351,31 @@ explicit Graphic() ;
  int32_t get_depth() ;
 
 /// @brief Method get_rectTransform addr 0x2be2fac size 0x58 virtual true final true
- ::UnityEngine::RectTransform get_rectTransform() ;
+ UnityEngine::RectTransform get_rectTransform() ;
 
 /// @brief Method get_canvas addr 0x2be290c size 0x74 virtual false final false
- ::UnityEngine::Canvas get_canvas() ;
+ UnityEngine::Canvas get_canvas() ;
 
 /// @brief Method CacheCanvas addr 0x2be34b4 size 0x170 virtual false final false
  void CacheCanvas() ;
 
 /// @brief Method get_canvasRenderer addr 0x2be3834 size 0x90 virtual false final false
- ::UnityEngine::CanvasRenderer get_canvasRenderer() ;
+ UnityEngine::CanvasRenderer get_canvasRenderer() ;
 
 /// @brief Method get_defaultMaterial addr 0x2be38c4 size 0x4c virtual true final false
- ::UnityEngine::Material get_defaultMaterial() ;
+ UnityEngine::Material get_defaultMaterial() ;
 
 /// @brief Method get_material addr 0x2be3910 size 0x88 virtual true final false
- ::UnityEngine::Material get_material() ;
+ UnityEngine::Material get_material() ;
 
 /// @brief Method set_material addr 0x2be3998 size 0x98 virtual true final false
- void set_material(::UnityEngine::Material value) ;
+ void set_material(UnityEngine::Material value) ;
 
 /// @brief Method get_materialForRendering addr 0x2be3a30 size 0x224 virtual true final false
- ::UnityEngine::Material get_materialForRendering() ;
+ UnityEngine::Material get_materialForRendering() ;
 
 /// @brief Method get_mainTexture addr 0x2be3c54 size 0x58 virtual true final false
- ::UnityEngine::Texture get_mainTexture() ;
+ UnityEngine::Texture get_mainTexture() ;
 
 /// @brief Method OnEnable addr 0x2be3cac size 0x130 virtual true final false
  void OnEnable() ;
@@ -394,7 +393,7 @@ explicit Graphic() ;
  void OnCullingChanged() ;
 
 /// @brief Method Rebuild addr 0x2be4390 size 0xe4 virtual true final false
- void Rebuild(::UnityEngine::UI::CanvasUpdate update) ;
+ void Rebuild(UnityEngine::UI::CanvasUpdate update) ;
 
 /// @brief Method LayoutComplete addr 0x2be4474 size 0x4 virtual true final false
  void LayoutComplete() ;
@@ -415,16 +414,16 @@ explicit Graphic() ;
  void DoLegacyMeshGeneration() ;
 
 /// @brief Method get_workerMesh addr 0x2be4cb8 size 0x13c virtual false final false
-static ::UnityEngine::Mesh get_workerMesh() ;
+static UnityEngine::Mesh get_workerMesh() ;
 
 /// @brief Method OnFillVBO addr 0x2be4df4 size 0x4 virtual true final false
- void OnFillVBO(::System::Collections::Generic::List_1<::UnityEngine::UIVertex> vbo) ;
+ void OnFillVBO(System::Collections::Generic::List_1<UnityEngine::UIVertex> vbo) ;
 
 /// @brief Method OnPopulateMesh addr 0x2be4df8 size 0x98 virtual true final false
- void OnPopulateMesh(::UnityEngine::Mesh m) ;
+ void OnPopulateMesh(UnityEngine::Mesh m) ;
 
 /// @brief Method OnPopulateMesh addr 0x2be4e90 size 0x48c virtual true final false
- void OnPopulateMesh(::UnityEngine::UI::VertexHelper vh) ;
+ void OnPopulateMesh(UnityEngine::UI::VertexHelper vh) ;
 
 /// @brief Method OnDidApplyAnimationProperties addr 0x2be5448 size 0x10 virtual true final false
  void OnDidApplyAnimationProperties() ;
@@ -433,51 +432,50 @@ static ::UnityEngine::Mesh get_workerMesh() ;
  void SetNativeSize() ;
 
 /// @brief Method Raycast addr 0x2be545c size 0x48c virtual true final false
- bool Raycast(::UnityEngine::Vector2 sp, ::UnityEngine::Camera eventCamera) ;
+ bool Raycast(UnityEngine::Vector2 sp, UnityEngine::Camera eventCamera) ;
 
 /// @brief Method PixelAdjustPoint addr 0x2be58e8 size 0x140 virtual false final false
- ::UnityEngine::Vector2 PixelAdjustPoint(::UnityEngine::Vector2 point) ;
+ UnityEngine::Vector2 PixelAdjustPoint(UnityEngine::Vector2 point) ;
 
 /// @brief Method GetPixelAdjustedRect addr 0x2be531c size 0x12c virtual false final false
- ::UnityEngine::Rect GetPixelAdjustedRect() ;
+ UnityEngine::Rect GetPixelAdjustedRect() ;
 
 /// @brief Method CrossFadeColor addr 0x2be5a28 size 0x1c virtual true final false
- void CrossFadeColor(::UnityEngine::Color targetColor, float_t duration, bool ignoreTimeScale, bool useAlpha) ;
+ void CrossFadeColor(UnityEngine::Color targetColor, float_t duration, bool ignoreTimeScale, bool useAlpha) ;
 
 /// @brief Method CrossFadeColor addr 0x2be5a44 size 0x294 virtual true final false
- void CrossFadeColor(::UnityEngine::Color targetColor, float_t duration, bool ignoreTimeScale, bool useAlpha, bool useRGB) ;
+ void CrossFadeColor(UnityEngine::Color targetColor, float_t duration, bool ignoreTimeScale, bool useAlpha, bool useRGB) ;
 
 /// @brief Method CreateColorFromAlpha addr 0x2be5cd8 size 0x14 virtual false final false
-static ::UnityEngine::Color CreateColorFromAlpha(float_t alpha) ;
+static UnityEngine::Color CreateColorFromAlpha(float_t alpha) ;
 
 /// @brief Method CrossFadeAlpha addr 0x2be5cec size 0x9c virtual true final false
  void CrossFadeAlpha(float_t alpha, float_t duration, bool ignoreTimeScale) ;
 
 /// @brief Method RegisterDirtyLayoutCallback addr 0x2be5d88 size 0x80 virtual false final false
- void RegisterDirtyLayoutCallback(::UnityEngine::Events::UnityAction action) ;
+ void RegisterDirtyLayoutCallback(UnityEngine::Events::UnityAction action) ;
 
 /// @brief Method UnregisterDirtyLayoutCallback addr 0x2be5e08 size 0x80 virtual false final false
- void UnregisterDirtyLayoutCallback(::UnityEngine::Events::UnityAction action) ;
+ void UnregisterDirtyLayoutCallback(UnityEngine::Events::UnityAction action) ;
 
 /// @brief Method RegisterDirtyVerticesCallback addr 0x2be5e88 size 0x80 virtual false final false
- void RegisterDirtyVerticesCallback(::UnityEngine::Events::UnityAction action) ;
+ void RegisterDirtyVerticesCallback(UnityEngine::Events::UnityAction action) ;
 
 /// @brief Method UnregisterDirtyVerticesCallback addr 0x2be5f08 size 0x80 virtual false final false
- void UnregisterDirtyVerticesCallback(::UnityEngine::Events::UnityAction action) ;
+ void UnregisterDirtyVerticesCallback(UnityEngine::Events::UnityAction action) ;
 
 /// @brief Method RegisterDirtyMaterialCallback addr 0x2be5f88 size 0x80 virtual false final false
- void RegisterDirtyMaterialCallback(::UnityEngine::Events::UnityAction action) ;
+ void RegisterDirtyMaterialCallback(UnityEngine::Events::UnityAction action) ;
 
 /// @brief Method UnregisterDirtyMaterialCallback addr 0x2be6008 size 0x80 virtual false final false
- void UnregisterDirtyMaterialCallback(::UnityEngine::Events::UnityAction action) ;
+ void UnregisterDirtyMaterialCallback(UnityEngine::Events::UnityAction action) ;
 
 /// @brief Method UnityEngine.UI.ICanvasElement.get_transform addr 0x2be6118 size 0x8 virtual true final true
- ::UnityEngine::Transform UnityEngine_UI_ICanvasElement_get_transform() ;
+ UnityEngine::Transform UnityEngine_UI_ICanvasElement_get_transform() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UI
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UI::Graphic);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::Graphic, "UnityEngine.UI", "Graphic");
+NEED_NO_BOX(UnityEngine::UI::Graphic);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Graphic, "UnityEngine.UI", "Graphic");

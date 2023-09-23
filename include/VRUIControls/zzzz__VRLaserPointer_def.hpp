@@ -3,7 +3,6 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -23,7 +22,7 @@ namespace VRUIControls {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15643))
 // CS Name: VRUIControls.VRLaserPointer
-class CORDL_TYPE VRLaserPointer : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE VRLaserPointer : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr VRLaserPointer(VRLaserPointer const& ) noexcept = default;
 constexpr VRLaserPointer(VRLaserPointer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit VRLaserPointer(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit VRLaserPointer(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -59,11 +58,11 @@ constexpr explicit VRLaserPointer(void* ptr) noexcept : ::UnityEngine::MonoBehav
 
 // Fields
 
- ::UnityEngine::MeshRenderer __declspec(property(get=__get__renderer, put=__set__renderer))  _renderer;
+ UnityEngine::MeshRenderer __declspec(property(get=__get__renderer, put=__set__renderer))  _renderer;
 
-constexpr void __set__renderer(::UnityEngine::MeshRenderer value) ;
+constexpr void __set__renderer(UnityEngine::MeshRenderer value) ;
 
-constexpr ::UnityEngine::MeshRenderer __get__renderer() const;
+constexpr UnityEngine::MeshRenderer __get__renderer() const;
 
 static int32_t __declspec(property(get=__get__fadeStartNormalizedDistanceId, put=__set__fadeStartNormalizedDistanceId))  _fadeStartNormalizedDistanceId;
 
@@ -71,20 +70,20 @@ static void __set__fadeStartNormalizedDistanceId(int32_t value) ;
 
 static int32_t __get__fadeStartNormalizedDistanceId() ;
 
-static ::UnityEngine::MaterialPropertyBlock __declspec(property(get=__get__materialPropertyBlock, put=__set__materialPropertyBlock))  _materialPropertyBlock;
+static UnityEngine::MaterialPropertyBlock __declspec(property(get=__get__materialPropertyBlock, put=__set__materialPropertyBlock))  _materialPropertyBlock;
 
-static void __set__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock value) ;
+static void __set__materialPropertyBlock(UnityEngine::MaterialPropertyBlock value) ;
 
-static ::UnityEngine::MaterialPropertyBlock __get__materialPropertyBlock() ;
+static UnityEngine::MaterialPropertyBlock __get__materialPropertyBlock() ;
 
 
 // Methods
 
 /// @brief Method SetLocalPosition addr 0x2d3f354 size 0x48 virtual false final false
- void SetLocalPosition(::UnityEngine::Vector3 position) ;
+ void SetLocalPosition(UnityEngine::Vector3 position) ;
 
 /// @brief Method SetLocalScale addr 0x2d3f39c size 0x48 virtual false final false
- void SetLocalScale(::UnityEngine::Vector3 scale) ;
+ void SetLocalScale(UnityEngine::Vector3 scale) ;
 
 /// @brief Method SetFadeDistance addr 0x2d3f3e4 size 0xfc virtual false final false
  void SetFadeDistance(float_t distance) ;
@@ -99,6 +98,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def VRUIControls
-} // end anonymous namespace
-NEED_NO_BOX(::VRUIControls::VRLaserPointer);
-DEFINE_IL2CPP_ARG_TYPE(::VRUIControls::VRLaserPointer, "VRUIControls", "VRLaserPointer");
+NEED_NO_BOX(VRUIControls::VRLaserPointer);
+DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRLaserPointer, "VRUIControls", "VRLaserPointer");

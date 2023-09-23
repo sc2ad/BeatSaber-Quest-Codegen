@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Runtime::Remoting::Contexts {
 class Context;
 }
@@ -36,15 +35,14 @@ constexpr explicit IContextProperty(void* ptr) noexcept : ::cordl_internals::Int
  ::StringW get_Name() ;
 
 /// @brief Method Freeze addr 0x0 size 0xffffffffffffffff virtual true final false
- void Freeze(::System::Runtime::Remoting::Contexts::Context newContext) ;
+ void Freeze(System::Runtime::Remoting::Contexts::Context newContext) ;
 
 /// @brief Method IsNewContextOK addr 0x0 size 0xffffffffffffffff virtual true final false
- bool IsNewContextOK(::System::Runtime::Remoting::Contexts::Context newCtx) ;
+ bool IsNewContextOK(System::Runtime::Remoting::Contexts::Context newCtx) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Contexts
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Contexts::IContextProperty);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Contexts::IContextProperty, "System.Runtime.Remoting.Contexts", "IContextProperty");
+NEED_NO_BOX(System::Runtime::Remoting::Contexts::IContextProperty);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::IContextProperty, "System.Runtime.Remoting.Contexts", "IContextProperty");

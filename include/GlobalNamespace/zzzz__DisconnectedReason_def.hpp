@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 struct DisconnectedReason;
@@ -75,38 +74,37 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::GlobalNamespace::DisconnectedReason const Unknown;
+static GlobalNamespace::DisconnectedReason const Unknown;
 
 /// @brief Field UserInitiated offset 0
-static ::GlobalNamespace::DisconnectedReason const UserInitiated;
+static GlobalNamespace::DisconnectedReason const UserInitiated;
 
 /// @brief Field Timeout offset 0
-static ::GlobalNamespace::DisconnectedReason const Timeout;
+static GlobalNamespace::DisconnectedReason const Timeout;
 
 /// @brief Field Kicked offset 0
-static ::GlobalNamespace::DisconnectedReason const Kicked;
+static GlobalNamespace::DisconnectedReason const Kicked;
 
 /// @brief Field ServerAtCapacity offset 0
-static ::GlobalNamespace::DisconnectedReason const ServerAtCapacity;
+static GlobalNamespace::DisconnectedReason const ServerAtCapacity;
 
 /// @brief Field ServerConnectionClosed offset 0
-static ::GlobalNamespace::DisconnectedReason const ServerConnectionClosed;
+static GlobalNamespace::DisconnectedReason const ServerConnectionClosed;
 
 /// @brief Field MasterServerUnreachable offset 0
-static ::GlobalNamespace::DisconnectedReason const MasterServerUnreachable;
+static GlobalNamespace::DisconnectedReason const MasterServerUnreachable;
 
 /// @brief Field ClientConnectionClosed offset 0
-static ::GlobalNamespace::DisconnectedReason const ClientConnectionClosed;
+static GlobalNamespace::DisconnectedReason const ClientConnectionClosed;
 
 /// @brief Field NetworkDisconnected offset 0
-static ::GlobalNamespace::DisconnectedReason const NetworkDisconnected;
+static GlobalNamespace::DisconnectedReason const NetworkDisconnected;
 
 /// @brief Field ServerTerminated offset 0
-static ::GlobalNamespace::DisconnectedReason const ServerTerminated;
+static GlobalNamespace::DisconnectedReason const ServerTerminated;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DisconnectedReason, "", "DisconnectedReason");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisconnectedReason, "", "DisconnectedReason");

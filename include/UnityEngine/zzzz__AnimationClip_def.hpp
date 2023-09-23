@@ -6,27 +6,26 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
-class AnimationEvent;
-}
-namespace System {
-class Array;
-}
-namespace System {
-class Type;
+struct Bounds;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine {
-struct Bounds;
+class AnimationCurve;
+}
+namespace System {
+class Type;
 }
 namespace UnityEngine {
 struct WrapMode;
 }
 namespace UnityEngine {
-class AnimationCurve;
+class AnimationEvent;
+}
+namespace System {
+class Array;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -38,7 +37,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15039))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15054))
 // CS Name: UnityEngine.AnimationClip
-class CORDL_TYPE AnimationClip : public ::UnityEngine::Motion {
+class CORDL_TYPE AnimationClip : public UnityEngine::Motion {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -53,7 +52,7 @@ constexpr AnimationClip(AnimationClip const& ) noexcept = default;
 constexpr AnimationClip(AnimationClip&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AnimationClip(void* ptr) noexcept : ::UnityEngine::Motion(ptr) {
+constexpr explicit AnimationClip(void* ptr) noexcept : UnityEngine::Motion(ptr) {
 }
 
 
@@ -82,9 +81,9 @@ constexpr explicit AnimationClip(void* ptr) noexcept : ::UnityEngine::Motion(ptr
 
  float_t __declspec(property(get=get_frameRate, put=set_frameRate))  frameRate;
 
- ::UnityEngine::WrapMode __declspec(property(get=get_wrapMode, put=set_wrapMode))  wrapMode;
+ UnityEngine::WrapMode __declspec(property(get=get_wrapMode, put=set_wrapMode))  wrapMode;
 
- ::UnityEngine::Bounds __declspec(property(get=get_localBounds, put=set_localBounds))  localBounds;
+ UnityEngine::Bounds __declspec(property(get=get_localBounds, put=set_localBounds))  localBounds;
 
  bool __declspec(property(get=get_legacy, put=set_legacy))  legacy;
 
@@ -102,7 +101,7 @@ constexpr explicit AnimationClip(void* ptr) noexcept : ::UnityEngine::Motion(ptr
 
  bool __declspec(property(get=get_hasRootMotion))  hasRootMotion;
 
- ::ArrayW<::UnityEngine::AnimationEvent> __declspec(property(get=get_events, put=set_events))  events;
+ ::ArrayW<UnityEngine::AnimationEvent> __declspec(property(get=get_events, put=set_events))  events;
 
 
 // Methods
@@ -114,13 +113,13 @@ explicit AnimationClip() ;
  void _ctor() ;
 
 /// @brief Method Internal_CreateAnimationClip addr 0x2b1feb4 size 0x3c virtual false final false
-static void Internal_CreateAnimationClip(::UnityEngine::AnimationClip self) ;
+static void Internal_CreateAnimationClip(UnityEngine::AnimationClip self) ;
 
 /// @brief Method SampleAnimation addr 0x2b1fef0 size 0x8c virtual false final false
- void SampleAnimation(::UnityEngine::GameObject go, float_t time) ;
+ void SampleAnimation(UnityEngine::GameObject go, float_t time) ;
 
 /// @brief Method SampleAnimation addr 0x2b1ffb8 size 0x64 virtual false final false
-static void SampleAnimation(::UnityEngine::GameObject go, ::UnityEngine::AnimationClip clip, float_t inTime, ::UnityEngine::WrapMode wrapMode) ;
+static void SampleAnimation(UnityEngine::GameObject go, UnityEngine::AnimationClip clip, float_t inTime, UnityEngine::WrapMode wrapMode) ;
 
 /// @brief Method get_length addr 0x2b2001c size 0x3c virtual false final false
  float_t get_length() ;
@@ -138,7 +137,7 @@ static void SampleAnimation(::UnityEngine::GameObject go, ::UnityEngine::Animati
  void set_frameRate(float_t value) ;
 
 /// @brief Method SetCurve addr 0x2b20158 size 0x6c virtual false final false
- void SetCurve(::StringW relativePath, ::System::Type type, ::StringW propertyName, ::UnityEngine::AnimationCurve curve) ;
+ void SetCurve(::StringW relativePath, System::Type type, ::StringW propertyName, UnityEngine::AnimationCurve curve) ;
 
 /// @brief Method EnsureQuaternionContinuity addr 0x2b201c4 size 0x3c virtual false final false
  void EnsureQuaternionContinuity() ;
@@ -147,16 +146,16 @@ static void SampleAnimation(::UnityEngine::GameObject go, ::UnityEngine::Animati
  void ClearCurves() ;
 
 /// @brief Method get_wrapMode addr 0x2b1ff7c size 0x3c virtual false final false
- ::UnityEngine::WrapMode get_wrapMode() ;
+ UnityEngine::WrapMode get_wrapMode() ;
 
 /// @brief Method set_wrapMode addr 0x2b2023c size 0x44 virtual false final false
- void set_wrapMode(::UnityEngine::WrapMode value) ;
+ void set_wrapMode(UnityEngine::WrapMode value) ;
 
 /// @brief Method get_localBounds addr 0x2b20280 size 0x68 virtual false final false
- ::UnityEngine::Bounds get_localBounds() ;
+ UnityEngine::Bounds get_localBounds() ;
 
 /// @brief Method set_localBounds addr 0x2b2032c size 0x44 virtual false final false
- void set_localBounds(::UnityEngine::Bounds value) ;
+ void set_localBounds(UnityEngine::Bounds value) ;
 
 /// @brief Method get_legacy addr 0x2b203b4 size 0x3c virtual false final false
  bool get_legacy() ;
@@ -186,33 +185,32 @@ static void SampleAnimation(::UnityEngine::GameObject go, ::UnityEngine::Animati
  bool get_hasRootMotion() ;
 
 /// @brief Method AddEvent addr 0x2b205d8 size 0x94 virtual false final false
- void AddEvent(::UnityEngine::AnimationEvent evt) ;
+ void AddEvent(UnityEngine::AnimationEvent evt) ;
 
 /// @brief Method AddEventInternal addr 0x2b2066c size 0x44 virtual false final false
  void AddEventInternal(::bs_hook::Il2CppWrapperType evt) ;
 
 /// @brief Method get_events addr 0x2b206b0 size 0x8c virtual false final false
- ::ArrayW<::UnityEngine::AnimationEvent> get_events() ;
+ ::ArrayW<UnityEngine::AnimationEvent> get_events() ;
 
 /// @brief Method set_events addr 0x2b20778 size 0x44 virtual false final false
- void set_events(::ArrayW<::UnityEngine::AnimationEvent> value) ;
+ void set_events(::ArrayW<UnityEngine::AnimationEvent> value) ;
 
 /// @brief Method SetEventsInternal addr 0x2b207bc size 0x44 virtual false final false
- void SetEventsInternal(::System::Array value) ;
+ void SetEventsInternal(System::Array value) ;
 
 /// @brief Method GetEventsInternal addr 0x2b2073c size 0x3c virtual false final false
- ::System::Array GetEventsInternal() ;
+ System::Array GetEventsInternal() ;
 
 /// @brief Method get_localBounds_Injected addr 0x2b202e8 size 0x44 virtual false final false
- void get_localBounds_Injected(ByRef<::UnityEngine::Bounds> ret) ;
+ void get_localBounds_Injected(ByRef<UnityEngine::Bounds> ret) ;
 
 /// @brief Method set_localBounds_Injected addr 0x2b20370 size 0x44 virtual false final false
- void set_localBounds_Injected(ByRef<::UnityEngine::Bounds> value) ;
+ void set_localBounds_Injected(ByRef<UnityEngine::Bounds> value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AnimationClip);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AnimationClip, "UnityEngine", "AnimationClip");
+NEED_NO_BOX(UnityEngine::AnimationClip);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimationClip, "UnityEngine", "AnimationClip");

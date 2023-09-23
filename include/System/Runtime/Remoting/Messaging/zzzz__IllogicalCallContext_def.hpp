@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Collections {
 class Hashtable;
 }
@@ -52,11 +51,11 @@ constexpr explicit IllogicalCallContext(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 // Fields
 
- ::System::Collections::Hashtable __declspec(property(get=__get_m_Datastore, put=__set_m_Datastore))  m_Datastore;
+ System::Collections::Hashtable __declspec(property(get=__get_m_Datastore, put=__set_m_Datastore))  m_Datastore;
 
-constexpr void __set_m_Datastore(::System::Collections::Hashtable value) ;
+constexpr void __set_m_Datastore(System::Collections::Hashtable value) ;
 
-constexpr ::System::Collections::Hashtable __get_m_Datastore() const;
+constexpr System::Collections::Hashtable __get_m_Datastore() const;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=__get_m_HostContext, put=__set_m_HostContext))  m_HostContext;
 
@@ -67,7 +66,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_m_HostContext() const;
 
 // Properties
 
- ::System::Collections::Hashtable __declspec(property(get=get_Datastore))  Datastore;
+ System::Collections::Hashtable __declspec(property(get=get_Datastore))  Datastore;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_HostContext, put=set_HostContext))  HostContext;
 
@@ -77,7 +76,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_m_HostContext() const;
 // Methods
 
 /// @brief Method get_Datastore addr 0x233a110 size 0x6c virtual false final false
- ::System::Collections::Hashtable get_Datastore() ;
+ System::Collections::Hashtable get_Datastore() ;
 
 /// @brief Method get_HostContext addr 0x233a17c size 0x8 virtual false final false
  ::bs_hook::Il2CppWrapperType get_HostContext() ;
@@ -92,7 +91,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_m_HostContext() const;
  void FreeNamedDataSlot(::StringW name) ;
 
 /// @brief Method CreateCopy addr 0x233a1b8 size 0x254 virtual false final false
- ::System::Runtime::Remoting::Messaging::IllogicalCallContext CreateCopy() ;
+ System::Runtime::Remoting::Messaging::IllogicalCallContext CreateCopy() ;
 
 // Ctor Parameters []
 explicit IllogicalCallContext() ;
@@ -104,6 +103,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Messaging
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Messaging::IllogicalCallContext);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::IllogicalCallContext, "System.Runtime.Remoting.Messaging", "IllogicalCallContext");
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::IllogicalCallContext);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::IllogicalCallContext, "System.Runtime.Remoting.Messaging", "IllogicalCallContext");

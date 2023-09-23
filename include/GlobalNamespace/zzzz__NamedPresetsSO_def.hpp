@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace GlobalNamespace {
 class NamedPreset;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4460))
 // CS Name: NamedPresetsSO
-class CORDL_TYPE NamedPresetsSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE NamedPresetsSO : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr NamedPresetsSO(NamedPresetsSO const& ) noexcept = default;
 constexpr NamedPresetsSO(NamedPresetsSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NamedPresetsSO(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit NamedPresetsSO(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -52,13 +51,13 @@ constexpr explicit NamedPresetsSO(void* ptr) noexcept : ::GlobalNamespace::Persi
 
 // Properties
 
- ::ArrayW<::GlobalNamespace::NamedPreset> __declspec(property(get=get_namedPresets))  namedPresets;
+ ::ArrayW<GlobalNamespace::NamedPreset> __declspec(property(get=get_namedPresets))  namedPresets;
 
 
 // Methods
 
 /// @brief Method get_namedPresets addr 0x0 size 0xffffffffffffffff virtual true final false
- ::ArrayW<::GlobalNamespace::NamedPreset> get_namedPresets() ;
+ ::ArrayW<GlobalNamespace::NamedPreset> get_namedPresets() ;
 
 // Ctor Parameters []
 explicit NamedPresetsSO() ;
@@ -70,6 +69,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::NamedPresetsSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NamedPresetsSO, "", "NamedPresetsSO");
+NEED_NO_BOX(GlobalNamespace::NamedPresetsSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NamedPresetsSO, "", "NamedPresetsSO");

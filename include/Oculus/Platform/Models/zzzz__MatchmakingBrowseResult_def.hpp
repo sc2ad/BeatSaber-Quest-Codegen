@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
 class MatchmakingEnqueueResult;
 }
@@ -55,17 +54,17 @@ constexpr explicit MatchmakingBrowseResult(void* ptr) noexcept : ::bs_hook::Il2C
 
 // Fields
 
- ::Oculus::Platform::Models::MatchmakingEnqueueResult __declspec(property(get=__get_EnqueueResult, put=__set_EnqueueResult))  EnqueueResult;
+ Oculus::Platform::Models::MatchmakingEnqueueResult __declspec(property(get=__get_EnqueueResult, put=__set_EnqueueResult))  EnqueueResult;
 
-constexpr void __set_EnqueueResult(::Oculus::Platform::Models::MatchmakingEnqueueResult value) ;
+constexpr void __set_EnqueueResult(Oculus::Platform::Models::MatchmakingEnqueueResult value) ;
 
-constexpr ::Oculus::Platform::Models::MatchmakingEnqueueResult __get_EnqueueResult() const;
+constexpr Oculus::Platform::Models::MatchmakingEnqueueResult __get_EnqueueResult() const;
 
- ::Oculus::Platform::Models::RoomList __declspec(property(get=__get_Rooms, put=__set_Rooms))  Rooms;
+ Oculus::Platform::Models::RoomList __declspec(property(get=__get_Rooms, put=__set_Rooms))  Rooms;
 
-constexpr void __set_Rooms(::Oculus::Platform::Models::RoomList value) ;
+constexpr void __set_Rooms(Oculus::Platform::Models::RoomList value) ;
 
-constexpr ::Oculus::Platform::Models::RoomList __get_Rooms() const;
+constexpr Oculus::Platform::Models::RoomList __get_Rooms() const;
 
 
 // Methods
@@ -80,6 +79,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::MatchmakingBrowseResult);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::MatchmakingBrowseResult, "Oculus.Platform.Models", "MatchmakingBrowseResult");
+NEED_NO_BOX(Oculus::Platform::Models::MatchmakingBrowseResult);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::MatchmakingBrowseResult, "Oculus.Platform.Models", "MatchmakingBrowseResult");

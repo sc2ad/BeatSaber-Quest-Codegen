@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace BeatSaberAPI::DataTransferObjects {
 class UserInfo;
 }
@@ -54,17 +53,17 @@ constexpr explicit UserAuthenticationResult(void* ptr) noexcept : ::bs_hook::Il2
 
 // Fields
 
- ::BeatSaberAPI::DataTransferObjects::UserInfo __declspec(property(get=__get_userInfo, put=__set_userInfo))  userInfo;
+ BeatSaberAPI::DataTransferObjects::UserInfo __declspec(property(get=__get_userInfo, put=__set_userInfo))  userInfo;
 
-constexpr void __set_userInfo(::BeatSaberAPI::DataTransferObjects::UserInfo value) ;
+constexpr void __set_userInfo(BeatSaberAPI::DataTransferObjects::UserInfo value) ;
 
-constexpr ::BeatSaberAPI::DataTransferObjects::UserInfo __get_userInfo() const;
+constexpr BeatSaberAPI::DataTransferObjects::UserInfo __get_userInfo() const;
 
- ::BeatSaberAPI::DataTransferObjects::AccessToken __declspec(property(get=__get_accessToken, put=__set_accessToken))  accessToken;
+ BeatSaberAPI::DataTransferObjects::AccessToken __declspec(property(get=__get_accessToken, put=__set_accessToken))  accessToken;
 
-constexpr void __set_accessToken(::BeatSaberAPI::DataTransferObjects::AccessToken value) ;
+constexpr void __set_accessToken(BeatSaberAPI::DataTransferObjects::AccessToken value) ;
 
-constexpr ::BeatSaberAPI::DataTransferObjects::AccessToken __get_accessToken() const;
+constexpr BeatSaberAPI::DataTransferObjects::AccessToken __get_accessToken() const;
 
 
 // Methods
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def BeatSaberAPI::DataTransferObjects
-} // end anonymous namespace
-NEED_NO_BOX(::BeatSaberAPI::DataTransferObjects::UserAuthenticationResult);
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaberAPI::DataTransferObjects::UserAuthenticationResult, "BeatSaberAPI.DataTransferObjects", "UserAuthenticationResult");
+NEED_NO_BOX(BeatSaberAPI::DataTransferObjects::UserAuthenticationResult);
+DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::UserAuthenticationResult, "BeatSaberAPI.DataTransferObjects", "UserAuthenticationResult");

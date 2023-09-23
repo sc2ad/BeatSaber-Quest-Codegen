@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct EVRState;
@@ -74,35 +73,34 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Undefined offset 0
-static ::OVR::OpenVR::EVRState const Undefined;
+static OVR::OpenVR::EVRState const Undefined;
 
 /// @brief Field Off offset 0
-static ::OVR::OpenVR::EVRState const Off;
+static OVR::OpenVR::EVRState const Off;
 
 /// @brief Field Searching offset 0
-static ::OVR::OpenVR::EVRState const Searching;
+static OVR::OpenVR::EVRState const Searching;
 
 /// @brief Field Searching_Alert offset 0
-static ::OVR::OpenVR::EVRState const Searching_Alert;
+static OVR::OpenVR::EVRState const Searching_Alert;
 
 /// @brief Field Ready offset 0
-static ::OVR::OpenVR::EVRState const Ready;
+static OVR::OpenVR::EVRState const Ready;
 
 /// @brief Field Ready_Alert offset 0
-static ::OVR::OpenVR::EVRState const Ready_Alert;
+static OVR::OpenVR::EVRState const Ready_Alert;
 
 /// @brief Field NotReady offset 0
-static ::OVR::OpenVR::EVRState const NotReady;
+static OVR::OpenVR::EVRState const NotReady;
 
 /// @brief Field Standby offset 0
-static ::OVR::OpenVR::EVRState const Standby;
+static OVR::OpenVR::EVRState const Standby;
 
 /// @brief Field Ready_Alert_Low offset 0
-static ::OVR::OpenVR::EVRState const Ready_Alert_Low;
+static OVR::OpenVR::EVRState const Ready_Alert_Low;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRState, "OVR.OpenVR", "EVRState");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRState, "OVR.OpenVR", "EVRState");

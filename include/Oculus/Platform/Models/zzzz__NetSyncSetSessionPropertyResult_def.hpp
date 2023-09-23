@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
 class NetSyncSession;
 }
@@ -52,11 +51,11 @@ constexpr explicit NetSyncSetSessionPropertyResult(void* ptr) noexcept : ::bs_ho
 
 // Fields
 
- ::Oculus::Platform::Models::NetSyncSession __declspec(property(get=__get_Session, put=__set_Session))  Session;
+ Oculus::Platform::Models::NetSyncSession __declspec(property(get=__get_Session, put=__set_Session))  Session;
 
-constexpr void __set_Session(::Oculus::Platform::Models::NetSyncSession value) ;
+constexpr void __set_Session(Oculus::Platform::Models::NetSyncSession value) ;
 
-constexpr ::Oculus::Platform::Models::NetSyncSession __get_Session() const;
+constexpr Oculus::Platform::Models::NetSyncSession __get_Session() const;
 
 
 // Methods
@@ -71,6 +70,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::NetSyncSetSessionPropertyResult);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::NetSyncSetSessionPropertyResult, "Oculus.Platform.Models", "NetSyncSetSessionPropertyResult");
+NEED_NO_BOX(Oculus::Platform::Models::NetSyncSetSessionPropertyResult);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::NetSyncSetSessionPropertyResult, "Oculus.Platform.Models", "NetSyncSetSessionPropertyResult");

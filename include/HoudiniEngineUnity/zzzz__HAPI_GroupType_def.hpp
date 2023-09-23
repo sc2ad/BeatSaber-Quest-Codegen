@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HAPI_GroupType;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field HAPI_GROUPTYPE_INVALID offset 0
-static ::HoudiniEngineUnity::HAPI_GroupType const HAPI_GROUPTYPE_INVALID;
+static HoudiniEngineUnity::HAPI_GroupType const HAPI_GROUPTYPE_INVALID;
 
 /// @brief Field HAPI_GROUPTYPE_POINT offset 0
-static ::HoudiniEngineUnity::HAPI_GroupType const HAPI_GROUPTYPE_POINT;
+static HoudiniEngineUnity::HAPI_GroupType const HAPI_GROUPTYPE_POINT;
 
 /// @brief Field HAPI_GROUPTYPE_PRIM offset 0
-static ::HoudiniEngineUnity::HAPI_GroupType const HAPI_GROUPTYPE_PRIM;
+static HoudiniEngineUnity::HAPI_GroupType const HAPI_GROUPTYPE_PRIM;
 
 /// @brief Field HAPI_GROUPTYPE_EDGE offset 0
-static ::HoudiniEngineUnity::HAPI_GroupType const HAPI_GROUPTYPE_EDGE;
+static HoudiniEngineUnity::HAPI_GroupType const HAPI_GROUPTYPE_EDGE;
 
 /// @brief Field HAPI_GROUPTYPE_MAX offset 0
-static ::HoudiniEngineUnity::HAPI_GroupType const HAPI_GROUPTYPE_MAX;
+static HoudiniEngineUnity::HAPI_GroupType const HAPI_GROUPTYPE_MAX;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_GroupType, "HoudiniEngineUnity", "HAPI_GroupType");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_GroupType, "HoudiniEngineUnity", "HAPI_GroupType");

@@ -6,12 +6,30 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
-class StandardLevelInfoSaveData;
+class ColorScheme;
+}
+namespace GlobalNamespace {
+class EnvironmentInfoSO;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
 }
 namespace UnityEngine {
 class Sprite;
+}
+namespace GlobalNamespace {
+class PreviewDifficultyBeatmapSet;
+}
+namespace GlobalNamespace {
+class ISpriteAsyncLoader;
+}
+namespace GlobalNamespace {
+class StandardLevelInfoSaveData;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -21,26 +39,7 @@ namespace GlobalNamespace {
 class IFilePathSongPreviewAudioClipProvider;
 }
 namespace GlobalNamespace {
-class EnvironmentInfoSO;
-}
-namespace GlobalNamespace {
-class ColorScheme;
-}
-namespace GlobalNamespace {
-class PreviewDifficultyBeatmapSet;
-}
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
-}
-namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-class ISpriteAsyncLoader;
-}
-namespace System::Threading {
-struct CancellationToken;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
@@ -58,7 +57,7 @@ namespace GlobalNamespace {
 class CustomPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__CustomPreviewBeatmapLevel___GetCoverImageAsync_d__66;
+struct GlobalNamespace__CustomPreviewBeatmapLevel___GetCoverImageAsync_d__66;
 }
 // Type: ::<GetCoverImageAsync>d__66
 namespace GlobalNamespace {
@@ -66,23 +65,23 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4404))
 // CS Name: CustomPreviewBeatmapLevel::<GetCoverImageAsync>d__66
-struct CORDL_TYPE ____GlobalNamespace__CustomPreviewBeatmapLevel___GetCoverImageAsync_d__66 : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__CustomPreviewBeatmapLevel___GetCoverImageAsync_d__66 : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::CompilerServices::IAsyncStateMachine
-constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine() const;
+/// @brief Convert operator to System::Runtime::CompilerServices::IAsyncStateMachine
+constexpr operator  System::Runtime::CompilerServices::IAsyncStateMachine() const;
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityEngine::Sprite>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::CustomPreviewBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Sprite>", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__CustomPreviewBeatmapLevel___GetCoverImageAsync_d__66(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityEngine::Sprite> __t__builder, ::GlobalNamespace::CustomPreviewBeatmapLevel __4__this, ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Sprite> __u__1) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<UnityEngine::Sprite>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "GlobalNamespace::CustomPreviewBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite>", modifiers: "", def_value: None }]
+constexpr GlobalNamespace__CustomPreviewBeatmapLevel___GetCoverImageAsync_d__66(int32_t __1__state, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<UnityEngine::Sprite> __t__builder, GlobalNamespace::CustomPreviewBeatmapLevel __4__this, System::Threading::CancellationToken cancellationToken, System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite> __u__1) noexcept;
 
 
-                    constexpr ____GlobalNamespace__CustomPreviewBeatmapLevel___GetCoverImageAsync_d__66(____GlobalNamespace__CustomPreviewBeatmapLevel___GetCoverImageAsync_d__66 const&) = default;
-                    constexpr ____GlobalNamespace__CustomPreviewBeatmapLevel___GetCoverImageAsync_d__66(____GlobalNamespace__CustomPreviewBeatmapLevel___GetCoverImageAsync_d__66&&) = default;
-                    constexpr ____GlobalNamespace__CustomPreviewBeatmapLevel___GetCoverImageAsync_d__66& operator=(____GlobalNamespace__CustomPreviewBeatmapLevel___GetCoverImageAsync_d__66 const& o) {
+                    constexpr GlobalNamespace__CustomPreviewBeatmapLevel___GetCoverImageAsync_d__66(GlobalNamespace__CustomPreviewBeatmapLevel___GetCoverImageAsync_d__66 const&) = default;
+                    constexpr GlobalNamespace__CustomPreviewBeatmapLevel___GetCoverImageAsync_d__66(GlobalNamespace__CustomPreviewBeatmapLevel___GetCoverImageAsync_d__66&&) = default;
+                    constexpr GlobalNamespace__CustomPreviewBeatmapLevel___GetCoverImageAsync_d__66& operator=(GlobalNamespace__CustomPreviewBeatmapLevel___GetCoverImageAsync_d__66 const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__CustomPreviewBeatmapLevel___GetCoverImageAsync_d__66& operator=(____GlobalNamespace__CustomPreviewBeatmapLevel___GetCoverImageAsync_d__66&& o) noexcept {
+                    constexpr GlobalNamespace__CustomPreviewBeatmapLevel___GetCoverImageAsync_d__66& operator=(GlobalNamespace__CustomPreviewBeatmapLevel___GetCoverImageAsync_d__66&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -95,7 +94,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x38};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__CustomPreviewBeatmapLevel___GetCoverImageAsync_d__66(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__CustomPreviewBeatmapLevel___GetCoverImageAsync_d__66(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -112,29 +111,29 @@ constexpr void __set___1__state(int32_t value) ;
 
 constexpr int32_t __get___1__state() const;
 
- ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityEngine::Sprite> __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
+ System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<UnityEngine::Sprite> __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
 
-constexpr void __set___t__builder(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityEngine::Sprite> value) ;
+constexpr void __set___t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<UnityEngine::Sprite> value) ;
 
-constexpr ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityEngine::Sprite> __get___t__builder() const;
+constexpr System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<UnityEngine::Sprite> __get___t__builder() const;
 
- ::GlobalNamespace::CustomPreviewBeatmapLevel __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::CustomPreviewBeatmapLevel __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::CustomPreviewBeatmapLevel value) ;
+constexpr void __set___4__this(GlobalNamespace::CustomPreviewBeatmapLevel value) ;
 
-constexpr ::GlobalNamespace::CustomPreviewBeatmapLevel __get___4__this() const;
+constexpr GlobalNamespace::CustomPreviewBeatmapLevel __get___4__this() const;
 
- ::System::Threading::CancellationToken __declspec(property(get=__get_cancellationToken, put=__set_cancellationToken))  cancellationToken;
+ System::Threading::CancellationToken __declspec(property(get=__get_cancellationToken, put=__set_cancellationToken))  cancellationToken;
 
-constexpr void __set_cancellationToken(::System::Threading::CancellationToken value) ;
+constexpr void __set_cancellationToken(System::Threading::CancellationToken value) ;
 
-constexpr ::System::Threading::CancellationToken __get_cancellationToken() const;
+constexpr System::Threading::CancellationToken __get_cancellationToken() const;
 
- ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Sprite> __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
+ System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite> __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
 
-constexpr void __set___u__1(::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Sprite> value) ;
+constexpr void __set___u__1(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite> value) ;
 
-constexpr ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Sprite> __get___u__1() const;
+constexpr System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite> __get___u__1() const;
 
 
 // Methods
@@ -143,7 +142,7 @@ constexpr ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Spri
  void MoveNext() ;
 
 /// @brief Method SetStateMachine addr 0x21ea778 size 0x58 virtual true final true
- void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
+ void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -158,13 +157,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE CustomPreviewBeatmapLevel : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using _GetCoverImageAsync_d__66 = ::GlobalNamespace::____GlobalNamespace__CustomPreviewBeatmapLevel___GetCoverImageAsync_d__66;
+using _GetCoverImageAsync_d__66 = GlobalNamespace::GlobalNamespace__CustomPreviewBeatmapLevel___GetCoverImageAsync_d__66;
 
-/// @brief Convert operator to ::GlobalNamespace::IPreviewBeatmapLevel
-constexpr operator  ::GlobalNamespace::IPreviewBeatmapLevel() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IPreviewBeatmapLevel
+constexpr operator  GlobalNamespace::IPreviewBeatmapLevel() const noexcept;
 
-/// @brief Convert operator to ::GlobalNamespace::IFilePathSongPreviewAudioClipProvider
-constexpr operator  ::GlobalNamespace::IFilePathSongPreviewAudioClipProvider() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IFilePathSongPreviewAudioClipProvider
+constexpr operator  GlobalNamespace::IFilePathSongPreviewAudioClipProvider() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xa8};
@@ -199,17 +198,17 @@ constexpr explicit CustomPreviewBeatmapLevel(void* ptr) noexcept : ::bs_hook::Il
 
 // Fields
 
- ::GlobalNamespace::ISpriteAsyncLoader __declspec(property(get=__get__spriteAsyncLoader_k__BackingField, put=__set__spriteAsyncLoader_k__BackingField))  _spriteAsyncLoader_k__BackingField;
+ GlobalNamespace::ISpriteAsyncLoader __declspec(property(get=__get__spriteAsyncLoader_k__BackingField, put=__set__spriteAsyncLoader_k__BackingField))  _spriteAsyncLoader_k__BackingField;
 
-constexpr void __set__spriteAsyncLoader_k__BackingField(::GlobalNamespace::ISpriteAsyncLoader value) ;
+constexpr void __set__spriteAsyncLoader_k__BackingField(GlobalNamespace::ISpriteAsyncLoader value) ;
 
-constexpr ::GlobalNamespace::ISpriteAsyncLoader __get__spriteAsyncLoader_k__BackingField() const;
+constexpr GlobalNamespace::ISpriteAsyncLoader __get__spriteAsyncLoader_k__BackingField() const;
 
- ::GlobalNamespace::StandardLevelInfoSaveData __declspec(property(get=__get__standardLevelInfoSaveData_k__BackingField, put=__set__standardLevelInfoSaveData_k__BackingField))  _standardLevelInfoSaveData_k__BackingField;
+ GlobalNamespace::StandardLevelInfoSaveData __declspec(property(get=__get__standardLevelInfoSaveData_k__BackingField, put=__set__standardLevelInfoSaveData_k__BackingField))  _standardLevelInfoSaveData_k__BackingField;
 
-constexpr void __set__standardLevelInfoSaveData_k__BackingField(::GlobalNamespace::StandardLevelInfoSaveData value) ;
+constexpr void __set__standardLevelInfoSaveData_k__BackingField(GlobalNamespace::StandardLevelInfoSaveData value) ;
 
-constexpr ::GlobalNamespace::StandardLevelInfoSaveData __get__standardLevelInfoSaveData_k__BackingField() const;
+constexpr GlobalNamespace::StandardLevelInfoSaveData __get__standardLevelInfoSaveData_k__BackingField() const;
 
  ::StringW __declspec(property(get=__get__customLevelPath_k__BackingField, put=__set__customLevelPath_k__BackingField))  _customLevelPath_k__BackingField;
 
@@ -289,54 +288,54 @@ constexpr void __set__previewDuration_k__BackingField(float_t value) ;
 
 constexpr float_t __get__previewDuration_k__BackingField() const;
 
- ::GlobalNamespace::EnvironmentInfoSO __declspec(property(get=__get__environmentInfo_k__BackingField, put=__set__environmentInfo_k__BackingField))  _environmentInfo_k__BackingField;
+ GlobalNamespace::EnvironmentInfoSO __declspec(property(get=__get__environmentInfo_k__BackingField, put=__set__environmentInfo_k__BackingField))  _environmentInfo_k__BackingField;
 
-constexpr void __set__environmentInfo_k__BackingField(::GlobalNamespace::EnvironmentInfoSO value) ;
+constexpr void __set__environmentInfo_k__BackingField(GlobalNamespace::EnvironmentInfoSO value) ;
 
-constexpr ::GlobalNamespace::EnvironmentInfoSO __get__environmentInfo_k__BackingField() const;
+constexpr GlobalNamespace::EnvironmentInfoSO __get__environmentInfo_k__BackingField() const;
 
- ::GlobalNamespace::EnvironmentInfoSO __declspec(property(get=__get__allDirectionsEnvironmentInfo_k__BackingField, put=__set__allDirectionsEnvironmentInfo_k__BackingField))  _allDirectionsEnvironmentInfo_k__BackingField;
+ GlobalNamespace::EnvironmentInfoSO __declspec(property(get=__get__allDirectionsEnvironmentInfo_k__BackingField, put=__set__allDirectionsEnvironmentInfo_k__BackingField))  _allDirectionsEnvironmentInfo_k__BackingField;
 
-constexpr void __set__allDirectionsEnvironmentInfo_k__BackingField(::GlobalNamespace::EnvironmentInfoSO value) ;
+constexpr void __set__allDirectionsEnvironmentInfo_k__BackingField(GlobalNamespace::EnvironmentInfoSO value) ;
 
-constexpr ::GlobalNamespace::EnvironmentInfoSO __get__allDirectionsEnvironmentInfo_k__BackingField() const;
+constexpr GlobalNamespace::EnvironmentInfoSO __get__allDirectionsEnvironmentInfo_k__BackingField() const;
 
- ::ArrayW<::GlobalNamespace::EnvironmentInfoSO> __declspec(property(get=__get__environmentInfos_k__BackingField, put=__set__environmentInfos_k__BackingField))  _environmentInfos_k__BackingField;
+ ::ArrayW<GlobalNamespace::EnvironmentInfoSO> __declspec(property(get=__get__environmentInfos_k__BackingField, put=__set__environmentInfos_k__BackingField))  _environmentInfos_k__BackingField;
 
-constexpr void __set__environmentInfos_k__BackingField(::ArrayW<::GlobalNamespace::EnvironmentInfoSO> value) ;
+constexpr void __set__environmentInfos_k__BackingField(::ArrayW<GlobalNamespace::EnvironmentInfoSO> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::EnvironmentInfoSO> __get__environmentInfos_k__BackingField() const;
+constexpr ::ArrayW<GlobalNamespace::EnvironmentInfoSO> __get__environmentInfos_k__BackingField() const;
 
- ::UnityEngine::Sprite __declspec(property(get=__get__defaultCoverImage_k__BackingField, put=__set__defaultCoverImage_k__BackingField))  _defaultCoverImage_k__BackingField;
+ UnityEngine::Sprite __declspec(property(get=__get__defaultCoverImage_k__BackingField, put=__set__defaultCoverImage_k__BackingField))  _defaultCoverImage_k__BackingField;
 
-constexpr void __set__defaultCoverImage_k__BackingField(::UnityEngine::Sprite value) ;
+constexpr void __set__defaultCoverImage_k__BackingField(UnityEngine::Sprite value) ;
 
-constexpr ::UnityEngine::Sprite __get__defaultCoverImage_k__BackingField() const;
+constexpr UnityEngine::Sprite __get__defaultCoverImage_k__BackingField() const;
 
- ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet> __declspec(property(get=__get__previewDifficultyBeatmapSets_k__BackingField, put=__set__previewDifficultyBeatmapSets_k__BackingField))  _previewDifficultyBeatmapSets_k__BackingField;
+ System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PreviewDifficultyBeatmapSet> __declspec(property(get=__get__previewDifficultyBeatmapSets_k__BackingField, put=__set__previewDifficultyBeatmapSets_k__BackingField))  _previewDifficultyBeatmapSets_k__BackingField;
 
-constexpr void __set__previewDifficultyBeatmapSets_k__BackingField(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet> value) ;
+constexpr void __set__previewDifficultyBeatmapSets_k__BackingField(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PreviewDifficultyBeatmapSet> value) ;
 
-constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet> __get__previewDifficultyBeatmapSets_k__BackingField() const;
+constexpr System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PreviewDifficultyBeatmapSet> __get__previewDifficultyBeatmapSets_k__BackingField() const;
 
- ::ArrayW<::GlobalNamespace::ColorScheme> __declspec(property(get=__get__beatmapOverrideColorSchemes_k__BackingField, put=__set__beatmapOverrideColorSchemes_k__BackingField))  _beatmapOverrideColorSchemes_k__BackingField;
+ ::ArrayW<GlobalNamespace::ColorScheme> __declspec(property(get=__get__beatmapOverrideColorSchemes_k__BackingField, put=__set__beatmapOverrideColorSchemes_k__BackingField))  _beatmapOverrideColorSchemes_k__BackingField;
 
-constexpr void __set__beatmapOverrideColorSchemes_k__BackingField(::ArrayW<::GlobalNamespace::ColorScheme> value) ;
+constexpr void __set__beatmapOverrideColorSchemes_k__BackingField(::ArrayW<GlobalNamespace::ColorScheme> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::ColorScheme> __get__beatmapOverrideColorSchemes_k__BackingField() const;
+constexpr ::ArrayW<GlobalNamespace::ColorScheme> __get__beatmapOverrideColorSchemes_k__BackingField() const;
 
- ::UnityEngine::Sprite __declspec(property(get=__get__coverImage, put=__set__coverImage))  _coverImage;
+ UnityEngine::Sprite __declspec(property(get=__get__coverImage, put=__set__coverImage))  _coverImage;
 
-constexpr void __set__coverImage(::UnityEngine::Sprite value) ;
+constexpr void __set__coverImage(UnityEngine::Sprite value) ;
 
-constexpr ::UnityEngine::Sprite __get__coverImage() const;
+constexpr UnityEngine::Sprite __get__coverImage() const;
 
 
 // Properties
 
- ::GlobalNamespace::ISpriteAsyncLoader __declspec(property(get=get_spriteAsyncLoader))  spriteAsyncLoader;
+ GlobalNamespace::ISpriteAsyncLoader __declspec(property(get=get_spriteAsyncLoader))  spriteAsyncLoader;
 
- ::GlobalNamespace::StandardLevelInfoSaveData __declspec(property(get=get_standardLevelInfoSaveData))  standardLevelInfoSaveData;
+ GlobalNamespace::StandardLevelInfoSaveData __declspec(property(get=get_standardLevelInfoSaveData))  standardLevelInfoSaveData;
 
  ::StringW __declspec(property(get=get_customLevelPath))  customLevelPath;
 
@@ -364,28 +363,28 @@ constexpr ::UnityEngine::Sprite __get__coverImage() const;
 
  float_t __declspec(property(get=get_previewDuration))  previewDuration;
 
- ::GlobalNamespace::EnvironmentInfoSO __declspec(property(get=get_environmentInfo))  environmentInfo;
+ GlobalNamespace::EnvironmentInfoSO __declspec(property(get=get_environmentInfo))  environmentInfo;
 
- ::GlobalNamespace::EnvironmentInfoSO __declspec(property(get=get_allDirectionsEnvironmentInfo))  allDirectionsEnvironmentInfo;
+ GlobalNamespace::EnvironmentInfoSO __declspec(property(get=get_allDirectionsEnvironmentInfo))  allDirectionsEnvironmentInfo;
 
- ::ArrayW<::GlobalNamespace::EnvironmentInfoSO> __declspec(property(get=get_environmentInfos))  environmentInfos;
+ ::ArrayW<GlobalNamespace::EnvironmentInfoSO> __declspec(property(get=get_environmentInfos))  environmentInfos;
 
- ::UnityEngine::Sprite __declspec(property(get=get_defaultCoverImage))  defaultCoverImage;
+ UnityEngine::Sprite __declspec(property(get=get_defaultCoverImage))  defaultCoverImage;
 
- ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet> __declspec(property(get=get_previewDifficultyBeatmapSets))  previewDifficultyBeatmapSets;
+ System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PreviewDifficultyBeatmapSet> __declspec(property(get=get_previewDifficultyBeatmapSets))  previewDifficultyBeatmapSets;
 
  ::StringW __declspec(property(get=get_songPreviewAudioClipPath))  songPreviewAudioClipPath;
 
- ::ArrayW<::GlobalNamespace::ColorScheme> __declspec(property(get=get_beatmapOverrideColorSchemes))  beatmapOverrideColorSchemes;
+ ::ArrayW<GlobalNamespace::ColorScheme> __declspec(property(get=get_beatmapOverrideColorSchemes))  beatmapOverrideColorSchemes;
 
 
 // Methods
 
 /// @brief Method get_spriteAsyncLoader addr 0x21ea248 size 0x8 virtual false final false
- ::GlobalNamespace::ISpriteAsyncLoader get_spriteAsyncLoader() ;
+ GlobalNamespace::ISpriteAsyncLoader get_spriteAsyncLoader() ;
 
 /// @brief Method get_standardLevelInfoSaveData addr 0x21ea250 size 0x8 virtual false final false
- ::GlobalNamespace::StandardLevelInfoSaveData get_standardLevelInfoSaveData() ;
+ GlobalNamespace::StandardLevelInfoSaveData get_standardLevelInfoSaveData() ;
 
 /// @brief Method get_customLevelPath addr 0x21ea258 size 0x8 virtual false final false
  ::StringW get_customLevelPath() ;
@@ -427,40 +426,39 @@ constexpr ::UnityEngine::Sprite __get__coverImage() const;
  float_t get_previewDuration() ;
 
 /// @brief Method get_environmentInfo addr 0x21ea2c0 size 0x8 virtual true final true
- ::GlobalNamespace::EnvironmentInfoSO get_environmentInfo() ;
+ GlobalNamespace::EnvironmentInfoSO get_environmentInfo() ;
 
 /// @brief Method get_allDirectionsEnvironmentInfo addr 0x21ea2c8 size 0x8 virtual true final true
- ::GlobalNamespace::EnvironmentInfoSO get_allDirectionsEnvironmentInfo() ;
+ GlobalNamespace::EnvironmentInfoSO get_allDirectionsEnvironmentInfo() ;
 
 /// @brief Method get_environmentInfos addr 0x21ea2d0 size 0x8 virtual true final true
- ::ArrayW<::GlobalNamespace::EnvironmentInfoSO> get_environmentInfos() ;
+ ::ArrayW<GlobalNamespace::EnvironmentInfoSO> get_environmentInfos() ;
 
 /// @brief Method get_defaultCoverImage addr 0x21ea2d8 size 0x8 virtual false final false
- ::UnityEngine::Sprite get_defaultCoverImage() ;
+ UnityEngine::Sprite get_defaultCoverImage() ;
 
 /// @brief Method get_previewDifficultyBeatmapSets addr 0x21ea2e0 size 0x8 virtual true final true
- ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet> get_previewDifficultyBeatmapSets() ;
+ System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PreviewDifficultyBeatmapSet> get_previewDifficultyBeatmapSets() ;
 
 /// @brief Method get_songPreviewAudioClipPath addr 0x21e9fe8 size 0x70 virtual true final true
  ::StringW get_songPreviewAudioClipPath() ;
 
 /// @brief Method get_beatmapOverrideColorSchemes addr 0x21ea2e8 size 0x8 virtual false final false
- ::ArrayW<::GlobalNamespace::ColorScheme> get_beatmapOverrideColorSchemes() ;
+ ::ArrayW<GlobalNamespace::ColorScheme> get_beatmapOverrideColorSchemes() ;
 
 /// @brief Method GetCoverImageAsync addr 0x21ea2f0 size 0xfc virtual true final true
- ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite> GetCoverImageAsync(::System::Threading::CancellationToken cancellationToken) ;
+ System::Threading::Tasks::Task_1<UnityEngine::Sprite> GetCoverImageAsync(System::Threading::CancellationToken cancellationToken) ;
 
-// Ctor Parameters [CppParam { name: "defaultCoverImage", ty: "::UnityEngine::Sprite", modifiers: "", def_value: None }, CppParam { name: "standardLevelInfoSaveData", ty: "::GlobalNamespace::StandardLevelInfoSaveData", modifiers: "", def_value: None }, CppParam { name: "customLevelPath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "spriteAsyncLoader", ty: "::GlobalNamespace::ISpriteAsyncLoader", modifiers: "", def_value: None }, CppParam { name: "levelID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "songName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "songSubName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "songAuthorName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "levelAuthorName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "beatsPerMinute", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "songTimeOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "shuffle", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "shufflePeriod", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "previewStartTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "previewDuration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "environmentInfo", ty: "::GlobalNamespace::EnvironmentInfoSO", modifiers: "", def_value: None }, CppParam { name: "allDirectionsEnvironmentInfo", ty: "::GlobalNamespace::EnvironmentInfoSO", modifiers: "", def_value: None }, CppParam { name: "environmentInfos", ty: "::ArrayW<::GlobalNamespace::EnvironmentInfoSO>", modifiers: "", def_value: None }, CppParam { name: "beatmapOverrideColorSchemes", ty: "::ArrayW<::GlobalNamespace::ColorScheme>", modifiers: "", def_value: None }, CppParam { name: "previewDifficultyBeatmapSets", ty: "::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet>", modifiers: "", def_value: None }]
-explicit CustomPreviewBeatmapLevel(::UnityEngine::Sprite defaultCoverImage, ::GlobalNamespace::StandardLevelInfoSaveData standardLevelInfoSaveData, ::StringW customLevelPath, ::GlobalNamespace::ISpriteAsyncLoader spriteAsyncLoader, ::StringW levelID, ::StringW songName, ::StringW songSubName, ::StringW songAuthorName, ::StringW levelAuthorName, float_t beatsPerMinute, float_t songTimeOffset, float_t shuffle, float_t shufflePeriod, float_t previewStartTime, float_t previewDuration, ::GlobalNamespace::EnvironmentInfoSO environmentInfo, ::GlobalNamespace::EnvironmentInfoSO allDirectionsEnvironmentInfo, ::ArrayW<::GlobalNamespace::EnvironmentInfoSO> environmentInfos, ::ArrayW<::GlobalNamespace::ColorScheme> beatmapOverrideColorSchemes, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet> previewDifficultyBeatmapSets) ;
+// Ctor Parameters [CppParam { name: "defaultCoverImage", ty: "UnityEngine::Sprite", modifiers: "", def_value: None }, CppParam { name: "standardLevelInfoSaveData", ty: "GlobalNamespace::StandardLevelInfoSaveData", modifiers: "", def_value: None }, CppParam { name: "customLevelPath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "spriteAsyncLoader", ty: "GlobalNamespace::ISpriteAsyncLoader", modifiers: "", def_value: None }, CppParam { name: "levelID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "songName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "songSubName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "songAuthorName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "levelAuthorName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "beatsPerMinute", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "songTimeOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "shuffle", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "shufflePeriod", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "previewStartTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "previewDuration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "environmentInfo", ty: "GlobalNamespace::EnvironmentInfoSO", modifiers: "", def_value: None }, CppParam { name: "allDirectionsEnvironmentInfo", ty: "GlobalNamespace::EnvironmentInfoSO", modifiers: "", def_value: None }, CppParam { name: "environmentInfos", ty: "::ArrayW<GlobalNamespace::EnvironmentInfoSO>", modifiers: "", def_value: None }, CppParam { name: "beatmapOverrideColorSchemes", ty: "::ArrayW<GlobalNamespace::ColorScheme>", modifiers: "", def_value: None }, CppParam { name: "previewDifficultyBeatmapSets", ty: "System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PreviewDifficultyBeatmapSet>", modifiers: "", def_value: None }]
+explicit CustomPreviewBeatmapLevel(UnityEngine::Sprite defaultCoverImage, GlobalNamespace::StandardLevelInfoSaveData standardLevelInfoSaveData, ::StringW customLevelPath, GlobalNamespace::ISpriteAsyncLoader spriteAsyncLoader, ::StringW levelID, ::StringW songName, ::StringW songSubName, ::StringW songAuthorName, ::StringW levelAuthorName, float_t beatsPerMinute, float_t songTimeOffset, float_t shuffle, float_t shufflePeriod, float_t previewStartTime, float_t previewDuration, GlobalNamespace::EnvironmentInfoSO environmentInfo, GlobalNamespace::EnvironmentInfoSO allDirectionsEnvironmentInfo, ::ArrayW<GlobalNamespace::EnvironmentInfoSO> environmentInfos, ::ArrayW<GlobalNamespace::ColorScheme> beatmapOverrideColorSchemes, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PreviewDifficultyBeatmapSet> previewDifficultyBeatmapSets) ;
 
 /// @brief Method .ctor addr 0x21ea118 size 0xe4 virtual false final false
- void _ctor(::UnityEngine::Sprite defaultCoverImage, ::GlobalNamespace::StandardLevelInfoSaveData standardLevelInfoSaveData, ::StringW customLevelPath, ::GlobalNamespace::ISpriteAsyncLoader spriteAsyncLoader, ::StringW levelID, ::StringW songName, ::StringW songSubName, ::StringW songAuthorName, ::StringW levelAuthorName, float_t beatsPerMinute, float_t songTimeOffset, float_t shuffle, float_t shufflePeriod, float_t previewStartTime, float_t previewDuration, ::GlobalNamespace::EnvironmentInfoSO environmentInfo, ::GlobalNamespace::EnvironmentInfoSO allDirectionsEnvironmentInfo, ::ArrayW<::GlobalNamespace::EnvironmentInfoSO> environmentInfos, ::ArrayW<::GlobalNamespace::ColorScheme> beatmapOverrideColorSchemes, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet> previewDifficultyBeatmapSets) ;
+ void _ctor(UnityEngine::Sprite defaultCoverImage, GlobalNamespace::StandardLevelInfoSaveData standardLevelInfoSaveData, ::StringW customLevelPath, GlobalNamespace::ISpriteAsyncLoader spriteAsyncLoader, ::StringW levelID, ::StringW songName, ::StringW songSubName, ::StringW songAuthorName, ::StringW levelAuthorName, float_t beatsPerMinute, float_t songTimeOffset, float_t shuffle, float_t shufflePeriod, float_t previewStartTime, float_t previewDuration, GlobalNamespace::EnvironmentInfoSO environmentInfo, GlobalNamespace::EnvironmentInfoSO allDirectionsEnvironmentInfo, ::ArrayW<GlobalNamespace::EnvironmentInfoSO> environmentInfos, ::ArrayW<GlobalNamespace::ColorScheme> beatmapOverrideColorSchemes, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PreviewDifficultyBeatmapSet> previewDifficultyBeatmapSets) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::CustomPreviewBeatmapLevel);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CustomPreviewBeatmapLevel, "", "CustomPreviewBeatmapLevel");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__CustomPreviewBeatmapLevel___GetCoverImageAsync_d__66, "", "CustomPreviewBeatmapLevel/<GetCoverImageAsync>d__66");
+NEED_NO_BOX(GlobalNamespace::CustomPreviewBeatmapLevel);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomPreviewBeatmapLevel, "", "CustomPreviewBeatmapLevel");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__CustomPreviewBeatmapLevel___GetCoverImageAsync_d__66, "", "CustomPreviewBeatmapLevel/<GetCoverImageAsync>d__66");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Text::RegularExpressions {
 struct RegexOptions;
@@ -75,38 +74,37 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::Text::RegularExpressions::RegexOptions const None;
+static System::Text::RegularExpressions::RegexOptions const None;
 
 /// @brief Field IgnoreCase offset 0
-static ::System::Text::RegularExpressions::RegexOptions const IgnoreCase;
+static System::Text::RegularExpressions::RegexOptions const IgnoreCase;
 
 /// @brief Field Multiline offset 0
-static ::System::Text::RegularExpressions::RegexOptions const Multiline;
+static System::Text::RegularExpressions::RegexOptions const Multiline;
 
 /// @brief Field ExplicitCapture offset 0
-static ::System::Text::RegularExpressions::RegexOptions const ExplicitCapture;
+static System::Text::RegularExpressions::RegexOptions const ExplicitCapture;
 
 /// @brief Field Compiled offset 0
-static ::System::Text::RegularExpressions::RegexOptions const Compiled;
+static System::Text::RegularExpressions::RegexOptions const Compiled;
 
 /// @brief Field Singleline offset 0
-static ::System::Text::RegularExpressions::RegexOptions const Singleline;
+static System::Text::RegularExpressions::RegexOptions const Singleline;
 
 /// @brief Field IgnorePatternWhitespace offset 0
-static ::System::Text::RegularExpressions::RegexOptions const IgnorePatternWhitespace;
+static System::Text::RegularExpressions::RegexOptions const IgnorePatternWhitespace;
 
 /// @brief Field RightToLeft offset 0
-static ::System::Text::RegularExpressions::RegexOptions const RightToLeft;
+static System::Text::RegularExpressions::RegexOptions const RightToLeft;
 
 /// @brief Field ECMAScript offset 0
-static ::System::Text::RegularExpressions::RegexOptions const ECMAScript;
+static System::Text::RegularExpressions::RegexOptions const ECMAScript;
 
 /// @brief Field CultureInvariant offset 0
-static ::System::Text::RegularExpressions::RegexOptions const CultureInvariant;
+static System::Text::RegularExpressions::RegexOptions const CultureInvariant;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Text::RegularExpressions
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::RegularExpressions::RegexOptions, "System.Text.RegularExpressions", "RegexOptions");
+DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexOptions, "System.Text.RegularExpressions", "RegexOptions");

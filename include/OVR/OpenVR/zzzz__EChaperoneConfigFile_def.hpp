@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct EChaperoneConfigFile;
@@ -67,14 +66,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Live offset 0
-static ::OVR::OpenVR::EChaperoneConfigFile const Live;
+static OVR::OpenVR::EChaperoneConfigFile const Live;
 
 /// @brief Field Temp offset 0
-static ::OVR::OpenVR::EChaperoneConfigFile const Temp;
+static OVR::OpenVR::EChaperoneConfigFile const Temp;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EChaperoneConfigFile, "OVR.OpenVR", "EChaperoneConfigFile");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EChaperoneConfigFile, "OVR.OpenVR", "EChaperoneConfigFile");

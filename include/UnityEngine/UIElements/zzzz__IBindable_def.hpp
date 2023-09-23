@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace UnityEngine::UIElements {
 class IBinding;
 }
@@ -27,7 +26,7 @@ constexpr explicit IBindable(void* ptr) noexcept : ::cordl_internals::InterfaceW
 
 // Properties
 
- ::UnityEngine::UIElements::IBinding __declspec(property(get=get_binding))  binding;
+ UnityEngine::UIElements::IBinding __declspec(property(get=get_binding))  binding;
 
  ::StringW __declspec(property(put=set_bindingPath))  bindingPath;
 
@@ -35,7 +34,7 @@ constexpr explicit IBindable(void* ptr) noexcept : ::cordl_internals::InterfaceW
 // Methods
 
 /// @brief Method get_binding addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::UIElements::IBinding get_binding() ;
+ UnityEngine::UIElements::IBinding get_binding() ;
 
 /// @brief Method set_bindingPath addr 0x0 size 0xffffffffffffffff virtual true final false
  void set_bindingPath(::StringW value) ;
@@ -44,6 +43,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::IBindable);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::IBindable, "UnityEngine.UIElements", "IBindable");
+NEED_NO_BOX(UnityEngine::UIElements::IBindable);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::IBindable, "UnityEngine.UIElements", "IBindable");

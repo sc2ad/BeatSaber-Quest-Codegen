@@ -2,14 +2,13 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-template<typename T>
-class Action_1;
-}
 namespace System {
 template<typename TResult>
 class Func_1;
+}
+namespace System {
+template<typename T>
+class Action_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -65,17 +64,17 @@ constexpr explicit LinkedPool_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 
 // Fields
 
- ::System::Func_1<T> __declspec(property(get=__get_m_CreateFunc, put=__set_m_CreateFunc))  m_CreateFunc;
+ System::Func_1<T> __declspec(property(get=__get_m_CreateFunc, put=__set_m_CreateFunc))  m_CreateFunc;
 
-constexpr void __set_m_CreateFunc(::System::Func_1<T> value) ;
+constexpr void __set_m_CreateFunc(System::Func_1<T> value) ;
 
-constexpr ::System::Func_1<T> __get_m_CreateFunc() const;
+constexpr System::Func_1<T> __get_m_CreateFunc() const;
 
- ::System::Action_1<T> __declspec(property(get=__get_m_ResetAction, put=__set_m_ResetAction))  m_ResetAction;
+ System::Action_1<T> __declspec(property(get=__get_m_ResetAction, put=__set_m_ResetAction))  m_ResetAction;
 
-constexpr void __set_m_ResetAction(::System::Action_1<T> value) ;
+constexpr void __set_m_ResetAction(System::Action_1<T> value) ;
 
-constexpr ::System::Action_1<T> __get_m_ResetAction() const;
+constexpr System::Action_1<T> __get_m_ResetAction() const;
 
  int32_t __declspec(property(get=__get_m_Limit, put=__set_m_Limit))  m_Limit;
 
@@ -103,11 +102,11 @@ constexpr int32_t __get__Count_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "createFunc", ty: "::System::Func_1<T>", modifiers: "", def_value: None }, CppParam { name: "resetAction", ty: "::System::Action_1<T>", modifiers: "", def_value: None }, CppParam { name: "limit", ty: "int32_t", modifiers: "", def_value: None }]
-explicit LinkedPool_1(::System::Func_1<T> createFunc, ::System::Action_1<T> resetAction, int32_t limit) ;
+// Ctor Parameters [CppParam { name: "createFunc", ty: "System::Func_1<T>", modifiers: "", def_value: None }, CppParam { name: "resetAction", ty: "System::Action_1<T>", modifiers: "", def_value: None }, CppParam { name: "limit", ty: "int32_t", modifiers: "", def_value: None }]
+explicit LinkedPool_1(System::Func_1<T> createFunc, System::Action_1<T> resetAction, int32_t limit) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Func_1<T> createFunc, ::System::Action_1<T> resetAction, int32_t limit) ;
+ void _ctor(System::Func_1<T> createFunc, System::Action_1<T> resetAction, int32_t limit) ;
 
 /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t get_Count() ;
@@ -128,5 +127,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::UIR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::UIR::LinkedPool_1, "UnityEngine.UIElements.UIR", "LinkedPool`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::UIElements::UIR::LinkedPool_1, "UnityEngine.UIElements.UIR", "LinkedPool`1");

@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryParser;
-}
 namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryWriter;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class __BinaryParser;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -81,10 +80,10 @@ explicit BinaryObjectString() ;
  void Set(int32_t objectId, ::StringW value) ;
 
 /// @brief Method Write addr 0x23560e4 size 0x70 virtual true final true
- void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter sout) ;
+ void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter sout) ;
 
 /// @brief Method Read addr 0x2356154 size 0x44 virtual true final true
- void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser input) ;
+ void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser input) ;
 
 /// @brief Method Dump addr 0x2356198 size 0x4 virtual false final false
  void Dump() ;
@@ -93,6 +92,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization::Formatters::Binary
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectString);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectString, "System.Runtime.Serialization.Formatters.Binary", "BinaryObjectString");
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::BinaryObjectString);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryObjectString, "System.Runtime.Serialization.Formatters.Binary", "BinaryObjectString");

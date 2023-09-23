@@ -3,15 +3,14 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-struct Int32Enum;
-}
 namespace System {
 struct Guid;
 }
 namespace GlobalNamespace {
 struct OVRSpace;
+}
+namespace System {
+struct Int32Enum;
 }
 // Forward declare root types
 namespace System {
@@ -24,7 +23,7 @@ class Action_6<T1,T2,T3,T4,T5,T6>;
 }
 namespace System {
 template<>
-class Action_6<uint64_t,bool,::GlobalNamespace::OVRSpace,::System::Guid,::System::Int32Enum,bool>;
+class Action_6<uint64_t,bool,GlobalNamespace::OVRSpace,System::Guid,System::Int32Enum,bool>;
 }
 // Type: System::Action`6
 // Type: System::Action`6
@@ -32,10 +31,10 @@ namespace System {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T1,::cordl_internals::il2cpp_reference_type T2,::cordl_internals::il2cpp_reference_type T3,::cordl_internals::il2cpp_reference_type T4,::cordl_internals::il2cpp_reference_type T5,::cordl_internals::il2cpp_reference_type T6>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610)), TypeDefinitionIndex(TypeDefinitionIndex(2328))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2328)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2328), inst: 5939 })
 // CS Name: System.Action`6
-class CORDL_TYPE Action_6<T1,T2,T3,T4,T5,T6> : public ::System::MulticastDelegate {
+class CORDL_TYPE Action_6<T1,T2,T3,T4,T5,T6> : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -50,7 +49,7 @@ constexpr Action_6(Action_6 const& ) noexcept = default;
 constexpr Action_6(Action_6&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Action_6(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit Action_6(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -89,10 +88,10 @@ namespace System {
 // cpp template
 template<>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610)), TypeDefinitionIndex(TypeDefinitionIndex(2328))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2328)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2328), inst: 6289 })
 // CS Name: System.Action`6
-class CORDL_TYPE Action_6<uint64_t,bool,::GlobalNamespace::OVRSpace,::System::Guid,::System::Int32Enum,bool> : public ::System::MulticastDelegate {
+class CORDL_TYPE Action_6<uint64_t,bool,GlobalNamespace::OVRSpace,System::Guid,System::Int32Enum,bool> : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -107,7 +106,7 @@ constexpr Action_6(Action_6 const& ) noexcept = default;
 constexpr Action_6(Action_6&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Action_6(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit Action_6(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -135,11 +134,10 @@ explicit Action_6(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
- void Invoke(uint64_t arg1, bool arg2, ::GlobalNamespace::OVRSpace arg3, ::System::Guid arg4, ::System::Int32Enum arg5, bool arg6) ;
+ void Invoke(uint64_t arg1, bool arg2, GlobalNamespace::OVRSpace arg3, System::Guid arg4, System::Int32Enum arg5, bool arg6) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Action_6, "System", "Action`6");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Action_6, "System", "Action`6");

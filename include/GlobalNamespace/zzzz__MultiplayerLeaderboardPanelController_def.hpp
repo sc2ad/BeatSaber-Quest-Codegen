@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
-namespace GlobalNamespace {
-class MultiplayerLeaderboardPanelItem;
-}
 namespace GlobalNamespace {
 class MultiplayerScoreProvider;
+}
+namespace GlobalNamespace {
+class MultiplayerLeaderboardPanelItem;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5137))
 // CS Name: MultiplayerLeaderboardPanelController
-class CORDL_TYPE MultiplayerLeaderboardPanelController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerLeaderboardPanelController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr MultiplayerLeaderboardPanelController(MultiplayerLeaderboardPanelContr
 constexpr MultiplayerLeaderboardPanelController(MultiplayerLeaderboardPanelController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerLeaderboardPanelController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerLeaderboardPanelController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -55,17 +54,17 @@ constexpr explicit MultiplayerLeaderboardPanelController(void* ptr) noexcept : :
 
 // Fields
 
- ::ArrayW<::GlobalNamespace::MultiplayerLeaderboardPanelItem> __declspec(property(get=__get__items, put=__set__items))  _items;
+ ::ArrayW<GlobalNamespace::MultiplayerLeaderboardPanelItem> __declspec(property(get=__get__items, put=__set__items))  _items;
 
-constexpr void __set__items(::ArrayW<::GlobalNamespace::MultiplayerLeaderboardPanelItem> value) ;
+constexpr void __set__items(::ArrayW<GlobalNamespace::MultiplayerLeaderboardPanelItem> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::MultiplayerLeaderboardPanelItem> __get__items() const;
+constexpr ::ArrayW<GlobalNamespace::MultiplayerLeaderboardPanelItem> __get__items() const;
 
- ::GlobalNamespace::MultiplayerScoreProvider __declspec(property(get=__get__scoreProvider, put=__set__scoreProvider))  _scoreProvider;
+ GlobalNamespace::MultiplayerScoreProvider __declspec(property(get=__get__scoreProvider, put=__set__scoreProvider))  _scoreProvider;
 
-constexpr void __set__scoreProvider(::GlobalNamespace::MultiplayerScoreProvider value) ;
+constexpr void __set__scoreProvider(GlobalNamespace::MultiplayerScoreProvider value) ;
 
-constexpr ::GlobalNamespace::MultiplayerScoreProvider __get__scoreProvider() const;
+constexpr GlobalNamespace::MultiplayerScoreProvider __get__scoreProvider() const;
 
 
 // Methods
@@ -86,6 +85,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerLeaderboardPanelController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerLeaderboardPanelController, "", "MultiplayerLeaderboardPanelController");
+NEED_NO_BOX(GlobalNamespace::MultiplayerLeaderboardPanelController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLeaderboardPanelController, "", "MultiplayerLeaderboardPanelController");

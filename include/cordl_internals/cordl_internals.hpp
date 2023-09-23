@@ -14,6 +14,7 @@
 #define csnull (::cordl_internals::NullArg())
 #endif
 
+namespace {
 namespace cordl_internals {
     // Base type for interfaces, as interfaces will wrap instances too (autoboxed VTs as well)
     struct InterfaceW : public ::bs_hook::Il2CppWrapperType {
@@ -56,4 +57,5 @@ namespace cordl_internals {
 
     using intptr_t = void*;
     using uintptr_t = void*;
+}
 }

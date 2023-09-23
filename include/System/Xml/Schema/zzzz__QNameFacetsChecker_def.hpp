@@ -2,15 +2,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
+namespace System::Xml {
+class XmlQualifiedName;
+}
 namespace System {
 class Exception;
 }
 namespace System::Xml::Schema {
 class XmlSchemaDatatype;
-}
-namespace System::Xml {
-class XmlQualifiedName;
 }
 namespace System::Collections {
 class ArrayList;
@@ -25,7 +24,7 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11628))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11634))
 // CS Name: System.Xml.Schema.QNameFacetsChecker
-class CORDL_TYPE QNameFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
+class CORDL_TYPE QNameFacetsChecker : public System::Xml::Schema::FacetsChecker {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr QNameFacetsChecker(QNameFacetsChecker const& ) noexcept = default;
 constexpr QNameFacetsChecker(QNameFacetsChecker&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit QNameFacetsChecker(void* ptr) noexcept : ::System::Xml::Schema::FacetsChecker(ptr) {
+constexpr explicit QNameFacetsChecker(void* ptr) noexcept : System::Xml::Schema::FacetsChecker(ptr) {
 }
 
 
@@ -62,16 +61,16 @@ constexpr explicit QNameFacetsChecker(void* ptr) noexcept : ::System::Xml::Schem
 // Methods
 
 /// @brief Method CheckValueFacets addr 0x272f3b8 size 0x12c virtual true final false
- ::System::Exception CheckValueFacets(::bs_hook::Il2CppWrapperType value, ::System::Xml::Schema::XmlSchemaDatatype datatype) ;
+ System::Exception CheckValueFacets(::bs_hook::Il2CppWrapperType value, System::Xml::Schema::XmlSchemaDatatype datatype) ;
 
 /// @brief Method CheckValueFacets addr 0x272f4e4 size 0x1c4 virtual true final false
- ::System::Exception CheckValueFacets(::System::Xml::XmlQualifiedName value, ::System::Xml::Schema::XmlSchemaDatatype datatype) ;
+ System::Exception CheckValueFacets(System::Xml::XmlQualifiedName value, System::Xml::Schema::XmlSchemaDatatype datatype) ;
 
 /// @brief Method MatchEnumeration addr 0x272f7b8 size 0x114 virtual true final false
- bool MatchEnumeration(::bs_hook::Il2CppWrapperType value, ::System::Collections::ArrayList enumeration, ::System::Xml::Schema::XmlSchemaDatatype datatype) ;
+ bool MatchEnumeration(::bs_hook::Il2CppWrapperType value, System::Collections::ArrayList enumeration, System::Xml::Schema::XmlSchemaDatatype datatype) ;
 
 /// @brief Method MatchEnumeration addr 0x272f6a8 size 0x110 virtual false final false
- bool MatchEnumeration(::System::Xml::XmlQualifiedName value, ::System::Collections::ArrayList enumeration) ;
+ bool MatchEnumeration(System::Xml::XmlQualifiedName value, System::Collections::ArrayList enumeration) ;
 
 // Ctor Parameters []
 explicit QNameFacetsChecker() ;
@@ -83,6 +82,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::QNameFacetsChecker);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::QNameFacetsChecker, "System.Xml.Schema", "QNameFacetsChecker");
+NEED_NO_BOX(System::Xml::Schema::QNameFacetsChecker);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::QNameFacetsChecker, "System.Xml.Schema", "QNameFacetsChecker");

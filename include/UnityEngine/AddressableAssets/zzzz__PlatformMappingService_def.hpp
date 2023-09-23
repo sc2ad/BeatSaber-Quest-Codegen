@@ -2,16 +2,15 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace UnityEngine::AddressableAssets {
+struct AddressablesPlatform;
+}
 namespace UnityEngine {
 struct RuntimePlatform;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
-}
-namespace UnityEngine::AddressableAssets {
-struct AddressablesPlatform;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets {
@@ -59,23 +58,23 @@ constexpr explicit PlatformMappingService(void* ptr) noexcept : ::bs_hook::Il2Cp
 
 // Fields
 
-static ::System::Collections::Generic::Dictionary_2<::UnityEngine::RuntimePlatform,::UnityEngine::AddressableAssets::AddressablesPlatform> __declspec(property(get=__get_s_RuntimeTargetMapping, put=__set_s_RuntimeTargetMapping))  s_RuntimeTargetMapping;
+static System::Collections::Generic::Dictionary_2<UnityEngine::RuntimePlatform,UnityEngine::AddressableAssets::AddressablesPlatform> __declspec(property(get=__get_s_RuntimeTargetMapping, put=__set_s_RuntimeTargetMapping))  s_RuntimeTargetMapping;
 
-static void __set_s_RuntimeTargetMapping(::System::Collections::Generic::Dictionary_2<::UnityEngine::RuntimePlatform,::UnityEngine::AddressableAssets::AddressablesPlatform> value) ;
+static void __set_s_RuntimeTargetMapping(System::Collections::Generic::Dictionary_2<UnityEngine::RuntimePlatform,UnityEngine::AddressableAssets::AddressablesPlatform> value) ;
 
-static ::System::Collections::Generic::Dictionary_2<::UnityEngine::RuntimePlatform,::UnityEngine::AddressableAssets::AddressablesPlatform> __get_s_RuntimeTargetMapping() ;
+static System::Collections::Generic::Dictionary_2<UnityEngine::RuntimePlatform,UnityEngine::AddressableAssets::AddressablesPlatform> __get_s_RuntimeTargetMapping() ;
 
 
 // Methods
 
 /// @brief Method GetAddressablesPlatformInternal addr 0x28969d8 size 0xd4 virtual false final false
-static ::UnityEngine::AddressableAssets::AddressablesPlatform GetAddressablesPlatformInternal(::UnityEngine::RuntimePlatform platform) ;
+static UnityEngine::AddressableAssets::AddressablesPlatform GetAddressablesPlatformInternal(UnityEngine::RuntimePlatform platform) ;
 
 /// @brief Method GetAddressablesPlatformPathInternal addr 0x2896aac size 0x120 virtual false final false
-static ::StringW GetAddressablesPlatformPathInternal(::UnityEngine::RuntimePlatform platform) ;
+static ::StringW GetAddressablesPlatformPathInternal(UnityEngine::RuntimePlatform platform) ;
 
 /// @brief Method GetPlatform addr 0x2896bcc size 0x60 virtual false final false
-static ::UnityEngine::AddressableAssets::AddressablesPlatform GetPlatform() ;
+static UnityEngine::AddressableAssets::AddressablesPlatform GetPlatform() ;
 
 /// @brief Method GetPlatformPathSubFolder addr 0x288a884 size 0x60 virtual false final false
 static ::StringW GetPlatformPathSubFolder() ;
@@ -90,6 +89,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::AddressableAssets
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AddressableAssets::PlatformMappingService);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::PlatformMappingService, "UnityEngine.AddressableAssets", "PlatformMappingService");
+NEED_NO_BOX(UnityEngine::AddressableAssets::PlatformMappingService);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::PlatformMappingService, "UnityEngine.AddressableAssets", "PlatformMappingService");

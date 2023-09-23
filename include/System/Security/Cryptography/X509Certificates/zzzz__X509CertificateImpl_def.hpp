@@ -4,18 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-struct DateTime;
-}
-namespace System {
-class IDisposable;
-}
 namespace System::Security::Cryptography {
 class DSA;
 }
+namespace System {
+struct DateTime;
+}
 namespace System::Security::Cryptography {
 class RSA;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -30,8 +29,8 @@ namespace System::Security::Cryptography::X509Certificates {
 class CORDL_TYPE X509CertificateImpl : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -74,9 +73,9 @@ constexpr explicit X509CertificateImpl(void* ptr) noexcept : ::bs_hook::Il2CppWr
 
  ::ArrayW<uint8_t> __declspec(property(get=get_RawData))  RawData;
 
- ::System::DateTime __declspec(property(get=get_NotAfter))  NotAfter;
+ System::DateTime __declspec(property(get=get_NotAfter))  NotAfter;
 
- ::System::DateTime __declspec(property(get=get_NotBefore))  NotBefore;
+ System::DateTime __declspec(property(get=get_NotBefore))  NotBefore;
 
  ::ArrayW<uint8_t> __declspec(property(get=get_Thumbprint))  Thumbprint;
 
@@ -100,7 +99,7 @@ constexpr explicit X509CertificateImpl(void* ptr) noexcept : ::bs_hook::Il2CppWr
  void ThrowIfContextInvalid() ;
 
 /// @brief Method Clone addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Security::Cryptography::X509Certificates::X509CertificateImpl Clone() ;
+ System::Security::Cryptography::X509Certificates::X509CertificateImpl Clone() ;
 
 /// @brief Method get_Issuer addr 0x0 size 0xffffffffffffffff virtual true final false
  ::StringW get_Issuer() ;
@@ -112,10 +111,10 @@ constexpr explicit X509CertificateImpl(void* ptr) noexcept : ::bs_hook::Il2CppWr
  ::ArrayW<uint8_t> get_RawData() ;
 
 /// @brief Method get_NotAfter addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::DateTime get_NotAfter() ;
+ System::DateTime get_NotAfter() ;
 
 /// @brief Method get_NotBefore addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::DateTime get_NotBefore() ;
+ System::DateTime get_NotBefore() ;
 
 /// @brief Method get_Thumbprint addr 0x0 size 0xffffffffffffffff virtual true final false
  ::ArrayW<uint8_t> get_Thumbprint() ;
@@ -139,13 +138,13 @@ constexpr explicit X509CertificateImpl(void* ptr) noexcept : ::bs_hook::Il2CppWr
  bool get_HasPrivateKey() ;
 
 /// @brief Method GetRSAPrivateKey addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Security::Cryptography::RSA GetRSAPrivateKey() ;
+ System::Security::Cryptography::RSA GetRSAPrivateKey() ;
 
 /// @brief Method GetDSAPrivateKey addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Security::Cryptography::DSA GetDSAPrivateKey() ;
+ System::Security::Cryptography::DSA GetDSAPrivateKey() ;
 
 /// @brief Method CopyWithPrivateKey addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Security::Cryptography::X509Certificates::X509CertificateImpl CopyWithPrivateKey(::System::Security::Cryptography::RSA privateKey) ;
+ System::Security::Cryptography::X509Certificates::X509CertificateImpl CopyWithPrivateKey(System::Security::Cryptography::RSA privateKey) ;
 
 /// @brief Method Equals addr 0x230ad18 size 0x180 virtual true final true
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -169,6 +168,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography::X509Certificates
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::X509Certificates::X509CertificateImpl);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::X509Certificates::X509CertificateImpl, "System.Security.Cryptography.X509Certificates", "X509CertificateImpl");
+NEED_NO_BOX(System::Security::Cryptography::X509Certificates::X509CertificateImpl);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509CertificateImpl, "System.Security.Cryptography.X509Certificates", "X509CertificateImpl");

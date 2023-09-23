@@ -3,12 +3,8 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace System::Collections {
-class IDictionary;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 namespace System::Collections {
 class IList;
@@ -16,8 +12,11 @@ class IList;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+namespace System::Collections {
+class IDictionary;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -65,17 +64,17 @@ constexpr explicit X509ExtensionsGenerator(void* ptr) noexcept : ::bs_hook::Il2C
 
 // Fields
 
- ::System::Collections::IDictionary __declspec(property(get=__get_extensions, put=__set_extensions))  extensions;
+ System::Collections::IDictionary __declspec(property(get=__get_extensions, put=__set_extensions))  extensions;
 
-constexpr void __set_extensions(::System::Collections::IDictionary value) ;
+constexpr void __set_extensions(System::Collections::IDictionary value) ;
 
-constexpr ::System::Collections::IDictionary __get_extensions() const;
+constexpr System::Collections::IDictionary __get_extensions() const;
 
- ::System::Collections::IList __declspec(property(get=__get_extOrdering, put=__set_extOrdering))  extOrdering;
+ System::Collections::IList __declspec(property(get=__get_extOrdering, put=__set_extOrdering))  extOrdering;
 
-constexpr void __set_extOrdering(::System::Collections::IList value) ;
+constexpr void __set_extOrdering(System::Collections::IList value) ;
 
-constexpr ::System::Collections::IList __get_extOrdering() const;
+constexpr System::Collections::IList __get_extOrdering() const;
 
 
 // Properties
@@ -89,16 +88,16 @@ constexpr ::System::Collections::IList __get_extOrdering() const;
  void Reset() ;
 
 /// @brief Method AddExtension addr 0x1116f64 size 0x114 virtual false final false
- void AddExtension(::Org::BouncyCastle::Asn1::DerObjectIdentifier oid, bool critical, ::Org::BouncyCastle::Asn1::Asn1Encodable extValue) ;
+ void AddExtension(Org::BouncyCastle::Asn1::DerObjectIdentifier oid, bool critical, Org::BouncyCastle::Asn1::Asn1Encodable extValue) ;
 
 /// @brief Method AddExtension addr 0x1117078 size 0x28c virtual false final false
- void AddExtension(::Org::BouncyCastle::Asn1::DerObjectIdentifier oid, bool critical, ::ArrayW<uint8_t> extValue) ;
+ void AddExtension(Org::BouncyCastle::Asn1::DerObjectIdentifier oid, bool critical, ::ArrayW<uint8_t> extValue) ;
 
 /// @brief Method get_IsEmpty addr 0x1117304 size 0xb0 virtual false final false
  bool get_IsEmpty() ;
 
 /// @brief Method Generate addr 0x11173b4 size 0x68 virtual false final false
- ::Org::BouncyCastle::Asn1::X509::X509Extensions Generate() ;
+ Org::BouncyCastle::Asn1::X509::X509Extensions Generate() ;
 
 // Ctor Parameters []
 explicit X509ExtensionsGenerator() ;
@@ -110,6 +109,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::X509
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator, "Org.BouncyCastle.Asn1.X509", "X509ExtensionsGenerator");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator, "Org.BouncyCastle.Asn1.X509", "X509ExtensionsGenerator");

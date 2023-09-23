@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__Joint_def.hpp"
 #include <cmath>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 class SpringJoint;
@@ -13,7 +12,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15472))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15473))
 // CS Name: UnityEngine.SpringJoint
-class CORDL_TYPE SpringJoint : public ::UnityEngine::Joint {
+class CORDL_TYPE SpringJoint : public UnityEngine::Joint {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr SpringJoint(SpringJoint const& ) noexcept = default;
 constexpr SpringJoint(SpringJoint&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SpringJoint(void* ptr) noexcept : ::UnityEngine::Joint(ptr) {
+constexpr explicit SpringJoint(void* ptr) noexcept : UnityEngine::Joint(ptr) {
 }
 
 
@@ -66,6 +65,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::SpringJoint);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SpringJoint, "UnityEngine", "SpringJoint");
+NEED_NO_BOX(UnityEngine::SpringJoint);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SpringJoint, "UnityEngine", "SpringJoint");

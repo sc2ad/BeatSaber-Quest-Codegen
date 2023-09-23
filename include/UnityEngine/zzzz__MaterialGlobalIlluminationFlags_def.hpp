@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct MaterialGlobalIlluminationFlags;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::MaterialGlobalIlluminationFlags const None;
+static UnityEngine::MaterialGlobalIlluminationFlags const None;
 
 /// @brief Field RealtimeEmissive offset 0
-static ::UnityEngine::MaterialGlobalIlluminationFlags const RealtimeEmissive;
+static UnityEngine::MaterialGlobalIlluminationFlags const RealtimeEmissive;
 
 /// @brief Field BakedEmissive offset 0
-static ::UnityEngine::MaterialGlobalIlluminationFlags const BakedEmissive;
+static UnityEngine::MaterialGlobalIlluminationFlags const BakedEmissive;
 
 /// @brief Field EmissiveIsBlack offset 0
-static ::UnityEngine::MaterialGlobalIlluminationFlags const EmissiveIsBlack;
+static UnityEngine::MaterialGlobalIlluminationFlags const EmissiveIsBlack;
 
 /// @brief Field AnyEmissive offset 0
-static ::UnityEngine::MaterialGlobalIlluminationFlags const AnyEmissive;
+static UnityEngine::MaterialGlobalIlluminationFlags const AnyEmissive;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::MaterialGlobalIlluminationFlags, "UnityEngine", "MaterialGlobalIlluminationFlags");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MaterialGlobalIlluminationFlags, "UnityEngine", "MaterialGlobalIlluminationFlags");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
@@ -19,7 +18,7 @@ namespace System::Threading {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2560))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2663))
 // CS Name: System.Threading.LockRecursionException
-class CORDL_TYPE LockRecursionException : public ::System::Exception {
+class CORDL_TYPE LockRecursionException : public System::Exception {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr LockRecursionException(LockRecursionException const& ) noexcept = defa
 constexpr LockRecursionException(LockRecursionException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LockRecursionException(void* ptr) noexcept : ::System::Exception(ptr) {
+constexpr explicit LockRecursionException(void* ptr) noexcept : System::Exception(ptr) {
 }
 
 
@@ -67,16 +66,15 @@ explicit LockRecursionException(::StringW message) ;
 /// @brief Method .ctor addr 0x24a2888 size 0x68 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit LockRecursionException(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit LockRecursionException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x24a28f0 size 0x80 virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Threading
-} // end anonymous namespace
-NEED_NO_BOX(::System::Threading::LockRecursionException);
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::LockRecursionException, "System.Threading", "LockRecursionException");
+NEED_NO_BOX(System::Threading::LockRecursionException);
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::LockRecursionException, "System.Threading", "LockRecursionException");

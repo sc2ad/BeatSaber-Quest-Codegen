@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Utilities::Zlib {
 class ZStream;
 }
@@ -171,13 +170,13 @@ constexpr ::ArrayW<int32_t> __get_x() const;
  int32_t huft_build(::ArrayW<int32_t> b, int32_t bindex, int32_t n, int32_t s, ::ArrayW<int32_t> d, ::ArrayW<int32_t> e, ::ArrayW<int32_t> t, ::ArrayW<int32_t> m, ::ArrayW<int32_t> hp, ::ArrayW<int32_t> hn, ::ArrayW<int32_t> v) ;
 
 /// @brief Method inflate_trees_bits addr 0x10da904 size 0x114 virtual false final false
- int32_t inflate_trees_bits(::ArrayW<int32_t> c, ::ArrayW<int32_t> bb, ::ArrayW<int32_t> tb, ::ArrayW<int32_t> hp, ::Org::BouncyCastle::Utilities::Zlib::ZStream z) ;
+ int32_t inflate_trees_bits(::ArrayW<int32_t> c, ::ArrayW<int32_t> bb, ::ArrayW<int32_t> tb, ::ArrayW<int32_t> hp, Org::BouncyCastle::Utilities::Zlib::ZStream z) ;
 
 /// @brief Method inflate_trees_dynamic addr 0x10daa18 size 0x24c virtual false final false
- int32_t inflate_trees_dynamic(int32_t nl, int32_t nd, ::ArrayW<int32_t> c, ::ArrayW<int32_t> bl, ::ArrayW<int32_t> bd, ::ArrayW<int32_t> tl, ::ArrayW<int32_t> td, ::ArrayW<int32_t> hp, ::Org::BouncyCastle::Utilities::Zlib::ZStream z) ;
+ int32_t inflate_trees_dynamic(int32_t nl, int32_t nd, ::ArrayW<int32_t> c, ::ArrayW<int32_t> bl, ::ArrayW<int32_t> bd, ::ArrayW<int32_t> tl, ::ArrayW<int32_t> td, ::ArrayW<int32_t> hp, Org::BouncyCastle::Utilities::Zlib::ZStream z) ;
 
 /// @brief Method inflate_trees_fixed addr 0x10da7d4 size 0x10c virtual false final false
-static int32_t inflate_trees_fixed(::ArrayW<int32_t> bl, ::ArrayW<int32_t> bd, ::ArrayW<::ArrayW<int32_t>> tl, ::ArrayW<::ArrayW<int32_t>> td, ::Org::BouncyCastle::Utilities::Zlib::ZStream z) ;
+static int32_t inflate_trees_fixed(::ArrayW<int32_t> bl, ::ArrayW<int32_t> bd, ::ArrayW<::ArrayW<int32_t>> tl, ::ArrayW<::ArrayW<int32_t>> td, Org::BouncyCastle::Utilities::Zlib::ZStream z) ;
 
 /// @brief Method initWorkArea addr 0x10dd360 size 0x194 virtual false final false
  void initWorkArea(int32_t vsize) ;
@@ -192,6 +191,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities::Zlib
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::Zlib::InfTree);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Zlib::InfTree, "Org.BouncyCastle.Utilities.Zlib", "InfTree");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Zlib::InfTree);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Zlib::InfTree, "Org.BouncyCastle.Utilities.Zlib", "InfTree");

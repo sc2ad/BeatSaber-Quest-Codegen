@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 template<typename T>
@@ -177,7 +176,7 @@ namespace System {
 // cpp template
 template<>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2536))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2536)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2536), inst: 279 })
 // CS Name: System.ByReference`1
 struct CORDL_TYPE ByReference_1<char16_t> : public ::bs_hook::ValueTypeWrapper {
@@ -384,7 +383,7 @@ namespace System {
 // cpp template
 template<>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2536))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2536)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2536), inst: 729 })
 // CS Name: System.ByReference`1
 struct CORDL_TYPE ByReference_1<uint32_t> : public ::bs_hook::ValueTypeWrapper {
@@ -448,5 +447,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::ByReference_1, "System", "ByReference`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::ByReference_1, "System", "ByReference`1");

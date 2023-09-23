@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Reflection {
 struct MemberTypes;
@@ -74,35 +73,34 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Constructor offset 0
-static ::System::Reflection::MemberTypes const Constructor;
+static System::Reflection::MemberTypes const Constructor;
 
 /// @brief Field Event offset 0
-static ::System::Reflection::MemberTypes const Event;
+static System::Reflection::MemberTypes const Event;
 
 /// @brief Field Field offset 0
-static ::System::Reflection::MemberTypes const Field;
+static System::Reflection::MemberTypes const Field;
 
 /// @brief Field Method offset 0
-static ::System::Reflection::MemberTypes const Method;
+static System::Reflection::MemberTypes const Method;
 
 /// @brief Field Property offset 0
-static ::System::Reflection::MemberTypes const Property;
+static System::Reflection::MemberTypes const Property;
 
 /// @brief Field TypeInfo offset 0
-static ::System::Reflection::MemberTypes const TypeInfo;
+static System::Reflection::MemberTypes const TypeInfo;
 
 /// @brief Field Custom offset 0
-static ::System::Reflection::MemberTypes const Custom;
+static System::Reflection::MemberTypes const Custom;
 
 /// @brief Field NestedType offset 0
-static ::System::Reflection::MemberTypes const NestedType;
+static System::Reflection::MemberTypes const NestedType;
 
 /// @brief Field All offset 0
-static ::System::Reflection::MemberTypes const All;
+static System::Reflection::MemberTypes const All;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Reflection
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::MemberTypes, "System.Reflection", "MemberTypes");
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MemberTypes, "System.Reflection", "MemberTypes");

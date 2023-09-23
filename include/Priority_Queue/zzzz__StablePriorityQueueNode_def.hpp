@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Priority_Queue/zzzz__FastPriorityQueueNode_def.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Priority_Queue {
 class StablePriorityQueueNode;
@@ -13,7 +12,7 @@ namespace Priority_Queue {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6161))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6172))
 // CS Name: Priority_Queue.StablePriorityQueueNode
-class CORDL_TYPE StablePriorityQueueNode : public ::Priority_Queue::FastPriorityQueueNode {
+class CORDL_TYPE StablePriorityQueueNode : public Priority_Queue::FastPriorityQueueNode {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr StablePriorityQueueNode(StablePriorityQueueNode const& ) noexcept = de
 constexpr StablePriorityQueueNode(StablePriorityQueueNode&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit StablePriorityQueueNode(void* ptr) noexcept : ::Priority_Queue::FastPriorityQueueNode(ptr) {
+constexpr explicit StablePriorityQueueNode(void* ptr) noexcept : Priority_Queue::FastPriorityQueueNode(ptr) {
 }
 
 
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Priority_Queue
-} // end anonymous namespace
-NEED_NO_BOX(::Priority_Queue::StablePriorityQueueNode);
-DEFINE_IL2CPP_ARG_TYPE(::Priority_Queue::StablePriorityQueueNode, "Priority_Queue", "StablePriorityQueueNode");
+NEED_NO_BOX(Priority_Queue::StablePriorityQueueNode);
+DEFINE_IL2CPP_ARG_TYPE(Priority_Queue::StablePriorityQueueNode, "Priority_Queue", "StablePriorityQueueNode");

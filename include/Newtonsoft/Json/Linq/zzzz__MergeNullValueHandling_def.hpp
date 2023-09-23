@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {
 struct MergeNullValueHandling;
@@ -67,14 +66,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Ignore offset 0
-static ::Newtonsoft::Json::Linq::MergeNullValueHandling const Ignore;
+static Newtonsoft::Json::Linq::MergeNullValueHandling const Ignore;
 
 /// @brief Field Merge offset 0
-static ::Newtonsoft::Json::Linq::MergeNullValueHandling const Merge;
+static Newtonsoft::Json::Linq::MergeNullValueHandling const Merge;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Linq
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Linq::MergeNullValueHandling, "Newtonsoft.Json.Linq", "MergeNullValueHandling");
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Linq::MergeNullValueHandling, "Newtonsoft.Json.Linq", "MergeNullValueHandling");

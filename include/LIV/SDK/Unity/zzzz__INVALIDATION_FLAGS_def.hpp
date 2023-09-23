@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace LIV::SDK::Unity {
 struct INVALIDATION_FLAGS;
@@ -70,23 +69,22 @@ constexpr void __set_value__(uint32_t value) ;
 constexpr uint32_t __get_value__() const;
 
 /// @brief Field NONE offset 0
-static ::LIV::SDK::Unity::INVALIDATION_FLAGS const NONE;
+static LIV::SDK::Unity::INVALIDATION_FLAGS const NONE;
 
 /// @brief Field HMD_CAMERA offset 0
-static ::LIV::SDK::Unity::INVALIDATION_FLAGS const HMD_CAMERA;
+static LIV::SDK::Unity::INVALIDATION_FLAGS const HMD_CAMERA;
 
 /// @brief Field STAGE offset 0
-static ::LIV::SDK::Unity::INVALIDATION_FLAGS const STAGE;
+static LIV::SDK::Unity::INVALIDATION_FLAGS const STAGE;
 
 /// @brief Field MR_CAMERA_PREFAB offset 0
-static ::LIV::SDK::Unity::INVALIDATION_FLAGS const MR_CAMERA_PREFAB;
+static LIV::SDK::Unity::INVALIDATION_FLAGS const MR_CAMERA_PREFAB;
 
 /// @brief Field EXCLUDE_BEHAVIOURS offset 0
-static ::LIV::SDK::Unity::INVALIDATION_FLAGS const EXCLUDE_BEHAVIOURS;
+static LIV::SDK::Unity::INVALIDATION_FLAGS const EXCLUDE_BEHAVIOURS;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def LIV::SDK::Unity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::INVALIDATION_FLAGS, "LIV.SDK.Unity", "INVALIDATION_FLAGS");
+DEFINE_IL2CPP_ARG_TYPE(LIV::SDK::Unity::INVALIDATION_FLAGS, "LIV.SDK.Unity", "INVALIDATION_FLAGS");

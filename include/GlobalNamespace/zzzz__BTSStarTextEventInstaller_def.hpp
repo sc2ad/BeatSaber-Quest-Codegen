@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class BTSStarTextEffectController;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11080))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3971))
 // CS Name: BTSStarTextEventInstaller
-class CORDL_TYPE BTSStarTextEventInstaller : public ::Zenject::MonoInstaller {
+class CORDL_TYPE BTSStarTextEventInstaller : public Zenject::MonoInstaller {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr BTSStarTextEventInstaller(BTSStarTextEventInstaller const& ) noexcept 
 constexpr BTSStarTextEventInstaller(BTSStarTextEventInstaller&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BTSStarTextEventInstaller(void* ptr) noexcept : ::Zenject::MonoInstaller(ptr) {
+constexpr explicit BTSStarTextEventInstaller(void* ptr) noexcept : Zenject::MonoInstaller(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit BTSStarTextEventInstaller(void* ptr) noexcept : ::Zenject::Mo
 
 // Fields
 
- ::GlobalNamespace::BTSStarTextEffectController __declspec(property(get=__get__btsStarTextEffectController, put=__set__btsStarTextEffectController))  _btsStarTextEffectController;
+ GlobalNamespace::BTSStarTextEffectController __declspec(property(get=__get__btsStarTextEffectController, put=__set__btsStarTextEffectController))  _btsStarTextEffectController;
 
-constexpr void __set__btsStarTextEffectController(::GlobalNamespace::BTSStarTextEffectController value) ;
+constexpr void __set__btsStarTextEffectController(GlobalNamespace::BTSStarTextEffectController value) ;
 
-constexpr ::GlobalNamespace::BTSStarTextEffectController __get__btsStarTextEffectController() const;
+constexpr GlobalNamespace::BTSStarTextEffectController __get__btsStarTextEffectController() const;
 
 
 // Methods
@@ -73,6 +72,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BTSStarTextEventInstaller);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BTSStarTextEventInstaller, "", "BTSStarTextEventInstaller");
+NEED_NO_BOX(GlobalNamespace::BTSStarTextEventInstaller);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEventInstaller, "", "BTSStarTextEventInstaller");

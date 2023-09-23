@@ -2,15 +2,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
-namespace UnityEngine::UI {
-class Text;
-}
 namespace Tayx::Graphy::Ram {
 class G_RamMonitor;
 }
 namespace Tayx::Graphy {
 class GraphyManager;
+}
+namespace UnityEngine::UI {
+class Text;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Ram {
@@ -22,7 +21,7 @@ namespace Tayx::Graphy::Ram {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15201))
 // CS Name: Tayx.Graphy.Ram.G_RamText
-class CORDL_TYPE G_RamText : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE G_RamText : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr G_RamText(G_RamText const& ) noexcept = default;
 constexpr G_RamText(G_RamText&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit G_RamText(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit G_RamText(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -58,35 +57,35 @@ constexpr explicit G_RamText(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(
 
 // Fields
 
- ::UnityEngine::UI::Text __declspec(property(get=__get_m_allocatedSystemMemorySizeText, put=__set_m_allocatedSystemMemorySizeText))  m_allocatedSystemMemorySizeText;
+ UnityEngine::UI::Text __declspec(property(get=__get_m_allocatedSystemMemorySizeText, put=__set_m_allocatedSystemMemorySizeText))  m_allocatedSystemMemorySizeText;
 
-constexpr void __set_m_allocatedSystemMemorySizeText(::UnityEngine::UI::Text value) ;
+constexpr void __set_m_allocatedSystemMemorySizeText(UnityEngine::UI::Text value) ;
 
-constexpr ::UnityEngine::UI::Text __get_m_allocatedSystemMemorySizeText() const;
+constexpr UnityEngine::UI::Text __get_m_allocatedSystemMemorySizeText() const;
 
- ::UnityEngine::UI::Text __declspec(property(get=__get_m_reservedSystemMemorySizeText, put=__set_m_reservedSystemMemorySizeText))  m_reservedSystemMemorySizeText;
+ UnityEngine::UI::Text __declspec(property(get=__get_m_reservedSystemMemorySizeText, put=__set_m_reservedSystemMemorySizeText))  m_reservedSystemMemorySizeText;
 
-constexpr void __set_m_reservedSystemMemorySizeText(::UnityEngine::UI::Text value) ;
+constexpr void __set_m_reservedSystemMemorySizeText(UnityEngine::UI::Text value) ;
 
-constexpr ::UnityEngine::UI::Text __get_m_reservedSystemMemorySizeText() const;
+constexpr UnityEngine::UI::Text __get_m_reservedSystemMemorySizeText() const;
 
- ::UnityEngine::UI::Text __declspec(property(get=__get_m_monoSystemMemorySizeText, put=__set_m_monoSystemMemorySizeText))  m_monoSystemMemorySizeText;
+ UnityEngine::UI::Text __declspec(property(get=__get_m_monoSystemMemorySizeText, put=__set_m_monoSystemMemorySizeText))  m_monoSystemMemorySizeText;
 
-constexpr void __set_m_monoSystemMemorySizeText(::UnityEngine::UI::Text value) ;
+constexpr void __set_m_monoSystemMemorySizeText(UnityEngine::UI::Text value) ;
 
-constexpr ::UnityEngine::UI::Text __get_m_monoSystemMemorySizeText() const;
+constexpr UnityEngine::UI::Text __get_m_monoSystemMemorySizeText() const;
 
- ::Tayx::Graphy::GraphyManager __declspec(property(get=__get_m_graphyManager, put=__set_m_graphyManager))  m_graphyManager;
+ Tayx::Graphy::GraphyManager __declspec(property(get=__get_m_graphyManager, put=__set_m_graphyManager))  m_graphyManager;
 
-constexpr void __set_m_graphyManager(::Tayx::Graphy::GraphyManager value) ;
+constexpr void __set_m_graphyManager(Tayx::Graphy::GraphyManager value) ;
 
-constexpr ::Tayx::Graphy::GraphyManager __get_m_graphyManager() const;
+constexpr Tayx::Graphy::GraphyManager __get_m_graphyManager() const;
 
- ::Tayx::Graphy::Ram::G_RamMonitor __declspec(property(get=__get_m_ramMonitor, put=__set_m_ramMonitor))  m_ramMonitor;
+ Tayx::Graphy::Ram::G_RamMonitor __declspec(property(get=__get_m_ramMonitor, put=__set_m_ramMonitor))  m_ramMonitor;
 
-constexpr void __set_m_ramMonitor(::Tayx::Graphy::Ram::G_RamMonitor value) ;
+constexpr void __set_m_ramMonitor(Tayx::Graphy::Ram::G_RamMonitor value) ;
 
-constexpr ::Tayx::Graphy::Ram::G_RamMonitor __get_m_ramMonitor() const;
+constexpr Tayx::Graphy::Ram::G_RamMonitor __get_m_ramMonitor() const;
 
  float_t __declspec(property(get=__get_m_updateRate, put=__set_m_updateRate))  m_updateRate;
 
@@ -125,6 +124,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Tayx::Graphy::Ram
-} // end anonymous namespace
-NEED_NO_BOX(::Tayx::Graphy::Ram::G_RamText);
-DEFINE_IL2CPP_ARG_TYPE(::Tayx::Graphy::Ram::G_RamText, "Tayx.Graphy.Ram", "G_RamText");
+NEED_NO_BOX(Tayx::Graphy::Ram::G_RamText);
+DEFINE_IL2CPP_ARG_TYPE(Tayx::Graphy::Ram::G_RamText, "Tayx.Graphy.Ram", "G_RamText");

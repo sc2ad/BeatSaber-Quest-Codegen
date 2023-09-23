@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform {
 struct MultiplayerErrorErrorKey;
@@ -77,44 +76,43 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::Oculus::Platform::MultiplayerErrorErrorKey const Unknown;
+static Oculus::Platform::MultiplayerErrorErrorKey const Unknown;
 
 /// @brief Field DestinationUnavailable offset 0
-static ::Oculus::Platform::MultiplayerErrorErrorKey const DestinationUnavailable;
+static Oculus::Platform::MultiplayerErrorErrorKey const DestinationUnavailable;
 
 /// @brief Field DlcRequired offset 0
-static ::Oculus::Platform::MultiplayerErrorErrorKey const DlcRequired;
+static Oculus::Platform::MultiplayerErrorErrorKey const DlcRequired;
 
 /// @brief Field General offset 0
-static ::Oculus::Platform::MultiplayerErrorErrorKey const General;
+static Oculus::Platform::MultiplayerErrorErrorKey const General;
 
 /// @brief Field GroupFull offset 0
-static ::Oculus::Platform::MultiplayerErrorErrorKey const GroupFull;
+static Oculus::Platform::MultiplayerErrorErrorKey const GroupFull;
 
 /// @brief Field InviterNotJoinable offset 0
-static ::Oculus::Platform::MultiplayerErrorErrorKey const InviterNotJoinable;
+static Oculus::Platform::MultiplayerErrorErrorKey const InviterNotJoinable;
 
 /// @brief Field LevelNotHighEnough offset 0
-static ::Oculus::Platform::MultiplayerErrorErrorKey const LevelNotHighEnough;
+static Oculus::Platform::MultiplayerErrorErrorKey const LevelNotHighEnough;
 
 /// @brief Field LevelNotUnlocked offset 0
-static ::Oculus::Platform::MultiplayerErrorErrorKey const LevelNotUnlocked;
+static Oculus::Platform::MultiplayerErrorErrorKey const LevelNotUnlocked;
 
 /// @brief Field NetworkTimeout offset 0
-static ::Oculus::Platform::MultiplayerErrorErrorKey const NetworkTimeout;
+static Oculus::Platform::MultiplayerErrorErrorKey const NetworkTimeout;
 
 /// @brief Field NoLongerAvailable offset 0
-static ::Oculus::Platform::MultiplayerErrorErrorKey const NoLongerAvailable;
+static Oculus::Platform::MultiplayerErrorErrorKey const NoLongerAvailable;
 
 /// @brief Field UpdateRequired offset 0
-static ::Oculus::Platform::MultiplayerErrorErrorKey const UpdateRequired;
+static Oculus::Platform::MultiplayerErrorErrorKey const UpdateRequired;
 
 /// @brief Field TutorialRequired offset 0
-static ::Oculus::Platform::MultiplayerErrorErrorKey const TutorialRequired;
+static Oculus::Platform::MultiplayerErrorErrorKey const TutorialRequired;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MultiplayerErrorErrorKey, "Oculus.Platform", "MultiplayerErrorErrorKey");
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MultiplayerErrorErrorKey, "Oculus.Platform", "MultiplayerErrorErrorKey");

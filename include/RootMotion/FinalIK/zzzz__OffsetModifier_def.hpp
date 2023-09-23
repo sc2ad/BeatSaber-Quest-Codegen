@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace RootMotion::FinalIK {
 class FullBodyBipedIK;
 }
@@ -13,13 +12,13 @@ namespace System::Collections {
 class IEnumerator;
 }
 namespace RootMotion::FinalIK {
+struct FullBodyBipedEffector;
+}
+namespace RootMotion::FinalIK {
 class IKEffector;
 }
 namespace UnityEngine {
 struct Quaternion;
-}
-namespace RootMotion::FinalIK {
-struct FullBodyBipedEffector;
 }
 namespace System {
 class IDisposable;
@@ -33,10 +32,10 @@ namespace RootMotion::FinalIK {
 class OffsetModifier;
 }
 namespace RootMotion::FinalIK {
-class ____RootMotion__FinalIK__OffsetModifier__OffsetLimits;
+class RootMotion__FinalIK__OffsetModifier__OffsetLimits;
 }
 namespace RootMotion::FinalIK {
-class ____RootMotion__FinalIK__OffsetModifier___Initiate_d__8;
+class RootMotion__FinalIK__OffsetModifier___Initiate_d__8;
 }
 // Type: ::OffsetLimits
 namespace RootMotion::FinalIK {
@@ -44,47 +43,47 @@ namespace RootMotion::FinalIK {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12596))
 // CS Name: RootMotion.FinalIK.OffsetModifier::OffsetLimits
-class CORDL_TYPE ____RootMotion__FinalIK__OffsetModifier__OffsetLimits : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE RootMotion__FinalIK__OffsetModifier__OffsetLimits : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
 
-virtual ~____RootMotion__FinalIK__OffsetModifier__OffsetLimits() = default;
+virtual ~RootMotion__FinalIK__OffsetModifier__OffsetLimits() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____RootMotion__FinalIK__OffsetModifier__OffsetLimits", modifiers: " const&", def_value: None }]
-constexpr ____RootMotion__FinalIK__OffsetModifier__OffsetLimits(____RootMotion__FinalIK__OffsetModifier__OffsetLimits const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "RootMotion__FinalIK__OffsetModifier__OffsetLimits", modifiers: " const&", def_value: None }]
+constexpr RootMotion__FinalIK__OffsetModifier__OffsetLimits(RootMotion__FinalIK__OffsetModifier__OffsetLimits const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____RootMotion__FinalIK__OffsetModifier__OffsetLimits", modifiers: "&&", def_value: None }]
-constexpr ____RootMotion__FinalIK__OffsetModifier__OffsetLimits(____RootMotion__FinalIK__OffsetModifier__OffsetLimits&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "RootMotion__FinalIK__OffsetModifier__OffsetLimits", modifiers: "&&", def_value: None }]
+constexpr RootMotion__FinalIK__OffsetModifier__OffsetLimits(RootMotion__FinalIK__OffsetModifier__OffsetLimits&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____RootMotion__FinalIK__OffsetModifier__OffsetLimits(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit RootMotion__FinalIK__OffsetModifier__OffsetLimits(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____RootMotion__FinalIK__OffsetModifier__OffsetLimits& operator=(std::nullptr_t) noexcept {
+  constexpr RootMotion__FinalIK__OffsetModifier__OffsetLimits& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____RootMotion__FinalIK__OffsetModifier__OffsetLimits& operator=(void* o) noexcept {
+  constexpr RootMotion__FinalIK__OffsetModifier__OffsetLimits& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____RootMotion__FinalIK__OffsetModifier__OffsetLimits& operator=(____RootMotion__FinalIK__OffsetModifier__OffsetLimits&& o) noexcept = default;
-  constexpr ____RootMotion__FinalIK__OffsetModifier__OffsetLimits& operator=(____RootMotion__FinalIK__OffsetModifier__OffsetLimits const& o) noexcept = default;
+  constexpr RootMotion__FinalIK__OffsetModifier__OffsetLimits& operator=(RootMotion__FinalIK__OffsetModifier__OffsetLimits&& o) noexcept = default;
+  constexpr RootMotion__FinalIK__OffsetModifier__OffsetLimits& operator=(RootMotion__FinalIK__OffsetModifier__OffsetLimits const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::RootMotion::FinalIK::FullBodyBipedEffector __declspec(property(get=__get_effector, put=__set_effector))  effector;
+ RootMotion::FinalIK::FullBodyBipedEffector __declspec(property(get=__get_effector, put=__set_effector))  effector;
 
-constexpr void __set_effector(::RootMotion::FinalIK::FullBodyBipedEffector value) ;
+constexpr void __set_effector(RootMotion::FinalIK::FullBodyBipedEffector value) ;
 
-constexpr ::RootMotion::FinalIK::FullBodyBipedEffector __get_effector() const;
+constexpr RootMotion::FinalIK::FullBodyBipedEffector __get_effector() const;
 
  float_t __declspec(property(get=__get_spring, put=__set_spring))  spring;
 
@@ -150,7 +149,7 @@ constexpr float_t __get_maxZ() const;
 // Methods
 
 /// @brief Method Apply addr 0x120aac8 size 0x164 virtual false final false
- void Apply(::RootMotion::FinalIK::IKEffector e, ::UnityEngine::Quaternion rootRotation) ;
+ void Apply(RootMotion::FinalIK::IKEffector e, UnityEngine::Quaternion rootRotation) ;
 
 /// @brief Method SpringAxis addr 0x120ad38 size 0x70 virtual false final false
  float_t SpringAxis(float_t value, float_t min, float_t max) ;
@@ -159,7 +158,7 @@ constexpr float_t __get_maxZ() const;
  float_t Spring(float_t value, float_t limit, bool negative) ;
 
 // Ctor Parameters []
-explicit ____RootMotion__FinalIK__OffsetModifier__OffsetLimits() ;
+explicit RootMotion__FinalIK__OffsetModifier__OffsetLimits() ;
 
 /// @brief Method .ctor addr 0x120adf0 size 0x8 virtual false final false
  void _ctor() ;
@@ -174,46 +173,46 @@ namespace RootMotion::FinalIK {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12597))
 // CS Name: RootMotion.FinalIK.OffsetModifier::<Initiate>d__8
-class CORDL_TYPE ____RootMotion__FinalIK__OffsetModifier___Initiate_d__8 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE RootMotion__FinalIK__OffsetModifier___Initiate_d__8 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____RootMotion__FinalIK__OffsetModifier___Initiate_d__8() = default;
+virtual ~RootMotion__FinalIK__OffsetModifier___Initiate_d__8() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____RootMotion__FinalIK__OffsetModifier___Initiate_d__8", modifiers: " const&", def_value: None }]
-constexpr ____RootMotion__FinalIK__OffsetModifier___Initiate_d__8(____RootMotion__FinalIK__OffsetModifier___Initiate_d__8 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "RootMotion__FinalIK__OffsetModifier___Initiate_d__8", modifiers: " const&", def_value: None }]
+constexpr RootMotion__FinalIK__OffsetModifier___Initiate_d__8(RootMotion__FinalIK__OffsetModifier___Initiate_d__8 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____RootMotion__FinalIK__OffsetModifier___Initiate_d__8", modifiers: "&&", def_value: None }]
-constexpr ____RootMotion__FinalIK__OffsetModifier___Initiate_d__8(____RootMotion__FinalIK__OffsetModifier___Initiate_d__8&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "RootMotion__FinalIK__OffsetModifier___Initiate_d__8", modifiers: "&&", def_value: None }]
+constexpr RootMotion__FinalIK__OffsetModifier___Initiate_d__8(RootMotion__FinalIK__OffsetModifier___Initiate_d__8&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____RootMotion__FinalIK__OffsetModifier___Initiate_d__8(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit RootMotion__FinalIK__OffsetModifier___Initiate_d__8(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____RootMotion__FinalIK__OffsetModifier___Initiate_d__8& operator=(std::nullptr_t) noexcept {
+  constexpr RootMotion__FinalIK__OffsetModifier___Initiate_d__8& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____RootMotion__FinalIK__OffsetModifier___Initiate_d__8& operator=(void* o) noexcept {
+  constexpr RootMotion__FinalIK__OffsetModifier___Initiate_d__8& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____RootMotion__FinalIK__OffsetModifier___Initiate_d__8& operator=(____RootMotion__FinalIK__OffsetModifier___Initiate_d__8&& o) noexcept = default;
-  constexpr ____RootMotion__FinalIK__OffsetModifier___Initiate_d__8& operator=(____RootMotion__FinalIK__OffsetModifier___Initiate_d__8 const& o) noexcept = default;
+  constexpr RootMotion__FinalIK__OffsetModifier___Initiate_d__8& operator=(RootMotion__FinalIK__OffsetModifier___Initiate_d__8&& o) noexcept = default;
+  constexpr RootMotion__FinalIK__OffsetModifier___Initiate_d__8& operator=(RootMotion__FinalIK__OffsetModifier___Initiate_d__8 const& o) noexcept = default;
                 
 
 
@@ -231,11 +230,11 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::RootMotion::FinalIK::OffsetModifier __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ RootMotion::FinalIK::OffsetModifier __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::RootMotion::FinalIK::OffsetModifier value) ;
+constexpr void __set___4__this(RootMotion::FinalIK::OffsetModifier value) ;
 
-constexpr ::RootMotion::FinalIK::OffsetModifier __get___4__this() const;
+constexpr RootMotion::FinalIK::OffsetModifier __get___4__this() const;
 
 
 // Properties
@@ -248,7 +247,7 @@ constexpr ::RootMotion::FinalIK::OffsetModifier __get___4__this() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____RootMotion__FinalIK__OffsetModifier___Initiate_d__8(int32_t __1__state) ;
+explicit RootMotion__FinalIK__OffsetModifier___Initiate_d__8(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x120a9cc size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -278,12 +277,12 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12598))
 // CS Name: RootMotion.FinalIK.OffsetModifier
-class CORDL_TYPE OffsetModifier : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OffsetModifier : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using _Initiate_d__8 = ::RootMotion::FinalIK::____RootMotion__FinalIK__OffsetModifier___Initiate_d__8;
+using _Initiate_d__8 = RootMotion::FinalIK::RootMotion__FinalIK__OffsetModifier___Initiate_d__8;
 
-using OffsetLimits = ::RootMotion::FinalIK::____RootMotion__FinalIK__OffsetModifier__OffsetLimits;
+using OffsetLimits = RootMotion::FinalIK::RootMotion__FinalIK__OffsetModifier__OffsetLimits;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -297,7 +296,7 @@ constexpr OffsetModifier(OffsetModifier const& ) noexcept = default;
 constexpr OffsetModifier(OffsetModifier&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OffsetModifier(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OffsetModifier(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -324,11 +323,11 @@ constexpr void __set_weight(float_t value) ;
 
 constexpr float_t __get_weight() const;
 
- ::RootMotion::FinalIK::FullBodyBipedIK __declspec(property(get=__get_ik, put=__set_ik))  ik;
+ RootMotion::FinalIK::FullBodyBipedIK __declspec(property(get=__get_ik, put=__set_ik))  ik;
 
-constexpr void __set_ik(::RootMotion::FinalIK::FullBodyBipedIK value) ;
+constexpr void __set_ik(RootMotion::FinalIK::FullBodyBipedIK value) ;
 
-constexpr ::RootMotion::FinalIK::FullBodyBipedIK __get_ik() const;
+constexpr RootMotion::FinalIK::FullBodyBipedIK __get_ik() const;
 
  float_t __declspec(property(get=__get_lastTime, put=__set_lastTime))  lastTime;
 
@@ -354,13 +353,13 @@ constexpr float_t __get_lastTime() const;
  void Start() ;
 
 /// @brief Method Initiate addr 0x120a964 size 0x68 virtual false final false
- ::System::Collections::IEnumerator Initiate() ;
+ System::Collections::IEnumerator Initiate() ;
 
 /// @brief Method ModifyOffset addr 0x120a9f4 size 0xd4 virtual false final false
  void ModifyOffset() ;
 
 /// @brief Method ApplyLimits addr 0x1209e4c size 0xa8 virtual false final false
- void ApplyLimits(::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__OffsetModifier__OffsetLimits> limits) ;
+ void ApplyLimits(::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__OffsetModifier__OffsetLimits> limits) ;
 
 /// @brief Method OnDestroy addr 0x120ac2c size 0x10c virtual true final false
  void OnDestroy() ;
@@ -375,10 +374,9 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::OffsetModifier);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::OffsetModifier, "RootMotion.FinalIK", "OffsetModifier");
-NEED_NO_BOX(::RootMotion::FinalIK::____RootMotion__FinalIK__OffsetModifier__OffsetLimits);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::____RootMotion__FinalIK__OffsetModifier__OffsetLimits, "RootMotion.FinalIK", "OffsetModifier/OffsetLimits");
-NEED_NO_BOX(::RootMotion::FinalIK::____RootMotion__FinalIK__OffsetModifier___Initiate_d__8);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::____RootMotion__FinalIK__OffsetModifier___Initiate_d__8, "RootMotion.FinalIK", "OffsetModifier/<Initiate>d__8");
+NEED_NO_BOX(RootMotion::FinalIK::OffsetModifier);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetModifier, "RootMotion.FinalIK", "OffsetModifier");
+NEED_NO_BOX(RootMotion::FinalIK::RootMotion__FinalIK__OffsetModifier__OffsetLimits);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RootMotion__FinalIK__OffsetModifier__OffsetLimits, "RootMotion.FinalIK", "OffsetModifier/OffsetLimits");
+NEED_NO_BOX(RootMotion::FinalIK::RootMotion__FinalIK__OffsetModifier___Initiate_d__8);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RootMotion__FinalIK__OffsetModifier___Initiate_d__8, "RootMotion.FinalIK", "OffsetModifier/<Initiate>d__8");

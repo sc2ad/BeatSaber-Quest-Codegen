@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace UnityEngine {
 class RectTransform;
 }
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5895))
 // CS Name: PageControlElement
-class CORDL_TYPE PageControlElement : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE PageControlElement : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr PageControlElement(PageControlElement const& ) noexcept = default;
 constexpr PageControlElement(PageControlElement&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PageControlElement(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit PageControlElement(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -57,40 +56,40 @@ constexpr explicit PageControlElement(void* ptr) noexcept : ::UnityEngine::MonoB
 
 // Fields
 
- ::UnityEngine::RectTransform __declspec(property(get=__get__rectTransform, put=__set__rectTransform))  _rectTransform;
+ UnityEngine::RectTransform __declspec(property(get=__get__rectTransform, put=__set__rectTransform))  _rectTransform;
 
-constexpr void __set__rectTransform(::UnityEngine::RectTransform value) ;
+constexpr void __set__rectTransform(UnityEngine::RectTransform value) ;
 
-constexpr ::UnityEngine::RectTransform __get__rectTransform() const;
+constexpr UnityEngine::RectTransform __get__rectTransform() const;
 
- ::HMUI::ImageView __declspec(property(get=__get__imageView, put=__set__imageView))  _imageView;
+ HMUI::ImageView __declspec(property(get=__get__imageView, put=__set__imageView))  _imageView;
 
-constexpr void __set__imageView(::HMUI::ImageView value) ;
+constexpr void __set__imageView(HMUI::ImageView value) ;
 
-constexpr ::HMUI::ImageView __get__imageView() const;
+constexpr HMUI::ImageView __get__imageView() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__selectedColor, put=__set__selectedColor))  _selectedColor;
+ UnityEngine::Color __declspec(property(get=__get__selectedColor, put=__set__selectedColor))  _selectedColor;
 
-constexpr void __set__selectedColor(::UnityEngine::Color value) ;
+constexpr void __set__selectedColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__selectedColor() const;
+constexpr UnityEngine::Color __get__selectedColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__unselectedColor, put=__set__unselectedColor))  _unselectedColor;
+ UnityEngine::Color __declspec(property(get=__get__unselectedColor, put=__set__unselectedColor))  _unselectedColor;
 
-constexpr void __set__unselectedColor(::UnityEngine::Color value) ;
+constexpr void __set__unselectedColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__unselectedColor() const;
+constexpr UnityEngine::Color __get__unselectedColor() const;
 
 
 // Properties
 
- ::UnityEngine::RectTransform __declspec(property(get=get_rectTransform))  rectTransform;
+ UnityEngine::RectTransform __declspec(property(get=get_rectTransform))  rectTransform;
 
 
 // Methods
 
 /// @brief Method get_rectTransform addr 0x218ec48 size 0x8 virtual false final false
- ::UnityEngine::RectTransform get_rectTransform() ;
+ UnityEngine::RectTransform get_rectTransform() ;
 
 /// @brief Method SetSelected addr 0x218ea1c size 0x64 virtual false final false
  void SetSelected(bool isSelected) ;
@@ -105,6 +104,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PageControlElement);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PageControlElement, "", "PageControlElement");
+NEED_NO_BOX(GlobalNamespace::PageControlElement);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PageControlElement, "", "PageControlElement");

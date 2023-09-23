@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerCaptureEventBase_1_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 template<typename T>
@@ -17,10 +16,10 @@ namespace UnityEngine::UIElements {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7249)), TypeDefinitionIndex(TypeDefinitionIndex(7252)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7249), inst: 4498 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7252)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7249), inst: 4498 }), TypeDefinitionIndex(TypeDefinitionIndex(7249))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7252), inst: 2 })
 // CS Name: UnityEngine.UIElements.MouseCaptureEventBase`1
-class CORDL_TYPE MouseCaptureEventBase_1<T> : public ::UnityEngine::UIElements::PointerCaptureEventBase_1<T> {
+class CORDL_TYPE MouseCaptureEventBase_1<T> : public UnityEngine::UIElements::PointerCaptureEventBase_1<T> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr MouseCaptureEventBase_1(MouseCaptureEventBase_1 const& ) noexcept = de
 constexpr MouseCaptureEventBase_1(MouseCaptureEventBase_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MouseCaptureEventBase_1(void* ptr) noexcept : ::UnityEngine::UIElements::PointerCaptureEventBase_1<T>(ptr) {
+constexpr explicit MouseCaptureEventBase_1(void* ptr) noexcept : UnityEngine::UIElements::PointerCaptureEventBase_1<T>(ptr) {
 }
 
 
@@ -69,5 +68,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::MouseCaptureEventBase_1, "UnityEngine.UIElements", "MouseCaptureEventBase`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::UIElements::MouseCaptureEventBase_1, "UnityEngine.UIElements", "MouseCaptureEventBase`1");

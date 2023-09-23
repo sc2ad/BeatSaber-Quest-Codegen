@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class IDerivationParameters;
 }
@@ -20,8 +19,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
 class CORDL_TYPE KdfFeedbackParameters : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IDerivationParameters
-constexpr operator  ::Org::BouncyCastle::Crypto::IDerivationParameters() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IDerivationParameters
+constexpr operator  Org::BouncyCastle::Crypto::IDerivationParameters() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -115,10 +114,10 @@ explicit KdfFeedbackParameters(::ArrayW<uint8_t> ki, ::ArrayW<uint8_t> iv, ::Arr
  void _ctor(::ArrayW<uint8_t> ki, ::ArrayW<uint8_t> iv, ::ArrayW<uint8_t> fixedInputData, int32_t r, bool useCounter) ;
 
 /// @brief Method CreateWithCounter addr 0xeaa3cc size 0xe0 virtual false final false
-static ::Org::BouncyCastle::Crypto::Parameters::KdfFeedbackParameters CreateWithCounter(::ArrayW<uint8_t> ki, ::ArrayW<uint8_t> iv, ::ArrayW<uint8_t> fixedInputData, int32_t r) ;
+static Org::BouncyCastle::Crypto::Parameters::KdfFeedbackParameters CreateWithCounter(::ArrayW<uint8_t> ki, ::ArrayW<uint8_t> iv, ::ArrayW<uint8_t> fixedInputData, int32_t r) ;
 
 /// @brief Method CreateWithoutCounter addr 0xeaa4ac size 0x98 virtual false final false
-static ::Org::BouncyCastle::Crypto::Parameters::KdfFeedbackParameters CreateWithoutCounter(::ArrayW<uint8_t> ki, ::ArrayW<uint8_t> iv, ::ArrayW<uint8_t> fixedInputData) ;
+static Org::BouncyCastle::Crypto::Parameters::KdfFeedbackParameters CreateWithoutCounter(::ArrayW<uint8_t> ki, ::ArrayW<uint8_t> iv, ::ArrayW<uint8_t> fixedInputData) ;
 
 /// @brief Method get_Ki addr 0xeaa544 size 0x5c virtual false final false
  ::ArrayW<uint8_t> get_Ki() ;
@@ -139,6 +138,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Parameters
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::KdfFeedbackParameters);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Parameters::KdfFeedbackParameters, "Org.BouncyCastle.Crypto.Parameters", "KdfFeedbackParameters");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::KdfFeedbackParameters);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::KdfFeedbackParameters, "Org.BouncyCastle.Crypto.Parameters", "KdfFeedbackParameters");

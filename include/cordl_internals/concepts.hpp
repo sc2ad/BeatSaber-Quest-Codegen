@@ -6,6 +6,7 @@
 #include "beatsaber-hook/shared/utils/value-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/enum-wrapper-type.hpp"
 
+namespace {
 namespace cordl_internals {
     template <typename T, typename U>
     concept convertible_to = std::is_convertible_v<T, U>;
@@ -45,3 +46,4 @@ namespace cordl_internals {
         {t.convert()} -> convertible_to<void*>;
     };
 }
+} // end anonymous namespace

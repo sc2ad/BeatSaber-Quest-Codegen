@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto {
-class IStreamCipher;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class IStreamCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -24,8 +23,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
 class CORDL_TYPE RC4Engine : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IStreamCipher
-constexpr operator  ::Org::BouncyCastle::Crypto::IStreamCipher() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IStreamCipher
+constexpr operator  Org::BouncyCastle::Crypto::IStreamCipher() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -99,7 +98,7 @@ constexpr ::ArrayW<uint8_t> __get_workingKey() const;
 // Methods
 
 /// @brief Method Init addr 0xe4e50c size 0x108 virtual true final false
- void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method get_AlgorithmName addr 0xe4e7bc size 0x40 virtual true final false
  ::StringW get_AlgorithmName() ;
@@ -126,6 +125,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Engines
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::RC4Engine);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Engines::RC4Engine, "Org.BouncyCastle.Crypto.Engines", "RC4Engine");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Engines::RC4Engine);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::RC4Engine, "Org.BouncyCastle.Crypto.Engines", "RC4Engine");

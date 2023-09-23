@@ -4,15 +4,14 @@
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -21,10 +20,10 @@ class UxmlAttributeOverridesFactory;
 // Type: UnityEngine.UIElements::UxmlAttributeOverridesFactory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5113 }), TypeDefinitionIndex(TypeDefinitionIndex(6828)), TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(7068))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7068)), TypeDefinitionIndex(TypeDefinitionIndex(7089)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5113 }), TypeDefinitionIndex(TypeDefinitionIndex(6828))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7066))
 // CS Name: UnityEngine.UIElements.UxmlAttributeOverridesFactory
-class CORDL_TYPE UxmlAttributeOverridesFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::VisualElement,::UnityEngine::UIElements::UxmlAttributeOverridesTraits> {
+class CORDL_TYPE UxmlAttributeOverridesFactory : public UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::VisualElement,UnityEngine::UIElements::UxmlAttributeOverridesTraits> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr UxmlAttributeOverridesFactory(UxmlAttributeOverridesFactory const& ) n
 constexpr UxmlAttributeOverridesFactory(UxmlAttributeOverridesFactory&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UxmlAttributeOverridesFactory(void* ptr) noexcept : ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::VisualElement,::UnityEngine::UIElements::UxmlAttributeOverridesTraits>(ptr) {
+constexpr explicit UxmlAttributeOverridesFactory(void* ptr) noexcept : UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::VisualElement,UnityEngine::UIElements::UxmlAttributeOverridesTraits>(ptr) {
 }
 
 
@@ -74,7 +73,7 @@ constexpr explicit UxmlAttributeOverridesFactory(void* ptr) noexcept : ::UnityEn
  ::StringW get_uxmlQualifiedName() ;
 
 /// @brief Method Create addr 0x2c96224 size 0x8 virtual true final false
- ::UnityEngine::UIElements::VisualElement Create(::UnityEngine::UIElements::IUxmlAttributes bag, ::UnityEngine::UIElements::CreationContext cc) ;
+ UnityEngine::UIElements::VisualElement Create(UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
 // Ctor Parameters []
 explicit UxmlAttributeOverridesFactory() ;
@@ -86,6 +85,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::UxmlAttributeOverridesFactory);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UxmlAttributeOverridesFactory, "UnityEngine.UIElements", "UxmlAttributeOverridesFactory");
+NEED_NO_BOX(UnityEngine::UIElements::UxmlAttributeOverridesFactory);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UxmlAttributeOverridesFactory, "UnityEngine.UIElements", "UxmlAttributeOverridesFactory");

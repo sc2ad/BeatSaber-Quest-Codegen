@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
@@ -19,8 +18,8 @@ namespace Org::BouncyCastle::Crypto {
 class CORDL_TYPE AsymmetricKeyParameter : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::ICipherParameters
-constexpr operator  ::Org::BouncyCastle::Crypto::ICipherParameters() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::ICipherParameters
+constexpr operator  Org::BouncyCastle::Crypto::ICipherParameters() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -82,7 +81,7 @@ explicit AsymmetricKeyParameter(bool privateKey) ;
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0xea331c size 0x24 virtual false final false
- bool Equals(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter other) ;
+ bool Equals(Org::BouncyCastle::Crypto::AsymmetricKeyParameter other) ;
 
 /// @brief Method GetHashCode addr 0xea3340 size 0x20 virtual true final false
  int32_t GetHashCode() ;
@@ -91,6 +90,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter, "Org.BouncyCastle.Crypto", "AsymmetricKeyParameter");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::AsymmetricKeyParameter);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::AsymmetricKeyParameter, "Org.BouncyCastle.Crypto", "AsymmetricKeyParameter");

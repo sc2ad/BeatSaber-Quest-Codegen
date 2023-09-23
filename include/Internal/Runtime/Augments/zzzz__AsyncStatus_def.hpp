@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Internal::Runtime::Augments {
 struct AsyncStatus;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Started offset 0
-static ::Internal::Runtime::Augments::AsyncStatus const Started;
+static Internal::Runtime::Augments::AsyncStatus const Started;
 
 /// @brief Field Completed offset 0
-static ::Internal::Runtime::Augments::AsyncStatus const Completed;
+static Internal::Runtime::Augments::AsyncStatus const Completed;
 
 /// @brief Field Canceled offset 0
-static ::Internal::Runtime::Augments::AsyncStatus const Canceled;
+static Internal::Runtime::Augments::AsyncStatus const Canceled;
 
 /// @brief Field Error offset 0
-static ::Internal::Runtime::Augments::AsyncStatus const Error;
+static Internal::Runtime::Augments::AsyncStatus const Error;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Internal::Runtime::Augments
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Internal::Runtime::Augments::AsyncStatus, "Internal.Runtime.Augments", "AsyncStatus");
+DEFINE_IL2CPP_ARG_TYPE(Internal::Runtime::Augments::AsyncStatus, "Internal.Runtime.Augments", "AsyncStatus");

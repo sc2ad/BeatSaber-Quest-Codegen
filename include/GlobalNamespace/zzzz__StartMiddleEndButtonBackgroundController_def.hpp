@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace UnityEngine {
 class Sprite;
 }
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5537))
 // CS Name: StartMiddleEndButtonBackgroundController
-class CORDL_TYPE StartMiddleEndButtonBackgroundController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE StartMiddleEndButtonBackgroundController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr StartMiddleEndButtonBackgroundController(StartMiddleEndButtonBackgroun
 constexpr StartMiddleEndButtonBackgroundController(StartMiddleEndButtonBackgroundController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit StartMiddleEndButtonBackgroundController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit StartMiddleEndButtonBackgroundController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -54,29 +53,29 @@ constexpr explicit StartMiddleEndButtonBackgroundController(void* ptr) noexcept 
 
 // Fields
 
- ::UnityEngine::Sprite __declspec(property(get=__get__startSprite, put=__set__startSprite))  _startSprite;
+ UnityEngine::Sprite __declspec(property(get=__get__startSprite, put=__set__startSprite))  _startSprite;
 
-constexpr void __set__startSprite(::UnityEngine::Sprite value) ;
+constexpr void __set__startSprite(UnityEngine::Sprite value) ;
 
-constexpr ::UnityEngine::Sprite __get__startSprite() const;
+constexpr UnityEngine::Sprite __get__startSprite() const;
 
- ::UnityEngine::Sprite __declspec(property(get=__get__middleSprite, put=__set__middleSprite))  _middleSprite;
+ UnityEngine::Sprite __declspec(property(get=__get__middleSprite, put=__set__middleSprite))  _middleSprite;
 
-constexpr void __set__middleSprite(::UnityEngine::Sprite value) ;
+constexpr void __set__middleSprite(UnityEngine::Sprite value) ;
 
-constexpr ::UnityEngine::Sprite __get__middleSprite() const;
+constexpr UnityEngine::Sprite __get__middleSprite() const;
 
- ::UnityEngine::Sprite __declspec(property(get=__get__endSprite, put=__set__endSprite))  _endSprite;
+ UnityEngine::Sprite __declspec(property(get=__get__endSprite, put=__set__endSprite))  _endSprite;
 
-constexpr void __set__endSprite(::UnityEngine::Sprite value) ;
+constexpr void __set__endSprite(UnityEngine::Sprite value) ;
 
-constexpr ::UnityEngine::Sprite __get__endSprite() const;
+constexpr UnityEngine::Sprite __get__endSprite() const;
 
- ::HMUI::ImageView __declspec(property(get=__get__image, put=__set__image))  _image;
+ HMUI::ImageView __declspec(property(get=__get__image, put=__set__image))  _image;
 
-constexpr void __set__image(::HMUI::ImageView value) ;
+constexpr void __set__image(HMUI::ImageView value) ;
 
-constexpr ::HMUI::ImageView __get__image() const;
+constexpr HMUI::ImageView __get__image() const;
 
 
 // Methods
@@ -100,6 +99,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::StartMiddleEndButtonBackgroundController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StartMiddleEndButtonBackgroundController, "", "StartMiddleEndButtonBackgroundController");
+NEED_NO_BOX(GlobalNamespace::StartMiddleEndButtonBackgroundController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StartMiddleEndButtonBackgroundController, "", "StartMiddleEndButtonBackgroundController");

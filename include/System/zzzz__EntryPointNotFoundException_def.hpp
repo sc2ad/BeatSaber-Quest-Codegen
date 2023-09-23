@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__TypeLoadException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
@@ -19,7 +18,7 @@ namespace System {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2572))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2375))
 // CS Name: System.EntryPointNotFoundException
-class CORDL_TYPE EntryPointNotFoundException : public ::System::TypeLoadException {
+class CORDL_TYPE EntryPointNotFoundException : public System::TypeLoadException {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr EntryPointNotFoundException(EntryPointNotFoundException const& ) noexc
 constexpr EntryPointNotFoundException(EntryPointNotFoundException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EntryPointNotFoundException(void* ptr) noexcept : ::System::TypeLoadException(ptr) {
+constexpr explicit EntryPointNotFoundException(void* ptr) noexcept : System::TypeLoadException(ptr) {
 }
 
 
@@ -67,16 +66,15 @@ explicit EntryPointNotFoundException(::StringW message) ;
 /// @brief Method .ctor addr 0x24290ac size 0x24 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit EntryPointNotFoundException(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit EntryPointNotFoundException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x24290d0 size 0x8 virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::EntryPointNotFoundException);
-DEFINE_IL2CPP_ARG_TYPE(::System::EntryPointNotFoundException, "System", "EntryPointNotFoundException");
+NEED_NO_BOX(System::EntryPointNotFoundException);
+DEFINE_IL2CPP_ARG_TYPE(System::EntryPointNotFoundException, "System", "EntryPointNotFoundException");

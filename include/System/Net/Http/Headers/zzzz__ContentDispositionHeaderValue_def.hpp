@@ -4,20 +4,19 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-class ICloneable;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace System::Net::Http::Headers {
-class NameValueHeaderValue;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class ICollection_1;
+}
+namespace System {
+class ICloneable;
+}
+namespace System::Net::Http::Headers {
+class NameValueHeaderValue;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -32,8 +31,8 @@ namespace System::Net::Http::Headers {
 class CORDL_TYPE ContentDispositionHeaderValue : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::ICloneable
-constexpr operator  ::System::ICloneable() const noexcept;
+/// @brief Convert operator to System::ICloneable
+constexpr operator  System::ICloneable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -74,16 +73,16 @@ constexpr void __set_dispositionType(::StringW value) ;
 
 constexpr ::StringW __get_dispositionType() const;
 
- ::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue> __declspec(property(get=__get_parameters, put=__set_parameters))  parameters;
+ System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue> __declspec(property(get=__get_parameters, put=__set_parameters))  parameters;
 
-constexpr void __set_parameters(::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue> value) ;
+constexpr void __set_parameters(System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue> __get_parameters() const;
+constexpr System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue> __get_parameters() const;
 
 
 // Properties
 
- ::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue> __declspec(property(get=get_Parameters))  Parameters;
+ System::Collections::Generic::ICollection_1<System::Net::Http::Headers::NameValueHeaderValue> __declspec(property(get=get_Parameters))  Parameters;
 
 
 // Methods
@@ -94,14 +93,14 @@ explicit ContentDispositionHeaderValue() ;
 /// @brief Method .ctor addr 0x26a5c38 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "source", ty: "::System::Net::Http::Headers::ContentDispositionHeaderValue", modifiers: "", def_value: None }]
-explicit ContentDispositionHeaderValue(::System::Net::Http::Headers::ContentDispositionHeaderValue source) ;
+// Ctor Parameters [CppParam { name: "source", ty: "System::Net::Http::Headers::ContentDispositionHeaderValue", modifiers: "", def_value: None }]
+explicit ContentDispositionHeaderValue(System::Net::Http::Headers::ContentDispositionHeaderValue source) ;
 
 /// @brief Method .ctor addr 0x26a5c40 size 0x278 virtual false final false
- void _ctor(::System::Net::Http::Headers::ContentDispositionHeaderValue source) ;
+ void _ctor(System::Net::Http::Headers::ContentDispositionHeaderValue source) ;
 
 /// @brief Method get_Parameters addr 0x26a5eb8 size 0x80 virtual false final false
- ::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue> get_Parameters() ;
+ System::Collections::Generic::ICollection_1<System::Net::Http::Headers::NameValueHeaderValue> get_Parameters() ;
 
 /// @brief Method System.ICloneable.Clone addr 0x26a5f6c size 0x60 virtual true final true
  ::bs_hook::Il2CppWrapperType System_ICloneable_Clone() ;
@@ -116,12 +115,11 @@ explicit ContentDispositionHeaderValue(::System::Net::Http::Headers::ContentDisp
  ::StringW ToString() ;
 
 /// @brief Method TryParse addr 0x26a6168 size 0x170 virtual false final false
-static bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::ContentDispositionHeaderValue> parsedValue) ;
+static bool TryParse(::StringW input, ByRef<System::Net::Http::Headers::ContentDispositionHeaderValue> parsedValue) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Http::Headers
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Http::Headers::ContentDispositionHeaderValue);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::ContentDispositionHeaderValue, "System.Net.Http.Headers", "ContentDispositionHeaderValue");
+NEED_NO_BOX(System::Net::Http::Headers::ContentDispositionHeaderValue);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::ContentDispositionHeaderValue, "System.Net.Http.Headers", "ContentDispositionHeaderValue");

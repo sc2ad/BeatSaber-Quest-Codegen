@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 // Forward declare root types
 namespace System::Security::Cryptography {
 class AsymmetricSignatureFormatter;
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::AsymmetricSignatureFormatter);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::AsymmetricSignatureFormatter, "System.Security.Cryptography", "AsymmetricSignatureFormatter");
+NEED_NO_BOX(System::Security::Cryptography::AsymmetricSignatureFormatter);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::AsymmetricSignatureFormatter, "System.Security.Cryptography", "AsymmetricSignatureFormatter");

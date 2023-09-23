@@ -2,12 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPoolItem_1_def.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine::UIElements::UIR {
-class Page;
-}
 namespace UnityEngine::UIElements::UIR {
 struct Alloc;
+}
+namespace UnityEngine::UIElements::UIR {
+class Page;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -19,7 +18,7 @@ namespace UnityEngine::UIElements::UIR {
 // Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7499), inst: 330 }), TypeDefinitionIndex(TypeDefinitionIndex(7499))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7525))
 // CS Name: UnityEngine.UIElements.UIR.MeshHandle
-class CORDL_TYPE MeshHandle : public ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<::UnityEngine::UIElements::UIR::MeshHandle> {
+class CORDL_TYPE MeshHandle : public UnityEngine::UIElements::UIR::LinkedPoolItem_1<UnityEngine::UIElements::UIR::MeshHandle> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr MeshHandle(MeshHandle const& ) noexcept = default;
 constexpr MeshHandle(MeshHandle&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MeshHandle(void* ptr) noexcept : ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<::UnityEngine::UIElements::UIR::MeshHandle>(ptr) {
+constexpr explicit MeshHandle(void* ptr) noexcept : UnityEngine::UIElements::UIR::LinkedPoolItem_1<UnityEngine::UIElements::UIR::MeshHandle>(ptr) {
 }
 
 
@@ -55,17 +54,17 @@ constexpr explicit MeshHandle(void* ptr) noexcept : ::UnityEngine::UIElements::U
 
 // Fields
 
- ::UnityEngine::UIElements::UIR::Alloc __declspec(property(get=__get_allocVerts, put=__set_allocVerts))  allocVerts;
+ UnityEngine::UIElements::UIR::Alloc __declspec(property(get=__get_allocVerts, put=__set_allocVerts))  allocVerts;
 
-constexpr void __set_allocVerts(::UnityEngine::UIElements::UIR::Alloc value) ;
+constexpr void __set_allocVerts(UnityEngine::UIElements::UIR::Alloc value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::Alloc __get_allocVerts() const;
+constexpr UnityEngine::UIElements::UIR::Alloc __get_allocVerts() const;
 
- ::UnityEngine::UIElements::UIR::Alloc __declspec(property(get=__get_allocIndices, put=__set_allocIndices))  allocIndices;
+ UnityEngine::UIElements::UIR::Alloc __declspec(property(get=__get_allocIndices, put=__set_allocIndices))  allocIndices;
 
-constexpr void __set_allocIndices(::UnityEngine::UIElements::UIR::Alloc value) ;
+constexpr void __set_allocIndices(UnityEngine::UIElements::UIR::Alloc value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::Alloc __get_allocIndices() const;
+constexpr UnityEngine::UIElements::UIR::Alloc __get_allocIndices() const;
 
  uint32_t __declspec(property(get=__get_triangleCount, put=__set_triangleCount))  triangleCount;
 
@@ -73,11 +72,11 @@ constexpr void __set_triangleCount(uint32_t value) ;
 
 constexpr uint32_t __get_triangleCount() const;
 
- ::UnityEngine::UIElements::UIR::Page __declspec(property(get=__get_allocPage, put=__set_allocPage))  allocPage;
+ UnityEngine::UIElements::UIR::Page __declspec(property(get=__get_allocPage, put=__set_allocPage))  allocPage;
 
-constexpr void __set_allocPage(::UnityEngine::UIElements::UIR::Page value) ;
+constexpr void __set_allocPage(UnityEngine::UIElements::UIR::Page value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::Page __get_allocPage() const;
+constexpr UnityEngine::UIElements::UIR::Page __get_allocPage() const;
 
  uint32_t __declspec(property(get=__get_allocTime, put=__set_allocTime))  allocTime;
 
@@ -104,6 +103,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::UIR
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::UIR::MeshHandle);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::MeshHandle, "UnityEngine.UIElements.UIR", "MeshHandle");
+NEED_NO_BOX(UnityEngine::UIElements::UIR::MeshHandle);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::MeshHandle, "UnityEngine.UIElements.UIR", "MeshHandle");

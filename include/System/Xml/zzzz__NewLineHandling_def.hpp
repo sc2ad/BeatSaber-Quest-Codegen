@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Xml {
 struct NewLineHandling;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Replace offset 0
-static ::System::Xml::NewLineHandling const Replace;
+static System::Xml::NewLineHandling const Replace;
 
 /// @brief Field Entitize offset 0
-static ::System::Xml::NewLineHandling const Entitize;
+static System::Xml::NewLineHandling const Entitize;
 
 /// @brief Field None offset 0
-static ::System::Xml::NewLineHandling const None;
+static System::Xml::NewLineHandling const None;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::NewLineHandling, "System.Xml", "NewLineHandling");
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::NewLineHandling, "System.Xml", "NewLineHandling");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__SonyPublisherSKUSettingsSO_def.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class PS5PublisherSKUSettingsSO;
@@ -12,7 +11,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4689))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4653))
 // CS Name: PS5PublisherSKUSettingsSO
-class CORDL_TYPE PS5PublisherSKUSettingsSO : public ::GlobalNamespace::SonyPublisherSKUSettingsSO {
+class CORDL_TYPE PS5PublisherSKUSettingsSO : public GlobalNamespace::SonyPublisherSKUSettingsSO {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr PS5PublisherSKUSettingsSO(PS5PublisherSKUSettingsSO const& ) noexcept 
 constexpr PS5PublisherSKUSettingsSO(PS5PublisherSKUSettingsSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PS5PublisherSKUSettingsSO(void* ptr) noexcept : ::GlobalNamespace::SonyPublisherSKUSettingsSO(ptr) {
+constexpr explicit PS5PublisherSKUSettingsSO(void* ptr) noexcept : GlobalNamespace::SonyPublisherSKUSettingsSO(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PS5PublisherSKUSettingsSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PS5PublisherSKUSettingsSO, "", "PS5PublisherSKUSettingsSO");
+NEED_NO_BOX(GlobalNamespace::PS5PublisherSKUSettingsSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS5PublisherSKUSettingsSO, "", "PS5PublisherSKUSettingsSO");

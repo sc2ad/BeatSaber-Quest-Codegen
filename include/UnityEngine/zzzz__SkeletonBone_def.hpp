@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -22,8 +21,8 @@ namespace UnityEngine {
 struct CORDL_TYPE SkeletonBone : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "parentName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
-constexpr SkeletonBone(::StringW name, ::StringW parentName, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 scale) noexcept;
+// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "parentName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "position", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }]
+constexpr SkeletonBone(::StringW name, ::StringW parentName, UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, UnityEngine::Vector3 scale) noexcept;
 
 
                     constexpr SkeletonBone(SkeletonBone const&) = default;
@@ -68,27 +67,26 @@ constexpr void __set_parentName(::StringW value) ;
 
 constexpr ::StringW __get_parentName() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_position, put=__set_position))  position;
+ UnityEngine::Vector3 __declspec(property(get=__get_position, put=__set_position))  position;
 
-constexpr void __set_position(::UnityEngine::Vector3 value) ;
+constexpr void __set_position(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_position() const;
+constexpr UnityEngine::Vector3 __get_position() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get_rotation, put=__set_rotation))  rotation;
+ UnityEngine::Quaternion __declspec(property(get=__get_rotation, put=__set_rotation))  rotation;
 
-constexpr void __set_rotation(::UnityEngine::Quaternion value) ;
+constexpr void __set_rotation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get_rotation() const;
+constexpr UnityEngine::Quaternion __get_rotation() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_scale, put=__set_scale))  scale;
+ UnityEngine::Vector3 __declspec(property(get=__get_scale, put=__set_scale))  scale;
 
-constexpr void __set_scale(::UnityEngine::Vector3 value) ;
+constexpr void __set_scale(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_scale() const;
+constexpr UnityEngine::Vector3 __get_scale() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SkeletonBone, "UnityEngine", "SkeletonBone");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SkeletonBone, "UnityEngine", "SkeletonBone");

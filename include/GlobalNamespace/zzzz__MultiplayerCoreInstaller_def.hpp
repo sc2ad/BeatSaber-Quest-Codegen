@@ -1,18 +1,17 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
-namespace {
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace GlobalNamespace {
-class GameplayCoreSceneSetupData;
+class MultiplayerBadgesModelSO;
 }
 namespace GlobalNamespace {
 class ScoreSyncStateManager;
 }
 namespace GlobalNamespace {
-class MultiplayerBadgesModelSO;
+class GameplayCoreSceneSetupData;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,7 +23,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11080))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5484))
 // CS Name: MultiplayerCoreInstaller
-class CORDL_TYPE MultiplayerCoreInstaller : public ::Zenject::MonoInstaller {
+class CORDL_TYPE MultiplayerCoreInstaller : public Zenject::MonoInstaller {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr MultiplayerCoreInstaller(MultiplayerCoreInstaller const& ) noexcept = 
 constexpr MultiplayerCoreInstaller(MultiplayerCoreInstaller&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerCoreInstaller(void* ptr) noexcept : ::Zenject::MonoInstaller(ptr) {
+constexpr explicit MultiplayerCoreInstaller(void* ptr) noexcept : Zenject::MonoInstaller(ptr) {
 }
 
 
@@ -60,29 +59,29 @@ constexpr explicit MultiplayerCoreInstaller(void* ptr) noexcept : ::Zenject::Mon
 
 // Fields
 
- ::GlobalNamespace::ScoreSyncStateManager __declspec(property(get=__get__scoreSyncStateManagerPrefab, put=__set__scoreSyncStateManagerPrefab))  _scoreSyncStateManagerPrefab;
+ GlobalNamespace::ScoreSyncStateManager __declspec(property(get=__get__scoreSyncStateManagerPrefab, put=__set__scoreSyncStateManagerPrefab))  _scoreSyncStateManagerPrefab;
 
-constexpr void __set__scoreSyncStateManagerPrefab(::GlobalNamespace::ScoreSyncStateManager value) ;
+constexpr void __set__scoreSyncStateManagerPrefab(GlobalNamespace::ScoreSyncStateManager value) ;
 
-constexpr ::GlobalNamespace::ScoreSyncStateManager __get__scoreSyncStateManagerPrefab() const;
+constexpr GlobalNamespace::ScoreSyncStateManager __get__scoreSyncStateManagerPrefab() const;
 
- ::GlobalNamespace::MultiplayerBadgesModelSO __declspec(property(get=__get__multiplayerBadgesModel, put=__set__multiplayerBadgesModel))  _multiplayerBadgesModel;
+ GlobalNamespace::MultiplayerBadgesModelSO __declspec(property(get=__get__multiplayerBadgesModel, put=__set__multiplayerBadgesModel))  _multiplayerBadgesModel;
 
-constexpr void __set__multiplayerBadgesModel(::GlobalNamespace::MultiplayerBadgesModelSO value) ;
+constexpr void __set__multiplayerBadgesModel(GlobalNamespace::MultiplayerBadgesModelSO value) ;
 
-constexpr ::GlobalNamespace::MultiplayerBadgesModelSO __get__multiplayerBadgesModel() const;
+constexpr GlobalNamespace::MultiplayerBadgesModelSO __get__multiplayerBadgesModel() const;
 
- ::GlobalNamespace::GameplayCoreSceneSetupData __declspec(property(get=__get__sceneSetupData, put=__set__sceneSetupData))  _sceneSetupData;
+ GlobalNamespace::GameplayCoreSceneSetupData __declspec(property(get=__get__sceneSetupData, put=__set__sceneSetupData))  _sceneSetupData;
 
-constexpr void __set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData value) ;
+constexpr void __set__sceneSetupData(GlobalNamespace::GameplayCoreSceneSetupData value) ;
 
-constexpr ::GlobalNamespace::GameplayCoreSceneSetupData __get__sceneSetupData() const;
+constexpr GlobalNamespace::GameplayCoreSceneSetupData __get__sceneSetupData() const;
 
- ::GlobalNamespace::IMultiplayerSessionManager __declspec(property(get=__get__multiplayerSessionManager, put=__set__multiplayerSessionManager))  _multiplayerSessionManager;
+ GlobalNamespace::IMultiplayerSessionManager __declspec(property(get=__get__multiplayerSessionManager, put=__set__multiplayerSessionManager))  _multiplayerSessionManager;
 
-constexpr void __set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager value) ;
+constexpr void __set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager value) ;
 
-constexpr ::GlobalNamespace::IMultiplayerSessionManager __get__multiplayerSessionManager() const;
+constexpr GlobalNamespace::IMultiplayerSessionManager __get__multiplayerSessionManager() const;
 
 
 // Methods
@@ -100,6 +99,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerCoreInstaller);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerCoreInstaller, "", "MultiplayerCoreInstaller");
+NEED_NO_BOX(GlobalNamespace::MultiplayerCoreInstaller);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerCoreInstaller, "", "MultiplayerCoreInstaller");

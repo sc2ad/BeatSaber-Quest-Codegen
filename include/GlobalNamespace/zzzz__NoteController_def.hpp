@@ -5,52 +5,33 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class IDisposable;
+}
+namespace System::Collections::Generic {
 template<typename T>
-class ILazyCopyHashSet_1;
-}
-namespace GlobalNamespace {
-class IBeatmapObjectController;
-}
-namespace GlobalNamespace {
-class INoteControllerDidInitEvent;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-class INoteControllerNoteWasCutEvent;
-}
-namespace GlobalNamespace {
-class INoteControllerNoteDidDissolveEvent;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace GlobalNamespace {
-struct NoteCutInfo;
-}
-namespace GlobalNamespace {
-class INoteControllerNoteDidPassJumpThreeQuartersEvent;
-}
-namespace GlobalNamespace {
-class INoteControllerNoteDidStartDissolvingEvent;
-}
-namespace GlobalNamespace {
-class NoteData;
+class IEnumerator_1;
 }
 namespace UnityEngine {
 class Transform;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace GlobalNamespace {
+class INoteControllerNoteDidFinishJumpEvent;
+}
+namespace GlobalNamespace {
+class INoteControllerDidInitEvent;
 }
 namespace GlobalNamespace {
 class INoteControllerNoteDidStartJumpEvent;
 }
 namespace GlobalNamespace {
-class INoteControllerNoteDidFinishJumpEvent;
+class INoteMirrorable;
+}
+namespace GlobalNamespace {
+class NoteMovement;
 }
 namespace GlobalNamespace {
 class INoteControllerNoteWasMissedEvent;
@@ -60,24 +41,42 @@ template<typename T>
 class LazyCopyHashSet_1;
 }
 namespace GlobalNamespace {
-class INoteMirrorable;
+class INoteControllerNoteDidDissolveEvent;
 }
 namespace GlobalNamespace {
-class NoteMovement;
+class NoteData;
 }
-namespace System::Collections::Generic {
+namespace GlobalNamespace {
+class INoteControllerNoteDidStartDissolvingEvent;
+}
+namespace GlobalNamespace {
 template<typename T>
-class IEnumerator_1;
+class ILazyCopyHashSet_1;
 }
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+struct NoteCutInfo;
+}
+namespace GlobalNamespace {
+class INoteControllerNoteDidPassJumpThreeQuartersEvent;
+}
+namespace GlobalNamespace {
+class IBeatmapObjectController;
+}
+namespace GlobalNamespace {
+class INoteControllerNoteWasCutEvent;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-class NoteController;
+class GlobalNamespace__NoteController___DissolveCoroutine_d__73;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__NoteController___DissolveCoroutine_d__73;
+class NoteController;
 }
 // Type: ::<DissolveCoroutine>d__73
 namespace GlobalNamespace {
@@ -85,46 +84,46 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4876))
 // CS Name: NoteController::<DissolveCoroutine>d__73
-class CORDL_TYPE ____GlobalNamespace__NoteController___DissolveCoroutine_d__73 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__NoteController___DissolveCoroutine_d__73 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____GlobalNamespace__NoteController___DissolveCoroutine_d__73() = default;
+virtual ~GlobalNamespace__NoteController___DissolveCoroutine_d__73() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__NoteController___DissolveCoroutine_d__73", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__NoteController___DissolveCoroutine_d__73(____GlobalNamespace__NoteController___DissolveCoroutine_d__73 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__NoteController___DissolveCoroutine_d__73", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__NoteController___DissolveCoroutine_d__73(GlobalNamespace__NoteController___DissolveCoroutine_d__73 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__NoteController___DissolveCoroutine_d__73", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__NoteController___DissolveCoroutine_d__73(____GlobalNamespace__NoteController___DissolveCoroutine_d__73&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__NoteController___DissolveCoroutine_d__73", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__NoteController___DissolveCoroutine_d__73(GlobalNamespace__NoteController___DissolveCoroutine_d__73&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__NoteController___DissolveCoroutine_d__73(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__NoteController___DissolveCoroutine_d__73(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__NoteController___DissolveCoroutine_d__73& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__NoteController___DissolveCoroutine_d__73& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__NoteController___DissolveCoroutine_d__73& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__NoteController___DissolveCoroutine_d__73& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__NoteController___DissolveCoroutine_d__73& operator=(____GlobalNamespace__NoteController___DissolveCoroutine_d__73&& o) noexcept = default;
-  constexpr ____GlobalNamespace__NoteController___DissolveCoroutine_d__73& operator=(____GlobalNamespace__NoteController___DissolveCoroutine_d__73 const& o) noexcept = default;
+  constexpr GlobalNamespace__NoteController___DissolveCoroutine_d__73& operator=(GlobalNamespace__NoteController___DissolveCoroutine_d__73&& o) noexcept = default;
+  constexpr GlobalNamespace__NoteController___DissolveCoroutine_d__73& operator=(GlobalNamespace__NoteController___DissolveCoroutine_d__73 const& o) noexcept = default;
                 
 
 
@@ -142,11 +141,11 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::GlobalNamespace::NoteController __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::NoteController __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::NoteController value) ;
+constexpr void __set___4__this(GlobalNamespace::NoteController value) ;
 
-constexpr ::GlobalNamespace::NoteController __get___4__this() const;
+constexpr GlobalNamespace::NoteController __get___4__this() const;
 
  float_t __declspec(property(get=__get_duration, put=__set_duration))  duration;
 
@@ -165,7 +164,7 @@ constexpr float_t __get_duration() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__NoteController___DissolveCoroutine_d__73(int32_t __1__state) ;
+explicit GlobalNamespace__NoteController___DissolveCoroutine_d__73(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x223f708 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -195,16 +194,16 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4886))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4877))
 // CS Name: NoteController
-class CORDL_TYPE NoteController : public ::GlobalNamespace::NoteControllerBase {
+class CORDL_TYPE NoteController : public GlobalNamespace::NoteControllerBase {
 public:
 // Declarations
-using _DissolveCoroutine_d__73 = ::GlobalNamespace::____GlobalNamespace__NoteController___DissolveCoroutine_d__73;
+using _DissolveCoroutine_d__73 = GlobalNamespace::GlobalNamespace__NoteController___DissolveCoroutine_d__73;
 
-/// @brief Convert operator to ::GlobalNamespace::INoteMirrorable
-constexpr operator  ::GlobalNamespace::INoteMirrorable() const noexcept;
+/// @brief Convert operator to GlobalNamespace::INoteMirrorable
+constexpr operator  GlobalNamespace::INoteMirrorable() const noexcept;
 
-/// @brief Convert operator to ::GlobalNamespace::IBeatmapObjectController
-constexpr operator  ::GlobalNamespace::IBeatmapObjectController() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IBeatmapObjectController
+constexpr operator  GlobalNamespace::IBeatmapObjectController() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x80};
@@ -218,7 +217,7 @@ constexpr NoteController(NoteController const& ) noexcept = default;
 constexpr NoteController(NoteController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NoteController(void* ptr) noexcept : ::GlobalNamespace::NoteControllerBase(ptr) {
+constexpr explicit NoteController(void* ptr) noexcept : GlobalNamespace::NoteControllerBase(ptr) {
 }
 
 
@@ -239,17 +238,17 @@ constexpr explicit NoteController(void* ptr) noexcept : ::GlobalNamespace::NoteC
 
 // Fields
 
- ::GlobalNamespace::NoteMovement __declspec(property(get=__get__noteMovement, put=__set__noteMovement))  _noteMovement;
+ GlobalNamespace::NoteMovement __declspec(property(get=__get__noteMovement, put=__set__noteMovement))  _noteMovement;
 
-constexpr void __set__noteMovement(::GlobalNamespace::NoteMovement value) ;
+constexpr void __set__noteMovement(GlobalNamespace::NoteMovement value) ;
 
-constexpr ::GlobalNamespace::NoteMovement __get__noteMovement() const;
+constexpr GlobalNamespace::NoteMovement __get__noteMovement() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__noteTransform, put=__set__noteTransform))  _noteTransform;
+ UnityEngine::Transform __declspec(property(get=__get__noteTransform, put=__set__noteTransform))  _noteTransform;
 
-constexpr void __set__noteTransform(::UnityEngine::Transform value) ;
+constexpr void __set__noteTransform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__noteTransform() const;
+constexpr UnityEngine::Transform __get__noteTransform() const;
 
  bool __declspec(property(get=__get__hidden_k__BackingField, put=__set__hidden_k__BackingField))  _hidden_k__BackingField;
 
@@ -257,59 +256,59 @@ constexpr void __set__hidden_k__BackingField(bool value) ;
 
 constexpr bool __get__hidden_k__BackingField() const;
 
- ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent> __declspec(property(get=__get__didInitEvent, put=__set__didInitEvent))  _didInitEvent;
+ GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerDidInitEvent> __declspec(property(get=__get__didInitEvent, put=__set__didInitEvent))  _didInitEvent;
 
-constexpr void __set__didInitEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent> value) ;
+constexpr void __set__didInitEvent(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerDidInitEvent> value) ;
 
-constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent> __get__didInitEvent() const;
+constexpr GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerDidInitEvent> __get__didInitEvent() const;
 
- ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartJumpEvent> __declspec(property(get=__get__noteDidStartJumpEvent, put=__set__noteDidStartJumpEvent))  _noteDidStartJumpEvent;
+ GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidStartJumpEvent> __declspec(property(get=__get__noteDidStartJumpEvent, put=__set__noteDidStartJumpEvent))  _noteDidStartJumpEvent;
 
-constexpr void __set__noteDidStartJumpEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartJumpEvent> value) ;
+constexpr void __set__noteDidStartJumpEvent(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidStartJumpEvent> value) ;
 
-constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartJumpEvent> __get__noteDidStartJumpEvent() const;
+constexpr GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidStartJumpEvent> __get__noteDidStartJumpEvent() const;
 
- ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidFinishJumpEvent> __declspec(property(get=__get__noteDidFinishJumpEvent, put=__set__noteDidFinishJumpEvent))  _noteDidFinishJumpEvent;
+ GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidFinishJumpEvent> __declspec(property(get=__get__noteDidFinishJumpEvent, put=__set__noteDidFinishJumpEvent))  _noteDidFinishJumpEvent;
 
-constexpr void __set__noteDidFinishJumpEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidFinishJumpEvent> value) ;
+constexpr void __set__noteDidFinishJumpEvent(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidFinishJumpEvent> value) ;
 
-constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidFinishJumpEvent> __get__noteDidFinishJumpEvent() const;
+constexpr GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidFinishJumpEvent> __get__noteDidFinishJumpEvent() const;
 
- ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent> __declspec(property(get=__get__noteDidPassJumpThreeQuartersEvent, put=__set__noteDidPassJumpThreeQuartersEvent))  _noteDidPassJumpThreeQuartersEvent;
+ GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent> __declspec(property(get=__get__noteDidPassJumpThreeQuartersEvent, put=__set__noteDidPassJumpThreeQuartersEvent))  _noteDidPassJumpThreeQuartersEvent;
 
-constexpr void __set__noteDidPassJumpThreeQuartersEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent> value) ;
+constexpr void __set__noteDidPassJumpThreeQuartersEvent(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent> value) ;
 
-constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent> __get__noteDidPassJumpThreeQuartersEvent() const;
+constexpr GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent> __get__noteDidPassJumpThreeQuartersEvent() const;
 
- ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteWasCutEvent> __declspec(property(get=__get__noteWasCutEvent, put=__set__noteWasCutEvent))  _noteWasCutEvent;
+ GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteWasCutEvent> __declspec(property(get=__get__noteWasCutEvent, put=__set__noteWasCutEvent))  _noteWasCutEvent;
 
-constexpr void __set__noteWasCutEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteWasCutEvent> value) ;
+constexpr void __set__noteWasCutEvent(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteWasCutEvent> value) ;
 
-constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteWasCutEvent> __get__noteWasCutEvent() const;
+constexpr GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteWasCutEvent> __get__noteWasCutEvent() const;
 
- ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteWasMissedEvent> __declspec(property(get=__get__noteWasMissedEvent, put=__set__noteWasMissedEvent))  _noteWasMissedEvent;
+ GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteWasMissedEvent> __declspec(property(get=__get__noteWasMissedEvent, put=__set__noteWasMissedEvent))  _noteWasMissedEvent;
 
-constexpr void __set__noteWasMissedEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteWasMissedEvent> value) ;
+constexpr void __set__noteWasMissedEvent(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteWasMissedEvent> value) ;
 
-constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteWasMissedEvent> __get__noteWasMissedEvent() const;
+constexpr GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteWasMissedEvent> __get__noteWasMissedEvent() const;
 
- ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent> __declspec(property(get=__get__noteDidStartDissolvingEvent, put=__set__noteDidStartDissolvingEvent))  _noteDidStartDissolvingEvent;
+ GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent> __declspec(property(get=__get__noteDidStartDissolvingEvent, put=__set__noteDidStartDissolvingEvent))  _noteDidStartDissolvingEvent;
 
-constexpr void __set__noteDidStartDissolvingEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent> value) ;
+constexpr void __set__noteDidStartDissolvingEvent(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent> value) ;
 
-constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent> __get__noteDidStartDissolvingEvent() const;
+constexpr GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent> __get__noteDidStartDissolvingEvent() const;
 
- ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidDissolveEvent> __declspec(property(get=__get__noteDidDissolveEvent, put=__set__noteDidDissolveEvent))  _noteDidDissolveEvent;
+ GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidDissolveEvent> __declspec(property(get=__get__noteDidDissolveEvent, put=__set__noteDidDissolveEvent))  _noteDidDissolveEvent;
 
-constexpr void __set__noteDidDissolveEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidDissolveEvent> value) ;
+constexpr void __set__noteDidDissolveEvent(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidDissolveEvent> value) ;
 
-constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidDissolveEvent> __get__noteDidDissolveEvent() const;
+constexpr GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidDissolveEvent> __get__noteDidDissolveEvent() const;
 
- ::GlobalNamespace::NoteData __declspec(property(get=__get__noteData, put=__set__noteData))  _noteData;
+ GlobalNamespace::NoteData __declspec(property(get=__get__noteData, put=__set__noteData))  _noteData;
 
-constexpr void __set__noteData(::GlobalNamespace::NoteData value) ;
+constexpr void __set__noteData(GlobalNamespace::NoteData value) ;
 
-constexpr ::GlobalNamespace::NoteData __get__noteData() const;
+constexpr GlobalNamespace::NoteData __get__noteData() const;
 
  bool __declspec(property(get=__get__dissolving, put=__set__dissolving))  _dissolving;
 
@@ -326,27 +325,27 @@ constexpr float_t __get__uniformScale() const;
 
 // Properties
 
- ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent> __declspec(property(get=get_didInitEvent))  didInitEvent;
+ GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerDidInitEvent> __declspec(property(get=get_didInitEvent))  didInitEvent;
 
- ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartJumpEvent> __declspec(property(get=get_noteDidStartJumpEvent))  noteDidStartJumpEvent;
+ GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidStartJumpEvent> __declspec(property(get=get_noteDidStartJumpEvent))  noteDidStartJumpEvent;
 
- ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidFinishJumpEvent> __declspec(property(get=get_noteDidFinishJumpEvent))  noteDidFinishJumpEvent;
+ GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidFinishJumpEvent> __declspec(property(get=get_noteDidFinishJumpEvent))  noteDidFinishJumpEvent;
 
- ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent> __declspec(property(get=get_noteDidPassJumpThreeQuartersEvent))  noteDidPassJumpThreeQuartersEvent;
+ GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent> __declspec(property(get=get_noteDidPassJumpThreeQuartersEvent))  noteDidPassJumpThreeQuartersEvent;
 
- ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteWasCutEvent> __declspec(property(get=get_noteWasCutEvent))  noteWasCutEvent;
+ GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteWasCutEvent> __declspec(property(get=get_noteWasCutEvent))  noteWasCutEvent;
 
- ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteWasMissedEvent> __declspec(property(get=get_noteWasMissedEvent))  noteWasMissedEvent;
+ GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteWasMissedEvent> __declspec(property(get=get_noteWasMissedEvent))  noteWasMissedEvent;
 
- ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent> __declspec(property(get=get_noteDidStartDissolvingEvent))  noteDidStartDissolvingEvent;
+ GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent> __declspec(property(get=get_noteDidStartDissolvingEvent))  noteDidStartDissolvingEvent;
 
- ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidDissolveEvent> __declspec(property(get=get_noteDidDissolveEvent))  noteDidDissolveEvent;
+ GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidDissolveEvent> __declspec(property(get=get_noteDidDissolveEvent))  noteDidDissolveEvent;
 
- ::UnityEngine::Transform __declspec(property(get=get_noteTransform))  noteTransform;
+ UnityEngine::Transform __declspec(property(get=get_noteTransform))  noteTransform;
 
- ::UnityEngine::Quaternion __declspec(property(get=get_worldRotation))  worldRotation;
+ UnityEngine::Quaternion __declspec(property(get=get_worldRotation))  worldRotation;
 
- ::UnityEngine::Quaternion __declspec(property(get=get_inverseWorldRotation))  inverseWorldRotation;
+ UnityEngine::Quaternion __declspec(property(get=get_inverseWorldRotation))  inverseWorldRotation;
 
  float_t __declspec(property(get=get_moveStartTime))  moveStartTime;
 
@@ -354,15 +353,15 @@ constexpr float_t __get__uniformScale() const;
 
  float_t __declspec(property(get=get_jumpDuration))  jumpDuration;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_jumpMoveVec))  jumpMoveVec;
+ UnityEngine::Vector3 __declspec(property(get=get_jumpMoveVec))  jumpMoveVec;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_beatPos))  beatPos;
+ UnityEngine::Vector3 __declspec(property(get=get_beatPos))  beatPos;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_jumpStartPos))  jumpStartPos;
+ UnityEngine::Vector3 __declspec(property(get=get_jumpStartPos))  jumpStartPos;
 
- ::GlobalNamespace::NoteData __declspec(property(get=get_noteData))  noteData;
+ GlobalNamespace::NoteData __declspec(property(get=get_noteData))  noteData;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_moveVec))  moveVec;
+ UnityEngine::Vector3 __declspec(property(get=get_moveVec))  moveVec;
 
  float_t __declspec(property(get=get_uniformScale))  uniformScale;
 
@@ -372,37 +371,37 @@ constexpr float_t __get__uniformScale() const;
 // Methods
 
 /// @brief Method get_didInitEvent addr 0x223e668 size 0x8 virtual true final false
- ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent> get_didInitEvent() ;
+ GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerDidInitEvent> get_didInitEvent() ;
 
 /// @brief Method get_noteDidStartJumpEvent addr 0x223e670 size 0x8 virtual false final false
- ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartJumpEvent> get_noteDidStartJumpEvent() ;
+ GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidStartJumpEvent> get_noteDidStartJumpEvent() ;
 
 /// @brief Method get_noteDidFinishJumpEvent addr 0x223e678 size 0x8 virtual false final false
- ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidFinishJumpEvent> get_noteDidFinishJumpEvent() ;
+ GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidFinishJumpEvent> get_noteDidFinishJumpEvent() ;
 
 /// @brief Method get_noteDidPassJumpThreeQuartersEvent addr 0x223e680 size 0x8 virtual true final false
- ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent> get_noteDidPassJumpThreeQuartersEvent() ;
+ GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent> get_noteDidPassJumpThreeQuartersEvent() ;
 
 /// @brief Method get_noteWasCutEvent addr 0x223e688 size 0x8 virtual false final false
- ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteWasCutEvent> get_noteWasCutEvent() ;
+ GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteWasCutEvent> get_noteWasCutEvent() ;
 
 /// @brief Method get_noteWasMissedEvent addr 0x223e690 size 0x8 virtual false final false
- ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteWasMissedEvent> get_noteWasMissedEvent() ;
+ GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteWasMissedEvent> get_noteWasMissedEvent() ;
 
 /// @brief Method get_noteDidStartDissolvingEvent addr 0x223e698 size 0x8 virtual true final false
- ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent> get_noteDidStartDissolvingEvent() ;
+ GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent> get_noteDidStartDissolvingEvent() ;
 
 /// @brief Method get_noteDidDissolveEvent addr 0x223e6a0 size 0x8 virtual false final false
- ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidDissolveEvent> get_noteDidDissolveEvent() ;
+ GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidDissolveEvent> get_noteDidDissolveEvent() ;
 
 /// @brief Method get_noteTransform addr 0x223e6a8 size 0x8 virtual true final true
- ::UnityEngine::Transform get_noteTransform() ;
+ UnityEngine::Transform get_noteTransform() ;
 
 /// @brief Method get_worldRotation addr 0x223cef8 size 0x28 virtual false final false
- ::UnityEngine::Quaternion get_worldRotation() ;
+ UnityEngine::Quaternion get_worldRotation() ;
 
 /// @brief Method get_inverseWorldRotation addr 0x223cf20 size 0x28 virtual false final false
- ::UnityEngine::Quaternion get_inverseWorldRotation() ;
+ UnityEngine::Quaternion get_inverseWorldRotation() ;
 
 /// @brief Method get_moveStartTime addr 0x223e6f0 size 0x24 virtual false final false
  float_t get_moveStartTime() ;
@@ -414,19 +413,19 @@ constexpr float_t __get__uniformScale() const;
  float_t get_jumpDuration() ;
 
 /// @brief Method get_jumpMoveVec addr 0x223e7b0 size 0x28 virtual false final false
- ::UnityEngine::Vector3 get_jumpMoveVec() ;
+ UnityEngine::Vector3 get_jumpMoveVec() ;
 
 /// @brief Method get_beatPos addr 0x223e7f8 size 0x18 virtual false final false
- ::UnityEngine::Vector3 get_beatPos() ;
+ UnityEngine::Vector3 get_beatPos() ;
 
 /// @brief Method get_jumpStartPos addr 0x223e854 size 0x28 virtual false final false
- ::UnityEngine::Vector3 get_jumpStartPos() ;
+ UnityEngine::Vector3 get_jumpStartPos() ;
 
 /// @brief Method get_noteData addr 0x223e89c size 0x8 virtual true final false
- ::GlobalNamespace::NoteData get_noteData() ;
+ GlobalNamespace::NoteData get_noteData() ;
 
 /// @brief Method get_moveVec addr 0x223e8a4 size 0x5c virtual false final false
- ::UnityEngine::Vector3 get_moveVec() ;
+ UnityEngine::Vector3 get_moveVec() ;
 
 /// @brief Method get_uniformScale addr 0x223e900 size 0x8 virtual false final false
  float_t get_uniformScale() ;
@@ -456,7 +455,7 @@ constexpr float_t __get__uniformScale() const;
  void HandleNoteDidFinishJump() ;
 
 /// @brief Method HandleNoteDidPassJumpThreeQuarters addr 0x223f2cc size 0x1f0 virtual false final false
- void HandleNoteDidPassJumpThreeQuarters(::GlobalNamespace::NoteMovement noteMovement) ;
+ void HandleNoteDidPassJumpThreeQuarters(GlobalNamespace::NoteMovement noteMovement) ;
 
 /// @brief Method HandleNoteDidPassMissedMarkerEvent addr 0x223f4bc size 0x1c virtual false final false
  void HandleNoteDidPassMissedMarkerEvent() ;
@@ -468,7 +467,7 @@ constexpr float_t __get__uniformScale() const;
  void NoteDidFinishJump() ;
 
 /// @brief Method NoteDidPassJumpThreeQuarters addr 0x223f4e0 size 0x4 virtual true final false
- void NoteDidPassJumpThreeQuarters(::GlobalNamespace::NoteMovement noteMovement) ;
+ void NoteDidPassJumpThreeQuarters(GlobalNamespace::NoteMovement noteMovement) ;
 
 /// @brief Method NoteDidPassMissedMarker addr 0x223f4e4 size 0x4 virtual true final false
  void NoteDidPassMissedMarker() ;
@@ -480,13 +479,13 @@ constexpr float_t __get__uniformScale() const;
  void SendNoteWasMissedEvent() ;
 
 /// @brief Method SendNoteWasCutEvent addr 0x223cf48 size 0x1dc virtual false final false
- void SendNoteWasCutEvent(ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo) ;
+ void SendNoteWasCutEvent(ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo) ;
 
 /// @brief Method Init addr 0x223bd10 size 0x354 virtual false final false
- void Init(::GlobalNamespace::NoteData noteData, float_t worldRotation, ::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos, float_t moveDuration, float_t jumpDuration, float_t jumpGravity, float_t endRotation, float_t uniformScale, bool rotateTowardsPlayer, bool useRandomRotation) ;
+ void Init(GlobalNamespace::NoteData noteData, float_t worldRotation, UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float_t moveDuration, float_t jumpDuration, float_t jumpGravity, float_t endRotation, float_t uniformScale, bool rotateTowardsPlayer, bool useRandomRotation) ;
 
 /// @brief Method DissolveCoroutine addr 0x223f690 size 0x78 virtual false final false
- ::System::Collections::IEnumerator DissolveCoroutine(float_t duration) ;
+ System::Collections::IEnumerator DissolveCoroutine(float_t duration) ;
 
 /// @brief Method Dissolve addr 0x223f730 size 0x60 virtual true final true
  void Dissolve(float_t duration) ;
@@ -510,8 +509,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::NoteController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoteController, "", "NoteController");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__NoteController___DissolveCoroutine_d__73);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__NoteController___DissolveCoroutine_d__73, "", "NoteController/<DissolveCoroutine>d__73");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__NoteController___DissolveCoroutine_d__73);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__NoteController___DissolveCoroutine_d__73, "", "NoteController/<DissolveCoroutine>d__73");
+NEED_NO_BOX(GlobalNamespace::NoteController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteController, "", "NoteController");

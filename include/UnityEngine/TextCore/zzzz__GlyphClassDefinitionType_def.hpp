@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::TextCore {
 struct GlyphClassDefinitionType;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Undefined offset 0
-static ::UnityEngine::TextCore::GlyphClassDefinitionType const Undefined;
+static UnityEngine::TextCore::GlyphClassDefinitionType const Undefined;
 
 /// @brief Field Base offset 0
-static ::UnityEngine::TextCore::GlyphClassDefinitionType const Base;
+static UnityEngine::TextCore::GlyphClassDefinitionType const Base;
 
 /// @brief Field Ligature offset 0
-static ::UnityEngine::TextCore::GlyphClassDefinitionType const Ligature;
+static UnityEngine::TextCore::GlyphClassDefinitionType const Ligature;
 
 /// @brief Field Mark offset 0
-static ::UnityEngine::TextCore::GlyphClassDefinitionType const Mark;
+static UnityEngine::TextCore::GlyphClassDefinitionType const Mark;
 
 /// @brief Field Component offset 0
-static ::UnityEngine::TextCore::GlyphClassDefinitionType const Component;
+static UnityEngine::TextCore::GlyphClassDefinitionType const Component;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::GlyphClassDefinitionType, "UnityEngine.TextCore", "GlyphClassDefinitionType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::GlyphClassDefinitionType, "UnityEngine.TextCore", "GlyphClassDefinitionType");

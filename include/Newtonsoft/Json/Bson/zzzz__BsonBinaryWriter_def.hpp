@@ -4,19 +4,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::IO {
-class BinaryWriter;
-}
 namespace Newtonsoft::Json::Bson {
 class BsonToken;
+}
+namespace System::Text {
+class Encoding;
+}
+namespace System::IO {
+class BinaryWriter;
 }
 namespace System {
 template<typename T>
 struct Nullable_1;
-}
-namespace System::Text {
-class Encoding;
 }
 namespace System {
 struct DateTimeKind;
@@ -67,17 +66,17 @@ constexpr explicit BsonBinaryWriter(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
-static ::System::Text::Encoding __declspec(property(get=__get_Encoding, put=__set_Encoding))  Encoding;
+static System::Text::Encoding __declspec(property(get=__get_Encoding, put=__set_Encoding))  Encoding;
 
-static void __set_Encoding(::System::Text::Encoding value) ;
+static void __set_Encoding(System::Text::Encoding value) ;
 
-static ::System::Text::Encoding __get_Encoding() ;
+static System::Text::Encoding __get_Encoding() ;
 
- ::System::IO::BinaryWriter __declspec(property(get=__get__writer, put=__set__writer))  _writer;
+ System::IO::BinaryWriter __declspec(property(get=__get__writer, put=__set__writer))  _writer;
 
-constexpr void __set__writer(::System::IO::BinaryWriter value) ;
+constexpr void __set__writer(System::IO::BinaryWriter value) ;
 
-constexpr ::System::IO::BinaryWriter __get__writer() const;
+constexpr System::IO::BinaryWriter __get__writer() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get__largeByteBuffer, put=__set__largeByteBuffer))  _largeByteBuffer;
 
@@ -85,31 +84,31 @@ constexpr void __set__largeByteBuffer(::ArrayW<uint8_t> value) ;
 
 constexpr ::ArrayW<uint8_t> __get__largeByteBuffer() const;
 
- ::System::DateTimeKind __declspec(property(get=__get__DateTimeKindHandling_k__BackingField, put=__set__DateTimeKindHandling_k__BackingField))  _DateTimeKindHandling_k__BackingField;
+ System::DateTimeKind __declspec(property(get=__get__DateTimeKindHandling_k__BackingField, put=__set__DateTimeKindHandling_k__BackingField))  _DateTimeKindHandling_k__BackingField;
 
-constexpr void __set__DateTimeKindHandling_k__BackingField(::System::DateTimeKind value) ;
+constexpr void __set__DateTimeKindHandling_k__BackingField(System::DateTimeKind value) ;
 
-constexpr ::System::DateTimeKind __get__DateTimeKindHandling_k__BackingField() const;
+constexpr System::DateTimeKind __get__DateTimeKindHandling_k__BackingField() const;
 
 
 // Properties
 
- ::System::DateTimeKind __declspec(property(get=get_DateTimeKindHandling, put=set_DateTimeKindHandling))  DateTimeKindHandling;
+ System::DateTimeKind __declspec(property(get=get_DateTimeKindHandling, put=set_DateTimeKindHandling))  DateTimeKindHandling;
 
 
 // Methods
 
 /// @brief Method get_DateTimeKindHandling addr 0x254c968 size 0x8 virtual false final false
- ::System::DateTimeKind get_DateTimeKindHandling() ;
+ System::DateTimeKind get_DateTimeKindHandling() ;
 
 /// @brief Method set_DateTimeKindHandling addr 0x254c970 size 0x8 virtual false final false
- void set_DateTimeKindHandling(::System::DateTimeKind value) ;
+ void set_DateTimeKindHandling(System::DateTimeKind value) ;
 
-// Ctor Parameters [CppParam { name: "writer", ty: "::System::IO::BinaryWriter", modifiers: "", def_value: None }]
-explicit BsonBinaryWriter(::System::IO::BinaryWriter writer) ;
+// Ctor Parameters [CppParam { name: "writer", ty: "System::IO::BinaryWriter", modifiers: "", def_value: None }]
+explicit BsonBinaryWriter(System::IO::BinaryWriter writer) ;
 
 /// @brief Method .ctor addr 0x254c978 size 0x30 virtual false final false
- void _ctor(::System::IO::BinaryWriter writer) ;
+ void _ctor(System::IO::BinaryWriter writer) ;
 
 /// @brief Method Flush addr 0x254c9a8 size 0x20 virtual false final false
  void Flush() ;
@@ -118,13 +117,13 @@ explicit BsonBinaryWriter(::System::IO::BinaryWriter writer) ;
  void Close() ;
 
 /// @brief Method WriteToken addr 0x254c9e8 size 0x28 virtual false final false
- void WriteToken(::Newtonsoft::Json::Bson::BsonToken t) ;
+ void WriteToken(Newtonsoft::Json::Bson::BsonToken t) ;
 
 /// @brief Method WriteTokenInternal addr 0x254d2ac size 0xe50 virtual false final false
- void WriteTokenInternal(::Newtonsoft::Json::Bson::BsonToken t) ;
+ void WriteTokenInternal(Newtonsoft::Json::Bson::BsonToken t) ;
 
 /// @brief Method WriteString addr 0x254e18c size 0xa4 virtual false final false
- void WriteString(::StringW s, int32_t byteCount, ::System::Nullable_1<int32_t> calculatedlengthPrefix) ;
+ void WriteString(::StringW s, int32_t byteCount, System::Nullable_1<int32_t> calculatedlengthPrefix) ;
 
 /// @brief Method WriteUtf8Bytes addr 0x254e2c0 size 0x13c virtual false final false
  void WriteUtf8Bytes(::StringW s, int32_t byteCount) ;
@@ -136,12 +135,11 @@ explicit BsonBinaryWriter(::System::IO::BinaryWriter writer) ;
  int32_t CalculateSizeWithLength(int32_t stringByteCount, bool includeSize) ;
 
 /// @brief Method CalculateSize addr 0x254ca10 size 0x89c virtual false final false
- int32_t CalculateSize(::Newtonsoft::Json::Bson::BsonToken t) ;
+ int32_t CalculateSize(Newtonsoft::Json::Bson::BsonToken t) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Bson
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Bson::BsonBinaryWriter);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Bson::BsonBinaryWriter, "Newtonsoft.Json.Bson", "BsonBinaryWriter");
+NEED_NO_BOX(Newtonsoft::Json::Bson::BsonBinaryWriter);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Bson::BsonBinaryWriter, "Newtonsoft.Json.Bson", "BsonBinaryWriter");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class TriangulationContext;
 }
@@ -51,20 +50,20 @@ constexpr explicit TriangulationDebugContext(void* ptr) noexcept : ::bs_hook::Il
 
 // Fields
 
- ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext __declspec(property(get=__get__tcx, put=__set__tcx))  _tcx;
+ UnityEngine::ProBuilder::Poly2Tri::TriangulationContext __declspec(property(get=__get__tcx, put=__set__tcx))  _tcx;
 
-constexpr void __set__tcx(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext value) ;
+constexpr void __set__tcx(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext value) ;
 
-constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext __get__tcx() const;
+constexpr UnityEngine::ProBuilder::Poly2Tri::TriangulationContext __get__tcx() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "tcx", ty: "::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext", modifiers: "", def_value: None }]
-explicit TriangulationDebugContext(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext tcx) ;
+// Ctor Parameters [CppParam { name: "tcx", ty: "UnityEngine::ProBuilder::Poly2Tri::TriangulationContext", modifiers: "", def_value: None }]
+explicit TriangulationDebugContext(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext tcx) ;
 
 /// @brief Method .ctor addr 0x29a1358 size 0x28 virtual false final false
- void _ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext tcx) ;
+ void _ctor(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext tcx) ;
 
 /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual true final false
  void Clear() ;
@@ -73,6 +72,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder::Poly2Tri
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationDebugContext");
+NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationDebugContext");

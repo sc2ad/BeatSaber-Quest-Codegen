@@ -2,12 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace Oculus::Platform {
-struct SystemVoipStatus;
-}
 namespace Oculus::Platform {
 struct VoipMuteState;
+}
+namespace Oculus::Platform {
+struct SystemVoipStatus;
 }
 // Forward declare root types
 namespace Oculus::Platform::Models {
@@ -55,17 +54,17 @@ constexpr explicit SystemVoipState(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Fields
 
- ::Oculus::Platform::VoipMuteState __declspec(property(get=__get_MicrophoneMuted, put=__set_MicrophoneMuted))  MicrophoneMuted;
+ Oculus::Platform::VoipMuteState __declspec(property(get=__get_MicrophoneMuted, put=__set_MicrophoneMuted))  MicrophoneMuted;
 
-constexpr void __set_MicrophoneMuted(::Oculus::Platform::VoipMuteState value) ;
+constexpr void __set_MicrophoneMuted(Oculus::Platform::VoipMuteState value) ;
 
-constexpr ::Oculus::Platform::VoipMuteState __get_MicrophoneMuted() const;
+constexpr Oculus::Platform::VoipMuteState __get_MicrophoneMuted() const;
 
- ::Oculus::Platform::SystemVoipStatus __declspec(property(get=__get_Status, put=__set_Status))  Status;
+ Oculus::Platform::SystemVoipStatus __declspec(property(get=__get_Status, put=__set_Status))  Status;
 
-constexpr void __set_Status(::Oculus::Platform::SystemVoipStatus value) ;
+constexpr void __set_Status(Oculus::Platform::SystemVoipStatus value) ;
 
-constexpr ::Oculus::Platform::SystemVoipStatus __get_Status() const;
+constexpr Oculus::Platform::SystemVoipStatus __get_Status() const;
 
 
 // Methods
@@ -80,6 +79,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::SystemVoipState);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::SystemVoipState, "Oculus.Platform.Models", "SystemVoipState");
+NEED_NO_BOX(Oculus::Platform::Models::SystemVoipState);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::SystemVoipState, "Oculus.Platform.Models", "SystemVoipState");

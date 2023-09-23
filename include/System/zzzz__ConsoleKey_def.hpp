@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 struct ConsoleKey;
@@ -209,440 +208,439 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Backspace offset 0
-static ::System::ConsoleKey const Backspace;
+static System::ConsoleKey const Backspace;
 
 /// @brief Field Tab offset 0
-static ::System::ConsoleKey const Tab;
+static System::ConsoleKey const Tab;
 
 /// @brief Field Clear offset 0
-static ::System::ConsoleKey const Clear;
+static System::ConsoleKey const Clear;
 
 /// @brief Field Enter offset 0
-static ::System::ConsoleKey const Enter;
+static System::ConsoleKey const Enter;
 
 /// @brief Field Pause offset 0
-static ::System::ConsoleKey const Pause;
+static System::ConsoleKey const Pause;
 
 /// @brief Field Escape offset 0
-static ::System::ConsoleKey const Escape;
+static System::ConsoleKey const Escape;
 
 /// @brief Field Spacebar offset 0
-static ::System::ConsoleKey const Spacebar;
+static System::ConsoleKey const Spacebar;
 
 /// @brief Field PageUp offset 0
-static ::System::ConsoleKey const PageUp;
+static System::ConsoleKey const PageUp;
 
 /// @brief Field PageDown offset 0
-static ::System::ConsoleKey const PageDown;
+static System::ConsoleKey const PageDown;
 
 /// @brief Field End offset 0
-static ::System::ConsoleKey const End;
+static System::ConsoleKey const End;
 
 /// @brief Field Home offset 0
-static ::System::ConsoleKey const Home;
+static System::ConsoleKey const Home;
 
 /// @brief Field LeftArrow offset 0
-static ::System::ConsoleKey const LeftArrow;
+static System::ConsoleKey const LeftArrow;
 
 /// @brief Field UpArrow offset 0
-static ::System::ConsoleKey const UpArrow;
+static System::ConsoleKey const UpArrow;
 
 /// @brief Field RightArrow offset 0
-static ::System::ConsoleKey const RightArrow;
+static System::ConsoleKey const RightArrow;
 
 /// @brief Field DownArrow offset 0
-static ::System::ConsoleKey const DownArrow;
+static System::ConsoleKey const DownArrow;
 
 /// @brief Field Select offset 0
-static ::System::ConsoleKey const Select;
+static System::ConsoleKey const Select;
 
 /// @brief Field Print offset 0
-static ::System::ConsoleKey const Print;
+static System::ConsoleKey const Print;
 
 /// @brief Field Execute offset 0
-static ::System::ConsoleKey const Execute;
+static System::ConsoleKey const Execute;
 
 /// @brief Field PrintScreen offset 0
-static ::System::ConsoleKey const PrintScreen;
+static System::ConsoleKey const PrintScreen;
 
 /// @brief Field Insert offset 0
-static ::System::ConsoleKey const Insert;
+static System::ConsoleKey const Insert;
 
 /// @brief Field Delete offset 0
-static ::System::ConsoleKey const Delete;
+static System::ConsoleKey const Delete;
 
 /// @brief Field Help offset 0
-static ::System::ConsoleKey const Help;
+static System::ConsoleKey const Help;
 
 /// @brief Field D0 offset 0
-static ::System::ConsoleKey const D0;
+static System::ConsoleKey const D0;
 
 /// @brief Field D1 offset 0
-static ::System::ConsoleKey const D1;
+static System::ConsoleKey const D1;
 
 /// @brief Field D2 offset 0
-static ::System::ConsoleKey const D2;
+static System::ConsoleKey const D2;
 
 /// @brief Field D3 offset 0
-static ::System::ConsoleKey const D3;
+static System::ConsoleKey const D3;
 
 /// @brief Field D4 offset 0
-static ::System::ConsoleKey const D4;
+static System::ConsoleKey const D4;
 
 /// @brief Field D5 offset 0
-static ::System::ConsoleKey const D5;
+static System::ConsoleKey const D5;
 
 /// @brief Field D6 offset 0
-static ::System::ConsoleKey const D6;
+static System::ConsoleKey const D6;
 
 /// @brief Field D7 offset 0
-static ::System::ConsoleKey const D7;
+static System::ConsoleKey const D7;
 
 /// @brief Field D8 offset 0
-static ::System::ConsoleKey const D8;
+static System::ConsoleKey const D8;
 
 /// @brief Field D9 offset 0
-static ::System::ConsoleKey const D9;
+static System::ConsoleKey const D9;
 
 /// @brief Field A offset 0
-static ::System::ConsoleKey const A;
+static System::ConsoleKey const A;
 
 /// @brief Field B offset 0
-static ::System::ConsoleKey const B;
+static System::ConsoleKey const B;
 
 /// @brief Field C offset 0
-static ::System::ConsoleKey const C;
+static System::ConsoleKey const C;
 
 /// @brief Field D offset 0
-static ::System::ConsoleKey const D;
+static System::ConsoleKey const D;
 
 /// @brief Field E offset 0
-static ::System::ConsoleKey const E;
+static System::ConsoleKey const E;
 
 /// @brief Field F offset 0
-static ::System::ConsoleKey const F;
+static System::ConsoleKey const F;
 
 /// @brief Field G offset 0
-static ::System::ConsoleKey const G;
+static System::ConsoleKey const G;
 
 /// @brief Field H offset 0
-static ::System::ConsoleKey const H;
+static System::ConsoleKey const H;
 
 /// @brief Field I offset 0
-static ::System::ConsoleKey const I;
+static System::ConsoleKey const I;
 
 /// @brief Field J offset 0
-static ::System::ConsoleKey const J;
+static System::ConsoleKey const J;
 
 /// @brief Field K offset 0
-static ::System::ConsoleKey const K;
+static System::ConsoleKey const K;
 
 /// @brief Field L offset 0
-static ::System::ConsoleKey const L;
+static System::ConsoleKey const L;
 
 /// @brief Field M offset 0
-static ::System::ConsoleKey const M;
+static System::ConsoleKey const M;
 
 /// @brief Field N offset 0
-static ::System::ConsoleKey const N;
+static System::ConsoleKey const N;
 
 /// @brief Field O offset 0
-static ::System::ConsoleKey const O;
+static System::ConsoleKey const O;
 
 /// @brief Field P offset 0
-static ::System::ConsoleKey const P;
+static System::ConsoleKey const P;
 
 /// @brief Field Q offset 0
-static ::System::ConsoleKey const Q;
+static System::ConsoleKey const Q;
 
 /// @brief Field R offset 0
-static ::System::ConsoleKey const R;
+static System::ConsoleKey const R;
 
 /// @brief Field S offset 0
-static ::System::ConsoleKey const S;
+static System::ConsoleKey const S;
 
 /// @brief Field T offset 0
-static ::System::ConsoleKey const T;
+static System::ConsoleKey const T;
 
 /// @brief Field U offset 0
-static ::System::ConsoleKey const U;
+static System::ConsoleKey const U;
 
 /// @brief Field V offset 0
-static ::System::ConsoleKey const V;
+static System::ConsoleKey const V;
 
 /// @brief Field W offset 0
-static ::System::ConsoleKey const W;
+static System::ConsoleKey const W;
 
 /// @brief Field X offset 0
-static ::System::ConsoleKey const X;
+static System::ConsoleKey const X;
 
 /// @brief Field Y offset 0
-static ::System::ConsoleKey const Y;
+static System::ConsoleKey const Y;
 
 /// @brief Field Z offset 0
-static ::System::ConsoleKey const Z;
+static System::ConsoleKey const Z;
 
 /// @brief Field LeftWindows offset 0
-static ::System::ConsoleKey const LeftWindows;
+static System::ConsoleKey const LeftWindows;
 
 /// @brief Field RightWindows offset 0
-static ::System::ConsoleKey const RightWindows;
+static System::ConsoleKey const RightWindows;
 
 /// @brief Field Applications offset 0
-static ::System::ConsoleKey const Applications;
+static System::ConsoleKey const Applications;
 
 /// @brief Field Sleep offset 0
-static ::System::ConsoleKey const Sleep;
+static System::ConsoleKey const Sleep;
 
 /// @brief Field NumPad0 offset 0
-static ::System::ConsoleKey const NumPad0;
+static System::ConsoleKey const NumPad0;
 
 /// @brief Field NumPad1 offset 0
-static ::System::ConsoleKey const NumPad1;
+static System::ConsoleKey const NumPad1;
 
 /// @brief Field NumPad2 offset 0
-static ::System::ConsoleKey const NumPad2;
+static System::ConsoleKey const NumPad2;
 
 /// @brief Field NumPad3 offset 0
-static ::System::ConsoleKey const NumPad3;
+static System::ConsoleKey const NumPad3;
 
 /// @brief Field NumPad4 offset 0
-static ::System::ConsoleKey const NumPad4;
+static System::ConsoleKey const NumPad4;
 
 /// @brief Field NumPad5 offset 0
-static ::System::ConsoleKey const NumPad5;
+static System::ConsoleKey const NumPad5;
 
 /// @brief Field NumPad6 offset 0
-static ::System::ConsoleKey const NumPad6;
+static System::ConsoleKey const NumPad6;
 
 /// @brief Field NumPad7 offset 0
-static ::System::ConsoleKey const NumPad7;
+static System::ConsoleKey const NumPad7;
 
 /// @brief Field NumPad8 offset 0
-static ::System::ConsoleKey const NumPad8;
+static System::ConsoleKey const NumPad8;
 
 /// @brief Field NumPad9 offset 0
-static ::System::ConsoleKey const NumPad9;
+static System::ConsoleKey const NumPad9;
 
 /// @brief Field Multiply offset 0
-static ::System::ConsoleKey const Multiply;
+static System::ConsoleKey const Multiply;
 
 /// @brief Field Add offset 0
-static ::System::ConsoleKey const Add;
+static System::ConsoleKey const Add;
 
 /// @brief Field Separator offset 0
-static ::System::ConsoleKey const Separator;
+static System::ConsoleKey const Separator;
 
 /// @brief Field Subtract offset 0
-static ::System::ConsoleKey const Subtract;
+static System::ConsoleKey const Subtract;
 
 /// @brief Field Decimal offset 0
-static ::System::ConsoleKey const Decimal;
+static System::ConsoleKey const Decimal;
 
 /// @brief Field Divide offset 0
-static ::System::ConsoleKey const Divide;
+static System::ConsoleKey const Divide;
 
 /// @brief Field F1 offset 0
-static ::System::ConsoleKey const F1;
+static System::ConsoleKey const F1;
 
 /// @brief Field F2 offset 0
-static ::System::ConsoleKey const F2;
+static System::ConsoleKey const F2;
 
 /// @brief Field F3 offset 0
-static ::System::ConsoleKey const F3;
+static System::ConsoleKey const F3;
 
 /// @brief Field F4 offset 0
-static ::System::ConsoleKey const F4;
+static System::ConsoleKey const F4;
 
 /// @brief Field F5 offset 0
-static ::System::ConsoleKey const F5;
+static System::ConsoleKey const F5;
 
 /// @brief Field F6 offset 0
-static ::System::ConsoleKey const F6;
+static System::ConsoleKey const F6;
 
 /// @brief Field F7 offset 0
-static ::System::ConsoleKey const F7;
+static System::ConsoleKey const F7;
 
 /// @brief Field F8 offset 0
-static ::System::ConsoleKey const F8;
+static System::ConsoleKey const F8;
 
 /// @brief Field F9 offset 0
-static ::System::ConsoleKey const F9;
+static System::ConsoleKey const F9;
 
 /// @brief Field F10 offset 0
-static ::System::ConsoleKey const F10;
+static System::ConsoleKey const F10;
 
 /// @brief Field F11 offset 0
-static ::System::ConsoleKey const F11;
+static System::ConsoleKey const F11;
 
 /// @brief Field F12 offset 0
-static ::System::ConsoleKey const F12;
+static System::ConsoleKey const F12;
 
 /// @brief Field F13 offset 0
-static ::System::ConsoleKey const F13;
+static System::ConsoleKey const F13;
 
 /// @brief Field F14 offset 0
-static ::System::ConsoleKey const F14;
+static System::ConsoleKey const F14;
 
 /// @brief Field F15 offset 0
-static ::System::ConsoleKey const F15;
+static System::ConsoleKey const F15;
 
 /// @brief Field F16 offset 0
-static ::System::ConsoleKey const F16;
+static System::ConsoleKey const F16;
 
 /// @brief Field F17 offset 0
-static ::System::ConsoleKey const F17;
+static System::ConsoleKey const F17;
 
 /// @brief Field F18 offset 0
-static ::System::ConsoleKey const F18;
+static System::ConsoleKey const F18;
 
 /// @brief Field F19 offset 0
-static ::System::ConsoleKey const F19;
+static System::ConsoleKey const F19;
 
 /// @brief Field F20 offset 0
-static ::System::ConsoleKey const F20;
+static System::ConsoleKey const F20;
 
 /// @brief Field F21 offset 0
-static ::System::ConsoleKey const F21;
+static System::ConsoleKey const F21;
 
 /// @brief Field F22 offset 0
-static ::System::ConsoleKey const F22;
+static System::ConsoleKey const F22;
 
 /// @brief Field F23 offset 0
-static ::System::ConsoleKey const F23;
+static System::ConsoleKey const F23;
 
 /// @brief Field F24 offset 0
-static ::System::ConsoleKey const F24;
+static System::ConsoleKey const F24;
 
 /// @brief Field BrowserBack offset 0
-static ::System::ConsoleKey const BrowserBack;
+static System::ConsoleKey const BrowserBack;
 
 /// @brief Field BrowserForward offset 0
-static ::System::ConsoleKey const BrowserForward;
+static System::ConsoleKey const BrowserForward;
 
 /// @brief Field BrowserRefresh offset 0
-static ::System::ConsoleKey const BrowserRefresh;
+static System::ConsoleKey const BrowserRefresh;
 
 /// @brief Field BrowserStop offset 0
-static ::System::ConsoleKey const BrowserStop;
+static System::ConsoleKey const BrowserStop;
 
 /// @brief Field BrowserSearch offset 0
-static ::System::ConsoleKey const BrowserSearch;
+static System::ConsoleKey const BrowserSearch;
 
 /// @brief Field BrowserFavorites offset 0
-static ::System::ConsoleKey const BrowserFavorites;
+static System::ConsoleKey const BrowserFavorites;
 
 /// @brief Field BrowserHome offset 0
-static ::System::ConsoleKey const BrowserHome;
+static System::ConsoleKey const BrowserHome;
 
 /// @brief Field VolumeMute offset 0
-static ::System::ConsoleKey const VolumeMute;
+static System::ConsoleKey const VolumeMute;
 
 /// @brief Field VolumeDown offset 0
-static ::System::ConsoleKey const VolumeDown;
+static System::ConsoleKey const VolumeDown;
 
 /// @brief Field VolumeUp offset 0
-static ::System::ConsoleKey const VolumeUp;
+static System::ConsoleKey const VolumeUp;
 
 /// @brief Field MediaNext offset 0
-static ::System::ConsoleKey const MediaNext;
+static System::ConsoleKey const MediaNext;
 
 /// @brief Field MediaPrevious offset 0
-static ::System::ConsoleKey const MediaPrevious;
+static System::ConsoleKey const MediaPrevious;
 
 /// @brief Field MediaStop offset 0
-static ::System::ConsoleKey const MediaStop;
+static System::ConsoleKey const MediaStop;
 
 /// @brief Field MediaPlay offset 0
-static ::System::ConsoleKey const MediaPlay;
+static System::ConsoleKey const MediaPlay;
 
 /// @brief Field LaunchMail offset 0
-static ::System::ConsoleKey const LaunchMail;
+static System::ConsoleKey const LaunchMail;
 
 /// @brief Field LaunchMediaSelect offset 0
-static ::System::ConsoleKey const LaunchMediaSelect;
+static System::ConsoleKey const LaunchMediaSelect;
 
 /// @brief Field LaunchApp1 offset 0
-static ::System::ConsoleKey const LaunchApp1;
+static System::ConsoleKey const LaunchApp1;
 
 /// @brief Field LaunchApp2 offset 0
-static ::System::ConsoleKey const LaunchApp2;
+static System::ConsoleKey const LaunchApp2;
 
 /// @brief Field Oem1 offset 0
-static ::System::ConsoleKey const Oem1;
+static System::ConsoleKey const Oem1;
 
 /// @brief Field OemPlus offset 0
-static ::System::ConsoleKey const OemPlus;
+static System::ConsoleKey const OemPlus;
 
 /// @brief Field OemComma offset 0
-static ::System::ConsoleKey const OemComma;
+static System::ConsoleKey const OemComma;
 
 /// @brief Field OemMinus offset 0
-static ::System::ConsoleKey const OemMinus;
+static System::ConsoleKey const OemMinus;
 
 /// @brief Field OemPeriod offset 0
-static ::System::ConsoleKey const OemPeriod;
+static System::ConsoleKey const OemPeriod;
 
 /// @brief Field Oem2 offset 0
-static ::System::ConsoleKey const Oem2;
+static System::ConsoleKey const Oem2;
 
 /// @brief Field Oem3 offset 0
-static ::System::ConsoleKey const Oem3;
+static System::ConsoleKey const Oem3;
 
 /// @brief Field Oem4 offset 0
-static ::System::ConsoleKey const Oem4;
+static System::ConsoleKey const Oem4;
 
 /// @brief Field Oem5 offset 0
-static ::System::ConsoleKey const Oem5;
+static System::ConsoleKey const Oem5;
 
 /// @brief Field Oem6 offset 0
-static ::System::ConsoleKey const Oem6;
+static System::ConsoleKey const Oem6;
 
 /// @brief Field Oem7 offset 0
-static ::System::ConsoleKey const Oem7;
+static System::ConsoleKey const Oem7;
 
 /// @brief Field Oem8 offset 0
-static ::System::ConsoleKey const Oem8;
+static System::ConsoleKey const Oem8;
 
 /// @brief Field Oem102 offset 0
-static ::System::ConsoleKey const Oem102;
+static System::ConsoleKey const Oem102;
 
 /// @brief Field Process offset 0
-static ::System::ConsoleKey const Process;
+static System::ConsoleKey const Process;
 
 /// @brief Field Packet offset 0
-static ::System::ConsoleKey const Packet;
+static System::ConsoleKey const Packet;
 
 /// @brief Field Attention offset 0
-static ::System::ConsoleKey const Attention;
+static System::ConsoleKey const Attention;
 
 /// @brief Field CrSel offset 0
-static ::System::ConsoleKey const CrSel;
+static System::ConsoleKey const CrSel;
 
 /// @brief Field ExSel offset 0
-static ::System::ConsoleKey const ExSel;
+static System::ConsoleKey const ExSel;
 
 /// @brief Field EraseEndOfFile offset 0
-static ::System::ConsoleKey const EraseEndOfFile;
+static System::ConsoleKey const EraseEndOfFile;
 
 /// @brief Field Play offset 0
-static ::System::ConsoleKey const Play;
+static System::ConsoleKey const Play;
 
 /// @brief Field Zoom offset 0
-static ::System::ConsoleKey const Zoom;
+static System::ConsoleKey const Zoom;
 
 /// @brief Field NoName offset 0
-static ::System::ConsoleKey const NoName;
+static System::ConsoleKey const NoName;
 
 /// @brief Field Pa1 offset 0
-static ::System::ConsoleKey const Pa1;
+static System::ConsoleKey const Pa1;
 
 /// @brief Field OemClear offset 0
-static ::System::ConsoleKey const OemClear;
+static System::ConsoleKey const OemClear;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::ConsoleKey, "System", "ConsoleKey");
+DEFINE_IL2CPP_ARG_TYPE(System::ConsoleKey, "System", "ConsoleKey");

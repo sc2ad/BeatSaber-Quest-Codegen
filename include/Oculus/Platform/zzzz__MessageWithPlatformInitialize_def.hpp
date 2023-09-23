@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__PlatformInitialize_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
 class PlatformInitialize;
 }
@@ -14,10 +13,10 @@ class MessageWithPlatformInitialize;
 // Type: Oculus.Platform::MessageWithPlatformInitialize
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13462)), TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4469 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4469 }), TypeDefinitionIndex(TypeDefinitionIndex(13462)), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13296))
 // CS Name: Oculus.Platform.MessageWithPlatformInitialize
-class CORDL_TYPE MessageWithPlatformInitialize : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize> {
+class CORDL_TYPE MessageWithPlatformInitialize : public Oculus::Platform::Message_1<Oculus::Platform::Models::PlatformInitialize> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr MessageWithPlatformInitialize(MessageWithPlatformInitialize const& ) n
 constexpr MessageWithPlatformInitialize(MessageWithPlatformInitialize&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MessageWithPlatformInitialize(void* ptr) noexcept : ::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize>(ptr) {
+constexpr explicit MessageWithPlatformInitialize(void* ptr) noexcept : Oculus::Platform::Message_1<Oculus::Platform::Models::PlatformInitialize>(ptr) {
 }
 
 
@@ -60,15 +59,14 @@ explicit MessageWithPlatformInitialize(::cordl_internals::intptr_t c_message) ;
  void _ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method GetPlatformInitialize addr 0x25849e8 size 0x3c virtual true final false
- ::Oculus::Platform::Models::PlatformInitialize GetPlatformInitialize() ;
+ Oculus::Platform::Models::PlatformInitialize GetPlatformInitialize() ;
 
 /// @brief Method GetDataFromMessage addr 0x2584a24 size 0x9c virtual true final false
- ::Oculus::Platform::Models::PlatformInitialize GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
+ Oculus::Platform::Models::PlatformInitialize GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::MessageWithPlatformInitialize);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithPlatformInitialize, "Oculus.Platform", "MessageWithPlatformInitialize");
+NEED_NO_BOX(Oculus::Platform::MessageWithPlatformInitialize);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithPlatformInitialize, "Oculus.Platform", "MessageWithPlatformInitialize");

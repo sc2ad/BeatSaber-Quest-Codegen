@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_1_def.hpp"
 #include "UnityEngine/XR/OpenXR/Input/zzzz__Haptic_def.hpp"
-namespace {
 namespace UnityEngine::XR::OpenXR::Input {
 struct Haptic;
 }
@@ -13,10 +12,10 @@ class HapticControl;
 // Type: UnityEngine.XR.OpenXR.Input::HapticControl
 namespace UnityEngine::XR::OpenXR::Input {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6299)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6299), inst: 3755 }), TypeDefinitionIndex(TypeDefinitionIndex(14187))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6299), inst: 3755 }), TypeDefinitionIndex(TypeDefinitionIndex(14187)), TypeDefinitionIndex(TypeDefinitionIndex(6299))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14188))
 // CS Name: UnityEngine.XR.OpenXR.Input.HapticControl
-class CORDL_TYPE HapticControl : public ::UnityEngine::InputSystem::InputControl_1<::UnityEngine::XR::OpenXR::Input::Haptic> {
+class CORDL_TYPE HapticControl : public UnityEngine::InputSystem::InputControl_1<UnityEngine::XR::OpenXR::Input::Haptic> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr HapticControl(HapticControl const& ) noexcept = default;
 constexpr HapticControl(HapticControl&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HapticControl(void* ptr) noexcept : ::UnityEngine::InputSystem::InputControl_1<::UnityEngine::XR::OpenXR::Input::Haptic>(ptr) {
+constexpr explicit HapticControl(void* ptr) noexcept : UnityEngine::InputSystem::InputControl_1<UnityEngine::XR::OpenXR::Input::Haptic>(ptr) {
 }
 
 
@@ -59,12 +58,11 @@ explicit HapticControl() ;
  void _ctor() ;
 
 /// @brief Method ReadUnprocessedValueFromState addr 0x2aed78c size 0x8 virtual true final false
- ::UnityEngine::XR::OpenXR::Input::Haptic ReadUnprocessedValueFromState(void* statePtr) ;
+ UnityEngine::XR::OpenXR::Input::Haptic ReadUnprocessedValueFromState(void* statePtr) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR::OpenXR::Input
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::XR::OpenXR::Input::HapticControl);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::Input::HapticControl, "UnityEngine.XR.OpenXR.Input", "HapticControl");
+NEED_NO_BOX(UnityEngine::XR::OpenXR::Input::HapticControl);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::OpenXR::Input::HapticControl, "UnityEngine.XR.OpenXR.Input", "HapticControl");

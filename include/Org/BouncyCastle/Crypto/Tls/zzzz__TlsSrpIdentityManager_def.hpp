@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSrpLoginParameters;
 }
@@ -29,12 +28,11 @@ constexpr explicit TlsSrpIdentityManager(void* ptr) noexcept : ::cordl_internals
 // Methods
 
 /// @brief Method GetLoginParameters addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters GetLoginParameters(::ArrayW<uint8_t> identity) ;
+ Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters GetLoginParameters(::ArrayW<uint8_t> identity) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager, "Org.BouncyCastle.Crypto.Tls", "TlsSrpIdentityManager");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager, "Org.BouncyCastle.Crypto.Tls", "TlsSrpIdentityManager");

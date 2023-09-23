@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net::NetworkInformation {
 class CommonUnixIPGlobalProperties;
@@ -15,7 +14,7 @@ namespace System::Net::NetworkInformation {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8100))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8136))
 // CS Name: System.Net.NetworkInformation.CommonUnixIPGlobalProperties
-class CORDL_TYPE CommonUnixIPGlobalProperties : public ::System::Net::NetworkInformation::IPGlobalProperties {
+class CORDL_TYPE CommonUnixIPGlobalProperties : public System::Net::NetworkInformation::IPGlobalProperties {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr CommonUnixIPGlobalProperties(CommonUnixIPGlobalProperties const& ) noe
 constexpr CommonUnixIPGlobalProperties(CommonUnixIPGlobalProperties&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CommonUnixIPGlobalProperties(void* ptr) noexcept : ::System::Net::NetworkInformation::IPGlobalProperties(ptr) {
+constexpr explicit CommonUnixIPGlobalProperties(void* ptr) noexcept : System::Net::NetworkInformation::IPGlobalProperties(ptr) {
 }
 
 
@@ -72,6 +71,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::NetworkInformation
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::NetworkInformation::CommonUnixIPGlobalProperties);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::CommonUnixIPGlobalProperties, "System.Net.NetworkInformation", "CommonUnixIPGlobalProperties");
+NEED_NO_BOX(System::Net::NetworkInformation::CommonUnixIPGlobalProperties);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::CommonUnixIPGlobalProperties, "System.Net.NetworkInformation", "CommonUnixIPGlobalProperties");

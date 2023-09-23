@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace System {
 class IDisposable;
 }
@@ -16,13 +15,13 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
+class Avatar;
+}
+namespace UnityEngine {
 struct HumanPose;
 }
 namespace UnityEngine {
 struct Quaternion;
-}
-namespace UnityEngine {
-class Avatar;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -37,8 +36,8 @@ namespace UnityEngine {
 class CORDL_TYPE HumanPoseHandler : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -83,30 +82,29 @@ constexpr ::cordl_internals::intptr_t __get_m_Ptr() const;
 // Methods
 
 /// @brief Method Internal_CreateFromRoot addr 0x2b20938 size 0x44 virtual false final false
-static ::cordl_internals::intptr_t Internal_CreateFromRoot(::UnityEngine::Avatar avatar, ::UnityEngine::Transform root) ;
+static ::cordl_internals::intptr_t Internal_CreateFromRoot(UnityEngine::Avatar avatar, UnityEngine::Transform root) ;
 
 /// @brief Method Internal_Destroy addr 0x2b2097c size 0x3c virtual false final false
 static void Internal_Destroy(::cordl_internals::intptr_t ptr) ;
 
 /// @brief Method GetHumanPose addr 0x2b209b8 size 0x5c virtual false final false
- void GetHumanPose(ByRef<::UnityEngine::Vector3> bodyPosition, ByRef<::UnityEngine::Quaternion> bodyRotation, ByRef<::ArrayW<float_t>> muscles) ;
+ void GetHumanPose(ByRef<UnityEngine::Vector3> bodyPosition, ByRef<UnityEngine::Quaternion> bodyRotation, ByRef<::ArrayW<float_t>> muscles) ;
 
 /// @brief Method Dispose addr 0x2b20a14 size 0xcc virtual true final true
  void Dispose() ;
 
-// Ctor Parameters [CppParam { name: "avatar", ty: "::UnityEngine::Avatar", modifiers: "", def_value: None }, CppParam { name: "root", ty: "::UnityEngine::Transform", modifiers: "", def_value: None }]
-explicit HumanPoseHandler(::UnityEngine::Avatar avatar, ::UnityEngine::Transform root) ;
+// Ctor Parameters [CppParam { name: "avatar", ty: "UnityEngine::Avatar", modifiers: "", def_value: None }, CppParam { name: "root", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
+explicit HumanPoseHandler(UnityEngine::Avatar avatar, UnityEngine::Transform root) ;
 
 /// @brief Method .ctor addr 0x2b20ae0 size 0x22c virtual false final false
- void _ctor(::UnityEngine::Avatar avatar, ::UnityEngine::Transform root) ;
+ void _ctor(UnityEngine::Avatar avatar, UnityEngine::Transform root) ;
 
 /// @brief Method GetHumanPose addr 0x2b20d0c size 0xf4 virtual false final false
- void GetHumanPose(ByRef<::UnityEngine::HumanPose> humanPose) ;
+ void GetHumanPose(ByRef<UnityEngine::HumanPose> humanPose) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::HumanPoseHandler);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::HumanPoseHandler, "UnityEngine", "HumanPoseHandler");
+NEED_NO_BOX(UnityEngine::HumanPoseHandler);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HumanPoseHandler, "UnityEngine", "HumanPoseHandler");

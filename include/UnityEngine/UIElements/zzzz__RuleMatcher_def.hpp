@@ -2,12 +2,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
-namespace {
-namespace UnityEngine::UIElements {
-class StyleComplexSelector;
-}
 namespace UnityEngine::UIElements {
 class StyleSheet;
+}
+namespace UnityEngine::UIElements {
+class StyleComplexSelector;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -22,8 +21,8 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE RuleMatcher : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "sheet", ty: "::UnityEngine::UIElements::StyleSheet", modifiers: "", def_value: None }, CppParam { name: "complexSelector", ty: "::UnityEngine::UIElements::StyleComplexSelector", modifiers: "", def_value: None }]
-constexpr RuleMatcher(::UnityEngine::UIElements::StyleSheet sheet, ::UnityEngine::UIElements::StyleComplexSelector complexSelector) noexcept;
+// Ctor Parameters [CppParam { name: "sheet", ty: "UnityEngine::UIElements::StyleSheet", modifiers: "", def_value: None }, CppParam { name: "complexSelector", ty: "UnityEngine::UIElements::StyleComplexSelector", modifiers: "", def_value: None }]
+constexpr RuleMatcher(UnityEngine::UIElements::StyleSheet sheet, UnityEngine::UIElements::StyleComplexSelector complexSelector) noexcept;
 
 
                     constexpr RuleMatcher(RuleMatcher const&) = default;
@@ -56,17 +55,17 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::UIElements::StyleSheet __declspec(property(get=__get_sheet, put=__set_sheet))  sheet;
+ UnityEngine::UIElements::StyleSheet __declspec(property(get=__get_sheet, put=__set_sheet))  sheet;
 
-constexpr void __set_sheet(::UnityEngine::UIElements::StyleSheet value) ;
+constexpr void __set_sheet(UnityEngine::UIElements::StyleSheet value) ;
 
-constexpr ::UnityEngine::UIElements::StyleSheet __get_sheet() const;
+constexpr UnityEngine::UIElements::StyleSheet __get_sheet() const;
 
- ::UnityEngine::UIElements::StyleComplexSelector __declspec(property(get=__get_complexSelector, put=__set_complexSelector))  complexSelector;
+ UnityEngine::UIElements::StyleComplexSelector __declspec(property(get=__get_complexSelector, put=__set_complexSelector))  complexSelector;
 
-constexpr void __set_complexSelector(::UnityEngine::UIElements::StyleComplexSelector value) ;
+constexpr void __set_complexSelector(UnityEngine::UIElements::StyleComplexSelector value) ;
 
-constexpr ::UnityEngine::UIElements::StyleComplexSelector __get_complexSelector() const;
+constexpr UnityEngine::UIElements::StyleComplexSelector __get_complexSelector() const;
 
 
 // Methods
@@ -78,5 +77,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::RuleMatcher, "UnityEngine.UIElements", "RuleMatcher");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::RuleMatcher, "UnityEngine.UIElements", "RuleMatcher");

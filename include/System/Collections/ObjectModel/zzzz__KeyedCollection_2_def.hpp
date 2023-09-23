@@ -3,22 +3,21 @@
 #include "System/Collections/ObjectModel/zzzz__Collection_1_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
-namespace {
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class IDictionary_2;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IEqualityComparer_1;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+class List_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class List_1;
+class IEqualityComparer_1;
 }
 // Forward declare root types
 namespace System::Collections::ObjectModel {
@@ -35,10 +34,10 @@ namespace System::Collections::ObjectModel {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TKey,::cordl_internals::il2cpp_reference_type TItem>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3801)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3799), inst: 986 }), TypeDefinitionIndex(TypeDefinitionIndex(3799))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3799)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3799), inst: 986 }), TypeDefinitionIndex(TypeDefinitionIndex(3801))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3801), inst: 80 })
 // CS Name: System.Collections.ObjectModel.KeyedCollection`2
-class CORDL_TYPE KeyedCollection_2<TKey,TItem> : public ::System::Collections::ObjectModel::Collection_1<TItem> {
+class CORDL_TYPE KeyedCollection_2<TKey,TItem> : public System::Collections::ObjectModel::Collection_1<TItem> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -53,7 +52,7 @@ constexpr KeyedCollection_2(KeyedCollection_2 const& ) noexcept = default;
 constexpr KeyedCollection_2(KeyedCollection_2&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit KeyedCollection_2(void* ptr) noexcept : ::System::Collections::ObjectModel::Collection_1<TItem>(ptr) {
+constexpr explicit KeyedCollection_2(void* ptr) noexcept : System::Collections::ObjectModel::Collection_1<TItem>(ptr) {
 }
 
 
@@ -74,17 +73,17 @@ constexpr explicit KeyedCollection_2(void* ptr) noexcept : ::System::Collections
 
 // Fields
 
- ::System::Collections::Generic::IEqualityComparer_1<TKey> __declspec(property(get=__get_comparer, put=__set_comparer))  comparer;
+ System::Collections::Generic::IEqualityComparer_1<TKey> __declspec(property(get=__get_comparer, put=__set_comparer))  comparer;
 
-constexpr void __set_comparer(::System::Collections::Generic::IEqualityComparer_1<TKey> value) ;
+constexpr void __set_comparer(System::Collections::Generic::IEqualityComparer_1<TKey> value) ;
 
-constexpr ::System::Collections::Generic::IEqualityComparer_1<TKey> __get_comparer() const;
+constexpr System::Collections::Generic::IEqualityComparer_1<TKey> __get_comparer() const;
 
- ::System::Collections::Generic::Dictionary_2<TKey,TItem> __declspec(property(get=__get_dict, put=__set_dict))  dict;
+ System::Collections::Generic::Dictionary_2<TKey,TItem> __declspec(property(get=__get_dict, put=__set_dict))  dict;
 
-constexpr void __set_dict(::System::Collections::Generic::Dictionary_2<TKey,TItem> value) ;
+constexpr void __set_dict(System::Collections::Generic::Dictionary_2<TKey,TItem> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<TKey,TItem> __get_dict() const;
+constexpr System::Collections::Generic::Dictionary_2<TKey,TItem> __get_dict() const;
 
  int32_t __declspec(property(get=__get_keyCount, put=__set_keyCount))  keyCount;
 
@@ -101,11 +100,11 @@ constexpr int32_t __get_threshold() const;
 
 // Properties
 
- ::System::Collections::Generic::List_1<TItem> __declspec(property(get=get_Items))  Items;
+ System::Collections::Generic::List_1<TItem> __declspec(property(get=get_Items))  Items;
 
  TItem __declspec(property(get=get_Item))  Item;
 
- ::System::Collections::Generic::IDictionary_2<TKey,TItem> __declspec(property(get=get_Dictionary))  Dictionary;
+ System::Collections::Generic::IDictionary_2<TKey,TItem> __declspec(property(get=get_Dictionary))  Dictionary;
 
 
 // Methods
@@ -116,20 +115,20 @@ explicit KeyedCollection_2() ;
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "comparer", ty: "::System::Collections::Generic::IEqualityComparer_1<TKey>", modifiers: "", def_value: None }]
-explicit KeyedCollection_2(::System::Collections::Generic::IEqualityComparer_1<TKey> comparer) ;
+// Ctor Parameters [CppParam { name: "comparer", ty: "System::Collections::Generic::IEqualityComparer_1<TKey>", modifiers: "", def_value: None }]
+explicit KeyedCollection_2(System::Collections::Generic::IEqualityComparer_1<TKey> comparer) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Collections::Generic::IEqualityComparer_1<TKey> comparer) ;
+ void _ctor(System::Collections::Generic::IEqualityComparer_1<TKey> comparer) ;
 
-// Ctor Parameters [CppParam { name: "comparer", ty: "::System::Collections::Generic::IEqualityComparer_1<TKey>", modifiers: "", def_value: None }, CppParam { name: "dictionaryCreationThreshold", ty: "int32_t", modifiers: "", def_value: None }]
-explicit KeyedCollection_2(::System::Collections::Generic::IEqualityComparer_1<TKey> comparer, int32_t dictionaryCreationThreshold) ;
+// Ctor Parameters [CppParam { name: "comparer", ty: "System::Collections::Generic::IEqualityComparer_1<TKey>", modifiers: "", def_value: None }, CppParam { name: "dictionaryCreationThreshold", ty: "int32_t", modifiers: "", def_value: None }]
+explicit KeyedCollection_2(System::Collections::Generic::IEqualityComparer_1<TKey> comparer, int32_t dictionaryCreationThreshold) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Collections::Generic::IEqualityComparer_1<TKey> comparer, int32_t dictionaryCreationThreshold) ;
+ void _ctor(System::Collections::Generic::IEqualityComparer_1<TKey> comparer, int32_t dictionaryCreationThreshold) ;
 
 /// @brief Method get_Items addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Collections::Generic::List_1<TItem> get_Items() ;
+ System::Collections::Generic::List_1<TItem> get_Items() ;
 
 /// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual false final false
  TItem get_Item(TKey key) ;
@@ -141,7 +140,7 @@ explicit KeyedCollection_2(::System::Collections::Generic::IEqualityComparer_1<T
  bool TryGetValue(TKey key, ByRef<TItem> item) ;
 
 /// @brief Method get_Dictionary addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Collections::Generic::IDictionary_2<TKey,TItem> get_Dictionary() ;
+ System::Collections::Generic::IDictionary_2<TKey,TItem> get_Dictionary() ;
 
 /// @brief Method ClearItems addr 0x0 size 0xffffffffffffffff virtual true final false
  void ClearItems() ;
@@ -171,5 +170,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Collections::ObjectModel
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::ObjectModel::KeyedCollection_2, "System.Collections.ObjectModel", "KeyedCollection`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::ObjectModel::KeyedCollection_2, "System.Collections.ObjectModel", "KeyedCollection`2");

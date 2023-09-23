@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__GenericSignal_1_def.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class BoolSignal;
@@ -12,7 +11,7 @@ namespace GlobalNamespace {
 // Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13881), inst: 99 }), TypeDefinitionIndex(TypeDefinitionIndex(13881))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13876))
 // CS Name: BoolSignal
-class CORDL_TYPE BoolSignal : public ::GlobalNamespace::GenericSignal_1<bool> {
+class CORDL_TYPE BoolSignal : public GlobalNamespace::GenericSignal_1<bool> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr BoolSignal(BoolSignal const& ) noexcept = default;
 constexpr BoolSignal(BoolSignal&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BoolSignal(void* ptr) noexcept : ::GlobalNamespace::GenericSignal_1<bool>(ptr) {
+constexpr explicit BoolSignal(void* ptr) noexcept : GlobalNamespace::GenericSignal_1<bool>(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BoolSignal);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BoolSignal, "", "BoolSignal");
+NEED_NO_BOX(GlobalNamespace::BoolSignal);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BoolSignal, "", "BoolSignal");

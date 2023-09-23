@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 class Material;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14637))
 // CS Name: BloomPrePassLightTypeSO
-class CORDL_TYPE BloomPrePassLightTypeSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE BloomPrePassLightTypeSO : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr BloomPrePassLightTypeSO(BloomPrePassLightTypeSO const& ) noexcept = de
 constexpr BloomPrePassLightTypeSO(BloomPrePassLightTypeSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BloomPrePassLightTypeSO(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit BloomPrePassLightTypeSO(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -58,18 +57,18 @@ constexpr void __set__renderingPriority(int32_t value) ;
 
 constexpr int32_t __get__renderingPriority() const;
 
- ::UnityEngine::Material __declspec(property(get=__get__material, put=__set__material))  _material;
+ UnityEngine::Material __declspec(property(get=__get__material, put=__set__material))  _material;
 
-constexpr void __set__material(::UnityEngine::Material value) ;
+constexpr void __set__material(UnityEngine::Material value) ;
 
-constexpr ::UnityEngine::Material __get__material() const;
+constexpr UnityEngine::Material __get__material() const;
 
 
 // Properties
 
  int32_t __declspec(property(get=get_renderingPriority))  renderingPriority;
 
- ::UnityEngine::Material __declspec(property(get=get_material))  material;
+ UnityEngine::Material __declspec(property(get=get_material))  material;
 
 
 // Methods
@@ -78,7 +77,7 @@ constexpr ::UnityEngine::Material __get__material() const;
  int32_t get_renderingPriority() ;
 
 /// @brief Method get_material addr 0x1f94eb4 size 0x8 virtual false final false
- ::UnityEngine::Material get_material() ;
+ UnityEngine::Material get_material() ;
 
 // Ctor Parameters []
 explicit BloomPrePassLightTypeSO() ;
@@ -90,6 +89,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BloomPrePassLightTypeSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BloomPrePassLightTypeSO, "", "BloomPrePassLightTypeSO");
+NEED_NO_BOX(GlobalNamespace::BloomPrePassLightTypeSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassLightTypeSO, "", "BloomPrePassLightTypeSO");

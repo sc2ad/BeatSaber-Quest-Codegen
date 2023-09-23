@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 // Forward declare root types
 namespace System::Configuration {
 class ConfigurationPropertyCollection;
@@ -49,6 +48,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Configuration
-} // end anonymous namespace
-NEED_NO_BOX(::System::Configuration::ConfigurationPropertyCollection);
-DEFINE_IL2CPP_ARG_TYPE(::System::Configuration::ConfigurationPropertyCollection, "System.Configuration", "ConfigurationPropertyCollection");
+NEED_NO_BOX(System::Configuration::ConfigurationPropertyCollection);
+DEFINE_IL2CPP_ARG_TYPE(System::Configuration::ConfigurationPropertyCollection, "System.Configuration", "ConfigurationPropertyCollection");

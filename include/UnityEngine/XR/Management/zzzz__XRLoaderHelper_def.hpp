@@ -2,20 +2,19 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/XR/Management/zzzz__XRLoader_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace UnityEngine {
-class ISubsystem;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace UnityEngine {
+class ISubsystem;
+}
 namespace System {
 class Type;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 // Forward declare root types
 namespace UnityEngine::XR::Management {
@@ -27,7 +26,7 @@ namespace UnityEngine::XR::Management {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15891))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15892))
 // CS Name: UnityEngine.XR.Management.XRLoaderHelper
-class CORDL_TYPE XRLoaderHelper : public ::UnityEngine::XR::Management::XRLoader {
+class CORDL_TYPE XRLoaderHelper : public UnityEngine::XR::Management::XRLoader {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -42,7 +41,7 @@ constexpr XRLoaderHelper(XRLoaderHelper const& ) noexcept = default;
 constexpr XRLoaderHelper(XRLoaderHelper&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XRLoaderHelper(void* ptr) noexcept : ::UnityEngine::XR::Management::XRLoader(ptr) {
+constexpr explicit XRLoaderHelper(void* ptr) noexcept : UnityEngine::XR::Management::XRLoader(ptr) {
 }
 
 
@@ -63,11 +62,11 @@ constexpr explicit XRLoaderHelper(void* ptr) noexcept : ::UnityEngine::XR::Manag
 
 // Fields
 
- ::System::Collections::Generic::Dictionary_2<::System::Type,::UnityEngine::ISubsystem> __declspec(property(get=__get_m_SubsystemInstanceMap, put=__set_m_SubsystemInstanceMap))  m_SubsystemInstanceMap;
+ System::Collections::Generic::Dictionary_2<System::Type,UnityEngine::ISubsystem> __declspec(property(get=__get_m_SubsystemInstanceMap, put=__set_m_SubsystemInstanceMap))  m_SubsystemInstanceMap;
 
-constexpr void __set_m_SubsystemInstanceMap(::System::Collections::Generic::Dictionary_2<::System::Type,::UnityEngine::ISubsystem> value) ;
+constexpr void __set_m_SubsystemInstanceMap(System::Collections::Generic::Dictionary_2<System::Type,UnityEngine::ISubsystem> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::System::Type,::UnityEngine::ISubsystem> __get_m_SubsystemInstanceMap() const;
+constexpr System::Collections::Generic::Dictionary_2<System::Type,UnityEngine::ISubsystem> __get_m_SubsystemInstanceMap() const;
 
 
 // Methods
@@ -90,15 +89,15 @@ template<typename T>
 
 /// @brief Method CreateSubsystem addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TDescriptor,typename TSubsystem>
- void CreateSubsystem(::System::Collections::Generic::List_1<TDescriptor> descriptors, ::StringW id) ;
+ void CreateSubsystem(System::Collections::Generic::List_1<TDescriptor> descriptors, ::StringW id) ;
 
 /// @brief Method CreateIntegratedSubsystem addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TDescriptor,typename TSubsystem>
- void CreateIntegratedSubsystem(::System::Collections::Generic::List_1<TDescriptor> descriptors, ::StringW id) ;
+ void CreateIntegratedSubsystem(System::Collections::Generic::List_1<TDescriptor> descriptors, ::StringW id) ;
 
 /// @brief Method CreateStandaloneSubsystem addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TDescriptor,typename TSubsystem>
- void CreateStandaloneSubsystem(::System::Collections::Generic::List_1<TDescriptor> descriptors, ::StringW id) ;
+ void CreateStandaloneSubsystem(System::Collections::Generic::List_1<TDescriptor> descriptors, ::StringW id) ;
 
 /// @brief Method Deinitialize addr 0x2addb98 size 0x58 virtual true final false
  bool Deinitialize() ;
@@ -113,6 +112,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR::Management
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::XR::Management::XRLoaderHelper);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::Management::XRLoaderHelper, "UnityEngine.XR.Management", "XRLoaderHelper");
+NEED_NO_BOX(UnityEngine::XR::Management::XRLoaderHelper);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::Management::XRLoaderHelper, "UnityEngine.XR.Management", "XRLoaderHelper");

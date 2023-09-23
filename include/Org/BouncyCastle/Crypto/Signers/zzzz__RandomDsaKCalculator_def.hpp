@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Crypto::Signers {
 class IDsaKCalculator;
@@ -26,8 +25,8 @@ namespace Org::BouncyCastle::Crypto::Signers {
 class CORDL_TYPE RandomDsaKCalculator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator
-constexpr operator  ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Signers::IDsaKCalculator
+constexpr operator  Org::BouncyCastle::Crypto::Signers::IDsaKCalculator() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -62,17 +61,17 @@ constexpr explicit RandomDsaKCalculator(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 // Fields
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_q, put=__set_q))  q;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_q, put=__set_q))  q;
 
-constexpr void __set_q(::Org::BouncyCastle::Math::BigInteger value) ;
+constexpr void __set_q(Org::BouncyCastle::Math::BigInteger value) ;
 
-constexpr ::Org::BouncyCastle::Math::BigInteger __get_q() const;
+constexpr Org::BouncyCastle::Math::BigInteger __get_q() const;
 
- ::Org::BouncyCastle::Security::SecureRandom __declspec(property(get=__get_random, put=__set_random))  random;
+ Org::BouncyCastle::Security::SecureRandom __declspec(property(get=__get_random, put=__set_random))  random;
 
-constexpr void __set_random(::Org::BouncyCastle::Security::SecureRandom value) ;
+constexpr void __set_random(Org::BouncyCastle::Security::SecureRandom value) ;
 
-constexpr ::Org::BouncyCastle::Security::SecureRandom __get_random() const;
+constexpr Org::BouncyCastle::Security::SecureRandom __get_random() const;
 
 
 // Properties
@@ -86,13 +85,13 @@ constexpr ::Org::BouncyCastle::Security::SecureRandom __get_random() const;
  bool get_IsDeterministic() ;
 
 /// @brief Method Init addr 0xec6d14 size 0x8 virtual true final false
- void Init(::Org::BouncyCastle::Math::BigInteger n, ::Org::BouncyCastle::Security::SecureRandom random) ;
+ void Init(Org::BouncyCastle::Math::BigInteger n, Org::BouncyCastle::Security::SecureRandom random) ;
 
 /// @brief Method Init addr 0xec6d1c size 0x50 virtual true final false
- void Init(::Org::BouncyCastle::Math::BigInteger n, ::Org::BouncyCastle::Math::BigInteger d, ::ArrayW<uint8_t> message) ;
+ void Init(Org::BouncyCastle::Math::BigInteger n, Org::BouncyCastle::Math::BigInteger d, ::ArrayW<uint8_t> message) ;
 
 /// @brief Method NextK addr 0xec6d6c size 0xc4 virtual true final false
- ::Org::BouncyCastle::Math::BigInteger NextK() ;
+ Org::BouncyCastle::Math::BigInteger NextK() ;
 
 // Ctor Parameters []
 explicit RandomDsaKCalculator() ;
@@ -104,6 +103,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Signers
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator, "Org.BouncyCastle.Crypto.Signers", "RandomDsaKCalculator");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator, "Org.BouncyCastle.Crypto.Signers", "RandomDsaKCalculator");

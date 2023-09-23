@@ -3,33 +3,23 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-class LightTranslationBeatmapEventData;
-}
-namespace Tweening {
-class SongTimeTweeningManager;
-}
-namespace GlobalNamespace {
-struct EaseType;
+namespace UnityEngine {
+class Transform;
 }
 namespace UnityEngine {
 struct Vector2;
 }
-namespace GlobalNamespace {
-class BeatmapCallbacksController;
+namespace Tweening {
+class FloatTween;
 }
 namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
+class LightTranslationBeatmapEventData;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace Tweening {
-class FloatTween;
-}
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+struct EaseType;
 }
 namespace System {
 template<typename T1,typename T2>
@@ -40,18 +30,27 @@ template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
+class BeatmapCallbacksController;
+}
+namespace GlobalNamespace {
 template<typename T>
 class BeatmapDataCallback_1;
 }
+namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
+}
+namespace Tweening {
+class SongTimeTweeningManager;
+}
 // Forward declare root types
 namespace GlobalNamespace {
+class GlobalNamespace__LightTranslationGroupEffect__InitData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0;
+}
+namespace GlobalNamespace {
 class LightTranslationGroupEffect;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__LightTranslationGroupEffect__InitData;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0;
 }
 // Type: ::InitData
 namespace GlobalNamespace {
@@ -59,37 +58,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5045))
 // CS Name: LightTranslationGroupEffect::InitData
-class CORDL_TYPE ____GlobalNamespace__LightTranslationGroupEffect__InitData : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__LightTranslationGroupEffect__InitData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x68};
 
-virtual ~____GlobalNamespace__LightTranslationGroupEffect__InitData() = default;
+virtual ~GlobalNamespace__LightTranslationGroupEffect__InitData() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__LightTranslationGroupEffect__InitData", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__LightTranslationGroupEffect__InitData(____GlobalNamespace__LightTranslationGroupEffect__InitData const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__LightTranslationGroupEffect__InitData", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__LightTranslationGroupEffect__InitData(GlobalNamespace__LightTranslationGroupEffect__InitData const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__LightTranslationGroupEffect__InitData", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__LightTranslationGroupEffect__InitData(____GlobalNamespace__LightTranslationGroupEffect__InitData&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__LightTranslationGroupEffect__InitData", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__LightTranslationGroupEffect__InitData(GlobalNamespace__LightTranslationGroupEffect__InitData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__LightTranslationGroupEffect__InitData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__LightTranslationGroupEffect__InitData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__LightTranslationGroupEffect__InitData& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__LightTranslationGroupEffect__InitData& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__LightTranslationGroupEffect__InitData& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__LightTranslationGroupEffect__InitData& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__LightTranslationGroupEffect__InitData& operator=(____GlobalNamespace__LightTranslationGroupEffect__InitData&& o) noexcept = default;
-  constexpr ____GlobalNamespace__LightTranslationGroupEffect__InitData& operator=(____GlobalNamespace__LightTranslationGroupEffect__InitData const& o) noexcept = default;
+  constexpr GlobalNamespace__LightTranslationGroupEffect__InitData& operator=(GlobalNamespace__LightTranslationGroupEffect__InitData&& o) noexcept = default;
+  constexpr GlobalNamespace__LightTranslationGroupEffect__InitData& operator=(GlobalNamespace__LightTranslationGroupEffect__InitData const& o) noexcept = default;
                 
 
 
@@ -125,68 +124,68 @@ constexpr void __set_zMirrored(bool value) ;
 
 constexpr bool __get_zMirrored() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_xTransform, put=__set_xTransform))  xTransform;
+ UnityEngine::Transform __declspec(property(get=__get_xTransform, put=__set_xTransform))  xTransform;
 
-constexpr void __set_xTransform(::UnityEngine::Transform value) ;
+constexpr void __set_xTransform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_xTransform() const;
+constexpr UnityEngine::Transform __get_xTransform() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_yTransform, put=__set_yTransform))  yTransform;
+ UnityEngine::Transform __declspec(property(get=__get_yTransform, put=__set_yTransform))  yTransform;
 
-constexpr void __set_yTransform(::UnityEngine::Transform value) ;
+constexpr void __set_yTransform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_yTransform() const;
+constexpr UnityEngine::Transform __get_yTransform() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_zTransform, put=__set_zTransform))  zTransform;
+ UnityEngine::Transform __declspec(property(get=__get_zTransform, put=__set_zTransform))  zTransform;
 
-constexpr void __set_zTransform(::UnityEngine::Transform value) ;
+constexpr void __set_zTransform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_zTransform() const;
+constexpr UnityEngine::Transform __get_zTransform() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_xTranslationLimits, put=__set_xTranslationLimits))  xTranslationLimits;
+ UnityEngine::Vector2 __declspec(property(get=__get_xTranslationLimits, put=__set_xTranslationLimits))  xTranslationLimits;
 
-constexpr void __set_xTranslationLimits(::UnityEngine::Vector2 value) ;
+constexpr void __set_xTranslationLimits(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_xTranslationLimits() const;
+constexpr UnityEngine::Vector2 __get_xTranslationLimits() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_xDistributionLimits, put=__set_xDistributionLimits))  xDistributionLimits;
+ UnityEngine::Vector2 __declspec(property(get=__get_xDistributionLimits, put=__set_xDistributionLimits))  xDistributionLimits;
 
-constexpr void __set_xDistributionLimits(::UnityEngine::Vector2 value) ;
+constexpr void __set_xDistributionLimits(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_xDistributionLimits() const;
+constexpr UnityEngine::Vector2 __get_xDistributionLimits() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_yTranslationLimits, put=__set_yTranslationLimits))  yTranslationLimits;
+ UnityEngine::Vector2 __declspec(property(get=__get_yTranslationLimits, put=__set_yTranslationLimits))  yTranslationLimits;
 
-constexpr void __set_yTranslationLimits(::UnityEngine::Vector2 value) ;
+constexpr void __set_yTranslationLimits(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_yTranslationLimits() const;
+constexpr UnityEngine::Vector2 __get_yTranslationLimits() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_yDistributionLimits, put=__set_yDistributionLimits))  yDistributionLimits;
+ UnityEngine::Vector2 __declspec(property(get=__get_yDistributionLimits, put=__set_yDistributionLimits))  yDistributionLimits;
 
-constexpr void __set_yDistributionLimits(::UnityEngine::Vector2 value) ;
+constexpr void __set_yDistributionLimits(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_yDistributionLimits() const;
+constexpr UnityEngine::Vector2 __get_yDistributionLimits() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_zTranslationLimits, put=__set_zTranslationLimits))  zTranslationLimits;
+ UnityEngine::Vector2 __declspec(property(get=__get_zTranslationLimits, put=__set_zTranslationLimits))  zTranslationLimits;
 
-constexpr void __set_zTranslationLimits(::UnityEngine::Vector2 value) ;
+constexpr void __set_zTranslationLimits(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_zTranslationLimits() const;
+constexpr UnityEngine::Vector2 __get_zTranslationLimits() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_zDistributionLimits, put=__set_zDistributionLimits))  zDistributionLimits;
+ UnityEngine::Vector2 __declspec(property(get=__get_zDistributionLimits, put=__set_zDistributionLimits))  zDistributionLimits;
 
-constexpr void __set_zDistributionLimits(::UnityEngine::Vector2 value) ;
+constexpr void __set_zDistributionLimits(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_zDistributionLimits() const;
+constexpr UnityEngine::Vector2 __get_zDistributionLimits() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "groupId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "elementId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "xMirrored", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "yMirrored", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "zMirrored", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "xTransform", ty: "::UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "yTransform", ty: "::UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "zTransform", ty: "::UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "xTranslationLimits", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "xDistributionLimits", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "yTranslationLimits", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "yDistributionLimits", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "zTranslationLimits", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "zDistributionLimits", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__LightTranslationGroupEffect__InitData(int32_t groupId, int32_t elementId, bool xMirrored, bool yMirrored, bool zMirrored, ::UnityEngine::Transform xTransform, ::UnityEngine::Transform yTransform, ::UnityEngine::Transform zTransform, ::UnityEngine::Vector2 xTranslationLimits, ::UnityEngine::Vector2 xDistributionLimits, ::UnityEngine::Vector2 yTranslationLimits, ::UnityEngine::Vector2 yDistributionLimits, ::UnityEngine::Vector2 zTranslationLimits, ::UnityEngine::Vector2 zDistributionLimits) ;
+// Ctor Parameters [CppParam { name: "groupId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "elementId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "xMirrored", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "yMirrored", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "zMirrored", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "xTransform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "yTransform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "zTransform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "xTranslationLimits", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "xDistributionLimits", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "yTranslationLimits", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "yDistributionLimits", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "zTranslationLimits", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "zDistributionLimits", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }]
+explicit GlobalNamespace__LightTranslationGroupEffect__InitData(int32_t groupId, int32_t elementId, bool xMirrored, bool yMirrored, bool zMirrored, UnityEngine::Transform xTransform, UnityEngine::Transform yTransform, UnityEngine::Transform zTransform, UnityEngine::Vector2 xTranslationLimits, UnityEngine::Vector2 xDistributionLimits, UnityEngine::Vector2 yTranslationLimits, UnityEngine::Vector2 yDistributionLimits, UnityEngine::Vector2 zTranslationLimits, UnityEngine::Vector2 zDistributionLimits) ;
 
 /// @brief Method .ctor addr 0x22606e0 size 0xd8 virtual false final false
- void _ctor(int32_t groupId, int32_t elementId, bool xMirrored, bool yMirrored, bool zMirrored, ::UnityEngine::Transform xTransform, ::UnityEngine::Transform yTransform, ::UnityEngine::Transform zTransform, ::UnityEngine::Vector2 xTranslationLimits, ::UnityEngine::Vector2 xDistributionLimits, ::UnityEngine::Vector2 yTranslationLimits, ::UnityEngine::Vector2 yDistributionLimits, ::UnityEngine::Vector2 zTranslationLimits, ::UnityEngine::Vector2 zDistributionLimits) ;
+ void _ctor(int32_t groupId, int32_t elementId, bool xMirrored, bool yMirrored, bool zMirrored, UnityEngine::Transform xTransform, UnityEngine::Transform yTransform, UnityEngine::Transform zTransform, UnityEngine::Vector2 xTranslationLimits, UnityEngine::Vector2 xDistributionLimits, UnityEngine::Vector2 yTranslationLimits, UnityEngine::Vector2 yDistributionLimits, UnityEngine::Vector2 zTranslationLimits, UnityEngine::Vector2 zDistributionLimits) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -198,59 +197,59 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5046))
 // CS Name: LightTranslationGroupEffect::<>c__DisplayClass12_0
-class CORDL_TYPE ____GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
 
-virtual ~____GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0() = default;
+virtual ~GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0(____GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0(GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0(____GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0(GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0& operator=(____GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0&& o) noexcept = default;
-  constexpr ____GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0& operator=(____GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0 const& o) noexcept = default;
+  constexpr GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0& operator=(GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0&& o) noexcept = default;
+  constexpr GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0& operator=(GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::Tweening::FloatTween __declspec(property(get=__get_translationTween, put=__set_translationTween))  translationTween;
+ Tweening::FloatTween __declspec(property(get=__get_translationTween, put=__set_translationTween))  translationTween;
 
-constexpr void __set_translationTween(::Tweening::FloatTween value) ;
+constexpr void __set_translationTween(Tweening::FloatTween value) ;
 
-constexpr ::Tweening::FloatTween __get_translationTween() const;
+constexpr Tweening::FloatTween __get_translationTween() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_translationLimits, put=__set_translationLimits))  translationLimits;
+ UnityEngine::Vector2 __declspec(property(get=__get_translationLimits, put=__set_translationLimits))  translationLimits;
 
-constexpr void __set_translationLimits(::UnityEngine::Vector2 value) ;
+constexpr void __set_translationLimits(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_translationLimits() const;
+constexpr UnityEngine::Vector2 __get_translationLimits() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_distributionLimits, put=__set_distributionLimits))  distributionLimits;
+ UnityEngine::Vector2 __declspec(property(get=__get_distributionLimits, put=__set_distributionLimits))  distributionLimits;
 
-constexpr void __set_distributionLimits(::UnityEngine::Vector2 value) ;
+constexpr void __set_distributionLimits(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_distributionLimits() const;
+constexpr UnityEngine::Vector2 __get_distributionLimits() const;
 
  bool __declspec(property(get=__get_mirrored, put=__set_mirrored))  mirrored;
 
@@ -258,23 +257,23 @@ constexpr void __set_mirrored(bool value) ;
 
 constexpr bool __get_mirrored() const;
 
- ::GlobalNamespace::LightTranslationGroupEffect __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::LightTranslationGroupEffect __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::LightTranslationGroupEffect value) ;
+constexpr void __set___4__this(GlobalNamespace::LightTranslationGroupEffect value) ;
 
-constexpr ::GlobalNamespace::LightTranslationGroupEffect __get___4__this() const;
+constexpr GlobalNamespace::LightTranslationGroupEffect __get___4__this() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0() ;
+explicit GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0() ;
 
 /// @brief Method .ctor addr 0x2260488 size 0x8 virtual false final false
  void _ctor() ;
 
 /// @brief Method <GetTranslationEventHandler>b__0 addr 0x22607b8 size 0x1c0 virtual false final false
- void _GetTranslationEventHandler_b__0(::GlobalNamespace::LightTranslationBeatmapEventData currentEventData) ;
+ void _GetTranslationEventHandler_b__0(GlobalNamespace::LightTranslationBeatmapEventData currentEventData) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -289,9 +288,9 @@ namespace GlobalNamespace {
 class CORDL_TYPE LightTranslationGroupEffect : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using __c__DisplayClass12_0 = ::GlobalNamespace::____GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0;
+using __c__DisplayClass12_0 = GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0;
 
-using InitData = ::GlobalNamespace::____GlobalNamespace__LightTranslationGroupEffect__InitData;
+using InitData = GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect__InitData;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x58};
@@ -326,92 +325,91 @@ constexpr explicit LightTranslationGroupEffect(void* ptr) noexcept : ::bs_hook::
 
 // Fields
 
- ::Tweening::SongTimeTweeningManager __declspec(property(get=__get__tweeningManager, put=__set__tweeningManager))  _tweeningManager;
+ Tweening::SongTimeTweeningManager __declspec(property(get=__get__tweeningManager, put=__set__tweeningManager))  _tweeningManager;
 
-constexpr void __set__tweeningManager(::Tweening::SongTimeTweeningManager value) ;
+constexpr void __set__tweeningManager(Tweening::SongTimeTweeningManager value) ;
 
-constexpr ::Tweening::SongTimeTweeningManager __get__tweeningManager() const;
+constexpr Tweening::SongTimeTweeningManager __get__tweeningManager() const;
 
- ::GlobalNamespace::BeatmapCallbacksController __declspec(property(get=__get__beatmapCallbacksController, put=__set__beatmapCallbacksController))  _beatmapCallbacksController;
+ GlobalNamespace::BeatmapCallbacksController __declspec(property(get=__get__beatmapCallbacksController, put=__set__beatmapCallbacksController))  _beatmapCallbacksController;
 
-constexpr void __set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController value) ;
+constexpr void __set__beatmapCallbacksController(GlobalNamespace::BeatmapCallbacksController value) ;
 
-constexpr ::GlobalNamespace::BeatmapCallbacksController __get__beatmapCallbacksController() const;
+constexpr GlobalNamespace::BeatmapCallbacksController __get__beatmapCallbacksController() const;
 
- ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityEngine::Transform,::UnityEngine::Vector3>> __declspec(property(get=__get__transformMask, put=__set__transformMask))  _transformMask;
+ System::Collections::Generic::List_1<System::ValueTuple_2<UnityEngine::Transform,UnityEngine::Vector3>> __declspec(property(get=__get__transformMask, put=__set__transformMask))  _transformMask;
 
-constexpr void __set__transformMask(::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityEngine::Transform,::UnityEngine::Vector3>> value) ;
+constexpr void __set__transformMask(System::Collections::Generic::List_1<System::ValueTuple_2<UnityEngine::Transform,UnityEngine::Vector3>> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityEngine::Transform,::UnityEngine::Vector3>> __get__transformMask() const;
+constexpr System::Collections::Generic::List_1<System::ValueTuple_2<UnityEngine::Transform,UnityEngine::Vector3>> __get__transformMask() const;
 
- ::Tweening::FloatTween __declspec(property(get=__get__xTranslationTween, put=__set__xTranslationTween))  _xTranslationTween;
+ Tweening::FloatTween __declspec(property(get=__get__xTranslationTween, put=__set__xTranslationTween))  _xTranslationTween;
 
-constexpr void __set__xTranslationTween(::Tweening::FloatTween value) ;
+constexpr void __set__xTranslationTween(Tweening::FloatTween value) ;
 
-constexpr ::Tweening::FloatTween __get__xTranslationTween() const;
+constexpr Tweening::FloatTween __get__xTranslationTween() const;
 
- ::Tweening::FloatTween __declspec(property(get=__get__yTranslationTween, put=__set__yTranslationTween))  _yTranslationTween;
+ Tweening::FloatTween __declspec(property(get=__get__yTranslationTween, put=__set__yTranslationTween))  _yTranslationTween;
 
-constexpr void __set__yTranslationTween(::Tweening::FloatTween value) ;
+constexpr void __set__yTranslationTween(Tweening::FloatTween value) ;
 
-constexpr ::Tweening::FloatTween __get__yTranslationTween() const;
+constexpr Tweening::FloatTween __get__yTranslationTween() const;
 
- ::Tweening::FloatTween __declspec(property(get=__get__zTranslationTween, put=__set__zTranslationTween))  _zTranslationTween;
+ Tweening::FloatTween __declspec(property(get=__get__zTranslationTween, put=__set__zTranslationTween))  _zTranslationTween;
 
-constexpr void __set__zTranslationTween(::Tweening::FloatTween value) ;
+constexpr void __set__zTranslationTween(Tweening::FloatTween value) ;
 
-constexpr ::Tweening::FloatTween __get__zTranslationTween() const;
+constexpr Tweening::FloatTween __get__zTranslationTween() const;
 
- ::GlobalNamespace::BeatmapDataCallbackWrapper __declspec(property(get=__get__lightTranslationXBeatmapEventCallbackWrapper, put=__set__lightTranslationXBeatmapEventCallbackWrapper))  _lightTranslationXBeatmapEventCallbackWrapper;
+ GlobalNamespace::BeatmapDataCallbackWrapper __declspec(property(get=__get__lightTranslationXBeatmapEventCallbackWrapper, put=__set__lightTranslationXBeatmapEventCallbackWrapper))  _lightTranslationXBeatmapEventCallbackWrapper;
 
-constexpr void __set__lightTranslationXBeatmapEventCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper value) ;
+constexpr void __set__lightTranslationXBeatmapEventCallbackWrapper(GlobalNamespace::BeatmapDataCallbackWrapper value) ;
 
-constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper __get__lightTranslationXBeatmapEventCallbackWrapper() const;
+constexpr GlobalNamespace::BeatmapDataCallbackWrapper __get__lightTranslationXBeatmapEventCallbackWrapper() const;
 
- ::GlobalNamespace::BeatmapDataCallbackWrapper __declspec(property(get=__get__lightTranslationYBeatmapEventCallbackWrapper, put=__set__lightTranslationYBeatmapEventCallbackWrapper))  _lightTranslationYBeatmapEventCallbackWrapper;
+ GlobalNamespace::BeatmapDataCallbackWrapper __declspec(property(get=__get__lightTranslationYBeatmapEventCallbackWrapper, put=__set__lightTranslationYBeatmapEventCallbackWrapper))  _lightTranslationYBeatmapEventCallbackWrapper;
 
-constexpr void __set__lightTranslationYBeatmapEventCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper value) ;
+constexpr void __set__lightTranslationYBeatmapEventCallbackWrapper(GlobalNamespace::BeatmapDataCallbackWrapper value) ;
 
-constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper __get__lightTranslationYBeatmapEventCallbackWrapper() const;
+constexpr GlobalNamespace::BeatmapDataCallbackWrapper __get__lightTranslationYBeatmapEventCallbackWrapper() const;
 
- ::GlobalNamespace::BeatmapDataCallbackWrapper __declspec(property(get=__get__lightTranslationZBeatmapEventCallbackWrapper, put=__set__lightTranslationZBeatmapEventCallbackWrapper))  _lightTranslationZBeatmapEventCallbackWrapper;
+ GlobalNamespace::BeatmapDataCallbackWrapper __declspec(property(get=__get__lightTranslationZBeatmapEventCallbackWrapper, put=__set__lightTranslationZBeatmapEventCallbackWrapper))  _lightTranslationZBeatmapEventCallbackWrapper;
 
-constexpr void __set__lightTranslationZBeatmapEventCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper value) ;
+constexpr void __set__lightTranslationZBeatmapEventCallbackWrapper(GlobalNamespace::BeatmapDataCallbackWrapper value) ;
 
-constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper __get__lightTranslationZBeatmapEventCallbackWrapper() const;
+constexpr GlobalNamespace::BeatmapDataCallbackWrapper __get__lightTranslationZBeatmapEventCallbackWrapper() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "initData", ty: "::GlobalNamespace::____GlobalNamespace__LightTranslationGroupEffect__InitData", modifiers: "", def_value: None }, CppParam { name: "tweeningManager", ty: "::Tweening::SongTimeTweeningManager", modifiers: "", def_value: None }, CppParam { name: "beatmapCallbacksController", ty: "::GlobalNamespace::BeatmapCallbacksController", modifiers: "", def_value: None }]
-explicit LightTranslationGroupEffect(::GlobalNamespace::____GlobalNamespace__LightTranslationGroupEffect__InitData initData, ::Tweening::SongTimeTweeningManager tweeningManager, ::GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController) ;
+// Ctor Parameters [CppParam { name: "initData", ty: "GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect__InitData", modifiers: "", def_value: None }, CppParam { name: "tweeningManager", ty: "Tweening::SongTimeTweeningManager", modifiers: "", def_value: None }, CppParam { name: "beatmapCallbacksController", ty: "GlobalNamespace::BeatmapCallbacksController", modifiers: "", def_value: None }]
+explicit LightTranslationGroupEffect(GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect__InitData initData, Tweening::SongTimeTweeningManager tweeningManager, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController) ;
 
 /// @brief Method .ctor addr 0x225f870 size 0xac0 virtual false final false
- void _ctor(::GlobalNamespace::____GlobalNamespace__LightTranslationGroupEffect__InitData initData, ::Tweening::SongTimeTweeningManager tweeningManager, ::GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController) ;
+ void _ctor(GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect__InitData initData, Tweening::SongTimeTweeningManager tweeningManager, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController) ;
 
 /// @brief Method Cleanup addr 0x2260420 size 0x68 virtual false final false
  void Cleanup() ;
 
 /// @brief Method GetTranslationEventHandler addr 0x2260330 size 0xf0 virtual false final false
- ::GlobalNamespace::BeatmapDataCallback_1<::GlobalNamespace::LightTranslationBeatmapEventData> GetTranslationEventHandler(::Tweening::FloatTween translationTween, ::UnityEngine::Vector2 translationLimits, ::UnityEngine::Vector2 distributionLimits, bool mirrored) ;
+ GlobalNamespace::BeatmapDataCallback_1<GlobalNamespace::LightTranslationBeatmapEventData> GetTranslationEventHandler(Tweening::FloatTween translationTween, UnityEngine::Vector2 translationLimits, UnityEngine::Vector2 distributionLimits, bool mirrored) ;
 
 /// @brief Method SetTranslation addr 0x2260490 size 0x1c8 virtual false final false
  void SetTranslation(float_t _) ;
 
 /// @brief Method SetTweenData addr 0x2260658 size 0x3c virtual false final false
-static void SetTweenData(::Tweening::FloatTween tween, float_t from, float_t to, float_t startTime, float_t endTime, ::GlobalNamespace::EaseType easeType) ;
+static void SetTweenData(Tweening::FloatTween tween, float_t from, float_t to, float_t startTime, float_t endTime, GlobalNamespace::EaseType easeType) ;
 
 /// @brief Method ComputeTranslation addr 0x2260694 size 0x4c virtual false final false
-static float_t ComputeTranslation(float_t translation, ::UnityEngine::Vector2 translationLimits, float_t distribution, ::UnityEngine::Vector2 distributionLimits, bool mirrored) ;
+static float_t ComputeTranslation(float_t translation, UnityEngine::Vector2 translationLimits, float_t distribution, UnityEngine::Vector2 distributionLimits, bool mirrored) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LightTranslationGroupEffect);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightTranslationGroupEffect, "", "LightTranslationGroupEffect");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__LightTranslationGroupEffect__InitData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__LightTranslationGroupEffect__InitData, "", "LightTranslationGroupEffect/InitData");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0, "", "LightTranslationGroupEffect/<>c__DisplayClass12_0");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect__InitData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect__InitData, "", "LightTranslationGroupEffect/InitData");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0, "", "LightTranslationGroupEffect/<>c__DisplayClass12_0");
+NEED_NO_BOX(GlobalNamespace::LightTranslationGroupEffect);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightTranslationGroupEffect, "", "LightTranslationGroupEffect");

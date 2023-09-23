@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/Timeline/zzzz__TrackAsset_def.hpp"
-namespace {
 namespace UnityEngine::Timeline {
 class TimelineClip;
 }
@@ -15,7 +14,7 @@ namespace UnityEngine::Timeline {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14073))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14124))
 // CS Name: UnityEngine.Timeline.PlayableTrack
-class CORDL_TYPE PlayableTrack : public ::UnityEngine::Timeline::TrackAsset {
+class CORDL_TYPE PlayableTrack : public UnityEngine::Timeline::TrackAsset {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr PlayableTrack(PlayableTrack const& ) noexcept = default;
 constexpr PlayableTrack(PlayableTrack&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PlayableTrack(void* ptr) noexcept : ::UnityEngine::Timeline::TrackAsset(ptr) {
+constexpr explicit PlayableTrack(void* ptr) noexcept : UnityEngine::Timeline::TrackAsset(ptr) {
 }
 
 
@@ -52,7 +51,7 @@ constexpr explicit PlayableTrack(void* ptr) noexcept : ::UnityEngine::Timeline::
 // Methods
 
 /// @brief Method OnCreateClip addr 0x2ad5bd8 size 0x94 virtual true final false
- void OnCreateClip(::UnityEngine::Timeline::TimelineClip clip) ;
+ void OnCreateClip(UnityEngine::Timeline::TimelineClip clip) ;
 
 // Ctor Parameters []
 explicit PlayableTrack() ;
@@ -64,6 +63,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Timeline::PlayableTrack);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::PlayableTrack, "UnityEngine.Timeline", "PlayableTrack");
+NEED_NO_BOX(UnityEngine::Timeline::PlayableTrack);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::PlayableTrack, "UnityEngine.Timeline", "PlayableTrack");

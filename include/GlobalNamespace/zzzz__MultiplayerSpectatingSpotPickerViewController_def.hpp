@@ -1,15 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
+namespace GlobalNamespace {
+class StepValuePicker;
+}
 namespace GlobalNamespace {
 class MultiplayerSpectatorController;
 }
 namespace GlobalNamespace {
 class IMultiplayerSpectatingSpot;
-}
-namespace GlobalNamespace {
-class StepValuePicker;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5160))
 // CS Name: MultiplayerSpectatingSpotPickerViewController
-class CORDL_TYPE MultiplayerSpectatingSpotPickerViewController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerSpectatingSpotPickerViewController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr MultiplayerSpectatingSpotPickerViewController(MultiplayerSpectatingSpo
 constexpr MultiplayerSpectatingSpotPickerViewController(MultiplayerSpectatingSpotPickerViewController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerSpectatingSpotPickerViewController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerSpectatingSpotPickerViewController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -57,17 +56,17 @@ constexpr explicit MultiplayerSpectatingSpotPickerViewController(void* ptr) noex
 
 // Fields
 
- ::GlobalNamespace::StepValuePicker __declspec(property(get=__get__stepValuePicker, put=__set__stepValuePicker))  _stepValuePicker;
+ GlobalNamespace::StepValuePicker __declspec(property(get=__get__stepValuePicker, put=__set__stepValuePicker))  _stepValuePicker;
 
-constexpr void __set__stepValuePicker(::GlobalNamespace::StepValuePicker value) ;
+constexpr void __set__stepValuePicker(GlobalNamespace::StepValuePicker value) ;
 
-constexpr ::GlobalNamespace::StepValuePicker __get__stepValuePicker() const;
+constexpr GlobalNamespace::StepValuePicker __get__stepValuePicker() const;
 
- ::GlobalNamespace::MultiplayerSpectatorController __declspec(property(get=__get__spectatorController, put=__set__spectatorController))  _spectatorController;
+ GlobalNamespace::MultiplayerSpectatorController __declspec(property(get=__get__spectatorController, put=__set__spectatorController))  _spectatorController;
 
-constexpr void __set__spectatorController(::GlobalNamespace::MultiplayerSpectatorController value) ;
+constexpr void __set__spectatorController(GlobalNamespace::MultiplayerSpectatorController value) ;
 
-constexpr ::GlobalNamespace::MultiplayerSpectatorController __get__spectatorController() const;
+constexpr GlobalNamespace::MultiplayerSpectatorController __get__spectatorController() const;
 
 
 // Methods
@@ -79,7 +78,7 @@ constexpr ::GlobalNamespace::MultiplayerSpectatorController __get__spectatorCont
  void OnDestroy() ;
 
 /// @brief Method HandleSpectatingSpotDidChangeEvent addr 0x20d1324 size 0x4 virtual false final false
- void HandleSpectatingSpotDidChangeEvent(::GlobalNamespace::IMultiplayerSpectatingSpot spectatingSpot) ;
+ void HandleSpectatingSpotDidChangeEvent(GlobalNamespace::IMultiplayerSpectatingSpot spectatingSpot) ;
 
 /// @brief Method RefreshSpectatingSpotName addr 0x20d1074 size 0xfc virtual false final false
  void RefreshSpectatingSpotName() ;
@@ -100,6 +99,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerSpectatingSpotPickerViewController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerSpectatingSpotPickerViewController, "", "MultiplayerSpectatingSpotPickerViewController");
+NEED_NO_BOX(GlobalNamespace::MultiplayerSpectatingSpotPickerViewController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSpectatingSpotPickerViewController, "", "MultiplayerSpectatingSpotPickerViewController");

@@ -2,12 +2,11 @@
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace Org::BouncyCastle::Utilities::IO::Pem {
-class PemObject;
-}
 namespace System::IO {
 class TextReader;
+}
+namespace Org::BouncyCastle::Utilities::IO::Pem {
+class PemObject;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::IO::Pem {
@@ -61,39 +60,38 @@ static constexpr ::ConstString  BeginString{u"-----BEGIN "};
 /// @brief Field EndString offset 0
 static constexpr ::ConstString  EndString{u"-----END "};
 
- ::System::IO::TextReader __declspec(property(get=__get_reader, put=__set_reader))  reader;
+ System::IO::TextReader __declspec(property(get=__get_reader, put=__set_reader))  reader;
 
-constexpr void __set_reader(::System::IO::TextReader value) ;
+constexpr void __set_reader(System::IO::TextReader value) ;
 
-constexpr ::System::IO::TextReader __get_reader() const;
+constexpr System::IO::TextReader __get_reader() const;
 
 
 // Properties
 
- ::System::IO::TextReader __declspec(property(get=get_Reader))  Reader;
+ System::IO::TextReader __declspec(property(get=get_Reader))  Reader;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "reader", ty: "::System::IO::TextReader", modifiers: "", def_value: None }]
-explicit PemReader(::System::IO::TextReader reader) ;
+// Ctor Parameters [CppParam { name: "reader", ty: "System::IO::TextReader", modifiers: "", def_value: None }]
+explicit PemReader(System::IO::TextReader reader) ;
 
 /// @brief Method .ctor addr 0x10453f8 size 0x78 virtual false final false
- void _ctor(::System::IO::TextReader reader) ;
+ void _ctor(System::IO::TextReader reader) ;
 
 /// @brief Method get_Reader addr 0x1045470 size 0x8 virtual false final false
- ::System::IO::TextReader get_Reader() ;
+ System::IO::TextReader get_Reader() ;
 
 /// @brief Method ReadPemObject addr 0x1045478 size 0x154 virtual false final false
- ::Org::BouncyCastle::Utilities::IO::Pem::PemObject ReadPemObject() ;
+ Org::BouncyCastle::Utilities::IO::Pem::PemObject ReadPemObject() ;
 
 /// @brief Method LoadObject addr 0x10455cc size 0x3d8 virtual false final false
- ::Org::BouncyCastle::Utilities::IO::Pem::PemObject LoadObject(::StringW type) ;
+ Org::BouncyCastle::Utilities::IO::Pem::PemObject LoadObject(::StringW type) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities::IO::Pem
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::IO::Pem::PemReader);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::IO::Pem::PemReader, "Org.BouncyCastle.Utilities.IO.Pem", "PemReader");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::IO::Pem::PemReader);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::Pem::PemReader, "Org.BouncyCastle.Utilities.IO.Pem", "PemReader");

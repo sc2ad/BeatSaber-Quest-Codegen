@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HAPI_ParmType;
@@ -97,104 +96,103 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field HAPI_PARMTYPE_INT offset 0
-static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_INT;
+static HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_INT;
 
 /// @brief Field HAPI_PARMTYPE_MULTIPARMLIST offset 0
-static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_MULTIPARMLIST;
+static HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_MULTIPARMLIST;
 
 /// @brief Field HAPI_PARMTYPE_TOGGLE offset 0
-static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_TOGGLE;
+static HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_TOGGLE;
 
 /// @brief Field HAPI_PARMTYPE_BUTTON offset 0
-static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_BUTTON;
+static HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_BUTTON;
 
 /// @brief Field HAPI_PARMTYPE_FLOAT offset 0
-static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_FLOAT;
+static HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_FLOAT;
 
 /// @brief Field HAPI_PARMTYPE_COLOR offset 0
-static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_COLOR;
+static HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_COLOR;
 
 /// @brief Field HAPI_PARMTYPE_STRING offset 0
-static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_STRING;
+static HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_STRING;
 
 /// @brief Field HAPI_PARMTYPE_PATH_FILE offset 0
-static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_PATH_FILE;
+static HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_PATH_FILE;
 
 /// @brief Field HAPI_PARMTYPE_PATH_FILE_GEO offset 0
-static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_PATH_FILE_GEO;
+static HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_PATH_FILE_GEO;
 
 /// @brief Field HAPI_PARMTYPE_PATH_FILE_IMAGE offset 0
-static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_PATH_FILE_IMAGE;
+static HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_PATH_FILE_IMAGE;
 
 /// @brief Field HAPI_PARMTYPE_NODE offset 0
-static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_NODE;
+static HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_NODE;
 
 /// @brief Field HAPI_PARMTYPE_FOLDERLIST offset 0
-static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_FOLDERLIST;
+static HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_FOLDERLIST;
 
 /// @brief Field HAPI_PARMTYPE_FOLDERLIST_RADIO offset 0
-static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_FOLDERLIST_RADIO;
+static HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_FOLDERLIST_RADIO;
 
 /// @brief Field HAPI_PARMTYPE_FOLDER offset 0
-static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_FOLDER;
+static HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_FOLDER;
 
 /// @brief Field HAPI_PARMTYPE_LABEL offset 0
-static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_LABEL;
+static HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_LABEL;
 
 /// @brief Field HAPI_PARMTYPE_SEPARATOR offset 0
-static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_SEPARATOR;
+static HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_SEPARATOR;
 
 /// @brief Field HAPI_PARMTYPE_PATH_FILE_DIR offset 0
-static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_PATH_FILE_DIR;
+static HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_PATH_FILE_DIR;
 
 /// @brief Field HAPI_PARMTYPE_MAX offset 0
-static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_MAX;
+static HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_MAX;
 
 /// @brief Field HAPI_PARMTYPE_INT_START offset 0
-static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_INT_START;
+static HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_INT_START;
 
 /// @brief Field HAPI_PARMTYPE_INT_END offset 0
-static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_INT_END;
+static HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_INT_END;
 
 /// @brief Field HAPI_PARMTYPE_FLOAT_START offset 0
-static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_FLOAT_START;
+static HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_FLOAT_START;
 
 /// @brief Field HAPI_PARMTYPE_FLOAT_END offset 0
-static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_FLOAT_END;
+static HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_FLOAT_END;
 
 /// @brief Field HAPI_PARMTYPE_STRING_START offset 0
-static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_STRING_START;
+static HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_STRING_START;
 
 /// @brief Field HAPI_PARMTYPE_STRING_END offset 0
-static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_STRING_END;
+static HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_STRING_END;
 
 /// @brief Field HAPI_PARMTYPE_PATH_START offset 0
-static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_PATH_START;
+static HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_PATH_START;
 
 /// @brief Field HAPI_PARMTYPE_PATH_END offset 0
-static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_PATH_END;
+static HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_PATH_END;
 
 /// @brief Field HAPI_PARMTYPE_NODE_START offset 0
-static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_NODE_START;
+static HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_NODE_START;
 
 /// @brief Field HAPI_PARMTYPE_NODE_END offset 0
-static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_NODE_END;
+static HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_NODE_END;
 
 /// @brief Field HAPI_PARMTYPE_CONTAINER_START offset 0
-static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_CONTAINER_START;
+static HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_CONTAINER_START;
 
 /// @brief Field HAPI_PARMTYPE_CONTAINER_END offset 0
-static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_CONTAINER_END;
+static HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_CONTAINER_END;
 
 /// @brief Field HAPI_PARMTYPE_NONVALUE_START offset 0
-static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_NONVALUE_START;
+static HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_NONVALUE_START;
 
 /// @brief Field HAPI_PARMTYPE_NONVALUE_END offset 0
-static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_NONVALUE_END;
+static HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_NONVALUE_END;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_ParmType, "HoudiniEngineUnity", "HAPI_ParmType");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_ParmType, "HoudiniEngineUnity", "HAPI_ParmType");

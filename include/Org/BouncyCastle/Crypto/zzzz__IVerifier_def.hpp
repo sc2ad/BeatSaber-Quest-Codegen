@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto {
 class IVerifier;
@@ -35,6 +34,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::IVerifier);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::IVerifier, "Org.BouncyCastle.Crypto", "IVerifier");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::IVerifier);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::IVerifier, "Org.BouncyCastle.Crypto", "IVerifier");

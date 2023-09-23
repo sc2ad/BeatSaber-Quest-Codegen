@@ -7,25 +7,12 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine::InputSystem::Utilities {
-template<typename TValue>
-struct ReadOnlyArray_1;
-}
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace System {
-template<typename T>
-struct Nullable_1;
+struct InputUpdateType;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerable_1;
+class IEnumerator_1;
 }
 namespace System {
 template<typename T1,typename T2,typename T3,typename TResult>
@@ -35,27 +22,39 @@ namespace Unity::Collections {
 template<typename T>
 struct NativeArray_1;
 }
+namespace System {
+template<typename T>
+struct Nullable_1;
+}
 namespace System::Collections {
 class IEnumerable;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputUpdateType;
-}
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputStateChangeMonitor;
 }
 namespace System::Collections {
 class IEnumerator;
 }
+namespace UnityEngine::InputSystem::Utilities {
+template<typename TValue>
+struct ReadOnlyArray_1;
+}
+namespace System {
+class IDisposable;
+}
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerator_1;
+class IEnumerable_1;
 }
 namespace UnityEngine::InputSystem {
 class InputControl;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputStateChangeMonitor;
 }
 namespace System {
 template<typename T>
@@ -66,19 +65,19 @@ namespace UnityEngine::InputSystem::LowLevel {
 class InputStateHistory;
 }
 namespace GlobalNamespace {
-struct ______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer;
+struct UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer;
 }
 namespace GlobalNamespace {
-struct ______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer;
+struct UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct ____UnityEngine__InputSystem__LowLevel__InputStateHistory__Enumerator;
+struct UnityEngine__InputSystem__LowLevel__InputStateHistory__Enumerator;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct ____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record;
+struct UnityEngine__InputSystem__LowLevel__InputStateHistory__Record;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct ____UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader;
+struct UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader;
 }
 // Type: ::Enumerator
 namespace UnityEngine::InputSystem::LowLevel {
@@ -86,29 +85,29 @@ namespace UnityEngine::InputSystem::LowLevel {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6652))
 // CS Name: UnityEngine.InputSystem.LowLevel.InputStateHistory::Enumerator
-struct CORDL_TYPE ____UnityEngine__InputSystem__LowLevel__InputStateHistory__Enumerator : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__InputSystem__LowLevel__InputStateHistory__Enumerator : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record>() const;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory__Record>
+constexpr operator  System::Collections::Generic::IEnumerator_1<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory__Record>() const;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const;
 
-// Ctor Parameters [CppParam { name: "m_History", ty: "::UnityEngine::InputSystem::LowLevel::InputStateHistory", modifiers: "", def_value: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__InputSystem__LowLevel__InputStateHistory__Enumerator(::UnityEngine::InputSystem::LowLevel::InputStateHistory m_History, int32_t m_Index) noexcept;
+// Ctor Parameters [CppParam { name: "m_History", ty: "UnityEngine::InputSystem::LowLevel::InputStateHistory", modifiers: "", def_value: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr UnityEngine__InputSystem__LowLevel__InputStateHistory__Enumerator(UnityEngine::InputSystem::LowLevel::InputStateHistory m_History, int32_t m_Index) noexcept;
 
 
-                    constexpr ____UnityEngine__InputSystem__LowLevel__InputStateHistory__Enumerator(____UnityEngine__InputSystem__LowLevel__InputStateHistory__Enumerator const&) = default;
-                    constexpr ____UnityEngine__InputSystem__LowLevel__InputStateHistory__Enumerator(____UnityEngine__InputSystem__LowLevel__InputStateHistory__Enumerator&&) = default;
-                    constexpr ____UnityEngine__InputSystem__LowLevel__InputStateHistory__Enumerator& operator=(____UnityEngine__InputSystem__LowLevel__InputStateHistory__Enumerator const& o) {
+                    constexpr UnityEngine__InputSystem__LowLevel__InputStateHistory__Enumerator(UnityEngine__InputSystem__LowLevel__InputStateHistory__Enumerator const&) = default;
+                    constexpr UnityEngine__InputSystem__LowLevel__InputStateHistory__Enumerator(UnityEngine__InputSystem__LowLevel__InputStateHistory__Enumerator&&) = default;
+                    constexpr UnityEngine__InputSystem__LowLevel__InputStateHistory__Enumerator& operator=(UnityEngine__InputSystem__LowLevel__InputStateHistory__Enumerator const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__InputSystem__LowLevel__InputStateHistory__Enumerator& operator=(____UnityEngine__InputSystem__LowLevel__InputStateHistory__Enumerator&& o) noexcept {
+                    constexpr UnityEngine__InputSystem__LowLevel__InputStateHistory__Enumerator& operator=(UnityEngine__InputSystem__LowLevel__InputStateHistory__Enumerator&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -121,7 +120,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x10};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__InputSystem__LowLevel__InputStateHistory__Enumerator(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__InputSystem__LowLevel__InputStateHistory__Enumerator(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -132,11 +131,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::InputSystem::LowLevel::InputStateHistory __declspec(property(get=__get_m_History, put=__set_m_History))  m_History;
+ UnityEngine::InputSystem::LowLevel::InputStateHistory __declspec(property(get=__get_m_History, put=__set_m_History))  m_History;
 
-constexpr void __set_m_History(::UnityEngine::InputSystem::LowLevel::InputStateHistory value) ;
+constexpr void __set_m_History(UnityEngine::InputSystem::LowLevel::InputStateHistory value) ;
 
-constexpr ::UnityEngine::InputSystem::LowLevel::InputStateHistory __get_m_History() const;
+constexpr UnityEngine::InputSystem::LowLevel::InputStateHistory __get_m_History() const;
 
  int32_t __declspec(property(get=__get_m_Index, put=__set_m_Index))  m_Index;
 
@@ -147,7 +146,7 @@ constexpr int32_t __get_m_Index() const;
 
 // Properties
 
- ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record __declspec(property(get=get_Current))  Current;
+ UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory__Record __declspec(property(get=get_Current))  Current;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=System_Collections_IEnumerator_get_Current))  System_Collections_IEnumerator_Current;
 
@@ -155,7 +154,7 @@ constexpr int32_t __get_m_Index() const;
 // Methods
 
 /// @brief Method .ctor addr 0x2965400 size 0x10 virtual false final false
- void _ctor(::UnityEngine::InputSystem::LowLevel::InputStateHistory history) ;
+ void _ctor(UnityEngine::InputSystem::LowLevel::InputStateHistory history) ;
 
 /// @brief Method MoveNext addr 0x29659b4 size 0x3c virtual true final true
  bool MoveNext() ;
@@ -164,7 +163,7 @@ constexpr int32_t __get_m_Index() const;
  void Reset() ;
 
 /// @brief Method get_Current addr 0x29659fc size 0x20 virtual true final true
- ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record get_Current() ;
+ UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory__Record get_Current() ;
 
 /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2965a1c size 0x64 virtual true final true
  ::bs_hook::Il2CppWrapperType System_Collections_IEnumerator_get_Current() ;
@@ -182,20 +181,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6653))
 // CS Name: UnityEngine.InputSystem.LowLevel.InputStateHistory::RecordHeader::<m_StateWithoutControlIndex>e__FixedBuffer
-struct CORDL_TYPE ______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
-constexpr ______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer(uint8_t FixedElementField) noexcept;
+constexpr UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
 
-                    constexpr ______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer(______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer const&) = default;
-                    constexpr ______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer(______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer&&) = default;
-                    constexpr ______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer& operator=(______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer const& o) {
+                    constexpr UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer(UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer const&) = default;
+                    constexpr UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer(UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer&&) = default;
+                    constexpr UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer& operator=(UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer& operator=(______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer&& o) noexcept {
+                    constexpr UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer& operator=(UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -208,7 +207,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x1};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -235,20 +234,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6654))
 // CS Name: UnityEngine.InputSystem.LowLevel.InputStateHistory::RecordHeader::<m_StateWithControlIndex>e__FixedBuffer
-struct CORDL_TYPE ______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
-constexpr ______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer(uint8_t FixedElementField) noexcept;
+constexpr UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
 
-                    constexpr ______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer(______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer const&) = default;
-                    constexpr ______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer(______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer&&) = default;
-                    constexpr ______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer& operator=(______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer const& o) {
+                    constexpr UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer(UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer const&) = default;
+                    constexpr UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer(UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer&&) = default;
+                    constexpr UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer& operator=(UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer& operator=(______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer&& o) noexcept {
+                    constexpr UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer& operator=(UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -261,7 +260,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x1};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -288,24 +287,24 @@ namespace UnityEngine::InputSystem::LowLevel {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6655))
 // CS Name: UnityEngine.InputSystem.LowLevel.InputStateHistory::RecordHeader
-struct CORDL_TYPE ____UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-using _m_StateWithControlIndex_e__FixedBuffer = ::GlobalNamespace::______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer;
+using _m_StateWithControlIndex_e__FixedBuffer = GlobalNamespace::UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer;
 
-using _m_StateWithoutControlIndex_e__FixedBuffer = ::GlobalNamespace::______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer;
+using _m_StateWithoutControlIndex_e__FixedBuffer = GlobalNamespace::UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer;
 
-// Ctor Parameters [CppParam { name: "time", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "version", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "controlIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_StateWithoutControlIndex", ty: "::GlobalNamespace::______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name: "m_StateWithControlIndex", ty: "::GlobalNamespace::______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader(double_t time, uint32_t version, int32_t controlIndex, ::GlobalNamespace::______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer m_StateWithoutControlIndex, ::GlobalNamespace::______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer m_StateWithControlIndex) noexcept;
+// Ctor Parameters [CppParam { name: "time", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "version", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "controlIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_StateWithoutControlIndex", ty: "GlobalNamespace::UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name: "m_StateWithControlIndex", ty: "GlobalNamespace::UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer", modifiers: "", def_value: None }]
+constexpr UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader(double_t time, uint32_t version, int32_t controlIndex, GlobalNamespace::UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer m_StateWithoutControlIndex, GlobalNamespace::UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer m_StateWithControlIndex) noexcept;
 
 
-                    constexpr ____UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader(____UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader const&) = default;
-                    constexpr ____UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader(____UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader&&) = default;
-                    constexpr ____UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader& operator=(____UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader const& o) {
+                    constexpr UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader(UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader const&) = default;
+                    constexpr UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader(UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader&&) = default;
+                    constexpr UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader& operator=(UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader& operator=(____UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader&& o) noexcept {
+                    constexpr UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader& operator=(UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -318,7 +317,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x18};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -347,17 +346,17 @@ constexpr void __set_controlIndex(int32_t value) ;
 
 constexpr int32_t __get_controlIndex() const;
 
- ::GlobalNamespace::______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer __declspec(property(get=__get_m_StateWithoutControlIndex, put=__set_m_StateWithoutControlIndex))  m_StateWithoutControlIndex;
+ GlobalNamespace::UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer __declspec(property(get=__get_m_StateWithoutControlIndex, put=__set_m_StateWithoutControlIndex))  m_StateWithoutControlIndex;
 
-constexpr void __set_m_StateWithoutControlIndex(::GlobalNamespace::______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer value) ;
+constexpr void __set_m_StateWithoutControlIndex(GlobalNamespace::UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer value) ;
 
-constexpr ::GlobalNamespace::______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer __get_m_StateWithoutControlIndex() const;
+constexpr GlobalNamespace::UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer __get_m_StateWithoutControlIndex() const;
 
- ::GlobalNamespace::______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer __declspec(property(get=__get_m_StateWithControlIndex, put=__set_m_StateWithControlIndex))  m_StateWithControlIndex;
+ GlobalNamespace::UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer __declspec(property(get=__get_m_StateWithControlIndex, put=__set_m_StateWithControlIndex))  m_StateWithControlIndex;
 
-constexpr void __set_m_StateWithControlIndex(::GlobalNamespace::______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer value) ;
+constexpr void __set_m_StateWithControlIndex(GlobalNamespace::UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer value) ;
 
-constexpr ::GlobalNamespace::______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer __get_m_StateWithControlIndex() const;
+constexpr GlobalNamespace::UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer __get_m_StateWithControlIndex() const;
 
 /// @brief Field kSizeWithControlIndex offset 0
 static constexpr int32_t  kSizeWithControlIndex{16};
@@ -391,23 +390,23 @@ namespace UnityEngine::InputSystem::LowLevel {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6656))
 // CS Name: UnityEngine.InputSystem.LowLevel.InputStateHistory::Record
-struct CORDL_TYPE ____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__InputSystem__LowLevel__InputStateHistory__Record : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory__Record>
+constexpr operator  System::IEquatable_1<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory__Record>() const;
 
-// Ctor Parameters [CppParam { name: "m_Owner", ty: "::UnityEngine::InputSystem::LowLevel::InputStateHistory", modifiers: "", def_value: None }, CppParam { name: "m_IndexPlusOne", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Version", ty: "uint32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record(::UnityEngine::InputSystem::LowLevel::InputStateHistory m_Owner, int32_t m_IndexPlusOne, uint32_t m_Version) noexcept;
+// Ctor Parameters [CppParam { name: "m_Owner", ty: "UnityEngine::InputSystem::LowLevel::InputStateHistory", modifiers: "", def_value: None }, CppParam { name: "m_IndexPlusOne", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Version", ty: "uint32_t", modifiers: "", def_value: None }]
+constexpr UnityEngine__InputSystem__LowLevel__InputStateHistory__Record(UnityEngine::InputSystem::LowLevel::InputStateHistory m_Owner, int32_t m_IndexPlusOne, uint32_t m_Version) noexcept;
 
 
-                    constexpr ____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record(____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record const&) = default;
-                    constexpr ____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record(____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record&&) = default;
-                    constexpr ____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record& operator=(____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record const& o) {
+                    constexpr UnityEngine__InputSystem__LowLevel__InputStateHistory__Record(UnityEngine__InputSystem__LowLevel__InputStateHistory__Record const&) = default;
+                    constexpr UnityEngine__InputSystem__LowLevel__InputStateHistory__Record(UnityEngine__InputSystem__LowLevel__InputStateHistory__Record&&) = default;
+                    constexpr UnityEngine__InputSystem__LowLevel__InputStateHistory__Record& operator=(UnityEngine__InputSystem__LowLevel__InputStateHistory__Record const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record& operator=(____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record&& o) noexcept {
+                    constexpr UnityEngine__InputSystem__LowLevel__InputStateHistory__Record& operator=(UnityEngine__InputSystem__LowLevel__InputStateHistory__Record&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -420,7 +419,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x10};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__InputSystem__LowLevel__InputStateHistory__Record(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -431,11 +430,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::InputSystem::LowLevel::InputStateHistory __declspec(property(get=__get_m_Owner, put=__set_m_Owner))  m_Owner;
+ UnityEngine::InputSystem::LowLevel::InputStateHistory __declspec(property(get=__get_m_Owner, put=__set_m_Owner))  m_Owner;
 
-constexpr void __set_m_Owner(::UnityEngine::InputSystem::LowLevel::InputStateHistory value) ;
+constexpr void __set_m_Owner(UnityEngine::InputSystem::LowLevel::InputStateHistory value) ;
 
-constexpr ::UnityEngine::InputSystem::LowLevel::InputStateHistory __get_m_Owner() const;
+constexpr UnityEngine::InputSystem::LowLevel::InputStateHistory __get_m_Owner() const;
 
  int32_t __declspec(property(get=__get_m_IndexPlusOne, put=__set_m_IndexPlusOne))  m_IndexPlusOne;
 
@@ -460,17 +459,17 @@ constexpr uint32_t __get_m_Version() const;
 
  bool __declspec(property(get=get_valid))  valid;
 
- ::UnityEngine::InputSystem::LowLevel::InputStateHistory __declspec(property(get=get_owner))  owner;
+ UnityEngine::InputSystem::LowLevel::InputStateHistory __declspec(property(get=get_owner))  owner;
 
  int32_t __declspec(property(get=get_index))  index;
 
  double_t __declspec(property(get=get_time))  time;
 
- ::UnityEngine::InputSystem::InputControl __declspec(property(get=get_control))  control;
+ UnityEngine::InputSystem::InputControl __declspec(property(get=get_control))  control;
 
- ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record __declspec(property(get=get_next))  next;
+ UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory__Record __declspec(property(get=get_next))  next;
 
- ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record __declspec(property(get=get_previous))  previous;
+ UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory__Record __declspec(property(get=get_previous))  previous;
 
 
 // Methods
@@ -488,7 +487,7 @@ constexpr uint32_t __get_m_Version() const;
  bool get_valid() ;
 
 /// @brief Method get_owner addr 0x2965b04 size 0x8 virtual false final false
- ::UnityEngine::InputSystem::LowLevel::InputStateHistory get_owner() ;
+ UnityEngine::InputSystem::LowLevel::InputStateHistory get_owner() ;
 
 /// @brief Method get_index addr 0x2965b0c size 0x3c virtual false final false
  int32_t get_index() ;
@@ -497,16 +496,16 @@ constexpr uint32_t __get_m_Version() const;
  double_t get_time() ;
 
 /// @brief Method get_control addr 0x2965c20 size 0xb4 virtual false final false
- ::UnityEngine::InputSystem::InputControl get_control() ;
+ UnityEngine::InputSystem::InputControl get_control() ;
 
 /// @brief Method get_next addr 0x2965cd4 size 0x90 virtual false final false
- ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record get_next() ;
+ UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory__Record get_next() ;
 
 /// @brief Method get_previous addr 0x2965d64 size 0x88 virtual false final false
- ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record get_previous() ;
+ UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory__Record get_previous() ;
 
 /// @brief Method .ctor addr 0x2964194 size 0x28 virtual false final false
- void _ctor(::UnityEngine::InputSystem::LowLevel::InputStateHistory owner, int32_t index, void* header) ;
+ void _ctor(UnityEngine::InputSystem::LowLevel::InputStateHistory owner, int32_t index, void* header) ;
 
 /// @brief Method ReadValue addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TValue>
@@ -528,13 +527,13 @@ template<typename TValue>
  void* GetUnsafeExtraMemoryPtrUnchecked() ;
 
 /// @brief Method CopyFrom addr 0x29642f4 size 0x380 virtual false final false
- void CopyFrom(::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record record) ;
+ void CopyFrom(UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory__Record record) ;
 
 /// @brief Method CheckValid addr 0x2965b48 size 0xb0 virtual false final false
  void CheckValid() ;
 
 /// @brief Method Equals addr 0x2965fa4 size 0x34 virtual true final true
- bool Equals(::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record other) ;
+ bool Equals(UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory__Record other) ;
 
 /// @brief Method Equals addr 0x2965fd8 size 0x98 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -558,23 +557,23 @@ namespace UnityEngine::InputSystem::LowLevel {
 class CORDL_TYPE InputStateHistory : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using Record = ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record;
+using Record = UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory__Record;
 
-using RecordHeader = ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader;
+using RecordHeader = UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader;
 
-using Enumerator = ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory__Enumerator;
+using Enumerator = UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory__Enumerator;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record>
-constexpr operator  ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerable_1<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory__Record>
+constexpr operator  System::Collections::Generic::IEnumerable_1<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory__Record>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor
-constexpr operator  ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor() const noexcept;
+/// @brief Convert operator to UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor
+constexpr operator  UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x68};
@@ -612,23 +611,23 @@ constexpr explicit InputStateHistory(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 /// @brief Field kDefaultHistorySize offset 0
 static constexpr int32_t  kDefaultHistorySize{128};
 
- ::System::Action_1<::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record> __declspec(property(get=__get__onRecordAdded_k__BackingField, put=__set__onRecordAdded_k__BackingField))  _onRecordAdded_k__BackingField;
+ System::Action_1<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory__Record> __declspec(property(get=__get__onRecordAdded_k__BackingField, put=__set__onRecordAdded_k__BackingField))  _onRecordAdded_k__BackingField;
 
-constexpr void __set__onRecordAdded_k__BackingField(::System::Action_1<::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record> value) ;
+constexpr void __set__onRecordAdded_k__BackingField(System::Action_1<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory__Record> value) ;
 
-constexpr ::System::Action_1<::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record> __get__onRecordAdded_k__BackingField() const;
+constexpr System::Action_1<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory__Record> __get__onRecordAdded_k__BackingField() const;
 
- ::System::Func_4<::UnityEngine::InputSystem::InputControl,double_t,::UnityEngine::InputSystem::LowLevel::InputEventPtr,bool> __declspec(property(get=__get__onShouldRecordStateChange_k__BackingField, put=__set__onShouldRecordStateChange_k__BackingField))  _onShouldRecordStateChange_k__BackingField;
+ System::Func_4<UnityEngine::InputSystem::InputControl,double_t,UnityEngine::InputSystem::LowLevel::InputEventPtr,bool> __declspec(property(get=__get__onShouldRecordStateChange_k__BackingField, put=__set__onShouldRecordStateChange_k__BackingField))  _onShouldRecordStateChange_k__BackingField;
 
-constexpr void __set__onShouldRecordStateChange_k__BackingField(::System::Func_4<::UnityEngine::InputSystem::InputControl,double_t,::UnityEngine::InputSystem::LowLevel::InputEventPtr,bool> value) ;
+constexpr void __set__onShouldRecordStateChange_k__BackingField(System::Func_4<UnityEngine::InputSystem::InputControl,double_t,UnityEngine::InputSystem::LowLevel::InputEventPtr,bool> value) ;
 
-constexpr ::System::Func_4<::UnityEngine::InputSystem::InputControl,double_t,::UnityEngine::InputSystem::LowLevel::InputEventPtr,bool> __get__onShouldRecordStateChange_k__BackingField() const;
+constexpr System::Func_4<UnityEngine::InputSystem::InputControl,double_t,UnityEngine::InputSystem::LowLevel::InputEventPtr,bool> __get__onShouldRecordStateChange_k__BackingField() const;
 
- ::ArrayW<::UnityEngine::InputSystem::InputControl> __declspec(property(get=__get_m_Controls, put=__set_m_Controls))  m_Controls;
+ ::ArrayW<UnityEngine::InputSystem::InputControl> __declspec(property(get=__get_m_Controls, put=__set_m_Controls))  m_Controls;
 
-constexpr void __set_m_Controls(::ArrayW<::UnityEngine::InputSystem::InputControl> value) ;
+constexpr void __set_m_Controls(::ArrayW<UnityEngine::InputSystem::InputControl> value) ;
 
-constexpr ::ArrayW<::UnityEngine::InputSystem::InputControl> __get_m_Controls() const;
+constexpr ::ArrayW<UnityEngine::InputSystem::InputControl> __get_m_Controls() const;
 
  int32_t __declspec(property(get=__get_m_ControlCount, put=__set_m_ControlCount))  m_ControlCount;
 
@@ -636,11 +635,11 @@ constexpr void __set_m_ControlCount(int32_t value) ;
 
 constexpr int32_t __get_m_ControlCount() const;
 
- ::Unity::Collections::NativeArray_1<uint8_t> __declspec(property(get=__get_m_RecordBuffer, put=__set_m_RecordBuffer))  m_RecordBuffer;
+ Unity::Collections::NativeArray_1<uint8_t> __declspec(property(get=__get_m_RecordBuffer, put=__set_m_RecordBuffer))  m_RecordBuffer;
 
-constexpr void __set_m_RecordBuffer(::Unity::Collections::NativeArray_1<uint8_t> value) ;
+constexpr void __set_m_RecordBuffer(Unity::Collections::NativeArray_1<uint8_t> value) ;
 
-constexpr ::Unity::Collections::NativeArray_1<uint8_t> __get_m_RecordBuffer() const;
+constexpr Unity::Collections::NativeArray_1<uint8_t> __get_m_RecordBuffer() const;
 
  int32_t __declspec(property(get=__get_m_StateSizeInBytes, put=__set_m_StateSizeInBytes))  m_StateSizeInBytes;
 
@@ -678,11 +677,11 @@ constexpr void __set_m_CurrentVersion(uint32_t value) ;
 
 constexpr uint32_t __get_m_CurrentVersion() const;
 
- ::System::Nullable_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType> __declspec(property(get=__get_m_UpdateMask, put=__set_m_UpdateMask))  m_UpdateMask;
+ System::Nullable_1<UnityEngine::InputSystem::LowLevel::InputUpdateType> __declspec(property(get=__get_m_UpdateMask, put=__set_m_UpdateMask))  m_UpdateMask;
 
-constexpr void __set_m_UpdateMask(::System::Nullable_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType> value) ;
+constexpr void __set_m_UpdateMask(System::Nullable_1<UnityEngine::InputSystem::LowLevel::InputUpdateType> value) ;
 
-constexpr ::System::Nullable_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType> __get_m_UpdateMask() const;
+constexpr System::Nullable_1<UnityEngine::InputSystem::LowLevel::InputUpdateType> __get_m_UpdateMask() const;
 
  bool __declspec(property(get=__get_m_AddNewControls, put=__set_m_AddNewControls))  m_AddNewControls;
 
@@ -701,15 +700,15 @@ constexpr bool __get_m_AddNewControls() const;
 
  int32_t __declspec(property(get=get_extraMemoryPerRecord, put=set_extraMemoryPerRecord))  extraMemoryPerRecord;
 
- ::UnityEngine::InputSystem::LowLevel::InputUpdateType __declspec(property(get=get_updateMask, put=set_updateMask))  updateMask;
+ UnityEngine::InputSystem::LowLevel::InputUpdateType __declspec(property(get=get_updateMask, put=set_updateMask))  updateMask;
 
- ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputControl> __declspec(property(get=get_controls))  controls;
+ UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<UnityEngine::InputSystem::InputControl> __declspec(property(get=get_controls))  controls;
 
- ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record __declspec(property(get=get_Item, put=set_Item))  Item;
+ UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory__Record __declspec(property(get=get_Item, put=set_Item))  Item;
 
- ::System::Action_1<::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record> __declspec(property(get=get_onRecordAdded, put=set_onRecordAdded))  onRecordAdded;
+ System::Action_1<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory__Record> __declspec(property(get=get_onRecordAdded, put=set_onRecordAdded))  onRecordAdded;
 
- ::System::Func_4<::UnityEngine::InputSystem::InputControl,double_t,::UnityEngine::InputSystem::LowLevel::InputEventPtr,bool> __declspec(property(get=get_onShouldRecordStateChange, put=set_onShouldRecordStateChange))  onShouldRecordStateChange;
+ System::Func_4<UnityEngine::InputSystem::InputControl,double_t,UnityEngine::InputSystem::LowLevel::InputEventPtr,bool> __declspec(property(get=get_onShouldRecordStateChange, put=set_onShouldRecordStateChange))  onShouldRecordStateChange;
 
  int32_t __declspec(property(get=get_bytesPerRecord))  bytesPerRecord;
 
@@ -735,31 +734,31 @@ constexpr bool __get_m_AddNewControls() const;
  void set_extraMemoryPerRecord(int32_t value) ;
 
 /// @brief Method get_updateMask addr 0x2963da8 size 0x94 virtual false final false
- ::UnityEngine::InputSystem::LowLevel::InputUpdateType get_updateMask() ;
+ UnityEngine::InputSystem::LowLevel::InputUpdateType get_updateMask() ;
 
 /// @brief Method set_updateMask addr 0x2963e3c size 0xcc virtual false final false
- void set_updateMask(::UnityEngine::InputSystem::LowLevel::InputUpdateType value) ;
+ void set_updateMask(UnityEngine::InputSystem::LowLevel::InputUpdateType value) ;
 
 /// @brief Method get_controls addr 0x2963f08 size 0x68 virtual false final false
- ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputControl> get_controls() ;
+ UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<UnityEngine::InputSystem::InputControl> get_controls() ;
 
 /// @brief Method get_Item addr 0x2963f70 size 0x114 virtual false final false
- ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record get_Item(int32_t index) ;
+ UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory__Record get_Item(int32_t index) ;
 
 /// @brief Method set_Item addr 0x29641bc size 0x138 virtual false final false
- void set_Item(int32_t index, ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record value) ;
+ void set_Item(int32_t index, UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory__Record value) ;
 
 /// @brief Method get_onRecordAdded addr 0x2964674 size 0x8 virtual false final false
- ::System::Action_1<::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record> get_onRecordAdded() ;
+ System::Action_1<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory__Record> get_onRecordAdded() ;
 
 /// @brief Method set_onRecordAdded addr 0x296467c size 0x8 virtual false final false
- void set_onRecordAdded(::System::Action_1<::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record> value) ;
+ void set_onRecordAdded(System::Action_1<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory__Record> value) ;
 
 /// @brief Method get_onShouldRecordStateChange addr 0x2964684 size 0x8 virtual false final false
- ::System::Func_4<::UnityEngine::InputSystem::InputControl,double_t,::UnityEngine::InputSystem::LowLevel::InputEventPtr,bool> get_onShouldRecordStateChange() ;
+ System::Func_4<UnityEngine::InputSystem::InputControl,double_t,UnityEngine::InputSystem::LowLevel::InputEventPtr,bool> get_onShouldRecordStateChange() ;
 
 /// @brief Method set_onShouldRecordStateChange addr 0x296468c size 0x8 virtual false final false
- void set_onShouldRecordStateChange(::System::Func_4<::UnityEngine::InputSystem::InputControl,double_t,::UnityEngine::InputSystem::LowLevel::InputEventPtr,bool> value) ;
+ void set_onShouldRecordStateChange(System::Func_4<UnityEngine::InputSystem::InputControl,double_t,UnityEngine::InputSystem::LowLevel::InputEventPtr,bool> value) ;
 
 // Ctor Parameters [CppParam { name: "maxStateSizeInBytes", ty: "int32_t", modifiers: "", def_value: None }]
 explicit InputStateHistory(int32_t maxStateSizeInBytes) ;
@@ -773,17 +772,17 @@ explicit InputStateHistory(::StringW path) ;
 /// @brief Method .ctor addr 0x2964748 size 0x158 virtual false final false
  void _ctor(::StringW path) ;
 
-// Ctor Parameters [CppParam { name: "control", ty: "::UnityEngine::InputSystem::InputControl", modifiers: "", def_value: None }]
-explicit InputStateHistory(::UnityEngine::InputSystem::InputControl control) ;
+// Ctor Parameters [CppParam { name: "control", ty: "UnityEngine::InputSystem::InputControl", modifiers: "", def_value: None }]
+explicit InputStateHistory(UnityEngine::InputSystem::InputControl control) ;
 
 /// @brief Method .ctor addr 0x29648a0 size 0xfc virtual false final false
- void _ctor(::UnityEngine::InputSystem::InputControl control) ;
+ void _ctor(UnityEngine::InputSystem::InputControl control) ;
 
-// Ctor Parameters [CppParam { name: "controls", ty: "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputControl>", modifiers: "", def_value: None }]
-explicit InputStateHistory(::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputControl> controls) ;
+// Ctor Parameters [CppParam { name: "controls", ty: "System::Collections::Generic::IEnumerable_1<UnityEngine::InputSystem::InputControl>", modifiers: "", def_value: None }]
+explicit InputStateHistory(System::Collections::Generic::IEnumerable_1<UnityEngine::InputSystem::InputControl> controls) ;
 
 /// @brief Method .ctor addr 0x296499c size 0x7c virtual false final false
- void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputControl> controls) ;
+ void _ctor(System::Collections::Generic::IEnumerable_1<UnityEngine::InputSystem::InputControl> controls) ;
 
 /// @brief Method Finalize addr 0x2964a18 size 0x94 virtual true final false
  void Finalize() ;
@@ -792,7 +791,7 @@ explicit InputStateHistory(::System::Collections::Generic::IEnumerable_1<::Unity
  void Clear() ;
 
 /// @brief Method AddRecord addr 0x2964b28 size 0x6c virtual false final false
- ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record AddRecord(::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record record) ;
+ UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory__Record AddRecord(UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory__Record record) ;
 
 /// @brief Method StartRecording addr 0x2964cb4 size 0x15c virtual false final false
  void StartRecording() ;
@@ -801,16 +800,16 @@ explicit InputStateHistory(::System::Collections::Generic::IEnumerable_1<::Unity
  void StopRecording() ;
 
 /// @brief Method RecordStateChange addr 0x2964f68 size 0x198 virtual false final false
- ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record RecordStateChange(::UnityEngine::InputSystem::InputControl control, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr) ;
+ UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory__Record RecordStateChange(UnityEngine::InputSystem::InputControl control, UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr) ;
 
 /// @brief Method RecordStateChange addr 0x2965100 size 0x290 virtual false final false
- ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record RecordStateChange(::UnityEngine::InputSystem::InputControl control, void* statePtr, double_t time) ;
+ UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory__Record RecordStateChange(UnityEngine::InputSystem::InputControl control, void* statePtr, double_t time) ;
 
 /// @brief Method GetEnumerator addr 0x29653a0 size 0x60 virtual true final true
- ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record> GetEnumerator() ;
+ System::Collections::Generic::IEnumerator_1<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory__Record> GetEnumerator() ;
 
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x2965410 size 0x4 virtual true final true
- ::System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
+ System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
 /// @brief Method Dispose addr 0x2964aac size 0x68 virtual true final true
  void Dispose() ;
@@ -844,10 +843,10 @@ template<typename TValue>
  ::bs_hook::Il2CppWrapperType ReadValueAsObject(void* data) ;
 
 /// @brief Method UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyControlStateChanged addr 0x29658d8 size 0xd8 virtual true final true
- void UnityEngine_InputSystem_LowLevel_IInputStateChangeMonitor_NotifyControlStateChanged(::UnityEngine::InputSystem::InputControl control, double_t time, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, int64_t monitorIndex) ;
+ void UnityEngine_InputSystem_LowLevel_IInputStateChangeMonitor_NotifyControlStateChanged(UnityEngine::InputSystem::InputControl control, double_t time, UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, int64_t monitorIndex) ;
 
 /// @brief Method UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyTimerExpired addr 0x29659b0 size 0x4 virtual true final true
- void UnityEngine_InputSystem_LowLevel_IInputStateChangeMonitor_NotifyTimerExpired(::UnityEngine::InputSystem::InputControl control, double_t time, int64_t monitorIndex, int32_t timerIndex) ;
+ void UnityEngine_InputSystem_LowLevel_IInputStateChangeMonitor_NotifyTimerExpired(UnityEngine::InputSystem::InputControl control, double_t time, int64_t monitorIndex, int32_t timerIndex) ;
 
 /// @brief Method get_bytesPerRecord addr 0x29656e0 size 0x50 virtual false final false
  int32_t get_bytesPerRecord() ;
@@ -856,11 +855,10 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::LowLevel
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::LowLevel::InputStateHistory);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::InputStateHistory, "UnityEngine.InputSystem.LowLevel", "InputStateHistory");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer, "UnityEngine.InputSystem.LowLevel", "InputStateHistory/RecordHeader/<m_StateWithControlIndex>e__FixedBuffer");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::______UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer, "UnityEngine.InputSystem.LowLevel", "InputStateHistory/RecordHeader/<m_StateWithoutControlIndex>e__FixedBuffer");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory__Enumerator, "UnityEngine.InputSystem.LowLevel", "InputStateHistory/Enumerator");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory__Record, "UnityEngine.InputSystem.LowLevel", "InputStateHistory/Record");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader, "UnityEngine.InputSystem.LowLevel", "InputStateHistory/RecordHeader");
+NEED_NO_BOX(UnityEngine::InputSystem::LowLevel::InputStateHistory);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::LowLevel::InputStateHistory, "UnityEngine.InputSystem.LowLevel", "InputStateHistory");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer, "UnityEngine.InputSystem.LowLevel", "InputStateHistory/RecordHeader/<m_StateWithControlIndex>e__FixedBuffer");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer, "UnityEngine.InputSystem.LowLevel", "InputStateHistory/RecordHeader/<m_StateWithoutControlIndex>e__FixedBuffer");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory__Enumerator, "UnityEngine.InputSystem.LowLevel", "InputStateHistory/Enumerator");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory__Record, "UnityEngine.InputSystem.LowLevel", "InputStateHistory/Record");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader, "UnityEngine.InputSystem.LowLevel", "InputStateHistory/RecordHeader");

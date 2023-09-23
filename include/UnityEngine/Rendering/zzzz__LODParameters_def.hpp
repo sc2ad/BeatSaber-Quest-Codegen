@@ -4,7 +4,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 class IEquatable_1;
@@ -25,11 +24,11 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE LODParameters : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::Rendering::LODParameters>
+constexpr operator  System::IEquatable_1<UnityEngine::Rendering::LODParameters>() const;
 
-// Ctor Parameters [CppParam { name: "m_IsOrthographic", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_CameraPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_FieldOfView", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_OrthoSize", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_CameraPixelHeight", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr LODParameters(int32_t m_IsOrthographic, ::UnityEngine::Vector3 m_CameraPosition, float_t m_FieldOfView, float_t m_OrthoSize, int32_t m_CameraPixelHeight) noexcept;
+// Ctor Parameters [CppParam { name: "m_IsOrthographic", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_CameraPosition", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_FieldOfView", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_OrthoSize", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_CameraPixelHeight", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr LODParameters(int32_t m_IsOrthographic, UnityEngine::Vector3 m_CameraPosition, float_t m_FieldOfView, float_t m_OrthoSize, int32_t m_CameraPixelHeight) noexcept;
 
 
                     constexpr LODParameters(LODParameters const&) = default;
@@ -68,11 +67,11 @@ constexpr void __set_m_IsOrthographic(int32_t value) ;
 
 constexpr int32_t __get_m_IsOrthographic() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_m_CameraPosition, put=__set_m_CameraPosition))  m_CameraPosition;
+ UnityEngine::Vector3 __declspec(property(get=__get_m_CameraPosition, put=__set_m_CameraPosition))  m_CameraPosition;
 
-constexpr void __set_m_CameraPosition(::UnityEngine::Vector3 value) ;
+constexpr void __set_m_CameraPosition(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_m_CameraPosition() const;
+constexpr UnityEngine::Vector3 __get_m_CameraPosition() const;
 
  float_t __declspec(property(get=__get_m_FieldOfView, put=__set_m_FieldOfView))  m_FieldOfView;
 
@@ -96,7 +95,7 @@ constexpr int32_t __get_m_CameraPixelHeight() const;
 // Methods
 
 /// @brief Method Equals addr 0x2b75884 size 0x9c virtual true final true
- bool Equals(::UnityEngine::Rendering::LODParameters other) ;
+ bool Equals(UnityEngine::Rendering::LODParameters other) ;
 
 /// @brief Method Equals addr 0x2b75920 size 0x90 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -108,5 +107,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Rendering
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::LODParameters, "UnityEngine.Rendering", "LODParameters");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::LODParameters, "UnityEngine.Rendering", "LODParameters");

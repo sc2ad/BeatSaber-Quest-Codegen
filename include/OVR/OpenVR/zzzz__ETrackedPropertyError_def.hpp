@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct ETrackedPropertyError;
@@ -78,47 +77,46 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field TrackedProp_Success offset 0
-static ::OVR::OpenVR::ETrackedPropertyError const TrackedProp_Success;
+static OVR::OpenVR::ETrackedPropertyError const TrackedProp_Success;
 
 /// @brief Field TrackedProp_WrongDataType offset 0
-static ::OVR::OpenVR::ETrackedPropertyError const TrackedProp_WrongDataType;
+static OVR::OpenVR::ETrackedPropertyError const TrackedProp_WrongDataType;
 
 /// @brief Field TrackedProp_WrongDeviceClass offset 0
-static ::OVR::OpenVR::ETrackedPropertyError const TrackedProp_WrongDeviceClass;
+static OVR::OpenVR::ETrackedPropertyError const TrackedProp_WrongDeviceClass;
 
 /// @brief Field TrackedProp_BufferTooSmall offset 0
-static ::OVR::OpenVR::ETrackedPropertyError const TrackedProp_BufferTooSmall;
+static OVR::OpenVR::ETrackedPropertyError const TrackedProp_BufferTooSmall;
 
 /// @brief Field TrackedProp_UnknownProperty offset 0
-static ::OVR::OpenVR::ETrackedPropertyError const TrackedProp_UnknownProperty;
+static OVR::OpenVR::ETrackedPropertyError const TrackedProp_UnknownProperty;
 
 /// @brief Field TrackedProp_InvalidDevice offset 0
-static ::OVR::OpenVR::ETrackedPropertyError const TrackedProp_InvalidDevice;
+static OVR::OpenVR::ETrackedPropertyError const TrackedProp_InvalidDevice;
 
 /// @brief Field TrackedProp_CouldNotContactServer offset 0
-static ::OVR::OpenVR::ETrackedPropertyError const TrackedProp_CouldNotContactServer;
+static OVR::OpenVR::ETrackedPropertyError const TrackedProp_CouldNotContactServer;
 
 /// @brief Field TrackedProp_ValueNotProvidedByDevice offset 0
-static ::OVR::OpenVR::ETrackedPropertyError const TrackedProp_ValueNotProvidedByDevice;
+static OVR::OpenVR::ETrackedPropertyError const TrackedProp_ValueNotProvidedByDevice;
 
 /// @brief Field TrackedProp_StringExceedsMaximumLength offset 0
-static ::OVR::OpenVR::ETrackedPropertyError const TrackedProp_StringExceedsMaximumLength;
+static OVR::OpenVR::ETrackedPropertyError const TrackedProp_StringExceedsMaximumLength;
 
 /// @brief Field TrackedProp_NotYetAvailable offset 0
-static ::OVR::OpenVR::ETrackedPropertyError const TrackedProp_NotYetAvailable;
+static OVR::OpenVR::ETrackedPropertyError const TrackedProp_NotYetAvailable;
 
 /// @brief Field TrackedProp_PermissionDenied offset 0
-static ::OVR::OpenVR::ETrackedPropertyError const TrackedProp_PermissionDenied;
+static OVR::OpenVR::ETrackedPropertyError const TrackedProp_PermissionDenied;
 
 /// @brief Field TrackedProp_InvalidOperation offset 0
-static ::OVR::OpenVR::ETrackedPropertyError const TrackedProp_InvalidOperation;
+static OVR::OpenVR::ETrackedPropertyError const TrackedProp_InvalidOperation;
 
 /// @brief Field TrackedProp_CannotWriteToWildcards offset 0
-static ::OVR::OpenVR::ETrackedPropertyError const TrackedProp_CannotWriteToWildcards;
+static OVR::OpenVR::ETrackedPropertyError const TrackedProp_CannotWriteToWildcards;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::ETrackedPropertyError, "OVR.OpenVR", "ETrackedPropertyError");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::ETrackedPropertyError, "OVR.OpenVR", "ETrackedPropertyError");

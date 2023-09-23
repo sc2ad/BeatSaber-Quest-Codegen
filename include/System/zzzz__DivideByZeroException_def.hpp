@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__ArithmeticException_def.hpp"
-namespace {
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System {
@@ -18,7 +17,7 @@ namespace System {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2347))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2372))
 // CS Name: System.DivideByZeroException
-class CORDL_TYPE DivideByZeroException : public ::System::ArithmeticException {
+class CORDL_TYPE DivideByZeroException : public System::ArithmeticException {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr DivideByZeroException(DivideByZeroException const& ) noexcept = defaul
 constexpr DivideByZeroException(DivideByZeroException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DivideByZeroException(void* ptr) noexcept : ::System::ArithmeticException(ptr) {
+constexpr explicit DivideByZeroException(void* ptr) noexcept : System::ArithmeticException(ptr) {
 }
 
 
@@ -60,16 +59,15 @@ explicit DivideByZeroException() ;
 /// @brief Method .ctor addr 0x2427790 size 0x5c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit DivideByZeroException(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit DivideByZeroException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x24277ec size 0x8 virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::DivideByZeroException);
-DEFINE_IL2CPP_ARG_TYPE(::System::DivideByZeroException, "System", "DivideByZeroException");
+NEED_NO_BOX(System::DivideByZeroException);
+DEFINE_IL2CPP_ARG_TYPE(System::DivideByZeroException, "System", "DivideByZeroException");

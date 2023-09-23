@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Runtime::ExceptionServices {
 class ExceptionDispatchInfo;
 }
@@ -58,18 +57,18 @@ constexpr void __set__UserResult_k__BackingField(int32_t value) ;
 
 constexpr int32_t __get__UserResult_k__BackingField() const;
 
- ::System::Runtime::ExceptionServices::ExceptionDispatchInfo __declspec(property(get=__get__Error_k__BackingField, put=__set__Error_k__BackingField))  _Error_k__BackingField;
+ System::Runtime::ExceptionServices::ExceptionDispatchInfo __declspec(property(get=__get__Error_k__BackingField, put=__set__Error_k__BackingField))  _Error_k__BackingField;
 
-constexpr void __set__Error_k__BackingField(::System::Runtime::ExceptionServices::ExceptionDispatchInfo value) ;
+constexpr void __set__Error_k__BackingField(System::Runtime::ExceptionServices::ExceptionDispatchInfo value) ;
 
-constexpr ::System::Runtime::ExceptionServices::ExceptionDispatchInfo __get__Error_k__BackingField() const;
+constexpr System::Runtime::ExceptionServices::ExceptionDispatchInfo __get__Error_k__BackingField() const;
 
 
 // Properties
 
  int32_t __declspec(property(get=get_UserResult))  UserResult;
 
- ::System::Runtime::ExceptionServices::ExceptionDispatchInfo __declspec(property(get=get_Error))  Error;
+ System::Runtime::ExceptionServices::ExceptionDispatchInfo __declspec(property(get=get_Error))  Error;
 
 
 // Methods
@@ -78,7 +77,7 @@ constexpr ::System::Runtime::ExceptionServices::ExceptionDispatchInfo __get__Err
  int32_t get_UserResult() ;
 
 /// @brief Method get_Error addr 0x268c814 size 0x8 virtual false final false
- ::System::Runtime::ExceptionServices::ExceptionDispatchInfo get_Error() ;
+ System::Runtime::ExceptionServices::ExceptionDispatchInfo get_Error() ;
 
 // Ctor Parameters [CppParam { name: "result", ty: "int32_t", modifiers: "", def_value: None }]
 explicit AsyncProtocolResult(int32_t result) ;
@@ -86,16 +85,15 @@ explicit AsyncProtocolResult(int32_t result) ;
 /// @brief Method .ctor addr 0x268c81c size 0x28 virtual false final false
  void _ctor(int32_t result) ;
 
-// Ctor Parameters [CppParam { name: "error", ty: "::System::Runtime::ExceptionServices::ExceptionDispatchInfo", modifiers: "", def_value: None }]
-explicit AsyncProtocolResult(::System::Runtime::ExceptionServices::ExceptionDispatchInfo error) ;
+// Ctor Parameters [CppParam { name: "error", ty: "System::Runtime::ExceptionServices::ExceptionDispatchInfo", modifiers: "", def_value: None }]
+explicit AsyncProtocolResult(System::Runtime::ExceptionServices::ExceptionDispatchInfo error) ;
 
 /// @brief Method .ctor addr 0x268c844 size 0x28 virtual false final false
- void _ctor(::System::Runtime::ExceptionServices::ExceptionDispatchInfo error) ;
+ void _ctor(System::Runtime::ExceptionServices::ExceptionDispatchInfo error) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Net::Security
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Net::Security::AsyncProtocolResult);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Net::Security::AsyncProtocolResult, "Mono.Net.Security", "AsyncProtocolResult");
+NEED_NO_BOX(Mono::Net::Security::AsyncProtocolResult);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncProtocolResult, "Mono.Net.Security", "AsyncProtocolResult");

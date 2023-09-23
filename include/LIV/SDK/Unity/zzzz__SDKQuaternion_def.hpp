@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
-namespace {
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace LIV::SDK::Unity {
 struct SDKVector3;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace LIV::SDK::Unity {
@@ -84,28 +83,28 @@ constexpr float_t __get_w() const;
 
 // Properties
 
-static ::LIV::SDK::Unity::SDKQuaternion __declspec(property(get=get_identity))  identity;
+static LIV::SDK::Unity::SDKQuaternion __declspec(property(get=get_identity))  identity;
 
 
 // Methods
 
 /// @brief Method get_identity addr 0x20a176c size 0x14 virtual false final false
-static ::LIV::SDK::Unity::SDKQuaternion get_identity() ;
+static LIV::SDK::Unity::SDKQuaternion get_identity() ;
 
 /// @brief Method op_Implicit addr 0x20a1780 size 0x4 virtual false final false
-static ::UnityEngine::Quaternion op_Implicit___UnityEngine__Quaternion(::LIV::SDK::Unity::SDKQuaternion v) ;
+static UnityEngine::Quaternion op_Implicit_UnityEngine__Quaternion(LIV::SDK::Unity::SDKQuaternion v) ;
 
 /// @brief Method op_Implicit addr 0x20a0be4 size 0x4 virtual false final false
-static ::LIV::SDK::Unity::SDKQuaternion op_Implicit___LIV__SDK__Unity__SDKQuaternion(::UnityEngine::Quaternion v) ;
+static LIV::SDK::Unity::SDKQuaternion op_Implicit_LIV__SDK__Unity__SDKQuaternion(UnityEngine::Quaternion v) ;
 
 /// @brief Method Euler addr 0x20a1784 size 0xb4 virtual false final false
-static ::LIV::SDK::Unity::SDKQuaternion Euler(float_t pitch, float_t yaw, float_t roll) ;
+static LIV::SDK::Unity::SDKQuaternion Euler(float_t pitch, float_t yaw, float_t roll) ;
 
 /// @brief Method op_Multiply addr 0x20a1838 size 0x74 virtual false final false
-static ::LIV::SDK::Unity::SDKQuaternion op_Multiply(::LIV::SDK::Unity::SDKQuaternion lhs, ::LIV::SDK::Unity::SDKQuaternion rhs) ;
+static LIV::SDK::Unity::SDKQuaternion op_Multiply(LIV::SDK::Unity::SDKQuaternion lhs, LIV::SDK::Unity::SDKQuaternion rhs) ;
 
 /// @brief Method op_Multiply addr 0x20a18ac size 0xa4 virtual false final false
-static ::LIV::SDK::Unity::SDKVector3 op_Multiply(::LIV::SDK::Unity::SDKQuaternion lhs, ::LIV::SDK::Unity::SDKVector3 rhs) ;
+static LIV::SDK::Unity::SDKVector3 op_Multiply(LIV::SDK::Unity::SDKQuaternion lhs, LIV::SDK::Unity::SDKVector3 rhs) ;
 
 /// @brief Method ToString addr 0x20a1950 size 0x1ac virtual true final false
  ::StringW ToString() ;
@@ -114,5 +113,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def LIV::SDK::Unity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::SDKQuaternion, "LIV.SDK.Unity", "SDKQuaternion");
+DEFINE_IL2CPP_ARG_TYPE(LIV::SDK::Unity::SDKQuaternion, "LIV.SDK.Unity", "SDKQuaternion");

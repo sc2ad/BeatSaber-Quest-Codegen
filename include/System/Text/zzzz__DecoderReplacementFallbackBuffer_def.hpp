@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Text {
 class DecoderReplacementFallback;
 }
@@ -18,7 +17,7 @@ namespace System::Text {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2830))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2833))
 // CS Name: System.Text.DecoderReplacementFallbackBuffer
-class CORDL_TYPE DecoderReplacementFallbackBuffer : public ::System::Text::DecoderFallbackBuffer {
+class CORDL_TYPE DecoderReplacementFallbackBuffer : public System::Text::DecoderFallbackBuffer {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr DecoderReplacementFallbackBuffer(DecoderReplacementFallbackBuffer cons
 constexpr DecoderReplacementFallbackBuffer(DecoderReplacementFallbackBuffer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DecoderReplacementFallbackBuffer(void* ptr) noexcept : ::System::Text::DecoderFallbackBuffer(ptr) {
+constexpr explicit DecoderReplacementFallbackBuffer(void* ptr) noexcept : System::Text::DecoderFallbackBuffer(ptr) {
 }
 
 
@@ -80,11 +79,11 @@ constexpr int32_t __get__fallbackIndex() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "fallback", ty: "::System::Text::DecoderReplacementFallback", modifiers: "", def_value: None }]
-explicit DecoderReplacementFallbackBuffer(::System::Text::DecoderReplacementFallback fallback) ;
+// Ctor Parameters [CppParam { name: "fallback", ty: "System::Text::DecoderReplacementFallback", modifiers: "", def_value: None }]
+explicit DecoderReplacementFallbackBuffer(System::Text::DecoderReplacementFallback fallback) ;
 
 /// @brief Method .ctor addr 0x24c430c size 0x3c virtual false final false
- void _ctor(::System::Text::DecoderReplacementFallback fallback) ;
+ void _ctor(System::Text::DecoderReplacementFallback fallback) ;
 
 /// @brief Method Fallback addr 0x24c4404 size 0x44 virtual true final false
  bool Fallback(::ArrayW<uint8_t> bytesUnknown, int32_t index) ;
@@ -105,6 +104,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Text
-} // end anonymous namespace
-NEED_NO_BOX(::System::Text::DecoderReplacementFallbackBuffer);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::DecoderReplacementFallbackBuffer, "System.Text", "DecoderReplacementFallbackBuffer");
+NEED_NO_BOX(System::Text::DecoderReplacementFallbackBuffer);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::DecoderReplacementFallbackBuffer, "System.Text", "DecoderReplacementFallbackBuffer");

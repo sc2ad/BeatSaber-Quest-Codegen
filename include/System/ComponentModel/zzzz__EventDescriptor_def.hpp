@@ -3,7 +3,6 @@
 #include "System/ComponentModel/zzzz__MemberDescriptor_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class Attribute;
 }
@@ -17,7 +16,7 @@ namespace System::ComponentModel {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8325))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8274))
 // CS Name: System.ComponentModel.EventDescriptor
-class CORDL_TYPE EventDescriptor : public ::System::ComponentModel::MemberDescriptor {
+class CORDL_TYPE EventDescriptor : public System::ComponentModel::MemberDescriptor {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr EventDescriptor(EventDescriptor const& ) noexcept = default;
 constexpr EventDescriptor(EventDescriptor&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EventDescriptor(void* ptr) noexcept : ::System::ComponentModel::MemberDescriptor(ptr) {
+constexpr explicit EventDescriptor(void* ptr) noexcept : System::ComponentModel::MemberDescriptor(ptr) {
 }
 
 
@@ -53,16 +52,15 @@ constexpr explicit EventDescriptor(void* ptr) noexcept : ::System::ComponentMode
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "attrs", ty: "::ArrayW<::System::Attribute>", modifiers: "", def_value: None }]
-explicit EventDescriptor(::StringW name, ::ArrayW<::System::Attribute> attrs) ;
+// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "attrs", ty: "::ArrayW<System::Attribute>", modifiers: "", def_value: None }]
+explicit EventDescriptor(::StringW name, ::ArrayW<System::Attribute> attrs) ;
 
 /// @brief Method .ctor addr 0x277c54c size 0x8 virtual false final false
- void _ctor(::StringW name, ::ArrayW<::System::Attribute> attrs) ;
+ void _ctor(::StringW name, ::ArrayW<System::Attribute> attrs) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::EventDescriptor);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::EventDescriptor, "System.ComponentModel", "EventDescriptor");
+NEED_NO_BOX(System::ComponentModel::EventDescriptor);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::EventDescriptor, "System.ComponentModel", "EventDescriptor");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
 class CustomConstantAttribute;
@@ -13,7 +12,7 @@ namespace System::Runtime::CompilerServices {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3358))
 // CS Name: System.Runtime.CompilerServices.CustomConstantAttribute
-class CORDL_TYPE CustomConstantAttribute : public ::System::Attribute {
+class CORDL_TYPE CustomConstantAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr CustomConstantAttribute(CustomConstantAttribute const& ) noexcept = de
 constexpr CustomConstantAttribute(CustomConstantAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CustomConstantAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit CustomConstantAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -67,6 +66,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::CompilerServices
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::CompilerServices::CustomConstantAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::CustomConstantAttribute, "System.Runtime.CompilerServices", "CustomConstantAttribute");
+NEED_NO_BOX(System::Runtime::CompilerServices::CustomConstantAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::CustomConstantAttribute, "System.Runtime.CompilerServices", "CustomConstantAttribute");

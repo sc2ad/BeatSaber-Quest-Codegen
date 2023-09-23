@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Utilities::Encoders {
-class IEncoder;
-}
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Utilities::Encoders {
+class IEncoder;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Encoders {
@@ -24,8 +23,8 @@ namespace Org::BouncyCastle::Utilities::Encoders {
 class CORDL_TYPE Base64Encoder : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Utilities::Encoders::IEncoder
-constexpr operator  ::Org::BouncyCastle::Utilities::Encoders::IEncoder() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Utilities::Encoders::IEncoder
+constexpr operator  Org::BouncyCastle::Utilities::Encoders::IEncoder() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -94,22 +93,22 @@ explicit Base64Encoder() ;
  int32_t Encode(::ArrayW<uint8_t> inBuf, int32_t inOff, int32_t inLen, ::ArrayW<uint8_t> outBuf, int32_t outOff) ;
 
 /// @brief Method Encode addr 0x10d0078 size 0x12c virtual true final true
- int32_t Encode(::ArrayW<uint8_t> buf, int32_t off, int32_t len, ::System::IO::Stream outStream) ;
+ int32_t Encode(::ArrayW<uint8_t> buf, int32_t off, int32_t len, System::IO::Stream outStream) ;
 
 /// @brief Method ignore addr 0x10d01a4 size 0x38 virtual false final false
  bool ignore(char16_t c) ;
 
 /// @brief Method Decode addr 0x10d01dc size 0x3f8 virtual true final true
- int32_t Decode(::ArrayW<uint8_t> data, int32_t off, int32_t length, ::System::IO::Stream outStream) ;
+ int32_t Decode(::ArrayW<uint8_t> data, int32_t off, int32_t length, System::IO::Stream outStream) ;
 
 /// @brief Method nextI addr 0x10d05d4 size 0x74 virtual false final false
  int32_t nextI(::ArrayW<uint8_t> data, int32_t i, int32_t finish) ;
 
 /// @brief Method DecodeString addr 0x10d084c size 0x408 virtual true final true
- int32_t DecodeString(::StringW data, ::System::IO::Stream outStream) ;
+ int32_t DecodeString(::StringW data, System::IO::Stream outStream) ;
 
 /// @brief Method decodeLastBlock addr 0x10d0648 size 0x204 virtual false final false
- int32_t decodeLastBlock(::System::IO::Stream outStream, char16_t c1, char16_t c2, char16_t c3, char16_t c4) ;
+ int32_t decodeLastBlock(System::IO::Stream outStream, char16_t c1, char16_t c2, char16_t c3, char16_t c4) ;
 
 /// @brief Method nextI addr 0x10d0c54 size 0x84 virtual false final false
  int32_t nextI(::StringW data, int32_t i, int32_t finish) ;
@@ -118,6 +117,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities::Encoders
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::Encoders::Base64Encoder);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Encoders::Base64Encoder, "Org.BouncyCastle.Utilities.Encoders", "Base64Encoder");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Encoders::Base64Encoder);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Encoders::Base64Encoder, "Org.BouncyCastle.Utilities.Encoders", "Base64Encoder");

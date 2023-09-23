@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct FilterMode;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Point offset 0
-static ::UnityEngine::FilterMode const Point;
+static UnityEngine::FilterMode const Point;
 
 /// @brief Field Bilinear offset 0
-static ::UnityEngine::FilterMode const Bilinear;
+static UnityEngine::FilterMode const Bilinear;
 
 /// @brief Field Trilinear offset 0
-static ::UnityEngine::FilterMode const Trilinear;
+static UnityEngine::FilterMode const Trilinear;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::FilterMode, "UnityEngine", "FilterMode");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::FilterMode, "UnityEngine", "FilterMode");

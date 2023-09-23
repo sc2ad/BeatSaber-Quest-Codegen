@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class GameServersFilterText;
 }
 namespace GlobalNamespace {
-class LoadingControl;
+class GameServersListTableView;
 }
 namespace UnityEngine::UI {
 class Toggle;
@@ -15,7 +14,7 @@ namespace UnityEngine::UI {
 class Button;
 }
 namespace GlobalNamespace {
-class GameServersListTableView;
+class LoadingControl;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,7 +26,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13656))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5808))
 // CS Name: GameServerBrowserViewController
-class CORDL_TYPE GameServerBrowserViewController : public ::HMUI::ViewController {
+class CORDL_TYPE GameServerBrowserViewController : public HMUI::ViewController {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -42,7 +41,7 @@ constexpr GameServerBrowserViewController(GameServerBrowserViewController const&
 constexpr GameServerBrowserViewController(GameServerBrowserViewController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GameServerBrowserViewController(void* ptr) noexcept : ::HMUI::ViewController(ptr) {
+constexpr explicit GameServerBrowserViewController(void* ptr) noexcept : HMUI::ViewController(ptr) {
 }
 
 
@@ -63,47 +62,47 @@ constexpr explicit GameServerBrowserViewController(void* ptr) noexcept : ::HMUI:
 
 // Fields
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__filterServersButton, put=__set__filterServersButton))  _filterServersButton;
+ UnityEngine::UI::Button __declspec(property(get=__get__filterServersButton, put=__set__filterServersButton))  _filterServersButton;
 
-constexpr void __set__filterServersButton(::UnityEngine::UI::Button value) ;
+constexpr void __set__filterServersButton(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__filterServersButton() const;
+constexpr UnityEngine::UI::Button __get__filterServersButton() const;
 
- ::GlobalNamespace::GameServersFilterText __declspec(property(get=__get__filterText, put=__set__filterText))  _filterText;
+ GlobalNamespace::GameServersFilterText __declspec(property(get=__get__filterText, put=__set__filterText))  _filterText;
 
-constexpr void __set__filterText(::GlobalNamespace::GameServersFilterText value) ;
+constexpr void __set__filterText(GlobalNamespace::GameServersFilterText value) ;
 
-constexpr ::GlobalNamespace::GameServersFilterText __get__filterText() const;
+constexpr GlobalNamespace::GameServersFilterText __get__filterText() const;
 
- ::UnityEngine::UI::Toggle __declspec(property(get=__get__canBeInvitedOnLocalNetworkToggle, put=__set__canBeInvitedOnLocalNetworkToggle))  _canBeInvitedOnLocalNetworkToggle;
+ UnityEngine::UI::Toggle __declspec(property(get=__get__canBeInvitedOnLocalNetworkToggle, put=__set__canBeInvitedOnLocalNetworkToggle))  _canBeInvitedOnLocalNetworkToggle;
 
-constexpr void __set__canBeInvitedOnLocalNetworkToggle(::UnityEngine::UI::Toggle value) ;
+constexpr void __set__canBeInvitedOnLocalNetworkToggle(UnityEngine::UI::Toggle value) ;
 
-constexpr ::UnityEngine::UI::Toggle __get__canBeInvitedOnLocalNetworkToggle() const;
+constexpr UnityEngine::UI::Toggle __get__canBeInvitedOnLocalNetworkToggle() const;
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__createServerButton, put=__set__createServerButton))  _createServerButton;
+ UnityEngine::UI::Button __declspec(property(get=__get__createServerButton, put=__set__createServerButton))  _createServerButton;
 
-constexpr void __set__createServerButton(::UnityEngine::UI::Button value) ;
+constexpr void __set__createServerButton(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__createServerButton() const;
+constexpr UnityEngine::UI::Button __get__createServerButton() const;
 
- ::GlobalNamespace::GameServersListTableView __declspec(property(get=__get__gameServersListTableView, put=__set__gameServersListTableView))  _gameServersListTableView;
+ GlobalNamespace::GameServersListTableView __declspec(property(get=__get__gameServersListTableView, put=__set__gameServersListTableView))  _gameServersListTableView;
 
-constexpr void __set__gameServersListTableView(::GlobalNamespace::GameServersListTableView value) ;
+constexpr void __set__gameServersListTableView(GlobalNamespace::GameServersListTableView value) ;
 
-constexpr ::GlobalNamespace::GameServersListTableView __get__gameServersListTableView() const;
+constexpr GlobalNamespace::GameServersListTableView __get__gameServersListTableView() const;
 
- ::GlobalNamespace::LoadingControl __declspec(property(get=__get__mainLoadingControl, put=__set__mainLoadingControl))  _mainLoadingControl;
+ GlobalNamespace::LoadingControl __declspec(property(get=__get__mainLoadingControl, put=__set__mainLoadingControl))  _mainLoadingControl;
 
-constexpr void __set__mainLoadingControl(::GlobalNamespace::LoadingControl value) ;
+constexpr void __set__mainLoadingControl(GlobalNamespace::LoadingControl value) ;
 
-constexpr ::GlobalNamespace::LoadingControl __get__mainLoadingControl() const;
+constexpr GlobalNamespace::LoadingControl __get__mainLoadingControl() const;
 
- ::GlobalNamespace::LoadingControl __declspec(property(get=__get__smallLoadingControl, put=__set__smallLoadingControl))  _smallLoadingControl;
+ GlobalNamespace::LoadingControl __declspec(property(get=__get__smallLoadingControl, put=__set__smallLoadingControl))  _smallLoadingControl;
 
-constexpr void __set__smallLoadingControl(::GlobalNamespace::LoadingControl value) ;
+constexpr void __set__smallLoadingControl(GlobalNamespace::LoadingControl value) ;
 
-constexpr ::GlobalNamespace::LoadingControl __get__smallLoadingControl() const;
+constexpr GlobalNamespace::LoadingControl __get__smallLoadingControl() const;
 
 
 // Methods
@@ -118,6 +117,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::GameServerBrowserViewController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameServerBrowserViewController, "", "GameServerBrowserViewController");
+NEED_NO_BOX(GlobalNamespace::GameServerBrowserViewController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerBrowserViewController, "", "GameServerBrowserViewController");

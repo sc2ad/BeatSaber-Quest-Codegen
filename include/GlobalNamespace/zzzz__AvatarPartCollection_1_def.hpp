@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
@@ -63,17 +62,17 @@ constexpr explicit AvatarPartCollection_1(void* ptr) noexcept : ::bs_hook::Il2Cp
 
 // Fields
 
- ::System::Collections::Generic::Dictionary_2<::StringW,T> __declspec(property(get=__get__partById, put=__set__partById))  _partById;
+ System::Collections::Generic::Dictionary_2<::StringW,T> __declspec(property(get=__get__partById, put=__set__partById))  _partById;
 
-constexpr void __set__partById(::System::Collections::Generic::Dictionary_2<::StringW,T> value) ;
+constexpr void __set__partById(System::Collections::Generic::Dictionary_2<::StringW,T> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::StringW,T> __get__partById() const;
+constexpr System::Collections::Generic::Dictionary_2<::StringW,T> __get__partById() const;
 
- ::System::Collections::Generic::Dictionary_2<::StringW,int32_t> __declspec(property(get=__get__partIndexById, put=__set__partIndexById))  _partIndexById;
+ System::Collections::Generic::Dictionary_2<::StringW,int32_t> __declspec(property(get=__get__partIndexById, put=__set__partIndexById))  _partIndexById;
 
-constexpr void __set__partIndexById(::System::Collections::Generic::Dictionary_2<::StringW,int32_t> value) ;
+constexpr void __set__partIndexById(System::Collections::Generic::Dictionary_2<::StringW,int32_t> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::StringW,int32_t> __get__partIndexById() const;
+constexpr System::Collections::Generic::Dictionary_2<::StringW,int32_t> __get__partIndexById() const;
 
  ::ArrayW<T> __declspec(property(get=__get__parts, put=__set__parts))  _parts;
 
@@ -122,5 +121,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::AvatarPartCollection_1, "", "AvatarPartCollection`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::AvatarPartCollection_1, "", "AvatarPartCollection`1");

@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace OVRSimpleJSON {
-struct ____OVRSimpleJSON__JSONNode__Enumerator;
-}
 namespace OVRSimpleJSON {
 struct JSONNodeType;
+}
+namespace OVRSimpleJSON {
+struct OVRSimpleJSON__JSONNode__Enumerator;
 }
 namespace System::Text {
 class StringBuilder;
@@ -27,7 +26,7 @@ namespace OVRSimpleJSON {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8987))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8993))
 // CS Name: OVRSimpleJSON.JSONString
-class CORDL_TYPE JSONString : public ::OVRSimpleJSON::JSONNode {
+class CORDL_TYPE JSONString : public OVRSimpleJSON::JSONNode {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -42,7 +41,7 @@ constexpr JSONString(JSONString const& ) noexcept = default;
 constexpr JSONString(JSONString&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit JSONString(void* ptr) noexcept : ::OVRSimpleJSON::JSONNode(ptr) {
+constexpr explicit JSONString(void* ptr) noexcept : OVRSimpleJSON::JSONNode(ptr) {
 }
 
 
@@ -72,7 +71,7 @@ constexpr ::StringW __get_m_Data() const;
 
 // Properties
 
- ::OVRSimpleJSON::JSONNodeType __declspec(property(get=get_Tag))  Tag;
+ OVRSimpleJSON::JSONNodeType __declspec(property(get=get_Tag))  Tag;
 
  bool __declspec(property(get=get_IsString))  IsString;
 
@@ -82,13 +81,13 @@ constexpr ::StringW __get_m_Data() const;
 // Methods
 
 /// @brief Method get_Tag addr 0x26401e8 size 0x8 virtual true final false
- ::OVRSimpleJSON::JSONNodeType get_Tag() ;
+ OVRSimpleJSON::JSONNodeType get_Tag() ;
 
 /// @brief Method get_IsString addr 0x26401f0 size 0x8 virtual true final false
  bool get_IsString() ;
 
 /// @brief Method GetEnumerator addr 0x26401f8 size 0x14 virtual true final false
- ::OVRSimpleJSON::____OVRSimpleJSON__JSONNode__Enumerator GetEnumerator() ;
+ OVRSimpleJSON::OVRSimpleJSON__JSONNode__Enumerator GetEnumerator() ;
 
 /// @brief Method get_Value addr 0x264020c size 0x8 virtual true final false
  ::StringW get_Value() ;
@@ -103,7 +102,7 @@ explicit JSONString(::StringW aData) ;
  void _ctor(::StringW aData) ;
 
 /// @brief Method WriteToStringBuilder addr 0x2640244 size 0x60 virtual true final false
- void WriteToStringBuilder(::System::Text::StringBuilder aSB, int32_t aIndent, int32_t aIndentInc, ::OVRSimpleJSON::JSONTextMode aMode) ;
+ void WriteToStringBuilder(System::Text::StringBuilder aSB, int32_t aIndent, int32_t aIndentInc, OVRSimpleJSON::JSONTextMode aMode) ;
 
 /// @brief Method Equals addr 0x26402a4 size 0xfc virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -115,6 +114,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def OVRSimpleJSON
-} // end anonymous namespace
-NEED_NO_BOX(::OVRSimpleJSON::JSONString);
-DEFINE_IL2CPP_ARG_TYPE(::OVRSimpleJSON::JSONString, "OVRSimpleJSON", "JSONString");
+NEED_NO_BOX(OVRSimpleJSON::JSONString);
+DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONString, "OVRSimpleJSON", "JSONString");

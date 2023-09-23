@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace LiteNetLib {
 struct DeliveryMethod;
@@ -70,23 +69,22 @@ constexpr void __set_value__(uint8_t value) ;
 constexpr uint8_t __get_value__() const;
 
 /// @brief Field Unreliable offset 0
-static ::LiteNetLib::DeliveryMethod const Unreliable;
+static LiteNetLib::DeliveryMethod const Unreliable;
 
 /// @brief Field ReliableUnordered offset 0
-static ::LiteNetLib::DeliveryMethod const ReliableUnordered;
+static LiteNetLib::DeliveryMethod const ReliableUnordered;
 
 /// @brief Field Sequenced offset 0
-static ::LiteNetLib::DeliveryMethod const Sequenced;
+static LiteNetLib::DeliveryMethod const Sequenced;
 
 /// @brief Field ReliableOrdered offset 0
-static ::LiteNetLib::DeliveryMethod const ReliableOrdered;
+static LiteNetLib::DeliveryMethod const ReliableOrdered;
 
 /// @brief Field ReliableSequenced offset 0
-static ::LiteNetLib::DeliveryMethod const ReliableSequenced;
+static LiteNetLib::DeliveryMethod const ReliableSequenced;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::DeliveryMethod, "LiteNetLib", "DeliveryMethod");
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::DeliveryMethod, "LiteNetLib", "DeliveryMethod");

@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace GlobalNamespace {
-struct ____GlobalNamespace__AuthenticationToken__Platform;
+struct GlobalNamespace__AuthenticationToken__Platform;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__UserInfo__Platform;
+struct GlobalNamespace__UserInfo__Platform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -55,15 +54,14 @@ constexpr explicit AuthenticationTokenPlatformExtensions(void* ptr) noexcept : :
 // Methods
 
 /// @brief Method ToAuthenticationTokenPlatform addr 0x220192c size 0x28 virtual false final false
-static ::GlobalNamespace::____GlobalNamespace__AuthenticationToken__Platform ToAuthenticationTokenPlatform(::GlobalNamespace::____GlobalNamespace__UserInfo__Platform platform) ;
+static GlobalNamespace::GlobalNamespace__AuthenticationToken__Platform ToAuthenticationTokenPlatform(GlobalNamespace::GlobalNamespace__UserInfo__Platform platform) ;
 
 /// @brief Method ToUserInfoPlatform addr 0x2201954 size 0x2c virtual false final false
-static ::GlobalNamespace::____GlobalNamespace__UserInfo__Platform ToUserInfoPlatform(::GlobalNamespace::____GlobalNamespace__AuthenticationToken__Platform platform) ;
+static GlobalNamespace::GlobalNamespace__UserInfo__Platform ToUserInfoPlatform(GlobalNamespace::GlobalNamespace__AuthenticationToken__Platform platform) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::AuthenticationTokenPlatformExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AuthenticationTokenPlatformExtensions, "", "AuthenticationTokenPlatformExtensions");
+NEED_NO_BOX(GlobalNamespace::AuthenticationTokenPlatformExtensions);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AuthenticationTokenPlatformExtensions, "", "AuthenticationTokenPlatformExtensions");

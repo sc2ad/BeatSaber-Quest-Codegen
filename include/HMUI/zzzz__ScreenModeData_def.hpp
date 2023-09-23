@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -52,17 +51,17 @@ constexpr explicit ScreenModeData(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_position, put=__set_position))  position;
+ UnityEngine::Vector3 __declspec(property(get=__get_position, put=__set_position))  position;
 
-constexpr void __set_position(::UnityEngine::Vector3 value) ;
+constexpr void __set_position(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_position() const;
+constexpr UnityEngine::Vector3 __get_position() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_rotation, put=__set_rotation))  rotation;
+ UnityEngine::Vector3 __declspec(property(get=__get_rotation, put=__set_rotation))  rotation;
 
-constexpr void __set_rotation(::UnityEngine::Vector3 value) ;
+constexpr void __set_rotation(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_rotation() const;
+constexpr UnityEngine::Vector3 __get_rotation() const;
 
  float_t __declspec(property(get=__get_scale, put=__set_scale))  scale;
 
@@ -97,16 +96,15 @@ constexpr float_t __get_minYPos() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "radius", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "offsetHeightByHeadPos", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "yOffsetRelativeToHead", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "minYPos", ty: "float_t", modifiers: "", def_value: None }]
-explicit ScreenModeData(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 rotation, float_t scale, float_t radius, bool offsetHeightByHeadPos, float_t yOffsetRelativeToHead, float_t minYPos) ;
+// Ctor Parameters [CppParam { name: "position", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "radius", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "offsetHeightByHeadPos", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "yOffsetRelativeToHead", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "minYPos", ty: "float_t", modifiers: "", def_value: None }]
+explicit ScreenModeData(UnityEngine::Vector3 position, UnityEngine::Vector3 rotation, float_t scale, float_t radius, bool offsetHeightByHeadPos, float_t yOffsetRelativeToHead, float_t minYPos) ;
 
 /// @brief Method .ctor addr 0x1fb8aa0 size 0x98 virtual false final false
- void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 rotation, float_t scale, float_t radius, bool offsetHeightByHeadPos, float_t yOffsetRelativeToHead, float_t minYPos) ;
+ void _ctor(UnityEngine::Vector3 position, UnityEngine::Vector3 rotation, float_t scale, float_t radius, bool offsetHeightByHeadPos, float_t yOffsetRelativeToHead, float_t minYPos) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HMUI
-} // end anonymous namespace
-NEED_NO_BOX(::HMUI::ScreenModeData);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::ScreenModeData, "HMUI", "ScreenModeData");
+NEED_NO_BOX(HMUI::ScreenModeData);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::ScreenModeData, "HMUI", "ScreenModeData");

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
-namespace {
 namespace LIV::SDK::Unity {
 struct SDKVector3;
 }
@@ -23,8 +22,8 @@ namespace LIV::SDK::Unity {
 struct CORDL_TYPE SDKPlane : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "distance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "normal", ty: "::LIV::SDK::Unity::SDKVector3", modifiers: "", def_value: None }]
-constexpr SDKPlane(float_t distance, ::LIV::SDK::Unity::SDKVector3 normal) noexcept;
+// Ctor Parameters [CppParam { name: "distance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "normal", ty: "LIV::SDK::Unity::SDKVector3", modifiers: "", def_value: None }]
+constexpr SDKPlane(float_t distance, LIV::SDK::Unity::SDKVector3 normal) noexcept;
 
 
                     constexpr SDKPlane(SDKPlane const&) = default;
@@ -63,25 +62,25 @@ constexpr void __set_distance(float_t value) ;
 
 constexpr float_t __get_distance() const;
 
- ::LIV::SDK::Unity::SDKVector3 __declspec(property(get=__get_normal, put=__set_normal))  normal;
+ LIV::SDK::Unity::SDKVector3 __declspec(property(get=__get_normal, put=__set_normal))  normal;
 
-constexpr void __set_normal(::LIV::SDK::Unity::SDKVector3 value) ;
+constexpr void __set_normal(LIV::SDK::Unity::SDKVector3 value) ;
 
-constexpr ::LIV::SDK::Unity::SDKVector3 __get_normal() const;
+constexpr LIV::SDK::Unity::SDKVector3 __get_normal() const;
 
 
 // Properties
 
-static ::LIV::SDK::Unity::SDKPlane __declspec(property(get=get_empty))  empty;
+static LIV::SDK::Unity::SDKPlane __declspec(property(get=get_empty))  empty;
 
 
 // Methods
 
 /// @brief Method op_Implicit addr 0x20a23c4 size 0x5c virtual false final false
-static ::LIV::SDK::Unity::SDKPlane op_Implicit___LIV__SDK__Unity__SDKPlane(::UnityEngine::Plane v) ;
+static LIV::SDK::Unity::SDKPlane op_Implicit_LIV__SDK__Unity__SDKPlane(UnityEngine::Plane v) ;
 
 /// @brief Method get_empty addr 0x20a2420 size 0x14 virtual false final false
-static ::LIV::SDK::Unity::SDKPlane get_empty() ;
+static LIV::SDK::Unity::SDKPlane get_empty() ;
 
 /// @brief Method ToString addr 0x20a2434 size 0xc4 virtual true final false
  ::StringW ToString() ;
@@ -90,5 +89,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def LIV::SDK::Unity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::SDKPlane, "LIV.SDK.Unity", "SDKPlane");
+DEFINE_IL2CPP_ARG_TYPE(LIV::SDK::Unity::SDKPlane, "LIV.SDK.Unity", "SDKPlane");

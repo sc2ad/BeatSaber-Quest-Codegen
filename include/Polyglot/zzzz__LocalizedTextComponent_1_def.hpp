@@ -5,16 +5,15 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace Polyglot {
+class ILocalize;
 }
 namespace Polyglot {
 struct LanguageDirection;
 }
-namespace Polyglot {
-class ILocalize;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace Polyglot {
@@ -31,14 +30,14 @@ namespace Polyglot {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166)), TypeDefinitionIndex(TypeDefinitionIndex(15541))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15541)), TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15541), inst: 2 })
 // CS Name: Polyglot.LocalizedTextComponent`1
-class CORDL_TYPE LocalizedTextComponent_1<T> : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE LocalizedTextComponent_1<T> : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-/// @brief Convert operator to ::Polyglot::ILocalize
-constexpr operator  ::Polyglot::ILocalize() const noexcept;
+/// @brief Convert operator to Polyglot::ILocalize
+constexpr operator  Polyglot::ILocalize() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -52,7 +51,7 @@ constexpr LocalizedTextComponent_1(LocalizedTextComponent_1 const& ) noexcept = 
 constexpr LocalizedTextComponent_1(LocalizedTextComponent_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LocalizedTextComponent_1(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit LocalizedTextComponent_1(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -91,11 +90,11 @@ constexpr void __set_key(::StringW value) ;
 
 constexpr ::StringW __get_key() const;
 
- ::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get_parameters, put=__set_parameters))  parameters;
+ System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get_parameters, put=__set_parameters))  parameters;
 
-constexpr void __set_parameters(::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> value) ;
+constexpr void __set_parameters(System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> __get_parameters() const;
+constexpr System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> __get_parameters() const;
 
 
 // Properties
@@ -104,7 +103,7 @@ constexpr ::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> _
 
  ::StringW __declspec(property(get=get_Key, put=set_Key))  Key;
 
- ::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=get_Parameters))  Parameters;
+ System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=get_Parameters))  Parameters;
 
 
 // Methods
@@ -122,7 +121,7 @@ constexpr ::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> _
  void set_Key(::StringW value) ;
 
 /// @brief Method get_Parameters addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> get_Parameters() ;
+ System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> get_Parameters() ;
 
 /// @brief Method OnEnable addr 0x0 size 0xffffffffffffffff virtual false final false
  void OnEnable() ;
@@ -131,7 +130,7 @@ constexpr ::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> _
  void SetText(T component, ::StringW value) ;
 
 /// @brief Method UpdateAlignment addr 0x0 size 0xffffffffffffffff virtual true final false
- void UpdateAlignment(T component, ::Polyglot::LanguageDirection direction) ;
+ void UpdateAlignment(T component, Polyglot::LanguageDirection direction) ;
 
 /// @brief Method OnLocalize addr 0x0 size 0xffffffffffffffff virtual true final true
  void OnLocalize() ;
@@ -161,5 +160,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Polyglot
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Polyglot::LocalizedTextComponent_1, "Polyglot", "LocalizedTextComponent`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Polyglot::LocalizedTextComponent_1, "Polyglot", "LocalizedTextComponent`1");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
@@ -19,7 +18,7 @@ namespace System::Runtime::CompilerServices {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2560))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3375))
 // CS Name: System.Runtime.CompilerServices.RuntimeWrappedException
-class CORDL_TYPE RuntimeWrappedException : public ::System::Exception {
+class CORDL_TYPE RuntimeWrappedException : public System::Exception {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr RuntimeWrappedException(RuntimeWrappedException const& ) noexcept = de
 constexpr RuntimeWrappedException(RuntimeWrappedException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RuntimeWrappedException(void* ptr) noexcept : ::System::Exception(ptr) {
+constexpr explicit RuntimeWrappedException(void* ptr) noexcept : System::Exception(ptr) {
 }
 
 
@@ -70,14 +69,14 @@ explicit RuntimeWrappedException(::bs_hook::Il2CppWrapperType thrownObject) ;
 /// @brief Method .ctor addr 0x236e124 size 0x90 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType thrownObject) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit RuntimeWrappedException(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit RuntimeWrappedException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x236e1b4 size 0x100 virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method GetObjectData addr 0x236e2b4 size 0xdc virtual true final false
- void GetObjectData(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void GetObjectData(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 // Ctor Parameters []
 explicit RuntimeWrappedException() ;
@@ -89,6 +88,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::CompilerServices
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::CompilerServices::RuntimeWrappedException);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::RuntimeWrappedException, "System.Runtime.CompilerServices", "RuntimeWrappedException");
+NEED_NO_BOX(System::Runtime::CompilerServices::RuntimeWrappedException);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::RuntimeWrappedException, "System.Runtime.CompilerServices", "RuntimeWrappedException");

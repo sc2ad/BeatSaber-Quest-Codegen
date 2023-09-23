@@ -5,17 +5,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
+namespace System {
+struct Guid;
+}
 namespace System {
 template<typename T>
 class IEquatable_1;
 }
-namespace System {
-struct Guid;
-}
 // Forward declare root types
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRSpace__StorageLocation;
+struct GlobalNamespace__OVRSpace__StorageLocation;
 }
 namespace GlobalNamespace {
 struct OVRSpace;
@@ -26,20 +25,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8838))
 // CS Name: OVRSpace::StorageLocation
-struct CORDL_TYPE ____GlobalNamespace__OVRSpace__StorageLocation : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__OVRSpace__StorageLocation : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__OVRSpace__StorageLocation(int32_t value__) noexcept;
+constexpr GlobalNamespace__OVRSpace__StorageLocation(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__OVRSpace__StorageLocation(____GlobalNamespace__OVRSpace__StorageLocation const&) = default;
-                    constexpr ____GlobalNamespace__OVRSpace__StorageLocation(____GlobalNamespace__OVRSpace__StorageLocation&&) = default;
-                    constexpr ____GlobalNamespace__OVRSpace__StorageLocation& operator=(____GlobalNamespace__OVRSpace__StorageLocation const& o) {
+                    constexpr GlobalNamespace__OVRSpace__StorageLocation(GlobalNamespace__OVRSpace__StorageLocation const&) = default;
+                    constexpr GlobalNamespace__OVRSpace__StorageLocation(GlobalNamespace__OVRSpace__StorageLocation&&) = default;
+                    constexpr GlobalNamespace__OVRSpace__StorageLocation& operator=(GlobalNamespace__OVRSpace__StorageLocation const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__OVRSpace__StorageLocation& operator=(____GlobalNamespace__OVRSpace__StorageLocation&& o) noexcept {
+                    constexpr GlobalNamespace__OVRSpace__StorageLocation& operator=(GlobalNamespace__OVRSpace__StorageLocation&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -52,7 +51,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVRSpace__StorageLocation(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__OVRSpace__StorageLocation(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -60,14 +59,14 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__OVRSpace__StorageLocation_Unwrapped : int32_t {
+enum class __GlobalNamespace__OVRSpace__StorageLocation_Unwrapped : int32_t {
 __Local = 0,
 __Cloud = 1,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__OVRSpace__StorageLocation_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__OVRSpace__StorageLocation_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__OVRSpace__StorageLocation_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__OVRSpace__StorageLocation_Unwrapped>(__instance);
 }
 
 
@@ -80,10 +79,10 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Local offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRSpace__StorageLocation const Local;
+static GlobalNamespace::GlobalNamespace__OVRSpace__StorageLocation const Local;
 
 /// @brief Field Cloud offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRSpace__StorageLocation const Cloud;
+static GlobalNamespace::GlobalNamespace__OVRSpace__StorageLocation const Cloud;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -98,10 +97,10 @@ namespace GlobalNamespace {
 struct CORDL_TYPE OVRSpace : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-using StorageLocation = ::GlobalNamespace::____GlobalNamespace__OVRSpace__StorageLocation;
+using StorageLocation = GlobalNamespace::GlobalNamespace__OVRSpace__StorageLocation;
 
-/// @brief Convert operator to ::System::IEquatable_1<::GlobalNamespace::OVRSpace>
-constexpr operator  ::System::IEquatable_1<::GlobalNamespace::OVRSpace>() const;
+/// @brief Convert operator to System::IEquatable_1<GlobalNamespace::OVRSpace>
+constexpr operator  System::IEquatable_1<GlobalNamespace::OVRSpace>() const;
 
 // Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: None }]
 constexpr OVRSpace(uint64_t _Handle_k__BackingField) noexcept;
@@ -157,7 +156,7 @@ constexpr uint64_t __get__Handle_k__BackingField() const;
  uint64_t get_Handle() ;
 
 /// @brief Method TryGetUuid addr 0x260cb68 size 0x6c virtual false final false
- bool TryGetUuid(ByRef<::System::Guid> uuid) ;
+ bool TryGetUuid(ByRef<System::Guid> uuid) ;
 
 /// @brief Method get_Valid addr 0x2602d28 size 0x10 virtual false final false
  bool get_Valid() ;
@@ -169,7 +168,7 @@ constexpr uint64_t __get__Handle_k__BackingField() const;
  ::StringW ToString() ;
 
 /// @brief Method Equals addr 0x260cc60 size 0x10 virtual true final true
- bool Equals(::GlobalNamespace::OVRSpace other) ;
+ bool Equals(GlobalNamespace::OVRSpace other) ;
 
 /// @brief Method Equals addr 0x260cc70 size 0x78 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -178,21 +177,20 @@ constexpr uint64_t __get__Handle_k__BackingField() const;
  int32_t GetHashCode() ;
 
 /// @brief Method op_Equality addr 0x260cd08 size 0xc virtual false final false
-static bool op_Equality(::GlobalNamespace::OVRSpace lhs, ::GlobalNamespace::OVRSpace rhs) ;
+static bool op_Equality(GlobalNamespace::OVRSpace lhs, GlobalNamespace::OVRSpace rhs) ;
 
 /// @brief Method op_Inequality addr 0x260cd14 size 0xc virtual false final false
-static bool op_Inequality(::GlobalNamespace::OVRSpace lhs, ::GlobalNamespace::OVRSpace rhs) ;
+static bool op_Inequality(GlobalNamespace::OVRSpace lhs, GlobalNamespace::OVRSpace rhs) ;
 
 /// @brief Method op_Implicit addr 0x26088c8 size 0x4 virtual false final false
-static ::GlobalNamespace::OVRSpace op_Implicit___GlobalNamespace__OVRSpace(uint64_t handle) ;
+static GlobalNamespace::OVRSpace op_Implicit_GlobalNamespace__OVRSpace(uint64_t handle) ;
 
 /// @brief Method op_Implicit addr 0x26029ac size 0x4 virtual false final false
-static uint64_t op_Implicit_uint64_t(::GlobalNamespace::OVRSpace space) ;
+static uint64_t op_Implicit_uint64_t(GlobalNamespace::OVRSpace space) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVRSpace__StorageLocation, "", "OVRSpace/StorageLocation");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRSpace, "", "OVRSpace");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRSpace__StorageLocation, "", "OVRSpace/StorageLocation");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSpace, "", "OVRSpace");

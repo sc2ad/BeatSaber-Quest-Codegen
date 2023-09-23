@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__InMultiplayerRichPresenceData_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4785))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4786))
 // CS Name: PlayingMultiplayerRichPresenceData
-class CORDL_TYPE PlayingMultiplayerRichPresenceData : public ::GlobalNamespace::InMultiplayerRichPresenceData {
+class CORDL_TYPE PlayingMultiplayerRichPresenceData : public GlobalNamespace::InMultiplayerRichPresenceData {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr PlayingMultiplayerRichPresenceData(PlayingMultiplayerRichPresenceData 
 constexpr PlayingMultiplayerRichPresenceData(PlayingMultiplayerRichPresenceData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PlayingMultiplayerRichPresenceData(void* ptr) noexcept : ::GlobalNamespace::InMultiplayerRichPresenceData(ptr) {
+constexpr explicit PlayingMultiplayerRichPresenceData(void* ptr) noexcept : GlobalNamespace::InMultiplayerRichPresenceData(ptr) {
 }
 
 
@@ -57,16 +56,15 @@ static constexpr ::ConstString  kPlayingMultiplayerLobbyRichPresenceLocalization
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "difficultyBeatmap", ty: "::GlobalNamespace::IDifficultyBeatmap", modifiers: "", def_value: None }, CppParam { name: "atMaxPartySize", ty: "bool", modifiers: "", def_value: None }]
-explicit PlayingMultiplayerRichPresenceData(::GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, bool atMaxPartySize) ;
+// Ctor Parameters [CppParam { name: "difficultyBeatmap", ty: "GlobalNamespace::IDifficultyBeatmap", modifiers: "", def_value: None }, CppParam { name: "atMaxPartySize", ty: "bool", modifiers: "", def_value: None }]
+explicit PlayingMultiplayerRichPresenceData(GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, bool atMaxPartySize) ;
 
 /// @brief Method .ctor addr 0x2229d4c size 0x8c virtual false final false
- void _ctor(::GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, bool atMaxPartySize) ;
+ void _ctor(GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, bool atMaxPartySize) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PlayingMultiplayerRichPresenceData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayingMultiplayerRichPresenceData, "", "PlayingMultiplayerRichPresenceData");
+NEED_NO_BOX(GlobalNamespace::PlayingMultiplayerRichPresenceData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayingMultiplayerRichPresenceData, "", "PlayingMultiplayerRichPresenceData");

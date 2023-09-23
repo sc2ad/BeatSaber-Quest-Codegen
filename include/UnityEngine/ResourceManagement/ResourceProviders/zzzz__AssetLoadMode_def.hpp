@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct AssetLoadMode;
@@ -67,14 +66,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field RequestedAssetAndDependencies offset 0
-static ::UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode const RequestedAssetAndDependencies;
+static UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode const RequestedAssetAndDependencies;
 
 /// @brief Field AllPackedAssetsAndDependencies offset 0
-static ::UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode const AllPackedAssetsAndDependencies;
+static UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode const AllPackedAssetsAndDependencies;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ResourceManagement::ResourceProviders
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode, "UnityEngine.ResourceManagement.ResourceProviders", "AssetLoadMode");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode, "UnityEngine.ResourceManagement.ResourceProviders", "AssetLoadMode");

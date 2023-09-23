@@ -3,21 +3,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
+namespace System::Runtime::Serialization::Formatters::Binary {
+class __BinaryParser;
+}
 namespace System::Runtime::Serialization::Formatters::Binary {
 struct BinaryTypeEnum;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryParser;
+struct BinaryArrayTypeEnum;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 struct BinaryHeaderEnum;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryWriter;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-struct BinaryArrayTypeEnum;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -89,11 +88,11 @@ constexpr void __set_lowerBoundA(::ArrayW<int32_t> value) ;
 
 constexpr ::ArrayW<int32_t> __get_lowerBoundA() const;
 
- ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum __declspec(property(get=__get_binaryTypeEnum, put=__set_binaryTypeEnum))  binaryTypeEnum;
+ System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum __declspec(property(get=__get_binaryTypeEnum, put=__set_binaryTypeEnum))  binaryTypeEnum;
 
-constexpr void __set_binaryTypeEnum(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum value) ;
+constexpr void __set_binaryTypeEnum(System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum value) ;
 
-constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum __get_binaryTypeEnum() const;
+constexpr System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum __get_binaryTypeEnum() const;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=__get_typeInformation, put=__set_typeInformation))  typeInformation;
 
@@ -107,17 +106,17 @@ constexpr void __set_assemId(int32_t value) ;
 
 constexpr int32_t __get_assemId() const;
 
- ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum __declspec(property(get=__get_binaryHeaderEnum, put=__set_binaryHeaderEnum))  binaryHeaderEnum;
+ System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum __declspec(property(get=__get_binaryHeaderEnum, put=__set_binaryHeaderEnum))  binaryHeaderEnum;
 
-constexpr void __set_binaryHeaderEnum(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum value) ;
+constexpr void __set_binaryHeaderEnum(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum value) ;
 
-constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum __get_binaryHeaderEnum() const;
+constexpr System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum __get_binaryHeaderEnum() const;
 
- ::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum __declspec(property(get=__get_binaryArrayTypeEnum, put=__set_binaryArrayTypeEnum))  binaryArrayTypeEnum;
+ System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum __declspec(property(get=__get_binaryArrayTypeEnum, put=__set_binaryArrayTypeEnum))  binaryArrayTypeEnum;
 
-constexpr void __set_binaryArrayTypeEnum(::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum value) ;
+constexpr void __set_binaryArrayTypeEnum(System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum value) ;
 
-constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum __get_binaryArrayTypeEnum() const;
+constexpr System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum __get_binaryArrayTypeEnum() const;
 
 
 // Methods
@@ -128,25 +127,24 @@ explicit BinaryArray() ;
 /// @brief Method .ctor addr 0x2356a60 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "binaryHeaderEnum", ty: "::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum", modifiers: "", def_value: None }]
-explicit BinaryArray(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum) ;
+// Ctor Parameters [CppParam { name: "binaryHeaderEnum", ty: "System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum", modifiers: "", def_value: None }]
+explicit BinaryArray(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum) ;
 
 /// @brief Method .ctor addr 0x2356a68 size 0x28 virtual false final false
- void _ctor(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum) ;
+ void _ctor(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum) ;
 
 /// @brief Method Set addr 0x2356a90 size 0x54 virtual false final false
- void Set(int32_t objectId, int32_t rank, ::ArrayW<int32_t> lengthA, ::ArrayW<int32_t> lowerBoundA, ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum, ::bs_hook::Il2CppWrapperType typeInformation, ::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum binaryArrayTypeEnum, int32_t assemId) ;
+ void Set(int32_t objectId, int32_t rank, ::ArrayW<int32_t> lengthA, ::ArrayW<int32_t> lowerBoundA, System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum, ::bs_hook::Il2CppWrapperType typeInformation, System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum binaryArrayTypeEnum, int32_t assemId) ;
 
 /// @brief Method Write addr 0x2356ae4 size 0x2d8 virtual true final true
- void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter sout) ;
+ void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter sout) ;
 
 /// @brief Method Read addr 0x2356dbc size 0x300 virtual true final true
- void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser input) ;
+ void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser input) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization::Formatters::Binary
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::BinaryArray);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::BinaryArray, "System.Runtime.Serialization.Formatters.Binary", "BinaryArray");
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::BinaryArray);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryArray, "System.Runtime.Serialization.Formatters.Binary", "BinaryArray");

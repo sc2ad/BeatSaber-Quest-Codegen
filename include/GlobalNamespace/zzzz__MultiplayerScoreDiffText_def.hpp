@@ -5,34 +5,33 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct Color;
-}
-namespace GlobalNamespace {
-class MultiplayerLeadPlayerProvider;
-}
 namespace TMPro {
 class TextMeshPro;
-}
-namespace UnityEngine {
-class SpriteRenderer;
-}
-namespace Tweening {
-class TimeTweeningManager;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
 }
 namespace Tweening {
 class FloatTween;
 }
-// Forward declare root types
-namespace GlobalNamespace {
-struct ____GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition;
+namespace Tweening {
+class TimeTweeningManager;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__MultiplayerScoreDiffText__State;
+class IConnectedPlayer;
+}
+namespace GlobalNamespace {
+class MultiplayerLeadPlayerProvider;
+}
+namespace UnityEngine {
+class SpriteRenderer;
+}
+// Forward declare root types
+namespace GlobalNamespace {
+struct GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__MultiplayerScoreDiffText__State;
 }
 namespace GlobalNamespace {
 class MultiplayerScoreDiffText;
@@ -43,20 +42,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5230))
 // CS Name: MultiplayerScoreDiffText::HorizontalPosition
-struct CORDL_TYPE ____GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition(int32_t value__) noexcept;
+constexpr GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition(____GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition const&) = default;
-                    constexpr ____GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition(____GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition&&) = default;
-                    constexpr ____GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition& operator=(____GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition const& o) {
+                    constexpr GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition(GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition const&) = default;
+                    constexpr GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition(GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition&&) = default;
+                    constexpr GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition& operator=(GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition& operator=(____GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition&& o) noexcept {
+                    constexpr GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition& operator=(GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -69,7 +68,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -77,14 +76,14 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition_Unwrapped : int32_t {
+enum class __GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition_Unwrapped : int32_t {
 __Left = 0,
 __Right = 1,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition_Unwrapped>(__instance);
 }
 
 
@@ -97,10 +96,10 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Left offset 0
-static ::GlobalNamespace::____GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition const Left;
+static GlobalNamespace::GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition const Left;
 
 /// @brief Field Right offset 0
-static ::GlobalNamespace::____GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition const Right;
+static GlobalNamespace::GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition const Right;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -112,20 +111,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5231))
 // CS Name: MultiplayerScoreDiffText::State
-struct CORDL_TYPE ____GlobalNamespace__MultiplayerScoreDiffText__State : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__MultiplayerScoreDiffText__State : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__MultiplayerScoreDiffText__State(int32_t value__) noexcept;
+constexpr GlobalNamespace__MultiplayerScoreDiffText__State(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__MultiplayerScoreDiffText__State(____GlobalNamespace__MultiplayerScoreDiffText__State const&) = default;
-                    constexpr ____GlobalNamespace__MultiplayerScoreDiffText__State(____GlobalNamespace__MultiplayerScoreDiffText__State&&) = default;
-                    constexpr ____GlobalNamespace__MultiplayerScoreDiffText__State& operator=(____GlobalNamespace__MultiplayerScoreDiffText__State const& o) {
+                    constexpr GlobalNamespace__MultiplayerScoreDiffText__State(GlobalNamespace__MultiplayerScoreDiffText__State const&) = default;
+                    constexpr GlobalNamespace__MultiplayerScoreDiffText__State(GlobalNamespace__MultiplayerScoreDiffText__State&&) = default;
+                    constexpr GlobalNamespace__MultiplayerScoreDiffText__State& operator=(GlobalNamespace__MultiplayerScoreDiffText__State const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__MultiplayerScoreDiffText__State& operator=(____GlobalNamespace__MultiplayerScoreDiffText__State&& o) noexcept {
+                    constexpr GlobalNamespace__MultiplayerScoreDiffText__State& operator=(GlobalNamespace__MultiplayerScoreDiffText__State&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -138,7 +137,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__MultiplayerScoreDiffText__State(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__MultiplayerScoreDiffText__State(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -146,7 +145,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__MultiplayerScoreDiffText__State_Unwrapped : int32_t {
+enum class __GlobalNamespace__MultiplayerScoreDiffText__State_Unwrapped : int32_t {
 __Hidden = 0,
 __Displayed = 1,
 __AnimatingDisplay = 2,
@@ -154,8 +153,8 @@ __AnimatingHide = 3,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__MultiplayerScoreDiffText__State_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__MultiplayerScoreDiffText__State_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__MultiplayerScoreDiffText__State_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__MultiplayerScoreDiffText__State_Unwrapped>(__instance);
 }
 
 
@@ -168,16 +167,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Hidden offset 0
-static ::GlobalNamespace::____GlobalNamespace__MultiplayerScoreDiffText__State const Hidden;
+static GlobalNamespace::GlobalNamespace__MultiplayerScoreDiffText__State const Hidden;
 
 /// @brief Field Displayed offset 0
-static ::GlobalNamespace::____GlobalNamespace__MultiplayerScoreDiffText__State const Displayed;
+static GlobalNamespace::GlobalNamespace__MultiplayerScoreDiffText__State const Displayed;
 
 /// @brief Field AnimatingDisplay offset 0
-static ::GlobalNamespace::____GlobalNamespace__MultiplayerScoreDiffText__State const AnimatingDisplay;
+static GlobalNamespace::GlobalNamespace__MultiplayerScoreDiffText__State const AnimatingDisplay;
 
 /// @brief Field AnimatingHide offset 0
-static ::GlobalNamespace::____GlobalNamespace__MultiplayerScoreDiffText__State const AnimatingHide;
+static GlobalNamespace::GlobalNamespace__MultiplayerScoreDiffText__State const AnimatingHide;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -189,12 +188,12 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5232))
 // CS Name: MultiplayerScoreDiffText
-class CORDL_TYPE MultiplayerScoreDiffText : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerScoreDiffText : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using State = ::GlobalNamespace::____GlobalNamespace__MultiplayerScoreDiffText__State;
+using State = GlobalNamespace::GlobalNamespace__MultiplayerScoreDiffText__State;
 
-using HorizontalPosition = ::GlobalNamespace::____GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition;
+using HorizontalPosition = GlobalNamespace::GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x98};
@@ -208,7 +207,7 @@ constexpr MultiplayerScoreDiffText(MultiplayerScoreDiffText const& ) noexcept = 
 constexpr MultiplayerScoreDiffText(MultiplayerScoreDiffText&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerScoreDiffText(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerScoreDiffText(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -229,23 +228,23 @@ constexpr explicit MultiplayerScoreDiffText(void* ptr) noexcept : ::UnityEngine:
 
 // Fields
 
- ::UnityEngine::Color __declspec(property(get=__get__activeTextColor, put=__set__activeTextColor))  _activeTextColor;
+ UnityEngine::Color __declspec(property(get=__get__activeTextColor, put=__set__activeTextColor))  _activeTextColor;
 
-constexpr void __set__activeTextColor(::UnityEngine::Color value) ;
+constexpr void __set__activeTextColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__activeTextColor() const;
+constexpr UnityEngine::Color __get__activeTextColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__normalBackgroundColor, put=__set__normalBackgroundColor))  _normalBackgroundColor;
+ UnityEngine::Color __declspec(property(get=__get__normalBackgroundColor, put=__set__normalBackgroundColor))  _normalBackgroundColor;
 
-constexpr void __set__normalBackgroundColor(::UnityEngine::Color value) ;
+constexpr void __set__normalBackgroundColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__normalBackgroundColor() const;
+constexpr UnityEngine::Color __get__normalBackgroundColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__leadingBackgroundColor, put=__set__leadingBackgroundColor))  _leadingBackgroundColor;
+ UnityEngine::Color __declspec(property(get=__get__leadingBackgroundColor, put=__set__leadingBackgroundColor))  _leadingBackgroundColor;
 
-constexpr void __set__leadingBackgroundColor(::UnityEngine::Color value) ;
+constexpr void __set__leadingBackgroundColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__leadingBackgroundColor() const;
+constexpr UnityEngine::Color __get__leadingBackgroundColor() const;
 
  bool __declspec(property(get=__get__useAutomaticLeadPlayerSelection, put=__set__useAutomaticLeadPlayerSelection))  _useAutomaticLeadPlayerSelection;
 
@@ -253,53 +252,53 @@ constexpr void __set__useAutomaticLeadPlayerSelection(bool value) ;
 
 constexpr bool __get__useAutomaticLeadPlayerSelection() const;
 
- ::TMPro::TextMeshPro __declspec(property(get=__get__onPlatformText, put=__set__onPlatformText))  _onPlatformText;
+ TMPro::TextMeshPro __declspec(property(get=__get__onPlatformText, put=__set__onPlatformText))  _onPlatformText;
 
-constexpr void __set__onPlatformText(::TMPro::TextMeshPro value) ;
+constexpr void __set__onPlatformText(TMPro::TextMeshPro value) ;
 
-constexpr ::TMPro::TextMeshPro __get__onPlatformText() const;
+constexpr TMPro::TextMeshPro __get__onPlatformText() const;
 
- ::UnityEngine::SpriteRenderer __declspec(property(get=__get__backgroundSpriteRenderer, put=__set__backgroundSpriteRenderer))  _backgroundSpriteRenderer;
+ UnityEngine::SpriteRenderer __declspec(property(get=__get__backgroundSpriteRenderer, put=__set__backgroundSpriteRenderer))  _backgroundSpriteRenderer;
 
-constexpr void __set__backgroundSpriteRenderer(::UnityEngine::SpriteRenderer value) ;
+constexpr void __set__backgroundSpriteRenderer(UnityEngine::SpriteRenderer value) ;
 
-constexpr ::UnityEngine::SpriteRenderer __get__backgroundSpriteRenderer() const;
+constexpr UnityEngine::SpriteRenderer __get__backgroundSpriteRenderer() const;
 
- ::Tweening::TimeTweeningManager __declspec(property(get=__get__tweeningManager, put=__set__tweeningManager))  _tweeningManager;
+ Tweening::TimeTweeningManager __declspec(property(get=__get__tweeningManager, put=__set__tweeningManager))  _tweeningManager;
 
-constexpr void __set__tweeningManager(::Tweening::TimeTweeningManager value) ;
+constexpr void __set__tweeningManager(Tweening::TimeTweeningManager value) ;
 
-constexpr ::Tweening::TimeTweeningManager __get__tweeningManager() const;
+constexpr Tweening::TimeTweeningManager __get__tweeningManager() const;
 
- ::GlobalNamespace::IConnectedPlayer __declspec(property(get=__get__connectedPlayer, put=__set__connectedPlayer))  _connectedPlayer;
+ GlobalNamespace::IConnectedPlayer __declspec(property(get=__get__connectedPlayer, put=__set__connectedPlayer))  _connectedPlayer;
 
-constexpr void __set__connectedPlayer(::GlobalNamespace::IConnectedPlayer value) ;
+constexpr void __set__connectedPlayer(GlobalNamespace::IConnectedPlayer value) ;
 
-constexpr ::GlobalNamespace::IConnectedPlayer __get__connectedPlayer() const;
+constexpr GlobalNamespace::IConnectedPlayer __get__connectedPlayer() const;
 
- ::GlobalNamespace::MultiplayerLeadPlayerProvider __declspec(property(get=__get__leadPlayerProvider, put=__set__leadPlayerProvider))  _leadPlayerProvider;
+ GlobalNamespace::MultiplayerLeadPlayerProvider __declspec(property(get=__get__leadPlayerProvider, put=__set__leadPlayerProvider))  _leadPlayerProvider;
 
-constexpr void __set__leadPlayerProvider(::GlobalNamespace::MultiplayerLeadPlayerProvider value) ;
+constexpr void __set__leadPlayerProvider(GlobalNamespace::MultiplayerLeadPlayerProvider value) ;
 
-constexpr ::GlobalNamespace::MultiplayerLeadPlayerProvider __get__leadPlayerProvider() const;
+constexpr GlobalNamespace::MultiplayerLeadPlayerProvider __get__leadPlayerProvider() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__currentBackgroundColor, put=__set__currentBackgroundColor))  _currentBackgroundColor;
+ UnityEngine::Color __declspec(property(get=__get__currentBackgroundColor, put=__set__currentBackgroundColor))  _currentBackgroundColor;
 
-constexpr void __set__currentBackgroundColor(::UnityEngine::Color value) ;
+constexpr void __set__currentBackgroundColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__currentBackgroundColor() const;
+constexpr UnityEngine::Color __get__currentBackgroundColor() const;
 
- ::GlobalNamespace::____GlobalNamespace__MultiplayerScoreDiffText__State __declspec(property(get=__get__state, put=__set__state))  _state;
+ GlobalNamespace::GlobalNamespace__MultiplayerScoreDiffText__State __declspec(property(get=__get__state, put=__set__state))  _state;
 
-constexpr void __set__state(::GlobalNamespace::____GlobalNamespace__MultiplayerScoreDiffText__State value) ;
+constexpr void __set__state(GlobalNamespace::GlobalNamespace__MultiplayerScoreDiffText__State value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__MultiplayerScoreDiffText__State __get__state() const;
+constexpr GlobalNamespace::GlobalNamespace__MultiplayerScoreDiffText__State __get__state() const;
 
- ::Tweening::FloatTween __declspec(property(get=__get__onPlatformTextAlphaTween, put=__set__onPlatformTextAlphaTween))  _onPlatformTextAlphaTween;
+ Tweening::FloatTween __declspec(property(get=__get__onPlatformTextAlphaTween, put=__set__onPlatformTextAlphaTween))  _onPlatformTextAlphaTween;
 
-constexpr void __set__onPlatformTextAlphaTween(::Tweening::FloatTween value) ;
+constexpr void __set__onPlatformTextAlphaTween(Tweening::FloatTween value) ;
 
-constexpr ::Tweening::FloatTween __get__onPlatformTextAlphaTween() const;
+constexpr Tweening::FloatTween __get__onPlatformTextAlphaTween() const;
 
 
 // Methods
@@ -311,7 +310,7 @@ constexpr ::Tweening::FloatTween __get__onPlatformTextAlphaTween() const;
  void OnDestroy() ;
 
 /// @brief Method SetHorizontalPositionRelativeToLocalPlayer addr 0x20e1bc0 size 0xd8 virtual false final false
- void SetHorizontalPositionRelativeToLocalPlayer(::GlobalNamespace::____GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition relativePosition) ;
+ void SetHorizontalPositionRelativeToLocalPlayer(GlobalNamespace::GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition relativePosition) ;
 
 /// @brief Method AnimateScoreDiff addr 0x20e1c98 size 0x1b0 virtual false final false
  void AnimateScoreDiff(int32_t scoreDiff) ;
@@ -344,8 +343,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition, "", "MultiplayerScoreDiffText/HorizontalPosition");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__MultiplayerScoreDiffText__State, "", "MultiplayerScoreDiffText/State");
-NEED_NO_BOX(::GlobalNamespace::MultiplayerScoreDiffText);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerScoreDiffText, "", "MultiplayerScoreDiffText");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition, "", "MultiplayerScoreDiffText/HorizontalPosition");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__MultiplayerScoreDiffText__State, "", "MultiplayerScoreDiffText/State");
+NEED_NO_BOX(GlobalNamespace::MultiplayerScoreDiffText);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerScoreDiffText, "", "MultiplayerScoreDiffText");

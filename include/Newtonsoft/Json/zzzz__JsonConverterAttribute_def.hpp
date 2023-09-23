@@ -3,7 +3,6 @@
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace System {
 class Type;
 }
@@ -17,7 +16,7 @@ namespace Newtonsoft::Json {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11759))
 // CS Name: Newtonsoft.Json.JsonConverterAttribute
-class CORDL_TYPE JsonConverterAttribute : public ::System::Attribute {
+class CORDL_TYPE JsonConverterAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr JsonConverterAttribute(JsonConverterAttribute const& ) noexcept = defa
 constexpr JsonConverterAttribute(JsonConverterAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit JsonConverterAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit JsonConverterAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -53,11 +52,11 @@ constexpr explicit JsonConverterAttribute(void* ptr) noexcept : ::System::Attrib
 
 // Fields
 
- ::System::Type __declspec(property(get=__get__converterType, put=__set__converterType))  _converterType;
+ System::Type __declspec(property(get=__get__converterType, put=__set__converterType))  _converterType;
 
-constexpr void __set__converterType(::System::Type value) ;
+constexpr void __set__converterType(System::Type value) ;
 
-constexpr ::System::Type __get__converterType() const;
+constexpr System::Type __get__converterType() const;
 
  ::ArrayW<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get__ConverterParameters_k__BackingField, put=__set__ConverterParameters_k__BackingField))  _ConverterParameters_k__BackingField;
 
@@ -68,7 +67,7 @@ constexpr ::ArrayW<::bs_hook::Il2CppWrapperType> __get__ConverterParameters_k__B
 
 // Properties
 
- ::System::Type __declspec(property(get=get_ConverterType))  ConverterType;
+ System::Type __declspec(property(get=get_ConverterType))  ConverterType;
 
  ::ArrayW<::bs_hook::Il2CppWrapperType> __declspec(property(get=get_ConverterParameters, put=set_ConverterParameters))  ConverterParameters;
 
@@ -76,7 +75,7 @@ constexpr ::ArrayW<::bs_hook::Il2CppWrapperType> __get__ConverterParameters_k__B
 // Methods
 
 /// @brief Method get_ConverterType addr 0x24c832c size 0x8 virtual false final false
- ::System::Type get_ConverterType() ;
+ System::Type get_ConverterType() ;
 
 /// @brief Method get_ConverterParameters addr 0x24c8334 size 0x8 virtual false final false
  ::ArrayW<::bs_hook::Il2CppWrapperType> get_ConverterParameters() ;
@@ -84,22 +83,21 @@ constexpr ::ArrayW<::bs_hook::Il2CppWrapperType> __get__ConverterParameters_k__B
 /// @brief Method set_ConverterParameters addr 0x24c833c size 0x8 virtual false final false
  void set_ConverterParameters(::ArrayW<::bs_hook::Il2CppWrapperType> value) ;
 
-// Ctor Parameters [CppParam { name: "converterType", ty: "::System::Type", modifiers: "", def_value: None }]
-explicit JsonConverterAttribute(::System::Type converterType) ;
+// Ctor Parameters [CppParam { name: "converterType", ty: "System::Type", modifiers: "", def_value: None }]
+explicit JsonConverterAttribute(System::Type converterType) ;
 
 /// @brief Method .ctor addr 0x24c8344 size 0x78 virtual false final false
- void _ctor(::System::Type converterType) ;
+ void _ctor(System::Type converterType) ;
 
-// Ctor Parameters [CppParam { name: "converterType", ty: "::System::Type", modifiers: "", def_value: None }, CppParam { name: "converterParameters", ty: "::ArrayW<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
-explicit JsonConverterAttribute(::System::Type converterType, ::ArrayW<::bs_hook::Il2CppWrapperType> converterParameters) ;
+// Ctor Parameters [CppParam { name: "converterType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "converterParameters", ty: "::ArrayW<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
+explicit JsonConverterAttribute(System::Type converterType, ::ArrayW<::bs_hook::Il2CppWrapperType> converterParameters) ;
 
 /// @brief Method .ctor addr 0x24c83bc size 0x24 virtual false final false
- void _ctor(::System::Type converterType, ::ArrayW<::bs_hook::Il2CppWrapperType> converterParameters) ;
+ void _ctor(System::Type converterType, ::ArrayW<::bs_hook::Il2CppWrapperType> converterParameters) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::JsonConverterAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonConverterAttribute, "Newtonsoft.Json", "JsonConverterAttribute");
+NEED_NO_BOX(Newtonsoft::Json::JsonConverterAttribute);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::JsonConverterAttribute, "Newtonsoft.Json", "JsonConverterAttribute");

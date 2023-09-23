@@ -1,6 +1,5 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
@@ -26,18 +25,17 @@ constexpr explicit IInputEventTypeInfo(void* ptr) noexcept : ::cordl_internals::
 
 // Properties
 
- ::UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_typeStatic))  typeStatic;
+ UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_typeStatic))  typeStatic;
 
 
 // Methods
 
 /// @brief Method get_typeStatic addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic() ;
+ UnityEngine::InputSystem::Utilities::FourCC get_typeStatic() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::LowLevel
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo, "UnityEngine.InputSystem.LowLevel", "IInputEventTypeInfo");
+NEED_NO_BOX(UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo, "UnityEngine.InputSystem.LowLevel", "IInputEventTypeInfo");

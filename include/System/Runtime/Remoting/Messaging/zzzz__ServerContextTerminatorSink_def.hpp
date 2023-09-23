@@ -1,12 +1,11 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
-}
 namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessageCtrl;
@@ -24,8 +23,8 @@ namespace System::Runtime::Remoting::Messaging {
 class CORDL_TYPE ServerContextTerminatorSink : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::Remoting::Messaging::IMessageSink
-constexpr operator  ::System::Runtime::Remoting::Messaging::IMessageSink() const noexcept;
+/// @brief Convert operator to System::Runtime::Remoting::Messaging::IMessageSink
+constexpr operator  System::Runtime::Remoting::Messaging::IMessageSink() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -61,10 +60,10 @@ constexpr explicit ServerContextTerminatorSink(void* ptr) noexcept : ::bs_hook::
 // Methods
 
 /// @brief Method SyncProcessMessage addr 0x234712c size 0x134 virtual true final true
- ::System::Runtime::Remoting::Messaging::IMessage SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage msg) ;
+ System::Runtime::Remoting::Messaging::IMessage SyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage msg) ;
 
 /// @brief Method AsyncProcessMessage addr 0x2347260 size 0xe8 virtual true final true
- ::System::Runtime::Remoting::Messaging::IMessageCtrl AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage msg, ::System::Runtime::Remoting::Messaging::IMessageSink replySink) ;
+ System::Runtime::Remoting::Messaging::IMessageCtrl AsyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage msg, System::Runtime::Remoting::Messaging::IMessageSink replySink) ;
 
 // Ctor Parameters []
 explicit ServerContextTerminatorSink() ;
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Messaging
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Messaging::ServerContextTerminatorSink);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::ServerContextTerminatorSink, "System.Runtime.Remoting.Messaging", "ServerContextTerminatorSink");
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::ServerContextTerminatorSink);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ServerContextTerminatorSink, "System.Runtime.Remoting.Messaging", "ServerContextTerminatorSink");

@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace System::Net {
 class IPEndPoint;
 }
@@ -113,13 +112,13 @@ explicit NetDataWriter(bool autoResize, int32_t initialSize) ;
  void _ctor(bool autoResize, int32_t initialSize) ;
 
 /// @brief Method FromBytes addr 0x20970b8 size 0xa0 virtual false final false
-static ::LiteNetLib::Utils::NetDataWriter FromBytes(::ArrayW<uint8_t> bytes, bool copy) ;
+static LiteNetLib::Utils::NetDataWriter FromBytes(::ArrayW<uint8_t> bytes, bool copy) ;
 
 /// @brief Method FromBytes addr 0x20971cc size 0x8c virtual false final false
-static ::LiteNetLib::Utils::NetDataWriter FromBytes(::ArrayW<uint8_t> bytes, int32_t offset, int32_t length) ;
+static LiteNetLib::Utils::NetDataWriter FromBytes(::ArrayW<uint8_t> bytes, int32_t offset, int32_t length) ;
 
 /// @brief Method FromString addr 0x208e78c size 0x70 virtual false final false
-static ::LiteNetLib::Utils::NetDataWriter FromString(::StringW value) ;
+static LiteNetLib::Utils::NetDataWriter FromString(::StringW value) ;
 
 /// @brief Method ResizeIfNeed addr 0x2097390 size 0x80 virtual false final false
  void ResizeIfNeed(int32_t newSize) ;
@@ -194,7 +193,7 @@ static ::LiteNetLib::Utils::NetDataWriter FromString(::StringW value) ;
  void Put(bool value) ;
 
 /// @brief Method PutArray addr 0x2097af8 size 0xac virtual false final false
- void PutArray(::System::Array arr, int32_t sz) ;
+ void PutArray(System::Array arr, int32_t sz) ;
 
 /// @brief Method PutArray addr 0x2097ba4 size 0x8 virtual false final false
  void PutArray(::ArrayW<float_t> value) ;
@@ -230,7 +229,7 @@ static ::LiteNetLib::Utils::NetDataWriter FromString(::StringW value) ;
  void PutArray(::ArrayW<::StringW> value, int32_t maxLength) ;
 
 /// @brief Method Put addr 0x2097df8 size 0x104c virtual false final false
- void Put(::System::Net::IPEndPoint endPoint) ;
+ void Put(System::Net::IPEndPoint endPoint) ;
 
 /// @brief Method Put addr 0x20972c4 size 0xcc virtual false final false
  void Put(::StringW value) ;
@@ -246,6 +245,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib::Utils
-} // end anonymous namespace
-NEED_NO_BOX(::LiteNetLib::Utils::NetDataWriter);
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::Utils::NetDataWriter, "LiteNetLib.Utils", "NetDataWriter");
+NEED_NO_BOX(LiteNetLib::Utils::NetDataWriter);
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NetDataWriter, "LiteNetLib.Utils", "NetDataWriter");

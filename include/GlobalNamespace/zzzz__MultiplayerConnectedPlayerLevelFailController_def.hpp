@@ -1,10 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class BeatmapObjectManager;
-}
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
@@ -13,6 +9,9 @@ class Action;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
+}
+namespace GlobalNamespace {
+class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
 class VFXController;
@@ -27,7 +26,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5226))
 // CS Name: MultiplayerConnectedPlayerLevelFailController
-class CORDL_TYPE MultiplayerConnectedPlayerLevelFailController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerConnectedPlayerLevelFailController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -42,7 +41,7 @@ constexpr MultiplayerConnectedPlayerLevelFailController(MultiplayerConnectedPlay
 constexpr MultiplayerConnectedPlayerLevelFailController(MultiplayerConnectedPlayerLevelFailController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerConnectedPlayerLevelFailController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerConnectedPlayerLevelFailController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -63,35 +62,35 @@ constexpr explicit MultiplayerConnectedPlayerLevelFailController(void* ptr) noex
 
 // Fields
 
- ::GlobalNamespace::VFXController __declspec(property(get=__get__failVFXController, put=__set__failVFXController))  _failVFXController;
+ GlobalNamespace::VFXController __declspec(property(get=__get__failVFXController, put=__set__failVFXController))  _failVFXController;
 
-constexpr void __set__failVFXController(::GlobalNamespace::VFXController value) ;
+constexpr void __set__failVFXController(GlobalNamespace::VFXController value) ;
 
-constexpr ::GlobalNamespace::VFXController __get__failVFXController() const;
+constexpr GlobalNamespace::VFXController __get__failVFXController() const;
 
- ::GlobalNamespace::IMultiplayerSessionManager __declspec(property(get=__get__multiplayerSessionManager, put=__set__multiplayerSessionManager))  _multiplayerSessionManager;
+ GlobalNamespace::IMultiplayerSessionManager __declspec(property(get=__get__multiplayerSessionManager, put=__set__multiplayerSessionManager))  _multiplayerSessionManager;
 
-constexpr void __set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager value) ;
+constexpr void __set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager value) ;
 
-constexpr ::GlobalNamespace::IMultiplayerSessionManager __get__multiplayerSessionManager() const;
+constexpr GlobalNamespace::IMultiplayerSessionManager __get__multiplayerSessionManager() const;
 
- ::GlobalNamespace::BeatmapObjectManager __declspec(property(get=__get__beatmapObjectManager, put=__set__beatmapObjectManager))  _beatmapObjectManager;
+ GlobalNamespace::BeatmapObjectManager __declspec(property(get=__get__beatmapObjectManager, put=__set__beatmapObjectManager))  _beatmapObjectManager;
 
-constexpr void __set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager value) ;
+constexpr void __set__beatmapObjectManager(GlobalNamespace::BeatmapObjectManager value) ;
 
-constexpr ::GlobalNamespace::BeatmapObjectManager __get__beatmapObjectManager() const;
+constexpr GlobalNamespace::BeatmapObjectManager __get__beatmapObjectManager() const;
 
- ::GlobalNamespace::IConnectedPlayer __declspec(property(get=__get__connectedPlayer, put=__set__connectedPlayer))  _connectedPlayer;
+ GlobalNamespace::IConnectedPlayer __declspec(property(get=__get__connectedPlayer, put=__set__connectedPlayer))  _connectedPlayer;
 
-constexpr void __set__connectedPlayer(::GlobalNamespace::IConnectedPlayer value) ;
+constexpr void __set__connectedPlayer(GlobalNamespace::IConnectedPlayer value) ;
 
-constexpr ::GlobalNamespace::IConnectedPlayer __get__connectedPlayer() const;
+constexpr GlobalNamespace::IConnectedPlayer __get__connectedPlayer() const;
 
- ::System::Action __declspec(property(get=__get_playerDidFailEvent, put=__set_playerDidFailEvent))  playerDidFailEvent;
+ System::Action __declspec(property(get=__get_playerDidFailEvent, put=__set_playerDidFailEvent))  playerDidFailEvent;
 
-constexpr void __set_playerDidFailEvent(::System::Action value) ;
+constexpr void __set_playerDidFailEvent(System::Action value) ;
 
-constexpr ::System::Action __get_playerDidFailEvent() const;
+constexpr System::Action __get_playerDidFailEvent() const;
 
  bool __declspec(property(get=__get__wasActive, put=__set__wasActive))  _wasActive;
 
@@ -103,10 +102,10 @@ constexpr bool __get__wasActive() const;
 // Methods
 
 /// @brief Method add_playerDidFailEvent addr 0x20e0028 size 0x9c virtual false final false
- void add_playerDidFailEvent(::System::Action value) ;
+ void add_playerDidFailEvent(System::Action value) ;
 
 /// @brief Method remove_playerDidFailEvent addr 0x20dfb44 size 0x9c virtual false final false
- void remove_playerDidFailEvent(::System::Action value) ;
+ void remove_playerDidFailEvent(System::Action value) ;
 
 /// @brief Method Start addr 0x20e0ea8 size 0x1a8 virtual false final false
  void Start() ;
@@ -115,13 +114,13 @@ constexpr bool __get__wasActive() const;
  void OnDestroy() ;
 
 /// @brief Method CheckIfPlayerFailed addr 0x20e11f4 size 0x1ec virtual false final false
- void CheckIfPlayerFailed(::GlobalNamespace::IConnectedPlayer player) ;
+ void CheckIfPlayerFailed(GlobalNamespace::IConnectedPlayer player) ;
 
 /// @brief Method HandlePlayerDisconnected addr 0x20e13e0 size 0x4 virtual false final false
- void HandlePlayerDisconnected(::GlobalNamespace::IConnectedPlayer player) ;
+ void HandlePlayerDisconnected(GlobalNamespace::IConnectedPlayer player) ;
 
 /// @brief Method HandlePlayerStateChanged addr 0x20e13e4 size 0x4 virtual false final false
- void HandlePlayerStateChanged(::GlobalNamespace::IConnectedPlayer player) ;
+ void HandlePlayerStateChanged(GlobalNamespace::IConnectedPlayer player) ;
 
 // Ctor Parameters []
 explicit MultiplayerConnectedPlayerLevelFailController() ;
@@ -133,6 +132,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController, "", "MultiplayerConnectedPlayerLevelFailController");
+NEED_NO_BOX(GlobalNamespace::MultiplayerConnectedPlayerLevelFailController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerLevelFailController, "", "MultiplayerConnectedPlayerLevelFailController");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform {
 struct NetSyncDisconnectReason;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::Oculus::Platform::NetSyncDisconnectReason const Unknown;
+static Oculus::Platform::NetSyncDisconnectReason const Unknown;
 
 /// @brief Field LocalTerminated offset 0
-static ::Oculus::Platform::NetSyncDisconnectReason const LocalTerminated;
+static Oculus::Platform::NetSyncDisconnectReason const LocalTerminated;
 
 /// @brief Field ServerTerminated offset 0
-static ::Oculus::Platform::NetSyncDisconnectReason const ServerTerminated;
+static Oculus::Platform::NetSyncDisconnectReason const ServerTerminated;
 
 /// @brief Field Failed offset 0
-static ::Oculus::Platform::NetSyncDisconnectReason const Failed;
+static Oculus::Platform::NetSyncDisconnectReason const Failed;
 
 /// @brief Field Lost offset 0
-static ::Oculus::Platform::NetSyncDisconnectReason const Lost;
+static Oculus::Platform::NetSyncDisconnectReason const Lost;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::NetSyncDisconnectReason, "Oculus.Platform", "NetSyncDisconnectReason");
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::NetSyncDisconnectReason, "Oculus.Platform", "NetSyncDisconnectReason");

@@ -1,7 +1,9 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_1_def.hpp"
-namespace {
+namespace UnityEngine::UIElements {
+class IEventHandler;
+}
 namespace UnityEngine::UIElements {
 class Focusable;
 }
@@ -10,9 +12,6 @@ class FocusChangeDirection;
 }
 namespace UnityEngine::UIElements {
 class FocusController;
-}
-namespace UnityEngine::UIElements {
-class IEventHandler;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -29,10 +28,10 @@ namespace UnityEngine::UIElements {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7331)), TypeDefinitionIndex(TypeDefinitionIndex(7279)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7279), inst: 1629 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7279), inst: 1629 }), TypeDefinitionIndex(TypeDefinitionIndex(7279)), TypeDefinitionIndex(TypeDefinitionIndex(7331))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7331), inst: 2 })
 // CS Name: UnityEngine.UIElements.FocusEventBase`1
-class CORDL_TYPE FocusEventBase_1<T> : public ::UnityEngine::UIElements::EventBase_1<T> {
+class CORDL_TYPE FocusEventBase_1<T> : public UnityEngine::UIElements::EventBase_1<T> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -47,7 +46,7 @@ constexpr FocusEventBase_1(FocusEventBase_1 const& ) noexcept = default;
 constexpr FocusEventBase_1(FocusEventBase_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FocusEventBase_1(void* ptr) noexcept : ::UnityEngine::UIElements::EventBase_1<T>(ptr) {
+constexpr explicit FocusEventBase_1(void* ptr) noexcept : UnityEngine::UIElements::EventBase_1<T>(ptr) {
 }
 
 
@@ -68,23 +67,23 @@ constexpr explicit FocusEventBase_1(void* ptr) noexcept : ::UnityEngine::UIEleme
 
 // Fields
 
- ::UnityEngine::UIElements::Focusable __declspec(property(get=__get__relatedTarget_k__BackingField, put=__set__relatedTarget_k__BackingField))  _relatedTarget_k__BackingField;
+ UnityEngine::UIElements::Focusable __declspec(property(get=__get__relatedTarget_k__BackingField, put=__set__relatedTarget_k__BackingField))  _relatedTarget_k__BackingField;
 
-constexpr void __set__relatedTarget_k__BackingField(::UnityEngine::UIElements::Focusable value) ;
+constexpr void __set__relatedTarget_k__BackingField(UnityEngine::UIElements::Focusable value) ;
 
-constexpr ::UnityEngine::UIElements::Focusable __get__relatedTarget_k__BackingField() const;
+constexpr UnityEngine::UIElements::Focusable __get__relatedTarget_k__BackingField() const;
 
- ::UnityEngine::UIElements::FocusChangeDirection __declspec(property(get=__get__direction_k__BackingField, put=__set__direction_k__BackingField))  _direction_k__BackingField;
+ UnityEngine::UIElements::FocusChangeDirection __declspec(property(get=__get__direction_k__BackingField, put=__set__direction_k__BackingField))  _direction_k__BackingField;
 
-constexpr void __set__direction_k__BackingField(::UnityEngine::UIElements::FocusChangeDirection value) ;
+constexpr void __set__direction_k__BackingField(UnityEngine::UIElements::FocusChangeDirection value) ;
 
-constexpr ::UnityEngine::UIElements::FocusChangeDirection __get__direction_k__BackingField() const;
+constexpr UnityEngine::UIElements::FocusChangeDirection __get__direction_k__BackingField() const;
 
- ::UnityEngine::UIElements::FocusController __declspec(property(get=__get__focusController_k__BackingField, put=__set__focusController_k__BackingField))  _focusController_k__BackingField;
+ UnityEngine::UIElements::FocusController __declspec(property(get=__get__focusController_k__BackingField, put=__set__focusController_k__BackingField))  _focusController_k__BackingField;
 
-constexpr void __set__focusController_k__BackingField(::UnityEngine::UIElements::FocusController value) ;
+constexpr void __set__focusController_k__BackingField(UnityEngine::UIElements::FocusController value) ;
 
-constexpr ::UnityEngine::UIElements::FocusController __get__focusController_k__BackingField() const;
+constexpr UnityEngine::UIElements::FocusController __get__focusController_k__BackingField() const;
 
  bool __declspec(property(get=__get__IsFocusDelegated_k__BackingField, put=__set__IsFocusDelegated_k__BackingField))  _IsFocusDelegated_k__BackingField;
 
@@ -95,11 +94,11 @@ constexpr bool __get__IsFocusDelegated_k__BackingField() const;
 
 // Properties
 
- ::UnityEngine::UIElements::Focusable __declspec(property(get=get_relatedTarget, put=set_relatedTarget))  relatedTarget;
+ UnityEngine::UIElements::Focusable __declspec(property(get=get_relatedTarget, put=set_relatedTarget))  relatedTarget;
 
- ::UnityEngine::UIElements::FocusChangeDirection __declspec(property(get=get_direction, put=set_direction))  direction;
+ UnityEngine::UIElements::FocusChangeDirection __declspec(property(get=get_direction, put=set_direction))  direction;
 
- ::UnityEngine::UIElements::FocusController __declspec(property(get=get_focusController, put=set_focusController))  focusController;
+ UnityEngine::UIElements::FocusController __declspec(property(get=get_focusController, put=set_focusController))  focusController;
 
  bool __declspec(property(get=get_IsFocusDelegated, put=set_IsFocusDelegated))  IsFocusDelegated;
 
@@ -107,22 +106,22 @@ constexpr bool __get__IsFocusDelegated_k__BackingField() const;
 // Methods
 
 /// @brief Method get_relatedTarget addr 0x0 size 0xffffffffffffffff virtual true final true
- ::UnityEngine::UIElements::Focusable get_relatedTarget() ;
+ UnityEngine::UIElements::Focusable get_relatedTarget() ;
 
 /// @brief Method set_relatedTarget addr 0x0 size 0xffffffffffffffff virtual false final false
- void set_relatedTarget(::UnityEngine::UIElements::Focusable value) ;
+ void set_relatedTarget(UnityEngine::UIElements::Focusable value) ;
 
 /// @brief Method get_direction addr 0x0 size 0xffffffffffffffff virtual true final true
- ::UnityEngine::UIElements::FocusChangeDirection get_direction() ;
+ UnityEngine::UIElements::FocusChangeDirection get_direction() ;
 
 /// @brief Method set_direction addr 0x0 size 0xffffffffffffffff virtual false final false
- void set_direction(::UnityEngine::UIElements::FocusChangeDirection value) ;
+ void set_direction(UnityEngine::UIElements::FocusChangeDirection value) ;
 
 /// @brief Method get_focusController addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::UIElements::FocusController get_focusController() ;
+ UnityEngine::UIElements::FocusController get_focusController() ;
 
 /// @brief Method set_focusController addr 0x0 size 0xffffffffffffffff virtual false final false
- void set_focusController(::UnityEngine::UIElements::FocusController value) ;
+ void set_focusController(UnityEngine::UIElements::FocusController value) ;
 
 /// @brief Method get_IsFocusDelegated addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_IsFocusDelegated() ;
@@ -137,7 +136,7 @@ constexpr bool __get__IsFocusDelegated_k__BackingField() const;
  void LocalInit() ;
 
 /// @brief Method GetPooled addr 0x0 size 0xffffffffffffffff virtual false final false
-static T GetPooled(::UnityEngine::UIElements::IEventHandler target, ::UnityEngine::UIElements::Focusable relatedTarget, ::UnityEngine::UIElements::FocusChangeDirection direction, ::UnityEngine::UIElements::FocusController focusController, bool bIsFocusDelegated) ;
+static T GetPooled(UnityEngine::UIElements::IEventHandler target, UnityEngine::UIElements::Focusable relatedTarget, UnityEngine::UIElements::FocusChangeDirection direction, UnityEngine::UIElements::FocusController focusController, bool bIsFocusDelegated) ;
 
 // Ctor Parameters []
 explicit FocusEventBase_1() ;
@@ -149,5 +148,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::FocusEventBase_1, "UnityEngine.UIElements", "FocusEventBase`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::UIElements::FocusEventBase_1, "UnityEngine.UIElements", "FocusEventBase`1");

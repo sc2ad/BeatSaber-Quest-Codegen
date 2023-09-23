@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Unity::IO::LowLevel::Unsafe {
 struct Priority;
@@ -67,14 +66,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field PriorityLow offset 0
-static ::Unity::IO::LowLevel::Unsafe::Priority const PriorityLow;
+static Unity::IO::LowLevel::Unsafe::Priority const PriorityLow;
 
 /// @brief Field PriorityHigh offset 0
-static ::Unity::IO::LowLevel::Unsafe::Priority const PriorityHigh;
+static Unity::IO::LowLevel::Unsafe::Priority const PriorityHigh;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Unity::IO::LowLevel::Unsafe
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Unity::IO::LowLevel::Unsafe::Priority, "Unity.IO.LowLevel.Unsafe", "Priority");
+DEFINE_IL2CPP_ARG_TYPE(Unity::IO::LowLevel::Unsafe::Priority, "Unity.IO.LowLevel.Unsafe", "Priority");

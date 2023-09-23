@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace GlobalNamespace {
 class PosesRecordingData;
 }
@@ -28,13 +27,13 @@ constexpr explicit IPosesSerializer(void* ptr) noexcept : ::cordl_internals::Int
 // Methods
 
 /// @brief Method SaveToOldFormat addr 0x0 size 0xffffffffffffffff virtual true final false
- void SaveToOldFormat(::StringW path, ::GlobalNamespace::PosesRecordingData data) ;
+ void SaveToOldFormat(::StringW path, GlobalNamespace::PosesRecordingData data) ;
 
 /// @brief Method SaveRecording addr 0x0 size 0xffffffffffffffff virtual true final false
- void SaveRecording(::StringW path, ::GlobalNamespace::PosesRecordingData data, bool saveToOldFormat) ;
+ void SaveRecording(::StringW path, GlobalNamespace::PosesRecordingData data, bool saveToOldFormat) ;
 
 /// @brief Method LoadRecording addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::PosesRecordingData LoadRecording(::StringW path) ;
+ GlobalNamespace::PosesRecordingData LoadRecording(::StringW path) ;
 
 /// @brief Method RecordingExists addr 0x0 size 0xffffffffffffffff virtual true final false
  bool RecordingExists(::StringW path) ;
@@ -46,6 +45,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IPosesSerializer);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IPosesSerializer, "", "IPosesSerializer");
+NEED_NO_BOX(GlobalNamespace::IPosesSerializer);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IPosesSerializer, "", "IPosesSerializer");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Text {
 class DecoderFallbackBuffer;
 }
@@ -52,24 +51,24 @@ constexpr explicit DecoderFallback(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Fields
 
-static ::System::Text::DecoderFallback __declspec(property(get=__get_s_replacementFallback, put=__set_s_replacementFallback))  s_replacementFallback;
+static System::Text::DecoderFallback __declspec(property(get=__get_s_replacementFallback, put=__set_s_replacementFallback))  s_replacementFallback;
 
-static void __set_s_replacementFallback(::System::Text::DecoderFallback value) ;
+static void __set_s_replacementFallback(System::Text::DecoderFallback value) ;
 
-static ::System::Text::DecoderFallback __get_s_replacementFallback() ;
+static System::Text::DecoderFallback __get_s_replacementFallback() ;
 
-static ::System::Text::DecoderFallback __declspec(property(get=__get_s_exceptionFallback, put=__set_s_exceptionFallback))  s_exceptionFallback;
+static System::Text::DecoderFallback __declspec(property(get=__get_s_exceptionFallback, put=__set_s_exceptionFallback))  s_exceptionFallback;
 
-static void __set_s_exceptionFallback(::System::Text::DecoderFallback value) ;
+static void __set_s_exceptionFallback(System::Text::DecoderFallback value) ;
 
-static ::System::Text::DecoderFallback __get_s_exceptionFallback() ;
+static System::Text::DecoderFallback __get_s_exceptionFallback() ;
 
 
 // Properties
 
-static ::System::Text::DecoderFallback __declspec(property(get=get_ReplacementFallback))  ReplacementFallback;
+static System::Text::DecoderFallback __declspec(property(get=get_ReplacementFallback))  ReplacementFallback;
 
-static ::System::Text::DecoderFallback __declspec(property(get=get_ExceptionFallback))  ExceptionFallback;
+static System::Text::DecoderFallback __declspec(property(get=get_ExceptionFallback))  ExceptionFallback;
 
  int32_t __declspec(property(get=get_MaxCharCount))  MaxCharCount;
 
@@ -77,13 +76,13 @@ static ::System::Text::DecoderFallback __declspec(property(get=get_ExceptionFall
 // Methods
 
 /// @brief Method get_ReplacementFallback addr 0x24bfa28 size 0x9c virtual false final false
-static ::System::Text::DecoderFallback get_ReplacementFallback() ;
+static System::Text::DecoderFallback get_ReplacementFallback() ;
 
 /// @brief Method get_ExceptionFallback addr 0x24c2e80 size 0xa4 virtual false final false
-static ::System::Text::DecoderFallback get_ExceptionFallback() ;
+static System::Text::DecoderFallback get_ExceptionFallback() ;
 
 /// @brief Method CreateFallbackBuffer addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Text::DecoderFallbackBuffer CreateFallbackBuffer() ;
+ System::Text::DecoderFallbackBuffer CreateFallbackBuffer() ;
 
 /// @brief Method get_MaxCharCount addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t get_MaxCharCount() ;
@@ -98,6 +97,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Text
-} // end anonymous namespace
-NEED_NO_BOX(::System::Text::DecoderFallback);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::DecoderFallback, "System.Text", "DecoderFallback");
+NEED_NO_BOX(System::Text::DecoderFallback);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::DecoderFallback, "System.Text", "DecoderFallback");

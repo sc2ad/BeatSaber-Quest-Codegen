@@ -1,19 +1,18 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
 namespace GlobalNamespace {
-class OVRGLTFAnimatinonNode;
+struct OVRGLTFInputNode;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace UnityEngine {
-class GameObject;
-}
 namespace GlobalNamespace {
-struct OVRGLTFInputNode;
+class OVRGLTFAnimatinonNode;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -32,8 +31,8 @@ namespace GlobalNamespace {
 struct CORDL_TYPE OVRGLTFScene : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "root", ty: "::UnityEngine::GameObject", modifiers: "", def_value: None }, CppParam { name: "nodes", ty: "::System::Collections::Generic::List_1<::UnityEngine::GameObject>", modifiers: "", def_value: None }, CppParam { name: "animationNodes", ty: "::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode,::GlobalNamespace::OVRGLTFAnimatinonNode>", modifiers: "", def_value: None }]
-constexpr OVRGLTFScene(::UnityEngine::GameObject root, ::System::Collections::Generic::List_1<::UnityEngine::GameObject> nodes, ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode,::GlobalNamespace::OVRGLTFAnimatinonNode> animationNodes) noexcept;
+// Ctor Parameters [CppParam { name: "root", ty: "UnityEngine::GameObject", modifiers: "", def_value: None }, CppParam { name: "nodes", ty: "System::Collections::Generic::List_1<UnityEngine::GameObject>", modifiers: "", def_value: None }, CppParam { name: "animationNodes", ty: "System::Collections::Generic::Dictionary_2<GlobalNamespace::OVRGLTFInputNode,GlobalNamespace::OVRGLTFAnimatinonNode>", modifiers: "", def_value: None }]
+constexpr OVRGLTFScene(UnityEngine::GameObject root, System::Collections::Generic::List_1<UnityEngine::GameObject> nodes, System::Collections::Generic::Dictionary_2<GlobalNamespace::OVRGLTFInputNode,GlobalNamespace::OVRGLTFAnimatinonNode> animationNodes) noexcept;
 
 
                     constexpr OVRGLTFScene(OVRGLTFScene const&) = default;
@@ -66,27 +65,26 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::GameObject __declspec(property(get=__get_root, put=__set_root))  root;
+ UnityEngine::GameObject __declspec(property(get=__get_root, put=__set_root))  root;
 
-constexpr void __set_root(::UnityEngine::GameObject value) ;
+constexpr void __set_root(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get_root() const;
+constexpr UnityEngine::GameObject __get_root() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::GameObject> __declspec(property(get=__get_nodes, put=__set_nodes))  nodes;
+ System::Collections::Generic::List_1<UnityEngine::GameObject> __declspec(property(get=__get_nodes, put=__set_nodes))  nodes;
 
-constexpr void __set_nodes(::System::Collections::Generic::List_1<::UnityEngine::GameObject> value) ;
+constexpr void __set_nodes(System::Collections::Generic::List_1<UnityEngine::GameObject> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::GameObject> __get_nodes() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::GameObject> __get_nodes() const;
 
- ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode,::GlobalNamespace::OVRGLTFAnimatinonNode> __declspec(property(get=__get_animationNodes, put=__set_animationNodes))  animationNodes;
+ System::Collections::Generic::Dictionary_2<GlobalNamespace::OVRGLTFInputNode,GlobalNamespace::OVRGLTFAnimatinonNode> __declspec(property(get=__get_animationNodes, put=__set_animationNodes))  animationNodes;
 
-constexpr void __set_animationNodes(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode,::GlobalNamespace::OVRGLTFAnimatinonNode> value) ;
+constexpr void __set_animationNodes(System::Collections::Generic::Dictionary_2<GlobalNamespace::OVRGLTFInputNode,GlobalNamespace::OVRGLTFAnimatinonNode> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode,::GlobalNamespace::OVRGLTFAnimatinonNode> __get_animationNodes() const;
+constexpr System::Collections::Generic::Dictionary_2<GlobalNamespace::OVRGLTFInputNode,GlobalNamespace::OVRGLTFAnimatinonNode> __get_animationNodes() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRGLTFScene, "", "OVRGLTFScene");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRGLTFScene, "", "OVRGLTFScene");

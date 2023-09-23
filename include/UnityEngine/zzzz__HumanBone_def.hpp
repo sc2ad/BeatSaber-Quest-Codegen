@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
-namespace {
 namespace UnityEngine {
 struct HumanLimit;
 }
@@ -19,8 +18,8 @@ namespace UnityEngine {
 struct CORDL_TYPE HumanBone : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "m_BoneName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_HumanName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "limit", ty: "::UnityEngine::HumanLimit", modifiers: "", def_value: None }]
-constexpr HumanBone(::StringW m_BoneName, ::StringW m_HumanName, ::UnityEngine::HumanLimit limit) noexcept;
+// Ctor Parameters [CppParam { name: "m_BoneName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_HumanName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "limit", ty: "UnityEngine::HumanLimit", modifiers: "", def_value: None }]
+constexpr HumanBone(::StringW m_BoneName, ::StringW m_HumanName, UnityEngine::HumanLimit limit) noexcept;
 
 
                     constexpr HumanBone(HumanBone const&) = default;
@@ -65,15 +64,14 @@ constexpr void __set_m_HumanName(::StringW value) ;
 
 constexpr ::StringW __get_m_HumanName() const;
 
- ::UnityEngine::HumanLimit __declspec(property(get=__get_limit, put=__set_limit))  limit;
+ UnityEngine::HumanLimit __declspec(property(get=__get_limit, put=__set_limit))  limit;
 
-constexpr void __set_limit(::UnityEngine::HumanLimit value) ;
+constexpr void __set_limit(UnityEngine::HumanLimit value) ;
 
-constexpr ::UnityEngine::HumanLimit __get_limit() const;
+constexpr UnityEngine::HumanLimit __get_limit() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::HumanBone, "UnityEngine", "HumanBone");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HumanBone, "UnityEngine", "HumanBone");

@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto::Tls {
-class UseSrtpData;
-}
 namespace System::Collections {
 class IDictionary;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class UseSrtpData;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -57,16 +56,16 @@ constexpr explicit TlsSRTPUtils(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 // Methods
 
 /// @brief Method AddUseSrtpExtension addr 0xf2bc68 size 0xf0 virtual false final false
-static void AddUseSrtpExtension(::System::Collections::IDictionary extensions, ::Org::BouncyCastle::Crypto::Tls::UseSrtpData useSRTPData) ;
+static void AddUseSrtpExtension(System::Collections::IDictionary extensions, Org::BouncyCastle::Crypto::Tls::UseSrtpData useSRTPData) ;
 
 /// @brief Method GetUseSrtpExtension addr 0xf2be74 size 0x6c virtual false final false
-static ::Org::BouncyCastle::Crypto::Tls::UseSrtpData GetUseSrtpExtension(::System::Collections::IDictionary extensions) ;
+static Org::BouncyCastle::Crypto::Tls::UseSrtpData GetUseSrtpExtension(System::Collections::IDictionary extensions) ;
 
 /// @brief Method CreateUseSrtpExtension addr 0xf2bd58 size 0x11c virtual false final false
-static ::ArrayW<uint8_t> CreateUseSrtpExtension(::Org::BouncyCastle::Crypto::Tls::UseSrtpData useSrtpData) ;
+static ::ArrayW<uint8_t> CreateUseSrtpExtension(Org::BouncyCastle::Crypto::Tls::UseSrtpData useSrtpData) ;
 
 /// @brief Method ReadUseSrtpExtension addr 0xf2bee0 size 0x18c virtual false final false
-static ::Org::BouncyCastle::Crypto::Tls::UseSrtpData ReadUseSrtpExtension(::ArrayW<uint8_t> extensionData) ;
+static Org::BouncyCastle::Crypto::Tls::UseSrtpData ReadUseSrtpExtension(::ArrayW<uint8_t> extensionData) ;
 
 // Ctor Parameters []
 explicit TlsSRTPUtils() ;
@@ -78,6 +77,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsSRTPUtils);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::TlsSRTPUtils, "Org.BouncyCastle.Crypto.Tls", "TlsSRTPUtils");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::TlsSRTPUtils);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::TlsSRTPUtils, "Org.BouncyCastle.Crypto.Tls", "TlsSRTPUtils");

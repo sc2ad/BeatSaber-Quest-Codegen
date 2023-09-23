@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine::Yoga {
 class Logger;
 }
@@ -53,11 +52,11 @@ constexpr explicit YogaConfig(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType
 
 // Fields
 
-static ::UnityEngine::Yoga::YogaConfig __declspec(property(get=__get_Default, put=__set_Default))  Default;
+static UnityEngine::Yoga::YogaConfig __declspec(property(get=__get_Default, put=__set_Default))  Default;
 
-static void __set_Default(::UnityEngine::Yoga::YogaConfig value) ;
+static void __set_Default(UnityEngine::Yoga::YogaConfig value) ;
 
-static ::UnityEngine::Yoga::YogaConfig __get_Default() ;
+static UnityEngine::Yoga::YogaConfig __get_Default() ;
 
  ::cordl_internals::intptr_t __declspec(property(get=__get__ygConfig, put=__set__ygConfig))  _ygConfig;
 
@@ -65,11 +64,11 @@ constexpr void __set__ygConfig(::cordl_internals::intptr_t value) ;
 
 constexpr ::cordl_internals::intptr_t __get__ygConfig() const;
 
- ::UnityEngine::Yoga::Logger __declspec(property(get=__get__logger, put=__set__logger))  _logger;
+ UnityEngine::Yoga::Logger __declspec(property(get=__get__logger, put=__set__logger))  _logger;
 
-constexpr void __set__logger(::UnityEngine::Yoga::Logger value) ;
+constexpr void __set__logger(UnityEngine::Yoga::Logger value) ;
 
-constexpr ::UnityEngine::Yoga::Logger __get__logger() const;
+constexpr UnityEngine::Yoga::Logger __get__logger() const;
 
 
 // Properties
@@ -114,6 +113,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Yoga
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Yoga::YogaConfig);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Yoga::YogaConfig, "UnityEngine.Yoga", "YogaConfig");
+NEED_NO_BOX(UnityEngine::Yoga::YogaConfig);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Yoga::YogaConfig, "UnityEngine.Yoga", "YogaConfig");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/zzzz__Sensor_def.hpp"
-namespace {
 namespace UnityEngine::InputSystem::Controls {
 class AxisControl;
 }
@@ -15,7 +14,7 @@ namespace UnityEngine::InputSystem {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6357))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6366))
 // CS Name: UnityEngine.InputSystem.ProximitySensor
-class CORDL_TYPE ProximitySensor : public ::UnityEngine::InputSystem::Sensor {
+class CORDL_TYPE ProximitySensor : public UnityEngine::InputSystem::Sensor {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr ProximitySensor(ProximitySensor const& ) noexcept = default;
 constexpr ProximitySensor(ProximitySensor&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ProximitySensor(void* ptr) noexcept : ::UnityEngine::InputSystem::Sensor(ptr) {
+constexpr explicit ProximitySensor(void* ptr) noexcept : UnityEngine::InputSystem::Sensor(ptr) {
 }
 
 
@@ -51,39 +50,39 @@ constexpr explicit ProximitySensor(void* ptr) noexcept : ::UnityEngine::InputSys
 
 // Fields
 
- ::UnityEngine::InputSystem::Controls::AxisControl __declspec(property(get=__get__distance_k__BackingField, put=__set__distance_k__BackingField))  _distance_k__BackingField;
+ UnityEngine::InputSystem::Controls::AxisControl __declspec(property(get=__get__distance_k__BackingField, put=__set__distance_k__BackingField))  _distance_k__BackingField;
 
-constexpr void __set__distance_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl value) ;
+constexpr void __set__distance_k__BackingField(UnityEngine::InputSystem::Controls::AxisControl value) ;
 
-constexpr ::UnityEngine::InputSystem::Controls::AxisControl __get__distance_k__BackingField() const;
+constexpr UnityEngine::InputSystem::Controls::AxisControl __get__distance_k__BackingField() const;
 
-static ::UnityEngine::InputSystem::ProximitySensor __declspec(property(get=__get__current_k__BackingField, put=__set__current_k__BackingField))  _current_k__BackingField;
+static UnityEngine::InputSystem::ProximitySensor __declspec(property(get=__get__current_k__BackingField, put=__set__current_k__BackingField))  _current_k__BackingField;
 
-static void __set__current_k__BackingField(::UnityEngine::InputSystem::ProximitySensor value) ;
+static void __set__current_k__BackingField(UnityEngine::InputSystem::ProximitySensor value) ;
 
-static ::UnityEngine::InputSystem::ProximitySensor __get__current_k__BackingField() ;
+static UnityEngine::InputSystem::ProximitySensor __get__current_k__BackingField() ;
 
 
 // Properties
 
- ::UnityEngine::InputSystem::Controls::AxisControl __declspec(property(get=get_distance, put=set_distance))  distance;
+ UnityEngine::InputSystem::Controls::AxisControl __declspec(property(get=get_distance, put=set_distance))  distance;
 
-static ::UnityEngine::InputSystem::ProximitySensor __declspec(property(get=get_current, put=set_current))  current;
+static UnityEngine::InputSystem::ProximitySensor __declspec(property(get=get_current, put=set_current))  current;
 
 
 // Methods
 
 /// @brief Method get_distance addr 0x2916244 size 0x8 virtual false final false
- ::UnityEngine::InputSystem::Controls::AxisControl get_distance() ;
+ UnityEngine::InputSystem::Controls::AxisControl get_distance() ;
 
 /// @brief Method set_distance addr 0x291624c size 0x8 virtual false final false
- void set_distance(::UnityEngine::InputSystem::Controls::AxisControl value) ;
+ void set_distance(UnityEngine::InputSystem::Controls::AxisControl value) ;
 
 /// @brief Method get_current addr 0x2916254 size 0x48 virtual false final false
-static ::UnityEngine::InputSystem::ProximitySensor get_current() ;
+static UnityEngine::InputSystem::ProximitySensor get_current() ;
 
 /// @brief Method set_current addr 0x291629c size 0x4c virtual false final false
-static void set_current(::UnityEngine::InputSystem::ProximitySensor value) ;
+static void set_current(UnityEngine::InputSystem::ProximitySensor value) ;
 
 /// @brief Method MakeCurrent addr 0x29162e8 size 0x54 virtual true final false
  void MakeCurrent() ;
@@ -104,6 +103,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::ProximitySensor);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::ProximitySensor, "UnityEngine.InputSystem", "ProximitySensor");
+NEED_NO_BOX(UnityEngine::InputSystem::ProximitySensor);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::ProximitySensor, "UnityEngine.InputSystem", "ProximitySensor");

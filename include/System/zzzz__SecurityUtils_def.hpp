@@ -2,18 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace System::Reflection {
 struct BindingFlags;
 }
 namespace System::Reflection {
 class MethodInfo;
 }
-namespace System {
-class Type;
-}
 namespace System::Reflection {
 class Assembly;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System {
@@ -62,36 +61,35 @@ constexpr explicit SecurityUtils(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 // Methods
 
 /// @brief Method DemandReflectionAccess addr 0x27b6300 size 0x4 virtual false final false
-static void DemandReflectionAccess(::System::Type type) ;
+static void DemandReflectionAccess(System::Type type) ;
 
 /// @brief Method DemandGrantSet addr 0x27b6304 size 0x4 virtual false final false
-static void DemandGrantSet(::System::Reflection::Assembly assembly) ;
+static void DemandGrantSet(System::Reflection::Assembly assembly) ;
 
 /// @brief Method HasReflectionPermission addr 0x27b6308 size 0x8 virtual false final false
-static bool HasReflectionPermission(::System::Type type) ;
+static bool HasReflectionPermission(System::Type type) ;
 
 /// @brief Method SecureCreateInstance addr 0x27b6310 size 0xc virtual false final false
-static ::bs_hook::Il2CppWrapperType SecureCreateInstance(::System::Type type) ;
+static ::bs_hook::Il2CppWrapperType SecureCreateInstance(System::Type type) ;
 
 /// @brief Method SecureCreateInstance addr 0x27b631c size 0xf8 virtual false final false
-static ::bs_hook::Il2CppWrapperType SecureCreateInstance(::System::Type type, ::ArrayW<::bs_hook::Il2CppWrapperType> args, bool allowNonPublic) ;
+static ::bs_hook::Il2CppWrapperType SecureCreateInstance(System::Type type, ::ArrayW<::bs_hook::Il2CppWrapperType> args, bool allowNonPublic) ;
 
 /// @brief Method SecureConstructorInvoke addr 0x27b6414 size 0xc virtual false final false
-static ::bs_hook::Il2CppWrapperType SecureConstructorInvoke(::System::Type type, ::ArrayW<::System::Type> argTypes, ::ArrayW<::bs_hook::Il2CppWrapperType> args, bool allowNonPublic) ;
+static ::bs_hook::Il2CppWrapperType SecureConstructorInvoke(System::Type type, ::ArrayW<System::Type> argTypes, ::ArrayW<::bs_hook::Il2CppWrapperType> args, bool allowNonPublic) ;
 
 /// @brief Method SecureConstructorInvoke addr 0x27b6420 size 0x178 virtual false final false
-static ::bs_hook::Il2CppWrapperType SecureConstructorInvoke(::System::Type type, ::ArrayW<::System::Type> argTypes, ::ArrayW<::bs_hook::Il2CppWrapperType> args, bool allowNonPublic, ::System::Reflection::BindingFlags extraFlags) ;
+static ::bs_hook::Il2CppWrapperType SecureConstructorInvoke(System::Type type, ::ArrayW<System::Type> argTypes, ::ArrayW<::bs_hook::Il2CppWrapperType> args, bool allowNonPublic, System::Reflection::BindingFlags extraFlags) ;
 
 /// @brief Method GenericArgumentsAreVisible addr 0x27b6598 size 0xa0 virtual false final false
-static bool GenericArgumentsAreVisible(::System::Reflection::MethodInfo method) ;
+static bool GenericArgumentsAreVisible(System::Reflection::MethodInfo method) ;
 
 /// @brief Method MethodInfoInvoke addr 0x27b6638 size 0x110 virtual false final false
-static ::bs_hook::Il2CppWrapperType MethodInfoInvoke(::System::Reflection::MethodInfo method, ::bs_hook::Il2CppWrapperType target, ::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
+static ::bs_hook::Il2CppWrapperType MethodInfoInvoke(System::Reflection::MethodInfo method, ::bs_hook::Il2CppWrapperType target, ::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::SecurityUtils);
-DEFINE_IL2CPP_ARG_TYPE(::System::SecurityUtils, "System", "SecurityUtils");
+NEED_NO_BOX(System::SecurityUtils);
+DEFINE_IL2CPP_ARG_TYPE(System::SecurityUtils, "System", "SecurityUtils");

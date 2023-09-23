@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextElement_def.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine::TextCore::Text {
 class FontAsset;
 }
@@ -19,7 +18,7 @@ namespace UnityEngine::TextCore::Text {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13519))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13513))
 // CS Name: UnityEngine.TextCore.Text.Character
-class CORDL_TYPE Character : public ::UnityEngine::TextCore::Text::TextElement {
+class CORDL_TYPE Character : public UnityEngine::TextCore::Text::TextElement {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr Character(Character const& ) noexcept = default;
 constexpr Character(Character&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Character(void* ptr) noexcept : ::UnityEngine::TextCore::Text::TextElement(ptr) {
+constexpr explicit Character(void* ptr) noexcept : UnityEngine::TextCore::Text::TextElement(ptr) {
 }
 
 
@@ -61,11 +60,11 @@ explicit Character() ;
 /// @brief Method .ctor addr 0x2bcc318 size 0x28 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "unicode", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "fontAsset", ty: "::UnityEngine::TextCore::Text::FontAsset", modifiers: "", def_value: None }, CppParam { name: "glyph", ty: "::UnityEngine::TextCore::Glyph", modifiers: "", def_value: None }]
-explicit Character(uint32_t unicode, ::UnityEngine::TextCore::Text::FontAsset fontAsset, ::UnityEngine::TextCore::Glyph glyph) ;
+// Ctor Parameters [CppParam { name: "unicode", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "fontAsset", ty: "UnityEngine::TextCore::Text::FontAsset", modifiers: "", def_value: None }, CppParam { name: "glyph", ty: "UnityEngine::TextCore::Glyph", modifiers: "", def_value: None }]
+explicit Character(uint32_t unicode, UnityEngine::TextCore::Text::FontAsset fontAsset, UnityEngine::TextCore::Glyph glyph) ;
 
 /// @brief Method .ctor addr 0x2bc279c size 0x60 virtual false final false
- void _ctor(uint32_t unicode, ::UnityEngine::TextCore::Text::FontAsset fontAsset, ::UnityEngine::TextCore::Glyph glyph) ;
+ void _ctor(uint32_t unicode, UnityEngine::TextCore::Text::FontAsset fontAsset, UnityEngine::TextCore::Glyph glyph) ;
 
 // Ctor Parameters [CppParam { name: "unicode", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "glyphIndex", ty: "uint32_t", modifiers: "", def_value: None }]
 explicit Character(uint32_t unicode, uint32_t glyphIndex) ;
@@ -77,6 +76,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::Text
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::TextCore::Text::Character);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::Character, "UnityEngine.TextCore.Text", "Character");
+NEED_NO_BOX(UnityEngine::TextCore::Text::Character);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Text::Character, "UnityEngine.TextCore.Text", "Character");

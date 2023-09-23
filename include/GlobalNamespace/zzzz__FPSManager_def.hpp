@@ -1,15 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class MainCamera;
-}
 namespace GlobalNamespace {
 class BoolSO;
 }
 namespace UnityEngine {
 class Canvas;
+}
+namespace GlobalNamespace {
+class MainCamera;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5924))
 // CS Name: FPSManager
-class CORDL_TYPE FPSManager : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE FPSManager : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr FPSManager(FPSManager const& ) noexcept = default;
 constexpr FPSManager(FPSManager&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FPSManager(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit FPSManager(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -57,23 +56,23 @@ constexpr explicit FPSManager(void* ptr) noexcept : ::UnityEngine::MonoBehaviour
 
 // Fields
 
- ::GlobalNamespace::BoolSO __declspec(property(get=__get__enableFPSCounter, put=__set__enableFPSCounter))  _enableFPSCounter;
+ GlobalNamespace::BoolSO __declspec(property(get=__get__enableFPSCounter, put=__set__enableFPSCounter))  _enableFPSCounter;
 
-constexpr void __set__enableFPSCounter(::GlobalNamespace::BoolSO value) ;
+constexpr void __set__enableFPSCounter(GlobalNamespace::BoolSO value) ;
 
-constexpr ::GlobalNamespace::BoolSO __get__enableFPSCounter() const;
+constexpr GlobalNamespace::BoolSO __get__enableFPSCounter() const;
 
- ::UnityEngine::Canvas __declspec(property(get=__get__fpsCounterCanvasPrefab, put=__set__fpsCounterCanvasPrefab))  _fpsCounterCanvasPrefab;
+ UnityEngine::Canvas __declspec(property(get=__get__fpsCounterCanvasPrefab, put=__set__fpsCounterCanvasPrefab))  _fpsCounterCanvasPrefab;
 
-constexpr void __set__fpsCounterCanvasPrefab(::UnityEngine::Canvas value) ;
+constexpr void __set__fpsCounterCanvasPrefab(UnityEngine::Canvas value) ;
 
-constexpr ::UnityEngine::Canvas __get__fpsCounterCanvasPrefab() const;
+constexpr UnityEngine::Canvas __get__fpsCounterCanvasPrefab() const;
 
- ::GlobalNamespace::MainCamera __declspec(property(get=__get__mainCamera, put=__set__mainCamera))  _mainCamera;
+ GlobalNamespace::MainCamera __declspec(property(get=__get__mainCamera, put=__set__mainCamera))  _mainCamera;
 
-constexpr void __set__mainCamera(::GlobalNamespace::MainCamera value) ;
+constexpr void __set__mainCamera(GlobalNamespace::MainCamera value) ;
 
-constexpr ::GlobalNamespace::MainCamera __get__mainCamera() const;
+constexpr GlobalNamespace::MainCamera __get__mainCamera() const;
 
 
 // Methods
@@ -91,6 +90,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::FPSManager);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FPSManager, "", "FPSManager");
+NEED_NO_BOX(GlobalNamespace::FPSManager);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FPSManager, "", "FPSManager");

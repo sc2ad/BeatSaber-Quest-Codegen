@@ -1,18 +1,17 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
 namespace UnityEngine {
 class Texture2D;
+}
+namespace UnityEngine::UIElements {
+class VectorImage;
 }
 namespace UnityEngine {
 class RenderTexture;
 }
 namespace UnityEngine {
 class Sprite;
-}
-namespace UnityEngine::UIElements {
-class VectorImage;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {
@@ -27,8 +26,8 @@ namespace UnityEngine::UIElements::StyleSheets {
 struct CORDL_TYPE ImageSource : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "texture", ty: "::UnityEngine::Texture2D", modifiers: "", def_value: None }, CppParam { name: "sprite", ty: "::UnityEngine::Sprite", modifiers: "", def_value: None }, CppParam { name: "vectorImage", ty: "::UnityEngine::UIElements::VectorImage", modifiers: "", def_value: None }, CppParam { name: "renderTexture", ty: "::UnityEngine::RenderTexture", modifiers: "", def_value: None }]
-constexpr ImageSource(::UnityEngine::Texture2D texture, ::UnityEngine::Sprite sprite, ::UnityEngine::UIElements::VectorImage vectorImage, ::UnityEngine::RenderTexture renderTexture) noexcept;
+// Ctor Parameters [CppParam { name: "texture", ty: "UnityEngine::Texture2D", modifiers: "", def_value: None }, CppParam { name: "sprite", ty: "UnityEngine::Sprite", modifiers: "", def_value: None }, CppParam { name: "vectorImage", ty: "UnityEngine::UIElements::VectorImage", modifiers: "", def_value: None }, CppParam { name: "renderTexture", ty: "UnityEngine::RenderTexture", modifiers: "", def_value: None }]
+constexpr ImageSource(UnityEngine::Texture2D texture, UnityEngine::Sprite sprite, UnityEngine::UIElements::VectorImage vectorImage, UnityEngine::RenderTexture renderTexture) noexcept;
 
 
                     constexpr ImageSource(ImageSource const&) = default;
@@ -61,29 +60,29 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Texture2D __declspec(property(get=__get_texture, put=__set_texture))  texture;
+ UnityEngine::Texture2D __declspec(property(get=__get_texture, put=__set_texture))  texture;
 
-constexpr void __set_texture(::UnityEngine::Texture2D value) ;
+constexpr void __set_texture(UnityEngine::Texture2D value) ;
 
-constexpr ::UnityEngine::Texture2D __get_texture() const;
+constexpr UnityEngine::Texture2D __get_texture() const;
 
- ::UnityEngine::Sprite __declspec(property(get=__get_sprite, put=__set_sprite))  sprite;
+ UnityEngine::Sprite __declspec(property(get=__get_sprite, put=__set_sprite))  sprite;
 
-constexpr void __set_sprite(::UnityEngine::Sprite value) ;
+constexpr void __set_sprite(UnityEngine::Sprite value) ;
 
-constexpr ::UnityEngine::Sprite __get_sprite() const;
+constexpr UnityEngine::Sprite __get_sprite() const;
 
- ::UnityEngine::UIElements::VectorImage __declspec(property(get=__get_vectorImage, put=__set_vectorImage))  vectorImage;
+ UnityEngine::UIElements::VectorImage __declspec(property(get=__get_vectorImage, put=__set_vectorImage))  vectorImage;
 
-constexpr void __set_vectorImage(::UnityEngine::UIElements::VectorImage value) ;
+constexpr void __set_vectorImage(UnityEngine::UIElements::VectorImage value) ;
 
-constexpr ::UnityEngine::UIElements::VectorImage __get_vectorImage() const;
+constexpr UnityEngine::UIElements::VectorImage __get_vectorImage() const;
 
- ::UnityEngine::RenderTexture __declspec(property(get=__get_renderTexture, put=__set_renderTexture))  renderTexture;
+ UnityEngine::RenderTexture __declspec(property(get=__get_renderTexture, put=__set_renderTexture))  renderTexture;
 
-constexpr void __set_renderTexture(::UnityEngine::RenderTexture value) ;
+constexpr void __set_renderTexture(UnityEngine::RenderTexture value) ;
 
-constexpr ::UnityEngine::RenderTexture __get_renderTexture() const;
+constexpr UnityEngine::RenderTexture __get_renderTexture() const;
 
 
 // Methods
@@ -95,5 +94,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::StyleSheets
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::ImageSource, "UnityEngine.UIElements.StyleSheets", "ImageSource");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::StyleSheets::ImageSource, "UnityEngine.UIElements.StyleSheets", "ImageSource");

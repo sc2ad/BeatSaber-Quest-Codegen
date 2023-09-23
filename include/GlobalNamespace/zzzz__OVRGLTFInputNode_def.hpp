@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 struct OVRGLTFInputNode;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::GlobalNamespace::OVRGLTFInputNode const None;
+static GlobalNamespace::OVRGLTFInputNode const None;
 
 /// @brief Field Button_A_X offset 0
-static ::GlobalNamespace::OVRGLTFInputNode const Button_A_X;
+static GlobalNamespace::OVRGLTFInputNode const Button_A_X;
 
 /// @brief Field Button_B_Y offset 0
-static ::GlobalNamespace::OVRGLTFInputNode const Button_B_Y;
+static GlobalNamespace::OVRGLTFInputNode const Button_B_Y;
 
 /// @brief Field Button_Oculus_Menu offset 0
-static ::GlobalNamespace::OVRGLTFInputNode const Button_Oculus_Menu;
+static GlobalNamespace::OVRGLTFInputNode const Button_Oculus_Menu;
 
 /// @brief Field Trigger_Grip offset 0
-static ::GlobalNamespace::OVRGLTFInputNode const Trigger_Grip;
+static GlobalNamespace::OVRGLTFInputNode const Trigger_Grip;
 
 /// @brief Field Trigger_Front offset 0
-static ::GlobalNamespace::OVRGLTFInputNode const Trigger_Front;
+static GlobalNamespace::OVRGLTFInputNode const Trigger_Front;
 
 /// @brief Field ThumbStick offset 0
-static ::GlobalNamespace::OVRGLTFInputNode const ThumbStick;
+static GlobalNamespace::OVRGLTFInputNode const ThumbStick;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRGLTFInputNode, "", "OVRGLTFInputNode");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRGLTFInputNode, "", "OVRGLTFInputNode");

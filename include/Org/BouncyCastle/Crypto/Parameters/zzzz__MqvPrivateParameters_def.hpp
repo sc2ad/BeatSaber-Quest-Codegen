@@ -1,12 +1,11 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECPrivateKeyParameters;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECPublicKeyParameters;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECPrivateKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
@@ -24,8 +23,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
 class CORDL_TYPE MqvPrivateParameters : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::ICipherParameters
-constexpr operator  ::Org::BouncyCastle::Crypto::ICipherParameters() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::ICipherParameters
+constexpr operator  Org::BouncyCastle::Crypto::ICipherParameters() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -60,61 +59,60 @@ constexpr explicit MqvPrivateParameters(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 // Fields
 
- ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters __declspec(property(get=__get_staticPrivateKey, put=__set_staticPrivateKey))  staticPrivateKey;
+ Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters __declspec(property(get=__get_staticPrivateKey, put=__set_staticPrivateKey))  staticPrivateKey;
 
-constexpr void __set_staticPrivateKey(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters value) ;
+constexpr void __set_staticPrivateKey(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters __get_staticPrivateKey() const;
+constexpr Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters __get_staticPrivateKey() const;
 
- ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters __declspec(property(get=__get_ephemeralPrivateKey, put=__set_ephemeralPrivateKey))  ephemeralPrivateKey;
+ Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters __declspec(property(get=__get_ephemeralPrivateKey, put=__set_ephemeralPrivateKey))  ephemeralPrivateKey;
 
-constexpr void __set_ephemeralPrivateKey(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters value) ;
+constexpr void __set_ephemeralPrivateKey(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters __get_ephemeralPrivateKey() const;
+constexpr Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters __get_ephemeralPrivateKey() const;
 
- ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters __declspec(property(get=__get_ephemeralPublicKey, put=__set_ephemeralPublicKey))  ephemeralPublicKey;
+ Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters __declspec(property(get=__get_ephemeralPublicKey, put=__set_ephemeralPublicKey))  ephemeralPublicKey;
 
-constexpr void __set_ephemeralPublicKey(::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters value) ;
+constexpr void __set_ephemeralPublicKey(Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters __get_ephemeralPublicKey() const;
+constexpr Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters __get_ephemeralPublicKey() const;
 
 
 // Properties
 
- ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters __declspec(property(get=get_StaticPrivateKey))  StaticPrivateKey;
+ Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters __declspec(property(get=get_StaticPrivateKey))  StaticPrivateKey;
 
- ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters __declspec(property(get=get_EphemeralPrivateKey))  EphemeralPrivateKey;
+ Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters __declspec(property(get=get_EphemeralPrivateKey))  EphemeralPrivateKey;
 
- ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters __declspec(property(get=get_EphemeralPublicKey))  EphemeralPublicKey;
+ Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters __declspec(property(get=get_EphemeralPublicKey))  EphemeralPublicKey;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "staticPrivateKey", ty: "::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters", modifiers: "", def_value: None }, CppParam { name: "ephemeralPrivateKey", ty: "::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters", modifiers: "", def_value: None }]
-explicit MqvPrivateParameters(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters staticPrivateKey, ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters ephemeralPrivateKey) ;
+// Ctor Parameters [CppParam { name: "staticPrivateKey", ty: "Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters", modifiers: "", def_value: None }, CppParam { name: "ephemeralPrivateKey", ty: "Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters", modifiers: "", def_value: None }]
+explicit MqvPrivateParameters(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters staticPrivateKey, Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters ephemeralPrivateKey) ;
 
 /// @brief Method .ctor addr 0xeaa814 size 0x8 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters staticPrivateKey, ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters ephemeralPrivateKey) ;
+ void _ctor(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters staticPrivateKey, Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters ephemeralPrivateKey) ;
 
-// Ctor Parameters [CppParam { name: "staticPrivateKey", ty: "::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters", modifiers: "", def_value: None }, CppParam { name: "ephemeralPrivateKey", ty: "::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters", modifiers: "", def_value: None }, CppParam { name: "ephemeralPublicKey", ty: "::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters", modifiers: "", def_value: None }]
-explicit MqvPrivateParameters(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters staticPrivateKey, ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters ephemeralPrivateKey, ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters ephemeralPublicKey) ;
+// Ctor Parameters [CppParam { name: "staticPrivateKey", ty: "Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters", modifiers: "", def_value: None }, CppParam { name: "ephemeralPrivateKey", ty: "Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters", modifiers: "", def_value: None }, CppParam { name: "ephemeralPublicKey", ty: "Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters", modifiers: "", def_value: None }]
+explicit MqvPrivateParameters(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters staticPrivateKey, Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters ephemeralPrivateKey, Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters ephemeralPublicKey) ;
 
 /// @brief Method .ctor addr 0xeaa81c size 0x1f0 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters staticPrivateKey, ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters ephemeralPrivateKey, ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters ephemeralPublicKey) ;
+ void _ctor(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters staticPrivateKey, Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters ephemeralPrivateKey, Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters ephemeralPublicKey) ;
 
 /// @brief Method get_StaticPrivateKey addr 0xeaaa0c size 0x8 virtual true final false
- ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters get_StaticPrivateKey() ;
+ Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters get_StaticPrivateKey() ;
 
 /// @brief Method get_EphemeralPrivateKey addr 0xeaaa14 size 0x8 virtual true final false
- ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters get_EphemeralPrivateKey() ;
+ Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters get_EphemeralPrivateKey() ;
 
 /// @brief Method get_EphemeralPublicKey addr 0xeaaa1c size 0x8 virtual true final false
- ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters get_EphemeralPublicKey() ;
+ Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters get_EphemeralPublicKey() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Parameters
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters, "Org.BouncyCastle.Crypto.Parameters", "MqvPrivateParameters");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters, "Org.BouncyCastle.Crypto.Parameters", "MqvPrivateParameters");

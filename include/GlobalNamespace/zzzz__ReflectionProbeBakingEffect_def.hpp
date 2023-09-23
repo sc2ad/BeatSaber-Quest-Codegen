@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace UnityEngine {
-class Material;
-}
 namespace UnityEngine {
 class RenderTexture;
+}
+namespace UnityEngine {
+class Material;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14663))
 // CS Name: ReflectionProbeBakingEffect
-class CORDL_TYPE ReflectionProbeBakingEffect : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ReflectionProbeBakingEffect : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr ReflectionProbeBakingEffect(ReflectionProbeBakingEffect const& ) noexc
 constexpr ReflectionProbeBakingEffect(ReflectionProbeBakingEffect&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ReflectionProbeBakingEffect(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ReflectionProbeBakingEffect(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -54,17 +53,17 @@ constexpr explicit ReflectionProbeBakingEffect(void* ptr) noexcept : ::UnityEngi
 
 // Fields
 
- ::UnityEngine::Material __declspec(property(get=__get__material, put=__set__material))  _material;
+ UnityEngine::Material __declspec(property(get=__get__material, put=__set__material))  _material;
 
-constexpr void __set__material(::UnityEngine::Material value) ;
+constexpr void __set__material(UnityEngine::Material value) ;
 
-constexpr ::UnityEngine::Material __get__material() const;
+constexpr UnityEngine::Material __get__material() const;
 
 
 // Methods
 
 /// @brief Method OnRenderImage addr 0x1f99f44 size 0x74 virtual false final false
- void OnRenderImage(::UnityEngine::RenderTexture src, ::UnityEngine::RenderTexture dest) ;
+ void OnRenderImage(UnityEngine::RenderTexture src, UnityEngine::RenderTexture dest) ;
 
 // Ctor Parameters []
 explicit ReflectionProbeBakingEffect() ;
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ReflectionProbeBakingEffect);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ReflectionProbeBakingEffect, "", "ReflectionProbeBakingEffect");
+NEED_NO_BOX(GlobalNamespace::ReflectionProbeBakingEffect);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ReflectionProbeBakingEffect, "", "ReflectionProbeBakingEffect");

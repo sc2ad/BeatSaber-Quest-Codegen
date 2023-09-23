@@ -5,62 +5,61 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Mono::Security::Interface {
-class MonoTlsSettings;
-}
-namespace System::Net::Security {
-class RemoteCertificateValidationCallback;
-}
 namespace Mono::Security::Interface {
 class MonoTlsProvider;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
 }
-namespace System {
-class IAsyncResult;
+namespace System::Net::Security {
+class RemoteCertificateValidationCallback;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509CertificateCollection;
+}
+namespace System::Security::Authentication {
+struct SslProtocols;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace Mono::Security::Interface {
+class MonoTlsSettings;
+}
+namespace Mono::Net::Security {
+class MobileTlsProvider;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System::IO {
-struct SeekOrigin;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateCollection;
-}
-namespace Mono::Net::Security {
-class MobileTlsProvider;
-}
-namespace System::Net::Security {
-class LocalCertificateSelectionCallback;
-}
-namespace System::IO {
-class Stream;
+namespace System {
+class AsyncCallback;
 }
 namespace Mono::Net::Security {
 class MobileAuthenticatedStream;
 }
+namespace System::Net::Security {
+class LocalCertificateSelectionCallback;
+}
 namespace System {
-class AsyncCallback;
+class IAsyncResult;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace System::IO {
+struct SeekOrigin;
 }
-namespace System::Security::Authentication {
-struct SslProtocols;
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace System::Net::Security {
 class SslStream;
 }
 namespace System::Net::Security {
-class ____System__Net__Security__SslStream____c__DisplayClass21_0;
+class System__Net__Security__SslStream____c__DisplayClass21_0;
 }
 // Type: ::<>c__DisplayClass21_0
 namespace System::Net::Security {
@@ -68,65 +67,65 @@ namespace System::Net::Security {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8223))
 // CS Name: System.Net.Security.SslStream::<>c__DisplayClass21_0
-class CORDL_TYPE ____System__Net__Security__SslStream____c__DisplayClass21_0 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Net__Security__SslStream____c__DisplayClass21_0 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____System__Net__Security__SslStream____c__DisplayClass21_0() = default;
+virtual ~System__Net__Security__SslStream____c__DisplayClass21_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Net__Security__SslStream____c__DisplayClass21_0", modifiers: " const&", def_value: None }]
-constexpr ____System__Net__Security__SslStream____c__DisplayClass21_0(____System__Net__Security__SslStream____c__DisplayClass21_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Net__Security__SslStream____c__DisplayClass21_0", modifiers: " const&", def_value: None }]
+constexpr System__Net__Security__SslStream____c__DisplayClass21_0(System__Net__Security__SslStream____c__DisplayClass21_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Net__Security__SslStream____c__DisplayClass21_0", modifiers: "&&", def_value: None }]
-constexpr ____System__Net__Security__SslStream____c__DisplayClass21_0(____System__Net__Security__SslStream____c__DisplayClass21_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Net__Security__SslStream____c__DisplayClass21_0", modifiers: "&&", def_value: None }]
+constexpr System__Net__Security__SslStream____c__DisplayClass21_0(System__Net__Security__SslStream____c__DisplayClass21_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Net__Security__SslStream____c__DisplayClass21_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Net__Security__SslStream____c__DisplayClass21_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Net__Security__SslStream____c__DisplayClass21_0& operator=(std::nullptr_t) noexcept {
+  constexpr System__Net__Security__SslStream____c__DisplayClass21_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Net__Security__SslStream____c__DisplayClass21_0& operator=(void* o) noexcept {
+  constexpr System__Net__Security__SslStream____c__DisplayClass21_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Net__Security__SslStream____c__DisplayClass21_0& operator=(____System__Net__Security__SslStream____c__DisplayClass21_0&& o) noexcept = default;
-  constexpr ____System__Net__Security__SslStream____c__DisplayClass21_0& operator=(____System__Net__Security__SslStream____c__DisplayClass21_0 const& o) noexcept = default;
+  constexpr System__Net__Security__SslStream____c__DisplayClass21_0& operator=(System__Net__Security__SslStream____c__DisplayClass21_0&& o) noexcept = default;
+  constexpr System__Net__Security__SslStream____c__DisplayClass21_0& operator=(System__Net__Security__SslStream____c__DisplayClass21_0 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Net::Security::LocalCertificateSelectionCallback __declspec(property(get=__get_callback, put=__set_callback))  callback;
+ System::Net::Security::LocalCertificateSelectionCallback __declspec(property(get=__get_callback, put=__set_callback))  callback;
 
-constexpr void __set_callback(::System::Net::Security::LocalCertificateSelectionCallback value) ;
+constexpr void __set_callback(System::Net::Security::LocalCertificateSelectionCallback value) ;
 
-constexpr ::System::Net::Security::LocalCertificateSelectionCallback __get_callback() const;
+constexpr System::Net::Security::LocalCertificateSelectionCallback __get_callback() const;
 
- ::System::Net::Security::SslStream __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ System::Net::Security::SslStream __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::System::Net::Security::SslStream value) ;
+constexpr void __set___4__this(System::Net::Security::SslStream value) ;
 
-constexpr ::System::Net::Security::SslStream __get___4__this() const;
+constexpr System::Net::Security::SslStream __get___4__this() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____System__Net__Security__SslStream____c__DisplayClass21_0() ;
+explicit System__Net__Security__SslStream____c__DisplayClass21_0() ;
 
 /// @brief Method .ctor addr 0x276d9fc size 0x8 virtual false final false
  void _ctor() ;
 
 /// @brief Method <SetAndVerifySelectionCallback>b__0 addr 0x276e1c4 size 0x38 virtual false final false
- ::System::Security::Cryptography::X509Certificates::X509Certificate _SetAndVerifySelectionCallback_b__0(::StringW t, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection lc, ::System::Security::Cryptography::X509Certificates::X509Certificate rc, ::ArrayW<::StringW> ai) ;
+ System::Security::Cryptography::X509Certificates::X509Certificate _SetAndVerifySelectionCallback_b__0(::StringW t, System::Security::Cryptography::X509Certificates::X509CertificateCollection lc, System::Security::Cryptography::X509Certificates::X509Certificate rc, ::ArrayW<::StringW> ai) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -138,10 +137,10 @@ namespace System::Net::Security {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8215))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8224))
 // CS Name: System.Net.Security.SslStream
-class CORDL_TYPE SslStream : public ::System::Net::Security::AuthenticatedStream {
+class CORDL_TYPE SslStream : public System::Net::Security::AuthenticatedStream {
 public:
 // Declarations
-using __c__DisplayClass21_0 = ::System::Net::Security::____System__Net__Security__SslStream____c__DisplayClass21_0;
+using __c__DisplayClass21_0 = System::Net::Security::System__Net__Security__SslStream____c__DisplayClass21_0;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x68};
@@ -155,7 +154,7 @@ constexpr SslStream(SslStream const& ) noexcept = default;
 constexpr SslStream(SslStream&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SslStream(void* ptr) noexcept : ::System::Net::Security::AuthenticatedStream(ptr) {
+constexpr explicit SslStream(void* ptr) noexcept : System::Net::Security::AuthenticatedStream(ptr) {
 }
 
 
@@ -176,35 +175,35 @@ constexpr explicit SslStream(void* ptr) noexcept : ::System::Net::Security::Auth
 
 // Fields
 
- ::Mono::Net::Security::MobileTlsProvider __declspec(property(get=__get_provider, put=__set_provider))  provider;
+ Mono::Net::Security::MobileTlsProvider __declspec(property(get=__get_provider, put=__set_provider))  provider;
 
-constexpr void __set_provider(::Mono::Net::Security::MobileTlsProvider value) ;
+constexpr void __set_provider(Mono::Net::Security::MobileTlsProvider value) ;
 
-constexpr ::Mono::Net::Security::MobileTlsProvider __get_provider() const;
+constexpr Mono::Net::Security::MobileTlsProvider __get_provider() const;
 
- ::Mono::Security::Interface::MonoTlsSettings __declspec(property(get=__get_settings, put=__set_settings))  settings;
+ Mono::Security::Interface::MonoTlsSettings __declspec(property(get=__get_settings, put=__set_settings))  settings;
 
-constexpr void __set_settings(::Mono::Security::Interface::MonoTlsSettings value) ;
+constexpr void __set_settings(Mono::Security::Interface::MonoTlsSettings value) ;
 
-constexpr ::Mono::Security::Interface::MonoTlsSettings __get_settings() const;
+constexpr Mono::Security::Interface::MonoTlsSettings __get_settings() const;
 
- ::System::Net::Security::RemoteCertificateValidationCallback __declspec(property(get=__get_validationCallback, put=__set_validationCallback))  validationCallback;
+ System::Net::Security::RemoteCertificateValidationCallback __declspec(property(get=__get_validationCallback, put=__set_validationCallback))  validationCallback;
 
-constexpr void __set_validationCallback(::System::Net::Security::RemoteCertificateValidationCallback value) ;
+constexpr void __set_validationCallback(System::Net::Security::RemoteCertificateValidationCallback value) ;
 
-constexpr ::System::Net::Security::RemoteCertificateValidationCallback __get_validationCallback() const;
+constexpr System::Net::Security::RemoteCertificateValidationCallback __get_validationCallback() const;
 
- ::System::Net::Security::LocalCertificateSelectionCallback __declspec(property(get=__get_selectionCallback, put=__set_selectionCallback))  selectionCallback;
+ System::Net::Security::LocalCertificateSelectionCallback __declspec(property(get=__get_selectionCallback, put=__set_selectionCallback))  selectionCallback;
 
-constexpr void __set_selectionCallback(::System::Net::Security::LocalCertificateSelectionCallback value) ;
+constexpr void __set_selectionCallback(System::Net::Security::LocalCertificateSelectionCallback value) ;
 
-constexpr ::System::Net::Security::LocalCertificateSelectionCallback __get_selectionCallback() const;
+constexpr System::Net::Security::LocalCertificateSelectionCallback __get_selectionCallback() const;
 
- ::Mono::Net::Security::MobileAuthenticatedStream __declspec(property(get=__get_impl, put=__set_impl))  impl;
+ Mono::Net::Security::MobileAuthenticatedStream __declspec(property(get=__get_impl, put=__set_impl))  impl;
 
-constexpr void __set_impl(::Mono::Net::Security::MobileAuthenticatedStream value) ;
+constexpr void __set_impl(Mono::Net::Security::MobileAuthenticatedStream value) ;
 
-constexpr ::Mono::Net::Security::MobileAuthenticatedStream __get_impl() const;
+constexpr Mono::Net::Security::MobileAuthenticatedStream __get_impl() const;
 
  bool __declspec(property(get=__get_explicitSettings, put=__set_explicitSettings))  explicitSettings;
 
@@ -215,13 +214,13 @@ constexpr bool __get_explicitSettings() const;
 
 // Properties
 
- ::Mono::Net::Security::MobileAuthenticatedStream __declspec(property(get=get_Impl))  Impl;
+ Mono::Net::Security::MobileAuthenticatedStream __declspec(property(get=get_Impl))  Impl;
 
  ::StringW __declspec(property(get=get_InternalTargetHost))  InternalTargetHost;
 
  bool __declspec(property(get=get_IsAuthenticated))  IsAuthenticated;
 
- ::System::Security::Cryptography::X509Certificates::X509Certificate __declspec(property(get=get_LocalCertificate))  LocalCertificate;
+ System::Security::Cryptography::X509Certificates::X509Certificate __declspec(property(get=get_LocalCertificate))  LocalCertificate;
 
  bool __declspec(property(get=get_CanSeek))  CanSeek;
 
@@ -243,58 +242,58 @@ constexpr bool __get_explicitSettings() const;
 // Methods
 
 /// @brief Method get_Impl addr 0x276d4d8 size 0x18 virtual false final false
- ::Mono::Net::Security::MobileAuthenticatedStream get_Impl() ;
+ Mono::Net::Security::MobileAuthenticatedStream get_Impl() ;
 
 /// @brief Method get_InternalTargetHost addr 0x276d550 size 0x24 virtual false final false
  ::StringW get_InternalTargetHost() ;
 
 /// @brief Method GetProvider addr 0x276d574 size 0x70 virtual false final false
-static ::Mono::Net::Security::MobileTlsProvider GetProvider() ;
+static Mono::Net::Security::MobileTlsProvider GetProvider() ;
 
-// Ctor Parameters [CppParam { name: "innerStream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "leaveInnerStreamOpen", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "userCertificateValidationCallback", ty: "::System::Net::Security::RemoteCertificateValidationCallback", modifiers: "", def_value: None }]
-explicit SslStream(::System::IO::Stream innerStream, bool leaveInnerStreamOpen, ::System::Net::Security::RemoteCertificateValidationCallback userCertificateValidationCallback) ;
+// Ctor Parameters [CppParam { name: "innerStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "leaveInnerStreamOpen", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "userCertificateValidationCallback", ty: "System::Net::Security::RemoteCertificateValidationCallback", modifiers: "", def_value: None }]
+explicit SslStream(System::IO::Stream innerStream, bool leaveInnerStreamOpen, System::Net::Security::RemoteCertificateValidationCallback userCertificateValidationCallback) ;
 
 /// @brief Method .ctor addr 0x276d5e4 size 0xc virtual false final false
- void _ctor(::System::IO::Stream innerStream, bool leaveInnerStreamOpen, ::System::Net::Security::RemoteCertificateValidationCallback userCertificateValidationCallback) ;
+ void _ctor(System::IO::Stream innerStream, bool leaveInnerStreamOpen, System::Net::Security::RemoteCertificateValidationCallback userCertificateValidationCallback) ;
 
-// Ctor Parameters [CppParam { name: "innerStream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "leaveInnerStreamOpen", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "userCertificateValidationCallback", ty: "::System::Net::Security::RemoteCertificateValidationCallback", modifiers: "", def_value: None }, CppParam { name: "userCertificateSelectionCallback", ty: "::System::Net::Security::LocalCertificateSelectionCallback", modifiers: "", def_value: None }]
-explicit SslStream(::System::IO::Stream innerStream, bool leaveInnerStreamOpen, ::System::Net::Security::RemoteCertificateValidationCallback userCertificateValidationCallback, ::System::Net::Security::LocalCertificateSelectionCallback userCertificateSelectionCallback) ;
+// Ctor Parameters [CppParam { name: "innerStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "leaveInnerStreamOpen", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "userCertificateValidationCallback", ty: "System::Net::Security::RemoteCertificateValidationCallback", modifiers: "", def_value: None }, CppParam { name: "userCertificateSelectionCallback", ty: "System::Net::Security::LocalCertificateSelectionCallback", modifiers: "", def_value: None }]
+explicit SslStream(System::IO::Stream innerStream, bool leaveInnerStreamOpen, System::Net::Security::RemoteCertificateValidationCallback userCertificateValidationCallback, System::Net::Security::LocalCertificateSelectionCallback userCertificateSelectionCallback) ;
 
 /// @brief Method .ctor addr 0x276d5f0 size 0x90 virtual false final false
- void _ctor(::System::IO::Stream innerStream, bool leaveInnerStreamOpen, ::System::Net::Security::RemoteCertificateValidationCallback userCertificateValidationCallback, ::System::Net::Security::LocalCertificateSelectionCallback userCertificateSelectionCallback) ;
+ void _ctor(System::IO::Stream innerStream, bool leaveInnerStreamOpen, System::Net::Security::RemoteCertificateValidationCallback userCertificateValidationCallback, System::Net::Security::LocalCertificateSelectionCallback userCertificateSelectionCallback) ;
 
-// Ctor Parameters [CppParam { name: "innerStream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "leaveInnerStreamOpen", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "provider", ty: "::Mono::Security::Interface::MonoTlsProvider", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "::Mono::Security::Interface::MonoTlsSettings", modifiers: "", def_value: None }]
-explicit SslStream(::System::IO::Stream innerStream, bool leaveInnerStreamOpen, ::Mono::Security::Interface::MonoTlsProvider provider, ::Mono::Security::Interface::MonoTlsSettings settings) ;
+// Ctor Parameters [CppParam { name: "innerStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "leaveInnerStreamOpen", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "provider", ty: "Mono::Security::Interface::MonoTlsProvider", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "Mono::Security::Interface::MonoTlsSettings", modifiers: "", def_value: None }]
+explicit SslStream(System::IO::Stream innerStream, bool leaveInnerStreamOpen, Mono::Security::Interface::MonoTlsProvider provider, Mono::Security::Interface::MonoTlsSettings settings) ;
 
 /// @brief Method .ctor addr 0x276d8d8 size 0x124 virtual false final false
- void _ctor(::System::IO::Stream innerStream, bool leaveInnerStreamOpen, ::Mono::Security::Interface::MonoTlsProvider provider, ::Mono::Security::Interface::MonoTlsSettings settings) ;
+ void _ctor(System::IO::Stream innerStream, bool leaveInnerStreamOpen, Mono::Security::Interface::MonoTlsProvider provider, Mono::Security::Interface::MonoTlsSettings settings) ;
 
 /// @brief Method SetAndVerifyValidationCallback addr 0x276d680 size 0xe0 virtual false final false
- void SetAndVerifyValidationCallback(::System::Net::Security::RemoteCertificateValidationCallback callback) ;
+ void SetAndVerifyValidationCallback(System::Net::Security::RemoteCertificateValidationCallback callback) ;
 
 /// @brief Method SetAndVerifySelectionCallback addr 0x276d760 size 0x178 virtual false final false
- void SetAndVerifySelectionCallback(::System::Net::Security::LocalCertificateSelectionCallback callback) ;
+ void SetAndVerifySelectionCallback(System::Net::Security::LocalCertificateSelectionCallback callback) ;
 
 /// @brief Method AuthenticateAsClient addr 0x276da04 size 0x54 virtual true final false
- void AuthenticateAsClient(::StringW targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection clientCertificates, ::System::Security::Authentication::SslProtocols enabledSslProtocols, bool checkCertificateRevocation) ;
+ void AuthenticateAsClient(::StringW targetHost, System::Security::Cryptography::X509Certificates::X509CertificateCollection clientCertificates, System::Security::Authentication::SslProtocols enabledSslProtocols, bool checkCertificateRevocation) ;
 
 /// @brief Method BeginAuthenticateAsClient addr 0x276da58 size 0x74 virtual true final false
- ::System::IAsyncResult BeginAuthenticateAsClient(::StringW targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection clientCertificates, ::System::Security::Authentication::SslProtocols enabledSslProtocols, bool checkCertificateRevocation, ::System::AsyncCallback asyncCallback, ::bs_hook::Il2CppWrapperType asyncState) ;
+ System::IAsyncResult BeginAuthenticateAsClient(::StringW targetHost, System::Security::Cryptography::X509Certificates::X509CertificateCollection clientCertificates, System::Security::Authentication::SslProtocols enabledSslProtocols, bool checkCertificateRevocation, System::AsyncCallback asyncCallback, ::bs_hook::Il2CppWrapperType asyncState) ;
 
 /// @brief Method EndAuthenticateAsClient addr 0x276dacc size 0xc virtual true final false
- void EndAuthenticateAsClient(::System::IAsyncResult asyncResult) ;
+ void EndAuthenticateAsClient(System::IAsyncResult asyncResult) ;
 
 /// @brief Method AuthenticateAsServer addr 0x276dad8 size 0x54 virtual true final false
- void AuthenticateAsServer(::System::Security::Cryptography::X509Certificates::X509Certificate serverCertificate, bool clientCertificateRequired, ::System::Security::Authentication::SslProtocols enabledSslProtocols, bool checkCertificateRevocation) ;
+ void AuthenticateAsServer(System::Security::Cryptography::X509Certificates::X509Certificate serverCertificate, bool clientCertificateRequired, System::Security::Authentication::SslProtocols enabledSslProtocols, bool checkCertificateRevocation) ;
 
 /// @brief Method AuthenticateAsClientAsync addr 0x276db2c size 0x54 virtual true final false
- ::System::Threading::Tasks::Task AuthenticateAsClientAsync(::StringW targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection clientCertificates, ::System::Security::Authentication::SslProtocols enabledSslProtocols, bool checkCertificateRevocation) ;
+ System::Threading::Tasks::Task AuthenticateAsClientAsync(::StringW targetHost, System::Security::Cryptography::X509Certificates::X509CertificateCollection clientCertificates, System::Security::Authentication::SslProtocols enabledSslProtocols, bool checkCertificateRevocation) ;
 
 /// @brief Method get_IsAuthenticated addr 0x276db80 size 0x2c virtual true final false
  bool get_IsAuthenticated() ;
 
 /// @brief Method get_LocalCertificate addr 0x276dbac size 0x24 virtual true final false
- ::System::Security::Cryptography::X509Certificates::X509Certificate get_LocalCertificate() ;
+ System::Security::Cryptography::X509Certificates::X509Certificate get_LocalCertificate() ;
 
 /// @brief Method get_CanSeek addr 0x276dbd0 size 0x8 virtual true final false
  bool get_CanSeek() ;
@@ -333,10 +332,10 @@ explicit SslStream(::System::IO::Stream innerStream, bool leaveInnerStreamOpen, 
  void SetLength(int64_t value) ;
 
 /// @brief Method Seek addr 0x276dde4 size 0x60 virtual true final false
- int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin) ;
+ int64_t Seek(int64_t offset, System::IO::SeekOrigin origin) ;
 
 /// @brief Method FlushAsync addr 0x276de44 size 0x24 virtual true final false
- ::System::Threading::Tasks::Task FlushAsync(::System::Threading::CancellationToken cancellationToken) ;
+ System::Threading::Tasks::Task FlushAsync(System::Threading::CancellationToken cancellationToken) ;
 
 /// @brief Method Flush addr 0x276de68 size 0x24 virtual true final false
  void Flush() ;
@@ -354,29 +353,28 @@ explicit SslStream(::System::IO::Stream innerStream, bool leaveInnerStreamOpen, 
  void Write(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count) ;
 
 /// @brief Method ReadAsync addr 0x276dfe0 size 0x5c virtual true final false
- ::System::Threading::Tasks::Task_1<int32_t> ReadAsync(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken) ;
+ System::Threading::Tasks::Task_1<int32_t> ReadAsync(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, System::Threading::CancellationToken cancellationToken) ;
 
 /// @brief Method WriteAsync addr 0x276e03c size 0x5c virtual true final false
- ::System::Threading::Tasks::Task WriteAsync(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken) ;
+ System::Threading::Tasks::Task WriteAsync(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, System::Threading::CancellationToken cancellationToken) ;
 
 /// @brief Method BeginRead addr 0x276e098 size 0x6c virtual true final false
- ::System::IAsyncResult BeginRead(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, ::System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType state) ;
+ System::IAsyncResult BeginRead(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType state) ;
 
 /// @brief Method EndRead addr 0x276e104 size 0x48 virtual true final false
- int32_t EndRead(::System::IAsyncResult asyncResult) ;
+ int32_t EndRead(System::IAsyncResult asyncResult) ;
 
 /// @brief Method BeginWrite addr 0x276e14c size 0x6c virtual true final false
- ::System::IAsyncResult BeginWrite(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, ::System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType state) ;
+ System::IAsyncResult BeginWrite(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType state) ;
 
 /// @brief Method EndWrite addr 0x276e1b8 size 0xc virtual true final false
- void EndWrite(::System::IAsyncResult asyncResult) ;
+ void EndWrite(System::IAsyncResult asyncResult) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Security
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Security::SslStream);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Security::SslStream, "System.Net.Security", "SslStream");
-NEED_NO_BOX(::System::Net::Security::____System__Net__Security__SslStream____c__DisplayClass21_0);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Security::____System__Net__Security__SslStream____c__DisplayClass21_0, "System.Net.Security", "SslStream/<>c__DisplayClass21_0");
+NEED_NO_BOX(System::Net::Security::SslStream);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Security::SslStream, "System.Net.Security", "SslStream");
+NEED_NO_BOX(System::Net::Security::System__Net__Security__SslStream____c__DisplayClass21_0);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Security::System__Net__Security__SslStream____c__DisplayClass21_0, "System.Net.Security", "SslStream/<>c__DisplayClass21_0");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security::Cryptography {
 struct CspProviderFlags;
@@ -74,35 +73,34 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field NoFlags offset 0
-static ::System::Security::Cryptography::CspProviderFlags const NoFlags;
+static System::Security::Cryptography::CspProviderFlags const NoFlags;
 
 /// @brief Field UseMachineKeyStore offset 0
-static ::System::Security::Cryptography::CspProviderFlags const UseMachineKeyStore;
+static System::Security::Cryptography::CspProviderFlags const UseMachineKeyStore;
 
 /// @brief Field UseDefaultKeyContainer offset 0
-static ::System::Security::Cryptography::CspProviderFlags const UseDefaultKeyContainer;
+static System::Security::Cryptography::CspProviderFlags const UseDefaultKeyContainer;
 
 /// @brief Field UseNonExportableKey offset 0
-static ::System::Security::Cryptography::CspProviderFlags const UseNonExportableKey;
+static System::Security::Cryptography::CspProviderFlags const UseNonExportableKey;
 
 /// @brief Field UseExistingKey offset 0
-static ::System::Security::Cryptography::CspProviderFlags const UseExistingKey;
+static System::Security::Cryptography::CspProviderFlags const UseExistingKey;
 
 /// @brief Field UseArchivableKey offset 0
-static ::System::Security::Cryptography::CspProviderFlags const UseArchivableKey;
+static System::Security::Cryptography::CspProviderFlags const UseArchivableKey;
 
 /// @brief Field UseUserProtectedKey offset 0
-static ::System::Security::Cryptography::CspProviderFlags const UseUserProtectedKey;
+static System::Security::Cryptography::CspProviderFlags const UseUserProtectedKey;
 
 /// @brief Field NoPrompt offset 0
-static ::System::Security::Cryptography::CspProviderFlags const NoPrompt;
+static System::Security::Cryptography::CspProviderFlags const NoPrompt;
 
 /// @brief Field CreateEphemeralKey offset 0
-static ::System::Security::Cryptography::CspProviderFlags const CreateEphemeralKey;
+static System::Security::Cryptography::CspProviderFlags const CreateEphemeralKey;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::CspProviderFlags, "System.Security.Cryptography", "CspProviderFlags");
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CspProviderFlags, "System.Security.Cryptography", "CspProviderFlags");

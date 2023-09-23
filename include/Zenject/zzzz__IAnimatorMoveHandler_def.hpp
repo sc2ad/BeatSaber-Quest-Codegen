@@ -1,6 +1,5 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
 // Forward declare root types
 namespace Zenject {
 class IAnimatorMoveHandler;
@@ -30,6 +29,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::IAnimatorMoveHandler);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::IAnimatorMoveHandler, "Zenject", "IAnimatorMoveHandler");
+NEED_NO_BOX(Zenject::IAnimatorMoveHandler);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::IAnimatorMoveHandler, "Zenject", "IAnimatorMoveHandler");

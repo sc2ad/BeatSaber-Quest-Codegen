@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
@@ -68,7 +67,7 @@ constexpr explicit ECFieldElement(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 // Methods
 
 /// @brief Method ToBigInteger addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Math::BigInteger ToBigInteger() ;
+ Org::BouncyCastle::Math::BigInteger ToBigInteger() ;
 
 /// @brief Method get_FieldName addr 0x0 size 0xffffffffffffffff virtual true final false
  ::StringW get_FieldName() ;
@@ -77,31 +76,31 @@ constexpr explicit ECFieldElement(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
  int32_t get_FieldSize() ;
 
 /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Math::EC::ECFieldElement Add(::Org::BouncyCastle::Math::EC::ECFieldElement b) ;
+ Org::BouncyCastle::Math::EC::ECFieldElement Add(Org::BouncyCastle::Math::EC::ECFieldElement b) ;
 
 /// @brief Method AddOne addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Math::EC::ECFieldElement AddOne() ;
+ Org::BouncyCastle::Math::EC::ECFieldElement AddOne() ;
 
 /// @brief Method Subtract addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Math::EC::ECFieldElement Subtract(::Org::BouncyCastle::Math::EC::ECFieldElement b) ;
+ Org::BouncyCastle::Math::EC::ECFieldElement Subtract(Org::BouncyCastle::Math::EC::ECFieldElement b) ;
 
 /// @brief Method Multiply addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Math::EC::ECFieldElement Multiply(::Org::BouncyCastle::Math::EC::ECFieldElement b) ;
+ Org::BouncyCastle::Math::EC::ECFieldElement Multiply(Org::BouncyCastle::Math::EC::ECFieldElement b) ;
 
 /// @brief Method Divide addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Math::EC::ECFieldElement Divide(::Org::BouncyCastle::Math::EC::ECFieldElement b) ;
+ Org::BouncyCastle::Math::EC::ECFieldElement Divide(Org::BouncyCastle::Math::EC::ECFieldElement b) ;
 
 /// @brief Method Negate addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Math::EC::ECFieldElement Negate() ;
+ Org::BouncyCastle::Math::EC::ECFieldElement Negate() ;
 
 /// @brief Method Square addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Math::EC::ECFieldElement Square() ;
+ Org::BouncyCastle::Math::EC::ECFieldElement Square() ;
 
 /// @brief Method Invert addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Math::EC::ECFieldElement Invert() ;
+ Org::BouncyCastle::Math::EC::ECFieldElement Invert() ;
 
 /// @brief Method Sqrt addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Math::EC::ECFieldElement Sqrt() ;
+ Org::BouncyCastle::Math::EC::ECFieldElement Sqrt() ;
 
 /// @brief Method get_BitLength addr 0xf412cc size 0x24 virtual true final false
  int32_t get_BitLength() ;
@@ -113,19 +112,19 @@ constexpr explicit ECFieldElement(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
  bool get_IsZero() ;
 
 /// @brief Method MultiplyMinusProduct addr 0xf41340 size 0x5c virtual true final false
- ::Org::BouncyCastle::Math::EC::ECFieldElement MultiplyMinusProduct(::Org::BouncyCastle::Math::EC::ECFieldElement b, ::Org::BouncyCastle::Math::EC::ECFieldElement x, ::Org::BouncyCastle::Math::EC::ECFieldElement y) ;
+ Org::BouncyCastle::Math::EC::ECFieldElement MultiplyMinusProduct(Org::BouncyCastle::Math::EC::ECFieldElement b, Org::BouncyCastle::Math::EC::ECFieldElement x, Org::BouncyCastle::Math::EC::ECFieldElement y) ;
 
 /// @brief Method MultiplyPlusProduct addr 0xf4139c size 0x5c virtual true final false
- ::Org::BouncyCastle::Math::EC::ECFieldElement MultiplyPlusProduct(::Org::BouncyCastle::Math::EC::ECFieldElement b, ::Org::BouncyCastle::Math::EC::ECFieldElement x, ::Org::BouncyCastle::Math::EC::ECFieldElement y) ;
+ Org::BouncyCastle::Math::EC::ECFieldElement MultiplyPlusProduct(Org::BouncyCastle::Math::EC::ECFieldElement b, Org::BouncyCastle::Math::EC::ECFieldElement x, Org::BouncyCastle::Math::EC::ECFieldElement y) ;
 
 /// @brief Method SquareMinusProduct addr 0xf413f8 size 0x64 virtual true final false
- ::Org::BouncyCastle::Math::EC::ECFieldElement SquareMinusProduct(::Org::BouncyCastle::Math::EC::ECFieldElement x, ::Org::BouncyCastle::Math::EC::ECFieldElement y) ;
+ Org::BouncyCastle::Math::EC::ECFieldElement SquareMinusProduct(Org::BouncyCastle::Math::EC::ECFieldElement x, Org::BouncyCastle::Math::EC::ECFieldElement y) ;
 
 /// @brief Method SquarePlusProduct addr 0xf4145c size 0x64 virtual true final false
- ::Org::BouncyCastle::Math::EC::ECFieldElement SquarePlusProduct(::Org::BouncyCastle::Math::EC::ECFieldElement x, ::Org::BouncyCastle::Math::EC::ECFieldElement y) ;
+ Org::BouncyCastle::Math::EC::ECFieldElement SquarePlusProduct(Org::BouncyCastle::Math::EC::ECFieldElement x, Org::BouncyCastle::Math::EC::ECFieldElement y) ;
 
 /// @brief Method SquarePow addr 0xf414c0 size 0x38 virtual true final false
- ::Org::BouncyCastle::Math::EC::ECFieldElement SquarePow(int32_t pow) ;
+ Org::BouncyCastle::Math::EC::ECFieldElement SquarePow(int32_t pow) ;
 
 /// @brief Method TestBitZero addr 0xf414f8 size 0x28 virtual true final false
  bool TestBitZero() ;
@@ -134,7 +133,7 @@ constexpr explicit ECFieldElement(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0xf415ac size 0x74 virtual true final false
- bool Equals(::Org::BouncyCastle::Math::EC::ECFieldElement other) ;
+ bool Equals(Org::BouncyCastle::Math::EC::ECFieldElement other) ;
 
 /// @brief Method GetHashCode addr 0xf41620 size 0x28 virtual true final false
  int32_t GetHashCode() ;
@@ -155,6 +154,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Math::EC
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Math::EC::ECFieldElement);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::ECFieldElement, "Org.BouncyCastle.Math.EC", "ECFieldElement");
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::ECFieldElement);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ECFieldElement, "Org.BouncyCastle.Math.EC", "ECFieldElement");

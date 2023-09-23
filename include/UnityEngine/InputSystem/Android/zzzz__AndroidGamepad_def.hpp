@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/zzzz__Gamepad_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem::Android {
 class AndroidGamepad;
@@ -12,7 +11,7 @@ namespace UnityEngine::InputSystem::Android {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6320))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6509))
 // CS Name: UnityEngine.InputSystem.Android.AndroidGamepad
-class CORDL_TYPE AndroidGamepad : public ::UnityEngine::InputSystem::Gamepad {
+class CORDL_TYPE AndroidGamepad : public UnityEngine::InputSystem::Gamepad {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr AndroidGamepad(AndroidGamepad const& ) noexcept = default;
 constexpr AndroidGamepad(AndroidGamepad&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AndroidGamepad(void* ptr) noexcept : ::UnityEngine::InputSystem::Gamepad(ptr) {
+constexpr explicit AndroidGamepad(void* ptr) noexcept : UnityEngine::InputSystem::Gamepad(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Android
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Android::AndroidGamepad);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Android::AndroidGamepad, "UnityEngine.InputSystem.Android", "AndroidGamepad");
+NEED_NO_BOX(UnityEngine::InputSystem::Android::AndroidGamepad);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Android::AndroidGamepad, "UnityEngine.InputSystem.Android", "AndroidGamepad");

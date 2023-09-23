@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
 struct X509VerificationFlags;
@@ -79,50 +78,49 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field NoFlag offset 0
-static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const NoFlag;
+static System::Security::Cryptography::X509Certificates::X509VerificationFlags const NoFlag;
 
 /// @brief Field IgnoreNotTimeValid offset 0
-static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreNotTimeValid;
+static System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreNotTimeValid;
 
 /// @brief Field IgnoreCtlNotTimeValid offset 0
-static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreCtlNotTimeValid;
+static System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreCtlNotTimeValid;
 
 /// @brief Field IgnoreNotTimeNested offset 0
-static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreNotTimeNested;
+static System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreNotTimeNested;
 
 /// @brief Field IgnoreInvalidBasicConstraints offset 0
-static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreInvalidBasicConstraints;
+static System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreInvalidBasicConstraints;
 
 /// @brief Field AllowUnknownCertificateAuthority offset 0
-static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const AllowUnknownCertificateAuthority;
+static System::Security::Cryptography::X509Certificates::X509VerificationFlags const AllowUnknownCertificateAuthority;
 
 /// @brief Field IgnoreWrongUsage offset 0
-static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreWrongUsage;
+static System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreWrongUsage;
 
 /// @brief Field IgnoreInvalidName offset 0
-static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreInvalidName;
+static System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreInvalidName;
 
 /// @brief Field IgnoreInvalidPolicy offset 0
-static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreInvalidPolicy;
+static System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreInvalidPolicy;
 
 /// @brief Field IgnoreEndRevocationUnknown offset 0
-static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreEndRevocationUnknown;
+static System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreEndRevocationUnknown;
 
 /// @brief Field IgnoreCtlSignerRevocationUnknown offset 0
-static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreCtlSignerRevocationUnknown;
+static System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreCtlSignerRevocationUnknown;
 
 /// @brief Field IgnoreCertificateAuthorityRevocationUnknown offset 0
-static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreCertificateAuthorityRevocationUnknown;
+static System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreCertificateAuthorityRevocationUnknown;
 
 /// @brief Field IgnoreRootRevocationUnknown offset 0
-static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreRootRevocationUnknown;
+static System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreRootRevocationUnknown;
 
 /// @brief Field AllFlags offset 0
-static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const AllFlags;
+static System::Security::Cryptography::X509Certificates::X509VerificationFlags const AllFlags;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography::X509Certificates
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::X509Certificates::X509VerificationFlags, "System.Security.Cryptography.X509Certificates", "X509VerificationFlags");
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509VerificationFlags, "System.Security.Cryptography.X509Certificates", "X509VerificationFlags");

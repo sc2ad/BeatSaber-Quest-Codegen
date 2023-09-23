@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 class GlobalJavaObjectRef;
 }
@@ -59,11 +58,11 @@ constexpr explicit AndroidReflection(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 
 // Fields
 
-static ::UnityEngine::GlobalJavaObjectRef __declspec(property(get=__get_s_ReflectionHelperClass, put=__set_s_ReflectionHelperClass))  s_ReflectionHelperClass;
+static UnityEngine::GlobalJavaObjectRef __declspec(property(get=__get_s_ReflectionHelperClass, put=__set_s_ReflectionHelperClass))  s_ReflectionHelperClass;
 
-static void __set_s_ReflectionHelperClass(::UnityEngine::GlobalJavaObjectRef value) ;
+static void __set_s_ReflectionHelperClass(UnityEngine::GlobalJavaObjectRef value) ;
 
-static ::UnityEngine::GlobalJavaObjectRef __get_s_ReflectionHelperClass() ;
+static UnityEngine::GlobalJavaObjectRef __get_s_ReflectionHelperClass() ;
 
 static ::cordl_internals::intptr_t __declspec(property(get=__get_s_ReflectionHelperGetConstructorID, put=__set_s_ReflectionHelperGetConstructorID))  s_ReflectionHelperGetConstructorID;
 
@@ -111,10 +110,10 @@ static ::cordl_internals::intptr_t __get_s_FieldGetDeclaringClass() ;
 // Methods
 
 /// @brief Method IsPrimitive addr 0x2b11b24 size 0x14 virtual false final false
-static bool IsPrimitive(::System::Type t) ;
+static bool IsPrimitive(System::Type t) ;
 
 /// @brief Method IsAssignableFrom addr 0x2b11b38 size 0x20 virtual false final false
-static bool IsAssignableFrom(::System::Type t, ::System::Type from) ;
+static bool IsAssignableFrom(System::Type t, System::Type from) ;
 
 /// @brief Method GetStaticMethodID addr 0x2b11b58 size 0x9c virtual false final false
 static ::cordl_internals::intptr_t GetStaticMethodID(::StringW clazz, ::StringW methodName, ::StringW signature) ;
@@ -141,12 +140,11 @@ static ::StringW GetFieldSignature(::cordl_internals::intptr_t field) ;
 static ::cordl_internals::intptr_t NewProxyInstance(::cordl_internals::intptr_t delegateHandle, ::cordl_internals::intptr_t interfaze) ;
 
 /// @brief Method SetNativeExceptionOnProxy addr 0x2b0f704 size 0x10c virtual false final false
-static void SetNativeExceptionOnProxy(::cordl_internals::intptr_t proxy, ::System::Exception e, bool methodNotFound) ;
+static void SetNativeExceptionOnProxy(::cordl_internals::intptr_t proxy, System::Exception e, bool methodNotFound) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AndroidReflection);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AndroidReflection, "UnityEngine", "AndroidReflection");
+NEED_NO_BOX(UnityEngine::AndroidReflection);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AndroidReflection, "UnityEngine", "AndroidReflection");

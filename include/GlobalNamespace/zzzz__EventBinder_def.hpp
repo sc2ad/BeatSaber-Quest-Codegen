@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -55,17 +54,17 @@ constexpr explicit EventBinder(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 
 // Fields
 
- ::System::Collections::Generic::List_1<::System::Action> __declspec(property(get=__get__unsubscribes, put=__set__unsubscribes))  _unsubscribes;
+ System::Collections::Generic::List_1<System::Action> __declspec(property(get=__get__unsubscribes, put=__set__unsubscribes))  _unsubscribes;
 
-constexpr void __set__unsubscribes(::System::Collections::Generic::List_1<::System::Action> value) ;
+constexpr void __set__unsubscribes(System::Collections::Generic::List_1<System::Action> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::System::Action> __get__unsubscribes() const;
+constexpr System::Collections::Generic::List_1<System::Action> __get__unsubscribes() const;
 
 
 // Methods
 
 /// @brief Method Bind addr 0x1f776b0 size 0xcc virtual false final false
- void Bind(::System::Action subscribe, ::System::Action unsubscribe) ;
+ void Bind(System::Action subscribe, System::Action unsubscribe) ;
 
 /// @brief Method ClearAllBindings addr 0x1f7777c size 0x18c virtual false final false
  void ClearAllBindings() ;
@@ -80,6 +79,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::EventBinder);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EventBinder, "", "EventBinder");
+NEED_NO_BOX(GlobalNamespace::EventBinder);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EventBinder, "", "EventBinder");

@@ -6,7 +6,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace Org::BouncyCastle::Asn1 {
+class Asn1EncodableVector;
+}
+namespace Org::BouncyCastle::Crypto {
+class CipherKeyGenerator;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
 namespace System::IO {
 class Stream;
 }
@@ -14,35 +25,23 @@ namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1EncodableVector;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
-namespace Org::BouncyCastle::Crypto {
-class CipherKeyGenerator;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
-namespace Org::BouncyCastle::Crypto::IO {
-class CipherStream;
+namespace Org::BouncyCastle::Cms {
+class CmsEnvelopedGenerator;
 }
 namespace Org::BouncyCastle::Asn1 {
 class BerSequenceGenerator;
 }
-namespace Org::BouncyCastle::Cms {
-class CmsEnvelopedGenerator;
+namespace Org::BouncyCastle::Crypto::IO {
+class CipherStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
 class CmsEnvelopedDataStreamGenerator;
 }
 namespace Org::BouncyCastle::Cms {
-class ____Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream;
+class Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream;
 }
 // Type: ::CmsEnvelopedDataOutputStream
 namespace Org::BouncyCastle::Cms {
@@ -50,80 +49,80 @@ namespace Org::BouncyCastle::Cms {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(484))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(636))
 // CS Name: Org.BouncyCastle.Cms.CmsEnvelopedDataStreamGenerator::CmsEnvelopedDataOutputStream
-class CORDL_TYPE ____Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream : public ::Org::BouncyCastle::Utilities::IO::BaseOutputStream {
+class CORDL_TYPE Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream : public Org::BouncyCastle::Utilities::IO::BaseOutputStream {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x58};
 
-virtual ~____Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream() = default;
+virtual ~Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream", modifiers: " const&", def_value: None }]
-constexpr ____Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream(____Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream", modifiers: " const&", def_value: None }]
+constexpr Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream(Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream", modifiers: "&&", def_value: None }]
-constexpr ____Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream(____Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream", modifiers: "&&", def_value: None }]
+constexpr Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream(Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream(void* ptr) noexcept : ::Org::BouncyCastle::Utilities::IO::BaseOutputStream(ptr) {
+constexpr explicit Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream(void* ptr) noexcept : Org::BouncyCastle::Utilities::IO::BaseOutputStream(ptr) {
 }
 
 
-  constexpr ____Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream& operator=(std::nullptr_t) noexcept {
+  constexpr Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream& operator=(void* o) noexcept {
+  constexpr Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream& operator=(____Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream&& o) noexcept = default;
-  constexpr ____Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream& operator=(____Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream const& o) noexcept = default;
+  constexpr Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream& operator=(Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream&& o) noexcept = default;
+  constexpr Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream& operator=(Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::Org::BouncyCastle::Cms::CmsEnvelopedGenerator __declspec(property(get=__get__outer, put=__set__outer))  _outer;
+ Org::BouncyCastle::Cms::CmsEnvelopedGenerator __declspec(property(get=__get__outer, put=__set__outer))  _outer;
 
-constexpr void __set__outer(::Org::BouncyCastle::Cms::CmsEnvelopedGenerator value) ;
+constexpr void __set__outer(Org::BouncyCastle::Cms::CmsEnvelopedGenerator value) ;
 
-constexpr ::Org::BouncyCastle::Cms::CmsEnvelopedGenerator __get__outer() const;
+constexpr Org::BouncyCastle::Cms::CmsEnvelopedGenerator __get__outer() const;
 
- ::Org::BouncyCastle::Crypto::IO::CipherStream __declspec(property(get=__get__out, put=__set__out))  _out;
+ Org::BouncyCastle::Crypto::IO::CipherStream __declspec(property(get=__get__out, put=__set__out))  _out;
 
-constexpr void __set__out(::Org::BouncyCastle::Crypto::IO::CipherStream value) ;
+constexpr void __set__out(Org::BouncyCastle::Crypto::IO::CipherStream value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IO::CipherStream __get__out() const;
+constexpr Org::BouncyCastle::Crypto::IO::CipherStream __get__out() const;
 
- ::Org::BouncyCastle::Asn1::BerSequenceGenerator __declspec(property(get=__get__cGen, put=__set__cGen))  _cGen;
+ Org::BouncyCastle::Asn1::BerSequenceGenerator __declspec(property(get=__get__cGen, put=__set__cGen))  _cGen;
 
-constexpr void __set__cGen(::Org::BouncyCastle::Asn1::BerSequenceGenerator value) ;
+constexpr void __set__cGen(Org::BouncyCastle::Asn1::BerSequenceGenerator value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::BerSequenceGenerator __get__cGen() const;
+constexpr Org::BouncyCastle::Asn1::BerSequenceGenerator __get__cGen() const;
 
- ::Org::BouncyCastle::Asn1::BerSequenceGenerator __declspec(property(get=__get__envGen, put=__set__envGen))  _envGen;
+ Org::BouncyCastle::Asn1::BerSequenceGenerator __declspec(property(get=__get__envGen, put=__set__envGen))  _envGen;
 
-constexpr void __set__envGen(::Org::BouncyCastle::Asn1::BerSequenceGenerator value) ;
+constexpr void __set__envGen(Org::BouncyCastle::Asn1::BerSequenceGenerator value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::BerSequenceGenerator __get__envGen() const;
+constexpr Org::BouncyCastle::Asn1::BerSequenceGenerator __get__envGen() const;
 
- ::Org::BouncyCastle::Asn1::BerSequenceGenerator __declspec(property(get=__get__eiGen, put=__set__eiGen))  _eiGen;
+ Org::BouncyCastle::Asn1::BerSequenceGenerator __declspec(property(get=__get__eiGen, put=__set__eiGen))  _eiGen;
 
-constexpr void __set__eiGen(::Org::BouncyCastle::Asn1::BerSequenceGenerator value) ;
+constexpr void __set__eiGen(Org::BouncyCastle::Asn1::BerSequenceGenerator value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::BerSequenceGenerator __get__eiGen() const;
+constexpr Org::BouncyCastle::Asn1::BerSequenceGenerator __get__eiGen() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "outer", ty: "::Org::BouncyCastle::Cms::CmsEnvelopedGenerator", modifiers: "", def_value: None }, CppParam { name: "outStream", ty: "::Org::BouncyCastle::Crypto::IO::CipherStream", modifiers: "", def_value: None }, CppParam { name: "cGen", ty: "::Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }, CppParam { name: "envGen", ty: "::Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }, CppParam { name: "eiGen", ty: "::Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }]
-explicit ____Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream(::Org::BouncyCastle::Cms::CmsEnvelopedGenerator outer, ::Org::BouncyCastle::Crypto::IO::CipherStream outStream, ::Org::BouncyCastle::Asn1::BerSequenceGenerator cGen, ::Org::BouncyCastle::Asn1::BerSequenceGenerator envGen, ::Org::BouncyCastle::Asn1::BerSequenceGenerator eiGen) ;
+// Ctor Parameters [CppParam { name: "outer", ty: "Org::BouncyCastle::Cms::CmsEnvelopedGenerator", modifiers: "", def_value: None }, CppParam { name: "outStream", ty: "Org::BouncyCastle::Crypto::IO::CipherStream", modifiers: "", def_value: None }, CppParam { name: "cGen", ty: "Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }, CppParam { name: "envGen", ty: "Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }, CppParam { name: "eiGen", ty: "Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }]
+explicit Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream(Org::BouncyCastle::Cms::CmsEnvelopedGenerator outer, Org::BouncyCastle::Crypto::IO::CipherStream outStream, Org::BouncyCastle::Asn1::BerSequenceGenerator cGen, Org::BouncyCastle::Asn1::BerSequenceGenerator envGen, Org::BouncyCastle::Asn1::BerSequenceGenerator eiGen) ;
 
 /// @brief Method .ctor addr 0x1156c38 size 0x50 virtual false final false
- void _ctor(::Org::BouncyCastle::Cms::CmsEnvelopedGenerator outer, ::Org::BouncyCastle::Crypto::IO::CipherStream outStream, ::Org::BouncyCastle::Asn1::BerSequenceGenerator cGen, ::Org::BouncyCastle::Asn1::BerSequenceGenerator envGen, ::Org::BouncyCastle::Asn1::BerSequenceGenerator eiGen) ;
+ void _ctor(Org::BouncyCastle::Cms::CmsEnvelopedGenerator outer, Org::BouncyCastle::Crypto::IO::CipherStream outStream, Org::BouncyCastle::Asn1::BerSequenceGenerator cGen, Org::BouncyCastle::Asn1::BerSequenceGenerator envGen, Org::BouncyCastle::Asn1::BerSequenceGenerator eiGen) ;
 
 /// @brief Method WriteByte addr 0x1156c88 size 0x24 virtual true final false
  void WriteByte(uint8_t b) ;
@@ -144,10 +143,10 @@ namespace Org::BouncyCastle::Cms {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(617))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(637))
 // CS Name: Org.BouncyCastle.Cms.CmsEnvelopedDataStreamGenerator
-class CORDL_TYPE CmsEnvelopedDataStreamGenerator : public ::Org::BouncyCastle::Cms::CmsEnvelopedGenerator {
+class CORDL_TYPE CmsEnvelopedDataStreamGenerator : public Org::BouncyCastle::Cms::CmsEnvelopedGenerator {
 public:
 // Declarations
-using CmsEnvelopedDataOutputStream = ::Org::BouncyCastle::Cms::____Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream;
+using CmsEnvelopedDataOutputStream = Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -161,7 +160,7 @@ constexpr CmsEnvelopedDataStreamGenerator(CmsEnvelopedDataStreamGenerator const&
 constexpr CmsEnvelopedDataStreamGenerator(CmsEnvelopedDataStreamGenerator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CmsEnvelopedDataStreamGenerator(void* ptr) noexcept : ::Org::BouncyCastle::Cms::CmsEnvelopedGenerator(ptr) {
+constexpr explicit CmsEnvelopedDataStreamGenerator(void* ptr) noexcept : Org::BouncyCastle::Cms::CmsEnvelopedGenerator(ptr) {
 }
 
 
@@ -209,7 +208,7 @@ constexpr bool __get__berEncodeRecipientSet() const;
 
 // Properties
 
- ::Org::BouncyCastle::Asn1::DerInteger __declspec(property(get=get_Version))  Version;
+ Org::BouncyCastle::Asn1::DerInteger __declspec(property(get=get_Version))  Version;
 
 
 // Methods
@@ -220,11 +219,11 @@ explicit CmsEnvelopedDataStreamGenerator() ;
 /// @brief Method .ctor addr 0x1155aa8 size 0x58 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "rand", ty: "::Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit CmsEnvelopedDataStreamGenerator(::Org::BouncyCastle::Security::SecureRandom rand) ;
+// Ctor Parameters [CppParam { name: "rand", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
+explicit CmsEnvelopedDataStreamGenerator(Org::BouncyCastle::Security::SecureRandom rand) ;
 
 /// @brief Method .ctor addr 0x1155b00 size 0x68 virtual false final false
- void _ctor(::Org::BouncyCastle::Security::SecureRandom rand) ;
+ void _ctor(Org::BouncyCastle::Security::SecureRandom rand) ;
 
 /// @brief Method SetBufferSize addr 0x1155b68 size 0x8 virtual false final false
  void SetBufferSize(int32_t bufferSize) ;
@@ -233,26 +232,25 @@ explicit CmsEnvelopedDataStreamGenerator(::Org::BouncyCastle::Security::SecureRa
  void SetBerEncodeRecipients(bool berEncodeRecipientSet) ;
 
 /// @brief Method get_Version addr 0x1155b7c size 0x80 virtual false final false
- ::Org::BouncyCastle::Asn1::DerInteger get_Version() ;
+ Org::BouncyCastle::Asn1::DerInteger get_Version() ;
 
 /// @brief Method Open addr 0x1155bfc size 0x600 virtual false final false
- ::System::IO::Stream Open(::System::IO::Stream outStream, ::StringW encryptionOid, ::Org::BouncyCastle::Crypto::CipherKeyGenerator keyGen) ;
+ System::IO::Stream Open(System::IO::Stream outStream, ::StringW encryptionOid, Org::BouncyCastle::Crypto::CipherKeyGenerator keyGen) ;
 
 /// @brief Method Open addr 0x11561fc size 0x880 virtual false final false
- ::System::IO::Stream Open(::System::IO::Stream outStream, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier encAlgID, ::Org::BouncyCastle::Crypto::ICipherParameters cipherParameters, ::Org::BouncyCastle::Asn1::Asn1EncodableVector recipientInfos) ;
+ System::IO::Stream Open(System::IO::Stream outStream, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier encAlgID, Org::BouncyCastle::Crypto::ICipherParameters cipherParameters, Org::BouncyCastle::Asn1::Asn1EncodableVector recipientInfos) ;
 
 /// @brief Method Open addr 0x1156a7c size 0xdc virtual false final false
- ::System::IO::Stream Open(::System::IO::Stream outStream, ::StringW encryptionOid) ;
+ System::IO::Stream Open(System::IO::Stream outStream, ::StringW encryptionOid) ;
 
 /// @brief Method Open addr 0x1156b58 size 0xe0 virtual false final false
- ::System::IO::Stream Open(::System::IO::Stream outStream, ::StringW encryptionOid, int32_t keySize) ;
+ System::IO::Stream Open(System::IO::Stream outStream, ::StringW encryptionOid, int32_t keySize) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Cms
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator, "Org.BouncyCastle.Cms", "CmsEnvelopedDataStreamGenerator");
-NEED_NO_BOX(::Org::BouncyCastle::Cms::____Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::____Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream, "Org.BouncyCastle.Cms", "CmsEnvelopedDataStreamGenerator/CmsEnvelopedDataOutputStream");
+NEED_NO_BOX(Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator, "Org.BouncyCastle.Cms", "CmsEnvelopedDataStreamGenerator");
+NEED_NO_BOX(Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream, "Org.BouncyCastle.Cms", "CmsEnvelopedDataStreamGenerator/CmsEnvelopedDataOutputStream");

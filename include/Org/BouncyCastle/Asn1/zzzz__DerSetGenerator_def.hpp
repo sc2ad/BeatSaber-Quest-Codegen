@@ -2,15 +2,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerGenerator_def.hpp"
 #include <cstdint>
-namespace {
 namespace System::IO {
-class MemoryStream;
+class Stream;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
 namespace System::IO {
-class Stream;
+class MemoryStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -22,7 +21,7 @@ namespace Org::BouncyCastle::Asn1 {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(508))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(515))
 // CS Name: Org.BouncyCastle.Asn1.DerSetGenerator
-class CORDL_TYPE DerSetGenerator : public ::Org::BouncyCastle::Asn1::DerGenerator {
+class CORDL_TYPE DerSetGenerator : public Org::BouncyCastle::Asn1::DerGenerator {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr DerSetGenerator(DerSetGenerator const& ) noexcept = default;
 constexpr DerSetGenerator(DerSetGenerator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DerSetGenerator(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::DerGenerator(ptr) {
+constexpr explicit DerSetGenerator(void* ptr) noexcept : Org::BouncyCastle::Asn1::DerGenerator(ptr) {
 }
 
 
@@ -58,32 +57,32 @@ constexpr explicit DerSetGenerator(void* ptr) noexcept : ::Org::BouncyCastle::As
 
 // Fields
 
- ::System::IO::MemoryStream __declspec(property(get=__get__bOut, put=__set__bOut))  _bOut;
+ System::IO::MemoryStream __declspec(property(get=__get__bOut, put=__set__bOut))  _bOut;
 
-constexpr void __set__bOut(::System::IO::MemoryStream value) ;
+constexpr void __set__bOut(System::IO::MemoryStream value) ;
 
-constexpr ::System::IO::MemoryStream __get__bOut() const;
+constexpr System::IO::MemoryStream __get__bOut() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "outStream", ty: "::System::IO::Stream", modifiers: "", def_value: None }]
-explicit DerSetGenerator(::System::IO::Stream outStream) ;
+// Ctor Parameters [CppParam { name: "outStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
+explicit DerSetGenerator(System::IO::Stream outStream) ;
 
 /// @brief Method .ctor addr 0x1138ddc size 0x80 virtual false final false
- void _ctor(::System::IO::Stream outStream) ;
+ void _ctor(System::IO::Stream outStream) ;
 
-// Ctor Parameters [CppParam { name: "outStream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "tagNo", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "isExplicit", ty: "bool", modifiers: "", def_value: None }]
-explicit DerSetGenerator(::System::IO::Stream outStream, int32_t tagNo, bool isExplicit) ;
+// Ctor Parameters [CppParam { name: "outStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "tagNo", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "isExplicit", ty: "bool", modifiers: "", def_value: None }]
+explicit DerSetGenerator(System::IO::Stream outStream, int32_t tagNo, bool isExplicit) ;
 
 /// @brief Method .ctor addr 0x1138e5c size 0xa4 virtual false final false
- void _ctor(::System::IO::Stream outStream, int32_t tagNo, bool isExplicit) ;
+ void _ctor(System::IO::Stream outStream, int32_t tagNo, bool isExplicit) ;
 
 /// @brief Method AddObject addr 0x1138f00 size 0x80 virtual true final false
- void AddObject(::Org::BouncyCastle::Asn1::Asn1Encodable obj) ;
+ void AddObject(Org::BouncyCastle::Asn1::Asn1Encodable obj) ;
 
 /// @brief Method GetRawOutputStream addr 0x1138f80 size 0x8 virtual true final false
- ::System::IO::Stream GetRawOutputStream() ;
+ System::IO::Stream GetRawOutputStream() ;
 
 /// @brief Method Close addr 0x1138f88 size 0x38 virtual true final false
  void Close() ;
@@ -92,6 +91,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::DerSetGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::DerSetGenerator, "Org.BouncyCastle.Asn1", "DerSetGenerator");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::DerSetGenerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerSetGenerator, "Org.BouncyCastle.Asn1", "DerSetGenerator");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Xml {
 struct AttributeProperties;
@@ -69,20 +68,19 @@ constexpr void __set_value__(uint32_t value) ;
 constexpr uint32_t __get_value__() const;
 
 /// @brief Field DEFAULT offset 0
-static ::System::Xml::AttributeProperties const DEFAULT;
+static System::Xml::AttributeProperties const DEFAULT;
 
 /// @brief Field URI offset 0
-static ::System::Xml::AttributeProperties const URI;
+static System::Xml::AttributeProperties const URI;
 
 /// @brief Field BOOLEAN offset 0
-static ::System::Xml::AttributeProperties const BOOLEAN;
+static System::Xml::AttributeProperties const BOOLEAN;
 
 /// @brief Field NAME offset 0
-static ::System::Xml::AttributeProperties const NAME;
+static System::Xml::AttributeProperties const NAME;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::AttributeProperties, "System.Xml", "AttributeProperties");
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::AttributeProperties, "System.Xml", "AttributeProperties");

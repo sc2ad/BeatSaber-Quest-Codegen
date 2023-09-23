@@ -4,22 +4,21 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace LiteNetLib::Utils {
 class NetDataReader;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace LiteNetLib::Utils {
-class INetSerializable;
 }
 namespace System {
 template<typename T>
 class IEquatable_1;
 }
+namespace LiteNetLib::Utils {
+class INetSerializable;
+}
 namespace UnityEngine {
 struct Color;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,14 +33,14 @@ namespace GlobalNamespace {
 struct CORDL_TYPE ColorNoAlphaSerializable : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::LiteNetLib::Utils::INetSerializable
-constexpr operator  ::LiteNetLib::Utils::INetSerializable() const;
+/// @brief Convert operator to LiteNetLib::Utils::INetSerializable
+constexpr operator  LiteNetLib::Utils::INetSerializable() const;
 
-/// @brief Convert operator to ::System::IEquatable_1<::GlobalNamespace::ColorNoAlphaSerializable>
-constexpr operator  ::System::IEquatable_1<::GlobalNamespace::ColorNoAlphaSerializable>() const;
+/// @brief Convert operator to System::IEquatable_1<GlobalNamespace::ColorNoAlphaSerializable>
+constexpr operator  System::IEquatable_1<GlobalNamespace::ColorNoAlphaSerializable>() const;
 
-// Ctor Parameters [CppParam { name: "_color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }]
-constexpr ColorNoAlphaSerializable(::UnityEngine::Color _color) noexcept;
+// Ctor Parameters [CppParam { name: "_color", ty: "UnityEngine::Color", modifiers: "", def_value: None }]
+constexpr ColorNoAlphaSerializable(UnityEngine::Color _color) noexcept;
 
 
                     constexpr ColorNoAlphaSerializable(ColorNoAlphaSerializable const&) = default;
@@ -74,32 +73,32 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Color __declspec(property(get=__get__color, put=__set__color))  _color;
+ UnityEngine::Color __declspec(property(get=__get__color, put=__set__color))  _color;
 
-constexpr void __set__color(::UnityEngine::Color value) ;
+constexpr void __set__color(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__color() const;
+constexpr UnityEngine::Color __get__color() const;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x121bc1c size 0xc virtual false final false
- void _ctor(::UnityEngine::Color color) ;
+ void _ctor(UnityEngine::Color color) ;
 
 /// @brief Method Serialize addr 0x121bc28 size 0x50 virtual true final true
- void Serialize(::LiteNetLib::Utils::NetDataWriter writer) ;
+ void Serialize(LiteNetLib::Utils::NetDataWriter writer) ;
 
 /// @brief Method Deserialize addr 0x121bc78 size 0x5c virtual true final true
- void Deserialize(::LiteNetLib::Utils::NetDataReader reader) ;
+ void Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
 
 /// @brief Method op_Implicit addr 0x121bcd4 size 0x4 virtual false final false
-static ::UnityEngine::Color op_Implicit___UnityEngine__Color(::GlobalNamespace::ColorNoAlphaSerializable c) ;
+static UnityEngine::Color op_Implicit_UnityEngine__Color(GlobalNamespace::ColorNoAlphaSerializable c) ;
 
 /// @brief Method op_Implicit addr 0x121bcd8 size 0x4 virtual false final false
-static ::GlobalNamespace::ColorNoAlphaSerializable op_Implicit___GlobalNamespace__ColorNoAlphaSerializable(::UnityEngine::Color c) ;
+static GlobalNamespace::ColorNoAlphaSerializable op_Implicit_GlobalNamespace__ColorNoAlphaSerializable(UnityEngine::Color c) ;
 
 /// @brief Method Equals addr 0x121bcdc size 0x104 virtual true final true
- bool Equals(::GlobalNamespace::ColorNoAlphaSerializable other) ;
+ bool Equals(GlobalNamespace::ColorNoAlphaSerializable other) ;
 
 /// @brief Method Equals addr 0x121bde0 size 0x7c virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -114,5 +113,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ColorNoAlphaSerializable, "", "ColorNoAlphaSerializable");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorNoAlphaSerializable, "", "ColorNoAlphaSerializable");

@@ -3,7 +3,6 @@
 #include "System/Security/Cryptography/zzzz__SHA256_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security::Cryptography {
 class SHA256Managed;
@@ -14,7 +13,7 @@ namespace System::Security::Cryptography {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2956))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2957))
 // CS Name: System.Security.Cryptography.SHA256Managed
-class CORDL_TYPE SHA256Managed : public ::System::Security::Cryptography::SHA256 {
+class CORDL_TYPE SHA256Managed : public System::Security::Cryptography::SHA256 {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr SHA256Managed(SHA256Managed const& ) noexcept = default;
 constexpr SHA256Managed(SHA256Managed&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SHA256Managed(void* ptr) noexcept : ::System::Security::Cryptography::SHA256(ptr) {
+constexpr explicit SHA256Managed(void* ptr) noexcept : System::Security::Cryptography::SHA256(ptr) {
 }
 
 
@@ -138,6 +137,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::SHA256Managed);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::SHA256Managed, "System.Security.Cryptography", "SHA256Managed");
+NEED_NO_BOX(System::Security::Cryptography::SHA256Managed);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SHA256Managed, "System.Security.Cryptography", "SHA256Managed");

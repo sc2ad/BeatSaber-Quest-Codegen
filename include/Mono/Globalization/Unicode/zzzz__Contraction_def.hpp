@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Mono::Globalization::Unicode {
 class Contraction;
@@ -88,6 +87,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Globalization::Unicode
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Globalization::Unicode::Contraction);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Globalization::Unicode::Contraction, "Mono.Globalization.Unicode", "Contraction");
+NEED_NO_BOX(Mono::Globalization::Unicode::Contraction);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::Contraction, "Mono.Globalization.Unicode", "Contraction");

@@ -3,18 +3,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct AssetLoadMode;
-}
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class ILocationSizeData;
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
 }
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
 }
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class ILocationSizeData;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct AssetLoadMode;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {
@@ -29,8 +28,8 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
 class CORDL_TYPE AssetBundleRequestOptions : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData
-constexpr operator  ::UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData() const noexcept;
+/// @brief Convert operator to UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData
+constexpr operator  UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x50};
@@ -107,11 +106,11 @@ constexpr void __set_m_BundleName(::StringW value) ;
 
 constexpr ::StringW __get_m_BundleName() const;
 
- ::UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode __declspec(property(get=__get_m_AssetLoadMode, put=__set_m_AssetLoadMode))  m_AssetLoadMode;
+ UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode __declspec(property(get=__get_m_AssetLoadMode, put=__set_m_AssetLoadMode))  m_AssetLoadMode;
 
-constexpr void __set_m_AssetLoadMode(::UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode value) ;
+constexpr void __set_m_AssetLoadMode(UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode value) ;
 
-constexpr ::UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode __get_m_AssetLoadMode() const;
+constexpr UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode __get_m_AssetLoadMode() const;
 
  int64_t __declspec(property(get=__get_m_BundleSize, put=__set_m_BundleSize))  m_BundleSize;
 
@@ -154,7 +153,7 @@ constexpr bool __get_m_ClearOtherCachedVersionsWhenLoaded() const;
 
  ::StringW __declspec(property(get=get_BundleName, put=set_BundleName))  BundleName;
 
- ::UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode __declspec(property(get=get_AssetLoadMode, put=set_AssetLoadMode))  AssetLoadMode;
+ UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode __declspec(property(get=get_AssetLoadMode, put=set_AssetLoadMode))  AssetLoadMode;
 
  int64_t __declspec(property(get=get_BundleSize, put=set_BundleSize))  BundleSize;
 
@@ -210,10 +209,10 @@ constexpr bool __get_m_ClearOtherCachedVersionsWhenLoaded() const;
  void set_BundleName(::StringW value) ;
 
 /// @brief Method get_AssetLoadMode addr 0x2a3bf80 size 0x8 virtual false final false
- ::UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode get_AssetLoadMode() ;
+ UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode get_AssetLoadMode() ;
 
 /// @brief Method set_AssetLoadMode addr 0x2a3bf88 size 0x8 virtual false final false
- void set_AssetLoadMode(::UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode value) ;
+ void set_AssetLoadMode(UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode value) ;
 
 /// @brief Method get_BundleSize addr 0x2a3bf90 size 0x8 virtual false final false
  int64_t get_BundleSize() ;
@@ -240,7 +239,7 @@ constexpr bool __get_m_ClearOtherCachedVersionsWhenLoaded() const;
  void set_ClearOtherCachedVersionsWhenLoaded(bool value) ;
 
 /// @brief Method ComputeSize addr 0x2a3bfdc size 0x148 virtual true final false
- int64_t ComputeSize(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location, ::UnityEngine::ResourceManagement::ResourceManager resourceManager) ;
+ int64_t ComputeSize(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location, UnityEngine::ResourceManagement::ResourceManager resourceManager) ;
 
 // Ctor Parameters []
 explicit AssetBundleRequestOptions() ;
@@ -252,6 +251,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ResourceManagement::ResourceProviders
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions, "UnityEngine.ResourceManagement.ResourceProviders", "AssetBundleRequestOptions");
+NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions, "UnityEngine.ResourceManagement.ResourceProviders", "AssetBundleRequestOptions");

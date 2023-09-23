@@ -1,13 +1,12 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
+namespace System {
+class Type;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace Zenject::Internal {
@@ -55,26 +54,26 @@ constexpr explicit SingletonMarkRegistry(void* ptr) noexcept : ::bs_hook::Il2Cpp
 
 // Fields
 
- ::System::Collections::Generic::HashSet_1<::System::Type> __declspec(property(get=__get__boundSingletons, put=__set__boundSingletons))  _boundSingletons;
+ System::Collections::Generic::HashSet_1<System::Type> __declspec(property(get=__get__boundSingletons, put=__set__boundSingletons))  _boundSingletons;
 
-constexpr void __set__boundSingletons(::System::Collections::Generic::HashSet_1<::System::Type> value) ;
+constexpr void __set__boundSingletons(System::Collections::Generic::HashSet_1<System::Type> value) ;
 
-constexpr ::System::Collections::Generic::HashSet_1<::System::Type> __get__boundSingletons() const;
+constexpr System::Collections::Generic::HashSet_1<System::Type> __get__boundSingletons() const;
 
- ::System::Collections::Generic::HashSet_1<::System::Type> __declspec(property(get=__get__boundNonSingletons, put=__set__boundNonSingletons))  _boundNonSingletons;
+ System::Collections::Generic::HashSet_1<System::Type> __declspec(property(get=__get__boundNonSingletons, put=__set__boundNonSingletons))  _boundNonSingletons;
 
-constexpr void __set__boundNonSingletons(::System::Collections::Generic::HashSet_1<::System::Type> value) ;
+constexpr void __set__boundNonSingletons(System::Collections::Generic::HashSet_1<System::Type> value) ;
 
-constexpr ::System::Collections::Generic::HashSet_1<::System::Type> __get__boundNonSingletons() const;
+constexpr System::Collections::Generic::HashSet_1<System::Type> __get__boundNonSingletons() const;
 
 
 // Methods
 
 /// @brief Method MarkNonSingleton addr 0x2da7f6c size 0xac virtual false final false
- void MarkNonSingleton(::System::Type type) ;
+ void MarkNonSingleton(System::Type type) ;
 
 /// @brief Method MarkSingleton addr 0x2da8018 size 0xd4 virtual false final false
- void MarkSingleton(::System::Type type) ;
+ void MarkSingleton(System::Type type) ;
 
 // Ctor Parameters []
 explicit SingletonMarkRegistry() ;
@@ -86,6 +85,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject::Internal
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::Internal::SingletonMarkRegistry);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::Internal::SingletonMarkRegistry, "Zenject.Internal", "SingletonMarkRegistry");
+NEED_NO_BOX(Zenject::Internal::SingletonMarkRegistry);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::SingletonMarkRegistry, "Zenject.Internal", "SingletonMarkRegistry");

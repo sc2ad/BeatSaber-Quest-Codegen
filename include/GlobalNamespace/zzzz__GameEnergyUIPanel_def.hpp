@@ -3,12 +3,14 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 class RectTransform;
 }
 namespace UnityEngine::Playables {
 class PlayableDirector;
+}
+namespace UnityEngine::UI {
+class Image;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -16,9 +18,6 @@ class List_1;
 }
 namespace GlobalNamespace {
 class IGameEnergyCounter;
-}
-namespace UnityEngine::UI {
-class Image;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,7 +29,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5133))
 // CS Name: GameEnergyUIPanel
-class CORDL_TYPE GameEnergyUIPanel : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE GameEnergyUIPanel : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -45,7 +44,7 @@ constexpr GameEnergyUIPanel(GameEnergyUIPanel const& ) noexcept = default;
 constexpr GameEnergyUIPanel(GameEnergyUIPanel&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GameEnergyUIPanel(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit GameEnergyUIPanel(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -66,23 +65,23 @@ constexpr explicit GameEnergyUIPanel(void* ptr) noexcept : ::UnityEngine::MonoBe
 
 // Fields
 
- ::UnityEngine::UI::Image __declspec(property(get=__get__energyBar, put=__set__energyBar))  _energyBar;
+ UnityEngine::UI::Image __declspec(property(get=__get__energyBar, put=__set__energyBar))  _energyBar;
 
-constexpr void __set__energyBar(::UnityEngine::UI::Image value) ;
+constexpr void __set__energyBar(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get__energyBar() const;
+constexpr UnityEngine::UI::Image __get__energyBar() const;
 
- ::UnityEngine::Playables::PlayableDirector __declspec(property(get=__get__playableDirector, put=__set__playableDirector))  _playableDirector;
+ UnityEngine::Playables::PlayableDirector __declspec(property(get=__get__playableDirector, put=__set__playableDirector))  _playableDirector;
 
-constexpr void __set__playableDirector(::UnityEngine::Playables::PlayableDirector value) ;
+constexpr void __set__playableDirector(UnityEngine::Playables::PlayableDirector value) ;
 
-constexpr ::UnityEngine::Playables::PlayableDirector __get__playableDirector() const;
+constexpr UnityEngine::Playables::PlayableDirector __get__playableDirector() const;
 
- ::UnityEngine::UI::Image __declspec(property(get=__get__batteryLifeSegmentPrefab, put=__set__batteryLifeSegmentPrefab))  _batteryLifeSegmentPrefab;
+ UnityEngine::UI::Image __declspec(property(get=__get__batteryLifeSegmentPrefab, put=__set__batteryLifeSegmentPrefab))  _batteryLifeSegmentPrefab;
 
-constexpr void __set__batteryLifeSegmentPrefab(::UnityEngine::UI::Image value) ;
+constexpr void __set__batteryLifeSegmentPrefab(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get__batteryLifeSegmentPrefab() const;
+constexpr UnityEngine::UI::Image __get__batteryLifeSegmentPrefab() const;
 
  float_t __declspec(property(get=__get__batterySegmentSeparatorWidth, put=__set__batterySegmentSeparatorWidth))  _batterySegmentSeparatorWidth;
 
@@ -96,17 +95,17 @@ constexpr void __set__batterySegmentHorizontalPadding(float_t value) ;
 
 constexpr float_t __get__batterySegmentHorizontalPadding() const;
 
- ::GlobalNamespace::IGameEnergyCounter __declspec(property(get=__get__gameEnergyCounter, put=__set__gameEnergyCounter))  _gameEnergyCounter;
+ GlobalNamespace::IGameEnergyCounter __declspec(property(get=__get__gameEnergyCounter, put=__set__gameEnergyCounter))  _gameEnergyCounter;
 
-constexpr void __set__gameEnergyCounter(::GlobalNamespace::IGameEnergyCounter value) ;
+constexpr void __set__gameEnergyCounter(GlobalNamespace::IGameEnergyCounter value) ;
 
-constexpr ::GlobalNamespace::IGameEnergyCounter __get__gameEnergyCounter() const;
+constexpr GlobalNamespace::IGameEnergyCounter __get__gameEnergyCounter() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::UI::Image> __declspec(property(get=__get__batteryLifeSegments, put=__set__batteryLifeSegments))  _batteryLifeSegments;
+ System::Collections::Generic::List_1<UnityEngine::UI::Image> __declspec(property(get=__get__batteryLifeSegments, put=__set__batteryLifeSegments))  _batteryLifeSegments;
 
-constexpr void __set__batteryLifeSegments(::System::Collections::Generic::List_1<::UnityEngine::UI::Image> value) ;
+constexpr void __set__batteryLifeSegments(System::Collections::Generic::List_1<UnityEngine::UI::Image> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::UI::Image> __get__batteryLifeSegments() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::UI::Image> __get__batteryLifeSegments() const;
 
  int32_t __declspec(property(get=__get__activeBatteryLifeSegmentsCount, put=__set__activeBatteryLifeSegmentsCount))  _activeBatteryLifeSegmentsCount;
 
@@ -114,11 +113,11 @@ constexpr void __set__activeBatteryLifeSegmentsCount(int32_t value) ;
 
 constexpr int32_t __get__activeBatteryLifeSegmentsCount() const;
 
- ::UnityEngine::RectTransform __declspec(property(get=__get__energyBarRectTransform, put=__set__energyBarRectTransform))  _energyBarRectTransform;
+ UnityEngine::RectTransform __declspec(property(get=__get__energyBarRectTransform, put=__set__energyBarRectTransform))  _energyBarRectTransform;
 
-constexpr void __set__energyBarRectTransform(::UnityEngine::RectTransform value) ;
+constexpr void __set__energyBarRectTransform(UnityEngine::RectTransform value) ;
 
-constexpr ::UnityEngine::RectTransform __get__energyBarRectTransform() const;
+constexpr UnityEngine::RectTransform __get__energyBarRectTransform() const;
 
 
 // Methods
@@ -154,6 +153,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::GameEnergyUIPanel);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameEnergyUIPanel, "", "GameEnergyUIPanel");
+NEED_NO_BOX(GlobalNamespace::GameEnergyUIPanel);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameEnergyUIPanel, "", "GameEnergyUIPanel");

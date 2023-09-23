@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace ENet {
 class ArrayPool;
@@ -75,6 +74,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def ENet
-} // end anonymous namespace
-NEED_NO_BOX(::ENet::ArrayPool);
-DEFINE_IL2CPP_ARG_TYPE(::ENet::ArrayPool, "ENet", "ArrayPool");
+NEED_NO_BOX(ENet::ArrayPool);
+DEFINE_IL2CPP_ARG_TYPE(ENet::ArrayPool, "ENet", "ArrayPool");

@@ -3,7 +3,6 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 template<typename T1,typename T2,typename T3,typename T4,typename T5,typename T6,typename TResult>
@@ -19,10 +18,10 @@ namespace System {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T1,::cordl_internals::il2cpp_reference_type T2,::cordl_internals::il2cpp_reference_type T3,::cordl_internals::il2cpp_reference_type T4,::cordl_internals::il2cpp_reference_type T5,::cordl_internals::il2cpp_reference_type T6,::cordl_internals::il2cpp_reference_type TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610)), TypeDefinitionIndex(TypeDefinitionIndex(2337))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2337)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2337), inst: 5940 })
 // CS Name: System.Func`7
-class CORDL_TYPE Func_7<T1,T2,T3,T4,T5,T6,TResult> : public ::System::MulticastDelegate {
+class CORDL_TYPE Func_7<T1,T2,T3,T4,T5,T6,TResult> : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr Func_7(Func_7 const& ) noexcept = default;
 constexpr Func_7(Func_7&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Func_7(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit Func_7(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -71,5 +70,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Func_7, "System", "Func`7");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Func_7, "System", "Func`7");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security::Authentication {
 struct SslProtocols;
@@ -73,32 +72,31 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::Security::Authentication::SslProtocols const None;
+static System::Security::Authentication::SslProtocols const None;
 
 /// @brief Field Ssl2 offset 0
-static ::System::Security::Authentication::SslProtocols const Ssl2;
+static System::Security::Authentication::SslProtocols const Ssl2;
 
 /// @brief Field Ssl3 offset 0
-static ::System::Security::Authentication::SslProtocols const Ssl3;
+static System::Security::Authentication::SslProtocols const Ssl3;
 
 /// @brief Field Tls offset 0
-static ::System::Security::Authentication::SslProtocols const Tls;
+static System::Security::Authentication::SslProtocols const Tls;
 
 /// @brief Field Tls11 offset 0
-static ::System::Security::Authentication::SslProtocols const Tls11;
+static System::Security::Authentication::SslProtocols const Tls11;
 
 /// @brief Field Tls12 offset 0
-static ::System::Security::Authentication::SslProtocols const Tls12;
+static System::Security::Authentication::SslProtocols const Tls12;
 
 /// @brief Field Tls13 offset 0
-static ::System::Security::Authentication::SslProtocols const Tls13;
+static System::Security::Authentication::SslProtocols const Tls13;
 
 /// @brief Field Default offset 0
-static ::System::Security::Authentication::SslProtocols const Default;
+static System::Security::Authentication::SslProtocols const Default;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Security::Authentication
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Authentication::SslProtocols, "System.Security.Authentication", "SslProtocols");
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Authentication::SslProtocols, "System.Security.Authentication", "SslProtocols");

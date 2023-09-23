@@ -2,12 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System::Globalization {
-class CultureInfo;
-}
 namespace System::Text::RegularExpressions {
 class RegexCharClass;
+}
+namespace System::Globalization {
+class CultureInfo;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {
@@ -55,11 +54,11 @@ constexpr explicit RegexFC(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(pt
 
 // Fields
 
- ::System::Text::RegularExpressions::RegexCharClass __declspec(property(get=__get__cc, put=__set__cc))  _cc;
+ System::Text::RegularExpressions::RegexCharClass __declspec(property(get=__get__cc, put=__set__cc))  _cc;
 
-constexpr void __set__cc(::System::Text::RegularExpressions::RegexCharClass value) ;
+constexpr void __set__cc(System::Text::RegularExpressions::RegexCharClass value) ;
 
-constexpr ::System::Text::RegularExpressions::RegexCharClass __get__cc() const;
+constexpr System::Text::RegularExpressions::RegexCharClass __get__cc() const;
 
  bool __declspec(property(get=__get__nullable, put=__set__nullable))  _nullable;
 
@@ -100,7 +99,7 @@ explicit RegexFC(::StringW charClass, bool nullable, bool caseInsensitive) ;
  void _ctor(::StringW charClass, bool nullable, bool caseInsensitive) ;
 
 /// @brief Method AddFC addr 0x27ccba0 size 0xac virtual false final false
- bool AddFC(::System::Text::RegularExpressions::RegexFC fc, bool concatenate) ;
+ bool AddFC(System::Text::RegularExpressions::RegexFC fc, bool concatenate) ;
 
 /// @brief Method get_CaseInsensitive addr 0x27ccdd4 size 0x8 virtual false final false
  bool get_CaseInsensitive() ;
@@ -109,12 +108,11 @@ explicit RegexFC(::StringW charClass, bool nullable, bool caseInsensitive) ;
  void set_CaseInsensitive(bool value) ;
 
 /// @brief Method GetFirstChars addr 0x27cbf58 size 0x38 virtual false final false
- ::StringW GetFirstChars(::System::Globalization::CultureInfo culture) ;
+ ::StringW GetFirstChars(System::Globalization::CultureInfo culture) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Text::RegularExpressions
-} // end anonymous namespace
-NEED_NO_BOX(::System::Text::RegularExpressions::RegexFC);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::RegularExpressions::RegexFC, "System.Text.RegularExpressions", "RegexFC");
+NEED_NO_BOX(System::Text::RegularExpressions::RegexFC);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexFC, "System.Text.RegularExpressions", "RegexFC");

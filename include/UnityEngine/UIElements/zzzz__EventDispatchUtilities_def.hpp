@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
@@ -58,18 +57,17 @@ constexpr explicit EventDispatchUtilities(void* ptr) noexcept : ::bs_hook::Il2Cp
 // Methods
 
 /// @brief Method PropagateEvent addr 0x2cd4a0c size 0x74c virtual false final false
-static void PropagateEvent(::UnityEngine::UIElements::EventBase evt) ;
+static void PropagateEvent(UnityEngine::UIElements::EventBase evt) ;
 
 /// @brief Method PropagateToIMGUIContainer addr 0x2cd5164 size 0x224 virtual false final false
-static void PropagateToIMGUIContainer(::UnityEngine::UIElements::VisualElement root, ::UnityEngine::UIElements::EventBase evt) ;
+static void PropagateToIMGUIContainer(UnityEngine::UIElements::VisualElement root, UnityEngine::UIElements::EventBase evt) ;
 
 /// @brief Method ExecuteDefaultAction addr 0x2cdc2f8 size 0x1a8 virtual false final false
-static void ExecuteDefaultAction(::UnityEngine::UIElements::EventBase evt, ::UnityEngine::UIElements::IPanel panel) ;
+static void ExecuteDefaultAction(UnityEngine::UIElements::EventBase evt, UnityEngine::UIElements::IPanel panel) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::EventDispatchUtilities);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::EventDispatchUtilities, "UnityEngine.UIElements", "EventDispatchUtilities");
+NEED_NO_BOX(UnityEngine::UIElements::EventDispatchUtilities);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::EventDispatchUtilities, "UnityEngine.UIElements", "EventDispatchUtilities");

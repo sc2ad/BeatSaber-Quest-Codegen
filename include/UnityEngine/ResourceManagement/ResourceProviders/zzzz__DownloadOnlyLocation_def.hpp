@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__LocationWrapper_def.hpp"
-namespace {
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
 }
@@ -15,7 +14,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14304))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14269))
 // CS Name: UnityEngine.ResourceManagement.ResourceProviders.DownloadOnlyLocation
-class CORDL_TYPE DownloadOnlyLocation : public ::UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper {
+class CORDL_TYPE DownloadOnlyLocation : public UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr DownloadOnlyLocation(DownloadOnlyLocation const& ) noexcept = default;
 constexpr DownloadOnlyLocation(DownloadOnlyLocation&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DownloadOnlyLocation(void* ptr) noexcept : ::UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper(ptr) {
+constexpr explicit DownloadOnlyLocation(void* ptr) noexcept : UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper(ptr) {
 }
 
 
@@ -51,16 +50,15 @@ constexpr explicit DownloadOnlyLocation(void* ptr) noexcept : ::UnityEngine::Res
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "location", ty: "::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation", modifiers: "", def_value: None }]
-explicit DownloadOnlyLocation(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location) ;
+// Ctor Parameters [CppParam { name: "location", ty: "UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation", modifiers: "", def_value: None }]
+explicit DownloadOnlyLocation(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location) ;
 
 /// @brief Method .ctor addr 0x2a3bebc size 0x28 virtual false final false
- void _ctor(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location) ;
+ void _ctor(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ResourceManagement::ResourceProviders
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceProviders::DownloadOnlyLocation);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceProviders::DownloadOnlyLocation, "UnityEngine.ResourceManagement.ResourceProviders", "DownloadOnlyLocation");
+NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::DownloadOnlyLocation);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::DownloadOnlyLocation, "UnityEngine.ResourceManagement.ResourceProviders", "DownloadOnlyLocation");

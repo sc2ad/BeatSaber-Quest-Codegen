@@ -2,47 +2,46 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace System {
-class Action;
+namespace GlobalNamespace {
+class ILevelRestartController;
 }
 namespace GlobalNamespace {
 class PauseMenuManager;
 }
 namespace GlobalNamespace {
-class IGamePause;
-}
-namespace GlobalNamespace {
-class IVRPlatformHelper;
-}
-namespace GlobalNamespace {
-class BeatmapObjectManager;
+class ILevelStartController;
 }
 namespace GlobalNamespace {
 class IReturnToMenuController;
 }
-namespace GlobalNamespace {
-class ILevelRestartController;
+namespace System {
+class Action;
 }
 namespace GlobalNamespace {
 class IMenuButtonTrigger;
-}
-namespace GlobalNamespace {
-class ILevelStartController;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
+namespace GlobalNamespace {
+class IVRPlatformHelper;
+}
+namespace GlobalNamespace {
+class IGamePause;
+}
+namespace GlobalNamespace {
+class BeatmapObjectManager;
+}
 // Forward declare root types
 namespace GlobalNamespace {
+class GlobalNamespace__PauseController__InitData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PauseController____c__DisplayClass25_0;
+}
+namespace GlobalNamespace {
 class PauseController;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__PauseController__InitData;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__PauseController____c__DisplayClass25_0;
 }
 // Type: ::InitData
 namespace GlobalNamespace {
@@ -50,37 +49,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5163))
 // CS Name: PauseController::InitData
-class CORDL_TYPE ____GlobalNamespace__PauseController__InitData : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__PauseController__InitData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____GlobalNamespace__PauseController__InitData() = default;
+virtual ~GlobalNamespace__PauseController__InitData() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PauseController__InitData", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__PauseController__InitData(____GlobalNamespace__PauseController__InitData const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PauseController__InitData", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__PauseController__InitData(GlobalNamespace__PauseController__InitData const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PauseController__InitData", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__PauseController__InitData(____GlobalNamespace__PauseController__InitData&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PauseController__InitData", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__PauseController__InitData(GlobalNamespace__PauseController__InitData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__PauseController__InitData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__PauseController__InitData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__PauseController__InitData& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__PauseController__InitData& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PauseController__InitData& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__PauseController__InitData& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PauseController__InitData& operator=(____GlobalNamespace__PauseController__InitData&& o) noexcept = default;
-  constexpr ____GlobalNamespace__PauseController__InitData& operator=(____GlobalNamespace__PauseController__InitData const& o) noexcept = default;
+  constexpr GlobalNamespace__PauseController__InitData& operator=(GlobalNamespace__PauseController__InitData&& o) noexcept = default;
+  constexpr GlobalNamespace__PauseController__InitData& operator=(GlobalNamespace__PauseController__InitData const& o) noexcept = default;
                 
 
 
@@ -96,7 +95,7 @@ constexpr bool __get_startPaused() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "startPaused", ty: "bool", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__PauseController__InitData(bool startPaused) ;
+explicit GlobalNamespace__PauseController__InitData(bool startPaused) ;
 
 /// @brief Method .ctor addr 0x20d34e0 size 0x28 virtual false final false
  void _ctor(bool startPaused) ;
@@ -111,37 +110,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5164))
 // CS Name: PauseController::<>c__DisplayClass25_0
-class CORDL_TYPE ____GlobalNamespace__PauseController____c__DisplayClass25_0 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__PauseController____c__DisplayClass25_0 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____GlobalNamespace__PauseController____c__DisplayClass25_0() = default;
+virtual ~GlobalNamespace__PauseController____c__DisplayClass25_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PauseController____c__DisplayClass25_0", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__PauseController____c__DisplayClass25_0(____GlobalNamespace__PauseController____c__DisplayClass25_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PauseController____c__DisplayClass25_0", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__PauseController____c__DisplayClass25_0(GlobalNamespace__PauseController____c__DisplayClass25_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PauseController____c__DisplayClass25_0", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__PauseController____c__DisplayClass25_0(____GlobalNamespace__PauseController____c__DisplayClass25_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PauseController____c__DisplayClass25_0", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__PauseController____c__DisplayClass25_0(GlobalNamespace__PauseController____c__DisplayClass25_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__PauseController____c__DisplayClass25_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__PauseController____c__DisplayClass25_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__PauseController____c__DisplayClass25_0& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__PauseController____c__DisplayClass25_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PauseController____c__DisplayClass25_0& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__PauseController____c__DisplayClass25_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PauseController____c__DisplayClass25_0& operator=(____GlobalNamespace__PauseController____c__DisplayClass25_0&& o) noexcept = default;
-  constexpr ____GlobalNamespace__PauseController____c__DisplayClass25_0& operator=(____GlobalNamespace__PauseController____c__DisplayClass25_0 const& o) noexcept = default;
+  constexpr GlobalNamespace__PauseController____c__DisplayClass25_0& operator=(GlobalNamespace__PauseController____c__DisplayClass25_0&& o) noexcept = default;
+  constexpr GlobalNamespace__PauseController____c__DisplayClass25_0& operator=(GlobalNamespace__PauseController____c__DisplayClass25_0 const& o) noexcept = default;
                 
 
 
@@ -157,7 +156,7 @@ constexpr bool __get_value() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__PauseController____c__DisplayClass25_0() ;
+explicit GlobalNamespace__PauseController____c__DisplayClass25_0() ;
 
 /// @brief Method .ctor addr 0x20d205c size 0x8 virtual false final false
  void _ctor() ;
@@ -175,12 +174,12 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5165))
 // CS Name: PauseController
-class CORDL_TYPE PauseController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE PauseController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using __c__DisplayClass25_0 = ::GlobalNamespace::____GlobalNamespace__PauseController____c__DisplayClass25_0;
+using __c__DisplayClass25_0 = GlobalNamespace::GlobalNamespace__PauseController____c__DisplayClass25_0;
 
-using InitData = ::GlobalNamespace::____GlobalNamespace__PauseController__InitData;
+using InitData = GlobalNamespace::GlobalNamespace__PauseController__InitData;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x88};
@@ -194,7 +193,7 @@ constexpr PauseController(PauseController const& ) noexcept = default;
 constexpr PauseController(PauseController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PauseController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit PauseController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -215,83 +214,83 @@ constexpr explicit PauseController(void* ptr) noexcept : ::UnityEngine::MonoBeha
 
 // Fields
 
- ::GlobalNamespace::PauseMenuManager __declspec(property(get=__get__pauseMenuManager, put=__set__pauseMenuManager))  _pauseMenuManager;
+ GlobalNamespace::PauseMenuManager __declspec(property(get=__get__pauseMenuManager, put=__set__pauseMenuManager))  _pauseMenuManager;
 
-constexpr void __set__pauseMenuManager(::GlobalNamespace::PauseMenuManager value) ;
+constexpr void __set__pauseMenuManager(GlobalNamespace::PauseMenuManager value) ;
 
-constexpr ::GlobalNamespace::PauseMenuManager __get__pauseMenuManager() const;
+constexpr GlobalNamespace::PauseMenuManager __get__pauseMenuManager() const;
 
- ::GlobalNamespace::IGamePause __declspec(property(get=__get__gamePause, put=__set__gamePause))  _gamePause;
+ GlobalNamespace::IGamePause __declspec(property(get=__get__gamePause, put=__set__gamePause))  _gamePause;
 
-constexpr void __set__gamePause(::GlobalNamespace::IGamePause value) ;
+constexpr void __set__gamePause(GlobalNamespace::IGamePause value) ;
 
-constexpr ::GlobalNamespace::IGamePause __get__gamePause() const;
+constexpr GlobalNamespace::IGamePause __get__gamePause() const;
 
- ::GlobalNamespace::IMenuButtonTrigger __declspec(property(get=__get__menuButtonTrigger, put=__set__menuButtonTrigger))  _menuButtonTrigger;
+ GlobalNamespace::IMenuButtonTrigger __declspec(property(get=__get__menuButtonTrigger, put=__set__menuButtonTrigger))  _menuButtonTrigger;
 
-constexpr void __set__menuButtonTrigger(::GlobalNamespace::IMenuButtonTrigger value) ;
+constexpr void __set__menuButtonTrigger(GlobalNamespace::IMenuButtonTrigger value) ;
 
-constexpr ::GlobalNamespace::IMenuButtonTrigger __get__menuButtonTrigger() const;
+constexpr GlobalNamespace::IMenuButtonTrigger __get__menuButtonTrigger() const;
 
- ::GlobalNamespace::BeatmapObjectManager __declspec(property(get=__get__beatmapObjectManager, put=__set__beatmapObjectManager))  _beatmapObjectManager;
+ GlobalNamespace::BeatmapObjectManager __declspec(property(get=__get__beatmapObjectManager, put=__set__beatmapObjectManager))  _beatmapObjectManager;
 
-constexpr void __set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager value) ;
+constexpr void __set__beatmapObjectManager(GlobalNamespace::BeatmapObjectManager value) ;
 
-constexpr ::GlobalNamespace::BeatmapObjectManager __get__beatmapObjectManager() const;
+constexpr GlobalNamespace::BeatmapObjectManager __get__beatmapObjectManager() const;
 
- ::GlobalNamespace::ILevelRestartController __declspec(property(get=__get__levelRestartController, put=__set__levelRestartController))  _levelRestartController;
+ GlobalNamespace::ILevelRestartController __declspec(property(get=__get__levelRestartController, put=__set__levelRestartController))  _levelRestartController;
 
-constexpr void __set__levelRestartController(::GlobalNamespace::ILevelRestartController value) ;
+constexpr void __set__levelRestartController(GlobalNamespace::ILevelRestartController value) ;
 
-constexpr ::GlobalNamespace::ILevelRestartController __get__levelRestartController() const;
+constexpr GlobalNamespace::ILevelRestartController __get__levelRestartController() const;
 
- ::GlobalNamespace::IReturnToMenuController __declspec(property(get=__get__returnToMenuController, put=__set__returnToMenuController))  _returnToMenuController;
+ GlobalNamespace::IReturnToMenuController __declspec(property(get=__get__returnToMenuController, put=__set__returnToMenuController))  _returnToMenuController;
 
-constexpr void __set__returnToMenuController(::GlobalNamespace::IReturnToMenuController value) ;
+constexpr void __set__returnToMenuController(GlobalNamespace::IReturnToMenuController value) ;
 
-constexpr ::GlobalNamespace::IReturnToMenuController __get__returnToMenuController() const;
+constexpr GlobalNamespace::IReturnToMenuController __get__returnToMenuController() const;
 
- ::GlobalNamespace::IVRPlatformHelper __declspec(property(get=__get__vrPlatformHelper, put=__set__vrPlatformHelper))  _vrPlatformHelper;
+ GlobalNamespace::IVRPlatformHelper __declspec(property(get=__get__vrPlatformHelper, put=__set__vrPlatformHelper))  _vrPlatformHelper;
 
-constexpr void __set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper value) ;
+constexpr void __set__vrPlatformHelper(GlobalNamespace::IVRPlatformHelper value) ;
 
-constexpr ::GlobalNamespace::IVRPlatformHelper __get__vrPlatformHelper() const;
+constexpr GlobalNamespace::IVRPlatformHelper __get__vrPlatformHelper() const;
 
- ::GlobalNamespace::ILevelStartController __declspec(property(get=__get__levelStartController, put=__set__levelStartController))  _levelStartController;
+ GlobalNamespace::ILevelStartController __declspec(property(get=__get__levelStartController, put=__set__levelStartController))  _levelStartController;
 
-constexpr void __set__levelStartController(::GlobalNamespace::ILevelStartController value) ;
+constexpr void __set__levelStartController(GlobalNamespace::ILevelStartController value) ;
 
-constexpr ::GlobalNamespace::ILevelStartController __get__levelStartController() const;
+constexpr GlobalNamespace::ILevelStartController __get__levelStartController() const;
 
- ::GlobalNamespace::____GlobalNamespace__PauseController__InitData __declspec(property(get=__get__initData, put=__set__initData))  _initData;
+ GlobalNamespace::GlobalNamespace__PauseController__InitData __declspec(property(get=__get__initData, put=__set__initData))  _initData;
 
-constexpr void __set__initData(::GlobalNamespace::____GlobalNamespace__PauseController__InitData value) ;
+constexpr void __set__initData(GlobalNamespace::GlobalNamespace__PauseController__InitData value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__PauseController__InitData __get__initData() const;
+constexpr GlobalNamespace::GlobalNamespace__PauseController__InitData __get__initData() const;
 
- ::System::Action __declspec(property(get=__get_didPauseEvent, put=__set_didPauseEvent))  didPauseEvent;
+ System::Action __declspec(property(get=__get_didPauseEvent, put=__set_didPauseEvent))  didPauseEvent;
 
-constexpr void __set_didPauseEvent(::System::Action value) ;
+constexpr void __set_didPauseEvent(System::Action value) ;
 
-constexpr ::System::Action __get_didPauseEvent() const;
+constexpr System::Action __get_didPauseEvent() const;
 
- ::System::Action __declspec(property(get=__get_didResumeEvent, put=__set_didResumeEvent))  didResumeEvent;
+ System::Action __declspec(property(get=__get_didResumeEvent, put=__set_didResumeEvent))  didResumeEvent;
 
-constexpr void __set_didResumeEvent(::System::Action value) ;
+constexpr void __set_didResumeEvent(System::Action value) ;
 
-constexpr ::System::Action __get_didResumeEvent() const;
+constexpr System::Action __get_didResumeEvent() const;
 
- ::System::Action_1<::System::Action_1<bool>> __declspec(property(get=__get_canPauseEvent, put=__set_canPauseEvent))  canPauseEvent;
+ System::Action_1<System::Action_1<bool>> __declspec(property(get=__get_canPauseEvent, put=__set_canPauseEvent))  canPauseEvent;
 
-constexpr void __set_canPauseEvent(::System::Action_1<::System::Action_1<bool>> value) ;
+constexpr void __set_canPauseEvent(System::Action_1<System::Action_1<bool>> value) ;
 
-constexpr ::System::Action_1<::System::Action_1<bool>> __get_canPauseEvent() const;
+constexpr System::Action_1<System::Action_1<bool>> __get_canPauseEvent() const;
 
- ::System::Action __declspec(property(get=__get_didReturnToMenuEvent, put=__set_didReturnToMenuEvent))  didReturnToMenuEvent;
+ System::Action __declspec(property(get=__get_didReturnToMenuEvent, put=__set_didReturnToMenuEvent))  didReturnToMenuEvent;
 
-constexpr void __set_didReturnToMenuEvent(::System::Action value) ;
+constexpr void __set_didReturnToMenuEvent(System::Action value) ;
 
-constexpr ::System::Action __get_didReturnToMenuEvent() const;
+constexpr System::Action __get_didReturnToMenuEvent() const;
 
  bool __declspec(property(get=__get__wantsToPause, put=__set__wantsToPause))  _wantsToPause;
 
@@ -316,28 +315,28 @@ constexpr bool __get__paused() const;
 // Methods
 
 /// @brief Method add_didPauseEvent addr 0x20d1a60 size 0x9c virtual false final false
- void add_didPauseEvent(::System::Action value) ;
+ void add_didPauseEvent(System::Action value) ;
 
 /// @brief Method remove_didPauseEvent addr 0x20d1afc size 0x9c virtual false final false
- void remove_didPauseEvent(::System::Action value) ;
+ void remove_didPauseEvent(System::Action value) ;
 
 /// @brief Method add_didResumeEvent addr 0x20d1b98 size 0x9c virtual false final false
- void add_didResumeEvent(::System::Action value) ;
+ void add_didResumeEvent(System::Action value) ;
 
 /// @brief Method remove_didResumeEvent addr 0x20d1c34 size 0x9c virtual false final false
- void remove_didResumeEvent(::System::Action value) ;
+ void remove_didResumeEvent(System::Action value) ;
 
 /// @brief Method add_canPauseEvent addr 0x20d1cd0 size 0xb0 virtual false final false
- void add_canPauseEvent(::System::Action_1<::System::Action_1<bool>> value) ;
+ void add_canPauseEvent(System::Action_1<System::Action_1<bool>> value) ;
 
 /// @brief Method remove_canPauseEvent addr 0x20d1d80 size 0xb0 virtual false final false
- void remove_canPauseEvent(::System::Action_1<::System::Action_1<bool>> value) ;
+ void remove_canPauseEvent(System::Action_1<System::Action_1<bool>> value) ;
 
 /// @brief Method add_didReturnToMenuEvent addr 0x20d1e30 size 0x9c virtual false final false
- void add_didReturnToMenuEvent(::System::Action value) ;
+ void add_didReturnToMenuEvent(System::Action value) ;
 
 /// @brief Method remove_didReturnToMenuEvent addr 0x20d1ecc size 0x9c virtual false final false
- void remove_didReturnToMenuEvent(::System::Action value) ;
+ void remove_didReturnToMenuEvent(System::Action value) ;
 
 /// @brief Method get_wantsToPause addr 0x20d1f68 size 0x8 virtual false final false
  bool get_wantsToPause() ;
@@ -400,10 +399,9 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PauseController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PauseController, "", "PauseController");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__PauseController__InitData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__PauseController__InitData, "", "PauseController/InitData");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__PauseController____c__DisplayClass25_0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__PauseController____c__DisplayClass25_0, "", "PauseController/<>c__DisplayClass25_0");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__PauseController__InitData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__PauseController__InitData, "", "PauseController/InitData");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__PauseController____c__DisplayClass25_0);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__PauseController____c__DisplayClass25_0, "", "PauseController/<>c__DisplayClass25_0");
+NEED_NO_BOX(GlobalNamespace::PauseController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PauseController, "", "PauseController");

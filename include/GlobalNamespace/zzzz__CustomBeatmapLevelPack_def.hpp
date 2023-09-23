@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace GlobalNamespace {
+class IAnnotatedBeatmapLevelCollection;
+}
 namespace UnityEngine {
 class Sprite;
-}
-namespace GlobalNamespace {
-class CustomBeatmapLevelCollection;
 }
 namespace GlobalNamespace {
 class IBeatmapLevelPack;
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 class IBeatmapLevelCollection;
 }
 namespace GlobalNamespace {
-class IAnnotatedBeatmapLevelCollection;
+class CustomBeatmapLevelCollection;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -31,11 +30,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE CustomBeatmapLevelPack : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IBeatmapLevelPack
-constexpr operator  ::GlobalNamespace::IBeatmapLevelPack() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IBeatmapLevelPack
+constexpr operator  GlobalNamespace::IBeatmapLevelPack() const noexcept;
 
-/// @brief Convert operator to ::GlobalNamespace::IAnnotatedBeatmapLevelCollection
-constexpr operator  ::GlobalNamespace::IAnnotatedBeatmapLevelCollection() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IAnnotatedBeatmapLevelCollection
+constexpr operator  GlobalNamespace::IAnnotatedBeatmapLevelCollection() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -88,23 +87,23 @@ constexpr void __set__shortPackName_k__BackingField(::StringW value) ;
 
 constexpr ::StringW __get__shortPackName_k__BackingField() const;
 
- ::UnityEngine::Sprite __declspec(property(get=__get__coverImage_k__BackingField, put=__set__coverImage_k__BackingField))  _coverImage_k__BackingField;
+ UnityEngine::Sprite __declspec(property(get=__get__coverImage_k__BackingField, put=__set__coverImage_k__BackingField))  _coverImage_k__BackingField;
 
-constexpr void __set__coverImage_k__BackingField(::UnityEngine::Sprite value) ;
+constexpr void __set__coverImage_k__BackingField(UnityEngine::Sprite value) ;
 
-constexpr ::UnityEngine::Sprite __get__coverImage_k__BackingField() const;
+constexpr UnityEngine::Sprite __get__coverImage_k__BackingField() const;
 
- ::UnityEngine::Sprite __declspec(property(get=__get__smallCoverImage_k__BackingField, put=__set__smallCoverImage_k__BackingField))  _smallCoverImage_k__BackingField;
+ UnityEngine::Sprite __declspec(property(get=__get__smallCoverImage_k__BackingField, put=__set__smallCoverImage_k__BackingField))  _smallCoverImage_k__BackingField;
 
-constexpr void __set__smallCoverImage_k__BackingField(::UnityEngine::Sprite value) ;
+constexpr void __set__smallCoverImage_k__BackingField(UnityEngine::Sprite value) ;
 
-constexpr ::UnityEngine::Sprite __get__smallCoverImage_k__BackingField() const;
+constexpr UnityEngine::Sprite __get__smallCoverImage_k__BackingField() const;
 
- ::GlobalNamespace::IBeatmapLevelCollection __declspec(property(get=__get__beatmapLevelCollection_k__BackingField, put=__set__beatmapLevelCollection_k__BackingField))  _beatmapLevelCollection_k__BackingField;
+ GlobalNamespace::IBeatmapLevelCollection __declspec(property(get=__get__beatmapLevelCollection_k__BackingField, put=__set__beatmapLevelCollection_k__BackingField))  _beatmapLevelCollection_k__BackingField;
 
-constexpr void __set__beatmapLevelCollection_k__BackingField(::GlobalNamespace::IBeatmapLevelCollection value) ;
+constexpr void __set__beatmapLevelCollection_k__BackingField(GlobalNamespace::IBeatmapLevelCollection value) ;
 
-constexpr ::GlobalNamespace::IBeatmapLevelCollection __get__beatmapLevelCollection_k__BackingField() const;
+constexpr GlobalNamespace::IBeatmapLevelCollection __get__beatmapLevelCollection_k__BackingField() const;
 
 
 // Properties
@@ -117,11 +116,11 @@ constexpr ::GlobalNamespace::IBeatmapLevelCollection __get__beatmapLevelCollecti
 
  ::StringW __declspec(property(get=get_collectionName))  collectionName;
 
- ::UnityEngine::Sprite __declspec(property(get=get_coverImage))  coverImage;
+ UnityEngine::Sprite __declspec(property(get=get_coverImage))  coverImage;
 
- ::UnityEngine::Sprite __declspec(property(get=get_smallCoverImage))  smallCoverImage;
+ UnityEngine::Sprite __declspec(property(get=get_smallCoverImage))  smallCoverImage;
 
- ::GlobalNamespace::IBeatmapLevelCollection __declspec(property(get=get_beatmapLevelCollection))  beatmapLevelCollection;
+ GlobalNamespace::IBeatmapLevelCollection __declspec(property(get=get_beatmapLevelCollection))  beatmapLevelCollection;
 
  bool __declspec(property(get=get_isPackAlwaysOwned))  isPackAlwaysOwned;
 
@@ -141,27 +140,26 @@ constexpr ::GlobalNamespace::IBeatmapLevelCollection __get__beatmapLevelCollecti
  ::StringW get_collectionName() ;
 
 /// @brief Method get_coverImage addr 0x21e9624 size 0x8 virtual true final true
- ::UnityEngine::Sprite get_coverImage() ;
+ UnityEngine::Sprite get_coverImage() ;
 
 /// @brief Method get_smallCoverImage addr 0x21e962c size 0x8 virtual true final true
- ::UnityEngine::Sprite get_smallCoverImage() ;
+ UnityEngine::Sprite get_smallCoverImage() ;
 
 /// @brief Method get_beatmapLevelCollection addr 0x21e9634 size 0x8 virtual true final true
- ::GlobalNamespace::IBeatmapLevelCollection get_beatmapLevelCollection() ;
+ GlobalNamespace::IBeatmapLevelCollection get_beatmapLevelCollection() ;
 
 /// @brief Method get_isPackAlwaysOwned addr 0x21e963c size 0x8 virtual false final false
  bool get_isPackAlwaysOwned() ;
 
-// Ctor Parameters [CppParam { name: "packID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "packName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "shortPackName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "coverImage", ty: "::UnityEngine::Sprite", modifiers: "", def_value: None }, CppParam { name: "smallCoverImage", ty: "::UnityEngine::Sprite", modifiers: "", def_value: None }, CppParam { name: "beatmapLevelCollection", ty: "::GlobalNamespace::CustomBeatmapLevelCollection", modifiers: "", def_value: None }]
-explicit CustomBeatmapLevelPack(::StringW packID, ::StringW packName, ::StringW shortPackName, ::UnityEngine::Sprite coverImage, ::UnityEngine::Sprite smallCoverImage, ::GlobalNamespace::CustomBeatmapLevelCollection beatmapLevelCollection) ;
+// Ctor Parameters [CppParam { name: "packID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "packName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "shortPackName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "coverImage", ty: "UnityEngine::Sprite", modifiers: "", def_value: None }, CppParam { name: "smallCoverImage", ty: "UnityEngine::Sprite", modifiers: "", def_value: None }, CppParam { name: "beatmapLevelCollection", ty: "GlobalNamespace::CustomBeatmapLevelCollection", modifiers: "", def_value: None }]
+explicit CustomBeatmapLevelPack(::StringW packID, ::StringW packName, ::StringW shortPackName, UnityEngine::Sprite coverImage, UnityEngine::Sprite smallCoverImage, GlobalNamespace::CustomBeatmapLevelCollection beatmapLevelCollection) ;
 
 /// @brief Method .ctor addr 0x21e9644 size 0x54 virtual false final false
- void _ctor(::StringW packID, ::StringW packName, ::StringW shortPackName, ::UnityEngine::Sprite coverImage, ::UnityEngine::Sprite smallCoverImage, ::GlobalNamespace::CustomBeatmapLevelCollection beatmapLevelCollection) ;
+ void _ctor(::StringW packID, ::StringW packName, ::StringW shortPackName, UnityEngine::Sprite coverImage, UnityEngine::Sprite smallCoverImage, GlobalNamespace::CustomBeatmapLevelCollection beatmapLevelCollection) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::CustomBeatmapLevelPack);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CustomBeatmapLevelPack, "", "CustomBeatmapLevelPack");
+NEED_NO_BOX(GlobalNamespace::CustomBeatmapLevelPack);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomBeatmapLevelPack, "", "CustomBeatmapLevelPack");

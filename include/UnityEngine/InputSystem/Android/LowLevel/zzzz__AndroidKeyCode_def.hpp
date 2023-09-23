@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem::Android::LowLevel {
 struct AndroidKeyCode;
@@ -285,668 +284,667 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Unknown;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Unknown;
 
 /// @brief Field SoftLeft offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const SoftLeft;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const SoftLeft;
 
 /// @brief Field SoftRight offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const SoftRight;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const SoftRight;
 
 /// @brief Field Home offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Home;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Home;
 
 /// @brief Field Back offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Back;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Back;
 
 /// @brief Field Call offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Call;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Call;
 
 /// @brief Field Endcall offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Endcall;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Endcall;
 
 /// @brief Field Alpha0 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Alpha0;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Alpha0;
 
 /// @brief Field Alpha1 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Alpha1;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Alpha1;
 
 /// @brief Field Alpha2 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Alpha2;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Alpha2;
 
 /// @brief Field Alpha3 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Alpha3;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Alpha3;
 
 /// @brief Field Alpha4 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Alpha4;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Alpha4;
 
 /// @brief Field Alpha5 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Alpha5;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Alpha5;
 
 /// @brief Field Alpha6 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Alpha6;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Alpha6;
 
 /// @brief Field Alpha7 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Alpha7;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Alpha7;
 
 /// @brief Field Alpha8 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Alpha8;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Alpha8;
 
 /// @brief Field Alpha9 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Alpha9;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Alpha9;
 
 /// @brief Field Star offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Star;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Star;
 
 /// @brief Field Pound offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Pound;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Pound;
 
 /// @brief Field DpadUp offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const DpadUp;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const DpadUp;
 
 /// @brief Field DpadDown offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const DpadDown;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const DpadDown;
 
 /// @brief Field DpadLeft offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const DpadLeft;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const DpadLeft;
 
 /// @brief Field DpadRight offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const DpadRight;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const DpadRight;
 
 /// @brief Field DpadCenter offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const DpadCenter;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const DpadCenter;
 
 /// @brief Field VolumeUp offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const VolumeUp;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const VolumeUp;
 
 /// @brief Field VolumeDown offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const VolumeDown;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const VolumeDown;
 
 /// @brief Field Power offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Power;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Power;
 
 /// @brief Field Camera offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Camera;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Camera;
 
 /// @brief Field Clear offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Clear;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Clear;
 
 /// @brief Field A offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const A;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const A;
 
 /// @brief Field B offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const B;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const B;
 
 /// @brief Field C offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const C;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const C;
 
 /// @brief Field D offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const D;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const D;
 
 /// @brief Field E offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const E;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const E;
 
 /// @brief Field F offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F;
 
 /// @brief Field G offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const G;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const G;
 
 /// @brief Field H offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const H;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const H;
 
 /// @brief Field I offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const I;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const I;
 
 /// @brief Field J offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const J;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const J;
 
 /// @brief Field K offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const K;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const K;
 
 /// @brief Field L offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const L;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const L;
 
 /// @brief Field M offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const M;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const M;
 
 /// @brief Field N offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const N;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const N;
 
 /// @brief Field O offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const O;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const O;
 
 /// @brief Field P offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const P;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const P;
 
 /// @brief Field Q offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Q;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Q;
 
 /// @brief Field R offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const R;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const R;
 
 /// @brief Field S offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const S;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const S;
 
 /// @brief Field T offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const T;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const T;
 
 /// @brief Field U offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const U;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const U;
 
 /// @brief Field V offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const V;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const V;
 
 /// @brief Field W offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const W;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const W;
 
 /// @brief Field X offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const X;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const X;
 
 /// @brief Field Y offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Y;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Y;
 
 /// @brief Field Z offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Z;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Z;
 
 /// @brief Field Comma offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Comma;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Comma;
 
 /// @brief Field Period offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Period;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Period;
 
 /// @brief Field AltLeft offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const AltLeft;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const AltLeft;
 
 /// @brief Field AltRight offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const AltRight;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const AltRight;
 
 /// @brief Field ShiftLeft offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ShiftLeft;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ShiftLeft;
 
 /// @brief Field ShiftRight offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ShiftRight;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ShiftRight;
 
 /// @brief Field Tab offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Tab;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Tab;
 
 /// @brief Field Space offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Space;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Space;
 
 /// @brief Field Sym offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Sym;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Sym;
 
 /// @brief Field Explorer offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Explorer;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Explorer;
 
 /// @brief Field Envelope offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Envelope;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Envelope;
 
 /// @brief Field Enter offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Enter;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Enter;
 
 /// @brief Field Del offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Del;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Del;
 
 /// @brief Field Grave offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Grave;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Grave;
 
 /// @brief Field Minus offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Minus;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Minus;
 
 /// @brief Field Equals offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Equals;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Equals;
 
 /// @brief Field LeftBracket offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const LeftBracket;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const LeftBracket;
 
 /// @brief Field RightBracket offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const RightBracket;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const RightBracket;
 
 /// @brief Field Backslash offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Backslash;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Backslash;
 
 /// @brief Field Semicolon offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Semicolon;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Semicolon;
 
 /// @brief Field Apostrophe offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Apostrophe;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Apostrophe;
 
 /// @brief Field Slash offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Slash;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Slash;
 
 /// @brief Field At offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const At;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const At;
 
 /// @brief Field Num offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Num;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Num;
 
 /// @brief Field Headsethook offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Headsethook;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Headsethook;
 
 /// @brief Field Focus offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Focus;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Focus;
 
 /// @brief Field Plus offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Plus;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Plus;
 
 /// @brief Field Menu offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Menu;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Menu;
 
 /// @brief Field Notification offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Notification;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Notification;
 
 /// @brief Field Search offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Search;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Search;
 
 /// @brief Field MediaPlayPause offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaPlayPause;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaPlayPause;
 
 /// @brief Field MediaStop offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaStop;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaStop;
 
 /// @brief Field MediaNext offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaNext;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaNext;
 
 /// @brief Field MediaPrevious offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaPrevious;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaPrevious;
 
 /// @brief Field MediaRewind offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaRewind;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaRewind;
 
 /// @brief Field MediaFastForward offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaFastForward;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaFastForward;
 
 /// @brief Field Mute offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Mute;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Mute;
 
 /// @brief Field PageUp offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const PageUp;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const PageUp;
 
 /// @brief Field PageDown offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const PageDown;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const PageDown;
 
 /// @brief Field Pictsymbols offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Pictsymbols;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Pictsymbols;
 
 /// @brief Field SwitchCharset offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const SwitchCharset;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const SwitchCharset;
 
 /// @brief Field ButtonA offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonA;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonA;
 
 /// @brief Field ButtonB offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonB;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonB;
 
 /// @brief Field ButtonC offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonC;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonC;
 
 /// @brief Field ButtonX offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonX;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonX;
 
 /// @brief Field ButtonY offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonY;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonY;
 
 /// @brief Field ButtonZ offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonZ;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonZ;
 
 /// @brief Field ButtonL1 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonL1;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonL1;
 
 /// @brief Field ButtonR1 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonR1;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonR1;
 
 /// @brief Field ButtonL2 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonL2;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonL2;
 
 /// @brief Field ButtonR2 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonR2;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonR2;
 
 /// @brief Field ButtonThumbl offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonThumbl;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonThumbl;
 
 /// @brief Field ButtonThumbr offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonThumbr;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonThumbr;
 
 /// @brief Field ButtonStart offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonStart;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonStart;
 
 /// @brief Field ButtonSelect offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonSelect;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonSelect;
 
 /// @brief Field ButtonMode offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonMode;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonMode;
 
 /// @brief Field Escape offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Escape;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Escape;
 
 /// @brief Field ForwardDel offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ForwardDel;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ForwardDel;
 
 /// @brief Field CtrlLeft offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const CtrlLeft;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const CtrlLeft;
 
 /// @brief Field CtrlRight offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const CtrlRight;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const CtrlRight;
 
 /// @brief Field CapsLock offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const CapsLock;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const CapsLock;
 
 /// @brief Field ScrollLock offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ScrollLock;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ScrollLock;
 
 /// @brief Field MetaLeft offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MetaLeft;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MetaLeft;
 
 /// @brief Field MetaRight offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MetaRight;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MetaRight;
 
 /// @brief Field Function offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Function;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Function;
 
 /// @brief Field Sysrq offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Sysrq;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Sysrq;
 
 /// @brief Field Break offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Break;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Break;
 
 /// @brief Field MoveHome offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MoveHome;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MoveHome;
 
 /// @brief Field MoveEnd offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MoveEnd;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MoveEnd;
 
 /// @brief Field Insert offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Insert;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Insert;
 
 /// @brief Field Forward offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Forward;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Forward;
 
 /// @brief Field MediaPlay offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaPlay;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaPlay;
 
 /// @brief Field MediaPause offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaPause;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaPause;
 
 /// @brief Field MediaClose offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaClose;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaClose;
 
 /// @brief Field MediaEject offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaEject;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaEject;
 
 /// @brief Field MediaRecord offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaRecord;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaRecord;
 
 /// @brief Field F1 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F1;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F1;
 
 /// @brief Field F2 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F2;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F2;
 
 /// @brief Field F3 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F3;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F3;
 
 /// @brief Field F4 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F4;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F4;
 
 /// @brief Field F5 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F5;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F5;
 
 /// @brief Field F6 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F6;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F6;
 
 /// @brief Field F7 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F7;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F7;
 
 /// @brief Field F8 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F8;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F8;
 
 /// @brief Field F9 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F9;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F9;
 
 /// @brief Field F10 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F10;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F10;
 
 /// @brief Field F11 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F11;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F11;
 
 /// @brief Field F12 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F12;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F12;
 
 /// @brief Field NumLock offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const NumLock;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const NumLock;
 
 /// @brief Field Numpad0 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Numpad0;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Numpad0;
 
 /// @brief Field Numpad1 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Numpad1;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Numpad1;
 
 /// @brief Field Numpad2 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Numpad2;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Numpad2;
 
 /// @brief Field Numpad3 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Numpad3;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Numpad3;
 
 /// @brief Field Numpad4 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Numpad4;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Numpad4;
 
 /// @brief Field Numpad5 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Numpad5;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Numpad5;
 
 /// @brief Field Numpad6 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Numpad6;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Numpad6;
 
 /// @brief Field Numpad7 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Numpad7;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Numpad7;
 
 /// @brief Field Numpad8 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Numpad8;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Numpad8;
 
 /// @brief Field Numpad9 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Numpad9;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Numpad9;
 
 /// @brief Field NumpadDivide offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const NumpadDivide;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const NumpadDivide;
 
 /// @brief Field NumpadMultiply offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const NumpadMultiply;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const NumpadMultiply;
 
 /// @brief Field NumpadSubtract offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const NumpadSubtract;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const NumpadSubtract;
 
 /// @brief Field NumpadAdd offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const NumpadAdd;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const NumpadAdd;
 
 /// @brief Field NumpadDot offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const NumpadDot;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const NumpadDot;
 
 /// @brief Field NumpadComma offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const NumpadComma;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const NumpadComma;
 
 /// @brief Field NumpadEnter offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const NumpadEnter;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const NumpadEnter;
 
 /// @brief Field NumpadEquals offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const NumpadEquals;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const NumpadEquals;
 
 /// @brief Field NumpadLeftParen offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const NumpadLeftParen;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const NumpadLeftParen;
 
 /// @brief Field NumpadRightParen offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const NumpadRightParen;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const NumpadRightParen;
 
 /// @brief Field VolumeMute offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const VolumeMute;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const VolumeMute;
 
 /// @brief Field Info offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Info;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Info;
 
 /// @brief Field ChannelUp offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ChannelUp;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ChannelUp;
 
 /// @brief Field ChannelDown offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ChannelDown;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ChannelDown;
 
 /// @brief Field ZoomIn offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ZoomIn;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ZoomIn;
 
 /// @brief Field ZoomOut offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ZoomOut;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ZoomOut;
 
 /// @brief Field Tv offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Tv;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Tv;
 
 /// @brief Field Window offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Window;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Window;
 
 /// @brief Field Guide offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Guide;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Guide;
 
 /// @brief Field Dvr offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Dvr;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Dvr;
 
 /// @brief Field Bookmark offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Bookmark;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Bookmark;
 
 /// @brief Field Captions offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Captions;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Captions;
 
 /// @brief Field Settings offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Settings;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Settings;
 
 /// @brief Field TvPower offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const TvPower;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const TvPower;
 
 /// @brief Field TvInput offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const TvInput;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const TvInput;
 
 /// @brief Field StbPower offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const StbPower;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const StbPower;
 
 /// @brief Field StbInput offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const StbInput;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const StbInput;
 
 /// @brief Field AvrPower offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const AvrPower;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const AvrPower;
 
 /// @brief Field AvrInput offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const AvrInput;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const AvrInput;
 
 /// @brief Field ProgRed offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ProgRed;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ProgRed;
 
 /// @brief Field ProgGreen offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ProgGreen;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ProgGreen;
 
 /// @brief Field ProgYellow offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ProgYellow;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ProgYellow;
 
 /// @brief Field ProgBlue offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ProgBlue;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ProgBlue;
 
 /// @brief Field AppSwitch offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const AppSwitch;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const AppSwitch;
 
 /// @brief Field Button1 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button1;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button1;
 
 /// @brief Field Button2 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button2;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button2;
 
 /// @brief Field Button3 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button3;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button3;
 
 /// @brief Field Button4 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button4;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button4;
 
 /// @brief Field Button5 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button5;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button5;
 
 /// @brief Field Button6 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button6;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button6;
 
 /// @brief Field Button7 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button7;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button7;
 
 /// @brief Field Button8 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button8;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button8;
 
 /// @brief Field Button9 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button9;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button9;
 
 /// @brief Field Button10 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button10;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button10;
 
 /// @brief Field Button11 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button11;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button11;
 
 /// @brief Field Button12 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button12;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button12;
 
 /// @brief Field Button13 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button13;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button13;
 
 /// @brief Field Button14 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button14;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button14;
 
 /// @brief Field Button15 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button15;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button15;
 
 /// @brief Field Button16 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button16;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button16;
 
 /// @brief Field LanguageSwitch offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const LanguageSwitch;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const LanguageSwitch;
 
 /// @brief Field MannerMode offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MannerMode;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MannerMode;
 
 /// @brief Field Mode3D offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Mode3D;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Mode3D;
 
 /// @brief Field Contacts offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Contacts;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Contacts;
 
 /// @brief Field Calendar offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Calendar;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Calendar;
 
 /// @brief Field Music offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Music;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Music;
 
 /// @brief Field Calculator offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Calculator;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Calculator;
 
 /// @brief Field ZenkakuHankaku offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ZenkakuHankaku;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ZenkakuHankaku;
 
 /// @brief Field Eisu offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Eisu;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Eisu;
 
 /// @brief Field Muhenkan offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Muhenkan;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Muhenkan;
 
 /// @brief Field Henkan offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Henkan;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Henkan;
 
 /// @brief Field KatakanaHiragana offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const KatakanaHiragana;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const KatakanaHiragana;
 
 /// @brief Field Yen offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Yen;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Yen;
 
 /// @brief Field Ro offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Ro;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Ro;
 
 /// @brief Field Kana offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Kana;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Kana;
 
 /// @brief Field Assist offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Assist;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Assist;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Android::LowLevel
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode, "UnityEngine.InputSystem.Android.LowLevel", "AndroidKeyCode");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode, "UnityEngine.InputSystem.Android.LowLevel", "AndroidKeyCode");

@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
 namespace TMPro {
 class TextMeshPro;
 }
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5313))
 // CS Name: MultiplayerIntroCountdownTextController
-class CORDL_TYPE MultiplayerIntroCountdownTextController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerIntroCountdownTextController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr MultiplayerIntroCountdownTextController(MultiplayerIntroCountdownTextC
 constexpr MultiplayerIntroCountdownTextController(MultiplayerIntroCountdownTextController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerIntroCountdownTextController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerIntroCountdownTextController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -54,11 +53,11 @@ constexpr explicit MultiplayerIntroCountdownTextController(void* ptr) noexcept :
 
 // Fields
 
- ::ArrayW<::TMPro::TextMeshPro> __declspec(property(get=__get__texts, put=__set__texts))  _texts;
+ ::ArrayW<TMPro::TextMeshPro> __declspec(property(get=__get__texts, put=__set__texts))  _texts;
 
-constexpr void __set__texts(::ArrayW<::TMPro::TextMeshPro> value) ;
+constexpr void __set__texts(::ArrayW<TMPro::TextMeshPro> value) ;
 
-constexpr ::ArrayW<::TMPro::TextMeshPro> __get__texts() const;
+constexpr ::ArrayW<TMPro::TextMeshPro> __get__texts() const;
 
 
 // Properties
@@ -103,6 +102,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerIntroCountdownTextController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerIntroCountdownTextController, "", "MultiplayerIntroCountdownTextController");
+NEED_NO_BOX(GlobalNamespace::MultiplayerIntroCountdownTextController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerIntroCountdownTextController, "", "MultiplayerIntroCountdownTextController");

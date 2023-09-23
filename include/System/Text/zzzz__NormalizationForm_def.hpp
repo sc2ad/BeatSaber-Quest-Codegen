@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Text {
 struct NormalizationForm;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field FormC offset 0
-static ::System::Text::NormalizationForm const FormC;
+static System::Text::NormalizationForm const FormC;
 
 /// @brief Field FormD offset 0
-static ::System::Text::NormalizationForm const FormD;
+static System::Text::NormalizationForm const FormD;
 
 /// @brief Field FormKC offset 0
-static ::System::Text::NormalizationForm const FormKC;
+static System::Text::NormalizationForm const FormKC;
 
 /// @brief Field FormKD offset 0
-static ::System::Text::NormalizationForm const FormKD;
+static System::Text::NormalizationForm const FormKD;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Text
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::NormalizationForm, "System.Text", "NormalizationForm");
+DEFINE_IL2CPP_ARG_TYPE(System::Text::NormalizationForm, "System.Text", "NormalizationForm");

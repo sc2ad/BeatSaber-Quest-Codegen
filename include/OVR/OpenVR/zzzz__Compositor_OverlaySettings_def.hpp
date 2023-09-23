@@ -3,7 +3,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace OVR::OpenVR {
 struct HmdMatrix44_t;
 }
@@ -20,8 +19,8 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE Compositor_OverlaySettings : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "size", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "curved", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "antialias", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "distance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "alpha", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "uOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "vOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "uScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "vScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "gridDivs", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "gridWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "gridScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "transform", ty: "::OVR::OpenVR::HmdMatrix44_t", modifiers: "", def_value: None }]
-constexpr Compositor_OverlaySettings(uint32_t size, bool curved, bool antialias, float_t scale, float_t distance, float_t alpha, float_t uOffset, float_t vOffset, float_t uScale, float_t vScale, float_t gridDivs, float_t gridWidth, float_t gridScale, ::OVR::OpenVR::HmdMatrix44_t transform) noexcept;
+// Ctor Parameters [CppParam { name: "size", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "curved", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "antialias", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "distance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "alpha", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "uOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "vOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "uScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "vScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "gridDivs", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "gridWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "gridScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "transform", ty: "OVR::OpenVR::HmdMatrix44_t", modifiers: "", def_value: None }]
+constexpr Compositor_OverlaySettings(uint32_t size, bool curved, bool antialias, float_t scale, float_t distance, float_t alpha, float_t uOffset, float_t vOffset, float_t uScale, float_t vScale, float_t gridDivs, float_t gridWidth, float_t gridScale, OVR::OpenVR::HmdMatrix44_t transform) noexcept;
 
 
                     constexpr Compositor_OverlaySettings(Compositor_OverlaySettings const&) = default;
@@ -132,15 +131,14 @@ constexpr void __set_gridScale(float_t value) ;
 
 constexpr float_t __get_gridScale() const;
 
- ::OVR::OpenVR::HmdMatrix44_t __declspec(property(get=__get_transform, put=__set_transform))  transform;
+ OVR::OpenVR::HmdMatrix44_t __declspec(property(get=__get_transform, put=__set_transform))  transform;
 
-constexpr void __set_transform(::OVR::OpenVR::HmdMatrix44_t value) ;
+constexpr void __set_transform(OVR::OpenVR::HmdMatrix44_t value) ;
 
-constexpr ::OVR::OpenVR::HmdMatrix44_t __get_transform() const;
+constexpr OVR::OpenVR::HmdMatrix44_t __get_transform() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::Compositor_OverlaySettings, "OVR.OpenVR", "Compositor_OverlaySettings");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::Compositor_OverlaySettings, "OVR.OpenVR", "Compositor_OverlaySettings");

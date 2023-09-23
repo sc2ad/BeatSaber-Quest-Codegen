@@ -4,12 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-class ISpriteAsyncLoader;
+namespace UnityEngine {
+class Sprite;
 }
 namespace System::Threading {
 struct CancellationToken;
+}
+namespace GlobalNamespace {
+class ISpriteAsyncLoader;
 }
 namespace GlobalNamespace {
 template<typename TKey,typename TValue>
@@ -19,8 +21,9 @@ namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
-namespace UnityEngine {
-class Sprite;
+namespace System::Runtime::CompilerServices {
+template<typename TResult>
+struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
@@ -29,16 +32,12 @@ struct TaskAwaiter_1;
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
-namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct AsyncTaskMethodBuilder_1;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 class CachedMediaAsyncLoader;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__CachedMediaAsyncLoader___LoadSpriteAsync_d__3;
+struct GlobalNamespace__CachedMediaAsyncLoader___LoadSpriteAsync_d__3;
 }
 // Type: ::<LoadSpriteAsync>d__3
 namespace GlobalNamespace {
@@ -46,23 +45,23 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5999))
 // CS Name: CachedMediaAsyncLoader::<LoadSpriteAsync>d__3
-struct CORDL_TYPE ____GlobalNamespace__CachedMediaAsyncLoader___LoadSpriteAsync_d__3 : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__CachedMediaAsyncLoader___LoadSpriteAsync_d__3 : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::CompilerServices::IAsyncStateMachine
-constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine() const;
+/// @brief Convert operator to System::Runtime::CompilerServices::IAsyncStateMachine
+constexpr operator  System::Runtime::CompilerServices::IAsyncStateMachine() const;
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityEngine::Sprite>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::CachedMediaAsyncLoader", modifiers: "", def_value: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Sprite>", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__CachedMediaAsyncLoader___LoadSpriteAsync_d__3(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityEngine::Sprite> __t__builder, ::GlobalNamespace::CachedMediaAsyncLoader __4__this, ::StringW path, ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Sprite> __u__1) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<UnityEngine::Sprite>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "GlobalNamespace::CachedMediaAsyncLoader", modifiers: "", def_value: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite>", modifiers: "", def_value: None }]
+constexpr GlobalNamespace__CachedMediaAsyncLoader___LoadSpriteAsync_d__3(int32_t __1__state, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<UnityEngine::Sprite> __t__builder, GlobalNamespace::CachedMediaAsyncLoader __4__this, ::StringW path, System::Threading::CancellationToken cancellationToken, System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite> __u__1) noexcept;
 
 
-                    constexpr ____GlobalNamespace__CachedMediaAsyncLoader___LoadSpriteAsync_d__3(____GlobalNamespace__CachedMediaAsyncLoader___LoadSpriteAsync_d__3 const&) = default;
-                    constexpr ____GlobalNamespace__CachedMediaAsyncLoader___LoadSpriteAsync_d__3(____GlobalNamespace__CachedMediaAsyncLoader___LoadSpriteAsync_d__3&&) = default;
-                    constexpr ____GlobalNamespace__CachedMediaAsyncLoader___LoadSpriteAsync_d__3& operator=(____GlobalNamespace__CachedMediaAsyncLoader___LoadSpriteAsync_d__3 const& o) {
+                    constexpr GlobalNamespace__CachedMediaAsyncLoader___LoadSpriteAsync_d__3(GlobalNamespace__CachedMediaAsyncLoader___LoadSpriteAsync_d__3 const&) = default;
+                    constexpr GlobalNamespace__CachedMediaAsyncLoader___LoadSpriteAsync_d__3(GlobalNamespace__CachedMediaAsyncLoader___LoadSpriteAsync_d__3&&) = default;
+                    constexpr GlobalNamespace__CachedMediaAsyncLoader___LoadSpriteAsync_d__3& operator=(GlobalNamespace__CachedMediaAsyncLoader___LoadSpriteAsync_d__3 const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__CachedMediaAsyncLoader___LoadSpriteAsync_d__3& operator=(____GlobalNamespace__CachedMediaAsyncLoader___LoadSpriteAsync_d__3&& o) noexcept {
+                    constexpr GlobalNamespace__CachedMediaAsyncLoader___LoadSpriteAsync_d__3& operator=(GlobalNamespace__CachedMediaAsyncLoader___LoadSpriteAsync_d__3&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -75,7 +74,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x40};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__CachedMediaAsyncLoader___LoadSpriteAsync_d__3(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__CachedMediaAsyncLoader___LoadSpriteAsync_d__3(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -92,17 +91,17 @@ constexpr void __set___1__state(int32_t value) ;
 
 constexpr int32_t __get___1__state() const;
 
- ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityEngine::Sprite> __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
+ System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<UnityEngine::Sprite> __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
 
-constexpr void __set___t__builder(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityEngine::Sprite> value) ;
+constexpr void __set___t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<UnityEngine::Sprite> value) ;
 
-constexpr ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityEngine::Sprite> __get___t__builder() const;
+constexpr System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<UnityEngine::Sprite> __get___t__builder() const;
 
- ::GlobalNamespace::CachedMediaAsyncLoader __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::CachedMediaAsyncLoader __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::CachedMediaAsyncLoader value) ;
+constexpr void __set___4__this(GlobalNamespace::CachedMediaAsyncLoader value) ;
 
-constexpr ::GlobalNamespace::CachedMediaAsyncLoader __get___4__this() const;
+constexpr GlobalNamespace::CachedMediaAsyncLoader __get___4__this() const;
 
  ::StringW __declspec(property(get=__get_path, put=__set_path))  path;
 
@@ -110,17 +109,17 @@ constexpr void __set_path(::StringW value) ;
 
 constexpr ::StringW __get_path() const;
 
- ::System::Threading::CancellationToken __declspec(property(get=__get_cancellationToken, put=__set_cancellationToken))  cancellationToken;
+ System::Threading::CancellationToken __declspec(property(get=__get_cancellationToken, put=__set_cancellationToken))  cancellationToken;
 
-constexpr void __set_cancellationToken(::System::Threading::CancellationToken value) ;
+constexpr void __set_cancellationToken(System::Threading::CancellationToken value) ;
 
-constexpr ::System::Threading::CancellationToken __get_cancellationToken() const;
+constexpr System::Threading::CancellationToken __get_cancellationToken() const;
 
- ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Sprite> __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
+ System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite> __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
 
-constexpr void __set___u__1(::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Sprite> value) ;
+constexpr void __set___u__1(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite> value) ;
 
-constexpr ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Sprite> __get___u__1() const;
+constexpr System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite> __get___u__1() const;
 
 
 // Methods
@@ -129,7 +128,7 @@ constexpr ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Spri
  void MoveNext() ;
 
 /// @brief Method SetStateMachine addr 0x21a3a1c size 0x58 virtual true final true
- void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
+ void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -141,13 +140,13 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6000))
 // CS Name: CachedMediaAsyncLoader
-class CORDL_TYPE CachedMediaAsyncLoader : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE CachedMediaAsyncLoader : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using _LoadSpriteAsync_d__3 = ::GlobalNamespace::____GlobalNamespace__CachedMediaAsyncLoader___LoadSpriteAsync_d__3;
+using _LoadSpriteAsync_d__3 = GlobalNamespace::GlobalNamespace__CachedMediaAsyncLoader___LoadSpriteAsync_d__3;
 
-/// @brief Convert operator to ::GlobalNamespace::ISpriteAsyncLoader
-constexpr operator  ::GlobalNamespace::ISpriteAsyncLoader() const noexcept;
+/// @brief Convert operator to GlobalNamespace::ISpriteAsyncLoader
+constexpr operator  GlobalNamespace::ISpriteAsyncLoader() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -161,7 +160,7 @@ constexpr CachedMediaAsyncLoader(CachedMediaAsyncLoader const& ) noexcept = defa
 constexpr CachedMediaAsyncLoader(CachedMediaAsyncLoader&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CachedMediaAsyncLoader(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit CachedMediaAsyncLoader(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -188,11 +187,11 @@ constexpr void __set__maxNumberOfSpriteCachedElements(int32_t value) ;
 
 constexpr int32_t __get__maxNumberOfSpriteCachedElements() const;
 
- ::GlobalNamespace::AsyncCachedLoader_2<::StringW,::UnityEngine::Sprite> __declspec(property(get=__get__spriteAsyncCachedLoader, put=__set__spriteAsyncCachedLoader))  _spriteAsyncCachedLoader;
+ GlobalNamespace::AsyncCachedLoader_2<::StringW,UnityEngine::Sprite> __declspec(property(get=__get__spriteAsyncCachedLoader, put=__set__spriteAsyncCachedLoader))  _spriteAsyncCachedLoader;
 
-constexpr void __set__spriteAsyncCachedLoader(::GlobalNamespace::AsyncCachedLoader_2<::StringW,::UnityEngine::Sprite> value) ;
+constexpr void __set__spriteAsyncCachedLoader(GlobalNamespace::AsyncCachedLoader_2<::StringW,UnityEngine::Sprite> value) ;
 
-constexpr ::GlobalNamespace::AsyncCachedLoader_2<::StringW,::UnityEngine::Sprite> __get__spriteAsyncCachedLoader() const;
+constexpr GlobalNamespace::AsyncCachedLoader_2<::StringW,UnityEngine::Sprite> __get__spriteAsyncCachedLoader() const;
 
 
 // Methods
@@ -201,7 +200,7 @@ constexpr ::GlobalNamespace::AsyncCachedLoader_2<::StringW,::UnityEngine::Sprite
  void ClearCache() ;
 
 /// @brief Method LoadSpriteAsync addr 0x21a3648 size 0x104 virtual true final true
- ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite> LoadSpriteAsync(::StringW path, ::System::Threading::CancellationToken cancellationToken) ;
+ System::Threading::Tasks::Task_1<UnityEngine::Sprite> LoadSpriteAsync(::StringW path, System::Threading::CancellationToken cancellationToken) ;
 
 // Ctor Parameters []
 explicit CachedMediaAsyncLoader() ;
@@ -213,7 +212,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::CachedMediaAsyncLoader);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CachedMediaAsyncLoader, "", "CachedMediaAsyncLoader");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__CachedMediaAsyncLoader___LoadSpriteAsync_d__3, "", "CachedMediaAsyncLoader/<LoadSpriteAsync>d__3");
+NEED_NO_BOX(GlobalNamespace::CachedMediaAsyncLoader);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CachedMediaAsyncLoader, "", "CachedMediaAsyncLoader");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__CachedMediaAsyncLoader___LoadSpriteAsync_d__3, "", "CachedMediaAsyncLoader/<LoadSpriteAsync>d__3");

@@ -1,15 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace HoudiniEngineUnity {
-class HEU_Task;
-}
 namespace System {
 struct Guid;
 }
 namespace HoudiniEngineUnity {
-struct ____HoudiniEngineUnity__HEU_Task__TaskResult;
+class HEU_Task;
+}
+namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__HEU_Task__TaskResult;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -61,23 +60,23 @@ constexpr explicit HEU_TaskManager(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Fields
 
-static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Task> __declspec(property(get=__get__tasks, put=__set__tasks))  _tasks;
+static System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Task> __declspec(property(get=__get__tasks, put=__set__tasks))  _tasks;
 
-static void __set__tasks(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Task> value) ;
+static void __set__tasks(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Task> value) ;
 
-static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Task> __get__tasks() ;
+static System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Task> __get__tasks() ;
 
-static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Task> __declspec(property(get=__get__pendingAdd, put=__set__pendingAdd))  _pendingAdd;
+static System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Task> __declspec(property(get=__get__pendingAdd, put=__set__pendingAdd))  _pendingAdd;
 
-static void __set__pendingAdd(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Task> value) ;
+static void __set__pendingAdd(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Task> value) ;
 
-static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Task> __get__pendingAdd() ;
+static System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Task> __get__pendingAdd() ;
 
-static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Task> __declspec(property(get=__get__pendingRemove, put=__set__pendingRemove))  _pendingRemove;
+static System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Task> __declspec(property(get=__get__pendingRemove, put=__set__pendingRemove))  _pendingRemove;
 
-static void __set__pendingRemove(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Task> value) ;
+static void __set__pendingRemove(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Task> value) ;
 
-static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Task> __get__pendingRemove() ;
+static System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Task> __get__pendingRemove() ;
 
 
 // Methods
@@ -86,28 +85,28 @@ static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Task> __
 static void Update() ;
 
 /// @brief Method GetTask addr 0x2039d08 size 0x1a4 virtual false final false
-static ::HoudiniEngineUnity::HEU_Task GetTask(::System::Guid taskGuid) ;
+static HoudiniEngineUnity::HEU_Task GetTask(System::Guid taskGuid) ;
 
 /// @brief Method AddTask addr 0x2039eac size 0x150 virtual false final false
-static void AddTask(::HoudiniEngineUnity::HEU_Task task) ;
+static void AddTask(HoudiniEngineUnity::HEU_Task task) ;
 
 /// @brief Method KillTask addr 0x2039ffc size 0xe8 virtual false final false
-static void KillTask(::HoudiniEngineUnity::HEU_Task task, bool bRemove) ;
+static void KillTask(HoudiniEngineUnity::HEU_Task task, bool bRemove) ;
 
 /// @brief Method KillTask addr 0x203a228 size 0x9c virtual false final false
-static void KillTask(::System::Guid taskGuid, bool bRemove) ;
+static void KillTask(System::Guid taskGuid, bool bRemove) ;
 
 /// @brief Method RemoveTask addr 0x203a0e4 size 0x144 virtual false final false
-static void RemoveTask(::HoudiniEngineUnity::HEU_Task task) ;
+static void RemoveTask(HoudiniEngineUnity::HEU_Task task) ;
 
 /// @brief Method ExecuteTask addr 0x203a2c4 size 0x38 virtual false final false
-static void ExecuteTask(::HoudiniEngineUnity::HEU_Task task) ;
+static void ExecuteTask(HoudiniEngineUnity::HEU_Task task) ;
 
 /// @brief Method CompleteTask addr 0x2039628 size 0x28 virtual false final false
-static void CompleteTask(::HoudiniEngineUnity::HEU_Task task, ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_Task__TaskResult result) ;
+static void CompleteTask(HoudiniEngineUnity::HEU_Task task, HoudiniEngineUnity::HoudiniEngineUnity__HEU_Task__TaskResult result) ;
 
 /// @brief Method InternalCompleteTask addr 0x203a2fc size 0x60 virtual false final false
-static void InternalCompleteTask(::HoudiniEngineUnity::HEU_Task task) ;
+static void InternalCompleteTask(HoudiniEngineUnity::HEU_Task task) ;
 
 // Ctor Parameters []
 explicit HEU_TaskManager() ;
@@ -119,6 +118,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_TaskManager);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_TaskManager, "HoudiniEngineUnity", "HEU_TaskManager");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_TaskManager);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_TaskManager, "HoudiniEngineUnity", "HEU_TaskManager");

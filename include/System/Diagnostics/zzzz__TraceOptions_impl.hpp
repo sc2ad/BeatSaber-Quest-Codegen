@@ -1,21 +1,19 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
-namespace {
 #include "System/Diagnostics/zzzz__TraceOptions_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::System::Diagnostics::TraceOptions::TraceOptions(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
+constexpr System::Diagnostics::TraceOptions::TraceOptions(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
-constexpr void ::System::Diagnostics::TraceOptions::__set_value__(int32_t value)  {
+constexpr void System::Diagnostics::TraceOptions::__set_value__(int32_t value)  {
 ::cordl_internals::setInstanceField<int32_t, 0x0>(this->__instance, std::forward<int32_t>(value));
 }
-constexpr int32_t ::System::Diagnostics::TraceOptions::__get_value__() const {
+constexpr int32_t System::Diagnostics::TraceOptions::__get_value__() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x0>(this->__instance);
 }
-constexpr ::System::Diagnostics::TraceOptions  ::System::Diagnostics::TraceOptions::None{0};
-constexpr ::System::Diagnostics::TraceOptions  ::System::Diagnostics::TraceOptions::LogicalOperationStack{1};
-constexpr ::System::Diagnostics::TraceOptions  ::System::Diagnostics::TraceOptions::DateTime{2};
-constexpr ::System::Diagnostics::TraceOptions  ::System::Diagnostics::TraceOptions::Timestamp{4};
-constexpr ::System::Diagnostics::TraceOptions  ::System::Diagnostics::TraceOptions::ProcessId{8};
-constexpr ::System::Diagnostics::TraceOptions  ::System::Diagnostics::TraceOptions::ThreadId{16};
-constexpr ::System::Diagnostics::TraceOptions  ::System::Diagnostics::TraceOptions::Callstack{32};
-} // end anonymous namespace
+constexpr System::Diagnostics::TraceOptions  System::Diagnostics::TraceOptions::None{0};
+constexpr System::Diagnostics::TraceOptions  System::Diagnostics::TraceOptions::LogicalOperationStack{1};
+constexpr System::Diagnostics::TraceOptions  System::Diagnostics::TraceOptions::DateTime{2};
+constexpr System::Diagnostics::TraceOptions  System::Diagnostics::TraceOptions::Timestamp{4};
+constexpr System::Diagnostics::TraceOptions  System::Diagnostics::TraceOptions::ProcessId{8};
+constexpr System::Diagnostics::TraceOptions  System::Diagnostics::TraceOptions::ThreadId{16};
+constexpr System::Diagnostics::TraceOptions  System::Diagnostics::TraceOptions::Callstack{32};

@@ -3,10 +3,6 @@
 #include "GlobalNamespace/zzzz__BloomPrePassNonLightPass_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class Shader;
-}
 namespace UnityEngine {
 class RenderTexture;
 }
@@ -15,6 +11,9 @@ class Material;
 }
 namespace UnityEngine {
 struct Color;
+}
+namespace UnityEngine {
+class Shader;
 }
 namespace UnityEngine {
 struct Matrix4x4;
@@ -29,7 +28,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14639))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14618))
 // CS Name: BloomPrePassBackgroundColor
-class CORDL_TYPE BloomPrePassBackgroundColor : public ::GlobalNamespace::BloomPrePassNonLightPass {
+class CORDL_TYPE BloomPrePassBackgroundColor : public GlobalNamespace::BloomPrePassNonLightPass {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -44,7 +43,7 @@ constexpr BloomPrePassBackgroundColor(BloomPrePassBackgroundColor const& ) noexc
 constexpr BloomPrePassBackgroundColor(BloomPrePassBackgroundColor&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BloomPrePassBackgroundColor(void* ptr) noexcept : ::GlobalNamespace::BloomPrePassNonLightPass(ptr) {
+constexpr explicit BloomPrePassBackgroundColor(void* ptr) noexcept : GlobalNamespace::BloomPrePassNonLightPass(ptr) {
 }
 
 
@@ -83,17 +82,17 @@ constexpr void __set__grayscaleFactor(float_t value) ;
 
 constexpr float_t __get__grayscaleFactor() const;
 
- ::UnityEngine::Shader __declspec(property(get=__get__shader, put=__set__shader))  _shader;
+ UnityEngine::Shader __declspec(property(get=__get__shader, put=__set__shader))  _shader;
 
-constexpr void __set__shader(::UnityEngine::Shader value) ;
+constexpr void __set__shader(UnityEngine::Shader value) ;
 
-constexpr ::UnityEngine::Shader __get__shader() const;
+constexpr UnityEngine::Shader __get__shader() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__color, put=__set__color))  _color;
+ UnityEngine::Color __declspec(property(get=__get__color, put=__set__color))  _color;
 
-constexpr void __set__color(::UnityEngine::Color value) ;
+constexpr void __set__color(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__color() const;
+constexpr UnityEngine::Color __get__color() const;
 
 static int32_t __declspec(property(get=__get__colorID, put=__set__colorID))  _colorID;
 
@@ -101,11 +100,11 @@ static void __set__colorID(int32_t value) ;
 
 static int32_t __get__colorID() ;
 
-static ::UnityEngine::Material __declspec(property(get=__get__material, put=__set__material))  _material;
+static UnityEngine::Material __declspec(property(get=__get__material, put=__set__material))  _material;
 
-static void __set__material(::UnityEngine::Material value) ;
+static void __set__material(UnityEngine::Material value) ;
 
-static ::UnityEngine::Material __get__material() ;
+static UnityEngine::Material __get__material() ;
 
 static bool __declspec(property(get=__get__initialized, put=__set__initialized))  _initialized;
 
@@ -116,27 +115,27 @@ static bool __get__initialized() ;
 
 // Properties
 
- ::UnityEngine::Color __declspec(property(get=get_color, put=set_color))  color;
+ UnityEngine::Color __declspec(property(get=get_color, put=set_color))  color;
 
- ::UnityEngine::Color __declspec(property(get=get_bgColor))  bgColor;
+ UnityEngine::Color __declspec(property(get=get_bgColor))  bgColor;
 
 
 // Methods
 
 /// @brief Method get_color addr 0x1f91d58 size 0xc virtual false final false
- ::UnityEngine::Color get_color() ;
+ UnityEngine::Color get_color() ;
 
 /// @brief Method set_color addr 0x1f91d64 size 0xc virtual false final false
- void set_color(::UnityEngine::Color value) ;
+ void set_color(UnityEngine::Color value) ;
 
 /// @brief Method get_bgColor addr 0x1f91d70 size 0x90 virtual false final false
- ::UnityEngine::Color get_bgColor() ;
+ UnityEngine::Color get_bgColor() ;
 
 /// @brief Method InitIfNeeded addr 0x1f91e00 size 0x184 virtual false final false
  void InitIfNeeded() ;
 
 /// @brief Method Render addr 0x1f91f84 size 0xd4 virtual true final false
- void Render(::UnityEngine::RenderTexture dest, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix) ;
+ void Render(UnityEngine::RenderTexture dest, UnityEngine::Matrix4x4 viewMatrix, UnityEngine::Matrix4x4 projectionMatrix) ;
 
 // Ctor Parameters []
 explicit BloomPrePassBackgroundColor() ;
@@ -148,6 +147,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BloomPrePassBackgroundColor);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BloomPrePassBackgroundColor, "", "BloomPrePassBackgroundColor");
+NEED_NO_BOX(GlobalNamespace::BloomPrePassBackgroundColor);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundColor, "", "BloomPrePassBackgroundColor");

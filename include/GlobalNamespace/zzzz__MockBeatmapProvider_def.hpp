@@ -3,7 +3,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace GlobalNamespace {
+class IServerBeatmapProvider;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
@@ -12,13 +14,10 @@ namespace GlobalNamespace {
 struct SongPackMask;
 }
 namespace GlobalNamespace {
-class BeatmapIdentifierNetSerializable;
-}
-namespace GlobalNamespace {
 struct BeatmapLevelSelectionMask;
 }
 namespace GlobalNamespace {
-class IServerBeatmapProvider;
+class BeatmapIdentifierNetSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -33,8 +32,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE MockBeatmapProvider : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IServerBeatmapProvider
-constexpr operator  ::GlobalNamespace::IServerBeatmapProvider() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IServerBeatmapProvider
+constexpr operator  GlobalNamespace::IServerBeatmapProvider() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -70,10 +69,10 @@ constexpr explicit MockBeatmapProvider(void* ptr) noexcept : ::bs_hook::Il2CppWr
 // Methods
 
 /// @brief Method VerifyBeatmapForSelectionMask addr 0x20eb420 size 0x8 virtual true final true
- bool VerifyBeatmapForSelectionMask(::GlobalNamespace::BeatmapIdentifierNetSerializable beatmapId, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask) ;
+ bool VerifyBeatmapForSelectionMask(GlobalNamespace::BeatmapIdentifierNetSerializable beatmapId, GlobalNamespace::BeatmapLevelSelectionMask selectionMask) ;
 
 /// @brief Method SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks addr 0x20eb428 size 0x90 virtual true final true
- ::GlobalNamespace::BeatmapIdentifierNetSerializable SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks(int32_t playerCount, ::System::Collections::Generic::Dictionary_2<::StringW,::GlobalNamespace::BeatmapIdentifierNetSerializable> suggestedBeatmaps, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::System::Collections::Generic::Dictionary_2<::StringW,::GlobalNamespace::SongPackMask> ownedSongPacks) ;
+ GlobalNamespace::BeatmapIdentifierNetSerializable SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks(int32_t playerCount, System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::BeatmapIdentifierNetSerializable> suggestedBeatmaps, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::SongPackMask> ownedSongPacks) ;
 
 /// @brief Method Dispose addr 0x20eb4b8 size 0x4 virtual false final false
  void Dispose() ;
@@ -88,6 +87,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MockBeatmapProvider);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MockBeatmapProvider, "", "MockBeatmapProvider");
+NEED_NO_BOX(GlobalNamespace::MockBeatmapProvider);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockBeatmapProvider, "", "MockBeatmapProvider");

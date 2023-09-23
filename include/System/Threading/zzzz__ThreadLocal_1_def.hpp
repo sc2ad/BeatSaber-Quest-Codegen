@@ -6,54 +6,53 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System {
-class IDisposable;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace System {
 template<typename TResult>
 class Func_1;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
+namespace System::Threading {
+template<typename T>
+class System__Threading__ThreadLocal_1__FinalizationHelper;
+}
+namespace System::Threading {
+template<typename T>
+class System__Threading__ThreadLocal_1__IdManager;
+}
+namespace System::Threading {
+template<typename T>
+class System__Threading__ThreadLocal_1__LinkedSlot;
+}
 namespace System::Threading {
 template<typename T>
 class ThreadLocal_1;
 }
 namespace System::Threading {
-template<typename T>
-class ____System__Threading__ThreadLocal_1__FinalizationHelper;
+template<::cordl_internals::il2cpp_reference_type T>
+class System__Threading__ThreadLocal_1__FinalizationHelper<T>;
 }
 namespace System::Threading {
-template<typename T>
-class ____System__Threading__ThreadLocal_1__IdManager;
+template<::cordl_internals::il2cpp_reference_type T>
+class System__Threading__ThreadLocal_1__IdManager<T>;
 }
 namespace System::Threading {
-template<typename T>
-class ____System__Threading__ThreadLocal_1__LinkedSlot;
+template<::cordl_internals::il2cpp_reference_type T>
+class System__Threading__ThreadLocal_1__LinkedSlot<T>;
 }
 namespace System::Threading {
 template<::cordl_internals::il2cpp_reference_type T>
 class ThreadLocal_1<T>;
 }
 namespace System::Threading {
-template<::cordl_internals::il2cpp_reference_type T>
-class ____System__Threading__ThreadLocal_1__FinalizationHelper<T>;
-}
-namespace System::Threading {
-template<::cordl_internals::il2cpp_reference_type T>
-class ____System__Threading__ThreadLocal_1__IdManager<T>;
-}
-namespace System::Threading {
-template<::cordl_internals::il2cpp_reference_type T>
-class ____System__Threading__ThreadLocal_1__LinkedSlot<T>;
-}
-namespace System::Threading {
 template<typename T>
-struct ____System__Threading__ThreadLocal_1__LinkedSlotVolatile;
+struct System__Threading__ThreadLocal_1__LinkedSlotVolatile;
 }
 // Type: ::LinkedSlotVolatile
 namespace System::Threading {
@@ -63,20 +62,20 @@ template<typename T>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2701))
 // CS Name: System.Threading.ThreadLocal`1::LinkedSlotVolatile
-struct CORDL_TYPE ____System__Threading__ThreadLocal_1__LinkedSlotVolatile : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE System__Threading__ThreadLocal_1__LinkedSlotVolatile : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "Value", ty: "::System::Threading::____System__Threading__ThreadLocal_1__LinkedSlot<T>", modifiers: "", def_value: None }]
-constexpr ____System__Threading__ThreadLocal_1__LinkedSlotVolatile(::System::Threading::____System__Threading__ThreadLocal_1__LinkedSlot<T> Value) noexcept;
+// Ctor Parameters [CppParam { name: "Value", ty: "System::Threading::System__Threading__ThreadLocal_1__LinkedSlot<T>", modifiers: "", def_value: None }]
+constexpr System__Threading__ThreadLocal_1__LinkedSlotVolatile(System::Threading::System__Threading__ThreadLocal_1__LinkedSlot<T> Value) noexcept;
 
 
-                    constexpr ____System__Threading__ThreadLocal_1__LinkedSlotVolatile(____System__Threading__ThreadLocal_1__LinkedSlotVolatile const&) = default;
-                    constexpr ____System__Threading__ThreadLocal_1__LinkedSlotVolatile(____System__Threading__ThreadLocal_1__LinkedSlotVolatile&&) = default;
-                    constexpr ____System__Threading__ThreadLocal_1__LinkedSlotVolatile& operator=(____System__Threading__ThreadLocal_1__LinkedSlotVolatile const& o) {
+                    constexpr System__Threading__ThreadLocal_1__LinkedSlotVolatile(System__Threading__ThreadLocal_1__LinkedSlotVolatile const&) = default;
+                    constexpr System__Threading__ThreadLocal_1__LinkedSlotVolatile(System__Threading__ThreadLocal_1__LinkedSlotVolatile&&) = default;
+                    constexpr System__Threading__ThreadLocal_1__LinkedSlotVolatile& operator=(System__Threading__ThreadLocal_1__LinkedSlotVolatile const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Threading__ThreadLocal_1__LinkedSlotVolatile& operator=(____System__Threading__ThreadLocal_1__LinkedSlotVolatile&& o) noexcept {
+                    constexpr System__Threading__ThreadLocal_1__LinkedSlotVolatile& operator=(System__Threading__ThreadLocal_1__LinkedSlotVolatile&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -89,7 +88,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x8};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Threading__ThreadLocal_1__LinkedSlotVolatile(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Threading__ThreadLocal_1__LinkedSlotVolatile(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -100,11 +99,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::Threading::____System__Threading__ThreadLocal_1__LinkedSlot<T> __declspec(property(get=__get_Value, put=__set_Value))  Value;
+ System::Threading::System__Threading__ThreadLocal_1__LinkedSlot<T> __declspec(property(get=__get_Value, put=__set_Value))  Value;
 
-constexpr void __set_Value(::System::Threading::____System__Threading__ThreadLocal_1__LinkedSlot<T> value) ;
+constexpr void __set_Value(System::Threading::System__Threading__ThreadLocal_1__LinkedSlot<T> value) ;
 
-constexpr ::System::Threading::____System__Threading__ThreadLocal_1__LinkedSlot<T> __get_Value() const;
+constexpr System::Threading::System__Threading__ThreadLocal_1__LinkedSlot<T> __get_Value() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -122,59 +121,59 @@ template<::cordl_internals::il2cpp_reference_type T>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2702))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2702), inst: 2 })
 // CS Name: System.Threading.ThreadLocal`1::LinkedSlot
-class CORDL_TYPE ____System__Threading__ThreadLocal_1__LinkedSlot<T> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Threading__ThreadLocal_1__LinkedSlot<T> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____System__Threading__ThreadLocal_1__LinkedSlot() = default;
+virtual ~System__Threading__ThreadLocal_1__LinkedSlot() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Threading__ThreadLocal_1__LinkedSlot", modifiers: " const&", def_value: None }]
-constexpr ____System__Threading__ThreadLocal_1__LinkedSlot(____System__Threading__ThreadLocal_1__LinkedSlot const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Threading__ThreadLocal_1__LinkedSlot", modifiers: " const&", def_value: None }]
+constexpr System__Threading__ThreadLocal_1__LinkedSlot(System__Threading__ThreadLocal_1__LinkedSlot const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Threading__ThreadLocal_1__LinkedSlot", modifiers: "&&", def_value: None }]
-constexpr ____System__Threading__ThreadLocal_1__LinkedSlot(____System__Threading__ThreadLocal_1__LinkedSlot&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Threading__ThreadLocal_1__LinkedSlot", modifiers: "&&", def_value: None }]
+constexpr System__Threading__ThreadLocal_1__LinkedSlot(System__Threading__ThreadLocal_1__LinkedSlot&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Threading__ThreadLocal_1__LinkedSlot(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Threading__ThreadLocal_1__LinkedSlot(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Threading__ThreadLocal_1__LinkedSlot& operator=(std::nullptr_t) noexcept {
+  constexpr System__Threading__ThreadLocal_1__LinkedSlot& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Threading__ThreadLocal_1__LinkedSlot& operator=(void* o) noexcept {
+  constexpr System__Threading__ThreadLocal_1__LinkedSlot& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Threading__ThreadLocal_1__LinkedSlot& operator=(____System__Threading__ThreadLocal_1__LinkedSlot&& o) noexcept = default;
-  constexpr ____System__Threading__ThreadLocal_1__LinkedSlot& operator=(____System__Threading__ThreadLocal_1__LinkedSlot const& o) noexcept = default;
+  constexpr System__Threading__ThreadLocal_1__LinkedSlot& operator=(System__Threading__ThreadLocal_1__LinkedSlot&& o) noexcept = default;
+  constexpr System__Threading__ThreadLocal_1__LinkedSlot& operator=(System__Threading__ThreadLocal_1__LinkedSlot const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Threading::____System__Threading__ThreadLocal_1__LinkedSlot<T> __declspec(property(get=__get_Next, put=__set_Next))  Next;
+ System::Threading::System__Threading__ThreadLocal_1__LinkedSlot<T> __declspec(property(get=__get_Next, put=__set_Next))  Next;
 
-constexpr void __set_Next(::System::Threading::____System__Threading__ThreadLocal_1__LinkedSlot<T> value) ;
+constexpr void __set_Next(System::Threading::System__Threading__ThreadLocal_1__LinkedSlot<T> value) ;
 
-constexpr ::System::Threading::____System__Threading__ThreadLocal_1__LinkedSlot<T> __get_Next() const;
+constexpr System::Threading::System__Threading__ThreadLocal_1__LinkedSlot<T> __get_Next() const;
 
- ::System::Threading::____System__Threading__ThreadLocal_1__LinkedSlot<T> __declspec(property(get=__get_Previous, put=__set_Previous))  Previous;
+ System::Threading::System__Threading__ThreadLocal_1__LinkedSlot<T> __declspec(property(get=__get_Previous, put=__set_Previous))  Previous;
 
-constexpr void __set_Previous(::System::Threading::____System__Threading__ThreadLocal_1__LinkedSlot<T> value) ;
+constexpr void __set_Previous(System::Threading::System__Threading__ThreadLocal_1__LinkedSlot<T> value) ;
 
-constexpr ::System::Threading::____System__Threading__ThreadLocal_1__LinkedSlot<T> __get_Previous() const;
+constexpr System::Threading::System__Threading__ThreadLocal_1__LinkedSlot<T> __get_Previous() const;
 
- ::ArrayW<::System::Threading::____System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>> __declspec(property(get=__get_SlotArray, put=__set_SlotArray))  SlotArray;
+ ::ArrayW<System::Threading::System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>> __declspec(property(get=__get_SlotArray, put=__set_SlotArray))  SlotArray;
 
-constexpr void __set_SlotArray(::ArrayW<::System::Threading::____System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>> value) ;
+constexpr void __set_SlotArray(::ArrayW<System::Threading::System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>> value) ;
 
-constexpr ::ArrayW<::System::Threading::____System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>> __get_SlotArray() const;
+constexpr ::ArrayW<System::Threading::System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>> __get_SlotArray() const;
 
  T __declspec(property(get=__get_Value, put=__set_Value))  Value;
 
@@ -185,11 +184,11 @@ constexpr T __get_Value() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "slotArray", ty: "::ArrayW<::System::Threading::____System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>>", modifiers: "", def_value: None }]
-explicit ____System__Threading__ThreadLocal_1__LinkedSlot(::ArrayW<::System::Threading::____System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>> slotArray) ;
+// Ctor Parameters [CppParam { name: "slotArray", ty: "::ArrayW<System::Threading::System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>>", modifiers: "", def_value: None }]
+explicit System__Threading__ThreadLocal_1__LinkedSlot(::ArrayW<System::Threading::System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>> slotArray) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::ArrayW<::System::Threading::____System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>> slotArray) ;
+ void _ctor(::ArrayW<System::Threading::System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>> slotArray) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -203,37 +202,37 @@ template<::cordl_internals::il2cpp_reference_type T>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2703))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2703), inst: 2 })
 // CS Name: System.Threading.ThreadLocal`1::IdManager
-class CORDL_TYPE ____System__Threading__ThreadLocal_1__IdManager<T> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Threading__ThreadLocal_1__IdManager<T> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____System__Threading__ThreadLocal_1__IdManager() = default;
+virtual ~System__Threading__ThreadLocal_1__IdManager() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Threading__ThreadLocal_1__IdManager", modifiers: " const&", def_value: None }]
-constexpr ____System__Threading__ThreadLocal_1__IdManager(____System__Threading__ThreadLocal_1__IdManager const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Threading__ThreadLocal_1__IdManager", modifiers: " const&", def_value: None }]
+constexpr System__Threading__ThreadLocal_1__IdManager(System__Threading__ThreadLocal_1__IdManager const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Threading__ThreadLocal_1__IdManager", modifiers: "&&", def_value: None }]
-constexpr ____System__Threading__ThreadLocal_1__IdManager(____System__Threading__ThreadLocal_1__IdManager&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Threading__ThreadLocal_1__IdManager", modifiers: "&&", def_value: None }]
+constexpr System__Threading__ThreadLocal_1__IdManager(System__Threading__ThreadLocal_1__IdManager&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Threading__ThreadLocal_1__IdManager(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Threading__ThreadLocal_1__IdManager(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Threading__ThreadLocal_1__IdManager& operator=(std::nullptr_t) noexcept {
+  constexpr System__Threading__ThreadLocal_1__IdManager& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Threading__ThreadLocal_1__IdManager& operator=(void* o) noexcept {
+  constexpr System__Threading__ThreadLocal_1__IdManager& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Threading__ThreadLocal_1__IdManager& operator=(____System__Threading__ThreadLocal_1__IdManager&& o) noexcept = default;
-  constexpr ____System__Threading__ThreadLocal_1__IdManager& operator=(____System__Threading__ThreadLocal_1__IdManager const& o) noexcept = default;
+  constexpr System__Threading__ThreadLocal_1__IdManager& operator=(System__Threading__ThreadLocal_1__IdManager&& o) noexcept = default;
+  constexpr System__Threading__ThreadLocal_1__IdManager& operator=(System__Threading__ThreadLocal_1__IdManager const& o) noexcept = default;
                 
 
 
@@ -245,11 +244,11 @@ constexpr void __set_m_nextIdToTry(int32_t value) ;
 
 constexpr int32_t __get_m_nextIdToTry() const;
 
- ::System::Collections::Generic::List_1<bool> __declspec(property(get=__get_m_freeIds, put=__set_m_freeIds))  m_freeIds;
+ System::Collections::Generic::List_1<bool> __declspec(property(get=__get_m_freeIds, put=__set_m_freeIds))  m_freeIds;
 
-constexpr void __set_m_freeIds(::System::Collections::Generic::List_1<bool> value) ;
+constexpr void __set_m_freeIds(System::Collections::Generic::List_1<bool> value) ;
 
-constexpr ::System::Collections::Generic::List_1<bool> __get_m_freeIds() const;
+constexpr System::Collections::Generic::List_1<bool> __get_m_freeIds() const;
 
 
 // Methods
@@ -261,7 +260,7 @@ constexpr ::System::Collections::Generic::List_1<bool> __get_m_freeIds() const;
  void ReturnId(int32_t id) ;
 
 // Ctor Parameters []
-explicit ____System__Threading__ThreadLocal_1__IdManager() ;
+explicit System__Threading__ThreadLocal_1__IdManager() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -278,47 +277,47 @@ template<::cordl_internals::il2cpp_reference_type T>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2704))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2704), inst: 2 })
 // CS Name: System.Threading.ThreadLocal`1::FinalizationHelper
-class CORDL_TYPE ____System__Threading__ThreadLocal_1__FinalizationHelper<T> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Threading__ThreadLocal_1__FinalizationHelper<T> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____System__Threading__ThreadLocal_1__FinalizationHelper() = default;
+virtual ~System__Threading__ThreadLocal_1__FinalizationHelper() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Threading__ThreadLocal_1__FinalizationHelper", modifiers: " const&", def_value: None }]
-constexpr ____System__Threading__ThreadLocal_1__FinalizationHelper(____System__Threading__ThreadLocal_1__FinalizationHelper const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Threading__ThreadLocal_1__FinalizationHelper", modifiers: " const&", def_value: None }]
+constexpr System__Threading__ThreadLocal_1__FinalizationHelper(System__Threading__ThreadLocal_1__FinalizationHelper const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Threading__ThreadLocal_1__FinalizationHelper", modifiers: "&&", def_value: None }]
-constexpr ____System__Threading__ThreadLocal_1__FinalizationHelper(____System__Threading__ThreadLocal_1__FinalizationHelper&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Threading__ThreadLocal_1__FinalizationHelper", modifiers: "&&", def_value: None }]
+constexpr System__Threading__ThreadLocal_1__FinalizationHelper(System__Threading__ThreadLocal_1__FinalizationHelper&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Threading__ThreadLocal_1__FinalizationHelper(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Threading__ThreadLocal_1__FinalizationHelper(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Threading__ThreadLocal_1__FinalizationHelper& operator=(std::nullptr_t) noexcept {
+  constexpr System__Threading__ThreadLocal_1__FinalizationHelper& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Threading__ThreadLocal_1__FinalizationHelper& operator=(void* o) noexcept {
+  constexpr System__Threading__ThreadLocal_1__FinalizationHelper& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Threading__ThreadLocal_1__FinalizationHelper& operator=(____System__Threading__ThreadLocal_1__FinalizationHelper&& o) noexcept = default;
-  constexpr ____System__Threading__ThreadLocal_1__FinalizationHelper& operator=(____System__Threading__ThreadLocal_1__FinalizationHelper const& o) noexcept = default;
+  constexpr System__Threading__ThreadLocal_1__FinalizationHelper& operator=(System__Threading__ThreadLocal_1__FinalizationHelper&& o) noexcept = default;
+  constexpr System__Threading__ThreadLocal_1__FinalizationHelper& operator=(System__Threading__ThreadLocal_1__FinalizationHelper const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::ArrayW<::System::Threading::____System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>> __declspec(property(get=__get_SlotArray, put=__set_SlotArray))  SlotArray;
+ ::ArrayW<System::Threading::System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>> __declspec(property(get=__get_SlotArray, put=__set_SlotArray))  SlotArray;
 
-constexpr void __set_SlotArray(::ArrayW<::System::Threading::____System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>> value) ;
+constexpr void __set_SlotArray(::ArrayW<System::Threading::System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>> value) ;
 
-constexpr ::ArrayW<::System::Threading::____System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>> __get_SlotArray() const;
+constexpr ::ArrayW<System::Threading::System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>> __get_SlotArray() const;
 
  bool __declspec(property(get=__get_m_trackAllValues, put=__set_m_trackAllValues))  m_trackAllValues;
 
@@ -329,11 +328,11 @@ constexpr bool __get_m_trackAllValues() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "slotArray", ty: "::ArrayW<::System::Threading::____System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>>", modifiers: "", def_value: None }, CppParam { name: "trackAllValues", ty: "bool", modifiers: "", def_value: None }]
-explicit ____System__Threading__ThreadLocal_1__FinalizationHelper(::ArrayW<::System::Threading::____System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>> slotArray, bool trackAllValues) ;
+// Ctor Parameters [CppParam { name: "slotArray", ty: "::ArrayW<System::Threading::System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>>", modifiers: "", def_value: None }, CppParam { name: "trackAllValues", ty: "bool", modifiers: "", def_value: None }]
+explicit System__Threading__ThreadLocal_1__FinalizationHelper(::ArrayW<System::Threading::System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>> slotArray, bool trackAllValues) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::ArrayW<::System::Threading::____System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>> slotArray, bool trackAllValues) ;
+ void _ctor(::ArrayW<System::Threading::System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>> slotArray, bool trackAllValues) ;
 
 /// @brief Method Finalize addr 0x0 size 0xffffffffffffffff virtual true final false
  void Finalize() ;
@@ -353,16 +352,16 @@ template<::cordl_internals::il2cpp_reference_type T>
 class CORDL_TYPE ThreadLocal_1<T> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using FinalizationHelper = ::System::Threading::____System__Threading__ThreadLocal_1__FinalizationHelper<T>;
+using FinalizationHelper = System::Threading::System__Threading__ThreadLocal_1__FinalizationHelper<T>;
 
-using IdManager = ::System::Threading::____System__Threading__ThreadLocal_1__IdManager<T>;
+using IdManager = System::Threading::System__Threading__ThreadLocal_1__IdManager<T>;
 
-using LinkedSlot = ::System::Threading::____System__Threading__ThreadLocal_1__LinkedSlot<T>;
+using LinkedSlot = System::Threading::System__Threading__ThreadLocal_1__LinkedSlot<T>;
 
-using LinkedSlotVolatile = ::System::Threading::____System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>;
+using LinkedSlotVolatile = System::Threading::System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -397,23 +396,23 @@ constexpr explicit ThreadLocal_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 
 // Fields
 
- ::System::Func_1<T> __declspec(property(get=__get_m_valueFactory, put=__set_m_valueFactory))  m_valueFactory;
+ System::Func_1<T> __declspec(property(get=__get_m_valueFactory, put=__set_m_valueFactory))  m_valueFactory;
 
-constexpr void __set_m_valueFactory(::System::Func_1<T> value) ;
+constexpr void __set_m_valueFactory(System::Func_1<T> value) ;
 
-constexpr ::System::Func_1<T> __get_m_valueFactory() const;
+constexpr System::Func_1<T> __get_m_valueFactory() const;
 
-static ::ArrayW<::System::Threading::____System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>> __declspec(property(get=__get_ts_slotArray, put=__set_ts_slotArray))  ts_slotArray;
+static ::ArrayW<System::Threading::System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>> __declspec(property(get=__get_ts_slotArray, put=__set_ts_slotArray))  ts_slotArray;
 
-static void __set_ts_slotArray(::ArrayW<::System::Threading::____System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>> value) ;
+static void __set_ts_slotArray(::ArrayW<System::Threading::System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>> value) ;
 
-static ::ArrayW<::System::Threading::____System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>> __get_ts_slotArray() ;
+static ::ArrayW<System::Threading::System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>> __get_ts_slotArray() ;
 
-static ::System::Threading::____System__Threading__ThreadLocal_1__FinalizationHelper<T> __declspec(property(get=__get_ts_finalizationHelper, put=__set_ts_finalizationHelper))  ts_finalizationHelper;
+static System::Threading::System__Threading__ThreadLocal_1__FinalizationHelper<T> __declspec(property(get=__get_ts_finalizationHelper, put=__set_ts_finalizationHelper))  ts_finalizationHelper;
 
-static void __set_ts_finalizationHelper(::System::Threading::____System__Threading__ThreadLocal_1__FinalizationHelper<T> value) ;
+static void __set_ts_finalizationHelper(System::Threading::System__Threading__ThreadLocal_1__FinalizationHelper<T> value) ;
 
-static ::System::Threading::____System__Threading__ThreadLocal_1__FinalizationHelper<T> __get_ts_finalizationHelper() ;
+static System::Threading::System__Threading__ThreadLocal_1__FinalizationHelper<T> __get_ts_finalizationHelper() ;
 
  int32_t __declspec(property(get=__get_m_idComplement, put=__set_m_idComplement))  m_idComplement;
 
@@ -427,17 +426,17 @@ constexpr void __set_m_initialized(bool value) ;
 
 constexpr bool __get_m_initialized() const;
 
-static ::System::Threading::____System__Threading__ThreadLocal_1__IdManager<T> __declspec(property(get=__get_s_idManager, put=__set_s_idManager))  s_idManager;
+static System::Threading::System__Threading__ThreadLocal_1__IdManager<T> __declspec(property(get=__get_s_idManager, put=__set_s_idManager))  s_idManager;
 
-static void __set_s_idManager(::System::Threading::____System__Threading__ThreadLocal_1__IdManager<T> value) ;
+static void __set_s_idManager(System::Threading::System__Threading__ThreadLocal_1__IdManager<T> value) ;
 
-static ::System::Threading::____System__Threading__ThreadLocal_1__IdManager<T> __get_s_idManager() ;
+static System::Threading::System__Threading__ThreadLocal_1__IdManager<T> __get_s_idManager() ;
 
- ::System::Threading::____System__Threading__ThreadLocal_1__LinkedSlot<T> __declspec(property(get=__get_m_linkedSlot, put=__set_m_linkedSlot))  m_linkedSlot;
+ System::Threading::System__Threading__ThreadLocal_1__LinkedSlot<T> __declspec(property(get=__get_m_linkedSlot, put=__set_m_linkedSlot))  m_linkedSlot;
 
-constexpr void __set_m_linkedSlot(::System::Threading::____System__Threading__ThreadLocal_1__LinkedSlot<T> value) ;
+constexpr void __set_m_linkedSlot(System::Threading::System__Threading__ThreadLocal_1__LinkedSlot<T> value) ;
 
-constexpr ::System::Threading::____System__Threading__ThreadLocal_1__LinkedSlot<T> __get_m_linkedSlot() const;
+constexpr System::Threading::System__Threading__ThreadLocal_1__LinkedSlot<T> __get_m_linkedSlot() const;
 
  bool __declspec(property(get=__get_m_trackAllValues, put=__set_m_trackAllValues))  m_trackAllValues;
 
@@ -462,7 +461,7 @@ explicit ThreadLocal_1() ;
  void _ctor() ;
 
 /// @brief Method Initialize addr 0x0 size 0xffffffffffffffff virtual false final false
- void Initialize(::System::Func_1<T> valueFactory, bool trackAllValues) ;
+ void Initialize(System::Func_1<T> valueFactory, bool trackAllValues) ;
 
 /// @brief Method Finalize addr 0x0 size 0xffffffffffffffff virtual true final false
  void Finalize() ;
@@ -486,16 +485,16 @@ explicit ThreadLocal_1() ;
  T GetValueSlow() ;
 
 /// @brief Method SetValueSlow addr 0x0 size 0xffffffffffffffff virtual false final false
- void SetValueSlow(T value, ::ArrayW<::System::Threading::____System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>> slotArray) ;
+ void SetValueSlow(T value, ::ArrayW<System::Threading::System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>> slotArray) ;
 
 /// @brief Method CreateLinkedSlot addr 0x0 size 0xffffffffffffffff virtual false final false
- void CreateLinkedSlot(::ArrayW<::System::Threading::____System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>> slotArray, int32_t id, T value) ;
+ void CreateLinkedSlot(::ArrayW<System::Threading::System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>> slotArray, int32_t id, T value) ;
 
 /// @brief Method get_IsValueCreated addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_IsValueCreated() ;
 
 /// @brief Method GrowTable addr 0x0 size 0xffffffffffffffff virtual false final false
- void GrowTable(ByRef<::ArrayW<::System::Threading::____System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>>> table, int32_t minLength) ;
+ void GrowTable(ByRef<::ArrayW<System::Threading::System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>>> table, int32_t minLength) ;
 
 /// @brief Method GetNewTableSize addr 0x0 size 0xffffffffffffffff virtual false final false
 static int32_t GetNewTableSize(int32_t minSize) ;
@@ -504,9 +503,8 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Threading
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Threading::ThreadLocal_1, "System.Threading", "ThreadLocal`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Threading::____System__Threading__ThreadLocal_1__FinalizationHelper, "System.Threading", "ThreadLocal`1/FinalizationHelper");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Threading::____System__Threading__ThreadLocal_1__IdManager, "System.Threading", "ThreadLocal`1/IdManager");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Threading::____System__Threading__ThreadLocal_1__LinkedSlot, "System.Threading", "ThreadLocal`1/LinkedSlot");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Threading::____System__Threading__ThreadLocal_1__LinkedSlotVolatile, "System.Threading", "ThreadLocal`1/LinkedSlotVolatile");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Threading::System__Threading__ThreadLocal_1__FinalizationHelper, "System.Threading", "ThreadLocal`1/FinalizationHelper");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Threading::System__Threading__ThreadLocal_1__IdManager, "System.Threading", "ThreadLocal`1/IdManager");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Threading::System__Threading__ThreadLocal_1__LinkedSlot, "System.Threading", "ThreadLocal`1/LinkedSlot");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Threading::ThreadLocal_1, "System.Threading", "ThreadLocal`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::Threading::System__Threading__ThreadLocal_1__LinkedSlotVolatile, "System.Threading", "ThreadLocal`1/LinkedSlotVolatile");

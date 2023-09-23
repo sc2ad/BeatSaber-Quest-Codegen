@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Asn1 {
 class DerEnumerated;
 }
@@ -18,7 +17,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(213))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(354))
 // CS Name: Org.BouncyCastle.Asn1.X509.CrlReason
-class CORDL_TYPE CrlReason : public ::Org::BouncyCastle::Asn1::DerEnumerated {
+class CORDL_TYPE CrlReason : public Org::BouncyCastle::Asn1::DerEnumerated {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr CrlReason(CrlReason const& ) noexcept = default;
 constexpr CrlReason(CrlReason&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CrlReason(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::DerEnumerated(ptr) {
+constexpr explicit CrlReason(void* ptr) noexcept : Org::BouncyCastle::Asn1::DerEnumerated(ptr) {
 }
 
 
@@ -99,11 +98,11 @@ explicit CrlReason(int32_t reason) ;
 /// @brief Method .ctor addr 0x1100ec0 size 0x68 virtual false final false
  void _ctor(int32_t reason) ;
 
-// Ctor Parameters [CppParam { name: "reason", ty: "::Org::BouncyCastle::Asn1::DerEnumerated", modifiers: "", def_value: None }]
-explicit CrlReason(::Org::BouncyCastle::Asn1::DerEnumerated reason) ;
+// Ctor Parameters [CppParam { name: "reason", ty: "Org::BouncyCastle::Asn1::DerEnumerated", modifiers: "", def_value: None }]
+explicit CrlReason(Org::BouncyCastle::Asn1::DerEnumerated reason) ;
 
 /// @brief Method .ctor addr 0x1100f28 size 0x74 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::DerEnumerated reason) ;
+ void _ctor(Org::BouncyCastle::Asn1::DerEnumerated reason) ;
 
 /// @brief Method ToString addr 0x1100f9c size 0xcc virtual true final false
  ::StringW ToString() ;
@@ -112,6 +111,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::X509
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::CrlReason);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X509::CrlReason, "Org.BouncyCastle.Asn1.X509", "CrlReason");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::CrlReason);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::CrlReason, "Org.BouncyCastle.Asn1.X509", "CrlReason");

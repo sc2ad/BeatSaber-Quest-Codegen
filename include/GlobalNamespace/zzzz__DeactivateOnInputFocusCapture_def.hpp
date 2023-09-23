@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace GlobalNamespace {
-class IVerboseLogger;
-}
 namespace GlobalNamespace {
 class IVRPlatformHelper;
+}
+namespace GlobalNamespace {
+class IVerboseLogger;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -19,11 +18,11 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13735))
 // CS Name: DeactivateOnInputFocusCapture
-class CORDL_TYPE DeactivateOnInputFocusCapture : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE DeactivateOnInputFocusCapture : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IVerboseLogger
-constexpr operator  ::GlobalNamespace::IVerboseLogger() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IVerboseLogger
+constexpr operator  GlobalNamespace::IVerboseLogger() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -37,7 +36,7 @@ constexpr DeactivateOnInputFocusCapture(DeactivateOnInputFocusCapture const& ) n
 constexpr DeactivateOnInputFocusCapture(DeactivateOnInputFocusCapture&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DeactivateOnInputFocusCapture(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit DeactivateOnInputFocusCapture(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -58,11 +57,11 @@ constexpr explicit DeactivateOnInputFocusCapture(void* ptr) noexcept : ::UnityEn
 
 // Fields
 
- ::GlobalNamespace::IVRPlatformHelper __declspec(property(get=__get__vrPlatformHelper, put=__set__vrPlatformHelper))  _vrPlatformHelper;
+ GlobalNamespace::IVRPlatformHelper __declspec(property(get=__get__vrPlatformHelper, put=__set__vrPlatformHelper))  _vrPlatformHelper;
 
-constexpr void __set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper value) ;
+constexpr void __set__vrPlatformHelper(GlobalNamespace::IVRPlatformHelper value) ;
 
-constexpr ::GlobalNamespace::IVRPlatformHelper __get__vrPlatformHelper() const;
+constexpr GlobalNamespace::IVRPlatformHelper __get__vrPlatformHelper() const;
 
 
 // Properties
@@ -76,7 +75,7 @@ constexpr ::GlobalNamespace::IVRPlatformHelper __get__vrPlatformHelper() const;
  ::StringW get_loggerPrefix() ;
 
 /// @brief Method Init addr 0x1f7079c size 0x8 virtual false final false
- void Init(::GlobalNamespace::IVRPlatformHelper vrPlatformHelper) ;
+ void Init(GlobalNamespace::IVRPlatformHelper vrPlatformHelper) ;
 
 /// @brief Method OnEnable addr 0x1f709bc size 0x4 virtual false final false
  void OnEnable() ;
@@ -109,6 +108,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::DeactivateOnInputFocusCapture);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DeactivateOnInputFocusCapture, "", "DeactivateOnInputFocusCapture");
+NEED_NO_BOX(GlobalNamespace::DeactivateOnInputFocusCapture);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DeactivateOnInputFocusCapture, "", "DeactivateOnInputFocusCapture");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 struct UsageHints;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::UIElements::UsageHints const None;
+static UnityEngine::UIElements::UsageHints const None;
 
 /// @brief Field DynamicTransform offset 0
-static ::UnityEngine::UIElements::UsageHints const DynamicTransform;
+static UnityEngine::UIElements::UsageHints const DynamicTransform;
 
 /// @brief Field GroupTransform offset 0
-static ::UnityEngine::UIElements::UsageHints const GroupTransform;
+static UnityEngine::UIElements::UsageHints const GroupTransform;
 
 /// @brief Field MaskContainer offset 0
-static ::UnityEngine::UIElements::UsageHints const MaskContainer;
+static UnityEngine::UIElements::UsageHints const MaskContainer;
 
 /// @brief Field DynamicColor offset 0
-static ::UnityEngine::UIElements::UsageHints const DynamicColor;
+static UnityEngine::UIElements::UsageHints const DynamicColor;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UsageHints, "UnityEngine.UIElements", "UsageHints");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UsageHints, "UnityEngine.UIElements", "UsageHints");

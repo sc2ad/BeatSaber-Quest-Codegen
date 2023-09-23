@@ -1,11 +1,10 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
-namespace System {
-class Type;
-}
 namespace System::Text {
 class StringBuilder;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System {
@@ -30,15 +29,14 @@ constexpr explicit ModifierSpec(void* ptr) noexcept : ::cordl_internals::Interfa
 // Methods
 
 /// @brief Method Resolve addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Type Resolve(::System::Type type) ;
+ System::Type Resolve(System::Type type) ;
 
 /// @brief Method Append addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Text::StringBuilder Append(::System::Text::StringBuilder sb) ;
+ System::Text::StringBuilder Append(System::Text::StringBuilder sb) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::ModifierSpec);
-DEFINE_IL2CPP_ARG_TYPE(::System::ModifierSpec, "System", "ModifierSpec");
+NEED_NO_BOX(System::ModifierSpec);
+DEFINE_IL2CPP_ARG_TYPE(System::ModifierSpec, "System", "ModifierSpec");

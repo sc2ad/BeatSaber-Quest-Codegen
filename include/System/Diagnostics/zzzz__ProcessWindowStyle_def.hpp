@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Diagnostics {
 struct ProcessWindowStyle;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Hidden offset 0
-static ::System::Diagnostics::ProcessWindowStyle const Hidden;
+static System::Diagnostics::ProcessWindowStyle const Hidden;
 
 /// @brief Field Maximized offset 0
-static ::System::Diagnostics::ProcessWindowStyle const Maximized;
+static System::Diagnostics::ProcessWindowStyle const Maximized;
 
 /// @brief Field Minimized offset 0
-static ::System::Diagnostics::ProcessWindowStyle const Minimized;
+static System::Diagnostics::ProcessWindowStyle const Minimized;
 
 /// @brief Field Normal offset 0
-static ::System::Diagnostics::ProcessWindowStyle const Normal;
+static System::Diagnostics::ProcessWindowStyle const Normal;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Diagnostics
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::ProcessWindowStyle, "System.Diagnostics", "ProcessWindowStyle");
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::ProcessWindowStyle, "System.Diagnostics", "ProcessWindowStyle");

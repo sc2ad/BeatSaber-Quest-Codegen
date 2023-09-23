@@ -2,12 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 #include <cstddef>
-namespace {
-namespace UnityEngine {
-struct Color;
-}
 namespace UnityEngine::UIElements::StyleSheets {
 struct StylePropertyId;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine::UIElements {
 class StyleValueCollection;
@@ -25,8 +24,8 @@ namespace UnityEngine::UIElements::Experimental {
 struct CORDL_TYPE StyleValues : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "m_StyleValues", ty: "::UnityEngine::UIElements::StyleValueCollection", modifiers: "", def_value: None }]
-constexpr StyleValues(::UnityEngine::UIElements::StyleValueCollection m_StyleValues) noexcept;
+// Ctor Parameters [CppParam { name: "m_StyleValues", ty: "UnityEngine::UIElements::StyleValueCollection", modifiers: "", def_value: None }]
+constexpr StyleValues(UnityEngine::UIElements::StyleValueCollection m_StyleValues) noexcept;
 
 
                     constexpr StyleValues(StyleValues const&) = default;
@@ -59,11 +58,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::UIElements::StyleValueCollection __declspec(property(get=__get_m_StyleValues, put=__set_m_StyleValues))  m_StyleValues;
+ UnityEngine::UIElements::StyleValueCollection __declspec(property(get=__get_m_StyleValues, put=__set_m_StyleValues))  m_StyleValues;
 
-constexpr void __set_m_StyleValues(::UnityEngine::UIElements::StyleValueCollection value) ;
+constexpr void __set_m_StyleValues(UnityEngine::UIElements::StyleValueCollection value) ;
 
-constexpr ::UnityEngine::UIElements::StyleValueCollection __get_m_StyleValues() const;
+constexpr UnityEngine::UIElements::StyleValueCollection __get_m_StyleValues() const;
 
 
 // Properties
@@ -80,13 +79,13 @@ constexpr ::UnityEngine::UIElements::StyleValueCollection __get_m_StyleValues() 
 
  float_t __declspec(property(put=set_bottom))  bottom;
 
- ::UnityEngine::Color __declspec(property(put=set_color))  color;
+ UnityEngine::Color __declspec(property(put=set_color))  color;
 
- ::UnityEngine::Color __declspec(property(put=set_backgroundColor))  backgroundColor;
+ UnityEngine::Color __declspec(property(put=set_backgroundColor))  backgroundColor;
 
- ::UnityEngine::Color __declspec(property(put=set_unityBackgroundImageTintColor))  unityBackgroundImageTintColor;
+ UnityEngine::Color __declspec(property(put=set_unityBackgroundImageTintColor))  unityBackgroundImageTintColor;
 
- ::UnityEngine::Color __declspec(property(put=set_borderColor))  borderColor;
+ UnityEngine::Color __declspec(property(put=set_borderColor))  borderColor;
 
  float_t __declspec(property(put=set_marginLeft))  marginLeft;
 
@@ -148,16 +147,16 @@ constexpr ::UnityEngine::UIElements::StyleValueCollection __get_m_StyleValues() 
  void set_bottom(float_t value) ;
 
 /// @brief Method set_color addr 0x2c6aba0 size 0x8 virtual false final false
- void set_color(::UnityEngine::Color value) ;
+ void set_color(UnityEngine::Color value) ;
 
 /// @brief Method set_backgroundColor addr 0x2c6ac2c size 0x8 virtual false final false
- void set_backgroundColor(::UnityEngine::Color value) ;
+ void set_backgroundColor(UnityEngine::Color value) ;
 
 /// @brief Method set_unityBackgroundImageTintColor addr 0x2c6ac34 size 0xc virtual false final false
- void set_unityBackgroundImageTintColor(::UnityEngine::Color value) ;
+ void set_unityBackgroundImageTintColor(UnityEngine::Color value) ;
 
 /// @brief Method set_borderColor addr 0x2c6ac40 size 0xc virtual false final false
- void set_borderColor(::UnityEngine::Color value) ;
+ void set_borderColor(UnityEngine::Color value) ;
 
 /// @brief Method set_marginLeft addr 0x2c6ac4c size 0xc virtual false final false
  void set_marginLeft(float_t value) ;
@@ -220,17 +219,16 @@ constexpr ::UnityEngine::UIElements::StyleValueCollection __get_m_StyleValues() 
  void set_flexShrink(float_t value) ;
 
 /// @brief Method SetValue addr 0x2c6aae0 size 0x84 virtual false final false
- void SetValue(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, float_t value) ;
+ void SetValue(UnityEngine::UIElements::StyleSheets::StylePropertyId id, float_t value) ;
 
 /// @brief Method SetValue addr 0x2c6aba8 size 0x84 virtual false final false
- void SetValue(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::Color value) ;
+ void SetValue(UnityEngine::UIElements::StyleSheets::StylePropertyId id, UnityEngine::Color value) ;
 
 /// @brief Method Values addr 0x2c6acc4 size 0x6c virtual false final false
- ::UnityEngine::UIElements::StyleValueCollection Values() ;
+ UnityEngine::UIElements::StyleValueCollection Values() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::Experimental
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Experimental::StyleValues, "UnityEngine.UIElements.Experimental", "StyleValues");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::Experimental::StyleValues, "UnityEngine.UIElements.Experimental", "StyleValues");

@@ -2,15 +2,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
+namespace System::Collections {
+class ArrayList;
+}
 namespace System::Xml::Schema {
 class XmlSchemaDatatype;
 }
 namespace System {
 class Exception;
-}
-namespace System::Collections {
-class ArrayList;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -22,7 +21,7 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11628))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11637))
 // CS Name: System.Xml.Schema.ListFacetsChecker
-class CORDL_TYPE ListFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
+class CORDL_TYPE ListFacetsChecker : public System::Xml::Schema::FacetsChecker {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr ListFacetsChecker(ListFacetsChecker const& ) noexcept = default;
 constexpr ListFacetsChecker(ListFacetsChecker&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ListFacetsChecker(void* ptr) noexcept : ::System::Xml::Schema::FacetsChecker(ptr) {
+constexpr explicit ListFacetsChecker(void* ptr) noexcept : System::Xml::Schema::FacetsChecker(ptr) {
 }
 
 
@@ -59,10 +58,10 @@ constexpr explicit ListFacetsChecker(void* ptr) noexcept : ::System::Xml::Schema
 // Methods
 
 /// @brief Method CheckValueFacets addr 0x272fcbc size 0x234 virtual true final false
- ::System::Exception CheckValueFacets(::bs_hook::Il2CppWrapperType value, ::System::Xml::Schema::XmlSchemaDatatype datatype) ;
+ System::Exception CheckValueFacets(::bs_hook::Il2CppWrapperType value, System::Xml::Schema::XmlSchemaDatatype datatype) ;
 
 /// @brief Method MatchEnumeration addr 0x272fef0 size 0xb4 virtual true final false
- bool MatchEnumeration(::bs_hook::Il2CppWrapperType value, ::System::Collections::ArrayList enumeration, ::System::Xml::Schema::XmlSchemaDatatype datatype) ;
+ bool MatchEnumeration(::bs_hook::Il2CppWrapperType value, System::Collections::ArrayList enumeration, System::Xml::Schema::XmlSchemaDatatype datatype) ;
 
 // Ctor Parameters []
 explicit ListFacetsChecker() ;
@@ -74,6 +73,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::ListFacetsChecker);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::ListFacetsChecker, "System.Xml.Schema", "ListFacetsChecker");
+NEED_NO_BOX(System::Xml::Schema::ListFacetsChecker);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::ListFacetsChecker, "System.Xml.Schema", "ListFacetsChecker");

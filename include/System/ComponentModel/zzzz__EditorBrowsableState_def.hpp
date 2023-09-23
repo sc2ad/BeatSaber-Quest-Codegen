@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::ComponentModel {
 struct EditorBrowsableState;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Always offset 0
-static ::System::ComponentModel::EditorBrowsableState const Always;
+static System::ComponentModel::EditorBrowsableState const Always;
 
 /// @brief Field Never offset 0
-static ::System::ComponentModel::EditorBrowsableState const Never;
+static System::ComponentModel::EditorBrowsableState const Never;
 
 /// @brief Field Advanced offset 0
-static ::System::ComponentModel::EditorBrowsableState const Advanced;
+static System::ComponentModel::EditorBrowsableState const Advanced;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::EditorBrowsableState, "System.ComponentModel", "EditorBrowsableState");
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::EditorBrowsableState, "System.ComponentModel", "EditorBrowsableState");

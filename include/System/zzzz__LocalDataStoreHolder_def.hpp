@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System {
 class LocalDataStore;
 }
@@ -51,36 +50,35 @@ constexpr explicit LocalDataStoreHolder(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 // Fields
 
- ::System::LocalDataStore __declspec(property(get=__get_m_Store, put=__set_m_Store))  m_Store;
+ System::LocalDataStore __declspec(property(get=__get_m_Store, put=__set_m_Store))  m_Store;
 
-constexpr void __set_m_Store(::System::LocalDataStore value) ;
+constexpr void __set_m_Store(System::LocalDataStore value) ;
 
-constexpr ::System::LocalDataStore __get_m_Store() const;
+constexpr System::LocalDataStore __get_m_Store() const;
 
 
 // Properties
 
- ::System::LocalDataStore __declspec(property(get=get_Store))  Store;
+ System::LocalDataStore __declspec(property(get=get_Store))  Store;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "store", ty: "::System::LocalDataStore", modifiers: "", def_value: None }]
-explicit LocalDataStoreHolder(::System::LocalDataStore store) ;
+// Ctor Parameters [CppParam { name: "store", ty: "System::LocalDataStore", modifiers: "", def_value: None }]
+explicit LocalDataStoreHolder(System::LocalDataStore store) ;
 
 /// @brief Method .ctor addr 0x246971c size 0x28 virtual false final false
- void _ctor(::System::LocalDataStore store) ;
+ void _ctor(System::LocalDataStore store) ;
 
 /// @brief Method Finalize addr 0x2469744 size 0x9c virtual true final false
  void Finalize() ;
 
 /// @brief Method get_Store addr 0x24697fc size 0x8 virtual false final false
- ::System::LocalDataStore get_Store() ;
+ System::LocalDataStore get_Store() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::LocalDataStoreHolder);
-DEFINE_IL2CPP_ARG_TYPE(::System::LocalDataStoreHolder, "System", "LocalDataStoreHolder");
+NEED_NO_BOX(System::LocalDataStoreHolder);
+DEFINE_IL2CPP_ARG_TYPE(System::LocalDataStoreHolder, "System", "LocalDataStoreHolder");

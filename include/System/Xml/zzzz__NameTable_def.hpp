@@ -5,13 +5,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Xml {
 class NameTable;
 }
 namespace System::Xml {
-class ____System__Xml__NameTable__Entry;
+class System__Xml__NameTable__Entry;
 }
 // Type: ::Entry
 namespace System::Xml {
@@ -19,37 +18,37 @@ namespace System::Xml {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11475))
 // CS Name: System.Xml.NameTable::Entry
-class CORDL_TYPE ____System__Xml__NameTable__Entry : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Xml__NameTable__Entry : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____System__Xml__NameTable__Entry() = default;
+virtual ~System__Xml__NameTable__Entry() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Xml__NameTable__Entry", modifiers: " const&", def_value: None }]
-constexpr ____System__Xml__NameTable__Entry(____System__Xml__NameTable__Entry const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Xml__NameTable__Entry", modifiers: " const&", def_value: None }]
+constexpr System__Xml__NameTable__Entry(System__Xml__NameTable__Entry const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Xml__NameTable__Entry", modifiers: "&&", def_value: None }]
-constexpr ____System__Xml__NameTable__Entry(____System__Xml__NameTable__Entry&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Xml__NameTable__Entry", modifiers: "&&", def_value: None }]
+constexpr System__Xml__NameTable__Entry(System__Xml__NameTable__Entry&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Xml__NameTable__Entry(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Xml__NameTable__Entry(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Xml__NameTable__Entry& operator=(std::nullptr_t) noexcept {
+  constexpr System__Xml__NameTable__Entry& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Xml__NameTable__Entry& operator=(void* o) noexcept {
+  constexpr System__Xml__NameTable__Entry& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Xml__NameTable__Entry& operator=(____System__Xml__NameTable__Entry&& o) noexcept = default;
-  constexpr ____System__Xml__NameTable__Entry& operator=(____System__Xml__NameTable__Entry const& o) noexcept = default;
+  constexpr System__Xml__NameTable__Entry& operator=(System__Xml__NameTable__Entry&& o) noexcept = default;
+  constexpr System__Xml__NameTable__Entry& operator=(System__Xml__NameTable__Entry const& o) noexcept = default;
                 
 
 
@@ -67,20 +66,20 @@ constexpr void __set_hashCode(int32_t value) ;
 
 constexpr int32_t __get_hashCode() const;
 
- ::System::Xml::____System__Xml__NameTable__Entry __declspec(property(get=__get_next, put=__set_next))  next;
+ System::Xml::System__Xml__NameTable__Entry __declspec(property(get=__get_next, put=__set_next))  next;
 
-constexpr void __set_next(::System::Xml::____System__Xml__NameTable__Entry value) ;
+constexpr void __set_next(System::Xml::System__Xml__NameTable__Entry value) ;
 
-constexpr ::System::Xml::____System__Xml__NameTable__Entry __get_next() const;
+constexpr System::Xml::System__Xml__NameTable__Entry __get_next() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "next", ty: "::System::Xml::____System__Xml__NameTable__Entry", modifiers: "", def_value: None }]
-explicit ____System__Xml__NameTable__Entry(::StringW str, int32_t hashCode, ::System::Xml::____System__Xml__NameTable__Entry next) ;
+// Ctor Parameters [CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "next", ty: "System::Xml::System__Xml__NameTable__Entry", modifiers: "", def_value: None }]
+explicit System__Xml__NameTable__Entry(::StringW str, int32_t hashCode, System::Xml::System__Xml__NameTable__Entry next) ;
 
 /// @brief Method .ctor addr 0x26ff080 size 0x40 virtual false final false
- void _ctor(::StringW str, int32_t hashCode, ::System::Xml::____System__Xml__NameTable__Entry next) ;
+ void _ctor(::StringW str, int32_t hashCode, System::Xml::System__Xml__NameTable__Entry next) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -92,10 +91,10 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11510))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11476))
 // CS Name: System.Xml.NameTable
-class CORDL_TYPE NameTable : public ::System::Xml::XmlNameTable {
+class CORDL_TYPE NameTable : public System::Xml::XmlNameTable {
 public:
 // Declarations
-using Entry = ::System::Xml::____System__Xml__NameTable__Entry;
+using Entry = System::Xml::System__Xml__NameTable__Entry;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -109,7 +108,7 @@ constexpr NameTable(NameTable const& ) noexcept = default;
 constexpr NameTable(NameTable&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NameTable(void* ptr) noexcept : ::System::Xml::XmlNameTable(ptr) {
+constexpr explicit NameTable(void* ptr) noexcept : System::Xml::XmlNameTable(ptr) {
 }
 
 
@@ -130,11 +129,11 @@ constexpr explicit NameTable(void* ptr) noexcept : ::System::Xml::XmlNameTable(p
 
 // Fields
 
- ::ArrayW<::System::Xml::____System__Xml__NameTable__Entry> __declspec(property(get=__get_entries, put=__set_entries))  entries;
+ ::ArrayW<System::Xml::System__Xml__NameTable__Entry> __declspec(property(get=__get_entries, put=__set_entries))  entries;
 
-constexpr void __set_entries(::ArrayW<::System::Xml::____System__Xml__NameTable__Entry> value) ;
+constexpr void __set_entries(::ArrayW<System::Xml::System__Xml__NameTable__Entry> value) ;
 
-constexpr ::ArrayW<::System::Xml::____System__Xml__NameTable__Entry> __get_entries() const;
+constexpr ::ArrayW<System::Xml::System__Xml__NameTable__Entry> __get_entries() const;
 
  int32_t __declspec(property(get=__get_count, put=__set_count))  count;
 
@@ -185,8 +184,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::NameTable);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::NameTable, "System.Xml", "NameTable");
-NEED_NO_BOX(::System::Xml::____System__Xml__NameTable__Entry);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::____System__Xml__NameTable__Entry, "System.Xml", "NameTable/Entry");
+NEED_NO_BOX(System::Xml::NameTable);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::NameTable, "System.Xml", "NameTable");
+NEED_NO_BOX(System::Xml::System__Xml__NameTable__Entry);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::System__Xml__NameTable__Entry, "System.Xml", "NameTable/Entry");

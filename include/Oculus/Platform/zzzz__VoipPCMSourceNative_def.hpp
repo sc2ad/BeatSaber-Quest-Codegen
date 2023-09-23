@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace Oculus::Platform {
 class IVoipPCMSource;
 }
@@ -21,8 +20,8 @@ namespace Oculus::Platform {
 class CORDL_TYPE VoipPCMSourceNative : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Oculus::Platform::IVoipPCMSource
-constexpr operator  ::Oculus::Platform::IVoipPCMSource() const noexcept;
+/// @brief Convert operator to Oculus::Platform::IVoipPCMSource
+constexpr operator  Oculus::Platform::IVoipPCMSource() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -88,6 +87,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::VoipPCMSourceNative);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::VoipPCMSourceNative, "Oculus.Platform", "VoipPCMSourceNative");
+NEED_NO_BOX(Oculus::Platform::VoipPCMSourceNative);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipPCMSourceNative, "Oculus.Platform", "VoipPCMSourceNative");

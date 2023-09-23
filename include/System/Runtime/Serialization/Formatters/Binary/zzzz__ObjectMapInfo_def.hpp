@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class Type;
 }
@@ -72,28 +71,27 @@ constexpr void __set_memberNames(::ArrayW<::StringW> value) ;
 
 constexpr ::ArrayW<::StringW> __get_memberNames() const;
 
- ::ArrayW<::System::Type> __declspec(property(get=__get_memberTypes, put=__set_memberTypes))  memberTypes;
+ ::ArrayW<System::Type> __declspec(property(get=__get_memberTypes, put=__set_memberTypes))  memberTypes;
 
-constexpr void __set_memberTypes(::ArrayW<::System::Type> value) ;
+constexpr void __set_memberTypes(::ArrayW<System::Type> value) ;
 
-constexpr ::ArrayW<::System::Type> __get_memberTypes() const;
+constexpr ::ArrayW<System::Type> __get_memberTypes() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "objectId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "numMembers", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "memberNames", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "memberTypes", ty: "::ArrayW<::System::Type>", modifiers: "", def_value: None }]
-explicit ObjectMapInfo(int32_t objectId, int32_t numMembers, ::ArrayW<::StringW> memberNames, ::ArrayW<::System::Type> memberTypes) ;
+// Ctor Parameters [CppParam { name: "objectId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "numMembers", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "memberNames", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "memberTypes", ty: "::ArrayW<System::Type>", modifiers: "", def_value: None }]
+explicit ObjectMapInfo(int32_t objectId, int32_t numMembers, ::ArrayW<::StringW> memberNames, ::ArrayW<System::Type> memberTypes) ;
 
 /// @brief Method .ctor addr 0x235af98 size 0x40 virtual false final false
- void _ctor(int32_t objectId, int32_t numMembers, ::ArrayW<::StringW> memberNames, ::ArrayW<::System::Type> memberTypes) ;
+ void _ctor(int32_t objectId, int32_t numMembers, ::ArrayW<::StringW> memberNames, ::ArrayW<System::Type> memberTypes) ;
 
 /// @brief Method isCompatible addr 0x235ae5c size 0x13c virtual false final false
- bool isCompatible(int32_t numMembers, ::ArrayW<::StringW> memberNames, ::ArrayW<::System::Type> memberTypes) ;
+ bool isCompatible(int32_t numMembers, ::ArrayW<::StringW> memberNames, ::ArrayW<System::Type> memberTypes) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization::Formatters::Binary
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo, "System.Runtime.Serialization.Formatters.Binary", "ObjectMapInfo");
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo, "System.Runtime.Serialization.Formatters.Binary", "ObjectMapInfo");

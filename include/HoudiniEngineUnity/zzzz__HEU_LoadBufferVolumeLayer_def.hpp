@@ -5,15 +5,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace HoudiniEngineUnity {
 struct HFLayerType;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Color;
 }
 namespace UnityEngine {
-struct Color;
+struct Vector3;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -130,23 +129,23 @@ constexpr void __set__smoothness(float_t value) ;
 
 constexpr float_t __get__smoothness() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__specularColor, put=__set__specularColor))  _specularColor;
+ UnityEngine::Color __declspec(property(get=__get__specularColor, put=__set__specularColor))  _specularColor;
 
-constexpr void __set__specularColor(::UnityEngine::Color value) ;
+constexpr void __set__specularColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__specularColor() const;
+constexpr UnityEngine::Color __get__specularColor() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get__tileSize, put=__set__tileSize))  _tileSize;
+ UnityEngine::Vector2 __declspec(property(get=__get__tileSize, put=__set__tileSize))  _tileSize;
 
-constexpr void __set__tileSize(::UnityEngine::Vector2 value) ;
+constexpr void __set__tileSize(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get__tileSize() const;
+constexpr UnityEngine::Vector2 __get__tileSize() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get__tileOffset, put=__set__tileOffset))  _tileOffset;
+ UnityEngine::Vector2 __declspec(property(get=__get__tileOffset, put=__set__tileOffset))  _tileOffset;
 
-constexpr void __set__tileOffset(::UnityEngine::Vector2 value) ;
+constexpr void __set__tileOffset(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get__tileOffset() const;
+constexpr UnityEngine::Vector2 __get__tileOffset() const;
 
  bool __declspec(property(get=__get__uiExpanded, put=__set__uiExpanded))  _uiExpanded;
 
@@ -196,29 +195,29 @@ constexpr void __set__terrainSizeY(float_t value) ;
 
 constexpr float_t __get__terrainSizeY() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__position, put=__set__position))  _position;
+ UnityEngine::Vector3 __declspec(property(get=__get__position, put=__set__position))  _position;
 
-constexpr void __set__position(::UnityEngine::Vector3 value) ;
+constexpr void __set__position(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__position() const;
+constexpr UnityEngine::Vector3 __get__position() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__minBounds, put=__set__minBounds))  _minBounds;
+ UnityEngine::Vector3 __declspec(property(get=__get__minBounds, put=__set__minBounds))  _minBounds;
 
-constexpr void __set__minBounds(::UnityEngine::Vector3 value) ;
+constexpr void __set__minBounds(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__minBounds() const;
+constexpr UnityEngine::Vector3 __get__minBounds() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__maxBounds, put=__set__maxBounds))  _maxBounds;
+ UnityEngine::Vector3 __declspec(property(get=__get__maxBounds, put=__set__maxBounds))  _maxBounds;
 
-constexpr void __set__maxBounds(::UnityEngine::Vector3 value) ;
+constexpr void __set__maxBounds(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__maxBounds() const;
+constexpr UnityEngine::Vector3 __get__maxBounds() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__center, put=__set__center))  _center;
+ UnityEngine::Vector3 __declspec(property(get=__get__center, put=__set__center))  _center;
 
-constexpr void __set__center(::UnityEngine::Vector3 value) ;
+constexpr void __set__center(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__center() const;
+constexpr UnityEngine::Vector3 __get__center() const;
 
  ::StringW __declspec(property(get=__get__layerPath, put=__set__layerPath))  _layerPath;
 
@@ -232,11 +231,11 @@ constexpr void __set__hasLayerAttributes(bool value) ;
 
 constexpr bool __get__hasLayerAttributes() const;
 
- ::HoudiniEngineUnity::HFLayerType __declspec(property(get=__get__layerType, put=__set__layerType))  _layerType;
+ HoudiniEngineUnity::HFLayerType __declspec(property(get=__get__layerType, put=__set__layerType))  _layerType;
 
-constexpr void __set__layerType(::HoudiniEngineUnity::HFLayerType value) ;
+constexpr void __set__layerType(HoudiniEngineUnity::HFLayerType value) ;
 
-constexpr ::HoudiniEngineUnity::HFLayerType __get__layerType() const;
+constexpr HoudiniEngineUnity::HFLayerType __get__layerType() const;
 
 
 // Methods
@@ -251,6 +250,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, "HoudiniEngineUnity", "HEU_LoadBufferVolumeLayer");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_LoadBufferVolumeLayer);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, "HoudiniEngineUnity", "HEU_LoadBufferVolumeLayer");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::IO {
 struct SeekOrigin;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Begin offset 0
-static ::System::IO::SeekOrigin const Begin;
+static System::IO::SeekOrigin const Begin;
 
 /// @brief Field Current offset 0
-static ::System::IO::SeekOrigin const Current;
+static System::IO::SeekOrigin const Current;
 
 /// @brief Field End offset 0
-static ::System::IO::SeekOrigin const End;
+static System::IO::SeekOrigin const End;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::IO
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::SeekOrigin, "System.IO", "SeekOrigin");
+DEFINE_IL2CPP_ARG_TYPE(System::IO::SeekOrigin, "System.IO", "SeekOrigin");

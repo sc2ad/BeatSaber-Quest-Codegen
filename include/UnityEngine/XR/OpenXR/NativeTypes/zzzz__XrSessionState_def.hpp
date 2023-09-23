@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::XR::OpenXR::NativeTypes {
 struct XrSessionState;
@@ -74,35 +73,34 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrSessionState const Unknown;
+static UnityEngine::XR::OpenXR::NativeTypes::XrSessionState const Unknown;
 
 /// @brief Field Idle offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrSessionState const Idle;
+static UnityEngine::XR::OpenXR::NativeTypes::XrSessionState const Idle;
 
 /// @brief Field Ready offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrSessionState const Ready;
+static UnityEngine::XR::OpenXR::NativeTypes::XrSessionState const Ready;
 
 /// @brief Field Synchronized offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrSessionState const Synchronized;
+static UnityEngine::XR::OpenXR::NativeTypes::XrSessionState const Synchronized;
 
 /// @brief Field Visible offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrSessionState const Visible;
+static UnityEngine::XR::OpenXR::NativeTypes::XrSessionState const Visible;
 
 /// @brief Field Focused offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrSessionState const Focused;
+static UnityEngine::XR::OpenXR::NativeTypes::XrSessionState const Focused;
 
 /// @brief Field Stopping offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrSessionState const Stopping;
+static UnityEngine::XR::OpenXR::NativeTypes::XrSessionState const Stopping;
 
 /// @brief Field LossPending offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrSessionState const LossPending;
+static UnityEngine::XR::OpenXR::NativeTypes::XrSessionState const LossPending;
 
 /// @brief Field Exiting offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrSessionState const Exiting;
+static UnityEngine::XR::OpenXR::NativeTypes::XrSessionState const Exiting;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR::OpenXR::NativeTypes
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::NativeTypes::XrSessionState, "UnityEngine.XR.OpenXR.NativeTypes", "XrSessionState");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::OpenXR::NativeTypes::XrSessionState, "UnityEngine.XR.OpenXR.NativeTypes", "XrSessionState");

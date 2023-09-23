@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 struct DateTimeKind;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unspecified offset 0
-static ::System::DateTimeKind const Unspecified;
+static System::DateTimeKind const Unspecified;
 
 /// @brief Field Utc offset 0
-static ::System::DateTimeKind const Utc;
+static System::DateTimeKind const Utc;
 
 /// @brief Field Local offset 0
-static ::System::DateTimeKind const Local;
+static System::DateTimeKind const Local;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::DateTimeKind, "System", "DateTimeKind");
+DEFINE_IL2CPP_ARG_TYPE(System::DateTimeKind, "System", "DateTimeKind");

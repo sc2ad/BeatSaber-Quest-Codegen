@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform {
 class IVoipPCMSource;
@@ -42,6 +41,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::IVoipPCMSource);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::IVoipPCMSource, "Oculus.Platform", "IVoipPCMSource");
+NEED_NO_BOX(Oculus::Platform::IVoipPCMSource);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::IVoipPCMSource, "Oculus.Platform", "IVoipPCMSource");

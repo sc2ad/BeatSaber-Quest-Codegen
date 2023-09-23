@@ -5,19 +5,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class GUILayoutOption;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine {
-class GUIStyle;
+class GUILayoutEntry;
 }
 namespace UnityEngine {
-class GUILayoutEntry;
+class GUILayoutOption;
+}
+namespace UnityEngine {
+class GUIStyle;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -29,7 +28,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14752))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14782))
 // CS Name: UnityEngine.GUILayoutGroup
-class CORDL_TYPE GUILayoutGroup : public ::UnityEngine::GUILayoutEntry {
+class CORDL_TYPE GUILayoutGroup : public UnityEngine::GUILayoutEntry {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -44,7 +43,7 @@ constexpr GUILayoutGroup(GUILayoutGroup const& ) noexcept = default;
 constexpr GUILayoutGroup(GUILayoutGroup&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GUILayoutGroup(void* ptr) noexcept : ::UnityEngine::GUILayoutEntry(ptr) {
+constexpr explicit GUILayoutGroup(void* ptr) noexcept : UnityEngine::GUILayoutEntry(ptr) {
 }
 
 
@@ -65,11 +64,11 @@ constexpr explicit GUILayoutGroup(void* ptr) noexcept : ::UnityEngine::GUILayout
 
 // Fields
 
- ::System::Collections::Generic::List_1<::UnityEngine::GUILayoutEntry> __declspec(property(get=__get_entries, put=__set_entries))  entries;
+ System::Collections::Generic::List_1<UnityEngine::GUILayoutEntry> __declspec(property(get=__get_entries, put=__set_entries))  entries;
 
-constexpr void __set_entries(::System::Collections::Generic::List_1<::UnityEngine::GUILayoutEntry> value) ;
+constexpr void __set_entries(System::Collections::Generic::List_1<UnityEngine::GUILayoutEntry> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::GUILayoutEntry> __get_entries() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::GUILayoutEntry> __get_entries() const;
 
  bool __declspec(property(get=__get_isVertical, put=__set_isVertical))  isVertical;
 
@@ -185,11 +184,11 @@ constexpr void __set_m_MarginBottom(int32_t value) ;
 
 constexpr int32_t __get_m_MarginBottom() const;
 
-static ::UnityEngine::GUILayoutEntry __declspec(property(get=__get_none, put=__set_none))  none;
+static UnityEngine::GUILayoutEntry __declspec(property(get=__get_none, put=__set_none))  none;
 
-static void __set_none(::UnityEngine::GUILayoutEntry value) ;
+static void __set_none(UnityEngine::GUILayoutEntry value) ;
 
-static ::UnityEngine::GUILayoutEntry __get_none() ;
+static UnityEngine::GUILayoutEntry __get_none() ;
 
 
 // Properties
@@ -224,19 +223,19 @@ explicit GUILayoutGroup() ;
  void _ctor() ;
 
 /// @brief Method ApplyOptions addr 0x2b91bb4 size 0x120 virtual true final false
- void ApplyOptions(::ArrayW<::UnityEngine::GUILayoutOption> options) ;
+ void ApplyOptions(::ArrayW<UnityEngine::GUILayoutOption> options) ;
 
 /// @brief Method ApplyStyleSettings addr 0x2b91cd4 size 0x78 virtual true final false
- void ApplyStyleSettings(::UnityEngine::GUIStyle style) ;
+ void ApplyStyleSettings(UnityEngine::GUIStyle style) ;
 
 /// @brief Method ResetCursor addr 0x2b8a774 size 0x8 virtual false final false
  void ResetCursor() ;
 
 /// @brief Method GetNext addr 0x2b8abc8 size 0x378 virtual false final false
- ::UnityEngine::GUILayoutEntry GetNext() ;
+ UnityEngine::GUILayoutEntry GetNext() ;
 
 /// @brief Method Add addr 0x2b8ab20 size 0xa8 virtual false final false
- void Add(::UnityEngine::GUILayoutEntry e) ;
+ void Add(UnityEngine::GUILayoutEntry e) ;
 
 /// @brief Method CalcWidth addr 0x2b91d4c size 0x630 virtual true final false
  void CalcWidth() ;
@@ -257,6 +256,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::GUILayoutGroup);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::GUILayoutGroup, "UnityEngine", "GUILayoutGroup");
+NEED_NO_BOX(UnityEngine::GUILayoutGroup);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUILayoutGroup, "UnityEngine", "GUILayoutGroup");

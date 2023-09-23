@@ -2,19 +2,18 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System::Xml::Linq {
-class XObject;
-}
-namespace Newtonsoft::Json::Converters {
-class IXmlNode;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace System::Xml {
 struct XmlNodeType;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace Newtonsoft::Json::Converters {
+class IXmlNode;
+}
+namespace System::Xml::Linq {
+class XObject;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -29,8 +28,8 @@ namespace Newtonsoft::Json::Converters {
 class CORDL_TYPE XObjectWrapper : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Newtonsoft::Json::Converters::IXmlNode
-constexpr operator  ::Newtonsoft::Json::Converters::IXmlNode() const noexcept;
+/// @brief Convert operator to Newtonsoft::Json::Converters::IXmlNode
+constexpr operator  Newtonsoft::Json::Converters::IXmlNode() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -65,32 +64,32 @@ constexpr explicit XObjectWrapper(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
-static ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode> __declspec(property(get=__get_EmptyChildNodes, put=__set_EmptyChildNodes))  EmptyChildNodes;
+static System::Collections::Generic::List_1<Newtonsoft::Json::Converters::IXmlNode> __declspec(property(get=__get_EmptyChildNodes, put=__set_EmptyChildNodes))  EmptyChildNodes;
 
-static void __set_EmptyChildNodes(::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode> value) ;
+static void __set_EmptyChildNodes(System::Collections::Generic::List_1<Newtonsoft::Json::Converters::IXmlNode> value) ;
 
-static ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode> __get_EmptyChildNodes() ;
+static System::Collections::Generic::List_1<Newtonsoft::Json::Converters::IXmlNode> __get_EmptyChildNodes() ;
 
- ::System::Xml::Linq::XObject __declspec(property(get=__get__xmlObject, put=__set__xmlObject))  _xmlObject;
+ System::Xml::Linq::XObject __declspec(property(get=__get__xmlObject, put=__set__xmlObject))  _xmlObject;
 
-constexpr void __set__xmlObject(::System::Xml::Linq::XObject value) ;
+constexpr void __set__xmlObject(System::Xml::Linq::XObject value) ;
 
-constexpr ::System::Xml::Linq::XObject __get__xmlObject() const;
+constexpr System::Xml::Linq::XObject __get__xmlObject() const;
 
 
 // Properties
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_WrappedNode))  WrappedNode;
 
- ::System::Xml::XmlNodeType __declspec(property(get=get_NodeType))  NodeType;
+ System::Xml::XmlNodeType __declspec(property(get=get_NodeType))  NodeType;
 
  ::StringW __declspec(property(get=get_LocalName))  LocalName;
 
- ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode> __declspec(property(get=get_ChildNodes))  ChildNodes;
+ System::Collections::Generic::List_1<Newtonsoft::Json::Converters::IXmlNode> __declspec(property(get=get_ChildNodes))  ChildNodes;
 
- ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode> __declspec(property(get=get_Attributes))  Attributes;
+ System::Collections::Generic::List_1<Newtonsoft::Json::Converters::IXmlNode> __declspec(property(get=get_Attributes))  Attributes;
 
- ::Newtonsoft::Json::Converters::IXmlNode __declspec(property(get=get_ParentNode))  ParentNode;
+ Newtonsoft::Json::Converters::IXmlNode __declspec(property(get=get_ParentNode))  ParentNode;
 
  ::StringW __declspec(property(get=get_Value, put=set_Value))  Value;
 
@@ -99,29 +98,29 @@ constexpr ::System::Xml::Linq::XObject __get__xmlObject() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "xmlObject", ty: "::System::Xml::Linq::XObject", modifiers: "", def_value: None }]
-explicit XObjectWrapper(::System::Xml::Linq::XObject xmlObject) ;
+// Ctor Parameters [CppParam { name: "xmlObject", ty: "System::Xml::Linq::XObject", modifiers: "", def_value: None }]
+explicit XObjectWrapper(System::Xml::Linq::XObject xmlObject) ;
 
 /// @brief Method .ctor addr 0x2542e88 size 0x28 virtual false final false
- void _ctor(::System::Xml::Linq::XObject xmlObject) ;
+ void _ctor(System::Xml::Linq::XObject xmlObject) ;
 
 /// @brief Method get_WrappedNode addr 0x25449fc size 0x8 virtual true final true
  ::bs_hook::Il2CppWrapperType get_WrappedNode() ;
 
 /// @brief Method get_NodeType addr 0x2544a04 size 0x20 virtual true final false
- ::System::Xml::XmlNodeType get_NodeType() ;
+ System::Xml::XmlNodeType get_NodeType() ;
 
 /// @brief Method get_LocalName addr 0x2544a24 size 0x8 virtual true final false
  ::StringW get_LocalName() ;
 
 /// @brief Method get_ChildNodes addr 0x2544a2c size 0x58 virtual true final false
- ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode> get_ChildNodes() ;
+ System::Collections::Generic::List_1<Newtonsoft::Json::Converters::IXmlNode> get_ChildNodes() ;
 
 /// @brief Method get_Attributes addr 0x2544a84 size 0x8 virtual true final false
- ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode> get_Attributes() ;
+ System::Collections::Generic::List_1<Newtonsoft::Json::Converters::IXmlNode> get_Attributes() ;
 
 /// @brief Method get_ParentNode addr 0x2544a8c size 0x8 virtual true final false
- ::Newtonsoft::Json::Converters::IXmlNode get_ParentNode() ;
+ Newtonsoft::Json::Converters::IXmlNode get_ParentNode() ;
 
 /// @brief Method get_Value addr 0x2544a94 size 0x8 virtual true final false
  ::StringW get_Value() ;
@@ -130,7 +129,7 @@ explicit XObjectWrapper(::System::Xml::Linq::XObject xmlObject) ;
  void set_Value(::StringW value) ;
 
 /// @brief Method AppendChild addr 0x2544adc size 0x40 virtual true final false
- ::Newtonsoft::Json::Converters::IXmlNode AppendChild(::Newtonsoft::Json::Converters::IXmlNode newChild) ;
+ Newtonsoft::Json::Converters::IXmlNode AppendChild(Newtonsoft::Json::Converters::IXmlNode newChild) ;
 
 /// @brief Method get_NamespaceUri addr 0x2544b1c size 0x8 virtual true final false
  ::StringW get_NamespaceUri() ;
@@ -139,6 +138,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Converters
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Converters::XObjectWrapper);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Converters::XObjectWrapper, "Newtonsoft.Json.Converters", "XObjectWrapper");
+NEED_NO_BOX(Newtonsoft::Json::Converters::XObjectWrapper);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Converters::XObjectWrapper, "Newtonsoft.Json.Converters", "XObjectWrapper");

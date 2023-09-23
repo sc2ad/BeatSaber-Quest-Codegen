@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__LivestreamingStartResult_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
 class LivestreamingStartResult;
 }
@@ -17,7 +16,7 @@ namespace Oculus::Platform {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13434)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4454 }), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13249))
 // CS Name: Oculus.Platform.MessageWithLivestreamingStartResult
-class CORDL_TYPE MessageWithLivestreamingStartResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LivestreamingStartResult> {
+class CORDL_TYPE MessageWithLivestreamingStartResult : public Oculus::Platform::Message_1<Oculus::Platform::Models::LivestreamingStartResult> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr MessageWithLivestreamingStartResult(MessageWithLivestreamingStartResul
 constexpr MessageWithLivestreamingStartResult(MessageWithLivestreamingStartResult&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MessageWithLivestreamingStartResult(void* ptr) noexcept : ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LivestreamingStartResult>(ptr) {
+constexpr explicit MessageWithLivestreamingStartResult(void* ptr) noexcept : Oculus::Platform::Message_1<Oculus::Platform::Models::LivestreamingStartResult>(ptr) {
 }
 
 
@@ -60,15 +59,14 @@ explicit MessageWithLivestreamingStartResult(::cordl_internals::intptr_t c_messa
  void _ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method GetLivestreamingStartResult addr 0x2581f80 size 0x3c virtual true final false
- ::Oculus::Platform::Models::LivestreamingStartResult GetLivestreamingStartResult() ;
+ Oculus::Platform::Models::LivestreamingStartResult GetLivestreamingStartResult() ;
 
 /// @brief Method GetDataFromMessage addr 0x2581fbc size 0x9c virtual true final false
- ::Oculus::Platform::Models::LivestreamingStartResult GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
+ Oculus::Platform::Models::LivestreamingStartResult GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::MessageWithLivestreamingStartResult);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithLivestreamingStartResult, "Oculus.Platform", "MessageWithLivestreamingStartResult");
+NEED_NO_BOX(Oculus::Platform::MessageWithLivestreamingStartResult);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithLivestreamingStartResult, "Oculus.Platform", "MessageWithLivestreamingStartResult");

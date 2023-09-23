@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HAPI_PresetType;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field HAPI_PRESETTYPE_INVALID offset 0
-static ::HoudiniEngineUnity::HAPI_PresetType const HAPI_PRESETTYPE_INVALID;
+static HoudiniEngineUnity::HAPI_PresetType const HAPI_PRESETTYPE_INVALID;
 
 /// @brief Field HAPI_PRESETTYPE_BINARY offset 0
-static ::HoudiniEngineUnity::HAPI_PresetType const HAPI_PRESETTYPE_BINARY;
+static HoudiniEngineUnity::HAPI_PresetType const HAPI_PRESETTYPE_BINARY;
 
 /// @brief Field HAPI_PRESETTYPE_IDX offset 0
-static ::HoudiniEngineUnity::HAPI_PresetType const HAPI_PRESETTYPE_IDX;
+static HoudiniEngineUnity::HAPI_PresetType const HAPI_PRESETTYPE_IDX;
 
 /// @brief Field HAPI_PRESETTYPE_MAX offset 0
-static ::HoudiniEngineUnity::HAPI_PresetType const HAPI_PRESETTYPE_MAX;
+static HoudiniEngineUnity::HAPI_PresetType const HAPI_PRESETTYPE_MAX;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_PresetType, "HoudiniEngineUnity", "HAPI_PresetType");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_PresetType, "HoudiniEngineUnity", "HAPI_PresetType");

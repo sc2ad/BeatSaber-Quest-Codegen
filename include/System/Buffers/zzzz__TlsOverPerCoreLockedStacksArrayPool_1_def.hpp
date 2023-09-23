@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System::Runtime::CompilerServices {
 template<typename TKey,typename TValue>
 class ConditionalWeakTable_2;
@@ -13,19 +12,51 @@ class ConditionalWeakTable_2;
 // Forward declare root types
 namespace System::Buffers {
 template<typename T>
+class System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack;
+}
+namespace System::Buffers {
+template<typename T>
+class System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks;
+}
+namespace System::Buffers {
+template<typename T>
 class TlsOverPerCoreLockedStacksArrayPool_1;
 }
 namespace System::Buffers {
 template<typename T>
-class ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack;
+struct System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure;
 }
 namespace System::Buffers {
-template<typename T>
-class ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks;
+template<::cordl_internals::il2cpp_reference_type T>
+class System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>;
 }
 namespace System::Buffers {
-template<typename T>
-struct ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure;
+template<>
+class System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<char16_t>;
+}
+namespace System::Buffers {
+template<>
+class System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<int32_t>;
+}
+namespace System::Buffers {
+template<>
+class System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<uint8_t>;
+}
+namespace System::Buffers {
+template<::cordl_internals::il2cpp_reference_type T>
+class System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>;
+}
+namespace System::Buffers {
+template<>
+class System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<char16_t>;
+}
+namespace System::Buffers {
+template<>
+class System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<int32_t>;
+}
+namespace System::Buffers {
+template<>
+class System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<uint8_t>;
 }
 namespace System::Buffers {
 template<::cordl_internals::il2cpp_reference_type T>
@@ -43,38 +74,6 @@ namespace System::Buffers {
 template<>
 class TlsOverPerCoreLockedStacksArrayPool_1<uint8_t>;
 }
-namespace System::Buffers {
-template<::cordl_internals::il2cpp_reference_type T>
-class ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>;
-}
-namespace System::Buffers {
-template<>
-class ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<char16_t>;
-}
-namespace System::Buffers {
-template<>
-class ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<int32_t>;
-}
-namespace System::Buffers {
-template<>
-class ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<uint8_t>;
-}
-namespace System::Buffers {
-template<::cordl_internals::il2cpp_reference_type T>
-class ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>;
-}
-namespace System::Buffers {
-template<>
-class ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<char16_t>;
-}
-namespace System::Buffers {
-template<>
-class ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<int32_t>;
-}
-namespace System::Buffers {
-template<>
-class ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<uint8_t>;
-}
 // Type: ::MemoryPressure
 namespace System::Buffers {
 // cpp template
@@ -83,20 +82,20 @@ template<typename T>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3871))
 // CS Name: System.Buffers.TlsOverPerCoreLockedStacksArrayPool`1::MemoryPressure
-struct CORDL_TYPE ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure(int32_t value__) noexcept;
+constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure(int32_t value__) noexcept;
 
 
-                    constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure(____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure const&) = default;
-                    constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure(____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure&&) = default;
-                    constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure& operator=(____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure const& o) {
+                    constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure(System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure const&) = default;
+                    constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure(System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure&&) = default;
+                    constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure& operator=(System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure& operator=(____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure&& o) noexcept {
+                    constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure& operator=(System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -109,7 +108,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x8};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -117,15 +116,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure_Unwrapped : int32_t {
+enum class __System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure_Unwrapped : int32_t {
 __Low = 0,
 __Medium = 1,
 __High = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure_Unwrapped () const noexcept {
-return std::bit_cast<______System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure_Unwrapped>(__instance);
+constexpr operator __System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure_Unwrapped () const noexcept {
+return std::bit_cast<__System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure_Unwrapped>(__instance);
 }
 
 
@@ -138,13 +137,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Low offset 0
-static ::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T> const Low;
+static System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T> const Low;
 
 /// @brief Field Medium offset 0
-static ::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T> const Medium;
+static System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T> const Medium;
 
 /// @brief Field High offset 0
-static ::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T> const High;
+static System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T> const High;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -161,53 +160,53 @@ template<::cordl_internals::il2cpp_reference_type T>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3872))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3872), inst: 2 })
 // CS Name: System.Buffers.TlsOverPerCoreLockedStacksArrayPool`1::PerCoreLockedStacks
-class CORDL_TYPE ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks() = default;
+virtual ~System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks", modifiers: " const&", def_value: None }]
-constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks(____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks", modifiers: " const&", def_value: None }]
+constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks(System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks", modifiers: "&&", def_value: None }]
-constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks(____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks", modifiers: "&&", def_value: None }]
+constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks(System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks& operator=(std::nullptr_t) noexcept {
+  constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks& operator=(void* o) noexcept {
+  constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks& operator=(____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks&& o) noexcept = default;
-  constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks& operator=(____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks const& o) noexcept = default;
+  constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks& operator=(System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks&& o) noexcept = default;
+  constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks& operator=(System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::ArrayW<::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>> __declspec(property(get=__get__perCoreStacks, put=__set__perCoreStacks))  _perCoreStacks;
+ ::ArrayW<System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>> __declspec(property(get=__get__perCoreStacks, put=__set__perCoreStacks))  _perCoreStacks;
 
-constexpr void __set__perCoreStacks(::ArrayW<::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>> value) ;
+constexpr void __set__perCoreStacks(::ArrayW<System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>> value) ;
 
-constexpr ::ArrayW<::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>> __get__perCoreStacks() const;
+constexpr ::ArrayW<System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>> __get__perCoreStacks() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks() ;
+explicit System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -219,7 +218,7 @@ explicit ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLock
  ::ArrayW<T> TryPop() ;
 
 /// @brief Method Trim addr 0x0 size 0xffffffffffffffff virtual false final false
- bool Trim(uint32_t tickCount, int32_t id, ::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T> pressure, ::ArrayW<int32_t> bucketSizes) ;
+ bool Trim(uint32_t tickCount, int32_t id, System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T> pressure, ::ArrayW<int32_t> bucketSizes) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -233,53 +232,53 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3872))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3872), inst: 92 })
 // CS Name: System.Buffers.TlsOverPerCoreLockedStacksArrayPool`1::PerCoreLockedStacks
-class CORDL_TYPE ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<int32_t> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<int32_t> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks() = default;
+virtual ~System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks", modifiers: " const&", def_value: None }]
-constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks(____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks", modifiers: " const&", def_value: None }]
+constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks(System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks", modifiers: "&&", def_value: None }]
-constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks(____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks", modifiers: "&&", def_value: None }]
+constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks(System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks& operator=(std::nullptr_t) noexcept {
+  constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks& operator=(void* o) noexcept {
+  constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks& operator=(____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks&& o) noexcept = default;
-  constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks& operator=(____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks const& o) noexcept = default;
+  constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks& operator=(System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks&& o) noexcept = default;
+  constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks& operator=(System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::ArrayW<::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<int32_t>> __declspec(property(get=__get__perCoreStacks, put=__set__perCoreStacks))  _perCoreStacks;
+ ::ArrayW<System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<int32_t>> __declspec(property(get=__get__perCoreStacks, put=__set__perCoreStacks))  _perCoreStacks;
 
-constexpr void __set__perCoreStacks(::ArrayW<::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<int32_t>> value) ;
+constexpr void __set__perCoreStacks(::ArrayW<System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<int32_t>> value) ;
 
-constexpr ::ArrayW<::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<int32_t>> __get__perCoreStacks() const;
+constexpr ::ArrayW<System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<int32_t>> __get__perCoreStacks() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks() ;
+explicit System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -291,7 +290,7 @@ explicit ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLock
  ::ArrayW<int32_t> TryPop() ;
 
 /// @brief Method Trim addr 0x0 size 0xffffffffffffffff virtual false final false
- bool Trim(uint32_t tickCount, int32_t id, ::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<int32_t> pressure, ::ArrayW<int32_t> bucketSizes) ;
+ bool Trim(uint32_t tickCount, int32_t id, System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<int32_t> pressure, ::ArrayW<int32_t> bucketSizes) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -305,53 +304,53 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3872))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3872), inst: 279 })
 // CS Name: System.Buffers.TlsOverPerCoreLockedStacksArrayPool`1::PerCoreLockedStacks
-class CORDL_TYPE ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<char16_t> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<char16_t> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks() = default;
+virtual ~System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks", modifiers: " const&", def_value: None }]
-constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks(____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks", modifiers: " const&", def_value: None }]
+constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks(System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks", modifiers: "&&", def_value: None }]
-constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks(____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks", modifiers: "&&", def_value: None }]
+constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks(System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks& operator=(std::nullptr_t) noexcept {
+  constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks& operator=(void* o) noexcept {
+  constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks& operator=(____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks&& o) noexcept = default;
-  constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks& operator=(____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks const& o) noexcept = default;
+  constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks& operator=(System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks&& o) noexcept = default;
+  constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks& operator=(System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::ArrayW<::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<char16_t>> __declspec(property(get=__get__perCoreStacks, put=__set__perCoreStacks))  _perCoreStacks;
+ ::ArrayW<System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<char16_t>> __declspec(property(get=__get__perCoreStacks, put=__set__perCoreStacks))  _perCoreStacks;
 
-constexpr void __set__perCoreStacks(::ArrayW<::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<char16_t>> value) ;
+constexpr void __set__perCoreStacks(::ArrayW<System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<char16_t>> value) ;
 
-constexpr ::ArrayW<::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<char16_t>> __get__perCoreStacks() const;
+constexpr ::ArrayW<System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<char16_t>> __get__perCoreStacks() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks() ;
+explicit System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -363,7 +362,7 @@ explicit ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLock
  ::ArrayW<char16_t> TryPop() ;
 
 /// @brief Method Trim addr 0x0 size 0xffffffffffffffff virtual false final false
- bool Trim(uint32_t tickCount, int32_t id, ::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<char16_t> pressure, ::ArrayW<int32_t> bucketSizes) ;
+ bool Trim(uint32_t tickCount, int32_t id, System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<char16_t> pressure, ::ArrayW<int32_t> bucketSizes) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -377,53 +376,53 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3872))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3872), inst: 717 })
 // CS Name: System.Buffers.TlsOverPerCoreLockedStacksArrayPool`1::PerCoreLockedStacks
-class CORDL_TYPE ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<uint8_t> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<uint8_t> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks() = default;
+virtual ~System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks", modifiers: " const&", def_value: None }]
-constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks(____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks", modifiers: " const&", def_value: None }]
+constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks(System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks", modifiers: "&&", def_value: None }]
-constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks(____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks", modifiers: "&&", def_value: None }]
+constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks(System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks& operator=(std::nullptr_t) noexcept {
+  constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks& operator=(void* o) noexcept {
+  constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks& operator=(____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks&& o) noexcept = default;
-  constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks& operator=(____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks const& o) noexcept = default;
+  constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks& operator=(System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks&& o) noexcept = default;
+  constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks& operator=(System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::ArrayW<::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<uint8_t>> __declspec(property(get=__get__perCoreStacks, put=__set__perCoreStacks))  _perCoreStacks;
+ ::ArrayW<System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<uint8_t>> __declspec(property(get=__get__perCoreStacks, put=__set__perCoreStacks))  _perCoreStacks;
 
-constexpr void __set__perCoreStacks(::ArrayW<::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<uint8_t>> value) ;
+constexpr void __set__perCoreStacks(::ArrayW<System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<uint8_t>> value) ;
 
-constexpr ::ArrayW<::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<uint8_t>> __get__perCoreStacks() const;
+constexpr ::ArrayW<System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<uint8_t>> __get__perCoreStacks() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks() ;
+explicit System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -435,7 +434,7 @@ explicit ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLock
  ::ArrayW<uint8_t> TryPop() ;
 
 /// @brief Method Trim addr 0x0 size 0xffffffffffffffff virtual false final false
- bool Trim(uint32_t tickCount, int32_t id, ::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<uint8_t> pressure, ::ArrayW<int32_t> bucketSizes) ;
+ bool Trim(uint32_t tickCount, int32_t id, System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<uint8_t> pressure, ::ArrayW<int32_t> bucketSizes) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -449,37 +448,37 @@ template<::cordl_internals::il2cpp_reference_type T>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3873))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3873), inst: 2 })
 // CS Name: System.Buffers.TlsOverPerCoreLockedStacksArrayPool`1::LockedStack
-class CORDL_TYPE ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack() = default;
+virtual ~System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack", modifiers: " const&", def_value: None }]
-constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack(____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack", modifiers: " const&", def_value: None }]
+constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack(System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack", modifiers: "&&", def_value: None }]
-constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack(____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack", modifiers: "&&", def_value: None }]
+constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack(System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack& operator=(std::nullptr_t) noexcept {
+  constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack& operator=(void* o) noexcept {
+  constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack& operator=(____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack&& o) noexcept = default;
-  constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack& operator=(____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack const& o) noexcept = default;
+  constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack& operator=(System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack&& o) noexcept = default;
+  constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack& operator=(System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack const& o) noexcept = default;
                 
 
 
@@ -513,10 +512,10 @@ constexpr uint32_t __get__firstStackItemMS() const;
  ::ArrayW<T> TryPop() ;
 
 /// @brief Method Trim addr 0x0 size 0xffffffffffffffff virtual false final false
- void Trim(uint32_t tickCount, int32_t id, ::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T> pressure, int32_t bucketSize) ;
+ void Trim(uint32_t tickCount, int32_t id, System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T> pressure, int32_t bucketSize) ;
 
 // Ctor Parameters []
-explicit ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack() ;
+explicit System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -533,37 +532,37 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3873))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3873), inst: 92 })
 // CS Name: System.Buffers.TlsOverPerCoreLockedStacksArrayPool`1::LockedStack
-class CORDL_TYPE ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<int32_t> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<int32_t> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack() = default;
+virtual ~System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack", modifiers: " const&", def_value: None }]
-constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack(____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack", modifiers: " const&", def_value: None }]
+constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack(System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack", modifiers: "&&", def_value: None }]
-constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack(____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack", modifiers: "&&", def_value: None }]
+constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack(System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack& operator=(std::nullptr_t) noexcept {
+  constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack& operator=(void* o) noexcept {
+  constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack& operator=(____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack&& o) noexcept = default;
-  constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack& operator=(____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack const& o) noexcept = default;
+  constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack& operator=(System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack&& o) noexcept = default;
+  constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack& operator=(System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack const& o) noexcept = default;
                 
 
 
@@ -597,10 +596,10 @@ constexpr uint32_t __get__firstStackItemMS() const;
  ::ArrayW<int32_t> TryPop() ;
 
 /// @brief Method Trim addr 0x0 size 0xffffffffffffffff virtual false final false
- void Trim(uint32_t tickCount, int32_t id, ::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<int32_t> pressure, int32_t bucketSize) ;
+ void Trim(uint32_t tickCount, int32_t id, System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<int32_t> pressure, int32_t bucketSize) ;
 
 // Ctor Parameters []
-explicit ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack() ;
+explicit System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -617,37 +616,37 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3873))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3873), inst: 279 })
 // CS Name: System.Buffers.TlsOverPerCoreLockedStacksArrayPool`1::LockedStack
-class CORDL_TYPE ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<char16_t> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<char16_t> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack() = default;
+virtual ~System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack", modifiers: " const&", def_value: None }]
-constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack(____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack", modifiers: " const&", def_value: None }]
+constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack(System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack", modifiers: "&&", def_value: None }]
-constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack(____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack", modifiers: "&&", def_value: None }]
+constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack(System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack& operator=(std::nullptr_t) noexcept {
+  constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack& operator=(void* o) noexcept {
+  constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack& operator=(____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack&& o) noexcept = default;
-  constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack& operator=(____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack const& o) noexcept = default;
+  constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack& operator=(System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack&& o) noexcept = default;
+  constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack& operator=(System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack const& o) noexcept = default;
                 
 
 
@@ -681,10 +680,10 @@ constexpr uint32_t __get__firstStackItemMS() const;
  ::ArrayW<char16_t> TryPop() ;
 
 /// @brief Method Trim addr 0x0 size 0xffffffffffffffff virtual false final false
- void Trim(uint32_t tickCount, int32_t id, ::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<char16_t> pressure, int32_t bucketSize) ;
+ void Trim(uint32_t tickCount, int32_t id, System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<char16_t> pressure, int32_t bucketSize) ;
 
 // Ctor Parameters []
-explicit ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack() ;
+explicit System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -701,37 +700,37 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3873))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3873), inst: 717 })
 // CS Name: System.Buffers.TlsOverPerCoreLockedStacksArrayPool`1::LockedStack
-class CORDL_TYPE ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<uint8_t> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<uint8_t> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack() = default;
+virtual ~System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack", modifiers: " const&", def_value: None }]
-constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack(____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack", modifiers: " const&", def_value: None }]
+constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack(System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack", modifiers: "&&", def_value: None }]
-constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack(____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack", modifiers: "&&", def_value: None }]
+constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack(System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack& operator=(std::nullptr_t) noexcept {
+  constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack& operator=(void* o) noexcept {
+  constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack& operator=(____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack&& o) noexcept = default;
-  constexpr ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack& operator=(____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack const& o) noexcept = default;
+  constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack& operator=(System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack&& o) noexcept = default;
+  constexpr System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack& operator=(System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack const& o) noexcept = default;
                 
 
 
@@ -765,10 +764,10 @@ constexpr uint32_t __get__firstStackItemMS() const;
  ::ArrayW<uint8_t> TryPop() ;
 
 /// @brief Method Trim addr 0x0 size 0xffffffffffffffff virtual false final false
- void Trim(uint32_t tickCount, int32_t id, ::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<uint8_t> pressure, int32_t bucketSize) ;
+ void Trim(uint32_t tickCount, int32_t id, System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<uint8_t> pressure, int32_t bucketSize) ;
 
 // Ctor Parameters []
-explicit ____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack() ;
+explicit System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -782,17 +781,17 @@ namespace System::Buffers {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3865)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3865), inst: 744 }), TypeDefinitionIndex(TypeDefinitionIndex(3874))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3865), inst: 744 }), TypeDefinitionIndex(TypeDefinitionIndex(3865)), TypeDefinitionIndex(TypeDefinitionIndex(3874))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3874), inst: 2 })
 // CS Name: System.Buffers.TlsOverPerCoreLockedStacksArrayPool`1
-class CORDL_TYPE TlsOverPerCoreLockedStacksArrayPool_1<T> : public ::System::Buffers::ArrayPool_1<T> {
+class CORDL_TYPE TlsOverPerCoreLockedStacksArrayPool_1<T> : public System::Buffers::ArrayPool_1<T> {
 public:
 // Declarations
-using LockedStack = ::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>;
+using LockedStack = System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>;
 
-using PerCoreLockedStacks = ::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>;
+using PerCoreLockedStacks = System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>;
 
-using MemoryPressure = ::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T>;
+using MemoryPressure = System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T>;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -806,7 +805,7 @@ constexpr TlsOverPerCoreLockedStacksArrayPool_1(TlsOverPerCoreLockedStacksArrayP
 constexpr TlsOverPerCoreLockedStacksArrayPool_1(TlsOverPerCoreLockedStacksArrayPool_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TlsOverPerCoreLockedStacksArrayPool_1(void* ptr) noexcept : ::System::Buffers::ArrayPool_1<T>(ptr) {
+constexpr explicit TlsOverPerCoreLockedStacksArrayPool_1(void* ptr) noexcept : System::Buffers::ArrayPool_1<T>(ptr) {
 }
 
 
@@ -833,11 +832,11 @@ constexpr void __set__bucketArraySizes(::ArrayW<int32_t> value) ;
 
 constexpr ::ArrayW<int32_t> __get__bucketArraySizes() const;
 
- ::ArrayW<::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>> __declspec(property(get=__get__buckets, put=__set__buckets))  _buckets;
+ ::ArrayW<System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>> __declspec(property(get=__get__buckets, put=__set__buckets))  _buckets;
 
-constexpr void __set__buckets(::ArrayW<::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>> value) ;
+constexpr void __set__buckets(::ArrayW<System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>> value) ;
 
-constexpr ::ArrayW<::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>> __get__buckets() const;
+constexpr ::ArrayW<System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>> __get__buckets() const;
 
 static ::ArrayW<::ArrayW<T>> __declspec(property(get=__get_t_tlsBuckets, put=__set_t_tlsBuckets))  t_tlsBuckets;
 
@@ -857,11 +856,11 @@ static void __set_s_trimBuffers(bool value) ;
 
 static bool __get_s_trimBuffers() ;
 
-static ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::ArrayW<::ArrayW<T>>,::bs_hook::Il2CppWrapperType> __declspec(property(get=__get_s_allTlsBuckets, put=__set_s_allTlsBuckets))  s_allTlsBuckets;
+static System::Runtime::CompilerServices::ConditionalWeakTable_2<::ArrayW<::ArrayW<T>>,::bs_hook::Il2CppWrapperType> __declspec(property(get=__get_s_allTlsBuckets, put=__set_s_allTlsBuckets))  s_allTlsBuckets;
 
-static void __set_s_allTlsBuckets(::System::Runtime::CompilerServices::ConditionalWeakTable_2<::ArrayW<::ArrayW<T>>,::bs_hook::Il2CppWrapperType> value) ;
+static void __set_s_allTlsBuckets(System::Runtime::CompilerServices::ConditionalWeakTable_2<::ArrayW<::ArrayW<T>>,::bs_hook::Il2CppWrapperType> value) ;
 
-static ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::ArrayW<::ArrayW<T>>,::bs_hook::Il2CppWrapperType> __get_s_allTlsBuckets() ;
+static System::Runtime::CompilerServices::ConditionalWeakTable_2<::ArrayW<::ArrayW<T>>,::bs_hook::Il2CppWrapperType> __get_s_allTlsBuckets() ;
 
 
 // Properties
@@ -878,7 +877,7 @@ explicit TlsOverPerCoreLockedStacksArrayPool_1() ;
  void _ctor() ;
 
 /// @brief Method CreatePerCoreLockedStacks addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T> CreatePerCoreLockedStacks(int32_t bucketIndex) ;
+ System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T> CreatePerCoreLockedStacks(int32_t bucketIndex) ;
 
 /// @brief Method get_Id addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t get_Id() ;
@@ -896,7 +895,7 @@ explicit TlsOverPerCoreLockedStacksArrayPool_1() ;
 static bool Gen2GcCallbackFunc(::bs_hook::Il2CppWrapperType target) ;
 
 /// @brief Method GetMemoryPressure addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T> GetMemoryPressure() ;
+static System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T> GetMemoryPressure() ;
 
 /// @brief Method GetTrimBuffers addr 0x0 size 0xffffffffffffffff virtual false final false
 static bool GetTrimBuffers() ;
@@ -910,17 +909,17 @@ namespace System::Buffers {
 // cpp template
 template<>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3865)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3865), inst: 744 }), TypeDefinitionIndex(TypeDefinitionIndex(3874))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3865), inst: 744 }), TypeDefinitionIndex(TypeDefinitionIndex(3874)), TypeDefinitionIndex(TypeDefinitionIndex(3865))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3874), inst: 92 })
 // CS Name: System.Buffers.TlsOverPerCoreLockedStacksArrayPool`1
-class CORDL_TYPE TlsOverPerCoreLockedStacksArrayPool_1<int32_t> : public ::System::Buffers::ArrayPool_1<int32_t> {
+class CORDL_TYPE TlsOverPerCoreLockedStacksArrayPool_1<int32_t> : public System::Buffers::ArrayPool_1<int32_t> {
 public:
 // Declarations
-using LockedStack = ::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<int32_t>;
+using LockedStack = System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<int32_t>;
 
-using PerCoreLockedStacks = ::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<int32_t>;
+using PerCoreLockedStacks = System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<int32_t>;
 
-using MemoryPressure = ::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<int32_t>;
+using MemoryPressure = System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<int32_t>;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -934,7 +933,7 @@ constexpr TlsOverPerCoreLockedStacksArrayPool_1(TlsOverPerCoreLockedStacksArrayP
 constexpr TlsOverPerCoreLockedStacksArrayPool_1(TlsOverPerCoreLockedStacksArrayPool_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TlsOverPerCoreLockedStacksArrayPool_1(void* ptr) noexcept : ::System::Buffers::ArrayPool_1<int32_t>(ptr) {
+constexpr explicit TlsOverPerCoreLockedStacksArrayPool_1(void* ptr) noexcept : System::Buffers::ArrayPool_1<int32_t>(ptr) {
 }
 
 
@@ -961,11 +960,11 @@ constexpr void __set__bucketArraySizes(::ArrayW<int32_t> value) ;
 
 constexpr ::ArrayW<int32_t> __get__bucketArraySizes() const;
 
- ::ArrayW<::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<int32_t>> __declspec(property(get=__get__buckets, put=__set__buckets))  _buckets;
+ ::ArrayW<System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<int32_t>> __declspec(property(get=__get__buckets, put=__set__buckets))  _buckets;
 
-constexpr void __set__buckets(::ArrayW<::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<int32_t>> value) ;
+constexpr void __set__buckets(::ArrayW<System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<int32_t>> value) ;
 
-constexpr ::ArrayW<::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<int32_t>> __get__buckets() const;
+constexpr ::ArrayW<System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<int32_t>> __get__buckets() const;
 
 static ::ArrayW<::ArrayW<int32_t>> __declspec(property(get=__get_t_tlsBuckets, put=__set_t_tlsBuckets))  t_tlsBuckets;
 
@@ -985,11 +984,11 @@ static void __set_s_trimBuffers(bool value) ;
 
 static bool __get_s_trimBuffers() ;
 
-static ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::ArrayW<::ArrayW<int32_t>>,::bs_hook::Il2CppWrapperType> __declspec(property(get=__get_s_allTlsBuckets, put=__set_s_allTlsBuckets))  s_allTlsBuckets;
+static System::Runtime::CompilerServices::ConditionalWeakTable_2<::ArrayW<::ArrayW<int32_t>>,::bs_hook::Il2CppWrapperType> __declspec(property(get=__get_s_allTlsBuckets, put=__set_s_allTlsBuckets))  s_allTlsBuckets;
 
-static void __set_s_allTlsBuckets(::System::Runtime::CompilerServices::ConditionalWeakTable_2<::ArrayW<::ArrayW<int32_t>>,::bs_hook::Il2CppWrapperType> value) ;
+static void __set_s_allTlsBuckets(System::Runtime::CompilerServices::ConditionalWeakTable_2<::ArrayW<::ArrayW<int32_t>>,::bs_hook::Il2CppWrapperType> value) ;
 
-static ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::ArrayW<::ArrayW<int32_t>>,::bs_hook::Il2CppWrapperType> __get_s_allTlsBuckets() ;
+static System::Runtime::CompilerServices::ConditionalWeakTable_2<::ArrayW<::ArrayW<int32_t>>,::bs_hook::Il2CppWrapperType> __get_s_allTlsBuckets() ;
 
 
 // Properties
@@ -1006,7 +1005,7 @@ explicit TlsOverPerCoreLockedStacksArrayPool_1() ;
  void _ctor() ;
 
 /// @brief Method CreatePerCoreLockedStacks addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<int32_t> CreatePerCoreLockedStacks(int32_t bucketIndex) ;
+ System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<int32_t> CreatePerCoreLockedStacks(int32_t bucketIndex) ;
 
 /// @brief Method get_Id addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t get_Id() ;
@@ -1024,7 +1023,7 @@ explicit TlsOverPerCoreLockedStacksArrayPool_1() ;
 static bool Gen2GcCallbackFunc(::bs_hook::Il2CppWrapperType target) ;
 
 /// @brief Method GetMemoryPressure addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<int32_t> GetMemoryPressure() ;
+static System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<int32_t> GetMemoryPressure() ;
 
 /// @brief Method GetTrimBuffers addr 0x0 size 0xffffffffffffffff virtual false final false
 static bool GetTrimBuffers() ;
@@ -1038,17 +1037,17 @@ namespace System::Buffers {
 // cpp template
 template<>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3865)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3865), inst: 744 }), TypeDefinitionIndex(TypeDefinitionIndex(3874))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3865), inst: 744 }), TypeDefinitionIndex(TypeDefinitionIndex(3874)), TypeDefinitionIndex(TypeDefinitionIndex(3865))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3874), inst: 279 })
 // CS Name: System.Buffers.TlsOverPerCoreLockedStacksArrayPool`1
-class CORDL_TYPE TlsOverPerCoreLockedStacksArrayPool_1<char16_t> : public ::System::Buffers::ArrayPool_1<char16_t> {
+class CORDL_TYPE TlsOverPerCoreLockedStacksArrayPool_1<char16_t> : public System::Buffers::ArrayPool_1<char16_t> {
 public:
 // Declarations
-using LockedStack = ::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<char16_t>;
+using LockedStack = System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<char16_t>;
 
-using PerCoreLockedStacks = ::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<char16_t>;
+using PerCoreLockedStacks = System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<char16_t>;
 
-using MemoryPressure = ::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<char16_t>;
+using MemoryPressure = System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<char16_t>;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -1062,7 +1061,7 @@ constexpr TlsOverPerCoreLockedStacksArrayPool_1(TlsOverPerCoreLockedStacksArrayP
 constexpr TlsOverPerCoreLockedStacksArrayPool_1(TlsOverPerCoreLockedStacksArrayPool_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TlsOverPerCoreLockedStacksArrayPool_1(void* ptr) noexcept : ::System::Buffers::ArrayPool_1<char16_t>(ptr) {
+constexpr explicit TlsOverPerCoreLockedStacksArrayPool_1(void* ptr) noexcept : System::Buffers::ArrayPool_1<char16_t>(ptr) {
 }
 
 
@@ -1089,11 +1088,11 @@ constexpr void __set__bucketArraySizes(::ArrayW<int32_t> value) ;
 
 constexpr ::ArrayW<int32_t> __get__bucketArraySizes() const;
 
- ::ArrayW<::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<char16_t>> __declspec(property(get=__get__buckets, put=__set__buckets))  _buckets;
+ ::ArrayW<System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<char16_t>> __declspec(property(get=__get__buckets, put=__set__buckets))  _buckets;
 
-constexpr void __set__buckets(::ArrayW<::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<char16_t>> value) ;
+constexpr void __set__buckets(::ArrayW<System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<char16_t>> value) ;
 
-constexpr ::ArrayW<::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<char16_t>> __get__buckets() const;
+constexpr ::ArrayW<System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<char16_t>> __get__buckets() const;
 
 static ::ArrayW<::ArrayW<char16_t>> __declspec(property(get=__get_t_tlsBuckets, put=__set_t_tlsBuckets))  t_tlsBuckets;
 
@@ -1113,11 +1112,11 @@ static void __set_s_trimBuffers(bool value) ;
 
 static bool __get_s_trimBuffers() ;
 
-static ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::ArrayW<::ArrayW<char16_t>>,::bs_hook::Il2CppWrapperType> __declspec(property(get=__get_s_allTlsBuckets, put=__set_s_allTlsBuckets))  s_allTlsBuckets;
+static System::Runtime::CompilerServices::ConditionalWeakTable_2<::ArrayW<::ArrayW<char16_t>>,::bs_hook::Il2CppWrapperType> __declspec(property(get=__get_s_allTlsBuckets, put=__set_s_allTlsBuckets))  s_allTlsBuckets;
 
-static void __set_s_allTlsBuckets(::System::Runtime::CompilerServices::ConditionalWeakTable_2<::ArrayW<::ArrayW<char16_t>>,::bs_hook::Il2CppWrapperType> value) ;
+static void __set_s_allTlsBuckets(System::Runtime::CompilerServices::ConditionalWeakTable_2<::ArrayW<::ArrayW<char16_t>>,::bs_hook::Il2CppWrapperType> value) ;
 
-static ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::ArrayW<::ArrayW<char16_t>>,::bs_hook::Il2CppWrapperType> __get_s_allTlsBuckets() ;
+static System::Runtime::CompilerServices::ConditionalWeakTable_2<::ArrayW<::ArrayW<char16_t>>,::bs_hook::Il2CppWrapperType> __get_s_allTlsBuckets() ;
 
 
 // Properties
@@ -1134,7 +1133,7 @@ explicit TlsOverPerCoreLockedStacksArrayPool_1() ;
  void _ctor() ;
 
 /// @brief Method CreatePerCoreLockedStacks addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<char16_t> CreatePerCoreLockedStacks(int32_t bucketIndex) ;
+ System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<char16_t> CreatePerCoreLockedStacks(int32_t bucketIndex) ;
 
 /// @brief Method get_Id addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t get_Id() ;
@@ -1152,7 +1151,7 @@ explicit TlsOverPerCoreLockedStacksArrayPool_1() ;
 static bool Gen2GcCallbackFunc(::bs_hook::Il2CppWrapperType target) ;
 
 /// @brief Method GetMemoryPressure addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<char16_t> GetMemoryPressure() ;
+static System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<char16_t> GetMemoryPressure() ;
 
 /// @brief Method GetTrimBuffers addr 0x0 size 0xffffffffffffffff virtual false final false
 static bool GetTrimBuffers() ;
@@ -1169,14 +1168,14 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3865)), TypeDefinitionIndex(TypeDefinitionIndex(3874)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3865), inst: 744 })}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3874), inst: 717 })
 // CS Name: System.Buffers.TlsOverPerCoreLockedStacksArrayPool`1
-class CORDL_TYPE TlsOverPerCoreLockedStacksArrayPool_1<uint8_t> : public ::System::Buffers::ArrayPool_1<uint8_t> {
+class CORDL_TYPE TlsOverPerCoreLockedStacksArrayPool_1<uint8_t> : public System::Buffers::ArrayPool_1<uint8_t> {
 public:
 // Declarations
-using LockedStack = ::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<uint8_t>;
+using LockedStack = System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<uint8_t>;
 
-using PerCoreLockedStacks = ::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<uint8_t>;
+using PerCoreLockedStacks = System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<uint8_t>;
 
-using MemoryPressure = ::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<uint8_t>;
+using MemoryPressure = System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<uint8_t>;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -1190,7 +1189,7 @@ constexpr TlsOverPerCoreLockedStacksArrayPool_1(TlsOverPerCoreLockedStacksArrayP
 constexpr TlsOverPerCoreLockedStacksArrayPool_1(TlsOverPerCoreLockedStacksArrayPool_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TlsOverPerCoreLockedStacksArrayPool_1(void* ptr) noexcept : ::System::Buffers::ArrayPool_1<uint8_t>(ptr) {
+constexpr explicit TlsOverPerCoreLockedStacksArrayPool_1(void* ptr) noexcept : System::Buffers::ArrayPool_1<uint8_t>(ptr) {
 }
 
 
@@ -1217,11 +1216,11 @@ constexpr void __set__bucketArraySizes(::ArrayW<int32_t> value) ;
 
 constexpr ::ArrayW<int32_t> __get__bucketArraySizes() const;
 
- ::ArrayW<::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<uint8_t>> __declspec(property(get=__get__buckets, put=__set__buckets))  _buckets;
+ ::ArrayW<System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<uint8_t>> __declspec(property(get=__get__buckets, put=__set__buckets))  _buckets;
 
-constexpr void __set__buckets(::ArrayW<::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<uint8_t>> value) ;
+constexpr void __set__buckets(::ArrayW<System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<uint8_t>> value) ;
 
-constexpr ::ArrayW<::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<uint8_t>> __get__buckets() const;
+constexpr ::ArrayW<System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<uint8_t>> __get__buckets() const;
 
 static ::ArrayW<::ArrayW<uint8_t>> __declspec(property(get=__get_t_tlsBuckets, put=__set_t_tlsBuckets))  t_tlsBuckets;
 
@@ -1241,11 +1240,11 @@ static void __set_s_trimBuffers(bool value) ;
 
 static bool __get_s_trimBuffers() ;
 
-static ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::ArrayW<::ArrayW<uint8_t>>,::bs_hook::Il2CppWrapperType> __declspec(property(get=__get_s_allTlsBuckets, put=__set_s_allTlsBuckets))  s_allTlsBuckets;
+static System::Runtime::CompilerServices::ConditionalWeakTable_2<::ArrayW<::ArrayW<uint8_t>>,::bs_hook::Il2CppWrapperType> __declspec(property(get=__get_s_allTlsBuckets, put=__set_s_allTlsBuckets))  s_allTlsBuckets;
 
-static void __set_s_allTlsBuckets(::System::Runtime::CompilerServices::ConditionalWeakTable_2<::ArrayW<::ArrayW<uint8_t>>,::bs_hook::Il2CppWrapperType> value) ;
+static void __set_s_allTlsBuckets(System::Runtime::CompilerServices::ConditionalWeakTable_2<::ArrayW<::ArrayW<uint8_t>>,::bs_hook::Il2CppWrapperType> value) ;
 
-static ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::ArrayW<::ArrayW<uint8_t>>,::bs_hook::Il2CppWrapperType> __get_s_allTlsBuckets() ;
+static System::Runtime::CompilerServices::ConditionalWeakTable_2<::ArrayW<::ArrayW<uint8_t>>,::bs_hook::Il2CppWrapperType> __get_s_allTlsBuckets() ;
 
 
 // Properties
@@ -1262,7 +1261,7 @@ explicit TlsOverPerCoreLockedStacksArrayPool_1() ;
  void _ctor() ;
 
 /// @brief Method CreatePerCoreLockedStacks addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<uint8_t> CreatePerCoreLockedStacks(int32_t bucketIndex) ;
+ System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<uint8_t> CreatePerCoreLockedStacks(int32_t bucketIndex) ;
 
 /// @brief Method get_Id addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t get_Id() ;
@@ -1280,7 +1279,7 @@ explicit TlsOverPerCoreLockedStacksArrayPool_1() ;
 static bool Gen2GcCallbackFunc(::bs_hook::Il2CppWrapperType target) ;
 
 /// @brief Method GetMemoryPressure addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<uint8_t> GetMemoryPressure() ;
+static System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<uint8_t> GetMemoryPressure() ;
 
 /// @brief Method GetTrimBuffers addr 0x0 size 0xffffffffffffffff virtual false final false
 static bool GetTrimBuffers() ;
@@ -1289,8 +1288,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Buffers
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1, "System.Buffers", "TlsOverPerCoreLockedStacksArrayPool`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack, "System.Buffers", "TlsOverPerCoreLockedStacksArrayPool`1/LockedStack");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks, "System.Buffers", "TlsOverPerCoreLockedStacksArrayPool`1/PerCoreLockedStacks");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Buffers::____System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure, "System.Buffers", "TlsOverPerCoreLockedStacksArrayPool`1/MemoryPressure");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack, "System.Buffers", "TlsOverPerCoreLockedStacksArrayPool`1/LockedStack");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks, "System.Buffers", "TlsOverPerCoreLockedStacksArrayPool`1/PerCoreLockedStacks");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1, "System.Buffers", "TlsOverPerCoreLockedStacksArrayPool`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::Buffers::System__Buffers__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure, "System.Buffers", "TlsOverPerCoreLockedStacksArrayPool`1/MemoryPressure");

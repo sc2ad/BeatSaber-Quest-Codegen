@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 struct EnvironmentColorType;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::GlobalNamespace::EnvironmentColorType const None;
+static GlobalNamespace::EnvironmentColorType const None;
 
 /// @brief Field Color0 offset 0
-static ::GlobalNamespace::EnvironmentColorType const Color0;
+static GlobalNamespace::EnvironmentColorType const Color0;
 
 /// @brief Field Color1 offset 0
-static ::GlobalNamespace::EnvironmentColorType const Color1;
+static GlobalNamespace::EnvironmentColorType const Color1;
 
 /// @brief Field ColorW offset 0
-static ::GlobalNamespace::EnvironmentColorType const ColorW;
+static GlobalNamespace::EnvironmentColorType const ColorW;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EnvironmentColorType, "", "EnvironmentColorType");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentColorType, "", "EnvironmentColorType");

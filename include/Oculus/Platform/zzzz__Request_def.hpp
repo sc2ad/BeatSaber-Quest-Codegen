@@ -2,12 +2,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace Oculus::Platform {
-class ____Oculus__Platform__Message__Callback;
-}
 namespace Oculus::Platform {
 class Message;
+}
+namespace Oculus::Platform {
+class Oculus__Platform__Message__Callback;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -55,11 +54,11 @@ constexpr explicit Request(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(pt
 
 // Fields
 
- ::Oculus::Platform::____Oculus__Platform__Message__Callback __declspec(property(get=__get_callback_, put=__set_callback_))  callback_;
+ Oculus::Platform::Oculus__Platform__Message__Callback __declspec(property(get=__get_callback_, put=__set_callback_))  callback_;
 
-constexpr void __set_callback_(::Oculus::Platform::____Oculus__Platform__Message__Callback value) ;
+constexpr void __set_callback_(Oculus::Platform::Oculus__Platform__Message__Callback value) ;
 
-constexpr ::Oculus::Platform::____Oculus__Platform__Message__Callback __get_callback_() const;
+constexpr Oculus::Platform::Oculus__Platform__Message__Callback __get_callback_() const;
 
  uint64_t __declspec(property(get=__get__RequestID_k__BackingField, put=__set__RequestID_k__BackingField))  _RequestID_k__BackingField;
 
@@ -88,10 +87,10 @@ explicit Request(uint64_t requestID) ;
  void set_RequestID(uint64_t value) ;
 
 /// @brief Method OnComplete addr 0x25991c0 size 0x70 virtual false final false
- ::Oculus::Platform::Request OnComplete(::Oculus::Platform::____Oculus__Platform__Message__Callback callback) ;
+ Oculus::Platform::Request OnComplete(Oculus::Platform::Oculus__Platform__Message__Callback callback) ;
 
 /// @brief Method HandleMessage addr 0x2599230 size 0x6c virtual true final false
- void HandleMessage(::Oculus::Platform::Message msg) ;
+ void HandleMessage(Oculus::Platform::Message msg) ;
 
 /// @brief Method RunCallbacks addr 0x259929c size 0x70 virtual false final false
 static void RunCallbacks(uint32_t limit) ;
@@ -100,6 +99,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Request);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Request, "Oculus.Platform", "Request");
+NEED_NO_BOX(Oculus::Platform::Request);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Request, "Oculus.Platform", "Request");

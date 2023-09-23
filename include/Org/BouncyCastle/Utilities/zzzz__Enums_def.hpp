@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class Type;
 }
@@ -56,16 +55,16 @@ constexpr explicit Enums(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr)
 // Methods
 
 /// @brief Method GetEnumValue addr 0x10e25c4 size 0x1e4 virtual false final false
-static ::bs_hook::EnumTypeWrapper GetEnumValue(::System::Type enumType, ::StringW s) ;
+static ::bs_hook::EnumTypeWrapper GetEnumValue(System::Type enumType, ::StringW s) ;
 
 /// @brief Method GetEnumValues addr 0x10e27c8 size 0xd8 virtual false final false
-static ::System::Array GetEnumValues(::System::Type enumType) ;
+static System::Array GetEnumValues(System::Type enumType) ;
 
 /// @brief Method GetArbitraryValue addr 0x10e28a0 size 0xe0 virtual false final false
-static ::bs_hook::EnumTypeWrapper GetArbitraryValue(::System::Type enumType) ;
+static ::bs_hook::EnumTypeWrapper GetArbitraryValue(System::Type enumType) ;
 
 /// @brief Method IsEnumType addr 0x10e27a8 size 0x20 virtual false final false
-static bool IsEnumType(::System::Type t) ;
+static bool IsEnumType(System::Type t) ;
 
 // Ctor Parameters []
 explicit Enums() ;
@@ -77,6 +76,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::Enums);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Enums, "Org.BouncyCastle.Utilities", "Enums");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Enums);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Enums, "Org.BouncyCastle.Utilities", "Enums");

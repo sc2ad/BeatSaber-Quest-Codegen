@@ -2,12 +2,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__ApplicationException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System {
-class Exception;
-}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
+}
+namespace System {
+class Exception;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
@@ -22,7 +21,7 @@ namespace System::Reflection {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2343))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3490))
 // CS Name: System.Reflection.TargetInvocationException
-class CORDL_TYPE TargetInvocationException : public ::System::ApplicationException {
+class CORDL_TYPE TargetInvocationException : public System::ApplicationException {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr TargetInvocationException(TargetInvocationException const& ) noexcept 
 constexpr TargetInvocationException(TargetInvocationException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TargetInvocationException(void* ptr) noexcept : ::System::ApplicationException(ptr) {
+constexpr explicit TargetInvocationException(void* ptr) noexcept : System::ApplicationException(ptr) {
 }
 
 
@@ -58,28 +57,27 @@ constexpr explicit TargetInvocationException(void* ptr) noexcept : ::System::App
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "inner", ty: "::System::Exception", modifiers: "", def_value: None }]
-explicit TargetInvocationException(::System::Exception inner) ;
+// Ctor Parameters [CppParam { name: "inner", ty: "System::Exception", modifiers: "", def_value: None }]
+explicit TargetInvocationException(System::Exception inner) ;
 
 /// @brief Method .ctor addr 0x237f4e8 size 0x6c virtual false final false
- void _ctor(::System::Exception inner) ;
+ void _ctor(System::Exception inner) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "inner", ty: "::System::Exception", modifiers: "", def_value: None }]
-explicit TargetInvocationException(::StringW message, ::System::Exception inner) ;
+// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "inner", ty: "System::Exception", modifiers: "", def_value: None }]
+explicit TargetInvocationException(::StringW message, System::Exception inner) ;
 
 /// @brief Method .ctor addr 0x237f554 size 0x24 virtual false final false
- void _ctor(::StringW message, ::System::Exception inner) ;
+ void _ctor(::StringW message, System::Exception inner) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit TargetInvocationException(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit TargetInvocationException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x237f578 size 0x8 virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Reflection
-} // end anonymous namespace
-NEED_NO_BOX(::System::Reflection::TargetInvocationException);
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::TargetInvocationException, "System.Reflection", "TargetInvocationException");
+NEED_NO_BOX(System::Reflection::TargetInvocationException);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::TargetInvocationException, "System.Reflection", "TargetInvocationException");

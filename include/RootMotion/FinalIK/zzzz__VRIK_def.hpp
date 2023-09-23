@@ -4,22 +4,21 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
+namespace UnityEngine {
+class Transform;
+}
 namespace RootMotion::FinalIK {
 class IKSolver;
 }
 namespace RootMotion::FinalIK {
 class IKSolverVR;
 }
-namespace UnityEngine {
-class Transform;
-}
 // Forward declare root types
 namespace RootMotion::FinalIK {
-class VRIK;
+class RootMotion__FinalIK__VRIK__References;
 }
 namespace RootMotion::FinalIK {
-class ____RootMotion__FinalIK__VRIK__References;
+class VRIK;
 }
 // Type: ::References
 namespace RootMotion::FinalIK {
@@ -27,173 +26,173 @@ namespace RootMotion::FinalIK {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12484))
 // CS Name: RootMotion.FinalIK.VRIK::References
-class CORDL_TYPE ____RootMotion__FinalIK__VRIK__References : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE RootMotion__FinalIK__VRIK__References : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xc0};
 
-virtual ~____RootMotion__FinalIK__VRIK__References() = default;
+virtual ~RootMotion__FinalIK__VRIK__References() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____RootMotion__FinalIK__VRIK__References", modifiers: " const&", def_value: None }]
-constexpr ____RootMotion__FinalIK__VRIK__References(____RootMotion__FinalIK__VRIK__References const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "RootMotion__FinalIK__VRIK__References", modifiers: " const&", def_value: None }]
+constexpr RootMotion__FinalIK__VRIK__References(RootMotion__FinalIK__VRIK__References const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____RootMotion__FinalIK__VRIK__References", modifiers: "&&", def_value: None }]
-constexpr ____RootMotion__FinalIK__VRIK__References(____RootMotion__FinalIK__VRIK__References&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "RootMotion__FinalIK__VRIK__References", modifiers: "&&", def_value: None }]
+constexpr RootMotion__FinalIK__VRIK__References(RootMotion__FinalIK__VRIK__References&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____RootMotion__FinalIK__VRIK__References(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit RootMotion__FinalIK__VRIK__References(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____RootMotion__FinalIK__VRIK__References& operator=(std::nullptr_t) noexcept {
+  constexpr RootMotion__FinalIK__VRIK__References& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____RootMotion__FinalIK__VRIK__References& operator=(void* o) noexcept {
+  constexpr RootMotion__FinalIK__VRIK__References& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____RootMotion__FinalIK__VRIK__References& operator=(____RootMotion__FinalIK__VRIK__References&& o) noexcept = default;
-  constexpr ____RootMotion__FinalIK__VRIK__References& operator=(____RootMotion__FinalIK__VRIK__References const& o) noexcept = default;
+  constexpr RootMotion__FinalIK__VRIK__References& operator=(RootMotion__FinalIK__VRIK__References&& o) noexcept = default;
+  constexpr RootMotion__FinalIK__VRIK__References& operator=(RootMotion__FinalIK__VRIK__References const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::UnityEngine::Transform __declspec(property(get=__get_root, put=__set_root))  root;
+ UnityEngine::Transform __declspec(property(get=__get_root, put=__set_root))  root;
 
-constexpr void __set_root(::UnityEngine::Transform value) ;
+constexpr void __set_root(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_root() const;
+constexpr UnityEngine::Transform __get_root() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_pelvis, put=__set_pelvis))  pelvis;
+ UnityEngine::Transform __declspec(property(get=__get_pelvis, put=__set_pelvis))  pelvis;
 
-constexpr void __set_pelvis(::UnityEngine::Transform value) ;
+constexpr void __set_pelvis(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_pelvis() const;
+constexpr UnityEngine::Transform __get_pelvis() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_spine, put=__set_spine))  spine;
+ UnityEngine::Transform __declspec(property(get=__get_spine, put=__set_spine))  spine;
 
-constexpr void __set_spine(::UnityEngine::Transform value) ;
+constexpr void __set_spine(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_spine() const;
+constexpr UnityEngine::Transform __get_spine() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_chest, put=__set_chest))  chest;
+ UnityEngine::Transform __declspec(property(get=__get_chest, put=__set_chest))  chest;
 
-constexpr void __set_chest(::UnityEngine::Transform value) ;
+constexpr void __set_chest(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_chest() const;
+constexpr UnityEngine::Transform __get_chest() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_neck, put=__set_neck))  neck;
+ UnityEngine::Transform __declspec(property(get=__get_neck, put=__set_neck))  neck;
 
-constexpr void __set_neck(::UnityEngine::Transform value) ;
+constexpr void __set_neck(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_neck() const;
+constexpr UnityEngine::Transform __get_neck() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_head, put=__set_head))  head;
+ UnityEngine::Transform __declspec(property(get=__get_head, put=__set_head))  head;
 
-constexpr void __set_head(::UnityEngine::Transform value) ;
+constexpr void __set_head(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_head() const;
+constexpr UnityEngine::Transform __get_head() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_leftShoulder, put=__set_leftShoulder))  leftShoulder;
+ UnityEngine::Transform __declspec(property(get=__get_leftShoulder, put=__set_leftShoulder))  leftShoulder;
 
-constexpr void __set_leftShoulder(::UnityEngine::Transform value) ;
+constexpr void __set_leftShoulder(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_leftShoulder() const;
+constexpr UnityEngine::Transform __get_leftShoulder() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_leftUpperArm, put=__set_leftUpperArm))  leftUpperArm;
+ UnityEngine::Transform __declspec(property(get=__get_leftUpperArm, put=__set_leftUpperArm))  leftUpperArm;
 
-constexpr void __set_leftUpperArm(::UnityEngine::Transform value) ;
+constexpr void __set_leftUpperArm(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_leftUpperArm() const;
+constexpr UnityEngine::Transform __get_leftUpperArm() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_leftForearm, put=__set_leftForearm))  leftForearm;
+ UnityEngine::Transform __declspec(property(get=__get_leftForearm, put=__set_leftForearm))  leftForearm;
 
-constexpr void __set_leftForearm(::UnityEngine::Transform value) ;
+constexpr void __set_leftForearm(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_leftForearm() const;
+constexpr UnityEngine::Transform __get_leftForearm() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_leftHand, put=__set_leftHand))  leftHand;
+ UnityEngine::Transform __declspec(property(get=__get_leftHand, put=__set_leftHand))  leftHand;
 
-constexpr void __set_leftHand(::UnityEngine::Transform value) ;
+constexpr void __set_leftHand(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_leftHand() const;
+constexpr UnityEngine::Transform __get_leftHand() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_rightShoulder, put=__set_rightShoulder))  rightShoulder;
+ UnityEngine::Transform __declspec(property(get=__get_rightShoulder, put=__set_rightShoulder))  rightShoulder;
 
-constexpr void __set_rightShoulder(::UnityEngine::Transform value) ;
+constexpr void __set_rightShoulder(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_rightShoulder() const;
+constexpr UnityEngine::Transform __get_rightShoulder() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_rightUpperArm, put=__set_rightUpperArm))  rightUpperArm;
+ UnityEngine::Transform __declspec(property(get=__get_rightUpperArm, put=__set_rightUpperArm))  rightUpperArm;
 
-constexpr void __set_rightUpperArm(::UnityEngine::Transform value) ;
+constexpr void __set_rightUpperArm(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_rightUpperArm() const;
+constexpr UnityEngine::Transform __get_rightUpperArm() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_rightForearm, put=__set_rightForearm))  rightForearm;
+ UnityEngine::Transform __declspec(property(get=__get_rightForearm, put=__set_rightForearm))  rightForearm;
 
-constexpr void __set_rightForearm(::UnityEngine::Transform value) ;
+constexpr void __set_rightForearm(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_rightForearm() const;
+constexpr UnityEngine::Transform __get_rightForearm() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_rightHand, put=__set_rightHand))  rightHand;
+ UnityEngine::Transform __declspec(property(get=__get_rightHand, put=__set_rightHand))  rightHand;
 
-constexpr void __set_rightHand(::UnityEngine::Transform value) ;
+constexpr void __set_rightHand(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_rightHand() const;
+constexpr UnityEngine::Transform __get_rightHand() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_leftThigh, put=__set_leftThigh))  leftThigh;
+ UnityEngine::Transform __declspec(property(get=__get_leftThigh, put=__set_leftThigh))  leftThigh;
 
-constexpr void __set_leftThigh(::UnityEngine::Transform value) ;
+constexpr void __set_leftThigh(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_leftThigh() const;
+constexpr UnityEngine::Transform __get_leftThigh() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_leftCalf, put=__set_leftCalf))  leftCalf;
+ UnityEngine::Transform __declspec(property(get=__get_leftCalf, put=__set_leftCalf))  leftCalf;
 
-constexpr void __set_leftCalf(::UnityEngine::Transform value) ;
+constexpr void __set_leftCalf(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_leftCalf() const;
+constexpr UnityEngine::Transform __get_leftCalf() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_leftFoot, put=__set_leftFoot))  leftFoot;
+ UnityEngine::Transform __declspec(property(get=__get_leftFoot, put=__set_leftFoot))  leftFoot;
 
-constexpr void __set_leftFoot(::UnityEngine::Transform value) ;
+constexpr void __set_leftFoot(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_leftFoot() const;
+constexpr UnityEngine::Transform __get_leftFoot() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_leftToes, put=__set_leftToes))  leftToes;
+ UnityEngine::Transform __declspec(property(get=__get_leftToes, put=__set_leftToes))  leftToes;
 
-constexpr void __set_leftToes(::UnityEngine::Transform value) ;
+constexpr void __set_leftToes(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_leftToes() const;
+constexpr UnityEngine::Transform __get_leftToes() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_rightThigh, put=__set_rightThigh))  rightThigh;
+ UnityEngine::Transform __declspec(property(get=__get_rightThigh, put=__set_rightThigh))  rightThigh;
 
-constexpr void __set_rightThigh(::UnityEngine::Transform value) ;
+constexpr void __set_rightThigh(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_rightThigh() const;
+constexpr UnityEngine::Transform __get_rightThigh() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_rightCalf, put=__set_rightCalf))  rightCalf;
+ UnityEngine::Transform __declspec(property(get=__get_rightCalf, put=__set_rightCalf))  rightCalf;
 
-constexpr void __set_rightCalf(::UnityEngine::Transform value) ;
+constexpr void __set_rightCalf(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_rightCalf() const;
+constexpr UnityEngine::Transform __get_rightCalf() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_rightFoot, put=__set_rightFoot))  rightFoot;
+ UnityEngine::Transform __declspec(property(get=__get_rightFoot, put=__set_rightFoot))  rightFoot;
 
-constexpr void __set_rightFoot(::UnityEngine::Transform value) ;
+constexpr void __set_rightFoot(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_rightFoot() const;
+constexpr UnityEngine::Transform __get_rightFoot() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_rightToes, put=__set_rightToes))  rightToes;
+ UnityEngine::Transform __declspec(property(get=__get_rightToes, put=__set_rightToes))  rightToes;
 
-constexpr void __set_rightToes(::UnityEngine::Transform value) ;
+constexpr void __set_rightToes(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_rightToes() const;
+constexpr UnityEngine::Transform __get_rightToes() const;
 
 
 // Properties
@@ -206,7 +205,7 @@ constexpr ::UnityEngine::Transform __get_rightToes() const;
 // Methods
 
 /// @brief Method GetTransforms addr 0x11c66bc size 0x43c virtual false final false
- ::ArrayW<::UnityEngine::Transform> GetTransforms() ;
+ ::ArrayW<UnityEngine::Transform> GetTransforms() ;
 
 /// @brief Method get_isFilled addr 0x11c60d0 size 0x3bc virtual false final false
  bool get_isFilled() ;
@@ -215,10 +214,10 @@ constexpr ::UnityEngine::Transform __get_rightToes() const;
  bool get_isEmpty() ;
 
 /// @brief Method AutoDetectReferences addr 0x11c58ec size 0x38c virtual false final false
-static bool AutoDetectReferences(::UnityEngine::Transform root, ByRef<::RootMotion::FinalIK::____RootMotion__FinalIK__VRIK__References> references) ;
+static bool AutoDetectReferences(UnityEngine::Transform root, ByRef<RootMotion::FinalIK::RootMotion__FinalIK__VRIK__References> references) ;
 
 // Ctor Parameters []
-explicit ____RootMotion__FinalIK__VRIK__References() ;
+explicit RootMotion__FinalIK__VRIK__References() ;
 
 /// @brief Method .ctor addr 0x11c66b4 size 0x8 virtual false final false
  void _ctor() ;
@@ -233,10 +232,10 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12478))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12485))
 // CS Name: RootMotion.FinalIK.VRIK
-class CORDL_TYPE VRIK : public ::RootMotion::FinalIK::IK {
+class CORDL_TYPE VRIK : public RootMotion::FinalIK::IK {
 public:
 // Declarations
-using References = ::RootMotion::FinalIK::____RootMotion__FinalIK__VRIK__References;
+using References = RootMotion::FinalIK::RootMotion__FinalIK__VRIK__References;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
@@ -250,7 +249,7 @@ constexpr VRIK(VRIK const& ) noexcept = default;
 constexpr VRIK(VRIK&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit VRIK(void* ptr) noexcept : ::RootMotion::FinalIK::IK(ptr) {
+constexpr explicit VRIK(void* ptr) noexcept : RootMotion::FinalIK::IK(ptr) {
 }
 
 
@@ -271,17 +270,17 @@ constexpr explicit VRIK(void* ptr) noexcept : ::RootMotion::FinalIK::IK(ptr) {
 
 // Fields
 
- ::RootMotion::FinalIK::____RootMotion__FinalIK__VRIK__References __declspec(property(get=__get_references, put=__set_references))  references;
+ RootMotion::FinalIK::RootMotion__FinalIK__VRIK__References __declspec(property(get=__get_references, put=__set_references))  references;
 
-constexpr void __set_references(::RootMotion::FinalIK::____RootMotion__FinalIK__VRIK__References value) ;
+constexpr void __set_references(RootMotion::FinalIK::RootMotion__FinalIK__VRIK__References value) ;
 
-constexpr ::RootMotion::FinalIK::____RootMotion__FinalIK__VRIK__References __get_references() const;
+constexpr RootMotion::FinalIK::RootMotion__FinalIK__VRIK__References __get_references() const;
 
- ::RootMotion::FinalIK::IKSolverVR __declspec(property(get=__get_solver, put=__set_solver))  solver;
+ RootMotion::FinalIK::IKSolverVR __declspec(property(get=__get_solver, put=__set_solver))  solver;
 
-constexpr void __set_solver(::RootMotion::FinalIK::IKSolverVR value) ;
+constexpr void __set_solver(RootMotion::FinalIK::IKSolverVR value) ;
 
-constexpr ::RootMotion::FinalIK::IKSolverVR __get_solver() const;
+constexpr RootMotion::FinalIK::IKSolverVR __get_solver() const;
 
 
 // Methods
@@ -302,7 +301,7 @@ constexpr ::RootMotion::FinalIK::IKSolverVR __get_solver() const;
  void GuessHandOrientations() ;
 
 /// @brief Method GetIKSolver addr 0x11c5ca0 size 0x8 virtual true final false
- ::RootMotion::FinalIK::IKSolver GetIKSolver() ;
+ RootMotion::FinalIK::IKSolver GetIKSolver() ;
 
 /// @brief Method InitiateSolver addr 0x11c5ca8 size 0x6c virtual true final false
  void InitiateSolver() ;
@@ -320,8 +319,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::VRIK);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::VRIK, "RootMotion.FinalIK", "VRIK");
-NEED_NO_BOX(::RootMotion::FinalIK::____RootMotion__FinalIK__VRIK__References);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::____RootMotion__FinalIK__VRIK__References, "RootMotion.FinalIK", "VRIK/References");
+NEED_NO_BOX(RootMotion::FinalIK::RootMotion__FinalIK__VRIK__References);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RootMotion__FinalIK__VRIK__References, "RootMotion.FinalIK", "VRIK/References");
+NEED_NO_BOX(RootMotion::FinalIK::VRIK);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIK, "RootMotion.FinalIK", "VRIK");

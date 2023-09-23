@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class IBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class IMac;
@@ -27,8 +26,8 @@ namespace Org::BouncyCastle::Crypto::Macs {
 class CORDL_TYPE Poly1305 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IMac
-constexpr operator  ::Org::BouncyCastle::Crypto::IMac() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IMac
+constexpr operator  Org::BouncyCastle::Crypto::IMac() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x78};
@@ -66,11 +65,11 @@ constexpr explicit Poly1305(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(p
 /// @brief Field BlockSize offset 0
 static constexpr int32_t  BlockSize{16};
 
- ::Org::BouncyCastle::Crypto::IBlockCipher __declspec(property(get=__get_cipher, put=__set_cipher))  cipher;
+ Org::BouncyCastle::Crypto::IBlockCipher __declspec(property(get=__get_cipher, put=__set_cipher))  cipher;
 
-constexpr void __set_cipher(::Org::BouncyCastle::Crypto::IBlockCipher value) ;
+constexpr void __set_cipher(Org::BouncyCastle::Crypto::IBlockCipher value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IBlockCipher __get_cipher() const;
+constexpr Org::BouncyCastle::Crypto::IBlockCipher __get_cipher() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get_singleByte, put=__set_singleByte))  singleByte;
 
@@ -212,14 +211,14 @@ explicit Poly1305() ;
 /// @brief Method .ctor addr 0xe839ec size 0x74 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "::Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
-explicit Poly1305(::Org::BouncyCastle::Crypto::IBlockCipher cipher) ;
+// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
+explicit Poly1305(Org::BouncyCastle::Crypto::IBlockCipher cipher) ;
 
 /// @brief Method .ctor addr 0xe83a60 size 0x14c virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher cipher) ;
+ void _ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher) ;
 
 /// @brief Method Init addr 0xe83bac size 0x19c virtual true final true
- void Init(::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method SetKey addr 0xe83d48 size 0x344 virtual false final false
  void SetKey(::ArrayW<uint8_t> key, ::ArrayW<uint8_t> nonce) ;
@@ -252,6 +251,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Macs
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Macs::Poly1305);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Macs::Poly1305, "Org.BouncyCastle.Crypto.Macs", "Poly1305");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Macs::Poly1305);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Macs::Poly1305, "Org.BouncyCastle.Crypto.Macs", "Poly1305");

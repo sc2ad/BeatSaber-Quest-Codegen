@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::XR {
 struct TrackingOriginModeFlags;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::UnityEngine::XR::TrackingOriginModeFlags const Unknown;
+static UnityEngine::XR::TrackingOriginModeFlags const Unknown;
 
 /// @brief Field Device offset 0
-static ::UnityEngine::XR::TrackingOriginModeFlags const Device;
+static UnityEngine::XR::TrackingOriginModeFlags const Device;
 
 /// @brief Field Floor offset 0
-static ::UnityEngine::XR::TrackingOriginModeFlags const Floor;
+static UnityEngine::XR::TrackingOriginModeFlags const Floor;
 
 /// @brief Field TrackingReference offset 0
-static ::UnityEngine::XR::TrackingOriginModeFlags const TrackingReference;
+static UnityEngine::XR::TrackingOriginModeFlags const TrackingReference;
 
 /// @brief Field Unbounded offset 0
-static ::UnityEngine::XR::TrackingOriginModeFlags const Unbounded;
+static UnityEngine::XR::TrackingOriginModeFlags const Unbounded;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::TrackingOriginModeFlags, "UnityEngine.XR", "TrackingOriginModeFlags");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::TrackingOriginModeFlags, "UnityEngine.XR", "TrackingOriginModeFlags");

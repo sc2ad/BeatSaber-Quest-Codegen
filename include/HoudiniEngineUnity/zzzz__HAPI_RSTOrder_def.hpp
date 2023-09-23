@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HAPI_RSTOrder;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field HAPI_TRS offset 0
-static ::HoudiniEngineUnity::HAPI_RSTOrder const HAPI_TRS;
+static HoudiniEngineUnity::HAPI_RSTOrder const HAPI_TRS;
 
 /// @brief Field HAPI_TSR offset 0
-static ::HoudiniEngineUnity::HAPI_RSTOrder const HAPI_TSR;
+static HoudiniEngineUnity::HAPI_RSTOrder const HAPI_TSR;
 
 /// @brief Field HAPI_RTS offset 0
-static ::HoudiniEngineUnity::HAPI_RSTOrder const HAPI_RTS;
+static HoudiniEngineUnity::HAPI_RSTOrder const HAPI_RTS;
 
 /// @brief Field HAPI_RST offset 0
-static ::HoudiniEngineUnity::HAPI_RSTOrder const HAPI_RST;
+static HoudiniEngineUnity::HAPI_RSTOrder const HAPI_RST;
 
 /// @brief Field HAPI_STR offset 0
-static ::HoudiniEngineUnity::HAPI_RSTOrder const HAPI_STR;
+static HoudiniEngineUnity::HAPI_RSTOrder const HAPI_STR;
 
 /// @brief Field HAPI_SRT offset 0
-static ::HoudiniEngineUnity::HAPI_RSTOrder const HAPI_SRT;
+static HoudiniEngineUnity::HAPI_RSTOrder const HAPI_SRT;
 
 /// @brief Field HAPI_RSTORDER_DEFAULT offset 0
-static ::HoudiniEngineUnity::HAPI_RSTOrder const HAPI_RSTORDER_DEFAULT;
+static HoudiniEngineUnity::HAPI_RSTOrder const HAPI_RSTORDER_DEFAULT;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_RSTOrder, "HoudiniEngineUnity", "HAPI_RSTOrder");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_RSTOrder, "HoudiniEngineUnity", "HAPI_RSTOrder");

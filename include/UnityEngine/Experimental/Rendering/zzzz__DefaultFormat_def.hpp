@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Experimental::Rendering {
 struct DefaultFormat;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field LDR offset 0
-static ::UnityEngine::Experimental::Rendering::DefaultFormat const LDR;
+static UnityEngine::Experimental::Rendering::DefaultFormat const LDR;
 
 /// @brief Field HDR offset 0
-static ::UnityEngine::Experimental::Rendering::DefaultFormat const HDR;
+static UnityEngine::Experimental::Rendering::DefaultFormat const HDR;
 
 /// @brief Field DepthStencil offset 0
-static ::UnityEngine::Experimental::Rendering::DefaultFormat const DepthStencil;
+static UnityEngine::Experimental::Rendering::DefaultFormat const DepthStencil;
 
 /// @brief Field Shadow offset 0
-static ::UnityEngine::Experimental::Rendering::DefaultFormat const Shadow;
+static UnityEngine::Experimental::Rendering::DefaultFormat const Shadow;
 
 /// @brief Field Video offset 0
-static ::UnityEngine::Experimental::Rendering::DefaultFormat const Video;
+static UnityEngine::Experimental::Rendering::DefaultFormat const Video;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Experimental::Rendering
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::Rendering::DefaultFormat, "UnityEngine.Experimental.Rendering", "DefaultFormat");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Rendering::DefaultFormat, "UnityEngine.Experimental.Rendering", "DefaultFormat");

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
@@ -14,20 +13,13 @@ class IDisposable;
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEqualityComparer_1;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEqualityComparer_1;
 }
 namespace System::Linq {
 template<typename TKey,typename TElement>
@@ -35,16 +27,23 @@ class IGrouping_2;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class ICollection_1;
+class IEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class ICollection_1;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 template<typename TKey,typename TElement>
-class ______System__Linq__Lookup_2__Grouping___GetEnumerator_d__7;
+class System__Linq__Lookup_2__Grouping___GetEnumerator_d__7;
 }
 namespace System::Linq {
 template<typename TKey,typename TElement>
@@ -52,15 +51,15 @@ class Lookup_2;
 }
 namespace System::Linq {
 template<typename TKey,typename TElement>
-class ____System__Linq__Lookup_2__Grouping;
+class System__Linq__Lookup_2__Grouping;
 }
 namespace System::Linq {
 template<typename TKey,typename TElement>
-class ____System__Linq__Lookup_2___GetEnumerator_d__12;
+class System__Linq__Lookup_2___GetEnumerator_d__12;
 }
 namespace GlobalNamespace {
 template<::cordl_internals::il2cpp_reference_type TKey,::cordl_internals::il2cpp_reference_type TElement>
-class ______System__Linq__Lookup_2__Grouping___GetEnumerator_d__7<TKey,TElement>;
+class System__Linq__Lookup_2__Grouping___GetEnumerator_d__7<TKey,TElement>;
 }
 namespace System::Linq {
 template<::cordl_internals::il2cpp_reference_type TKey,::cordl_internals::il2cpp_reference_type TElement>
@@ -68,11 +67,11 @@ class Lookup_2<TKey,TElement>;
 }
 namespace System::Linq {
 template<::cordl_internals::il2cpp_reference_type TKey,::cordl_internals::il2cpp_reference_type TElement>
-class ____System__Linq__Lookup_2__Grouping<TKey,TElement>;
+class System__Linq__Lookup_2__Grouping<TKey,TElement>;
 }
 namespace System::Linq {
 template<::cordl_internals::il2cpp_reference_type TKey,::cordl_internals::il2cpp_reference_type TElement>
-class ____System__Linq__Lookup_2___GetEnumerator_d__12<TKey,TElement>;
+class System__Linq__Lookup_2___GetEnumerator_d__12<TKey,TElement>;
 }
 // Type: ::<GetEnumerator>d__7
 // Type: ::Grouping
@@ -86,46 +85,46 @@ template<::cordl_internals::il2cpp_reference_type TKey,::cordl_internals::il2cpp
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14564))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14564), inst: 80 })
 // CS Name: System.Linq.Lookup`2::Grouping::<GetEnumerator>d__7
-class CORDL_TYPE ______System__Linq__Lookup_2__Grouping___GetEnumerator_d__7<TKey,TElement> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Linq__Lookup_2__Grouping___GetEnumerator_d__7<TKey,TElement> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<TElement>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<TElement>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<TElement>
+constexpr operator  System::Collections::Generic::IEnumerator_1<TElement>() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~______System__Linq__Lookup_2__Grouping___GetEnumerator_d__7() = default;
+virtual ~System__Linq__Lookup_2__Grouping___GetEnumerator_d__7() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "______System__Linq__Lookup_2__Grouping___GetEnumerator_d__7", modifiers: " const&", def_value: None }]
-constexpr ______System__Linq__Lookup_2__Grouping___GetEnumerator_d__7(______System__Linq__Lookup_2__Grouping___GetEnumerator_d__7 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Linq__Lookup_2__Grouping___GetEnumerator_d__7", modifiers: " const&", def_value: None }]
+constexpr System__Linq__Lookup_2__Grouping___GetEnumerator_d__7(System__Linq__Lookup_2__Grouping___GetEnumerator_d__7 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "______System__Linq__Lookup_2__Grouping___GetEnumerator_d__7", modifiers: "&&", def_value: None }]
-constexpr ______System__Linq__Lookup_2__Grouping___GetEnumerator_d__7(______System__Linq__Lookup_2__Grouping___GetEnumerator_d__7&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Linq__Lookup_2__Grouping___GetEnumerator_d__7", modifiers: "&&", def_value: None }]
+constexpr System__Linq__Lookup_2__Grouping___GetEnumerator_d__7(System__Linq__Lookup_2__Grouping___GetEnumerator_d__7&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ______System__Linq__Lookup_2__Grouping___GetEnumerator_d__7(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Linq__Lookup_2__Grouping___GetEnumerator_d__7(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ______System__Linq__Lookup_2__Grouping___GetEnumerator_d__7& operator=(std::nullptr_t) noexcept {
+  constexpr System__Linq__Lookup_2__Grouping___GetEnumerator_d__7& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ______System__Linq__Lookup_2__Grouping___GetEnumerator_d__7& operator=(void* o) noexcept {
+  constexpr System__Linq__Lookup_2__Grouping___GetEnumerator_d__7& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ______System__Linq__Lookup_2__Grouping___GetEnumerator_d__7& operator=(______System__Linq__Lookup_2__Grouping___GetEnumerator_d__7&& o) noexcept = default;
-  constexpr ______System__Linq__Lookup_2__Grouping___GetEnumerator_d__7& operator=(______System__Linq__Lookup_2__Grouping___GetEnumerator_d__7 const& o) noexcept = default;
+  constexpr System__Linq__Lookup_2__Grouping___GetEnumerator_d__7& operator=(System__Linq__Lookup_2__Grouping___GetEnumerator_d__7&& o) noexcept = default;
+  constexpr System__Linq__Lookup_2__Grouping___GetEnumerator_d__7& operator=(System__Linq__Lookup_2__Grouping___GetEnumerator_d__7 const& o) noexcept = default;
                 
 
 
@@ -143,11 +142,11 @@ constexpr void __set___2__current(TElement value) ;
 
 constexpr TElement __get___2__current() const;
 
- ::System::Linq::____System__Linq__Lookup_2__Grouping<TKey,TElement> __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ System::Linq::System__Linq__Lookup_2__Grouping<TKey,TElement> __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::System::Linq::____System__Linq__Lookup_2__Grouping<TKey,TElement> value) ;
+constexpr void __set___4__this(System::Linq::System__Linq__Lookup_2__Grouping<TKey,TElement> value) ;
 
-constexpr ::System::Linq::____System__Linq__Lookup_2__Grouping<TKey,TElement> __get___4__this() const;
+constexpr System::Linq::System__Linq__Lookup_2__Grouping<TKey,TElement> __get___4__this() const;
 
  int32_t __declspec(property(get=__get__i_5__2, put=__set__i_5__2))  _i_5__2;
 
@@ -166,7 +165,7 @@ constexpr int32_t __get__i_5__2() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ______System__Linq__Lookup_2__Grouping___GetEnumerator_d__7(int32_t __1__state) ;
+explicit System__Linq__Lookup_2__Grouping___GetEnumerator_d__7(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -198,54 +197,54 @@ template<::cordl_internals::il2cpp_reference_type TKey,::cordl_internals::il2cpp
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14565))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14565), inst: 80 })
 // CS Name: System.Linq.Lookup`2::Grouping
-class CORDL_TYPE ____System__Linq__Lookup_2__Grouping<TKey,TElement> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Linq__Lookup_2__Grouping<TKey,TElement> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using _GetEnumerator_d__7 = ::GlobalNamespace::______System__Linq__Lookup_2__Grouping___GetEnumerator_d__7<TKey, TElement>;
+using _GetEnumerator_d__7 = GlobalNamespace::System__Linq__Lookup_2__Grouping___GetEnumerator_d__7<TKey, TElement>;
 
-/// @brief Convert operator to ::System::Linq::IGrouping_2<TKey,TElement>
-constexpr operator  ::System::Linq::IGrouping_2<TKey,TElement>() const noexcept;
+/// @brief Convert operator to System::Linq::IGrouping_2<TKey,TElement>
+constexpr operator  System::Linq::IGrouping_2<TKey,TElement>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerable_1<TElement>
-constexpr operator  ::System::Collections::Generic::IEnumerable_1<TElement>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerable_1<TElement>
+constexpr operator  System::Collections::Generic::IEnumerable_1<TElement>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::Generic::IList_1<TElement>
-constexpr operator  ::System::Collections::Generic::IList_1<TElement>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IList_1<TElement>
+constexpr operator  System::Collections::Generic::IList_1<TElement>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::Generic::ICollection_1<TElement>
-constexpr operator  ::System::Collections::Generic::ICollection_1<TElement>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::ICollection_1<TElement>
+constexpr operator  System::Collections::Generic::ICollection_1<TElement>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
 
-virtual ~____System__Linq__Lookup_2__Grouping() = default;
+virtual ~System__Linq__Lookup_2__Grouping() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Linq__Lookup_2__Grouping", modifiers: " const&", def_value: None }]
-constexpr ____System__Linq__Lookup_2__Grouping(____System__Linq__Lookup_2__Grouping const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Linq__Lookup_2__Grouping", modifiers: " const&", def_value: None }]
+constexpr System__Linq__Lookup_2__Grouping(System__Linq__Lookup_2__Grouping const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Linq__Lookup_2__Grouping", modifiers: "&&", def_value: None }]
-constexpr ____System__Linq__Lookup_2__Grouping(____System__Linq__Lookup_2__Grouping&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Linq__Lookup_2__Grouping", modifiers: "&&", def_value: None }]
+constexpr System__Linq__Lookup_2__Grouping(System__Linq__Lookup_2__Grouping&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Linq__Lookup_2__Grouping(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Linq__Lookup_2__Grouping(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Linq__Lookup_2__Grouping& operator=(std::nullptr_t) noexcept {
+  constexpr System__Linq__Lookup_2__Grouping& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Linq__Lookup_2__Grouping& operator=(void* o) noexcept {
+  constexpr System__Linq__Lookup_2__Grouping& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Linq__Lookup_2__Grouping& operator=(____System__Linq__Lookup_2__Grouping&& o) noexcept = default;
-  constexpr ____System__Linq__Lookup_2__Grouping& operator=(____System__Linq__Lookup_2__Grouping const& o) noexcept = default;
+  constexpr System__Linq__Lookup_2__Grouping& operator=(System__Linq__Lookup_2__Grouping&& o) noexcept = default;
+  constexpr System__Linq__Lookup_2__Grouping& operator=(System__Linq__Lookup_2__Grouping const& o) noexcept = default;
                 
 
 
@@ -275,17 +274,17 @@ constexpr void __set_count(int32_t value) ;
 
 constexpr int32_t __get_count() const;
 
- ::System::Linq::____System__Linq__Lookup_2__Grouping<TKey,TElement> __declspec(property(get=__get_hashNext, put=__set_hashNext))  hashNext;
+ System::Linq::System__Linq__Lookup_2__Grouping<TKey,TElement> __declspec(property(get=__get_hashNext, put=__set_hashNext))  hashNext;
 
-constexpr void __set_hashNext(::System::Linq::____System__Linq__Lookup_2__Grouping<TKey,TElement> value) ;
+constexpr void __set_hashNext(System::Linq::System__Linq__Lookup_2__Grouping<TKey,TElement> value) ;
 
-constexpr ::System::Linq::____System__Linq__Lookup_2__Grouping<TKey,TElement> __get_hashNext() const;
+constexpr System::Linq::System__Linq__Lookup_2__Grouping<TKey,TElement> __get_hashNext() const;
 
- ::System::Linq::____System__Linq__Lookup_2__Grouping<TKey,TElement> __declspec(property(get=__get_next, put=__set_next))  next;
+ System::Linq::System__Linq__Lookup_2__Grouping<TKey,TElement> __declspec(property(get=__get_next, put=__set_next))  next;
 
-constexpr void __set_next(::System::Linq::____System__Linq__Lookup_2__Grouping<TKey,TElement> value) ;
+constexpr void __set_next(System::Linq::System__Linq__Lookup_2__Grouping<TKey,TElement> value) ;
 
-constexpr ::System::Linq::____System__Linq__Lookup_2__Grouping<TKey,TElement> __get_next() const;
+constexpr System::Linq::System__Linq__Lookup_2__Grouping<TKey,TElement> __get_next() const;
 
 
 // Properties
@@ -305,10 +304,10 @@ constexpr ::System::Linq::____System__Linq__Lookup_2__Grouping<TKey,TElement> __
  void Add(TElement element) ;
 
 /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Collections::Generic::IEnumerator_1<TElement> GetEnumerator() ;
+ System::Collections::Generic::IEnumerator_1<TElement> GetEnumerator() ;
 
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
+ System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
 /// @brief Method get_Key addr 0x0 size 0xffffffffffffffff virtual true final true
  TKey get_Key() ;
@@ -350,7 +349,7 @@ constexpr ::System::Linq::____System__Linq__Lookup_2__Grouping<TKey,TElement> __
  void System_Collections_Generic_IList_TElement__set_Item(int32_t index, TElement value) ;
 
 // Ctor Parameters []
-explicit ____System__Linq__Lookup_2__Grouping() ;
+explicit System__Linq__Lookup_2__Grouping() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -367,46 +366,46 @@ template<::cordl_internals::il2cpp_reference_type TKey,::cordl_internals::il2cpp
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14566))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14566), inst: 80 })
 // CS Name: System.Linq.Lookup`2::<GetEnumerator>d__12
-class CORDL_TYPE ____System__Linq__Lookup_2___GetEnumerator_d__12<TKey,TElement> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Linq__Lookup_2___GetEnumerator_d__12<TKey,TElement> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::System::Linq::IGrouping_2<TKey,TElement>>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::System::Linq::IGrouping_2<TKey,TElement>>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<System::Linq::IGrouping_2<TKey,TElement>>
+constexpr operator  System::Collections::Generic::IEnumerator_1<System::Linq::IGrouping_2<TKey,TElement>>() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____System__Linq__Lookup_2___GetEnumerator_d__12() = default;
+virtual ~System__Linq__Lookup_2___GetEnumerator_d__12() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Linq__Lookup_2___GetEnumerator_d__12", modifiers: " const&", def_value: None }]
-constexpr ____System__Linq__Lookup_2___GetEnumerator_d__12(____System__Linq__Lookup_2___GetEnumerator_d__12 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Linq__Lookup_2___GetEnumerator_d__12", modifiers: " const&", def_value: None }]
+constexpr System__Linq__Lookup_2___GetEnumerator_d__12(System__Linq__Lookup_2___GetEnumerator_d__12 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Linq__Lookup_2___GetEnumerator_d__12", modifiers: "&&", def_value: None }]
-constexpr ____System__Linq__Lookup_2___GetEnumerator_d__12(____System__Linq__Lookup_2___GetEnumerator_d__12&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Linq__Lookup_2___GetEnumerator_d__12", modifiers: "&&", def_value: None }]
+constexpr System__Linq__Lookup_2___GetEnumerator_d__12(System__Linq__Lookup_2___GetEnumerator_d__12&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Linq__Lookup_2___GetEnumerator_d__12(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Linq__Lookup_2___GetEnumerator_d__12(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Linq__Lookup_2___GetEnumerator_d__12& operator=(std::nullptr_t) noexcept {
+  constexpr System__Linq__Lookup_2___GetEnumerator_d__12& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Linq__Lookup_2___GetEnumerator_d__12& operator=(void* o) noexcept {
+  constexpr System__Linq__Lookup_2___GetEnumerator_d__12& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Linq__Lookup_2___GetEnumerator_d__12& operator=(____System__Linq__Lookup_2___GetEnumerator_d__12&& o) noexcept = default;
-  constexpr ____System__Linq__Lookup_2___GetEnumerator_d__12& operator=(____System__Linq__Lookup_2___GetEnumerator_d__12 const& o) noexcept = default;
+  constexpr System__Linq__Lookup_2___GetEnumerator_d__12& operator=(System__Linq__Lookup_2___GetEnumerator_d__12&& o) noexcept = default;
+  constexpr System__Linq__Lookup_2___GetEnumerator_d__12& operator=(System__Linq__Lookup_2___GetEnumerator_d__12 const& o) noexcept = default;
                 
 
 
@@ -418,28 +417,28 @@ constexpr void __set___1__state(int32_t value) ;
 
 constexpr int32_t __get___1__state() const;
 
- ::System::Linq::IGrouping_2<TKey,TElement> __declspec(property(get=__get___2__current, put=__set___2__current))  __2__current;
+ System::Linq::IGrouping_2<TKey,TElement> __declspec(property(get=__get___2__current, put=__set___2__current))  __2__current;
 
-constexpr void __set___2__current(::System::Linq::IGrouping_2<TKey,TElement> value) ;
+constexpr void __set___2__current(System::Linq::IGrouping_2<TKey,TElement> value) ;
 
-constexpr ::System::Linq::IGrouping_2<TKey,TElement> __get___2__current() const;
+constexpr System::Linq::IGrouping_2<TKey,TElement> __get___2__current() const;
 
- ::System::Linq::Lookup_2<TKey,TElement> __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ System::Linq::Lookup_2<TKey,TElement> __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::System::Linq::Lookup_2<TKey,TElement> value) ;
+constexpr void __set___4__this(System::Linq::Lookup_2<TKey,TElement> value) ;
 
-constexpr ::System::Linq::Lookup_2<TKey,TElement> __get___4__this() const;
+constexpr System::Linq::Lookup_2<TKey,TElement> __get___4__this() const;
 
- ::System::Linq::____System__Linq__Lookup_2__Grouping<TKey,TElement> __declspec(property(get=__get__g_5__2, put=__set__g_5__2))  _g_5__2;
+ System::Linq::System__Linq__Lookup_2__Grouping<TKey,TElement> __declspec(property(get=__get__g_5__2, put=__set__g_5__2))  _g_5__2;
 
-constexpr void __set__g_5__2(::System::Linq::____System__Linq__Lookup_2__Grouping<TKey,TElement> value) ;
+constexpr void __set__g_5__2(System::Linq::System__Linq__Lookup_2__Grouping<TKey,TElement> value) ;
 
-constexpr ::System::Linq::____System__Linq__Lookup_2__Grouping<TKey,TElement> __get__g_5__2() const;
+constexpr System::Linq::System__Linq__Lookup_2__Grouping<TKey,TElement> __get__g_5__2() const;
 
 
 // Properties
 
- ::System::Linq::IGrouping_2<TKey,TElement> __declspec(property(get=System_Collections_Generic_IEnumerator_System_Linq_IGrouping_TKey,TElement___get_Current))  System_Collections_Generic_IEnumerator_System_Linq_IGrouping_TKey,TElement___Current;
+ System::Linq::IGrouping_2<TKey,TElement> __declspec(property(get=System_Collections_Generic_IEnumerator_System_Linq_IGrouping_TKey,TElement___get_Current))  System_Collections_Generic_IEnumerator_System_Linq_IGrouping_TKey,TElement___Current;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=System_Collections_IEnumerator_get_Current))  System_Collections_IEnumerator_Current;
 
@@ -447,7 +446,7 @@ constexpr ::System::Linq::____System__Linq__Lookup_2__Grouping<TKey,TElement> __
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____System__Linq__Lookup_2___GetEnumerator_d__12(int32_t __1__state) ;
+explicit System__Linq__Lookup_2___GetEnumerator_d__12(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -459,7 +458,7 @@ explicit ____System__Linq__Lookup_2___GetEnumerator_d__12(int32_t __1__state) ;
  bool MoveNext() ;
 
 /// @brief Method System.Collections.Generic.IEnumerator<System.Linq.IGrouping<TKey,TElement>>.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Linq::IGrouping_2<TKey,TElement> System_Collections_Generic_IEnumerator_System_Linq_IGrouping_TKey,TElement___get_Current() ;
+ System::Linq::IGrouping_2<TKey,TElement> System_Collections_Generic_IEnumerator_System_Linq_IGrouping_TKey,TElement___get_Current() ;
 
 /// @brief Method System.Collections.IEnumerator.Reset addr 0x0 size 0xffffffffffffffff virtual true final true
  void System_Collections_IEnumerator_Reset() ;
@@ -482,15 +481,15 @@ template<::cordl_internals::il2cpp_reference_type TKey,::cordl_internals::il2cpp
 class CORDL_TYPE Lookup_2<TKey,TElement> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using _GetEnumerator_d__12 = ::System::Linq::____System__Linq__Lookup_2___GetEnumerator_d__12<TKey, TElement>;
+using _GetEnumerator_d__12 = System::Linq::System__Linq__Lookup_2___GetEnumerator_d__12<TKey, TElement>;
 
-using Grouping = ::System::Linq::____System__Linq__Lookup_2__Grouping<TKey, TElement>;
+using Grouping = System::Linq::System__Linq__Lookup_2__Grouping<TKey, TElement>;
 
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerable_1<::System::Linq::IGrouping_2<TKey,TElement>>
-constexpr operator  ::System::Collections::Generic::IEnumerable_1<::System::Linq::IGrouping_2<TKey,TElement>>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerable_1<System::Linq::IGrouping_2<TKey,TElement>>
+constexpr operator  System::Collections::Generic::IEnumerable_1<System::Linq::IGrouping_2<TKey,TElement>>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -525,23 +524,23 @@ constexpr explicit Lookup_2(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(p
 
 // Fields
 
- ::System::Collections::Generic::IEqualityComparer_1<TKey> __declspec(property(get=__get_comparer, put=__set_comparer))  comparer;
+ System::Collections::Generic::IEqualityComparer_1<TKey> __declspec(property(get=__get_comparer, put=__set_comparer))  comparer;
 
-constexpr void __set_comparer(::System::Collections::Generic::IEqualityComparer_1<TKey> value) ;
+constexpr void __set_comparer(System::Collections::Generic::IEqualityComparer_1<TKey> value) ;
 
-constexpr ::System::Collections::Generic::IEqualityComparer_1<TKey> __get_comparer() const;
+constexpr System::Collections::Generic::IEqualityComparer_1<TKey> __get_comparer() const;
 
- ::ArrayW<::System::Linq::____System__Linq__Lookup_2__Grouping<TKey,TElement>> __declspec(property(get=__get_groupings, put=__set_groupings))  groupings;
+ ::ArrayW<System::Linq::System__Linq__Lookup_2__Grouping<TKey,TElement>> __declspec(property(get=__get_groupings, put=__set_groupings))  groupings;
 
-constexpr void __set_groupings(::ArrayW<::System::Linq::____System__Linq__Lookup_2__Grouping<TKey,TElement>> value) ;
+constexpr void __set_groupings(::ArrayW<System::Linq::System__Linq__Lookup_2__Grouping<TKey,TElement>> value) ;
 
-constexpr ::ArrayW<::System::Linq::____System__Linq__Lookup_2__Grouping<TKey,TElement>> __get_groupings() const;
+constexpr ::ArrayW<System::Linq::System__Linq__Lookup_2__Grouping<TKey,TElement>> __get_groupings() const;
 
- ::System::Linq::____System__Linq__Lookup_2__Grouping<TKey,TElement> __declspec(property(get=__get_lastGrouping, put=__set_lastGrouping))  lastGrouping;
+ System::Linq::System__Linq__Lookup_2__Grouping<TKey,TElement> __declspec(property(get=__get_lastGrouping, put=__set_lastGrouping))  lastGrouping;
 
-constexpr void __set_lastGrouping(::System::Linq::____System__Linq__Lookup_2__Grouping<TKey,TElement> value) ;
+constexpr void __set_lastGrouping(System::Linq::System__Linq__Lookup_2__Grouping<TKey,TElement> value) ;
 
-constexpr ::System::Linq::____System__Linq__Lookup_2__Grouping<TKey,TElement> __get_lastGrouping() const;
+constexpr System::Linq::System__Linq__Lookup_2__Grouping<TKey,TElement> __get_lastGrouping() const;
 
  int32_t __declspec(property(get=__get_count, put=__set_count))  count;
 
@@ -554,25 +553,25 @@ constexpr int32_t __get_count() const;
 
 /// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TSource>
-static ::System::Linq::Lookup_2<TKey,TElement> Create(::System::Collections::Generic::IEnumerable_1<TSource> source, ::System::Func_2<TSource,TKey> keySelector, ::System::Func_2<TSource,TElement> elementSelector, ::System::Collections::Generic::IEqualityComparer_1<TKey> comparer) ;
+static System::Linq::Lookup_2<TKey,TElement> Create(System::Collections::Generic::IEnumerable_1<TSource> source, System::Func_2<TSource,TKey> keySelector, System::Func_2<TSource,TElement> elementSelector, System::Collections::Generic::IEqualityComparer_1<TKey> comparer) ;
 
-// Ctor Parameters [CppParam { name: "comparer", ty: "::System::Collections::Generic::IEqualityComparer_1<TKey>", modifiers: "", def_value: None }]
-explicit Lookup_2(::System::Collections::Generic::IEqualityComparer_1<TKey> comparer) ;
+// Ctor Parameters [CppParam { name: "comparer", ty: "System::Collections::Generic::IEqualityComparer_1<TKey>", modifiers: "", def_value: None }]
+explicit Lookup_2(System::Collections::Generic::IEqualityComparer_1<TKey> comparer) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Collections::Generic::IEqualityComparer_1<TKey> comparer) ;
+ void _ctor(System::Collections::Generic::IEqualityComparer_1<TKey> comparer) ;
 
 /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Collections::Generic::IEnumerator_1<::System::Linq::IGrouping_2<TKey,TElement>> GetEnumerator() ;
+ System::Collections::Generic::IEnumerator_1<System::Linq::IGrouping_2<TKey,TElement>> GetEnumerator() ;
 
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
+ System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
 /// @brief Method InternalGetHashCode addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t InternalGetHashCode(TKey key) ;
 
 /// @brief Method GetGrouping addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Linq::____System__Linq__Lookup_2__Grouping<TKey,TElement> GetGrouping(TKey key, bool create) ;
+ System::Linq::System__Linq__Lookup_2__Grouping<TKey,TElement> GetGrouping(TKey key, bool create) ;
 
 /// @brief Method Resize addr 0x0 size 0xffffffffffffffff virtual false final false
  void Resize() ;
@@ -581,8 +580,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Linq
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::______System__Linq__Lookup_2__Grouping___GetEnumerator_d__7, "System.Linq", "Lookup`2/Grouping/<GetEnumerator>d__7");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Linq::Lookup_2, "System.Linq", "Lookup`2");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Linq::____System__Linq__Lookup_2__Grouping, "System.Linq", "Lookup`2/Grouping");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Linq::____System__Linq__Lookup_2___GetEnumerator_d__12, "System.Linq", "Lookup`2/<GetEnumerator>d__12");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::System__Linq__Lookup_2__Grouping___GetEnumerator_d__7, "System.Linq", "Lookup`2/Grouping/<GetEnumerator>d__7");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Linq::Lookup_2, "System.Linq", "Lookup`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Linq::System__Linq__Lookup_2__Grouping, "System.Linq", "Lookup`2/Grouping");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Linq::System__Linq__Lookup_2___GetEnumerator_d__12, "System.Linq", "Lookup`2/<GetEnumerator>d__12");

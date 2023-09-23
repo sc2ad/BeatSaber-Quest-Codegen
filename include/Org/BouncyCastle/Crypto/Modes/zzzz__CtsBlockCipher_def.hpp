@@ -3,7 +3,6 @@
 #include "Org/BouncyCastle/Crypto/zzzz__BufferedBlockCipher_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class IBlockCipher;
 }
@@ -17,7 +16,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(966))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(967))
 // CS Name: Org.BouncyCastle.Crypto.Modes.CtsBlockCipher
-class CORDL_TYPE CtsBlockCipher : public ::Org::BouncyCastle::Crypto::BufferedBlockCipher {
+class CORDL_TYPE CtsBlockCipher : public Org::BouncyCastle::Crypto::BufferedBlockCipher {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr CtsBlockCipher(CtsBlockCipher const& ) noexcept = default;
 constexpr CtsBlockCipher(CtsBlockCipher&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CtsBlockCipher(void* ptr) noexcept : ::Org::BouncyCastle::Crypto::BufferedBlockCipher(ptr) {
+constexpr explicit CtsBlockCipher(void* ptr) noexcept : Org::BouncyCastle::Crypto::BufferedBlockCipher(ptr) {
 }
 
 
@@ -62,11 +61,11 @@ constexpr int32_t __get_blockSize() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "::Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
-explicit CtsBlockCipher(::Org::BouncyCastle::Crypto::IBlockCipher cipher) ;
+// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
+explicit CtsBlockCipher(Org::BouncyCastle::Crypto::IBlockCipher cipher) ;
 
 /// @brief Method .ctor addr 0xe8f014 size 0x1ac virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher cipher) ;
+ void _ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher) ;
 
 /// @brief Method GetUpdateOutputSize addr 0xe8f1c0 size 0x38 virtual true final false
  int32_t GetUpdateOutputSize(int32_t length) ;
@@ -87,6 +86,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Modes
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Modes::CtsBlockCipher);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Modes::CtsBlockCipher, "Org.BouncyCastle.Crypto.Modes", "CtsBlockCipher");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Modes::CtsBlockCipher);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::CtsBlockCipher, "Org.BouncyCastle.Crypto.Modes", "CtsBlockCipher");

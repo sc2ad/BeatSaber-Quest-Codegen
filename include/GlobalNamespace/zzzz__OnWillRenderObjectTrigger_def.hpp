@@ -2,7 +2,9 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
-namespace {
+namespace UnityEngine {
+class Material;
+}
 namespace UnityEngine {
 class Mesh;
 }
@@ -10,13 +12,10 @@ namespace UnityEngine {
 class Shader;
 }
 namespace UnityEngine {
-class MeshRenderer;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
 class MeshFilter;
+}
+namespace UnityEngine {
+class MeshRenderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,7 +27,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14738))
 // CS Name: OnWillRenderObjectTrigger
-class CORDL_TYPE OnWillRenderObjectTrigger : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OnWillRenderObjectTrigger : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -43,7 +42,7 @@ constexpr OnWillRenderObjectTrigger(OnWillRenderObjectTrigger const& ) noexcept 
 constexpr OnWillRenderObjectTrigger(OnWillRenderObjectTrigger&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OnWillRenderObjectTrigger(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OnWillRenderObjectTrigger(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -64,11 +63,11 @@ constexpr explicit OnWillRenderObjectTrigger(void* ptr) noexcept : ::UnityEngine
 
 // Fields
 
- ::UnityEngine::Shader __declspec(property(get=__get__overrideShader, put=__set__overrideShader))  _overrideShader;
+ UnityEngine::Shader __declspec(property(get=__get__overrideShader, put=__set__overrideShader))  _overrideShader;
 
-constexpr void __set__overrideShader(::UnityEngine::Shader value) ;
+constexpr void __set__overrideShader(UnityEngine::Shader value) ;
 
-constexpr ::UnityEngine::Shader __get__overrideShader() const;
+constexpr UnityEngine::Shader __get__overrideShader() const;
 
  int32_t __declspec(property(get=__get__renderQueue, put=__set__renderQueue))  _renderQueue;
 
@@ -76,29 +75,29 @@ constexpr void __set__renderQueue(int32_t value) ;
 
 constexpr int32_t __get__renderQueue() const;
 
- ::UnityEngine::Material __declspec(property(get=__get__material, put=__set__material))  _material;
+ UnityEngine::Material __declspec(property(get=__get__material, put=__set__material))  _material;
 
-constexpr void __set__material(::UnityEngine::Material value) ;
+constexpr void __set__material(UnityEngine::Material value) ;
 
-constexpr ::UnityEngine::Material __get__material() const;
+constexpr UnityEngine::Material __get__material() const;
 
- ::UnityEngine::Mesh __declspec(property(get=__get__mesh, put=__set__mesh))  _mesh;
+ UnityEngine::Mesh __declspec(property(get=__get__mesh, put=__set__mesh))  _mesh;
 
-constexpr void __set__mesh(::UnityEngine::Mesh value) ;
+constexpr void __set__mesh(UnityEngine::Mesh value) ;
 
-constexpr ::UnityEngine::Mesh __get__mesh() const;
+constexpr UnityEngine::Mesh __get__mesh() const;
 
- ::UnityEngine::MeshFilter __declspec(property(get=__get__meshFilter, put=__set__meshFilter))  _meshFilter;
+ UnityEngine::MeshFilter __declspec(property(get=__get__meshFilter, put=__set__meshFilter))  _meshFilter;
 
-constexpr void __set__meshFilter(::UnityEngine::MeshFilter value) ;
+constexpr void __set__meshFilter(UnityEngine::MeshFilter value) ;
 
-constexpr ::UnityEngine::MeshFilter __get__meshFilter() const;
+constexpr UnityEngine::MeshFilter __get__meshFilter() const;
 
- ::UnityEngine::MeshRenderer __declspec(property(get=__get__meshRenderer, put=__set__meshRenderer))  _meshRenderer;
+ UnityEngine::MeshRenderer __declspec(property(get=__get__meshRenderer, put=__set__meshRenderer))  _meshRenderer;
 
-constexpr void __set__meshRenderer(::UnityEngine::MeshRenderer value) ;
+constexpr void __set__meshRenderer(UnityEngine::MeshRenderer value) ;
 
-constexpr ::UnityEngine::MeshRenderer __get__meshRenderer() const;
+constexpr UnityEngine::MeshRenderer __get__meshRenderer() const;
 
 
 // Methods
@@ -119,6 +118,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OnWillRenderObjectTrigger);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OnWillRenderObjectTrigger, "", "OnWillRenderObjectTrigger");
+NEED_NO_BOX(GlobalNamespace::OnWillRenderObjectTrigger);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OnWillRenderObjectTrigger, "", "OnWillRenderObjectTrigger");

@@ -4,15 +4,14 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
 class IFormatProvider;
 }
-namespace UnityEngine {
-struct Color;
-}
 namespace System {
 class IFormattable;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -27,8 +26,8 @@ namespace UnityEngine {
 struct CORDL_TYPE Color32 : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IFormattable
-constexpr operator  ::System::IFormattable() const;
+/// @brief Convert operator to System::IFormattable
+constexpr operator  System::IFormattable() const;
 
 // Ctor Parameters [CppParam { name: "rgba", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "r", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "g", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "b", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "a", ty: "uint8_t", modifiers: "", def_value: None }]
 constexpr Color32(int32_t rgba, uint8_t r, uint8_t g, uint8_t b, uint8_t a) noexcept;
@@ -101,23 +100,22 @@ constexpr uint8_t __get_a() const;
  void _ctor(uint8_t r, uint8_t g, uint8_t b, uint8_t a) ;
 
 /// @brief Method op_Implicit addr 0x2b63b4c size 0x2c4 virtual false final false
-static ::UnityEngine::Color32 op_Implicit___UnityEngine__Color32(::UnityEngine::Color c) ;
+static UnityEngine::Color32 op_Implicit_UnityEngine__Color32(UnityEngine::Color c) ;
 
 /// @brief Method op_Implicit addr 0x2b63e10 size 0x3c virtual false final false
-static ::UnityEngine::Color op_Implicit___UnityEngine__Color(::UnityEngine::Color32 c) ;
+static UnityEngine::Color op_Implicit_UnityEngine__Color(UnityEngine::Color32 c) ;
 
 /// @brief Method Lerp addr 0x2b63e4c size 0xdc virtual false final false
-static ::UnityEngine::Color32 Lerp(::UnityEngine::Color32 a, ::UnityEngine::Color32 b, float_t t) ;
+static UnityEngine::Color32 Lerp(UnityEngine::Color32 a, UnityEngine::Color32 b, float_t t) ;
 
 /// @brief Method ToString addr 0x2b63f28 size 0xc virtual true final false
  ::StringW ToString() ;
 
 /// @brief Method ToString addr 0x2b63f34 size 0x1dc virtual true final true
- ::StringW ToString(::StringW format, ::System::IFormatProvider formatProvider) ;
+ ::StringW ToString(::StringW format, System::IFormatProvider formatProvider) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Color32, "UnityEngine", "Color32");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Color32, "UnityEngine", "Color32");

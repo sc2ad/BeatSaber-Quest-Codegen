@@ -2,7 +2,9 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace UnityEngine::Playables {
+struct PlayableBinding;
+}
 namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
@@ -11,9 +13,6 @@ class Object;
 }
 namespace UnityEngine::Playables {
 struct PlayableOutput;
-}
-namespace UnityEngine::Playables {
-struct PlayableBinding;
 }
 // Forward declare root types
 namespace UnityEngine::Animations {
@@ -62,15 +61,14 @@ constexpr explicit AnimationPlayableBinding(void* ptr) noexcept : ::bs_hook::Il2
 // Methods
 
 /// @brief Method Create addr 0x2b2391c size 0x13c virtual false final false
-static ::UnityEngine::Playables::PlayableBinding Create(::StringW name, ::UnityEngine::Object key) ;
+static UnityEngine::Playables::PlayableBinding Create(::StringW name, UnityEngine::Object key) ;
 
 /// @brief Method CreateAnimationOutput addr 0x2b23a58 size 0x40 virtual false final false
-static ::UnityEngine::Playables::PlayableOutput CreateAnimationOutput(::UnityEngine::Playables::PlayableGraph graph, ::StringW name) ;
+static UnityEngine::Playables::PlayableOutput CreateAnimationOutput(UnityEngine::Playables::PlayableGraph graph, ::StringW name) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Animations
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Animations::AnimationPlayableBinding);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Animations::AnimationPlayableBinding, "UnityEngine.Animations", "AnimationPlayableBinding");
+NEED_NO_BOX(UnityEngine::Animations::AnimationPlayableBinding);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationPlayableBinding, "UnityEngine.Animations", "AnimationPlayableBinding");

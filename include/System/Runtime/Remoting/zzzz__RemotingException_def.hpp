@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__SystemException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class Exception;
 }
@@ -22,7 +21,7 @@ namespace System::Runtime::Remoting {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2480))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3065))
 // CS Name: System.Runtime.Remoting.RemotingException
-class CORDL_TYPE RemotingException : public ::System::SystemException {
+class CORDL_TYPE RemotingException : public System::SystemException {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr RemotingException(RemotingException const& ) noexcept = default;
 constexpr RemotingException(RemotingException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RemotingException(void* ptr) noexcept : ::System::SystemException(ptr) {
+constexpr explicit RemotingException(void* ptr) noexcept : System::SystemException(ptr) {
 }
 
 
@@ -70,22 +69,21 @@ explicit RemotingException(::StringW message) ;
 /// @brief Method .ctor addr 0x2319c88 size 0x8 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit RemotingException(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit RemotingException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x232270c size 0x8 virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "InnerException", ty: "::System::Exception", modifiers: "", def_value: None }]
-explicit RemotingException(::StringW message, ::System::Exception InnerException) ;
+// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "InnerException", ty: "System::Exception", modifiers: "", def_value: None }]
+explicit RemotingException(::StringW message, System::Exception InnerException) ;
 
 /// @brief Method .ctor addr 0x23204dc size 0x8 virtual false final false
- void _ctor(::StringW message, ::System::Exception InnerException) ;
+ void _ctor(::StringW message, System::Exception InnerException) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::RemotingException);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::RemotingException, "System.Runtime.Remoting", "RemotingException");
+NEED_NO_BOX(System::Runtime::Remoting::RemotingException);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::RemotingException, "System.Runtime.Remoting", "RemotingException");

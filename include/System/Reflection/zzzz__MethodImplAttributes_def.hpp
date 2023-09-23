@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Reflection {
 struct MethodImplAttributes;
@@ -82,59 +81,58 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field CodeTypeMask offset 0
-static ::System::Reflection::MethodImplAttributes const CodeTypeMask;
+static System::Reflection::MethodImplAttributes const CodeTypeMask;
 
 /// @brief Field IL offset 0
-static ::System::Reflection::MethodImplAttributes const IL;
+static System::Reflection::MethodImplAttributes const IL;
 
 /// @brief Field Native offset 0
-static ::System::Reflection::MethodImplAttributes const Native;
+static System::Reflection::MethodImplAttributes const Native;
 
 /// @brief Field OPTIL offset 0
-static ::System::Reflection::MethodImplAttributes const OPTIL;
+static System::Reflection::MethodImplAttributes const OPTIL;
 
 /// @brief Field Runtime offset 0
-static ::System::Reflection::MethodImplAttributes const Runtime;
+static System::Reflection::MethodImplAttributes const Runtime;
 
 /// @brief Field ManagedMask offset 0
-static ::System::Reflection::MethodImplAttributes const ManagedMask;
+static System::Reflection::MethodImplAttributes const ManagedMask;
 
 /// @brief Field Unmanaged offset 0
-static ::System::Reflection::MethodImplAttributes const Unmanaged;
+static System::Reflection::MethodImplAttributes const Unmanaged;
 
 /// @brief Field Managed offset 0
-static ::System::Reflection::MethodImplAttributes const Managed;
+static System::Reflection::MethodImplAttributes const Managed;
 
 /// @brief Field ForwardRef offset 0
-static ::System::Reflection::MethodImplAttributes const ForwardRef;
+static System::Reflection::MethodImplAttributes const ForwardRef;
 
 /// @brief Field PreserveSig offset 0
-static ::System::Reflection::MethodImplAttributes const PreserveSig;
+static System::Reflection::MethodImplAttributes const PreserveSig;
 
 /// @brief Field InternalCall offset 0
-static ::System::Reflection::MethodImplAttributes const InternalCall;
+static System::Reflection::MethodImplAttributes const InternalCall;
 
 /// @brief Field Synchronized offset 0
-static ::System::Reflection::MethodImplAttributes const Synchronized;
+static System::Reflection::MethodImplAttributes const Synchronized;
 
 /// @brief Field NoInlining offset 0
-static ::System::Reflection::MethodImplAttributes const NoInlining;
+static System::Reflection::MethodImplAttributes const NoInlining;
 
 /// @brief Field AggressiveInlining offset 0
-static ::System::Reflection::MethodImplAttributes const AggressiveInlining;
+static System::Reflection::MethodImplAttributes const AggressiveInlining;
 
 /// @brief Field NoOptimization offset 0
-static ::System::Reflection::MethodImplAttributes const NoOptimization;
+static System::Reflection::MethodImplAttributes const NoOptimization;
 
 /// @brief Field MaxMethodImplVal offset 0
-static ::System::Reflection::MethodImplAttributes const MaxMethodImplVal;
+static System::Reflection::MethodImplAttributes const MaxMethodImplVal;
 
 /// @brief Field SecurityMitigations offset 0
-static ::System::Reflection::MethodImplAttributes const SecurityMitigations;
+static System::Reflection::MethodImplAttributes const SecurityMitigations;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Reflection
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::MethodImplAttributes, "System.Reflection", "MethodImplAttributes");
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MethodImplAttributes, "System.Reflection", "MethodImplAttributes");

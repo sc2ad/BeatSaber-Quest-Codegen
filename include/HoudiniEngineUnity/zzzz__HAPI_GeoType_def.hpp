@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HAPI_GeoType;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field HAPI_GEOTYPE_INVALID offset 0
-static ::HoudiniEngineUnity::HAPI_GeoType const HAPI_GEOTYPE_INVALID;
+static HoudiniEngineUnity::HAPI_GeoType const HAPI_GEOTYPE_INVALID;
 
 /// @brief Field HAPI_GEOTYPE_DEFAULT offset 0
-static ::HoudiniEngineUnity::HAPI_GeoType const HAPI_GEOTYPE_DEFAULT;
+static HoudiniEngineUnity::HAPI_GeoType const HAPI_GEOTYPE_DEFAULT;
 
 /// @brief Field HAPI_GEOTYPE_INTERMEDIATE offset 0
-static ::HoudiniEngineUnity::HAPI_GeoType const HAPI_GEOTYPE_INTERMEDIATE;
+static HoudiniEngineUnity::HAPI_GeoType const HAPI_GEOTYPE_INTERMEDIATE;
 
 /// @brief Field HAPI_GEOTYPE_INPUT offset 0
-static ::HoudiniEngineUnity::HAPI_GeoType const HAPI_GEOTYPE_INPUT;
+static HoudiniEngineUnity::HAPI_GeoType const HAPI_GEOTYPE_INPUT;
 
 /// @brief Field HAPI_GEOTYPE_CURVE offset 0
-static ::HoudiniEngineUnity::HAPI_GeoType const HAPI_GEOTYPE_CURVE;
+static HoudiniEngineUnity::HAPI_GeoType const HAPI_GEOTYPE_CURVE;
 
 /// @brief Field HAPI_GEOTYPE_MAX offset 0
-static ::HoudiniEngineUnity::HAPI_GeoType const HAPI_GEOTYPE_MAX;
+static HoudiniEngineUnity::HAPI_GeoType const HAPI_GEOTYPE_MAX;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_GeoType, "HoudiniEngineUnity", "HAPI_GeoType");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_GeoType, "HoudiniEngineUnity", "HAPI_GeoType");

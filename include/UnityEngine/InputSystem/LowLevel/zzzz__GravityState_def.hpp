@@ -1,15 +1,14 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputStateTypeInfo;
-}
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputStateTypeInfo;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -24,11 +23,11 @@ namespace UnityEngine::InputSystem::LowLevel {
 struct CORDL_TYPE GravityState : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo
-constexpr operator  ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo() const;
+/// @brief Convert operator to UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo
+constexpr operator  UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo() const;
 
-// Ctor Parameters [CppParam { name: "gravity", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
-constexpr GravityState(::UnityEngine::Vector3 gravity) noexcept;
+// Ctor Parameters [CppParam { name: "gravity", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }]
+constexpr GravityState(UnityEngine::Vector3 gravity) noexcept;
 
 
                     constexpr GravityState(GravityState const&) = default;
@@ -61,31 +60,30 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_gravity, put=__set_gravity))  gravity;
+ UnityEngine::Vector3 __declspec(property(get=__get_gravity, put=__set_gravity))  gravity;
 
-constexpr void __set_gravity(::UnityEngine::Vector3 value) ;
+constexpr void __set_gravity(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_gravity() const;
+constexpr UnityEngine::Vector3 __get_gravity() const;
 
 
 // Properties
 
-static ::UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_kFormat))  kFormat;
+static UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_kFormat))  kFormat;
 
- ::UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_format))  format;
+ UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_format))  format;
 
 
 // Methods
 
 /// @brief Method get_kFormat addr 0x29562cc size 0x30 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::FourCC get_kFormat() ;
+static UnityEngine::InputSystem::Utilities::FourCC get_kFormat() ;
 
 /// @brief Method get_format addr 0x29562fc size 0x30 virtual true final true
- ::UnityEngine::InputSystem::Utilities::FourCC get_format() ;
+ UnityEngine::InputSystem::Utilities::FourCC get_format() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::LowLevel
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::GravityState, "UnityEngine.InputSystem.LowLevel", "GravityState");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::LowLevel::GravityState, "UnityEngine.InputSystem.LowLevel", "GravityState");

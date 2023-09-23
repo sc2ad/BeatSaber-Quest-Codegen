@@ -2,16 +2,15 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace Oculus::Platform::Models {
+class ShareMediaResult;
+}
 namespace Oculus::Platform {
 struct MediaContentType;
 }
 namespace Oculus::Platform {
 template<typename T>
 class Request_1;
-}
-namespace Oculus::Platform::Models {
-class ShareMediaResult;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -60,12 +59,11 @@ constexpr explicit Media(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr)
 // Methods
 
 /// @brief Method ShareToFacebook addr 0x259631c size 0x17c virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ShareMediaResult> ShareToFacebook(::StringW postTextSuggestion, ::StringW filePath, ::Oculus::Platform::MediaContentType contentType) ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::ShareMediaResult> ShareToFacebook(::StringW postTextSuggestion, ::StringW filePath, Oculus::Platform::MediaContentType contentType) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Media);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Media, "Oculus.Platform", "Media");
+NEED_NO_BOX(Oculus::Platform::Media);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Media, "Oculus.Platform", "Media");

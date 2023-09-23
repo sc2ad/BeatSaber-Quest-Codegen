@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 class IComparable_1;
@@ -13,19 +12,19 @@ namespace GlobalNamespace {
 class NoteData;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType;
+struct GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
 template<typename T>
-class ____GlobalNamespace__ScoringElement__Pool_1;
-}
-namespace GlobalNamespace {
-class ScoringElement;
+class GlobalNamespace__ScoringElement__Pool_1;
 }
 namespace GlobalNamespace {
 template<::cordl_internals::il2cpp_reference_type T>
-class ____GlobalNamespace__ScoringElement__Pool_1<T>;
+class GlobalNamespace__ScoringElement__Pool_1<T>;
+}
+namespace GlobalNamespace {
+class ScoringElement;
 }
 // Type: ::Pool`1
 // Type: ::ScoringElement
@@ -38,10 +37,10 @@ class CORDL_TYPE ScoringElement : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 template<typename T>
-using Pool_1 = ::GlobalNamespace::____GlobalNamespace__ScoringElement__Pool_1<T>;
+using Pool_1 = GlobalNamespace::GlobalNamespace__ScoringElement__Pool_1<T>;
 
-/// @brief Convert operator to ::System::IComparable_1<::GlobalNamespace::ScoringElement>
-constexpr operator  ::System::IComparable_1<::GlobalNamespace::ScoringElement>() const noexcept;
+/// @brief Convert operator to System::IComparable_1<GlobalNamespace::ScoringElement>
+constexpr operator  System::IComparable_1<GlobalNamespace::ScoringElement>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -76,11 +75,11 @@ constexpr explicit ScoringElement(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
- ::GlobalNamespace::NoteData __declspec(property(get=__get__noteData_k__BackingField, put=__set__noteData_k__BackingField))  _noteData_k__BackingField;
+ GlobalNamespace::NoteData __declspec(property(get=__get__noteData_k__BackingField, put=__set__noteData_k__BackingField))  _noteData_k__BackingField;
 
-constexpr void __set__noteData_k__BackingField(::GlobalNamespace::NoteData value) ;
+constexpr void __set__noteData_k__BackingField(GlobalNamespace::NoteData value) ;
 
-constexpr ::GlobalNamespace::NoteData __get__noteData_k__BackingField() const;
+constexpr GlobalNamespace::NoteData __get__noteData_k__BackingField() const;
 
  int32_t __declspec(property(get=__get__multiplier_k__BackingField, put=__set__multiplier_k__BackingField))  _multiplier_k__BackingField;
 
@@ -103,7 +102,7 @@ constexpr bool __get__isFinished_k__BackingField() const;
 
 // Properties
 
- ::GlobalNamespace::NoteData __declspec(property(get=get_noteData, put=set_noteData))  noteData;
+ GlobalNamespace::NoteData __declspec(property(get=get_noteData, put=set_noteData))  noteData;
 
  int32_t __declspec(property(get=get_maxPossibleCutScore))  maxPossibleCutScore;
 
@@ -115,9 +114,9 @@ constexpr bool __get__isFinished_k__BackingField() const;
 
  int32_t __declspec(property(get=get_cutScore))  cutScore;
 
- ::GlobalNamespace::____GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType __declspec(property(get=get_wouldBeCorrectCutBestPossibleMultiplierEventType))  wouldBeCorrectCutBestPossibleMultiplierEventType;
+ GlobalNamespace::GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType __declspec(property(get=get_wouldBeCorrectCutBestPossibleMultiplierEventType))  wouldBeCorrectCutBestPossibleMultiplierEventType;
 
- ::GlobalNamespace::____GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType __declspec(property(get=get_multiplierEventType))  multiplierEventType;
+ GlobalNamespace::GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType __declspec(property(get=get_multiplierEventType))  multiplierEventType;
 
  bool __declspec(property(get=get_isFinished, put=set_isFinished))  isFinished;
 
@@ -127,10 +126,10 @@ constexpr bool __get__isFinished_k__BackingField() const;
 // Methods
 
 /// @brief Method get_noteData addr 0x21100b0 size 0x8 virtual false final false
- ::GlobalNamespace::NoteData get_noteData() ;
+ GlobalNamespace::NoteData get_noteData() ;
 
 /// @brief Method set_noteData addr 0x21100b8 size 0x8 virtual false final false
- void set_noteData(::GlobalNamespace::NoteData value) ;
+ void set_noteData(GlobalNamespace::NoteData value) ;
 
 /// @brief Method get_maxPossibleCutScore addr 0x210f7c4 size 0x74 virtual false final false
  int32_t get_maxPossibleCutScore() ;
@@ -154,10 +153,10 @@ constexpr bool __get__isFinished_k__BackingField() const;
  int32_t get_cutScore() ;
 
 /// @brief Method get_wouldBeCorrectCutBestPossibleMultiplierEventType addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::____GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType get_wouldBeCorrectCutBestPossibleMultiplierEventType() ;
+ GlobalNamespace::GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType get_wouldBeCorrectCutBestPossibleMultiplierEventType() ;
 
 /// @brief Method get_multiplierEventType addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::____GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType get_multiplierEventType() ;
+ GlobalNamespace::GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType get_multiplierEventType() ;
 
 /// @brief Method get_isFinished addr 0x21100e0 size 0x8 virtual false final false
  bool get_isFinished() ;
@@ -169,7 +168,7 @@ constexpr bool __get__isFinished_k__BackingField() const;
  int32_t get_executionOrder() ;
 
 /// @brief Method CompareTo addr 0x21100f4 size 0x88 virtual true final true
- int32_t CompareTo(::GlobalNamespace::ScoringElement other) ;
+ int32_t CompareTo(GlobalNamespace::ScoringElement other) ;
 
 /// @brief Method SetMultipliers addr 0x210f7a8 size 0x8 virtual false final false
  void SetMultipliers(int32_t multiplier, int32_t maxMultiplier) ;
@@ -192,40 +191,40 @@ namespace GlobalNamespace {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5412)), TypeDefinitionIndex(TypeDefinitionIndex(10980)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10980), inst: 2653 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10980), inst: 2653 }), TypeDefinitionIndex(TypeDefinitionIndex(5412)), TypeDefinitionIndex(TypeDefinitionIndex(10980))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5412), inst: 2 })
 // CS Name: ScoringElement::Pool`1
-class CORDL_TYPE ____GlobalNamespace__ScoringElement__Pool_1<T> : public ::Zenject::MemoryPool_1<T> {
+class CORDL_TYPE GlobalNamespace__ScoringElement__Pool_1<T> : public Zenject::MemoryPool_1<T> {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
 
-virtual ~____GlobalNamespace__ScoringElement__Pool_1() = default;
+virtual ~GlobalNamespace__ScoringElement__Pool_1() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__ScoringElement__Pool_1", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__ScoringElement__Pool_1(____GlobalNamespace__ScoringElement__Pool_1 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__ScoringElement__Pool_1", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__ScoringElement__Pool_1(GlobalNamespace__ScoringElement__Pool_1 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__ScoringElement__Pool_1", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__ScoringElement__Pool_1(____GlobalNamespace__ScoringElement__Pool_1&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__ScoringElement__Pool_1", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__ScoringElement__Pool_1(GlobalNamespace__ScoringElement__Pool_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__ScoringElement__Pool_1(void* ptr) noexcept : ::Zenject::MemoryPool_1<T>(ptr) {
+constexpr explicit GlobalNamespace__ScoringElement__Pool_1(void* ptr) noexcept : Zenject::MemoryPool_1<T>(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__ScoringElement__Pool_1& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__ScoringElement__Pool_1& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__ScoringElement__Pool_1& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__ScoringElement__Pool_1& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__ScoringElement__Pool_1& operator=(____GlobalNamespace__ScoringElement__Pool_1&& o) noexcept = default;
-  constexpr ____GlobalNamespace__ScoringElement__Pool_1& operator=(____GlobalNamespace__ScoringElement__Pool_1 const& o) noexcept = default;
+  constexpr GlobalNamespace__ScoringElement__Pool_1& operator=(GlobalNamespace__ScoringElement__Pool_1&& o) noexcept = default;
+  constexpr GlobalNamespace__ScoringElement__Pool_1& operator=(GlobalNamespace__ScoringElement__Pool_1 const& o) noexcept = default;
                 
 
 
@@ -235,7 +234,7 @@ constexpr explicit ____GlobalNamespace__ScoringElement__Pool_1(void* ptr) noexce
  void Reinitialize(T scoringElement) ;
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__ScoringElement__Pool_1() ;
+explicit GlobalNamespace__ScoringElement__Pool_1() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -244,7 +243,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::____GlobalNamespace__ScoringElement__Pool_1, "", "ScoringElement/Pool`1");
-NEED_NO_BOX(::GlobalNamespace::ScoringElement);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ScoringElement, "", "ScoringElement");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::GlobalNamespace__ScoringElement__Pool_1, "", "ScoringElement/Pool`1");
+NEED_NO_BOX(GlobalNamespace::ScoringElement);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoringElement, "", "ScoringElement");

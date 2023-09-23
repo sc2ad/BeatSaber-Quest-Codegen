@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerEventBase_1_def.hpp"
-namespace {
 namespace UnityEngine::UIElements {
 class IPanel;
 }
@@ -15,7 +14,7 @@ namespace UnityEngine::UIElements {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7297)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7297), inst: 1651 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7301))
 // CS Name: UnityEngine.UIElements.PointerUpEvent
-class CORDL_TYPE PointerUpEvent : public ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::PointerUpEvent> {
+class CORDL_TYPE PointerUpEvent : public UnityEngine::UIElements::PointerEventBase_1<UnityEngine::UIElements::PointerUpEvent> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr PointerUpEvent(PointerUpEvent const& ) noexcept = default;
 constexpr PointerUpEvent(PointerUpEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PointerUpEvent(void* ptr) noexcept : ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::PointerUpEvent>(ptr) {
+constexpr explicit PointerUpEvent(void* ptr) noexcept : UnityEngine::UIElements::PointerEventBase_1<UnityEngine::UIElements::PointerUpEvent>(ptr) {
 }
 
 
@@ -64,12 +63,11 @@ explicit PointerUpEvent() ;
  void _ctor() ;
 
 /// @brief Method PostDispatch addr 0x2cd8a4c size 0x32c virtual true final false
- void PostDispatch(::UnityEngine::UIElements::IPanel panel) ;
+ void PostDispatch(UnityEngine::UIElements::IPanel panel) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::PointerUpEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::PointerUpEvent, "UnityEngine.UIElements", "PointerUpEvent");
+NEED_NO_BOX(UnityEngine::UIElements::PointerUpEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::PointerUpEvent, "UnityEngine.UIElements", "PointerUpEvent");

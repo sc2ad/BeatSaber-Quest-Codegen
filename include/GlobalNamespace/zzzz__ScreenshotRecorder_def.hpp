@@ -5,19 +5,18 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
+namespace UnityEngine {
+class Camera;
+}
 namespace UnityEngine {
 class RenderTexture;
 }
 namespace UnityEngine {
 class Texture2D;
 }
-namespace UnityEngine {
-class Camera;
-}
 // Forward declare root types
 namespace GlobalNamespace {
-struct ____GlobalNamespace__ScreenshotRecorder__RecordingType;
+struct GlobalNamespace__ScreenshotRecorder__RecordingType;
 }
 namespace GlobalNamespace {
 class ScreenshotRecorder;
@@ -28,20 +27,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13826))
 // CS Name: ScreenshotRecorder::RecordingType
-struct CORDL_TYPE ____GlobalNamespace__ScreenshotRecorder__RecordingType : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__ScreenshotRecorder__RecordingType : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__ScreenshotRecorder__RecordingType(int32_t value__) noexcept;
+constexpr GlobalNamespace__ScreenshotRecorder__RecordingType(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__ScreenshotRecorder__RecordingType(____GlobalNamespace__ScreenshotRecorder__RecordingType const&) = default;
-                    constexpr ____GlobalNamespace__ScreenshotRecorder__RecordingType(____GlobalNamespace__ScreenshotRecorder__RecordingType&&) = default;
-                    constexpr ____GlobalNamespace__ScreenshotRecorder__RecordingType& operator=(____GlobalNamespace__ScreenshotRecorder__RecordingType const& o) {
+                    constexpr GlobalNamespace__ScreenshotRecorder__RecordingType(GlobalNamespace__ScreenshotRecorder__RecordingType const&) = default;
+                    constexpr GlobalNamespace__ScreenshotRecorder__RecordingType(GlobalNamespace__ScreenshotRecorder__RecordingType&&) = default;
+                    constexpr GlobalNamespace__ScreenshotRecorder__RecordingType& operator=(GlobalNamespace__ScreenshotRecorder__RecordingType const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__ScreenshotRecorder__RecordingType& operator=(____GlobalNamespace__ScreenshotRecorder__RecordingType&& o) noexcept {
+                    constexpr GlobalNamespace__ScreenshotRecorder__RecordingType& operator=(GlobalNamespace__ScreenshotRecorder__RecordingType&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -54,7 +53,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__ScreenshotRecorder__RecordingType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__ScreenshotRecorder__RecordingType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -62,7 +61,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__ScreenshotRecorder__RecordingType_Unwrapped : int32_t {
+enum class __GlobalNamespace__ScreenshotRecorder__RecordingType_Unwrapped : int32_t {
 __Sequence = 0,
 __Stereo360Sequence = 1,
 __Mono360Sequence = 2,
@@ -72,8 +71,8 @@ __ScreenshotOnPause = 5,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__ScreenshotRecorder__RecordingType_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__ScreenshotRecorder__RecordingType_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__ScreenshotRecorder__RecordingType_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__ScreenshotRecorder__RecordingType_Unwrapped>(__instance);
 }
 
 
@@ -86,22 +85,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Sequence offset 0
-static ::GlobalNamespace::____GlobalNamespace__ScreenshotRecorder__RecordingType const Sequence;
+static GlobalNamespace::GlobalNamespace__ScreenshotRecorder__RecordingType const Sequence;
 
 /// @brief Field Stereo360Sequence offset 0
-static ::GlobalNamespace::____GlobalNamespace__ScreenshotRecorder__RecordingType const Stereo360Sequence;
+static GlobalNamespace::GlobalNamespace__ScreenshotRecorder__RecordingType const Stereo360Sequence;
 
 /// @brief Field Mono360Sequence offset 0
-static ::GlobalNamespace::____GlobalNamespace__ScreenshotRecorder__RecordingType const Mono360Sequence;
+static GlobalNamespace::GlobalNamespace__ScreenshotRecorder__RecordingType const Mono360Sequence;
 
 /// @brief Field F10ForScreenshot offset 0
-static ::GlobalNamespace::____GlobalNamespace__ScreenshotRecorder__RecordingType const F10ForScreenshot;
+static GlobalNamespace::GlobalNamespace__ScreenshotRecorder__RecordingType const F10ForScreenshot;
 
 /// @brief Field Interval offset 0
-static ::GlobalNamespace::____GlobalNamespace__ScreenshotRecorder__RecordingType const Interval;
+static GlobalNamespace::GlobalNamespace__ScreenshotRecorder__RecordingType const Interval;
 
 /// @brief Field ScreenshotOnPause offset 0
-static ::GlobalNamespace::____GlobalNamespace__ScreenshotRecorder__RecordingType const ScreenshotOnPause;
+static GlobalNamespace::GlobalNamespace__ScreenshotRecorder__RecordingType const ScreenshotOnPause;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -113,10 +112,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13827))
 // CS Name: ScreenshotRecorder
-class CORDL_TYPE ScreenshotRecorder : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ScreenshotRecorder : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using RecordingType = ::GlobalNamespace::____GlobalNamespace__ScreenshotRecorder__RecordingType;
+using RecordingType = GlobalNamespace::GlobalNamespace__ScreenshotRecorder__RecordingType;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x78};
@@ -130,7 +129,7 @@ constexpr ScreenshotRecorder(ScreenshotRecorder const& ) noexcept = default;
 constexpr ScreenshotRecorder(ScreenshotRecorder&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ScreenshotRecorder(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ScreenshotRecorder(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -157,11 +156,11 @@ constexpr void __set__directory(::StringW value) ;
 
 constexpr ::StringW __get__directory() const;
 
- ::UnityEngine::Camera __declspec(property(get=__get__camera, put=__set__camera))  _camera;
+ UnityEngine::Camera __declspec(property(get=__get__camera, put=__set__camera))  _camera;
 
-constexpr void __set__camera(::UnityEngine::Camera value) ;
+constexpr void __set__camera(UnityEngine::Camera value) ;
 
-constexpr ::UnityEngine::Camera __get__camera() const;
+constexpr UnityEngine::Camera __get__camera() const;
 
  int32_t __declspec(property(get=__get__frameRate, put=__set__frameRate))  _frameRate;
 
@@ -181,11 +180,11 @@ constexpr void __set__interval(int32_t value) ;
 
 constexpr int32_t __get__interval() const;
 
- ::GlobalNamespace::____GlobalNamespace__ScreenshotRecorder__RecordingType __declspec(property(get=__get__recordingType, put=__set__recordingType))  _recordingType;
+ GlobalNamespace::GlobalNamespace__ScreenshotRecorder__RecordingType __declspec(property(get=__get__recordingType, put=__set__recordingType))  _recordingType;
 
-constexpr void __set__recordingType(::GlobalNamespace::____GlobalNamespace__ScreenshotRecorder__RecordingType value) ;
+constexpr void __set__recordingType(GlobalNamespace::GlobalNamespace__ScreenshotRecorder__RecordingType value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__ScreenshotRecorder__RecordingType __get__recordingType() const;
+constexpr GlobalNamespace::GlobalNamespace__ScreenshotRecorder__RecordingType __get__recordingType() const;
 
  bool __declspec(property(get=__get__pauseWithPButton, put=__set__pauseWithPButton))  _pauseWithPButton;
 
@@ -235,29 +234,29 @@ constexpr void __set__frameNum(int32_t value) ;
 
 constexpr int32_t __get__frameNum() const;
 
- ::UnityEngine::RenderTexture __declspec(property(get=__get__cubemapLeftEye, put=__set__cubemapLeftEye))  _cubemapLeftEye;
+ UnityEngine::RenderTexture __declspec(property(get=__get__cubemapLeftEye, put=__set__cubemapLeftEye))  _cubemapLeftEye;
 
-constexpr void __set__cubemapLeftEye(::UnityEngine::RenderTexture value) ;
+constexpr void __set__cubemapLeftEye(UnityEngine::RenderTexture value) ;
 
-constexpr ::UnityEngine::RenderTexture __get__cubemapLeftEye() const;
+constexpr UnityEngine::RenderTexture __get__cubemapLeftEye() const;
 
- ::UnityEngine::RenderTexture __declspec(property(get=__get__cubemapRighEye, put=__set__cubemapRighEye))  _cubemapRighEye;
+ UnityEngine::RenderTexture __declspec(property(get=__get__cubemapRighEye, put=__set__cubemapRighEye))  _cubemapRighEye;
 
-constexpr void __set__cubemapRighEye(::UnityEngine::RenderTexture value) ;
+constexpr void __set__cubemapRighEye(UnityEngine::RenderTexture value) ;
 
-constexpr ::UnityEngine::RenderTexture __get__cubemapRighEye() const;
+constexpr UnityEngine::RenderTexture __get__cubemapRighEye() const;
 
- ::UnityEngine::RenderTexture __declspec(property(get=__get__equirectTexture, put=__set__equirectTexture))  _equirectTexture;
+ UnityEngine::RenderTexture __declspec(property(get=__get__equirectTexture, put=__set__equirectTexture))  _equirectTexture;
 
-constexpr void __set__equirectTexture(::UnityEngine::RenderTexture value) ;
+constexpr void __set__equirectTexture(UnityEngine::RenderTexture value) ;
 
-constexpr ::UnityEngine::RenderTexture __get__equirectTexture() const;
+constexpr UnityEngine::RenderTexture __get__equirectTexture() const;
 
- ::UnityEngine::RenderTexture __declspec(property(get=__get__cameraRenderTexture, put=__set__cameraRenderTexture))  _cameraRenderTexture;
+ UnityEngine::RenderTexture __declspec(property(get=__get__cameraRenderTexture, put=__set__cameraRenderTexture))  _cameraRenderTexture;
 
-constexpr void __set__cameraRenderTexture(::UnityEngine::RenderTexture value) ;
+constexpr void __set__cameraRenderTexture(UnityEngine::RenderTexture value) ;
 
-constexpr ::UnityEngine::RenderTexture __get__cameraRenderTexture() const;
+constexpr UnityEngine::RenderTexture __get__cameraRenderTexture() const;
 
 
 // Properties
@@ -289,10 +288,10 @@ constexpr ::UnityEngine::RenderTexture __get__cameraRenderTexture() const;
  void SaveCameraScreenshot() ;
 
 /// @brief Method SaveTextureScreenshot addr 0x1f7aaa8 size 0x140 virtual false final false
- void SaveTextureScreenshot(::UnityEngine::Texture2D tex) ;
+ void SaveTextureScreenshot(UnityEngine::Texture2D tex) ;
 
 /// @brief Method ConvertRenderTexture addr 0x1f7a98c size 0x11c virtual false final false
- ::UnityEngine::Texture2D ConvertRenderTexture(::UnityEngine::RenderTexture renderTexture) ;
+ UnityEngine::Texture2D ConvertRenderTexture(UnityEngine::RenderTexture renderTexture) ;
 
 // Ctor Parameters []
 explicit ScreenshotRecorder() ;
@@ -304,7 +303,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__ScreenshotRecorder__RecordingType, "", "ScreenshotRecorder/RecordingType");
-NEED_NO_BOX(::GlobalNamespace::ScreenshotRecorder);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ScreenshotRecorder, "", "ScreenshotRecorder");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__ScreenshotRecorder__RecordingType, "", "ScreenshotRecorder/RecordingType");
+NEED_NO_BOX(GlobalNamespace::ScreenshotRecorder);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenshotRecorder, "", "ScreenshotRecorder");

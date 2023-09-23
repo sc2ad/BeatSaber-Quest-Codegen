@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct LightShadows;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::LightShadows const None;
+static UnityEngine::LightShadows const None;
 
 /// @brief Field Hard offset 0
-static ::UnityEngine::LightShadows const Hard;
+static UnityEngine::LightShadows const Hard;
 
 /// @brief Field Soft offset 0
-static ::UnityEngine::LightShadows const Soft;
+static UnityEngine::LightShadows const Soft;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::LightShadows, "UnityEngine", "LightShadows");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LightShadows, "UnityEngine", "LightShadows");

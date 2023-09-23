@@ -3,33 +3,32 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
+class BeatmapDataCallbackWrapper;
 }
 namespace UnityEngine {
-struct ____UnityEngine__ParticleSystem__Particle;
+struct UnityEngine__ParticleSystem__MainModule;
+}
+namespace UnityEngine {
+struct UnityEngine__ParticleSystem__Particle;
 }
 namespace GlobalNamespace {
 class BasicBeatmapEventData;
 }
 namespace UnityEngine {
-struct ____UnityEngine__ParticleSystem__MainModule;
-}
-namespace UnityEngine {
 class ParticleSystem;
+}
+namespace GlobalNamespace {
+struct BasicBeatmapEventType;
+}
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
 class ColorSO;
 }
 namespace UnityEngine {
 struct Color;
-}
-namespace GlobalNamespace {
-struct BasicBeatmapEventType;
-}
-namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -41,7 +40,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5067))
 // CS Name: ParticleSystemEventEffect
-class CORDL_TYPE ParticleSystemEventEffect : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ParticleSystemEventEffect : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -56,7 +55,7 @@ constexpr ParticleSystemEventEffect(ParticleSystemEventEffect const& ) noexcept 
 constexpr ParticleSystemEventEffect(ParticleSystemEventEffect&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ParticleSystemEventEffect(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ParticleSystemEventEffect(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -77,29 +76,29 @@ constexpr explicit ParticleSystemEventEffect(void* ptr) noexcept : ::UnityEngine
 
 // Fields
 
- ::GlobalNamespace::ColorSO __declspec(property(get=__get__lightColor0, put=__set__lightColor0))  _lightColor0;
+ GlobalNamespace::ColorSO __declspec(property(get=__get__lightColor0, put=__set__lightColor0))  _lightColor0;
 
-constexpr void __set__lightColor0(::GlobalNamespace::ColorSO value) ;
+constexpr void __set__lightColor0(GlobalNamespace::ColorSO value) ;
 
-constexpr ::GlobalNamespace::ColorSO __get__lightColor0() const;
+constexpr GlobalNamespace::ColorSO __get__lightColor0() const;
 
- ::GlobalNamespace::ColorSO __declspec(property(get=__get__lightColor1, put=__set__lightColor1))  _lightColor1;
+ GlobalNamespace::ColorSO __declspec(property(get=__get__lightColor1, put=__set__lightColor1))  _lightColor1;
 
-constexpr void __set__lightColor1(::GlobalNamespace::ColorSO value) ;
+constexpr void __set__lightColor1(GlobalNamespace::ColorSO value) ;
 
-constexpr ::GlobalNamespace::ColorSO __get__lightColor1() const;
+constexpr GlobalNamespace::ColorSO __get__lightColor1() const;
 
- ::GlobalNamespace::ColorSO __declspec(property(get=__get__highlightColor0, put=__set__highlightColor0))  _highlightColor0;
+ GlobalNamespace::ColorSO __declspec(property(get=__get__highlightColor0, put=__set__highlightColor0))  _highlightColor0;
 
-constexpr void __set__highlightColor0(::GlobalNamespace::ColorSO value) ;
+constexpr void __set__highlightColor0(GlobalNamespace::ColorSO value) ;
 
-constexpr ::GlobalNamespace::ColorSO __get__highlightColor0() const;
+constexpr GlobalNamespace::ColorSO __get__highlightColor0() const;
 
- ::GlobalNamespace::ColorSO __declspec(property(get=__get__highlightColor1, put=__set__highlightColor1))  _highlightColor1;
+ GlobalNamespace::ColorSO __declspec(property(get=__get__highlightColor1, put=__set__highlightColor1))  _highlightColor1;
 
-constexpr void __set__highlightColor1(::GlobalNamespace::ColorSO value) ;
+constexpr void __set__highlightColor1(GlobalNamespace::ColorSO value) ;
 
-constexpr ::GlobalNamespace::ColorSO __get__highlightColor1() const;
+constexpr GlobalNamespace::ColorSO __get__highlightColor1() const;
 
  bool __declspec(property(get=__get__lightOnStart, put=__set__lightOnStart))  _lightOnStart;
 
@@ -107,23 +106,23 @@ constexpr void __set__lightOnStart(bool value) ;
 
 constexpr bool __get__lightOnStart() const;
 
- ::GlobalNamespace::BasicBeatmapEventType __declspec(property(get=__get__colorEvent, put=__set__colorEvent))  _colorEvent;
+ GlobalNamespace::BasicBeatmapEventType __declspec(property(get=__get__colorEvent, put=__set__colorEvent))  _colorEvent;
 
-constexpr void __set__colorEvent(::GlobalNamespace::BasicBeatmapEventType value) ;
+constexpr void __set__colorEvent(GlobalNamespace::BasicBeatmapEventType value) ;
 
-constexpr ::GlobalNamespace::BasicBeatmapEventType __get__colorEvent() const;
+constexpr GlobalNamespace::BasicBeatmapEventType __get__colorEvent() const;
 
- ::UnityEngine::ParticleSystem __declspec(property(get=__get__particleSystem, put=__set__particleSystem))  _particleSystem;
+ UnityEngine::ParticleSystem __declspec(property(get=__get__particleSystem, put=__set__particleSystem))  _particleSystem;
 
-constexpr void __set__particleSystem(::UnityEngine::ParticleSystem value) ;
+constexpr void __set__particleSystem(UnityEngine::ParticleSystem value) ;
 
-constexpr ::UnityEngine::ParticleSystem __get__particleSystem() const;
+constexpr UnityEngine::ParticleSystem __get__particleSystem() const;
 
- ::GlobalNamespace::BeatmapCallbacksController __declspec(property(get=__get__beatmapCallbacksController, put=__set__beatmapCallbacksController))  _beatmapCallbacksController;
+ GlobalNamespace::BeatmapCallbacksController __declspec(property(get=__get__beatmapCallbacksController, put=__set__beatmapCallbacksController))  _beatmapCallbacksController;
 
-constexpr void __set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController value) ;
+constexpr void __set__beatmapCallbacksController(GlobalNamespace::BeatmapCallbacksController value) ;
 
-constexpr ::GlobalNamespace::BeatmapCallbacksController __get__beatmapCallbacksController() const;
+constexpr GlobalNamespace::BeatmapCallbacksController __get__beatmapCallbacksController() const;
 
  bool __declspec(property(get=__get__lightIsOn, put=__set__lightIsOn))  _lightIsOn;
 
@@ -131,11 +130,11 @@ constexpr void __set__lightIsOn(bool value) ;
 
 constexpr bool __get__lightIsOn() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__offColor, put=__set__offColor))  _offColor;
+ UnityEngine::Color __declspec(property(get=__get__offColor, put=__set__offColor))  _offColor;
 
-constexpr void __set__offColor(::UnityEngine::Color value) ;
+constexpr void __set__offColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__offColor() const;
+constexpr UnityEngine::Color __get__offColor() const;
 
  float_t __declspec(property(get=__get__highlightValue, put=__set__highlightValue))  _highlightValue;
 
@@ -143,17 +142,17 @@ constexpr void __set__highlightValue(float_t value) ;
 
 constexpr float_t __get__highlightValue() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__afterHighlightColor, put=__set__afterHighlightColor))  _afterHighlightColor;
+ UnityEngine::Color __declspec(property(get=__get__afterHighlightColor, put=__set__afterHighlightColor))  _afterHighlightColor;
 
-constexpr void __set__afterHighlightColor(::UnityEngine::Color value) ;
+constexpr void __set__afterHighlightColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__afterHighlightColor() const;
+constexpr UnityEngine::Color __get__afterHighlightColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__highlightColor, put=__set__highlightColor))  _highlightColor;
+ UnityEngine::Color __declspec(property(get=__get__highlightColor, put=__set__highlightColor))  _highlightColor;
 
-constexpr void __set__highlightColor(::UnityEngine::Color value) ;
+constexpr void __set__highlightColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__highlightColor() const;
+constexpr UnityEngine::Color __get__highlightColor() const;
 
  float_t __declspec(property(get=__get_kFadeSpeed, put=__set_kFadeSpeed))  kFadeSpeed;
 
@@ -161,29 +160,29 @@ constexpr void __set_kFadeSpeed(float_t value) ;
 
 constexpr float_t __get_kFadeSpeed() const;
 
- ::UnityEngine::____UnityEngine__ParticleSystem__MainModule __declspec(property(get=__get__mainModule, put=__set__mainModule))  _mainModule;
+ UnityEngine::UnityEngine__ParticleSystem__MainModule __declspec(property(get=__get__mainModule, put=__set__mainModule))  _mainModule;
 
-constexpr void __set__mainModule(::UnityEngine::____UnityEngine__ParticleSystem__MainModule value) ;
+constexpr void __set__mainModule(UnityEngine::UnityEngine__ParticleSystem__MainModule value) ;
 
-constexpr ::UnityEngine::____UnityEngine__ParticleSystem__MainModule __get__mainModule() const;
+constexpr UnityEngine::UnityEngine__ParticleSystem__MainModule __get__mainModule() const;
 
- ::ArrayW<::UnityEngine::____UnityEngine__ParticleSystem__Particle> __declspec(property(get=__get__particles, put=__set__particles))  _particles;
+ ::ArrayW<UnityEngine::UnityEngine__ParticleSystem__Particle> __declspec(property(get=__get__particles, put=__set__particles))  _particles;
 
-constexpr void __set__particles(::ArrayW<::UnityEngine::____UnityEngine__ParticleSystem__Particle> value) ;
+constexpr void __set__particles(::ArrayW<UnityEngine::UnityEngine__ParticleSystem__Particle> value) ;
 
-constexpr ::ArrayW<::UnityEngine::____UnityEngine__ParticleSystem__Particle> __get__particles() const;
+constexpr ::ArrayW<UnityEngine::UnityEngine__ParticleSystem__Particle> __get__particles() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__particleColor, put=__set__particleColor))  _particleColor;
+ UnityEngine::Color __declspec(property(get=__get__particleColor, put=__set__particleColor))  _particleColor;
 
-constexpr void __set__particleColor(::UnityEngine::Color value) ;
+constexpr void __set__particleColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__particleColor() const;
+constexpr UnityEngine::Color __get__particleColor() const;
 
- ::GlobalNamespace::BeatmapDataCallbackWrapper __declspec(property(get=__get__beatmapDataCallbackWrapper, put=__set__beatmapDataCallbackWrapper))  _beatmapDataCallbackWrapper;
+ GlobalNamespace::BeatmapDataCallbackWrapper __declspec(property(get=__get__beatmapDataCallbackWrapper, put=__set__beatmapDataCallbackWrapper))  _beatmapDataCallbackWrapper;
 
-constexpr void __set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper value) ;
+constexpr void __set__beatmapDataCallbackWrapper(GlobalNamespace::BeatmapDataCallbackWrapper value) ;
 
-constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallbackWrapper() const;
+constexpr GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallbackWrapper() const;
 
 
 // Methods
@@ -198,7 +197,7 @@ constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallba
  void Update() ;
 
 /// @brief Method HandleBeatmapEvent addr 0x22669c8 size 0x1cc virtual false final false
- void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData basicBeatmapEventData) ;
+ void HandleBeatmapEvent(GlobalNamespace::BasicBeatmapEventData basicBeatmapEventData) ;
 
 /// @brief Method RefreshParticles addr 0x2266520 size 0x3c0 virtual false final false
  void RefreshParticles() ;
@@ -213,6 +212,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ParticleSystemEventEffect);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ParticleSystemEventEffect, "", "ParticleSystemEventEffect");
+NEED_NO_BOX(GlobalNamespace::ParticleSystemEventEffect);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ParticleSystemEventEffect, "", "ParticleSystemEventEffect");

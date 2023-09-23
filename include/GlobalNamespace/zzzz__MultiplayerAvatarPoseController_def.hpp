@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class INodePoseSyncStateManager;
-}
 namespace GlobalNamespace {
 class AvatarPoseController;
+}
+namespace GlobalNamespace {
+class INodePoseSyncStateManager;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4094))
 // CS Name: MultiplayerAvatarPoseController
-class CORDL_TYPE MultiplayerAvatarPoseController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerAvatarPoseController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr MultiplayerAvatarPoseController(MultiplayerAvatarPoseController const&
 constexpr MultiplayerAvatarPoseController(MultiplayerAvatarPoseController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerAvatarPoseController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerAvatarPoseController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -57,34 +56,34 @@ constexpr explicit MultiplayerAvatarPoseController(void* ptr) noexcept : ::Unity
 
 // Fields
 
- ::GlobalNamespace::AvatarPoseController __declspec(property(get=__get__avatarPoseController, put=__set__avatarPoseController))  _avatarPoseController;
+ GlobalNamespace::AvatarPoseController __declspec(property(get=__get__avatarPoseController, put=__set__avatarPoseController))  _avatarPoseController;
 
-constexpr void __set__avatarPoseController(::GlobalNamespace::AvatarPoseController value) ;
+constexpr void __set__avatarPoseController(GlobalNamespace::AvatarPoseController value) ;
 
-constexpr ::GlobalNamespace::AvatarPoseController __get__avatarPoseController() const;
+constexpr GlobalNamespace::AvatarPoseController __get__avatarPoseController() const;
 
- ::GlobalNamespace::INodePoseSyncStateManager __declspec(property(get=__get__nodePoseSyncStateManager, put=__set__nodePoseSyncStateManager))  _nodePoseSyncStateManager;
+ GlobalNamespace::INodePoseSyncStateManager __declspec(property(get=__get__nodePoseSyncStateManager, put=__set__nodePoseSyncStateManager))  _nodePoseSyncStateManager;
 
-constexpr void __set__nodePoseSyncStateManager(::GlobalNamespace::INodePoseSyncStateManager value) ;
+constexpr void __set__nodePoseSyncStateManager(GlobalNamespace::INodePoseSyncStateManager value) ;
 
-constexpr ::GlobalNamespace::INodePoseSyncStateManager __get__nodePoseSyncStateManager() const;
+constexpr GlobalNamespace::INodePoseSyncStateManager __get__nodePoseSyncStateManager() const;
 
- ::GlobalNamespace::IConnectedPlayer __declspec(property(get=__get__connectedPlayer, put=__set__connectedPlayer))  _connectedPlayer;
+ GlobalNamespace::IConnectedPlayer __declspec(property(get=__get__connectedPlayer, put=__set__connectedPlayer))  _connectedPlayer;
 
-constexpr void __set__connectedPlayer(::GlobalNamespace::IConnectedPlayer value) ;
+constexpr void __set__connectedPlayer(GlobalNamespace::IConnectedPlayer value) ;
 
-constexpr ::GlobalNamespace::IConnectedPlayer __get__connectedPlayer() const;
+constexpr GlobalNamespace::IConnectedPlayer __get__connectedPlayer() const;
 
 
 // Properties
 
- ::GlobalNamespace::IConnectedPlayer __declspec(property(put=set_connectedPlayer))  connectedPlayer;
+ GlobalNamespace::IConnectedPlayer __declspec(property(put=set_connectedPlayer))  connectedPlayer;
 
 
 // Methods
 
 /// @brief Method set_connectedPlayer addr 0x20c35e8 size 0x8 virtual false final false
- void set_connectedPlayer(::GlobalNamespace::IConnectedPlayer value) ;
+ void set_connectedPlayer(GlobalNamespace::IConnectedPlayer value) ;
 
 /// @brief Method Start addr 0x20c35f0 size 0x18 virtual false final false
  void Start() ;
@@ -102,6 +101,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerAvatarPoseController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerAvatarPoseController, "", "MultiplayerAvatarPoseController");
+NEED_NO_BOX(GlobalNamespace::MultiplayerAvatarPoseController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerAvatarPoseController, "", "MultiplayerAvatarPoseController");

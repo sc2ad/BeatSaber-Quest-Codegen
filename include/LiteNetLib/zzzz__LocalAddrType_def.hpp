@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace LiteNetLib {
 struct LocalAddrType;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field IPv4 offset 0
-static ::LiteNetLib::LocalAddrType const IPv4;
+static LiteNetLib::LocalAddrType const IPv4;
 
 /// @brief Field IPv6 offset 0
-static ::LiteNetLib::LocalAddrType const IPv6;
+static LiteNetLib::LocalAddrType const IPv6;
 
 /// @brief Field All offset 0
-static ::LiteNetLib::LocalAddrType const All;
+static LiteNetLib::LocalAddrType const All;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::LocalAddrType, "LiteNetLib", "LocalAddrType");
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::LocalAddrType, "LiteNetLib", "LocalAddrType");

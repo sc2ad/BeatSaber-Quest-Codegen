@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace UnityEngine::SceneManagement {
 struct Scene;
 }
@@ -56,16 +55,15 @@ constexpr explicit UnityScenesHelper(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 // Methods
 
 /// @brief Method SetActiveRootObjectsInScene addr 0x1f731b4 size 0x1c8 virtual false final false
-static void SetActiveRootObjectsInScene(::UnityEngine::SceneManagement::Scene scene, bool active) ;
+static void SetActiveRootObjectsInScene(UnityEngine::SceneManagement::Scene scene, bool active) ;
 
 /// @brief Method FindComponentsOfTypeInScene addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static ::System::Collections::Generic::IEnumerable_1<T> FindComponentsOfTypeInScene(::UnityEngine::SceneManagement::Scene activeScene, bool includeInactive) ;
+static System::Collections::Generic::IEnumerable_1<T> FindComponentsOfTypeInScene(UnityEngine::SceneManagement::Scene activeScene, bool includeInactive) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::UnityScenesHelper);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::UnityScenesHelper, "", "UnityScenesHelper");
+NEED_NO_BOX(GlobalNamespace::UnityScenesHelper);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnityScenesHelper, "", "UnityScenesHelper");

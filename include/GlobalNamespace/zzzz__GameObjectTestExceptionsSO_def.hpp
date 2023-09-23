@@ -4,20 +4,19 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace GlobalNamespace {
-class EnvironmentInfoSO;
-}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
+}
+namespace GlobalNamespace {
+class EnvironmentInfoSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
 class GameObjectTestExceptionsSO;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException;
+class GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException;
 }
 // Type: ::GameObjectTestException
 namespace GlobalNamespace {
@@ -25,47 +24,47 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4220))
 // CS Name: GameObjectTestExceptionsSO::GameObjectTestException
-class CORDL_TYPE ____GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException() = default;
+virtual ~GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException(____GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException(GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException(____GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException(GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException& operator=(____GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException&& o) noexcept = default;
-  constexpr ____GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException& operator=(____GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException const& o) noexcept = default;
+  constexpr GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException& operator=(GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException&& o) noexcept = default;
+  constexpr GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException& operator=(GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::GlobalNamespace::EnvironmentInfoSO __declspec(property(get=__get__environmentInfo, put=__set__environmentInfo))  _environmentInfo;
+ GlobalNamespace::EnvironmentInfoSO __declspec(property(get=__get__environmentInfo, put=__set__environmentInfo))  _environmentInfo;
 
-constexpr void __set__environmentInfo(::GlobalNamespace::EnvironmentInfoSO value) ;
+constexpr void __set__environmentInfo(GlobalNamespace::EnvironmentInfoSO value) ;
 
-constexpr ::GlobalNamespace::EnvironmentInfoSO __get__environmentInfo() const;
+constexpr GlobalNamespace::EnvironmentInfoSO __get__environmentInfo() const;
 
  ::StringW __declspec(property(get=__get__exceptionNotes, put=__set__exceptionNotes))  _exceptionNotes;
 
@@ -82,7 +81,7 @@ constexpr ::ArrayW<::StringW> __get__sceneHierarchies() const;
 
 // Properties
 
- ::GlobalNamespace::EnvironmentInfoSO __declspec(property(get=get_environmentInfo))  environmentInfo;
+ GlobalNamespace::EnvironmentInfoSO __declspec(property(get=get_environmentInfo))  environmentInfo;
 
  ::ArrayW<::StringW> __declspec(property(get=get_sceneHierarchies))  sceneHierarchies;
 
@@ -90,13 +89,13 @@ constexpr ::ArrayW<::StringW> __get__sceneHierarchies() const;
 // Methods
 
 /// @brief Method get_environmentInfo addr 0x21bff1c size 0x8 virtual false final false
- ::GlobalNamespace::EnvironmentInfoSO get_environmentInfo() ;
+ GlobalNamespace::EnvironmentInfoSO get_environmentInfo() ;
 
 /// @brief Method get_sceneHierarchies addr 0x21bff24 size 0x8 virtual false final false
  ::ArrayW<::StringW> get_sceneHierarchies() ;
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException() ;
+explicit GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException() ;
 
 /// @brief Method .ctor addr 0x21bff2c size 0x8 virtual false final false
  void _ctor() ;
@@ -111,10 +110,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4221))
 // CS Name: GameObjectTestExceptionsSO
-class CORDL_TYPE GameObjectTestExceptionsSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE GameObjectTestExceptionsSO : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
-using GameObjectTestException = ::GlobalNamespace::____GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException;
+using GameObjectTestException = GlobalNamespace::GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -128,7 +127,7 @@ constexpr GameObjectTestExceptionsSO(GameObjectTestExceptionsSO const& ) noexcep
 constexpr GameObjectTestExceptionsSO(GameObjectTestExceptionsSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GameObjectTestExceptionsSO(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit GameObjectTestExceptionsSO(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -149,17 +148,17 @@ constexpr explicit GameObjectTestExceptionsSO(void* ptr) noexcept : ::GlobalName
 
 // Fields
 
- ::ArrayW<::GlobalNamespace::____GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException> __declspec(property(get=__get_tubeBloomPrePassLightIgnores, put=__set_tubeBloomPrePassLightIgnores))  tubeBloomPrePassLightIgnores;
+ ::ArrayW<GlobalNamespace::GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException> __declspec(property(get=__get_tubeBloomPrePassLightIgnores, put=__set_tubeBloomPrePassLightIgnores))  tubeBloomPrePassLightIgnores;
 
-constexpr void __set_tubeBloomPrePassLightIgnores(::ArrayW<::GlobalNamespace::____GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException> value) ;
+constexpr void __set_tubeBloomPrePassLightIgnores(::ArrayW<GlobalNamespace::GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::____GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException> __get_tubeBloomPrePassLightIgnores() const;
+constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException> __get_tubeBloomPrePassLightIgnores() const;
 
 
 // Methods
 
 /// @brief Method GetExceptionAsDictionary addr 0x21bfe34 size 0xe0 virtual false final false
-static ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentInfoSO,::ArrayW<::StringW>> GetExceptionAsDictionary(::ArrayW<::GlobalNamespace::____GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException> testExceptionArray) ;
+static System::Collections::Generic::Dictionary_2<GlobalNamespace::EnvironmentInfoSO,::ArrayW<::StringW>> GetExceptionAsDictionary(::ArrayW<GlobalNamespace::GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException> testExceptionArray) ;
 
 // Ctor Parameters []
 explicit GameObjectTestExceptionsSO() ;
@@ -171,8 +170,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::GameObjectTestExceptionsSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameObjectTestExceptionsSO, "", "GameObjectTestExceptionsSO");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException, "", "GameObjectTestExceptionsSO/GameObjectTestException");
+NEED_NO_BOX(GlobalNamespace::GameObjectTestExceptionsSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameObjectTestExceptionsSO, "", "GameObjectTestExceptionsSO");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException, "", "GameObjectTestExceptionsSO/GameObjectTestException");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Video {
 struct Video3DLayout;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field No3D offset 0
-static ::UnityEngine::Video::Video3DLayout const No3D;
+static UnityEngine::Video::Video3DLayout const No3D;
 
 /// @brief Field SideBySide3D offset 0
-static ::UnityEngine::Video::Video3DLayout const SideBySide3D;
+static UnityEngine::Video::Video3DLayout const SideBySide3D;
 
 /// @brief Field OverUnder3D offset 0
-static ::UnityEngine::Video::Video3DLayout const OverUnder3D;
+static UnityEngine::Video::Video3DLayout const OverUnder3D;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Video
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Video::Video3DLayout, "UnityEngine.Video", "Video3DLayout");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Video::Video3DLayout, "UnityEngine.Video", "Video3DLayout");

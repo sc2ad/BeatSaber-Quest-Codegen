@@ -2,30 +2,29 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include <cmath>
-namespace {
+namespace GlobalNamespace {
+class VisualMetronome;
+}
 namespace GlobalNamespace {
 class SongPreviewPlayer;
-}
-namespace UnityEngine::UI {
-class Toggle;
-}
-namespace GlobalNamespace {
-class BoolSO;
-}
-namespace GlobalNamespace {
-class FloatSO;
 }
 namespace HMUI {
 class ToggleBinder;
 }
 namespace GlobalNamespace {
-class VisualMetronome;
+class FloatSO;
 }
 namespace UnityEngine {
 class CanvasGroup;
 }
+namespace GlobalNamespace {
+class BoolSO;
+}
 namespace HMUI {
 class RangeValuesTextSlider;
+}
+namespace UnityEngine::UI {
+class Toggle;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -37,7 +36,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13656))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5703))
 // CS Name: AudioLatencyViewController
-class CORDL_TYPE AudioLatencyViewController : public ::HMUI::ViewController {
+class CORDL_TYPE AudioLatencyViewController : public HMUI::ViewController {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -52,7 +51,7 @@ constexpr AudioLatencyViewController(AudioLatencyViewController const& ) noexcep
 constexpr AudioLatencyViewController(AudioLatencyViewController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AudioLatencyViewController(void* ptr) noexcept : ::HMUI::ViewController(ptr) {
+constexpr explicit AudioLatencyViewController(void* ptr) noexcept : HMUI::ViewController(ptr) {
 }
 
 
@@ -73,41 +72,41 @@ constexpr explicit AudioLatencyViewController(void* ptr) noexcept : ::HMUI::View
 
 // Fields
 
- ::GlobalNamespace::FloatSO __declspec(property(get=__get__audioLatency, put=__set__audioLatency))  _audioLatency;
+ GlobalNamespace::FloatSO __declspec(property(get=__get__audioLatency, put=__set__audioLatency))  _audioLatency;
 
-constexpr void __set__audioLatency(::GlobalNamespace::FloatSO value) ;
+constexpr void __set__audioLatency(GlobalNamespace::FloatSO value) ;
 
-constexpr ::GlobalNamespace::FloatSO __get__audioLatency() const;
+constexpr GlobalNamespace::FloatSO __get__audioLatency() const;
 
- ::GlobalNamespace::BoolSO __declspec(property(get=__get__overrideAudioLatency, put=__set__overrideAudioLatency))  _overrideAudioLatency;
+ GlobalNamespace::BoolSO __declspec(property(get=__get__overrideAudioLatency, put=__set__overrideAudioLatency))  _overrideAudioLatency;
 
-constexpr void __set__overrideAudioLatency(::GlobalNamespace::BoolSO value) ;
+constexpr void __set__overrideAudioLatency(GlobalNamespace::BoolSO value) ;
 
-constexpr ::GlobalNamespace::BoolSO __get__overrideAudioLatency() const;
+constexpr GlobalNamespace::BoolSO __get__overrideAudioLatency() const;
 
- ::UnityEngine::CanvasGroup __declspec(property(get=__get__setupCanvasGroup, put=__set__setupCanvasGroup))  _setupCanvasGroup;
+ UnityEngine::CanvasGroup __declspec(property(get=__get__setupCanvasGroup, put=__set__setupCanvasGroup))  _setupCanvasGroup;
 
-constexpr void __set__setupCanvasGroup(::UnityEngine::CanvasGroup value) ;
+constexpr void __set__setupCanvasGroup(UnityEngine::CanvasGroup value) ;
 
-constexpr ::UnityEngine::CanvasGroup __get__setupCanvasGroup() const;
+constexpr UnityEngine::CanvasGroup __get__setupCanvasGroup() const;
 
- ::UnityEngine::UI::Toggle __declspec(property(get=__get__overrideAudioLatencyToggle, put=__set__overrideAudioLatencyToggle))  _overrideAudioLatencyToggle;
+ UnityEngine::UI::Toggle __declspec(property(get=__get__overrideAudioLatencyToggle, put=__set__overrideAudioLatencyToggle))  _overrideAudioLatencyToggle;
 
-constexpr void __set__overrideAudioLatencyToggle(::UnityEngine::UI::Toggle value) ;
+constexpr void __set__overrideAudioLatencyToggle(UnityEngine::UI::Toggle value) ;
 
-constexpr ::UnityEngine::UI::Toggle __get__overrideAudioLatencyToggle() const;
+constexpr UnityEngine::UI::Toggle __get__overrideAudioLatencyToggle() const;
 
- ::HMUI::RangeValuesTextSlider __declspec(property(get=__get__slider, put=__set__slider))  _slider;
+ HMUI::RangeValuesTextSlider __declspec(property(get=__get__slider, put=__set__slider))  _slider;
 
-constexpr void __set__slider(::HMUI::RangeValuesTextSlider value) ;
+constexpr void __set__slider(HMUI::RangeValuesTextSlider value) ;
 
-constexpr ::HMUI::RangeValuesTextSlider __get__slider() const;
+constexpr HMUI::RangeValuesTextSlider __get__slider() const;
 
- ::GlobalNamespace::VisualMetronome __declspec(property(get=__get__visualMetronome, put=__set__visualMetronome))  _visualMetronome;
+ GlobalNamespace::VisualMetronome __declspec(property(get=__get__visualMetronome, put=__set__visualMetronome))  _visualMetronome;
 
-constexpr void __set__visualMetronome(::GlobalNamespace::VisualMetronome value) ;
+constexpr void __set__visualMetronome(GlobalNamespace::VisualMetronome value) ;
 
-constexpr ::GlobalNamespace::VisualMetronome __get__visualMetronome() const;
+constexpr GlobalNamespace::VisualMetronome __get__visualMetronome() const;
 
  float_t __declspec(property(get=__get__disabledAlpha, put=__set__disabledAlpha))  _disabledAlpha;
 
@@ -115,17 +114,17 @@ constexpr void __set__disabledAlpha(float_t value) ;
 
 constexpr float_t __get__disabledAlpha() const;
 
- ::GlobalNamespace::SongPreviewPlayer __declspec(property(get=__get__songPreviewPlayer, put=__set__songPreviewPlayer))  _songPreviewPlayer;
+ GlobalNamespace::SongPreviewPlayer __declspec(property(get=__get__songPreviewPlayer, put=__set__songPreviewPlayer))  _songPreviewPlayer;
 
-constexpr void __set__songPreviewPlayer(::GlobalNamespace::SongPreviewPlayer value) ;
+constexpr void __set__songPreviewPlayer(GlobalNamespace::SongPreviewPlayer value) ;
 
-constexpr ::GlobalNamespace::SongPreviewPlayer __get__songPreviewPlayer() const;
+constexpr GlobalNamespace::SongPreviewPlayer __get__songPreviewPlayer() const;
 
- ::HMUI::ToggleBinder __declspec(property(get=__get__toggleBinder, put=__set__toggleBinder))  _toggleBinder;
+ HMUI::ToggleBinder __declspec(property(get=__get__toggleBinder, put=__set__toggleBinder))  _toggleBinder;
 
-constexpr void __set__toggleBinder(::HMUI::ToggleBinder value) ;
+constexpr void __set__toggleBinder(HMUI::ToggleBinder value) ;
 
-constexpr ::HMUI::ToggleBinder __get__toggleBinder() const;
+constexpr HMUI::ToggleBinder __get__toggleBinder() const;
 
 
 // Methods
@@ -140,7 +139,7 @@ constexpr ::HMUI::ToggleBinder __get__toggleBinder() const;
  void OnDestroy() ;
 
 /// @brief Method SliderValueDidChange addr 0x21552ec size 0x74 virtual false final false
- void SliderValueDidChange(::HMUI::RangeValuesTextSlider slider, float_t value) ;
+ void SliderValueDidChange(HMUI::RangeValuesTextSlider slider, float_t value) ;
 
 /// @brief Method HandleOverrideAudioLatencyToggleValueChanged addr 0x2155360 size 0x68 virtual false final false
  void HandleOverrideAudioLatencyToggleValueChanged(bool isOn) ;
@@ -158,6 +157,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::AudioLatencyViewController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AudioLatencyViewController, "", "AudioLatencyViewController");
+NEED_NO_BOX(GlobalNamespace::AudioLatencyViewController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioLatencyViewController, "", "AudioLatencyViewController");

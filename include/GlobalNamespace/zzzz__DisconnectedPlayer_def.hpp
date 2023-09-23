@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
 namespace GlobalNamespace {
 struct DisconnectedReason;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 struct MultiplayerAvatarData;
@@ -27,8 +26,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE DisconnectedPlayer : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IConnectedPlayer
-constexpr operator  ::GlobalNamespace::IConnectedPlayer() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IConnectedPlayer
+constexpr operator  GlobalNamespace::IConnectedPlayer() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x98};
@@ -81,11 +80,11 @@ constexpr void __set__sortIndex_k__BackingField(int32_t value) ;
 
 constexpr int32_t __get__sortIndex_k__BackingField() const;
 
- ::GlobalNamespace::MultiplayerAvatarData __declspec(property(get=__get__multiplayerAvatarData_k__BackingField, put=__set__multiplayerAvatarData_k__BackingField))  _multiplayerAvatarData_k__BackingField;
+ GlobalNamespace::MultiplayerAvatarData __declspec(property(get=__get__multiplayerAvatarData_k__BackingField, put=__set__multiplayerAvatarData_k__BackingField))  _multiplayerAvatarData_k__BackingField;
 
-constexpr void __set__multiplayerAvatarData_k__BackingField(::GlobalNamespace::MultiplayerAvatarData value) ;
+constexpr void __set__multiplayerAvatarData_k__BackingField(GlobalNamespace::MultiplayerAvatarData value) ;
 
-constexpr ::GlobalNamespace::MultiplayerAvatarData __get__multiplayerAvatarData_k__BackingField() const;
+constexpr GlobalNamespace::MultiplayerAvatarData __get__multiplayerAvatarData_k__BackingField() const;
 
 
 // Properties
@@ -106,13 +105,13 @@ constexpr ::GlobalNamespace::MultiplayerAvatarData __get__multiplayerAvatarData_
 
  bool __declspec(property(get=get_isConnected))  isConnected;
 
- ::GlobalNamespace::DisconnectedReason __declspec(property(get=get_disconnectedReason))  disconnectedReason;
+ GlobalNamespace::DisconnectedReason __declspec(property(get=get_disconnectedReason))  disconnectedReason;
 
  bool __declspec(property(get=get_isConnectionOwner))  isConnectionOwner;
 
  int32_t __declspec(property(get=get_sortIndex))  sortIndex;
 
- ::GlobalNamespace::MultiplayerAvatarData __declspec(property(get=get_multiplayerAvatarData))  multiplayerAvatarData;
+ GlobalNamespace::MultiplayerAvatarData __declspec(property(get=get_multiplayerAvatarData))  multiplayerAvatarData;
 
  bool __declspec(property(get=get_isKicked))  isKicked;
 
@@ -150,7 +149,7 @@ constexpr ::GlobalNamespace::MultiplayerAvatarData __get__multiplayerAvatarData_
  bool get_isConnected() ;
 
 /// @brief Method get_disconnectedReason addr 0xda6bd4 size 0x8 virtual true final true
- ::GlobalNamespace::DisconnectedReason get_disconnectedReason() ;
+ GlobalNamespace::DisconnectedReason get_disconnectedReason() ;
 
 /// @brief Method get_isConnectionOwner addr 0xda6bdc size 0x8 virtual true final true
  bool get_isConnectionOwner() ;
@@ -159,7 +158,7 @@ constexpr ::GlobalNamespace::MultiplayerAvatarData __get__multiplayerAvatarData_
  int32_t get_sortIndex() ;
 
 /// @brief Method get_multiplayerAvatarData addr 0xda6bec size 0x10 virtual true final true
- ::GlobalNamespace::MultiplayerAvatarData get_multiplayerAvatarData() ;
+ GlobalNamespace::MultiplayerAvatarData get_multiplayerAvatarData() ;
 
 /// @brief Method get_isKicked addr 0xda6bfc size 0x8 virtual true final true
  bool get_isKicked() ;
@@ -177,6 +176,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::DisconnectedPlayer);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DisconnectedPlayer, "", "DisconnectedPlayer");
+NEED_NO_BOX(GlobalNamespace::DisconnectedPlayer);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisconnectedPlayer, "", "DisconnectedPlayer");

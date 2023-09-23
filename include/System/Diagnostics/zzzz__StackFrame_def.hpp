@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Reflection {
 class MethodBase;
 }
@@ -81,11 +80,11 @@ constexpr void __set_methodIndex(uint32_t value) ;
 
 constexpr uint32_t __get_methodIndex() const;
 
- ::System::Reflection::MethodBase __declspec(property(get=__get_methodBase, put=__set_methodBase))  methodBase;
+ System::Reflection::MethodBase __declspec(property(get=__get_methodBase, put=__set_methodBase))  methodBase;
 
-constexpr void __set_methodBase(::System::Reflection::MethodBase value) ;
+constexpr void __set_methodBase(System::Reflection::MethodBase value) ;
 
-constexpr ::System::Reflection::MethodBase __get_methodBase() const;
+constexpr System::Reflection::MethodBase __get_methodBase() const;
 
  ::StringW __declspec(property(get=__get_fileName, put=__set_fileName))  fileName;
 
@@ -115,7 +114,7 @@ constexpr ::StringW __get_internalMethodName() const;
 // Methods
 
 /// @brief Method get_frame_info addr 0x240c224 size 0x8 virtual false final false
-static bool get_frame_info(int32_t skip, bool needFileInfo, ByRef<::System::Reflection::MethodBase> method, ByRef<int32_t> iloffset, ByRef<int32_t> native_offset, ByRef<::StringW> file, ByRef<int32_t> line, ByRef<int32_t> column) ;
+static bool get_frame_info(int32_t skip, bool needFileInfo, ByRef<System::Reflection::MethodBase> method, ByRef<int32_t> iloffset, ByRef<int32_t> native_offset, ByRef<::StringW> file, ByRef<int32_t> line, ByRef<int32_t> column) ;
 
 // Ctor Parameters []
 explicit StackFrame() ;
@@ -142,7 +141,7 @@ explicit StackFrame(int32_t skipFrames, bool fNeedFileInfo) ;
  int32_t GetILOffset() ;
 
 /// @brief Method GetMethod addr 0x240c3c8 size 0x8 virtual true final false
- ::System::Reflection::MethodBase GetMethod() ;
+ System::Reflection::MethodBase GetMethod() ;
 
 /// @brief Method GetNativeOffset addr 0x240c3d0 size 0x8 virtual true final false
  int32_t GetNativeOffset() ;
@@ -163,6 +162,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Diagnostics
-} // end anonymous namespace
-NEED_NO_BOX(::System::Diagnostics::StackFrame);
-DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::StackFrame, "System.Diagnostics", "StackFrame");
+NEED_NO_BOX(System::Diagnostics::StackFrame);
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::StackFrame, "System.Diagnostics", "StackFrame");

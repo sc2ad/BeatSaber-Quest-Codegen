@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Net::NetworkInformation {
-struct NetworkInterfaceType;
+struct OperationalStatus;
 }
 namespace System::Net::NetworkInformation {
 class IPInterfaceProperties;
 }
 namespace System::Net::NetworkInformation {
-struct OperationalStatus;
+struct NetworkInterfaceType;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {
@@ -61,27 +60,27 @@ constexpr explicit NetworkInterface(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
  ::StringW __declspec(property(get=get_Name))  Name;
 
- ::System::Net::NetworkInformation::OperationalStatus __declspec(property(get=get_OperationalStatus))  OperationalStatus;
+ System::Net::NetworkInformation::OperationalStatus __declspec(property(get=get_OperationalStatus))  OperationalStatus;
 
- ::System::Net::NetworkInformation::NetworkInterfaceType __declspec(property(get=get_NetworkInterfaceType))  NetworkInterfaceType;
+ System::Net::NetworkInformation::NetworkInterfaceType __declspec(property(get=get_NetworkInterfaceType))  NetworkInterfaceType;
 
 
 // Methods
 
 /// @brief Method GetAllNetworkInterfaces addr 0x28590a8 size 0x4c virtual false final false
-static ::ArrayW<::System::Net::NetworkInformation::NetworkInterface> GetAllNetworkInterfaces() ;
+static ::ArrayW<System::Net::NetworkInformation::NetworkInterface> GetAllNetworkInterfaces() ;
 
 /// @brief Method get_Name addr 0x28591f0 size 0x40 virtual true final false
  ::StringW get_Name() ;
 
 /// @brief Method GetIPProperties addr 0x2859230 size 0x40 virtual true final false
- ::System::Net::NetworkInformation::IPInterfaceProperties GetIPProperties() ;
+ System::Net::NetworkInformation::IPInterfaceProperties GetIPProperties() ;
 
 /// @brief Method get_OperationalStatus addr 0x2859270 size 0x40 virtual true final false
- ::System::Net::NetworkInformation::OperationalStatus get_OperationalStatus() ;
+ System::Net::NetworkInformation::OperationalStatus get_OperationalStatus() ;
 
 /// @brief Method get_NetworkInterfaceType addr 0x28592b0 size 0x40 virtual true final false
- ::System::Net::NetworkInformation::NetworkInterfaceType get_NetworkInterfaceType() ;
+ System::Net::NetworkInformation::NetworkInterfaceType get_NetworkInterfaceType() ;
 
 // Ctor Parameters []
 explicit NetworkInterface() ;
@@ -93,6 +92,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::NetworkInformation
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::NetworkInformation::NetworkInterface);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::NetworkInterface, "System.Net.NetworkInformation", "NetworkInterface");
+NEED_NO_BOX(System::Net::NetworkInformation::NetworkInterface);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::NetworkInterface, "System.Net.NetworkInformation", "NetworkInterface");

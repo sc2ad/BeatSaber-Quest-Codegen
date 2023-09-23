@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Crypto::Paddings {
 class IBlockCipherPadding;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Paddings {
@@ -24,8 +23,8 @@ namespace Org::BouncyCastle::Crypto::Paddings {
 class CORDL_TYPE Pkcs7Padding : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding
-constexpr operator  ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding
+constexpr operator  Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -66,7 +65,7 @@ constexpr explicit Pkcs7Padding(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 // Methods
 
 /// @brief Method Init addr 0xea1f70 size 0x4 virtual true final true
- void Init(::Org::BouncyCastle::Security::SecureRandom random) ;
+ void Init(Org::BouncyCastle::Security::SecureRandom random) ;
 
 /// @brief Method get_PaddingName addr 0xea1f74 size 0x40 virtual true final true
  ::StringW get_PaddingName() ;
@@ -87,6 +86,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Paddings
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Paddings::Pkcs7Padding);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Paddings::Pkcs7Padding, "Org.BouncyCastle.Crypto.Paddings", "Pkcs7Padding");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Paddings::Pkcs7Padding);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Paddings::Pkcs7Padding, "Org.BouncyCastle.Crypto.Paddings", "Pkcs7Padding");

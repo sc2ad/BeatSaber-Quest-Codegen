@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_string_def.hpp"
-namespace {
 namespace System::Xml::Schema {
 struct XmlTypeCode;
 }
@@ -15,7 +14,7 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11569))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11595))
 // CS Name: System.Xml.Schema.Datatype_normalizedStringV1Compat
-class CORDL_TYPE Datatype_normalizedStringV1Compat : public ::System::Xml::Schema::Datatype_string {
+class CORDL_TYPE Datatype_normalizedStringV1Compat : public System::Xml::Schema::Datatype_string {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr Datatype_normalizedStringV1Compat(Datatype_normalizedStringV1Compat co
 constexpr Datatype_normalizedStringV1Compat(Datatype_normalizedStringV1Compat&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Datatype_normalizedStringV1Compat(void* ptr) noexcept : ::System::Xml::Schema::Datatype_string(ptr) {
+constexpr explicit Datatype_normalizedStringV1Compat(void* ptr) noexcept : System::Xml::Schema::Datatype_string(ptr) {
 }
 
 
@@ -51,13 +50,13 @@ constexpr explicit Datatype_normalizedStringV1Compat(void* ptr) noexcept : ::Sys
 
 // Properties
 
- ::System::Xml::Schema::XmlTypeCode __declspec(property(get=get_TypeCode))  TypeCode;
+ System::Xml::Schema::XmlTypeCode __declspec(property(get=get_TypeCode))  TypeCode;
 
 
 // Methods
 
 /// @brief Method get_TypeCode addr 0x2727cf8 size 0x8 virtual true final false
- ::System::Xml::Schema::XmlTypeCode get_TypeCode() ;
+ System::Xml::Schema::XmlTypeCode get_TypeCode() ;
 
 // Ctor Parameters []
 explicit Datatype_normalizedStringV1Compat() ;
@@ -69,6 +68,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::Datatype_normalizedStringV1Compat);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::Datatype_normalizedStringV1Compat, "System.Xml.Schema", "Datatype_normalizedStringV1Compat");
+NEED_NO_BOX(System::Xml::Schema::Datatype_normalizedStringV1Compat);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::Datatype_normalizedStringV1Compat, "System.Xml.Schema", "Datatype_normalizedStringV1Compat");

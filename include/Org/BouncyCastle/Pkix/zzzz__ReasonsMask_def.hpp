@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Asn1::X509 {
 class ReasonFlags;
 }
@@ -58,18 +57,18 @@ constexpr void __set__reasons(int32_t value) ;
 
 constexpr int32_t __get__reasons() const;
 
-static ::Org::BouncyCastle::Pkix::ReasonsMask __declspec(property(get=__get_AllReasons, put=__set_AllReasons))  AllReasons;
+static Org::BouncyCastle::Pkix::ReasonsMask __declspec(property(get=__get_AllReasons, put=__set_AllReasons))  AllReasons;
 
-static void __set_AllReasons(::Org::BouncyCastle::Pkix::ReasonsMask value) ;
+static void __set_AllReasons(Org::BouncyCastle::Pkix::ReasonsMask value) ;
 
-static ::Org::BouncyCastle::Pkix::ReasonsMask __get_AllReasons() ;
+static Org::BouncyCastle::Pkix::ReasonsMask __get_AllReasons() ;
 
 
 // Properties
 
  bool __declspec(property(get=get_IsAllReasons))  IsAllReasons;
 
- ::Org::BouncyCastle::Asn1::X509::ReasonFlags __declspec(property(get=get_Reasons))  Reasons;
+ Org::BouncyCastle::Asn1::X509::ReasonFlags __declspec(property(get=get_Reasons))  Reasons;
 
 
 // Methods
@@ -87,24 +86,23 @@ explicit ReasonsMask() ;
  void _ctor() ;
 
 /// @brief Method AddReasons addr 0x10871e8 size 0x48 virtual false final false
- void AddReasons(::Org::BouncyCastle::Pkix::ReasonsMask mask) ;
+ void AddReasons(Org::BouncyCastle::Pkix::ReasonsMask mask) ;
 
 /// @brief Method get_IsAllReasons addr 0x1087298 size 0x74 virtual false final false
  bool get_IsAllReasons() ;
 
 /// @brief Method Intersect addr 0x108730c size 0xc8 virtual false final false
- ::Org::BouncyCastle::Pkix::ReasonsMask Intersect(::Org::BouncyCastle::Pkix::ReasonsMask mask) ;
+ Org::BouncyCastle::Pkix::ReasonsMask Intersect(Org::BouncyCastle::Pkix::ReasonsMask mask) ;
 
 /// @brief Method HasNewReasons addr 0x10873d4 size 0x54 virtual false final false
- bool HasNewReasons(::Org::BouncyCastle::Pkix::ReasonsMask mask) ;
+ bool HasNewReasons(Org::BouncyCastle::Pkix::ReasonsMask mask) ;
 
 /// @brief Method get_Reasons addr 0x1087230 size 0x68 virtual false final false
- ::Org::BouncyCastle::Asn1::X509::ReasonFlags get_Reasons() ;
+ Org::BouncyCastle::Asn1::X509::ReasonFlags get_Reasons() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Pkix
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Pkix::ReasonsMask);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Pkix::ReasonsMask, "Org.BouncyCastle.Pkix", "ReasonsMask");
+NEED_NO_BOX(Org::BouncyCastle::Pkix::ReasonsMask);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Pkix::ReasonsMask, "Org.BouncyCastle.Pkix", "ReasonsMask");

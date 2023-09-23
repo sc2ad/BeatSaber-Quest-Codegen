@@ -1,16 +1,15 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace UnityEngine {
+class Transform;
+}
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace GlobalNamespace {
 class IMultiplayerObservable;
-}
-namespace UnityEngine {
-class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -36,9 +35,9 @@ constexpr explicit IMultiplayerSpectatingSpot(void* ptr) noexcept : ::cordl_inte
 
  bool __declspec(property(get=get_isMain))  isMain;
 
- ::GlobalNamespace::IMultiplayerObservable __declspec(property(get=get_observable))  observable;
+ GlobalNamespace::IMultiplayerObservable __declspec(property(get=get_observable))  observable;
 
- ::UnityEngine::Transform __declspec(property(get=get_transform))  transform;
+ UnityEngine::Transform __declspec(property(get=get_transform))  transform;
 
  ::StringW __declspec(property(get=get_spotName))  spotName;
 
@@ -46,19 +45,19 @@ constexpr explicit IMultiplayerSpectatingSpot(void* ptr) noexcept : ::cordl_inte
 // Methods
 
 /// @brief Method add_hasBeenRemovedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void add_hasBeenRemovedEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot> value) ;
+ void add_hasBeenRemovedEvent(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot> value) ;
 
 /// @brief Method remove_hasBeenRemovedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void remove_hasBeenRemovedEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot> value) ;
+ void remove_hasBeenRemovedEvent(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot> value) ;
 
 /// @brief Method get_isMain addr 0x0 size 0xffffffffffffffff virtual true final false
  bool get_isMain() ;
 
 /// @brief Method get_observable addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::IMultiplayerObservable get_observable() ;
+ GlobalNamespace::IMultiplayerObservable get_observable() ;
 
 /// @brief Method get_transform addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Transform get_transform() ;
+ UnityEngine::Transform get_transform() ;
 
 /// @brief Method get_spotName addr 0x0 size 0xffffffffffffffff virtual true final false
  ::StringW get_spotName() ;
@@ -70,6 +69,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IMultiplayerSpectatingSpot);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IMultiplayerSpectatingSpot, "", "IMultiplayerSpectatingSpot");
+NEED_NO_BOX(GlobalNamespace::IMultiplayerSpectatingSpot);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IMultiplayerSpectatingSpot, "", "IMultiplayerSpectatingSpot");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct PrimitiveType;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Sphere offset 0
-static ::UnityEngine::PrimitiveType const Sphere;
+static UnityEngine::PrimitiveType const Sphere;
 
 /// @brief Field Capsule offset 0
-static ::UnityEngine::PrimitiveType const Capsule;
+static UnityEngine::PrimitiveType const Capsule;
 
 /// @brief Field Cylinder offset 0
-static ::UnityEngine::PrimitiveType const Cylinder;
+static UnityEngine::PrimitiveType const Cylinder;
 
 /// @brief Field Cube offset 0
-static ::UnityEngine::PrimitiveType const Cube;
+static UnityEngine::PrimitiveType const Cube;
 
 /// @brief Field Plane offset 0
-static ::UnityEngine::PrimitiveType const Plane;
+static UnityEngine::PrimitiveType const Plane;
 
 /// @brief Field Quad offset 0
-static ::UnityEngine::PrimitiveType const Quad;
+static UnityEngine::PrimitiveType const Quad;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PrimitiveType, "UnityEngine", "PrimitiveType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PrimitiveType, "UnityEngine", "PrimitiveType");

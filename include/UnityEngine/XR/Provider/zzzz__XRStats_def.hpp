@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 class IntegratedSubsystem;
 }
@@ -56,7 +55,7 @@ constexpr explicit XRStats(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(pt
 // Methods
 
 /// @brief Method TryGetStat addr 0x2d3abcc size 0x5c virtual false final false
-static bool TryGetStat(::UnityEngine::IntegratedSubsystem xrSubsystem, ::StringW tag, ByRef<float_t> value) ;
+static bool TryGetStat(UnityEngine::IntegratedSubsystem xrSubsystem, ::StringW tag, ByRef<float_t> value) ;
 
 /// @brief Method TryGetStat_Internal addr 0x2d3ac28 size 0x54 virtual false final false
 static bool TryGetStat_Internal(::cordl_internals::intptr_t ptr, ::StringW tag, ByRef<float_t> value) ;
@@ -65,6 +64,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR::Provider
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::XR::Provider::XRStats);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::Provider::XRStats, "UnityEngine.XR.Provider", "XRStats");
+NEED_NO_BOX(UnityEngine::XR::Provider::XRStats);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::Provider::XRStats, "UnityEngine.XR.Provider", "XRStats");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
 struct HandleAxis;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field X offset 0
-static ::UnityEngine::ProBuilder::HandleAxis const X;
+static UnityEngine::ProBuilder::HandleAxis const X;
 
 /// @brief Field Y offset 0
-static ::UnityEngine::ProBuilder::HandleAxis const Y;
+static UnityEngine::ProBuilder::HandleAxis const Y;
 
 /// @brief Field Z offset 0
-static ::UnityEngine::ProBuilder::HandleAxis const Z;
+static UnityEngine::ProBuilder::HandleAxis const Z;
 
 /// @brief Field Free offset 0
-static ::UnityEngine::ProBuilder::HandleAxis const Free;
+static UnityEngine::ProBuilder::HandleAxis const Free;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::HandleAxis, "UnityEngine.ProBuilder", "HandleAxis");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::HandleAxis, "UnityEngine.ProBuilder", "HandleAxis");

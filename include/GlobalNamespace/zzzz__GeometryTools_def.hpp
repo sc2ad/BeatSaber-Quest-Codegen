@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -56,7 +55,7 @@ constexpr explicit GeometryTools(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 // Methods
 
 /// @brief Method ThreePointsToBox addr 0x1f78274 size 0x3ec virtual false final false
-static bool ThreePointsToBox(::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2, ByRef<::UnityEngine::Vector3> center, ByRef<::UnityEngine::Vector3> halfSize, ByRef<::UnityEngine::Quaternion> orientation) ;
+static bool ThreePointsToBox(UnityEngine::Vector3 p0, UnityEngine::Vector3 p1, UnityEngine::Vector3 p2, ByRef<UnityEngine::Vector3> center, ByRef<UnityEngine::Vector3> halfSize, ByRef<UnityEngine::Quaternion> orientation) ;
 
 // Ctor Parameters []
 explicit GeometryTools() ;
@@ -68,6 +67,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::GeometryTools);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GeometryTools, "", "GeometryTools");
+NEED_NO_BOX(GlobalNamespace::GeometryTools);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GeometryTools, "", "GeometryTools");

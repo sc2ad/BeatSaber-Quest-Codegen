@@ -9,135 +9,134 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace HoudiniEngineUnity {
 class HEU_SessionBase;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
-class Collider;
-}
-namespace HoudiniEngineUnity {
-class HEU_RecookPreset;
-}
-namespace HoudiniEngineUnity {
-class HEU_ReloadDataEvent;
-}
-namespace HoudiniEngineUnity {
-class HEU_ObjectInstanceInfo;
-}
-namespace HoudiniEngineUnity {
-class HEU_ToolsInfo;
-}
-namespace HoudiniEngineUnity {
-class HEU_AssetSerializedMetaData;
 }
 namespace HoudiniEngineUnity {
 class HEU_InstanceInputUIState;
 }
 namespace HoudiniEngineUnity {
-class HEU_GeneratedOutput;
+class BakedEvent;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace HoudiniEngineUnity {
-class HEU_VolumeCachePreset;
+class HEU_RecookPreset;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine::Events {
+template<typename T0,typename T1,typename T2>
+class UnityAction_3;
+}
+namespace UnityEngine {
+struct LayerMask;
+}
+namespace UnityEngine {
+class Collider;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace HoudiniEngineUnity {
+class HEU_PreAssetEvent;
+}
+namespace HoudiniEngineUnity {
+class HEU_AssetSerializedMetaData;
+}
+namespace HoudiniEngineUnity {
+class HEU_ObjectNode;
+}
+namespace HoudiniEngineUnity {
+class HEU_CookedDataEvent;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace HoudiniEngineUnity {
+class HEU_BakedDataEvent;
+}
+namespace HoudiniEngineUnity {
+class HEU_Handle;
+}
+namespace HoudiniEngineUnity {
+class HEU_MaterialData;
+}
+namespace HoudiniEngineUnity {
+class HEU_InputNode;
+}
+namespace HoudiniEngineUnity {
+class HEU_ObjectInstanceInfo;
+}
+namespace HoudiniEngineUnity {
+class CookedEvent;
 }
 namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivable_1;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_ObjectInfo;
-}
-namespace HoudiniEngineUnity {
-class HEU_InputNode;
-}
-namespace HoudiniEngineUnity {
-class HEU_VolumeCache;
-}
-namespace UnityEngine {
-struct LayerMask;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace HoudiniEngineUnity {
-class HEU_InputPreset;
-}
-namespace HoudiniEngineUnity {
-class HEU_PreAssetEvent;
-}
-namespace HoudiniEngineUnity {
-class HEU_MaterialData;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_Transform;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_NodeInfo;
-}
-namespace UnityEngine::Events {
-template<typename T0,typename T1,typename T2>
-class UnityAction_3;
-}
-namespace HoudiniEngineUnity {
-class HEU_Handle;
-}
-namespace UnityEngine {
-class Object;
-}
-namespace HoudiniEngineUnity {
-struct ____HoudiniEngineUnity__HEU_Curve__CurveDrawCollision;
-}
-namespace HoudiniEngineUnity {
-class CookedEvent;
-}
-namespace HoudiniEngineUnity {
-class HEU_Curve;
-}
-namespace HoudiniEngineUnity {
-class HEU_CookedDataEvent;
-}
-namespace HoudiniEngineUnity {
-class ReloadEvent;
-}
-namespace HoudiniEngineUnity {
-class HEU_ObjectNode;
-}
-namespace UnityEngine {
-struct Vector3;
+struct HoudiniEngineUnity__HEU_Curve__CurveDrawCollision;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_AssetInfo;
-}
-namespace HoudiniEngineUnity {
-class HEU_AssetPreset;
-}
-namespace HoudiniEngineUnity {
-class HEU_AttributesStore;
-}
-namespace HoudiniEngineUnity {
-class HEU_GeoNode;
-}
-namespace HoudiniEngineUnity {
-class HEU_BakedDataEvent;
-}
-namespace HoudiniEngineUnity {
-class BakedEvent;
 }
 namespace HoudiniEngineUnity {
 class HEU_PartData;
 }
 namespace HoudiniEngineUnity {
 class HEU_Parameters;
+}
+namespace HoudiniEngineUnity {
+class HEU_ReloadDataEvent;
+}
+namespace HoudiniEngineUnity {
+class HEU_ToolsInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_NodeInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_ObjectInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_Transform;
+}
+namespace HoudiniEngineUnity {
+class HEU_GeneratedOutput;
+}
+namespace HoudiniEngineUnity {
+class HEU_Curve;
+}
+namespace UnityEngine {
+class Object;
+}
+namespace HoudiniEngineUnity {
+class HEU_VolumeCache;
+}
+namespace HoudiniEngineUnity {
+class HEU_VolumeCachePreset;
+}
+namespace HoudiniEngineUnity {
+class HEU_GeoNode;
+}
+namespace HoudiniEngineUnity {
+class HEU_AssetPreset;
+}
+namespace HoudiniEngineUnity {
+class HEU_InputPreset;
+}
+namespace HoudiniEngineUnity {
+class ReloadEvent;
+}
+namespace HoudiniEngineUnity {
+class HEU_AttributesStore;
 }
 namespace System {
 class IAsyncResult;
@@ -149,11 +148,11 @@ namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
-namespace UnityEngine {
-class Transform;
-}
 namespace HoudiniEngineUnity {
 struct TransformData;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace System {
 template<typename T>
@@ -161,34 +160,34 @@ class Predicate_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
-struct ____HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction;
+struct HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction;
 }
 namespace HoudiniEngineUnity {
-struct ____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult;
+struct HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult;
 }
 namespace HoudiniEngineUnity {
-struct ____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus;
+struct HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus;
 }
 namespace HoudiniEngineUnity {
-struct ____HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod;
+struct HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod;
 }
 namespace HoudiniEngineUnity {
-struct ____HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType;
+struct HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType;
 }
 namespace HoudiniEngineUnity {
 class HEU_HoudiniAsset;
 }
 namespace HoudiniEngineUnity {
-class ____HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate;
+class HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate;
 }
 namespace HoudiniEngineUnity {
-class ____HoudiniEngineUnity__HEU_HoudiniAsset____c;
+class HoudiniEngineUnity__HEU_HoudiniAsset____c;
 }
 namespace HoudiniEngineUnity {
-class ____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0;
+class HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0;
 }
 namespace HoudiniEngineUnity {
-class ____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0;
+class HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0;
 }
 // Type: ::HEU_AssetType
 namespace HoudiniEngineUnity {
@@ -196,20 +195,20 @@ namespace HoudiniEngineUnity {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9571))
 // CS Name: HoudiniEngineUnity.HEU_HoudiniAsset::HEU_AssetType
-struct CORDL_TYPE ____HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType(int32_t value__) noexcept;
+constexpr HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType(int32_t value__) noexcept;
 
 
-                    constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType(____HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType const&) = default;
-                    constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType(____HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType&&) = default;
-                    constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType& operator=(____HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType const& o) {
+                    constexpr HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType(HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType const&) = default;
+                    constexpr HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType(HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType&&) = default;
+                    constexpr HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType& operator=(HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType& operator=(____HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType&& o) noexcept {
+                    constexpr HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType& operator=(HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -222,7 +221,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -230,7 +229,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType_Unwrapped : int32_t {
+enum class __HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType_Unwrapped : int32_t {
 __TYPE_INVALID = 0,
 __TYPE_HDA = 1,
 __TYPE_CURVE = 2,
@@ -238,8 +237,8 @@ __TYPE_INPUT = 3,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType_Unwrapped () const noexcept {
-return std::bit_cast<______HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType_Unwrapped>(__instance);
+constexpr operator __HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType_Unwrapped () const noexcept {
+return std::bit_cast<__HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType_Unwrapped>(__instance);
 }
 
 
@@ -252,16 +251,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field TYPE_INVALID offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType const TYPE_INVALID;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType const TYPE_INVALID;
 
 /// @brief Field TYPE_HDA offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType const TYPE_HDA;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType const TYPE_HDA;
 
 /// @brief Field TYPE_CURVE offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType const TYPE_CURVE;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType const TYPE_CURVE;
 
 /// @brief Field TYPE_INPUT offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType const TYPE_INPUT;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType const TYPE_INPUT;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -273,20 +272,20 @@ namespace HoudiniEngineUnity {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9572))
 // CS Name: HoudiniEngineUnity.HEU_HoudiniAsset::AssetBuildAction
-struct CORDL_TYPE ____HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction(int32_t value__) noexcept;
+constexpr HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction(int32_t value__) noexcept;
 
 
-                    constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction(____HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction const&) = default;
-                    constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction(____HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction&&) = default;
-                    constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction& operator=(____HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction const& o) {
+                    constexpr HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction(HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction const&) = default;
+                    constexpr HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction(HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction&&) = default;
+                    constexpr HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction& operator=(HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction& operator=(____HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction&& o) noexcept {
+                    constexpr HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction& operator=(HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -299,7 +298,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -307,7 +306,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction_Unwrapped : int32_t {
+enum class __HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction_Unwrapped : int32_t {
 __NONE = 0,
 __RELOAD = 1,
 __COOK = 2,
@@ -318,8 +317,8 @@ __RESET_PARAMS = 6,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction_Unwrapped () const noexcept {
-return std::bit_cast<______HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction_Unwrapped>(__instance);
+constexpr operator __HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction_Unwrapped () const noexcept {
+return std::bit_cast<__HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction_Unwrapped>(__instance);
 }
 
 
@@ -332,25 +331,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field NONE offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction const NONE;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction const NONE;
 
 /// @brief Field RELOAD offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction const RELOAD;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction const RELOAD;
 
 /// @brief Field COOK offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction const COOK;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction const COOK;
 
 /// @brief Field INVALID offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction const INVALID;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction const INVALID;
 
 /// @brief Field STRIP_HEDATA offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction const STRIP_HEDATA;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction const STRIP_HEDATA;
 
 /// @brief Field DUPLICATE offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction const DUPLICATE;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction const DUPLICATE;
 
 /// @brief Field RESET_PARAMS offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction const RESET_PARAMS;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction const RESET_PARAMS;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -362,20 +361,20 @@ namespace HoudiniEngineUnity {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9573))
 // CS Name: HoudiniEngineUnity.HEU_HoudiniAsset::AssetCookStatus
-struct CORDL_TYPE ____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus(int32_t value__) noexcept;
+constexpr HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus(int32_t value__) noexcept;
 
 
-                    constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus(____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus const&) = default;
-                    constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus(____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus&&) = default;
-                    constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus& operator=(____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus const& o) {
+                    constexpr HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus(HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus const&) = default;
+                    constexpr HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus(HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus&&) = default;
+                    constexpr HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus& operator=(HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus& operator=(____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus&& o) noexcept {
+                    constexpr HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus& operator=(HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -388,7 +387,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -396,7 +395,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus_Unwrapped : int32_t {
+enum class __HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus_Unwrapped : int32_t {
 __NONE = 0,
 __COOKING = 1,
 __POSTCOOK = 2,
@@ -407,8 +406,8 @@ __SELECT_SUBASSET = 6,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus_Unwrapped () const noexcept {
-return std::bit_cast<______HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus_Unwrapped>(__instance);
+constexpr operator __HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus_Unwrapped () const noexcept {
+return std::bit_cast<__HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus_Unwrapped>(__instance);
 }
 
 
@@ -421,25 +420,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field NONE offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus const NONE;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus const NONE;
 
 /// @brief Field COOKING offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus const COOKING;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus const COOKING;
 
 /// @brief Field POSTCOOK offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus const POSTCOOK;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus const POSTCOOK;
 
 /// @brief Field LOADING offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus const LOADING;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus const LOADING;
 
 /// @brief Field POSTLOAD offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus const POSTLOAD;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus const POSTLOAD;
 
 /// @brief Field PRELOAD offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus const PRELOAD;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus const PRELOAD;
 
 /// @brief Field SELECT_SUBASSET offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus const SELECT_SUBASSET;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus const SELECT_SUBASSET;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -451,20 +450,20 @@ namespace HoudiniEngineUnity {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9574))
 // CS Name: HoudiniEngineUnity.HEU_HoudiniAsset::AssetCookResult
-struct CORDL_TYPE ____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult(int32_t value__) noexcept;
+constexpr HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult(int32_t value__) noexcept;
 
 
-                    constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult(____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult const&) = default;
-                    constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult(____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult&&) = default;
-                    constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult& operator=(____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult const& o) {
+                    constexpr HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult(HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult const&) = default;
+                    constexpr HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult(HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult&&) = default;
+                    constexpr HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult& operator=(HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult& operator=(____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult&& o) noexcept {
+                    constexpr HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult& operator=(HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -477,7 +476,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -485,15 +484,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult_Unwrapped : int32_t {
+enum class __HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult_Unwrapped : int32_t {
 __NONE = 0,
 __SUCCESS = 1,
 __ERRORED = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult_Unwrapped () const noexcept {
-return std::bit_cast<______HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult_Unwrapped>(__instance);
+constexpr operator __HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult_Unwrapped () const noexcept {
+return std::bit_cast<__HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult_Unwrapped>(__instance);
 }
 
 
@@ -506,13 +505,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field NONE offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult const NONE;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult const NONE;
 
 /// @brief Field SUCCESS offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult const SUCCESS;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult const SUCCESS;
 
 /// @brief Field ERRORED offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult const ERRORED;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult const ERRORED;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -524,44 +523,44 @@ namespace HoudiniEngineUnity {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9575))
 // CS Name: HoudiniEngineUnity.HEU_HoudiniAsset::UpdateUIDelegate
-class CORDL_TYPE ____HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate : public ::System::MulticastDelegate {
+class CORDL_TYPE HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x80};
 
-virtual ~____HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate() = default;
+virtual ~HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate", modifiers: " const&", def_value: None }]
-constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate(____HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate", modifiers: " const&", def_value: None }]
+constexpr HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate(HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate", modifiers: "&&", def_value: None }]
-constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate(____HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate", modifiers: "&&", def_value: None }]
+constexpr HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate(HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
-  constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate& operator=(std::nullptr_t) noexcept {
+  constexpr HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate& operator=(void* o) noexcept {
+  constexpr HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate& operator=(____HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate&& o) noexcept = default;
-  constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate& operator=(____HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate const& o) noexcept = default;
+  constexpr HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate& operator=(HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate&& o) noexcept = default;
+  constexpr HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate& operator=(HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit ____HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+explicit HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x1ff9794 size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -570,10 +569,10 @@ explicit ____HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate(::bs_hook::I
  void Invoke() ;
 
 /// @brief Method BeginInvoke addr 0x1ff9864 size 0x20 virtual true final false
- ::System::IAsyncResult BeginInvoke(::System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
+ System::IAsyncResult BeginInvoke(System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
 
 /// @brief Method EndInvoke addr 0x1ff9884 size 0xc virtual true final false
- void EndInvoke(::System::IAsyncResult result) ;
+ void EndInvoke(System::IAsyncResult result) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -585,20 +584,20 @@ namespace HoudiniEngineUnity {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9576))
 // CS Name: HoudiniEngineUnity.HEU_HoudiniAsset::AssetInstantiationMethod
-struct CORDL_TYPE ____HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod(int32_t value__) noexcept;
+constexpr HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod(int32_t value__) noexcept;
 
 
-                    constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod(____HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod const&) = default;
-                    constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod(____HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod&&) = default;
-                    constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod& operator=(____HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod const& o) {
+                    constexpr HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod(HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod const&) = default;
+                    constexpr HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod(HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod&&) = default;
+                    constexpr HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod& operator=(HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod& operator=(____HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod&& o) noexcept {
+                    constexpr HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod& operator=(HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -611,7 +610,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -619,15 +618,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod_Unwrapped : int32_t {
+enum class __HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod_Unwrapped : int32_t {
 __DEFAULT = 0,
 __DUPLICATED = 1,
 __UNDO = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod_Unwrapped () const noexcept {
-return std::bit_cast<______HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod_Unwrapped>(__instance);
+constexpr operator __HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod_Unwrapped () const noexcept {
+return std::bit_cast<__HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod_Unwrapped>(__instance);
 }
 
 
@@ -640,13 +639,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field DEFAULT offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod const DEFAULT;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod const DEFAULT;
 
 /// @brief Field DUPLICATED offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod const DUPLICATED;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod const DUPLICATED;
 
 /// @brief Field UNDO offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod const UNDO;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod const UNDO;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -658,59 +657,59 @@ namespace HoudiniEngineUnity {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9577))
 // CS Name: HoudiniEngineUnity.HEU_HoudiniAsset::<>c__DisplayClass281_0
-class CORDL_TYPE ____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0() = default;
+virtual ~HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0", modifiers: " const&", def_value: None }]
-constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0(____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0", modifiers: " const&", def_value: None }]
+constexpr HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0(HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0", modifiers: "&&", def_value: None }]
-constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0(____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0", modifiers: "&&", def_value: None }]
+constexpr HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0(HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0& operator=(std::nullptr_t) noexcept {
+  constexpr HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0& operator=(void* o) noexcept {
+  constexpr HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0& operator=(____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0&& o) noexcept = default;
-  constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0& operator=(____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0 const& o) noexcept = default;
+  constexpr HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0& operator=(HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0&& o) noexcept = default;
+  constexpr HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0& operator=(HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData> __declspec(property(get=__get_previousTransformValues, put=__set_previousTransformValues))  previousTransformValues;
+ System::Collections::Generic::List_1<HoudiniEngineUnity::TransformData> __declspec(property(get=__get_previousTransformValues, put=__set_previousTransformValues))  previousTransformValues;
 
-constexpr void __set_previousTransformValues(::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData> value) ;
+constexpr void __set_previousTransformValues(System::Collections::Generic::List_1<HoudiniEngineUnity::TransformData> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData> __get_previousTransformValues() const;
+constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::TransformData> __get_previousTransformValues() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0() ;
+explicit HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0() ;
 
 /// @brief Method .ctor addr 0x1ff9890 size 0x8 virtual false final false
  void _ctor() ;
 
 /// @brief Method <BakeToExistingPrefab>b__0 addr 0x1ff9898 size 0x10c virtual false final false
- void _BakeToExistingPrefab_b__0(::UnityEngine::Transform trans) ;
+ void _BakeToExistingPrefab_b__0(UnityEngine::Transform trans) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -722,92 +721,92 @@ namespace HoudiniEngineUnity {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9578))
 // CS Name: HoudiniEngineUnity.HEU_HoudiniAsset::<>c
-class CORDL_TYPE ____HoudiniEngineUnity__HEU_HoudiniAsset____c : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE HoudiniEngineUnity__HEU_HoudiniAsset____c : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____HoudiniEngineUnity__HEU_HoudiniAsset____c() = default;
+virtual ~HoudiniEngineUnity__HEU_HoudiniAsset____c() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____HoudiniEngineUnity__HEU_HoudiniAsset____c", modifiers: " const&", def_value: None }]
-constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset____c(____HoudiniEngineUnity__HEU_HoudiniAsset____c const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_HoudiniAsset____c", modifiers: " const&", def_value: None }]
+constexpr HoudiniEngineUnity__HEU_HoudiniAsset____c(HoudiniEngineUnity__HEU_HoudiniAsset____c const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____HoudiniEngineUnity__HEU_HoudiniAsset____c", modifiers: "&&", def_value: None }]
-constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset____c(____HoudiniEngineUnity__HEU_HoudiniAsset____c&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_HoudiniAsset____c", modifiers: "&&", def_value: None }]
+constexpr HoudiniEngineUnity__HEU_HoudiniAsset____c(HoudiniEngineUnity__HEU_HoudiniAsset____c&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____HoudiniEngineUnity__HEU_HoudiniAsset____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit HoudiniEngineUnity__HEU_HoudiniAsset____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset____c& operator=(std::nullptr_t) noexcept {
+  constexpr HoudiniEngineUnity__HEU_HoudiniAsset____c& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset____c& operator=(void* o) noexcept {
+  constexpr HoudiniEngineUnity__HEU_HoudiniAsset____c& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset____c& operator=(____HoudiniEngineUnity__HEU_HoudiniAsset____c&& o) noexcept = default;
-  constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset____c& operator=(____HoudiniEngineUnity__HEU_HoudiniAsset____c const& o) noexcept = default;
+  constexpr HoudiniEngineUnity__HEU_HoudiniAsset____c& operator=(HoudiniEngineUnity__HEU_HoudiniAsset____c&& o) noexcept = default;
+  constexpr HoudiniEngineUnity__HEU_HoudiniAsset____c& operator=(HoudiniEngineUnity__HEU_HoudiniAsset____c const& o) noexcept = default;
                 
 
 
 // Fields
 
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset____c __declspec(property(get=__get___9, put=__set___9))  __9;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c __declspec(property(get=__get___9, put=__set___9))  __9;
 
-static void __set___9(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset____c value) ;
+static void __set___9(HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c value) ;
 
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset____c __get___9() ;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c __get___9() ;
 
-static ::System::Func_2<::HoudiniEngineUnity::HEU_Curve,bool> __declspec(property(get=__get___9__309_0, put=__set___9__309_0))  __9__309_0;
+static System::Func_2<HoudiniEngineUnity::HEU_Curve,bool> __declspec(property(get=__get___9__309_0, put=__set___9__309_0))  __9__309_0;
 
-static void __set___9__309_0(::System::Func_2<::HoudiniEngineUnity::HEU_Curve,bool> value) ;
+static void __set___9__309_0(System::Func_2<HoudiniEngineUnity::HEU_Curve,bool> value) ;
 
-static ::System::Func_2<::HoudiniEngineUnity::HEU_Curve,bool> __get___9__309_0() ;
+static System::Func_2<HoudiniEngineUnity::HEU_Curve,bool> __get___9__309_0() ;
 
-static ::System::Func_2<::HoudiniEngineUnity::HEU_ObjectNode,bool> __declspec(property(get=__get___9__364_0, put=__set___9__364_0))  __9__364_0;
+static System::Func_2<HoudiniEngineUnity::HEU_ObjectNode,bool> __declspec(property(get=__get___9__364_0, put=__set___9__364_0))  __9__364_0;
 
-static void __set___9__364_0(::System::Func_2<::HoudiniEngineUnity::HEU_ObjectNode,bool> value) ;
+static void __set___9__364_0(System::Func_2<HoudiniEngineUnity::HEU_ObjectNode,bool> value) ;
 
-static ::System::Func_2<::HoudiniEngineUnity::HEU_ObjectNode,bool> __get___9__364_0() ;
+static System::Func_2<HoudiniEngineUnity::HEU_ObjectNode,bool> __get___9__364_0() ;
 
-static ::System::Func_2<::HoudiniEngineUnity::HEU_Curve,bool> __declspec(property(get=__get___9__364_1, put=__set___9__364_1))  __9__364_1;
+static System::Func_2<HoudiniEngineUnity::HEU_Curve,bool> __declspec(property(get=__get___9__364_1, put=__set___9__364_1))  __9__364_1;
 
-static void __set___9__364_1(::System::Func_2<::HoudiniEngineUnity::HEU_Curve,bool> value) ;
+static void __set___9__364_1(System::Func_2<HoudiniEngineUnity::HEU_Curve,bool> value) ;
 
-static ::System::Func_2<::HoudiniEngineUnity::HEU_Curve,bool> __get___9__364_1() ;
+static System::Func_2<HoudiniEngineUnity::HEU_Curve,bool> __get___9__364_1() ;
 
-static ::System::Func_2<::HoudiniEngineUnity::HEU_MaterialData,bool> __declspec(property(get=__get___9__364_2, put=__set___9__364_2))  __9__364_2;
+static System::Func_2<HoudiniEngineUnity::HEU_MaterialData,bool> __declspec(property(get=__get___9__364_2, put=__set___9__364_2))  __9__364_2;
 
-static void __set___9__364_2(::System::Func_2<::HoudiniEngineUnity::HEU_MaterialData,bool> value) ;
+static void __set___9__364_2(System::Func_2<HoudiniEngineUnity::HEU_MaterialData,bool> value) ;
 
-static ::System::Func_2<::HoudiniEngineUnity::HEU_MaterialData,bool> __get___9__364_2() ;
+static System::Func_2<HoudiniEngineUnity::HEU_MaterialData,bool> __get___9__364_2() ;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____HoudiniEngineUnity__HEU_HoudiniAsset____c() ;
+explicit HoudiniEngineUnity__HEU_HoudiniAsset____c() ;
 
 /// @brief Method .ctor addr 0x1ff9a08 size 0x8 virtual false final false
  void _ctor() ;
 
 /// @brief Method <ClearInvalidCurves>b__309_0 addr 0x1ff9a10 size 0x5c virtual false final false
- bool _ClearInvalidCurves_b__309_0(::HoudiniEngineUnity::HEU_Curve curve) ;
+ bool _ClearInvalidCurves_b__309_0(HoudiniEngineUnity::HEU_Curve curve) ;
 
 /// @brief Method <ClearInvalidLists>b__364_0 addr 0x1ff9a6c size 0x5c virtual false final false
- bool _ClearInvalidLists_b__364_0(::HoudiniEngineUnity::HEU_ObjectNode node) ;
+ bool _ClearInvalidLists_b__364_0(HoudiniEngineUnity::HEU_ObjectNode node) ;
 
 /// @brief Method <ClearInvalidLists>b__364_1 addr 0x1ff9ac8 size 0x5c virtual false final false
- bool _ClearInvalidLists_b__364_1(::HoudiniEngineUnity::HEU_Curve curve) ;
+ bool _ClearInvalidLists_b__364_1(HoudiniEngineUnity::HEU_Curve curve) ;
 
 /// @brief Method <ClearInvalidLists>b__364_2 addr 0x1ff9b24 size 0x5c virtual false final false
- bool _ClearInvalidLists_b__364_2(::HoudiniEngineUnity::HEU_MaterialData data) ;
+ bool _ClearInvalidLists_b__364_2(HoudiniEngineUnity::HEU_MaterialData data) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -819,47 +818,47 @@ namespace HoudiniEngineUnity {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9579))
 // CS Name: HoudiniEngineUnity.HEU_HoudiniAsset::<>c__DisplayClass365_0
-class CORDL_TYPE ____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0() = default;
+virtual ~HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0", modifiers: " const&", def_value: None }]
-constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0(____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0", modifiers: " const&", def_value: None }]
+constexpr HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0(HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0", modifiers: "&&", def_value: None }]
-constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0(____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0", modifiers: "&&", def_value: None }]
+constexpr HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0(HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0& operator=(std::nullptr_t) noexcept {
+  constexpr HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0& operator=(void* o) noexcept {
+  constexpr HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0& operator=(____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0&& o) noexcept = default;
-  constexpr ____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0& operator=(____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0 const& o) noexcept = default;
+  constexpr HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0& operator=(HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0&& o) noexcept = default;
+  constexpr HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0& operator=(HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::HoudiniEngineUnity::HEU_HoudiniAsset __declspec(property(get=__get_newAsset, put=__set_newAsset))  newAsset;
+ HoudiniEngineUnity::HEU_HoudiniAsset __declspec(property(get=__get_newAsset, put=__set_newAsset))  newAsset;
 
-constexpr void __set_newAsset(::HoudiniEngineUnity::HEU_HoudiniAsset value) ;
+constexpr void __set_newAsset(HoudiniEngineUnity::HEU_HoudiniAsset value) ;
 
-constexpr ::HoudiniEngineUnity::HEU_HoudiniAsset __get_newAsset() const;
+constexpr HoudiniEngineUnity::HEU_HoudiniAsset __get_newAsset() const;
 
  int32_t __declspec(property(get=__get_i, put=__set_i))  i;
 
@@ -867,23 +866,23 @@ constexpr void __set_i(int32_t value) ;
 
 constexpr int32_t __get_i() const;
 
- ::System::Predicate_1<::HoudiniEngineUnity::HEU_Curve> __declspec(property(get=__get___9__0, put=__set___9__0))  __9__0;
+ System::Predicate_1<HoudiniEngineUnity::HEU_Curve> __declspec(property(get=__get___9__0, put=__set___9__0))  __9__0;
 
-constexpr void __set___9__0(::System::Predicate_1<::HoudiniEngineUnity::HEU_Curve> value) ;
+constexpr void __set___9__0(System::Predicate_1<HoudiniEngineUnity::HEU_Curve> value) ;
 
-constexpr ::System::Predicate_1<::HoudiniEngineUnity::HEU_Curve> __get___9__0() const;
+constexpr System::Predicate_1<HoudiniEngineUnity::HEU_Curve> __get___9__0() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0() ;
+explicit HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0() ;
 
 /// @brief Method .ctor addr 0x1ff9b80 size 0x8 virtual false final false
  void _ctor() ;
 
 /// @brief Method <CopyPropertiesTo>b__0 addr 0x1ff9b88 size 0x7c virtual false final false
- bool _CopyPropertiesTo_b__0(::HoudiniEngineUnity::HEU_Curve curve) ;
+ bool _CopyPropertiesTo_b__0(HoudiniEngineUnity::HEU_Curve curve) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -895,29 +894,29 @@ namespace HoudiniEngineUnity {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9580))
 // CS Name: HoudiniEngineUnity.HEU_HoudiniAsset
-class CORDL_TYPE HEU_HoudiniAsset : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE HEU_HoudiniAsset : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using __c__DisplayClass365_0 = ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0;
+using __c__DisplayClass365_0 = HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0;
 
-using __c = ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset____c;
+using __c = HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c;
 
-using __c__DisplayClass281_0 = ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0;
+using __c__DisplayClass281_0 = HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0;
 
-using AssetInstantiationMethod = ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod;
+using AssetInstantiationMethod = HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod;
 
-using UpdateUIDelegate = ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate;
+using UpdateUIDelegate = HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate;
 
-using AssetCookResult = ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult;
+using AssetCookResult = HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult;
 
-using AssetCookStatus = ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus;
+using AssetCookStatus = HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus;
 
-using AssetBuildAction = ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction;
+using AssetBuildAction = HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction;
 
-using HEU_AssetType = ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType;
+using HEU_AssetType = HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType;
 
-/// @brief Convert operator to ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HoudiniAsset>
-constexpr operator  ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HoudiniAsset>() const noexcept;
+/// @brief Convert operator to HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_HoudiniAsset>
+constexpr operator  HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_HoudiniAsset>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x278};
@@ -931,7 +930,7 @@ constexpr HEU_HoudiniAsset(HEU_HoudiniAsset const& ) noexcept = default;
 constexpr HEU_HoudiniAsset(HEU_HoudiniAsset&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HEU_HoudiniAsset(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit HEU_HoudiniAsset(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -952,23 +951,23 @@ constexpr explicit HEU_HoudiniAsset(void* ptr) noexcept : ::UnityEngine::MonoBeh
 
 // Fields
 
- ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType __declspec(property(get=__get__assetType, put=__set__assetType))  _assetType;
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType __declspec(property(get=__get__assetType, put=__set__assetType))  _assetType;
 
-constexpr void __set__assetType(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType value) ;
+constexpr void __set__assetType(HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType value) ;
 
-constexpr ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType __get__assetType() const;
+constexpr HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType __get__assetType() const;
 
- ::HoudiniEngineUnity::HAPI_AssetInfo __declspec(property(get=__get__assetInfo, put=__set__assetInfo))  _assetInfo;
+ HoudiniEngineUnity::HAPI_AssetInfo __declspec(property(get=__get__assetInfo, put=__set__assetInfo))  _assetInfo;
 
-constexpr void __set__assetInfo(::HoudiniEngineUnity::HAPI_AssetInfo value) ;
+constexpr void __set__assetInfo(HoudiniEngineUnity::HAPI_AssetInfo value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_AssetInfo __get__assetInfo() const;
+constexpr HoudiniEngineUnity::HAPI_AssetInfo __get__assetInfo() const;
 
- ::HoudiniEngineUnity::HAPI_NodeInfo __declspec(property(get=__get__nodeInfo, put=__set__nodeInfo))  _nodeInfo;
+ HoudiniEngineUnity::HAPI_NodeInfo __declspec(property(get=__get__nodeInfo, put=__set__nodeInfo))  _nodeInfo;
 
-constexpr void __set__nodeInfo(::HoudiniEngineUnity::HAPI_NodeInfo value) ;
+constexpr void __set__nodeInfo(HoudiniEngineUnity::HAPI_NodeInfo value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_NodeInfo __get__nodeInfo() const;
+constexpr HoudiniEngineUnity::HAPI_NodeInfo __get__nodeInfo() const;
 
  ::StringW __declspec(property(get=__get__assetName, put=__set__assetName))  _assetName;
 
@@ -1012,41 +1011,41 @@ constexpr void __set__alwaysOverwriteOnLoad(bool value) ;
 
 constexpr bool __get__alwaysOverwriteOnLoad() const;
 
- ::UnityEngine::Object __declspec(property(get=__get__assetFileObject, put=__set__assetFileObject))  _assetFileObject;
+ UnityEngine::Object __declspec(property(get=__get__assetFileObject, put=__set__assetFileObject))  _assetFileObject;
 
-constexpr void __set__assetFileObject(::UnityEngine::Object value) ;
+constexpr void __set__assetFileObject(UnityEngine::Object value) ;
 
-constexpr ::UnityEngine::Object __get__assetFileObject() const;
+constexpr UnityEngine::Object __get__assetFileObject() const;
 
- ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ObjectNode> __declspec(property(get=__get__objectNodes, put=__set__objectNodes))  _objectNodes;
+ System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ObjectNode> __declspec(property(get=__get__objectNodes, put=__set__objectNodes))  _objectNodes;
 
-constexpr void __set__objectNodes(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ObjectNode> value) ;
+constexpr void __set__objectNodes(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ObjectNode> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ObjectNode> __get__objectNodes() const;
+constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ObjectNode> __get__objectNodes() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get__rootGameObject, put=__set__rootGameObject))  _rootGameObject;
+ UnityEngine::GameObject __declspec(property(get=__get__rootGameObject, put=__set__rootGameObject))  _rootGameObject;
 
-constexpr void __set__rootGameObject(::UnityEngine::GameObject value) ;
+constexpr void __set__rootGameObject(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__rootGameObject() const;
+constexpr UnityEngine::GameObject __get__rootGameObject() const;
 
- ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData> __declspec(property(get=__get__materialCache, put=__set__materialCache))  _materialCache;
+ System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_MaterialData> __declspec(property(get=__get__materialCache, put=__set__materialCache))  _materialCache;
 
-constexpr void __set__materialCache(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData> value) ;
+constexpr void __set__materialCache(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_MaterialData> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData> __get__materialCache() const;
+constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_MaterialData> __get__materialCache() const;
 
- ::HoudiniEngineUnity::HEU_Parameters __declspec(property(get=__get__parameters, put=__set__parameters))  _parameters;
+ HoudiniEngineUnity::HEU_Parameters __declspec(property(get=__get__parameters, put=__set__parameters))  _parameters;
 
-constexpr void __set__parameters(::HoudiniEngineUnity::HEU_Parameters value) ;
+constexpr void __set__parameters(HoudiniEngineUnity::HEU_Parameters value) ;
 
-constexpr ::HoudiniEngineUnity::HEU_Parameters __get__parameters() const;
+constexpr HoudiniEngineUnity::HEU_Parameters __get__parameters() const;
 
- ::UnityEngine::Matrix4x4 __declspec(property(get=__get__lastSyncedTransformMatrix, put=__set__lastSyncedTransformMatrix))  _lastSyncedTransformMatrix;
+ UnityEngine::Matrix4x4 __declspec(property(get=__get__lastSyncedTransformMatrix, put=__set__lastSyncedTransformMatrix))  _lastSyncedTransformMatrix;
 
-constexpr void __set__lastSyncedTransformMatrix(::UnityEngine::Matrix4x4 value) ;
+constexpr void __set__lastSyncedTransformMatrix(UnityEngine::Matrix4x4 value) ;
 
-constexpr ::UnityEngine::Matrix4x4 __get__lastSyncedTransformMatrix() const;
+constexpr UnityEngine::Matrix4x4 __get__lastSyncedTransformMatrix() const;
 
  ::StringW __declspec(property(get=__get__assetCacheFolderPath, put=__set__assetCacheFolderPath))  _assetCacheFolderPath;
 
@@ -1066,17 +1065,17 @@ constexpr void __set__selectedSubassetIndex(int32_t value) ;
 
 constexpr int32_t __get__selectedSubassetIndex() const;
 
- ::HoudiniEngineUnity::HEU_AssetPreset __declspec(property(get=__get__savedAssetPreset, put=__set__savedAssetPreset))  _savedAssetPreset;
+ HoudiniEngineUnity::HEU_AssetPreset __declspec(property(get=__get__savedAssetPreset, put=__set__savedAssetPreset))  _savedAssetPreset;
 
-constexpr void __set__savedAssetPreset(::HoudiniEngineUnity::HEU_AssetPreset value) ;
+constexpr void __set__savedAssetPreset(HoudiniEngineUnity::HEU_AssetPreset value) ;
 
-constexpr ::HoudiniEngineUnity::HEU_AssetPreset __get__savedAssetPreset() const;
+constexpr HoudiniEngineUnity::HEU_AssetPreset __get__savedAssetPreset() const;
 
- ::HoudiniEngineUnity::HEU_RecookPreset __declspec(property(get=__get__recookPreset, put=__set__recookPreset))  _recookPreset;
+ HoudiniEngineUnity::HEU_RecookPreset __declspec(property(get=__get__recookPreset, put=__set__recookPreset))  _recookPreset;
 
-constexpr void __set__recookPreset(::HoudiniEngineUnity::HEU_RecookPreset value) ;
+constexpr void __set__recookPreset(HoudiniEngineUnity::HEU_RecookPreset value) ;
 
-constexpr ::HoudiniEngineUnity::HEU_RecookPreset __get__recookPreset() const;
+constexpr HoudiniEngineUnity::HEU_RecookPreset __get__recookPreset() const;
 
  int32_t __declspec(property(get=__get__totalCookCount, put=__set__totalCookCount))  _totalCookCount;
 
@@ -1084,11 +1083,11 @@ constexpr void __set__totalCookCount(int32_t value) ;
 
 constexpr int32_t __get__totalCookCount() const;
 
- ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction __declspec(property(get=__get__requestBuildAction, put=__set__requestBuildAction))  _requestBuildAction;
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction __declspec(property(get=__get__requestBuildAction, put=__set__requestBuildAction))  _requestBuildAction;
 
-constexpr void __set__requestBuildAction(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction value) ;
+constexpr void __set__requestBuildAction(HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction value) ;
 
-constexpr ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction __get__requestBuildAction() const;
+constexpr HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction __get__requestBuildAction() const;
 
  bool __declspec(property(get=__get__checkParameterChangeForCook, put=__set__checkParameterChangeForCook))  _checkParameterChangeForCook;
 
@@ -1120,17 +1119,17 @@ constexpr void __set__upstreamCookChanged(bool value) ;
 
 constexpr bool __get__upstreamCookChanged() const;
 
- ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus __declspec(property(get=__get__cookStatus, put=__set__cookStatus))  _cookStatus;
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus __declspec(property(get=__get__cookStatus, put=__set__cookStatus))  _cookStatus;
 
-constexpr void __set__cookStatus(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus value) ;
+constexpr void __set__cookStatus(HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus value) ;
 
-constexpr ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus __get__cookStatus() const;
+constexpr HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus __get__cookStatus() const;
 
- ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult __declspec(property(get=__get__lastCookResult, put=__set__lastCookResult))  _lastCookResult;
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult __declspec(property(get=__get__lastCookResult, put=__set__lastCookResult))  _lastCookResult;
 
-constexpr void __set__lastCookResult(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult value) ;
+constexpr void __set__lastCookResult(HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult value) ;
 
-constexpr ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult __get__lastCookResult() const;
+constexpr HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult __get__lastCookResult() const;
 
  bool __declspec(property(get=__get__isCookingAssetReloaded, put=__set__isCookingAssetReloaded))  _isCookingAssetReloaded;
 
@@ -1210,65 +1209,65 @@ constexpr void __set__showTerrainSection(bool value) ;
 
 constexpr bool __get__showTerrainSection() const;
 
- ::HoudiniEngineUnity::HEU_InstanceInputUIState __declspec(property(get=__get__instanceInputUIState, put=__set__instanceInputUIState))  _instanceInputUIState;
+ HoudiniEngineUnity::HEU_InstanceInputUIState __declspec(property(get=__get__instanceInputUIState, put=__set__instanceInputUIState))  _instanceInputUIState;
 
-constexpr void __set__instanceInputUIState(::HoudiniEngineUnity::HEU_InstanceInputUIState value) ;
+constexpr void __set__instanceInputUIState(HoudiniEngineUnity::HEU_InstanceInputUIState value) ;
 
-constexpr ::HoudiniEngineUnity::HEU_InstanceInputUIState __get__instanceInputUIState() const;
+constexpr HoudiniEngineUnity::HEU_InstanceInputUIState __get__instanceInputUIState() const;
 
- ::HoudiniEngineUnity::ReloadEvent __declspec(property(get=__get__reloadEvent, put=__set__reloadEvent))  _reloadEvent;
+ HoudiniEngineUnity::ReloadEvent __declspec(property(get=__get__reloadEvent, put=__set__reloadEvent))  _reloadEvent;
 
-constexpr void __set__reloadEvent(::HoudiniEngineUnity::ReloadEvent value) ;
+constexpr void __set__reloadEvent(HoudiniEngineUnity::ReloadEvent value) ;
 
-constexpr ::HoudiniEngineUnity::ReloadEvent __get__reloadEvent() const;
+constexpr HoudiniEngineUnity::ReloadEvent __get__reloadEvent() const;
 
- ::HoudiniEngineUnity::CookedEvent __declspec(property(get=__get__cookedEvent, put=__set__cookedEvent))  _cookedEvent;
+ HoudiniEngineUnity::CookedEvent __declspec(property(get=__get__cookedEvent, put=__set__cookedEvent))  _cookedEvent;
 
-constexpr void __set__cookedEvent(::HoudiniEngineUnity::CookedEvent value) ;
+constexpr void __set__cookedEvent(HoudiniEngineUnity::CookedEvent value) ;
 
-constexpr ::HoudiniEngineUnity::CookedEvent __get__cookedEvent() const;
+constexpr HoudiniEngineUnity::CookedEvent __get__cookedEvent() const;
 
- ::HoudiniEngineUnity::BakedEvent __declspec(property(get=__get__bakedEvent, put=__set__bakedEvent))  _bakedEvent;
+ HoudiniEngineUnity::BakedEvent __declspec(property(get=__get__bakedEvent, put=__set__bakedEvent))  _bakedEvent;
 
-constexpr void __set__bakedEvent(::HoudiniEngineUnity::BakedEvent value) ;
+constexpr void __set__bakedEvent(HoudiniEngineUnity::BakedEvent value) ;
 
-constexpr ::HoudiniEngineUnity::BakedEvent __get__bakedEvent() const;
+constexpr HoudiniEngineUnity::BakedEvent __get__bakedEvent() const;
 
- ::HoudiniEngineUnity::HEU_ReloadDataEvent __declspec(property(get=__get__reloadDataEvent, put=__set__reloadDataEvent))  _reloadDataEvent;
+ HoudiniEngineUnity::HEU_ReloadDataEvent __declspec(property(get=__get__reloadDataEvent, put=__set__reloadDataEvent))  _reloadDataEvent;
 
-constexpr void __set__reloadDataEvent(::HoudiniEngineUnity::HEU_ReloadDataEvent value) ;
+constexpr void __set__reloadDataEvent(HoudiniEngineUnity::HEU_ReloadDataEvent value) ;
 
-constexpr ::HoudiniEngineUnity::HEU_ReloadDataEvent __get__reloadDataEvent() const;
+constexpr HoudiniEngineUnity::HEU_ReloadDataEvent __get__reloadDataEvent() const;
 
- ::HoudiniEngineUnity::HEU_CookedDataEvent __declspec(property(get=__get__cookedDataEvent, put=__set__cookedDataEvent))  _cookedDataEvent;
+ HoudiniEngineUnity::HEU_CookedDataEvent __declspec(property(get=__get__cookedDataEvent, put=__set__cookedDataEvent))  _cookedDataEvent;
 
-constexpr void __set__cookedDataEvent(::HoudiniEngineUnity::HEU_CookedDataEvent value) ;
+constexpr void __set__cookedDataEvent(HoudiniEngineUnity::HEU_CookedDataEvent value) ;
 
-constexpr ::HoudiniEngineUnity::HEU_CookedDataEvent __get__cookedDataEvent() const;
+constexpr HoudiniEngineUnity::HEU_CookedDataEvent __get__cookedDataEvent() const;
 
- ::HoudiniEngineUnity::HEU_BakedDataEvent __declspec(property(get=__get__bakedDataEvent, put=__set__bakedDataEvent))  _bakedDataEvent;
+ HoudiniEngineUnity::HEU_BakedDataEvent __declspec(property(get=__get__bakedDataEvent, put=__set__bakedDataEvent))  _bakedDataEvent;
 
-constexpr void __set__bakedDataEvent(::HoudiniEngineUnity::HEU_BakedDataEvent value) ;
+constexpr void __set__bakedDataEvent(HoudiniEngineUnity::HEU_BakedDataEvent value) ;
 
-constexpr ::HoudiniEngineUnity::HEU_BakedDataEvent __get__bakedDataEvent() const;
+constexpr HoudiniEngineUnity::HEU_BakedDataEvent __get__bakedDataEvent() const;
 
- ::HoudiniEngineUnity::HEU_PreAssetEvent __declspec(property(get=__get__preAssetEvent, put=__set__preAssetEvent))  _preAssetEvent;
+ HoudiniEngineUnity::HEU_PreAssetEvent __declspec(property(get=__get__preAssetEvent, put=__set__preAssetEvent))  _preAssetEvent;
 
-constexpr void __set__preAssetEvent(::HoudiniEngineUnity::HEU_PreAssetEvent value) ;
+constexpr void __set__preAssetEvent(HoudiniEngineUnity::HEU_PreAssetEvent value) ;
 
-constexpr ::HoudiniEngineUnity::HEU_PreAssetEvent __get__preAssetEvent() const;
+constexpr HoudiniEngineUnity::HEU_PreAssetEvent __get__preAssetEvent() const;
 
- ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate __declspec(property(get=__get__refreshUIDelegate, put=__set__refreshUIDelegate))  _refreshUIDelegate;
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate __declspec(property(get=__get__refreshUIDelegate, put=__set__refreshUIDelegate))  _refreshUIDelegate;
 
-constexpr void __set__refreshUIDelegate(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate value) ;
+constexpr void __set__refreshUIDelegate(HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate value) ;
 
-constexpr ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate __get__refreshUIDelegate() const;
+constexpr HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate __get__refreshUIDelegate() const;
 
- ::HoudiniEngineUnity::CookedEvent __declspec(property(get=__get__downstreamConnectionCookedEvent, put=__set__downstreamConnectionCookedEvent))  _downstreamConnectionCookedEvent;
+ HoudiniEngineUnity::CookedEvent __declspec(property(get=__get__downstreamConnectionCookedEvent, put=__set__downstreamConnectionCookedEvent))  _downstreamConnectionCookedEvent;
 
-constexpr void __set__downstreamConnectionCookedEvent(::HoudiniEngineUnity::CookedEvent value) ;
+constexpr void __set__downstreamConnectionCookedEvent(HoudiniEngineUnity::CookedEvent value) ;
 
-constexpr ::HoudiniEngineUnity::CookedEvent __get__downstreamConnectionCookedEvent() const;
+constexpr HoudiniEngineUnity::CookedEvent __get__downstreamConnectionCookedEvent() const;
 
  bool __declspec(property(get=__get__generateUVs, put=__set__generateUVs))  _generateUVs;
 
@@ -1360,29 +1359,29 @@ constexpr void __set__curveEditorEnabled(bool value) ;
 
 constexpr bool __get__curveEditorEnabled() const;
 
- ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Curve> __declspec(property(get=__get__curves, put=__set__curves))  _curves;
+ System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Curve> __declspec(property(get=__get__curves, put=__set__curves))  _curves;
 
-constexpr void __set__curves(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Curve> value) ;
+constexpr void __set__curves(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Curve> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Curve> __get__curves() const;
+constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Curve> __get__curves() const;
 
- ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_Curve__CurveDrawCollision __declspec(property(get=__get__curveDrawCollision, put=__set__curveDrawCollision))  _curveDrawCollision;
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve__CurveDrawCollision __declspec(property(get=__get__curveDrawCollision, put=__set__curveDrawCollision))  _curveDrawCollision;
 
-constexpr void __set__curveDrawCollision(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_Curve__CurveDrawCollision value) ;
+constexpr void __set__curveDrawCollision(HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve__CurveDrawCollision value) ;
 
-constexpr ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_Curve__CurveDrawCollision __get__curveDrawCollision() const;
+constexpr HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve__CurveDrawCollision __get__curveDrawCollision() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::Collider> __declspec(property(get=__get__curveDrawColliders, put=__set__curveDrawColliders))  _curveDrawColliders;
+ System::Collections::Generic::List_1<UnityEngine::Collider> __declspec(property(get=__get__curveDrawColliders, put=__set__curveDrawColliders))  _curveDrawColliders;
 
-constexpr void __set__curveDrawColliders(::System::Collections::Generic::List_1<::UnityEngine::Collider> value) ;
+constexpr void __set__curveDrawColliders(System::Collections::Generic::List_1<UnityEngine::Collider> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Collider> __get__curveDrawColliders() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::Collider> __get__curveDrawColliders() const;
 
- ::UnityEngine::LayerMask __declspec(property(get=__get__curveDrawLayerMask, put=__set__curveDrawLayerMask))  _curveDrawLayerMask;
+ UnityEngine::LayerMask __declspec(property(get=__get__curveDrawLayerMask, put=__set__curveDrawLayerMask))  _curveDrawLayerMask;
 
-constexpr void __set__curveDrawLayerMask(::UnityEngine::LayerMask value) ;
+constexpr void __set__curveDrawLayerMask(UnityEngine::LayerMask value) ;
 
-constexpr ::UnityEngine::LayerMask __get__curveDrawLayerMask() const;
+constexpr UnityEngine::LayerMask __get__curveDrawLayerMask() const;
 
  float_t __declspec(property(get=__get__curveProjectMaxDistance, put=__set__curveProjectMaxDistance))  _curveProjectMaxDistance;
 
@@ -1390,11 +1389,11 @@ constexpr void __set__curveProjectMaxDistance(float_t value) ;
 
 constexpr float_t __get__curveProjectMaxDistance() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__curveProjectDirection, put=__set__curveProjectDirection))  _curveProjectDirection;
+ UnityEngine::Vector3 __declspec(property(get=__get__curveProjectDirection, put=__set__curveProjectDirection))  _curveProjectDirection;
 
-constexpr void __set__curveProjectDirection(::UnityEngine::Vector3 value) ;
+constexpr void __set__curveProjectDirection(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__curveProjectDirection() const;
+constexpr UnityEngine::Vector3 __get__curveProjectDirection() const;
 
  bool __declspec(property(get=__get__curveDisableScaleRotation, put=__set__curveDisableScaleRotation))  _curveDisableScaleRotation;
 
@@ -1420,17 +1419,17 @@ constexpr void __set__curveFrameSelectedNodeDistance(float_t value) ;
 
 constexpr float_t __get__curveFrameSelectedNodeDistance() const;
 
- ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputNode> __declspec(property(get=__get__inputNodes, put=__set__inputNodes))  _inputNodes;
+ System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputNode> __declspec(property(get=__get__inputNodes, put=__set__inputNodes))  _inputNodes;
 
-constexpr void __set__inputNodes(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputNode> value) ;
+constexpr void __set__inputNodes(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputNode> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputNode> __get__inputNodes() const;
+constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputNode> __get__inputNodes() const;
 
- ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Handle> __declspec(property(get=__get__handles, put=__set__handles))  _handles;
+ System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Handle> __declspec(property(get=__get__handles, put=__set__handles))  _handles;
 
-constexpr void __set__handles(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Handle> value) ;
+constexpr void __set__handles(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Handle> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Handle> __get__handles() const;
+constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Handle> __get__handles() const;
 
  bool __declspec(property(get=__get__handlesEnabled, put=__set__handlesEnabled))  _handlesEnabled;
 
@@ -1438,17 +1437,17 @@ constexpr void __set__handlesEnabled(bool value) ;
 
 constexpr bool __get__handlesEnabled() const;
 
- ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCache> __declspec(property(get=__get__volumeCaches, put=__set__volumeCaches))  _volumeCaches;
+ System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCache> __declspec(property(get=__get__volumeCaches, put=__set__volumeCaches))  _volumeCaches;
 
-constexpr void __set__volumeCaches(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCache> value) ;
+constexpr void __set__volumeCaches(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCache> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCache> __get__volumeCaches() const;
+constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCache> __get__volumeCaches() const;
 
- ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_AttributesStore> __declspec(property(get=__get__attributeStores, put=__set__attributeStores))  _attributeStores;
+ System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_AttributesStore> __declspec(property(get=__get__attributeStores, put=__set__attributeStores))  _attributeStores;
 
-constexpr void __set__attributeStores(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_AttributesStore> value) ;
+constexpr void __set__attributeStores(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_AttributesStore> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_AttributesStore> __get__attributeStores() const;
+constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_AttributesStore> __get__attributeStores() const;
 
  bool __declspec(property(get=__get__editableNodesToolsEnabled, put=__set__editableNodesToolsEnabled))  _editableNodesToolsEnabled;
 
@@ -1456,17 +1455,17 @@ constexpr void __set__editableNodesToolsEnabled(bool value) ;
 
 constexpr bool __get__editableNodesToolsEnabled() const;
 
- ::HoudiniEngineUnity::HEU_ToolsInfo __declspec(property(get=__get__toolsInfo, put=__set__toolsInfo))  _toolsInfo;
+ HoudiniEngineUnity::HEU_ToolsInfo __declspec(property(get=__get__toolsInfo, put=__set__toolsInfo))  _toolsInfo;
 
-constexpr void __set__toolsInfo(::HoudiniEngineUnity::HEU_ToolsInfo value) ;
+constexpr void __set__toolsInfo(HoudiniEngineUnity::HEU_ToolsInfo value) ;
 
-constexpr ::HoudiniEngineUnity::HEU_ToolsInfo __get__toolsInfo() const;
+constexpr HoudiniEngineUnity::HEU_ToolsInfo __get__toolsInfo() const;
 
- ::HoudiniEngineUnity::HEU_AssetSerializedMetaData __declspec(property(get=__get__serializedMetaData, put=__set__serializedMetaData))  _serializedMetaData;
+ HoudiniEngineUnity::HEU_AssetSerializedMetaData __declspec(property(get=__get__serializedMetaData, put=__set__serializedMetaData))  _serializedMetaData;
 
-constexpr void __set__serializedMetaData(::HoudiniEngineUnity::HEU_AssetSerializedMetaData value) ;
+constexpr void __set__serializedMetaData(HoudiniEngineUnity::HEU_AssetSerializedMetaData value) ;
 
-constexpr ::HoudiniEngineUnity::HEU_AssetSerializedMetaData __get__serializedMetaData() const;
+constexpr HoudiniEngineUnity::HEU_AssetSerializedMetaData __get__serializedMetaData() const;
 
  bool __declspec(property(get=__get__pendingAutoCookOnMouseRelease, put=__set__pendingAutoCookOnMouseRelease))  _pendingAutoCookOnMouseRelease;
 
@@ -1477,11 +1476,11 @@ constexpr bool __get__pendingAutoCookOnMouseRelease() const;
 
 // Properties
 
- ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType __declspec(property(get=get_AssetType))  AssetType;
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType __declspec(property(get=get_AssetType))  AssetType;
 
- ::HoudiniEngineUnity::HAPI_AssetInfo __declspec(property(get=get_AssetInfo))  AssetInfo;
+ HoudiniEngineUnity::HAPI_AssetInfo __declspec(property(get=get_AssetInfo))  AssetInfo;
 
- ::HoudiniEngineUnity::HAPI_NodeInfo __declspec(property(get=get_NodeInfo))  NodeInfo;
+ HoudiniEngineUnity::HAPI_NodeInfo __declspec(property(get=get_NodeInfo))  NodeInfo;
 
  ::StringW __declspec(property(get=get_AssetName))  AssetName;
 
@@ -1503,11 +1502,11 @@ constexpr bool __get__pendingAutoCookOnMouseRelease() const;
 
  int32_t __declspec(property(get=get_HandleCount))  HandleCount;
 
- ::UnityEngine::GameObject __declspec(property(get=get_OwnerGameObject))  OwnerGameObject;
+ UnityEngine::GameObject __declspec(property(get=get_OwnerGameObject))  OwnerGameObject;
 
- ::UnityEngine::GameObject __declspec(property(get=get_RootGameObject))  RootGameObject;
+ UnityEngine::GameObject __declspec(property(get=get_RootGameObject))  RootGameObject;
 
- ::HoudiniEngineUnity::HEU_Parameters __declspec(property(get=get_Parameters))  Parameters;
+ HoudiniEngineUnity::HEU_Parameters __declspec(property(get=get_Parameters))  Parameters;
 
  ::ArrayW<::StringW> __declspec(property(get=get_SubassetNames))  SubassetNames;
 
@@ -1515,7 +1514,7 @@ constexpr bool __get__pendingAutoCookOnMouseRelease() const;
 
  bool __declspec(property(get=get_WarnedPrefabNotSupported, put=set_WarnedPrefabNotSupported))  WarnedPrefabNotSupported;
 
- ::HoudiniEngineUnity::HEU_InstanceInputUIState __declspec(property(get=get_InstanceInputUIState, put=set_InstanceInputUIState))  InstanceInputUIState;
+ HoudiniEngineUnity::HEU_InstanceInputUIState __declspec(property(get=get_InstanceInputUIState, put=set_InstanceInputUIState))  InstanceInputUIState;
 
  bool __declspec(property(get=get_GenerateUVs, put=set_GenerateUVs))  GenerateUVs;
 
@@ -1547,7 +1546,7 @@ constexpr bool __get__pendingAutoCookOnMouseRelease() const;
 
  bool __declspec(property(get=get_CurveEditorEnabled, put=set_CurveEditorEnabled))  CurveEditorEnabled;
 
- ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_Curve__CurveDrawCollision __declspec(property(get=get_CurveDrawCollision, put=set_CurveDrawCollision))  CurveDrawCollision;
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve__CurveDrawCollision __declspec(property(get=get_CurveDrawCollision, put=set_CurveDrawCollision))  CurveDrawCollision;
 
  bool __declspec(property(get=get_CurveDisableScaleRotation, put=set_CurveDisableScaleRotation))  CurveDisableScaleRotation;
 
@@ -1561,9 +1560,9 @@ constexpr bool __get__pendingAutoCookOnMouseRelease() const;
 
  bool __declspec(property(get=get_EditableNodesToolsEnabled, put=set_EditableNodesToolsEnabled))  EditableNodesToolsEnabled;
 
- ::HoudiniEngineUnity::HEU_ToolsInfo __declspec(property(get=get_ToolsInfo))  ToolsInfo;
+ HoudiniEngineUnity::HEU_ToolsInfo __declspec(property(get=get_ToolsInfo))  ToolsInfo;
 
- ::HoudiniEngineUnity::HEU_AssetSerializedMetaData __declspec(property(get=get_SerializedMetaData))  SerializedMetaData;
+ HoudiniEngineUnity::HEU_AssetSerializedMetaData __declspec(property(get=get_SerializedMetaData))  SerializedMetaData;
 
  bool __declspec(property(get=get_PendingAutoCookOnMouseRelease, put=set_PendingAutoCookOnMouseRelease))  PendingAutoCookOnMouseRelease;
 
@@ -1571,13 +1570,13 @@ constexpr bool __get__pendingAutoCookOnMouseRelease() const;
 // Methods
 
 /// @brief Method get_AssetType addr 0x1fe8474 size 0x8 virtual false final false
- ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType get_AssetType() ;
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType get_AssetType() ;
 
 /// @brief Method get_AssetInfo addr 0x1fe847c size 0x1c virtual false final false
- ::HoudiniEngineUnity::HAPI_AssetInfo get_AssetInfo() ;
+ HoudiniEngineUnity::HAPI_AssetInfo get_AssetInfo() ;
 
 /// @brief Method get_NodeInfo addr 0x1fe8498 size 0x10 virtual false final false
- ::HoudiniEngineUnity::HAPI_NodeInfo get_NodeInfo() ;
+ HoudiniEngineUnity::HAPI_NodeInfo get_NodeInfo() ;
 
 /// @brief Method get_AssetName addr 0x1fe84a8 size 0x8 virtual false final false
  ::StringW get_AssetName() ;
@@ -1616,13 +1615,13 @@ constexpr bool __get__pendingAutoCookOnMouseRelease() const;
  int32_t get_HandleCount() ;
 
 /// @brief Method get_OwnerGameObject addr 0x1fe5b7c size 0x8 virtual false final false
- ::UnityEngine::GameObject get_OwnerGameObject() ;
+ UnityEngine::GameObject get_OwnerGameObject() ;
 
 /// @brief Method get_RootGameObject addr 0x1fe8510 size 0x8 virtual false final false
- ::UnityEngine::GameObject get_RootGameObject() ;
+ UnityEngine::GameObject get_RootGameObject() ;
 
 /// @brief Method get_Parameters addr 0x1fe8518 size 0x8 virtual false final false
- ::HoudiniEngineUnity::HEU_Parameters get_Parameters() ;
+ HoudiniEngineUnity::HEU_Parameters get_Parameters() ;
 
 /// @brief Method get_SubassetNames addr 0x1fe8520 size 0x8 virtual false final false
  ::ArrayW<::StringW> get_SubassetNames() ;
@@ -1637,10 +1636,10 @@ constexpr bool __get__pendingAutoCookOnMouseRelease() const;
  void set_WarnedPrefabNotSupported(bool value) ;
 
 /// @brief Method get_InstanceInputUIState addr 0x1fe8544 size 0x8 virtual false final false
- ::HoudiniEngineUnity::HEU_InstanceInputUIState get_InstanceInputUIState() ;
+ HoudiniEngineUnity::HEU_InstanceInputUIState get_InstanceInputUIState() ;
 
 /// @brief Method set_InstanceInputUIState addr 0x1fe854c size 0x8 virtual false final false
- void set_InstanceInputUIState(::HoudiniEngineUnity::HEU_InstanceInputUIState value) ;
+ void set_InstanceInputUIState(HoudiniEngineUnity::HEU_InstanceInputUIState value) ;
 
 /// @brief Method get_GenerateUVs addr 0x1fe8554 size 0x8 virtual false final false
  bool get_GenerateUVs() ;
@@ -1733,19 +1732,19 @@ constexpr bool __get__pendingAutoCookOnMouseRelease() const;
  void set_CurveEditorEnabled(bool value) ;
 
 /// @brief Method get_CurveDrawCollision addr 0x1fe8680 size 0x8 virtual false final false
- ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_Curve__CurveDrawCollision get_CurveDrawCollision() ;
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve__CurveDrawCollision get_CurveDrawCollision() ;
 
 /// @brief Method set_CurveDrawCollision addr 0x1fe8688 size 0x8 virtual false final false
- void set_CurveDrawCollision(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_Curve__CurveDrawCollision value) ;
+ void set_CurveDrawCollision(HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve__CurveDrawCollision value) ;
 
 /// @brief Method GetCurveDrawColliders addr 0x1fe8690 size 0x8 virtual false final false
- ::System::Collections::Generic::List_1<::UnityEngine::Collider> GetCurveDrawColliders() ;
+ System::Collections::Generic::List_1<UnityEngine::Collider> GetCurveDrawColliders() ;
 
 /// @brief Method GetCurveDrawLayerMask addr 0x1fe8698 size 0x8 virtual false final false
- ::UnityEngine::LayerMask GetCurveDrawLayerMask() ;
+ UnityEngine::LayerMask GetCurveDrawLayerMask() ;
 
 /// @brief Method SetCurveDrawLayerMask addr 0x1fe86a0 size 0x8 virtual false final false
- void SetCurveDrawLayerMask(::UnityEngine::LayerMask mask) ;
+ void SetCurveDrawLayerMask(UnityEngine::LayerMask mask) ;
 
 /// @brief Method get_CurveDisableScaleRotation addr 0x1fe86a8 size 0x8 virtual false final false
  bool get_CurveDisableScaleRotation() ;
@@ -1784,10 +1783,10 @@ constexpr bool __get__pendingAutoCookOnMouseRelease() const;
  void set_EditableNodesToolsEnabled(bool value) ;
 
 /// @brief Method get_ToolsInfo addr 0x1fe871c size 0x8 virtual false final false
- ::HoudiniEngineUnity::HEU_ToolsInfo get_ToolsInfo() ;
+ HoudiniEngineUnity::HEU_ToolsInfo get_ToolsInfo() ;
 
 /// @brief Method get_SerializedMetaData addr 0x1fe8724 size 0x8 virtual false final false
- ::HoudiniEngineUnity::HEU_AssetSerializedMetaData get_SerializedMetaData() ;
+ HoudiniEngineUnity::HEU_AssetSerializedMetaData get_SerializedMetaData() ;
 
 /// @brief Method get_PendingAutoCookOnMouseRelease addr 0x1fe872c size 0x8 virtual false final false
  bool get_PendingAutoCookOnMouseRelease() ;
@@ -1796,7 +1795,7 @@ constexpr bool __get__pendingAutoCookOnMouseRelease() const;
  void set_PendingAutoCookOnMouseRelease(bool value) ;
 
 /// @brief Method SetupAsset addr 0x1fe8740 size 0x37c virtual false final false
- void SetupAsset(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType assetType, ::StringW filePath, ::UnityEngine::GameObject rootGameObject, ::HoudiniEngineUnity::HEU_SessionBase session) ;
+ void SetupAsset(HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType assetType, ::StringW filePath, UnityEngine::GameObject rootGameObject, HoudiniEngineUnity::HEU_SessionBase session) ;
 
 /// @brief Method CleanUpAndDisable addr 0x1fe8abc size 0x5c virtual false final false
  void CleanUpAndDisable() ;
@@ -1844,7 +1843,7 @@ constexpr bool __get__pendingAutoCookOnMouseRelease() const;
  void ProcessRebuild(bool bPromptForSubasset, int32_t desiredSubassetIndex) ;
 
 /// @brief Method InvokeReloadEvent addr 0x1fe9bb8 size 0x154 virtual false final false
- void InvokeReloadEvent(bool bCookSuccess, ::System::Collections::Generic::List_1<::UnityEngine::GameObject> outputObjects) ;
+ void InvokeReloadEvent(bool bCookSuccess, System::Collections::Generic::List_1<UnityEngine::GameObject> outputObjects) ;
 
 /// @brief Method StartRebuild addr 0x1fe9338 size 0x198 virtual false final false
  bool StartRebuild(bool bPromptForSubasset, int32_t desiredSubassetIndex) ;
@@ -1859,7 +1858,7 @@ constexpr bool __get__pendingAutoCookOnMouseRelease() const;
  bool RecookBlocking(bool bCheckParamsChanged, bool bSkipCookCheck, bool bUploadParameters, bool bUploadParameterPreset, bool bForceUploadInputs, bool bCookingSessionSync) ;
 
 /// @brief Method DoPostCookWork addr 0x1fec6c8 size 0x17c virtual false final false
- void DoPostCookWork(::HoudiniEngineUnity::HEU_SessionBase session) ;
+ void DoPostCookWork(HoudiniEngineUnity::HEU_SessionBase session) ;
 
 /// @brief Method IsValidForInteraction addr 0x1fec844 size 0x70 virtual false final false
  bool IsValidForInteraction(ByRef<::StringW> errorMessage) ;
@@ -1871,7 +1870,7 @@ constexpr bool __get__pendingAutoCookOnMouseRelease() const;
  void ExecutePostCookCallbacks() ;
 
 /// @brief Method InvokePostCookEvent addr 0x1fec8e4 size 0x154 virtual false final false
- void InvokePostCookEvent(bool bCookSuccess, ::System::Collections::Generic::List_1<::UnityEngine::GameObject> outputObjects) ;
+ void InvokePostCookEvent(bool bCookSuccess, System::Collections::Generic::List_1<UnityEngine::GameObject> outputObjects) ;
 
 /// @brief Method InternalStartRecook addr 0x1febc50 size 0x61c virtual false final false
  bool InternalStartRecook(bool bCheckParamsChanged, bool bSkipCookCheck, bool bUploadParameters, bool bUploadParameterPreset, bool bForceUploadInputs, bool bCookingSessionSync) ;
@@ -1880,16 +1879,16 @@ constexpr bool __get__pendingAutoCookOnMouseRelease() const;
  void InternalSetAssetID(int32_t assetID) ;
 
 /// @brief Method SetCookStatus addr 0x1fe9a58 size 0xc virtual false final false
- void SetCookStatus(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus status, ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult result) ;
+ void SetCookStatus(HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus status, HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult result) ;
 
 /// @brief Method GetCookStatus addr 0x1fed654 size 0x8 virtual false final false
- ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus GetCookStatus() ;
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus GetCookStatus() ;
 
 /// @brief Method ProcessPoskCook addr 0x1fed65c size 0x38c virtual false final false
  void ProcessPoskCook() ;
 
 /// @brief Method StartHoudiniCookNode addr 0x1fed5e8 size 0x6c virtual false final false
- bool StartHoudiniCookNode(::HoudiniEngineUnity::HEU_SessionBase session) ;
+ bool StartHoudiniCookNode(HoudiniEngineUnity::HEU_SessionBase session) ;
 
 /// @brief Method ProcessHoudiniCookStatus addr 0x1fec428 size 0x2a0 virtual false final false
  void ProcessHoudiniCookStatus(bool bAsync) ;
@@ -1910,37 +1909,37 @@ constexpr bool __get__pendingAutoCookOnMouseRelease() const;
  void DeleteAssetCacheData(bool bRegisterUndo) ;
 
 /// @brief Method GenerateParameters addr 0x1feacdc size 0x214 virtual false final false
- void GenerateParameters(::HoudiniEngineUnity::HEU_SessionBase session) ;
+ void GenerateParameters(HoudiniEngineUnity::HEU_SessionBase session) ;
 
 /// @brief Method DownloadParameterPresetFromHoudini addr 0x1fed9e8 size 0x98 virtual false final false
- void DownloadParameterPresetFromHoudini(::HoudiniEngineUnity::HEU_SessionBase session) ;
+ void DownloadParameterPresetFromHoudini(HoudiniEngineUnity::HEU_SessionBase session) ;
 
 /// @brief Method UploadParameterPresetToHoudini addr 0x1fecb8c size 0x1dc virtual false final false
- void UploadParameterPresetToHoudini(::HoudiniEngineUnity::HEU_SessionBase session) ;
+ void UploadParameterPresetToHoudini(HoudiniEngineUnity::HEU_SessionBase session) ;
 
 /// @brief Method UpdateParameterInputsToHoudini addr 0x1fecd68 size 0xa4 virtual false final false
- void UpdateParameterInputsToHoudini(::HoudiniEngineUnity::HEU_SessionBase session, bool bForceUpdate) ;
+ void UpdateParameterInputsToHoudini(HoudiniEngineUnity::HEU_SessionBase session, bool bForceUpdate) ;
 
 /// @brief Method LoadAssetFileWithSubasset addr 0x1fe9ef0 size 0x5f4 virtual false final false
- bool LoadAssetFileWithSubasset(::HoudiniEngineUnity::HEU_SessionBase session, bool bPromptForSubasset, int32_t desiredSubassetIndex) ;
+ bool LoadAssetFileWithSubasset(HoudiniEngineUnity::HEU_SessionBase session, bool bPromptForSubasset, int32_t desiredSubassetIndex) ;
 
 /// @brief Method CreateAndCookAsset addr 0x1fea4e4 size 0x28c virtual false final false
- bool CreateAndCookAsset(::HoudiniEngineUnity::HEU_SessionBase session, int32_t subassetIndex, ByRef<int32_t> newAssetID, bool bCookTemplatedGeos) ;
+ bool CreateAndCookAsset(HoudiniEngineUnity::HEU_SessionBase session, int32_t subassetIndex, ByRef<int32_t> newAssetID, bool bCookTemplatedGeos) ;
 
 /// @brief Method CreateAssetInputs addr 0x1fea7dc size 0x500 virtual false final false
- void CreateAssetInputs(::HoudiniEngineUnity::HEU_SessionBase session) ;
+ void CreateAssetInputs(HoudiniEngineUnity::HEU_SessionBase session) ;
 
 /// @brief Method UploadCurvesParameters addr 0x1fece0c size 0x1e8 virtual false final false
- void UploadCurvesParameters(::HoudiniEngineUnity::HEU_SessionBase session, bool bCheckParamsChanged) ;
+ void UploadCurvesParameters(HoudiniEngineUnity::HEU_SessionBase session, bool bCheckParamsChanged) ;
 
 /// @brief Method UploadAttributeValues addr 0x1fecff4 size 0x430 virtual false final false
- void UploadAttributeValues(::HoudiniEngineUnity::HEU_SessionBase session) ;
+ void UploadAttributeValues(HoudiniEngineUnity::HEU_SessionBase session) ;
 
 /// @brief Method SyncDirtyAttributesToHoudini addr 0x1fee308 size 0x164 virtual false final false
- void SyncDirtyAttributesToHoudini(::HoudiniEngineUnity::HEU_SessionBase session) ;
+ void SyncDirtyAttributesToHoudini(HoudiniEngineUnity::HEU_SessionBase session) ;
 
 /// @brief Method UploadInputNodes addr 0x1fed424 size 0x1c4 virtual false final false
- void UploadInputNodes(::HoudiniEngineUnity::HEU_SessionBase session, bool bForceUpdate, bool bUpdateAll) ;
+ void UploadInputNodes(HoudiniEngineUnity::HEU_SessionBase session, bool bForceUpdate, bool bUpdateAll) ;
 
 /// @brief Method HasInputNodeTransformChanged addr 0x1fef774 size 0x174 virtual false final false
  bool HasInputNodeTransformChanged() ;
@@ -1949,112 +1948,112 @@ constexpr bool __get__pendingAutoCookOnMouseRelease() const;
  void NotifyInputNodesCookFinished() ;
 
 /// @brief Method CreateObjects addr 0x1feaef0 size 0x174 virtual false final false
- bool CreateObjects(::HoudiniEngineUnity::HEU_SessionBase session) ;
+ bool CreateObjects(HoudiniEngineUnity::HEU_SessionBase session) ;
 
 /// @brief Method UpdateAllObjectNodes addr 0x1fedcd8 size 0x630 virtual false final false
- void UpdateAllObjectNodes(::HoudiniEngineUnity::HEU_SessionBase session) ;
+ void UpdateAllObjectNodes(HoudiniEngineUnity::HEU_SessionBase session) ;
 
 /// @brief Method CreateObjectNode addr 0x1fef8e8 size 0xd8 virtual false final false
- ::HoudiniEngineUnity::HEU_ObjectNode CreateObjectNode(::HoudiniEngineUnity::HEU_SessionBase session, ByRef<::HoudiniEngineUnity::HAPI_ObjectInfo> objectInfo, ByRef<::HoudiniEngineUnity::HAPI_Transform> objectTranform) ;
+ HoudiniEngineUnity::HEU_ObjectNode CreateObjectNode(HoudiniEngineUnity::HEU_SessionBase session, ByRef<HoudiniEngineUnity::HAPI_ObjectInfo> objectInfo, ByRef<HoudiniEngineUnity::HAPI_Transform> objectTranform) ;
 
 /// @brief Method GenerateObjectsGeometry addr 0x1feb064 size 0x158 virtual false final false
- void GenerateObjectsGeometry(::HoudiniEngineUnity::HEU_SessionBase session, bool bRebuild) ;
+ void GenerateObjectsGeometry(HoudiniEngineUnity::HEU_SessionBase session, bool bRebuild) ;
 
 /// @brief Method GenerateAttributesStore addr 0x1feb4c4 size 0x154 virtual false final false
- void GenerateAttributesStore(::HoudiniEngineUnity::HEU_SessionBase session) ;
+ void GenerateAttributesStore(HoudiniEngineUnity::HEU_SessionBase session) ;
 
 /// @brief Method GenerateInstances addr 0x1feb1bc size 0x308 virtual false final false
- void GenerateInstances(::HoudiniEngineUnity::HEU_SessionBase session) ;
+ void GenerateInstances(HoudiniEngineUnity::HEU_SessionBase session) ;
 
 /// @brief Method GenerateHandles addr 0x1feb618 size 0x18c virtual false final false
- void GenerateHandles(::HoudiniEngineUnity::HEU_SessionBase session) ;
+ void GenerateHandles(HoudiniEngineUnity::HEU_SessionBase session) ;
 
 /// @brief Method CleanUpHandles addr 0x1fef334 size 0x120 virtual false final false
  void CleanUpHandles() ;
 
 /// @brief Method GetHandleByName addr 0x1fef9c0 size 0x190 virtual false final false
- ::HoudiniEngineUnity::HEU_Handle GetHandleByName(::StringW handleName) ;
+ HoudiniEngineUnity::HEU_Handle GetHandleByName(::StringW handleName) ;
 
 /// @brief Method GetHandles addr 0x1fefb50 size 0x8 virtual false final false
- ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Handle> GetHandles() ;
+ System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Handle> GetHandles() ;
 
 /// @brief Method NumHandles addr 0x1fefb58 size 0x4c virtual false final false
  int32_t NumHandles() ;
 
 /// @brief Method GetObjectTransform addr 0x1fefba4 size 0x23c virtual false final false
- ::HoudiniEngineUnity::HAPI_Transform GetObjectTransform(::HoudiniEngineUnity::HEU_SessionBase session, int32_t objectID) ;
+ HoudiniEngineUnity::HAPI_Transform GetObjectTransform(HoudiniEngineUnity::HEU_SessionBase session, int32_t objectID) ;
 
 /// @brief Method GetObjectWithID addr 0x1fefde0 size 0xd0 virtual false final false
- ::HoudiniEngineUnity::HEU_ObjectNode GetObjectWithID(int32_t objId) ;
+ HoudiniEngineUnity::HEU_ObjectNode GetObjectWithID(int32_t objId) ;
 
 /// @brief Method InvokeBakedEvent addr 0x1fefeb0 size 0x14c virtual false final false
- void InvokeBakedEvent(bool bSuccess, ::System::Collections::Generic::List_1<::UnityEngine::GameObject> outputObjects, bool isNewBake) ;
+ void InvokeBakedEvent(bool bSuccess, System::Collections::Generic::List_1<UnityEngine::GameObject> outputObjects, bool isNewBake) ;
 
 /// @brief Method CloneAssetWithoutHDA addr 0x1fefffc size 0x5d0 virtual false final false
- ::UnityEngine::GameObject CloneAssetWithoutHDA(ByRef<::StringW> bakedAssetPath, bool bWriteMeshesToAssetDatabase, bool bReconnectPrefabInstances) ;
+ UnityEngine::GameObject CloneAssetWithoutHDA(ByRef<::StringW> bakedAssetPath, bool bWriteMeshesToAssetDatabase, bool bReconnectPrefabInstances) ;
 
 /// @brief Method BakeToNewPrefab addr 0x1ff0744 size 0x3f8 virtual false final false
- ::UnityEngine::GameObject BakeToNewPrefab(::StringW destinationPrefabPath) ;
+ UnityEngine::GameObject BakeToNewPrefab(::StringW destinationPrefabPath) ;
 
 /// @brief Method BakeToNewStandalone addr 0x1ff0b3c size 0x1c8 virtual false final false
- ::UnityEngine::GameObject BakeToNewStandalone() ;
+ UnityEngine::GameObject BakeToNewStandalone() ;
 
 /// @brief Method BakeToExistingPrefab addr 0x1ff0d04 size 0x640 virtual false final false
- void BakeToExistingPrefab(::UnityEngine::GameObject bakeTargetGO) ;
+ void BakeToExistingPrefab(UnityEngine::GameObject bakeTargetGO) ;
 
 /// @brief Method BakeToExistingStandalone addr 0x1ff1344 size 0xc14 virtual false final false
- void BakeToExistingStandalone(::UnityEngine::GameObject bakeTargetGO) ;
+ void BakeToExistingStandalone(UnityEngine::GameObject bakeTargetGO) ;
 
 /// @brief Method NotifyUpstreamCooked addr 0x1ff1f58 size 0x2c virtual false final false
- void NotifyUpstreamCooked(::HoudiniEngineUnity::HEU_HoudiniAsset upstreamAsset, bool bSuccess, ::System::Collections::Generic::List_1<::UnityEngine::GameObject> outputs) ;
+ void NotifyUpstreamCooked(HoudiniEngineUnity::HEU_HoudiniAsset upstreamAsset, bool bSuccess, System::Collections::Generic::List_1<UnityEngine::GameObject> outputs) ;
 
 /// @brief Method ConnectToUpstream addr 0x1ff1f84 size 0x90 virtual false final false
- void ConnectToUpstream(::HoudiniEngineUnity::HEU_HoudiniAsset upstreamAsset) ;
+ void ConnectToUpstream(HoudiniEngineUnity::HEU_HoudiniAsset upstreamAsset) ;
 
 /// @brief Method DisconnectFromUpstream addr 0x1ff2094 size 0x90 virtual false final false
- void DisconnectFromUpstream(::HoudiniEngineUnity::HEU_HoudiniAsset upstreamAsset) ;
+ void DisconnectFromUpstream(HoudiniEngineUnity::HEU_HoudiniAsset upstreamAsset) ;
 
 /// @brief Method AddDownstreamConnection addr 0x1ff2014 size 0x80 virtual false final false
- void AddDownstreamConnection(::UnityEngine::Events::UnityAction_3<::HoudiniEngineUnity::HEU_HoudiniAsset,bool,::System::Collections::Generic::List_1<::UnityEngine::GameObject>> receiver) ;
+ void AddDownstreamConnection(UnityEngine::Events::UnityAction_3<HoudiniEngineUnity::HEU_HoudiniAsset,bool,System::Collections::Generic::List_1<UnityEngine::GameObject>> receiver) ;
 
 /// @brief Method RemoveDownstreamConnection addr 0x1ff2124 size 0x58 virtual false final false
- void RemoveDownstreamConnection(::UnityEngine::Events::UnityAction_3<::HoudiniEngineUnity::HEU_HoudiniAsset,bool,::System::Collections::Generic::List_1<::UnityEngine::GameObject>> receiver) ;
+ void RemoveDownstreamConnection(UnityEngine::Events::UnityAction_3<HoudiniEngineUnity::HEU_HoudiniAsset,bool,System::Collections::Generic::List_1<UnityEngine::GameObject>> receiver) ;
 
 /// @brief Method ClearAllUpstreamConnections addr 0x1feee1c size 0x278 virtual false final false
  void ClearAllUpstreamConnections() ;
 
 /// @brief Method UpdateInputsOnAssetRecreation addr 0x1feca38 size 0x154 virtual false final false
- void UpdateInputsOnAssetRecreation(::HoudiniEngineUnity::HEU_SessionBase session) ;
+ void UpdateInputsOnAssetRecreation(HoudiniEngineUnity::HEU_SessionBase session) ;
 
 /// @brief Method ReconnectInputsUpstreamNotifications addr 0x1ff217c size 0x194 virtual false final false
  void ReconnectInputsUpstreamNotifications() ;
 
 /// @brief Method GetHoudiniTransformAndApply addr 0x1ff2310 size 0x2c8 virtual false final false
- void GetHoudiniTransformAndApply(::HoudiniEngineUnity::HEU_SessionBase session) ;
+ void GetHoudiniTransformAndApply(HoudiniEngineUnity::HEU_SessionBase session) ;
 
 /// @brief Method UploadUnityTransform addr 0x1feb7a4 size 0x25c virtual false final false
- void UploadUnityTransform(::HoudiniEngineUnity::HEU_SessionBase session, bool bOnlySendIfChangedFromLastSync) ;
+ void UploadUnityTransform(HoudiniEngineUnity::HEU_SessionBase session, bool bOnlySendIfChangedFromLastSync) ;
 
 /// @brief Method GetMaterialData addr 0x1ff25d8 size 0x1a8 virtual false final false
- ::HoudiniEngineUnity::HEU_MaterialData GetMaterialData(::UnityEngine::Material material) ;
+ HoudiniEngineUnity::HEU_MaterialData GetMaterialData(UnityEngine::Material material) ;
 
 /// @brief Method GetMaterialCache addr 0x1ff2780 size 0x8 virtual false final false
- ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData> GetMaterialCache() ;
+ System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_MaterialData> GetMaterialCache() ;
 
 /// @brief Method ClearMaterialCache addr 0x1feedac size 0x70 virtual false final false
  void ClearMaterialCache() ;
 
 /// @brief Method UpdateHoudiniMaterials addr 0x1feda80 size 0x258 virtual false final false
- void UpdateHoudiniMaterials(::HoudiniEngineUnity::HEU_SessionBase session) ;
+ void UpdateHoudiniMaterials(HoudiniEngineUnity::HEU_SessionBase session) ;
 
 /// @brief Method RemoveUnusedMaterials addr 0x1fee4e8 size 0x470 virtual false final false
  void RemoveUnusedMaterials() ;
 
 /// @brief Method RemoveMaterial addr 0x1ff2818 size 0x144 virtual false final false
- void RemoveMaterial(::UnityEngine::Material material) ;
+ void RemoveMaterial(UnityEngine::Material material) ;
 
 /// @brief Method IsAssetValidInHoudini addr 0x1fe9d0c size 0x5c virtual false final false
- bool IsAssetValidInHoudini(::HoudiniEngineUnity::HEU_SessionBase session) ;
+ bool IsAssetValidInHoudini(HoudiniEngineUnity::HEU_SessionBase session) ;
 
 /// @brief Method IsAssetValid addr 0x1ff295c size 0x3c virtual false final false
  bool IsAssetValid() ;
@@ -2063,25 +2062,25 @@ constexpr bool __get__pendingAutoCookOnMouseRelease() const;
  bool HasTransformChangedSinceLastUpdate() ;
 
 /// @brief Method GetClonableParts addr 0x1ff05cc size 0x178 virtual false final false
- void GetClonableParts(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PartData> clonableParts) ;
+ void GetClonableParts(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_PartData> clonableParts) ;
 
 /// @brief Method GetOutputGameObjects addr 0x1fe9a64 size 0x154 virtual false final false
- void GetOutputGameObjects(::System::Collections::Generic::List_1<::UnityEngine::GameObject> outputObjects) ;
+ void GetOutputGameObjects(System::Collections::Generic::List_1<UnityEngine::GameObject> outputObjects) ;
 
 /// @brief Method GetOutput addr 0x1ff2a2c size 0x154 virtual false final false
- void GetOutput(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutput> outputs) ;
+ void GetOutput(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_GeneratedOutput> outputs) ;
 
 /// @brief Method GetOutputGeoNodes addr 0x1ff2b80 size 0x154 virtual false final false
- void GetOutputGeoNodes(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoNode> outputGeoNodes) ;
+ void GetOutputGeoNodes(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_GeoNode> outputGeoNodes) ;
 
 /// @brief Method GetInternalHDAPartWithGameObject addr 0x1ff2cd4 size 0x1ac virtual false final false
- ::HoudiniEngineUnity::HEU_PartData GetInternalHDAPartWithGameObject(::UnityEngine::GameObject outputGameObject) ;
+ HoudiniEngineUnity::HEU_PartData GetInternalHDAPartWithGameObject(UnityEngine::GameObject outputGameObject) ;
 
 /// @brief Method GetCurves addr 0x1ff2e80 size 0x8 virtual false final false
- ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Curve> GetCurves() ;
+ System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Curve> GetCurves() ;
 
 /// @brief Method GetCurve addr 0x1ff2e88 size 0x1cc virtual false final false
- ::HoudiniEngineUnity::HEU_Curve GetCurve(::StringW curveName) ;
+ HoudiniEngineUnity::HEU_Curve GetCurve(::StringW curveName) ;
 
 /// @brief Method ClearInvalidCurves addr 0x1fef488 size 0x104 virtual false final false
  void ClearInvalidCurves() ;
@@ -2090,97 +2089,97 @@ constexpr bool __get__pendingAutoCookOnMouseRelease() const;
  int32_t GetEditableCurveCount() ;
 
 /// @brief Method AddCurve addr 0x1fddac8 size 0xd4 virtual false final false
- void AddCurve(::HoudiniEngineUnity::HEU_Curve curve) ;
+ void AddCurve(HoudiniEngineUnity::HEU_Curve curve) ;
 
 /// @brief Method RemoveCurve addr 0x1fe4018 size 0x58 virtual false final false
- void RemoveCurve(::HoudiniEngineUnity::HEU_Curve curve) ;
+ void RemoveCurve(HoudiniEngineUnity::HEU_Curve curve) ;
 
 /// @brief Method AddCurveDrawCollider addr 0x1ff31ac size 0xd4 virtual false final false
- void AddCurveDrawCollider(::UnityEngine::Collider newCollider) ;
+ void AddCurveDrawCollider(UnityEngine::Collider newCollider) ;
 
 /// @brief Method RemoveCurveDrawCollider addr 0x1ff3280 size 0x60 virtual false final false
- void RemoveCurveDrawCollider(::UnityEngine::Collider collider) ;
+ void RemoveCurveDrawCollider(UnityEngine::Collider collider) ;
 
 /// @brief Method ClearCurveDrawColliders addr 0x1ff32e0 size 0x6c virtual false final false
  void ClearCurveDrawColliders() ;
 
 /// @brief Method GetInputNodes addr 0x1ff334c size 0x8 virtual false final false
- ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputNode> GetInputNodes() ;
+ System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputNode> GetInputNodes() ;
 
 /// @brief Method GetInputNode addr 0x1ff3354 size 0x190 virtual false final false
- ::HoudiniEngineUnity::HEU_InputNode GetInputNode(::StringW inputName) ;
+ HoudiniEngineUnity::HEU_InputNode GetInputNode(::StringW inputName) ;
 
 /// @brief Method GetAssetInputNode addr 0x1fef58c size 0x190 virtual false final false
- ::HoudiniEngineUnity::HEU_InputNode GetAssetInputNode(::StringW inputName) ;
+ HoudiniEngineUnity::HEU_InputNode GetAssetInputNode(::StringW inputName) ;
 
 /// @brief Method GetInputNodeByIndex addr 0x1ff34e4 size 0x84 virtual false final false
- ::HoudiniEngineUnity::HEU_InputNode GetInputNodeByIndex(int32_t index) ;
+ HoudiniEngineUnity::HEU_InputNode GetInputNodeByIndex(int32_t index) ;
 
 /// @brief Method GetNonParameterInputNodes addr 0x1ff3568 size 0x210 virtual false final false
- ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputNode> GetNonParameterInputNodes() ;
+ System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputNode> GetNonParameterInputNodes() ;
 
 /// @brief Method AddInputNode addr 0x1fe56bc size 0xd4 virtual false final false
- void AddInputNode(::HoudiniEngineUnity::HEU_InputNode node) ;
+ void AddInputNode(HoudiniEngineUnity::HEU_InputNode node) ;
 
 /// @brief Method RemoveInputNode addr 0x1fe3fc0 size 0x58 virtual false final false
- void RemoveInputNode(::HoudiniEngineUnity::HEU_InputNode node) ;
+ void RemoveInputNode(HoudiniEngineUnity::HEU_InputNode node) ;
 
 /// @brief Method InputNodeNotifyRemoved addr 0x1ff3778 size 0x4 virtual false final false
- void InputNodeNotifyRemoved(::HoudiniEngineUnity::HEU_InputNode node) ;
+ void InputNodeNotifyRemoved(HoudiniEngineUnity::HEU_InputNode node) ;
 
 /// @brief Method GetVolumeCacheCount addr 0x1ff377c size 0x48 virtual false final false
  int32_t GetVolumeCacheCount() ;
 
 /// @brief Method GetVolumeCaches addr 0x1ff37c4 size 0x8 virtual false final false
- ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCache> GetVolumeCaches() ;
+ System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCache> GetVolumeCaches() ;
 
 /// @brief Method AddVolumeCache addr 0x1ff37cc size 0xd4 virtual false final false
- void AddVolumeCache(::HoudiniEngineUnity::HEU_VolumeCache cache) ;
+ void AddVolumeCache(HoudiniEngineUnity::HEU_VolumeCache cache) ;
 
 /// @brief Method RemoveVolumeCache addr 0x1fe80bc size 0xa8 virtual false final false
- void RemoveVolumeCache(::HoudiniEngineUnity::HEU_VolumeCache cache) ;
+ void RemoveVolumeCache(HoudiniEngineUnity::HEU_VolumeCache cache) ;
 
 /// @brief Method GetAttributesStores addr 0x1ff38a0 size 0x8 virtual false final false
- ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_AttributesStore> GetAttributesStores() ;
+ System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_AttributesStore> GetAttributesStores() ;
 
 /// @brief Method NumAttributeStores addr 0x1ff38a8 size 0x4c virtual false final false
  int32_t NumAttributeStores() ;
 
 /// @brief Method GetAttributeStore addr 0x1ff38f4 size 0x190 virtual false final false
- ::HoudiniEngineUnity::HEU_AttributesStore GetAttributeStore(::StringW geoName, int32_t partID) ;
+ HoudiniEngineUnity::HEU_AttributesStore GetAttributeStore(::StringW geoName, int32_t partID) ;
 
 /// @brief Method AddAttributeStore addr 0x1ff3a84 size 0x19c virtual false final false
- void AddAttributeStore(::HoudiniEngineUnity::HEU_AttributesStore attributeStore) ;
+ void AddAttributeStore(HoudiniEngineUnity::HEU_AttributesStore attributeStore) ;
 
 /// @brief Method RemoveAttributeStore addr 0x1fef71c size 0x58 virtual false final false
- void RemoveAttributeStore(::HoudiniEngineUnity::HEU_AttributesStore attributeStore) ;
+ void RemoveAttributeStore(HoudiniEngineUnity::HEU_AttributesStore attributeStore) ;
 
 /// @brief Method ReorderAttributeStore addr 0x1ff3c20 size 0x110 virtual false final false
  void ReorderAttributeStore(int32_t oldIndex, int32_t newIndex) ;
 
 /// @brief Method GetSceneHDAPartWithGameObject addr 0x1ff3d30 size 0x144 virtual false final false
-static ::HoudiniEngineUnity::HEU_PartData GetSceneHDAPartWithGameObject(::UnityEngine::GameObject outputGameObject) ;
+static HoudiniEngineUnity::HEU_PartData GetSceneHDAPartWithGameObject(UnityEngine::GameObject outputGameObject) ;
 
 /// @brief Method GetSceneHDAAssetFromGameObject addr 0x1ff3e74 size 0x144 virtual false final false
-static ::HoudiniEngineUnity::HEU_HoudiniAsset GetSceneHDAAssetFromGameObject(::UnityEngine::GameObject outputGameObject) ;
+static HoudiniEngineUnity::HEU_HoudiniAsset GetSceneHDAAssetFromGameObject(UnityEngine::GameObject outputGameObject) ;
 
 /// @brief Method IsHoudiniAssetOutput addr 0x1ff3fb8 size 0x150 virtual false final false
-static bool IsHoudiniAssetOutput(::UnityEngine::GameObject go) ;
+static bool IsHoudiniAssetOutput(UnityEngine::GameObject go) ;
 
 /// @brief Method IsHoudiniAssetRoot addr 0x1ff4108 size 0x8c virtual false final false
-static bool IsHoudiniAssetRoot(::UnityEngine::GameObject go) ;
+static bool IsHoudiniAssetRoot(UnityEngine::GameObject go) ;
 
 /// @brief Method PopulateObjectInstanceInfos addr 0x1ff4194 size 0x190 virtual false final false
- void PopulateObjectInstanceInfos(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo> objInstanceInfos) ;
+ void PopulateObjectInstanceInfos(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ObjectInstanceInfo> objInstanceInfos) ;
 
 /// @brief Method AddToAssetDBCache addr 0x1ff4324 size 0x60 virtual false final false
- void AddToAssetDBCache(::StringW assetObjectFileName, ::UnityEngine::Object objectToAdd, ::StringW relativeFolderPath, ByRef<::UnityEngine::Object> targetAssetDBObject) ;
+ void AddToAssetDBCache(::StringW assetObjectFileName, UnityEngine::Object objectToAdd, ::StringW relativeFolderPath, ByRef<UnityEngine::Object> targetAssetDBObject) ;
 
 /// @brief Method SetCurvesVisibilityInScene addr 0x1ff4384 size 0x1e4 virtual false final false
 static void SetCurvesVisibilityInScene(bool bShow) ;
 
 /// @brief Method GetAssetSession addr 0x1fd85e4 size 0x15c virtual false final false
- ::HoudiniEngineUnity::HEU_SessionBase GetAssetSession(bool bCreateIfInvalid) ;
+ HoudiniEngineUnity::HEU_SessionBase GetAssetSession(bool bCreateIfInvalid) ;
 
 /// @brief Method GetValidAssetCacheFolderPath addr 0x1ff2788 size 0x90 virtual false final false
  ::StringW GetValidAssetCacheFolderPath() ;
@@ -2198,10 +2197,10 @@ static void SetCurvesVisibilityInScene(bool bShow) ;
  void CalculateColliderState() ;
 
 /// @brief Method DuplicateAsset addr 0x1ff4a98 size 0x304 virtual false final false
- ::UnityEngine::GameObject DuplicateAsset(::UnityEngine::GameObject newRootGameObject) ;
+ UnityEngine::GameObject DuplicateAsset(UnityEngine::GameObject newRootGameObject) ;
 
 /// @brief Method GetObjectNodeByName addr 0x1fd8fc0 size 0x26c virtual false final false
- ::HoudiniEngineUnity::HEU_ObjectNode GetObjectNodeByName(::StringW objName) ;
+ HoudiniEngineUnity::HEU_ObjectNode GetObjectNodeByName(::StringW objName) ;
 
 /// @brief Method ResetMaterialOverrides addr 0x1ff5988 size 0x17c virtual false final false
  void ResetMaterialOverrides() ;
@@ -2210,25 +2209,25 @@ static void SetCurvesVisibilityInScene(bool bShow) ;
  void ResetParametersToDefault() ;
 
 /// @brief Method GetAssetPreset addr 0x1fdb768 size 0x7dc virtual false final false
- ::HoudiniEngineUnity::HEU_AssetPreset GetAssetPreset() ;
+ HoudiniEngineUnity::HEU_AssetPreset GetAssetPreset() ;
 
 /// @brief Method LoadAssetPresetAndCook addr 0x1fdc5bc size 0x508 virtual false final false
- void LoadAssetPresetAndCook(::HoudiniEngineUnity::HEU_AssetPreset assetPreset) ;
+ void LoadAssetPresetAndCook(HoudiniEngineUnity::HEU_AssetPreset assetPreset) ;
 
 /// @brief Method ApplyRecookPreset addr 0x1fee46c size 0x7c virtual false final false
  void ApplyRecookPreset() ;
 
 /// @brief Method ApplyInputPresets addr 0x1ff5ef4 size 0x390 virtual false final false
- bool ApplyInputPresets(::HoudiniEngineUnity::HEU_SessionBase session, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset> inputPresets, bool bAddMissingInputsToRecookPreset) ;
+ bool ApplyInputPresets(HoudiniEngineUnity::HEU_SessionBase session, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputPreset> inputPresets, bool bAddMissingInputsToRecookPreset) ;
 
 /// @brief Method GetVolumeCachePreset addr 0x1ff6748 size 0x1dc virtual false final false
- ::HoudiniEngineUnity::HEU_VolumeCachePreset GetVolumeCachePreset(::StringW objName, ::StringW geoName, int32_t tile) ;
+ HoudiniEngineUnity::HEU_VolumeCachePreset GetVolumeCachePreset(::StringW objName, ::StringW geoName, int32_t tile) ;
 
 /// @brief Method RemoveVolumeCachePreset addr 0x1ff6924 size 0x68 virtual false final false
- void RemoveVolumeCachePreset(::HoudiniEngineUnity::HEU_VolumeCachePreset preset) ;
+ void RemoveVolumeCachePreset(HoudiniEngineUnity::HEU_VolumeCachePreset preset) ;
 
 /// @brief Method ApplyVolumeCachePresets addr 0x1ff6284 size 0x4c4 virtual false final false
- bool ApplyVolumeCachePresets(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset> volumeCachePresets) ;
+ bool ApplyVolumeCachePresets(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCachePreset> volumeCachePresets) ;
 
 /// @brief Method SyncInternalParametersForUndoCompare addr 0x1ff698c size 0x204 virtual false final false
  void SyncInternalParametersForUndoCompare() ;
@@ -2240,25 +2239,25 @@ static void SetCurvesVisibilityInScene(bool bShow) ;
  void UpdateTotalCookCount() ;
 
 /// @brief Method ResetAndCopyInstantiatedProperties addr 0x1ff6c78 size 0x324 virtual false final false
- void ResetAndCopyInstantiatedProperties(::HoudiniEngineUnity::HEU_HoudiniAsset newAsset) ;
+ void ResetAndCopyInstantiatedProperties(HoudiniEngineUnity::HEU_HoudiniAsset newAsset) ;
 
 /// @brief Method GetInstantiationMethod addr 0x1ff6f9c size 0x1f8 virtual false final false
- ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod GetInstantiationMethod() ;
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod GetInstantiationMethod() ;
 
 /// @brief Method GetInstantiatedObject addr 0x1ff7194 size 0x94 virtual false final false
- ::HoudiniEngineUnity::HEU_HoudiniAsset GetInstantiatedObject() ;
+ HoudiniEngineUnity::HEU_HoudiniAsset GetInstantiatedObject() ;
 
 /// @brief Method ClearInvalidLists addr 0x1fe90c4 size 0x274 virtual false final false
  void ClearInvalidLists() ;
 
 /// @brief Method CopyPropertiesTo addr 0x1ff4d9c size 0xbec virtual false final false
- void CopyPropertiesTo(::HoudiniEngineUnity::HEU_HoudiniAsset newAsset) ;
+ void CopyPropertiesTo(HoudiniEngineUnity::HEU_HoudiniAsset newAsset) ;
 
 /// @brief Method SetSoftDeleted addr 0x1ff7228 size 0x204 virtual false final false
  void SetSoftDeleted() ;
 
 /// @brief Method IsEquivalentTo addr 0x1ff742c size 0x10c4 virtual true final true
- bool IsEquivalentTo(::HoudiniEngineUnity::HEU_HoudiniAsset asset) ;
+ bool IsEquivalentTo(HoudiniEngineUnity::HEU_HoudiniAsset asset) ;
 
 // Ctor Parameters []
 explicit HEU_HoudiniAsset() ;
@@ -2270,19 +2269,18 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction, "HoudiniEngineUnity", "HEU_HoudiniAsset/AssetBuildAction");
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult, "HoudiniEngineUnity", "HEU_HoudiniAsset/AssetCookResult");
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus, "HoudiniEngineUnity", "HEU_HoudiniAsset/AssetCookStatus");
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod, "HoudiniEngineUnity", "HEU_HoudiniAsset/AssetInstantiationMethod");
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType, "HoudiniEngineUnity", "HEU_HoudiniAsset/HEU_AssetType");
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_HoudiniAsset);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_HoudiniAsset, "HoudiniEngineUnity", "HEU_HoudiniAsset");
-NEED_NO_BOX(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate, "HoudiniEngineUnity", "HEU_HoudiniAsset/UpdateUIDelegate");
-NEED_NO_BOX(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset____c);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset____c, "HoudiniEngineUnity", "HEU_HoudiniAsset/<>c");
-NEED_NO_BOX(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0, "HoudiniEngineUnity", "HEU_HoudiniAsset/<>c__DisplayClass281_0");
-NEED_NO_BOX(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0, "HoudiniEngineUnity", "HEU_HoudiniAsset/<>c__DisplayClass365_0");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction, "HoudiniEngineUnity", "HEU_HoudiniAsset/AssetBuildAction");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult, "HoudiniEngineUnity", "HEU_HoudiniAsset/AssetCookResult");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus, "HoudiniEngineUnity", "HEU_HoudiniAsset/AssetCookStatus");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod, "HoudiniEngineUnity", "HEU_HoudiniAsset/AssetInstantiationMethod");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType, "HoudiniEngineUnity", "HEU_HoudiniAsset/HEU_AssetType");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_HoudiniAsset);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_HoudiniAsset, "HoudiniEngineUnity", "HEU_HoudiniAsset");
+NEED_NO_BOX(HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate, "HoudiniEngineUnity", "HEU_HoudiniAsset/UpdateUIDelegate");
+NEED_NO_BOX(HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c, "HoudiniEngineUnity", "HEU_HoudiniAsset/<>c");
+NEED_NO_BOX(HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0, "HoudiniEngineUnity", "HEU_HoudiniAsset/<>c__DisplayClass281_0");
+NEED_NO_BOX(HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0, "HoudiniEngineUnity", "HEU_HoudiniAsset/<>c__DisplayClass365_0");

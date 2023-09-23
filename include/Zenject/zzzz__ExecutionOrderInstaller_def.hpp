@@ -5,7 +5,6 @@
 #include "Zenject/zzzz__Installer_2_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace Zenject {
 class InjectTypeInfo;
 }
@@ -23,10 +22,10 @@ class ExecutionOrderInstaller;
 // Type: Zenject::ExecutionOrderInstaller
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11074)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3828), inst: 1612 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11074), inst: 3769 }), TypeDefinitionIndex(TypeDefinitionIndex(2493)), TypeDefinitionIndex(TypeDefinitionIndex(3828))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3828), inst: 1612 }), TypeDefinitionIndex(TypeDefinitionIndex(3828)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11074), inst: 3769 }), TypeDefinitionIndex(TypeDefinitionIndex(11074)), TypeDefinitionIndex(TypeDefinitionIndex(2493))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11293))
 // CS Name: Zenject.ExecutionOrderInstaller
-class CORDL_TYPE ExecutionOrderInstaller : public ::Zenject::Installer_2<::System::Collections::Generic::List_1<::System::Type>,::Zenject::ExecutionOrderInstaller> {
+class CORDL_TYPE ExecutionOrderInstaller : public Zenject::Installer_2<System::Collections::Generic::List_1<System::Type>,Zenject::ExecutionOrderInstaller> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -41,7 +40,7 @@ constexpr ExecutionOrderInstaller(ExecutionOrderInstaller const& ) noexcept = de
 constexpr ExecutionOrderInstaller(ExecutionOrderInstaller&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ExecutionOrderInstaller(void* ptr) noexcept : ::Zenject::Installer_2<::System::Collections::Generic::List_1<::System::Type>,::Zenject::ExecutionOrderInstaller>(ptr) {
+constexpr explicit ExecutionOrderInstaller(void* ptr) noexcept : Zenject::Installer_2<System::Collections::Generic::List_1<System::Type>,Zenject::ExecutionOrderInstaller>(ptr) {
 }
 
 
@@ -62,20 +61,20 @@ constexpr explicit ExecutionOrderInstaller(void* ptr) noexcept : ::Zenject::Inst
 
 // Fields
 
- ::System::Collections::Generic::List_1<::System::Type> __declspec(property(get=__get__typeOrder, put=__set__typeOrder))  _typeOrder;
+ System::Collections::Generic::List_1<System::Type> __declspec(property(get=__get__typeOrder, put=__set__typeOrder))  _typeOrder;
 
-constexpr void __set__typeOrder(::System::Collections::Generic::List_1<::System::Type> value) ;
+constexpr void __set__typeOrder(System::Collections::Generic::List_1<System::Type> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::System::Type> __get__typeOrder() const;
+constexpr System::Collections::Generic::List_1<System::Type> __get__typeOrder() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "typeOrder", ty: "::System::Collections::Generic::List_1<::System::Type>", modifiers: "", def_value: None }]
-explicit ExecutionOrderInstaller(::System::Collections::Generic::List_1<::System::Type> typeOrder) ;
+// Ctor Parameters [CppParam { name: "typeOrder", ty: "System::Collections::Generic::List_1<System::Type>", modifiers: "", def_value: None }]
+explicit ExecutionOrderInstaller(System::Collections::Generic::List_1<System::Type> typeOrder) ;
 
 /// @brief Method .ctor addr 0x2da4b6c size 0x5c virtual false final false
- void _ctor(::System::Collections::Generic::List_1<::System::Type> typeOrder) ;
+ void _ctor(System::Collections::Generic::List_1<System::Type> typeOrder) ;
 
 /// @brief Method InstallBindings addr 0x2da4bc8 size 0x164 virtual true final false
  void InstallBindings() ;
@@ -84,12 +83,11 @@ explicit ExecutionOrderInstaller(::System::Collections::Generic::List_1<::System
 static ::bs_hook::Il2CppWrapperType __zenCreate(::ArrayW<::bs_hook::Il2CppWrapperType> P_0) ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x2da4df0 size 0x274 virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::ExecutionOrderInstaller);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::ExecutionOrderInstaller, "Zenject", "ExecutionOrderInstaller");
+NEED_NO_BOX(Zenject::ExecutionOrderInstaller);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::ExecutionOrderInstaller, "Zenject", "ExecutionOrderInstaller");

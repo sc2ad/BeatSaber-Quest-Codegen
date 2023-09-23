@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct AnimatorRecorderMode;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Offline offset 0
-static ::UnityEngine::AnimatorRecorderMode const Offline;
+static UnityEngine::AnimatorRecorderMode const Offline;
 
 /// @brief Field Playback offset 0
-static ::UnityEngine::AnimatorRecorderMode const Playback;
+static UnityEngine::AnimatorRecorderMode const Playback;
 
 /// @brief Field Record offset 0
-static ::UnityEngine::AnimatorRecorderMode const Record;
+static UnityEngine::AnimatorRecorderMode const Record;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AnimatorRecorderMode, "UnityEngine", "AnimatorRecorderMode");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorRecorderMode, "UnityEngine", "AnimatorRecorderMode");

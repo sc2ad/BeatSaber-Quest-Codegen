@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
 class UserList;
 }
@@ -53,11 +52,11 @@ constexpr explicit Team(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) 
 
 // Fields
 
- ::Oculus::Platform::Models::UserList __declspec(property(get=__get_AssignedUsers, put=__set_AssignedUsers))  AssignedUsers;
+ Oculus::Platform::Models::UserList __declspec(property(get=__get_AssignedUsers, put=__set_AssignedUsers))  AssignedUsers;
 
-constexpr void __set_AssignedUsers(::Oculus::Platform::Models::UserList value) ;
+constexpr void __set_AssignedUsers(Oculus::Platform::Models::UserList value) ;
 
-constexpr ::Oculus::Platform::Models::UserList __get_AssignedUsers() const;
+constexpr Oculus::Platform::Models::UserList __get_AssignedUsers() const;
 
  int32_t __declspec(property(get=__get_MaxUsers, put=__set_MaxUsers))  MaxUsers;
 
@@ -90,6 +89,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::Team);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::Team, "Oculus.Platform.Models", "Team");
+NEED_NO_BOX(Oculus::Platform::Models::Team);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Team, "Oculus.Platform.Models", "Team");

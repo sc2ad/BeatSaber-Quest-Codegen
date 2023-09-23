@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
 namespace Org::BouncyCastle::Crypto {
 class IAsymmetricCipherKeyPairGenerator;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Crypto {
 class CipherKeyGenerator;
@@ -63,23 +62,23 @@ constexpr explicit GeneratorUtilities(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Fields
 
-static ::System::Collections::IDictionary __declspec(property(get=__get_kgAlgorithms, put=__set_kgAlgorithms))  kgAlgorithms;
+static System::Collections::IDictionary __declspec(property(get=__get_kgAlgorithms, put=__set_kgAlgorithms))  kgAlgorithms;
 
-static void __set_kgAlgorithms(::System::Collections::IDictionary value) ;
+static void __set_kgAlgorithms(System::Collections::IDictionary value) ;
 
-static ::System::Collections::IDictionary __get_kgAlgorithms() ;
+static System::Collections::IDictionary __get_kgAlgorithms() ;
 
-static ::System::Collections::IDictionary __declspec(property(get=__get_kpgAlgorithms, put=__set_kpgAlgorithms))  kpgAlgorithms;
+static System::Collections::IDictionary __declspec(property(get=__get_kpgAlgorithms, put=__set_kpgAlgorithms))  kpgAlgorithms;
 
-static void __set_kpgAlgorithms(::System::Collections::IDictionary value) ;
+static void __set_kpgAlgorithms(System::Collections::IDictionary value) ;
 
-static ::System::Collections::IDictionary __get_kpgAlgorithms() ;
+static System::Collections::IDictionary __get_kpgAlgorithms() ;
 
-static ::System::Collections::IDictionary __declspec(property(get=__get_defaultKeySizes, put=__set_defaultKeySizes))  defaultKeySizes;
+static System::Collections::IDictionary __declspec(property(get=__get_defaultKeySizes, put=__set_defaultKeySizes))  defaultKeySizes;
 
-static void __set_defaultKeySizes(::System::Collections::IDictionary value) ;
+static void __set_defaultKeySizes(System::Collections::IDictionary value) ;
 
-static ::System::Collections::IDictionary __get_defaultKeySizes() ;
+static System::Collections::IDictionary __get_defaultKeySizes() ;
 
 
 // Methods
@@ -109,19 +108,19 @@ static ::StringW GetCanonicalKeyGeneratorAlgorithm(::StringW algorithm) ;
 static ::StringW GetCanonicalKeyPairGeneratorAlgorithm(::StringW algorithm) ;
 
 /// @brief Method GetKeyGenerator addr 0x10a1eec size 0x60 virtual false final false
-static ::Org::BouncyCastle::Crypto::CipherKeyGenerator GetKeyGenerator(::Org::BouncyCastle::Asn1::DerObjectIdentifier oid) ;
+static Org::BouncyCastle::Crypto::CipherKeyGenerator GetKeyGenerator(Org::BouncyCastle::Asn1::DerObjectIdentifier oid) ;
 
 /// @brief Method GetKeyGenerator addr 0x10a1f4c size 0x338 virtual false final false
-static ::Org::BouncyCastle::Crypto::CipherKeyGenerator GetKeyGenerator(::StringW algorithm) ;
+static Org::BouncyCastle::Crypto::CipherKeyGenerator GetKeyGenerator(::StringW algorithm) ;
 
 /// @brief Method GetKeyPairGenerator addr 0x10a2428 size 0x60 virtual false final false
-static ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator GetKeyPairGenerator(::Org::BouncyCastle::Asn1::DerObjectIdentifier oid) ;
+static Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator GetKeyPairGenerator(Org::BouncyCastle::Asn1::DerObjectIdentifier oid) ;
 
 /// @brief Method GetKeyPairGenerator addr 0x10a2488 size 0x5bc virtual false final false
-static ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator GetKeyPairGenerator(::StringW algorithm) ;
+static Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator GetKeyPairGenerator(::StringW algorithm) ;
 
 /// @brief Method GetDefaultKeySize addr 0x10a2a44 size 0x60 virtual false final false
-static int32_t GetDefaultKeySize(::Org::BouncyCastle::Asn1::DerObjectIdentifier oid) ;
+static int32_t GetDefaultKeySize(Org::BouncyCastle::Asn1::DerObjectIdentifier oid) ;
 
 /// @brief Method GetDefaultKeySize addr 0x10a2aa4 size 0x21c virtual false final false
 static int32_t GetDefaultKeySize(::StringW algorithm) ;
@@ -133,6 +132,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Security
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Security::GeneratorUtilities);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Security::GeneratorUtilities, "Org.BouncyCastle.Security", "GeneratorUtilities");
+NEED_NO_BOX(Org::BouncyCastle::Security::GeneratorUtilities);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::GeneratorUtilities, "Org.BouncyCastle.Security", "GeneratorUtilities");

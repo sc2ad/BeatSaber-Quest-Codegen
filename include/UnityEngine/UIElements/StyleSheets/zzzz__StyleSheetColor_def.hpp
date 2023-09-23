@@ -4,16 +4,15 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace UnityEngine {
+struct Color32;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace UnityEngine {
 struct Color;
-}
-namespace UnityEngine {
-struct Color32;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {
@@ -61,25 +60,24 @@ constexpr explicit StyleSheetColor(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Fields
 
-static ::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::Color32> __declspec(property(get=__get_s_NameToColor, put=__set_s_NameToColor))  s_NameToColor;
+static System::Collections::Generic::Dictionary_2<::StringW,UnityEngine::Color32> __declspec(property(get=__get_s_NameToColor, put=__set_s_NameToColor))  s_NameToColor;
 
-static void __set_s_NameToColor(::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::Color32> value) ;
+static void __set_s_NameToColor(System::Collections::Generic::Dictionary_2<::StringW,UnityEngine::Color32> value) ;
 
-static ::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::Color32> __get_s_NameToColor() ;
+static System::Collections::Generic::Dictionary_2<::StringW,UnityEngine::Color32> __get_s_NameToColor() ;
 
 
 // Methods
 
 /// @brief Method TryGetColor addr 0x2c6e9f0 size 0xf4 virtual false final false
-static bool TryGetColor(::StringW name, ByRef<::UnityEngine::Color> color) ;
+static bool TryGetColor(::StringW name, ByRef<UnityEngine::Color> color) ;
 
 /// @brief Method HexToColor32 addr 0x2c718f8 size 0x14 virtual false final false
-static ::UnityEngine::Color32 HexToColor32(uint32_t color) ;
+static UnityEngine::Color32 HexToColor32(uint32_t color) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::StyleSheets
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::StyleSheets::StyleSheetColor);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::StyleSheetColor, "UnityEngine.UIElements.StyleSheets", "StyleSheetColor");
+NEED_NO_BOX(UnityEngine::UIElements::StyleSheets::StyleSheetColor);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::StyleSheets::StyleSheetColor, "UnityEngine.UIElements.StyleSheets", "StyleSheetColor");

@@ -4,7 +4,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 class IEquatable_1;
@@ -22,8 +21,8 @@ namespace UnityEngine {
 struct CORDL_TYPE BoneWeight : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::BoneWeight>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::BoneWeight>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::BoneWeight>
+constexpr operator  System::IEquatable_1<UnityEngine::BoneWeight>() const;
 
 // Ctor Parameters [CppParam { name: "m_Weight0", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Weight1", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Weight2", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Weight3", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_BoneIndex0", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_BoneIndex1", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_BoneIndex2", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_BoneIndex3", ty: "int32_t", modifiers: "", def_value: None }]
 constexpr BoneWeight(float_t m_Weight0, float_t m_Weight1, float_t m_Weight2, float_t m_Weight3, int32_t m_BoneIndex0, int32_t m_BoneIndex1, int32_t m_BoneIndex2, int32_t m_BoneIndex3) noexcept;
@@ -184,11 +183,10 @@ constexpr int32_t __get_m_BoneIndex3() const;
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
 
 /// @brief Method Equals addr 0x2b4d244 size 0xd8 virtual true final true
- bool Equals(::UnityEngine::BoneWeight other) ;
+ bool Equals(UnityEngine::BoneWeight other) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::BoneWeight, "UnityEngine", "BoneWeight");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BoneWeight, "UnityEngine", "BoneWeight");

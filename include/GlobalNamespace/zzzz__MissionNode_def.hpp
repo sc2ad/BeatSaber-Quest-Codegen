@@ -5,18 +5,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-class MissionDataSO;
-}
 namespace UnityEngine {
 struct Vector2;
 }
-namespace GlobalNamespace {
-class MissionNodeVisualController;
-}
 namespace UnityEngine {
 class RectTransform;
+}
+namespace GlobalNamespace {
+class MissionDataSO;
+}
+namespace GlobalNamespace {
+class MissionNodeVisualController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,7 +27,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5632))
 // CS Name: MissionNode
-class CORDL_TYPE MissionNode : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MissionNode : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -43,7 +42,7 @@ constexpr MissionNode(MissionNode const& ) noexcept = default;
 constexpr MissionNode(MissionNode&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MissionNode(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MissionNode(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -64,11 +63,11 @@ constexpr explicit MissionNode(void* ptr) noexcept : ::UnityEngine::MonoBehaviou
 
 // Fields
 
- ::GlobalNamespace::MissionDataSO __declspec(property(get=__get__missionDataSO, put=__set__missionDataSO))  _missionDataSO;
+ GlobalNamespace::MissionDataSO __declspec(property(get=__get__missionDataSO, put=__set__missionDataSO))  _missionDataSO;
 
-constexpr void __set__missionDataSO(::GlobalNamespace::MissionDataSO value) ;
+constexpr void __set__missionDataSO(GlobalNamespace::MissionDataSO value) ;
 
-constexpr ::GlobalNamespace::MissionDataSO __get__missionDataSO() const;
+constexpr GlobalNamespace::MissionDataSO __get__missionDataSO() const;
 
  ::StringW __declspec(property(get=__get__letterPartName, put=__set__letterPartName))  _letterPartName;
 
@@ -82,32 +81,32 @@ constexpr void __set__numberPartName(int32_t value) ;
 
 constexpr int32_t __get__numberPartName() const;
 
- ::UnityEngine::RectTransform __declspec(property(get=__get__rectTransform, put=__set__rectTransform))  _rectTransform;
+ UnityEngine::RectTransform __declspec(property(get=__get__rectTransform, put=__set__rectTransform))  _rectTransform;
 
-constexpr void __set__rectTransform(::UnityEngine::RectTransform value) ;
+constexpr void __set__rectTransform(UnityEngine::RectTransform value) ;
 
-constexpr ::UnityEngine::RectTransform __get__rectTransform() const;
+constexpr UnityEngine::RectTransform __get__rectTransform() const;
 
- ::GlobalNamespace::MissionNodeVisualController __declspec(property(get=__get__missionNodeVisualController, put=__set__missionNodeVisualController))  _missionNodeVisualController;
+ GlobalNamespace::MissionNodeVisualController __declspec(property(get=__get__missionNodeVisualController, put=__set__missionNodeVisualController))  _missionNodeVisualController;
 
-constexpr void __set__missionNodeVisualController(::GlobalNamespace::MissionNodeVisualController value) ;
+constexpr void __set__missionNodeVisualController(GlobalNamespace::MissionNodeVisualController value) ;
 
-constexpr ::GlobalNamespace::MissionNodeVisualController __get__missionNodeVisualController() const;
+constexpr GlobalNamespace::MissionNodeVisualController __get__missionNodeVisualController() const;
 
- ::ArrayW<::GlobalNamespace::MissionNode> __declspec(property(get=__get__childNodes, put=__set__childNodes))  _childNodes;
+ ::ArrayW<GlobalNamespace::MissionNode> __declspec(property(get=__get__childNodes, put=__set__childNodes))  _childNodes;
 
-constexpr void __set__childNodes(::ArrayW<::GlobalNamespace::MissionNode> value) ;
+constexpr void __set__childNodes(::ArrayW<GlobalNamespace::MissionNode> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::MissionNode> __get__childNodes() const;
+constexpr ::ArrayW<GlobalNamespace::MissionNode> __get__childNodes() const;
 
 
 // Properties
 
- ::GlobalNamespace::MissionDataSO __declspec(property(get=get_missionData))  missionData;
+ GlobalNamespace::MissionDataSO __declspec(property(get=get_missionData))  missionData;
 
- ::ArrayW<::GlobalNamespace::MissionNode> __declspec(property(get=get_childNodes))  childNodes;
+ ::ArrayW<GlobalNamespace::MissionNode> __declspec(property(get=get_childNodes))  childNodes;
 
- ::GlobalNamespace::MissionNodeVisualController __declspec(property(get=get_missionNodeVisualController))  missionNodeVisualController;
+ GlobalNamespace::MissionNodeVisualController __declspec(property(get=get_missionNodeVisualController))  missionNodeVisualController;
 
  ::StringW __declspec(property(get=get_letterPartName))  letterPartName;
 
@@ -117,7 +116,7 @@ constexpr ::ArrayW<::GlobalNamespace::MissionNode> __get__childNodes() const;
 
  ::StringW __declspec(property(get=get_formattedMissionNodeName))  formattedMissionNodeName;
 
- ::UnityEngine::Vector2 __declspec(property(get=get_position))  position;
+ UnityEngine::Vector2 __declspec(property(get=get_position))  position;
 
  float_t __declspec(property(get=get_radius))  radius;
 
@@ -125,13 +124,13 @@ constexpr ::ArrayW<::GlobalNamespace::MissionNode> __get__childNodes() const;
 // Methods
 
 /// @brief Method get_missionData addr 0x2148d7c size 0x8 virtual false final false
- ::GlobalNamespace::MissionDataSO get_missionData() ;
+ GlobalNamespace::MissionDataSO get_missionData() ;
 
 /// @brief Method get_childNodes addr 0x2148d84 size 0x8 virtual false final false
- ::ArrayW<::GlobalNamespace::MissionNode> get_childNodes() ;
+ ::ArrayW<GlobalNamespace::MissionNode> get_childNodes() ;
 
 /// @brief Method get_missionNodeVisualController addr 0x2148d8c size 0x8 virtual false final false
- ::GlobalNamespace::MissionNodeVisualController get_missionNodeVisualController() ;
+ GlobalNamespace::MissionNodeVisualController get_missionNodeVisualController() ;
 
 /// @brief Method get_letterPartName addr 0x2148d94 size 0x8 virtual false final false
  ::StringW get_letterPartName() ;
@@ -146,7 +145,7 @@ constexpr ::ArrayW<::GlobalNamespace::MissionNode> __get__childNodes() const;
  ::StringW get_formattedMissionNodeName() ;
 
 /// @brief Method get_position addr 0x214878c size 0x1c virtual false final false
- ::UnityEngine::Vector2 get_position() ;
+ UnityEngine::Vector2 get_position() ;
 
 /// @brief Method get_radius addr 0x2148e2c size 0x40 virtual false final false
  float_t get_radius() ;
@@ -161,6 +160,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MissionNode);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionNode, "", "MissionNode");
+NEED_NO_BOX(GlobalNamespace::MissionNode);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNode, "", "MissionNode");

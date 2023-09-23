@@ -3,23 +3,22 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace UnityEngine::AddressableAssets::ResourceLocators {
-class IResourceLocator;
-}
-namespace System {
-class Type;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
-}
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
 }
 namespace System::Collections::Generic {
 template<typename T>
+class IList_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
 class IEnumerable_1;
+}
+namespace UnityEngine::AddressableAssets::ResourceLocators {
+class IResourceLocator;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets::ResourceLocators {
@@ -34,8 +33,8 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
 class CORDL_TYPE LegacyResourcesLocator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator
-constexpr operator  ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator() const noexcept;
+/// @brief Convert operator to UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator
+constexpr operator  UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -70,7 +69,7 @@ constexpr explicit LegacyResourcesLocator(void* ptr) noexcept : ::bs_hook::Il2Cp
 
 // Properties
 
- ::System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=get_Keys))  Keys;
+ System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=get_Keys))  Keys;
 
  ::StringW __declspec(property(get=get_LocatorId))  LocatorId;
 
@@ -78,10 +77,10 @@ constexpr explicit LegacyResourcesLocator(void* ptr) noexcept : ::bs_hook::Il2Cp
 // Methods
 
 /// @brief Method Locate addr 0x289cd24 size 0x274 virtual true final true
- bool Locate(::bs_hook::Il2CppWrapperType key, ::System::Type type, ByRef<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation>> locations) ;
+ bool Locate(::bs_hook::Il2CppWrapperType key, System::Type type, ByRef<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation>> locations) ;
 
 /// @brief Method get_Keys addr 0x289cf98 size 0x8 virtual true final true
- ::System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType> get_Keys() ;
+ System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType> get_Keys() ;
 
 /// @brief Method get_LocatorId addr 0x289cfa0 size 0x40 virtual true final true
  ::StringW get_LocatorId() ;
@@ -96,6 +95,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::AddressableAssets::ResourceLocators
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AddressableAssets::ResourceLocators::LegacyResourcesLocator);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::ResourceLocators::LegacyResourcesLocator, "UnityEngine.AddressableAssets.ResourceLocators", "LegacyResourcesLocator");
+NEED_NO_BOX(UnityEngine::AddressableAssets::ResourceLocators::LegacyResourcesLocator);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::ResourceLocators::LegacyResourcesLocator, "UnityEngine.AddressableAssets.ResourceLocators", "LegacyResourcesLocator");

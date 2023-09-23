@@ -2,15 +2,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Collections {
-class IEnumerable;
+class Hashtable;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Collections {
-class Hashtable;
+class IEnumerable;
 }
 // Forward declare root types
 namespace System::Collections::Specialized {
@@ -25,8 +24,8 @@ namespace System::Collections::Specialized {
 class CORDL_TYPE StringDictionary : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -61,11 +60,11 @@ constexpr explicit StringDictionary(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
- ::System::Collections::Hashtable __declspec(property(get=__get_contents, put=__set_contents))  contents;
+ System::Collections::Hashtable __declspec(property(get=__get_contents, put=__set_contents))  contents;
 
-constexpr void __set_contents(::System::Collections::Hashtable value) ;
+constexpr void __set_contents(System::Collections::Hashtable value) ;
 
-constexpr ::System::Collections::Hashtable __get_contents() const;
+constexpr System::Collections::Hashtable __get_contents() const;
 
 
 // Methods
@@ -80,12 +79,11 @@ explicit StringDictionary() ;
  void Add(::StringW key, ::StringW value) ;
 
 /// @brief Method GetEnumerator addr 0x27ad3cc size 0x24 virtual true final false
- ::System::Collections::IEnumerator GetEnumerator() ;
+ System::Collections::IEnumerator GetEnumerator() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Collections::Specialized
-} // end anonymous namespace
-NEED_NO_BOX(::System::Collections::Specialized::StringDictionary);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Specialized::StringDictionary, "System.Collections.Specialized", "StringDictionary");
+NEED_NO_BOX(System::Collections::Specialized::StringDictionary);
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::StringDictionary, "System.Collections.Specialized", "StringDictionary");

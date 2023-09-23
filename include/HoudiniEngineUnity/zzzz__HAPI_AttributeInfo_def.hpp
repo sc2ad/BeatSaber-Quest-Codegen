@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace HoudiniEngineUnity {
 struct HAPI_StorageType;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_AttributeTypeInfo;
+struct HAPI_AttributeOwner;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_AttributeOwner;
+struct HAPI_AttributeTypeInfo;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -26,8 +25,8 @@ namespace HoudiniEngineUnity {
 struct CORDL_TYPE HAPI_AttributeInfo : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "exists", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "owner", ty: "::HoudiniEngineUnity::HAPI_AttributeOwner", modifiers: "", def_value: None }, CppParam { name: "storage", ty: "::HoudiniEngineUnity::HAPI_StorageType", modifiers: "", def_value: None }, CppParam { name: "originalOwner", ty: "::HoudiniEngineUnity::HAPI_AttributeOwner", modifiers: "", def_value: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "tupleSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "totalArrayElements", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "typeInfo", ty: "::HoudiniEngineUnity::HAPI_AttributeTypeInfo", modifiers: "", def_value: None }]
-constexpr HAPI_AttributeInfo(bool exists, ::HoudiniEngineUnity::HAPI_AttributeOwner owner, ::HoudiniEngineUnity::HAPI_StorageType storage, ::HoudiniEngineUnity::HAPI_AttributeOwner originalOwner, int32_t count, int32_t tupleSize, int64_t totalArrayElements, ::HoudiniEngineUnity::HAPI_AttributeTypeInfo typeInfo) noexcept;
+// Ctor Parameters [CppParam { name: "exists", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "owner", ty: "HoudiniEngineUnity::HAPI_AttributeOwner", modifiers: "", def_value: None }, CppParam { name: "storage", ty: "HoudiniEngineUnity::HAPI_StorageType", modifiers: "", def_value: None }, CppParam { name: "originalOwner", ty: "HoudiniEngineUnity::HAPI_AttributeOwner", modifiers: "", def_value: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "tupleSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "totalArrayElements", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "typeInfo", ty: "HoudiniEngineUnity::HAPI_AttributeTypeInfo", modifiers: "", def_value: None }]
+constexpr HAPI_AttributeInfo(bool exists, HoudiniEngineUnity::HAPI_AttributeOwner owner, HoudiniEngineUnity::HAPI_StorageType storage, HoudiniEngineUnity::HAPI_AttributeOwner originalOwner, int32_t count, int32_t tupleSize, int64_t totalArrayElements, HoudiniEngineUnity::HAPI_AttributeTypeInfo typeInfo) noexcept;
 
 
                     constexpr HAPI_AttributeInfo(HAPI_AttributeInfo const&) = default;
@@ -66,23 +65,23 @@ constexpr void __set_exists(bool value) ;
 
 constexpr bool __get_exists() const;
 
- ::HoudiniEngineUnity::HAPI_AttributeOwner __declspec(property(get=__get_owner, put=__set_owner))  owner;
+ HoudiniEngineUnity::HAPI_AttributeOwner __declspec(property(get=__get_owner, put=__set_owner))  owner;
 
-constexpr void __set_owner(::HoudiniEngineUnity::HAPI_AttributeOwner value) ;
+constexpr void __set_owner(HoudiniEngineUnity::HAPI_AttributeOwner value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_AttributeOwner __get_owner() const;
+constexpr HoudiniEngineUnity::HAPI_AttributeOwner __get_owner() const;
 
- ::HoudiniEngineUnity::HAPI_StorageType __declspec(property(get=__get_storage, put=__set_storage))  storage;
+ HoudiniEngineUnity::HAPI_StorageType __declspec(property(get=__get_storage, put=__set_storage))  storage;
 
-constexpr void __set_storage(::HoudiniEngineUnity::HAPI_StorageType value) ;
+constexpr void __set_storage(HoudiniEngineUnity::HAPI_StorageType value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_StorageType __get_storage() const;
+constexpr HoudiniEngineUnity::HAPI_StorageType __get_storage() const;
 
- ::HoudiniEngineUnity::HAPI_AttributeOwner __declspec(property(get=__get_originalOwner, put=__set_originalOwner))  originalOwner;
+ HoudiniEngineUnity::HAPI_AttributeOwner __declspec(property(get=__get_originalOwner, put=__set_originalOwner))  originalOwner;
 
-constexpr void __set_originalOwner(::HoudiniEngineUnity::HAPI_AttributeOwner value) ;
+constexpr void __set_originalOwner(HoudiniEngineUnity::HAPI_AttributeOwner value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_AttributeOwner __get_originalOwner() const;
+constexpr HoudiniEngineUnity::HAPI_AttributeOwner __get_originalOwner() const;
 
  int32_t __declspec(property(get=__get_count, put=__set_count))  count;
 
@@ -102,11 +101,11 @@ constexpr void __set_totalArrayElements(int64_t value) ;
 
 constexpr int64_t __get_totalArrayElements() const;
 
- ::HoudiniEngineUnity::HAPI_AttributeTypeInfo __declspec(property(get=__get_typeInfo, put=__set_typeInfo))  typeInfo;
+ HoudiniEngineUnity::HAPI_AttributeTypeInfo __declspec(property(get=__get_typeInfo, put=__set_typeInfo))  typeInfo;
 
-constexpr void __set_typeInfo(::HoudiniEngineUnity::HAPI_AttributeTypeInfo value) ;
+constexpr void __set_typeInfo(HoudiniEngineUnity::HAPI_AttributeTypeInfo value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_AttributeTypeInfo __get_typeInfo() const;
+constexpr HoudiniEngineUnity::HAPI_AttributeTypeInfo __get_typeInfo() const;
 
 
 // Methods
@@ -118,5 +117,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_AttributeInfo, "HoudiniEngineUnity", "HAPI_AttributeInfo");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_AttributeInfo, "HoudiniEngineUnity", "HAPI_AttributeInfo");

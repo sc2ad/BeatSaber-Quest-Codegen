@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_def.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 class TextAreaAttribute;
@@ -13,7 +12,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10112))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10121))
 // CS Name: UnityEngine.TextAreaAttribute
-class CORDL_TYPE TextAreaAttribute : public ::UnityEngine::PropertyAttribute {
+class CORDL_TYPE TextAreaAttribute : public UnityEngine::PropertyAttribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr TextAreaAttribute(TextAreaAttribute const& ) noexcept = default;
 constexpr TextAreaAttribute(TextAreaAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TextAreaAttribute(void* ptr) noexcept : ::UnityEngine::PropertyAttribute(ptr) {
+constexpr explicit TextAreaAttribute(void* ptr) noexcept : UnityEngine::PropertyAttribute(ptr) {
 }
 
 
@@ -80,6 +79,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::TextAreaAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextAreaAttribute, "UnityEngine", "TextAreaAttribute");
+NEED_NO_BOX(UnityEngine::TextAreaAttribute);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextAreaAttribute, "UnityEngine", "TextAreaAttribute");

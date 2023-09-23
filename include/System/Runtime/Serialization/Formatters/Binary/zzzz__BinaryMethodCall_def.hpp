@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryWriter;
 }
@@ -83,11 +82,11 @@ constexpr void __set_callContext(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get_callContext() const;
 
- ::ArrayW<::System::Type> __declspec(property(get=__get_argTypes, put=__set_argTypes))  argTypes;
+ ::ArrayW<System::Type> __declspec(property(get=__get_argTypes, put=__set_argTypes))  argTypes;
 
-constexpr void __set_argTypes(::ArrayW<::System::Type> value) ;
+constexpr void __set_argTypes(::ArrayW<System::Type> value) ;
 
-constexpr ::ArrayW<::System::Type> __get_argTypes() const;
+constexpr ::ArrayW<System::Type> __get_argTypes() const;
 
  bool __declspec(property(get=__get_bArgsPrimitive, put=__set_bArgsPrimitive))  bArgsPrimitive;
 
@@ -95,17 +94,17 @@ constexpr void __set_bArgsPrimitive(bool value) ;
 
 constexpr bool __get_bArgsPrimitive() const;
 
- ::System::Runtime::Serialization::Formatters::Binary::MessageEnum __declspec(property(get=__get_messageEnum, put=__set_messageEnum))  messageEnum;
+ System::Runtime::Serialization::Formatters::Binary::MessageEnum __declspec(property(get=__get_messageEnum, put=__set_messageEnum))  messageEnum;
 
-constexpr void __set_messageEnum(::System::Runtime::Serialization::Formatters::Binary::MessageEnum value) ;
+constexpr void __set_messageEnum(System::Runtime::Serialization::Formatters::Binary::MessageEnum value) ;
 
-constexpr ::System::Runtime::Serialization::Formatters::Binary::MessageEnum __get_messageEnum() const;
+constexpr System::Runtime::Serialization::Formatters::Binary::MessageEnum __get_messageEnum() const;
 
 
 // Methods
 
 /// @brief Method Write addr 0x2355d70 size 0x148 virtual false final false
- void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter sout) ;
+ void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter sout) ;
 
 /// @brief Method Dump addr 0x2355eb8 size 0x4 virtual false final false
  void Dump() ;
@@ -120,6 +119,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization::Formatters::Binary
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall, "System.Runtime.Serialization.Formatters.Binary", "BinaryMethodCall");
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall, "System.Runtime.Serialization.Formatters.Binary", "BinaryMethodCall");

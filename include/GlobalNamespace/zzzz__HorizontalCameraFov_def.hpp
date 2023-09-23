@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class HorizontalCameraFov;
@@ -13,7 +12,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13808))
 // CS Name: HorizontalCameraFov
-class CORDL_TYPE HorizontalCameraFov : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE HorizontalCameraFov : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr HorizontalCameraFov(HorizontalCameraFov const& ) noexcept = default;
 constexpr HorizontalCameraFov(HorizontalCameraFov&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HorizontalCameraFov(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit HorizontalCameraFov(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -71,6 +70,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::HorizontalCameraFov);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::HorizontalCameraFov, "", "HorizontalCameraFov");
+NEED_NO_BOX(GlobalNamespace::HorizontalCameraFov);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HorizontalCameraFov, "", "HorizontalCameraFov");

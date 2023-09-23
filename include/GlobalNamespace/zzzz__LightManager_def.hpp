@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Vector4;
 }
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14658))
 // CS Name: LightManager
-class CORDL_TYPE LightManager : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE LightManager : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr LightManager(LightManager const& ) noexcept = default;
 constexpr LightManager(LightManager&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LightManager(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit LightManager(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -93,23 +92,23 @@ static void __set__pointLightColorsID(int32_t value) ;
 
 static int32_t __get__pointLightColorsID() ;
 
- ::ArrayW<::UnityEngine::Vector4> __declspec(property(get=__get__directionalLightDirections, put=__set__directionalLightDirections))  _directionalLightDirections;
+ ::ArrayW<UnityEngine::Vector4> __declspec(property(get=__get__directionalLightDirections, put=__set__directionalLightDirections))  _directionalLightDirections;
 
-constexpr void __set__directionalLightDirections(::ArrayW<::UnityEngine::Vector4> value) ;
+constexpr void __set__directionalLightDirections(::ArrayW<UnityEngine::Vector4> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector4> __get__directionalLightDirections() const;
+constexpr ::ArrayW<UnityEngine::Vector4> __get__directionalLightDirections() const;
 
- ::ArrayW<::UnityEngine::Vector4> __declspec(property(get=__get__directionalLightColors, put=__set__directionalLightColors))  _directionalLightColors;
+ ::ArrayW<UnityEngine::Vector4> __declspec(property(get=__get__directionalLightColors, put=__set__directionalLightColors))  _directionalLightColors;
 
-constexpr void __set__directionalLightColors(::ArrayW<::UnityEngine::Vector4> value) ;
+constexpr void __set__directionalLightColors(::ArrayW<UnityEngine::Vector4> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector4> __get__directionalLightColors() const;
+constexpr ::ArrayW<UnityEngine::Vector4> __get__directionalLightColors() const;
 
- ::ArrayW<::UnityEngine::Vector4> __declspec(property(get=__get__directionalLightPositions, put=__set__directionalLightPositions))  _directionalLightPositions;
+ ::ArrayW<UnityEngine::Vector4> __declspec(property(get=__get__directionalLightPositions, put=__set__directionalLightPositions))  _directionalLightPositions;
 
-constexpr void __set__directionalLightPositions(::ArrayW<::UnityEngine::Vector4> value) ;
+constexpr void __set__directionalLightPositions(::ArrayW<UnityEngine::Vector4> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector4> __get__directionalLightPositions() const;
+constexpr ::ArrayW<UnityEngine::Vector4> __get__directionalLightPositions() const;
 
  ::ArrayW<float_t> __declspec(property(get=__get__directionalLightRadii, put=__set__directionalLightRadii))  _directionalLightRadii;
 
@@ -117,17 +116,17 @@ constexpr void __set__directionalLightRadii(::ArrayW<float_t> value) ;
 
 constexpr ::ArrayW<float_t> __get__directionalLightRadii() const;
 
- ::ArrayW<::UnityEngine::Vector4> __declspec(property(get=__get__pointLightPositions, put=__set__pointLightPositions))  _pointLightPositions;
+ ::ArrayW<UnityEngine::Vector4> __declspec(property(get=__get__pointLightPositions, put=__set__pointLightPositions))  _pointLightPositions;
 
-constexpr void __set__pointLightPositions(::ArrayW<::UnityEngine::Vector4> value) ;
+constexpr void __set__pointLightPositions(::ArrayW<UnityEngine::Vector4> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector4> __get__pointLightPositions() const;
+constexpr ::ArrayW<UnityEngine::Vector4> __get__pointLightPositions() const;
 
- ::ArrayW<::UnityEngine::Vector4> __declspec(property(get=__get__pointLightColors, put=__set__pointLightColors))  _pointLightColors;
+ ::ArrayW<UnityEngine::Vector4> __declspec(property(get=__get__pointLightColors, put=__set__pointLightColors))  _pointLightColors;
 
-constexpr void __set__pointLightColors(::ArrayW<::UnityEngine::Vector4> value) ;
+constexpr void __set__pointLightColors(::ArrayW<UnityEngine::Vector4> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector4> __get__pointLightColors() const;
+constexpr ::ArrayW<UnityEngine::Vector4> __get__pointLightColors() const;
 
  int32_t __declspec(property(get=__get_lastRefreshFrameNum, put=__set_lastRefreshFrameNum))  lastRefreshFrameNum;
 
@@ -145,7 +144,7 @@ constexpr int32_t __get_lastRefreshFrameNum() const;
  void OnDisable() ;
 
 /// @brief Method OnCameraPreRender addr 0x1f992e8 size 0x560 virtual false final false
- void OnCameraPreRender(::UnityEngine::Camera camera) ;
+ void OnCameraPreRender(UnityEngine::Camera camera) ;
 
 /// @brief Method OnDestroy addr 0x1f99848 size 0x4 virtual false final false
  void OnDestroy() ;
@@ -163,6 +162,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LightManager);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightManager, "", "LightManager");
+NEED_NO_BOX(GlobalNamespace::LightManager);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightManager, "", "LightManager");

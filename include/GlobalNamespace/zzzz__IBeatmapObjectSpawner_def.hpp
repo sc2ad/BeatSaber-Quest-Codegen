@@ -2,24 +2,23 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
-struct ____GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData;
+struct GlobalNamespace__BeatmapObjectSpawnMovementData__ObstacleSpawnData;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__BeatmapObjectSpawnMovementData__SliderSpawnData;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__BeatmapObjectSpawnMovementData__ObstacleSpawnData;
+class ObstacleData;
 }
 namespace GlobalNamespace {
 class NoteData;
 }
 namespace GlobalNamespace {
-class SliderData;
+struct GlobalNamespace__BeatmapObjectSpawnMovementData__SliderSpawnData;
 }
 namespace GlobalNamespace {
-class ObstacleData;
+struct GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData;
+}
+namespace GlobalNamespace {
+class SliderData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -44,18 +43,17 @@ constexpr explicit IBeatmapObjectSpawner(void* ptr) noexcept : ::cordl_internals
 // Methods
 
 /// @brief Method ProcessObstacleData addr 0x0 size 0xffffffffffffffff virtual true final false
- void ProcessObstacleData(::GlobalNamespace::ObstacleData obstacleData, ByRef<::GlobalNamespace::____GlobalNamespace__BeatmapObjectSpawnMovementData__ObstacleSpawnData> obstacleSpawnData, float_t rotation) ;
+ void ProcessObstacleData(GlobalNamespace::ObstacleData obstacleData, ByRef<GlobalNamespace::GlobalNamespace__BeatmapObjectSpawnMovementData__ObstacleSpawnData> obstacleSpawnData, float_t rotation) ;
 
 /// @brief Method ProcessNoteData addr 0x0 size 0xffffffffffffffff virtual true final false
- void ProcessNoteData(::GlobalNamespace::NoteData noteData, ByRef<::GlobalNamespace::____GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData> noteSpawnData, float_t rotation, bool forceIsFirstNoteBehaviour) ;
+ void ProcessNoteData(GlobalNamespace::NoteData noteData, ByRef<GlobalNamespace::GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData> noteSpawnData, float_t rotation, bool forceIsFirstNoteBehaviour) ;
 
 /// @brief Method ProcessSliderData addr 0x0 size 0xffffffffffffffff virtual true final false
- void ProcessSliderData(::GlobalNamespace::SliderData sliderData, ByRef<::GlobalNamespace::____GlobalNamespace__BeatmapObjectSpawnMovementData__SliderSpawnData> sliderSpawnData, float_t rotation) ;
+ void ProcessSliderData(GlobalNamespace::SliderData sliderData, ByRef<GlobalNamespace::GlobalNamespace__BeatmapObjectSpawnMovementData__SliderSpawnData> sliderSpawnData, float_t rotation) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IBeatmapObjectSpawner);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IBeatmapObjectSpawner, "", "IBeatmapObjectSpawner");
+NEED_NO_BOX(GlobalNamespace::IBeatmapObjectSpawner);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IBeatmapObjectSpawner, "", "IBeatmapObjectSpawner");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct EIOBufferError;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field IOBuffer_Success offset 0
-static ::OVR::OpenVR::EIOBufferError const IOBuffer_Success;
+static OVR::OpenVR::EIOBufferError const IOBuffer_Success;
 
 /// @brief Field IOBuffer_OperationFailed offset 0
-static ::OVR::OpenVR::EIOBufferError const IOBuffer_OperationFailed;
+static OVR::OpenVR::EIOBufferError const IOBuffer_OperationFailed;
 
 /// @brief Field IOBuffer_InvalidHandle offset 0
-static ::OVR::OpenVR::EIOBufferError const IOBuffer_InvalidHandle;
+static OVR::OpenVR::EIOBufferError const IOBuffer_InvalidHandle;
 
 /// @brief Field IOBuffer_InvalidArgument offset 0
-static ::OVR::OpenVR::EIOBufferError const IOBuffer_InvalidArgument;
+static OVR::OpenVR::EIOBufferError const IOBuffer_InvalidArgument;
 
 /// @brief Field IOBuffer_PathExists offset 0
-static ::OVR::OpenVR::EIOBufferError const IOBuffer_PathExists;
+static OVR::OpenVR::EIOBufferError const IOBuffer_PathExists;
 
 /// @brief Field IOBuffer_PathDoesNotExist offset 0
-static ::OVR::OpenVR::EIOBufferError const IOBuffer_PathDoesNotExist;
+static OVR::OpenVR::EIOBufferError const IOBuffer_PathDoesNotExist;
 
 /// @brief Field IOBuffer_Permission offset 0
-static ::OVR::OpenVR::EIOBufferError const IOBuffer_Permission;
+static OVR::OpenVR::EIOBufferError const IOBuffer_Permission;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EIOBufferError, "OVR.OpenVR", "EIOBufferError");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EIOBufferError, "OVR.OpenVR", "EIOBufferError");

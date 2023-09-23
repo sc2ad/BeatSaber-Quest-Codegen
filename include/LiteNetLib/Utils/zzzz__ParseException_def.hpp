@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace LiteNetLib::Utils {
 class ParseException;
@@ -13,7 +12,7 @@ namespace LiteNetLib::Utils {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2560))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14489))
 // CS Name: LiteNetLib.Utils.ParseException
-class CORDL_TYPE ParseException : public ::System::Exception {
+class CORDL_TYPE ParseException : public System::Exception {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr ParseException(ParseException const& ) noexcept = default;
 constexpr ParseException(ParseException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ParseException(void* ptr) noexcept : ::System::Exception(ptr) {
+constexpr explicit ParseException(void* ptr) noexcept : System::Exception(ptr) {
 }
 
 
@@ -59,6 +58,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib::Utils
-} // end anonymous namespace
-NEED_NO_BOX(::LiteNetLib::Utils::ParseException);
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::Utils::ParseException, "LiteNetLib.Utils", "ParseException");
+NEED_NO_BOX(LiteNetLib::Utils::ParseException);
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::ParseException, "LiteNetLib.Utils", "ParseException");

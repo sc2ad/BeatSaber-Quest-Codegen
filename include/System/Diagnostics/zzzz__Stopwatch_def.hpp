@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 struct TimeSpan;
 }
@@ -85,7 +84,7 @@ constexpr bool __get_is_running() const;
 
 // Properties
 
- ::System::TimeSpan __declspec(property(get=get_Elapsed))  Elapsed;
+ System::TimeSpan __declspec(property(get=get_Elapsed))  Elapsed;
 
  int64_t __declspec(property(get=get_ElapsedMilliseconds))  ElapsedMilliseconds;
 
@@ -100,7 +99,7 @@ constexpr bool __get_is_running() const;
 static int64_t GetTimestamp() ;
 
 /// @brief Method StartNew addr 0x27e1770 size 0x64 virtual false final false
-static ::System::Diagnostics::Stopwatch StartNew() ;
+static System::Diagnostics::Stopwatch StartNew() ;
 
 // Ctor Parameters []
 explicit Stopwatch() ;
@@ -109,7 +108,7 @@ explicit Stopwatch() ;
  void _ctor() ;
 
 /// @brief Method get_Elapsed addr 0x27e1844 size 0xf8 virtual false final false
- ::System::TimeSpan get_Elapsed() ;
+ System::TimeSpan get_Elapsed() ;
 
 /// @brief Method get_ElapsedMilliseconds addr 0x27e19ac size 0x11c virtual false final false
  int64_t get_ElapsedMilliseconds() ;
@@ -133,6 +132,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Diagnostics
-} // end anonymous namespace
-NEED_NO_BOX(::System::Diagnostics::Stopwatch);
-DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::Stopwatch, "System.Diagnostics", "Stopwatch");
+NEED_NO_BOX(System::Diagnostics::Stopwatch);
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Stopwatch, "System.Diagnostics", "Stopwatch");

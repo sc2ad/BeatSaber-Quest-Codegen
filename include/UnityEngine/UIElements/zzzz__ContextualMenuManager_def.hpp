@@ -1,15 +1,14 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
+namespace UnityEngine::UIElements {
+class EventBase;
+}
 namespace UnityEngine::UIElements {
 class IEventHandler;
 }
 namespace UnityEngine::UIElements {
 class DropdownMenu;
-}
-namespace UnityEngine::UIElements {
-class EventBase;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -67,15 +66,14 @@ constexpr bool __get__displayMenuHandledOSX_k__BackingField() const;
 // Methods
 
 /// @brief Method DisplayMenuIfEventMatches addr 0x0 size 0xffffffffffffffff virtual true final false
- void DisplayMenuIfEventMatches(::UnityEngine::UIElements::EventBase evt, ::UnityEngine::UIElements::IEventHandler eventHandler) ;
+ void DisplayMenuIfEventMatches(UnityEngine::UIElements::EventBase evt, UnityEngine::UIElements::IEventHandler eventHandler) ;
 
 /// @brief Method DoDisplayMenu addr 0x0 size 0xffffffffffffffff virtual true final false
- void DoDisplayMenu(::UnityEngine::UIElements::DropdownMenu menu, ::UnityEngine::UIElements::EventBase triggerEvent) ;
+ void DoDisplayMenu(UnityEngine::UIElements::DropdownMenu menu, UnityEngine::UIElements::EventBase triggerEvent) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::ContextualMenuManager);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ContextualMenuManager, "UnityEngine.UIElements", "ContextualMenuManager");
+NEED_NO_BOX(UnityEngine::UIElements::ContextualMenuManager);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::ContextualMenuManager, "UnityEngine.UIElements", "ContextualMenuManager");

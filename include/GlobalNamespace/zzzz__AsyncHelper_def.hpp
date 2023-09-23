@@ -3,27 +3,26 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System::Threading::Tasks {
-class Task;
-}
 namespace System {
 template<typename TResult>
 class Func_1;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
@@ -31,28 +30,28 @@ struct TaskAwaiter;
 // Forward declare root types
 namespace GlobalNamespace {
 template<typename T>
-class ____GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1;
+class GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1;
 }
 namespace GlobalNamespace {
 class AsyncHelper;
 }
 namespace GlobalNamespace {
 template<::cordl_internals::il2cpp_reference_type T>
-class ____GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1<T>;
+class GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1<T>;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__AsyncHelper____c__DisplayClass1_0;
+class GlobalNamespace__AsyncHelper____c__DisplayClass1_0;
 }
 namespace GlobalNamespace {
 template<typename T>
-struct ______GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d;
+struct GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d;
 }
 namespace GlobalNamespace {
 template<::cordl_internals::il2cpp_reference_type T>
-struct ______GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d<T>;
+struct GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d<T>;
 }
 namespace GlobalNamespace {
-struct ______GlobalNamespace__AsyncHelper____c__DisplayClass1_0____RunSync_b__0_d;
+struct GlobalNamespace__AsyncHelper____c__DisplayClass1_0____RunSync_b__0_d;
 }
 // Type: ::<<RunSync>b__0>d
 // Type: ::<>c__DisplayClass0_0`1
@@ -62,23 +61,23 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13771))
 // CS Name: AsyncHelper::<>c__DisplayClass1_0::<<RunSync>b__0>d
-struct CORDL_TYPE ______GlobalNamespace__AsyncHelper____c__DisplayClass1_0____RunSync_b__0_d : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__AsyncHelper____c__DisplayClass1_0____RunSync_b__0_d : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::CompilerServices::IAsyncStateMachine
-constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine() const;
+/// @brief Convert operator to System::Runtime::CompilerServices::IAsyncStateMachine
+constexpr operator  System::Runtime::CompilerServices::IAsyncStateMachine() const;
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::____GlobalNamespace__AsyncHelper____c__DisplayClass1_0", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-constexpr ______GlobalNamespace__AsyncHelper____c__DisplayClass1_0____RunSync_b__0_d(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::____GlobalNamespace__AsyncHelper____c__DisplayClass1_0 __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "GlobalNamespace::GlobalNamespace__AsyncHelper____c__DisplayClass1_0", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+constexpr GlobalNamespace__AsyncHelper____c__DisplayClass1_0____RunSync_b__0_d(int32_t __1__state, System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, GlobalNamespace::GlobalNamespace__AsyncHelper____c__DisplayClass1_0 __4__this, System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
 
-                    constexpr ______GlobalNamespace__AsyncHelper____c__DisplayClass1_0____RunSync_b__0_d(______GlobalNamespace__AsyncHelper____c__DisplayClass1_0____RunSync_b__0_d const&) = default;
-                    constexpr ______GlobalNamespace__AsyncHelper____c__DisplayClass1_0____RunSync_b__0_d(______GlobalNamespace__AsyncHelper____c__DisplayClass1_0____RunSync_b__0_d&&) = default;
-                    constexpr ______GlobalNamespace__AsyncHelper____c__DisplayClass1_0____RunSync_b__0_d& operator=(______GlobalNamespace__AsyncHelper____c__DisplayClass1_0____RunSync_b__0_d const& o) {
+                    constexpr GlobalNamespace__AsyncHelper____c__DisplayClass1_0____RunSync_b__0_d(GlobalNamespace__AsyncHelper____c__DisplayClass1_0____RunSync_b__0_d const&) = default;
+                    constexpr GlobalNamespace__AsyncHelper____c__DisplayClass1_0____RunSync_b__0_d(GlobalNamespace__AsyncHelper____c__DisplayClass1_0____RunSync_b__0_d&&) = default;
+                    constexpr GlobalNamespace__AsyncHelper____c__DisplayClass1_0____RunSync_b__0_d& operator=(GlobalNamespace__AsyncHelper____c__DisplayClass1_0____RunSync_b__0_d const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ______GlobalNamespace__AsyncHelper____c__DisplayClass1_0____RunSync_b__0_d& operator=(______GlobalNamespace__AsyncHelper____c__DisplayClass1_0____RunSync_b__0_d&& o) noexcept {
+                    constexpr GlobalNamespace__AsyncHelper____c__DisplayClass1_0____RunSync_b__0_d& operator=(GlobalNamespace__AsyncHelper____c__DisplayClass1_0____RunSync_b__0_d&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -91,7 +90,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x30};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ______GlobalNamespace__AsyncHelper____c__DisplayClass1_0____RunSync_b__0_d(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__AsyncHelper____c__DisplayClass1_0____RunSync_b__0_d(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -108,23 +107,23 @@ constexpr void __set___1__state(int32_t value) ;
 
 constexpr int32_t __get___1__state() const;
 
- ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
+ System::Runtime::CompilerServices::AsyncTaskMethodBuilder __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
 
-constexpr void __set___t__builder(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder value) ;
+constexpr void __set___t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder value) ;
 
-constexpr ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __get___t__builder() const;
+constexpr System::Runtime::CompilerServices::AsyncTaskMethodBuilder __get___t__builder() const;
 
- ::GlobalNamespace::____GlobalNamespace__AsyncHelper____c__DisplayClass1_0 __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::GlobalNamespace__AsyncHelper____c__DisplayClass1_0 __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::____GlobalNamespace__AsyncHelper____c__DisplayClass1_0 value) ;
+constexpr void __set___4__this(GlobalNamespace::GlobalNamespace__AsyncHelper____c__DisplayClass1_0 value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__AsyncHelper____c__DisplayClass1_0 __get___4__this() const;
+constexpr GlobalNamespace::GlobalNamespace__AsyncHelper____c__DisplayClass1_0 __get___4__this() const;
 
- ::System::Runtime::CompilerServices::TaskAwaiter __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
+ System::Runtime::CompilerServices::TaskAwaiter __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
 
-constexpr void __set___u__1(::System::Runtime::CompilerServices::TaskAwaiter value) ;
+constexpr void __set___u__1(System::Runtime::CompilerServices::TaskAwaiter value) ;
 
-constexpr ::System::Runtime::CompilerServices::TaskAwaiter __get___u__1() const;
+constexpr System::Runtime::CompilerServices::TaskAwaiter __get___u__1() const;
 
 
 // Methods
@@ -133,7 +132,7 @@ constexpr ::System::Runtime::CompilerServices::TaskAwaiter __get___u__1() const;
  void MoveNext() ;
 
 /// @brief Method SetStateMachine addr 0x1f750bc size 0xc virtual true final true
- void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
+ void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -145,61 +144,61 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13772))
 // CS Name: AsyncHelper::<>c__DisplayClass1_0
-class CORDL_TYPE ____GlobalNamespace__AsyncHelper____c__DisplayClass1_0 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__AsyncHelper____c__DisplayClass1_0 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using __RunSync_b__0_d = ::GlobalNamespace::______GlobalNamespace__AsyncHelper____c__DisplayClass1_0____RunSync_b__0_d;
+using __RunSync_b__0_d = GlobalNamespace::GlobalNamespace__AsyncHelper____c__DisplayClass1_0____RunSync_b__0_d;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____GlobalNamespace__AsyncHelper____c__DisplayClass1_0() = default;
+virtual ~GlobalNamespace__AsyncHelper____c__DisplayClass1_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__AsyncHelper____c__DisplayClass1_0", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__AsyncHelper____c__DisplayClass1_0(____GlobalNamespace__AsyncHelper____c__DisplayClass1_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__AsyncHelper____c__DisplayClass1_0", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__AsyncHelper____c__DisplayClass1_0(GlobalNamespace__AsyncHelper____c__DisplayClass1_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__AsyncHelper____c__DisplayClass1_0", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__AsyncHelper____c__DisplayClass1_0(____GlobalNamespace__AsyncHelper____c__DisplayClass1_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__AsyncHelper____c__DisplayClass1_0", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__AsyncHelper____c__DisplayClass1_0(GlobalNamespace__AsyncHelper____c__DisplayClass1_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__AsyncHelper____c__DisplayClass1_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__AsyncHelper____c__DisplayClass1_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__AsyncHelper____c__DisplayClass1_0& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__AsyncHelper____c__DisplayClass1_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__AsyncHelper____c__DisplayClass1_0& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__AsyncHelper____c__DisplayClass1_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__AsyncHelper____c__DisplayClass1_0& operator=(____GlobalNamespace__AsyncHelper____c__DisplayClass1_0&& o) noexcept = default;
-  constexpr ____GlobalNamespace__AsyncHelper____c__DisplayClass1_0& operator=(____GlobalNamespace__AsyncHelper____c__DisplayClass1_0 const& o) noexcept = default;
+  constexpr GlobalNamespace__AsyncHelper____c__DisplayClass1_0& operator=(GlobalNamespace__AsyncHelper____c__DisplayClass1_0&& o) noexcept = default;
+  constexpr GlobalNamespace__AsyncHelper____c__DisplayClass1_0& operator=(GlobalNamespace__AsyncHelper____c__DisplayClass1_0 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Func_1<::System::Threading::Tasks::Task> __declspec(property(get=__get_asyncTask, put=__set_asyncTask))  asyncTask;
+ System::Func_1<System::Threading::Tasks::Task> __declspec(property(get=__get_asyncTask, put=__set_asyncTask))  asyncTask;
 
-constexpr void __set_asyncTask(::System::Func_1<::System::Threading::Tasks::Task> value) ;
+constexpr void __set_asyncTask(System::Func_1<System::Threading::Tasks::Task> value) ;
 
-constexpr ::System::Func_1<::System::Threading::Tasks::Task> __get_asyncTask() const;
+constexpr System::Func_1<System::Threading::Tasks::Task> __get_asyncTask() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__AsyncHelper____c__DisplayClass1_0() ;
+explicit GlobalNamespace__AsyncHelper____c__DisplayClass1_0() ;
 
 /// @brief Method .ctor addr 0x1f74e58 size 0x8 virtual false final false
  void _ctor() ;
 
 /// @brief Method <RunSync>b__0 addr 0x1f74e60 size 0xc8 virtual false final false
- ::System::Threading::Tasks::Task _RunSync_b__0() ;
+ System::Threading::Tasks::Task _RunSync_b__0() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -214,10 +213,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE AsyncHelper : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using __c__DisplayClass1_0 = ::GlobalNamespace::____GlobalNamespace__AsyncHelper____c__DisplayClass1_0;
+using __c__DisplayClass1_0 = GlobalNamespace::GlobalNamespace__AsyncHelper____c__DisplayClass1_0;
 
 template<typename T>
-using __c__DisplayClass0_0_1 = ::GlobalNamespace::____GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1<T>;
+using __c__DisplayClass0_0_1 = GlobalNamespace::GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1<T>;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -254,10 +253,10 @@ constexpr explicit AsyncHelper(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 
 /// @brief Method RunSync addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static T RunSync(::System::Func_1<::System::Threading::Tasks::Task_1<T>> asyncTask) ;
+static T RunSync(System::Func_1<System::Threading::Tasks::Task_1<T>> asyncTask) ;
 
 /// @brief Method RunSync addr 0x1f74d58 size 0x100 virtual false final false
-static void RunSync(::System::Func_1<::System::Threading::Tasks::Task> asyncTask) ;
+static void RunSync(System::Func_1<System::Threading::Tasks::Task> asyncTask) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -268,26 +267,26 @@ namespace GlobalNamespace {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13769)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(13769))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13769), inst: 2 })
 // CS Name: AsyncHelper::<>c__DisplayClass0_0`1::<<RunSync>b__0>d
-struct CORDL_TYPE ______GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d<T> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d<T> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::CompilerServices::IAsyncStateMachine
-constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine() const;
+/// @brief Convert operator to System::Runtime::CompilerServices::IAsyncStateMachine
+constexpr operator  System::Runtime::CompilerServices::IAsyncStateMachine() const;
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::____GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1<T>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<T>", modifiers: "", def_value: None }]
-constexpr ______GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::____GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1<T> __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<T> __u__1) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "GlobalNamespace::GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1<T>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "System::Runtime::CompilerServices::TaskAwaiter_1<T>", modifiers: "", def_value: None }]
+constexpr GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d(int32_t __1__state, System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, GlobalNamespace::GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1<T> __4__this, System::Runtime::CompilerServices::TaskAwaiter_1<T> __u__1) noexcept;
 
 
-                    constexpr ______GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d(______GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d const&) = default;
-                    constexpr ______GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d(______GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d&&) = default;
-                    constexpr ______GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d& operator=(______GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d const& o) {
+                    constexpr GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d(GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d const&) = default;
+                    constexpr GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d(GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d&&) = default;
+                    constexpr GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d& operator=(GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ______GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d& operator=(______GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d&& o) noexcept {
+                    constexpr GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d& operator=(GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -300,7 +299,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x20};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ______GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -317,23 +316,23 @@ constexpr void __set___1__state(int32_t value) ;
 
 constexpr int32_t __get___1__state() const;
 
- ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
+ System::Runtime::CompilerServices::AsyncTaskMethodBuilder __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
 
-constexpr void __set___t__builder(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder value) ;
+constexpr void __set___t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder value) ;
 
-constexpr ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __get___t__builder() const;
+constexpr System::Runtime::CompilerServices::AsyncTaskMethodBuilder __get___t__builder() const;
 
- ::GlobalNamespace::____GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1<T> __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1<T> __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::____GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1<T> value) ;
+constexpr void __set___4__this(GlobalNamespace::GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1<T> value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1<T> __get___4__this() const;
+constexpr GlobalNamespace::GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1<T> __get___4__this() const;
 
- ::System::Runtime::CompilerServices::TaskAwaiter_1<T> __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
+ System::Runtime::CompilerServices::TaskAwaiter_1<T> __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
 
-constexpr void __set___u__1(::System::Runtime::CompilerServices::TaskAwaiter_1<T> value) ;
+constexpr void __set___u__1(System::Runtime::CompilerServices::TaskAwaiter_1<T> value) ;
 
-constexpr ::System::Runtime::CompilerServices::TaskAwaiter_1<T> __get___u__1() const;
+constexpr System::Runtime::CompilerServices::TaskAwaiter_1<T> __get___u__1() const;
 
 
 // Methods
@@ -342,7 +341,7 @@ constexpr ::System::Runtime::CompilerServices::TaskAwaiter_1<T> __get___u__1() c
  void MoveNext() ;
 
 /// @brief Method SetStateMachine addr 0x0 size 0xffffffffffffffff virtual true final true
- void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
+ void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -356,49 +355,49 @@ template<::cordl_internals::il2cpp_reference_type T>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13770))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13770), inst: 2 })
 // CS Name: AsyncHelper::<>c__DisplayClass0_0`1
-class CORDL_TYPE ____GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1<T> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1<T> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using __RunSync_b__0_d = ::GlobalNamespace::______GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d<T>;
+using __RunSync_b__0_d = GlobalNamespace::GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d<T>;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1() = default;
+virtual ~GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1(____GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1(GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1(____GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1(GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1& operator=(____GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1&& o) noexcept = default;
-  constexpr ____GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1& operator=(____GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1 const& o) noexcept = default;
+  constexpr GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1& operator=(GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1&& o) noexcept = default;
+  constexpr GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1& operator=(GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Func_1<::System::Threading::Tasks::Task_1<T>> __declspec(property(get=__get_asyncTask, put=__set_asyncTask))  asyncTask;
+ System::Func_1<System::Threading::Tasks::Task_1<T>> __declspec(property(get=__get_asyncTask, put=__set_asyncTask))  asyncTask;
 
-constexpr void __set_asyncTask(::System::Func_1<::System::Threading::Tasks::Task_1<T>> value) ;
+constexpr void __set_asyncTask(System::Func_1<System::Threading::Tasks::Task_1<T>> value) ;
 
-constexpr ::System::Func_1<::System::Threading::Tasks::Task_1<T>> __get_asyncTask() const;
+constexpr System::Func_1<System::Threading::Tasks::Task_1<T>> __get_asyncTask() const;
 
  T __declspec(property(get=__get_result, put=__set_result))  result;
 
@@ -410,23 +409,22 @@ constexpr T __get_result() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1() ;
+explicit GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
 /// @brief Method <RunSync>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Threading::Tasks::Task _RunSync_b__0() ;
+ System::Threading::Tasks::Task _RunSync_b__0() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::____GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1, "", "AsyncHelper/<>c__DisplayClass0_0`1");
-NEED_NO_BOX(::GlobalNamespace::AsyncHelper);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AsyncHelper, "", "AsyncHelper");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__AsyncHelper____c__DisplayClass1_0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__AsyncHelper____c__DisplayClass1_0, "", "AsyncHelper/<>c__DisplayClass1_0");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::GlobalNamespace::______GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d, "", "AsyncHelper/<>c__DisplayClass0_0`1/<<RunSync>b__0>d");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::______GlobalNamespace__AsyncHelper____c__DisplayClass1_0____RunSync_b__0_d, "", "AsyncHelper/<>c__DisplayClass1_0/<<RunSync>b__0>d");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1, "", "AsyncHelper/<>c__DisplayClass0_0`1");
+NEED_NO_BOX(GlobalNamespace::AsyncHelper);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AsyncHelper, "", "AsyncHelper");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__AsyncHelper____c__DisplayClass1_0);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__AsyncHelper____c__DisplayClass1_0, "", "AsyncHelper/<>c__DisplayClass1_0");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(GlobalNamespace::GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d, "", "AsyncHelper/<>c__DisplayClass0_0`1/<<RunSync>b__0>d");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__AsyncHelper____c__DisplayClass1_0____RunSync_b__0_d, "", "AsyncHelper/<>c__DisplayClass1_0/<<RunSync>b__0>d");

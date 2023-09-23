@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
 namespace UnityEngine::UIElements {
 class StyleSheet;
 }
@@ -21,8 +20,8 @@ namespace UnityEngine::UIElements::StyleSheets {
 struct CORDL_TYPE StylePropertyValue : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "sheet", ty: "::UnityEngine::UIElements::StyleSheet", modifiers: "", def_value: None }, CppParam { name: "handle", ty: "::UnityEngine::UIElements::StyleValueHandle", modifiers: "", def_value: None }]
-constexpr StylePropertyValue(::UnityEngine::UIElements::StyleSheet sheet, ::UnityEngine::UIElements::StyleValueHandle handle) noexcept;
+// Ctor Parameters [CppParam { name: "sheet", ty: "UnityEngine::UIElements::StyleSheet", modifiers: "", def_value: None }, CppParam { name: "handle", ty: "UnityEngine::UIElements::StyleValueHandle", modifiers: "", def_value: None }]
+constexpr StylePropertyValue(UnityEngine::UIElements::StyleSheet sheet, UnityEngine::UIElements::StyleValueHandle handle) noexcept;
 
 
                     constexpr StylePropertyValue(StylePropertyValue const&) = default;
@@ -55,21 +54,20 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::UIElements::StyleSheet __declspec(property(get=__get_sheet, put=__set_sheet))  sheet;
+ UnityEngine::UIElements::StyleSheet __declspec(property(get=__get_sheet, put=__set_sheet))  sheet;
 
-constexpr void __set_sheet(::UnityEngine::UIElements::StyleSheet value) ;
+constexpr void __set_sheet(UnityEngine::UIElements::StyleSheet value) ;
 
-constexpr ::UnityEngine::UIElements::StyleSheet __get_sheet() const;
+constexpr UnityEngine::UIElements::StyleSheet __get_sheet() const;
 
- ::UnityEngine::UIElements::StyleValueHandle __declspec(property(get=__get_handle, put=__set_handle))  handle;
+ UnityEngine::UIElements::StyleValueHandle __declspec(property(get=__get_handle, put=__set_handle))  handle;
 
-constexpr void __set_handle(::UnityEngine::UIElements::StyleValueHandle value) ;
+constexpr void __set_handle(UnityEngine::UIElements::StyleValueHandle value) ;
 
-constexpr ::UnityEngine::UIElements::StyleValueHandle __get_handle() const;
+constexpr UnityEngine::UIElements::StyleValueHandle __get_handle() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::StyleSheets
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::StylePropertyValue, "UnityEngine.UIElements.StyleSheets", "StylePropertyValue");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::StyleSheets::StylePropertyValue, "UnityEngine.UIElements.StyleSheets", "StylePropertyValue");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace RootMotion {
 class Comments;
@@ -13,7 +12,7 @@ namespace RootMotion {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12431))
 // CS Name: RootMotion.Comments
-class CORDL_TYPE Comments : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE Comments : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr Comments(Comments const& ) noexcept = default;
 constexpr Comments(Comments&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Comments(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit Comments(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -68,6 +67,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::Comments);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::Comments, "RootMotion", "Comments");
+NEED_NO_BOX(RootMotion::Comments);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::Comments, "RootMotion", "Comments");

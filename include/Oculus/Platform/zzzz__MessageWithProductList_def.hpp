@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__ProductList_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
 class ProductList;
 }
@@ -14,10 +13,10 @@ class MessageWithProductList;
 // Type: Oculus.Platform::MessageWithProductList
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4470 }), TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(13464))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13464)), TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4470 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13268))
 // CS Name: Oculus.Platform.MessageWithProductList
-class CORDL_TYPE MessageWithProductList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::ProductList> {
+class CORDL_TYPE MessageWithProductList : public Oculus::Platform::Message_1<Oculus::Platform::Models::ProductList> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr MessageWithProductList(MessageWithProductList const& ) noexcept = defa
 constexpr MessageWithProductList(MessageWithProductList&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MessageWithProductList(void* ptr) noexcept : ::Oculus::Platform::Message_1<::Oculus::Platform::Models::ProductList>(ptr) {
+constexpr explicit MessageWithProductList(void* ptr) noexcept : Oculus::Platform::Message_1<Oculus::Platform::Models::ProductList>(ptr) {
 }
 
 
@@ -60,15 +59,14 @@ explicit MessageWithProductList(::cordl_internals::intptr_t c_message) ;
  void _ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method GetProductList addr 0x2583198 size 0x3c virtual true final false
- ::Oculus::Platform::Models::ProductList GetProductList() ;
+ Oculus::Platform::Models::ProductList GetProductList() ;
 
 /// @brief Method GetDataFromMessage addr 0x25831d4 size 0x9c virtual true final false
- ::Oculus::Platform::Models::ProductList GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
+ Oculus::Platform::Models::ProductList GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::MessageWithProductList);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithProductList, "Oculus.Platform", "MessageWithProductList");
+NEED_NO_BOX(Oculus::Platform::MessageWithProductList);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithProductList, "Oculus.Platform", "MessageWithProductList");

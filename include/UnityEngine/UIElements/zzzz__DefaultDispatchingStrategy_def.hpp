@@ -1,15 +1,14 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace UnityEngine::UIElements {
 class IPanel;
 }
 namespace UnityEngine::UIElements {
-class IEventDispatchingStrategy;
+class EventBase;
 }
 namespace UnityEngine::UIElements {
-class EventBase;
+class IEventDispatchingStrategy;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -24,8 +23,8 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE DefaultDispatchingStrategy : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::UIElements::IEventDispatchingStrategy
-constexpr operator  ::UnityEngine::UIElements::IEventDispatchingStrategy() const noexcept;
+/// @brief Convert operator to UnityEngine::UIElements::IEventDispatchingStrategy
+constexpr operator  UnityEngine::UIElements::IEventDispatchingStrategy() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -61,10 +60,10 @@ constexpr explicit DefaultDispatchingStrategy(void* ptr) noexcept : ::bs_hook::I
 // Methods
 
 /// @brief Method CanDispatchEvent addr 0x2cd59d4 size 0x78 virtual true final true
- bool CanDispatchEvent(::UnityEngine::UIElements::EventBase evt) ;
+ bool CanDispatchEvent(UnityEngine::UIElements::EventBase evt) ;
 
 /// @brief Method DispatchEvent addr 0x2cd5a4c size 0x200 virtual true final true
- void DispatchEvent(::UnityEngine::UIElements::EventBase evt, ::UnityEngine::UIElements::IPanel panel) ;
+ void DispatchEvent(UnityEngine::UIElements::EventBase evt, UnityEngine::UIElements::IPanel panel) ;
 
 // Ctor Parameters []
 explicit DefaultDispatchingStrategy() ;
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::DefaultDispatchingStrategy);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::DefaultDispatchingStrategy, "UnityEngine.UIElements", "DefaultDispatchingStrategy");
+NEED_NO_BOX(UnityEngine::UIElements::DefaultDispatchingStrategy);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::DefaultDispatchingStrategy, "UnityEngine.UIElements", "DefaultDispatchingStrategy");

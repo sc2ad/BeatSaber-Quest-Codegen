@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 #include <cstddef>
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -19,8 +18,8 @@ namespace GlobalNamespace {
 struct CORDL_TYPE BladeMovementDataElement : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "segmentAngle", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "topPos", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "bottomPos", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "segmentNormal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
-constexpr BladeMovementDataElement(float_t time, float_t segmentAngle, ::UnityEngine::Vector3 topPos, ::UnityEngine::Vector3 bottomPos, ::UnityEngine::Vector3 segmentNormal) noexcept;
+// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "segmentAngle", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "topPos", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "bottomPos", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "segmentNormal", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }]
+constexpr BladeMovementDataElement(float_t time, float_t segmentAngle, UnityEngine::Vector3 topPos, UnityEngine::Vector3 bottomPos, UnityEngine::Vector3 segmentNormal) noexcept;
 
 
                     constexpr BladeMovementDataElement(BladeMovementDataElement const&) = default;
@@ -65,27 +64,26 @@ constexpr void __set_segmentAngle(float_t value) ;
 
 constexpr float_t __get_segmentAngle() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_topPos, put=__set_topPos))  topPos;
+ UnityEngine::Vector3 __declspec(property(get=__get_topPos, put=__set_topPos))  topPos;
 
-constexpr void __set_topPos(::UnityEngine::Vector3 value) ;
+constexpr void __set_topPos(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_topPos() const;
+constexpr UnityEngine::Vector3 __get_topPos() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_bottomPos, put=__set_bottomPos))  bottomPos;
+ UnityEngine::Vector3 __declspec(property(get=__get_bottomPos, put=__set_bottomPos))  bottomPos;
 
-constexpr void __set_bottomPos(::UnityEngine::Vector3 value) ;
+constexpr void __set_bottomPos(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_bottomPos() const;
+constexpr UnityEngine::Vector3 __get_bottomPos() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_segmentNormal, put=__set_segmentNormal))  segmentNormal;
+ UnityEngine::Vector3 __declspec(property(get=__get_segmentNormal, put=__set_segmentNormal))  segmentNormal;
 
-constexpr void __set_segmentNormal(::UnityEngine::Vector3 value) ;
+constexpr void __set_segmentNormal(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_segmentNormal() const;
+constexpr UnityEngine::Vector3 __get_segmentNormal() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BladeMovementDataElement, "", "BladeMovementDataElement");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BladeMovementDataElement, "", "BladeMovementDataElement");

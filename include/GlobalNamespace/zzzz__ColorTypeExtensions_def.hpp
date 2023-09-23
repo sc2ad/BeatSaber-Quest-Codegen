@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace GlobalNamespace {
 struct ColorType;
 }
@@ -52,12 +51,11 @@ constexpr explicit ColorTypeExtensions(void* ptr) noexcept : ::bs_hook::Il2CppWr
 // Methods
 
 /// @brief Method Opposite addr 0xd93bdc size 0x18 virtual false final false
-static ::GlobalNamespace::ColorType Opposite(::GlobalNamespace::ColorType colorType) ;
+static GlobalNamespace::ColorType Opposite(GlobalNamespace::ColorType colorType) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ColorTypeExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ColorTypeExtensions, "", "ColorTypeExtensions");
+NEED_NO_BOX(GlobalNamespace::ColorTypeExtensions);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorTypeExtensions, "", "ColorTypeExtensions");

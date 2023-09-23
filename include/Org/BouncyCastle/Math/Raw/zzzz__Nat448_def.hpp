@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
@@ -69,7 +68,7 @@ static ::ArrayW<uint64_t> CreateExt64() ;
 static bool Eq64(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> y) ;
 
 /// @brief Method FromBigInteger64 addr 0x1001958 size 0xd4 virtual false final false
-static ::ArrayW<uint64_t> FromBigInteger64(::Org::BouncyCastle::Math::BigInteger x) ;
+static ::ArrayW<uint64_t> FromBigInteger64(Org::BouncyCastle::Math::BigInteger x) ;
 
 /// @brief Method IsOne64 addr 0x1001a2c size 0x60 virtual false final false
 static bool IsOne64(::ArrayW<uint64_t> x) ;
@@ -78,7 +77,7 @@ static bool IsOne64(::ArrayW<uint64_t> x) ;
 static bool IsZero64(::ArrayW<uint64_t> x) ;
 
 /// @brief Method ToBigInteger64 addr 0x1001ad8 size 0xe0 virtual false final false
-static ::Org::BouncyCastle::Math::BigInteger ToBigInteger64(::ArrayW<uint64_t> x) ;
+static Org::BouncyCastle::Math::BigInteger ToBigInteger64(::ArrayW<uint64_t> x) ;
 
 // Ctor Parameters []
 explicit Nat448() ;
@@ -90,6 +89,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Math::Raw
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Math::Raw::Nat448);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::Raw::Nat448, "Org.BouncyCastle.Math.Raw", "Nat448");
+NEED_NO_BOX(Org::BouncyCastle::Math::Raw::Nat448);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Raw::Nat448, "Org.BouncyCastle.Math.Raw", "Nat448");

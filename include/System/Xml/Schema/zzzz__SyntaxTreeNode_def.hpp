@@ -2,18 +2,17 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace System::Xml::Schema {
-class InteriorNode;
-}
-namespace System::Xml::Schema {
-class BitSet;
+class Positions;
 }
 namespace System::Xml::Schema {
 class SymbolsDictionary;
 }
 namespace System::Xml::Schema {
-class Positions;
+class InteriorNode;
+}
+namespace System::Xml::Schema {
+class BitSet;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -69,10 +68,10 @@ constexpr explicit SyntaxTreeNode(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 // Methods
 
 /// @brief Method ExpandTree addr 0x0 size 0xffffffffffffffff virtual true final false
- void ExpandTree(::System::Xml::Schema::InteriorNode parent, ::System::Xml::Schema::SymbolsDictionary symbols, ::System::Xml::Schema::Positions positions) ;
+ void ExpandTree(System::Xml::Schema::InteriorNode parent, System::Xml::Schema::SymbolsDictionary symbols, System::Xml::Schema::Positions positions) ;
 
 /// @brief Method ConstructPos addr 0x0 size 0xffffffffffffffff virtual true final false
- void ConstructPos(::System::Xml::Schema::BitSet firstpos, ::System::Xml::Schema::BitSet lastpos, ::ArrayW<::System::Xml::Schema::BitSet> followpos) ;
+ void ConstructPos(System::Xml::Schema::BitSet firstpos, System::Xml::Schema::BitSet lastpos, ::ArrayW<System::Xml::Schema::BitSet> followpos) ;
 
 /// @brief Method get_IsNullable addr 0x0 size 0xffffffffffffffff virtual true final false
  bool get_IsNullable() ;
@@ -90,6 +89,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::SyntaxTreeNode);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::SyntaxTreeNode, "System.Xml.Schema", "SyntaxTreeNode");
+NEED_NO_BOX(System::Xml::Schema::SyntaxTreeNode);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::SyntaxTreeNode, "System.Xml.Schema", "SyntaxTreeNode");

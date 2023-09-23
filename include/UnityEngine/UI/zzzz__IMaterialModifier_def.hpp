@@ -1,6 +1,5 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace UnityEngine {
 class Material;
 }
@@ -27,12 +26,11 @@ constexpr explicit IMaterialModifier(void* ptr) noexcept : ::cordl_internals::In
 // Methods
 
 /// @brief Method GetModifiedMaterial addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Material GetModifiedMaterial(::UnityEngine::Material baseMaterial) ;
+ UnityEngine::Material GetModifiedMaterial(UnityEngine::Material baseMaterial) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UI
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UI::IMaterialModifier);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::IMaterialModifier, "UnityEngine.UI", "IMaterialModifier");
+NEED_NO_BOX(UnityEngine::UI::IMaterialModifier);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::IMaterialModifier, "UnityEngine.UI", "IMaterialModifier");

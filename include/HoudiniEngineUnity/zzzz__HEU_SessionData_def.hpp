@@ -3,24 +3,23 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace HoudiniEngineUnity {
-struct SessionMode;
+struct SessionConnectionState;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_SessionType;
 }
 namespace System {
 class Type;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_SessionType;
-}
-namespace HoudiniEngineUnity {
-class HEU_SessionSyncData;
-}
-namespace HoudiniEngineUnity {
 struct HAPI_Session;
 }
 namespace HoudiniEngineUnity {
-struct SessionConnectionState;
+struct SessionMode;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionSyncData;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -74,11 +73,11 @@ static void __set_INVALID_SESSION_ID(int64_t value) ;
 
 static int64_t __get_INVALID_SESSION_ID() ;
 
- ::HoudiniEngineUnity::HAPI_Session __declspec(property(get=__get__HAPISession, put=__set__HAPISession))  _HAPISession;
+ HoudiniEngineUnity::HAPI_Session __declspec(property(get=__get__HAPISession, put=__set__HAPISession))  _HAPISession;
 
-constexpr void __set__HAPISession(::HoudiniEngineUnity::HAPI_Session value) ;
+constexpr void __set__HAPISession(HoudiniEngineUnity::HAPI_Session value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_Session __get__HAPISession() const;
+constexpr HoudiniEngineUnity::HAPI_Session __get__HAPISession() const;
 
  int32_t __declspec(property(get=__get__serverProcessID, put=__set__serverProcessID))  _serverProcessID;
 
@@ -116,23 +115,23 @@ constexpr void __set__isDefaultSession(bool value) ;
 
 constexpr bool __get__isDefaultSession() const;
 
- ::HoudiniEngineUnity::HEU_SessionSyncData __declspec(property(get=__get__sessionSync, put=__set__sessionSync))  _sessionSync;
+ HoudiniEngineUnity::HEU_SessionSyncData __declspec(property(get=__get__sessionSync, put=__set__sessionSync))  _sessionSync;
 
-constexpr void __set__sessionSync(::HoudiniEngineUnity::HEU_SessionSyncData value) ;
+constexpr void __set__sessionSync(HoudiniEngineUnity::HEU_SessionSyncData value) ;
 
-constexpr ::HoudiniEngineUnity::HEU_SessionSyncData __get__sessionSync() const;
+constexpr HoudiniEngineUnity::HEU_SessionSyncData __get__sessionSync() const;
 
- ::HoudiniEngineUnity::SessionConnectionState __declspec(property(get=__get__connectionState, put=__set__connectionState))  _connectionState;
+ HoudiniEngineUnity::SessionConnectionState __declspec(property(get=__get__connectionState, put=__set__connectionState))  _connectionState;
 
-constexpr void __set__connectionState(::HoudiniEngineUnity::SessionConnectionState value) ;
+constexpr void __set__connectionState(HoudiniEngineUnity::SessionConnectionState value) ;
 
-constexpr ::HoudiniEngineUnity::SessionConnectionState __get__connectionState() const;
+constexpr HoudiniEngineUnity::SessionConnectionState __get__connectionState() const;
 
- ::HoudiniEngineUnity::SessionMode __declspec(property(get=__get__sessionMode, put=__set__sessionMode))  _sessionMode;
+ HoudiniEngineUnity::SessionMode __declspec(property(get=__get__sessionMode, put=__set__sessionMode))  _sessionMode;
 
-constexpr void __set__sessionMode(::HoudiniEngineUnity::SessionMode value) ;
+constexpr void __set__sessionMode(HoudiniEngineUnity::SessionMode value) ;
 
-constexpr ::HoudiniEngineUnity::SessionMode __get__sessionMode() const;
+constexpr HoudiniEngineUnity::SessionMode __get__sessionMode() const;
 
 
 // Properties
@@ -141,7 +140,7 @@ constexpr ::HoudiniEngineUnity::SessionMode __get__sessionMode() const;
 
  int32_t __declspec(property(get=get_ProcessID, put=set_ProcessID))  ProcessID;
 
- ::HoudiniEngineUnity::HAPI_SessionType __declspec(property(get=get_SessionType, put=set_SessionType))  SessionType;
+ HoudiniEngineUnity::HAPI_SessionType __declspec(property(get=get_SessionType, put=set_SessionType))  SessionType;
 
  bool __declspec(property(get=get_IsInitialized, put=set_IsInitialized))  IsInitialized;
 
@@ -151,27 +150,27 @@ constexpr ::HoudiniEngineUnity::SessionMode __get__sessionMode() const;
 
  int32_t __declspec(property(get=get_Port, put=set_Port))  Port;
 
- ::System::Type __declspec(property(get=get_SessionClassType, put=set_SessionClassType))  SessionClassType;
+ System::Type __declspec(property(get=get_SessionClassType, put=set_SessionClassType))  SessionClassType;
 
  bool __declspec(property(get=get_IsDefaultSession, put=set_IsDefaultSession))  IsDefaultSession;
 
  bool __declspec(property(get=get_IsSessionSync))  IsSessionSync;
 
- ::HoudiniEngineUnity::SessionConnectionState __declspec(property(get=get_ThisConnectionMode, put=set_ThisConnectionMode))  ThisConnectionMode;
+ HoudiniEngineUnity::SessionConnectionState __declspec(property(get=get_ThisConnectionMode, put=set_ThisConnectionMode))  ThisConnectionMode;
 
- ::HoudiniEngineUnity::SessionMode __declspec(property(get=get_ThisSessionMode, put=set_ThisSessionMode))  ThisSessionMode;
+ HoudiniEngineUnity::SessionMode __declspec(property(get=get_ThisSessionMode, put=set_ThisSessionMode))  ThisSessionMode;
 
 
 // Methods
 
 /// @brief Method GetOrCreateSessionSync addr 0x2030e78 size 0x68 virtual false final false
- ::HoudiniEngineUnity::HEU_SessionSyncData GetOrCreateSessionSync() ;
+ HoudiniEngineUnity::HEU_SessionSyncData GetOrCreateSessionSync() ;
 
 /// @brief Method GetSessionSync addr 0x2030f8c size 0x8 virtual false final false
- ::HoudiniEngineUnity::HEU_SessionSyncData GetSessionSync() ;
+ HoudiniEngineUnity::HEU_SessionSyncData GetSessionSync() ;
 
 /// @brief Method SetSessionSync addr 0x2030f94 size 0x8 virtual false final false
- void SetSessionSync(::HoudiniEngineUnity::HEU_SessionSyncData syncData) ;
+ void SetSessionSync(HoudiniEngineUnity::HEU_SessionSyncData syncData) ;
 
 /// @brief Method get_SessionID addr 0x2030f9c size 0x58 virtual false final false
  int64_t get_SessionID() ;
@@ -186,10 +185,10 @@ constexpr ::HoudiniEngineUnity::SessionMode __get__sessionMode() const;
  void set_ProcessID(int32_t value) ;
 
 /// @brief Method get_SessionType addr 0x2031004 size 0x8 virtual false final false
- ::HoudiniEngineUnity::HAPI_SessionType get_SessionType() ;
+ HoudiniEngineUnity::HAPI_SessionType get_SessionType() ;
 
 /// @brief Method set_SessionType addr 0x203100c size 0x8 virtual false final false
- void set_SessionType(::HoudiniEngineUnity::HAPI_SessionType value) ;
+ void set_SessionType(HoudiniEngineUnity::HAPI_SessionType value) ;
 
 /// @brief Method get_IsInitialized addr 0x2031014 size 0x8 virtual false final false
  bool get_IsInitialized() ;
@@ -213,10 +212,10 @@ constexpr ::HoudiniEngineUnity::SessionMode __get__sessionMode() const;
  void set_Port(int32_t value) ;
 
 /// @brief Method get_SessionClassType addr 0x2031088 size 0xa8 virtual false final false
- ::System::Type get_SessionClassType() ;
+ System::Type get_SessionClassType() ;
 
 /// @brief Method set_SessionClassType addr 0x2031130 size 0x30 virtual false final false
- void set_SessionClassType(::System::Type value) ;
+ void set_SessionClassType(System::Type value) ;
 
 /// @brief Method get_IsDefaultSession addr 0x2031160 size 0x8 virtual false final false
  bool get_IsDefaultSession() ;
@@ -228,16 +227,16 @@ constexpr ::HoudiniEngineUnity::SessionMode __get__sessionMode() const;
  bool get_IsSessionSync() ;
 
 /// @brief Method get_ThisConnectionMode addr 0x2031174 size 0x8 virtual false final false
- ::HoudiniEngineUnity::SessionConnectionState get_ThisConnectionMode() ;
+ HoudiniEngineUnity::SessionConnectionState get_ThisConnectionMode() ;
 
 /// @brief Method set_ThisConnectionMode addr 0x203117c size 0x8 virtual false final false
- void set_ThisConnectionMode(::HoudiniEngineUnity::SessionConnectionState value) ;
+ void set_ThisConnectionMode(HoudiniEngineUnity::SessionConnectionState value) ;
 
 /// @brief Method get_ThisSessionMode addr 0x2031184 size 0x8 virtual false final false
- ::HoudiniEngineUnity::SessionMode get_ThisSessionMode() ;
+ HoudiniEngineUnity::SessionMode get_ThisSessionMode() ;
 
 /// @brief Method set_ThisSessionMode addr 0x203118c size 0x8 virtual false final false
- void set_ThisSessionMode(::HoudiniEngineUnity::SessionMode value) ;
+ void set_ThisSessionMode(HoudiniEngineUnity::SessionMode value) ;
 
 // Ctor Parameters []
 explicit HEU_SessionData() ;
@@ -249,6 +248,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_SessionData);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_SessionData, "HoudiniEngineUnity", "HEU_SessionData");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_SessionData);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_SessionData, "HoudiniEngineUnity", "HEU_SessionData");

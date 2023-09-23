@@ -3,7 +3,6 @@
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::ComponentModel {
 class ReadOnlyAttribute;
@@ -14,7 +13,7 @@ namespace System::ComponentModel {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8251))
 // CS Name: System.ComponentModel.ReadOnlyAttribute
-class CORDL_TYPE ReadOnlyAttribute : public ::System::Attribute {
+class CORDL_TYPE ReadOnlyAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr ReadOnlyAttribute(ReadOnlyAttribute const& ) noexcept = default;
 constexpr ReadOnlyAttribute(ReadOnlyAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ReadOnlyAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit ReadOnlyAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -50,23 +49,23 @@ constexpr explicit ReadOnlyAttribute(void* ptr) noexcept : ::System::Attribute(p
 
 // Fields
 
-static ::System::ComponentModel::ReadOnlyAttribute __declspec(property(get=__get_Yes, put=__set_Yes))  Yes;
+static System::ComponentModel::ReadOnlyAttribute __declspec(property(get=__get_Yes, put=__set_Yes))  Yes;
 
-static void __set_Yes(::System::ComponentModel::ReadOnlyAttribute value) ;
+static void __set_Yes(System::ComponentModel::ReadOnlyAttribute value) ;
 
-static ::System::ComponentModel::ReadOnlyAttribute __get_Yes() ;
+static System::ComponentModel::ReadOnlyAttribute __get_Yes() ;
 
-static ::System::ComponentModel::ReadOnlyAttribute __declspec(property(get=__get_No, put=__set_No))  No;
+static System::ComponentModel::ReadOnlyAttribute __declspec(property(get=__get_No, put=__set_No))  No;
 
-static void __set_No(::System::ComponentModel::ReadOnlyAttribute value) ;
+static void __set_No(System::ComponentModel::ReadOnlyAttribute value) ;
 
-static ::System::ComponentModel::ReadOnlyAttribute __get_No() ;
+static System::ComponentModel::ReadOnlyAttribute __get_No() ;
 
-static ::System::ComponentModel::ReadOnlyAttribute __declspec(property(get=__get_Default, put=__set_Default))  Default;
+static System::ComponentModel::ReadOnlyAttribute __declspec(property(get=__get_Default, put=__set_Default))  Default;
 
-static void __set_Default(::System::ComponentModel::ReadOnlyAttribute value) ;
+static void __set_Default(System::ComponentModel::ReadOnlyAttribute value) ;
 
-static ::System::ComponentModel::ReadOnlyAttribute __get_Default() ;
+static System::ComponentModel::ReadOnlyAttribute __get_Default() ;
 
  bool __declspec(property(get=__get__IsReadOnly_k__BackingField, put=__set__IsReadOnly_k__BackingField))  _IsReadOnly_k__BackingField;
 
@@ -104,6 +103,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::ReadOnlyAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::ReadOnlyAttribute, "System.ComponentModel", "ReadOnlyAttribute");
+NEED_NO_BOX(System::ComponentModel::ReadOnlyAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::ReadOnlyAttribute, "System.ComponentModel", "ReadOnlyAttribute");

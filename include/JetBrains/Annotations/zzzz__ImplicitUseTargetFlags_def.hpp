@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace JetBrains::Annotations {
 struct ImplicitUseTargetFlags;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Default offset 0
-static ::JetBrains::Annotations::ImplicitUseTargetFlags const Default;
+static JetBrains::Annotations::ImplicitUseTargetFlags const Default;
 
 /// @brief Field Itself offset 0
-static ::JetBrains::Annotations::ImplicitUseTargetFlags const Itself;
+static JetBrains::Annotations::ImplicitUseTargetFlags const Itself;
 
 /// @brief Field Members offset 0
-static ::JetBrains::Annotations::ImplicitUseTargetFlags const Members;
+static JetBrains::Annotations::ImplicitUseTargetFlags const Members;
 
 /// @brief Field WithMembers offset 0
-static ::JetBrains::Annotations::ImplicitUseTargetFlags const WithMembers;
+static JetBrains::Annotations::ImplicitUseTargetFlags const WithMembers;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def JetBrains::Annotations
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::JetBrains::Annotations::ImplicitUseTargetFlags, "JetBrains.Annotations", "ImplicitUseTargetFlags");
+DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::ImplicitUseTargetFlags, "JetBrains.Annotations", "ImplicitUseTargetFlags");

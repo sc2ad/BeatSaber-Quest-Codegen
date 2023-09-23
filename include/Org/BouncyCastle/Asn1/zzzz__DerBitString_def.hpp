@@ -5,12 +5,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
@@ -28,7 +27,7 @@ namespace Org::BouncyCastle::Asn1 {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(33))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(34))
 // CS Name: Org.BouncyCastle.Asn1.DerBitString
-class CORDL_TYPE DerBitString : public ::Org::BouncyCastle::Asn1::DerStringBase {
+class CORDL_TYPE DerBitString : public Org::BouncyCastle::Asn1::DerStringBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -43,7 +42,7 @@ constexpr DerBitString(DerBitString const& ) noexcept = default;
 constexpr DerBitString(DerBitString&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DerBitString(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::DerStringBase(ptr) {
+constexpr explicit DerBitString(void* ptr) noexcept : Org::BouncyCastle::Asn1::DerStringBase(ptr) {
 }
 
 
@@ -93,10 +92,10 @@ constexpr int32_t __get_mPadBits() const;
 // Methods
 
 /// @brief Method GetInstance addr 0xddb668 size 0x20c virtual false final false
-static ::Org::BouncyCastle::Asn1::DerBitString GetInstance(::bs_hook::Il2CppWrapperType obj) ;
+static Org::BouncyCastle::Asn1::DerBitString GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method GetInstance addr 0xddd4f0 size 0x140 virtual false final false
-static ::Org::BouncyCastle::Asn1::DerBitString GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool isExplicit) ;
+static Org::BouncyCastle::Asn1::DerBitString GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool isExplicit) ;
 
 // Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "padBits", ty: "int32_t", modifiers: "", def_value: None }]
 explicit DerBitString(::ArrayW<uint8_t> data, int32_t padBits) ;
@@ -116,11 +115,11 @@ explicit DerBitString(int32_t namedBits) ;
 /// @brief Method .ctor addr 0xddd928 size 0x128 virtual false final false
  void _ctor(int32_t namedBits) ;
 
-// Ctor Parameters [CppParam { name: "obj", ty: "::Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit DerBitString(::Org::BouncyCastle::Asn1::Asn1Encodable obj) ;
+// Ctor Parameters [CppParam { name: "obj", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
+explicit DerBitString(Org::BouncyCastle::Asn1::Asn1Encodable obj) ;
 
 /// @brief Method .ctor addr 0xddda50 size 0x2c virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::Asn1Encodable obj) ;
+ void _ctor(Org::BouncyCastle::Asn1::Asn1Encodable obj) ;
 
 /// @brief Method GetOctets addr 0xddda7c size 0xb0 virtual true final false
  ::ArrayW<uint8_t> GetOctets() ;
@@ -135,24 +134,23 @@ explicit DerBitString(::Org::BouncyCastle::Asn1::Asn1Encodable obj) ;
  int32_t get_IntValue() ;
 
 /// @brief Method Encode addr 0xdddce0 size 0x118 virtual true final false
- void Encode(::Org::BouncyCastle::Asn1::DerOutputStream derOut) ;
+ void Encode(Org::BouncyCastle::Asn1::DerOutputStream derOut) ;
 
 /// @brief Method Asn1GetHashCode addr 0xddddf8 size 0x88 virtual true final false
  int32_t Asn1GetHashCode() ;
 
 /// @brief Method Asn1Equals addr 0xddde80 size 0xd8 virtual true final false
- bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object asn1Object) ;
+ bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object asn1Object) ;
 
 /// @brief Method GetString addr 0xdddf58 size 0x168 virtual true final false
  ::StringW GetString() ;
 
 /// @brief Method FromAsn1Octets addr 0xddd630 size 0x188 virtual false final false
-static ::Org::BouncyCastle::Asn1::DerBitString FromAsn1Octets(::ArrayW<uint8_t> octets) ;
+static Org::BouncyCastle::Asn1::DerBitString FromAsn1Octets(::ArrayW<uint8_t> octets) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::DerBitString);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::DerBitString, "Org.BouncyCastle.Asn1", "DerBitString");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::DerBitString);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerBitString, "Org.BouncyCastle.Asn1", "DerBitString");

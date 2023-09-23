@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace HoudiniEngineUnity {
 class HEU_OutputAttribute;
 }
@@ -19,7 +18,7 @@ namespace HoudiniEngineUnity {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9609))
 // CS Name: HoudiniEngineUnity.HEU_OutputAttributesStore
-class CORDL_TYPE HEU_OutputAttributesStore : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE HEU_OutputAttributesStore : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr HEU_OutputAttributesStore(HEU_OutputAttributesStore const& ) noexcept 
 constexpr HEU_OutputAttributesStore(HEU_OutputAttributesStore&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HEU_OutputAttributesStore(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit HEU_OutputAttributesStore(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -55,20 +54,20 @@ constexpr explicit HEU_OutputAttributesStore(void* ptr) noexcept : ::UnityEngine
 
 // Fields
 
- ::HoudiniEngineUnity::HEU_OutputAttributeDictionary __declspec(property(get=__get__attributes, put=__set__attributes))  _attributes;
+ HoudiniEngineUnity::HEU_OutputAttributeDictionary __declspec(property(get=__get__attributes, put=__set__attributes))  _attributes;
 
-constexpr void __set__attributes(::HoudiniEngineUnity::HEU_OutputAttributeDictionary value) ;
+constexpr void __set__attributes(HoudiniEngineUnity::HEU_OutputAttributeDictionary value) ;
 
-constexpr ::HoudiniEngineUnity::HEU_OutputAttributeDictionary __get__attributes() const;
+constexpr HoudiniEngineUnity::HEU_OutputAttributeDictionary __get__attributes() const;
 
 
 // Methods
 
 /// @brief Method SetAttribute addr 0x20111a4 size 0xfc virtual false final false
- void SetAttribute(::HoudiniEngineUnity::HEU_OutputAttribute attribute) ;
+ void SetAttribute(HoudiniEngineUnity::HEU_OutputAttribute attribute) ;
 
 /// @brief Method GetAttribute addr 0x20112a0 size 0x70 virtual false final false
- ::HoudiniEngineUnity::HEU_OutputAttribute GetAttribute(::StringW name) ;
+ HoudiniEngineUnity::HEU_OutputAttribute GetAttribute(::StringW name) ;
 
 /// @brief Method Clear addr 0x2011310 size 0x50 virtual false final false
  void Clear() ;
@@ -83,6 +82,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_OutputAttributesStore);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_OutputAttributesStore, "HoudiniEngineUnity", "HEU_OutputAttributesStore");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_OutputAttributesStore);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_OutputAttributesStore, "HoudiniEngineUnity", "HEU_OutputAttributesStore");

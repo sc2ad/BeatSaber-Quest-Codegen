@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Runtime::ConstrainedExecution {
 struct Cer;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::Runtime::ConstrainedExecution::Cer const None;
+static System::Runtime::ConstrainedExecution::Cer const None;
 
 /// @brief Field MayFail offset 0
-static ::System::Runtime::ConstrainedExecution::Cer const MayFail;
+static System::Runtime::ConstrainedExecution::Cer const MayFail;
 
 /// @brief Field Success offset 0
-static ::System::Runtime::ConstrainedExecution::Cer const Success;
+static System::Runtime::ConstrainedExecution::Cer const Success;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::ConstrainedExecution
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::ConstrainedExecution::Cer, "System.Runtime.ConstrainedExecution", "Cer");
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ConstrainedExecution::Cer, "System.Runtime.ConstrainedExecution", "Cer");

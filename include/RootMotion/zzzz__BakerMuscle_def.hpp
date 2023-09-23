@@ -6,12 +6,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class AnimationClip;
-}
 namespace UnityEngine {
 class AnimationCurve;
+}
+namespace UnityEngine {
+class AnimationClip;
 }
 // Forward declare root types
 namespace RootMotion {
@@ -59,11 +58,11 @@ constexpr explicit BakerMuscle(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 
 // Fields
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get_curve, put=__set_curve))  curve;
+ UnityEngine::AnimationCurve __declspec(property(get=__get_curve, put=__set_curve))  curve;
 
-constexpr void __set_curve(::UnityEngine::AnimationCurve value) ;
+constexpr void __set_curve(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get_curve() const;
+constexpr UnityEngine::AnimationCurve __get_curve() const;
 
  int32_t __declspec(property(get=__get_muscleIndex, put=__set_muscleIndex))  muscleIndex;
 
@@ -90,10 +89,10 @@ explicit BakerMuscle(int32_t muscleIndex) ;
  ::StringW MuscleNameToPropertyName(::StringW n) ;
 
 /// @brief Method MultiplyLength addr 0x11aa1a0 size 0xa8 virtual false final false
- void MultiplyLength(::UnityEngine::AnimationCurve curve, float_t mlp) ;
+ void MultiplyLength(UnityEngine::AnimationCurve curve, float_t mlp) ;
 
 /// @brief Method SetCurves addr 0x11aa248 size 0xf4 virtual false final false
- void SetCurves(ByRef<::UnityEngine::AnimationClip> clip, float_t maxError, float_t lengthMlp) ;
+ void SetCurves(ByRef<UnityEngine::AnimationClip> clip, float_t maxError, float_t lengthMlp) ;
 
 /// @brief Method Reset addr 0x11aa140 size 0x60 virtual false final false
  void Reset() ;
@@ -108,6 +107,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::BakerMuscle);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::BakerMuscle, "RootMotion", "BakerMuscle");
+NEED_NO_BOX(RootMotion::BakerMuscle);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::BakerMuscle, "RootMotion", "BakerMuscle");

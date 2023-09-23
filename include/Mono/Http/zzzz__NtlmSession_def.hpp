@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Net {
 class ICredentials;
 }
@@ -61,11 +60,11 @@ constexpr explicit NtlmSession(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 
 // Fields
 
- ::Mono::Security::Protocol::Ntlm::MessageBase __declspec(property(get=__get_message, put=__set_message))  message;
+ Mono::Security::Protocol::Ntlm::MessageBase __declspec(property(get=__get_message, put=__set_message))  message;
 
-constexpr void __set_message(::Mono::Security::Protocol::Ntlm::MessageBase value) ;
+constexpr void __set_message(Mono::Security::Protocol::Ntlm::MessageBase value) ;
 
-constexpr ::Mono::Security::Protocol::Ntlm::MessageBase __get_message() const;
+constexpr Mono::Security::Protocol::Ntlm::MessageBase __get_message() const;
 
 
 // Methods
@@ -77,12 +76,11 @@ explicit NtlmSession() ;
  void _ctor() ;
 
 /// @brief Method Authenticate addr 0x2694584 size 0x48c virtual false final false
- ::System::Net::Authorization Authenticate(::StringW challenge, ::System::Net::WebRequest webRequest, ::System::Net::ICredentials credentials) ;
+ System::Net::Authorization Authenticate(::StringW challenge, System::Net::WebRequest webRequest, System::Net::ICredentials credentials) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Http
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Http::NtlmSession);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Http::NtlmSession, "Mono.Http", "NtlmSession");
+NEED_NO_BOX(Mono::Http::NtlmSession);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Http::NtlmSession, "Mono.Http", "NtlmSession");

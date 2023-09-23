@@ -5,15 +5,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerOutputStream;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -25,7 +24,7 @@ namespace Org::BouncyCastle::Asn1 {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(33))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(199))
 // CS Name: Org.BouncyCastle.Asn1.DerIA5String
-class CORDL_TYPE DerIA5String : public ::Org::BouncyCastle::Asn1::DerStringBase {
+class CORDL_TYPE DerIA5String : public Org::BouncyCastle::Asn1::DerStringBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr DerIA5String(DerIA5String const& ) noexcept = default;
 constexpr DerIA5String(DerIA5String&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DerIA5String(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::DerStringBase(ptr) {
+constexpr explicit DerIA5String(void* ptr) noexcept : Org::BouncyCastle::Asn1::DerStringBase(ptr) {
 }
 
 
@@ -71,10 +70,10 @@ constexpr ::StringW __get_str() const;
 // Methods
 
 /// @brief Method GetInstance addr 0xeeafbc size 0xf0 virtual false final false
-static ::Org::BouncyCastle::Asn1::DerIA5String GetInstance(::bs_hook::Il2CppWrapperType obj) ;
+static Org::BouncyCastle::Asn1::DerIA5String GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method GetInstance addr 0xeeefac size 0x13c virtual false final false
-static ::Org::BouncyCastle::Asn1::DerIA5String GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool isExplicit) ;
+static Org::BouncyCastle::Asn1::DerIA5String GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool isExplicit) ;
 
 // Ctor Parameters [CppParam { name: "str", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
 explicit DerIA5String(::ArrayW<uint8_t> str) ;
@@ -101,13 +100,13 @@ explicit DerIA5String(::StringW str, bool validate) ;
  ::ArrayW<uint8_t> GetOctets() ;
 
 /// @brief Method Encode addr 0xeef194 size 0x34 virtual true final false
- void Encode(::Org::BouncyCastle::Asn1::DerOutputStream derOut) ;
+ void Encode(Org::BouncyCastle::Asn1::DerOutputStream derOut) ;
 
 /// @brief Method Asn1GetHashCode addr 0xeef1c8 size 0x1c virtual true final false
  int32_t Asn1GetHashCode() ;
 
 /// @brief Method Asn1Equals addr 0xeef1e4 size 0xa0 virtual true final false
- bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object asn1Object) ;
+ bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object asn1Object) ;
 
 /// @brief Method IsIA5String addr 0xeef118 size 0x68 virtual false final false
 static bool IsIA5String(::StringW str) ;
@@ -116,6 +115,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::DerIA5String);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::DerIA5String, "Org.BouncyCastle.Asn1", "DerIA5String");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::DerIA5String);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerIA5String, "Org.BouncyCastle.Asn1", "DerIA5String");

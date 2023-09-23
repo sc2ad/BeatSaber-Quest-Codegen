@@ -3,9 +3,17 @@
 #include "GlobalNamespace/zzzz__BaseStateTransition_1_def.hpp"
 #include "HMUI/zzzz__ImageView_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace {
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class BaseTransitionSO;
+}
 namespace GlobalNamespace {
 class GradientTransitionSO;
+}
+namespace Tweening {
+class ColorTween;
 }
 namespace UnityEngine {
 struct Color;
@@ -14,15 +22,6 @@ namespace System {
 template<typename T>
 class Action_1;
 }
-namespace Tweening {
-class ColorTween;
-}
-namespace GlobalNamespace {
-class BaseTransitionSO;
-}
-namespace System {
-class Action;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 class GradientImageViewStateTransition;
@@ -30,10 +29,10 @@ class GradientImageViewStateTransition;
 // Type: ::GradientImageViewStateTransition
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5544)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5544), inst: 895 }), TypeDefinitionIndex(TypeDefinitionIndex(13678))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5544), inst: 895 }), TypeDefinitionIndex(TypeDefinitionIndex(5544)), TypeDefinitionIndex(TypeDefinitionIndex(13678))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5553))
 // CS Name: GradientImageViewStateTransition
-class CORDL_TYPE GradientImageViewStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::HMUI::ImageView> {
+class CORDL_TYPE GradientImageViewStateTransition : public GlobalNamespace::BaseStateTransition_1<HMUI::ImageView> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -48,7 +47,7 @@ constexpr GradientImageViewStateTransition(GradientImageViewStateTransition cons
 constexpr GradientImageViewStateTransition(GradientImageViewStateTransition&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GradientImageViewStateTransition(void* ptr) noexcept : ::GlobalNamespace::BaseStateTransition_1<::HMUI::ImageView>(ptr) {
+constexpr explicit GradientImageViewStateTransition(void* ptr) noexcept : GlobalNamespace::BaseStateTransition_1<HMUI::ImageView>(ptr) {
 }
 
 
@@ -69,34 +68,34 @@ constexpr explicit GradientImageViewStateTransition(void* ptr) noexcept : ::Glob
 
 // Fields
 
- ::GlobalNamespace::GradientTransitionSO __declspec(property(get=__get__transition, put=__set__transition))  _transition;
+ GlobalNamespace::GradientTransitionSO __declspec(property(get=__get__transition, put=__set__transition))  _transition;
 
-constexpr void __set__transition(::GlobalNamespace::GradientTransitionSO value) ;
+constexpr void __set__transition(GlobalNamespace::GradientTransitionSO value) ;
 
-constexpr ::GlobalNamespace::GradientTransitionSO __get__transition() const;
+constexpr GlobalNamespace::GradientTransitionSO __get__transition() const;
 
- ::Tweening::ColorTween __declspec(property(get=__get__colorTweenA, put=__set__colorTweenA))  _colorTweenA;
+ Tweening::ColorTween __declspec(property(get=__get__colorTweenA, put=__set__colorTweenA))  _colorTweenA;
 
-constexpr void __set__colorTweenA(::Tweening::ColorTween value) ;
+constexpr void __set__colorTweenA(Tweening::ColorTween value) ;
 
-constexpr ::Tweening::ColorTween __get__colorTweenA() const;
+constexpr Tweening::ColorTween __get__colorTweenA() const;
 
- ::Tweening::ColorTween __declspec(property(get=__get__colorTweenB, put=__set__colorTweenB))  _colorTweenB;
+ Tweening::ColorTween __declspec(property(get=__get__colorTweenB, put=__set__colorTweenB))  _colorTweenB;
 
-constexpr void __set__colorTweenB(::Tweening::ColorTween value) ;
+constexpr void __set__colorTweenB(Tweening::ColorTween value) ;
 
-constexpr ::Tweening::ColorTween __get__colorTweenB() const;
+constexpr Tweening::ColorTween __get__colorTweenB() const;
 
 
 // Properties
 
- ::GlobalNamespace::BaseTransitionSO __declspec(property(get=get_transition))  transition;
+ GlobalNamespace::BaseTransitionSO __declspec(property(get=get_transition))  transition;
 
 
 // Methods
 
 /// @brief Method get_transition addr 0x21290b8 size 0x8 virtual true final false
- ::GlobalNamespace::BaseTransitionSO get_transition() ;
+ GlobalNamespace::BaseTransitionSO get_transition() ;
 
 /// @brief Method TransitionToNormalState addr 0x21290c0 size 0x80 virtual true final false
  void TransitionToNormalState() ;
@@ -135,13 +134,13 @@ constexpr ::Tweening::ColorTween __get__colorTweenB() const;
  void SetSelectedAndHighlightedState() ;
 
 /// @brief Method StartTweens addr 0x2129158 size 0x20c virtual false final false
- void StartTweens(::UnityEngine::Color endColor1, ::UnityEngine::Color endColor2) ;
+ void StartTweens(UnityEngine::Color endColor1, UnityEngine::Color endColor2) ;
 
 /// @brief Method StartTween addr 0x21299bc size 0x194 virtual false final false
- void StartTween(::UnityEngine::Color startColor, ::UnityEngine::Color endColor, ::System::Action_1<::UnityEngine::Color> tweenAction, ::System::Action onCompleteAction, ByRef<::Tweening::ColorTween> colorTween) ;
+ void StartTween(UnityEngine::Color startColor, UnityEngine::Color endColor, System::Action_1<UnityEngine::Color> tweenAction, System::Action onCompleteAction, ByRef<Tweening::ColorTween> colorTween) ;
 
 /// @brief Method SetColors addr 0x21296dc size 0x60 virtual false final false
- void SetColors(::UnityEngine::Color startColor, ::UnityEngine::Color endColor) ;
+ void SetColors(UnityEngine::Color startColor, UnityEngine::Color endColor) ;
 
 // Ctor Parameters []
 explicit GradientImageViewStateTransition() ;
@@ -156,15 +155,14 @@ explicit GradientImageViewStateTransition() ;
  void _StartTweens_g__Color2CompleteAction_17_1() ;
 
 /// @brief Method <StartTweens>b__17_2 addr 0x2129ca8 size 0x1c virtual false final false
- void _StartTweens_b__17_2(::UnityEngine::Color color) ;
+ void _StartTweens_b__17_2(UnityEngine::Color color) ;
 
 /// @brief Method <StartTweens>b__17_3 addr 0x2129cc4 size 0x1c virtual false final false
- void _StartTweens_b__17_3(::UnityEngine::Color color) ;
+ void _StartTweens_b__17_3(UnityEngine::Color color) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::GradientImageViewStateTransition);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GradientImageViewStateTransition, "", "GradientImageViewStateTransition");
+NEED_NO_BOX(GlobalNamespace::GradientImageViewStateTransition);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GradientImageViewStateTransition, "", "GradientImageViewStateTransition");

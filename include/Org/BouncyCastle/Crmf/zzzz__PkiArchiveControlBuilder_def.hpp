@@ -1,27 +1,26 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralName;
-}
 namespace Org::BouncyCastle::Cms {
-class CmsEnvelopedDataGenerator;
+class CmsProcessableByteArray;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherBuilderWithKey;
 }
 namespace Org::BouncyCastle::Asn1::Pkcs {
 class PrivateKeyInfo;
 }
 namespace Org::BouncyCastle::Cms {
-class RecipientInfoGenerator;
+class CmsEnvelopedDataGenerator;
 }
-namespace Org::BouncyCastle::Crypto {
-class ICipherBuilderWithKey;
+namespace Org::BouncyCastle::Asn1::X509 {
+class GeneralName;
+}
+namespace Org::BouncyCastle::Cms {
+class RecipientInfoGenerator;
 }
 namespace Org::BouncyCastle::Crmf {
 class PkiArchiveControl;
-}
-namespace Org::BouncyCastle::Cms {
-class CmsProcessableByteArray;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {
@@ -69,37 +68,36 @@ constexpr explicit PkiArchiveControlBuilder(void* ptr) noexcept : ::bs_hook::Il2
 
 // Fields
 
- ::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator __declspec(property(get=__get_envGen, put=__set_envGen))  envGen;
+ Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator __declspec(property(get=__get_envGen, put=__set_envGen))  envGen;
 
-constexpr void __set_envGen(::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator value) ;
+constexpr void __set_envGen(Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator value) ;
 
-constexpr ::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator __get_envGen() const;
+constexpr Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator __get_envGen() const;
 
- ::Org::BouncyCastle::Cms::CmsProcessableByteArray __declspec(property(get=__get_keyContent, put=__set_keyContent))  keyContent;
+ Org::BouncyCastle::Cms::CmsProcessableByteArray __declspec(property(get=__get_keyContent, put=__set_keyContent))  keyContent;
 
-constexpr void __set_keyContent(::Org::BouncyCastle::Cms::CmsProcessableByteArray value) ;
+constexpr void __set_keyContent(Org::BouncyCastle::Cms::CmsProcessableByteArray value) ;
 
-constexpr ::Org::BouncyCastle::Cms::CmsProcessableByteArray __get_keyContent() const;
+constexpr Org::BouncyCastle::Cms::CmsProcessableByteArray __get_keyContent() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "privateKeyInfo", ty: "::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo", modifiers: "", def_value: None }, CppParam { name: "generalName", ty: "::Org::BouncyCastle::Asn1::X509::GeneralName", modifiers: "", def_value: None }]
-explicit PkiArchiveControlBuilder(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo privateKeyInfo, ::Org::BouncyCastle::Asn1::X509::GeneralName generalName) ;
+// Ctor Parameters [CppParam { name: "privateKeyInfo", ty: "Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo", modifiers: "", def_value: None }, CppParam { name: "generalName", ty: "Org::BouncyCastle::Asn1::X509::GeneralName", modifiers: "", def_value: None }]
+explicit PkiArchiveControlBuilder(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo privateKeyInfo, Org::BouncyCastle::Asn1::X509::GeneralName generalName) ;
 
 /// @brief Method .ctor addr 0x11869d8 size 0x1f8 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo privateKeyInfo, ::Org::BouncyCastle::Asn1::X509::GeneralName generalName) ;
+ void _ctor(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo privateKeyInfo, Org::BouncyCastle::Asn1::X509::GeneralName generalName) ;
 
 /// @brief Method AddRecipientGenerator addr 0x1186bd0 size 0x28 virtual false final false
- ::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder AddRecipientGenerator(::Org::BouncyCastle::Cms::RecipientInfoGenerator recipientGen) ;
+ Org::BouncyCastle::Crmf::PkiArchiveControlBuilder AddRecipientGenerator(Org::BouncyCastle::Cms::RecipientInfoGenerator recipientGen) ;
 
 /// @brief Method Build addr 0x1186bf8 size 0x100 virtual false final false
- ::Org::BouncyCastle::Crmf::PkiArchiveControl Build(::Org::BouncyCastle::Crypto::ICipherBuilderWithKey contentEncryptor) ;
+ Org::BouncyCastle::Crmf::PkiArchiveControl Build(Org::BouncyCastle::Crypto::ICipherBuilderWithKey contentEncryptor) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crmf
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder, "Org.BouncyCastle.Crmf", "PkiArchiveControlBuilder");
+NEED_NO_BOX(Org::BouncyCastle::Crmf::PkiArchiveControlBuilder);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crmf::PkiArchiveControlBuilder, "Org.BouncyCastle.Crmf", "PkiArchiveControlBuilder");

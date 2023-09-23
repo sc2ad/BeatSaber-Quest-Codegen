@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Diagnostics {
 class StackTrace;
 }
@@ -72,12 +71,11 @@ static ::StringW ExtractStackTrace() ;
 static void ExtractStringFromExceptionInternal(::bs_hook::Il2CppWrapperType exceptiono, ByRef<::StringW> message, ByRef<::StringW> stackTrace) ;
 
 /// @brief Method ExtractFormattedStackTrace addr 0x2b5a664 size 0x6a8 virtual false final false
-static ::StringW ExtractFormattedStackTrace(::System::Diagnostics::StackTrace stackTrace) ;
+static ::StringW ExtractFormattedStackTrace(System::Diagnostics::StackTrace stackTrace) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::StackTraceUtility);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::StackTraceUtility, "UnityEngine", "StackTraceUtility");
+NEED_NO_BOX(UnityEngine::StackTraceUtility);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::StackTraceUtility, "UnityEngine", "StackTraceUtility");

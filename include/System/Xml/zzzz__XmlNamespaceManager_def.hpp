@@ -5,7 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System::Xml {
 class XmlNameTable;
 }
@@ -16,9 +18,6 @@ namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System::Xml {
 class IXmlNamespaceResolver;
 }
@@ -27,7 +26,7 @@ namespace System::Xml {
 class XmlNamespaceManager;
 }
 namespace System::Xml {
-struct ____System__Xml__XmlNamespaceManager__NamespaceDeclaration;
+struct System__Xml__XmlNamespaceManager__NamespaceDeclaration;
 }
 // Type: ::NamespaceDeclaration
 namespace System::Xml {
@@ -35,20 +34,20 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11511))
 // CS Name: System.Xml.XmlNamespaceManager::NamespaceDeclaration
-struct CORDL_TYPE ____System__Xml__XmlNamespaceManager__NamespaceDeclaration : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE System__Xml__XmlNamespaceManager__NamespaceDeclaration : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "uri", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "scopeId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "previousNsIndex", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____System__Xml__XmlNamespaceManager__NamespaceDeclaration(::StringW prefix, ::StringW uri, int32_t scopeId, int32_t previousNsIndex) noexcept;
+constexpr System__Xml__XmlNamespaceManager__NamespaceDeclaration(::StringW prefix, ::StringW uri, int32_t scopeId, int32_t previousNsIndex) noexcept;
 
 
-                    constexpr ____System__Xml__XmlNamespaceManager__NamespaceDeclaration(____System__Xml__XmlNamespaceManager__NamespaceDeclaration const&) = default;
-                    constexpr ____System__Xml__XmlNamespaceManager__NamespaceDeclaration(____System__Xml__XmlNamespaceManager__NamespaceDeclaration&&) = default;
-                    constexpr ____System__Xml__XmlNamespaceManager__NamespaceDeclaration& operator=(____System__Xml__XmlNamespaceManager__NamespaceDeclaration const& o) {
+                    constexpr System__Xml__XmlNamespaceManager__NamespaceDeclaration(System__Xml__XmlNamespaceManager__NamespaceDeclaration const&) = default;
+                    constexpr System__Xml__XmlNamespaceManager__NamespaceDeclaration(System__Xml__XmlNamespaceManager__NamespaceDeclaration&&) = default;
+                    constexpr System__Xml__XmlNamespaceManager__NamespaceDeclaration& operator=(System__Xml__XmlNamespaceManager__NamespaceDeclaration const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Xml__XmlNamespaceManager__NamespaceDeclaration& operator=(____System__Xml__XmlNamespaceManager__NamespaceDeclaration&& o) noexcept {
+                    constexpr System__Xml__XmlNamespaceManager__NamespaceDeclaration& operator=(System__Xml__XmlNamespaceManager__NamespaceDeclaration&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -61,7 +60,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x18};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Xml__XmlNamespaceManager__NamespaceDeclaration(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Xml__XmlNamespaceManager__NamespaceDeclaration(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -115,13 +114,13 @@ namespace System::Xml {
 class CORDL_TYPE XmlNamespaceManager : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using NamespaceDeclaration = ::System::Xml::____System__Xml__XmlNamespaceManager__NamespaceDeclaration;
+using NamespaceDeclaration = System::Xml::System__Xml__XmlNamespaceManager__NamespaceDeclaration;
 
-/// @brief Convert operator to ::System::Xml::IXmlNamespaceResolver
-constexpr operator  ::System::Xml::IXmlNamespaceResolver() const noexcept;
+/// @brief Convert operator to System::Xml::IXmlNamespaceResolver
+constexpr operator  System::Xml::IXmlNamespaceResolver() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x50};
@@ -156,11 +155,11 @@ constexpr explicit XmlNamespaceManager(void* ptr) noexcept : ::bs_hook::Il2CppWr
 
 // Fields
 
- ::ArrayW<::System::Xml::____System__Xml__XmlNamespaceManager__NamespaceDeclaration> __declspec(property(get=__get_nsdecls, put=__set_nsdecls))  nsdecls;
+ ::ArrayW<System::Xml::System__Xml__XmlNamespaceManager__NamespaceDeclaration> __declspec(property(get=__get_nsdecls, put=__set_nsdecls))  nsdecls;
 
-constexpr void __set_nsdecls(::ArrayW<::System::Xml::____System__Xml__XmlNamespaceManager__NamespaceDeclaration> value) ;
+constexpr void __set_nsdecls(::ArrayW<System::Xml::System__Xml__XmlNamespaceManager__NamespaceDeclaration> value) ;
 
-constexpr ::ArrayW<::System::Xml::____System__Xml__XmlNamespaceManager__NamespaceDeclaration> __get_nsdecls() const;
+constexpr ::ArrayW<System::Xml::System__Xml__XmlNamespaceManager__NamespaceDeclaration> __get_nsdecls() const;
 
  int32_t __declspec(property(get=__get_lastDecl, put=__set_lastDecl))  lastDecl;
 
@@ -168,11 +167,11 @@ constexpr void __set_lastDecl(int32_t value) ;
 
 constexpr int32_t __get_lastDecl() const;
 
- ::System::Xml::XmlNameTable __declspec(property(get=__get_nameTable, put=__set_nameTable))  nameTable;
+ System::Xml::XmlNameTable __declspec(property(get=__get_nameTable, put=__set_nameTable))  nameTable;
 
-constexpr void __set_nameTable(::System::Xml::XmlNameTable value) ;
+constexpr void __set_nameTable(System::Xml::XmlNameTable value) ;
 
-constexpr ::System::Xml::XmlNameTable __get_nameTable() const;
+constexpr System::Xml::XmlNameTable __get_nameTable() const;
 
  int32_t __declspec(property(get=__get_scopeId, put=__set_scopeId))  scopeId;
 
@@ -180,11 +179,11 @@ constexpr void __set_scopeId(int32_t value) ;
 
 constexpr int32_t __get_scopeId() const;
 
- ::System::Collections::Generic::Dictionary_2<::StringW,int32_t> __declspec(property(get=__get_hashTable, put=__set_hashTable))  hashTable;
+ System::Collections::Generic::Dictionary_2<::StringW,int32_t> __declspec(property(get=__get_hashTable, put=__set_hashTable))  hashTable;
 
-constexpr void __set_hashTable(::System::Collections::Generic::Dictionary_2<::StringW,int32_t> value) ;
+constexpr void __set_hashTable(System::Collections::Generic::Dictionary_2<::StringW,int32_t> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::StringW,int32_t> __get_hashTable() const;
+constexpr System::Collections::Generic::Dictionary_2<::StringW,int32_t> __get_hashTable() const;
 
  bool __declspec(property(get=__get_useHashtable, put=__set_useHashtable))  useHashtable;
 
@@ -207,7 +206,7 @@ constexpr ::StringW __get_xmlNs() const;
 
 // Properties
 
- ::System::Xml::XmlNameTable __declspec(property(get=get_NameTable))  NameTable;
+ System::Xml::XmlNameTable __declspec(property(get=get_NameTable))  NameTable;
 
  ::StringW __declspec(property(get=get_DefaultNamespace))  DefaultNamespace;
 
@@ -220,14 +219,14 @@ explicit XmlNamespaceManager() ;
 /// @brief Method .ctor addr 0x27143e8 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "nameTable", ty: "::System::Xml::XmlNameTable", modifiers: "", def_value: None }]
-explicit XmlNamespaceManager(::System::Xml::XmlNameTable nameTable) ;
+// Ctor Parameters [CppParam { name: "nameTable", ty: "System::Xml::XmlNameTable", modifiers: "", def_value: None }]
+explicit XmlNamespaceManager(System::Xml::XmlNameTable nameTable) ;
 
 /// @brief Method .ctor addr 0x27143f0 size 0x1bc virtual false final false
- void _ctor(::System::Xml::XmlNameTable nameTable) ;
+ void _ctor(System::Xml::XmlNameTable nameTable) ;
 
 /// @brief Method get_NameTable addr 0x27145b8 size 0x8 virtual true final false
- ::System::Xml::XmlNameTable get_NameTable() ;
+ System::Xml::XmlNameTable get_NameTable() ;
 
 /// @brief Method get_DefaultNamespace addr 0x27145c0 size 0x70 virtual true final false
  ::StringW get_DefaultNamespace() ;
@@ -245,7 +244,7 @@ explicit XmlNamespaceManager(::System::Xml::XmlNameTable nameTable) ;
  void RemoveNamespace(::StringW prefix, ::StringW uri) ;
 
 /// @brief Method GetEnumerator addr 0x2714d84 size 0x170 virtual true final false
- ::System::Collections::IEnumerator GetEnumerator() ;
+ System::Collections::IEnumerator GetEnumerator() ;
 
 /// @brief Method LookupNamespace addr 0x2714ef4 size 0x4c virtual true final false
  ::StringW LookupNamespace(::StringW prefix) ;
@@ -260,7 +259,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::XmlNamespaceManager);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlNamespaceManager, "System.Xml", "XmlNamespaceManager");
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::____System__Xml__XmlNamespaceManager__NamespaceDeclaration, "System.Xml", "XmlNamespaceManager/NamespaceDeclaration");
+NEED_NO_BOX(System::Xml::XmlNamespaceManager);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlNamespaceManager, "System.Xml", "XmlNamespaceManager");
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::System__Xml__XmlNamespaceManager__NamespaceDeclaration, "System.Xml", "XmlNamespaceManager/NamespaceDeclaration");

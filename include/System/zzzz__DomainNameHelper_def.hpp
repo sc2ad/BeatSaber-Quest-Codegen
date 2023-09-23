@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 class DomainNameHelper;
@@ -88,6 +87,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::DomainNameHelper);
-DEFINE_IL2CPP_ARG_TYPE(::System::DomainNameHelper, "System", "DomainNameHelper");
+NEED_NO_BOX(System::DomainNameHelper);
+DEFINE_IL2CPP_ARG_TYPE(System::DomainNameHelper, "System", "DomainNameHelper");

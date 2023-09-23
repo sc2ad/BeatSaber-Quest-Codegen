@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace MS::Internal::Xml::Cache {
 struct XPathNode;
 }
@@ -20,8 +19,8 @@ namespace MS::Internal::Xml::Cache {
 struct CORDL_TYPE XPathNodeRef : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "_page", ty: "::ArrayW<::MS::Internal::Xml::Cache::XPathNode>", modifiers: "", def_value: None }, CppParam { name: "_idx", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr XPathNodeRef(::ArrayW<::MS::Internal::Xml::Cache::XPathNode> _page, int32_t _idx) noexcept;
+// Ctor Parameters [CppParam { name: "_page", ty: "::ArrayW<MS::Internal::Xml::Cache::XPathNode>", modifiers: "", def_value: None }, CppParam { name: "_idx", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr XPathNodeRef(::ArrayW<MS::Internal::Xml::Cache::XPathNode> _page, int32_t _idx) noexcept;
 
 
                     constexpr XPathNodeRef(XPathNodeRef const&) = default;
@@ -54,11 +53,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> __declspec(property(get=__get__page, put=__set__page))  _page;
+ ::ArrayW<MS::Internal::Xml::Cache::XPathNode> __declspec(property(get=__get__page, put=__set__page))  _page;
 
-constexpr void __set__page(::ArrayW<::MS::Internal::Xml::Cache::XPathNode> value) ;
+constexpr void __set__page(::ArrayW<MS::Internal::Xml::Cache::XPathNode> value) ;
 
-constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> __get__page() const;
+constexpr ::ArrayW<MS::Internal::Xml::Cache::XPathNode> __get__page() const;
 
  int32_t __declspec(property(get=__get__idx, put=__set__idx))  _idx;
 
@@ -69,7 +68,7 @@ constexpr int32_t __get__idx() const;
 
 // Properties
 
- ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> __declspec(property(get=get_Page))  Page;
+ ::ArrayW<MS::Internal::Xml::Cache::XPathNode> __declspec(property(get=get_Page))  Page;
 
  int32_t __declspec(property(get=get_Index))  Index;
 
@@ -77,10 +76,10 @@ constexpr int32_t __get__idx() const;
 // Methods
 
 /// @brief Method .ctor addr 0x2757e38 size 0xc virtual false final false
- void _ctor(::ArrayW<::MS::Internal::Xml::Cache::XPathNode> page, int32_t idx) ;
+ void _ctor(::ArrayW<MS::Internal::Xml::Cache::XPathNode> page, int32_t idx) ;
 
 /// @brief Method get_Page addr 0x2757e44 size 0x8 virtual false final false
- ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> get_Page() ;
+ ::ArrayW<MS::Internal::Xml::Cache::XPathNode> get_Page() ;
 
 /// @brief Method get_Index addr 0x2757e4c size 0x8 virtual false final false
  int32_t get_Index() ;
@@ -92,5 +91,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def MS::Internal::Xml::Cache
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::MS::Internal::Xml::Cache::XPathNodeRef, "MS.Internal.Xml.Cache", "XPathNodeRef");
+DEFINE_IL2CPP_ARG_TYPE(MS::Internal::Xml::Cache::XPathNodeRef, "MS.Internal.Xml.Cache", "XPathNodeRef");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HAPI_ImageDataFormat;
@@ -73,32 +72,31 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field HAPI_IMAGE_DATA_UNKNOWN offset 0
-static ::HoudiniEngineUnity::HAPI_ImageDataFormat const HAPI_IMAGE_DATA_UNKNOWN;
+static HoudiniEngineUnity::HAPI_ImageDataFormat const HAPI_IMAGE_DATA_UNKNOWN;
 
 /// @brief Field HAPI_IMAGE_DATA_INT8 offset 0
-static ::HoudiniEngineUnity::HAPI_ImageDataFormat const HAPI_IMAGE_DATA_INT8;
+static HoudiniEngineUnity::HAPI_ImageDataFormat const HAPI_IMAGE_DATA_INT8;
 
 /// @brief Field HAPI_IMAGE_DATA_INT16 offset 0
-static ::HoudiniEngineUnity::HAPI_ImageDataFormat const HAPI_IMAGE_DATA_INT16;
+static HoudiniEngineUnity::HAPI_ImageDataFormat const HAPI_IMAGE_DATA_INT16;
 
 /// @brief Field HAPI_IMAGE_DATA_INT32 offset 0
-static ::HoudiniEngineUnity::HAPI_ImageDataFormat const HAPI_IMAGE_DATA_INT32;
+static HoudiniEngineUnity::HAPI_ImageDataFormat const HAPI_IMAGE_DATA_INT32;
 
 /// @brief Field HAPI_IMAGE_DATA_FLOAT16 offset 0
-static ::HoudiniEngineUnity::HAPI_ImageDataFormat const HAPI_IMAGE_DATA_FLOAT16;
+static HoudiniEngineUnity::HAPI_ImageDataFormat const HAPI_IMAGE_DATA_FLOAT16;
 
 /// @brief Field HAPI_IMAGE_DATA_FLOAT32 offset 0
-static ::HoudiniEngineUnity::HAPI_ImageDataFormat const HAPI_IMAGE_DATA_FLOAT32;
+static HoudiniEngineUnity::HAPI_ImageDataFormat const HAPI_IMAGE_DATA_FLOAT32;
 
 /// @brief Field HAPI_IMAGE_DATA_MAX offset 0
-static ::HoudiniEngineUnity::HAPI_ImageDataFormat const HAPI_IMAGE_DATA_MAX;
+static HoudiniEngineUnity::HAPI_ImageDataFormat const HAPI_IMAGE_DATA_MAX;
 
 /// @brief Field HAPI_IMAGE_DATA_DEFAULT offset 0
-static ::HoudiniEngineUnity::HAPI_ImageDataFormat const HAPI_IMAGE_DATA_DEFAULT;
+static HoudiniEngineUnity::HAPI_ImageDataFormat const HAPI_IMAGE_DATA_DEFAULT;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_ImageDataFormat, "HoudiniEngineUnity", "HAPI_ImageDataFormat");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_ImageDataFormat, "HoudiniEngineUnity", "HAPI_ImageDataFormat");

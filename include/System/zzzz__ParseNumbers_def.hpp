@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
@@ -56,16 +55,16 @@ constexpr explicit ParseNumbers(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 // Methods
 
 /// @brief Method StringToLong addr 0x2450074 size 0x18 virtual false final false
-static int64_t StringToLong(::System::ReadOnlySpan_1<char16_t> s, int32_t radix, int32_t flags) ;
+static int64_t StringToLong(System::ReadOnlySpan_1<char16_t> s, int32_t radix, int32_t flags) ;
 
 /// @brief Method StringToLong addr 0x245008c size 0x370 virtual false final false
-static int64_t StringToLong(::System::ReadOnlySpan_1<char16_t> s, int32_t radix, int32_t flags, ByRef<int32_t> currPos) ;
+static int64_t StringToLong(System::ReadOnlySpan_1<char16_t> s, int32_t radix, int32_t flags, ByRef<int32_t> currPos) ;
 
 /// @brief Method StringToInt addr 0x24506b0 size 0x18 virtual false final false
-static int32_t StringToInt(::System::ReadOnlySpan_1<char16_t> s, int32_t radix, int32_t flags) ;
+static int32_t StringToInt(System::ReadOnlySpan_1<char16_t> s, int32_t radix, int32_t flags) ;
 
 /// @brief Method StringToInt addr 0x24506c8 size 0x3cc virtual false final false
-static int32_t StringToInt(::System::ReadOnlySpan_1<char16_t> s, int32_t radix, int32_t flags, ByRef<int32_t> currPos) ;
+static int32_t StringToInt(System::ReadOnlySpan_1<char16_t> s, int32_t radix, int32_t flags, ByRef<int32_t> currPos) ;
 
 /// @brief Method IntToString addr 0x2450cb8 size 0x380 virtual false final false
 static ::StringW IntToString(int32_t n, int32_t radix, int32_t width, char16_t paddingChar, int32_t flags) ;
@@ -74,13 +73,13 @@ static ::StringW IntToString(int32_t n, int32_t radix, int32_t width, char16_t p
 static ::StringW LongToString(int64_t n, int32_t radix, int32_t width, char16_t paddingChar, int32_t flags) ;
 
 /// @brief Method EatWhiteSpace addr 0x24503fc size 0xc4 virtual false final false
-static void EatWhiteSpace(::System::ReadOnlySpan_1<char16_t> s, ByRef<int32_t> i) ;
+static void EatWhiteSpace(System::ReadOnlySpan_1<char16_t> s, ByRef<int32_t> i) ;
 
 /// @brief Method GrabLongs addr 0x24504c0 size 0x1f0 virtual false final false
-static int64_t GrabLongs(int32_t radix, ::System::ReadOnlySpan_1<char16_t> s, ByRef<int32_t> i, bool isUnsigned) ;
+static int64_t GrabLongs(int32_t radix, System::ReadOnlySpan_1<char16_t> s, ByRef<int32_t> i, bool isUnsigned) ;
 
 /// @brief Method GrabInts addr 0x2450a94 size 0x224 virtual false final false
-static int32_t GrabInts(int32_t radix, ::System::ReadOnlySpan_1<char16_t> s, ByRef<int32_t> i, bool isUnsigned) ;
+static int32_t GrabInts(int32_t radix, System::ReadOnlySpan_1<char16_t> s, ByRef<int32_t> i, bool isUnsigned) ;
 
 /// @brief Method ThrowOverflowInt32Exception addr 0x24514cc size 0x4c virtual false final false
 static void ThrowOverflowInt32Exception() ;
@@ -101,6 +100,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::ParseNumbers);
-DEFINE_IL2CPP_ARG_TYPE(::System::ParseNumbers, "System", "ParseNumbers");
+NEED_NO_BOX(System::ParseNumbers);
+DEFINE_IL2CPP_ARG_TYPE(System::ParseNumbers, "System", "ParseNumbers");

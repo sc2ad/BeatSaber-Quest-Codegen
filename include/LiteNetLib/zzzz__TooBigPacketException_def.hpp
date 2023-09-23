@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "LiteNetLib/zzzz__InvalidPacketException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class Exception;
 }
@@ -16,7 +15,7 @@ namespace LiteNetLib {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14441))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14442))
 // CS Name: LiteNetLib.TooBigPacketException
-class CORDL_TYPE TooBigPacketException : public ::LiteNetLib::InvalidPacketException {
+class CORDL_TYPE TooBigPacketException : public LiteNetLib::InvalidPacketException {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr TooBigPacketException(TooBigPacketException const& ) noexcept = defaul
 constexpr TooBigPacketException(TooBigPacketException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TooBigPacketException(void* ptr) noexcept : ::LiteNetLib::InvalidPacketException(ptr) {
+constexpr explicit TooBigPacketException(void* ptr) noexcept : LiteNetLib::InvalidPacketException(ptr) {
 }
 
 
@@ -64,16 +63,15 @@ explicit TooBigPacketException(::StringW message) ;
 /// @brief Method .ctor addr 0x2088bb4 size 0x8 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "::System::Exception", modifiers: "", def_value: None }]
-explicit TooBigPacketException(::StringW message, ::System::Exception innerException) ;
+// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
+explicit TooBigPacketException(::StringW message, System::Exception innerException) ;
 
 /// @brief Method .ctor addr 0x2088bbc size 0x8 virtual false final false
- void _ctor(::StringW message, ::System::Exception innerException) ;
+ void _ctor(::StringW message, System::Exception innerException) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib
-} // end anonymous namespace
-NEED_NO_BOX(::LiteNetLib::TooBigPacketException);
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::TooBigPacketException, "LiteNetLib", "TooBigPacketException");
+NEED_NO_BOX(LiteNetLib::TooBigPacketException);
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::TooBigPacketException, "LiteNetLib", "TooBigPacketException");

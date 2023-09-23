@@ -1,18 +1,17 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace UnityEngine {
-struct Bounds;
-}
 namespace UnityEngine {
 struct Quaternion;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+namespace UnityEngine {
+struct Bounds;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {
@@ -61,13 +60,13 @@ constexpr explicit Shape(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr)
 // Methods
 
 /// @brief Method UpdateBounds addr 0x29f8278 size 0x4c virtual true final false
- ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds) ;
+ UnityEngine::Bounds UpdateBounds(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::Vector3 size, UnityEngine::Quaternion rotation, UnityEngine::Bounds bounds) ;
 
 /// @brief Method RebuildMesh addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation) ;
+ UnityEngine::Bounds RebuildMesh(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::Vector3 size, UnityEngine::Quaternion rotation) ;
 
 /// @brief Method CopyShape addr 0x0 size 0xffffffffffffffff virtual true final false
- void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape shape) ;
+ void CopyShape(UnityEngine::ProBuilder::Shapes::Shape shape) ;
 
 // Ctor Parameters []
 explicit Shape() ;
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder::Shapes
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::Shapes::Shape);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Shapes::Shape, "UnityEngine.ProBuilder.Shapes", "Shape");
+NEED_NO_BOX(UnityEngine::ProBuilder::Shapes::Shape);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Shapes::Shape, "UnityEngine.ProBuilder.Shapes", "Shape");

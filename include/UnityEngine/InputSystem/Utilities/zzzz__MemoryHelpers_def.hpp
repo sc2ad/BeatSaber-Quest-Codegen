@@ -5,13 +5,12 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
 class MemoryHelpers;
 }
 namespace UnityEngine::InputSystem::Utilities {
-struct ____UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion;
+struct UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion;
 }
 // Type: ::BitRegion
 namespace UnityEngine::InputSystem::Utilities {
@@ -19,20 +18,20 @@ namespace UnityEngine::InputSystem::Utilities {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6760))
 // CS Name: UnityEngine.InputSystem.Utilities.MemoryHelpers::BitRegion
-struct CORDL_TYPE ____UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "bitOffset", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "sizeInBits", ty: "uint32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion(uint32_t bitOffset, uint32_t sizeInBits) noexcept;
+constexpr UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion(uint32_t bitOffset, uint32_t sizeInBits) noexcept;
 
 
-                    constexpr ____UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion(____UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion const&) = default;
-                    constexpr ____UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion(____UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion&&) = default;
-                    constexpr ____UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion& operator=(____UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion const& o) {
+                    constexpr UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion(UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion const&) = default;
+                    constexpr UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion(UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion&&) = default;
+                    constexpr UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion& operator=(UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion& operator=(____UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion&& o) noexcept {
+                    constexpr UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion& operator=(UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -45,7 +44,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x8};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -86,7 +85,7 @@ constexpr uint32_t __get_sizeInBits() const;
  void _ctor(uint32_t byteOffset, uint32_t bitOffset, uint32_t sizeInBits) ;
 
 /// @brief Method Overlap addr 0x29813ac size 0xc8 virtual false final false
- ::UnityEngine::InputSystem::Utilities::____UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion Overlap(::UnityEngine::InputSystem::Utilities::____UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion other) ;
+ UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion Overlap(UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion other) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -101,7 +100,7 @@ namespace UnityEngine::InputSystem::Utilities {
 class CORDL_TYPE MemoryHelpers : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using BitRegion = ::UnityEngine::InputSystem::Utilities::____UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion;
+using BitRegion = UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -137,7 +136,7 @@ constexpr explicit MemoryHelpers(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 // Methods
 
 /// @brief Method Compare addr 0x2980adc size 0x44 virtual false final false
-static bool Compare(void* ptr1, void* ptr2, ::UnityEngine::InputSystem::Utilities::____UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion region) ;
+static bool Compare(void* ptr1, void* ptr2, UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion region) ;
 
 /// @brief Method ComputeFollowingByteOffset addr 0x2980c90 size 0x10 virtual false final false
 static uint32_t ComputeFollowingByteOffset(uint32_t byteOffset, uint32_t sizeInBits) ;
@@ -198,7 +197,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Utilities
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Utilities::MemoryHelpers);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Utilities::MemoryHelpers, "UnityEngine.InputSystem.Utilities", "MemoryHelpers");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Utilities::____UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion, "UnityEngine.InputSystem.Utilities", "MemoryHelpers/BitRegion");
+NEED_NO_BOX(UnityEngine::InputSystem::Utilities::MemoryHelpers);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Utilities::MemoryHelpers, "UnityEngine.InputSystem.Utilities", "MemoryHelpers");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion, "UnityEngine.InputSystem.Utilities", "MemoryHelpers/BitRegion");

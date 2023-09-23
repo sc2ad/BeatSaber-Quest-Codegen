@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
 class IDisposable;
 }
@@ -21,8 +20,8 @@ namespace Mono {
 struct CORDL_TYPE SafeStringMarshal : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const;
 
 // Ctor Parameters [CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "marshaled_string", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
 constexpr SafeStringMarshal(::StringW str, ::cordl_internals::intptr_t marshaled_string) noexcept;
@@ -100,5 +99,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Mono
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Mono::SafeStringMarshal, "Mono", "SafeStringMarshal");
+DEFINE_IL2CPP_ARG_TYPE(Mono::SafeStringMarshal, "Mono", "SafeStringMarshal");

@@ -4,13 +4,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Mono::Globalization::Unicode {
 class CodePointIndexer;
 }
 namespace Mono::Globalization::Unicode {
-struct ____Mono__Globalization__Unicode__CodePointIndexer__TableRange;
+struct Mono__Globalization__Unicode__CodePointIndexer__TableRange;
 }
 // Type: ::TableRange
 namespace Mono::Globalization::Unicode {
@@ -18,20 +17,20 @@ namespace Mono::Globalization::Unicode {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2257))
 // CS Name: Mono.Globalization.Unicode.CodePointIndexer::TableRange
-struct CORDL_TYPE ____Mono__Globalization__Unicode__CodePointIndexer__TableRange : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Mono__Globalization__Unicode__CodePointIndexer__TableRange : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "Start", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "End", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Count", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "IndexStart", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "IndexEnd", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____Mono__Globalization__Unicode__CodePointIndexer__TableRange(int32_t Start, int32_t End, int32_t Count, int32_t IndexStart, int32_t IndexEnd) noexcept;
+constexpr Mono__Globalization__Unicode__CodePointIndexer__TableRange(int32_t Start, int32_t End, int32_t Count, int32_t IndexStart, int32_t IndexEnd) noexcept;
 
 
-                    constexpr ____Mono__Globalization__Unicode__CodePointIndexer__TableRange(____Mono__Globalization__Unicode__CodePointIndexer__TableRange const&) = default;
-                    constexpr ____Mono__Globalization__Unicode__CodePointIndexer__TableRange(____Mono__Globalization__Unicode__CodePointIndexer__TableRange&&) = default;
-                    constexpr ____Mono__Globalization__Unicode__CodePointIndexer__TableRange& operator=(____Mono__Globalization__Unicode__CodePointIndexer__TableRange const& o) {
+                    constexpr Mono__Globalization__Unicode__CodePointIndexer__TableRange(Mono__Globalization__Unicode__CodePointIndexer__TableRange const&) = default;
+                    constexpr Mono__Globalization__Unicode__CodePointIndexer__TableRange(Mono__Globalization__Unicode__CodePointIndexer__TableRange&&) = default;
+                    constexpr Mono__Globalization__Unicode__CodePointIndexer__TableRange& operator=(Mono__Globalization__Unicode__CodePointIndexer__TableRange const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____Mono__Globalization__Unicode__CodePointIndexer__TableRange& operator=(____Mono__Globalization__Unicode__CodePointIndexer__TableRange&& o) noexcept {
+                    constexpr Mono__Globalization__Unicode__CodePointIndexer__TableRange& operator=(Mono__Globalization__Unicode__CodePointIndexer__TableRange&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -44,7 +43,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x14};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____Mono__Globalization__Unicode__CodePointIndexer__TableRange(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit Mono__Globalization__Unicode__CodePointIndexer__TableRange(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -104,7 +103,7 @@ namespace Mono::Globalization::Unicode {
 class CORDL_TYPE CodePointIndexer : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using TableRange = ::Mono::Globalization::Unicode::____Mono__Globalization__Unicode__CodePointIndexer__TableRange;
+using TableRange = Mono::Globalization::Unicode::Mono__Globalization__Unicode__CodePointIndexer__TableRange;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -139,11 +138,11 @@ constexpr explicit CodePointIndexer(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
- ::ArrayW<::Mono::Globalization::Unicode::____Mono__Globalization__Unicode__CodePointIndexer__TableRange> __declspec(property(get=__get_ranges, put=__set_ranges))  ranges;
+ ::ArrayW<Mono::Globalization::Unicode::Mono__Globalization__Unicode__CodePointIndexer__TableRange> __declspec(property(get=__get_ranges, put=__set_ranges))  ranges;
 
-constexpr void __set_ranges(::ArrayW<::Mono::Globalization::Unicode::____Mono__Globalization__Unicode__CodePointIndexer__TableRange> value) ;
+constexpr void __set_ranges(::ArrayW<Mono::Globalization::Unicode::Mono__Globalization__Unicode__CodePointIndexer__TableRange> value) ;
 
-constexpr ::ArrayW<::Mono::Globalization::Unicode::____Mono__Globalization__Unicode__CodePointIndexer__TableRange> __get_ranges() const;
+constexpr ::ArrayW<Mono::Globalization::Unicode::Mono__Globalization__Unicode__CodePointIndexer__TableRange> __get_ranges() const;
 
  int32_t __declspec(property(get=__get_TotalCount, put=__set_TotalCount))  TotalCount;
 
@@ -179,7 +178,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Globalization::Unicode
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Globalization::Unicode::CodePointIndexer);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Globalization::Unicode::CodePointIndexer, "Mono.Globalization.Unicode", "CodePointIndexer");
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Globalization::Unicode::____Mono__Globalization__Unicode__CodePointIndexer__TableRange, "Mono.Globalization.Unicode", "CodePointIndexer/TableRange");
+NEED_NO_BOX(Mono::Globalization::Unicode::CodePointIndexer);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::CodePointIndexer, "Mono.Globalization.Unicode", "CodePointIndexer");
+DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::Mono__Globalization__Unicode__CodePointIndexer__TableRange, "Mono.Globalization.Unicode", "CodePointIndexer/TableRange");

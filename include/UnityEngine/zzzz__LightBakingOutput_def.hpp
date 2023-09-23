@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct MixedLightingMode;
-}
 namespace UnityEngine {
 struct LightmapBakeType;
+}
+namespace UnityEngine {
+struct MixedLightingMode;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -22,8 +21,8 @@ namespace UnityEngine {
 struct CORDL_TYPE LightBakingOutput : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "probeOcclusionLightIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "occlusionMaskChannel", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lightmapBakeType", ty: "::UnityEngine::LightmapBakeType", modifiers: "", def_value: None }, CppParam { name: "mixedLightingMode", ty: "::UnityEngine::MixedLightingMode", modifiers: "", def_value: None }, CppParam { name: "isBaked", ty: "bool", modifiers: "", def_value: None }]
-constexpr LightBakingOutput(int32_t probeOcclusionLightIndex, int32_t occlusionMaskChannel, ::UnityEngine::LightmapBakeType lightmapBakeType, ::UnityEngine::MixedLightingMode mixedLightingMode, bool isBaked) noexcept;
+// Ctor Parameters [CppParam { name: "probeOcclusionLightIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "occlusionMaskChannel", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lightmapBakeType", ty: "UnityEngine::LightmapBakeType", modifiers: "", def_value: None }, CppParam { name: "mixedLightingMode", ty: "UnityEngine::MixedLightingMode", modifiers: "", def_value: None }, CppParam { name: "isBaked", ty: "bool", modifiers: "", def_value: None }]
+constexpr LightBakingOutput(int32_t probeOcclusionLightIndex, int32_t occlusionMaskChannel, UnityEngine::LightmapBakeType lightmapBakeType, UnityEngine::MixedLightingMode mixedLightingMode, bool isBaked) noexcept;
 
 
                     constexpr LightBakingOutput(LightBakingOutput const&) = default;
@@ -68,17 +67,17 @@ constexpr void __set_occlusionMaskChannel(int32_t value) ;
 
 constexpr int32_t __get_occlusionMaskChannel() const;
 
- ::UnityEngine::LightmapBakeType __declspec(property(get=__get_lightmapBakeType, put=__set_lightmapBakeType))  lightmapBakeType;
+ UnityEngine::LightmapBakeType __declspec(property(get=__get_lightmapBakeType, put=__set_lightmapBakeType))  lightmapBakeType;
 
-constexpr void __set_lightmapBakeType(::UnityEngine::LightmapBakeType value) ;
+constexpr void __set_lightmapBakeType(UnityEngine::LightmapBakeType value) ;
 
-constexpr ::UnityEngine::LightmapBakeType __get_lightmapBakeType() const;
+constexpr UnityEngine::LightmapBakeType __get_lightmapBakeType() const;
 
- ::UnityEngine::MixedLightingMode __declspec(property(get=__get_mixedLightingMode, put=__set_mixedLightingMode))  mixedLightingMode;
+ UnityEngine::MixedLightingMode __declspec(property(get=__get_mixedLightingMode, put=__set_mixedLightingMode))  mixedLightingMode;
 
-constexpr void __set_mixedLightingMode(::UnityEngine::MixedLightingMode value) ;
+constexpr void __set_mixedLightingMode(UnityEngine::MixedLightingMode value) ;
 
-constexpr ::UnityEngine::MixedLightingMode __get_mixedLightingMode() const;
+constexpr UnityEngine::MixedLightingMode __get_mixedLightingMode() const;
 
  bool __declspec(property(get=__get_isBaked, put=__set_isBaked))  isBaked;
 
@@ -90,5 +89,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::LightBakingOutput, "UnityEngine", "LightBakingOutput");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LightBakingOutput, "UnityEngine", "LightBakingOutput");

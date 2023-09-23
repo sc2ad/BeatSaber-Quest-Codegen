@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
 struct ProjectionAxis;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field X offset 0
-static ::UnityEngine::ProBuilder::ProjectionAxis const X;
+static UnityEngine::ProBuilder::ProjectionAxis const X;
 
 /// @brief Field Y offset 0
-static ::UnityEngine::ProBuilder::ProjectionAxis const Y;
+static UnityEngine::ProBuilder::ProjectionAxis const Y;
 
 /// @brief Field Z offset 0
-static ::UnityEngine::ProBuilder::ProjectionAxis const Z;
+static UnityEngine::ProBuilder::ProjectionAxis const Z;
 
 /// @brief Field XNegative offset 0
-static ::UnityEngine::ProBuilder::ProjectionAxis const XNegative;
+static UnityEngine::ProBuilder::ProjectionAxis const XNegative;
 
 /// @brief Field YNegative offset 0
-static ::UnityEngine::ProBuilder::ProjectionAxis const YNegative;
+static UnityEngine::ProBuilder::ProjectionAxis const YNegative;
 
 /// @brief Field ZNegative offset 0
-static ::UnityEngine::ProBuilder::ProjectionAxis const ZNegative;
+static UnityEngine::ProBuilder::ProjectionAxis const ZNegative;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::ProjectionAxis, "UnityEngine.ProBuilder", "ProjectionAxis");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ProjectionAxis, "UnityEngine.ProBuilder", "ProjectionAxis");

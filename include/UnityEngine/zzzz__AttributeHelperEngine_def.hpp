@@ -3,7 +3,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
+namespace UnityEngine {
+class DisallowMultipleComponent;
+}
 namespace UnityEngine {
 class RequireComponent;
 }
@@ -12,9 +14,6 @@ class Type;
 }
 namespace UnityEngine {
 class ExecuteInEditMode;
-}
-namespace UnityEngine {
-class DisallowMultipleComponent;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -62,50 +61,49 @@ constexpr explicit AttributeHelperEngine(void* ptr) noexcept : ::bs_hook::Il2Cpp
 
 // Fields
 
-static ::ArrayW<::UnityEngine::DisallowMultipleComponent> __declspec(property(get=__get__disallowMultipleComponentArray, put=__set__disallowMultipleComponentArray))  _disallowMultipleComponentArray;
+static ::ArrayW<UnityEngine::DisallowMultipleComponent> __declspec(property(get=__get__disallowMultipleComponentArray, put=__set__disallowMultipleComponentArray))  _disallowMultipleComponentArray;
 
-static void __set__disallowMultipleComponentArray(::ArrayW<::UnityEngine::DisallowMultipleComponent> value) ;
+static void __set__disallowMultipleComponentArray(::ArrayW<UnityEngine::DisallowMultipleComponent> value) ;
 
-static ::ArrayW<::UnityEngine::DisallowMultipleComponent> __get__disallowMultipleComponentArray() ;
+static ::ArrayW<UnityEngine::DisallowMultipleComponent> __get__disallowMultipleComponentArray() ;
 
-static ::ArrayW<::UnityEngine::ExecuteInEditMode> __declspec(property(get=__get__executeInEditModeArray, put=__set__executeInEditModeArray))  _executeInEditModeArray;
+static ::ArrayW<UnityEngine::ExecuteInEditMode> __declspec(property(get=__get__executeInEditModeArray, put=__set__executeInEditModeArray))  _executeInEditModeArray;
 
-static void __set__executeInEditModeArray(::ArrayW<::UnityEngine::ExecuteInEditMode> value) ;
+static void __set__executeInEditModeArray(::ArrayW<UnityEngine::ExecuteInEditMode> value) ;
 
-static ::ArrayW<::UnityEngine::ExecuteInEditMode> __get__executeInEditModeArray() ;
+static ::ArrayW<UnityEngine::ExecuteInEditMode> __get__executeInEditModeArray() ;
 
-static ::ArrayW<::UnityEngine::RequireComponent> __declspec(property(get=__get__requireComponentArray, put=__set__requireComponentArray))  _requireComponentArray;
+static ::ArrayW<UnityEngine::RequireComponent> __declspec(property(get=__get__requireComponentArray, put=__set__requireComponentArray))  _requireComponentArray;
 
-static void __set__requireComponentArray(::ArrayW<::UnityEngine::RequireComponent> value) ;
+static void __set__requireComponentArray(::ArrayW<UnityEngine::RequireComponent> value) ;
 
-static ::ArrayW<::UnityEngine::RequireComponent> __get__requireComponentArray() ;
+static ::ArrayW<UnityEngine::RequireComponent> __get__requireComponentArray() ;
 
 
 // Methods
 
 /// @brief Method GetParentTypeDisallowingMultipleInclusion addr 0x2b55ffc size 0x100 virtual false final false
-static ::System::Type GetParentTypeDisallowingMultipleInclusion(::System::Type type) ;
+static System::Type GetParentTypeDisallowingMultipleInclusion(System::Type type) ;
 
 /// @brief Method GetRequiredComponents addr 0x2b560fc size 0x43c virtual false final false
-static ::ArrayW<::System::Type> GetRequiredComponents(::System::Type klass) ;
+static ::ArrayW<System::Type> GetRequiredComponents(System::Type klass) ;
 
 /// @brief Method GetExecuteMode addr 0x2b56538 size 0x114 virtual false final false
-static int32_t GetExecuteMode(::System::Type klass) ;
+static int32_t GetExecuteMode(System::Type klass) ;
 
 /// @brief Method CheckIsEditorScript addr 0x2b5664c size 0xe0 virtual false final false
-static int32_t CheckIsEditorScript(::System::Type klass) ;
+static int32_t CheckIsEditorScript(System::Type klass) ;
 
 /// @brief Method GetDefaultExecutionOrderFor addr 0x2b5672c size 0x78 virtual false final false
-static int32_t GetDefaultExecutionOrderFor(::System::Type klass) ;
+static int32_t GetDefaultExecutionOrderFor(System::Type klass) ;
 
 /// @brief Method GetCustomAttributeOfType addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static T GetCustomAttributeOfType(::System::Type klass) ;
+static T GetCustomAttributeOfType(System::Type klass) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AttributeHelperEngine);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AttributeHelperEngine, "UnityEngine", "AttributeHelperEngine");
+NEED_NO_BOX(UnityEngine::AttributeHelperEngine);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AttributeHelperEngine, "UnityEngine", "AttributeHelperEngine");

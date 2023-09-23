@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
+namespace Org::BouncyCastle::Crypto::Tls {
+class DatagramTransport;
+}
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCloseable;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class DtlsRecordLayer;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class DatagramTransport;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -26,11 +25,11 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE DtlsTransport : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Tls::DatagramTransport
-constexpr operator  ::Org::BouncyCastle::Crypto::Tls::DatagramTransport() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Tls::DatagramTransport
+constexpr operator  Org::BouncyCastle::Crypto::Tls::DatagramTransport() const noexcept;
 
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Tls::TlsCloseable
-constexpr operator  ::Org::BouncyCastle::Crypto::Tls::TlsCloseable() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Tls::TlsCloseable
+constexpr operator  Org::BouncyCastle::Crypto::Tls::TlsCloseable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -65,20 +64,20 @@ constexpr explicit DtlsTransport(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 
 // Fields
 
- ::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer __declspec(property(get=__get_mRecordLayer, put=__set_mRecordLayer))  mRecordLayer;
+ Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer __declspec(property(get=__get_mRecordLayer, put=__set_mRecordLayer))  mRecordLayer;
 
-constexpr void __set_mRecordLayer(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer value) ;
+constexpr void __set_mRecordLayer(Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer __get_mRecordLayer() const;
+constexpr Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer __get_mRecordLayer() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "recordLayer", ty: "::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer", modifiers: "", def_value: None }]
-explicit DtlsTransport(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer recordLayer) ;
+// Ctor Parameters [CppParam { name: "recordLayer", ty: "Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer", modifiers: "", def_value: None }]
+explicit DtlsTransport(Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer recordLayer) ;
 
 /// @brief Method .ctor addr 0xf03a70 size 0x28 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer recordLayer) ;
+ void _ctor(Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer recordLayer) ;
 
 /// @brief Method GetReceiveLimit addr 0xf03a98 size 0x24 virtual true final false
  int32_t GetReceiveLimit() ;
@@ -99,6 +98,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::DtlsTransport);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::DtlsTransport, "Org.BouncyCastle.Crypto.Tls", "DtlsTransport");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::DtlsTransport);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::DtlsTransport, "Org.BouncyCastle.Crypto.Tls", "DtlsTransport");

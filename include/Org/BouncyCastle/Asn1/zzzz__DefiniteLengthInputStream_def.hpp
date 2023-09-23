@@ -3,7 +3,6 @@
 #include "Org/BouncyCastle/Asn1/zzzz__LimitedInputStream_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::IO {
 class Stream;
 }
@@ -17,7 +16,7 @@ namespace Org::BouncyCastle::Asn1 {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(500))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(501))
 // CS Name: Org.BouncyCastle.Asn1.DefiniteLengthInputStream
-class CORDL_TYPE DefiniteLengthInputStream : public ::Org::BouncyCastle::Asn1::LimitedInputStream {
+class CORDL_TYPE DefiniteLengthInputStream : public Org::BouncyCastle::Asn1::LimitedInputStream {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr DefiniteLengthInputStream(DefiniteLengthInputStream const& ) noexcept 
 constexpr DefiniteLengthInputStream(DefiniteLengthInputStream&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DefiniteLengthInputStream(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::LimitedInputStream(ptr) {
+constexpr explicit DefiniteLengthInputStream(void* ptr) noexcept : Org::BouncyCastle::Asn1::LimitedInputStream(ptr) {
 }
 
 
@@ -79,11 +78,11 @@ constexpr int32_t __get__remaining() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "inStream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "limit", ty: "int32_t", modifiers: "", def_value: None }]
-explicit DefiniteLengthInputStream(::System::IO::Stream inStream, int32_t length, int32_t limit) ;
+// Ctor Parameters [CppParam { name: "inStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "limit", ty: "int32_t", modifiers: "", def_value: None }]
+explicit DefiniteLengthInputStream(System::IO::Stream inStream, int32_t length, int32_t limit) ;
 
 /// @brief Method .ctor addr 0x112956c size 0xc8 virtual false final false
- void _ctor(::System::IO::Stream inStream, int32_t length, int32_t limit) ;
+ void _ctor(System::IO::Stream inStream, int32_t length, int32_t limit) ;
 
 /// @brief Method get_Remaining addr 0x1134fcc size 0x8 virtual false final false
  int32_t get_Remaining() ;
@@ -104,6 +103,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::DefiniteLengthInputStream);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::DefiniteLengthInputStream, "Org.BouncyCastle.Asn1", "DefiniteLengthInputStream");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::DefiniteLengthInputStream);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DefiniteLengthInputStream, "Org.BouncyCastle.Asn1", "DefiniteLengthInputStream");

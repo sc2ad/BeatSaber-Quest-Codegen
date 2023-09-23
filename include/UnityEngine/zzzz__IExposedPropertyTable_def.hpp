@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace {
-namespace UnityEngine {
-class Object;
-}
 namespace UnityEngine {
 struct PropertyName;
+}
+namespace UnityEngine {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -31,12 +30,11 @@ constexpr explicit IExposedPropertyTable(void* ptr) noexcept : ::cordl_internals
 // Methods
 
 /// @brief Method GetReferenceValue addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Object GetReferenceValue(::UnityEngine::PropertyName id, ByRef<bool> idValid) ;
+ UnityEngine::Object GetReferenceValue(UnityEngine::PropertyName id, ByRef<bool> idValid) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::IExposedPropertyTable);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::IExposedPropertyTable, "UnityEngine", "IExposedPropertyTable");
+NEED_NO_BOX(UnityEngine::IExposedPropertyTable);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::IExposedPropertyTable, "UnityEngine", "IExposedPropertyTable");

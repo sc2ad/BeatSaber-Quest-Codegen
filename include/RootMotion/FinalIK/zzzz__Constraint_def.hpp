@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 class Transform;
 }
@@ -52,11 +51,11 @@ constexpr explicit Constraint(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType
 
 // Fields
 
- ::UnityEngine::Transform __declspec(property(get=__get_transform, put=__set_transform))  transform;
+ UnityEngine::Transform __declspec(property(get=__get_transform, put=__set_transform))  transform;
 
-constexpr void __set_transform(::UnityEngine::Transform value) ;
+constexpr void __set_transform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_transform() const;
+constexpr UnityEngine::Transform __get_transform() const;
 
  float_t __declspec(property(get=__get_weight, put=__set_weight))  weight;
 
@@ -88,6 +87,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::Constraint);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::Constraint, "RootMotion.FinalIK", "Constraint");
+NEED_NO_BOX(RootMotion::FinalIK::Constraint);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Constraint, "RootMotion.FinalIK", "Constraint");

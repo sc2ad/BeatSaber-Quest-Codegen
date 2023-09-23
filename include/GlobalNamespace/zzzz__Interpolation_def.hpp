@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
 struct EaseType;
 }
@@ -53,12 +52,11 @@ constexpr explicit Interpolation(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 // Methods
 
 /// @brief Method Interpolate addr 0x28799f4 size 0x4a0 virtual false final false
-static float_t Interpolate(float_t t, ::GlobalNamespace::EaseType easeType) ;
+static float_t Interpolate(float_t t, GlobalNamespace::EaseType easeType) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::Interpolation);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::Interpolation, "", "Interpolation");
+NEED_NO_BOX(GlobalNamespace::Interpolation);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Interpolation, "", "Interpolation");

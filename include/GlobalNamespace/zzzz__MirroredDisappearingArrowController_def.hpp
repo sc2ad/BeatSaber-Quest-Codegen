@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__DisappearingArrowControllerBase_1_def.hpp"
 #include "GlobalNamespace/zzzz__MirroredGameNoteController_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class MirroredGameNoteController;
 }
@@ -13,10 +12,10 @@ class MirroredDisappearingArrowController;
 // Type: ::MirroredDisappearingArrowController
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4871)), TypeDefinitionIndex(TypeDefinitionIndex(4858)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4858), inst: 332 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4858)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4858), inst: 332 }), TypeDefinitionIndex(TypeDefinitionIndex(4871))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4869))
 // CS Name: MirroredDisappearingArrowController
-class CORDL_TYPE MirroredDisappearingArrowController : public ::GlobalNamespace::DisappearingArrowControllerBase_1<::GlobalNamespace::MirroredGameNoteController> {
+class CORDL_TYPE MirroredDisappearingArrowController : public GlobalNamespace::DisappearingArrowControllerBase_1<GlobalNamespace::MirroredGameNoteController> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr MirroredDisappearingArrowController(MirroredDisappearingArrowControlle
 constexpr MirroredDisappearingArrowController(MirroredDisappearingArrowController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MirroredDisappearingArrowController(void* ptr) noexcept : ::GlobalNamespace::DisappearingArrowControllerBase_1<::GlobalNamespace::MirroredGameNoteController>(ptr) {
+constexpr explicit MirroredDisappearingArrowController(void* ptr) noexcept : GlobalNamespace::DisappearingArrowControllerBase_1<GlobalNamespace::MirroredGameNoteController>(ptr) {
 }
 
 
@@ -52,22 +51,22 @@ constexpr explicit MirroredDisappearingArrowController(void* ptr) noexcept : ::G
 
 // Fields
 
- ::GlobalNamespace::MirroredGameNoteController __declspec(property(get=__get__mirroredGameNoteController, put=__set__mirroredGameNoteController))  _mirroredGameNoteController;
+ GlobalNamespace::MirroredGameNoteController __declspec(property(get=__get__mirroredGameNoteController, put=__set__mirroredGameNoteController))  _mirroredGameNoteController;
 
-constexpr void __set__mirroredGameNoteController(::GlobalNamespace::MirroredGameNoteController value) ;
+constexpr void __set__mirroredGameNoteController(GlobalNamespace::MirroredGameNoteController value) ;
 
-constexpr ::GlobalNamespace::MirroredGameNoteController __get__mirroredGameNoteController() const;
+constexpr GlobalNamespace::MirroredGameNoteController __get__mirroredGameNoteController() const;
 
 
 // Properties
 
- ::GlobalNamespace::MirroredGameNoteController __declspec(property(get=get_gameNoteController))  gameNoteController;
+ GlobalNamespace::MirroredGameNoteController __declspec(property(get=get_gameNoteController))  gameNoteController;
 
 
 // Methods
 
 /// @brief Method get_gameNoteController addr 0x223d544 size 0x8 virtual true final false
- ::GlobalNamespace::MirroredGameNoteController get_gameNoteController() ;
+ GlobalNamespace::MirroredGameNoteController get_gameNoteController() ;
 
 // Ctor Parameters []
 explicit MirroredDisappearingArrowController() ;
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MirroredDisappearingArrowController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MirroredDisappearingArrowController, "", "MirroredDisappearingArrowController");
+NEED_NO_BOX(GlobalNamespace::MirroredDisappearingArrowController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirroredDisappearingArrowController, "", "MirroredDisappearingArrowController");

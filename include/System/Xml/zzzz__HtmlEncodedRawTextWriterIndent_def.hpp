@@ -3,15 +3,14 @@
 #include "System/Xml/zzzz__HtmlEncodedRawTextWriter_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::IO {
 class TextWriter;
 }
-namespace System::IO {
-class Stream;
-}
 namespace System::Xml {
 class XmlWriterSettings;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -23,7 +22,7 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11358))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11359))
 // CS Name: System.Xml.HtmlEncodedRawTextWriterIndent
-class CORDL_TYPE HtmlEncodedRawTextWriterIndent : public ::System::Xml::HtmlEncodedRawTextWriter {
+class CORDL_TYPE HtmlEncodedRawTextWriterIndent : public System::Xml::HtmlEncodedRawTextWriter {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr HtmlEncodedRawTextWriterIndent(HtmlEncodedRawTextWriterIndent const& )
 constexpr HtmlEncodedRawTextWriterIndent(HtmlEncodedRawTextWriterIndent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HtmlEncodedRawTextWriterIndent(void* ptr) noexcept : ::System::Xml::HtmlEncodedRawTextWriter(ptr) {
+constexpr explicit HtmlEncodedRawTextWriterIndent(void* ptr) noexcept : System::Xml::HtmlEncodedRawTextWriter(ptr) {
 }
 
 
@@ -86,17 +85,17 @@ constexpr bool __get_newLineOnAttributes() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "writer", ty: "::System::IO::TextWriter", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "::System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
-explicit HtmlEncodedRawTextWriterIndent(::System::IO::TextWriter writer, ::System::Xml::XmlWriterSettings settings) ;
+// Ctor Parameters [CppParam { name: "writer", ty: "System::IO::TextWriter", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
+explicit HtmlEncodedRawTextWriterIndent(System::IO::TextWriter writer, System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method .ctor addr 0x26bf0f4 size 0x48 virtual false final false
- void _ctor(::System::IO::TextWriter writer, ::System::Xml::XmlWriterSettings settings) ;
+ void _ctor(System::IO::TextWriter writer, System::Xml::XmlWriterSettings settings) ;
 
-// Ctor Parameters [CppParam { name: "stream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "::System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
-explicit HtmlEncodedRawTextWriterIndent(::System::IO::Stream stream, ::System::Xml::XmlWriterSettings settings) ;
+// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
+explicit HtmlEncodedRawTextWriterIndent(System::IO::Stream stream, System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method .ctor addr 0x26bf164 size 0x48 virtual false final false
- void _ctor(::System::IO::Stream stream, ::System::Xml::XmlWriterSettings settings) ;
+ void _ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method WriteDocType addr 0x26bf1ac size 0x1c virtual true final false
  void WriteDocType(::StringW name, ::StringW pubid, ::StringW sysid, ::StringW subset) ;
@@ -117,7 +116,7 @@ explicit HtmlEncodedRawTextWriterIndent(::System::IO::Stream stream, ::System::X
  void FlushBuffer() ;
 
 /// @brief Method Init addr 0x26bf13c size 0x28 virtual false final false
- void Init(::System::Xml::XmlWriterSettings settings) ;
+ void Init(System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method WriteIndent addr 0x26bf37c size 0x48 virtual false final false
  void WriteIndent() ;
@@ -126,6 +125,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::HtmlEncodedRawTextWriterIndent);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::HtmlEncodedRawTextWriterIndent, "System.Xml", "HtmlEncodedRawTextWriterIndent");
+NEED_NO_BOX(System::Xml::HtmlEncodedRawTextWriterIndent);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::HtmlEncodedRawTextWriterIndent, "System.Xml", "HtmlEncodedRawTextWriterIndent");

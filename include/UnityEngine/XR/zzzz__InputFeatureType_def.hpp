@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::XR {
 struct InputFeatureType;
@@ -76,41 +75,40 @@ constexpr void __set_value__(uint32_t value) ;
 constexpr uint32_t __get_value__() const;
 
 /// @brief Field Custom offset 0
-static ::UnityEngine::XR::InputFeatureType const Custom;
+static UnityEngine::XR::InputFeatureType const Custom;
 
 /// @brief Field Binary offset 0
-static ::UnityEngine::XR::InputFeatureType const Binary;
+static UnityEngine::XR::InputFeatureType const Binary;
 
 /// @brief Field DiscreteStates offset 0
-static ::UnityEngine::XR::InputFeatureType const DiscreteStates;
+static UnityEngine::XR::InputFeatureType const DiscreteStates;
 
 /// @brief Field Axis1D offset 0
-static ::UnityEngine::XR::InputFeatureType const Axis1D;
+static UnityEngine::XR::InputFeatureType const Axis1D;
 
 /// @brief Field Axis2D offset 0
-static ::UnityEngine::XR::InputFeatureType const Axis2D;
+static UnityEngine::XR::InputFeatureType const Axis2D;
 
 /// @brief Field Axis3D offset 0
-static ::UnityEngine::XR::InputFeatureType const Axis3D;
+static UnityEngine::XR::InputFeatureType const Axis3D;
 
 /// @brief Field Rotation offset 0
-static ::UnityEngine::XR::InputFeatureType const Rotation;
+static UnityEngine::XR::InputFeatureType const Rotation;
 
 /// @brief Field Hand offset 0
-static ::UnityEngine::XR::InputFeatureType const Hand;
+static UnityEngine::XR::InputFeatureType const Hand;
 
 /// @brief Field Bone offset 0
-static ::UnityEngine::XR::InputFeatureType const Bone;
+static UnityEngine::XR::InputFeatureType const Bone;
 
 /// @brief Field Eyes offset 0
-static ::UnityEngine::XR::InputFeatureType const Eyes;
+static UnityEngine::XR::InputFeatureType const Eyes;
 
 /// @brief Field kUnityXRInputFeatureTypeInvalid offset 0
-static ::UnityEngine::XR::InputFeatureType const kUnityXRInputFeatureTypeInvalid;
+static UnityEngine::XR::InputFeatureType const kUnityXRInputFeatureTypeInvalid;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::InputFeatureType, "UnityEngine.XR", "InputFeatureType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::InputFeatureType, "UnityEngine.XR", "InputFeatureType");

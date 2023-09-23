@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Newtonsoft::Json::Linq::JsonPath {
 struct QueryOperator;
 }
@@ -54,28 +53,28 @@ constexpr explicit QueryExpression(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Fields
 
- ::Newtonsoft::Json::Linq::JsonPath::QueryOperator __declspec(property(get=__get__Operator_k__BackingField, put=__set__Operator_k__BackingField))  _Operator_k__BackingField;
+ Newtonsoft::Json::Linq::JsonPath::QueryOperator __declspec(property(get=__get__Operator_k__BackingField, put=__set__Operator_k__BackingField))  _Operator_k__BackingField;
 
-constexpr void __set__Operator_k__BackingField(::Newtonsoft::Json::Linq::JsonPath::QueryOperator value) ;
+constexpr void __set__Operator_k__BackingField(Newtonsoft::Json::Linq::JsonPath::QueryOperator value) ;
 
-constexpr ::Newtonsoft::Json::Linq::JsonPath::QueryOperator __get__Operator_k__BackingField() const;
+constexpr Newtonsoft::Json::Linq::JsonPath::QueryOperator __get__Operator_k__BackingField() const;
 
 
 // Properties
 
- ::Newtonsoft::Json::Linq::JsonPath::QueryOperator __declspec(property(get=get_Operator, put=set_Operator))  Operator;
+ Newtonsoft::Json::Linq::JsonPath::QueryOperator __declspec(property(get=get_Operator, put=set_Operator))  Operator;
 
 
 // Methods
 
 /// @brief Method get_Operator addr 0x2539234 size 0x8 virtual false final false
- ::Newtonsoft::Json::Linq::JsonPath::QueryOperator get_Operator() ;
+ Newtonsoft::Json::Linq::JsonPath::QueryOperator get_Operator() ;
 
 /// @brief Method set_Operator addr 0x253923c size 0x8 virtual false final false
- void set_Operator(::Newtonsoft::Json::Linq::JsonPath::QueryOperator value) ;
+ void set_Operator(Newtonsoft::Json::Linq::JsonPath::QueryOperator value) ;
 
 /// @brief Method IsMatch addr 0x0 size 0xffffffffffffffff virtual true final false
- bool IsMatch(::Newtonsoft::Json::Linq::JToken t) ;
+ bool IsMatch(Newtonsoft::Json::Linq::JToken t) ;
 
 // Ctor Parameters []
 explicit QueryExpression() ;
@@ -87,6 +86,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Linq::JsonPath
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Linq::JsonPath::QueryExpression);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Linq::JsonPath::QueryExpression, "Newtonsoft.Json.Linq.JsonPath", "QueryExpression");
+NEED_NO_BOX(Newtonsoft::Json::Linq::JsonPath::QueryExpression);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Linq::JsonPath::QueryExpression, "Newtonsoft.Json.Linq.JsonPath", "QueryExpression");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HAPI_CurveOrders;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field HAPI_CURVE_ORDER_VARYING offset 0
-static ::HoudiniEngineUnity::HAPI_CurveOrders const HAPI_CURVE_ORDER_VARYING;
+static HoudiniEngineUnity::HAPI_CurveOrders const HAPI_CURVE_ORDER_VARYING;
 
 /// @brief Field HAPI_CURVE_ORDER_INVALID offset 0
-static ::HoudiniEngineUnity::HAPI_CurveOrders const HAPI_CURVE_ORDER_INVALID;
+static HoudiniEngineUnity::HAPI_CurveOrders const HAPI_CURVE_ORDER_INVALID;
 
 /// @brief Field HAPI_CURVE_ORDER_LINEAR offset 0
-static ::HoudiniEngineUnity::HAPI_CurveOrders const HAPI_CURVE_ORDER_LINEAR;
+static HoudiniEngineUnity::HAPI_CurveOrders const HAPI_CURVE_ORDER_LINEAR;
 
 /// @brief Field HAPI_CURVE_ORDER_QUADRATIC offset 0
-static ::HoudiniEngineUnity::HAPI_CurveOrders const HAPI_CURVE_ORDER_QUADRATIC;
+static HoudiniEngineUnity::HAPI_CurveOrders const HAPI_CURVE_ORDER_QUADRATIC;
 
 /// @brief Field HAPI_CURVE_ORDER_CUBIC offset 0
-static ::HoudiniEngineUnity::HAPI_CurveOrders const HAPI_CURVE_ORDER_CUBIC;
+static HoudiniEngineUnity::HAPI_CurveOrders const HAPI_CURVE_ORDER_CUBIC;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_CurveOrders, "HoudiniEngineUnity", "HAPI_CurveOrders");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_CurveOrders, "HoudiniEngineUnity", "HAPI_CurveOrders");

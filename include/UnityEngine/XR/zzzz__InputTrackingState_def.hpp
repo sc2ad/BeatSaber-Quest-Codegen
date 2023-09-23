@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::XR {
 struct InputTrackingState;
@@ -73,32 +72,31 @@ constexpr void __set_value__(uint32_t value) ;
 constexpr uint32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::XR::InputTrackingState const None;
+static UnityEngine::XR::InputTrackingState const None;
 
 /// @brief Field Position offset 0
-static ::UnityEngine::XR::InputTrackingState const Position;
+static UnityEngine::XR::InputTrackingState const Position;
 
 /// @brief Field Rotation offset 0
-static ::UnityEngine::XR::InputTrackingState const Rotation;
+static UnityEngine::XR::InputTrackingState const Rotation;
 
 /// @brief Field Velocity offset 0
-static ::UnityEngine::XR::InputTrackingState const Velocity;
+static UnityEngine::XR::InputTrackingState const Velocity;
 
 /// @brief Field AngularVelocity offset 0
-static ::UnityEngine::XR::InputTrackingState const AngularVelocity;
+static UnityEngine::XR::InputTrackingState const AngularVelocity;
 
 /// @brief Field Acceleration offset 0
-static ::UnityEngine::XR::InputTrackingState const Acceleration;
+static UnityEngine::XR::InputTrackingState const Acceleration;
 
 /// @brief Field AngularAcceleration offset 0
-static ::UnityEngine::XR::InputTrackingState const AngularAcceleration;
+static UnityEngine::XR::InputTrackingState const AngularAcceleration;
 
 /// @brief Field All offset 0
-static ::UnityEngine::XR::InputTrackingState const All;
+static UnityEngine::XR::InputTrackingState const All;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::InputTrackingState, "UnityEngine.XR", "InputTrackingState");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::InputTrackingState, "UnityEngine.XR", "InputTrackingState");

@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__BlockedUser_def.hpp"
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_def.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class BlockedUserList;
@@ -14,7 +13,7 @@ namespace Oculus::Platform::Models {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13395)), TypeDefinitionIndex(TypeDefinitionIndex(13410)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1131 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13396))
 // CS Name: Oculus.Platform.Models.BlockedUserList
-class CORDL_TYPE BlockedUserList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::BlockedUser> {
+class CORDL_TYPE BlockedUserList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::BlockedUser> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr BlockedUserList(BlockedUserList const& ) noexcept = default;
 constexpr BlockedUserList(BlockedUserList&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BlockedUserList(void* ptr) noexcept : ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::BlockedUser>(ptr) {
+constexpr explicit BlockedUserList(void* ptr) noexcept : Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::BlockedUser>(ptr) {
 }
 
 
@@ -60,6 +59,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::BlockedUserList);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::BlockedUserList, "Oculus.Platform.Models", "BlockedUserList");
+NEED_NO_BOX(Oculus::Platform::Models::BlockedUserList);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::BlockedUserList, "Oculus.Platform.Models", "BlockedUserList");

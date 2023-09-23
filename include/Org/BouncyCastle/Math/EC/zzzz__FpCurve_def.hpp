@@ -3,21 +3,20 @@
 #include "Org/BouncyCastle/Math/EC/zzzz__AbstractFpCurve_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
+namespace Org::BouncyCastle::Math::EC {
+class ECFieldElement;
+}
 namespace Org::BouncyCastle::Math::EC {
 class FpPoint;
 }
 namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
-}
-namespace Org::BouncyCastle::Math::EC {
 class ECCurve;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECFieldElement;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECPoint;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC {
@@ -29,7 +28,7 @@ namespace Org::BouncyCastle::Math::EC {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1364))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1566))
 // CS Name: Org.BouncyCastle.Math.EC.FpCurve
-class CORDL_TYPE FpCurve : public ::Org::BouncyCastle::Math::EC::AbstractFpCurve {
+class CORDL_TYPE FpCurve : public Org::BouncyCastle::Math::EC::AbstractFpCurve {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -44,7 +43,7 @@ constexpr FpCurve(FpCurve const& ) noexcept = default;
 constexpr FpCurve(FpCurve&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FpCurve(void* ptr) noexcept : ::Org::BouncyCastle::Math::EC::AbstractFpCurve(ptr) {
+constexpr explicit FpCurve(void* ptr) noexcept : Org::BouncyCastle::Math::EC::AbstractFpCurve(ptr) {
 }
 
 
@@ -68,91 +67,90 @@ constexpr explicit FpCurve(void* ptr) noexcept : ::Org::BouncyCastle::Math::EC::
 /// @brief Field FP_DEFAULT_COORDS offset 0
 static constexpr int32_t  FP_DEFAULT_COORDS{4};
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_m_q, put=__set_m_q))  m_q;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_m_q, put=__set_m_q))  m_q;
 
-constexpr void __set_m_q(::Org::BouncyCastle::Math::BigInteger value) ;
+constexpr void __set_m_q(Org::BouncyCastle::Math::BigInteger value) ;
 
-constexpr ::Org::BouncyCastle::Math::BigInteger __get_m_q() const;
+constexpr Org::BouncyCastle::Math::BigInteger __get_m_q() const;
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_m_r, put=__set_m_r))  m_r;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_m_r, put=__set_m_r))  m_r;
 
-constexpr void __set_m_r(::Org::BouncyCastle::Math::BigInteger value) ;
+constexpr void __set_m_r(Org::BouncyCastle::Math::BigInteger value) ;
 
-constexpr ::Org::BouncyCastle::Math::BigInteger __get_m_r() const;
+constexpr Org::BouncyCastle::Math::BigInteger __get_m_r() const;
 
- ::Org::BouncyCastle::Math::EC::FpPoint __declspec(property(get=__get_m_infinity, put=__set_m_infinity))  m_infinity;
+ Org::BouncyCastle::Math::EC::FpPoint __declspec(property(get=__get_m_infinity, put=__set_m_infinity))  m_infinity;
 
-constexpr void __set_m_infinity(::Org::BouncyCastle::Math::EC::FpPoint value) ;
+constexpr void __set_m_infinity(Org::BouncyCastle::Math::EC::FpPoint value) ;
 
-constexpr ::Org::BouncyCastle::Math::EC::FpPoint __get_m_infinity() const;
+constexpr Org::BouncyCastle::Math::EC::FpPoint __get_m_infinity() const;
 
 
 // Properties
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_Q))  Q;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_Q))  Q;
 
- ::Org::BouncyCastle::Math::EC::ECPoint __declspec(property(get=get_Infinity))  Infinity;
+ Org::BouncyCastle::Math::EC::ECPoint __declspec(property(get=get_Infinity))  Infinity;
 
  int32_t __declspec(property(get=get_FieldSize))  FieldSize;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "q", ty: "::Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "a", ty: "::Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "b", ty: "::Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit FpCurve(::Org::BouncyCastle::Math::BigInteger q, ::Org::BouncyCastle::Math::BigInteger a, ::Org::BouncyCastle::Math::BigInteger b) ;
+// Ctor Parameters [CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "a", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "b", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
+explicit FpCurve(Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger a, Org::BouncyCastle::Math::BigInteger b) ;
 
 /// @brief Method .ctor addr 0xfbfb90 size 0xc virtual false final false
- void _ctor(::Org::BouncyCastle::Math::BigInteger q, ::Org::BouncyCastle::Math::BigInteger a, ::Org::BouncyCastle::Math::BigInteger b) ;
+ void _ctor(Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger a, Org::BouncyCastle::Math::BigInteger b) ;
 
-// Ctor Parameters [CppParam { name: "q", ty: "::Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "a", ty: "::Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "b", ty: "::Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "order", ty: "::Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "cofactor", ty: "::Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit FpCurve(::Org::BouncyCastle::Math::BigInteger q, ::Org::BouncyCastle::Math::BigInteger a, ::Org::BouncyCastle::Math::BigInteger b, ::Org::BouncyCastle::Math::BigInteger order, ::Org::BouncyCastle::Math::BigInteger cofactor) ;
+// Ctor Parameters [CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "a", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "b", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "order", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "cofactor", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
+explicit FpCurve(Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger a, Org::BouncyCastle::Math::BigInteger b, Org::BouncyCastle::Math::BigInteger order, Org::BouncyCastle::Math::BigInteger cofactor) ;
 
 /// @brief Method .ctor addr 0xfbfb9c size 0xf8 virtual false final false
- void _ctor(::Org::BouncyCastle::Math::BigInteger q, ::Org::BouncyCastle::Math::BigInteger a, ::Org::BouncyCastle::Math::BigInteger b, ::Org::BouncyCastle::Math::BigInteger order, ::Org::BouncyCastle::Math::BigInteger cofactor) ;
+ void _ctor(Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger a, Org::BouncyCastle::Math::BigInteger b, Org::BouncyCastle::Math::BigInteger order, Org::BouncyCastle::Math::BigInteger cofactor) ;
 
-// Ctor Parameters [CppParam { name: "q", ty: "::Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "r", ty: "::Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "a", ty: "::Org::BouncyCastle::Math::EC::ECFieldElement", modifiers: "", def_value: None }, CppParam { name: "b", ty: "::Org::BouncyCastle::Math::EC::ECFieldElement", modifiers: "", def_value: None }]
-explicit FpCurve(::Org::BouncyCastle::Math::BigInteger q, ::Org::BouncyCastle::Math::BigInteger r, ::Org::BouncyCastle::Math::EC::ECFieldElement a, ::Org::BouncyCastle::Math::EC::ECFieldElement b) ;
+// Ctor Parameters [CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "r", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "a", ty: "Org::BouncyCastle::Math::EC::ECFieldElement", modifiers: "", def_value: None }, CppParam { name: "b", ty: "Org::BouncyCastle::Math::EC::ECFieldElement", modifiers: "", def_value: None }]
+explicit FpCurve(Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger r, Org::BouncyCastle::Math::EC::ECFieldElement a, Org::BouncyCastle::Math::EC::ECFieldElement b) ;
 
 /// @brief Method .ctor addr 0xfbfe44 size 0xc virtual false final false
- void _ctor(::Org::BouncyCastle::Math::BigInteger q, ::Org::BouncyCastle::Math::BigInteger r, ::Org::BouncyCastle::Math::EC::ECFieldElement a, ::Org::BouncyCastle::Math::EC::ECFieldElement b) ;
+ void _ctor(Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger r, Org::BouncyCastle::Math::EC::ECFieldElement a, Org::BouncyCastle::Math::EC::ECFieldElement b) ;
 
-// Ctor Parameters [CppParam { name: "q", ty: "::Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "r", ty: "::Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "a", ty: "::Org::BouncyCastle::Math::EC::ECFieldElement", modifiers: "", def_value: None }, CppParam { name: "b", ty: "::Org::BouncyCastle::Math::EC::ECFieldElement", modifiers: "", def_value: None }, CppParam { name: "order", ty: "::Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "cofactor", ty: "::Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit FpCurve(::Org::BouncyCastle::Math::BigInteger q, ::Org::BouncyCastle::Math::BigInteger r, ::Org::BouncyCastle::Math::EC::ECFieldElement a, ::Org::BouncyCastle::Math::EC::ECFieldElement b, ::Org::BouncyCastle::Math::BigInteger order, ::Org::BouncyCastle::Math::BigInteger cofactor) ;
+// Ctor Parameters [CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "r", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "a", ty: "Org::BouncyCastle::Math::EC::ECFieldElement", modifiers: "", def_value: None }, CppParam { name: "b", ty: "Org::BouncyCastle::Math::EC::ECFieldElement", modifiers: "", def_value: None }, CppParam { name: "order", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "cofactor", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
+explicit FpCurve(Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger r, Org::BouncyCastle::Math::EC::ECFieldElement a, Org::BouncyCastle::Math::EC::ECFieldElement b, Org::BouncyCastle::Math::BigInteger order, Org::BouncyCastle::Math::BigInteger cofactor) ;
 
 /// @brief Method .ctor addr 0xfbfe50 size 0xc4 virtual false final false
- void _ctor(::Org::BouncyCastle::Math::BigInteger q, ::Org::BouncyCastle::Math::BigInteger r, ::Org::BouncyCastle::Math::EC::ECFieldElement a, ::Org::BouncyCastle::Math::EC::ECFieldElement b, ::Org::BouncyCastle::Math::BigInteger order, ::Org::BouncyCastle::Math::BigInteger cofactor) ;
+ void _ctor(Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger r, Org::BouncyCastle::Math::EC::ECFieldElement a, Org::BouncyCastle::Math::EC::ECFieldElement b, Org::BouncyCastle::Math::BigInteger order, Org::BouncyCastle::Math::BigInteger cofactor) ;
 
 /// @brief Method CloneCurve addr 0xfbff14 size 0x90 virtual true final false
- ::Org::BouncyCastle::Math::EC::ECCurve CloneCurve() ;
+ Org::BouncyCastle::Math::EC::ECCurve CloneCurve() ;
 
 /// @brief Method SupportsCoordinateSystem addr 0xfbffa4 size 0x20 virtual true final false
  bool SupportsCoordinateSystem(int32_t coord) ;
 
 /// @brief Method get_Q addr 0xfbffc4 size 0x8 virtual true final false
- ::Org::BouncyCastle::Math::BigInteger get_Q() ;
+ Org::BouncyCastle::Math::BigInteger get_Q() ;
 
 /// @brief Method get_Infinity addr 0xfbffcc size 0x8 virtual true final false
- ::Org::BouncyCastle::Math::EC::ECPoint get_Infinity() ;
+ Org::BouncyCastle::Math::EC::ECPoint get_Infinity() ;
 
 /// @brief Method get_FieldSize addr 0xfbffd4 size 0x1c virtual true final false
  int32_t get_FieldSize() ;
 
 /// @brief Method FromBigInteger addr 0xfbfff0 size 0x78 virtual true final false
- ::Org::BouncyCastle::Math::EC::ECFieldElement FromBigInteger(::Org::BouncyCastle::Math::BigInteger x) ;
+ Org::BouncyCastle::Math::EC::ECFieldElement FromBigInteger(Org::BouncyCastle::Math::BigInteger x) ;
 
 /// @brief Method CreateRawPoint addr 0xfc0124 size 0x88 virtual true final false
- ::Org::BouncyCastle::Math::EC::ECPoint CreateRawPoint(::Org::BouncyCastle::Math::EC::ECFieldElement x, ::Org::BouncyCastle::Math::EC::ECFieldElement y, bool withCompression) ;
+ Org::BouncyCastle::Math::EC::ECPoint CreateRawPoint(Org::BouncyCastle::Math::EC::ECFieldElement x, Org::BouncyCastle::Math::EC::ECFieldElement y, bool withCompression) ;
 
 /// @brief Method CreateRawPoint addr 0xfc01ac size 0x94 virtual true final false
- ::Org::BouncyCastle::Math::EC::ECPoint CreateRawPoint(::Org::BouncyCastle::Math::EC::ECFieldElement x, ::Org::BouncyCastle::Math::EC::ECFieldElement y, ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement> zs, bool withCompression) ;
+ Org::BouncyCastle::Math::EC::ECPoint CreateRawPoint(Org::BouncyCastle::Math::EC::ECFieldElement x, Org::BouncyCastle::Math::EC::ECFieldElement y, ::ArrayW<Org::BouncyCastle::Math::EC::ECFieldElement> zs, bool withCompression) ;
 
 /// @brief Method ImportPoint addr 0xfc024c size 0x224 virtual true final false
- ::Org::BouncyCastle::Math::EC::ECPoint ImportPoint(::Org::BouncyCastle::Math::EC::ECPoint p) ;
+ Org::BouncyCastle::Math::EC::ECPoint ImportPoint(Org::BouncyCastle::Math::EC::ECPoint p) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Math::EC
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Math::EC::FpCurve);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::FpCurve, "Org.BouncyCastle.Math.EC", "FpCurve");
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::FpCurve);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::FpCurve, "Org.BouncyCastle.Math.EC", "FpCurve");

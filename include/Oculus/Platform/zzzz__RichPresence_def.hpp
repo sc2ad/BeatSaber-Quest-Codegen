@@ -1,19 +1,18 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
+namespace Oculus::Platform {
+class Request;
+}
 namespace Oculus::Platform::Models {
 class DestinationList;
-}
-namespace Oculus::Platform {
-template<typename T>
-class Request_1;
 }
 namespace Oculus::Platform {
 class RichPresenceOptions;
 }
 namespace Oculus::Platform {
-class Request;
+template<typename T>
+class Request_1;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -62,21 +61,20 @@ constexpr explicit RichPresence(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 // Methods
 
 /// @brief Method Clear addr 0x2596bdc size 0x148 virtual false final false
-static ::Oculus::Platform::Request Clear() ;
+static Oculus::Platform::Request Clear() ;
 
 /// @brief Method GetDestinations addr 0x2596d24 size 0x15c virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList> GetDestinations() ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::DestinationList> GetDestinations() ;
 
 /// @brief Method Set addr 0x2596e80 size 0x190 virtual false final false
-static ::Oculus::Platform::Request Set(::Oculus::Platform::RichPresenceOptions richPresenceOptions) ;
+static Oculus::Platform::Request Set(Oculus::Platform::RichPresenceOptions richPresenceOptions) ;
 
 /// @brief Method GetNextDestinationListPage addr 0x2597068 size 0x1e0 virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList> GetNextDestinationListPage(::Oculus::Platform::Models::DestinationList list) ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::DestinationList> GetNextDestinationListPage(Oculus::Platform::Models::DestinationList list) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::RichPresence);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::RichPresence, "Oculus.Platform", "RichPresence");
+NEED_NO_BOX(Oculus::Platform::RichPresence);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::RichPresence, "Oculus.Platform", "RichPresence");

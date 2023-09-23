@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HAPI_NodeType;
@@ -76,41 +75,40 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field HAPI_NODETYPE_ANY offset 0
-static ::HoudiniEngineUnity::HAPI_NodeType const HAPI_NODETYPE_ANY;
+static HoudiniEngineUnity::HAPI_NodeType const HAPI_NODETYPE_ANY;
 
 /// @brief Field HAPI_NODETYPE_NONE offset 0
-static ::HoudiniEngineUnity::HAPI_NodeType const HAPI_NODETYPE_NONE;
+static HoudiniEngineUnity::HAPI_NodeType const HAPI_NODETYPE_NONE;
 
 /// @brief Field HAPI_NODETYPE_OBJ offset 0
-static ::HoudiniEngineUnity::HAPI_NodeType const HAPI_NODETYPE_OBJ;
+static HoudiniEngineUnity::HAPI_NodeType const HAPI_NODETYPE_OBJ;
 
 /// @brief Field HAPI_NODETYPE_SOP offset 0
-static ::HoudiniEngineUnity::HAPI_NodeType const HAPI_NODETYPE_SOP;
+static HoudiniEngineUnity::HAPI_NodeType const HAPI_NODETYPE_SOP;
 
 /// @brief Field HAPI_NODETYPE_CHOP offset 0
-static ::HoudiniEngineUnity::HAPI_NodeType const HAPI_NODETYPE_CHOP;
+static HoudiniEngineUnity::HAPI_NodeType const HAPI_NODETYPE_CHOP;
 
 /// @brief Field HAPI_NODETYPE_ROP offset 0
-static ::HoudiniEngineUnity::HAPI_NodeType const HAPI_NODETYPE_ROP;
+static HoudiniEngineUnity::HAPI_NodeType const HAPI_NODETYPE_ROP;
 
 /// @brief Field HAPI_NODETYPE_SHOP offset 0
-static ::HoudiniEngineUnity::HAPI_NodeType const HAPI_NODETYPE_SHOP;
+static HoudiniEngineUnity::HAPI_NodeType const HAPI_NODETYPE_SHOP;
 
 /// @brief Field HAPI_NODETYPE_COP offset 0
-static ::HoudiniEngineUnity::HAPI_NodeType const HAPI_NODETYPE_COP;
+static HoudiniEngineUnity::HAPI_NodeType const HAPI_NODETYPE_COP;
 
 /// @brief Field HAPI_NODETYPE_VOP offset 0
-static ::HoudiniEngineUnity::HAPI_NodeType const HAPI_NODETYPE_VOP;
+static HoudiniEngineUnity::HAPI_NodeType const HAPI_NODETYPE_VOP;
 
 /// @brief Field HAPI_NODETYPE_DOP offset 0
-static ::HoudiniEngineUnity::HAPI_NodeType const HAPI_NODETYPE_DOP;
+static HoudiniEngineUnity::HAPI_NodeType const HAPI_NODETYPE_DOP;
 
 /// @brief Field HAPI_NODETYPE_TOP offset 0
-static ::HoudiniEngineUnity::HAPI_NodeType const HAPI_NODETYPE_TOP;
+static HoudiniEngineUnity::HAPI_NodeType const HAPI_NODETYPE_TOP;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_NodeType, "HoudiniEngineUnity", "HAPI_NodeType");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_NodeType, "HoudiniEngineUnity", "HAPI_NodeType");

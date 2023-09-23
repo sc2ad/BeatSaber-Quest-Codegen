@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem {
 struct InputActionType;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Value offset 0
-static ::UnityEngine::InputSystem::InputActionType const Value;
+static UnityEngine::InputSystem::InputActionType const Value;
 
 /// @brief Field Button offset 0
-static ::UnityEngine::InputSystem::InputActionType const Button;
+static UnityEngine::InputSystem::InputActionType const Button;
 
 /// @brief Field PassThrough offset 0
-static ::UnityEngine::InputSystem::InputActionType const PassThrough;
+static UnityEngine::InputSystem::InputActionType const PassThrough;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::InputActionType, "UnityEngine.InputSystem", "InputActionType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::InputActionType, "UnityEngine.InputSystem", "InputActionType");

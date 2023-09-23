@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Net::Mail {
 class MailAddress;
 }
@@ -55,10 +54,10 @@ constexpr explicit MailAddressParser(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 // Methods
 
 /// @brief Method ParseAddress addr 0x276f624 size 0x30 virtual false final false
-static ::System::Net::Mail::MailAddress ParseAddress(::StringW data) ;
+static System::Net::Mail::MailAddress ParseAddress(::StringW data) ;
 
 /// @brief Method ParseAddress addr 0x276f654 size 0x378 virtual false final false
-static ::System::Net::Mail::MailAddress ParseAddress(::StringW data, bool expectMultipleAddresses, ByRef<int32_t> index) ;
+static System::Net::Mail::MailAddress ParseAddress(::StringW data, bool expectMultipleAddresses, ByRef<int32_t> index) ;
 
 /// @brief Method ReadCfwsAndThrowIfIncomplete addr 0x276f9cc size 0x60 virtual false final false
 static int32_t ReadCfwsAndThrowIfIncomplete(::StringW data, int32_t index) ;
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Mail
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Mail::MailAddressParser);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Mail::MailAddressParser, "System.Net.Mail", "MailAddressParser");
+NEED_NO_BOX(System::Net::Mail::MailAddressParser);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Mail::MailAddressParser, "System.Net.Mail", "MailAddressParser");

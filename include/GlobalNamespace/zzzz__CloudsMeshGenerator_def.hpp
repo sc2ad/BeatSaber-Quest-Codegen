@@ -6,15 +6,14 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
+namespace UnityEngine {
+class Mesh;
+}
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
-class MeshFilter;
-}
-namespace UnityEngine {
-class Mesh;
+class Gradient;
 }
 namespace UnityEngine {
 class AnimationCurve;
@@ -23,7 +22,7 @@ namespace UnityEngine {
 struct Bounds;
 }
 namespace UnityEngine {
-class Gradient;
+class MeshFilter;
 }
 namespace UnityEngine {
 class Transform;
@@ -33,16 +32,16 @@ namespace GlobalNamespace {
 class CloudsMeshGenerator;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__CloudsMeshGenerator__Cloud;
+struct GlobalNamespace__CloudsMeshGenerator__Cloud;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius;
+struct GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__CloudsMeshGenerator__RadiusChunk;
+struct GlobalNamespace__CloudsMeshGenerator__RadiusChunk;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__CloudsMeshGenerator__Ring;
+struct GlobalNamespace__CloudsMeshGenerator__Ring;
 }
 // Type: ::Cloud
 namespace GlobalNamespace {
@@ -50,20 +49,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3972))
 // CS Name: CloudsMeshGenerator::Cloud
-struct CORDL_TYPE ____GlobalNamespace__CloudsMeshGenerator__Cloud : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__CloudsMeshGenerator__Cloud : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "precisionOpaqueMesh", ty: "::UnityEngine::Mesh", modifiers: "", def_value: None }, CppParam { name: "lowPolyMesh", ty: "::UnityEngine::Mesh", modifiers: "", def_value: None }, CppParam { name: "sizeModifier", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "bottomThreshold", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "weight", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "precisionVertexCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lowPolyVertexCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "generatedCount", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__CloudsMeshGenerator__Cloud(::UnityEngine::Mesh precisionOpaqueMesh, ::UnityEngine::Mesh lowPolyMesh, float_t sizeModifier, float_t bottomThreshold, int32_t weight, int32_t precisionVertexCount, int32_t lowPolyVertexCount, int32_t generatedCount) noexcept;
+// Ctor Parameters [CppParam { name: "precisionOpaqueMesh", ty: "UnityEngine::Mesh", modifiers: "", def_value: None }, CppParam { name: "lowPolyMesh", ty: "UnityEngine::Mesh", modifiers: "", def_value: None }, CppParam { name: "sizeModifier", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "bottomThreshold", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "weight", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "precisionVertexCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lowPolyVertexCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "generatedCount", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr GlobalNamespace__CloudsMeshGenerator__Cloud(UnityEngine::Mesh precisionOpaqueMesh, UnityEngine::Mesh lowPolyMesh, float_t sizeModifier, float_t bottomThreshold, int32_t weight, int32_t precisionVertexCount, int32_t lowPolyVertexCount, int32_t generatedCount) noexcept;
 
 
-                    constexpr ____GlobalNamespace__CloudsMeshGenerator__Cloud(____GlobalNamespace__CloudsMeshGenerator__Cloud const&) = default;
-                    constexpr ____GlobalNamespace__CloudsMeshGenerator__Cloud(____GlobalNamespace__CloudsMeshGenerator__Cloud&&) = default;
-                    constexpr ____GlobalNamespace__CloudsMeshGenerator__Cloud& operator=(____GlobalNamespace__CloudsMeshGenerator__Cloud const& o) {
+                    constexpr GlobalNamespace__CloudsMeshGenerator__Cloud(GlobalNamespace__CloudsMeshGenerator__Cloud const&) = default;
+                    constexpr GlobalNamespace__CloudsMeshGenerator__Cloud(GlobalNamespace__CloudsMeshGenerator__Cloud&&) = default;
+                    constexpr GlobalNamespace__CloudsMeshGenerator__Cloud& operator=(GlobalNamespace__CloudsMeshGenerator__Cloud const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__CloudsMeshGenerator__Cloud& operator=(____GlobalNamespace__CloudsMeshGenerator__Cloud&& o) noexcept {
+                    constexpr GlobalNamespace__CloudsMeshGenerator__Cloud& operator=(GlobalNamespace__CloudsMeshGenerator__Cloud&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -76,7 +75,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x28};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__CloudsMeshGenerator__Cloud(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__CloudsMeshGenerator__Cloud(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -87,17 +86,17 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Mesh __declspec(property(get=__get_precisionOpaqueMesh, put=__set_precisionOpaqueMesh))  precisionOpaqueMesh;
+ UnityEngine::Mesh __declspec(property(get=__get_precisionOpaqueMesh, put=__set_precisionOpaqueMesh))  precisionOpaqueMesh;
 
-constexpr void __set_precisionOpaqueMesh(::UnityEngine::Mesh value) ;
+constexpr void __set_precisionOpaqueMesh(UnityEngine::Mesh value) ;
 
-constexpr ::UnityEngine::Mesh __get_precisionOpaqueMesh() const;
+constexpr UnityEngine::Mesh __get_precisionOpaqueMesh() const;
 
- ::UnityEngine::Mesh __declspec(property(get=__get_lowPolyMesh, put=__set_lowPolyMesh))  lowPolyMesh;
+ UnityEngine::Mesh __declspec(property(get=__get_lowPolyMesh, put=__set_lowPolyMesh))  lowPolyMesh;
 
-constexpr void __set_lowPolyMesh(::UnityEngine::Mesh value) ;
+constexpr void __set_lowPolyMesh(UnityEngine::Mesh value) ;
 
-constexpr ::UnityEngine::Mesh __get_lowPolyMesh() const;
+constexpr UnityEngine::Mesh __get_lowPolyMesh() const;
 
  float_t __declspec(property(get=__get_sizeModifier, put=__set_sizeModifier))  sizeModifier;
 
@@ -145,20 +144,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3973))
 // CS Name: CloudsMeshGenerator::Ring
-struct CORDL_TYPE ____GlobalNamespace__CloudsMeshGenerator__Ring : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__CloudsMeshGenerator__Ring : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "radius", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "normalizedRadius", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "meshCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cloudIDs", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "sizeMultiplier", ty: "float_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__CloudsMeshGenerator__Ring(float_t radius, float_t normalizedRadius, int32_t meshCount, ::ArrayW<int32_t> cloudIDs, float_t sizeMultiplier) noexcept;
+constexpr GlobalNamespace__CloudsMeshGenerator__Ring(float_t radius, float_t normalizedRadius, int32_t meshCount, ::ArrayW<int32_t> cloudIDs, float_t sizeMultiplier) noexcept;
 
 
-                    constexpr ____GlobalNamespace__CloudsMeshGenerator__Ring(____GlobalNamespace__CloudsMeshGenerator__Ring const&) = default;
-                    constexpr ____GlobalNamespace__CloudsMeshGenerator__Ring(____GlobalNamespace__CloudsMeshGenerator__Ring&&) = default;
-                    constexpr ____GlobalNamespace__CloudsMeshGenerator__Ring& operator=(____GlobalNamespace__CloudsMeshGenerator__Ring const& o) {
+                    constexpr GlobalNamespace__CloudsMeshGenerator__Ring(GlobalNamespace__CloudsMeshGenerator__Ring const&) = default;
+                    constexpr GlobalNamespace__CloudsMeshGenerator__Ring(GlobalNamespace__CloudsMeshGenerator__Ring&&) = default;
+                    constexpr GlobalNamespace__CloudsMeshGenerator__Ring& operator=(GlobalNamespace__CloudsMeshGenerator__Ring const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__CloudsMeshGenerator__Ring& operator=(____GlobalNamespace__CloudsMeshGenerator__Ring&& o) noexcept {
+                    constexpr GlobalNamespace__CloudsMeshGenerator__Ring& operator=(GlobalNamespace__CloudsMeshGenerator__Ring&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -171,7 +170,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x20};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__CloudsMeshGenerator__Ring(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__CloudsMeshGenerator__Ring(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -222,20 +221,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3974))
 // CS Name: CloudsMeshGenerator::ProhibitedRadius
-struct CORDL_TYPE ____GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "transform", ty: "::UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "distance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "radius", ty: "float_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius(::UnityEngine::Transform transform, float_t distance, float_t radius) noexcept;
+// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "distance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "radius", ty: "float_t", modifiers: "", def_value: None }]
+constexpr GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius(UnityEngine::Transform transform, float_t distance, float_t radius) noexcept;
 
 
-                    constexpr ____GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius(____GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius const&) = default;
-                    constexpr ____GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius(____GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius&&) = default;
-                    constexpr ____GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius& operator=(____GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius const& o) {
+                    constexpr GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius(GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius const&) = default;
+                    constexpr GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius(GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius&&) = default;
+                    constexpr GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius& operator=(GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius& operator=(____GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius&& o) noexcept {
+                    constexpr GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius& operator=(GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -248,7 +247,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x10};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -259,11 +258,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Transform __declspec(property(get=__get_transform, put=__set_transform))  transform;
+ UnityEngine::Transform __declspec(property(get=__get_transform, put=__set_transform))  transform;
 
-constexpr void __set_transform(::UnityEngine::Transform value) ;
+constexpr void __set_transform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_transform() const;
+constexpr UnityEngine::Transform __get_transform() const;
 
  float_t __declspec(property(get=__get_distance, put=__set_distance))  distance;
 
@@ -287,20 +286,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3975))
 // CS Name: CloudsMeshGenerator::RadiusChunk
-struct CORDL_TYPE ____GlobalNamespace__CloudsMeshGenerator__RadiusChunk : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__CloudsMeshGenerator__RadiusChunk : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "normalizedStart", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "normalizedEnd", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "absoluteStart", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "absoluteEnd", ty: "float_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__CloudsMeshGenerator__RadiusChunk(float_t normalizedStart, float_t normalizedEnd, float_t absoluteStart, float_t absoluteEnd) noexcept;
+constexpr GlobalNamespace__CloudsMeshGenerator__RadiusChunk(float_t normalizedStart, float_t normalizedEnd, float_t absoluteStart, float_t absoluteEnd) noexcept;
 
 
-                    constexpr ____GlobalNamespace__CloudsMeshGenerator__RadiusChunk(____GlobalNamespace__CloudsMeshGenerator__RadiusChunk const&) = default;
-                    constexpr ____GlobalNamespace__CloudsMeshGenerator__RadiusChunk(____GlobalNamespace__CloudsMeshGenerator__RadiusChunk&&) = default;
-                    constexpr ____GlobalNamespace__CloudsMeshGenerator__RadiusChunk& operator=(____GlobalNamespace__CloudsMeshGenerator__RadiusChunk const& o) {
+                    constexpr GlobalNamespace__CloudsMeshGenerator__RadiusChunk(GlobalNamespace__CloudsMeshGenerator__RadiusChunk const&) = default;
+                    constexpr GlobalNamespace__CloudsMeshGenerator__RadiusChunk(GlobalNamespace__CloudsMeshGenerator__RadiusChunk&&) = default;
+                    constexpr GlobalNamespace__CloudsMeshGenerator__RadiusChunk& operator=(GlobalNamespace__CloudsMeshGenerator__RadiusChunk const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__CloudsMeshGenerator__RadiusChunk& operator=(____GlobalNamespace__CloudsMeshGenerator__RadiusChunk&& o) noexcept {
+                    constexpr GlobalNamespace__CloudsMeshGenerator__RadiusChunk& operator=(GlobalNamespace__CloudsMeshGenerator__RadiusChunk&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -313,7 +312,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x10};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__CloudsMeshGenerator__RadiusChunk(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__CloudsMeshGenerator__RadiusChunk(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -358,16 +357,16 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3976))
 // CS Name: CloudsMeshGenerator
-class CORDL_TYPE CloudsMeshGenerator : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE CloudsMeshGenerator : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using RadiusChunk = ::GlobalNamespace::____GlobalNamespace__CloudsMeshGenerator__RadiusChunk;
+using RadiusChunk = GlobalNamespace::GlobalNamespace__CloudsMeshGenerator__RadiusChunk;
 
-using ProhibitedRadius = ::GlobalNamespace::____GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius;
+using ProhibitedRadius = GlobalNamespace::GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius;
 
-using Ring = ::GlobalNamespace::____GlobalNamespace__CloudsMeshGenerator__Ring;
+using Ring = GlobalNamespace::GlobalNamespace__CloudsMeshGenerator__Ring;
 
-using Cloud = ::GlobalNamespace::____GlobalNamespace__CloudsMeshGenerator__Cloud;
+using Cloud = GlobalNamespace::GlobalNamespace__CloudsMeshGenerator__Cloud;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xe8};
@@ -381,7 +380,7 @@ constexpr CloudsMeshGenerator(CloudsMeshGenerator const& ) noexcept = default;
 constexpr CloudsMeshGenerator(CloudsMeshGenerator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CloudsMeshGenerator(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit CloudsMeshGenerator(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -402,11 +401,11 @@ constexpr explicit CloudsMeshGenerator(void* ptr) noexcept : ::UnityEngine::Mono
 
 // Fields
 
- ::UnityEngine::MeshFilter __declspec(property(get=__get__meshFilter, put=__set__meshFilter))  _meshFilter;
+ UnityEngine::MeshFilter __declspec(property(get=__get__meshFilter, put=__set__meshFilter))  _meshFilter;
 
-constexpr void __set__meshFilter(::UnityEngine::MeshFilter value) ;
+constexpr void __set__meshFilter(UnityEngine::MeshFilter value) ;
 
-constexpr ::UnityEngine::MeshFilter __get__meshFilter() const;
+constexpr UnityEngine::MeshFilter __get__meshFilter() const;
 
  ::StringW __declspec(property(get=__get__meshName, put=__set__meshName))  _meshName;
 
@@ -432,11 +431,11 @@ constexpr void __set__bottomPushDistance(float_t value) ;
 
 constexpr float_t __get__bottomPushDistance() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get__bottomScaleTopBottom, put=__set__bottomScaleTopBottom))  _bottomScaleTopBottom;
+ UnityEngine::Vector2 __declspec(property(get=__get__bottomScaleTopBottom, put=__set__bottomScaleTopBottom))  _bottomScaleTopBottom;
 
-constexpr void __set__bottomScaleTopBottom(::UnityEngine::Vector2 value) ;
+constexpr void __set__bottomScaleTopBottom(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get__bottomScaleTopBottom() const;
+constexpr UnityEngine::Vector2 __get__bottomScaleTopBottom() const;
 
  float_t __declspec(property(get=__get__bottomHorizontalScale, put=__set__bottomHorizontalScale))  _bottomHorizontalScale;
 
@@ -450,17 +449,17 @@ constexpr void __set__drawRingGizmos(bool value) ;
 
 constexpr bool __get__drawRingGizmos() const;
 
- ::ArrayW<::GlobalNamespace::____GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius> __declspec(property(get=__get__prohibitedRadii, put=__set__prohibitedRadii))  _prohibitedRadii;
+ ::ArrayW<GlobalNamespace::GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius> __declspec(property(get=__get__prohibitedRadii, put=__set__prohibitedRadii))  _prohibitedRadii;
 
-constexpr void __set__prohibitedRadii(::ArrayW<::GlobalNamespace::____GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius> value) ;
+constexpr void __set__prohibitedRadii(::ArrayW<GlobalNamespace::GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::____GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius> __get__prohibitedRadii() const;
+constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius> __get__prohibitedRadii() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get__meshSize, put=__set__meshSize))  _meshSize;
+ UnityEngine::Vector2 __declspec(property(get=__get__meshSize, put=__set__meshSize))  _meshSize;
 
-constexpr void __set__meshSize(::UnityEngine::Vector2 value) ;
+constexpr void __set__meshSize(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get__meshSize() const;
+constexpr UnityEngine::Vector2 __get__meshSize() const;
 
  float_t __declspec(property(get=__get__sizeRandomness, put=__set__sizeRandomness))  _sizeRandomness;
 
@@ -480,11 +479,11 @@ constexpr void __set__perMeshRadiusOffset(float_t value) ;
 
 constexpr float_t __get__perMeshRadiusOffset() const;
 
- ::UnityEngine::Gradient __declspec(property(get=__get__possibleColors, put=__set__possibleColors))  _possibleColors;
+ UnityEngine::Gradient __declspec(property(get=__get__possibleColors, put=__set__possibleColors))  _possibleColors;
 
-constexpr void __set__possibleColors(::UnityEngine::Gradient value) ;
+constexpr void __set__possibleColors(UnityEngine::Gradient value) ;
 
-constexpr ::UnityEngine::Gradient __get__possibleColors() const;
+constexpr UnityEngine::Gradient __get__possibleColors() const;
 
  int32_t __declspec(property(get=__get__randomSeed, put=__set__randomSeed))  _randomSeed;
 
@@ -516,23 +515,23 @@ constexpr void __set__meshesPerRadius(float_t value) ;
 
 constexpr float_t __get__meshesPerRadius() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get__radiusCloseFar, put=__set__radiusCloseFar))  _radiusCloseFar;
+ UnityEngine::Vector2 __declspec(property(get=__get__radiusCloseFar, put=__set__radiusCloseFar))  _radiusCloseFar;
 
-constexpr void __set__radiusCloseFar(::UnityEngine::Vector2 value) ;
+constexpr void __set__radiusCloseFar(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get__radiusCloseFar() const;
+constexpr UnityEngine::Vector2 __get__radiusCloseFar() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get__sizeCloseFar, put=__set__sizeCloseFar))  _sizeCloseFar;
+ UnityEngine::Vector2 __declspec(property(get=__get__sizeCloseFar, put=__set__sizeCloseFar))  _sizeCloseFar;
 
-constexpr void __set__sizeCloseFar(::UnityEngine::Vector2 value) ;
+constexpr void __set__sizeCloseFar(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get__sizeCloseFar() const;
+constexpr UnityEngine::Vector2 __get__sizeCloseFar() const;
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get__heightCloseFar, put=__set__heightCloseFar))  _heightCloseFar;
+ UnityEngine::AnimationCurve __declspec(property(get=__get__heightCloseFar, put=__set__heightCloseFar))  _heightCloseFar;
 
-constexpr void __set__heightCloseFar(::UnityEngine::AnimationCurve value) ;
+constexpr void __set__heightCloseFar(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get__heightCloseFar() const;
+constexpr UnityEngine::AnimationCurve __get__heightCloseFar() const;
 
  float_t __declspec(property(get=__get__lowPolyThreshold, put=__set__lowPolyThreshold))  _lowPolyThreshold;
 
@@ -552,11 +551,11 @@ constexpr void __set__curveMesh(bool value) ;
 
 constexpr bool __get__curveMesh() const;
 
- ::ArrayW<::GlobalNamespace::____GlobalNamespace__CloudsMeshGenerator__Cloud> __declspec(property(get=__get__clouds, put=__set__clouds))  _clouds;
+ ::ArrayW<GlobalNamespace::GlobalNamespace__CloudsMeshGenerator__Cloud> __declspec(property(get=__get__clouds, put=__set__clouds))  _clouds;
 
-constexpr void __set__clouds(::ArrayW<::GlobalNamespace::____GlobalNamespace__CloudsMeshGenerator__Cloud> value) ;
+constexpr void __set__clouds(::ArrayW<GlobalNamespace::GlobalNamespace__CloudsMeshGenerator__Cloud> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::____GlobalNamespace__CloudsMeshGenerator__Cloud> __get__clouds() const;
+constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__CloudsMeshGenerator__Cloud> __get__clouds() const;
 
  int32_t __declspec(property(get=__get__meshCount, put=__set__meshCount))  _meshCount;
 
@@ -570,35 +569,35 @@ constexpr void __set__vertexCount(int32_t value) ;
 
 constexpr int32_t __get__vertexCount() const;
 
- ::UnityEngine::Mesh __declspec(property(get=__get__generatedMesh, put=__set__generatedMesh))  _generatedMesh;
+ UnityEngine::Mesh __declspec(property(get=__get__generatedMesh, put=__set__generatedMesh))  _generatedMesh;
 
-constexpr void __set__generatedMesh(::UnityEngine::Mesh value) ;
+constexpr void __set__generatedMesh(UnityEngine::Mesh value) ;
 
-constexpr ::UnityEngine::Mesh __get__generatedMesh() const;
+constexpr UnityEngine::Mesh __get__generatedMesh() const;
 
- ::UnityEngine::Bounds __declspec(property(get=__get__meshBounds, put=__set__meshBounds))  _meshBounds;
+ UnityEngine::Bounds __declspec(property(get=__get__meshBounds, put=__set__meshBounds))  _meshBounds;
 
-constexpr void __set__meshBounds(::UnityEngine::Bounds value) ;
+constexpr void __set__meshBounds(UnityEngine::Bounds value) ;
 
-constexpr ::UnityEngine::Bounds __get__meshBounds() const;
+constexpr UnityEngine::Bounds __get__meshBounds() const;
 
- ::ArrayW<::GlobalNamespace::____GlobalNamespace__CloudsMeshGenerator__RadiusChunk> __declspec(property(get=__get__radiusChunks, put=__set__radiusChunks))  _radiusChunks;
+ ::ArrayW<GlobalNamespace::GlobalNamespace__CloudsMeshGenerator__RadiusChunk> __declspec(property(get=__get__radiusChunks, put=__set__radiusChunks))  _radiusChunks;
 
-constexpr void __set__radiusChunks(::ArrayW<::GlobalNamespace::____GlobalNamespace__CloudsMeshGenerator__RadiusChunk> value) ;
+constexpr void __set__radiusChunks(::ArrayW<GlobalNamespace::GlobalNamespace__CloudsMeshGenerator__RadiusChunk> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::____GlobalNamespace__CloudsMeshGenerator__RadiusChunk> __get__radiusChunks() const;
+constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__CloudsMeshGenerator__RadiusChunk> __get__radiusChunks() const;
 
- ::ArrayW<::GlobalNamespace::____GlobalNamespace__CloudsMeshGenerator__Ring> __declspec(property(get=__get__rings, put=__set__rings))  _rings;
+ ::ArrayW<GlobalNamespace::GlobalNamespace__CloudsMeshGenerator__Ring> __declspec(property(get=__get__rings, put=__set__rings))  _rings;
 
-constexpr void __set__rings(::ArrayW<::GlobalNamespace::____GlobalNamespace__CloudsMeshGenerator__Ring> value) ;
+constexpr void __set__rings(::ArrayW<GlobalNamespace::GlobalNamespace__CloudsMeshGenerator__Ring> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::____GlobalNamespace__CloudsMeshGenerator__Ring> __get__rings() const;
+constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__CloudsMeshGenerator__Ring> __get__rings() const;
 
- ::ArrayW<::GlobalNamespace::____GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius> __declspec(property(get=__get__sortedProhibitedRadii, put=__set__sortedProhibitedRadii))  _sortedProhibitedRadii;
+ ::ArrayW<GlobalNamespace::GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius> __declspec(property(get=__get__sortedProhibitedRadii, put=__set__sortedProhibitedRadii))  _sortedProhibitedRadii;
 
-constexpr void __set__sortedProhibitedRadii(::ArrayW<::GlobalNamespace::____GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius> value) ;
+constexpr void __set__sortedProhibitedRadii(::ArrayW<GlobalNamespace::GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::____GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius> __get__sortedProhibitedRadii() const;
+constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius> __get__sortedProhibitedRadii() const;
 
 
 // Methods
@@ -613,10 +612,9 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::CloudsMeshGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CloudsMeshGenerator, "", "CloudsMeshGenerator");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__CloudsMeshGenerator__Cloud, "", "CloudsMeshGenerator/Cloud");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius, "", "CloudsMeshGenerator/ProhibitedRadius");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__CloudsMeshGenerator__RadiusChunk, "", "CloudsMeshGenerator/RadiusChunk");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__CloudsMeshGenerator__Ring, "", "CloudsMeshGenerator/Ring");
+NEED_NO_BOX(GlobalNamespace::CloudsMeshGenerator);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CloudsMeshGenerator, "", "CloudsMeshGenerator");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__CloudsMeshGenerator__Cloud, "", "CloudsMeshGenerator/Cloud");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius, "", "CloudsMeshGenerator/ProhibitedRadius");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__CloudsMeshGenerator__RadiusChunk, "", "CloudsMeshGenerator/RadiusChunk");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__CloudsMeshGenerator__Ring, "", "CloudsMeshGenerator/Ring");

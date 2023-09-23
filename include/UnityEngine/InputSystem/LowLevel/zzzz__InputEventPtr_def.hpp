@@ -5,7 +5,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 class IEquatable_1;
@@ -26,8 +25,8 @@ namespace UnityEngine::InputSystem::LowLevel {
 struct CORDL_TYPE InputEventPtr : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::InputSystem::LowLevel::InputEventPtr>
+constexpr operator  System::IEquatable_1<UnityEngine::InputSystem::LowLevel::InputEventPtr>() const;
 
 // Ctor Parameters [CppParam { name: "m_EventPtr", ty: "void*", modifiers: "", def_value: None }]
 constexpr InputEventPtr(void* m_EventPtr) noexcept;
@@ -78,7 +77,7 @@ constexpr void* __get_m_EventPtr() const;
 
  int32_t __declspec(property(get=get_id, put=set_id))  id;
 
- ::UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_type))  type;
+ UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_type))  type;
 
  uint32_t __declspec(property(get=get_sizeInBytes))  sizeInBytes;
 
@@ -90,7 +89,7 @@ constexpr void* __get_m_EventPtr() const;
 
  void* __declspec(property(get=get_data))  data;
 
- ::UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_stateFormat))  stateFormat;
+ UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_stateFormat))  stateFormat;
 
  uint32_t __declspec(property(get=get_stateSizeInBytes))  stateSizeInBytes;
 
@@ -118,7 +117,7 @@ constexpr void* __get_m_EventPtr() const;
  void set_id(int32_t value) ;
 
 /// @brief Method get_type addr 0x294e8f8 size 0x18 virtual false final false
- ::UnityEngine::InputSystem::Utilities::FourCC get_type() ;
+ UnityEngine::InputSystem::Utilities::FourCC get_type() ;
 
 /// @brief Method get_sizeInBytes addr 0x2958d84 size 0x18 virtual false final false
  uint32_t get_sizeInBytes() ;
@@ -145,7 +144,7 @@ constexpr void* __get_m_EventPtr() const;
  void* get_data() ;
 
 /// @brief Method get_stateFormat addr 0x2958f4c size 0xfc virtual false final false
- ::UnityEngine::InputSystem::Utilities::FourCC get_stateFormat() ;
+ UnityEngine::InputSystem::Utilities::FourCC get_stateFormat() ;
 
 /// @brief Method get_stateSizeInBytes addr 0x29590e4 size 0x11c virtual false final false
  uint32_t get_stateSizeInBytes() ;
@@ -158,7 +157,7 @@ template<typename TOtherEvent>
  bool IsA() ;
 
 /// @brief Method Next addr 0x295941c size 0x30 virtual false final false
- ::UnityEngine::InputSystem::LowLevel::InputEventPtr Next() ;
+ UnityEngine::InputSystem::LowLevel::InputEventPtr Next() ;
 
 /// @brief Method ToString addr 0x295904c size 0x98 virtual true final false
  ::StringW ToString() ;
@@ -167,7 +166,7 @@ template<typename TOtherEvent>
  void* ToPointer() ;
 
 /// @brief Method Equals addr 0x2959454 size 0x18 virtual true final true
- bool Equals(::UnityEngine::InputSystem::LowLevel::InputEventPtr other) ;
+ bool Equals(UnityEngine::InputSystem::LowLevel::InputEventPtr other) ;
 
 /// @brief Method Equals addr 0x295946c size 0x88 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -176,26 +175,25 @@ template<typename TOtherEvent>
  int32_t GetHashCode() ;
 
 /// @brief Method op_Equality addr 0x29594fc size 0xc virtual false final false
-static bool op_Equality(::UnityEngine::InputSystem::LowLevel::InputEventPtr left, ::UnityEngine::InputSystem::LowLevel::InputEventPtr right) ;
+static bool op_Equality(UnityEngine::InputSystem::LowLevel::InputEventPtr left, UnityEngine::InputSystem::LowLevel::InputEventPtr right) ;
 
 /// @brief Method op_Inequality addr 0x2959508 size 0xc virtual false final false
-static bool op_Inequality(::UnityEngine::InputSystem::LowLevel::InputEventPtr left, ::UnityEngine::InputSystem::LowLevel::InputEventPtr right) ;
+static bool op_Inequality(UnityEngine::InputSystem::LowLevel::InputEventPtr left, UnityEngine::InputSystem::LowLevel::InputEventPtr right) ;
 
 /// @brief Method op_Implicit addr 0x2957e48 size 0x4 virtual false final false
-static ::UnityEngine::InputSystem::LowLevel::InputEventPtr op_Implicit___UnityEngine__InputSystem__LowLevel__InputEventPtr(void* eventPtr) ;
+static UnityEngine::InputSystem::LowLevel::InputEventPtr op_Implicit_UnityEngine__InputSystem__LowLevel__InputEventPtr(void* eventPtr) ;
 
 /// @brief Method From addr 0x2959514 size 0x4 virtual false final false
-static ::UnityEngine::InputSystem::LowLevel::InputEventPtr From(void* eventPtr) ;
+static UnityEngine::InputSystem::LowLevel::InputEventPtr From(void* eventPtr) ;
 
 /// @brief Method op_Implicit addr 0x29587d8 size 0x4 virtual false final false
-static void* op_Implicit_void*(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr) ;
+static void* op_Implicit_void*(UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr) ;
 
 /// @brief Method FromInputEventPtr addr 0x2959518 size 0x4 virtual false final false
-static void* FromInputEventPtr(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr) ;
+static void* FromInputEventPtr(UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::LowLevel
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::InputEventPtr, "UnityEngine.InputSystem.LowLevel", "InputEventPtr");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::LowLevel::InputEventPtr, "UnityEngine.InputSystem.LowLevel", "InputEventPtr");

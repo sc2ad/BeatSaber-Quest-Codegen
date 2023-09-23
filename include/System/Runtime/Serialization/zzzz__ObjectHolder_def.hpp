@@ -4,9 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Runtime::Serialization {
-class LongList;
+class ISerializationSurrogate;
+}
+namespace System::Runtime::Serialization {
+class TypeLoadExceptionHolder;
 }
 namespace System::Runtime::Serialization {
 class ObjectManager;
@@ -18,19 +20,16 @@ namespace System::Runtime::Serialization {
 class FixupHolder;
 }
 namespace System::Runtime::Serialization {
-class ISerializationSurrogate;
-}
-namespace System::Runtime::Serialization {
-class FixupHolderList;
+class ValueTypeFixupInfo;
 }
 namespace System::Reflection {
 class FieldInfo;
 }
 namespace System::Runtime::Serialization {
-class ValueTypeFixupInfo;
+class LongList;
 }
 namespace System::Runtime::Serialization {
-class TypeLoadExceptionHolder;
+class FixupHolderList;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -102,35 +101,35 @@ constexpr void __set_m_missingDecendents(int32_t value) ;
 
 constexpr int32_t __get_m_missingDecendents() const;
 
- ::System::Runtime::Serialization::SerializationInfo __declspec(property(get=__get_m_serInfo, put=__set_m_serInfo))  m_serInfo;
+ System::Runtime::Serialization::SerializationInfo __declspec(property(get=__get_m_serInfo, put=__set_m_serInfo))  m_serInfo;
 
-constexpr void __set_m_serInfo(::System::Runtime::Serialization::SerializationInfo value) ;
+constexpr void __set_m_serInfo(System::Runtime::Serialization::SerializationInfo value) ;
 
-constexpr ::System::Runtime::Serialization::SerializationInfo __get_m_serInfo() const;
+constexpr System::Runtime::Serialization::SerializationInfo __get_m_serInfo() const;
 
- ::System::Runtime::Serialization::ISerializationSurrogate __declspec(property(get=__get_m_surrogate, put=__set_m_surrogate))  m_surrogate;
+ System::Runtime::Serialization::ISerializationSurrogate __declspec(property(get=__get_m_surrogate, put=__set_m_surrogate))  m_surrogate;
 
-constexpr void __set_m_surrogate(::System::Runtime::Serialization::ISerializationSurrogate value) ;
+constexpr void __set_m_surrogate(System::Runtime::Serialization::ISerializationSurrogate value) ;
 
-constexpr ::System::Runtime::Serialization::ISerializationSurrogate __get_m_surrogate() const;
+constexpr System::Runtime::Serialization::ISerializationSurrogate __get_m_surrogate() const;
 
- ::System::Runtime::Serialization::FixupHolderList __declspec(property(get=__get_m_missingElements, put=__set_m_missingElements))  m_missingElements;
+ System::Runtime::Serialization::FixupHolderList __declspec(property(get=__get_m_missingElements, put=__set_m_missingElements))  m_missingElements;
 
-constexpr void __set_m_missingElements(::System::Runtime::Serialization::FixupHolderList value) ;
+constexpr void __set_m_missingElements(System::Runtime::Serialization::FixupHolderList value) ;
 
-constexpr ::System::Runtime::Serialization::FixupHolderList __get_m_missingElements() const;
+constexpr System::Runtime::Serialization::FixupHolderList __get_m_missingElements() const;
 
- ::System::Runtime::Serialization::LongList __declspec(property(get=__get_m_dependentObjects, put=__set_m_dependentObjects))  m_dependentObjects;
+ System::Runtime::Serialization::LongList __declspec(property(get=__get_m_dependentObjects, put=__set_m_dependentObjects))  m_dependentObjects;
 
-constexpr void __set_m_dependentObjects(::System::Runtime::Serialization::LongList value) ;
+constexpr void __set_m_dependentObjects(System::Runtime::Serialization::LongList value) ;
 
-constexpr ::System::Runtime::Serialization::LongList __get_m_dependentObjects() const;
+constexpr System::Runtime::Serialization::LongList __get_m_dependentObjects() const;
 
- ::System::Runtime::Serialization::ObjectHolder __declspec(property(get=__get_m_next, put=__set_m_next))  m_next;
+ System::Runtime::Serialization::ObjectHolder __declspec(property(get=__get_m_next, put=__set_m_next))  m_next;
 
-constexpr void __set_m_next(::System::Runtime::Serialization::ObjectHolder value) ;
+constexpr void __set_m_next(System::Runtime::Serialization::ObjectHolder value) ;
 
-constexpr ::System::Runtime::Serialization::ObjectHolder __get_m_next() const;
+constexpr System::Runtime::Serialization::ObjectHolder __get_m_next() const;
 
  int32_t __declspec(property(get=__get_m_flags, put=__set_m_flags))  m_flags;
 
@@ -144,17 +143,17 @@ constexpr void __set_m_markForFixupWhenAvailable(bool value) ;
 
 constexpr bool __get_m_markForFixupWhenAvailable() const;
 
- ::System::Runtime::Serialization::ValueTypeFixupInfo __declspec(property(get=__get_m_valueFixup, put=__set_m_valueFixup))  m_valueFixup;
+ System::Runtime::Serialization::ValueTypeFixupInfo __declspec(property(get=__get_m_valueFixup, put=__set_m_valueFixup))  m_valueFixup;
 
-constexpr void __set_m_valueFixup(::System::Runtime::Serialization::ValueTypeFixupInfo value) ;
+constexpr void __set_m_valueFixup(System::Runtime::Serialization::ValueTypeFixupInfo value) ;
 
-constexpr ::System::Runtime::Serialization::ValueTypeFixupInfo __get_m_valueFixup() const;
+constexpr System::Runtime::Serialization::ValueTypeFixupInfo __get_m_valueFixup() const;
 
- ::System::Runtime::Serialization::TypeLoadExceptionHolder __declspec(property(get=__get_m_typeLoad, put=__set_m_typeLoad))  m_typeLoad;
+ System::Runtime::Serialization::TypeLoadExceptionHolder __declspec(property(get=__get_m_typeLoad, put=__set_m_typeLoad))  m_typeLoad;
 
-constexpr void __set_m_typeLoad(::System::Runtime::Serialization::TypeLoadExceptionHolder value) ;
+constexpr void __set_m_typeLoad(System::Runtime::Serialization::TypeLoadExceptionHolder value) ;
 
-constexpr ::System::Runtime::Serialization::TypeLoadExceptionHolder __get_m_typeLoad() const;
+constexpr System::Runtime::Serialization::TypeLoadExceptionHolder __get_m_typeLoad() const;
 
  bool __declspec(property(get=__get_m_reachable, put=__set_m_reachable))  m_reachable;
 
@@ -189,19 +188,19 @@ constexpr bool __get_m_reachable() const;
 
  bool __declspec(property(get=get_TypeLoadExceptionReachable))  TypeLoadExceptionReachable;
 
- ::System::Runtime::Serialization::TypeLoadExceptionHolder __declspec(property(get=get_TypeLoadException, put=set_TypeLoadException))  TypeLoadException;
+ System::Runtime::Serialization::TypeLoadExceptionHolder __declspec(property(get=get_TypeLoadException, put=set_TypeLoadException))  TypeLoadException;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_ObjectValue))  ObjectValue;
 
- ::System::Runtime::Serialization::SerializationInfo __declspec(property(get=get_SerializationInfo, put=set_SerializationInfo))  SerializationInfo;
+ System::Runtime::Serialization::SerializationInfo __declspec(property(get=get_SerializationInfo, put=set_SerializationInfo))  SerializationInfo;
 
- ::System::Runtime::Serialization::ISerializationSurrogate __declspec(property(get=get_Surrogate))  Surrogate;
+ System::Runtime::Serialization::ISerializationSurrogate __declspec(property(get=get_Surrogate))  Surrogate;
 
- ::System::Runtime::Serialization::LongList __declspec(property(get=get_DependentObjects, put=set_DependentObjects))  DependentObjects;
+ System::Runtime::Serialization::LongList __declspec(property(get=get_DependentObjects, put=set_DependentObjects))  DependentObjects;
 
  bool __declspec(property(get=get_RequiresSerInfoFixup, put=set_RequiresSerInfoFixup))  RequiresSerInfoFixup;
 
- ::System::Runtime::Serialization::ValueTypeFixupInfo __declspec(property(get=get_ValueFixup))  ValueFixup;
+ System::Runtime::Serialization::ValueTypeFixupInfo __declspec(property(get=get_ValueFixup))  ValueFixup;
 
  bool __declspec(property(get=get_CompletelyFixed))  CompletelyFixed;
 
@@ -216,38 +215,38 @@ explicit ObjectHolder(int64_t objID) ;
 /// @brief Method .ctor addr 0x234cbec size 0x34 virtual false final false
  void _ctor(int64_t objID) ;
 
-// Ctor Parameters [CppParam { name: "obj", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "objID", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "info", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "surrogate", ty: "::System::Runtime::Serialization::ISerializationSurrogate", modifiers: "", def_value: None }, CppParam { name: "idOfContainingObj", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "field", ty: "::System::Reflection::FieldInfo", modifiers: "", def_value: None }, CppParam { name: "arrayIndex", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }]
-explicit ObjectHolder(::bs_hook::Il2CppWrapperType obj, int64_t objID, ::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::ISerializationSurrogate surrogate, int64_t idOfContainingObj, ::System::Reflection::FieldInfo field, ::ArrayW<int32_t> arrayIndex) ;
+// Ctor Parameters [CppParam { name: "obj", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "objID", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "surrogate", ty: "System::Runtime::Serialization::ISerializationSurrogate", modifiers: "", def_value: None }, CppParam { name: "idOfContainingObj", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "field", ty: "System::Reflection::FieldInfo", modifiers: "", def_value: None }, CppParam { name: "arrayIndex", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }]
+explicit ObjectHolder(::bs_hook::Il2CppWrapperType obj, int64_t objID, System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::ISerializationSurrogate surrogate, int64_t idOfContainingObj, System::Reflection::FieldInfo field, ::ArrayW<int32_t> arrayIndex) ;
 
 /// @brief Method .ctor addr 0x234f134 size 0x1dc virtual false final false
- void _ctor(::bs_hook::Il2CppWrapperType obj, int64_t objID, ::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::ISerializationSurrogate surrogate, int64_t idOfContainingObj, ::System::Reflection::FieldInfo field, ::ArrayW<int32_t> arrayIndex) ;
+ void _ctor(::bs_hook::Il2CppWrapperType obj, int64_t objID, System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::ISerializationSurrogate surrogate, int64_t idOfContainingObj, System::Reflection::FieldInfo field, ::ArrayW<int32_t> arrayIndex) ;
 
-// Ctor Parameters [CppParam { name: "obj", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "objID", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "info", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "surrogate", ty: "::System::Runtime::Serialization::ISerializationSurrogate", modifiers: "", def_value: None }, CppParam { name: "idOfContainingObj", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "field", ty: "::System::Reflection::FieldInfo", modifiers: "", def_value: None }, CppParam { name: "arrayIndex", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }]
-explicit ObjectHolder(::StringW obj, int64_t objID, ::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::ISerializationSurrogate surrogate, int64_t idOfContainingObj, ::System::Reflection::FieldInfo field, ::ArrayW<int32_t> arrayIndex) ;
+// Ctor Parameters [CppParam { name: "obj", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "objID", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "surrogate", ty: "System::Runtime::Serialization::ISerializationSurrogate", modifiers: "", def_value: None }, CppParam { name: "idOfContainingObj", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "field", ty: "System::Reflection::FieldInfo", modifiers: "", def_value: None }, CppParam { name: "arrayIndex", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }]
+explicit ObjectHolder(::StringW obj, int64_t objID, System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::ISerializationSurrogate surrogate, int64_t idOfContainingObj, System::Reflection::FieldInfo field, ::ArrayW<int32_t> arrayIndex) ;
 
 /// @brief Method .ctor addr 0x234ea94 size 0xe4 virtual false final false
- void _ctor(::StringW obj, int64_t objID, ::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::ISerializationSurrogate surrogate, int64_t idOfContainingObj, ::System::Reflection::FieldInfo field, ::ArrayW<int32_t> arrayIndex) ;
+ void _ctor(::StringW obj, int64_t objID, System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::ISerializationSurrogate surrogate, int64_t idOfContainingObj, System::Reflection::FieldInfo field, ::ArrayW<int32_t> arrayIndex) ;
 
 /// @brief Method IncrementDescendentFixups addr 0x2350490 size 0x10 virtual false final false
  void IncrementDescendentFixups(int32_t amount) ;
 
 /// @brief Method DecrementFixupsRemaining addr 0x234e7cc size 0x24 virtual false final false
- void DecrementFixupsRemaining(::System::Runtime::Serialization::ObjectManager manager) ;
+ void DecrementFixupsRemaining(System::Runtime::Serialization::ObjectManager manager) ;
 
 /// @brief Method RemoveDependency addr 0x234e7f0 size 0x18 virtual false final false
  void RemoveDependency(int64_t id) ;
 
 /// @brief Method AddFixup addr 0x234fb50 size 0xbc virtual false final false
- void AddFixup(::System::Runtime::Serialization::FixupHolder fixup, ::System::Runtime::Serialization::ObjectManager manager) ;
+ void AddFixup(System::Runtime::Serialization::FixupHolder fixup, System::Runtime::Serialization::ObjectManager manager) ;
 
 /// @brief Method UpdateDescendentDependencyChain addr 0x23504a0 size 0x60 virtual false final false
- void UpdateDescendentDependencyChain(int32_t amount, ::System::Runtime::Serialization::ObjectManager manager) ;
+ void UpdateDescendentDependencyChain(int32_t amount, System::Runtime::Serialization::ObjectManager manager) ;
 
 /// @brief Method AddDependency addr 0x234fc0c size 0x74 virtual false final false
  void AddDependency(int64_t dependentObject) ;
 
 /// @brief Method UpdateData addr 0x234f320 size 0x190 virtual false final false
- void UpdateData(::bs_hook::Il2CppWrapperType obj, ::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::ISerializationSurrogate surrogate, int64_t idOfContainer, ::System::Reflection::FieldInfo field, ::ArrayW<int32_t> arrayIndex, ::System::Runtime::Serialization::ObjectManager manager) ;
+ void UpdateData(::bs_hook::Il2CppWrapperType obj, System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::ISerializationSurrogate surrogate, int64_t idOfContainer, System::Reflection::FieldInfo field, ::ArrayW<int32_t> arrayIndex, System::Runtime::Serialization::ObjectManager manager) ;
 
 /// @brief Method MarkForCompletionWhenAvailable addr 0x234e86c size 0xc virtual false final false
  void MarkForCompletionWhenAvailable() ;
@@ -301,31 +300,31 @@ explicit ObjectHolder(::StringW obj, int64_t objID, ::System::Runtime::Serializa
  bool get_TypeLoadExceptionReachable() ;
 
 /// @brief Method get_TypeLoadException addr 0x2350654 size 0x8 virtual false final false
- ::System::Runtime::Serialization::TypeLoadExceptionHolder get_TypeLoadException() ;
+ System::Runtime::Serialization::TypeLoadExceptionHolder get_TypeLoadException() ;
 
 /// @brief Method set_TypeLoadException addr 0x235065c size 0x8 virtual false final false
- void set_TypeLoadException(::System::Runtime::Serialization::TypeLoadExceptionHolder value) ;
+ void set_TypeLoadException(System::Runtime::Serialization::TypeLoadExceptionHolder value) ;
 
 /// @brief Method get_ObjectValue addr 0x2350664 size 0x8 virtual false final false
  ::bs_hook::Il2CppWrapperType get_ObjectValue() ;
 
 /// @brief Method SetObjectValue addr 0x234d340 size 0xf8 virtual false final false
- void SetObjectValue(::bs_hook::Il2CppWrapperType obj, ::System::Runtime::Serialization::ObjectManager manager) ;
+ void SetObjectValue(::bs_hook::Il2CppWrapperType obj, System::Runtime::Serialization::ObjectManager manager) ;
 
 /// @brief Method get_SerializationInfo addr 0x235066c size 0x8 virtual false final false
- ::System::Runtime::Serialization::SerializationInfo get_SerializationInfo() ;
+ System::Runtime::Serialization::SerializationInfo get_SerializationInfo() ;
 
 /// @brief Method set_SerializationInfo addr 0x2350674 size 0x8 virtual false final false
- void set_SerializationInfo(::System::Runtime::Serialization::SerializationInfo value) ;
+ void set_SerializationInfo(System::Runtime::Serialization::SerializationInfo value) ;
 
 /// @brief Method get_Surrogate addr 0x235067c size 0x8 virtual false final false
- ::System::Runtime::Serialization::ISerializationSurrogate get_Surrogate() ;
+ System::Runtime::Serialization::ISerializationSurrogate get_Surrogate() ;
 
 /// @brief Method get_DependentObjects addr 0x2350684 size 0x8 virtual false final false
- ::System::Runtime::Serialization::LongList get_DependentObjects() ;
+ System::Runtime::Serialization::LongList get_DependentObjects() ;
 
 /// @brief Method set_DependentObjects addr 0x235068c size 0x8 virtual false final false
- void set_DependentObjects(::System::Runtime::Serialization::LongList value) ;
+ void set_DependentObjects(System::Runtime::Serialization::LongList value) ;
 
 /// @brief Method get_RequiresSerInfoFixup addr 0x234f998 size 0x1c virtual false final false
  bool get_RequiresSerInfoFixup() ;
@@ -334,7 +333,7 @@ explicit ObjectHolder(::StringW obj, int64_t objID, ::System::Runtime::Serializa
  void set_RequiresSerInfoFixup(bool value) ;
 
 /// @brief Method get_ValueFixup addr 0x2350694 size 0x8 virtual false final false
- ::System::Runtime::Serialization::ValueTypeFixupInfo get_ValueFixup() ;
+ System::Runtime::Serialization::ValueTypeFixupInfo get_ValueFixup() ;
 
 /// @brief Method get_CompletelyFixed addr 0x234d004 size 0x24 virtual false final false
  bool get_CompletelyFixed() ;
@@ -346,6 +345,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::ObjectHolder);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::ObjectHolder, "System.Runtime.Serialization", "ObjectHolder");
+NEED_NO_BOX(System::Runtime::Serialization::ObjectHolder);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ObjectHolder, "System.Runtime.Serialization", "ObjectHolder");

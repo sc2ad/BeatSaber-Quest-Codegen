@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 // Forward declare root types
 namespace JetBrains::Annotations {
 class ItemNotNullAttribute;
@@ -12,7 +11,7 @@ namespace JetBrains::Annotations {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15680))
 // CS Name: JetBrains.Annotations.ItemNotNullAttribute
-class CORDL_TYPE ItemNotNullAttribute : public ::System::Attribute {
+class CORDL_TYPE ItemNotNullAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr ItemNotNullAttribute(ItemNotNullAttribute const& ) noexcept = default;
 constexpr ItemNotNullAttribute(ItemNotNullAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ItemNotNullAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit ItemNotNullAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def JetBrains::Annotations
-} // end anonymous namespace
-NEED_NO_BOX(::JetBrains::Annotations::ItemNotNullAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::JetBrains::Annotations::ItemNotNullAttribute, "JetBrains.Annotations", "ItemNotNullAttribute");
+NEED_NO_BOX(JetBrains::Annotations::ItemNotNullAttribute);
+DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::ItemNotNullAttribute, "JetBrains.Annotations", "ItemNotNullAttribute");

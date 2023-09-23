@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
-struct Vector4;
+struct Vector2;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Vector4;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -69,18 +68,17 @@ static constexpr float_t  FltCompareResolution{1000};
 static int32_t HashFloat(float_t f) ;
 
 /// @brief Method GetHashCode addr 0x29eab40 size 0x7c virtual false final false
-static int32_t GetHashCode(::UnityEngine::Vector2 v) ;
+static int32_t GetHashCode(UnityEngine::Vector2 v) ;
 
 /// @brief Method GetHashCode addr 0x29d546c size 0xb0 virtual false final false
-static int32_t GetHashCode(::UnityEngine::Vector3 v) ;
+static int32_t GetHashCode(UnityEngine::Vector3 v) ;
 
 /// @brief Method GetHashCode addr 0x29eabbc size 0xe0 virtual false final false
-static int32_t GetHashCode(::UnityEngine::Vector4 v) ;
+static int32_t GetHashCode(UnityEngine::Vector4 v) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::VectorHash);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::VectorHash, "UnityEngine.ProBuilder", "VectorHash");
+NEED_NO_BOX(UnityEngine::ProBuilder::VectorHash);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::VectorHash, "UnityEngine.ProBuilder", "VectorHash");

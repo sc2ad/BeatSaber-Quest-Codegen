@@ -2,22 +2,21 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBadgeDataSO_def.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
-class MultiplayerBadgeAwardData;
+class PlayerDataModel;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
-class PlayerDataModel;
+class MultiplayerBadgeAwardData;
 }
 namespace GlobalNamespace {
 class MultiplayerPlayerResultsData;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,7 +28,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5208))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5200))
 // CS Name: MultiplayerBadgeDataFullComboSO
-class CORDL_TYPE MultiplayerBadgeDataFullComboSO : public ::GlobalNamespace::MultiplayerBadgeDataSO {
+class CORDL_TYPE MultiplayerBadgeDataFullComboSO : public GlobalNamespace::MultiplayerBadgeDataSO {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -44,7 +43,7 @@ constexpr MultiplayerBadgeDataFullComboSO(MultiplayerBadgeDataFullComboSO const&
 constexpr MultiplayerBadgeDataFullComboSO(MultiplayerBadgeDataFullComboSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerBadgeDataFullComboSO(void* ptr) noexcept : ::GlobalNamespace::MultiplayerBadgeDataSO(ptr) {
+constexpr explicit MultiplayerBadgeDataFullComboSO(void* ptr) noexcept : GlobalNamespace::MultiplayerBadgeDataSO(ptr) {
 }
 
 
@@ -75,7 +74,7 @@ constexpr float_t __get__weight() const;
 // Methods
 
 /// @brief Method CalculateBadgeData addr 0x20d8170 size 0x464 virtual true final false
- ::GlobalNamespace::MultiplayerBadgeAwardData CalculateBadgeData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData> resultsData, ::GlobalNamespace::PlayerDataModel playerDataModel, ::GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, float_t randomMultiplier) ;
+ GlobalNamespace::MultiplayerBadgeAwardData CalculateBadgeData(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData> resultsData, GlobalNamespace::PlayerDataModel playerDataModel, GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, float_t randomMultiplier) ;
 
 // Ctor Parameters []
 explicit MultiplayerBadgeDataFullComboSO() ;
@@ -87,6 +86,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerBadgeDataFullComboSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerBadgeDataFullComboSO, "", "MultiplayerBadgeDataFullComboSO");
+NEED_NO_BOX(GlobalNamespace::MultiplayerBadgeDataFullComboSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerBadgeDataFullComboSO, "", "MultiplayerBadgeDataFullComboSO");

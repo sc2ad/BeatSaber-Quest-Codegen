@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::IO {
-class TextWriter;
-}
 namespace Org::BouncyCastle::Utilities::IO::Pem {
 class PemObjectGenerator;
 }
 namespace Org::BouncyCastle::Utilities::IO::Pem {
 class PemObject;
+}
+namespace System::IO {
+class TextWriter;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::IO::Pem {
@@ -63,11 +62,11 @@ constexpr explicit PemWriter(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 /// @brief Field LineLength offset 0
 static constexpr int32_t  LineLength{64};
 
- ::System::IO::TextWriter __declspec(property(get=__get_writer, put=__set_writer))  writer;
+ System::IO::TextWriter __declspec(property(get=__get_writer, put=__set_writer))  writer;
 
-constexpr void __set_writer(::System::IO::TextWriter value) ;
+constexpr void __set_writer(System::IO::TextWriter value) ;
 
-constexpr ::System::IO::TextWriter __get_writer() const;
+constexpr System::IO::TextWriter __get_writer() const;
 
  int32_t __declspec(property(get=__get_nlLength, put=__set_nlLength))  nlLength;
 
@@ -84,25 +83,25 @@ constexpr ::ArrayW<char16_t> __get_buf() const;
 
 // Properties
 
- ::System::IO::TextWriter __declspec(property(get=get_Writer))  Writer;
+ System::IO::TextWriter __declspec(property(get=get_Writer))  Writer;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "writer", ty: "::System::IO::TextWriter", modifiers: "", def_value: None }]
-explicit PemWriter(::System::IO::TextWriter writer) ;
+// Ctor Parameters [CppParam { name: "writer", ty: "System::IO::TextWriter", modifiers: "", def_value: None }]
+explicit PemWriter(System::IO::TextWriter writer) ;
 
 /// @brief Method .ctor addr 0x1047edc size 0xfc virtual false final false
- void _ctor(::System::IO::TextWriter writer) ;
+ void _ctor(System::IO::TextWriter writer) ;
 
 /// @brief Method get_Writer addr 0x1047fd8 size 0x8 virtual false final false
- ::System::IO::TextWriter get_Writer() ;
+ System::IO::TextWriter get_Writer() ;
 
 /// @brief Method GetOutputSize addr 0x1047fe0 size 0x4d8 virtual false final false
- int32_t GetOutputSize(::Org::BouncyCastle::Utilities::IO::Pem::PemObject obj) ;
+ int32_t GetOutputSize(Org::BouncyCastle::Utilities::IO::Pem::PemObject obj) ;
 
 /// @brief Method WriteObject addr 0x10484b8 size 0x54c virtual false final false
- void WriteObject(::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator objGen) ;
+ void WriteObject(Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator objGen) ;
 
 /// @brief Method WriteEncoded addr 0x1048a98 size 0xe0 virtual false final false
  void WriteEncoded(::ArrayW<uint8_t> bytes) ;
@@ -117,6 +116,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities::IO::Pem
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::IO::Pem::PemWriter);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::IO::Pem::PemWriter, "Org.BouncyCastle.Utilities.IO.Pem", "PemWriter");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::IO::Pem::PemWriter);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::Pem::PemWriter, "Org.BouncyCastle.Utilities.IO.Pem", "PemWriter");

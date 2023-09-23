@@ -5,45 +5,44 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
-class PlatformInitialize;
+class HttpTransferUpdate;
 }
 namespace Oculus::Platform {
-struct ____Oculus__Platform__Message__MessageType;
-}
-namespace Oculus::Platform {
-class Message;
+template<typename T>
+class Oculus__Platform__Message_1__Callback;
 }
 namespace Oculus::Platform {
 template<typename T>
 class Request_1;
 }
 namespace Oculus::Platform::Models {
-class HttpTransferUpdate;
-}
-namespace Oculus::Platform {
-template<typename T>
-class ____Oculus__Platform__Message_1__Callback;
+class LinkedAccountList;
 }
 namespace Oculus::Platform {
 struct ServiceProvider;
 }
+namespace Oculus::Platform {
+struct Oculus__Platform__Message__MessageType;
+}
 namespace Oculus::Platform::Models {
-class LinkedAccountList;
+class PlatformInitialize;
+}
+namespace Oculus::Platform {
+class Message;
 }
 // Forward declare root types
 namespace Oculus::Platform {
-struct ____Oculus__Platform__PlatformInternal__MessageTypeInternal;
+struct Oculus__Platform__PlatformInternal__MessageTypeInternal;
+}
+namespace Oculus::Platform {
+class Oculus__Platform__PlatformInternal__HTTP;
+}
+namespace Oculus::Platform {
+class Oculus__Platform__PlatformInternal__Users;
 }
 namespace Oculus::Platform {
 class PlatformInternal;
-}
-namespace Oculus::Platform {
-class ____Oculus__Platform__PlatformInternal__HTTP;
-}
-namespace Oculus::Platform {
-class ____Oculus__Platform__PlatformInternal__Users;
 }
 // Type: ::MessageTypeInternal
 namespace Oculus::Platform {
@@ -51,20 +50,20 @@ namespace Oculus::Platform {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13341))
 // CS Name: Oculus.Platform.PlatformInternal::MessageTypeInternal
-struct CORDL_TYPE ____Oculus__Platform__PlatformInternal__MessageTypeInternal : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE Oculus__Platform__PlatformInternal__MessageTypeInternal : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
-constexpr ____Oculus__Platform__PlatformInternal__MessageTypeInternal(uint32_t value__) noexcept;
+constexpr Oculus__Platform__PlatformInternal__MessageTypeInternal(uint32_t value__) noexcept;
 
 
-                    constexpr ____Oculus__Platform__PlatformInternal__MessageTypeInternal(____Oculus__Platform__PlatformInternal__MessageTypeInternal const&) = default;
-                    constexpr ____Oculus__Platform__PlatformInternal__MessageTypeInternal(____Oculus__Platform__PlatformInternal__MessageTypeInternal&&) = default;
-                    constexpr ____Oculus__Platform__PlatformInternal__MessageTypeInternal& operator=(____Oculus__Platform__PlatformInternal__MessageTypeInternal const& o) {
+                    constexpr Oculus__Platform__PlatformInternal__MessageTypeInternal(Oculus__Platform__PlatformInternal__MessageTypeInternal const&) = default;
+                    constexpr Oculus__Platform__PlatformInternal__MessageTypeInternal(Oculus__Platform__PlatformInternal__MessageTypeInternal&&) = default;
+                    constexpr Oculus__Platform__PlatformInternal__MessageTypeInternal& operator=(Oculus__Platform__PlatformInternal__MessageTypeInternal const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____Oculus__Platform__PlatformInternal__MessageTypeInternal& operator=(____Oculus__Platform__PlatformInternal__MessageTypeInternal&& o) noexcept {
+                    constexpr Oculus__Platform__PlatformInternal__MessageTypeInternal& operator=(Oculus__Platform__PlatformInternal__MessageTypeInternal&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -77,7 +76,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____Oculus__Platform__PlatformInternal__MessageTypeInternal(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit Oculus__Platform__PlatformInternal__MessageTypeInternal(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -85,7 +84,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______Oculus__Platform__PlatformInternal__MessageTypeInternal_Unwrapped : uint32_t {
+enum class __Oculus__Platform__PlatformInternal__MessageTypeInternal_Unwrapped : uint32_t {
 __AbuseReport_LaunchAdvancedReportFlow = 1286683246u,
 __Application_ExecuteCoordinatedLaunch = 645772532u,
 __Application_GetInstalledApplications = 1376744524u,
@@ -154,8 +153,8 @@ __Voip_ReportAppVoipSessions = 408048078u,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______Oculus__Platform__PlatformInternal__MessageTypeInternal_Unwrapped () const noexcept {
-return std::bit_cast<______Oculus__Platform__PlatformInternal__MessageTypeInternal_Unwrapped>(__instance);
+constexpr operator __Oculus__Platform__PlatformInternal__MessageTypeInternal_Unwrapped () const noexcept {
+return std::bit_cast<__Oculus__Platform__PlatformInternal__MessageTypeInternal_Unwrapped>(__instance);
 }
 
 
@@ -168,199 +167,199 @@ constexpr void __set_value__(uint32_t value) ;
 constexpr uint32_t __get_value__() const;
 
 /// @brief Field AbuseReport_LaunchAdvancedReportFlow offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const AbuseReport_LaunchAdvancedReportFlow;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const AbuseReport_LaunchAdvancedReportFlow;
 
 /// @brief Field Application_ExecuteCoordinatedLaunch offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const Application_ExecuteCoordinatedLaunch;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const Application_ExecuteCoordinatedLaunch;
 
 /// @brief Field Application_GetInstalledApplications offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const Application_GetInstalledApplications;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const Application_GetInstalledApplications;
 
 /// @brief Field Avatar_UpdateMetaData offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const Avatar_UpdateMetaData;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const Avatar_UpdateMetaData;
 
 /// @brief Field Cal_FinalizeApplication offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const Cal_FinalizeApplication;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const Cal_FinalizeApplication;
 
 /// @brief Field Cal_GetSuggestedApplications offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const Cal_GetSuggestedApplications;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const Cal_GetSuggestedApplications;
 
 /// @brief Field Cal_ProposeApplication offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const Cal_ProposeApplication;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const Cal_ProposeApplication;
 
 /// @brief Field Colocation_GetCurrentMapUuid offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const Colocation_GetCurrentMapUuid;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const Colocation_GetCurrentMapUuid;
 
 /// @brief Field Colocation_RequestMap offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const Colocation_RequestMap;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const Colocation_RequestMap;
 
 /// @brief Field Colocation_ShareMap offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const Colocation_ShareMap;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const Colocation_ShareMap;
 
 /// @brief Field DeviceApplicationIntegrity_GetAttestationToken offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const DeviceApplicationIntegrity_GetAttestationToken;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const DeviceApplicationIntegrity_GetAttestationToken;
 
 /// @brief Field GraphAPI_Get offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const GraphAPI_Get;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const GraphAPI_Get;
 
 /// @brief Field GraphAPI_Post offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const GraphAPI_Post;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const GraphAPI_Post;
 
 /// @brief Field HTTP_Get offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const HTTP_Get;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const HTTP_Get;
 
 /// @brief Field HTTP_GetToFile offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const HTTP_GetToFile;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const HTTP_GetToFile;
 
 /// @brief Field HTTP_MultiPartPost offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const HTTP_MultiPartPost;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const HTTP_MultiPartPost;
 
 /// @brief Field HTTP_Post offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const HTTP_Post;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const HTTP_Post;
 
 /// @brief Field Livestreaming_IsAllowedForApplication offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const Livestreaming_IsAllowedForApplication;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const Livestreaming_IsAllowedForApplication;
 
 /// @brief Field Livestreaming_StartPartyStream offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const Livestreaming_StartPartyStream;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const Livestreaming_StartPartyStream;
 
 /// @brief Field Livestreaming_StartStream offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const Livestreaming_StartStream;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const Livestreaming_StartStream;
 
 /// @brief Field Livestreaming_StopPartyStream offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const Livestreaming_StopPartyStream;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const Livestreaming_StopPartyStream;
 
 /// @brief Field Livestreaming_StopStream offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const Livestreaming_StopStream;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const Livestreaming_StopStream;
 
 /// @brief Field Livestreaming_UpdateMicStatus offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const Livestreaming_UpdateMicStatus;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const Livestreaming_UpdateMicStatus;
 
 /// @brief Field NetSync_Connect offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const NetSync_Connect;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const NetSync_Connect;
 
 /// @brief Field NetSync_Disconnect offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const NetSync_Disconnect;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const NetSync_Disconnect;
 
 /// @brief Field NetSync_GetSessions offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const NetSync_GetSessions;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const NetSync_GetSessions;
 
 /// @brief Field NetSync_GetVoipAttenuation offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const NetSync_GetVoipAttenuation;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const NetSync_GetVoipAttenuation;
 
 /// @brief Field NetSync_GetVoipAttenuationDefault offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const NetSync_GetVoipAttenuationDefault;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const NetSync_GetVoipAttenuationDefault;
 
 /// @brief Field NetSync_SetVoipAttenuation offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const NetSync_SetVoipAttenuation;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const NetSync_SetVoipAttenuation;
 
 /// @brief Field NetSync_SetVoipAttenuationModel offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const NetSync_SetVoipAttenuationModel;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const NetSync_SetVoipAttenuationModel;
 
 /// @brief Field NetSync_SetVoipChannelCfg offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const NetSync_SetVoipChannelCfg;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const NetSync_SetVoipChannelCfg;
 
 /// @brief Field NetSync_SetVoipGroup offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const NetSync_SetVoipGroup;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const NetSync_SetVoipGroup;
 
 /// @brief Field NetSync_SetVoipListentoChannels offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const NetSync_SetVoipListentoChannels;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const NetSync_SetVoipListentoChannels;
 
 /// @brief Field NetSync_SetVoipMicSource offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const NetSync_SetVoipMicSource;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const NetSync_SetVoipMicSource;
 
 /// @brief Field NetSync_SetVoipSessionMuted offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const NetSync_SetVoipSessionMuted;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const NetSync_SetVoipSessionMuted;
 
 /// @brief Field NetSync_SetVoipSpeaktoChannels offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const NetSync_SetVoipSpeaktoChannels;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const NetSync_SetVoipSpeaktoChannels;
 
 /// @brief Field NetSync_SetVoipStreamMode offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const NetSync_SetVoipStreamMode;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const NetSync_SetVoipStreamMode;
 
 /// @brief Field Party_Create offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const Party_Create;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const Party_Create;
 
 /// @brief Field Party_GatherInApplication offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const Party_GatherInApplication;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const Party_GatherInApplication;
 
 /// @brief Field Party_Get offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const Party_Get;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const Party_Get;
 
 /// @brief Field Party_GetCurrentForUser offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const Party_GetCurrentForUser;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const Party_GetCurrentForUser;
 
 /// @brief Field Party_Invite offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const Party_Invite;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const Party_Invite;
 
 /// @brief Field Party_Join offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const Party_Join;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const Party_Join;
 
 /// @brief Field Party_Leave offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const Party_Leave;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const Party_Leave;
 
 /// @brief Field RichPresence_SetDestination offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const RichPresence_SetDestination;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const RichPresence_SetDestination;
 
 /// @brief Field RichPresence_SetIsJoinable offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const RichPresence_SetIsJoinable;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const RichPresence_SetIsJoinable;
 
 /// @brief Field RichPresence_SetLobbySession offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const RichPresence_SetLobbySession;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const RichPresence_SetLobbySession;
 
 /// @brief Field RichPresence_SetMatchSession offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const RichPresence_SetMatchSession;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const RichPresence_SetMatchSession;
 
 /// @brief Field Room_CreateOrUpdateAndJoinNamed offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const Room_CreateOrUpdateAndJoinNamed;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const Room_CreateOrUpdateAndJoinNamed;
 
 /// @brief Field Room_GetNamedRooms offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const Room_GetNamedRooms;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const Room_GetNamedRooms;
 
 /// @brief Field Room_GetSocialRooms offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const Room_GetSocialRooms;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const Room_GetSocialRooms;
 
 /// @brief Field User_CancelRecordingForReportFlow offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const User_CancelRecordingForReportFlow;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const User_CancelRecordingForReportFlow;
 
 /// @brief Field User_GetLinkedAccounts offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const User_GetLinkedAccounts;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const User_GetLinkedAccounts;
 
 /// @brief Field User_GetUserCapabilities offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const User_GetUserCapabilities;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const User_GetUserCapabilities;
 
 /// @brief Field User_LaunchProfile offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const User_LaunchProfile;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const User_LaunchProfile;
 
 /// @brief Field User_LaunchReportFlow offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const User_LaunchReportFlow;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const User_LaunchReportFlow;
 
 /// @brief Field User_LaunchReportFlow2 offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const User_LaunchReportFlow2;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const User_LaunchReportFlow2;
 
 /// @brief Field User_NewEntitledTestUser offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const User_NewEntitledTestUser;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const User_NewEntitledTestUser;
 
 /// @brief Field User_NewTestUser offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const User_NewTestUser;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const User_NewTestUser;
 
 /// @brief Field User_NewTestUserFriends offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const User_NewTestUserFriends;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const User_NewTestUserFriends;
 
 /// @brief Field User_StartRecordingForReportFlow offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const User_StartRecordingForReportFlow;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const User_StartRecordingForReportFlow;
 
 /// @brief Field User_StopRecordingAndLaunchReportFlow offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const User_StopRecordingAndLaunchReportFlow;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const User_StopRecordingAndLaunchReportFlow;
 
 /// @brief Field User_StopRecordingAndLaunchReportFlow2 offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const User_StopRecordingAndLaunchReportFlow2;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const User_StopRecordingAndLaunchReportFlow2;
 
 /// @brief Field User_TestUserCreateDeviceManifest offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const User_TestUserCreateDeviceManifest;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const User_TestUserCreateDeviceManifest;
 
 /// @brief Field Voip_ReportAppVoipSessions offset 0
-static ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal const Voip_ReportAppVoipSessions;
+static Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal const Voip_ReportAppVoipSessions;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -372,44 +371,44 @@ namespace Oculus::Platform {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13342))
 // CS Name: Oculus.Platform.PlatformInternal::HTTP
-class CORDL_TYPE ____Oculus__Platform__PlatformInternal__HTTP : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Oculus__Platform__PlatformInternal__HTTP : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____Oculus__Platform__PlatformInternal__HTTP() = default;
+virtual ~Oculus__Platform__PlatformInternal__HTTP() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Oculus__Platform__PlatformInternal__HTTP", modifiers: " const&", def_value: None }]
-constexpr ____Oculus__Platform__PlatformInternal__HTTP(____Oculus__Platform__PlatformInternal__HTTP const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Oculus__Platform__PlatformInternal__HTTP", modifiers: " const&", def_value: None }]
+constexpr Oculus__Platform__PlatformInternal__HTTP(Oculus__Platform__PlatformInternal__HTTP const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Oculus__Platform__PlatformInternal__HTTP", modifiers: "&&", def_value: None }]
-constexpr ____Oculus__Platform__PlatformInternal__HTTP(____Oculus__Platform__PlatformInternal__HTTP&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Oculus__Platform__PlatformInternal__HTTP", modifiers: "&&", def_value: None }]
+constexpr Oculus__Platform__PlatformInternal__HTTP(Oculus__Platform__PlatformInternal__HTTP&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Oculus__Platform__PlatformInternal__HTTP(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Oculus__Platform__PlatformInternal__HTTP(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Oculus__Platform__PlatformInternal__HTTP& operator=(std::nullptr_t) noexcept {
+  constexpr Oculus__Platform__PlatformInternal__HTTP& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Oculus__Platform__PlatformInternal__HTTP& operator=(void* o) noexcept {
+  constexpr Oculus__Platform__PlatformInternal__HTTP& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Oculus__Platform__PlatformInternal__HTTP& operator=(____Oculus__Platform__PlatformInternal__HTTP&& o) noexcept = default;
-  constexpr ____Oculus__Platform__PlatformInternal__HTTP& operator=(____Oculus__Platform__PlatformInternal__HTTP const& o) noexcept = default;
+  constexpr Oculus__Platform__PlatformInternal__HTTP& operator=(Oculus__Platform__PlatformInternal__HTTP&& o) noexcept = default;
+  constexpr Oculus__Platform__PlatformInternal__HTTP& operator=(Oculus__Platform__PlatformInternal__HTTP const& o) noexcept = default;
                 
 
 
 // Methods
 
 /// @brief Method SetHttpTransferUpdateCallback addr 0x2598bdc size 0x74 virtual false final false
-static void SetHttpTransferUpdateCallback(::Oculus::Platform::____Oculus__Platform__Message_1__Callback<::Oculus::Platform::Models::HttpTransferUpdate> callback) ;
+static void SetHttpTransferUpdateCallback(Oculus::Platform::Oculus__Platform__Message_1__Callback<Oculus::Platform::Models::HttpTransferUpdate> callback) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -421,44 +420,44 @@ namespace Oculus::Platform {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13343))
 // CS Name: Oculus.Platform.PlatformInternal::Users
-class CORDL_TYPE ____Oculus__Platform__PlatformInternal__Users : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Oculus__Platform__PlatformInternal__Users : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____Oculus__Platform__PlatformInternal__Users() = default;
+virtual ~Oculus__Platform__PlatformInternal__Users() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Oculus__Platform__PlatformInternal__Users", modifiers: " const&", def_value: None }]
-constexpr ____Oculus__Platform__PlatformInternal__Users(____Oculus__Platform__PlatformInternal__Users const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Oculus__Platform__PlatformInternal__Users", modifiers: " const&", def_value: None }]
+constexpr Oculus__Platform__PlatformInternal__Users(Oculus__Platform__PlatformInternal__Users const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Oculus__Platform__PlatformInternal__Users", modifiers: "&&", def_value: None }]
-constexpr ____Oculus__Platform__PlatformInternal__Users(____Oculus__Platform__PlatformInternal__Users&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Oculus__Platform__PlatformInternal__Users", modifiers: "&&", def_value: None }]
+constexpr Oculus__Platform__PlatformInternal__Users(Oculus__Platform__PlatformInternal__Users&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Oculus__Platform__PlatformInternal__Users(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Oculus__Platform__PlatformInternal__Users(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Oculus__Platform__PlatformInternal__Users& operator=(std::nullptr_t) noexcept {
+  constexpr Oculus__Platform__PlatformInternal__Users& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Oculus__Platform__PlatformInternal__Users& operator=(void* o) noexcept {
+  constexpr Oculus__Platform__PlatformInternal__Users& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Oculus__Platform__PlatformInternal__Users& operator=(____Oculus__Platform__PlatformInternal__Users&& o) noexcept = default;
-  constexpr ____Oculus__Platform__PlatformInternal__Users& operator=(____Oculus__Platform__PlatformInternal__Users const& o) noexcept = default;
+  constexpr Oculus__Platform__PlatformInternal__Users& operator=(Oculus__Platform__PlatformInternal__Users&& o) noexcept = default;
+  constexpr Oculus__Platform__PlatformInternal__Users& operator=(Oculus__Platform__PlatformInternal__Users const& o) noexcept = default;
                 
 
 
 // Methods
 
 /// @brief Method GetLinkedAccounts addr 0x2598c50 size 0x1b4 virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LinkedAccountList> GetLinkedAccounts(::ArrayW<::Oculus::Platform::ServiceProvider> providers) ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::LinkedAccountList> GetLinkedAccounts(::ArrayW<Oculus::Platform::ServiceProvider> providers) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -473,11 +472,11 @@ namespace Oculus::Platform {
 class CORDL_TYPE PlatformInternal : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using Users = ::Oculus::Platform::____Oculus__Platform__PlatformInternal__Users;
+using Users = Oculus::Platform::Oculus__Platform__PlatformInternal__Users;
 
-using HTTP = ::Oculus::Platform::____Oculus__Platform__PlatformInternal__HTTP;
+using HTTP = Oculus::Platform::Oculus__Platform__PlatformInternal__HTTP;
 
-using MessageTypeInternal = ::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal;
+using MessageTypeInternal = Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -516,20 +515,19 @@ constexpr explicit PlatformInternal(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 static void CrashApplication() ;
 
 /// @brief Method ParseMessageHandle addr 0x2597f10 size 0xa7c virtual false final false
-static ::Oculus::Platform::Message ParseMessageHandle(::cordl_internals::intptr_t messageHandle, ::Oculus::Platform::____Oculus__Platform__Message__MessageType messageType) ;
+static Oculus::Platform::Message ParseMessageHandle(::cordl_internals::intptr_t messageHandle, Oculus::Platform::Oculus__Platform__Message__MessageType messageType) ;
 
 /// @brief Method InitializeStandaloneAsync addr 0x259898c size 0x158 virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize> InitializeStandaloneAsync(uint64_t appID, ::StringW accessToken) ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::PlatformInitialize> InitializeStandaloneAsync(uint64_t appID, ::StringW accessToken) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::____Oculus__Platform__PlatformInternal__MessageTypeInternal, "Oculus.Platform", "PlatformInternal/MessageTypeInternal");
-NEED_NO_BOX(::Oculus::Platform::PlatformInternal);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::PlatformInternal, "Oculus.Platform", "PlatformInternal");
-NEED_NO_BOX(::Oculus::Platform::____Oculus__Platform__PlatformInternal__HTTP);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::____Oculus__Platform__PlatformInternal__HTTP, "Oculus.Platform", "PlatformInternal/HTTP");
-NEED_NO_BOX(::Oculus::Platform::____Oculus__Platform__PlatformInternal__Users);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::____Oculus__Platform__PlatformInternal__Users, "Oculus.Platform", "PlatformInternal/Users");
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Oculus__Platform__PlatformInternal__MessageTypeInternal, "Oculus.Platform", "PlatformInternal/MessageTypeInternal");
+NEED_NO_BOX(Oculus::Platform::Oculus__Platform__PlatformInternal__HTTP);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Oculus__Platform__PlatformInternal__HTTP, "Oculus.Platform", "PlatformInternal/HTTP");
+NEED_NO_BOX(Oculus::Platform::Oculus__Platform__PlatformInternal__Users);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Oculus__Platform__PlatformInternal__Users, "Oculus.Platform", "PlatformInternal/Users");
+NEED_NO_BOX(Oculus::Platform::PlatformInternal);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PlatformInternal, "Oculus.Platform", "PlatformInternal");

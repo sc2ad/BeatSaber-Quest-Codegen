@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct StateInfoIndex;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field CurrentState offset 0
-static ::UnityEngine::StateInfoIndex const CurrentState;
+static UnityEngine::StateInfoIndex const CurrentState;
 
 /// @brief Field NextState offset 0
-static ::UnityEngine::StateInfoIndex const NextState;
+static UnityEngine::StateInfoIndex const NextState;
 
 /// @brief Field ExitState offset 0
-static ::UnityEngine::StateInfoIndex const ExitState;
+static UnityEngine::StateInfoIndex const ExitState;
 
 /// @brief Field InterruptedState offset 0
-static ::UnityEngine::StateInfoIndex const InterruptedState;
+static UnityEngine::StateInfoIndex const InterruptedState;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::StateInfoIndex, "UnityEngine", "StateInfoIndex");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::StateInfoIndex, "UnityEngine", "StateInfoIndex");

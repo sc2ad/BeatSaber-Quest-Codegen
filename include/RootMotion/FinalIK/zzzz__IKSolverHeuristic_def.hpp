@@ -6,18 +6,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine {
 class Transform;
 }
 namespace RootMotion::FinalIK {
-class ____RootMotion__FinalIK__IKSolver__Bone;
+class RootMotion__FinalIK__IKSolver__Point;
 }
 namespace RootMotion::FinalIK {
-class ____RootMotion__FinalIK__IKSolver__Point;
+class RootMotion__FinalIK__IKSolver__Bone;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -29,7 +28,7 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12506))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12516))
 // CS Name: RootMotion.FinalIK.IKSolverHeuristic
-class CORDL_TYPE IKSolverHeuristic : public ::RootMotion::FinalIK::IKSolver {
+class CORDL_TYPE IKSolverHeuristic : public RootMotion::FinalIK::IKSolver {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -44,7 +43,7 @@ constexpr IKSolverHeuristic(IKSolverHeuristic const& ) noexcept = default;
 constexpr IKSolverHeuristic(IKSolverHeuristic&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit IKSolverHeuristic(void* ptr) noexcept : ::RootMotion::FinalIK::IKSolver(ptr) {
+constexpr explicit IKSolverHeuristic(void* ptr) noexcept : RootMotion::FinalIK::IKSolver(ptr) {
 }
 
 
@@ -65,11 +64,11 @@ constexpr explicit IKSolverHeuristic(void* ptr) noexcept : ::RootMotion::FinalIK
 
 // Fields
 
- ::UnityEngine::Transform __declspec(property(get=__get_target, put=__set_target))  target;
+ UnityEngine::Transform __declspec(property(get=__get_target, put=__set_target))  target;
 
-constexpr void __set_target(::UnityEngine::Transform value) ;
+constexpr void __set_target(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_target() const;
+constexpr UnityEngine::Transform __get_target() const;
 
  float_t __declspec(property(get=__get_tolerance, put=__set_tolerance))  tolerance;
 
@@ -95,17 +94,17 @@ constexpr void __set_XY(bool value) ;
 
 constexpr bool __get_XY() const;
 
- ::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__Bone> __declspec(property(get=__get_bones, put=__set_bones))  bones;
+ ::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone> __declspec(property(get=__get_bones, put=__set_bones))  bones;
 
-constexpr void __set_bones(::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__Bone> value) ;
+constexpr void __set_bones(::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone> value) ;
 
-constexpr ::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__Bone> __get_bones() const;
+constexpr ::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone> __get_bones() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_lastLocalDirection, put=__set_lastLocalDirection))  lastLocalDirection;
+ UnityEngine::Vector3 __declspec(property(get=__get_lastLocalDirection, put=__set_lastLocalDirection))  lastLocalDirection;
 
-constexpr void __set_lastLocalDirection(::UnityEngine::Vector3 value) ;
+constexpr void __set_lastLocalDirection(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_lastLocalDirection() const;
+constexpr UnityEngine::Vector3 __get_lastLocalDirection() const;
 
  float_t __declspec(property(get=__get_chainLength, put=__set_chainLength))  chainLength;
 
@@ -122,7 +121,7 @@ constexpr float_t __get_chainLength() const;
 
  bool __declspec(property(get=get_allowCommonParent))  allowCommonParent;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_localDirection))  localDirection;
+ UnityEngine::Vector3 __declspec(property(get=get_localDirection))  localDirection;
 
  float_t __declspec(property(get=get_positionOffset))  positionOffset;
 
@@ -130,10 +129,10 @@ constexpr float_t __get_chainLength() const;
 // Methods
 
 /// @brief Method SetChain addr 0x11dea9c size 0x17c virtual false final false
- bool SetChain(::ArrayW<::UnityEngine::Transform> hierarchy, ::UnityEngine::Transform root) ;
+ bool SetChain(::ArrayW<UnityEngine::Transform> hierarchy, UnityEngine::Transform root) ;
 
 /// @brief Method AddBone addr 0x11dec18 size 0x12c virtual false final false
- void AddBone(::UnityEngine::Transform bone) ;
+ void AddBone(UnityEngine::Transform bone) ;
 
 /// @brief Method StoreDefaultLocalState addr 0x11ded44 size 0x5c virtual true final false
  void StoreDefaultLocalState() ;
@@ -145,10 +144,10 @@ constexpr float_t __get_chainLength() const;
  bool IsValid(ByRef<::StringW> message) ;
 
 /// @brief Method GetPoints addr 0x11df1d4 size 0x8 virtual true final false
- ::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__Point> GetPoints() ;
+ ::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Point> GetPoints() ;
 
 /// @brief Method GetPoint addr 0x11df1dc size 0xdc virtual true final false
- ::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__Point GetPoint(::UnityEngine::Transform transform) ;
+ RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Point GetPoint(UnityEngine::Transform transform) ;
 
 /// @brief Method get_minBones addr 0x11df2b8 size 0x8 virtual true final false
  int32_t get_minBones() ;
@@ -169,13 +168,13 @@ constexpr float_t __get_chainLength() const;
  void InitiateBones() ;
 
 /// @brief Method get_localDirection addr 0x11df2d8 size 0xbc virtual true final false
- ::UnityEngine::Vector3 get_localDirection() ;
+ UnityEngine::Vector3 get_localDirection() ;
 
 /// @brief Method get_positionOffset addr 0x11d770c size 0x48 virtual false final false
  float_t get_positionOffset() ;
 
 /// @brief Method GetSingularityOffset addr 0x11d7360 size 0x3ac virtual false final false
- ::UnityEngine::Vector3 GetSingularityOffset() ;
+ UnityEngine::Vector3 GetSingularityOffset() ;
 
 /// @brief Method SingularityDetected addr 0x11df394 size 0x294 virtual false final false
  bool SingularityDetected() ;
@@ -190,6 +189,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::IKSolverHeuristic);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::IKSolverHeuristic, "RootMotion.FinalIK", "IKSolverHeuristic");
+NEED_NO_BOX(RootMotion::FinalIK::IKSolverHeuristic);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverHeuristic, "RootMotion.FinalIK", "IKSolverHeuristic");

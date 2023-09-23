@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
-namespace UnityEngine {
-class Transform;
-}
 namespace UnityEngine {
 class LineRenderer;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8806))
 // CS Name: OVRPointerVisualizer
-class CORDL_TYPE OVRPointerVisualizer : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OVRPointerVisualizer : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr OVRPointerVisualizer(OVRPointerVisualizer const& ) noexcept = default;
 constexpr OVRPointerVisualizer(OVRPointerVisualizer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OVRPointerVisualizer(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OVRPointerVisualizer(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -55,17 +54,17 @@ constexpr explicit OVRPointerVisualizer(void* ptr) noexcept : ::UnityEngine::Mon
 
 // Fields
 
- ::UnityEngine::Transform __declspec(property(get=__get_rayTransform, put=__set_rayTransform))  rayTransform;
+ UnityEngine::Transform __declspec(property(get=__get_rayTransform, put=__set_rayTransform))  rayTransform;
 
-constexpr void __set_rayTransform(::UnityEngine::Transform value) ;
+constexpr void __set_rayTransform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_rayTransform() const;
+constexpr UnityEngine::Transform __get_rayTransform() const;
 
- ::UnityEngine::LineRenderer __declspec(property(get=__get_linePointer, put=__set_linePointer))  linePointer;
+ UnityEngine::LineRenderer __declspec(property(get=__get_linePointer, put=__set_linePointer))  linePointer;
 
-constexpr void __set_linePointer(::UnityEngine::LineRenderer value) ;
+constexpr void __set_linePointer(UnityEngine::LineRenderer value) ;
 
-constexpr ::UnityEngine::LineRenderer __get_linePointer() const;
+constexpr UnityEngine::LineRenderer __get_linePointer() const;
 
  float_t __declspec(property(get=__get_rayDrawDistance, put=__set_rayDrawDistance))  rayDrawDistance;
 
@@ -89,6 +88,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OVRPointerVisualizer);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPointerVisualizer, "", "OVRPointerVisualizer");
+NEED_NO_BOX(GlobalNamespace::OVRPointerVisualizer);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPointerVisualizer, "", "OVRPointerVisualizer");

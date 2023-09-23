@@ -3,18 +3,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Unity::IO::LowLevel::Unsafe {
-struct FileReadType;
+struct ProcessingState;
 }
 namespace Unity::IO::LowLevel::Unsafe {
-struct AssetLoadingSubsystem;
+struct FileReadType;
 }
 namespace Unity::IO::LowLevel::Unsafe {
 struct Priority;
 }
 namespace Unity::IO::LowLevel::Unsafe {
-struct ProcessingState;
+struct AssetLoadingSubsystem;
 }
 // Forward declare root types
 namespace Unity::IO::LowLevel::Unsafe {
@@ -68,34 +67,33 @@ constexpr void __set_TypeIDs(::ArrayW<uint64_t> value) ;
 
 constexpr ::ArrayW<uint64_t> __get_TypeIDs() const;
 
- ::ArrayW<::Unity::IO::LowLevel::Unsafe::ProcessingState> __declspec(property(get=__get_States, put=__set_States))  States;
+ ::ArrayW<Unity::IO::LowLevel::Unsafe::ProcessingState> __declspec(property(get=__get_States, put=__set_States))  States;
 
-constexpr void __set_States(::ArrayW<::Unity::IO::LowLevel::Unsafe::ProcessingState> value) ;
+constexpr void __set_States(::ArrayW<Unity::IO::LowLevel::Unsafe::ProcessingState> value) ;
 
-constexpr ::ArrayW<::Unity::IO::LowLevel::Unsafe::ProcessingState> __get_States() const;
+constexpr ::ArrayW<Unity::IO::LowLevel::Unsafe::ProcessingState> __get_States() const;
 
- ::ArrayW<::Unity::IO::LowLevel::Unsafe::FileReadType> __declspec(property(get=__get_ReadTypes, put=__set_ReadTypes))  ReadTypes;
+ ::ArrayW<Unity::IO::LowLevel::Unsafe::FileReadType> __declspec(property(get=__get_ReadTypes, put=__set_ReadTypes))  ReadTypes;
 
-constexpr void __set_ReadTypes(::ArrayW<::Unity::IO::LowLevel::Unsafe::FileReadType> value) ;
+constexpr void __set_ReadTypes(::ArrayW<Unity::IO::LowLevel::Unsafe::FileReadType> value) ;
 
-constexpr ::ArrayW<::Unity::IO::LowLevel::Unsafe::FileReadType> __get_ReadTypes() const;
+constexpr ::ArrayW<Unity::IO::LowLevel::Unsafe::FileReadType> __get_ReadTypes() const;
 
- ::ArrayW<::Unity::IO::LowLevel::Unsafe::Priority> __declspec(property(get=__get_PriorityLevels, put=__set_PriorityLevels))  PriorityLevels;
+ ::ArrayW<Unity::IO::LowLevel::Unsafe::Priority> __declspec(property(get=__get_PriorityLevels, put=__set_PriorityLevels))  PriorityLevels;
 
-constexpr void __set_PriorityLevels(::ArrayW<::Unity::IO::LowLevel::Unsafe::Priority> value) ;
+constexpr void __set_PriorityLevels(::ArrayW<Unity::IO::LowLevel::Unsafe::Priority> value) ;
 
-constexpr ::ArrayW<::Unity::IO::LowLevel::Unsafe::Priority> __get_PriorityLevels() const;
+constexpr ::ArrayW<Unity::IO::LowLevel::Unsafe::Priority> __get_PriorityLevels() const;
 
- ::ArrayW<::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem> __declspec(property(get=__get_Subsystems, put=__set_Subsystems))  Subsystems;
+ ::ArrayW<Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem> __declspec(property(get=__get_Subsystems, put=__set_Subsystems))  Subsystems;
 
-constexpr void __set_Subsystems(::ArrayW<::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem> value) ;
+constexpr void __set_Subsystems(::ArrayW<Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem> value) ;
 
-constexpr ::ArrayW<::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem> __get_Subsystems() const;
+constexpr ::ArrayW<Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem> __get_Subsystems() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Unity::IO::LowLevel::Unsafe
-} // end anonymous namespace
-NEED_NO_BOX(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerMetricsFilters);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerMetricsFilters, "Unity.IO.LowLevel.Unsafe", "AsyncReadManagerMetricsFilters");
+NEED_NO_BOX(Unity::IO::LowLevel::Unsafe::AsyncReadManagerMetricsFilters);
+DEFINE_IL2CPP_ARG_TYPE(Unity::IO::LowLevel::Unsafe::AsyncReadManagerMetricsFilters, "Unity.IO.LowLevel.Unsafe", "AsyncReadManagerMetricsFilters");

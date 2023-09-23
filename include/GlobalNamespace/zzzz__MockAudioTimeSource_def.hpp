@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
 class IAudioTimeSource;
 }
@@ -16,11 +15,11 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4052))
 // CS Name: MockAudioTimeSource
-class CORDL_TYPE MockAudioTimeSource : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MockAudioTimeSource : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IAudioTimeSource
-constexpr operator  ::GlobalNamespace::IAudioTimeSource() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IAudioTimeSource
+constexpr operator  GlobalNamespace::IAudioTimeSource() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -34,7 +33,7 @@ constexpr MockAudioTimeSource(MockAudioTimeSource const& ) noexcept = default;
 constexpr MockAudioTimeSource(MockAudioTimeSource&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MockAudioTimeSource(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MockAudioTimeSource(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -117,6 +116,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MockAudioTimeSource);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MockAudioTimeSource, "", "MockAudioTimeSource");
+NEED_NO_BOX(GlobalNamespace::MockAudioTimeSource);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockAudioTimeSource, "", "MockAudioTimeSource");

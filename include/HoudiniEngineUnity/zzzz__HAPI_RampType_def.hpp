@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HAPI_RampType;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field HAPI_RAMPTYPE_INVALID offset 0
-static ::HoudiniEngineUnity::HAPI_RampType const HAPI_RAMPTYPE_INVALID;
+static HoudiniEngineUnity::HAPI_RampType const HAPI_RAMPTYPE_INVALID;
 
 /// @brief Field HAPI_RAMPTYPE_FLOAT offset 0
-static ::HoudiniEngineUnity::HAPI_RampType const HAPI_RAMPTYPE_FLOAT;
+static HoudiniEngineUnity::HAPI_RampType const HAPI_RAMPTYPE_FLOAT;
 
 /// @brief Field HAPI_RAMPTYPE_COLOR offset 0
-static ::HoudiniEngineUnity::HAPI_RampType const HAPI_RAMPTYPE_COLOR;
+static HoudiniEngineUnity::HAPI_RampType const HAPI_RAMPTYPE_COLOR;
 
 /// @brief Field HAPI_RAMPTYPE_MAX offset 0
-static ::HoudiniEngineUnity::HAPI_RampType const HAPI_RAMPTYPE_MAX;
+static HoudiniEngineUnity::HAPI_RampType const HAPI_RAMPTYPE_MAX;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_RampType, "HoudiniEngineUnity", "HAPI_RampType");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_RampType, "HoudiniEngineUnity", "HAPI_RampType");

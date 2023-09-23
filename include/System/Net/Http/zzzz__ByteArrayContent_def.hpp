@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace System::Threading::Tasks {
-class Task;
+namespace System::Net {
+class TransportContext;
 }
 namespace System::IO {
 class Stream;
 }
-namespace System::Net {
-class TransportContext;
+namespace System::Threading::Tasks {
+class Task;
 }
 // Forward declare root types
 namespace System::Net::Http {
@@ -24,7 +23,7 @@ namespace System::Net::Http {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14809))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14800))
 // CS Name: System.Net.Http.ByteArrayContent
-class CORDL_TYPE ByteArrayContent : public ::System::Net::Http::HttpContent {
+class CORDL_TYPE ByteArrayContent : public System::Net::Http::HttpContent {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr ByteArrayContent(ByteArrayContent const& ) noexcept = default;
 constexpr ByteArrayContent(ByteArrayContent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ByteArrayContent(void* ptr) noexcept : ::System::Net::Http::HttpContent(ptr) {
+constexpr explicit ByteArrayContent(void* ptr) noexcept : System::Net::Http::HttpContent(ptr) {
 }
 
 
@@ -88,7 +87,7 @@ explicit ByteArrayContent(::ArrayW<uint8_t> content) ;
  void _ctor(::ArrayW<uint8_t> content) ;
 
 /// @brief Method SerializeToStreamAsync addr 0x269f24c size 0x28 virtual true final false
- ::System::Threading::Tasks::Task SerializeToStreamAsync(::System::IO::Stream stream, ::System::Net::TransportContext context) ;
+ System::Threading::Tasks::Task SerializeToStreamAsync(System::IO::Stream stream, System::Net::TransportContext context) ;
 
 /// @brief Method TryComputeLength addr 0x269f274 size 0x10 virtual true final false
  bool TryComputeLength(ByRef<int64_t> length) ;
@@ -97,6 +96,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Http
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Http::ByteArrayContent);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::ByteArrayContent, "System.Net.Http", "ByteArrayContent");
+NEED_NO_BOX(System::Net::Http::ByteArrayContent);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::ByteArrayContent, "System.Net.Http", "ByteArrayContent");

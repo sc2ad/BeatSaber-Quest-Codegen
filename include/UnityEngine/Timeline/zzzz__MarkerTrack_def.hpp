@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/Timeline/zzzz__TrackAsset_def.hpp"
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
@@ -19,7 +18,7 @@ namespace UnityEngine::Timeline {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14073))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14101))
 // CS Name: UnityEngine.Timeline.MarkerTrack
-class CORDL_TYPE MarkerTrack : public ::UnityEngine::Timeline::TrackAsset {
+class CORDL_TYPE MarkerTrack : public UnityEngine::Timeline::TrackAsset {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr MarkerTrack(MarkerTrack const& ) noexcept = default;
 constexpr MarkerTrack(MarkerTrack&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MarkerTrack(void* ptr) noexcept : ::UnityEngine::Timeline::TrackAsset(ptr) {
+constexpr explicit MarkerTrack(void* ptr) noexcept : UnityEngine::Timeline::TrackAsset(ptr) {
 }
 
 
@@ -55,13 +54,13 @@ constexpr explicit MarkerTrack(void* ptr) noexcept : ::UnityEngine::Timeline::Tr
 
 // Properties
 
- ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding> __declspec(property(get=get_outputs))  outputs;
+ System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding> __declspec(property(get=get_outputs))  outputs;
 
 
 // Methods
 
 /// @brief Method get_outputs addr 0x2ad01c8 size 0x1e4 virtual true final false
- ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding> get_outputs() ;
+ System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding> get_outputs() ;
 
 // Ctor Parameters []
 explicit MarkerTrack() ;
@@ -73,6 +72,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Timeline::MarkerTrack);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::MarkerTrack, "UnityEngine.Timeline", "MarkerTrack");
+NEED_NO_BOX(UnityEngine::Timeline::MarkerTrack);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::MarkerTrack, "UnityEngine.Timeline", "MarkerTrack");

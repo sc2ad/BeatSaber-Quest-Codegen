@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace ENet {
 struct PeerState;
@@ -76,41 +75,40 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Uninitialized offset 0
-static ::ENet::PeerState const Uninitialized;
+static ENet::PeerState const Uninitialized;
 
 /// @brief Field Disconnected offset 0
-static ::ENet::PeerState const Disconnected;
+static ENet::PeerState const Disconnected;
 
 /// @brief Field Connecting offset 0
-static ::ENet::PeerState const Connecting;
+static ENet::PeerState const Connecting;
 
 /// @brief Field AcknowledgingConnect offset 0
-static ::ENet::PeerState const AcknowledgingConnect;
+static ENet::PeerState const AcknowledgingConnect;
 
 /// @brief Field ConnectionPending offset 0
-static ::ENet::PeerState const ConnectionPending;
+static ENet::PeerState const ConnectionPending;
 
 /// @brief Field ConnectionSucceeded offset 0
-static ::ENet::PeerState const ConnectionSucceeded;
+static ENet::PeerState const ConnectionSucceeded;
 
 /// @brief Field Connected offset 0
-static ::ENet::PeerState const Connected;
+static ENet::PeerState const Connected;
 
 /// @brief Field DisconnectLater offset 0
-static ::ENet::PeerState const DisconnectLater;
+static ENet::PeerState const DisconnectLater;
 
 /// @brief Field Disconnecting offset 0
-static ::ENet::PeerState const Disconnecting;
+static ENet::PeerState const Disconnecting;
 
 /// @brief Field AcknowledgingDisconnect offset 0
-static ::ENet::PeerState const AcknowledgingDisconnect;
+static ENet::PeerState const AcknowledgingDisconnect;
 
 /// @brief Field Zombie offset 0
-static ::ENet::PeerState const Zombie;
+static ENet::PeerState const Zombie;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def ENet
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::ENet::PeerState, "ENet", "PeerState");
+DEFINE_IL2CPP_ARG_TYPE(ENet::PeerState, "ENet", "PeerState");

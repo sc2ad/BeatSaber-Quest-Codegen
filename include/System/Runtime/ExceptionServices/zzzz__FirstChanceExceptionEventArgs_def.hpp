@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__EventArgs_def.hpp"
-namespace {
 // Forward declare root types
 namespace System::Runtime::ExceptionServices {
 class FirstChanceExceptionEventArgs;
@@ -12,7 +11,7 @@ namespace System::Runtime::ExceptionServices {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2376))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3340))
 // CS Name: System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs
-class CORDL_TYPE FirstChanceExceptionEventArgs : public ::System::EventArgs {
+class CORDL_TYPE FirstChanceExceptionEventArgs : public System::EventArgs {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr FirstChanceExceptionEventArgs(FirstChanceExceptionEventArgs const& ) n
 constexpr FirstChanceExceptionEventArgs(FirstChanceExceptionEventArgs&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FirstChanceExceptionEventArgs(void* ptr) noexcept : ::System::EventArgs(ptr) {
+constexpr explicit FirstChanceExceptionEventArgs(void* ptr) noexcept : System::EventArgs(ptr) {
 }
 
 
@@ -49,6 +48,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::ExceptionServices
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs, "System.Runtime.ExceptionServices", "FirstChanceExceptionEventArgs");
+NEED_NO_BOX(System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs, "System.Runtime.ExceptionServices", "FirstChanceExceptionEventArgs");

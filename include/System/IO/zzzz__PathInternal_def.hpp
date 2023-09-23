@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
@@ -69,25 +68,25 @@ static bool __declspec(property(get=get_IsCaseSensitive))  IsCaseSensitive;
 // Methods
 
 /// @brief Method GetRootLength addr 0x239245c size 0x7c virtual false final false
-static int32_t GetRootLength(::System::ReadOnlySpan_1<char16_t> path) ;
+static int32_t GetRootLength(System::ReadOnlySpan_1<char16_t> path) ;
 
 /// @brief Method IsDirectorySeparator addr 0x23924d8 size 0x10 virtual false final false
 static bool IsDirectorySeparator(char16_t c) ;
 
 /// @brief Method EndsInDirectorySeparator addr 0x23924e8 size 0x88 virtual false final false
-static bool EndsInDirectorySeparator(::System::ReadOnlySpan_1<char16_t> path) ;
+static bool EndsInDirectorySeparator(System::ReadOnlySpan_1<char16_t> path) ;
 
 /// @brief Method StartsWithDirectorySeparator addr 0x2392570 size 0x7c virtual false final false
-static bool StartsWithDirectorySeparator(::System::ReadOnlySpan_1<char16_t> path) ;
+static bool StartsWithDirectorySeparator(System::ReadOnlySpan_1<char16_t> path) ;
 
 /// @brief Method TrimEndingDirectorySeparator addr 0x23925ec size 0x140 virtual false final false
 static ::StringW TrimEndingDirectorySeparator(::StringW path) ;
 
 /// @brief Method TrimEndingDirectorySeparator addr 0x23927a8 size 0xe0 virtual false final false
-static ::System::ReadOnlySpan_1<char16_t> TrimEndingDirectorySeparator(::System::ReadOnlySpan_1<char16_t> path) ;
+static System::ReadOnlySpan_1<char16_t> TrimEndingDirectorySeparator(System::ReadOnlySpan_1<char16_t> path) ;
 
 /// @brief Method IsRoot addr 0x239272c size 0x7c virtual false final false
-static bool IsRoot(::System::ReadOnlySpan_1<char16_t> path) ;
+static bool IsRoot(System::ReadOnlySpan_1<char16_t> path) ;
 
 /// @brief Method get_IsCaseSensitive addr 0x2392888 size 0x58 virtual false final false
 static bool get_IsCaseSensitive() ;
@@ -102,6 +101,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::IO
-} // end anonymous namespace
-NEED_NO_BOX(::System::IO::PathInternal);
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::PathInternal, "System.IO", "PathInternal");
+NEED_NO_BOX(System::IO::PathInternal);
+DEFINE_IL2CPP_ARG_TYPE(System::IO::PathInternal, "System.IO", "PathInternal");

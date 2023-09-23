@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 // Forward declare root types
 namespace Tayx::Graphy::Utils {
 template<typename T>
@@ -21,7 +20,7 @@ template<::cordl_internals::il2cpp_reference_type T>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15193)), TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15193), inst: 2 })
 // CS Name: Tayx.Graphy.Utils.G_Singleton`1
-class CORDL_TYPE G_Singleton_1<T> : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE G_Singleton_1<T> : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr G_Singleton_1(G_Singleton_1 const& ) noexcept = default;
 constexpr G_Singleton_1(G_Singleton_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit G_Singleton_1(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit G_Singleton_1(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -96,5 +95,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Tayx::Graphy::Utils
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Tayx::Graphy::Utils::G_Singleton_1, "Tayx.Graphy.Utils", "G_Singleton`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Tayx::Graphy::Utils::G_Singleton_1, "Tayx.Graphy.Utils", "G_Singleton`1");

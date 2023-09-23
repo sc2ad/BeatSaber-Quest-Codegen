@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
 struct ArgInfoType;
@@ -67,14 +66,13 @@ constexpr void __set_value__(uint8_t value) ;
 constexpr uint8_t __get_value__() const;
 
 /// @brief Field In offset 0
-static ::System::Runtime::Remoting::Messaging::ArgInfoType const In;
+static System::Runtime::Remoting::Messaging::ArgInfoType const In;
 
 /// @brief Field Out offset 0
-static ::System::Runtime::Remoting::Messaging::ArgInfoType const Out;
+static System::Runtime::Remoting::Messaging::ArgInfoType const Out;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Messaging
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::ArgInfoType, "System.Runtime.Remoting.Messaging", "ArgInfoType");
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ArgInfoType, "System.Runtime.Remoting.Messaging", "ArgInfoType");

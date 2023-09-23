@@ -7,22 +7,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace GlobalNamespace {
-class VFXController;
-}
-namespace UnityEngine::Playables {
-class PlayableDirector;
-}
-namespace UnityEngine {
-class GameObject;
-}
 namespace System::Collections {
 class IEnumerator;
 }
@@ -33,21 +17,36 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace GlobalNamespace {
+class VFXController;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine::Playables {
+class PlayableDirector;
+}
 // Forward declare root types
 namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerLobbyAvatarController__Factory;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8;
+}
+namespace GlobalNamespace {
 class MultiplayerLobbyAvatarController;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__MultiplayerLobbyAvatarController__Factory;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8;
 }
 // Type: ::MultiplayerLobbyAvatarController
 namespace GlobalNamespace {
@@ -55,16 +54,16 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4100))
 // CS Name: MultiplayerLobbyAvatarController
-class CORDL_TYPE MultiplayerLobbyAvatarController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerLobbyAvatarController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using _DespawnAnimationCoroutine_d__12 = ::GlobalNamespace::____GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12;
+using _DespawnAnimationCoroutine_d__12 = GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12;
 
-using _ShowDespawnAnimationAndDestroy_d__10 = ::GlobalNamespace::____GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10;
+using _ShowDespawnAnimationAndDestroy_d__10 = GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10;
 
-using _SpawnAnimationCoroutine_d__8 = ::GlobalNamespace::____GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8;
+using _SpawnAnimationCoroutine_d__8 = GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8;
 
-using Factory = ::GlobalNamespace::____GlobalNamespace__MultiplayerLobbyAvatarController__Factory;
+using Factory = GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController__Factory;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -78,7 +77,7 @@ constexpr MultiplayerLobbyAvatarController(MultiplayerLobbyAvatarController cons
 constexpr MultiplayerLobbyAvatarController(MultiplayerLobbyAvatarController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerLobbyAvatarController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerLobbyAvatarController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -99,17 +98,17 @@ constexpr explicit MultiplayerLobbyAvatarController(void* ptr) noexcept : ::Unit
 
 // Fields
 
- ::UnityEngine::Playables::PlayableDirector __declspec(property(get=__get__spawnEffect, put=__set__spawnEffect))  _spawnEffect;
+ UnityEngine::Playables::PlayableDirector __declspec(property(get=__get__spawnEffect, put=__set__spawnEffect))  _spawnEffect;
 
-constexpr void __set__spawnEffect(::UnityEngine::Playables::PlayableDirector value) ;
+constexpr void __set__spawnEffect(UnityEngine::Playables::PlayableDirector value) ;
 
-constexpr ::UnityEngine::Playables::PlayableDirector __get__spawnEffect() const;
+constexpr UnityEngine::Playables::PlayableDirector __get__spawnEffect() const;
 
- ::GlobalNamespace::VFXController __declspec(property(get=__get__despawnVFXController, put=__set__despawnVFXController))  _despawnVFXController;
+ GlobalNamespace::VFXController __declspec(property(get=__get__despawnVFXController, put=__set__despawnVFXController))  _despawnVFXController;
 
-constexpr void __set__despawnVFXController(::GlobalNamespace::VFXController value) ;
+constexpr void __set__despawnVFXController(GlobalNamespace::VFXController value) ;
 
-constexpr ::GlobalNamespace::VFXController __get__despawnVFXController() const;
+constexpr GlobalNamespace::VFXController __get__despawnVFXController() const;
 
  float_t __declspec(property(get=__get__spawnAvatarDelay, put=__set__spawnAvatarDelay))  _spawnAvatarDelay;
 
@@ -129,32 +128,32 @@ constexpr void __set__destroyAvatarDelay(float_t value) ;
 
 constexpr float_t __get__destroyAvatarDelay() const;
 
- ::ArrayW<::UnityEngine::GameObject> __declspec(property(get=__get__visualObjects, put=__set__visualObjects))  _visualObjects;
+ ::ArrayW<UnityEngine::GameObject> __declspec(property(get=__get__visualObjects, put=__set__visualObjects))  _visualObjects;
 
-constexpr void __set__visualObjects(::ArrayW<::UnityEngine::GameObject> value) ;
+constexpr void __set__visualObjects(::ArrayW<UnityEngine::GameObject> value) ;
 
-constexpr ::ArrayW<::UnityEngine::GameObject> __get__visualObjects() const;
+constexpr ::ArrayW<UnityEngine::GameObject> __get__visualObjects() const;
 
 
 // Methods
 
 /// @brief Method ShowSpawnAnimation addr 0x20c3ab4 size 0xb0 virtual false final false
- void ShowSpawnAnimation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation) ;
+ void ShowSpawnAnimation(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation) ;
 
 /// @brief Method SpawnAnimationCoroutine addr 0x20c3bcc size 0x68 virtual false final false
- ::System::Collections::IEnumerator SpawnAnimationCoroutine() ;
+ System::Collections::IEnumerator SpawnAnimationCoroutine() ;
 
 /// @brief Method ActivateVisualObjects addr 0x20c3b64 size 0x68 virtual false final false
  void ActivateVisualObjects(bool on) ;
 
 /// @brief Method ShowDespawnAnimationAndDestroy addr 0x20c3c5c size 0x68 virtual false final false
- ::System::Collections::IEnumerator ShowDespawnAnimationAndDestroy() ;
+ System::Collections::IEnumerator ShowDespawnAnimationAndDestroy() ;
 
 /// @brief Method DestroySelf addr 0x20c3cec size 0x6c virtual false final false
  void DestroySelf() ;
 
 /// @brief Method DespawnAnimationCoroutine addr 0x20c3d58 size 0x68 virtual false final false
- ::System::Collections::IEnumerator DespawnAnimationCoroutine() ;
+ System::Collections::IEnumerator DespawnAnimationCoroutine() ;
 
 // Ctor Parameters []
 explicit MultiplayerLobbyAvatarController() ;
@@ -169,47 +168,47 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Factory
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4100)), TypeDefinitionIndex(TypeDefinitionIndex(10947)), TypeDefinitionIndex(TypeDefinitionIndex(12720)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10947), inst: 3368 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10947)), TypeDefinitionIndex(TypeDefinitionIndex(12720)), TypeDefinitionIndex(TypeDefinitionIndex(4100)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10947), inst: 3368 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4096))
 // CS Name: MultiplayerLobbyAvatarController::Factory
-class CORDL_TYPE ____GlobalNamespace__MultiplayerLobbyAvatarController__Factory : public ::Zenject::PlaceholderFactory_2<::GlobalNamespace::IConnectedPlayer,::GlobalNamespace::MultiplayerLobbyAvatarController> {
+class CORDL_TYPE GlobalNamespace__MultiplayerLobbyAvatarController__Factory : public Zenject::PlaceholderFactory_2<GlobalNamespace::IConnectedPlayer,GlobalNamespace::MultiplayerLobbyAvatarController> {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____GlobalNamespace__MultiplayerLobbyAvatarController__Factory() = default;
+virtual ~GlobalNamespace__MultiplayerLobbyAvatarController__Factory() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__MultiplayerLobbyAvatarController__Factory", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__MultiplayerLobbyAvatarController__Factory(____GlobalNamespace__MultiplayerLobbyAvatarController__Factory const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__MultiplayerLobbyAvatarController__Factory", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__MultiplayerLobbyAvatarController__Factory(GlobalNamespace__MultiplayerLobbyAvatarController__Factory const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__MultiplayerLobbyAvatarController__Factory", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__MultiplayerLobbyAvatarController__Factory(____GlobalNamespace__MultiplayerLobbyAvatarController__Factory&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__MultiplayerLobbyAvatarController__Factory", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__MultiplayerLobbyAvatarController__Factory(GlobalNamespace__MultiplayerLobbyAvatarController__Factory&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__MultiplayerLobbyAvatarController__Factory(void* ptr) noexcept : ::Zenject::PlaceholderFactory_2<::GlobalNamespace::IConnectedPlayer,::GlobalNamespace::MultiplayerLobbyAvatarController>(ptr) {
+constexpr explicit GlobalNamespace__MultiplayerLobbyAvatarController__Factory(void* ptr) noexcept : Zenject::PlaceholderFactory_2<GlobalNamespace::IConnectedPlayer,GlobalNamespace::MultiplayerLobbyAvatarController>(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__MultiplayerLobbyAvatarController__Factory& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__MultiplayerLobbyAvatarController__Factory& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__MultiplayerLobbyAvatarController__Factory& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__MultiplayerLobbyAvatarController__Factory& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__MultiplayerLobbyAvatarController__Factory& operator=(____GlobalNamespace__MultiplayerLobbyAvatarController__Factory&& o) noexcept = default;
-  constexpr ____GlobalNamespace__MultiplayerLobbyAvatarController__Factory& operator=(____GlobalNamespace__MultiplayerLobbyAvatarController__Factory const& o) noexcept = default;
+  constexpr GlobalNamespace__MultiplayerLobbyAvatarController__Factory& operator=(GlobalNamespace__MultiplayerLobbyAvatarController__Factory&& o) noexcept = default;
+  constexpr GlobalNamespace__MultiplayerLobbyAvatarController__Factory& operator=(GlobalNamespace__MultiplayerLobbyAvatarController__Factory const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__MultiplayerLobbyAvatarController__Factory() ;
+explicit GlobalNamespace__MultiplayerLobbyAvatarController__Factory() ;
 
 /// @brief Method .ctor addr 0x20c3e08 size 0x48 virtual false final false
  void _ctor() ;
@@ -224,46 +223,46 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4097))
 // CS Name: MultiplayerLobbyAvatarController::<SpawnAnimationCoroutine>d__8
-class CORDL_TYPE ____GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8() = default;
+virtual ~GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8(____GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8(GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8(____GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8(GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8& operator=(____GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8&& o) noexcept = default;
-  constexpr ____GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8& operator=(____GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8 const& o) noexcept = default;
+  constexpr GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8& operator=(GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8&& o) noexcept = default;
+  constexpr GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8& operator=(GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8 const& o) noexcept = default;
                 
 
 
@@ -281,11 +280,11 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::GlobalNamespace::MultiplayerLobbyAvatarController __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::MultiplayerLobbyAvatarController __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::MultiplayerLobbyAvatarController value) ;
+constexpr void __set___4__this(GlobalNamespace::MultiplayerLobbyAvatarController value) ;
 
-constexpr ::GlobalNamespace::MultiplayerLobbyAvatarController __get___4__this() const;
+constexpr GlobalNamespace::MultiplayerLobbyAvatarController __get___4__this() const;
 
 
 // Properties
@@ -298,7 +297,7 @@ constexpr ::GlobalNamespace::MultiplayerLobbyAvatarController __get___4__this() 
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8(int32_t __1__state) ;
+explicit GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x20c3c34 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -328,46 +327,46 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4098))
 // CS Name: MultiplayerLobbyAvatarController::<ShowDespawnAnimationAndDestroy>d__10
-class CORDL_TYPE ____GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10() = default;
+virtual ~GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10(____GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10(GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10(____GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10(GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10& operator=(____GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10&& o) noexcept = default;
-  constexpr ____GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10& operator=(____GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10 const& o) noexcept = default;
+  constexpr GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10& operator=(GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10&& o) noexcept = default;
+  constexpr GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10& operator=(GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10 const& o) noexcept = default;
                 
 
 
@@ -385,11 +384,11 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::GlobalNamespace::MultiplayerLobbyAvatarController __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::MultiplayerLobbyAvatarController __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::MultiplayerLobbyAvatarController value) ;
+constexpr void __set___4__this(GlobalNamespace::MultiplayerLobbyAvatarController value) ;
 
-constexpr ::GlobalNamespace::MultiplayerLobbyAvatarController __get___4__this() const;
+constexpr GlobalNamespace::MultiplayerLobbyAvatarController __get___4__this() const;
 
 
 // Properties
@@ -402,7 +401,7 @@ constexpr ::GlobalNamespace::MultiplayerLobbyAvatarController __get___4__this() 
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10(int32_t __1__state) ;
+explicit GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x20c3cc4 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -432,46 +431,46 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4099))
 // CS Name: MultiplayerLobbyAvatarController::<DespawnAnimationCoroutine>d__12
-class CORDL_TYPE ____GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12() = default;
+virtual ~GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12(____GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12(GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12(____GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12(GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12& operator=(____GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12&& o) noexcept = default;
-  constexpr ____GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12& operator=(____GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12 const& o) noexcept = default;
+  constexpr GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12& operator=(GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12&& o) noexcept = default;
+  constexpr GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12& operator=(GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12 const& o) noexcept = default;
                 
 
 
@@ -489,11 +488,11 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::GlobalNamespace::MultiplayerLobbyAvatarController __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::MultiplayerLobbyAvatarController __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::MultiplayerLobbyAvatarController value) ;
+constexpr void __set___4__this(GlobalNamespace::MultiplayerLobbyAvatarController value) ;
 
-constexpr ::GlobalNamespace::MultiplayerLobbyAvatarController __get___4__this() const;
+constexpr GlobalNamespace::MultiplayerLobbyAvatarController __get___4__this() const;
 
 
 // Properties
@@ -506,7 +505,7 @@ constexpr ::GlobalNamespace::MultiplayerLobbyAvatarController __get___4__this() 
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12(int32_t __1__state) ;
+explicit GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x20c3dc0 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -530,14 +529,13 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerLobbyAvatarController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerLobbyAvatarController, "", "MultiplayerLobbyAvatarController");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__MultiplayerLobbyAvatarController__Factory);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__MultiplayerLobbyAvatarController__Factory, "", "MultiplayerLobbyAvatarController/Factory");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12, "", "MultiplayerLobbyAvatarController/<DespawnAnimationCoroutine>d__12");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10, "", "MultiplayerLobbyAvatarController/<ShowDespawnAnimationAndDestroy>d__10");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8, "", "MultiplayerLobbyAvatarController/<SpawnAnimationCoroutine>d__8");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController__Factory);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController__Factory, "", "MultiplayerLobbyAvatarController/Factory");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12, "", "MultiplayerLobbyAvatarController/<DespawnAnimationCoroutine>d__12");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10, "", "MultiplayerLobbyAvatarController/<ShowDespawnAnimationAndDestroy>d__10");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8, "", "MultiplayerLobbyAvatarController/<SpawnAnimationCoroutine>d__8");
+NEED_NO_BOX(GlobalNamespace::MultiplayerLobbyAvatarController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyAvatarController, "", "MultiplayerLobbyAvatarController");

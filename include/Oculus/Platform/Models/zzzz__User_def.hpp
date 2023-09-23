@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform {
 struct UserPresenceStatus;
 }
@@ -113,11 +112,11 @@ constexpr void __set_PresenceMatchSessionId(::StringW value) ;
 
 constexpr ::StringW __get_PresenceMatchSessionId() const;
 
- ::Oculus::Platform::UserPresenceStatus __declspec(property(get=__get_PresenceStatus, put=__set_PresenceStatus))  PresenceStatus;
+ Oculus::Platform::UserPresenceStatus __declspec(property(get=__get_PresenceStatus, put=__set_PresenceStatus))  PresenceStatus;
 
-constexpr void __set_PresenceStatus(::Oculus::Platform::UserPresenceStatus value) ;
+constexpr void __set_PresenceStatus(Oculus::Platform::UserPresenceStatus value) ;
 
-constexpr ::Oculus::Platform::UserPresenceStatus __get_PresenceStatus() const;
+constexpr Oculus::Platform::UserPresenceStatus __get_PresenceStatus() const;
 
  ::StringW __declspec(property(get=__get_SmallImageUrl, put=__set_SmallImageUrl))  SmallImageUrl;
 
@@ -138,6 +137,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::User);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::User, "Oculus.Platform.Models", "User");
+NEED_NO_BOX(Oculus::Platform::Models::User);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::User, "Oculus.Platform.Models", "User");

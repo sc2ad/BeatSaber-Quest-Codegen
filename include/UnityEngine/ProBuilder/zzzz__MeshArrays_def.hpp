@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
 struct MeshArrays;
@@ -75,38 +74,37 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Position offset 0
-static ::UnityEngine::ProBuilder::MeshArrays const Position;
+static UnityEngine::ProBuilder::MeshArrays const Position;
 
 /// @brief Field Texture0 offset 0
-static ::UnityEngine::ProBuilder::MeshArrays const Texture0;
+static UnityEngine::ProBuilder::MeshArrays const Texture0;
 
 /// @brief Field Texture1 offset 0
-static ::UnityEngine::ProBuilder::MeshArrays const Texture1;
+static UnityEngine::ProBuilder::MeshArrays const Texture1;
 
 /// @brief Field Lightmap offset 0
-static ::UnityEngine::ProBuilder::MeshArrays const Lightmap;
+static UnityEngine::ProBuilder::MeshArrays const Lightmap;
 
 /// @brief Field Texture2 offset 0
-static ::UnityEngine::ProBuilder::MeshArrays const Texture2;
+static UnityEngine::ProBuilder::MeshArrays const Texture2;
 
 /// @brief Field Texture3 offset 0
-static ::UnityEngine::ProBuilder::MeshArrays const Texture3;
+static UnityEngine::ProBuilder::MeshArrays const Texture3;
 
 /// @brief Field Color offset 0
-static ::UnityEngine::ProBuilder::MeshArrays const Color;
+static UnityEngine::ProBuilder::MeshArrays const Color;
 
 /// @brief Field Normal offset 0
-static ::UnityEngine::ProBuilder::MeshArrays const Normal;
+static UnityEngine::ProBuilder::MeshArrays const Normal;
 
 /// @brief Field Tangent offset 0
-static ::UnityEngine::ProBuilder::MeshArrays const Tangent;
+static UnityEngine::ProBuilder::MeshArrays const Tangent;
 
 /// @brief Field All offset 0
-static ::UnityEngine::ProBuilder::MeshArrays const All;
+static UnityEngine::ProBuilder::MeshArrays const All;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::MeshArrays, "UnityEngine.ProBuilder", "MeshArrays");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshArrays, "UnityEngine.ProBuilder", "MeshArrays");

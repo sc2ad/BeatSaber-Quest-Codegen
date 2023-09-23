@@ -1,6 +1,5 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivable_1;
@@ -21,8 +20,8 @@ template<typename T>
 class CORDL_TYPE IEquivableWrapperClass_1 : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::HoudiniEngineUnity::IEquivable_1<T>
-constexpr operator  ::HoudiniEngineUnity::IEquivable_1<T>() const noexcept;
+/// @brief Convert operator to HoudiniEngineUnity::IEquivable_1<T>
+constexpr operator  HoudiniEngineUnity::IEquivable_1<T>() const noexcept;
 
 ~IEquivableWrapperClass_1() = default;
 
@@ -40,5 +39,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::HoudiniEngineUnity::IEquivableWrapperClass_1, "HoudiniEngineUnity", "IEquivableWrapperClass`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(HoudiniEngineUnity::IEquivableWrapperClass_1, "HoudiniEngineUnity", "IEquivableWrapperClass`1");

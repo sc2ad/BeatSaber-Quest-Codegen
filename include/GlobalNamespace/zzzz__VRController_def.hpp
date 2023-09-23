@@ -3,18 +3,23 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 class VRControllerTransformOffset;
-}
-namespace GlobalNamespace {
-class IVRPlatformHelper;
 }
 namespace UnityEngine::XR {
 struct XRNode;
 }
 namespace UnityEngine {
-struct Quaternion;
+class Transform;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace GlobalNamespace {
+class IVRPlatformHelper;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -23,13 +28,7 @@ namespace UnityEngine {
 struct Pose;
 }
 namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class Transform;
+struct Quaternion;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -41,7 +40,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13938))
 // CS Name: VRController
-class CORDL_TYPE VRController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE VRController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -56,7 +55,7 @@ constexpr VRController(VRController const& ) noexcept = default;
 constexpr VRController(VRController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit VRController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit VRController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -77,11 +76,11 @@ constexpr explicit VRController(void* ptr) noexcept : ::UnityEngine::MonoBehavio
 
 // Fields
 
- ::UnityEngine::XR::XRNode __declspec(property(get=__get__node, put=__set__node))  _node;
+ UnityEngine::XR::XRNode __declspec(property(get=__get__node, put=__set__node))  _node;
 
-constexpr void __set__node(::UnityEngine::XR::XRNode value) ;
+constexpr void __set__node(UnityEngine::XR::XRNode value) ;
 
-constexpr ::UnityEngine::XR::XRNode __get__node() const;
+constexpr UnityEngine::XR::XRNode __get__node() const;
 
  int32_t __declspec(property(get=__get__nodeIdx, put=__set__nodeIdx))  _nodeIdx;
 
@@ -89,41 +88,41 @@ constexpr void __set__nodeIdx(int32_t value) ;
 
 constexpr int32_t __get__nodeIdx() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get__viewAnchor, put=__set__viewAnchor))  _viewAnchor;
+ UnityEngine::GameObject __declspec(property(get=__get__viewAnchor, put=__set__viewAnchor))  _viewAnchor;
 
-constexpr void __set__viewAnchor(::UnityEngine::GameObject value) ;
+constexpr void __set__viewAnchor(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__viewAnchor() const;
+constexpr UnityEngine::GameObject __get__viewAnchor() const;
 
- ::GlobalNamespace::VRControllerTransformOffset __declspec(property(get=__get__transformOffset, put=__set__transformOffset))  _transformOffset;
+ GlobalNamespace::VRControllerTransformOffset __declspec(property(get=__get__transformOffset, put=__set__transformOffset))  _transformOffset;
 
-constexpr void __set__transformOffset(::GlobalNamespace::VRControllerTransformOffset value) ;
+constexpr void __set__transformOffset(GlobalNamespace::VRControllerTransformOffset value) ;
 
-constexpr ::GlobalNamespace::VRControllerTransformOffset __get__transformOffset() const;
+constexpr GlobalNamespace::VRControllerTransformOffset __get__transformOffset() const;
 
- ::GlobalNamespace::IVRPlatformHelper __declspec(property(get=__get__vrPlatformHelper, put=__set__vrPlatformHelper))  _vrPlatformHelper;
+ GlobalNamespace::IVRPlatformHelper __declspec(property(get=__get__vrPlatformHelper, put=__set__vrPlatformHelper))  _vrPlatformHelper;
 
-constexpr void __set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper value) ;
+constexpr void __set__vrPlatformHelper(GlobalNamespace::IVRPlatformHelper value) ;
 
-constexpr ::GlobalNamespace::IVRPlatformHelper __get__vrPlatformHelper() const;
+constexpr GlobalNamespace::IVRPlatformHelper __get__vrPlatformHelper() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__viewAnchorTransform, put=__set__viewAnchorTransform))  _viewAnchorTransform;
+ UnityEngine::Transform __declspec(property(get=__get__viewAnchorTransform, put=__set__viewAnchorTransform))  _viewAnchorTransform;
 
-constexpr void __set__viewAnchorTransform(::UnityEngine::Transform value) ;
+constexpr void __set__viewAnchorTransform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__viewAnchorTransform() const;
+constexpr UnityEngine::Transform __get__viewAnchorTransform() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__lastTrackedPosition, put=__set__lastTrackedPosition))  _lastTrackedPosition;
+ UnityEngine::Vector3 __declspec(property(get=__get__lastTrackedPosition, put=__set__lastTrackedPosition))  _lastTrackedPosition;
 
-constexpr void __set__lastTrackedPosition(::UnityEngine::Vector3 value) ;
+constexpr void __set__lastTrackedPosition(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__lastTrackedPosition() const;
+constexpr UnityEngine::Vector3 __get__lastTrackedPosition() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get__lastTrackedRotation, put=__set__lastTrackedRotation))  _lastTrackedRotation;
+ UnityEngine::Quaternion __declspec(property(get=__get__lastTrackedRotation, put=__set__lastTrackedRotation))  _lastTrackedRotation;
 
-constexpr void __set__lastTrackedRotation(::UnityEngine::Quaternion value) ;
+constexpr void __set__lastTrackedRotation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get__lastTrackedRotation() const;
+constexpr UnityEngine::Quaternion __get__lastTrackedRotation() const;
 
  bool __declspec(property(get=__get__mouseMode, put=__set__mouseMode))  _mouseMode;
 
@@ -131,38 +130,38 @@ constexpr void __set__mouseMode(bool value) ;
 
 constexpr bool __get__mouseMode() const;
 
-static ::UnityEngine::Vector3 __declspec(property(get=__get_kLeftControllerDefaultPosition, put=__set_kLeftControllerDefaultPosition))  kLeftControllerDefaultPosition;
+static UnityEngine::Vector3 __declspec(property(get=__get_kLeftControllerDefaultPosition, put=__set_kLeftControllerDefaultPosition))  kLeftControllerDefaultPosition;
 
-static void __set_kLeftControllerDefaultPosition(::UnityEngine::Vector3 value) ;
+static void __set_kLeftControllerDefaultPosition(UnityEngine::Vector3 value) ;
 
-static ::UnityEngine::Vector3 __get_kLeftControllerDefaultPosition() ;
+static UnityEngine::Vector3 __get_kLeftControllerDefaultPosition() ;
 
-static ::UnityEngine::Vector3 __declspec(property(get=__get_kRightControllerDefaultPosition, put=__set_kRightControllerDefaultPosition))  kRightControllerDefaultPosition;
+static UnityEngine::Vector3 __declspec(property(get=__get_kRightControllerDefaultPosition, put=__set_kRightControllerDefaultPosition))  kRightControllerDefaultPosition;
 
-static void __set_kRightControllerDefaultPosition(::UnityEngine::Vector3 value) ;
+static void __set_kRightControllerDefaultPosition(UnityEngine::Vector3 value) ;
 
-static ::UnityEngine::Vector3 __get_kRightControllerDefaultPosition() ;
+static UnityEngine::Vector3 __get_kRightControllerDefaultPosition() ;
 
 
 // Properties
 
- ::UnityEngine::XR::XRNode __declspec(property(get=get_node, put=set_node))  node;
+ UnityEngine::XR::XRNode __declspec(property(get=get_node, put=set_node))  node;
 
  int32_t __declspec(property(get=get_nodeIdx, put=set_nodeIdx))  nodeIdx;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_position))  position;
+ UnityEngine::Vector3 __declspec(property(get=get_position))  position;
 
- ::UnityEngine::Quaternion __declspec(property(get=get_rotation))  rotation;
+ UnityEngine::Quaternion __declspec(property(get=get_rotation))  rotation;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_forward))  forward;
+ UnityEngine::Vector3 __declspec(property(get=get_forward))  forward;
 
  float_t __declspec(property(get=get_triggerValue))  triggerValue;
 
- ::UnityEngine::Vector2 __declspec(property(get=get_thumbstick))  thumbstick;
+ UnityEngine::Vector2 __declspec(property(get=get_thumbstick))  thumbstick;
 
  bool __declspec(property(get=get_active))  active;
 
- ::UnityEngine::Transform __declspec(property(get=get_viewAnchorTransform))  viewAnchorTransform;
+ UnityEngine::Transform __declspec(property(get=get_viewAnchorTransform))  viewAnchorTransform;
 
  bool __declspec(property(get=get_mouseMode, put=set_mouseMode))  mouseMode;
 
@@ -170,10 +169,10 @@ static ::UnityEngine::Vector3 __get_kRightControllerDefaultPosition() ;
 // Methods
 
 /// @brief Method get_node addr 0x1f8d87c size 0x8 virtual false final false
- ::UnityEngine::XR::XRNode get_node() ;
+ UnityEngine::XR::XRNode get_node() ;
 
 /// @brief Method set_node addr 0x1f8d884 size 0x8 virtual false final false
- void set_node(::UnityEngine::XR::XRNode value) ;
+ void set_node(UnityEngine::XR::XRNode value) ;
 
 /// @brief Method get_nodeIdx addr 0x1f8d88c size 0x8 virtual false final false
  int32_t get_nodeIdx() ;
@@ -182,25 +181,25 @@ static ::UnityEngine::Vector3 __get_kRightControllerDefaultPosition() ;
  void set_nodeIdx(int32_t value) ;
 
 /// @brief Method get_position addr 0x1f8d89c size 0x20 virtual false final false
- ::UnityEngine::Vector3 get_position() ;
+ UnityEngine::Vector3 get_position() ;
 
 /// @brief Method get_rotation addr 0x1f8d8bc size 0x20 virtual false final false
- ::UnityEngine::Quaternion get_rotation() ;
+ UnityEngine::Quaternion get_rotation() ;
 
 /// @brief Method get_forward addr 0x1f8d8dc size 0x20 virtual false final false
- ::UnityEngine::Vector3 get_forward() ;
+ UnityEngine::Vector3 get_forward() ;
 
 /// @brief Method get_triggerValue addr 0x1f8d8fc size 0xdc virtual false final false
  float_t get_triggerValue() ;
 
 /// @brief Method get_thumbstick addr 0x1f8d9d8 size 0xac virtual false final false
- ::UnityEngine::Vector2 get_thumbstick() ;
+ UnityEngine::Vector2 get_thumbstick() ;
 
 /// @brief Method get_active addr 0x1f8da84 size 0x20 virtual false final false
  bool get_active() ;
 
 /// @brief Method get_viewAnchorTransform addr 0x1f8daa4 size 0x8 virtual false final false
- ::UnityEngine::Transform get_viewAnchorTransform() ;
+ UnityEngine::Transform get_viewAnchorTransform() ;
 
 /// @brief Method get_mouseMode addr 0x1f8daac size 0x8 virtual false final false
  bool get_mouseMode() ;
@@ -212,7 +211,7 @@ static ::UnityEngine::Vector3 __get_kRightControllerDefaultPosition() ;
  void Awake() ;
 
 /// @brief Method Init addr 0x1f8dc10 size 0xc virtual false final false
- void Init(::GlobalNamespace::IVRPlatformHelper vrPlatformHelper) ;
+ void Init(GlobalNamespace::IVRPlatformHelper vrPlatformHelper) ;
 
 /// @brief Method OnEnable addr 0x1f8dde0 size 0x4 virtual false final false
  void OnEnable() ;
@@ -224,16 +223,16 @@ static ::UnityEngine::Vector3 __get_kRightControllerDefaultPosition() ;
  void SetupVRPlatformHelper() ;
 
 /// @brief Method GetControllerOffset addr 0x1f8deec size 0x22c virtual false final false
- ::UnityEngine::Pose GetControllerOffset() ;
+ UnityEngine::Pose GetControllerOffset() ;
 
 /// @brief Method UpdateAnchorOffsetPose addr 0x1f8e268 size 0x2c virtual false final false
- void UpdateAnchorOffsetPose(::UnityEngine::Pose poseOffset) ;
+ void UpdateAnchorOffsetPose(UnityEngine::Pose poseOffset) ;
 
 /// @brief Method AdjustPose addr 0x1f8e1c8 size 0x50 virtual false final false
-static ::UnityEngine::Pose AdjustPose(::UnityEngine::Pose originalPose, ::UnityEngine::Pose adjustment) ;
+static UnityEngine::Pose AdjustPose(UnityEngine::Pose originalPose, UnityEngine::Pose adjustment) ;
 
 /// @brief Method InvertControllerPose addr 0x1f8e218 size 0x50 virtual false final false
-static ::UnityEngine::Pose InvertControllerPose(::UnityEngine::Pose finalPose) ;
+static UnityEngine::Pose InvertControllerPose(UnityEngine::Pose finalPose) ;
 
 /// @brief Method UpdateAnchorOffsetPose addr 0x1f8dbbc size 0x2c virtual false final false
  void UpdateAnchorOffsetPose() ;
@@ -251,6 +250,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::VRController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::VRController, "", "VRController");
+NEED_NO_BOX(GlobalNamespace::VRController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRController, "", "VRController");

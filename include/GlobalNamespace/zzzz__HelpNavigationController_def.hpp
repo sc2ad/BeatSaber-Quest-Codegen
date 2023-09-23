@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__NavigationController_def.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class HelpNavigationController;
@@ -12,7 +11,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13639))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5742))
 // CS Name: HelpNavigationController
-class CORDL_TYPE HelpNavigationController : public ::HMUI::NavigationController {
+class CORDL_TYPE HelpNavigationController : public HMUI::NavigationController {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr HelpNavigationController(HelpNavigationController const& ) noexcept = 
 constexpr HelpNavigationController(HelpNavigationController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HelpNavigationController(void* ptr) noexcept : ::HMUI::NavigationController(ptr) {
+constexpr explicit HelpNavigationController(void* ptr) noexcept : HMUI::NavigationController(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::HelpNavigationController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::HelpNavigationController, "", "HelpNavigationController");
+NEED_NO_BOX(GlobalNamespace::HelpNavigationController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HelpNavigationController, "", "HelpNavigationController");

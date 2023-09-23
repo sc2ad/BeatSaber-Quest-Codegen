@@ -1,12 +1,11 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
-}
 namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Channels {
@@ -54,31 +53,30 @@ constexpr explicit AsyncRequest(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 
 // Fields
 
- ::System::Runtime::Remoting::Messaging::IMessageSink __declspec(property(get=__get_ReplySink, put=__set_ReplySink))  ReplySink;
+ System::Runtime::Remoting::Messaging::IMessageSink __declspec(property(get=__get_ReplySink, put=__set_ReplySink))  ReplySink;
 
-constexpr void __set_ReplySink(::System::Runtime::Remoting::Messaging::IMessageSink value) ;
+constexpr void __set_ReplySink(System::Runtime::Remoting::Messaging::IMessageSink value) ;
 
-constexpr ::System::Runtime::Remoting::Messaging::IMessageSink __get_ReplySink() const;
+constexpr System::Runtime::Remoting::Messaging::IMessageSink __get_ReplySink() const;
 
- ::System::Runtime::Remoting::Messaging::IMessage __declspec(property(get=__get_MsgRequest, put=__set_MsgRequest))  MsgRequest;
+ System::Runtime::Remoting::Messaging::IMessage __declspec(property(get=__get_MsgRequest, put=__set_MsgRequest))  MsgRequest;
 
-constexpr void __set_MsgRequest(::System::Runtime::Remoting::Messaging::IMessage value) ;
+constexpr void __set_MsgRequest(System::Runtime::Remoting::Messaging::IMessage value) ;
 
-constexpr ::System::Runtime::Remoting::Messaging::IMessage __get_MsgRequest() const;
+constexpr System::Runtime::Remoting::Messaging::IMessage __get_MsgRequest() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "msgRequest", ty: "::System::Runtime::Remoting::Messaging::IMessage", modifiers: "", def_value: None }, CppParam { name: "replySink", ty: "::System::Runtime::Remoting::Messaging::IMessageSink", modifiers: "", def_value: None }]
-explicit AsyncRequest(::System::Runtime::Remoting::Messaging::IMessage msgRequest, ::System::Runtime::Remoting::Messaging::IMessageSink replySink) ;
+// Ctor Parameters [CppParam { name: "msgRequest", ty: "System::Runtime::Remoting::Messaging::IMessage", modifiers: "", def_value: None }, CppParam { name: "replySink", ty: "System::Runtime::Remoting::Messaging::IMessageSink", modifiers: "", def_value: None }]
+explicit AsyncRequest(System::Runtime::Remoting::Messaging::IMessage msgRequest, System::Runtime::Remoting::Messaging::IMessageSink replySink) ;
 
 /// @brief Method .ctor addr 0x2337ac4 size 0x2c virtual false final false
- void _ctor(::System::Runtime::Remoting::Messaging::IMessage msgRequest, ::System::Runtime::Remoting::Messaging::IMessageSink replySink) ;
+ void _ctor(System::Runtime::Remoting::Messaging::IMessage msgRequest, System::Runtime::Remoting::Messaging::IMessageSink replySink) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Channels
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Channels::AsyncRequest);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Channels::AsyncRequest, "System.Runtime.Remoting.Channels", "AsyncRequest");
+NEED_NO_BOX(System::Runtime::Remoting::Channels::AsyncRequest);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::AsyncRequest, "System.Runtime.Remoting.Channels", "AsyncRequest");

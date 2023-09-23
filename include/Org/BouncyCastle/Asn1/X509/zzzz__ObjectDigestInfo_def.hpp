@@ -5,24 +5,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Asn1 {
-class DerBitString;
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerEnumerated;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+class DerBitString;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
@@ -37,7 +36,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(372))
 // CS Name: Org.BouncyCastle.Asn1.X509.ObjectDigestInfo
-class CORDL_TYPE ObjectDigestInfo : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
+class CORDL_TYPE ObjectDigestInfo : public Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -52,7 +51,7 @@ constexpr ObjectDigestInfo(ObjectDigestInfo const& ) noexcept = default;
 constexpr ObjectDigestInfo(ObjectDigestInfo&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ObjectDigestInfo(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
+constexpr explicit ObjectDigestInfo(void* ptr) noexcept : Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
 }
 
 
@@ -82,81 +81,80 @@ static constexpr int32_t  PublicKeyCert{1};
 /// @brief Field OtherObjectDigest offset 0
 static constexpr int32_t  OtherObjectDigest{2};
 
- ::Org::BouncyCastle::Asn1::DerEnumerated __declspec(property(get=__get_digestedObjectType, put=__set_digestedObjectType))  digestedObjectType;
+ Org::BouncyCastle::Asn1::DerEnumerated __declspec(property(get=__get_digestedObjectType, put=__set_digestedObjectType))  digestedObjectType;
 
-constexpr void __set_digestedObjectType(::Org::BouncyCastle::Asn1::DerEnumerated value) ;
+constexpr void __set_digestedObjectType(Org::BouncyCastle::Asn1::DerEnumerated value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::DerEnumerated __get_digestedObjectType() const;
+constexpr Org::BouncyCastle::Asn1::DerEnumerated __get_digestedObjectType() const;
 
- ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_otherObjectTypeID, put=__set_otherObjectTypeID))  otherObjectTypeID;
+ Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_otherObjectTypeID, put=__set_otherObjectTypeID))  otherObjectTypeID;
 
-constexpr void __set_otherObjectTypeID(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+constexpr void __set_otherObjectTypeID(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_otherObjectTypeID() const;
+constexpr Org::BouncyCastle::Asn1::DerObjectIdentifier __get_otherObjectTypeID() const;
 
- ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __declspec(property(get=__get_digestAlgorithm, put=__set_digestAlgorithm))  digestAlgorithm;
+ Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __declspec(property(get=__get_digestAlgorithm, put=__set_digestAlgorithm))  digestAlgorithm;
 
-constexpr void __set_digestAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier value) ;
+constexpr void __set_digestAlgorithm(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __get_digestAlgorithm() const;
+constexpr Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __get_digestAlgorithm() const;
 
- ::Org::BouncyCastle::Asn1::DerBitString __declspec(property(get=__get_objectDigest, put=__set_objectDigest))  objectDigest;
+ Org::BouncyCastle::Asn1::DerBitString __declspec(property(get=__get_objectDigest, put=__set_objectDigest))  objectDigest;
 
-constexpr void __set_objectDigest(::Org::BouncyCastle::Asn1::DerBitString value) ;
+constexpr void __set_objectDigest(Org::BouncyCastle::Asn1::DerBitString value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::DerBitString __get_objectDigest() const;
+constexpr Org::BouncyCastle::Asn1::DerBitString __get_objectDigest() const;
 
 
 // Properties
 
- ::Org::BouncyCastle::Asn1::DerEnumerated __declspec(property(get=get_DigestedObjectType))  DigestedObjectType;
+ Org::BouncyCastle::Asn1::DerEnumerated __declspec(property(get=get_DigestedObjectType))  DigestedObjectType;
 
- ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=get_OtherObjectTypeID))  OtherObjectTypeID;
+ Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=get_OtherObjectTypeID))  OtherObjectTypeID;
 
- ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __declspec(property(get=get_DigestAlgorithm))  DigestAlgorithm;
+ Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __declspec(property(get=get_DigestAlgorithm))  DigestAlgorithm;
 
- ::Org::BouncyCastle::Asn1::DerBitString __declspec(property(get=get_ObjectDigest))  ObjectDigest;
+ Org::BouncyCastle::Asn1::DerBitString __declspec(property(get=get_ObjectDigest))  ObjectDigest;
 
 
 // Methods
 
 /// @brief Method GetInstance addr 0x1109654 size 0x188 virtual false final false
-static ::Org::BouncyCastle::Asn1::X509::ObjectDigestInfo GetInstance(::bs_hook::Il2CppWrapperType obj) ;
+static Org::BouncyCastle::Asn1::X509::ObjectDigestInfo GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method GetInstance addr 0x110606c size 0x18 virtual false final false
-static ::Org::BouncyCastle::Asn1::X509::ObjectDigestInfo GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool isExplicit) ;
+static Org::BouncyCastle::Asn1::X509::ObjectDigestInfo GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool isExplicit) ;
 
-// Ctor Parameters [CppParam { name: "digestedObjectType", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "otherObjectTypeID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "digestAlgorithm", ty: "::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "objectDigest", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit ObjectDigestInfo(int32_t digestedObjectType, ::StringW otherObjectTypeID, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithm, ::ArrayW<uint8_t> objectDigest) ;
+// Ctor Parameters [CppParam { name: "digestedObjectType", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "otherObjectTypeID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "digestAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "objectDigest", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
+explicit ObjectDigestInfo(int32_t digestedObjectType, ::StringW otherObjectTypeID, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithm, ::ArrayW<uint8_t> objectDigest) ;
 
 /// @brief Method .ctor addr 0x1109a2c size 0x104 virtual false final false
- void _ctor(int32_t digestedObjectType, ::StringW otherObjectTypeID, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithm, ::ArrayW<uint8_t> objectDigest) ;
+ void _ctor(int32_t digestedObjectType, ::StringW otherObjectTypeID, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithm, ::ArrayW<uint8_t> objectDigest) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "::Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit ObjectDigestInfo(::Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
+explicit ObjectDigestInfo(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0x11097dc size 0x250 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+ void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method get_DigestedObjectType addr 0x1109b30 size 0x8 virtual false final false
- ::Org::BouncyCastle::Asn1::DerEnumerated get_DigestedObjectType() ;
+ Org::BouncyCastle::Asn1::DerEnumerated get_DigestedObjectType() ;
 
 /// @brief Method get_OtherObjectTypeID addr 0x1109b38 size 0x8 virtual false final false
- ::Org::BouncyCastle::Asn1::DerObjectIdentifier get_OtherObjectTypeID() ;
+ Org::BouncyCastle::Asn1::DerObjectIdentifier get_OtherObjectTypeID() ;
 
 /// @brief Method get_DigestAlgorithm addr 0x1109b40 size 0x8 virtual false final false
- ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier get_DigestAlgorithm() ;
+ Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier get_DigestAlgorithm() ;
 
 /// @brief Method get_ObjectDigest addr 0x1109b48 size 0x8 virtual false final false
- ::Org::BouncyCastle::Asn1::DerBitString get_ObjectDigest() ;
+ Org::BouncyCastle::Asn1::DerBitString get_ObjectDigest() ;
 
 /// @brief Method ToAsn1Object addr 0x1109b50 size 0x1c0 virtual true final false
- ::Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
+ Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::X509
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::ObjectDigestInfo);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X509::ObjectDigestInfo, "Org.BouncyCastle.Asn1.X509", "ObjectDigestInfo");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::ObjectDigestInfo);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::ObjectDigestInfo, "Org.BouncyCastle.Asn1.X509", "ObjectDigestInfo");

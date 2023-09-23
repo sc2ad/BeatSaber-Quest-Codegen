@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 class IEquatable_1;
@@ -21,8 +20,8 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE LocalKeywordSpace : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::Rendering::LocalKeywordSpace>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::Rendering::LocalKeywordSpace>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::Rendering::LocalKeywordSpace>
+constexpr operator  System::IEquatable_1<UnityEngine::Rendering::LocalKeywordSpace>() const;
 
 // Ctor Parameters [CppParam { name: "m_KeywordSpace", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
 constexpr LocalKeywordSpace(::cordl_internals::intptr_t m_KeywordSpace) noexcept;
@@ -71,10 +70,10 @@ constexpr ::cordl_internals::intptr_t __get_m_KeywordSpace() const;
  bool Equals(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method Equals addr 0x2b77030 size 0xc virtual true final true
- bool Equals(::UnityEngine::Rendering::LocalKeywordSpace rhs) ;
+ bool Equals(UnityEngine::Rendering::LocalKeywordSpace rhs) ;
 
 /// @brief Method op_Equality addr 0x2b76f34 size 0x8 virtual false final false
-static bool op_Equality(::UnityEngine::Rendering::LocalKeywordSpace lhs, ::UnityEngine::Rendering::LocalKeywordSpace rhs) ;
+static bool op_Equality(UnityEngine::Rendering::LocalKeywordSpace lhs, UnityEngine::Rendering::LocalKeywordSpace rhs) ;
 
 /// @brief Method GetHashCode addr 0x2b76f8c size 0x20 virtual true final false
  int32_t GetHashCode() ;
@@ -83,5 +82,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Rendering
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::LocalKeywordSpace, "UnityEngine.Rendering", "LocalKeywordSpace");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::LocalKeywordSpace, "UnityEngine.Rendering", "LocalKeywordSpace");

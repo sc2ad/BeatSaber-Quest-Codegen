@@ -1,12 +1,11 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace System::Net::NetworkInformation {
-class GatewayIPAddressInformationCollection;
-}
 namespace System::Net::NetworkInformation {
 class UnicastIPAddressInformationCollection;
+}
+namespace System::Net::NetworkInformation {
+class GatewayIPAddressInformationCollection;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {
@@ -54,18 +53,18 @@ constexpr explicit IPInterfaceProperties(void* ptr) noexcept : ::bs_hook::Il2Cpp
 
 // Properties
 
- ::System::Net::NetworkInformation::UnicastIPAddressInformationCollection __declspec(property(get=get_UnicastAddresses))  UnicastAddresses;
+ System::Net::NetworkInformation::UnicastIPAddressInformationCollection __declspec(property(get=get_UnicastAddresses))  UnicastAddresses;
 
- ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection __declspec(property(get=get_GatewayAddresses))  GatewayAddresses;
+ System::Net::NetworkInformation::GatewayIPAddressInformationCollection __declspec(property(get=get_GatewayAddresses))  GatewayAddresses;
 
 
 // Methods
 
 /// @brief Method get_UnicastAddresses addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Net::NetworkInformation::UnicastIPAddressInformationCollection get_UnicastAddresses() ;
+ System::Net::NetworkInformation::UnicastIPAddressInformationCollection get_UnicastAddresses() ;
 
 /// @brief Method get_GatewayAddresses addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection get_GatewayAddresses() ;
+ System::Net::NetworkInformation::GatewayIPAddressInformationCollection get_GatewayAddresses() ;
 
 // Ctor Parameters []
 explicit IPInterfaceProperties() ;
@@ -77,6 +76,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::NetworkInformation
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::NetworkInformation::IPInterfaceProperties);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::IPInterfaceProperties, "System.Net.NetworkInformation", "IPInterfaceProperties");
+NEED_NO_BOX(System::Net::NetworkInformation::IPInterfaceProperties);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::IPInterfaceProperties, "System.Net.NetworkInformation", "IPInterfaceProperties");

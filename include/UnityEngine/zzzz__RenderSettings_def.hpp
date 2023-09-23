@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace {
 namespace UnityEngine {
 struct Color;
 }
@@ -16,7 +15,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10142))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10029))
 // CS Name: UnityEngine.RenderSettings
-class CORDL_TYPE RenderSettings : public ::UnityEngine::Object {
+class CORDL_TYPE RenderSettings : public UnityEngine::Object {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr RenderSettings(RenderSettings const& ) noexcept = default;
 constexpr RenderSettings(RenderSettings&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RenderSettings(void* ptr) noexcept : ::UnityEngine::Object(ptr) {
+constexpr explicit RenderSettings(void* ptr) noexcept : UnityEngine::Object(ptr) {
 }
 
 
@@ -52,27 +51,26 @@ constexpr explicit RenderSettings(void* ptr) noexcept : ::UnityEngine::Object(pt
 
 // Properties
 
-static ::UnityEngine::Color __declspec(property(get=get_fogColor, put=set_fogColor))  fogColor;
+static UnityEngine::Color __declspec(property(get=get_fogColor, put=set_fogColor))  fogColor;
 
 
 // Methods
 
 /// @brief Method get_fogColor addr 0x2b406a0 size 0x48 virtual false final false
-static ::UnityEngine::Color get_fogColor() ;
+static UnityEngine::Color get_fogColor() ;
 
 /// @brief Method set_fogColor addr 0x2b40724 size 0x44 virtual false final false
-static void set_fogColor(::UnityEngine::Color value) ;
+static void set_fogColor(UnityEngine::Color value) ;
 
 /// @brief Method get_fogColor_Injected addr 0x2b406e8 size 0x3c virtual false final false
-static void get_fogColor_Injected(ByRef<::UnityEngine::Color> ret) ;
+static void get_fogColor_Injected(ByRef<UnityEngine::Color> ret) ;
 
 /// @brief Method set_fogColor_Injected addr 0x2b40768 size 0x3c virtual false final false
-static void set_fogColor_Injected(ByRef<::UnityEngine::Color> value) ;
+static void set_fogColor_Injected(ByRef<UnityEngine::Color> value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::RenderSettings);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::RenderSettings, "UnityEngine", "RenderSettings");
+NEED_NO_BOX(UnityEngine::RenderSettings);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RenderSettings, "UnityEngine", "RenderSettings");

@@ -1,15 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class AchievementsModelSO;
-}
 namespace GlobalNamespace {
 class Signal;
 }
 namespace GlobalNamespace {
 class AchievementSO;
+}
+namespace GlobalNamespace {
+class AchievementsModelSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4113))
 // CS Name: FinishTutorialAchievementHandler
-class CORDL_TYPE FinishTutorialAchievementHandler : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE FinishTutorialAchievementHandler : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr FinishTutorialAchievementHandler(FinishTutorialAchievementHandler cons
 constexpr FinishTutorialAchievementHandler(FinishTutorialAchievementHandler&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FinishTutorialAchievementHandler(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit FinishTutorialAchievementHandler(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -57,23 +56,23 @@ constexpr explicit FinishTutorialAchievementHandler(void* ptr) noexcept : ::Unit
 
 // Fields
 
- ::GlobalNamespace::AchievementsModelSO __declspec(property(get=__get__achievementsModel, put=__set__achievementsModel))  _achievementsModel;
+ GlobalNamespace::AchievementsModelSO __declspec(property(get=__get__achievementsModel, put=__set__achievementsModel))  _achievementsModel;
 
-constexpr void __set__achievementsModel(::GlobalNamespace::AchievementsModelSO value) ;
+constexpr void __set__achievementsModel(GlobalNamespace::AchievementsModelSO value) ;
 
-constexpr ::GlobalNamespace::AchievementsModelSO __get__achievementsModel() const;
+constexpr GlobalNamespace::AchievementsModelSO __get__achievementsModel() const;
 
- ::GlobalNamespace::Signal __declspec(property(get=__get__tutorialFinishedSignal, put=__set__tutorialFinishedSignal))  _tutorialFinishedSignal;
+ GlobalNamespace::Signal __declspec(property(get=__get__tutorialFinishedSignal, put=__set__tutorialFinishedSignal))  _tutorialFinishedSignal;
 
-constexpr void __set__tutorialFinishedSignal(::GlobalNamespace::Signal value) ;
+constexpr void __set__tutorialFinishedSignal(GlobalNamespace::Signal value) ;
 
-constexpr ::GlobalNamespace::Signal __get__tutorialFinishedSignal() const;
+constexpr GlobalNamespace::Signal __get__tutorialFinishedSignal() const;
 
- ::GlobalNamespace::AchievementSO __declspec(property(get=__get__finishTutorialAchievement, put=__set__finishTutorialAchievement))  _finishTutorialAchievement;
+ GlobalNamespace::AchievementSO __declspec(property(get=__get__finishTutorialAchievement, put=__set__finishTutorialAchievement))  _finishTutorialAchievement;
 
-constexpr void __set__finishTutorialAchievement(::GlobalNamespace::AchievementSO value) ;
+constexpr void __set__finishTutorialAchievement(GlobalNamespace::AchievementSO value) ;
 
-constexpr ::GlobalNamespace::AchievementSO __get__finishTutorialAchievement() const;
+constexpr GlobalNamespace::AchievementSO __get__finishTutorialAchievement() const;
 
 
 // Methods
@@ -97,6 +96,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::FinishTutorialAchievementHandler);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FinishTutorialAchievementHandler, "", "FinishTutorialAchievementHandler");
+NEED_NO_BOX(GlobalNamespace::FinishTutorialAchievementHandler);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FinishTutorialAchievementHandler, "", "FinishTutorialAchievementHandler");

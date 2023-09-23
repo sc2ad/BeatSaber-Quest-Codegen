@@ -3,24 +3,23 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
+namespace Org::BouncyCastle::Asn1::Crmf {
+class EncryptedValue;
+}
 namespace Org::BouncyCastle::Crypto {
 class IKeyWrapper;
 }
-namespace Org::BouncyCastle::Crypto {
-class ICipherBuilderWithKey;
-}
 namespace Org::BouncyCastle::Crmf {
 class IEncryptedValuePadder;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherBuilderWithKey;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
 namespace Org::BouncyCastle::Asn1::Pkcs {
 class PrivateKeyInfo;
-}
-namespace Org::BouncyCastle::Asn1::Crmf {
-class EncryptedValue;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {
@@ -68,50 +67,50 @@ constexpr explicit EncryptedValueBuilder(void* ptr) noexcept : ::bs_hook::Il2Cpp
 
 // Fields
 
- ::Org::BouncyCastle::Crypto::IKeyWrapper __declspec(property(get=__get_wrapper, put=__set_wrapper))  wrapper;
+ Org::BouncyCastle::Crypto::IKeyWrapper __declspec(property(get=__get_wrapper, put=__set_wrapper))  wrapper;
 
-constexpr void __set_wrapper(::Org::BouncyCastle::Crypto::IKeyWrapper value) ;
+constexpr void __set_wrapper(Org::BouncyCastle::Crypto::IKeyWrapper value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IKeyWrapper __get_wrapper() const;
+constexpr Org::BouncyCastle::Crypto::IKeyWrapper __get_wrapper() const;
 
- ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey __declspec(property(get=__get_encryptor, put=__set_encryptor))  encryptor;
+ Org::BouncyCastle::Crypto::ICipherBuilderWithKey __declspec(property(get=__get_encryptor, put=__set_encryptor))  encryptor;
 
-constexpr void __set_encryptor(::Org::BouncyCastle::Crypto::ICipherBuilderWithKey value) ;
+constexpr void __set_encryptor(Org::BouncyCastle::Crypto::ICipherBuilderWithKey value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey __get_encryptor() const;
+constexpr Org::BouncyCastle::Crypto::ICipherBuilderWithKey __get_encryptor() const;
 
- ::Org::BouncyCastle::Crmf::IEncryptedValuePadder __declspec(property(get=__get_padder, put=__set_padder))  padder;
+ Org::BouncyCastle::Crmf::IEncryptedValuePadder __declspec(property(get=__get_padder, put=__set_padder))  padder;
 
-constexpr void __set_padder(::Org::BouncyCastle::Crmf::IEncryptedValuePadder value) ;
+constexpr void __set_padder(Org::BouncyCastle::Crmf::IEncryptedValuePadder value) ;
 
-constexpr ::Org::BouncyCastle::Crmf::IEncryptedValuePadder __get_padder() const;
+constexpr Org::BouncyCastle::Crmf::IEncryptedValuePadder __get_padder() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "wrapper", ty: "::Org::BouncyCastle::Crypto::IKeyWrapper", modifiers: "", def_value: None }, CppParam { name: "encryptor", ty: "::Org::BouncyCastle::Crypto::ICipherBuilderWithKey", modifiers: "", def_value: None }]
-explicit EncryptedValueBuilder(::Org::BouncyCastle::Crypto::IKeyWrapper wrapper, ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey encryptor) ;
+// Ctor Parameters [CppParam { name: "wrapper", ty: "Org::BouncyCastle::Crypto::IKeyWrapper", modifiers: "", def_value: None }, CppParam { name: "encryptor", ty: "Org::BouncyCastle::Crypto::ICipherBuilderWithKey", modifiers: "", def_value: None }]
+explicit EncryptedValueBuilder(Org::BouncyCastle::Crypto::IKeyWrapper wrapper, Org::BouncyCastle::Crypto::ICipherBuilderWithKey encryptor) ;
 
 /// @brief Method .ctor addr 0x11856a0 size 0x30 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IKeyWrapper wrapper, ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey encryptor) ;
+ void _ctor(Org::BouncyCastle::Crypto::IKeyWrapper wrapper, Org::BouncyCastle::Crypto::ICipherBuilderWithKey encryptor) ;
 
-// Ctor Parameters [CppParam { name: "wrapper", ty: "::Org::BouncyCastle::Crypto::IKeyWrapper", modifiers: "", def_value: None }, CppParam { name: "encryptor", ty: "::Org::BouncyCastle::Crypto::ICipherBuilderWithKey", modifiers: "", def_value: None }, CppParam { name: "padder", ty: "::Org::BouncyCastle::Crmf::IEncryptedValuePadder", modifiers: "", def_value: None }]
-explicit EncryptedValueBuilder(::Org::BouncyCastle::Crypto::IKeyWrapper wrapper, ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey encryptor, ::Org::BouncyCastle::Crmf::IEncryptedValuePadder padder) ;
+// Ctor Parameters [CppParam { name: "wrapper", ty: "Org::BouncyCastle::Crypto::IKeyWrapper", modifiers: "", def_value: None }, CppParam { name: "encryptor", ty: "Org::BouncyCastle::Crypto::ICipherBuilderWithKey", modifiers: "", def_value: None }, CppParam { name: "padder", ty: "Org::BouncyCastle::Crmf::IEncryptedValuePadder", modifiers: "", def_value: None }]
+explicit EncryptedValueBuilder(Org::BouncyCastle::Crypto::IKeyWrapper wrapper, Org::BouncyCastle::Crypto::ICipherBuilderWithKey encryptor, Org::BouncyCastle::Crmf::IEncryptedValuePadder padder) ;
 
 /// @brief Method .ctor addr 0x11856d0 size 0x3c virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IKeyWrapper wrapper, ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey encryptor, ::Org::BouncyCastle::Crmf::IEncryptedValuePadder padder) ;
+ void _ctor(Org::BouncyCastle::Crypto::IKeyWrapper wrapper, Org::BouncyCastle::Crypto::ICipherBuilderWithKey encryptor, Org::BouncyCastle::Crmf::IEncryptedValuePadder padder) ;
 
 /// @brief Method Build addr 0x118570c size 0x30 virtual false final false
- ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue Build(::ArrayW<char16_t> revocationPassphrase) ;
+ Org::BouncyCastle::Asn1::Crmf::EncryptedValue Build(::ArrayW<char16_t> revocationPassphrase) ;
 
 /// @brief Method Build addr 0x1185f24 size 0x144 virtual false final false
- ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue Build(::Org::BouncyCastle::X509::X509Certificate holder) ;
+ Org::BouncyCastle::Asn1::Crmf::EncryptedValue Build(Org::BouncyCastle::X509::X509Certificate holder) ;
 
 /// @brief Method Build addr 0x1186068 size 0x5b4 virtual false final false
- ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue Build(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo privateKeyInfo) ;
+ Org::BouncyCastle::Asn1::Crmf::EncryptedValue Build(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo privateKeyInfo) ;
 
 /// @brief Method EncryptData addr 0x11857f0 size 0x734 virtual false final false
- ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue EncryptData(::ArrayW<uint8_t> data) ;
+ Org::BouncyCastle::Asn1::Crmf::EncryptedValue EncryptData(::ArrayW<uint8_t> data) ;
 
 /// @brief Method PadData addr 0x118573c size 0xb4 virtual false final false
  ::ArrayW<uint8_t> PadData(::ArrayW<uint8_t> data) ;
@@ -120,6 +119,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crmf
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crmf::EncryptedValueBuilder);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crmf::EncryptedValueBuilder, "Org.BouncyCastle.Crmf", "EncryptedValueBuilder");
+NEED_NO_BOX(Org::BouncyCastle::Crmf::EncryptedValueBuilder);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crmf::EncryptedValueBuilder, "Org.BouncyCastle.Crmf", "EncryptedValueBuilder");

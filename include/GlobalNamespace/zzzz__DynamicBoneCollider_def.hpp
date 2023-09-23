@@ -3,7 +3,6 @@
 #include "GlobalNamespace/zzzz__DynamicBoneColliderBase_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -17,7 +16,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15905))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15902))
 // CS Name: DynamicBoneCollider
-class CORDL_TYPE DynamicBoneCollider : public ::GlobalNamespace::DynamicBoneColliderBase {
+class CORDL_TYPE DynamicBoneCollider : public GlobalNamespace::DynamicBoneColliderBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr DynamicBoneCollider(DynamicBoneCollider const& ) noexcept = default;
 constexpr DynamicBoneCollider(DynamicBoneCollider&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DynamicBoneCollider(void* ptr) noexcept : ::GlobalNamespace::DynamicBoneColliderBase(ptr) {
+constexpr explicit DynamicBoneCollider(void* ptr) noexcept : GlobalNamespace::DynamicBoneColliderBase(ptr) {
 }
 
 
@@ -72,19 +71,19 @@ constexpr float_t __get_m_Height() const;
  void OnValidate() ;
 
 /// @brief Method Collide addr 0x11a5ecc size 0x1f4 virtual true final false
- void Collide(ByRef<::UnityEngine::Vector3> particlePosition, float_t particleRadius) ;
+ void Collide(ByRef<UnityEngine::Vector3> particlePosition, float_t particleRadius) ;
 
 /// @brief Method OutsideSphere addr 0x11a60c0 size 0x60 virtual false final false
-static void OutsideSphere(ByRef<::UnityEngine::Vector3> particlePosition, float_t particleRadius, ::UnityEngine::Vector3 sphereCenter, float_t sphereRadius) ;
+static void OutsideSphere(ByRef<UnityEngine::Vector3> particlePosition, float_t particleRadius, UnityEngine::Vector3 sphereCenter, float_t sphereRadius) ;
 
 /// @brief Method InsideSphere addr 0x11a6120 size 0x58 virtual false final false
-static void InsideSphere(ByRef<::UnityEngine::Vector3> particlePosition, float_t particleRadius, ::UnityEngine::Vector3 sphereCenter, float_t sphereRadius) ;
+static void InsideSphere(ByRef<UnityEngine::Vector3> particlePosition, float_t particleRadius, UnityEngine::Vector3 sphereCenter, float_t sphereRadius) ;
 
 /// @brief Method OutsideCapsule addr 0x11a6178 size 0x174 virtual false final false
-static void OutsideCapsule(ByRef<::UnityEngine::Vector3> particlePosition, float_t particleRadius, ::UnityEngine::Vector3 capsuleP0, ::UnityEngine::Vector3 capsuleP1, float_t capsuleRadius) ;
+static void OutsideCapsule(ByRef<UnityEngine::Vector3> particlePosition, float_t particleRadius, UnityEngine::Vector3 capsuleP0, UnityEngine::Vector3 capsuleP1, float_t capsuleRadius) ;
 
 /// @brief Method InsideCapsule addr 0x11a62ec size 0x15c virtual false final false
-static void InsideCapsule(ByRef<::UnityEngine::Vector3> particlePosition, float_t particleRadius, ::UnityEngine::Vector3 capsuleP0, ::UnityEngine::Vector3 capsuleP1, float_t capsuleRadius) ;
+static void InsideCapsule(ByRef<UnityEngine::Vector3> particlePosition, float_t particleRadius, UnityEngine::Vector3 capsuleP0, UnityEngine::Vector3 capsuleP1, float_t capsuleRadius) ;
 
 /// @brief Method OnDrawGizmosSelected addr 0x11a6448 size 0x19c virtual false final false
  void OnDrawGizmosSelected() ;
@@ -99,6 +98,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::DynamicBoneCollider);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DynamicBoneCollider, "", "DynamicBoneCollider");
+NEED_NO_BOX(GlobalNamespace::DynamicBoneCollider);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBoneCollider, "", "DynamicBoneCollider");

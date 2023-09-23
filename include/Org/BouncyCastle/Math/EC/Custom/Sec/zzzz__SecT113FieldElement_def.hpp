@@ -5,12 +5,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Math::EC {
 class ECFieldElement;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Custom::Sec {
@@ -22,7 +21,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1441))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1442))
 // CS Name: Org.BouncyCastle.Math.EC.Custom.Sec.SecT113FieldElement
-class CORDL_TYPE SecT113FieldElement : public ::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement {
+class CORDL_TYPE SecT113FieldElement : public Org::BouncyCastle::Math::EC::AbstractF2mFieldElement {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr SecT113FieldElement(SecT113FieldElement const& ) noexcept = default;
 constexpr SecT113FieldElement(SecT113FieldElement&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SecT113FieldElement(void* ptr) noexcept : ::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement(ptr) {
+constexpr explicit SecT113FieldElement(void* ptr) noexcept : Org::BouncyCastle::Math::EC::AbstractF2mFieldElement(ptr) {
 }
 
 
@@ -90,11 +89,11 @@ constexpr ::ArrayW<uint64_t> __get_x() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "x", ty: "::Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit SecT113FieldElement(::Org::BouncyCastle::Math::BigInteger x) ;
+// Ctor Parameters [CppParam { name: "x", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
+explicit SecT113FieldElement(Org::BouncyCastle::Math::BigInteger x) ;
 
 /// @brief Method .ctor addr 0xf74bc0 size 0xb8 virtual false final false
- void _ctor(::Org::BouncyCastle::Math::BigInteger x) ;
+ void _ctor(Org::BouncyCastle::Math::BigInteger x) ;
 
 // Ctor Parameters []
 explicit SecT113FieldElement() ;
@@ -118,7 +117,7 @@ explicit SecT113FieldElement(::ArrayW<uint64_t> x) ;
  bool TestBitZero() ;
 
 /// @brief Method ToBigInteger addr 0xf74d08 size 0xc virtual true final false
- ::Org::BouncyCastle::Math::BigInteger ToBigInteger() ;
+ Org::BouncyCastle::Math::BigInteger ToBigInteger() ;
 
 /// @brief Method get_FieldName addr 0xf74d14 size 0x40 virtual true final false
  ::StringW get_FieldName() ;
@@ -127,43 +126,43 @@ explicit SecT113FieldElement(::ArrayW<uint64_t> x) ;
  int32_t get_FieldSize() ;
 
 /// @brief Method Add addr 0xf74d5c size 0xc4 virtual true final false
- ::Org::BouncyCastle::Math::EC::ECFieldElement Add(::Org::BouncyCastle::Math::EC::ECFieldElement b) ;
+ Org::BouncyCastle::Math::EC::ECFieldElement Add(Org::BouncyCastle::Math::EC::ECFieldElement b) ;
 
 /// @brief Method AddOne addr 0xf74e20 size 0x80 virtual true final false
- ::Org::BouncyCastle::Math::EC::ECFieldElement AddOne() ;
+ Org::BouncyCastle::Math::EC::ECFieldElement AddOne() ;
 
 /// @brief Method Subtract addr 0xf74ea0 size 0xc virtual true final false
- ::Org::BouncyCastle::Math::EC::ECFieldElement Subtract(::Org::BouncyCastle::Math::EC::ECFieldElement b) ;
+ Org::BouncyCastle::Math::EC::ECFieldElement Subtract(Org::BouncyCastle::Math::EC::ECFieldElement b) ;
 
 /// @brief Method Multiply addr 0xf74eac size 0xc4 virtual true final false
- ::Org::BouncyCastle::Math::EC::ECFieldElement Multiply(::Org::BouncyCastle::Math::EC::ECFieldElement b) ;
+ Org::BouncyCastle::Math::EC::ECFieldElement Multiply(Org::BouncyCastle::Math::EC::ECFieldElement b) ;
 
 /// @brief Method MultiplyMinusProduct addr 0xf74f70 size 0x10 virtual true final false
- ::Org::BouncyCastle::Math::EC::ECFieldElement MultiplyMinusProduct(::Org::BouncyCastle::Math::EC::ECFieldElement b, ::Org::BouncyCastle::Math::EC::ECFieldElement x, ::Org::BouncyCastle::Math::EC::ECFieldElement y) ;
+ Org::BouncyCastle::Math::EC::ECFieldElement MultiplyMinusProduct(Org::BouncyCastle::Math::EC::ECFieldElement b, Org::BouncyCastle::Math::EC::ECFieldElement x, Org::BouncyCastle::Math::EC::ECFieldElement y) ;
 
 /// @brief Method MultiplyPlusProduct addr 0xf74f80 size 0x164 virtual true final false
- ::Org::BouncyCastle::Math::EC::ECFieldElement MultiplyPlusProduct(::Org::BouncyCastle::Math::EC::ECFieldElement b, ::Org::BouncyCastle::Math::EC::ECFieldElement x, ::Org::BouncyCastle::Math::EC::ECFieldElement y) ;
+ Org::BouncyCastle::Math::EC::ECFieldElement MultiplyPlusProduct(Org::BouncyCastle::Math::EC::ECFieldElement b, Org::BouncyCastle::Math::EC::ECFieldElement x, Org::BouncyCastle::Math::EC::ECFieldElement y) ;
 
 /// @brief Method Divide addr 0xf750e4 size 0x40 virtual true final false
- ::Org::BouncyCastle::Math::EC::ECFieldElement Divide(::Org::BouncyCastle::Math::EC::ECFieldElement b) ;
+ Org::BouncyCastle::Math::EC::ECFieldElement Divide(Org::BouncyCastle::Math::EC::ECFieldElement b) ;
 
 /// @brief Method Negate addr 0xf75124 size 0x4 virtual true final false
- ::Org::BouncyCastle::Math::EC::ECFieldElement Negate() ;
+ Org::BouncyCastle::Math::EC::ECFieldElement Negate() ;
 
 /// @brief Method Square addr 0xf75128 size 0x80 virtual true final false
- ::Org::BouncyCastle::Math::EC::ECFieldElement Square() ;
+ Org::BouncyCastle::Math::EC::ECFieldElement Square() ;
 
 /// @brief Method SquareMinusProduct addr 0xf751a8 size 0x10 virtual true final false
- ::Org::BouncyCastle::Math::EC::ECFieldElement SquareMinusProduct(::Org::BouncyCastle::Math::EC::ECFieldElement x, ::Org::BouncyCastle::Math::EC::ECFieldElement y) ;
+ Org::BouncyCastle::Math::EC::ECFieldElement SquareMinusProduct(Org::BouncyCastle::Math::EC::ECFieldElement x, Org::BouncyCastle::Math::EC::ECFieldElement y) ;
 
 /// @brief Method SquarePlusProduct addr 0xf751b8 size 0x124 virtual true final false
- ::Org::BouncyCastle::Math::EC::ECFieldElement SquarePlusProduct(::Org::BouncyCastle::Math::EC::ECFieldElement x, ::Org::BouncyCastle::Math::EC::ECFieldElement y) ;
+ Org::BouncyCastle::Math::EC::ECFieldElement SquarePlusProduct(Org::BouncyCastle::Math::EC::ECFieldElement x, Org::BouncyCastle::Math::EC::ECFieldElement y) ;
 
 /// @brief Method SquarePow addr 0xf752dc size 0x98 virtual true final false
- ::Org::BouncyCastle::Math::EC::ECFieldElement SquarePow(int32_t pow) ;
+ Org::BouncyCastle::Math::EC::ECFieldElement SquarePow(int32_t pow) ;
 
 /// @brief Method HalfTrace addr 0xf75374 size 0x80 virtual true final false
- ::Org::BouncyCastle::Math::EC::ECFieldElement HalfTrace() ;
+ Org::BouncyCastle::Math::EC::ECFieldElement HalfTrace() ;
 
 /// @brief Method get_HasFastTrace addr 0xf753f4 size 0x8 virtual true final false
  bool get_HasFastTrace() ;
@@ -172,10 +171,10 @@ explicit SecT113FieldElement(::ArrayW<uint64_t> x) ;
  int32_t Trace() ;
 
 /// @brief Method Invert addr 0xf75404 size 0x80 virtual true final false
- ::Org::BouncyCastle::Math::EC::ECFieldElement Invert() ;
+ Org::BouncyCastle::Math::EC::ECFieldElement Invert() ;
 
 /// @brief Method Sqrt addr 0xf75484 size 0x80 virtual true final false
- ::Org::BouncyCastle::Math::EC::ECFieldElement Sqrt() ;
+ Org::BouncyCastle::Math::EC::ECFieldElement Sqrt() ;
 
 /// @brief Method get_Representation addr 0xf75504 size 0x8 virtual true final false
  int32_t get_Representation() ;
@@ -196,10 +195,10 @@ explicit SecT113FieldElement(::ArrayW<uint64_t> x) ;
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0xf755b8 size 0x8c virtual true final false
- bool Equals(::Org::BouncyCastle::Math::EC::ECFieldElement other) ;
+ bool Equals(Org::BouncyCastle::Math::EC::ECFieldElement other) ;
 
 /// @brief Method Equals addr 0xf75644 size 0x2c virtual true final false
- bool Equals(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT113FieldElement other) ;
+ bool Equals(Org::BouncyCastle::Math::EC::Custom::Sec::SecT113FieldElement other) ;
 
 /// @brief Method GetHashCode addr 0xf75670 size 0x74 virtual true final false
  int32_t GetHashCode() ;
@@ -208,6 +207,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Math::EC::Custom::Sec
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT113FieldElement);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT113FieldElement, "Org.BouncyCastle.Math.EC.Custom.Sec", "SecT113FieldElement");
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Custom::Sec::SecT113FieldElement);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Sec::SecT113FieldElement, "Org.BouncyCastle.Math.EC.Custom.Sec", "SecT113FieldElement");

@@ -3,7 +3,6 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 class Sprite;
 }
@@ -17,7 +16,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4269))
 // CS Name: BeatmapCharacteristicSO
-class CORDL_TYPE BeatmapCharacteristicSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE BeatmapCharacteristicSO : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr BeatmapCharacteristicSO(BeatmapCharacteristicSO const& ) noexcept = de
 constexpr BeatmapCharacteristicSO(BeatmapCharacteristicSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BeatmapCharacteristicSO(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit BeatmapCharacteristicSO(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -53,11 +52,11 @@ constexpr explicit BeatmapCharacteristicSO(void* ptr) noexcept : ::GlobalNamespa
 
 // Fields
 
- ::UnityEngine::Sprite __declspec(property(get=__get__icon, put=__set__icon))  _icon;
+ UnityEngine::Sprite __declspec(property(get=__get__icon, put=__set__icon))  _icon;
 
-constexpr void __set__icon(::UnityEngine::Sprite value) ;
+constexpr void __set__icon(UnityEngine::Sprite value) ;
 
-constexpr ::UnityEngine::Sprite __get__icon() const;
+constexpr UnityEngine::Sprite __get__icon() const;
 
  ::StringW __declspec(property(get=__get__descriptionLocalizationKey, put=__set__descriptionLocalizationKey))  _descriptionLocalizationKey;
 
@@ -110,7 +109,7 @@ constexpr int32_t __get__numberOfColors() const;
 
 // Properties
 
- ::UnityEngine::Sprite __declspec(property(get=get_icon))  icon;
+ UnityEngine::Sprite __declspec(property(get=get_icon))  icon;
 
  ::StringW __declspec(property(get=get_descriptionLocalizationKey))  descriptionLocalizationKey;
 
@@ -132,7 +131,7 @@ constexpr int32_t __get__numberOfColors() const;
 // Methods
 
 /// @brief Method get_icon addr 0x21c96e8 size 0x8 virtual false final false
- ::UnityEngine::Sprite get_icon() ;
+ UnityEngine::Sprite get_icon() ;
 
 /// @brief Method get_descriptionLocalizationKey addr 0x21c96f0 size 0x8 virtual false final false
  ::StringW get_descriptionLocalizationKey() ;
@@ -168,6 +167,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BeatmapCharacteristicSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapCharacteristicSO, "", "BeatmapCharacteristicSO");
+NEED_NO_BOX(GlobalNamespace::BeatmapCharacteristicSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicSO, "", "BeatmapCharacteristicSO");

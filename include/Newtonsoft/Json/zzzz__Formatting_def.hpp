@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Newtonsoft::Json {
 struct Formatting;
@@ -67,14 +66,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::Newtonsoft::Json::Formatting const None;
+static Newtonsoft::Json::Formatting const None;
 
 /// @brief Field Indented offset 0
-static ::Newtonsoft::Json::Formatting const Indented;
+static Newtonsoft::Json::Formatting const Indented;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Formatting, "Newtonsoft.Json", "Formatting");
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Formatting, "Newtonsoft.Json", "Formatting");

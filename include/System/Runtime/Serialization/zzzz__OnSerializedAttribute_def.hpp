@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 // Forward declare root types
 namespace System::Runtime::Serialization {
 class OnSerializedAttribute;
@@ -12,7 +11,7 @@ namespace System::Runtime::Serialization {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3226))
 // CS Name: System.Runtime.Serialization.OnSerializedAttribute
-class CORDL_TYPE OnSerializedAttribute : public ::System::Attribute {
+class CORDL_TYPE OnSerializedAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr OnSerializedAttribute(OnSerializedAttribute const& ) noexcept = defaul
 constexpr OnSerializedAttribute(OnSerializedAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OnSerializedAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit OnSerializedAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::OnSerializedAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::OnSerializedAttribute, "System.Runtime.Serialization", "OnSerializedAttribute");
+NEED_NO_BOX(System::Runtime::Serialization::OnSerializedAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::OnSerializedAttribute, "System.Runtime.Serialization", "OnSerializedAttribute");

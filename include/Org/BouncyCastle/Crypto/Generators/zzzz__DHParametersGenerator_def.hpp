@@ -2,12 +2,11 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DHParameters;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {
@@ -67,20 +66,20 @@ constexpr void __set_certainty(int32_t value) ;
 
 constexpr int32_t __get_certainty() const;
 
- ::Org::BouncyCastle::Security::SecureRandom __declspec(property(get=__get_random, put=__set_random))  random;
+ Org::BouncyCastle::Security::SecureRandom __declspec(property(get=__get_random, put=__set_random))  random;
 
-constexpr void __set_random(::Org::BouncyCastle::Security::SecureRandom value) ;
+constexpr void __set_random(Org::BouncyCastle::Security::SecureRandom value) ;
 
-constexpr ::Org::BouncyCastle::Security::SecureRandom __get_random() const;
+constexpr Org::BouncyCastle::Security::SecureRandom __get_random() const;
 
 
 // Methods
 
 /// @brief Method Init addr 0xe6b754 size 0xc virtual true final false
- void Init(int32_t size, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom random) ;
+ void Init(int32_t size, int32_t certainty, Org::BouncyCastle::Security::SecureRandom random) ;
 
 /// @brief Method GenerateParameters addr 0xe6b760 size 0x118 virtual true final false
- ::Org::BouncyCastle::Crypto::Parameters::DHParameters GenerateParameters() ;
+ Org::BouncyCastle::Crypto::Parameters::DHParameters GenerateParameters() ;
 
 // Ctor Parameters []
 explicit DHParametersGenerator() ;
@@ -92,6 +91,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Generators
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Generators::DHParametersGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Generators::DHParametersGenerator, "Org.BouncyCastle.Crypto.Generators", "DHParametersGenerator");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Generators::DHParametersGenerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::DHParametersGenerator, "Org.BouncyCastle.Crypto.Generators", "DHParametersGenerator");

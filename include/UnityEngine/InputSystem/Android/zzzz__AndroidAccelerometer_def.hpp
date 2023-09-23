@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/zzzz__Accelerometer_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem::Android {
 class AndroidAccelerometer;
@@ -12,7 +11,7 @@ namespace UnityEngine::InputSystem::Android {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6358))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6515))
 // CS Name: UnityEngine.InputSystem.Android.AndroidAccelerometer
-class CORDL_TYPE AndroidAccelerometer : public ::UnityEngine::InputSystem::Accelerometer {
+class CORDL_TYPE AndroidAccelerometer : public UnityEngine::InputSystem::Accelerometer {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr AndroidAccelerometer(AndroidAccelerometer const& ) noexcept = default;
 constexpr AndroidAccelerometer(AndroidAccelerometer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AndroidAccelerometer(void* ptr) noexcept : ::UnityEngine::InputSystem::Accelerometer(ptr) {
+constexpr explicit AndroidAccelerometer(void* ptr) noexcept : UnityEngine::InputSystem::Accelerometer(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Android
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Android::AndroidAccelerometer);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Android::AndroidAccelerometer, "UnityEngine.InputSystem.Android", "AndroidAccelerometer");
+NEED_NO_BOX(UnityEngine::InputSystem::Android::AndroidAccelerometer);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Android::AndroidAccelerometer, "UnityEngine.InputSystem.Android", "AndroidAccelerometer");

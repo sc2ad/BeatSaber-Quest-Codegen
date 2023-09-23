@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct HumanBodyBones;
@@ -121,176 +120,175 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Hips offset 0
-static ::UnityEngine::HumanBodyBones const Hips;
+static UnityEngine::HumanBodyBones const Hips;
 
 /// @brief Field LeftUpperLeg offset 0
-static ::UnityEngine::HumanBodyBones const LeftUpperLeg;
+static UnityEngine::HumanBodyBones const LeftUpperLeg;
 
 /// @brief Field RightUpperLeg offset 0
-static ::UnityEngine::HumanBodyBones const RightUpperLeg;
+static UnityEngine::HumanBodyBones const RightUpperLeg;
 
 /// @brief Field LeftLowerLeg offset 0
-static ::UnityEngine::HumanBodyBones const LeftLowerLeg;
+static UnityEngine::HumanBodyBones const LeftLowerLeg;
 
 /// @brief Field RightLowerLeg offset 0
-static ::UnityEngine::HumanBodyBones const RightLowerLeg;
+static UnityEngine::HumanBodyBones const RightLowerLeg;
 
 /// @brief Field LeftFoot offset 0
-static ::UnityEngine::HumanBodyBones const LeftFoot;
+static UnityEngine::HumanBodyBones const LeftFoot;
 
 /// @brief Field RightFoot offset 0
-static ::UnityEngine::HumanBodyBones const RightFoot;
+static UnityEngine::HumanBodyBones const RightFoot;
 
 /// @brief Field Spine offset 0
-static ::UnityEngine::HumanBodyBones const Spine;
+static UnityEngine::HumanBodyBones const Spine;
 
 /// @brief Field Chest offset 0
-static ::UnityEngine::HumanBodyBones const Chest;
+static UnityEngine::HumanBodyBones const Chest;
 
 /// @brief Field UpperChest offset 0
-static ::UnityEngine::HumanBodyBones const UpperChest;
+static UnityEngine::HumanBodyBones const UpperChest;
 
 /// @brief Field Neck offset 0
-static ::UnityEngine::HumanBodyBones const Neck;
+static UnityEngine::HumanBodyBones const Neck;
 
 /// @brief Field Head offset 0
-static ::UnityEngine::HumanBodyBones const Head;
+static UnityEngine::HumanBodyBones const Head;
 
 /// @brief Field LeftShoulder offset 0
-static ::UnityEngine::HumanBodyBones const LeftShoulder;
+static UnityEngine::HumanBodyBones const LeftShoulder;
 
 /// @brief Field RightShoulder offset 0
-static ::UnityEngine::HumanBodyBones const RightShoulder;
+static UnityEngine::HumanBodyBones const RightShoulder;
 
 /// @brief Field LeftUpperArm offset 0
-static ::UnityEngine::HumanBodyBones const LeftUpperArm;
+static UnityEngine::HumanBodyBones const LeftUpperArm;
 
 /// @brief Field RightUpperArm offset 0
-static ::UnityEngine::HumanBodyBones const RightUpperArm;
+static UnityEngine::HumanBodyBones const RightUpperArm;
 
 /// @brief Field LeftLowerArm offset 0
-static ::UnityEngine::HumanBodyBones const LeftLowerArm;
+static UnityEngine::HumanBodyBones const LeftLowerArm;
 
 /// @brief Field RightLowerArm offset 0
-static ::UnityEngine::HumanBodyBones const RightLowerArm;
+static UnityEngine::HumanBodyBones const RightLowerArm;
 
 /// @brief Field LeftHand offset 0
-static ::UnityEngine::HumanBodyBones const LeftHand;
+static UnityEngine::HumanBodyBones const LeftHand;
 
 /// @brief Field RightHand offset 0
-static ::UnityEngine::HumanBodyBones const RightHand;
+static UnityEngine::HumanBodyBones const RightHand;
 
 /// @brief Field LeftToes offset 0
-static ::UnityEngine::HumanBodyBones const LeftToes;
+static UnityEngine::HumanBodyBones const LeftToes;
 
 /// @brief Field RightToes offset 0
-static ::UnityEngine::HumanBodyBones const RightToes;
+static UnityEngine::HumanBodyBones const RightToes;
 
 /// @brief Field LeftEye offset 0
-static ::UnityEngine::HumanBodyBones const LeftEye;
+static UnityEngine::HumanBodyBones const LeftEye;
 
 /// @brief Field RightEye offset 0
-static ::UnityEngine::HumanBodyBones const RightEye;
+static UnityEngine::HumanBodyBones const RightEye;
 
 /// @brief Field Jaw offset 0
-static ::UnityEngine::HumanBodyBones const Jaw;
+static UnityEngine::HumanBodyBones const Jaw;
 
 /// @brief Field LeftThumbProximal offset 0
-static ::UnityEngine::HumanBodyBones const LeftThumbProximal;
+static UnityEngine::HumanBodyBones const LeftThumbProximal;
 
 /// @brief Field LeftThumbIntermediate offset 0
-static ::UnityEngine::HumanBodyBones const LeftThumbIntermediate;
+static UnityEngine::HumanBodyBones const LeftThumbIntermediate;
 
 /// @brief Field LeftThumbDistal offset 0
-static ::UnityEngine::HumanBodyBones const LeftThumbDistal;
+static UnityEngine::HumanBodyBones const LeftThumbDistal;
 
 /// @brief Field LeftIndexProximal offset 0
-static ::UnityEngine::HumanBodyBones const LeftIndexProximal;
+static UnityEngine::HumanBodyBones const LeftIndexProximal;
 
 /// @brief Field LeftIndexIntermediate offset 0
-static ::UnityEngine::HumanBodyBones const LeftIndexIntermediate;
+static UnityEngine::HumanBodyBones const LeftIndexIntermediate;
 
 /// @brief Field LeftIndexDistal offset 0
-static ::UnityEngine::HumanBodyBones const LeftIndexDistal;
+static UnityEngine::HumanBodyBones const LeftIndexDistal;
 
 /// @brief Field LeftMiddleProximal offset 0
-static ::UnityEngine::HumanBodyBones const LeftMiddleProximal;
+static UnityEngine::HumanBodyBones const LeftMiddleProximal;
 
 /// @brief Field LeftMiddleIntermediate offset 0
-static ::UnityEngine::HumanBodyBones const LeftMiddleIntermediate;
+static UnityEngine::HumanBodyBones const LeftMiddleIntermediate;
 
 /// @brief Field LeftMiddleDistal offset 0
-static ::UnityEngine::HumanBodyBones const LeftMiddleDistal;
+static UnityEngine::HumanBodyBones const LeftMiddleDistal;
 
 /// @brief Field LeftRingProximal offset 0
-static ::UnityEngine::HumanBodyBones const LeftRingProximal;
+static UnityEngine::HumanBodyBones const LeftRingProximal;
 
 /// @brief Field LeftRingIntermediate offset 0
-static ::UnityEngine::HumanBodyBones const LeftRingIntermediate;
+static UnityEngine::HumanBodyBones const LeftRingIntermediate;
 
 /// @brief Field LeftRingDistal offset 0
-static ::UnityEngine::HumanBodyBones const LeftRingDistal;
+static UnityEngine::HumanBodyBones const LeftRingDistal;
 
 /// @brief Field LeftLittleProximal offset 0
-static ::UnityEngine::HumanBodyBones const LeftLittleProximal;
+static UnityEngine::HumanBodyBones const LeftLittleProximal;
 
 /// @brief Field LeftLittleIntermediate offset 0
-static ::UnityEngine::HumanBodyBones const LeftLittleIntermediate;
+static UnityEngine::HumanBodyBones const LeftLittleIntermediate;
 
 /// @brief Field LeftLittleDistal offset 0
-static ::UnityEngine::HumanBodyBones const LeftLittleDistal;
+static UnityEngine::HumanBodyBones const LeftLittleDistal;
 
 /// @brief Field RightThumbProximal offset 0
-static ::UnityEngine::HumanBodyBones const RightThumbProximal;
+static UnityEngine::HumanBodyBones const RightThumbProximal;
 
 /// @brief Field RightThumbIntermediate offset 0
-static ::UnityEngine::HumanBodyBones const RightThumbIntermediate;
+static UnityEngine::HumanBodyBones const RightThumbIntermediate;
 
 /// @brief Field RightThumbDistal offset 0
-static ::UnityEngine::HumanBodyBones const RightThumbDistal;
+static UnityEngine::HumanBodyBones const RightThumbDistal;
 
 /// @brief Field RightIndexProximal offset 0
-static ::UnityEngine::HumanBodyBones const RightIndexProximal;
+static UnityEngine::HumanBodyBones const RightIndexProximal;
 
 /// @brief Field RightIndexIntermediate offset 0
-static ::UnityEngine::HumanBodyBones const RightIndexIntermediate;
+static UnityEngine::HumanBodyBones const RightIndexIntermediate;
 
 /// @brief Field RightIndexDistal offset 0
-static ::UnityEngine::HumanBodyBones const RightIndexDistal;
+static UnityEngine::HumanBodyBones const RightIndexDistal;
 
 /// @brief Field RightMiddleProximal offset 0
-static ::UnityEngine::HumanBodyBones const RightMiddleProximal;
+static UnityEngine::HumanBodyBones const RightMiddleProximal;
 
 /// @brief Field RightMiddleIntermediate offset 0
-static ::UnityEngine::HumanBodyBones const RightMiddleIntermediate;
+static UnityEngine::HumanBodyBones const RightMiddleIntermediate;
 
 /// @brief Field RightMiddleDistal offset 0
-static ::UnityEngine::HumanBodyBones const RightMiddleDistal;
+static UnityEngine::HumanBodyBones const RightMiddleDistal;
 
 /// @brief Field RightRingProximal offset 0
-static ::UnityEngine::HumanBodyBones const RightRingProximal;
+static UnityEngine::HumanBodyBones const RightRingProximal;
 
 /// @brief Field RightRingIntermediate offset 0
-static ::UnityEngine::HumanBodyBones const RightRingIntermediate;
+static UnityEngine::HumanBodyBones const RightRingIntermediate;
 
 /// @brief Field RightRingDistal offset 0
-static ::UnityEngine::HumanBodyBones const RightRingDistal;
+static UnityEngine::HumanBodyBones const RightRingDistal;
 
 /// @brief Field RightLittleProximal offset 0
-static ::UnityEngine::HumanBodyBones const RightLittleProximal;
+static UnityEngine::HumanBodyBones const RightLittleProximal;
 
 /// @brief Field RightLittleIntermediate offset 0
-static ::UnityEngine::HumanBodyBones const RightLittleIntermediate;
+static UnityEngine::HumanBodyBones const RightLittleIntermediate;
 
 /// @brief Field RightLittleDistal offset 0
-static ::UnityEngine::HumanBodyBones const RightLittleDistal;
+static UnityEngine::HumanBodyBones const RightLittleDistal;
 
 /// @brief Field LastBone offset 0
-static ::UnityEngine::HumanBodyBones const LastBone;
+static UnityEngine::HumanBodyBones const LastBone;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::HumanBodyBones, "UnityEngine", "HumanBodyBones");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HumanBodyBones, "UnityEngine", "HumanBodyBones");

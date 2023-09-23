@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace IgnoranceCore {
 struct IgnoranceCommandType;
 }
@@ -19,8 +18,8 @@ namespace IgnoranceCore {
 struct CORDL_TYPE IgnoranceCommandPacket : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "Type", ty: "::IgnoranceCore::IgnoranceCommandType", modifiers: "", def_value: None }, CppParam { name: "PeerId", ty: "uint32_t", modifiers: "", def_value: None }]
-constexpr IgnoranceCommandPacket(::IgnoranceCore::IgnoranceCommandType Type, uint32_t PeerId) noexcept;
+// Ctor Parameters [CppParam { name: "Type", ty: "IgnoranceCore::IgnoranceCommandType", modifiers: "", def_value: None }, CppParam { name: "PeerId", ty: "uint32_t", modifiers: "", def_value: None }]
+constexpr IgnoranceCommandPacket(IgnoranceCore::IgnoranceCommandType Type, uint32_t PeerId) noexcept;
 
 
                     constexpr IgnoranceCommandPacket(IgnoranceCommandPacket const&) = default;
@@ -53,11 +52,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::IgnoranceCore::IgnoranceCommandType __declspec(property(get=__get_Type, put=__set_Type))  Type;
+ IgnoranceCore::IgnoranceCommandType __declspec(property(get=__get_Type, put=__set_Type))  Type;
 
-constexpr void __set_Type(::IgnoranceCore::IgnoranceCommandType value) ;
+constexpr void __set_Type(IgnoranceCore::IgnoranceCommandType value) ;
 
-constexpr ::IgnoranceCore::IgnoranceCommandType __get_Type() const;
+constexpr IgnoranceCore::IgnoranceCommandType __get_Type() const;
 
  uint32_t __declspec(property(get=__get_PeerId, put=__set_PeerId))  PeerId;
 
@@ -69,5 +68,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def IgnoranceCore
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::IgnoranceCore::IgnoranceCommandPacket, "IgnoranceCore", "IgnoranceCommandPacket");
+DEFINE_IL2CPP_ARG_TYPE(IgnoranceCore::IgnoranceCommandPacket, "IgnoranceCore", "IgnoranceCommandPacket");

@@ -1,6 +1,5 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace UnityEngine::UIElements::Experimental {
 class ITransitionAnimations;
 }
@@ -26,18 +25,17 @@ constexpr explicit IExperimentalFeatures(void* ptr) noexcept : ::cordl_internals
 
 // Properties
 
- ::UnityEngine::UIElements::Experimental::ITransitionAnimations __declspec(property(get=get_animation))  animation;
+ UnityEngine::UIElements::Experimental::ITransitionAnimations __declspec(property(get=get_animation))  animation;
 
 
 // Methods
 
 /// @brief Method get_animation addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::UIElements::Experimental::ITransitionAnimations get_animation() ;
+ UnityEngine::UIElements::Experimental::ITransitionAnimations get_animation() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::IExperimentalFeatures);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::IExperimentalFeatures, "UnityEngine.UIElements", "IExperimentalFeatures");
+NEED_NO_BOX(UnityEngine::UIElements::IExperimentalFeatures);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::IExperimentalFeatures, "UnityEngine.UIElements", "IExperimentalFeatures");

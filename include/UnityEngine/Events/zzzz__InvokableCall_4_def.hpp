@@ -3,13 +3,12 @@
 #include "UnityEngine/Events/zzzz__BaseInvokableCall_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
-namespace System::Reflection {
-class MethodInfo;
-}
 namespace UnityEngine::Events {
 template<typename T0,typename T1,typename T2,typename T3>
 class UnityAction_4;
+}
+namespace System::Reflection {
+class MethodInfo;
 }
 // Forward declare root types
 namespace UnityEngine::Events {
@@ -26,10 +25,10 @@ namespace UnityEngine::Events {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T1,::cordl_internals::il2cpp_reference_type T2,::cordl_internals::il2cpp_reference_type T3,::cordl_internals::il2cpp_reference_type T4>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10386)), TypeDefinitionIndex(TypeDefinitionIndex(10391))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10391)), TypeDefinitionIndex(TypeDefinitionIndex(10386))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10391), inst: 5937 })
 // CS Name: UnityEngine.Events.InvokableCall`4
-class CORDL_TYPE InvokableCall_4<T1,T2,T3,T4> : public ::UnityEngine::Events::BaseInvokableCall {
+class CORDL_TYPE InvokableCall_4<T1,T2,T3,T4> : public UnityEngine::Events::BaseInvokableCall {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -44,7 +43,7 @@ constexpr InvokableCall_4(InvokableCall_4 const& ) noexcept = default;
 constexpr InvokableCall_4(InvokableCall_4&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit InvokableCall_4(void* ptr) noexcept : ::UnityEngine::Events::BaseInvokableCall(ptr) {
+constexpr explicit InvokableCall_4(void* ptr) noexcept : UnityEngine::Events::BaseInvokableCall(ptr) {
 }
 
 
@@ -65,30 +64,29 @@ constexpr explicit InvokableCall_4(void* ptr) noexcept : ::UnityEngine::Events::
 
 // Fields
 
- ::UnityEngine::Events::UnityAction_4<T1,T2,T3,T4> __declspec(property(get=__get_Delegate, put=__set_Delegate))  Delegate;
+ UnityEngine::Events::UnityAction_4<T1,T2,T3,T4> __declspec(property(get=__get_Delegate, put=__set_Delegate))  Delegate;
 
-constexpr void __set_Delegate(::UnityEngine::Events::UnityAction_4<T1,T2,T3,T4> value) ;
+constexpr void __set_Delegate(UnityEngine::Events::UnityAction_4<T1,T2,T3,T4> value) ;
 
-constexpr ::UnityEngine::Events::UnityAction_4<T1,T2,T3,T4> __get_Delegate() const;
+constexpr UnityEngine::Events::UnityAction_4<T1,T2,T3,T4> __get_Delegate() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "target", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "theFunction", ty: "::System::Reflection::MethodInfo", modifiers: "", def_value: None }]
-explicit InvokableCall_4(::bs_hook::Il2CppWrapperType target, ::System::Reflection::MethodInfo theFunction) ;
+// Ctor Parameters [CppParam { name: "target", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "theFunction", ty: "System::Reflection::MethodInfo", modifiers: "", def_value: None }]
+explicit InvokableCall_4(::bs_hook::Il2CppWrapperType target, System::Reflection::MethodInfo theFunction) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::bs_hook::Il2CppWrapperType target, ::System::Reflection::MethodInfo theFunction) ;
+ void _ctor(::bs_hook::Il2CppWrapperType target, System::Reflection::MethodInfo theFunction) ;
 
 /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
  void Invoke(::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
 
 /// @brief Method Find addr 0x0 size 0xffffffffffffffff virtual true final false
- bool Find(::bs_hook::Il2CppWrapperType targetObj, ::System::Reflection::MethodInfo method) ;
+ bool Find(::bs_hook::Il2CppWrapperType targetObj, System::Reflection::MethodInfo method) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Events
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::Events::InvokableCall_4, "UnityEngine.Events", "InvokableCall`4");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::Events::InvokableCall_4, "UnityEngine.Events", "InvokableCall`4");

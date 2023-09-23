@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine::SceneManagement {
 struct Scene;
 }
@@ -23,8 +22,8 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct CORDL_TYPE SceneInstance : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "m_Scene", ty: "::UnityEngine::SceneManagement::Scene", modifiers: "", def_value: None }, CppParam { name: "m_Operation", ty: "::UnityEngine::AsyncOperation", modifiers: "", def_value: None }]
-constexpr SceneInstance(::UnityEngine::SceneManagement::Scene m_Scene, ::UnityEngine::AsyncOperation m_Operation) noexcept;
+// Ctor Parameters [CppParam { name: "m_Scene", ty: "UnityEngine::SceneManagement::Scene", modifiers: "", def_value: None }, CppParam { name: "m_Operation", ty: "UnityEngine::AsyncOperation", modifiers: "", def_value: None }]
+constexpr SceneInstance(UnityEngine::SceneManagement::Scene m_Scene, UnityEngine::AsyncOperation m_Operation) noexcept;
 
 
                     constexpr SceneInstance(SceneInstance const&) = default;
@@ -57,37 +56,37 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::SceneManagement::Scene __declspec(property(get=__get_m_Scene, put=__set_m_Scene))  m_Scene;
+ UnityEngine::SceneManagement::Scene __declspec(property(get=__get_m_Scene, put=__set_m_Scene))  m_Scene;
 
-constexpr void __set_m_Scene(::UnityEngine::SceneManagement::Scene value) ;
+constexpr void __set_m_Scene(UnityEngine::SceneManagement::Scene value) ;
 
-constexpr ::UnityEngine::SceneManagement::Scene __get_m_Scene() const;
+constexpr UnityEngine::SceneManagement::Scene __get_m_Scene() const;
 
- ::UnityEngine::AsyncOperation __declspec(property(get=__get_m_Operation, put=__set_m_Operation))  m_Operation;
+ UnityEngine::AsyncOperation __declspec(property(get=__get_m_Operation, put=__set_m_Operation))  m_Operation;
 
-constexpr void __set_m_Operation(::UnityEngine::AsyncOperation value) ;
+constexpr void __set_m_Operation(UnityEngine::AsyncOperation value) ;
 
-constexpr ::UnityEngine::AsyncOperation __get_m_Operation() const;
+constexpr UnityEngine::AsyncOperation __get_m_Operation() const;
 
 
 // Properties
 
- ::UnityEngine::SceneManagement::Scene __declspec(property(get=get_Scene, put=set_Scene))  Scene;
+ UnityEngine::SceneManagement::Scene __declspec(property(get=get_Scene, put=set_Scene))  Scene;
 
 
 // Methods
 
 /// @brief Method get_Scene addr 0x2a3fa8c size 0x8 virtual false final false
- ::UnityEngine::SceneManagement::Scene get_Scene() ;
+ UnityEngine::SceneManagement::Scene get_Scene() ;
 
 /// @brief Method set_Scene addr 0x2a3fa94 size 0x8 virtual false final false
- void set_Scene(::UnityEngine::SceneManagement::Scene value) ;
+ void set_Scene(UnityEngine::SceneManagement::Scene value) ;
 
 /// @brief Method Activate addr 0x2a3fa9c size 0x20 virtual false final false
  void Activate() ;
 
 /// @brief Method ActivateAsync addr 0x2a3fabc size 0x2c virtual false final false
- ::UnityEngine::AsyncOperation ActivateAsync() ;
+ UnityEngine::AsyncOperation ActivateAsync() ;
 
 /// @brief Method GetHashCode addr 0x2a3fae8 size 0x20 virtual true final false
  int32_t GetHashCode() ;
@@ -99,5 +98,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ResourceManagement::ResourceProviders
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance, "UnityEngine.ResourceManagement.ResourceProviders", "SceneInstance");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::SceneInstance, "UnityEngine.ResourceManagement.ResourceProviders", "SceneInstance");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace UnityEngineInternal {
 struct TypeInferenceRules;
 }
@@ -16,7 +15,7 @@ namespace UnityEngineInternal {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9904))
 // CS Name: UnityEngineInternal.TypeInferenceRuleAttribute
-class CORDL_TYPE TypeInferenceRuleAttribute : public ::System::Attribute {
+class CORDL_TYPE TypeInferenceRuleAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr TypeInferenceRuleAttribute(TypeInferenceRuleAttribute const& ) noexcep
 constexpr TypeInferenceRuleAttribute(TypeInferenceRuleAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TypeInferenceRuleAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit TypeInferenceRuleAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -61,11 +60,11 @@ constexpr ::StringW __get__rule() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "rule", ty: "::UnityEngineInternal::TypeInferenceRules", modifiers: "", def_value: None }]
-explicit TypeInferenceRuleAttribute(::UnityEngineInternal::TypeInferenceRules rule) ;
+// Ctor Parameters [CppParam { name: "rule", ty: "UnityEngineInternal::TypeInferenceRules", modifiers: "", def_value: None }]
+explicit TypeInferenceRuleAttribute(UnityEngineInternal::TypeInferenceRules rule) ;
 
 /// @brief Method .ctor addr 0x2b279cc size 0x84 virtual false final false
- void _ctor(::UnityEngineInternal::TypeInferenceRules rule) ;
+ void _ctor(UnityEngineInternal::TypeInferenceRules rule) ;
 
 // Ctor Parameters [CppParam { name: "rule", ty: "::StringW", modifiers: "", def_value: None }]
 explicit TypeInferenceRuleAttribute(::StringW rule) ;
@@ -80,6 +79,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngineInternal
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngineInternal::TypeInferenceRuleAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngineInternal::TypeInferenceRuleAttribute, "UnityEngineInternal", "TypeInferenceRuleAttribute");
+NEED_NO_BOX(UnityEngineInternal::TypeInferenceRuleAttribute);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::TypeInferenceRuleAttribute, "UnityEngineInternal", "TypeInferenceRuleAttribute");

@@ -1,6 +1,5 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace GlobalNamespace {
 class NoteDebris;
 }
@@ -27,12 +26,11 @@ constexpr explicit INoteDebrisDidFinishEvent(void* ptr) noexcept : ::cordl_inter
 // Methods
 
 /// @brief Method HandleNoteDebrisDidFinish addr 0x0 size 0xffffffffffffffff virtual true final false
- void HandleNoteDebrisDidFinish(::GlobalNamespace::NoteDebris noteDebris) ;
+ void HandleNoteDebrisDidFinish(GlobalNamespace::NoteDebris noteDebris) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::INoteDebrisDidFinishEvent);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::INoteDebrisDidFinishEvent, "", "INoteDebrisDidFinishEvent");
+NEED_NO_BOX(GlobalNamespace::INoteDebrisDidFinishEvent);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INoteDebrisDidFinishEvent, "", "INoteDebrisDidFinishEvent");

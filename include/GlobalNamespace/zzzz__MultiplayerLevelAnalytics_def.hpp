@@ -1,15 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class IAnalyticsModel;
-}
 namespace GlobalNamespace {
 class MultiplayerResultsData;
 }
 namespace GlobalNamespace {
 class MultiplayerLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class IAnalyticsModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4003))
 // CS Name: MultiplayerLevelAnalytics
-class CORDL_TYPE MultiplayerLevelAnalytics : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerLevelAnalytics : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr MultiplayerLevelAnalytics(MultiplayerLevelAnalytics const& ) noexcept 
 constexpr MultiplayerLevelAnalytics(MultiplayerLevelAnalytics&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerLevelAnalytics(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerLevelAnalytics(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -57,17 +56,17 @@ constexpr explicit MultiplayerLevelAnalytics(void* ptr) noexcept : ::UnityEngine
 
 // Fields
 
- ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO __declspec(property(get=__get__multiplayerLevelScenesTransitionSetupData, put=__set__multiplayerLevelScenesTransitionSetupData))  _multiplayerLevelScenesTransitionSetupData;
+ GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO __declspec(property(get=__get__multiplayerLevelScenesTransitionSetupData, put=__set__multiplayerLevelScenesTransitionSetupData))  _multiplayerLevelScenesTransitionSetupData;
 
-constexpr void __set__multiplayerLevelScenesTransitionSetupData(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO value) ;
+constexpr void __set__multiplayerLevelScenesTransitionSetupData(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO value) ;
 
-constexpr ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO __get__multiplayerLevelScenesTransitionSetupData() const;
+constexpr GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO __get__multiplayerLevelScenesTransitionSetupData() const;
 
- ::GlobalNamespace::IAnalyticsModel __declspec(property(get=__get__analyticsModel, put=__set__analyticsModel))  _analyticsModel;
+ GlobalNamespace::IAnalyticsModel __declspec(property(get=__get__analyticsModel, put=__set__analyticsModel))  _analyticsModel;
 
-constexpr void __set__analyticsModel(::GlobalNamespace::IAnalyticsModel value) ;
+constexpr void __set__analyticsModel(GlobalNamespace::IAnalyticsModel value) ;
 
-constexpr ::GlobalNamespace::IAnalyticsModel __get__analyticsModel() const;
+constexpr GlobalNamespace::IAnalyticsModel __get__analyticsModel() const;
 
 
 // Methods
@@ -79,7 +78,7 @@ constexpr ::GlobalNamespace::IAnalyticsModel __get__analyticsModel() const;
  void OnDestroy() ;
 
 /// @brief Method HandleMultiplayerLevelDidFinish addr 0x20b1e90 size 0x6a4 virtual false final false
- void HandleMultiplayerLevelDidFinish(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO multiplayerLevelScenesTransitionSetupData, ::GlobalNamespace::MultiplayerResultsData multiplayerResultsData) ;
+ void HandleMultiplayerLevelDidFinish(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO multiplayerLevelScenesTransitionSetupData, GlobalNamespace::MultiplayerResultsData multiplayerResultsData) ;
 
 // Ctor Parameters []
 explicit MultiplayerLevelAnalytics() ;
@@ -91,6 +90,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerLevelAnalytics);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerLevelAnalytics, "", "MultiplayerLevelAnalytics");
+NEED_NO_BOX(GlobalNamespace::MultiplayerLevelAnalytics);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelAnalytics, "", "MultiplayerLevelAnalytics");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HAPI_PrmScriptType;
@@ -111,146 +110,145 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_INT offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_INT;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_INT;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_FLOAT offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_FLOAT;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_FLOAT;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_ANGLE offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_ANGLE;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_ANGLE;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_STRING offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_STRING;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_STRING;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_FILE offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_FILE;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_FILE;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_DIRECTORY offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_DIRECTORY;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_DIRECTORY;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_IMAGE offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_IMAGE;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_IMAGE;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_GEOMETRY offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_GEOMETRY;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_GEOMETRY;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_TOGGLE offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_TOGGLE;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_TOGGLE;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_BUTTON offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_BUTTON;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_BUTTON;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_VECTOR2 offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_VECTOR2;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_VECTOR2;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_VECTOR3 offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_VECTOR3;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_VECTOR3;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_VECTOR4 offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_VECTOR4;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_VECTOR4;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_INTVECTOR2 offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_INTVECTOR2;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_INTVECTOR2;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_INTVECTOR3 offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_INTVECTOR3;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_INTVECTOR3;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_INTVECTOR4 offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_INTVECTOR4;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_INTVECTOR4;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_UV offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_UV;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_UV;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_UVW offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_UVW;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_UVW;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_DIR offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_DIR;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_DIR;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_COLOR offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_COLOR;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_COLOR;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_COLOR4 offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_COLOR4;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_COLOR4;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_OPPATH offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_OPPATH;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_OPPATH;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_OPLIST offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_OPLIST;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_OPLIST;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_OBJECT offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_OBJECT;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_OBJECT;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_OBJECTLIST offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_OBJECTLIST;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_OBJECTLIST;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_RENDER offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_RENDER;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_RENDER;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_SEPARATOR offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_SEPARATOR;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_SEPARATOR;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_GEOMETRY_DATA offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_GEOMETRY_DATA;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_GEOMETRY_DATA;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_KEY_VALUE_DICT offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_KEY_VALUE_DICT;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_KEY_VALUE_DICT;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_LABEL offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_LABEL;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_LABEL;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_RGBAMASK offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_RGBAMASK;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_RGBAMASK;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_ORDINAL offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_ORDINAL;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_ORDINAL;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_RAMP_FLT offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_RAMP_FLT;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_RAMP_FLT;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_RAMP_RGB offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_RAMP_RGB;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_RAMP_RGB;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_FLOAT_LOG offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_FLOAT_LOG;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_FLOAT_LOG;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_INT_LOG offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_INT_LOG;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_INT_LOG;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_DATA offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_DATA;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_DATA;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_FLOAT_MINMAX offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_FLOAT_MINMAX;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_FLOAT_MINMAX;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_INT_MINMAX offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_INT_MINMAX;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_INT_MINMAX;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_INT_STARTEND offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_INT_STARTEND;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_INT_STARTEND;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_BUTTONSTRIP offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_BUTTONSTRIP;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_BUTTONSTRIP;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_ICONSTRIP offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_ICONSTRIP;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_ICONSTRIP;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_GROUPRADIO offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_GROUPRADIO;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_GROUPRADIO;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_GROUPCOLLAPSIBLE offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_GROUPCOLLAPSIBLE;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_GROUPCOLLAPSIBLE;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_GROUPSIMPLE offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_GROUPSIMPLE;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_GROUPSIMPLE;
 
 /// @brief Field HAPI_PRM_SCRIPT_TYPE_GROUP offset 0
-static ::HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_GROUP;
+static HoudiniEngineUnity::HAPI_PrmScriptType const HAPI_PRM_SCRIPT_TYPE_GROUP;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_PrmScriptType, "HoudiniEngineUnity", "HAPI_PrmScriptType");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_PrmScriptType, "HoudiniEngineUnity", "HAPI_PrmScriptType");

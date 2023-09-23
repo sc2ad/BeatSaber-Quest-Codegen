@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace GlobalNamespace {
 class IPosesSerializer;
 }
@@ -22,8 +21,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE EmptyPosesSerializer : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IPosesSerializer
-constexpr operator  ::GlobalNamespace::IPosesSerializer() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IPosesSerializer
+constexpr operator  GlobalNamespace::IPosesSerializer() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -59,13 +58,13 @@ constexpr explicit EmptyPosesSerializer(void* ptr) noexcept : ::bs_hook::Il2CppW
 // Methods
 
 /// @brief Method SaveToOldFormat addr 0x21a3c7c size 0x4 virtual true final true
- void SaveToOldFormat(::StringW path, ::GlobalNamespace::PosesRecordingData data) ;
+ void SaveToOldFormat(::StringW path, GlobalNamespace::PosesRecordingData data) ;
 
 /// @brief Method SaveRecording addr 0x21a3c80 size 0x4 virtual true final true
- void SaveRecording(::StringW path, ::GlobalNamespace::PosesRecordingData data, bool saveToOldFormat) ;
+ void SaveRecording(::StringW path, GlobalNamespace::PosesRecordingData data, bool saveToOldFormat) ;
 
 /// @brief Method LoadRecording addr 0x21a3c84 size 0x8 virtual true final true
- ::GlobalNamespace::PosesRecordingData LoadRecording(::StringW path) ;
+ GlobalNamespace::PosesRecordingData LoadRecording(::StringW path) ;
 
 /// @brief Method RecordingExists addr 0x21a3c8c size 0x8 virtual true final true
  bool RecordingExists(::StringW path) ;
@@ -83,6 +82,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::EmptyPosesSerializer);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EmptyPosesSerializer, "", "EmptyPosesSerializer");
+NEED_NO_BOX(GlobalNamespace::EmptyPosesSerializer);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EmptyPosesSerializer, "", "EmptyPosesSerializer");

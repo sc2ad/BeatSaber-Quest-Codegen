@@ -2,12 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/ComponentModel/zzzz__Win32Exception_def.hpp"
 #include <cstdint>
-namespace {
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {
@@ -19,7 +18,7 @@ namespace System::Net::NetworkInformation {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8343))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8102))
 // CS Name: System.Net.NetworkInformation.NetworkInformationException
-class CORDL_TYPE NetworkInformationException : public ::System::ComponentModel::Win32Exception {
+class CORDL_TYPE NetworkInformationException : public System::ComponentModel::Win32Exception {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr NetworkInformationException(NetworkInformationException const& ) noexc
 constexpr NetworkInformationException(NetworkInformationException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NetworkInformationException(void* ptr) noexcept : ::System::ComponentModel::Win32Exception(ptr) {
+constexpr explicit NetworkInformationException(void* ptr) noexcept : System::ComponentModel::Win32Exception(ptr) {
 }
 
 
@@ -66,11 +65,11 @@ explicit NetworkInformationException() ;
 /// @brief Method .ctor addr 0x2859034 size 0x64 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "serializationInfo", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit NetworkInformationException(::System::Runtime::Serialization::SerializationInfo serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext) ;
+// Ctor Parameters [CppParam { name: "serializationInfo", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit NetworkInformationException(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
 
 /// @brief Method .ctor addr 0x2859098 size 0x8 virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
 
 /// @brief Method get_ErrorCode addr 0x28590a0 size 0x8 virtual true final false
  int32_t get_ErrorCode() ;
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::NetworkInformation
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::NetworkInformation::NetworkInformationException);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::NetworkInformationException, "System.Net.NetworkInformation", "NetworkInformationException");
+NEED_NO_BOX(System::Net::NetworkInformation::NetworkInformationException);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::NetworkInformationException, "System.Net.NetworkInformation", "NetworkInformationException");

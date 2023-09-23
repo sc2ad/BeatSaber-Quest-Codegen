@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/zzzz__Sensor_def.hpp"
-namespace {
 namespace UnityEngine::InputSystem::Controls {
 class AxisControl;
 }
@@ -15,7 +14,7 @@ namespace UnityEngine::InputSystem {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6357))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6364))
 // CS Name: UnityEngine.InputSystem.LightSensor
-class CORDL_TYPE LightSensor : public ::UnityEngine::InputSystem::Sensor {
+class CORDL_TYPE LightSensor : public UnityEngine::InputSystem::Sensor {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr LightSensor(LightSensor const& ) noexcept = default;
 constexpr LightSensor(LightSensor&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LightSensor(void* ptr) noexcept : ::UnityEngine::InputSystem::Sensor(ptr) {
+constexpr explicit LightSensor(void* ptr) noexcept : UnityEngine::InputSystem::Sensor(ptr) {
 }
 
 
@@ -51,39 +50,39 @@ constexpr explicit LightSensor(void* ptr) noexcept : ::UnityEngine::InputSystem:
 
 // Fields
 
- ::UnityEngine::InputSystem::Controls::AxisControl __declspec(property(get=__get__lightLevel_k__BackingField, put=__set__lightLevel_k__BackingField))  _lightLevel_k__BackingField;
+ UnityEngine::InputSystem::Controls::AxisControl __declspec(property(get=__get__lightLevel_k__BackingField, put=__set__lightLevel_k__BackingField))  _lightLevel_k__BackingField;
 
-constexpr void __set__lightLevel_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl value) ;
+constexpr void __set__lightLevel_k__BackingField(UnityEngine::InputSystem::Controls::AxisControl value) ;
 
-constexpr ::UnityEngine::InputSystem::Controls::AxisControl __get__lightLevel_k__BackingField() const;
+constexpr UnityEngine::InputSystem::Controls::AxisControl __get__lightLevel_k__BackingField() const;
 
-static ::UnityEngine::InputSystem::LightSensor __declspec(property(get=__get__current_k__BackingField, put=__set__current_k__BackingField))  _current_k__BackingField;
+static UnityEngine::InputSystem::LightSensor __declspec(property(get=__get__current_k__BackingField, put=__set__current_k__BackingField))  _current_k__BackingField;
 
-static void __set__current_k__BackingField(::UnityEngine::InputSystem::LightSensor value) ;
+static void __set__current_k__BackingField(UnityEngine::InputSystem::LightSensor value) ;
 
-static ::UnityEngine::InputSystem::LightSensor __get__current_k__BackingField() ;
+static UnityEngine::InputSystem::LightSensor __get__current_k__BackingField() ;
 
 
 // Properties
 
- ::UnityEngine::InputSystem::Controls::AxisControl __declspec(property(get=get_lightLevel, put=set_lightLevel))  lightLevel;
+ UnityEngine::InputSystem::Controls::AxisControl __declspec(property(get=get_lightLevel, put=set_lightLevel))  lightLevel;
 
-static ::UnityEngine::InputSystem::LightSensor __declspec(property(get=get_current, put=set_current))  current;
+static UnityEngine::InputSystem::LightSensor __declspec(property(get=get_current, put=set_current))  current;
 
 
 // Methods
 
 /// @brief Method get_lightLevel addr 0x2915e4c size 0x8 virtual false final false
- ::UnityEngine::InputSystem::Controls::AxisControl get_lightLevel() ;
+ UnityEngine::InputSystem::Controls::AxisControl get_lightLevel() ;
 
 /// @brief Method set_lightLevel addr 0x2915e54 size 0x8 virtual false final false
- void set_lightLevel(::UnityEngine::InputSystem::Controls::AxisControl value) ;
+ void set_lightLevel(UnityEngine::InputSystem::Controls::AxisControl value) ;
 
 /// @brief Method get_current addr 0x2915e5c size 0x48 virtual false final false
-static ::UnityEngine::InputSystem::LightSensor get_current() ;
+static UnityEngine::InputSystem::LightSensor get_current() ;
 
 /// @brief Method set_current addr 0x2915ea4 size 0x4c virtual false final false
-static void set_current(::UnityEngine::InputSystem::LightSensor value) ;
+static void set_current(UnityEngine::InputSystem::LightSensor value) ;
 
 /// @brief Method MakeCurrent addr 0x2915ef0 size 0x54 virtual true final false
  void MakeCurrent() ;
@@ -104,6 +103,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::LightSensor);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LightSensor, "UnityEngine.InputSystem", "LightSensor");
+NEED_NO_BOX(UnityEngine::InputSystem::LightSensor);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::LightSensor, "UnityEngine.InputSystem", "LightSensor");

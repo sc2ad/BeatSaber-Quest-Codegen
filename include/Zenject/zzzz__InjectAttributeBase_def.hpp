@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/Internal/zzzz__PreserveAttribute_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Zenject {
 struct InjectSources;
 }
@@ -16,7 +15,7 @@ namespace Zenject {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15649))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15650))
 // CS Name: Zenject.InjectAttributeBase
-class CORDL_TYPE InjectAttributeBase : public ::Zenject::Internal::PreserveAttribute {
+class CORDL_TYPE InjectAttributeBase : public Zenject::Internal::PreserveAttribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr InjectAttributeBase(InjectAttributeBase const& ) noexcept = default;
 constexpr InjectAttributeBase(InjectAttributeBase&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit InjectAttributeBase(void* ptr) noexcept : ::Zenject::Internal::PreserveAttribute(ptr) {
+constexpr explicit InjectAttributeBase(void* ptr) noexcept : Zenject::Internal::PreserveAttribute(ptr) {
 }
 
 
@@ -64,11 +63,11 @@ constexpr void __set__Id_k__BackingField(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get__Id_k__BackingField() const;
 
- ::Zenject::InjectSources __declspec(property(get=__get__Source_k__BackingField, put=__set__Source_k__BackingField))  _Source_k__BackingField;
+ Zenject::InjectSources __declspec(property(get=__get__Source_k__BackingField, put=__set__Source_k__BackingField))  _Source_k__BackingField;
 
-constexpr void __set__Source_k__BackingField(::Zenject::InjectSources value) ;
+constexpr void __set__Source_k__BackingField(Zenject::InjectSources value) ;
 
-constexpr ::Zenject::InjectSources __get__Source_k__BackingField() const;
+constexpr Zenject::InjectSources __get__Source_k__BackingField() const;
 
 
 // Properties
@@ -77,7 +76,7 @@ constexpr ::Zenject::InjectSources __get__Source_k__BackingField() const;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_Id, put=set_Id))  Id;
 
- ::Zenject::InjectSources __declspec(property(get=get_Source, put=set_Source))  Source;
+ Zenject::InjectSources __declspec(property(get=get_Source, put=set_Source))  Source;
 
 
 // Methods
@@ -95,10 +94,10 @@ constexpr ::Zenject::InjectSources __get__Source_k__BackingField() const;
  void set_Id(::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method get_Source addr 0x2d402e0 size 0x8 virtual false final false
- ::Zenject::InjectSources get_Source() ;
+ Zenject::InjectSources get_Source() ;
 
 /// @brief Method set_Source addr 0x2d402e8 size 0x8 virtual false final false
- void set_Source(::Zenject::InjectSources value) ;
+ void set_Source(Zenject::InjectSources value) ;
 
 // Ctor Parameters []
 explicit InjectAttributeBase() ;
@@ -110,6 +109,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::InjectAttributeBase);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::InjectAttributeBase, "Zenject", "InjectAttributeBase");
+NEED_NO_BOX(Zenject::InjectAttributeBase);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectAttributeBase, "Zenject", "InjectAttributeBase");

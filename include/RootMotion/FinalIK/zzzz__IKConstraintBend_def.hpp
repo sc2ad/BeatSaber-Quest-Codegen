@@ -3,18 +3,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace UnityEngine {
+struct Vector3;
+}
 namespace RootMotion::FinalIK {
 class IKSolverFullBody;
 }
 namespace UnityEngine {
 class Transform;
 }
-namespace UnityEngine {
-struct Vector3;
-}
 namespace RootMotion {
-class ____RootMotion__Warning__Logger;
+class RootMotion__Warning__Logger;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -65,41 +64,41 @@ constexpr explicit IKConstraintBend(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
- ::UnityEngine::Transform __declspec(property(get=__get_bone1, put=__set_bone1))  bone1;
+ UnityEngine::Transform __declspec(property(get=__get_bone1, put=__set_bone1))  bone1;
 
-constexpr void __set_bone1(::UnityEngine::Transform value) ;
+constexpr void __set_bone1(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_bone1() const;
+constexpr UnityEngine::Transform __get_bone1() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_bone2, put=__set_bone2))  bone2;
+ UnityEngine::Transform __declspec(property(get=__get_bone2, put=__set_bone2))  bone2;
 
-constexpr void __set_bone2(::UnityEngine::Transform value) ;
+constexpr void __set_bone2(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_bone2() const;
+constexpr UnityEngine::Transform __get_bone2() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_bone3, put=__set_bone3))  bone3;
+ UnityEngine::Transform __declspec(property(get=__get_bone3, put=__set_bone3))  bone3;
 
-constexpr void __set_bone3(::UnityEngine::Transform value) ;
+constexpr void __set_bone3(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_bone3() const;
+constexpr UnityEngine::Transform __get_bone3() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_bendGoal, put=__set_bendGoal))  bendGoal;
+ UnityEngine::Transform __declspec(property(get=__get_bendGoal, put=__set_bendGoal))  bendGoal;
 
-constexpr void __set_bendGoal(::UnityEngine::Transform value) ;
+constexpr void __set_bendGoal(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_bendGoal() const;
+constexpr UnityEngine::Transform __get_bendGoal() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_direction, put=__set_direction))  direction;
+ UnityEngine::Vector3 __declspec(property(get=__get_direction, put=__set_direction))  direction;
 
-constexpr void __set_direction(::UnityEngine::Vector3 value) ;
+constexpr void __set_direction(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_direction() const;
+constexpr UnityEngine::Vector3 __get_direction() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get_rotationOffset, put=__set_rotationOffset))  rotationOffset;
+ UnityEngine::Quaternion __declspec(property(get=__get_rotationOffset, put=__set_rotationOffset))  rotationOffset;
 
-constexpr void __set_rotationOffset(::UnityEngine::Quaternion value) ;
+constexpr void __set_rotationOffset(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get_rotationOffset() const;
+constexpr UnityEngine::Quaternion __get_rotationOffset() const;
 
  float_t __declspec(property(get=__get_weight, put=__set_weight))  weight;
 
@@ -107,17 +106,17 @@ constexpr void __set_weight(float_t value) ;
 
 constexpr float_t __get_weight() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_defaultLocalDirection, put=__set_defaultLocalDirection))  defaultLocalDirection;
+ UnityEngine::Vector3 __declspec(property(get=__get_defaultLocalDirection, put=__set_defaultLocalDirection))  defaultLocalDirection;
 
-constexpr void __set_defaultLocalDirection(::UnityEngine::Vector3 value) ;
+constexpr void __set_defaultLocalDirection(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_defaultLocalDirection() const;
+constexpr UnityEngine::Vector3 __get_defaultLocalDirection() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_defaultChildDirection, put=__set_defaultChildDirection))  defaultChildDirection;
+ UnityEngine::Vector3 __declspec(property(get=__get_defaultChildDirection, put=__set_defaultChildDirection))  defaultChildDirection;
 
-constexpr void __set_defaultChildDirection(::UnityEngine::Vector3 value) ;
+constexpr void __set_defaultChildDirection(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_defaultChildDirection() const;
+constexpr UnityEngine::Vector3 __get_defaultChildDirection() const;
 
  float_t __declspec(property(get=__get_clampF, put=__set_clampF))  clampF;
 
@@ -182,7 +181,7 @@ constexpr bool __get_limbOrientationsSet() const;
 // Methods
 
 /// @brief Method IsValid addr 0x11cd82c size 0x1d8 virtual false final false
- bool IsValid(::RootMotion::FinalIK::IKSolverFullBody solver, ::RootMotion::____RootMotion__Warning__Logger logger) ;
+ bool IsValid(RootMotion::FinalIK::IKSolverFullBody solver, RootMotion::RootMotion__Warning__Logger logger) ;
 
 /// @brief Method get_initiated addr 0x11cda04 size 0x8 virtual false final false
  bool get_initiated() ;
@@ -196,37 +195,36 @@ explicit IKConstraintBend() ;
 /// @brief Method .ctor addr 0x11ca98c size 0x6c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "bone1", ty: "::UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "bone2", ty: "::UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "bone3", ty: "::UnityEngine::Transform", modifiers: "", def_value: None }]
-explicit IKConstraintBend(::UnityEngine::Transform bone1, ::UnityEngine::Transform bone2, ::UnityEngine::Transform bone3) ;
+// Ctor Parameters [CppParam { name: "bone1", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "bone2", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "bone3", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
+explicit IKConstraintBend(UnityEngine::Transform bone1, UnityEngine::Transform bone2, UnityEngine::Transform bone3) ;
 
 /// @brief Method .ctor addr 0x11cda18 size 0x8c virtual false final false
- void _ctor(::UnityEngine::Transform bone1, ::UnityEngine::Transform bone2, ::UnityEngine::Transform bone3) ;
+ void _ctor(UnityEngine::Transform bone1, UnityEngine::Transform bone2, UnityEngine::Transform bone3) ;
 
 /// @brief Method SetBones addr 0x11cb528 size 0xc virtual false final false
- void SetBones(::UnityEngine::Transform bone1, ::UnityEngine::Transform bone2, ::UnityEngine::Transform bone3) ;
+ void SetBones(UnityEngine::Transform bone1, UnityEngine::Transform bone2, UnityEngine::Transform bone3) ;
 
 /// @brief Method Initiate addr 0x11cb534 size 0x268 virtual false final false
- void Initiate(::RootMotion::FinalIK::IKSolverFullBody solver) ;
+ void Initiate(RootMotion::FinalIK::IKSolverFullBody solver) ;
 
 /// @brief Method SetLimbOrientation addr 0x11cdbec size 0x354 virtual false final false
- void SetLimbOrientation(::UnityEngine::Vector3 upper, ::UnityEngine::Vector3 lower, ::UnityEngine::Vector3 last) ;
+ void SetLimbOrientation(UnityEngine::Vector3 upper, UnityEngine::Vector3 lower, UnityEngine::Vector3 last) ;
 
 /// @brief Method LimitBend addr 0x11cdf40 size 0x3c8 virtual false final false
  void LimitBend(float_t solverWeight, float_t positionWeight) ;
 
 /// @brief Method GetDir addr 0x11cc500 size 0x630 virtual false final false
- ::UnityEngine::Vector3 GetDir(::RootMotion::FinalIK::IKSolverFullBody solver) ;
+ UnityEngine::Vector3 GetDir(RootMotion::FinalIK::IKSolverFullBody solver) ;
 
 /// @brief Method OrthoToLimb addr 0x11cdaa4 size 0xa4 virtual false final false
- ::UnityEngine::Vector3 OrthoToLimb(::RootMotion::FinalIK::IKSolverFullBody solver, ::UnityEngine::Vector3 tangent) ;
+ UnityEngine::Vector3 OrthoToLimb(RootMotion::FinalIK::IKSolverFullBody solver, UnityEngine::Vector3 tangent) ;
 
 /// @brief Method OrthoToBone1 addr 0x11cdb48 size 0xa4 virtual false final false
- ::UnityEngine::Vector3 OrthoToBone1(::RootMotion::FinalIK::IKSolverFullBody solver, ::UnityEngine::Vector3 tangent) ;
+ UnityEngine::Vector3 OrthoToBone1(RootMotion::FinalIK::IKSolverFullBody solver, UnityEngine::Vector3 tangent) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::IKConstraintBend);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::IKConstraintBend, "RootMotion.FinalIK", "IKConstraintBend");
+NEED_NO_BOX(RootMotion::FinalIK::IKConstraintBend);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKConstraintBend, "RootMotion.FinalIK", "IKConstraintBend");

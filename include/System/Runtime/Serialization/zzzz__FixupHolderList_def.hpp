@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::Runtime::Serialization {
 class FixupHolder;
 }
@@ -53,11 +52,11 @@ constexpr explicit FixupHolderList(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Fields
 
- ::ArrayW<::System::Runtime::Serialization::FixupHolder> __declspec(property(get=__get_m_values, put=__set_m_values))  m_values;
+ ::ArrayW<System::Runtime::Serialization::FixupHolder> __declspec(property(get=__get_m_values, put=__set_m_values))  m_values;
 
-constexpr void __set_m_values(::ArrayW<::System::Runtime::Serialization::FixupHolder> value) ;
+constexpr void __set_m_values(::ArrayW<System::Runtime::Serialization::FixupHolder> value) ;
 
-constexpr ::ArrayW<::System::Runtime::Serialization::FixupHolder> __get_m_values() const;
+constexpr ::ArrayW<System::Runtime::Serialization::FixupHolder> __get_m_values() const;
 
  int32_t __declspec(property(get=__get_m_count, put=__set_m_count))  m_count;
 
@@ -81,7 +80,7 @@ explicit FixupHolderList(int32_t startingSize) ;
  void _ctor(int32_t startingSize) ;
 
 /// @brief Method Add addr 0x2350708 size 0xa8 virtual true final false
- void Add(::System::Runtime::Serialization::FixupHolder fixup) ;
+ void Add(System::Runtime::Serialization::FixupHolder fixup) ;
 
 /// @brief Method EnlargeArray addr 0x23507b0 size 0x88 virtual false final false
  void EnlargeArray() ;
@@ -90,6 +89,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::FixupHolderList);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::FixupHolderList, "System.Runtime.Serialization", "FixupHolderList");
+NEED_NO_BOX(System::Runtime::Serialization::FixupHolderList);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::FixupHolderList, "System.Runtime.Serialization", "FixupHolderList");

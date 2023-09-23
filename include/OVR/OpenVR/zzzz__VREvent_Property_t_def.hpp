@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace OVR::OpenVR {
 struct ETrackedDeviceProperty;
 }
@@ -19,8 +18,8 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE VREvent_Property_t : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "container", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "prop", ty: "::OVR::OpenVR::ETrackedDeviceProperty", modifiers: "", def_value: None }]
-constexpr VREvent_Property_t(uint64_t container, ::OVR::OpenVR::ETrackedDeviceProperty prop) noexcept;
+// Ctor Parameters [CppParam { name: "container", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "prop", ty: "OVR::OpenVR::ETrackedDeviceProperty", modifiers: "", def_value: None }]
+constexpr VREvent_Property_t(uint64_t container, OVR::OpenVR::ETrackedDeviceProperty prop) noexcept;
 
 
                     constexpr VREvent_Property_t(VREvent_Property_t const&) = default;
@@ -59,15 +58,14 @@ constexpr void __set_container(uint64_t value) ;
 
 constexpr uint64_t __get_container() const;
 
- ::OVR::OpenVR::ETrackedDeviceProperty __declspec(property(get=__get_prop, put=__set_prop))  prop;
+ OVR::OpenVR::ETrackedDeviceProperty __declspec(property(get=__get_prop, put=__set_prop))  prop;
 
-constexpr void __set_prop(::OVR::OpenVR::ETrackedDeviceProperty value) ;
+constexpr void __set_prop(OVR::OpenVR::ETrackedDeviceProperty value) ;
 
-constexpr ::OVR::OpenVR::ETrackedDeviceProperty __get_prop() const;
+constexpr OVR::OpenVR::ETrackedDeviceProperty __get_prop() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::VREvent_Property_t, "OVR.OpenVR", "VREvent_Property_t");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_Property_t, "OVR.OpenVR", "VREvent_Property_t");

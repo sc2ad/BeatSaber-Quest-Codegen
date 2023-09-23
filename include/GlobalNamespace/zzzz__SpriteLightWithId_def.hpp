@@ -4,7 +4,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 class SpriteRenderer;
 }
@@ -13,7 +12,7 @@ struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct ____GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType;
+struct GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType;
 }
 namespace GlobalNamespace {
 class SpriteLightWithId;
@@ -24,20 +23,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14717))
 // CS Name: SpriteLightWithId::MultiplyColorByAlphaType
-struct CORDL_TYPE ____GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType(int32_t value__) noexcept;
+constexpr GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType(____GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType const&) = default;
-                    constexpr ____GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType(____GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType&&) = default;
-                    constexpr ____GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType& operator=(____GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType const& o) {
+                    constexpr GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType(GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType const&) = default;
+                    constexpr GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType(GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType&&) = default;
+                    constexpr GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType& operator=(GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType& operator=(____GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType&& o) noexcept {
+                    constexpr GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType& operator=(GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -50,7 +49,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -58,15 +57,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType_Unwrapped : int32_t {
+enum class __GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType_Unwrapped : int32_t {
 __None = 0,
 __BeforeApplyingMinAlpha = 1,
 __AfterApplyingMinAlpha = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType_Unwrapped>(__instance);
 }
 
 
@@ -79,13 +78,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::GlobalNamespace::____GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType const None;
+static GlobalNamespace::GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType const None;
 
 /// @brief Field BeforeApplyingMinAlpha offset 0
-static ::GlobalNamespace::____GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType const BeforeApplyingMinAlpha;
+static GlobalNamespace::GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType const BeforeApplyingMinAlpha;
 
 /// @brief Field AfterApplyingMinAlpha offset 0
-static ::GlobalNamespace::____GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType const AfterApplyingMinAlpha;
+static GlobalNamespace::GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType const AfterApplyingMinAlpha;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -97,10 +96,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14703))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14718))
 // CS Name: SpriteLightWithId
-class CORDL_TYPE SpriteLightWithId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
+class CORDL_TYPE SpriteLightWithId : public GlobalNamespace::LightWithIdMonoBehaviour {
 public:
 // Declarations
-using MultiplyColorByAlphaType = ::GlobalNamespace::____GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType;
+using MultiplyColorByAlphaType = GlobalNamespace::GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x58};
@@ -114,7 +113,7 @@ constexpr SpriteLightWithId(SpriteLightWithId const& ) noexcept = default;
 constexpr SpriteLightWithId(SpriteLightWithId&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SpriteLightWithId(void* ptr) noexcept : ::GlobalNamespace::LightWithIdMonoBehaviour(ptr) {
+constexpr explicit SpriteLightWithId(void* ptr) noexcept : GlobalNamespace::LightWithIdMonoBehaviour(ptr) {
 }
 
 
@@ -135,11 +134,11 @@ constexpr explicit SpriteLightWithId(void* ptr) noexcept : ::GlobalNamespace::Li
 
 // Fields
 
- ::UnityEngine::SpriteRenderer __declspec(property(get=__get__spriteRenderer, put=__set__spriteRenderer))  _spriteRenderer;
+ UnityEngine::SpriteRenderer __declspec(property(get=__get__spriteRenderer, put=__set__spriteRenderer))  _spriteRenderer;
 
-constexpr void __set__spriteRenderer(::UnityEngine::SpriteRenderer value) ;
+constexpr void __set__spriteRenderer(UnityEngine::SpriteRenderer value) ;
 
-constexpr ::UnityEngine::SpriteRenderer __get__spriteRenderer() const;
+constexpr UnityEngine::SpriteRenderer __get__spriteRenderer() const;
 
  bool __declspec(property(get=__get__hideIfAlphaOutOfRange, put=__set__hideIfAlphaOutOfRange))  _hideIfAlphaOutOfRange;
 
@@ -171,11 +170,11 @@ constexpr void __set__minAlpha(float_t value) ;
 
 constexpr float_t __get__minAlpha() const;
 
- ::GlobalNamespace::____GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType __declspec(property(get=__get__multiplyColorByAlpha, put=__set__multiplyColorByAlpha))  _multiplyColorByAlpha;
+ GlobalNamespace::GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType __declspec(property(get=__get__multiplyColorByAlpha, put=__set__multiplyColorByAlpha))  _multiplyColorByAlpha;
 
-constexpr void __set__multiplyColorByAlpha(::GlobalNamespace::____GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType value) ;
+constexpr void __set__multiplyColorByAlpha(GlobalNamespace::GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType __get__multiplyColorByAlpha() const;
+constexpr GlobalNamespace::GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType __get__multiplyColorByAlpha() const;
 
  bool __declspec(property(get=__get__setColorOnly, put=__set__setColorOnly))  _setColorOnly;
 
@@ -198,16 +197,16 @@ constexpr bool __get__setOnlyOnce() const;
 
 // Properties
 
- ::UnityEngine::Color __declspec(property(get=get_color))  color;
+ UnityEngine::Color __declspec(property(get=get_color))  color;
 
 
 // Methods
 
 /// @brief Method get_color addr 0x1fa0560 size 0x1c virtual false final false
- ::UnityEngine::Color get_color() ;
+ UnityEngine::Color get_color() ;
 
 /// @brief Method ColorWasSet addr 0x1fa057c size 0x144 virtual true final false
- void ColorWasSet(::UnityEngine::Color color) ;
+ void ColorWasSet(UnityEngine::Color color) ;
 
 // Ctor Parameters []
 explicit SpriteLightWithId() ;
@@ -219,7 +218,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType, "", "SpriteLightWithId/MultiplyColorByAlphaType");
-NEED_NO_BOX(::GlobalNamespace::SpriteLightWithId);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SpriteLightWithId, "", "SpriteLightWithId");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType, "", "SpriteLightWithId/MultiplyColorByAlphaType");
+NEED_NO_BOX(GlobalNamespace::SpriteLightWithId);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpriteLightWithId, "", "SpriteLightWithId");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace UnityEngine {
 struct Color;
 }
@@ -16,7 +15,7 @@ namespace RootMotion {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12432))
 // CS Name: RootMotion.DemoGUIMessage
-class CORDL_TYPE DemoGUIMessage : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE DemoGUIMessage : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr DemoGUIMessage(DemoGUIMessage const& ) noexcept = default;
 constexpr DemoGUIMessage(DemoGUIMessage&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DemoGUIMessage(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit DemoGUIMessage(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -58,11 +57,11 @@ constexpr void __set_text(::StringW value) ;
 
 constexpr ::StringW __get_text() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_color, put=__set_color))  color;
+ UnityEngine::Color __declspec(property(get=__get_color, put=__set_color))  color;
 
-constexpr void __set_color(::UnityEngine::Color value) ;
+constexpr void __set_color(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_color() const;
+constexpr UnityEngine::Color __get_color() const;
 
 
 // Methods
@@ -80,6 +79,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::DemoGUIMessage);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::DemoGUIMessage, "RootMotion", "DemoGUIMessage");
+NEED_NO_BOX(RootMotion::DemoGUIMessage);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::DemoGUIMessage, "RootMotion", "DemoGUIMessage");

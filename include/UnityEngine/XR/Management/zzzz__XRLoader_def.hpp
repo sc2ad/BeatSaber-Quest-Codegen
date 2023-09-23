@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -19,7 +18,7 @@ namespace UnityEngine::XR::Management {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10151))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15891))
 // CS Name: UnityEngine.XR.Management.XRLoader
-class CORDL_TYPE XRLoader : public ::UnityEngine::ScriptableObject {
+class CORDL_TYPE XRLoader : public UnityEngine::ScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr XRLoader(XRLoader const& ) noexcept = default;
 constexpr XRLoader(XRLoader&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XRLoader(void* ptr) noexcept : ::UnityEngine::ScriptableObject(ptr) {
+constexpr explicit XRLoader(void* ptr) noexcept : UnityEngine::ScriptableObject(ptr) {
 }
 
 
@@ -72,7 +71,7 @@ template<typename T>
  T GetLoadedSubsystem() ;
 
 /// @brief Method GetSupportedGraphicsDeviceTypes addr 0x2addb20 size 0x70 virtual true final false
- ::System::Collections::Generic::List_1<::UnityEngine::Rendering::GraphicsDeviceType> GetSupportedGraphicsDeviceTypes(bool buildingPlayer) ;
+ System::Collections::Generic::List_1<UnityEngine::Rendering::GraphicsDeviceType> GetSupportedGraphicsDeviceTypes(bool buildingPlayer) ;
 
 // Ctor Parameters []
 explicit XRLoader() ;
@@ -84,6 +83,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR::Management
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::XR::Management::XRLoader);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::Management::XRLoader, "UnityEngine.XR.Management", "XRLoader");
+NEED_NO_BOX(UnityEngine::XR::Management::XRLoader);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::Management::XRLoader, "UnityEngine.XR.Management", "XRLoader");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct DepthTextureMode;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::DepthTextureMode const None;
+static UnityEngine::DepthTextureMode const None;
 
 /// @brief Field Depth offset 0
-static ::UnityEngine::DepthTextureMode const Depth;
+static UnityEngine::DepthTextureMode const Depth;
 
 /// @brief Field DepthNormals offset 0
-static ::UnityEngine::DepthTextureMode const DepthNormals;
+static UnityEngine::DepthTextureMode const DepthNormals;
 
 /// @brief Field MotionVectors offset 0
-static ::UnityEngine::DepthTextureMode const MotionVectors;
+static UnityEngine::DepthTextureMode const MotionVectors;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::DepthTextureMode, "UnityEngine", "DepthTextureMode");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::DepthTextureMode, "UnityEngine", "DepthTextureMode");

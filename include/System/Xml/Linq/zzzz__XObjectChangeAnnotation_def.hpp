@@ -1,13 +1,12 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
+namespace System::Xml::Linq {
+class XObjectChangeEventArgs;
+}
 namespace System {
 template<typename TEventArgs>
 class EventHandler_1;
-}
-namespace System::Xml::Linq {
-class XObjectChangeEventArgs;
 }
 // Forward declare root types
 namespace System::Xml::Linq {
@@ -55,22 +54,21 @@ constexpr explicit XObjectChangeAnnotation(void* ptr) noexcept : ::bs_hook::Il2C
 
 // Fields
 
- ::System::EventHandler_1<::System::Xml::Linq::XObjectChangeEventArgs> __declspec(property(get=__get_changing, put=__set_changing))  changing;
+ System::EventHandler_1<System::Xml::Linq::XObjectChangeEventArgs> __declspec(property(get=__get_changing, put=__set_changing))  changing;
 
-constexpr void __set_changing(::System::EventHandler_1<::System::Xml::Linq::XObjectChangeEventArgs> value) ;
+constexpr void __set_changing(System::EventHandler_1<System::Xml::Linq::XObjectChangeEventArgs> value) ;
 
-constexpr ::System::EventHandler_1<::System::Xml::Linq::XObjectChangeEventArgs> __get_changing() const;
+constexpr System::EventHandler_1<System::Xml::Linq::XObjectChangeEventArgs> __get_changing() const;
 
- ::System::EventHandler_1<::System::Xml::Linq::XObjectChangeEventArgs> __declspec(property(get=__get_changed, put=__set_changed))  changed;
+ System::EventHandler_1<System::Xml::Linq::XObjectChangeEventArgs> __declspec(property(get=__get_changed, put=__set_changed))  changed;
 
-constexpr void __set_changed(::System::EventHandler_1<::System::Xml::Linq::XObjectChangeEventArgs> value) ;
+constexpr void __set_changed(System::EventHandler_1<System::Xml::Linq::XObjectChangeEventArgs> value) ;
 
-constexpr ::System::EventHandler_1<::System::Xml::Linq::XObjectChangeEventArgs> __get_changed() const;
+constexpr System::EventHandler_1<System::Xml::Linq::XObjectChangeEventArgs> __get_changed() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Linq
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Linq::XObjectChangeAnnotation);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Linq::XObjectChangeAnnotation, "System.Xml.Linq", "XObjectChangeAnnotation");
+NEED_NO_BOX(System::Xml::Linq::XObjectChangeAnnotation);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Linq::XObjectChangeAnnotation, "System.Xml.Linq", "XObjectChangeAnnotation");

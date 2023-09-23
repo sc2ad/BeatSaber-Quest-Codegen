@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 struct TimeSpan;
 }
@@ -79,13 +78,13 @@ constexpr int64_t __get_user() const;
 
 // Properties
 
- ::System::TimeSpan __declspec(property(get=get_TotalProcessorTime))  TotalProcessorTime;
+ System::TimeSpan __declspec(property(get=get_TotalProcessorTime))  TotalProcessorTime;
 
 
 // Methods
 
 /// @brief Method get_TotalProcessorTime addr 0x27ddd64 size 0xc virtual false final false
- ::System::TimeSpan get_TotalProcessorTime() ;
+ System::TimeSpan get_TotalProcessorTime() ;
 
 // Ctor Parameters []
 explicit ProcessThreadTimes() ;
@@ -97,6 +96,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Diagnostics
-} // end anonymous namespace
-NEED_NO_BOX(::System::Diagnostics::ProcessThreadTimes);
-DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::ProcessThreadTimes, "System.Diagnostics", "ProcessThreadTimes");
+NEED_NO_BOX(System::Diagnostics::ProcessThreadTimes);
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::ProcessThreadTimes, "System.Diagnostics", "ProcessThreadTimes");

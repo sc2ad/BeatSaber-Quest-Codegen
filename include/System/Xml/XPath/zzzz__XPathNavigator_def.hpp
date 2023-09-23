@@ -6,36 +6,35 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace System {
 class ICloneable;
 }
-namespace System {
-struct DateTime;
+namespace System::Xml::XPath {
+struct XPathNodeType;
 }
-namespace System::Xml {
-class XmlNameTable;
+namespace System::Xml::XPath {
+struct XPathNamespaceScope;
 }
 namespace System::Xml::XPath {
 class XPathNavigatorKeyComparer;
 }
-namespace System::Xml::XPath {
-struct XPathNamespaceScope;
+namespace System::Xml::Schema {
+class XmlSchemaType;
 }
 namespace System {
 class Type;
 }
 namespace System::Xml {
-class IXmlNamespaceResolver;
+class XmlNameTable;
 }
-namespace System::Xml::XPath {
-struct XPathNodeType;
+namespace System {
+struct DateTime;
 }
 namespace System::Xml::Schema {
 class IXmlSchemaInfo;
 }
-namespace System::Xml::Schema {
-class XmlSchemaType;
+namespace System::Xml {
+class IXmlNamespaceResolver;
 }
 // Forward declare root types
 namespace System::Xml::XPath {
@@ -47,14 +46,14 @@ namespace System::Xml::XPath {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11522))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11524))
 // CS Name: System.Xml.XPath.XPathNavigator
-class CORDL_TYPE XPathNavigator : public ::System::Xml::XPath::XPathItem {
+class CORDL_TYPE XPathNavigator : public System::Xml::XPath::XPathItem {
 public:
 // Declarations
-/// @brief Convert operator to ::System::ICloneable
-constexpr operator  ::System::ICloneable() const noexcept;
+/// @brief Convert operator to System::ICloneable
+constexpr operator  System::ICloneable() const noexcept;
 
-/// @brief Convert operator to ::System::Xml::IXmlNamespaceResolver
-constexpr operator  ::System::Xml::IXmlNamespaceResolver() const noexcept;
+/// @brief Convert operator to System::Xml::IXmlNamespaceResolver
+constexpr operator  System::Xml::IXmlNamespaceResolver() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -68,7 +67,7 @@ constexpr XPathNavigator(XPathNavigator const& ) noexcept = default;
 constexpr XPathNavigator(XPathNavigator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XPathNavigator(void* ptr) noexcept : ::System::Xml::XPath::XPathItem(ptr) {
+constexpr explicit XPathNavigator(void* ptr) noexcept : System::Xml::XPath::XPathItem(ptr) {
 }
 
 
@@ -89,11 +88,11 @@ constexpr explicit XPathNavigator(void* ptr) noexcept : ::System::Xml::XPath::XP
 
 // Fields
 
-static ::System::Xml::XPath::XPathNavigatorKeyComparer __declspec(property(get=__get_comparer, put=__set_comparer))  comparer;
+static System::Xml::XPath::XPathNavigatorKeyComparer __declspec(property(get=__get_comparer, put=__set_comparer))  comparer;
 
-static void __set_comparer(::System::Xml::XPath::XPathNavigatorKeyComparer value) ;
+static void __set_comparer(System::Xml::XPath::XPathNavigatorKeyComparer value) ;
 
-static ::System::Xml::XPath::XPathNavigatorKeyComparer __get_comparer() ;
+static System::Xml::XPath::XPathNavigatorKeyComparer __get_comparer() ;
 
 static ::ArrayW<char16_t> __declspec(property(get=__get_NodeTypeLetter, put=__set_NodeTypeLetter))  NodeTypeLetter;
 
@@ -116,15 +115,15 @@ static ::ArrayW<int32_t> __get_ContentKindMasks() ;
 
 // Properties
 
- ::System::Xml::Schema::XmlSchemaType __declspec(property(get=get_XmlType))  XmlType;
+ System::Xml::Schema::XmlSchemaType __declspec(property(get=get_XmlType))  XmlType;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_TypedValue))  TypedValue;
 
- ::System::Type __declspec(property(get=get_ValueType))  ValueType;
+ System::Type __declspec(property(get=get_ValueType))  ValueType;
 
  bool __declspec(property(get=get_ValueAsBoolean))  ValueAsBoolean;
 
- ::System::DateTime __declspec(property(get=get_ValueAsDateTime))  ValueAsDateTime;
+ System::DateTime __declspec(property(get=get_ValueAsDateTime))  ValueAsDateTime;
 
  double_t __declspec(property(get=get_ValueAsDouble))  ValueAsDouble;
 
@@ -132,9 +131,9 @@ static ::ArrayW<int32_t> __get_ContentKindMasks() ;
 
  int64_t __declspec(property(get=get_ValueAsLong))  ValueAsLong;
 
- ::System::Xml::XmlNameTable __declspec(property(get=get_NameTable))  NameTable;
+ System::Xml::XmlNameTable __declspec(property(get=get_NameTable))  NameTable;
 
- ::System::Xml::XPath::XPathNodeType __declspec(property(get=get_NodeType))  NodeType;
+ System::Xml::XPath::XPathNodeType __declspec(property(get=get_NodeType))  NodeType;
 
  ::StringW __declspec(property(get=get_LocalName))  LocalName;
 
@@ -144,7 +143,7 @@ static ::ArrayW<int32_t> __get_ContentKindMasks() ;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_UnderlyingObject))  UnderlyingObject;
 
- ::System::Xml::Schema::IXmlSchemaInfo __declspec(property(get=get_SchemaInfo))  SchemaInfo;
+ System::Xml::Schema::IXmlSchemaInfo __declspec(property(get=get_SchemaInfo))  SchemaInfo;
 
 
 // Methods
@@ -153,19 +152,19 @@ static ::ArrayW<int32_t> __get_ContentKindMasks() ;
  ::StringW ToString() ;
 
 /// @brief Method get_XmlType addr 0x2716520 size 0x188 virtual true final false
- ::System::Xml::Schema::XmlSchemaType get_XmlType() ;
+ System::Xml::Schema::XmlSchemaType get_XmlType() ;
 
 /// @brief Method get_TypedValue addr 0x27166a8 size 0x2dc virtual true final false
  ::bs_hook::Il2CppWrapperType get_TypedValue() ;
 
 /// @brief Method get_ValueType addr 0x2716984 size 0x20c virtual true final false
- ::System::Type get_ValueType() ;
+ System::Type get_ValueType() ;
 
 /// @brief Method get_ValueAsBoolean addr 0x2716b90 size 0x2c4 virtual true final false
  bool get_ValueAsBoolean() ;
 
 /// @brief Method get_ValueAsDateTime addr 0x2716e54 size 0x2cc virtual true final false
- ::System::DateTime get_ValueAsDateTime() ;
+ System::DateTime get_ValueAsDateTime() ;
 
 /// @brief Method get_ValueAsDouble addr 0x2717120 size 0x2cc virtual true final false
  double_t get_ValueAsDouble() ;
@@ -177,13 +176,13 @@ static ::ArrayW<int32_t> __get_ContentKindMasks() ;
  int64_t get_ValueAsLong() ;
 
 /// @brief Method ValueAs addr 0x2717984 size 0x2ec virtual true final false
- ::bs_hook::Il2CppWrapperType ValueAs(::System::Type returnType, ::System::Xml::IXmlNamespaceResolver nsResolver) ;
+ ::bs_hook::Il2CppWrapperType ValueAs(System::Type returnType, System::Xml::IXmlNamespaceResolver nsResolver) ;
 
 /// @brief Method System.ICloneable.Clone addr 0x2717c70 size 0x10 virtual true final true
  ::bs_hook::Il2CppWrapperType System_ICloneable_Clone() ;
 
 /// @brief Method get_NameTable addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Xml::XmlNameTable get_NameTable() ;
+ System::Xml::XmlNameTable get_NameTable() ;
 
 /// @brief Method LookupNamespace addr 0x2717c80 size 0x1a4 virtual true final false
  ::StringW LookupNamespace(::StringW prefix) ;
@@ -192,10 +191,10 @@ static ::ArrayW<int32_t> __get_ContentKindMasks() ;
  ::StringW LookupPrefix(::StringW namespaceURI) ;
 
 /// @brief Method Clone addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Xml::XPath::XPathNavigator Clone() ;
+ System::Xml::XPath::XPathNavigator Clone() ;
 
 /// @brief Method get_NodeType addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Xml::XPath::XPathNodeType get_NodeType() ;
+ System::Xml::XPath::XPathNodeType get_NodeType() ;
 
 /// @brief Method get_LocalName addr 0x0 size 0xffffffffffffffff virtual true final false
  ::StringW get_LocalName() ;
@@ -213,22 +212,22 @@ static ::ArrayW<int32_t> __get_ContentKindMasks() ;
  bool MoveToNamespace(::StringW name) ;
 
 /// @brief Method MoveToFirstNamespace addr 0x0 size 0xffffffffffffffff virtual true final false
- bool MoveToFirstNamespace(::System::Xml::XPath::XPathNamespaceScope namespaceScope) ;
+ bool MoveToFirstNamespace(System::Xml::XPath::XPathNamespaceScope namespaceScope) ;
 
 /// @brief Method MoveToNextNamespace addr 0x0 size 0xffffffffffffffff virtual true final false
- bool MoveToNextNamespace(::System::Xml::XPath::XPathNamespaceScope namespaceScope) ;
+ bool MoveToNextNamespace(System::Xml::XPath::XPathNamespaceScope namespaceScope) ;
 
 /// @brief Method MoveToParent addr 0x0 size 0xffffffffffffffff virtual true final false
  bool MoveToParent() ;
 
 /// @brief Method IsSamePosition addr 0x0 size 0xffffffffffffffff virtual true final false
- bool IsSamePosition(::System::Xml::XPath::XPathNavigator other) ;
+ bool IsSamePosition(System::Xml::XPath::XPathNavigator other) ;
 
 /// @brief Method get_SchemaInfo addr 0x27180bc size 0x48 virtual true final false
- ::System::Xml::Schema::IXmlSchemaInfo get_SchemaInfo() ;
+ System::Xml::Schema::IXmlSchemaInfo get_SchemaInfo() ;
 
 /// @brief Method IsText addr 0x2718104 size 0x10 virtual false final false
-static bool IsText(::System::Xml::XPath::XPathNodeType type) ;
+static bool IsText(System::Xml::XPath::XPathNodeType type) ;
 
 // Ctor Parameters []
 explicit XPathNavigator() ;
@@ -240,6 +239,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::XPath
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::XPath::XPathNavigator);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XPath::XPathNavigator, "System.Xml.XPath", "XPathNavigator");
+NEED_NO_BOX(System::Xml::XPath::XPathNavigator);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XPath::XPathNavigator, "System.Xml.XPath", "XPathNavigator");

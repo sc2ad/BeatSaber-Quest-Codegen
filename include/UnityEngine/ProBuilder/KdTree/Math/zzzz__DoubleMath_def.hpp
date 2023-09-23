@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::ProBuilder::KdTree::Math {
 class DoubleMath;
@@ -15,7 +14,7 @@ namespace UnityEngine::ProBuilder::KdTree::Math {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15811)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15811), inst: 2598 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15809))
 // CS Name: UnityEngine.ProBuilder.KdTree.Math.DoubleMath
-class CORDL_TYPE DoubleMath : public ::UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<double_t> {
+class CORDL_TYPE DoubleMath : public UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<double_t> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr DoubleMath(DoubleMath const& ) noexcept = default;
 constexpr DoubleMath(DoubleMath&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DoubleMath(void* ptr) noexcept : ::UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<double_t>(ptr) {
+constexpr explicit DoubleMath(void* ptr) noexcept : UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<double_t>(ptr) {
 }
 
 
@@ -107,6 +106,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder::KdTree::Math
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::KdTree::Math::DoubleMath);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::KdTree::Math::DoubleMath, "UnityEngine.ProBuilder.KdTree.Math", "DoubleMath");
+NEED_NO_BOX(UnityEngine::ProBuilder::KdTree::Math::DoubleMath);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::KdTree::Math::DoubleMath, "UnityEngine.ProBuilder.KdTree.Math", "DoubleMath");

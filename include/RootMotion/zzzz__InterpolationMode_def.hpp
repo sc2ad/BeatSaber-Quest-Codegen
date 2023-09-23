@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace RootMotion {
 struct InterpolationMode;
@@ -92,89 +91,88 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::RootMotion::InterpolationMode const None;
+static RootMotion::InterpolationMode const None;
 
 /// @brief Field InOutCubic offset 0
-static ::RootMotion::InterpolationMode const InOutCubic;
+static RootMotion::InterpolationMode const InOutCubic;
 
 /// @brief Field InOutQuintic offset 0
-static ::RootMotion::InterpolationMode const InOutQuintic;
+static RootMotion::InterpolationMode const InOutQuintic;
 
 /// @brief Field InOutSine offset 0
-static ::RootMotion::InterpolationMode const InOutSine;
+static RootMotion::InterpolationMode const InOutSine;
 
 /// @brief Field InQuintic offset 0
-static ::RootMotion::InterpolationMode const InQuintic;
+static RootMotion::InterpolationMode const InQuintic;
 
 /// @brief Field InQuartic offset 0
-static ::RootMotion::InterpolationMode const InQuartic;
+static RootMotion::InterpolationMode const InQuartic;
 
 /// @brief Field InCubic offset 0
-static ::RootMotion::InterpolationMode const InCubic;
+static RootMotion::InterpolationMode const InCubic;
 
 /// @brief Field InQuadratic offset 0
-static ::RootMotion::InterpolationMode const InQuadratic;
+static RootMotion::InterpolationMode const InQuadratic;
 
 /// @brief Field InElastic offset 0
-static ::RootMotion::InterpolationMode const InElastic;
+static RootMotion::InterpolationMode const InElastic;
 
 /// @brief Field InElasticSmall offset 0
-static ::RootMotion::InterpolationMode const InElasticSmall;
+static RootMotion::InterpolationMode const InElasticSmall;
 
 /// @brief Field InElasticBig offset 0
-static ::RootMotion::InterpolationMode const InElasticBig;
+static RootMotion::InterpolationMode const InElasticBig;
 
 /// @brief Field InSine offset 0
-static ::RootMotion::InterpolationMode const InSine;
+static RootMotion::InterpolationMode const InSine;
 
 /// @brief Field InBack offset 0
-static ::RootMotion::InterpolationMode const InBack;
+static RootMotion::InterpolationMode const InBack;
 
 /// @brief Field OutQuintic offset 0
-static ::RootMotion::InterpolationMode const OutQuintic;
+static RootMotion::InterpolationMode const OutQuintic;
 
 /// @brief Field OutQuartic offset 0
-static ::RootMotion::InterpolationMode const OutQuartic;
+static RootMotion::InterpolationMode const OutQuartic;
 
 /// @brief Field OutCubic offset 0
-static ::RootMotion::InterpolationMode const OutCubic;
+static RootMotion::InterpolationMode const OutCubic;
 
 /// @brief Field OutInCubic offset 0
-static ::RootMotion::InterpolationMode const OutInCubic;
+static RootMotion::InterpolationMode const OutInCubic;
 
 /// @brief Field OutInQuartic offset 0
-static ::RootMotion::InterpolationMode const OutInQuartic;
+static RootMotion::InterpolationMode const OutInQuartic;
 
 /// @brief Field OutElastic offset 0
-static ::RootMotion::InterpolationMode const OutElastic;
+static RootMotion::InterpolationMode const OutElastic;
 
 /// @brief Field OutElasticSmall offset 0
-static ::RootMotion::InterpolationMode const OutElasticSmall;
+static RootMotion::InterpolationMode const OutElasticSmall;
 
 /// @brief Field OutElasticBig offset 0
-static ::RootMotion::InterpolationMode const OutElasticBig;
+static RootMotion::InterpolationMode const OutElasticBig;
 
 /// @brief Field OutSine offset 0
-static ::RootMotion::InterpolationMode const OutSine;
+static RootMotion::InterpolationMode const OutSine;
 
 /// @brief Field OutBack offset 0
-static ::RootMotion::InterpolationMode const OutBack;
+static RootMotion::InterpolationMode const OutBack;
 
 /// @brief Field OutBackCubic offset 0
-static ::RootMotion::InterpolationMode const OutBackCubic;
+static RootMotion::InterpolationMode const OutBackCubic;
 
 /// @brief Field OutBackQuartic offset 0
-static ::RootMotion::InterpolationMode const OutBackQuartic;
+static RootMotion::InterpolationMode const OutBackQuartic;
 
 /// @brief Field BackInCubic offset 0
-static ::RootMotion::InterpolationMode const BackInCubic;
+static RootMotion::InterpolationMode const BackInCubic;
 
 /// @brief Field BackInQuartic offset 0
-static ::RootMotion::InterpolationMode const BackInQuartic;
+static RootMotion::InterpolationMode const BackInQuartic;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def RootMotion
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::InterpolationMode, "RootMotion", "InterpolationMode");
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::InterpolationMode, "RootMotion", "InterpolationMode");

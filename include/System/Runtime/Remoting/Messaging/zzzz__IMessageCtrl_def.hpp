@@ -1,6 +1,5 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
-namespace {
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
 class IMessageCtrl;
@@ -24,6 +23,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Messaging
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Messaging::IMessageCtrl);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::IMessageCtrl, "System.Runtime.Remoting.Messaging", "IMessageCtrl");
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::IMessageCtrl);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::IMessageCtrl, "System.Runtime.Remoting.Messaging", "IMessageCtrl");

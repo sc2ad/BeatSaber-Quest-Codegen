@@ -2,15 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__FireEffect_def.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
 class IAudioTimeSource;
 }
-namespace UnityEngine {
-class AnimationCurve;
-}
 namespace GlobalNamespace {
 class LightColorBeatmapEventData;
+}
+namespace UnityEngine {
+class AnimationCurve;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,7 +21,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3989))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3988))
 // CS Name: ContinuousFireEffect
-class CORDL_TYPE ContinuousFireEffect : public ::GlobalNamespace::FireEffect {
+class CORDL_TYPE ContinuousFireEffect : public GlobalNamespace::FireEffect {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr ContinuousFireEffect(ContinuousFireEffect const& ) noexcept = default;
 constexpr ContinuousFireEffect(ContinuousFireEffect&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ContinuousFireEffect(void* ptr) noexcept : ::GlobalNamespace::FireEffect(ptr) {
+constexpr explicit ContinuousFireEffect(void* ptr) noexcept : GlobalNamespace::FireEffect(ptr) {
 }
 
 
@@ -76,23 +75,23 @@ constexpr void __set__sustainDuration(float_t value) ;
 
 constexpr float_t __get__sustainDuration() const;
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get__flipbookSustainCurve, put=__set__flipbookSustainCurve))  _flipbookSustainCurve;
+ UnityEngine::AnimationCurve __declspec(property(get=__get__flipbookSustainCurve, put=__set__flipbookSustainCurve))  _flipbookSustainCurve;
 
-constexpr void __set__flipbookSustainCurve(::UnityEngine::AnimationCurve value) ;
+constexpr void __set__flipbookSustainCurve(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get__flipbookSustainCurve() const;
+constexpr UnityEngine::AnimationCurve __get__flipbookSustainCurve() const;
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get__bloomSustainCurve, put=__set__bloomSustainCurve))  _bloomSustainCurve;
+ UnityEngine::AnimationCurve __declspec(property(get=__get__bloomSustainCurve, put=__set__bloomSustainCurve))  _bloomSustainCurve;
 
-constexpr void __set__bloomSustainCurve(::UnityEngine::AnimationCurve value) ;
+constexpr void __set__bloomSustainCurve(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get__bloomSustainCurve() const;
+constexpr UnityEngine::AnimationCurve __get__bloomSustainCurve() const;
 
- ::GlobalNamespace::IAudioTimeSource __declspec(property(get=__get__audioTimeSource, put=__set__audioTimeSource))  _audioTimeSource;
+ GlobalNamespace::IAudioTimeSource __declspec(property(get=__get__audioTimeSource, put=__set__audioTimeSource))  _audioTimeSource;
 
-constexpr void __set__audioTimeSource(::GlobalNamespace::IAudioTimeSource value) ;
+constexpr void __set__audioTimeSource(GlobalNamespace::IAudioTimeSource value) ;
 
-constexpr ::GlobalNamespace::IAudioTimeSource __get__audioTimeSource() const;
+constexpr GlobalNamespace::IAudioTimeSource __get__audioTimeSource() const;
 
  float_t __declspec(property(get=__get__fadeInEndTime, put=__set__fadeInEndTime))  _fadeInEndTime;
 
@@ -140,7 +139,7 @@ constexpr float_t __get__lastFadeOutProgress() const;
  void Update() ;
 
 /// @brief Method HandleColorChangeBeatmapEvent addr 0x20aec7c size 0x13c virtual true final false
- void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData e) ;
+ void HandleColorChangeBeatmapEvent(GlobalNamespace::LightColorBeatmapEventData e) ;
 
 /// @brief Method SetInitialValues addr 0x20aea28 size 0xa8 virtual false final false
  void SetInitialValues() ;
@@ -167,6 +166,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ContinuousFireEffect);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ContinuousFireEffect, "", "ContinuousFireEffect");
+NEED_NO_BOX(GlobalNamespace::ContinuousFireEffect);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ContinuousFireEffect, "", "ContinuousFireEffect");

@@ -3,21 +3,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct Color32;
-}
 namespace UnityEngine {
 struct Vector2;
-}
-namespace UnityEngine::TextCore::Text {
-struct VertexSortingOrder;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
+struct Color32;
+}
+namespace UnityEngine {
 class Material;
+}
+namespace UnityEngine::TextCore::Text {
+struct VertexSortingOrder;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -32,8 +31,8 @@ namespace UnityEngine::TextCore::Text {
 struct CORDL_TYPE MeshInfo : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "vertexCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "vertices", ty: "::ArrayW<::UnityEngine::Vector3>", modifiers: "", def_value: None }, CppParam { name: "uvs0", ty: "::ArrayW<::UnityEngine::Vector2>", modifiers: "", def_value: None }, CppParam { name: "uvs2", ty: "::ArrayW<::UnityEngine::Vector2>", modifiers: "", def_value: None }, CppParam { name: "colors32", ty: "::ArrayW<::UnityEngine::Color32>", modifiers: "", def_value: None }, CppParam { name: "triangles", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "material", ty: "::UnityEngine::Material", modifiers: "", def_value: None }]
-constexpr MeshInfo(int32_t vertexCount, ::ArrayW<::UnityEngine::Vector3> vertices, ::ArrayW<::UnityEngine::Vector2> uvs0, ::ArrayW<::UnityEngine::Vector2> uvs2, ::ArrayW<::UnityEngine::Color32> colors32, ::ArrayW<int32_t> triangles, ::UnityEngine::Material material) noexcept;
+// Ctor Parameters [CppParam { name: "vertexCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "vertices", ty: "::ArrayW<UnityEngine::Vector3>", modifiers: "", def_value: None }, CppParam { name: "uvs0", ty: "::ArrayW<UnityEngine::Vector2>", modifiers: "", def_value: None }, CppParam { name: "uvs2", ty: "::ArrayW<UnityEngine::Vector2>", modifiers: "", def_value: None }, CppParam { name: "colors32", ty: "::ArrayW<UnityEngine::Color32>", modifiers: "", def_value: None }, CppParam { name: "triangles", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "material", ty: "UnityEngine::Material", modifiers: "", def_value: None }]
+constexpr MeshInfo(int32_t vertexCount, ::ArrayW<UnityEngine::Vector3> vertices, ::ArrayW<UnityEngine::Vector2> uvs0, ::ArrayW<UnityEngine::Vector2> uvs2, ::ArrayW<UnityEngine::Color32> colors32, ::ArrayW<int32_t> triangles, UnityEngine::Material material) noexcept;
 
 
                     constexpr MeshInfo(MeshInfo const&) = default;
@@ -66,11 +65,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
-static ::UnityEngine::Color32 __declspec(property(get=__get_k_DefaultColor, put=__set_k_DefaultColor))  k_DefaultColor;
+static UnityEngine::Color32 __declspec(property(get=__get_k_DefaultColor, put=__set_k_DefaultColor))  k_DefaultColor;
 
-static void __set_k_DefaultColor(::UnityEngine::Color32 value) ;
+static void __set_k_DefaultColor(UnityEngine::Color32 value) ;
 
-static ::UnityEngine::Color32 __get_k_DefaultColor() ;
+static UnityEngine::Color32 __get_k_DefaultColor() ;
 
  int32_t __declspec(property(get=__get_vertexCount, put=__set_vertexCount))  vertexCount;
 
@@ -78,29 +77,29 @@ constexpr void __set_vertexCount(int32_t value) ;
 
 constexpr int32_t __get_vertexCount() const;
 
- ::ArrayW<::UnityEngine::Vector3> __declspec(property(get=__get_vertices, put=__set_vertices))  vertices;
+ ::ArrayW<UnityEngine::Vector3> __declspec(property(get=__get_vertices, put=__set_vertices))  vertices;
 
-constexpr void __set_vertices(::ArrayW<::UnityEngine::Vector3> value) ;
+constexpr void __set_vertices(::ArrayW<UnityEngine::Vector3> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector3> __get_vertices() const;
+constexpr ::ArrayW<UnityEngine::Vector3> __get_vertices() const;
 
- ::ArrayW<::UnityEngine::Vector2> __declspec(property(get=__get_uvs0, put=__set_uvs0))  uvs0;
+ ::ArrayW<UnityEngine::Vector2> __declspec(property(get=__get_uvs0, put=__set_uvs0))  uvs0;
 
-constexpr void __set_uvs0(::ArrayW<::UnityEngine::Vector2> value) ;
+constexpr void __set_uvs0(::ArrayW<UnityEngine::Vector2> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector2> __get_uvs0() const;
+constexpr ::ArrayW<UnityEngine::Vector2> __get_uvs0() const;
 
- ::ArrayW<::UnityEngine::Vector2> __declspec(property(get=__get_uvs2, put=__set_uvs2))  uvs2;
+ ::ArrayW<UnityEngine::Vector2> __declspec(property(get=__get_uvs2, put=__set_uvs2))  uvs2;
 
-constexpr void __set_uvs2(::ArrayW<::UnityEngine::Vector2> value) ;
+constexpr void __set_uvs2(::ArrayW<UnityEngine::Vector2> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector2> __get_uvs2() const;
+constexpr ::ArrayW<UnityEngine::Vector2> __get_uvs2() const;
 
- ::ArrayW<::UnityEngine::Color32> __declspec(property(get=__get_colors32, put=__set_colors32))  colors32;
+ ::ArrayW<UnityEngine::Color32> __declspec(property(get=__get_colors32, put=__set_colors32))  colors32;
 
-constexpr void __set_colors32(::ArrayW<::UnityEngine::Color32> value) ;
+constexpr void __set_colors32(::ArrayW<UnityEngine::Color32> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Color32> __get_colors32() const;
+constexpr ::ArrayW<UnityEngine::Color32> __get_colors32() const;
 
  ::ArrayW<int32_t> __declspec(property(get=__get_triangles, put=__set_triangles))  triangles;
 
@@ -108,11 +107,11 @@ constexpr void __set_triangles(::ArrayW<int32_t> value) ;
 
 constexpr ::ArrayW<int32_t> __get_triangles() const;
 
- ::UnityEngine::Material __declspec(property(get=__get_material, put=__set_material))  material;
+ UnityEngine::Material __declspec(property(get=__get_material, put=__set_material))  material;
 
-constexpr void __set_material(::UnityEngine::Material value) ;
+constexpr void __set_material(UnityEngine::Material value) ;
 
-constexpr ::UnityEngine::Material __get_material() const;
+constexpr UnityEngine::Material __get_material() const;
 
 
 // Methods
@@ -130,7 +129,7 @@ constexpr ::UnityEngine::Material __get_material() const;
  void ClearUnusedVertices() ;
 
 /// @brief Method SortGeometry addr 0x2bd38e4 size 0x7c virtual false final false
- void SortGeometry(::UnityEngine::TextCore::Text::VertexSortingOrder order) ;
+ void SortGeometry(UnityEngine::TextCore::Text::VertexSortingOrder order) ;
 
 /// @brief Method SwapVertexData addr 0x2bd3960 size 0x58c virtual false final false
  void SwapVertexData(int32_t src, int32_t dst) ;
@@ -139,5 +138,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::Text
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::MeshInfo, "UnityEngine.TextCore.Text", "MeshInfo");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Text::MeshInfo, "UnityEngine.TextCore.Text", "MeshInfo");

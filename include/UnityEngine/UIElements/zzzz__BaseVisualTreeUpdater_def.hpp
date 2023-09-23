@@ -1,19 +1,15 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
+namespace Unity::Profiling {
+struct ProfilerMarker;
+}
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace UnityEngine::UIElements {
 class IVisualTreeUpdater;
-}
-namespace UnityEngine::UIElements {
-struct VersionChangeType;
-}
-namespace Unity::Profiling {
-struct ProfilerMarker;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
@@ -23,6 +19,9 @@ class BaseVisualElementPanel;
 }
 namespace System {
 class IDisposable;
+}
+namespace UnityEngine::UIElements {
+struct VersionChangeType;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -37,11 +36,11 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE BaseVisualTreeUpdater : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::UIElements::IVisualTreeUpdater
-constexpr operator  ::UnityEngine::UIElements::IVisualTreeUpdater() const noexcept;
+/// @brief Convert operator to UnityEngine::UIElements::IVisualTreeUpdater
+constexpr operator  UnityEngine::UIElements::IVisualTreeUpdater() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -76,47 +75,47 @@ constexpr explicit BaseVisualTreeUpdater(void* ptr) noexcept : ::bs_hook::Il2Cpp
 
 // Fields
 
- ::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel> __declspec(property(get=__get_panelChanged, put=__set_panelChanged))  panelChanged;
+ System::Action_1<UnityEngine::UIElements::BaseVisualElementPanel> __declspec(property(get=__get_panelChanged, put=__set_panelChanged))  panelChanged;
 
-constexpr void __set_panelChanged(::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel> value) ;
+constexpr void __set_panelChanged(System::Action_1<UnityEngine::UIElements::BaseVisualElementPanel> value) ;
 
-constexpr ::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel> __get_panelChanged() const;
+constexpr System::Action_1<UnityEngine::UIElements::BaseVisualElementPanel> __get_panelChanged() const;
 
- ::UnityEngine::UIElements::BaseVisualElementPanel __declspec(property(get=__get_m_Panel, put=__set_m_Panel))  m_Panel;
+ UnityEngine::UIElements::BaseVisualElementPanel __declspec(property(get=__get_m_Panel, put=__set_m_Panel))  m_Panel;
 
-constexpr void __set_m_Panel(::UnityEngine::UIElements::BaseVisualElementPanel value) ;
+constexpr void __set_m_Panel(UnityEngine::UIElements::BaseVisualElementPanel value) ;
 
-constexpr ::UnityEngine::UIElements::BaseVisualElementPanel __get_m_Panel() const;
+constexpr UnityEngine::UIElements::BaseVisualElementPanel __get_m_Panel() const;
 
 
 // Properties
 
- ::UnityEngine::UIElements::BaseVisualElementPanel __declspec(property(get=get_panel, put=set_panel))  panel;
+ UnityEngine::UIElements::BaseVisualElementPanel __declspec(property(get=get_panel, put=set_panel))  panel;
 
- ::UnityEngine::UIElements::VisualElement __declspec(property(get=get_visualTree))  visualTree;
+ UnityEngine::UIElements::VisualElement __declspec(property(get=get_visualTree))  visualTree;
 
- ::Unity::Profiling::ProfilerMarker __declspec(property(get=get_profilerMarker))  profilerMarker;
+ Unity::Profiling::ProfilerMarker __declspec(property(get=get_profilerMarker))  profilerMarker;
 
 
 // Methods
 
 /// @brief Method add_panelChanged addr 0x2c39cdc size 0xb0 virtual false final false
- void add_panelChanged(::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel> value) ;
+ void add_panelChanged(System::Action_1<UnityEngine::UIElements::BaseVisualElementPanel> value) ;
 
 /// @brief Method remove_panelChanged addr 0x2c39d8c size 0xb0 virtual false final false
- void remove_panelChanged(::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel> value) ;
+ void remove_panelChanged(System::Action_1<UnityEngine::UIElements::BaseVisualElementPanel> value) ;
 
 /// @brief Method get_panel addr 0x2c39e3c size 0x8 virtual true final true
- ::UnityEngine::UIElements::BaseVisualElementPanel get_panel() ;
+ UnityEngine::UIElements::BaseVisualElementPanel get_panel() ;
 
 /// @brief Method set_panel addr 0x2c39e44 size 0x20 virtual true final true
- void set_panel(::UnityEngine::UIElements::BaseVisualElementPanel value) ;
+ void set_panel(UnityEngine::UIElements::BaseVisualElementPanel value) ;
 
 /// @brief Method get_visualTree addr 0x2c39e64 size 0x24 virtual false final false
- ::UnityEngine::UIElements::VisualElement get_visualTree() ;
+ UnityEngine::UIElements::VisualElement get_visualTree() ;
 
 /// @brief Method get_profilerMarker addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Unity::Profiling::ProfilerMarker get_profilerMarker() ;
+ Unity::Profiling::ProfilerMarker get_profilerMarker() ;
 
 /// @brief Method Dispose addr 0x2c39e88 size 0x6c virtual true final true
  void Dispose() ;
@@ -128,7 +127,7 @@ constexpr ::UnityEngine::UIElements::BaseVisualElementPanel __get_m_Panel() cons
  void Update() ;
 
 /// @brief Method OnVersionChanged addr 0x0 size 0xffffffffffffffff virtual true final false
- void OnVersionChanged(::UnityEngine::UIElements::VisualElement ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType) ;
+ void OnVersionChanged(UnityEngine::UIElements::VisualElement ve, UnityEngine::UIElements::VersionChangeType versionChangeType) ;
 
 // Ctor Parameters []
 explicit BaseVisualTreeUpdater() ;
@@ -140,6 +139,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::BaseVisualTreeUpdater);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::BaseVisualTreeUpdater, "UnityEngine.UIElements", "BaseVisualTreeUpdater");
+NEED_NO_BOX(UnityEngine::UIElements::BaseVisualTreeUpdater);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::BaseVisualTreeUpdater, "UnityEngine.UIElements", "BaseVisualTreeUpdater");

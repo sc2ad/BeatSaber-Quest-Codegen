@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System {
 class IDisposable;
 }
@@ -24,8 +23,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE MockPlayerLobbyPoseGenerator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -60,26 +59,26 @@ constexpr explicit MockPlayerLobbyPoseGenerator(void* ptr) noexcept : ::bs_hook:
 
 // Fields
 
- ::GlobalNamespace::IMultiplayerSessionManager __declspec(property(get=__get_multiplayerSessionManager, put=__set_multiplayerSessionManager))  multiplayerSessionManager;
+ GlobalNamespace::IMultiplayerSessionManager __declspec(property(get=__get_multiplayerSessionManager, put=__set_multiplayerSessionManager))  multiplayerSessionManager;
 
-constexpr void __set_multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager value) ;
+constexpr void __set_multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager value) ;
 
-constexpr ::GlobalNamespace::IMultiplayerSessionManager __get_multiplayerSessionManager() const;
+constexpr GlobalNamespace::IMultiplayerSessionManager __get_multiplayerSessionManager() const;
 
- ::GlobalNamespace::MockNodePoseSyncStateSender __declspec(property(get=__get_mockNodePoseSyncStateSender, put=__set_mockNodePoseSyncStateSender))  mockNodePoseSyncStateSender;
+ GlobalNamespace::MockNodePoseSyncStateSender __declspec(property(get=__get_mockNodePoseSyncStateSender, put=__set_mockNodePoseSyncStateSender))  mockNodePoseSyncStateSender;
 
-constexpr void __set_mockNodePoseSyncStateSender(::GlobalNamespace::MockNodePoseSyncStateSender value) ;
+constexpr void __set_mockNodePoseSyncStateSender(GlobalNamespace::MockNodePoseSyncStateSender value) ;
 
-constexpr ::GlobalNamespace::MockNodePoseSyncStateSender __get_mockNodePoseSyncStateSender() const;
+constexpr GlobalNamespace::MockNodePoseSyncStateSender __get_mockNodePoseSyncStateSender() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "multiplayerSessionManager", ty: "::GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }]
-explicit MockPlayerLobbyPoseGenerator(::GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager) ;
+// Ctor Parameters [CppParam { name: "multiplayerSessionManager", ty: "GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }]
+explicit MockPlayerLobbyPoseGenerator(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager) ;
 
 /// @brief Method .ctor addr 0x227e7cc size 0x7c virtual false final false
- void _ctor(::GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager) ;
+ void _ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager) ;
 
 /// @brief Method Dispose addr 0x227e848 size 0x10 virtual true final true
  void Dispose() ;
@@ -94,6 +93,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MockPlayerLobbyPoseGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MockPlayerLobbyPoseGenerator, "", "MockPlayerLobbyPoseGenerator");
+NEED_NO_BOX(GlobalNamespace::MockPlayerLobbyPoseGenerator);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayerLobbyPoseGenerator, "", "MockPlayerLobbyPoseGenerator");

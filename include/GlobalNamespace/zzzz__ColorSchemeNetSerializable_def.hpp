@@ -1,21 +1,20 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
 namespace UnityEngine {
 struct Color;
-}
-namespace LiteNetLib::Utils {
-class INetSerializable;
 }
 namespace GlobalNamespace {
 struct ColorNoAlphaSerializable;
 }
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+class NetDataReader;
 }
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class INetSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,11 +29,11 @@ namespace GlobalNamespace {
 struct CORDL_TYPE ColorSchemeNetSerializable : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::LiteNetLib::Utils::INetSerializable
-constexpr operator  ::LiteNetLib::Utils::INetSerializable() const;
+/// @brief Convert operator to LiteNetLib::Utils::INetSerializable
+constexpr operator  LiteNetLib::Utils::INetSerializable() const;
 
-// Ctor Parameters [CppParam { name: "saberAColor", ty: "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: None }, CppParam { name: "saberBColor", ty: "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: None }, CppParam { name: "obstaclesColor", ty: "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: None }, CppParam { name: "environmentColor0", ty: "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: None }, CppParam { name: "environmentColor1", ty: "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: None }, CppParam { name: "environmentColor0Boost", ty: "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: None }, CppParam { name: "environmentColor1Boost", ty: "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: None }]
-constexpr ColorSchemeNetSerializable(::GlobalNamespace::ColorNoAlphaSerializable saberAColor, ::GlobalNamespace::ColorNoAlphaSerializable saberBColor, ::GlobalNamespace::ColorNoAlphaSerializable obstaclesColor, ::GlobalNamespace::ColorNoAlphaSerializable environmentColor0, ::GlobalNamespace::ColorNoAlphaSerializable environmentColor1, ::GlobalNamespace::ColorNoAlphaSerializable environmentColor0Boost, ::GlobalNamespace::ColorNoAlphaSerializable environmentColor1Boost) noexcept;
+// Ctor Parameters [CppParam { name: "saberAColor", ty: "GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: None }, CppParam { name: "saberBColor", ty: "GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: None }, CppParam { name: "obstaclesColor", ty: "GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: None }, CppParam { name: "environmentColor0", ty: "GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: None }, CppParam { name: "environmentColor1", ty: "GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: None }, CppParam { name: "environmentColor0Boost", ty: "GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: None }, CppParam { name: "environmentColor1Boost", ty: "GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: None }]
+constexpr ColorSchemeNetSerializable(GlobalNamespace::ColorNoAlphaSerializable saberAColor, GlobalNamespace::ColorNoAlphaSerializable saberBColor, GlobalNamespace::ColorNoAlphaSerializable obstaclesColor, GlobalNamespace::ColorNoAlphaSerializable environmentColor0, GlobalNamespace::ColorNoAlphaSerializable environmentColor1, GlobalNamespace::ColorNoAlphaSerializable environmentColor0Boost, GlobalNamespace::ColorNoAlphaSerializable environmentColor1Boost) noexcept;
 
 
                     constexpr ColorSchemeNetSerializable(ColorSchemeNetSerializable const&) = default;
@@ -67,63 +66,62 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::GlobalNamespace::ColorNoAlphaSerializable __declspec(property(get=__get_saberAColor, put=__set_saberAColor))  saberAColor;
+ GlobalNamespace::ColorNoAlphaSerializable __declspec(property(get=__get_saberAColor, put=__set_saberAColor))  saberAColor;
 
-constexpr void __set_saberAColor(::GlobalNamespace::ColorNoAlphaSerializable value) ;
+constexpr void __set_saberAColor(GlobalNamespace::ColorNoAlphaSerializable value) ;
 
-constexpr ::GlobalNamespace::ColorNoAlphaSerializable __get_saberAColor() const;
+constexpr GlobalNamespace::ColorNoAlphaSerializable __get_saberAColor() const;
 
- ::GlobalNamespace::ColorNoAlphaSerializable __declspec(property(get=__get_saberBColor, put=__set_saberBColor))  saberBColor;
+ GlobalNamespace::ColorNoAlphaSerializable __declspec(property(get=__get_saberBColor, put=__set_saberBColor))  saberBColor;
 
-constexpr void __set_saberBColor(::GlobalNamespace::ColorNoAlphaSerializable value) ;
+constexpr void __set_saberBColor(GlobalNamespace::ColorNoAlphaSerializable value) ;
 
-constexpr ::GlobalNamespace::ColorNoAlphaSerializable __get_saberBColor() const;
+constexpr GlobalNamespace::ColorNoAlphaSerializable __get_saberBColor() const;
 
- ::GlobalNamespace::ColorNoAlphaSerializable __declspec(property(get=__get_obstaclesColor, put=__set_obstaclesColor))  obstaclesColor;
+ GlobalNamespace::ColorNoAlphaSerializable __declspec(property(get=__get_obstaclesColor, put=__set_obstaclesColor))  obstaclesColor;
 
-constexpr void __set_obstaclesColor(::GlobalNamespace::ColorNoAlphaSerializable value) ;
+constexpr void __set_obstaclesColor(GlobalNamespace::ColorNoAlphaSerializable value) ;
 
-constexpr ::GlobalNamespace::ColorNoAlphaSerializable __get_obstaclesColor() const;
+constexpr GlobalNamespace::ColorNoAlphaSerializable __get_obstaclesColor() const;
 
- ::GlobalNamespace::ColorNoAlphaSerializable __declspec(property(get=__get_environmentColor0, put=__set_environmentColor0))  environmentColor0;
+ GlobalNamespace::ColorNoAlphaSerializable __declspec(property(get=__get_environmentColor0, put=__set_environmentColor0))  environmentColor0;
 
-constexpr void __set_environmentColor0(::GlobalNamespace::ColorNoAlphaSerializable value) ;
+constexpr void __set_environmentColor0(GlobalNamespace::ColorNoAlphaSerializable value) ;
 
-constexpr ::GlobalNamespace::ColorNoAlphaSerializable __get_environmentColor0() const;
+constexpr GlobalNamespace::ColorNoAlphaSerializable __get_environmentColor0() const;
 
- ::GlobalNamespace::ColorNoAlphaSerializable __declspec(property(get=__get_environmentColor1, put=__set_environmentColor1))  environmentColor1;
+ GlobalNamespace::ColorNoAlphaSerializable __declspec(property(get=__get_environmentColor1, put=__set_environmentColor1))  environmentColor1;
 
-constexpr void __set_environmentColor1(::GlobalNamespace::ColorNoAlphaSerializable value) ;
+constexpr void __set_environmentColor1(GlobalNamespace::ColorNoAlphaSerializable value) ;
 
-constexpr ::GlobalNamespace::ColorNoAlphaSerializable __get_environmentColor1() const;
+constexpr GlobalNamespace::ColorNoAlphaSerializable __get_environmentColor1() const;
 
- ::GlobalNamespace::ColorNoAlphaSerializable __declspec(property(get=__get_environmentColor0Boost, put=__set_environmentColor0Boost))  environmentColor0Boost;
+ GlobalNamespace::ColorNoAlphaSerializable __declspec(property(get=__get_environmentColor0Boost, put=__set_environmentColor0Boost))  environmentColor0Boost;
 
-constexpr void __set_environmentColor0Boost(::GlobalNamespace::ColorNoAlphaSerializable value) ;
+constexpr void __set_environmentColor0Boost(GlobalNamespace::ColorNoAlphaSerializable value) ;
 
-constexpr ::GlobalNamespace::ColorNoAlphaSerializable __get_environmentColor0Boost() const;
+constexpr GlobalNamespace::ColorNoAlphaSerializable __get_environmentColor0Boost() const;
 
- ::GlobalNamespace::ColorNoAlphaSerializable __declspec(property(get=__get_environmentColor1Boost, put=__set_environmentColor1Boost))  environmentColor1Boost;
+ GlobalNamespace::ColorNoAlphaSerializable __declspec(property(get=__get_environmentColor1Boost, put=__set_environmentColor1Boost))  environmentColor1Boost;
 
-constexpr void __set_environmentColor1Boost(::GlobalNamespace::ColorNoAlphaSerializable value) ;
+constexpr void __set_environmentColor1Boost(GlobalNamespace::ColorNoAlphaSerializable value) ;
 
-constexpr ::GlobalNamespace::ColorNoAlphaSerializable __get_environmentColor1Boost() const;
+constexpr GlobalNamespace::ColorNoAlphaSerializable __get_environmentColor1Boost() const;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0xd9d860 size 0x180 virtual false final false
- void _ctor(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color obstaclesColor, ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1, ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost) ;
+ void _ctor(UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color obstaclesColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost) ;
 
 /// @brief Method Serialize addr 0xd9d9e0 size 0x80 virtual true final true
- void Serialize(::LiteNetLib::Utils::NetDataWriter writer) ;
+ void Serialize(LiteNetLib::Utils::NetDataWriter writer) ;
 
 /// @brief Method Deserialize addr 0xd9da60 size 0x80 virtual true final true
- void Deserialize(::LiteNetLib::Utils::NetDataReader reader) ;
+ void Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ColorSchemeNetSerializable, "", "ColorSchemeNetSerializable");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeNetSerializable, "", "ColorSchemeNetSerializable");

@@ -1,6 +1,5 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
@@ -30,12 +29,11 @@ constexpr explicit ISerializable(void* ptr) noexcept : ::cordl_internals::Interf
 // Methods
 
 /// @brief Method GetObjectData addr 0x0 size 0xffffffffffffffff virtual true final false
- void GetObjectData(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void GetObjectData(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::ISerializable);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::ISerializable, "System.Runtime.Serialization", "ISerializable");
+NEED_NO_BOX(System::Runtime::Serialization::ISerializable);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ISerializable, "System.Runtime.Serialization", "ISerializable");

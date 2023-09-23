@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Security/Cryptography/zzzz__AsymmetricSignatureFormatter_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace System::Security::Cryptography {
 class DSASignatureFormatter;
@@ -13,7 +12,7 @@ namespace System::Security::Cryptography {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2916))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2929))
 // CS Name: System.Security.Cryptography.DSASignatureFormatter
-class CORDL_TYPE DSASignatureFormatter : public ::System::Security::Cryptography::AsymmetricSignatureFormatter {
+class CORDL_TYPE DSASignatureFormatter : public System::Security::Cryptography::AsymmetricSignatureFormatter {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr DSASignatureFormatter(DSASignatureFormatter const& ) noexcept = defaul
 constexpr DSASignatureFormatter(DSASignatureFormatter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DSASignatureFormatter(void* ptr) noexcept : ::System::Security::Cryptography::AsymmetricSignatureFormatter(ptr) {
+constexpr explicit DSASignatureFormatter(void* ptr) noexcept : System::Security::Cryptography::AsymmetricSignatureFormatter(ptr) {
 }
 
 
@@ -68,6 +67,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::DSASignatureFormatter);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::DSASignatureFormatter, "System.Security.Cryptography", "DSASignatureFormatter");
+NEED_NO_BOX(System::Security::Cryptography::DSASignatureFormatter);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::DSASignatureFormatter, "System.Security.Cryptography", "DSASignatureFormatter");

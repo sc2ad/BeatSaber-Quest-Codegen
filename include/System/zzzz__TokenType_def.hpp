@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 struct TokenType;
@@ -97,104 +96,103 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field NumberToken offset 0
-static ::System::TokenType const NumberToken;
+static System::TokenType const NumberToken;
 
 /// @brief Field YearNumberToken offset 0
-static ::System::TokenType const YearNumberToken;
+static System::TokenType const YearNumberToken;
 
 /// @brief Field Am offset 0
-static ::System::TokenType const Am;
+static System::TokenType const Am;
 
 /// @brief Field Pm offset 0
-static ::System::TokenType const Pm;
+static System::TokenType const Pm;
 
 /// @brief Field MonthToken offset 0
-static ::System::TokenType const MonthToken;
+static System::TokenType const MonthToken;
 
 /// @brief Field EndOfString offset 0
-static ::System::TokenType const EndOfString;
+static System::TokenType const EndOfString;
 
 /// @brief Field DayOfWeekToken offset 0
-static ::System::TokenType const DayOfWeekToken;
+static System::TokenType const DayOfWeekToken;
 
 /// @brief Field TimeZoneToken offset 0
-static ::System::TokenType const TimeZoneToken;
+static System::TokenType const TimeZoneToken;
 
 /// @brief Field EraToken offset 0
-static ::System::TokenType const EraToken;
+static System::TokenType const EraToken;
 
 /// @brief Field DateWordToken offset 0
-static ::System::TokenType const DateWordToken;
+static System::TokenType const DateWordToken;
 
 /// @brief Field UnknownToken offset 0
-static ::System::TokenType const UnknownToken;
+static System::TokenType const UnknownToken;
 
 /// @brief Field HebrewNumber offset 0
-static ::System::TokenType const HebrewNumber;
+static System::TokenType const HebrewNumber;
 
 /// @brief Field JapaneseEraToken offset 0
-static ::System::TokenType const JapaneseEraToken;
+static System::TokenType const JapaneseEraToken;
 
 /// @brief Field TEraToken offset 0
-static ::System::TokenType const TEraToken;
+static System::TokenType const TEraToken;
 
 /// @brief Field IgnorableSymbol offset 0
-static ::System::TokenType const IgnorableSymbol;
+static System::TokenType const IgnorableSymbol;
 
 /// @brief Field SEP_Unk offset 0
-static ::System::TokenType const SEP_Unk;
+static System::TokenType const SEP_Unk;
 
 /// @brief Field SEP_End offset 0
-static ::System::TokenType const SEP_End;
+static System::TokenType const SEP_End;
 
 /// @brief Field SEP_Space offset 0
-static ::System::TokenType const SEP_Space;
+static System::TokenType const SEP_Space;
 
 /// @brief Field SEP_Am offset 0
-static ::System::TokenType const SEP_Am;
+static System::TokenType const SEP_Am;
 
 /// @brief Field SEP_Pm offset 0
-static ::System::TokenType const SEP_Pm;
+static System::TokenType const SEP_Pm;
 
 /// @brief Field SEP_Date offset 0
-static ::System::TokenType const SEP_Date;
+static System::TokenType const SEP_Date;
 
 /// @brief Field SEP_Time offset 0
-static ::System::TokenType const SEP_Time;
+static System::TokenType const SEP_Time;
 
 /// @brief Field SEP_YearSuff offset 0
-static ::System::TokenType const SEP_YearSuff;
+static System::TokenType const SEP_YearSuff;
 
 /// @brief Field SEP_MonthSuff offset 0
-static ::System::TokenType const SEP_MonthSuff;
+static System::TokenType const SEP_MonthSuff;
 
 /// @brief Field SEP_DaySuff offset 0
-static ::System::TokenType const SEP_DaySuff;
+static System::TokenType const SEP_DaySuff;
 
 /// @brief Field SEP_HourSuff offset 0
-static ::System::TokenType const SEP_HourSuff;
+static System::TokenType const SEP_HourSuff;
 
 /// @brief Field SEP_MinuteSuff offset 0
-static ::System::TokenType const SEP_MinuteSuff;
+static System::TokenType const SEP_MinuteSuff;
 
 /// @brief Field SEP_SecondSuff offset 0
-static ::System::TokenType const SEP_SecondSuff;
+static System::TokenType const SEP_SecondSuff;
 
 /// @brief Field SEP_LocalTimeMark offset 0
-static ::System::TokenType const SEP_LocalTimeMark;
+static System::TokenType const SEP_LocalTimeMark;
 
 /// @brief Field SEP_DateOrOffset offset 0
-static ::System::TokenType const SEP_DateOrOffset;
+static System::TokenType const SEP_DateOrOffset;
 
 /// @brief Field RegularTokenMask offset 0
-static ::System::TokenType const RegularTokenMask;
+static System::TokenType const RegularTokenMask;
 
 /// @brief Field SeparatorTokenMask offset 0
-static ::System::TokenType const SeparatorTokenMask;
+static System::TokenType const SeparatorTokenMask;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::TokenType, "System", "TokenType");
+DEFINE_IL2CPP_ARG_TYPE(System::TokenType, "System", "TokenType");

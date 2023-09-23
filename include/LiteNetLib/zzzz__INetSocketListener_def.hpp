@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace System::Net {
-class IPEndPoint;
-}
 namespace System::Net::Sockets {
 struct SocketError;
+}
+namespace System::Net {
+class IPEndPoint;
 }
 // Forward declare root types
 namespace LiteNetLib {
@@ -32,12 +31,11 @@ constexpr explicit INetSocketListener(void* ptr) noexcept : ::cordl_internals::I
 // Methods
 
 /// @brief Method OnMessageReceived addr 0x0 size 0xffffffffffffffff virtual true final false
- void OnMessageReceived(::ArrayW<uint8_t> data, int32_t length, ::System::Net::Sockets::SocketError errorCode, ::System::Net::IPEndPoint remoteEndPoint) ;
+ void OnMessageReceived(::ArrayW<uint8_t> data, int32_t length, System::Net::Sockets::SocketError errorCode, System::Net::IPEndPoint remoteEndPoint) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib
-} // end anonymous namespace
-NEED_NO_BOX(::LiteNetLib::INetSocketListener);
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::INetSocketListener, "LiteNetLib", "INetSocketListener");
+NEED_NO_BOX(LiteNetLib::INetSocketListener);
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::INetSocketListener, "LiteNetLib", "INetSocketListener");

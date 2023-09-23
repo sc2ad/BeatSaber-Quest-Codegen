@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace HoudiniEngineUnity {
 struct HAPI_GeoType;
 }
@@ -22,8 +21,8 @@ namespace HoudiniEngineUnity {
 struct CORDL_TYPE HAPI_GeoInfo : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "type", ty: "::HoudiniEngineUnity::HAPI_GeoType", modifiers: "", def_value: None }, CppParam { name: "nameSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nodeId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "isEditable", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isTemplated", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isDisplayGeo", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "hasGeoChanged", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "hasMaterialChanged", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "pointGroupCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "primitiveGroupCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "edgeGroupCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "partCount", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr HAPI_GeoInfo(::HoudiniEngineUnity::HAPI_GeoType type, int32_t nameSH, int32_t nodeId, bool isEditable, bool isTemplated, bool isDisplayGeo, bool hasGeoChanged, bool hasMaterialChanged, int32_t pointGroupCount, int32_t primitiveGroupCount, int32_t edgeGroupCount, int32_t partCount) noexcept;
+// Ctor Parameters [CppParam { name: "type", ty: "HoudiniEngineUnity::HAPI_GeoType", modifiers: "", def_value: None }, CppParam { name: "nameSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nodeId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "isEditable", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isTemplated", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isDisplayGeo", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "hasGeoChanged", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "hasMaterialChanged", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "pointGroupCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "primitiveGroupCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "edgeGroupCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "partCount", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr HAPI_GeoInfo(HoudiniEngineUnity::HAPI_GeoType type, int32_t nameSH, int32_t nodeId, bool isEditable, bool isTemplated, bool isDisplayGeo, bool hasGeoChanged, bool hasMaterialChanged, int32_t pointGroupCount, int32_t primitiveGroupCount, int32_t edgeGroupCount, int32_t partCount) noexcept;
 
 
                     constexpr HAPI_GeoInfo(HAPI_GeoInfo const&) = default;
@@ -56,11 +55,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::HoudiniEngineUnity::HAPI_GeoType __declspec(property(get=__get_type, put=__set_type))  type;
+ HoudiniEngineUnity::HAPI_GeoType __declspec(property(get=__get_type, put=__set_type))  type;
 
-constexpr void __set_type(::HoudiniEngineUnity::HAPI_GeoType value) ;
+constexpr void __set_type(HoudiniEngineUnity::HAPI_GeoType value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_GeoType __get_type() const;
+constexpr HoudiniEngineUnity::HAPI_GeoType __get_type() const;
 
  int32_t __declspec(property(get=__get_nameSH, put=__set_nameSH))  nameSH;
 
@@ -132,11 +131,10 @@ constexpr int32_t __get_partCount() const;
 // Methods
 
 /// @brief Method getGroupCountByType addr 0x201f39c size 0x28 virtual false final false
- int32_t getGroupCountByType(::HoudiniEngineUnity::HAPI_GroupType type) ;
+ int32_t getGroupCountByType(HoudiniEngineUnity::HAPI_GroupType type) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_GeoInfo, "HoudiniEngineUnity", "HAPI_GeoInfo");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_GeoInfo, "HoudiniEngineUnity", "HAPI_GeoInfo");

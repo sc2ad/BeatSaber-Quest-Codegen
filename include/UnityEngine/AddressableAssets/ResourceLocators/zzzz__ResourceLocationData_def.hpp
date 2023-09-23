@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-class Type;
-}
 namespace UnityEngine::ResourceManagement::Util {
 struct SerializedType;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets::ResourceLocators {
@@ -81,11 +80,11 @@ constexpr void __set_m_Dependencies(::ArrayW<::StringW> value) ;
 
 constexpr ::ArrayW<::StringW> __get_m_Dependencies() const;
 
- ::UnityEngine::ResourceManagement::Util::SerializedType __declspec(property(get=__get_m_ResourceType, put=__set_m_ResourceType))  m_ResourceType;
+ UnityEngine::ResourceManagement::Util::SerializedType __declspec(property(get=__get_m_ResourceType, put=__set_m_ResourceType))  m_ResourceType;
 
-constexpr void __set_m_ResourceType(::UnityEngine::ResourceManagement::Util::SerializedType value) ;
+constexpr void __set_m_ResourceType(UnityEngine::ResourceManagement::Util::SerializedType value) ;
 
-constexpr ::UnityEngine::ResourceManagement::Util::SerializedType __get_m_ResourceType() const;
+constexpr UnityEngine::ResourceManagement::Util::SerializedType __get_m_ResourceType() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get_SerializedData, put=__set_SerializedData))  SerializedData;
 
@@ -110,7 +109,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get__Data() const;
 
  ::ArrayW<::StringW> __declspec(property(get=get_Dependencies))  Dependencies;
 
- ::System::Type __declspec(property(get=get_ResourceType))  ResourceType;
+ System::Type __declspec(property(get=get_ResourceType))  ResourceType;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_Data, put=set_Data))  Data;
 
@@ -130,7 +129,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get__Data() const;
  ::ArrayW<::StringW> get_Dependencies() ;
 
 /// @brief Method get_ResourceType addr 0x289d008 size 0xc virtual false final false
- ::System::Type get_ResourceType() ;
+ System::Type get_ResourceType() ;
 
 /// @brief Method get_Data addr 0x289d014 size 0x40 virtual false final false
  ::bs_hook::Il2CppWrapperType get_Data() ;
@@ -138,16 +137,15 @@ constexpr ::bs_hook::Il2CppWrapperType __get__Data() const;
 /// @brief Method set_Data addr 0x289d054 size 0xac virtual false final false
  void set_Data(::bs_hook::Il2CppWrapperType value) ;
 
-// Ctor Parameters [CppParam { name: "keys", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "provider", ty: "::System::Type", modifiers: "", def_value: None }, CppParam { name: "t", ty: "::System::Type", modifiers: "", def_value: None }, CppParam { name: "dependencies", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }]
-explicit ResourceLocationData(::ArrayW<::StringW> keys, ::StringW id, ::System::Type provider, ::System::Type t, ::ArrayW<::StringW> dependencies) ;
+// Ctor Parameters [CppParam { name: "keys", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "provider", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "t", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "dependencies", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }]
+explicit ResourceLocationData(::ArrayW<::StringW> keys, ::StringW id, System::Type provider, System::Type t, ::ArrayW<::StringW> dependencies) ;
 
 /// @brief Method .ctor addr 0x289d100 size 0x138 virtual false final false
- void _ctor(::ArrayW<::StringW> keys, ::StringW id, ::System::Type provider, ::System::Type t, ::ArrayW<::StringW> dependencies) ;
+ void _ctor(::ArrayW<::StringW> keys, ::StringW id, System::Type provider, System::Type t, ::ArrayW<::StringW> dependencies) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::AddressableAssets::ResourceLocators
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData, "UnityEngine.AddressableAssets.ResourceLocators", "ResourceLocationData");
+NEED_NO_BOX(UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData, "UnityEngine.AddressableAssets.ResourceLocators", "ResourceLocationData");

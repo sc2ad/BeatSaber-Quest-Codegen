@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace GlobalNamespace {
 class IRichPresencePlatformHandler;
 }
@@ -21,8 +20,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE OculusRichPresencePlatformHandler : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IRichPresencePlatformHandler
-constexpr operator  ::GlobalNamespace::IRichPresencePlatformHandler() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IRichPresencePlatformHandler
+constexpr operator  GlobalNamespace::IRichPresencePlatformHandler() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -58,7 +57,7 @@ constexpr explicit OculusRichPresencePlatformHandler(void* ptr) noexcept : ::bs_
 // Methods
 
 /// @brief Method SetPresence addr 0x2229f38 size 0x308 virtual true final true
- void SetPresence(::GlobalNamespace::IRichPresenceData richPresenceData) ;
+ void SetPresence(GlobalNamespace::IRichPresenceData richPresenceData) ;
 
 /// @brief Method Clear addr 0x222a240 size 0x9c virtual true final true
  void Clear() ;
@@ -73,6 +72,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OculusRichPresencePlatformHandler);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OculusRichPresencePlatformHandler, "", "OculusRichPresencePlatformHandler");
+NEED_NO_BOX(GlobalNamespace::OculusRichPresencePlatformHandler);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusRichPresencePlatformHandler, "", "OculusRichPresencePlatformHandler");

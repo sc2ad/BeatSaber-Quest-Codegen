@@ -5,15 +5,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class Coroutine;
-}
 namespace System {
 class Action;
 }
 namespace System::Collections {
 class IEnumerator;
+}
+namespace UnityEngine {
+class Coroutine;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -27,10 +26,10 @@ namespace Unity::XR::Oculus {
 class OculusRestarter;
 }
 namespace Unity::XR::Oculus {
-class ____Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22;
+class Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22;
 }
 namespace Unity::XR::Oculus {
-class ____Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23;
+class Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23;
 }
 // Type: ::<PauseAndRestartCoroutine>d__22
 namespace Unity::XR::Oculus {
@@ -38,46 +37,46 @@ namespace Unity::XR::Oculus {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15232))
 // CS Name: Unity.XR.Oculus.OculusRestarter::<PauseAndRestartCoroutine>d__22
-class CORDL_TYPE ____Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22() = default;
+virtual ~Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22", modifiers: " const&", def_value: None }]
-constexpr ____Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22(____Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22", modifiers: " const&", def_value: None }]
+constexpr Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22(Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22", modifiers: "&&", def_value: None }]
-constexpr ____Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22(____Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22", modifiers: "&&", def_value: None }]
+constexpr Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22(Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22& operator=(std::nullptr_t) noexcept {
+  constexpr Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22& operator=(void* o) noexcept {
+  constexpr Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22& operator=(____Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22&& o) noexcept = default;
-  constexpr ____Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22& operator=(____Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22 const& o) noexcept = default;
+  constexpr Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22& operator=(Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22&& o) noexcept = default;
+  constexpr Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22& operator=(Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22 const& o) noexcept = default;
                 
 
 
@@ -101,11 +100,11 @@ constexpr void __set_pauseTimeInSeconds(float_t value) ;
 
 constexpr float_t __get_pauseTimeInSeconds() const;
 
- ::Unity::XR::Oculus::OculusRestarter __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ Unity::XR::Oculus::OculusRestarter __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::Unity::XR::Oculus::OculusRestarter value) ;
+constexpr void __set___4__this(Unity::XR::Oculus::OculusRestarter value) ;
 
-constexpr ::Unity::XR::Oculus::OculusRestarter __get___4__this() const;
+constexpr Unity::XR::Oculus::OculusRestarter __get___4__this() const;
 
 
 // Properties
@@ -118,7 +117,7 @@ constexpr ::Unity::XR::Oculus::OculusRestarter __get___4__this() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22(int32_t __1__state) ;
+explicit Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2ae2898 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -151,46 +150,46 @@ namespace Unity::XR::Oculus {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15233))
 // CS Name: Unity.XR.Oculus.OculusRestarter::<RestartCoroutine>d__23
-class CORDL_TYPE ____Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23() = default;
+virtual ~Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23", modifiers: " const&", def_value: None }]
-constexpr ____Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23(____Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23", modifiers: " const&", def_value: None }]
+constexpr Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23(Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23", modifiers: "&&", def_value: None }]
-constexpr ____Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23(____Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23", modifiers: "&&", def_value: None }]
+constexpr Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23(Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23& operator=(std::nullptr_t) noexcept {
+  constexpr Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23& operator=(void* o) noexcept {
+  constexpr Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23& operator=(____Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23&& o) noexcept = default;
-  constexpr ____Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23& operator=(____Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23 const& o) noexcept = default;
+  constexpr Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23& operator=(Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23&& o) noexcept = default;
+  constexpr Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23& operator=(Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23 const& o) noexcept = default;
                 
 
 
@@ -208,11 +207,11 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::Unity::XR::Oculus::OculusRestarter __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ Unity::XR::Oculus::OculusRestarter __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::Unity::XR::Oculus::OculusRestarter value) ;
+constexpr void __set___4__this(Unity::XR::Oculus::OculusRestarter value) ;
 
-constexpr ::Unity::XR::Oculus::OculusRestarter __get___4__this() const;
+constexpr Unity::XR::Oculus::OculusRestarter __get___4__this() const;
 
  bool __declspec(property(get=__get_shouldRestart, put=__set_shouldRestart))  shouldRestart;
 
@@ -231,7 +230,7 @@ constexpr bool __get_shouldRestart() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23(int32_t __1__state) ;
+explicit Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2ae293c size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -264,12 +263,12 @@ namespace Unity::XR::Oculus {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15234))
 // CS Name: Unity.XR.Oculus.OculusRestarter
-class CORDL_TYPE OculusRestarter : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OculusRestarter : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using _RestartCoroutine_d__23 = ::Unity::XR::Oculus::____Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23;
+using _RestartCoroutine_d__23 = Unity::XR::Oculus::Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23;
 
-using _PauseAndRestartCoroutine_d__22 = ::Unity::XR::Oculus::____Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22;
+using _PauseAndRestartCoroutine_d__22 = Unity::XR::Oculus::Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
@@ -283,7 +282,7 @@ constexpr OculusRestarter(OculusRestarter const& ) noexcept = default;
 constexpr OculusRestarter(OculusRestarter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OculusRestarter(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OculusRestarter(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -304,29 +303,29 @@ constexpr explicit OculusRestarter(void* ptr) noexcept : ::UnityEngine::MonoBeha
 
 // Fields
 
- ::System::Action __declspec(property(get=__get_onAfterRestart, put=__set_onAfterRestart))  onAfterRestart;
+ System::Action __declspec(property(get=__get_onAfterRestart, put=__set_onAfterRestart))  onAfterRestart;
 
-constexpr void __set_onAfterRestart(::System::Action value) ;
+constexpr void __set_onAfterRestart(System::Action value) ;
 
-constexpr ::System::Action __get_onAfterRestart() const;
+constexpr System::Action __get_onAfterRestart() const;
 
- ::System::Action __declspec(property(get=__get_onAfterShutdown, put=__set_onAfterShutdown))  onAfterShutdown;
+ System::Action __declspec(property(get=__get_onAfterShutdown, put=__set_onAfterShutdown))  onAfterShutdown;
 
-constexpr void __set_onAfterShutdown(::System::Action value) ;
+constexpr void __set_onAfterShutdown(System::Action value) ;
 
-constexpr ::System::Action __get_onAfterShutdown() const;
+constexpr System::Action __get_onAfterShutdown() const;
 
- ::System::Action __declspec(property(get=__get_onQuit, put=__set_onQuit))  onQuit;
+ System::Action __declspec(property(get=__get_onQuit, put=__set_onQuit))  onQuit;
 
-constexpr void __set_onQuit(::System::Action value) ;
+constexpr void __set_onQuit(System::Action value) ;
 
-constexpr ::System::Action __get_onQuit() const;
+constexpr System::Action __get_onQuit() const;
 
- ::System::Action __declspec(property(get=__get_onAfterCoroutine, put=__set_onAfterCoroutine))  onAfterCoroutine;
+ System::Action __declspec(property(get=__get_onAfterCoroutine, put=__set_onAfterCoroutine))  onAfterCoroutine;
 
-constexpr void __set_onAfterCoroutine(::System::Action value) ;
+constexpr void __set_onAfterCoroutine(System::Action value) ;
 
-constexpr ::System::Action __get_onAfterCoroutine() const;
+constexpr System::Action __get_onAfterCoroutine() const;
 
 static ::StringW __declspec(property(get=__get_k_GameObjectName, put=__set_k_GameObjectName))  k_GameObjectName;
 
@@ -334,23 +333,23 @@ static void __set_k_GameObjectName(::StringW value) ;
 
 static ::StringW __get_k_GameObjectName() ;
 
-static ::Unity::XR::Oculus::OculusRestarter __declspec(property(get=__get_s_Instance, put=__set_s_Instance))  s_Instance;
+static Unity::XR::Oculus::OculusRestarter __declspec(property(get=__get_s_Instance, put=__set_s_Instance))  s_Instance;
 
-static void __set_s_Instance(::Unity::XR::Oculus::OculusRestarter value) ;
+static void __set_s_Instance(Unity::XR::Oculus::OculusRestarter value) ;
 
-static ::Unity::XR::Oculus::OculusRestarter __get_s_Instance() ;
+static Unity::XR::Oculus::OculusRestarter __get_s_Instance() ;
 
- ::UnityEngine::Coroutine __declspec(property(get=__get_m_Coroutine, put=__set_m_Coroutine))  m_Coroutine;
+ UnityEngine::Coroutine __declspec(property(get=__get_m_Coroutine, put=__set_m_Coroutine))  m_Coroutine;
 
-constexpr void __set_m_Coroutine(::UnityEngine::Coroutine value) ;
+constexpr void __set_m_Coroutine(UnityEngine::Coroutine value) ;
 
-constexpr ::UnityEngine::Coroutine __get_m_Coroutine() const;
+constexpr UnityEngine::Coroutine __get_m_Coroutine() const;
 
- ::UnityEngine::Coroutine __declspec(property(get=__get_m_pauseAndRestartCoroutine, put=__set_m_pauseAndRestartCoroutine))  m_pauseAndRestartCoroutine;
+ UnityEngine::Coroutine __declspec(property(get=__get_m_pauseAndRestartCoroutine, put=__set_m_pauseAndRestartCoroutine))  m_pauseAndRestartCoroutine;
 
-constexpr void __set_m_pauseAndRestartCoroutine(::UnityEngine::Coroutine value) ;
+constexpr void __set_m_pauseAndRestartCoroutine(UnityEngine::Coroutine value) ;
 
-constexpr ::UnityEngine::Coroutine __get_m_pauseAndRestartCoroutine() const;
+constexpr UnityEngine::Coroutine __get_m_pauseAndRestartCoroutine() const;
 
 static int32_t __declspec(property(get=__get_m_pauseAndRestartAttempts, put=__set_m_pauseAndRestartAttempts))  m_pauseAndRestartAttempts;
 
@@ -373,7 +372,7 @@ static float_t __declspec(property(get=get_TimeBetweenRestartAttempts, put=set_T
 
 static int32_t __declspec(property(get=get_PauseAndRestartAttempts))  PauseAndRestartAttempts;
 
-static ::Unity::XR::Oculus::OculusRestarter __declspec(property(get=get_Instance))  Instance;
+static Unity::XR::Oculus::OculusRestarter __declspec(property(get=get_Instance))  Instance;
 
 
 // Methods
@@ -394,16 +393,16 @@ static void set_TimeBetweenRestartAttempts(float_t value) ;
 static int32_t get_PauseAndRestartAttempts() ;
 
 /// @brief Method get_Instance addr 0x2ae252c size 0x1d4 virtual false final false
-static ::Unity::XR::Oculus::OculusRestarter get_Instance() ;
+static Unity::XR::Oculus::OculusRestarter get_Instance() ;
 
 /// @brief Method PauseAndRestart addr 0x2ae2700 size 0x120 virtual false final false
  void PauseAndRestart() ;
 
 /// @brief Method PauseAndRestartCoroutine addr 0x2ae2820 size 0x78 virtual false final false
- ::System::Collections::IEnumerator PauseAndRestartCoroutine(float_t pauseTimeInSeconds) ;
+ System::Collections::IEnumerator PauseAndRestartCoroutine(float_t pauseTimeInSeconds) ;
 
 /// @brief Method RestartCoroutine addr 0x2ae28c0 size 0x7c virtual false final false
- ::System::Collections::IEnumerator RestartCoroutine(bool shouldRestart) ;
+ System::Collections::IEnumerator RestartCoroutine(bool shouldRestart) ;
 
 // Ctor Parameters []
 explicit OculusRestarter() ;
@@ -415,10 +414,9 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Unity::XR::Oculus
-} // end anonymous namespace
-NEED_NO_BOX(::Unity::XR::Oculus::OculusRestarter);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::XR::Oculus::OculusRestarter, "Unity.XR.Oculus", "OculusRestarter");
-NEED_NO_BOX(::Unity::XR::Oculus::____Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::XR::Oculus::____Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22, "Unity.XR.Oculus", "OculusRestarter/<PauseAndRestartCoroutine>d__22");
-NEED_NO_BOX(::Unity::XR::Oculus::____Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::XR::Oculus::____Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23, "Unity.XR.Oculus", "OculusRestarter/<RestartCoroutine>d__23");
+NEED_NO_BOX(Unity::XR::Oculus::OculusRestarter);
+DEFINE_IL2CPP_ARG_TYPE(Unity::XR::Oculus::OculusRestarter, "Unity.XR.Oculus", "OculusRestarter");
+NEED_NO_BOX(Unity::XR::Oculus::Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22);
+DEFINE_IL2CPP_ARG_TYPE(Unity::XR::Oculus::Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22, "Unity.XR.Oculus", "OculusRestarter/<PauseAndRestartCoroutine>d__22");
+NEED_NO_BOX(Unity::XR::Oculus::Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23);
+DEFINE_IL2CPP_ARG_TYPE(Unity::XR::Oculus::Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23, "Unity.XR.Oculus", "OculusRestarter/<RestartCoroutine>d__23");

@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR::Implementation {
 struct ClipMethod;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Undetermined offset 0
-static ::UnityEngine::UIElements::UIR::Implementation::ClipMethod const Undetermined;
+static UnityEngine::UIElements::UIR::Implementation::ClipMethod const Undetermined;
 
 /// @brief Field NotClipped offset 0
-static ::UnityEngine::UIElements::UIR::Implementation::ClipMethod const NotClipped;
+static UnityEngine::UIElements::UIR::Implementation::ClipMethod const NotClipped;
 
 /// @brief Field Scissor offset 0
-static ::UnityEngine::UIElements::UIR::Implementation::ClipMethod const Scissor;
+static UnityEngine::UIElements::UIR::Implementation::ClipMethod const Scissor;
 
 /// @brief Field ShaderDiscard offset 0
-static ::UnityEngine::UIElements::UIR::Implementation::ClipMethod const ShaderDiscard;
+static UnityEngine::UIElements::UIR::Implementation::ClipMethod const ShaderDiscard;
 
 /// @brief Field Stencil offset 0
-static ::UnityEngine::UIElements::UIR::Implementation::ClipMethod const Stencil;
+static UnityEngine::UIElements::UIR::Implementation::ClipMethod const Stencil;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::UIR::Implementation
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::Implementation::ClipMethod, "UnityEngine.UIElements.UIR.Implementation", "ClipMethod");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::Implementation::ClipMethod, "UnityEngine.UIElements.UIR.Implementation", "ClipMethod");

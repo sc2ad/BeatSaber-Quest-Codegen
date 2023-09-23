@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
 namespace OVR::OpenVR {
 struct HmdVector3_t;
 }
@@ -18,8 +17,8 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE HmdQuad_t : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "vCorners0", ty: "::OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: None }, CppParam { name: "vCorners1", ty: "::OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: None }, CppParam { name: "vCorners2", ty: "::OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: None }, CppParam { name: "vCorners3", ty: "::OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: None }]
-constexpr HmdQuad_t(::OVR::OpenVR::HmdVector3_t vCorners0, ::OVR::OpenVR::HmdVector3_t vCorners1, ::OVR::OpenVR::HmdVector3_t vCorners2, ::OVR::OpenVR::HmdVector3_t vCorners3) noexcept;
+// Ctor Parameters [CppParam { name: "vCorners0", ty: "OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: None }, CppParam { name: "vCorners1", ty: "OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: None }, CppParam { name: "vCorners2", ty: "OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: None }, CppParam { name: "vCorners3", ty: "OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: None }]
+constexpr HmdQuad_t(OVR::OpenVR::HmdVector3_t vCorners0, OVR::OpenVR::HmdVector3_t vCorners1, OVR::OpenVR::HmdVector3_t vCorners2, OVR::OpenVR::HmdVector3_t vCorners3) noexcept;
 
 
                     constexpr HmdQuad_t(HmdQuad_t const&) = default;
@@ -52,33 +51,32 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::OVR::OpenVR::HmdVector3_t __declspec(property(get=__get_vCorners0, put=__set_vCorners0))  vCorners0;
+ OVR::OpenVR::HmdVector3_t __declspec(property(get=__get_vCorners0, put=__set_vCorners0))  vCorners0;
 
-constexpr void __set_vCorners0(::OVR::OpenVR::HmdVector3_t value) ;
+constexpr void __set_vCorners0(OVR::OpenVR::HmdVector3_t value) ;
 
-constexpr ::OVR::OpenVR::HmdVector3_t __get_vCorners0() const;
+constexpr OVR::OpenVR::HmdVector3_t __get_vCorners0() const;
 
- ::OVR::OpenVR::HmdVector3_t __declspec(property(get=__get_vCorners1, put=__set_vCorners1))  vCorners1;
+ OVR::OpenVR::HmdVector3_t __declspec(property(get=__get_vCorners1, put=__set_vCorners1))  vCorners1;
 
-constexpr void __set_vCorners1(::OVR::OpenVR::HmdVector3_t value) ;
+constexpr void __set_vCorners1(OVR::OpenVR::HmdVector3_t value) ;
 
-constexpr ::OVR::OpenVR::HmdVector3_t __get_vCorners1() const;
+constexpr OVR::OpenVR::HmdVector3_t __get_vCorners1() const;
 
- ::OVR::OpenVR::HmdVector3_t __declspec(property(get=__get_vCorners2, put=__set_vCorners2))  vCorners2;
+ OVR::OpenVR::HmdVector3_t __declspec(property(get=__get_vCorners2, put=__set_vCorners2))  vCorners2;
 
-constexpr void __set_vCorners2(::OVR::OpenVR::HmdVector3_t value) ;
+constexpr void __set_vCorners2(OVR::OpenVR::HmdVector3_t value) ;
 
-constexpr ::OVR::OpenVR::HmdVector3_t __get_vCorners2() const;
+constexpr OVR::OpenVR::HmdVector3_t __get_vCorners2() const;
 
- ::OVR::OpenVR::HmdVector3_t __declspec(property(get=__get_vCorners3, put=__set_vCorners3))  vCorners3;
+ OVR::OpenVR::HmdVector3_t __declspec(property(get=__get_vCorners3, put=__set_vCorners3))  vCorners3;
 
-constexpr void __set_vCorners3(::OVR::OpenVR::HmdVector3_t value) ;
+constexpr void __set_vCorners3(OVR::OpenVR::HmdVector3_t value) ;
 
-constexpr ::OVR::OpenVR::HmdVector3_t __get_vCorners3() const;
+constexpr OVR::OpenVR::HmdVector3_t __get_vCorners3() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::HmdQuad_t, "OVR.OpenVR", "HmdQuad_t");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::HmdQuad_t, "OVR.OpenVR", "HmdQuad_t");

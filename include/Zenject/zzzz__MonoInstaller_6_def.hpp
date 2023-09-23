@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__MonoInstallerBase_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace Zenject {
-class DiContainer;
-}
 namespace Zenject {
 class InjectTypeInfo;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -27,7 +26,7 @@ template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11088)), TypeDefinitionIndex(TypeDefinitionIndex(11086))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11086), inst: 5939 })
 // CS Name: Zenject.MonoInstaller`6
-class CORDL_TYPE MonoInstaller_6<TParam1,TParam2,TParam3,TParam4,TParam5,TDerived> : public ::Zenject::MonoInstallerBase {
+class CORDL_TYPE MonoInstaller_6<TParam1,TParam2,TParam3,TParam4,TParam5,TDerived> : public Zenject::MonoInstallerBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -42,7 +41,7 @@ constexpr MonoInstaller_6(MonoInstaller_6 const& ) noexcept = default;
 constexpr MonoInstaller_6(MonoInstaller_6&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MonoInstaller_6(void* ptr) noexcept : ::Zenject::MonoInstallerBase(ptr) {
+constexpr explicit MonoInstaller_6(void* ptr) noexcept : Zenject::MonoInstallerBase(ptr) {
 }
 
 
@@ -64,10 +63,10 @@ constexpr explicit MonoInstaller_6(void* ptr) noexcept : ::Zenject::MonoInstalle
 // Methods
 
 /// @brief Method InstallFromResource addr 0x0 size 0xffffffffffffffff virtual false final false
-static TDerived InstallFromResource(::Zenject::DiContainer container, TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5) ;
+static TDerived InstallFromResource(Zenject::DiContainer container, TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5) ;
 
 /// @brief Method InstallFromResource addr 0x0 size 0xffffffffffffffff virtual false final false
-static TDerived InstallFromResource(::StringW resourcePath, ::Zenject::DiContainer container, TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5) ;
+static TDerived InstallFromResource(::StringW resourcePath, Zenject::DiContainer container, TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5) ;
 
 // Ctor Parameters []
 explicit MonoInstaller_6() ;
@@ -76,11 +75,10 @@ explicit MonoInstaller_6() ;
  void _ctor() ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::MonoInstaller_6, "Zenject", "MonoInstaller`6");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::MonoInstaller_6, "Zenject", "MonoInstaller`6");

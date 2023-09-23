@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace Zenject {
-class DiContainer;
-}
 namespace Zenject {
 class InjectTypeInfo;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -29,7 +28,7 @@ template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11092)), TypeDefinitionIndex(TypeDefinitionIndex(11096))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11092), inst: 5155 })
 // CS Name: Zenject.ScriptableObjectInstaller`3
-class CORDL_TYPE ScriptableObjectInstaller_3<TParam1,TParam2,TDerived> : public ::Zenject::ScriptableObjectInstallerBase {
+class CORDL_TYPE ScriptableObjectInstaller_3<TParam1,TParam2,TDerived> : public Zenject::ScriptableObjectInstallerBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -44,7 +43,7 @@ constexpr ScriptableObjectInstaller_3(ScriptableObjectInstaller_3 const& ) noexc
 constexpr ScriptableObjectInstaller_3(ScriptableObjectInstaller_3&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ScriptableObjectInstaller_3(void* ptr) noexcept : ::Zenject::ScriptableObjectInstallerBase(ptr) {
+constexpr explicit ScriptableObjectInstaller_3(void* ptr) noexcept : Zenject::ScriptableObjectInstallerBase(ptr) {
 }
 
 
@@ -66,10 +65,10 @@ constexpr explicit ScriptableObjectInstaller_3(void* ptr) noexcept : ::Zenject::
 // Methods
 
 /// @brief Method InstallFromResource addr 0x0 size 0xffffffffffffffff virtual false final false
-static TDerived InstallFromResource(::Zenject::DiContainer container, TParam1 p1, TParam2 p2) ;
+static TDerived InstallFromResource(Zenject::DiContainer container, TParam1 p1, TParam2 p2) ;
 
 /// @brief Method InstallFromResource addr 0x0 size 0xffffffffffffffff virtual false final false
-static TDerived InstallFromResource(::StringW resourcePath, ::Zenject::DiContainer container, TParam1 p1, TParam2 p2) ;
+static TDerived InstallFromResource(::StringW resourcePath, Zenject::DiContainer container, TParam1 p1, TParam2 p2) ;
 
 // Ctor Parameters []
 explicit ScriptableObjectInstaller_3() ;
@@ -81,11 +80,10 @@ explicit ScriptableObjectInstaller_3() ;
 static ::bs_hook::Il2CppWrapperType __zenCreate(::ArrayW<::bs_hook::Il2CppWrapperType> P_0) ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::ScriptableObjectInstaller_3, "Zenject", "ScriptableObjectInstaller`3");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::ScriptableObjectInstaller_3, "Zenject", "ScriptableObjectInstaller`3");

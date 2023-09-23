@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
 class Timeout;
@@ -80,24 +79,23 @@ explicit Timeout(int64_t durationMillis, int64_t currentTimeMillis) ;
  int64_t RemainingMillis(int64_t currentTimeMillis) ;
 
 /// @brief Method ConstrainWaitMillis addr 0xf0b850 size 0xc8 virtual false final false
-static int32_t ConstrainWaitMillis(int32_t waitMillis, ::Org::BouncyCastle::Crypto::Tls::Timeout timeout, int64_t currentTimeMillis) ;
+static int32_t ConstrainWaitMillis(int32_t waitMillis, Org::BouncyCastle::Crypto::Tls::Timeout timeout, int64_t currentTimeMillis) ;
 
 /// @brief Method ForWaitMillis addr 0xf0b94c size 0x60 virtual false final false
-static ::Org::BouncyCastle::Crypto::Tls::Timeout ForWaitMillis(int32_t waitMillis) ;
+static Org::BouncyCastle::Crypto::Tls::Timeout ForWaitMillis(int32_t waitMillis) ;
 
 /// @brief Method ForWaitMillis addr 0xf0b9ac size 0xd8 virtual false final false
-static ::Org::BouncyCastle::Crypto::Tls::Timeout ForWaitMillis(int32_t waitMillis, int64_t currentTimeMillis) ;
+static Org::BouncyCastle::Crypto::Tls::Timeout ForWaitMillis(int32_t waitMillis, int64_t currentTimeMillis) ;
 
 /// @brief Method GetWaitMillis addr 0xf0b918 size 0x34 virtual false final false
-static int32_t GetWaitMillis(::Org::BouncyCastle::Crypto::Tls::Timeout timeout, int64_t currentTimeMillis) ;
+static int32_t GetWaitMillis(Org::BouncyCastle::Crypto::Tls::Timeout timeout, int64_t currentTimeMillis) ;
 
 /// @brief Method HasExpired addr 0xf0ba84 size 0x1c virtual false final false
-static bool HasExpired(::Org::BouncyCastle::Crypto::Tls::Timeout timeout, int64_t currentTimeMillis) ;
+static bool HasExpired(Org::BouncyCastle::Crypto::Tls::Timeout timeout, int64_t currentTimeMillis) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::Timeout);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::Timeout, "Org.BouncyCastle.Crypto.Tls", "Timeout");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::Timeout);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::Timeout, "Org.BouncyCastle.Crypto.Tls", "Timeout");

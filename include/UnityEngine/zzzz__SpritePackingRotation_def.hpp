@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct SpritePackingRotation;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::SpritePackingRotation const None;
+static UnityEngine::SpritePackingRotation const None;
 
 /// @brief Field FlipHorizontal offset 0
-static ::UnityEngine::SpritePackingRotation const FlipHorizontal;
+static UnityEngine::SpritePackingRotation const FlipHorizontal;
 
 /// @brief Field FlipVertical offset 0
-static ::UnityEngine::SpritePackingRotation const FlipVertical;
+static UnityEngine::SpritePackingRotation const FlipVertical;
 
 /// @brief Field Rotate180 offset 0
-static ::UnityEngine::SpritePackingRotation const Rotate180;
+static UnityEngine::SpritePackingRotation const Rotate180;
 
 /// @brief Field Any offset 0
-static ::UnityEngine::SpritePackingRotation const Any;
+static UnityEngine::SpritePackingRotation const Any;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SpritePackingRotation, "UnityEngine", "SpritePackingRotation");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SpritePackingRotation, "UnityEngine", "SpritePackingRotation");

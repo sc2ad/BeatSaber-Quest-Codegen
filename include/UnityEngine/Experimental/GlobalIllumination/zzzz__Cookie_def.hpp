@@ -3,7 +3,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Vector2;
 }
@@ -20,8 +19,8 @@ namespace UnityEngine::Experimental::GlobalIllumination {
 struct CORDL_TYPE Cookie : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "instanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "sizes", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }]
-constexpr Cookie(int32_t instanceID, float_t scale, ::UnityEngine::Vector2 sizes) noexcept;
+// Ctor Parameters [CppParam { name: "instanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "sizes", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }]
+constexpr Cookie(int32_t instanceID, float_t scale, UnityEngine::Vector2 sizes) noexcept;
 
 
                     constexpr Cookie(Cookie const&) = default;
@@ -66,15 +65,14 @@ constexpr void __set_scale(float_t value) ;
 
 constexpr float_t __get_scale() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_sizes, put=__set_sizes))  sizes;
+ UnityEngine::Vector2 __declspec(property(get=__get_sizes, put=__set_sizes))  sizes;
 
-constexpr void __set_sizes(::UnityEngine::Vector2 value) ;
+constexpr void __set_sizes(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_sizes() const;
+constexpr UnityEngine::Vector2 __get_sizes() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Experimental::GlobalIllumination
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::GlobalIllumination::Cookie, "UnityEngine.Experimental.GlobalIllumination", "Cookie");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::Cookie, "UnityEngine.Experimental.GlobalIllumination", "Cookie");

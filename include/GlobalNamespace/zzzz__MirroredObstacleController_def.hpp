@@ -3,25 +3,24 @@
 #include "GlobalNamespace/zzzz__ObstacleControllerBase_def.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
-class StretchableObstacle;
+class ObstacleController;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
-class ObstacleController;
+class StretchableObstacle;
 }
 namespace GlobalNamespace {
 class ObstacleControllerBase;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-class MirroredObstacleController;
+class GlobalNamespace__MirroredObstacleController__Pool;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__MirroredObstacleController__Pool;
+class MirroredObstacleController;
 }
 // Type: ::MirroredObstacleController
 namespace GlobalNamespace {
@@ -29,10 +28,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4909))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4905))
 // CS Name: MirroredObstacleController
-class CORDL_TYPE MirroredObstacleController : public ::GlobalNamespace::ObstacleControllerBase {
+class CORDL_TYPE MirroredObstacleController : public GlobalNamespace::ObstacleControllerBase {
 public:
 // Declarations
-using Pool = ::GlobalNamespace::____GlobalNamespace__MirroredObstacleController__Pool;
+using Pool = GlobalNamespace::GlobalNamespace__MirroredObstacleController__Pool;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
@@ -46,7 +45,7 @@ constexpr MirroredObstacleController(MirroredObstacleController const& ) noexcep
 constexpr MirroredObstacleController(MirroredObstacleController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MirroredObstacleController(void* ptr) noexcept : ::GlobalNamespace::ObstacleControllerBase(ptr) {
+constexpr explicit MirroredObstacleController(void* ptr) noexcept : GlobalNamespace::ObstacleControllerBase(ptr) {
 }
 
 
@@ -67,29 +66,29 @@ constexpr explicit MirroredObstacleController(void* ptr) noexcept : ::GlobalName
 
 // Fields
 
- ::GlobalNamespace::StretchableObstacle __declspec(property(get=__get__stretchableObstacle, put=__set__stretchableObstacle))  _stretchableObstacle;
+ GlobalNamespace::StretchableObstacle __declspec(property(get=__get__stretchableObstacle, put=__set__stretchableObstacle))  _stretchableObstacle;
 
-constexpr void __set__stretchableObstacle(::GlobalNamespace::StretchableObstacle value) ;
+constexpr void __set__stretchableObstacle(GlobalNamespace::StretchableObstacle value) ;
 
-constexpr ::GlobalNamespace::StretchableObstacle __get__stretchableObstacle() const;
+constexpr GlobalNamespace::StretchableObstacle __get__stretchableObstacle() const;
 
- ::GlobalNamespace::ObstacleController __declspec(property(get=__get__followedObstacle, put=__set__followedObstacle))  _followedObstacle;
+ GlobalNamespace::ObstacleController __declspec(property(get=__get__followedObstacle, put=__set__followedObstacle))  _followedObstacle;
 
-constexpr void __set__followedObstacle(::GlobalNamespace::ObstacleController value) ;
+constexpr void __set__followedObstacle(GlobalNamespace::ObstacleController value) ;
 
-constexpr ::GlobalNamespace::ObstacleController __get__followedObstacle() const;
+constexpr GlobalNamespace::ObstacleController __get__followedObstacle() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
+ UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
 
-constexpr void __set__transform(::UnityEngine::Transform value) ;
+constexpr void __set__transform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__transform() const;
+constexpr UnityEngine::Transform __get__transform() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__followedTransform, put=__set__followedTransform))  _followedTransform;
+ UnityEngine::Transform __declspec(property(get=__get__followedTransform, put=__set__followedTransform))  _followedTransform;
 
-constexpr void __set__followedTransform(::UnityEngine::Transform value) ;
+constexpr void __set__followedTransform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__followedTransform() const;
+constexpr UnityEngine::Transform __get__followedTransform() const;
 
 
 // Properties
@@ -118,10 +117,10 @@ constexpr ::UnityEngine::Transform __get__followedTransform() const;
  void UpdatePositionAndRotation() ;
 
 /// @brief Method Mirror addr 0x2244464 size 0xf8 virtual false final false
- void Mirror(::GlobalNamespace::ObstacleController obstacleController) ;
+ void Mirror(GlobalNamespace::ObstacleController obstacleController) ;
 
 /// @brief Method HandleDidStartDissolving addr 0x2244a0c size 0x20 virtual false final false
- void HandleDidStartDissolving(::GlobalNamespace::ObstacleControllerBase obstacleController, float_t duration) ;
+ void HandleDidStartDissolving(GlobalNamespace::ObstacleControllerBase obstacleController, float_t duration) ;
 
 // Ctor Parameters []
 explicit MirroredObstacleController() ;
@@ -136,47 +135,47 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Pool
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2712 }), TypeDefinitionIndex(TypeDefinitionIndex(4905)), TypeDefinitionIndex(TypeDefinitionIndex(10992))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2712 }), TypeDefinitionIndex(TypeDefinitionIndex(10992)), TypeDefinitionIndex(TypeDefinitionIndex(4905))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4904))
 // CS Name: MirroredObstacleController::Pool
-class CORDL_TYPE ____GlobalNamespace__MirroredObstacleController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MirroredObstacleController> {
+class CORDL_TYPE GlobalNamespace__MirroredObstacleController__Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::MirroredObstacleController> {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
 
-virtual ~____GlobalNamespace__MirroredObstacleController__Pool() = default;
+virtual ~GlobalNamespace__MirroredObstacleController__Pool() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__MirroredObstacleController__Pool", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__MirroredObstacleController__Pool(____GlobalNamespace__MirroredObstacleController__Pool const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__MirroredObstacleController__Pool", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__MirroredObstacleController__Pool(GlobalNamespace__MirroredObstacleController__Pool const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__MirroredObstacleController__Pool", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__MirroredObstacleController__Pool(____GlobalNamespace__MirroredObstacleController__Pool&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__MirroredObstacleController__Pool", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__MirroredObstacleController__Pool(GlobalNamespace__MirroredObstacleController__Pool&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__MirroredObstacleController__Pool(void* ptr) noexcept : ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MirroredObstacleController>(ptr) {
+constexpr explicit GlobalNamespace__MirroredObstacleController__Pool(void* ptr) noexcept : Zenject::MonoMemoryPool_1<GlobalNamespace::MirroredObstacleController>(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__MirroredObstacleController__Pool& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__MirroredObstacleController__Pool& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__MirroredObstacleController__Pool& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__MirroredObstacleController__Pool& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__MirroredObstacleController__Pool& operator=(____GlobalNamespace__MirroredObstacleController__Pool&& o) noexcept = default;
-  constexpr ____GlobalNamespace__MirroredObstacleController__Pool& operator=(____GlobalNamespace__MirroredObstacleController__Pool const& o) noexcept = default;
+  constexpr GlobalNamespace__MirroredObstacleController__Pool& operator=(GlobalNamespace__MirroredObstacleController__Pool&& o) noexcept = default;
+  constexpr GlobalNamespace__MirroredObstacleController__Pool& operator=(GlobalNamespace__MirroredObstacleController__Pool const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__MirroredObstacleController__Pool() ;
+explicit GlobalNamespace__MirroredObstacleController__Pool() ;
 
 /// @brief Method .ctor addr 0x2244a58 size 0x48 virtual false final false
  void _ctor() ;
@@ -185,8 +184,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MirroredObstacleController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MirroredObstacleController, "", "MirroredObstacleController");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__MirroredObstacleController__Pool);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__MirroredObstacleController__Pool, "", "MirroredObstacleController/Pool");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__MirroredObstacleController__Pool);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__MirroredObstacleController__Pool, "", "MirroredObstacleController/Pool");
+NEED_NO_BOX(GlobalNamespace::MirroredObstacleController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirroredObstacleController, "", "MirroredObstacleController");

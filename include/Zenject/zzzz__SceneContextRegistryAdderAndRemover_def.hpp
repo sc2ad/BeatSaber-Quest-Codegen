@@ -2,9 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace Zenject {
-class InjectTypeInfo;
+class IInitializable;
+}
+namespace Zenject {
+class SceneContext;
 }
 namespace System {
 class IDisposable;
@@ -13,10 +15,7 @@ namespace Zenject {
 class SceneContextRegistry;
 }
 namespace Zenject {
-class IInitializable;
-}
-namespace Zenject {
-class SceneContext;
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -31,11 +30,11 @@ namespace Zenject {
 class CORDL_TYPE SceneContextRegistryAdderAndRemover : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Zenject::IInitializable
-constexpr operator  ::Zenject::IInitializable() const noexcept;
+/// @brief Convert operator to Zenject::IInitializable
+constexpr operator  Zenject::IInitializable() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -70,26 +69,26 @@ constexpr explicit SceneContextRegistryAdderAndRemover(void* ptr) noexcept : ::b
 
 // Fields
 
- ::Zenject::SceneContextRegistry __declspec(property(get=__get__registry, put=__set__registry))  _registry;
+ Zenject::SceneContextRegistry __declspec(property(get=__get__registry, put=__set__registry))  _registry;
 
-constexpr void __set__registry(::Zenject::SceneContextRegistry value) ;
+constexpr void __set__registry(Zenject::SceneContextRegistry value) ;
 
-constexpr ::Zenject::SceneContextRegistry __get__registry() const;
+constexpr Zenject::SceneContextRegistry __get__registry() const;
 
- ::Zenject::SceneContext __declspec(property(get=__get__sceneContext, put=__set__sceneContext))  _sceneContext;
+ Zenject::SceneContext __declspec(property(get=__get__sceneContext, put=__set__sceneContext))  _sceneContext;
 
-constexpr void __set__sceneContext(::Zenject::SceneContext value) ;
+constexpr void __set__sceneContext(Zenject::SceneContext value) ;
 
-constexpr ::Zenject::SceneContext __get__sceneContext() const;
+constexpr Zenject::SceneContext __get__sceneContext() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "sceneContext", ty: "::Zenject::SceneContext", modifiers: "", def_value: None }, CppParam { name: "registry", ty: "::Zenject::SceneContextRegistry", modifiers: "", def_value: None }]
-explicit SceneContextRegistryAdderAndRemover(::Zenject::SceneContext sceneContext, ::Zenject::SceneContextRegistry registry) ;
+// Ctor Parameters [CppParam { name: "sceneContext", ty: "Zenject::SceneContext", modifiers: "", def_value: None }, CppParam { name: "registry", ty: "Zenject::SceneContextRegistry", modifiers: "", def_value: None }]
+explicit SceneContextRegistryAdderAndRemover(Zenject::SceneContext sceneContext, Zenject::SceneContextRegistry registry) ;
 
 /// @brief Method .ctor addr 0x2d9f454 size 0x2c virtual false final false
- void _ctor(::Zenject::SceneContext sceneContext, ::Zenject::SceneContextRegistry registry) ;
+ void _ctor(Zenject::SceneContext sceneContext, Zenject::SceneContextRegistry registry) ;
 
 /// @brief Method Initialize addr 0x2d9f480 size 0x20 virtual true final true
  void Initialize() ;
@@ -101,12 +100,11 @@ explicit SceneContextRegistryAdderAndRemover(::Zenject::SceneContext sceneContex
 static ::bs_hook::Il2CppWrapperType __zenCreate(::ArrayW<::bs_hook::Il2CppWrapperType> P_0) ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x2d9f5dc size 0x304 virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::SceneContextRegistryAdderAndRemover);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::SceneContextRegistryAdderAndRemover, "Zenject", "SceneContextRegistryAdderAndRemover");
+NEED_NO_BOX(Zenject::SceneContextRegistryAdderAndRemover);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::SceneContextRegistryAdderAndRemover, "Zenject", "SceneContextRegistryAdderAndRemover");

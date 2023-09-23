@@ -3,21 +3,20 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
-namespace {
+namespace UnityEngine::Playables {
+struct PlayableOutputHandle;
+}
 namespace UnityEngine::Playables {
 class IPlayableOutput;
 }
-namespace UnityEngine::Playables {
-struct PlayableGraph;
+namespace UnityEngine {
+class Animator;
 }
 namespace UnityEngine::Playables {
 struct PlayableOutput;
 }
 namespace UnityEngine::Playables {
-struct PlayableOutputHandle;
-}
-namespace UnityEngine {
-class Animator;
+struct PlayableGraph;
 }
 // Forward declare root types
 namespace UnityEngine::Animations {
@@ -32,11 +31,11 @@ namespace UnityEngine::Animations {
 struct CORDL_TYPE AnimationPlayableOutput : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::Playables::IPlayableOutput
-constexpr operator  ::UnityEngine::Playables::IPlayableOutput() const;
+/// @brief Convert operator to UnityEngine::Playables::IPlayableOutput
+constexpr operator  UnityEngine::Playables::IPlayableOutput() const;
 
-// Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableOutputHandle", modifiers: "", def_value: None }]
-constexpr AnimationPlayableOutput(::UnityEngine::Playables::PlayableOutputHandle m_Handle) noexcept;
+// Ctor Parameters [CppParam { name: "m_Handle", ty: "UnityEngine::Playables::PlayableOutputHandle", modifiers: "", def_value: None }]
+constexpr AnimationPlayableOutput(UnityEngine::Playables::PlayableOutputHandle m_Handle) noexcept;
 
 
                     constexpr AnimationPlayableOutput(AnimationPlayableOutput const&) = default;
@@ -69,53 +68,52 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Playables::PlayableOutputHandle __declspec(property(get=__get_m_Handle, put=__set_m_Handle))  m_Handle;
+ UnityEngine::Playables::PlayableOutputHandle __declspec(property(get=__get_m_Handle, put=__set_m_Handle))  m_Handle;
 
-constexpr void __set_m_Handle(::UnityEngine::Playables::PlayableOutputHandle value) ;
+constexpr void __set_m_Handle(UnityEngine::Playables::PlayableOutputHandle value) ;
 
-constexpr ::UnityEngine::Playables::PlayableOutputHandle __get_m_Handle() const;
+constexpr UnityEngine::Playables::PlayableOutputHandle __get_m_Handle() const;
 
 
 // Properties
 
-static ::UnityEngine::Animations::AnimationPlayableOutput __declspec(property(get=get_Null))  Null;
+static UnityEngine::Animations::AnimationPlayableOutput __declspec(property(get=get_Null))  Null;
 
 
 // Methods
 
 /// @brief Method Create addr 0x2b235b8 size 0xa8 virtual false final false
-static ::UnityEngine::Animations::AnimationPlayableOutput Create(::UnityEngine::Playables::PlayableGraph graph, ::StringW name, ::UnityEngine::Animator target) ;
+static UnityEngine::Animations::AnimationPlayableOutput Create(UnityEngine::Playables::PlayableGraph graph, ::StringW name, UnityEngine::Animator target) ;
 
 /// @brief Method .ctor addr 0x2b236dc size 0xc0 virtual false final false
- void _ctor(::UnityEngine::Playables::PlayableOutputHandle handle) ;
+ void _ctor(UnityEngine::Playables::PlayableOutputHandle handle) ;
 
 /// @brief Method get_Null addr 0x2b23660 size 0x7c virtual false final false
-static ::UnityEngine::Animations::AnimationPlayableOutput get_Null() ;
+static UnityEngine::Animations::AnimationPlayableOutput get_Null() ;
 
 /// @brief Method GetHandle addr 0x2b237e0 size 0xc virtual true final true
- ::UnityEngine::Playables::PlayableOutputHandle GetHandle() ;
+ UnityEngine::Playables::PlayableOutputHandle GetHandle() ;
 
 /// @brief Method op_Implicit addr 0x2b237ec size 0x30 virtual false final false
-static ::UnityEngine::Playables::PlayableOutput op_Implicit___UnityEngine__Playables__PlayableOutput(::UnityEngine::Animations::AnimationPlayableOutput output) ;
+static UnityEngine::Playables::PlayableOutput op_Implicit_UnityEngine__Playables__PlayableOutput(UnityEngine::Animations::AnimationPlayableOutput output) ;
 
 /// @brief Method op_Explicit addr 0x2b2381c size 0x44 virtual false final false
-static ::UnityEngine::Animations::AnimationPlayableOutput op_Explicit___UnityEngine__Animations__AnimationPlayableOutput(::UnityEngine::Playables::PlayableOutput output) ;
+static UnityEngine::Animations::AnimationPlayableOutput op_Explicit_UnityEngine__Animations__AnimationPlayableOutput(UnityEngine::Playables::PlayableOutput output) ;
 
 /// @brief Method GetTarget addr 0x2b23860 size 0x3c virtual false final false
- ::UnityEngine::Animator GetTarget() ;
+ UnityEngine::Animator GetTarget() ;
 
 /// @brief Method SetTarget addr 0x2b2379c size 0x44 virtual false final false
- void SetTarget(::UnityEngine::Animator value) ;
+ void SetTarget(UnityEngine::Animator value) ;
 
 /// @brief Method InternalGetTarget addr 0x2b2389c size 0x3c virtual false final false
-static ::UnityEngine::Animator InternalGetTarget(ByRef<::UnityEngine::Playables::PlayableOutputHandle> handle) ;
+static UnityEngine::Animator InternalGetTarget(ByRef<UnityEngine::Playables::PlayableOutputHandle> handle) ;
 
 /// @brief Method InternalSetTarget addr 0x2b238d8 size 0x44 virtual false final false
-static void InternalSetTarget(ByRef<::UnityEngine::Playables::PlayableOutputHandle> handle, ::UnityEngine::Animator target) ;
+static void InternalSetTarget(ByRef<UnityEngine::Playables::PlayableOutputHandle> handle, UnityEngine::Animator target) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Animations
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Animations::AnimationPlayableOutput, "UnityEngine.Animations", "AnimationPlayableOutput");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationPlayableOutput, "UnityEngine.Animations", "AnimationPlayableOutput");

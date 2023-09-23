@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Mono::Security::Interface {
 struct CipherSuiteCode;
@@ -331,806 +330,805 @@ constexpr void __set_value__(uint16_t value) ;
 constexpr uint16_t __get_value__() const;
 
 /// @brief Field TLS_NULL_WITH_NULL_NULL offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_NULL_WITH_NULL_NULL;
+static Mono::Security::Interface::CipherSuiteCode const TLS_NULL_WITH_NULL_NULL;
 
 /// @brief Field TLS_RSA_WITH_NULL_MD5 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_NULL_MD5;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_NULL_MD5;
 
 /// @brief Field TLS_RSA_WITH_NULL_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_NULL_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_NULL_SHA;
 
 /// @brief Field TLS_RSA_EXPORT_WITH_RC4_40_MD5 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_EXPORT_WITH_RC4_40_MD5;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_EXPORT_WITH_RC4_40_MD5;
 
 /// @brief Field TLS_RSA_WITH_RC4_128_MD5 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_RC4_128_MD5;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_RC4_128_MD5;
 
 /// @brief Field TLS_RSA_WITH_RC4_128_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_RC4_128_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_RC4_128_SHA;
 
 /// @brief Field TLS_RSA_EXPORT_WITH_RC2_CBC_40_MD5 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_EXPORT_WITH_RC2_CBC_40_MD5;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_EXPORT_WITH_RC2_CBC_40_MD5;
 
 /// @brief Field TLS_RSA_WITH_IDEA_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_IDEA_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_IDEA_CBC_SHA;
 
 /// @brief Field TLS_RSA_EXPORT_WITH_DES40_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_EXPORT_WITH_DES40_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_EXPORT_WITH_DES40_CBC_SHA;
 
 /// @brief Field TLS_RSA_WITH_DES_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_DES_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_DES_CBC_SHA;
 
 /// @brief Field TLS_RSA_WITH_3DES_EDE_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_3DES_EDE_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_3DES_EDE_CBC_SHA;
 
 /// @brief Field TLS_DH_DSS_EXPORT_WITH_DES40_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_DSS_EXPORT_WITH_DES40_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_DSS_EXPORT_WITH_DES40_CBC_SHA;
 
 /// @brief Field TLS_DH_DSS_WITH_DES_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_DSS_WITH_DES_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_DSS_WITH_DES_CBC_SHA;
 
 /// @brief Field TLS_DH_DSS_WITH_3DES_EDE_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_DSS_WITH_3DES_EDE_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_DSS_WITH_3DES_EDE_CBC_SHA;
 
 /// @brief Field TLS_DH_RSA_EXPORT_WITH_DES40_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_RSA_EXPORT_WITH_DES40_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_RSA_EXPORT_WITH_DES40_CBC_SHA;
 
 /// @brief Field TLS_DH_RSA_WITH_DES_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_RSA_WITH_DES_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_RSA_WITH_DES_CBC_SHA;
 
 /// @brief Field TLS_DH_RSA_WITH_3DES_EDE_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_RSA_WITH_3DES_EDE_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_RSA_WITH_3DES_EDE_CBC_SHA;
 
 /// @brief Field TLS_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA;
 
 /// @brief Field TLS_DHE_DSS_WITH_DES_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_DSS_WITH_DES_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_DSS_WITH_DES_CBC_SHA;
 
 /// @brief Field TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA;
 
 /// @brief Field TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA;
 
 /// @brief Field TLS_DHE_RSA_WITH_DES_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_DES_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_DES_CBC_SHA;
 
 /// @brief Field TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA;
 
 /// @brief Field TLS_DH_anon_EXPORT_WITH_RC4_40_MD5 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_anon_EXPORT_WITH_RC4_40_MD5;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_anon_EXPORT_WITH_RC4_40_MD5;
 
 /// @brief Field TLS_DH_anon_WITH_RC4_128_MD5 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_anon_WITH_RC4_128_MD5;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_anon_WITH_RC4_128_MD5;
 
 /// @brief Field TLS_DH_anon_EXPORT_WITH_DES40_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_anon_EXPORT_WITH_DES40_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_anon_EXPORT_WITH_DES40_CBC_SHA;
 
 /// @brief Field TLS_DH_anon_WITH_DES_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_anon_WITH_DES_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_anon_WITH_DES_CBC_SHA;
 
 /// @brief Field TLS_DH_anon_WITH_3DES_EDE_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_anon_WITH_3DES_EDE_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_anon_WITH_3DES_EDE_CBC_SHA;
 
 /// @brief Field TLS_RSA_WITH_AES_128_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_AES_128_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_AES_128_CBC_SHA;
 
 /// @brief Field TLS_DH_DSS_WITH_AES_128_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_DSS_WITH_AES_128_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_DSS_WITH_AES_128_CBC_SHA;
 
 /// @brief Field TLS_DH_RSA_WITH_AES_128_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_RSA_WITH_AES_128_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_RSA_WITH_AES_128_CBC_SHA;
 
 /// @brief Field TLS_DHE_DSS_WITH_AES_128_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_DSS_WITH_AES_128_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_DSS_WITH_AES_128_CBC_SHA;
 
 /// @brief Field TLS_DHE_RSA_WITH_AES_128_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_AES_128_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_AES_128_CBC_SHA;
 
 /// @brief Field TLS_DH_anon_WITH_AES_128_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_anon_WITH_AES_128_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_anon_WITH_AES_128_CBC_SHA;
 
 /// @brief Field TLS_RSA_WITH_AES_256_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_AES_256_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_AES_256_CBC_SHA;
 
 /// @brief Field TLS_DH_DSS_WITH_AES_256_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_DSS_WITH_AES_256_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_DSS_WITH_AES_256_CBC_SHA;
 
 /// @brief Field TLS_DH_RSA_WITH_AES_256_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_RSA_WITH_AES_256_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_RSA_WITH_AES_256_CBC_SHA;
 
 /// @brief Field TLS_DHE_DSS_WITH_AES_256_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_DSS_WITH_AES_256_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_DSS_WITH_AES_256_CBC_SHA;
 
 /// @brief Field TLS_DHE_RSA_WITH_AES_256_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_AES_256_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_AES_256_CBC_SHA;
 
 /// @brief Field TLS_DH_anon_WITH_AES_256_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_anon_WITH_AES_256_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_anon_WITH_AES_256_CBC_SHA;
 
 /// @brief Field TLS_RSA_WITH_CAMELLIA_128_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_CAMELLIA_128_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_CAMELLIA_128_CBC_SHA;
 
 /// @brief Field TLS_DH_DSS_WITH_CAMELLIA_128_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_DSS_WITH_CAMELLIA_128_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_DSS_WITH_CAMELLIA_128_CBC_SHA;
 
 /// @brief Field TLS_DH_RSA_WITH_CAMELLIA_128_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_RSA_WITH_CAMELLIA_128_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_RSA_WITH_CAMELLIA_128_CBC_SHA;
 
 /// @brief Field TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA;
 
 /// @brief Field TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA;
 
 /// @brief Field TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA;
 
 /// @brief Field TLS_RSA_WITH_CAMELLIA_256_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_CAMELLIA_256_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_CAMELLIA_256_CBC_SHA;
 
 /// @brief Field TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA;
 
 /// @brief Field TLS_DH_RSA_WITH_CAMELLIA_256_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_RSA_WITH_CAMELLIA_256_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_RSA_WITH_CAMELLIA_256_CBC_SHA;
 
 /// @brief Field TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA;
 
 /// @brief Field TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA;
 
 /// @brief Field TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA;
 
 /// @brief Field TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256;
 
 /// @brief Field TLS_DH_DSS_WITH_CAMELLIA_128_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_DSS_WITH_CAMELLIA_128_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_DSS_WITH_CAMELLIA_128_CBC_SHA256;
 
 /// @brief Field TLS_DH_RSA_WITH_CAMELLIA_128_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_RSA_WITH_CAMELLIA_128_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_RSA_WITH_CAMELLIA_128_CBC_SHA256;
 
 /// @brief Field TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA256;
 
 /// @brief Field TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256;
 
 /// @brief Field TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA256;
 
 /// @brief Field TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256;
 
 /// @brief Field TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA256;
 
 /// @brief Field TLS_DH_RSA_WITH_CAMELLIA_256_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_RSA_WITH_CAMELLIA_256_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_RSA_WITH_CAMELLIA_256_CBC_SHA256;
 
 /// @brief Field TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA256;
 
 /// @brief Field TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256;
 
 /// @brief Field TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA256;
 
 /// @brief Field TLS_RSA_WITH_SEED_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_SEED_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_SEED_CBC_SHA;
 
 /// @brief Field TLS_DH_DSS_WITH_SEED_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_DSS_WITH_SEED_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_DSS_WITH_SEED_CBC_SHA;
 
 /// @brief Field TLS_DH_RSA_WITH_SEED_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_RSA_WITH_SEED_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_RSA_WITH_SEED_CBC_SHA;
 
 /// @brief Field TLS_DHE_DSS_WITH_SEED_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_DSS_WITH_SEED_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_DSS_WITH_SEED_CBC_SHA;
 
 /// @brief Field TLS_DHE_RSA_WITH_SEED_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_SEED_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_SEED_CBC_SHA;
 
 /// @brief Field TLS_DH_anon_WITH_SEED_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_anon_WITH_SEED_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_anon_WITH_SEED_CBC_SHA;
 
 /// @brief Field TLS_PSK_WITH_RC4_128_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_RC4_128_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_RC4_128_SHA;
 
 /// @brief Field TLS_PSK_WITH_3DES_EDE_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_3DES_EDE_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_3DES_EDE_CBC_SHA;
 
 /// @brief Field TLS_PSK_WITH_AES_128_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_AES_128_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_AES_128_CBC_SHA;
 
 /// @brief Field TLS_PSK_WITH_AES_256_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_AES_256_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_AES_256_CBC_SHA;
 
 /// @brief Field TLS_DHE_PSK_WITH_RC4_128_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_RC4_128_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_RC4_128_SHA;
 
 /// @brief Field TLS_DHE_PSK_WITH_3DES_EDE_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_3DES_EDE_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_3DES_EDE_CBC_SHA;
 
 /// @brief Field TLS_DHE_PSK_WITH_AES_128_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_AES_128_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_AES_128_CBC_SHA;
 
 /// @brief Field TLS_DHE_PSK_WITH_AES_256_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_AES_256_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_AES_256_CBC_SHA;
 
 /// @brief Field TLS_RSA_PSK_WITH_RC4_128_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_PSK_WITH_RC4_128_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_PSK_WITH_RC4_128_SHA;
 
 /// @brief Field TLS_RSA_PSK_WITH_3DES_EDE_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_PSK_WITH_3DES_EDE_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_PSK_WITH_3DES_EDE_CBC_SHA;
 
 /// @brief Field TLS_RSA_PSK_WITH_AES_128_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_PSK_WITH_AES_128_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_PSK_WITH_AES_128_CBC_SHA;
 
 /// @brief Field TLS_RSA_PSK_WITH_AES_256_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_PSK_WITH_AES_256_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_PSK_WITH_AES_256_CBC_SHA;
 
 /// @brief Field TLS_ECDH_ECDSA_WITH_NULL_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_ECDSA_WITH_NULL_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_ECDSA_WITH_NULL_SHA;
 
 /// @brief Field TLS_ECDH_ECDSA_WITH_RC4_128_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_ECDSA_WITH_RC4_128_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_ECDSA_WITH_RC4_128_SHA;
 
 /// @brief Field TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA;
 
 /// @brief Field TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA;
 
 /// @brief Field TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA;
 
 /// @brief Field TLS_ECDHE_ECDSA_WITH_NULL_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_ECDSA_WITH_NULL_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_ECDSA_WITH_NULL_SHA;
 
 /// @brief Field TLS_ECDHE_ECDSA_WITH_RC4_128_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_ECDSA_WITH_RC4_128_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_ECDSA_WITH_RC4_128_SHA;
 
 /// @brief Field TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA;
 
 /// @brief Field TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA;
 
 /// @brief Field TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA;
 
 /// @brief Field TLS_ECDH_RSA_WITH_NULL_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_RSA_WITH_NULL_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_RSA_WITH_NULL_SHA;
 
 /// @brief Field TLS_ECDH_RSA_WITH_RC4_128_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_RSA_WITH_RC4_128_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_RSA_WITH_RC4_128_SHA;
 
 /// @brief Field TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA;
 
 /// @brief Field TLS_ECDH_RSA_WITH_AES_128_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_RSA_WITH_AES_128_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_RSA_WITH_AES_128_CBC_SHA;
 
 /// @brief Field TLS_ECDH_RSA_WITH_AES_256_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_RSA_WITH_AES_256_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_RSA_WITH_AES_256_CBC_SHA;
 
 /// @brief Field TLS_ECDHE_RSA_WITH_NULL_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_RSA_WITH_NULL_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_RSA_WITH_NULL_SHA;
 
 /// @brief Field TLS_ECDHE_RSA_WITH_RC4_128_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_RSA_WITH_RC4_128_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_RSA_WITH_RC4_128_SHA;
 
 /// @brief Field TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA;
 
 /// @brief Field TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA;
 
 /// @brief Field TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA;
 
 /// @brief Field TLS_ECDH_anon_WITH_NULL_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_anon_WITH_NULL_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_anon_WITH_NULL_SHA;
 
 /// @brief Field TLS_ECDH_anon_WITH_RC4_128_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_anon_WITH_RC4_128_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_anon_WITH_RC4_128_SHA;
 
 /// @brief Field TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA;
 
 /// @brief Field TLS_ECDH_anon_WITH_AES_128_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_anon_WITH_AES_128_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_anon_WITH_AES_128_CBC_SHA;
 
 /// @brief Field TLS_ECDH_anon_WITH_AES_256_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_anon_WITH_AES_256_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_anon_WITH_AES_256_CBC_SHA;
 
 /// @brief Field TLS_PSK_WITH_NULL_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_NULL_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_NULL_SHA;
 
 /// @brief Field TLS_DHE_PSK_WITH_NULL_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_NULL_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_NULL_SHA;
 
 /// @brief Field TLS_RSA_PSK_WITH_NULL_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_PSK_WITH_NULL_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_PSK_WITH_NULL_SHA;
 
 /// @brief Field TLS_SRP_SHA_WITH_3DES_EDE_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_SRP_SHA_WITH_3DES_EDE_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_SRP_SHA_WITH_3DES_EDE_CBC_SHA;
 
 /// @brief Field TLS_SRP_SHA_RSA_WITH_3DES_EDE_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_SRP_SHA_RSA_WITH_3DES_EDE_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_SRP_SHA_RSA_WITH_3DES_EDE_CBC_SHA;
 
 /// @brief Field TLS_SRP_SHA_DSS_WITH_3DES_EDE_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_SRP_SHA_DSS_WITH_3DES_EDE_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_SRP_SHA_DSS_WITH_3DES_EDE_CBC_SHA;
 
 /// @brief Field TLS_SRP_SHA_WITH_AES_128_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_SRP_SHA_WITH_AES_128_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_SRP_SHA_WITH_AES_128_CBC_SHA;
 
 /// @brief Field TLS_SRP_SHA_RSA_WITH_AES_128_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_SRP_SHA_RSA_WITH_AES_128_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_SRP_SHA_RSA_WITH_AES_128_CBC_SHA;
 
 /// @brief Field TLS_SRP_SHA_DSS_WITH_AES_128_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_SRP_SHA_DSS_WITH_AES_128_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_SRP_SHA_DSS_WITH_AES_128_CBC_SHA;
 
 /// @brief Field TLS_SRP_SHA_WITH_AES_256_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_SRP_SHA_WITH_AES_256_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_SRP_SHA_WITH_AES_256_CBC_SHA;
 
 /// @brief Field TLS_SRP_SHA_RSA_WITH_AES_256_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_SRP_SHA_RSA_WITH_AES_256_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_SRP_SHA_RSA_WITH_AES_256_CBC_SHA;
 
 /// @brief Field TLS_SRP_SHA_DSS_WITH_AES_256_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_SRP_SHA_DSS_WITH_AES_256_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_SRP_SHA_DSS_WITH_AES_256_CBC_SHA;
 
 /// @brief Field TLS_RSA_WITH_NULL_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_NULL_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_NULL_SHA256;
 
 /// @brief Field TLS_RSA_WITH_AES_128_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_AES_128_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_AES_128_CBC_SHA256;
 
 /// @brief Field TLS_RSA_WITH_AES_256_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_AES_256_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_AES_256_CBC_SHA256;
 
 /// @brief Field TLS_DH_DSS_WITH_AES_128_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_DSS_WITH_AES_128_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_DSS_WITH_AES_128_CBC_SHA256;
 
 /// @brief Field TLS_DH_RSA_WITH_AES_128_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_RSA_WITH_AES_128_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_RSA_WITH_AES_128_CBC_SHA256;
 
 /// @brief Field TLS_DHE_DSS_WITH_AES_128_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_DSS_WITH_AES_128_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_DSS_WITH_AES_128_CBC_SHA256;
 
 /// @brief Field TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_AES_128_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_AES_128_CBC_SHA256;
 
 /// @brief Field TLS_DH_DSS_WITH_AES_256_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_DSS_WITH_AES_256_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_DSS_WITH_AES_256_CBC_SHA256;
 
 /// @brief Field TLS_DH_RSA_WITH_AES_256_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_RSA_WITH_AES_256_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_RSA_WITH_AES_256_CBC_SHA256;
 
 /// @brief Field TLS_DHE_DSS_WITH_AES_256_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_DSS_WITH_AES_256_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_DSS_WITH_AES_256_CBC_SHA256;
 
 /// @brief Field TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_AES_256_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_AES_256_CBC_SHA256;
 
 /// @brief Field TLS_DH_anon_WITH_AES_128_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_anon_WITH_AES_128_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_anon_WITH_AES_128_CBC_SHA256;
 
 /// @brief Field TLS_DH_anon_WITH_AES_256_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_anon_WITH_AES_256_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_anon_WITH_AES_256_CBC_SHA256;
 
 /// @brief Field TLS_RSA_WITH_AES_128_GCM_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_AES_128_GCM_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_AES_128_GCM_SHA256;
 
 /// @brief Field TLS_RSA_WITH_AES_256_GCM_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_AES_256_GCM_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_AES_256_GCM_SHA384;
 
 /// @brief Field TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_AES_128_GCM_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_AES_128_GCM_SHA256;
 
 /// @brief Field TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_AES_256_GCM_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_AES_256_GCM_SHA384;
 
 /// @brief Field TLS_DH_RSA_WITH_AES_128_GCM_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_RSA_WITH_AES_128_GCM_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_RSA_WITH_AES_128_GCM_SHA256;
 
 /// @brief Field TLS_DH_RSA_WITH_AES_256_GCM_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_RSA_WITH_AES_256_GCM_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_RSA_WITH_AES_256_GCM_SHA384;
 
 /// @brief Field TLS_DHE_DSS_WITH_AES_128_GCM_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_DSS_WITH_AES_128_GCM_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_DSS_WITH_AES_128_GCM_SHA256;
 
 /// @brief Field TLS_DHE_DSS_WITH_AES_256_GCM_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_DSS_WITH_AES_256_GCM_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_DSS_WITH_AES_256_GCM_SHA384;
 
 /// @brief Field TLS_DH_DSS_WITH_AES_128_GCM_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_DSS_WITH_AES_128_GCM_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_DSS_WITH_AES_128_GCM_SHA256;
 
 /// @brief Field TLS_DH_DSS_WITH_AES_256_GCM_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_DSS_WITH_AES_256_GCM_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_DSS_WITH_AES_256_GCM_SHA384;
 
 /// @brief Field TLS_DH_anon_WITH_AES_128_GCM_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_anon_WITH_AES_128_GCM_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_anon_WITH_AES_128_GCM_SHA256;
 
 /// @brief Field TLS_DH_anon_WITH_AES_256_GCM_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_anon_WITH_AES_256_GCM_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_anon_WITH_AES_256_GCM_SHA384;
 
 /// @brief Field TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256;
 
 /// @brief Field TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384;
 
 /// @brief Field TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256;
 
 /// @brief Field TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384;
 
 /// @brief Field TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256;
 
 /// @brief Field TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384;
 
 /// @brief Field TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256;
 
 /// @brief Field TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384;
 
 /// @brief Field TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256;
 
 /// @brief Field TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384;
 
 /// @brief Field TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256;
 
 /// @brief Field TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384;
 
 /// @brief Field TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256;
 
 /// @brief Field TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384;
 
 /// @brief Field TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256;
 
 /// @brief Field TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384;
 
 /// @brief Field TLS_PSK_WITH_AES_128_GCM_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_AES_128_GCM_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_AES_128_GCM_SHA256;
 
 /// @brief Field TLS_PSK_WITH_AES_256_GCM_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_AES_256_GCM_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_AES_256_GCM_SHA384;
 
 /// @brief Field TLS_DHE_PSK_WITH_AES_128_GCM_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_AES_128_GCM_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_AES_128_GCM_SHA256;
 
 /// @brief Field TLS_DHE_PSK_WITH_AES_256_GCM_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_AES_256_GCM_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_AES_256_GCM_SHA384;
 
 /// @brief Field TLS_RSA_PSK_WITH_AES_128_GCM_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_PSK_WITH_AES_128_GCM_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_PSK_WITH_AES_128_GCM_SHA256;
 
 /// @brief Field TLS_RSA_PSK_WITH_AES_256_GCM_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_PSK_WITH_AES_256_GCM_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_PSK_WITH_AES_256_GCM_SHA384;
 
 /// @brief Field TLS_PSK_WITH_AES_128_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_AES_128_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_AES_128_CBC_SHA256;
 
 /// @brief Field TLS_PSK_WITH_AES_256_CBC_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_AES_256_CBC_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_AES_256_CBC_SHA384;
 
 /// @brief Field TLS_PSK_WITH_NULL_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_NULL_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_NULL_SHA256;
 
 /// @brief Field TLS_PSK_WITH_NULL_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_NULL_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_NULL_SHA384;
 
 /// @brief Field TLS_DHE_PSK_WITH_AES_128_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_AES_128_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_AES_128_CBC_SHA256;
 
 /// @brief Field TLS_DHE_PSK_WITH_AES_256_CBC_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_AES_256_CBC_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_AES_256_CBC_SHA384;
 
 /// @brief Field TLS_DHE_PSK_WITH_NULL_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_NULL_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_NULL_SHA256;
 
 /// @brief Field TLS_DHE_PSK_WITH_NULL_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_NULL_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_NULL_SHA384;
 
 /// @brief Field TLS_RSA_PSK_WITH_AES_128_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_PSK_WITH_AES_128_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_PSK_WITH_AES_128_CBC_SHA256;
 
 /// @brief Field TLS_RSA_PSK_WITH_AES_256_CBC_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_PSK_WITH_AES_256_CBC_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_PSK_WITH_AES_256_CBC_SHA384;
 
 /// @brief Field TLS_RSA_PSK_WITH_NULL_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_PSK_WITH_NULL_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_PSK_WITH_NULL_SHA256;
 
 /// @brief Field TLS_RSA_PSK_WITH_NULL_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_PSK_WITH_NULL_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_PSK_WITH_NULL_SHA384;
 
 /// @brief Field TLS_ECDHE_PSK_WITH_RC4_128_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_PSK_WITH_RC4_128_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_PSK_WITH_RC4_128_SHA;
 
 /// @brief Field TLS_ECDHE_PSK_WITH_3DES_EDE_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_PSK_WITH_3DES_EDE_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_PSK_WITH_3DES_EDE_CBC_SHA;
 
 /// @brief Field TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA;
 
 /// @brief Field TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA;
 
 /// @brief Field TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA256;
 
 /// @brief Field TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA384;
 
 /// @brief Field TLS_ECDHE_PSK_WITH_NULL_SHA offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_PSK_WITH_NULL_SHA;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_PSK_WITH_NULL_SHA;
 
 /// @brief Field TLS_ECDHE_PSK_WITH_NULL_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_PSK_WITH_NULL_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_PSK_WITH_NULL_SHA256;
 
 /// @brief Field TLS_ECDHE_PSK_WITH_NULL_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_PSK_WITH_NULL_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_PSK_WITH_NULL_SHA384;
 
 /// @brief Field TLS_EMPTY_RENEGOTIATION_INFO_SCSV offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_EMPTY_RENEGOTIATION_INFO_SCSV;
+static Mono::Security::Interface::CipherSuiteCode const TLS_EMPTY_RENEGOTIATION_INFO_SCSV;
 
 /// @brief Field TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_CBC_SHA256;
 
 /// @brief Field TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_CBC_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_CBC_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_CBC_SHA384;
 
 /// @brief Field TLS_ECDH_ECDSA_WITH_CAMELLIA_128_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_ECDSA_WITH_CAMELLIA_128_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_ECDSA_WITH_CAMELLIA_128_CBC_SHA256;
 
 /// @brief Field TLS_ECDH_ECDSA_WITH_CAMELLIA_256_CBC_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_ECDSA_WITH_CAMELLIA_256_CBC_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_ECDSA_WITH_CAMELLIA_256_CBC_SHA384;
 
 /// @brief Field TLS_ECDHE_RSA_WITH_CAMELLIA_128_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_RSA_WITH_CAMELLIA_128_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_RSA_WITH_CAMELLIA_128_CBC_SHA256;
 
 /// @brief Field TLS_ECDHE_RSA_WITH_CAMELLIA_256_CBC_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_RSA_WITH_CAMELLIA_256_CBC_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_RSA_WITH_CAMELLIA_256_CBC_SHA384;
 
 /// @brief Field TLS_ECDH_RSA_WITH_CAMELLIA_128_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_RSA_WITH_CAMELLIA_128_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_RSA_WITH_CAMELLIA_128_CBC_SHA256;
 
 /// @brief Field TLS_ECDH_RSA_WITH_CAMELLIA_256_CBC_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_RSA_WITH_CAMELLIA_256_CBC_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_RSA_WITH_CAMELLIA_256_CBC_SHA384;
 
 /// @brief Field TLS_RSA_WITH_CAMELLIA_128_GCM_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_CAMELLIA_128_GCM_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_CAMELLIA_128_GCM_SHA256;
 
 /// @brief Field TLS_RSA_WITH_CAMELLIA_256_GCM_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_CAMELLIA_256_GCM_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_CAMELLIA_256_GCM_SHA384;
 
 /// @brief Field TLS_DHE_RSA_WITH_CAMELLIA_128_GCM_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_CAMELLIA_128_GCM_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_CAMELLIA_128_GCM_SHA256;
 
 /// @brief Field TLS_DHE_RSA_WITH_CAMELLIA_256_GCM_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_CAMELLIA_256_GCM_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_CAMELLIA_256_GCM_SHA384;
 
 /// @brief Field TLS_DH_RSA_WITH_CAMELLIA_128_GCM_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_RSA_WITH_CAMELLIA_128_GCM_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_RSA_WITH_CAMELLIA_128_GCM_SHA256;
 
 /// @brief Field TLS_DH_RSA_WITH_CAMELLIA_256_GCM_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_RSA_WITH_CAMELLIA_256_GCM_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_RSA_WITH_CAMELLIA_256_GCM_SHA384;
 
 /// @brief Field TLS_DHE_DSS_WITH_CAMELLIA_128_GCM_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_DSS_WITH_CAMELLIA_128_GCM_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_DSS_WITH_CAMELLIA_128_GCM_SHA256;
 
 /// @brief Field TLS_DHE_DSS_WITH_CAMELLIA_256_GCM_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_DSS_WITH_CAMELLIA_256_GCM_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_DSS_WITH_CAMELLIA_256_GCM_SHA384;
 
 /// @brief Field TLS_DH_DSS_WITH_CAMELLIA_128_GCM_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_DSS_WITH_CAMELLIA_128_GCM_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_DSS_WITH_CAMELLIA_128_GCM_SHA256;
 
 /// @brief Field TLS_DH_DSS_WITH_CAMELLIA_256_GCM_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_DSS_WITH_CAMELLIA_256_GCM_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_DSS_WITH_CAMELLIA_256_GCM_SHA384;
 
 /// @brief Field TLS_DH_anon_WITH_CAMELLIA_128_GCM_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_anon_WITH_CAMELLIA_128_GCM_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_anon_WITH_CAMELLIA_128_GCM_SHA256;
 
 /// @brief Field TLS_DH_anon_WITH_CAMELLIA_256_GCM_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DH_anon_WITH_CAMELLIA_256_GCM_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DH_anon_WITH_CAMELLIA_256_GCM_SHA384;
 
 /// @brief Field TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_GCM_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_GCM_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_GCM_SHA256;
 
 /// @brief Field TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_GCM_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_GCM_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_GCM_SHA384;
 
 /// @brief Field TLS_ECDH_ECDSA_WITH_CAMELLIA_128_GCM_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_ECDSA_WITH_CAMELLIA_128_GCM_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_ECDSA_WITH_CAMELLIA_128_GCM_SHA256;
 
 /// @brief Field TLS_ECDH_ECDSA_WITH_CAMELLIA_256_GCM_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_ECDSA_WITH_CAMELLIA_256_GCM_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_ECDSA_WITH_CAMELLIA_256_GCM_SHA384;
 
 /// @brief Field TLS_ECDHE_RSA_WITH_CAMELLIA_128_GCM_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_RSA_WITH_CAMELLIA_128_GCM_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_RSA_WITH_CAMELLIA_128_GCM_SHA256;
 
 /// @brief Field TLS_ECDHE_RSA_WITH_CAMELLIA_256_GCM_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_RSA_WITH_CAMELLIA_256_GCM_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_RSA_WITH_CAMELLIA_256_GCM_SHA384;
 
 /// @brief Field TLS_ECDH_RSA_WITH_CAMELLIA_128_GCM_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_RSA_WITH_CAMELLIA_128_GCM_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_RSA_WITH_CAMELLIA_128_GCM_SHA256;
 
 /// @brief Field TLS_ECDH_RSA_WITH_CAMELLIA_256_GCM_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_RSA_WITH_CAMELLIA_256_GCM_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDH_RSA_WITH_CAMELLIA_256_GCM_SHA384;
 
 /// @brief Field TLS_PSK_WITH_CAMELLIA_128_GCM_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_CAMELLIA_128_GCM_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_CAMELLIA_128_GCM_SHA256;
 
 /// @brief Field TLS_PSK_WITH_CAMELLIA_256_GCM_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_CAMELLIA_256_GCM_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_CAMELLIA_256_GCM_SHA384;
 
 /// @brief Field TLS_DHE_PSK_WITH_CAMELLIA_128_GCM_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_CAMELLIA_128_GCM_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_CAMELLIA_128_GCM_SHA256;
 
 /// @brief Field TLS_DHE_PSK_WITH_CAMELLIA_256_GCM_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_CAMELLIA_256_GCM_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_CAMELLIA_256_GCM_SHA384;
 
 /// @brief Field TLS_RSA_PSK_WITH_CAMELLIA_128_GCM_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_PSK_WITH_CAMELLIA_128_GCM_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_PSK_WITH_CAMELLIA_128_GCM_SHA256;
 
 /// @brief Field TLS_RSA_PSK_WITH_CAMELLIA_256_GCM_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_PSK_WITH_CAMELLIA_256_GCM_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_PSK_WITH_CAMELLIA_256_GCM_SHA384;
 
 /// @brief Field TLS_PSK_WITH_CAMELLIA_128_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_CAMELLIA_128_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_CAMELLIA_128_CBC_SHA256;
 
 /// @brief Field TLS_PSK_WITH_CAMELLIA_256_CBC_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_CAMELLIA_256_CBC_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_CAMELLIA_256_CBC_SHA384;
 
 /// @brief Field TLS_DHE_PSK_WITH_CAMELLIA_128_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_CAMELLIA_128_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_CAMELLIA_128_CBC_SHA256;
 
 /// @brief Field TLS_DHE_PSK_WITH_CAMELLIA_256_CBC_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_CAMELLIA_256_CBC_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_CAMELLIA_256_CBC_SHA384;
 
 /// @brief Field TLS_RSA_PSK_WITH_CAMELLIA_128_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_PSK_WITH_CAMELLIA_128_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_PSK_WITH_CAMELLIA_128_CBC_SHA256;
 
 /// @brief Field TLS_RSA_PSK_WITH_CAMELLIA_256_CBC_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_PSK_WITH_CAMELLIA_256_CBC_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_PSK_WITH_CAMELLIA_256_CBC_SHA384;
 
 /// @brief Field TLS_ECDHE_PSK_WITH_CAMELLIA_128_CBC_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_PSK_WITH_CAMELLIA_128_CBC_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_PSK_WITH_CAMELLIA_128_CBC_SHA256;
 
 /// @brief Field TLS_ECDHE_PSK_WITH_CAMELLIA_256_CBC_SHA384 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_PSK_WITH_CAMELLIA_256_CBC_SHA384;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_PSK_WITH_CAMELLIA_256_CBC_SHA384;
 
 /// @brief Field TLS_RSA_WITH_AES_128_CCM offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_AES_128_CCM;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_AES_128_CCM;
 
 /// @brief Field TLS_RSA_WITH_AES_256_CCM offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_AES_256_CCM;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_AES_256_CCM;
 
 /// @brief Field TLS_DHE_RSA_WITH_AES_128_CCM offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_AES_128_CCM;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_AES_128_CCM;
 
 /// @brief Field TLS_DHE_RSA_WITH_AES_256_CCM offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_AES_256_CCM;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_AES_256_CCM;
 
 /// @brief Field TLS_RSA_WITH_AES_128_CCM_8 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_AES_128_CCM_8;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_AES_128_CCM_8;
 
 /// @brief Field TLS_RSA_WITH_AES_256_CCM_8 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_AES_256_CCM_8;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_AES_256_CCM_8;
 
 /// @brief Field TLS_DHE_RSA_WITH_AES_128_CCM_8 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_AES_128_CCM_8;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_AES_128_CCM_8;
 
 /// @brief Field TLS_DHE_RSA_WITH_AES_256_CCM_8 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_AES_256_CCM_8;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_AES_256_CCM_8;
 
 /// @brief Field TLS_PSK_WITH_AES_128_CCM offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_AES_128_CCM;
+static Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_AES_128_CCM;
 
 /// @brief Field TLS_PSK_WITH_AES_256_CCM offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_AES_256_CCM;
+static Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_AES_256_CCM;
 
 /// @brief Field TLS_DHE_PSK_WITH_AES_128_CCM offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_AES_128_CCM;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_AES_128_CCM;
 
 /// @brief Field TLS_DHE_PSK_WITH_AES_256_CCM offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_AES_256_CCM;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_AES_256_CCM;
 
 /// @brief Field TLS_PSK_WITH_AES_128_CCM_8 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_AES_128_CCM_8;
+static Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_AES_128_CCM_8;
 
 /// @brief Field TLS_PSK_WITH_AES_256_CCM_8 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_AES_256_CCM_8;
+static Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_AES_256_CCM_8;
 
 /// @brief Field TLS_PSK_DHE_WITH_AES_128_CCM_8 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_PSK_DHE_WITH_AES_128_CCM_8;
+static Mono::Security::Interface::CipherSuiteCode const TLS_PSK_DHE_WITH_AES_128_CCM_8;
 
 /// @brief Field TLS_PSK_DHE_WITH_AES_256_CCM_8 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_PSK_DHE_WITH_AES_256_CCM_8;
+static Mono::Security::Interface::CipherSuiteCode const TLS_PSK_DHE_WITH_AES_256_CCM_8;
 
 /// @brief Field TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256;
 
 /// @brief Field TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256;
 
 /// @brief Field TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256;
 
 /// @brief Field TLS_RSA_WITH_ESTREAM_SALSA20_SHA1 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_ESTREAM_SALSA20_SHA1;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_ESTREAM_SALSA20_SHA1;
 
 /// @brief Field TLS_RSA_WITH_SALSA20_SHA1 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_SALSA20_SHA1;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_WITH_SALSA20_SHA1;
 
 /// @brief Field TLS_ECDHE_RSA_WITH_ESTREAM_SALSA20_SHA1 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_RSA_WITH_ESTREAM_SALSA20_SHA1;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_RSA_WITH_ESTREAM_SALSA20_SHA1;
 
 /// @brief Field TLS_ECDHE_RSA_WITH_SALSA20_SHA1 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_RSA_WITH_SALSA20_SHA1;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_RSA_WITH_SALSA20_SHA1;
 
 /// @brief Field TLS_ECDHE_ECDSA_WITH_ESTREAM_SALSA20_SHA1 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_ECDSA_WITH_ESTREAM_SALSA20_SHA1;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_ECDSA_WITH_ESTREAM_SALSA20_SHA1;
 
 /// @brief Field TLS_ECDHE_ECDSA_WITH_SALSA20_SHA1 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_ECDSA_WITH_SALSA20_SHA1;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_ECDSA_WITH_SALSA20_SHA1;
 
 /// @brief Field TLS_PSK_WITH_ESTREAM_SALSA20_SHA1 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_ESTREAM_SALSA20_SHA1;
+static Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_ESTREAM_SALSA20_SHA1;
 
 /// @brief Field TLS_PSK_WITH_SALSA20_SHA1 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_SALSA20_SHA1;
+static Mono::Security::Interface::CipherSuiteCode const TLS_PSK_WITH_SALSA20_SHA1;
 
 /// @brief Field TLS_ECDHE_PSK_WITH_ESTREAM_SALSA20_SHA1 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_PSK_WITH_ESTREAM_SALSA20_SHA1;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_PSK_WITH_ESTREAM_SALSA20_SHA1;
 
 /// @brief Field TLS_ECDHE_PSK_WITH_SALSA20_SHA1 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_PSK_WITH_SALSA20_SHA1;
+static Mono::Security::Interface::CipherSuiteCode const TLS_ECDHE_PSK_WITH_SALSA20_SHA1;
 
 /// @brief Field TLS_RSA_PSK_WITH_ESTREAM_SALSA20_SHA1 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_PSK_WITH_ESTREAM_SALSA20_SHA1;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_PSK_WITH_ESTREAM_SALSA20_SHA1;
 
 /// @brief Field TLS_RSA_PSK_WITH_SALSA20_SHA1 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_RSA_PSK_WITH_SALSA20_SHA1;
+static Mono::Security::Interface::CipherSuiteCode const TLS_RSA_PSK_WITH_SALSA20_SHA1;
 
 /// @brief Field TLS_DHE_PSK_WITH_ESTREAM_SALSA20_SHA1 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_ESTREAM_SALSA20_SHA1;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_ESTREAM_SALSA20_SHA1;
 
 /// @brief Field TLS_DHE_PSK_WITH_SALSA20_SHA1 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_SALSA20_SHA1;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_PSK_WITH_SALSA20_SHA1;
 
 /// @brief Field TLS_DHE_RSA_WITH_ESTREAM_SALSA20_SHA1 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_ESTREAM_SALSA20_SHA1;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_ESTREAM_SALSA20_SHA1;
 
 /// @brief Field TLS_DHE_RSA_WITH_SALSA20_SHA1 offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_SALSA20_SHA1;
+static Mono::Security::Interface::CipherSuiteCode const TLS_DHE_RSA_WITH_SALSA20_SHA1;
 
 /// @brief Field TLS_FALLBACK_SCSV offset 0
-static ::Mono::Security::Interface::CipherSuiteCode const TLS_FALLBACK_SCSV;
+static Mono::Security::Interface::CipherSuiteCode const TLS_FALLBACK_SCSV;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Mono::Security::Interface
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Interface::CipherSuiteCode, "Mono.Security.Interface", "CipherSuiteCode");
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::CipherSuiteCode, "Mono.Security.Interface", "CipherSuiteCode");

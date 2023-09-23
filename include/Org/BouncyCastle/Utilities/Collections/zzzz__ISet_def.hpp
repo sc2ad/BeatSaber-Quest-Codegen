@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Collections {
 class ICollection;
 }
@@ -21,11 +20,11 @@ namespace Org::BouncyCastle::Utilities::Collections {
 class CORDL_TYPE ISet : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::ICollection
-constexpr operator  ::System::Collections::ICollection() const noexcept;
+/// @brief Convert operator to System::Collections::ICollection
+constexpr operator  System::Collections::ICollection() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
 ~ISet() = default;
 
@@ -49,7 +48,7 @@ constexpr explicit ISet(void* ptr) noexcept : ::cordl_internals::InterfaceW(ptr)
  void Add(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method AddAll addr 0x0 size 0xffffffffffffffff virtual true final false
- void AddAll(::System::Collections::IEnumerable e) ;
+ void AddAll(System::Collections::IEnumerable e) ;
 
 /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual true final false
  void Clear() ;
@@ -70,12 +69,11 @@ constexpr explicit ISet(void* ptr) noexcept : ::cordl_internals::InterfaceW(ptr)
  void Remove(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method RemoveAll addr 0x0 size 0xffffffffffffffff virtual true final false
- void RemoveAll(::System::Collections::IEnumerable e) ;
+ void RemoveAll(System::Collections::IEnumerable e) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities::Collections
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::Collections::ISet);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Collections::ISet, "Org.BouncyCastle.Utilities.Collections", "ISet");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Collections::ISet);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::ISet, "Org.BouncyCastle.Utilities.Collections", "ISet");

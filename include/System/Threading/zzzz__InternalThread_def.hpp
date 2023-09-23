@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::Threading {
 struct ThreadState;
 }
@@ -18,7 +17,7 @@ namespace System::Threading {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3347))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2746))
 // CS Name: System.Threading.InternalThread
-class CORDL_TYPE InternalThread : public ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject {
+class CORDL_TYPE InternalThread : public System::Runtime::ConstrainedExecution::CriticalFinalizerObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr InternalThread(InternalThread const& ) noexcept = default;
 constexpr InternalThread(InternalThread&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit InternalThread(void* ptr) noexcept : ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject(ptr) {
+constexpr explicit InternalThread(void* ptr) noexcept : System::Runtime::ConstrainedExecution::CriticalFinalizerObject(ptr) {
 }
 
 
@@ -90,11 +89,11 @@ constexpr void __set_name_length(int32_t value) ;
 
 constexpr int32_t __get_name_length() const;
 
- ::System::Threading::ThreadState __declspec(property(get=__get_state, put=__set_state))  state;
+ System::Threading::ThreadState __declspec(property(get=__get_state, put=__set_state))  state;
 
-constexpr void __set_state(::System::Threading::ThreadState value) ;
+constexpr void __set_state(System::Threading::ThreadState value) ;
 
-constexpr ::System::Threading::ThreadState __get_state() const;
+constexpr System::Threading::ThreadState __get_state() const;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=__get_abort_exc, put=__set_abort_exc))  abort_exc;
 
@@ -313,6 +312,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Threading
-} // end anonymous namespace
-NEED_NO_BOX(::System::Threading::InternalThread);
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::InternalThread, "System.Threading", "InternalThread");
+NEED_NO_BOX(System::Threading::InternalThread);
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::InternalThread, "System.Threading", "InternalThread");

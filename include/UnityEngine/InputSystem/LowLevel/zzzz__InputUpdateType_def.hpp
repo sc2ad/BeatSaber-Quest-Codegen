@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputUpdateType;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::InputSystem::LowLevel::InputUpdateType const None;
+static UnityEngine::InputSystem::LowLevel::InputUpdateType const None;
 
 /// @brief Field Dynamic offset 0
-static ::UnityEngine::InputSystem::LowLevel::InputUpdateType const Dynamic;
+static UnityEngine::InputSystem::LowLevel::InputUpdateType const Dynamic;
 
 /// @brief Field Fixed offset 0
-static ::UnityEngine::InputSystem::LowLevel::InputUpdateType const Fixed;
+static UnityEngine::InputSystem::LowLevel::InputUpdateType const Fixed;
 
 /// @brief Field BeforeRender offset 0
-static ::UnityEngine::InputSystem::LowLevel::InputUpdateType const BeforeRender;
+static UnityEngine::InputSystem::LowLevel::InputUpdateType const BeforeRender;
 
 /// @brief Field Editor offset 0
-static ::UnityEngine::InputSystem::LowLevel::InputUpdateType const Editor;
+static UnityEngine::InputSystem::LowLevel::InputUpdateType const Editor;
 
 /// @brief Field Manual offset 0
-static ::UnityEngine::InputSystem::LowLevel::InputUpdateType const Manual;
+static UnityEngine::InputSystem::LowLevel::InputUpdateType const Manual;
 
 /// @brief Field Default offset 0
-static ::UnityEngine::InputSystem::LowLevel::InputUpdateType const Default;
+static UnityEngine::InputSystem::LowLevel::InputUpdateType const Default;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::LowLevel
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::InputUpdateType, "UnityEngine.InputSystem.LowLevel", "InputUpdateType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::LowLevel::InputUpdateType, "UnityEngine.InputSystem.LowLevel", "InputUpdateType");

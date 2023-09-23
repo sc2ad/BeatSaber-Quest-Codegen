@@ -1,15 +1,14 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
+namespace System::Collections {
+class IEnumerable;
+}
 namespace System::Collections {
 class IDictionary;
 }
 namespace System::Collections {
 class ICollection;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
@@ -24,14 +23,14 @@ namespace Newtonsoft::Json::Utilities {
 class CORDL_TYPE IWrappedDictionary : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::IDictionary
-constexpr operator  ::System::Collections::IDictionary() const noexcept;
+/// @brief Convert operator to System::Collections::IDictionary
+constexpr operator  System::Collections::IDictionary() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::ICollection
-constexpr operator  ::System::Collections::ICollection() const noexcept;
+/// @brief Convert operator to System::Collections::ICollection
+constexpr operator  System::Collections::ICollection() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
 ~IWrappedDictionary() = default;
 
@@ -54,6 +53,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Utilities
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Utilities::IWrappedDictionary);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::IWrappedDictionary, "Newtonsoft.Json.Utilities", "IWrappedDictionary");
+NEED_NO_BOX(Newtonsoft::Json::Utilities::IWrappedDictionary);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::IWrappedDictionary, "Newtonsoft.Json.Utilities", "IWrappedDictionary");

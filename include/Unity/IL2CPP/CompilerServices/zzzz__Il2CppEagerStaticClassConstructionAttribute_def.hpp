@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 // Forward declare root types
 namespace Unity::IL2CPP::CompilerServices {
 class Il2CppEagerStaticClassConstructionAttribute;
@@ -12,7 +11,7 @@ namespace Unity::IL2CPP::CompilerServices {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9926))
 // CS Name: Unity.IL2CPP.CompilerServices.Il2CppEagerStaticClassConstructionAttribute
-class CORDL_TYPE Il2CppEagerStaticClassConstructionAttribute : public ::System::Attribute {
+class CORDL_TYPE Il2CppEagerStaticClassConstructionAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr Il2CppEagerStaticClassConstructionAttribute(Il2CppEagerStaticClassCons
 constexpr Il2CppEagerStaticClassConstructionAttribute(Il2CppEagerStaticClassConstructionAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Il2CppEagerStaticClassConstructionAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit Il2CppEagerStaticClassConstructionAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Unity::IL2CPP::CompilerServices
-} // end anonymous namespace
-NEED_NO_BOX(::Unity::IL2CPP::CompilerServices::Il2CppEagerStaticClassConstructionAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::IL2CPP::CompilerServices::Il2CppEagerStaticClassConstructionAttribute, "Unity.IL2CPP.CompilerServices", "Il2CppEagerStaticClassConstructionAttribute");
+NEED_NO_BOX(Unity::IL2CPP::CompilerServices::Il2CppEagerStaticClassConstructionAttribute);
+DEFINE_IL2CPP_ARG_TYPE(Unity::IL2CPP::CompilerServices::Il2CppEagerStaticClassConstructionAttribute, "Unity.IL2CPP.CompilerServices", "Il2CppEagerStaticClassConstructionAttribute");

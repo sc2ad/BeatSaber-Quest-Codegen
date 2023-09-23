@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System::Net::NetworkInformation {
 struct ifa_ifu;
 }
@@ -20,8 +19,8 @@ namespace System::Net::NetworkInformation {
 struct CORDL_TYPE ifaddrs : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "ifa_next", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "ifa_name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "ifa_flags", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "ifa_addr", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "ifa_netmask", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "ifa_ifu", ty: "::System::Net::NetworkInformation::ifa_ifu", modifiers: "", def_value: None }, CppParam { name: "ifa_data", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-constexpr ifaddrs(::cordl_internals::intptr_t ifa_next, ::StringW ifa_name, uint32_t ifa_flags, ::cordl_internals::intptr_t ifa_addr, ::cordl_internals::intptr_t ifa_netmask, ::System::Net::NetworkInformation::ifa_ifu ifa_ifu, ::cordl_internals::intptr_t ifa_data) noexcept;
+// Ctor Parameters [CppParam { name: "ifa_next", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "ifa_name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "ifa_flags", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "ifa_addr", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "ifa_netmask", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "ifa_ifu", ty: "System::Net::NetworkInformation::ifa_ifu", modifiers: "", def_value: None }, CppParam { name: "ifa_data", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
+constexpr ifaddrs(::cordl_internals::intptr_t ifa_next, ::StringW ifa_name, uint32_t ifa_flags, ::cordl_internals::intptr_t ifa_addr, ::cordl_internals::intptr_t ifa_netmask, System::Net::NetworkInformation::ifa_ifu ifa_ifu, ::cordl_internals::intptr_t ifa_data) noexcept;
 
 
                     constexpr ifaddrs(ifaddrs const&) = default;
@@ -84,11 +83,11 @@ constexpr void __set_ifa_netmask(::cordl_internals::intptr_t value) ;
 
 constexpr ::cordl_internals::intptr_t __get_ifa_netmask() const;
 
- ::System::Net::NetworkInformation::ifa_ifu __declspec(property(get=__get_ifa_ifu, put=__set_ifa_ifu))  ifa_ifu;
+ System::Net::NetworkInformation::ifa_ifu __declspec(property(get=__get_ifa_ifu, put=__set_ifa_ifu))  ifa_ifu;
 
-constexpr void __set_ifa_ifu(::System::Net::NetworkInformation::ifa_ifu value) ;
+constexpr void __set_ifa_ifu(System::Net::NetworkInformation::ifa_ifu value) ;
 
-constexpr ::System::Net::NetworkInformation::ifa_ifu __get_ifa_ifu() const;
+constexpr System::Net::NetworkInformation::ifa_ifu __get_ifa_ifu() const;
 
  ::cordl_internals::intptr_t __declspec(property(get=__get_ifa_data, put=__set_ifa_data))  ifa_data;
 
@@ -100,5 +99,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net::NetworkInformation
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::ifaddrs, "System.Net.NetworkInformation", "ifaddrs");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::ifaddrs, "System.Net.NetworkInformation", "ifaddrs");

@@ -2,12 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace Mono::Security::X509 {
-class X509Stores;
-}
 namespace Mono::Security::X509 {
 class X509CertificateCollection;
+}
+namespace Mono::Security::X509 {
+class X509Stores;
 }
 // Forward declare root types
 namespace Mono::Security::X509 {
@@ -67,17 +66,17 @@ static void __set__localMachinePath(::StringW value) ;
 
 static ::StringW __get__localMachinePath() ;
 
-static ::Mono::Security::X509::X509Stores __declspec(property(get=__get__userStore, put=__set__userStore))  _userStore;
+static Mono::Security::X509::X509Stores __declspec(property(get=__get__userStore, put=__set__userStore))  _userStore;
 
-static void __set__userStore(::Mono::Security::X509::X509Stores value) ;
+static void __set__userStore(Mono::Security::X509::X509Stores value) ;
 
-static ::Mono::Security::X509::X509Stores __get__userStore() ;
+static Mono::Security::X509::X509Stores __get__userStore() ;
 
-static ::Mono::Security::X509::X509Stores __declspec(property(get=__get__machineStore, put=__set__machineStore))  _machineStore;
+static Mono::Security::X509::X509Stores __declspec(property(get=__get__machineStore, put=__set__machineStore))  _machineStore;
 
-static void __set__machineStore(::Mono::Security::X509::X509Stores value) ;
+static void __set__machineStore(Mono::Security::X509::X509Stores value) ;
 
-static ::Mono::Security::X509::X509Stores __get__machineStore() ;
+static Mono::Security::X509::X509Stores __get__machineStore() ;
 
 
 // Properties
@@ -86,11 +85,11 @@ static ::StringW __declspec(property(get=get_CurrentUserPath))  CurrentUserPath;
 
 static ::StringW __declspec(property(get=get_LocalMachinePath))  LocalMachinePath;
 
-static ::Mono::Security::X509::X509Stores __declspec(property(get=get_CurrentUser))  CurrentUser;
+static Mono::Security::X509::X509Stores __declspec(property(get=get_CurrentUser))  CurrentUser;
 
-static ::Mono::Security::X509::X509Stores __declspec(property(get=get_LocalMachine))  LocalMachine;
+static Mono::Security::X509::X509Stores __declspec(property(get=get_LocalMachine))  LocalMachine;
 
-static ::Mono::Security::X509::X509CertificateCollection __declspec(property(get=get_TrustedRootCertificates))  TrustedRootCertificates;
+static Mono::Security::X509::X509CertificateCollection __declspec(property(get=get_TrustedRootCertificates))  TrustedRootCertificates;
 
 
 // Methods
@@ -102,18 +101,17 @@ static ::StringW get_CurrentUserPath() ;
 static ::StringW get_LocalMachinePath() ;
 
 /// @brief Method get_CurrentUser addr 0x229097c size 0xa0 virtual false final false
-static ::Mono::Security::X509::X509Stores get_CurrentUser() ;
+static Mono::Security::X509::X509Stores get_CurrentUser() ;
 
 /// @brief Method get_LocalMachine addr 0x2290a4c size 0xa0 virtual false final false
-static ::Mono::Security::X509::X509Stores get_LocalMachine() ;
+static Mono::Security::X509::X509Stores get_LocalMachine() ;
 
 /// @brief Method get_TrustedRootCertificates addr 0x228e94c size 0xcc virtual false final false
-static ::Mono::Security::X509::X509CertificateCollection get_TrustedRootCertificates() ;
+static Mono::Security::X509::X509CertificateCollection get_TrustedRootCertificates() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Security::X509
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Security::X509::X509StoreManager);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::X509::X509StoreManager, "Mono.Security.X509", "X509StoreManager");
+NEED_NO_BOX(Mono::Security::X509::X509StoreManager);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509StoreManager, "Mono.Security.X509", "X509StoreManager");

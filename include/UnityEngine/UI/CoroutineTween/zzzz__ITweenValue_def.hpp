@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cmath>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UI::CoroutineTween {
 class ITweenValue;
@@ -47,6 +46,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UI::CoroutineTween
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UI::CoroutineTween::ITweenValue);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::CoroutineTween::ITweenValue, "UnityEngine.UI.CoroutineTween", "ITweenValue");
+NEED_NO_BOX(UnityEngine::UI::CoroutineTween::ITweenValue);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CoroutineTween::ITweenValue, "UnityEngine.UI.CoroutineTween", "ITweenValue");

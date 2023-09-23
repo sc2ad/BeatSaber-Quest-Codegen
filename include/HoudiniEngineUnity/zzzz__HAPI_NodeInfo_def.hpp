@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace HoudiniEngineUnity {
 struct HAPI_NodeType;
 }
@@ -19,8 +18,8 @@ namespace HoudiniEngineUnity {
 struct CORDL_TYPE HAPI_NodeInfo : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "id", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "parentId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nameSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "type", ty: "::HoudiniEngineUnity::HAPI_NodeType", modifiers: "", def_value: None }, CppParam { name: "isValid", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "totalCookCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "uniqueHoudiniNodeId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "internalNodePathSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "parmCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "parmIntValueCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "parmFloatValueCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "parmStringValueCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "parmChoiceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "childNodeCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "inputCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "outputCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "createdPostAssetLoad", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isTimeDependent", ty: "bool", modifiers: "", def_value: None }]
-constexpr HAPI_NodeInfo(int32_t id, int32_t parentId, int32_t nameSH, ::HoudiniEngineUnity::HAPI_NodeType type, bool isValid, int32_t totalCookCount, int32_t uniqueHoudiniNodeId, int32_t internalNodePathSH, int32_t parmCount, int32_t parmIntValueCount, int32_t parmFloatValueCount, int32_t parmStringValueCount, int32_t parmChoiceCount, int32_t childNodeCount, int32_t inputCount, int32_t outputCount, bool createdPostAssetLoad, bool isTimeDependent) noexcept;
+// Ctor Parameters [CppParam { name: "id", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "parentId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nameSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "type", ty: "HoudiniEngineUnity::HAPI_NodeType", modifiers: "", def_value: None }, CppParam { name: "isValid", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "totalCookCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "uniqueHoudiniNodeId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "internalNodePathSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "parmCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "parmIntValueCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "parmFloatValueCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "parmStringValueCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "parmChoiceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "childNodeCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "inputCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "outputCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "createdPostAssetLoad", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isTimeDependent", ty: "bool", modifiers: "", def_value: None }]
+constexpr HAPI_NodeInfo(int32_t id, int32_t parentId, int32_t nameSH, HoudiniEngineUnity::HAPI_NodeType type, bool isValid, int32_t totalCookCount, int32_t uniqueHoudiniNodeId, int32_t internalNodePathSH, int32_t parmCount, int32_t parmIntValueCount, int32_t parmFloatValueCount, int32_t parmStringValueCount, int32_t parmChoiceCount, int32_t childNodeCount, int32_t inputCount, int32_t outputCount, bool createdPostAssetLoad, bool isTimeDependent) noexcept;
 
 
                     constexpr HAPI_NodeInfo(HAPI_NodeInfo const&) = default;
@@ -71,11 +70,11 @@ constexpr void __set_nameSH(int32_t value) ;
 
 constexpr int32_t __get_nameSH() const;
 
- ::HoudiniEngineUnity::HAPI_NodeType __declspec(property(get=__get_type, put=__set_type))  type;
+ HoudiniEngineUnity::HAPI_NodeType __declspec(property(get=__get_type, put=__set_type))  type;
 
-constexpr void __set_type(::HoudiniEngineUnity::HAPI_NodeType value) ;
+constexpr void __set_type(HoudiniEngineUnity::HAPI_NodeType value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_NodeType __get_type() const;
+constexpr HoudiniEngineUnity::HAPI_NodeType __get_type() const;
 
  bool __declspec(property(get=__get_isValid, put=__set_isValid))  isValid;
 
@@ -165,5 +164,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_NodeInfo, "HoudiniEngineUnity", "HAPI_NodeInfo");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_NodeInfo, "HoudiniEngineUnity", "HAPI_NodeInfo");

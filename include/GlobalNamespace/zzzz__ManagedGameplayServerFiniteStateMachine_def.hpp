@@ -1,9 +1,8 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerFiniteStateMachine_def.hpp"
-namespace {
 namespace GlobalNamespace {
-struct ____GlobalNamespace__GameplayServerFiniteStateMachine__InitParams;
+struct GlobalNamespace__GameplayServerFiniteStateMachine__InitParams;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12704))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12708))
 // CS Name: ManagedGameplayServerFiniteStateMachine
-class CORDL_TYPE ManagedGameplayServerFiniteStateMachine : public ::GlobalNamespace::GameplayServerFiniteStateMachine {
+class CORDL_TYPE ManagedGameplayServerFiniteStateMachine : public GlobalNamespace::GameplayServerFiniteStateMachine {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr ManagedGameplayServerFiniteStateMachine(ManagedGameplayServerFiniteSta
 constexpr ManagedGameplayServerFiniteStateMachine(ManagedGameplayServerFiniteStateMachine&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ManagedGameplayServerFiniteStateMachine(void* ptr) noexcept : ::GlobalNamespace::GameplayServerFiniteStateMachine(ptr) {
+constexpr explicit ManagedGameplayServerFiniteStateMachine(void* ptr) noexcept : GlobalNamespace::GameplayServerFiniteStateMachine(ptr) {
 }
 
 
@@ -51,16 +50,15 @@ constexpr explicit ManagedGameplayServerFiniteStateMachine(void* ptr) noexcept :
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "initParams", ty: "::GlobalNamespace::____GlobalNamespace__GameplayServerFiniteStateMachine__InitParams", modifiers: "", def_value: None }]
-explicit ManagedGameplayServerFiniteStateMachine(::GlobalNamespace::____GlobalNamespace__GameplayServerFiniteStateMachine__InitParams initParams) ;
+// Ctor Parameters [CppParam { name: "initParams", ty: "GlobalNamespace::GlobalNamespace__GameplayServerFiniteStateMachine__InitParams", modifiers: "", def_value: None }]
+explicit ManagedGameplayServerFiniteStateMachine(GlobalNamespace::GlobalNamespace__GameplayServerFiniteStateMachine__InitParams initParams) ;
 
 /// @brief Method .ctor addr 0xdaf2b0 size 0x30 virtual false final false
- void _ctor(::GlobalNamespace::____GlobalNamespace__GameplayServerFiniteStateMachine__InitParams initParams) ;
+ void _ctor(GlobalNamespace::GlobalNamespace__GameplayServerFiniteStateMachine__InitParams initParams) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ManagedGameplayServerFiniteStateMachine);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ManagedGameplayServerFiniteStateMachine, "", "ManagedGameplayServerFiniteStateMachine");
+NEED_NO_BOX(GlobalNamespace::ManagedGameplayServerFiniteStateMachine);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ManagedGameplayServerFiniteStateMachine, "", "ManagedGameplayServerFiniteStateMachine");

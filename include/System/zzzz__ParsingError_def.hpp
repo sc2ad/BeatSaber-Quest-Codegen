@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 struct ParsingError;
@@ -79,50 +78,49 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::ParsingError const None;
+static System::ParsingError const None;
 
 /// @brief Field BadFormat offset 0
-static ::System::ParsingError const BadFormat;
+static System::ParsingError const BadFormat;
 
 /// @brief Field BadScheme offset 0
-static ::System::ParsingError const BadScheme;
+static System::ParsingError const BadScheme;
 
 /// @brief Field BadAuthority offset 0
-static ::System::ParsingError const BadAuthority;
+static System::ParsingError const BadAuthority;
 
 /// @brief Field EmptyUriString offset 0
-static ::System::ParsingError const EmptyUriString;
+static System::ParsingError const EmptyUriString;
 
 /// @brief Field LastRelativeUriOkErrIndex offset 0
-static ::System::ParsingError const LastRelativeUriOkErrIndex;
+static System::ParsingError const LastRelativeUriOkErrIndex;
 
 /// @brief Field SchemeLimit offset 0
-static ::System::ParsingError const SchemeLimit;
+static System::ParsingError const SchemeLimit;
 
 /// @brief Field SizeLimit offset 0
-static ::System::ParsingError const SizeLimit;
+static System::ParsingError const SizeLimit;
 
 /// @brief Field MustRootedPath offset 0
-static ::System::ParsingError const MustRootedPath;
+static System::ParsingError const MustRootedPath;
 
 /// @brief Field BadHostName offset 0
-static ::System::ParsingError const BadHostName;
+static System::ParsingError const BadHostName;
 
 /// @brief Field NonEmptyHost offset 0
-static ::System::ParsingError const NonEmptyHost;
+static System::ParsingError const NonEmptyHost;
 
 /// @brief Field BadPort offset 0
-static ::System::ParsingError const BadPort;
+static System::ParsingError const BadPort;
 
 /// @brief Field BadAuthorityTerminator offset 0
-static ::System::ParsingError const BadAuthorityTerminator;
+static System::ParsingError const BadAuthorityTerminator;
 
 /// @brief Field CannotCreateRelative offset 0
-static ::System::ParsingError const CannotCreateRelative;
+static System::ParsingError const CannotCreateRelative;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::ParsingError, "System", "ParsingError");
+DEFINE_IL2CPP_ARG_TYPE(System::ParsingError, "System", "ParsingError");

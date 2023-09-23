@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Crypto/Generators/zzzz__BaseKdfBytesGenerator_def.hpp"
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
@@ -15,7 +14,7 @@ namespace Org::BouncyCastle::Crypto::Generators {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(886))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(908))
 // CS Name: Org.BouncyCastle.Crypto.Generators.Kdf2BytesGenerator
-class CORDL_TYPE Kdf2BytesGenerator : public ::Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator {
+class CORDL_TYPE Kdf2BytesGenerator : public Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr Kdf2BytesGenerator(Kdf2BytesGenerator const& ) noexcept = default;
 constexpr Kdf2BytesGenerator(Kdf2BytesGenerator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Kdf2BytesGenerator(void* ptr) noexcept : ::Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator(ptr) {
+constexpr explicit Kdf2BytesGenerator(void* ptr) noexcept : Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator(ptr) {
 }
 
 
@@ -51,16 +50,15 @@ constexpr explicit Kdf2BytesGenerator(void* ptr) noexcept : ::Org::BouncyCastle:
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "digest", ty: "::Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
-explicit Kdf2BytesGenerator(::Org::BouncyCastle::Crypto::IDigest digest) ;
+// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
+explicit Kdf2BytesGenerator(Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method .ctor addr 0xe711e8 size 0x30 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IDigest digest) ;
+ void _ctor(Org::BouncyCastle::Crypto::IDigest digest) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Generators
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator, "Org.BouncyCastle.Crypto.Generators", "Kdf2BytesGenerator");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator, "Org.BouncyCastle.Crypto.Generators", "Kdf2BytesGenerator");

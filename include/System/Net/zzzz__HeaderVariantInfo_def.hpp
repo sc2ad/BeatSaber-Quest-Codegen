@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
-namespace {
 namespace System::Net {
 struct CookieVariant;
 }
@@ -19,8 +18,8 @@ namespace System::Net {
 struct CORDL_TYPE HeaderVariantInfo : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "m_name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_variant", ty: "::System::Net::CookieVariant", modifiers: "", def_value: None }]
-constexpr HeaderVariantInfo(::StringW m_name, ::System::Net::CookieVariant m_variant) noexcept;
+// Ctor Parameters [CppParam { name: "m_name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_variant", ty: "System::Net::CookieVariant", modifiers: "", def_value: None }]
+constexpr HeaderVariantInfo(::StringW m_name, System::Net::CookieVariant m_variant) noexcept;
 
 
                     constexpr HeaderVariantInfo(HeaderVariantInfo const&) = default;
@@ -59,34 +58,33 @@ constexpr void __set_m_name(::StringW value) ;
 
 constexpr ::StringW __get_m_name() const;
 
- ::System::Net::CookieVariant __declspec(property(get=__get_m_variant, put=__set_m_variant))  m_variant;
+ System::Net::CookieVariant __declspec(property(get=__get_m_variant, put=__set_m_variant))  m_variant;
 
-constexpr void __set_m_variant(::System::Net::CookieVariant value) ;
+constexpr void __set_m_variant(System::Net::CookieVariant value) ;
 
-constexpr ::System::Net::CookieVariant __get_m_variant() const;
+constexpr System::Net::CookieVariant __get_m_variant() const;
 
 
 // Properties
 
  ::StringW __declspec(property(get=get_Name))  Name;
 
- ::System::Net::CookieVariant __declspec(property(get=get_Variant))  Variant;
+ System::Net::CookieVariant __declspec(property(get=get_Variant))  Variant;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x281d758 size 0xc virtual false final false
- void _ctor(::StringW name, ::System::Net::CookieVariant variant) ;
+ void _ctor(::StringW name, System::Net::CookieVariant variant) ;
 
 /// @brief Method get_Name addr 0x281d764 size 0x8 virtual false final false
  ::StringW get_Name() ;
 
 /// @brief Method get_Variant addr 0x281d76c size 0x8 virtual false final false
- ::System::Net::CookieVariant get_Variant() ;
+ System::Net::CookieVariant get_Variant() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::HeaderVariantInfo, "System.Net", "HeaderVariantInfo");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::HeaderVariantInfo, "System.Net", "HeaderVariantInfo");

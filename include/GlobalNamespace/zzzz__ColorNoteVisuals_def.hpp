@@ -4,34 +4,33 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-class INoteControllerDidInitEvent;
-}
 namespace GlobalNamespace {
 class INoteControllerNoteDidPassJumpThreeQuartersEvent;
 }
 namespace GlobalNamespace {
-class MaterialPropertyBlockController;
+class INoteControllerNoteDidStartDissolvingEvent;
+}
+namespace UnityEngine {
+class MeshRenderer;
 }
 namespace GlobalNamespace {
-class ColorManager;
+class MaterialPropertyBlockController;
 }
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
-namespace UnityEngine {
-struct Color;
-}
-namespace GlobalNamespace {
-class INoteControllerNoteDidStartDissolvingEvent;
-}
 namespace GlobalNamespace {
 class NoteControllerBase;
 }
+namespace GlobalNamespace {
+class ColorManager;
+}
+namespace GlobalNamespace {
+class INoteControllerDidInitEvent;
+}
 namespace UnityEngine {
-class MeshRenderer;
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -43,17 +42,17 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4856))
 // CS Name: ColorNoteVisuals
-class CORDL_TYPE ColorNoteVisuals : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ColorNoteVisuals : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::INoteControllerDidInitEvent
-constexpr operator  ::GlobalNamespace::INoteControllerDidInitEvent() const noexcept;
+/// @brief Convert operator to GlobalNamespace::INoteControllerDidInitEvent
+constexpr operator  GlobalNamespace::INoteControllerDidInitEvent() const noexcept;
 
-/// @brief Convert operator to ::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent
-constexpr operator  ::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent() const noexcept;
+/// @brief Convert operator to GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent
+constexpr operator  GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent() const noexcept;
 
-/// @brief Convert operator to ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent
-constexpr operator  ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent() const noexcept;
+/// @brief Convert operator to GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent
+constexpr operator  GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x60};
@@ -67,7 +66,7 @@ constexpr ColorNoteVisuals(ColorNoteVisuals const& ) noexcept = default;
 constexpr ColorNoteVisuals(ColorNoteVisuals&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ColorNoteVisuals(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ColorNoteVisuals(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -94,41 +93,41 @@ constexpr void __set__defaultColorAlpha(float_t value) ;
 
 constexpr float_t __get__defaultColorAlpha() const;
 
- ::GlobalNamespace::NoteControllerBase __declspec(property(get=__get__noteController, put=__set__noteController))  _noteController;
+ GlobalNamespace::NoteControllerBase __declspec(property(get=__get__noteController, put=__set__noteController))  _noteController;
 
-constexpr void __set__noteController(::GlobalNamespace::NoteControllerBase value) ;
+constexpr void __set__noteController(GlobalNamespace::NoteControllerBase value) ;
 
-constexpr ::GlobalNamespace::NoteControllerBase __get__noteController() const;
+constexpr GlobalNamespace::NoteControllerBase __get__noteController() const;
 
- ::ArrayW<::GlobalNamespace::MaterialPropertyBlockController> __declspec(property(get=__get__materialPropertyBlockControllers, put=__set__materialPropertyBlockControllers))  _materialPropertyBlockControllers;
+ ::ArrayW<GlobalNamespace::MaterialPropertyBlockController> __declspec(property(get=__get__materialPropertyBlockControllers, put=__set__materialPropertyBlockControllers))  _materialPropertyBlockControllers;
 
-constexpr void __set__materialPropertyBlockControllers(::ArrayW<::GlobalNamespace::MaterialPropertyBlockController> value) ;
+constexpr void __set__materialPropertyBlockControllers(::ArrayW<GlobalNamespace::MaterialPropertyBlockController> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::MaterialPropertyBlockController> __get__materialPropertyBlockControllers() const;
+constexpr ::ArrayW<GlobalNamespace::MaterialPropertyBlockController> __get__materialPropertyBlockControllers() const;
 
- ::ArrayW<::UnityEngine::MeshRenderer> __declspec(property(get=__get__arrowMeshRenderers, put=__set__arrowMeshRenderers))  _arrowMeshRenderers;
+ ::ArrayW<UnityEngine::MeshRenderer> __declspec(property(get=__get__arrowMeshRenderers, put=__set__arrowMeshRenderers))  _arrowMeshRenderers;
 
-constexpr void __set__arrowMeshRenderers(::ArrayW<::UnityEngine::MeshRenderer> value) ;
+constexpr void __set__arrowMeshRenderers(::ArrayW<UnityEngine::MeshRenderer> value) ;
 
-constexpr ::ArrayW<::UnityEngine::MeshRenderer> __get__arrowMeshRenderers() const;
+constexpr ::ArrayW<UnityEngine::MeshRenderer> __get__arrowMeshRenderers() const;
 
- ::ArrayW<::UnityEngine::MeshRenderer> __declspec(property(get=__get__circleMeshRenderers, put=__set__circleMeshRenderers))  _circleMeshRenderers;
+ ::ArrayW<UnityEngine::MeshRenderer> __declspec(property(get=__get__circleMeshRenderers, put=__set__circleMeshRenderers))  _circleMeshRenderers;
 
-constexpr void __set__circleMeshRenderers(::ArrayW<::UnityEngine::MeshRenderer> value) ;
+constexpr void __set__circleMeshRenderers(::ArrayW<UnityEngine::MeshRenderer> value) ;
 
-constexpr ::ArrayW<::UnityEngine::MeshRenderer> __get__circleMeshRenderers() const;
+constexpr ::ArrayW<UnityEngine::MeshRenderer> __get__circleMeshRenderers() const;
 
- ::GlobalNamespace::ColorManager __declspec(property(get=__get__colorManager, put=__set__colorManager))  _colorManager;
+ GlobalNamespace::ColorManager __declspec(property(get=__get__colorManager, put=__set__colorManager))  _colorManager;
 
-constexpr void __set__colorManager(::GlobalNamespace::ColorManager value) ;
+constexpr void __set__colorManager(GlobalNamespace::ColorManager value) ;
 
-constexpr ::GlobalNamespace::ColorManager __get__colorManager() const;
+constexpr GlobalNamespace::ColorManager __get__colorManager() const;
 
- ::System::Action_2<::GlobalNamespace::ColorNoteVisuals,::GlobalNamespace::NoteControllerBase> __declspec(property(get=__get_didInitEvent, put=__set_didInitEvent))  didInitEvent;
+ System::Action_2<GlobalNamespace::ColorNoteVisuals,GlobalNamespace::NoteControllerBase> __declspec(property(get=__get_didInitEvent, put=__set_didInitEvent))  didInitEvent;
 
-constexpr void __set_didInitEvent(::System::Action_2<::GlobalNamespace::ColorNoteVisuals,::GlobalNamespace::NoteControllerBase> value) ;
+constexpr void __set_didInitEvent(System::Action_2<GlobalNamespace::ColorNoteVisuals,GlobalNamespace::NoteControllerBase> value) ;
 
-constexpr ::System::Action_2<::GlobalNamespace::ColorNoteVisuals,::GlobalNamespace::NoteControllerBase> __get_didInitEvent() const;
+constexpr System::Action_2<GlobalNamespace::ColorNoteVisuals,GlobalNamespace::NoteControllerBase> __get_didInitEvent() const;
 
 static int32_t __declspec(property(get=__get__colorId, put=__set__colorId))  _colorId;
 
@@ -136,11 +135,11 @@ static void __set__colorId(int32_t value) ;
 
 static int32_t __get__colorId() ;
 
- ::UnityEngine::Color __declspec(property(get=__get__noteColor, put=__set__noteColor))  _noteColor;
+ UnityEngine::Color __declspec(property(get=__get__noteColor, put=__set__noteColor))  _noteColor;
 
-constexpr void __set__noteColor(::UnityEngine::Color value) ;
+constexpr void __set__noteColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__noteColor() const;
+constexpr UnityEngine::Color __get__noteColor() const;
 
 
 // Properties
@@ -153,10 +152,10 @@ constexpr ::UnityEngine::Color __get__noteColor() const;
 // Methods
 
 /// @brief Method add_didInitEvent addr 0x223b01c size 0xb0 virtual false final false
- void add_didInitEvent(::System::Action_2<::GlobalNamespace::ColorNoteVisuals,::GlobalNamespace::NoteControllerBase> value) ;
+ void add_didInitEvent(System::Action_2<GlobalNamespace::ColorNoteVisuals,GlobalNamespace::NoteControllerBase> value) ;
 
 /// @brief Method remove_didInitEvent addr 0x223b0cc size 0xb0 virtual false final false
- void remove_didInitEvent(::System::Action_2<::GlobalNamespace::ColorNoteVisuals,::GlobalNamespace::NoteControllerBase> value) ;
+ void remove_didInitEvent(System::Action_2<GlobalNamespace::ColorNoteVisuals,GlobalNamespace::NoteControllerBase> value) ;
 
 /// @brief Method set_showArrow addr 0x223b17c size 0x68 virtual false final false
  void set_showArrow(bool value) ;
@@ -171,13 +170,13 @@ constexpr ::UnityEngine::Color __get__noteColor() const;
  void OnDestroy() ;
 
 /// @brief Method HandleNoteControllerDidInit addr 0x223b63c size 0x178 virtual true final true
- void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase noteController) ;
+ void HandleNoteControllerDidInit(GlobalNamespace::NoteControllerBase noteController) ;
 
 /// @brief Method HandleNoteControllerNoteDidPassJumpThreeQuarters addr 0x223b7b4 size 0x20 virtual true final true
- void HandleNoteControllerNoteDidPassJumpThreeQuarters(::GlobalNamespace::NoteControllerBase noteController) ;
+ void HandleNoteControllerNoteDidPassJumpThreeQuarters(GlobalNamespace::NoteControllerBase noteController) ;
 
 /// @brief Method HandleNoteControllerNoteDidStartDissolving addr 0x223b7d4 size 0x20 virtual true final true
- void HandleNoteControllerNoteDidStartDissolving(::GlobalNamespace::NoteControllerBase noteController, float_t duration) ;
+ void HandleNoteControllerNoteDidStartDissolving(GlobalNamespace::NoteControllerBase noteController, float_t duration) ;
 
 // Ctor Parameters []
 explicit ColorNoteVisuals() ;
@@ -189,6 +188,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ColorNoteVisuals);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ColorNoteVisuals, "", "ColorNoteVisuals");
+NEED_NO_BOX(GlobalNamespace::ColorNoteVisuals);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorNoteVisuals, "", "ColorNoteVisuals");

@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace System::Xml::XPath {
+class XPathDocument;
+}
 namespace MS::Internal::Xml::Cache {
 class XPathNodePageInfo;
 }
 namespace MS::Internal::Xml::Cache {
 struct XPathNode;
-}
-namespace System::Xml::XPath {
-class XPathDocument;
 }
 // Forward declare root types
 namespace MS::Internal::Xml::Cache {
@@ -77,34 +76,34 @@ constexpr void __set__prefix(::StringW value) ;
 
 constexpr ::StringW __get__prefix() const;
 
- ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> __declspec(property(get=__get__pageParent, put=__set__pageParent))  _pageParent;
+ ::ArrayW<MS::Internal::Xml::Cache::XPathNode> __declspec(property(get=__get__pageParent, put=__set__pageParent))  _pageParent;
 
-constexpr void __set__pageParent(::ArrayW<::MS::Internal::Xml::Cache::XPathNode> value) ;
+constexpr void __set__pageParent(::ArrayW<MS::Internal::Xml::Cache::XPathNode> value) ;
 
-constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> __get__pageParent() const;
+constexpr ::ArrayW<MS::Internal::Xml::Cache::XPathNode> __get__pageParent() const;
 
- ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> __declspec(property(get=__get__pageSibling, put=__set__pageSibling))  _pageSibling;
+ ::ArrayW<MS::Internal::Xml::Cache::XPathNode> __declspec(property(get=__get__pageSibling, put=__set__pageSibling))  _pageSibling;
 
-constexpr void __set__pageSibling(::ArrayW<::MS::Internal::Xml::Cache::XPathNode> value) ;
+constexpr void __set__pageSibling(::ArrayW<MS::Internal::Xml::Cache::XPathNode> value) ;
 
-constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> __get__pageSibling() const;
+constexpr ::ArrayW<MS::Internal::Xml::Cache::XPathNode> __get__pageSibling() const;
 
- ::System::Xml::XPath::XPathDocument __declspec(property(get=__get__doc, put=__set__doc))  _doc;
+ System::Xml::XPath::XPathDocument __declspec(property(get=__get__doc, put=__set__doc))  _doc;
 
-constexpr void __set__doc(::System::Xml::XPath::XPathDocument value) ;
+constexpr void __set__doc(System::Xml::XPath::XPathDocument value) ;
 
-constexpr ::System::Xml::XPath::XPathDocument __get__doc() const;
+constexpr System::Xml::XPath::XPathDocument __get__doc() const;
 
- ::MS::Internal::Xml::Cache::XPathNodePageInfo __declspec(property(get=__get__pageInfo, put=__set__pageInfo))  _pageInfo;
+ MS::Internal::Xml::Cache::XPathNodePageInfo __declspec(property(get=__get__pageInfo, put=__set__pageInfo))  _pageInfo;
 
-constexpr void __set__pageInfo(::MS::Internal::Xml::Cache::XPathNodePageInfo value) ;
+constexpr void __set__pageInfo(MS::Internal::Xml::Cache::XPathNodePageInfo value) ;
 
-constexpr ::MS::Internal::Xml::Cache::XPathNodePageInfo __get__pageInfo() const;
+constexpr MS::Internal::Xml::Cache::XPathNodePageInfo __get__pageInfo() const;
 
 
 // Properties
 
- ::MS::Internal::Xml::Cache::XPathNodePageInfo __declspec(property(get=get_PageInfo))  PageInfo;
+ MS::Internal::Xml::Cache::XPathNodePageInfo __declspec(property(get=get_PageInfo))  PageInfo;
 
  ::StringW __declspec(property(get=get_LocalName))  LocalName;
 
@@ -112,17 +111,17 @@ constexpr ::MS::Internal::Xml::Cache::XPathNodePageInfo __get__pageInfo() const;
 
  ::StringW __declspec(property(get=get_Prefix))  Prefix;
 
- ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> __declspec(property(get=get_SiblingPage))  SiblingPage;
+ ::ArrayW<MS::Internal::Xml::Cache::XPathNode> __declspec(property(get=get_SiblingPage))  SiblingPage;
 
- ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> __declspec(property(get=get_ParentPage))  ParentPage;
+ ::ArrayW<MS::Internal::Xml::Cache::XPathNode> __declspec(property(get=get_ParentPage))  ParentPage;
 
- ::System::Xml::XPath::XPathDocument __declspec(property(get=get_Document))  Document;
+ System::Xml::XPath::XPathDocument __declspec(property(get=get_Document))  Document;
 
 
 // Methods
 
 /// @brief Method get_PageInfo addr 0x2757eb4 size 0x8 virtual false final false
- ::MS::Internal::Xml::Cache::XPathNodePageInfo get_PageInfo() ;
+ MS::Internal::Xml::Cache::XPathNodePageInfo get_PageInfo() ;
 
 /// @brief Method get_LocalName addr 0x2757ebc size 0x8 virtual false final false
  ::StringW get_LocalName() ;
@@ -134,18 +133,17 @@ constexpr ::MS::Internal::Xml::Cache::XPathNodePageInfo __get__pageInfo() const;
  ::StringW get_Prefix() ;
 
 /// @brief Method get_SiblingPage addr 0x2757ed4 size 0x8 virtual false final false
- ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> get_SiblingPage() ;
+ ::ArrayW<MS::Internal::Xml::Cache::XPathNode> get_SiblingPage() ;
 
 /// @brief Method get_ParentPage addr 0x2757edc size 0x8 virtual false final false
- ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> get_ParentPage() ;
+ ::ArrayW<MS::Internal::Xml::Cache::XPathNode> get_ParentPage() ;
 
 /// @brief Method get_Document addr 0x2757ee4 size 0x8 virtual false final false
- ::System::Xml::XPath::XPathDocument get_Document() ;
+ System::Xml::XPath::XPathDocument get_Document() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def MS::Internal::Xml::Cache
-} // end anonymous namespace
-NEED_NO_BOX(::MS::Internal::Xml::Cache::XPathNodeInfoAtom);
-DEFINE_IL2CPP_ARG_TYPE(::MS::Internal::Xml::Cache::XPathNodeInfoAtom, "MS.Internal.Xml.Cache", "XPathNodeInfoAtom");
+NEED_NO_BOX(MS::Internal::Xml::Cache::XPathNodeInfoAtom);
+DEFINE_IL2CPP_ARG_TYPE(MS::Internal::Xml::Cache::XPathNodeInfoAtom, "MS.Internal.Xml.Cache", "XPathNodeInfoAtom");

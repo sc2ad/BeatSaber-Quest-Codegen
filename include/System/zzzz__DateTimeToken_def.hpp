@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System {
-struct ____System__DateTimeParse__DTT;
-}
 namespace System {
 struct TokenType;
+}
+namespace System {
+struct System__DateTimeParse__DTT;
 }
 // Forward declare root types
 namespace System {
@@ -22,8 +21,8 @@ namespace System {
 struct CORDL_TYPE DateTimeToken : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "dtt", ty: "::System::____System__DateTimeParse__DTT", modifiers: "", def_value: None }, CppParam { name: "suffix", ty: "::System::TokenType", modifiers: "", def_value: None }, CppParam { name: "num", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr DateTimeToken(::System::____System__DateTimeParse__DTT dtt, ::System::TokenType suffix, int32_t num) noexcept;
+// Ctor Parameters [CppParam { name: "dtt", ty: "System::System__DateTimeParse__DTT", modifiers: "", def_value: None }, CppParam { name: "suffix", ty: "System::TokenType", modifiers: "", def_value: None }, CppParam { name: "num", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr DateTimeToken(System::System__DateTimeParse__DTT dtt, System::TokenType suffix, int32_t num) noexcept;
 
 
                     constexpr DateTimeToken(DateTimeToken const&) = default;
@@ -56,17 +55,17 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::____System__DateTimeParse__DTT __declspec(property(get=__get_dtt, put=__set_dtt))  dtt;
+ System::System__DateTimeParse__DTT __declspec(property(get=__get_dtt, put=__set_dtt))  dtt;
 
-constexpr void __set_dtt(::System::____System__DateTimeParse__DTT value) ;
+constexpr void __set_dtt(System::System__DateTimeParse__DTT value) ;
 
-constexpr ::System::____System__DateTimeParse__DTT __get_dtt() const;
+constexpr System::System__DateTimeParse__DTT __get_dtt() const;
 
- ::System::TokenType __declspec(property(get=__get_suffix, put=__set_suffix))  suffix;
+ System::TokenType __declspec(property(get=__get_suffix, put=__set_suffix))  suffix;
 
-constexpr void __set_suffix(::System::TokenType value) ;
+constexpr void __set_suffix(System::TokenType value) ;
 
-constexpr ::System::TokenType __get_suffix() const;
+constexpr System::TokenType __get_suffix() const;
 
  int32_t __declspec(property(get=__get_num, put=__set_num))  num;
 
@@ -78,5 +77,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::DateTimeToken, "System", "DateTimeToken");
+DEFINE_IL2CPP_ARG_TYPE(System::DateTimeToken, "System", "DateTimeToken");

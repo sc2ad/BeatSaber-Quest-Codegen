@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class IDisposable;
 }
@@ -24,8 +23,8 @@ namespace System::Security::Cryptography {
 class CORDL_TYPE AsymmetricAlgorithm : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -66,11 +65,11 @@ constexpr void __set_KeySizeValue(int32_t value) ;
 
 constexpr int32_t __get_KeySizeValue() const;
 
- ::ArrayW<::System::Security::Cryptography::KeySizes> __declspec(property(get=__get_LegalKeySizesValue, put=__set_LegalKeySizesValue))  LegalKeySizesValue;
+ ::ArrayW<System::Security::Cryptography::KeySizes> __declspec(property(get=__get_LegalKeySizesValue, put=__set_LegalKeySizesValue))  LegalKeySizesValue;
 
-constexpr void __set_LegalKeySizesValue(::ArrayW<::System::Security::Cryptography::KeySizes> value) ;
+constexpr void __set_LegalKeySizesValue(::ArrayW<System::Security::Cryptography::KeySizes> value) ;
 
-constexpr ::ArrayW<::System::Security::Cryptography::KeySizes> __get_LegalKeySizesValue() const;
+constexpr ::ArrayW<System::Security::Cryptography::KeySizes> __get_LegalKeySizesValue() const;
 
 
 // Properties
@@ -111,6 +110,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::AsymmetricAlgorithm);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::AsymmetricAlgorithm, "System.Security.Cryptography", "AsymmetricAlgorithm");
+NEED_NO_BOX(System::Security::Cryptography::AsymmetricAlgorithm);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::AsymmetricAlgorithm, "System.Security.Cryptography", "AsymmetricAlgorithm");

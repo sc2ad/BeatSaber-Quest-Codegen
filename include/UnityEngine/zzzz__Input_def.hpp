@@ -5,21 +5,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Vector2;
-}
-namespace UnityEngine {
-struct Touch;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-struct IMECompositionMode;
+struct KeyCode;
 }
 namespace UnityEngine {
-struct KeyCode;
+struct Touch;
+}
+namespace UnityEngine {
+struct IMECompositionMode;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -69,15 +68,15 @@ constexpr explicit Input(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr)
 
 static bool __declspec(property(get=get_anyKeyDown))  anyKeyDown;
 
-static ::UnityEngine::Vector3 __declspec(property(get=get_mousePosition))  mousePosition;
+static UnityEngine::Vector3 __declspec(property(get=get_mousePosition))  mousePosition;
 
-static ::UnityEngine::Vector2 __declspec(property(get=get_mouseScrollDelta))  mouseScrollDelta;
+static UnityEngine::Vector2 __declspec(property(get=get_mouseScrollDelta))  mouseScrollDelta;
 
-static ::UnityEngine::IMECompositionMode __declspec(property(get=get_imeCompositionMode, put=set_imeCompositionMode))  imeCompositionMode;
+static UnityEngine::IMECompositionMode __declspec(property(get=get_imeCompositionMode, put=set_imeCompositionMode))  imeCompositionMode;
 
 static ::StringW __declspec(property(get=get_compositionString))  compositionString;
 
-static ::UnityEngine::Vector2 __declspec(property(get=get_compositionCursorPos, put=set_compositionCursorPos))  compositionCursorPos;
+static UnityEngine::Vector2 __declspec(property(get=get_compositionCursorPos, put=set_compositionCursorPos))  compositionCursorPos;
 
 static bool __declspec(property(get=get_mousePresent))  mousePresent;
 
@@ -89,13 +88,13 @@ static bool __declspec(property(get=get_touchSupported))  touchSupported;
 // Methods
 
 /// @brief Method GetKeyInt addr 0x2b961c8 size 0x3c virtual false final false
-static bool GetKeyInt(::UnityEngine::KeyCode key) ;
+static bool GetKeyInt(UnityEngine::KeyCode key) ;
 
 /// @brief Method GetKeyUpInt addr 0x2b96204 size 0x3c virtual false final false
-static bool GetKeyUpInt(::UnityEngine::KeyCode key) ;
+static bool GetKeyUpInt(UnityEngine::KeyCode key) ;
 
 /// @brief Method GetKeyDownInt addr 0x2b96240 size 0x3c virtual false final false
-static bool GetKeyDownInt(::UnityEngine::KeyCode key) ;
+static bool GetKeyDownInt(UnityEngine::KeyCode key) ;
 
 /// @brief Method GetAxis addr 0x2b9627c size 0x3c virtual false final false
 static float_t GetAxis(::StringW axisName) ;
@@ -119,40 +118,40 @@ static bool GetMouseButtonDown(int32_t button) ;
 static bool GetMouseButtonUp(int32_t button) ;
 
 /// @brief Method GetTouch addr 0x2b96420 size 0x70 virtual false final false
-static ::UnityEngine::Touch GetTouch(int32_t index) ;
+static UnityEngine::Touch GetTouch(int32_t index) ;
 
 /// @brief Method GetKey addr 0x2b964d4 size 0x3c virtual false final false
-static bool GetKey(::UnityEngine::KeyCode key) ;
+static bool GetKey(UnityEngine::KeyCode key) ;
 
 /// @brief Method GetKeyUp addr 0x2b96510 size 0x3c virtual false final false
-static bool GetKeyUp(::UnityEngine::KeyCode key) ;
+static bool GetKeyUp(UnityEngine::KeyCode key) ;
 
 /// @brief Method GetKeyDown addr 0x2b9654c size 0x3c virtual false final false
-static bool GetKeyDown(::UnityEngine::KeyCode key) ;
+static bool GetKeyDown(UnityEngine::KeyCode key) ;
 
 /// @brief Method get_anyKeyDown addr 0x2b96588 size 0x28 virtual false final false
 static bool get_anyKeyDown() ;
 
 /// @brief Method get_mousePosition addr 0x2b965b0 size 0x4c virtual false final false
-static ::UnityEngine::Vector3 get_mousePosition() ;
+static UnityEngine::Vector3 get_mousePosition() ;
 
 /// @brief Method get_mouseScrollDelta addr 0x2b96638 size 0x44 virtual false final false
-static ::UnityEngine::Vector2 get_mouseScrollDelta() ;
+static UnityEngine::Vector2 get_mouseScrollDelta() ;
 
 /// @brief Method get_imeCompositionMode addr 0x2b966b8 size 0x28 virtual false final false
-static ::UnityEngine::IMECompositionMode get_imeCompositionMode() ;
+static UnityEngine::IMECompositionMode get_imeCompositionMode() ;
 
 /// @brief Method set_imeCompositionMode addr 0x2b966e0 size 0x3c virtual false final false
-static void set_imeCompositionMode(::UnityEngine::IMECompositionMode value) ;
+static void set_imeCompositionMode(UnityEngine::IMECompositionMode value) ;
 
 /// @brief Method get_compositionString addr 0x2b9671c size 0x28 virtual false final false
 static ::StringW get_compositionString() ;
 
 /// @brief Method get_compositionCursorPos addr 0x2b96744 size 0x44 virtual false final false
-static ::UnityEngine::Vector2 get_compositionCursorPos() ;
+static UnityEngine::Vector2 get_compositionCursorPos() ;
 
 /// @brief Method set_compositionCursorPos addr 0x2b967c4 size 0x40 virtual false final false
-static void set_compositionCursorPos(::UnityEngine::Vector2 value) ;
+static void set_compositionCursorPos(UnityEngine::Vector2 value) ;
 
 /// @brief Method get_mousePresent addr 0x2b96840 size 0x28 virtual false final false
 static bool get_mousePresent() ;
@@ -167,24 +166,23 @@ static bool get_touchSupported() ;
 static bool CheckDisabled() ;
 
 /// @brief Method GetTouch_Injected addr 0x2b96490 size 0x44 virtual false final false
-static void GetTouch_Injected(int32_t index, ByRef<::UnityEngine::Touch> ret) ;
+static void GetTouch_Injected(int32_t index, ByRef<UnityEngine::Touch> ret) ;
 
 /// @brief Method get_mousePosition_Injected addr 0x2b965fc size 0x3c virtual false final false
-static void get_mousePosition_Injected(ByRef<::UnityEngine::Vector3> ret) ;
+static void get_mousePosition_Injected(ByRef<UnityEngine::Vector3> ret) ;
 
 /// @brief Method get_mouseScrollDelta_Injected addr 0x2b9667c size 0x3c virtual false final false
-static void get_mouseScrollDelta_Injected(ByRef<::UnityEngine::Vector2> ret) ;
+static void get_mouseScrollDelta_Injected(ByRef<UnityEngine::Vector2> ret) ;
 
 /// @brief Method get_compositionCursorPos_Injected addr 0x2b96788 size 0x3c virtual false final false
-static void get_compositionCursorPos_Injected(ByRef<::UnityEngine::Vector2> ret) ;
+static void get_compositionCursorPos_Injected(ByRef<UnityEngine::Vector2> ret) ;
 
 /// @brief Method set_compositionCursorPos_Injected addr 0x2b96804 size 0x3c virtual false final false
-static void set_compositionCursorPos_Injected(ByRef<::UnityEngine::Vector2> value) ;
+static void set_compositionCursorPos_Injected(ByRef<UnityEngine::Vector2> value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Input);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Input, "UnityEngine", "Input");
+NEED_NO_BOX(UnityEngine::Input);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Input, "UnityEngine", "Input");

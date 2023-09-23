@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform {
 class AvatarEditorOptions;
@@ -69,7 +68,7 @@ explicit AvatarEditorOptions() ;
  void SetSourceOverride(::StringW value) ;
 
 /// @brief Method op_Explicit addr 0x25539bc size 0x58 virtual false final false
-static ::cordl_internals::intptr_t op_Explicit___cordl_internals__intptr_t(::Oculus::Platform::AvatarEditorOptions options) ;
+static ::cordl_internals::intptr_t op_Explicit___cordl_internals__intptr_t(Oculus::Platform::AvatarEditorOptions options) ;
 
 /// @brief Method Finalize addr 0x2553a14 size 0xd4 virtual true final false
  void Finalize() ;
@@ -78,6 +77,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::AvatarEditorOptions);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::AvatarEditorOptions, "Oculus.Platform", "AvatarEditorOptions");
+NEED_NO_BOX(Oculus::Platform::AvatarEditorOptions);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::AvatarEditorOptions, "Oculus.Platform", "AvatarEditorOptions");

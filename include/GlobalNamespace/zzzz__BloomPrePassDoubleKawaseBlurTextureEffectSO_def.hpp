@@ -3,9 +3,8 @@
 #include "GlobalNamespace/zzzz__BloomPrePassEffectSO_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
-struct ____GlobalNamespace__KawaseBlurRendererSO__KernelSize;
+struct GlobalNamespace__KawaseBlurRendererSO__KernelSize;
 }
 namespace UnityEngine {
 class RenderTexture;
@@ -23,7 +22,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14631))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15334))
 // CS Name: BloomPrePassDoubleKawaseBlurTextureEffectSO
-class CORDL_TYPE BloomPrePassDoubleKawaseBlurTextureEffectSO : public ::GlobalNamespace::BloomPrePassEffectSO {
+class CORDL_TYPE BloomPrePassDoubleKawaseBlurTextureEffectSO : public GlobalNamespace::BloomPrePassEffectSO {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr BloomPrePassDoubleKawaseBlurTextureEffectSO(BloomPrePassDoubleKawaseBl
 constexpr BloomPrePassDoubleKawaseBlurTextureEffectSO(BloomPrePassDoubleKawaseBlurTextureEffectSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BloomPrePassDoubleKawaseBlurTextureEffectSO(void* ptr) noexcept : ::GlobalNamespace::BloomPrePassEffectSO(ptr) {
+constexpr explicit BloomPrePassDoubleKawaseBlurTextureEffectSO(void* ptr) noexcept : GlobalNamespace::BloomPrePassEffectSO(ptr) {
 }
 
 
@@ -59,11 +58,11 @@ constexpr explicit BloomPrePassDoubleKawaseBlurTextureEffectSO(void* ptr) noexce
 
 // Fields
 
- ::GlobalNamespace::____GlobalNamespace__KawaseBlurRendererSO__KernelSize __declspec(property(get=__get__bloom1KernelSize, put=__set__bloom1KernelSize))  _bloom1KernelSize;
+ GlobalNamespace::GlobalNamespace__KawaseBlurRendererSO__KernelSize __declspec(property(get=__get__bloom1KernelSize, put=__set__bloom1KernelSize))  _bloom1KernelSize;
 
-constexpr void __set__bloom1KernelSize(::GlobalNamespace::____GlobalNamespace__KawaseBlurRendererSO__KernelSize value) ;
+constexpr void __set__bloom1KernelSize(GlobalNamespace::GlobalNamespace__KawaseBlurRendererSO__KernelSize value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__KawaseBlurRendererSO__KernelSize __get__bloom1KernelSize() const;
+constexpr GlobalNamespace::GlobalNamespace__KawaseBlurRendererSO__KernelSize __get__bloom1KernelSize() const;
 
  float_t __declspec(property(get=__get__bloom1Boost, put=__set__bloom1Boost))  _bloom1Boost;
 
@@ -71,11 +70,11 @@ constexpr void __set__bloom1Boost(float_t value) ;
 
 constexpr float_t __get__bloom1Boost() const;
 
- ::GlobalNamespace::____GlobalNamespace__KawaseBlurRendererSO__KernelSize __declspec(property(get=__get__bloom2KernelSize, put=__set__bloom2KernelSize))  _bloom2KernelSize;
+ GlobalNamespace::GlobalNamespace__KawaseBlurRendererSO__KernelSize __declspec(property(get=__get__bloom2KernelSize, put=__set__bloom2KernelSize))  _bloom2KernelSize;
 
-constexpr void __set__bloom2KernelSize(::GlobalNamespace::____GlobalNamespace__KawaseBlurRendererSO__KernelSize value) ;
+constexpr void __set__bloom2KernelSize(GlobalNamespace::GlobalNamespace__KawaseBlurRendererSO__KernelSize value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__KawaseBlurRendererSO__KernelSize __get__bloom2KernelSize() const;
+constexpr GlobalNamespace::GlobalNamespace__KawaseBlurRendererSO__KernelSize __get__bloom2KernelSize() const;
 
  float_t __declspec(property(get=__get__bloom2Boost, put=__set__bloom2Boost))  _bloom2Boost;
 
@@ -101,17 +100,17 @@ constexpr void __set__gammaCorrection(bool value) ;
 
 constexpr bool __get__gammaCorrection() const;
 
- ::GlobalNamespace::KawaseBlurRendererSO __declspec(property(get=__get__kawaseBlurRenderer, put=__set__kawaseBlurRenderer))  _kawaseBlurRenderer;
+ GlobalNamespace::KawaseBlurRendererSO __declspec(property(get=__get__kawaseBlurRenderer, put=__set__kawaseBlurRenderer))  _kawaseBlurRenderer;
 
-constexpr void __set__kawaseBlurRenderer(::GlobalNamespace::KawaseBlurRendererSO value) ;
+constexpr void __set__kawaseBlurRenderer(GlobalNamespace::KawaseBlurRendererSO value) ;
 
-constexpr ::GlobalNamespace::KawaseBlurRendererSO __get__kawaseBlurRenderer() const;
+constexpr GlobalNamespace::KawaseBlurRendererSO __get__kawaseBlurRenderer() const;
 
 
 // Methods
 
 /// @brief Method Render addr 0x267ad38 size 0x38 virtual true final false
- void Render(::UnityEngine::RenderTexture src, ::UnityEngine::RenderTexture dest) ;
+ void Render(UnityEngine::RenderTexture src, UnityEngine::RenderTexture dest) ;
 
 // Ctor Parameters []
 explicit BloomPrePassDoubleKawaseBlurTextureEffectSO() ;
@@ -123,6 +122,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO, "", "BloomPrePassDoubleKawaseBlurTextureEffectSO");
+NEED_NO_BOX(GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO, "", "BloomPrePassDoubleKawaseBlurTextureEffectSO");

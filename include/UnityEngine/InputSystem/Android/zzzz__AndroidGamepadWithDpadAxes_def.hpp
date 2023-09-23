@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/Android/zzzz__AndroidGamepad_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem::Android {
 class AndroidGamepadWithDpadAxes;
@@ -12,7 +11,7 @@ namespace UnityEngine::InputSystem::Android {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6509))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6510))
 // CS Name: UnityEngine.InputSystem.Android.AndroidGamepadWithDpadAxes
-class CORDL_TYPE AndroidGamepadWithDpadAxes : public ::UnityEngine::InputSystem::Android::AndroidGamepad {
+class CORDL_TYPE AndroidGamepadWithDpadAxes : public UnityEngine::InputSystem::Android::AndroidGamepad {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr AndroidGamepadWithDpadAxes(AndroidGamepadWithDpadAxes const& ) noexcep
 constexpr AndroidGamepadWithDpadAxes(AndroidGamepadWithDpadAxes&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AndroidGamepadWithDpadAxes(void* ptr) noexcept : ::UnityEngine::InputSystem::Android::AndroidGamepad(ptr) {
+constexpr explicit AndroidGamepadWithDpadAxes(void* ptr) noexcept : UnityEngine::InputSystem::Android::AndroidGamepad(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Android
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Android::AndroidGamepadWithDpadAxes);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Android::AndroidGamepadWithDpadAxes, "UnityEngine.InputSystem.Android", "AndroidGamepadWithDpadAxes");
+NEED_NO_BOX(UnityEngine::InputSystem::Android::AndroidGamepadWithDpadAxes);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Android::AndroidGamepadWithDpadAxes, "UnityEngine.InputSystem.Android", "AndroidGamepadWithDpadAxes");

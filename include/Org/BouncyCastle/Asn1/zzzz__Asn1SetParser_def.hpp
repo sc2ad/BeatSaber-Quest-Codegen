@@ -1,6 +1,5 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Convertible;
 }
@@ -17,8 +16,8 @@ namespace Org::BouncyCastle::Asn1 {
 class CORDL_TYPE Asn1SetParser : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Asn1::IAsn1Convertible
-constexpr operator  ::Org::BouncyCastle::Asn1::IAsn1Convertible() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Asn1::IAsn1Convertible
+constexpr operator  Org::BouncyCastle::Asn1::IAsn1Convertible() const noexcept;
 
 ~Asn1SetParser() = default;
 
@@ -30,12 +29,11 @@ constexpr explicit Asn1SetParser(void* ptr) noexcept : ::cordl_internals::Interf
 // Methods
 
 /// @brief Method ReadObject addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Asn1::IAsn1Convertible ReadObject() ;
+ Org::BouncyCastle::Asn1::IAsn1Convertible ReadObject() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::Asn1SetParser);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Asn1SetParser, "Org.BouncyCastle.Asn1", "Asn1SetParser");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Asn1SetParser);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1SetParser, "Org.BouncyCastle.Asn1", "Asn1SetParser");

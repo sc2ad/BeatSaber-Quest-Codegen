@@ -4,25 +4,24 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace System::Text {
+class Decoder;
+}
+namespace System::Text {
+class EncoderNLS;
+}
 namespace System::Text {
 class DecoderNLS;
 }
 namespace System::Text {
 class Encoder;
 }
-namespace System::Text {
-class EncoderNLS;
-}
-namespace System::Text {
-class Decoder;
-}
 // Forward declare root types
 namespace System::Text {
 class ASCIIEncoding;
 }
 namespace System::Text {
-class ____System__Text__ASCIIEncoding__ASCIIEncodingSealed;
+class System__Text__ASCIIEncoding__ASCIIEncodingSealed;
 }
 // Type: System.Text::ASCIIEncoding
 namespace System::Text {
@@ -30,10 +29,10 @@ namespace System::Text {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2870))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2822))
 // CS Name: System.Text.ASCIIEncoding
-class CORDL_TYPE ASCIIEncoding : public ::System::Text::Encoding {
+class CORDL_TYPE ASCIIEncoding : public System::Text::Encoding {
 public:
 // Declarations
-using ASCIIEncodingSealed = ::System::Text::____System__Text__ASCIIEncoding__ASCIIEncodingSealed;
+using ASCIIEncodingSealed = System::Text::System__Text__ASCIIEncoding__ASCIIEncodingSealed;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -47,7 +46,7 @@ constexpr ASCIIEncoding(ASCIIEncoding const& ) noexcept = default;
 constexpr ASCIIEncoding(ASCIIEncoding&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ASCIIEncoding(void* ptr) noexcept : ::System::Text::Encoding(ptr) {
+constexpr explicit ASCIIEncoding(void* ptr) noexcept : System::Text::Encoding(ptr) {
 }
 
 
@@ -68,11 +67,11 @@ constexpr explicit ASCIIEncoding(void* ptr) noexcept : ::System::Text::Encoding(
 
 // Fields
 
-static ::System::Text::____System__Text__ASCIIEncoding__ASCIIEncodingSealed __declspec(property(get=__get_s_default, put=__set_s_default))  s_default;
+static System::Text::System__Text__ASCIIEncoding__ASCIIEncodingSealed __declspec(property(get=__get_s_default, put=__set_s_default))  s_default;
 
-static void __set_s_default(::System::Text::____System__Text__ASCIIEncoding__ASCIIEncodingSealed value) ;
+static void __set_s_default(System::Text::System__Text__ASCIIEncoding__ASCIIEncodingSealed value) ;
 
-static ::System::Text::____System__Text__ASCIIEncoding__ASCIIEncodingSealed __get_s_default() ;
+static System::Text::System__Text__ASCIIEncoding__ASCIIEncodingSealed __get_s_default() ;
 
 
 // Methods
@@ -120,16 +119,16 @@ explicit ASCIIEncoding() ;
  ::StringW GetString(::ArrayW<uint8_t> bytes, int32_t byteIndex, int32_t byteCount) ;
 
 /// @brief Method GetByteCount addr 0x24c0b2c size 0x2f8 virtual true final false
- int32_t GetByteCount(void* chars, int32_t charCount, ::System::Text::EncoderNLS encoder) ;
+ int32_t GetByteCount(void* chars, int32_t charCount, System::Text::EncoderNLS encoder) ;
 
 /// @brief Method GetBytes addr 0x24c0ec0 size 0x42c virtual true final false
- int32_t GetBytes(void* chars, int32_t charCount, void* bytes, int32_t byteCount, ::System::Text::EncoderNLS encoder) ;
+ int32_t GetBytes(void* chars, int32_t charCount, void* bytes, int32_t byteCount, System::Text::EncoderNLS encoder) ;
 
 /// @brief Method GetCharCount addr 0x24c12ec size 0x150 virtual true final false
- int32_t GetCharCount(void* bytes, int32_t count, ::System::Text::DecoderNLS decoder) ;
+ int32_t GetCharCount(void* bytes, int32_t count, System::Text::DecoderNLS decoder) ;
 
 /// @brief Method GetChars addr 0x24c1480 size 0x288 virtual true final false
- int32_t GetChars(void* bytes, int32_t byteCount, void* chars, int32_t charCount, ::System::Text::DecoderNLS decoder) ;
+ int32_t GetChars(void* bytes, int32_t byteCount, void* chars, int32_t charCount, System::Text::DecoderNLS decoder) ;
 
 /// @brief Method GetMaxByteCount addr 0x24c1718 size 0x108 virtual true final false
  int32_t GetMaxByteCount(int32_t charCount) ;
@@ -138,10 +137,10 @@ explicit ASCIIEncoding() ;
  int32_t GetMaxCharCount(int32_t byteCount) ;
 
 /// @brief Method GetDecoder addr 0x24c1924 size 0x60 virtual true final false
- ::System::Text::Decoder GetDecoder() ;
+ System::Text::Decoder GetDecoder() ;
 
 /// @brief Method GetEncoder addr 0x24c19c8 size 0x60 virtual true final false
- ::System::Text::Encoder GetEncoder() ;
+ System::Text::Encoder GetEncoder() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -153,44 +152,44 @@ namespace System::Text {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2822))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2821))
 // CS Name: System.Text.ASCIIEncoding::ASCIIEncodingSealed
-class CORDL_TYPE ____System__Text__ASCIIEncoding__ASCIIEncodingSealed : public ::System::Text::ASCIIEncoding {
+class CORDL_TYPE System__Text__ASCIIEncoding__ASCIIEncodingSealed : public System::Text::ASCIIEncoding {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
 
-virtual ~____System__Text__ASCIIEncoding__ASCIIEncodingSealed() = default;
+virtual ~System__Text__ASCIIEncoding__ASCIIEncodingSealed() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Text__ASCIIEncoding__ASCIIEncodingSealed", modifiers: " const&", def_value: None }]
-constexpr ____System__Text__ASCIIEncoding__ASCIIEncodingSealed(____System__Text__ASCIIEncoding__ASCIIEncodingSealed const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Text__ASCIIEncoding__ASCIIEncodingSealed", modifiers: " const&", def_value: None }]
+constexpr System__Text__ASCIIEncoding__ASCIIEncodingSealed(System__Text__ASCIIEncoding__ASCIIEncodingSealed const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Text__ASCIIEncoding__ASCIIEncodingSealed", modifiers: "&&", def_value: None }]
-constexpr ____System__Text__ASCIIEncoding__ASCIIEncodingSealed(____System__Text__ASCIIEncoding__ASCIIEncodingSealed&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Text__ASCIIEncoding__ASCIIEncodingSealed", modifiers: "&&", def_value: None }]
+constexpr System__Text__ASCIIEncoding__ASCIIEncodingSealed(System__Text__ASCIIEncoding__ASCIIEncodingSealed&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Text__ASCIIEncoding__ASCIIEncodingSealed(void* ptr) noexcept : ::System::Text::ASCIIEncoding(ptr) {
+constexpr explicit System__Text__ASCIIEncoding__ASCIIEncodingSealed(void* ptr) noexcept : System::Text::ASCIIEncoding(ptr) {
 }
 
 
-  constexpr ____System__Text__ASCIIEncoding__ASCIIEncodingSealed& operator=(std::nullptr_t) noexcept {
+  constexpr System__Text__ASCIIEncoding__ASCIIEncodingSealed& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Text__ASCIIEncoding__ASCIIEncodingSealed& operator=(void* o) noexcept {
+  constexpr System__Text__ASCIIEncoding__ASCIIEncodingSealed& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Text__ASCIIEncoding__ASCIIEncodingSealed& operator=(____System__Text__ASCIIEncoding__ASCIIEncodingSealed&& o) noexcept = default;
-  constexpr ____System__Text__ASCIIEncoding__ASCIIEncodingSealed& operator=(____System__Text__ASCIIEncoding__ASCIIEncodingSealed const& o) noexcept = default;
+  constexpr System__Text__ASCIIEncoding__ASCIIEncodingSealed& operator=(System__Text__ASCIIEncoding__ASCIIEncodingSealed&& o) noexcept = default;
+  constexpr System__Text__ASCIIEncoding__ASCIIEncodingSealed& operator=(System__Text__ASCIIEncoding__ASCIIEncodingSealed const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____System__Text__ASCIIEncoding__ASCIIEncodingSealed() ;
+explicit System__Text__ASCIIEncoding__ASCIIEncodingSealed() ;
 
 /// @brief Method .ctor addr 0x24c1ae0 size 0x5c virtual false final false
  void _ctor() ;
@@ -199,8 +198,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Text
-} // end anonymous namespace
-NEED_NO_BOX(::System::Text::ASCIIEncoding);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::ASCIIEncoding, "System.Text", "ASCIIEncoding");
-NEED_NO_BOX(::System::Text::____System__Text__ASCIIEncoding__ASCIIEncodingSealed);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::____System__Text__ASCIIEncoding__ASCIIEncodingSealed, "System.Text", "ASCIIEncoding/ASCIIEncodingSealed");
+NEED_NO_BOX(System::Text::ASCIIEncoding);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::ASCIIEncoding, "System.Text", "ASCIIEncoding");
+NEED_NO_BOX(System::Text::System__Text__ASCIIEncoding__ASCIIEncodingSealed);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::System__Text__ASCIIEncoding__ASCIIEncodingSealed, "System.Text", "ASCIIEncoding/ASCIIEncodingSealed");

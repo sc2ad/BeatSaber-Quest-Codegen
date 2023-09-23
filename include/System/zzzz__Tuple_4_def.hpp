@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class ITupleInternal;
 }
@@ -11,22 +10,22 @@ namespace System::Collections {
 class IComparer;
 }
 namespace System::Collections {
-class IStructuralComparable;
+class IStructuralEquatable;
 }
 namespace System::Collections {
 class IEqualityComparer;
-}
-namespace System::Text {
-class StringBuilder;
 }
 namespace System {
 class IComparable;
 }
 namespace System::Collections {
-class IStructuralEquatable;
+class IStructuralComparable;
 }
 namespace System::Runtime::CompilerServices {
 class ITuple;
+}
+namespace System::Text {
+class StringBuilder;
 }
 // Forward declare root types
 namespace System {
@@ -53,20 +52,20 @@ template<>
 class CORDL_TYPE Tuple_4<int32_t,int32_t,int32_t,bool> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::IStructuralEquatable
-constexpr operator  ::System::Collections::IStructuralEquatable() const noexcept;
+/// @brief Convert operator to System::Collections::IStructuralEquatable
+constexpr operator  System::Collections::IStructuralEquatable() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IStructuralComparable
-constexpr operator  ::System::Collections::IStructuralComparable() const noexcept;
+/// @brief Convert operator to System::Collections::IStructuralComparable
+constexpr operator  System::Collections::IStructuralComparable() const noexcept;
 
-/// @brief Convert operator to ::System::IComparable
-constexpr operator  ::System::IComparable() const noexcept;
+/// @brief Convert operator to System::IComparable
+constexpr operator  System::IComparable() const noexcept;
 
-/// @brief Convert operator to ::System::ITupleInternal
-constexpr operator  ::System::ITupleInternal() const noexcept;
+/// @brief Convert operator to System::ITupleInternal
+constexpr operator  System::ITupleInternal() const noexcept;
 
-/// @brief Convert operator to ::System::Runtime::CompilerServices::ITuple
-constexpr operator  ::System::Runtime::CompilerServices::ITuple() const noexcept;
+/// @brief Convert operator to System::Runtime::CompilerServices::ITuple
+constexpr operator  System::Runtime::CompilerServices::ITuple() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -163,25 +162,25 @@ explicit Tuple_4(int32_t item1, int32_t item2, int32_t item3, bool item4) ;
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method System.Collections.IStructuralEquatable.Equals addr 0x0 size 0xffffffffffffffff virtual true final true
- bool System_Collections_IStructuralEquatable_Equals(::bs_hook::Il2CppWrapperType other, ::System::Collections::IEqualityComparer comparer) ;
+ bool System_Collections_IStructuralEquatable_Equals(::bs_hook::Il2CppWrapperType other, System::Collections::IEqualityComparer comparer) ;
 
 /// @brief Method System.IComparable.CompareTo addr 0x0 size 0xffffffffffffffff virtual true final true
  int32_t System_IComparable_CompareTo(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method System.Collections.IStructuralComparable.CompareTo addr 0x0 size 0xffffffffffffffff virtual true final true
- int32_t System_Collections_IStructuralComparable_CompareTo(::bs_hook::Il2CppWrapperType other, ::System::Collections::IComparer comparer) ;
+ int32_t System_Collections_IStructuralComparable_CompareTo(::bs_hook::Il2CppWrapperType other, System::Collections::IComparer comparer) ;
 
 /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t GetHashCode() ;
 
 /// @brief Method System.Collections.IStructuralEquatable.GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final true
- int32_t System_Collections_IStructuralEquatable_GetHashCode(::System::Collections::IEqualityComparer comparer) ;
+ int32_t System_Collections_IStructuralEquatable_GetHashCode(System::Collections::IEqualityComparer comparer) ;
 
 /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
  ::StringW ToString() ;
 
 /// @brief Method System.ITupleInternal.ToString addr 0x0 size 0xffffffffffffffff virtual true final true
- ::StringW System_ITupleInternal_ToString(::System::Text::StringBuilder sb) ;
+ ::StringW System_ITupleInternal_ToString(System::Text::StringBuilder sb) ;
 
 /// @brief Method System.Runtime.CompilerServices.ITuple.get_Length addr 0x0 size 0xffffffffffffffff virtual true final true
  int32_t System_Runtime_CompilerServices_ITuple_get_Length() ;
@@ -201,20 +200,20 @@ template<::cordl_internals::il2cpp_reference_type T1,::cordl_internals::il2cpp_r
 class CORDL_TYPE Tuple_4<T1,T2,T3,T4> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::IStructuralEquatable
-constexpr operator  ::System::Collections::IStructuralEquatable() const noexcept;
+/// @brief Convert operator to System::Collections::IStructuralEquatable
+constexpr operator  System::Collections::IStructuralEquatable() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IStructuralComparable
-constexpr operator  ::System::Collections::IStructuralComparable() const noexcept;
+/// @brief Convert operator to System::Collections::IStructuralComparable
+constexpr operator  System::Collections::IStructuralComparable() const noexcept;
 
-/// @brief Convert operator to ::System::IComparable
-constexpr operator  ::System::IComparable() const noexcept;
+/// @brief Convert operator to System::IComparable
+constexpr operator  System::IComparable() const noexcept;
 
-/// @brief Convert operator to ::System::ITupleInternal
-constexpr operator  ::System::ITupleInternal() const noexcept;
+/// @brief Convert operator to System::ITupleInternal
+constexpr operator  System::ITupleInternal() const noexcept;
 
-/// @brief Convert operator to ::System::Runtime::CompilerServices::ITuple
-constexpr operator  ::System::Runtime::CompilerServices::ITuple() const noexcept;
+/// @brief Convert operator to System::Runtime::CompilerServices::ITuple
+constexpr operator  System::Runtime::CompilerServices::ITuple() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -311,25 +310,25 @@ explicit Tuple_4(T1 item1, T2 item2, T3 item3, T4 item4) ;
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method System.Collections.IStructuralEquatable.Equals addr 0x0 size 0xffffffffffffffff virtual true final true
- bool System_Collections_IStructuralEquatable_Equals(::bs_hook::Il2CppWrapperType other, ::System::Collections::IEqualityComparer comparer) ;
+ bool System_Collections_IStructuralEquatable_Equals(::bs_hook::Il2CppWrapperType other, System::Collections::IEqualityComparer comparer) ;
 
 /// @brief Method System.IComparable.CompareTo addr 0x0 size 0xffffffffffffffff virtual true final true
  int32_t System_IComparable_CompareTo(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method System.Collections.IStructuralComparable.CompareTo addr 0x0 size 0xffffffffffffffff virtual true final true
- int32_t System_Collections_IStructuralComparable_CompareTo(::bs_hook::Il2CppWrapperType other, ::System::Collections::IComparer comparer) ;
+ int32_t System_Collections_IStructuralComparable_CompareTo(::bs_hook::Il2CppWrapperType other, System::Collections::IComparer comparer) ;
 
 /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t GetHashCode() ;
 
 /// @brief Method System.Collections.IStructuralEquatable.GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final true
- int32_t System_Collections_IStructuralEquatable_GetHashCode(::System::Collections::IEqualityComparer comparer) ;
+ int32_t System_Collections_IStructuralEquatable_GetHashCode(System::Collections::IEqualityComparer comparer) ;
 
 /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
  ::StringW ToString() ;
 
 /// @brief Method System.ITupleInternal.ToString addr 0x0 size 0xffffffffffffffff virtual true final true
- ::StringW System_ITupleInternal_ToString(::System::Text::StringBuilder sb) ;
+ ::StringW System_ITupleInternal_ToString(System::Text::StringBuilder sb) ;
 
 /// @brief Method System.Runtime.CompilerServices.ITuple.get_Length addr 0x0 size 0xffffffffffffffff virtual true final true
  int32_t System_Runtime_CompilerServices_ITuple_get_Length() ;
@@ -338,5 +337,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Tuple_4, "System", "Tuple`4");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Tuple_4, "System", "Tuple`4");

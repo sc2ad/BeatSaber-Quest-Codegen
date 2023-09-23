@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Threading::Tasks {
 struct CausalityRelation;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field AssignDelegate offset 0
-static ::System::Threading::Tasks::CausalityRelation const AssignDelegate;
+static System::Threading::Tasks::CausalityRelation const AssignDelegate;
 
 /// @brief Field Join offset 0
-static ::System::Threading::Tasks::CausalityRelation const Join;
+static System::Threading::Tasks::CausalityRelation const Join;
 
 /// @brief Field Choice offset 0
-static ::System::Threading::Tasks::CausalityRelation const Choice;
+static System::Threading::Tasks::CausalityRelation const Choice;
 
 /// @brief Field Cancel offset 0
-static ::System::Threading::Tasks::CausalityRelation const Cancel;
+static System::Threading::Tasks::CausalityRelation const Cancel;
 
 /// @brief Field Error offset 0
-static ::System::Threading::Tasks::CausalityRelation const Error;
+static System::Threading::Tasks::CausalityRelation const Error;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Threading::Tasks
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::CausalityRelation, "System.Threading.Tasks", "CausalityRelation");
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::CausalityRelation, "System.Threading.Tasks", "CausalityRelation");

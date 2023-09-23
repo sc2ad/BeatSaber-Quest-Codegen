@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
@@ -16,7 +15,7 @@ namespace Org::BouncyCastle::X509 {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1867))
 // CS Name: Org.BouncyCastle.X509.X509KeyUsage
-class CORDL_TYPE X509KeyUsage : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
+class CORDL_TYPE X509KeyUsage : public Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr X509KeyUsage(X509KeyUsage const& ) noexcept = default;
 constexpr X509KeyUsage(X509KeyUsage&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit X509KeyUsage(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
+constexpr explicit X509KeyUsage(void* ptr) noexcept : Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
 }
 
 
@@ -95,12 +94,11 @@ explicit X509KeyUsage(int32_t usage) ;
  void _ctor(int32_t usage) ;
 
 /// @brief Method ToAsn1Object addr 0x10f4d38 size 0x68 virtual true final false
- ::Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
+ Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::X509
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::X509::X509KeyUsage);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::X509::X509KeyUsage, "Org.BouncyCastle.X509", "X509KeyUsage");
+NEED_NO_BOX(Org::BouncyCastle::X509::X509KeyUsage);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509KeyUsage, "Org.BouncyCastle.X509", "X509KeyUsage");

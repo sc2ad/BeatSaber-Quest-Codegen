@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 #include <cstddef>
-namespace {
 namespace UnityEngine {
 struct Color;
 }
@@ -108,14 +107,13 @@ constexpr float_t __get_m_intensity() const;
  void set_blue(float_t value) ;
 
 /// @brief Method Convert addr 0x2b78f08 size 0x3d4 virtual false final false
-static ::UnityEngine::Experimental::GlobalIllumination::LinearColor Convert(::UnityEngine::Color color, float_t intensity) ;
+static UnityEngine::Experimental::GlobalIllumination::LinearColor Convert(UnityEngine::Color color, float_t intensity) ;
 
 /// @brief Method Black addr 0x2b792dc size 0x14 virtual false final false
-static ::UnityEngine::Experimental::GlobalIllumination::LinearColor Black() ;
+static UnityEngine::Experimental::GlobalIllumination::LinearColor Black() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Experimental::GlobalIllumination
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::GlobalIllumination::LinearColor, "UnityEngine.Experimental.GlobalIllumination", "LinearColor");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::LinearColor, "UnityEngine.Experimental.GlobalIllumination", "LinearColor");

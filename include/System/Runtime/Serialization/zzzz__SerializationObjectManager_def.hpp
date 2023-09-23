@@ -1,16 +1,15 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
 namespace System::Runtime::Serialization {
 class SerializationEventHandler;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -58,32 +57,32 @@ constexpr explicit SerializationObjectManager(void* ptr) noexcept : ::bs_hook::I
 
 // Fields
 
- ::System::Collections::Generic::Dictionary_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType> __declspec(property(get=__get__objectSeenTable, put=__set__objectSeenTable))  _objectSeenTable;
+ System::Collections::Generic::Dictionary_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType> __declspec(property(get=__get__objectSeenTable, put=__set__objectSeenTable))  _objectSeenTable;
 
-constexpr void __set__objectSeenTable(::System::Collections::Generic::Dictionary_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType> value) ;
+constexpr void __set__objectSeenTable(System::Collections::Generic::Dictionary_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType> __get__objectSeenTable() const;
+constexpr System::Collections::Generic::Dictionary_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType> __get__objectSeenTable() const;
 
- ::System::Runtime::Serialization::StreamingContext __declspec(property(get=__get__context, put=__set__context))  _context;
+ System::Runtime::Serialization::StreamingContext __declspec(property(get=__get__context, put=__set__context))  _context;
 
-constexpr void __set__context(::System::Runtime::Serialization::StreamingContext value) ;
+constexpr void __set__context(System::Runtime::Serialization::StreamingContext value) ;
 
-constexpr ::System::Runtime::Serialization::StreamingContext __get__context() const;
+constexpr System::Runtime::Serialization::StreamingContext __get__context() const;
 
- ::System::Runtime::Serialization::SerializationEventHandler __declspec(property(get=__get__onSerializedHandler, put=__set__onSerializedHandler))  _onSerializedHandler;
+ System::Runtime::Serialization::SerializationEventHandler __declspec(property(get=__get__onSerializedHandler, put=__set__onSerializedHandler))  _onSerializedHandler;
 
-constexpr void __set__onSerializedHandler(::System::Runtime::Serialization::SerializationEventHandler value) ;
+constexpr void __set__onSerializedHandler(System::Runtime::Serialization::SerializationEventHandler value) ;
 
-constexpr ::System::Runtime::Serialization::SerializationEventHandler __get__onSerializedHandler() const;
+constexpr System::Runtime::Serialization::SerializationEventHandler __get__onSerializedHandler() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "context", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit SerializationObjectManager(::System::Runtime::Serialization::StreamingContext context) ;
+// Ctor Parameters [CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit SerializationObjectManager(System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x2349714 size 0x94 virtual false final false
- void _ctor(::System::Runtime::Serialization::StreamingContext context) ;
+ void _ctor(System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method RegisterObject addr 0x23497a8 size 0x110 virtual false final false
  void RegisterObject(::bs_hook::Il2CppWrapperType obj) ;
@@ -98,6 +97,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::SerializationObjectManager);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::SerializationObjectManager, "System.Runtime.Serialization", "SerializationObjectManager");
+NEED_NO_BOX(System::Runtime::Serialization::SerializationObjectManager);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationObjectManager, "System.Runtime.Serialization", "SerializationObjectManager");

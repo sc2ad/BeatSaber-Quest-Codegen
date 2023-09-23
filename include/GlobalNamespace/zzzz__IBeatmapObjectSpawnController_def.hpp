@@ -2,18 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 class BeatmapObjectSpawnMovementData;
 }
-namespace GlobalNamespace {
-struct NoteLineLayer;
+namespace UnityEngine {
+struct Vector2;
 }
 namespace System {
 class Action;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace GlobalNamespace {
+struct NoteLineLayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -53,7 +52,7 @@ constexpr explicit IBeatmapObjectSpawnController(void* ptr) noexcept : ::cordl_i
 
  float_t __declspec(property(get=get_noteLinesDistance))  noteLinesDistance;
 
- ::GlobalNamespace::BeatmapObjectSpawnMovementData __declspec(property(get=get_beatmapObjectSpawnMovementData))  beatmapObjectSpawnMovementData;
+ GlobalNamespace::BeatmapObjectSpawnMovementData __declspec(property(get=get_beatmapObjectSpawnMovementData))  beatmapObjectSpawnMovementData;
 
  bool __declspec(property(get=get_isInitialized))  isInitialized;
 
@@ -85,27 +84,26 @@ constexpr explicit IBeatmapObjectSpawnController(void* ptr) noexcept : ::cordl_i
  float_t get_noteLinesDistance() ;
 
 /// @brief Method get_beatmapObjectSpawnMovementData addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::BeatmapObjectSpawnMovementData get_beatmapObjectSpawnMovementData() ;
+ GlobalNamespace::BeatmapObjectSpawnMovementData get_beatmapObjectSpawnMovementData() ;
 
 /// @brief Method get_isInitialized addr 0x0 size 0xffffffffffffffff virtual true final false
  bool get_isInitialized() ;
 
 /// @brief Method add_didInitEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void add_didInitEvent(::System::Action value) ;
+ void add_didInitEvent(System::Action value) ;
 
 /// @brief Method remove_didInitEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void remove_didInitEvent(::System::Action value) ;
+ void remove_didInitEvent(System::Action value) ;
 
 /// @brief Method Get2DNoteOffset addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Vector2 Get2DNoteOffset(int32_t noteLineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer) ;
+ UnityEngine::Vector2 Get2DNoteOffset(int32_t noteLineIndex, GlobalNamespace::NoteLineLayer noteLineLayer) ;
 
 /// @brief Method JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset addr 0x0 size 0xffffffffffffffff virtual true final false
- float_t JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(::GlobalNamespace::NoteLineLayer lineLayer, float_t distanceFromPlayer) ;
+ float_t JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(GlobalNamespace::NoteLineLayer lineLayer, float_t distanceFromPlayer) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IBeatmapObjectSpawnController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IBeatmapObjectSpawnController, "", "IBeatmapObjectSpawnController");
+NEED_NO_BOX(GlobalNamespace::IBeatmapObjectSpawnController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IBeatmapObjectSpawnController, "", "IBeatmapObjectSpawnController");

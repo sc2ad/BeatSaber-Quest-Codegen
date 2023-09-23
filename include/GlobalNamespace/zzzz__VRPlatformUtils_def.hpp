@@ -2,10 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
-namespace GlobalNamespace {
-class IVRPlatformHelper;
-}
 namespace GlobalNamespace {
 class IVerboseLogger;
 }
@@ -14,6 +10,9 @@ struct XRNode;
 }
 namespace UnityEngine {
 struct Vector2;
+}
+namespace GlobalNamespace {
+class IVRPlatformHelper;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -80,7 +79,7 @@ static constexpr ::ConstString  kMenuButtonOculusTouch{u"MenuButtonOculusTouch"}
 // Methods
 
 /// @brief Method TriggerValueDefaultImplementation addr 0x1f85288 size 0x80 virtual false final false
-static float_t TriggerValueDefaultImplementation(::UnityEngine::XR::XRNode node) ;
+static float_t TriggerValueDefaultImplementation(UnityEngine::XR::XRNode node) ;
 
 /// @brief Method GetMenuButtonDefaultImplementation addr 0x1f84c24 size 0x78 virtual false final false
 static bool GetMenuButtonDefaultImplementation() ;
@@ -89,15 +88,14 @@ static bool GetMenuButtonDefaultImplementation() ;
 static bool GetMenuButtonDownDefaultImplementation() ;
 
 /// @brief Method GetAnyJoystickMaxAxisDefaultImplementation addr 0x1f85308 size 0x154 virtual false final false
-static ::UnityEngine::Vector2 GetAnyJoystickMaxAxisDefaultImplementation(::GlobalNamespace::IVRPlatformHelper vrPlatformHelper) ;
+static UnityEngine::Vector2 GetAnyJoystickMaxAxisDefaultImplementation(GlobalNamespace::IVRPlatformHelper vrPlatformHelper) ;
 
 /// @brief Method StopXR addr 0x1f847d0 size 0xe8 virtual false final false
-static void StopXR(::GlobalNamespace::IVerboseLogger logger) ;
+static void StopXR(GlobalNamespace::IVerboseLogger logger) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::VRPlatformUtils);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::VRPlatformUtils, "", "VRPlatformUtils");
+NEED_NO_BOX(GlobalNamespace::VRPlatformUtils);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRPlatformUtils, "", "VRPlatformUtils");

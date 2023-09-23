@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace Org::BouncyCastle::Crypto::Engines {
+class IesEngine;
+}
 namespace System::IO {
 class MemoryStream;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
-}
-namespace Org::BouncyCastle::Crypto::Engines {
-class IesEngine;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto {
@@ -24,7 +23,7 @@ namespace Org::BouncyCastle::Crypto {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(965))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1344))
 // CS Name: Org.BouncyCastle.Crypto.BufferedIesCipher
-class CORDL_TYPE BufferedIesCipher : public ::Org::BouncyCastle::Crypto::BufferedCipherBase {
+class CORDL_TYPE BufferedIesCipher : public Org::BouncyCastle::Crypto::BufferedCipherBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr BufferedIesCipher(BufferedIesCipher const& ) noexcept = default;
 constexpr BufferedIesCipher(BufferedIesCipher&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BufferedIesCipher(void* ptr) noexcept : ::Org::BouncyCastle::Crypto::BufferedCipherBase(ptr) {
+constexpr explicit BufferedIesCipher(void* ptr) noexcept : Org::BouncyCastle::Crypto::BufferedCipherBase(ptr) {
 }
 
 
@@ -60,11 +59,11 @@ constexpr explicit BufferedIesCipher(void* ptr) noexcept : ::Org::BouncyCastle::
 
 // Fields
 
- ::Org::BouncyCastle::Crypto::Engines::IesEngine __declspec(property(get=__get_engine, put=__set_engine))  engine;
+ Org::BouncyCastle::Crypto::Engines::IesEngine __declspec(property(get=__get_engine, put=__set_engine))  engine;
 
-constexpr void __set_engine(::Org::BouncyCastle::Crypto::Engines::IesEngine value) ;
+constexpr void __set_engine(Org::BouncyCastle::Crypto::Engines::IesEngine value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Engines::IesEngine __get_engine() const;
+constexpr Org::BouncyCastle::Crypto::Engines::IesEngine __get_engine() const;
 
  bool __declspec(property(get=__get_forEncryption, put=__set_forEncryption))  forEncryption;
 
@@ -72,11 +71,11 @@ constexpr void __set_forEncryption(bool value) ;
 
 constexpr bool __get_forEncryption() const;
 
- ::System::IO::MemoryStream __declspec(property(get=__get_buffer, put=__set_buffer))  buffer;
+ System::IO::MemoryStream __declspec(property(get=__get_buffer, put=__set_buffer))  buffer;
 
-constexpr void __set_buffer(::System::IO::MemoryStream value) ;
+constexpr void __set_buffer(System::IO::MemoryStream value) ;
 
-constexpr ::System::IO::MemoryStream __get_buffer() const;
+constexpr System::IO::MemoryStream __get_buffer() const;
 
 
 // Properties
@@ -86,17 +85,17 @@ constexpr ::System::IO::MemoryStream __get_buffer() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "engine", ty: "::Org::BouncyCastle::Crypto::Engines::IesEngine", modifiers: "", def_value: None }]
-explicit BufferedIesCipher(::Org::BouncyCastle::Crypto::Engines::IesEngine engine) ;
+// Ctor Parameters [CppParam { name: "engine", ty: "Org::BouncyCastle::Crypto::Engines::IesEngine", modifiers: "", def_value: None }]
+explicit BufferedIesCipher(Org::BouncyCastle::Crypto::Engines::IesEngine engine) ;
 
 /// @brief Method .ctor addr 0xf378e4 size 0xf0 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::Engines::IesEngine engine) ;
+ void _ctor(Org::BouncyCastle::Crypto::Engines::IesEngine engine) ;
 
 /// @brief Method get_AlgorithmName addr 0xf379d4 size 0x40 virtual true final false
  ::StringW get_AlgorithmName() ;
 
 /// @brief Method Init addr 0xf37a14 size 0x4c virtual true final false
- void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method GetBlockSize addr 0xf37a60 size 0x8 virtual true final false
  int32_t GetBlockSize() ;
@@ -126,6 +125,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::BufferedIesCipher);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::BufferedIesCipher, "Org.BouncyCastle.Crypto", "BufferedIesCipher");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::BufferedIesCipher);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::BufferedIesCipher, "Org.BouncyCastle.Crypto", "BufferedIesCipher");

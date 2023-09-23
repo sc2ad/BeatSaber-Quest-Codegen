@@ -2,26 +2,25 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace Zenject {
-template<typename T>
-class LazyInject_1;
-}
-namespace Zenject {
-class SignalDeclaration;
+class InjectTypeInfo;
 }
 namespace Zenject {
 class TickableManager;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class IInitializable;
 }
 namespace Zenject {
-class IInitializable;
+template<typename T>
+class LazyInject_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace Zenject {
+class SignalDeclaration;
 }
 // Forward declare root types
 namespace Zenject {
@@ -36,8 +35,8 @@ namespace Zenject {
 class CORDL_TYPE SignalDeclarationAsyncInitializer : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Zenject::IInitializable
-constexpr operator  ::Zenject::IInitializable() const noexcept;
+/// @brief Convert operator to Zenject::IInitializable
+constexpr operator  Zenject::IInitializable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -72,26 +71,26 @@ constexpr explicit SignalDeclarationAsyncInitializer(void* ptr) noexcept : ::bs_
 
 // Fields
 
- ::Zenject::LazyInject_1<::Zenject::TickableManager> __declspec(property(get=__get__tickManager, put=__set__tickManager))  _tickManager;
+ Zenject::LazyInject_1<Zenject::TickableManager> __declspec(property(get=__get__tickManager, put=__set__tickManager))  _tickManager;
 
-constexpr void __set__tickManager(::Zenject::LazyInject_1<::Zenject::TickableManager> value) ;
+constexpr void __set__tickManager(Zenject::LazyInject_1<Zenject::TickableManager> value) ;
 
-constexpr ::Zenject::LazyInject_1<::Zenject::TickableManager> __get__tickManager() const;
+constexpr Zenject::LazyInject_1<Zenject::TickableManager> __get__tickManager() const;
 
- ::System::Collections::Generic::List_1<::Zenject::SignalDeclaration> __declspec(property(get=__get__declarations, put=__set__declarations))  _declarations;
+ System::Collections::Generic::List_1<Zenject::SignalDeclaration> __declspec(property(get=__get__declarations, put=__set__declarations))  _declarations;
 
-constexpr void __set__declarations(::System::Collections::Generic::List_1<::Zenject::SignalDeclaration> value) ;
+constexpr void __set__declarations(System::Collections::Generic::List_1<Zenject::SignalDeclaration> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::Zenject::SignalDeclaration> __get__declarations() const;
+constexpr System::Collections::Generic::List_1<Zenject::SignalDeclaration> __get__declarations() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "declarations", ty: "::System::Collections::Generic::List_1<::Zenject::SignalDeclaration>", modifiers: "", def_value: None }, CppParam { name: "tickManager", ty: "::Zenject::LazyInject_1<::Zenject::TickableManager>", modifiers: "", def_value: None }]
-explicit SignalDeclarationAsyncInitializer(::System::Collections::Generic::List_1<::Zenject::SignalDeclaration> declarations, ::Zenject::LazyInject_1<::Zenject::TickableManager> tickManager) ;
+// Ctor Parameters [CppParam { name: "declarations", ty: "System::Collections::Generic::List_1<Zenject::SignalDeclaration>", modifiers: "", def_value: None }, CppParam { name: "tickManager", ty: "Zenject::LazyInject_1<Zenject::TickableManager>", modifiers: "", def_value: None }]
+explicit SignalDeclarationAsyncInitializer(System::Collections::Generic::List_1<Zenject::SignalDeclaration> declarations, Zenject::LazyInject_1<Zenject::TickableManager> tickManager) ;
 
 /// @brief Method .ctor addr 0x2d4cce8 size 0x2c virtual false final false
- void _ctor(::System::Collections::Generic::List_1<::Zenject::SignalDeclaration> declarations, ::Zenject::LazyInject_1<::Zenject::TickableManager> tickManager) ;
+ void _ctor(System::Collections::Generic::List_1<Zenject::SignalDeclaration> declarations, Zenject::LazyInject_1<Zenject::TickableManager> tickManager) ;
 
 /// @brief Method Initialize addr 0x2d4cd14 size 0x104 virtual true final true
  void Initialize() ;
@@ -100,12 +99,11 @@ explicit SignalDeclarationAsyncInitializer(::System::Collections::Generic::List_
 static ::bs_hook::Il2CppWrapperType __zenCreate(::ArrayW<::bs_hook::Il2CppWrapperType> P_0) ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x2d4cf34 size 0x304 virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::SignalDeclarationAsyncInitializer);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::SignalDeclarationAsyncInitializer, "Zenject", "SignalDeclarationAsyncInitializer");
+NEED_NO_BOX(Zenject::SignalDeclarationAsyncInitializer);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::SignalDeclarationAsyncInitializer, "Zenject", "SignalDeclarationAsyncInitializer");

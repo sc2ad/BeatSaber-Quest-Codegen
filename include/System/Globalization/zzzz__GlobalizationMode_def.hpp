@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 // Forward declare root types
 namespace System::Globalization {
 class GlobalizationMode;
@@ -72,6 +71,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Globalization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Globalization::GlobalizationMode);
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::GlobalizationMode, "System.Globalization", "GlobalizationMode");
+NEED_NO_BOX(System::Globalization::GlobalizationMode);
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::GlobalizationMode, "System.Globalization", "GlobalizationMode");

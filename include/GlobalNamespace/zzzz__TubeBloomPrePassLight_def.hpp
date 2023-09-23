@@ -5,39 +5,38 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-class ParametricBoxController;
-}
-namespace GlobalNamespace {
-class BoolSO;
-}
 namespace System {
 class Action;
 }
 namespace UnityEngine {
-struct Matrix4x4;
+class Transform;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Matrix4x4;
 }
 namespace GlobalNamespace {
 class Parametric3SliceSpriteController;
+}
+namespace GlobalNamespace {
+class ParametricBoxController;
 }
 namespace UnityEngine {
 struct Vector4;
 }
 namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
 class AnimationCurve;
 }
+namespace GlobalNamespace {
+struct GlobalNamespace__BloomPrePassLight__QuadData;
+}
 namespace UnityEngine {
-class Transform;
+struct Vector3;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__BloomPrePassLight__QuadData;
+class BoolSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -49,7 +48,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14635))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14653))
 // CS Name: TubeBloomPrePassLight
-class CORDL_TYPE TubeBloomPrePassLight : public ::GlobalNamespace::BloomPrePassLight {
+class CORDL_TYPE TubeBloomPrePassLight : public GlobalNamespace::BloomPrePassLight {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -64,7 +63,7 @@ constexpr TubeBloomPrePassLight(TubeBloomPrePassLight const& ) noexcept = defaul
 constexpr TubeBloomPrePassLight(TubeBloomPrePassLight&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TubeBloomPrePassLight(void* ptr) noexcept : ::GlobalNamespace::BloomPrePassLight(ptr) {
+constexpr explicit TubeBloomPrePassLight(void* ptr) noexcept : GlobalNamespace::BloomPrePassLight(ptr) {
 }
 
 
@@ -85,11 +84,11 @@ constexpr explicit TubeBloomPrePassLight(void* ptr) noexcept : ::GlobalNamespace
 
 // Fields
 
- ::GlobalNamespace::BoolSO __declspec(property(get=__get__mainEffectPostProcessEnabled, put=__set__mainEffectPostProcessEnabled))  _mainEffectPostProcessEnabled;
+ GlobalNamespace::BoolSO __declspec(property(get=__get__mainEffectPostProcessEnabled, put=__set__mainEffectPostProcessEnabled))  _mainEffectPostProcessEnabled;
 
-constexpr void __set__mainEffectPostProcessEnabled(::GlobalNamespace::BoolSO value) ;
+constexpr void __set__mainEffectPostProcessEnabled(GlobalNamespace::BoolSO value) ;
 
-constexpr ::GlobalNamespace::BoolSO __get__mainEffectPostProcessEnabled() const;
+constexpr GlobalNamespace::BoolSO __get__mainEffectPostProcessEnabled() const;
 
  float_t __declspec(property(get=__get__width, put=__set__width))  _width;
 
@@ -115,11 +114,11 @@ constexpr void __set__center(float_t value) ;
 
 constexpr float_t __get__center() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__color, put=__set__color))  _color;
+ UnityEngine::Color __declspec(property(get=__get__color, put=__set__color))  _color;
 
-constexpr void __set__color(::UnityEngine::Color value) ;
+constexpr void __set__color(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__color() const;
+constexpr UnityEngine::Color __get__color() const;
 
  float_t __declspec(property(get=__get__colorAlphaMultiplier, put=__set__colorAlphaMultiplier))  _colorAlphaMultiplier;
 
@@ -163,11 +162,11 @@ constexpr void __set__thickenWithDistance(bool value) ;
 
 constexpr bool __get__thickenWithDistance() const;
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get__thickenCurve, put=__set__thickenCurve))  _thickenCurve;
+ UnityEngine::AnimationCurve __declspec(property(get=__get__thickenCurve, put=__set__thickenCurve))  _thickenCurve;
 
-constexpr void __set__thickenCurve(::UnityEngine::AnimationCurve value) ;
+constexpr void __set__thickenCurve(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get__thickenCurve() const;
+constexpr UnityEngine::AnimationCurve __get__thickenCurve() const;
 
  float_t __declspec(property(get=__get__minDistance, put=__set__minDistance))  _minDistance;
 
@@ -265,23 +264,23 @@ constexpr void __set__endWidth(float_t value) ;
 
 constexpr float_t __get__endWidth() const;
 
- ::GlobalNamespace::ParametricBoxController __declspec(property(get=__get__parametricBoxController, put=__set__parametricBoxController))  _parametricBoxController;
+ GlobalNamespace::ParametricBoxController __declspec(property(get=__get__parametricBoxController, put=__set__parametricBoxController))  _parametricBoxController;
 
-constexpr void __set__parametricBoxController(::GlobalNamespace::ParametricBoxController value) ;
+constexpr void __set__parametricBoxController(GlobalNamespace::ParametricBoxController value) ;
 
-constexpr ::GlobalNamespace::ParametricBoxController __get__parametricBoxController() const;
+constexpr GlobalNamespace::ParametricBoxController __get__parametricBoxController() const;
 
- ::GlobalNamespace::Parametric3SliceSpriteController __declspec(property(get=__get__dynamic3SliceSprite, put=__set__dynamic3SliceSprite))  _dynamic3SliceSprite;
+ GlobalNamespace::Parametric3SliceSpriteController __declspec(property(get=__get__dynamic3SliceSprite, put=__set__dynamic3SliceSprite))  _dynamic3SliceSprite;
 
-constexpr void __set__dynamic3SliceSprite(::GlobalNamespace::Parametric3SliceSpriteController value) ;
+constexpr void __set__dynamic3SliceSprite(GlobalNamespace::Parametric3SliceSpriteController value) ;
 
-constexpr ::GlobalNamespace::Parametric3SliceSpriteController __get__dynamic3SliceSprite() const;
+constexpr GlobalNamespace::Parametric3SliceSpriteController __get__dynamic3SliceSprite() const;
 
- ::System::Action __declspec(property(get=__get_didRefreshEvent, put=__set_didRefreshEvent))  didRefreshEvent;
+ System::Action __declspec(property(get=__get_didRefreshEvent, put=__set_didRefreshEvent))  didRefreshEvent;
 
-constexpr void __set_didRefreshEvent(::System::Action value) ;
+constexpr void __set_didRefreshEvent(System::Action value) ;
 
-constexpr ::System::Action __get_didRefreshEvent() const;
+constexpr System::Action __get_didRefreshEvent() const;
 
  bool __declspec(property(get=__get__isDirty, put=__set__isDirty))  _isDirty;
 
@@ -289,11 +288,11 @@ constexpr void __set__isDirty(bool value) ;
 
 constexpr bool __get__isDirty() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
+ UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
 
-constexpr void __set__transform(::UnityEngine::Transform value) ;
+constexpr void __set__transform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__transform() const;
+constexpr UnityEngine::Transform __get__transform() const;
 
 
 // Properties
@@ -312,16 +311,16 @@ constexpr ::UnityEngine::Transform __get__transform() const;
 
  float_t __declspec(property(get=get_bloomFogIntensityMultiplier, put=set_bloomFogIntensityMultiplier))  bloomFogIntensityMultiplier;
 
- ::UnityEngine::Color __declspec(property(get=get_color, put=set_color))  color;
+ UnityEngine::Color __declspec(property(get=get_color, put=set_color))  color;
 
 
 // Methods
 
 /// @brief Method add_didRefreshEvent addr 0x1f9768c size 0x9c virtual false final false
- void add_didRefreshEvent(::System::Action value) ;
+ void add_didRefreshEvent(System::Action value) ;
 
 /// @brief Method remove_didRefreshEvent addr 0x1f97728 size 0x9c virtual false final false
- void remove_didRefreshEvent(::System::Action value) ;
+ void remove_didRefreshEvent(System::Action value) ;
 
 /// @brief Method get_colorAlphaMultiplier addr 0x1f977c4 size 0x8 virtual false final false
  float_t get_colorAlphaMultiplier() ;
@@ -360,10 +359,10 @@ constexpr ::UnityEngine::Transform __get__transform() const;
  void set_bloomFogIntensityMultiplier(float_t value) ;
 
 /// @brief Method set_color addr 0x1f97850 size 0x118 virtual false final false
- void set_color(::UnityEngine::Color value) ;
+ void set_color(UnityEngine::Color value) ;
 
 /// @brief Method get_color addr 0x1f97968 size 0xc virtual false final false
- ::UnityEngine::Color get_color() ;
+ UnityEngine::Color get_color() ;
 
 /// @brief Method OnEnable addr 0x1f97974 size 0x20 virtual true final false
  void OnEnable() ;
@@ -375,10 +374,10 @@ constexpr ::UnityEngine::Transform __get__transform() const;
  void Refresh() ;
 
 /// @brief Method FillMeshData addr 0x1f97cec size 0x9e8 virtual true final false
- void FillMeshData(ByRef<int32_t> lightNum, ::ArrayW<::GlobalNamespace::____GlobalNamespace__BloomPrePassLight__QuadData> lightQuads, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix, float_t lineWidth) ;
+ void FillMeshData(ByRef<int32_t> lightNum, ::ArrayW<GlobalNamespace::GlobalNamespace__BloomPrePassLight__QuadData> lightQuads, UnityEngine::Matrix4x4 viewMatrix, UnityEngine::Matrix4x4 projectionMatrix, float_t lineWidth) ;
 
 /// @brief Method ClipPoints addr 0x1f986d4 size 0x94 virtual false final false
-static void ClipPoints(ByRef<::UnityEngine::Vector4> fromPointClipPos, ByRef<::UnityEngine::Vector4> toPointClipPos, ByRef<::UnityEngine::Vector3> fromPointViewPos, ByRef<::UnityEngine::Vector3> toPointViewPos, bool fromPointInside, float_t t) ;
+static void ClipPoints(ByRef<UnityEngine::Vector4> fromPointClipPos, ByRef<UnityEngine::Vector4> toPointClipPos, ByRef<UnityEngine::Vector3> fromPointViewPos, ByRef<UnityEngine::Vector3> toPointViewPos, bool fromPointInside, float_t t) ;
 
 /// @brief Method OnDrawGizmos addr 0x1f98768 size 0x13c virtual false final false
  void OnDrawGizmos() ;
@@ -393,6 +392,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::TubeBloomPrePassLight);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TubeBloomPrePassLight, "", "TubeBloomPrePassLight");
+NEED_NO_BOX(GlobalNamespace::TubeBloomPrePassLight);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TubeBloomPrePassLight, "", "TubeBloomPrePassLight");

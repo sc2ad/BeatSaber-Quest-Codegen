@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__KeyGenerationParameters_def.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
@@ -16,7 +15,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1018))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1068))
 // CS Name: Org.BouncyCastle.Crypto.Parameters.NaccacheSternKeyGenerationParameters
-class CORDL_TYPE NaccacheSternKeyGenerationParameters : public ::Org::BouncyCastle::Crypto::KeyGenerationParameters {
+class CORDL_TYPE NaccacheSternKeyGenerationParameters : public Org::BouncyCastle::Crypto::KeyGenerationParameters {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr NaccacheSternKeyGenerationParameters(NaccacheSternKeyGenerationParamet
 constexpr NaccacheSternKeyGenerationParameters(NaccacheSternKeyGenerationParameters&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NaccacheSternKeyGenerationParameters(void* ptr) noexcept : ::Org::BouncyCastle::Crypto::KeyGenerationParameters(ptr) {
+constexpr explicit NaccacheSternKeyGenerationParameters(void* ptr) noexcept : Org::BouncyCastle::Crypto::KeyGenerationParameters(ptr) {
 }
 
 
@@ -76,17 +75,17 @@ constexpr int32_t __get_countSmallPrimes() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "random", ty: "::Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }, CppParam { name: "strength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "certainty", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "countSmallPrimes", ty: "int32_t", modifiers: "", def_value: None }]
-explicit NaccacheSternKeyGenerationParameters(::Org::BouncyCastle::Security::SecureRandom random, int32_t strength, int32_t certainty, int32_t countSmallPrimes) ;
+// Ctor Parameters [CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }, CppParam { name: "strength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "certainty", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "countSmallPrimes", ty: "int32_t", modifiers: "", def_value: None }]
+explicit NaccacheSternKeyGenerationParameters(Org::BouncyCastle::Security::SecureRandom random, int32_t strength, int32_t certainty, int32_t countSmallPrimes) ;
 
 /// @brief Method .ctor addr 0xeaab30 size 0xbc virtual false final false
- void _ctor(::Org::BouncyCastle::Security::SecureRandom random, int32_t strength, int32_t certainty, int32_t countSmallPrimes) ;
+ void _ctor(Org::BouncyCastle::Security::SecureRandom random, int32_t strength, int32_t certainty, int32_t countSmallPrimes) ;
 
-// Ctor Parameters [CppParam { name: "random", ty: "::Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }, CppParam { name: "strength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "certainty", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "countSmallPrimes", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "debug", ty: "bool", modifiers: "", def_value: None }]
-explicit NaccacheSternKeyGenerationParameters(::Org::BouncyCastle::Security::SecureRandom random, int32_t strength, int32_t certainty, int32_t countSmallPrimes, bool debug) ;
+// Ctor Parameters [CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }, CppParam { name: "strength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "certainty", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "countSmallPrimes", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "debug", ty: "bool", modifiers: "", def_value: None }]
+explicit NaccacheSternKeyGenerationParameters(Org::BouncyCastle::Security::SecureRandom random, int32_t strength, int32_t certainty, int32_t countSmallPrimes, bool debug) ;
 
 /// @brief Method .ctor addr 0xeaabec size 0x4 virtual false final false
- void _ctor(::Org::BouncyCastle::Security::SecureRandom random, int32_t strength, int32_t certainty, int32_t countSmallPrimes, bool debug) ;
+ void _ctor(Org::BouncyCastle::Security::SecureRandom random, int32_t strength, int32_t certainty, int32_t countSmallPrimes, bool debug) ;
 
 /// @brief Method get_Certainty addr 0xeaabf0 size 0x8 virtual false final false
  int32_t get_Certainty() ;
@@ -101,6 +100,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Parameters
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters, "Org.BouncyCastle.Crypto.Parameters", "NaccacheSternKeyGenerationParameters");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters, "Org.BouncyCastle.Crypto.Parameters", "NaccacheSternKeyGenerationParameters");

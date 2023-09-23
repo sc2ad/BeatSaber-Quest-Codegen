@@ -2,16 +2,15 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
 namespace UnityEngine {
 class Renderer;
 }
 namespace UnityEngine {
 class Material;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -59,25 +58,24 @@ constexpr explicit MaterialUtility(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Fields
 
-static ::System::Collections::Generic::List_1<::UnityEngine::Material> __declspec(property(get=__get_s_MaterialArray, put=__set_s_MaterialArray))  s_MaterialArray;
+static System::Collections::Generic::List_1<UnityEngine::Material> __declspec(property(get=__get_s_MaterialArray, put=__set_s_MaterialArray))  s_MaterialArray;
 
-static void __set_s_MaterialArray(::System::Collections::Generic::List_1<::UnityEngine::Material> value) ;
+static void __set_s_MaterialArray(System::Collections::Generic::List_1<UnityEngine::Material> value) ;
 
-static ::System::Collections::Generic::List_1<::UnityEngine::Material> __get_s_MaterialArray() ;
+static System::Collections::Generic::List_1<UnityEngine::Material> __get_s_MaterialArray() ;
 
 
 // Methods
 
 /// @brief Method GetMaterialCount addr 0x29b4554 size 0xd0 virtual false final false
-static int32_t GetMaterialCount(::UnityEngine::Renderer renderer) ;
+static int32_t GetMaterialCount(UnityEngine::Renderer renderer) ;
 
 /// @brief Method GetSharedMaterial addr 0x29b4624 size 0x140 virtual false final false
-static ::UnityEngine::Material GetSharedMaterial(::UnityEngine::Renderer renderer, int32_t index) ;
+static UnityEngine::Material GetSharedMaterial(UnityEngine::Renderer renderer, int32_t index) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::MaterialUtility);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::MaterialUtility, "UnityEngine.ProBuilder", "MaterialUtility");
+NEED_NO_BOX(UnityEngine::ProBuilder::MaterialUtility);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MaterialUtility, "UnityEngine.ProBuilder", "MaterialUtility");

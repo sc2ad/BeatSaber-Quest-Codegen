@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-class Exception;
-}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -24,7 +23,7 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2480))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11509))
 // CS Name: System.Xml.XmlException
-class CORDL_TYPE XmlException : public ::System::SystemException {
+class CORDL_TYPE XmlException : public System::SystemException {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr XmlException(XmlException const& ) noexcept = default;
 constexpr XmlException(XmlException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XmlException(void* ptr) noexcept : ::System::SystemException(ptr) {
+constexpr explicit XmlException(void* ptr) noexcept : System::SystemException(ptr) {
 }
 
 
@@ -110,14 +109,14 @@ constexpr ::StringW __get_message() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "info", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit XmlException(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit XmlException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x27135c8 size 0x3d8 virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method GetObjectData addr 0x2713c44 size 0x170 virtual true final false
- void GetObjectData(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void GetObjectData(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 // Ctor Parameters []
 explicit XmlException() ;
@@ -131,17 +130,17 @@ explicit XmlException(::StringW message) ;
 /// @brief Method .ctor addr 0x2713dcc size 0x14 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "::System::Exception", modifiers: "", def_value: None }, CppParam { name: "lineNumber", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linePosition", ty: "int32_t", modifiers: "", def_value: None }]
-explicit XmlException(::StringW message, ::System::Exception innerException, int32_t lineNumber, int32_t linePosition) ;
+// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }, CppParam { name: "lineNumber", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linePosition", ty: "int32_t", modifiers: "", def_value: None }]
+explicit XmlException(::StringW message, System::Exception innerException, int32_t lineNumber, int32_t linePosition) ;
 
 /// @brief Method .ctor addr 0x2713de0 size 0x8 virtual false final false
- void _ctor(::StringW message, ::System::Exception innerException, int32_t lineNumber, int32_t linePosition) ;
+ void _ctor(::StringW message, System::Exception innerException, int32_t lineNumber, int32_t linePosition) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "::System::Exception", modifiers: "", def_value: None }, CppParam { name: "lineNumber", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linePosition", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sourceUri", ty: "::StringW", modifiers: "", def_value: None }]
-explicit XmlException(::StringW message, ::System::Exception innerException, int32_t lineNumber, int32_t linePosition, ::StringW sourceUri) ;
+// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }, CppParam { name: "lineNumber", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linePosition", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sourceUri", ty: "::StringW", modifiers: "", def_value: None }]
+explicit XmlException(::StringW message, System::Exception innerException, int32_t lineNumber, int32_t linePosition, ::StringW sourceUri) ;
 
 /// @brief Method .ctor addr 0x2713de8 size 0x128 virtual false final false
- void _ctor(::StringW message, ::System::Exception innerException, int32_t lineNumber, int32_t linePosition, ::StringW sourceUri) ;
+ void _ctor(::StringW message, System::Exception innerException, int32_t lineNumber, int32_t linePosition, ::StringW sourceUri) ;
 
 // Ctor Parameters [CppParam { name: "res", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "args", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }]
 explicit XmlException(::StringW res, ::ArrayW<::StringW> args) ;
@@ -185,17 +184,17 @@ explicit XmlException(::StringW res, ::ArrayW<::StringW> args, int32_t lineNumbe
 /// @brief Method .ctor addr 0x2714264 size 0x7c virtual false final false
  void _ctor(::StringW res, ::ArrayW<::StringW> args, int32_t lineNumber, int32_t linePosition, ::StringW sourceUri) ;
 
-// Ctor Parameters [CppParam { name: "res", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "args", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "::System::Exception", modifiers: "", def_value: None }, CppParam { name: "lineNumber", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linePosition", ty: "int32_t", modifiers: "", def_value: None }]
-explicit XmlException(::StringW res, ::ArrayW<::StringW> args, ::System::Exception innerException, int32_t lineNumber, int32_t linePosition) ;
+// Ctor Parameters [CppParam { name: "res", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "args", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }, CppParam { name: "lineNumber", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linePosition", ty: "int32_t", modifiers: "", def_value: None }]
+explicit XmlException(::StringW res, ::ArrayW<::StringW> args, System::Exception innerException, int32_t lineNumber, int32_t linePosition) ;
 
 /// @brief Method .ctor addr 0x27142e0 size 0x7c virtual false final false
- void _ctor(::StringW res, ::ArrayW<::StringW> args, ::System::Exception innerException, int32_t lineNumber, int32_t linePosition) ;
+ void _ctor(::StringW res, ::ArrayW<::StringW> args, System::Exception innerException, int32_t lineNumber, int32_t linePosition) ;
 
-// Ctor Parameters [CppParam { name: "res", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "args", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "::System::Exception", modifiers: "", def_value: None }, CppParam { name: "lineNumber", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linePosition", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sourceUri", ty: "::StringW", modifiers: "", def_value: None }]
-explicit XmlException(::StringW res, ::ArrayW<::StringW> args, ::System::Exception innerException, int32_t lineNumber, int32_t linePosition, ::StringW sourceUri) ;
+// Ctor Parameters [CppParam { name: "res", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "args", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }, CppParam { name: "lineNumber", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linePosition", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sourceUri", ty: "::StringW", modifiers: "", def_value: None }]
+explicit XmlException(::StringW res, ::ArrayW<::StringW> args, System::Exception innerException, int32_t lineNumber, int32_t linePosition, ::StringW sourceUri) ;
 
 /// @brief Method .ctor addr 0x2714008 size 0x80 virtual false final false
- void _ctor(::StringW res, ::ArrayW<::StringW> args, ::System::Exception innerException, int32_t lineNumber, int32_t linePosition, ::StringW sourceUri) ;
+ void _ctor(::StringW res, ::ArrayW<::StringW> args, System::Exception innerException, int32_t lineNumber, int32_t linePosition, ::StringW sourceUri) ;
 
 /// @brief Method FormatUserMessage addr 0x2713f10 size 0xf8 virtual false final false
 static ::StringW FormatUserMessage(::StringW message, int32_t lineNumber, int32_t linePosition) ;
@@ -228,6 +227,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::XmlException);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlException, "System.Xml", "XmlException");
+NEED_NO_BOX(System::Xml::XmlException);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlException, "System.Xml", "XmlException");

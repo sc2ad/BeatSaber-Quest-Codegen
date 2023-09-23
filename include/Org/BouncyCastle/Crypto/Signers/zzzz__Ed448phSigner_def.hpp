@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto::Parameters {
 class Ed448PrivateKeyParameters;
 }
@@ -15,10 +14,10 @@ namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class ISigner;
+class IXof;
 }
 namespace Org::BouncyCastle::Crypto {
-class IXof;
+class ISigner;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
@@ -33,8 +32,8 @@ namespace Org::BouncyCastle::Crypto::Signers {
 class CORDL_TYPE Ed448phSigner : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::ISigner
-constexpr operator  ::Org::BouncyCastle::Crypto::ISigner() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::ISigner
+constexpr operator  Org::BouncyCastle::Crypto::ISigner() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -69,11 +68,11 @@ constexpr explicit Ed448phSigner(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 
 // Fields
 
- ::Org::BouncyCastle::Crypto::IXof __declspec(property(get=__get_prehash, put=__set_prehash))  prehash;
+ Org::BouncyCastle::Crypto::IXof __declspec(property(get=__get_prehash, put=__set_prehash))  prehash;
 
-constexpr void __set_prehash(::Org::BouncyCastle::Crypto::IXof value) ;
+constexpr void __set_prehash(Org::BouncyCastle::Crypto::IXof value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IXof __get_prehash() const;
+constexpr Org::BouncyCastle::Crypto::IXof __get_prehash() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get_context, put=__set_context))  context;
 
@@ -87,17 +86,17 @@ constexpr void __set_forSigning(bool value) ;
 
 constexpr bool __get_forSigning() const;
 
- ::Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters __declspec(property(get=__get_privateKey, put=__set_privateKey))  privateKey;
+ Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters __declspec(property(get=__get_privateKey, put=__set_privateKey))  privateKey;
 
-constexpr void __set_privateKey(::Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters value) ;
+constexpr void __set_privateKey(Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters __get_privateKey() const;
+constexpr Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters __get_privateKey() const;
 
- ::Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters __declspec(property(get=__get_publicKey, put=__set_publicKey))  publicKey;
+ Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters __declspec(property(get=__get_publicKey, put=__set_publicKey))  publicKey;
 
-constexpr void __set_publicKey(::Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters value) ;
+constexpr void __set_publicKey(Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters __get_publicKey() const;
+constexpr Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters __get_publicKey() const;
 
 
 // Properties
@@ -117,7 +116,7 @@ explicit Ed448phSigner(::ArrayW<uint8_t> context) ;
  ::StringW get_AlgorithmName() ;
 
 /// @brief Method Init addr 0xebd3d8 size 0xd4 virtual true final false
- void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method Update addr 0xebd550 size 0xac virtual true final false
  void Update(uint8_t b) ;
@@ -138,6 +137,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Signers
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Signers::Ed448phSigner);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Signers::Ed448phSigner, "Org.BouncyCastle.Crypto.Signers", "Ed448phSigner");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Signers::Ed448phSigner);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::Ed448phSigner, "Org.BouncyCastle.Crypto.Signers", "Ed448phSigner");

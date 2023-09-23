@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__ScriptableObjectInstaller_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class NoteDebris;
-}
 namespace GlobalNamespace {
 class BoolSO;
+}
+namespace GlobalNamespace {
+class NoteDebris;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11089))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5488))
 // CS Name: NoteDebrisPoolInstaller
-class CORDL_TYPE NoteDebrisPoolInstaller : public ::Zenject::ScriptableObjectInstaller {
+class CORDL_TYPE NoteDebrisPoolInstaller : public Zenject::ScriptableObjectInstaller {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr NoteDebrisPoolInstaller(NoteDebrisPoolInstaller const& ) noexcept = de
 constexpr NoteDebrisPoolInstaller(NoteDebrisPoolInstaller&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NoteDebrisPoolInstaller(void* ptr) noexcept : ::Zenject::ScriptableObjectInstaller(ptr) {
+constexpr explicit NoteDebrisPoolInstaller(void* ptr) noexcept : Zenject::ScriptableObjectInstaller(ptr) {
 }
 
 
@@ -54,47 +53,47 @@ constexpr explicit NoteDebrisPoolInstaller(void* ptr) noexcept : ::Zenject::Scri
 
 // Fields
 
- ::GlobalNamespace::NoteDebris __declspec(property(get=__get__normalNoteDebrisHDPrefab, put=__set__normalNoteDebrisHDPrefab))  _normalNoteDebrisHDPrefab;
+ GlobalNamespace::NoteDebris __declspec(property(get=__get__normalNoteDebrisHDPrefab, put=__set__normalNoteDebrisHDPrefab))  _normalNoteDebrisHDPrefab;
 
-constexpr void __set__normalNoteDebrisHDPrefab(::GlobalNamespace::NoteDebris value) ;
+constexpr void __set__normalNoteDebrisHDPrefab(GlobalNamespace::NoteDebris value) ;
 
-constexpr ::GlobalNamespace::NoteDebris __get__normalNoteDebrisHDPrefab() const;
+constexpr GlobalNamespace::NoteDebris __get__normalNoteDebrisHDPrefab() const;
 
- ::GlobalNamespace::NoteDebris __declspec(property(get=__get__normalNoteDebrisLWPrefab, put=__set__normalNoteDebrisLWPrefab))  _normalNoteDebrisLWPrefab;
+ GlobalNamespace::NoteDebris __declspec(property(get=__get__normalNoteDebrisLWPrefab, put=__set__normalNoteDebrisLWPrefab))  _normalNoteDebrisLWPrefab;
 
-constexpr void __set__normalNoteDebrisLWPrefab(::GlobalNamespace::NoteDebris value) ;
+constexpr void __set__normalNoteDebrisLWPrefab(GlobalNamespace::NoteDebris value) ;
 
-constexpr ::GlobalNamespace::NoteDebris __get__normalNoteDebrisLWPrefab() const;
+constexpr GlobalNamespace::NoteDebris __get__normalNoteDebrisLWPrefab() const;
 
- ::GlobalNamespace::NoteDebris __declspec(property(get=__get__burstSliderHeadNoteDebrisHDPrefab, put=__set__burstSliderHeadNoteDebrisHDPrefab))  _burstSliderHeadNoteDebrisHDPrefab;
+ GlobalNamespace::NoteDebris __declspec(property(get=__get__burstSliderHeadNoteDebrisHDPrefab, put=__set__burstSliderHeadNoteDebrisHDPrefab))  _burstSliderHeadNoteDebrisHDPrefab;
 
-constexpr void __set__burstSliderHeadNoteDebrisHDPrefab(::GlobalNamespace::NoteDebris value) ;
+constexpr void __set__burstSliderHeadNoteDebrisHDPrefab(GlobalNamespace::NoteDebris value) ;
 
-constexpr ::GlobalNamespace::NoteDebris __get__burstSliderHeadNoteDebrisHDPrefab() const;
+constexpr GlobalNamespace::NoteDebris __get__burstSliderHeadNoteDebrisHDPrefab() const;
 
- ::GlobalNamespace::NoteDebris __declspec(property(get=__get__burstSliderHeadNoteDebrisLWPrefab, put=__set__burstSliderHeadNoteDebrisLWPrefab))  _burstSliderHeadNoteDebrisLWPrefab;
+ GlobalNamespace::NoteDebris __declspec(property(get=__get__burstSliderHeadNoteDebrisLWPrefab, put=__set__burstSliderHeadNoteDebrisLWPrefab))  _burstSliderHeadNoteDebrisLWPrefab;
 
-constexpr void __set__burstSliderHeadNoteDebrisLWPrefab(::GlobalNamespace::NoteDebris value) ;
+constexpr void __set__burstSliderHeadNoteDebrisLWPrefab(GlobalNamespace::NoteDebris value) ;
 
-constexpr ::GlobalNamespace::NoteDebris __get__burstSliderHeadNoteDebrisLWPrefab() const;
+constexpr GlobalNamespace::NoteDebris __get__burstSliderHeadNoteDebrisLWPrefab() const;
 
- ::GlobalNamespace::NoteDebris __declspec(property(get=__get__burstSliderElementNoteHDPrefab, put=__set__burstSliderElementNoteHDPrefab))  _burstSliderElementNoteHDPrefab;
+ GlobalNamespace::NoteDebris __declspec(property(get=__get__burstSliderElementNoteHDPrefab, put=__set__burstSliderElementNoteHDPrefab))  _burstSliderElementNoteHDPrefab;
 
-constexpr void __set__burstSliderElementNoteHDPrefab(::GlobalNamespace::NoteDebris value) ;
+constexpr void __set__burstSliderElementNoteHDPrefab(GlobalNamespace::NoteDebris value) ;
 
-constexpr ::GlobalNamespace::NoteDebris __get__burstSliderElementNoteHDPrefab() const;
+constexpr GlobalNamespace::NoteDebris __get__burstSliderElementNoteHDPrefab() const;
 
- ::GlobalNamespace::NoteDebris __declspec(property(get=__get__burstSliderElementNoteLWPrefab, put=__set__burstSliderElementNoteLWPrefab))  _burstSliderElementNoteLWPrefab;
+ GlobalNamespace::NoteDebris __declspec(property(get=__get__burstSliderElementNoteLWPrefab, put=__set__burstSliderElementNoteLWPrefab))  _burstSliderElementNoteLWPrefab;
 
-constexpr void __set__burstSliderElementNoteLWPrefab(::GlobalNamespace::NoteDebris value) ;
+constexpr void __set__burstSliderElementNoteLWPrefab(GlobalNamespace::NoteDebris value) ;
 
-constexpr ::GlobalNamespace::NoteDebris __get__burstSliderElementNoteLWPrefab() const;
+constexpr GlobalNamespace::NoteDebris __get__burstSliderElementNoteLWPrefab() const;
 
- ::GlobalNamespace::BoolSO __declspec(property(get=__get__noteDebrisHDConditionVariable, put=__set__noteDebrisHDConditionVariable))  _noteDebrisHDConditionVariable;
+ GlobalNamespace::BoolSO __declspec(property(get=__get__noteDebrisHDConditionVariable, put=__set__noteDebrisHDConditionVariable))  _noteDebrisHDConditionVariable;
 
-constexpr void __set__noteDebrisHDConditionVariable(::GlobalNamespace::BoolSO value) ;
+constexpr void __set__noteDebrisHDConditionVariable(GlobalNamespace::BoolSO value) ;
 
-constexpr ::GlobalNamespace::BoolSO __get__noteDebrisHDConditionVariable() const;
+constexpr GlobalNamespace::BoolSO __get__noteDebrisHDConditionVariable() const;
 
 
 // Methods
@@ -112,6 +111,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::NoteDebrisPoolInstaller);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoteDebrisPoolInstaller, "", "NoteDebrisPoolInstaller");
+NEED_NO_BOX(GlobalNamespace::NoteDebrisPoolInstaller);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteDebrisPoolInstaller, "", "NoteDebrisPoolInstaller");

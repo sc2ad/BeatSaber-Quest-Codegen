@@ -1,17 +1,16 @@
 #pragma once
 #include "UnityEngine/zzzz__AndroidJavaProxy_impl.hpp"
-namespace {
 #include "GlobalNamespace/zzzz__OVROnCompleteListener_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::OVROnCompleteListener._ctor
+//  Writing Method size for method: GlobalNamespace::OVROnCompleteListener._ctor
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVROnCompleteListener::*)()>(&::GlobalNamespace::OVROnCompleteListener::_ctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVROnCompleteListener::*)()>(&GlobalNamespace::OVROnCompleteListener::_ctor)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x25d01e0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROnCompleteListener>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVROnCompleteListener>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -19,67 +18,66 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Glo
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVROnCompleteListener.onSuccess
+//  Writing Method size for method: GlobalNamespace::OVROnCompleteListener.onSuccess
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVROnCompleteListener::*)()>(&::GlobalNamespace::OVROnCompleteListener::onSuccess)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVROnCompleteListener::*)()>(&GlobalNamespace::OVROnCompleteListener::onSuccess)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(::GlobalNamespace::OVROnCompleteListener),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROnCompleteListener>::get(),
+                                classof(GlobalNamespace::OVROnCompleteListener),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVROnCompleteListener>::get(),
                                   9
                                 ));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVROnCompleteListener.onFailure
+//  Writing Method size for method: GlobalNamespace::OVROnCompleteListener.onFailure
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVROnCompleteListener::*)()>(&::GlobalNamespace::OVROnCompleteListener::onFailure)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVROnCompleteListener::*)()>(&GlobalNamespace::OVROnCompleteListener::onFailure)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(::GlobalNamespace::OVROnCompleteListener),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROnCompleteListener>::get(),
+                                classof(GlobalNamespace::OVROnCompleteListener),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVROnCompleteListener>::get(),
                                   10
                                 ));
     return ___internal_method;
   }
 };
 // Ctor Parameters []
- ::GlobalNamespace::OVROnCompleteListener::OVROnCompleteListener()  : ::UnityEngine::AndroidJavaProxy(THROW_UNLESS(::il2cpp_utils::New<OVROnCompleteListener>())) {}
- void ::GlobalNamespace::OVROnCompleteListener::_ctor()  {
+ GlobalNamespace::OVROnCompleteListener::OVROnCompleteListener()  : UnityEngine::AndroidJavaProxy(THROW_UNLESS(::il2cpp_utils::New<OVROnCompleteListener>())) {}
+ void GlobalNamespace::OVROnCompleteListener::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROnCompleteListener>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVROnCompleteListener>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- void ::GlobalNamespace::OVROnCompleteListener::onSuccess()  {
+ void GlobalNamespace::OVROnCompleteListener::onSuccess()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROnCompleteListener>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVROnCompleteListener>::get(),
                             "onSuccess",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- void ::GlobalNamespace::OVROnCompleteListener::onFailure()  {
+ void GlobalNamespace::OVROnCompleteListener::onFailure()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROnCompleteListener>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVROnCompleteListener>::get(),
                             "onFailure",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-} // end anonymous namespace

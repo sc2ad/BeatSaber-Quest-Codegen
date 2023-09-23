@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 struct AttributeTargets;
@@ -81,56 +80,55 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Assembly offset 0
-static ::System::AttributeTargets const Assembly;
+static System::AttributeTargets const Assembly;
 
 /// @brief Field Module offset 0
-static ::System::AttributeTargets const Module;
+static System::AttributeTargets const Module;
 
 /// @brief Field Class offset 0
-static ::System::AttributeTargets const Class;
+static System::AttributeTargets const Class;
 
 /// @brief Field Struct offset 0
-static ::System::AttributeTargets const Struct;
+static System::AttributeTargets const Struct;
 
 /// @brief Field Enum offset 0
-static ::System::AttributeTargets const Enum;
+static System::AttributeTargets const Enum;
 
 /// @brief Field Constructor offset 0
-static ::System::AttributeTargets const Constructor;
+static System::AttributeTargets const Constructor;
 
 /// @brief Field Method offset 0
-static ::System::AttributeTargets const Method;
+static System::AttributeTargets const Method;
 
 /// @brief Field Property offset 0
-static ::System::AttributeTargets const Property;
+static System::AttributeTargets const Property;
 
 /// @brief Field Field offset 0
-static ::System::AttributeTargets const Field;
+static System::AttributeTargets const Field;
 
 /// @brief Field Event offset 0
-static ::System::AttributeTargets const Event;
+static System::AttributeTargets const Event;
 
 /// @brief Field Interface offset 0
-static ::System::AttributeTargets const Interface;
+static System::AttributeTargets const Interface;
 
 /// @brief Field Parameter offset 0
-static ::System::AttributeTargets const Parameter;
+static System::AttributeTargets const Parameter;
 
 /// @brief Field Delegate offset 0
-static ::System::AttributeTargets const Delegate;
+static System::AttributeTargets const Delegate;
 
 /// @brief Field ReturnValue offset 0
-static ::System::AttributeTargets const ReturnValue;
+static System::AttributeTargets const ReturnValue;
 
 /// @brief Field GenericParameter offset 0
-static ::System::AttributeTargets const GenericParameter;
+static System::AttributeTargets const GenericParameter;
 
 /// @brief Field All offset 0
-static ::System::AttributeTargets const All;
+static System::AttributeTargets const All;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::AttributeTargets, "System", "AttributeTargets");
+DEFINE_IL2CPP_ARG_TYPE(System::AttributeTargets, "System", "AttributeTargets");

@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
-namespace UnityEngine {
-class Texture;
-}
 namespace UnityEngine {
 class Material;
+}
+namespace UnityEngine {
+class Texture;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -56,7 +55,7 @@ constexpr explicit DrawHelpers(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 // Methods
 
 /// @brief Method DrawTexture addr 0x1f73db0 size 0x1a8 virtual false final false
-static void DrawTexture(::UnityEngine::Texture texture, float_t x, float_t y, float_t w, float_t h, ::UnityEngine::Material mat, float_t sx, float_t sy, float_t sw, float_t sh) ;
+static void DrawTexture(UnityEngine::Texture texture, float_t x, float_t y, float_t w, float_t h, UnityEngine::Material mat, float_t sx, float_t sy, float_t sw, float_t sh) ;
 
 // Ctor Parameters []
 explicit DrawHelpers() ;
@@ -68,6 +67,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::DrawHelpers);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DrawHelpers, "", "DrawHelpers");
+NEED_NO_BOX(GlobalNamespace::DrawHelpers);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DrawHelpers, "", "DrawHelpers");

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Xml {
 class BitStack;
@@ -96,6 +95,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::BitStack);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::BitStack, "System.Xml", "BitStack");
+NEED_NO_BOX(System::Xml::BitStack);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::BitStack, "System.Xml", "BitStack");

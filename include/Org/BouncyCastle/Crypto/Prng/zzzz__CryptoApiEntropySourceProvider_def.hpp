@@ -3,22 +3,21 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
+namespace System::Security::Cryptography {
+class RandomNumberGenerator;
+}
 namespace Org::BouncyCastle::Crypto {
 class IEntropySourceProvider;
 }
 namespace Org::BouncyCastle::Crypto {
 class IEntropySource;
 }
-namespace System::Security::Cryptography {
-class RandomNumberGenerator;
-}
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Prng {
 class CryptoApiEntropySourceProvider;
 }
 namespace Org::BouncyCastle::Crypto::Prng {
-class ____Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource;
+class Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource;
 }
 // Type: ::CryptoApiEntropySource
 namespace Org::BouncyCastle::Crypto::Prng {
@@ -26,50 +25,50 @@ namespace Org::BouncyCastle::Crypto::Prng {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1103))
 // CS Name: Org.BouncyCastle.Crypto.Prng.CryptoApiEntropySourceProvider::CryptoApiEntropySource
-class CORDL_TYPE ____Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IEntropySource
-constexpr operator  ::Org::BouncyCastle::Crypto::IEntropySource() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IEntropySource
+constexpr operator  Org::BouncyCastle::Crypto::IEntropySource() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource() = default;
+virtual ~Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource", modifiers: " const&", def_value: None }]
-constexpr ____Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource(____Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource", modifiers: " const&", def_value: None }]
+constexpr Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource(Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource", modifiers: "&&", def_value: None }]
-constexpr ____Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource(____Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource", modifiers: "&&", def_value: None }]
+constexpr Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource(Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource& operator=(std::nullptr_t) noexcept {
+  constexpr Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource& operator=(void* o) noexcept {
+  constexpr Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource& operator=(____Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource&& o) noexcept = default;
-  constexpr ____Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource& operator=(____Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource const& o) noexcept = default;
+  constexpr Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource& operator=(Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource&& o) noexcept = default;
+  constexpr Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource& operator=(Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Security::Cryptography::RandomNumberGenerator __declspec(property(get=__get_mRng, put=__set_mRng))  mRng;
+ System::Security::Cryptography::RandomNumberGenerator __declspec(property(get=__get_mRng, put=__set_mRng))  mRng;
 
-constexpr void __set_mRng(::System::Security::Cryptography::RandomNumberGenerator value) ;
+constexpr void __set_mRng(System::Security::Cryptography::RandomNumberGenerator value) ;
 
-constexpr ::System::Security::Cryptography::RandomNumberGenerator __get_mRng() const;
+constexpr System::Security::Cryptography::RandomNumberGenerator __get_mRng() const;
 
  bool __declspec(property(get=__get_mPredictionResistant, put=__set_mPredictionResistant))  mPredictionResistant;
 
@@ -93,11 +92,11 @@ constexpr int32_t __get_mEntropySize() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "rng", ty: "::System::Security::Cryptography::RandomNumberGenerator", modifiers: "", def_value: None }, CppParam { name: "predictionResistant", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "entropySize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource(::System::Security::Cryptography::RandomNumberGenerator rng, bool predictionResistant, int32_t entropySize) ;
+// Ctor Parameters [CppParam { name: "rng", ty: "System::Security::Cryptography::RandomNumberGenerator", modifiers: "", def_value: None }, CppParam { name: "predictionResistant", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "entropySize", ty: "int32_t", modifiers: "", def_value: None }]
+explicit Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource(System::Security::Cryptography::RandomNumberGenerator rng, bool predictionResistant, int32_t entropySize) ;
 
 /// @brief Method .ctor addr 0xeb3c24 size 0x40 virtual false final false
- void _ctor(::System::Security::Cryptography::RandomNumberGenerator rng, bool predictionResistant, int32_t entropySize) ;
+ void _ctor(System::Security::Cryptography::RandomNumberGenerator rng, bool predictionResistant, int32_t entropySize) ;
 
 /// @brief Method Org.BouncyCastle.Crypto.IEntropySource.get_IsPredictionResistant addr 0xeb3c64 size 0x8 virtual true final true
  bool Org_BouncyCastle_Crypto_IEntropySource_get_IsPredictionResistant() ;
@@ -121,10 +120,10 @@ namespace Org::BouncyCastle::Crypto::Prng {
 class CORDL_TYPE CryptoApiEntropySourceProvider : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using CryptoApiEntropySource = ::Org::BouncyCastle::Crypto::Prng::____Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource;
+using CryptoApiEntropySource = Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource;
 
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IEntropySourceProvider
-constexpr operator  ::Org::BouncyCastle::Crypto::IEntropySourceProvider() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IEntropySourceProvider
+constexpr operator  Org::BouncyCastle::Crypto::IEntropySourceProvider() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -159,11 +158,11 @@ constexpr explicit CryptoApiEntropySourceProvider(void* ptr) noexcept : ::bs_hoo
 
 // Fields
 
- ::System::Security::Cryptography::RandomNumberGenerator __declspec(property(get=__get_mRng, put=__set_mRng))  mRng;
+ System::Security::Cryptography::RandomNumberGenerator __declspec(property(get=__get_mRng, put=__set_mRng))  mRng;
 
-constexpr void __set_mRng(::System::Security::Cryptography::RandomNumberGenerator value) ;
+constexpr void __set_mRng(System::Security::Cryptography::RandomNumberGenerator value) ;
 
-constexpr ::System::Security::Cryptography::RandomNumberGenerator __get_mRng() const;
+constexpr System::Security::Cryptography::RandomNumberGenerator __get_mRng() const;
 
  bool __declspec(property(get=__get_mPredictionResistant, put=__set_mPredictionResistant))  mPredictionResistant;
 
@@ -180,21 +179,20 @@ explicit CryptoApiEntropySourceProvider() ;
 /// @brief Method .ctor addr 0xeb3afc size 0x24 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "rng", ty: "::System::Security::Cryptography::RandomNumberGenerator", modifiers: "", def_value: None }, CppParam { name: "isPredictionResistant", ty: "bool", modifiers: "", def_value: None }]
-explicit CryptoApiEntropySourceProvider(::System::Security::Cryptography::RandomNumberGenerator rng, bool isPredictionResistant) ;
+// Ctor Parameters [CppParam { name: "rng", ty: "System::Security::Cryptography::RandomNumberGenerator", modifiers: "", def_value: None }, CppParam { name: "isPredictionResistant", ty: "bool", modifiers: "", def_value: None }]
+explicit CryptoApiEntropySourceProvider(System::Security::Cryptography::RandomNumberGenerator rng, bool isPredictionResistant) ;
 
 /// @brief Method .ctor addr 0xeb3b20 size 0x84 virtual false final false
- void _ctor(::System::Security::Cryptography::RandomNumberGenerator rng, bool isPredictionResistant) ;
+ void _ctor(System::Security::Cryptography::RandomNumberGenerator rng, bool isPredictionResistant) ;
 
 /// @brief Method Get addr 0xeb3ba4 size 0x80 virtual true final true
- ::Org::BouncyCastle::Crypto::IEntropySource Get(int32_t bitsRequired) ;
+ Org::BouncyCastle::Crypto::IEntropySource Get(int32_t bitsRequired) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Prng
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Prng::CryptoApiEntropySourceProvider);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Prng::CryptoApiEntropySourceProvider, "Org.BouncyCastle.Crypto.Prng", "CryptoApiEntropySourceProvider");
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Prng::____Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Prng::____Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource, "Org.BouncyCastle.Crypto.Prng", "CryptoApiEntropySourceProvider/CryptoApiEntropySource");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Prng::CryptoApiEntropySourceProvider);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Prng::CryptoApiEntropySourceProvider, "Org.BouncyCastle.Crypto.Prng", "CryptoApiEntropySourceProvider");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource, "Org.BouncyCastle.Crypto.Prng", "CryptoApiEntropySourceProvider/CryptoApiEntropySource");

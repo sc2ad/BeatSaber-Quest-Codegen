@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace HoudiniEngineUnity {
 class HEU_ShelfToolData;
 }
@@ -74,11 +73,11 @@ constexpr void __set__defaultShelf(bool value) ;
 
 constexpr bool __get__defaultShelf() const;
 
- ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ShelfToolData> __declspec(property(get=__get__tools, put=__set__tools))  _tools;
+ System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ShelfToolData> __declspec(property(get=__get__tools, put=__set__tools))  _tools;
 
-constexpr void __set__tools(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ShelfToolData> value) ;
+constexpr void __set__tools(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ShelfToolData> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ShelfToolData> __get__tools() const;
+constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ShelfToolData> __get__tools() const;
 
 
 // Methods
@@ -93,6 +92,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_Shelf);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_Shelf, "HoudiniEngineUnity", "HEU_Shelf");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_Shelf);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Shelf, "HoudiniEngineUnity", "HEU_Shelf");

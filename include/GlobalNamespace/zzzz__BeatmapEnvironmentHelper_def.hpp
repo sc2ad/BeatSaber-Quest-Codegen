@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
@@ -55,12 +54,11 @@ constexpr explicit BeatmapEnvironmentHelper(void* ptr) noexcept : ::bs_hook::Il2
 // Methods
 
 /// @brief Method GetEnvironmentInfo addr 0x21da280 size 0x4b4 virtual false final false
-static ::GlobalNamespace::EnvironmentInfoSO GetEnvironmentInfo(::GlobalNamespace::IDifficultyBeatmap difficultyBeatmap) ;
+static GlobalNamespace::EnvironmentInfoSO GetEnvironmentInfo(GlobalNamespace::IDifficultyBeatmap difficultyBeatmap) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BeatmapEnvironmentHelper);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapEnvironmentHelper, "", "BeatmapEnvironmentHelper");
+NEED_NO_BOX(GlobalNamespace::BeatmapEnvironmentHelper);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEnvironmentHelper, "", "BeatmapEnvironmentHelper");

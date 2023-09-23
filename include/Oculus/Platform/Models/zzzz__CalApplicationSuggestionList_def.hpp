@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__CalApplicationSuggestion_def.hpp"
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_def.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class CalApplicationSuggestionList;
@@ -11,10 +10,10 @@ class CalApplicationSuggestionList;
 // Type: Oculus.Platform.Models::CalApplicationSuggestionList
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13399)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1132 }), TypeDefinitionIndex(TypeDefinitionIndex(13410))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1132 }), TypeDefinitionIndex(TypeDefinitionIndex(13399)), TypeDefinitionIndex(TypeDefinitionIndex(13410))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13400))
 // CS Name: Oculus.Platform.Models.CalApplicationSuggestionList
-class CORDL_TYPE CalApplicationSuggestionList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::CalApplicationSuggestion> {
+class CORDL_TYPE CalApplicationSuggestionList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::CalApplicationSuggestion> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr CalApplicationSuggestionList(CalApplicationSuggestionList const& ) noe
 constexpr CalApplicationSuggestionList(CalApplicationSuggestionList&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CalApplicationSuggestionList(void* ptr) noexcept : ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::CalApplicationSuggestion>(ptr) {
+constexpr explicit CalApplicationSuggestionList(void* ptr) noexcept : Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::CalApplicationSuggestion>(ptr) {
 }
 
 
@@ -60,6 +59,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::CalApplicationSuggestionList);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::CalApplicationSuggestionList, "Oculus.Platform.Models", "CalApplicationSuggestionList");
+NEED_NO_BOX(Oculus::Platform::Models::CalApplicationSuggestionList);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::CalApplicationSuggestionList, "Oculus.Platform.Models", "CalApplicationSuggestionList");

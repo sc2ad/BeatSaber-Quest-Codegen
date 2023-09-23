@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__KeyboardEventBase_1_def.hpp"
-namespace {
 namespace UnityEngine {
 class Event;
 }
@@ -12,10 +11,10 @@ class KeyDownEvent;
 // Type: UnityEngine.UIElements::KeyDownEvent
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7339)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7339), inst: 3802 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7339), inst: 3802 }), TypeDefinitionIndex(TypeDefinitionIndex(7339))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7340))
 // CS Name: UnityEngine.UIElements.KeyDownEvent
-class CORDL_TYPE KeyDownEvent : public ::UnityEngine::UIElements::KeyboardEventBase_1<::UnityEngine::UIElements::KeyDownEvent> {
+class CORDL_TYPE KeyDownEvent : public UnityEngine::UIElements::KeyboardEventBase_1<UnityEngine::UIElements::KeyDownEvent> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr KeyDownEvent(KeyDownEvent const& ) noexcept = default;
 constexpr KeyDownEvent(KeyDownEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit KeyDownEvent(void* ptr) noexcept : ::UnityEngine::UIElements::KeyboardEventBase_1<::UnityEngine::UIElements::KeyDownEvent>(ptr) {
+constexpr explicit KeyDownEvent(void* ptr) noexcept : UnityEngine::UIElements::KeyboardEventBase_1<UnityEngine::UIElements::KeyDownEvent>(ptr) {
 }
 
 
@@ -52,7 +51,7 @@ constexpr explicit KeyDownEvent(void* ptr) noexcept : ::UnityEngine::UIElements:
 // Methods
 
 /// @brief Method GetEquivalentImguiEvent addr 0x2cdb7d4 size 0xc0 virtual false final false
- void GetEquivalentImguiEvent(::UnityEngine::Event outImguiEvent) ;
+ void GetEquivalentImguiEvent(UnityEngine::Event outImguiEvent) ;
 
 // Ctor Parameters []
 explicit KeyDownEvent() ;
@@ -64,6 +63,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::KeyDownEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::KeyDownEvent, "UnityEngine.UIElements", "KeyDownEvent");
+NEED_NO_BOX(UnityEngine::UIElements::KeyDownEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::KeyDownEvent, "UnityEngine.UIElements", "KeyDownEvent");

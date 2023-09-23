@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections {
 class ICollection;
 }
@@ -59,29 +58,29 @@ constexpr explicit X509CertPairParser(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Fields
 
- ::System::IO::Stream __declspec(property(get=__get_currentStream, put=__set_currentStream))  currentStream;
+ System::IO::Stream __declspec(property(get=__get_currentStream, put=__set_currentStream))  currentStream;
 
-constexpr void __set_currentStream(::System::IO::Stream value) ;
+constexpr void __set_currentStream(System::IO::Stream value) ;
 
-constexpr ::System::IO::Stream __get_currentStream() const;
+constexpr System::IO::Stream __get_currentStream() const;
 
 
 // Methods
 
 /// @brief Method ReadDerCrossCertificatePair addr 0x10f093c size 0xf4 virtual false final false
- ::Org::BouncyCastle::X509::X509CertificatePair ReadDerCrossCertificatePair(::System::IO::Stream inStream) ;
+ Org::BouncyCastle::X509::X509CertificatePair ReadDerCrossCertificatePair(System::IO::Stream inStream) ;
 
 /// @brief Method ReadCertPair addr 0x10f0a30 size 0x78 virtual false final false
- ::Org::BouncyCastle::X509::X509CertificatePair ReadCertPair(::ArrayW<uint8_t> input) ;
+ Org::BouncyCastle::X509::X509CertificatePair ReadCertPair(::ArrayW<uint8_t> input) ;
 
 /// @brief Method ReadCertPairs addr 0x10f0cec size 0x78 virtual false final false
- ::System::Collections::ICollection ReadCertPairs(::ArrayW<uint8_t> input) ;
+ System::Collections::ICollection ReadCertPairs(::ArrayW<uint8_t> input) ;
 
 /// @brief Method ReadCertPair addr 0x10f0aa8 size 0x244 virtual false final false
- ::Org::BouncyCastle::X509::X509CertificatePair ReadCertPair(::System::IO::Stream inStream) ;
+ Org::BouncyCastle::X509::X509CertificatePair ReadCertPair(System::IO::Stream inStream) ;
 
 /// @brief Method ReadCertPairs addr 0x10f0d64 size 0x110 virtual false final false
- ::System::Collections::ICollection ReadCertPairs(::System::IO::Stream inStream) ;
+ System::Collections::ICollection ReadCertPairs(System::IO::Stream inStream) ;
 
 // Ctor Parameters []
 explicit X509CertPairParser() ;
@@ -93,6 +92,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::X509
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::X509::X509CertPairParser);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::X509::X509CertPairParser, "Org.BouncyCastle.X509", "X509CertPairParser");
+NEED_NO_BOX(Org::BouncyCastle::X509::X509CertPairParser);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509CertPairParser, "Org.BouncyCastle.X509", "X509CertPairParser");

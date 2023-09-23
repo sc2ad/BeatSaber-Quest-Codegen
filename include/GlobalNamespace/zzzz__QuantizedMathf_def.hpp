@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
-struct Vector3;
+struct Pose;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
-struct Pose;
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -79,7 +78,7 @@ static constexpr float_t  kVectorSerializableEpsilon{0.001};
 // Methods
 
 /// @brief Method Approximately addr 0x1219758 size 0xd4 virtual false final false
-static bool Approximately(::UnityEngine::Quaternion a, ::UnityEngine::Quaternion b) ;
+static bool Approximately(UnityEngine::Quaternion a, UnityEngine::Quaternion b) ;
 
 /// @brief Method Approximately addr 0x121982c size 0x10 virtual false final false
 static bool Approximately(float_t a, float_t b, float_t epsilon) ;
@@ -88,10 +87,10 @@ static bool Approximately(float_t a, float_t b, float_t epsilon) ;
 static bool Approximately(int32_t a, int32_t b, int32_t epsilon) ;
 
 /// @brief Method Approximately addr 0x12198b0 size 0x38 virtual false final false
-static bool Approximately(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b) ;
+static bool Approximately(UnityEngine::Vector3 a, UnityEngine::Vector3 b) ;
 
 /// @brief Method Approximately addr 0x12198e8 size 0x60 virtual false final false
-static bool Approximately(::UnityEngine::Pose a, ::UnityEngine::Pose b) ;
+static bool Approximately(UnityEngine::Pose a, UnityEngine::Pose b) ;
 
 /// @brief Method QuantizedVectorComponentToString addr 0x1219948 size 0x100 virtual false final false
 static ::StringW QuantizedVectorComponentToString(int32_t v) ;
@@ -100,6 +99,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::QuantizedMathf);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::QuantizedMathf, "", "QuantizedMathf");
+NEED_NO_BOX(GlobalNamespace::QuantizedMathf);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuantizedMathf, "", "QuantizedMathf");

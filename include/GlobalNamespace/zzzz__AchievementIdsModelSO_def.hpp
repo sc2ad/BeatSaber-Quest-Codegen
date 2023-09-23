@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class AchievementSO;
 }
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4107))
 // CS Name: AchievementIdsModelSO
-class CORDL_TYPE AchievementIdsModelSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE AchievementIdsModelSO : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr AchievementIdsModelSO(AchievementIdsModelSO const& ) noexcept = defaul
 constexpr AchievementIdsModelSO(AchievementIdsModelSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AchievementIdsModelSO(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit AchievementIdsModelSO(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -55,22 +54,22 @@ constexpr explicit AchievementIdsModelSO(void* ptr) noexcept : ::GlobalNamespace
 
 // Fields
 
- ::System::Collections::Generic::List_1<::GlobalNamespace::AchievementSO> __declspec(property(get=__get__achievementsIds, put=__set__achievementsIds))  _achievementsIds;
+ System::Collections::Generic::List_1<GlobalNamespace::AchievementSO> __declspec(property(get=__get__achievementsIds, put=__set__achievementsIds))  _achievementsIds;
 
-constexpr void __set__achievementsIds(::System::Collections::Generic::List_1<::GlobalNamespace::AchievementSO> value) ;
+constexpr void __set__achievementsIds(System::Collections::Generic::List_1<GlobalNamespace::AchievementSO> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::AchievementSO> __get__achievementsIds() const;
+constexpr System::Collections::Generic::List_1<GlobalNamespace::AchievementSO> __get__achievementsIds() const;
 
 
 // Properties
 
- ::System::Collections::Generic::List_1<::GlobalNamespace::AchievementSO> __declspec(property(get=get_achievementsIds))  achievementsIds;
+ System::Collections::Generic::List_1<GlobalNamespace::AchievementSO> __declspec(property(get=get_achievementsIds))  achievementsIds;
 
 
 // Methods
 
 /// @brief Method get_achievementsIds addr 0x20c5934 size 0x8 virtual false final false
- ::System::Collections::Generic::List_1<::GlobalNamespace::AchievementSO> get_achievementsIds() ;
+ System::Collections::Generic::List_1<GlobalNamespace::AchievementSO> get_achievementsIds() ;
 
 // Ctor Parameters []
 explicit AchievementIdsModelSO() ;
@@ -82,6 +81,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::AchievementIdsModelSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AchievementIdsModelSO, "", "AchievementIdsModelSO");
+NEED_NO_BOX(GlobalNamespace::AchievementIdsModelSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AchievementIdsModelSO, "", "AchievementIdsModelSO");

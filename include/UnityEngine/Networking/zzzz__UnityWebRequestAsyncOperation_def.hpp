@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__AsyncOperation_def.hpp"
-namespace {
 namespace UnityEngine::Networking {
 class UnityWebRequest;
 }
@@ -15,7 +14,7 @@ namespace UnityEngine::Networking {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10143))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15551))
 // CS Name: UnityEngine.Networking.UnityWebRequestAsyncOperation
-class CORDL_TYPE UnityWebRequestAsyncOperation : public ::UnityEngine::AsyncOperation {
+class CORDL_TYPE UnityWebRequestAsyncOperation : public UnityEngine::AsyncOperation {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr UnityWebRequestAsyncOperation(UnityWebRequestAsyncOperation const& ) n
 constexpr UnityWebRequestAsyncOperation(UnityWebRequestAsyncOperation&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UnityWebRequestAsyncOperation(void* ptr) noexcept : ::UnityEngine::AsyncOperation(ptr) {
+constexpr explicit UnityWebRequestAsyncOperation(void* ptr) noexcept : UnityEngine::AsyncOperation(ptr) {
 }
 
 
@@ -51,25 +50,25 @@ constexpr explicit UnityWebRequestAsyncOperation(void* ptr) noexcept : ::UnityEn
 
 // Fields
 
- ::UnityEngine::Networking::UnityWebRequest __declspec(property(get=__get__webRequest_k__BackingField, put=__set__webRequest_k__BackingField))  _webRequest_k__BackingField;
+ UnityEngine::Networking::UnityWebRequest __declspec(property(get=__get__webRequest_k__BackingField, put=__set__webRequest_k__BackingField))  _webRequest_k__BackingField;
 
-constexpr void __set__webRequest_k__BackingField(::UnityEngine::Networking::UnityWebRequest value) ;
+constexpr void __set__webRequest_k__BackingField(UnityEngine::Networking::UnityWebRequest value) ;
 
-constexpr ::UnityEngine::Networking::UnityWebRequest __get__webRequest_k__BackingField() const;
+constexpr UnityEngine::Networking::UnityWebRequest __get__webRequest_k__BackingField() const;
 
 
 // Properties
 
- ::UnityEngine::Networking::UnityWebRequest __declspec(property(get=get_webRequest, put=set_webRequest))  webRequest;
+ UnityEngine::Networking::UnityWebRequest __declspec(property(get=get_webRequest, put=set_webRequest))  webRequest;
 
 
 // Methods
 
 /// @brief Method get_webRequest addr 0x2d35494 size 0x8 virtual false final false
- ::UnityEngine::Networking::UnityWebRequest get_webRequest() ;
+ UnityEngine::Networking::UnityWebRequest get_webRequest() ;
 
 /// @brief Method set_webRequest addr 0x2d3549c size 0x8 virtual false final false
- void set_webRequest(::UnityEngine::Networking::UnityWebRequest value) ;
+ void set_webRequest(UnityEngine::Networking::UnityWebRequest value) ;
 
 // Ctor Parameters []
 explicit UnityWebRequestAsyncOperation() ;
@@ -81,6 +80,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Networking
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Networking::UnityWebRequestAsyncOperation);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Networking::UnityWebRequestAsyncOperation, "UnityEngine.Networking", "UnityWebRequestAsyncOperation");
+NEED_NO_BOX(UnityEngine::Networking::UnityWebRequestAsyncOperation);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequestAsyncOperation, "UnityEngine.Networking", "UnityWebRequestAsyncOperation");

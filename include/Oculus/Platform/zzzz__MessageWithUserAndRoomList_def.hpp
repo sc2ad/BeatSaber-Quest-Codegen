@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__UserAndRoomList_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
 class UserAndRoomList;
 }
@@ -14,10 +13,10 @@ class MessageWithUserAndRoomList;
 // Type: Oculus.Platform::MessageWithUserAndRoomList
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 955 }), TypeDefinitionIndex(TypeDefinitionIndex(13483))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13483)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 955 }), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13284))
 // CS Name: Oculus.Platform.MessageWithUserAndRoomList
-class CORDL_TYPE MessageWithUserAndRoomList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserAndRoomList> {
+class CORDL_TYPE MessageWithUserAndRoomList : public Oculus::Platform::Message_1<Oculus::Platform::Models::UserAndRoomList> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr MessageWithUserAndRoomList(MessageWithUserAndRoomList const& ) noexcep
 constexpr MessageWithUserAndRoomList(MessageWithUserAndRoomList&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MessageWithUserAndRoomList(void* ptr) noexcept : ::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserAndRoomList>(ptr) {
+constexpr explicit MessageWithUserAndRoomList(void* ptr) noexcept : Oculus::Platform::Message_1<Oculus::Platform::Models::UserAndRoomList>(ptr) {
 }
 
 
@@ -60,15 +59,14 @@ explicit MessageWithUserAndRoomList(::cordl_internals::intptr_t c_message) ;
  void _ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method GetUserAndRoomList addr 0x2583ed0 size 0x3c virtual true final false
- ::Oculus::Platform::Models::UserAndRoomList GetUserAndRoomList() ;
+ Oculus::Platform::Models::UserAndRoomList GetUserAndRoomList() ;
 
 /// @brief Method GetDataFromMessage addr 0x2583f0c size 0x9c virtual true final false
- ::Oculus::Platform::Models::UserAndRoomList GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
+ Oculus::Platform::Models::UserAndRoomList GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::MessageWithUserAndRoomList);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithUserAndRoomList, "Oculus.Platform", "MessageWithUserAndRoomList");
+NEED_NO_BOX(Oculus::Platform::MessageWithUserAndRoomList);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithUserAndRoomList, "Oculus.Platform", "MessageWithUserAndRoomList");

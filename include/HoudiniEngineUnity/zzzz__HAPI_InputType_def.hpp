@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HAPI_InputType;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field HAPI_INPUT_INVALID offset 0
-static ::HoudiniEngineUnity::HAPI_InputType const HAPI_INPUT_INVALID;
+static HoudiniEngineUnity::HAPI_InputType const HAPI_INPUT_INVALID;
 
 /// @brief Field HAPI_INPUT_TRANSFORM offset 0
-static ::HoudiniEngineUnity::HAPI_InputType const HAPI_INPUT_TRANSFORM;
+static HoudiniEngineUnity::HAPI_InputType const HAPI_INPUT_TRANSFORM;
 
 /// @brief Field HAPI_INPUT_GEOMETRY offset 0
-static ::HoudiniEngineUnity::HAPI_InputType const HAPI_INPUT_GEOMETRY;
+static HoudiniEngineUnity::HAPI_InputType const HAPI_INPUT_GEOMETRY;
 
 /// @brief Field HAPI_INPUT_MAX offset 0
-static ::HoudiniEngineUnity::HAPI_InputType const HAPI_INPUT_MAX;
+static HoudiniEngineUnity::HAPI_InputType const HAPI_INPUT_MAX;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_InputType, "HoudiniEngineUnity", "HAPI_InputType");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_InputType, "HoudiniEngineUnity", "HAPI_InputType");

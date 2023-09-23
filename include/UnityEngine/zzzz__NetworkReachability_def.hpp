@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct NetworkReachability;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field NotReachable offset 0
-static ::UnityEngine::NetworkReachability const NotReachable;
+static UnityEngine::NetworkReachability const NotReachable;
 
 /// @brief Field ReachableViaCarrierDataNetwork offset 0
-static ::UnityEngine::NetworkReachability const ReachableViaCarrierDataNetwork;
+static UnityEngine::NetworkReachability const ReachableViaCarrierDataNetwork;
 
 /// @brief Field ReachableViaLocalAreaNetwork offset 0
-static ::UnityEngine::NetworkReachability const ReachableViaLocalAreaNetwork;
+static UnityEngine::NetworkReachability const ReachableViaLocalAreaNetwork;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::NetworkReachability, "UnityEngine", "NetworkReachability");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::NetworkReachability, "UnityEngine", "NetworkReachability");

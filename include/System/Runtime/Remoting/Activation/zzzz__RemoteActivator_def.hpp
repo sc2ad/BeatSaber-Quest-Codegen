@@ -1,15 +1,14 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__MarshalByRefObject_def.hpp"
-namespace {
 namespace System::Runtime::Remoting::Activation {
-class IConstructionReturnMessage;
+class IActivator;
 }
 namespace System::Runtime::Remoting::Activation {
 class IConstructionCallMessage;
 }
 namespace System::Runtime::Remoting::Activation {
-class IActivator;
+class IConstructionReturnMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Activation {
@@ -21,11 +20,11 @@ namespace System::Runtime::Remoting::Activation {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2604))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3133))
 // CS Name: System.Runtime.Remoting.Activation.RemoteActivator
-class CORDL_TYPE RemoteActivator : public ::System::MarshalByRefObject {
+class CORDL_TYPE RemoteActivator : public System::MarshalByRefObject {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::Remoting::Activation::IActivator
-constexpr operator  ::System::Runtime::Remoting::Activation::IActivator() const noexcept;
+/// @brief Convert operator to System::Runtime::Remoting::Activation::IActivator
+constexpr operator  System::Runtime::Remoting::Activation::IActivator() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -39,7 +38,7 @@ constexpr RemoteActivator(RemoteActivator const& ) noexcept = default;
 constexpr RemoteActivator(RemoteActivator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RemoteActivator(void* ptr) noexcept : ::System::MarshalByRefObject(ptr) {
+constexpr explicit RemoteActivator(void* ptr) noexcept : System::MarshalByRefObject(ptr) {
 }
 
 
@@ -60,21 +59,20 @@ constexpr explicit RemoteActivator(void* ptr) noexcept : ::System::MarshalByRefO
 
 // Properties
 
- ::System::Runtime::Remoting::Activation::IActivator __declspec(property(get=get_NextActivator))  NextActivator;
+ System::Runtime::Remoting::Activation::IActivator __declspec(property(get=get_NextActivator))  NextActivator;
 
 
 // Methods
 
 /// @brief Method Activate addr 0x2339594 size 0x47c virtual true final true
- ::System::Runtime::Remoting::Activation::IConstructionReturnMessage Activate(::System::Runtime::Remoting::Activation::IConstructionCallMessage msg) ;
+ System::Runtime::Remoting::Activation::IConstructionReturnMessage Activate(System::Runtime::Remoting::Activation::IConstructionCallMessage msg) ;
 
 /// @brief Method get_NextActivator addr 0x2339a10 size 0x40 virtual true final true
- ::System::Runtime::Remoting::Activation::IActivator get_NextActivator() ;
+ System::Runtime::Remoting::Activation::IActivator get_NextActivator() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Activation
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Activation::RemoteActivator);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Activation::RemoteActivator, "System.Runtime.Remoting.Activation", "RemoteActivator");
+NEED_NO_BOX(System::Runtime::Remoting::Activation::RemoteActivator);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Activation::RemoteActivator, "System.Runtime.Remoting.Activation", "RemoteActivator");

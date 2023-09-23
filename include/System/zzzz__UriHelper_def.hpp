@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 struct UnescapeMode;
 }
@@ -77,10 +76,10 @@ static ::ArrayW<char16_t> EscapeString(::StringW input, int32_t start, int32_t e
 static ::ArrayW<char16_t> EnsureDestinationSize(void* pStr, ::ArrayW<char16_t> dest, int32_t currentInputPos, int16_t charsToAdd, int16_t minReallocateChars, ByRef<int32_t> destPos, int32_t prevInputPos) ;
 
 /// @brief Method UnescapeString addr 0x27b8a90 size 0xe0 virtual false final false
-static ::ArrayW<char16_t> UnescapeString(::StringW input, int32_t start, int32_t end, ::ArrayW<char16_t> dest, ByRef<int32_t> destPosition, char16_t rsvd1, char16_t rsvd2, char16_t rsvd3, ::System::UnescapeMode unescapeMode, ::System::UriParser syntax, bool isQuery) ;
+static ::ArrayW<char16_t> UnescapeString(::StringW input, int32_t start, int32_t end, ::ArrayW<char16_t> dest, ByRef<int32_t> destPosition, char16_t rsvd1, char16_t rsvd2, char16_t rsvd3, System::UnescapeMode unescapeMode, System::UriParser syntax, bool isQuery) ;
 
 /// @brief Method UnescapeString addr 0x27b8b70 size 0x914 virtual false final false
-static ::ArrayW<char16_t> UnescapeString(void* pStr, int32_t start, int32_t end, ::ArrayW<char16_t> dest, ByRef<int32_t> destPosition, char16_t rsvd1, char16_t rsvd2, char16_t rsvd3, ::System::UnescapeMode unescapeMode, ::System::UriParser syntax, bool isQuery) ;
+static ::ArrayW<char16_t> UnescapeString(void* pStr, int32_t start, int32_t end, ::ArrayW<char16_t> dest, ByRef<int32_t> destPosition, char16_t rsvd1, char16_t rsvd2, char16_t rsvd3, System::UnescapeMode unescapeMode, System::UriParser syntax, bool isQuery) ;
 
 /// @brief Method MatchUTF8Sequence addr 0x27b7a24 size 0x4e8 virtual false final false
 static void MatchUTF8Sequence(void* pDest, ::ArrayW<char16_t> dest, ByRef<int32_t> destOffset, ::ArrayW<char16_t> unescapedChars, int32_t charCount, ::ArrayW<uint8_t> bytes, int32_t byteCount, bool isQuery, bool iriParsing) ;
@@ -107,6 +106,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::UriHelper);
-DEFINE_IL2CPP_ARG_TYPE(::System::UriHelper, "System", "UriHelper");
+NEED_NO_BOX(System::UriHelper);
+DEFINE_IL2CPP_ARG_TYPE(System::UriHelper, "System", "UriHelper");

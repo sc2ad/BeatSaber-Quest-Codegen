@@ -5,7 +5,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Color;
 }
@@ -75,7 +74,7 @@ static float_t GammaToLinearSpace(float_t value) ;
 static float_t LinearToGammaSpace(float_t value) ;
 
 /// @brief Method CorrelatedColorTemperatureToRGB addr 0x2b661d8 size 0x58 virtual false final false
-static ::UnityEngine::Color CorrelatedColorTemperatureToRGB(float_t kelvin) ;
+static UnityEngine::Color CorrelatedColorTemperatureToRGB(float_t kelvin) ;
 
 /// @brief Method Sin addr 0x2b6627c size 0x64 virtual false final false
 static float_t Sin(float_t f) ;
@@ -195,11 +194,10 @@ static float_t InverseLerp(float_t a, float_t b, float_t value) ;
 static float_t DeltaAngle(float_t current, float_t target) ;
 
 /// @brief Method CorrelatedColorTemperatureToRGB_Injected addr 0x2b66230 size 0x4c virtual false final false
-static void CorrelatedColorTemperatureToRGB_Injected(float_t kelvin, ByRef<::UnityEngine::Color> ret) ;
+static void CorrelatedColorTemperatureToRGB_Injected(float_t kelvin, ByRef<UnityEngine::Color> ret) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Mathf, "UnityEngine", "Mathf");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Mathf, "UnityEngine", "Mathf");

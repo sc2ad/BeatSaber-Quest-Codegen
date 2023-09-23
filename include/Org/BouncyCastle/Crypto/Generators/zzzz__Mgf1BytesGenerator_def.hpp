@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto {
-class IDerivationFunction;
-}
 namespace Org::BouncyCastle::Crypto {
 class IDerivationParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDerivationFunction;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {
@@ -26,8 +25,8 @@ namespace Org::BouncyCastle::Crypto::Generators {
 class CORDL_TYPE Mgf1BytesGenerator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IDerivationFunction
-constexpr operator  ::Org::BouncyCastle::Crypto::IDerivationFunction() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IDerivationFunction
+constexpr operator  Org::BouncyCastle::Crypto::IDerivationFunction() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -62,11 +61,11 @@ constexpr explicit Mgf1BytesGenerator(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Fields
 
- ::Org::BouncyCastle::Crypto::IDigest __declspec(property(get=__get_digest, put=__set_digest))  digest;
+ Org::BouncyCastle::Crypto::IDigest __declspec(property(get=__get_digest, put=__set_digest))  digest;
 
-constexpr void __set_digest(::Org::BouncyCastle::Crypto::IDigest value) ;
+constexpr void __set_digest(Org::BouncyCastle::Crypto::IDigest value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IDigest __get_digest() const;
+constexpr Org::BouncyCastle::Crypto::IDigest __get_digest() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get_seed, put=__set_seed))  seed;
 
@@ -83,22 +82,22 @@ constexpr int32_t __get_hLen() const;
 
 // Properties
 
- ::Org::BouncyCastle::Crypto::IDigest __declspec(property(get=get_Digest))  Digest;
+ Org::BouncyCastle::Crypto::IDigest __declspec(property(get=get_Digest))  Digest;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "digest", ty: "::Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
-explicit Mgf1BytesGenerator(::Org::BouncyCastle::Crypto::IDigest digest) ;
+// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
+explicit Mgf1BytesGenerator(Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method .ctor addr 0xe7320c size 0xbc virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IDigest digest) ;
+ void _ctor(Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method Init addr 0xe732c8 size 0x148 virtual true final true
- void Init(::Org::BouncyCastle::Crypto::IDerivationParameters parameters) ;
+ void Init(Org::BouncyCastle::Crypto::IDerivationParameters parameters) ;
 
 /// @brief Method get_Digest addr 0xe73410 size 0x8 virtual true final true
- ::Org::BouncyCastle::Crypto::IDigest get_Digest() ;
+ Org::BouncyCastle::Crypto::IDigest get_Digest() ;
 
 /// @brief Method ItoOSP addr 0xe73418 size 0x54 virtual false final false
  void ItoOSP(int32_t i, ::ArrayW<uint8_t> sp) ;
@@ -110,6 +109,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Generators
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Generators::Mgf1BytesGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Generators::Mgf1BytesGenerator, "Org.BouncyCastle.Crypto.Generators", "Mgf1BytesGenerator");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Generators::Mgf1BytesGenerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::Mgf1BytesGenerator, "Org.BouncyCastle.Crypto.Generators", "Mgf1BytesGenerator");

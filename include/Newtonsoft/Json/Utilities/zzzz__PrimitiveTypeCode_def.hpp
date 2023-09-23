@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
 struct PrimitiveTypeCode;
@@ -107,134 +106,133 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Empty offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Empty;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const Empty;
 
 /// @brief Field Object offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Object;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const Object;
 
 /// @brief Field Char offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Char;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const Char;
 
 /// @brief Field CharNullable offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const CharNullable;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const CharNullable;
 
 /// @brief Field Boolean offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Boolean;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const Boolean;
 
 /// @brief Field BooleanNullable offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const BooleanNullable;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const BooleanNullable;
 
 /// @brief Field SByte offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const SByte;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const SByte;
 
 /// @brief Field SByteNullable offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const SByteNullable;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const SByteNullable;
 
 /// @brief Field Int16 offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Int16;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const Int16;
 
 /// @brief Field Int16Nullable offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Int16Nullable;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const Int16Nullable;
 
 /// @brief Field UInt16 offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const UInt16;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const UInt16;
 
 /// @brief Field UInt16Nullable offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const UInt16Nullable;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const UInt16Nullable;
 
 /// @brief Field Int32 offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Int32;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const Int32;
 
 /// @brief Field Int32Nullable offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Int32Nullable;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const Int32Nullable;
 
 /// @brief Field Byte offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Byte;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const Byte;
 
 /// @brief Field ByteNullable offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const ByteNullable;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const ByteNullable;
 
 /// @brief Field UInt32 offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const UInt32;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const UInt32;
 
 /// @brief Field UInt32Nullable offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const UInt32Nullable;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const UInt32Nullable;
 
 /// @brief Field Int64 offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Int64;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const Int64;
 
 /// @brief Field Int64Nullable offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Int64Nullable;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const Int64Nullable;
 
 /// @brief Field UInt64 offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const UInt64;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const UInt64;
 
 /// @brief Field UInt64Nullable offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const UInt64Nullable;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const UInt64Nullable;
 
 /// @brief Field Single offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Single;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const Single;
 
 /// @brief Field SingleNullable offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const SingleNullable;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const SingleNullable;
 
 /// @brief Field Double offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Double;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const Double;
 
 /// @brief Field DoubleNullable offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const DoubleNullable;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const DoubleNullable;
 
 /// @brief Field DateTime offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const DateTime;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const DateTime;
 
 /// @brief Field DateTimeNullable offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const DateTimeNullable;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const DateTimeNullable;
 
 /// @brief Field DateTimeOffset offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const DateTimeOffset;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const DateTimeOffset;
 
 /// @brief Field DateTimeOffsetNullable offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const DateTimeOffsetNullable;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const DateTimeOffsetNullable;
 
 /// @brief Field Decimal offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Decimal;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const Decimal;
 
 /// @brief Field DecimalNullable offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const DecimalNullable;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const DecimalNullable;
 
 /// @brief Field Guid offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Guid;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const Guid;
 
 /// @brief Field GuidNullable offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const GuidNullable;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const GuidNullable;
 
 /// @brief Field TimeSpan offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const TimeSpan;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const TimeSpan;
 
 /// @brief Field TimeSpanNullable offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const TimeSpanNullable;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const TimeSpanNullable;
 
 /// @brief Field BigInteger offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const BigInteger;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const BigInteger;
 
 /// @brief Field BigIntegerNullable offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const BigIntegerNullable;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const BigIntegerNullable;
 
 /// @brief Field Uri offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Uri;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const Uri;
 
 /// @brief Field String offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const String;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const String;
 
 /// @brief Field Bytes offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Bytes;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const Bytes;
 
 /// @brief Field DBNull offset 0
-static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const DBNull;
+static Newtonsoft::Json::Utilities::PrimitiveTypeCode const DBNull;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Utilities
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::PrimitiveTypeCode, "Newtonsoft.Json.Utilities", "PrimitiveTypeCode");
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::PrimitiveTypeCode, "Newtonsoft.Json.Utilities", "PrimitiveTypeCode");

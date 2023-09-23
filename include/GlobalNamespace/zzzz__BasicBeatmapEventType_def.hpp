@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 struct BasicBeatmapEventType;
@@ -93,92 +92,91 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Event0 offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const Event0;
+static GlobalNamespace::BasicBeatmapEventType const Event0;
 
 /// @brief Field Event1 offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const Event1;
+static GlobalNamespace::BasicBeatmapEventType const Event1;
 
 /// @brief Field Event2 offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const Event2;
+static GlobalNamespace::BasicBeatmapEventType const Event2;
 
 /// @brief Field Event3 offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const Event3;
+static GlobalNamespace::BasicBeatmapEventType const Event3;
 
 /// @brief Field Event4 offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const Event4;
+static GlobalNamespace::BasicBeatmapEventType const Event4;
 
 /// @brief Field Event5 offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const Event5;
+static GlobalNamespace::BasicBeatmapEventType const Event5;
 
 /// @brief Field Event6 offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const Event6;
+static GlobalNamespace::BasicBeatmapEventType const Event6;
 
 /// @brief Field Event7 offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const Event7;
+static GlobalNamespace::BasicBeatmapEventType const Event7;
 
 /// @brief Field Event8 offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const Event8;
+static GlobalNamespace::BasicBeatmapEventType const Event8;
 
 /// @brief Field Event9 offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const Event9;
+static GlobalNamespace::BasicBeatmapEventType const Event9;
 
 /// @brief Field Event10 offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const Event10;
+static GlobalNamespace::BasicBeatmapEventType const Event10;
 
 /// @brief Field Event11 offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const Event11;
+static GlobalNamespace::BasicBeatmapEventType const Event11;
 
 /// @brief Field Event12 offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const Event12;
+static GlobalNamespace::BasicBeatmapEventType const Event12;
 
 /// @brief Field Event13 offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const Event13;
+static GlobalNamespace::BasicBeatmapEventType const Event13;
 
 /// @brief Field Event14 offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const Event14;
+static GlobalNamespace::BasicBeatmapEventType const Event14;
 
 /// @brief Field Event15 offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const Event15;
+static GlobalNamespace::BasicBeatmapEventType const Event15;
 
 /// @brief Field Event16 offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const Event16;
+static GlobalNamespace::BasicBeatmapEventType const Event16;
 
 /// @brief Field Event17 offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const Event17;
+static GlobalNamespace::BasicBeatmapEventType const Event17;
 
 /// @brief Field Event18 offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const Event18;
+static GlobalNamespace::BasicBeatmapEventType const Event18;
 
 /// @brief Field Event19 offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const Event19;
+static GlobalNamespace::BasicBeatmapEventType const Event19;
 
 /// @brief Field Event20 offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const Event20;
+static GlobalNamespace::BasicBeatmapEventType const Event20;
 
 /// @brief Field Event21 offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const Event21;
+static GlobalNamespace::BasicBeatmapEventType const Event21;
 
 /// @brief Field VoidEvent offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const VoidEvent;
+static GlobalNamespace::BasicBeatmapEventType const VoidEvent;
 
 /// @brief Field Special0 offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const Special0;
+static GlobalNamespace::BasicBeatmapEventType const Special0;
 
 /// @brief Field Special1 offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const Special1;
+static GlobalNamespace::BasicBeatmapEventType const Special1;
 
 /// @brief Field Special2 offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const Special2;
+static GlobalNamespace::BasicBeatmapEventType const Special2;
 
 /// @brief Field Special3 offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const Special3;
+static GlobalNamespace::BasicBeatmapEventType const Special3;
 
 /// @brief Field BpmChange offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const BpmChange;
+static GlobalNamespace::BasicBeatmapEventType const BpmChange;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BasicBeatmapEventType, "", "BasicBeatmapEventType");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BasicBeatmapEventType, "", "BasicBeatmapEventType");

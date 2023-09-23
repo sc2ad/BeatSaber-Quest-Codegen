@@ -2,16 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
-namespace GlobalNamespace {
-class MaterialPropertyBlockColorSetter;
-}
-namespace GlobalNamespace {
-class JumpReceiver;
-}
-namespace GlobalNamespace {
-class MaterialPropertyBlockFloatAnimator;
-}
 namespace UnityEngine::Timeline {
 class ActivationTrack;
 }
@@ -20,6 +10,15 @@ class SongSpeedData;
 }
 namespace GlobalNamespace {
 class BTSCharacter;
+}
+namespace GlobalNamespace {
+class MaterialPropertyBlockColorSetter;
+}
+namespace GlobalNamespace {
+class JumpReceiver;
+}
+namespace GlobalNamespace {
+class MaterialPropertyBlockFloatAnimator;
 }
 namespace UnityEngine::Playables {
 class PlayableDirector;
@@ -34,7 +33,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3955))
 // CS Name: BTSCharacterSpawnAnimationController
-class CORDL_TYPE BTSCharacterSpawnAnimationController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE BTSCharacterSpawnAnimationController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -49,7 +48,7 @@ constexpr BTSCharacterSpawnAnimationController(BTSCharacterSpawnAnimationControl
 constexpr BTSCharacterSpawnAnimationController(BTSCharacterSpawnAnimationController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BTSCharacterSpawnAnimationController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit BTSCharacterSpawnAnimationController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -70,17 +69,17 @@ constexpr explicit BTSCharacterSpawnAnimationController(void* ptr) noexcept : ::
 
 // Fields
 
- ::UnityEngine::Playables::PlayableDirector __declspec(property(get=__get__spawnCharacterPlayableDirector, put=__set__spawnCharacterPlayableDirector))  _spawnCharacterPlayableDirector;
+ UnityEngine::Playables::PlayableDirector __declspec(property(get=__get__spawnCharacterPlayableDirector, put=__set__spawnCharacterPlayableDirector))  _spawnCharacterPlayableDirector;
 
-constexpr void __set__spawnCharacterPlayableDirector(::UnityEngine::Playables::PlayableDirector value) ;
+constexpr void __set__spawnCharacterPlayableDirector(UnityEngine::Playables::PlayableDirector value) ;
 
-constexpr ::UnityEngine::Playables::PlayableDirector __get__spawnCharacterPlayableDirector() const;
+constexpr UnityEngine::Playables::PlayableDirector __get__spawnCharacterPlayableDirector() const;
 
- ::GlobalNamespace::JumpReceiver __declspec(property(get=__get__jumpReceiver, put=__set__jumpReceiver))  _jumpReceiver;
+ GlobalNamespace::JumpReceiver __declspec(property(get=__get__jumpReceiver, put=__set__jumpReceiver))  _jumpReceiver;
 
-constexpr void __set__jumpReceiver(::GlobalNamespace::JumpReceiver value) ;
+constexpr void __set__jumpReceiver(GlobalNamespace::JumpReceiver value) ;
 
-constexpr ::GlobalNamespace::JumpReceiver __get__jumpReceiver() const;
+constexpr GlobalNamespace::JumpReceiver __get__jumpReceiver() const;
 
  float_t __declspec(property(get=__get__appearAnimationEndTime, put=__set__appearAnimationEndTime))  _appearAnimationEndTime;
 
@@ -94,44 +93,44 @@ constexpr void __set__disappearAnimationStartTime(float_t value) ;
 
 constexpr float_t __get__disappearAnimationStartTime() const;
 
- ::GlobalNamespace::MaterialPropertyBlockColorSetter __declspec(property(get=__get__rimLightColorSetter, put=__set__rimLightColorSetter))  _rimLightColorSetter;
+ GlobalNamespace::MaterialPropertyBlockColorSetter __declspec(property(get=__get__rimLightColorSetter, put=__set__rimLightColorSetter))  _rimLightColorSetter;
 
-constexpr void __set__rimLightColorSetter(::GlobalNamespace::MaterialPropertyBlockColorSetter value) ;
+constexpr void __set__rimLightColorSetter(GlobalNamespace::MaterialPropertyBlockColorSetter value) ;
 
-constexpr ::GlobalNamespace::MaterialPropertyBlockColorSetter __get__rimLightColorSetter() const;
+constexpr GlobalNamespace::MaterialPropertyBlockColorSetter __get__rimLightColorSetter() const;
 
- ::GlobalNamespace::MaterialPropertyBlockFloatAnimator __declspec(property(get=__get__rimLightIntensityAnimator, put=__set__rimLightIntensityAnimator))  _rimLightIntensityAnimator;
+ GlobalNamespace::MaterialPropertyBlockFloatAnimator __declspec(property(get=__get__rimLightIntensityAnimator, put=__set__rimLightIntensityAnimator))  _rimLightIntensityAnimator;
 
-constexpr void __set__rimLightIntensityAnimator(::GlobalNamespace::MaterialPropertyBlockFloatAnimator value) ;
+constexpr void __set__rimLightIntensityAnimator(GlobalNamespace::MaterialPropertyBlockFloatAnimator value) ;
 
-constexpr ::GlobalNamespace::MaterialPropertyBlockFloatAnimator __get__rimLightIntensityAnimator() const;
+constexpr GlobalNamespace::MaterialPropertyBlockFloatAnimator __get__rimLightIntensityAnimator() const;
 
- ::GlobalNamespace::MaterialPropertyBlockFloatAnimator __declspec(property(get=__get__rimLightEdgeStartAnimator, put=__set__rimLightEdgeStartAnimator))  _rimLightEdgeStartAnimator;
+ GlobalNamespace::MaterialPropertyBlockFloatAnimator __declspec(property(get=__get__rimLightEdgeStartAnimator, put=__set__rimLightEdgeStartAnimator))  _rimLightEdgeStartAnimator;
 
-constexpr void __set__rimLightEdgeStartAnimator(::GlobalNamespace::MaterialPropertyBlockFloatAnimator value) ;
+constexpr void __set__rimLightEdgeStartAnimator(GlobalNamespace::MaterialPropertyBlockFloatAnimator value) ;
 
-constexpr ::GlobalNamespace::MaterialPropertyBlockFloatAnimator __get__rimLightEdgeStartAnimator() const;
+constexpr GlobalNamespace::MaterialPropertyBlockFloatAnimator __get__rimLightEdgeStartAnimator() const;
 
- ::GlobalNamespace::SongSpeedData __declspec(property(get=__get__songSpeedData, put=__set__songSpeedData))  _songSpeedData;
+ GlobalNamespace::SongSpeedData __declspec(property(get=__get__songSpeedData, put=__set__songSpeedData))  _songSpeedData;
 
-constexpr void __set__songSpeedData(::GlobalNamespace::SongSpeedData value) ;
+constexpr void __set__songSpeedData(GlobalNamespace::SongSpeedData value) ;
 
-constexpr ::GlobalNamespace::SongSpeedData __get__songSpeedData() const;
+constexpr GlobalNamespace::SongSpeedData __get__songSpeedData() const;
 
 /// @brief Field kCharacterActivationStreamName offset 0
 static constexpr ::ConstString  kCharacterActivationStreamName{u"CharacterActivationTrack"};
 
- ::UnityEngine::Timeline::ActivationTrack __declspec(property(get=__get__characterActivationTrack, put=__set__characterActivationTrack))  _characterActivationTrack;
+ UnityEngine::Timeline::ActivationTrack __declspec(property(get=__get__characterActivationTrack, put=__set__characterActivationTrack))  _characterActivationTrack;
 
-constexpr void __set__characterActivationTrack(::UnityEngine::Timeline::ActivationTrack value) ;
+constexpr void __set__characterActivationTrack(UnityEngine::Timeline::ActivationTrack value) ;
 
-constexpr ::UnityEngine::Timeline::ActivationTrack __get__characterActivationTrack() const;
+constexpr UnityEngine::Timeline::ActivationTrack __get__characterActivationTrack() const;
 
- ::GlobalNamespace::BTSCharacter __declspec(property(get=__get__currentBtsCharacter, put=__set__currentBtsCharacter))  _currentBtsCharacter;
+ GlobalNamespace::BTSCharacter __declspec(property(get=__get__currentBtsCharacter, put=__set__currentBtsCharacter))  _currentBtsCharacter;
 
-constexpr void __set__currentBtsCharacter(::GlobalNamespace::BTSCharacter value) ;
+constexpr void __set__currentBtsCharacter(GlobalNamespace::BTSCharacter value) ;
 
-constexpr ::GlobalNamespace::BTSCharacter __get__currentBtsCharacter() const;
+constexpr GlobalNamespace::BTSCharacter __get__currentBtsCharacter() const;
 
  float_t __declspec(property(get=__get__defaultSpawnCharacterDuration, put=__set__defaultSpawnCharacterDuration))  _defaultSpawnCharacterDuration;
 
@@ -158,7 +157,7 @@ constexpr float_t __get__animatorNormalizedTimeBeforePause() const;
 
  float_t __declspec(property(get=get_duration))  duration;
 
- ::UnityEngine::Timeline::ActivationTrack __declspec(property(get=get_characterActivationTrack))  characterActivationTrack;
+ UnityEngine::Timeline::ActivationTrack __declspec(property(get=get_characterActivationTrack))  characterActivationTrack;
 
 
 // Methods
@@ -170,7 +169,7 @@ constexpr float_t __get__animatorNormalizedTimeBeforePause() const;
  float_t get_duration() ;
 
 /// @brief Method get_characterActivationTrack addr 0x20a7414 size 0x410 virtual false final false
- ::UnityEngine::Timeline::ActivationTrack get_characterActivationTrack() ;
+ UnityEngine::Timeline::ActivationTrack get_characterActivationTrack() ;
 
 /// @brief Method PlayAnimation addr 0x20a7824 size 0xcc virtual false final false
  void PlayAnimation() ;
@@ -182,7 +181,7 @@ constexpr float_t __get__animatorNormalizedTimeBeforePause() const;
  void StopAnimation() ;
 
 /// @brief Method SetCharacter addr 0x20a7980 size 0x94 virtual false final false
- void SetCharacter(::GlobalNamespace::BTSCharacter btsCharacter) ;
+ void SetCharacter(GlobalNamespace::BTSCharacter btsCharacter) ;
 
 /// @brief Method WillResumeAnimation addr 0x20a7a14 size 0x60 virtual false final false
  void WillResumeAnimation() ;
@@ -203,6 +202,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BTSCharacterSpawnAnimationController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BTSCharacterSpawnAnimationController, "", "BTSCharacterSpawnAnimationController");
+NEED_NO_BOX(GlobalNamespace::BTSCharacterSpawnAnimationController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterSpawnAnimationController, "", "BTSCharacterSpawnAnimationController");

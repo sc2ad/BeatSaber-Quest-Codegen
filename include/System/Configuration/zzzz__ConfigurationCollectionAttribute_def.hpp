@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 namespace System {
 class Type;
 }
@@ -15,7 +14,7 @@ namespace System::Configuration {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16077))
 // CS Name: System.Configuration.ConfigurationCollectionAttribute
-class CORDL_TYPE ConfigurationCollectionAttribute : public ::System::Attribute {
+class CORDL_TYPE ConfigurationCollectionAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr ConfigurationCollectionAttribute(ConfigurationCollectionAttribute cons
 constexpr ConfigurationCollectionAttribute(ConfigurationCollectionAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ConfigurationCollectionAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit ConfigurationCollectionAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -51,16 +50,15 @@ constexpr explicit ConfigurationCollectionAttribute(void* ptr) noexcept : ::Syst
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "itemType", ty: "::System::Type", modifiers: "", def_value: None }]
-explicit ConfigurationCollectionAttribute(::System::Type itemType) ;
+// Ctor Parameters [CppParam { name: "itemType", ty: "System::Type", modifiers: "", def_value: None }]
+explicit ConfigurationCollectionAttribute(System::Type itemType) ;
 
 /// @brief Method .ctor addr 0x267b578 size 0x4 virtual false final false
- void _ctor(::System::Type itemType) ;
+ void _ctor(System::Type itemType) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Configuration
-} // end anonymous namespace
-NEED_NO_BOX(::System::Configuration::ConfigurationCollectionAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Configuration::ConfigurationCollectionAttribute, "System.Configuration", "ConfigurationCollectionAttribute");
+NEED_NO_BOX(System::Configuration::ConfigurationCollectionAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Configuration::ConfigurationCollectionAttribute, "System.Configuration", "ConfigurationCollectionAttribute");

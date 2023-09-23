@@ -8,35 +8,34 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace Newtonsoft::Json::Bson {
-struct BsonType;
-}
-namespace System::IO {
-class BinaryReader;
+namespace System {
+struct DateTimeKind;
 }
 namespace System::IO {
 class Stream;
 }
-namespace System {
-struct DateTimeKind;
-}
 namespace Newtonsoft::Json::Bson {
 struct BsonBinaryType;
 }
+namespace Newtonsoft::Json::Bson {
+struct BsonType;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace System::IO {
+class BinaryReader;
+}
 // Forward declare root types
 namespace Newtonsoft::Json::Bson {
-struct ____Newtonsoft__Json__Bson__BsonReader__BsonReaderState;
+struct Newtonsoft__Json__Bson__BsonReader__BsonReaderState;
 }
 namespace Newtonsoft::Json::Bson {
 class BsonReader;
 }
 namespace Newtonsoft::Json::Bson {
-class ____Newtonsoft__Json__Bson__BsonReader__ContainerContext;
+class Newtonsoft__Json__Bson__BsonReader__ContainerContext;
 }
 // Type: ::BsonReaderState
 namespace Newtonsoft::Json::Bson {
@@ -44,20 +43,20 @@ namespace Newtonsoft::Json::Bson {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12013))
 // CS Name: Newtonsoft.Json.Bson.BsonReader::BsonReaderState
-struct CORDL_TYPE ____Newtonsoft__Json__Bson__BsonReader__BsonReaderState : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE Newtonsoft__Json__Bson__BsonReader__BsonReaderState : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____Newtonsoft__Json__Bson__BsonReader__BsonReaderState(int32_t value__) noexcept;
+constexpr Newtonsoft__Json__Bson__BsonReader__BsonReaderState(int32_t value__) noexcept;
 
 
-                    constexpr ____Newtonsoft__Json__Bson__BsonReader__BsonReaderState(____Newtonsoft__Json__Bson__BsonReader__BsonReaderState const&) = default;
-                    constexpr ____Newtonsoft__Json__Bson__BsonReader__BsonReaderState(____Newtonsoft__Json__Bson__BsonReader__BsonReaderState&&) = default;
-                    constexpr ____Newtonsoft__Json__Bson__BsonReader__BsonReaderState& operator=(____Newtonsoft__Json__Bson__BsonReader__BsonReaderState const& o) {
+                    constexpr Newtonsoft__Json__Bson__BsonReader__BsonReaderState(Newtonsoft__Json__Bson__BsonReader__BsonReaderState const&) = default;
+                    constexpr Newtonsoft__Json__Bson__BsonReader__BsonReaderState(Newtonsoft__Json__Bson__BsonReader__BsonReaderState&&) = default;
+                    constexpr Newtonsoft__Json__Bson__BsonReader__BsonReaderState& operator=(Newtonsoft__Json__Bson__BsonReader__BsonReaderState const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____Newtonsoft__Json__Bson__BsonReader__BsonReaderState& operator=(____Newtonsoft__Json__Bson__BsonReader__BsonReaderState&& o) noexcept {
+                    constexpr Newtonsoft__Json__Bson__BsonReader__BsonReaderState& operator=(Newtonsoft__Json__Bson__BsonReader__BsonReaderState&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -70,7 +69,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____Newtonsoft__Json__Bson__BsonReader__BsonReaderState(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit Newtonsoft__Json__Bson__BsonReader__BsonReaderState(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -78,7 +77,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______Newtonsoft__Json__Bson__BsonReader__BsonReaderState_Unwrapped : int32_t {
+enum class __Newtonsoft__Json__Bson__BsonReader__BsonReaderState_Unwrapped : int32_t {
 __Normal = 0,
 __ReferenceStart = 1,
 __ReferenceRef = 2,
@@ -91,8 +90,8 @@ __CodeWScopeScopeEnd = 8,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______Newtonsoft__Json__Bson__BsonReader__BsonReaderState_Unwrapped () const noexcept {
-return std::bit_cast<______Newtonsoft__Json__Bson__BsonReader__BsonReaderState_Unwrapped>(__instance);
+constexpr operator __Newtonsoft__Json__Bson__BsonReader__BsonReaderState_Unwrapped () const noexcept {
+return std::bit_cast<__Newtonsoft__Json__Bson__BsonReader__BsonReaderState_Unwrapped>(__instance);
 }
 
 
@@ -105,31 +104,31 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Normal offset 0
-static ::Newtonsoft::Json::Bson::____Newtonsoft__Json__Bson__BsonReader__BsonReaderState const Normal;
+static Newtonsoft::Json::Bson::Newtonsoft__Json__Bson__BsonReader__BsonReaderState const Normal;
 
 /// @brief Field ReferenceStart offset 0
-static ::Newtonsoft::Json::Bson::____Newtonsoft__Json__Bson__BsonReader__BsonReaderState const ReferenceStart;
+static Newtonsoft::Json::Bson::Newtonsoft__Json__Bson__BsonReader__BsonReaderState const ReferenceStart;
 
 /// @brief Field ReferenceRef offset 0
-static ::Newtonsoft::Json::Bson::____Newtonsoft__Json__Bson__BsonReader__BsonReaderState const ReferenceRef;
+static Newtonsoft::Json::Bson::Newtonsoft__Json__Bson__BsonReader__BsonReaderState const ReferenceRef;
 
 /// @brief Field ReferenceId offset 0
-static ::Newtonsoft::Json::Bson::____Newtonsoft__Json__Bson__BsonReader__BsonReaderState const ReferenceId;
+static Newtonsoft::Json::Bson::Newtonsoft__Json__Bson__BsonReader__BsonReaderState const ReferenceId;
 
 /// @brief Field CodeWScopeStart offset 0
-static ::Newtonsoft::Json::Bson::____Newtonsoft__Json__Bson__BsonReader__BsonReaderState const CodeWScopeStart;
+static Newtonsoft::Json::Bson::Newtonsoft__Json__Bson__BsonReader__BsonReaderState const CodeWScopeStart;
 
 /// @brief Field CodeWScopeCode offset 0
-static ::Newtonsoft::Json::Bson::____Newtonsoft__Json__Bson__BsonReader__BsonReaderState const CodeWScopeCode;
+static Newtonsoft::Json::Bson::Newtonsoft__Json__Bson__BsonReader__BsonReaderState const CodeWScopeCode;
 
 /// @brief Field CodeWScopeScope offset 0
-static ::Newtonsoft::Json::Bson::____Newtonsoft__Json__Bson__BsonReader__BsonReaderState const CodeWScopeScope;
+static Newtonsoft::Json::Bson::Newtonsoft__Json__Bson__BsonReader__BsonReaderState const CodeWScopeScope;
 
 /// @brief Field CodeWScopeScopeObject offset 0
-static ::Newtonsoft::Json::Bson::____Newtonsoft__Json__Bson__BsonReader__BsonReaderState const CodeWScopeScopeObject;
+static Newtonsoft::Json::Bson::Newtonsoft__Json__Bson__BsonReader__BsonReaderState const CodeWScopeScopeObject;
 
 /// @brief Field CodeWScopeScopeEnd offset 0
-static ::Newtonsoft::Json::Bson::____Newtonsoft__Json__Bson__BsonReader__BsonReaderState const CodeWScopeScopeEnd;
+static Newtonsoft::Json::Bson::Newtonsoft__Json__Bson__BsonReader__BsonReaderState const CodeWScopeScopeEnd;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -141,47 +140,47 @@ namespace Newtonsoft::Json::Bson {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12014))
 // CS Name: Newtonsoft.Json.Bson.BsonReader::ContainerContext
-class CORDL_TYPE ____Newtonsoft__Json__Bson__BsonReader__ContainerContext : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Newtonsoft__Json__Bson__BsonReader__ContainerContext : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____Newtonsoft__Json__Bson__BsonReader__ContainerContext() = default;
+virtual ~Newtonsoft__Json__Bson__BsonReader__ContainerContext() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Newtonsoft__Json__Bson__BsonReader__ContainerContext", modifiers: " const&", def_value: None }]
-constexpr ____Newtonsoft__Json__Bson__BsonReader__ContainerContext(____Newtonsoft__Json__Bson__BsonReader__ContainerContext const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Newtonsoft__Json__Bson__BsonReader__ContainerContext", modifiers: " const&", def_value: None }]
+constexpr Newtonsoft__Json__Bson__BsonReader__ContainerContext(Newtonsoft__Json__Bson__BsonReader__ContainerContext const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Newtonsoft__Json__Bson__BsonReader__ContainerContext", modifiers: "&&", def_value: None }]
-constexpr ____Newtonsoft__Json__Bson__BsonReader__ContainerContext(____Newtonsoft__Json__Bson__BsonReader__ContainerContext&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Newtonsoft__Json__Bson__BsonReader__ContainerContext", modifiers: "&&", def_value: None }]
+constexpr Newtonsoft__Json__Bson__BsonReader__ContainerContext(Newtonsoft__Json__Bson__BsonReader__ContainerContext&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Newtonsoft__Json__Bson__BsonReader__ContainerContext(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Newtonsoft__Json__Bson__BsonReader__ContainerContext(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Newtonsoft__Json__Bson__BsonReader__ContainerContext& operator=(std::nullptr_t) noexcept {
+  constexpr Newtonsoft__Json__Bson__BsonReader__ContainerContext& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Newtonsoft__Json__Bson__BsonReader__ContainerContext& operator=(void* o) noexcept {
+  constexpr Newtonsoft__Json__Bson__BsonReader__ContainerContext& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Newtonsoft__Json__Bson__BsonReader__ContainerContext& operator=(____Newtonsoft__Json__Bson__BsonReader__ContainerContext&& o) noexcept = default;
-  constexpr ____Newtonsoft__Json__Bson__BsonReader__ContainerContext& operator=(____Newtonsoft__Json__Bson__BsonReader__ContainerContext const& o) noexcept = default;
+  constexpr Newtonsoft__Json__Bson__BsonReader__ContainerContext& operator=(Newtonsoft__Json__Bson__BsonReader__ContainerContext&& o) noexcept = default;
+  constexpr Newtonsoft__Json__Bson__BsonReader__ContainerContext& operator=(Newtonsoft__Json__Bson__BsonReader__ContainerContext const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::Newtonsoft::Json::Bson::BsonType __declspec(property(get=__get_Type, put=__set_Type))  Type;
+ Newtonsoft::Json::Bson::BsonType __declspec(property(get=__get_Type, put=__set_Type))  Type;
 
-constexpr void __set_Type(::Newtonsoft::Json::Bson::BsonType value) ;
+constexpr void __set_Type(Newtonsoft::Json::Bson::BsonType value) ;
 
-constexpr ::Newtonsoft::Json::Bson::BsonType __get_Type() const;
+constexpr Newtonsoft::Json::Bson::BsonType __get_Type() const;
 
  int32_t __declspec(property(get=__get_Length, put=__set_Length))  Length;
 
@@ -198,11 +197,11 @@ constexpr int32_t __get_Position() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "::Newtonsoft::Json::Bson::BsonType", modifiers: "", def_value: None }]
-explicit ____Newtonsoft__Json__Bson__BsonReader__ContainerContext(::Newtonsoft::Json::Bson::BsonType type) ;
+// Ctor Parameters [CppParam { name: "type", ty: "Newtonsoft::Json::Bson::BsonType", modifiers: "", def_value: None }]
+explicit Newtonsoft__Json__Bson__BsonReader__ContainerContext(Newtonsoft::Json::Bson::BsonType type) ;
 
 /// @brief Method .ctor addr 0x254f174 size 0x28 virtual false final false
- void _ctor(::Newtonsoft::Json::Bson::BsonType type) ;
+ void _ctor(Newtonsoft::Json::Bson::BsonType type) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -214,12 +213,12 @@ namespace Newtonsoft::Json::Bson {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11775))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12015))
 // CS Name: Newtonsoft.Json.Bson.BsonReader
-class CORDL_TYPE BsonReader : public ::Newtonsoft::Json::JsonReader {
+class CORDL_TYPE BsonReader : public Newtonsoft::Json::JsonReader {
 public:
 // Declarations
-using ContainerContext = ::Newtonsoft::Json::Bson::____Newtonsoft__Json__Bson__BsonReader__ContainerContext;
+using ContainerContext = Newtonsoft::Json::Bson::Newtonsoft__Json__Bson__BsonReader__ContainerContext;
 
-using BsonReaderState = ::Newtonsoft::Json::Bson::____Newtonsoft__Json__Bson__BsonReader__BsonReaderState;
+using BsonReaderState = Newtonsoft::Json::Bson::Newtonsoft__Json__Bson__BsonReader__BsonReaderState;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xb0};
@@ -233,7 +232,7 @@ constexpr BsonReader(BsonReader const& ) noexcept = default;
 constexpr BsonReader(BsonReader&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BsonReader(void* ptr) noexcept : ::Newtonsoft::Json::JsonReader(ptr) {
+constexpr explicit BsonReader(void* ptr) noexcept : Newtonsoft::Json::JsonReader(ptr) {
 }
 
 
@@ -281,17 +280,17 @@ static void __set_SeqRange4(::ArrayW<uint8_t> value) ;
 
 static ::ArrayW<uint8_t> __get_SeqRange4() ;
 
- ::System::IO::BinaryReader __declspec(property(get=__get__reader, put=__set__reader))  _reader;
+ System::IO::BinaryReader __declspec(property(get=__get__reader, put=__set__reader))  _reader;
 
-constexpr void __set__reader(::System::IO::BinaryReader value) ;
+constexpr void __set__reader(System::IO::BinaryReader value) ;
 
-constexpr ::System::IO::BinaryReader __get__reader() const;
+constexpr System::IO::BinaryReader __get__reader() const;
 
- ::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::____Newtonsoft__Json__Bson__BsonReader__ContainerContext> __declspec(property(get=__get__stack, put=__set__stack))  _stack;
+ System::Collections::Generic::List_1<Newtonsoft::Json::Bson::Newtonsoft__Json__Bson__BsonReader__ContainerContext> __declspec(property(get=__get__stack, put=__set__stack))  _stack;
 
-constexpr void __set__stack(::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::____Newtonsoft__Json__Bson__BsonReader__ContainerContext> value) ;
+constexpr void __set__stack(System::Collections::Generic::List_1<Newtonsoft::Json::Bson::Newtonsoft__Json__Bson__BsonReader__ContainerContext> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::____Newtonsoft__Json__Bson__BsonReader__ContainerContext> __get__stack() const;
+constexpr System::Collections::Generic::List_1<Newtonsoft::Json::Bson::Newtonsoft__Json__Bson__BsonReader__ContainerContext> __get__stack() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get__byteBuffer, put=__set__byteBuffer))  _byteBuffer;
 
@@ -305,23 +304,23 @@ constexpr void __set__charBuffer(::ArrayW<char16_t> value) ;
 
 constexpr ::ArrayW<char16_t> __get__charBuffer() const;
 
- ::Newtonsoft::Json::Bson::BsonType __declspec(property(get=__get__currentElementType, put=__set__currentElementType))  _currentElementType;
+ Newtonsoft::Json::Bson::BsonType __declspec(property(get=__get__currentElementType, put=__set__currentElementType))  _currentElementType;
 
-constexpr void __set__currentElementType(::Newtonsoft::Json::Bson::BsonType value) ;
+constexpr void __set__currentElementType(Newtonsoft::Json::Bson::BsonType value) ;
 
-constexpr ::Newtonsoft::Json::Bson::BsonType __get__currentElementType() const;
+constexpr Newtonsoft::Json::Bson::BsonType __get__currentElementType() const;
 
- ::Newtonsoft::Json::Bson::____Newtonsoft__Json__Bson__BsonReader__BsonReaderState __declspec(property(get=__get__bsonReaderState, put=__set__bsonReaderState))  _bsonReaderState;
+ Newtonsoft::Json::Bson::Newtonsoft__Json__Bson__BsonReader__BsonReaderState __declspec(property(get=__get__bsonReaderState, put=__set__bsonReaderState))  _bsonReaderState;
 
-constexpr void __set__bsonReaderState(::Newtonsoft::Json::Bson::____Newtonsoft__Json__Bson__BsonReader__BsonReaderState value) ;
+constexpr void __set__bsonReaderState(Newtonsoft::Json::Bson::Newtonsoft__Json__Bson__BsonReader__BsonReaderState value) ;
 
-constexpr ::Newtonsoft::Json::Bson::____Newtonsoft__Json__Bson__BsonReader__BsonReaderState __get__bsonReaderState() const;
+constexpr Newtonsoft::Json::Bson::Newtonsoft__Json__Bson__BsonReader__BsonReaderState __get__bsonReaderState() const;
 
- ::Newtonsoft::Json::Bson::____Newtonsoft__Json__Bson__BsonReader__ContainerContext __declspec(property(get=__get__currentContext, put=__set__currentContext))  _currentContext;
+ Newtonsoft::Json::Bson::Newtonsoft__Json__Bson__BsonReader__ContainerContext __declspec(property(get=__get__currentContext, put=__set__currentContext))  _currentContext;
 
-constexpr void __set__currentContext(::Newtonsoft::Json::Bson::____Newtonsoft__Json__Bson__BsonReader__ContainerContext value) ;
+constexpr void __set__currentContext(Newtonsoft::Json::Bson::Newtonsoft__Json__Bson__BsonReader__ContainerContext value) ;
 
-constexpr ::Newtonsoft::Json::Bson::____Newtonsoft__Json__Bson__BsonReader__ContainerContext __get__currentContext() const;
+constexpr Newtonsoft::Json::Bson::Newtonsoft__Json__Bson__BsonReader__ContainerContext __get__currentContext() const;
 
  bool __declspec(property(get=__get__readRootValueAsArray, put=__set__readRootValueAsArray))  _readRootValueAsArray;
 
@@ -335,11 +334,11 @@ constexpr void __set__jsonNet35BinaryCompatibility(bool value) ;
 
 constexpr bool __get__jsonNet35BinaryCompatibility() const;
 
- ::System::DateTimeKind __declspec(property(get=__get__dateTimeKindHandling, put=__set__dateTimeKindHandling))  _dateTimeKindHandling;
+ System::DateTimeKind __declspec(property(get=__get__dateTimeKindHandling, put=__set__dateTimeKindHandling))  _dateTimeKindHandling;
 
-constexpr void __set__dateTimeKindHandling(::System::DateTimeKind value) ;
+constexpr void __set__dateTimeKindHandling(System::DateTimeKind value) ;
 
-constexpr ::System::DateTimeKind __get__dateTimeKindHandling() const;
+constexpr System::DateTimeKind __get__dateTimeKindHandling() const;
 
 
 // Properties
@@ -348,7 +347,7 @@ constexpr ::System::DateTimeKind __get__dateTimeKindHandling() const;
 
  bool __declspec(property(get=get_ReadRootValueAsArray, put=set_ReadRootValueAsArray))  ReadRootValueAsArray;
 
- ::System::DateTimeKind __declspec(property(get=get_DateTimeKindHandling, put=set_DateTimeKindHandling))  DateTimeKindHandling;
+ System::DateTimeKind __declspec(property(get=get_DateTimeKindHandling, put=set_DateTimeKindHandling))  DateTimeKindHandling;
 
 
 // Methods
@@ -366,34 +365,34 @@ constexpr ::System::DateTimeKind __get__dateTimeKindHandling() const;
  void set_ReadRootValueAsArray(bool value) ;
 
 /// @brief Method get_DateTimeKindHandling addr 0x254e4bc size 0x8 virtual false final false
- ::System::DateTimeKind get_DateTimeKindHandling() ;
+ System::DateTimeKind get_DateTimeKindHandling() ;
 
 /// @brief Method set_DateTimeKindHandling addr 0x254e4c4 size 0x8 virtual false final false
- void set_DateTimeKindHandling(::System::DateTimeKind value) ;
+ void set_DateTimeKindHandling(System::DateTimeKind value) ;
 
-// Ctor Parameters [CppParam { name: "stream", ty: "::System::IO::Stream", modifiers: "", def_value: None }]
-explicit BsonReader(::System::IO::Stream stream) ;
+// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
+explicit BsonReader(System::IO::Stream stream) ;
 
 /// @brief Method .ctor addr 0x254e4cc size 0xc virtual false final false
- void _ctor(::System::IO::Stream stream) ;
+ void _ctor(System::IO::Stream stream) ;
 
-// Ctor Parameters [CppParam { name: "reader", ty: "::System::IO::BinaryReader", modifiers: "", def_value: None }]
-explicit BsonReader(::System::IO::BinaryReader reader) ;
+// Ctor Parameters [CppParam { name: "reader", ty: "System::IO::BinaryReader", modifiers: "", def_value: None }]
+explicit BsonReader(System::IO::BinaryReader reader) ;
 
 /// @brief Method .ctor addr 0x254e5d8 size 0xc virtual false final false
- void _ctor(::System::IO::BinaryReader reader) ;
+ void _ctor(System::IO::BinaryReader reader) ;
 
-// Ctor Parameters [CppParam { name: "stream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "readRootValueAsArray", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "dateTimeKindHandling", ty: "::System::DateTimeKind", modifiers: "", def_value: None }]
-explicit BsonReader(::System::IO::Stream stream, bool readRootValueAsArray, ::System::DateTimeKind dateTimeKindHandling) ;
+// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "readRootValueAsArray", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "dateTimeKindHandling", ty: "System::DateTimeKind", modifiers: "", def_value: None }]
+explicit BsonReader(System::IO::Stream stream, bool readRootValueAsArray, System::DateTimeKind dateTimeKindHandling) ;
 
 /// @brief Method .ctor addr 0x254e4d8 size 0x100 virtual false final false
- void _ctor(::System::IO::Stream stream, bool readRootValueAsArray, ::System::DateTimeKind dateTimeKindHandling) ;
+ void _ctor(System::IO::Stream stream, bool readRootValueAsArray, System::DateTimeKind dateTimeKindHandling) ;
 
-// Ctor Parameters [CppParam { name: "reader", ty: "::System::IO::BinaryReader", modifiers: "", def_value: None }, CppParam { name: "readRootValueAsArray", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "dateTimeKindHandling", ty: "::System::DateTimeKind", modifiers: "", def_value: None }]
-explicit BsonReader(::System::IO::BinaryReader reader, bool readRootValueAsArray, ::System::DateTimeKind dateTimeKindHandling) ;
+// Ctor Parameters [CppParam { name: "reader", ty: "System::IO::BinaryReader", modifiers: "", def_value: None }, CppParam { name: "readRootValueAsArray", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "dateTimeKindHandling", ty: "System::DateTimeKind", modifiers: "", def_value: None }]
+explicit BsonReader(System::IO::BinaryReader reader, bool readRootValueAsArray, System::DateTimeKind dateTimeKindHandling) ;
 
 /// @brief Method .ctor addr 0x254e5e4 size 0xd0 virtual false final false
- void _ctor(::System::IO::BinaryReader reader, bool readRootValueAsArray, ::System::DateTimeKind dateTimeKindHandling) ;
+ void _ctor(System::IO::BinaryReader reader, bool readRootValueAsArray, System::DateTimeKind dateTimeKindHandling) ;
 
 /// @brief Method ReadElement addr 0x254e6b4 size 0x1c virtual false final false
  ::StringW ReadElement() ;
@@ -417,16 +416,16 @@ explicit BsonReader(::System::IO::BinaryReader reader, bool readRootValueAsArray
  void PopContext() ;
 
 /// @brief Method PushContext addr 0x254f19c size 0xa8 virtual false final false
- void PushContext(::Newtonsoft::Json::Bson::____Newtonsoft__Json__Bson__BsonReader__ContainerContext newContext) ;
+ void PushContext(Newtonsoft::Json::Bson::Newtonsoft__Json__Bson__BsonReader__ContainerContext newContext) ;
 
 /// @brief Method ReadByte addr 0x254f7b0 size 0x34 virtual false final false
  uint8_t ReadByte() ;
 
 /// @brief Method ReadType addr 0x254f27c size 0x534 virtual false final false
- void ReadType(::Newtonsoft::Json::Bson::BsonType type) ;
+ void ReadType(Newtonsoft::Json::Bson::BsonType type) ;
 
 /// @brief Method ReadBinary addr 0x254f8e4 size 0x58 virtual false final false
- ::ArrayW<uint8_t> ReadBinary(ByRef<::Newtonsoft::Json::Bson::BsonBinaryType> binaryType) ;
+ ::ArrayW<uint8_t> ReadBinary(ByRef<Newtonsoft::Json::Bson::BsonBinaryType> binaryType) ;
 
 /// @brief Method ReadString addr 0x254e704 size 0x270 virtual false final false
  ::StringW ReadString() ;
@@ -456,7 +455,7 @@ explicit BsonReader(::System::IO::BinaryReader reader, bool readRootValueAsArray
  int64_t ReadInt64() ;
 
 /// @brief Method ReadType addr 0x254e6d0 size 0x34 virtual false final false
- ::Newtonsoft::Json::Bson::BsonType ReadType() ;
+ Newtonsoft::Json::Bson::BsonType ReadType() ;
 
 /// @brief Method MovePosition addr 0x254f888 size 0x24 virtual false final false
  void MovePosition(int32_t count) ;
@@ -468,9 +467,8 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Bson
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Bson::____Newtonsoft__Json__Bson__BsonReader__BsonReaderState, "Newtonsoft.Json.Bson", "BsonReader/BsonReaderState");
-NEED_NO_BOX(::Newtonsoft::Json::Bson::BsonReader);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Bson::BsonReader, "Newtonsoft.Json.Bson", "BsonReader");
-NEED_NO_BOX(::Newtonsoft::Json::Bson::____Newtonsoft__Json__Bson__BsonReader__ContainerContext);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Bson::____Newtonsoft__Json__Bson__BsonReader__ContainerContext, "Newtonsoft.Json.Bson", "BsonReader/ContainerContext");
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Bson::Newtonsoft__Json__Bson__BsonReader__BsonReaderState, "Newtonsoft.Json.Bson", "BsonReader/BsonReaderState");
+NEED_NO_BOX(Newtonsoft::Json::Bson::BsonReader);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Bson::BsonReader, "Newtonsoft.Json.Bson", "BsonReader");
+NEED_NO_BOX(Newtonsoft::Json::Bson::Newtonsoft__Json__Bson__BsonReader__ContainerContext);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Bson::Newtonsoft__Json__Bson__BsonReader__ContainerContext, "Newtonsoft.Json.Bson", "BsonReader/ContainerContext");

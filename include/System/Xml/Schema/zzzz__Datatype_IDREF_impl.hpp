@@ -1,53 +1,52 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__Datatype_NCName_impl.hpp"
-namespace {
 #include "System/Xml/Schema/zzzz__Datatype_IDREF_def.hpp"
 #include "System/Xml/zzzz__XmlTokenizedType_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"
-//  Writing Method size for method: ::System::Xml::Schema::Datatype_IDREF.get_TypeCode
+//  Writing Method size for method: System::Xml::Schema::Datatype_IDREF.get_TypeCode
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlTypeCode (::System::Xml::Schema::Datatype_IDREF::*)()>(&::System::Xml::Schema::Datatype_IDREF::get_TypeCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::XmlTypeCode (System::Xml::Schema::Datatype_IDREF::*)()>(&System::Xml::Schema::Datatype_IDREF::get_TypeCode)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2727e6c;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(::System::Xml::Schema::Datatype_IDREF),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_IDREF>::get(),
+                                classof(System::Xml::Schema::Datatype_IDREF),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::Datatype_IDREF>::get(),
                                   8
                                 ));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::Datatype_IDREF.get_TokenizedType
+//  Writing Method size for method: System::Xml::Schema::Datatype_IDREF.get_TokenizedType
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlTokenizedType (::System::Xml::Schema::Datatype_IDREF::*)()>(&::System::Xml::Schema::Datatype_IDREF::get_TokenizedType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlTokenizedType (System::Xml::Schema::Datatype_IDREF::*)()>(&System::Xml::Schema::Datatype_IDREF::get_TokenizedType)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2727e74;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(::System::Xml::Schema::Datatype_IDREF),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_IDREF>::get(),
+                                classof(System::Xml::Schema::Datatype_IDREF),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::Datatype_IDREF>::get(),
                                   5
                                 ));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::Datatype_IDREF._ctor
+//  Writing Method size for method: System::Xml::Schema::Datatype_IDREF._ctor
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Datatype_IDREF::*)()>(&::System::Xml::Schema::Datatype_IDREF::_ctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::Datatype_IDREF::*)()>(&System::Xml::Schema::Datatype_IDREF::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x2727e7c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_IDREF>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::Datatype_IDREF>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -55,33 +54,32 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Sys
     return ___internal_method;
   }
 };
- ::System::Xml::Schema::XmlTypeCode ::System::Xml::Schema::Datatype_IDREF::get_TypeCode()  {
+ System::Xml::Schema::XmlTypeCode System::Xml::Schema::Datatype_IDREF::get_TypeCode()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_IDREF>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::Datatype_IDREF>::get(),
                             "get_TypeCode",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlTypeCode, false>(const_cast<void*>(instance), ___internal_method);
+return ::cordl_internals::RunMethodRethrow<System::Xml::Schema::XmlTypeCode, false>(const_cast<void*>(instance), ___internal_method);
 }
- ::System::Xml::XmlTokenizedType ::System::Xml::Schema::Datatype_IDREF::get_TokenizedType()  {
+ System::Xml::XmlTokenizedType System::Xml::Schema::Datatype_IDREF::get_TokenizedType()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_IDREF>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::Datatype_IDREF>::get(),
                             "get_TokenizedType",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlTokenizedType, false>(const_cast<void*>(instance), ___internal_method);
+return ::cordl_internals::RunMethodRethrow<System::Xml::XmlTokenizedType, false>(const_cast<void*>(instance), ___internal_method);
 }
 // Ctor Parameters []
- ::System::Xml::Schema::Datatype_IDREF::Datatype_IDREF()  : ::System::Xml::Schema::Datatype_NCName(THROW_UNLESS(::il2cpp_utils::New<Datatype_IDREF>())) {}
- void ::System::Xml::Schema::Datatype_IDREF::_ctor()  {
+ System::Xml::Schema::Datatype_IDREF::Datatype_IDREF()  : System::Xml::Schema::Datatype_NCName(THROW_UNLESS(::il2cpp_utils::New<Datatype_IDREF>())) {}
+ void System::Xml::Schema::Datatype_IDREF::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_IDREF>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::Datatype_IDREF>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-} // end anonymous namespace

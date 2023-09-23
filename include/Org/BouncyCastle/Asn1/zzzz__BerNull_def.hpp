@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerNull_def.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Asn1 {
 class DerOutputStream;
 }
@@ -16,7 +15,7 @@ namespace Org::BouncyCastle::Asn1 {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(477))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(478))
 // CS Name: Org.BouncyCastle.Asn1.BerNull
-class CORDL_TYPE BerNull : public ::Org::BouncyCastle::Asn1::DerNull {
+class CORDL_TYPE BerNull : public Org::BouncyCastle::Asn1::DerNull {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr BerNull(BerNull const& ) noexcept = default;
 constexpr BerNull(BerNull&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BerNull(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::DerNull(ptr) {
+constexpr explicit BerNull(void* ptr) noexcept : Org::BouncyCastle::Asn1::DerNull(ptr) {
 }
 
 
@@ -52,11 +51,11 @@ constexpr explicit BerNull(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::DerN
 
 // Fields
 
-static ::Org::BouncyCastle::Asn1::BerNull __declspec(property(get=__get_Instance, put=__set_Instance))  Instance;
+static Org::BouncyCastle::Asn1::BerNull __declspec(property(get=__get_Instance, put=__set_Instance))  Instance;
 
-static void __set_Instance(::Org::BouncyCastle::Asn1::BerNull value) ;
+static void __set_Instance(Org::BouncyCastle::Asn1::BerNull value) ;
 
-static ::Org::BouncyCastle::Asn1::BerNull __get_Instance() ;
+static Org::BouncyCastle::Asn1::BerNull __get_Instance() ;
 
 
 // Methods
@@ -74,12 +73,11 @@ explicit BerNull(int32_t dummy) ;
  void _ctor(int32_t dummy) ;
 
 /// @brief Method Encode addr 0x113112c size 0xd0 virtual true final false
- void Encode(::Org::BouncyCastle::Asn1::DerOutputStream derOut) ;
+ void Encode(Org::BouncyCastle::Asn1::DerOutputStream derOut) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::BerNull);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::BerNull, "Org.BouncyCastle.Asn1", "BerNull");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::BerNull);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::BerNull, "Org.BouncyCastle.Asn1", "BerNull");

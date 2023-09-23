@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 struct Justify;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field FlexStart offset 0
-static ::UnityEngine::UIElements::Justify const FlexStart;
+static UnityEngine::UIElements::Justify const FlexStart;
 
 /// @brief Field Center offset 0
-static ::UnityEngine::UIElements::Justify const Center;
+static UnityEngine::UIElements::Justify const Center;
 
 /// @brief Field FlexEnd offset 0
-static ::UnityEngine::UIElements::Justify const FlexEnd;
+static UnityEngine::UIElements::Justify const FlexEnd;
 
 /// @brief Field SpaceBetween offset 0
-static ::UnityEngine::UIElements::Justify const SpaceBetween;
+static UnityEngine::UIElements::Justify const SpaceBetween;
 
 /// @brief Field SpaceAround offset 0
-static ::UnityEngine::UIElements::Justify const SpaceAround;
+static UnityEngine::UIElements::Justify const SpaceAround;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Justify, "UnityEngine.UIElements", "Justify");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::Justify, "UnityEngine.UIElements", "Justify");

@@ -1,18 +1,17 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace System::Collections {
-class ArrayList;
-}
 namespace System {
 struct TimeSpan;
 }
-namespace System::Threading {
-class Timer;
+namespace System::Collections {
+class ArrayList;
 }
 namespace System::Runtime::Remoting {
 class ServerIdentity;
+}
+namespace System::Threading {
+class Timer;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Lifetime {
@@ -60,26 +59,26 @@ constexpr explicit LeaseManager(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 
 // Fields
 
- ::System::Collections::ArrayList __declspec(property(get=__get__objects, put=__set__objects))  _objects;
+ System::Collections::ArrayList __declspec(property(get=__get__objects, put=__set__objects))  _objects;
 
-constexpr void __set__objects(::System::Collections::ArrayList value) ;
+constexpr void __set__objects(System::Collections::ArrayList value) ;
 
-constexpr ::System::Collections::ArrayList __get__objects() const;
+constexpr System::Collections::ArrayList __get__objects() const;
 
- ::System::Threading::Timer __declspec(property(get=__get__timer, put=__set__timer))  _timer;
+ System::Threading::Timer __declspec(property(get=__get__timer, put=__set__timer))  _timer;
 
-constexpr void __set__timer(::System::Threading::Timer value) ;
+constexpr void __set__timer(System::Threading::Timer value) ;
 
-constexpr ::System::Threading::Timer __get__timer() const;
+constexpr System::Threading::Timer __get__timer() const;
 
 
 // Methods
 
 /// @brief Method SetPollTime addr 0x232f41c size 0xf8 virtual false final false
- void SetPollTime(::System::TimeSpan timeSpan) ;
+ void SetPollTime(System::TimeSpan timeSpan) ;
 
 /// @brief Method TrackLifetime addr 0x232f514 size 0x134 virtual false final false
- void TrackLifetime(::System::Runtime::Remoting::ServerIdentity identity) ;
+ void TrackLifetime(System::Runtime::Remoting::ServerIdentity identity) ;
 
 /// @brief Method StartManager addr 0x232f648 size 0x160 virtual false final false
  void StartManager() ;
@@ -100,6 +99,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Lifetime
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Lifetime::LeaseManager);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Lifetime::LeaseManager, "System.Runtime.Remoting.Lifetime", "LeaseManager");
+NEED_NO_BOX(System::Runtime::Remoting::Lifetime::LeaseManager);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Lifetime::LeaseManager, "System.Runtime.Remoting.Lifetime", "LeaseManager");

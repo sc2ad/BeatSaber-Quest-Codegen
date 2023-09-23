@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 // Forward declare root types
 namespace HMUI {
 class ItemForFocussedScrolling;
@@ -12,7 +11,7 @@ namespace HMUI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13689))
 // CS Name: HMUI.ItemForFocussedScrolling
-class CORDL_TYPE ItemForFocussedScrolling : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ItemForFocussedScrolling : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr ItemForFocussedScrolling(ItemForFocussedScrolling const& ) noexcept = 
 constexpr ItemForFocussedScrolling(ItemForFocussedScrolling&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ItemForFocussedScrolling(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ItemForFocussedScrolling(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HMUI
-} // end anonymous namespace
-NEED_NO_BOX(::HMUI::ItemForFocussedScrolling);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::ItemForFocussedScrolling, "HMUI", "ItemForFocussedScrolling");
+NEED_NO_BOX(HMUI::ItemForFocussedScrolling);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::ItemForFocussedScrolling, "HMUI", "ItemForFocussedScrolling");

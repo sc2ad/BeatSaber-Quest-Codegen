@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace TMPro {
 struct FontStyles;
@@ -76,41 +75,40 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Normal offset 0
-static ::TMPro::FontStyles const Normal;
+static TMPro::FontStyles const Normal;
 
 /// @brief Field Bold offset 0
-static ::TMPro::FontStyles const Bold;
+static TMPro::FontStyles const Bold;
 
 /// @brief Field Italic offset 0
-static ::TMPro::FontStyles const Italic;
+static TMPro::FontStyles const Italic;
 
 /// @brief Field Underline offset 0
-static ::TMPro::FontStyles const Underline;
+static TMPro::FontStyles const Underline;
 
 /// @brief Field LowerCase offset 0
-static ::TMPro::FontStyles const LowerCase;
+static TMPro::FontStyles const LowerCase;
 
 /// @brief Field UpperCase offset 0
-static ::TMPro::FontStyles const UpperCase;
+static TMPro::FontStyles const UpperCase;
 
 /// @brief Field SmallCaps offset 0
-static ::TMPro::FontStyles const SmallCaps;
+static TMPro::FontStyles const SmallCaps;
 
 /// @brief Field Strikethrough offset 0
-static ::TMPro::FontStyles const Strikethrough;
+static TMPro::FontStyles const Strikethrough;
 
 /// @brief Field Superscript offset 0
-static ::TMPro::FontStyles const Superscript;
+static TMPro::FontStyles const Superscript;
 
 /// @brief Field Subscript offset 0
-static ::TMPro::FontStyles const Subscript;
+static TMPro::FontStyles const Subscript;
 
 /// @brief Field Highlight offset 0
-static ::TMPro::FontStyles const Highlight;
+static TMPro::FontStyles const Highlight;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::FontStyles, "TMPro", "FontStyles");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::FontStyles, "TMPro", "FontStyles");

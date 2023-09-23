@@ -1,6 +1,5 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace GlobalNamespace {
 struct BladeMovementDataElement;
 }
@@ -27,12 +26,11 @@ constexpr explicit ISaberMovementDataProcessor(void* ptr) noexcept : ::cordl_int
 // Methods
 
 /// @brief Method ProcessNewData addr 0x0 size 0xffffffffffffffff virtual true final false
- void ProcessNewData(::GlobalNamespace::BladeMovementDataElement newData, ::GlobalNamespace::BladeMovementDataElement prevData, bool prevDataAreValid) ;
+ void ProcessNewData(GlobalNamespace::BladeMovementDataElement newData, GlobalNamespace::BladeMovementDataElement prevData, bool prevDataAreValid) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ISaberMovementDataProcessor);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ISaberMovementDataProcessor, "", "ISaberMovementDataProcessor");
+NEED_NO_BOX(GlobalNamespace::ISaberMovementDataProcessor);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ISaberMovementDataProcessor, "", "ISaberMovementDataProcessor");

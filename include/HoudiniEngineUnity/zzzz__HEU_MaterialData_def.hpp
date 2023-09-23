@@ -7,32 +7,31 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace HoudiniEngineUnity {
-struct HAPI_MaterialInfo;
+struct HAPI_NodeInfo;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_ParmInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_ImageInfo;
 }
 namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivable_1;
 }
 namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_ImageInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_NodeInfo;
+struct HAPI_MaterialInfo;
 }
 namespace UnityEngine {
 class Material;
 }
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
+}
 // Forward declare root types
 namespace HoudiniEngineUnity {
-struct ____HoudiniEngineUnity__HEU_MaterialData__Source;
+struct HoudiniEngineUnity__HEU_MaterialData__Source;
 }
 namespace HoudiniEngineUnity {
 class HEU_MaterialData;
@@ -43,20 +42,20 @@ namespace HoudiniEngineUnity {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9718))
 // CS Name: HoudiniEngineUnity.HEU_MaterialData::Source
-struct CORDL_TYPE ____HoudiniEngineUnity__HEU_MaterialData__Source : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE HoudiniEngineUnity__HEU_MaterialData__Source : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____HoudiniEngineUnity__HEU_MaterialData__Source(int32_t value__) noexcept;
+constexpr HoudiniEngineUnity__HEU_MaterialData__Source(int32_t value__) noexcept;
 
 
-                    constexpr ____HoudiniEngineUnity__HEU_MaterialData__Source(____HoudiniEngineUnity__HEU_MaterialData__Source const&) = default;
-                    constexpr ____HoudiniEngineUnity__HEU_MaterialData__Source(____HoudiniEngineUnity__HEU_MaterialData__Source&&) = default;
-                    constexpr ____HoudiniEngineUnity__HEU_MaterialData__Source& operator=(____HoudiniEngineUnity__HEU_MaterialData__Source const& o) {
+                    constexpr HoudiniEngineUnity__HEU_MaterialData__Source(HoudiniEngineUnity__HEU_MaterialData__Source const&) = default;
+                    constexpr HoudiniEngineUnity__HEU_MaterialData__Source(HoudiniEngineUnity__HEU_MaterialData__Source&&) = default;
+                    constexpr HoudiniEngineUnity__HEU_MaterialData__Source& operator=(HoudiniEngineUnity__HEU_MaterialData__Source const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____HoudiniEngineUnity__HEU_MaterialData__Source& operator=(____HoudiniEngineUnity__HEU_MaterialData__Source&& o) noexcept {
+                    constexpr HoudiniEngineUnity__HEU_MaterialData__Source& operator=(HoudiniEngineUnity__HEU_MaterialData__Source&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -69,7 +68,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____HoudiniEngineUnity__HEU_MaterialData__Source(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit HoudiniEngineUnity__HEU_MaterialData__Source(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -77,7 +76,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______HoudiniEngineUnity__HEU_MaterialData__Source_Unwrapped : int32_t {
+enum class __HoudiniEngineUnity__HEU_MaterialData__Source_Unwrapped : int32_t {
 __DEFAULT = 0,
 __HOUDINI = 1,
 __UNITY = 2,
@@ -85,8 +84,8 @@ __SUBSTANCE = 3,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______HoudiniEngineUnity__HEU_MaterialData__Source_Unwrapped () const noexcept {
-return std::bit_cast<______HoudiniEngineUnity__HEU_MaterialData__Source_Unwrapped>(__instance);
+constexpr operator __HoudiniEngineUnity__HEU_MaterialData__Source_Unwrapped () const noexcept {
+return std::bit_cast<__HoudiniEngineUnity__HEU_MaterialData__Source_Unwrapped>(__instance);
 }
 
 
@@ -99,16 +98,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field DEFAULT offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_MaterialData__Source const DEFAULT;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_MaterialData__Source const DEFAULT;
 
 /// @brief Field HOUDINI offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_MaterialData__Source const HOUDINI;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_MaterialData__Source const HOUDINI;
 
 /// @brief Field UNITY offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_MaterialData__Source const UNITY;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_MaterialData__Source const UNITY;
 
 /// @brief Field SUBSTANCE offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_MaterialData__Source const SUBSTANCE;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_MaterialData__Source const SUBSTANCE;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -120,13 +119,13 @@ namespace HoudiniEngineUnity {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10151))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9719))
 // CS Name: HoudiniEngineUnity.HEU_MaterialData
-class CORDL_TYPE HEU_MaterialData : public ::UnityEngine::ScriptableObject {
+class CORDL_TYPE HEU_MaterialData : public UnityEngine::ScriptableObject {
 public:
 // Declarations
-using Source = ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_MaterialData__Source;
+using Source = HoudiniEngineUnity::HoudiniEngineUnity__HEU_MaterialData__Source;
 
-/// @brief Convert operator to ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_MaterialData>
-constexpr operator  ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_MaterialData>() const noexcept;
+/// @brief Convert operator to HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_MaterialData>
+constexpr operator  HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_MaterialData>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -140,7 +139,7 @@ constexpr HEU_MaterialData(HEU_MaterialData const& ) noexcept = default;
 constexpr HEU_MaterialData(HEU_MaterialData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HEU_MaterialData(void* ptr) noexcept : ::UnityEngine::ScriptableObject(ptr) {
+constexpr explicit HEU_MaterialData(void* ptr) noexcept : UnityEngine::ScriptableObject(ptr) {
 }
 
 
@@ -161,17 +160,17 @@ constexpr explicit HEU_MaterialData(void* ptr) noexcept : ::UnityEngine::Scripta
 
 // Fields
 
- ::UnityEngine::Material __declspec(property(get=__get__material, put=__set__material))  _material;
+ UnityEngine::Material __declspec(property(get=__get__material, put=__set__material))  _material;
 
-constexpr void __set__material(::UnityEngine::Material value) ;
+constexpr void __set__material(UnityEngine::Material value) ;
 
-constexpr ::UnityEngine::Material __get__material() const;
+constexpr UnityEngine::Material __get__material() const;
 
- ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_MaterialData__Source __declspec(property(get=__get__materialSource, put=__set__materialSource))  _materialSource;
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_MaterialData__Source __declspec(property(get=__get__materialSource, put=__set__materialSource))  _materialSource;
 
-constexpr void __set__materialSource(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_MaterialData__Source value) ;
+constexpr void __set__materialSource(HoudiniEngineUnity::HoudiniEngineUnity__HEU_MaterialData__Source value) ;
 
-constexpr ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_MaterialData__Source __get__materialSource() const;
+constexpr HoudiniEngineUnity::HoudiniEngineUnity__HEU_MaterialData__Source __get__materialSource() const;
 
  int32_t __declspec(property(get=__get__materialKey, put=__set__materialKey))  _materialKey;
 
@@ -186,25 +185,25 @@ constexpr int32_t __get__materialKey() const;
  bool IsExistingMaterial() ;
 
 /// @brief Method UpdateMaterialFromHoudini addr 0x202bd2c size 0xf40 virtual false final false
- void UpdateMaterialFromHoudini(::HoudiniEngineUnity::HAPI_MaterialInfo materialInfo, ::StringW assetCacheFolderPath) ;
+ void UpdateMaterialFromHoudini(HoudiniEngineUnity::HAPI_MaterialInfo materialInfo, ::StringW assetCacheFolderPath) ;
 
 /// @brief Method UseLegacyShaders addr 0x202cce8 size 0x5d8 virtual false final false
- void UseLegacyShaders(::HoudiniEngineUnity::HAPI_MaterialInfo materialInfo, ::StringW assetCacheFolderPath, ::HoudiniEngineUnity::HEU_SessionBase session, ::HoudiniEngineUnity::HAPI_NodeInfo nodeInfo, ::ArrayW<::HoudiniEngineUnity::HAPI_ParmInfo> parmInfos) ;
+ void UseLegacyShaders(HoudiniEngineUnity::HAPI_MaterialInfo materialInfo, ::StringW assetCacheFolderPath, HoudiniEngineUnity::HEU_SessionBase session, HoudiniEngineUnity::HAPI_NodeInfo nodeInfo, ::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo> parmInfos) ;
 
 /// @brief Method GetTextureFileNameFromMaterialParam addr 0x202d2c0 size 0x24c virtual false final false
-static ::StringW GetTextureFileNameFromMaterialParam(::HoudiniEngineUnity::HEU_SessionBase session, int32_t nodeID, ::HoudiniEngineUnity::HAPI_ParmInfo parmInfo) ;
+static ::StringW GetTextureFileNameFromMaterialParam(HoudiniEngineUnity::HEU_SessionBase session, int32_t nodeID, HoudiniEngineUnity::HAPI_ParmInfo parmInfo) ;
 
 /// @brief Method IsTransparentMaterial addr 0x202cc6c size 0x30 virtual false final false
-static bool IsTransparentMaterial(::HoudiniEngineUnity::HEU_SessionBase session, int32_t nodeID, ::ArrayW<::HoudiniEngineUnity::HAPI_ParmInfo> parameters) ;
+static bool IsTransparentMaterial(HoudiniEngineUnity::HEU_SessionBase session, int32_t nodeID, ::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo> parameters) ;
 
 /// @brief Method GetMaterialAlpha addr 0x202d97c size 0x1d8 virtual false final false
-static bool GetMaterialAlpha(::HoudiniEngineUnity::HEU_SessionBase session, int32_t nodeID, ::ArrayW<::HoudiniEngineUnity::HAPI_ParmInfo> parameters, float_t defaultValue, ByRef<float_t> alpha) ;
+static bool GetMaterialAlpha(HoudiniEngineUnity::HEU_SessionBase session, int32_t nodeID, ::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo> parameters, float_t defaultValue, ByRef<float_t> alpha) ;
 
 /// @brief Method GetSupportedFileFormat addr 0x202db54 size 0x124 virtual false final false
-static ::StringW GetSupportedFileFormat(::HoudiniEngineUnity::HEU_SessionBase session, ByRef<::HoudiniEngineUnity::HAPI_ImageInfo> imageInfo) ;
+static ::StringW GetSupportedFileFormat(HoudiniEngineUnity::HEU_SessionBase session, ByRef<HoudiniEngineUnity::HAPI_ImageInfo> imageInfo) ;
 
 /// @brief Method IsEquivalentTo addr 0x202dc78 size 0x1c8 virtual true final true
- bool IsEquivalentTo(::HoudiniEngineUnity::HEU_MaterialData other) ;
+ bool IsEquivalentTo(HoudiniEngineUnity::HEU_MaterialData other) ;
 
 // Ctor Parameters []
 explicit HEU_MaterialData() ;
@@ -216,7 +215,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_MaterialData__Source, "HoudiniEngineUnity", "HEU_MaterialData/Source");
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_MaterialData);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_MaterialData, "HoudiniEngineUnity", "HEU_MaterialData");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HoudiniEngineUnity__HEU_MaterialData__Source, "HoudiniEngineUnity", "HEU_MaterialData/Source");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_MaterialData);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_MaterialData, "HoudiniEngineUnity", "HEU_MaterialData");

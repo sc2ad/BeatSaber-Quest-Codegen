@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HAPI_State;
@@ -74,35 +73,34 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field HAPI_STATE_READY offset 0
-static ::HoudiniEngineUnity::HAPI_State const HAPI_STATE_READY;
+static HoudiniEngineUnity::HAPI_State const HAPI_STATE_READY;
 
 /// @brief Field HAPI_STATE_READY_WITH_FATAL_ERRORS offset 0
-static ::HoudiniEngineUnity::HAPI_State const HAPI_STATE_READY_WITH_FATAL_ERRORS;
+static HoudiniEngineUnity::HAPI_State const HAPI_STATE_READY_WITH_FATAL_ERRORS;
 
 /// @brief Field HAPI_STATE_READY_WITH_COOK_ERRORS offset 0
-static ::HoudiniEngineUnity::HAPI_State const HAPI_STATE_READY_WITH_COOK_ERRORS;
+static HoudiniEngineUnity::HAPI_State const HAPI_STATE_READY_WITH_COOK_ERRORS;
 
 /// @brief Field HAPI_STATE_STARTING_COOK offset 0
-static ::HoudiniEngineUnity::HAPI_State const HAPI_STATE_STARTING_COOK;
+static HoudiniEngineUnity::HAPI_State const HAPI_STATE_STARTING_COOK;
 
 /// @brief Field HAPI_STATE_COOKING offset 0
-static ::HoudiniEngineUnity::HAPI_State const HAPI_STATE_COOKING;
+static HoudiniEngineUnity::HAPI_State const HAPI_STATE_COOKING;
 
 /// @brief Field HAPI_STATE_STARTING_LOAD offset 0
-static ::HoudiniEngineUnity::HAPI_State const HAPI_STATE_STARTING_LOAD;
+static HoudiniEngineUnity::HAPI_State const HAPI_STATE_STARTING_LOAD;
 
 /// @brief Field HAPI_STATE_LOADING offset 0
-static ::HoudiniEngineUnity::HAPI_State const HAPI_STATE_LOADING;
+static HoudiniEngineUnity::HAPI_State const HAPI_STATE_LOADING;
 
 /// @brief Field HAPI_STATE_MAX offset 0
-static ::HoudiniEngineUnity::HAPI_State const HAPI_STATE_MAX;
+static HoudiniEngineUnity::HAPI_State const HAPI_STATE_MAX;
 
 /// @brief Field HAPI_STATE_MAX_READY_STATE offset 0
-static ::HoudiniEngineUnity::HAPI_State const HAPI_STATE_MAX_READY_STATE;
+static HoudiniEngineUnity::HAPI_State const HAPI_STATE_MAX_READY_STATE;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_State, "HoudiniEngineUnity", "HAPI_State");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_State, "HoudiniEngineUnity", "HAPI_State");

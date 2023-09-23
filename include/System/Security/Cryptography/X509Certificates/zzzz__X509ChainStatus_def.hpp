@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
-namespace {
 namespace System::Security::Cryptography::X509Certificates {
 struct X509ChainStatusFlags;
 }
@@ -19,8 +18,8 @@ namespace System::Security::Cryptography::X509Certificates {
 struct CORDL_TYPE X509ChainStatus : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "status", ty: "::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags", modifiers: "", def_value: None }, CppParam { name: "info", ty: "::StringW", modifiers: "", def_value: None }]
-constexpr X509ChainStatus(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags status, ::StringW info) noexcept;
+// Ctor Parameters [CppParam { name: "status", ty: "System::Security::Cryptography::X509Certificates::X509ChainStatusFlags", modifiers: "", def_value: None }, CppParam { name: "info", ty: "::StringW", modifiers: "", def_value: None }]
+constexpr X509ChainStatus(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags status, ::StringW info) noexcept;
 
 
                     constexpr X509ChainStatus(X509ChainStatus const&) = default;
@@ -53,11 +52,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags __declspec(property(get=__get_status, put=__set_status))  status;
+ System::Security::Cryptography::X509Certificates::X509ChainStatusFlags __declspec(property(get=__get_status, put=__set_status))  status;
 
-constexpr void __set_status(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags value) ;
+constexpr void __set_status(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags value) ;
 
-constexpr ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags __get_status() const;
+constexpr System::Security::Cryptography::X509Certificates::X509ChainStatusFlags __get_status() const;
 
  ::StringW __declspec(property(get=__get_info, put=__set_info))  info;
 
@@ -68,7 +67,7 @@ constexpr ::StringW __get_info() const;
 
 // Properties
 
- ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags __declspec(property(get=get_Status, put=set_Status))  Status;
+ System::Security::Cryptography::X509Certificates::X509ChainStatusFlags __declspec(property(get=get_Status, put=set_Status))  Status;
 
  ::StringW __declspec(property(put=set_StatusInformation))  StatusInformation;
 
@@ -76,23 +75,22 @@ constexpr ::StringW __get_info() const;
 // Methods
 
 /// @brief Method .ctor addr 0x27eec1c size 0x20 virtual false final false
- void _ctor(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flag) ;
+ void _ctor(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flag) ;
 
 /// @brief Method get_Status addr 0x27f1588 size 0x8 virtual false final false
- ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags get_Status() ;
+ System::Security::Cryptography::X509Certificates::X509ChainStatusFlags get_Status() ;
 
 /// @brief Method set_Status addr 0x27f1590 size 0x8 virtual false final false
- void set_Status(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags value) ;
+ void set_Status(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags value) ;
 
 /// @brief Method set_StatusInformation addr 0x27f1598 size 0x8 virtual false final false
  void set_StatusInformation(::StringW value) ;
 
 /// @brief Method GetInformation addr 0x27ed6a4 size 0x198 virtual false final false
-static ::StringW GetInformation(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flags) ;
+static ::StringW GetInformation(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flags) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography::X509Certificates
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::X509Certificates::X509ChainStatus, "System.Security.Cryptography.X509Certificates", "X509ChainStatus");
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509ChainStatus, "System.Security.Cryptography.X509Certificates", "X509ChainStatus");

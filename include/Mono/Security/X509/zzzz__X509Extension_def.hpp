@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Text {
-class StringBuilder;
-}
 namespace Mono::Security {
 class ASN1;
+}
+namespace System::Text {
+class StringBuilder;
 }
 // Forward declare root types
 namespace Mono::Security::X509 {
@@ -68,11 +67,11 @@ constexpr void __set_extnCritical(bool value) ;
 
 constexpr bool __get_extnCritical() const;
 
- ::Mono::Security::ASN1 __declspec(property(get=__get_extnValue, put=__set_extnValue))  extnValue;
+ Mono::Security::ASN1 __declspec(property(get=__get_extnValue, put=__set_extnValue))  extnValue;
 
-constexpr void __set_extnValue(::Mono::Security::ASN1 value) ;
+constexpr void __set_extnValue(Mono::Security::ASN1 value) ;
 
-constexpr ::Mono::Security::ASN1 __get_extnValue() const;
+constexpr Mono::Security::ASN1 __get_extnValue() const;
 
 
 // Properties
@@ -81,22 +80,22 @@ constexpr ::Mono::Security::ASN1 __get_extnValue() const;
 
  bool __declspec(property(get=get_Critical))  Critical;
 
- ::Mono::Security::ASN1 __declspec(property(get=get_Value))  Value;
+ Mono::Security::ASN1 __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "asn1", ty: "::Mono::Security::ASN1", modifiers: "", def_value: None }]
-explicit X509Extension(::Mono::Security::ASN1 asn1) ;
+// Ctor Parameters [CppParam { name: "asn1", ty: "Mono::Security::ASN1", modifiers: "", def_value: None }]
+explicit X509Extension(Mono::Security::ASN1 asn1) ;
 
 /// @brief Method .ctor addr 0x228f518 size 0x2cc virtual false final false
- void _ctor(::Mono::Security::ASN1 asn1) ;
+ void _ctor(Mono::Security::ASN1 asn1) ;
 
-// Ctor Parameters [CppParam { name: "extension", ty: "::Mono::Security::X509::X509Extension", modifiers: "", def_value: None }]
-explicit X509Extension(::Mono::Security::X509::X509Extension extension) ;
+// Ctor Parameters [CppParam { name: "extension", ty: "Mono::Security::X509::X509Extension", modifiers: "", def_value: None }]
+explicit X509Extension(Mono::Security::X509::X509Extension extension) ;
 
 /// @brief Method .ctor addr 0x228f7e4 size 0x14c virtual false final false
- void _ctor(::Mono::Security::X509::X509Extension extension) ;
+ void _ctor(Mono::Security::X509::X509Extension extension) ;
 
 /// @brief Method Decode addr 0x228f95c size 0x4 virtual true final false
  void Decode() ;
@@ -111,7 +110,7 @@ explicit X509Extension(::Mono::Security::X509::X509Extension extension) ;
  bool get_Critical() ;
 
 /// @brief Method get_Value addr 0x228f930 size 0x2c virtual false final false
- ::Mono::Security::ASN1 get_Value() ;
+ Mono::Security::ASN1 get_Value() ;
 
 /// @brief Method Equals addr 0x228f974 size 0x144 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -120,7 +119,7 @@ explicit X509Extension(::Mono::Security::X509::X509Extension extension) ;
  int32_t GetHashCode() ;
 
 /// @brief Method WriteLine addr 0x228fad8 size 0x228 virtual false final false
- void WriteLine(::System::Text::StringBuilder sb, int32_t n, int32_t pos) ;
+ void WriteLine(System::Text::StringBuilder sb, int32_t n, int32_t pos) ;
 
 /// @brief Method ToString addr 0x228fd00 size 0xd8 virtual true final false
  ::StringW ToString() ;
@@ -129,6 +128,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Security::X509
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Security::X509::X509Extension);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::X509::X509Extension, "Mono.Security.X509", "X509Extension");
+NEED_NO_BOX(Mono::Security::X509::X509Extension);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Extension, "Mono.Security.X509", "X509Extension");

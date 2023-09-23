@@ -1,12 +1,11 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
-namespace OVR::OpenVR {
-struct HmdVector3_t;
-}
 namespace OVR::OpenVR {
 struct HmdMatrix34_t;
+}
+namespace OVR::OpenVR {
+struct HmdVector3_t;
 }
 namespace OVR::OpenVR {
 struct ETrackingResult;
@@ -24,8 +23,8 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE TrackedDevicePose_t : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "mDeviceToAbsoluteTracking", ty: "::OVR::OpenVR::HmdMatrix34_t", modifiers: "", def_value: None }, CppParam { name: "vVelocity", ty: "::OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: None }, CppParam { name: "vAngularVelocity", ty: "::OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: None }, CppParam { name: "eTrackingResult", ty: "::OVR::OpenVR::ETrackingResult", modifiers: "", def_value: None }, CppParam { name: "bPoseIsValid", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "bDeviceIsConnected", ty: "bool", modifiers: "", def_value: None }]
-constexpr TrackedDevicePose_t(::OVR::OpenVR::HmdMatrix34_t mDeviceToAbsoluteTracking, ::OVR::OpenVR::HmdVector3_t vVelocity, ::OVR::OpenVR::HmdVector3_t vAngularVelocity, ::OVR::OpenVR::ETrackingResult eTrackingResult, bool bPoseIsValid, bool bDeviceIsConnected) noexcept;
+// Ctor Parameters [CppParam { name: "mDeviceToAbsoluteTracking", ty: "OVR::OpenVR::HmdMatrix34_t", modifiers: "", def_value: None }, CppParam { name: "vVelocity", ty: "OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: None }, CppParam { name: "vAngularVelocity", ty: "OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: None }, CppParam { name: "eTrackingResult", ty: "OVR::OpenVR::ETrackingResult", modifiers: "", def_value: None }, CppParam { name: "bPoseIsValid", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "bDeviceIsConnected", ty: "bool", modifiers: "", def_value: None }]
+constexpr TrackedDevicePose_t(OVR::OpenVR::HmdMatrix34_t mDeviceToAbsoluteTracking, OVR::OpenVR::HmdVector3_t vVelocity, OVR::OpenVR::HmdVector3_t vAngularVelocity, OVR::OpenVR::ETrackingResult eTrackingResult, bool bPoseIsValid, bool bDeviceIsConnected) noexcept;
 
 
                     constexpr TrackedDevicePose_t(TrackedDevicePose_t const&) = default;
@@ -58,29 +57,29 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::OVR::OpenVR::HmdMatrix34_t __declspec(property(get=__get_mDeviceToAbsoluteTracking, put=__set_mDeviceToAbsoluteTracking))  mDeviceToAbsoluteTracking;
+ OVR::OpenVR::HmdMatrix34_t __declspec(property(get=__get_mDeviceToAbsoluteTracking, put=__set_mDeviceToAbsoluteTracking))  mDeviceToAbsoluteTracking;
 
-constexpr void __set_mDeviceToAbsoluteTracking(::OVR::OpenVR::HmdMatrix34_t value) ;
+constexpr void __set_mDeviceToAbsoluteTracking(OVR::OpenVR::HmdMatrix34_t value) ;
 
-constexpr ::OVR::OpenVR::HmdMatrix34_t __get_mDeviceToAbsoluteTracking() const;
+constexpr OVR::OpenVR::HmdMatrix34_t __get_mDeviceToAbsoluteTracking() const;
 
- ::OVR::OpenVR::HmdVector3_t __declspec(property(get=__get_vVelocity, put=__set_vVelocity))  vVelocity;
+ OVR::OpenVR::HmdVector3_t __declspec(property(get=__get_vVelocity, put=__set_vVelocity))  vVelocity;
 
-constexpr void __set_vVelocity(::OVR::OpenVR::HmdVector3_t value) ;
+constexpr void __set_vVelocity(OVR::OpenVR::HmdVector3_t value) ;
 
-constexpr ::OVR::OpenVR::HmdVector3_t __get_vVelocity() const;
+constexpr OVR::OpenVR::HmdVector3_t __get_vVelocity() const;
 
- ::OVR::OpenVR::HmdVector3_t __declspec(property(get=__get_vAngularVelocity, put=__set_vAngularVelocity))  vAngularVelocity;
+ OVR::OpenVR::HmdVector3_t __declspec(property(get=__get_vAngularVelocity, put=__set_vAngularVelocity))  vAngularVelocity;
 
-constexpr void __set_vAngularVelocity(::OVR::OpenVR::HmdVector3_t value) ;
+constexpr void __set_vAngularVelocity(OVR::OpenVR::HmdVector3_t value) ;
 
-constexpr ::OVR::OpenVR::HmdVector3_t __get_vAngularVelocity() const;
+constexpr OVR::OpenVR::HmdVector3_t __get_vAngularVelocity() const;
 
- ::OVR::OpenVR::ETrackingResult __declspec(property(get=__get_eTrackingResult, put=__set_eTrackingResult))  eTrackingResult;
+ OVR::OpenVR::ETrackingResult __declspec(property(get=__get_eTrackingResult, put=__set_eTrackingResult))  eTrackingResult;
 
-constexpr void __set_eTrackingResult(::OVR::OpenVR::ETrackingResult value) ;
+constexpr void __set_eTrackingResult(OVR::OpenVR::ETrackingResult value) ;
 
-constexpr ::OVR::OpenVR::ETrackingResult __get_eTrackingResult() const;
+constexpr OVR::OpenVR::ETrackingResult __get_eTrackingResult() const;
 
  bool __declspec(property(get=__get_bPoseIsValid, put=__set_bPoseIsValid))  bPoseIsValid;
 
@@ -98,5 +97,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::TrackedDevicePose_t, "OVR.OpenVR", "TrackedDevicePose_t");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::TrackedDevicePose_t, "OVR.OpenVR", "TrackedDevicePose_t");

@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine::ProBuilder::Shapes {
-class Shape;
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
@@ -17,8 +16,8 @@ class ProBuilderMesh;
 namespace UnityEngine {
 struct Bounds;
 }
-namespace UnityEngine {
-struct Quaternion;
+namespace UnityEngine::ProBuilder::Shapes {
+class Shape;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {
@@ -30,7 +29,7 @@ namespace UnityEngine::ProBuilder::Shapes {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12175))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12177))
 // CS Name: UnityEngine.ProBuilder.Shapes.Sphere
-class CORDL_TYPE Sphere : public ::UnityEngine::ProBuilder::Shapes::Shape {
+class CORDL_TYPE Sphere : public UnityEngine::ProBuilder::Shapes::Shape {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -45,7 +44,7 @@ constexpr Sphere(Sphere const& ) noexcept = default;
 constexpr Sphere(Sphere&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Sphere(void* ptr) noexcept : ::UnityEngine::ProBuilder::Shapes::Shape(ptr) {
+constexpr explicit Sphere(void* ptr) noexcept : UnityEngine::ProBuilder::Shapes::Shape(ptr) {
 }
 
 
@@ -66,11 +65,11 @@ constexpr explicit Sphere(void* ptr) noexcept : ::UnityEngine::ProBuilder::Shape
 
 // Fields
 
-static ::ArrayW<::UnityEngine::Vector3> __declspec(property(get=__get_k_IcosphereVertices, put=__set_k_IcosphereVertices))  k_IcosphereVertices;
+static ::ArrayW<UnityEngine::Vector3> __declspec(property(get=__get_k_IcosphereVertices, put=__set_k_IcosphereVertices))  k_IcosphereVertices;
 
-static void __set_k_IcosphereVertices(::ArrayW<::UnityEngine::Vector3> value) ;
+static void __set_k_IcosphereVertices(::ArrayW<UnityEngine::Vector3> value) ;
 
-static ::ArrayW<::UnityEngine::Vector3> __get_k_IcosphereVertices() ;
+static ::ArrayW<UnityEngine::Vector3> __get_k_IcosphereVertices() ;
 
 static ::ArrayW<int32_t> __declspec(property(get=__get_k_IcosphereTriangles, put=__set_k_IcosphereTriangles))  k_IcosphereTriangles;
 
@@ -100,16 +99,16 @@ constexpr bool __get_m_Smooth() const;
 // Methods
 
 /// @brief Method CopyShape addr 0x29f82ec size 0x84 virtual true final false
- void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape shape) ;
+ void CopyShape(UnityEngine::ProBuilder::Shapes::Shape shape) ;
 
 /// @brief Method UpdateBounds addr 0x29f8370 size 0x6c virtual true final false
- ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds) ;
+ UnityEngine::Bounds UpdateBounds(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::Vector3 size, UnityEngine::Quaternion rotation, UnityEngine::Bounds bounds) ;
 
 /// @brief Method RebuildMesh addr 0x29f83dc size 0x8fc virtual true final false
- ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation) ;
+ UnityEngine::Bounds RebuildMesh(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::Vector3 size, UnityEngine::Quaternion rotation) ;
 
 /// @brief Method SubdivideIcosahedron addr 0x29f8cd8 size 0x62c virtual false final false
-static ::ArrayW<::UnityEngine::Vector3> SubdivideIcosahedron(::ArrayW<::UnityEngine::Vector3> vertices, float_t radius) ;
+static ::ArrayW<UnityEngine::Vector3> SubdivideIcosahedron(::ArrayW<UnityEngine::Vector3> vertices, float_t radius) ;
 
 // Ctor Parameters []
 explicit Sphere() ;
@@ -121,6 +120,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder::Shapes
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::Shapes::Sphere);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Shapes::Sphere, "UnityEngine.ProBuilder.Shapes", "Sphere");
+NEED_NO_BOX(UnityEngine::ProBuilder::Shapes::Sphere);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Shapes::Sphere, "UnityEngine.ProBuilder.Shapes", "Sphere");

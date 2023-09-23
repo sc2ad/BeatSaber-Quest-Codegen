@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace GlobalNamespace {
-class IStandaloneThreadRunnable;
-}
 namespace GlobalNamespace {
 class IStandaloneThreadRunner;
+}
+namespace GlobalNamespace {
+class IStandaloneThreadRunnable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,8 +20,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE StandaloneThreadContext : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IStandaloneThreadRunner
-constexpr operator  ::GlobalNamespace::IStandaloneThreadRunner() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IStandaloneThreadRunner
+constexpr operator  GlobalNamespace::IStandaloneThreadRunner() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -57,17 +56,17 @@ constexpr explicit StandaloneThreadContext(void* ptr) noexcept : ::bs_hook::Il2C
 
 // Fields
 
-static ::GlobalNamespace::StandaloneThreadContext __declspec(property(get=__get_instance, put=__set_instance))  instance;
+static GlobalNamespace::StandaloneThreadContext __declspec(property(get=__get_instance, put=__set_instance))  instance;
 
-static void __set_instance(::GlobalNamespace::StandaloneThreadContext value) ;
+static void __set_instance(GlobalNamespace::StandaloneThreadContext value) ;
 
-static ::GlobalNamespace::StandaloneThreadContext __get_instance() ;
+static GlobalNamespace::StandaloneThreadContext __get_instance() ;
 
 
 // Methods
 
 /// @brief Method Run addr 0xdcc2c4 size 0x4 virtual true final true
- void Run(::GlobalNamespace::IStandaloneThreadRunnable runnable) ;
+ void Run(GlobalNamespace::IStandaloneThreadRunnable runnable) ;
 
 // Ctor Parameters []
 explicit StandaloneThreadContext() ;
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::StandaloneThreadContext);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StandaloneThreadContext, "", "StandaloneThreadContext");
+NEED_NO_BOX(GlobalNamespace::StandaloneThreadContext);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandaloneThreadContext, "", "StandaloneThreadContext");

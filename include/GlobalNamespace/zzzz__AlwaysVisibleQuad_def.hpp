@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace UnityEngine {
 class Mesh;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15294))
 // CS Name: AlwaysVisibleQuad
-class CORDL_TYPE AlwaysVisibleQuad : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE AlwaysVisibleQuad : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr AlwaysVisibleQuad(AlwaysVisibleQuad const& ) noexcept = default;
 constexpr AlwaysVisibleQuad(AlwaysVisibleQuad&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AlwaysVisibleQuad(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit AlwaysVisibleQuad(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit AlwaysVisibleQuad(void* ptr) noexcept : ::UnityEngine::MonoBe
 
 // Fields
 
- ::UnityEngine::Mesh __declspec(property(get=__get__mesh, put=__set__mesh))  _mesh;
+ UnityEngine::Mesh __declspec(property(get=__get__mesh, put=__set__mesh))  _mesh;
 
-constexpr void __set__mesh(::UnityEngine::Mesh value) ;
+constexpr void __set__mesh(UnityEngine::Mesh value) ;
 
-constexpr ::UnityEngine::Mesh __get__mesh() const;
+constexpr UnityEngine::Mesh __get__mesh() const;
 
 
 // Methods
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::AlwaysVisibleQuad);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AlwaysVisibleQuad, "", "AlwaysVisibleQuad");
+NEED_NO_BOX(GlobalNamespace::AlwaysVisibleQuad);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AlwaysVisibleQuad, "", "AlwaysVisibleQuad");

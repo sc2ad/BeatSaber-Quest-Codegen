@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform {
 struct AchievementType;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::Oculus::Platform::AchievementType const Unknown;
+static Oculus::Platform::AchievementType const Unknown;
 
 /// @brief Field Simple offset 0
-static ::Oculus::Platform::AchievementType const Simple;
+static Oculus::Platform::AchievementType const Simple;
 
 /// @brief Field Bitfield offset 0
-static ::Oculus::Platform::AchievementType const Bitfield;
+static Oculus::Platform::AchievementType const Bitfield;
 
 /// @brief Field Count offset 0
-static ::Oculus::Platform::AchievementType const Count;
+static Oculus::Platform::AchievementType const Count;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::AchievementType, "Oculus.Platform", "AchievementType");
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::AchievementType, "Oculus.Platform", "AchievementType");

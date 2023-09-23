@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class TriangulationPoint;
 }
@@ -55,17 +54,17 @@ constexpr explicit AdvancingFrontNode(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Fields
 
- ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode __declspec(property(get=__get_Next, put=__set_Next))  Next;
+ UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode __declspec(property(get=__get_Next, put=__set_Next))  Next;
 
-constexpr void __set_Next(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode value) ;
+constexpr void __set_Next(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode value) ;
 
-constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode __get_Next() const;
+constexpr UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode __get_Next() const;
 
- ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode __declspec(property(get=__get_Prev, put=__set_Prev))  Prev;
+ UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode __declspec(property(get=__get_Prev, put=__set_Prev))  Prev;
 
-constexpr void __set_Prev(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode value) ;
+constexpr void __set_Prev(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode value) ;
 
-constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode __get_Prev() const;
+constexpr UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode __get_Prev() const;
 
  double_t __declspec(property(get=__get_Value, put=__set_Value))  Value;
 
@@ -73,17 +72,17 @@ constexpr void __set_Value(double_t value) ;
 
 constexpr double_t __get_Value() const;
 
- ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint __declspec(property(get=__get_Point, put=__set_Point))  Point;
+ UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint __declspec(property(get=__get_Point, put=__set_Point))  Point;
 
-constexpr void __set_Point(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint value) ;
+constexpr void __set_Point(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint value) ;
 
-constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint __get_Point() const;
+constexpr UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint __get_Point() const;
 
- ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle __declspec(property(get=__get_Triangle, put=__set_Triangle))  Triangle;
+ UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle __declspec(property(get=__get_Triangle, put=__set_Triangle))  Triangle;
 
-constexpr void __set_Triangle(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle value) ;
+constexpr void __set_Triangle(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle value) ;
 
-constexpr ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle __get_Triangle() const;
+constexpr UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle __get_Triangle() const;
 
 
 // Properties
@@ -95,11 +94,11 @@ constexpr ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle __get_Triangle()
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "point", ty: "::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint", modifiers: "", def_value: None }]
-explicit AdvancingFrontNode(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint point) ;
+// Ctor Parameters [CppParam { name: "point", ty: "UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint", modifiers: "", def_value: None }]
+explicit AdvancingFrontNode(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint point) ;
 
 /// @brief Method .ctor addr 0x299d378 size 0x38 virtual false final false
- void _ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint point) ;
+ void _ctor(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint point) ;
 
 /// @brief Method get_HasNext addr 0x299d3b0 size 0x10 virtual false final false
  bool get_HasNext() ;
@@ -111,6 +110,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder::Poly2Tri
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode, "UnityEngine.ProBuilder.Poly2Tri", "AdvancingFrontNode");
+NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode, "UnityEngine.ProBuilder.Poly2Tri", "AdvancingFrontNode");

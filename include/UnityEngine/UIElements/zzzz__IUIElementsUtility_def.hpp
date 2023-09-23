@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class Exception;
 }
@@ -41,7 +40,7 @@ constexpr explicit IUIElementsUtility(void* ptr) noexcept : ::cordl_internals::I
  bool CleanupRoots() ;
 
 /// @brief Method EndContainerGUIFromException addr 0x0 size 0xffffffffffffffff virtual true final false
- bool EndContainerGUIFromException(::System::Exception exception) ;
+ bool EndContainerGUIFromException(System::Exception exception) ;
 
 /// @brief Method MakeCurrentIMGUIContainerDirty addr 0x0 size 0xffffffffffffffff virtual true final false
  bool MakeCurrentIMGUIContainerDirty() ;
@@ -50,6 +49,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::IUIElementsUtility);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::IUIElementsUtility, "UnityEngine.UIElements", "IUIElementsUtility");
+NEED_NO_BOX(UnityEngine::UIElements::IUIElementsUtility);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::IUIElementsUtility, "UnityEngine.UIElements", "IUIElementsUtility");

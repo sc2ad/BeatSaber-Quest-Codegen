@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Reflection {
 struct PInvokeAttributes;
@@ -87,74 +86,73 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field NoMangle offset 0
-static ::System::Reflection::PInvokeAttributes const NoMangle;
+static System::Reflection::PInvokeAttributes const NoMangle;
 
 /// @brief Field CharSetMask offset 0
-static ::System::Reflection::PInvokeAttributes const CharSetMask;
+static System::Reflection::PInvokeAttributes const CharSetMask;
 
 /// @brief Field CharSetNotSpec offset 0
-static ::System::Reflection::PInvokeAttributes const CharSetNotSpec;
+static System::Reflection::PInvokeAttributes const CharSetNotSpec;
 
 /// @brief Field CharSetAnsi offset 0
-static ::System::Reflection::PInvokeAttributes const CharSetAnsi;
+static System::Reflection::PInvokeAttributes const CharSetAnsi;
 
 /// @brief Field CharSetUnicode offset 0
-static ::System::Reflection::PInvokeAttributes const CharSetUnicode;
+static System::Reflection::PInvokeAttributes const CharSetUnicode;
 
 /// @brief Field CharSetAuto offset 0
-static ::System::Reflection::PInvokeAttributes const CharSetAuto;
+static System::Reflection::PInvokeAttributes const CharSetAuto;
 
 /// @brief Field BestFitUseAssem offset 0
-static ::System::Reflection::PInvokeAttributes const BestFitUseAssem;
+static System::Reflection::PInvokeAttributes const BestFitUseAssem;
 
 /// @brief Field BestFitEnabled offset 0
-static ::System::Reflection::PInvokeAttributes const BestFitEnabled;
+static System::Reflection::PInvokeAttributes const BestFitEnabled;
 
 /// @brief Field BestFitDisabled offset 0
-static ::System::Reflection::PInvokeAttributes const BestFitDisabled;
+static System::Reflection::PInvokeAttributes const BestFitDisabled;
 
 /// @brief Field BestFitMask offset 0
-static ::System::Reflection::PInvokeAttributes const BestFitMask;
+static System::Reflection::PInvokeAttributes const BestFitMask;
 
 /// @brief Field ThrowOnUnmappableCharUseAssem offset 0
-static ::System::Reflection::PInvokeAttributes const ThrowOnUnmappableCharUseAssem;
+static System::Reflection::PInvokeAttributes const ThrowOnUnmappableCharUseAssem;
 
 /// @brief Field ThrowOnUnmappableCharEnabled offset 0
-static ::System::Reflection::PInvokeAttributes const ThrowOnUnmappableCharEnabled;
+static System::Reflection::PInvokeAttributes const ThrowOnUnmappableCharEnabled;
 
 /// @brief Field ThrowOnUnmappableCharDisabled offset 0
-static ::System::Reflection::PInvokeAttributes const ThrowOnUnmappableCharDisabled;
+static System::Reflection::PInvokeAttributes const ThrowOnUnmappableCharDisabled;
 
 /// @brief Field ThrowOnUnmappableCharMask offset 0
-static ::System::Reflection::PInvokeAttributes const ThrowOnUnmappableCharMask;
+static System::Reflection::PInvokeAttributes const ThrowOnUnmappableCharMask;
 
 /// @brief Field SupportsLastError offset 0
-static ::System::Reflection::PInvokeAttributes const SupportsLastError;
+static System::Reflection::PInvokeAttributes const SupportsLastError;
 
 /// @brief Field CallConvMask offset 0
-static ::System::Reflection::PInvokeAttributes const CallConvMask;
+static System::Reflection::PInvokeAttributes const CallConvMask;
 
 /// @brief Field CallConvWinapi offset 0
-static ::System::Reflection::PInvokeAttributes const CallConvWinapi;
+static System::Reflection::PInvokeAttributes const CallConvWinapi;
 
 /// @brief Field CallConvCdecl offset 0
-static ::System::Reflection::PInvokeAttributes const CallConvCdecl;
+static System::Reflection::PInvokeAttributes const CallConvCdecl;
 
 /// @brief Field CallConvStdcall offset 0
-static ::System::Reflection::PInvokeAttributes const CallConvStdcall;
+static System::Reflection::PInvokeAttributes const CallConvStdcall;
 
 /// @brief Field CallConvThiscall offset 0
-static ::System::Reflection::PInvokeAttributes const CallConvThiscall;
+static System::Reflection::PInvokeAttributes const CallConvThiscall;
 
 /// @brief Field CallConvFastcall offset 0
-static ::System::Reflection::PInvokeAttributes const CallConvFastcall;
+static System::Reflection::PInvokeAttributes const CallConvFastcall;
 
 /// @brief Field MaxValue offset 0
-static ::System::Reflection::PInvokeAttributes const MaxValue;
+static System::Reflection::PInvokeAttributes const MaxValue;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Reflection
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::PInvokeAttributes, "System.Reflection", "PInvokeAttributes");
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::PInvokeAttributes, "System.Reflection", "PInvokeAttributes");

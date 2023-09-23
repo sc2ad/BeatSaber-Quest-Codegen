@@ -3,21 +3,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
+}
+namespace Org::BouncyCastle::Crypto {
+class IBlockCipher;
+}
+namespace Org::BouncyCastle::Crypto::Prng {
+class X931SecureRandom;
+}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto {
 class IEntropySourceProvider;
-}
-namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
-}
-namespace Org::BouncyCastle::Crypto::Prng {
-class X931SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Prng {
@@ -65,17 +64,17 @@ constexpr explicit X931SecureRandomBuilder(void* ptr) noexcept : ::bs_hook::Il2C
 
 // Fields
 
- ::Org::BouncyCastle::Security::SecureRandom __declspec(property(get=__get_mRandom, put=__set_mRandom))  mRandom;
+ Org::BouncyCastle::Security::SecureRandom __declspec(property(get=__get_mRandom, put=__set_mRandom))  mRandom;
 
-constexpr void __set_mRandom(::Org::BouncyCastle::Security::SecureRandom value) ;
+constexpr void __set_mRandom(Org::BouncyCastle::Security::SecureRandom value) ;
 
-constexpr ::Org::BouncyCastle::Security::SecureRandom __get_mRandom() const;
+constexpr Org::BouncyCastle::Security::SecureRandom __get_mRandom() const;
 
- ::Org::BouncyCastle::Crypto::IEntropySourceProvider __declspec(property(get=__get_mEntropySourceProvider, put=__set_mEntropySourceProvider))  mEntropySourceProvider;
+ Org::BouncyCastle::Crypto::IEntropySourceProvider __declspec(property(get=__get_mEntropySourceProvider, put=__set_mEntropySourceProvider))  mEntropySourceProvider;
 
-constexpr void __set_mEntropySourceProvider(::Org::BouncyCastle::Crypto::IEntropySourceProvider value) ;
+constexpr void __set_mEntropySourceProvider(Org::BouncyCastle::Crypto::IEntropySourceProvider value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IEntropySourceProvider __get_mEntropySourceProvider() const;
+constexpr Org::BouncyCastle::Crypto::IEntropySourceProvider __get_mEntropySourceProvider() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get_mDateTimeVector, put=__set_mDateTimeVector))  mDateTimeVector;
 
@@ -92,28 +91,27 @@ explicit X931SecureRandomBuilder() ;
 /// @brief Method .ctor addr 0xeb7f7c size 0x64 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "entropySource", ty: "::Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }, CppParam { name: "predictionResistant", ty: "bool", modifiers: "", def_value: None }]
-explicit X931SecureRandomBuilder(::Org::BouncyCastle::Security::SecureRandom entropySource, bool predictionResistant) ;
+// Ctor Parameters [CppParam { name: "entropySource", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }, CppParam { name: "predictionResistant", ty: "bool", modifiers: "", def_value: None }]
+explicit X931SecureRandomBuilder(Org::BouncyCastle::Security::SecureRandom entropySource, bool predictionResistant) ;
 
 /// @brief Method .ctor addr 0xeb7fe0 size 0x8c virtual false final false
- void _ctor(::Org::BouncyCastle::Security::SecureRandom entropySource, bool predictionResistant) ;
+ void _ctor(Org::BouncyCastle::Security::SecureRandom entropySource, bool predictionResistant) ;
 
-// Ctor Parameters [CppParam { name: "entropySourceProvider", ty: "::Org::BouncyCastle::Crypto::IEntropySourceProvider", modifiers: "", def_value: None }]
-explicit X931SecureRandomBuilder(::Org::BouncyCastle::Crypto::IEntropySourceProvider entropySourceProvider) ;
+// Ctor Parameters [CppParam { name: "entropySourceProvider", ty: "Org::BouncyCastle::Crypto::IEntropySourceProvider", modifiers: "", def_value: None }]
+explicit X931SecureRandomBuilder(Org::BouncyCastle::Crypto::IEntropySourceProvider entropySourceProvider) ;
 
 /// @brief Method .ctor addr 0xeb806c size 0x28 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IEntropySourceProvider entropySourceProvider) ;
+ void _ctor(Org::BouncyCastle::Crypto::IEntropySourceProvider entropySourceProvider) ;
 
 /// @brief Method SetDateTimeVector addr 0xeb8094 size 0x8 virtual false final false
- ::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder SetDateTimeVector(::ArrayW<uint8_t> dateTimeVector) ;
+ Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder SetDateTimeVector(::ArrayW<uint8_t> dateTimeVector) ;
 
 /// @brief Method Build addr 0xeb809c size 0x2e4 virtual false final false
- ::Org::BouncyCastle::Crypto::Prng::X931SecureRandom Build(::Org::BouncyCastle::Crypto::IBlockCipher engine, ::Org::BouncyCastle::Crypto::Parameters::KeyParameter key, bool predictionResistant) ;
+ Org::BouncyCastle::Crypto::Prng::X931SecureRandom Build(Org::BouncyCastle::Crypto::IBlockCipher engine, Org::BouncyCastle::Crypto::Parameters::KeyParameter key, bool predictionResistant) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Prng
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder, "Org.BouncyCastle.Crypto.Prng", "X931SecureRandomBuilder");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder, "Org.BouncyCastle.Crypto.Prng", "X931SecureRandomBuilder");

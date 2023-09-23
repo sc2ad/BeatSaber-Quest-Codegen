@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/Collections/zzzz__ReadOnlyCollectionBase_def.hpp"
-namespace {
 // Forward declare root types
 namespace System::Diagnostics {
 class ProcessModuleCollection;
@@ -12,7 +11,7 @@ namespace System::Diagnostics {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3762))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7805))
 // CS Name: System.Diagnostics.ProcessModuleCollection
-class CORDL_TYPE ProcessModuleCollection : public ::System::Collections::ReadOnlyCollectionBase {
+class CORDL_TYPE ProcessModuleCollection : public System::Collections::ReadOnlyCollectionBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr ProcessModuleCollection(ProcessModuleCollection const& ) noexcept = de
 constexpr ProcessModuleCollection(ProcessModuleCollection&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ProcessModuleCollection(void* ptr) noexcept : ::System::Collections::ReadOnlyCollectionBase(ptr) {
+constexpr explicit ProcessModuleCollection(void* ptr) noexcept : System::Collections::ReadOnlyCollectionBase(ptr) {
 }
 
 
@@ -49,6 +48,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Diagnostics
-} // end anonymous namespace
-NEED_NO_BOX(::System::Diagnostics::ProcessModuleCollection);
-DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::ProcessModuleCollection, "System.Diagnostics", "ProcessModuleCollection");
+NEED_NO_BOX(System::Diagnostics::ProcessModuleCollection);
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::ProcessModuleCollection, "System.Diagnostics", "ProcessModuleCollection");

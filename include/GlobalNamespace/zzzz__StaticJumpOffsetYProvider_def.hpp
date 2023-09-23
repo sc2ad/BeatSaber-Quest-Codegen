@@ -2,16 +2,15 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
 class IJumpOffsetYProvider;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-class StaticJumpOffsetYProvider;
+class GlobalNamespace__StaticJumpOffsetYProvider__InitData;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__StaticJumpOffsetYProvider__InitData;
+class StaticJumpOffsetYProvider;
 }
 // Type: ::InitData
 namespace GlobalNamespace {
@@ -19,37 +18,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4943))
 // CS Name: StaticJumpOffsetYProvider::InitData
-class CORDL_TYPE ____GlobalNamespace__StaticJumpOffsetYProvider__InitData : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__StaticJumpOffsetYProvider__InitData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____GlobalNamespace__StaticJumpOffsetYProvider__InitData() = default;
+virtual ~GlobalNamespace__StaticJumpOffsetYProvider__InitData() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__StaticJumpOffsetYProvider__InitData", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__StaticJumpOffsetYProvider__InitData(____GlobalNamespace__StaticJumpOffsetYProvider__InitData const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__StaticJumpOffsetYProvider__InitData", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__StaticJumpOffsetYProvider__InitData(GlobalNamespace__StaticJumpOffsetYProvider__InitData const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__StaticJumpOffsetYProvider__InitData", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__StaticJumpOffsetYProvider__InitData(____GlobalNamespace__StaticJumpOffsetYProvider__InitData&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__StaticJumpOffsetYProvider__InitData", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__StaticJumpOffsetYProvider__InitData(GlobalNamespace__StaticJumpOffsetYProvider__InitData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__StaticJumpOffsetYProvider__InitData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__StaticJumpOffsetYProvider__InitData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__StaticJumpOffsetYProvider__InitData& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__StaticJumpOffsetYProvider__InitData& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__StaticJumpOffsetYProvider__InitData& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__StaticJumpOffsetYProvider__InitData& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__StaticJumpOffsetYProvider__InitData& operator=(____GlobalNamespace__StaticJumpOffsetYProvider__InitData&& o) noexcept = default;
-  constexpr ____GlobalNamespace__StaticJumpOffsetYProvider__InitData& operator=(____GlobalNamespace__StaticJumpOffsetYProvider__InitData const& o) noexcept = default;
+  constexpr GlobalNamespace__StaticJumpOffsetYProvider__InitData& operator=(GlobalNamespace__StaticJumpOffsetYProvider__InitData&& o) noexcept = default;
+  constexpr GlobalNamespace__StaticJumpOffsetYProvider__InitData& operator=(GlobalNamespace__StaticJumpOffsetYProvider__InitData const& o) noexcept = default;
                 
 
 
@@ -65,7 +64,7 @@ constexpr float_t __get_jumpyYOffset() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "jumpyYOffset", ty: "float_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__StaticJumpOffsetYProvider__InitData(float_t jumpyYOffset) ;
+explicit GlobalNamespace__StaticJumpOffsetYProvider__InitData(float_t jumpyYOffset) ;
 
 /// @brief Method .ctor addr 0x224cf50 size 0x28 virtual false final false
  void _ctor(float_t jumpyYOffset) ;
@@ -83,10 +82,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE StaticJumpOffsetYProvider : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using InitData = ::GlobalNamespace::____GlobalNamespace__StaticJumpOffsetYProvider__InitData;
+using InitData = GlobalNamespace::GlobalNamespace__StaticJumpOffsetYProvider__InitData;
 
-/// @brief Convert operator to ::GlobalNamespace::IJumpOffsetYProvider
-constexpr operator  ::GlobalNamespace::IJumpOffsetYProvider() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IJumpOffsetYProvider
+constexpr operator  GlobalNamespace::IJumpOffsetYProvider() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -121,11 +120,11 @@ constexpr explicit StaticJumpOffsetYProvider(void* ptr) noexcept : ::bs_hook::Il
 
 // Fields
 
- ::GlobalNamespace::____GlobalNamespace__StaticJumpOffsetYProvider__InitData __declspec(property(get=__get__initData, put=__set__initData))  _initData;
+ GlobalNamespace::GlobalNamespace__StaticJumpOffsetYProvider__InitData __declspec(property(get=__get__initData, put=__set__initData))  _initData;
 
-constexpr void __set__initData(::GlobalNamespace::____GlobalNamespace__StaticJumpOffsetYProvider__InitData value) ;
+constexpr void __set__initData(GlobalNamespace::GlobalNamespace__StaticJumpOffsetYProvider__InitData value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__StaticJumpOffsetYProvider__InitData __get__initData() const;
+constexpr GlobalNamespace::GlobalNamespace__StaticJumpOffsetYProvider__InitData __get__initData() const;
 
 
 // Properties
@@ -148,8 +147,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::StaticJumpOffsetYProvider);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StaticJumpOffsetYProvider, "", "StaticJumpOffsetYProvider");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__StaticJumpOffsetYProvider__InitData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__StaticJumpOffsetYProvider__InitData, "", "StaticJumpOffsetYProvider/InitData");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__StaticJumpOffsetYProvider__InitData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__StaticJumpOffsetYProvider__InitData, "", "StaticJumpOffsetYProvider/InitData");
+NEED_NO_BOX(GlobalNamespace::StaticJumpOffsetYProvider);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StaticJumpOffsetYProvider, "", "StaticJumpOffsetYProvider");

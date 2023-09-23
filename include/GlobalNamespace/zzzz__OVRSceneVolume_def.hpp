@@ -2,15 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
 class OVRSceneAnchor;
 }
 namespace UnityEngine {
-class Transform;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+class Transform;
 }
 namespace GlobalNamespace {
 class IOVRSceneComponent;
@@ -25,11 +24,11 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8836))
 // CS Name: OVRSceneVolume
-class CORDL_TYPE OVRSceneVolume : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OVRSceneVolume : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IOVRSceneComponent
-constexpr operator  ::GlobalNamespace::IOVRSceneComponent() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IOVRSceneComponent
+constexpr operator  GlobalNamespace::IOVRSceneComponent() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -43,7 +42,7 @@ constexpr OVRSceneVolume(OVRSceneVolume const& ) noexcept = default;
 constexpr OVRSceneVolume(OVRSceneVolume&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OVRSceneVolume(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OVRSceneVolume(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -88,11 +87,11 @@ constexpr void __set__scaleChildren(bool value) ;
 
 constexpr bool __get__scaleChildren() const;
 
- ::GlobalNamespace::OVRSceneAnchor __declspec(property(get=__get__sceneAnchor, put=__set__sceneAnchor))  _sceneAnchor;
+ GlobalNamespace::OVRSceneAnchor __declspec(property(get=__get__sceneAnchor, put=__set__sceneAnchor))  _sceneAnchor;
 
-constexpr void __set__sceneAnchor(::GlobalNamespace::OVRSceneAnchor value) ;
+constexpr void __set__sceneAnchor(GlobalNamespace::OVRSceneAnchor value) ;
 
-constexpr ::GlobalNamespace::OVRSceneAnchor __get__sceneAnchor() const;
+constexpr GlobalNamespace::OVRSceneAnchor __get__sceneAnchor() const;
 
 
 // Properties
@@ -103,7 +102,7 @@ constexpr ::GlobalNamespace::OVRSceneAnchor __get__sceneAnchor() const;
 
  float_t __declspec(property(get=get_Depth, put=set_Depth))  Depth;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_Dimensions))  Dimensions;
+ UnityEngine::Vector3 __declspec(property(get=get_Dimensions))  Dimensions;
 
  bool __declspec(property(get=get_ScaleChildren, put=set_ScaleChildren))  ScaleChildren;
 
@@ -129,7 +128,7 @@ constexpr ::GlobalNamespace::OVRSceneAnchor __get__sceneAnchor() const;
  void set_Depth(float_t value) ;
 
 /// @brief Method get_Dimensions addr 0x260c4f4 size 0xc virtual false final false
- ::UnityEngine::Vector3 get_Dimensions() ;
+ UnityEngine::Vector3 get_Dimensions() ;
 
 /// @brief Method get_ScaleChildren addr 0x260c500 size 0x8 virtual false final false
  bool get_ScaleChildren() ;
@@ -144,7 +143,7 @@ constexpr ::GlobalNamespace::OVRSceneAnchor __get__sceneAnchor() const;
  void IOVRSceneComponent_Initialize() ;
 
 /// @brief Method SetChildScale addr 0x260c554 size 0x90 virtual false final false
-static void SetChildScale(::UnityEngine::Transform parentTransform, ::UnityEngine::Vector3 dimensions) ;
+static void SetChildScale(UnityEngine::Transform parentTransform, UnityEngine::Vector3 dimensions) ;
 
 // Ctor Parameters []
 explicit OVRSceneVolume() ;
@@ -156,6 +155,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OVRSceneVolume);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRSceneVolume, "", "OVRSceneVolume");
+NEED_NO_BOX(GlobalNamespace::OVRSceneVolume);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSceneVolume, "", "OVRSceneVolume");

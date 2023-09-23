@@ -5,15 +5,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
-}
 namespace System::Runtime::Remoting::Messaging {
 class IMethodCallMessage;
 }
 namespace System::Collections {
 class ArrayList;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -25,7 +24,7 @@ namespace System::Runtime::Remoting::Messaging {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3151))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3152))
 // CS Name: System.Runtime.Remoting.Messaging.CADMethodCallMessage
-class CORDL_TYPE CADMethodCallMessage : public ::System::Runtime::Remoting::Messaging::CADMessageBase {
+class CORDL_TYPE CADMethodCallMessage : public System::Runtime::Remoting::Messaging::CADMessageBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr CADMethodCallMessage(CADMethodCallMessage const& ) noexcept = default;
 constexpr CADMethodCallMessage(CADMethodCallMessage&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CADMethodCallMessage(void* ptr) noexcept : ::System::Runtime::Remoting::Messaging::CADMessageBase(ptr) {
+constexpr explicit CADMethodCallMessage(void* ptr) noexcept : System::Runtime::Remoting::Messaging::CADMessageBase(ptr) {
 }
 
 
@@ -81,19 +80,19 @@ constexpr ::StringW __get__uri() const;
  ::StringW get_Uri() ;
 
 /// @brief Method Create addr 0x23376e4 size 0x90 virtual false final false
-static ::System::Runtime::Remoting::Messaging::CADMethodCallMessage Create(::System::Runtime::Remoting::Messaging::IMessage callMsg) ;
+static System::Runtime::Remoting::Messaging::CADMethodCallMessage Create(System::Runtime::Remoting::Messaging::IMessage callMsg) ;
 
-// Ctor Parameters [CppParam { name: "callMsg", ty: "::System::Runtime::Remoting::Messaging::IMethodCallMessage", modifiers: "", def_value: None }]
-explicit CADMethodCallMessage(::System::Runtime::Remoting::Messaging::IMethodCallMessage callMsg) ;
+// Ctor Parameters [CppParam { name: "callMsg", ty: "System::Runtime::Remoting::Messaging::IMethodCallMessage", modifiers: "", def_value: None }]
+explicit CADMethodCallMessage(System::Runtime::Remoting::Messaging::IMethodCallMessage callMsg) ;
 
 /// @brief Method .ctor addr 0x233df80 size 0x1f0 virtual false final false
- void _ctor(::System::Runtime::Remoting::Messaging::IMethodCallMessage callMsg) ;
+ void _ctor(System::Runtime::Remoting::Messaging::IMethodCallMessage callMsg) ;
 
 /// @brief Method GetArguments addr 0x233e170 size 0x140 virtual false final false
- ::System::Collections::ArrayList GetArguments() ;
+ System::Collections::ArrayList GetArguments() ;
 
 /// @brief Method GetArgs addr 0x233e2b0 size 0x10 virtual false final false
- ::ArrayW<::bs_hook::Il2CppWrapperType> GetArgs(::System::Collections::ArrayList args) ;
+ ::ArrayW<::bs_hook::Il2CppWrapperType> GetArgs(System::Collections::ArrayList args) ;
 
 /// @brief Method get_PropertiesCount addr 0x233e2c0 size 0x8 virtual false final false
  int32_t get_PropertiesCount() ;
@@ -102,6 +101,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Messaging
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Messaging::CADMethodCallMessage);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::CADMethodCallMessage, "System.Runtime.Remoting.Messaging", "CADMethodCallMessage");
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::CADMethodCallMessage);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CADMethodCallMessage, "System.Runtime.Remoting.Messaging", "CADMethodCallMessage");

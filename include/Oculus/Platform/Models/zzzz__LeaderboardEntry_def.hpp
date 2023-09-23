@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-struct DateTime;
-}
 namespace Oculus::Platform::Models {
 class User;
+}
+namespace System {
+struct DateTime;
 }
 namespace Oculus::Platform::Models {
 class SupplementaryMetric;
@@ -90,29 +89,29 @@ constexpr void __set_Score(int64_t value) ;
 
 constexpr int64_t __get_Score() const;
 
- ::Oculus::Platform::Models::SupplementaryMetric __declspec(property(get=__get_SupplementaryMetricOptional, put=__set_SupplementaryMetricOptional))  SupplementaryMetricOptional;
+ Oculus::Platform::Models::SupplementaryMetric __declspec(property(get=__get_SupplementaryMetricOptional, put=__set_SupplementaryMetricOptional))  SupplementaryMetricOptional;
 
-constexpr void __set_SupplementaryMetricOptional(::Oculus::Platform::Models::SupplementaryMetric value) ;
+constexpr void __set_SupplementaryMetricOptional(Oculus::Platform::Models::SupplementaryMetric value) ;
 
-constexpr ::Oculus::Platform::Models::SupplementaryMetric __get_SupplementaryMetricOptional() const;
+constexpr Oculus::Platform::Models::SupplementaryMetric __get_SupplementaryMetricOptional() const;
 
- ::Oculus::Platform::Models::SupplementaryMetric __declspec(property(get=__get_SupplementaryMetric, put=__set_SupplementaryMetric))  SupplementaryMetric;
+ Oculus::Platform::Models::SupplementaryMetric __declspec(property(get=__get_SupplementaryMetric, put=__set_SupplementaryMetric))  SupplementaryMetric;
 
-constexpr void __set_SupplementaryMetric(::Oculus::Platform::Models::SupplementaryMetric value) ;
+constexpr void __set_SupplementaryMetric(Oculus::Platform::Models::SupplementaryMetric value) ;
 
-constexpr ::Oculus::Platform::Models::SupplementaryMetric __get_SupplementaryMetric() const;
+constexpr Oculus::Platform::Models::SupplementaryMetric __get_SupplementaryMetric() const;
 
- ::System::DateTime __declspec(property(get=__get_Timestamp, put=__set_Timestamp))  Timestamp;
+ System::DateTime __declspec(property(get=__get_Timestamp, put=__set_Timestamp))  Timestamp;
 
-constexpr void __set_Timestamp(::System::DateTime value) ;
+constexpr void __set_Timestamp(System::DateTime value) ;
 
-constexpr ::System::DateTime __get_Timestamp() const;
+constexpr System::DateTime __get_Timestamp() const;
 
- ::Oculus::Platform::Models::User __declspec(property(get=__get_User, put=__set_User))  User;
+ Oculus::Platform::Models::User __declspec(property(get=__get_User, put=__set_User))  User;
 
-constexpr void __set_User(::Oculus::Platform::Models::User value) ;
+constexpr void __set_User(Oculus::Platform::Models::User value) ;
 
-constexpr ::Oculus::Platform::Models::User __get_User() const;
+constexpr Oculus::Platform::Models::User __get_User() const;
 
 
 // Methods
@@ -127,6 +126,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::LeaderboardEntry);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::LeaderboardEntry, "Oculus.Platform.Models", "LeaderboardEntry");
+NEED_NO_BOX(Oculus::Platform::Models::LeaderboardEntry);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LeaderboardEntry, "Oculus.Platform.Models", "LeaderboardEntry");

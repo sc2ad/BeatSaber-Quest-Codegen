@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Oculus::Platform {
-struct AbuseReportVideoMode;
-}
 namespace Oculus::Platform {
 struct AbuseReportType;
+}
+namespace Oculus::Platform {
+struct AbuseReportVideoMode;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -81,7 +80,7 @@ explicit AdvancedAbuseReportOptions() ;
  void SetObjectType(::StringW value) ;
 
 /// @brief Method SetReportType addr 0x255283c size 0x68 virtual false final false
- void SetReportType(::Oculus::Platform::AbuseReportType value) ;
+ void SetReportType(Oculus::Platform::AbuseReportType value) ;
 
 /// @brief Method AddSuggestedUser addr 0x2552928 size 0x68 virtual false final false
  void AddSuggestedUser(uint64_t userID) ;
@@ -90,10 +89,10 @@ explicit AdvancedAbuseReportOptions() ;
  void ClearSuggestedUsers() ;
 
 /// @brief Method SetVideoMode addr 0x2552ae8 size 0x68 virtual false final false
- void SetVideoMode(::Oculus::Platform::AbuseReportVideoMode value) ;
+ void SetVideoMode(Oculus::Platform::AbuseReportVideoMode value) ;
 
 /// @brief Method op_Explicit addr 0x2552bd4 size 0x58 virtual false final false
-static ::cordl_internals::intptr_t op_Explicit___cordl_internals__intptr_t(::Oculus::Platform::AdvancedAbuseReportOptions options) ;
+static ::cordl_internals::intptr_t op_Explicit___cordl_internals__intptr_t(Oculus::Platform::AdvancedAbuseReportOptions options) ;
 
 /// @brief Method Finalize addr 0x2552c2c size 0xd4 virtual true final false
  void Finalize() ;
@@ -102,6 +101,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::AdvancedAbuseReportOptions);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::AdvancedAbuseReportOptions, "Oculus.Platform", "AdvancedAbuseReportOptions");
+NEED_NO_BOX(Oculus::Platform::AdvancedAbuseReportOptions);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::AdvancedAbuseReportOptions, "Oculus.Platform", "AdvancedAbuseReportOptions");

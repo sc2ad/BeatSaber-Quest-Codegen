@@ -3,7 +3,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace TMPro {
 struct TMP_PageInfo;
@@ -85,5 +84,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_PageInfo, "TMPro", "TMP_PageInfo");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_PageInfo, "TMPro", "TMP_PageInfo");

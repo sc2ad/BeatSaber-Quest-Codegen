@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Security::Cryptography {
 class OidCollection;
 }
 namespace System::Security::Cryptography {
-class AsnEncodedData;
+struct AsnDecodeStatus;
 }
 namespace System::Security::Cryptography {
-struct AsnDecodeStatus;
+class AsnEncodedData;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -24,7 +23,7 @@ namespace System::Security::Cryptography::X509Certificates {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7862))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7861))
 // CS Name: System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension
-class CORDL_TYPE X509EnhancedKeyUsageExtension : public ::System::Security::Cryptography::X509Certificates::X509Extension {
+class CORDL_TYPE X509EnhancedKeyUsageExtension : public System::Security::Cryptography::X509Certificates::X509Extension {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr X509EnhancedKeyUsageExtension(X509EnhancedKeyUsageExtension const& ) n
 constexpr X509EnhancedKeyUsageExtension(X509EnhancedKeyUsageExtension&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit X509EnhancedKeyUsageExtension(void* ptr) noexcept : ::System::Security::Cryptography::X509Certificates::X509Extension(ptr) {
+constexpr explicit X509EnhancedKeyUsageExtension(void* ptr) noexcept : System::Security::Cryptography::X509Certificates::X509Extension(ptr) {
 }
 
 
@@ -60,17 +59,17 @@ constexpr explicit X509EnhancedKeyUsageExtension(void* ptr) noexcept : ::System:
 
 // Fields
 
- ::System::Security::Cryptography::OidCollection __declspec(property(get=__get__enhKeyUsage, put=__set__enhKeyUsage))  _enhKeyUsage;
+ System::Security::Cryptography::OidCollection __declspec(property(get=__get__enhKeyUsage, put=__set__enhKeyUsage))  _enhKeyUsage;
 
-constexpr void __set__enhKeyUsage(::System::Security::Cryptography::OidCollection value) ;
+constexpr void __set__enhKeyUsage(System::Security::Cryptography::OidCollection value) ;
 
-constexpr ::System::Security::Cryptography::OidCollection __get__enhKeyUsage() const;
+constexpr System::Security::Cryptography::OidCollection __get__enhKeyUsage() const;
 
- ::System::Security::Cryptography::AsnDecodeStatus __declspec(property(get=__get__status, put=__set__status))  _status;
+ System::Security::Cryptography::AsnDecodeStatus __declspec(property(get=__get__status, put=__set__status))  _status;
 
-constexpr void __set__status(::System::Security::Cryptography::AsnDecodeStatus value) ;
+constexpr void __set__status(System::Security::Cryptography::AsnDecodeStatus value) ;
 
-constexpr ::System::Security::Cryptography::AsnDecodeStatus __get__status() const;
+constexpr System::Security::Cryptography::AsnDecodeStatus __get__status() const;
 
 
 // Methods
@@ -81,23 +80,23 @@ explicit X509EnhancedKeyUsageExtension() ;
 /// @brief Method .ctor addr 0x27e8da8 size 0xa8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "encodedEnhancedKeyUsages", ty: "::System::Security::Cryptography::AsnEncodedData", modifiers: "", def_value: None }, CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }]
-explicit X509EnhancedKeyUsageExtension(::System::Security::Cryptography::AsnEncodedData encodedEnhancedKeyUsages, bool critical) ;
+// Ctor Parameters [CppParam { name: "encodedEnhancedKeyUsages", ty: "System::Security::Cryptography::AsnEncodedData", modifiers: "", def_value: None }, CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }]
+explicit X509EnhancedKeyUsageExtension(System::Security::Cryptography::AsnEncodedData encodedEnhancedKeyUsages, bool critical) ;
 
 /// @brief Method .ctor addr 0x27e505c size 0xd8 virtual false final false
- void _ctor(::System::Security::Cryptography::AsnEncodedData encodedEnhancedKeyUsages, bool critical) ;
+ void _ctor(System::Security::Cryptography::AsnEncodedData encodedEnhancedKeyUsages, bool critical) ;
 
-// Ctor Parameters [CppParam { name: "enhancedKeyUsages", ty: "::System::Security::Cryptography::OidCollection", modifiers: "", def_value: None }, CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }]
-explicit X509EnhancedKeyUsageExtension(::System::Security::Cryptography::OidCollection enhancedKeyUsages, bool critical) ;
+// Ctor Parameters [CppParam { name: "enhancedKeyUsages", ty: "System::Security::Cryptography::OidCollection", modifiers: "", def_value: None }, CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }]
+explicit X509EnhancedKeyUsageExtension(System::Security::Cryptography::OidCollection enhancedKeyUsages, bool critical) ;
 
 /// @brief Method .ctor addr 0x27f1800 size 0x188 virtual false final false
- void _ctor(::System::Security::Cryptography::OidCollection enhancedKeyUsages, bool critical) ;
+ void _ctor(System::Security::Cryptography::OidCollection enhancedKeyUsages, bool critical) ;
 
 /// @brief Method CopyFrom addr 0x27f1a40 size 0x1dc virtual true final false
- void CopyFrom(::System::Security::Cryptography::AsnEncodedData asnEncodedData) ;
+ void CopyFrom(System::Security::Cryptography::AsnEncodedData asnEncodedData) ;
 
 /// @brief Method Decode addr 0x27f15a0 size 0x260 virtual false final false
- ::System::Security::Cryptography::AsnDecodeStatus Decode(::ArrayW<uint8_t> extension) ;
+ System::Security::Cryptography::AsnDecodeStatus Decode(::ArrayW<uint8_t> extension) ;
 
 /// @brief Method Encode addr 0x27f1988 size 0xb8 virtual false final false
  ::ArrayW<uint8_t> Encode() ;
@@ -109,6 +108,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography::X509Certificates
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension, "System.Security.Cryptography.X509Certificates", "X509EnhancedKeyUsageExtension");
+NEED_NO_BOX(System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension, "System.Security.Cryptography.X509Certificates", "X509EnhancedKeyUsageExtension");

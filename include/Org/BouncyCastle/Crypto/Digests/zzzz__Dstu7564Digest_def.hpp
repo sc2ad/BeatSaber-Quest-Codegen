@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
-}
 namespace Org::BouncyCastle::Utilities {
 class IMemoable;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Digests {
@@ -24,11 +23,11 @@ namespace Org::BouncyCastle::Crypto::Digests {
 class CORDL_TYPE Dstu7564Digest : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IDigest
-constexpr operator  ::Org::BouncyCastle::Crypto::IDigest() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IDigest
+constexpr operator  Org::BouncyCastle::Crypto::IDigest() const noexcept;
 
-/// @brief Convert operator to ::Org::BouncyCastle::Utilities::IMemoable
-constexpr operator  ::Org::BouncyCastle::Utilities::IMemoable() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Utilities::IMemoable
+constexpr operator  Org::BouncyCastle::Utilities::IMemoable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x50};
@@ -167,14 +166,14 @@ static ::ArrayW<uint8_t> __get_S3() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "digest", ty: "::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest", modifiers: "", def_value: None }]
-explicit Dstu7564Digest(::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest digest) ;
+// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::Digests::Dstu7564Digest", modifiers: "", def_value: None }]
+explicit Dstu7564Digest(Org::BouncyCastle::Crypto::Digests::Dstu7564Digest digest) ;
 
 /// @brief Method .ctor addr 0x1194f78 size 0x2c virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest digest) ;
+ void _ctor(Org::BouncyCastle::Crypto::Digests::Dstu7564Digest digest) ;
 
 /// @brief Method CopyIn addr 0x1194fa4 size 0x130 virtual false final false
- void CopyIn(::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest digest) ;
+ void CopyIn(Org::BouncyCastle::Crypto::Digests::Dstu7564Digest digest) ;
 
 // Ctor Parameters [CppParam { name: "hashSizeBits", ty: "int32_t", modifiers: "", def_value: None }]
 explicit Dstu7564Digest(int32_t hashSizeBits) ;
@@ -228,15 +227,14 @@ static uint64_t Rotate(int32_t n, uint64_t x) ;
  void SubBytes(::ArrayW<uint64_t> s) ;
 
 /// @brief Method Copy addr 0x119613c size 0x6c virtual true final false
- ::Org::BouncyCastle::Utilities::IMemoable Copy() ;
+ Org::BouncyCastle::Utilities::IMemoable Copy() ;
 
 /// @brief Method Reset addr 0x11961a8 size 0x84 virtual true final false
- void Reset(::Org::BouncyCastle::Utilities::IMemoable other) ;
+ void Reset(Org::BouncyCastle::Utilities::IMemoable other) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Digests
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest, "Org.BouncyCastle.Crypto.Digests", "Dstu7564Digest");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Digests::Dstu7564Digest);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::Dstu7564Digest, "Org.BouncyCastle.Crypto.Digests", "Dstu7564Digest");

@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__MissingMemberException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System {
@@ -19,7 +18,7 @@ namespace System {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2527))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2441))
 // CS Name: System.MissingMethodException
-class CORDL_TYPE MissingMethodException : public ::System::MissingMemberException {
+class CORDL_TYPE MissingMethodException : public System::MissingMemberException {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr MissingMethodException(MissingMethodException const& ) noexcept = defa
 constexpr MissingMethodException(MissingMethodException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MissingMethodException(void* ptr) noexcept : ::System::MissingMemberException(ptr) {
+constexpr explicit MissingMethodException(void* ptr) noexcept : System::MissingMemberException(ptr) {
 }
 
 
@@ -78,11 +77,11 @@ explicit MissingMethodException(::StringW className, ::StringW methodName) ;
 /// @brief Method .ctor addr 0x244287c size 0x2c virtual false final false
  void _ctor(::StringW className, ::StringW methodName) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit MissingMethodException(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit MissingMethodException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x24428a8 size 0x8 virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method get_Message addr 0x24428b0 size 0x12c virtual true final false
  ::StringW get_Message() ;
@@ -91,6 +90,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::MissingMethodException);
-DEFINE_IL2CPP_ARG_TYPE(::System::MissingMethodException, "System", "MissingMethodException");
+NEED_NO_BOX(System::MissingMethodException);
+DEFINE_IL2CPP_ARG_TYPE(System::MissingMethodException, "System", "MissingMethodException");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace RootMotion {
 struct Axis;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field X offset 0
-static ::RootMotion::Axis const X;
+static RootMotion::Axis const X;
 
 /// @brief Field Y offset 0
-static ::RootMotion::Axis const Y;
+static RootMotion::Axis const Y;
 
 /// @brief Field Z offset 0
-static ::RootMotion::Axis const Z;
+static RootMotion::Axis const Z;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def RootMotion
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::Axis, "RootMotion", "Axis");
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::Axis, "RootMotion", "Axis");

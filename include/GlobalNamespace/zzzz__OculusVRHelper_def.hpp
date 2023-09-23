@@ -5,15 +5,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-struct EulerPose;
-}
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace GlobalNamespace {
+class IVRPlatformHelper;
+}
+namespace GlobalNamespace {
+struct EulerPose;
 }
 namespace GlobalNamespace {
 struct VRPlatformSDK;
@@ -21,8 +20,8 @@ struct VRPlatformSDK;
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace UnityEngine::EventSystems {
-class EventSystem;
+namespace GlobalNamespace {
+class IVerboseLogger;
 }
 namespace UnityEngine::XR {
 struct XRNode;
@@ -30,17 +29,17 @@ struct XRNode;
 namespace System {
 class Action;
 }
-namespace GlobalNamespace {
-class IVerboseLogger;
-}
 namespace UnityEngine {
 struct Pose;
 }
-namespace GlobalNamespace {
-class IVRPlatformHelper;
+namespace UnityEngine::EventSystems {
+class EventSystem;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRPlugin__Node;
+struct GlobalNamespace__OVRPlugin__Node;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -52,14 +51,14 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13921))
 // CS Name: OculusVRHelper
-class CORDL_TYPE OculusVRHelper : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OculusVRHelper : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IVRPlatformHelper
-constexpr operator  ::GlobalNamespace::IVRPlatformHelper() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IVRPlatformHelper
+constexpr operator  GlobalNamespace::IVRPlatformHelper() const noexcept;
 
-/// @brief Convert operator to ::GlobalNamespace::IVerboseLogger
-constexpr operator  ::GlobalNamespace::IVerboseLogger() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IVerboseLogger
+constexpr operator  GlobalNamespace::IVerboseLogger() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x78};
@@ -73,7 +72,7 @@ constexpr OculusVRHelper(OculusVRHelper const& ) noexcept = default;
 constexpr OculusVRHelper(OculusVRHelper&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OculusVRHelper(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OculusVRHelper(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -94,53 +93,53 @@ constexpr explicit OculusVRHelper(void* ptr) noexcept : ::UnityEngine::MonoBehav
 
 // Fields
 
- ::GlobalNamespace::EulerPose __declspec(property(get=__get__oculusTouchControllerOffset, put=__set__oculusTouchControllerOffset))  _oculusTouchControllerOffset;
+ GlobalNamespace::EulerPose __declspec(property(get=__get__oculusTouchControllerOffset, put=__set__oculusTouchControllerOffset))  _oculusTouchControllerOffset;
 
-constexpr void __set__oculusTouchControllerOffset(::GlobalNamespace::EulerPose value) ;
+constexpr void __set__oculusTouchControllerOffset(GlobalNamespace::EulerPose value) ;
 
-constexpr ::GlobalNamespace::EulerPose __get__oculusTouchControllerOffset() const;
+constexpr GlobalNamespace::EulerPose __get__oculusTouchControllerOffset() const;
 
- ::System::Action __declspec(property(get=__get_inputFocusWasCapturedEvent, put=__set_inputFocusWasCapturedEvent))  inputFocusWasCapturedEvent;
+ System::Action __declspec(property(get=__get_inputFocusWasCapturedEvent, put=__set_inputFocusWasCapturedEvent))  inputFocusWasCapturedEvent;
 
-constexpr void __set_inputFocusWasCapturedEvent(::System::Action value) ;
+constexpr void __set_inputFocusWasCapturedEvent(System::Action value) ;
 
-constexpr ::System::Action __get_inputFocusWasCapturedEvent() const;
+constexpr System::Action __get_inputFocusWasCapturedEvent() const;
 
- ::System::Action __declspec(property(get=__get_inputFocusWasReleasedEvent, put=__set_inputFocusWasReleasedEvent))  inputFocusWasReleasedEvent;
+ System::Action __declspec(property(get=__get_inputFocusWasReleasedEvent, put=__set_inputFocusWasReleasedEvent))  inputFocusWasReleasedEvent;
 
-constexpr void __set_inputFocusWasReleasedEvent(::System::Action value) ;
+constexpr void __set_inputFocusWasReleasedEvent(System::Action value) ;
 
-constexpr ::System::Action __get_inputFocusWasReleasedEvent() const;
+constexpr System::Action __get_inputFocusWasReleasedEvent() const;
 
- ::System::Action __declspec(property(get=__get_vrFocusWasCapturedEvent, put=__set_vrFocusWasCapturedEvent))  vrFocusWasCapturedEvent;
+ System::Action __declspec(property(get=__get_vrFocusWasCapturedEvent, put=__set_vrFocusWasCapturedEvent))  vrFocusWasCapturedEvent;
 
-constexpr void __set_vrFocusWasCapturedEvent(::System::Action value) ;
+constexpr void __set_vrFocusWasCapturedEvent(System::Action value) ;
 
-constexpr ::System::Action __get_vrFocusWasCapturedEvent() const;
+constexpr System::Action __get_vrFocusWasCapturedEvent() const;
 
- ::System::Action __declspec(property(get=__get_vrFocusWasReleasedEvent, put=__set_vrFocusWasReleasedEvent))  vrFocusWasReleasedEvent;
+ System::Action __declspec(property(get=__get_vrFocusWasReleasedEvent, put=__set_vrFocusWasReleasedEvent))  vrFocusWasReleasedEvent;
 
-constexpr void __set_vrFocusWasReleasedEvent(::System::Action value) ;
+constexpr void __set_vrFocusWasReleasedEvent(System::Action value) ;
 
-constexpr ::System::Action __get_vrFocusWasReleasedEvent() const;
+constexpr System::Action __get_vrFocusWasReleasedEvent() const;
 
- ::System::Action __declspec(property(get=__get_hmdUnmountedEvent, put=__set_hmdUnmountedEvent))  hmdUnmountedEvent;
+ System::Action __declspec(property(get=__get_hmdUnmountedEvent, put=__set_hmdUnmountedEvent))  hmdUnmountedEvent;
 
-constexpr void __set_hmdUnmountedEvent(::System::Action value) ;
+constexpr void __set_hmdUnmountedEvent(System::Action value) ;
 
-constexpr ::System::Action __get_hmdUnmountedEvent() const;
+constexpr System::Action __get_hmdUnmountedEvent() const;
 
- ::System::Action __declspec(property(get=__get_hmdMountedEvent, put=__set_hmdMountedEvent))  hmdMountedEvent;
+ System::Action __declspec(property(get=__get_hmdMountedEvent, put=__set_hmdMountedEvent))  hmdMountedEvent;
 
-constexpr void __set_hmdMountedEvent(::System::Action value) ;
+constexpr void __set_hmdMountedEvent(System::Action value) ;
 
-constexpr ::System::Action __get_hmdMountedEvent() const;
+constexpr System::Action __get_hmdMountedEvent() const;
 
- ::System::Action __declspec(property(get=__get_controllersDidChangeReferenceEvent, put=__set_controllersDidChangeReferenceEvent))  controllersDidChangeReferenceEvent;
+ System::Action __declspec(property(get=__get_controllersDidChangeReferenceEvent, put=__set_controllersDidChangeReferenceEvent))  controllersDidChangeReferenceEvent;
 
-constexpr void __set_controllersDidChangeReferenceEvent(::System::Action value) ;
+constexpr void __set_controllersDidChangeReferenceEvent(System::Action value) ;
 
-constexpr ::System::Action __get_controllersDidChangeReferenceEvent() const;
+constexpr System::Action __get_controllersDidChangeReferenceEvent() const;
 
  bool __declspec(property(get=__get__hasInputFocus, put=__set__hasInputFocus))  _hasInputFocus;
 
@@ -160,11 +159,11 @@ constexpr void __set__userPresent(bool value) ;
 
 constexpr bool __get__userPresent() const;
 
- ::UnityEngine::EventSystems::EventSystem __declspec(property(get=__get__disabledEventSystem, put=__set__disabledEventSystem))  _disabledEventSystem;
+ UnityEngine::EventSystems::EventSystem __declspec(property(get=__get__disabledEventSystem, put=__set__disabledEventSystem))  _disabledEventSystem;
 
-constexpr void __set__disabledEventSystem(::UnityEngine::EventSystems::EventSystem value) ;
+constexpr void __set__disabledEventSystem(UnityEngine::EventSystems::EventSystem value) ;
 
-constexpr ::UnityEngine::EventSystems::EventSystem __get__disabledEventSystem() const;
+constexpr UnityEngine::EventSystems::EventSystem __get__disabledEventSystem() const;
 
 /// @brief Field kVerticalLeftHand offset 0
 static constexpr ::ConstString  kVerticalLeftHand{u"VerticalLeftHand"};
@@ -187,7 +186,7 @@ static constexpr ::ConstString  kHorizontalRightHand{u"HorizontalRightHand"};
 
  bool __declspec(property(get=get_isAlwaysWireless))  isAlwaysWireless;
 
- ::GlobalNamespace::VRPlatformSDK __declspec(property(get=get_vrPlatformSDK))  vrPlatformSDK;
+ GlobalNamespace::VRPlatformSDK __declspec(property(get=get_vrPlatformSDK))  vrPlatformSDK;
 
  ::StringW __declspec(property(get=get_loggerPrefix))  loggerPrefix;
 
@@ -197,46 +196,46 @@ static constexpr ::ConstString  kHorizontalRightHand{u"HorizontalRightHand"};
 // Methods
 
 /// @brief Method add_inputFocusWasCapturedEvent addr 0x1f859f0 size 0x9c virtual true final true
- void add_inputFocusWasCapturedEvent(::System::Action value) ;
+ void add_inputFocusWasCapturedEvent(System::Action value) ;
 
 /// @brief Method remove_inputFocusWasCapturedEvent addr 0x1f85a8c size 0x9c virtual true final true
- void remove_inputFocusWasCapturedEvent(::System::Action value) ;
+ void remove_inputFocusWasCapturedEvent(System::Action value) ;
 
 /// @brief Method add_inputFocusWasReleasedEvent addr 0x1f85b28 size 0x9c virtual true final true
- void add_inputFocusWasReleasedEvent(::System::Action value) ;
+ void add_inputFocusWasReleasedEvent(System::Action value) ;
 
 /// @brief Method remove_inputFocusWasReleasedEvent addr 0x1f85bc4 size 0x9c virtual true final true
- void remove_inputFocusWasReleasedEvent(::System::Action value) ;
+ void remove_inputFocusWasReleasedEvent(System::Action value) ;
 
 /// @brief Method add_vrFocusWasCapturedEvent addr 0x1f85c60 size 0x9c virtual true final true
- void add_vrFocusWasCapturedEvent(::System::Action value) ;
+ void add_vrFocusWasCapturedEvent(System::Action value) ;
 
 /// @brief Method remove_vrFocusWasCapturedEvent addr 0x1f85cfc size 0x9c virtual true final true
- void remove_vrFocusWasCapturedEvent(::System::Action value) ;
+ void remove_vrFocusWasCapturedEvent(System::Action value) ;
 
 /// @brief Method add_vrFocusWasReleasedEvent addr 0x1f85d98 size 0x9c virtual true final true
- void add_vrFocusWasReleasedEvent(::System::Action value) ;
+ void add_vrFocusWasReleasedEvent(System::Action value) ;
 
 /// @brief Method remove_vrFocusWasReleasedEvent addr 0x1f85e34 size 0x9c virtual true final true
- void remove_vrFocusWasReleasedEvent(::System::Action value) ;
+ void remove_vrFocusWasReleasedEvent(System::Action value) ;
 
 /// @brief Method add_hmdUnmountedEvent addr 0x1f85ed0 size 0x9c virtual true final true
- void add_hmdUnmountedEvent(::System::Action value) ;
+ void add_hmdUnmountedEvent(System::Action value) ;
 
 /// @brief Method remove_hmdUnmountedEvent addr 0x1f85f6c size 0x9c virtual true final true
- void remove_hmdUnmountedEvent(::System::Action value) ;
+ void remove_hmdUnmountedEvent(System::Action value) ;
 
 /// @brief Method add_hmdMountedEvent addr 0x1f86008 size 0x9c virtual true final true
- void add_hmdMountedEvent(::System::Action value) ;
+ void add_hmdMountedEvent(System::Action value) ;
 
 /// @brief Method remove_hmdMountedEvent addr 0x1f860a4 size 0x9c virtual true final true
- void remove_hmdMountedEvent(::System::Action value) ;
+ void remove_hmdMountedEvent(System::Action value) ;
 
 /// @brief Method add_controllersDidChangeReferenceEvent addr 0x1f86140 size 0x9c virtual true final true
- void add_controllersDidChangeReferenceEvent(::System::Action value) ;
+ void add_controllersDidChangeReferenceEvent(System::Action value) ;
 
 /// @brief Method remove_controllersDidChangeReferenceEvent addr 0x1f861dc size 0x9c virtual true final true
- void remove_controllersDidChangeReferenceEvent(::System::Action value) ;
+ void remove_controllersDidChangeReferenceEvent(System::Action value) ;
 
 /// @brief Method get_hasInputFocus addr 0x1f86278 size 0x50 virtual true final true
  bool get_hasInputFocus() ;
@@ -248,7 +247,7 @@ static constexpr ::ConstString  kHorizontalRightHand{u"HorizontalRightHand"};
  bool get_isAlwaysWireless() ;
 
 /// @brief Method get_vrPlatformSDK addr 0x1f86320 size 0x8 virtual true final true
- ::GlobalNamespace::VRPlatformSDK get_vrPlatformSDK() ;
+ GlobalNamespace::VRPlatformSDK get_vrPlatformSDK() ;
 
 /// @brief Method get_loggerPrefix addr 0x1f86328 size 0x40 virtual true final true
  ::StringW get_loggerPrefix() ;
@@ -266,28 +265,28 @@ static constexpr ::ConstString  kHorizontalRightHand{u"HorizontalRightHand"};
  void LateUpdate() ;
 
 /// @brief Method TriggerHapticPulse addr 0x1f86868 size 0x7c virtual true final true
- void TriggerHapticPulse(::UnityEngine::XR::XRNode node, float_t duration, float_t strength, float_t frequency) ;
+ void TriggerHapticPulse(UnityEngine::XR::XRNode node, float_t duration, float_t strength, float_t frequency) ;
 
 /// @brief Method StopHaptics addr 0x1f868e4 size 0x6c virtual true final true
- void StopHaptics(::UnityEngine::XR::XRNode node) ;
+ void StopHaptics(UnityEngine::XR::XRNode node) ;
 
 /// @brief Method GetPoseOffsetForNode addr 0x1f86950 size 0xac virtual true final true
- ::UnityEngine::Pose GetPoseOffsetForNode(::UnityEngine::XR::XRNode node) ;
+ UnityEngine::Pose GetPoseOffsetForNode(UnityEngine::XR::XRNode node) ;
 
 /// @brief Method GetNodePose addr 0x1f869fc size 0x164 virtual true final true
- bool GetNodePose(::UnityEngine::XR::XRNode nodeType, int32_t idx, ByRef<::UnityEngine::Vector3> pos, ByRef<::UnityEngine::Quaternion> rot) ;
+ bool GetNodePose(UnityEngine::XR::XRNode nodeType, int32_t idx, ByRef<UnityEngine::Vector3> pos, ByRef<UnityEngine::Quaternion> rot) ;
 
 /// @brief Method XRNodeToOVRNode addr 0x1f86b60 size 0xd8 virtual false final false
-static ::GlobalNamespace::____GlobalNamespace__OVRPlugin__Node XRNodeToOVRNode(::UnityEngine::XR::XRNode node) ;
+static GlobalNamespace::GlobalNamespace__OVRPlugin__Node XRNodeToOVRNode(UnityEngine::XR::XRNode node) ;
 
 /// @brief Method GetAnyJoystickMaxAxis addr 0x1f86c38 size 0x4 virtual true final true
- ::UnityEngine::Vector2 GetAnyJoystickMaxAxis() ;
+ UnityEngine::Vector2 GetAnyJoystickMaxAxis() ;
 
 /// @brief Method GetTriggerValue addr 0x1f86c3c size 0x98 virtual true final true
- float_t GetTriggerValue(::UnityEngine::XR::XRNode node) ;
+ float_t GetTriggerValue(UnityEngine::XR::XRNode node) ;
 
 /// @brief Method GetThumbstickValue addr 0x1f86cd4 size 0xf8 virtual true final true
- ::UnityEngine::Vector2 GetThumbstickValue(::UnityEngine::XR::XRNode node) ;
+ UnityEngine::Vector2 GetThumbstickValue(UnityEngine::XR::XRNode node) ;
 
 /// @brief Method GetMenuButton addr 0x1f86dcc size 0x44 virtual true final true
  bool GetMenuButton() ;
@@ -314,6 +313,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OculusVRHelper);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OculusVRHelper, "", "OculusVRHelper");
+NEED_NO_BOX(GlobalNamespace::OculusVRHelper);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusVRHelper, "", "OculusVRHelper");

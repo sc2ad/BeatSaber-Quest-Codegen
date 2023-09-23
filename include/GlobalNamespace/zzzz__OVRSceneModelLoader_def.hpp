@@ -3,26 +3,25 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-class OVRSceneManager;
-}
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System {
 class IDisposable;
 }
+namespace GlobalNamespace {
+class OVRSceneManager;
+}
 // Forward declare root types
 namespace GlobalNamespace {
-class OVRSceneModelLoader;
+class GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6;
+class OVRSceneModelLoader;
 }
 // Type: ::<AttemptToLoadSceneModel>d__6
 namespace GlobalNamespace {
@@ -30,46 +29,46 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8827))
 // CS Name: OVRSceneModelLoader::<AttemptToLoadSceneModel>d__6
-class CORDL_TYPE ____GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6() = default;
+virtual ~GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6(____GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6(GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6(____GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6(GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6& operator=(____GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6&& o) noexcept = default;
-  constexpr ____GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6& operator=(____GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6 const& o) noexcept = default;
+  constexpr GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6& operator=(GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6&& o) noexcept = default;
+  constexpr GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6& operator=(GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6 const& o) noexcept = default;
                 
 
 
@@ -87,11 +86,11 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::GlobalNamespace::OVRSceneModelLoader __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::OVRSceneModelLoader __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::OVRSceneModelLoader value) ;
+constexpr void __set___4__this(GlobalNamespace::OVRSceneModelLoader value) ;
 
-constexpr ::GlobalNamespace::OVRSceneModelLoader __get___4__this() const;
+constexpr GlobalNamespace::OVRSceneModelLoader __get___4__this() const;
 
 
 // Properties
@@ -104,7 +103,7 @@ constexpr ::GlobalNamespace::OVRSceneModelLoader __get___4__this() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6(int32_t __1__state) ;
+explicit GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2609780 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -134,10 +133,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8828))
 // CS Name: OVRSceneModelLoader
-class CORDL_TYPE OVRSceneModelLoader : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OVRSceneModelLoader : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using _AttemptToLoadSceneModel_d__6 = ::GlobalNamespace::____GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6;
+using _AttemptToLoadSceneModel_d__6 = GlobalNamespace::GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -151,7 +150,7 @@ constexpr OVRSceneModelLoader(OVRSceneModelLoader const& ) noexcept = default;
 constexpr OVRSceneModelLoader(OVRSceneModelLoader&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OVRSceneModelLoader(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OVRSceneModelLoader(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -172,11 +171,11 @@ constexpr explicit OVRSceneModelLoader(void* ptr) noexcept : ::UnityEngine::Mono
 
 // Fields
 
- ::GlobalNamespace::OVRSceneManager __declspec(property(get=__get__SceneManager_k__BackingField, put=__set__SceneManager_k__BackingField))  _SceneManager_k__BackingField;
+ GlobalNamespace::OVRSceneManager __declspec(property(get=__get__SceneManager_k__BackingField, put=__set__SceneManager_k__BackingField))  _SceneManager_k__BackingField;
 
-constexpr void __set__SceneManager_k__BackingField(::GlobalNamespace::OVRSceneManager value) ;
+constexpr void __set__SceneManager_k__BackingField(GlobalNamespace::OVRSceneManager value) ;
 
-constexpr ::GlobalNamespace::OVRSceneManager __get__SceneManager_k__BackingField() const;
+constexpr GlobalNamespace::OVRSceneManager __get__SceneManager_k__BackingField() const;
 
  bool __declspec(property(get=__get__sceneCaptureRequested, put=__set__sceneCaptureRequested))  _sceneCaptureRequested;
 
@@ -187,22 +186,22 @@ constexpr bool __get__sceneCaptureRequested() const;
 
 // Properties
 
- ::GlobalNamespace::OVRSceneManager __declspec(property(get=get_SceneManager, put=set_SceneManager))  SceneManager;
+ GlobalNamespace::OVRSceneManager __declspec(property(get=get_SceneManager, put=set_SceneManager))  SceneManager;
 
 
 // Methods
 
 /// @brief Method get_SceneManager addr 0x26094dc size 0x8 virtual false final false
- ::GlobalNamespace::OVRSceneManager get_SceneManager() ;
+ GlobalNamespace::OVRSceneManager get_SceneManager() ;
 
 /// @brief Method set_SceneManager addr 0x26094e4 size 0x8 virtual false final false
- void set_SceneManager(::GlobalNamespace::OVRSceneManager value) ;
+ void set_SceneManager(GlobalNamespace::OVRSceneManager value) ;
 
 /// @brief Method Start addr 0x26094ec size 0x22c virtual false final false
  void Start() ;
 
 /// @brief Method AttemptToLoadSceneModel addr 0x2609718 size 0x68 virtual false final false
- ::System::Collections::IEnumerator AttemptToLoadSceneModel() ;
+ System::Collections::IEnumerator AttemptToLoadSceneModel() ;
 
 /// @brief Method OnStart addr 0x26097a8 size 0xc8 virtual true final false
  void OnStart() ;
@@ -229,8 +228,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OVRSceneModelLoader);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRSceneModelLoader, "", "OVRSceneModelLoader");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6, "", "OVRSceneModelLoader/<AttemptToLoadSceneModel>d__6");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6, "", "OVRSceneModelLoader/<AttemptToLoadSceneModel>d__6");
+NEED_NO_BOX(GlobalNamespace::OVRSceneModelLoader);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSceneModelLoader, "", "OVRSceneModelLoader");

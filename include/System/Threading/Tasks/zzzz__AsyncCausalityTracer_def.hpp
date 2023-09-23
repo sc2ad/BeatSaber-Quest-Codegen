@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Threading::Tasks {
 struct CausalitySynchronousWork;
 }
@@ -68,21 +67,20 @@ static bool __declspec(property(get=get_LoggingOn))  LoggingOn;
 static bool get_LoggingOn() ;
 
 /// @brief Method TraceOperationCreation addr 0x24bf954 size 0x4 virtual false final false
-static void TraceOperationCreation(::System::Threading::Tasks::CausalityTraceLevel traceLevel, int32_t taskId, ::StringW operationName, uint64_t relatedContext) ;
+static void TraceOperationCreation(System::Threading::Tasks::CausalityTraceLevel traceLevel, int32_t taskId, ::StringW operationName, uint64_t relatedContext) ;
 
 /// @brief Method TraceOperationCompletion addr 0x24bf958 size 0x4 virtual false final false
-static void TraceOperationCompletion(::System::Threading::Tasks::CausalityTraceLevel traceLevel, int32_t taskId, ::System::Threading::Tasks::AsyncCausalityStatus status) ;
+static void TraceOperationCompletion(System::Threading::Tasks::CausalityTraceLevel traceLevel, int32_t taskId, System::Threading::Tasks::AsyncCausalityStatus status) ;
 
 /// @brief Method TraceSynchronousWorkStart addr 0x24bf95c size 0x4 virtual false final false
-static void TraceSynchronousWorkStart(::System::Threading::Tasks::CausalityTraceLevel traceLevel, int32_t taskId, ::System::Threading::Tasks::CausalitySynchronousWork work) ;
+static void TraceSynchronousWorkStart(System::Threading::Tasks::CausalityTraceLevel traceLevel, int32_t taskId, System::Threading::Tasks::CausalitySynchronousWork work) ;
 
 /// @brief Method TraceSynchronousWorkCompletion addr 0x24bc74c size 0x4 virtual false final false
-static void TraceSynchronousWorkCompletion(::System::Threading::Tasks::CausalityTraceLevel traceLevel, ::System::Threading::Tasks::CausalitySynchronousWork work) ;
+static void TraceSynchronousWorkCompletion(System::Threading::Tasks::CausalityTraceLevel traceLevel, System::Threading::Tasks::CausalitySynchronousWork work) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Threading::Tasks
-} // end anonymous namespace
-NEED_NO_BOX(::System::Threading::Tasks::AsyncCausalityTracer);
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::AsyncCausalityTracer, "System.Threading.Tasks", "AsyncCausalityTracer");
+NEED_NO_BOX(System::Threading::Tasks::AsyncCausalityTracer);
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::AsyncCausalityTracer, "System.Threading.Tasks", "AsyncCausalityTracer");

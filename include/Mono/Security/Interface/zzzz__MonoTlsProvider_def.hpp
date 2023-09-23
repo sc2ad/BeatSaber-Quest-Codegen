@@ -2,12 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System::Security::Authentication {
-struct SslProtocols;
-}
 namespace System {
 struct Guid;
+}
+namespace System::Security::Authentication {
+struct SslProtocols;
 }
 // Forward declare root types
 namespace Mono::Security::Interface {
@@ -55,7 +54,7 @@ constexpr explicit MonoTlsProvider(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Properties
 
- ::System::Guid __declspec(property(get=get_ID))  ID;
+ System::Guid __declspec(property(get=get_ID))  ID;
 
  ::StringW __declspec(property(get=get_Name))  Name;
 
@@ -65,7 +64,7 @@ constexpr explicit MonoTlsProvider(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
  bool __declspec(property(get=get_SupportsMonoExtensions))  SupportsMonoExtensions;
 
- ::System::Security::Authentication::SslProtocols __declspec(property(get=get_SupportedProtocols))  SupportedProtocols;
+ System::Security::Authentication::SslProtocols __declspec(property(get=get_SupportedProtocols))  SupportedProtocols;
 
  bool __declspec(property(get=get_SupportsCleanShutdown))  SupportsCleanShutdown;
 
@@ -79,7 +78,7 @@ explicit MonoTlsProvider() ;
  void _ctor() ;
 
 /// @brief Method get_ID addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Guid get_ID() ;
+ System::Guid get_ID() ;
 
 /// @brief Method get_Name addr 0x0 size 0xffffffffffffffff virtual true final false
  ::StringW get_Name() ;
@@ -94,7 +93,7 @@ explicit MonoTlsProvider() ;
  bool get_SupportsMonoExtensions() ;
 
 /// @brief Method get_SupportedProtocols addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Security::Authentication::SslProtocols get_SupportedProtocols() ;
+ System::Security::Authentication::SslProtocols get_SupportedProtocols() ;
 
 /// @brief Method get_SupportsCleanShutdown addr 0x0 size 0xffffffffffffffff virtual true final false
  bool get_SupportsCleanShutdown() ;
@@ -103,6 +102,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Security::Interface
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Security::Interface::MonoTlsProvider);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Interface::MonoTlsProvider, "Mono.Security.Interface", "MonoTlsProvider");
+NEED_NO_BOX(Mono::Security::Interface::MonoTlsProvider);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::MonoTlsProvider, "Mono.Security.Interface", "MonoTlsProvider");

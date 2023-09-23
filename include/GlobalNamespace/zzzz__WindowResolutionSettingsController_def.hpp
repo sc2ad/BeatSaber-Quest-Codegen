@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Vector2Int;
 }
@@ -22,7 +21,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5687))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5702))
 // CS Name: WindowResolutionSettingsController
-class CORDL_TYPE WindowResolutionSettingsController : public ::GlobalNamespace::ListSettingsController {
+class CORDL_TYPE WindowResolutionSettingsController : public GlobalNamespace::ListSettingsController {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr WindowResolutionSettingsController(WindowResolutionSettingsController 
 constexpr WindowResolutionSettingsController(WindowResolutionSettingsController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit WindowResolutionSettingsController(void* ptr) noexcept : ::GlobalNamespace::ListSettingsController(ptr) {
+constexpr explicit WindowResolutionSettingsController(void* ptr) noexcept : GlobalNamespace::ListSettingsController(ptr) {
 }
 
 
@@ -58,17 +57,17 @@ constexpr explicit WindowResolutionSettingsController(void* ptr) noexcept : ::Gl
 
 // Fields
 
- ::GlobalNamespace::Vector2IntSO __declspec(property(get=__get__windowResolution, put=__set__windowResolution))  _windowResolution;
+ GlobalNamespace::Vector2IntSO __declspec(property(get=__get__windowResolution, put=__set__windowResolution))  _windowResolution;
 
-constexpr void __set__windowResolution(::GlobalNamespace::Vector2IntSO value) ;
+constexpr void __set__windowResolution(GlobalNamespace::Vector2IntSO value) ;
 
-constexpr ::GlobalNamespace::Vector2IntSO __get__windowResolution() const;
+constexpr GlobalNamespace::Vector2IntSO __get__windowResolution() const;
 
- ::ArrayW<::UnityEngine::Vector2Int> __declspec(property(get=__get__windowResolutions, put=__set__windowResolutions))  _windowResolutions;
+ ::ArrayW<UnityEngine::Vector2Int> __declspec(property(get=__get__windowResolutions, put=__set__windowResolutions))  _windowResolutions;
 
-constexpr void __set__windowResolutions(::ArrayW<::UnityEngine::Vector2Int> value) ;
+constexpr void __set__windowResolutions(::ArrayW<UnityEngine::Vector2Int> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector2Int> __get__windowResolutions() const;
+constexpr ::ArrayW<UnityEngine::Vector2Int> __get__windowResolutions() const;
 
 
 // Methods
@@ -92,6 +91,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::WindowResolutionSettingsController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::WindowResolutionSettingsController, "", "WindowResolutionSettingsController");
+NEED_NO_BOX(GlobalNamespace::WindowResolutionSettingsController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::WindowResolutionSettingsController, "", "WindowResolutionSettingsController");

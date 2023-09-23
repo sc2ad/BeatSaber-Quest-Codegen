@@ -4,22 +4,21 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace Zenject {
 class InjectTypeInfo;
 }
-namespace System {
-class IDisposable;
-}
 namespace UnityEngine {
 class GameObject;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace Zenject {
 class DefaultGameObjectParentInstaller;
 }
 namespace Zenject {
-class ____Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer;
+class Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer;
 }
 // Type: ::DefaultParentObjectDestroyer
 namespace Zenject {
@@ -27,59 +26,59 @@ namespace Zenject {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11289))
 // CS Name: Zenject.DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer
-class CORDL_TYPE ____Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer() = default;
+virtual ~Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer", modifiers: " const&", def_value: None }]
-constexpr ____Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer(____Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer", modifiers: " const&", def_value: None }]
+constexpr Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer(Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer", modifiers: "&&", def_value: None }]
-constexpr ____Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer(____Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer", modifiers: "&&", def_value: None }]
+constexpr Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer(Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer& operator=(std::nullptr_t) noexcept {
+  constexpr Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer& operator=(void* o) noexcept {
+  constexpr Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer& operator=(____Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer&& o) noexcept = default;
-  constexpr ____Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer& operator=(____Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer const& o) noexcept = default;
+  constexpr Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer& operator=(Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer&& o) noexcept = default;
+  constexpr Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer& operator=(Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::UnityEngine::GameObject __declspec(property(get=__get__gameObject, put=__set__gameObject))  _gameObject;
+ UnityEngine::GameObject __declspec(property(get=__get__gameObject, put=__set__gameObject))  _gameObject;
 
-constexpr void __set__gameObject(::UnityEngine::GameObject value) ;
+constexpr void __set__gameObject(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__gameObject() const;
+constexpr UnityEngine::GameObject __get__gameObject() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "gameObject", ty: "::UnityEngine::GameObject", modifiers: "", def_value: None }]
-explicit ____Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer(::UnityEngine::GameObject gameObject) ;
+// Ctor Parameters [CppParam { name: "gameObject", ty: "UnityEngine::GameObject", modifiers: "", def_value: None }]
+explicit Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer(UnityEngine::GameObject gameObject) ;
 
 /// @brief Method .ctor addr 0x2da3fe0 size 0x28 virtual false final false
- void _ctor(::UnityEngine::GameObject gameObject) ;
+ void _ctor(UnityEngine::GameObject gameObject) ;
 
 /// @brief Method Dispose addr 0x2da4008 size 0x5c virtual true final true
  void Dispose() ;
@@ -88,7 +87,7 @@ explicit ____Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestr
 static ::bs_hook::Il2CppWrapperType __zenCreate(::ArrayW<::bs_hook::Il2CppWrapperType> P_0) ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x2da4110 size 0x274 virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -97,13 +96,13 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: Zenject::DefaultGameObjectParentInstaller
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11074)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11074), inst: 3771 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11074), inst: 3771 }), TypeDefinitionIndex(TypeDefinitionIndex(11074))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11290))
 // CS Name: Zenject.DefaultGameObjectParentInstaller
-class CORDL_TYPE DefaultGameObjectParentInstaller : public ::Zenject::Installer_2<::StringW,::Zenject::DefaultGameObjectParentInstaller> {
+class CORDL_TYPE DefaultGameObjectParentInstaller : public Zenject::Installer_2<::StringW,Zenject::DefaultGameObjectParentInstaller> {
 public:
 // Declarations
-using DefaultParentObjectDestroyer = ::Zenject::____Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer;
+using DefaultParentObjectDestroyer = Zenject::Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -117,7 +116,7 @@ constexpr DefaultGameObjectParentInstaller(DefaultGameObjectParentInstaller cons
 constexpr DefaultGameObjectParentInstaller(DefaultGameObjectParentInstaller&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DefaultGameObjectParentInstaller(void* ptr) noexcept : ::Zenject::Installer_2<::StringW,::Zenject::DefaultGameObjectParentInstaller>(ptr) {
+constexpr explicit DefaultGameObjectParentInstaller(void* ptr) noexcept : Zenject::Installer_2<::StringW,Zenject::DefaultGameObjectParentInstaller>(ptr) {
 }
 
 
@@ -160,14 +159,13 @@ explicit DefaultGameObjectParentInstaller(::StringW name) ;
 static ::bs_hook::Il2CppWrapperType __zenCreate(::ArrayW<::bs_hook::Il2CppWrapperType> P_0) ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x2da3d6c size 0x274 virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::DefaultGameObjectParentInstaller);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::DefaultGameObjectParentInstaller, "Zenject", "DefaultGameObjectParentInstaller");
-NEED_NO_BOX(::Zenject::____Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::____Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer, "Zenject", "DefaultGameObjectParentInstaller/DefaultParentObjectDestroyer");
+NEED_NO_BOX(Zenject::DefaultGameObjectParentInstaller);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::DefaultGameObjectParentInstaller, "Zenject", "DefaultGameObjectParentInstaller");
+NEED_NO_BOX(Zenject::Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer, "Zenject", "DefaultGameObjectParentInstaller/DefaultParentObjectDestroyer");

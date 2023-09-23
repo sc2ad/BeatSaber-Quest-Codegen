@@ -1,6 +1,5 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::X509::Store {
 class IX509StoreParameters;
@@ -24,6 +23,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::X509::Store
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::X509::Store::IX509StoreParameters);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::X509::Store::IX509StoreParameters, "Org.BouncyCastle.X509.Store", "IX509StoreParameters");
+NEED_NO_BOX(Org::BouncyCastle::X509::Store::IX509StoreParameters);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::Store::IX509StoreParameters, "Org.BouncyCastle.X509.Store", "IX509StoreParameters");

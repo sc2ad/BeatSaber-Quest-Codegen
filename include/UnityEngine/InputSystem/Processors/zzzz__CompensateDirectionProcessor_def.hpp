@@ -3,12 +3,11 @@
 #include "UnityEngine/InputSystem/zzzz__InputProcessor_1_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine::InputSystem {
 class InputControl;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Processors {
@@ -17,10 +16,10 @@ class CompensateDirectionProcessor;
 // Type: UnityEngine.InputSystem.Processors::CompensateDirectionProcessor
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6319)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6319), inst: 394 }), TypeDefinitionIndex(TypeDefinitionIndex(10190))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10190)), TypeDefinitionIndex(TypeDefinitionIndex(6319)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6319), inst: 394 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6665))
 // CS Name: UnityEngine.InputSystem.Processors.CompensateDirectionProcessor
-class CORDL_TYPE CompensateDirectionProcessor : public ::UnityEngine::InputSystem::InputProcessor_1<::UnityEngine::Vector3> {
+class CORDL_TYPE CompensateDirectionProcessor : public UnityEngine::InputSystem::InputProcessor_1<UnityEngine::Vector3> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr CompensateDirectionProcessor(CompensateDirectionProcessor const& ) noe
 constexpr CompensateDirectionProcessor(CompensateDirectionProcessor&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CompensateDirectionProcessor(void* ptr) noexcept : ::UnityEngine::InputSystem::InputProcessor_1<::UnityEngine::Vector3>(ptr) {
+constexpr explicit CompensateDirectionProcessor(void* ptr) noexcept : UnityEngine::InputSystem::InputProcessor_1<UnityEngine::Vector3>(ptr) {
 }
 
 
@@ -57,7 +56,7 @@ constexpr explicit CompensateDirectionProcessor(void* ptr) noexcept : ::UnityEng
 // Methods
 
 /// @brief Method Process addr 0x29664c8 size 0x1f0 virtual true final false
- ::UnityEngine::Vector3 Process(::UnityEngine::Vector3 value, ::UnityEngine::InputSystem::InputControl control) ;
+ UnityEngine::Vector3 Process(UnityEngine::Vector3 value, UnityEngine::InputSystem::InputControl control) ;
 
 /// @brief Method ToString addr 0x29666b8 size 0x40 virtual true final false
  ::StringW ToString() ;
@@ -72,6 +71,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Processors
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Processors::CompensateDirectionProcessor);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Processors::CompensateDirectionProcessor, "UnityEngine.InputSystem.Processors", "CompensateDirectionProcessor");
+NEED_NO_BOX(UnityEngine::InputSystem::Processors::CompensateDirectionProcessor);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Processors::CompensateDirectionProcessor, "UnityEngine.InputSystem.Processors", "CompensateDirectionProcessor");

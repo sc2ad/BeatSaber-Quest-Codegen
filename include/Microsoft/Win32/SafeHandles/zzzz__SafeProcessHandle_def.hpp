@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeHandleZeroOrMinusOneIsInvalid_def.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Microsoft::Win32::SafeHandles {
 class SafeProcessHandle;
@@ -13,7 +12,7 @@ namespace Microsoft::Win32::SafeHandles {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2301))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7711))
 // CS Name: Microsoft.Win32.SafeHandles.SafeProcessHandle
-class CORDL_TYPE SafeProcessHandle : public ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid {
+class CORDL_TYPE SafeProcessHandle : public Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr SafeProcessHandle(SafeProcessHandle const& ) noexcept = default;
 constexpr SafeProcessHandle(SafeProcessHandle&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SafeProcessHandle(void* ptr) noexcept : ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid(ptr) {
+constexpr explicit SafeProcessHandle(void* ptr) noexcept : Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid(ptr) {
 }
 
 
@@ -49,11 +48,11 @@ constexpr explicit SafeProcessHandle(void* ptr) noexcept : ::Microsoft::Win32::S
 
 // Fields
 
-static ::Microsoft::Win32::SafeHandles::SafeProcessHandle __declspec(property(get=__get_InvalidHandle, put=__set_InvalidHandle))  InvalidHandle;
+static Microsoft::Win32::SafeHandles::SafeProcessHandle __declspec(property(get=__get_InvalidHandle, put=__set_InvalidHandle))  InvalidHandle;
 
-static void __set_InvalidHandle(::Microsoft::Win32::SafeHandles::SafeProcessHandle value) ;
+static void __set_InvalidHandle(Microsoft::Win32::SafeHandles::SafeProcessHandle value) ;
 
-static ::Microsoft::Win32::SafeHandles::SafeProcessHandle __get_InvalidHandle() ;
+static Microsoft::Win32::SafeHandles::SafeProcessHandle __get_InvalidHandle() ;
 
 
 // Methods
@@ -77,6 +76,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Microsoft::Win32::SafeHandles
-} // end anonymous namespace
-NEED_NO_BOX(::Microsoft::Win32::SafeHandles::SafeProcessHandle);
-DEFINE_IL2CPP_ARG_TYPE(::Microsoft::Win32::SafeHandles::SafeProcessHandle, "Microsoft.Win32.SafeHandles", "SafeProcessHandle");
+NEED_NO_BOX(Microsoft::Win32::SafeHandles::SafeProcessHandle);
+DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::SafeHandles::SafeProcessHandle, "Microsoft.Win32.SafeHandles", "SafeProcessHandle");

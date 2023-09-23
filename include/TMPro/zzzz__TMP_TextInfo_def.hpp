@@ -4,18 +4,8 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace TMPro {
-struct TMP_LinkInfo;
-}
 namespace TMPro {
 struct TMP_LineInfo;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace TMPro {
-struct TMP_MeshInfo;
 }
 namespace TMPro {
 struct MaterialReference;
@@ -24,13 +14,22 @@ namespace TMPro {
 struct TMP_CharacterInfo;
 }
 namespace TMPro {
+struct TMP_PageInfo;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace TMPro {
+struct TMP_MeshInfo;
+}
+namespace TMPro {
 struct TMP_WordInfo;
 }
 namespace TMPro {
-class TMP_Text;
+struct TMP_LinkInfo;
 }
 namespace TMPro {
-struct TMP_PageInfo;
+class TMP_Text;
 }
 // Forward declare root types
 namespace TMPro {
@@ -78,23 +77,23 @@ constexpr explicit TMP_TextInfo(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 
 // Fields
 
-static ::UnityEngine::Vector2 __declspec(property(get=__get_k_InfinityVectorPositive, put=__set_k_InfinityVectorPositive))  k_InfinityVectorPositive;
+static UnityEngine::Vector2 __declspec(property(get=__get_k_InfinityVectorPositive, put=__set_k_InfinityVectorPositive))  k_InfinityVectorPositive;
 
-static void __set_k_InfinityVectorPositive(::UnityEngine::Vector2 value) ;
+static void __set_k_InfinityVectorPositive(UnityEngine::Vector2 value) ;
 
-static ::UnityEngine::Vector2 __get_k_InfinityVectorPositive() ;
+static UnityEngine::Vector2 __get_k_InfinityVectorPositive() ;
 
-static ::UnityEngine::Vector2 __declspec(property(get=__get_k_InfinityVectorNegative, put=__set_k_InfinityVectorNegative))  k_InfinityVectorNegative;
+static UnityEngine::Vector2 __declspec(property(get=__get_k_InfinityVectorNegative, put=__set_k_InfinityVectorNegative))  k_InfinityVectorNegative;
 
-static void __set_k_InfinityVectorNegative(::UnityEngine::Vector2 value) ;
+static void __set_k_InfinityVectorNegative(UnityEngine::Vector2 value) ;
 
-static ::UnityEngine::Vector2 __get_k_InfinityVectorNegative() ;
+static UnityEngine::Vector2 __get_k_InfinityVectorNegative() ;
 
- ::TMPro::TMP_Text __declspec(property(get=__get_textComponent, put=__set_textComponent))  textComponent;
+ TMPro::TMP_Text __declspec(property(get=__get_textComponent, put=__set_textComponent))  textComponent;
 
-constexpr void __set_textComponent(::TMPro::TMP_Text value) ;
+constexpr void __set_textComponent(TMPro::TMP_Text value) ;
 
-constexpr ::TMPro::TMP_Text __get_textComponent() const;
+constexpr TMPro::TMP_Text __get_textComponent() const;
 
  int32_t __declspec(property(get=__get_characterCount, put=__set_characterCount))  characterCount;
 
@@ -144,47 +143,47 @@ constexpr void __set_materialCount(int32_t value) ;
 
 constexpr int32_t __get_materialCount() const;
 
- ::ArrayW<::TMPro::TMP_CharacterInfo> __declspec(property(get=__get_characterInfo, put=__set_characterInfo))  characterInfo;
+ ::ArrayW<TMPro::TMP_CharacterInfo> __declspec(property(get=__get_characterInfo, put=__set_characterInfo))  characterInfo;
 
-constexpr void __set_characterInfo(::ArrayW<::TMPro::TMP_CharacterInfo> value) ;
+constexpr void __set_characterInfo(::ArrayW<TMPro::TMP_CharacterInfo> value) ;
 
-constexpr ::ArrayW<::TMPro::TMP_CharacterInfo> __get_characterInfo() const;
+constexpr ::ArrayW<TMPro::TMP_CharacterInfo> __get_characterInfo() const;
 
- ::ArrayW<::TMPro::TMP_WordInfo> __declspec(property(get=__get_wordInfo, put=__set_wordInfo))  wordInfo;
+ ::ArrayW<TMPro::TMP_WordInfo> __declspec(property(get=__get_wordInfo, put=__set_wordInfo))  wordInfo;
 
-constexpr void __set_wordInfo(::ArrayW<::TMPro::TMP_WordInfo> value) ;
+constexpr void __set_wordInfo(::ArrayW<TMPro::TMP_WordInfo> value) ;
 
-constexpr ::ArrayW<::TMPro::TMP_WordInfo> __get_wordInfo() const;
+constexpr ::ArrayW<TMPro::TMP_WordInfo> __get_wordInfo() const;
 
- ::ArrayW<::TMPro::TMP_LinkInfo> __declspec(property(get=__get_linkInfo, put=__set_linkInfo))  linkInfo;
+ ::ArrayW<TMPro::TMP_LinkInfo> __declspec(property(get=__get_linkInfo, put=__set_linkInfo))  linkInfo;
 
-constexpr void __set_linkInfo(::ArrayW<::TMPro::TMP_LinkInfo> value) ;
+constexpr void __set_linkInfo(::ArrayW<TMPro::TMP_LinkInfo> value) ;
 
-constexpr ::ArrayW<::TMPro::TMP_LinkInfo> __get_linkInfo() const;
+constexpr ::ArrayW<TMPro::TMP_LinkInfo> __get_linkInfo() const;
 
- ::ArrayW<::TMPro::TMP_LineInfo> __declspec(property(get=__get_lineInfo, put=__set_lineInfo))  lineInfo;
+ ::ArrayW<TMPro::TMP_LineInfo> __declspec(property(get=__get_lineInfo, put=__set_lineInfo))  lineInfo;
 
-constexpr void __set_lineInfo(::ArrayW<::TMPro::TMP_LineInfo> value) ;
+constexpr void __set_lineInfo(::ArrayW<TMPro::TMP_LineInfo> value) ;
 
-constexpr ::ArrayW<::TMPro::TMP_LineInfo> __get_lineInfo() const;
+constexpr ::ArrayW<TMPro::TMP_LineInfo> __get_lineInfo() const;
 
- ::ArrayW<::TMPro::TMP_PageInfo> __declspec(property(get=__get_pageInfo, put=__set_pageInfo))  pageInfo;
+ ::ArrayW<TMPro::TMP_PageInfo> __declspec(property(get=__get_pageInfo, put=__set_pageInfo))  pageInfo;
 
-constexpr void __set_pageInfo(::ArrayW<::TMPro::TMP_PageInfo> value) ;
+constexpr void __set_pageInfo(::ArrayW<TMPro::TMP_PageInfo> value) ;
 
-constexpr ::ArrayW<::TMPro::TMP_PageInfo> __get_pageInfo() const;
+constexpr ::ArrayW<TMPro::TMP_PageInfo> __get_pageInfo() const;
 
- ::ArrayW<::TMPro::TMP_MeshInfo> __declspec(property(get=__get_meshInfo, put=__set_meshInfo))  meshInfo;
+ ::ArrayW<TMPro::TMP_MeshInfo> __declspec(property(get=__get_meshInfo, put=__set_meshInfo))  meshInfo;
 
-constexpr void __set_meshInfo(::ArrayW<::TMPro::TMP_MeshInfo> value) ;
+constexpr void __set_meshInfo(::ArrayW<TMPro::TMP_MeshInfo> value) ;
 
-constexpr ::ArrayW<::TMPro::TMP_MeshInfo> __get_meshInfo() const;
+constexpr ::ArrayW<TMPro::TMP_MeshInfo> __get_meshInfo() const;
 
- ::ArrayW<::TMPro::TMP_MeshInfo> __declspec(property(get=__get_m_CachedMeshInfo, put=__set_m_CachedMeshInfo))  m_CachedMeshInfo;
+ ::ArrayW<TMPro::TMP_MeshInfo> __declspec(property(get=__get_m_CachedMeshInfo, put=__set_m_CachedMeshInfo))  m_CachedMeshInfo;
 
-constexpr void __set_m_CachedMeshInfo(::ArrayW<::TMPro::TMP_MeshInfo> value) ;
+constexpr void __set_m_CachedMeshInfo(::ArrayW<TMPro::TMP_MeshInfo> value) ;
 
-constexpr ::ArrayW<::TMPro::TMP_MeshInfo> __get_m_CachedMeshInfo() const;
+constexpr ::ArrayW<TMPro::TMP_MeshInfo> __get_m_CachedMeshInfo() const;
 
 
 // Methods
@@ -201,11 +200,11 @@ explicit TMP_TextInfo(int32_t characterCount) ;
 /// @brief Method .ctor addr 0x2ab05f4 size 0x12c virtual false final false
  void _ctor(int32_t characterCount) ;
 
-// Ctor Parameters [CppParam { name: "textComponent", ty: "::TMPro::TMP_Text", modifiers: "", def_value: None }]
-explicit TMP_TextInfo(::TMPro::TMP_Text textComponent) ;
+// Ctor Parameters [CppParam { name: "textComponent", ty: "TMPro::TMP_Text", modifiers: "", def_value: None }]
+explicit TMP_TextInfo(TMPro::TMP_Text textComponent) ;
 
 /// @brief Method .ctor addr 0x2ab0720 size 0x16c virtual false final false
- void _ctor(::TMPro::TMP_Text textComponent) ;
+ void _ctor(TMPro::TMP_Text textComponent) ;
 
 /// @brief Method Clear addr 0x2ab088c size 0x5c virtual false final false
  void Clear() ;
@@ -223,7 +222,7 @@ explicit TMP_TextInfo(::TMPro::TMP_Text textComponent) ;
  void ResetVertexLayout(bool isVolumetric) ;
 
 /// @brief Method ClearUnusedVertices addr 0x2ab0b5c size 0x64 virtual false final false
- void ClearUnusedVertices(::ArrayW<::TMPro::MaterialReference> materials) ;
+ void ClearUnusedVertices(::ArrayW<TMPro::MaterialReference> materials) ;
 
 /// @brief Method ClearLineInfo addr 0x2ab0bc0 size 0x180 virtual false final false
  void ClearLineInfo() ;
@@ -232,7 +231,7 @@ explicit TMP_TextInfo(::TMPro::TMP_Text textComponent) ;
  void ClearPageInfo() ;
 
 /// @brief Method CopyMeshInfoVertexData addr 0x2ab0dd8 size 0x3c8 virtual false final false
- ::ArrayW<::TMPro::TMP_MeshInfo> CopyMeshInfoVertexData() ;
+ ::ArrayW<TMPro::TMP_MeshInfo> CopyMeshInfoVertexData() ;
 
 /// @brief Method Resize addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
@@ -246,6 +245,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-NEED_NO_BOX(::TMPro::TMP_TextInfo);
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_TextInfo, "TMPro", "TMP_TextInfo");
+NEED_NO_BOX(TMPro::TMP_TextInfo);
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextInfo, "TMPro", "TMP_TextInfo");

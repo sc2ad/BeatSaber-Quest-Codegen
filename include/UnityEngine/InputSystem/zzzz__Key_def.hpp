@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem {
 struct Key;
@@ -184,365 +183,364 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::InputSystem::Key const None;
+static UnityEngine::InputSystem::Key const None;
 
 /// @brief Field Space offset 0
-static ::UnityEngine::InputSystem::Key const Space;
+static UnityEngine::InputSystem::Key const Space;
 
 /// @brief Field Enter offset 0
-static ::UnityEngine::InputSystem::Key const Enter;
+static UnityEngine::InputSystem::Key const Enter;
 
 /// @brief Field Tab offset 0
-static ::UnityEngine::InputSystem::Key const Tab;
+static UnityEngine::InputSystem::Key const Tab;
 
 /// @brief Field Backquote offset 0
-static ::UnityEngine::InputSystem::Key const Backquote;
+static UnityEngine::InputSystem::Key const Backquote;
 
 /// @brief Field Quote offset 0
-static ::UnityEngine::InputSystem::Key const Quote;
+static UnityEngine::InputSystem::Key const Quote;
 
 /// @brief Field Semicolon offset 0
-static ::UnityEngine::InputSystem::Key const Semicolon;
+static UnityEngine::InputSystem::Key const Semicolon;
 
 /// @brief Field Comma offset 0
-static ::UnityEngine::InputSystem::Key const Comma;
+static UnityEngine::InputSystem::Key const Comma;
 
 /// @brief Field Period offset 0
-static ::UnityEngine::InputSystem::Key const Period;
+static UnityEngine::InputSystem::Key const Period;
 
 /// @brief Field Slash offset 0
-static ::UnityEngine::InputSystem::Key const Slash;
+static UnityEngine::InputSystem::Key const Slash;
 
 /// @brief Field Backslash offset 0
-static ::UnityEngine::InputSystem::Key const Backslash;
+static UnityEngine::InputSystem::Key const Backslash;
 
 /// @brief Field LeftBracket offset 0
-static ::UnityEngine::InputSystem::Key const LeftBracket;
+static UnityEngine::InputSystem::Key const LeftBracket;
 
 /// @brief Field RightBracket offset 0
-static ::UnityEngine::InputSystem::Key const RightBracket;
+static UnityEngine::InputSystem::Key const RightBracket;
 
 /// @brief Field Minus offset 0
-static ::UnityEngine::InputSystem::Key const Minus;
+static UnityEngine::InputSystem::Key const Minus;
 
 /// @brief Field Equals offset 0
-static ::UnityEngine::InputSystem::Key const Equals;
+static UnityEngine::InputSystem::Key const Equals;
 
 /// @brief Field A offset 0
-static ::UnityEngine::InputSystem::Key const A;
+static UnityEngine::InputSystem::Key const A;
 
 /// @brief Field B offset 0
-static ::UnityEngine::InputSystem::Key const B;
+static UnityEngine::InputSystem::Key const B;
 
 /// @brief Field C offset 0
-static ::UnityEngine::InputSystem::Key const C;
+static UnityEngine::InputSystem::Key const C;
 
 /// @brief Field D offset 0
-static ::UnityEngine::InputSystem::Key const D;
+static UnityEngine::InputSystem::Key const D;
 
 /// @brief Field E offset 0
-static ::UnityEngine::InputSystem::Key const E;
+static UnityEngine::InputSystem::Key const E;
 
 /// @brief Field F offset 0
-static ::UnityEngine::InputSystem::Key const F;
+static UnityEngine::InputSystem::Key const F;
 
 /// @brief Field G offset 0
-static ::UnityEngine::InputSystem::Key const G;
+static UnityEngine::InputSystem::Key const G;
 
 /// @brief Field H offset 0
-static ::UnityEngine::InputSystem::Key const H;
+static UnityEngine::InputSystem::Key const H;
 
 /// @brief Field I offset 0
-static ::UnityEngine::InputSystem::Key const I;
+static UnityEngine::InputSystem::Key const I;
 
 /// @brief Field J offset 0
-static ::UnityEngine::InputSystem::Key const J;
+static UnityEngine::InputSystem::Key const J;
 
 /// @brief Field K offset 0
-static ::UnityEngine::InputSystem::Key const K;
+static UnityEngine::InputSystem::Key const K;
 
 /// @brief Field L offset 0
-static ::UnityEngine::InputSystem::Key const L;
+static UnityEngine::InputSystem::Key const L;
 
 /// @brief Field M offset 0
-static ::UnityEngine::InputSystem::Key const M;
+static UnityEngine::InputSystem::Key const M;
 
 /// @brief Field N offset 0
-static ::UnityEngine::InputSystem::Key const N;
+static UnityEngine::InputSystem::Key const N;
 
 /// @brief Field O offset 0
-static ::UnityEngine::InputSystem::Key const O;
+static UnityEngine::InputSystem::Key const O;
 
 /// @brief Field P offset 0
-static ::UnityEngine::InputSystem::Key const P;
+static UnityEngine::InputSystem::Key const P;
 
 /// @brief Field Q offset 0
-static ::UnityEngine::InputSystem::Key const Q;
+static UnityEngine::InputSystem::Key const Q;
 
 /// @brief Field R offset 0
-static ::UnityEngine::InputSystem::Key const R;
+static UnityEngine::InputSystem::Key const R;
 
 /// @brief Field S offset 0
-static ::UnityEngine::InputSystem::Key const S;
+static UnityEngine::InputSystem::Key const S;
 
 /// @brief Field T offset 0
-static ::UnityEngine::InputSystem::Key const T;
+static UnityEngine::InputSystem::Key const T;
 
 /// @brief Field U offset 0
-static ::UnityEngine::InputSystem::Key const U;
+static UnityEngine::InputSystem::Key const U;
 
 /// @brief Field V offset 0
-static ::UnityEngine::InputSystem::Key const V;
+static UnityEngine::InputSystem::Key const V;
 
 /// @brief Field W offset 0
-static ::UnityEngine::InputSystem::Key const W;
+static UnityEngine::InputSystem::Key const W;
 
 /// @brief Field X offset 0
-static ::UnityEngine::InputSystem::Key const X;
+static UnityEngine::InputSystem::Key const X;
 
 /// @brief Field Y offset 0
-static ::UnityEngine::InputSystem::Key const Y;
+static UnityEngine::InputSystem::Key const Y;
 
 /// @brief Field Z offset 0
-static ::UnityEngine::InputSystem::Key const Z;
+static UnityEngine::InputSystem::Key const Z;
 
 /// @brief Field Digit1 offset 0
-static ::UnityEngine::InputSystem::Key const Digit1;
+static UnityEngine::InputSystem::Key const Digit1;
 
 /// @brief Field Digit2 offset 0
-static ::UnityEngine::InputSystem::Key const Digit2;
+static UnityEngine::InputSystem::Key const Digit2;
 
 /// @brief Field Digit3 offset 0
-static ::UnityEngine::InputSystem::Key const Digit3;
+static UnityEngine::InputSystem::Key const Digit3;
 
 /// @brief Field Digit4 offset 0
-static ::UnityEngine::InputSystem::Key const Digit4;
+static UnityEngine::InputSystem::Key const Digit4;
 
 /// @brief Field Digit5 offset 0
-static ::UnityEngine::InputSystem::Key const Digit5;
+static UnityEngine::InputSystem::Key const Digit5;
 
 /// @brief Field Digit6 offset 0
-static ::UnityEngine::InputSystem::Key const Digit6;
+static UnityEngine::InputSystem::Key const Digit6;
 
 /// @brief Field Digit7 offset 0
-static ::UnityEngine::InputSystem::Key const Digit7;
+static UnityEngine::InputSystem::Key const Digit7;
 
 /// @brief Field Digit8 offset 0
-static ::UnityEngine::InputSystem::Key const Digit8;
+static UnityEngine::InputSystem::Key const Digit8;
 
 /// @brief Field Digit9 offset 0
-static ::UnityEngine::InputSystem::Key const Digit9;
+static UnityEngine::InputSystem::Key const Digit9;
 
 /// @brief Field Digit0 offset 0
-static ::UnityEngine::InputSystem::Key const Digit0;
+static UnityEngine::InputSystem::Key const Digit0;
 
 /// @brief Field LeftShift offset 0
-static ::UnityEngine::InputSystem::Key const LeftShift;
+static UnityEngine::InputSystem::Key const LeftShift;
 
 /// @brief Field RightShift offset 0
-static ::UnityEngine::InputSystem::Key const RightShift;
+static UnityEngine::InputSystem::Key const RightShift;
 
 /// @brief Field LeftAlt offset 0
-static ::UnityEngine::InputSystem::Key const LeftAlt;
+static UnityEngine::InputSystem::Key const LeftAlt;
 
 /// @brief Field RightAlt offset 0
-static ::UnityEngine::InputSystem::Key const RightAlt;
+static UnityEngine::InputSystem::Key const RightAlt;
 
 /// @brief Field AltGr offset 0
-static ::UnityEngine::InputSystem::Key const AltGr;
+static UnityEngine::InputSystem::Key const AltGr;
 
 /// @brief Field LeftCtrl offset 0
-static ::UnityEngine::InputSystem::Key const LeftCtrl;
+static UnityEngine::InputSystem::Key const LeftCtrl;
 
 /// @brief Field RightCtrl offset 0
-static ::UnityEngine::InputSystem::Key const RightCtrl;
+static UnityEngine::InputSystem::Key const RightCtrl;
 
 /// @brief Field LeftMeta offset 0
-static ::UnityEngine::InputSystem::Key const LeftMeta;
+static UnityEngine::InputSystem::Key const LeftMeta;
 
 /// @brief Field RightMeta offset 0
-static ::UnityEngine::InputSystem::Key const RightMeta;
+static UnityEngine::InputSystem::Key const RightMeta;
 
 /// @brief Field LeftWindows offset 0
-static ::UnityEngine::InputSystem::Key const LeftWindows;
+static UnityEngine::InputSystem::Key const LeftWindows;
 
 /// @brief Field RightWindows offset 0
-static ::UnityEngine::InputSystem::Key const RightWindows;
+static UnityEngine::InputSystem::Key const RightWindows;
 
 /// @brief Field LeftApple offset 0
-static ::UnityEngine::InputSystem::Key const LeftApple;
+static UnityEngine::InputSystem::Key const LeftApple;
 
 /// @brief Field RightApple offset 0
-static ::UnityEngine::InputSystem::Key const RightApple;
+static UnityEngine::InputSystem::Key const RightApple;
 
 /// @brief Field LeftCommand offset 0
-static ::UnityEngine::InputSystem::Key const LeftCommand;
+static UnityEngine::InputSystem::Key const LeftCommand;
 
 /// @brief Field RightCommand offset 0
-static ::UnityEngine::InputSystem::Key const RightCommand;
+static UnityEngine::InputSystem::Key const RightCommand;
 
 /// @brief Field ContextMenu offset 0
-static ::UnityEngine::InputSystem::Key const ContextMenu;
+static UnityEngine::InputSystem::Key const ContextMenu;
 
 /// @brief Field Escape offset 0
-static ::UnityEngine::InputSystem::Key const Escape;
+static UnityEngine::InputSystem::Key const Escape;
 
 /// @brief Field LeftArrow offset 0
-static ::UnityEngine::InputSystem::Key const LeftArrow;
+static UnityEngine::InputSystem::Key const LeftArrow;
 
 /// @brief Field RightArrow offset 0
-static ::UnityEngine::InputSystem::Key const RightArrow;
+static UnityEngine::InputSystem::Key const RightArrow;
 
 /// @brief Field UpArrow offset 0
-static ::UnityEngine::InputSystem::Key const UpArrow;
+static UnityEngine::InputSystem::Key const UpArrow;
 
 /// @brief Field DownArrow offset 0
-static ::UnityEngine::InputSystem::Key const DownArrow;
+static UnityEngine::InputSystem::Key const DownArrow;
 
 /// @brief Field Backspace offset 0
-static ::UnityEngine::InputSystem::Key const Backspace;
+static UnityEngine::InputSystem::Key const Backspace;
 
 /// @brief Field PageDown offset 0
-static ::UnityEngine::InputSystem::Key const PageDown;
+static UnityEngine::InputSystem::Key const PageDown;
 
 /// @brief Field PageUp offset 0
-static ::UnityEngine::InputSystem::Key const PageUp;
+static UnityEngine::InputSystem::Key const PageUp;
 
 /// @brief Field Home offset 0
-static ::UnityEngine::InputSystem::Key const Home;
+static UnityEngine::InputSystem::Key const Home;
 
 /// @brief Field End offset 0
-static ::UnityEngine::InputSystem::Key const End;
+static UnityEngine::InputSystem::Key const End;
 
 /// @brief Field Insert offset 0
-static ::UnityEngine::InputSystem::Key const Insert;
+static UnityEngine::InputSystem::Key const Insert;
 
 /// @brief Field Delete offset 0
-static ::UnityEngine::InputSystem::Key const Delete;
+static UnityEngine::InputSystem::Key const Delete;
 
 /// @brief Field CapsLock offset 0
-static ::UnityEngine::InputSystem::Key const CapsLock;
+static UnityEngine::InputSystem::Key const CapsLock;
 
 /// @brief Field NumLock offset 0
-static ::UnityEngine::InputSystem::Key const NumLock;
+static UnityEngine::InputSystem::Key const NumLock;
 
 /// @brief Field PrintScreen offset 0
-static ::UnityEngine::InputSystem::Key const PrintScreen;
+static UnityEngine::InputSystem::Key const PrintScreen;
 
 /// @brief Field ScrollLock offset 0
-static ::UnityEngine::InputSystem::Key const ScrollLock;
+static UnityEngine::InputSystem::Key const ScrollLock;
 
 /// @brief Field Pause offset 0
-static ::UnityEngine::InputSystem::Key const Pause;
+static UnityEngine::InputSystem::Key const Pause;
 
 /// @brief Field NumpadEnter offset 0
-static ::UnityEngine::InputSystem::Key const NumpadEnter;
+static UnityEngine::InputSystem::Key const NumpadEnter;
 
 /// @brief Field NumpadDivide offset 0
-static ::UnityEngine::InputSystem::Key const NumpadDivide;
+static UnityEngine::InputSystem::Key const NumpadDivide;
 
 /// @brief Field NumpadMultiply offset 0
-static ::UnityEngine::InputSystem::Key const NumpadMultiply;
+static UnityEngine::InputSystem::Key const NumpadMultiply;
 
 /// @brief Field NumpadPlus offset 0
-static ::UnityEngine::InputSystem::Key const NumpadPlus;
+static UnityEngine::InputSystem::Key const NumpadPlus;
 
 /// @brief Field NumpadMinus offset 0
-static ::UnityEngine::InputSystem::Key const NumpadMinus;
+static UnityEngine::InputSystem::Key const NumpadMinus;
 
 /// @brief Field NumpadPeriod offset 0
-static ::UnityEngine::InputSystem::Key const NumpadPeriod;
+static UnityEngine::InputSystem::Key const NumpadPeriod;
 
 /// @brief Field NumpadEquals offset 0
-static ::UnityEngine::InputSystem::Key const NumpadEquals;
+static UnityEngine::InputSystem::Key const NumpadEquals;
 
 /// @brief Field Numpad0 offset 0
-static ::UnityEngine::InputSystem::Key const Numpad0;
+static UnityEngine::InputSystem::Key const Numpad0;
 
 /// @brief Field Numpad1 offset 0
-static ::UnityEngine::InputSystem::Key const Numpad1;
+static UnityEngine::InputSystem::Key const Numpad1;
 
 /// @brief Field Numpad2 offset 0
-static ::UnityEngine::InputSystem::Key const Numpad2;
+static UnityEngine::InputSystem::Key const Numpad2;
 
 /// @brief Field Numpad3 offset 0
-static ::UnityEngine::InputSystem::Key const Numpad3;
+static UnityEngine::InputSystem::Key const Numpad3;
 
 /// @brief Field Numpad4 offset 0
-static ::UnityEngine::InputSystem::Key const Numpad4;
+static UnityEngine::InputSystem::Key const Numpad4;
 
 /// @brief Field Numpad5 offset 0
-static ::UnityEngine::InputSystem::Key const Numpad5;
+static UnityEngine::InputSystem::Key const Numpad5;
 
 /// @brief Field Numpad6 offset 0
-static ::UnityEngine::InputSystem::Key const Numpad6;
+static UnityEngine::InputSystem::Key const Numpad6;
 
 /// @brief Field Numpad7 offset 0
-static ::UnityEngine::InputSystem::Key const Numpad7;
+static UnityEngine::InputSystem::Key const Numpad7;
 
 /// @brief Field Numpad8 offset 0
-static ::UnityEngine::InputSystem::Key const Numpad8;
+static UnityEngine::InputSystem::Key const Numpad8;
 
 /// @brief Field Numpad9 offset 0
-static ::UnityEngine::InputSystem::Key const Numpad9;
+static UnityEngine::InputSystem::Key const Numpad9;
 
 /// @brief Field F1 offset 0
-static ::UnityEngine::InputSystem::Key const F1;
+static UnityEngine::InputSystem::Key const F1;
 
 /// @brief Field F2 offset 0
-static ::UnityEngine::InputSystem::Key const F2;
+static UnityEngine::InputSystem::Key const F2;
 
 /// @brief Field F3 offset 0
-static ::UnityEngine::InputSystem::Key const F3;
+static UnityEngine::InputSystem::Key const F3;
 
 /// @brief Field F4 offset 0
-static ::UnityEngine::InputSystem::Key const F4;
+static UnityEngine::InputSystem::Key const F4;
 
 /// @brief Field F5 offset 0
-static ::UnityEngine::InputSystem::Key const F5;
+static UnityEngine::InputSystem::Key const F5;
 
 /// @brief Field F6 offset 0
-static ::UnityEngine::InputSystem::Key const F6;
+static UnityEngine::InputSystem::Key const F6;
 
 /// @brief Field F7 offset 0
-static ::UnityEngine::InputSystem::Key const F7;
+static UnityEngine::InputSystem::Key const F7;
 
 /// @brief Field F8 offset 0
-static ::UnityEngine::InputSystem::Key const F8;
+static UnityEngine::InputSystem::Key const F8;
 
 /// @brief Field F9 offset 0
-static ::UnityEngine::InputSystem::Key const F9;
+static UnityEngine::InputSystem::Key const F9;
 
 /// @brief Field F10 offset 0
-static ::UnityEngine::InputSystem::Key const F10;
+static UnityEngine::InputSystem::Key const F10;
 
 /// @brief Field F11 offset 0
-static ::UnityEngine::InputSystem::Key const F11;
+static UnityEngine::InputSystem::Key const F11;
 
 /// @brief Field F12 offset 0
-static ::UnityEngine::InputSystem::Key const F12;
+static UnityEngine::InputSystem::Key const F12;
 
 /// @brief Field OEM1 offset 0
-static ::UnityEngine::InputSystem::Key const OEM1;
+static UnityEngine::InputSystem::Key const OEM1;
 
 /// @brief Field OEM2 offset 0
-static ::UnityEngine::InputSystem::Key const OEM2;
+static UnityEngine::InputSystem::Key const OEM2;
 
 /// @brief Field OEM3 offset 0
-static ::UnityEngine::InputSystem::Key const OEM3;
+static UnityEngine::InputSystem::Key const OEM3;
 
 /// @brief Field OEM4 offset 0
-static ::UnityEngine::InputSystem::Key const OEM4;
+static UnityEngine::InputSystem::Key const OEM4;
 
 /// @brief Field OEM5 offset 0
-static ::UnityEngine::InputSystem::Key const OEM5;
+static UnityEngine::InputSystem::Key const OEM5;
 
 /// @brief Field IMESelected offset 0
-static ::UnityEngine::InputSystem::Key const IMESelected;
+static UnityEngine::InputSystem::Key const IMESelected;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Key, "UnityEngine.InputSystem", "Key");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Key, "UnityEngine.InputSystem", "Key");

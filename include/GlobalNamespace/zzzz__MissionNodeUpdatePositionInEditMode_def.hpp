@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class MissionNodeConnection;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5639))
 // CS Name: MissionNodeUpdatePositionInEditMode
-class CORDL_TYPE MissionNodeUpdatePositionInEditMode : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MissionNodeUpdatePositionInEditMode : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr MissionNodeUpdatePositionInEditMode(MissionNodeUpdatePositionInEditMod
 constexpr MissionNodeUpdatePositionInEditMode(MissionNodeUpdatePositionInEditMode&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MissionNodeUpdatePositionInEditMode(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MissionNodeUpdatePositionInEditMode(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit MissionNodeUpdatePositionInEditMode(void* ptr) noexcept : ::U
 
 // Fields
 
- ::GlobalNamespace::MissionNodeConnection __declspec(property(get=__get__missionNodeConnection, put=__set__missionNodeConnection))  _missionNodeConnection;
+ GlobalNamespace::MissionNodeConnection __declspec(property(get=__get__missionNodeConnection, put=__set__missionNodeConnection))  _missionNodeConnection;
 
-constexpr void __set__missionNodeConnection(::GlobalNamespace::MissionNodeConnection value) ;
+constexpr void __set__missionNodeConnection(GlobalNamespace::MissionNodeConnection value) ;
 
-constexpr ::GlobalNamespace::MissionNodeConnection __get__missionNodeConnection() const;
+constexpr GlobalNamespace::MissionNodeConnection __get__missionNodeConnection() const;
 
 
 // Methods
@@ -70,6 +69,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MissionNodeUpdatePositionInEditMode);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionNodeUpdatePositionInEditMode, "", "MissionNodeUpdatePositionInEditMode");
+NEED_NO_BOX(GlobalNamespace::MissionNodeUpdatePositionInEditMode);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodeUpdatePositionInEditMode, "", "MissionNodeUpdatePositionInEditMode");

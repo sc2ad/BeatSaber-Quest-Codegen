@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__Behaviour_def.hpp"
 #include <cmath>
-namespace {
-namespace UnityEngine {
-class Camera;
-}
 namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine {
+class Camera;
 }
 namespace UnityEngine {
 class ICanvasRaycastFilter;
@@ -22,11 +21,11 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10129))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15764))
 // CS Name: UnityEngine.CanvasGroup
-class CORDL_TYPE CanvasGroup : public ::UnityEngine::Behaviour {
+class CORDL_TYPE CanvasGroup : public UnityEngine::Behaviour {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::ICanvasRaycastFilter
-constexpr operator  ::UnityEngine::ICanvasRaycastFilter() const noexcept;
+/// @brief Convert operator to UnityEngine::ICanvasRaycastFilter
+constexpr operator  UnityEngine::ICanvasRaycastFilter() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -40,7 +39,7 @@ constexpr CanvasGroup(CanvasGroup const& ) noexcept = default;
 constexpr CanvasGroup(CanvasGroup&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CanvasGroup(void* ptr) noexcept : ::UnityEngine::Behaviour(ptr) {
+constexpr explicit CanvasGroup(void* ptr) noexcept : UnityEngine::Behaviour(ptr) {
 }
 
 
@@ -97,12 +96,11 @@ constexpr explicit CanvasGroup(void* ptr) noexcept : ::UnityEngine::Behaviour(pt
  void set_ignoreParentGroups(bool value) ;
 
 /// @brief Method IsRaycastLocationValid addr 0x2d33408 size 0x3c virtual true final true
- bool IsRaycastLocationValid(::UnityEngine::Vector2 sp, ::UnityEngine::Camera eventCamera) ;
+ bool IsRaycastLocationValid(UnityEngine::Vector2 sp, UnityEngine::Camera eventCamera) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::CanvasGroup);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::CanvasGroup, "UnityEngine", "CanvasGroup");
+NEED_NO_BOX(UnityEngine::CanvasGroup);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CanvasGroup, "UnityEngine", "CanvasGroup");

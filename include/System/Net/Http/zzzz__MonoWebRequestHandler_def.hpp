@@ -4,71 +4,70 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System::Net::Http {
-class HttpMethod;
-}
-namespace System::Net {
-class HttpWebResponse;
-}
-namespace System::Net {
-class ICredentials;
-}
-namespace System {
-struct TimeSpan;
-}
-namespace System::Net::Http::Headers {
-class HttpRequestHeaders;
-}
-namespace System::Net::Security {
-struct AuthenticationLevel;
-}
-namespace System::Net {
-class IWebProxy;
+namespace System::Security::Principal {
+struct TokenImpersonationLevel;
 }
 namespace System::Net::Security {
 class SslClientAuthenticationOptions;
 }
-namespace System::Security::Principal {
-struct TokenImpersonationLevel;
-}
-namespace System::Net::Http {
-class IMonoHttpClientHandler;
-}
-namespace System::Net {
-class CookieContainer;
-}
 namespace System::Net::Security {
 class RemoteCertificateValidationCallback;
 }
-namespace System::Net::Http {
-class HttpRequestMessage;
+namespace System::Net {
+class IWebProxy;
+}
+namespace System::Net::Http::Headers {
+class HttpRequestHeaders;
+}
+namespace System::Net {
+class HttpWebRequest;
+}
+namespace System::Net {
+class HttpWebResponse;
+}
+namespace System::Net::Security {
+struct AuthenticationLevel;
 }
 namespace System::Net::Http {
 class HttpResponseMessage;
 }
-namespace System::Net {
-class HttpWebRequest;
+namespace System::Net::Http {
+class IMonoHttpClientHandler;
 }
 namespace System {
 template<typename T>
 struct Nullable_1;
 }
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System {
-class IDisposable;
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
 }
 namespace System::Net::Cache {
 class RequestCachePolicy;
 }
+namespace System {
+struct TimeSpan;
+}
+namespace System {
+class IDisposable;
+}
 namespace System::Net {
 struct DecompressionMethods;
 }
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
+namespace System::Net {
+class CookieContainer;
+}
+namespace System::Net::Http {
+class HttpRequestMessage;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Net {
+class ICredentials;
+}
+namespace System::Net::Http {
+class HttpMethod;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -78,45 +77,45 @@ namespace System {
 template<typename T>
 class Action_1;
 }
-namespace System::Threading {
-struct CancellationTokenRegistration;
-}
-namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct AsyncTaskMethodBuilder_1;
-}
 namespace System::Net {
 class WebResponse;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
-struct ____System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
+struct TaskAwaiter_1;
+}
+namespace System::Threading {
+struct CancellationTokenRegistration;
+}
+namespace System::Net::Http {
+class HttpContent;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+template<typename TResult>
+struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 namespace System::IO {
 class Stream;
 }
 namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct TaskAwaiter_1;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-struct ____System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
+struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
-namespace System::Net::Http {
-class HttpContent;
+namespace System::Runtime::CompilerServices {
+template<typename TResult>
+struct AsyncTaskMethodBuilder_1;
 }
 // Forward declare root types
 namespace System::Net::Http {
 class MonoWebRequestHandler;
 }
 namespace System::Net::Http {
-class ____System__Net__Http__MonoWebRequestHandler____c;
+class System__Net__Http__MonoWebRequestHandler____c;
 }
 namespace System::Net::Http {
-struct ____System__Net__Http__MonoWebRequestHandler___SendAsync_d__99;
+struct System__Net__Http__MonoWebRequestHandler___SendAsync_d__99;
 }
 // Type: ::<>c
 namespace System::Net::Http {
@@ -124,71 +123,71 @@ namespace System::Net::Http {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14796))
 // CS Name: System.Net.Http.MonoWebRequestHandler::<>c
-class CORDL_TYPE ____System__Net__Http__MonoWebRequestHandler____c : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Net__Http__MonoWebRequestHandler____c : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____System__Net__Http__MonoWebRequestHandler____c() = default;
+virtual ~System__Net__Http__MonoWebRequestHandler____c() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Net__Http__MonoWebRequestHandler____c", modifiers: " const&", def_value: None }]
-constexpr ____System__Net__Http__MonoWebRequestHandler____c(____System__Net__Http__MonoWebRequestHandler____c const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Net__Http__MonoWebRequestHandler____c", modifiers: " const&", def_value: None }]
+constexpr System__Net__Http__MonoWebRequestHandler____c(System__Net__Http__MonoWebRequestHandler____c const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Net__Http__MonoWebRequestHandler____c", modifiers: "&&", def_value: None }]
-constexpr ____System__Net__Http__MonoWebRequestHandler____c(____System__Net__Http__MonoWebRequestHandler____c&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Net__Http__MonoWebRequestHandler____c", modifiers: "&&", def_value: None }]
+constexpr System__Net__Http__MonoWebRequestHandler____c(System__Net__Http__MonoWebRequestHandler____c&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Net__Http__MonoWebRequestHandler____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Net__Http__MonoWebRequestHandler____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Net__Http__MonoWebRequestHandler____c& operator=(std::nullptr_t) noexcept {
+  constexpr System__Net__Http__MonoWebRequestHandler____c& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Net__Http__MonoWebRequestHandler____c& operator=(void* o) noexcept {
+  constexpr System__Net__Http__MonoWebRequestHandler____c& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Net__Http__MonoWebRequestHandler____c& operator=(____System__Net__Http__MonoWebRequestHandler____c&& o) noexcept = default;
-  constexpr ____System__Net__Http__MonoWebRequestHandler____c& operator=(____System__Net__Http__MonoWebRequestHandler____c const& o) noexcept = default;
+  constexpr System__Net__Http__MonoWebRequestHandler____c& operator=(System__Net__Http__MonoWebRequestHandler____c&& o) noexcept = default;
+  constexpr System__Net__Http__MonoWebRequestHandler____c& operator=(System__Net__Http__MonoWebRequestHandler____c const& o) noexcept = default;
                 
 
 
 // Fields
 
-static ::System::Net::Http::____System__Net__Http__MonoWebRequestHandler____c __declspec(property(get=__get___9, put=__set___9))  __9;
+static System::Net::Http::System__Net__Http__MonoWebRequestHandler____c __declspec(property(get=__get___9, put=__set___9))  __9;
 
-static void __set___9(::System::Net::Http::____System__Net__Http__MonoWebRequestHandler____c value) ;
+static void __set___9(System::Net::Http::System__Net__Http__MonoWebRequestHandler____c value) ;
 
-static ::System::Net::Http::____System__Net__Http__MonoWebRequestHandler____c __get___9() ;
+static System::Net::Http::System__Net__Http__MonoWebRequestHandler____c __get___9() ;
 
-static ::System::Func_2<::StringW,bool> __declspec(property(get=__get___9__95_0, put=__set___9__95_0))  __9__95_0;
+static System::Func_2<::StringW,bool> __declspec(property(get=__get___9__95_0, put=__set___9__95_0))  __9__95_0;
 
-static void __set___9__95_0(::System::Func_2<::StringW,bool> value) ;
+static void __set___9__95_0(System::Func_2<::StringW,bool> value) ;
 
-static ::System::Func_2<::StringW,bool> __get___9__95_0() ;
+static System::Func_2<::StringW,bool> __get___9__95_0() ;
 
-static ::System::Func_2<::StringW,bool> __declspec(property(get=__get___9__96_0, put=__set___9__96_0))  __9__96_0;
+static System::Func_2<::StringW,bool> __declspec(property(get=__get___9__96_0, put=__set___9__96_0))  __9__96_0;
 
-static void __set___9__96_0(::System::Func_2<::StringW,bool> value) ;
+static void __set___9__96_0(System::Func_2<::StringW,bool> value) ;
 
-static ::System::Func_2<::StringW,bool> __get___9__96_0() ;
+static System::Func_2<::StringW,bool> __get___9__96_0() ;
 
-static ::System::Action_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get___9__99_0, put=__set___9__99_0))  __9__99_0;
+static System::Action_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get___9__99_0, put=__set___9__99_0))  __9__99_0;
 
-static void __set___9__99_0(::System::Action_1<::bs_hook::Il2CppWrapperType> value) ;
+static void __set___9__99_0(System::Action_1<::bs_hook::Il2CppWrapperType> value) ;
 
-static ::System::Action_1<::bs_hook::Il2CppWrapperType> __get___9__99_0() ;
+static System::Action_1<::bs_hook::Il2CppWrapperType> __get___9__99_0() ;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____System__Net__Http__MonoWebRequestHandler____c() ;
+explicit System__Net__Http__MonoWebRequestHandler____c() ;
 
 /// @brief Method .ctor addr 0x269cfb8 size 0x8 virtual false final false
  void _ctor() ;
@@ -212,23 +211,23 @@ namespace System::Net::Http {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14797))
 // CS Name: System.Net.Http.MonoWebRequestHandler::<SendAsync>d__99
-struct CORDL_TYPE ____System__Net__Http__MonoWebRequestHandler___SendAsync_d__99 : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE System__Net__Http__MonoWebRequestHandler___SendAsync_d__99 : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::CompilerServices::IAsyncStateMachine
-constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine() const;
+/// @brief Convert operator to System::Runtime::CompilerServices::IAsyncStateMachine
+constexpr operator  System::Runtime::CompilerServices::IAsyncStateMachine() const;
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::Http::HttpResponseMessage>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::Http::MonoWebRequestHandler", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "request", ty: "::System::Net::Http::HttpRequestMessage", modifiers: "", def_value: None }, CppParam { name: "_wrequest_5__2", ty: "::System::Net::HttpWebRequest", modifiers: "", def_value: None }, CppParam { name: "_wresponse_5__3", ty: "::System::Net::HttpWebResponse", modifiers: "", def_value: None }, CppParam { name: "__7__wrap3", ty: "::System::Threading::CancellationTokenRegistration", modifiers: "", def_value: None }, CppParam { name: "_content_5__5", ty: "::System::Net::Http::HttpContent", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "_stream_5__6", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::IO::Stream>", modifiers: "", def_value: None }, CppParam { name: "__u__3", ty: "::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Net::WebResponse>", modifiers: "", def_value: None }, CppParam { name: "__u__4", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage>", modifiers: "", def_value: None }]
-constexpr ____System__Net__Http__MonoWebRequestHandler___SendAsync_d__99(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::Http::HttpResponseMessage> __t__builder, ::System::Net::Http::MonoWebRequestHandler __4__this, ::System::Threading::CancellationToken cancellationToken, ::System::Net::Http::HttpRequestMessage request, ::System::Net::HttpWebRequest _wrequest_5__2, ::System::Net::HttpWebResponse _wresponse_5__3, ::System::Threading::CancellationTokenRegistration __7__wrap3, ::System::Net::Http::HttpContent _content_5__5, ::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1, ::System::IO::Stream _stream_5__6, ::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::IO::Stream> __u__2, ::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Net::WebResponse> __u__3, ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage> __u__4) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Net::Http::HttpResponseMessage>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "System::Net::Http::MonoWebRequestHandler", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "request", ty: "System::Net::Http::HttpRequestMessage", modifiers: "", def_value: None }, CppParam { name: "_wrequest_5__2", ty: "System::Net::HttpWebRequest", modifiers: "", def_value: None }, CppParam { name: "_wresponse_5__3", ty: "System::Net::HttpWebResponse", modifiers: "", def_value: None }, CppParam { name: "__7__wrap3", ty: "System::Threading::CancellationTokenRegistration", modifiers: "", def_value: None }, CppParam { name: "_content_5__5", ty: "System::Net::Http::HttpContent", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "_stream_5__6", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty: "System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<System::IO::Stream>", modifiers: "", def_value: None }, CppParam { name: "__u__3", ty: "System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<System::Net::WebResponse>", modifiers: "", def_value: None }, CppParam { name: "__u__4", ty: "System::Runtime::CompilerServices::TaskAwaiter_1<System::Net::Http::HttpResponseMessage>", modifiers: "", def_value: None }]
+constexpr System__Net__Http__MonoWebRequestHandler___SendAsync_d__99(int32_t __1__state, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Net::Http::HttpResponseMessage> __t__builder, System::Net::Http::MonoWebRequestHandler __4__this, System::Threading::CancellationToken cancellationToken, System::Net::Http::HttpRequestMessage request, System::Net::HttpWebRequest _wrequest_5__2, System::Net::HttpWebResponse _wresponse_5__3, System::Threading::CancellationTokenRegistration __7__wrap3, System::Net::Http::HttpContent _content_5__5, System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1, System::IO::Stream _stream_5__6, System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<System::IO::Stream> __u__2, System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<System::Net::WebResponse> __u__3, System::Runtime::CompilerServices::TaskAwaiter_1<System::Net::Http::HttpResponseMessage> __u__4) noexcept;
 
 
-                    constexpr ____System__Net__Http__MonoWebRequestHandler___SendAsync_d__99(____System__Net__Http__MonoWebRequestHandler___SendAsync_d__99 const&) = default;
-                    constexpr ____System__Net__Http__MonoWebRequestHandler___SendAsync_d__99(____System__Net__Http__MonoWebRequestHandler___SendAsync_d__99&&) = default;
-                    constexpr ____System__Net__Http__MonoWebRequestHandler___SendAsync_d__99& operator=(____System__Net__Http__MonoWebRequestHandler___SendAsync_d__99 const& o) {
+                    constexpr System__Net__Http__MonoWebRequestHandler___SendAsync_d__99(System__Net__Http__MonoWebRequestHandler___SendAsync_d__99 const&) = default;
+                    constexpr System__Net__Http__MonoWebRequestHandler___SendAsync_d__99(System__Net__Http__MonoWebRequestHandler___SendAsync_d__99&&) = default;
+                    constexpr System__Net__Http__MonoWebRequestHandler___SendAsync_d__99& operator=(System__Net__Http__MonoWebRequestHandler___SendAsync_d__99 const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Net__Http__MonoWebRequestHandler___SendAsync_d__99& operator=(____System__Net__Http__MonoWebRequestHandler___SendAsync_d__99&& o) noexcept {
+                    constexpr System__Net__Http__MonoWebRequestHandler___SendAsync_d__99& operator=(System__Net__Http__MonoWebRequestHandler___SendAsync_d__99&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -241,7 +240,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0xa8};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Net__Http__MonoWebRequestHandler___SendAsync_d__99(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Net__Http__MonoWebRequestHandler___SendAsync_d__99(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -258,83 +257,83 @@ constexpr void __set___1__state(int32_t value) ;
 
 constexpr int32_t __get___1__state() const;
 
- ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::Http::HttpResponseMessage> __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
+ System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Net::Http::HttpResponseMessage> __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
 
-constexpr void __set___t__builder(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::Http::HttpResponseMessage> value) ;
+constexpr void __set___t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Net::Http::HttpResponseMessage> value) ;
 
-constexpr ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::Http::HttpResponseMessage> __get___t__builder() const;
+constexpr System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Net::Http::HttpResponseMessage> __get___t__builder() const;
 
- ::System::Net::Http::MonoWebRequestHandler __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ System::Net::Http::MonoWebRequestHandler __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::System::Net::Http::MonoWebRequestHandler value) ;
+constexpr void __set___4__this(System::Net::Http::MonoWebRequestHandler value) ;
 
-constexpr ::System::Net::Http::MonoWebRequestHandler __get___4__this() const;
+constexpr System::Net::Http::MonoWebRequestHandler __get___4__this() const;
 
- ::System::Threading::CancellationToken __declspec(property(get=__get_cancellationToken, put=__set_cancellationToken))  cancellationToken;
+ System::Threading::CancellationToken __declspec(property(get=__get_cancellationToken, put=__set_cancellationToken))  cancellationToken;
 
-constexpr void __set_cancellationToken(::System::Threading::CancellationToken value) ;
+constexpr void __set_cancellationToken(System::Threading::CancellationToken value) ;
 
-constexpr ::System::Threading::CancellationToken __get_cancellationToken() const;
+constexpr System::Threading::CancellationToken __get_cancellationToken() const;
 
- ::System::Net::Http::HttpRequestMessage __declspec(property(get=__get_request, put=__set_request))  request;
+ System::Net::Http::HttpRequestMessage __declspec(property(get=__get_request, put=__set_request))  request;
 
-constexpr void __set_request(::System::Net::Http::HttpRequestMessage value) ;
+constexpr void __set_request(System::Net::Http::HttpRequestMessage value) ;
 
-constexpr ::System::Net::Http::HttpRequestMessage __get_request() const;
+constexpr System::Net::Http::HttpRequestMessage __get_request() const;
 
- ::System::Net::HttpWebRequest __declspec(property(get=__get__wrequest_5__2, put=__set__wrequest_5__2))  _wrequest_5__2;
+ System::Net::HttpWebRequest __declspec(property(get=__get__wrequest_5__2, put=__set__wrequest_5__2))  _wrequest_5__2;
 
-constexpr void __set__wrequest_5__2(::System::Net::HttpWebRequest value) ;
+constexpr void __set__wrequest_5__2(System::Net::HttpWebRequest value) ;
 
-constexpr ::System::Net::HttpWebRequest __get__wrequest_5__2() const;
+constexpr System::Net::HttpWebRequest __get__wrequest_5__2() const;
 
- ::System::Net::HttpWebResponse __declspec(property(get=__get__wresponse_5__3, put=__set__wresponse_5__3))  _wresponse_5__3;
+ System::Net::HttpWebResponse __declspec(property(get=__get__wresponse_5__3, put=__set__wresponse_5__3))  _wresponse_5__3;
 
-constexpr void __set__wresponse_5__3(::System::Net::HttpWebResponse value) ;
+constexpr void __set__wresponse_5__3(System::Net::HttpWebResponse value) ;
 
-constexpr ::System::Net::HttpWebResponse __get__wresponse_5__3() const;
+constexpr System::Net::HttpWebResponse __get__wresponse_5__3() const;
 
- ::System::Threading::CancellationTokenRegistration __declspec(property(get=__get___7__wrap3, put=__set___7__wrap3))  __7__wrap3;
+ System::Threading::CancellationTokenRegistration __declspec(property(get=__get___7__wrap3, put=__set___7__wrap3))  __7__wrap3;
 
-constexpr void __set___7__wrap3(::System::Threading::CancellationTokenRegistration value) ;
+constexpr void __set___7__wrap3(System::Threading::CancellationTokenRegistration value) ;
 
-constexpr ::System::Threading::CancellationTokenRegistration __get___7__wrap3() const;
+constexpr System::Threading::CancellationTokenRegistration __get___7__wrap3() const;
 
- ::System::Net::Http::HttpContent __declspec(property(get=__get__content_5__5, put=__set__content_5__5))  _content_5__5;
+ System::Net::Http::HttpContent __declspec(property(get=__get__content_5__5, put=__set__content_5__5))  _content_5__5;
 
-constexpr void __set__content_5__5(::System::Net::Http::HttpContent value) ;
+constexpr void __set__content_5__5(System::Net::Http::HttpContent value) ;
 
-constexpr ::System::Net::Http::HttpContent __get__content_5__5() const;
+constexpr System::Net::Http::HttpContent __get__content_5__5() const;
 
- ::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
+ System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
 
-constexpr void __set___u__1(::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter value) ;
+constexpr void __set___u__1(System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter value) ;
 
-constexpr ::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __get___u__1() const;
+constexpr System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __get___u__1() const;
 
- ::System::IO::Stream __declspec(property(get=__get__stream_5__6, put=__set__stream_5__6))  _stream_5__6;
+ System::IO::Stream __declspec(property(get=__get__stream_5__6, put=__set__stream_5__6))  _stream_5__6;
 
-constexpr void __set__stream_5__6(::System::IO::Stream value) ;
+constexpr void __set__stream_5__6(System::IO::Stream value) ;
 
-constexpr ::System::IO::Stream __get__stream_5__6() const;
+constexpr System::IO::Stream __get__stream_5__6() const;
 
- ::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::IO::Stream> __declspec(property(get=__get___u__2, put=__set___u__2))  __u__2;
+ System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<System::IO::Stream> __declspec(property(get=__get___u__2, put=__set___u__2))  __u__2;
 
-constexpr void __set___u__2(::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::IO::Stream> value) ;
+constexpr void __set___u__2(System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<System::IO::Stream> value) ;
 
-constexpr ::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::IO::Stream> __get___u__2() const;
+constexpr System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<System::IO::Stream> __get___u__2() const;
 
- ::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Net::WebResponse> __declspec(property(get=__get___u__3, put=__set___u__3))  __u__3;
+ System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<System::Net::WebResponse> __declspec(property(get=__get___u__3, put=__set___u__3))  __u__3;
 
-constexpr void __set___u__3(::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Net::WebResponse> value) ;
+constexpr void __set___u__3(System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<System::Net::WebResponse> value) ;
 
-constexpr ::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Net::WebResponse> __get___u__3() const;
+constexpr System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<System::Net::WebResponse> __get___u__3() const;
 
- ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage> __declspec(property(get=__get___u__4, put=__set___u__4))  __u__4;
+ System::Runtime::CompilerServices::TaskAwaiter_1<System::Net::Http::HttpResponseMessage> __declspec(property(get=__get___u__4, put=__set___u__4))  __u__4;
 
-constexpr void __set___u__4(::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage> value) ;
+constexpr void __set___u__4(System::Runtime::CompilerServices::TaskAwaiter_1<System::Net::Http::HttpResponseMessage> value) ;
 
-constexpr ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage> __get___u__4() const;
+constexpr System::Runtime::CompilerServices::TaskAwaiter_1<System::Net::Http::HttpResponseMessage> __get___u__4() const;
 
 
 // Methods
@@ -343,7 +342,7 @@ constexpr ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http
  void MoveNext() ;
 
 /// @brief Method SetStateMachine addr 0x269ebe8 size 0x58 virtual true final true
- void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
+ void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -358,15 +357,15 @@ namespace System::Net::Http {
 class CORDL_TYPE MonoWebRequestHandler : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using _SendAsync_d__99 = ::System::Net::Http::____System__Net__Http__MonoWebRequestHandler___SendAsync_d__99;
+using _SendAsync_d__99 = System::Net::Http::System__Net__Http__MonoWebRequestHandler___SendAsync_d__99;
 
-using __c = ::System::Net::Http::____System__Net__Http__MonoWebRequestHandler____c;
+using __c = System::Net::Http::System__Net__Http__MonoWebRequestHandler____c;
 
-/// @brief Convert operator to ::System::Net::Http::IMonoHttpClientHandler
-constexpr operator  ::System::Net::Http::IMonoHttpClientHandler() const noexcept;
+/// @brief Convert operator to System::Net::Http::IMonoHttpClientHandler
+constexpr operator  System::Net::Http::IMonoHttpClientHandler() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xb8};
@@ -413,23 +412,23 @@ constexpr void __set_allowAutoRedirect(bool value) ;
 
 constexpr bool __get_allowAutoRedirect() const;
 
- ::System::Net::DecompressionMethods __declspec(property(get=__get_automaticDecompression, put=__set_automaticDecompression))  automaticDecompression;
+ System::Net::DecompressionMethods __declspec(property(get=__get_automaticDecompression, put=__set_automaticDecompression))  automaticDecompression;
 
-constexpr void __set_automaticDecompression(::System::Net::DecompressionMethods value) ;
+constexpr void __set_automaticDecompression(System::Net::DecompressionMethods value) ;
 
-constexpr ::System::Net::DecompressionMethods __get_automaticDecompression() const;
+constexpr System::Net::DecompressionMethods __get_automaticDecompression() const;
 
- ::System::Net::CookieContainer __declspec(property(get=__get_cookieContainer, put=__set_cookieContainer))  cookieContainer;
+ System::Net::CookieContainer __declspec(property(get=__get_cookieContainer, put=__set_cookieContainer))  cookieContainer;
 
-constexpr void __set_cookieContainer(::System::Net::CookieContainer value) ;
+constexpr void __set_cookieContainer(System::Net::CookieContainer value) ;
 
-constexpr ::System::Net::CookieContainer __get_cookieContainer() const;
+constexpr System::Net::CookieContainer __get_cookieContainer() const;
 
- ::System::Net::ICredentials __declspec(property(get=__get_credentials, put=__set_credentials))  credentials;
+ System::Net::ICredentials __declspec(property(get=__get_credentials, put=__set_credentials))  credentials;
 
-constexpr void __set_credentials(::System::Net::ICredentials value) ;
+constexpr void __set_credentials(System::Net::ICredentials value) ;
 
-constexpr ::System::Net::ICredentials __get_credentials() const;
+constexpr System::Net::ICredentials __get_credentials() const;
 
  int32_t __declspec(property(get=__get_maxAutomaticRedirections, put=__set_maxAutomaticRedirections))  maxAutomaticRedirections;
 
@@ -449,11 +448,11 @@ constexpr void __set_preAuthenticate(bool value) ;
 
 constexpr bool __get_preAuthenticate() const;
 
- ::System::Net::IWebProxy __declspec(property(get=__get_proxy, put=__set_proxy))  proxy;
+ System::Net::IWebProxy __declspec(property(get=__get_proxy, put=__set_proxy))  proxy;
 
-constexpr void __set_proxy(::System::Net::IWebProxy value) ;
+constexpr void __set_proxy(System::Net::IWebProxy value) ;
 
-constexpr ::System::Net::IWebProxy __get_proxy() const;
+constexpr System::Net::IWebProxy __get_proxy() const;
 
  bool __declspec(property(get=__get_useCookies, put=__set_useCookies))  useCookies;
 
@@ -467,11 +466,11 @@ constexpr void __set_useProxy(bool value) ;
 
 constexpr bool __get_useProxy() const;
 
- ::System::Net::Security::SslClientAuthenticationOptions __declspec(property(get=__get_sslOptions, put=__set_sslOptions))  sslOptions;
+ System::Net::Security::SslClientAuthenticationOptions __declspec(property(get=__get_sslOptions, put=__set_sslOptions))  sslOptions;
 
-constexpr void __set_sslOptions(::System::Net::Security::SslClientAuthenticationOptions value) ;
+constexpr void __set_sslOptions(System::Net::Security::SslClientAuthenticationOptions value) ;
 
-constexpr ::System::Net::Security::SslClientAuthenticationOptions __get_sslOptions() const;
+constexpr System::Net::Security::SslClientAuthenticationOptions __get_sslOptions() const;
 
  bool __declspec(property(get=__get_allowPipelining, put=__set_allowPipelining))  allowPipelining;
 
@@ -479,29 +478,29 @@ constexpr void __set_allowPipelining(bool value) ;
 
 constexpr bool __get_allowPipelining() const;
 
- ::System::Net::Cache::RequestCachePolicy __declspec(property(get=__get_cachePolicy, put=__set_cachePolicy))  cachePolicy;
+ System::Net::Cache::RequestCachePolicy __declspec(property(get=__get_cachePolicy, put=__set_cachePolicy))  cachePolicy;
 
-constexpr void __set_cachePolicy(::System::Net::Cache::RequestCachePolicy value) ;
+constexpr void __set_cachePolicy(System::Net::Cache::RequestCachePolicy value) ;
 
-constexpr ::System::Net::Cache::RequestCachePolicy __get_cachePolicy() const;
+constexpr System::Net::Cache::RequestCachePolicy __get_cachePolicy() const;
 
- ::System::Net::Security::AuthenticationLevel __declspec(property(get=__get_authenticationLevel, put=__set_authenticationLevel))  authenticationLevel;
+ System::Net::Security::AuthenticationLevel __declspec(property(get=__get_authenticationLevel, put=__set_authenticationLevel))  authenticationLevel;
 
-constexpr void __set_authenticationLevel(::System::Net::Security::AuthenticationLevel value) ;
+constexpr void __set_authenticationLevel(System::Net::Security::AuthenticationLevel value) ;
 
-constexpr ::System::Net::Security::AuthenticationLevel __get_authenticationLevel() const;
+constexpr System::Net::Security::AuthenticationLevel __get_authenticationLevel() const;
 
- ::System::TimeSpan __declspec(property(get=__get_continueTimeout, put=__set_continueTimeout))  continueTimeout;
+ System::TimeSpan __declspec(property(get=__get_continueTimeout, put=__set_continueTimeout))  continueTimeout;
 
-constexpr void __set_continueTimeout(::System::TimeSpan value) ;
+constexpr void __set_continueTimeout(System::TimeSpan value) ;
 
-constexpr ::System::TimeSpan __get_continueTimeout() const;
+constexpr System::TimeSpan __get_continueTimeout() const;
 
- ::System::Security::Principal::TokenImpersonationLevel __declspec(property(get=__get_impersonationLevel, put=__set_impersonationLevel))  impersonationLevel;
+ System::Security::Principal::TokenImpersonationLevel __declspec(property(get=__get_impersonationLevel, put=__set_impersonationLevel))  impersonationLevel;
 
-constexpr void __set_impersonationLevel(::System::Security::Principal::TokenImpersonationLevel value) ;
+constexpr void __set_impersonationLevel(System::Security::Principal::TokenImpersonationLevel value) ;
 
-constexpr ::System::Security::Principal::TokenImpersonationLevel __get_impersonationLevel() const;
+constexpr System::Security::Principal::TokenImpersonationLevel __get_impersonationLevel() const;
 
  int32_t __declspec(property(get=__get_maxResponseHeadersLength, put=__set_maxResponseHeadersLength))  maxResponseHeadersLength;
 
@@ -515,11 +514,11 @@ constexpr void __set_readWriteTimeout(int32_t value) ;
 
 constexpr int32_t __get_readWriteTimeout() const;
 
- ::System::Net::Security::RemoteCertificateValidationCallback __declspec(property(get=__get_serverCertificateValidationCallback, put=__set_serverCertificateValidationCallback))  serverCertificateValidationCallback;
+ System::Net::Security::RemoteCertificateValidationCallback __declspec(property(get=__get_serverCertificateValidationCallback, put=__set_serverCertificateValidationCallback))  serverCertificateValidationCallback;
 
-constexpr void __set_serverCertificateValidationCallback(::System::Net::Security::RemoteCertificateValidationCallback value) ;
+constexpr void __set_serverCertificateValidationCallback(System::Net::Security::RemoteCertificateValidationCallback value) ;
 
-constexpr ::System::Net::Security::RemoteCertificateValidationCallback __get_serverCertificateValidationCallback() const;
+constexpr System::Net::Security::RemoteCertificateValidationCallback __get_serverCertificateValidationCallback() const;
 
  bool __declspec(property(get=__get_unsafeAuthenticatedConnectionSharing, put=__set_unsafeAuthenticatedConnectionSharing))  unsafeAuthenticatedConnectionSharing;
 
@@ -539,11 +538,11 @@ constexpr void __set_connectionGroupName(::StringW value) ;
 
 constexpr ::StringW __get_connectionGroupName() const;
 
- ::System::Nullable_1<::System::TimeSpan> __declspec(property(get=__get_timeout, put=__set_timeout))  timeout;
+ System::Nullable_1<System::TimeSpan> __declspec(property(get=__get_timeout, put=__set_timeout))  timeout;
 
-constexpr void __set_timeout(::System::Nullable_1<::System::TimeSpan> value) ;
+constexpr void __set_timeout(System::Nullable_1<System::TimeSpan> value) ;
 
-constexpr ::System::Nullable_1<::System::TimeSpan> __get_timeout() const;
+constexpr System::Nullable_1<System::TimeSpan> __get_timeout() const;
 
  bool __declspec(property(get=__get_disposed, put=__set_disposed))  disposed;
 
@@ -554,11 +553,11 @@ constexpr bool __get_disposed() const;
 
 // Properties
 
- ::System::Net::CookieContainer __declspec(property(get=get_CookieContainer))  CookieContainer;
+ System::Net::CookieContainer __declspec(property(get=get_CookieContainer))  CookieContainer;
 
  int64_t __declspec(property(get=get_MaxRequestContentBufferSize))  MaxRequestContentBufferSize;
 
- ::System::Net::Security::SslClientAuthenticationOptions __declspec(property(get=get_SslOptions, put=set_SslOptions))  SslOptions;
+ System::Net::Security::SslClientAuthenticationOptions __declspec(property(get=get_SslOptions, put=set_SslOptions))  SslOptions;
 
 
 // Methods
@@ -573,16 +572,16 @@ explicit MonoWebRequestHandler() ;
  void EnsureModifiability() ;
 
 /// @brief Method get_CookieContainer addr 0x269b7e0 size 0x6c virtual true final true
- ::System::Net::CookieContainer get_CookieContainer() ;
+ System::Net::CookieContainer get_CookieContainer() ;
 
 /// @brief Method get_MaxRequestContentBufferSize addr 0x269b84c size 0x8 virtual true final true
  int64_t get_MaxRequestContentBufferSize() ;
 
 /// @brief Method get_SslOptions addr 0x269b854 size 0x6c virtual true final true
- ::System::Net::Security::SslClientAuthenticationOptions get_SslOptions() ;
+ System::Net::Security::SslClientAuthenticationOptions get_SslOptions() ;
 
 /// @brief Method set_SslOptions addr 0x269b8c0 size 0x24 virtual true final true
- void set_SslOptions(::System::Net::Security::SslClientAuthenticationOptions value) ;
+ void set_SslOptions(System::Net::Security::SslClientAuthenticationOptions value) ;
 
 /// @brief Method Dispose addr 0x269b8e4 size 0x10 virtual true final true
  void Dispose() ;
@@ -591,30 +590,29 @@ explicit MonoWebRequestHandler() ;
  void Dispose(bool disposing) ;
 
 /// @brief Method GetConnectionKeepAlive addr 0x269b978 size 0x110 virtual false final false
- bool GetConnectionKeepAlive(::System::Net::Http::Headers::HttpRequestHeaders headers) ;
+ bool GetConnectionKeepAlive(System::Net::Http::Headers::HttpRequestHeaders headers) ;
 
 /// @brief Method CreateWebRequest addr 0x269baf0 size 0x7bc virtual true final false
- ::System::Net::HttpWebRequest CreateWebRequest(::System::Net::Http::HttpRequestMessage request) ;
+ System::Net::HttpWebRequest CreateWebRequest(System::Net::Http::HttpRequestMessage request) ;
 
 /// @brief Method CreateResponseMessage addr 0x269c794 size 0x1c8 virtual false final false
- ::System::Net::Http::HttpResponseMessage CreateResponseMessage(::System::Net::HttpWebResponse wr, ::System::Net::Http::HttpRequestMessage requestMessage, ::System::Threading::CancellationToken cancellationToken) ;
+ System::Net::Http::HttpResponseMessage CreateResponseMessage(System::Net::HttpWebResponse wr, System::Net::Http::HttpRequestMessage requestMessage, System::Threading::CancellationToken cancellationToken) ;
 
 /// @brief Method MethodHasBody addr 0x269ccc4 size 0x10c virtual false final false
-static bool MethodHasBody(::System::Net::Http::HttpMethod method) ;
+static bool MethodHasBody(System::Net::Http::HttpMethod method) ;
 
 /// @brief Method SendAsync addr 0x269cdd0 size 0x114 virtual true final true
- ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage> SendAsync(::System::Net::Http::HttpRequestMessage request, ::System::Threading::CancellationToken cancellationToken) ;
+ System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage> SendAsync(System::Net::Http::HttpRequestMessage request, System::Threading::CancellationToken cancellationToken) ;
 
 /// @brief Method System.Net.Http.IMonoHttpClientHandler.SetWebRequestTimeout addr 0x269cee4 size 0x70 virtual true final true
- void System_Net_Http_IMonoHttpClientHandler_SetWebRequestTimeout(::System::TimeSpan timeout) ;
+ void System_Net_Http_IMonoHttpClientHandler_SetWebRequestTimeout(System::TimeSpan timeout) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Http
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Http::MonoWebRequestHandler);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::MonoWebRequestHandler, "System.Net.Http", "MonoWebRequestHandler");
-NEED_NO_BOX(::System::Net::Http::____System__Net__Http__MonoWebRequestHandler____c);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::____System__Net__Http__MonoWebRequestHandler____c, "System.Net.Http", "MonoWebRequestHandler/<>c");
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::____System__Net__Http__MonoWebRequestHandler___SendAsync_d__99, "System.Net.Http", "MonoWebRequestHandler/<SendAsync>d__99");
+NEED_NO_BOX(System::Net::Http::MonoWebRequestHandler);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::MonoWebRequestHandler, "System.Net.Http", "MonoWebRequestHandler");
+NEED_NO_BOX(System::Net::Http::System__Net__Http__MonoWebRequestHandler____c);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::System__Net__Http__MonoWebRequestHandler____c, "System.Net.Http", "MonoWebRequestHandler/<>c");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::System__Net__Http__MonoWebRequestHandler___SendAsync_d__99, "System.Net.Http", "MonoWebRequestHandler/<SendAsync>d__99");

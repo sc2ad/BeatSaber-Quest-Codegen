@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System::IO {
 struct FileAttributes;
 }
@@ -19,8 +18,8 @@ namespace System::IO {
 struct CORDL_TYPE MonoIOStat : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "fileAttributes", ty: "::System::IO::FileAttributes", modifiers: "", def_value: None }, CppParam { name: "Length", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "CreationTime", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "LastAccessTime", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "LastWriteTime", ty: "int64_t", modifiers: "", def_value: None }]
-constexpr MonoIOStat(::System::IO::FileAttributes fileAttributes, int64_t Length, int64_t CreationTime, int64_t LastAccessTime, int64_t LastWriteTime) noexcept;
+// Ctor Parameters [CppParam { name: "fileAttributes", ty: "System::IO::FileAttributes", modifiers: "", def_value: None }, CppParam { name: "Length", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "CreationTime", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "LastAccessTime", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "LastWriteTime", ty: "int64_t", modifiers: "", def_value: None }]
+constexpr MonoIOStat(System::IO::FileAttributes fileAttributes, int64_t Length, int64_t CreationTime, int64_t LastAccessTime, int64_t LastWriteTime) noexcept;
 
 
                     constexpr MonoIOStat(MonoIOStat const&) = default;
@@ -53,11 +52,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::IO::FileAttributes __declspec(property(get=__get_fileAttributes, put=__set_fileAttributes))  fileAttributes;
+ System::IO::FileAttributes __declspec(property(get=__get_fileAttributes, put=__set_fileAttributes))  fileAttributes;
 
-constexpr void __set_fileAttributes(::System::IO::FileAttributes value) ;
+constexpr void __set_fileAttributes(System::IO::FileAttributes value) ;
 
-constexpr ::System::IO::FileAttributes __get_fileAttributes() const;
+constexpr System::IO::FileAttributes __get_fileAttributes() const;
 
  int64_t __declspec(property(get=__get_Length, put=__set_Length))  Length;
 
@@ -87,5 +86,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::IO
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::MonoIOStat, "System.IO", "MonoIOStat");
+DEFINE_IL2CPP_ARG_TYPE(System::IO::MonoIOStat, "System.IO", "MonoIOStat");

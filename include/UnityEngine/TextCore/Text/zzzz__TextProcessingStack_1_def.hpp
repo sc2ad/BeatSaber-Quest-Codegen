@@ -4,7 +4,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
 struct Int32Enum;
 }
@@ -25,15 +24,15 @@ struct TextProcessingStack_1<T>;
 }
 namespace UnityEngine::TextCore::Text {
 template<>
-struct TextProcessingStack_1<::System::Int32Enum>;
+struct TextProcessingStack_1<System::Int32Enum>;
 }
 namespace UnityEngine::TextCore::Text {
 template<>
-struct TextProcessingStack_1<::UnityEngine::Color32>;
+struct TextProcessingStack_1<UnityEngine::Color32>;
 }
 namespace UnityEngine::TextCore::Text {
 template<>
-struct TextProcessingStack_1<::UnityEngine::TextCore::Text::MaterialReference>;
+struct TextProcessingStack_1<UnityEngine::TextCore::Text::MaterialReference>;
 }
 namespace UnityEngine::TextCore::Text {
 template<>
@@ -167,7 +166,7 @@ namespace UnityEngine::TextCore::Text {
 // cpp template
 template<>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(13540))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13540)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13540), inst: 92 })
 // CS Name: UnityEngine.TextCore.Text.TextProcessingStack`1
 struct CORDL_TYPE TextProcessingStack_1<int32_t> : public ::bs_hook::ValueTypeWrapper {
@@ -403,14 +402,14 @@ namespace UnityEngine::TextCore::Text {
 // cpp template
 template<>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(13540))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13540)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13540), inst: 718 })
 // CS Name: UnityEngine.TextCore.Text.TextProcessingStack`1
-struct CORDL_TYPE TextProcessingStack_1<::UnityEngine::Color32> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE TextProcessingStack_1<UnityEngine::Color32> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "itemStack", ty: "::ArrayW<::UnityEngine::Color32>", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_DefaultItem", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "m_Capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_RolloverSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Count", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr TextProcessingStack_1(::ArrayW<::UnityEngine::Color32> itemStack, int32_t index, ::UnityEngine::Color32 m_DefaultItem, int32_t m_Capacity, int32_t m_RolloverSize, int32_t m_Count) noexcept;
+// Ctor Parameters [CppParam { name: "itemStack", ty: "::ArrayW<UnityEngine::Color32>", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_DefaultItem", ty: "UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "m_Capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_RolloverSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Count", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr TextProcessingStack_1(::ArrayW<UnityEngine::Color32> itemStack, int32_t index, UnityEngine::Color32 m_DefaultItem, int32_t m_Capacity, int32_t m_RolloverSize, int32_t m_Count) noexcept;
 
 
                     constexpr TextProcessingStack_1(TextProcessingStack_1 const&) = default;
@@ -443,11 +442,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::ArrayW<::UnityEngine::Color32> __declspec(property(get=__get_itemStack, put=__set_itemStack))  itemStack;
+ ::ArrayW<UnityEngine::Color32> __declspec(property(get=__get_itemStack, put=__set_itemStack))  itemStack;
 
-constexpr void __set_itemStack(::ArrayW<::UnityEngine::Color32> value) ;
+constexpr void __set_itemStack(::ArrayW<UnityEngine::Color32> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Color32> __get_itemStack() const;
+constexpr ::ArrayW<UnityEngine::Color32> __get_itemStack() const;
 
  int32_t __declspec(property(get=__get_index, put=__set_index))  index;
 
@@ -455,11 +454,11 @@ constexpr void __set_index(int32_t value) ;
 
 constexpr int32_t __get_index() const;
 
- ::UnityEngine::Color32 __declspec(property(get=__get_m_DefaultItem, put=__set_m_DefaultItem))  m_DefaultItem;
+ UnityEngine::Color32 __declspec(property(get=__get_m_DefaultItem, put=__set_m_DefaultItem))  m_DefaultItem;
 
-constexpr void __set_m_DefaultItem(::UnityEngine::Color32 value) ;
+constexpr void __set_m_DefaultItem(UnityEngine::Color32 value) ;
 
-constexpr ::UnityEngine::Color32 __get_m_DefaultItem() const;
+constexpr UnityEngine::Color32 __get_m_DefaultItem() const;
 
  int32_t __declspec(property(get=__get_m_Capacity, put=__set_m_Capacity))  m_Capacity;
 
@@ -483,7 +482,7 @@ constexpr int32_t __get_m_Count() const;
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::ArrayW<::UnityEngine::Color32> stack) ;
+ void _ctor(::ArrayW<UnityEngine::Color32> stack) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t capacity) ;
@@ -492,25 +491,25 @@ constexpr int32_t __get_m_Count() const;
  void Clear() ;
 
 /// @brief Method SetDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- void SetDefault(::UnityEngine::Color32 item) ;
+ void SetDefault(UnityEngine::Color32 item) ;
 
 /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
- void Add(::UnityEngine::Color32 item) ;
+ void Add(UnityEngine::Color32 item) ;
 
 /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::Color32 Remove() ;
+ UnityEngine::Color32 Remove() ;
 
 /// @brief Method Push addr 0x0 size 0xffffffffffffffff virtual false final false
- void Push(::UnityEngine::Color32 item) ;
+ void Push(UnityEngine::Color32 item) ;
 
 /// @brief Method Pop addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::Color32 Pop() ;
+ UnityEngine::Color32 Pop() ;
 
 /// @brief Method Peek addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::Color32 Peek() ;
+ UnityEngine::Color32 Peek() ;
 
 /// @brief Method CurrentItem addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::Color32 CurrentItem() ;
+ UnityEngine::Color32 CurrentItem() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -521,14 +520,14 @@ namespace UnityEngine::TextCore::Text {
 // cpp template
 template<>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(13540))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13540)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13540), inst: 4825 })
 // CS Name: UnityEngine.TextCore.Text.TextProcessingStack`1
-struct CORDL_TYPE TextProcessingStack_1<::System::Int32Enum> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE TextProcessingStack_1<System::Int32Enum> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "itemStack", ty: "::ArrayW<::System::Int32Enum>", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_DefaultItem", ty: "::System::Int32Enum", modifiers: "", def_value: None }, CppParam { name: "m_Capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_RolloverSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Count", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr TextProcessingStack_1(::ArrayW<::System::Int32Enum> itemStack, int32_t index, ::System::Int32Enum m_DefaultItem, int32_t m_Capacity, int32_t m_RolloverSize, int32_t m_Count) noexcept;
+// Ctor Parameters [CppParam { name: "itemStack", ty: "::ArrayW<System::Int32Enum>", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_DefaultItem", ty: "System::Int32Enum", modifiers: "", def_value: None }, CppParam { name: "m_Capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_RolloverSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Count", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr TextProcessingStack_1(::ArrayW<System::Int32Enum> itemStack, int32_t index, System::Int32Enum m_DefaultItem, int32_t m_Capacity, int32_t m_RolloverSize, int32_t m_Count) noexcept;
 
 
                     constexpr TextProcessingStack_1(TextProcessingStack_1 const&) = default;
@@ -561,11 +560,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::ArrayW<::System::Int32Enum> __declspec(property(get=__get_itemStack, put=__set_itemStack))  itemStack;
+ ::ArrayW<System::Int32Enum> __declspec(property(get=__get_itemStack, put=__set_itemStack))  itemStack;
 
-constexpr void __set_itemStack(::ArrayW<::System::Int32Enum> value) ;
+constexpr void __set_itemStack(::ArrayW<System::Int32Enum> value) ;
 
-constexpr ::ArrayW<::System::Int32Enum> __get_itemStack() const;
+constexpr ::ArrayW<System::Int32Enum> __get_itemStack() const;
 
  int32_t __declspec(property(get=__get_index, put=__set_index))  index;
 
@@ -573,11 +572,11 @@ constexpr void __set_index(int32_t value) ;
 
 constexpr int32_t __get_index() const;
 
- ::System::Int32Enum __declspec(property(get=__get_m_DefaultItem, put=__set_m_DefaultItem))  m_DefaultItem;
+ System::Int32Enum __declspec(property(get=__get_m_DefaultItem, put=__set_m_DefaultItem))  m_DefaultItem;
 
-constexpr void __set_m_DefaultItem(::System::Int32Enum value) ;
+constexpr void __set_m_DefaultItem(System::Int32Enum value) ;
 
-constexpr ::System::Int32Enum __get_m_DefaultItem() const;
+constexpr System::Int32Enum __get_m_DefaultItem() const;
 
  int32_t __declspec(property(get=__get_m_Capacity, put=__set_m_Capacity))  m_Capacity;
 
@@ -601,7 +600,7 @@ constexpr int32_t __get_m_Count() const;
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::ArrayW<::System::Int32Enum> stack) ;
+ void _ctor(::ArrayW<System::Int32Enum> stack) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t capacity) ;
@@ -610,25 +609,25 @@ constexpr int32_t __get_m_Count() const;
  void Clear() ;
 
 /// @brief Method SetDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- void SetDefault(::System::Int32Enum item) ;
+ void SetDefault(System::Int32Enum item) ;
 
 /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
- void Add(::System::Int32Enum item) ;
+ void Add(System::Int32Enum item) ;
 
 /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Int32Enum Remove() ;
+ System::Int32Enum Remove() ;
 
 /// @brief Method Push addr 0x0 size 0xffffffffffffffff virtual false final false
- void Push(::System::Int32Enum item) ;
+ void Push(System::Int32Enum item) ;
 
 /// @brief Method Pop addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Int32Enum Pop() ;
+ System::Int32Enum Pop() ;
 
 /// @brief Method Peek addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Int32Enum Peek() ;
+ System::Int32Enum Peek() ;
 
 /// @brief Method CurrentItem addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Int32Enum CurrentItem() ;
+ System::Int32Enum CurrentItem() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -642,11 +641,11 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(13540))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13540), inst: 4970 })
 // CS Name: UnityEngine.TextCore.Text.TextProcessingStack`1
-struct CORDL_TYPE TextProcessingStack_1<::UnityEngine::TextCore::Text::MaterialReference> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE TextProcessingStack_1<UnityEngine::TextCore::Text::MaterialReference> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "itemStack", ty: "::ArrayW<::UnityEngine::TextCore::Text::MaterialReference>", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_DefaultItem", ty: "::UnityEngine::TextCore::Text::MaterialReference", modifiers: "", def_value: None }, CppParam { name: "m_Capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_RolloverSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Count", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr TextProcessingStack_1(::ArrayW<::UnityEngine::TextCore::Text::MaterialReference> itemStack, int32_t index, ::UnityEngine::TextCore::Text::MaterialReference m_DefaultItem, int32_t m_Capacity, int32_t m_RolloverSize, int32_t m_Count) noexcept;
+// Ctor Parameters [CppParam { name: "itemStack", ty: "::ArrayW<UnityEngine::TextCore::Text::MaterialReference>", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_DefaultItem", ty: "UnityEngine::TextCore::Text::MaterialReference", modifiers: "", def_value: None }, CppParam { name: "m_Capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_RolloverSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Count", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr TextProcessingStack_1(::ArrayW<UnityEngine::TextCore::Text::MaterialReference> itemStack, int32_t index, UnityEngine::TextCore::Text::MaterialReference m_DefaultItem, int32_t m_Capacity, int32_t m_RolloverSize, int32_t m_Count) noexcept;
 
 
                     constexpr TextProcessingStack_1(TextProcessingStack_1 const&) = default;
@@ -679,11 +678,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::ArrayW<::UnityEngine::TextCore::Text::MaterialReference> __declspec(property(get=__get_itemStack, put=__set_itemStack))  itemStack;
+ ::ArrayW<UnityEngine::TextCore::Text::MaterialReference> __declspec(property(get=__get_itemStack, put=__set_itemStack))  itemStack;
 
-constexpr void __set_itemStack(::ArrayW<::UnityEngine::TextCore::Text::MaterialReference> value) ;
+constexpr void __set_itemStack(::ArrayW<UnityEngine::TextCore::Text::MaterialReference> value) ;
 
-constexpr ::ArrayW<::UnityEngine::TextCore::Text::MaterialReference> __get_itemStack() const;
+constexpr ::ArrayW<UnityEngine::TextCore::Text::MaterialReference> __get_itemStack() const;
 
  int32_t __declspec(property(get=__get_index, put=__set_index))  index;
 
@@ -691,11 +690,11 @@ constexpr void __set_index(int32_t value) ;
 
 constexpr int32_t __get_index() const;
 
- ::UnityEngine::TextCore::Text::MaterialReference __declspec(property(get=__get_m_DefaultItem, put=__set_m_DefaultItem))  m_DefaultItem;
+ UnityEngine::TextCore::Text::MaterialReference __declspec(property(get=__get_m_DefaultItem, put=__set_m_DefaultItem))  m_DefaultItem;
 
-constexpr void __set_m_DefaultItem(::UnityEngine::TextCore::Text::MaterialReference value) ;
+constexpr void __set_m_DefaultItem(UnityEngine::TextCore::Text::MaterialReference value) ;
 
-constexpr ::UnityEngine::TextCore::Text::MaterialReference __get_m_DefaultItem() const;
+constexpr UnityEngine::TextCore::Text::MaterialReference __get_m_DefaultItem() const;
 
  int32_t __declspec(property(get=__get_m_Capacity, put=__set_m_Capacity))  m_Capacity;
 
@@ -719,7 +718,7 @@ constexpr int32_t __get_m_Count() const;
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::ArrayW<::UnityEngine::TextCore::Text::MaterialReference> stack) ;
+ void _ctor(::ArrayW<UnityEngine::TextCore::Text::MaterialReference> stack) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t capacity) ;
@@ -728,29 +727,28 @@ constexpr int32_t __get_m_Count() const;
  void Clear() ;
 
 /// @brief Method SetDefault addr 0x0 size 0xffffffffffffffff virtual false final false
- void SetDefault(::UnityEngine::TextCore::Text::MaterialReference item) ;
+ void SetDefault(UnityEngine::TextCore::Text::MaterialReference item) ;
 
 /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
- void Add(::UnityEngine::TextCore::Text::MaterialReference item) ;
+ void Add(UnityEngine::TextCore::Text::MaterialReference item) ;
 
 /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::TextCore::Text::MaterialReference Remove() ;
+ UnityEngine::TextCore::Text::MaterialReference Remove() ;
 
 /// @brief Method Push addr 0x0 size 0xffffffffffffffff virtual false final false
- void Push(::UnityEngine::TextCore::Text::MaterialReference item) ;
+ void Push(UnityEngine::TextCore::Text::MaterialReference item) ;
 
 /// @brief Method Pop addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::TextCore::Text::MaterialReference Pop() ;
+ UnityEngine::TextCore::Text::MaterialReference Pop() ;
 
 /// @brief Method Peek addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::TextCore::Text::MaterialReference Peek() ;
+ UnityEngine::TextCore::Text::MaterialReference Peek() ;
 
 /// @brief Method CurrentItem addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::TextCore::Text::MaterialReference CurrentItem() ;
+ UnityEngine::TextCore::Text::MaterialReference CurrentItem() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::Text
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::UnityEngine::TextCore::Text::TextProcessingStack_1, "UnityEngine.TextCore.Text", "TextProcessingStack`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(UnityEngine::TextCore::Text::TextProcessingStack_1, "UnityEngine.TextCore.Text", "TextProcessingStack`1");

@@ -1,19 +1,18 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
+namespace System {
+class Type;
+}
 namespace Zenject {
-template<typename TSignal>
-class BindSignalIdToBinder_1;
+class DiContainer;
 }
 namespace Zenject {
 class DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder;
 }
 namespace Zenject {
-class DiContainer;
-}
-namespace System {
-class Type;
+template<typename TSignal>
+class BindSignalIdToBinder_1;
 }
 namespace Zenject {
 class SignalDeclarationBindInfo;
@@ -65,20 +64,19 @@ constexpr explicit SignalExtensions(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 // Methods
 
 /// @brief Method CreateDefaultSignalDeclarationBindInfo addr 0x2d492a8 size 0xa4 virtual false final false
-static ::Zenject::SignalDeclarationBindInfo CreateDefaultSignalDeclarationBindInfo(::Zenject::DiContainer container, ::System::Type signalType) ;
+static Zenject::SignalDeclarationBindInfo CreateDefaultSignalDeclarationBindInfo(Zenject::DiContainer container, System::Type signalType) ;
 
 /// @brief Method DeclareSignal addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TSignal>
-static ::Zenject::DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder DeclareSignal(::Zenject::DiContainer container) ;
+static Zenject::DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder DeclareSignal(Zenject::DiContainer container) ;
 
 /// @brief Method BindSignal addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TSignal>
-static ::Zenject::BindSignalIdToBinder_1<TSignal> BindSignal(::Zenject::DiContainer container) ;
+static Zenject::BindSignalIdToBinder_1<TSignal> BindSignal(Zenject::DiContainer container) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::SignalExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::SignalExtensions, "Zenject", "SignalExtensions");
+NEED_NO_BOX(Zenject::SignalExtensions);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::SignalExtensions, "Zenject", "SignalExtensions");

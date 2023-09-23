@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__InstallerBase_def.hpp"
-namespace {
 namespace Zenject {
 class DiContainer;
 }
@@ -26,7 +25,7 @@ template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11077)), TypeDefinitionIndex(TypeDefinitionIndex(11079))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11077), inst: 5938 })
 // CS Name: Zenject.Installer`5
-class CORDL_TYPE Installer_5<TParam1,TParam2,TParam3,TParam4,TDerived> : public ::Zenject::InstallerBase {
+class CORDL_TYPE Installer_5<TParam1,TParam2,TParam3,TParam4,TDerived> : public Zenject::InstallerBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -41,7 +40,7 @@ constexpr Installer_5(Installer_5 const& ) noexcept = default;
 constexpr Installer_5(Installer_5&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Installer_5(void* ptr) noexcept : ::Zenject::InstallerBase(ptr) {
+constexpr explicit Installer_5(void* ptr) noexcept : Zenject::InstallerBase(ptr) {
 }
 
 
@@ -63,7 +62,7 @@ constexpr explicit Installer_5(void* ptr) noexcept : ::Zenject::InstallerBase(pt
 // Methods
 
 /// @brief Method Install addr 0x0 size 0xffffffffffffffff virtual false final false
-static void Install(::Zenject::DiContainer container, TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4) ;
+static void Install(Zenject::DiContainer container, TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4) ;
 
 // Ctor Parameters []
 explicit Installer_5() ;
@@ -72,11 +71,10 @@ explicit Installer_5() ;
  void _ctor() ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::Installer_5, "Zenject", "Installer`5");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::Installer_5, "Zenject", "Installer`5");

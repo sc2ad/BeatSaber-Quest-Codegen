@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 #include <cstddef>
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -78,11 +77,10 @@ constexpr float_t __get_z() const;
  void _ctor(float_t x, float_t y, float_t z) ;
 
 /// @brief Method .ctor addr 0x2aed6dc size 0x10 virtual false final false
- void _ctor(::UnityEngine::Vector3 value) ;
+ void _ctor(UnityEngine::Vector3 value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR::OpenXR::NativeTypes
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f, "UnityEngine.XR.OpenXR.NativeTypes", "XrVector3f");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::OpenXR::NativeTypes::XrVector3f, "UnityEngine.XR.OpenXR.NativeTypes", "XrVector3f");

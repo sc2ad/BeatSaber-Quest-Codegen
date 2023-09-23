@@ -2,15 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
-struct ____System__DateTimeParse__TM;
-}
-namespace System {
-class ____System__DateTimeParse__MatchNumberDelegate;
+class System__DateTimeParse__MatchNumberDelegate;
 }
 namespace System::Globalization {
 class Calendar;
+}
+namespace System {
+struct System__DateTimeParse__TM;
 }
 // Forward declare root types
 namespace System {
@@ -25,8 +24,8 @@ namespace System {
 struct CORDL_TYPE ParsingInfo : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "calendar", ty: "::System::Globalization::Calendar", modifiers: "", def_value: None }, CppParam { name: "dayOfWeek", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "timeMark", ty: "::System::____System__DateTimeParse__TM", modifiers: "", def_value: None }, CppParam { name: "fUseHour12", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "fUseTwoDigitYear", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "fAllowInnerWhite", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "fAllowTrailingWhite", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "fCustomNumberParser", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "parseNumberDelegate", ty: "::System::____System__DateTimeParse__MatchNumberDelegate", modifiers: "", def_value: None }]
-constexpr ParsingInfo(::System::Globalization::Calendar calendar, int32_t dayOfWeek, ::System::____System__DateTimeParse__TM timeMark, bool fUseHour12, bool fUseTwoDigitYear, bool fAllowInnerWhite, bool fAllowTrailingWhite, bool fCustomNumberParser, ::System::____System__DateTimeParse__MatchNumberDelegate parseNumberDelegate) noexcept;
+// Ctor Parameters [CppParam { name: "calendar", ty: "System::Globalization::Calendar", modifiers: "", def_value: None }, CppParam { name: "dayOfWeek", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "timeMark", ty: "System::System__DateTimeParse__TM", modifiers: "", def_value: None }, CppParam { name: "fUseHour12", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "fUseTwoDigitYear", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "fAllowInnerWhite", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "fAllowTrailingWhite", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "fCustomNumberParser", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "parseNumberDelegate", ty: "System::System__DateTimeParse__MatchNumberDelegate", modifiers: "", def_value: None }]
+constexpr ParsingInfo(System::Globalization::Calendar calendar, int32_t dayOfWeek, System::System__DateTimeParse__TM timeMark, bool fUseHour12, bool fUseTwoDigitYear, bool fAllowInnerWhite, bool fAllowTrailingWhite, bool fCustomNumberParser, System::System__DateTimeParse__MatchNumberDelegate parseNumberDelegate) noexcept;
 
 
                     constexpr ParsingInfo(ParsingInfo const&) = default;
@@ -59,11 +58,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::Globalization::Calendar __declspec(property(get=__get_calendar, put=__set_calendar))  calendar;
+ System::Globalization::Calendar __declspec(property(get=__get_calendar, put=__set_calendar))  calendar;
 
-constexpr void __set_calendar(::System::Globalization::Calendar value) ;
+constexpr void __set_calendar(System::Globalization::Calendar value) ;
 
-constexpr ::System::Globalization::Calendar __get_calendar() const;
+constexpr System::Globalization::Calendar __get_calendar() const;
 
  int32_t __declspec(property(get=__get_dayOfWeek, put=__set_dayOfWeek))  dayOfWeek;
 
@@ -71,11 +70,11 @@ constexpr void __set_dayOfWeek(int32_t value) ;
 
 constexpr int32_t __get_dayOfWeek() const;
 
- ::System::____System__DateTimeParse__TM __declspec(property(get=__get_timeMark, put=__set_timeMark))  timeMark;
+ System::System__DateTimeParse__TM __declspec(property(get=__get_timeMark, put=__set_timeMark))  timeMark;
 
-constexpr void __set_timeMark(::System::____System__DateTimeParse__TM value) ;
+constexpr void __set_timeMark(System::System__DateTimeParse__TM value) ;
 
-constexpr ::System::____System__DateTimeParse__TM __get_timeMark() const;
+constexpr System::System__DateTimeParse__TM __get_timeMark() const;
 
  bool __declspec(property(get=__get_fUseHour12, put=__set_fUseHour12))  fUseHour12;
 
@@ -107,11 +106,11 @@ constexpr void __set_fCustomNumberParser(bool value) ;
 
 constexpr bool __get_fCustomNumberParser() const;
 
- ::System::____System__DateTimeParse__MatchNumberDelegate __declspec(property(get=__get_parseNumberDelegate, put=__set_parseNumberDelegate))  parseNumberDelegate;
+ System::System__DateTimeParse__MatchNumberDelegate __declspec(property(get=__get_parseNumberDelegate, put=__set_parseNumberDelegate))  parseNumberDelegate;
 
-constexpr void __set_parseNumberDelegate(::System::____System__DateTimeParse__MatchNumberDelegate value) ;
+constexpr void __set_parseNumberDelegate(System::System__DateTimeParse__MatchNumberDelegate value) ;
 
-constexpr ::System::____System__DateTimeParse__MatchNumberDelegate __get_parseNumberDelegate() const;
+constexpr System::System__DateTimeParse__MatchNumberDelegate __get_parseNumberDelegate() const;
 
 
 // Methods
@@ -123,5 +122,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::ParsingInfo, "System", "ParsingInfo");
+DEFINE_IL2CPP_ARG_TYPE(System::ParsingInfo, "System", "ParsingInfo");

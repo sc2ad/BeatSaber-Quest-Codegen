@@ -3,13 +3,12 @@
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class Box;
 }
 namespace UnityEngine::UIElements {
-class ____UnityEngine__UIElements__Box__UxmlFactory;
+class UnityEngine__UIElements__Box__UxmlFactory;
 }
 // Type: UnityEngine.UIElements::Box
 namespace UnityEngine::UIElements {
@@ -17,10 +16,10 @@ namespace UnityEngine::UIElements {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6828))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7162))
 // CS Name: UnityEngine.UIElements.Box
-class CORDL_TYPE Box : public ::UnityEngine::UIElements::VisualElement {
+class CORDL_TYPE Box : public UnityEngine::UIElements::VisualElement {
 public:
 // Declarations
-using UxmlFactory = ::UnityEngine::UIElements::____UnityEngine__UIElements__Box__UxmlFactory;
+using UxmlFactory = UnityEngine::UIElements::UnityEngine__UIElements__Box__UxmlFactory;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x3b0};
@@ -34,7 +33,7 @@ constexpr Box(Box const& ) noexcept = default;
 constexpr Box(Box&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Box(void* ptr) noexcept : ::UnityEngine::UIElements::VisualElement(ptr) {
+constexpr explicit Box(void* ptr) noexcept : UnityEngine::UIElements::VisualElement(ptr) {
 }
 
 
@@ -77,47 +76,47 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::UxmlFactory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7162)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7090), inst: 5081 }), TypeDefinitionIndex(TypeDefinitionIndex(7090))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7090), inst: 5081 }), TypeDefinitionIndex(TypeDefinitionIndex(7090)), TypeDefinitionIndex(TypeDefinitionIndex(7162))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7161))
 // CS Name: UnityEngine.UIElements.Box::UxmlFactory
-class CORDL_TYPE ____UnityEngine__UIElements__Box__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_1<::UnityEngine::UIElements::Box> {
+class CORDL_TYPE UnityEngine__UIElements__Box__UxmlFactory : public UnityEngine::UIElements::UxmlFactory_1<UnityEngine::UIElements::Box> {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____UnityEngine__UIElements__Box__UxmlFactory() = default;
+virtual ~UnityEngine__UIElements__Box__UxmlFactory() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__Box__UxmlFactory", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__UIElements__Box__UxmlFactory(____UnityEngine__UIElements__Box__UxmlFactory const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__Box__UxmlFactory", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__UIElements__Box__UxmlFactory(UnityEngine__UIElements__Box__UxmlFactory const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__Box__UxmlFactory", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__UIElements__Box__UxmlFactory(____UnityEngine__UIElements__Box__UxmlFactory&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__Box__UxmlFactory", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__UIElements__Box__UxmlFactory(UnityEngine__UIElements__Box__UxmlFactory&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UIElements__Box__UxmlFactory(void* ptr) noexcept : ::UnityEngine::UIElements::UxmlFactory_1<::UnityEngine::UIElements::Box>(ptr) {
+constexpr explicit UnityEngine__UIElements__Box__UxmlFactory(void* ptr) noexcept : UnityEngine::UIElements::UxmlFactory_1<UnityEngine::UIElements::Box>(ptr) {
 }
 
 
-  constexpr ____UnityEngine__UIElements__Box__UxmlFactory& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__UIElements__Box__UxmlFactory& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__Box__UxmlFactory& operator=(void* o) noexcept {
+  constexpr UnityEngine__UIElements__Box__UxmlFactory& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__Box__UxmlFactory& operator=(____UnityEngine__UIElements__Box__UxmlFactory&& o) noexcept = default;
-  constexpr ____UnityEngine__UIElements__Box__UxmlFactory& operator=(____UnityEngine__UIElements__Box__UxmlFactory const& o) noexcept = default;
+  constexpr UnityEngine__UIElements__Box__UxmlFactory& operator=(UnityEngine__UIElements__Box__UxmlFactory&& o) noexcept = default;
+  constexpr UnityEngine__UIElements__Box__UxmlFactory& operator=(UnityEngine__UIElements__Box__UxmlFactory const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__UIElements__Box__UxmlFactory() ;
+explicit UnityEngine__UIElements__Box__UxmlFactory() ;
 
 /// @brief Method .ctor addr 0x2cb49f4 size 0x48 virtual false final false
  void _ctor() ;
@@ -126,8 +125,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::Box);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Box, "UnityEngine.UIElements", "Box");
-NEED_NO_BOX(::UnityEngine::UIElements::____UnityEngine__UIElements__Box__UxmlFactory);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::____UnityEngine__UIElements__Box__UxmlFactory, "UnityEngine.UIElements", "Box/UxmlFactory");
+NEED_NO_BOX(UnityEngine::UIElements::Box);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::Box, "UnityEngine.UIElements", "Box");
+NEED_NO_BOX(UnityEngine::UIElements::UnityEngine__UIElements__Box__UxmlFactory);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UnityEngine__UIElements__Box__UxmlFactory, "UnityEngine.UIElements", "Box/UxmlFactory");

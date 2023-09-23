@@ -4,9 +4,11 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace System::Runtime::Remoting::Lifetime {
-class ISponsor;
+namespace System {
+struct DateTime;
+}
+namespace System::Collections {
+class ArrayList;
 }
 namespace System::Runtime::Remoting::Lifetime {
 class ILease;
@@ -14,17 +16,14 @@ class ILease;
 namespace System {
 struct TimeSpan;
 }
-namespace System::Collections {
-class Queue;
-}
-namespace System::Collections {
-class ArrayList;
-}
 namespace System::Runtime::Remoting::Lifetime {
 struct LeaseState;
 }
-namespace System {
-struct DateTime;
+namespace System::Collections {
+class Queue;
+}
+namespace System::Runtime::Remoting::Lifetime {
+class ISponsor;
 }
 namespace System {
 class AsyncCallback;
@@ -37,7 +36,7 @@ namespace System::Runtime::Remoting::Lifetime {
 class Lease;
 }
 namespace System::Runtime::Remoting::Lifetime {
-class ____System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate;
+class System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate;
 }
 // Type: ::RenewalDelegate
 namespace System::Runtime::Remoting::Lifetime {
@@ -45,56 +44,56 @@ namespace System::Runtime::Remoting::Lifetime {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3088))
 // CS Name: System.Runtime.Remoting.Lifetime.Lease::RenewalDelegate
-class CORDL_TYPE ____System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate : public ::System::MulticastDelegate {
+class CORDL_TYPE System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x80};
 
-virtual ~____System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate() = default;
+virtual ~System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate", modifiers: " const&", def_value: None }]
-constexpr ____System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate(____System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate", modifiers: " const&", def_value: None }]
+constexpr System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate(System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate", modifiers: "&&", def_value: None }]
-constexpr ____System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate(____System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate", modifiers: "&&", def_value: None }]
+constexpr System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate(System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
-  constexpr ____System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate& operator=(std::nullptr_t) noexcept {
+  constexpr System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate& operator=(void* o) noexcept {
+  constexpr System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate& operator=(____System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate&& o) noexcept = default;
-  constexpr ____System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate& operator=(____System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate const& o) noexcept = default;
+  constexpr System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate& operator=(System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate&& o) noexcept = default;
+  constexpr System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate& operator=(System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit ____System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+explicit System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x232f0b0 size 0x12c virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x232f408 size 0x14 virtual true final false
- ::System::TimeSpan Invoke(::System::Runtime::Remoting::Lifetime::ILease lease) ;
+ System::TimeSpan Invoke(System::Runtime::Remoting::Lifetime::ILease lease) ;
 
 /// @brief Method BeginInvoke addr 0x232f1dc size 0x20 virtual true final false
- ::System::IAsyncResult BeginInvoke(::System::Runtime::Remoting::Lifetime::ILease lease, ::System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
+ System::IAsyncResult BeginInvoke(System::Runtime::Remoting::Lifetime::ILease lease, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
 
 /// @brief Method EndInvoke addr 0x232f3e0 size 0x28 virtual true final false
- ::System::TimeSpan EndInvoke(::System::IAsyncResult result) ;
+ System::TimeSpan EndInvoke(System::IAsyncResult result) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -106,13 +105,13 @@ namespace System::Runtime::Remoting::Lifetime {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2604))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3089))
 // CS Name: System.Runtime.Remoting.Lifetime.Lease
-class CORDL_TYPE Lease : public ::System::MarshalByRefObject {
+class CORDL_TYPE Lease : public System::MarshalByRefObject {
 public:
 // Declarations
-using RenewalDelegate = ::System::Runtime::Remoting::Lifetime::____System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate;
+using RenewalDelegate = System::Runtime::Remoting::Lifetime::System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate;
 
-/// @brief Convert operator to ::System::Runtime::Remoting::Lifetime::ILease
-constexpr operator  ::System::Runtime::Remoting::Lifetime::ILease() const noexcept;
+/// @brief Convert operator to System::Runtime::Remoting::Lifetime::ILease
+constexpr operator  System::Runtime::Remoting::Lifetime::ILease() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x58};
@@ -126,7 +125,7 @@ constexpr Lease(Lease const& ) noexcept = default;
 constexpr Lease(Lease&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Lease(void* ptr) noexcept : ::System::MarshalByRefObject(ptr) {
+constexpr explicit Lease(void* ptr) noexcept : System::MarshalByRefObject(ptr) {
 }
 
 
@@ -147,62 +146,62 @@ constexpr explicit Lease(void* ptr) noexcept : ::System::MarshalByRefObject(ptr)
 
 // Fields
 
- ::System::DateTime __declspec(property(get=__get__leaseExpireTime, put=__set__leaseExpireTime))  _leaseExpireTime;
+ System::DateTime __declspec(property(get=__get__leaseExpireTime, put=__set__leaseExpireTime))  _leaseExpireTime;
 
-constexpr void __set__leaseExpireTime(::System::DateTime value) ;
+constexpr void __set__leaseExpireTime(System::DateTime value) ;
 
-constexpr ::System::DateTime __get__leaseExpireTime() const;
+constexpr System::DateTime __get__leaseExpireTime() const;
 
- ::System::Runtime::Remoting::Lifetime::LeaseState __declspec(property(get=__get__currentState, put=__set__currentState))  _currentState;
+ System::Runtime::Remoting::Lifetime::LeaseState __declspec(property(get=__get__currentState, put=__set__currentState))  _currentState;
 
-constexpr void __set__currentState(::System::Runtime::Remoting::Lifetime::LeaseState value) ;
+constexpr void __set__currentState(System::Runtime::Remoting::Lifetime::LeaseState value) ;
 
-constexpr ::System::Runtime::Remoting::Lifetime::LeaseState __get__currentState() const;
+constexpr System::Runtime::Remoting::Lifetime::LeaseState __get__currentState() const;
 
- ::System::TimeSpan __declspec(property(get=__get__initialLeaseTime, put=__set__initialLeaseTime))  _initialLeaseTime;
+ System::TimeSpan __declspec(property(get=__get__initialLeaseTime, put=__set__initialLeaseTime))  _initialLeaseTime;
 
-constexpr void __set__initialLeaseTime(::System::TimeSpan value) ;
+constexpr void __set__initialLeaseTime(System::TimeSpan value) ;
 
-constexpr ::System::TimeSpan __get__initialLeaseTime() const;
+constexpr System::TimeSpan __get__initialLeaseTime() const;
 
- ::System::TimeSpan __declspec(property(get=__get__renewOnCallTime, put=__set__renewOnCallTime))  _renewOnCallTime;
+ System::TimeSpan __declspec(property(get=__get__renewOnCallTime, put=__set__renewOnCallTime))  _renewOnCallTime;
 
-constexpr void __set__renewOnCallTime(::System::TimeSpan value) ;
+constexpr void __set__renewOnCallTime(System::TimeSpan value) ;
 
-constexpr ::System::TimeSpan __get__renewOnCallTime() const;
+constexpr System::TimeSpan __get__renewOnCallTime() const;
 
- ::System::TimeSpan __declspec(property(get=__get__sponsorshipTimeout, put=__set__sponsorshipTimeout))  _sponsorshipTimeout;
+ System::TimeSpan __declspec(property(get=__get__sponsorshipTimeout, put=__set__sponsorshipTimeout))  _sponsorshipTimeout;
 
-constexpr void __set__sponsorshipTimeout(::System::TimeSpan value) ;
+constexpr void __set__sponsorshipTimeout(System::TimeSpan value) ;
 
-constexpr ::System::TimeSpan __get__sponsorshipTimeout() const;
+constexpr System::TimeSpan __get__sponsorshipTimeout() const;
 
- ::System::Collections::ArrayList __declspec(property(get=__get__sponsors, put=__set__sponsors))  _sponsors;
+ System::Collections::ArrayList __declspec(property(get=__get__sponsors, put=__set__sponsors))  _sponsors;
 
-constexpr void __set__sponsors(::System::Collections::ArrayList value) ;
+constexpr void __set__sponsors(System::Collections::ArrayList value) ;
 
-constexpr ::System::Collections::ArrayList __get__sponsors() const;
+constexpr System::Collections::ArrayList __get__sponsors() const;
 
- ::System::Collections::Queue __declspec(property(get=__get__renewingSponsors, put=__set__renewingSponsors))  _renewingSponsors;
+ System::Collections::Queue __declspec(property(get=__get__renewingSponsors, put=__set__renewingSponsors))  _renewingSponsors;
 
-constexpr void __set__renewingSponsors(::System::Collections::Queue value) ;
+constexpr void __set__renewingSponsors(System::Collections::Queue value) ;
 
-constexpr ::System::Collections::Queue __get__renewingSponsors() const;
+constexpr System::Collections::Queue __get__renewingSponsors() const;
 
- ::System::Runtime::Remoting::Lifetime::____System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate __declspec(property(get=__get__renewalDelegate, put=__set__renewalDelegate))  _renewalDelegate;
+ System::Runtime::Remoting::Lifetime::System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate __declspec(property(get=__get__renewalDelegate, put=__set__renewalDelegate))  _renewalDelegate;
 
-constexpr void __set__renewalDelegate(::System::Runtime::Remoting::Lifetime::____System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate value) ;
+constexpr void __set__renewalDelegate(System::Runtime::Remoting::Lifetime::System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate value) ;
 
-constexpr ::System::Runtime::Remoting::Lifetime::____System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate __get__renewalDelegate() const;
+constexpr System::Runtime::Remoting::Lifetime::System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate __get__renewalDelegate() const;
 
 
 // Properties
 
- ::System::TimeSpan __declspec(property(get=get_CurrentLeaseTime))  CurrentLeaseTime;
+ System::TimeSpan __declspec(property(get=get_CurrentLeaseTime))  CurrentLeaseTime;
 
- ::System::Runtime::Remoting::Lifetime::LeaseState __declspec(property(get=get_CurrentState))  CurrentState;
+ System::Runtime::Remoting::Lifetime::LeaseState __declspec(property(get=get_CurrentState))  CurrentState;
 
- ::System::TimeSpan __declspec(property(get=get_RenewOnCallTime))  RenewOnCallTime;
+ System::TimeSpan __declspec(property(get=get_RenewOnCallTime))  RenewOnCallTime;
 
 
 // Methods
@@ -214,22 +213,22 @@ explicit Lease() ;
  void _ctor() ;
 
 /// @brief Method get_CurrentLeaseTime addr 0x232ea78 size 0x68 virtual true final true
- ::System::TimeSpan get_CurrentLeaseTime() ;
+ System::TimeSpan get_CurrentLeaseTime() ;
 
 /// @brief Method get_CurrentState addr 0x232eae0 size 0x8 virtual true final true
- ::System::Runtime::Remoting::Lifetime::LeaseState get_CurrentState() ;
+ System::Runtime::Remoting::Lifetime::LeaseState get_CurrentState() ;
 
 /// @brief Method Activate addr 0x232eae8 size 0xc virtual false final false
  void Activate() ;
 
 /// @brief Method get_RenewOnCallTime addr 0x232eaf4 size 0x8 virtual true final true
- ::System::TimeSpan get_RenewOnCallTime() ;
+ System::TimeSpan get_RenewOnCallTime() ;
 
 /// @brief Method Renew addr 0x232eafc size 0x8c virtual true final true
- ::System::TimeSpan Renew(::System::TimeSpan renewalTime) ;
+ System::TimeSpan Renew(System::TimeSpan renewalTime) ;
 
 /// @brief Method Unregister addr 0x232eb88 size 0x144 virtual true final true
- void Unregister(::System::Runtime::Remoting::Lifetime::ISponsor obj) ;
+ void Unregister(System::Runtime::Remoting::Lifetime::ISponsor obj) ;
 
 /// @brief Method UpdateState addr 0x232eccc size 0x1a0 virtual false final false
  void UpdateState() ;
@@ -244,8 +243,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Lifetime
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Lifetime::Lease);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Lifetime::Lease, "System.Runtime.Remoting.Lifetime", "Lease");
-NEED_NO_BOX(::System::Runtime::Remoting::Lifetime::____System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Lifetime::____System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate, "System.Runtime.Remoting.Lifetime", "Lease/RenewalDelegate");
+NEED_NO_BOX(System::Runtime::Remoting::Lifetime::Lease);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Lifetime::Lease, "System.Runtime.Remoting.Lifetime", "Lease");
+NEED_NO_BOX(System::Runtime::Remoting::Lifetime::System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Lifetime::System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate, "System.Runtime.Remoting.Lifetime", "Lease/RenewalDelegate");

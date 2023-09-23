@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::ComponentModel {
 class DisplayNameAttribute;
@@ -15,7 +14,7 @@ namespace System::ComponentModel {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8244))
 // CS Name: System.ComponentModel.DisplayNameAttribute
-class CORDL_TYPE DisplayNameAttribute : public ::System::Attribute {
+class CORDL_TYPE DisplayNameAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr DisplayNameAttribute(DisplayNameAttribute const& ) noexcept = default;
 constexpr DisplayNameAttribute(DisplayNameAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DisplayNameAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit DisplayNameAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit DisplayNameAttribute(void* ptr) noexcept : ::System::Attribut
 
 // Fields
 
-static ::System::ComponentModel::DisplayNameAttribute __declspec(property(get=__get_Default, put=__set_Default))  Default;
+static System::ComponentModel::DisplayNameAttribute __declspec(property(get=__get_Default, put=__set_Default))  Default;
 
-static void __set_Default(::System::ComponentModel::DisplayNameAttribute value) ;
+static void __set_Default(System::ComponentModel::DisplayNameAttribute value) ;
 
-static ::System::ComponentModel::DisplayNameAttribute __get_Default() ;
+static System::ComponentModel::DisplayNameAttribute __get_Default() ;
 
  ::StringW __declspec(property(get=__get__DisplayNameValue_k__BackingField, put=__set__DisplayNameValue_k__BackingField))  _DisplayNameValue_k__BackingField;
 
@@ -107,6 +106,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::DisplayNameAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::DisplayNameAttribute, "System.ComponentModel", "DisplayNameAttribute");
+NEED_NO_BOX(System::ComponentModel::DisplayNameAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::DisplayNameAttribute, "System.ComponentModel", "DisplayNameAttribute");

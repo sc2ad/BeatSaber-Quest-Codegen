@@ -3,34 +3,33 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class Material;
-}
 namespace GlobalNamespace {
-class OVRSkeleton;
+class OVRMesh;
 }
 namespace UnityEngine {
 class SkinnedMeshRenderer;
 }
 namespace GlobalNamespace {
-class OVRMesh;
+class OVRSkeleton;
+}
+namespace UnityEngine {
+class Material;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior;
+struct GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior;
+struct GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRMeshRenderer__IOVRMeshRendererDataProvider;
 }
 namespace GlobalNamespace {
 class OVRMeshRenderer;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__OVRMeshRenderer__IOVRMeshRendererDataProvider;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRMeshRenderer__MeshRendererData;
+struct GlobalNamespace__OVRMeshRenderer__MeshRendererData;
 }
 // Type: ::IOVRMeshRendererDataProvider
 namespace GlobalNamespace {
@@ -38,20 +37,20 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8924))
 // CS Name: OVRMeshRenderer::IOVRMeshRendererDataProvider
-class CORDL_TYPE ____GlobalNamespace__OVRMeshRenderer__IOVRMeshRendererDataProvider : public ::cordl_internals::InterfaceW {
+class CORDL_TYPE GlobalNamespace__OVRMeshRenderer__IOVRMeshRendererDataProvider : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-~____GlobalNamespace__OVRMeshRenderer__IOVRMeshRendererDataProvider() = default;
+~GlobalNamespace__OVRMeshRenderer__IOVRMeshRendererDataProvider() = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVRMeshRenderer__IOVRMeshRendererDataProvider(void* ptr) noexcept : ::cordl_internals::InterfaceW(ptr) {
+constexpr explicit GlobalNamespace__OVRMeshRenderer__IOVRMeshRendererDataProvider(void* ptr) noexcept : ::cordl_internals::InterfaceW(ptr) {
 }
 
 
 // Methods
 
 /// @brief Method GetMeshRendererData addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::____GlobalNamespace__OVRMeshRenderer__MeshRendererData GetMeshRendererData() ;
+ GlobalNamespace::GlobalNamespace__OVRMeshRenderer__MeshRendererData GetMeshRendererData() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -63,20 +62,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8925))
 // CS Name: OVRMeshRenderer::MeshRendererData
-struct CORDL_TYPE ____GlobalNamespace__OVRMeshRenderer__MeshRendererData : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__OVRMeshRenderer__MeshRendererData : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "_IsDataValid_k__BackingField", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_IsDataHighConfidence_k__BackingField", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_ShouldUseSystemGestureMaterial_k__BackingField", ty: "bool", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__OVRMeshRenderer__MeshRendererData(bool _IsDataValid_k__BackingField, bool _IsDataHighConfidence_k__BackingField, bool _ShouldUseSystemGestureMaterial_k__BackingField) noexcept;
+constexpr GlobalNamespace__OVRMeshRenderer__MeshRendererData(bool _IsDataValid_k__BackingField, bool _IsDataHighConfidence_k__BackingField, bool _ShouldUseSystemGestureMaterial_k__BackingField) noexcept;
 
 
-                    constexpr ____GlobalNamespace__OVRMeshRenderer__MeshRendererData(____GlobalNamespace__OVRMeshRenderer__MeshRendererData const&) = default;
-                    constexpr ____GlobalNamespace__OVRMeshRenderer__MeshRendererData(____GlobalNamespace__OVRMeshRenderer__MeshRendererData&&) = default;
-                    constexpr ____GlobalNamespace__OVRMeshRenderer__MeshRendererData& operator=(____GlobalNamespace__OVRMeshRenderer__MeshRendererData const& o) {
+                    constexpr GlobalNamespace__OVRMeshRenderer__MeshRendererData(GlobalNamespace__OVRMeshRenderer__MeshRendererData const&) = default;
+                    constexpr GlobalNamespace__OVRMeshRenderer__MeshRendererData(GlobalNamespace__OVRMeshRenderer__MeshRendererData&&) = default;
+                    constexpr GlobalNamespace__OVRMeshRenderer__MeshRendererData& operator=(GlobalNamespace__OVRMeshRenderer__MeshRendererData const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__OVRMeshRenderer__MeshRendererData& operator=(____GlobalNamespace__OVRMeshRenderer__MeshRendererData&& o) noexcept {
+                    constexpr GlobalNamespace__OVRMeshRenderer__MeshRendererData& operator=(GlobalNamespace__OVRMeshRenderer__MeshRendererData&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -89,7 +88,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x3};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVRMeshRenderer__MeshRendererData(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__OVRMeshRenderer__MeshRendererData(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -158,20 +157,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8926))
 // CS Name: OVRMeshRenderer::ConfidenceBehavior
-struct CORDL_TYPE ____GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior(int32_t value__) noexcept;
+constexpr GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior(____GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior const&) = default;
-                    constexpr ____GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior(____GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior&&) = default;
-                    constexpr ____GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior& operator=(____GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior const& o) {
+                    constexpr GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior(GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior const&) = default;
+                    constexpr GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior(GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior&&) = default;
+                    constexpr GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior& operator=(GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior& operator=(____GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior&& o) noexcept {
+                    constexpr GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior& operator=(GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -184,7 +183,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -192,14 +191,14 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior_Unwrapped : int32_t {
+enum class __GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior_Unwrapped : int32_t {
 __None = 0,
 __ToggleRenderer = 1,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior_Unwrapped>(__instance);
 }
 
 
@@ -212,10 +211,10 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior const None;
+static GlobalNamespace::GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior const None;
 
 /// @brief Field ToggleRenderer offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior const ToggleRenderer;
+static GlobalNamespace::GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior const ToggleRenderer;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -227,20 +226,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8927))
 // CS Name: OVRMeshRenderer::SystemGestureBehavior
-struct CORDL_TYPE ____GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior(int32_t value__) noexcept;
+constexpr GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior(____GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior const&) = default;
-                    constexpr ____GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior(____GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior&&) = default;
-                    constexpr ____GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior& operator=(____GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior const& o) {
+                    constexpr GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior(GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior const&) = default;
+                    constexpr GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior(GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior&&) = default;
+                    constexpr GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior& operator=(GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior& operator=(____GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior&& o) noexcept {
+                    constexpr GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior& operator=(GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -253,7 +252,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -261,14 +260,14 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior_Unwrapped : int32_t {
+enum class __GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior_Unwrapped : int32_t {
 __None = 0,
 __SwapMaterial = 1,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior_Unwrapped>(__instance);
 }
 
 
@@ -281,10 +280,10 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior const None;
+static GlobalNamespace::GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior const None;
 
 /// @brief Field SwapMaterial offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior const SwapMaterial;
+static GlobalNamespace::GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior const SwapMaterial;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -296,16 +295,16 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8928))
 // CS Name: OVRMeshRenderer
-class CORDL_TYPE OVRMeshRenderer : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OVRMeshRenderer : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using SystemGestureBehavior = ::GlobalNamespace::____GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior;
+using SystemGestureBehavior = GlobalNamespace::GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior;
 
-using ConfidenceBehavior = ::GlobalNamespace::____GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior;
+using ConfidenceBehavior = GlobalNamespace::GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior;
 
-using MeshRendererData = ::GlobalNamespace::____GlobalNamespace__OVRMeshRenderer__MeshRendererData;
+using MeshRendererData = GlobalNamespace::GlobalNamespace__OVRMeshRenderer__MeshRendererData;
 
-using IOVRMeshRendererDataProvider = ::GlobalNamespace::____GlobalNamespace__OVRMeshRenderer__IOVRMeshRendererDataProvider;
+using IOVRMeshRendererDataProvider = GlobalNamespace::GlobalNamespace__OVRMeshRenderer__IOVRMeshRendererDataProvider;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x58};
@@ -319,7 +318,7 @@ constexpr OVRMeshRenderer(OVRMeshRenderer const& ) noexcept = default;
 constexpr OVRMeshRenderer(OVRMeshRenderer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OVRMeshRenderer(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OVRMeshRenderer(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -340,53 +339,53 @@ constexpr explicit OVRMeshRenderer(void* ptr) noexcept : ::UnityEngine::MonoBeha
 
 // Fields
 
- ::GlobalNamespace::____GlobalNamespace__OVRMeshRenderer__IOVRMeshRendererDataProvider __declspec(property(get=__get__dataProvider, put=__set__dataProvider))  _dataProvider;
+ GlobalNamespace::GlobalNamespace__OVRMeshRenderer__IOVRMeshRendererDataProvider __declspec(property(get=__get__dataProvider, put=__set__dataProvider))  _dataProvider;
 
-constexpr void __set__dataProvider(::GlobalNamespace::____GlobalNamespace__OVRMeshRenderer__IOVRMeshRendererDataProvider value) ;
+constexpr void __set__dataProvider(GlobalNamespace::GlobalNamespace__OVRMeshRenderer__IOVRMeshRendererDataProvider value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVRMeshRenderer__IOVRMeshRendererDataProvider __get__dataProvider() const;
+constexpr GlobalNamespace::GlobalNamespace__OVRMeshRenderer__IOVRMeshRendererDataProvider __get__dataProvider() const;
 
- ::GlobalNamespace::OVRMesh __declspec(property(get=__get__ovrMesh, put=__set__ovrMesh))  _ovrMesh;
+ GlobalNamespace::OVRMesh __declspec(property(get=__get__ovrMesh, put=__set__ovrMesh))  _ovrMesh;
 
-constexpr void __set__ovrMesh(::GlobalNamespace::OVRMesh value) ;
+constexpr void __set__ovrMesh(GlobalNamespace::OVRMesh value) ;
 
-constexpr ::GlobalNamespace::OVRMesh __get__ovrMesh() const;
+constexpr GlobalNamespace::OVRMesh __get__ovrMesh() const;
 
- ::GlobalNamespace::OVRSkeleton __declspec(property(get=__get__ovrSkeleton, put=__set__ovrSkeleton))  _ovrSkeleton;
+ GlobalNamespace::OVRSkeleton __declspec(property(get=__get__ovrSkeleton, put=__set__ovrSkeleton))  _ovrSkeleton;
 
-constexpr void __set__ovrSkeleton(::GlobalNamespace::OVRSkeleton value) ;
+constexpr void __set__ovrSkeleton(GlobalNamespace::OVRSkeleton value) ;
 
-constexpr ::GlobalNamespace::OVRSkeleton __get__ovrSkeleton() const;
+constexpr GlobalNamespace::OVRSkeleton __get__ovrSkeleton() const;
 
- ::GlobalNamespace::____GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior __declspec(property(get=__get__confidenceBehavior, put=__set__confidenceBehavior))  _confidenceBehavior;
+ GlobalNamespace::GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior __declspec(property(get=__get__confidenceBehavior, put=__set__confidenceBehavior))  _confidenceBehavior;
 
-constexpr void __set__confidenceBehavior(::GlobalNamespace::____GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior value) ;
+constexpr void __set__confidenceBehavior(GlobalNamespace::GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior __get__confidenceBehavior() const;
+constexpr GlobalNamespace::GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior __get__confidenceBehavior() const;
 
- ::GlobalNamespace::____GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior __declspec(property(get=__get__systemGestureBehavior, put=__set__systemGestureBehavior))  _systemGestureBehavior;
+ GlobalNamespace::GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior __declspec(property(get=__get__systemGestureBehavior, put=__set__systemGestureBehavior))  _systemGestureBehavior;
 
-constexpr void __set__systemGestureBehavior(::GlobalNamespace::____GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior value) ;
+constexpr void __set__systemGestureBehavior(GlobalNamespace::GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior __get__systemGestureBehavior() const;
+constexpr GlobalNamespace::GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior __get__systemGestureBehavior() const;
 
- ::UnityEngine::Material __declspec(property(get=__get__systemGestureMaterial, put=__set__systemGestureMaterial))  _systemGestureMaterial;
+ UnityEngine::Material __declspec(property(get=__get__systemGestureMaterial, put=__set__systemGestureMaterial))  _systemGestureMaterial;
 
-constexpr void __set__systemGestureMaterial(::UnityEngine::Material value) ;
+constexpr void __set__systemGestureMaterial(UnityEngine::Material value) ;
 
-constexpr ::UnityEngine::Material __get__systemGestureMaterial() const;
+constexpr UnityEngine::Material __get__systemGestureMaterial() const;
 
- ::UnityEngine::Material __declspec(property(get=__get__originalMaterial, put=__set__originalMaterial))  _originalMaterial;
+ UnityEngine::Material __declspec(property(get=__get__originalMaterial, put=__set__originalMaterial))  _originalMaterial;
 
-constexpr void __set__originalMaterial(::UnityEngine::Material value) ;
+constexpr void __set__originalMaterial(UnityEngine::Material value) ;
 
-constexpr ::UnityEngine::Material __get__originalMaterial() const;
+constexpr UnityEngine::Material __get__originalMaterial() const;
 
- ::UnityEngine::SkinnedMeshRenderer __declspec(property(get=__get__skinnedMeshRenderer, put=__set__skinnedMeshRenderer))  _skinnedMeshRenderer;
+ UnityEngine::SkinnedMeshRenderer __declspec(property(get=__get__skinnedMeshRenderer, put=__set__skinnedMeshRenderer))  _skinnedMeshRenderer;
 
-constexpr void __set__skinnedMeshRenderer(::UnityEngine::SkinnedMeshRenderer value) ;
+constexpr void __set__skinnedMeshRenderer(UnityEngine::SkinnedMeshRenderer value) ;
 
-constexpr ::UnityEngine::SkinnedMeshRenderer __get__skinnedMeshRenderer() const;
+constexpr UnityEngine::SkinnedMeshRenderer __get__skinnedMeshRenderer() const;
 
  bool __declspec(property(get=__get__IsInitialized_k__BackingField, put=__set__IsInitialized_k__BackingField))  _IsInitialized_k__BackingField;
 
@@ -475,11 +474,10 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior, "", "OVRMeshRenderer/ConfidenceBehavior");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior, "", "OVRMeshRenderer/SystemGestureBehavior");
-NEED_NO_BOX(::GlobalNamespace::OVRMeshRenderer);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRMeshRenderer, "", "OVRMeshRenderer");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__OVRMeshRenderer__IOVRMeshRendererDataProvider);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVRMeshRenderer__IOVRMeshRendererDataProvider, "", "OVRMeshRenderer/IOVRMeshRendererDataProvider");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVRMeshRenderer__MeshRendererData, "", "OVRMeshRenderer/MeshRendererData");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior, "", "OVRMeshRenderer/ConfidenceBehavior");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior, "", "OVRMeshRenderer/SystemGestureBehavior");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__OVRMeshRenderer__IOVRMeshRendererDataProvider);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRMeshRenderer__IOVRMeshRendererDataProvider, "", "OVRMeshRenderer/IOVRMeshRendererDataProvider");
+NEED_NO_BOX(GlobalNamespace::OVRMeshRenderer);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMeshRenderer, "", "OVRMeshRenderer");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRMeshRenderer__MeshRendererData, "", "OVRMeshRenderer/MeshRendererData");

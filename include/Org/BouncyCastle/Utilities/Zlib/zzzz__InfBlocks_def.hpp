@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
+namespace Org::BouncyCastle::Utilities::Zlib {
+class ZStream;
+}
 namespace Org::BouncyCastle::Utilities::Zlib {
 class InfCodes;
 }
 namespace Org::BouncyCastle::Utilities::Zlib {
 class InfTree;
-}
-namespace Org::BouncyCastle::Utilities::Zlib {
-class ZStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Zlib {
@@ -173,11 +172,11 @@ constexpr void __set_tb(::ArrayW<int32_t> value) ;
 
 constexpr ::ArrayW<int32_t> __get_tb() const;
 
- ::Org::BouncyCastle::Utilities::Zlib::InfCodes __declspec(property(get=__get_codes, put=__set_codes))  codes;
+ Org::BouncyCastle::Utilities::Zlib::InfCodes __declspec(property(get=__get_codes, put=__set_codes))  codes;
 
-constexpr void __set_codes(::Org::BouncyCastle::Utilities::Zlib::InfCodes value) ;
+constexpr void __set_codes(Org::BouncyCastle::Utilities::Zlib::InfCodes value) ;
 
-constexpr ::Org::BouncyCastle::Utilities::Zlib::InfCodes __get_codes() const;
+constexpr Org::BouncyCastle::Utilities::Zlib::InfCodes __get_codes() const;
 
  int32_t __declspec(property(get=__get_last, put=__set_last))  last;
 
@@ -239,29 +238,29 @@ constexpr void __set_check(int64_t value) ;
 
 constexpr int64_t __get_check() const;
 
- ::Org::BouncyCastle::Utilities::Zlib::InfTree __declspec(property(get=__get_inftree, put=__set_inftree))  inftree;
+ Org::BouncyCastle::Utilities::Zlib::InfTree __declspec(property(get=__get_inftree, put=__set_inftree))  inftree;
 
-constexpr void __set_inftree(::Org::BouncyCastle::Utilities::Zlib::InfTree value) ;
+constexpr void __set_inftree(Org::BouncyCastle::Utilities::Zlib::InfTree value) ;
 
-constexpr ::Org::BouncyCastle::Utilities::Zlib::InfTree __get_inftree() const;
+constexpr Org::BouncyCastle::Utilities::Zlib::InfTree __get_inftree() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "z", ty: "::Org::BouncyCastle::Utilities::Zlib::ZStream", modifiers: "", def_value: None }, CppParam { name: "checkfn", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "w", ty: "int32_t", modifiers: "", def_value: None }]
-explicit InfBlocks(::Org::BouncyCastle::Utilities::Zlib::ZStream z, ::bs_hook::Il2CppWrapperType checkfn, int32_t w) ;
+// Ctor Parameters [CppParam { name: "z", ty: "Org::BouncyCastle::Utilities::Zlib::ZStream", modifiers: "", def_value: None }, CppParam { name: "checkfn", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "w", ty: "int32_t", modifiers: "", def_value: None }]
+explicit InfBlocks(Org::BouncyCastle::Utilities::Zlib::ZStream z, ::bs_hook::Il2CppWrapperType checkfn, int32_t w) ;
 
 /// @brief Method .ctor addr 0x10d93a8 size 0x148 virtual false final false
- void _ctor(::Org::BouncyCastle::Utilities::Zlib::ZStream z, ::bs_hook::Il2CppWrapperType checkfn, int32_t w) ;
+ void _ctor(Org::BouncyCastle::Utilities::Zlib::ZStream z, ::bs_hook::Il2CppWrapperType checkfn, int32_t w) ;
 
 /// @brief Method reset addr 0x10d9510 size 0x90 virtual false final false
- void reset(::Org::BouncyCastle::Utilities::Zlib::ZStream z, ::ArrayW<int64_t> c) ;
+ void reset(Org::BouncyCastle::Utilities::Zlib::ZStream z, ::ArrayW<int64_t> c) ;
 
 /// @brief Method proc addr 0x10d95a4 size 0x10b0 virtual false final false
- int32_t proc(::Org::BouncyCastle::Utilities::Zlib::ZStream z, int32_t r) ;
+ int32_t proc(Org::BouncyCastle::Utilities::Zlib::ZStream z, int32_t r) ;
 
 /// @brief Method free addr 0x10db630 size 0x1c virtual false final false
- void free(::Org::BouncyCastle::Utilities::Zlib::ZStream z) ;
+ void free(Org::BouncyCastle::Utilities::Zlib::ZStream z) ;
 
 /// @brief Method set_dictionary addr 0x10db64c size 0x40 virtual false final false
  void set_dictionary(::ArrayW<uint8_t> d, int32_t start, int32_t n) ;
@@ -270,12 +269,11 @@ explicit InfBlocks(::Org::BouncyCastle::Utilities::Zlib::ZStream z, ::bs_hook::I
  int32_t sync_point() ;
 
 /// @brief Method inflate_flush addr 0x10da654 size 0x180 virtual false final false
- int32_t inflate_flush(::Org::BouncyCastle::Utilities::Zlib::ZStream z, int32_t r) ;
+ int32_t inflate_flush(Org::BouncyCastle::Utilities::Zlib::ZStream z, int32_t r) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities::Zlib
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::Zlib::InfBlocks);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Zlib::InfBlocks, "Org.BouncyCastle.Utilities.Zlib", "InfBlocks");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Zlib::InfBlocks);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Zlib::InfBlocks, "Org.BouncyCastle.Utilities.Zlib", "InfBlocks");

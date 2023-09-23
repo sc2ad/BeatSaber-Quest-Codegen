@@ -3,7 +3,6 @@
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 class Material;
 }
@@ -17,7 +16,7 @@ namespace UnityEngine::TextCore::Text {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10151))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13537))
 // CS Name: UnityEngine.TextCore.Text.TextAsset
-class CORDL_TYPE TextAsset : public ::UnityEngine::ScriptableObject {
+class CORDL_TYPE TextAsset : public UnityEngine::ScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr TextAsset(TextAsset const& ) noexcept = default;
 constexpr TextAsset(TextAsset&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TextAsset(void* ptr) noexcept : ::UnityEngine::ScriptableObject(ptr) {
+constexpr explicit TextAsset(void* ptr) noexcept : UnityEngine::ScriptableObject(ptr) {
 }
 
 
@@ -71,11 +70,11 @@ constexpr void __set_m_HashCode(int32_t value) ;
 
 constexpr int32_t __get_m_HashCode() const;
 
- ::UnityEngine::Material __declspec(property(get=__get_m_Material, put=__set_m_Material))  m_Material;
+ UnityEngine::Material __declspec(property(get=__get_m_Material, put=__set_m_Material))  m_Material;
 
-constexpr void __set_m_Material(::UnityEngine::Material value) ;
+constexpr void __set_m_Material(UnityEngine::Material value) ;
 
-constexpr ::UnityEngine::Material __get_m_Material() const;
+constexpr UnityEngine::Material __get_m_Material() const;
 
  int32_t __declspec(property(get=__get_m_MaterialHashCode, put=__set_m_MaterialHashCode))  m_MaterialHashCode;
 
@@ -92,7 +91,7 @@ constexpr int32_t __get_m_MaterialHashCode() const;
 
  int32_t __declspec(property(get=get_hashCode, put=set_hashCode))  hashCode;
 
- ::UnityEngine::Material __declspec(property(get=get_material, put=set_material))  material;
+ UnityEngine::Material __declspec(property(get=get_material, put=set_material))  material;
 
  int32_t __declspec(property(get=get_materialHashCode, put=set_materialHashCode))  materialHashCode;
 
@@ -115,10 +114,10 @@ constexpr int32_t __get_m_MaterialHashCode() const;
  void set_hashCode(int32_t value) ;
 
 /// @brief Method get_material addr 0x2bd2580 size 0x8 virtual false final false
- ::UnityEngine::Material get_material() ;
+ UnityEngine::Material get_material() ;
 
 /// @brief Method set_material addr 0x2bd2588 size 0x8 virtual false final false
- void set_material(::UnityEngine::Material value) ;
+ void set_material(UnityEngine::Material value) ;
 
 /// @brief Method get_materialHashCode addr 0x2bd2590 size 0x98 virtual false final false
  int32_t get_materialHashCode() ;
@@ -136,6 +135,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::Text
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::TextCore::Text::TextAsset);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::TextAsset, "UnityEngine.TextCore.Text", "TextAsset");
+NEED_NO_BOX(UnityEngine::TextCore::Text::TextAsset);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Text::TextAsset, "UnityEngine.TextCore.Text", "TextAsset");

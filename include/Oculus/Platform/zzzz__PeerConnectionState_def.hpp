@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform {
 struct PeerConnectionState;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::Oculus::Platform::PeerConnectionState const Unknown;
+static Oculus::Platform::PeerConnectionState const Unknown;
 
 /// @brief Field Connected offset 0
-static ::Oculus::Platform::PeerConnectionState const Connected;
+static Oculus::Platform::PeerConnectionState const Connected;
 
 /// @brief Field Timeout offset 0
-static ::Oculus::Platform::PeerConnectionState const Timeout;
+static Oculus::Platform::PeerConnectionState const Timeout;
 
 /// @brief Field Closed offset 0
-static ::Oculus::Platform::PeerConnectionState const Closed;
+static Oculus::Platform::PeerConnectionState const Closed;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::PeerConnectionState, "Oculus.Platform", "PeerConnectionState");
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PeerConnectionState, "Oculus.Platform", "PeerConnectionState");

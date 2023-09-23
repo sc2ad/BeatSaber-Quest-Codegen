@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace Org::BouncyCastle::Crypto {
+class IMac;
+}
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
-}
-namespace Org::BouncyCastle::Crypto {
-class IMac;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -27,8 +26,8 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE Ssl3Mac : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IMac
-constexpr operator  ::Org::BouncyCastle::Crypto::IMac() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IMac
+constexpr operator  Org::BouncyCastle::Crypto::IMac() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -81,11 +80,11 @@ static void __set_OPAD(::ArrayW<uint8_t> value) ;
 
 static ::ArrayW<uint8_t> __get_OPAD() ;
 
- ::Org::BouncyCastle::Crypto::IDigest __declspec(property(get=__get_digest, put=__set_digest))  digest;
+ Org::BouncyCastle::Crypto::IDigest __declspec(property(get=__get_digest, put=__set_digest))  digest;
 
-constexpr void __set_digest(::Org::BouncyCastle::Crypto::IDigest value) ;
+constexpr void __set_digest(Org::BouncyCastle::Crypto::IDigest value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IDigest __get_digest() const;
+constexpr Org::BouncyCastle::Crypto::IDigest __get_digest() const;
 
  int32_t __declspec(property(get=__get_padLength, put=__set_padLength))  padLength;
 
@@ -107,17 +106,17 @@ constexpr ::ArrayW<uint8_t> __get_secret() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "digest", ty: "::Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
-explicit Ssl3Mac(::Org::BouncyCastle::Crypto::IDigest digest) ;
+// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
+explicit Ssl3Mac(Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method .ctor addr 0xf0abd4 size 0xcc virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IDigest digest) ;
+ void _ctor(Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method get_AlgorithmName addr 0xf0aca0 size 0xc0 virtual true final false
  ::StringW get_AlgorithmName() ;
 
 /// @brief Method Init addr 0xf0ad60 size 0xd8 virtual true final false
- void Init(::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method GetMacSize addr 0xf0ae38 size 0xa4 virtual true final false
  int32_t GetMacSize() ;
@@ -141,6 +140,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::Ssl3Mac);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::Ssl3Mac, "Org.BouncyCastle.Crypto.Tls", "Ssl3Mac");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::Ssl3Mac);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::Ssl3Mac, "Org.BouncyCastle.Crypto.Tls", "Ssl3Mac");

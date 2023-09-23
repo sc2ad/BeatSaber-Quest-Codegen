@@ -5,18 +5,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace HMUI {
-class ____HMUI__TableView__IDataSource;
+class HMUI__TableView__IDataSource;
 }
 namespace HMUI {
-class TableCell;
+class TableView;
 }
 namespace GlobalNamespace {
 class TextOnlyTableCell;
 }
 namespace HMUI {
-class TableView;
+class TableCell;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -36,11 +35,11 @@ template<::cordl_internals::il2cpp_reference_type T>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4800)), TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4800), inst: 2 })
 // CS Name: EnumTableViewDataSource`1
-class CORDL_TYPE EnumTableViewDataSource_1<T> : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE EnumTableViewDataSource_1<T> : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-/// @brief Convert operator to ::HMUI::____HMUI__TableView__IDataSource
-constexpr operator  ::HMUI::____HMUI__TableView__IDataSource() const noexcept;
+/// @brief Convert operator to HMUI::HMUI__TableView__IDataSource
+constexpr operator  HMUI::HMUI__TableView__IDataSource() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -54,7 +53,7 @@ constexpr EnumTableViewDataSource_1(EnumTableViewDataSource_1 const& ) noexcept 
 constexpr EnumTableViewDataSource_1(EnumTableViewDataSource_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EnumTableViewDataSource_1(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit EnumTableViewDataSource_1(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -75,11 +74,11 @@ constexpr explicit EnumTableViewDataSource_1(void* ptr) noexcept : ::UnityEngine
 
 // Fields
 
- ::GlobalNamespace::TextOnlyTableCell __declspec(property(get=__get__cellPrefab, put=__set__cellPrefab))  _cellPrefab;
+ GlobalNamespace::TextOnlyTableCell __declspec(property(get=__get__cellPrefab, put=__set__cellPrefab))  _cellPrefab;
 
-constexpr void __set__cellPrefab(::GlobalNamespace::TextOnlyTableCell value) ;
+constexpr void __set__cellPrefab(GlobalNamespace::TextOnlyTableCell value) ;
 
-constexpr ::GlobalNamespace::TextOnlyTableCell __get__cellPrefab() const;
+constexpr GlobalNamespace::TextOnlyTableCell __get__cellPrefab() const;
 
  float_t __declspec(property(get=__get__cellHeight, put=__set__cellHeight))  _cellHeight;
 
@@ -106,7 +105,7 @@ constexpr ::ArrayW<T> __get__values() const;
  int32_t NumberOfCells() ;
 
 /// @brief Method CellForIdx addr 0x0 size 0xffffffffffffffff virtual true final true
- ::HMUI::TableCell CellForIdx(::HMUI::TableView tableView, int32_t idx) ;
+ HMUI::TableCell CellForIdx(HMUI::TableView tableView, int32_t idx) ;
 
 /// @brief Method GetIdForValue addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t GetIdForValue(T value) ;
@@ -130,5 +129,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::EnumTableViewDataSource_1, "", "EnumTableViewDataSource`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::EnumTableViewDataSource_1, "", "EnumTableViewDataSource`1");

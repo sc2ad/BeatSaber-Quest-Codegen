@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Text {
-class Encoding;
-}
 namespace System {
 class TermInfoDriver;
 }
 namespace System::IO {
 class Stream;
+}
+namespace System::Text {
+class Encoding;
 }
 // Forward declare root types
 namespace System::IO {
@@ -24,7 +23,7 @@ namespace System::IO {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3566))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3623))
 // CS Name: System.IO.CStreamWriter
-class CORDL_TYPE CStreamWriter : public ::System::IO::StreamWriter {
+class CORDL_TYPE CStreamWriter : public System::IO::StreamWriter {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr CStreamWriter(CStreamWriter const& ) noexcept = default;
 constexpr CStreamWriter(CStreamWriter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CStreamWriter(void* ptr) noexcept : ::System::IO::StreamWriter(ptr) {
+constexpr explicit CStreamWriter(void* ptr) noexcept : System::IO::StreamWriter(ptr) {
 }
 
 
@@ -60,20 +59,20 @@ constexpr explicit CStreamWriter(void* ptr) noexcept : ::System::IO::StreamWrite
 
 // Fields
 
- ::System::TermInfoDriver __declspec(property(get=__get_driver, put=__set_driver))  driver;
+ System::TermInfoDriver __declspec(property(get=__get_driver, put=__set_driver))  driver;
 
-constexpr void __set_driver(::System::TermInfoDriver value) ;
+constexpr void __set_driver(System::TermInfoDriver value) ;
 
-constexpr ::System::TermInfoDriver __get_driver() const;
+constexpr System::TermInfoDriver __get_driver() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "::System::Text::Encoding", modifiers: "", def_value: None }, CppParam { name: "leaveOpen", ty: "bool", modifiers: "", def_value: None }]
-explicit CStreamWriter(::System::IO::Stream stream, ::System::Text::Encoding encoding, bool leaveOpen) ;
+// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }, CppParam { name: "leaveOpen", ty: "bool", modifiers: "", def_value: None }]
+explicit CStreamWriter(System::IO::Stream stream, System::Text::Encoding encoding, bool leaveOpen) ;
 
 /// @brief Method .ctor addr 0x23d4d1c size 0x128 virtual false final false
- void _ctor(::System::IO::Stream stream, ::System::Text::Encoding encoding, bool leaveOpen) ;
+ void _ctor(System::IO::Stream stream, System::Text::Encoding encoding, bool leaveOpen) ;
 
 /// @brief Method Write addr 0x23d4e44 size 0x348 virtual true final false
  void Write(::ArrayW<char16_t> buffer, int32_t index, int32_t count) ;
@@ -103,6 +102,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::IO
-} // end anonymous namespace
-NEED_NO_BOX(::System::IO::CStreamWriter);
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::CStreamWriter, "System.IO", "CStreamWriter");
+NEED_NO_BOX(System::IO::CStreamWriter);
+DEFINE_IL2CPP_ARG_TYPE(System::IO::CStreamWriter, "System.IO", "CStreamWriter");

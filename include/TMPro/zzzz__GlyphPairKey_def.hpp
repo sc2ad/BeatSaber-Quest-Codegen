@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace TMPro {
 class TMP_GlyphPairAdjustmentRecord;
 }
@@ -78,11 +77,10 @@ constexpr uint32_t __get_key() const;
  void _ctor(uint32_t firstGlyphIndex, uint32_t secondGlyphIndex) ;
 
 /// @brief Method .ctor addr 0x2a722a8 size 0x28 virtual false final false
- void _ctor(::TMPro::TMP_GlyphPairAdjustmentRecord record) ;
+ void _ctor(TMPro::TMP_GlyphPairAdjustmentRecord record) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::GlyphPairKey, "TMPro", "GlyphPairKey");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::GlyphPairKey, "TMPro", "GlyphPairKey");

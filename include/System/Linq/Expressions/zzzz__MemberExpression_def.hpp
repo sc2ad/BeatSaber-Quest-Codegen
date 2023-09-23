@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Linq/Expressions/zzzz__Expression_def.hpp"
-namespace {
 namespace System::Reflection {
 class MemberInfo;
 }
@@ -15,7 +14,7 @@ namespace System::Linq::Expressions {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14581))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14586))
 // CS Name: System.Linq.Expressions.MemberExpression
-class CORDL_TYPE MemberExpression : public ::System::Linq::Expressions::Expression {
+class CORDL_TYPE MemberExpression : public System::Linq::Expressions::Expression {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr MemberExpression(MemberExpression const& ) noexcept = default;
 constexpr MemberExpression(MemberExpression&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MemberExpression(void* ptr) noexcept : ::System::Linq::Expressions::Expression(ptr) {
+constexpr explicit MemberExpression(void* ptr) noexcept : System::Linq::Expressions::Expression(ptr) {
 }
 
 
@@ -51,21 +50,20 @@ constexpr explicit MemberExpression(void* ptr) noexcept : ::System::Linq::Expres
 
 // Properties
 
- ::System::Reflection::MemberInfo __declspec(property(get=get_Member))  Member;
+ System::Reflection::MemberInfo __declspec(property(get=get_Member))  Member;
 
 
 // Methods
 
 /// @brief Method get_Member addr 0x268240c size 0xc virtual false final false
- ::System::Reflection::MemberInfo get_Member() ;
+ System::Reflection::MemberInfo get_Member() ;
 
 /// @brief Method GetMember addr 0x2682418 size 0x24 virtual true final false
- ::System::Reflection::MemberInfo GetMember() ;
+ System::Reflection::MemberInfo GetMember() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Linq::Expressions
-} // end anonymous namespace
-NEED_NO_BOX(::System::Linq::Expressions::MemberExpression);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::MemberExpression, "System.Linq.Expressions", "MemberExpression");
+NEED_NO_BOX(System::Linq::Expressions::MemberExpression);
+DEFINE_IL2CPP_ARG_TYPE(System::Linq::Expressions::MemberExpression, "System.Linq.Expressions", "MemberExpression");

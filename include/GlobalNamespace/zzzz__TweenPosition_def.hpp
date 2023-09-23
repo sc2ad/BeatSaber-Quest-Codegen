@@ -4,18 +4,8 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class AnimationCurve;
-}
-namespace UnityEngine {
-struct Vector3;
-}
 namespace System::Collections {
 class IEnumerator;
-}
-namespace UnityEngine {
-class Transform;
 }
 namespace System {
 class IDisposable;
@@ -24,12 +14,21 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+class AnimationCurve;
+}
+namespace UnityEngine {
+class Transform;
+}
 // Forward declare root types
 namespace GlobalNamespace {
-class TweenPosition;
+class GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11;
+class TweenPosition;
 }
 // Type: ::<AnimateToNewPosCoroutine>d__11
 namespace GlobalNamespace {
@@ -37,46 +36,46 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13844))
 // CS Name: TweenPosition::<AnimateToNewPosCoroutine>d__11
-class CORDL_TYPE ____GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
 
-virtual ~____GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11() = default;
+virtual ~GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11(____GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11(GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11(____GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11(GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11& operator=(____GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11&& o) noexcept = default;
-  constexpr ____GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11& operator=(____GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11 const& o) noexcept = default;
+  constexpr GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11& operator=(GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11&& o) noexcept = default;
+  constexpr GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11& operator=(GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11 const& o) noexcept = default;
                 
 
 
@@ -94,17 +93,17 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::GlobalNamespace::TweenPosition __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::TweenPosition __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::TweenPosition value) ;
+constexpr void __set___4__this(GlobalNamespace::TweenPosition value) ;
 
-constexpr ::GlobalNamespace::TweenPosition __get___4__this() const;
+constexpr GlobalNamespace::TweenPosition __get___4__this() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__startPos_5__2, put=__set__startPos_5__2))  _startPos_5__2;
+ UnityEngine::Vector3 __declspec(property(get=__get__startPos_5__2, put=__set__startPos_5__2))  _startPos_5__2;
 
-constexpr void __set__startPos_5__2(::UnityEngine::Vector3 value) ;
+constexpr void __set__startPos_5__2(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__startPos_5__2() const;
+constexpr UnityEngine::Vector3 __get__startPos_5__2() const;
 
  float_t __declspec(property(get=__get__elapsedTime_5__3, put=__set__elapsedTime_5__3))  _elapsedTime_5__3;
 
@@ -123,7 +122,7 @@ constexpr float_t __get__elapsedTime_5__3() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11(int32_t __1__state) ;
+explicit GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1f7c7e4 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -153,10 +152,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13845))
 // CS Name: TweenPosition
-class CORDL_TYPE TweenPosition : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE TweenPosition : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using _AnimateToNewPosCoroutine_d__11 = ::GlobalNamespace::____GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11;
+using _AnimateToNewPosCoroutine_d__11 = GlobalNamespace::GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -170,7 +169,7 @@ constexpr TweenPosition(TweenPosition const& ) noexcept = default;
 constexpr TweenPosition(TweenPosition&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TweenPosition(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit TweenPosition(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -209,46 +208,46 @@ constexpr void __set__duration(float_t value) ;
 
 constexpr float_t __get__duration() const;
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get__animationCurve, put=__set__animationCurve))  _animationCurve;
+ UnityEngine::AnimationCurve __declspec(property(get=__get__animationCurve, put=__set__animationCurve))  _animationCurve;
 
-constexpr void __set__animationCurve(::UnityEngine::AnimationCurve value) ;
+constexpr void __set__animationCurve(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get__animationCurve() const;
+constexpr UnityEngine::AnimationCurve __get__animationCurve() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
+ UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
 
-constexpr void __set__transform(::UnityEngine::Transform value) ;
+constexpr void __set__transform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__transform() const;
+constexpr UnityEngine::Transform __get__transform() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__targetPos, put=__set__targetPos))  _targetPos;
+ UnityEngine::Vector3 __declspec(property(get=__get__targetPos, put=__set__targetPos))  _targetPos;
 
-constexpr void __set__targetPos(::UnityEngine::Vector3 value) ;
+constexpr void __set__targetPos(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__targetPos() const;
+constexpr UnityEngine::Vector3 __get__targetPos() const;
 
 
 // Properties
 
- ::UnityEngine::Vector3 __declspec(property(get=get_TargetPos, put=set_TargetPos))  TargetPos;
+ UnityEngine::Vector3 __declspec(property(get=get_TargetPos, put=set_TargetPos))  TargetPos;
 
 
 // Methods
 
 /// @brief Method set_TargetPos addr 0x1f7c64c size 0x48 virtual false final false
- void set_TargetPos(::UnityEngine::Vector3 value) ;
+ void set_TargetPos(UnityEngine::Vector3 value) ;
 
 /// @brief Method get_TargetPos addr 0x1f7c754 size 0xc virtual false final false
- ::UnityEngine::Vector3 get_TargetPos() ;
+ UnityEngine::Vector3 get_TargetPos() ;
 
 /// @brief Method Awake addr 0x1f7c760 size 0x1c virtual false final false
  void Awake() ;
 
 /// @brief Method AnimateToNewPos addr 0x1f7c694 size 0xc0 virtual false final false
- void AnimateToNewPos(::UnityEngine::Vector3 pos) ;
+ void AnimateToNewPos(UnityEngine::Vector3 pos) ;
 
 /// @brief Method AnimateToNewPosCoroutine addr 0x1f7c77c size 0x68 virtual false final false
- ::System::Collections::IEnumerator AnimateToNewPosCoroutine(::UnityEngine::Vector3 pos) ;
+ System::Collections::IEnumerator AnimateToNewPosCoroutine(UnityEngine::Vector3 pos) ;
 
 // Ctor Parameters []
 explicit TweenPosition() ;
@@ -260,8 +259,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::TweenPosition);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TweenPosition, "", "TweenPosition");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11, "", "TweenPosition/<AnimateToNewPosCoroutine>d__11");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11, "", "TweenPosition/<AnimateToNewPosCoroutine>d__11");
+NEED_NO_BOX(GlobalNamespace::TweenPosition);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TweenPosition, "", "TweenPosition");

@@ -5,7 +5,16 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
+namespace UnityEngine {
+class WaitForEndOfFrame;
+}
+namespace System {
+class IDisposable;
+}
 namespace System {
 template<typename T>
 class Action_1;
@@ -16,34 +25,24 @@ class IEnumerator;
 namespace UnityEngine::XR {
 struct XRNode;
 }
-namespace UnityEngine {
-class AudioSource;
-}
 namespace Libraries::HM::HMLib::VR {
 class HapticPresetSO;
 }
-namespace System {
-class IDisposable;
-}
 namespace UnityEngine {
-class WaitForEndOfFrame;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
+class AudioSource;
 }
 // Forward declare root types
 namespace GlobalNamespace {
+class GlobalNamespace__HapticsAudioClipPlayer__Pool;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11;
+}
+namespace GlobalNamespace {
 class HapticsAudioClipPlayer;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__HapticsAudioClipPlayer__Pool;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11;
 }
 // Type: ::HapticsAudioClipPlayer
 namespace GlobalNamespace {
@@ -51,14 +50,14 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13926))
 // CS Name: HapticsAudioClipPlayer
-class CORDL_TYPE HapticsAudioClipPlayer : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE HapticsAudioClipPlayer : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using _HandleOneShotPlayEndCoroutine_d__11 = ::GlobalNamespace::____GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11;
+using _HandleOneShotPlayEndCoroutine_d__11 = GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11;
 
-using _HandleContinuousAudioCoroutine_d__9 = ::GlobalNamespace::____GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9;
+using _HandleContinuousAudioCoroutine_d__9 = GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9;
 
-using Pool = ::GlobalNamespace::____GlobalNamespace__HapticsAudioClipPlayer__Pool;
+using Pool = GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer__Pool;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -72,7 +71,7 @@ constexpr HapticsAudioClipPlayer(HapticsAudioClipPlayer const& ) noexcept = defa
 constexpr HapticsAudioClipPlayer(HapticsAudioClipPlayer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HapticsAudioClipPlayer(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit HapticsAudioClipPlayer(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -93,11 +92,11 @@ constexpr explicit HapticsAudioClipPlayer(void* ptr) noexcept : ::UnityEngine::M
 
 // Fields
 
- ::UnityEngine::AudioSource __declspec(property(get=__get__audioSource, put=__set__audioSource))  _audioSource;
+ UnityEngine::AudioSource __declspec(property(get=__get__audioSource, put=__set__audioSource))  _audioSource;
 
-constexpr void __set__audioSource(::UnityEngine::AudioSource value) ;
+constexpr void __set__audioSource(UnityEngine::AudioSource value) ;
 
-constexpr ::UnityEngine::AudioSource __get__audioSource() const;
+constexpr UnityEngine::AudioSource __get__audioSource() const;
 
  float_t __declspec(property(get=__get__baseVolume, put=__set__baseVolume))  _baseVolume;
 
@@ -124,7 +123,7 @@ static constexpr float_t  kContinuousRumbleFadeDuration{0.016666668};
 // Methods
 
 /// @brief Method PlayHapticsPreset addr 0x1f87ef4 size 0x13c virtual false final false
- void PlayHapticsPreset(::UnityEngine::XR::XRNode onNode, ::Libraries::HM::HMLib::VR::HapticPresetSO preset, ::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer> onComplete) ;
+ void PlayHapticsPreset(UnityEngine::XR::XRNode onNode, Libraries::HM::HMLib::VR::HapticPresetSO preset, System::Action_1<GlobalNamespace::HapticsAudioClipPlayer> onComplete) ;
 
 /// @brief Method TriggerContinuousHaptic addr 0x1f88250 size 0x38 virtual false final false
  void TriggerContinuousHaptic() ;
@@ -133,13 +132,13 @@ static constexpr float_t  kContinuousRumbleFadeDuration{0.016666668};
  void RestartHaptic() ;
 
 /// @brief Method HandleContinuousAudioCoroutine addr 0x1f881dc size 0x74 virtual false final false
- ::System::Collections::IEnumerator HandleContinuousAudioCoroutine(::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer> onComplete) ;
+ System::Collections::IEnumerator HandleContinuousAudioCoroutine(System::Action_1<GlobalNamespace::HapticsAudioClipPlayer> onComplete) ;
 
 /// @brief Method UpdateFadeVolume addr 0x1f882b4 size 0x48 virtual false final false
  void UpdateFadeVolume(float_t timeSinceEnd) ;
 
 /// @brief Method HandleOneShotPlayEndCoroutine addr 0x1f88168 size 0x74 virtual false final false
- ::System::Collections::IEnumerator HandleOneShotPlayEndCoroutine(::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer> onComplete) ;
+ System::Collections::IEnumerator HandleOneShotPlayEndCoroutine(System::Action_1<GlobalNamespace::HapticsAudioClipPlayer> onComplete) ;
 
 /// @brief Method Reset addr 0x1f88030 size 0x54 virtual false final false
  void Reset() ;
@@ -151,7 +150,7 @@ static constexpr float_t  kContinuousRumbleFadeDuration{0.016666668};
  void Initialize() ;
 
 /// @brief Method GetPanForNode addr 0x1f88084 size 0xe4 virtual false final false
- float_t GetPanForNode(::UnityEngine::XR::XRNode node) ;
+ float_t GetPanForNode(UnityEngine::XR::XRNode node) ;
 
 // Ctor Parameters []
 explicit HapticsAudioClipPlayer() ;
@@ -169,59 +168,59 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Pool
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10980)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10980), inst: 301 }), TypeDefinitionIndex(TypeDefinitionIndex(13926))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13926)), TypeDefinitionIndex(TypeDefinitionIndex(10980)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10980), inst: 301 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13923))
 // CS Name: HapticsAudioClipPlayer::Pool
-class CORDL_TYPE ____GlobalNamespace__HapticsAudioClipPlayer__Pool : public ::Zenject::MemoryPool_1<::GlobalNamespace::HapticsAudioClipPlayer> {
+class CORDL_TYPE GlobalNamespace__HapticsAudioClipPlayer__Pool : public Zenject::MemoryPool_1<GlobalNamespace::HapticsAudioClipPlayer> {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
 
-virtual ~____GlobalNamespace__HapticsAudioClipPlayer__Pool() = default;
+virtual ~GlobalNamespace__HapticsAudioClipPlayer__Pool() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__HapticsAudioClipPlayer__Pool", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__HapticsAudioClipPlayer__Pool(____GlobalNamespace__HapticsAudioClipPlayer__Pool const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__HapticsAudioClipPlayer__Pool", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__HapticsAudioClipPlayer__Pool(GlobalNamespace__HapticsAudioClipPlayer__Pool const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__HapticsAudioClipPlayer__Pool", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__HapticsAudioClipPlayer__Pool(____GlobalNamespace__HapticsAudioClipPlayer__Pool&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__HapticsAudioClipPlayer__Pool", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__HapticsAudioClipPlayer__Pool(GlobalNamespace__HapticsAudioClipPlayer__Pool&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__HapticsAudioClipPlayer__Pool(void* ptr) noexcept : ::Zenject::MemoryPool_1<::GlobalNamespace::HapticsAudioClipPlayer>(ptr) {
+constexpr explicit GlobalNamespace__HapticsAudioClipPlayer__Pool(void* ptr) noexcept : Zenject::MemoryPool_1<GlobalNamespace::HapticsAudioClipPlayer>(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__HapticsAudioClipPlayer__Pool& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__HapticsAudioClipPlayer__Pool& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__HapticsAudioClipPlayer__Pool& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__HapticsAudioClipPlayer__Pool& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__HapticsAudioClipPlayer__Pool& operator=(____GlobalNamespace__HapticsAudioClipPlayer__Pool&& o) noexcept = default;
-  constexpr ____GlobalNamespace__HapticsAudioClipPlayer__Pool& operator=(____GlobalNamespace__HapticsAudioClipPlayer__Pool const& o) noexcept = default;
+  constexpr GlobalNamespace__HapticsAudioClipPlayer__Pool& operator=(GlobalNamespace__HapticsAudioClipPlayer__Pool&& o) noexcept = default;
+  constexpr GlobalNamespace__HapticsAudioClipPlayer__Pool& operator=(GlobalNamespace__HapticsAudioClipPlayer__Pool const& o) noexcept = default;
                 
 
 
 // Methods
 
 /// @brief Method OnCreated addr 0x1f883b8 size 0x14 virtual true final false
- void OnCreated(::GlobalNamespace::HapticsAudioClipPlayer item) ;
+ void OnCreated(GlobalNamespace::HapticsAudioClipPlayer item) ;
 
 /// @brief Method OnDestroyed addr 0x1f883cc size 0x74 virtual true final false
- void OnDestroyed(::GlobalNamespace::HapticsAudioClipPlayer item) ;
+ void OnDestroyed(GlobalNamespace::HapticsAudioClipPlayer item) ;
 
 /// @brief Method OnDespawned addr 0x1f88440 size 0x14 virtual true final false
- void OnDespawned(::GlobalNamespace::HapticsAudioClipPlayer item) ;
+ void OnDespawned(GlobalNamespace::HapticsAudioClipPlayer item) ;
 
 /// @brief Method Reinitialize addr 0x1f88454 size 0x14 virtual true final false
- void Reinitialize(::GlobalNamespace::HapticsAudioClipPlayer clipPlayer) ;
+ void Reinitialize(GlobalNamespace::HapticsAudioClipPlayer clipPlayer) ;
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__HapticsAudioClipPlayer__Pool() ;
+explicit GlobalNamespace__HapticsAudioClipPlayer__Pool() ;
 
 /// @brief Method .ctor addr 0x1f88468 size 0x48 virtual false final false
  void _ctor() ;
@@ -236,46 +235,46 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13924))
 // CS Name: HapticsAudioClipPlayer::<HandleContinuousAudioCoroutine>d__9
-class CORDL_TYPE ____GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
 
-virtual ~____GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9() = default;
+virtual ~GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9(____GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9(GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9(____GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9(GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9& operator=(____GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9&& o) noexcept = default;
-  constexpr ____GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9& operator=(____GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9 const& o) noexcept = default;
+  constexpr GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9& operator=(GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9&& o) noexcept = default;
+  constexpr GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9& operator=(GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9 const& o) noexcept = default;
                 
 
 
@@ -293,23 +292,23 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::GlobalNamespace::HapticsAudioClipPlayer __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::HapticsAudioClipPlayer __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::HapticsAudioClipPlayer value) ;
+constexpr void __set___4__this(GlobalNamespace::HapticsAudioClipPlayer value) ;
 
-constexpr ::GlobalNamespace::HapticsAudioClipPlayer __get___4__this() const;
+constexpr GlobalNamespace::HapticsAudioClipPlayer __get___4__this() const;
 
- ::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer> __declspec(property(get=__get_onComplete, put=__set_onComplete))  onComplete;
+ System::Action_1<GlobalNamespace::HapticsAudioClipPlayer> __declspec(property(get=__get_onComplete, put=__set_onComplete))  onComplete;
 
-constexpr void __set_onComplete(::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer> value) ;
+constexpr void __set_onComplete(System::Action_1<GlobalNamespace::HapticsAudioClipPlayer> value) ;
 
-constexpr ::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer> __get_onComplete() const;
+constexpr System::Action_1<GlobalNamespace::HapticsAudioClipPlayer> __get_onComplete() const;
 
- ::UnityEngine::WaitForEndOfFrame __declspec(property(get=__get__waitForLateUpdate_5__2, put=__set__waitForLateUpdate_5__2))  _waitForLateUpdate_5__2;
+ UnityEngine::WaitForEndOfFrame __declspec(property(get=__get__waitForLateUpdate_5__2, put=__set__waitForLateUpdate_5__2))  _waitForLateUpdate_5__2;
 
-constexpr void __set__waitForLateUpdate_5__2(::UnityEngine::WaitForEndOfFrame value) ;
+constexpr void __set__waitForLateUpdate_5__2(UnityEngine::WaitForEndOfFrame value) ;
 
-constexpr ::UnityEngine::WaitForEndOfFrame __get__waitForLateUpdate_5__2() const;
+constexpr UnityEngine::WaitForEndOfFrame __get__waitForLateUpdate_5__2() const;
 
 
 // Properties
@@ -322,7 +321,7 @@ constexpr ::UnityEngine::WaitForEndOfFrame __get__waitForLateUpdate_5__2() const
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9(int32_t __1__state) ;
+explicit GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1f8828c size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -352,46 +351,46 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13925))
 // CS Name: HapticsAudioClipPlayer::<HandleOneShotPlayEndCoroutine>d__11
-class CORDL_TYPE ____GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11() = default;
+virtual ~GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11(____GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11(GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11(____GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11(GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11& operator=(____GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11&& o) noexcept = default;
-  constexpr ____GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11& operator=(____GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11 const& o) noexcept = default;
+  constexpr GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11& operator=(GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11&& o) noexcept = default;
+  constexpr GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11& operator=(GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11 const& o) noexcept = default;
                 
 
 
@@ -409,17 +408,17 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::GlobalNamespace::HapticsAudioClipPlayer __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::HapticsAudioClipPlayer __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::HapticsAudioClipPlayer value) ;
+constexpr void __set___4__this(GlobalNamespace::HapticsAudioClipPlayer value) ;
 
-constexpr ::GlobalNamespace::HapticsAudioClipPlayer __get___4__this() const;
+constexpr GlobalNamespace::HapticsAudioClipPlayer __get___4__this() const;
 
- ::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer> __declspec(property(get=__get_onComplete, put=__set_onComplete))  onComplete;
+ System::Action_1<GlobalNamespace::HapticsAudioClipPlayer> __declspec(property(get=__get_onComplete, put=__set_onComplete))  onComplete;
 
-constexpr void __set_onComplete(::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer> value) ;
+constexpr void __set_onComplete(System::Action_1<GlobalNamespace::HapticsAudioClipPlayer> value) ;
 
-constexpr ::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer> __get_onComplete() const;
+constexpr System::Action_1<GlobalNamespace::HapticsAudioClipPlayer> __get_onComplete() const;
 
 
 // Properties
@@ -432,7 +431,7 @@ constexpr ::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer> __get_on
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11(int32_t __1__state) ;
+explicit GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1f882fc size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -456,12 +455,11 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::HapticsAudioClipPlayer);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::HapticsAudioClipPlayer, "", "HapticsAudioClipPlayer");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__HapticsAudioClipPlayer__Pool);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__HapticsAudioClipPlayer__Pool, "", "HapticsAudioClipPlayer/Pool");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9, "", "HapticsAudioClipPlayer/<HandleContinuousAudioCoroutine>d__9");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11, "", "HapticsAudioClipPlayer/<HandleOneShotPlayEndCoroutine>d__11");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer__Pool);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer__Pool, "", "HapticsAudioClipPlayer/Pool");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9, "", "HapticsAudioClipPlayer/<HandleContinuousAudioCoroutine>d__9");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11, "", "HapticsAudioClipPlayer/<HandleOneShotPlayEndCoroutine>d__11");
+NEED_NO_BOX(GlobalNamespace::HapticsAudioClipPlayer);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HapticsAudioClipPlayer, "", "HapticsAudioClipPlayer");

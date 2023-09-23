@@ -6,25 +6,24 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
+namespace UnityEngine {
+class Shader;
+}
 namespace UnityEngine {
 class Material;
 }
 namespace UnityEngine {
 class RenderTexture;
 }
-namespace UnityEngine {
-class Shader;
-}
 // Forward declare root types
 namespace GlobalNamespace {
-struct ____GlobalNamespace__PyramidBloomRendererSO__Pass;
+struct GlobalNamespace__PyramidBloomRendererSO__Pass;
 }
 namespace GlobalNamespace {
 class PyramidBloomRendererSO;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__PyramidBloomRendererSO__Level;
+struct GlobalNamespace__PyramidBloomRendererSO__Level;
 }
 // Type: ::Pass
 namespace GlobalNamespace {
@@ -32,20 +31,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14608))
 // CS Name: PyramidBloomRendererSO::Pass
-struct CORDL_TYPE ____GlobalNamespace__PyramidBloomRendererSO__Pass : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__PyramidBloomRendererSO__Pass : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__PyramidBloomRendererSO__Pass(int32_t value__) noexcept;
+constexpr GlobalNamespace__PyramidBloomRendererSO__Pass(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__PyramidBloomRendererSO__Pass(____GlobalNamespace__PyramidBloomRendererSO__Pass const&) = default;
-                    constexpr ____GlobalNamespace__PyramidBloomRendererSO__Pass(____GlobalNamespace__PyramidBloomRendererSO__Pass&&) = default;
-                    constexpr ____GlobalNamespace__PyramidBloomRendererSO__Pass& operator=(____GlobalNamespace__PyramidBloomRendererSO__Pass const& o) {
+                    constexpr GlobalNamespace__PyramidBloomRendererSO__Pass(GlobalNamespace__PyramidBloomRendererSO__Pass const&) = default;
+                    constexpr GlobalNamespace__PyramidBloomRendererSO__Pass(GlobalNamespace__PyramidBloomRendererSO__Pass&&) = default;
+                    constexpr GlobalNamespace__PyramidBloomRendererSO__Pass& operator=(GlobalNamespace__PyramidBloomRendererSO__Pass const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__PyramidBloomRendererSO__Pass& operator=(____GlobalNamespace__PyramidBloomRendererSO__Pass&& o) noexcept {
+                    constexpr GlobalNamespace__PyramidBloomRendererSO__Pass& operator=(GlobalNamespace__PyramidBloomRendererSO__Pass&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -58,7 +57,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__PyramidBloomRendererSO__Pass(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__PyramidBloomRendererSO__Pass(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -66,7 +65,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__PyramidBloomRendererSO__Pass_Unwrapped : int32_t {
+enum class __GlobalNamespace__PyramidBloomRendererSO__Pass_Unwrapped : int32_t {
 __Prefilter13 = 0,
 __Prefilter4 = 1,
 __Downsample13 = 2,
@@ -84,8 +83,8 @@ __UpsampleTentAndACESToneMappingGlobalIntensity = 13,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__PyramidBloomRendererSO__Pass_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__PyramidBloomRendererSO__Pass_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__PyramidBloomRendererSO__Pass_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__PyramidBloomRendererSO__Pass_Unwrapped>(__instance);
 }
 
 
@@ -98,46 +97,46 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Prefilter13 offset 0
-static ::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Pass const Prefilter13;
+static GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass const Prefilter13;
 
 /// @brief Field Prefilter4 offset 0
-static ::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Pass const Prefilter4;
+static GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass const Prefilter4;
 
 /// @brief Field Downsample13 offset 0
-static ::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Pass const Downsample13;
+static GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass const Downsample13;
 
 /// @brief Field Downsample4 offset 0
-static ::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Pass const Downsample4;
+static GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass const Downsample4;
 
 /// @brief Field DownsampleBilinearGamma offset 0
-static ::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Pass const DownsampleBilinearGamma;
+static GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass const DownsampleBilinearGamma;
 
 /// @brief Field UpsampleTent offset 0
-static ::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Pass const UpsampleTent;
+static GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass const UpsampleTent;
 
 /// @brief Field UpsampleBox offset 0
-static ::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Pass const UpsampleBox;
+static GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass const UpsampleBox;
 
 /// @brief Field UpsampleTentGamma offset 0
-static ::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Pass const UpsampleTentGamma;
+static GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass const UpsampleTentGamma;
 
 /// @brief Field UpsampleBoxGamma offset 0
-static ::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Pass const UpsampleBoxGamma;
+static GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass const UpsampleBoxGamma;
 
 /// @brief Field Bilinear offset 0
-static ::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Pass const Bilinear;
+static GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass const Bilinear;
 
 /// @brief Field BilinearGamma offset 0
-static ::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Pass const BilinearGamma;
+static GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass const BilinearGamma;
 
 /// @brief Field UpsampleTentAndReinhardToneMapping offset 0
-static ::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Pass const UpsampleTentAndReinhardToneMapping;
+static GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass const UpsampleTentAndReinhardToneMapping;
 
 /// @brief Field UpsampleTentAndACESToneMapping offset 0
-static ::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Pass const UpsampleTentAndACESToneMapping;
+static GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass const UpsampleTentAndACESToneMapping;
 
 /// @brief Field UpsampleTentAndACESToneMappingGlobalIntensity offset 0
-static ::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Pass const UpsampleTentAndACESToneMappingGlobalIntensity;
+static GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass const UpsampleTentAndACESToneMappingGlobalIntensity;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -149,20 +148,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14609))
 // CS Name: PyramidBloomRendererSO::Level
-struct CORDL_TYPE ____GlobalNamespace__PyramidBloomRendererSO__Level : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__PyramidBloomRendererSO__Level : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "down", ty: "::UnityEngine::RenderTexture", modifiers: "", def_value: None }, CppParam { name: "up", ty: "::UnityEngine::RenderTexture", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__PyramidBloomRendererSO__Level(::UnityEngine::RenderTexture down, ::UnityEngine::RenderTexture up) noexcept;
+// Ctor Parameters [CppParam { name: "down", ty: "UnityEngine::RenderTexture", modifiers: "", def_value: None }, CppParam { name: "up", ty: "UnityEngine::RenderTexture", modifiers: "", def_value: None }]
+constexpr GlobalNamespace__PyramidBloomRendererSO__Level(UnityEngine::RenderTexture down, UnityEngine::RenderTexture up) noexcept;
 
 
-                    constexpr ____GlobalNamespace__PyramidBloomRendererSO__Level(____GlobalNamespace__PyramidBloomRendererSO__Level const&) = default;
-                    constexpr ____GlobalNamespace__PyramidBloomRendererSO__Level(____GlobalNamespace__PyramidBloomRendererSO__Level&&) = default;
-                    constexpr ____GlobalNamespace__PyramidBloomRendererSO__Level& operator=(____GlobalNamespace__PyramidBloomRendererSO__Level const& o) {
+                    constexpr GlobalNamespace__PyramidBloomRendererSO__Level(GlobalNamespace__PyramidBloomRendererSO__Level const&) = default;
+                    constexpr GlobalNamespace__PyramidBloomRendererSO__Level(GlobalNamespace__PyramidBloomRendererSO__Level&&) = default;
+                    constexpr GlobalNamespace__PyramidBloomRendererSO__Level& operator=(GlobalNamespace__PyramidBloomRendererSO__Level const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__PyramidBloomRendererSO__Level& operator=(____GlobalNamespace__PyramidBloomRendererSO__Level&& o) noexcept {
+                    constexpr GlobalNamespace__PyramidBloomRendererSO__Level& operator=(GlobalNamespace__PyramidBloomRendererSO__Level&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -175,7 +174,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x10};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__PyramidBloomRendererSO__Level(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__PyramidBloomRendererSO__Level(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -186,17 +185,17 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::RenderTexture __declspec(property(get=__get_down, put=__set_down))  down;
+ UnityEngine::RenderTexture __declspec(property(get=__get_down, put=__set_down))  down;
 
-constexpr void __set_down(::UnityEngine::RenderTexture value) ;
+constexpr void __set_down(UnityEngine::RenderTexture value) ;
 
-constexpr ::UnityEngine::RenderTexture __get_down() const;
+constexpr UnityEngine::RenderTexture __get_down() const;
 
- ::UnityEngine::RenderTexture __declspec(property(get=__get_up, put=__set_up))  up;
+ UnityEngine::RenderTexture __declspec(property(get=__get_up, put=__set_up))  up;
 
-constexpr void __set_up(::UnityEngine::RenderTexture value) ;
+constexpr void __set_up(UnityEngine::RenderTexture value) ;
 
-constexpr ::UnityEngine::RenderTexture __get_up() const;
+constexpr UnityEngine::RenderTexture __get_up() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -208,12 +207,12 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14610))
 // CS Name: PyramidBloomRendererSO
-class CORDL_TYPE PyramidBloomRendererSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE PyramidBloomRendererSO : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
-using Level = ::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Level;
+using Level = GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Level;
 
-using Pass = ::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Pass;
+using Pass = GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -227,7 +226,7 @@ constexpr PyramidBloomRendererSO(PyramidBloomRendererSO const& ) noexcept = defa
 constexpr PyramidBloomRendererSO(PyramidBloomRendererSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PyramidBloomRendererSO(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit PyramidBloomRendererSO(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -248,23 +247,23 @@ constexpr explicit PyramidBloomRendererSO(void* ptr) noexcept : ::GlobalNamespac
 
 // Fields
 
- ::UnityEngine::Shader __declspec(property(get=__get__shader, put=__set__shader))  _shader;
+ UnityEngine::Shader __declspec(property(get=__get__shader, put=__set__shader))  _shader;
 
-constexpr void __set__shader(::UnityEngine::Shader value) ;
+constexpr void __set__shader(UnityEngine::Shader value) ;
 
-constexpr ::UnityEngine::Shader __get__shader() const;
+constexpr UnityEngine::Shader __get__shader() const;
 
- ::UnityEngine::Material __declspec(property(get=__get__material, put=__set__material))  _material;
+ UnityEngine::Material __declspec(property(get=__get__material, put=__set__material))  _material;
 
-constexpr void __set__material(::UnityEngine::Material value) ;
+constexpr void __set__material(UnityEngine::Material value) ;
 
-constexpr ::UnityEngine::Material __get__material() const;
+constexpr UnityEngine::Material __get__material() const;
 
- ::ArrayW<::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Level> __declspec(property(get=__get__pyramid, put=__set__pyramid))  _pyramid;
+ ::ArrayW<GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Level> __declspec(property(get=__get__pyramid, put=__set__pyramid))  _pyramid;
 
-constexpr void __set__pyramid(::ArrayW<::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Level> value) ;
+constexpr void __set__pyramid(::ArrayW<GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Level> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Level> __get__pyramid() const;
+constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Level> __get__pyramid() const;
 
 /// @brief Field kMaxPyramidSize offset 0
 static constexpr int32_t  kMaxPyramidSize{16};
@@ -333,10 +332,10 @@ constexpr bool __get__initialized() const;
  void OnDisable() ;
 
 /// @brief Method RenderBloom addr 0x1f8f4f8 size 0x84 virtual false final false
- void RenderBloom(::UnityEngine::RenderTexture src, ::UnityEngine::RenderTexture dest, float_t radius, bool alphaWeights, bool betterQuality, bool gammaCorrection) ;
+ void RenderBloom(UnityEngine::RenderTexture src, UnityEngine::RenderTexture dest, float_t radius, bool alphaWeights, bool betterQuality, bool gammaCorrection) ;
 
 /// @brief Method RenderBloom addr 0x1f8f57c size 0x800 virtual false final false
- void RenderBloom(::UnityEngine::RenderTexture src, ::UnityEngine::RenderTexture dest, float_t radius, float_t intensity, float_t autoExposureLimit, float_t downIntensityOffset, bool uniformPyramidWeights, bool downsampleOnFirstPass, float_t pyramidWeightsParam, float_t alphaWeights, float_t firstUpsampleBrightness, float_t finalUpsampleBrightness, ::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Pass preFilterPass, ::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Pass downsamplePass, ::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Pass upsamplePass, ::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Pass finalUpsamplePass, bool isScreenspaceEffect) ;
+ void RenderBloom(UnityEngine::RenderTexture src, UnityEngine::RenderTexture dest, float_t radius, float_t intensity, float_t autoExposureLimit, float_t downIntensityOffset, bool uniformPyramidWeights, bool downsampleOnFirstPass, float_t pyramidWeightsParam, float_t alphaWeights, float_t firstUpsampleBrightness, float_t finalUpsampleBrightness, GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass preFilterPass, GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass downsamplePass, GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass upsamplePass, GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass finalUpsamplePass, bool isScreenspaceEffect) ;
 
 // Ctor Parameters []
 explicit PyramidBloomRendererSO() ;
@@ -348,8 +347,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Pass, "", "PyramidBloomRendererSO/Pass");
-NEED_NO_BOX(::GlobalNamespace::PyramidBloomRendererSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PyramidBloomRendererSO, "", "PyramidBloomRendererSO");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Level, "", "PyramidBloomRendererSO/Level");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass, "", "PyramidBloomRendererSO/Pass");
+NEED_NO_BOX(GlobalNamespace::PyramidBloomRendererSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PyramidBloomRendererSO, "", "PyramidBloomRendererSO");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Level, "", "PyramidBloomRendererSO/Level");

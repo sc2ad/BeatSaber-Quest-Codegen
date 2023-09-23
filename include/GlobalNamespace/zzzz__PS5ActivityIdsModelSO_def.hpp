@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
-namespace GlobalNamespace {
-class ProgressActivitySO;
-}
 namespace GlobalNamespace {
 class CompetetiveActivitySO;
+}
+namespace GlobalNamespace {
+class ProgressActivitySO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4648))
 // CS Name: PS5ActivityIdsModelSO
-class CORDL_TYPE PS5ActivityIdsModelSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE PS5ActivityIdsModelSO : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr PS5ActivityIdsModelSO(PS5ActivityIdsModelSO const& ) noexcept = defaul
 constexpr PS5ActivityIdsModelSO(PS5ActivityIdsModelSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PS5ActivityIdsModelSO(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit PS5ActivityIdsModelSO(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -55,33 +54,33 @@ constexpr explicit PS5ActivityIdsModelSO(void* ptr) noexcept : ::GlobalNamespace
 
 // Fields
 
- ::ArrayW<::GlobalNamespace::ProgressActivitySO> __declspec(property(get=__get__progressActivities, put=__set__progressActivities))  _progressActivities;
+ ::ArrayW<GlobalNamespace::ProgressActivitySO> __declspec(property(get=__get__progressActivities, put=__set__progressActivities))  _progressActivities;
 
-constexpr void __set__progressActivities(::ArrayW<::GlobalNamespace::ProgressActivitySO> value) ;
+constexpr void __set__progressActivities(::ArrayW<GlobalNamespace::ProgressActivitySO> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::ProgressActivitySO> __get__progressActivities() const;
+constexpr ::ArrayW<GlobalNamespace::ProgressActivitySO> __get__progressActivities() const;
 
- ::ArrayW<::GlobalNamespace::CompetetiveActivitySO> __declspec(property(get=__get__competetiveActivities, put=__set__competetiveActivities))  _competetiveActivities;
+ ::ArrayW<GlobalNamespace::CompetetiveActivitySO> __declspec(property(get=__get__competetiveActivities, put=__set__competetiveActivities))  _competetiveActivities;
 
-constexpr void __set__competetiveActivities(::ArrayW<::GlobalNamespace::CompetetiveActivitySO> value) ;
+constexpr void __set__competetiveActivities(::ArrayW<GlobalNamespace::CompetetiveActivitySO> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::CompetetiveActivitySO> __get__competetiveActivities() const;
+constexpr ::ArrayW<GlobalNamespace::CompetetiveActivitySO> __get__competetiveActivities() const;
 
 
 // Properties
 
- ::ArrayW<::GlobalNamespace::ProgressActivitySO> __declspec(property(get=get_progressActivities))  progressActivities;
+ ::ArrayW<GlobalNamespace::ProgressActivitySO> __declspec(property(get=get_progressActivities))  progressActivities;
 
- ::ArrayW<::GlobalNamespace::CompetetiveActivitySO> __declspec(property(get=get_competetiveActivities))  competetiveActivities;
+ ::ArrayW<GlobalNamespace::CompetetiveActivitySO> __declspec(property(get=get_competetiveActivities))  competetiveActivities;
 
 
 // Methods
 
 /// @brief Method get_progressActivities addr 0x221a7cc size 0x8 virtual false final false
- ::ArrayW<::GlobalNamespace::ProgressActivitySO> get_progressActivities() ;
+ ::ArrayW<GlobalNamespace::ProgressActivitySO> get_progressActivities() ;
 
 /// @brief Method get_competetiveActivities addr 0x221a7d4 size 0x8 virtual false final false
- ::ArrayW<::GlobalNamespace::CompetetiveActivitySO> get_competetiveActivities() ;
+ ::ArrayW<GlobalNamespace::CompetetiveActivitySO> get_competetiveActivities() ;
 
 // Ctor Parameters []
 explicit PS5ActivityIdsModelSO() ;
@@ -93,6 +92,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PS5ActivityIdsModelSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PS5ActivityIdsModelSO, "", "PS5ActivityIdsModelSO");
+NEED_NO_BOX(GlobalNamespace::PS5ActivityIdsModelSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS5ActivityIdsModelSO, "", "PS5ActivityIdsModelSO");

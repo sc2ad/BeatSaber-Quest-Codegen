@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__MicrophoneAvailabilityState_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
 class MicrophoneAvailabilityState;
 }
@@ -14,10 +13,10 @@ class MessageWithMicrophoneAvailabilityState;
 // Type: Oculus.Platform::MessageWithMicrophoneAvailabilityState
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4461 }), TypeDefinitionIndex(TypeDefinitionIndex(13446)), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13446)), TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4461 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13256))
 // CS Name: Oculus.Platform.MessageWithMicrophoneAvailabilityState
-class CORDL_TYPE MessageWithMicrophoneAvailabilityState : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::MicrophoneAvailabilityState> {
+class CORDL_TYPE MessageWithMicrophoneAvailabilityState : public Oculus::Platform::Message_1<Oculus::Platform::Models::MicrophoneAvailabilityState> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr MessageWithMicrophoneAvailabilityState(MessageWithMicrophoneAvailabili
 constexpr MessageWithMicrophoneAvailabilityState(MessageWithMicrophoneAvailabilityState&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MessageWithMicrophoneAvailabilityState(void* ptr) noexcept : ::Oculus::Platform::Message_1<::Oculus::Platform::Models::MicrophoneAvailabilityState>(ptr) {
+constexpr explicit MessageWithMicrophoneAvailabilityState(void* ptr) noexcept : Oculus::Platform::Message_1<Oculus::Platform::Models::MicrophoneAvailabilityState>(ptr) {
 }
 
 
@@ -60,15 +59,14 @@ explicit MessageWithMicrophoneAvailabilityState(::cordl_internals::intptr_t c_me
  void _ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method GetMicrophoneAvailabilityState addr 0x25825c0 size 0x3c virtual true final false
- ::Oculus::Platform::Models::MicrophoneAvailabilityState GetMicrophoneAvailabilityState() ;
+ Oculus::Platform::Models::MicrophoneAvailabilityState GetMicrophoneAvailabilityState() ;
 
 /// @brief Method GetDataFromMessage addr 0x25825fc size 0x9c virtual true final false
- ::Oculus::Platform::Models::MicrophoneAvailabilityState GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
+ Oculus::Platform::Models::MicrophoneAvailabilityState GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::MessageWithMicrophoneAvailabilityState);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithMicrophoneAvailabilityState, "Oculus.Platform", "MessageWithMicrophoneAvailabilityState");
+NEED_NO_BOX(Oculus::Platform::MessageWithMicrophoneAvailabilityState);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithMicrophoneAvailabilityState, "Oculus.Platform", "MessageWithMicrophoneAvailabilityState");

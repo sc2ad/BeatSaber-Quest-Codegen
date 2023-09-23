@@ -4,7 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
@@ -16,10 +19,6 @@ class List_1;
 namespace System {
 template<typename T>
 class IEquatable_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -34,8 +33,8 @@ namespace UnityEngine::ProBuilder {
 struct CORDL_TYPE Edge : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::ProBuilder::Edge>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::ProBuilder::Edge>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::ProBuilder::Edge>
+constexpr operator  System::IEquatable_1<UnityEngine::ProBuilder::Edge>() const;
 
 // Ctor Parameters [CppParam { name: "a", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "b", ty: "int32_t", modifiers: "", def_value: None }]
 constexpr Edge(int32_t a, int32_t b) noexcept;
@@ -83,11 +82,11 @@ constexpr void __set_b(int32_t value) ;
 
 constexpr int32_t __get_b() const;
 
-static ::UnityEngine::ProBuilder::Edge __declspec(property(get=__get_Empty, put=__set_Empty))  Empty;
+static UnityEngine::ProBuilder::Edge __declspec(property(get=__get_Empty, put=__set_Empty))  Empty;
 
-static void __set_Empty(::UnityEngine::ProBuilder::Edge value) ;
+static void __set_Empty(UnityEngine::ProBuilder::Edge value) ;
 
-static ::UnityEngine::ProBuilder::Edge __get_Empty() ;
+static UnityEngine::ProBuilder::Edge __get_Empty() ;
 
 
 // Methods
@@ -102,7 +101,7 @@ static ::UnityEngine::ProBuilder::Edge __get_Empty() ;
  ::StringW ToString() ;
 
 /// @brief Method Equals addr 0x29aab0c size 0x44 virtual true final true
- bool Equals(::UnityEngine::ProBuilder::Edge other) ;
+ bool Equals(UnityEngine::ProBuilder::Edge other) ;
 
 /// @brief Method Equals addr 0x29aab50 size 0xa0 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -111,47 +110,46 @@ static ::UnityEngine::ProBuilder::Edge __get_Empty() ;
  int32_t GetHashCode() ;
 
 /// @brief Method op_Addition addr 0x29aac14 size 0x18 virtual false final false
-static ::UnityEngine::ProBuilder::Edge op_Addition(::UnityEngine::ProBuilder::Edge a, ::UnityEngine::ProBuilder::Edge b) ;
+static UnityEngine::ProBuilder::Edge op_Addition(UnityEngine::ProBuilder::Edge a, UnityEngine::ProBuilder::Edge b) ;
 
 /// @brief Method op_Subtraction addr 0x29aac2c size 0x18 virtual false final false
-static ::UnityEngine::ProBuilder::Edge op_Subtraction(::UnityEngine::ProBuilder::Edge a, ::UnityEngine::ProBuilder::Edge b) ;
+static UnityEngine::ProBuilder::Edge op_Subtraction(UnityEngine::ProBuilder::Edge a, UnityEngine::ProBuilder::Edge b) ;
 
 /// @brief Method op_Addition addr 0x29aac44 size 0x14 virtual false final false
-static ::UnityEngine::ProBuilder::Edge op_Addition(::UnityEngine::ProBuilder::Edge a, int32_t b) ;
+static UnityEngine::ProBuilder::Edge op_Addition(UnityEngine::ProBuilder::Edge a, int32_t b) ;
 
 /// @brief Method op_Subtraction addr 0x29aac58 size 0x14 virtual false final false
-static ::UnityEngine::ProBuilder::Edge op_Subtraction(::UnityEngine::ProBuilder::Edge a, int32_t b) ;
+static UnityEngine::ProBuilder::Edge op_Subtraction(UnityEngine::ProBuilder::Edge a, int32_t b) ;
 
 /// @brief Method op_Equality addr 0x29aac6c size 0x38 virtual false final false
-static bool op_Equality(::UnityEngine::ProBuilder::Edge a, ::UnityEngine::ProBuilder::Edge b) ;
+static bool op_Equality(UnityEngine::ProBuilder::Edge a, UnityEngine::ProBuilder::Edge b) ;
 
 /// @brief Method op_Inequality addr 0x29aaca4 size 0x90 virtual false final false
-static bool op_Inequality(::UnityEngine::ProBuilder::Edge a, ::UnityEngine::ProBuilder::Edge b) ;
+static bool op_Inequality(UnityEngine::ProBuilder::Edge a, UnityEngine::ProBuilder::Edge b) ;
 
 /// @brief Method Add addr 0x29aad34 size 0x70 virtual false final false
-static ::UnityEngine::ProBuilder::Edge Add(::UnityEngine::ProBuilder::Edge a, ::UnityEngine::ProBuilder::Edge b) ;
+static UnityEngine::ProBuilder::Edge Add(UnityEngine::ProBuilder::Edge a, UnityEngine::ProBuilder::Edge b) ;
 
 /// @brief Method Subtract addr 0x29aada4 size 0x70 virtual false final false
-static ::UnityEngine::ProBuilder::Edge Subtract(::UnityEngine::ProBuilder::Edge a, ::UnityEngine::ProBuilder::Edge b) ;
+static UnityEngine::ProBuilder::Edge Subtract(UnityEngine::ProBuilder::Edge a, UnityEngine::ProBuilder::Edge b) ;
 
 /// @brief Method Equals addr 0x29aae14 size 0x10c virtual false final false
- bool Equals(::UnityEngine::ProBuilder::Edge other, ::System::Collections::Generic::Dictionary_2<int32_t,int32_t> lookup) ;
+ bool Equals(UnityEngine::ProBuilder::Edge other, System::Collections::Generic::Dictionary_2<int32_t,int32_t> lookup) ;
 
 /// @brief Method Contains addr 0x29aaf20 size 0x24 virtual false final false
  bool Contains(int32_t index) ;
 
 /// @brief Method Contains addr 0x29aaf44 size 0x30 virtual false final false
- bool Contains(::UnityEngine::ProBuilder::Edge other) ;
+ bool Contains(UnityEngine::ProBuilder::Edge other) ;
 
 /// @brief Method Contains addr 0x29aaf74 size 0xa4 virtual false final false
- bool Contains(int32_t index, ::System::Collections::Generic::Dictionary_2<int32_t,int32_t> lookup) ;
+ bool Contains(int32_t index, System::Collections::Generic::Dictionary_2<int32_t,int32_t> lookup) ;
 
 /// @brief Method GetIndices addr 0x29ab018 size 0x3d8 virtual false final false
-static void GetIndices(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge> edges, ::System::Collections::Generic::List_1<int32_t> indices) ;
+static void GetIndices(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge> edges, System::Collections::Generic::List_1<int32_t> indices) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Edge, "UnityEngine.ProBuilder", "Edge");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Edge, "UnityEngine.ProBuilder", "Edge");

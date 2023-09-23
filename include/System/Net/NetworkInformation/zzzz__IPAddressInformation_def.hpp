@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Net {
 class IPAddress;
 }
@@ -51,13 +50,13 @@ constexpr explicit IPAddressInformation(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 // Properties
 
- ::System::Net::IPAddress __declspec(property(get=get_Address))  Address;
+ System::Net::IPAddress __declspec(property(get=get_Address))  Address;
 
 
 // Methods
 
 /// @brief Method get_Address addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Net::IPAddress get_Address() ;
+ System::Net::IPAddress get_Address() ;
 
 // Ctor Parameters []
 explicit IPAddressInformation() ;
@@ -69,6 +68,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::NetworkInformation
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::NetworkInformation::IPAddressInformation);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::IPAddressInformation, "System.Net.NetworkInformation", "IPAddressInformation");
+NEED_NO_BOX(System::Net::NetworkInformation::IPAddressInformation);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::IPAddressInformation, "System.Net.NetworkInformation", "IPAddressInformation");

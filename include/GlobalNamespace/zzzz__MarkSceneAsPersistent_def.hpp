@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class GameScenesManager;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13867))
 // CS Name: MarkSceneAsPersistent
-class CORDL_TYPE MarkSceneAsPersistent : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MarkSceneAsPersistent : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr MarkSceneAsPersistent(MarkSceneAsPersistent const& ) noexcept = defaul
 constexpr MarkSceneAsPersistent(MarkSceneAsPersistent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MarkSceneAsPersistent(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MarkSceneAsPersistent(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit MarkSceneAsPersistent(void* ptr) noexcept : ::UnityEngine::Mo
 
 // Fields
 
- ::GlobalNamespace::GameScenesManager __declspec(property(get=__get__gameScenesManager, put=__set__gameScenesManager))  _gameScenesManager;
+ GlobalNamespace::GameScenesManager __declspec(property(get=__get__gameScenesManager, put=__set__gameScenesManager))  _gameScenesManager;
 
-constexpr void __set__gameScenesManager(::GlobalNamespace::GameScenesManager value) ;
+constexpr void __set__gameScenesManager(GlobalNamespace::GameScenesManager value) ;
 
-constexpr ::GlobalNamespace::GameScenesManager __get__gameScenesManager() const;
+constexpr GlobalNamespace::GameScenesManager __get__gameScenesManager() const;
 
 
 // Methods
@@ -73,6 +72,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MarkSceneAsPersistent);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MarkSceneAsPersistent, "", "MarkSceneAsPersistent");
+NEED_NO_BOX(GlobalNamespace::MarkSceneAsPersistent);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MarkSceneAsPersistent, "", "MarkSceneAsPersistent");

@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 class IEquatable_1;
@@ -25,11 +24,11 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE Scale : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::UIElements::Scale>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::UIElements::Scale>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::UIElements::Scale>
+constexpr operator  System::IEquatable_1<UnityEngine::UIElements::Scale>() const;
 
-// Ctor Parameters [CppParam { name: "m_Scale", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_IsNone", ty: "bool", modifiers: "", def_value: None }]
-constexpr Scale(::UnityEngine::Vector3 m_Scale, bool m_IsNone) noexcept;
+// Ctor Parameters [CppParam { name: "m_Scale", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_IsNone", ty: "bool", modifiers: "", def_value: None }]
+constexpr Scale(UnityEngine::Vector3 m_Scale, bool m_IsNone) noexcept;
 
 
                     constexpr Scale(Scale const&) = default;
@@ -62,11 +61,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_m_Scale, put=__set_m_Scale))  m_Scale;
+ UnityEngine::Vector3 __declspec(property(get=__get_m_Scale, put=__set_m_Scale))  m_Scale;
 
-constexpr void __set_m_Scale(::UnityEngine::Vector3 value) ;
+constexpr void __set_m_Scale(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_m_Scale() const;
+constexpr UnityEngine::Vector3 __get_m_Scale() const;
 
  bool __declspec(property(get=__get_m_IsNone, put=__set_m_IsNone))  m_IsNone;
 
@@ -77,31 +76,31 @@ constexpr bool __get_m_IsNone() const;
 
 // Properties
 
- ::UnityEngine::Vector3 __declspec(property(get=get_value))  value;
+ UnityEngine::Vector3 __declspec(property(get=get_value))  value;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x2cfe83c size 0x14 virtual false final false
- void _ctor(::UnityEngine::Vector3 scale) ;
+ void _ctor(UnityEngine::Vector3 scale) ;
 
 /// @brief Method Initial addr 0x2cfe850 size 0x44 virtual false final false
-static ::UnityEngine::UIElements::Scale Initial() ;
+static UnityEngine::UIElements::Scale Initial() ;
 
 /// @brief Method None addr 0x2cf9e6c size 0x18 virtual false final false
-static ::UnityEngine::UIElements::Scale None() ;
+static UnityEngine::UIElements::Scale None() ;
 
 /// @brief Method get_value addr 0x2cfe894 size 0xc virtual false final false
- ::UnityEngine::Vector3 get_value() ;
+ UnityEngine::Vector3 get_value() ;
 
 /// @brief Method op_Equality addr 0x2cf562c size 0x54 virtual false final false
-static bool op_Equality(::UnityEngine::UIElements::Scale lhs, ::UnityEngine::UIElements::Scale rhs) ;
+static bool op_Equality(UnityEngine::UIElements::Scale lhs, UnityEngine::UIElements::Scale rhs) ;
 
 /// @brief Method op_Inequality addr 0x2cfe8a0 size 0x54 virtual false final false
-static bool op_Inequality(::UnityEngine::UIElements::Scale lhs, ::UnityEngine::UIElements::Scale rhs) ;
+static bool op_Inequality(UnityEngine::UIElements::Scale lhs, UnityEngine::UIElements::Scale rhs) ;
 
 /// @brief Method Equals addr 0x2cfe8f4 size 0x4c virtual true final true
- bool Equals(::UnityEngine::UIElements::Scale other) ;
+ bool Equals(UnityEngine::UIElements::Scale other) ;
 
 /// @brief Method Equals addr 0x2cfe940 size 0xbc virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -116,5 +115,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Scale, "UnityEngine.UIElements", "Scale");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::Scale, "UnityEngine.UIElements", "Scale");

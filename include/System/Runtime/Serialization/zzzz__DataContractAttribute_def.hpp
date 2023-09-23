@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 // Forward declare root types
 namespace System::Runtime::Serialization {
 class DataContractAttribute;
@@ -12,7 +11,7 @@ namespace System::Runtime::Serialization {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16062))
 // CS Name: System.Runtime.Serialization.DataContractAttribute
-class CORDL_TYPE DataContractAttribute : public ::System::Attribute {
+class CORDL_TYPE DataContractAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr DataContractAttribute(DataContractAttribute const& ) noexcept = defaul
 constexpr DataContractAttribute(DataContractAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DataContractAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit DataContractAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -69,6 +68,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::DataContractAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::DataContractAttribute, "System.Runtime.Serialization", "DataContractAttribute");
+NEED_NO_BOX(System::Runtime::Serialization::DataContractAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::DataContractAttribute, "System.Runtime.Serialization", "DataContractAttribute");

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 struct NoteLineLayer;
 }
@@ -80,10 +79,10 @@ static float_t __declspec(property(get=get_layerHeight))  layerHeight;
 // Methods
 
 /// @brief Method Get2DNoteOffset addr 0xd98384 size 0x4c virtual false final false
-static ::UnityEngine::Vector2 Get2DNoteOffset(int32_t noteLineIndex, int32_t noteLinesCount, ::GlobalNamespace::NoteLineLayer noteLineLayer) ;
+static UnityEngine::Vector2 Get2DNoteOffset(int32_t noteLineIndex, int32_t noteLinesCount, GlobalNamespace::NoteLineLayer noteLineLayer) ;
 
 /// @brief Method LineYPosForLineLayer addr 0xd98768 size 0x24 virtual false final false
-static float_t LineYPosForLineLayer(::GlobalNamespace::NoteLineLayer lineLayer) ;
+static float_t LineYPosForLineLayer(GlobalNamespace::NoteLineLayer lineLayer) ;
 
 /// @brief Method get_layerHeight addr 0xd9878c size 0xc virtual false final false
 static float_t get_layerHeight() ;
@@ -92,6 +91,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::StaticBeatmapObjectSpawnMovementData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StaticBeatmapObjectSpawnMovementData, "", "StaticBeatmapObjectSpawnMovementData");
+NEED_NO_BOX(GlobalNamespace::StaticBeatmapObjectSpawnMovementData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StaticBeatmapObjectSpawnMovementData, "", "StaticBeatmapObjectSpawnMovementData");

@@ -3,22 +3,21 @@
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine::Playables {
-struct FrameData;
-}
-namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
 namespace UnityEngine {
 class ParticleSystem;
 }
 namespace UnityEngine::Playables {
-template<typename T>
-struct ScriptPlayable_1;
+struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
 struct Playable;
+}
+namespace UnityEngine::Playables {
+struct FrameData;
+}
+namespace UnityEngine::Playables {
+template<typename T>
+struct ScriptPlayable_1;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -30,7 +29,7 @@ namespace UnityEngine::Timeline {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10361))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14118))
 // CS Name: UnityEngine.Timeline.ParticleControlPlayable
-class CORDL_TYPE ParticleControlPlayable : public ::UnityEngine::Playables::PlayableBehaviour {
+class CORDL_TYPE ParticleControlPlayable : public UnityEngine::Playables::PlayableBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -45,7 +44,7 @@ constexpr ParticleControlPlayable(ParticleControlPlayable const& ) noexcept = de
 constexpr ParticleControlPlayable(ParticleControlPlayable&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ParticleControlPlayable(void* ptr) noexcept : ::UnityEngine::Playables::PlayableBehaviour(ptr) {
+constexpr explicit ParticleControlPlayable(void* ptr) noexcept : UnityEngine::Playables::PlayableBehaviour(ptr) {
 }
 
 
@@ -87,43 +86,43 @@ constexpr void __set_m_RandomSeed(uint32_t value) ;
 
 constexpr uint32_t __get_m_RandomSeed() const;
 
- ::UnityEngine::ParticleSystem __declspec(property(get=__get__particleSystem_k__BackingField, put=__set__particleSystem_k__BackingField))  _particleSystem_k__BackingField;
+ UnityEngine::ParticleSystem __declspec(property(get=__get__particleSystem_k__BackingField, put=__set__particleSystem_k__BackingField))  _particleSystem_k__BackingField;
 
-constexpr void __set__particleSystem_k__BackingField(::UnityEngine::ParticleSystem value) ;
+constexpr void __set__particleSystem_k__BackingField(UnityEngine::ParticleSystem value) ;
 
-constexpr ::UnityEngine::ParticleSystem __get__particleSystem_k__BackingField() const;
+constexpr UnityEngine::ParticleSystem __get__particleSystem_k__BackingField() const;
 
 
 // Properties
 
- ::UnityEngine::ParticleSystem __declspec(property(get=get_particleSystem, put=set_particleSystem))  particleSystem;
+ UnityEngine::ParticleSystem __declspec(property(get=get_particleSystem, put=set_particleSystem))  particleSystem;
 
 
 // Methods
 
 /// @brief Method Create addr 0x2ad3afc size 0x144 virtual false final false
-static ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::ParticleControlPlayable> Create(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::ParticleSystem component, uint32_t randomSeed) ;
+static UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::ParticleControlPlayable> Create(UnityEngine::Playables::PlayableGraph graph, UnityEngine::ParticleSystem component, uint32_t randomSeed) ;
 
 /// @brief Method get_particleSystem addr 0x2ad3cc0 size 0x8 virtual false final false
- ::UnityEngine::ParticleSystem get_particleSystem() ;
+ UnityEngine::ParticleSystem get_particleSystem() ;
 
 /// @brief Method set_particleSystem addr 0x2ad3cc8 size 0x8 virtual false final false
- void set_particleSystem(::UnityEngine::ParticleSystem value) ;
+ void set_particleSystem(UnityEngine::ParticleSystem value) ;
 
 /// @brief Method Initialize addr 0x2ad3c40 size 0x80 virtual false final false
- void Initialize(::UnityEngine::ParticleSystem ps, uint32_t randomSeed) ;
+ void Initialize(UnityEngine::ParticleSystem ps, uint32_t randomSeed) ;
 
 /// @brief Method SetRandomSeed addr 0x2ad3cd0 size 0x13c virtual false final false
-static void SetRandomSeed(::UnityEngine::ParticleSystem particleSystem, uint32_t randomSeed) ;
+static void SetRandomSeed(UnityEngine::ParticleSystem particleSystem, uint32_t randomSeed) ;
 
 /// @brief Method PrepareFrame addr 0x2ad3e0c size 0x1b4 virtual true final false
- void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData data) ;
+ void PrepareFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData data) ;
 
 /// @brief Method OnBehaviourPlay addr 0x2ad4084 size 0xc virtual true final false
- void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info) ;
+ void OnBehaviourPlay(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info) ;
 
 /// @brief Method OnBehaviourPause addr 0x2ad4090 size 0xc virtual true final false
- void OnBehaviourPause(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info) ;
+ void OnBehaviourPause(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info) ;
 
 /// @brief Method Simulate addr 0x2ad3fc0 size 0xc4 virtual false final false
  void Simulate(float_t time, bool restart) ;
@@ -138,6 +137,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Timeline::ParticleControlPlayable);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::ParticleControlPlayable, "UnityEngine.Timeline", "ParticleControlPlayable");
+NEED_NO_BOX(UnityEngine::Timeline::ParticleControlPlayable);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ParticleControlPlayable, "UnityEngine.Timeline", "ParticleControlPlayable");

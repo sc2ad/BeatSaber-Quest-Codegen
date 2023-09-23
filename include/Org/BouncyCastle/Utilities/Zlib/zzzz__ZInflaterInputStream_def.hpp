@@ -3,12 +3,11 @@
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace System::IO {
-struct SeekOrigin;
-}
 namespace System::IO {
 class Stream;
+}
+namespace System::IO {
+struct SeekOrigin;
 }
 namespace Org::BouncyCastle::Utilities::Zlib {
 class ZStream;
@@ -23,7 +22,7 @@ namespace Org::BouncyCastle::Utilities::Zlib {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3604))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1828))
 // CS Name: Org.BouncyCastle.Utilities.Zlib.ZInflaterInputStream
-class CORDL_TYPE ZInflaterInputStream : public ::System::IO::Stream {
+class CORDL_TYPE ZInflaterInputStream : public System::IO::Stream {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr ZInflaterInputStream(ZInflaterInputStream const& ) noexcept = default;
 constexpr ZInflaterInputStream(ZInflaterInputStream&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ZInflaterInputStream(void* ptr) noexcept : ::System::IO::Stream(ptr) {
+constexpr explicit ZInflaterInputStream(void* ptr) noexcept : System::IO::Stream(ptr) {
 }
 
 
@@ -62,11 +61,11 @@ constexpr explicit ZInflaterInputStream(void* ptr) noexcept : ::System::IO::Stre
 /// @brief Field BUFSIZE offset 0
 static constexpr int32_t  BUFSIZE{4192};
 
- ::Org::BouncyCastle::Utilities::Zlib::ZStream __declspec(property(get=__get_z, put=__set_z))  z;
+ Org::BouncyCastle::Utilities::Zlib::ZStream __declspec(property(get=__get_z, put=__set_z))  z;
 
-constexpr void __set_z(::Org::BouncyCastle::Utilities::Zlib::ZStream value) ;
+constexpr void __set_z(Org::BouncyCastle::Utilities::Zlib::ZStream value) ;
 
-constexpr ::Org::BouncyCastle::Utilities::Zlib::ZStream __get_z() const;
+constexpr Org::BouncyCastle::Utilities::Zlib::ZStream __get_z() const;
 
  int32_t __declspec(property(get=__get_flushLevel, put=__set_flushLevel))  flushLevel;
 
@@ -86,11 +85,11 @@ constexpr void __set_buf1(::ArrayW<uint8_t> value) ;
 
 constexpr ::ArrayW<uint8_t> __get_buf1() const;
 
- ::System::IO::Stream __declspec(property(get=__get_inp, put=__set_inp))  inp;
+ System::IO::Stream __declspec(property(get=__get_inp, put=__set_inp))  inp;
 
-constexpr void __set_inp(::System::IO::Stream value) ;
+constexpr void __set_inp(System::IO::Stream value) ;
 
-constexpr ::System::IO::Stream __get_inp() const;
+constexpr System::IO::Stream __get_inp() const;
 
  bool __declspec(property(get=__get_nomoreinput, put=__set_nomoreinput))  nomoreinput;
 
@@ -114,17 +113,17 @@ constexpr bool __get_nomoreinput() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "inp", ty: "::System::IO::Stream", modifiers: "", def_value: None }]
-explicit ZInflaterInputStream(::System::IO::Stream inp) ;
+// Ctor Parameters [CppParam { name: "inp", ty: "System::IO::Stream", modifiers: "", def_value: None }]
+explicit ZInflaterInputStream(System::IO::Stream inp) ;
 
 /// @brief Method .ctor addr 0x10dec08 size 0x8 virtual false final false
- void _ctor(::System::IO::Stream inp) ;
+ void _ctor(System::IO::Stream inp) ;
 
-// Ctor Parameters [CppParam { name: "inp", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "nowrap", ty: "bool", modifiers: "", def_value: None }]
-explicit ZInflaterInputStream(::System::IO::Stream inp, bool nowrap) ;
+// Ctor Parameters [CppParam { name: "inp", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "nowrap", ty: "bool", modifiers: "", def_value: None }]
+explicit ZInflaterInputStream(System::IO::Stream inp, bool nowrap) ;
 
 /// @brief Method .ctor addr 0x10dec10 size 0x108 virtual false final false
- void _ctor(::System::IO::Stream inp, bool nowrap) ;
+ void _ctor(System::IO::Stream inp, bool nowrap) ;
 
 /// @brief Method get_CanRead addr 0x10ded24 size 0x8 virtual true final false
  bool get_CanRead() ;
@@ -148,7 +147,7 @@ explicit ZInflaterInputStream(::System::IO::Stream inp, bool nowrap) ;
  void Write(::ArrayW<uint8_t> b, int32_t off, int32_t len) ;
 
 /// @brief Method Seek addr 0x10ded54 size 0x8 virtual true final false
- int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin) ;
+ int64_t Seek(int64_t offset, System::IO::SeekOrigin origin) ;
 
 /// @brief Method SetLength addr 0x10ded5c size 0x4 virtual true final false
  void SetLength(int64_t value) ;
@@ -172,6 +171,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities::Zlib
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream, "Org.BouncyCastle.Utilities.Zlib", "ZInflaterInputStream");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream, "Org.BouncyCastle.Utilities.Zlib", "ZInflaterInputStream");

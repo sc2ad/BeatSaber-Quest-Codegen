@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
 namespace OVR::OpenVR {
 struct HmdMatrix34_t;
 }
@@ -18,8 +17,8 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE SpatialAnchorPose_t : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "mAnchorToAbsoluteTracking", ty: "::OVR::OpenVR::HmdMatrix34_t", modifiers: "", def_value: None }]
-constexpr SpatialAnchorPose_t(::OVR::OpenVR::HmdMatrix34_t mAnchorToAbsoluteTracking) noexcept;
+// Ctor Parameters [CppParam { name: "mAnchorToAbsoluteTracking", ty: "OVR::OpenVR::HmdMatrix34_t", modifiers: "", def_value: None }]
+constexpr SpatialAnchorPose_t(OVR::OpenVR::HmdMatrix34_t mAnchorToAbsoluteTracking) noexcept;
 
 
                     constexpr SpatialAnchorPose_t(SpatialAnchorPose_t const&) = default;
@@ -52,15 +51,14 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::OVR::OpenVR::HmdMatrix34_t __declspec(property(get=__get_mAnchorToAbsoluteTracking, put=__set_mAnchorToAbsoluteTracking))  mAnchorToAbsoluteTracking;
+ OVR::OpenVR::HmdMatrix34_t __declspec(property(get=__get_mAnchorToAbsoluteTracking, put=__set_mAnchorToAbsoluteTracking))  mAnchorToAbsoluteTracking;
 
-constexpr void __set_mAnchorToAbsoluteTracking(::OVR::OpenVR::HmdMatrix34_t value) ;
+constexpr void __set_mAnchorToAbsoluteTracking(OVR::OpenVR::HmdMatrix34_t value) ;
 
-constexpr ::OVR::OpenVR::HmdMatrix34_t __get_mAnchorToAbsoluteTracking() const;
+constexpr OVR::OpenVR::HmdMatrix34_t __get_mAnchorToAbsoluteTracking() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::SpatialAnchorPose_t, "OVR.OpenVR", "SpatialAnchorPose_t");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::SpatialAnchorPose_t, "OVR.OpenVR", "SpatialAnchorPose_t");

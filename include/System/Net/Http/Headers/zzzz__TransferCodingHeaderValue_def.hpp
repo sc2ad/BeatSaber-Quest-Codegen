@@ -4,23 +4,22 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace System {
+class ICloneable;
+}
+namespace System::Net::Http::Headers {
+struct Token;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class ICollection_1;
 }
 namespace System::Net::Http::Headers {
-struct Token;
-}
-namespace System {
-class ICloneable;
-}
-namespace System::Net::Http::Headers {
 class Lexer;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace System::Net::Http::Headers {
 class NameValueHeaderValue;
@@ -38,8 +37,8 @@ namespace System::Net::Http::Headers {
 class CORDL_TYPE TransferCodingHeaderValue : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::ICloneable
-constexpr operator  ::System::ICloneable() const noexcept;
+/// @brief Convert operator to System::ICloneable
+constexpr operator  System::ICloneable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -80,27 +79,27 @@ constexpr void __set_value(::StringW value) ;
 
 constexpr ::StringW __get_value() const;
 
- ::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue> __declspec(property(get=__get_parameters, put=__set_parameters))  parameters;
+ System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue> __declspec(property(get=__get_parameters, put=__set_parameters))  parameters;
 
-constexpr void __set_parameters(::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue> value) ;
+constexpr void __set_parameters(System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue> __get_parameters() const;
+constexpr System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue> __get_parameters() const;
 
 
 // Properties
 
- ::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue> __declspec(property(get=get_Parameters))  Parameters;
+ System::Collections::Generic::ICollection_1<System::Net::Http::Headers::NameValueHeaderValue> __declspec(property(get=get_Parameters))  Parameters;
 
  ::StringW __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "source", ty: "::System::Net::Http::Headers::TransferCodingHeaderValue", modifiers: "", def_value: None }]
-explicit TransferCodingHeaderValue(::System::Net::Http::Headers::TransferCodingHeaderValue source) ;
+// Ctor Parameters [CppParam { name: "source", ty: "System::Net::Http::Headers::TransferCodingHeaderValue", modifiers: "", def_value: None }]
+explicit TransferCodingHeaderValue(System::Net::Http::Headers::TransferCodingHeaderValue source) ;
 
 /// @brief Method .ctor addr 0x26b03d4 size 0x230 virtual false final false
- void _ctor(::System::Net::Http::Headers::TransferCodingHeaderValue source) ;
+ void _ctor(System::Net::Http::Headers::TransferCodingHeaderValue source) ;
 
 // Ctor Parameters []
 explicit TransferCodingHeaderValue() ;
@@ -109,7 +108,7 @@ explicit TransferCodingHeaderValue() ;
  void _ctor() ;
 
 /// @brief Method get_Parameters addr 0x26b0604 size 0x80 virtual false final false
- ::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue> get_Parameters() ;
+ System::Collections::Generic::ICollection_1<System::Net::Http::Headers::NameValueHeaderValue> get_Parameters() ;
 
 /// @brief Method get_Value addr 0x26b068c size 0x8 virtual false final false
  ::StringW get_Value() ;
@@ -127,15 +126,14 @@ explicit TransferCodingHeaderValue() ;
  ::StringW ToString() ;
 
 /// @brief Method TryParse addr 0x26b0898 size 0xb0 virtual false final false
-static bool TryParse(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::TransferCodingHeaderValue>> result) ;
+static bool TryParse(::StringW input, int32_t minimalCount, ByRef<System::Collections::Generic::List_1<System::Net::Http::Headers::TransferCodingHeaderValue>> result) ;
 
 /// @brief Method TryParseElement addr 0x26b0948 size 0x144 virtual false final false
-static bool TryParseElement(::System::Net::Http::Headers::Lexer lexer, ByRef<::System::Net::Http::Headers::TransferCodingHeaderValue> parsedValue, ByRef<::System::Net::Http::Headers::Token> t) ;
+static bool TryParseElement(System::Net::Http::Headers::Lexer lexer, ByRef<System::Net::Http::Headers::TransferCodingHeaderValue> parsedValue, ByRef<System::Net::Http::Headers::Token> t) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Http::Headers
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Http::Headers::TransferCodingHeaderValue);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::TransferCodingHeaderValue, "System.Net.Http.Headers", "TransferCodingHeaderValue");
+NEED_NO_BOX(System::Net::Http::Headers::TransferCodingHeaderValue);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::TransferCodingHeaderValue, "System.Net.Http.Headers", "TransferCodingHeaderValue");

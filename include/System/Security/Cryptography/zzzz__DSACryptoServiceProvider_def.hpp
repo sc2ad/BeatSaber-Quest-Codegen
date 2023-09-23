@@ -4,18 +4,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace System::Security::Cryptography {
-struct DSAParameters;
-}
-namespace Mono::Security::Cryptography {
-class KeyPairPersistence;
-}
 namespace Mono::Security::Cryptography {
 class DSAManaged;
 }
+namespace System::Security::Cryptography {
+struct DSAParameters;
+}
 namespace System {
 class EventArgs;
+}
+namespace Mono::Security::Cryptography {
+class KeyPairPersistence;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {
@@ -27,7 +26,7 @@ namespace System::Security::Cryptography {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2927))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2975))
 // CS Name: System.Security.Cryptography.DSACryptoServiceProvider
-class CORDL_TYPE DSACryptoServiceProvider : public ::System::Security::Cryptography::DSA {
+class CORDL_TYPE DSACryptoServiceProvider : public System::Security::Cryptography::DSA {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -42,7 +41,7 @@ constexpr DSACryptoServiceProvider(DSACryptoServiceProvider const& ) noexcept = 
 constexpr DSACryptoServiceProvider(DSACryptoServiceProvider&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DSACryptoServiceProvider(void* ptr) noexcept : ::System::Security::Cryptography::DSA(ptr) {
+constexpr explicit DSACryptoServiceProvider(void* ptr) noexcept : System::Security::Cryptography::DSA(ptr) {
 }
 
 
@@ -63,11 +62,11 @@ constexpr explicit DSACryptoServiceProvider(void* ptr) noexcept : ::System::Secu
 
 // Fields
 
- ::Mono::Security::Cryptography::KeyPairPersistence __declspec(property(get=__get_store, put=__set_store))  store;
+ Mono::Security::Cryptography::KeyPairPersistence __declspec(property(get=__get_store, put=__set_store))  store;
 
-constexpr void __set_store(::Mono::Security::Cryptography::KeyPairPersistence value) ;
+constexpr void __set_store(Mono::Security::Cryptography::KeyPairPersistence value) ;
 
-constexpr ::Mono::Security::Cryptography::KeyPairPersistence __get_store() const;
+constexpr Mono::Security::Cryptography::KeyPairPersistence __get_store() const;
 
  bool __declspec(property(get=__get_persistKey, put=__set_persistKey))  persistKey;
 
@@ -93,11 +92,11 @@ constexpr void __set_m_disposed(bool value) ;
 
 constexpr bool __get_m_disposed() const;
 
- ::Mono::Security::Cryptography::DSAManaged __declspec(property(get=__get_dsa, put=__set_dsa))  dsa;
+ Mono::Security::Cryptography::DSAManaged __declspec(property(get=__get_dsa, put=__set_dsa))  dsa;
 
-constexpr void __set_dsa(::Mono::Security::Cryptography::DSAManaged value) ;
+constexpr void __set_dsa(Mono::Security::Cryptography::DSAManaged value) ;
 
-constexpr ::Mono::Security::Cryptography::DSAManaged __get_dsa() const;
+constexpr Mono::Security::Cryptography::DSAManaged __get_dsa() const;
 
 static bool __declspec(property(get=__get_useMachineKeyStore, put=__set_useMachineKeyStore))  useMachineKeyStore;
 
@@ -140,10 +139,10 @@ explicit DSACryptoServiceProvider(int32_t dwKeySize) ;
  bool get_PublicOnly() ;
 
 /// @brief Method ExportParameters addr 0x2305680 size 0xb4 virtual true final false
- ::System::Security::Cryptography::DSAParameters ExportParameters(bool includePrivateParameters) ;
+ System::Security::Cryptography::DSAParameters ExportParameters(bool includePrivateParameters) ;
 
 /// @brief Method ImportParameters addr 0x2305734 size 0x54 virtual true final false
- void ImportParameters(::System::Security::Cryptography::DSAParameters parameters) ;
+ void ImportParameters(System::Security::Cryptography::DSAParameters parameters) ;
 
 /// @brief Method VerifySignature addr 0x2305788 size 0x20 virtual true final false
  bool VerifySignature(::ArrayW<uint8_t> rgbHash, ::ArrayW<uint8_t> rgbSignature) ;
@@ -152,12 +151,11 @@ explicit DSACryptoServiceProvider(int32_t dwKeySize) ;
  void Dispose(bool disposing) ;
 
 /// @brief Method OnKeyGenerated addr 0x23057fc size 0x84 virtual false final false
- void OnKeyGenerated(::bs_hook::Il2CppWrapperType sender, ::System::EventArgs e) ;
+ void OnKeyGenerated(::bs_hook::Il2CppWrapperType sender, System::EventArgs e) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::DSACryptoServiceProvider);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::DSACryptoServiceProvider, "System.Security.Cryptography", "DSACryptoServiceProvider");
+NEED_NO_BOX(System::Security::Cryptography::DSACryptoServiceProvider);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::DSACryptoServiceProvider, "System.Security.Cryptography", "DSACryptoServiceProvider");

@@ -2,7 +2,6 @@
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
 struct InternalObjectPositionE;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Empty offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalObjectPositionE const Empty;
+static System::Runtime::Serialization::Formatters::Binary::InternalObjectPositionE const Empty;
 
 /// @brief Field Top offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalObjectPositionE const Top;
+static System::Runtime::Serialization::Formatters::Binary::InternalObjectPositionE const Top;
 
 /// @brief Field Child offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalObjectPositionE const Child;
+static System::Runtime::Serialization::Formatters::Binary::InternalObjectPositionE const Child;
 
 /// @brief Field Headers offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalObjectPositionE const Headers;
+static System::Runtime::Serialization::Formatters::Binary::InternalObjectPositionE const Headers;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization::Formatters::Binary
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::InternalObjectPositionE, "System.Runtime.Serialization.Formatters.Binary", "InternalObjectPositionE");
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::InternalObjectPositionE, "System.Runtime.Serialization.Formatters.Binary", "InternalObjectPositionE");

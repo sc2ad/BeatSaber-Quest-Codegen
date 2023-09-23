@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
@@ -69,7 +68,7 @@ static uint64_t __declspec(property(get=get_DefaultSeed))  DefaultSeed;
 // Methods
 
 /// @brief Method ComputeHash32 addr 0x2440d2c size 0xac virtual false final false
-static int32_t ComputeHash32(::System::ReadOnlySpan_1<uint8_t> data, uint64_t seed) ;
+static int32_t ComputeHash32(System::ReadOnlySpan_1<uint8_t> data, uint64_t seed) ;
 
 /// @brief Method ComputeHash32 addr 0x2440dd8 size 0x3d0 virtual false final false
 static int32_t ComputeHash32(ByRef<uint8_t> data, int32_t count, uint64_t seed) ;
@@ -90,6 +89,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::Marvin);
-DEFINE_IL2CPP_ARG_TYPE(::System::Marvin, "System", "Marvin");
+NEED_NO_BOX(System::Marvin);
+DEFINE_IL2CPP_ARG_TYPE(System::Marvin, "System", "Marvin");

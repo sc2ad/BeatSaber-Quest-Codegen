@@ -1,21 +1,20 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_def.hpp"
-namespace {
+namespace UnityEngine {
+struct Bounds;
+}
 namespace UnityEngine::ProBuilder::Shapes {
 class Shape;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace UnityEngine {
-struct Bounds;
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {
@@ -27,7 +26,7 @@ namespace UnityEngine::ProBuilder::Shapes {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12175))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12178))
 // CS Name: UnityEngine.ProBuilder.Shapes.Sprite
-class CORDL_TYPE Sprite : public ::UnityEngine::ProBuilder::Shapes::Shape {
+class CORDL_TYPE Sprite : public UnityEngine::ProBuilder::Shapes::Shape {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -42,7 +41,7 @@ constexpr Sprite(Sprite const& ) noexcept = default;
 constexpr Sprite(Sprite&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Sprite(void* ptr) noexcept : ::UnityEngine::ProBuilder::Shapes::Shape(ptr) {
+constexpr explicit Sprite(void* ptr) noexcept : UnityEngine::ProBuilder::Shapes::Shape(ptr) {
 }
 
 
@@ -64,10 +63,10 @@ constexpr explicit Sprite(void* ptr) noexcept : ::UnityEngine::ProBuilder::Shape
 // Methods
 
 /// @brief Method CopyShape addr 0x29f9500 size 0x4 virtual true final false
- void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape shape) ;
+ void CopyShape(UnityEngine::ProBuilder::Shapes::Shape shape) ;
 
 /// @brief Method RebuildMesh addr 0x29f9504 size 0x32c virtual true final false
- ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation) ;
+ UnityEngine::Bounds RebuildMesh(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::Vector3 size, UnityEngine::Quaternion rotation) ;
 
 // Ctor Parameters []
 explicit Sprite() ;
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder::Shapes
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::Shapes::Sprite);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Shapes::Sprite, "UnityEngine.ProBuilder.Shapes", "Sprite");
+NEED_NO_BOX(UnityEngine::ProBuilder::Shapes::Sprite);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Shapes::Sprite, "UnityEngine.ProBuilder.Shapes", "Sprite");

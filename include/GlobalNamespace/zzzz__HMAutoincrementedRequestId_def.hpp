@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 class IEquatable_1;
@@ -20,8 +19,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE HMAutoincrementedRequestId : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::GlobalNamespace::HMAutoincrementedRequestId>
-constexpr operator  ::System::IEquatable_1<::GlobalNamespace::HMAutoincrementedRequestId>() const noexcept;
+/// @brief Convert operator to System::IEquatable_1<GlobalNamespace::HMAutoincrementedRequestId>
+constexpr operator  System::IEquatable_1<GlobalNamespace::HMAutoincrementedRequestId>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -86,7 +85,7 @@ explicit HMAutoincrementedRequestId() ;
  void _ctor() ;
 
 /// @brief Method Equals addr 0x1f78884 size 0x20 virtual true final true
- bool Equals(::GlobalNamespace::HMAutoincrementedRequestId obj) ;
+ bool Equals(GlobalNamespace::HMAutoincrementedRequestId obj) ;
 
 /// @brief Method Equals addr 0x1f788a4 size 0xb8 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -98,6 +97,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::HMAutoincrementedRequestId);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::HMAutoincrementedRequestId, "", "HMAutoincrementedRequestId");
+NEED_NO_BOX(GlobalNamespace::HMAutoincrementedRequestId);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMAutoincrementedRequestId, "", "HMAutoincrementedRequestId");

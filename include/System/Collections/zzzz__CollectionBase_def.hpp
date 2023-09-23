@@ -2,24 +2,23 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
+namespace System {
+class Array;
+}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Collections {
-class IList;
+class IEnumerable;
 }
 namespace System::Collections {
 class ICollection;
 }
 namespace System::Collections {
-class ArrayList;
-}
-namespace System {
-class Array;
+class IList;
 }
 namespace System::Collections {
-class IEnumerable;
+class ArrayList;
 }
 // Forward declare root types
 namespace System::Collections {
@@ -34,14 +33,14 @@ namespace System::Collections {
 class CORDL_TYPE CollectionBase : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::IList
-constexpr operator  ::System::Collections::IList() const noexcept;
+/// @brief Convert operator to System::Collections::IList
+constexpr operator  System::Collections::IList() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::ICollection
-constexpr operator  ::System::Collections::ICollection() const noexcept;
+/// @brief Convert operator to System::Collections::ICollection
+constexpr operator  System::Collections::ICollection() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -76,18 +75,18 @@ constexpr explicit CollectionBase(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
- ::System::Collections::ArrayList __declspec(property(get=__get__list, put=__set__list))  _list;
+ System::Collections::ArrayList __declspec(property(get=__get__list, put=__set__list))  _list;
 
-constexpr void __set__list(::System::Collections::ArrayList value) ;
+constexpr void __set__list(System::Collections::ArrayList value) ;
 
-constexpr ::System::Collections::ArrayList __get__list() const;
+constexpr System::Collections::ArrayList __get__list() const;
 
 
 // Properties
 
- ::System::Collections::ArrayList __declspec(property(get=get_InnerList))  InnerList;
+ System::Collections::ArrayList __declspec(property(get=get_InnerList))  InnerList;
 
- ::System::Collections::IList __declspec(property(get=get_List))  List;
+ System::Collections::IList __declspec(property(get=get_List))  List;
 
  int32_t __declspec(property(get=get_Count))  Count;
 
@@ -111,10 +110,10 @@ explicit CollectionBase() ;
  void _ctor() ;
 
 /// @brief Method get_InnerList addr 0x2410558 size 0x8 virtual false final false
- ::System::Collections::ArrayList get_InnerList() ;
+ System::Collections::ArrayList get_InnerList() ;
 
 /// @brief Method get_List addr 0x2410560 size 0x4 virtual false final false
- ::System::Collections::IList get_List() ;
+ System::Collections::IList get_List() ;
 
 /// @brief Method get_Count addr 0x2410564 size 0x24 virtual true final true
  int32_t get_Count() ;
@@ -138,7 +137,7 @@ explicit CollectionBase() ;
  ::bs_hook::Il2CppWrapperType System_Collections_ICollection_get_SyncRoot() ;
 
 /// @brief Method System.Collections.ICollection.CopyTo addr 0x241083c size 0x24 virtual true final true
- void System_Collections_ICollection_CopyTo(::System::Array array, int32_t index) ;
+ void System_Collections_ICollection_CopyTo(System::Array array, int32_t index) ;
 
 /// @brief Method System.Collections.IList.get_Item addr 0x2410860 size 0xbc virtual true final true
  ::bs_hook::Il2CppWrapperType System_Collections_IList_get_Item(int32_t index) ;
@@ -162,7 +161,7 @@ explicit CollectionBase() ;
  void System_Collections_IList_Insert(int32_t index, ::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method GetEnumerator addr 0x2410fdc size 0x24 virtual true final true
- ::System::Collections::IEnumerator GetEnumerator() ;
+ System::Collections::IEnumerator GetEnumerator() ;
 
 /// @brief Method OnSet addr 0x2411000 size 0x4 virtual true final false
  void OnSet(int32_t index, ::bs_hook::Il2CppWrapperType oldValue, ::bs_hook::Il2CppWrapperType newValue) ;
@@ -195,6 +194,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Collections
-} // end anonymous namespace
-NEED_NO_BOX(::System::Collections::CollectionBase);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::CollectionBase, "System.Collections", "CollectionBase");
+NEED_NO_BOX(System::Collections::CollectionBase);
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::CollectionBase, "System.Collections", "CollectionBase");

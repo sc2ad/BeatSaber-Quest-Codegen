@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class IBlockCipher;
 }
@@ -27,8 +26,8 @@ namespace Org::BouncyCastle::Crypto::Macs {
 class CORDL_TYPE CMac : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IMac
-constexpr operator  ::Org::BouncyCastle::Crypto::IMac() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IMac
+constexpr operator  Org::BouncyCastle::Crypto::IMac() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x58};
@@ -93,11 +92,11 @@ constexpr void __set_bufOff(int32_t value) ;
 
 constexpr int32_t __get_bufOff() const;
 
- ::Org::BouncyCastle::Crypto::IBlockCipher __declspec(property(get=__get_cipher, put=__set_cipher))  cipher;
+ Org::BouncyCastle::Crypto::IBlockCipher __declspec(property(get=__get_cipher, put=__set_cipher))  cipher;
 
-constexpr void __set_cipher(::Org::BouncyCastle::Crypto::IBlockCipher value) ;
+constexpr void __set_cipher(Org::BouncyCastle::Crypto::IBlockCipher value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IBlockCipher __get_cipher() const;
+constexpr Org::BouncyCastle::Crypto::IBlockCipher __get_cipher() const;
 
  int32_t __declspec(property(get=__get_macSize, put=__set_macSize))  macSize;
 
@@ -131,17 +130,17 @@ constexpr ::ArrayW<uint8_t> __get_Lu2() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "::Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
-explicit CMac(::Org::BouncyCastle::Crypto::IBlockCipher cipher) ;
+// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
+explicit CMac(Org::BouncyCastle::Crypto::IBlockCipher cipher) ;
 
 /// @brief Method .ctor addr 0xe7ebc8 size 0xb4 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher cipher) ;
+ void _ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher) ;
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "::Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }, CppParam { name: "macSizeInBits", ty: "int32_t", modifiers: "", def_value: None }]
-explicit CMac(::Org::BouncyCastle::Crypto::IBlockCipher cipher, int32_t macSizeInBits) ;
+// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }, CppParam { name: "macSizeInBits", ty: "int32_t", modifiers: "", def_value: None }]
+explicit CMac(Org::BouncyCastle::Crypto::IBlockCipher cipher, int32_t macSizeInBits) ;
 
 /// @brief Method .ctor addr 0xe7ec7c size 0x454 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher cipher, int32_t macSizeInBits) ;
+ void _ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher, int32_t macSizeInBits) ;
 
 /// @brief Method get_AlgorithmName addr 0xe7f0d0 size 0xa0 virtual true final true
  ::StringW get_AlgorithmName() ;
@@ -153,7 +152,7 @@ static int32_t ShiftLeft(::ArrayW<uint8_t> block, ::ArrayW<uint8_t> output) ;
 static ::ArrayW<uint8_t> DoubleLu(::ArrayW<uint8_t> input) ;
 
 /// @brief Method Init addr 0xe7f2ac size 0x220 virtual true final true
- void Init(::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method GetMacSize addr 0xe7f58c size 0x8 virtual true final true
  int32_t GetMacSize() ;
@@ -174,6 +173,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Macs
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Macs::CMac);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Macs::CMac, "Org.BouncyCastle.Crypto.Macs", "CMac");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Macs::CMac);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Macs::CMac, "Org.BouncyCastle.Crypto.Macs", "CMac");

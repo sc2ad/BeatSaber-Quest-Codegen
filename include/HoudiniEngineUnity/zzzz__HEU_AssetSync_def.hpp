@@ -5,9 +5,8 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace HoudiniEngineUnity {
-class ____HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace HoudiniEngineUnity {
 class HEU_SessionBase;
@@ -16,13 +15,13 @@ namespace UnityEngine {
 class Transform;
 }
 namespace HoudiniEngineUnity {
-class HEU_ThreadedTaskLoadGeo;
-}
-namespace UnityEngine {
-struct Vector3;
+class HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback;
 }
 namespace HoudiniEngineUnity {
-class ____HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadData;
+class HEU_ThreadedTaskLoadGeo;
+}
+namespace HoudiniEngineUnity {
+class HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadData;
 }
 namespace System {
 class AsyncCallback;
@@ -35,7 +34,7 @@ namespace HoudiniEngineUnity {
 class HEU_AssetSync;
 }
 namespace HoudiniEngineUnity {
-class ____HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback;
+class HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback;
 }
 // Type: ::AssetSyncCallback
 namespace HoudiniEngineUnity {
@@ -43,56 +42,56 @@ namespace HoudiniEngineUnity {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9732))
 // CS Name: HoudiniEngineUnity.HEU_AssetSync::AssetSyncCallback
-class CORDL_TYPE ____HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback : public ::System::MulticastDelegate {
+class CORDL_TYPE HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x80};
 
-virtual ~____HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback() = default;
+virtual ~HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback", modifiers: " const&", def_value: None }]
-constexpr ____HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback(____HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback", modifiers: " const&", def_value: None }]
+constexpr HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback(HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback", modifiers: "&&", def_value: None }]
-constexpr ____HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback(____HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback", modifiers: "&&", def_value: None }]
+constexpr HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback(HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
-  constexpr ____HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback& operator=(std::nullptr_t) noexcept {
+  constexpr HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback& operator=(void* o) noexcept {
+  constexpr HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback& operator=(____HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback&& o) noexcept = default;
-  constexpr ____HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback& operator=(____HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback const& o) noexcept = default;
+  constexpr HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback& operator=(HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback&& o) noexcept = default;
+  constexpr HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback& operator=(HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit ____HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+explicit HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2033ff0 size 0x12c virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x203411c size 0x14 virtual true final false
- void Invoke(::HoudiniEngineUnity::HEU_AssetSync assetSync) ;
+ void Invoke(HoudiniEngineUnity::HEU_AssetSync assetSync) ;
 
 /// @brief Method BeginInvoke addr 0x2034130 size 0x20 virtual true final false
- ::System::IAsyncResult BeginInvoke(::HoudiniEngineUnity::HEU_AssetSync assetSync, ::System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
+ System::IAsyncResult BeginInvoke(HoudiniEngineUnity::HEU_AssetSync assetSync, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
 
 /// @brief Method EndInvoke addr 0x2034150 size 0xc virtual true final false
- void EndInvoke(::System::IAsyncResult result) ;
+ void EndInvoke(System::IAsyncResult result) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -104,10 +103,10 @@ namespace HoudiniEngineUnity {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9734))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9733))
 // CS Name: HoudiniEngineUnity.HEU_AssetSync
-class CORDL_TYPE HEU_AssetSync : public ::HoudiniEngineUnity::HEU_BaseSync {
+class CORDL_TYPE HEU_AssetSync : public HoudiniEngineUnity::HEU_BaseSync {
 public:
 // Declarations
-using AssetSyncCallback = ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback;
+using AssetSyncCallback = HoudiniEngineUnity::HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x90};
@@ -121,7 +120,7 @@ constexpr HEU_AssetSync(HEU_AssetSync const& ) noexcept = default;
 constexpr HEU_AssetSync(HEU_AssetSync&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HEU_AssetSync(void* ptr) noexcept : ::HoudiniEngineUnity::HEU_BaseSync(ptr) {
+constexpr explicit HEU_AssetSync(void* ptr) noexcept : HoudiniEngineUnity::HEU_BaseSync(ptr) {
 }
 
 
@@ -142,11 +141,11 @@ constexpr explicit HEU_AssetSync(void* ptr) noexcept : ::HoudiniEngineUnity::HEU
 
 // Fields
 
- ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback __declspec(property(get=__get__onAssetLoaded, put=__set__onAssetLoaded))  _onAssetLoaded;
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback __declspec(property(get=__get__onAssetLoaded, put=__set__onAssetLoaded))  _onAssetLoaded;
 
-constexpr void __set__onAssetLoaded(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback value) ;
+constexpr void __set__onAssetLoaded(HoudiniEngineUnity::HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback value) ;
 
-constexpr ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback __get__onAssetLoaded() const;
+constexpr HoudiniEngineUnity::HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback __get__onAssetLoaded() const;
 
  ::StringW __declspec(property(get=__get__assetPath, put=__set__assetPath))  _assetPath;
 
@@ -164,19 +163,19 @@ constexpr ::StringW __get__assetPath() const;
  void OnDestroy() ;
 
 /// @brief Method InitializeAsset addr 0x2033b7c size 0xf8 virtual false final false
- void InitializeAsset(::HoudiniEngineUnity::HEU_SessionBase session, ::StringW assetPath, ::StringW nodeName, ::UnityEngine::Transform parent, ::UnityEngine::Vector3 startPosition) ;
+ void InitializeAsset(HoudiniEngineUnity::HEU_SessionBase session, ::StringW assetPath, ::StringW nodeName, UnityEngine::Transform parent, UnityEngine::Vector3 startPosition) ;
 
 /// @brief Method CreateThreadedTask addr 0x2033c74 size 0x68 virtual false final false
- ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo CreateThreadedTask() ;
+ HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo CreateThreadedTask() ;
 
 /// @brief Method SetLoadCallback addr 0x2033ce0 size 0x38 virtual false final false
- void SetLoadCallback(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback callback) ;
+ void SetLoadCallback(HoudiniEngineUnity::HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback callback) ;
 
 /// @brief Method SetupLoadTask addr 0x2033d18 size 0x60 virtual true final false
- void SetupLoadTask(::HoudiniEngineUnity::HEU_SessionBase session) ;
+ void SetupLoadTask(HoudiniEngineUnity::HEU_SessionBase session) ;
 
 /// @brief Method OnLoadComplete addr 0x2033d8c size 0x34 virtual true final false
- void OnLoadComplete(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadData loadData) ;
+ void OnLoadComplete(HoudiniEngineUnity::HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadData loadData) ;
 
 /// @brief Method Resync addr 0x2033e44 size 0x38 virtual true final false
  void Resync() ;
@@ -191,8 +190,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_AssetSync);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_AssetSync, "HoudiniEngineUnity", "HEU_AssetSync");
-NEED_NO_BOX(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback, "HoudiniEngineUnity", "HEU_AssetSync/AssetSyncCallback");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_AssetSync);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_AssetSync, "HoudiniEngineUnity", "HEU_AssetSync");
+NEED_NO_BOX(HoudiniEngineUnity::HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback, "HoudiniEngineUnity", "HEU_AssetSync/AssetSyncCallback");

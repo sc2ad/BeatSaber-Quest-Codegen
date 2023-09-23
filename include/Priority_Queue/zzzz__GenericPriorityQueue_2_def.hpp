@@ -4,28 +4,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace Priority_Queue {
-template<typename TItem,typename TPriority>
-class IFixedSizePriorityQueue_2;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IComparer_1;
 }
-namespace Priority_Queue {
-template<typename TItem,typename TPriority>
-class IPriorityQueue_2;
-}
 namespace System::Collections {
 class IEnumerable;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace System {
 template<typename T>
@@ -33,7 +17,22 @@ class Comparison_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
+class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
 class IEnumerator_1;
+}
+namespace Priority_Queue {
+template<typename TItem,typename TPriority>
+class IFixedSizePriorityQueue_2;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace Priority_Queue {
+template<typename TItem,typename TPriority>
+class IPriorityQueue_2;
 }
 namespace System {
 class IDisposable;
@@ -45,7 +44,7 @@ class GenericPriorityQueue_2;
 }
 namespace Priority_Queue {
 template<typename TItem,typename TPriority>
-class ____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25;
+class Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25;
 }
 namespace Priority_Queue {
 template<::cordl_internals::il2cpp_reference_type TItem>
@@ -57,11 +56,11 @@ class GenericPriorityQueue_2<TItem,TPriority>;
 }
 namespace Priority_Queue {
 template<::cordl_internals::il2cpp_reference_type TItem,::cordl_internals::il2cpp_reference_type TPriority>
-class ____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25<TItem,TPriority>;
+class Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25<TItem,TPriority>;
 }
 namespace Priority_Queue {
 template<::cordl_internals::il2cpp_reference_type TItem>
-class ____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25<TItem,float_t>;
+class Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25<TItem,float_t>;
 }
 // Type: ::<GetEnumerator>d__25
 // Type: Priority_Queue::GenericPriorityQueue`2
@@ -73,46 +72,46 @@ template<::cordl_internals::il2cpp_reference_type TItem,::cordl_internals::il2cp
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6162))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6162), inst: 80 })
 // CS Name: Priority_Queue.GenericPriorityQueue`2::<GetEnumerator>d__25
-class CORDL_TYPE ____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25<TItem,TPriority> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25<TItem,TPriority> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<TItem>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<TItem>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<TItem>
+constexpr operator  System::Collections::Generic::IEnumerator_1<TItem>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25() = default;
+virtual ~Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25", modifiers: " const&", def_value: None }]
-constexpr ____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25(____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25", modifiers: " const&", def_value: None }]
+constexpr Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25(Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25", modifiers: "&&", def_value: None }]
-constexpr ____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25(____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25", modifiers: "&&", def_value: None }]
+constexpr Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25(Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25& operator=(std::nullptr_t) noexcept {
+  constexpr Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25& operator=(void* o) noexcept {
+  constexpr Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25& operator=(____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25&& o) noexcept = default;
-  constexpr ____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25& operator=(____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25 const& o) noexcept = default;
+  constexpr Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25& operator=(Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25&& o) noexcept = default;
+  constexpr Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25& operator=(Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25 const& o) noexcept = default;
                 
 
 
@@ -130,11 +129,11 @@ constexpr void __set___2__current(TItem value) ;
 
 constexpr TItem __get___2__current() const;
 
- ::Priority_Queue::GenericPriorityQueue_2<TItem,TPriority> __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ Priority_Queue::GenericPriorityQueue_2<TItem,TPriority> __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::Priority_Queue::GenericPriorityQueue_2<TItem,TPriority> value) ;
+constexpr void __set___4__this(Priority_Queue::GenericPriorityQueue_2<TItem,TPriority> value) ;
 
-constexpr ::Priority_Queue::GenericPriorityQueue_2<TItem,TPriority> __get___4__this() const;
+constexpr Priority_Queue::GenericPriorityQueue_2<TItem,TPriority> __get___4__this() const;
 
  int32_t __declspec(property(get=__get__i_5__2, put=__set__i_5__2))  _i_5__2;
 
@@ -153,7 +152,7 @@ constexpr int32_t __get__i_5__2() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25(int32_t __1__state) ;
+explicit Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -185,46 +184,46 @@ template<::cordl_internals::il2cpp_reference_type TItem>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6162))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6162), inst: 1553 })
 // CS Name: Priority_Queue.GenericPriorityQueue`2::<GetEnumerator>d__25
-class CORDL_TYPE ____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25<TItem,float_t> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25<TItem,float_t> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<TItem>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<TItem>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<TItem>
+constexpr operator  System::Collections::Generic::IEnumerator_1<TItem>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25() = default;
+virtual ~Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25", modifiers: " const&", def_value: None }]
-constexpr ____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25(____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25", modifiers: " const&", def_value: None }]
+constexpr Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25(Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25", modifiers: "&&", def_value: None }]
-constexpr ____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25(____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25", modifiers: "&&", def_value: None }]
+constexpr Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25(Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25& operator=(std::nullptr_t) noexcept {
+  constexpr Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25& operator=(void* o) noexcept {
+  constexpr Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25& operator=(____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25&& o) noexcept = default;
-  constexpr ____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25& operator=(____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25 const& o) noexcept = default;
+  constexpr Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25& operator=(Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25&& o) noexcept = default;
+  constexpr Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25& operator=(Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25 const& o) noexcept = default;
                 
 
 
@@ -242,11 +241,11 @@ constexpr void __set___2__current(TItem value) ;
 
 constexpr TItem __get___2__current() const;
 
- ::Priority_Queue::GenericPriorityQueue_2<TItem,float_t> __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ Priority_Queue::GenericPriorityQueue_2<TItem,float_t> __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::Priority_Queue::GenericPriorityQueue_2<TItem,float_t> value) ;
+constexpr void __set___4__this(Priority_Queue::GenericPriorityQueue_2<TItem,float_t> value) ;
 
-constexpr ::Priority_Queue::GenericPriorityQueue_2<TItem,float_t> __get___4__this() const;
+constexpr Priority_Queue::GenericPriorityQueue_2<TItem,float_t> __get___4__this() const;
 
  int32_t __declspec(property(get=__get__i_5__2, put=__set__i_5__2))  _i_5__2;
 
@@ -265,7 +264,7 @@ constexpr int32_t __get__i_5__2() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25(int32_t __1__state) ;
+explicit Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -300,19 +299,19 @@ template<::cordl_internals::il2cpp_reference_type TItem,::cordl_internals::il2cp
 class CORDL_TYPE GenericPriorityQueue_2<TItem,TPriority> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using _GetEnumerator_d__25 = ::Priority_Queue::____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25<TItem, TPriority>;
+using _GetEnumerator_d__25 = Priority_Queue::Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25<TItem, TPriority>;
 
-/// @brief Convert operator to ::Priority_Queue::IFixedSizePriorityQueue_2<TItem,TPriority>
-constexpr operator  ::Priority_Queue::IFixedSizePriorityQueue_2<TItem,TPriority>() const noexcept;
+/// @brief Convert operator to Priority_Queue::IFixedSizePriorityQueue_2<TItem,TPriority>
+constexpr operator  Priority_Queue::IFixedSizePriorityQueue_2<TItem,TPriority>() const noexcept;
 
-/// @brief Convert operator to ::Priority_Queue::IPriorityQueue_2<TItem,TPriority>
-constexpr operator  ::Priority_Queue::IPriorityQueue_2<TItem,TPriority>() const noexcept;
+/// @brief Convert operator to Priority_Queue::IPriorityQueue_2<TItem,TPriority>
+constexpr operator  Priority_Queue::IPriorityQueue_2<TItem,TPriority>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerable_1<TItem>
-constexpr operator  ::System::Collections::Generic::IEnumerable_1<TItem>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerable_1<TItem>
+constexpr operator  System::Collections::Generic::IEnumerable_1<TItem>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -365,11 +364,11 @@ constexpr void __set__numNodesEverEnqueued(int64_t value) ;
 
 constexpr int64_t __get__numNodesEverEnqueued() const;
 
- ::System::Comparison_1<TPriority> __declspec(property(get=__get__comparer, put=__set__comparer))  _comparer;
+ System::Comparison_1<TPriority> __declspec(property(get=__get__comparer, put=__set__comparer))  _comparer;
 
-constexpr void __set__comparer(::System::Comparison_1<TPriority> value) ;
+constexpr void __set__comparer(System::Comparison_1<TPriority> value) ;
 
-constexpr ::System::Comparison_1<TPriority> __get__comparer() const;
+constexpr System::Comparison_1<TPriority> __get__comparer() const;
 
 
 // Properties
@@ -389,17 +388,17 @@ explicit GenericPriorityQueue_2(int32_t maxNodes) ;
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t maxNodes) ;
 
-// Ctor Parameters [CppParam { name: "maxNodes", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "comparer", ty: "::System::Collections::Generic::IComparer_1<TPriority>", modifiers: "", def_value: None }]
-explicit GenericPriorityQueue_2(int32_t maxNodes, ::System::Collections::Generic::IComparer_1<TPriority> comparer) ;
+// Ctor Parameters [CppParam { name: "maxNodes", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "comparer", ty: "System::Collections::Generic::IComparer_1<TPriority>", modifiers: "", def_value: None }]
+explicit GenericPriorityQueue_2(int32_t maxNodes, System::Collections::Generic::IComparer_1<TPriority> comparer) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(int32_t maxNodes, ::System::Collections::Generic::IComparer_1<TPriority> comparer) ;
+ void _ctor(int32_t maxNodes, System::Collections::Generic::IComparer_1<TPriority> comparer) ;
 
-// Ctor Parameters [CppParam { name: "maxNodes", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "comparer", ty: "::System::Comparison_1<TPriority>", modifiers: "", def_value: None }]
-explicit GenericPriorityQueue_2(int32_t maxNodes, ::System::Comparison_1<TPriority> comparer) ;
+// Ctor Parameters [CppParam { name: "maxNodes", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "comparer", ty: "System::Comparison_1<TPriority>", modifiers: "", def_value: None }]
+explicit GenericPriorityQueue_2(int32_t maxNodes, System::Comparison_1<TPriority> comparer) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(int32_t maxNodes, ::System::Comparison_1<TPriority> comparer) ;
+ void _ctor(int32_t maxNodes, System::Comparison_1<TPriority> comparer) ;
 
 /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual true final true
  int32_t get_Count() ;
@@ -447,10 +446,10 @@ explicit GenericPriorityQueue_2(int32_t maxNodes, ::System::Comparison_1<TPriori
  void ResetNode(TItem node) ;
 
 /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Collections::Generic::IEnumerator_1<TItem> GetEnumerator() ;
+ System::Collections::Generic::IEnumerator_1<TItem> GetEnumerator() ;
 
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
+ System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
 /// @brief Method IsValidQueue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool IsValidQueue() ;
@@ -470,19 +469,19 @@ template<::cordl_internals::il2cpp_reference_type TItem>
 class CORDL_TYPE GenericPriorityQueue_2<TItem,float_t> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using _GetEnumerator_d__25 = ::Priority_Queue::____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25<TItem, float_t>;
+using _GetEnumerator_d__25 = Priority_Queue::Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25<TItem, float_t>;
 
-/// @brief Convert operator to ::Priority_Queue::IFixedSizePriorityQueue_2<TItem,float_t>
-constexpr operator  ::Priority_Queue::IFixedSizePriorityQueue_2<TItem,float_t>() const noexcept;
+/// @brief Convert operator to Priority_Queue::IFixedSizePriorityQueue_2<TItem,float_t>
+constexpr operator  Priority_Queue::IFixedSizePriorityQueue_2<TItem,float_t>() const noexcept;
 
-/// @brief Convert operator to ::Priority_Queue::IPriorityQueue_2<TItem,float_t>
-constexpr operator  ::Priority_Queue::IPriorityQueue_2<TItem,float_t>() const noexcept;
+/// @brief Convert operator to Priority_Queue::IPriorityQueue_2<TItem,float_t>
+constexpr operator  Priority_Queue::IPriorityQueue_2<TItem,float_t>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerable_1<TItem>
-constexpr operator  ::System::Collections::Generic::IEnumerable_1<TItem>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerable_1<TItem>
+constexpr operator  System::Collections::Generic::IEnumerable_1<TItem>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -535,11 +534,11 @@ constexpr void __set__numNodesEverEnqueued(int64_t value) ;
 
 constexpr int64_t __get__numNodesEverEnqueued() const;
 
- ::System::Comparison_1<float_t> __declspec(property(get=__get__comparer, put=__set__comparer))  _comparer;
+ System::Comparison_1<float_t> __declspec(property(get=__get__comparer, put=__set__comparer))  _comparer;
 
-constexpr void __set__comparer(::System::Comparison_1<float_t> value) ;
+constexpr void __set__comparer(System::Comparison_1<float_t> value) ;
 
-constexpr ::System::Comparison_1<float_t> __get__comparer() const;
+constexpr System::Comparison_1<float_t> __get__comparer() const;
 
 
 // Properties
@@ -559,17 +558,17 @@ explicit GenericPriorityQueue_2(int32_t maxNodes) ;
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t maxNodes) ;
 
-// Ctor Parameters [CppParam { name: "maxNodes", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "comparer", ty: "::System::Collections::Generic::IComparer_1<float_t>", modifiers: "", def_value: None }]
-explicit GenericPriorityQueue_2(int32_t maxNodes, ::System::Collections::Generic::IComparer_1<float_t> comparer) ;
+// Ctor Parameters [CppParam { name: "maxNodes", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "comparer", ty: "System::Collections::Generic::IComparer_1<float_t>", modifiers: "", def_value: None }]
+explicit GenericPriorityQueue_2(int32_t maxNodes, System::Collections::Generic::IComparer_1<float_t> comparer) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(int32_t maxNodes, ::System::Collections::Generic::IComparer_1<float_t> comparer) ;
+ void _ctor(int32_t maxNodes, System::Collections::Generic::IComparer_1<float_t> comparer) ;
 
-// Ctor Parameters [CppParam { name: "maxNodes", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "comparer", ty: "::System::Comparison_1<float_t>", modifiers: "", def_value: None }]
-explicit GenericPriorityQueue_2(int32_t maxNodes, ::System::Comparison_1<float_t> comparer) ;
+// Ctor Parameters [CppParam { name: "maxNodes", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "comparer", ty: "System::Comparison_1<float_t>", modifiers: "", def_value: None }]
+explicit GenericPriorityQueue_2(int32_t maxNodes, System::Comparison_1<float_t> comparer) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(int32_t maxNodes, ::System::Comparison_1<float_t> comparer) ;
+ void _ctor(int32_t maxNodes, System::Comparison_1<float_t> comparer) ;
 
 /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual true final true
  int32_t get_Count() ;
@@ -617,10 +616,10 @@ explicit GenericPriorityQueue_2(int32_t maxNodes, ::System::Comparison_1<float_t
  void ResetNode(TItem node) ;
 
 /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Collections::Generic::IEnumerator_1<TItem> GetEnumerator() ;
+ System::Collections::Generic::IEnumerator_1<TItem> GetEnumerator() ;
 
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
+ System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
 /// @brief Method IsValidQueue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool IsValidQueue() ;
@@ -629,6 +628,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Priority_Queue
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Priority_Queue::GenericPriorityQueue_2, "Priority_Queue", "GenericPriorityQueue`2");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Priority_Queue::____Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25, "Priority_Queue", "GenericPriorityQueue`2/<GetEnumerator>d__25");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Priority_Queue::GenericPriorityQueue_2, "Priority_Queue", "GenericPriorityQueue`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Priority_Queue::Priority_Queue__GenericPriorityQueue_2___GetEnumerator_d__25, "Priority_Queue", "GenericPriorityQueue`2/<GetEnumerator>d__25");

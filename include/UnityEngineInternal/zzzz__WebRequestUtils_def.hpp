@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class Uri;
 }
@@ -55,11 +54,11 @@ constexpr explicit WebRequestUtils(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Fields
 
-static ::System::Text::RegularExpressions::Regex __declspec(property(get=__get_domainRegex, put=__set_domainRegex))  domainRegex;
+static System::Text::RegularExpressions::Regex __declspec(property(get=__get_domainRegex, put=__set_domainRegex))  domainRegex;
 
-static void __set_domainRegex(::System::Text::RegularExpressions::Regex value) ;
+static void __set_domainRegex(System::Text::RegularExpressions::Regex value) ;
 
-static ::System::Text::RegularExpressions::Regex __get_domainRegex() ;
+static System::Text::RegularExpressions::Regex __get_domainRegex() ;
 
 
 // Methods
@@ -71,7 +70,7 @@ static ::StringW RedirectTo(::StringW baseUri, ::StringW redirectUri) ;
 static ::StringW MakeInitialUrl(::StringW targetUrl, ::StringW localUrl) ;
 
 /// @brief Method MakeUriString addr 0x2d341e8 size 0x3f4 virtual false final false
-static ::StringW MakeUriString(::System::Uri targetUri, ::StringW targetUrl, bool prependProtocol) ;
+static ::StringW MakeUriString(System::Uri targetUri, ::StringW targetUrl, bool prependProtocol) ;
 
 /// @brief Method URLDecode addr 0x2d345dc size 0xa4 virtual false final false
 static ::StringW URLDecode(::StringW encoded) ;
@@ -80,6 +79,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngineInternal
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngineInternal::WebRequestUtils);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngineInternal::WebRequestUtils, "UnityEngineInternal", "WebRequestUtils");
+NEED_NO_BOX(UnityEngineInternal::WebRequestUtils);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::WebRequestUtils, "UnityEngineInternal", "WebRequestUtils");

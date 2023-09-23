@@ -3,18 +3,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class IEntropySource;
 }
-namespace System::Collections {
-class IDictionary;
+namespace Org::BouncyCastle::Crypto::Prng::Drbg {
+class ISP80090Drbg;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
-namespace Org::BouncyCastle::Crypto::Prng::Drbg {
-class ISP80090Drbg;
+namespace System::Collections {
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Prng::Drbg {
@@ -29,8 +28,8 @@ namespace Org::BouncyCastle::Crypto::Prng::Drbg {
 class CORDL_TYPE HashSP800Drbg : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg
-constexpr operator  ::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg
+constexpr operator  Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -83,23 +82,23 @@ static void __set_MAX_BITS_REQUEST(int32_t value) ;
 
 static int32_t __get_MAX_BITS_REQUEST() ;
 
-static ::System::Collections::IDictionary __declspec(property(get=__get_seedlens, put=__set_seedlens))  seedlens;
+static System::Collections::IDictionary __declspec(property(get=__get_seedlens, put=__set_seedlens))  seedlens;
 
-static void __set_seedlens(::System::Collections::IDictionary value) ;
+static void __set_seedlens(System::Collections::IDictionary value) ;
 
-static ::System::Collections::IDictionary __get_seedlens() ;
+static System::Collections::IDictionary __get_seedlens() ;
 
- ::Org::BouncyCastle::Crypto::IDigest __declspec(property(get=__get_mDigest, put=__set_mDigest))  mDigest;
+ Org::BouncyCastle::Crypto::IDigest __declspec(property(get=__get_mDigest, put=__set_mDigest))  mDigest;
 
-constexpr void __set_mDigest(::Org::BouncyCastle::Crypto::IDigest value) ;
+constexpr void __set_mDigest(Org::BouncyCastle::Crypto::IDigest value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IDigest __get_mDigest() const;
+constexpr Org::BouncyCastle::Crypto::IDigest __get_mDigest() const;
 
- ::Org::BouncyCastle::Crypto::IEntropySource __declspec(property(get=__get_mEntropySource, put=__set_mEntropySource))  mEntropySource;
+ Org::BouncyCastle::Crypto::IEntropySource __declspec(property(get=__get_mEntropySource, put=__set_mEntropySource))  mEntropySource;
 
-constexpr void __set_mEntropySource(::Org::BouncyCastle::Crypto::IEntropySource value) ;
+constexpr void __set_mEntropySource(Org::BouncyCastle::Crypto::IEntropySource value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IEntropySource __get_mEntropySource() const;
+constexpr Org::BouncyCastle::Crypto::IEntropySource __get_mEntropySource() const;
 
  int32_t __declspec(property(get=__get_mSecurityStrength, put=__set_mSecurityStrength))  mSecurityStrength;
 
@@ -139,11 +138,11 @@ constexpr int64_t __get_mReseedCounter() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "digest", ty: "::Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "securityStrength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "entropySource", ty: "::Org::BouncyCastle::Crypto::IEntropySource", modifiers: "", def_value: None }, CppParam { name: "personalizationString", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "nonce", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit HashSP800Drbg(::Org::BouncyCastle::Crypto::IDigest digest, int32_t securityStrength, ::Org::BouncyCastle::Crypto::IEntropySource entropySource, ::ArrayW<uint8_t> personalizationString, ::ArrayW<uint8_t> nonce) ;
+// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "securityStrength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "entropySource", ty: "Org::BouncyCastle::Crypto::IEntropySource", modifiers: "", def_value: None }, CppParam { name: "personalizationString", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "nonce", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
+explicit HashSP800Drbg(Org::BouncyCastle::Crypto::IDigest digest, int32_t securityStrength, Org::BouncyCastle::Crypto::IEntropySource entropySource, ::ArrayW<uint8_t> personalizationString, ::ArrayW<uint8_t> nonce) ;
 
 /// @brief Method .ctor addr 0xeb1918 size 0x470 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IDigest digest, int32_t securityStrength, ::Org::BouncyCastle::Crypto::IEntropySource entropySource, ::ArrayW<uint8_t> personalizationString, ::ArrayW<uint8_t> nonce) ;
+ void _ctor(Org::BouncyCastle::Crypto::IDigest digest, int32_t securityStrength, Org::BouncyCastle::Crypto::IEntropySource entropySource, ::ArrayW<uint8_t> personalizationString, ::ArrayW<uint8_t> nonce) ;
 
 /// @brief Method get_BlockSize addr 0xeb1ea0 size 0xac virtual true final true
  int32_t get_BlockSize() ;
@@ -173,6 +172,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Prng::Drbg
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Prng::Drbg::HashSP800Drbg);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Prng::Drbg::HashSP800Drbg, "Org.BouncyCastle.Crypto.Prng.Drbg", "HashSP800Drbg");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Prng::Drbg::HashSP800Drbg);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Prng::Drbg::HashSP800Drbg, "Org.BouncyCastle.Crypto.Prng.Drbg", "HashSP800Drbg");

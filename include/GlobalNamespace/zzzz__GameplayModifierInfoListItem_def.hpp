@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace HMUI {
-class HoverHint;
-}
 namespace UnityEngine::UI {
 class Image;
+}
+namespace HMUI {
+class HoverHint;
 }
 namespace GlobalNamespace {
 class GameplayModifierParamsSO;
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5514))
 // CS Name: GameplayModifierInfoListItem
-class CORDL_TYPE GameplayModifierInfoListItem : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE GameplayModifierInfoListItem : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr GameplayModifierInfoListItem(GameplayModifierInfoListItem const& ) noe
 constexpr GameplayModifierInfoListItem(GameplayModifierInfoListItem&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GameplayModifierInfoListItem(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit GameplayModifierInfoListItem(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -57,23 +56,23 @@ constexpr explicit GameplayModifierInfoListItem(void* ptr) noexcept : ::UnityEng
 
 // Fields
 
- ::HMUI::HoverHint __declspec(property(get=__get__hoverHint, put=__set__hoverHint))  _hoverHint;
+ HMUI::HoverHint __declspec(property(get=__get__hoverHint, put=__set__hoverHint))  _hoverHint;
 
-constexpr void __set__hoverHint(::HMUI::HoverHint value) ;
+constexpr void __set__hoverHint(HMUI::HoverHint value) ;
 
-constexpr ::HMUI::HoverHint __get__hoverHint() const;
+constexpr HMUI::HoverHint __get__hoverHint() const;
 
- ::UnityEngine::UI::Image __declspec(property(get=__get__iconImage, put=__set__iconImage))  _iconImage;
+ UnityEngine::UI::Image __declspec(property(get=__get__iconImage, put=__set__iconImage))  _iconImage;
 
-constexpr void __set__iconImage(::UnityEngine::UI::Image value) ;
+constexpr void __set__iconImage(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get__iconImage() const;
+constexpr UnityEngine::UI::Image __get__iconImage() const;
 
 
 // Methods
 
 /// @brief Method SetModifier addr 0x2122f2c size 0x224 virtual false final false
- void SetModifier(::GlobalNamespace::GameplayModifierParamsSO modifierParam, bool showName) ;
+ void SetModifier(GlobalNamespace::GameplayModifierParamsSO modifierParam, bool showName) ;
 
 // Ctor Parameters []
 explicit GameplayModifierInfoListItem() ;
@@ -85,6 +84,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::GameplayModifierInfoListItem);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameplayModifierInfoListItem, "", "GameplayModifierInfoListItem");
+NEED_NO_BOX(GlobalNamespace::GameplayModifierInfoListItem);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifierInfoListItem, "", "GameplayModifierInfoListItem");

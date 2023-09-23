@@ -2,24 +2,23 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System::Net::Http {
-class HttpMethod;
-}
-namespace System::Net::Http::Headers {
-class HttpRequestHeaders;
-}
 namespace System {
-class Version;
+class Uri;
 }
 namespace System::Net::Http {
 class HttpContent;
 }
 namespace System {
-class Uri;
+class IDisposable;
+}
+namespace System::Net::Http::Headers {
+class HttpRequestHeaders;
+}
+namespace System::Net::Http {
+class HttpMethod;
 }
 namespace System {
-class IDisposable;
+class Version;
 }
 // Forward declare root types
 namespace System::Net::Http {
@@ -34,8 +33,8 @@ namespace System::Net::Http {
 class CORDL_TYPE HttpRequestMessage : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -70,29 +69,29 @@ constexpr explicit HttpRequestMessage(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Fields
 
- ::System::Net::Http::Headers::HttpRequestHeaders __declspec(property(get=__get_headers, put=__set_headers))  headers;
+ System::Net::Http::Headers::HttpRequestHeaders __declspec(property(get=__get_headers, put=__set_headers))  headers;
 
-constexpr void __set_headers(::System::Net::Http::Headers::HttpRequestHeaders value) ;
+constexpr void __set_headers(System::Net::Http::Headers::HttpRequestHeaders value) ;
 
-constexpr ::System::Net::Http::Headers::HttpRequestHeaders __get_headers() const;
+constexpr System::Net::Http::Headers::HttpRequestHeaders __get_headers() const;
 
- ::System::Net::Http::HttpMethod __declspec(property(get=__get_method, put=__set_method))  method;
+ System::Net::Http::HttpMethod __declspec(property(get=__get_method, put=__set_method))  method;
 
-constexpr void __set_method(::System::Net::Http::HttpMethod value) ;
+constexpr void __set_method(System::Net::Http::HttpMethod value) ;
 
-constexpr ::System::Net::Http::HttpMethod __get_method() const;
+constexpr System::Net::Http::HttpMethod __get_method() const;
 
- ::System::Version __declspec(property(get=__get_version, put=__set_version))  version;
+ System::Version __declspec(property(get=__get_version, put=__set_version))  version;
 
-constexpr void __set_version(::System::Version value) ;
+constexpr void __set_version(System::Version value) ;
 
-constexpr ::System::Version __get_version() const;
+constexpr System::Version __get_version() const;
 
- ::System::Uri __declspec(property(get=__get_uri, put=__set_uri))  uri;
+ System::Uri __declspec(property(get=__get_uri, put=__set_uri))  uri;
 
-constexpr void __set_uri(::System::Uri value) ;
+constexpr void __set_uri(System::Uri value) ;
 
-constexpr ::System::Uri __get_uri() const;
+constexpr System::Uri __get_uri() const;
 
  bool __declspec(property(get=__get_is_used, put=__set_is_used))  is_used;
 
@@ -106,24 +105,24 @@ constexpr void __set_disposed(bool value) ;
 
 constexpr bool __get_disposed() const;
 
- ::System::Net::Http::HttpContent __declspec(property(get=__get__Content_k__BackingField, put=__set__Content_k__BackingField))  _Content_k__BackingField;
+ System::Net::Http::HttpContent __declspec(property(get=__get__Content_k__BackingField, put=__set__Content_k__BackingField))  _Content_k__BackingField;
 
-constexpr void __set__Content_k__BackingField(::System::Net::Http::HttpContent value) ;
+constexpr void __set__Content_k__BackingField(System::Net::Http::HttpContent value) ;
 
-constexpr ::System::Net::Http::HttpContent __get__Content_k__BackingField() const;
+constexpr System::Net::Http::HttpContent __get__Content_k__BackingField() const;
 
 
 // Properties
 
- ::System::Net::Http::HttpContent __declspec(property(get=get_Content, put=set_Content))  Content;
+ System::Net::Http::HttpContent __declspec(property(get=get_Content, put=set_Content))  Content;
 
- ::System::Net::Http::Headers::HttpRequestHeaders __declspec(property(get=get_Headers))  Headers;
+ System::Net::Http::Headers::HttpRequestHeaders __declspec(property(get=get_Headers))  Headers;
 
- ::System::Net::Http::HttpMethod __declspec(property(get=get_Method, put=set_Method))  Method;
+ System::Net::Http::HttpMethod __declspec(property(get=get_Method, put=set_Method))  Method;
 
- ::System::Uri __declspec(property(get=get_RequestUri, put=set_RequestUri))  RequestUri;
+ System::Uri __declspec(property(get=get_RequestUri, put=set_RequestUri))  RequestUri;
 
- ::System::Version __declspec(property(get=get_Version))  Version;
+ System::Version __declspec(property(get=get_Version))  Version;
 
 
 // Methods
@@ -134,44 +133,44 @@ explicit HttpRequestMessage() ;
 /// @brief Method .ctor addr 0x26a203c size 0x9c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "method", ty: "::System::Net::Http::HttpMethod", modifiers: "", def_value: None }, CppParam { name: "requestUri", ty: "::StringW", modifiers: "", def_value: None }]
-explicit HttpRequestMessage(::System::Net::Http::HttpMethod method, ::StringW requestUri) ;
+// Ctor Parameters [CppParam { name: "method", ty: "System::Net::Http::HttpMethod", modifiers: "", def_value: None }, CppParam { name: "requestUri", ty: "::StringW", modifiers: "", def_value: None }]
+explicit HttpRequestMessage(System::Net::Http::HttpMethod method, ::StringW requestUri) ;
 
 /// @brief Method .ctor addr 0x26a20d8 size 0x94 virtual false final false
- void _ctor(::System::Net::Http::HttpMethod method, ::StringW requestUri) ;
+ void _ctor(System::Net::Http::HttpMethod method, ::StringW requestUri) ;
 
-// Ctor Parameters [CppParam { name: "method", ty: "::System::Net::Http::HttpMethod", modifiers: "", def_value: None }, CppParam { name: "requestUri", ty: "::System::Uri", modifiers: "", def_value: None }]
-explicit HttpRequestMessage(::System::Net::Http::HttpMethod method, ::System::Uri requestUri) ;
+// Ctor Parameters [CppParam { name: "method", ty: "System::Net::Http::HttpMethod", modifiers: "", def_value: None }, CppParam { name: "requestUri", ty: "System::Uri", modifiers: "", def_value: None }]
+explicit HttpRequestMessage(System::Net::Http::HttpMethod method, System::Uri requestUri) ;
 
 /// @brief Method .ctor addr 0x269f6e4 size 0x3c virtual false final false
- void _ctor(::System::Net::Http::HttpMethod method, ::System::Uri requestUri) ;
+ void _ctor(System::Net::Http::HttpMethod method, System::Uri requestUri) ;
 
 /// @brief Method get_Content addr 0x26a221c size 0x8 virtual false final false
- ::System::Net::Http::HttpContent get_Content() ;
+ System::Net::Http::HttpContent get_Content() ;
 
 /// @brief Method set_Content addr 0x26a2224 size 0x8 virtual false final false
- void set_Content(::System::Net::Http::HttpContent value) ;
+ void set_Content(System::Net::Http::HttpContent value) ;
 
 /// @brief Method get_Headers addr 0x269c310 size 0x68 virtual false final false
- ::System::Net::Http::Headers::HttpRequestHeaders get_Headers() ;
+ System::Net::Http::Headers::HttpRequestHeaders get_Headers() ;
 
 /// @brief Method get_Method addr 0x26a228c size 0x8 virtual false final false
- ::System::Net::Http::HttpMethod get_Method() ;
+ System::Net::Http::HttpMethod get_Method() ;
 
 /// @brief Method set_Method addr 0x26a216c size 0xb0 virtual false final false
- void set_Method(::System::Net::Http::HttpMethod value) ;
+ void set_Method(System::Net::Http::HttpMethod value) ;
 
 /// @brief Method get_RequestUri addr 0x26a2294 size 0x8 virtual false final false
- ::System::Uri get_RequestUri() ;
+ System::Uri get_RequestUri() ;
 
 /// @brief Method set_RequestUri addr 0x269cbe0 size 0xe4 virtual false final false
- void set_RequestUri(::System::Uri value) ;
+ void set_RequestUri(System::Uri value) ;
 
 /// @brief Method IsAllowedAbsoluteUri addr 0x26a229c size 0x14c virtual false final false
-static bool IsAllowedAbsoluteUri(::System::Uri uri) ;
+static bool IsAllowedAbsoluteUri(System::Uri uri) ;
 
 /// @brief Method get_Version addr 0x269c2ac size 0x64 virtual false final false
- ::System::Version get_Version() ;
+ System::Version get_Version() ;
 
 /// @brief Method Dispose addr 0x26a23e8 size 0x10 virtual true final true
  void Dispose() ;
@@ -189,6 +188,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Http
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Http::HttpRequestMessage);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::HttpRequestMessage, "System.Net.Http", "HttpRequestMessage");
+NEED_NO_BOX(System::Net::Http::HttpRequestMessage);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpRequestMessage, "System.Net.Http", "HttpRequestMessage");

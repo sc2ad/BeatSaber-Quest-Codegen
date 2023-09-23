@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Tayx::Graphy::Utils::NumString {
 class G_IntString;
@@ -92,6 +91,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Tayx::Graphy::Utils::NumString
-} // end anonymous namespace
-NEED_NO_BOX(::Tayx::Graphy::Utils::NumString::G_IntString);
-DEFINE_IL2CPP_ARG_TYPE(::Tayx::Graphy::Utils::NumString::G_IntString, "Tayx.Graphy.Utils.NumString", "G_IntString");
+NEED_NO_BOX(Tayx::Graphy::Utils::NumString::G_IntString);
+DEFINE_IL2CPP_ARG_TYPE(Tayx::Graphy::Utils::NumString::G_IntString, "Tayx.Graphy.Utils.NumString", "G_IntString");

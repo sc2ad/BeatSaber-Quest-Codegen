@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Mono::Security::X509 {
 struct X509ChainStatusFlags;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field InvalidBasicConstraints offset 0
-static ::Mono::Security::X509::X509ChainStatusFlags const InvalidBasicConstraints;
+static Mono::Security::X509::X509ChainStatusFlags const InvalidBasicConstraints;
 
 /// @brief Field NoError offset 0
-static ::Mono::Security::X509::X509ChainStatusFlags const NoError;
+static Mono::Security::X509::X509ChainStatusFlags const NoError;
 
 /// @brief Field NotSignatureValid offset 0
-static ::Mono::Security::X509::X509ChainStatusFlags const NotSignatureValid;
+static Mono::Security::X509::X509ChainStatusFlags const NotSignatureValid;
 
 /// @brief Field NotTimeNested offset 0
-static ::Mono::Security::X509::X509ChainStatusFlags const NotTimeNested;
+static Mono::Security::X509::X509ChainStatusFlags const NotTimeNested;
 
 /// @brief Field NotTimeValid offset 0
-static ::Mono::Security::X509::X509ChainStatusFlags const NotTimeValid;
+static Mono::Security::X509::X509ChainStatusFlags const NotTimeValid;
 
 /// @brief Field PartialChain offset 0
-static ::Mono::Security::X509::X509ChainStatusFlags const PartialChain;
+static Mono::Security::X509::X509ChainStatusFlags const PartialChain;
 
 /// @brief Field UntrustedRoot offset 0
-static ::Mono::Security::X509::X509ChainStatusFlags const UntrustedRoot;
+static Mono::Security::X509::X509ChainStatusFlags const UntrustedRoot;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Mono::Security::X509
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::X509::X509ChainStatusFlags, "Mono.Security.X509", "X509ChainStatusFlags");
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509ChainStatusFlags, "Mono.Security.X509", "X509ChainStatusFlags");

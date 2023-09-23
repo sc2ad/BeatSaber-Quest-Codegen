@@ -1,11 +1,10 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
-namespace System::Xml {
-class IDtdParserAdapter;
-}
 namespace System::Xml {
 class IDtdParserAdapterWithValidation;
+}
+namespace System::Xml {
+class IDtdParserAdapter;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -20,11 +19,11 @@ namespace System::Xml {
 class CORDL_TYPE IDtdParserAdapterV1 : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Xml::IDtdParserAdapterWithValidation
-constexpr operator  ::System::Xml::IDtdParserAdapterWithValidation() const noexcept;
+/// @brief Convert operator to System::Xml::IDtdParserAdapterWithValidation
+constexpr operator  System::Xml::IDtdParserAdapterWithValidation() const noexcept;
 
-/// @brief Convert operator to ::System::Xml::IDtdParserAdapter
-constexpr operator  ::System::Xml::IDtdParserAdapter() const noexcept;
+/// @brief Convert operator to System::Xml::IDtdParserAdapter
+constexpr operator  System::Xml::IDtdParserAdapter() const noexcept;
 
 ~IDtdParserAdapterV1() = default;
 
@@ -57,6 +56,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::IDtdParserAdapterV1);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::IDtdParserAdapterV1, "System.Xml", "IDtdParserAdapterV1");
+NEED_NO_BOX(System::Xml::IDtdParserAdapterV1);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::IDtdParserAdapterV1, "System.Xml", "IDtdParserAdapterV1");

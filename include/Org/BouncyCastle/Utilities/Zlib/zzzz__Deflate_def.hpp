@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Utilities::Zlib {
 class ZStream;
 }
@@ -16,7 +15,7 @@ namespace Org::BouncyCastle::Utilities::Zlib {
 class Deflate;
 }
 namespace Org::BouncyCastle::Utilities::Zlib {
-class ____Org__BouncyCastle__Utilities__Zlib__Deflate__Config;
+class Org__BouncyCastle__Utilities__Zlib__Deflate__Config;
 }
 // Type: ::Config
 namespace Org::BouncyCastle::Utilities::Zlib {
@@ -24,37 +23,37 @@ namespace Org::BouncyCastle::Utilities::Zlib {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1818))
 // CS Name: Org.BouncyCastle.Utilities.Zlib.Deflate::Config
-class CORDL_TYPE ____Org__BouncyCastle__Utilities__Zlib__Deflate__Config : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Org__BouncyCastle__Utilities__Zlib__Deflate__Config : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____Org__BouncyCastle__Utilities__Zlib__Deflate__Config() = default;
+virtual ~Org__BouncyCastle__Utilities__Zlib__Deflate__Config() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Utilities__Zlib__Deflate__Config", modifiers: " const&", def_value: None }]
-constexpr ____Org__BouncyCastle__Utilities__Zlib__Deflate__Config(____Org__BouncyCastle__Utilities__Zlib__Deflate__Config const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Utilities__Zlib__Deflate__Config", modifiers: " const&", def_value: None }]
+constexpr Org__BouncyCastle__Utilities__Zlib__Deflate__Config(Org__BouncyCastle__Utilities__Zlib__Deflate__Config const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Utilities__Zlib__Deflate__Config", modifiers: "&&", def_value: None }]
-constexpr ____Org__BouncyCastle__Utilities__Zlib__Deflate__Config(____Org__BouncyCastle__Utilities__Zlib__Deflate__Config&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Utilities__Zlib__Deflate__Config", modifiers: "&&", def_value: None }]
+constexpr Org__BouncyCastle__Utilities__Zlib__Deflate__Config(Org__BouncyCastle__Utilities__Zlib__Deflate__Config&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Org__BouncyCastle__Utilities__Zlib__Deflate__Config(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Org__BouncyCastle__Utilities__Zlib__Deflate__Config(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Org__BouncyCastle__Utilities__Zlib__Deflate__Config& operator=(std::nullptr_t) noexcept {
+  constexpr Org__BouncyCastle__Utilities__Zlib__Deflate__Config& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Utilities__Zlib__Deflate__Config& operator=(void* o) noexcept {
+  constexpr Org__BouncyCastle__Utilities__Zlib__Deflate__Config& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Utilities__Zlib__Deflate__Config& operator=(____Org__BouncyCastle__Utilities__Zlib__Deflate__Config&& o) noexcept = default;
-  constexpr ____Org__BouncyCastle__Utilities__Zlib__Deflate__Config& operator=(____Org__BouncyCastle__Utilities__Zlib__Deflate__Config const& o) noexcept = default;
+  constexpr Org__BouncyCastle__Utilities__Zlib__Deflate__Config& operator=(Org__BouncyCastle__Utilities__Zlib__Deflate__Config&& o) noexcept = default;
+  constexpr Org__BouncyCastle__Utilities__Zlib__Deflate__Config& operator=(Org__BouncyCastle__Utilities__Zlib__Deflate__Config const& o) noexcept = default;
                 
 
 
@@ -94,7 +93,7 @@ constexpr int32_t __get_func() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "good_length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "max_lazy", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nice_length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "max_chain", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "func", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____Org__BouncyCastle__Utilities__Zlib__Deflate__Config(int32_t good_length, int32_t max_lazy, int32_t nice_length, int32_t max_chain, int32_t func) ;
+explicit Org__BouncyCastle__Utilities__Zlib__Deflate__Config(int32_t good_length, int32_t max_lazy, int32_t nice_length, int32_t max_chain, int32_t func) ;
 
 /// @brief Method .ctor addr 0x10d9358 size 0x50 virtual false final false
  void _ctor(int32_t good_length, int32_t max_lazy, int32_t nice_length, int32_t max_chain, int32_t func) ;
@@ -112,7 +111,7 @@ namespace Org::BouncyCastle::Utilities::Zlib {
 class CORDL_TYPE Deflate : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using Config = ::Org::BouncyCastle::Utilities::Zlib::____Org__BouncyCastle__Utilities__Zlib__Deflate__Config;
+using Config = Org::BouncyCastle::Utilities::Zlib::Org__BouncyCastle__Utilities__Zlib__Deflate__Config;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x130};
@@ -309,11 +308,11 @@ static constexpr int32_t  HEAP_SIZE{573};
 /// @brief Field END_BLOCK offset 0
 static constexpr int32_t  END_BLOCK{256};
 
-static ::ArrayW<::Org::BouncyCastle::Utilities::Zlib::____Org__BouncyCastle__Utilities__Zlib__Deflate__Config> __declspec(property(get=__get_config_table, put=__set_config_table))  config_table;
+static ::ArrayW<Org::BouncyCastle::Utilities::Zlib::Org__BouncyCastle__Utilities__Zlib__Deflate__Config> __declspec(property(get=__get_config_table, put=__set_config_table))  config_table;
 
-static void __set_config_table(::ArrayW<::Org::BouncyCastle::Utilities::Zlib::____Org__BouncyCastle__Utilities__Zlib__Deflate__Config> value) ;
+static void __set_config_table(::ArrayW<Org::BouncyCastle::Utilities::Zlib::Org__BouncyCastle__Utilities__Zlib__Deflate__Config> value) ;
 
-static ::ArrayW<::Org::BouncyCastle::Utilities::Zlib::____Org__BouncyCastle__Utilities__Zlib__Deflate__Config> __get_config_table() ;
+static ::ArrayW<Org::BouncyCastle::Utilities::Zlib::Org__BouncyCastle__Utilities__Zlib__Deflate__Config> __get_config_table() ;
 
 static ::ArrayW<::StringW> __declspec(property(get=__get_z_errmsg, put=__set_z_errmsg))  z_errmsg;
 
@@ -321,11 +320,11 @@ static void __set_z_errmsg(::ArrayW<::StringW> value) ;
 
 static ::ArrayW<::StringW> __get_z_errmsg() ;
 
- ::Org::BouncyCastle::Utilities::Zlib::ZStream __declspec(property(get=__get_strm, put=__set_strm))  strm;
+ Org::BouncyCastle::Utilities::Zlib::ZStream __declspec(property(get=__get_strm, put=__set_strm))  strm;
 
-constexpr void __set_strm(::Org::BouncyCastle::Utilities::Zlib::ZStream value) ;
+constexpr void __set_strm(Org::BouncyCastle::Utilities::Zlib::ZStream value) ;
 
-constexpr ::Org::BouncyCastle::Utilities::Zlib::ZStream __get_strm() const;
+constexpr Org::BouncyCastle::Utilities::Zlib::ZStream __get_strm() const;
 
  int32_t __declspec(property(get=__get_status, put=__set_status))  status;
 
@@ -549,23 +548,23 @@ constexpr void __set_bl_tree(::ArrayW<int16_t> value) ;
 
 constexpr ::ArrayW<int16_t> __get_bl_tree() const;
 
- ::Org::BouncyCastle::Utilities::Zlib::Tree __declspec(property(get=__get_l_desc, put=__set_l_desc))  l_desc;
+ Org::BouncyCastle::Utilities::Zlib::Tree __declspec(property(get=__get_l_desc, put=__set_l_desc))  l_desc;
 
-constexpr void __set_l_desc(::Org::BouncyCastle::Utilities::Zlib::Tree value) ;
+constexpr void __set_l_desc(Org::BouncyCastle::Utilities::Zlib::Tree value) ;
 
-constexpr ::Org::BouncyCastle::Utilities::Zlib::Tree __get_l_desc() const;
+constexpr Org::BouncyCastle::Utilities::Zlib::Tree __get_l_desc() const;
 
- ::Org::BouncyCastle::Utilities::Zlib::Tree __declspec(property(get=__get_d_desc, put=__set_d_desc))  d_desc;
+ Org::BouncyCastle::Utilities::Zlib::Tree __declspec(property(get=__get_d_desc, put=__set_d_desc))  d_desc;
 
-constexpr void __set_d_desc(::Org::BouncyCastle::Utilities::Zlib::Tree value) ;
+constexpr void __set_d_desc(Org::BouncyCastle::Utilities::Zlib::Tree value) ;
 
-constexpr ::Org::BouncyCastle::Utilities::Zlib::Tree __get_d_desc() const;
+constexpr Org::BouncyCastle::Utilities::Zlib::Tree __get_d_desc() const;
 
- ::Org::BouncyCastle::Utilities::Zlib::Tree __declspec(property(get=__get_bl_desc, put=__set_bl_desc))  bl_desc;
+ Org::BouncyCastle::Utilities::Zlib::Tree __declspec(property(get=__get_bl_desc, put=__set_bl_desc))  bl_desc;
 
-constexpr void __set_bl_desc(::Org::BouncyCastle::Utilities::Zlib::Tree value) ;
+constexpr void __set_bl_desc(Org::BouncyCastle::Utilities::Zlib::Tree value) ;
 
-constexpr ::Org::BouncyCastle::Utilities::Zlib::Tree __get_bl_desc() const;
+constexpr Org::BouncyCastle::Utilities::Zlib::Tree __get_bl_desc() const;
 
  ::ArrayW<int16_t> __declspec(property(get=__get_bl_count, put=__set_bl_count))  bl_count;
 
@@ -757,35 +756,34 @@ static bool smaller(::ArrayW<int16_t> tree, int32_t n, int32_t m, ::ArrayW<uint8
  int32_t longest_match(int32_t cur_match) ;
 
 /// @brief Method deflateInit addr 0x10d7a04 size 0x14 virtual false final false
- int32_t deflateInit(::Org::BouncyCastle::Utilities::Zlib::ZStream strm, int32_t level, int32_t bits) ;
+ int32_t deflateInit(Org::BouncyCastle::Utilities::Zlib::ZStream strm, int32_t level, int32_t bits) ;
 
 /// @brief Method deflateInit addr 0x10d7bb8 size 0x14 virtual false final false
- int32_t deflateInit(::Org::BouncyCastle::Utilities::Zlib::ZStream strm, int32_t level) ;
+ int32_t deflateInit(Org::BouncyCastle::Utilities::Zlib::ZStream strm, int32_t level) ;
 
 /// @brief Method deflateInit2 addr 0x10d7a18 size 0x1a0 virtual false final false
- int32_t deflateInit2(::Org::BouncyCastle::Utilities::Zlib::ZStream strm, int32_t level, int32_t method, int32_t windowBits, int32_t memLevel, int32_t strategy) ;
+ int32_t deflateInit2(Org::BouncyCastle::Utilities::Zlib::ZStream strm, int32_t level, int32_t method, int32_t windowBits, int32_t memLevel, int32_t strategy) ;
 
 /// @brief Method deflateReset addr 0x10d7bcc size 0x74 virtual false final false
- int32_t deflateReset(::Org::BouncyCastle::Utilities::Zlib::ZStream strm) ;
+ int32_t deflateReset(Org::BouncyCastle::Utilities::Zlib::ZStream strm) ;
 
 /// @brief Method deflateEnd addr 0x10d7c40 size 0x44 virtual false final false
  int32_t deflateEnd() ;
 
 /// @brief Method deflateParams addr 0x10d7c84 size 0x184 virtual false final false
- int32_t deflateParams(::Org::BouncyCastle::Utilities::Zlib::ZStream strm, int32_t _level, int32_t _strategy) ;
+ int32_t deflateParams(Org::BouncyCastle::Utilities::Zlib::ZStream strm, int32_t _level, int32_t _strategy) ;
 
 /// @brief Method deflateSetDictionary addr 0x10d7e08 size 0x178 virtual false final false
- int32_t deflateSetDictionary(::Org::BouncyCastle::Utilities::Zlib::ZStream strm, ::ArrayW<uint8_t> dictionary, int32_t dictLength) ;
+ int32_t deflateSetDictionary(Org::BouncyCastle::Utilities::Zlib::ZStream strm, ::ArrayW<uint8_t> dictionary, int32_t dictLength) ;
 
 /// @brief Method deflate addr 0x10d7f80 size 0x13d8 virtual false final false
- int32_t deflate(::Org::BouncyCastle::Utilities::Zlib::ZStream strm, int32_t flush) ;
+ int32_t deflate(Org::BouncyCastle::Utilities::Zlib::ZStream strm, int32_t flush) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities::Zlib
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::Zlib::Deflate);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Zlib::Deflate, "Org.BouncyCastle.Utilities.Zlib", "Deflate");
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::Zlib::____Org__BouncyCastle__Utilities__Zlib__Deflate__Config);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Zlib::____Org__BouncyCastle__Utilities__Zlib__Deflate__Config, "Org.BouncyCastle.Utilities.Zlib", "Deflate/Config");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Zlib::Deflate);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Zlib::Deflate, "Org.BouncyCastle.Utilities.Zlib", "Deflate");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Zlib::Org__BouncyCastle__Utilities__Zlib__Deflate__Config);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Zlib::Org__BouncyCastle__Utilities__Zlib__Deflate__Config, "Org.BouncyCastle.Utilities.Zlib", "Deflate/Config");

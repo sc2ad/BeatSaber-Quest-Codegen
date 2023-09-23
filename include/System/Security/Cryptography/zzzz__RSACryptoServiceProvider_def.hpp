@@ -5,12 +5,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Security::Cryptography {
-struct RSAParameters;
-}
-namespace System::Security::Cryptography {
-class CspParameters;
+namespace Mono::Security::Cryptography {
+class RSAManaged;
 }
 namespace System::Security::Cryptography {
 struct CspProviderFlags;
@@ -18,11 +14,14 @@ struct CspProviderFlags;
 namespace Mono::Security::Cryptography {
 class KeyPairPersistence;
 }
+namespace System::Security::Cryptography {
+struct RSAParameters;
+}
+namespace System::Security::Cryptography {
+class CspParameters;
+}
 namespace System {
 class EventArgs;
-}
-namespace Mono::Security::Cryptography {
-class RSAManaged;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {
@@ -34,7 +33,7 @@ namespace System::Security::Cryptography {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2952))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2953))
 // CS Name: System.Security.Cryptography.RSACryptoServiceProvider
-class CORDL_TYPE RSACryptoServiceProvider : public ::System::Security::Cryptography::RSA {
+class CORDL_TYPE RSACryptoServiceProvider : public System::Security::Cryptography::RSA {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -49,7 +48,7 @@ constexpr RSACryptoServiceProvider(RSACryptoServiceProvider const& ) noexcept = 
 constexpr RSACryptoServiceProvider(RSACryptoServiceProvider&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RSACryptoServiceProvider(void* ptr) noexcept : ::System::Security::Cryptography::RSA(ptr) {
+constexpr explicit RSACryptoServiceProvider(void* ptr) noexcept : System::Security::Cryptography::RSA(ptr) {
 }
 
 
@@ -70,17 +69,17 @@ constexpr explicit RSACryptoServiceProvider(void* ptr) noexcept : ::System::Secu
 
 // Fields
 
-static ::System::Security::Cryptography::CspProviderFlags __declspec(property(get=__get_s_UseMachineKeyStore, put=__set_s_UseMachineKeyStore))  s_UseMachineKeyStore;
+static System::Security::Cryptography::CspProviderFlags __declspec(property(get=__get_s_UseMachineKeyStore, put=__set_s_UseMachineKeyStore))  s_UseMachineKeyStore;
 
-static void __set_s_UseMachineKeyStore(::System::Security::Cryptography::CspProviderFlags value) ;
+static void __set_s_UseMachineKeyStore(System::Security::Cryptography::CspProviderFlags value) ;
 
-static ::System::Security::Cryptography::CspProviderFlags __get_s_UseMachineKeyStore() ;
+static System::Security::Cryptography::CspProviderFlags __get_s_UseMachineKeyStore() ;
 
- ::Mono::Security::Cryptography::KeyPairPersistence __declspec(property(get=__get_store, put=__set_store))  store;
+ Mono::Security::Cryptography::KeyPairPersistence __declspec(property(get=__get_store, put=__set_store))  store;
 
-constexpr void __set_store(::Mono::Security::Cryptography::KeyPairPersistence value) ;
+constexpr void __set_store(Mono::Security::Cryptography::KeyPairPersistence value) ;
 
-constexpr ::Mono::Security::Cryptography::KeyPairPersistence __get_store() const;
+constexpr Mono::Security::Cryptography::KeyPairPersistence __get_store() const;
 
  bool __declspec(property(get=__get_persistKey, put=__set_persistKey))  persistKey;
 
@@ -106,11 +105,11 @@ constexpr void __set_m_disposed(bool value) ;
 
 constexpr bool __get_m_disposed() const;
 
- ::Mono::Security::Cryptography::RSAManaged __declspec(property(get=__get_rsa, put=__set_rsa))  rsa;
+ Mono::Security::Cryptography::RSAManaged __declspec(property(get=__get_rsa, put=__set_rsa))  rsa;
 
-constexpr void __set_rsa(::Mono::Security::Cryptography::RSAManaged value) ;
+constexpr void __set_rsa(Mono::Security::Cryptography::RSAManaged value) ;
 
-constexpr ::Mono::Security::Cryptography::RSAManaged __get_rsa() const;
+constexpr Mono::Security::Cryptography::RSAManaged __get_rsa() const;
 
 
 // Properties
@@ -133,11 +132,11 @@ explicit RSACryptoServiceProvider() ;
 /// @brief Method .ctor addr 0x22fa4c0 size 0x2c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "parameters", ty: "::System::Security::Cryptography::CspParameters", modifiers: "", def_value: None }]
-explicit RSACryptoServiceProvider(::System::Security::Cryptography::CspParameters parameters) ;
+// Ctor Parameters [CppParam { name: "parameters", ty: "System::Security::Cryptography::CspParameters", modifiers: "", def_value: None }]
+explicit RSACryptoServiceProvider(System::Security::Cryptography::CspParameters parameters) ;
 
 /// @brief Method .ctor addr 0x22faf6c size 0xc virtual false final false
- void _ctor(::System::Security::Cryptography::CspParameters parameters) ;
+ void _ctor(System::Security::Cryptography::CspParameters parameters) ;
 
 // Ctor Parameters [CppParam { name: "dwKeySize", ty: "int32_t", modifiers: "", def_value: None }]
 explicit RSACryptoServiceProvider(int32_t dwKeySize) ;
@@ -145,17 +144,17 @@ explicit RSACryptoServiceProvider(int32_t dwKeySize) ;
 /// @brief Method .ctor addr 0x22faf34 size 0x38 virtual false final false
  void _ctor(int32_t dwKeySize) ;
 
-// Ctor Parameters [CppParam { name: "dwKeySize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "::System::Security::Cryptography::CspParameters", modifiers: "", def_value: None }]
-explicit RSACryptoServiceProvider(int32_t dwKeySize, ::System::Security::Cryptography::CspParameters parameters) ;
+// Ctor Parameters [CppParam { name: "dwKeySize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "System::Security::Cryptography::CspParameters", modifiers: "", def_value: None }]
+explicit RSACryptoServiceProvider(int32_t dwKeySize, System::Security::Cryptography::CspParameters parameters) ;
 
 /// @brief Method .ctor addr 0x22faf78 size 0x5c virtual false final false
- void _ctor(int32_t dwKeySize, ::System::Security::Cryptography::CspParameters parameters) ;
+ void _ctor(int32_t dwKeySize, System::Security::Cryptography::CspParameters parameters) ;
 
 /// @brief Method Common addr 0x22fafd4 size 0x21c virtual false final false
  void Common(int32_t dwKeySize, bool parameters) ;
 
 /// @brief Method Common addr 0x22fb1f0 size 0x120 virtual false final false
- void Common(::System::Security::Cryptography::CspParameters p) ;
+ void Common(System::Security::Cryptography::CspParameters p) ;
 
 /// @brief Method Finalize addr 0x22fb310 size 0xa0 virtual true final false
  void Finalize() ;
@@ -170,10 +169,10 @@ explicit RSACryptoServiceProvider(int32_t dwKeySize, ::System::Security::Cryptog
  ::ArrayW<uint8_t> EncryptValue(::ArrayW<uint8_t> rgb) ;
 
 /// @brief Method ExportParameters addr 0x22fb40c size 0x140 virtual true final false
- ::System::Security::Cryptography::RSAParameters ExportParameters(bool includePrivateParameters) ;
+ System::Security::Cryptography::RSAParameters ExportParameters(bool includePrivateParameters) ;
 
 /// @brief Method ImportParameters addr 0x22fb54c size 0x54 virtual true final false
- void ImportParameters(::System::Security::Cryptography::RSAParameters parameters) ;
+ void ImportParameters(System::Security::Cryptography::RSAParameters parameters) ;
 
 /// @brief Method GetHashNameFromOID addr 0x22fb5a0 size 0x1cc virtual false final false
  ::StringW GetHashNameFromOID(::StringW oid) ;
@@ -185,12 +184,11 @@ explicit RSACryptoServiceProvider(int32_t dwKeySize, ::System::Security::Cryptog
  void Dispose(bool disposing) ;
 
 /// @brief Method OnKeyGenerated addr 0x22fb8e8 size 0x84 virtual false final false
- void OnKeyGenerated(::bs_hook::Il2CppWrapperType sender, ::System::EventArgs e) ;
+ void OnKeyGenerated(::bs_hook::Il2CppWrapperType sender, System::EventArgs e) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::RSACryptoServiceProvider);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::RSACryptoServiceProvider, "System.Security.Cryptography", "RSACryptoServiceProvider");
+NEED_NO_BOX(System::Security::Cryptography::RSACryptoServiceProvider);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSACryptoServiceProvider, "System.Security.Cryptography", "RSACryptoServiceProvider");

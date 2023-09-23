@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
@@ -78,15 +77,14 @@ static constexpr ::ConstString  kDifficultyUnknownSerializedName{u"Unknown"};
 // Methods
 
 /// @brief Method SerializedName addr 0xd90f50 size 0xa4 virtual false final false
-static ::StringW SerializedName(::GlobalNamespace::BeatmapDifficulty difficulty) ;
+static ::StringW SerializedName(GlobalNamespace::BeatmapDifficulty difficulty) ;
 
 /// @brief Method BeatmapDifficultyFromSerializedName addr 0xd90ff4 size 0x164 virtual false final false
-static bool BeatmapDifficultyFromSerializedName(::StringW name, ByRef<::GlobalNamespace::BeatmapDifficulty> difficulty) ;
+static bool BeatmapDifficultyFromSerializedName(::StringW name, ByRef<GlobalNamespace::BeatmapDifficulty> difficulty) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BeatmapDifficultySerializedMethods);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapDifficultySerializedMethods, "", "BeatmapDifficultySerializedMethods");
+NEED_NO_BOX(GlobalNamespace::BeatmapDifficultySerializedMethods);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDifficultySerializedMethods, "", "BeatmapDifficultySerializedMethods");

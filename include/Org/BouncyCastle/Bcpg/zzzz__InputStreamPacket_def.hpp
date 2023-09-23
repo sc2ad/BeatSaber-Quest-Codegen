@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__Packet_def.hpp"
-namespace {
 namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
 }
@@ -15,7 +14,7 @@ namespace Org::BouncyCastle::Bcpg {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(556))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(557))
 // CS Name: Org.BouncyCastle.Bcpg.InputStreamPacket
-class CORDL_TYPE InputStreamPacket : public ::Org::BouncyCastle::Bcpg::Packet {
+class CORDL_TYPE InputStreamPacket : public Org::BouncyCastle::Bcpg::Packet {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr InputStreamPacket(InputStreamPacket const& ) noexcept = default;
 constexpr InputStreamPacket(InputStreamPacket&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit InputStreamPacket(void* ptr) noexcept : ::Org::BouncyCastle::Bcpg::Packet(ptr) {
+constexpr explicit InputStreamPacket(void* ptr) noexcept : Org::BouncyCastle::Bcpg::Packet(ptr) {
 }
 
 
@@ -51,28 +50,27 @@ constexpr explicit InputStreamPacket(void* ptr) noexcept : ::Org::BouncyCastle::
 
 // Fields
 
- ::Org::BouncyCastle::Bcpg::BcpgInputStream __declspec(property(get=__get_bcpgIn, put=__set_bcpgIn))  bcpgIn;
+ Org::BouncyCastle::Bcpg::BcpgInputStream __declspec(property(get=__get_bcpgIn, put=__set_bcpgIn))  bcpgIn;
 
-constexpr void __set_bcpgIn(::Org::BouncyCastle::Bcpg::BcpgInputStream value) ;
+constexpr void __set_bcpgIn(Org::BouncyCastle::Bcpg::BcpgInputStream value) ;
 
-constexpr ::Org::BouncyCastle::Bcpg::BcpgInputStream __get_bcpgIn() const;
+constexpr Org::BouncyCastle::Bcpg::BcpgInputStream __get_bcpgIn() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "::Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
-explicit InputStreamPacket(::Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
+explicit InputStreamPacket(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
 /// @brief Method .ctor addr 0x114310c size 0x28 virtual false final false
- void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+ void _ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
 /// @brief Method GetInputStream addr 0x1146258 size 0x8 virtual false final false
- ::Org::BouncyCastle::Bcpg::BcpgInputStream GetInputStream() ;
+ Org::BouncyCastle::Bcpg::BcpgInputStream GetInputStream() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::InputStreamPacket);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::InputStreamPacket, "Org.BouncyCastle.Bcpg", "InputStreamPacket");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::InputStreamPacket);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::InputStreamPacket, "Org.BouncyCastle.Bcpg", "InputStreamPacket");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
 class IsUnmanagedAttribute;
@@ -12,7 +11,7 @@ namespace System::Runtime::CompilerServices {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8437))
 // CS Name: System.Runtime.CompilerServices.IsUnmanagedAttribute
-class CORDL_TYPE IsUnmanagedAttribute : public ::System::Attribute {
+class CORDL_TYPE IsUnmanagedAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr IsUnmanagedAttribute(IsUnmanagedAttribute const& ) noexcept = default;
 constexpr IsUnmanagedAttribute(IsUnmanagedAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit IsUnmanagedAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit IsUnmanagedAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::CompilerServices
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::CompilerServices::IsUnmanagedAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::IsUnmanagedAttribute, "System.Runtime.CompilerServices", "IsUnmanagedAttribute");
+NEED_NO_BOX(System::Runtime::CompilerServices::IsUnmanagedAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::IsUnmanagedAttribute, "System.Runtime.CompilerServices", "IsUnmanagedAttribute");

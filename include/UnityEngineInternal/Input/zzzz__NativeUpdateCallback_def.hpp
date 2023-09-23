@@ -3,7 +3,6 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngineInternal::Input {
 struct NativeInputUpdateType;
 }
@@ -17,7 +16,7 @@ namespace UnityEngineInternal::Input {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15953))
 // CS Name: UnityEngineInternal.Input.NativeUpdateCallback
-class CORDL_TYPE NativeUpdateCallback : public ::System::MulticastDelegate {
+class CORDL_TYPE NativeUpdateCallback : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr NativeUpdateCallback(NativeUpdateCallback const& ) noexcept = default;
 constexpr NativeUpdateCallback(NativeUpdateCallback&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NativeUpdateCallback(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit NativeUpdateCallback(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -60,12 +59,11 @@ explicit NativeUpdateCallback(::bs_hook::Il2CppWrapperType object, ::cordl_inter
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x2b97b4c size 0x14 virtual true final false
- void Invoke(::UnityEngineInternal::Input::NativeInputUpdateType updateType, void* buffer) ;
+ void Invoke(UnityEngineInternal::Input::NativeInputUpdateType updateType, void* buffer) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngineInternal::Input
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngineInternal::Input::NativeUpdateCallback);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngineInternal::Input::NativeUpdateCallback, "UnityEngineInternal.Input", "NativeUpdateCallback");
+NEED_NO_BOX(UnityEngineInternal::Input::NativeUpdateCallback);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::Input::NativeUpdateCallback, "UnityEngineInternal.Input", "NativeUpdateCallback");

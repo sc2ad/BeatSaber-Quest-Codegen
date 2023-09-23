@@ -4,7 +4,6 @@
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
@@ -16,10 +15,10 @@ class MessageWithDataStoreUnderPublicUserDataStore;
 // Type: Oculus.Platform::MessageWithDataStoreUnderPublicUserDataStore
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(3809)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4422 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3809), inst: 587 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4422 }), TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(3809)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3809), inst: 587 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13234))
 // CS Name: Oculus.Platform.MessageWithDataStoreUnderPublicUserDataStore
-class CORDL_TYPE MessageWithDataStoreUnderPublicUserDataStore : public ::Oculus::Platform::Message_1<::System::Collections::Generic::Dictionary_2<::StringW,::StringW>> {
+class CORDL_TYPE MessageWithDataStoreUnderPublicUserDataStore : public Oculus::Platform::Message_1<System::Collections::Generic::Dictionary_2<::StringW,::StringW>> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr MessageWithDataStoreUnderPublicUserDataStore(MessageWithDataStoreUnder
 constexpr MessageWithDataStoreUnderPublicUserDataStore(MessageWithDataStoreUnderPublicUserDataStore&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MessageWithDataStoreUnderPublicUserDataStore(void* ptr) noexcept : ::Oculus::Platform::Message_1<::System::Collections::Generic::Dictionary_2<::StringW,::StringW>>(ptr) {
+constexpr explicit MessageWithDataStoreUnderPublicUserDataStore(void* ptr) noexcept : Oculus::Platform::Message_1<System::Collections::Generic::Dictionary_2<::StringW,::StringW>>(ptr) {
 }
 
 
@@ -62,15 +61,14 @@ explicit MessageWithDataStoreUnderPublicUserDataStore(::cordl_internals::intptr_
  void _ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method GetDataStore addr 0x2581160 size 0x3c virtual true final false
- ::System::Collections::Generic::Dictionary_2<::StringW,::StringW> GetDataStore() ;
+ System::Collections::Generic::Dictionary_2<::StringW,::StringW> GetDataStore() ;
 
 /// @brief Method GetDataFromMessage addr 0x258119c size 0x5c virtual true final false
- ::System::Collections::Generic::Dictionary_2<::StringW,::StringW> GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
+ System::Collections::Generic::Dictionary_2<::StringW,::StringW> GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::MessageWithDataStoreUnderPublicUserDataStore);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithDataStoreUnderPublicUserDataStore, "Oculus.Platform", "MessageWithDataStoreUnderPublicUserDataStore");
+NEED_NO_BOX(Oculus::Platform::MessageWithDataStoreUnderPublicUserDataStore);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithDataStoreUnderPublicUserDataStore, "Oculus.Platform", "MessageWithDataStoreUnderPublicUserDataStore");

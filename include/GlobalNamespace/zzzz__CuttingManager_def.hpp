@@ -1,15 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
+namespace GlobalNamespace {
+class NoteCutter;
+}
 namespace GlobalNamespace {
 class SaberManager;
 }
 namespace GlobalNamespace {
 class Saber;
-}
-namespace GlobalNamespace {
-class NoteCutter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5377))
 // CS Name: CuttingManager
-class CORDL_TYPE CuttingManager : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE CuttingManager : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr CuttingManager(CuttingManager const& ) noexcept = default;
 constexpr CuttingManager(CuttingManager&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CuttingManager(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit CuttingManager(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -57,17 +56,17 @@ constexpr explicit CuttingManager(void* ptr) noexcept : ::UnityEngine::MonoBehav
 
 // Fields
 
- ::GlobalNamespace::SaberManager __declspec(property(get=__get__saberManager, put=__set__saberManager))  _saberManager;
+ GlobalNamespace::SaberManager __declspec(property(get=__get__saberManager, put=__set__saberManager))  _saberManager;
 
-constexpr void __set__saberManager(::GlobalNamespace::SaberManager value) ;
+constexpr void __set__saberManager(GlobalNamespace::SaberManager value) ;
 
-constexpr ::GlobalNamespace::SaberManager __get__saberManager() const;
+constexpr GlobalNamespace::SaberManager __get__saberManager() const;
 
- ::GlobalNamespace::NoteCutter __declspec(property(get=__get__noteCutter, put=__set__noteCutter))  _noteCutter;
+ GlobalNamespace::NoteCutter __declspec(property(get=__get__noteCutter, put=__set__noteCutter))  _noteCutter;
 
-constexpr void __set__noteCutter(::GlobalNamespace::NoteCutter value) ;
+constexpr void __set__noteCutter(GlobalNamespace::NoteCutter value) ;
 
-constexpr ::GlobalNamespace::NoteCutter __get__noteCutter() const;
+constexpr GlobalNamespace::NoteCutter __get__noteCutter() const;
 
 
 // Methods
@@ -79,7 +78,7 @@ constexpr ::GlobalNamespace::NoteCutter __get__noteCutter() const;
  void OnDisable() ;
 
 /// @brief Method HandleSaberManagerDidUpdateSaberPositions addr 0x210ac58 size 0x44 virtual false final false
- void HandleSaberManagerDidUpdateSaberPositions(::GlobalNamespace::Saber leftSaber, ::GlobalNamespace::Saber rightSaber) ;
+ void HandleSaberManagerDidUpdateSaberPositions(GlobalNamespace::Saber leftSaber, GlobalNamespace::Saber rightSaber) ;
 
 // Ctor Parameters []
 explicit CuttingManager() ;
@@ -91,6 +90,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::CuttingManager);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CuttingManager, "", "CuttingManager");
+NEED_NO_BOX(GlobalNamespace::CuttingManager);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CuttingManager, "", "CuttingManager");

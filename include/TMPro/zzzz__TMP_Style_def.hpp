@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace TMPro {
 class TMP_Style;
@@ -51,11 +50,11 @@ constexpr explicit TMP_Style(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 
 // Fields
 
-static ::TMPro::TMP_Style __declspec(property(get=__get_k_NormalStyle, put=__set_k_NormalStyle))  k_NormalStyle;
+static TMPro::TMP_Style __declspec(property(get=__get_k_NormalStyle, put=__set_k_NormalStyle))  k_NormalStyle;
 
-static void __set_k_NormalStyle(::TMPro::TMP_Style value) ;
+static void __set_k_NormalStyle(TMPro::TMP_Style value) ;
 
-static ::TMPro::TMP_Style __get_k_NormalStyle() ;
+static TMPro::TMP_Style __get_k_NormalStyle() ;
 
  ::StringW __declspec(property(get=__get_m_Name, put=__set_m_Name))  m_Name;
 
@@ -108,7 +107,7 @@ constexpr ::ArrayW<uint32_t> __get_m_ClosingTagUnicodeArray() const;
 
 // Properties
 
-static ::TMPro::TMP_Style __declspec(property(get=get_NormalStyle))  NormalStyle;
+static TMPro::TMP_Style __declspec(property(get=get_NormalStyle))  NormalStyle;
 
  ::StringW __declspec(property(get=get_name, put=set_name))  name;
 
@@ -126,7 +125,7 @@ static ::TMPro::TMP_Style __declspec(property(get=get_NormalStyle))  NormalStyle
 // Methods
 
 /// @brief Method get_NormalStyle addr 0x2aad1b4 size 0xbc virtual false final false
-static ::TMPro::TMP_Style get_NormalStyle() ;
+static TMPro::TMP_Style get_NormalStyle() ;
 
 /// @brief Method get_name addr 0x2aad300 size 0x8 virtual false final false
  ::StringW get_name() ;
@@ -165,6 +164,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-NEED_NO_BOX(::TMPro::TMP_Style);
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_Style, "TMPro", "TMP_Style");
+NEED_NO_BOX(TMPro::TMP_Style);
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Style, "TMPro", "TMP_Style");

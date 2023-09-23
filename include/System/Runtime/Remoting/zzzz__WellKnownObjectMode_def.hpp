@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Runtime::Remoting {
 struct WellKnownObjectMode;
@@ -67,14 +66,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Singleton offset 0
-static ::System::Runtime::Remoting::WellKnownObjectMode const Singleton;
+static System::Runtime::Remoting::WellKnownObjectMode const Singleton;
 
 /// @brief Field SingleCall offset 0
-static ::System::Runtime::Remoting::WellKnownObjectMode const SingleCall;
+static System::Runtime::Remoting::WellKnownObjectMode const SingleCall;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::WellKnownObjectMode, "System.Runtime.Remoting", "WellKnownObjectMode");
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::WellKnownObjectMode, "System.Runtime.Remoting", "WellKnownObjectMode");

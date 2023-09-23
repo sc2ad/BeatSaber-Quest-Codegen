@@ -3,24 +3,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
-struct GameplayServerControlSettings;
-}
-namespace GlobalNamespace {
-struct SongPackMask;
-}
-namespace GlobalNamespace {
-struct BeatmapDifficultyMask;
+struct SongSelectionMode;
 }
 namespace GlobalNamespace {
 struct GameplayModifierMask;
 }
 namespace GlobalNamespace {
+struct BeatmapDifficultyMask;
+}
+namespace GlobalNamespace {
 struct GameplayServerMode;
 }
 namespace GlobalNamespace {
-struct SongSelectionMode;
+struct GameplayServerControlSettings;
+}
+namespace GlobalNamespace {
+struct SongPackMask;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,8 +34,8 @@ namespace GlobalNamespace {
 struct CORDL_TYPE CreateServerFormData : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "usePassword", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "maxPlayers", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "allowInviteOthers", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "netDiscoverable", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "difficulties", ty: "::GlobalNamespace::BeatmapDifficultyMask", modifiers: "", def_value: None }, CppParam { name: "modifiers", ty: "::GlobalNamespace::GameplayModifierMask", modifiers: "", def_value: None }, CppParam { name: "songPacks", ty: "::GlobalNamespace::SongPackMask", modifiers: "", def_value: None }, CppParam { name: "gameplayServerMode", ty: "::GlobalNamespace::GameplayServerMode", modifiers: "", def_value: None }, CppParam { name: "songSelectionMode", ty: "::GlobalNamespace::SongSelectionMode", modifiers: "", def_value: None }, CppParam { name: "gameplayServerControlSettings", ty: "::GlobalNamespace::GameplayServerControlSettings", modifiers: "", def_value: None }]
-constexpr CreateServerFormData(bool usePassword, ::StringW password, int32_t maxPlayers, bool allowInviteOthers, bool netDiscoverable, ::GlobalNamespace::BeatmapDifficultyMask difficulties, ::GlobalNamespace::GameplayModifierMask modifiers, ::GlobalNamespace::SongPackMask songPacks, ::GlobalNamespace::GameplayServerMode gameplayServerMode, ::GlobalNamespace::SongSelectionMode songSelectionMode, ::GlobalNamespace::GameplayServerControlSettings gameplayServerControlSettings) noexcept;
+// Ctor Parameters [CppParam { name: "usePassword", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "maxPlayers", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "allowInviteOthers", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "netDiscoverable", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "difficulties", ty: "GlobalNamespace::BeatmapDifficultyMask", modifiers: "", def_value: None }, CppParam { name: "modifiers", ty: "GlobalNamespace::GameplayModifierMask", modifiers: "", def_value: None }, CppParam { name: "songPacks", ty: "GlobalNamespace::SongPackMask", modifiers: "", def_value: None }, CppParam { name: "gameplayServerMode", ty: "GlobalNamespace::GameplayServerMode", modifiers: "", def_value: None }, CppParam { name: "songSelectionMode", ty: "GlobalNamespace::SongSelectionMode", modifiers: "", def_value: None }, CppParam { name: "gameplayServerControlSettings", ty: "GlobalNamespace::GameplayServerControlSettings", modifiers: "", def_value: None }]
+constexpr CreateServerFormData(bool usePassword, ::StringW password, int32_t maxPlayers, bool allowInviteOthers, bool netDiscoverable, GlobalNamespace::BeatmapDifficultyMask difficulties, GlobalNamespace::GameplayModifierMask modifiers, GlobalNamespace::SongPackMask songPacks, GlobalNamespace::GameplayServerMode gameplayServerMode, GlobalNamespace::SongSelectionMode songSelectionMode, GlobalNamespace::GameplayServerControlSettings gameplayServerControlSettings) noexcept;
 
 
                     constexpr CreateServerFormData(CreateServerFormData const&) = default;
@@ -99,45 +98,44 @@ constexpr void __set_netDiscoverable(bool value) ;
 
 constexpr bool __get_netDiscoverable() const;
 
- ::GlobalNamespace::BeatmapDifficultyMask __declspec(property(get=__get_difficulties, put=__set_difficulties))  difficulties;
+ GlobalNamespace::BeatmapDifficultyMask __declspec(property(get=__get_difficulties, put=__set_difficulties))  difficulties;
 
-constexpr void __set_difficulties(::GlobalNamespace::BeatmapDifficultyMask value) ;
+constexpr void __set_difficulties(GlobalNamespace::BeatmapDifficultyMask value) ;
 
-constexpr ::GlobalNamespace::BeatmapDifficultyMask __get_difficulties() const;
+constexpr GlobalNamespace::BeatmapDifficultyMask __get_difficulties() const;
 
- ::GlobalNamespace::GameplayModifierMask __declspec(property(get=__get_modifiers, put=__set_modifiers))  modifiers;
+ GlobalNamespace::GameplayModifierMask __declspec(property(get=__get_modifiers, put=__set_modifiers))  modifiers;
 
-constexpr void __set_modifiers(::GlobalNamespace::GameplayModifierMask value) ;
+constexpr void __set_modifiers(GlobalNamespace::GameplayModifierMask value) ;
 
-constexpr ::GlobalNamespace::GameplayModifierMask __get_modifiers() const;
+constexpr GlobalNamespace::GameplayModifierMask __get_modifiers() const;
 
- ::GlobalNamespace::SongPackMask __declspec(property(get=__get_songPacks, put=__set_songPacks))  songPacks;
+ GlobalNamespace::SongPackMask __declspec(property(get=__get_songPacks, put=__set_songPacks))  songPacks;
 
-constexpr void __set_songPacks(::GlobalNamespace::SongPackMask value) ;
+constexpr void __set_songPacks(GlobalNamespace::SongPackMask value) ;
 
-constexpr ::GlobalNamespace::SongPackMask __get_songPacks() const;
+constexpr GlobalNamespace::SongPackMask __get_songPacks() const;
 
- ::GlobalNamespace::GameplayServerMode __declspec(property(get=__get_gameplayServerMode, put=__set_gameplayServerMode))  gameplayServerMode;
+ GlobalNamespace::GameplayServerMode __declspec(property(get=__get_gameplayServerMode, put=__set_gameplayServerMode))  gameplayServerMode;
 
-constexpr void __set_gameplayServerMode(::GlobalNamespace::GameplayServerMode value) ;
+constexpr void __set_gameplayServerMode(GlobalNamespace::GameplayServerMode value) ;
 
-constexpr ::GlobalNamespace::GameplayServerMode __get_gameplayServerMode() const;
+constexpr GlobalNamespace::GameplayServerMode __get_gameplayServerMode() const;
 
- ::GlobalNamespace::SongSelectionMode __declspec(property(get=__get_songSelectionMode, put=__set_songSelectionMode))  songSelectionMode;
+ GlobalNamespace::SongSelectionMode __declspec(property(get=__get_songSelectionMode, put=__set_songSelectionMode))  songSelectionMode;
 
-constexpr void __set_songSelectionMode(::GlobalNamespace::SongSelectionMode value) ;
+constexpr void __set_songSelectionMode(GlobalNamespace::SongSelectionMode value) ;
 
-constexpr ::GlobalNamespace::SongSelectionMode __get_songSelectionMode() const;
+constexpr GlobalNamespace::SongSelectionMode __get_songSelectionMode() const;
 
- ::GlobalNamespace::GameplayServerControlSettings __declspec(property(get=__get_gameplayServerControlSettings, put=__set_gameplayServerControlSettings))  gameplayServerControlSettings;
+ GlobalNamespace::GameplayServerControlSettings __declspec(property(get=__get_gameplayServerControlSettings, put=__set_gameplayServerControlSettings))  gameplayServerControlSettings;
 
-constexpr void __set_gameplayServerControlSettings(::GlobalNamespace::GameplayServerControlSettings value) ;
+constexpr void __set_gameplayServerControlSettings(GlobalNamespace::GameplayServerControlSettings value) ;
 
-constexpr ::GlobalNamespace::GameplayServerControlSettings __get_gameplayServerControlSettings() const;
+constexpr GlobalNamespace::GameplayServerControlSettings __get_gameplayServerControlSettings() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CreateServerFormData, "", "CreateServerFormData");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreateServerFormData, "", "CreateServerFormData");

@@ -1,6 +1,5 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace GlobalNamespace {
 class NoteMovement;
 }
@@ -26,18 +25,17 @@ constexpr explicit INoteMovementProvider(void* ptr) noexcept : ::cordl_internals
 
 // Properties
 
- ::GlobalNamespace::NoteMovement __declspec(property(get=get_noteMovement))  noteMovement;
+ GlobalNamespace::NoteMovement __declspec(property(get=get_noteMovement))  noteMovement;
 
 
 // Methods
 
 /// @brief Method get_noteMovement addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::NoteMovement get_noteMovement() ;
+ GlobalNamespace::NoteMovement get_noteMovement() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::INoteMovementProvider);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::INoteMovementProvider, "", "INoteMovementProvider");
+NEED_NO_BOX(GlobalNamespace::INoteMovementProvider);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INoteMovementProvider, "", "INoteMovementProvider");

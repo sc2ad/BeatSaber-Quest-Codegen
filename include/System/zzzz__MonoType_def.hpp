@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__RuntimeType_def.hpp"
-namespace {
 // Forward declare root types
 namespace System {
 class MonoType;
@@ -12,7 +11,7 @@ namespace System {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2566))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2609))
 // CS Name: System.MonoType
-class CORDL_TYPE MonoType : public ::System::RuntimeType {
+class CORDL_TYPE MonoType : public System::RuntimeType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr MonoType(MonoType const& ) noexcept = default;
 constexpr MonoType(MonoType&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MonoType(void* ptr) noexcept : ::System::RuntimeType(ptr) {
+constexpr explicit MonoType(void* ptr) noexcept : System::RuntimeType(ptr) {
 }
 
 
@@ -49,6 +48,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::MonoType);
-DEFINE_IL2CPP_ARG_TYPE(::System::MonoType, "System", "MonoType");
+NEED_NO_BOX(System::MonoType);
+DEFINE_IL2CPP_ARG_TYPE(System::MonoType, "System", "MonoType");

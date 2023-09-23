@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters {
 struct FormatterTypeStyle;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field TypesWhenNeeded offset 0
-static ::System::Runtime::Serialization::Formatters::FormatterTypeStyle const TypesWhenNeeded;
+static System::Runtime::Serialization::Formatters::FormatterTypeStyle const TypesWhenNeeded;
 
 /// @brief Field TypesAlways offset 0
-static ::System::Runtime::Serialization::Formatters::FormatterTypeStyle const TypesAlways;
+static System::Runtime::Serialization::Formatters::FormatterTypeStyle const TypesAlways;
 
 /// @brief Field XsdString offset 0
-static ::System::Runtime::Serialization::Formatters::FormatterTypeStyle const XsdString;
+static System::Runtime::Serialization::Formatters::FormatterTypeStyle const XsdString;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization::Formatters
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::FormatterTypeStyle, "System.Runtime.Serialization.Formatters", "FormatterTypeStyle");
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::FormatterTypeStyle, "System.Runtime.Serialization.Formatters", "FormatterTypeStyle");

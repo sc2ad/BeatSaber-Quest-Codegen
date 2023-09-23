@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections {
 class IEnumerator;
 }
@@ -54,7 +53,7 @@ constexpr explicit SetupCoroutine(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 // Methods
 
 /// @brief Method InvokeMoveNext addr 0x2b5975c size 0x154 virtual false final false
-static void InvokeMoveNext(::System::Collections::IEnumerator enumerator, ::cordl_internals::intptr_t returnValueAddress) ;
+static void InvokeMoveNext(System::Collections::IEnumerator enumerator, ::cordl_internals::intptr_t returnValueAddress) ;
 
 /// @brief Method InvokeMember addr 0x2b598b0 size 0xf4 virtual false final false
 static ::bs_hook::Il2CppWrapperType InvokeMember(::bs_hook::Il2CppWrapperType behaviour, ::StringW name, ::bs_hook::Il2CppWrapperType variable) ;
@@ -63,6 +62,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::SetupCoroutine);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SetupCoroutine, "UnityEngine", "SetupCoroutine");
+NEED_NO_BOX(UnityEngine::SetupCoroutine);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SetupCoroutine, "UnityEngine", "SetupCoroutine");

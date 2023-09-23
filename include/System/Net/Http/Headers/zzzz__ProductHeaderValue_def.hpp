@@ -4,19 +4,18 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Net::Http::Headers {
-struct Token;
-}
-namespace System::Net::Http::Headers {
-class Lexer;
+namespace System {
+class ICloneable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace System {
-class ICloneable;
+namespace System::Net::Http::Headers {
+class Lexer;
+}
+namespace System::Net::Http::Headers {
+struct Token;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -31,8 +30,8 @@ namespace System::Net::Http::Headers {
 class CORDL_TYPE ProductHeaderValue : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::ICloneable
-constexpr operator  ::System::ICloneable() const noexcept;
+/// @brief Convert operator to System::ICloneable
+constexpr operator  System::ICloneable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -117,10 +116,10 @@ explicit ProductHeaderValue() ;
  int32_t GetHashCode() ;
 
 /// @brief Method TryParse addr 0x26ad988 size 0xb0 virtual false final false
-static bool TryParse(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::ProductHeaderValue>> result) ;
+static bool TryParse(::StringW input, int32_t minimalCount, ByRef<System::Collections::Generic::List_1<System::Net::Http::Headers::ProductHeaderValue>> result) ;
 
 /// @brief Method TryParseElement addr 0x26ada38 size 0x16c virtual false final false
-static bool TryParseElement(::System::Net::Http::Headers::Lexer lexer, ByRef<::System::Net::Http::Headers::ProductHeaderValue> parsedValue, ByRef<::System::Net::Http::Headers::Token> t) ;
+static bool TryParseElement(System::Net::Http::Headers::Lexer lexer, ByRef<System::Net::Http::Headers::ProductHeaderValue> parsedValue, ByRef<System::Net::Http::Headers::Token> t) ;
 
 /// @brief Method ToString addr 0x26adba4 size 0x5c virtual true final false
  ::StringW ToString() ;
@@ -129,6 +128,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Http::Headers
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Http::Headers::ProductHeaderValue);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::ProductHeaderValue, "System.Net.Http.Headers", "ProductHeaderValue");
+NEED_NO_BOX(System::Net::Http::Headers::ProductHeaderValue);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::ProductHeaderValue, "System.Net.Http.Headers", "ProductHeaderValue");

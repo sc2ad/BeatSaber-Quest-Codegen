@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto::Modes::Gcm {
 class IGcmExponentiator;
 }
@@ -23,8 +22,8 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
 class CORDL_TYPE Tables1kGcmExponentiator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator
-constexpr operator  ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator
+constexpr operator  Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -59,11 +58,11 @@ constexpr explicit Tables1kGcmExponentiator(void* ptr) noexcept : ::bs_hook::Il2
 
 // Fields
 
- ::System::Collections::IList __declspec(property(get=__get_lookupPowX2, put=__set_lookupPowX2))  lookupPowX2;
+ System::Collections::IList __declspec(property(get=__get_lookupPowX2, put=__set_lookupPowX2))  lookupPowX2;
 
-constexpr void __set_lookupPowX2(::System::Collections::IList value) ;
+constexpr void __set_lookupPowX2(System::Collections::IList value) ;
 
-constexpr ::System::Collections::IList __get_lookupPowX2() const;
+constexpr System::Collections::IList __get_lookupPowX2() const;
 
 
 // Methods
@@ -87,6 +86,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Modes::Gcm
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator, "Org.BouncyCastle.Crypto.Modes.Gcm", "Tables1kGcmExponentiator");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator, "Org.BouncyCastle.Crypto.Modes.Gcm", "Tables1kGcmExponentiator");

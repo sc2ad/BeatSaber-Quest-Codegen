@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Threading {
 class ReaderWriterLock;
 }
@@ -52,11 +51,11 @@ constexpr explicit LockQueue(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 
 // Fields
 
- ::System::Threading::ReaderWriterLock __declspec(property(get=__get_rwlock, put=__set_rwlock))  rwlock;
+ System::Threading::ReaderWriterLock __declspec(property(get=__get_rwlock, put=__set_rwlock))  rwlock;
 
-constexpr void __set_rwlock(::System::Threading::ReaderWriterLock value) ;
+constexpr void __set_rwlock(System::Threading::ReaderWriterLock value) ;
 
-constexpr ::System::Threading::ReaderWriterLock __get_rwlock() const;
+constexpr System::Threading::ReaderWriterLock __get_rwlock() const;
 
  int32_t __declspec(property(get=__get_lockCount, put=__set_lockCount))  lockCount;
 
@@ -72,11 +71,11 @@ constexpr int32_t __get_lockCount() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "rwlock", ty: "::System::Threading::ReaderWriterLock", modifiers: "", def_value: None }]
-explicit LockQueue(::System::Threading::ReaderWriterLock rwlock) ;
+// Ctor Parameters [CppParam { name: "rwlock", ty: "System::Threading::ReaderWriterLock", modifiers: "", def_value: None }]
+explicit LockQueue(System::Threading::ReaderWriterLock rwlock) ;
 
 /// @brief Method .ctor addr 0x24b0a88 size 0x28 virtual false final false
- void _ctor(::System::Threading::ReaderWriterLock rwlock) ;
+ void _ctor(System::Threading::ReaderWriterLock rwlock) ;
 
 /// @brief Method Wait addr 0x24b0ab0 size 0x1b4 virtual false final false
  bool Wait(int32_t timeout) ;
@@ -91,6 +90,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Threading
-} // end anonymous namespace
-NEED_NO_BOX(::System::Threading::LockQueue);
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::LockQueue, "System.Threading", "LockQueue");
+NEED_NO_BOX(System::Threading::LockQueue);
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::LockQueue, "System.Threading", "LockQueue");

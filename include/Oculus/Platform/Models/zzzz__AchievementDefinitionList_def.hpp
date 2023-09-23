@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__AchievementDefinition_def.hpp"
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_def.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class AchievementDefinitionList;
@@ -11,10 +10,10 @@ class AchievementDefinitionList;
 // Type: Oculus.Platform.Models::AchievementDefinitionList
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13410)), TypeDefinitionIndex(TypeDefinitionIndex(13380)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1127 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1127 }), TypeDefinitionIndex(TypeDefinitionIndex(13380)), TypeDefinitionIndex(TypeDefinitionIndex(13410))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13381))
 // CS Name: Oculus.Platform.Models.AchievementDefinitionList
-class CORDL_TYPE AchievementDefinitionList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::AchievementDefinition> {
+class CORDL_TYPE AchievementDefinitionList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::AchievementDefinition> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr AchievementDefinitionList(AchievementDefinitionList const& ) noexcept 
 constexpr AchievementDefinitionList(AchievementDefinitionList&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AchievementDefinitionList(void* ptr) noexcept : ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::AchievementDefinition>(ptr) {
+constexpr explicit AchievementDefinitionList(void* ptr) noexcept : Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::AchievementDefinition>(ptr) {
 }
 
 
@@ -60,6 +59,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::AchievementDefinitionList);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::AchievementDefinitionList, "Oculus.Platform.Models", "AchievementDefinitionList");
+NEED_NO_BOX(Oculus::Platform::Models::AchievementDefinitionList);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AchievementDefinitionList, "Oculus.Platform.Models", "AchievementDefinitionList");

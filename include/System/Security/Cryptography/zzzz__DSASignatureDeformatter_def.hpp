@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Security::Cryptography {
-class DSA;
-}
 namespace System::Security::Cryptography {
 class AsymmetricAlgorithm;
+}
+namespace System::Security::Cryptography {
+class DSA;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {
@@ -21,7 +20,7 @@ namespace System::Security::Cryptography {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2915))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2928))
 // CS Name: System.Security.Cryptography.DSASignatureDeformatter
-class CORDL_TYPE DSASignatureDeformatter : public ::System::Security::Cryptography::AsymmetricSignatureDeformatter {
+class CORDL_TYPE DSASignatureDeformatter : public System::Security::Cryptography::AsymmetricSignatureDeformatter {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr DSASignatureDeformatter(DSASignatureDeformatter const& ) noexcept = de
 constexpr DSASignatureDeformatter(DSASignatureDeformatter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DSASignatureDeformatter(void* ptr) noexcept : ::System::Security::Cryptography::AsymmetricSignatureDeformatter(ptr) {
+constexpr explicit DSASignatureDeformatter(void* ptr) noexcept : System::Security::Cryptography::AsymmetricSignatureDeformatter(ptr) {
 }
 
 
@@ -57,11 +56,11 @@ constexpr explicit DSASignatureDeformatter(void* ptr) noexcept : ::System::Secur
 
 // Fields
 
- ::System::Security::Cryptography::DSA __declspec(property(get=__get__dsaKey, put=__set__dsaKey))  _dsaKey;
+ System::Security::Cryptography::DSA __declspec(property(get=__get__dsaKey, put=__set__dsaKey))  _dsaKey;
 
-constexpr void __set__dsaKey(::System::Security::Cryptography::DSA value) ;
+constexpr void __set__dsaKey(System::Security::Cryptography::DSA value) ;
 
-constexpr ::System::Security::Cryptography::DSA __get__dsaKey() const;
+constexpr System::Security::Cryptography::DSA __get__dsaKey() const;
 
  ::StringW __declspec(property(get=__get__oid, put=__set__oid))  _oid;
 
@@ -78,14 +77,14 @@ explicit DSASignatureDeformatter() ;
 /// @brief Method .ctor addr 0x22f2b28 size 0x80 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "key", ty: "::System::Security::Cryptography::AsymmetricAlgorithm", modifiers: "", def_value: None }]
-explicit DSASignatureDeformatter(::System::Security::Cryptography::AsymmetricAlgorithm key) ;
+// Ctor Parameters [CppParam { name: "key", ty: "System::Security::Cryptography::AsymmetricAlgorithm", modifiers: "", def_value: None }]
+explicit DSASignatureDeformatter(System::Security::Cryptography::AsymmetricAlgorithm key) ;
 
 /// @brief Method .ctor addr 0x22f2ba8 size 0xf4 virtual false final false
- void _ctor(::System::Security::Cryptography::AsymmetricAlgorithm key) ;
+ void _ctor(System::Security::Cryptography::AsymmetricAlgorithm key) ;
 
 /// @brief Method SetKey addr 0x22f2c9c size 0xec virtual true final false
- void SetKey(::System::Security::Cryptography::AsymmetricAlgorithm key) ;
+ void SetKey(System::Security::Cryptography::AsymmetricAlgorithm key) ;
 
 /// @brief Method SetHashAlgorithm addr 0x22f2d88 size 0xd0 virtual true final false
  void SetHashAlgorithm(::StringW strName) ;
@@ -97,6 +96,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::DSASignatureDeformatter);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::DSASignatureDeformatter, "System.Security.Cryptography", "DSASignatureDeformatter");
+NEED_NO_BOX(System::Security::Cryptography::DSASignatureDeformatter);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::DSASignatureDeformatter, "System.Security.Cryptography", "DSASignatureDeformatter");

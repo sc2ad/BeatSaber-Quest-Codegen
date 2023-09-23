@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 struct ServiceEnvironment;
 }
@@ -39,7 +38,7 @@ constexpr explicit INetworkConfig(void* ptr) noexcept : ::cordl_internals::Inter
 
  int32_t __declspec(property(get=get_multiplayerPort))  multiplayerPort;
 
- ::GlobalNamespace::DnsEndPoint __declspec(property(get=get_masterServerEndPoint))  masterServerEndPoint;
+ GlobalNamespace::DnsEndPoint __declspec(property(get=get_masterServerEndPoint))  masterServerEndPoint;
 
  ::StringW __declspec(property(get=get_multiplayerStatusUrl))  multiplayerStatusUrl;
 
@@ -51,7 +50,7 @@ constexpr explicit INetworkConfig(void* ptr) noexcept : ::cordl_internals::Inter
 
  bool __declspec(property(get=get_forceGameLift))  forceGameLift;
 
- ::GlobalNamespace::ServiceEnvironment __declspec(property(get=get_serviceEnvironment))  serviceEnvironment;
+ GlobalNamespace::ServiceEnvironment __declspec(property(get=get_serviceEnvironment))  serviceEnvironment;
 
 
 // Methods
@@ -69,7 +68,7 @@ constexpr explicit INetworkConfig(void* ptr) noexcept : ::cordl_internals::Inter
  int32_t get_multiplayerPort() ;
 
 /// @brief Method get_masterServerEndPoint addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::DnsEndPoint get_masterServerEndPoint() ;
+ GlobalNamespace::DnsEndPoint get_masterServerEndPoint() ;
 
 /// @brief Method get_multiplayerStatusUrl addr 0x0 size 0xffffffffffffffff virtual true final false
  ::StringW get_multiplayerStatusUrl() ;
@@ -87,12 +86,11 @@ constexpr explicit INetworkConfig(void* ptr) noexcept : ::cordl_internals::Inter
  bool get_forceGameLift() ;
 
 /// @brief Method get_serviceEnvironment addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::ServiceEnvironment get_serviceEnvironment() ;
+ GlobalNamespace::ServiceEnvironment get_serviceEnvironment() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::INetworkConfig);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::INetworkConfig, "", "INetworkConfig");
+NEED_NO_BOX(GlobalNamespace::INetworkConfig);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INetworkConfig, "", "INetworkConfig");

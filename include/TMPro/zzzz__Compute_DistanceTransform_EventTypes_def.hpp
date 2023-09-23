@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace TMPro {
 struct Compute_DistanceTransform_EventTypes;
@@ -67,14 +66,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Processing offset 0
-static ::TMPro::Compute_DistanceTransform_EventTypes const Processing;
+static TMPro::Compute_DistanceTransform_EventTypes const Processing;
 
 /// @brief Field Completed offset 0
-static ::TMPro::Compute_DistanceTransform_EventTypes const Completed;
+static TMPro::Compute_DistanceTransform_EventTypes const Completed;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::Compute_DistanceTransform_EventTypes, "TMPro", "Compute_DistanceTransform_EventTypes");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::Compute_DistanceTransform_EventTypes, "TMPro", "Compute_DistanceTransform_EventTypes");

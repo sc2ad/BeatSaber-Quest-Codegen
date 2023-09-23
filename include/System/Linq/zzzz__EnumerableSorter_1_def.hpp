@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 struct KeyValuePair_2;
@@ -16,10 +15,10 @@ namespace UnityEngine::TextCore::LowLevel {
 struct GlyphPairAdjustmentRecord;
 }
 namespace Zenject {
-struct ____Zenject__DisposableManager__DisposableInfo;
+struct Zenject__DisposableManager__DisposableInfo;
 }
 namespace Zenject {
-struct ____Zenject__PoolableManager__PoolableInfo;
+struct Zenject__PoolableManager__PoolableInfo;
 }
 // Forward declare root types
 namespace System::Linq {
@@ -32,23 +31,23 @@ class EnumerableSorter_1<TElement>;
 }
 namespace System::Linq {
 template<>
-class EnumerableSorter_1<::System::Collections::Generic::KeyValuePair_2<int32_t,::bs_hook::Il2CppWrapperType>>;
+class EnumerableSorter_1<System::Collections::Generic::KeyValuePair_2<int32_t,::bs_hook::Il2CppWrapperType>>;
 }
 namespace System::Linq {
 template<>
-class EnumerableSorter_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>;
+class EnumerableSorter_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>;
 }
 namespace System::Linq {
 template<>
-class EnumerableSorter_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>;
+class EnumerableSorter_1<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>;
 }
 namespace System::Linq {
 template<>
-class EnumerableSorter_1<::Zenject::____Zenject__DisposableManager__DisposableInfo>;
+class EnumerableSorter_1<Zenject::Zenject__DisposableManager__DisposableInfo>;
 }
 namespace System::Linq {
 template<>
-class EnumerableSorter_1<::Zenject::____Zenject__PoolableManager__PoolableInfo>;
+class EnumerableSorter_1<Zenject::Zenject__PoolableManager__PoolableInfo>;
 }
 namespace System::Linq {
 template<>
@@ -199,7 +198,7 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14574))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14574), inst: 289 })
 // CS Name: System.Linq.EnumerableSorter`1
-class CORDL_TYPE EnumerableSorter_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE EnumerableSorter_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -236,13 +235,13 @@ constexpr explicit EnumerableSorter_1(void* ptr) noexcept : ::bs_hook::Il2CppWra
 // Methods
 
 /// @brief Method ComputeKeys addr 0x0 size 0xffffffffffffffff virtual true final false
- void ComputeKeys(::ArrayW<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent> elements, int32_t count) ;
+ void ComputeKeys(::ArrayW<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent> elements, int32_t count) ;
 
 /// @brief Method CompareKeys addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t CompareKeys(int32_t index1, int32_t index2) ;
 
 /// @brief Method Sort addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<int32_t> Sort(::ArrayW<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent> elements, int32_t count) ;
+ ::ArrayW<int32_t> Sort(::ArrayW<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent> elements, int32_t count) ;
 
 /// @brief Method QuickSort addr 0x0 size 0xffffffffffffffff virtual false final false
  void QuickSort(::ArrayW<int32_t> map, int32_t left, int32_t right) ;
@@ -331,7 +330,7 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14574))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14574), inst: 3180 })
 // CS Name: System.Linq.EnumerableSorter`1
-class CORDL_TYPE EnumerableSorter_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE EnumerableSorter_1<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -368,13 +367,13 @@ constexpr explicit EnumerableSorter_1(void* ptr) noexcept : ::bs_hook::Il2CppWra
 // Methods
 
 /// @brief Method ComputeKeys addr 0x0 size 0xffffffffffffffff virtual true final false
- void ComputeKeys(::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> elements, int32_t count) ;
+ void ComputeKeys(::ArrayW<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> elements, int32_t count) ;
 
 /// @brief Method CompareKeys addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t CompareKeys(int32_t index1, int32_t index2) ;
 
 /// @brief Method Sort addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<int32_t> Sort(::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> elements, int32_t count) ;
+ ::ArrayW<int32_t> Sort(::ArrayW<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> elements, int32_t count) ;
 
 /// @brief Method QuickSort addr 0x0 size 0xffffffffffffffff virtual false final false
  void QuickSort(::ArrayW<int32_t> map, int32_t left, int32_t right) ;
@@ -397,7 +396,7 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14574))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14574), inst: 4209 })
 // CS Name: System.Linq.EnumerableSorter`1
-class CORDL_TYPE EnumerableSorter_1<::Zenject::____Zenject__DisposableManager__DisposableInfo> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE EnumerableSorter_1<Zenject::Zenject__DisposableManager__DisposableInfo> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -434,13 +433,13 @@ constexpr explicit EnumerableSorter_1(void* ptr) noexcept : ::bs_hook::Il2CppWra
 // Methods
 
 /// @brief Method ComputeKeys addr 0x0 size 0xffffffffffffffff virtual true final false
- void ComputeKeys(::ArrayW<::Zenject::____Zenject__DisposableManager__DisposableInfo> elements, int32_t count) ;
+ void ComputeKeys(::ArrayW<Zenject::Zenject__DisposableManager__DisposableInfo> elements, int32_t count) ;
 
 /// @brief Method CompareKeys addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t CompareKeys(int32_t index1, int32_t index2) ;
 
 /// @brief Method Sort addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<int32_t> Sort(::ArrayW<::Zenject::____Zenject__DisposableManager__DisposableInfo> elements, int32_t count) ;
+ ::ArrayW<int32_t> Sort(::ArrayW<Zenject::Zenject__DisposableManager__DisposableInfo> elements, int32_t count) ;
 
 /// @brief Method QuickSort addr 0x0 size 0xffffffffffffffff virtual false final false
  void QuickSort(::ArrayW<int32_t> map, int32_t left, int32_t right) ;
@@ -463,7 +462,7 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14574))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14574), inst: 5964 })
 // CS Name: System.Linq.EnumerableSorter`1
-class CORDL_TYPE EnumerableSorter_1<::Zenject::____Zenject__PoolableManager__PoolableInfo> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE EnumerableSorter_1<Zenject::Zenject__PoolableManager__PoolableInfo> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -500,13 +499,13 @@ constexpr explicit EnumerableSorter_1(void* ptr) noexcept : ::bs_hook::Il2CppWra
 // Methods
 
 /// @brief Method ComputeKeys addr 0x0 size 0xffffffffffffffff virtual true final false
- void ComputeKeys(::ArrayW<::Zenject::____Zenject__PoolableManager__PoolableInfo> elements, int32_t count) ;
+ void ComputeKeys(::ArrayW<Zenject::Zenject__PoolableManager__PoolableInfo> elements, int32_t count) ;
 
 /// @brief Method CompareKeys addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t CompareKeys(int32_t index1, int32_t index2) ;
 
 /// @brief Method Sort addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<int32_t> Sort(::ArrayW<::Zenject::____Zenject__PoolableManager__PoolableInfo> elements, int32_t count) ;
+ ::ArrayW<int32_t> Sort(::ArrayW<Zenject::Zenject__PoolableManager__PoolableInfo> elements, int32_t count) ;
 
 /// @brief Method QuickSort addr 0x0 size 0xffffffffffffffff virtual false final false
  void QuickSort(::ArrayW<int32_t> map, int32_t left, int32_t right) ;
@@ -529,7 +528,7 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14574))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14574), inst: 6236 })
 // CS Name: System.Linq.EnumerableSorter`1
-class CORDL_TYPE EnumerableSorter_1<::System::Collections::Generic::KeyValuePair_2<int32_t,::bs_hook::Il2CppWrapperType>> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE EnumerableSorter_1<System::Collections::Generic::KeyValuePair_2<int32_t,::bs_hook::Il2CppWrapperType>> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -566,13 +565,13 @@ constexpr explicit EnumerableSorter_1(void* ptr) noexcept : ::bs_hook::Il2CppWra
 // Methods
 
 /// @brief Method ComputeKeys addr 0x0 size 0xffffffffffffffff virtual true final false
- void ComputeKeys(::ArrayW<::System::Collections::Generic::KeyValuePair_2<int32_t,::bs_hook::Il2CppWrapperType>> elements, int32_t count) ;
+ void ComputeKeys(::ArrayW<System::Collections::Generic::KeyValuePair_2<int32_t,::bs_hook::Il2CppWrapperType>> elements, int32_t count) ;
 
 /// @brief Method CompareKeys addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t CompareKeys(int32_t index1, int32_t index2) ;
 
 /// @brief Method Sort addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<int32_t> Sort(::ArrayW<::System::Collections::Generic::KeyValuePair_2<int32_t,::bs_hook::Il2CppWrapperType>> elements, int32_t count) ;
+ ::ArrayW<int32_t> Sort(::ArrayW<System::Collections::Generic::KeyValuePair_2<int32_t,::bs_hook::Il2CppWrapperType>> elements, int32_t count) ;
 
 /// @brief Method QuickSort addr 0x0 size 0xffffffffffffffff virtual false final false
  void QuickSort(::ArrayW<int32_t> map, int32_t left, int32_t right) ;
@@ -587,5 +586,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Linq
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Linq::EnumerableSorter_1, "System.Linq", "EnumerableSorter`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Linq::EnumerableSorter_1, "System.Linq", "EnumerableSorter`1");

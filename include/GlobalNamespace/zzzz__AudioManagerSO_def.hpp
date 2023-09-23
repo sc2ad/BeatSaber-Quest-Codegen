@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine::Audio {
 class AudioMixer;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4032))
 // CS Name: AudioManagerSO
-class CORDL_TYPE AudioManagerSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE AudioManagerSO : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr AudioManagerSO(AudioManagerSO const& ) noexcept = default;
 constexpr AudioManagerSO(AudioManagerSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AudioManagerSO(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit AudioManagerSO(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -52,11 +51,11 @@ constexpr explicit AudioManagerSO(void* ptr) noexcept : ::GlobalNamespace::Persi
 
 // Fields
 
- ::UnityEngine::Audio::AudioMixer __declspec(property(get=__get__audioMixer, put=__set__audioMixer))  _audioMixer;
+ UnityEngine::Audio::AudioMixer __declspec(property(get=__get__audioMixer, put=__set__audioMixer))  _audioMixer;
 
-constexpr void __set__audioMixer(::UnityEngine::Audio::AudioMixer value) ;
+constexpr void __set__audioMixer(UnityEngine::Audio::AudioMixer value) ;
 
-constexpr ::UnityEngine::Audio::AudioMixer __get__audioMixer() const;
+constexpr UnityEngine::Audio::AudioMixer __get__audioMixer() const;
 
  float_t __declspec(property(get=__get__spatializerPluginLatency, put=__set__spatializerPluginLatency))  _spatializerPluginLatency;
 
@@ -178,6 +177,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::AudioManagerSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AudioManagerSO, "", "AudioManagerSO");
+NEED_NO_BOX(GlobalNamespace::AudioManagerSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioManagerSO, "", "AudioManagerSO");

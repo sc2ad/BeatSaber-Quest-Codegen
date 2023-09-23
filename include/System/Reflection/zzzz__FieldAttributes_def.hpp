@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Reflection {
 struct FieldAttributes;
@@ -84,65 +83,64 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field FieldAccessMask offset 0
-static ::System::Reflection::FieldAttributes const FieldAccessMask;
+static System::Reflection::FieldAttributes const FieldAccessMask;
 
 /// @brief Field PrivateScope offset 0
-static ::System::Reflection::FieldAttributes const PrivateScope;
+static System::Reflection::FieldAttributes const PrivateScope;
 
 /// @brief Field Private offset 0
-static ::System::Reflection::FieldAttributes const Private;
+static System::Reflection::FieldAttributes const Private;
 
 /// @brief Field FamANDAssem offset 0
-static ::System::Reflection::FieldAttributes const FamANDAssem;
+static System::Reflection::FieldAttributes const FamANDAssem;
 
 /// @brief Field Assembly offset 0
-static ::System::Reflection::FieldAttributes const Assembly;
+static System::Reflection::FieldAttributes const Assembly;
 
 /// @brief Field Family offset 0
-static ::System::Reflection::FieldAttributes const Family;
+static System::Reflection::FieldAttributes const Family;
 
 /// @brief Field FamORAssem offset 0
-static ::System::Reflection::FieldAttributes const FamORAssem;
+static System::Reflection::FieldAttributes const FamORAssem;
 
 /// @brief Field Public offset 0
-static ::System::Reflection::FieldAttributes const Public;
+static System::Reflection::FieldAttributes const Public;
 
 /// @brief Field Static offset 0
-static ::System::Reflection::FieldAttributes const Static;
+static System::Reflection::FieldAttributes const Static;
 
 /// @brief Field InitOnly offset 0
-static ::System::Reflection::FieldAttributes const InitOnly;
+static System::Reflection::FieldAttributes const InitOnly;
 
 /// @brief Field Literal offset 0
-static ::System::Reflection::FieldAttributes const Literal;
+static System::Reflection::FieldAttributes const Literal;
 
 /// @brief Field NotSerialized offset 0
-static ::System::Reflection::FieldAttributes const NotSerialized;
+static System::Reflection::FieldAttributes const NotSerialized;
 
 /// @brief Field SpecialName offset 0
-static ::System::Reflection::FieldAttributes const SpecialName;
+static System::Reflection::FieldAttributes const SpecialName;
 
 /// @brief Field PinvokeImpl offset 0
-static ::System::Reflection::FieldAttributes const PinvokeImpl;
+static System::Reflection::FieldAttributes const PinvokeImpl;
 
 /// @brief Field RTSpecialName offset 0
-static ::System::Reflection::FieldAttributes const RTSpecialName;
+static System::Reflection::FieldAttributes const RTSpecialName;
 
 /// @brief Field HasFieldMarshal offset 0
-static ::System::Reflection::FieldAttributes const HasFieldMarshal;
+static System::Reflection::FieldAttributes const HasFieldMarshal;
 
 /// @brief Field HasDefault offset 0
-static ::System::Reflection::FieldAttributes const HasDefault;
+static System::Reflection::FieldAttributes const HasDefault;
 
 /// @brief Field HasFieldRVA offset 0
-static ::System::Reflection::FieldAttributes const HasFieldRVA;
+static System::Reflection::FieldAttributes const HasFieldRVA;
 
 /// @brief Field ReservedMask offset 0
-static ::System::Reflection::FieldAttributes const ReservedMask;
+static System::Reflection::FieldAttributes const ReservedMask;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Reflection
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::FieldAttributes, "System.Reflection", "FieldAttributes");
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::FieldAttributes, "System.Reflection", "FieldAttributes");

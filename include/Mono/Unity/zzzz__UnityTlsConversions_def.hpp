@@ -1,27 +1,26 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Mono::Security::Interface {
 struct AlertDescription;
 }
-namespace Mono::Unity {
-struct ____Mono__Unity__UnityTls__unitytls_x509verify_result;
-}
 namespace System::Net::Security {
 struct SslPolicyErrors;
-}
-namespace System::Security::Cryptography::X509Certificates {
-struct X509ChainStatusFlags;
 }
 namespace System::Security::Authentication {
 struct SslProtocols;
 }
 namespace Mono::Unity {
-struct ____Mono__Unity__UnityTls__unitytls_protocol;
+struct Mono__Unity__UnityTls__unitytls_x509verify_result;
+}
+namespace System::Security::Cryptography::X509Certificates {
+struct X509ChainStatusFlags;
 }
 namespace Mono::Security::Interface {
 struct TlsProtocols;
+}
+namespace Mono::Unity {
+struct Mono__Unity__UnityTls__unitytls_protocol;
 }
 // Forward declare root types
 namespace Mono::Unity {
@@ -70,27 +69,26 @@ constexpr explicit UnityTlsConversions(void* ptr) noexcept : ::bs_hook::Il2CppWr
 // Methods
 
 /// @brief Method GetMinProtocol addr 0x2688f30 size 0x38 virtual false final false
-static ::Mono::Unity::____Mono__Unity__UnityTls__unitytls_protocol GetMinProtocol(::System::Security::Authentication::SslProtocols protocols) ;
+static Mono::Unity::Mono__Unity__UnityTls__unitytls_protocol GetMinProtocol(System::Security::Authentication::SslProtocols protocols) ;
 
 /// @brief Method GetMaxProtocol addr 0x2688f68 size 0x38 virtual false final false
-static ::Mono::Unity::____Mono__Unity__UnityTls__unitytls_protocol GetMaxProtocol(::System::Security::Authentication::SslProtocols protocols) ;
+static Mono::Unity::Mono__Unity__UnityTls__unitytls_protocol GetMaxProtocol(System::Security::Authentication::SslProtocols protocols) ;
 
 /// @brief Method ConvertProtocolVersion addr 0x2689c80 size 0x20 virtual false final false
-static ::Mono::Security::Interface::TlsProtocols ConvertProtocolVersion(::Mono::Unity::____Mono__Unity__UnityTls__unitytls_protocol protocol) ;
+static Mono::Security::Interface::TlsProtocols ConvertProtocolVersion(Mono::Unity::Mono__Unity__UnityTls__unitytls_protocol protocol) ;
 
 /// @brief Method VerifyResultToAlertDescription addr 0x2686280 size 0x54 virtual false final false
-static ::Mono::Security::Interface::AlertDescription VerifyResultToAlertDescription(::Mono::Unity::____Mono__Unity__UnityTls__unitytls_x509verify_result verifyResult, ::Mono::Security::Interface::AlertDescription defaultAlert) ;
+static Mono::Security::Interface::AlertDescription VerifyResultToAlertDescription(Mono::Unity::Mono__Unity__UnityTls__unitytls_x509verify_result verifyResult, Mono::Security::Interface::AlertDescription defaultAlert) ;
 
 /// @brief Method VerifyResultToPolicyErrror addr 0x268b154 size 0x30 virtual false final false
-static ::System::Net::Security::SslPolicyErrors VerifyResultToPolicyErrror(::Mono::Unity::____Mono__Unity__UnityTls__unitytls_x509verify_result verifyResult) ;
+static System::Net::Security::SslPolicyErrors VerifyResultToPolicyErrror(Mono::Unity::Mono__Unity__UnityTls__unitytls_x509verify_result verifyResult) ;
 
 /// @brief Method VerifyResultToChainStatus addr 0x268b184 size 0x40 virtual false final false
-static ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags VerifyResultToChainStatus(::Mono::Unity::____Mono__Unity__UnityTls__unitytls_x509verify_result verifyResult) ;
+static System::Security::Cryptography::X509Certificates::X509ChainStatusFlags VerifyResultToChainStatus(Mono::Unity::Mono__Unity__UnityTls__unitytls_x509verify_result verifyResult) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Unity
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Unity::UnityTlsConversions);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Unity::UnityTlsConversions, "Mono.Unity", "UnityTlsConversions");
+NEED_NO_BOX(Mono::Unity::UnityTlsConversions);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTlsConversions, "Mono.Unity", "UnityTlsConversions");

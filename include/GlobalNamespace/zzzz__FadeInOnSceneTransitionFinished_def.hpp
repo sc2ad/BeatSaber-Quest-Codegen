@@ -3,29 +3,28 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 class FadeInOutController;
-}
-namespace GlobalNamespace {
-class GameScenesManager;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class GameScenesManager;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
 class FadeInOnSceneTransitionFinished;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3;
+class GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3;
 }
 // Type: ::<FadeInAfterSceneTransitionCoroutine>d__3
 namespace GlobalNamespace {
@@ -33,46 +32,46 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15303))
 // CS Name: FadeInOnSceneTransitionFinished::<FadeInAfterSceneTransitionCoroutine>d__3
-class CORDL_TYPE ____GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3() = default;
+virtual ~GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3(____GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3(GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3(____GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3(GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3& operator=(____GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3&& o) noexcept = default;
-  constexpr ____GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3& operator=(____GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3 const& o) noexcept = default;
+  constexpr GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3& operator=(GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3&& o) noexcept = default;
+  constexpr GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3& operator=(GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3 const& o) noexcept = default;
                 
 
 
@@ -90,11 +89,11 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::GlobalNamespace::FadeInOnSceneTransitionFinished __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::FadeInOnSceneTransitionFinished __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::FadeInOnSceneTransitionFinished value) ;
+constexpr void __set___4__this(GlobalNamespace::FadeInOnSceneTransitionFinished value) ;
 
-constexpr ::GlobalNamespace::FadeInOnSceneTransitionFinished __get___4__this() const;
+constexpr GlobalNamespace::FadeInOnSceneTransitionFinished __get___4__this() const;
 
 
 // Properties
@@ -107,7 +106,7 @@ constexpr ::GlobalNamespace::FadeInOnSceneTransitionFinished __get___4__this() c
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3(int32_t __1__state) ;
+explicit GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2676204 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -137,10 +136,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15304))
 // CS Name: FadeInOnSceneTransitionFinished
-class CORDL_TYPE FadeInOnSceneTransitionFinished : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE FadeInOnSceneTransitionFinished : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using _FadeInAfterSceneTransitionCoroutine_d__3 = ::GlobalNamespace::____GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3;
+using _FadeInAfterSceneTransitionCoroutine_d__3 = GlobalNamespace::GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -154,7 +153,7 @@ constexpr FadeInOnSceneTransitionFinished(FadeInOnSceneTransitionFinished const&
 constexpr FadeInOnSceneTransitionFinished(FadeInOnSceneTransitionFinished&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FadeInOnSceneTransitionFinished(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit FadeInOnSceneTransitionFinished(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -175,17 +174,17 @@ constexpr explicit FadeInOnSceneTransitionFinished(void* ptr) noexcept : ::Unity
 
 // Fields
 
- ::GlobalNamespace::FadeInOutController __declspec(property(get=__get__fadeInOut, put=__set__fadeInOut))  _fadeInOut;
+ GlobalNamespace::FadeInOutController __declspec(property(get=__get__fadeInOut, put=__set__fadeInOut))  _fadeInOut;
 
-constexpr void __set__fadeInOut(::GlobalNamespace::FadeInOutController value) ;
+constexpr void __set__fadeInOut(GlobalNamespace::FadeInOutController value) ;
 
-constexpr ::GlobalNamespace::FadeInOutController __get__fadeInOut() const;
+constexpr GlobalNamespace::FadeInOutController __get__fadeInOut() const;
 
- ::GlobalNamespace::GameScenesManager __declspec(property(get=__get__gameScenesManager, put=__set__gameScenesManager))  _gameScenesManager;
+ GlobalNamespace::GameScenesManager __declspec(property(get=__get__gameScenesManager, put=__set__gameScenesManager))  _gameScenesManager;
 
-constexpr void __set__gameScenesManager(::GlobalNamespace::GameScenesManager value) ;
+constexpr void __set__gameScenesManager(GlobalNamespace::GameScenesManager value) ;
 
-constexpr ::GlobalNamespace::GameScenesManager __get__gameScenesManager() const;
+constexpr GlobalNamespace::GameScenesManager __get__gameScenesManager() const;
 
 
 // Methods
@@ -194,7 +193,7 @@ constexpr ::GlobalNamespace::GameScenesManager __get__gameScenesManager() const;
  void OnEnable() ;
 
 /// @brief Method FadeInAfterSceneTransitionCoroutine addr 0x267619c size 0x68 virtual false final false
- ::System::Collections::IEnumerator FadeInAfterSceneTransitionCoroutine() ;
+ System::Collections::IEnumerator FadeInAfterSceneTransitionCoroutine() ;
 
 // Ctor Parameters []
 explicit FadeInOnSceneTransitionFinished() ;
@@ -206,8 +205,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::FadeInOnSceneTransitionFinished);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FadeInOnSceneTransitionFinished, "", "FadeInOnSceneTransitionFinished");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3, "", "FadeInOnSceneTransitionFinished/<FadeInAfterSceneTransitionCoroutine>d__3");
+NEED_NO_BOX(GlobalNamespace::FadeInOnSceneTransitionFinished);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FadeInOnSceneTransitionFinished, "", "FadeInOnSceneTransitionFinished");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3, "", "FadeInOnSceneTransitionFinished/<FadeInAfterSceneTransitionCoroutine>d__3");

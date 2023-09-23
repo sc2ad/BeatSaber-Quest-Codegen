@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/Timeline/zzzz__Marker_def.hpp"
-namespace {
 namespace UnityEngine::Playables {
 class INotification;
 }
@@ -18,11 +17,11 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14099))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13893))
 // CS Name: TimelinePauseMarker
-class CORDL_TYPE TimelinePauseMarker : public ::UnityEngine::Timeline::Marker {
+class CORDL_TYPE TimelinePauseMarker : public UnityEngine::Timeline::Marker {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::Playables::INotification
-constexpr operator  ::UnityEngine::Playables::INotification() const noexcept;
+/// @brief Convert operator to UnityEngine::Playables::INotification
+constexpr operator  UnityEngine::Playables::INotification() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -36,7 +35,7 @@ constexpr TimelinePauseMarker(TimelinePauseMarker const& ) noexcept = default;
 constexpr TimelinePauseMarker(TimelinePauseMarker&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TimelinePauseMarker(void* ptr) noexcept : ::UnityEngine::Timeline::Marker(ptr) {
+constexpr explicit TimelinePauseMarker(void* ptr) noexcept : UnityEngine::Timeline::Marker(ptr) {
 }
 
 
@@ -57,22 +56,22 @@ constexpr explicit TimelinePauseMarker(void* ptr) noexcept : ::UnityEngine::Time
 
 // Fields
 
- ::UnityEngine::PropertyName __declspec(property(get=__get__id_k__BackingField, put=__set__id_k__BackingField))  _id_k__BackingField;
+ UnityEngine::PropertyName __declspec(property(get=__get__id_k__BackingField, put=__set__id_k__BackingField))  _id_k__BackingField;
 
-constexpr void __set__id_k__BackingField(::UnityEngine::PropertyName value) ;
+constexpr void __set__id_k__BackingField(UnityEngine::PropertyName value) ;
 
-constexpr ::UnityEngine::PropertyName __get__id_k__BackingField() const;
+constexpr UnityEngine::PropertyName __get__id_k__BackingField() const;
 
 
 // Properties
 
- ::UnityEngine::PropertyName __declspec(property(get=get_id))  id;
+ UnityEngine::PropertyName __declspec(property(get=get_id))  id;
 
 
 // Methods
 
 /// @brief Method get_id addr 0x1f83a3c size 0x8 virtual true final true
- ::UnityEngine::PropertyName get_id() ;
+ UnityEngine::PropertyName get_id() ;
 
 // Ctor Parameters []
 explicit TimelinePauseMarker() ;
@@ -84,6 +83,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::TimelinePauseMarker);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TimelinePauseMarker, "", "TimelinePauseMarker");
+NEED_NO_BOX(GlobalNamespace::TimelinePauseMarker);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TimelinePauseMarker, "", "TimelinePauseMarker");

@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassBackgroundNonLightRendererCore_def.hpp"
-namespace {
-namespace UnityEngine {
-class Renderer;
-}
 namespace UnityEngine {
 class ParticleSystem;
+}
+namespace UnityEngine {
+class Renderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14626))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14627))
 // CS Name: BloomPrePassBackgroundParticleSystemRenderer
-class CORDL_TYPE BloomPrePassBackgroundParticleSystemRenderer : public ::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore {
+class CORDL_TYPE BloomPrePassBackgroundParticleSystemRenderer : public GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr BloomPrePassBackgroundParticleSystemRenderer(BloomPrePassBackgroundPar
 constexpr BloomPrePassBackgroundParticleSystemRenderer(BloomPrePassBackgroundParticleSystemRenderer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BloomPrePassBackgroundParticleSystemRenderer(void* ptr) noexcept : ::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore(ptr) {
+constexpr explicit BloomPrePassBackgroundParticleSystemRenderer(void* ptr) noexcept : GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore(ptr) {
 }
 
 
@@ -54,28 +53,28 @@ constexpr explicit BloomPrePassBackgroundParticleSystemRenderer(void* ptr) noexc
 
 // Fields
 
- ::UnityEngine::ParticleSystem __declspec(property(get=__get__particleSystem, put=__set__particleSystem))  _particleSystem;
+ UnityEngine::ParticleSystem __declspec(property(get=__get__particleSystem, put=__set__particleSystem))  _particleSystem;
 
-constexpr void __set__particleSystem(::UnityEngine::ParticleSystem value) ;
+constexpr void __set__particleSystem(UnityEngine::ParticleSystem value) ;
 
-constexpr ::UnityEngine::ParticleSystem __get__particleSystem() const;
+constexpr UnityEngine::ParticleSystem __get__particleSystem() const;
 
- ::UnityEngine::Renderer __declspec(property(get=__get__renderer, put=__set__renderer))  _renderer;
+ UnityEngine::Renderer __declspec(property(get=__get__renderer, put=__set__renderer))  _renderer;
 
-constexpr void __set__renderer(::UnityEngine::Renderer value) ;
+constexpr void __set__renderer(UnityEngine::Renderer value) ;
 
-constexpr ::UnityEngine::Renderer __get__renderer() const;
+constexpr UnityEngine::Renderer __get__renderer() const;
 
 
 // Properties
 
- ::UnityEngine::Renderer __declspec(property(get=get_renderer))  renderer;
+ UnityEngine::Renderer __declspec(property(get=get_renderer))  renderer;
 
 
 // Methods
 
 /// @brief Method get_renderer addr 0x1f93e6c size 0x8 virtual true final false
- ::UnityEngine::Renderer get_renderer() ;
+ UnityEngine::Renderer get_renderer() ;
 
 /// @brief Method Awake addr 0x1f93e74 size 0x64 virtual true final false
  void Awake() ;
@@ -90,6 +89,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer, "", "BloomPrePassBackgroundParticleSystemRenderer");
+NEED_NO_BOX(GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer, "", "BloomPrePassBackgroundParticleSystemRenderer");

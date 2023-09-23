@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 struct OVRTextureFormat;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field NONE offset 0
-static ::GlobalNamespace::OVRTextureFormat const NONE;
+static GlobalNamespace::OVRTextureFormat const NONE;
 
 /// @brief Field KTX2 offset 0
-static ::GlobalNamespace::OVRTextureFormat const KTX2;
+static GlobalNamespace::OVRTextureFormat const KTX2;
 
 /// @brief Field PNG offset 0
-static ::GlobalNamespace::OVRTextureFormat const PNG;
+static GlobalNamespace::OVRTextureFormat const PNG;
 
 /// @brief Field JPEG offset 0
-static ::GlobalNamespace::OVRTextureFormat const JPEG;
+static GlobalNamespace::OVRTextureFormat const JPEG;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRTextureFormat, "", "OVRTextureFormat");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRTextureFormat, "", "OVRTextureFormat");

@@ -2,9 +2,8 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace GlobalNamespace {
-struct ____GlobalNamespace__MissionObjective__ReferenceValueComparisonType;
+struct GlobalNamespace__MissionObjective__ReferenceValueComparisonType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -53,12 +52,11 @@ constexpr explicit MissionDataExtensions(void* ptr) noexcept : ::bs_hook::Il2Cpp
 // Methods
 
 /// @brief Method Name addr 0x21f1140 size 0x94 virtual false final false
-static ::StringW Name(::GlobalNamespace::____GlobalNamespace__MissionObjective__ReferenceValueComparisonType comparisonType) ;
+static ::StringW Name(GlobalNamespace::GlobalNamespace__MissionObjective__ReferenceValueComparisonType comparisonType) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MissionDataExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionDataExtensions, "", "MissionDataExtensions");
+NEED_NO_BOX(GlobalNamespace::MissionDataExtensions);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionDataExtensions, "", "MissionDataExtensions");

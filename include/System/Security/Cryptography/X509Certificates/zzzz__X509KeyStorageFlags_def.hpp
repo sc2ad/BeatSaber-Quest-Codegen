@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
 struct X509KeyStorageFlags;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field DefaultKeySet offset 0
-static ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags const DefaultKeySet;
+static System::Security::Cryptography::X509Certificates::X509KeyStorageFlags const DefaultKeySet;
 
 /// @brief Field UserKeySet offset 0
-static ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags const UserKeySet;
+static System::Security::Cryptography::X509Certificates::X509KeyStorageFlags const UserKeySet;
 
 /// @brief Field MachineKeySet offset 0
-static ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags const MachineKeySet;
+static System::Security::Cryptography::X509Certificates::X509KeyStorageFlags const MachineKeySet;
 
 /// @brief Field Exportable offset 0
-static ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags const Exportable;
+static System::Security::Cryptography::X509Certificates::X509KeyStorageFlags const Exportable;
 
 /// @brief Field UserProtected offset 0
-static ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags const UserProtected;
+static System::Security::Cryptography::X509Certificates::X509KeyStorageFlags const UserProtected;
 
 /// @brief Field PersistKeySet offset 0
-static ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags const PersistKeySet;
+static System::Security::Cryptography::X509Certificates::X509KeyStorageFlags const PersistKeySet;
 
 /// @brief Field EphemeralKeySet offset 0
-static ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags const EphemeralKeySet;
+static System::Security::Cryptography::X509Certificates::X509KeyStorageFlags const EphemeralKeySet;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography::X509Certificates
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags, "System.Security.Cryptography.X509Certificates", "X509KeyStorageFlags");
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509KeyStorageFlags, "System.Security.Cryptography.X509Certificates", "X509KeyStorageFlags");

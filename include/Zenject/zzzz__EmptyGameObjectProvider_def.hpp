@@ -2,15 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace {
-namespace Zenject {
-class InjectContext;
-}
-namespace Zenject {
-struct TypeValuePair;
-}
 namespace Zenject {
 class IProvider;
+}
+namespace Zenject {
+class InjectContext;
 }
 namespace Zenject {
 class DiContainer;
@@ -21,12 +17,15 @@ class Type;
 namespace System {
 class Action;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace Zenject {
+struct TypeValuePair;
 }
 namespace Zenject {
 class GameObjectCreationParameters;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -41,8 +40,8 @@ namespace Zenject {
 class CORDL_TYPE EmptyGameObjectProvider : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Zenject::IProvider
-constexpr operator  ::Zenject::IProvider() const noexcept;
+/// @brief Convert operator to Zenject::IProvider
+constexpr operator  Zenject::IProvider() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -77,17 +76,17 @@ constexpr explicit EmptyGameObjectProvider(void* ptr) noexcept : ::bs_hook::Il2C
 
 // Fields
 
- ::Zenject::DiContainer __declspec(property(get=__get__container, put=__set__container))  _container;
+ Zenject::DiContainer __declspec(property(get=__get__container, put=__set__container))  _container;
 
-constexpr void __set__container(::Zenject::DiContainer value) ;
+constexpr void __set__container(Zenject::DiContainer value) ;
 
-constexpr ::Zenject::DiContainer __get__container() const;
+constexpr Zenject::DiContainer __get__container() const;
 
- ::Zenject::GameObjectCreationParameters __declspec(property(get=__get__gameObjectBindInfo, put=__set__gameObjectBindInfo))  _gameObjectBindInfo;
+ Zenject::GameObjectCreationParameters __declspec(property(get=__get__gameObjectBindInfo, put=__set__gameObjectBindInfo))  _gameObjectBindInfo;
 
-constexpr void __set__gameObjectBindInfo(::Zenject::GameObjectCreationParameters value) ;
+constexpr void __set__gameObjectBindInfo(Zenject::GameObjectCreationParameters value) ;
 
-constexpr ::Zenject::GameObjectCreationParameters __get__gameObjectBindInfo() const;
+constexpr Zenject::GameObjectCreationParameters __get__gameObjectBindInfo() const;
 
 
 // Properties
@@ -99,11 +98,11 @@ constexpr ::Zenject::GameObjectCreationParameters __get__gameObjectBindInfo() co
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "::Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "gameObjectBindInfo", ty: "::Zenject::GameObjectCreationParameters", modifiers: "", def_value: None }]
-explicit EmptyGameObjectProvider(::Zenject::DiContainer container, ::Zenject::GameObjectCreationParameters gameObjectBindInfo) ;
+// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "gameObjectBindInfo", ty: "Zenject::GameObjectCreationParameters", modifiers: "", def_value: None }]
+explicit EmptyGameObjectProvider(Zenject::DiContainer container, Zenject::GameObjectCreationParameters gameObjectBindInfo) ;
 
 /// @brief Method .ctor addr 0x2d8e0a8 size 0x2c virtual false final false
- void _ctor(::Zenject::DiContainer container, ::Zenject::GameObjectCreationParameters gameObjectBindInfo) ;
+ void _ctor(Zenject::DiContainer container, Zenject::GameObjectCreationParameters gameObjectBindInfo) ;
 
 /// @brief Method get_IsCached addr 0x2d8e0d4 size 0x8 virtual true final true
  bool get_IsCached() ;
@@ -112,15 +111,14 @@ explicit EmptyGameObjectProvider(::Zenject::DiContainer container, ::Zenject::Ga
  bool get_TypeVariesBasedOnMemberType() ;
 
 /// @brief Method GetInstanceType addr 0x2d8e0e4 size 0x6c virtual true final true
- ::System::Type GetInstanceType(::Zenject::InjectContext context) ;
+ System::Type GetInstanceType(Zenject::InjectContext context) ;
 
 /// @brief Method GetAllInstancesWithInjectSplit addr 0x2d8e150 size 0x108 virtual true final true
- void GetAllInstancesWithInjectSplit(::Zenject::InjectContext context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair> args, ByRef<::System::Action> injectAction, ::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> buffer) ;
+ void GetAllInstancesWithInjectSplit(Zenject::InjectContext context, System::Collections::Generic::List_1<Zenject::TypeValuePair> args, ByRef<System::Action> injectAction, System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> buffer) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::EmptyGameObjectProvider);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::EmptyGameObjectProvider, "Zenject", "EmptyGameObjectProvider");
+NEED_NO_BOX(Zenject::EmptyGameObjectProvider);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::EmptyGameObjectProvider, "Zenject", "EmptyGameObjectProvider");

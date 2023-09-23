@@ -3,15 +3,14 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct TouchType;
 }
 namespace UnityEngine {
-struct Vector2;
+struct TouchPhase;
 }
 namespace UnityEngine {
-struct TouchPhase;
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -26,8 +25,8 @@ namespace UnityEngine {
 struct CORDL_TYPE Touch : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "m_FingerId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Position", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_RawPosition", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_PositionDelta", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_TimeDelta", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_TapCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Phase", ty: "::UnityEngine::TouchPhase", modifiers: "", def_value: None }, CppParam { name: "m_Type", ty: "::UnityEngine::TouchType", modifiers: "", def_value: None }, CppParam { name: "m_Pressure", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_maximumPossiblePressure", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Radius", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_RadiusVariance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_AltitudeAngle", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_AzimuthAngle", ty: "float_t", modifiers: "", def_value: None }]
-constexpr Touch(int32_t m_FingerId, ::UnityEngine::Vector2 m_Position, ::UnityEngine::Vector2 m_RawPosition, ::UnityEngine::Vector2 m_PositionDelta, float_t m_TimeDelta, int32_t m_TapCount, ::UnityEngine::TouchPhase m_Phase, ::UnityEngine::TouchType m_Type, float_t m_Pressure, float_t m_maximumPossiblePressure, float_t m_Radius, float_t m_RadiusVariance, float_t m_AltitudeAngle, float_t m_AzimuthAngle) noexcept;
+// Ctor Parameters [CppParam { name: "m_FingerId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Position", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_RawPosition", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_PositionDelta", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_TimeDelta", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_TapCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Phase", ty: "UnityEngine::TouchPhase", modifiers: "", def_value: None }, CppParam { name: "m_Type", ty: "UnityEngine::TouchType", modifiers: "", def_value: None }, CppParam { name: "m_Pressure", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_maximumPossiblePressure", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Radius", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_RadiusVariance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_AltitudeAngle", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_AzimuthAngle", ty: "float_t", modifiers: "", def_value: None }]
+constexpr Touch(int32_t m_FingerId, UnityEngine::Vector2 m_Position, UnityEngine::Vector2 m_RawPosition, UnityEngine::Vector2 m_PositionDelta, float_t m_TimeDelta, int32_t m_TapCount, UnityEngine::TouchPhase m_Phase, UnityEngine::TouchType m_Type, float_t m_Pressure, float_t m_maximumPossiblePressure, float_t m_Radius, float_t m_RadiusVariance, float_t m_AltitudeAngle, float_t m_AzimuthAngle) noexcept;
 
 
                     constexpr Touch(Touch const&) = default;
@@ -66,23 +65,23 @@ constexpr void __set_m_FingerId(int32_t value) ;
 
 constexpr int32_t __get_m_FingerId() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_m_Position, put=__set_m_Position))  m_Position;
+ UnityEngine::Vector2 __declspec(property(get=__get_m_Position, put=__set_m_Position))  m_Position;
 
-constexpr void __set_m_Position(::UnityEngine::Vector2 value) ;
+constexpr void __set_m_Position(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_m_Position() const;
+constexpr UnityEngine::Vector2 __get_m_Position() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_m_RawPosition, put=__set_m_RawPosition))  m_RawPosition;
+ UnityEngine::Vector2 __declspec(property(get=__get_m_RawPosition, put=__set_m_RawPosition))  m_RawPosition;
 
-constexpr void __set_m_RawPosition(::UnityEngine::Vector2 value) ;
+constexpr void __set_m_RawPosition(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_m_RawPosition() const;
+constexpr UnityEngine::Vector2 __get_m_RawPosition() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_m_PositionDelta, put=__set_m_PositionDelta))  m_PositionDelta;
+ UnityEngine::Vector2 __declspec(property(get=__get_m_PositionDelta, put=__set_m_PositionDelta))  m_PositionDelta;
 
-constexpr void __set_m_PositionDelta(::UnityEngine::Vector2 value) ;
+constexpr void __set_m_PositionDelta(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_m_PositionDelta() const;
+constexpr UnityEngine::Vector2 __get_m_PositionDelta() const;
 
  float_t __declspec(property(get=__get_m_TimeDelta, put=__set_m_TimeDelta))  m_TimeDelta;
 
@@ -96,17 +95,17 @@ constexpr void __set_m_TapCount(int32_t value) ;
 
 constexpr int32_t __get_m_TapCount() const;
 
- ::UnityEngine::TouchPhase __declspec(property(get=__get_m_Phase, put=__set_m_Phase))  m_Phase;
+ UnityEngine::TouchPhase __declspec(property(get=__get_m_Phase, put=__set_m_Phase))  m_Phase;
 
-constexpr void __set_m_Phase(::UnityEngine::TouchPhase value) ;
+constexpr void __set_m_Phase(UnityEngine::TouchPhase value) ;
 
-constexpr ::UnityEngine::TouchPhase __get_m_Phase() const;
+constexpr UnityEngine::TouchPhase __get_m_Phase() const;
 
- ::UnityEngine::TouchType __declspec(property(get=__get_m_Type, put=__set_m_Type))  m_Type;
+ UnityEngine::TouchType __declspec(property(get=__get_m_Type, put=__set_m_Type))  m_Type;
 
-constexpr void __set_m_Type(::UnityEngine::TouchType value) ;
+constexpr void __set_m_Type(UnityEngine::TouchType value) ;
 
-constexpr ::UnityEngine::TouchType __get_m_Type() const;
+constexpr UnityEngine::TouchType __get_m_Type() const;
 
  float_t __declspec(property(get=__get_m_Pressure, put=__set_m_Pressure))  m_Pressure;
 
@@ -149,23 +148,23 @@ constexpr float_t __get_m_AzimuthAngle() const;
 
  int32_t __declspec(property(get=get_fingerId))  fingerId;
 
- ::UnityEngine::Vector2 __declspec(property(get=get_position, put=set_position))  position;
+ UnityEngine::Vector2 __declspec(property(get=get_position, put=set_position))  position;
 
- ::UnityEngine::Vector2 __declspec(property(get=get_rawPosition, put=set_rawPosition))  rawPosition;
+ UnityEngine::Vector2 __declspec(property(get=get_rawPosition, put=set_rawPosition))  rawPosition;
 
- ::UnityEngine::Vector2 __declspec(property(get=get_deltaPosition, put=set_deltaPosition))  deltaPosition;
+ UnityEngine::Vector2 __declspec(property(get=get_deltaPosition, put=set_deltaPosition))  deltaPosition;
 
  float_t __declspec(property(get=get_deltaTime))  deltaTime;
 
  int32_t __declspec(property(get=get_tapCount))  tapCount;
 
- ::UnityEngine::TouchPhase __declspec(property(get=get_phase))  phase;
+ UnityEngine::TouchPhase __declspec(property(get=get_phase))  phase;
 
  float_t __declspec(property(get=get_pressure))  pressure;
 
  float_t __declspec(property(get=get_maximumPossiblePressure))  maximumPossiblePressure;
 
- ::UnityEngine::TouchType __declspec(property(get=get_type))  type;
+ UnityEngine::TouchType __declspec(property(get=get_type))  type;
 
  float_t __declspec(property(get=get_altitudeAngle))  altitudeAngle;
 
@@ -182,22 +181,22 @@ constexpr float_t __get_m_AzimuthAngle() const;
  int32_t get_fingerId() ;
 
 /// @brief Method get_position addr 0x2b95fb8 size 0x8 virtual false final false
- ::UnityEngine::Vector2 get_position() ;
+ UnityEngine::Vector2 get_position() ;
 
 /// @brief Method set_position addr 0x2b95fc0 size 0x8 virtual false final false
- void set_position(::UnityEngine::Vector2 value) ;
+ void set_position(UnityEngine::Vector2 value) ;
 
 /// @brief Method get_rawPosition addr 0x2b95fc8 size 0x8 virtual false final false
- ::UnityEngine::Vector2 get_rawPosition() ;
+ UnityEngine::Vector2 get_rawPosition() ;
 
 /// @brief Method set_rawPosition addr 0x2b95fd0 size 0x8 virtual false final false
- void set_rawPosition(::UnityEngine::Vector2 value) ;
+ void set_rawPosition(UnityEngine::Vector2 value) ;
 
 /// @brief Method get_deltaPosition addr 0x2b95fd8 size 0x8 virtual false final false
- ::UnityEngine::Vector2 get_deltaPosition() ;
+ UnityEngine::Vector2 get_deltaPosition() ;
 
 /// @brief Method set_deltaPosition addr 0x2b95fe0 size 0x8 virtual false final false
- void set_deltaPosition(::UnityEngine::Vector2 value) ;
+ void set_deltaPosition(UnityEngine::Vector2 value) ;
 
 /// @brief Method get_deltaTime addr 0x2b95fe8 size 0x8 virtual false final false
  float_t get_deltaTime() ;
@@ -206,7 +205,7 @@ constexpr float_t __get_m_AzimuthAngle() const;
  int32_t get_tapCount() ;
 
 /// @brief Method get_phase addr 0x2b95ff8 size 0x8 virtual false final false
- ::UnityEngine::TouchPhase get_phase() ;
+ UnityEngine::TouchPhase get_phase() ;
 
 /// @brief Method get_pressure addr 0x2b96000 size 0x8 virtual false final false
  float_t get_pressure() ;
@@ -215,7 +214,7 @@ constexpr float_t __get_m_AzimuthAngle() const;
  float_t get_maximumPossiblePressure() ;
 
 /// @brief Method get_type addr 0x2b96010 size 0x8 virtual false final false
- ::UnityEngine::TouchType get_type() ;
+ UnityEngine::TouchType get_type() ;
 
 /// @brief Method get_altitudeAngle addr 0x2b96018 size 0x8 virtual false final false
  float_t get_altitudeAngle() ;
@@ -233,5 +232,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Touch, "UnityEngine", "Touch");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Touch, "UnityEngine", "Touch");

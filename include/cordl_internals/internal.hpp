@@ -6,6 +6,7 @@
 #include <cstring>
 #include <string_view>
 
+namespace {
 namespace cordl_internals {
     namespace internal {
         template <std::size_t sz> struct NTTPString {
@@ -50,4 +51,5 @@ namespace cordl_internals {
     CORDL_HIDDEN constexpr void moveByByte(void* src, void* dst) {
         std::memmove(dst, src, sz);
     }
+}
 }

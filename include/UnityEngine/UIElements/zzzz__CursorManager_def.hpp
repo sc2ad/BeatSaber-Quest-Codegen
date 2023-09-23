@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace UnityEngine::UIElements {
 class ICursorManager;
 }
@@ -21,8 +20,8 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE CursorManager : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::UIElements::ICursorManager
-constexpr operator  ::UnityEngine::UIElements::ICursorManager() const noexcept;
+/// @brief Convert operator to UnityEngine::UIElements::ICursorManager
+constexpr operator  UnityEngine::UIElements::ICursorManager() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -78,7 +77,7 @@ constexpr bool __get__isCursorOverriden_k__BackingField() const;
  void set_isCursorOverriden(bool value) ;
 
 /// @brief Method SetCursor addr 0x2c46668 size 0xf0 virtual true final true
- void SetCursor(::UnityEngine::UIElements::Cursor cursor) ;
+ void SetCursor(UnityEngine::UIElements::Cursor cursor) ;
 
 /// @brief Method ResetCursor addr 0x2c46758 size 0x68 virtual true final true
  void ResetCursor() ;
@@ -93,6 +92,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::CursorManager);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::CursorManager, "UnityEngine.UIElements", "CursorManager");
+NEED_NO_BOX(UnityEngine::UIElements::CursorManager);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::CursorManager, "UnityEngine.UIElements", "CursorManager");

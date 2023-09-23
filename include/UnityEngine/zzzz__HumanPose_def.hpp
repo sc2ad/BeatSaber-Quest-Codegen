@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstddef>
-namespace {
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine {
 struct Quaternion;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -23,8 +22,8 @@ namespace UnityEngine {
 struct CORDL_TYPE HumanPose : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "bodyPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "bodyRotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "muscles", ty: "::ArrayW<float_t>", modifiers: "", def_value: None }]
-constexpr HumanPose(::UnityEngine::Vector3 bodyPosition, ::UnityEngine::Quaternion bodyRotation, ::ArrayW<float_t> muscles) noexcept;
+// Ctor Parameters [CppParam { name: "bodyPosition", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "bodyRotation", ty: "UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "muscles", ty: "::ArrayW<float_t>", modifiers: "", def_value: None }]
+constexpr HumanPose(UnityEngine::Vector3 bodyPosition, UnityEngine::Quaternion bodyRotation, ::ArrayW<float_t> muscles) noexcept;
 
 
                     constexpr HumanPose(HumanPose const&) = default;
@@ -57,17 +56,17 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_bodyPosition, put=__set_bodyPosition))  bodyPosition;
+ UnityEngine::Vector3 __declspec(property(get=__get_bodyPosition, put=__set_bodyPosition))  bodyPosition;
 
-constexpr void __set_bodyPosition(::UnityEngine::Vector3 value) ;
+constexpr void __set_bodyPosition(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_bodyPosition() const;
+constexpr UnityEngine::Vector3 __get_bodyPosition() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get_bodyRotation, put=__set_bodyRotation))  bodyRotation;
+ UnityEngine::Quaternion __declspec(property(get=__get_bodyRotation, put=__set_bodyRotation))  bodyRotation;
 
-constexpr void __set_bodyRotation(::UnityEngine::Quaternion value) ;
+constexpr void __set_bodyRotation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get_bodyRotation() const;
+constexpr UnityEngine::Quaternion __get_bodyRotation() const;
 
  ::ArrayW<float_t> __declspec(property(get=__get_muscles, put=__set_muscles))  muscles;
 
@@ -85,5 +84,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::HumanPose, "UnityEngine", "HumanPose");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HumanPose, "UnityEngine", "HumanPose");

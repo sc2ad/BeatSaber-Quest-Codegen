@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_1_def.hpp"
 #include <cmath>
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem::Controls {
 class DoubleControl;
@@ -10,10 +9,10 @@ class DoubleControl;
 // Type: UnityEngine.InputSystem.Controls::DoubleControl
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6299), inst: 2598 }), TypeDefinitionIndex(TypeDefinitionIndex(6299))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6299)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6299), inst: 2598 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6716))
 // CS Name: UnityEngine.InputSystem.Controls.DoubleControl
-class CORDL_TYPE DoubleControl : public ::UnityEngine::InputSystem::InputControl_1<double_t> {
+class CORDL_TYPE DoubleControl : public UnityEngine::InputSystem::InputControl_1<double_t> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr DoubleControl(DoubleControl const& ) noexcept = default;
 constexpr DoubleControl(DoubleControl&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DoubleControl(void* ptr) noexcept : ::UnityEngine::InputSystem::InputControl_1<double_t>(ptr) {
+constexpr explicit DoubleControl(void* ptr) noexcept : UnityEngine::InputSystem::InputControl_1<double_t>(ptr) {
 }
 
 
@@ -65,6 +64,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Controls
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Controls::DoubleControl);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Controls::DoubleControl, "UnityEngine.InputSystem.Controls", "DoubleControl");
+NEED_NO_BOX(UnityEngine::InputSystem::Controls::DoubleControl);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Controls::DoubleControl, "UnityEngine.InputSystem.Controls", "DoubleControl");

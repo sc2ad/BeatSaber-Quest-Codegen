@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/Diagnostics/zzzz__TraceListener_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace System::Diagnostics {
 class DefaultTraceListener;
@@ -13,7 +12,7 @@ namespace System::Diagnostics {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7794))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7809))
 // CS Name: System.Diagnostics.DefaultTraceListener
-class CORDL_TYPE DefaultTraceListener : public ::System::Diagnostics::TraceListener {
+class CORDL_TYPE DefaultTraceListener : public System::Diagnostics::TraceListener {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr DefaultTraceListener(DefaultTraceListener const& ) noexcept = default;
 constexpr DefaultTraceListener(DefaultTraceListener&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DefaultTraceListener(void* ptr) noexcept : ::System::Diagnostics::TraceListener(ptr) {
+constexpr explicit DefaultTraceListener(void* ptr) noexcept : System::Diagnostics::TraceListener(ptr) {
 }
 
 
@@ -121,6 +120,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Diagnostics
-} // end anonymous namespace
-NEED_NO_BOX(::System::Diagnostics::DefaultTraceListener);
-DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::DefaultTraceListener, "System.Diagnostics", "DefaultTraceListener");
+NEED_NO_BOX(System::Diagnostics::DefaultTraceListener);
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DefaultTraceListener, "System.Diagnostics", "DefaultTraceListener");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Experimental::Rendering {
 struct GraphicsFormat;
@@ -212,449 +211,448 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const None;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const None;
 
 /// @brief Field R8_SRGB offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8_SRGB;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R8_SRGB;
 
 /// @brief Field R8G8_SRGB offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8_SRGB;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8_SRGB;
 
 /// @brief Field R8G8B8_SRGB offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8B8_SRGB;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8B8_SRGB;
 
 /// @brief Field R8G8B8A8_SRGB offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8B8A8_SRGB;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8B8A8_SRGB;
 
 /// @brief Field R8_UNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8_UNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R8_UNorm;
 
 /// @brief Field R8G8_UNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8_UNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8_UNorm;
 
 /// @brief Field R8G8B8_UNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8B8_UNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8B8_UNorm;
 
 /// @brief Field R8G8B8A8_UNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8B8A8_UNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8B8A8_UNorm;
 
 /// @brief Field R8_SNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8_SNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R8_SNorm;
 
 /// @brief Field R8G8_SNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8_SNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8_SNorm;
 
 /// @brief Field R8G8B8_SNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8B8_SNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8B8_SNorm;
 
 /// @brief Field R8G8B8A8_SNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8B8A8_SNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8B8A8_SNorm;
 
 /// @brief Field R8_UInt offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8_UInt;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R8_UInt;
 
 /// @brief Field R8G8_UInt offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8_UInt;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8_UInt;
 
 /// @brief Field R8G8B8_UInt offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8B8_UInt;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8B8_UInt;
 
 /// @brief Field R8G8B8A8_UInt offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8B8A8_UInt;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8B8A8_UInt;
 
 /// @brief Field R8_SInt offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8_SInt;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R8_SInt;
 
 /// @brief Field R8G8_SInt offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8_SInt;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8_SInt;
 
 /// @brief Field R8G8B8_SInt offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8B8_SInt;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8B8_SInt;
 
 /// @brief Field R8G8B8A8_SInt offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8B8A8_SInt;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8B8A8_SInt;
 
 /// @brief Field R16_UNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16_UNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R16_UNorm;
 
 /// @brief Field R16G16_UNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16_UNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16_UNorm;
 
 /// @brief Field R16G16B16_UNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16B16_UNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16B16_UNorm;
 
 /// @brief Field R16G16B16A16_UNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16B16A16_UNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16B16A16_UNorm;
 
 /// @brief Field R16_SNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16_SNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R16_SNorm;
 
 /// @brief Field R16G16_SNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16_SNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16_SNorm;
 
 /// @brief Field R16G16B16_SNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16B16_SNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16B16_SNorm;
 
 /// @brief Field R16G16B16A16_SNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16B16A16_SNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16B16A16_SNorm;
 
 /// @brief Field R16_UInt offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16_UInt;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R16_UInt;
 
 /// @brief Field R16G16_UInt offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16_UInt;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16_UInt;
 
 /// @brief Field R16G16B16_UInt offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16B16_UInt;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16B16_UInt;
 
 /// @brief Field R16G16B16A16_UInt offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16B16A16_UInt;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16B16A16_UInt;
 
 /// @brief Field R16_SInt offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16_SInt;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R16_SInt;
 
 /// @brief Field R16G16_SInt offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16_SInt;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16_SInt;
 
 /// @brief Field R16G16B16_SInt offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16B16_SInt;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16B16_SInt;
 
 /// @brief Field R16G16B16A16_SInt offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16B16A16_SInt;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16B16A16_SInt;
 
 /// @brief Field R32_UInt offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R32_UInt;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R32_UInt;
 
 /// @brief Field R32G32_UInt offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R32G32_UInt;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R32G32_UInt;
 
 /// @brief Field R32G32B32_UInt offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R32G32B32_UInt;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R32G32B32_UInt;
 
 /// @brief Field R32G32B32A32_UInt offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R32G32B32A32_UInt;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R32G32B32A32_UInt;
 
 /// @brief Field R32_SInt offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R32_SInt;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R32_SInt;
 
 /// @brief Field R32G32_SInt offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R32G32_SInt;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R32G32_SInt;
 
 /// @brief Field R32G32B32_SInt offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R32G32B32_SInt;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R32G32B32_SInt;
 
 /// @brief Field R32G32B32A32_SInt offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R32G32B32A32_SInt;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R32G32B32A32_SInt;
 
 /// @brief Field R16_SFloat offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16_SFloat;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R16_SFloat;
 
 /// @brief Field R16G16_SFloat offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16_SFloat;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16_SFloat;
 
 /// @brief Field R16G16B16_SFloat offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16B16_SFloat;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16B16_SFloat;
 
 /// @brief Field R16G16B16A16_SFloat offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16B16A16_SFloat;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16B16A16_SFloat;
 
 /// @brief Field R32_SFloat offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R32_SFloat;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R32_SFloat;
 
 /// @brief Field R32G32_SFloat offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R32G32_SFloat;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R32G32_SFloat;
 
 /// @brief Field R32G32B32_SFloat offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R32G32B32_SFloat;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R32G32B32_SFloat;
 
 /// @brief Field R32G32B32A32_SFloat offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R32G32B32A32_SFloat;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R32G32B32A32_SFloat;
 
 /// @brief Field B8G8R8_SRGB offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const B8G8R8_SRGB;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const B8G8R8_SRGB;
 
 /// @brief Field B8G8R8A8_SRGB offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const B8G8R8A8_SRGB;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const B8G8R8A8_SRGB;
 
 /// @brief Field B8G8R8_UNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const B8G8R8_UNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const B8G8R8_UNorm;
 
 /// @brief Field B8G8R8A8_UNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const B8G8R8A8_UNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const B8G8R8A8_UNorm;
 
 /// @brief Field B8G8R8_SNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const B8G8R8_SNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const B8G8R8_SNorm;
 
 /// @brief Field B8G8R8A8_SNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const B8G8R8A8_SNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const B8G8R8A8_SNorm;
 
 /// @brief Field B8G8R8_UInt offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const B8G8R8_UInt;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const B8G8R8_UInt;
 
 /// @brief Field B8G8R8A8_UInt offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const B8G8R8A8_UInt;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const B8G8R8A8_UInt;
 
 /// @brief Field B8G8R8_SInt offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const B8G8R8_SInt;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const B8G8R8_SInt;
 
 /// @brief Field B8G8R8A8_SInt offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const B8G8R8A8_SInt;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const B8G8R8A8_SInt;
 
 /// @brief Field R4G4B4A4_UNormPack16 offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R4G4B4A4_UNormPack16;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R4G4B4A4_UNormPack16;
 
 /// @brief Field B4G4R4A4_UNormPack16 offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const B4G4R4A4_UNormPack16;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const B4G4R4A4_UNormPack16;
 
 /// @brief Field R5G6B5_UNormPack16 offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R5G6B5_UNormPack16;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R5G6B5_UNormPack16;
 
 /// @brief Field B5G6R5_UNormPack16 offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const B5G6R5_UNormPack16;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const B5G6R5_UNormPack16;
 
 /// @brief Field R5G5B5A1_UNormPack16 offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R5G5B5A1_UNormPack16;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R5G5B5A1_UNormPack16;
 
 /// @brief Field B5G5R5A1_UNormPack16 offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const B5G5R5A1_UNormPack16;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const B5G5R5A1_UNormPack16;
 
 /// @brief Field A1R5G5B5_UNormPack16 offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const A1R5G5B5_UNormPack16;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const A1R5G5B5_UNormPack16;
 
 /// @brief Field E5B9G9R9_UFloatPack32 offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const E5B9G9R9_UFloatPack32;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const E5B9G9R9_UFloatPack32;
 
 /// @brief Field B10G11R11_UFloatPack32 offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const B10G11R11_UFloatPack32;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const B10G11R11_UFloatPack32;
 
 /// @brief Field A2B10G10R10_UNormPack32 offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const A2B10G10R10_UNormPack32;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const A2B10G10R10_UNormPack32;
 
 /// @brief Field A2B10G10R10_UIntPack32 offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const A2B10G10R10_UIntPack32;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const A2B10G10R10_UIntPack32;
 
 /// @brief Field A2B10G10R10_SIntPack32 offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const A2B10G10R10_SIntPack32;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const A2B10G10R10_SIntPack32;
 
 /// @brief Field A2R10G10B10_UNormPack32 offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const A2R10G10B10_UNormPack32;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const A2R10G10B10_UNormPack32;
 
 /// @brief Field A2R10G10B10_UIntPack32 offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const A2R10G10B10_UIntPack32;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const A2R10G10B10_UIntPack32;
 
 /// @brief Field A2R10G10B10_SIntPack32 offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const A2R10G10B10_SIntPack32;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const A2R10G10B10_SIntPack32;
 
 /// @brief Field A2R10G10B10_XRSRGBPack32 offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const A2R10G10B10_XRSRGBPack32;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const A2R10G10B10_XRSRGBPack32;
 
 /// @brief Field A2R10G10B10_XRUNormPack32 offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const A2R10G10B10_XRUNormPack32;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const A2R10G10B10_XRUNormPack32;
 
 /// @brief Field R10G10B10_XRSRGBPack32 offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R10G10B10_XRSRGBPack32;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R10G10B10_XRSRGBPack32;
 
 /// @brief Field R10G10B10_XRUNormPack32 offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R10G10B10_XRUNormPack32;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R10G10B10_XRUNormPack32;
 
 /// @brief Field A10R10G10B10_XRSRGBPack32 offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const A10R10G10B10_XRSRGBPack32;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const A10R10G10B10_XRSRGBPack32;
 
 /// @brief Field A10R10G10B10_XRUNormPack32 offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const A10R10G10B10_XRUNormPack32;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const A10R10G10B10_XRUNormPack32;
 
 /// @brief Field D16_UNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const D16_UNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const D16_UNorm;
 
 /// @brief Field D24_UNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const D24_UNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const D24_UNorm;
 
 /// @brief Field D24_UNorm_S8_UInt offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const D24_UNorm_S8_UInt;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const D24_UNorm_S8_UInt;
 
 /// @brief Field D32_SFloat offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const D32_SFloat;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const D32_SFloat;
 
 /// @brief Field D32_SFloat_S8_UInt offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const D32_SFloat_S8_UInt;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const D32_SFloat_S8_UInt;
 
 /// @brief Field S8_UInt offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const S8_UInt;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const S8_UInt;
 
 /// @brief Field RGB_DXT1_SRGB offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_DXT1_SRGB;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_DXT1_SRGB;
 
 /// @brief Field RGBA_DXT1_SRGB offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_DXT1_SRGB;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_DXT1_SRGB;
 
 /// @brief Field RGB_DXT1_UNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_DXT1_UNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_DXT1_UNorm;
 
 /// @brief Field RGBA_DXT1_UNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_DXT1_UNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_DXT1_UNorm;
 
 /// @brief Field RGBA_DXT3_SRGB offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_DXT3_SRGB;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_DXT3_SRGB;
 
 /// @brief Field RGBA_DXT3_UNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_DXT3_UNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_DXT3_UNorm;
 
 /// @brief Field RGBA_DXT5_SRGB offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_DXT5_SRGB;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_DXT5_SRGB;
 
 /// @brief Field RGBA_DXT5_UNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_DXT5_UNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_DXT5_UNorm;
 
 /// @brief Field R_BC4_UNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R_BC4_UNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R_BC4_UNorm;
 
 /// @brief Field R_BC4_SNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R_BC4_SNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R_BC4_SNorm;
 
 /// @brief Field RG_BC5_UNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RG_BC5_UNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RG_BC5_UNorm;
 
 /// @brief Field RG_BC5_SNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RG_BC5_SNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RG_BC5_SNorm;
 
 /// @brief Field RGB_BC6H_UFloat offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_BC6H_UFloat;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_BC6H_UFloat;
 
 /// @brief Field RGB_BC6H_SFloat offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_BC6H_SFloat;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_BC6H_SFloat;
 
 /// @brief Field RGBA_BC7_SRGB offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_BC7_SRGB;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_BC7_SRGB;
 
 /// @brief Field RGBA_BC7_UNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_BC7_UNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_BC7_UNorm;
 
 /// @brief Field RGB_PVRTC_2Bpp_SRGB offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_PVRTC_2Bpp_SRGB;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_PVRTC_2Bpp_SRGB;
 
 /// @brief Field RGB_PVRTC_2Bpp_UNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_PVRTC_2Bpp_UNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_PVRTC_2Bpp_UNorm;
 
 /// @brief Field RGB_PVRTC_4Bpp_SRGB offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_PVRTC_4Bpp_SRGB;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_PVRTC_4Bpp_SRGB;
 
 /// @brief Field RGB_PVRTC_4Bpp_UNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_PVRTC_4Bpp_UNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_PVRTC_4Bpp_UNorm;
 
 /// @brief Field RGBA_PVRTC_2Bpp_SRGB offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_PVRTC_2Bpp_SRGB;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_PVRTC_2Bpp_SRGB;
 
 /// @brief Field RGBA_PVRTC_2Bpp_UNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_PVRTC_2Bpp_UNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_PVRTC_2Bpp_UNorm;
 
 /// @brief Field RGBA_PVRTC_4Bpp_SRGB offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_PVRTC_4Bpp_SRGB;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_PVRTC_4Bpp_SRGB;
 
 /// @brief Field RGBA_PVRTC_4Bpp_UNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_PVRTC_4Bpp_UNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_PVRTC_4Bpp_UNorm;
 
 /// @brief Field RGB_ETC_UNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_ETC_UNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_ETC_UNorm;
 
 /// @brief Field RGB_ETC2_SRGB offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_ETC2_SRGB;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_ETC2_SRGB;
 
 /// @brief Field RGB_ETC2_UNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_ETC2_UNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_ETC2_UNorm;
 
 /// @brief Field RGB_A1_ETC2_SRGB offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_A1_ETC2_SRGB;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_A1_ETC2_SRGB;
 
 /// @brief Field RGB_A1_ETC2_UNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_A1_ETC2_UNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_A1_ETC2_UNorm;
 
 /// @brief Field RGBA_ETC2_SRGB offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ETC2_SRGB;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ETC2_SRGB;
 
 /// @brief Field RGBA_ETC2_UNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ETC2_UNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ETC2_UNorm;
 
 /// @brief Field R_EAC_UNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R_EAC_UNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R_EAC_UNorm;
 
 /// @brief Field R_EAC_SNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R_EAC_SNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const R_EAC_SNorm;
 
 /// @brief Field RG_EAC_UNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RG_EAC_UNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RG_EAC_UNorm;
 
 /// @brief Field RG_EAC_SNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RG_EAC_SNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RG_EAC_SNorm;
 
 /// @brief Field RGBA_ASTC4X4_SRGB offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC4X4_SRGB;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC4X4_SRGB;
 
 /// @brief Field RGBA_ASTC4X4_UNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC4X4_UNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC4X4_UNorm;
 
 /// @brief Field RGBA_ASTC5X5_SRGB offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC5X5_SRGB;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC5X5_SRGB;
 
 /// @brief Field RGBA_ASTC5X5_UNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC5X5_UNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC5X5_UNorm;
 
 /// @brief Field RGBA_ASTC6X6_SRGB offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC6X6_SRGB;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC6X6_SRGB;
 
 /// @brief Field RGBA_ASTC6X6_UNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC6X6_UNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC6X6_UNorm;
 
 /// @brief Field RGBA_ASTC8X8_SRGB offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC8X8_SRGB;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC8X8_SRGB;
 
 /// @brief Field RGBA_ASTC8X8_UNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC8X8_UNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC8X8_UNorm;
 
 /// @brief Field RGBA_ASTC10X10_SRGB offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC10X10_SRGB;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC10X10_SRGB;
 
 /// @brief Field RGBA_ASTC10X10_UNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC10X10_UNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC10X10_UNorm;
 
 /// @brief Field RGBA_ASTC12X12_SRGB offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC12X12_SRGB;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC12X12_SRGB;
 
 /// @brief Field RGBA_ASTC12X12_UNorm offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC12X12_UNorm;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC12X12_UNorm;
 
 /// @brief Field YUV2 offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const YUV2;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const YUV2;
 
 /// @brief Field DepthAuto offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const DepthAuto;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const DepthAuto;
 
 /// @brief Field ShadowAuto offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const ShadowAuto;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const ShadowAuto;
 
 /// @brief Field VideoAuto offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const VideoAuto;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const VideoAuto;
 
 /// @brief Field RGBA_ASTC4X4_UFloat offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC4X4_UFloat;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC4X4_UFloat;
 
 /// @brief Field RGBA_ASTC5X5_UFloat offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC5X5_UFloat;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC5X5_UFloat;
 
 /// @brief Field RGBA_ASTC6X6_UFloat offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC6X6_UFloat;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC6X6_UFloat;
 
 /// @brief Field RGBA_ASTC8X8_UFloat offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC8X8_UFloat;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC8X8_UFloat;
 
 /// @brief Field RGBA_ASTC10X10_UFloat offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC10X10_UFloat;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC10X10_UFloat;
 
 /// @brief Field RGBA_ASTC12X12_UFloat offset 0
-static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC12X12_UFloat;
+static UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC12X12_UFloat;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Experimental::Rendering
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::Rendering::GraphicsFormat, "UnityEngine.Experimental.Rendering", "GraphicsFormat");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Rendering::GraphicsFormat, "UnityEngine.Experimental.Rendering", "GraphicsFormat");

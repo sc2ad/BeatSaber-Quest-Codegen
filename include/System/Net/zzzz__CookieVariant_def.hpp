@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net {
 struct CookieVariant;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::System::Net::CookieVariant const Unknown;
+static System::Net::CookieVariant const Unknown;
 
 /// @brief Field Plain offset 0
-static ::System::Net::CookieVariant const Plain;
+static System::Net::CookieVariant const Plain;
 
 /// @brief Field Rfc2109 offset 0
-static ::System::Net::CookieVariant const Rfc2109;
+static System::Net::CookieVariant const Rfc2109;
 
 /// @brief Field Rfc2965 offset 0
-static ::System::Net::CookieVariant const Rfc2965;
+static System::Net::CookieVariant const Rfc2965;
 
 /// @brief Field Default offset 0
-static ::System::Net::CookieVariant const Default;
+static System::Net::CookieVariant const Default;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::CookieVariant, "System.Net", "CookieVariant");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieVariant, "System.Net", "CookieVariant");

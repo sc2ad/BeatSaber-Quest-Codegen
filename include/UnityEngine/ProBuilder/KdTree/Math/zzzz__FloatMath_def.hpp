@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::ProBuilder::KdTree::Math {
 class FloatMath;
@@ -15,7 +14,7 @@ namespace UnityEngine::ProBuilder::KdTree::Math {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15811)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15811), inst: 374 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15810))
 // CS Name: UnityEngine.ProBuilder.KdTree.Math.FloatMath
-class CORDL_TYPE FloatMath : public ::UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<float_t> {
+class CORDL_TYPE FloatMath : public UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<float_t> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr FloatMath(FloatMath const& ) noexcept = default;
 constexpr FloatMath(FloatMath&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FloatMath(void* ptr) noexcept : ::UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<float_t>(ptr) {
+constexpr explicit FloatMath(void* ptr) noexcept : UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<float_t>(ptr) {
 }
 
 
@@ -107,6 +106,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder::KdTree::Math
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::KdTree::Math::FloatMath);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::KdTree::Math::FloatMath, "UnityEngine.ProBuilder.KdTree.Math", "FloatMath");
+NEED_NO_BOX(UnityEngine::ProBuilder::KdTree::Math::FloatMath);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::KdTree::Math::FloatMath, "UnityEngine.ProBuilder.KdTree.Math", "FloatMath");

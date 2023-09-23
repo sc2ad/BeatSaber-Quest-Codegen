@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections {
 class IDictionary;
 }
@@ -88,23 +87,23 @@ static constexpr int32_t  TRAILER_SHA512_224{14796};
 /// @brief Field TRAILER_SHA512_256 offset 0
 static constexpr int32_t  TRAILER_SHA512_256{16588};
 
-static ::System::Collections::IDictionary __declspec(property(get=__get_trailerMap, put=__set_trailerMap))  trailerMap;
+static System::Collections::IDictionary __declspec(property(get=__get_trailerMap, put=__set_trailerMap))  trailerMap;
 
-static void __set_trailerMap(::System::Collections::IDictionary value) ;
+static void __set_trailerMap(System::Collections::IDictionary value) ;
 
-static ::System::Collections::IDictionary __get_trailerMap() ;
+static System::Collections::IDictionary __get_trailerMap() ;
 
 
 // Methods
 
 /// @brief Method CreateTrailerMap addr 0xec47f0 size 0x674 virtual false final false
-static ::System::Collections::IDictionary CreateTrailerMap() ;
+static System::Collections::IDictionary CreateTrailerMap() ;
 
 /// @brief Method GetTrailer addr 0xec0edc size 0x184 virtual false final false
-static int32_t GetTrailer(::Org::BouncyCastle::Crypto::IDigest digest) ;
+static int32_t GetTrailer(Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method NoTrailerAvailable addr 0xec0d88 size 0x154 virtual false final false
-static bool NoTrailerAvailable(::Org::BouncyCastle::Crypto::IDigest digest) ;
+static bool NoTrailerAvailable(Org::BouncyCastle::Crypto::IDigest digest) ;
 
 // Ctor Parameters []
 explicit IsoTrailers() ;
@@ -116,6 +115,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Signers
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Signers::IsoTrailers);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Signers::IsoTrailers, "Org.BouncyCastle.Crypto.Signers", "IsoTrailers");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Signers::IsoTrailers);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::IsoTrailers, "Org.BouncyCastle.Crypto.Signers", "IsoTrailers");

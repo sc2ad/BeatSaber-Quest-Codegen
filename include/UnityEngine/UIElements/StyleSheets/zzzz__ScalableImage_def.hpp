@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
-namespace {
 namespace UnityEngine {
 class Texture2D;
 }
@@ -19,8 +18,8 @@ namespace UnityEngine::UIElements::StyleSheets {
 struct CORDL_TYPE ScalableImage : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "normalImage", ty: "::UnityEngine::Texture2D", modifiers: "", def_value: None }, CppParam { name: "highResolutionImage", ty: "::UnityEngine::Texture2D", modifiers: "", def_value: None }]
-constexpr ScalableImage(::UnityEngine::Texture2D normalImage, ::UnityEngine::Texture2D highResolutionImage) noexcept;
+// Ctor Parameters [CppParam { name: "normalImage", ty: "UnityEngine::Texture2D", modifiers: "", def_value: None }, CppParam { name: "highResolutionImage", ty: "UnityEngine::Texture2D", modifiers: "", def_value: None }]
+constexpr ScalableImage(UnityEngine::Texture2D normalImage, UnityEngine::Texture2D highResolutionImage) noexcept;
 
 
                     constexpr ScalableImage(ScalableImage const&) = default;
@@ -53,17 +52,17 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Texture2D __declspec(property(get=__get_normalImage, put=__set_normalImage))  normalImage;
+ UnityEngine::Texture2D __declspec(property(get=__get_normalImage, put=__set_normalImage))  normalImage;
 
-constexpr void __set_normalImage(::UnityEngine::Texture2D value) ;
+constexpr void __set_normalImage(UnityEngine::Texture2D value) ;
 
-constexpr ::UnityEngine::Texture2D __get_normalImage() const;
+constexpr UnityEngine::Texture2D __get_normalImage() const;
 
- ::UnityEngine::Texture2D __declspec(property(get=__get_highResolutionImage, put=__set_highResolutionImage))  highResolutionImage;
+ UnityEngine::Texture2D __declspec(property(get=__get_highResolutionImage, put=__set_highResolutionImage))  highResolutionImage;
 
-constexpr void __set_highResolutionImage(::UnityEngine::Texture2D value) ;
+constexpr void __set_highResolutionImage(UnityEngine::Texture2D value) ;
 
-constexpr ::UnityEngine::Texture2D __get_highResolutionImage() const;
+constexpr UnityEngine::Texture2D __get_highResolutionImage() const;
 
 
 // Methods
@@ -75,5 +74,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::StyleSheets
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::ScalableImage, "UnityEngine.UIElements.StyleSheets", "ScalableImage");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::StyleSheets::ScalableImage, "UnityEngine.UIElements.StyleSheets", "ScalableImage");

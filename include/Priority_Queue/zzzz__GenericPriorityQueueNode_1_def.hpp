@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Priority_Queue {
 template<typename TPriority>
@@ -222,5 +221,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Priority_Queue
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Priority_Queue::GenericPriorityQueueNode_1, "Priority_Queue", "GenericPriorityQueueNode`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Priority_Queue::GenericPriorityQueueNode_1, "Priority_Queue", "GenericPriorityQueueNode`1");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Xml::XPath {
 struct XPathNodeType;
@@ -75,38 +74,37 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Root offset 0
-static ::System::Xml::XPath::XPathNodeType const Root;
+static System::Xml::XPath::XPathNodeType const Root;
 
 /// @brief Field Element offset 0
-static ::System::Xml::XPath::XPathNodeType const Element;
+static System::Xml::XPath::XPathNodeType const Element;
 
 /// @brief Field Attribute offset 0
-static ::System::Xml::XPath::XPathNodeType const Attribute;
+static System::Xml::XPath::XPathNodeType const Attribute;
 
 /// @brief Field Namespace offset 0
-static ::System::Xml::XPath::XPathNodeType const Namespace;
+static System::Xml::XPath::XPathNodeType const Namespace;
 
 /// @brief Field Text offset 0
-static ::System::Xml::XPath::XPathNodeType const Text;
+static System::Xml::XPath::XPathNodeType const Text;
 
 /// @brief Field SignificantWhitespace offset 0
-static ::System::Xml::XPath::XPathNodeType const SignificantWhitespace;
+static System::Xml::XPath::XPathNodeType const SignificantWhitespace;
 
 /// @brief Field Whitespace offset 0
-static ::System::Xml::XPath::XPathNodeType const Whitespace;
+static System::Xml::XPath::XPathNodeType const Whitespace;
 
 /// @brief Field ProcessingInstruction offset 0
-static ::System::Xml::XPath::XPathNodeType const ProcessingInstruction;
+static System::Xml::XPath::XPathNodeType const ProcessingInstruction;
 
 /// @brief Field Comment offset 0
-static ::System::Xml::XPath::XPathNodeType const Comment;
+static System::Xml::XPath::XPathNodeType const Comment;
 
 /// @brief Field All offset 0
-static ::System::Xml::XPath::XPathNodeType const All;
+static System::Xml::XPath::XPathNodeType const All;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Xml::XPath
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XPath::XPathNodeType, "System.Xml.XPath", "XPathNodeType");
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XPath::XPathNodeType, "System.Xml.XPath", "XPathNodeType");

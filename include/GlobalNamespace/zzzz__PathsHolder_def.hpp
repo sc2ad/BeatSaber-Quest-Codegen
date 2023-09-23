@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 class BezierPath;
 }
@@ -55,33 +54,33 @@ constexpr explicit PathsHolder(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 
 // Fields
 
- ::GlobalNamespace::BezierPath __declspec(property(get=__get__bezierPath, put=__set__bezierPath))  _bezierPath;
+ GlobalNamespace::BezierPath __declspec(property(get=__get__bezierPath, put=__set__bezierPath))  _bezierPath;
 
-constexpr void __set__bezierPath(::GlobalNamespace::BezierPath value) ;
+constexpr void __set__bezierPath(GlobalNamespace::BezierPath value) ;
 
-constexpr ::GlobalNamespace::BezierPath __get__bezierPath() const;
+constexpr GlobalNamespace::BezierPath __get__bezierPath() const;
 
- ::GlobalNamespace::VertexPath __declspec(property(get=__get__vertexPath, put=__set__vertexPath))  _vertexPath;
+ GlobalNamespace::VertexPath __declspec(property(get=__get__vertexPath, put=__set__vertexPath))  _vertexPath;
 
-constexpr void __set__vertexPath(::GlobalNamespace::VertexPath value) ;
+constexpr void __set__vertexPath(GlobalNamespace::VertexPath value) ;
 
-constexpr ::GlobalNamespace::VertexPath __get__vertexPath() const;
+constexpr GlobalNamespace::VertexPath __get__vertexPath() const;
 
 
 // Properties
 
- ::GlobalNamespace::BezierPath __declspec(property(get=get_bezierPath))  bezierPath;
+ GlobalNamespace::BezierPath __declspec(property(get=get_bezierPath))  bezierPath;
 
- ::GlobalNamespace::VertexPath __declspec(property(get=get_vertexPath))  vertexPath;
+ GlobalNamespace::VertexPath __declspec(property(get=get_vertexPath))  vertexPath;
 
 
 // Methods
 
 /// @brief Method get_bezierPath addr 0x21af100 size 0x8 virtual false final false
- ::GlobalNamespace::BezierPath get_bezierPath() ;
+ GlobalNamespace::BezierPath get_bezierPath() ;
 
 /// @brief Method get_vertexPath addr 0x21af108 size 0x8 virtual false final false
- ::GlobalNamespace::VertexPath get_vertexPath() ;
+ GlobalNamespace::VertexPath get_vertexPath() ;
 
 // Ctor Parameters [CppParam { name: "numberOfFixedVertexPathSegments", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "updateVertexPath", ty: "bool", modifiers: "", def_value: None }]
 explicit PathsHolder(int32_t numberOfFixedVertexPathSegments, bool updateVertexPath) ;
@@ -96,6 +95,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PathsHolder);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PathsHolder, "", "PathsHolder");
+NEED_NO_BOX(GlobalNamespace::PathsHolder);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PathsHolder, "", "PathsHolder");

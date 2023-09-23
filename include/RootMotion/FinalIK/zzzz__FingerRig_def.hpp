@@ -6,12 +6,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class Transform;
-}
 namespace RootMotion::FinalIK {
 class Finger;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -23,7 +22,7 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12441))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12458))
 // CS Name: RootMotion.FinalIK.FingerRig
-class CORDL_TYPE FingerRig : public ::RootMotion::SolverManager {
+class CORDL_TYPE FingerRig : public RootMotion::SolverManager {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr FingerRig(FingerRig const& ) noexcept = default;
 constexpr FingerRig(FingerRig&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FingerRig(void* ptr) noexcept : ::RootMotion::SolverManager(ptr) {
+constexpr explicit FingerRig(void* ptr) noexcept : RootMotion::SolverManager(ptr) {
 }
 
 
@@ -65,11 +64,11 @@ constexpr void __set_weight(float_t value) ;
 
 constexpr float_t __get_weight() const;
 
- ::ArrayW<::RootMotion::FinalIK::Finger> __declspec(property(get=__get_fingers, put=__set_fingers))  fingers;
+ ::ArrayW<RootMotion::FinalIK::Finger> __declspec(property(get=__get_fingers, put=__set_fingers))  fingers;
 
-constexpr void __set_fingers(::ArrayW<::RootMotion::FinalIK::Finger> value) ;
+constexpr void __set_fingers(::ArrayW<RootMotion::FinalIK::Finger> value) ;
 
-constexpr ::ArrayW<::RootMotion::FinalIK::Finger> __get_fingers() const;
+constexpr ::ArrayW<RootMotion::FinalIK::Finger> __get_fingers() const;
 
  bool __declspec(property(get=__get__initiated_k__BackingField, put=__set__initiated_k__BackingField))  _initiated_k__BackingField;
 
@@ -98,13 +97,13 @@ constexpr bool __get__initiated_k__BackingField() const;
  void AutoDetect() ;
 
 /// @brief Method AddFinger addr 0x11b9b3c size 0x16c virtual false final false
- void AddFinger(::UnityEngine::Transform bone1, ::UnityEngine::Transform bone2, ::UnityEngine::Transform bone3, ::UnityEngine::Transform tip, ::UnityEngine::Transform target) ;
+ void AddFinger(UnityEngine::Transform bone1, UnityEngine::Transform bone2, UnityEngine::Transform bone3, UnityEngine::Transform tip, UnityEngine::Transform target) ;
 
 /// @brief Method RemoveFinger addr 0x11b9ca8 size 0x160 virtual false final false
  void RemoveFinger(int32_t index) ;
 
 /// @brief Method AddChildrenRecursive addr 0x11b9a54 size 0xe8 virtual false final false
- void AddChildrenRecursive(::UnityEngine::Transform parent, ByRef<::ArrayW<::UnityEngine::Transform>> array) ;
+ void AddChildrenRecursive(UnityEngine::Transform parent, ByRef<::ArrayW<UnityEngine::Transform>> array) ;
 
 /// @brief Method InitiateSolver addr 0x11b9e08 size 0xa8 virtual true final false
  void InitiateSolver() ;
@@ -134,6 +133,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::FingerRig);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::FingerRig, "RootMotion.FinalIK", "FingerRig");
+NEED_NO_BOX(RootMotion::FinalIK::FingerRig);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FingerRig, "RootMotion.FinalIK", "FingerRig");

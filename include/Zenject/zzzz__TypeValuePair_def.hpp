@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
-namespace {
 namespace System {
 class Type;
 }
@@ -19,8 +18,8 @@ namespace Zenject {
 struct CORDL_TYPE TypeValuePair : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "Type", ty: "::System::Type", modifiers: "", def_value: None }, CppParam { name: "Value", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-constexpr TypeValuePair(::System::Type Type, ::bs_hook::Il2CppWrapperType Value) noexcept;
+// Ctor Parameters [CppParam { name: "Type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "Value", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
+constexpr TypeValuePair(System::Type Type, ::bs_hook::Il2CppWrapperType Value) noexcept;
 
 
                     constexpr TypeValuePair(TypeValuePair const&) = default;
@@ -53,11 +52,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::Type __declspec(property(get=__get_Type, put=__set_Type))  Type;
+ System::Type __declspec(property(get=__get_Type, put=__set_Type))  Type;
 
-constexpr void __set_Type(::System::Type value) ;
+constexpr void __set_Type(System::Type value) ;
 
-constexpr ::System::Type __get_Type() const;
+constexpr System::Type __get_Type() const;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=__get_Value, put=__set_Value))  Value;
 
@@ -69,11 +68,10 @@ constexpr ::bs_hook::Il2CppWrapperType __get_Value() const;
 // Methods
 
 /// @brief Method .ctor addr 0x2d72340 size 0x8 virtual false final false
- void _ctor(::System::Type type, ::bs_hook::Il2CppWrapperType value) ;
+ void _ctor(System::Type type, ::bs_hook::Il2CppWrapperType value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::TypeValuePair, "Zenject", "TypeValuePair");
+DEFINE_IL2CPP_ARG_TYPE(Zenject::TypeValuePair, "Zenject", "TypeValuePair");

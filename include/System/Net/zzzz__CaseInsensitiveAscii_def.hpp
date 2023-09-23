@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Collections {
-class IEqualityComparer;
-}
 namespace System::Collections {
 class IComparer;
+}
+namespace System::Collections {
+class IEqualityComparer;
 }
 // Forward declare root types
 namespace System::Net {
@@ -24,11 +23,11 @@ namespace System::Net {
 class CORDL_TYPE CaseInsensitiveAscii : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::IEqualityComparer
-constexpr operator  ::System::Collections::IEqualityComparer() const noexcept;
+/// @brief Convert operator to System::Collections::IEqualityComparer
+constexpr operator  System::Collections::IEqualityComparer() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IComparer
-constexpr operator  ::System::Collections::IComparer() const noexcept;
+/// @brief Convert operator to System::Collections::IComparer
+constexpr operator  System::Collections::IComparer() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -63,11 +62,11 @@ constexpr explicit CaseInsensitiveAscii(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 // Fields
 
-static ::System::Net::CaseInsensitiveAscii __declspec(property(get=__get_StaticInstance, put=__set_StaticInstance))  StaticInstance;
+static System::Net::CaseInsensitiveAscii __declspec(property(get=__get_StaticInstance, put=__set_StaticInstance))  StaticInstance;
 
-static void __set_StaticInstance(::System::Net::CaseInsensitiveAscii value) ;
+static void __set_StaticInstance(System::Net::CaseInsensitiveAscii value) ;
 
-static ::System::Net::CaseInsensitiveAscii __get_StaticInstance() ;
+static System::Net::CaseInsensitiveAscii __get_StaticInstance() ;
 
 static ::ArrayW<uint8_t> __declspec(property(get=__get_AsciiToLower, put=__set_AsciiToLower))  AsciiToLower;
 
@@ -100,6 +99,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::CaseInsensitiveAscii);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::CaseInsensitiveAscii, "System.Net", "CaseInsensitiveAscii");
+NEED_NO_BOX(System::Net::CaseInsensitiveAscii);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::CaseInsensitiveAscii, "System.Net", "CaseInsensitiveAscii");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Globalization {
 struct NumberStyles;
@@ -82,59 +81,58 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::Globalization::NumberStyles const None;
+static System::Globalization::NumberStyles const None;
 
 /// @brief Field AllowLeadingWhite offset 0
-static ::System::Globalization::NumberStyles const AllowLeadingWhite;
+static System::Globalization::NumberStyles const AllowLeadingWhite;
 
 /// @brief Field AllowTrailingWhite offset 0
-static ::System::Globalization::NumberStyles const AllowTrailingWhite;
+static System::Globalization::NumberStyles const AllowTrailingWhite;
 
 /// @brief Field AllowLeadingSign offset 0
-static ::System::Globalization::NumberStyles const AllowLeadingSign;
+static System::Globalization::NumberStyles const AllowLeadingSign;
 
 /// @brief Field AllowTrailingSign offset 0
-static ::System::Globalization::NumberStyles const AllowTrailingSign;
+static System::Globalization::NumberStyles const AllowTrailingSign;
 
 /// @brief Field AllowParentheses offset 0
-static ::System::Globalization::NumberStyles const AllowParentheses;
+static System::Globalization::NumberStyles const AllowParentheses;
 
 /// @brief Field AllowDecimalPoint offset 0
-static ::System::Globalization::NumberStyles const AllowDecimalPoint;
+static System::Globalization::NumberStyles const AllowDecimalPoint;
 
 /// @brief Field AllowThousands offset 0
-static ::System::Globalization::NumberStyles const AllowThousands;
+static System::Globalization::NumberStyles const AllowThousands;
 
 /// @brief Field AllowExponent offset 0
-static ::System::Globalization::NumberStyles const AllowExponent;
+static System::Globalization::NumberStyles const AllowExponent;
 
 /// @brief Field AllowCurrencySymbol offset 0
-static ::System::Globalization::NumberStyles const AllowCurrencySymbol;
+static System::Globalization::NumberStyles const AllowCurrencySymbol;
 
 /// @brief Field AllowHexSpecifier offset 0
-static ::System::Globalization::NumberStyles const AllowHexSpecifier;
+static System::Globalization::NumberStyles const AllowHexSpecifier;
 
 /// @brief Field Integer offset 0
-static ::System::Globalization::NumberStyles const Integer;
+static System::Globalization::NumberStyles const Integer;
 
 /// @brief Field HexNumber offset 0
-static ::System::Globalization::NumberStyles const HexNumber;
+static System::Globalization::NumberStyles const HexNumber;
 
 /// @brief Field Number offset 0
-static ::System::Globalization::NumberStyles const Number;
+static System::Globalization::NumberStyles const Number;
 
 /// @brief Field Float offset 0
-static ::System::Globalization::NumberStyles const Float;
+static System::Globalization::NumberStyles const Float;
 
 /// @brief Field Currency offset 0
-static ::System::Globalization::NumberStyles const Currency;
+static System::Globalization::NumberStyles const Currency;
 
 /// @brief Field Any offset 0
-static ::System::Globalization::NumberStyles const Any;
+static System::Globalization::NumberStyles const Any;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Globalization
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::NumberStyles, "System.Globalization", "NumberStyles");
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::NumberStyles, "System.Globalization", "NumberStyles");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace UnityEngine::UI {
 class Image;
 }
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5500))
 // CS Name: ColorSchemeView
-class CORDL_TYPE ColorSchemeView : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ColorSchemeView : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr ColorSchemeView(ColorSchemeView const& ) noexcept = default;
 constexpr ColorSchemeView(ColorSchemeView&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ColorSchemeView(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ColorSchemeView(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -54,53 +53,53 @@ constexpr explicit ColorSchemeView(void* ptr) noexcept : ::UnityEngine::MonoBeha
 
 // Fields
 
- ::UnityEngine::UI::Image __declspec(property(get=__get__saberAColorImage, put=__set__saberAColorImage))  _saberAColorImage;
+ UnityEngine::UI::Image __declspec(property(get=__get__saberAColorImage, put=__set__saberAColorImage))  _saberAColorImage;
 
-constexpr void __set__saberAColorImage(::UnityEngine::UI::Image value) ;
+constexpr void __set__saberAColorImage(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get__saberAColorImage() const;
+constexpr UnityEngine::UI::Image __get__saberAColorImage() const;
 
- ::UnityEngine::UI::Image __declspec(property(get=__get__saberBColorImage, put=__set__saberBColorImage))  _saberBColorImage;
+ UnityEngine::UI::Image __declspec(property(get=__get__saberBColorImage, put=__set__saberBColorImage))  _saberBColorImage;
 
-constexpr void __set__saberBColorImage(::UnityEngine::UI::Image value) ;
+constexpr void __set__saberBColorImage(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get__saberBColorImage() const;
+constexpr UnityEngine::UI::Image __get__saberBColorImage() const;
 
- ::UnityEngine::UI::Image __declspec(property(get=__get__environment0ColorImage, put=__set__environment0ColorImage))  _environment0ColorImage;
+ UnityEngine::UI::Image __declspec(property(get=__get__environment0ColorImage, put=__set__environment0ColorImage))  _environment0ColorImage;
 
-constexpr void __set__environment0ColorImage(::UnityEngine::UI::Image value) ;
+constexpr void __set__environment0ColorImage(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get__environment0ColorImage() const;
+constexpr UnityEngine::UI::Image __get__environment0ColorImage() const;
 
- ::UnityEngine::UI::Image __declspec(property(get=__get__environment1ColorImage, put=__set__environment1ColorImage))  _environment1ColorImage;
+ UnityEngine::UI::Image __declspec(property(get=__get__environment1ColorImage, put=__set__environment1ColorImage))  _environment1ColorImage;
 
-constexpr void __set__environment1ColorImage(::UnityEngine::UI::Image value) ;
+constexpr void __set__environment1ColorImage(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get__environment1ColorImage() const;
+constexpr UnityEngine::UI::Image __get__environment1ColorImage() const;
 
- ::UnityEngine::UI::Image __declspec(property(get=__get__environmentColor0BoostImage, put=__set__environmentColor0BoostImage))  _environmentColor0BoostImage;
+ UnityEngine::UI::Image __declspec(property(get=__get__environmentColor0BoostImage, put=__set__environmentColor0BoostImage))  _environmentColor0BoostImage;
 
-constexpr void __set__environmentColor0BoostImage(::UnityEngine::UI::Image value) ;
+constexpr void __set__environmentColor0BoostImage(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get__environmentColor0BoostImage() const;
+constexpr UnityEngine::UI::Image __get__environmentColor0BoostImage() const;
 
- ::UnityEngine::UI::Image __declspec(property(get=__get__environmentColor1BoostImage, put=__set__environmentColor1BoostImage))  _environmentColor1BoostImage;
+ UnityEngine::UI::Image __declspec(property(get=__get__environmentColor1BoostImage, put=__set__environmentColor1BoostImage))  _environmentColor1BoostImage;
 
-constexpr void __set__environmentColor1BoostImage(::UnityEngine::UI::Image value) ;
+constexpr void __set__environmentColor1BoostImage(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get__environmentColor1BoostImage() const;
+constexpr UnityEngine::UI::Image __get__environmentColor1BoostImage() const;
 
- ::UnityEngine::UI::Image __declspec(property(get=__get__obstacleColorImage, put=__set__obstacleColorImage))  _obstacleColorImage;
+ UnityEngine::UI::Image __declspec(property(get=__get__obstacleColorImage, put=__set__obstacleColorImage))  _obstacleColorImage;
 
-constexpr void __set__obstacleColorImage(::UnityEngine::UI::Image value) ;
+constexpr void __set__obstacleColorImage(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get__obstacleColorImage() const;
+constexpr UnityEngine::UI::Image __get__obstacleColorImage() const;
 
 
 // Methods
 
 /// @brief Method SetColors addr 0x211e5bc size 0x1b8 virtual false final false
- void SetColors(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environment0Color, ::UnityEngine::Color environment1Color, ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost, ::UnityEngine::Color obstacleColor) ;
+ void SetColors(UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environment0Color, UnityEngine::Color environment1Color, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost, UnityEngine::Color obstacleColor) ;
 
 // Ctor Parameters []
 explicit ColorSchemeView() ;
@@ -112,6 +111,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ColorSchemeView);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ColorSchemeView, "", "ColorSchemeView");
+NEED_NO_BOX(GlobalNamespace::ColorSchemeView);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeView, "", "ColorSchemeView");

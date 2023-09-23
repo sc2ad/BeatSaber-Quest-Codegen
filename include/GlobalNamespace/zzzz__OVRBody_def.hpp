@@ -4,44 +4,43 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRPlugin__Quatf;
+class GlobalNamespace__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider;
+struct GlobalNamespace__OVRPlugin__Vector3f;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRSkeletonRenderer__SkeletonRendererData;
-}
-namespace System {
-template<typename T>
-class Action_1;
+struct GlobalNamespace__OVRPlugin__Step;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRPlugin__Step;
+struct GlobalNamespace__OVRSkeletonRenderer__SkeletonRendererData;
 }
 namespace System {
 template<typename T>
 struct Nullable_1;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRPlugin__Vector3f;
+struct GlobalNamespace__OVRSkeleton__SkeletonType;
+}
+namespace System {
+template<typename T>
+class Action_1;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRSkeleton__SkeletonType;
+struct GlobalNamespace__OVRPlugin__Quatf;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRSkeleton__SkeletonPoseData;
+struct GlobalNamespace__OVRSkeleton__SkeletonPoseData;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRPermissionsRequester__Permission;
+class GlobalNamespace__OVRSkeleton__IOVRSkeletonDataProvider;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__OVRSkeleton__IOVRSkeletonDataProvider;
+struct GlobalNamespace__OVRPermissionsRequester__Permission;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRPlugin__BodyState;
+struct GlobalNamespace__OVRPlugin__BodyState;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -53,14 +52,14 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8445))
 // CS Name: OVRBody
-class CORDL_TYPE OVRBody : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OVRBody : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::____GlobalNamespace__OVRSkeleton__IOVRSkeletonDataProvider
-constexpr operator  ::GlobalNamespace::____GlobalNamespace__OVRSkeleton__IOVRSkeletonDataProvider() const noexcept;
+/// @brief Convert operator to GlobalNamespace::GlobalNamespace__OVRSkeleton__IOVRSkeletonDataProvider
+constexpr operator  GlobalNamespace::GlobalNamespace__OVRSkeleton__IOVRSkeletonDataProvider() const noexcept;
 
-/// @brief Convert operator to ::GlobalNamespace::____GlobalNamespace__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider
-constexpr operator  ::GlobalNamespace::____GlobalNamespace__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider() const noexcept;
+/// @brief Convert operator to GlobalNamespace::GlobalNamespace__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider
+constexpr operator  GlobalNamespace::GlobalNamespace__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x50};
@@ -74,7 +73,7 @@ constexpr OVRBody(OVRBody const& ) noexcept = default;
 constexpr OVRBody(OVRBody&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OVRBody(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OVRBody(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -95,23 +94,23 @@ constexpr explicit OVRBody(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(pt
 
 // Fields
 
- ::GlobalNamespace::____GlobalNamespace__OVRPlugin__BodyState __declspec(property(get=__get__bodyState, put=__set__bodyState))  _bodyState;
+ GlobalNamespace::GlobalNamespace__OVRPlugin__BodyState __declspec(property(get=__get__bodyState, put=__set__bodyState))  _bodyState;
 
-constexpr void __set__bodyState(::GlobalNamespace::____GlobalNamespace__OVRPlugin__BodyState value) ;
+constexpr void __set__bodyState(GlobalNamespace::GlobalNamespace__OVRPlugin__BodyState value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVRPlugin__BodyState __get__bodyState() const;
+constexpr GlobalNamespace::GlobalNamespace__OVRPlugin__BodyState __get__bodyState() const;
 
- ::ArrayW<::GlobalNamespace::____GlobalNamespace__OVRPlugin__Quatf> __declspec(property(get=__get__boneRotations, put=__set__boneRotations))  _boneRotations;
+ ::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Quatf> __declspec(property(get=__get__boneRotations, put=__set__boneRotations))  _boneRotations;
 
-constexpr void __set__boneRotations(::ArrayW<::GlobalNamespace::____GlobalNamespace__OVRPlugin__Quatf> value) ;
+constexpr void __set__boneRotations(::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Quatf> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::____GlobalNamespace__OVRPlugin__Quatf> __get__boneRotations() const;
+constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Quatf> __get__boneRotations() const;
 
- ::ArrayW<::GlobalNamespace::____GlobalNamespace__OVRPlugin__Vector3f> __declspec(property(get=__get__boneTranslations, put=__set__boneTranslations))  _boneTranslations;
+ ::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f> __declspec(property(get=__get__boneTranslations, put=__set__boneTranslations))  _boneTranslations;
 
-constexpr void __set__boneTranslations(::ArrayW<::GlobalNamespace::____GlobalNamespace__OVRPlugin__Vector3f> value) ;
+constexpr void __set__boneTranslations(::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::____GlobalNamespace__OVRPlugin__Vector3f> __get__boneTranslations() const;
+constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f> __get__boneTranslations() const;
 
  bool __declspec(property(get=__get__dataChangedSinceLastQuery, put=__set__dataChangedSinceLastQuery))  _dataChangedSinceLastQuery;
 
@@ -126,13 +125,13 @@ constexpr void __set__hasData(bool value) ;
 constexpr bool __get__hasData() const;
 
 /// @brief Field BodyTrackingPermission offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRPermissionsRequester__Permission const BodyTrackingPermission;
+static GlobalNamespace::GlobalNamespace__OVRPermissionsRequester__Permission const BodyTrackingPermission;
 
- ::System::Action_1<::StringW> __declspec(property(get=__get__onPermissionGranted, put=__set__onPermissionGranted))  _onPermissionGranted;
+ System::Action_1<::StringW> __declspec(property(get=__get__onPermissionGranted, put=__set__onPermissionGranted))  _onPermissionGranted;
 
-constexpr void __set__onPermissionGranted(::System::Action_1<::StringW> value) ;
+constexpr void __set__onPermissionGranted(System::Action_1<::StringW> value) ;
 
-constexpr ::System::Action_1<::StringW> __get__onPermissionGranted() const;
+constexpr System::Action_1<::StringW> __get__onPermissionGranted() const;
 
 static int32_t __declspec(property(get=__get__trackingInstanceCount, put=__set__trackingInstanceCount))  _trackingInstanceCount;
 
@@ -143,13 +142,13 @@ static int32_t __get__trackingInstanceCount() ;
 
 // Properties
 
- ::System::Nullable_1<::GlobalNamespace::____GlobalNamespace__OVRPlugin__BodyState> __declspec(property(get=get_BodyState))  BodyState;
+ System::Nullable_1<GlobalNamespace::GlobalNamespace__OVRPlugin__BodyState> __declspec(property(get=get_BodyState))  BodyState;
 
 
 // Methods
 
 /// @brief Method get_BodyState addr 0x25a8fc0 size 0x88 virtual false final false
- ::System::Nullable_1<::GlobalNamespace::____GlobalNamespace__OVRPlugin__BodyState> get_BodyState() ;
+ System::Nullable_1<GlobalNamespace::GlobalNamespace__OVRPlugin__BodyState> get_BodyState() ;
 
 /// @brief Method Awake addr 0x25a9048 size 0x7c virtual false final false
  void Awake() ;
@@ -173,16 +172,16 @@ static int32_t __get__trackingInstanceCount() ;
  void Update() ;
 
 /// @brief Method GetBodyState addr 0x25a92b0 size 0x84 virtual false final false
- void GetBodyState(::GlobalNamespace::____GlobalNamespace__OVRPlugin__Step step) ;
+ void GetBodyState(GlobalNamespace::GlobalNamespace__OVRPlugin__Step step) ;
 
 /// @brief Method OVRSkeleton.IOVRSkeletonDataProvider.GetSkeletonType addr 0x25a9430 size 0x8 virtual true final true
- ::GlobalNamespace::____GlobalNamespace__OVRSkeleton__SkeletonType OVRSkeleton_IOVRSkeletonDataProvider_GetSkeletonType() ;
+ GlobalNamespace::GlobalNamespace__OVRSkeleton__SkeletonType OVRSkeleton_IOVRSkeletonDataProvider_GetSkeletonType() ;
 
 /// @brief Method OVRSkeleton.IOVRSkeletonDataProvider.GetSkeletonPoseData addr 0x25a9438 size 0x250 virtual true final true
- ::GlobalNamespace::____GlobalNamespace__OVRSkeleton__SkeletonPoseData OVRSkeleton_IOVRSkeletonDataProvider_GetSkeletonPoseData() ;
+ GlobalNamespace::GlobalNamespace__OVRSkeleton__SkeletonPoseData OVRSkeleton_IOVRSkeletonDataProvider_GetSkeletonPoseData() ;
 
 /// @brief Method OVRSkeletonRenderer.IOVRSkeletonRendererDataProvider.GetSkeletonRendererData addr 0x25a9688 size 0x18 virtual true final true
- ::GlobalNamespace::____GlobalNamespace__OVRSkeletonRenderer__SkeletonRendererData OVRSkeletonRenderer_IOVRSkeletonRendererDataProvider_GetSkeletonRendererData() ;
+ GlobalNamespace::GlobalNamespace__OVRSkeletonRenderer__SkeletonRendererData OVRSkeletonRenderer_IOVRSkeletonRendererDataProvider_GetSkeletonRendererData() ;
 
 // Ctor Parameters []
 explicit OVRBody() ;
@@ -197,6 +196,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OVRBody);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRBody, "", "OVRBody");
+NEED_NO_BOX(GlobalNamespace::OVRBody);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRBody, "", "OVRBody");

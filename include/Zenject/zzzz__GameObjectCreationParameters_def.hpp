@@ -3,26 +3,25 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 struct Nullable_1;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
 }
 namespace Zenject {
 class InjectContext;
 }
 namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
 struct Vector3;
+}
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace Zenject {
@@ -82,35 +81,35 @@ constexpr void __set__GroupName_k__BackingField(::StringW value) ;
 
 constexpr ::StringW __get__GroupName_k__BackingField() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__ParentTransform_k__BackingField, put=__set__ParentTransform_k__BackingField))  _ParentTransform_k__BackingField;
+ UnityEngine::Transform __declspec(property(get=__get__ParentTransform_k__BackingField, put=__set__ParentTransform_k__BackingField))  _ParentTransform_k__BackingField;
 
-constexpr void __set__ParentTransform_k__BackingField(::UnityEngine::Transform value) ;
+constexpr void __set__ParentTransform_k__BackingField(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__ParentTransform_k__BackingField() const;
+constexpr UnityEngine::Transform __get__ParentTransform_k__BackingField() const;
 
- ::System::Func_2<::Zenject::InjectContext,::UnityEngine::Transform> __declspec(property(get=__get__ParentTransformGetter_k__BackingField, put=__set__ParentTransformGetter_k__BackingField))  _ParentTransformGetter_k__BackingField;
+ System::Func_2<Zenject::InjectContext,UnityEngine::Transform> __declspec(property(get=__get__ParentTransformGetter_k__BackingField, put=__set__ParentTransformGetter_k__BackingField))  _ParentTransformGetter_k__BackingField;
 
-constexpr void __set__ParentTransformGetter_k__BackingField(::System::Func_2<::Zenject::InjectContext,::UnityEngine::Transform> value) ;
+constexpr void __set__ParentTransformGetter_k__BackingField(System::Func_2<Zenject::InjectContext,UnityEngine::Transform> value) ;
 
-constexpr ::System::Func_2<::Zenject::InjectContext,::UnityEngine::Transform> __get__ParentTransformGetter_k__BackingField() const;
+constexpr System::Func_2<Zenject::InjectContext,UnityEngine::Transform> __get__ParentTransformGetter_k__BackingField() const;
 
- ::System::Nullable_1<::UnityEngine::Vector3> __declspec(property(get=__get__Position_k__BackingField, put=__set__Position_k__BackingField))  _Position_k__BackingField;
+ System::Nullable_1<UnityEngine::Vector3> __declspec(property(get=__get__Position_k__BackingField, put=__set__Position_k__BackingField))  _Position_k__BackingField;
 
-constexpr void __set__Position_k__BackingField(::System::Nullable_1<::UnityEngine::Vector3> value) ;
+constexpr void __set__Position_k__BackingField(System::Nullable_1<UnityEngine::Vector3> value) ;
 
-constexpr ::System::Nullable_1<::UnityEngine::Vector3> __get__Position_k__BackingField() const;
+constexpr System::Nullable_1<UnityEngine::Vector3> __get__Position_k__BackingField() const;
 
- ::System::Nullable_1<::UnityEngine::Quaternion> __declspec(property(get=__get__Rotation_k__BackingField, put=__set__Rotation_k__BackingField))  _Rotation_k__BackingField;
+ System::Nullable_1<UnityEngine::Quaternion> __declspec(property(get=__get__Rotation_k__BackingField, put=__set__Rotation_k__BackingField))  _Rotation_k__BackingField;
 
-constexpr void __set__Rotation_k__BackingField(::System::Nullable_1<::UnityEngine::Quaternion> value) ;
+constexpr void __set__Rotation_k__BackingField(System::Nullable_1<UnityEngine::Quaternion> value) ;
 
-constexpr ::System::Nullable_1<::UnityEngine::Quaternion> __get__Rotation_k__BackingField() const;
+constexpr System::Nullable_1<UnityEngine::Quaternion> __get__Rotation_k__BackingField() const;
 
-static ::Zenject::GameObjectCreationParameters __declspec(property(get=__get_Default, put=__set_Default))  Default;
+static Zenject::GameObjectCreationParameters __declspec(property(get=__get_Default, put=__set_Default))  Default;
 
-static void __set_Default(::Zenject::GameObjectCreationParameters value) ;
+static void __set_Default(Zenject::GameObjectCreationParameters value) ;
 
-static ::Zenject::GameObjectCreationParameters __get_Default() ;
+static Zenject::GameObjectCreationParameters __get_Default() ;
 
 
 // Properties
@@ -119,13 +118,13 @@ static ::Zenject::GameObjectCreationParameters __get_Default() ;
 
  ::StringW __declspec(property(get=get_GroupName, put=set_GroupName))  GroupName;
 
- ::UnityEngine::Transform __declspec(property(get=get_ParentTransform, put=set_ParentTransform))  ParentTransform;
+ UnityEngine::Transform __declspec(property(get=get_ParentTransform, put=set_ParentTransform))  ParentTransform;
 
- ::System::Func_2<::Zenject::InjectContext,::UnityEngine::Transform> __declspec(property(get=get_ParentTransformGetter, put=set_ParentTransformGetter))  ParentTransformGetter;
+ System::Func_2<Zenject::InjectContext,UnityEngine::Transform> __declspec(property(get=get_ParentTransformGetter, put=set_ParentTransformGetter))  ParentTransformGetter;
 
- ::System::Nullable_1<::UnityEngine::Vector3> __declspec(property(get=get_Position, put=set_Position))  Position;
+ System::Nullable_1<UnityEngine::Vector3> __declspec(property(get=get_Position, put=set_Position))  Position;
 
- ::System::Nullable_1<::UnityEngine::Quaternion> __declspec(property(get=get_Rotation, put=set_Rotation))  Rotation;
+ System::Nullable_1<UnityEngine::Quaternion> __declspec(property(get=get_Rotation, put=set_Rotation))  Rotation;
 
 
 // Methods
@@ -143,28 +142,28 @@ static ::Zenject::GameObjectCreationParameters __get_Default() ;
  void set_GroupName(::StringW value) ;
 
 /// @brief Method get_ParentTransform addr 0x2d65c8c size 0x8 virtual false final false
- ::UnityEngine::Transform get_ParentTransform() ;
+ UnityEngine::Transform get_ParentTransform() ;
 
 /// @brief Method set_ParentTransform addr 0x2d65c94 size 0x8 virtual false final false
- void set_ParentTransform(::UnityEngine::Transform value) ;
+ void set_ParentTransform(UnityEngine::Transform value) ;
 
 /// @brief Method get_ParentTransformGetter addr 0x2d65c9c size 0x8 virtual false final false
- ::System::Func_2<::Zenject::InjectContext,::UnityEngine::Transform> get_ParentTransformGetter() ;
+ System::Func_2<Zenject::InjectContext,UnityEngine::Transform> get_ParentTransformGetter() ;
 
 /// @brief Method set_ParentTransformGetter addr 0x2d65ca4 size 0x8 virtual false final false
- void set_ParentTransformGetter(::System::Func_2<::Zenject::InjectContext,::UnityEngine::Transform> value) ;
+ void set_ParentTransformGetter(System::Func_2<Zenject::InjectContext,UnityEngine::Transform> value) ;
 
 /// @brief Method get_Position addr 0x2d65cac size 0xc virtual false final false
- ::System::Nullable_1<::UnityEngine::Vector3> get_Position() ;
+ System::Nullable_1<UnityEngine::Vector3> get_Position() ;
 
 /// @brief Method set_Position addr 0x2d65cb8 size 0x8 virtual false final false
- void set_Position(::System::Nullable_1<::UnityEngine::Vector3> value) ;
+ void set_Position(System::Nullable_1<UnityEngine::Vector3> value) ;
 
 /// @brief Method get_Rotation addr 0x2d65cc0 size 0x14 virtual false final false
- ::System::Nullable_1<::UnityEngine::Quaternion> get_Rotation() ;
+ System::Nullable_1<UnityEngine::Quaternion> get_Rotation() ;
 
 /// @brief Method set_Rotation addr 0x2d65cd4 size 0x14 virtual false final false
- void set_Rotation(::System::Nullable_1<::UnityEngine::Quaternion> value) ;
+ void set_Rotation(System::Nullable_1<UnityEngine::Quaternion> value) ;
 
 /// @brief Method GetHashCode addr 0x2d65ce8 size 0x294 virtual true final false
  int32_t GetHashCode() ;
@@ -173,13 +172,13 @@ static ::Zenject::GameObjectCreationParameters __get_Default() ;
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
 
 /// @brief Method Equals addr 0x2d660a4 size 0x64 virtual false final false
- bool Equals(::Zenject::GameObjectCreationParameters that) ;
+ bool Equals(Zenject::GameObjectCreationParameters that) ;
 
 /// @brief Method op_Equality addr 0x2d6604c size 0x58 virtual false final false
-static bool op_Equality(::Zenject::GameObjectCreationParameters left, ::Zenject::GameObjectCreationParameters right) ;
+static bool op_Equality(Zenject::GameObjectCreationParameters left, Zenject::GameObjectCreationParameters right) ;
 
 /// @brief Method op_Inequality addr 0x2d66108 size 0x20 virtual false final false
-static bool op_Inequality(::Zenject::GameObjectCreationParameters left, ::Zenject::GameObjectCreationParameters right) ;
+static bool op_Inequality(Zenject::GameObjectCreationParameters left, Zenject::GameObjectCreationParameters right) ;
 
 // Ctor Parameters []
 explicit GameObjectCreationParameters() ;
@@ -191,6 +190,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::GameObjectCreationParameters);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::GameObjectCreationParameters, "Zenject", "GameObjectCreationParameters");
+NEED_NO_BOX(Zenject::GameObjectCreationParameters);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::GameObjectCreationParameters, "Zenject", "GameObjectCreationParameters");

@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine::UIElements {
 class DropdownMenuEventInfo;
 }
@@ -19,7 +18,7 @@ class Action_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-struct ____UnityEngine__UIElements__DropdownMenuAction__Status;
+struct UnityEngine__UIElements__DropdownMenuAction__Status;
 }
 namespace UnityEngine::UIElements {
 class DropdownMenuAction;
@@ -30,20 +29,20 @@ namespace UnityEngine::UIElements {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7034))
 // CS Name: UnityEngine.UIElements.DropdownMenuAction::Status
-struct CORDL_TYPE ____UnityEngine__UIElements__DropdownMenuAction__Status : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__UIElements__DropdownMenuAction__Status : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__UIElements__DropdownMenuAction__Status(int32_t value__) noexcept;
+constexpr UnityEngine__UIElements__DropdownMenuAction__Status(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__UIElements__DropdownMenuAction__Status(____UnityEngine__UIElements__DropdownMenuAction__Status const&) = default;
-                    constexpr ____UnityEngine__UIElements__DropdownMenuAction__Status(____UnityEngine__UIElements__DropdownMenuAction__Status&&) = default;
-                    constexpr ____UnityEngine__UIElements__DropdownMenuAction__Status& operator=(____UnityEngine__UIElements__DropdownMenuAction__Status const& o) {
+                    constexpr UnityEngine__UIElements__DropdownMenuAction__Status(UnityEngine__UIElements__DropdownMenuAction__Status const&) = default;
+                    constexpr UnityEngine__UIElements__DropdownMenuAction__Status(UnityEngine__UIElements__DropdownMenuAction__Status&&) = default;
+                    constexpr UnityEngine__UIElements__DropdownMenuAction__Status& operator=(UnityEngine__UIElements__DropdownMenuAction__Status const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__UIElements__DropdownMenuAction__Status& operator=(____UnityEngine__UIElements__DropdownMenuAction__Status&& o) noexcept {
+                    constexpr UnityEngine__UIElements__DropdownMenuAction__Status& operator=(UnityEngine__UIElements__DropdownMenuAction__Status&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -56,7 +55,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UIElements__DropdownMenuAction__Status(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__UIElements__DropdownMenuAction__Status(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -64,7 +63,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__UIElements__DropdownMenuAction__Status_Unwrapped : int32_t {
+enum class __UnityEngine__UIElements__DropdownMenuAction__Status_Unwrapped : int32_t {
 __None = 0,
 __Normal = 1,
 __Disabled = 2,
@@ -73,8 +72,8 @@ __Hidden = 8,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__UIElements__DropdownMenuAction__Status_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__UIElements__DropdownMenuAction__Status_Unwrapped>(__instance);
+constexpr operator __UnityEngine__UIElements__DropdownMenuAction__Status_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__UIElements__DropdownMenuAction__Status_Unwrapped>(__instance);
 }
 
 
@@ -87,19 +86,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::UIElements::____UnityEngine__UIElements__DropdownMenuAction__Status const None;
+static UnityEngine::UIElements::UnityEngine__UIElements__DropdownMenuAction__Status const None;
 
 /// @brief Field Normal offset 0
-static ::UnityEngine::UIElements::____UnityEngine__UIElements__DropdownMenuAction__Status const Normal;
+static UnityEngine::UIElements::UnityEngine__UIElements__DropdownMenuAction__Status const Normal;
 
 /// @brief Field Disabled offset 0
-static ::UnityEngine::UIElements::____UnityEngine__UIElements__DropdownMenuAction__Status const Disabled;
+static UnityEngine::UIElements::UnityEngine__UIElements__DropdownMenuAction__Status const Disabled;
 
 /// @brief Field Checked offset 0
-static ::UnityEngine::UIElements::____UnityEngine__UIElements__DropdownMenuAction__Status const Checked;
+static UnityEngine::UIElements::UnityEngine__UIElements__DropdownMenuAction__Status const Checked;
 
 /// @brief Field Hidden offset 0
-static ::UnityEngine::UIElements::____UnityEngine__UIElements__DropdownMenuAction__Status const Hidden;
+static UnityEngine::UIElements::UnityEngine__UIElements__DropdownMenuAction__Status const Hidden;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -111,10 +110,10 @@ namespace UnityEngine::UIElements {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7032))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7035))
 // CS Name: UnityEngine.UIElements.DropdownMenuAction
-class CORDL_TYPE DropdownMenuAction : public ::UnityEngine::UIElements::DropdownMenuItem {
+class CORDL_TYPE DropdownMenuAction : public UnityEngine::UIElements::DropdownMenuItem {
 public:
 // Declarations
-using Status = ::UnityEngine::UIElements::____UnityEngine__UIElements__DropdownMenuAction__Status;
+using Status = UnityEngine::UIElements::UnityEngine__UIElements__DropdownMenuAction__Status;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -128,7 +127,7 @@ constexpr DropdownMenuAction(DropdownMenuAction const& ) noexcept = default;
 constexpr DropdownMenuAction(DropdownMenuAction&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DropdownMenuAction(void* ptr) noexcept : ::UnityEngine::UIElements::DropdownMenuItem(ptr) {
+constexpr explicit DropdownMenuAction(void* ptr) noexcept : UnityEngine::UIElements::DropdownMenuItem(ptr) {
 }
 
 
@@ -155,17 +154,17 @@ constexpr void __set__name_k__BackingField(::StringW value) ;
 
 constexpr ::StringW __get__name_k__BackingField() const;
 
- ::UnityEngine::UIElements::____UnityEngine__UIElements__DropdownMenuAction__Status __declspec(property(get=__get__status_k__BackingField, put=__set__status_k__BackingField))  _status_k__BackingField;
+ UnityEngine::UIElements::UnityEngine__UIElements__DropdownMenuAction__Status __declspec(property(get=__get__status_k__BackingField, put=__set__status_k__BackingField))  _status_k__BackingField;
 
-constexpr void __set__status_k__BackingField(::UnityEngine::UIElements::____UnityEngine__UIElements__DropdownMenuAction__Status value) ;
+constexpr void __set__status_k__BackingField(UnityEngine::UIElements::UnityEngine__UIElements__DropdownMenuAction__Status value) ;
 
-constexpr ::UnityEngine::UIElements::____UnityEngine__UIElements__DropdownMenuAction__Status __get__status_k__BackingField() const;
+constexpr UnityEngine::UIElements::UnityEngine__UIElements__DropdownMenuAction__Status __get__status_k__BackingField() const;
 
- ::UnityEngine::UIElements::DropdownMenuEventInfo __declspec(property(get=__get__eventInfo_k__BackingField, put=__set__eventInfo_k__BackingField))  _eventInfo_k__BackingField;
+ UnityEngine::UIElements::DropdownMenuEventInfo __declspec(property(get=__get__eventInfo_k__BackingField, put=__set__eventInfo_k__BackingField))  _eventInfo_k__BackingField;
 
-constexpr void __set__eventInfo_k__BackingField(::UnityEngine::UIElements::DropdownMenuEventInfo value) ;
+constexpr void __set__eventInfo_k__BackingField(UnityEngine::UIElements::DropdownMenuEventInfo value) ;
 
-constexpr ::UnityEngine::UIElements::DropdownMenuEventInfo __get__eventInfo_k__BackingField() const;
+constexpr UnityEngine::UIElements::DropdownMenuEventInfo __get__eventInfo_k__BackingField() const;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=__get__userData_k__BackingField, put=__set__userData_k__BackingField))  _userData_k__BackingField;
 
@@ -173,24 +172,24 @@ constexpr void __set__userData_k__BackingField(::bs_hook::Il2CppWrapperType valu
 
 constexpr ::bs_hook::Il2CppWrapperType __get__userData_k__BackingField() const;
 
- ::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction> __declspec(property(get=__get_actionCallback, put=__set_actionCallback))  actionCallback;
+ System::Action_1<UnityEngine::UIElements::DropdownMenuAction> __declspec(property(get=__get_actionCallback, put=__set_actionCallback))  actionCallback;
 
-constexpr void __set_actionCallback(::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction> value) ;
+constexpr void __set_actionCallback(System::Action_1<UnityEngine::UIElements::DropdownMenuAction> value) ;
 
-constexpr ::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction> __get_actionCallback() const;
+constexpr System::Action_1<UnityEngine::UIElements::DropdownMenuAction> __get_actionCallback() const;
 
- ::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction,::UnityEngine::UIElements::____UnityEngine__UIElements__DropdownMenuAction__Status> __declspec(property(get=__get_actionStatusCallback, put=__set_actionStatusCallback))  actionStatusCallback;
+ System::Func_2<UnityEngine::UIElements::DropdownMenuAction,UnityEngine::UIElements::UnityEngine__UIElements__DropdownMenuAction__Status> __declspec(property(get=__get_actionStatusCallback, put=__set_actionStatusCallback))  actionStatusCallback;
 
-constexpr void __set_actionStatusCallback(::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction,::UnityEngine::UIElements::____UnityEngine__UIElements__DropdownMenuAction__Status> value) ;
+constexpr void __set_actionStatusCallback(System::Func_2<UnityEngine::UIElements::DropdownMenuAction,UnityEngine::UIElements::UnityEngine__UIElements__DropdownMenuAction__Status> value) ;
 
-constexpr ::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction,::UnityEngine::UIElements::____UnityEngine__UIElements__DropdownMenuAction__Status> __get_actionStatusCallback() const;
+constexpr System::Func_2<UnityEngine::UIElements::DropdownMenuAction,UnityEngine::UIElements::UnityEngine__UIElements__DropdownMenuAction__Status> __get_actionStatusCallback() const;
 
 
 // Properties
 
- ::UnityEngine::UIElements::____UnityEngine__UIElements__DropdownMenuAction__Status __declspec(property(put=set_status))  status;
+ UnityEngine::UIElements::UnityEngine__UIElements__DropdownMenuAction__Status __declspec(property(put=set_status))  status;
 
- ::UnityEngine::UIElements::DropdownMenuEventInfo __declspec(property(put=set_eventInfo))  eventInfo;
+ UnityEngine::UIElements::DropdownMenuEventInfo __declspec(property(put=set_eventInfo))  eventInfo;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(put=set_userData))  userData;
 
@@ -198,28 +197,27 @@ constexpr ::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction,::Unity
 // Methods
 
 /// @brief Method set_status addr 0x2c8fc88 size 0x8 virtual false final false
- void set_status(::UnityEngine::UIElements::____UnityEngine__UIElements__DropdownMenuAction__Status value) ;
+ void set_status(UnityEngine::UIElements::UnityEngine__UIElements__DropdownMenuAction__Status value) ;
 
 /// @brief Method set_eventInfo addr 0x2c8fc90 size 0x8 virtual false final false
- void set_eventInfo(::UnityEngine::UIElements::DropdownMenuEventInfo value) ;
+ void set_eventInfo(UnityEngine::UIElements::DropdownMenuEventInfo value) ;
 
 /// @brief Method set_userData addr 0x2c8fc98 size 0x8 virtual false final false
  void set_userData(::bs_hook::Il2CppWrapperType value) ;
 
-// Ctor Parameters [CppParam { name: "actionName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "actionCallback", ty: "::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction>", modifiers: "", def_value: None }, CppParam { name: "actionStatusCallback", ty: "::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction,::UnityEngine::UIElements::____UnityEngine__UIElements__DropdownMenuAction__Status>", modifiers: "", def_value: None }, CppParam { name: "userData", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit DropdownMenuAction(::StringW actionName, ::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction> actionCallback, ::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction,::UnityEngine::UIElements::____UnityEngine__UIElements__DropdownMenuAction__Status> actionStatusCallback, ::bs_hook::Il2CppWrapperType userData) ;
+// Ctor Parameters [CppParam { name: "actionName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "actionCallback", ty: "System::Action_1<UnityEngine::UIElements::DropdownMenuAction>", modifiers: "", def_value: None }, CppParam { name: "actionStatusCallback", ty: "System::Func_2<UnityEngine::UIElements::DropdownMenuAction,UnityEngine::UIElements::UnityEngine__UIElements__DropdownMenuAction__Status>", modifiers: "", def_value: None }, CppParam { name: "userData", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
+explicit DropdownMenuAction(::StringW actionName, System::Action_1<UnityEngine::UIElements::DropdownMenuAction> actionCallback, System::Func_2<UnityEngine::UIElements::DropdownMenuAction,UnityEngine::UIElements::UnityEngine__UIElements__DropdownMenuAction__Status> actionStatusCallback, ::bs_hook::Il2CppWrapperType userData) ;
 
 /// @brief Method .ctor addr 0x2c8fca0 size 0x44 virtual false final false
- void _ctor(::StringW actionName, ::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction> actionCallback, ::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction,::UnityEngine::UIElements::____UnityEngine__UIElements__DropdownMenuAction__Status> actionStatusCallback, ::bs_hook::Il2CppWrapperType userData) ;
+ void _ctor(::StringW actionName, System::Action_1<UnityEngine::UIElements::DropdownMenuAction> actionCallback, System::Func_2<UnityEngine::UIElements::DropdownMenuAction,UnityEngine::UIElements::UnityEngine__UIElements__DropdownMenuAction__Status> actionStatusCallback, ::bs_hook::Il2CppWrapperType userData) ;
 
 /// @brief Method UpdateActionStatus addr 0x2c8fce4 size 0x3c virtual false final false
- void UpdateActionStatus(::UnityEngine::UIElements::DropdownMenuEventInfo eventInfo) ;
+ void UpdateActionStatus(UnityEngine::UIElements::DropdownMenuEventInfo eventInfo) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::____UnityEngine__UIElements__DropdownMenuAction__Status, "UnityEngine.UIElements", "DropdownMenuAction/Status");
-NEED_NO_BOX(::UnityEngine::UIElements::DropdownMenuAction);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::DropdownMenuAction, "UnityEngine.UIElements", "DropdownMenuAction");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UnityEngine__UIElements__DropdownMenuAction__Status, "UnityEngine.UIElements", "DropdownMenuAction/Status");
+NEED_NO_BOX(UnityEngine::UIElements::DropdownMenuAction);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::DropdownMenuAction, "UnityEngine.UIElements", "DropdownMenuAction");

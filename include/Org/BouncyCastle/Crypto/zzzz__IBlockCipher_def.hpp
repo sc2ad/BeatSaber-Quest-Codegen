@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
@@ -40,7 +39,7 @@ constexpr explicit IBlockCipher(void* ptr) noexcept : ::cordl_internals::Interfa
  ::StringW get_AlgorithmName() ;
 
 /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
- void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method GetBlockSize addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t GetBlockSize() ;
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::IBlockCipher);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::IBlockCipher, "Org.BouncyCastle.Crypto", "IBlockCipher");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::IBlockCipher);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::IBlockCipher, "Org.BouncyCastle.Crypto", "IBlockCipher");

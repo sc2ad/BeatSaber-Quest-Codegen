@@ -2,7 +2,6 @@
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
 struct BinaryHeaderEnum;
@@ -88,77 +87,76 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field SerializedStreamHeader offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const SerializedStreamHeader;
+static System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const SerializedStreamHeader;
 
 /// @brief Field Object offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const Object;
+static System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const Object;
 
 /// @brief Field ObjectWithMap offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ObjectWithMap;
+static System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ObjectWithMap;
 
 /// @brief Field ObjectWithMapAssemId offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ObjectWithMapAssemId;
+static System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ObjectWithMapAssemId;
 
 /// @brief Field ObjectWithMapTyped offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ObjectWithMapTyped;
+static System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ObjectWithMapTyped;
 
 /// @brief Field ObjectWithMapTypedAssemId offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ObjectWithMapTypedAssemId;
+static System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ObjectWithMapTypedAssemId;
 
 /// @brief Field ObjectString offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ObjectString;
+static System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ObjectString;
 
 /// @brief Field Array offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const Array;
+static System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const Array;
 
 /// @brief Field MemberPrimitiveTyped offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const MemberPrimitiveTyped;
+static System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const MemberPrimitiveTyped;
 
 /// @brief Field MemberReference offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const MemberReference;
+static System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const MemberReference;
 
 /// @brief Field ObjectNull offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ObjectNull;
+static System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ObjectNull;
 
 /// @brief Field MessageEnd offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const MessageEnd;
+static System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const MessageEnd;
 
 /// @brief Field Assembly offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const Assembly;
+static System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const Assembly;
 
 /// @brief Field ObjectNullMultiple256 offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ObjectNullMultiple256;
+static System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ObjectNullMultiple256;
 
 /// @brief Field ObjectNullMultiple offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ObjectNullMultiple;
+static System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ObjectNullMultiple;
 
 /// @brief Field ArraySinglePrimitive offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ArraySinglePrimitive;
+static System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ArraySinglePrimitive;
 
 /// @brief Field ArraySingleObject offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ArraySingleObject;
+static System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ArraySingleObject;
 
 /// @brief Field ArraySingleString offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ArraySingleString;
+static System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ArraySingleString;
 
 /// @brief Field CrossAppDomainMap offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const CrossAppDomainMap;
+static System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const CrossAppDomainMap;
 
 /// @brief Field CrossAppDomainString offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const CrossAppDomainString;
+static System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const CrossAppDomainString;
 
 /// @brief Field CrossAppDomainAssembly offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const CrossAppDomainAssembly;
+static System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const CrossAppDomainAssembly;
 
 /// @brief Field MethodCall offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const MethodCall;
+static System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const MethodCall;
 
 /// @brief Field MethodReturn offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const MethodReturn;
+static System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const MethodReturn;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization::Formatters::Binary
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum, "System.Runtime.Serialization.Formatters.Binary", "BinaryHeaderEnum");
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum, "System.Runtime.Serialization.Formatters.Binary", "BinaryHeaderEnum");

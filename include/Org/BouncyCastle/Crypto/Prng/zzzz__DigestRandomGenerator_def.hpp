@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
-}
 namespace Org::BouncyCastle::Crypto::Prng {
 class IRandomGenerator;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Prng {
@@ -23,8 +22,8 @@ namespace Org::BouncyCastle::Crypto::Prng {
 class CORDL_TYPE DigestRandomGenerator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator
-constexpr operator  ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Prng::IRandomGenerator
+constexpr operator  Org::BouncyCastle::Crypto::Prng::IRandomGenerator() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -74,11 +73,11 @@ constexpr void __set_seedCounter(int64_t value) ;
 
 constexpr int64_t __get_seedCounter() const;
 
- ::Org::BouncyCastle::Crypto::IDigest __declspec(property(get=__get_digest, put=__set_digest))  digest;
+ Org::BouncyCastle::Crypto::IDigest __declspec(property(get=__get_digest, put=__set_digest))  digest;
 
-constexpr void __set_digest(::Org::BouncyCastle::Crypto::IDigest value) ;
+constexpr void __set_digest(Org::BouncyCastle::Crypto::IDigest value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IDigest __get_digest() const;
+constexpr Org::BouncyCastle::Crypto::IDigest __get_digest() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get_state, put=__set_state))  state;
 
@@ -95,11 +94,11 @@ constexpr ::ArrayW<uint8_t> __get_seed() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "digest", ty: "::Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
-explicit DigestRandomGenerator(::Org::BouncyCastle::Crypto::IDigest digest) ;
+// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
+explicit DigestRandomGenerator(Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method .ctor addr 0xeb3ef0 size 0x168 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IDigest digest) ;
+ void _ctor(Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method AddSeedMaterial addr 0xeb4058 size 0xc8 virtual true final true
  void AddSeedMaterial(::ArrayW<uint8_t> inSeed) ;
@@ -132,6 +131,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Prng
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator, "Org.BouncyCastle.Crypto.Prng", "DigestRandomGenerator");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator, "Org.BouncyCastle.Crypto.Prng", "DigestRandomGenerator");

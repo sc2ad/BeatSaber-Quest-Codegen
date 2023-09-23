@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Utilities::Zlib {
-class Deflate;
-}
 namespace Org::BouncyCastle::Utilities::Zlib {
 class StaticTree;
+}
+namespace Org::BouncyCastle::Utilities::Zlib {
+class Deflate;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Zlib {
@@ -158,11 +157,11 @@ constexpr void __set_max_code(int32_t value) ;
 
 constexpr int32_t __get_max_code() const;
 
- ::Org::BouncyCastle::Utilities::Zlib::StaticTree __declspec(property(get=__get_stat_desc, put=__set_stat_desc))  stat_desc;
+ Org::BouncyCastle::Utilities::Zlib::StaticTree __declspec(property(get=__get_stat_desc, put=__set_stat_desc))  stat_desc;
 
-constexpr void __set_stat_desc(::Org::BouncyCastle::Utilities::Zlib::StaticTree value) ;
+constexpr void __set_stat_desc(Org::BouncyCastle::Utilities::Zlib::StaticTree value) ;
 
-constexpr ::Org::BouncyCastle::Utilities::Zlib::StaticTree __get_stat_desc() const;
+constexpr Org::BouncyCastle::Utilities::Zlib::StaticTree __get_stat_desc() const;
 
 
 // Methods
@@ -171,10 +170,10 @@ constexpr ::Org::BouncyCastle::Utilities::Zlib::StaticTree __get_stat_desc() con
 static int32_t d_code(int32_t dist) ;
 
 /// @brief Method gen_bitlen addr 0x10dd9cc size 0x2cc virtual false final false
- void gen_bitlen(::Org::BouncyCastle::Utilities::Zlib::Deflate s) ;
+ void gen_bitlen(Org::BouncyCastle::Utilities::Zlib::Deflate s) ;
 
 /// @brief Method build_tree addr 0x10ddc98 size 0x474 virtual false final false
- void build_tree(::Org::BouncyCastle::Utilities::Zlib::Deflate s) ;
+ void build_tree(Org::BouncyCastle::Utilities::Zlib::Deflate s) ;
 
 /// @brief Method gen_codes addr 0x10de10c size 0x17c virtual false final false
 static void gen_codes(::ArrayW<int16_t> tree, int32_t max_code, ::ArrayW<int16_t> bl_count) ;
@@ -192,6 +191,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities::Zlib
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::Zlib::Tree);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Zlib::Tree, "Org.BouncyCastle.Utilities.Zlib", "Tree");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Zlib::Tree);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Zlib::Tree, "Org.BouncyCastle.Utilities.Zlib", "Tree");

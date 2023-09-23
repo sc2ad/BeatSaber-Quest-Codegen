@@ -1,15 +1,14 @@
 #pragma once
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class ECMultiplier;
-}
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class ECMultiplier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Multiplier {
@@ -24,8 +23,8 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
 class CORDL_TYPE AbstractECMultiplier : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier
-constexpr operator  ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier
+constexpr operator  Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -61,13 +60,13 @@ constexpr explicit AbstractECMultiplier(void* ptr) noexcept : ::bs_hook::Il2CppW
 // Methods
 
 /// @brief Method Multiply addr 0xfa8a04 size 0xdc virtual true final false
- ::Org::BouncyCastle::Math::EC::ECPoint Multiply(::Org::BouncyCastle::Math::EC::ECPoint p, ::Org::BouncyCastle::Math::BigInteger k) ;
+ Org::BouncyCastle::Math::EC::ECPoint Multiply(Org::BouncyCastle::Math::EC::ECPoint p, Org::BouncyCastle::Math::BigInteger k) ;
 
 /// @brief Method MultiplyPositive addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Math::EC::ECPoint MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint p, ::Org::BouncyCastle::Math::BigInteger k) ;
+ Org::BouncyCastle::Math::EC::ECPoint MultiplyPositive(Org::BouncyCastle::Math::EC::ECPoint p, Org::BouncyCastle::Math::BigInteger k) ;
 
 /// @brief Method CheckResult addr 0xfa8ae0 size 0xc virtual true final false
- ::Org::BouncyCastle::Math::EC::ECPoint CheckResult(::Org::BouncyCastle::Math::EC::ECPoint p) ;
+ Org::BouncyCastle::Math::EC::ECPoint CheckResult(Org::BouncyCastle::Math::EC::ECPoint p) ;
 
 // Ctor Parameters []
 explicit AbstractECMultiplier() ;
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Math::EC::Multiplier
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier, "Org.BouncyCastle.Math.EC.Multiplier", "AbstractECMultiplier");
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier, "Org.BouncyCastle.Math.EC.Multiplier", "AbstractECMultiplier");

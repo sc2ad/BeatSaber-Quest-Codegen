@@ -3,7 +3,6 @@
 #include "UnityEngine/AddressableAssets/zzzz__AssetReferenceT_1_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace UnityEngine {
 class Object;
 }
@@ -14,10 +13,10 @@ class AssetReferenceAtlasedSprite;
 // Type: UnityEngine.AddressableAssets::AssetReferenceAtlasedSprite
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14363)), TypeDefinitionIndex(TypeDefinitionIndex(10227)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14363), inst: 752 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10227)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14363), inst: 752 }), TypeDefinitionIndex(TypeDefinitionIndex(14363))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14369))
 // CS Name: UnityEngine.AddressableAssets.AssetReferenceAtlasedSprite
-class CORDL_TYPE AssetReferenceAtlasedSprite : public ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityEngine::Sprite> {
+class CORDL_TYPE AssetReferenceAtlasedSprite : public UnityEngine::AddressableAssets::AssetReferenceT_1<UnityEngine::Sprite> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr AssetReferenceAtlasedSprite(AssetReferenceAtlasedSprite const& ) noexc
 constexpr AssetReferenceAtlasedSprite(AssetReferenceAtlasedSprite&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AssetReferenceAtlasedSprite(void* ptr) noexcept : ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityEngine::Sprite>(ptr) {
+constexpr explicit AssetReferenceAtlasedSprite(void* ptr) noexcept : UnityEngine::AddressableAssets::AssetReferenceT_1<UnityEngine::Sprite>(ptr) {
 }
 
 
@@ -60,7 +59,7 @@ explicit AssetReferenceAtlasedSprite(::StringW guid) ;
  void _ctor(::StringW guid) ;
 
 /// @brief Method ValidateAsset addr 0x289236c size 0x78 virtual true final false
- bool ValidateAsset(::UnityEngine::Object obj) ;
+ bool ValidateAsset(UnityEngine::Object obj) ;
 
 /// @brief Method ValidateAsset addr 0x28923e4 size 0x8 virtual true final false
  bool ValidateAsset(::StringW path) ;
@@ -69,6 +68,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::AddressableAssets
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite, "UnityEngine.AddressableAssets", "AssetReferenceAtlasedSprite");
+NEED_NO_BOX(UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite, "UnityEngine.AddressableAssets", "AssetReferenceAtlasedSprite");

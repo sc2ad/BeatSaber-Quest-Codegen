@@ -6,53 +6,52 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine::UIElements {
-class MeshWriteData;
-}
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__MeshGenerationContextUtils__RectangleParams;
 }
 namespace UnityEngine {
-struct Color;
+struct Vector4;
 }
 namespace Unity::Collections {
 template<typename T>
 struct NativeSlice_1;
 }
-namespace UnityEngine {
-struct Rect;
+namespace UnityEngine::UIElements {
+class MeshWriteData;
 }
 namespace UnityEngine::UIElements {
 struct ColorPage;
 }
 namespace UnityEngine {
-struct Vector4;
+struct Color32;
 }
-namespace UnityEngine::UIElements {
-struct ____UnityEngine__UIElements__MeshGenerationContextUtils__BorderParams;
+namespace UnityEngine::UIElements::UIR {
+struct UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData;
 }
 namespace UnityEngine::UIElements {
 struct Vertex;
+}
+namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__MeshGenerationContextUtils__BorderParams;
 }
 namespace Unity::Profiling {
 struct ProfilerMarker;
 }
 namespace UnityEngine {
-struct Color32;
-}
-namespace UnityEngine::UIElements {
-struct ____UnityEngine__UIElements__MeshGenerationContextUtils__RectangleParams;
-}
-namespace UnityEngine::UIElements::UIR {
-struct ____UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData;
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
-struct ____UnityEngine__UIElements__UIR__Tessellation__Edges;
+struct UnityEngine__UIElements__UIR__Tessellation__Edges;
 }
 namespace UnityEngine::UIElements::UIR {
 class Tessellation;
@@ -63,20 +62,20 @@ namespace UnityEngine::UIElements::UIR {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7509))
 // CS Name: UnityEngine.UIElements.UIR.Tessellation::Edges
-struct CORDL_TYPE ____UnityEngine__UIElements__UIR__Tessellation__Edges : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__UIElements__UIR__Tessellation__Edges : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__UIElements__UIR__Tessellation__Edges(int32_t value__) noexcept;
+constexpr UnityEngine__UIElements__UIR__Tessellation__Edges(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__UIElements__UIR__Tessellation__Edges(____UnityEngine__UIElements__UIR__Tessellation__Edges const&) = default;
-                    constexpr ____UnityEngine__UIElements__UIR__Tessellation__Edges(____UnityEngine__UIElements__UIR__Tessellation__Edges&&) = default;
-                    constexpr ____UnityEngine__UIElements__UIR__Tessellation__Edges& operator=(____UnityEngine__UIElements__UIR__Tessellation__Edges const& o) {
+                    constexpr UnityEngine__UIElements__UIR__Tessellation__Edges(UnityEngine__UIElements__UIR__Tessellation__Edges const&) = default;
+                    constexpr UnityEngine__UIElements__UIR__Tessellation__Edges(UnityEngine__UIElements__UIR__Tessellation__Edges&&) = default;
+                    constexpr UnityEngine__UIElements__UIR__Tessellation__Edges& operator=(UnityEngine__UIElements__UIR__Tessellation__Edges const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__UIElements__UIR__Tessellation__Edges& operator=(____UnityEngine__UIElements__UIR__Tessellation__Edges&& o) noexcept {
+                    constexpr UnityEngine__UIElements__UIR__Tessellation__Edges& operator=(UnityEngine__UIElements__UIR__Tessellation__Edges&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -89,7 +88,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UIElements__UIR__Tessellation__Edges(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__UIElements__UIR__Tessellation__Edges(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -97,7 +96,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__UIElements__UIR__Tessellation__Edges_Unwrapped : int32_t {
+enum class __UnityEngine__UIElements__UIR__Tessellation__Edges_Unwrapped : int32_t {
 __None = 0,
 __Left = 1,
 __Top = 2,
@@ -107,8 +106,8 @@ __All = 15,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__UIElements__UIR__Tessellation__Edges_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__UIElements__UIR__Tessellation__Edges_Unwrapped>(__instance);
+constexpr operator __UnityEngine__UIElements__UIR__Tessellation__Edges_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__UIElements__UIR__Tessellation__Edges_Unwrapped>(__instance);
 }
 
 
@@ -121,22 +120,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Tessellation__Edges const None;
+static UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Tessellation__Edges const None;
 
 /// @brief Field Left offset 0
-static ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Tessellation__Edges const Left;
+static UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Tessellation__Edges const Left;
 
 /// @brief Field Top offset 0
-static ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Tessellation__Edges const Top;
+static UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Tessellation__Edges const Top;
 
 /// @brief Field Right offset 0
-static ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Tessellation__Edges const Right;
+static UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Tessellation__Edges const Right;
 
 /// @brief Field Bottom offset 0
-static ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Tessellation__Edges const Bottom;
+static UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Tessellation__Edges const Bottom;
 
 /// @brief Field All offset 0
-static ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Tessellation__Edges const All;
+static UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Tessellation__Edges const All;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -151,7 +150,7 @@ namespace UnityEngine::UIElements::UIR {
 class CORDL_TYPE Tessellation : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using Edges = ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Tessellation__Edges;
+using Edges = UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Tessellation__Edges;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -204,107 +203,106 @@ static void __set_kSubdivisions(uint16_t value) ;
 
 static uint16_t __get_kSubdivisions() ;
 
-static ::Unity::Profiling::ProfilerMarker __declspec(property(get=__get_s_MarkerTessellateRect, put=__set_s_MarkerTessellateRect))  s_MarkerTessellateRect;
+static Unity::Profiling::ProfilerMarker __declspec(property(get=__get_s_MarkerTessellateRect, put=__set_s_MarkerTessellateRect))  s_MarkerTessellateRect;
 
-static void __set_s_MarkerTessellateRect(::Unity::Profiling::ProfilerMarker value) ;
+static void __set_s_MarkerTessellateRect(Unity::Profiling::ProfilerMarker value) ;
 
-static ::Unity::Profiling::ProfilerMarker __get_s_MarkerTessellateRect() ;
+static Unity::Profiling::ProfilerMarker __get_s_MarkerTessellateRect() ;
 
-static ::Unity::Profiling::ProfilerMarker __declspec(property(get=__get_s_MarkerTessellateBorder, put=__set_s_MarkerTessellateBorder))  s_MarkerTessellateBorder;
+static Unity::Profiling::ProfilerMarker __declspec(property(get=__get_s_MarkerTessellateBorder, put=__set_s_MarkerTessellateBorder))  s_MarkerTessellateBorder;
 
-static void __set_s_MarkerTessellateBorder(::Unity::Profiling::ProfilerMarker value) ;
+static void __set_s_MarkerTessellateBorder(Unity::Profiling::ProfilerMarker value) ;
 
-static ::Unity::Profiling::ProfilerMarker __get_s_MarkerTessellateBorder() ;
+static Unity::Profiling::ProfilerMarker __get_s_MarkerTessellateBorder() ;
 
-static ::ArrayW<::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Tessellation__Edges> __declspec(property(get=__get_s_AllEdges, put=__set_s_AllEdges))  s_AllEdges;
+static ::ArrayW<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Tessellation__Edges> __declspec(property(get=__get_s_AllEdges, put=__set_s_AllEdges))  s_AllEdges;
 
-static void __set_s_AllEdges(::ArrayW<::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Tessellation__Edges> value) ;
+static void __set_s_AllEdges(::ArrayW<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Tessellation__Edges> value) ;
 
-static ::ArrayW<::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Tessellation__Edges> __get_s_AllEdges() ;
+static ::ArrayW<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Tessellation__Edges> __get_s_AllEdges() ;
 
 
 // Methods
 
 /// @brief Method TessellateRect addr 0x2d1b8b0 size 0x308 virtual false final false
-static void TessellateRect(::UnityEngine::UIElements::____UnityEngine__UIElements__MeshGenerationContextUtils__RectangleParams rectParams, float_t posZ, ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData meshAlloc, bool computeUVs) ;
+static void TessellateRect(UnityEngine::UIElements::UnityEngine__UIElements__MeshGenerationContextUtils__RectangleParams rectParams, float_t posZ, UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData meshAlloc, bool computeUVs) ;
 
 /// @brief Method TessellateQuad addr 0x2d1b124 size 0x78c virtual false final false
-static void TessellateQuad(::UnityEngine::UIElements::____UnityEngine__UIElements__MeshGenerationContextUtils__RectangleParams rectParams, float_t posZ, ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData meshAlloc) ;
+static void TessellateQuad(UnityEngine::UIElements::UnityEngine__UIElements__MeshGenerationContextUtils__RectangleParams rectParams, float_t posZ, UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData meshAlloc) ;
 
 /// @brief Method TessellateBorder addr 0x2d1ad54 size 0x27c virtual false final false
-static void TessellateBorder(::UnityEngine::UIElements::____UnityEngine__UIElements__MeshGenerationContextUtils__BorderParams borderParams, float_t posZ, ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData meshAlloc) ;
+static void TessellateBorder(UnityEngine::UIElements::UnityEngine__UIElements__MeshGenerationContextUtils__BorderParams borderParams, float_t posZ, UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData meshAlloc) ;
 
 /// @brief Method TessellateRoundedCorners addr 0x2d23564 size 0xe64 virtual false final false
-static void TessellateRoundedCorners(ByRef<::UnityEngine::UIElements::____UnityEngine__UIElements__MeshGenerationContextUtils__RectangleParams> rectParams, float_t posZ, ::UnityEngine::UIElements::MeshWriteData mesh, ::UnityEngine::UIElements::ColorPage colorPage, ByRef<uint16_t> vertexCount, ByRef<uint16_t> indexCount, bool countOnly) ;
+static void TessellateRoundedCorners(ByRef<UnityEngine::UIElements::UnityEngine__UIElements__MeshGenerationContextUtils__RectangleParams> rectParams, float_t posZ, UnityEngine::UIElements::MeshWriteData mesh, UnityEngine::UIElements::ColorPage colorPage, ByRef<uint16_t> vertexCount, ByRef<uint16_t> indexCount, bool countOnly) ;
 
 /// @brief Method TessellateRoundedBorders addr 0x2d24710 size 0xec8 virtual false final false
-static void TessellateRoundedBorders(ByRef<::UnityEngine::UIElements::____UnityEngine__UIElements__MeshGenerationContextUtils__BorderParams> border, float_t posZ, ::UnityEngine::UIElements::MeshWriteData mesh, ByRef<uint16_t> vertexCount, ByRef<uint16_t> indexCount, bool countOnly) ;
+static void TessellateRoundedBorders(ByRef<UnityEngine::UIElements::UnityEngine__UIElements__MeshGenerationContextUtils__BorderParams> border, float_t posZ, UnityEngine::UIElements::MeshWriteData mesh, ByRef<uint16_t> vertexCount, ByRef<uint16_t> indexCount, bool countOnly) ;
 
 /// @brief Method TessellateRoundedCorner addr 0x2d255d8 size 0x344 virtual false final false
-static void TessellateRoundedCorner(::UnityEngine::Rect rect, ::UnityEngine::Color32 color, float_t posZ, ::UnityEngine::Vector2 radius, ::UnityEngine::UIElements::MeshWriteData mesh, ::UnityEngine::UIElements::ColorPage colorPage, ByRef<uint16_t> vertexCount, ByRef<uint16_t> indexCount, bool countOnly) ;
+static void TessellateRoundedCorner(UnityEngine::Rect rect, UnityEngine::Color32 color, float_t posZ, UnityEngine::Vector2 radius, UnityEngine::UIElements::MeshWriteData mesh, UnityEngine::UIElements::ColorPage colorPage, ByRef<uint16_t> vertexCount, ByRef<uint16_t> indexCount, bool countOnly) ;
 
 /// @brief Method TessellateRoundedBorder addr 0x2d25c28 size 0x784 virtual false final false
-static void TessellateRoundedBorder(::UnityEngine::Rect rect, ::UnityEngine::Color32 leftColor, ::UnityEngine::Color32 topColor, float_t posZ, ::UnityEngine::Vector2 radius, float_t leftWidth, float_t topWidth, ::UnityEngine::UIElements::MeshWriteData mesh, ::UnityEngine::UIElements::ColorPage leftColorPage, ::UnityEngine::UIElements::ColorPage topColorPage, ByRef<uint16_t> vertexCount, ByRef<uint16_t> indexCount, bool countOnly) ;
+static void TessellateRoundedBorder(UnityEngine::Rect rect, UnityEngine::Color32 leftColor, UnityEngine::Color32 topColor, float_t posZ, UnityEngine::Vector2 radius, float_t leftWidth, float_t topWidth, UnityEngine::UIElements::MeshWriteData mesh, UnityEngine::UIElements::ColorPage leftColorPage, UnityEngine::UIElements::ColorPage topColorPage, ByRef<uint16_t> vertexCount, ByRef<uint16_t> indexCount, bool countOnly) ;
 
 /// @brief Method IntersectLines addr 0x2d29534 size 0x104 virtual false final false
-static ::UnityEngine::Vector2 IntersectLines(::UnityEngine::Vector2 p0, ::UnityEngine::Vector2 p1, ::UnityEngine::Vector2 p2, ::UnityEngine::Vector2 p3) ;
+static UnityEngine::Vector2 IntersectLines(UnityEngine::Vector2 p0, UnityEngine::Vector2 p1, UnityEngine::Vector2 p2, UnityEngine::Vector2 p3) ;
 
 /// @brief Method LooseCompare addr 0x2d28a28 size 0xa0 virtual false final false
 static int32_t LooseCompare(float_t a, float_t b) ;
 
 /// @brief Method TessellateComplexBorderCorner addr 0x2d28e48 size 0x6ec virtual false final false
-static void TessellateComplexBorderCorner(::UnityEngine::Rect rect, ::UnityEngine::Vector2 radius, float_t leftWidth, float_t topWidth, ::UnityEngine::Color32 leftColor, ::UnityEngine::Color32 topColor, float_t posZ, ::UnityEngine::UIElements::MeshWriteData mesh, ::UnityEngine::UIElements::ColorPage leftColorPage, ::UnityEngine::UIElements::ColorPage topColorPage, ByRef<uint16_t> vertexCount, ByRef<uint16_t> indexCount, bool countOnly) ;
+static void TessellateComplexBorderCorner(UnityEngine::Rect rect, UnityEngine::Vector2 radius, float_t leftWidth, float_t topWidth, UnityEngine::Color32 leftColor, UnityEngine::Color32 topColor, float_t posZ, UnityEngine::UIElements::MeshWriteData mesh, UnityEngine::UIElements::ColorPage leftColorPage, UnityEngine::UIElements::ColorPage topColorPage, ByRef<uint16_t> vertexCount, ByRef<uint16_t> indexCount, bool countOnly) ;
 
 /// @brief Method TessellateQuad addr 0x2d29e28 size 0x33c virtual false final false
-static void TessellateQuad(::UnityEngine::Rect rect, ::UnityEngine::Color32 color, float_t posZ, ::UnityEngine::UIElements::MeshWriteData mesh, ::UnityEngine::UIElements::ColorPage colorPage, ByRef<uint16_t> vertexCount, ByRef<uint16_t> indexCount, bool countOnly) ;
+static void TessellateQuad(UnityEngine::Rect rect, UnityEngine::Color32 color, float_t posZ, UnityEngine::UIElements::MeshWriteData mesh, UnityEngine::UIElements::ColorPage colorPage, ByRef<uint16_t> vertexCount, ByRef<uint16_t> indexCount, bool countOnly) ;
 
 /// @brief Method TessellateQuad addr 0x2d24624 size 0xec virtual false final false
-static void TessellateQuad(::UnityEngine::Rect rect, ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Tessellation__Edges smoothedEdges, ::UnityEngine::Color32 color, float_t posZ, ::UnityEngine::UIElements::MeshWriteData mesh, ::UnityEngine::UIElements::ColorPage colorPage, ByRef<uint16_t> vertexCount, ByRef<uint16_t> indexCount, bool countOnly) ;
+static void TessellateQuad(UnityEngine::Rect rect, UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Tessellation__Edges smoothedEdges, UnityEngine::Color32 color, float_t posZ, UnityEngine::UIElements::MeshWriteData mesh, UnityEngine::UIElements::ColorPage colorPage, ByRef<uint16_t> vertexCount, ByRef<uint16_t> indexCount, bool countOnly) ;
 
 /// @brief Method EdgesCount addr 0x2d2a164 size 0x24 virtual false final false
-static int32_t EdgesCount(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Tessellation__Edges edges) ;
+static int32_t EdgesCount(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Tessellation__Edges edges) ;
 
 /// @brief Method TessellateQuad addr 0x2d29638 size 0x7f0 virtual false final false
-static void TessellateQuad(::UnityEngine::Rect rect, ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Tessellation__Edges smoothedEdges, void* offsets, ::UnityEngine::Color32 color, float_t posZ, ::UnityEngine::UIElements::MeshWriteData mesh, ::UnityEngine::UIElements::ColorPage colorPage, ByRef<uint16_t> vertexCount, ByRef<uint16_t> indexCount, bool countOnly) ;
+static void TessellateQuad(UnityEngine::Rect rect, UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Tessellation__Edges smoothedEdges, void* offsets, UnityEngine::Color32 color, float_t posZ, UnityEngine::UIElements::MeshWriteData mesh, UnityEngine::UIElements::ColorPage colorPage, ByRef<uint16_t> vertexCount, ByRef<uint16_t> indexCount, bool countOnly) ;
 
 /// @brief Method EncodeStraightArc addr 0x2d2a6ac size 0x188 virtual false final false
-static void EncodeStraightArc(ByRef<::UnityEngine::UIElements::Vertex> v0, ByRef<::UnityEngine::UIElements::Vertex> v1, ByRef<::UnityEngine::UIElements::Vertex> center, float_t radius) ;
+static void EncodeStraightArc(ByRef<UnityEngine::UIElements::Vertex> v0, ByRef<UnityEngine::UIElements::Vertex> v1, ByRef<UnityEngine::UIElements::Vertex> center, float_t radius) ;
 
 /// @brief Method ExpandTriangle addr 0x2d2a834 size 0x1ec virtual false final false
-static void ExpandTriangle(ByRef<::UnityEngine::Vector3> v0, ByRef<::UnityEngine::Vector3> v1, ::UnityEngine::Vector3 center, float_t factor) ;
+static void ExpandTriangle(ByRef<UnityEngine::Vector3> v0, ByRef<UnityEngine::Vector3> v1, UnityEngine::Vector3 center, float_t factor) ;
 
 /// @brief Method TessellateQuadSingleEdge addr 0x2d2a188 size 0x524 virtual false final false
-static void TessellateQuadSingleEdge(::UnityEngine::Rect rect, ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Tessellation__Edges smoothedEdge, ::UnityEngine::Color32 color, float_t posZ, ::UnityEngine::UIElements::MeshWriteData mesh, ::UnityEngine::UIElements::ColorPage colorPage, ByRef<uint16_t> vertexCount, ByRef<uint16_t> indexCount, bool countOnly) ;
+static void TessellateQuadSingleEdge(UnityEngine::Rect rect, UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Tessellation__Edges smoothedEdge, UnityEngine::Color32 color, float_t posZ, UnityEngine::UIElements::MeshWriteData mesh, UnityEngine::UIElements::ColorPage colorPage, ByRef<uint16_t> vertexCount, ByRef<uint16_t> indexCount, bool countOnly) ;
 
 /// @brief Method TessellateStraightBorder addr 0x2d26b34 size 0x1ef4 virtual false final false
-static void TessellateStraightBorder(::UnityEngine::Rect rect, ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Tessellation__Edges smoothedEdge, float_t miterOffset, ::UnityEngine::Color color, float_t posZ, ::UnityEngine::UIElements::MeshWriteData mesh, ::UnityEngine::UIElements::ColorPage colorPage, ByRef<uint16_t> vertexCount, ByRef<uint16_t> indexCount, bool countOnly) ;
+static void TessellateStraightBorder(UnityEngine::Rect rect, UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Tessellation__Edges smoothedEdge, float_t miterOffset, UnityEngine::Color color, float_t posZ, UnityEngine::UIElements::MeshWriteData mesh, UnityEngine::UIElements::ColorPage colorPage, ByRef<uint16_t> vertexCount, ByRef<uint16_t> indexCount, bool countOnly) ;
 
 /// @brief Method GetInterpolatedCircle addr 0x2d2aa20 size 0x118 virtual false final false
-static ::UnityEngine::Vector4 GetInterpolatedCircle(::UnityEngine::Vector2 p, ByRef<::UnityEngine::UIElements::Vertex> v0, ByRef<::UnityEngine::UIElements::Vertex> v1, ByRef<::UnityEngine::UIElements::Vertex> v2) ;
+static UnityEngine::Vector4 GetInterpolatedCircle(UnityEngine::Vector2 p, ByRef<UnityEngine::UIElements::Vertex> v0, ByRef<UnityEngine::UIElements::Vertex> v1, ByRef<UnityEngine::UIElements::Vertex> v2) ;
 
 /// @brief Method ComputeBarycentricCoordinates addr 0x2d2ab38 size 0xa0 virtual false final false
-static void ComputeBarycentricCoordinates(::UnityEngine::Vector2 p, ::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b, ::UnityEngine::Vector2 c, ByRef<float_t> u, ByRef<float_t> v, ByRef<float_t> w) ;
+static void ComputeBarycentricCoordinates(UnityEngine::Vector2 p, UnityEngine::Vector2 a, UnityEngine::Vector2 b, UnityEngine::Vector2 c, ByRef<float_t> u, ByRef<float_t> v, ByRef<float_t> w) ;
 
 /// @brief Method TessellateFilledFan addr 0x2d263ac size 0x788 virtual false final false
-static void TessellateFilledFan(::UnityEngine::Vector2 center, ::UnityEngine::Vector2 radius, ::UnityEngine::Vector2 miterOffset, float_t leftWidth, float_t topWidth, ::UnityEngine::Color32 leftColor, ::UnityEngine::Color32 topColor, float_t posZ, ::UnityEngine::UIElements::MeshWriteData mesh, ::UnityEngine::UIElements::ColorPage leftColorPage, ::UnityEngine::UIElements::ColorPage topColorPage, ByRef<uint16_t> vertexCount, ByRef<uint16_t> indexCount, bool countOnly) ;
+static void TessellateFilledFan(UnityEngine::Vector2 center, UnityEngine::Vector2 radius, UnityEngine::Vector2 miterOffset, float_t leftWidth, float_t topWidth, UnityEngine::Color32 leftColor, UnityEngine::Color32 topColor, float_t posZ, UnityEngine::UIElements::MeshWriteData mesh, UnityEngine::UIElements::ColorPage leftColorPage, UnityEngine::UIElements::ColorPage topColorPage, ByRef<uint16_t> vertexCount, ByRef<uint16_t> indexCount, bool countOnly) ;
 
 /// @brief Method TessellateBorderedFan addr 0x2d28ac8 size 0x380 virtual false final false
-static void TessellateBorderedFan(::UnityEngine::Vector2 center, ::UnityEngine::Vector2 outerRadius, float_t leftWidth, float_t topWidth, ::UnityEngine::Color32 leftColor, ::UnityEngine::Color32 topColor, float_t posZ, ::UnityEngine::UIElements::MeshWriteData mesh, ::UnityEngine::UIElements::ColorPage leftColorPage, ::UnityEngine::UIElements::ColorPage topColorPage, ByRef<uint16_t> vertexCount, ByRef<uint16_t> indexCount, bool countOnly) ;
+static void TessellateBorderedFan(UnityEngine::Vector2 center, UnityEngine::Vector2 outerRadius, float_t leftWidth, float_t topWidth, UnityEngine::Color32 leftColor, UnityEngine::Color32 topColor, float_t posZ, UnityEngine::UIElements::MeshWriteData mesh, UnityEngine::UIElements::ColorPage leftColorPage, UnityEngine::UIElements::ColorPage topColorPage, ByRef<uint16_t> vertexCount, ByRef<uint16_t> indexCount, bool countOnly) ;
 
 /// @brief Method MirrorVertices addr 0x2d2591c size 0x224 virtual false final false
-static void MirrorVertices(::UnityEngine::Rect rect, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices, int32_t vertexStart, int32_t vertexCount, bool flipHorizontal) ;
+static void MirrorVertices(UnityEngine::Rect rect, Unity::Collections::NativeSlice_1<UnityEngine::UIElements::Vertex> vertices, int32_t vertexStart, int32_t vertexCount, bool flipHorizontal) ;
 
 /// @brief Method FlipWinding addr 0x2d25b40 size 0xe8 virtual false final false
-static void FlipWinding(::Unity::Collections::NativeSlice_1<uint16_t> indices, int32_t indexStart, int32_t indexCount) ;
+static void FlipWinding(Unity::Collections::NativeSlice_1<uint16_t> indices, int32_t indexStart, int32_t indexCount) ;
 
 /// @brief Method ComputeUVs addr 0x2d243c8 size 0x25c virtual false final false
-static void ComputeUVs(::UnityEngine::Rect tessellatedRect, ::UnityEngine::Rect textureRect, ::UnityEngine::Rect uvRegion, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices) ;
+static void ComputeUVs(UnityEngine::Rect tessellatedRect, UnityEngine::Rect textureRect, UnityEngine::Rect uvRegion, Unity::Collections::NativeSlice_1<UnityEngine::UIElements::Vertex> vertices) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::UIR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Tessellation__Edges, "UnityEngine.UIElements.UIR", "Tessellation/Edges");
-NEED_NO_BOX(::UnityEngine::UIElements::UIR::Tessellation);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::Tessellation, "UnityEngine.UIElements.UIR", "Tessellation");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Tessellation__Edges, "UnityEngine.UIElements.UIR", "Tessellation/Edges");
+NEED_NO_BOX(UnityEngine::UIElements::UIR::Tessellation);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::Tessellation, "UnityEngine.UIElements.UIR", "Tessellation");

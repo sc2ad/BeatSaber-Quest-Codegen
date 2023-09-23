@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Collections::Generic {
 struct TreeRotation;
@@ -69,20 +68,19 @@ constexpr void __set_value__(uint8_t value) ;
 constexpr uint8_t __get_value__() const;
 
 /// @brief Field Left offset 0
-static ::System::Collections::Generic::TreeRotation const Left;
+static System::Collections::Generic::TreeRotation const Left;
 
 /// @brief Field LeftRight offset 0
-static ::System::Collections::Generic::TreeRotation const LeftRight;
+static System::Collections::Generic::TreeRotation const LeftRight;
 
 /// @brief Field Right offset 0
-static ::System::Collections::Generic::TreeRotation const Right;
+static System::Collections::Generic::TreeRotation const Right;
 
 /// @brief Field RightLeft offset 0
-static ::System::Collections::Generic::TreeRotation const RightLeft;
+static System::Collections::Generic::TreeRotation const RightLeft;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Collections::Generic
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Generic::TreeRotation, "System.Collections.Generic", "TreeRotation");
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::TreeRotation, "System.Collections.Generic", "TreeRotation");

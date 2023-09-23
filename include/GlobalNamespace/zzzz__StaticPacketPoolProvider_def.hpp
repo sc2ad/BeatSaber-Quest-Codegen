@@ -2,10 +2,8 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace {
 namespace GlobalNamespace {
-template<typename T>
-class PacketPool_1;
+class IPacketPool;
 }
 namespace System::Collections::Concurrent {
 template<typename TKey,typename TValue>
@@ -15,7 +13,8 @@ namespace System {
 class Type;
 }
 namespace GlobalNamespace {
-class IPacketPool;
+template<typename T>
+class PacketPool_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -63,26 +62,25 @@ constexpr explicit StaticPacketPoolProvider(void* ptr) noexcept : ::bs_hook::Il2
 
 // Fields
 
-static ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type,::GlobalNamespace::IPacketPool> __declspec(property(get=__get__staticPools, put=__set__staticPools))  _staticPools;
+static System::Collections::Concurrent::ConcurrentDictionary_2<System::Type,GlobalNamespace::IPacketPool> __declspec(property(get=__get__staticPools, put=__set__staticPools))  _staticPools;
 
-static void __set__staticPools(::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type,::GlobalNamespace::IPacketPool> value) ;
+static void __set__staticPools(System::Collections::Concurrent::ConcurrentDictionary_2<System::Type,GlobalNamespace::IPacketPool> value) ;
 
-static ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type,::GlobalNamespace::IPacketPool> __get__staticPools() ;
+static System::Collections::Concurrent::ConcurrentDictionary_2<System::Type,GlobalNamespace::IPacketPool> __get__staticPools() ;
 
 
 // Methods
 
 /// @brief Method GetPacketPool addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static ::GlobalNamespace::PacketPool_1<T> GetPacketPool() ;
+static GlobalNamespace::PacketPool_1<T> GetPacketPool() ;
 
 /// @brief Method TryGetPacketPool addr 0xdb25c0 size 0x90 virtual false final false
-static bool TryGetPacketPool(::System::Type t, ByRef<::GlobalNamespace::IPacketPool> pool) ;
+static bool TryGetPacketPool(System::Type t, ByRef<GlobalNamespace::IPacketPool> pool) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::StaticPacketPoolProvider);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StaticPacketPoolProvider, "", "StaticPacketPoolProvider");
+NEED_NO_BOX(GlobalNamespace::StaticPacketPoolProvider);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StaticPacketPoolProvider, "", "StaticPacketPoolProvider");

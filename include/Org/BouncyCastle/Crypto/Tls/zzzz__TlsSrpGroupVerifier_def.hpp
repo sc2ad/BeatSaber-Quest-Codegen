@@ -1,6 +1,5 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace Org::BouncyCastle::Crypto::Parameters {
 class Srp6GroupParameters;
 }
@@ -27,12 +26,11 @@ constexpr explicit TlsSrpGroupVerifier(void* ptr) noexcept : ::cordl_internals::
 // Methods
 
 /// @brief Method Accept addr 0x0 size 0xffffffffffffffff virtual true final false
- bool Accept(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters group) ;
+ bool Accept(Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters group) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier, "Org.BouncyCastle.Crypto.Tls", "TlsSrpGroupVerifier");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier, "Org.BouncyCastle.Crypto.Tls", "TlsSrpGroupVerifier");

@@ -4,24 +4,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Text::RegularExpressions {
-class RegexReplacement;
-}
-namespace System::Globalization {
-class CultureInfo;
+class RegexCharClass;
 }
 namespace System::Text::RegularExpressions {
 class RegexNode;
 }
-namespace System {
-class ArgumentException;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace System::Text::RegularExpressions {
-struct RegexOptions;
-}
-namespace System::Text::RegularExpressions {
-class RegexCharClass;
+class RegexReplacement;
 }
 namespace System::Text::RegularExpressions {
 class RegexTree;
@@ -29,9 +23,14 @@ class RegexTree;
 namespace System::Collections {
 class Hashtable;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System::Text::RegularExpressions {
+struct RegexOptions;
+}
+namespace System {
+class ArgumentException;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {
@@ -79,35 +78,35 @@ constexpr explicit RegexParser(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 
 // Fields
 
- ::System::Text::RegularExpressions::RegexNode __declspec(property(get=__get__stack, put=__set__stack))  _stack;
+ System::Text::RegularExpressions::RegexNode __declspec(property(get=__get__stack, put=__set__stack))  _stack;
 
-constexpr void __set__stack(::System::Text::RegularExpressions::RegexNode value) ;
+constexpr void __set__stack(System::Text::RegularExpressions::RegexNode value) ;
 
-constexpr ::System::Text::RegularExpressions::RegexNode __get__stack() const;
+constexpr System::Text::RegularExpressions::RegexNode __get__stack() const;
 
- ::System::Text::RegularExpressions::RegexNode __declspec(property(get=__get__group, put=__set__group))  _group;
+ System::Text::RegularExpressions::RegexNode __declspec(property(get=__get__group, put=__set__group))  _group;
 
-constexpr void __set__group(::System::Text::RegularExpressions::RegexNode value) ;
+constexpr void __set__group(System::Text::RegularExpressions::RegexNode value) ;
 
-constexpr ::System::Text::RegularExpressions::RegexNode __get__group() const;
+constexpr System::Text::RegularExpressions::RegexNode __get__group() const;
 
- ::System::Text::RegularExpressions::RegexNode __declspec(property(get=__get__alternation, put=__set__alternation))  _alternation;
+ System::Text::RegularExpressions::RegexNode __declspec(property(get=__get__alternation, put=__set__alternation))  _alternation;
 
-constexpr void __set__alternation(::System::Text::RegularExpressions::RegexNode value) ;
+constexpr void __set__alternation(System::Text::RegularExpressions::RegexNode value) ;
 
-constexpr ::System::Text::RegularExpressions::RegexNode __get__alternation() const;
+constexpr System::Text::RegularExpressions::RegexNode __get__alternation() const;
 
- ::System::Text::RegularExpressions::RegexNode __declspec(property(get=__get__concatenation, put=__set__concatenation))  _concatenation;
+ System::Text::RegularExpressions::RegexNode __declspec(property(get=__get__concatenation, put=__set__concatenation))  _concatenation;
 
-constexpr void __set__concatenation(::System::Text::RegularExpressions::RegexNode value) ;
+constexpr void __set__concatenation(System::Text::RegularExpressions::RegexNode value) ;
 
-constexpr ::System::Text::RegularExpressions::RegexNode __get__concatenation() const;
+constexpr System::Text::RegularExpressions::RegexNode __get__concatenation() const;
 
- ::System::Text::RegularExpressions::RegexNode __declspec(property(get=__get__unit, put=__set__unit))  _unit;
+ System::Text::RegularExpressions::RegexNode __declspec(property(get=__get__unit, put=__set__unit))  _unit;
 
-constexpr void __set__unit(::System::Text::RegularExpressions::RegexNode value) ;
+constexpr void __set__unit(System::Text::RegularExpressions::RegexNode value) ;
 
-constexpr ::System::Text::RegularExpressions::RegexNode __get__unit() const;
+constexpr System::Text::RegularExpressions::RegexNode __get__unit() const;
 
  ::StringW __declspec(property(get=__get__pattern, put=__set__pattern))  _pattern;
 
@@ -121,11 +120,11 @@ constexpr void __set__currentPos(int32_t value) ;
 
 constexpr int32_t __get__currentPos() const;
 
- ::System::Globalization::CultureInfo __declspec(property(get=__get__culture, put=__set__culture))  _culture;
+ System::Globalization::CultureInfo __declspec(property(get=__get__culture, put=__set__culture))  _culture;
 
-constexpr void __set__culture(::System::Globalization::CultureInfo value) ;
+constexpr void __set__culture(System::Globalization::CultureInfo value) ;
 
-constexpr ::System::Globalization::CultureInfo __get__culture() const;
+constexpr System::Globalization::CultureInfo __get__culture() const;
 
  int32_t __declspec(property(get=__get__autocap, put=__set__autocap))  _autocap;
 
@@ -151,17 +150,17 @@ constexpr void __set__capsize(int32_t value) ;
 
 constexpr int32_t __get__capsize() const;
 
- ::System::Collections::Hashtable __declspec(property(get=__get__caps, put=__set__caps))  _caps;
+ System::Collections::Hashtable __declspec(property(get=__get__caps, put=__set__caps))  _caps;
 
-constexpr void __set__caps(::System::Collections::Hashtable value) ;
+constexpr void __set__caps(System::Collections::Hashtable value) ;
 
-constexpr ::System::Collections::Hashtable __get__caps() const;
+constexpr System::Collections::Hashtable __get__caps() const;
 
- ::System::Collections::Hashtable __declspec(property(get=__get__capnames, put=__set__capnames))  _capnames;
+ System::Collections::Hashtable __declspec(property(get=__get__capnames, put=__set__capnames))  _capnames;
 
-constexpr void __set__capnames(::System::Collections::Hashtable value) ;
+constexpr void __set__capnames(System::Collections::Hashtable value) ;
 
-constexpr ::System::Collections::Hashtable __get__capnames() const;
+constexpr System::Collections::Hashtable __get__capnames() const;
 
  ::ArrayW<int32_t> __declspec(property(get=__get__capnumlist, put=__set__capnumlist))  _capnumlist;
 
@@ -169,23 +168,23 @@ constexpr void __set__capnumlist(::ArrayW<int32_t> value) ;
 
 constexpr ::ArrayW<int32_t> __get__capnumlist() const;
 
- ::System::Collections::Generic::List_1<::StringW> __declspec(property(get=__get__capnamelist, put=__set__capnamelist))  _capnamelist;
+ System::Collections::Generic::List_1<::StringW> __declspec(property(get=__get__capnamelist, put=__set__capnamelist))  _capnamelist;
 
-constexpr void __set__capnamelist(::System::Collections::Generic::List_1<::StringW> value) ;
+constexpr void __set__capnamelist(System::Collections::Generic::List_1<::StringW> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::StringW> __get__capnamelist() const;
+constexpr System::Collections::Generic::List_1<::StringW> __get__capnamelist() const;
 
- ::System::Text::RegularExpressions::RegexOptions __declspec(property(get=__get__options, put=__set__options))  _options;
+ System::Text::RegularExpressions::RegexOptions __declspec(property(get=__get__options, put=__set__options))  _options;
 
-constexpr void __set__options(::System::Text::RegularExpressions::RegexOptions value) ;
+constexpr void __set__options(System::Text::RegularExpressions::RegexOptions value) ;
 
-constexpr ::System::Text::RegularExpressions::RegexOptions __get__options() const;
+constexpr System::Text::RegularExpressions::RegexOptions __get__options() const;
 
- ::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexOptions> __declspec(property(get=__get__optionsStack, put=__set__optionsStack))  _optionsStack;
+ System::Collections::Generic::List_1<System::Text::RegularExpressions::RegexOptions> __declspec(property(get=__get__optionsStack, put=__set__optionsStack))  _optionsStack;
 
-constexpr void __set__optionsStack(::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexOptions> value) ;
+constexpr void __set__optionsStack(System::Collections::Generic::List_1<System::Text::RegularExpressions::RegexOptions> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexOptions> __get__optionsStack() const;
+constexpr System::Collections::Generic::List_1<System::Text::RegularExpressions::RegexOptions> __get__optionsStack() const;
 
  bool __declspec(property(get=__get__ignoreNextParen, put=__set__ignoreNextParen))  _ignoreNextParen;
 
@@ -203,46 +202,46 @@ static ::ArrayW<uint8_t> __get_s_category() ;
 // Methods
 
 /// @brief Method Parse addr 0x27d05b4 size 0x19c virtual false final false
-static ::System::Text::RegularExpressions::RegexTree Parse(::StringW re, ::System::Text::RegularExpressions::RegexOptions op) ;
+static System::Text::RegularExpressions::RegexTree Parse(::StringW re, System::Text::RegularExpressions::RegexOptions op) ;
 
 /// @brief Method ParseReplacement addr 0x27d13e8 size 0x150 virtual false final false
-static ::System::Text::RegularExpressions::RegexReplacement ParseReplacement(::StringW rep, ::System::Collections::Hashtable caps, int32_t capsize, ::System::Collections::Hashtable capnames, ::System::Text::RegularExpressions::RegexOptions op) ;
+static System::Text::RegularExpressions::RegexReplacement ParseReplacement(::StringW rep, System::Collections::Hashtable caps, int32_t capsize, System::Collections::Hashtable capnames, System::Text::RegularExpressions::RegexOptions op) ;
 
-// Ctor Parameters [CppParam { name: "culture", ty: "::System::Globalization::CultureInfo", modifiers: "", def_value: None }]
-explicit RegexParser(::System::Globalization::CultureInfo culture) ;
+// Ctor Parameters [CppParam { name: "culture", ty: "System::Globalization::CultureInfo", modifiers: "", def_value: None }]
+explicit RegexParser(System::Globalization::CultureInfo culture) ;
 
 /// @brief Method .ctor addr 0x27d0750 size 0xc0 virtual false final false
- void _ctor(::System::Globalization::CultureInfo culture) ;
+ void _ctor(System::Globalization::CultureInfo culture) ;
 
 /// @brief Method SetPattern addr 0x27d0810 size 0x5c virtual false final false
  void SetPattern(::StringW Re) ;
 
 /// @brief Method Reset addr 0x27d0bac size 0x8c virtual false final false
- void Reset(::System::Text::RegularExpressions::RegexOptions topopts) ;
+ void Reset(System::Text::RegularExpressions::RegexOptions topopts) ;
 
 /// @brief Method ScanRegex addr 0x27d0c38 size 0x748 virtual false final false
- ::System::Text::RegularExpressions::RegexNode ScanRegex() ;
+ System::Text::RegularExpressions::RegexNode ScanRegex() ;
 
 /// @brief Method ScanReplacement addr 0x27d1544 size 0x124 virtual false final false
- ::System::Text::RegularExpressions::RegexNode ScanReplacement() ;
+ System::Text::RegularExpressions::RegexNode ScanReplacement() ;
 
 /// @brief Method ScanCharClass addr 0x27d2574 size 0x608 virtual false final false
- ::System::Text::RegularExpressions::RegexCharClass ScanCharClass(bool caseInsensitive, bool scanOnly) ;
+ System::Text::RegularExpressions::RegexCharClass ScanCharClass(bool caseInsensitive, bool scanOnly) ;
 
 /// @brief Method ScanGroupOpen addr 0x27d2ca0 size 0x8e8 virtual false final false
- ::System::Text::RegularExpressions::RegexNode ScanGroupOpen() ;
+ System::Text::RegularExpressions::RegexNode ScanGroupOpen() ;
 
 /// @brief Method ScanBlank addr 0x27d1bfc size 0x2e4 virtual false final false
  void ScanBlank() ;
 
 /// @brief Method ScanBackslash addr 0x27d3a48 size 0x4e4 virtual false final false
- ::System::Text::RegularExpressions::RegexNode ScanBackslash(bool scanOnly) ;
+ System::Text::RegularExpressions::RegexNode ScanBackslash(bool scanOnly) ;
 
 /// @brief Method ScanBasicBackslash addr 0x27d4d40 size 0x5a8 virtual false final false
- ::System::Text::RegularExpressions::RegexNode ScanBasicBackslash(bool scanOnly) ;
+ System::Text::RegularExpressions::RegexNode ScanBasicBackslash(bool scanOnly) ;
 
 /// @brief Method ScanDollar addr 0x27d41e4 size 0x3f8 virtual false final false
- ::System::Text::RegularExpressions::RegexNode ScanDollar() ;
+ System::Text::RegularExpressions::RegexNode ScanDollar() ;
 
 /// @brief Method ScanCapname addr 0x27d48d8 size 0xbc virtual false final false
  ::StringW ScanCapname() ;
@@ -263,7 +262,7 @@ static int32_t HexDigit(char16_t ch) ;
  char16_t ScanControl() ;
 
 /// @brief Method IsOnlyTopOption addr 0x27d5588 size 0x28 virtual false final false
- bool IsOnlyTopOption(::System::Text::RegularExpressions::RegexOptions option) ;
+ bool IsOnlyTopOption(System::Text::RegularExpressions::RegexOptions option) ;
 
 /// @brief Method ScanOptions addr 0x27d4b1c size 0xfc virtual false final false
  void ScanOptions() ;
@@ -278,7 +277,7 @@ static int32_t HexDigit(char16_t ch) ;
  int32_t TypeFromCode(char16_t ch) ;
 
 /// @brief Method OptionFromCode addr 0x27d55b0 size 0x60 virtual false final false
-static ::System::Text::RegularExpressions::RegexOptions OptionFromCode(char16_t ch) ;
+static System::Text::RegularExpressions::RegexOptions OptionFromCode(char16_t ch) ;
 
 /// @brief Method CountCaptures addr 0x27d086c size 0x340 virtual false final false
  void CountCaptures() ;
@@ -290,7 +289,7 @@ static ::System::Text::RegularExpressions::RegexOptions OptionFromCode(char16_t 
  void NoteCaptureName(::StringW name, int32_t pos) ;
 
 /// @brief Method NoteCaptures addr 0x27d1538 size 0xc virtual false final false
- void NoteCaptures(::System::Collections::Hashtable caps, int32_t capsize, ::System::Collections::Hashtable capnames) ;
+ void NoteCaptures(System::Collections::Hashtable caps, int32_t capsize, System::Collections::Hashtable capnames) ;
 
 /// @brief Method AssignNameSlots addr 0x27d5904 size 0x674 virtual false final false
  void AssignNameSlots() ;
@@ -350,7 +349,7 @@ static bool IsSpace(char16_t ch) ;
  bool EmptyStack() ;
 
 /// @brief Method StartGroup addr 0x27d1b50 size 0xac virtual false final false
- void StartGroup(::System::Text::RegularExpressions::RegexNode openGroup) ;
+ void StartGroup(System::Text::RegularExpressions::RegexNode openGroup) ;
 
 /// @brief Method AddAlternate addr 0x27d3628 size 0xc8 virtual false final false
  void AddAlternate() ;
@@ -362,7 +361,7 @@ static bool IsSpace(char16_t ch) ;
  void AddConcatenate(bool lazy, int32_t min, int32_t max) ;
 
 /// @brief Method Unit addr 0x27d5f78 size 0x8 virtual false final false
- ::System::Text::RegularExpressions::RegexNode Unit() ;
+ System::Text::RegularExpressions::RegexNode Unit() ;
 
 /// @brief Method AddUnitOne addr 0x27d24b4 size 0xb4 virtual false final false
  void AddUnitOne(char16_t ch) ;
@@ -374,7 +373,7 @@ static bool IsSpace(char16_t ch) ;
  void AddUnitSet(::StringW cc) ;
 
 /// @brief Method AddUnitNode addr 0x27d5f80 size 0x8 virtual false final false
- void AddUnitNode(::System::Text::RegularExpressions::RegexNode node) ;
+ void AddUnitNode(System::Text::RegularExpressions::RegexNode node) ;
 
 /// @brief Method AddUnitType addr 0x27d3f38 size 0x78 virtual false final false
  void AddUnitType(int32_t type) ;
@@ -395,7 +394,7 @@ static bool IsSpace(char16_t ch) ;
  void PopKeepOptions() ;
 
 /// @brief Method MakeException addr 0x27d3700 size 0xa0 virtual false final false
- ::System::ArgumentException MakeException(::StringW message) ;
+ System::ArgumentException MakeException(::StringW message) ;
 
 /// @brief Method Textpos addr 0x27d5f88 size 0x8 virtual false final false
  int32_t Textpos() ;
@@ -431,6 +430,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Text::RegularExpressions
-} // end anonymous namespace
-NEED_NO_BOX(::System::Text::RegularExpressions::RegexParser);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::RegularExpressions::RegexParser, "System.Text.RegularExpressions", "RegexParser");
+NEED_NO_BOX(System::Text::RegularExpressions::RegexParser);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexParser, "System.Text.RegularExpressions", "RegexParser");

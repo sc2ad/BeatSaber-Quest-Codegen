@@ -1,15 +1,14 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace UnityEngine::UIElements {
+class IUxmlAttributes;
+}
 namespace UnityEngine::UIElements {
 struct CreationContext;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
-}
-namespace UnityEngine::UIElements {
-class IUxmlAttributes;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -42,15 +41,14 @@ constexpr explicit IUxmlFactory(void* ptr) noexcept : ::cordl_internals::Interfa
  ::StringW get_uxmlQualifiedName() ;
 
 /// @brief Method AcceptsAttributeBag addr 0x0 size 0xffffffffffffffff virtual true final false
- bool AcceptsAttributeBag(::UnityEngine::UIElements::IUxmlAttributes bag, ::UnityEngine::UIElements::CreationContext cc) ;
+ bool AcceptsAttributeBag(UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
 /// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::UIElements::VisualElement Create(::UnityEngine::UIElements::IUxmlAttributes bag, ::UnityEngine::UIElements::CreationContext cc) ;
+ UnityEngine::UIElements::VisualElement Create(UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::IUxmlFactory);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::IUxmlFactory, "UnityEngine.UIElements", "IUxmlFactory");
+NEED_NO_BOX(UnityEngine::UIElements::IUxmlFactory);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::IUxmlFactory, "UnityEngine.UIElements", "IUxmlFactory");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security::Principal {
 struct WindowsAccountType;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Normal offset 0
-static ::System::Security::Principal::WindowsAccountType const Normal;
+static System::Security::Principal::WindowsAccountType const Normal;
 
 /// @brief Field Guest offset 0
-static ::System::Security::Principal::WindowsAccountType const Guest;
+static System::Security::Principal::WindowsAccountType const Guest;
 
 /// @brief Field System offset 0
-static ::System::Security::Principal::WindowsAccountType const System;
+static System::Security::Principal::WindowsAccountType const System;
 
 /// @brief Field Anonymous offset 0
-static ::System::Security::Principal::WindowsAccountType const Anonymous;
+static System::Security::Principal::WindowsAccountType const Anonymous;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Security::Principal
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Principal::WindowsAccountType, "System.Security.Principal", "WindowsAccountType");
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::WindowsAccountType, "System.Security.Principal", "WindowsAccountType");

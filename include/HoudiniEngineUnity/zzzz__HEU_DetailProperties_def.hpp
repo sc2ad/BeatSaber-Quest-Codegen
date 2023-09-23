@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivable_1;
@@ -21,8 +20,8 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE HEU_DetailProperties : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailProperties>
-constexpr operator  ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailProperties>() const noexcept;
+/// @brief Convert operator to HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_DetailProperties>
+constexpr operator  HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_DetailProperties>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -85,7 +84,7 @@ constexpr int32_t __get__detailResolutionPerPatch() const;
 // Methods
 
 /// @brief Method IsEquivalentTo addr 0x2077d88 size 0x1f0 virtual true final true
- bool IsEquivalentTo(::HoudiniEngineUnity::HEU_DetailProperties other) ;
+ bool IsEquivalentTo(HoudiniEngineUnity::HEU_DetailProperties other) ;
 
 // Ctor Parameters []
 explicit HEU_DetailProperties() ;
@@ -97,6 +96,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_DetailProperties);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_DetailProperties, "HoudiniEngineUnity", "HEU_DetailProperties");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_DetailProperties);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_DetailProperties, "HoudiniEngineUnity", "HEU_DetailProperties");

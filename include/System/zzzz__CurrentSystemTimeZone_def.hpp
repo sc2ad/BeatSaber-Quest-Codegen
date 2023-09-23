@@ -5,18 +5,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections {
 class Hashtable;
 }
-namespace System::Globalization {
-class DaylightTime;
+namespace System {
+struct DateTime;
 }
 namespace System {
 struct TimeSpan;
 }
-namespace System {
-struct DateTime;
+namespace System::Globalization {
+class DaylightTime;
 }
 // Forward declare root types
 namespace System {
@@ -28,7 +27,7 @@ namespace System {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2484))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2366))
 // CS Name: System.CurrentSystemTimeZone
-class CORDL_TYPE CurrentSystemTimeZone : public ::System::TimeZone {
+class CORDL_TYPE CurrentSystemTimeZone : public System::TimeZone {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -43,7 +42,7 @@ constexpr CurrentSystemTimeZone(CurrentSystemTimeZone const& ) noexcept = defaul
 constexpr CurrentSystemTimeZone(CurrentSystemTimeZone&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CurrentSystemTimeZone(void* ptr) noexcept : ::System::TimeZone(ptr) {
+constexpr explicit CurrentSystemTimeZone(void* ptr) noexcept : System::TimeZone(ptr) {
 }
 
 
@@ -82,11 +81,11 @@ constexpr void __set_m_daylightName(::StringW value) ;
 
 constexpr ::StringW __get_m_daylightName() const;
 
- ::System::Collections::Hashtable __declspec(property(get=__get_m_CachedDaylightChanges, put=__set_m_CachedDaylightChanges))  m_CachedDaylightChanges;
+ System::Collections::Hashtable __declspec(property(get=__get_m_CachedDaylightChanges, put=__set_m_CachedDaylightChanges))  m_CachedDaylightChanges;
 
-constexpr void __set_m_CachedDaylightChanges(::System::Collections::Hashtable value) ;
+constexpr void __set_m_CachedDaylightChanges(System::Collections::Hashtable value) ;
 
-constexpr ::System::Collections::Hashtable __get_m_CachedDaylightChanges() const;
+constexpr System::Collections::Hashtable __get_m_CachedDaylightChanges() const;
 
 
 // Methods
@@ -98,24 +97,23 @@ explicit CurrentSystemTimeZone() ;
  void _ctor() ;
 
 /// @brief Method GetDaylightChanges addr 0x241fb88 size 0xd0 virtual true final false
- ::System::Globalization::DaylightTime GetDaylightChanges(int32_t year) ;
+ System::Globalization::DaylightTime GetDaylightChanges(int32_t year) ;
 
 /// @brief Method CreateDaylightChanges addr 0x241fe44 size 0x284 virtual false final false
-static ::System::Globalization::DaylightTime CreateDaylightChanges(int32_t year) ;
+static System::Globalization::DaylightTime CreateDaylightChanges(int32_t year) ;
 
 /// @brief Method GetUtcOffset addr 0x24200d0 size 0xb4 virtual true final false
- ::System::TimeSpan GetUtcOffset(::System::DateTime time) ;
+ System::TimeSpan GetUtcOffset(System::DateTime time) ;
 
 /// @brief Method GetTimeZoneData addr 0x24201ac size 0x4 virtual false final false
 static bool GetTimeZoneData(int32_t year, ByRef<::ArrayW<int64_t>> data, ByRef<::ArrayW<::StringW>> names, ByRef<bool> daylight_inverted) ;
 
 /// @brief Method GetCachedDaylightChanges addr 0x241fc58 size 0x1ec virtual false final false
- ::System::Globalization::DaylightTime GetCachedDaylightChanges(int32_t year) ;
+ System::Globalization::DaylightTime GetCachedDaylightChanges(int32_t year) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::CurrentSystemTimeZone);
-DEFINE_IL2CPP_ARG_TYPE(::System::CurrentSystemTimeZone, "System", "CurrentSystemTimeZone");
+NEED_NO_BOX(System::CurrentSystemTimeZone);
+DEFINE_IL2CPP_ARG_TYPE(System::CurrentSystemTimeZone, "System", "CurrentSystemTimeZone");

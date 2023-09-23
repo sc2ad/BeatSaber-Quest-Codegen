@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class BitMaskUtil;
@@ -66,6 +65,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BitMaskUtil);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BitMaskUtil, "", "BitMaskUtil");
+NEED_NO_BOX(GlobalNamespace::BitMaskUtil);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BitMaskUtil, "", "BitMaskUtil");

@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
@@ -57,10 +56,10 @@ constexpr explicit PathFilter(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType
 // Methods
 
 /// @brief Method ExecuteFilter addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken> ExecuteFilter(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken> current, bool errorWhenNoMatch) ;
+ System::Collections::Generic::IEnumerable_1<Newtonsoft::Json::Linq::JToken> ExecuteFilter(System::Collections::Generic::IEnumerable_1<Newtonsoft::Json::Linq::JToken> current, bool errorWhenNoMatch) ;
 
 /// @brief Method GetTokenIndex addr 0x2533c68 size 0x2d8 virtual false final false
-static ::Newtonsoft::Json::Linq::JToken GetTokenIndex(::Newtonsoft::Json::Linq::JToken t, bool errorWhenNoMatch, int32_t index) ;
+static Newtonsoft::Json::Linq::JToken GetTokenIndex(Newtonsoft::Json::Linq::JToken t, bool errorWhenNoMatch, int32_t index) ;
 
 // Ctor Parameters []
 explicit PathFilter() ;
@@ -72,6 +71,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Linq::JsonPath
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Linq::JsonPath::PathFilter);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Linq::JsonPath::PathFilter, "Newtonsoft.Json.Linq.JsonPath", "PathFilter");
+NEED_NO_BOX(Newtonsoft::Json::Linq::JsonPath::PathFilter);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Linq::JsonPath::PathFilter, "Newtonsoft.Json.Linq.JsonPath", "PathFilter");

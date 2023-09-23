@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__LevelGameplaySetupData_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class ILevelGameplaySetupData;
-}
 namespace GlobalNamespace {
 class ILobbyPlayerData;
+}
+namespace GlobalNamespace {
+class ILevelGameplaySetupData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -18,14 +17,14 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4507))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4513))
 // CS Name: LobbyPlayerData
-class CORDL_TYPE LobbyPlayerData : public ::GlobalNamespace::LevelGameplaySetupData {
+class CORDL_TYPE LobbyPlayerData : public GlobalNamespace::LevelGameplaySetupData {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::ILobbyPlayerData
-constexpr operator  ::GlobalNamespace::ILobbyPlayerData() const noexcept;
+/// @brief Convert operator to GlobalNamespace::ILobbyPlayerData
+constexpr operator  GlobalNamespace::ILobbyPlayerData() const noexcept;
 
-/// @brief Convert operator to ::GlobalNamespace::ILevelGameplaySetupData
-constexpr operator  ::GlobalNamespace::ILevelGameplaySetupData() const noexcept;
+/// @brief Convert operator to GlobalNamespace::ILevelGameplaySetupData
+constexpr operator  GlobalNamespace::ILevelGameplaySetupData() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -39,7 +38,7 @@ constexpr LobbyPlayerData(LobbyPlayerData const& ) noexcept = default;
 constexpr LobbyPlayerData(LobbyPlayerData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LobbyPlayerData(void* ptr) noexcept : ::GlobalNamespace::LevelGameplaySetupData(ptr) {
+constexpr explicit LobbyPlayerData(void* ptr) noexcept : GlobalNamespace::LevelGameplaySetupData(ptr) {
 }
 
 
@@ -132,6 +131,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LobbyPlayerData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LobbyPlayerData, "", "LobbyPlayerData");
+NEED_NO_BOX(GlobalNamespace::LobbyPlayerData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyPlayerData, "", "LobbyPlayerData");

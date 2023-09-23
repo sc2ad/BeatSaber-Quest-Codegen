@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections {
 class IComparer;
 }
@@ -19,8 +18,8 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE ReverseCompare : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::IComparer
-constexpr operator  ::System::Collections::IComparer() const noexcept;
+/// @brief Convert operator to System::Collections::IComparer
+constexpr operator  System::Collections::IComparer() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -68,6 +67,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::ReverseCompare);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::ReverseCompare, "HoudiniEngineUnity", "ReverseCompare");
+NEED_NO_BOX(HoudiniEngineUnity::ReverseCompare);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::ReverseCompare, "HoudiniEngineUnity", "ReverseCompare");

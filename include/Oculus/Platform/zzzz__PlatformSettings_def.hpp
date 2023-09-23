@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace Oculus::Platform {
 class PlatformSettings;
@@ -13,7 +12,7 @@ namespace Oculus::Platform {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10151))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13345))
 // CS Name: Oculus.Platform.PlatformSettings
-class CORDL_TYPE PlatformSettings : public ::UnityEngine::ScriptableObject {
+class CORDL_TYPE PlatformSettings : public UnityEngine::ScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr PlatformSettings(PlatformSettings const& ) noexcept = default;
 constexpr PlatformSettings(PlatformSettings&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PlatformSettings(void* ptr) noexcept : ::UnityEngine::ScriptableObject(ptr) {
+constexpr explicit PlatformSettings(void* ptr) noexcept : UnityEngine::ScriptableObject(ptr) {
 }
 
 
@@ -67,11 +66,11 @@ constexpr void __set_ovrUseStandalonePlatform(bool value) ;
 
 constexpr bool __get_ovrUseStandalonePlatform() const;
 
-static ::Oculus::Platform::PlatformSettings __declspec(property(get=__get_instance, put=__set_instance))  instance;
+static Oculus::Platform::PlatformSettings __declspec(property(get=__get_instance, put=__set_instance))  instance;
 
-static void __set_instance(::Oculus::Platform::PlatformSettings value) ;
+static void __set_instance(Oculus::Platform::PlatformSettings value) ;
 
-static ::Oculus::Platform::PlatformSettings __get_instance() ;
+static Oculus::Platform::PlatformSettings __get_instance() ;
 
 
 // Properties
@@ -82,7 +81,7 @@ static ::StringW __declspec(property(get=get_MobileAppID, put=set_MobileAppID)) 
 
 static bool __declspec(property(get=get_UseStandalonePlatform, put=set_UseStandalonePlatform))  UseStandalonePlatform;
 
-static ::Oculus::Platform::PlatformSettings __declspec(property(get=get_Instance, put=set_Instance))  Instance;
+static Oculus::Platform::PlatformSettings __declspec(property(get=get_Instance, put=set_Instance))  Instance;
 
 
 // Methods
@@ -106,10 +105,10 @@ static bool get_UseStandalonePlatform() ;
 static void set_UseStandalonePlatform(bool value) ;
 
 /// @brief Method get_Instance addr 0x2598f4c size 0x124 virtual false final false
-static ::Oculus::Platform::PlatformSettings get_Instance() ;
+static Oculus::Platform::PlatformSettings get_Instance() ;
 
 /// @brief Method set_Instance addr 0x259910c size 0x4c virtual false final false
-static void set_Instance(::Oculus::Platform::PlatformSettings value) ;
+static void set_Instance(Oculus::Platform::PlatformSettings value) ;
 
 // Ctor Parameters []
 explicit PlatformSettings() ;
@@ -121,6 +120,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::PlatformSettings);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::PlatformSettings, "Oculus.Platform", "PlatformSettings");
+NEED_NO_BOX(Oculus::Platform::PlatformSettings);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PlatformSettings, "Oculus.Platform", "PlatformSettings");

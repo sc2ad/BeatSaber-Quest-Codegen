@@ -4,24 +4,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Runtime::Remoting::Messaging {
-class LogicalCallContext;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
+class IMethodCallMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMethodMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMethodCallMessage;
+class IMessage;
+}
+namespace System::Reflection {
+class MethodBase;
 }
 namespace System::Collections {
 class IDictionary;
 }
-namespace System::Reflection {
-class MethodBase;
+namespace System::Runtime::Remoting::Messaging {
+class LogicalCallContext;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -36,14 +35,14 @@ namespace System::Runtime::Remoting::Messaging {
 class CORDL_TYPE ErrorMessage : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::Remoting::Messaging::IMethodCallMessage
-constexpr operator  ::System::Runtime::Remoting::Messaging::IMethodCallMessage() const noexcept;
+/// @brief Convert operator to System::Runtime::Remoting::Messaging::IMethodCallMessage
+constexpr operator  System::Runtime::Remoting::Messaging::IMethodCallMessage() const noexcept;
 
-/// @brief Convert operator to ::System::Runtime::Remoting::Messaging::IMethodMessage
-constexpr operator  ::System::Runtime::Remoting::Messaging::IMethodMessage() const noexcept;
+/// @brief Convert operator to System::Runtime::Remoting::Messaging::IMethodMessage
+constexpr operator  System::Runtime::Remoting::Messaging::IMethodMessage() const noexcept;
 
-/// @brief Convert operator to ::System::Runtime::Remoting::Messaging::IMessage
-constexpr operator  ::System::Runtime::Remoting::Messaging::IMessage() const noexcept;
+/// @brief Convert operator to System::Runtime::Remoting::Messaging::IMessage
+constexpr operator  System::Runtime::Remoting::Messaging::IMessage() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -91,19 +90,19 @@ constexpr ::StringW __get__uri() const;
 
  ::ArrayW<::bs_hook::Il2CppWrapperType> __declspec(property(get=get_Args))  Args;
 
- ::System::Reflection::MethodBase __declspec(property(get=get_MethodBase))  MethodBase;
+ System::Reflection::MethodBase __declspec(property(get=get_MethodBase))  MethodBase;
 
  ::StringW __declspec(property(get=get_MethodName))  MethodName;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_MethodSignature))  MethodSignature;
 
- ::System::Collections::IDictionary __declspec(property(get=get_Properties))  Properties;
+ System::Collections::IDictionary __declspec(property(get=get_Properties))  Properties;
 
  ::StringW __declspec(property(get=get_TypeName))  TypeName;
 
  ::StringW __declspec(property(get=get_Uri))  Uri;
 
- ::System::Runtime::Remoting::Messaging::LogicalCallContext __declspec(property(get=get_LogicalCallContext))  LogicalCallContext;
+ System::Runtime::Remoting::Messaging::LogicalCallContext __declspec(property(get=get_LogicalCallContext))  LogicalCallContext;
 
 
 // Methods
@@ -121,7 +120,7 @@ explicit ErrorMessage() ;
  ::ArrayW<::bs_hook::Il2CppWrapperType> get_Args() ;
 
 /// @brief Method get_MethodBase addr 0x234139c size 0x8 virtual true final true
- ::System::Reflection::MethodBase get_MethodBase() ;
+ System::Reflection::MethodBase get_MethodBase() ;
 
 /// @brief Method get_MethodName addr 0x23413a4 size 0x40 virtual true final true
  ::StringW get_MethodName() ;
@@ -130,7 +129,7 @@ explicit ErrorMessage() ;
  ::bs_hook::Il2CppWrapperType get_MethodSignature() ;
 
 /// @brief Method get_Properties addr 0x23413ec size 0x8 virtual true final false
- ::System::Collections::IDictionary get_Properties() ;
+ System::Collections::IDictionary get_Properties() ;
 
 /// @brief Method get_TypeName addr 0x23413f4 size 0x40 virtual true final true
  ::StringW get_TypeName() ;
@@ -142,12 +141,11 @@ explicit ErrorMessage() ;
  ::bs_hook::Il2CppWrapperType GetArg(int32_t arg_num) ;
 
 /// @brief Method get_LogicalCallContext addr 0x2341444 size 0x8 virtual true final true
- ::System::Runtime::Remoting::Messaging::LogicalCallContext get_LogicalCallContext() ;
+ System::Runtime::Remoting::Messaging::LogicalCallContext get_LogicalCallContext() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Messaging
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Messaging::ErrorMessage);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::ErrorMessage, "System.Runtime.Remoting.Messaging", "ErrorMessage");
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::ErrorMessage);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ErrorMessage, "System.Runtime.Remoting.Messaging", "ErrorMessage");

@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
 struct OpenFlags;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field ReadOnly offset 0
-static ::System::Security::Cryptography::X509Certificates::OpenFlags const ReadOnly;
+static System::Security::Cryptography::X509Certificates::OpenFlags const ReadOnly;
 
 /// @brief Field ReadWrite offset 0
-static ::System::Security::Cryptography::X509Certificates::OpenFlags const ReadWrite;
+static System::Security::Cryptography::X509Certificates::OpenFlags const ReadWrite;
 
 /// @brief Field MaxAllowed offset 0
-static ::System::Security::Cryptography::X509Certificates::OpenFlags const MaxAllowed;
+static System::Security::Cryptography::X509Certificates::OpenFlags const MaxAllowed;
 
 /// @brief Field OpenExistingOnly offset 0
-static ::System::Security::Cryptography::X509Certificates::OpenFlags const OpenExistingOnly;
+static System::Security::Cryptography::X509Certificates::OpenFlags const OpenExistingOnly;
 
 /// @brief Field IncludeArchived offset 0
-static ::System::Security::Cryptography::X509Certificates::OpenFlags const IncludeArchived;
+static System::Security::Cryptography::X509Certificates::OpenFlags const IncludeArchived;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography::X509Certificates
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::X509Certificates::OpenFlags, "System.Security.Cryptography.X509Certificates", "OpenFlags");
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::OpenFlags, "System.Security.Cryptography.X509Certificates", "OpenFlags");

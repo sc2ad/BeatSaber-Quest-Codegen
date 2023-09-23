@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaParticle_def.hpp"
-namespace {
 namespace System::Xml::Schema {
 class XmlSchemaObjectCollection;
 }
@@ -15,7 +14,7 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11676))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11669))
 // CS Name: System.Xml.Schema.XmlSchemaGroupBase
-class CORDL_TYPE XmlSchemaGroupBase : public ::System::Xml::Schema::XmlSchemaParticle {
+class CORDL_TYPE XmlSchemaGroupBase : public System::Xml::Schema::XmlSchemaParticle {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr XmlSchemaGroupBase(XmlSchemaGroupBase const& ) noexcept = default;
 constexpr XmlSchemaGroupBase(XmlSchemaGroupBase&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XmlSchemaGroupBase(void* ptr) noexcept : ::System::Xml::Schema::XmlSchemaParticle(ptr) {
+constexpr explicit XmlSchemaGroupBase(void* ptr) noexcept : System::Xml::Schema::XmlSchemaParticle(ptr) {
 }
 
 
@@ -51,13 +50,13 @@ constexpr explicit XmlSchemaGroupBase(void* ptr) noexcept : ::System::Xml::Schem
 
 // Properties
 
- ::System::Xml::Schema::XmlSchemaObjectCollection __declspec(property(get=get_Items))  Items;
+ System::Xml::Schema::XmlSchemaObjectCollection __declspec(property(get=get_Items))  Items;
 
 
 // Methods
 
 /// @brief Method get_Items addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Xml::Schema::XmlSchemaObjectCollection get_Items() ;
+ System::Xml::Schema::XmlSchemaObjectCollection get_Items() ;
 
 // Ctor Parameters []
 explicit XmlSchemaGroupBase() ;
@@ -69,6 +68,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::XmlSchemaGroupBase);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlSchemaGroupBase, "System.Xml.Schema", "XmlSchemaGroupBase");
+NEED_NO_BOX(System::Xml::Schema::XmlSchemaGroupBase);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::XmlSchemaGroupBase, "System.Xml.Schema", "XmlSchemaGroupBase");

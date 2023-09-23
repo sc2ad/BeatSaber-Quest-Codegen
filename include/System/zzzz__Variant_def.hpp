@@ -3,7 +3,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
 struct BRECORD;
 }
@@ -20,8 +19,8 @@ namespace System {
 struct CORDL_TYPE Variant : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "vt", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "wReserved1", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "wReserved2", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "wReserved3", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "llVal", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "lVal", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "bVal", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "iVal", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "fltVal", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "dblVal", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "boolVal", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "bstrVal", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "cVal", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "uiVal", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "ulVal", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "ullVal", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "intVal", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "uintVal", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "pdispVal", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "bRecord", ty: "::System::BRECORD", modifiers: "", def_value: None }]
-constexpr Variant(int16_t vt, uint16_t wReserved1, uint16_t wReserved2, uint16_t wReserved3, int64_t llVal, int32_t lVal, uint8_t bVal, int16_t iVal, float_t fltVal, double_t dblVal, int16_t boolVal, ::cordl_internals::intptr_t bstrVal, int8_t cVal, uint16_t uiVal, uint32_t ulVal, uint64_t ullVal, int32_t intVal, uint32_t uintVal, ::cordl_internals::intptr_t pdispVal, ::System::BRECORD bRecord) noexcept;
+// Ctor Parameters [CppParam { name: "vt", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "wReserved1", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "wReserved2", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "wReserved3", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "llVal", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "lVal", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "bVal", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "iVal", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "fltVal", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "dblVal", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "boolVal", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "bstrVal", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "cVal", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "uiVal", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "ulVal", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "ullVal", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "intVal", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "uintVal", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "pdispVal", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "bRecord", ty: "System::BRECORD", modifiers: "", def_value: None }]
+constexpr Variant(int16_t vt, uint16_t wReserved1, uint16_t wReserved2, uint16_t wReserved3, int64_t llVal, int32_t lVal, uint8_t bVal, int16_t iVal, float_t fltVal, double_t dblVal, int16_t boolVal, ::cordl_internals::intptr_t bstrVal, int8_t cVal, uint16_t uiVal, uint32_t ulVal, uint64_t ullVal, int32_t intVal, uint32_t uintVal, ::cordl_internals::intptr_t pdispVal, System::BRECORD bRecord) noexcept;
 
 
                     constexpr Variant(Variant const&) = default;
@@ -168,11 +167,11 @@ constexpr void __set_pdispVal(::cordl_internals::intptr_t value) ;
 
 constexpr ::cordl_internals::intptr_t __get_pdispVal() const;
 
- ::System::BRECORD __declspec(property(get=__get_bRecord, put=__set_bRecord))  bRecord;
+ System::BRECORD __declspec(property(get=__get_bRecord, put=__set_bRecord))  bRecord;
 
-constexpr void __set_bRecord(::System::BRECORD value) ;
+constexpr void __set_bRecord(System::BRECORD value) ;
 
-constexpr ::System::BRECORD __get_bRecord() const;
+constexpr System::BRECORD __get_bRecord() const;
 
 
 // Methods
@@ -184,5 +183,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Variant, "System", "Variant");
+DEFINE_IL2CPP_ARG_TYPE(System::Variant, "System", "Variant");

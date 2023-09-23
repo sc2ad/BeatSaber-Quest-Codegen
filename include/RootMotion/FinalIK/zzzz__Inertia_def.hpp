@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
-namespace {
 namespace RootMotion::FinalIK {
 struct FullBodyBipedEffector;
 }
 namespace RootMotion::FinalIK {
-class ____RootMotion__FinalIK__OffsetModifier__OffsetLimits;
+class RootMotion__FinalIK__OffsetModifier__OffsetLimits;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -22,13 +21,13 @@ class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-class ______RootMotion__FinalIK__Inertia__Body__EffectorLink;
+class RootMotion__FinalIK__Inertia__Body__EffectorLink;
 }
 namespace RootMotion::FinalIK {
 class Inertia;
 }
 namespace RootMotion::FinalIK {
-class ____RootMotion__FinalIK__Inertia__Body;
+class RootMotion__FinalIK__Inertia__Body;
 }
 // Type: ::EffectorLink
 namespace GlobalNamespace {
@@ -36,47 +35,47 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12592))
 // CS Name: RootMotion.FinalIK.Inertia::Body::EffectorLink
-class CORDL_TYPE ______RootMotion__FinalIK__Inertia__Body__EffectorLink : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE RootMotion__FinalIK__Inertia__Body__EffectorLink : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~______RootMotion__FinalIK__Inertia__Body__EffectorLink() = default;
+virtual ~RootMotion__FinalIK__Inertia__Body__EffectorLink() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "______RootMotion__FinalIK__Inertia__Body__EffectorLink", modifiers: " const&", def_value: None }]
-constexpr ______RootMotion__FinalIK__Inertia__Body__EffectorLink(______RootMotion__FinalIK__Inertia__Body__EffectorLink const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "RootMotion__FinalIK__Inertia__Body__EffectorLink", modifiers: " const&", def_value: None }]
+constexpr RootMotion__FinalIK__Inertia__Body__EffectorLink(RootMotion__FinalIK__Inertia__Body__EffectorLink const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "______RootMotion__FinalIK__Inertia__Body__EffectorLink", modifiers: "&&", def_value: None }]
-constexpr ______RootMotion__FinalIK__Inertia__Body__EffectorLink(______RootMotion__FinalIK__Inertia__Body__EffectorLink&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "RootMotion__FinalIK__Inertia__Body__EffectorLink", modifiers: "&&", def_value: None }]
+constexpr RootMotion__FinalIK__Inertia__Body__EffectorLink(RootMotion__FinalIK__Inertia__Body__EffectorLink&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ______RootMotion__FinalIK__Inertia__Body__EffectorLink(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit RootMotion__FinalIK__Inertia__Body__EffectorLink(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ______RootMotion__FinalIK__Inertia__Body__EffectorLink& operator=(std::nullptr_t) noexcept {
+  constexpr RootMotion__FinalIK__Inertia__Body__EffectorLink& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ______RootMotion__FinalIK__Inertia__Body__EffectorLink& operator=(void* o) noexcept {
+  constexpr RootMotion__FinalIK__Inertia__Body__EffectorLink& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ______RootMotion__FinalIK__Inertia__Body__EffectorLink& operator=(______RootMotion__FinalIK__Inertia__Body__EffectorLink&& o) noexcept = default;
-  constexpr ______RootMotion__FinalIK__Inertia__Body__EffectorLink& operator=(______RootMotion__FinalIK__Inertia__Body__EffectorLink const& o) noexcept = default;
+  constexpr RootMotion__FinalIK__Inertia__Body__EffectorLink& operator=(RootMotion__FinalIK__Inertia__Body__EffectorLink&& o) noexcept = default;
+  constexpr RootMotion__FinalIK__Inertia__Body__EffectorLink& operator=(RootMotion__FinalIK__Inertia__Body__EffectorLink const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::RootMotion::FinalIK::FullBodyBipedEffector __declspec(property(get=__get_effector, put=__set_effector))  effector;
+ RootMotion::FinalIK::FullBodyBipedEffector __declspec(property(get=__get_effector, put=__set_effector))  effector;
 
-constexpr void __set_effector(::RootMotion::FinalIK::FullBodyBipedEffector value) ;
+constexpr void __set_effector(RootMotion::FinalIK::FullBodyBipedEffector value) ;
 
-constexpr ::RootMotion::FinalIK::FullBodyBipedEffector __get_effector() const;
+constexpr RootMotion::FinalIK::FullBodyBipedEffector __get_effector() const;
 
  float_t __declspec(property(get=__get_weight, put=__set_weight))  weight;
 
@@ -88,7 +87,7 @@ constexpr float_t __get_weight() const;
 // Methods
 
 // Ctor Parameters []
-explicit ______RootMotion__FinalIK__Inertia__Body__EffectorLink() ;
+explicit RootMotion__FinalIK__Inertia__Body__EffectorLink() ;
 
 /// @brief Method .ctor addr 0x1209f20 size 0x8 virtual false final false
  void _ctor() ;
@@ -103,55 +102,55 @@ namespace RootMotion::FinalIK {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12593))
 // CS Name: RootMotion.FinalIK.Inertia::Body
-class CORDL_TYPE ____RootMotion__FinalIK__Inertia__Body : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE RootMotion__FinalIK__Inertia__Body : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using EffectorLink = ::GlobalNamespace::______RootMotion__FinalIK__Inertia__Body__EffectorLink;
+using EffectorLink = GlobalNamespace::RootMotion__FinalIK__Inertia__Body__EffectorLink;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x68};
 
-virtual ~____RootMotion__FinalIK__Inertia__Body() = default;
+virtual ~RootMotion__FinalIK__Inertia__Body() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____RootMotion__FinalIK__Inertia__Body", modifiers: " const&", def_value: None }]
-constexpr ____RootMotion__FinalIK__Inertia__Body(____RootMotion__FinalIK__Inertia__Body const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "RootMotion__FinalIK__Inertia__Body", modifiers: " const&", def_value: None }]
+constexpr RootMotion__FinalIK__Inertia__Body(RootMotion__FinalIK__Inertia__Body const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____RootMotion__FinalIK__Inertia__Body", modifiers: "&&", def_value: None }]
-constexpr ____RootMotion__FinalIK__Inertia__Body(____RootMotion__FinalIK__Inertia__Body&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "RootMotion__FinalIK__Inertia__Body", modifiers: "&&", def_value: None }]
+constexpr RootMotion__FinalIK__Inertia__Body(RootMotion__FinalIK__Inertia__Body&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____RootMotion__FinalIK__Inertia__Body(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit RootMotion__FinalIK__Inertia__Body(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____RootMotion__FinalIK__Inertia__Body& operator=(std::nullptr_t) noexcept {
+  constexpr RootMotion__FinalIK__Inertia__Body& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____RootMotion__FinalIK__Inertia__Body& operator=(void* o) noexcept {
+  constexpr RootMotion__FinalIK__Inertia__Body& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____RootMotion__FinalIK__Inertia__Body& operator=(____RootMotion__FinalIK__Inertia__Body&& o) noexcept = default;
-  constexpr ____RootMotion__FinalIK__Inertia__Body& operator=(____RootMotion__FinalIK__Inertia__Body const& o) noexcept = default;
+  constexpr RootMotion__FinalIK__Inertia__Body& operator=(RootMotion__FinalIK__Inertia__Body&& o) noexcept = default;
+  constexpr RootMotion__FinalIK__Inertia__Body& operator=(RootMotion__FinalIK__Inertia__Body const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::UnityEngine::Transform __declspec(property(get=__get_transform, put=__set_transform))  transform;
+ UnityEngine::Transform __declspec(property(get=__get_transform, put=__set_transform))  transform;
 
-constexpr void __set_transform(::UnityEngine::Transform value) ;
+constexpr void __set_transform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_transform() const;
+constexpr UnityEngine::Transform __get_transform() const;
 
- ::ArrayW<::GlobalNamespace::______RootMotion__FinalIK__Inertia__Body__EffectorLink> __declspec(property(get=__get_effectorLinks, put=__set_effectorLinks))  effectorLinks;
+ ::ArrayW<GlobalNamespace::RootMotion__FinalIK__Inertia__Body__EffectorLink> __declspec(property(get=__get_effectorLinks, put=__set_effectorLinks))  effectorLinks;
 
-constexpr void __set_effectorLinks(::ArrayW<::GlobalNamespace::______RootMotion__FinalIK__Inertia__Body__EffectorLink> value) ;
+constexpr void __set_effectorLinks(::ArrayW<GlobalNamespace::RootMotion__FinalIK__Inertia__Body__EffectorLink> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::______RootMotion__FinalIK__Inertia__Body__EffectorLink> __get_effectorLinks() const;
+constexpr ::ArrayW<GlobalNamespace::RootMotion__FinalIK__Inertia__Body__EffectorLink> __get_effectorLinks() const;
 
  float_t __declspec(property(get=__get_speed, put=__set_speed))  speed;
 
@@ -177,29 +176,29 @@ constexpr void __set_gravity(float_t value) ;
 
 constexpr float_t __get_gravity() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_delta, put=__set_delta))  delta;
+ UnityEngine::Vector3 __declspec(property(get=__get_delta, put=__set_delta))  delta;
 
-constexpr void __set_delta(::UnityEngine::Vector3 value) ;
+constexpr void __set_delta(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_delta() const;
+constexpr UnityEngine::Vector3 __get_delta() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_lazyPoint, put=__set_lazyPoint))  lazyPoint;
+ UnityEngine::Vector3 __declspec(property(get=__get_lazyPoint, put=__set_lazyPoint))  lazyPoint;
 
-constexpr void __set_lazyPoint(::UnityEngine::Vector3 value) ;
+constexpr void __set_lazyPoint(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_lazyPoint() const;
+constexpr UnityEngine::Vector3 __get_lazyPoint() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_direction, put=__set_direction))  direction;
+ UnityEngine::Vector3 __declspec(property(get=__get_direction, put=__set_direction))  direction;
 
-constexpr void __set_direction(::UnityEngine::Vector3 value) ;
+constexpr void __set_direction(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_direction() const;
+constexpr UnityEngine::Vector3 __get_direction() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_lastPosition, put=__set_lastPosition))  lastPosition;
+ UnityEngine::Vector3 __declspec(property(get=__get_lastPosition, put=__set_lastPosition))  lastPosition;
 
-constexpr void __set_lastPosition(::UnityEngine::Vector3 value) ;
+constexpr void __set_lastPosition(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_lastPosition() const;
+constexpr UnityEngine::Vector3 __get_lastPosition() const;
 
  bool __declspec(property(get=__get_firstUpdate, put=__set_firstUpdate))  firstUpdate;
 
@@ -214,10 +213,10 @@ constexpr bool __get_firstUpdate() const;
  void Reset() ;
 
 /// @brief Method Update addr 0x1209ba8 size 0x2a4 virtual false final false
- void Update(::RootMotion::FinalIK::IKSolverFullBodyBiped solver, float_t weight, float_t deltaTime) ;
+ void Update(RootMotion::FinalIK::IKSolverFullBodyBiped solver, float_t weight, float_t deltaTime) ;
 
 // Ctor Parameters []
-explicit ____RootMotion__FinalIK__Inertia__Body() ;
+explicit RootMotion__FinalIK__Inertia__Body() ;
 
 /// @brief Method .ctor addr 0x1209f04 size 0x1c virtual false final false
  void _ctor() ;
@@ -232,10 +231,10 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12598))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12594))
 // CS Name: RootMotion.FinalIK.Inertia
-class CORDL_TYPE Inertia : public ::RootMotion::FinalIK::OffsetModifier {
+class CORDL_TYPE Inertia : public RootMotion::FinalIK::OffsetModifier {
 public:
 // Declarations
-using Body = ::RootMotion::FinalIK::____RootMotion__FinalIK__Inertia__Body;
+using Body = RootMotion::FinalIK::RootMotion__FinalIK__Inertia__Body;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -249,7 +248,7 @@ constexpr Inertia(Inertia const& ) noexcept = default;
 constexpr Inertia(Inertia&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Inertia(void* ptr) noexcept : ::RootMotion::FinalIK::OffsetModifier(ptr) {
+constexpr explicit Inertia(void* ptr) noexcept : RootMotion::FinalIK::OffsetModifier(ptr) {
 }
 
 
@@ -270,17 +269,17 @@ constexpr explicit Inertia(void* ptr) noexcept : ::RootMotion::FinalIK::OffsetMo
 
 // Fields
 
- ::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__Inertia__Body> __declspec(property(get=__get_bodies, put=__set_bodies))  bodies;
+ ::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__Inertia__Body> __declspec(property(get=__get_bodies, put=__set_bodies))  bodies;
 
-constexpr void __set_bodies(::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__Inertia__Body> value) ;
+constexpr void __set_bodies(::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__Inertia__Body> value) ;
 
-constexpr ::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__Inertia__Body> __get_bodies() const;
+constexpr ::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__Inertia__Body> __get_bodies() const;
 
- ::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__OffsetModifier__OffsetLimits> __declspec(property(get=__get_limits, put=__set_limits))  limits;
+ ::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__OffsetModifier__OffsetLimits> __declspec(property(get=__get_limits, put=__set_limits))  limits;
 
-constexpr void __set_limits(::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__OffsetModifier__OffsetLimits> value) ;
+constexpr void __set_limits(::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__OffsetModifier__OffsetLimits> value) ;
 
-constexpr ::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__OffsetModifier__OffsetLimits> __get_limits() const;
+constexpr ::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__OffsetModifier__OffsetLimits> __get_limits() const;
 
 
 // Methods
@@ -301,10 +300,9 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::______RootMotion__FinalIK__Inertia__Body__EffectorLink);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::______RootMotion__FinalIK__Inertia__Body__EffectorLink, "RootMotion.FinalIK", "Inertia/Body/EffectorLink");
-NEED_NO_BOX(::RootMotion::FinalIK::Inertia);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::Inertia, "RootMotion.FinalIK", "Inertia");
-NEED_NO_BOX(::RootMotion::FinalIK::____RootMotion__FinalIK__Inertia__Body);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::____RootMotion__FinalIK__Inertia__Body, "RootMotion.FinalIK", "Inertia/Body");
+NEED_NO_BOX(GlobalNamespace::RootMotion__FinalIK__Inertia__Body__EffectorLink);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RootMotion__FinalIK__Inertia__Body__EffectorLink, "RootMotion.FinalIK", "Inertia/Body/EffectorLink");
+NEED_NO_BOX(RootMotion::FinalIK::Inertia);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Inertia, "RootMotion.FinalIK", "Inertia");
+NEED_NO_BOX(RootMotion::FinalIK::RootMotion__FinalIK__Inertia__Body);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RootMotion__FinalIK__Inertia__Body, "RootMotion.FinalIK", "Inertia/Body");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Runtime::InteropServices {
 struct DllImportSearchPath;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field UseDllDirectoryForDependencies offset 0
-static ::System::Runtime::InteropServices::DllImportSearchPath const UseDllDirectoryForDependencies;
+static System::Runtime::InteropServices::DllImportSearchPath const UseDllDirectoryForDependencies;
 
 /// @brief Field ApplicationDirectory offset 0
-static ::System::Runtime::InteropServices::DllImportSearchPath const ApplicationDirectory;
+static System::Runtime::InteropServices::DllImportSearchPath const ApplicationDirectory;
 
 /// @brief Field UserDirectories offset 0
-static ::System::Runtime::InteropServices::DllImportSearchPath const UserDirectories;
+static System::Runtime::InteropServices::DllImportSearchPath const UserDirectories;
 
 /// @brief Field System32 offset 0
-static ::System::Runtime::InteropServices::DllImportSearchPath const System32;
+static System::Runtime::InteropServices::DllImportSearchPath const System32;
 
 /// @brief Field SafeDirectories offset 0
-static ::System::Runtime::InteropServices::DllImportSearchPath const SafeDirectories;
+static System::Runtime::InteropServices::DllImportSearchPath const SafeDirectories;
 
 /// @brief Field AssemblyDirectory offset 0
-static ::System::Runtime::InteropServices::DllImportSearchPath const AssemblyDirectory;
+static System::Runtime::InteropServices::DllImportSearchPath const AssemblyDirectory;
 
 /// @brief Field LegacyBehavior offset 0
-static ::System::Runtime::InteropServices::DllImportSearchPath const LegacyBehavior;
+static System::Runtime::InteropServices::DllImportSearchPath const LegacyBehavior;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::InteropServices
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::DllImportSearchPath, "System.Runtime.InteropServices", "DllImportSearchPath");
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::DllImportSearchPath, "System.Runtime.InteropServices", "DllImportSearchPath");

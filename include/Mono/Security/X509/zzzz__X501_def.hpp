@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Mono::Security {
 class ASN1;
 }
@@ -157,18 +156,17 @@ static ::ArrayW<uint8_t> __get_initial() ;
 // Methods
 
 /// @brief Method ToString addr 0x2282cd8 size 0x138 virtual false final false
-static ::StringW ToString(::Mono::Security::ASN1 seq) ;
+static ::StringW ToString(Mono::Security::ASN1 seq) ;
 
 /// @brief Method ToString addr 0x228acac size 0x1a8 virtual false final false
-static ::StringW ToString(::Mono::Security::ASN1 seq, bool reversed, ::StringW separator, bool quotes) ;
+static ::StringW ToString(Mono::Security::ASN1 seq, bool reversed, ::StringW separator, bool quotes) ;
 
 /// @brief Method AppendEntry addr 0x228a4e8 size 0x7c4 virtual false final false
-static void AppendEntry(::System::Text::StringBuilder sb, ::Mono::Security::ASN1 entry, bool quotes) ;
+static void AppendEntry(System::Text::StringBuilder sb, Mono::Security::ASN1 entry, bool quotes) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Security::X509
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Security::X509::X501);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::X509::X501, "Mono.Security.X509", "X501");
+NEED_NO_BOX(Mono::Security::X509::X501);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X501, "Mono.Security.X509", "X501");

@@ -3,15 +3,8 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class Delegate;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
 class IObjectReference;
@@ -19,12 +12,18 @@ class IObjectReference;
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
 // Forward declare root types
 namespace System {
 class DelegateSerializationHolder;
 }
 namespace System {
-class ____System__DelegateSerializationHolder__DelegateEntry;
+class System__DelegateSerializationHolder__DelegateEntry;
 }
 // Type: ::DelegateEntry
 namespace System {
@@ -32,37 +31,37 @@ namespace System {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2589))
 // CS Name: System.DelegateSerializationHolder::DelegateEntry
-class CORDL_TYPE ____System__DelegateSerializationHolder__DelegateEntry : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__DelegateSerializationHolder__DelegateEntry : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
 
-virtual ~____System__DelegateSerializationHolder__DelegateEntry() = default;
+virtual ~System__DelegateSerializationHolder__DelegateEntry() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__DelegateSerializationHolder__DelegateEntry", modifiers: " const&", def_value: None }]
-constexpr ____System__DelegateSerializationHolder__DelegateEntry(____System__DelegateSerializationHolder__DelegateEntry const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__DelegateSerializationHolder__DelegateEntry", modifiers: " const&", def_value: None }]
+constexpr System__DelegateSerializationHolder__DelegateEntry(System__DelegateSerializationHolder__DelegateEntry const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__DelegateSerializationHolder__DelegateEntry", modifiers: "&&", def_value: None }]
-constexpr ____System__DelegateSerializationHolder__DelegateEntry(____System__DelegateSerializationHolder__DelegateEntry&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__DelegateSerializationHolder__DelegateEntry", modifiers: "&&", def_value: None }]
+constexpr System__DelegateSerializationHolder__DelegateEntry(System__DelegateSerializationHolder__DelegateEntry&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__DelegateSerializationHolder__DelegateEntry(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__DelegateSerializationHolder__DelegateEntry(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__DelegateSerializationHolder__DelegateEntry& operator=(std::nullptr_t) noexcept {
+  constexpr System__DelegateSerializationHolder__DelegateEntry& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__DelegateSerializationHolder__DelegateEntry& operator=(void* o) noexcept {
+  constexpr System__DelegateSerializationHolder__DelegateEntry& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__DelegateSerializationHolder__DelegateEntry& operator=(____System__DelegateSerializationHolder__DelegateEntry&& o) noexcept = default;
-  constexpr ____System__DelegateSerializationHolder__DelegateEntry& operator=(____System__DelegateSerializationHolder__DelegateEntry const& o) noexcept = default;
+  constexpr System__DelegateSerializationHolder__DelegateEntry& operator=(System__DelegateSerializationHolder__DelegateEntry&& o) noexcept = default;
+  constexpr System__DelegateSerializationHolder__DelegateEntry& operator=(System__DelegateSerializationHolder__DelegateEntry const& o) noexcept = default;
                 
 
 
@@ -104,23 +103,23 @@ constexpr void __set_methodName(::StringW value) ;
 
 constexpr ::StringW __get_methodName() const;
 
- ::System::____System__DelegateSerializationHolder__DelegateEntry __declspec(property(get=__get_delegateEntry, put=__set_delegateEntry))  delegateEntry;
+ System::System__DelegateSerializationHolder__DelegateEntry __declspec(property(get=__get_delegateEntry, put=__set_delegateEntry))  delegateEntry;
 
-constexpr void __set_delegateEntry(::System::____System__DelegateSerializationHolder__DelegateEntry value) ;
+constexpr void __set_delegateEntry(System::System__DelegateSerializationHolder__DelegateEntry value) ;
 
-constexpr ::System::____System__DelegateSerializationHolder__DelegateEntry __get_delegateEntry() const;
+constexpr System::System__DelegateSerializationHolder__DelegateEntry __get_delegateEntry() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "del", ty: "::System::Delegate", modifiers: "", def_value: None }, CppParam { name: "targetLabel", ty: "::StringW", modifiers: "", def_value: None }]
-explicit ____System__DelegateSerializationHolder__DelegateEntry(::System::Delegate del, ::StringW targetLabel) ;
+// Ctor Parameters [CppParam { name: "del", ty: "System::Delegate", modifiers: "", def_value: None }, CppParam { name: "targetLabel", ty: "::StringW", modifiers: "", def_value: None }]
+explicit System__DelegateSerializationHolder__DelegateEntry(System::Delegate del, ::StringW targetLabel) ;
 
 /// @brief Method .ctor addr 0x248bae8 size 0x11c virtual false final false
- void _ctor(::System::Delegate del, ::StringW targetLabel) ;
+ void _ctor(System::Delegate del, ::StringW targetLabel) ;
 
 /// @brief Method DeserializeDelegate addr 0x248b870 size 0x278 virtual false final false
- ::System::Delegate DeserializeDelegate(::System::Runtime::Serialization::SerializationInfo info, int32_t index) ;
+ System::Delegate DeserializeDelegate(System::Runtime::Serialization::SerializationInfo info, int32_t index) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -135,13 +134,13 @@ namespace System {
 class CORDL_TYPE DelegateSerializationHolder : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using DelegateEntry = ::System::____System__DelegateSerializationHolder__DelegateEntry;
+using DelegateEntry = System::System__DelegateSerializationHolder__DelegateEntry;
 
-/// @brief Convert operator to ::System::Runtime::Serialization::ISerializable
-constexpr operator  ::System::Runtime::Serialization::ISerializable() const noexcept;
+/// @brief Convert operator to System::Runtime::Serialization::ISerializable
+constexpr operator  System::Runtime::Serialization::ISerializable() const noexcept;
 
-/// @brief Convert operator to ::System::Runtime::Serialization::IObjectReference
-constexpr operator  ::System::Runtime::Serialization::IObjectReference() const noexcept;
+/// @brief Convert operator to System::Runtime::Serialization::IObjectReference
+constexpr operator  System::Runtime::Serialization::IObjectReference() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -176,36 +175,35 @@ constexpr explicit DelegateSerializationHolder(void* ptr) noexcept : ::bs_hook::
 
 // Fields
 
- ::System::Delegate __declspec(property(get=__get__delegate, put=__set__delegate))  _delegate;
+ System::Delegate __declspec(property(get=__get__delegate, put=__set__delegate))  _delegate;
 
-constexpr void __set__delegate(::System::Delegate value) ;
+constexpr void __set__delegate(System::Delegate value) ;
 
-constexpr ::System::Delegate __get__delegate() const;
+constexpr System::Delegate __get__delegate() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "info", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "ctx", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit DelegateSerializationHolder(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext ctx) ;
+// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "ctx", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit DelegateSerializationHolder(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext ctx) ;
 
 /// @brief Method .ctor addr 0x248b670 size 0x200 virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext ctx) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext ctx) ;
 
 /// @brief Method GetDelegateData addr 0x248b250 size 0x248 virtual false final false
-static void GetDelegateData(::System::Delegate instance, ::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext ctx) ;
+static void GetDelegateData(System::Delegate instance, System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext ctx) ;
 
 /// @brief Method GetObjectData addr 0x248bc04 size 0x40 virtual true final true
- void GetObjectData(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void GetObjectData(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method GetRealObject addr 0x248bc44 size 0x8 virtual true final true
- ::bs_hook::Il2CppWrapperType GetRealObject(::System::Runtime::Serialization::StreamingContext context) ;
+ ::bs_hook::Il2CppWrapperType GetRealObject(System::Runtime::Serialization::StreamingContext context) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::DelegateSerializationHolder);
-DEFINE_IL2CPP_ARG_TYPE(::System::DelegateSerializationHolder, "System", "DelegateSerializationHolder");
-NEED_NO_BOX(::System::____System__DelegateSerializationHolder__DelegateEntry);
-DEFINE_IL2CPP_ARG_TYPE(::System::____System__DelegateSerializationHolder__DelegateEntry, "System", "DelegateSerializationHolder/DelegateEntry");
+NEED_NO_BOX(System::DelegateSerializationHolder);
+DEFINE_IL2CPP_ARG_TYPE(System::DelegateSerializationHolder, "System", "DelegateSerializationHolder");
+NEED_NO_BOX(System::System__DelegateSerializationHolder__DelegateEntry);
+DEFINE_IL2CPP_ARG_TYPE(System::System__DelegateSerializationHolder__DelegateEntry, "System", "DelegateSerializationHolder/DelegateEntry");

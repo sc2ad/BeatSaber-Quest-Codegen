@@ -2,9 +2,8 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Newtonsoft::Json {
-class JsonWriter;
+class JsonReader;
 }
 namespace Newtonsoft::Json {
 class JsonSerializer;
@@ -13,7 +12,7 @@ namespace System {
 class Type;
 }
 namespace Newtonsoft::Json {
-class JsonReader;
+class JsonWriter;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -25,7 +24,7 @@ namespace Newtonsoft::Json::Converters {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11772))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11983))
 // CS Name: Newtonsoft.Json.Converters.ResolutionConverter
-class CORDL_TYPE ResolutionConverter : public ::Newtonsoft::Json::JsonConverter {
+class CORDL_TYPE ResolutionConverter : public Newtonsoft::Json::JsonConverter {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr ResolutionConverter(ResolutionConverter const& ) noexcept = default;
 constexpr ResolutionConverter(ResolutionConverter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ResolutionConverter(void* ptr) noexcept : ::Newtonsoft::Json::JsonConverter(ptr) {
+constexpr explicit ResolutionConverter(void* ptr) noexcept : Newtonsoft::Json::JsonConverter(ptr) {
 }
 
 
@@ -67,13 +66,13 @@ constexpr explicit ResolutionConverter(void* ptr) noexcept : ::Newtonsoft::Json:
 // Methods
 
 /// @brief Method WriteJson addr 0x253ec4c size 0x1ac virtual true final false
- void WriteJson(::Newtonsoft::Json::JsonWriter writer, ::bs_hook::Il2CppWrapperType value, ::Newtonsoft::Json::JsonSerializer serializer) ;
+ void WriteJson(Newtonsoft::Json::JsonWriter writer, ::bs_hook::Il2CppWrapperType value, Newtonsoft::Json::JsonSerializer serializer) ;
 
 /// @brief Method CanConvert addr 0x253edf8 size 0x84 virtual true final false
- bool CanConvert(::System::Type objectType) ;
+ bool CanConvert(System::Type objectType) ;
 
 /// @brief Method ReadJson addr 0x253ee7c size 0x16c virtual true final false
- ::bs_hook::Il2CppWrapperType ReadJson(::Newtonsoft::Json::JsonReader reader, ::System::Type objectType, ::bs_hook::Il2CppWrapperType existingValue, ::Newtonsoft::Json::JsonSerializer serializer) ;
+ ::bs_hook::Il2CppWrapperType ReadJson(Newtonsoft::Json::JsonReader reader, System::Type objectType, ::bs_hook::Il2CppWrapperType existingValue, Newtonsoft::Json::JsonSerializer serializer) ;
 
 /// @brief Method get_CanRead addr 0x253efe8 size 0x8 virtual true final false
  bool get_CanRead() ;
@@ -88,6 +87,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Converters
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Converters::ResolutionConverter);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Converters::ResolutionConverter, "Newtonsoft.Json.Converters", "ResolutionConverter");
+NEED_NO_BOX(Newtonsoft::Json::Converters::ResolutionConverter);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Converters::ResolutionConverter, "Newtonsoft.Json.Converters", "ResolutionConverter");

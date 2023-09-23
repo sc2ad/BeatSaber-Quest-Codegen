@@ -3,37 +3,36 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template<typename T>
+class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
 class IEnumerator_1;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace System::Collections {
 class IEnumerable;
 }
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class IDisposable;
+}
 // Forward declare root types
 namespace GlobalNamespace {
+class GlobalNamespace__ProfanityFilter__TrieNode;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4;
+}
+namespace GlobalNamespace {
 class ProfanityFilter;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__ProfanityFilter__TrieNode;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4;
 }
 // Type: ::TrieNode
 namespace GlobalNamespace {
@@ -41,47 +40,47 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12870))
 // CS Name: ProfanityFilter::TrieNode
-class CORDL_TYPE ____GlobalNamespace__ProfanityFilter__TrieNode : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__ProfanityFilter__TrieNode : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____GlobalNamespace__ProfanityFilter__TrieNode() = default;
+virtual ~GlobalNamespace__ProfanityFilter__TrieNode() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__ProfanityFilter__TrieNode", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__ProfanityFilter__TrieNode(____GlobalNamespace__ProfanityFilter__TrieNode const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__ProfanityFilter__TrieNode", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__ProfanityFilter__TrieNode(GlobalNamespace__ProfanityFilter__TrieNode const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__ProfanityFilter__TrieNode", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__ProfanityFilter__TrieNode(____GlobalNamespace__ProfanityFilter__TrieNode&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__ProfanityFilter__TrieNode", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__ProfanityFilter__TrieNode(GlobalNamespace__ProfanityFilter__TrieNode&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__ProfanityFilter__TrieNode(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__ProfanityFilter__TrieNode(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__ProfanityFilter__TrieNode& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__ProfanityFilter__TrieNode& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__ProfanityFilter__TrieNode& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__ProfanityFilter__TrieNode& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__ProfanityFilter__TrieNode& operator=(____GlobalNamespace__ProfanityFilter__TrieNode&& o) noexcept = default;
-  constexpr ____GlobalNamespace__ProfanityFilter__TrieNode& operator=(____GlobalNamespace__ProfanityFilter__TrieNode const& o) noexcept = default;
+  constexpr GlobalNamespace__ProfanityFilter__TrieNode& operator=(GlobalNamespace__ProfanityFilter__TrieNode&& o) noexcept = default;
+  constexpr GlobalNamespace__ProfanityFilter__TrieNode& operator=(GlobalNamespace__ProfanityFilter__TrieNode const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Collections::Generic::Dictionary_2<char16_t,::GlobalNamespace::____GlobalNamespace__ProfanityFilter__TrieNode> __declspec(property(get=__get__children, put=__set__children))  _children;
+ System::Collections::Generic::Dictionary_2<char16_t,GlobalNamespace::GlobalNamespace__ProfanityFilter__TrieNode> __declspec(property(get=__get__children, put=__set__children))  _children;
 
-constexpr void __set__children(::System::Collections::Generic::Dictionary_2<char16_t,::GlobalNamespace::____GlobalNamespace__ProfanityFilter__TrieNode> value) ;
+constexpr void __set__children(System::Collections::Generic::Dictionary_2<char16_t,GlobalNamespace::GlobalNamespace__ProfanityFilter__TrieNode> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<char16_t,::GlobalNamespace::____GlobalNamespace__ProfanityFilter__TrieNode> __get__children() const;
+constexpr System::Collections::Generic::Dictionary_2<char16_t,GlobalNamespace::GlobalNamespace__ProfanityFilter__TrieNode> __get__children() const;
 
  int32_t __declspec(property(get=__get__shortestWord, put=__set__shortestWord))  _shortestWord;
 
@@ -99,7 +98,7 @@ constexpr int32_t __get__shortestWord() const;
  bool IsMatch(::StringW word, int32_t index) ;
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__ProfanityFilter__TrieNode() ;
+explicit GlobalNamespace__ProfanityFilter__TrieNode() ;
 
 /// @brief Method .ctor addr 0xdc688c size 0x10 virtual false final false
  void _ctor() ;
@@ -114,52 +113,52 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12871))
 // CS Name: ProfanityFilter::<GetLookalikeLetters>d__4
-class CORDL_TYPE ____GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerable_1<char16_t>
-constexpr operator  ::System::Collections::Generic::IEnumerable_1<char16_t>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerable_1<char16_t>
+constexpr operator  System::Collections::Generic::IEnumerable_1<char16_t>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<char16_t>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<char16_t>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<char16_t>
+constexpr operator  System::Collections::Generic::IEnumerator_1<char16_t>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4() = default;
+virtual ~GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4(____GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4(GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4(____GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4(GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4& operator=(____GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4&& o) noexcept = default;
-  constexpr ____GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4& operator=(____GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4 const& o) noexcept = default;
+  constexpr GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4& operator=(GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4&& o) noexcept = default;
+  constexpr GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4& operator=(GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4 const& o) noexcept = default;
                 
 
 
@@ -206,7 +205,7 @@ constexpr char16_t __get___3__c() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4(int32_t __1__state) ;
+explicit GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0xdc6fb8 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -227,10 +226,10 @@ explicit ____GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4(int32_t
  ::bs_hook::Il2CppWrapperType System_Collections_IEnumerator_get_Current() ;
 
 /// @brief Method System.Collections.Generic.IEnumerable<System.Char>.GetEnumerator addr 0xdc71a4 size 0xa4 virtual true final true
- ::System::Collections::Generic::IEnumerator_1<char16_t> System_Collections_Generic_IEnumerable_System_Char__GetEnumerator() ;
+ System::Collections::Generic::IEnumerator_1<char16_t> System_Collections_Generic_IEnumerable_System_Char__GetEnumerator() ;
 
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0xdc7248 size 0x4 virtual true final true
- ::System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
+ System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -245,9 +244,9 @@ namespace GlobalNamespace {
 class CORDL_TYPE ProfanityFilter : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using _GetLookalikeLetters_d__4 = ::GlobalNamespace::____GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4;
+using _GetLookalikeLetters_d__4 = GlobalNamespace::GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4;
 
-using TrieNode = ::GlobalNamespace::____GlobalNamespace__ProfanityFilter__TrieNode;
+using TrieNode = GlobalNamespace::GlobalNamespace__ProfanityFilter__TrieNode;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -282,26 +281,26 @@ constexpr explicit ProfanityFilter(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Fields
 
- ::GlobalNamespace::____GlobalNamespace__ProfanityFilter__TrieNode __declspec(property(get=__get__trie, put=__set__trie))  _trie;
+ GlobalNamespace::GlobalNamespace__ProfanityFilter__TrieNode __declspec(property(get=__get__trie, put=__set__trie))  _trie;
 
-constexpr void __set__trie(::GlobalNamespace::____GlobalNamespace__ProfanityFilter__TrieNode value) ;
+constexpr void __set__trie(GlobalNamespace::GlobalNamespace__ProfanityFilter__TrieNode value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__ProfanityFilter__TrieNode __get__trie() const;
+constexpr GlobalNamespace::GlobalNamespace__ProfanityFilter__TrieNode __get__trie() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "wordList", ty: "::System::Collections::Generic::IEnumerable_1<::StringW>", modifiers: "", def_value: None }]
-explicit ProfanityFilter(::System::Collections::Generic::IEnumerable_1<::StringW> wordList) ;
+// Ctor Parameters [CppParam { name: "wordList", ty: "System::Collections::Generic::IEnumerable_1<::StringW>", modifiers: "", def_value: None }]
+explicit ProfanityFilter(System::Collections::Generic::IEnumerable_1<::StringW> wordList) ;
 
 /// @brief Method .ctor addr 0xdc654c size 0x340 virtual false final false
- void _ctor(::System::Collections::Generic::IEnumerable_1<::StringW> wordList) ;
+ void _ctor(System::Collections::Generic::IEnumerable_1<::StringW> wordList) ;
 
 /// @brief Method IsProfane addr 0xdc6d60 size 0x68 virtual false final false
  bool IsProfane(::StringW word) ;
 
 /// @brief Method GetLookalikeLetters addr 0xdc6f40 size 0x78 virtual false final false
-static ::System::Collections::Generic::IEnumerable_1<char16_t> GetLookalikeLetters(char16_t c) ;
+static System::Collections::Generic::IEnumerable_1<char16_t> GetLookalikeLetters(char16_t c) ;
 
 /// @brief Method GetLeetEquivalent addr 0xdc6fec size 0x6c virtual false final false
 static char16_t GetLeetEquivalent(char16_t c) ;
@@ -310,10 +309,9 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ProfanityFilter);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ProfanityFilter, "", "ProfanityFilter");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__ProfanityFilter__TrieNode);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__ProfanityFilter__TrieNode, "", "ProfanityFilter/TrieNode");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4, "", "ProfanityFilter/<GetLookalikeLetters>d__4");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__ProfanityFilter__TrieNode);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__ProfanityFilter__TrieNode, "", "ProfanityFilter/TrieNode");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4, "", "ProfanityFilter/<GetLookalikeLetters>d__4");
+NEED_NO_BOX(GlobalNamespace::ProfanityFilter);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ProfanityFilter, "", "ProfanityFilter");

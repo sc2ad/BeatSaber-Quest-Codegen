@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Utilities {
 class IMemoable;
 }
@@ -18,7 +17,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(750))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(765))
 // CS Name: Org.BouncyCastle.Crypto.Digests.RipeMD320Digest
-class CORDL_TYPE RipeMD320Digest : public ::Org::BouncyCastle::Crypto::Digests::GeneralDigest {
+class CORDL_TYPE RipeMD320Digest : public Org::BouncyCastle::Crypto::Digests::GeneralDigest {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr RipeMD320Digest(RipeMD320Digest const& ) noexcept = default;
 constexpr RipeMD320Digest(RipeMD320Digest&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RipeMD320Digest(void* ptr) noexcept : ::Org::BouncyCastle::Crypto::Digests::GeneralDigest(ptr) {
+constexpr explicit RipeMD320Digest(void* ptr) noexcept : Org::BouncyCastle::Crypto::Digests::GeneralDigest(ptr) {
 }
 
 
@@ -149,14 +148,14 @@ explicit RipeMD320Digest() ;
 /// @brief Method .ctor addr 0xe13410 size 0x6c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "t", ty: "::Org::BouncyCastle::Crypto::Digests::RipeMD320Digest", modifiers: "", def_value: None }]
-explicit RipeMD320Digest(::Org::BouncyCastle::Crypto::Digests::RipeMD320Digest t) ;
+// Ctor Parameters [CppParam { name: "t", ty: "Org::BouncyCastle::Crypto::Digests::RipeMD320Digest", modifiers: "", def_value: None }]
+explicit RipeMD320Digest(Org::BouncyCastle::Crypto::Digests::RipeMD320Digest t) ;
 
 /// @brief Method .ctor addr 0xe1347c size 0x74 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::Digests::RipeMD320Digest t) ;
+ void _ctor(Org::BouncyCastle::Crypto::Digests::RipeMD320Digest t) ;
 
 /// @brief Method CopyIn addr 0xe134f0 size 0x74 virtual false final false
- void CopyIn(::Org::BouncyCastle::Crypto::Digests::RipeMD320Digest t) ;
+ void CopyIn(Org::BouncyCastle::Crypto::Digests::RipeMD320Digest t) ;
 
 /// @brief Method ProcessWord addr 0xe13564 size 0xbc virtual true final false
  void ProcessWord(::ArrayW<uint8_t> input, int32_t inOff) ;
@@ -195,15 +194,14 @@ explicit RipeMD320Digest(::Org::BouncyCastle::Crypto::Digests::RipeMD320Digest t
  void ProcessBlock() ;
 
 /// @brief Method Copy addr 0xe150c8 size 0x60 virtual true final false
- ::Org::BouncyCastle::Utilities::IMemoable Copy() ;
+ Org::BouncyCastle::Utilities::IMemoable Copy() ;
 
 /// @brief Method Reset addr 0xe15128 size 0x84 virtual true final false
- void Reset(::Org::BouncyCastle::Utilities::IMemoable other) ;
+ void Reset(Org::BouncyCastle::Utilities::IMemoable other) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Digests
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::RipeMD320Digest);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Digests::RipeMD320Digest, "Org.BouncyCastle.Crypto.Digests", "RipeMD320Digest");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Digests::RipeMD320Digest);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::RipeMD320Digest, "Org.BouncyCastle.Crypto.Digests", "RipeMD320Digest");

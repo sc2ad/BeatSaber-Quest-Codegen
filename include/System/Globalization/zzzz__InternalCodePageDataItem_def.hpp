@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Globalization {
 struct InternalCodePageDataItem;
@@ -79,5 +78,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Globalization
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::InternalCodePageDataItem, "System.Globalization", "InternalCodePageDataItem");
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::InternalCodePageDataItem, "System.Globalization", "InternalCodePageDataItem");

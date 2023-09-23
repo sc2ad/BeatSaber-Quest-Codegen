@@ -1,9 +1,15 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace System {
-class Type;
+namespace UnityEngine::UIElements {
+class DetachFromPanelEvent;
+}
+namespace UnityEngine::UIElements {
+class IGroupBox;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace UnityEngine::UIElements {
 class IGroupManager;
@@ -11,21 +17,14 @@ class IGroupManager;
 namespace UnityEngine::UIElements {
 class IGroupBoxOption;
 }
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+namespace UnityEngine::UIElements {
+class AttachToPanelEvent;
 }
 namespace UnityEngine::UIElements {
 class BaseVisualElementPanel;
 }
-namespace UnityEngine::UIElements {
-class IGroupBox;
-}
-namespace UnityEngine::UIElements {
-class DetachFromPanelEvent;
-}
-namespace UnityEngine::UIElements {
-class AttachToPanelEvent;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -73,23 +72,23 @@ constexpr explicit GroupBoxUtility(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Fields
 
-static ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::IGroupBox,::UnityEngine::UIElements::IGroupManager> __declspec(property(get=__get_s_GroupManagers, put=__set_s_GroupManagers))  s_GroupManagers;
+static System::Collections::Generic::Dictionary_2<UnityEngine::UIElements::IGroupBox,UnityEngine::UIElements::IGroupManager> __declspec(property(get=__get_s_GroupManagers, put=__set_s_GroupManagers))  s_GroupManagers;
 
-static void __set_s_GroupManagers(::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::IGroupBox,::UnityEngine::UIElements::IGroupManager> value) ;
+static void __set_s_GroupManagers(System::Collections::Generic::Dictionary_2<UnityEngine::UIElements::IGroupBox,UnityEngine::UIElements::IGroupManager> value) ;
 
-static ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::IGroupBox,::UnityEngine::UIElements::IGroupManager> __get_s_GroupManagers() ;
+static System::Collections::Generic::Dictionary_2<UnityEngine::UIElements::IGroupBox,UnityEngine::UIElements::IGroupManager> __get_s_GroupManagers() ;
 
-static ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::IGroupBoxOption,::UnityEngine::UIElements::IGroupManager> __declspec(property(get=__get_s_GroupOptionManagerCache, put=__set_s_GroupOptionManagerCache))  s_GroupOptionManagerCache;
+static System::Collections::Generic::Dictionary_2<UnityEngine::UIElements::IGroupBoxOption,UnityEngine::UIElements::IGroupManager> __declspec(property(get=__get_s_GroupOptionManagerCache, put=__set_s_GroupOptionManagerCache))  s_GroupOptionManagerCache;
 
-static void __set_s_GroupOptionManagerCache(::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::IGroupBoxOption,::UnityEngine::UIElements::IGroupManager> value) ;
+static void __set_s_GroupOptionManagerCache(System::Collections::Generic::Dictionary_2<UnityEngine::UIElements::IGroupBoxOption,UnityEngine::UIElements::IGroupManager> value) ;
 
-static ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::IGroupBoxOption,::UnityEngine::UIElements::IGroupManager> __get_s_GroupOptionManagerCache() ;
+static System::Collections::Generic::Dictionary_2<UnityEngine::UIElements::IGroupBoxOption,UnityEngine::UIElements::IGroupManager> __get_s_GroupOptionManagerCache() ;
 
-static ::System::Type __declspec(property(get=__get_k_GenericGroupBoxType, put=__set_k_GenericGroupBoxType))  k_GenericGroupBoxType;
+static System::Type __declspec(property(get=__get_k_GenericGroupBoxType, put=__set_k_GenericGroupBoxType))  k_GenericGroupBoxType;
 
-static void __set_k_GenericGroupBoxType(::System::Type value) ;
+static void __set_k_GenericGroupBoxType(System::Type value) ;
 
-static ::System::Type __get_k_GenericGroupBoxType() ;
+static System::Type __get_k_GenericGroupBoxType() ;
 
 
 // Methods
@@ -103,24 +102,23 @@ template<typename T>
 static void OnOptionSelected(T selectedOption) ;
 
 /// @brief Method OnOptionAttachToPanel addr 0x2c8b240 size 0x24c virtual false final false
-static void OnOptionAttachToPanel(::UnityEngine::UIElements::AttachToPanelEvent evt) ;
+static void OnOptionAttachToPanel(UnityEngine::UIElements::AttachToPanelEvent evt) ;
 
 /// @brief Method OnOptionDetachFromPanel addr 0x2c8b86c size 0x1b4 virtual false final false
-static void OnOptionDetachFromPanel(::UnityEngine::UIElements::DetachFromPanelEvent evt) ;
+static void OnOptionDetachFromPanel(UnityEngine::UIElements::DetachFromPanelEvent evt) ;
 
 /// @brief Method FindOrCreateGroupManager addr 0x2c8b48c size 0x3e0 virtual false final false
-static ::UnityEngine::UIElements::IGroupManager FindOrCreateGroupManager(::UnityEngine::UIElements::IGroupBox groupBox) ;
+static UnityEngine::UIElements::IGroupManager FindOrCreateGroupManager(UnityEngine::UIElements::IGroupBox groupBox) ;
 
 /// @brief Method OnGroupBoxDetachedFromPanel addr 0x2c8ba20 size 0xb4 virtual false final false
-static void OnGroupBoxDetachedFromPanel(::UnityEngine::UIElements::DetachFromPanelEvent evt) ;
+static void OnGroupBoxDetachedFromPanel(UnityEngine::UIElements::DetachFromPanelEvent evt) ;
 
 /// @brief Method OnPanelDestroyed addr 0x2c8bad4 size 0xdc virtual false final false
-static void OnPanelDestroyed(::UnityEngine::UIElements::BaseVisualElementPanel panel) ;
+static void OnPanelDestroyed(UnityEngine::UIElements::BaseVisualElementPanel panel) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::GroupBoxUtility);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::GroupBoxUtility, "UnityEngine.UIElements", "GroupBoxUtility");
+NEED_NO_BOX(UnityEngine::UIElements::GroupBoxUtility);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::GroupBoxUtility, "UnityEngine.UIElements", "GroupBoxUtility");

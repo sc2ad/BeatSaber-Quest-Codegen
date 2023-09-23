@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_def.hpp"
 #include "Oculus/Platform/Models/zzzz__Destination_def.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class DestinationList;
@@ -14,7 +13,7 @@ namespace Oculus::Platform::Models {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13410)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1136 }), TypeDefinitionIndex(TypeDefinitionIndex(13411))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13412))
 // CS Name: Oculus.Platform.Models.DestinationList
-class CORDL_TYPE DestinationList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::Destination> {
+class CORDL_TYPE DestinationList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::Destination> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr DestinationList(DestinationList const& ) noexcept = default;
 constexpr DestinationList(DestinationList&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DestinationList(void* ptr) noexcept : ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::Destination>(ptr) {
+constexpr explicit DestinationList(void* ptr) noexcept : Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::Destination>(ptr) {
 }
 
 
@@ -60,6 +59,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::DestinationList);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::DestinationList, "Oculus.Platform.Models", "DestinationList");
+NEED_NO_BOX(Oculus::Platform::Models::DestinationList);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::DestinationList, "Oculus.Platform.Models", "DestinationList");

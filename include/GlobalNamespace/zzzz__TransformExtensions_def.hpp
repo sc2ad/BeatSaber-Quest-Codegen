@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace UnityEngine {
 class Transform;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -55,12 +54,11 @@ constexpr explicit TransformExtensions(void* ptr) noexcept : ::bs_hook::Il2CppWr
 // Methods
 
 /// @brief Method InverseTransformRotation addr 0x1f7c534 size 0xb4 virtual false final false
-static ::UnityEngine::Quaternion InverseTransformRotation(::UnityEngine::Transform trans, ::UnityEngine::Quaternion worldRotation) ;
+static UnityEngine::Quaternion InverseTransformRotation(UnityEngine::Transform trans, UnityEngine::Quaternion worldRotation) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::TransformExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TransformExtensions, "", "TransformExtensions");
+NEED_NO_BOX(GlobalNamespace::TransformExtensions);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TransformExtensions, "", "TransformExtensions");

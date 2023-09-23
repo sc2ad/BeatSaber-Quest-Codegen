@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace GlobalNamespace {
 struct MultiplayerUnavailableReason;
 }
-namespace GlobalNamespace {
-class MultiplayerStatusData;
-}
 namespace Polyglot {
 struct Language;
+}
+namespace GlobalNamespace {
+class MultiplayerStatusData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -75,16 +74,16 @@ static constexpr ::ConstString  kMultiplayerUnavailableTryAgain{u"MULTIPLAYER_UN
 // Methods
 
 /// @brief Method LocalizedKey addr 0x22002cc size 0x84 virtual false final false
-static ::StringW LocalizedKey(::GlobalNamespace::MultiplayerUnavailableReason multiplayerUnavailableReason) ;
+static ::StringW LocalizedKey(GlobalNamespace::MultiplayerUnavailableReason multiplayerUnavailableReason) ;
 
 /// @brief Method ErrorCode addr 0x2200350 size 0x80 virtual false final false
-static ::StringW ErrorCode(::GlobalNamespace::MultiplayerUnavailableReason multiplayerUnavailableReason) ;
+static ::StringW ErrorCode(GlobalNamespace::MultiplayerUnavailableReason multiplayerUnavailableReason) ;
 
 /// @brief Method TryGetMultiplayerUnavailableReason addr 0x22003d0 size 0x108 virtual false final false
-static bool TryGetMultiplayerUnavailableReason(::GlobalNamespace::MultiplayerStatusData data, ByRef<::GlobalNamespace::MultiplayerUnavailableReason> reason) ;
+static bool TryGetMultiplayerUnavailableReason(GlobalNamespace::MultiplayerStatusData data, ByRef<GlobalNamespace::MultiplayerUnavailableReason> reason) ;
 
 /// @brief Method GetLocalizedMessage addr 0x22006e0 size 0xb0 virtual false final false
-static ::StringW GetLocalizedMessage(::GlobalNamespace::MultiplayerStatusData data, ::Polyglot::Language language) ;
+static ::StringW GetLocalizedMessage(GlobalNamespace::MultiplayerStatusData data, Polyglot::Language language) ;
 
 /// @brief Method VersionLessThan addr 0x22004d8 size 0x208 virtual false final false
 static bool VersionLessThan(::StringW currentVersion, ::StringW minVersion) ;
@@ -93,6 +92,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerUnavailableReasonMethods);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerUnavailableReasonMethods, "", "MultiplayerUnavailableReasonMethods");
+NEED_NO_BOX(GlobalNamespace::MultiplayerUnavailableReasonMethods);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerUnavailableReasonMethods, "", "MultiplayerUnavailableReasonMethods");

@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class IBlockCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -24,8 +23,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
 class CORDL_TYPE RC564Engine : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IBlockCipher
-constexpr operator  ::Org::BouncyCastle::Crypto::IBlockCipher() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IBlockCipher
+constexpr operator  Org::BouncyCastle::Crypto::IBlockCipher() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -128,7 +127,7 @@ explicit RC564Engine() ;
  int32_t GetBlockSize() ;
 
 /// @brief Method Init addr 0xe4f450 size 0x1a0 virtual true final false
- void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method ProcessBlock addr 0xe4f8c0 size 0x10 virtual true final false
  int32_t ProcessBlock(::ArrayW<uint8_t> input, int32_t inOff, ::ArrayW<uint8_t> output, int32_t outOff) ;
@@ -161,6 +160,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Engines
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::RC564Engine);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Engines::RC564Engine, "Org.BouncyCastle.Crypto.Engines", "RC564Engine");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Engines::RC564Engine);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::RC564Engine, "Org.BouncyCastle.Crypto.Engines", "RC564Engine");

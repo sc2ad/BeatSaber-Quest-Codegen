@@ -1,9 +1,8 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 namespace UnityEngine::Timeline {
-struct ____UnityEngine__Timeline__TimelineAsset__MediaType;
+struct UnityEngine__Timeline__TimelineAsset__MediaType;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -15,7 +14,7 @@ namespace UnityEngine::Timeline {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14125))
 // CS Name: UnityEngine.Timeline.TrackMediaType
-class CORDL_TYPE TrackMediaType : public ::System::Attribute {
+class CORDL_TYPE TrackMediaType : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr TrackMediaType(TrackMediaType const& ) noexcept = default;
 constexpr TrackMediaType(TrackMediaType&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TrackMediaType(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit TrackMediaType(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -51,25 +50,24 @@ constexpr explicit TrackMediaType(void* ptr) noexcept : ::System::Attribute(ptr)
 
 // Fields
 
- ::UnityEngine::Timeline::____UnityEngine__Timeline__TimelineAsset__MediaType __declspec(property(get=__get_m_MediaType, put=__set_m_MediaType))  m_MediaType;
+ UnityEngine::Timeline::UnityEngine__Timeline__TimelineAsset__MediaType __declspec(property(get=__get_m_MediaType, put=__set_m_MediaType))  m_MediaType;
 
-constexpr void __set_m_MediaType(::UnityEngine::Timeline::____UnityEngine__Timeline__TimelineAsset__MediaType value) ;
+constexpr void __set_m_MediaType(UnityEngine::Timeline::UnityEngine__Timeline__TimelineAsset__MediaType value) ;
 
-constexpr ::UnityEngine::Timeline::____UnityEngine__Timeline__TimelineAsset__MediaType __get_m_MediaType() const;
+constexpr UnityEngine::Timeline::UnityEngine__Timeline__TimelineAsset__MediaType __get_m_MediaType() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "mt", ty: "::UnityEngine::Timeline::____UnityEngine__Timeline__TimelineAsset__MediaType", modifiers: "", def_value: None }]
-explicit TrackMediaType(::UnityEngine::Timeline::____UnityEngine__Timeline__TimelineAsset__MediaType mt) ;
+// Ctor Parameters [CppParam { name: "mt", ty: "UnityEngine::Timeline::UnityEngine__Timeline__TimelineAsset__MediaType", modifiers: "", def_value: None }]
+explicit TrackMediaType(UnityEngine::Timeline::UnityEngine__Timeline__TimelineAsset__MediaType mt) ;
 
 /// @brief Method .ctor addr 0x2ad5cc4 size 0x28 virtual false final false
- void _ctor(::UnityEngine::Timeline::____UnityEngine__Timeline__TimelineAsset__MediaType mt) ;
+ void _ctor(UnityEngine::Timeline::UnityEngine__Timeline__TimelineAsset__MediaType mt) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Timeline::TrackMediaType);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::TrackMediaType, "UnityEngine.Timeline", "TrackMediaType");
+NEED_NO_BOX(UnityEngine::Timeline::TrackMediaType);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackMediaType, "UnityEngine.Timeline", "TrackMediaType");

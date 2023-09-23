@@ -1,6 +1,5 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;
 }
@@ -27,12 +26,11 @@ constexpr explicit IContributeServerContextSink(void* ptr) noexcept : ::cordl_in
 // Methods
 
 /// @brief Method GetServerContextSink addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Runtime::Remoting::Messaging::IMessageSink GetServerContextSink(::System::Runtime::Remoting::Messaging::IMessageSink nextSink) ;
+ System::Runtime::Remoting::Messaging::IMessageSink GetServerContextSink(System::Runtime::Remoting::Messaging::IMessageSink nextSink) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Contexts
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Contexts::IContributeServerContextSink);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Contexts::IContributeServerContextSink, "System.Runtime.Remoting.Contexts", "IContributeServerContextSink");
+NEED_NO_BOX(System::Runtime::Remoting::Contexts::IContributeServerContextSink);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::IContributeServerContextSink, "System.Runtime.Remoting.Contexts", "IContributeServerContextSink");

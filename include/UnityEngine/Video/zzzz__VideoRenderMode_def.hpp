@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Video {
 struct VideoRenderMode;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field CameraFarPlane offset 0
-static ::UnityEngine::Video::VideoRenderMode const CameraFarPlane;
+static UnityEngine::Video::VideoRenderMode const CameraFarPlane;
 
 /// @brief Field CameraNearPlane offset 0
-static ::UnityEngine::Video::VideoRenderMode const CameraNearPlane;
+static UnityEngine::Video::VideoRenderMode const CameraNearPlane;
 
 /// @brief Field RenderTexture offset 0
-static ::UnityEngine::Video::VideoRenderMode const RenderTexture;
+static UnityEngine::Video::VideoRenderMode const RenderTexture;
 
 /// @brief Field MaterialOverride offset 0
-static ::UnityEngine::Video::VideoRenderMode const MaterialOverride;
+static UnityEngine::Video::VideoRenderMode const MaterialOverride;
 
 /// @brief Field APIOnly offset 0
-static ::UnityEngine::Video::VideoRenderMode const APIOnly;
+static UnityEngine::Video::VideoRenderMode const APIOnly;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Video
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Video::VideoRenderMode, "UnityEngine.Video", "VideoRenderMode");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Video::VideoRenderMode, "UnityEngine.Video", "VideoRenderMode");

@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::IO {
 class Stream;
 }
@@ -20,7 +19,7 @@ namespace Org::BouncyCastle::Cms {
 class CmsCompressedDataStreamGenerator;
 }
 namespace Org::BouncyCastle::Cms {
-class ____Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream;
+class Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream;
 }
 // Type: ::CmsCompressedOutputStream
 namespace Org::BouncyCastle::Cms {
@@ -28,74 +27,74 @@ namespace Org::BouncyCastle::Cms {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(484))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(631))
 // CS Name: Org.BouncyCastle.Cms.CmsCompressedDataStreamGenerator::CmsCompressedOutputStream
-class CORDL_TYPE ____Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream : public ::Org::BouncyCastle::Utilities::IO::BaseOutputStream {
+class CORDL_TYPE Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream : public Org::BouncyCastle::Utilities::IO::BaseOutputStream {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x50};
 
-virtual ~____Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream() = default;
+virtual ~Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream", modifiers: " const&", def_value: None }]
-constexpr ____Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream(____Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream", modifiers: " const&", def_value: None }]
+constexpr Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream(Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream", modifiers: "&&", def_value: None }]
-constexpr ____Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream(____Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream", modifiers: "&&", def_value: None }]
+constexpr Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream(Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream(void* ptr) noexcept : ::Org::BouncyCastle::Utilities::IO::BaseOutputStream(ptr) {
+constexpr explicit Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream(void* ptr) noexcept : Org::BouncyCastle::Utilities::IO::BaseOutputStream(ptr) {
 }
 
 
-  constexpr ____Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream& operator=(std::nullptr_t) noexcept {
+  constexpr Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream& operator=(void* o) noexcept {
+  constexpr Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream& operator=(____Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream&& o) noexcept = default;
-  constexpr ____Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream& operator=(____Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream const& o) noexcept = default;
+  constexpr Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream& operator=(Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream&& o) noexcept = default;
+  constexpr Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream& operator=(Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::Org::BouncyCastle::Utilities::Zlib::ZOutputStream __declspec(property(get=__get__out, put=__set__out))  _out;
+ Org::BouncyCastle::Utilities::Zlib::ZOutputStream __declspec(property(get=__get__out, put=__set__out))  _out;
 
-constexpr void __set__out(::Org::BouncyCastle::Utilities::Zlib::ZOutputStream value) ;
+constexpr void __set__out(Org::BouncyCastle::Utilities::Zlib::ZOutputStream value) ;
 
-constexpr ::Org::BouncyCastle::Utilities::Zlib::ZOutputStream __get__out() const;
+constexpr Org::BouncyCastle::Utilities::Zlib::ZOutputStream __get__out() const;
 
- ::Org::BouncyCastle::Asn1::BerSequenceGenerator __declspec(property(get=__get__sGen, put=__set__sGen))  _sGen;
+ Org::BouncyCastle::Asn1::BerSequenceGenerator __declspec(property(get=__get__sGen, put=__set__sGen))  _sGen;
 
-constexpr void __set__sGen(::Org::BouncyCastle::Asn1::BerSequenceGenerator value) ;
+constexpr void __set__sGen(Org::BouncyCastle::Asn1::BerSequenceGenerator value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::BerSequenceGenerator __get__sGen() const;
+constexpr Org::BouncyCastle::Asn1::BerSequenceGenerator __get__sGen() const;
 
- ::Org::BouncyCastle::Asn1::BerSequenceGenerator __declspec(property(get=__get__cGen, put=__set__cGen))  _cGen;
+ Org::BouncyCastle::Asn1::BerSequenceGenerator __declspec(property(get=__get__cGen, put=__set__cGen))  _cGen;
 
-constexpr void __set__cGen(::Org::BouncyCastle::Asn1::BerSequenceGenerator value) ;
+constexpr void __set__cGen(Org::BouncyCastle::Asn1::BerSequenceGenerator value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::BerSequenceGenerator __get__cGen() const;
+constexpr Org::BouncyCastle::Asn1::BerSequenceGenerator __get__cGen() const;
 
- ::Org::BouncyCastle::Asn1::BerSequenceGenerator __declspec(property(get=__get__eiGen, put=__set__eiGen))  _eiGen;
+ Org::BouncyCastle::Asn1::BerSequenceGenerator __declspec(property(get=__get__eiGen, put=__set__eiGen))  _eiGen;
 
-constexpr void __set__eiGen(::Org::BouncyCastle::Asn1::BerSequenceGenerator value) ;
+constexpr void __set__eiGen(Org::BouncyCastle::Asn1::BerSequenceGenerator value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::BerSequenceGenerator __get__eiGen() const;
+constexpr Org::BouncyCastle::Asn1::BerSequenceGenerator __get__eiGen() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "outStream", ty: "::Org::BouncyCastle::Utilities::Zlib::ZOutputStream", modifiers: "", def_value: None }, CppParam { name: "sGen", ty: "::Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }, CppParam { name: "cGen", ty: "::Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }, CppParam { name: "eiGen", ty: "::Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }]
-explicit ____Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream(::Org::BouncyCastle::Utilities::Zlib::ZOutputStream outStream, ::Org::BouncyCastle::Asn1::BerSequenceGenerator sGen, ::Org::BouncyCastle::Asn1::BerSequenceGenerator cGen, ::Org::BouncyCastle::Asn1::BerSequenceGenerator eiGen) ;
+// Ctor Parameters [CppParam { name: "outStream", ty: "Org::BouncyCastle::Utilities::Zlib::ZOutputStream", modifiers: "", def_value: None }, CppParam { name: "sGen", ty: "Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }, CppParam { name: "cGen", ty: "Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }, CppParam { name: "eiGen", ty: "Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }]
+explicit Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream(Org::BouncyCastle::Utilities::Zlib::ZOutputStream outStream, Org::BouncyCastle::Asn1::BerSequenceGenerator sGen, Org::BouncyCastle::Asn1::BerSequenceGenerator cGen, Org::BouncyCastle::Asn1::BerSequenceGenerator eiGen) ;
 
 /// @brief Method .ctor addr 0x1153450 size 0x40 virtual false final false
- void _ctor(::Org::BouncyCastle::Utilities::Zlib::ZOutputStream outStream, ::Org::BouncyCastle::Asn1::BerSequenceGenerator sGen, ::Org::BouncyCastle::Asn1::BerSequenceGenerator cGen, ::Org::BouncyCastle::Asn1::BerSequenceGenerator eiGen) ;
+ void _ctor(Org::BouncyCastle::Utilities::Zlib::ZOutputStream outStream, Org::BouncyCastle::Asn1::BerSequenceGenerator sGen, Org::BouncyCastle::Asn1::BerSequenceGenerator cGen, Org::BouncyCastle::Asn1::BerSequenceGenerator eiGen) ;
 
 /// @brief Method WriteByte addr 0x1153490 size 0x24 virtual true final false
  void WriteByte(uint8_t b) ;
@@ -119,7 +118,7 @@ namespace Org::BouncyCastle::Cms {
 class CORDL_TYPE CmsCompressedDataStreamGenerator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using CmsCompressedOutputStream = ::Org::BouncyCastle::Cms::____Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream;
+using CmsCompressedOutputStream = Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -176,17 +175,16 @@ explicit CmsCompressedDataStreamGenerator() ;
  void SetBufferSize(int32_t bufferSize) ;
 
 /// @brief Method Open addr 0x1153110 size 0x7c virtual false final false
- ::System::IO::Stream Open(::System::IO::Stream outStream, ::StringW compressionOID) ;
+ System::IO::Stream Open(System::IO::Stream outStream, ::StringW compressionOID) ;
 
 /// @brief Method Open addr 0x115318c size 0x2c4 virtual false final false
- ::System::IO::Stream Open(::System::IO::Stream outStream, ::StringW contentOID, ::StringW compressionOID) ;
+ System::IO::Stream Open(System::IO::Stream outStream, ::StringW contentOID, ::StringW compressionOID) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Cms
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Cms::CmsCompressedDataStreamGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::CmsCompressedDataStreamGenerator, "Org.BouncyCastle.Cms", "CmsCompressedDataStreamGenerator");
-NEED_NO_BOX(::Org::BouncyCastle::Cms::____Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::____Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream, "Org.BouncyCastle.Cms", "CmsCompressedDataStreamGenerator/CmsCompressedOutputStream");
+NEED_NO_BOX(Org::BouncyCastle::Cms::CmsCompressedDataStreamGenerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Cms::CmsCompressedDataStreamGenerator, "Org.BouncyCastle.Cms", "CmsCompressedDataStreamGenerator");
+NEED_NO_BOX(Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream, "Org.BouncyCastle.Cms", "CmsCompressedDataStreamGenerator/CmsCompressedOutputStream");

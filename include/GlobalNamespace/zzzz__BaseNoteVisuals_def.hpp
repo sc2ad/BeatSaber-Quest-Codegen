@@ -2,10 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
-namespace GlobalNamespace {
-class INoteControllerNoteDidStartDissolvingEvent;
-}
 namespace GlobalNamespace {
 class NoteControllerBase;
 }
@@ -14,6 +10,9 @@ class INoteControllerDidInitEvent;
 }
 namespace GlobalNamespace {
 class CutoutAnimateEffect;
+}
+namespace GlobalNamespace {
+class INoteControllerNoteDidStartDissolvingEvent;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,14 +24,14 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4850))
 // CS Name: BaseNoteVisuals
-class CORDL_TYPE BaseNoteVisuals : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE BaseNoteVisuals : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::INoteControllerDidInitEvent
-constexpr operator  ::GlobalNamespace::INoteControllerDidInitEvent() const noexcept;
+/// @brief Convert operator to GlobalNamespace::INoteControllerDidInitEvent
+constexpr operator  GlobalNamespace::INoteControllerDidInitEvent() const noexcept;
 
-/// @brief Convert operator to ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent
-constexpr operator  ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent() const noexcept;
+/// @brief Convert operator to GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent
+constexpr operator  GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -46,7 +45,7 @@ constexpr BaseNoteVisuals(BaseNoteVisuals const& ) noexcept = default;
 constexpr BaseNoteVisuals(BaseNoteVisuals&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BaseNoteVisuals(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit BaseNoteVisuals(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -67,17 +66,17 @@ constexpr explicit BaseNoteVisuals(void* ptr) noexcept : ::UnityEngine::MonoBeha
 
 // Fields
 
- ::GlobalNamespace::NoteControllerBase __declspec(property(get=__get__noteController, put=__set__noteController))  _noteController;
+ GlobalNamespace::NoteControllerBase __declspec(property(get=__get__noteController, put=__set__noteController))  _noteController;
 
-constexpr void __set__noteController(::GlobalNamespace::NoteControllerBase value) ;
+constexpr void __set__noteController(GlobalNamespace::NoteControllerBase value) ;
 
-constexpr ::GlobalNamespace::NoteControllerBase __get__noteController() const;
+constexpr GlobalNamespace::NoteControllerBase __get__noteController() const;
 
- ::GlobalNamespace::CutoutAnimateEffect __declspec(property(get=__get__cutoutAnimateEffect, put=__set__cutoutAnimateEffect))  _cutoutAnimateEffect;
+ GlobalNamespace::CutoutAnimateEffect __declspec(property(get=__get__cutoutAnimateEffect, put=__set__cutoutAnimateEffect))  _cutoutAnimateEffect;
 
-constexpr void __set__cutoutAnimateEffect(::GlobalNamespace::CutoutAnimateEffect value) ;
+constexpr void __set__cutoutAnimateEffect(GlobalNamespace::CutoutAnimateEffect value) ;
 
-constexpr ::GlobalNamespace::CutoutAnimateEffect __get__cutoutAnimateEffect() const;
+constexpr GlobalNamespace::CutoutAnimateEffect __get__cutoutAnimateEffect() const;
 
 
 // Methods
@@ -89,10 +88,10 @@ constexpr ::GlobalNamespace::CutoutAnimateEffect __get__cutoutAnimateEffect() co
  void OnDestroy() ;
 
 /// @brief Method HandleNoteControllerDidInit addr 0x2238d28 size 0x1c virtual true final true
- void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase noteController) ;
+ void HandleNoteControllerDidInit(GlobalNamespace::NoteControllerBase noteController) ;
 
 /// @brief Method HandleNoteControllerNoteDidStartDissolving addr 0x2238d44 size 0x10 virtual true final true
- void HandleNoteControllerNoteDidStartDissolving(::GlobalNamespace::NoteControllerBase noteController, float_t duration) ;
+ void HandleNoteControllerNoteDidStartDissolving(GlobalNamespace::NoteControllerBase noteController, float_t duration) ;
 
 /// @brief Method AnimateCutout addr 0x2238d54 size 0x2c virtual false final false
  void AnimateCutout(float_t cutoutStart, float_t cutoutEnd, float_t duration) ;
@@ -107,6 +106,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BaseNoteVisuals);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BaseNoteVisuals, "", "BaseNoteVisuals");
+NEED_NO_BOX(GlobalNamespace::BaseNoteVisuals);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseNoteVisuals, "", "BaseNoteVisuals");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Timeline {
 struct TrackOffset;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field ApplyTransformOffsets offset 0
-static ::UnityEngine::Timeline::TrackOffset const ApplyTransformOffsets;
+static UnityEngine::Timeline::TrackOffset const ApplyTransformOffsets;
 
 /// @brief Field ApplySceneOffsets offset 0
-static ::UnityEngine::Timeline::TrackOffset const ApplySceneOffsets;
+static UnityEngine::Timeline::TrackOffset const ApplySceneOffsets;
 
 /// @brief Field Auto offset 0
-static ::UnityEngine::Timeline::TrackOffset const Auto;
+static UnityEngine::Timeline::TrackOffset const Auto;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::TrackOffset, "UnityEngine.Timeline", "TrackOffset");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackOffset, "UnityEngine.Timeline", "TrackOffset");

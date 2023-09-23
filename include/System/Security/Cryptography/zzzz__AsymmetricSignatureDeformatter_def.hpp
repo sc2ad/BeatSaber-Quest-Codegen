@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Security::Cryptography {
 class AsymmetricAlgorithm;
 }
@@ -61,7 +60,7 @@ explicit AsymmetricSignatureDeformatter() ;
  void _ctor() ;
 
 /// @brief Method SetKey addr 0x0 size 0xffffffffffffffff virtual true final false
- void SetKey(::System::Security::Cryptography::AsymmetricAlgorithm key) ;
+ void SetKey(System::Security::Cryptography::AsymmetricAlgorithm key) ;
 
 /// @brief Method SetHashAlgorithm addr 0x0 size 0xffffffffffffffff virtual true final false
  void SetHashAlgorithm(::StringW strName) ;
@@ -73,6 +72,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::AsymmetricSignatureDeformatter);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::AsymmetricSignatureDeformatter, "System.Security.Cryptography", "AsymmetricSignatureDeformatter");
+NEED_NO_BOX(System::Security::Cryptography::AsymmetricSignatureDeformatter);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::AsymmetricSignatureDeformatter, "System.Security.Cryptography", "AsymmetricSignatureDeformatter");

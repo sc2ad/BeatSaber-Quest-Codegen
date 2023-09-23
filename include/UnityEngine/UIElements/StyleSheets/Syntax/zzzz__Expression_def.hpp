@@ -3,18 +3,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace UnityEngine::UIElements::StyleSheets::Syntax {
-struct ExpressionMultiplier;
-}
-namespace UnityEngine::UIElements::StyleSheets::Syntax {
-struct ExpressionCombinator;
-}
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 struct ExpressionType;
 }
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 struct DataType;
+}
+namespace UnityEngine::UIElements::StyleSheets::Syntax {
+struct ExpressionMultiplier;
+}
+namespace UnityEngine::UIElements::StyleSheets::Syntax {
+struct ExpressionCombinator;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
@@ -62,35 +61,35 @@ constexpr explicit Expression(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType
 
 // Fields
 
- ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType __declspec(property(get=__get_type, put=__set_type))  type;
+ UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType __declspec(property(get=__get_type, put=__set_type))  type;
 
-constexpr void __set_type(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType value) ;
+constexpr void __set_type(UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType value) ;
 
-constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType __get_type() const;
+constexpr UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType __get_type() const;
 
- ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier __declspec(property(get=__get_multiplier, put=__set_multiplier))  multiplier;
+ UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier __declspec(property(get=__get_multiplier, put=__set_multiplier))  multiplier;
 
-constexpr void __set_multiplier(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier value) ;
+constexpr void __set_multiplier(UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier value) ;
 
-constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier __get_multiplier() const;
+constexpr UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier __get_multiplier() const;
 
- ::UnityEngine::UIElements::StyleSheets::Syntax::DataType __declspec(property(get=__get_dataType, put=__set_dataType))  dataType;
+ UnityEngine::UIElements::StyleSheets::Syntax::DataType __declspec(property(get=__get_dataType, put=__set_dataType))  dataType;
 
-constexpr void __set_dataType(::UnityEngine::UIElements::StyleSheets::Syntax::DataType value) ;
+constexpr void __set_dataType(UnityEngine::UIElements::StyleSheets::Syntax::DataType value) ;
 
-constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::DataType __get_dataType() const;
+constexpr UnityEngine::UIElements::StyleSheets::Syntax::DataType __get_dataType() const;
 
- ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator __declspec(property(get=__get_combinator, put=__set_combinator))  combinator;
+ UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator __declspec(property(get=__get_combinator, put=__set_combinator))  combinator;
 
-constexpr void __set_combinator(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator value) ;
+constexpr void __set_combinator(UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator value) ;
 
-constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator __get_combinator() const;
+constexpr UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator __get_combinator() const;
 
- ::ArrayW<::UnityEngine::UIElements::StyleSheets::Syntax::Expression> __declspec(property(get=__get_subExpressions, put=__set_subExpressions))  subExpressions;
+ ::ArrayW<UnityEngine::UIElements::StyleSheets::Syntax::Expression> __declspec(property(get=__get_subExpressions, put=__set_subExpressions))  subExpressions;
 
-constexpr void __set_subExpressions(::ArrayW<::UnityEngine::UIElements::StyleSheets::Syntax::Expression> value) ;
+constexpr void __set_subExpressions(::ArrayW<UnityEngine::UIElements::StyleSheets::Syntax::Expression> value) ;
 
-constexpr ::ArrayW<::UnityEngine::UIElements::StyleSheets::Syntax::Expression> __get_subExpressions() const;
+constexpr ::ArrayW<UnityEngine::UIElements::StyleSheets::Syntax::Expression> __get_subExpressions() const;
 
  ::StringW __declspec(property(get=__get_keyword, put=__set_keyword))  keyword;
 
@@ -101,16 +100,15 @@ constexpr ::StringW __get_keyword() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType", modifiers: "", def_value: None }]
-explicit Expression(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType type) ;
+// Ctor Parameters [CppParam { name: "type", ty: "UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType", modifiers: "", def_value: None }]
+explicit Expression(UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType type) ;
 
 /// @brief Method .ctor addr 0x2c7e068 size 0x44 virtual false final false
- void _ctor(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType type) ;
+ void _ctor(UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType type) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::StyleSheets::Syntax
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::StyleSheets::Syntax::Expression);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::Syntax::Expression, "UnityEngine.UIElements.StyleSheets.Syntax", "Expression");
+NEED_NO_BOX(UnityEngine::UIElements::StyleSheets::Syntax::Expression);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::StyleSheets::Syntax::Expression, "UnityEngine.UIElements.StyleSheets.Syntax", "Expression");

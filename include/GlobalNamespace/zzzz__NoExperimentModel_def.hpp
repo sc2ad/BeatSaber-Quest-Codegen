@@ -1,16 +1,15 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace GlobalNamespace {
-class IExperimentModel;
-}
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
 namespace GlobalNamespace {
 class IExperimentData;
+}
+namespace GlobalNamespace {
+class IExperimentModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,8 +24,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE NoExperimentModel : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IExperimentModel
-constexpr operator  ::GlobalNamespace::IExperimentModel() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IExperimentModel
+constexpr operator  GlobalNamespace::IExperimentModel() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -62,10 +61,10 @@ constexpr explicit NoExperimentModel(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 // Methods
 
 /// @brief Method IsEmployee addr 0x21bf7e0 size 0x68 virtual true final true
- ::System::Threading::Tasks::Task_1<bool> IsEmployee() ;
+ System::Threading::Tasks::Task_1<bool> IsEmployee() ;
 
 /// @brief Method IsInTest addr 0x21bf848 size 0x68 virtual true final true
- ::System::Threading::Tasks::Task_1<bool> IsInTest(::GlobalNamespace::IExperimentData data) ;
+ System::Threading::Tasks::Task_1<bool> IsInTest(GlobalNamespace::IExperimentData data) ;
 
 // Ctor Parameters []
 explicit NoExperimentModel() ;
@@ -77,6 +76,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::NoExperimentModel);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoExperimentModel, "", "NoExperimentModel");
+NEED_NO_BOX(GlobalNamespace::NoExperimentModel);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoExperimentModel, "", "NoExperimentModel");

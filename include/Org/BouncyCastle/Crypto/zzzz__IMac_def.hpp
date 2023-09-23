@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
@@ -35,7 +34,7 @@ constexpr explicit IMac(void* ptr) noexcept : ::cordl_internals::InterfaceW(ptr)
 // Methods
 
 /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
- void Init(::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method get_AlgorithmName addr 0x0 size 0xffffffffffffffff virtual true final false
  ::StringW get_AlgorithmName() ;
@@ -59,6 +58,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::IMac);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::IMac, "Org.BouncyCastle.Crypto", "IMac");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::IMac);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::IMac, "Org.BouncyCastle.Crypto", "IMac");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__DisappearingArrowControllerBase_1_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerGameNoteController_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class MultiplayerConnectedPlayerGameNoteController;
 }
@@ -13,10 +12,10 @@ class MultiplayerConnectedPlayerDisappearingArrowController;
 // Type: ::MultiplayerConnectedPlayerDisappearingArrowController
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4858), inst: 340 }), TypeDefinitionIndex(TypeDefinitionIndex(5237)), TypeDefinitionIndex(TypeDefinitionIndex(4858))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4858)), TypeDefinitionIndex(TypeDefinitionIndex(5237)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4858), inst: 340 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5235))
 // CS Name: MultiplayerConnectedPlayerDisappearingArrowController
-class CORDL_TYPE MultiplayerConnectedPlayerDisappearingArrowController : public ::GlobalNamespace::DisappearingArrowControllerBase_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController> {
+class CORDL_TYPE MultiplayerConnectedPlayerDisappearingArrowController : public GlobalNamespace::DisappearingArrowControllerBase_1<GlobalNamespace::MultiplayerConnectedPlayerGameNoteController> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr MultiplayerConnectedPlayerDisappearingArrowController(MultiplayerConne
 constexpr MultiplayerConnectedPlayerDisappearingArrowController(MultiplayerConnectedPlayerDisappearingArrowController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerConnectedPlayerDisappearingArrowController(void* ptr) noexcept : ::GlobalNamespace::DisappearingArrowControllerBase_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>(ptr) {
+constexpr explicit MultiplayerConnectedPlayerDisappearingArrowController(void* ptr) noexcept : GlobalNamespace::DisappearingArrowControllerBase_1<GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>(ptr) {
 }
 
 
@@ -52,22 +51,22 @@ constexpr explicit MultiplayerConnectedPlayerDisappearingArrowController(void* p
 
 // Fields
 
- ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController __declspec(property(get=__get__gameNoteController, put=__set__gameNoteController))  _gameNoteController;
+ GlobalNamespace::MultiplayerConnectedPlayerGameNoteController __declspec(property(get=__get__gameNoteController, put=__set__gameNoteController))  _gameNoteController;
 
-constexpr void __set__gameNoteController(::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController value) ;
+constexpr void __set__gameNoteController(GlobalNamespace::MultiplayerConnectedPlayerGameNoteController value) ;
 
-constexpr ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController __get__gameNoteController() const;
+constexpr GlobalNamespace::MultiplayerConnectedPlayerGameNoteController __get__gameNoteController() const;
 
 
 // Properties
 
- ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController __declspec(property(get=get_gameNoteController))  gameNoteController;
+ GlobalNamespace::MultiplayerConnectedPlayerGameNoteController __declspec(property(get=get_gameNoteController))  gameNoteController;
 
 
 // Methods
 
 /// @brief Method get_gameNoteController addr 0x20e215c size 0x8 virtual true final false
- ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController get_gameNoteController() ;
+ GlobalNamespace::MultiplayerConnectedPlayerGameNoteController get_gameNoteController() ;
 
 // Ctor Parameters []
 explicit MultiplayerConnectedPlayerDisappearingArrowController() ;
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowController, "", "MultiplayerConnectedPlayerDisappearingArrowController");
+NEED_NO_BOX(GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowController, "", "MultiplayerConnectedPlayerDisappearingArrowController");

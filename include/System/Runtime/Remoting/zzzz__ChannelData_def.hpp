@@ -2,12 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System::Collections {
-class Hashtable;
-}
 namespace System::Collections {
 class ArrayList;
+}
+namespace System::Collections {
+class Hashtable;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {
@@ -79,47 +78,47 @@ constexpr void __set_DelayLoadAsClientChannel(::StringW value) ;
 
 constexpr ::StringW __get_DelayLoadAsClientChannel() const;
 
- ::System::Collections::ArrayList __declspec(property(get=__get__serverProviders, put=__set__serverProviders))  _serverProviders;
+ System::Collections::ArrayList __declspec(property(get=__get__serverProviders, put=__set__serverProviders))  _serverProviders;
 
-constexpr void __set__serverProviders(::System::Collections::ArrayList value) ;
+constexpr void __set__serverProviders(System::Collections::ArrayList value) ;
 
-constexpr ::System::Collections::ArrayList __get__serverProviders() const;
+constexpr System::Collections::ArrayList __get__serverProviders() const;
 
- ::System::Collections::ArrayList __declspec(property(get=__get__clientProviders, put=__set__clientProviders))  _clientProviders;
+ System::Collections::ArrayList __declspec(property(get=__get__clientProviders, put=__set__clientProviders))  _clientProviders;
 
-constexpr void __set__clientProviders(::System::Collections::ArrayList value) ;
+constexpr void __set__clientProviders(System::Collections::ArrayList value) ;
 
-constexpr ::System::Collections::ArrayList __get__clientProviders() const;
+constexpr System::Collections::ArrayList __get__clientProviders() const;
 
- ::System::Collections::Hashtable __declspec(property(get=__get__customProperties, put=__set__customProperties))  _customProperties;
+ System::Collections::Hashtable __declspec(property(get=__get__customProperties, put=__set__customProperties))  _customProperties;
 
-constexpr void __set__customProperties(::System::Collections::Hashtable value) ;
+constexpr void __set__customProperties(System::Collections::Hashtable value) ;
 
-constexpr ::System::Collections::Hashtable __get__customProperties() const;
+constexpr System::Collections::Hashtable __get__customProperties() const;
 
 
 // Properties
 
- ::System::Collections::ArrayList __declspec(property(get=get_ServerProviders))  ServerProviders;
+ System::Collections::ArrayList __declspec(property(get=get_ServerProviders))  ServerProviders;
 
- ::System::Collections::ArrayList __declspec(property(get=get_ClientProviders))  ClientProviders;
+ System::Collections::ArrayList __declspec(property(get=get_ClientProviders))  ClientProviders;
 
- ::System::Collections::Hashtable __declspec(property(get=get_CustomProperties))  CustomProperties;
+ System::Collections::Hashtable __declspec(property(get=get_CustomProperties))  CustomProperties;
 
 
 // Methods
 
 /// @brief Method get_ServerProviders addr 0x231dfa0 size 0x6c virtual false final false
- ::System::Collections::ArrayList get_ServerProviders() ;
+ System::Collections::ArrayList get_ServerProviders() ;
 
 /// @brief Method get_ClientProviders addr 0x231e710 size 0x6c virtual false final false
- ::System::Collections::ArrayList get_ClientProviders() ;
+ System::Collections::ArrayList get_ClientProviders() ;
 
 /// @brief Method get_CustomProperties addr 0x232233c size 0x6c virtual false final false
- ::System::Collections::Hashtable get_CustomProperties() ;
+ System::Collections::Hashtable get_CustomProperties() ;
 
 /// @brief Method CopyFrom addr 0x231d660 size 0x940 virtual false final false
- void CopyFrom(::System::Runtime::Remoting::ChannelData other) ;
+ void CopyFrom(System::Runtime::Remoting::ChannelData other) ;
 
 // Ctor Parameters []
 explicit ChannelData() ;
@@ -131,6 +130,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::ChannelData);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::ChannelData, "System.Runtime.Remoting", "ChannelData");
+NEED_NO_BOX(System::Runtime::Remoting::ChannelData);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ChannelData, "System.Runtime.Remoting", "ChannelData");

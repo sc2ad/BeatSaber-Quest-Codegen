@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net::Sockets {
 struct SelectMode;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field SelectRead offset 0
-static ::System::Net::Sockets::SelectMode const SelectRead;
+static System::Net::Sockets::SelectMode const SelectRead;
 
 /// @brief Field SelectWrite offset 0
-static ::System::Net::Sockets::SelectMode const SelectWrite;
+static System::Net::Sockets::SelectMode const SelectWrite;
 
 /// @brief Field SelectError offset 0
-static ::System::Net::Sockets::SelectMode const SelectError;
+static System::Net::Sockets::SelectMode const SelectError;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net::Sockets
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Sockets::SelectMode, "System.Net.Sockets", "SelectMode");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SelectMode, "System.Net.Sockets", "SelectMode");

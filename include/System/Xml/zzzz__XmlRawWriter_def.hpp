@@ -4,21 +4,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Xml {
-struct WriteState;
+struct ConformanceLevel;
 }
 namespace System::Xml {
 class IXmlNamespaceResolver;
 }
 namespace System::Xml {
-class XmlRawWriterBase64Encoder;
-}
-namespace System::Xml {
-struct ConformanceLevel;
+struct WriteState;
 }
 namespace System::Xml {
 struct XmlStandalone;
+}
+namespace System::Xml {
+class XmlRawWriterBase64Encoder;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -30,7 +29,7 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11433))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11397))
 // CS Name: System.Xml.XmlRawWriter
-class CORDL_TYPE XmlRawWriter : public ::System::Xml::XmlWriter {
+class CORDL_TYPE XmlRawWriter : public System::Xml::XmlWriter {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -45,7 +44,7 @@ constexpr XmlRawWriter(XmlRawWriter const& ) noexcept = default;
 constexpr XmlRawWriter(XmlRawWriter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XmlRawWriter(void* ptr) noexcept : ::System::Xml::XmlWriter(ptr) {
+constexpr explicit XmlRawWriter(void* ptr) noexcept : System::Xml::XmlWriter(ptr) {
 }
 
 
@@ -66,24 +65,24 @@ constexpr explicit XmlRawWriter(void* ptr) noexcept : ::System::Xml::XmlWriter(p
 
 // Fields
 
- ::System::Xml::XmlRawWriterBase64Encoder __declspec(property(get=__get_base64Encoder, put=__set_base64Encoder))  base64Encoder;
+ System::Xml::XmlRawWriterBase64Encoder __declspec(property(get=__get_base64Encoder, put=__set_base64Encoder))  base64Encoder;
 
-constexpr void __set_base64Encoder(::System::Xml::XmlRawWriterBase64Encoder value) ;
+constexpr void __set_base64Encoder(System::Xml::XmlRawWriterBase64Encoder value) ;
 
-constexpr ::System::Xml::XmlRawWriterBase64Encoder __get_base64Encoder() const;
+constexpr System::Xml::XmlRawWriterBase64Encoder __get_base64Encoder() const;
 
- ::System::Xml::IXmlNamespaceResolver __declspec(property(get=__get_resolver, put=__set_resolver))  resolver;
+ System::Xml::IXmlNamespaceResolver __declspec(property(get=__get_resolver, put=__set_resolver))  resolver;
 
-constexpr void __set_resolver(::System::Xml::IXmlNamespaceResolver value) ;
+constexpr void __set_resolver(System::Xml::IXmlNamespaceResolver value) ;
 
-constexpr ::System::Xml::IXmlNamespaceResolver __get_resolver() const;
+constexpr System::Xml::IXmlNamespaceResolver __get_resolver() const;
 
 
 // Properties
 
- ::System::Xml::WriteState __declspec(property(get=get_WriteState))  WriteState;
+ System::Xml::WriteState __declspec(property(get=get_WriteState))  WriteState;
 
- ::System::Xml::IXmlNamespaceResolver __declspec(property(put=set_NamespaceResolver))  NamespaceResolver;
+ System::Xml::IXmlNamespaceResolver __declspec(property(put=set_NamespaceResolver))  NamespaceResolver;
 
  bool __declspec(property(get=get_SupportsNamespaceDeclarationInChunks))  SupportsNamespaceDeclarationInChunks;
 
@@ -115,7 +114,7 @@ constexpr ::System::Xml::IXmlNamespaceResolver __get_resolver() const;
  ::StringW LookupPrefix(::StringW ns) ;
 
 /// @brief Method get_WriteState addr 0x26c71a4 size 0x60 virtual true final false
- ::System::Xml::WriteState get_WriteState() ;
+ System::Xml::WriteState get_WriteState() ;
 
 /// @brief Method WriteCData addr 0x26c7204 size 0x10 virtual true final false
  void WriteCData(::StringW text) ;
@@ -142,10 +141,10 @@ constexpr ::System::Xml::IXmlNamespaceResolver __get_resolver() const;
  void WriteValue(::StringW value) ;
 
 /// @brief Method set_NamespaceResolver addr 0x26c73dc size 0x8 virtual true final false
- void set_NamespaceResolver(::System::Xml::IXmlNamespaceResolver value) ;
+ void set_NamespaceResolver(System::Xml::IXmlNamespaceResolver value) ;
 
 /// @brief Method WriteXmlDeclaration addr 0x26c73e4 size 0x4 virtual true final false
- void WriteXmlDeclaration(::System::Xml::XmlStandalone standalone) ;
+ void WriteXmlDeclaration(System::Xml::XmlStandalone standalone) ;
 
 /// @brief Method WriteXmlDeclaration addr 0x26c73e8 size 0x4 virtual true final false
  void WriteXmlDeclaration(::StringW xmldecl) ;
@@ -154,7 +153,7 @@ constexpr ::System::Xml::IXmlNamespaceResolver __get_resolver() const;
  void StartElementContent() ;
 
 /// @brief Method OnRootElement addr 0x26c73ec size 0x4 virtual true final false
- void OnRootElement(::System::Xml::ConformanceLevel conformanceLevel) ;
+ void OnRootElement(System::Xml::ConformanceLevel conformanceLevel) ;
 
 /// @brief Method WriteEndElement addr 0x0 size 0xffffffffffffffff virtual true final false
  void WriteEndElement(::StringW prefix, ::StringW localName, ::StringW ns) ;
@@ -178,7 +177,7 @@ constexpr ::System::Xml::IXmlNamespaceResolver __get_resolver() const;
  void WriteEndBase64() ;
 
 /// @brief Method Close addr 0x26c74a0 size 0x10 virtual true final false
- void Close(::System::Xml::WriteState currentState) ;
+ void Close(System::Xml::WriteState currentState) ;
 
 // Ctor Parameters []
 explicit XmlRawWriter() ;
@@ -190,6 +189,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::XmlRawWriter);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlRawWriter, "System.Xml", "XmlRawWriter");
+NEED_NO_BOX(System::Xml::XmlRawWriter);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlRawWriter, "System.Xml", "XmlRawWriter");

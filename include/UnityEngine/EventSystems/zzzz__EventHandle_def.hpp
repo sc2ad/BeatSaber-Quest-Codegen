@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::EventSystems {
 struct EventHandle;
@@ -67,14 +66,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unused offset 0
-static ::UnityEngine::EventSystems::EventHandle const Unused;
+static UnityEngine::EventSystems::EventHandle const Unused;
 
 /// @brief Field Used offset 0
-static ::UnityEngine::EventSystems::EventHandle const Used;
+static UnityEngine::EventSystems::EventHandle const Used;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::EventSystems
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::EventHandle, "UnityEngine.EventSystems", "EventHandle");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::EventHandle, "UnityEngine.EventSystems", "EventHandle");

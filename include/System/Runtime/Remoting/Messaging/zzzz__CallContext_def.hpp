@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Runtime::Remoting::Messaging {
 class LogicalCallContext;
 }
@@ -59,10 +58,10 @@ explicit CallContext() ;
  void _ctor() ;
 
 /// @brief Method SetCurrentCallContext addr 0x2339f38 size 0x8 virtual false final false
-static ::bs_hook::Il2CppWrapperType SetCurrentCallContext(::System::Runtime::Remoting::Messaging::LogicalCallContext ctx) ;
+static ::bs_hook::Il2CppWrapperType SetCurrentCallContext(System::Runtime::Remoting::Messaging::LogicalCallContext ctx) ;
 
 /// @brief Method SetLogicalCallContext addr 0x2339f40 size 0x44 virtual false final false
-static ::System::Runtime::Remoting::Messaging::LogicalCallContext SetLogicalCallContext(::System::Runtime::Remoting::Messaging::LogicalCallContext callCtx) ;
+static System::Runtime::Remoting::Messaging::LogicalCallContext SetLogicalCallContext(System::Runtime::Remoting::Messaging::LogicalCallContext callCtx) ;
 
 /// @brief Method LogicalGetData addr 0x2339f84 size 0x50 virtual false final false
 static ::bs_hook::Il2CppWrapperType LogicalGetData(::StringW name) ;
@@ -74,6 +73,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Messaging
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Messaging::CallContext);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::CallContext, "System.Runtime.Remoting.Messaging", "CallContext");
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::CallContext);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CallContext, "System.Runtime.Remoting.Messaging", "CallContext");

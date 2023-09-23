@@ -3,39 +3,38 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-class IDisposable;
+namespace Zenject {
+template<typename TValue>
+class IFactory_1;
 }
 namespace Zenject {
-class IValidatable;
+class DiContainer;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace Zenject {
-class IMemoryPool;
+class MemoryPoolSettings;
 }
 namespace Zenject {
 class InjectTypeInfo;
 }
 namespace Zenject {
-template<typename TValue>
-class IFactory_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class Stack_1;
+class IMemoryPool;
 }
 namespace System {
 class Type;
 }
 namespace Zenject {
-class MemoryPoolSettings;
+class IValidatable;
 }
-namespace Zenject {
-class DiContainer;
+namespace System::Collections::Generic {
+template<typename T>
+class Stack_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -58,14 +57,14 @@ template<::cordl_internals::il2cpp_reference_type TContract>
 class CORDL_TYPE MemoryPoolBase_1<TContract> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Zenject::IValidatable
-constexpr operator  ::Zenject::IValidatable() const noexcept;
+/// @brief Convert operator to Zenject::IValidatable
+constexpr operator  Zenject::IValidatable() const noexcept;
 
-/// @brief Convert operator to ::Zenject::IMemoryPool
-constexpr operator  ::Zenject::IMemoryPool() const noexcept;
+/// @brief Convert operator to Zenject::IMemoryPool
+constexpr operator  Zenject::IMemoryPool() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -100,29 +99,29 @@ constexpr explicit MemoryPoolBase_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
- ::System::Collections::Generic::Stack_1<TContract> __declspec(property(get=__get__inactiveItems, put=__set__inactiveItems))  _inactiveItems;
+ System::Collections::Generic::Stack_1<TContract> __declspec(property(get=__get__inactiveItems, put=__set__inactiveItems))  _inactiveItems;
 
-constexpr void __set__inactiveItems(::System::Collections::Generic::Stack_1<TContract> value) ;
+constexpr void __set__inactiveItems(System::Collections::Generic::Stack_1<TContract> value) ;
 
-constexpr ::System::Collections::Generic::Stack_1<TContract> __get__inactiveItems() const;
+constexpr System::Collections::Generic::Stack_1<TContract> __get__inactiveItems() const;
 
- ::Zenject::IFactory_1<TContract> __declspec(property(get=__get__factory, put=__set__factory))  _factory;
+ Zenject::IFactory_1<TContract> __declspec(property(get=__get__factory, put=__set__factory))  _factory;
 
-constexpr void __set__factory(::Zenject::IFactory_1<TContract> value) ;
+constexpr void __set__factory(Zenject::IFactory_1<TContract> value) ;
 
-constexpr ::Zenject::IFactory_1<TContract> __get__factory() const;
+constexpr Zenject::IFactory_1<TContract> __get__factory() const;
 
- ::Zenject::MemoryPoolSettings __declspec(property(get=__get__settings, put=__set__settings))  _settings;
+ Zenject::MemoryPoolSettings __declspec(property(get=__get__settings, put=__set__settings))  _settings;
 
-constexpr void __set__settings(::Zenject::MemoryPoolSettings value) ;
+constexpr void __set__settings(Zenject::MemoryPoolSettings value) ;
 
-constexpr ::Zenject::MemoryPoolSettings __get__settings() const;
+constexpr Zenject::MemoryPoolSettings __get__settings() const;
 
- ::Zenject::DiContainer __declspec(property(get=__get__container, put=__set__container))  _container;
+ Zenject::DiContainer __declspec(property(get=__get__container, put=__set__container))  _container;
 
-constexpr void __set__container(::Zenject::DiContainer value) ;
+constexpr void __set__container(Zenject::DiContainer value) ;
 
-constexpr ::Zenject::DiContainer __get__container() const;
+constexpr Zenject::DiContainer __get__container() const;
 
  int32_t __declspec(property(get=__get__activeCount, put=__set__activeCount))  _activeCount;
 
@@ -133,9 +132,9 @@ constexpr int32_t __get__activeCount() const;
 
 // Properties
 
- ::Zenject::DiContainer __declspec(property(get=get_Container))  Container;
+ Zenject::DiContainer __declspec(property(get=get_Container))  Container;
 
- ::System::Collections::Generic::IEnumerable_1<TContract> __declspec(property(get=get_InactiveItems))  InactiveItems;
+ System::Collections::Generic::IEnumerable_1<TContract> __declspec(property(get=get_InactiveItems))  InactiveItems;
 
  int32_t __declspec(property(get=get_NumTotal))  NumTotal;
 
@@ -143,19 +142,19 @@ constexpr int32_t __get__activeCount() const;
 
  int32_t __declspec(property(get=get_NumActive))  NumActive;
 
- ::System::Type __declspec(property(get=get_ItemType))  ItemType;
+ System::Type __declspec(property(get=get_ItemType))  ItemType;
 
 
 // Methods
 
 /// @brief Method Construct addr 0x0 size 0xffffffffffffffff virtual false final false
- void Construct(::Zenject::IFactory_1<TContract> factory, ::Zenject::DiContainer container, ::Zenject::MemoryPoolSettings settings) ;
+ void Construct(Zenject::IFactory_1<TContract> factory, Zenject::DiContainer container, Zenject::MemoryPoolSettings settings) ;
 
 /// @brief Method get_Container addr 0x0 size 0xffffffffffffffff virtual false final false
- ::Zenject::DiContainer get_Container() ;
+ Zenject::DiContainer get_Container() ;
 
 /// @brief Method get_InactiveItems addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Collections::Generic::IEnumerable_1<TContract> get_InactiveItems() ;
+ System::Collections::Generic::IEnumerable_1<TContract> get_InactiveItems() ;
 
 /// @brief Method get_NumTotal addr 0x0 size 0xffffffffffffffff virtual true final true
  int32_t get_NumTotal() ;
@@ -167,7 +166,7 @@ constexpr int32_t __get__activeCount() const;
  int32_t get_NumActive() ;
 
 /// @brief Method get_ItemType addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Type get_ItemType() ;
+ System::Type get_ItemType() ;
 
 /// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
  void Dispose() ;
@@ -227,11 +226,10 @@ static ::bs_hook::Il2CppWrapperType __zenCreate(::ArrayW<::bs_hook::Il2CppWrappe
 static void __zenInjectMethod0(::bs_hook::Il2CppWrapperType P_0, ::ArrayW<::bs_hook::Il2CppWrapperType> P_1) ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::MemoryPoolBase_1, "Zenject", "MemoryPoolBase`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::MemoryPoolBase_1, "Zenject", "MemoryPoolBase`1");

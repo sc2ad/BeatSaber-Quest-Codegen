@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
@@ -60,17 +59,17 @@ constexpr explicit VisualElementUtils(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Fields
 
-static ::System::Collections::Generic::HashSet_1<::StringW> __declspec(property(get=__get_s_usedNames, put=__set_s_usedNames))  s_usedNames;
+static System::Collections::Generic::HashSet_1<::StringW> __declspec(property(get=__get_s_usedNames, put=__set_s_usedNames))  s_usedNames;
 
-static void __set_s_usedNames(::System::Collections::Generic::HashSet_1<::StringW> value) ;
+static void __set_s_usedNames(System::Collections::Generic::HashSet_1<::StringW> value) ;
 
-static ::System::Collections::Generic::HashSet_1<::StringW> __get_s_usedNames() ;
+static System::Collections::Generic::HashSet_1<::StringW> __get_s_usedNames() ;
 
-static ::System::Type __declspec(property(get=__get_s_FoldoutType, put=__set_s_FoldoutType))  s_FoldoutType;
+static System::Type __declspec(property(get=__get_s_FoldoutType, put=__set_s_FoldoutType))  s_FoldoutType;
 
-static void __set_s_FoldoutType(::System::Type value) ;
+static void __set_s_FoldoutType(System::Type value) ;
 
-static ::System::Type __get_s_FoldoutType() ;
+static System::Type __get_s_FoldoutType() ;
 
 
 // Methods
@@ -79,15 +78,14 @@ static ::System::Type __get_s_FoldoutType() ;
 static ::StringW GetUniqueName(::StringW nameBase) ;
 
 /// @brief Method GetFoldoutDepth addr 0x2c8948c size 0xe4 virtual false final false
-static int32_t GetFoldoutDepth(::UnityEngine::UIElements::VisualElement element) ;
+static int32_t GetFoldoutDepth(UnityEngine::UIElements::VisualElement element) ;
 
 /// @brief Method GetListAndFoldoutDepth addr 0x2c8b044 size 0x114 virtual false final false
-static int32_t GetListAndFoldoutDepth(::UnityEngine::UIElements::VisualElement element) ;
+static int32_t GetListAndFoldoutDepth(UnityEngine::UIElements::VisualElement element) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::VisualElementUtils);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::VisualElementUtils, "UnityEngine.UIElements", "VisualElementUtils");
+NEED_NO_BOX(UnityEngine::UIElements::VisualElementUtils);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::VisualElementUtils, "UnityEngine.UIElements", "VisualElementUtils");

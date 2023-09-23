@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 struct ExpressionMultiplierType;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType const None;
+static UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType const None;
 
 /// @brief Field ZeroOrMore offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType const ZeroOrMore;
+static UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType const ZeroOrMore;
 
 /// @brief Field OneOrMore offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType const OneOrMore;
+static UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType const OneOrMore;
 
 /// @brief Field ZeroOrOne offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType const ZeroOrOne;
+static UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType const ZeroOrOne;
 
 /// @brief Field Ranges offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType const Ranges;
+static UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType const Ranges;
 
 /// @brief Field OneOrMoreComma offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType const OneOrMoreComma;
+static UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType const OneOrMoreComma;
 
 /// @brief Field GroupAtLeastOne offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType const GroupAtLeastOne;
+static UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType const GroupAtLeastOne;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::StyleSheets::Syntax
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType, "UnityEngine.UIElements.StyleSheets.Syntax", "ExpressionMultiplierType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType, "UnityEngine.UIElements.StyleSheets.Syntax", "ExpressionMultiplierType");

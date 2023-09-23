@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
+namespace GlobalNamespace {
+class PlayerSpecificSettings;
+}
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
 class EnvironmentInfoSO;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
@@ -21,11 +20,11 @@ namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct AsyncTaskMethodBuilder_1;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
@@ -36,7 +35,7 @@ namespace GlobalNamespace {
 class BeatmapDataCache;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__BeatmapDataCache___GetBeatmapData_d__4;
+struct GlobalNamespace__BeatmapDataCache___GetBeatmapData_d__4;
 }
 // Type: ::<GetBeatmapData>d__4
 namespace GlobalNamespace {
@@ -44,23 +43,23 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5908))
 // CS Name: BeatmapDataCache::<GetBeatmapData>d__4
-struct CORDL_TYPE ____GlobalNamespace__BeatmapDataCache___GetBeatmapData_d__4 : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__BeatmapDataCache___GetBeatmapData_d__4 : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::CompilerServices::IAsyncStateMachine
-constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine() const;
+/// @brief Convert operator to System::Runtime::CompilerServices::IAsyncStateMachine
+constexpr operator  System::Runtime::CompilerServices::IAsyncStateMachine() const;
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData>", modifiers: "", def_value: None }, CppParam { name: "difficultyBeatmap", ty: "::GlobalNamespace::IDifficultyBeatmap", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::BeatmapDataCache", modifiers: "", def_value: None }, CppParam { name: "environmentInfo", ty: "::GlobalNamespace::EnvironmentInfoSO", modifiers: "", def_value: None }, CppParam { name: "playerSpecificSettings", ty: "::GlobalNamespace::PlayerSpecificSettings", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData>", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__BeatmapDataCache___GetBeatmapData_d__4(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData> __t__builder, ::GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, ::GlobalNamespace::BeatmapDataCache __4__this, ::GlobalNamespace::EnvironmentInfoSO environmentInfo, ::GlobalNamespace::PlayerSpecificSettings playerSpecificSettings, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData> __u__1) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::IReadonlyBeatmapData>", modifiers: "", def_value: None }, CppParam { name: "difficultyBeatmap", ty: "GlobalNamespace::IDifficultyBeatmap", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "GlobalNamespace::BeatmapDataCache", modifiers: "", def_value: None }, CppParam { name: "environmentInfo", ty: "GlobalNamespace::EnvironmentInfoSO", modifiers: "", def_value: None }, CppParam { name: "playerSpecificSettings", ty: "GlobalNamespace::PlayerSpecificSettings", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IReadonlyBeatmapData>", modifiers: "", def_value: None }]
+constexpr GlobalNamespace__BeatmapDataCache___GetBeatmapData_d__4(int32_t __1__state, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::IReadonlyBeatmapData> __t__builder, GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, GlobalNamespace::BeatmapDataCache __4__this, GlobalNamespace::EnvironmentInfoSO environmentInfo, GlobalNamespace::PlayerSpecificSettings playerSpecificSettings, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IReadonlyBeatmapData> __u__1) noexcept;
 
 
-                    constexpr ____GlobalNamespace__BeatmapDataCache___GetBeatmapData_d__4(____GlobalNamespace__BeatmapDataCache___GetBeatmapData_d__4 const&) = default;
-                    constexpr ____GlobalNamespace__BeatmapDataCache___GetBeatmapData_d__4(____GlobalNamespace__BeatmapDataCache___GetBeatmapData_d__4&&) = default;
-                    constexpr ____GlobalNamespace__BeatmapDataCache___GetBeatmapData_d__4& operator=(____GlobalNamespace__BeatmapDataCache___GetBeatmapData_d__4 const& o) {
+                    constexpr GlobalNamespace__BeatmapDataCache___GetBeatmapData_d__4(GlobalNamespace__BeatmapDataCache___GetBeatmapData_d__4 const&) = default;
+                    constexpr GlobalNamespace__BeatmapDataCache___GetBeatmapData_d__4(GlobalNamespace__BeatmapDataCache___GetBeatmapData_d__4&&) = default;
+                    constexpr GlobalNamespace__BeatmapDataCache___GetBeatmapData_d__4& operator=(GlobalNamespace__BeatmapDataCache___GetBeatmapData_d__4 const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__BeatmapDataCache___GetBeatmapData_d__4& operator=(____GlobalNamespace__BeatmapDataCache___GetBeatmapData_d__4&& o) noexcept {
+                    constexpr GlobalNamespace__BeatmapDataCache___GetBeatmapData_d__4& operator=(GlobalNamespace__BeatmapDataCache___GetBeatmapData_d__4&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -73,7 +72,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x48};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__BeatmapDataCache___GetBeatmapData_d__4(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__BeatmapDataCache___GetBeatmapData_d__4(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -90,41 +89,41 @@ constexpr void __set___1__state(int32_t value) ;
 
 constexpr int32_t __get___1__state() const;
 
- ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData> __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
+ System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::IReadonlyBeatmapData> __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
 
-constexpr void __set___t__builder(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData> value) ;
+constexpr void __set___t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::IReadonlyBeatmapData> value) ;
 
-constexpr ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData> __get___t__builder() const;
+constexpr System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::IReadonlyBeatmapData> __get___t__builder() const;
 
- ::GlobalNamespace::IDifficultyBeatmap __declspec(property(get=__get_difficultyBeatmap, put=__set_difficultyBeatmap))  difficultyBeatmap;
+ GlobalNamespace::IDifficultyBeatmap __declspec(property(get=__get_difficultyBeatmap, put=__set_difficultyBeatmap))  difficultyBeatmap;
 
-constexpr void __set_difficultyBeatmap(::GlobalNamespace::IDifficultyBeatmap value) ;
+constexpr void __set_difficultyBeatmap(GlobalNamespace::IDifficultyBeatmap value) ;
 
-constexpr ::GlobalNamespace::IDifficultyBeatmap __get_difficultyBeatmap() const;
+constexpr GlobalNamespace::IDifficultyBeatmap __get_difficultyBeatmap() const;
 
- ::GlobalNamespace::BeatmapDataCache __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::BeatmapDataCache __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::BeatmapDataCache value) ;
+constexpr void __set___4__this(GlobalNamespace::BeatmapDataCache value) ;
 
-constexpr ::GlobalNamespace::BeatmapDataCache __get___4__this() const;
+constexpr GlobalNamespace::BeatmapDataCache __get___4__this() const;
 
- ::GlobalNamespace::EnvironmentInfoSO __declspec(property(get=__get_environmentInfo, put=__set_environmentInfo))  environmentInfo;
+ GlobalNamespace::EnvironmentInfoSO __declspec(property(get=__get_environmentInfo, put=__set_environmentInfo))  environmentInfo;
 
-constexpr void __set_environmentInfo(::GlobalNamespace::EnvironmentInfoSO value) ;
+constexpr void __set_environmentInfo(GlobalNamespace::EnvironmentInfoSO value) ;
 
-constexpr ::GlobalNamespace::EnvironmentInfoSO __get_environmentInfo() const;
+constexpr GlobalNamespace::EnvironmentInfoSO __get_environmentInfo() const;
 
- ::GlobalNamespace::PlayerSpecificSettings __declspec(property(get=__get_playerSpecificSettings, put=__set_playerSpecificSettings))  playerSpecificSettings;
+ GlobalNamespace::PlayerSpecificSettings __declspec(property(get=__get_playerSpecificSettings, put=__set_playerSpecificSettings))  playerSpecificSettings;
 
-constexpr void __set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings value) ;
+constexpr void __set_playerSpecificSettings(GlobalNamespace::PlayerSpecificSettings value) ;
 
-constexpr ::GlobalNamespace::PlayerSpecificSettings __get_playerSpecificSettings() const;
+constexpr GlobalNamespace::PlayerSpecificSettings __get_playerSpecificSettings() const;
 
- ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData> __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
+ System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IReadonlyBeatmapData> __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
 
-constexpr void __set___u__1(::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData> value) ;
+constexpr void __set___u__1(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IReadonlyBeatmapData> value) ;
 
-constexpr ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData> __get___u__1() const;
+constexpr System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IReadonlyBeatmapData> __get___u__1() const;
 
 
 // Methods
@@ -133,7 +132,7 @@ constexpr ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::
  void MoveNext() ;
 
 /// @brief Method SetStateMachine addr 0x219125c size 0x58 virtual true final true
- void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
+ void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -148,7 +147,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapDataCache : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using _GetBeatmapData_d__4 = ::GlobalNamespace::____GlobalNamespace__BeatmapDataCache___GetBeatmapData_d__4;
+using _GetBeatmapData_d__4 = GlobalNamespace::GlobalNamespace__BeatmapDataCache___GetBeatmapData_d__4;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -183,35 +182,35 @@ constexpr explicit BeatmapDataCache(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
- ::GlobalNamespace::IDifficultyBeatmap __declspec(property(get=__get_difficultyBeatmap, put=__set_difficultyBeatmap))  difficultyBeatmap;
+ GlobalNamespace::IDifficultyBeatmap __declspec(property(get=__get_difficultyBeatmap, put=__set_difficultyBeatmap))  difficultyBeatmap;
 
-constexpr void __set_difficultyBeatmap(::GlobalNamespace::IDifficultyBeatmap value) ;
+constexpr void __set_difficultyBeatmap(GlobalNamespace::IDifficultyBeatmap value) ;
 
-constexpr ::GlobalNamespace::IDifficultyBeatmap __get_difficultyBeatmap() const;
+constexpr GlobalNamespace::IDifficultyBeatmap __get_difficultyBeatmap() const;
 
- ::GlobalNamespace::EnvironmentInfoSO __declspec(property(get=__get_environmentInfo, put=__set_environmentInfo))  environmentInfo;
+ GlobalNamespace::EnvironmentInfoSO __declspec(property(get=__get_environmentInfo, put=__set_environmentInfo))  environmentInfo;
 
-constexpr void __set_environmentInfo(::GlobalNamespace::EnvironmentInfoSO value) ;
+constexpr void __set_environmentInfo(GlobalNamespace::EnvironmentInfoSO value) ;
 
-constexpr ::GlobalNamespace::EnvironmentInfoSO __get_environmentInfo() const;
+constexpr GlobalNamespace::EnvironmentInfoSO __get_environmentInfo() const;
 
- ::GlobalNamespace::PlayerSpecificSettings __declspec(property(get=__get_playerSpecificSettings, put=__set_playerSpecificSettings))  playerSpecificSettings;
+ GlobalNamespace::PlayerSpecificSettings __declspec(property(get=__get_playerSpecificSettings, put=__set_playerSpecificSettings))  playerSpecificSettings;
 
-constexpr void __set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings value) ;
+constexpr void __set_playerSpecificSettings(GlobalNamespace::PlayerSpecificSettings value) ;
 
-constexpr ::GlobalNamespace::PlayerSpecificSettings __get_playerSpecificSettings() const;
+constexpr GlobalNamespace::PlayerSpecificSettings __get_playerSpecificSettings() const;
 
- ::GlobalNamespace::IReadonlyBeatmapData __declspec(property(get=__get_cachedMap, put=__set_cachedMap))  cachedMap;
+ GlobalNamespace::IReadonlyBeatmapData __declspec(property(get=__get_cachedMap, put=__set_cachedMap))  cachedMap;
 
-constexpr void __set_cachedMap(::GlobalNamespace::IReadonlyBeatmapData value) ;
+constexpr void __set_cachedMap(GlobalNamespace::IReadonlyBeatmapData value) ;
 
-constexpr ::GlobalNamespace::IReadonlyBeatmapData __get_cachedMap() const;
+constexpr GlobalNamespace::IReadonlyBeatmapData __get_cachedMap() const;
 
 
 // Methods
 
 /// @brief Method GetBeatmapData addr 0x2190cd0 size 0x110 virtual false final false
- ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData> GetBeatmapData(::GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, ::GlobalNamespace::EnvironmentInfoSO environmentInfo, ::GlobalNamespace::PlayerSpecificSettings playerSpecificSettings) ;
+ System::Threading::Tasks::Task_1<GlobalNamespace::IReadonlyBeatmapData> GetBeatmapData(GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, GlobalNamespace::EnvironmentInfoSO environmentInfo, GlobalNamespace::PlayerSpecificSettings playerSpecificSettings) ;
 
 // Ctor Parameters []
 explicit BeatmapDataCache() ;
@@ -223,7 +222,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BeatmapDataCache);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapDataCache, "", "BeatmapDataCache");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__BeatmapDataCache___GetBeatmapData_d__4, "", "BeatmapDataCache/<GetBeatmapData>d__4");
+NEED_NO_BOX(GlobalNamespace::BeatmapDataCache);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataCache, "", "BeatmapDataCache");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__BeatmapDataCache___GetBeatmapData_d__4, "", "BeatmapDataCache/<GetBeatmapData>d__4");

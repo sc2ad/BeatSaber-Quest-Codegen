@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Color;
 }
@@ -62,11 +61,11 @@ constexpr explicit Random(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr
 
 static float_t __declspec(property(get=get_value))  value;
 
-static ::UnityEngine::Vector3 __declspec(property(get=get_insideUnitSphere))  insideUnitSphere;
+static UnityEngine::Vector3 __declspec(property(get=get_insideUnitSphere))  insideUnitSphere;
 
-static ::UnityEngine::Vector3 __declspec(property(get=get_onUnitSphere))  onUnitSphere;
+static UnityEngine::Vector3 __declspec(property(get=get_onUnitSphere))  onUnitSphere;
 
-static ::UnityEngine::Quaternion __declspec(property(get=get_rotation))  rotation;
+static UnityEngine::Quaternion __declspec(property(get=get_rotation))  rotation;
 
 
 // Methods
@@ -87,33 +86,32 @@ static int32_t RandomRangeInt(int32_t minInclusive, int32_t maxExclusive) ;
 static float_t get_value() ;
 
 /// @brief Method get_insideUnitSphere addr 0x2b4e034 size 0x4c virtual false final false
-static ::UnityEngine::Vector3 get_insideUnitSphere() ;
+static UnityEngine::Vector3 get_insideUnitSphere() ;
 
 /// @brief Method get_onUnitSphere addr 0x2b4e0bc size 0x4c virtual false final false
-static ::UnityEngine::Vector3 get_onUnitSphere() ;
+static UnityEngine::Vector3 get_onUnitSphere() ;
 
 /// @brief Method get_rotation addr 0x2b4e144 size 0x48 virtual false final false
-static ::UnityEngine::Quaternion get_rotation() ;
+static UnityEngine::Quaternion get_rotation() ;
 
 /// @brief Method ColorHSV addr 0x2b4e1c8 size 0x24 virtual false final false
-static ::UnityEngine::Color ColorHSV() ;
+static UnityEngine::Color ColorHSV() ;
 
 /// @brief Method ColorHSV addr 0x2b4e1ec size 0x164 virtual false final false
-static ::UnityEngine::Color ColorHSV(float_t hueMin, float_t hueMax, float_t saturationMin, float_t saturationMax, float_t valueMin, float_t valueMax, float_t alphaMin, float_t alphaMax) ;
+static UnityEngine::Color ColorHSV(float_t hueMin, float_t hueMax, float_t saturationMin, float_t saturationMax, float_t valueMin, float_t valueMax, float_t alphaMin, float_t alphaMax) ;
 
 /// @brief Method get_insideUnitSphere_Injected addr 0x2b4e080 size 0x3c virtual false final false
-static void get_insideUnitSphere_Injected(ByRef<::UnityEngine::Vector3> ret) ;
+static void get_insideUnitSphere_Injected(ByRef<UnityEngine::Vector3> ret) ;
 
 /// @brief Method get_onUnitSphere_Injected addr 0x2b4e108 size 0x3c virtual false final false
-static void get_onUnitSphere_Injected(ByRef<::UnityEngine::Vector3> ret) ;
+static void get_onUnitSphere_Injected(ByRef<UnityEngine::Vector3> ret) ;
 
 /// @brief Method get_rotation_Injected addr 0x2b4e18c size 0x3c virtual false final false
-static void get_rotation_Injected(ByRef<::UnityEngine::Quaternion> ret) ;
+static void get_rotation_Injected(ByRef<UnityEngine::Quaternion> ret) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Random);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Random, "UnityEngine", "Random");
+NEED_NO_BOX(UnityEngine::Random);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Random, "UnityEngine", "Random");

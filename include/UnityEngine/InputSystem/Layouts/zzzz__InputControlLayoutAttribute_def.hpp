@@ -3,13 +3,12 @@
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace System {
+class Type;
+}
 namespace System {
 template<typename T>
 struct Nullable_1;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Layouts {
@@ -21,7 +20,7 @@ namespace UnityEngine::InputSystem::Layouts {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6699))
 // CS Name: UnityEngine.InputSystem.Layouts.InputControlLayoutAttribute
-class CORDL_TYPE InputControlLayoutAttribute : public ::System::Attribute {
+class CORDL_TYPE InputControlLayoutAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr InputControlLayoutAttribute(InputControlLayoutAttribute const& ) noexc
 constexpr InputControlLayoutAttribute(InputControlLayoutAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit InputControlLayoutAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit InputControlLayoutAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -57,11 +56,11 @@ constexpr explicit InputControlLayoutAttribute(void* ptr) noexcept : ::System::A
 
 // Fields
 
- ::System::Type __declspec(property(get=__get__stateType_k__BackingField, put=__set__stateType_k__BackingField))  _stateType_k__BackingField;
+ System::Type __declspec(property(get=__get__stateType_k__BackingField, put=__set__stateType_k__BackingField))  _stateType_k__BackingField;
 
-constexpr void __set__stateType_k__BackingField(::System::Type value) ;
+constexpr void __set__stateType_k__BackingField(System::Type value) ;
 
-constexpr ::System::Type __get__stateType_k__BackingField() const;
+constexpr System::Type __get__stateType_k__BackingField() const;
 
  ::StringW __declspec(property(get=__get__stateFormat_k__BackingField, put=__set__stateFormat_k__BackingField))  _stateFormat_k__BackingField;
 
@@ -87,17 +86,17 @@ constexpr void __set__isNoisy_k__BackingField(bool value) ;
 
 constexpr bool __get__isNoisy_k__BackingField() const;
 
- ::System::Nullable_1<bool> __declspec(property(get=__get_canRunInBackgroundInternal, put=__set_canRunInBackgroundInternal))  canRunInBackgroundInternal;
+ System::Nullable_1<bool> __declspec(property(get=__get_canRunInBackgroundInternal, put=__set_canRunInBackgroundInternal))  canRunInBackgroundInternal;
 
-constexpr void __set_canRunInBackgroundInternal(::System::Nullable_1<bool> value) ;
+constexpr void __set_canRunInBackgroundInternal(System::Nullable_1<bool> value) ;
 
-constexpr ::System::Nullable_1<bool> __get_canRunInBackgroundInternal() const;
+constexpr System::Nullable_1<bool> __get_canRunInBackgroundInternal() const;
 
- ::System::Nullable_1<bool> __declspec(property(get=__get_updateBeforeRenderInternal, put=__set_updateBeforeRenderInternal))  updateBeforeRenderInternal;
+ System::Nullable_1<bool> __declspec(property(get=__get_updateBeforeRenderInternal, put=__set_updateBeforeRenderInternal))  updateBeforeRenderInternal;
 
-constexpr void __set_updateBeforeRenderInternal(::System::Nullable_1<bool> value) ;
+constexpr void __set_updateBeforeRenderInternal(System::Nullable_1<bool> value) ;
 
-constexpr ::System::Nullable_1<bool> __get_updateBeforeRenderInternal() const;
+constexpr System::Nullable_1<bool> __get_updateBeforeRenderInternal() const;
 
  bool __declspec(property(get=__get__isGenericTypeOfDevice_k__BackingField, put=__set__isGenericTypeOfDevice_k__BackingField))  _isGenericTypeOfDevice_k__BackingField;
 
@@ -126,7 +125,7 @@ constexpr bool __get__hideInUI_k__BackingField() const;
 
 // Properties
 
- ::System::Type __declspec(property(get=get_stateType, put=set_stateType))  stateType;
+ System::Type __declspec(property(get=get_stateType, put=set_stateType))  stateType;
 
  ::StringW __declspec(property(get=get_stateFormat, put=set_stateFormat))  stateFormat;
 
@@ -152,10 +151,10 @@ constexpr bool __get__hideInUI_k__BackingField() const;
 // Methods
 
 /// @brief Method get_stateType addr 0x2970c68 size 0x8 virtual false final false
- ::System::Type get_stateType() ;
+ System::Type get_stateType() ;
 
 /// @brief Method set_stateType addr 0x2970c70 size 0x8 virtual false final false
- void set_stateType(::System::Type value) ;
+ void set_stateType(System::Type value) ;
 
 /// @brief Method get_stateFormat addr 0x2970c78 size 0x8 virtual false final false
  ::StringW get_stateFormat() ;
@@ -227,6 +226,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Layouts
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Layouts::InputControlLayoutAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::InputControlLayoutAttribute, "UnityEngine.InputSystem.Layouts", "InputControlLayoutAttribute");
+NEED_NO_BOX(UnityEngine::InputSystem::Layouts::InputControlLayoutAttribute);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Layouts::InputControlLayoutAttribute, "UnityEngine.InputSystem.Layouts", "InputControlLayoutAttribute");

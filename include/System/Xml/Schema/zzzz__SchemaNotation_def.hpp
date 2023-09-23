@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Xml {
 class XmlQualifiedName;
 }
@@ -52,11 +51,11 @@ constexpr explicit SchemaNotation(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
- ::System::Xml::XmlQualifiedName __declspec(property(get=__get_name, put=__set_name))  name;
+ System::Xml::XmlQualifiedName __declspec(property(get=__get_name, put=__set_name))  name;
 
-constexpr void __set_name(::System::Xml::XmlQualifiedName value) ;
+constexpr void __set_name(System::Xml::XmlQualifiedName value) ;
 
-constexpr ::System::Xml::XmlQualifiedName __get_name() const;
+constexpr System::Xml::XmlQualifiedName __get_name() const;
 
  ::StringW __declspec(property(get=__get_systemLiteral, put=__set_systemLiteral))  systemLiteral;
 
@@ -73,7 +72,7 @@ constexpr ::StringW __get_pubid() const;
 
 // Properties
 
- ::System::Xml::XmlQualifiedName __declspec(property(get=get_Name))  Name;
+ System::Xml::XmlQualifiedName __declspec(property(get=get_Name))  Name;
 
  ::StringW __declspec(property(get=get_SystemLiteral, put=set_SystemLiteral))  SystemLiteral;
 
@@ -82,14 +81,14 @@ constexpr ::StringW __get_pubid() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::System::Xml::XmlQualifiedName", modifiers: "", def_value: None }]
-explicit SchemaNotation(::System::Xml::XmlQualifiedName name) ;
+// Ctor Parameters [CppParam { name: "name", ty: "System::Xml::XmlQualifiedName", modifiers: "", def_value: None }]
+explicit SchemaNotation(System::Xml::XmlQualifiedName name) ;
 
 /// @brief Method .ctor addr 0x2732234 size 0x28 virtual false final false
- void _ctor(::System::Xml::XmlQualifiedName name) ;
+ void _ctor(System::Xml::XmlQualifiedName name) ;
 
 /// @brief Method get_Name addr 0x273225c size 0x8 virtual false final false
- ::System::Xml::XmlQualifiedName get_Name() ;
+ System::Xml::XmlQualifiedName get_Name() ;
 
 /// @brief Method get_SystemLiteral addr 0x2732264 size 0x8 virtual false final false
  ::StringW get_SystemLiteral() ;
@@ -107,6 +106,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::SchemaNotation);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::SchemaNotation, "System.Xml.Schema", "SchemaNotation");
+NEED_NO_BOX(System::Xml::Schema::SchemaNotation);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::SchemaNotation, "System.Xml.Schema", "SchemaNotation");

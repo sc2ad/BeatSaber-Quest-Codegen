@@ -4,7 +4,6 @@
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
@@ -17,7 +16,7 @@ namespace UnityEngine::UIElements::UIR {
 class ShaderInfoStorageRGBAFloat;
 }
 namespace UnityEngine::UIElements::UIR {
-class ____UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c;
+class UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c;
 }
 // Type: ::<>c
 namespace UnityEngine::UIElements::UIR {
@@ -25,59 +24,59 @@ namespace UnityEngine::UIElements::UIR {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7484))
 // CS Name: UnityEngine.UIElements.UIR.ShaderInfoStorageRGBAFloat::<>c
-class CORDL_TYPE ____UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c() = default;
+virtual ~UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c(____UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c(UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c(____UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c(UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c& operator=(void* o) noexcept {
+  constexpr UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c& operator=(____UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c&& o) noexcept = default;
-  constexpr ____UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c& operator=(____UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c const& o) noexcept = default;
+  constexpr UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c& operator=(UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c&& o) noexcept = default;
+  constexpr UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c& operator=(UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c const& o) noexcept = default;
                 
 
 
 // Fields
 
-static ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c __declspec(property(get=__get___9, put=__set___9))  __9;
+static UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c __declspec(property(get=__get___9, put=__set___9))  __9;
 
-static void __set___9(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c value) ;
+static void __set___9(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c value) ;
 
-static ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c __get___9() ;
+static UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c __get___9() ;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c() ;
+explicit UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c() ;
 
 /// @brief Method .ctor addr 0x2d156d4 size 0x8 virtual false final false
  void _ctor() ;
 
 /// @brief Method <.cctor>b__2_0 addr 0x2d156dc size 0x4 virtual false final false
- ::UnityEngine::Color __cctor_b__2_0(::UnityEngine::Color c) ;
+ UnityEngine::Color __cctor_b__2_0(UnityEngine::Color c) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -86,13 +85,13 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: UnityEngine.UIElements.UIR::ShaderInfoStorageRGBAFloat
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7481), inst: 280 }), TypeDefinitionIndex(TypeDefinitionIndex(7481)), TypeDefinitionIndex(TypeDefinitionIndex(10192))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7481), inst: 280 }), TypeDefinitionIndex(TypeDefinitionIndex(10192)), TypeDefinitionIndex(TypeDefinitionIndex(7481))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7485))
 // CS Name: UnityEngine.UIElements.UIR.ShaderInfoStorageRGBAFloat
-class CORDL_TYPE ShaderInfoStorageRGBAFloat : public ::UnityEngine::UIElements::UIR::ShaderInfoStorage_1<::UnityEngine::Color> {
+class CORDL_TYPE ShaderInfoStorageRGBAFloat : public UnityEngine::UIElements::UIR::ShaderInfoStorage_1<UnityEngine::Color> {
 public:
 // Declarations
-using __c = ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c;
+using __c = UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
@@ -106,7 +105,7 @@ constexpr ShaderInfoStorageRGBAFloat(ShaderInfoStorageRGBAFloat const& ) noexcep
 constexpr ShaderInfoStorageRGBAFloat(ShaderInfoStorageRGBAFloat&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ShaderInfoStorageRGBAFloat(void* ptr) noexcept : ::UnityEngine::UIElements::UIR::ShaderInfoStorage_1<::UnityEngine::Color>(ptr) {
+constexpr explicit ShaderInfoStorageRGBAFloat(void* ptr) noexcept : UnityEngine::UIElements::UIR::ShaderInfoStorage_1<UnityEngine::Color>(ptr) {
 }
 
 
@@ -127,11 +126,11 @@ constexpr explicit ShaderInfoStorageRGBAFloat(void* ptr) noexcept : ::UnityEngin
 
 // Fields
 
-static ::System::Func_2<::UnityEngine::Color,::UnityEngine::Color> __declspec(property(get=__get_s_Convert, put=__set_s_Convert))  s_Convert;
+static System::Func_2<UnityEngine::Color,UnityEngine::Color> __declspec(property(get=__get_s_Convert, put=__set_s_Convert))  s_Convert;
 
-static void __set_s_Convert(::System::Func_2<::UnityEngine::Color,::UnityEngine::Color> value) ;
+static void __set_s_Convert(System::Func_2<UnityEngine::Color,UnityEngine::Color> value) ;
 
-static ::System::Func_2<::UnityEngine::Color,::UnityEngine::Color> __get_s_Convert() ;
+static System::Func_2<UnityEngine::Color,UnityEngine::Color> __get_s_Convert() ;
 
 
 // Methods
@@ -146,8 +145,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::UIR
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat, "UnityEngine.UIElements.UIR", "ShaderInfoStorageRGBAFloat");
-NEED_NO_BOX(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c, "UnityEngine.UIElements.UIR", "ShaderInfoStorageRGBAFloat/<>c");
+NEED_NO_BOX(UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat, "UnityEngine.UIElements.UIR", "ShaderInfoStorageRGBAFloat");
+NEED_NO_BOX(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c, "UnityEngine.UIElements.UIR", "ShaderInfoStorageRGBAFloat/<>c");

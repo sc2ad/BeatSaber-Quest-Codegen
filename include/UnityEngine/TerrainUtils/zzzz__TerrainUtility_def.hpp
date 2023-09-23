@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine::TerrainUtils {
 class TerrainMap;
 }
@@ -18,10 +17,10 @@ namespace UnityEngine::TerrainUtils {
 class TerrainUtility;
 }
 namespace UnityEngine::TerrainUtils {
-class ____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0;
+class UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0;
 }
 namespace UnityEngine::TerrainUtils {
-class ____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1;
+class UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1;
 }
 // Type: ::<>c__DisplayClass2_0
 namespace UnityEngine::TerrainUtils {
@@ -29,37 +28,37 @@ namespace UnityEngine::TerrainUtils {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15456))
 // CS Name: UnityEngine.TerrainUtils.TerrainUtility::<>c__DisplayClass2_0
-class CORDL_TYPE ____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0() = default;
+virtual ~UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0(____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0(UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0(____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0(UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0& operator=(void* o) noexcept {
+  constexpr UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0& operator=(____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0&& o) noexcept = default;
-  constexpr ____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0& operator=(____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0 const& o) noexcept = default;
+  constexpr UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0& operator=(UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0&& o) noexcept = default;
+  constexpr UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0& operator=(UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0 const& o) noexcept = default;
                 
 
 
@@ -75,7 +74,7 @@ constexpr bool __get_onlyAutoConnectedTerrains() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0() ;
+explicit UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0() ;
 
 /// @brief Method .ctor addr 0x2ba8e10 size 0x8 virtual false final false
  void _ctor() ;
@@ -90,65 +89,65 @@ namespace UnityEngine::TerrainUtils {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15457))
 // CS Name: UnityEngine.TerrainUtils.TerrainUtility::<>c__DisplayClass2_1
-class CORDL_TYPE ____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1() = default;
+virtual ~UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1(____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1(UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1(____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1(UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1& operator=(void* o) noexcept {
+  constexpr UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1& operator=(____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1&& o) noexcept = default;
-  constexpr ____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1& operator=(____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1 const& o) noexcept = default;
+  constexpr UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1& operator=(UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1&& o) noexcept = default;
+  constexpr UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1& operator=(UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::UnityEngine::Terrain __declspec(property(get=__get_t, put=__set_t))  t;
+ UnityEngine::Terrain __declspec(property(get=__get_t, put=__set_t))  t;
 
-constexpr void __set_t(::UnityEngine::Terrain value) ;
+constexpr void __set_t(UnityEngine::Terrain value) ;
 
-constexpr ::UnityEngine::Terrain __get_t() const;
+constexpr UnityEngine::Terrain __get_t() const;
 
- ::UnityEngine::TerrainUtils::____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0 __declspec(property(get=__get_CS$__8__locals1, put=__set_CS$__8__locals1))  CS$__8__locals1;
+ UnityEngine::TerrainUtils::UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0 __declspec(property(get=__get_CS$__8__locals1, put=__set_CS$__8__locals1))  CS$__8__locals1;
 
-constexpr void __set_CS$__8__locals1(::UnityEngine::TerrainUtils::____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0 value) ;
+constexpr void __set_CS$__8__locals1(UnityEngine::TerrainUtils::UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0 value) ;
 
-constexpr ::UnityEngine::TerrainUtils::____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0 __get_CS$__8__locals1() const;
+constexpr UnityEngine::TerrainUtils::UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0 __get_CS$__8__locals1() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1() ;
+explicit UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1() ;
 
 /// @brief Method .ctor addr 0x2ba8e18 size 0x8 virtual false final false
  void _ctor() ;
 
 /// @brief Method <CollectTerrains>b__0 addr 0x2ba91a8 size 0x10dc virtual false final false
- bool _CollectTerrains_b__0(::UnityEngine::Terrain x) ;
+ bool _CollectTerrains_b__0(UnityEngine::Terrain x) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -163,9 +162,9 @@ namespace UnityEngine::TerrainUtils {
 class CORDL_TYPE TerrainUtility : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using __c__DisplayClass2_1 = ::UnityEngine::TerrainUtils::____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1;
+using __c__DisplayClass2_1 = UnityEngine::TerrainUtils::UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1;
 
-using __c__DisplayClass2_0 = ::UnityEngine::TerrainUtils::____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0;
+using __c__DisplayClass2_0 = UnityEngine::TerrainUtils::UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -207,7 +206,7 @@ static bool ValidTerrainsExist() ;
 static void ClearConnectivity() ;
 
 /// @brief Method CollectTerrains addr 0x2ba8aec size 0x324 virtual false final false
-static ::System::Collections::Generic::Dictionary_2<int32_t,::UnityEngine::TerrainUtils::TerrainMap> CollectTerrains(bool onlyAutoConnectedTerrains) ;
+static System::Collections::Generic::Dictionary_2<int32_t,UnityEngine::TerrainUtils::TerrainMap> CollectTerrains(bool onlyAutoConnectedTerrains) ;
 
 /// @brief Method AutoConnect addr 0x2ba8e20 size 0x388 virtual false final false
 static void AutoConnect() ;
@@ -216,10 +215,9 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TerrainUtils
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::TerrainUtils::TerrainUtility);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TerrainUtils::TerrainUtility, "UnityEngine.TerrainUtils", "TerrainUtility");
-NEED_NO_BOX(::UnityEngine::TerrainUtils::____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TerrainUtils::____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0, "UnityEngine.TerrainUtils", "TerrainUtility/<>c__DisplayClass2_0");
-NEED_NO_BOX(::UnityEngine::TerrainUtils::____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TerrainUtils::____UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1, "UnityEngine.TerrainUtils", "TerrainUtility/<>c__DisplayClass2_1");
+NEED_NO_BOX(UnityEngine::TerrainUtils::TerrainUtility);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TerrainUtils::TerrainUtility, "UnityEngine.TerrainUtils", "TerrainUtility");
+NEED_NO_BOX(UnityEngine::TerrainUtils::UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TerrainUtils::UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0, "UnityEngine.TerrainUtils", "TerrainUtility/<>c__DisplayClass2_0");
+NEED_NO_BOX(UnityEngine::TerrainUtils::UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TerrainUtils::UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1, "UnityEngine.TerrainUtils", "TerrainUtility/<>c__DisplayClass2_1");

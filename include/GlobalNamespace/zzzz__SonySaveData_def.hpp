@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace Zenject {
-class TickableManager;
+class ITickable;
 }
 namespace GlobalNamespace {
 class ISaveData;
 }
 namespace Zenject {
-class ITickable;
+class TickableManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,11 +25,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE SonySaveData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::ISaveData
-constexpr operator  ::GlobalNamespace::ISaveData() const noexcept;
+/// @brief Convert operator to GlobalNamespace::ISaveData
+constexpr operator  GlobalNamespace::ISaveData() const noexcept;
 
-/// @brief Convert operator to ::Zenject::ITickable
-constexpr operator  ::Zenject::ITickable() const noexcept;
+/// @brief Convert operator to Zenject::ITickable
+constexpr operator  Zenject::ITickable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -75,7 +74,7 @@ constexpr bool __get__isMarkedForSave() const;
 // Methods
 
 /// @brief Method RegisterForTicking addr 0x1f7dd7c size 0x20 virtual false final false
- void RegisterForTicking(::Zenject::TickableManager tickableManager) ;
+ void RegisterForTicking(Zenject::TickableManager tickableManager) ;
 
 /// @brief Method Initialize addr 0x1f7dd9c size 0x4 virtual false final false
 static void Initialize() ;
@@ -111,6 +110,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SonySaveData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SonySaveData, "", "SonySaveData");
+NEED_NO_BOX(GlobalNamespace::SonySaveData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SonySaveData, "", "SonySaveData");

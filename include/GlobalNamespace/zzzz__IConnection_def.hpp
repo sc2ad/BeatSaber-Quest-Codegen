@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
@@ -49,7 +48,7 @@ constexpr explicit IConnection(void* ptr) noexcept : ::cordl_internals::Interfac
  bool get_isConnectionOwner() ;
 
 /// @brief Method Send addr 0x0 size 0xffffffffffffffff virtual true final false
- void Send(::LiteNetLib::Utils::NetDataWriter writer, ::BGNet::Core::DeliveryMethod deliveryMethod) ;
+ void Send(LiteNetLib::Utils::NetDataWriter writer, BGNet::Core::DeliveryMethod deliveryMethod) ;
 
 /// @brief Method Disconnect addr 0x0 size 0xffffffffffffffff virtual true final false
  void Disconnect() ;
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IConnection);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IConnection, "", "IConnection");
+NEED_NO_BOX(GlobalNamespace::IConnection);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IConnection, "", "IConnection");

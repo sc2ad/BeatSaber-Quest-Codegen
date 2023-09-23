@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Utilities {
 class IMemoable;
 }
@@ -24,11 +23,11 @@ namespace Org::BouncyCastle::Crypto::Digests {
 class CORDL_TYPE TigerDigest : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IDigest
-constexpr operator  ::Org::BouncyCastle::Crypto::IDigest() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IDigest
+constexpr operator  Org::BouncyCastle::Crypto::IDigest() const noexcept;
 
-/// @brief Convert operator to ::Org::BouncyCastle::Utilities::IMemoable
-constexpr operator  ::Org::BouncyCastle::Utilities::IMemoable() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Utilities::IMemoable
+constexpr operator  Org::BouncyCastle::Utilities::IMemoable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x50};
@@ -155,11 +154,11 @@ explicit TigerDigest() ;
 /// @brief Method .ctor addr 0xe1c368 size 0x8c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "t", ty: "::Org::BouncyCastle::Crypto::Digests::TigerDigest", modifiers: "", def_value: None }]
-explicit TigerDigest(::Org::BouncyCastle::Crypto::Digests::TigerDigest t) ;
+// Ctor Parameters [CppParam { name: "t", ty: "Org::BouncyCastle::Crypto::Digests::TigerDigest", modifiers: "", def_value: None }]
+explicit TigerDigest(Org::BouncyCastle::Crypto::Digests::TigerDigest t) ;
 
 /// @brief Method .ctor addr 0xe1c498 size 0x94 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::Digests::TigerDigest t) ;
+ void _ctor(Org::BouncyCastle::Crypto::Digests::TigerDigest t) ;
 
 /// @brief Method get_AlgorithmName addr 0xe1c614 size 0x40 virtual true final true
  ::StringW get_AlgorithmName() ;
@@ -210,15 +209,14 @@ explicit TigerDigest(::Org::BouncyCastle::Crypto::Digests::TigerDigest t) ;
  void Reset() ;
 
 /// @brief Method Copy addr 0xe1d40c size 0x60 virtual true final true
- ::Org::BouncyCastle::Utilities::IMemoable Copy() ;
+ Org::BouncyCastle::Utilities::IMemoable Copy() ;
 
 /// @brief Method Reset addr 0xe1c52c size 0xe8 virtual true final true
- void Reset(::Org::BouncyCastle::Utilities::IMemoable other) ;
+ void Reset(Org::BouncyCastle::Utilities::IMemoable other) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Digests
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::TigerDigest);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Digests::TigerDigest, "Org.BouncyCastle.Crypto.Digests", "TigerDigest");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Digests::TigerDigest);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::TigerDigest, "Org.BouncyCastle.Crypto.Digests", "TigerDigest");

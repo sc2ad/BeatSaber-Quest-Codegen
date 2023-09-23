@@ -6,18 +6,17 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
+namespace Tweening {
+class TimeTweeningManager;
+}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace Tweening {
-class TimeTweeningManager;
+class CanvasGroup;
 }
 namespace UnityEngine {
-class CanvasGroup;
+struct Vector3;
 }
 namespace System {
 class IDisposable;
@@ -37,13 +36,13 @@ namespace GlobalNamespace {
 class GhostDuplicationEffect;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8;
+class GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0;
+class GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__GhostDuplicationEffect__GhostEffectParams;
+struct GlobalNamespace__GhostDuplicationEffect__GhostEffectParams;
 }
 // Type: ::GhostEffectParams
 namespace GlobalNamespace {
@@ -51,20 +50,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4974))
 // CS Name: GhostDuplicationEffect::GhostEffectParams
-struct CORDL_TYPE ____GlobalNamespace__GhostDuplicationEffect__GhostEffectParams : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__GhostDuplicationEffect__GhostEffectParams : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "startAlpha", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "startPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "startSize", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "endAlpha", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "endPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "endSize", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "duration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "delay", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "easeType", ty: "::GlobalNamespace::EaseType", modifiers: "", def_value: None }, CppParam { name: "distanceCurve", ty: "::UnityEngine::AnimationCurve", modifiers: "", def_value: None }, CppParam { name: "peakDistance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "lastPhase", ty: "bool", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__GhostDuplicationEffect__GhostEffectParams(float_t startAlpha, ::UnityEngine::Vector3 startPosition, float_t startSize, float_t endAlpha, ::UnityEngine::Vector3 endPosition, float_t endSize, float_t duration, float_t delay, ::GlobalNamespace::EaseType easeType, ::UnityEngine::AnimationCurve distanceCurve, float_t peakDistance, bool lastPhase) noexcept;
+// Ctor Parameters [CppParam { name: "startAlpha", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "startPosition", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "startSize", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "endAlpha", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "endPosition", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "endSize", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "duration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "delay", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "easeType", ty: "GlobalNamespace::EaseType", modifiers: "", def_value: None }, CppParam { name: "distanceCurve", ty: "UnityEngine::AnimationCurve", modifiers: "", def_value: None }, CppParam { name: "peakDistance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "lastPhase", ty: "bool", modifiers: "", def_value: None }]
+constexpr GlobalNamespace__GhostDuplicationEffect__GhostEffectParams(float_t startAlpha, UnityEngine::Vector3 startPosition, float_t startSize, float_t endAlpha, UnityEngine::Vector3 endPosition, float_t endSize, float_t duration, float_t delay, GlobalNamespace::EaseType easeType, UnityEngine::AnimationCurve distanceCurve, float_t peakDistance, bool lastPhase) noexcept;
 
 
-                    constexpr ____GlobalNamespace__GhostDuplicationEffect__GhostEffectParams(____GlobalNamespace__GhostDuplicationEffect__GhostEffectParams const&) = default;
-                    constexpr ____GlobalNamespace__GhostDuplicationEffect__GhostEffectParams(____GlobalNamespace__GhostDuplicationEffect__GhostEffectParams&&) = default;
-                    constexpr ____GlobalNamespace__GhostDuplicationEffect__GhostEffectParams& operator=(____GlobalNamespace__GhostDuplicationEffect__GhostEffectParams const& o) {
+                    constexpr GlobalNamespace__GhostDuplicationEffect__GhostEffectParams(GlobalNamespace__GhostDuplicationEffect__GhostEffectParams const&) = default;
+                    constexpr GlobalNamespace__GhostDuplicationEffect__GhostEffectParams(GlobalNamespace__GhostDuplicationEffect__GhostEffectParams&&) = default;
+                    constexpr GlobalNamespace__GhostDuplicationEffect__GhostEffectParams& operator=(GlobalNamespace__GhostDuplicationEffect__GhostEffectParams const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__GhostDuplicationEffect__GhostEffectParams& operator=(____GlobalNamespace__GhostDuplicationEffect__GhostEffectParams&& o) noexcept {
+                    constexpr GlobalNamespace__GhostDuplicationEffect__GhostEffectParams& operator=(GlobalNamespace__GhostDuplicationEffect__GhostEffectParams&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -77,7 +76,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x48};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__GhostDuplicationEffect__GhostEffectParams(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__GhostDuplicationEffect__GhostEffectParams(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -94,11 +93,11 @@ constexpr void __set_startAlpha(float_t value) ;
 
 constexpr float_t __get_startAlpha() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_startPosition, put=__set_startPosition))  startPosition;
+ UnityEngine::Vector3 __declspec(property(get=__get_startPosition, put=__set_startPosition))  startPosition;
 
-constexpr void __set_startPosition(::UnityEngine::Vector3 value) ;
+constexpr void __set_startPosition(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_startPosition() const;
+constexpr UnityEngine::Vector3 __get_startPosition() const;
 
  float_t __declspec(property(get=__get_startSize, put=__set_startSize))  startSize;
 
@@ -112,11 +111,11 @@ constexpr void __set_endAlpha(float_t value) ;
 
 constexpr float_t __get_endAlpha() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_endPosition, put=__set_endPosition))  endPosition;
+ UnityEngine::Vector3 __declspec(property(get=__get_endPosition, put=__set_endPosition))  endPosition;
 
-constexpr void __set_endPosition(::UnityEngine::Vector3 value) ;
+constexpr void __set_endPosition(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_endPosition() const;
+constexpr UnityEngine::Vector3 __get_endPosition() const;
 
  float_t __declspec(property(get=__get_endSize, put=__set_endSize))  endSize;
 
@@ -136,17 +135,17 @@ constexpr void __set_delay(float_t value) ;
 
 constexpr float_t __get_delay() const;
 
- ::GlobalNamespace::EaseType __declspec(property(get=__get_easeType, put=__set_easeType))  easeType;
+ GlobalNamespace::EaseType __declspec(property(get=__get_easeType, put=__set_easeType))  easeType;
 
-constexpr void __set_easeType(::GlobalNamespace::EaseType value) ;
+constexpr void __set_easeType(GlobalNamespace::EaseType value) ;
 
-constexpr ::GlobalNamespace::EaseType __get_easeType() const;
+constexpr GlobalNamespace::EaseType __get_easeType() const;
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get_distanceCurve, put=__set_distanceCurve))  distanceCurve;
+ UnityEngine::AnimationCurve __declspec(property(get=__get_distanceCurve, put=__set_distanceCurve))  distanceCurve;
 
-constexpr void __set_distanceCurve(::UnityEngine::AnimationCurve value) ;
+constexpr void __set_distanceCurve(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get_distanceCurve() const;
+constexpr UnityEngine::AnimationCurve __get_distanceCurve() const;
 
  float_t __declspec(property(get=__get_peakDistance, put=__set_peakDistance))  peakDistance;
 
@@ -170,65 +169,65 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4975))
 // CS Name: GhostDuplicationEffect::<>c__DisplayClass7_0
-class CORDL_TYPE ____GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x70};
 
-virtual ~____GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0() = default;
+virtual ~GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0(____GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0(GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0(____GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0(GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0& operator=(____GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0&& o) noexcept = default;
-  constexpr ____GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0& operator=(____GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0 const& o) noexcept = default;
+  constexpr GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0& operator=(GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0&& o) noexcept = default;
+  constexpr GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0& operator=(GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::GlobalNamespace::GhostDuplicationEffect __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::GhostDuplicationEffect __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::GhostDuplicationEffect value) ;
+constexpr void __set___4__this(GlobalNamespace::GhostDuplicationEffect value) ;
 
-constexpr ::GlobalNamespace::GhostDuplicationEffect __get___4__this() const;
+constexpr GlobalNamespace::GhostDuplicationEffect __get___4__this() const;
 
- ::GlobalNamespace::____GlobalNamespace__GhostDuplicationEffect__GhostEffectParams __declspec(property(get=__get_ghostEffectParams, put=__set_ghostEffectParams))  ghostEffectParams;
+ GlobalNamespace::GlobalNamespace__GhostDuplicationEffect__GhostEffectParams __declspec(property(get=__get_ghostEffectParams, put=__set_ghostEffectParams))  ghostEffectParams;
 
-constexpr void __set_ghostEffectParams(::GlobalNamespace::____GlobalNamespace__GhostDuplicationEffect__GhostEffectParams value) ;
+constexpr void __set_ghostEffectParams(GlobalNamespace::GlobalNamespace__GhostDuplicationEffect__GhostEffectParams value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__GhostDuplicationEffect__GhostEffectParams __get_ghostEffectParams() const;
+constexpr GlobalNamespace::GlobalNamespace__GhostDuplicationEffect__GhostEffectParams __get_ghostEffectParams() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_direction, put=__set_direction))  direction;
+ UnityEngine::Vector3 __declspec(property(get=__get_direction, put=__set_direction))  direction;
 
-constexpr void __set_direction(::UnityEngine::Vector3 value) ;
+constexpr void __set_direction(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_direction() const;
+constexpr UnityEngine::Vector3 __get_direction() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0() ;
+explicit GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0() ;
 
 /// @brief Method .ctor addr 0x2251b84 size 0x8 virtual false final false
  void _ctor() ;
@@ -240,7 +239,7 @@ explicit ____GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0() ;
  void _Animate_b__1(float_t val) ;
 
 /// @brief Method <Animate>b__2 addr 0x2251e9c size 0x50 virtual false final false
- void _Animate_b__2(::UnityEngine::Vector3 pos) ;
+ void _Animate_b__2(UnityEngine::Vector3 pos) ;
 
 /// @brief Method <Animate>b__3 addr 0x2251eec size 0x40 virtual false final false
  void _Animate_b__3(float_t val) ;
@@ -255,46 +254,46 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4976))
 // CS Name: GhostDuplicationEffect::<HideRedundantWithDelay>d__8
-class CORDL_TYPE ____GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8() = default;
+virtual ~GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8(____GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8(GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8(____GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8(GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8& operator=(____GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8&& o) noexcept = default;
-  constexpr ____GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8& operator=(____GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8 const& o) noexcept = default;
+  constexpr GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8& operator=(GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8&& o) noexcept = default;
+  constexpr GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8& operator=(GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8 const& o) noexcept = default;
                 
 
 
@@ -318,11 +317,11 @@ constexpr void __set_delay(float_t value) ;
 
 constexpr float_t __get_delay() const;
 
- ::GlobalNamespace::GhostDuplicationEffect __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::GhostDuplicationEffect __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::GhostDuplicationEffect value) ;
+constexpr void __set___4__this(GlobalNamespace::GhostDuplicationEffect value) ;
 
-constexpr ::GlobalNamespace::GhostDuplicationEffect __get___4__this() const;
+constexpr GlobalNamespace::GhostDuplicationEffect __get___4__this() const;
 
 
 // Properties
@@ -335,7 +334,7 @@ constexpr ::GlobalNamespace::GhostDuplicationEffect __get___4__this() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8(int32_t __1__state) ;
+explicit GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2251c04 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -365,14 +364,14 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4977))
 // CS Name: GhostDuplicationEffect
-class CORDL_TYPE GhostDuplicationEffect : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE GhostDuplicationEffect : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using _HideRedundantWithDelay_d__8 = ::GlobalNamespace::____GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8;
+using _HideRedundantWithDelay_d__8 = GlobalNamespace::GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8;
 
-using __c__DisplayClass7_0 = ::GlobalNamespace::____GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0;
+using __c__DisplayClass7_0 = GlobalNamespace::GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0;
 
-using GhostEffectParams = ::GlobalNamespace::____GlobalNamespace__GhostDuplicationEffect__GhostEffectParams;
+using GhostEffectParams = GlobalNamespace::GlobalNamespace__GhostDuplicationEffect__GhostEffectParams;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -386,7 +385,7 @@ constexpr GhostDuplicationEffect(GhostDuplicationEffect const& ) noexcept = defa
 constexpr GhostDuplicationEffect(GhostDuplicationEffect&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GhostDuplicationEffect(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit GhostDuplicationEffect(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -407,11 +406,11 @@ constexpr explicit GhostDuplicationEffect(void* ptr) noexcept : ::UnityEngine::M
 
 // Fields
 
- ::ArrayW<::UnityEngine::CanvasGroup> __declspec(property(get=__get__canvases, put=__set__canvases))  _canvases;
+ ::ArrayW<UnityEngine::CanvasGroup> __declspec(property(get=__get__canvases, put=__set__canvases))  _canvases;
 
-constexpr void __set__canvases(::ArrayW<::UnityEngine::CanvasGroup> value) ;
+constexpr void __set__canvases(::ArrayW<UnityEngine::CanvasGroup> value) ;
 
-constexpr ::ArrayW<::UnityEngine::CanvasGroup> __get__canvases() const;
+constexpr ::ArrayW<UnityEngine::CanvasGroup> __get__canvases() const;
 
  bool __declspec(property(get=__get_isInitialized, put=__set_isInitialized))  isInitialized;
 
@@ -419,11 +418,11 @@ constexpr void __set_isInitialized(bool value) ;
 
 constexpr bool __get_isInitialized() const;
 
- ::Tweening::TimeTweeningManager __declspec(property(get=__get__tweeningManager, put=__set__tweeningManager))  _tweeningManager;
+ Tweening::TimeTweeningManager __declspec(property(get=__get__tweeningManager, put=__set__tweeningManager))  _tweeningManager;
 
-constexpr void __set__tweeningManager(::Tweening::TimeTweeningManager value) ;
+constexpr void __set__tweeningManager(Tweening::TimeTweeningManager value) ;
 
-constexpr ::Tweening::TimeTweeningManager __get__tweeningManager() const;
+constexpr Tweening::TimeTweeningManager __get__tweeningManager() const;
 
 
 // Properties
@@ -447,13 +446,13 @@ constexpr ::Tweening::TimeTweeningManager __get__tweeningManager() const;
  void Init() ;
 
 /// @brief Method Animate addr 0x22517d0 size 0x3b4 virtual false final false
- void Animate(::GlobalNamespace::____GlobalNamespace__GhostDuplicationEffect__GhostEffectParams ghostEffectParams) ;
+ void Animate(GlobalNamespace::GlobalNamespace__GhostDuplicationEffect__GhostEffectParams ghostEffectParams) ;
 
 /// @brief Method HideRedundantWithDelay addr 0x2251b8c size 0x78 virtual false final false
- ::System::Collections::IEnumerator HideRedundantWithDelay(float_t delay) ;
+ System::Collections::IEnumerator HideRedundantWithDelay(float_t delay) ;
 
 /// @brief Method SetDistances addr 0x2251c2c size 0xec virtual false final false
- void SetDistances(float_t distance, ::UnityEngine::Vector3 direction) ;
+ void SetDistances(float_t distance, UnityEngine::Vector3 direction) ;
 
 /// @brief Method set_hide addr 0x2251d18 size 0x2c virtual false final false
  void set_hide(bool value) ;
@@ -480,11 +479,10 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::GhostDuplicationEffect);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GhostDuplicationEffect, "", "GhostDuplicationEffect");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8, "", "GhostDuplicationEffect/<HideRedundantWithDelay>d__8");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0, "", "GhostDuplicationEffect/<>c__DisplayClass7_0");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__GhostDuplicationEffect__GhostEffectParams, "", "GhostDuplicationEffect/GhostEffectParams");
+NEED_NO_BOX(GlobalNamespace::GhostDuplicationEffect);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GhostDuplicationEffect, "", "GhostDuplicationEffect");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8, "", "GhostDuplicationEffect/<HideRedundantWithDelay>d__8");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0, "", "GhostDuplicationEffect/<>c__DisplayClass7_0");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__GhostDuplicationEffect__GhostEffectParams, "", "GhostDuplicationEffect/GhostEffectParams");

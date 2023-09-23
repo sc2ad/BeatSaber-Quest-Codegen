@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace HoudiniEngineUnity {
-struct HAPI_ObjectInfo;
-}
 namespace HoudiniEngineUnity {
 class Test_HAPI_ObjectInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_ObjectInfo;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -55,12 +54,11 @@ constexpr explicit Test_HAPI_ObjectInfo_Extensions(void* ptr) noexcept : ::bs_ho
 // Methods
 
 /// @brief Method ToTestObject addr 0x20705a8 size 0x88 virtual false final false
-static ::HoudiniEngineUnity::Test_HAPI_ObjectInfo ToTestObject(::HoudiniEngineUnity::HAPI_ObjectInfo self) ;
+static HoudiniEngineUnity::Test_HAPI_ObjectInfo ToTestObject(HoudiniEngineUnity::HAPI_ObjectInfo self) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::Test_HAPI_ObjectInfo_Extensions);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::Test_HAPI_ObjectInfo_Extensions, "HoudiniEngineUnity", "Test_HAPI_ObjectInfo_Extensions");
+NEED_NO_BOX(HoudiniEngineUnity::Test_HAPI_ObjectInfo_Extensions);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_HAPI_ObjectInfo_Extensions, "HoudiniEngineUnity", "Test_HAPI_ObjectInfo_Extensions");

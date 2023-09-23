@@ -2,15 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
+namespace GlobalNamespace {
+class ILobbyStateDataModel;
+}
 namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
 class CenterStageScreenController;
-}
-namespace GlobalNamespace {
-class ILobbyStateDataModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,7 +21,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5652))
 // CS Name: MultiplayerLobbyCenterStageManager
-class CORDL_TYPE MultiplayerLobbyCenterStageManager : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerLobbyCenterStageManager : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr MultiplayerLobbyCenterStageManager(MultiplayerLobbyCenterStageManager 
 constexpr MultiplayerLobbyCenterStageManager(MultiplayerLobbyCenterStageManager&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerLobbyCenterStageManager(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerLobbyCenterStageManager(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -58,23 +57,23 @@ constexpr explicit MultiplayerLobbyCenterStageManager(void* ptr) noexcept : ::Un
 
 // Fields
 
- ::UnityEngine::Transform __declspec(property(get=__get__centerObjectTransform, put=__set__centerObjectTransform))  _centerObjectTransform;
+ UnityEngine::Transform __declspec(property(get=__get__centerObjectTransform, put=__set__centerObjectTransform))  _centerObjectTransform;
 
-constexpr void __set__centerObjectTransform(::UnityEngine::Transform value) ;
+constexpr void __set__centerObjectTransform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__centerObjectTransform() const;
+constexpr UnityEngine::Transform __get__centerObjectTransform() const;
 
- ::GlobalNamespace::CenterStageScreenController __declspec(property(get=__get__centerStageScreenController, put=__set__centerStageScreenController))  _centerStageScreenController;
+ GlobalNamespace::CenterStageScreenController __declspec(property(get=__get__centerStageScreenController, put=__set__centerStageScreenController))  _centerStageScreenController;
 
-constexpr void __set__centerStageScreenController(::GlobalNamespace::CenterStageScreenController value) ;
+constexpr void __set__centerStageScreenController(GlobalNamespace::CenterStageScreenController value) ;
 
-constexpr ::GlobalNamespace::CenterStageScreenController __get__centerStageScreenController() const;
+constexpr GlobalNamespace::CenterStageScreenController __get__centerStageScreenController() const;
 
- ::GlobalNamespace::ILobbyStateDataModel __declspec(property(get=__get__lobbyStateDataModel, put=__set__lobbyStateDataModel))  _lobbyStateDataModel;
+ GlobalNamespace::ILobbyStateDataModel __declspec(property(get=__get__lobbyStateDataModel, put=__set__lobbyStateDataModel))  _lobbyStateDataModel;
 
-constexpr void __set__lobbyStateDataModel(::GlobalNamespace::ILobbyStateDataModel value) ;
+constexpr void __set__lobbyStateDataModel(GlobalNamespace::ILobbyStateDataModel value) ;
 
-constexpr ::GlobalNamespace::ILobbyStateDataModel __get__lobbyStateDataModel() const;
+constexpr GlobalNamespace::ILobbyStateDataModel __get__lobbyStateDataModel() const;
 
  float_t __declspec(property(get=__get__innerCircleRadius, put=__set__innerCircleRadius))  _innerCircleRadius;
 
@@ -113,6 +112,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerLobbyCenterStageManager);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerLobbyCenterStageManager, "", "MultiplayerLobbyCenterStageManager");
+NEED_NO_BOX(GlobalNamespace::MultiplayerLobbyCenterStageManager);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyCenterStageManager, "", "MultiplayerLobbyCenterStageManager");

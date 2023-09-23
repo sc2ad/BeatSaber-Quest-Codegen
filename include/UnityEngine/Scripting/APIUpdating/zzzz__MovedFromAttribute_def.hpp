@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace UnityEngine::Scripting::APIUpdating {
 struct MovedFromAttributeData;
 }
@@ -16,7 +15,7 @@ namespace UnityEngine::Scripting::APIUpdating {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10257))
 // CS Name: UnityEngine.Scripting.APIUpdating.MovedFromAttribute
-class CORDL_TYPE MovedFromAttribute : public ::System::Attribute {
+class CORDL_TYPE MovedFromAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr MovedFromAttribute(MovedFromAttribute const& ) noexcept = default;
 constexpr MovedFromAttribute(MovedFromAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MovedFromAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit MovedFromAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -52,11 +51,11 @@ constexpr explicit MovedFromAttribute(void* ptr) noexcept : ::System::Attribute(
 
 // Fields
 
- ::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData __declspec(property(get=__get_data, put=__set_data))  data;
+ UnityEngine::Scripting::APIUpdating::MovedFromAttributeData __declspec(property(get=__get_data, put=__set_data))  data;
 
-constexpr void __set_data(::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData value) ;
+constexpr void __set_data(UnityEngine::Scripting::APIUpdating::MovedFromAttributeData value) ;
 
-constexpr ::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData __get_data() const;
+constexpr UnityEngine::Scripting::APIUpdating::MovedFromAttributeData __get_data() const;
 
 
 // Methods
@@ -77,6 +76,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Scripting::APIUpdating
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Scripting::APIUpdating::MovedFromAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Scripting::APIUpdating::MovedFromAttribute, "UnityEngine.Scripting.APIUpdating", "MovedFromAttribute");
+NEED_NO_BOX(UnityEngine::Scripting::APIUpdating::MovedFromAttribute);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::APIUpdating::MovedFromAttribute, "UnityEngine.Scripting.APIUpdating", "MovedFromAttribute");

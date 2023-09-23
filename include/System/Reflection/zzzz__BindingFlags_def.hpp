@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Reflection {
 struct BindingFlags;
@@ -86,71 +85,70 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Default offset 0
-static ::System::Reflection::BindingFlags const Default;
+static System::Reflection::BindingFlags const Default;
 
 /// @brief Field IgnoreCase offset 0
-static ::System::Reflection::BindingFlags const IgnoreCase;
+static System::Reflection::BindingFlags const IgnoreCase;
 
 /// @brief Field DeclaredOnly offset 0
-static ::System::Reflection::BindingFlags const DeclaredOnly;
+static System::Reflection::BindingFlags const DeclaredOnly;
 
 /// @brief Field Instance offset 0
-static ::System::Reflection::BindingFlags const Instance;
+static System::Reflection::BindingFlags const Instance;
 
 /// @brief Field Static offset 0
-static ::System::Reflection::BindingFlags const Static;
+static System::Reflection::BindingFlags const Static;
 
 /// @brief Field Public offset 0
-static ::System::Reflection::BindingFlags const Public;
+static System::Reflection::BindingFlags const Public;
 
 /// @brief Field NonPublic offset 0
-static ::System::Reflection::BindingFlags const NonPublic;
+static System::Reflection::BindingFlags const NonPublic;
 
 /// @brief Field FlattenHierarchy offset 0
-static ::System::Reflection::BindingFlags const FlattenHierarchy;
+static System::Reflection::BindingFlags const FlattenHierarchy;
 
 /// @brief Field InvokeMethod offset 0
-static ::System::Reflection::BindingFlags const InvokeMethod;
+static System::Reflection::BindingFlags const InvokeMethod;
 
 /// @brief Field CreateInstance offset 0
-static ::System::Reflection::BindingFlags const CreateInstance;
+static System::Reflection::BindingFlags const CreateInstance;
 
 /// @brief Field GetField offset 0
-static ::System::Reflection::BindingFlags const GetField;
+static System::Reflection::BindingFlags const GetField;
 
 /// @brief Field SetField offset 0
-static ::System::Reflection::BindingFlags const SetField;
+static System::Reflection::BindingFlags const SetField;
 
 /// @brief Field GetProperty offset 0
-static ::System::Reflection::BindingFlags const GetProperty;
+static System::Reflection::BindingFlags const GetProperty;
 
 /// @brief Field SetProperty offset 0
-static ::System::Reflection::BindingFlags const SetProperty;
+static System::Reflection::BindingFlags const SetProperty;
 
 /// @brief Field PutDispProperty offset 0
-static ::System::Reflection::BindingFlags const PutDispProperty;
+static System::Reflection::BindingFlags const PutDispProperty;
 
 /// @brief Field PutRefDispProperty offset 0
-static ::System::Reflection::BindingFlags const PutRefDispProperty;
+static System::Reflection::BindingFlags const PutRefDispProperty;
 
 /// @brief Field ExactBinding offset 0
-static ::System::Reflection::BindingFlags const ExactBinding;
+static System::Reflection::BindingFlags const ExactBinding;
 
 /// @brief Field SuppressChangeType offset 0
-static ::System::Reflection::BindingFlags const SuppressChangeType;
+static System::Reflection::BindingFlags const SuppressChangeType;
 
 /// @brief Field OptionalParamBinding offset 0
-static ::System::Reflection::BindingFlags const OptionalParamBinding;
+static System::Reflection::BindingFlags const OptionalParamBinding;
 
 /// @brief Field IgnoreReturn offset 0
-static ::System::Reflection::BindingFlags const IgnoreReturn;
+static System::Reflection::BindingFlags const IgnoreReturn;
 
 /// @brief Field DoNotWrapExceptions offset 0
-static ::System::Reflection::BindingFlags const DoNotWrapExceptions;
+static System::Reflection::BindingFlags const DoNotWrapExceptions;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Reflection
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::BindingFlags, "System.Reflection", "BindingFlags");
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::BindingFlags, "System.Reflection", "BindingFlags");

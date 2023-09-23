@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__PartyID_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
 class PartyID;
 }
@@ -17,7 +16,7 @@ namespace Oculus::Platform {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(13457)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4467 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13265))
 // CS Name: Oculus.Platform.MessageWithPartyID
-class CORDL_TYPE MessageWithPartyID : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::PartyID> {
+class CORDL_TYPE MessageWithPartyID : public Oculus::Platform::Message_1<Oculus::Platform::Models::PartyID> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr MessageWithPartyID(MessageWithPartyID const& ) noexcept = default;
 constexpr MessageWithPartyID(MessageWithPartyID&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MessageWithPartyID(void* ptr) noexcept : ::Oculus::Platform::Message_1<::Oculus::Platform::Models::PartyID>(ptr) {
+constexpr explicit MessageWithPartyID(void* ptr) noexcept : Oculus::Platform::Message_1<Oculus::Platform::Models::PartyID>(ptr) {
 }
 
 
@@ -60,15 +59,14 @@ explicit MessageWithPartyID(::cordl_internals::intptr_t c_message) ;
  void _ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method GetPartyID addr 0x2582f10 size 0x3c virtual true final false
- ::Oculus::Platform::Models::PartyID GetPartyID() ;
+ Oculus::Platform::Models::PartyID GetPartyID() ;
 
 /// @brief Method GetDataFromMessage addr 0x2582f4c size 0x9c virtual true final false
- ::Oculus::Platform::Models::PartyID GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
+ Oculus::Platform::Models::PartyID GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::MessageWithPartyID);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithPartyID, "Oculus.Platform", "MessageWithPartyID");
+NEED_NO_BOX(Oculus::Platform::MessageWithPartyID);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithPartyID, "Oculus.Platform", "MessageWithPartyID");

@@ -2,19 +2,18 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__FactoryArgumentsToChoiceBinder_1_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace Zenject {
-class DiContainer;
-}
 namespace Zenject {
 class BindInfo;
+}
+namespace Zenject {
+class FactoryBindInfo;
 }
 namespace Zenject {
 template<typename TContract>
 class FactoryArgumentsToChoiceBinder_1;
 }
 namespace Zenject {
-class FactoryBindInfo;
+class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -34,7 +33,7 @@ template<::cordl_internals::il2cpp_reference_type TContract>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10645)), TypeDefinitionIndex(TypeDefinitionIndex(10798)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10645), inst: 1687 })}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10798), inst: 2 })
 // CS Name: Zenject.FactoryToChoiceIdBinder`1
-class CORDL_TYPE FactoryToChoiceIdBinder_1<TContract> : public ::Zenject::FactoryArgumentsToChoiceBinder_1<TContract> {
+class CORDL_TYPE FactoryToChoiceIdBinder_1<TContract> : public Zenject::FactoryArgumentsToChoiceBinder_1<TContract> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -49,7 +48,7 @@ constexpr FactoryToChoiceIdBinder_1(FactoryToChoiceIdBinder_1 const& ) noexcept 
 constexpr FactoryToChoiceIdBinder_1(FactoryToChoiceIdBinder_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FactoryToChoiceIdBinder_1(void* ptr) noexcept : ::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>(ptr) {
+constexpr explicit FactoryToChoiceIdBinder_1(void* ptr) noexcept : Zenject::FactoryArgumentsToChoiceBinder_1<TContract>(ptr) {
 }
 
 
@@ -70,18 +69,17 @@ constexpr explicit FactoryToChoiceIdBinder_1(void* ptr) noexcept : ::Zenject::Fa
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "::Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "::Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "factoryBindInfo", ty: "::Zenject::FactoryBindInfo", modifiers: "", def_value: None }]
-explicit FactoryToChoiceIdBinder_1(::Zenject::DiContainer container, ::Zenject::BindInfo bindInfo, ::Zenject::FactoryBindInfo factoryBindInfo) ;
+// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "factoryBindInfo", ty: "Zenject::FactoryBindInfo", modifiers: "", def_value: None }]
+explicit FactoryToChoiceIdBinder_1(Zenject::DiContainer container, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::Zenject::DiContainer container, ::Zenject::BindInfo bindInfo, ::Zenject::FactoryBindInfo factoryBindInfo) ;
+ void _ctor(Zenject::DiContainer container, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;
 
 /// @brief Method WithId addr 0x0 size 0xffffffffffffffff virtual false final false
- ::Zenject::FactoryArgumentsToChoiceBinder_1<TContract> WithId(::bs_hook::Il2CppWrapperType identifier) ;
+ Zenject::FactoryArgumentsToChoiceBinder_1<TContract> WithId(::bs_hook::Il2CppWrapperType identifier) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::FactoryToChoiceIdBinder_1, "Zenject", "FactoryToChoiceIdBinder`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::FactoryToChoiceIdBinder_1, "Zenject", "FactoryToChoiceIdBinder`1");

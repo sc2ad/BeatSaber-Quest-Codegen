@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -54,7 +53,7 @@ constexpr explicit TsvReader(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 // Methods
 
 /// @brief Method Parse addr 0x2670250 size 0x1ac virtual false final false
-static ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::StringW>> Parse(::StringW src) ;
+static System::Collections::Generic::List_1<System::Collections::Generic::List_1<::StringW>> Parse(::StringW src) ;
 
 // Ctor Parameters []
 explicit TsvReader() ;
@@ -66,6 +65,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Polyglot
-} // end anonymous namespace
-NEED_NO_BOX(::Polyglot::TsvReader);
-DEFINE_IL2CPP_ARG_TYPE(::Polyglot::TsvReader, "Polyglot", "TsvReader");
+NEED_NO_BOX(Polyglot::TsvReader);
+DEFINE_IL2CPP_ARG_TYPE(Polyglot::TsvReader, "Polyglot", "TsvReader");

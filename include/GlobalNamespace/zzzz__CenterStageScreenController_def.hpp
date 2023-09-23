@@ -2,27 +2,26 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
-class ModifiersSelectionView;
+class MultiplayerLobbyCenterScreenLayoutAnimator;
 }
 namespace GlobalNamespace {
 class CountdownController;
 }
 namespace GlobalNamespace {
-class MultiplayerLobbyCenterScreenLayoutAnimator;
+class BeatmapSelectionView;
 }
 namespace GlobalNamespace {
 class MenuLightsPresetSO;
 }
 namespace GlobalNamespace {
-class BeatmapSelectionView;
+class ILobbyGameStateController;
+}
+namespace GlobalNamespace {
+class ModifiersSelectionView;
 }
 namespace GlobalNamespace {
 class ILevelGameplaySetupData;
-}
-namespace GlobalNamespace {
-class ILobbyGameStateController;
 }
 namespace GlobalNamespace {
 class MenuLightsManager;
@@ -37,7 +36,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5805))
 // CS Name: CenterStageScreenController
-class CORDL_TYPE CenterStageScreenController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE CenterStageScreenController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -52,7 +51,7 @@ constexpr CenterStageScreenController(CenterStageScreenController const& ) noexc
 constexpr CenterStageScreenController(CenterStageScreenController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CenterStageScreenController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit CenterStageScreenController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -73,59 +72,59 @@ constexpr explicit CenterStageScreenController(void* ptr) noexcept : ::UnityEngi
 
 // Fields
 
- ::GlobalNamespace::MenuLightsPresetSO __declspec(property(get=__get__defaultMenuLightsPreset, put=__set__defaultMenuLightsPreset))  _defaultMenuLightsPreset;
+ GlobalNamespace::MenuLightsPresetSO __declspec(property(get=__get__defaultMenuLightsPreset, put=__set__defaultMenuLightsPreset))  _defaultMenuLightsPreset;
 
-constexpr void __set__defaultMenuLightsPreset(::GlobalNamespace::MenuLightsPresetSO value) ;
+constexpr void __set__defaultMenuLightsPreset(GlobalNamespace::MenuLightsPresetSO value) ;
 
-constexpr ::GlobalNamespace::MenuLightsPresetSO __get__defaultMenuLightsPreset() const;
+constexpr GlobalNamespace::MenuLightsPresetSO __get__defaultMenuLightsPreset() const;
 
- ::GlobalNamespace::MenuLightsPresetSO __declspec(property(get=__get__lobbyLightsPreset, put=__set__lobbyLightsPreset))  _lobbyLightsPreset;
+ GlobalNamespace::MenuLightsPresetSO __declspec(property(get=__get__lobbyLightsPreset, put=__set__lobbyLightsPreset))  _lobbyLightsPreset;
 
-constexpr void __set__lobbyLightsPreset(::GlobalNamespace::MenuLightsPresetSO value) ;
+constexpr void __set__lobbyLightsPreset(GlobalNamespace::MenuLightsPresetSO value) ;
 
-constexpr ::GlobalNamespace::MenuLightsPresetSO __get__lobbyLightsPreset() const;
+constexpr GlobalNamespace::MenuLightsPresetSO __get__lobbyLightsPreset() const;
 
- ::GlobalNamespace::MenuLightsPresetSO __declspec(property(get=__get__countdownMenuLightsPreset, put=__set__countdownMenuLightsPreset))  _countdownMenuLightsPreset;
+ GlobalNamespace::MenuLightsPresetSO __declspec(property(get=__get__countdownMenuLightsPreset, put=__set__countdownMenuLightsPreset))  _countdownMenuLightsPreset;
 
-constexpr void __set__countdownMenuLightsPreset(::GlobalNamespace::MenuLightsPresetSO value) ;
+constexpr void __set__countdownMenuLightsPreset(GlobalNamespace::MenuLightsPresetSO value) ;
 
-constexpr ::GlobalNamespace::MenuLightsPresetSO __get__countdownMenuLightsPreset() const;
+constexpr GlobalNamespace::MenuLightsPresetSO __get__countdownMenuLightsPreset() const;
 
- ::GlobalNamespace::BeatmapSelectionView __declspec(property(get=__get__beatmapSelectionView, put=__set__beatmapSelectionView))  _beatmapSelectionView;
+ GlobalNamespace::BeatmapSelectionView __declspec(property(get=__get__beatmapSelectionView, put=__set__beatmapSelectionView))  _beatmapSelectionView;
 
-constexpr void __set__beatmapSelectionView(::GlobalNamespace::BeatmapSelectionView value) ;
+constexpr void __set__beatmapSelectionView(GlobalNamespace::BeatmapSelectionView value) ;
 
-constexpr ::GlobalNamespace::BeatmapSelectionView __get__beatmapSelectionView() const;
+constexpr GlobalNamespace::BeatmapSelectionView __get__beatmapSelectionView() const;
 
- ::GlobalNamespace::ModifiersSelectionView __declspec(property(get=__get__modifiersSelectionView, put=__set__modifiersSelectionView))  _modifiersSelectionView;
+ GlobalNamespace::ModifiersSelectionView __declspec(property(get=__get__modifiersSelectionView, put=__set__modifiersSelectionView))  _modifiersSelectionView;
 
-constexpr void __set__modifiersSelectionView(::GlobalNamespace::ModifiersSelectionView value) ;
+constexpr void __set__modifiersSelectionView(GlobalNamespace::ModifiersSelectionView value) ;
 
-constexpr ::GlobalNamespace::ModifiersSelectionView __get__modifiersSelectionView() const;
+constexpr GlobalNamespace::ModifiersSelectionView __get__modifiersSelectionView() const;
 
- ::GlobalNamespace::CountdownController __declspec(property(get=__get__countdownController, put=__set__countdownController))  _countdownController;
+ GlobalNamespace::CountdownController __declspec(property(get=__get__countdownController, put=__set__countdownController))  _countdownController;
 
-constexpr void __set__countdownController(::GlobalNamespace::CountdownController value) ;
+constexpr void __set__countdownController(GlobalNamespace::CountdownController value) ;
 
-constexpr ::GlobalNamespace::CountdownController __get__countdownController() const;
+constexpr GlobalNamespace::CountdownController __get__countdownController() const;
 
- ::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator __declspec(property(get=__get__multiplayerLobbyCenterScreenLayoutAnimator, put=__set__multiplayerLobbyCenterScreenLayoutAnimator))  _multiplayerLobbyCenterScreenLayoutAnimator;
+ GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator __declspec(property(get=__get__multiplayerLobbyCenterScreenLayoutAnimator, put=__set__multiplayerLobbyCenterScreenLayoutAnimator))  _multiplayerLobbyCenterScreenLayoutAnimator;
 
-constexpr void __set__multiplayerLobbyCenterScreenLayoutAnimator(::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator value) ;
+constexpr void __set__multiplayerLobbyCenterScreenLayoutAnimator(GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator value) ;
 
-constexpr ::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator __get__multiplayerLobbyCenterScreenLayoutAnimator() const;
+constexpr GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator __get__multiplayerLobbyCenterScreenLayoutAnimator() const;
 
- ::GlobalNamespace::ILobbyGameStateController __declspec(property(get=__get__lobbyGameStateController, put=__set__lobbyGameStateController))  _lobbyGameStateController;
+ GlobalNamespace::ILobbyGameStateController __declspec(property(get=__get__lobbyGameStateController, put=__set__lobbyGameStateController))  _lobbyGameStateController;
 
-constexpr void __set__lobbyGameStateController(::GlobalNamespace::ILobbyGameStateController value) ;
+constexpr void __set__lobbyGameStateController(GlobalNamespace::ILobbyGameStateController value) ;
 
-constexpr ::GlobalNamespace::ILobbyGameStateController __get__lobbyGameStateController() const;
+constexpr GlobalNamespace::ILobbyGameStateController __get__lobbyGameStateController() const;
 
- ::GlobalNamespace::MenuLightsManager __declspec(property(get=__get__menuLightsManager, put=__set__menuLightsManager))  _menuLightsManager;
+ GlobalNamespace::MenuLightsManager __declspec(property(get=__get__menuLightsManager, put=__set__menuLightsManager))  _menuLightsManager;
 
-constexpr void __set__menuLightsManager(::GlobalNamespace::MenuLightsManager value) ;
+constexpr void __set__menuLightsManager(GlobalNamespace::MenuLightsManager value) ;
 
-constexpr ::GlobalNamespace::MenuLightsManager __get__menuLightsManager() const;
+constexpr GlobalNamespace::MenuLightsManager __get__menuLightsManager() const;
 
  bool __declspec(property(get=__get__countdownShown_k__BackingField, put=__set__countdownShown_k__BackingField))  _countdownShown_k__BackingField;
 
@@ -178,10 +177,10 @@ constexpr float_t __get__countdownEndTime() const;
  void ShowLobbyColorPreset(bool animated) ;
 
 /// @brief Method HandleLobbyGameStateControllerSelectedLevelGameplaySetupDataChanged addr 0x217619c size 0x4 virtual false final false
- void HandleLobbyGameStateControllerSelectedLevelGameplaySetupDataChanged(::GlobalNamespace::ILevelGameplaySetupData levelGameplaySetupData) ;
+ void HandleLobbyGameStateControllerSelectedLevelGameplaySetupDataChanged(GlobalNamespace::ILevelGameplaySetupData levelGameplaySetupData) ;
 
 /// @brief Method SetNextGameplaySetupData addr 0x2175e2c size 0x13c virtual false final false
- void SetNextGameplaySetupData(::GlobalNamespace::ILevelGameplaySetupData levelGameplaySetupData) ;
+ void SetNextGameplaySetupData(GlobalNamespace::ILevelGameplaySetupData levelGameplaySetupData) ;
 
 // Ctor Parameters []
 explicit CenterStageScreenController() ;
@@ -193,6 +192,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::CenterStageScreenController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CenterStageScreenController, "", "CenterStageScreenController");
+NEED_NO_BOX(GlobalNamespace::CenterStageScreenController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CenterStageScreenController, "", "CenterStageScreenController");

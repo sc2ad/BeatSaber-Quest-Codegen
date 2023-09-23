@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngineInternal::Input {
 struct NativeInputUpdateType;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Dynamic offset 0
-static ::UnityEngineInternal::Input::NativeInputUpdateType const Dynamic;
+static UnityEngineInternal::Input::NativeInputUpdateType const Dynamic;
 
 /// @brief Field Fixed offset 0
-static ::UnityEngineInternal::Input::NativeInputUpdateType const Fixed;
+static UnityEngineInternal::Input::NativeInputUpdateType const Fixed;
 
 /// @brief Field BeforeRender offset 0
-static ::UnityEngineInternal::Input::NativeInputUpdateType const BeforeRender;
+static UnityEngineInternal::Input::NativeInputUpdateType const BeforeRender;
 
 /// @brief Field Editor offset 0
-static ::UnityEngineInternal::Input::NativeInputUpdateType const Editor;
+static UnityEngineInternal::Input::NativeInputUpdateType const Editor;
 
 /// @brief Field IgnoreFocus offset 0
-static ::UnityEngineInternal::Input::NativeInputUpdateType const IgnoreFocus;
+static UnityEngineInternal::Input::NativeInputUpdateType const IgnoreFocus;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngineInternal::Input
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngineInternal::Input::NativeInputUpdateType, "UnityEngineInternal.Input", "NativeInputUpdateType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::Input::NativeInputUpdateType, "UnityEngineInternal.Input", "NativeInputUpdateType");

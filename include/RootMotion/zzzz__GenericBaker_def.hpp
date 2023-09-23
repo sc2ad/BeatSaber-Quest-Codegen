@@ -5,15 +5,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace RootMotion {
+class BakerTransform;
+}
 namespace UnityEngine {
 class AnimationClip;
 }
 namespace UnityEngine {
 class Transform;
-}
-namespace RootMotion {
-class BakerTransform;
 }
 // Forward declare root types
 namespace RootMotion {
@@ -25,7 +24,7 @@ namespace RootMotion {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12413))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12414))
 // CS Name: RootMotion.GenericBaker
-class CORDL_TYPE GenericBaker : public ::RootMotion::Baker {
+class CORDL_TYPE GenericBaker : public RootMotion::Baker {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr GenericBaker(GenericBaker const& ) noexcept = default;
 constexpr GenericBaker(GenericBaker&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GenericBaker(void* ptr) noexcept : ::RootMotion::Baker(ptr) {
+constexpr explicit GenericBaker(void* ptr) noexcept : RootMotion::Baker(ptr) {
 }
 
 
@@ -67,41 +66,41 @@ constexpr void __set_markAsLegacy(bool value) ;
 
 constexpr bool __get_markAsLegacy() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_root, put=__set_root))  root;
+ UnityEngine::Transform __declspec(property(get=__get_root, put=__set_root))  root;
 
-constexpr void __set_root(::UnityEngine::Transform value) ;
+constexpr void __set_root(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_root() const;
+constexpr UnityEngine::Transform __get_root() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_rootNode, put=__set_rootNode))  rootNode;
+ UnityEngine::Transform __declspec(property(get=__get_rootNode, put=__set_rootNode))  rootNode;
 
-constexpr void __set_rootNode(::UnityEngine::Transform value) ;
+constexpr void __set_rootNode(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_rootNode() const;
+constexpr UnityEngine::Transform __get_rootNode() const;
 
- ::ArrayW<::UnityEngine::Transform> __declspec(property(get=__get_ignoreList, put=__set_ignoreList))  ignoreList;
+ ::ArrayW<UnityEngine::Transform> __declspec(property(get=__get_ignoreList, put=__set_ignoreList))  ignoreList;
 
-constexpr void __set_ignoreList(::ArrayW<::UnityEngine::Transform> value) ;
+constexpr void __set_ignoreList(::ArrayW<UnityEngine::Transform> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Transform> __get_ignoreList() const;
+constexpr ::ArrayW<UnityEngine::Transform> __get_ignoreList() const;
 
- ::ArrayW<::UnityEngine::Transform> __declspec(property(get=__get_bakePositionList, put=__set_bakePositionList))  bakePositionList;
+ ::ArrayW<UnityEngine::Transform> __declspec(property(get=__get_bakePositionList, put=__set_bakePositionList))  bakePositionList;
 
-constexpr void __set_bakePositionList(::ArrayW<::UnityEngine::Transform> value) ;
+constexpr void __set_bakePositionList(::ArrayW<UnityEngine::Transform> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Transform> __get_bakePositionList() const;
+constexpr ::ArrayW<UnityEngine::Transform> __get_bakePositionList() const;
 
- ::ArrayW<::RootMotion::BakerTransform> __declspec(property(get=__get_children, put=__set_children))  children;
+ ::ArrayW<RootMotion::BakerTransform> __declspec(property(get=__get_children, put=__set_children))  children;
 
-constexpr void __set_children(::ArrayW<::RootMotion::BakerTransform> value) ;
+constexpr void __set_children(::ArrayW<RootMotion::BakerTransform> value) ;
 
-constexpr ::ArrayW<::RootMotion::BakerTransform> __get_children() const;
+constexpr ::ArrayW<RootMotion::BakerTransform> __get_children() const;
 
- ::RootMotion::BakerTransform __declspec(property(get=__get_rootChild, put=__set_rootChild))  rootChild;
+ RootMotion::BakerTransform __declspec(property(get=__get_rootChild, put=__set_rootChild))  rootChild;
 
-constexpr void __set_rootChild(::RootMotion::BakerTransform value) ;
+constexpr void __set_rootChild(RootMotion::BakerTransform value) ;
 
-constexpr ::RootMotion::BakerTransform __get_rootChild() const;
+constexpr RootMotion::BakerTransform __get_rootChild() const;
 
  int32_t __declspec(property(get=__get_rootChildIndex, put=__set_rootChildIndex))  rootChildIndex;
 
@@ -116,7 +115,7 @@ constexpr int32_t __get_rootChildIndex() const;
  void Awake() ;
 
 /// @brief Method GetCharacterRoot addr 0x11a6fac size 0x8 virtual true final false
- ::UnityEngine::Transform GetCharacterRoot() ;
+ UnityEngine::Transform GetCharacterRoot() ;
 
 /// @brief Method OnStartBaking addr 0x11a6fb4 size 0xd0 virtual true final false
  void OnStartBaking() ;
@@ -125,16 +124,16 @@ constexpr int32_t __get_rootChildIndex() const;
  void OnSetLoopFrame(float_t time) ;
 
 /// @brief Method OnSetCurves addr 0x11a7404 size 0x64 virtual true final false
- void OnSetCurves(ByRef<::UnityEngine::AnimationClip> clip) ;
+ void OnSetCurves(ByRef<UnityEngine::AnimationClip> clip) ;
 
 /// @brief Method OnSetKeyframes addr 0x11a771c size 0x6c virtual true final false
  void OnSetKeyframes(float_t time, bool lastFrame) ;
 
 /// @brief Method IsIgnored addr 0x11a6da8 size 0xb8 virtual false final false
- bool IsIgnored(::UnityEngine::Transform t) ;
+ bool IsIgnored(UnityEngine::Transform t) ;
 
 /// @brief Method BakePosition addr 0x11a6e60 size 0xb8 virtual false final false
- bool BakePosition(::UnityEngine::Transform t) ;
+ bool BakePosition(UnityEngine::Transform t) ;
 
 // Ctor Parameters []
 explicit GenericBaker() ;
@@ -146,6 +145,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::GenericBaker);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::GenericBaker, "RootMotion", "GenericBaker");
+NEED_NO_BOX(RootMotion::GenericBaker);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::GenericBaker, "RootMotion", "GenericBaker");

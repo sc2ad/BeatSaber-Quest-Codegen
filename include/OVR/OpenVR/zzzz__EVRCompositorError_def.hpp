@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct EVRCompositorError;
@@ -77,44 +76,43 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::OVR::OpenVR::EVRCompositorError const None;
+static OVR::OpenVR::EVRCompositorError const None;
 
 /// @brief Field RequestFailed offset 0
-static ::OVR::OpenVR::EVRCompositorError const RequestFailed;
+static OVR::OpenVR::EVRCompositorError const RequestFailed;
 
 /// @brief Field IncompatibleVersion offset 0
-static ::OVR::OpenVR::EVRCompositorError const IncompatibleVersion;
+static OVR::OpenVR::EVRCompositorError const IncompatibleVersion;
 
 /// @brief Field DoNotHaveFocus offset 0
-static ::OVR::OpenVR::EVRCompositorError const DoNotHaveFocus;
+static OVR::OpenVR::EVRCompositorError const DoNotHaveFocus;
 
 /// @brief Field InvalidTexture offset 0
-static ::OVR::OpenVR::EVRCompositorError const InvalidTexture;
+static OVR::OpenVR::EVRCompositorError const InvalidTexture;
 
 /// @brief Field IsNotSceneApplication offset 0
-static ::OVR::OpenVR::EVRCompositorError const IsNotSceneApplication;
+static OVR::OpenVR::EVRCompositorError const IsNotSceneApplication;
 
 /// @brief Field TextureIsOnWrongDevice offset 0
-static ::OVR::OpenVR::EVRCompositorError const TextureIsOnWrongDevice;
+static OVR::OpenVR::EVRCompositorError const TextureIsOnWrongDevice;
 
 /// @brief Field TextureUsesUnsupportedFormat offset 0
-static ::OVR::OpenVR::EVRCompositorError const TextureUsesUnsupportedFormat;
+static OVR::OpenVR::EVRCompositorError const TextureUsesUnsupportedFormat;
 
 /// @brief Field SharedTexturesNotSupported offset 0
-static ::OVR::OpenVR::EVRCompositorError const SharedTexturesNotSupported;
+static OVR::OpenVR::EVRCompositorError const SharedTexturesNotSupported;
 
 /// @brief Field IndexOutOfRange offset 0
-static ::OVR::OpenVR::EVRCompositorError const IndexOutOfRange;
+static OVR::OpenVR::EVRCompositorError const IndexOutOfRange;
 
 /// @brief Field AlreadySubmitted offset 0
-static ::OVR::OpenVR::EVRCompositorError const AlreadySubmitted;
+static OVR::OpenVR::EVRCompositorError const AlreadySubmitted;
 
 /// @brief Field InvalidBounds offset 0
-static ::OVR::OpenVR::EVRCompositorError const InvalidBounds;
+static OVR::OpenVR::EVRCompositorError const InvalidBounds;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRCompositorError, "OVR.OpenVR", "EVRCompositorError");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRCompositorError, "OVR.OpenVR", "EVRCompositorError");

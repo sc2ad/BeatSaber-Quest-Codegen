@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine::UIElements::StyleSheets {
 struct StylePropertyId;
 }
@@ -25,11 +24,11 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE StylePropertyName : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::UIElements::StylePropertyName>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::UIElements::StylePropertyName>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::UIElements::StylePropertyName>
+constexpr operator  System::IEquatable_1<UnityEngine::UIElements::StylePropertyName>() const;
 
-// Ctor Parameters [CppParam { name: "_id_k__BackingField", ty: "::UnityEngine::UIElements::StyleSheets::StylePropertyId", modifiers: "", def_value: None }, CppParam { name: "_name_k__BackingField", ty: "::StringW", modifiers: "", def_value: None }]
-constexpr StylePropertyName(::UnityEngine::UIElements::StyleSheets::StylePropertyId _id_k__BackingField, ::StringW _name_k__BackingField) noexcept;
+// Ctor Parameters [CppParam { name: "_id_k__BackingField", ty: "UnityEngine::UIElements::StyleSheets::StylePropertyId", modifiers: "", def_value: None }, CppParam { name: "_name_k__BackingField", ty: "::StringW", modifiers: "", def_value: None }]
+constexpr StylePropertyName(UnityEngine::UIElements::StyleSheets::StylePropertyId _id_k__BackingField, ::StringW _name_k__BackingField) noexcept;
 
 
                     constexpr StylePropertyName(StylePropertyName const&) = default;
@@ -62,11 +61,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::UIElements::StyleSheets::StylePropertyId __declspec(property(get=__get__id_k__BackingField, put=__set__id_k__BackingField))  _id_k__BackingField;
+ UnityEngine::UIElements::StyleSheets::StylePropertyId __declspec(property(get=__get__id_k__BackingField, put=__set__id_k__BackingField))  _id_k__BackingField;
 
-constexpr void __set__id_k__BackingField(::UnityEngine::UIElements::StyleSheets::StylePropertyId value) ;
+constexpr void __set__id_k__BackingField(UnityEngine::UIElements::StyleSheets::StylePropertyId value) ;
 
-constexpr ::UnityEngine::UIElements::StyleSheets::StylePropertyId __get__id_k__BackingField() const;
+constexpr UnityEngine::UIElements::StyleSheets::StylePropertyId __get__id_k__BackingField() const;
 
  ::StringW __declspec(property(get=__get__name_k__BackingField, put=__set__name_k__BackingField))  _name_k__BackingField;
 
@@ -77,7 +76,7 @@ constexpr ::StringW __get__name_k__BackingField() const;
 
 // Properties
 
- ::UnityEngine::UIElements::StyleSheets::StylePropertyId __declspec(property(get=get_id))  id;
+ UnityEngine::UIElements::StyleSheets::StylePropertyId __declspec(property(get=get_id))  id;
 
  ::StringW __declspec(property(get=get_name))  name;
 
@@ -85,28 +84,28 @@ constexpr ::StringW __get__name_k__BackingField() const;
 // Methods
 
 /// @brief Method get_id addr 0x2c41fc8 size 0x8 virtual false final false
- ::UnityEngine::UIElements::StyleSheets::StylePropertyId get_id() ;
+ UnityEngine::UIElements::StyleSheets::StylePropertyId get_id() ;
 
 /// @brief Method get_name addr 0x2c41fd0 size 0x8 virtual false final false
  ::StringW get_name() ;
 
 /// @brief Method StylePropertyIdFromString addr 0x2c41fd8 size 0xa0 virtual false final false
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId StylePropertyIdFromString(::StringW name) ;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId StylePropertyIdFromString(::StringW name) ;
 
 /// @brief Method .ctor addr 0x2c42078 size 0xac virtual false final false
- void _ctor(::UnityEngine::UIElements::StyleSheets::StylePropertyId stylePropertyId) ;
+ void _ctor(UnityEngine::UIElements::StyleSheets::StylePropertyId stylePropertyId) ;
 
 /// @brief Method .ctor addr 0x2c42124 size 0x34 virtual false final false
  void _ctor(::StringW name) ;
 
 /// @brief Method op_Equality addr 0x2c42158 size 0xc virtual false final false
-static bool op_Equality(::UnityEngine::UIElements::StylePropertyName lhs, ::UnityEngine::UIElements::StylePropertyName rhs) ;
+static bool op_Equality(UnityEngine::UIElements::StylePropertyName lhs, UnityEngine::UIElements::StylePropertyName rhs) ;
 
 /// @brief Method op_Inequality addr 0x2c42164 size 0xc virtual false final false
-static bool op_Inequality(::UnityEngine::UIElements::StylePropertyName lhs, ::UnityEngine::UIElements::StylePropertyName rhs) ;
+static bool op_Inequality(UnityEngine::UIElements::StylePropertyName lhs, UnityEngine::UIElements::StylePropertyName rhs) ;
 
 /// @brief Method op_Implicit addr 0x2c42170 size 0x20 virtual false final false
-static ::UnityEngine::UIElements::StylePropertyName op_Implicit___UnityEngine__UIElements__StylePropertyName(::StringW name) ;
+static UnityEngine::UIElements::StylePropertyName op_Implicit_UnityEngine__UIElements__StylePropertyName(::StringW name) ;
 
 /// @brief Method GetHashCode addr 0x2c42190 size 0x8 virtual true final false
  int32_t GetHashCode() ;
@@ -115,7 +114,7 @@ static ::UnityEngine::UIElements::StylePropertyName op_Implicit___UnityEngine__U
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
 
 /// @brief Method Equals addr 0x2c42210 size 0x10 virtual true final true
- bool Equals(::UnityEngine::UIElements::StylePropertyName other) ;
+ bool Equals(UnityEngine::UIElements::StylePropertyName other) ;
 
 /// @brief Method ToString addr 0x2c42220 size 0x8 virtual true final false
  ::StringW ToString() ;
@@ -124,5 +123,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StylePropertyName, "UnityEngine.UIElements", "StylePropertyName");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::StylePropertyName, "UnityEngine.UIElements", "StylePropertyName");

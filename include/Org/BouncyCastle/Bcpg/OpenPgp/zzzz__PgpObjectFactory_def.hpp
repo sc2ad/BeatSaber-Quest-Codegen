@@ -3,21 +3,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpObject;
+}
 namespace System {
 class Type;
-}
-namespace System::IO {
-class Stream;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
 }
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpObject;
-}
 namespace System::Collections {
 class IList;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -65,20 +64,20 @@ constexpr explicit PgpObjectFactory(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
- ::Org::BouncyCastle::Bcpg::BcpgInputStream __declspec(property(get=__get_bcpgIn, put=__set_bcpgIn))  bcpgIn;
+ Org::BouncyCastle::Bcpg::BcpgInputStream __declspec(property(get=__get_bcpgIn, put=__set_bcpgIn))  bcpgIn;
 
-constexpr void __set_bcpgIn(::Org::BouncyCastle::Bcpg::BcpgInputStream value) ;
+constexpr void __set_bcpgIn(Org::BouncyCastle::Bcpg::BcpgInputStream value) ;
 
-constexpr ::Org::BouncyCastle::Bcpg::BcpgInputStream __get_bcpgIn() const;
+constexpr Org::BouncyCastle::Bcpg::BcpgInputStream __get_bcpgIn() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "inputStream", ty: "::System::IO::Stream", modifiers: "", def_value: None }]
-explicit PgpObjectFactory(::System::IO::Stream inputStream) ;
+// Ctor Parameters [CppParam { name: "inputStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
+explicit PgpObjectFactory(System::IO::Stream inputStream) ;
 
 /// @brief Method .ctor addr 0x1024680 size 0x34 virtual false final false
- void _ctor(::System::IO::Stream inputStream) ;
+ void _ctor(System::IO::Stream inputStream) ;
 
 // Ctor Parameters [CppParam { name: "bytes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
 explicit PgpObjectFactory(::ArrayW<uint8_t> bytes) ;
@@ -87,21 +86,20 @@ explicit PgpObjectFactory(::ArrayW<uint8_t> bytes) ;
  void _ctor(::ArrayW<uint8_t> bytes) ;
 
 /// @brief Method NextPgpObject addr 0x1024740 size 0xa48 virtual false final false
- ::Org::BouncyCastle::Bcpg::OpenPgp::PgpObject NextPgpObject() ;
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpObject NextPgpObject() ;
 
 /// @brief Method NextObject addr 0x1025270 size 0x4 virtual false final false
  ::bs_hook::Il2CppWrapperType NextObject() ;
 
 /// @brief Method AllPgpObjects addr 0x1025274 size 0x104 virtual false final false
- ::System::Collections::IList AllPgpObjects() ;
+ System::Collections::IList AllPgpObjects() ;
 
 /// @brief Method FilterPgpObjects addr 0x1025378 size 0x134 virtual false final false
- ::System::Collections::IList FilterPgpObjects(::System::Type type) ;
+ System::Collections::IList FilterPgpObjects(System::Type type) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg::OpenPgp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory, "Org.BouncyCastle.Bcpg.OpenPgp", "PgpObjectFactory");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory, "Org.BouncyCastle.Bcpg.OpenPgp", "PgpObjectFactory");

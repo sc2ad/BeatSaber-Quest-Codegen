@@ -1,6 +1,5 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace LiteNetLib::Utils {
 class INetSerializable;
 }
@@ -17,8 +16,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE IPoolableSerializable : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::LiteNetLib::Utils::INetSerializable
-constexpr operator  ::LiteNetLib::Utils::INetSerializable() const noexcept;
+/// @brief Convert operator to LiteNetLib::Utils::INetSerializable
+constexpr operator  LiteNetLib::Utils::INetSerializable() const noexcept;
 
 ~IPoolableSerializable() = default;
 
@@ -39,6 +38,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IPoolableSerializable);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IPoolableSerializable, "", "IPoolableSerializable");
+NEED_NO_BOX(GlobalNamespace::IPoolableSerializable);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IPoolableSerializable, "", "IPoolableSerializable");

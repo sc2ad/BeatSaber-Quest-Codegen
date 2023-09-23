@@ -5,19 +5,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-struct ____GlobalNamespace__Interop__ErrorInfo;
+namespace System::IO {
+struct FileAttributes;
 }
 namespace System::IO {
 class DirectoryInfo;
 }
+namespace GlobalNamespace {
+struct GlobalNamespace__Interop__ErrorInfo;
+}
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
-}
-namespace System::IO {
-struct FileAttributes;
 }
 // Forward declare root types
 namespace System::IO {
@@ -87,25 +86,25 @@ static void CreateDirectory(::StringW fullPath) ;
 static void RemoveDirectory(::StringW fullPath, bool recursive) ;
 
 /// @brief Method RemoveDirectoryInternal addr 0x239f308 size 0x690 virtual false final false
-static void RemoveDirectoryInternal(::System::IO::DirectoryInfo directory, bool recursive, bool throwOnTopLevelDirectoryNotFound) ;
+static void RemoveDirectoryInternal(System::IO::DirectoryInfo directory, bool recursive, bool throwOnTopLevelDirectoryNotFound) ;
 
 /// @brief Method DirectoryExists addr 0x239aa08 size 0x20 virtual false final false
-static bool DirectoryExists(::System::ReadOnlySpan_1<char16_t> fullPath) ;
+static bool DirectoryExists(System::ReadOnlySpan_1<char16_t> fullPath) ;
 
 /// @brief Method DirectoryExists addr 0x239f2fc size 0xc virtual false final false
-static bool DirectoryExists(::System::ReadOnlySpan_1<char16_t> fullPath, ByRef<::GlobalNamespace::____GlobalNamespace__Interop__ErrorInfo> errorInfo) ;
+static bool DirectoryExists(System::ReadOnlySpan_1<char16_t> fullPath, ByRef<GlobalNamespace::GlobalNamespace__Interop__ErrorInfo> errorInfo) ;
 
 /// @brief Method FileExists addr 0x239c20c size 0x7c virtual false final false
-static bool FileExists(::System::ReadOnlySpan_1<char16_t> fullPath) ;
+static bool FileExists(System::ReadOnlySpan_1<char16_t> fullPath) ;
 
 /// @brief Method FileExists addr 0x239f1ec size 0x110 virtual false final false
-static bool FileExists(::System::ReadOnlySpan_1<char16_t> fullPath, int32_t fileType, ByRef<::GlobalNamespace::____GlobalNamespace__Interop__ErrorInfo> errorInfo) ;
+static bool FileExists(System::ReadOnlySpan_1<char16_t> fullPath, int32_t fileType, ByRef<GlobalNamespace::GlobalNamespace__Interop__ErrorInfo> errorInfo) ;
 
 /// @brief Method ShouldIgnoreDirectory addr 0x239f998 size 0x84 virtual false final false
 static bool ShouldIgnoreDirectory(::StringW name) ;
 
 /// @brief Method GetAttributes addr 0x239c384 size 0x80 virtual false final false
-static ::System::IO::FileAttributes GetAttributes(::StringW fullPath) ;
+static System::IO::FileAttributes GetAttributes(::StringW fullPath) ;
 
 /// @brief Method GetLogicalDrives addr 0x239b158 size 0x8 virtual false final false
 static ::ArrayW<::StringW> GetLogicalDrives() ;
@@ -114,6 +113,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::IO
-} // end anonymous namespace
-NEED_NO_BOX(::System::IO::FileSystem);
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::FileSystem, "System.IO", "FileSystem");
+NEED_NO_BOX(System::IO::FileSystem);
+DEFINE_IL2CPP_ARG_TYPE(System::IO::FileSystem, "System.IO", "FileSystem");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine::TextCore::Text {
 struct TagValueType;
 }
@@ -19,8 +18,8 @@ namespace UnityEngine::TextCore::Text {
 struct CORDL_TYPE XmlTagAttribute : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "nameHashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "valueType", ty: "::UnityEngine::TextCore::Text::TagValueType", modifiers: "", def_value: None }, CppParam { name: "valueStartIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "valueLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "valueHashCode", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr XmlTagAttribute(int32_t nameHashCode, ::UnityEngine::TextCore::Text::TagValueType valueType, int32_t valueStartIndex, int32_t valueLength, int32_t valueHashCode) noexcept;
+// Ctor Parameters [CppParam { name: "nameHashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "valueType", ty: "UnityEngine::TextCore::Text::TagValueType", modifiers: "", def_value: None }, CppParam { name: "valueStartIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "valueLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "valueHashCode", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr XmlTagAttribute(int32_t nameHashCode, UnityEngine::TextCore::Text::TagValueType valueType, int32_t valueStartIndex, int32_t valueLength, int32_t valueHashCode) noexcept;
 
 
                     constexpr XmlTagAttribute(XmlTagAttribute const&) = default;
@@ -59,11 +58,11 @@ constexpr void __set_nameHashCode(int32_t value) ;
 
 constexpr int32_t __get_nameHashCode() const;
 
- ::UnityEngine::TextCore::Text::TagValueType __declspec(property(get=__get_valueType, put=__set_valueType))  valueType;
+ UnityEngine::TextCore::Text::TagValueType __declspec(property(get=__get_valueType, put=__set_valueType))  valueType;
 
-constexpr void __set_valueType(::UnityEngine::TextCore::Text::TagValueType value) ;
+constexpr void __set_valueType(UnityEngine::TextCore::Text::TagValueType value) ;
 
-constexpr ::UnityEngine::TextCore::Text::TagValueType __get_valueType() const;
+constexpr UnityEngine::TextCore::Text::TagValueType __get_valueType() const;
 
  int32_t __declspec(property(get=__get_valueStartIndex, put=__set_valueStartIndex))  valueStartIndex;
 
@@ -87,5 +86,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::Text
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::XmlTagAttribute, "UnityEngine.TextCore.Text", "XmlTagAttribute");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Text::XmlTagAttribute, "UnityEngine.TextCore.Text", "XmlTagAttribute");

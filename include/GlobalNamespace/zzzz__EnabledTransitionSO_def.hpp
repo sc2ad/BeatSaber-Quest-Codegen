@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__BaseTransitionSO_def.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class EnabledTransitionSO;
@@ -12,7 +11,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5545))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5551))
 // CS Name: EnabledTransitionSO
-class CORDL_TYPE EnabledTransitionSO : public ::GlobalNamespace::BaseTransitionSO {
+class CORDL_TYPE EnabledTransitionSO : public GlobalNamespace::BaseTransitionSO {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr EnabledTransitionSO(EnabledTransitionSO const& ) noexcept = default;
 constexpr EnabledTransitionSO(EnabledTransitionSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EnabledTransitionSO(void* ptr) noexcept : ::GlobalNamespace::BaseTransitionSO(ptr) {
+constexpr explicit EnabledTransitionSO(void* ptr) noexcept : GlobalNamespace::BaseTransitionSO(ptr) {
 }
 
 
@@ -130,6 +129,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::EnabledTransitionSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EnabledTransitionSO, "", "EnabledTransitionSO");
+NEED_NO_BOX(GlobalNamespace::EnabledTransitionSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnabledTransitionSO, "", "EnabledTransitionSO");

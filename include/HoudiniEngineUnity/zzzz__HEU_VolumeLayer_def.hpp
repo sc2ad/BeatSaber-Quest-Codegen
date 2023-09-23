@@ -4,7 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace HoudiniEngineUnity {
+template<typename T>
+class IEquivable_1;
+}
 namespace UnityEngine {
 class TerrainLayer;
 }
@@ -12,14 +15,10 @@ namespace HoudiniEngineUnity {
 class HEU_PartData;
 }
 namespace HoudiniEngineUnity {
-class HEU_DetailPrototype;
-}
-namespace HoudiniEngineUnity {
 struct HFLayerType;
 }
 namespace HoudiniEngineUnity {
-template<typename T>
-class IEquivable_1;
+class HEU_DetailPrototype;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -34,8 +33,8 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE HEU_VolumeLayer : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer>
-constexpr operator  ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer>() const noexcept;
+/// @brief Convert operator to HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_VolumeLayer>
+constexpr operator  HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_VolumeLayer>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x50};
@@ -76,11 +75,11 @@ constexpr void __set__layerName(::StringW value) ;
 
 constexpr ::StringW __get__layerName() const;
 
- ::HoudiniEngineUnity::HEU_PartData __declspec(property(get=__get__part, put=__set__part))  _part;
+ HoudiniEngineUnity::HEU_PartData __declspec(property(get=__get__part, put=__set__part))  _part;
 
-constexpr void __set__part(::HoudiniEngineUnity::HEU_PartData value) ;
+constexpr void __set__part(HoudiniEngineUnity::HEU_PartData value) ;
 
-constexpr ::HoudiniEngineUnity::HEU_PartData __get__part() const;
+constexpr HoudiniEngineUnity::HEU_PartData __get__part() const;
 
  float_t __declspec(property(get=__get__strength, put=__set__strength))  _strength;
 
@@ -118,29 +117,29 @@ constexpr void __set__hasLayerAttributes(bool value) ;
 
 constexpr bool __get__hasLayerAttributes() const;
 
- ::UnityEngine::TerrainLayer __declspec(property(get=__get__terrainLayer, put=__set__terrainLayer))  _terrainLayer;
+ UnityEngine::TerrainLayer __declspec(property(get=__get__terrainLayer, put=__set__terrainLayer))  _terrainLayer;
 
-constexpr void __set__terrainLayer(::UnityEngine::TerrainLayer value) ;
+constexpr void __set__terrainLayer(UnityEngine::TerrainLayer value) ;
 
-constexpr ::UnityEngine::TerrainLayer __get__terrainLayer() const;
+constexpr UnityEngine::TerrainLayer __get__terrainLayer() const;
 
- ::HoudiniEngineUnity::HFLayerType __declspec(property(get=__get__layerType, put=__set__layerType))  _layerType;
+ HoudiniEngineUnity::HFLayerType __declspec(property(get=__get__layerType, put=__set__layerType))  _layerType;
 
-constexpr void __set__layerType(::HoudiniEngineUnity::HFLayerType value) ;
+constexpr void __set__layerType(HoudiniEngineUnity::HFLayerType value) ;
 
-constexpr ::HoudiniEngineUnity::HFLayerType __get__layerType() const;
+constexpr HoudiniEngineUnity::HFLayerType __get__layerType() const;
 
- ::HoudiniEngineUnity::HEU_DetailPrototype __declspec(property(get=__get__detailPrototype, put=__set__detailPrototype))  _detailPrototype;
+ HoudiniEngineUnity::HEU_DetailPrototype __declspec(property(get=__get__detailPrototype, put=__set__detailPrototype))  _detailPrototype;
 
-constexpr void __set__detailPrototype(::HoudiniEngineUnity::HEU_DetailPrototype value) ;
+constexpr void __set__detailPrototype(HoudiniEngineUnity::HEU_DetailPrototype value) ;
 
-constexpr ::HoudiniEngineUnity::HEU_DetailPrototype __get__detailPrototype() const;
+constexpr HoudiniEngineUnity::HEU_DetailPrototype __get__detailPrototype() const;
 
 
 // Methods
 
 /// @brief Method IsEquivalentTo addr 0x2077538 size 0x370 virtual true final true
- bool IsEquivalentTo(::HoudiniEngineUnity::HEU_VolumeLayer other) ;
+ bool IsEquivalentTo(HoudiniEngineUnity::HEU_VolumeLayer other) ;
 
 // Ctor Parameters []
 explicit HEU_VolumeLayer() ;
@@ -152,6 +151,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_VolumeLayer);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_VolumeLayer, "HoudiniEngineUnity", "HEU_VolumeLayer");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_VolumeLayer);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_VolumeLayer, "HoudiniEngineUnity", "HEU_VolumeLayer");

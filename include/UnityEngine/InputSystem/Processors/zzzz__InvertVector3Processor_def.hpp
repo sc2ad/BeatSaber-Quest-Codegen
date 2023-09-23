@@ -3,7 +3,6 @@
 #include "UnityEngine/InputSystem/zzzz__InputProcessor_1_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -17,10 +16,10 @@ class InvertVector3Processor;
 // Type: UnityEngine.InputSystem.Processors::InvertVector3Processor
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6319)), TypeDefinitionIndex(TypeDefinitionIndex(10190)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6319), inst: 394 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10190)), TypeDefinitionIndex(TypeDefinitionIndex(6319)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6319), inst: 394 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6669))
 // CS Name: UnityEngine.InputSystem.Processors.InvertVector3Processor
-class CORDL_TYPE InvertVector3Processor : public ::UnityEngine::InputSystem::InputProcessor_1<::UnityEngine::Vector3> {
+class CORDL_TYPE InvertVector3Processor : public UnityEngine::InputSystem::InputProcessor_1<UnityEngine::Vector3> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr InvertVector3Processor(InvertVector3Processor const& ) noexcept = defa
 constexpr InvertVector3Processor(InvertVector3Processor&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit InvertVector3Processor(void* ptr) noexcept : ::UnityEngine::InputSystem::InputProcessor_1<::UnityEngine::Vector3>(ptr) {
+constexpr explicit InvertVector3Processor(void* ptr) noexcept : UnityEngine::InputSystem::InputProcessor_1<UnityEngine::Vector3>(ptr) {
 }
 
 
@@ -78,7 +77,7 @@ constexpr bool __get_invertZ() const;
 // Methods
 
 /// @brief Method Process addr 0x2966b7c size 0x34 virtual true final false
- ::UnityEngine::Vector3 Process(::UnityEngine::Vector3 value, ::UnityEngine::InputSystem::InputControl control) ;
+ UnityEngine::Vector3 Process(UnityEngine::Vector3 value, UnityEngine::InputSystem::InputControl control) ;
 
 /// @brief Method ToString addr 0x2966bb0 size 0xc4 virtual true final false
  ::StringW ToString() ;
@@ -93,6 +92,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Processors
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Processors::InvertVector3Processor);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Processors::InvertVector3Processor, "UnityEngine.InputSystem.Processors", "InvertVector3Processor");
+NEED_NO_BOX(UnityEngine::InputSystem::Processors::InvertVector3Processor);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Processors::InvertVector3Processor, "UnityEngine.InputSystem.Processors", "InvertVector3Processor");

@@ -2,16 +2,15 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_def.hpp"
 #include <cmath>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine {
-class CanvasGroup;
-}
 namespace TMPro {
 class TextMeshProUGUI;
+}
+namespace UnityEngine {
+class CanvasGroup;
 }
 // Forward declare root types
 namespace HMUI {
@@ -23,7 +22,7 @@ namespace HMUI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13153))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13582))
 // CS Name: HMUI.InteractableTextMeshPro
-class CORDL_TYPE InteractableTextMeshPro : public ::UnityEngine::EventSystems::UIBehaviour {
+class CORDL_TYPE InteractableTextMeshPro : public UnityEngine::EventSystems::UIBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr InteractableTextMeshPro(InteractableTextMeshPro const& ) noexcept = de
 constexpr InteractableTextMeshPro(InteractableTextMeshPro&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit InteractableTextMeshPro(void* ptr) noexcept : ::UnityEngine::EventSystems::UIBehaviour(ptr) {
+constexpr explicit InteractableTextMeshPro(void* ptr) noexcept : UnityEngine::EventSystems::UIBehaviour(ptr) {
 }
 
 
@@ -71,17 +70,17 @@ constexpr void __set__noInteractionAlpha(float_t value) ;
 
 constexpr float_t __get__noInteractionAlpha() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__text, put=__set__text))  _text;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__text, put=__set__text))  _text;
 
-constexpr void __set__text(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__text(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__text() const;
+constexpr TMPro::TextMeshProUGUI __get__text() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::CanvasGroup> __declspec(property(get=__get__canvasGroupCache, put=__set__canvasGroupCache))  _canvasGroupCache;
+ System::Collections::Generic::List_1<UnityEngine::CanvasGroup> __declspec(property(get=__get__canvasGroupCache, put=__set__canvasGroupCache))  _canvasGroupCache;
 
-constexpr void __set__canvasGroupCache(::System::Collections::Generic::List_1<::UnityEngine::CanvasGroup> value) ;
+constexpr void __set__canvasGroupCache(System::Collections::Generic::List_1<UnityEngine::CanvasGroup> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::CanvasGroup> __get__canvasGroupCache() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::CanvasGroup> __get__canvasGroupCache() const;
 
 
 // Methods
@@ -99,6 +98,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HMUI
-} // end anonymous namespace
-NEED_NO_BOX(::HMUI::InteractableTextMeshPro);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::InteractableTextMeshPro, "HMUI", "InteractableTextMeshPro");
+NEED_NO_BOX(HMUI::InteractableTextMeshPro);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::InteractableTextMeshPro, "HMUI", "InteractableTextMeshPro");

@@ -3,21 +3,20 @@
 #include "RootMotion/FinalIK/zzzz__IKSolverHeuristic_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace RootMotion::FinalIK {
-class ____RootMotion__FinalIK__IKSolver__Bone;
+class RotationLimit;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__IKSolver__IterationDelegate;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace RootMotion::FinalIK {
-class ____RootMotion__FinalIK__IKSolver__IterationDelegate;
+class RootMotion__FinalIK__IKSolver__Bone;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace RootMotion::FinalIK {
-class RotationLimit;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -29,7 +28,7 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12516))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12507))
 // CS Name: RootMotion.FinalIK.IKSolverAim
-class CORDL_TYPE IKSolverAim : public ::RootMotion::FinalIK::IKSolverHeuristic {
+class CORDL_TYPE IKSolverAim : public RootMotion::FinalIK::IKSolverHeuristic {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -44,7 +43,7 @@ constexpr IKSolverAim(IKSolverAim const& ) noexcept = default;
 constexpr IKSolverAim(IKSolverAim&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit IKSolverAim(void* ptr) noexcept : ::RootMotion::FinalIK::IKSolverHeuristic(ptr) {
+constexpr explicit IKSolverAim(void* ptr) noexcept : RootMotion::FinalIK::IKSolverHeuristic(ptr) {
 }
 
 
@@ -65,29 +64,29 @@ constexpr explicit IKSolverAim(void* ptr) noexcept : ::RootMotion::FinalIK::IKSo
 
 // Fields
 
- ::UnityEngine::Transform __declspec(property(get=__get_transform, put=__set_transform))  transform;
+ UnityEngine::Transform __declspec(property(get=__get_transform, put=__set_transform))  transform;
 
-constexpr void __set_transform(::UnityEngine::Transform value) ;
+constexpr void __set_transform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_transform() const;
+constexpr UnityEngine::Transform __get_transform() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_axis, put=__set_axis))  axis;
+ UnityEngine::Vector3 __declspec(property(get=__get_axis, put=__set_axis))  axis;
 
-constexpr void __set_axis(::UnityEngine::Vector3 value) ;
+constexpr void __set_axis(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_axis() const;
+constexpr UnityEngine::Vector3 __get_axis() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_poleAxis, put=__set_poleAxis))  poleAxis;
+ UnityEngine::Vector3 __declspec(property(get=__get_poleAxis, put=__set_poleAxis))  poleAxis;
 
-constexpr void __set_poleAxis(::UnityEngine::Vector3 value) ;
+constexpr void __set_poleAxis(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_poleAxis() const;
+constexpr UnityEngine::Vector3 __get_poleAxis() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_polePosition, put=__set_polePosition))  polePosition;
+ UnityEngine::Vector3 __declspec(property(get=__get_polePosition, put=__set_polePosition))  polePosition;
 
-constexpr void __set_polePosition(::UnityEngine::Vector3 value) ;
+constexpr void __set_polePosition(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_polePosition() const;
+constexpr UnityEngine::Vector3 __get_polePosition() const;
 
  float_t __declspec(property(get=__get_poleWeight, put=__set_poleWeight))  poleWeight;
 
@@ -95,11 +94,11 @@ constexpr void __set_poleWeight(float_t value) ;
 
 constexpr float_t __get_poleWeight() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_poleTarget, put=__set_poleTarget))  poleTarget;
+ UnityEngine::Transform __declspec(property(get=__get_poleTarget, put=__set_poleTarget))  poleTarget;
 
-constexpr void __set_poleTarget(::UnityEngine::Transform value) ;
+constexpr void __set_poleTarget(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_poleTarget() const;
+constexpr UnityEngine::Transform __get_poleTarget() const;
 
  float_t __declspec(property(get=__get_clampWeight, put=__set_clampWeight))  clampWeight;
 
@@ -113,11 +112,11 @@ constexpr void __set_clampSmoothing(int32_t value) ;
 
 constexpr int32_t __get_clampSmoothing() const;
 
- ::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__IterationDelegate __declspec(property(get=__get_OnPreIteration, put=__set_OnPreIteration))  OnPreIteration;
+ RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__IterationDelegate __declspec(property(get=__get_OnPreIteration, put=__set_OnPreIteration))  OnPreIteration;
 
-constexpr void __set_OnPreIteration(::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__IterationDelegate value) ;
+constexpr void __set_OnPreIteration(RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__IterationDelegate value) ;
 
-constexpr ::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__IterationDelegate __get_OnPreIteration() const;
+constexpr RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__IterationDelegate __get_OnPreIteration() const;
 
  float_t __declspec(property(get=__get_step, put=__set_step))  step;
 
@@ -125,34 +124,34 @@ constexpr void __set_step(float_t value) ;
 
 constexpr float_t __get_step() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_clampedIKPosition, put=__set_clampedIKPosition))  clampedIKPosition;
+ UnityEngine::Vector3 __declspec(property(get=__get_clampedIKPosition, put=__set_clampedIKPosition))  clampedIKPosition;
 
-constexpr void __set_clampedIKPosition(::UnityEngine::Vector3 value) ;
+constexpr void __set_clampedIKPosition(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_clampedIKPosition() const;
+constexpr UnityEngine::Vector3 __get_clampedIKPosition() const;
 
- ::RootMotion::FinalIK::RotationLimit __declspec(property(get=__get_transformLimit, put=__set_transformLimit))  transformLimit;
+ RootMotion::FinalIK::RotationLimit __declspec(property(get=__get_transformLimit, put=__set_transformLimit))  transformLimit;
 
-constexpr void __set_transformLimit(::RootMotion::FinalIK::RotationLimit value) ;
+constexpr void __set_transformLimit(RootMotion::FinalIK::RotationLimit value) ;
 
-constexpr ::RootMotion::FinalIK::RotationLimit __get_transformLimit() const;
+constexpr RootMotion::FinalIK::RotationLimit __get_transformLimit() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_lastTransform, put=__set_lastTransform))  lastTransform;
+ UnityEngine::Transform __declspec(property(get=__get_lastTransform, put=__set_lastTransform))  lastTransform;
 
-constexpr void __set_lastTransform(::UnityEngine::Transform value) ;
+constexpr void __set_lastTransform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_lastTransform() const;
+constexpr UnityEngine::Transform __get_lastTransform() const;
 
 
 // Properties
 
- ::UnityEngine::Vector3 __declspec(property(get=get_transformAxis))  transformAxis;
+ UnityEngine::Vector3 __declspec(property(get=get_transformAxis))  transformAxis;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_transformPoleAxis))  transformPoleAxis;
+ UnityEngine::Vector3 __declspec(property(get=get_transformPoleAxis))  transformPoleAxis;
 
  int32_t __declspec(property(get=get_minBones))  minBones;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_localDirection))  localDirection;
+ UnityEngine::Vector3 __declspec(property(get=get_localDirection))  localDirection;
 
 
 // Methods
@@ -161,10 +160,10 @@ constexpr ::UnityEngine::Transform __get_lastTransform() const;
  float_t GetAngle() ;
 
 /// @brief Method get_transformAxis addr 0x11d4a28 size 0x30 virtual false final false
- ::UnityEngine::Vector3 get_transformAxis() ;
+ UnityEngine::Vector3 get_transformAxis() ;
 
 /// @brief Method get_transformPoleAxis addr 0x11d4a58 size 0x30 virtual false final false
- ::UnityEngine::Vector3 get_transformPoleAxis() ;
+ UnityEngine::Vector3 get_transformPoleAxis() ;
 
 /// @brief Method OnInitiate addr 0x11d4a88 size 0x28c virtual true final false
  void OnInitiate() ;
@@ -179,13 +178,13 @@ constexpr ::UnityEngine::Transform __get_lastTransform() const;
  void Solve() ;
 
 /// @brief Method GetClampedIKPosition addr 0x11d5280 size 0x364 virtual false final false
- ::UnityEngine::Vector3 GetClampedIKPosition() ;
+ UnityEngine::Vector3 GetClampedIKPosition() ;
 
 /// @brief Method RotateToTarget addr 0x11d5694 size 0x538 virtual false final false
- void RotateToTarget(::UnityEngine::Vector3 targetPosition, ::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__Bone bone, float_t weight) ;
+ void RotateToTarget(UnityEngine::Vector3 targetPosition, RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone bone, float_t weight) ;
 
 /// @brief Method get_localDirection addr 0x11d5bcc size 0x60 virtual true final false
- ::UnityEngine::Vector3 get_localDirection() ;
+ UnityEngine::Vector3 get_localDirection() ;
 
 // Ctor Parameters []
 explicit IKSolverAim() ;
@@ -197,6 +196,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::IKSolverAim);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::IKSolverAim, "RootMotion.FinalIK", "IKSolverAim");
+NEED_NO_BOX(RootMotion::FinalIK::IKSolverAim);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverAim, "RootMotion.FinalIK", "IKSolverAim");

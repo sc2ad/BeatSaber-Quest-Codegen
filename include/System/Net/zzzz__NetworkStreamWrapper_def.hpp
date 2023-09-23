@@ -4,12 +4,18 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
+namespace System {
+class AsyncCallback;
+}
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
+}
+namespace System::Net::Sockets {
+class Socket;
+}
 namespace System::Net::Sockets {
 class TcpClient;
-}
-namespace System::Net {
-class IPAddress;
 }
 namespace System {
 class IAsyncResult;
@@ -17,24 +23,17 @@ class IAsyncResult;
 namespace System::Net::Sockets {
 class NetworkStream;
 }
-namespace System::IO {
-struct SeekOrigin;
-}
-namespace System::Net::Sockets {
-class Socket;
+namespace System::Net {
+class IPAddress;
 }
 namespace System::Threading::Tasks {
 class Task;
 }
+namespace System::IO {
+struct SeekOrigin;
+}
 namespace System::Threading {
 struct CancellationToken;
-}
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
-}
-namespace System {
-class AsyncCallback;
 }
 // Forward declare root types
 namespace System::Net {
@@ -46,7 +45,7 @@ namespace System::Net {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3604))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7905))
 // CS Name: System.Net.NetworkStreamWrapper
-class CORDL_TYPE NetworkStreamWrapper : public ::System::IO::Stream {
+class CORDL_TYPE NetworkStreamWrapper : public System::IO::Stream {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -61,7 +60,7 @@ constexpr NetworkStreamWrapper(NetworkStreamWrapper const& ) noexcept = default;
 constexpr NetworkStreamWrapper(NetworkStreamWrapper&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NetworkStreamWrapper(void* ptr) noexcept : ::System::IO::Stream(ptr) {
+constexpr explicit NetworkStreamWrapper(void* ptr) noexcept : System::IO::Stream(ptr) {
 }
 
 
@@ -82,28 +81,28 @@ constexpr explicit NetworkStreamWrapper(void* ptr) noexcept : ::System::IO::Stre
 
 // Fields
 
- ::System::Net::Sockets::TcpClient __declspec(property(get=__get__client, put=__set__client))  _client;
+ System::Net::Sockets::TcpClient __declspec(property(get=__get__client, put=__set__client))  _client;
 
-constexpr void __set__client(::System::Net::Sockets::TcpClient value) ;
+constexpr void __set__client(System::Net::Sockets::TcpClient value) ;
 
-constexpr ::System::Net::Sockets::TcpClient __get__client() const;
+constexpr System::Net::Sockets::TcpClient __get__client() const;
 
- ::System::Net::Sockets::NetworkStream __declspec(property(get=__get__networkStream, put=__set__networkStream))  _networkStream;
+ System::Net::Sockets::NetworkStream __declspec(property(get=__get__networkStream, put=__set__networkStream))  _networkStream;
 
-constexpr void __set__networkStream(::System::Net::Sockets::NetworkStream value) ;
+constexpr void __set__networkStream(System::Net::Sockets::NetworkStream value) ;
 
-constexpr ::System::Net::Sockets::NetworkStream __get__networkStream() const;
+constexpr System::Net::Sockets::NetworkStream __get__networkStream() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_UsingSecureStream))  UsingSecureStream;
 
- ::System::Net::IPAddress __declspec(property(get=get_ServerAddress))  ServerAddress;
+ System::Net::IPAddress __declspec(property(get=get_ServerAddress))  ServerAddress;
 
- ::System::Net::Sockets::Socket __declspec(property(get=get_Socket))  Socket;
+ System::Net::Sockets::Socket __declspec(property(get=get_Socket))  Socket;
 
- ::System::Net::Sockets::NetworkStream __declspec(property(get=get_NetworkStream, put=set_NetworkStream))  NetworkStream;
+ System::Net::Sockets::NetworkStream __declspec(property(get=get_NetworkStream, put=set_NetworkStream))  NetworkStream;
 
  bool __declspec(property(get=get_CanRead))  CanRead;
 
@@ -124,26 +123,26 @@ constexpr ::System::Net::Sockets::NetworkStream __get__networkStream() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "client", ty: "::System::Net::Sockets::TcpClient", modifiers: "", def_value: None }]
-explicit NetworkStreamWrapper(::System::Net::Sockets::TcpClient client) ;
+// Ctor Parameters [CppParam { name: "client", ty: "System::Net::Sockets::TcpClient", modifiers: "", def_value: None }]
+explicit NetworkStreamWrapper(System::Net::Sockets::TcpClient client) ;
 
 /// @brief Method .ctor addr 0x27fb5d8 size 0x84 virtual false final false
- void _ctor(::System::Net::Sockets::TcpClient client) ;
+ void _ctor(System::Net::Sockets::TcpClient client) ;
 
 /// @brief Method get_UsingSecureStream addr 0x27fe3e8 size 0x7c virtual false final false
  bool get_UsingSecureStream() ;
 
 /// @brief Method get_ServerAddress addr 0x27fdbc4 size 0x94 virtual false final false
- ::System::Net::IPAddress get_ServerAddress() ;
+ System::Net::IPAddress get_ServerAddress() ;
 
 /// @brief Method get_Socket addr 0x27ff8d8 size 0x1c virtual false final false
- ::System::Net::Sockets::Socket get_Socket() ;
+ System::Net::Sockets::Socket get_Socket() ;
 
 /// @brief Method get_NetworkStream addr 0x28098c8 size 0x8 virtual false final false
- ::System::Net::Sockets::NetworkStream get_NetworkStream() ;
+ System::Net::Sockets::NetworkStream get_NetworkStream() ;
 
 /// @brief Method set_NetworkStream addr 0x28098d0 size 0x8 virtual false final false
- void set_NetworkStream(::System::Net::Sockets::NetworkStream value) ;
+ void set_NetworkStream(System::Net::Sockets::NetworkStream value) ;
 
 /// @brief Method get_CanRead addr 0x28098d8 size 0x20 virtual true final false
  bool get_CanRead() ;
@@ -179,7 +178,7 @@ explicit NetworkStreamWrapper(::System::Net::Sockets::TcpClient client) ;
  void set_Position(int64_t value) ;
 
 /// @brief Method Seek addr 0x2809a4c size 0x24 virtual true final false
- int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin) ;
+ int64_t Seek(int64_t offset, System::IO::SeekOrigin origin) ;
 
 /// @brief Method Read addr 0x2809a70 size 0x24 virtual true final false
  int32_t Read(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size) ;
@@ -197,28 +196,28 @@ explicit NetworkStreamWrapper(::System::Net::Sockets::TcpClient client) ;
  void Close(int32_t timeout) ;
 
 /// @brief Method BeginRead addr 0x2809b64 size 0x24 virtual true final false
- ::System::IAsyncResult BeginRead(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size, ::System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType state) ;
+ System::IAsyncResult BeginRead(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType state) ;
 
 /// @brief Method EndRead addr 0x2809b88 size 0x24 virtual true final false
- int32_t EndRead(::System::IAsyncResult asyncResult) ;
+ int32_t EndRead(System::IAsyncResult asyncResult) ;
 
 /// @brief Method ReadAsync addr 0x2809bac size 0x24 virtual true final false
- ::System::Threading::Tasks::Task_1<int32_t> ReadAsync(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken) ;
+ System::Threading::Tasks::Task_1<int32_t> ReadAsync(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, System::Threading::CancellationToken cancellationToken) ;
 
 /// @brief Method BeginWrite addr 0x2809bd0 size 0x24 virtual true final false
- ::System::IAsyncResult BeginWrite(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size, ::System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType state) ;
+ System::IAsyncResult BeginWrite(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType state) ;
 
 /// @brief Method EndWrite addr 0x2809bf4 size 0x24 virtual true final false
- void EndWrite(::System::IAsyncResult asyncResult) ;
+ void EndWrite(System::IAsyncResult asyncResult) ;
 
 /// @brief Method WriteAsync addr 0x2809c18 size 0x24 virtual true final false
- ::System::Threading::Tasks::Task WriteAsync(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken) ;
+ System::Threading::Tasks::Task WriteAsync(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, System::Threading::CancellationToken cancellationToken) ;
 
 /// @brief Method Flush addr 0x2809c3c size 0x24 virtual true final false
  void Flush() ;
 
 /// @brief Method FlushAsync addr 0x2809c60 size 0x24 virtual true final false
- ::System::Threading::Tasks::Task FlushAsync(::System::Threading::CancellationToken cancellationToken) ;
+ System::Threading::Tasks::Task FlushAsync(System::Threading::CancellationToken cancellationToken) ;
 
 /// @brief Method SetLength addr 0x2809c84 size 0x24 virtual true final false
  void SetLength(int64_t value) ;
@@ -230,6 +229,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::NetworkStreamWrapper);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkStreamWrapper, "System.Net", "NetworkStreamWrapper");
+NEED_NO_BOX(System::Net::NetworkStreamWrapper);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkStreamWrapper, "System.Net", "NetworkStreamWrapper");

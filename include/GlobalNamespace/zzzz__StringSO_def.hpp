@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__ObservableVariableSO_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class StringSO;
@@ -13,7 +12,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13904)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13904), inst: 380 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13907))
 // CS Name: StringSO
-class CORDL_TYPE StringSO : public ::GlobalNamespace::ObservableVariableSO_1<::StringW> {
+class CORDL_TYPE StringSO : public GlobalNamespace::ObservableVariableSO_1<::StringW> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr StringSO(StringSO const& ) noexcept = default;
 constexpr StringSO(StringSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit StringSO(void* ptr) noexcept : ::GlobalNamespace::ObservableVariableSO_1<::StringW>(ptr) {
+constexpr explicit StringSO(void* ptr) noexcept : GlobalNamespace::ObservableVariableSO_1<::StringW>(ptr) {
 }
 
 
@@ -59,6 +58,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::StringSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StringSO, "", "StringSO");
+NEED_NO_BOX(GlobalNamespace::StringSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StringSO, "", "StringSO");

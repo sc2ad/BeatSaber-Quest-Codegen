@@ -7,22 +7,21 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine::Playables {
-class PlayableDirector;
-}
-namespace UnityEngine {
-class Animator;
-}
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
 class AnimationClip;
 }
+namespace UnityEngine::Playables {
+class PlayableDirector;
+}
+namespace UnityEngine {
+class Animator;
+}
 // Forward declare root types
 namespace RootMotion {
-struct ____RootMotion__Baker__Mode;
+struct RootMotion__Baker__Mode;
 }
 namespace RootMotion {
 class Baker;
@@ -33,20 +32,20 @@ namespace RootMotion {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12412))
 // CS Name: RootMotion.Baker::Mode
-struct CORDL_TYPE ____RootMotion__Baker__Mode : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE RootMotion__Baker__Mode : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____RootMotion__Baker__Mode(int32_t value__) noexcept;
+constexpr RootMotion__Baker__Mode(int32_t value__) noexcept;
 
 
-                    constexpr ____RootMotion__Baker__Mode(____RootMotion__Baker__Mode const&) = default;
-                    constexpr ____RootMotion__Baker__Mode(____RootMotion__Baker__Mode&&) = default;
-                    constexpr ____RootMotion__Baker__Mode& operator=(____RootMotion__Baker__Mode const& o) {
+                    constexpr RootMotion__Baker__Mode(RootMotion__Baker__Mode const&) = default;
+                    constexpr RootMotion__Baker__Mode(RootMotion__Baker__Mode&&) = default;
+                    constexpr RootMotion__Baker__Mode& operator=(RootMotion__Baker__Mode const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____RootMotion__Baker__Mode& operator=(____RootMotion__Baker__Mode&& o) noexcept {
+                    constexpr RootMotion__Baker__Mode& operator=(RootMotion__Baker__Mode&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -59,7 +58,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____RootMotion__Baker__Mode(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit RootMotion__Baker__Mode(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -67,7 +66,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______RootMotion__Baker__Mode_Unwrapped : int32_t {
+enum class __RootMotion__Baker__Mode_Unwrapped : int32_t {
 __AnimationClips = 0,
 __AnimationStates = 1,
 __PlayableDirector = 2,
@@ -75,8 +74,8 @@ __Realtime = 3,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______RootMotion__Baker__Mode_Unwrapped () const noexcept {
-return std::bit_cast<______RootMotion__Baker__Mode_Unwrapped>(__instance);
+constexpr operator __RootMotion__Baker__Mode_Unwrapped () const noexcept {
+return std::bit_cast<__RootMotion__Baker__Mode_Unwrapped>(__instance);
 }
 
 
@@ -89,16 +88,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field AnimationClips offset 0
-static ::RootMotion::____RootMotion__Baker__Mode const AnimationClips;
+static RootMotion::RootMotion__Baker__Mode const AnimationClips;
 
 /// @brief Field AnimationStates offset 0
-static ::RootMotion::____RootMotion__Baker__Mode const AnimationStates;
+static RootMotion::RootMotion__Baker__Mode const AnimationStates;
 
 /// @brief Field PlayableDirector offset 0
-static ::RootMotion::____RootMotion__Baker__Mode const PlayableDirector;
+static RootMotion::RootMotion__Baker__Mode const PlayableDirector;
 
 /// @brief Field Realtime offset 0
-static ::RootMotion::____RootMotion__Baker__Mode const Realtime;
+static RootMotion::RootMotion__Baker__Mode const Realtime;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -110,10 +109,10 @@ namespace RootMotion {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12413))
 // CS Name: RootMotion.Baker
-class CORDL_TYPE Baker : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE Baker : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using Mode = ::RootMotion::____RootMotion__Baker__Mode;
+using Mode = RootMotion::RootMotion__Baker__Mode;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x78};
@@ -127,7 +126,7 @@ constexpr Baker(Baker const& ) noexcept = default;
 constexpr Baker(Baker&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Baker(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit Baker(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -160,17 +159,17 @@ constexpr void __set_keyReductionError(float_t value) ;
 
 constexpr float_t __get_keyReductionError() const;
 
- ::RootMotion::____RootMotion__Baker__Mode __declspec(property(get=__get_mode, put=__set_mode))  mode;
+ RootMotion::RootMotion__Baker__Mode __declspec(property(get=__get_mode, put=__set_mode))  mode;
 
-constexpr void __set_mode(::RootMotion::____RootMotion__Baker__Mode value) ;
+constexpr void __set_mode(RootMotion::RootMotion__Baker__Mode value) ;
 
-constexpr ::RootMotion::____RootMotion__Baker__Mode __get_mode() const;
+constexpr RootMotion::RootMotion__Baker__Mode __get_mode() const;
 
- ::ArrayW<::UnityEngine::AnimationClip> __declspec(property(get=__get_animationClips, put=__set_animationClips))  animationClips;
+ ::ArrayW<UnityEngine::AnimationClip> __declspec(property(get=__get_animationClips, put=__set_animationClips))  animationClips;
 
-constexpr void __set_animationClips(::ArrayW<::UnityEngine::AnimationClip> value) ;
+constexpr void __set_animationClips(::ArrayW<UnityEngine::AnimationClip> value) ;
 
-constexpr ::ArrayW<::UnityEngine::AnimationClip> __get_animationClips() const;
+constexpr ::ArrayW<UnityEngine::AnimationClip> __get_animationClips() const;
 
  ::ArrayW<::StringW> __declspec(property(get=__get_animationStates, put=__set_animationStates))  animationStates;
 
@@ -214,17 +213,17 @@ constexpr void __set__bakingProgress_k__BackingField(float_t value) ;
 
 constexpr float_t __get__bakingProgress_k__BackingField() const;
 
- ::UnityEngine::Animator __declspec(property(get=__get_animator, put=__set_animator))  animator;
+ UnityEngine::Animator __declspec(property(get=__get_animator, put=__set_animator))  animator;
 
-constexpr void __set_animator(::UnityEngine::Animator value) ;
+constexpr void __set_animator(UnityEngine::Animator value) ;
 
-constexpr ::UnityEngine::Animator __get_animator() const;
+constexpr UnityEngine::Animator __get_animator() const;
 
- ::UnityEngine::Playables::PlayableDirector __declspec(property(get=__get_director, put=__set_director))  director;
+ UnityEngine::Playables::PlayableDirector __declspec(property(get=__get_director, put=__set_director))  director;
 
-constexpr void __set_director(::UnityEngine::Playables::PlayableDirector value) ;
+constexpr void __set_director(UnityEngine::Playables::PlayableDirector value) ;
 
-constexpr ::UnityEngine::Playables::PlayableDirector __get_director() const;
+constexpr UnityEngine::Playables::PlayableDirector __get_director() const;
 
  float_t __declspec(property(get=__get__clipLength_k__BackingField, put=__set__clipLength_k__BackingField))  _clipLength_k__BackingField;
 
@@ -269,7 +268,7 @@ constexpr float_t __get__clipLength_k__BackingField() const;
  void set_bakingProgress(float_t value) ;
 
 /// @brief Method GetCharacterRoot addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Transform GetCharacterRoot() ;
+ UnityEngine::Transform GetCharacterRoot() ;
 
 /// @brief Method OnStartBaking addr 0x0 size 0xffffffffffffffff virtual true final false
  void OnStartBaking() ;
@@ -278,7 +277,7 @@ constexpr float_t __get__clipLength_k__BackingField() const;
  void OnSetLoopFrame(float_t time) ;
 
 /// @brief Method OnSetCurves addr 0x0 size 0xffffffffffffffff virtual true final false
- void OnSetCurves(ByRef<::UnityEngine::AnimationClip> clip) ;
+ void OnSetCurves(ByRef<UnityEngine::AnimationClip> clip) ;
 
 /// @brief Method OnSetKeyframes addr 0x0 size 0xffffffffffffffff virtual true final false
  void OnSetKeyframes(float_t time, bool lastFrame) ;
@@ -308,7 +307,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::____RootMotion__Baker__Mode, "RootMotion", "Baker/Mode");
-NEED_NO_BOX(::RootMotion::Baker);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::Baker, "RootMotion", "Baker");
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::RootMotion__Baker__Mode, "RootMotion", "Baker/Mode");
+NEED_NO_BOX(RootMotion::Baker);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::Baker, "RootMotion", "Baker");

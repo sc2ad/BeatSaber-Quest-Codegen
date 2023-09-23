@@ -7,27 +7,17 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Color;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine {
-struct ____UnityEngine__Camera__StereoscopicEye;
-}
-namespace UnityEngine {
-class Camera;
-}
-namespace UnityEngine::Rendering {
-struct ScriptableRenderContext;
 }
 namespace UnityEngine {
 class MeshFilter;
 }
 namespace UnityEngine {
-class Mesh;
+struct UnityEngine__Camera__StereoscopicEye;
+}
+namespace UnityEngine {
+class Camera;
 }
 namespace UnityEngine {
 class Material;
@@ -36,14 +26,23 @@ namespace UnityEngine {
 class MeshRenderer;
 }
 namespace UnityEngine {
+struct Vector4;
+}
+namespace UnityEngine::Rendering {
+struct ScriptableRenderContext;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace UnityEngine {
 class Shader;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRVignette__FalloffType;
+struct GlobalNamespace__OVRVignette__FalloffType;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRVignette__MeshComplexityLevel;
+struct GlobalNamespace__OVRVignette__MeshComplexityLevel;
 }
 namespace GlobalNamespace {
 class OVRVignette;
@@ -54,20 +53,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8974))
 // CS Name: OVRVignette::MeshComplexityLevel
-struct CORDL_TYPE ____GlobalNamespace__OVRVignette__MeshComplexityLevel : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__OVRVignette__MeshComplexityLevel : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__OVRVignette__MeshComplexityLevel(int32_t value__) noexcept;
+constexpr GlobalNamespace__OVRVignette__MeshComplexityLevel(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__OVRVignette__MeshComplexityLevel(____GlobalNamespace__OVRVignette__MeshComplexityLevel const&) = default;
-                    constexpr ____GlobalNamespace__OVRVignette__MeshComplexityLevel(____GlobalNamespace__OVRVignette__MeshComplexityLevel&&) = default;
-                    constexpr ____GlobalNamespace__OVRVignette__MeshComplexityLevel& operator=(____GlobalNamespace__OVRVignette__MeshComplexityLevel const& o) {
+                    constexpr GlobalNamespace__OVRVignette__MeshComplexityLevel(GlobalNamespace__OVRVignette__MeshComplexityLevel const&) = default;
+                    constexpr GlobalNamespace__OVRVignette__MeshComplexityLevel(GlobalNamespace__OVRVignette__MeshComplexityLevel&&) = default;
+                    constexpr GlobalNamespace__OVRVignette__MeshComplexityLevel& operator=(GlobalNamespace__OVRVignette__MeshComplexityLevel const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__OVRVignette__MeshComplexityLevel& operator=(____GlobalNamespace__OVRVignette__MeshComplexityLevel&& o) noexcept {
+                    constexpr GlobalNamespace__OVRVignette__MeshComplexityLevel& operator=(GlobalNamespace__OVRVignette__MeshComplexityLevel&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -80,7 +79,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVRVignette__MeshComplexityLevel(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__OVRVignette__MeshComplexityLevel(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -88,7 +87,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__OVRVignette__MeshComplexityLevel_Unwrapped : int32_t {
+enum class __GlobalNamespace__OVRVignette__MeshComplexityLevel_Unwrapped : int32_t {
 __VerySimple = 0,
 __Simple = 1,
 __Normal = 2,
@@ -97,8 +96,8 @@ __VeryDetailed = 4,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__OVRVignette__MeshComplexityLevel_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__OVRVignette__MeshComplexityLevel_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__OVRVignette__MeshComplexityLevel_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__OVRVignette__MeshComplexityLevel_Unwrapped>(__instance);
 }
 
 
@@ -111,19 +110,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field VerySimple offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRVignette__MeshComplexityLevel const VerySimple;
+static GlobalNamespace::GlobalNamespace__OVRVignette__MeshComplexityLevel const VerySimple;
 
 /// @brief Field Simple offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRVignette__MeshComplexityLevel const Simple;
+static GlobalNamespace::GlobalNamespace__OVRVignette__MeshComplexityLevel const Simple;
 
 /// @brief Field Normal offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRVignette__MeshComplexityLevel const Normal;
+static GlobalNamespace::GlobalNamespace__OVRVignette__MeshComplexityLevel const Normal;
 
 /// @brief Field Detailed offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRVignette__MeshComplexityLevel const Detailed;
+static GlobalNamespace::GlobalNamespace__OVRVignette__MeshComplexityLevel const Detailed;
 
 /// @brief Field VeryDetailed offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRVignette__MeshComplexityLevel const VeryDetailed;
+static GlobalNamespace::GlobalNamespace__OVRVignette__MeshComplexityLevel const VeryDetailed;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -135,20 +134,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8975))
 // CS Name: OVRVignette::FalloffType
-struct CORDL_TYPE ____GlobalNamespace__OVRVignette__FalloffType : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__OVRVignette__FalloffType : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__OVRVignette__FalloffType(int32_t value__) noexcept;
+constexpr GlobalNamespace__OVRVignette__FalloffType(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__OVRVignette__FalloffType(____GlobalNamespace__OVRVignette__FalloffType const&) = default;
-                    constexpr ____GlobalNamespace__OVRVignette__FalloffType(____GlobalNamespace__OVRVignette__FalloffType&&) = default;
-                    constexpr ____GlobalNamespace__OVRVignette__FalloffType& operator=(____GlobalNamespace__OVRVignette__FalloffType const& o) {
+                    constexpr GlobalNamespace__OVRVignette__FalloffType(GlobalNamespace__OVRVignette__FalloffType const&) = default;
+                    constexpr GlobalNamespace__OVRVignette__FalloffType(GlobalNamespace__OVRVignette__FalloffType&&) = default;
+                    constexpr GlobalNamespace__OVRVignette__FalloffType& operator=(GlobalNamespace__OVRVignette__FalloffType const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__OVRVignette__FalloffType& operator=(____GlobalNamespace__OVRVignette__FalloffType&& o) noexcept {
+                    constexpr GlobalNamespace__OVRVignette__FalloffType& operator=(GlobalNamespace__OVRVignette__FalloffType&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -161,7 +160,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVRVignette__FalloffType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__OVRVignette__FalloffType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -169,14 +168,14 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__OVRVignette__FalloffType_Unwrapped : int32_t {
+enum class __GlobalNamespace__OVRVignette__FalloffType_Unwrapped : int32_t {
 __Linear = 0,
 __Quadratic = 1,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__OVRVignette__FalloffType_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__OVRVignette__FalloffType_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__OVRVignette__FalloffType_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__OVRVignette__FalloffType_Unwrapped>(__instance);
 }
 
 
@@ -189,10 +188,10 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Linear offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRVignette__FalloffType const Linear;
+static GlobalNamespace::GlobalNamespace__OVRVignette__FalloffType const Linear;
 
 /// @brief Field Quadratic offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRVignette__FalloffType const Quadratic;
+static GlobalNamespace::GlobalNamespace__OVRVignette__FalloffType const Quadratic;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -204,12 +203,12 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8976))
 // CS Name: OVRVignette
-class CORDL_TYPE OVRVignette : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OVRVignette : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using FalloffType = ::GlobalNamespace::____GlobalNamespace__OVRVignette__FalloffType;
+using FalloffType = GlobalNamespace::GlobalNamespace__OVRVignette__FalloffType;
 
-using MeshComplexityLevel = ::GlobalNamespace::____GlobalNamespace__OVRVignette__MeshComplexityLevel;
+using MeshComplexityLevel = GlobalNamespace::GlobalNamespace__OVRVignette__MeshComplexityLevel;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xc0};
@@ -223,7 +222,7 @@ constexpr OVRVignette(OVRVignette const& ) noexcept = default;
 constexpr OVRVignette(OVRVignette&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OVRVignette(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OVRVignette(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -250,23 +249,23 @@ static void __set_QUADRATIC_FALLOFF(::StringW value) ;
 
 static ::StringW __get_QUADRATIC_FALLOFF() ;
 
- ::UnityEngine::Shader __declspec(property(get=__get_VignetteShader, put=__set_VignetteShader))  VignetteShader;
+ UnityEngine::Shader __declspec(property(get=__get_VignetteShader, put=__set_VignetteShader))  VignetteShader;
 
-constexpr void __set_VignetteShader(::UnityEngine::Shader value) ;
+constexpr void __set_VignetteShader(UnityEngine::Shader value) ;
 
-constexpr ::UnityEngine::Shader __get_VignetteShader() const;
+constexpr UnityEngine::Shader __get_VignetteShader() const;
 
- ::GlobalNamespace::____GlobalNamespace__OVRVignette__MeshComplexityLevel __declspec(property(get=__get_MeshComplexity, put=__set_MeshComplexity))  MeshComplexity;
+ GlobalNamespace::GlobalNamespace__OVRVignette__MeshComplexityLevel __declspec(property(get=__get_MeshComplexity, put=__set_MeshComplexity))  MeshComplexity;
 
-constexpr void __set_MeshComplexity(::GlobalNamespace::____GlobalNamespace__OVRVignette__MeshComplexityLevel value) ;
+constexpr void __set_MeshComplexity(GlobalNamespace::GlobalNamespace__OVRVignette__MeshComplexityLevel value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVRVignette__MeshComplexityLevel __get_MeshComplexity() const;
+constexpr GlobalNamespace::GlobalNamespace__OVRVignette__MeshComplexityLevel __get_MeshComplexity() const;
 
- ::GlobalNamespace::____GlobalNamespace__OVRVignette__FalloffType __declspec(property(get=__get_Falloff, put=__set_Falloff))  Falloff;
+ GlobalNamespace::GlobalNamespace__OVRVignette__FalloffType __declspec(property(get=__get_Falloff, put=__set_Falloff))  Falloff;
 
-constexpr void __set_Falloff(::GlobalNamespace::____GlobalNamespace__OVRVignette__FalloffType value) ;
+constexpr void __set_Falloff(GlobalNamespace::GlobalNamespace__OVRVignette__FalloffType value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVRVignette__FalloffType __get_Falloff() const;
+constexpr GlobalNamespace::GlobalNamespace__OVRVignette__FalloffType __get_Falloff() const;
 
  float_t __declspec(property(get=__get_VignetteFieldOfView, put=__set_VignetteFieldOfView))  VignetteFieldOfView;
 
@@ -286,65 +285,65 @@ constexpr void __set_VignetteFalloffDegrees(float_t value) ;
 
 constexpr float_t __get_VignetteFalloffDegrees() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_VignetteColor, put=__set_VignetteColor))  VignetteColor;
+ UnityEngine::Color __declspec(property(get=__get_VignetteColor, put=__set_VignetteColor))  VignetteColor;
 
-constexpr void __set_VignetteColor(::UnityEngine::Color value) ;
+constexpr void __set_VignetteColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_VignetteColor() const;
+constexpr UnityEngine::Color __get_VignetteColor() const;
 
- ::UnityEngine::Camera __declspec(property(get=__get__Camera, put=__set__Camera))  _Camera;
+ UnityEngine::Camera __declspec(property(get=__get__Camera, put=__set__Camera))  _Camera;
 
-constexpr void __set__Camera(::UnityEngine::Camera value) ;
+constexpr void __set__Camera(UnityEngine::Camera value) ;
 
-constexpr ::UnityEngine::Camera __get__Camera() const;
+constexpr UnityEngine::Camera __get__Camera() const;
 
- ::UnityEngine::MeshFilter __declspec(property(get=__get__OpaqueMeshFilter, put=__set__OpaqueMeshFilter))  _OpaqueMeshFilter;
+ UnityEngine::MeshFilter __declspec(property(get=__get__OpaqueMeshFilter, put=__set__OpaqueMeshFilter))  _OpaqueMeshFilter;
 
-constexpr void __set__OpaqueMeshFilter(::UnityEngine::MeshFilter value) ;
+constexpr void __set__OpaqueMeshFilter(UnityEngine::MeshFilter value) ;
 
-constexpr ::UnityEngine::MeshFilter __get__OpaqueMeshFilter() const;
+constexpr UnityEngine::MeshFilter __get__OpaqueMeshFilter() const;
 
- ::UnityEngine::MeshFilter __declspec(property(get=__get__TransparentMeshFilter, put=__set__TransparentMeshFilter))  _TransparentMeshFilter;
+ UnityEngine::MeshFilter __declspec(property(get=__get__TransparentMeshFilter, put=__set__TransparentMeshFilter))  _TransparentMeshFilter;
 
-constexpr void __set__TransparentMeshFilter(::UnityEngine::MeshFilter value) ;
+constexpr void __set__TransparentMeshFilter(UnityEngine::MeshFilter value) ;
 
-constexpr ::UnityEngine::MeshFilter __get__TransparentMeshFilter() const;
+constexpr UnityEngine::MeshFilter __get__TransparentMeshFilter() const;
 
- ::UnityEngine::MeshRenderer __declspec(property(get=__get__OpaqueMeshRenderer, put=__set__OpaqueMeshRenderer))  _OpaqueMeshRenderer;
+ UnityEngine::MeshRenderer __declspec(property(get=__get__OpaqueMeshRenderer, put=__set__OpaqueMeshRenderer))  _OpaqueMeshRenderer;
 
-constexpr void __set__OpaqueMeshRenderer(::UnityEngine::MeshRenderer value) ;
+constexpr void __set__OpaqueMeshRenderer(UnityEngine::MeshRenderer value) ;
 
-constexpr ::UnityEngine::MeshRenderer __get__OpaqueMeshRenderer() const;
+constexpr UnityEngine::MeshRenderer __get__OpaqueMeshRenderer() const;
 
- ::UnityEngine::MeshRenderer __declspec(property(get=__get__TransparentMeshRenderer, put=__set__TransparentMeshRenderer))  _TransparentMeshRenderer;
+ UnityEngine::MeshRenderer __declspec(property(get=__get__TransparentMeshRenderer, put=__set__TransparentMeshRenderer))  _TransparentMeshRenderer;
 
-constexpr void __set__TransparentMeshRenderer(::UnityEngine::MeshRenderer value) ;
+constexpr void __set__TransparentMeshRenderer(UnityEngine::MeshRenderer value) ;
 
-constexpr ::UnityEngine::MeshRenderer __get__TransparentMeshRenderer() const;
+constexpr UnityEngine::MeshRenderer __get__TransparentMeshRenderer() const;
 
- ::UnityEngine::Mesh __declspec(property(get=__get__OpaqueMesh, put=__set__OpaqueMesh))  _OpaqueMesh;
+ UnityEngine::Mesh __declspec(property(get=__get__OpaqueMesh, put=__set__OpaqueMesh))  _OpaqueMesh;
 
-constexpr void __set__OpaqueMesh(::UnityEngine::Mesh value) ;
+constexpr void __set__OpaqueMesh(UnityEngine::Mesh value) ;
 
-constexpr ::UnityEngine::Mesh __get__OpaqueMesh() const;
+constexpr UnityEngine::Mesh __get__OpaqueMesh() const;
 
- ::UnityEngine::Mesh __declspec(property(get=__get__TransparentMesh, put=__set__TransparentMesh))  _TransparentMesh;
+ UnityEngine::Mesh __declspec(property(get=__get__TransparentMesh, put=__set__TransparentMesh))  _TransparentMesh;
 
-constexpr void __set__TransparentMesh(::UnityEngine::Mesh value) ;
+constexpr void __set__TransparentMesh(UnityEngine::Mesh value) ;
 
-constexpr ::UnityEngine::Mesh __get__TransparentMesh() const;
+constexpr UnityEngine::Mesh __get__TransparentMesh() const;
 
- ::UnityEngine::Material __declspec(property(get=__get__OpaqueMaterial, put=__set__OpaqueMaterial))  _OpaqueMaterial;
+ UnityEngine::Material __declspec(property(get=__get__OpaqueMaterial, put=__set__OpaqueMaterial))  _OpaqueMaterial;
 
-constexpr void __set__OpaqueMaterial(::UnityEngine::Material value) ;
+constexpr void __set__OpaqueMaterial(UnityEngine::Material value) ;
 
-constexpr ::UnityEngine::Material __get__OpaqueMaterial() const;
+constexpr UnityEngine::Material __get__OpaqueMaterial() const;
 
- ::UnityEngine::Material __declspec(property(get=__get__TransparentMaterial, put=__set__TransparentMaterial))  _TransparentMaterial;
+ UnityEngine::Material __declspec(property(get=__get__TransparentMaterial, put=__set__TransparentMaterial))  _TransparentMaterial;
 
-constexpr void __set__TransparentMaterial(::UnityEngine::Material value) ;
+constexpr void __set__TransparentMaterial(UnityEngine::Material value) ;
 
-constexpr ::UnityEngine::Material __get__TransparentMaterial() const;
+constexpr UnityEngine::Material __get__TransparentMaterial() const;
 
  int32_t __declspec(property(get=__get__ShaderScaleAndOffset0Property, put=__set__ShaderScaleAndOffset0Property))  _ShaderScaleAndOffset0Property;
 
@@ -358,29 +357,29 @@ constexpr void __set__ShaderScaleAndOffset1Property(int32_t value) ;
 
 constexpr int32_t __get__ShaderScaleAndOffset1Property() const;
 
- ::ArrayW<::UnityEngine::Vector4> __declspec(property(get=__get__TransparentScaleAndOffset0, put=__set__TransparentScaleAndOffset0))  _TransparentScaleAndOffset0;
+ ::ArrayW<UnityEngine::Vector4> __declspec(property(get=__get__TransparentScaleAndOffset0, put=__set__TransparentScaleAndOffset0))  _TransparentScaleAndOffset0;
 
-constexpr void __set__TransparentScaleAndOffset0(::ArrayW<::UnityEngine::Vector4> value) ;
+constexpr void __set__TransparentScaleAndOffset0(::ArrayW<UnityEngine::Vector4> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector4> __get__TransparentScaleAndOffset0() const;
+constexpr ::ArrayW<UnityEngine::Vector4> __get__TransparentScaleAndOffset0() const;
 
- ::ArrayW<::UnityEngine::Vector4> __declspec(property(get=__get__TransparentScaleAndOffset1, put=__set__TransparentScaleAndOffset1))  _TransparentScaleAndOffset1;
+ ::ArrayW<UnityEngine::Vector4> __declspec(property(get=__get__TransparentScaleAndOffset1, put=__set__TransparentScaleAndOffset1))  _TransparentScaleAndOffset1;
 
-constexpr void __set__TransparentScaleAndOffset1(::ArrayW<::UnityEngine::Vector4> value) ;
+constexpr void __set__TransparentScaleAndOffset1(::ArrayW<UnityEngine::Vector4> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector4> __get__TransparentScaleAndOffset1() const;
+constexpr ::ArrayW<UnityEngine::Vector4> __get__TransparentScaleAndOffset1() const;
 
- ::ArrayW<::UnityEngine::Vector4> __declspec(property(get=__get__OpaqueScaleAndOffset0, put=__set__OpaqueScaleAndOffset0))  _OpaqueScaleAndOffset0;
+ ::ArrayW<UnityEngine::Vector4> __declspec(property(get=__get__OpaqueScaleAndOffset0, put=__set__OpaqueScaleAndOffset0))  _OpaqueScaleAndOffset0;
 
-constexpr void __set__OpaqueScaleAndOffset0(::ArrayW<::UnityEngine::Vector4> value) ;
+constexpr void __set__OpaqueScaleAndOffset0(::ArrayW<UnityEngine::Vector4> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector4> __get__OpaqueScaleAndOffset0() const;
+constexpr ::ArrayW<UnityEngine::Vector4> __get__OpaqueScaleAndOffset0() const;
 
- ::ArrayW<::UnityEngine::Vector4> __declspec(property(get=__get__OpaqueScaleAndOffset1, put=__set__OpaqueScaleAndOffset1))  _OpaqueScaleAndOffset1;
+ ::ArrayW<UnityEngine::Vector4> __declspec(property(get=__get__OpaqueScaleAndOffset1, put=__set__OpaqueScaleAndOffset1))  _OpaqueScaleAndOffset1;
 
-constexpr void __set__OpaqueScaleAndOffset1(::ArrayW<::UnityEngine::Vector4> value) ;
+constexpr void __set__OpaqueScaleAndOffset1(::ArrayW<UnityEngine::Vector4> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector4> __get__OpaqueScaleAndOffset1() const;
+constexpr ::ArrayW<UnityEngine::Vector4> __get__OpaqueScaleAndOffset1() const;
 
  bool __declspec(property(get=__get__OpaqueVignetteVisible, put=__set__OpaqueVignetteVisible))  _OpaqueVignetteVisible;
 
@@ -416,7 +415,7 @@ constexpr bool __get__TransparentVignetteVisible() const;
  void Awake() ;
 
 /// @brief Method GetTanFovAndOffsetForStereoEye addr 0x26388ac size 0x1f8 virtual false final false
- void GetTanFovAndOffsetForStereoEye(::UnityEngine::____UnityEngine__Camera__StereoscopicEye eye, ByRef<float_t> tanFovX, ByRef<float_t> tanFovY, ByRef<float_t> offsetX, ByRef<float_t> offsetY) ;
+ void GetTanFovAndOffsetForStereoEye(UnityEngine::UnityEngine__Camera__StereoscopicEye eye, ByRef<float_t> tanFovX, ByRef<float_t> tanFovY, ByRef<float_t> offsetX, ByRef<float_t> offsetY) ;
 
 /// @brief Method GetTanFovAndOffsetForMonoEye addr 0x2638aa4 size 0x8c virtual false final false
  void GetTanFovAndOffsetForMonoEye(ByRef<float_t> tanFovX, ByRef<float_t> tanFovY, ByRef<float_t> offsetX, ByRef<float_t> offsetY) ;
@@ -440,7 +439,7 @@ constexpr bool __get__TransparentVignetteVisible() const;
  void OnPostRender() ;
 
 /// @brief Method OnBeginCameraRendering addr 0x2638f14 size 0x8c virtual false final false
- void OnBeginCameraRendering(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera camera) ;
+ void OnBeginCameraRendering(UnityEngine::Rendering::ScriptableRenderContext context, UnityEngine::Camera camera) ;
 
 // Ctor Parameters []
 explicit OVRVignette() ;
@@ -452,8 +451,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVRVignette__FalloffType, "", "OVRVignette/FalloffType");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVRVignette__MeshComplexityLevel, "", "OVRVignette/MeshComplexityLevel");
-NEED_NO_BOX(::GlobalNamespace::OVRVignette);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRVignette, "", "OVRVignette");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRVignette__FalloffType, "", "OVRVignette/FalloffType");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRVignette__MeshComplexityLevel, "", "OVRVignette/MeshComplexityLevel");
+NEED_NO_BOX(GlobalNamespace::OVRVignette);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRVignette, "", "OVRVignette");

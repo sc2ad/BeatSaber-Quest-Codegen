@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 struct PseudoStates;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Active offset 0
-static ::UnityEngine::UIElements::PseudoStates const Active;
+static UnityEngine::UIElements::PseudoStates const Active;
 
 /// @brief Field Hover offset 0
-static ::UnityEngine::UIElements::PseudoStates const Hover;
+static UnityEngine::UIElements::PseudoStates const Hover;
 
 /// @brief Field Checked offset 0
-static ::UnityEngine::UIElements::PseudoStates const Checked;
+static UnityEngine::UIElements::PseudoStates const Checked;
 
 /// @brief Field Disabled offset 0
-static ::UnityEngine::UIElements::PseudoStates const Disabled;
+static UnityEngine::UIElements::PseudoStates const Disabled;
 
 /// @brief Field Focus offset 0
-static ::UnityEngine::UIElements::PseudoStates const Focus;
+static UnityEngine::UIElements::PseudoStates const Focus;
 
 /// @brief Field Root offset 0
-static ::UnityEngine::UIElements::PseudoStates const Root;
+static UnityEngine::UIElements::PseudoStates const Root;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::PseudoStates, "UnityEngine.UIElements", "PseudoStates");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::PseudoStates, "UnityEngine.UIElements", "PseudoStates");

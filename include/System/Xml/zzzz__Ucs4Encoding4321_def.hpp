@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Xml {
 class Ucs4Encoding4321;
@@ -15,7 +14,7 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11499))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11501))
 // CS Name: System.Xml.Ucs4Encoding4321
-class CORDL_TYPE Ucs4Encoding4321 : public ::System::Xml::Ucs4Encoding {
+class CORDL_TYPE Ucs4Encoding4321 : public System::Xml::Ucs4Encoding {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr Ucs4Encoding4321(Ucs4Encoding4321 const& ) noexcept = default;
 constexpr Ucs4Encoding4321(Ucs4Encoding4321&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Ucs4Encoding4321(void* ptr) noexcept : ::System::Xml::Ucs4Encoding(ptr) {
+constexpr explicit Ucs4Encoding4321(void* ptr) noexcept : System::Xml::Ucs4Encoding(ptr) {
 }
 
 
@@ -72,6 +71,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Ucs4Encoding4321);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Ucs4Encoding4321, "System.Xml", "Ucs4Encoding4321");
+NEED_NO_BOX(System::Xml::Ucs4Encoding4321);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Ucs4Encoding4321, "System.Xml", "Ucs4Encoding4321");

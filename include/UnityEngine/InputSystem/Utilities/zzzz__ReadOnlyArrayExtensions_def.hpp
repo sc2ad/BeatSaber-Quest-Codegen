@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine::InputSystem::Utilities {
 template<typename TValue>
 struct ReadOnlyArray_1;
@@ -59,24 +58,23 @@ constexpr explicit ReadOnlyArrayExtensions(void* ptr) noexcept : ::bs_hook::Il2C
 
 /// @brief Method Contains addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TValue>
-static bool Contains(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<TValue> array, TValue value) ;
+static bool Contains(UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<TValue> array, TValue value) ;
 
 /// @brief Method ContainsReference addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TValue>
-static bool ContainsReference(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<TValue> array, TValue value) ;
+static bool ContainsReference(UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<TValue> array, TValue value) ;
 
 /// @brief Method IndexOfReference addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TValue>
-static int32_t IndexOfReference(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<TValue> array, TValue value) ;
+static int32_t IndexOfReference(UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<TValue> array, TValue value) ;
 
 /// @brief Method HaveEqualReferences addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TValue>
-static bool HaveEqualReferences(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<TValue> array1, ::System::Collections::Generic::IReadOnlyList_1<TValue> array2, int32_t count) ;
+static bool HaveEqualReferences(UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<TValue> array1, System::Collections::Generic::IReadOnlyList_1<TValue> array2, int32_t count) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Utilities
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Utilities::ReadOnlyArrayExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Utilities::ReadOnlyArrayExtensions, "UnityEngine.InputSystem.Utilities", "ReadOnlyArrayExtensions");
+NEED_NO_BOX(UnityEngine::InputSystem::Utilities::ReadOnlyArrayExtensions);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Utilities::ReadOnlyArrayExtensions, "UnityEngine.InputSystem.Utilities", "ReadOnlyArrayExtensions");

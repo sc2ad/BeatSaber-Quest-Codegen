@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Security::Cryptography {
 class RSA;
 }
@@ -60,11 +59,11 @@ constexpr void __set_encrypted(bool value) ;
 
 constexpr bool __get_encrypted() const;
 
- ::System::Security::Cryptography::RSA __declspec(property(get=__get_rsa, put=__set_rsa))  rsa;
+ System::Security::Cryptography::RSA __declspec(property(get=__get_rsa, put=__set_rsa))  rsa;
 
-constexpr void __set_rsa(::System::Security::Cryptography::RSA value) ;
+constexpr void __set_rsa(System::Security::Cryptography::RSA value) ;
 
-constexpr ::System::Security::Cryptography::RSA __get_rsa() const;
+constexpr System::Security::Cryptography::RSA __get_rsa() const;
 
  bool __declspec(property(get=__get_weak, put=__set_weak))  weak;
 
@@ -81,7 +80,7 @@ constexpr int32_t __get_keyType() const;
 
 // Properties
 
- ::System::Security::Cryptography::RSA __declspec(property(get=get_RSA))  RSA;
+ System::Security::Cryptography::RSA __declspec(property(get=get_RSA))  RSA;
 
 
 // Methods
@@ -93,7 +92,7 @@ explicit PrivateKey(::ArrayW<uint8_t> data, ::StringW password) ;
  void _ctor(::ArrayW<uint8_t> data, ::StringW password) ;
 
 /// @brief Method get_RSA addr 0x229f79c size 0x8 virtual false final false
- ::System::Security::Cryptography::RSA get_RSA() ;
+ System::Security::Cryptography::RSA get_RSA() ;
 
 /// @brief Method DeriveKey addr 0x229f7a4 size 0x118 virtual false final false
  ::ArrayW<uint8_t> DeriveKey(::ArrayW<uint8_t> salt, ::StringW password) ;
@@ -102,15 +101,14 @@ explicit PrivateKey(::ArrayW<uint8_t> data, ::StringW password) ;
  bool Decode(::ArrayW<uint8_t> pvk, ::StringW password) ;
 
 /// @brief Method CreateFromFile addr 0x229f8bc size 0x8 virtual false final false
-static ::Mono::Security::Authenticode::PrivateKey CreateFromFile(::StringW filename) ;
+static Mono::Security::Authenticode::PrivateKey CreateFromFile(::StringW filename) ;
 
 /// @brief Method CreateFromFile addr 0x229f8c4 size 0x2bc virtual false final false
-static ::Mono::Security::Authenticode::PrivateKey CreateFromFile(::StringW filename, ::StringW password) ;
+static Mono::Security::Authenticode::PrivateKey CreateFromFile(::StringW filename, ::StringW password) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Security::Authenticode
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Security::Authenticode::PrivateKey);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Authenticode::PrivateKey, "Mono.Security.Authenticode", "PrivateKey");
+NEED_NO_BOX(Mono::Security::Authenticode::PrivateKey);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Authenticode::PrivateKey, "Mono.Security.Authenticode", "PrivateKey");

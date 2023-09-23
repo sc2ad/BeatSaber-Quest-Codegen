@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 // Forward declare root types
 namespace JetBrains::Annotations {
 class AspDataFieldAttribute;
@@ -12,7 +11,7 @@ namespace JetBrains::Annotations {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15738))
 // CS Name: JetBrains.Annotations.AspDataFieldAttribute
-class CORDL_TYPE AspDataFieldAttribute : public ::System::Attribute {
+class CORDL_TYPE AspDataFieldAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr AspDataFieldAttribute(AspDataFieldAttribute const& ) noexcept = defaul
 constexpr AspDataFieldAttribute(AspDataFieldAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AspDataFieldAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit AspDataFieldAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def JetBrains::Annotations
-} // end anonymous namespace
-NEED_NO_BOX(::JetBrains::Annotations::AspDataFieldAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::JetBrains::Annotations::AspDataFieldAttribute, "JetBrains.Annotations", "AspDataFieldAttribute");
+NEED_NO_BOX(JetBrains::Annotations::AspDataFieldAttribute);
+DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspDataFieldAttribute, "JetBrains.Annotations", "AspDataFieldAttribute");

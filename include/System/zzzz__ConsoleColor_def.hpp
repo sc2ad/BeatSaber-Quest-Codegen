@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 struct ConsoleColor;
@@ -81,56 +80,55 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Black offset 0
-static ::System::ConsoleColor const Black;
+static System::ConsoleColor const Black;
 
 /// @brief Field DarkBlue offset 0
-static ::System::ConsoleColor const DarkBlue;
+static System::ConsoleColor const DarkBlue;
 
 /// @brief Field DarkGreen offset 0
-static ::System::ConsoleColor const DarkGreen;
+static System::ConsoleColor const DarkGreen;
 
 /// @brief Field DarkCyan offset 0
-static ::System::ConsoleColor const DarkCyan;
+static System::ConsoleColor const DarkCyan;
 
 /// @brief Field DarkRed offset 0
-static ::System::ConsoleColor const DarkRed;
+static System::ConsoleColor const DarkRed;
 
 /// @brief Field DarkMagenta offset 0
-static ::System::ConsoleColor const DarkMagenta;
+static System::ConsoleColor const DarkMagenta;
 
 /// @brief Field DarkYellow offset 0
-static ::System::ConsoleColor const DarkYellow;
+static System::ConsoleColor const DarkYellow;
 
 /// @brief Field Gray offset 0
-static ::System::ConsoleColor const Gray;
+static System::ConsoleColor const Gray;
 
 /// @brief Field DarkGray offset 0
-static ::System::ConsoleColor const DarkGray;
+static System::ConsoleColor const DarkGray;
 
 /// @brief Field Blue offset 0
-static ::System::ConsoleColor const Blue;
+static System::ConsoleColor const Blue;
 
 /// @brief Field Green offset 0
-static ::System::ConsoleColor const Green;
+static System::ConsoleColor const Green;
 
 /// @brief Field Cyan offset 0
-static ::System::ConsoleColor const Cyan;
+static System::ConsoleColor const Cyan;
 
 /// @brief Field Red offset 0
-static ::System::ConsoleColor const Red;
+static System::ConsoleColor const Red;
 
 /// @brief Field Magenta offset 0
-static ::System::ConsoleColor const Magenta;
+static System::ConsoleColor const Magenta;
 
 /// @brief Field Yellow offset 0
-static ::System::ConsoleColor const Yellow;
+static System::ConsoleColor const Yellow;
 
 /// @brief Field White offset 0
-static ::System::ConsoleColor const White;
+static System::ConsoleColor const White;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::ConsoleColor, "System", "ConsoleColor");
+DEFINE_IL2CPP_ARG_TYPE(System::ConsoleColor, "System", "ConsoleColor");

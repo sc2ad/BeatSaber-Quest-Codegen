@@ -6,7 +6,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
+namespace System::Text {
+class StringBuilder;
+}
 namespace System::Globalization {
 struct UnicodeCategory;
 }
@@ -14,15 +16,12 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace System::Globalization {
+class CultureInfo;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace System::Globalization {
-class CultureInfo;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -33,13 +32,13 @@ namespace System::Text::RegularExpressions {
 class RegexCharClass;
 }
 namespace System::Text::RegularExpressions {
-class ____System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer;
+class System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer;
 }
 namespace System::Text::RegularExpressions {
-struct ____System__Text__RegularExpressions__RegexCharClass__LowerCaseMapping;
+struct System__Text__RegularExpressions__RegexCharClass__LowerCaseMapping;
 }
 namespace System::Text::RegularExpressions {
-struct ____System__Text__RegularExpressions__RegexCharClass__SingleRange;
+struct System__Text__RegularExpressions__RegexCharClass__SingleRange;
 }
 // Type: ::LowerCaseMapping
 namespace System::Text::RegularExpressions {
@@ -47,20 +46,20 @@ namespace System::Text::RegularExpressions {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7766))
 // CS Name: System.Text.RegularExpressions.RegexCharClass::LowerCaseMapping
-struct CORDL_TYPE ____System__Text__RegularExpressions__RegexCharClass__LowerCaseMapping : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE System__Text__RegularExpressions__RegexCharClass__LowerCaseMapping : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "ChMin", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "ChMax", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "LcOp", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Data", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____System__Text__RegularExpressions__RegexCharClass__LowerCaseMapping(char16_t ChMin, char16_t ChMax, int32_t LcOp, int32_t Data) noexcept;
+constexpr System__Text__RegularExpressions__RegexCharClass__LowerCaseMapping(char16_t ChMin, char16_t ChMax, int32_t LcOp, int32_t Data) noexcept;
 
 
-                    constexpr ____System__Text__RegularExpressions__RegexCharClass__LowerCaseMapping(____System__Text__RegularExpressions__RegexCharClass__LowerCaseMapping const&) = default;
-                    constexpr ____System__Text__RegularExpressions__RegexCharClass__LowerCaseMapping(____System__Text__RegularExpressions__RegexCharClass__LowerCaseMapping&&) = default;
-                    constexpr ____System__Text__RegularExpressions__RegexCharClass__LowerCaseMapping& operator=(____System__Text__RegularExpressions__RegexCharClass__LowerCaseMapping const& o) {
+                    constexpr System__Text__RegularExpressions__RegexCharClass__LowerCaseMapping(System__Text__RegularExpressions__RegexCharClass__LowerCaseMapping const&) = default;
+                    constexpr System__Text__RegularExpressions__RegexCharClass__LowerCaseMapping(System__Text__RegularExpressions__RegexCharClass__LowerCaseMapping&&) = default;
+                    constexpr System__Text__RegularExpressions__RegexCharClass__LowerCaseMapping& operator=(System__Text__RegularExpressions__RegexCharClass__LowerCaseMapping const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Text__RegularExpressions__RegexCharClass__LowerCaseMapping& operator=(____System__Text__RegularExpressions__RegexCharClass__LowerCaseMapping&& o) noexcept {
+                    constexpr System__Text__RegularExpressions__RegexCharClass__LowerCaseMapping& operator=(System__Text__RegularExpressions__RegexCharClass__LowerCaseMapping&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -73,7 +72,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0xc};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Text__RegularExpressions__RegexCharClass__LowerCaseMapping(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Text__RegularExpressions__RegexCharClass__LowerCaseMapping(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -124,62 +123,62 @@ namespace System::Text::RegularExpressions {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7767))
 // CS Name: System.Text.RegularExpressions.RegexCharClass::SingleRangeComparer
-class CORDL_TYPE ____System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IComparer_1<::System::Text::RegularExpressions::____System__Text__RegularExpressions__RegexCharClass__SingleRange>
-constexpr operator  ::System::Collections::Generic::IComparer_1<::System::Text::RegularExpressions::____System__Text__RegularExpressions__RegexCharClass__SingleRange>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IComparer_1<System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRange>
+constexpr operator  System::Collections::Generic::IComparer_1<System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRange>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer() = default;
+virtual ~System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer", modifiers: " const&", def_value: None }]
-constexpr ____System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer(____System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer", modifiers: " const&", def_value: None }]
+constexpr System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer(System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer", modifiers: "&&", def_value: None }]
-constexpr ____System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer(____System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer", modifiers: "&&", def_value: None }]
+constexpr System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer(System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer& operator=(std::nullptr_t) noexcept {
+  constexpr System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer& operator=(void* o) noexcept {
+  constexpr System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer& operator=(____System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer&& o) noexcept = default;
-  constexpr ____System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer& operator=(____System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer const& o) noexcept = default;
+  constexpr System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer& operator=(System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer&& o) noexcept = default;
+  constexpr System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer& operator=(System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer const& o) noexcept = default;
                 
 
 
 // Fields
 
-static ::System::Text::RegularExpressions::____System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer __declspec(property(get=__get_Instance, put=__set_Instance))  Instance;
+static System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer __declspec(property(get=__get_Instance, put=__set_Instance))  Instance;
 
-static void __set_Instance(::System::Text::RegularExpressions::____System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer value) ;
+static void __set_Instance(System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer value) ;
 
-static ::System::Text::RegularExpressions::____System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer __get_Instance() ;
+static System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer __get_Instance() ;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer() ;
+explicit System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer() ;
 
 /// @brief Method .ctor addr 0x27cb98c size 0x8 virtual false final false
  void _ctor() ;
 
 /// @brief Method Compare addr 0x27cb994 size 0x20 virtual true final true
- int32_t Compare(::System::Text::RegularExpressions::____System__Text__RegularExpressions__RegexCharClass__SingleRange x, ::System::Text::RegularExpressions::____System__Text__RegularExpressions__RegexCharClass__SingleRange y) ;
+ int32_t Compare(System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRange x, System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRange y) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -191,20 +190,20 @@ namespace System::Text::RegularExpressions {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7768))
 // CS Name: System.Text.RegularExpressions.RegexCharClass::SingleRange
-struct CORDL_TYPE ____System__Text__RegularExpressions__RegexCharClass__SingleRange : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE System__Text__RegularExpressions__RegexCharClass__SingleRange : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "First", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "Last", ty: "char16_t", modifiers: "", def_value: None }]
-constexpr ____System__Text__RegularExpressions__RegexCharClass__SingleRange(char16_t First, char16_t Last) noexcept;
+constexpr System__Text__RegularExpressions__RegexCharClass__SingleRange(char16_t First, char16_t Last) noexcept;
 
 
-                    constexpr ____System__Text__RegularExpressions__RegexCharClass__SingleRange(____System__Text__RegularExpressions__RegexCharClass__SingleRange const&) = default;
-                    constexpr ____System__Text__RegularExpressions__RegexCharClass__SingleRange(____System__Text__RegularExpressions__RegexCharClass__SingleRange&&) = default;
-                    constexpr ____System__Text__RegularExpressions__RegexCharClass__SingleRange& operator=(____System__Text__RegularExpressions__RegexCharClass__SingleRange const& o) {
+                    constexpr System__Text__RegularExpressions__RegexCharClass__SingleRange(System__Text__RegularExpressions__RegexCharClass__SingleRange const&) = default;
+                    constexpr System__Text__RegularExpressions__RegexCharClass__SingleRange(System__Text__RegularExpressions__RegexCharClass__SingleRange&&) = default;
+                    constexpr System__Text__RegularExpressions__RegexCharClass__SingleRange& operator=(System__Text__RegularExpressions__RegexCharClass__SingleRange const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Text__RegularExpressions__RegexCharClass__SingleRange& operator=(____System__Text__RegularExpressions__RegexCharClass__SingleRange&& o) noexcept {
+                    constexpr System__Text__RegularExpressions__RegexCharClass__SingleRange& operator=(System__Text__RegularExpressions__RegexCharClass__SingleRange&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -217,7 +216,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Text__RegularExpressions__RegexCharClass__SingleRange(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Text__RegularExpressions__RegexCharClass__SingleRange(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -259,11 +258,11 @@ namespace System::Text::RegularExpressions {
 class CORDL_TYPE RegexCharClass : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using SingleRange = ::System::Text::RegularExpressions::____System__Text__RegularExpressions__RegexCharClass__SingleRange;
+using SingleRange = System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRange;
 
-using SingleRangeComparer = ::System::Text::RegularExpressions::____System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer;
+using SingleRangeComparer = System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer;
 
-using LowerCaseMapping = ::System::Text::RegularExpressions::____System__Text__RegularExpressions__RegexCharClass__LowerCaseMapping;
+using LowerCaseMapping = System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__LowerCaseMapping;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -364,11 +363,11 @@ static void __set_NotDigitClass(::StringW value) ;
 
 static ::StringW __get_NotDigitClass() ;
 
-static ::System::Collections::Generic::Dictionary_2<::StringW,::StringW> __declspec(property(get=__get_s_definedCategories, put=__set_s_definedCategories))  s_definedCategories;
+static System::Collections::Generic::Dictionary_2<::StringW,::StringW> __declspec(property(get=__get_s_definedCategories, put=__set_s_definedCategories))  s_definedCategories;
 
-static void __set_s_definedCategories(::System::Collections::Generic::Dictionary_2<::StringW,::StringW> value) ;
+static void __set_s_definedCategories(System::Collections::Generic::Dictionary_2<::StringW,::StringW> value) ;
 
-static ::System::Collections::Generic::Dictionary_2<::StringW,::StringW> __get_s_definedCategories() ;
+static System::Collections::Generic::Dictionary_2<::StringW,::StringW> __get_s_definedCategories() ;
 
 static ::ArrayW<::ArrayW<::StringW>> __declspec(property(get=__get_s_propTable, put=__set_s_propTable))  s_propTable;
 
@@ -376,23 +375,23 @@ static void __set_s_propTable(::ArrayW<::ArrayW<::StringW>> value) ;
 
 static ::ArrayW<::ArrayW<::StringW>> __get_s_propTable() ;
 
-static ::ArrayW<::System::Text::RegularExpressions::____System__Text__RegularExpressions__RegexCharClass__LowerCaseMapping> __declspec(property(get=__get_s_lcTable, put=__set_s_lcTable))  s_lcTable;
+static ::ArrayW<System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__LowerCaseMapping> __declspec(property(get=__get_s_lcTable, put=__set_s_lcTable))  s_lcTable;
 
-static void __set_s_lcTable(::ArrayW<::System::Text::RegularExpressions::____System__Text__RegularExpressions__RegexCharClass__LowerCaseMapping> value) ;
+static void __set_s_lcTable(::ArrayW<System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__LowerCaseMapping> value) ;
 
-static ::ArrayW<::System::Text::RegularExpressions::____System__Text__RegularExpressions__RegexCharClass__LowerCaseMapping> __get_s_lcTable() ;
+static ::ArrayW<System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__LowerCaseMapping> __get_s_lcTable() ;
 
- ::System::Collections::Generic::List_1<::System::Text::RegularExpressions::____System__Text__RegularExpressions__RegexCharClass__SingleRange> __declspec(property(get=__get__rangelist, put=__set__rangelist))  _rangelist;
+ System::Collections::Generic::List_1<System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRange> __declspec(property(get=__get__rangelist, put=__set__rangelist))  _rangelist;
 
-constexpr void __set__rangelist(::System::Collections::Generic::List_1<::System::Text::RegularExpressions::____System__Text__RegularExpressions__RegexCharClass__SingleRange> value) ;
+constexpr void __set__rangelist(System::Collections::Generic::List_1<System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRange> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::System::Text::RegularExpressions::____System__Text__RegularExpressions__RegexCharClass__SingleRange> __get__rangelist() const;
+constexpr System::Collections::Generic::List_1<System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRange> __get__rangelist() const;
 
- ::System::Text::StringBuilder __declspec(property(get=__get__categories, put=__set__categories))  _categories;
+ System::Text::StringBuilder __declspec(property(get=__get__categories, put=__set__categories))  _categories;
 
-constexpr void __set__categories(::System::Text::StringBuilder value) ;
+constexpr void __set__categories(System::Text::StringBuilder value) ;
 
-constexpr ::System::Text::StringBuilder __get__categories() const;
+constexpr System::Text::StringBuilder __get__categories() const;
 
  bool __declspec(property(get=__get__canonical, put=__set__canonical))  _canonical;
 
@@ -406,11 +405,11 @@ constexpr void __set__negate(bool value) ;
 
 constexpr bool __get__negate() const;
 
- ::System::Text::RegularExpressions::RegexCharClass __declspec(property(get=__get__subtractor, put=__set__subtractor))  _subtractor;
+ System::Text::RegularExpressions::RegexCharClass __declspec(property(get=__get__subtractor, put=__set__subtractor))  _subtractor;
 
-constexpr void __set__subtractor(::System::Text::RegularExpressions::RegexCharClass value) ;
+constexpr void __set__subtractor(System::Text::RegularExpressions::RegexCharClass value) ;
 
-constexpr ::System::Text::RegularExpressions::RegexCharClass __get__subtractor() const;
+constexpr System::Text::RegularExpressions::RegexCharClass __get__subtractor() const;
 
 
 // Properties
@@ -428,11 +427,11 @@ explicit RegexCharClass() ;
 /// @brief Method .ctor addr 0x27c24d0 size 0xbc virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "negate", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "ranges", ty: "::System::Collections::Generic::List_1<::System::Text::RegularExpressions::____System__Text__RegularExpressions__RegexCharClass__SingleRange>", modifiers: "", def_value: None }, CppParam { name: "categories", ty: "::System::Text::StringBuilder", modifiers: "", def_value: None }, CppParam { name: "subtraction", ty: "::System::Text::RegularExpressions::RegexCharClass", modifiers: "", def_value: None }]
-explicit RegexCharClass(bool negate, ::System::Collections::Generic::List_1<::System::Text::RegularExpressions::____System__Text__RegularExpressions__RegexCharClass__SingleRange> ranges, ::System::Text::StringBuilder categories, ::System::Text::RegularExpressions::RegexCharClass subtraction) ;
+// Ctor Parameters [CppParam { name: "negate", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "ranges", ty: "System::Collections::Generic::List_1<System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRange>", modifiers: "", def_value: None }, CppParam { name: "categories", ty: "System::Text::StringBuilder", modifiers: "", def_value: None }, CppParam { name: "subtraction", ty: "System::Text::RegularExpressions::RegexCharClass", modifiers: "", def_value: None }]
+explicit RegexCharClass(bool negate, System::Collections::Generic::List_1<System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRange> ranges, System::Text::StringBuilder categories, System::Text::RegularExpressions::RegexCharClass subtraction) ;
 
 /// @brief Method .ctor addr 0x27c258c size 0x4c virtual false final false
- void _ctor(bool negate, ::System::Collections::Generic::List_1<::System::Text::RegularExpressions::____System__Text__RegularExpressions__RegexCharClass__SingleRange> ranges, ::System::Text::StringBuilder categories, ::System::Text::RegularExpressions::RegexCharClass subtraction) ;
+ void _ctor(bool negate, System::Collections::Generic::List_1<System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRange> ranges, System::Text::StringBuilder categories, System::Text::RegularExpressions::RegexCharClass subtraction) ;
 
 /// @brief Method get_CanMerge addr 0x27c25d8 size 0x20 virtual false final false
  bool get_CanMerge() ;
@@ -444,13 +443,13 @@ explicit RegexCharClass(bool negate, ::System::Collections::Generic::List_1<::Sy
  void AddChar(char16_t c) ;
 
 /// @brief Method AddCharClass addr 0x27c272c size 0x174 virtual false final false
- void AddCharClass(::System::Text::RegularExpressions::RegexCharClass cc) ;
+ void AddCharClass(System::Text::RegularExpressions::RegexCharClass cc) ;
 
 /// @brief Method AddSet addr 0x27c2948 size 0x22c virtual false final false
  void AddSet(::StringW set) ;
 
 /// @brief Method AddSubtraction addr 0x27c2b74 size 0x8 virtual false final false
- void AddSubtraction(::System::Text::RegularExpressions::RegexCharClass sub) ;
+ void AddSubtraction(System::Text::RegularExpressions::RegexCharClass sub) ;
 
 /// @brief Method AddRange addr 0x27c260c size 0x120 virtual false final false
  void AddRange(char16_t first, char16_t last) ;
@@ -462,10 +461,10 @@ explicit RegexCharClass(bool negate, ::System::Collections::Generic::List_1<::Sy
  void AddCategory(::StringW category) ;
 
 /// @brief Method AddLowercase addr 0x27c3094 size 0x13c virtual false final false
- void AddLowercase(::System::Globalization::CultureInfo culture) ;
+ void AddLowercase(System::Globalization::CultureInfo culture) ;
 
 /// @brief Method AddLowercaseRange addr 0x27c31d0 size 0x230 virtual false final false
- void AddLowercaseRange(char16_t chMin, char16_t chMax, ::System::Globalization::CultureInfo culture) ;
+ void AddLowercaseRange(char16_t chMin, char16_t chMax, System::Globalization::CultureInfo culture) ;
 
 /// @brief Method AddWord addr 0x27c3400 size 0xf4 virtual false final false
  void AddWord(bool ecma, bool negate) ;
@@ -516,16 +515,16 @@ static bool CharInClassInternal(char16_t ch, ::StringW set, int32_t start, int32
 static bool CharInCategory(char16_t ch, ::StringW set, int32_t start, int32_t mySetLength, int32_t myCategoryLength) ;
 
 /// @brief Method CharInCategoryGroup addr 0x27c3fc0 size 0xd0 virtual false final false
-static bool CharInCategoryGroup(char16_t ch, ::System::Globalization::UnicodeCategory chcategory, ::StringW category, ByRef<int32_t> i) ;
+static bool CharInCategoryGroup(char16_t ch, System::Globalization::UnicodeCategory chcategory, ::StringW category, ByRef<int32_t> i) ;
 
 /// @brief Method NegateCategory addr 0x27c2d8c size 0x88 virtual false final false
 static ::StringW NegateCategory(::StringW category) ;
 
 /// @brief Method Parse addr 0x27c4090 size 0x58 virtual false final false
-static ::System::Text::RegularExpressions::RegexCharClass Parse(::StringW charClass) ;
+static System::Text::RegularExpressions::RegexCharClass Parse(::StringW charClass) ;
 
 /// @brief Method ParseRecursive addr 0x27c40e8 size 0x288 virtual false final false
-static ::System::Text::RegularExpressions::RegexCharClass ParseRecursive(::StringW charClass, int32_t start) ;
+static System::Text::RegularExpressions::RegexCharClass ParseRecursive(::StringW charClass, int32_t start) ;
 
 /// @brief Method RangeCount addr 0x27c28a0 size 0x48 virtual false final false
  int32_t RangeCount() ;
@@ -534,7 +533,7 @@ static ::System::Text::RegularExpressions::RegexCharClass ParseRecursive(::Strin
  ::StringW ToStringClass() ;
 
 /// @brief Method GetRangeAt addr 0x27c28e8 size 0x60 virtual false final false
- ::System::Text::RegularExpressions::____System__Text__RegularExpressions__RegexCharClass__SingleRange GetRangeAt(int32_t i) ;
+ System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRange GetRangeAt(int32_t i) ;
 
 /// @brief Method Canonicalize addr 0x27c450c size 0x23c virtual false final false
  void Canonicalize() ;
@@ -546,10 +545,9 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Text::RegularExpressions
-} // end anonymous namespace
-NEED_NO_BOX(::System::Text::RegularExpressions::RegexCharClass);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::RegularExpressions::RegexCharClass, "System.Text.RegularExpressions", "RegexCharClass");
-NEED_NO_BOX(::System::Text::RegularExpressions::____System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::RegularExpressions::____System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer, "System.Text.RegularExpressions", "RegexCharClass/SingleRangeComparer");
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::RegularExpressions::____System__Text__RegularExpressions__RegexCharClass__LowerCaseMapping, "System.Text.RegularExpressions", "RegexCharClass/LowerCaseMapping");
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::RegularExpressions::____System__Text__RegularExpressions__RegexCharClass__SingleRange, "System.Text.RegularExpressions", "RegexCharClass/SingleRange");
+NEED_NO_BOX(System::Text::RegularExpressions::RegexCharClass);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCharClass, "System.Text.RegularExpressions", "RegexCharClass");
+NEED_NO_BOX(System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer, "System.Text.RegularExpressions", "RegexCharClass/SingleRangeComparer");
+DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__LowerCaseMapping, "System.Text.RegularExpressions", "RegexCharClass/LowerCaseMapping");
+DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRange, "System.Text.RegularExpressions", "RegexCharClass/SingleRange");

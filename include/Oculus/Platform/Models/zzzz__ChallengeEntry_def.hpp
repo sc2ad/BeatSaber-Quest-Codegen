@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 struct DateTime;
 }
@@ -87,17 +86,17 @@ constexpr void __set_Score(int64_t value) ;
 
 constexpr int64_t __get_Score() const;
 
- ::System::DateTime __declspec(property(get=__get_Timestamp, put=__set_Timestamp))  Timestamp;
+ System::DateTime __declspec(property(get=__get_Timestamp, put=__set_Timestamp))  Timestamp;
 
-constexpr void __set_Timestamp(::System::DateTime value) ;
+constexpr void __set_Timestamp(System::DateTime value) ;
 
-constexpr ::System::DateTime __get_Timestamp() const;
+constexpr System::DateTime __get_Timestamp() const;
 
- ::Oculus::Platform::Models::User __declspec(property(get=__get_User, put=__set_User))  User;
+ Oculus::Platform::Models::User __declspec(property(get=__get_User, put=__set_User))  User;
 
-constexpr void __set_User(::Oculus::Platform::Models::User value) ;
+constexpr void __set_User(Oculus::Platform::Models::User value) ;
 
-constexpr ::Oculus::Platform::Models::User __get_User() const;
+constexpr Oculus::Platform::Models::User __get_User() const;
 
 
 // Methods
@@ -112,6 +111,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::ChallengeEntry);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::ChallengeEntry, "Oculus.Platform.Models", "ChallengeEntry");
+NEED_NO_BOX(Oculus::Platform::Models::ChallengeEntry);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::ChallengeEntry, "Oculus.Platform.Models", "ChallengeEntry");

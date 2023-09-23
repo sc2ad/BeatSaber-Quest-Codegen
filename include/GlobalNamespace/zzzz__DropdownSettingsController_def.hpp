@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace HMUI {
+class SimpleTextDropdown;
+}
 namespace System {
 class Action;
 }
 namespace HMUI {
 class DropdownWithTableView;
-}
-namespace HMUI {
-class SimpleTextDropdown;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,7 +23,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5679))
 // CS Name: DropdownSettingsController
-class CORDL_TYPE DropdownSettingsController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE DropdownSettingsController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr DropdownSettingsController(DropdownSettingsController const& ) noexcep
 constexpr DropdownSettingsController(DropdownSettingsController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DropdownSettingsController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit DropdownSettingsController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -60,17 +59,17 @@ constexpr explicit DropdownSettingsController(void* ptr) noexcept : ::UnityEngin
 
 // Fields
 
- ::HMUI::SimpleTextDropdown __declspec(property(get=__get__dropdown, put=__set__dropdown))  _dropdown;
+ HMUI::SimpleTextDropdown __declspec(property(get=__get__dropdown, put=__set__dropdown))  _dropdown;
 
-constexpr void __set__dropdown(::HMUI::SimpleTextDropdown value) ;
+constexpr void __set__dropdown(HMUI::SimpleTextDropdown value) ;
 
-constexpr ::HMUI::SimpleTextDropdown __get__dropdown() const;
+constexpr HMUI::SimpleTextDropdown __get__dropdown() const;
 
- ::System::Action __declspec(property(get=__get_dropDownValueDidChangeEvent, put=__set_dropDownValueDidChangeEvent))  dropDownValueDidChangeEvent;
+ System::Action __declspec(property(get=__get_dropDownValueDidChangeEvent, put=__set_dropDownValueDidChangeEvent))  dropDownValueDidChangeEvent;
 
-constexpr void __set_dropDownValueDidChangeEvent(::System::Action value) ;
+constexpr void __set_dropDownValueDidChangeEvent(System::Action value) ;
 
-constexpr ::System::Action __get_dropDownValueDidChangeEvent() const;
+constexpr System::Action __get_dropDownValueDidChangeEvent() const;
 
  int32_t __declspec(property(get=__get__idx, put=__set__idx))  _idx;
 
@@ -88,10 +87,10 @@ constexpr int32_t __get__numberOfElements() const;
 // Methods
 
 /// @brief Method add_dropDownValueDidChangeEvent addr 0x2152468 size 0x9c virtual false final false
- void add_dropDownValueDidChangeEvent(::System::Action value) ;
+ void add_dropDownValueDidChangeEvent(System::Action value) ;
 
 /// @brief Method remove_dropDownValueDidChangeEvent addr 0x2152504 size 0x9c virtual false final false
- void remove_dropDownValueDidChangeEvent(::System::Action value) ;
+ void remove_dropDownValueDidChangeEvent(System::Action value) ;
 
 /// @brief Method GetInitValues addr 0x0 size 0xffffffffffffffff virtual true final false
  bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements) ;
@@ -109,7 +108,7 @@ constexpr int32_t __get__numberOfElements() const;
  void OnDisable() ;
 
 /// @brief Method HandleDropdownValueDidChange addr 0x215286c size 0x40 virtual false final false
- void HandleDropdownValueDidChange(::HMUI::DropdownWithTableView dropdownWithTableView, int32_t idx) ;
+ void HandleDropdownValueDidChange(HMUI::DropdownWithTableView dropdownWithTableView, int32_t idx) ;
 
 /// @brief Method RefreshUI addr 0x215265c size 0x140 virtual false final false
  void RefreshUI() ;
@@ -127,6 +126,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::DropdownSettingsController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DropdownSettingsController, "", "DropdownSettingsController");
+NEED_NO_BOX(GlobalNamespace::DropdownSettingsController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DropdownSettingsController, "", "DropdownSettingsController");

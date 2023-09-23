@@ -4,7 +4,6 @@
 #include "UnityEngine/zzzz__IntegratedSubsystem_1_def.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 class Action_1;
@@ -20,7 +19,7 @@ namespace UnityEngine::XR {
 class XRMeshSubsystem;
 }
 namespace UnityEngine::XR {
-struct ____UnityEngine__XR__XRMeshSubsystem__MeshTransformList;
+struct UnityEngine__XR__XRMeshSubsystem__MeshTransformList;
 }
 // Type: ::MeshTransformList
 namespace UnityEngine::XR {
@@ -28,23 +27,23 @@ namespace UnityEngine::XR {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15588))
 // CS Name: UnityEngine.XR.XRMeshSubsystem::MeshTransformList
-struct CORDL_TYPE ____UnityEngine__XR__XRMeshSubsystem__MeshTransformList : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__XR__XRMeshSubsystem__MeshTransformList : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const;
 
 // Ctor Parameters [CppParam { name: "m_Self", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__XR__XRMeshSubsystem__MeshTransformList(::cordl_internals::intptr_t m_Self) noexcept;
+constexpr UnityEngine__XR__XRMeshSubsystem__MeshTransformList(::cordl_internals::intptr_t m_Self) noexcept;
 
 
-                    constexpr ____UnityEngine__XR__XRMeshSubsystem__MeshTransformList(____UnityEngine__XR__XRMeshSubsystem__MeshTransformList const&) = default;
-                    constexpr ____UnityEngine__XR__XRMeshSubsystem__MeshTransformList(____UnityEngine__XR__XRMeshSubsystem__MeshTransformList&&) = default;
-                    constexpr ____UnityEngine__XR__XRMeshSubsystem__MeshTransformList& operator=(____UnityEngine__XR__XRMeshSubsystem__MeshTransformList const& o) {
+                    constexpr UnityEngine__XR__XRMeshSubsystem__MeshTransformList(UnityEngine__XR__XRMeshSubsystem__MeshTransformList const&) = default;
+                    constexpr UnityEngine__XR__XRMeshSubsystem__MeshTransformList(UnityEngine__XR__XRMeshSubsystem__MeshTransformList&&) = default;
+                    constexpr UnityEngine__XR__XRMeshSubsystem__MeshTransformList& operator=(UnityEngine__XR__XRMeshSubsystem__MeshTransformList const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__XR__XRMeshSubsystem__MeshTransformList& operator=(____UnityEngine__XR__XRMeshSubsystem__MeshTransformList&& o) noexcept {
+                    constexpr UnityEngine__XR__XRMeshSubsystem__MeshTransformList& operator=(UnityEngine__XR__XRMeshSubsystem__MeshTransformList&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -57,7 +56,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x8};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__XR__XRMeshSubsystem__MeshTransformList(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__XR__XRMeshSubsystem__MeshTransformList(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -90,13 +89,13 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 // Type: UnityEngine.XR::XRMeshSubsystem
 namespace UnityEngine::XR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15582)), TypeDefinitionIndex(TypeDefinitionIndex(15849)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15849), inst: 3780 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15849)), TypeDefinitionIndex(TypeDefinitionIndex(15582)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15849), inst: 3780 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15589))
 // CS Name: UnityEngine.XR.XRMeshSubsystem
-class CORDL_TYPE XRMeshSubsystem : public ::UnityEngine::IntegratedSubsystem_1<::UnityEngine::XR::XRMeshSubsystemDescriptor> {
+class CORDL_TYPE XRMeshSubsystem : public UnityEngine::IntegratedSubsystem_1<UnityEngine::XR::XRMeshSubsystemDescriptor> {
 public:
 // Declarations
-using MeshTransformList = ::UnityEngine::XR::____UnityEngine__XR__XRMeshSubsystem__MeshTransformList;
+using MeshTransformList = UnityEngine::XR::UnityEngine__XR__XRMeshSubsystem__MeshTransformList;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -110,7 +109,7 @@ constexpr XRMeshSubsystem(XRMeshSubsystem const& ) noexcept = default;
 constexpr XRMeshSubsystem(XRMeshSubsystem&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XRMeshSubsystem(void* ptr) noexcept : ::UnityEngine::IntegratedSubsystem_1<::UnityEngine::XR::XRMeshSubsystemDescriptor>(ptr) {
+constexpr explicit XRMeshSubsystem(void* ptr) noexcept : UnityEngine::IntegratedSubsystem_1<UnityEngine::XR::XRMeshSubsystemDescriptor>(ptr) {
 }
 
 
@@ -132,7 +131,7 @@ constexpr explicit XRMeshSubsystem(void* ptr) noexcept : ::UnityEngine::Integrat
 // Methods
 
 /// @brief Method InvokeMeshReadyDelegate addr 0x2d3a8a0 size 0x58 virtual false final false
- void InvokeMeshReadyDelegate(::UnityEngine::XR::MeshGenerationResult result, ::System::Action_1<::UnityEngine::XR::MeshGenerationResult> onMeshGenerationComplete) ;
+ void InvokeMeshReadyDelegate(UnityEngine::XR::MeshGenerationResult result, System::Action_1<UnityEngine::XR::MeshGenerationResult> onMeshGenerationComplete) ;
 
 // Ctor Parameters []
 explicit XRMeshSubsystem() ;
@@ -144,7 +143,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::XR::XRMeshSubsystem);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::XRMeshSubsystem, "UnityEngine.XR", "XRMeshSubsystem");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::____UnityEngine__XR__XRMeshSubsystem__MeshTransformList, "UnityEngine.XR", "XRMeshSubsystem/MeshTransformList");
+NEED_NO_BOX(UnityEngine::XR::XRMeshSubsystem);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRMeshSubsystem, "UnityEngine.XR", "XRMeshSubsystem");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::UnityEngine__XR__XRMeshSubsystem__MeshTransformList, "UnityEngine.XR", "XRMeshSubsystem/MeshTransformList");

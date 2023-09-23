@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::TextCore::LowLevel {
 struct GlyphLoadFlags;
@@ -76,41 +75,40 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field LOAD_DEFAULT offset 0
-static ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags const LOAD_DEFAULT;
+static UnityEngine::TextCore::LowLevel::GlyphLoadFlags const LOAD_DEFAULT;
 
 /// @brief Field LOAD_NO_SCALE offset 0
-static ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags const LOAD_NO_SCALE;
+static UnityEngine::TextCore::LowLevel::GlyphLoadFlags const LOAD_NO_SCALE;
 
 /// @brief Field LOAD_NO_HINTING offset 0
-static ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags const LOAD_NO_HINTING;
+static UnityEngine::TextCore::LowLevel::GlyphLoadFlags const LOAD_NO_HINTING;
 
 /// @brief Field LOAD_RENDER offset 0
-static ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags const LOAD_RENDER;
+static UnityEngine::TextCore::LowLevel::GlyphLoadFlags const LOAD_RENDER;
 
 /// @brief Field LOAD_NO_BITMAP offset 0
-static ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags const LOAD_NO_BITMAP;
+static UnityEngine::TextCore::LowLevel::GlyphLoadFlags const LOAD_NO_BITMAP;
 
 /// @brief Field LOAD_FORCE_AUTOHINT offset 0
-static ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags const LOAD_FORCE_AUTOHINT;
+static UnityEngine::TextCore::LowLevel::GlyphLoadFlags const LOAD_FORCE_AUTOHINT;
 
 /// @brief Field LOAD_MONOCHROME offset 0
-static ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags const LOAD_MONOCHROME;
+static UnityEngine::TextCore::LowLevel::GlyphLoadFlags const LOAD_MONOCHROME;
 
 /// @brief Field LOAD_NO_AUTOHINT offset 0
-static ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags const LOAD_NO_AUTOHINT;
+static UnityEngine::TextCore::LowLevel::GlyphLoadFlags const LOAD_NO_AUTOHINT;
 
 /// @brief Field LOAD_COLOR offset 0
-static ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags const LOAD_COLOR;
+static UnityEngine::TextCore::LowLevel::GlyphLoadFlags const LOAD_COLOR;
 
 /// @brief Field LOAD_COMPUTE_METRICS offset 0
-static ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags const LOAD_COMPUTE_METRICS;
+static UnityEngine::TextCore::LowLevel::GlyphLoadFlags const LOAD_COMPUTE_METRICS;
 
 /// @brief Field LOAD_BITMAP_METRICS_ONLY offset 0
-static ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags const LOAD_BITMAP_METRICS_ONLY;
+static UnityEngine::TextCore::LowLevel::GlyphLoadFlags const LOAD_BITMAP_METRICS_ONLY;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::LowLevel
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::LowLevel::GlyphLoadFlags, "UnityEngine.TextCore.LowLevel", "GlyphLoadFlags");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphLoadFlags, "UnityEngine.TextCore.LowLevel", "GlyphLoadFlags");

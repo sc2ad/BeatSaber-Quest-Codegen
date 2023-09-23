@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace UnityEngine {
 class CanvasGroup;
 }
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13559))
 // CS Name: ToggleableCanvasGroup
-class CORDL_TYPE ToggleableCanvasGroup : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ToggleableCanvasGroup : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr ToggleableCanvasGroup(ToggleableCanvasGroup const& ) noexcept = defaul
 constexpr ToggleableCanvasGroup(ToggleableCanvasGroup&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ToggleableCanvasGroup(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ToggleableCanvasGroup(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -54,17 +53,17 @@ constexpr explicit ToggleableCanvasGroup(void* ptr) noexcept : ::UnityEngine::Mo
 
 // Fields
 
- ::UnityEngine::CanvasGroup __declspec(property(get=__get__canvasGroup, put=__set__canvasGroup))  _canvasGroup;
+ UnityEngine::CanvasGroup __declspec(property(get=__get__canvasGroup, put=__set__canvasGroup))  _canvasGroup;
 
-constexpr void __set__canvasGroup(::UnityEngine::CanvasGroup value) ;
+constexpr void __set__canvasGroup(UnityEngine::CanvasGroup value) ;
 
-constexpr ::UnityEngine::CanvasGroup __get__canvasGroup() const;
+constexpr UnityEngine::CanvasGroup __get__canvasGroup() const;
 
- ::UnityEngine::UI::Toggle __declspec(property(get=__get__toggle, put=__set__toggle))  _toggle;
+ UnityEngine::UI::Toggle __declspec(property(get=__get__toggle, put=__set__toggle))  _toggle;
 
-constexpr void __set__toggle(::UnityEngine::UI::Toggle value) ;
+constexpr void __set__toggle(UnityEngine::UI::Toggle value) ;
 
-constexpr ::UnityEngine::UI::Toggle __get__toggle() const;
+constexpr UnityEngine::UI::Toggle __get__toggle() const;
 
  bool __declspec(property(get=__get__invertToggle, put=__set__invertToggle))  _invertToggle;
 
@@ -97,6 +96,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ToggleableCanvasGroup);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ToggleableCanvasGroup, "", "ToggleableCanvasGroup");
+NEED_NO_BOX(GlobalNamespace::ToggleableCanvasGroup);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ToggleableCanvasGroup, "", "ToggleableCanvasGroup");

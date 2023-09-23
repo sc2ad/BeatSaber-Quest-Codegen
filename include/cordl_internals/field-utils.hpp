@@ -8,6 +8,7 @@
 #include <bit>
 #include <cstddef>
 
+namespace {
 namespace cordl_internals {
   /// @brief method to find a field info in a klass
   /// @tparam name field name
@@ -208,3 +209,4 @@ namespace cordl_internals {
   }
 #pragma endregion // field getters
 }
+} // end anonymous namespace

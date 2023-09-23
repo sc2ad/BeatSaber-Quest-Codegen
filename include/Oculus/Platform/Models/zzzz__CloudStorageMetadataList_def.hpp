@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__CloudStorageMetadata_def.hpp"
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_def.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class CloudStorageMetadataList;
@@ -11,10 +10,10 @@ class CloudStorageMetadataList;
 // Type: Oculus.Platform.Models::CloudStorageMetadataList
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13407)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1135 }), TypeDefinitionIndex(TypeDefinitionIndex(13410))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1135 }), TypeDefinitionIndex(TypeDefinitionIndex(13407)), TypeDefinitionIndex(TypeDefinitionIndex(13410))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13408))
 // CS Name: Oculus.Platform.Models.CloudStorageMetadataList
-class CORDL_TYPE CloudStorageMetadataList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::CloudStorageMetadata> {
+class CORDL_TYPE CloudStorageMetadataList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::CloudStorageMetadata> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr CloudStorageMetadataList(CloudStorageMetadataList const& ) noexcept = 
 constexpr CloudStorageMetadataList(CloudStorageMetadataList&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CloudStorageMetadataList(void* ptr) noexcept : ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::CloudStorageMetadata>(ptr) {
+constexpr explicit CloudStorageMetadataList(void* ptr) noexcept : Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::CloudStorageMetadata>(ptr) {
 }
 
 
@@ -60,6 +59,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::CloudStorageMetadataList);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::CloudStorageMetadataList, "Oculus.Platform.Models", "CloudStorageMetadataList");
+NEED_NO_BOX(Oculus::Platform::Models::CloudStorageMetadataList);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::CloudStorageMetadataList, "Oculus.Platform.Models", "CloudStorageMetadataList");

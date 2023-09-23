@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace GlobalNamespace {
+class ICPUMonitor;
+}
 namespace GlobalNamespace {
 class IPollable;
 }
 namespace GlobalNamespace {
 class RollingAverage;
-}
-namespace GlobalNamespace {
-class ICPUMonitor;
 }
 namespace System::Diagnostics {
 class Process;
@@ -29,11 +28,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE CPUMonitor : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::ICPUMonitor
-constexpr operator  ::GlobalNamespace::ICPUMonitor() const noexcept;
+/// @brief Convert operator to GlobalNamespace::ICPUMonitor
+constexpr operator  GlobalNamespace::ICPUMonitor() const noexcept;
 
-/// @brief Convert operator to ::GlobalNamespace::IPollable
-constexpr operator  ::GlobalNamespace::IPollable() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IPollable
+constexpr operator  GlobalNamespace::IPollable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -68,17 +67,17 @@ constexpr explicit CPUMonitor(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType
 
 // Fields
 
- ::GlobalNamespace::RollingAverage __declspec(property(get=__get__utilization, put=__set__utilization))  _utilization;
+ GlobalNamespace::RollingAverage __declspec(property(get=__get__utilization, put=__set__utilization))  _utilization;
 
-constexpr void __set__utilization(::GlobalNamespace::RollingAverage value) ;
+constexpr void __set__utilization(GlobalNamespace::RollingAverage value) ;
 
-constexpr ::GlobalNamespace::RollingAverage __get__utilization() const;
+constexpr GlobalNamespace::RollingAverage __get__utilization() const;
 
- ::System::Diagnostics::Process __declspec(property(get=__get__currentProcess, put=__set__currentProcess))  _currentProcess;
+ System::Diagnostics::Process __declspec(property(get=__get__currentProcess, put=__set__currentProcess))  _currentProcess;
 
-constexpr void __set__currentProcess(::System::Diagnostics::Process value) ;
+constexpr void __set__currentProcess(System::Diagnostics::Process value) ;
 
-constexpr ::System::Diagnostics::Process __get__currentProcess() const;
+constexpr System::Diagnostics::Process __get__currentProcess() const;
 
  int32_t __declspec(property(get=__get__processorCount, put=__set__processorCount))  _processorCount;
 
@@ -122,6 +121,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::CPUMonitor);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CPUMonitor, "", "CPUMonitor");
+NEED_NO_BOX(GlobalNamespace::CPUMonitor);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CPUMonitor, "", "CPUMonitor");

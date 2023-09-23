@@ -3,21 +3,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Security {
-class ISecurityEncodable;
-}
-namespace System {
-class Type;
-}
-namespace System::Security::Permissions {
-struct PermissionState;
+class IPermission;
 }
 namespace System::Security {
 class SecurityElement;
 }
+namespace System::Security::Permissions {
+struct PermissionState;
+}
+namespace System {
+class Type;
+}
 namespace System::Security {
-class IPermission;
+class ISecurityEncodable;
 }
 // Forward declare root types
 namespace System::Security {
@@ -32,11 +31,11 @@ namespace System::Security {
 class CORDL_TYPE CodeAccessPermission : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Security::IPermission
-constexpr operator  ::System::Security::IPermission() const noexcept;
+/// @brief Convert operator to System::Security::IPermission
+constexpr operator  System::Security::IPermission() const noexcept;
 
-/// @brief Convert operator to ::System::Security::ISecurityEncodable
-constexpr operator  ::System::Security::ISecurityEncodable() const noexcept;
+/// @brief Convert operator to System::Security::ISecurityEncodable
+constexpr operator  System::Security::ISecurityEncodable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -87,22 +86,22 @@ explicit CodeAccessPermission() ;
  int32_t GetHashCode() ;
 
 /// @brief Method IsSubsetOf addr 0x0 size 0xffffffffffffffff virtual true final false
- bool IsSubsetOf(::System::Security::IPermission target) ;
+ bool IsSubsetOf(System::Security::IPermission target) ;
 
 /// @brief Method ToString addr 0x22e5114 size 0x28 virtual true final false
  ::StringW ToString() ;
 
 /// @brief Method ToXml addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Security::SecurityElement ToXml() ;
+ System::Security::SecurityElement ToXml() ;
 
 /// @brief Method Element addr 0x22e513c size 0x168 virtual false final false
- ::System::Security::SecurityElement Element(int32_t version) ;
+ System::Security::SecurityElement Element(int32_t version) ;
 
 /// @brief Method CheckPermissionState addr 0x22e52a4 size 0xb0 virtual false final false
-static ::System::Security::Permissions::PermissionState CheckPermissionState(::System::Security::Permissions::PermissionState state, bool allowUnrestricted) ;
+static System::Security::Permissions::PermissionState CheckPermissionState(System::Security::Permissions::PermissionState state, bool allowUnrestricted) ;
 
 /// @brief Method ThrowInvalidPermission addr 0x22e5354 size 0xa4 virtual false final false
-static void ThrowInvalidPermission(::System::Security::IPermission target, ::System::Type expected) ;
+static void ThrowInvalidPermission(System::Security::IPermission target, System::Type expected) ;
 
 /// @brief Method System.Security.IPermission.Demand addr 0x22e53f8 size 0x4 virtual true final true
  void System_Security_IPermission_Demand() ;
@@ -111,6 +110,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::CodeAccessPermission);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::CodeAccessPermission, "System.Security", "CodeAccessPermission");
+NEED_NO_BOX(System::Security::CodeAccessPermission);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::CodeAccessPermission, "System.Security", "CodeAccessPermission");

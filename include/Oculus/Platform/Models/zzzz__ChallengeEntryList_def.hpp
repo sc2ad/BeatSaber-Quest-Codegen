@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__ChallengeEntry_def.hpp"
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_def.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class ChallengeEntryList;
@@ -11,10 +10,10 @@ class ChallengeEntryList;
 // Type: Oculus.Platform.Models::ChallengeEntryList
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13410)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1134 }), TypeDefinitionIndex(TypeDefinitionIndex(13403))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13403)), TypeDefinitionIndex(TypeDefinitionIndex(13410)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1134 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13404))
 // CS Name: Oculus.Platform.Models.ChallengeEntryList
-class CORDL_TYPE ChallengeEntryList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::ChallengeEntry> {
+class CORDL_TYPE ChallengeEntryList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::ChallengeEntry> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr ChallengeEntryList(ChallengeEntryList const& ) noexcept = default;
 constexpr ChallengeEntryList(ChallengeEntryList&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ChallengeEntryList(void* ptr) noexcept : ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::ChallengeEntry>(ptr) {
+constexpr explicit ChallengeEntryList(void* ptr) noexcept : Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::ChallengeEntry>(ptr) {
 }
 
 
@@ -69,6 +68,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::ChallengeEntryList);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::ChallengeEntryList, "Oculus.Platform.Models", "ChallengeEntryList");
+NEED_NO_BOX(Oculus::Platform::Models::ChallengeEntryList);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::ChallengeEntryList, "Oculus.Platform.Models", "ChallengeEntryList");

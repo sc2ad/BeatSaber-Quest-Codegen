@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine::Networking {
-struct ____UnityEngine__Networking__UnityWebRequest__Result;
-}
 namespace UnityEngine::Networking {
 class UnityWebRequest;
+}
+namespace UnityEngine::Networking {
+struct UnityEngine__Networking__UnityWebRequest__Result;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {
@@ -68,11 +67,11 @@ constexpr void __set__ResponseCode_k__BackingField(int64_t value) ;
 
 constexpr int64_t __get__ResponseCode_k__BackingField() const;
 
- ::UnityEngine::Networking::____UnityEngine__Networking__UnityWebRequest__Result __declspec(property(get=__get__Result_k__BackingField, put=__set__Result_k__BackingField))  _Result_k__BackingField;
+ UnityEngine::Networking::UnityEngine__Networking__UnityWebRequest__Result __declspec(property(get=__get__Result_k__BackingField, put=__set__Result_k__BackingField))  _Result_k__BackingField;
 
-constexpr void __set__Result_k__BackingField(::UnityEngine::Networking::____UnityEngine__Networking__UnityWebRequest__Result value) ;
+constexpr void __set__Result_k__BackingField(UnityEngine::Networking::UnityEngine__Networking__UnityWebRequest__Result value) ;
 
-constexpr ::UnityEngine::Networking::____UnityEngine__Networking__UnityWebRequest__Result __get__Result_k__BackingField() const;
+constexpr UnityEngine::Networking::UnityEngine__Networking__UnityWebRequest__Result __get__Result_k__BackingField() const;
 
  ::StringW __declspec(property(get=__get__Method_k__BackingField, put=__set__Method_k__BackingField))  _Method_k__BackingField;
 
@@ -93,7 +92,7 @@ constexpr ::StringW __get__Url_k__BackingField() const;
 
  int64_t __declspec(property(get=get_ResponseCode))  ResponseCode;
 
- ::UnityEngine::Networking::____UnityEngine__Networking__UnityWebRequest__Result __declspec(property(get=get_Result))  Result;
+ UnityEngine::Networking::UnityEngine__Networking__UnityWebRequest__Result __declspec(property(get=get_Result))  Result;
 
  ::StringW __declspec(property(get=get_Method))  Method;
 
@@ -102,11 +101,11 @@ constexpr ::StringW __get__Url_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "request", ty: "::UnityEngine::Networking::UnityWebRequest", modifiers: "", def_value: None }]
-explicit UnityWebRequestResult(::UnityEngine::Networking::UnityWebRequest request) ;
+// Ctor Parameters [CppParam { name: "request", ty: "UnityEngine::Networking::UnityWebRequest", modifiers: "", def_value: None }]
+explicit UnityWebRequestResult(UnityEngine::Networking::UnityWebRequest request) ;
 
 /// @brief Method .ctor addr 0x2a3b92c size 0x108 virtual false final false
- void _ctor(::UnityEngine::Networking::UnityWebRequest request) ;
+ void _ctor(UnityEngine::Networking::UnityWebRequest request) ;
 
 /// @brief Method ToString addr 0x2a3ba3c size 0x180 virtual true final false
  ::StringW ToString() ;
@@ -121,7 +120,7 @@ explicit UnityWebRequestResult(::UnityEngine::Networking::UnityWebRequest reques
  int64_t get_ResponseCode() ;
 
 /// @brief Method get_Result addr 0x2a3bbd4 size 0x8 virtual false final false
- ::UnityEngine::Networking::____UnityEngine__Networking__UnityWebRequest__Result get_Result() ;
+ UnityEngine::Networking::UnityEngine__Networking__UnityWebRequest__Result get_Result() ;
 
 /// @brief Method get_Method addr 0x2a3bbdc size 0x8 virtual false final false
  ::StringW get_Method() ;
@@ -136,6 +135,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ResourceManagement::Util
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ResourceManagement::Util::UnityWebRequestResult);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::Util::UnityWebRequestResult, "UnityEngine.ResourceManagement.Util", "UnityWebRequestResult");
+NEED_NO_BOX(UnityEngine::ResourceManagement::Util::UnityWebRequestResult);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::UnityWebRequestResult, "UnityEngine.ResourceManagement.Util", "UnityWebRequestResult");

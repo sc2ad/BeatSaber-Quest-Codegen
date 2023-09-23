@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Security::Cryptography {
 class RNGCryptoServiceProvider;
 }
@@ -54,22 +53,22 @@ constexpr explicit Utils(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr)
 
 // Fields
 
-static ::System::Security::Cryptography::RNGCryptoServiceProvider __declspec(property(get=__get__rng, put=__set__rng))  _rng;
+static System::Security::Cryptography::RNGCryptoServiceProvider __declspec(property(get=__get__rng, put=__set__rng))  _rng;
 
-static void __set__rng(::System::Security::Cryptography::RNGCryptoServiceProvider value) ;
+static void __set__rng(System::Security::Cryptography::RNGCryptoServiceProvider value) ;
 
-static ::System::Security::Cryptography::RNGCryptoServiceProvider __get__rng() ;
+static System::Security::Cryptography::RNGCryptoServiceProvider __get__rng() ;
 
 
 // Properties
 
-static ::System::Security::Cryptography::RNGCryptoServiceProvider __declspec(property(get=get_StaticRandomNumberGenerator))  StaticRandomNumberGenerator;
+static System::Security::Cryptography::RNGCryptoServiceProvider __declspec(property(get=get_StaticRandomNumberGenerator))  StaticRandomNumberGenerator;
 
 
 // Methods
 
 /// @brief Method get_StaticRandomNumberGenerator addr 0x2300adc size 0xa0 virtual false final false
-static ::System::Security::Cryptography::RNGCryptoServiceProvider get_StaticRandomNumberGenerator() ;
+static System::Security::Cryptography::RNGCryptoServiceProvider get_StaticRandomNumberGenerator() ;
 
 /// @brief Method GenerateRandom addr 0x2300c7c size 0x70 virtual false final false
 static ::ArrayW<uint8_t> GenerateRandom(int32_t keySize) ;
@@ -117,6 +116,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::Utils);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::Utils, "System.Security.Cryptography", "Utils");
+NEED_NO_BOX(System::Security::Cryptography::Utils);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::Utils, "System.Security.Cryptography", "Utils");

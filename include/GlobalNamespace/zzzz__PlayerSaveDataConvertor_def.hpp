@@ -1,21 +1,20 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace GlobalNamespace {
 struct NoteJumpDurationTypeSettings;
-}
-namespace GlobalNamespace {
-struct ______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData;
-}
-namespace GlobalNamespace {
-struct ______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData;
 }
 namespace GlobalNamespace {
 struct EnvironmentEffectsFilterPreset;
 }
 namespace GlobalNamespace {
-struct ______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData;
+struct GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData;
 }
 namespace GlobalNamespace {
 struct ArcVisibilityType;
@@ -67,27 +66,26 @@ constexpr explicit PlayerSaveDataConvertor(void* ptr) noexcept : ::bs_hook::Il2C
 // Methods
 
 /// @brief Method GetRuntimeData addr 0x2225a10 size 0x1c virtual false final false
-static ::GlobalNamespace::EnvironmentEffectsFilterPreset GetRuntimeData(::GlobalNamespace::______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData saveData) ;
+static GlobalNamespace::EnvironmentEffectsFilterPreset GetRuntimeData(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData saveData) ;
 
 /// @brief Method GetSaveData addr 0x2223754 size 0x1c virtual false final false
-static ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData GetSaveData(::GlobalNamespace::EnvironmentEffectsFilterPreset data) ;
+static GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData GetSaveData(GlobalNamespace::EnvironmentEffectsFilterPreset data) ;
 
 /// @brief Method GetRuntimeData addr 0x22259f4 size 0xc virtual false final false
-static ::GlobalNamespace::NoteJumpDurationTypeSettings GetRuntimeData(::GlobalNamespace::______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData saveData) ;
+static GlobalNamespace::NoteJumpDurationTypeSettings GetRuntimeData(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData saveData) ;
 
 /// @brief Method GetSaveData addr 0x2223738 size 0xc virtual false final false
-static ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData GetSaveData(::GlobalNamespace::NoteJumpDurationTypeSettings data) ;
+static GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData GetSaveData(GlobalNamespace::NoteJumpDurationTypeSettings data) ;
 
 /// @brief Method GetRuntimeData addr 0x2225a00 size 0x10 virtual false final false
-static ::GlobalNamespace::ArcVisibilityType GetRuntimeData(::GlobalNamespace::______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData saveData) ;
+static GlobalNamespace::ArcVisibilityType GetRuntimeData(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData saveData) ;
 
 /// @brief Method GetSaveData addr 0x2223744 size 0x10 virtual false final false
-static ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData GetSaveData(::GlobalNamespace::ArcVisibilityType data) ;
+static GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData GetSaveData(GlobalNamespace::ArcVisibilityType data) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PlayerSaveDataConvertor);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerSaveDataConvertor, "", "PlayerSaveDataConvertor");
+NEED_NO_BOX(GlobalNamespace::PlayerSaveDataConvertor);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataConvertor, "", "PlayerSaveDataConvertor");

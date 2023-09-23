@@ -2,22 +2,21 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
-namespace Tweening {
-template<typename T>
-class Tween_1;
-}
 namespace Tweening {
 class TimeTweeningManager;
 }
 namespace UnityEngine {
 class AudioClip;
 }
-namespace UnityEngine {
-class AudioSource;
-}
 namespace GlobalNamespace {
 class AudioPitchGainEffect;
+}
+namespace Tweening {
+template<typename T>
+class Tween_1;
+}
+namespace UnityEngine {
+class AudioSource;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,7 +28,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4045))
 // CS Name: CrossFadeAudioSource
-class CORDL_TYPE CrossFadeAudioSource : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE CrossFadeAudioSource : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -44,7 +43,7 @@ constexpr CrossFadeAudioSource(CrossFadeAudioSource const& ) noexcept = default;
 constexpr CrossFadeAudioSource(CrossFadeAudioSource&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CrossFadeAudioSource(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit CrossFadeAudioSource(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -71,76 +70,76 @@ constexpr void __set__duration(float_t value) ;
 
 constexpr float_t __get__duration() const;
 
- ::UnityEngine::AudioSource __declspec(property(get=__get__audioSource1, put=__set__audioSource1))  _audioSource1;
+ UnityEngine::AudioSource __declspec(property(get=__get__audioSource1, put=__set__audioSource1))  _audioSource1;
 
-constexpr void __set__audioSource1(::UnityEngine::AudioSource value) ;
+constexpr void __set__audioSource1(UnityEngine::AudioSource value) ;
 
-constexpr ::UnityEngine::AudioSource __get__audioSource1() const;
+constexpr UnityEngine::AudioSource __get__audioSource1() const;
 
- ::UnityEngine::AudioSource __declspec(property(get=__get__audioSource2, put=__set__audioSource2))  _audioSource2;
+ UnityEngine::AudioSource __declspec(property(get=__get__audioSource2, put=__set__audioSource2))  _audioSource2;
 
-constexpr void __set__audioSource2(::UnityEngine::AudioSource value) ;
+constexpr void __set__audioSource2(UnityEngine::AudioSource value) ;
 
-constexpr ::UnityEngine::AudioSource __get__audioSource2() const;
+constexpr UnityEngine::AudioSource __get__audioSource2() const;
 
- ::GlobalNamespace::AudioPitchGainEffect __declspec(property(get=__get__audioPitchGainEffect1, put=__set__audioPitchGainEffect1))  _audioPitchGainEffect1;
+ GlobalNamespace::AudioPitchGainEffect __declspec(property(get=__get__audioPitchGainEffect1, put=__set__audioPitchGainEffect1))  _audioPitchGainEffect1;
 
-constexpr void __set__audioPitchGainEffect1(::GlobalNamespace::AudioPitchGainEffect value) ;
+constexpr void __set__audioPitchGainEffect1(GlobalNamespace::AudioPitchGainEffect value) ;
 
-constexpr ::GlobalNamespace::AudioPitchGainEffect __get__audioPitchGainEffect1() const;
+constexpr GlobalNamespace::AudioPitchGainEffect __get__audioPitchGainEffect1() const;
 
- ::GlobalNamespace::AudioPitchGainEffect __declspec(property(get=__get__audioPitchGainEffect2, put=__set__audioPitchGainEffect2))  _audioPitchGainEffect2;
+ GlobalNamespace::AudioPitchGainEffect __declspec(property(get=__get__audioPitchGainEffect2, put=__set__audioPitchGainEffect2))  _audioPitchGainEffect2;
 
-constexpr void __set__audioPitchGainEffect2(::GlobalNamespace::AudioPitchGainEffect value) ;
+constexpr void __set__audioPitchGainEffect2(GlobalNamespace::AudioPitchGainEffect value) ;
 
-constexpr ::GlobalNamespace::AudioPitchGainEffect __get__audioPitchGainEffect2() const;
+constexpr GlobalNamespace::AudioPitchGainEffect __get__audioPitchGainEffect2() const;
 
- ::Tweening::TimeTweeningManager __declspec(property(get=__get__tweeningManager, put=__set__tweeningManager))  _tweeningManager;
+ Tweening::TimeTweeningManager __declspec(property(get=__get__tweeningManager, put=__set__tweeningManager))  _tweeningManager;
 
-constexpr void __set__tweeningManager(::Tweening::TimeTweeningManager value) ;
+constexpr void __set__tweeningManager(Tweening::TimeTweeningManager value) ;
 
-constexpr ::Tweening::TimeTweeningManager __get__tweeningManager() const;
+constexpr Tweening::TimeTweeningManager __get__tweeningManager() const;
 
- ::UnityEngine::AudioSource __declspec(property(get=__get__activeAudioSource, put=__set__activeAudioSource))  _activeAudioSource;
+ UnityEngine::AudioSource __declspec(property(get=__get__activeAudioSource, put=__set__activeAudioSource))  _activeAudioSource;
 
-constexpr void __set__activeAudioSource(::UnityEngine::AudioSource value) ;
+constexpr void __set__activeAudioSource(UnityEngine::AudioSource value) ;
 
-constexpr ::UnityEngine::AudioSource __get__activeAudioSource() const;
+constexpr UnityEngine::AudioSource __get__activeAudioSource() const;
 
- ::UnityEngine::AudioSource __declspec(property(get=__get__inactiveAudioSource, put=__set__inactiveAudioSource))  _inactiveAudioSource;
+ UnityEngine::AudioSource __declspec(property(get=__get__inactiveAudioSource, put=__set__inactiveAudioSource))  _inactiveAudioSource;
 
-constexpr void __set__inactiveAudioSource(::UnityEngine::AudioSource value) ;
+constexpr void __set__inactiveAudioSource(UnityEngine::AudioSource value) ;
 
-constexpr ::UnityEngine::AudioSource __get__inactiveAudioSource() const;
+constexpr UnityEngine::AudioSource __get__inactiveAudioSource() const;
 
- ::Tweening::Tween_1<float_t> __declspec(property(get=__get__volumeDownTween, put=__set__volumeDownTween))  _volumeDownTween;
+ Tweening::Tween_1<float_t> __declspec(property(get=__get__volumeDownTween, put=__set__volumeDownTween))  _volumeDownTween;
 
-constexpr void __set__volumeDownTween(::Tweening::Tween_1<float_t> value) ;
+constexpr void __set__volumeDownTween(Tweening::Tween_1<float_t> value) ;
 
-constexpr ::Tweening::Tween_1<float_t> __get__volumeDownTween() const;
+constexpr Tweening::Tween_1<float_t> __get__volumeDownTween() const;
 
- ::Tweening::Tween_1<float_t> __declspec(property(get=__get__volumeUpTween, put=__set__volumeUpTween))  _volumeUpTween;
+ Tweening::Tween_1<float_t> __declspec(property(get=__get__volumeUpTween, put=__set__volumeUpTween))  _volumeUpTween;
 
-constexpr void __set__volumeUpTween(::Tweening::Tween_1<float_t> value) ;
+constexpr void __set__volumeUpTween(Tweening::Tween_1<float_t> value) ;
 
-constexpr ::Tweening::Tween_1<float_t> __get__volumeUpTween() const;
+constexpr Tweening::Tween_1<float_t> __get__volumeUpTween() const;
 
- ::GlobalNamespace::AudioPitchGainEffect __declspec(property(get=__get__activePitchGainEffect, put=__set__activePitchGainEffect))  _activePitchGainEffect;
+ GlobalNamespace::AudioPitchGainEffect __declspec(property(get=__get__activePitchGainEffect, put=__set__activePitchGainEffect))  _activePitchGainEffect;
 
-constexpr void __set__activePitchGainEffect(::GlobalNamespace::AudioPitchGainEffect value) ;
+constexpr void __set__activePitchGainEffect(GlobalNamespace::AudioPitchGainEffect value) ;
 
-constexpr ::GlobalNamespace::AudioPitchGainEffect __get__activePitchGainEffect() const;
+constexpr GlobalNamespace::AudioPitchGainEffect __get__activePitchGainEffect() const;
 
- ::GlobalNamespace::AudioPitchGainEffect __declspec(property(get=__get__inactivePitchGainEffect, put=__set__inactivePitchGainEffect))  _inactivePitchGainEffect;
+ GlobalNamespace::AudioPitchGainEffect __declspec(property(get=__get__inactivePitchGainEffect, put=__set__inactivePitchGainEffect))  _inactivePitchGainEffect;
 
-constexpr void __set__inactivePitchGainEffect(::GlobalNamespace::AudioPitchGainEffect value) ;
+constexpr void __set__inactivePitchGainEffect(GlobalNamespace::AudioPitchGainEffect value) ;
 
-constexpr ::GlobalNamespace::AudioPitchGainEffect __get__inactivePitchGainEffect() const;
+constexpr GlobalNamespace::AudioPitchGainEffect __get__inactivePitchGainEffect() const;
 
 
 // Properties
 
- ::UnityEngine::AudioClip __declspec(property(get=get_clip, put=set_clip))  clip;
+ UnityEngine::AudioClip __declspec(property(get=get_clip, put=set_clip))  clip;
 
  float_t __declspec(property(put=set_pitch))  pitch;
 
@@ -152,10 +151,10 @@ constexpr ::GlobalNamespace::AudioPitchGainEffect __get__inactivePitchGainEffect
 // Methods
 
 /// @brief Method get_clip addr 0x20ba73c size 0x1c virtual false final false
- ::UnityEngine::AudioClip get_clip() ;
+ UnityEngine::AudioClip get_clip() ;
 
 /// @brief Method set_clip addr 0x20ba758 size 0x40 virtual false final false
- void set_clip(::UnityEngine::AudioClip value) ;
+ void set_clip(UnityEngine::AudioClip value) ;
 
 /// @brief Method set_pitch addr 0x20ba798 size 0x40 virtual false final false
  void set_pitch(float_t value) ;
@@ -212,6 +211,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::CrossFadeAudioSource);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CrossFadeAudioSource, "", "CrossFadeAudioSource");
+NEED_NO_BOX(GlobalNamespace::CrossFadeAudioSource);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CrossFadeAudioSource, "", "CrossFadeAudioSource");

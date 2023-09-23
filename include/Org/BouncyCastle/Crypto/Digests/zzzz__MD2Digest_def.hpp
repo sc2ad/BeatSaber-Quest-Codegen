@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
@@ -24,11 +23,11 @@ namespace Org::BouncyCastle::Crypto::Digests {
 class CORDL_TYPE MD2Digest : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IDigest
-constexpr operator  ::Org::BouncyCastle::Crypto::IDigest() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IDigest
+constexpr operator  Org::BouncyCastle::Crypto::IDigest() const noexcept;
 
-/// @brief Convert operator to ::Org::BouncyCastle::Utilities::IMemoable
-constexpr operator  ::Org::BouncyCastle::Utilities::IMemoable() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Utilities::IMemoable
+constexpr operator  Org::BouncyCastle::Utilities::IMemoable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -125,14 +124,14 @@ explicit MD2Digest() ;
 /// @brief Method .ctor addr 0x119c140 size 0x80 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "t", ty: "::Org::BouncyCastle::Crypto::Digests::MD2Digest", modifiers: "", def_value: None }]
-explicit MD2Digest(::Org::BouncyCastle::Crypto::Digests::MD2Digest t) ;
+// Ctor Parameters [CppParam { name: "t", ty: "Org::BouncyCastle::Crypto::Digests::MD2Digest", modifiers: "", def_value: None }]
+explicit MD2Digest(Org::BouncyCastle::Crypto::Digests::MD2Digest t) ;
 
 /// @brief Method .ctor addr 0x119c278 size 0x90 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::Digests::MD2Digest t) ;
+ void _ctor(Org::BouncyCastle::Crypto::Digests::MD2Digest t) ;
 
 /// @brief Method CopyIn addr 0x119c308 size 0x9c virtual false final false
- void CopyIn(::Org::BouncyCastle::Crypto::Digests::MD2Digest t) ;
+ void CopyIn(Org::BouncyCastle::Crypto::Digests::MD2Digest t) ;
 
 /// @brief Method get_AlgorithmName addr 0x119c3a4 size 0x40 virtual true final true
  ::StringW get_AlgorithmName() ;
@@ -162,15 +161,14 @@ explicit MD2Digest(::Org::BouncyCastle::Crypto::Digests::MD2Digest t) ;
  void ProcessBlock(::ArrayW<uint8_t> m) ;
 
 /// @brief Method Copy addr 0x119c8f4 size 0x60 virtual true final true
- ::Org::BouncyCastle::Utilities::IMemoable Copy() ;
+ Org::BouncyCastle::Utilities::IMemoable Copy() ;
 
 /// @brief Method Reset addr 0x119c954 size 0x84 virtual true final true
- void Reset(::Org::BouncyCastle::Utilities::IMemoable other) ;
+ void Reset(Org::BouncyCastle::Utilities::IMemoable other) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Digests
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::MD2Digest);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Digests::MD2Digest, "Org.BouncyCastle.Crypto.Digests", "MD2Digest");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Digests::MD2Digest);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::MD2Digest, "Org.BouncyCastle.Crypto.Digests", "MD2Digest");

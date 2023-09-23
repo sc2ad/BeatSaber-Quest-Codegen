@@ -2,7 +2,9 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_def.hpp"
 #include <cmath>
-namespace {
+namespace UnityEngine {
+struct Quaternion;
+}
 namespace UnityEngine::ProBuilder::Shapes {
 class Shape;
 }
@@ -10,13 +12,10 @@ namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
 struct Bounds;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {
@@ -28,7 +27,7 @@ namespace UnityEngine::ProBuilder::Shapes {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12175))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12170))
 // CS Name: UnityEngine.ProBuilder.Shapes.Door
-class CORDL_TYPE Door : public ::UnityEngine::ProBuilder::Shapes::Shape {
+class CORDL_TYPE Door : public UnityEngine::ProBuilder::Shapes::Shape {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -43,7 +42,7 @@ constexpr Door(Door const& ) noexcept = default;
 constexpr Door(Door&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Door(void* ptr) noexcept : ::UnityEngine::ProBuilder::Shapes::Shape(ptr) {
+constexpr explicit Door(void* ptr) noexcept : UnityEngine::ProBuilder::Shapes::Shape(ptr) {
 }
 
 
@@ -80,10 +79,10 @@ constexpr float_t __get_m_LegWidth() const;
 // Methods
 
 /// @brief Method CopyShape addr 0x29f4074 size 0xac virtual true final false
- void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape shape) ;
+ void CopyShape(UnityEngine::ProBuilder::Shapes::Shape shape) ;
 
 /// @brief Method RebuildMesh addr 0x29f4120 size 0x1a9c virtual true final false
- ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation) ;
+ UnityEngine::Bounds RebuildMesh(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::Vector3 size, UnityEngine::Quaternion rotation) ;
 
 // Ctor Parameters []
 explicit Door() ;
@@ -95,6 +94,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder::Shapes
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::Shapes::Door);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Shapes::Door, "UnityEngine.ProBuilder.Shapes", "Door");
+NEED_NO_BOX(UnityEngine::ProBuilder::Shapes::Door);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Shapes::Door, "UnityEngine.ProBuilder.Shapes", "Door");

@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace {
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace GlobalNamespace {
 class AvatarPoseController;
@@ -22,7 +21,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4077))
 // CS Name: AvatarPoseMirror
-class CORDL_TYPE AvatarPoseMirror : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE AvatarPoseMirror : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr AvatarPoseMirror(AvatarPoseMirror const& ) noexcept = default;
 constexpr AvatarPoseMirror(AvatarPoseMirror&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AvatarPoseMirror(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit AvatarPoseMirror(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -58,11 +57,11 @@ constexpr explicit AvatarPoseMirror(void* ptr) noexcept : ::UnityEngine::MonoBeh
 
 // Fields
 
- ::GlobalNamespace::AvatarPoseController __declspec(property(get=__get__avatarPoseController, put=__set__avatarPoseController))  _avatarPoseController;
+ GlobalNamespace::AvatarPoseController __declspec(property(get=__get__avatarPoseController, put=__set__avatarPoseController))  _avatarPoseController;
 
-constexpr void __set__avatarPoseController(::GlobalNamespace::AvatarPoseController value) ;
+constexpr void __set__avatarPoseController(GlobalNamespace::AvatarPoseController value) ;
 
-constexpr ::GlobalNamespace::AvatarPoseController __get__avatarPoseController() const;
+constexpr GlobalNamespace::AvatarPoseController __get__avatarPoseController() const;
 
 
 // Methods
@@ -71,16 +70,16 @@ constexpr ::GlobalNamespace::AvatarPoseController __get__avatarPoseController() 
  void Start() ;
 
 /// @brief Method HandleAvatarPoseControllerPositionsWillBeSet addr 0x20c044c size 0x30 virtual false final false
-static void HandleAvatarPoseControllerPositionsWillBeSet(::UnityEngine::Vector3 headPosition, ::UnityEngine::Vector3 leftHandPosition, ::UnityEngine::Vector3 rightHandPosition, ByRef<::UnityEngine::Vector3> newHeadPosition, ByRef<::UnityEngine::Vector3> newLeftHandPosition, ByRef<::UnityEngine::Vector3> newRightHandPosition) ;
+static void HandleAvatarPoseControllerPositionsWillBeSet(UnityEngine::Vector3 headPosition, UnityEngine::Vector3 leftHandPosition, UnityEngine::Vector3 rightHandPosition, ByRef<UnityEngine::Vector3> newHeadPosition, ByRef<UnityEngine::Vector3> newLeftHandPosition, ByRef<UnityEngine::Vector3> newRightHandPosition) ;
 
 /// @brief Method HandleAvatarPoseControllerRotationsWillBeSet addr 0x20c0484 size 0x3c virtual false final false
-static void HandleAvatarPoseControllerRotationsWillBeSet(::UnityEngine::Quaternion headRotation, ::UnityEngine::Quaternion leftHandRotation, ::UnityEngine::Quaternion rightHandRotation, ByRef<::UnityEngine::Quaternion> newHeadRotation, ByRef<::UnityEngine::Quaternion> newLeftHandRotation, ByRef<::UnityEngine::Quaternion> newRightHandRotation) ;
+static void HandleAvatarPoseControllerRotationsWillBeSet(UnityEngine::Quaternion headRotation, UnityEngine::Quaternion leftHandRotation, UnityEngine::Quaternion rightHandRotation, ByRef<UnityEngine::Quaternion> newHeadRotation, ByRef<UnityEngine::Quaternion> newLeftHandRotation, ByRef<UnityEngine::Quaternion> newRightHandRotation) ;
 
 /// @brief Method MirrorRotation addr 0x20c04c0 size 0xc virtual false final false
-static ::UnityEngine::Quaternion MirrorRotation(::UnityEngine::Quaternion rotation) ;
+static UnityEngine::Quaternion MirrorRotation(UnityEngine::Quaternion rotation) ;
 
 /// @brief Method MirrorPosition addr 0x20c047c size 0x8 virtual false final false
-static ::UnityEngine::Vector3 MirrorPosition(::UnityEngine::Vector3 position) ;
+static UnityEngine::Vector3 MirrorPosition(UnityEngine::Vector3 position) ;
 
 // Ctor Parameters []
 explicit AvatarPoseMirror() ;
@@ -92,6 +91,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::AvatarPoseMirror);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AvatarPoseMirror, "", "AvatarPoseMirror");
+NEED_NO_BOX(GlobalNamespace::AvatarPoseMirror);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPoseMirror, "", "AvatarPoseMirror");

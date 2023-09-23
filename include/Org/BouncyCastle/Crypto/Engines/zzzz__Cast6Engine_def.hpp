@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
 class Cast6Engine;
@@ -15,7 +14,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(833))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(834))
 // CS Name: Org.BouncyCastle.Crypto.Engines.Cast6Engine
-class CORDL_TYPE Cast6Engine : public ::Org::BouncyCastle::Crypto::Engines::Cast5Engine {
+class CORDL_TYPE Cast6Engine : public Org::BouncyCastle::Crypto::Engines::Cast5Engine {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr Cast6Engine(Cast6Engine const& ) noexcept = default;
 constexpr Cast6Engine(Cast6Engine&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Cast6Engine(void* ptr) noexcept : ::Org::BouncyCastle::Crypto::Engines::Cast5Engine(ptr) {
+constexpr explicit Cast6Engine(void* ptr) noexcept : Org::BouncyCastle::Crypto::Engines::Cast5Engine(ptr) {
 }
 
 
@@ -129,6 +128,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Engines
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::Cast6Engine);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Engines::Cast6Engine, "Org.BouncyCastle.Crypto.Engines", "Cast6Engine");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Engines::Cast6Engine);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::Cast6Engine, "Org.BouncyCastle.Crypto.Engines", "Cast6Engine");

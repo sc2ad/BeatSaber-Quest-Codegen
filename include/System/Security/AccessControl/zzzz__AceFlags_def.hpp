@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security::AccessControl {
 struct AceFlags;
@@ -75,38 +74,37 @@ constexpr void __set_value__(uint8_t value) ;
 constexpr uint8_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::Security::AccessControl::AceFlags const None;
+static System::Security::AccessControl::AceFlags const None;
 
 /// @brief Field ObjectInherit offset 0
-static ::System::Security::AccessControl::AceFlags const ObjectInherit;
+static System::Security::AccessControl::AceFlags const ObjectInherit;
 
 /// @brief Field ContainerInherit offset 0
-static ::System::Security::AccessControl::AceFlags const ContainerInherit;
+static System::Security::AccessControl::AceFlags const ContainerInherit;
 
 /// @brief Field NoPropagateInherit offset 0
-static ::System::Security::AccessControl::AceFlags const NoPropagateInherit;
+static System::Security::AccessControl::AceFlags const NoPropagateInherit;
 
 /// @brief Field InheritOnly offset 0
-static ::System::Security::AccessControl::AceFlags const InheritOnly;
+static System::Security::AccessControl::AceFlags const InheritOnly;
 
 /// @brief Field InheritanceFlags offset 0
-static ::System::Security::AccessControl::AceFlags const InheritanceFlags;
+static System::Security::AccessControl::AceFlags const InheritanceFlags;
 
 /// @brief Field Inherited offset 0
-static ::System::Security::AccessControl::AceFlags const Inherited;
+static System::Security::AccessControl::AceFlags const Inherited;
 
 /// @brief Field SuccessfulAccess offset 0
-static ::System::Security::AccessControl::AceFlags const SuccessfulAccess;
+static System::Security::AccessControl::AceFlags const SuccessfulAccess;
 
 /// @brief Field FailedAccess offset 0
-static ::System::Security::AccessControl::AceFlags const FailedAccess;
+static System::Security::AccessControl::AceFlags const FailedAccess;
 
 /// @brief Field AuditFlags offset 0
-static ::System::Security::AccessControl::AceFlags const AuditFlags;
+static System::Security::AccessControl::AceFlags const AuditFlags;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Security::AccessControl
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::AccessControl::AceFlags, "System.Security.AccessControl", "AceFlags");
+DEFINE_IL2CPP_ARG_TYPE(System::Security::AccessControl::AceFlags, "System.Security.AccessControl", "AceFlags");

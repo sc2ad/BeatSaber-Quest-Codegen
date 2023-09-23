@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform {
 struct TimeWindow;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::Oculus::Platform::TimeWindow const Unknown;
+static Oculus::Platform::TimeWindow const Unknown;
 
 /// @brief Field OneHour offset 0
-static ::Oculus::Platform::TimeWindow const OneHour;
+static Oculus::Platform::TimeWindow const OneHour;
 
 /// @brief Field OneDay offset 0
-static ::Oculus::Platform::TimeWindow const OneDay;
+static Oculus::Platform::TimeWindow const OneDay;
 
 /// @brief Field OneWeek offset 0
-static ::Oculus::Platform::TimeWindow const OneWeek;
+static Oculus::Platform::TimeWindow const OneWeek;
 
 /// @brief Field ThirtyDays offset 0
-static ::Oculus::Platform::TimeWindow const ThirtyDays;
+static Oculus::Platform::TimeWindow const ThirtyDays;
 
 /// @brief Field NinetyDays offset 0
-static ::Oculus::Platform::TimeWindow const NinetyDays;
+static Oculus::Platform::TimeWindow const NinetyDays;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::TimeWindow, "Oculus.Platform", "TimeWindow");
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::TimeWindow, "Oculus.Platform", "TimeWindow");

@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Xml {
 class XmlWriter;
 }
@@ -55,7 +54,7 @@ constexpr explicit BinHexEncoder(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 // Methods
 
 /// @brief Method Encode addr 0x26bb7c4 size 0x1a8 virtual false final false
-static void Encode(::ArrayW<uint8_t> buffer, int32_t index, int32_t count, ::System::Xml::XmlWriter writer) ;
+static void Encode(::ArrayW<uint8_t> buffer, int32_t index, int32_t count, System::Xml::XmlWriter writer) ;
 
 /// @brief Method Encode addr 0x26bba90 size 0x14c virtual false final false
 static ::StringW Encode(::ArrayW<uint8_t> inArray, int32_t offsetIn, int32_t count) ;
@@ -67,6 +66,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::BinHexEncoder);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::BinHexEncoder, "System.Xml", "BinHexEncoder");
+NEED_NO_BOX(System::Xml::BinHexEncoder);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::BinHexEncoder, "System.Xml", "BinHexEncoder");

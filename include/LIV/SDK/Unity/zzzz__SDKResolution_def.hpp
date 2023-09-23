@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace LIV::SDK::Unity {
 struct SDKResolution;
@@ -66,13 +65,13 @@ constexpr int32_t __get_height() const;
 
 // Properties
 
-static ::LIV::SDK::Unity::SDKResolution __declspec(property(get=get_zero))  zero;
+static LIV::SDK::Unity::SDKResolution __declspec(property(get=get_zero))  zero;
 
 
 // Methods
 
 /// @brief Method get_zero addr 0x209d324 size 0x8 virtual false final false
-static ::LIV::SDK::Unity::SDKResolution get_zero() ;
+static LIV::SDK::Unity::SDKResolution get_zero() ;
 
 /// @brief Method ToString addr 0x20a1574 size 0xa0 virtual true final false
  ::StringW ToString() ;
@@ -81,5 +80,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def LIV::SDK::Unity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::SDKResolution, "LIV.SDK.Unity", "SDKResolution");
+DEFINE_IL2CPP_ARG_TYPE(LIV::SDK::Unity::SDKResolution, "LIV.SDK.Unity", "SDKResolution");

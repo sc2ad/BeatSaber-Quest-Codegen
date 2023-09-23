@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::IO {
 struct SearchOption;
@@ -67,14 +66,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field TopDirectoryOnly offset 0
-static ::System::IO::SearchOption const TopDirectoryOnly;
+static System::IO::SearchOption const TopDirectoryOnly;
 
 /// @brief Field AllDirectories offset 0
-static ::System::IO::SearchOption const AllDirectories;
+static System::IO::SearchOption const AllDirectories;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::IO
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::SearchOption, "System.IO", "SearchOption");
+DEFINE_IL2CPP_ARG_TYPE(System::IO::SearchOption, "System.IO", "SearchOption");

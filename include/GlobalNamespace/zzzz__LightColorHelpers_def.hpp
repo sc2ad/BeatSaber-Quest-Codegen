@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 struct Color;
 }
@@ -53,12 +52,11 @@ constexpr explicit LightColorHelpers(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 // Methods
 
 /// @brief Method AdjustColorWithStrobe addr 0x225df70 size 0xd8 virtual false final false
-static ::UnityEngine::Color AdjustColorWithStrobe(::UnityEngine::Color fromColor, ::UnityEngine::Color toColor, ::UnityEngine::Color offColor, float_t t, float_t fromStrobeFrequency, float_t toStrobeFrequency, float_t tweenDuration) ;
+static UnityEngine::Color AdjustColorWithStrobe(UnityEngine::Color fromColor, UnityEngine::Color toColor, UnityEngine::Color offColor, float_t t, float_t fromStrobeFrequency, float_t toStrobeFrequency, float_t tweenDuration) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LightColorHelpers);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightColorHelpers, "", "LightColorHelpers");
+NEED_NO_BOX(GlobalNamespace::LightColorHelpers);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightColorHelpers, "", "LightColorHelpers");

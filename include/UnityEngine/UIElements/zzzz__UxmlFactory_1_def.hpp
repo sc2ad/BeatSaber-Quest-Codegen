@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 template<typename TCreatedType>
@@ -18,10 +17,10 @@ namespace UnityEngine::UIElements {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TCreatedType>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6821)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5082 }), TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(7090))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7090)), TypeDefinitionIndex(TypeDefinitionIndex(6821)), TypeDefinitionIndex(TypeDefinitionIndex(7089)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5082 })}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7090), inst: 2 })
 // CS Name: UnityEngine.UIElements.UxmlFactory`1
-class CORDL_TYPE UxmlFactory_1<TCreatedType> : public ::UnityEngine::UIElements::UxmlFactory_2<TCreatedType,::UnityEngine::UIElements::____UnityEngine__UIElements__VisualElement__UxmlTraits> {
+class CORDL_TYPE UxmlFactory_1<TCreatedType> : public UnityEngine::UIElements::UxmlFactory_2<TCreatedType,UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__UxmlTraits> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr UxmlFactory_1(UxmlFactory_1 const& ) noexcept = default;
 constexpr UxmlFactory_1(UxmlFactory_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UxmlFactory_1(void* ptr) noexcept : ::UnityEngine::UIElements::UxmlFactory_2<TCreatedType,::UnityEngine::UIElements::____UnityEngine__UIElements__VisualElement__UxmlTraits>(ptr) {
+constexpr explicit UxmlFactory_1(void* ptr) noexcept : UnityEngine::UIElements::UxmlFactory_2<TCreatedType,UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__UxmlTraits>(ptr) {
 }
 
 
@@ -67,5 +66,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::UxmlFactory_1, "UnityEngine.UIElements", "UxmlFactory`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::UIElements::UxmlFactory_1, "UnityEngine.UIElements", "UxmlFactory`1");

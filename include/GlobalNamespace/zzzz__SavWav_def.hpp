@@ -6,7 +6,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 class AudioClip;
 }
@@ -66,24 +65,23 @@ static constexpr float_t  RescaleFactor{32767};
 // Methods
 
 /// @brief Method Save addr 0x2116168 size 0x3a8 virtual false final false
-static void Save(::StringW filepath, ::UnityEngine::AudioClip clip, float_t start, float_t duration) ;
+static void Save(::StringW filepath, UnityEngine::AudioClip clip, float_t start, float_t duration) ;
 
 /// @brief Method GetWav addr 0x2116510 size 0x40 virtual false final false
-static ::ArrayW<uint8_t> GetWav(::UnityEngine::AudioClip clip, ByRef<uint32_t> length, float_t start, float_t duration) ;
+static ::ArrayW<uint8_t> GetWav(UnityEngine::AudioClip clip, ByRef<uint32_t> length, float_t start, float_t duration) ;
 
 /// @brief Method ConvertAndWrite addr 0x2116550 size 0x268 virtual false final false
-static ::ArrayW<uint8_t> ConvertAndWrite(::UnityEngine::AudioClip clip, ByRef<uint32_t> length, ByRef<uint32_t> samplesAfterTrimming, float_t start, float_t duration) ;
+static ::ArrayW<uint8_t> ConvertAndWrite(UnityEngine::AudioClip clip, ByRef<uint32_t> length, ByRef<uint32_t> samplesAfterTrimming, float_t start, float_t duration) ;
 
 /// @brief Method AddDataToBuffer addr 0x2116a68 size 0x70 virtual false final false
 static void AddDataToBuffer(::ArrayW<uint8_t> buffer, ByRef<uint32_t> offset, ::ArrayW<uint8_t> addBytes) ;
 
 /// @brief Method WriteHeader addr 0x21167b8 size 0x2b0 virtual false final false
-static void WriteHeader(::ArrayW<uint8_t> stream, ::UnityEngine::AudioClip clip, uint32_t length, uint32_t samples) ;
+static void WriteHeader(::ArrayW<uint8_t> stream, UnityEngine::AudioClip clip, uint32_t length, uint32_t samples) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SavWav);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SavWav, "", "SavWav");
+NEED_NO_BOX(GlobalNamespace::SavWav);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SavWav, "", "SavWav");

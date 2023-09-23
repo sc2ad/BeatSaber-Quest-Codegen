@@ -4,7 +4,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 struct OVRPose;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 class OVRTracker;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRTracker__Frustum;
+struct GlobalNamespace__OVRTracker__Frustum;
 }
 // Type: ::Frustum
 namespace GlobalNamespace {
@@ -24,20 +23,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8874))
 // CS Name: OVRTracker::Frustum
-struct CORDL_TYPE ____GlobalNamespace__OVRTracker__Frustum : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__OVRTracker__Frustum : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "nearZ", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "farZ", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "fov", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__OVRTracker__Frustum(float_t nearZ, float_t farZ, ::UnityEngine::Vector2 fov) noexcept;
+// Ctor Parameters [CppParam { name: "nearZ", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "farZ", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "fov", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }]
+constexpr GlobalNamespace__OVRTracker__Frustum(float_t nearZ, float_t farZ, UnityEngine::Vector2 fov) noexcept;
 
 
-                    constexpr ____GlobalNamespace__OVRTracker__Frustum(____GlobalNamespace__OVRTracker__Frustum const&) = default;
-                    constexpr ____GlobalNamespace__OVRTracker__Frustum(____GlobalNamespace__OVRTracker__Frustum&&) = default;
-                    constexpr ____GlobalNamespace__OVRTracker__Frustum& operator=(____GlobalNamespace__OVRTracker__Frustum const& o) {
+                    constexpr GlobalNamespace__OVRTracker__Frustum(GlobalNamespace__OVRTracker__Frustum const&) = default;
+                    constexpr GlobalNamespace__OVRTracker__Frustum(GlobalNamespace__OVRTracker__Frustum&&) = default;
+                    constexpr GlobalNamespace__OVRTracker__Frustum& operator=(GlobalNamespace__OVRTracker__Frustum const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__OVRTracker__Frustum& operator=(____GlobalNamespace__OVRTracker__Frustum&& o) noexcept {
+                    constexpr GlobalNamespace__OVRTracker__Frustum& operator=(GlobalNamespace__OVRTracker__Frustum&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -50,7 +49,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x10};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVRTracker__Frustum(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__OVRTracker__Frustum(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -73,11 +72,11 @@ constexpr void __set_farZ(float_t value) ;
 
 constexpr float_t __get_farZ() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_fov, put=__set_fov))  fov;
+ UnityEngine::Vector2 __declspec(property(get=__get_fov, put=__set_fov))  fov;
 
-constexpr void __set_fov(::UnityEngine::Vector2 value) ;
+constexpr void __set_fov(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_fov() const;
+constexpr UnityEngine::Vector2 __get_fov() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -92,7 +91,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRTracker : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using Frustum = ::GlobalNamespace::____GlobalNamespace__OVRTracker__Frustum;
+using Frustum = GlobalNamespace::GlobalNamespace__OVRTracker__Frustum;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -154,10 +153,10 @@ constexpr explicit OVRTracker(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType
  int32_t get_count() ;
 
 /// @brief Method GetFrustum addr 0x26189d0 size 0xa4 virtual false final false
- ::GlobalNamespace::____GlobalNamespace__OVRTracker__Frustum GetFrustum(int32_t tracker) ;
+ GlobalNamespace::GlobalNamespace__OVRTracker__Frustum GetFrustum(int32_t tracker) ;
 
 /// @brief Method GetPose addr 0x2618a74 size 0x2b0 virtual false final false
- ::GlobalNamespace::OVRPose GetPose(int32_t tracker) ;
+ GlobalNamespace::OVRPose GetPose(int32_t tracker) ;
 
 /// @brief Method GetPoseValid addr 0x2618d24 size 0x104 virtual false final false
  bool GetPoseValid(int32_t tracker) ;
@@ -175,7 +174,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OVRTracker);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRTracker, "", "OVRTracker");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVRTracker__Frustum, "", "OVRTracker/Frustum");
+NEED_NO_BOX(GlobalNamespace::OVRTracker);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRTracker, "", "OVRTracker");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRTracker__Frustum, "", "OVRTracker/Frustum");

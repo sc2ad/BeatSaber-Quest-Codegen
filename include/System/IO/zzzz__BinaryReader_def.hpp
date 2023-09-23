@@ -5,21 +5,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace System {
-struct Decimal;
-}
-namespace System {
-class IDisposable;
-}
 namespace System::Text {
-class Decoder;
+class Encoding;
 }
 namespace System::IO {
 class Stream;
 }
+namespace System {
+class IDisposable;
+}
+namespace System {
+struct Decimal;
+}
 namespace System::Text {
-class Encoding;
+class Decoder;
 }
 // Forward declare root types
 namespace System::IO {
@@ -34,8 +33,8 @@ namespace System::IO {
 class CORDL_TYPE BinaryReader : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
@@ -70,11 +69,11 @@ constexpr explicit BinaryReader(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 
 // Fields
 
- ::System::IO::Stream __declspec(property(get=__get_m_stream, put=__set_m_stream))  m_stream;
+ System::IO::Stream __declspec(property(get=__get_m_stream, put=__set_m_stream))  m_stream;
 
-constexpr void __set_m_stream(::System::IO::Stream value) ;
+constexpr void __set_m_stream(System::IO::Stream value) ;
 
-constexpr ::System::IO::Stream __get_m_stream() const;
+constexpr System::IO::Stream __get_m_stream() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get_m_buffer, put=__set_m_buffer))  m_buffer;
 
@@ -82,11 +81,11 @@ constexpr void __set_m_buffer(::ArrayW<uint8_t> value) ;
 
 constexpr ::ArrayW<uint8_t> __get_m_buffer() const;
 
- ::System::Text::Decoder __declspec(property(get=__get_m_decoder, put=__set_m_decoder))  m_decoder;
+ System::Text::Decoder __declspec(property(get=__get_m_decoder, put=__set_m_decoder))  m_decoder;
 
-constexpr void __set_m_decoder(::System::Text::Decoder value) ;
+constexpr void __set_m_decoder(System::Text::Decoder value) ;
 
-constexpr ::System::Text::Decoder __get_m_decoder() const;
+constexpr System::Text::Decoder __get_m_decoder() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get_m_charBytes, put=__set_m_charBytes))  m_charBytes;
 
@@ -133,31 +132,31 @@ constexpr bool __get_m_leaveOpen() const;
 
 // Properties
 
- ::System::IO::Stream __declspec(property(get=get_BaseStream))  BaseStream;
+ System::IO::Stream __declspec(property(get=get_BaseStream))  BaseStream;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "input", ty: "::System::IO::Stream", modifiers: "", def_value: None }]
-explicit BinaryReader(::System::IO::Stream input) ;
+// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }]
+explicit BinaryReader(System::IO::Stream input) ;
 
 /// @brief Method .ctor addr 0x23c8884 size 0x78 virtual false final false
- void _ctor(::System::IO::Stream input) ;
+ void _ctor(System::IO::Stream input) ;
 
-// Ctor Parameters [CppParam { name: "input", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "::System::Text::Encoding", modifiers: "", def_value: None }]
-explicit BinaryReader(::System::IO::Stream input, ::System::Text::Encoding encoding) ;
+// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
+explicit BinaryReader(System::IO::Stream input, System::Text::Encoding encoding) ;
 
 /// @brief Method .ctor addr 0x23c8b7c size 0x8 virtual false final false
- void _ctor(::System::IO::Stream input, ::System::Text::Encoding encoding) ;
+ void _ctor(System::IO::Stream input, System::Text::Encoding encoding) ;
 
-// Ctor Parameters [CppParam { name: "input", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "::System::Text::Encoding", modifiers: "", def_value: None }, CppParam { name: "leaveOpen", ty: "bool", modifiers: "", def_value: None }]
-explicit BinaryReader(::System::IO::Stream input, ::System::Text::Encoding encoding, bool leaveOpen) ;
+// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }, CppParam { name: "leaveOpen", ty: "bool", modifiers: "", def_value: None }]
+explicit BinaryReader(System::IO::Stream input, System::Text::Encoding encoding, bool leaveOpen) ;
 
 /// @brief Method .ctor addr 0x23c88fc size 0x280 virtual false final false
- void _ctor(::System::IO::Stream input, ::System::Text::Encoding encoding, bool leaveOpen) ;
+ void _ctor(System::IO::Stream input, System::Text::Encoding encoding, bool leaveOpen) ;
 
 /// @brief Method get_BaseStream addr 0x23c8b84 size 0x8 virtual true final false
- ::System::IO::Stream get_BaseStream() ;
+ System::IO::Stream get_BaseStream() ;
 
 /// @brief Method Close addr 0x23c8b8c size 0x10 virtual true final false
  void Close() ;
@@ -208,7 +207,7 @@ explicit BinaryReader(::System::IO::Stream input, ::System::Text::Encoding encod
  double_t ReadDouble() ;
 
 /// @brief Method ReadDecimal addr 0x23c9304 size 0x214 virtual true final false
- ::System::Decimal ReadDecimal() ;
+ System::Decimal ReadDecimal() ;
 
 /// @brief Method ReadString addr 0x23c9518 size 0x298 virtual true final false
  ::StringW ReadString() ;
@@ -238,6 +237,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::IO
-} // end anonymous namespace
-NEED_NO_BOX(::System::IO::BinaryReader);
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::BinaryReader, "System.IO", "BinaryReader");
+NEED_NO_BOX(System::IO::BinaryReader);
+DEFINE_IL2CPP_ARG_TYPE(System::IO::BinaryReader, "System.IO", "BinaryReader");

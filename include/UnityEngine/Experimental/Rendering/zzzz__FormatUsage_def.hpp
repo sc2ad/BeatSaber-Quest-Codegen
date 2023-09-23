@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Experimental::Rendering {
 struct FormatUsage;
@@ -79,50 +78,49 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Sample offset 0
-static ::UnityEngine::Experimental::Rendering::FormatUsage const Sample;
+static UnityEngine::Experimental::Rendering::FormatUsage const Sample;
 
 /// @brief Field Linear offset 0
-static ::UnityEngine::Experimental::Rendering::FormatUsage const Linear;
+static UnityEngine::Experimental::Rendering::FormatUsage const Linear;
 
 /// @brief Field Sparse offset 0
-static ::UnityEngine::Experimental::Rendering::FormatUsage const Sparse;
+static UnityEngine::Experimental::Rendering::FormatUsage const Sparse;
 
 /// @brief Field Render offset 0
-static ::UnityEngine::Experimental::Rendering::FormatUsage const Render;
+static UnityEngine::Experimental::Rendering::FormatUsage const Render;
 
 /// @brief Field Blend offset 0
-static ::UnityEngine::Experimental::Rendering::FormatUsage const Blend;
+static UnityEngine::Experimental::Rendering::FormatUsage const Blend;
 
 /// @brief Field GetPixels offset 0
-static ::UnityEngine::Experimental::Rendering::FormatUsage const GetPixels;
+static UnityEngine::Experimental::Rendering::FormatUsage const GetPixels;
 
 /// @brief Field SetPixels offset 0
-static ::UnityEngine::Experimental::Rendering::FormatUsage const SetPixels;
+static UnityEngine::Experimental::Rendering::FormatUsage const SetPixels;
 
 /// @brief Field SetPixels32 offset 0
-static ::UnityEngine::Experimental::Rendering::FormatUsage const SetPixels32;
+static UnityEngine::Experimental::Rendering::FormatUsage const SetPixels32;
 
 /// @brief Field ReadPixels offset 0
-static ::UnityEngine::Experimental::Rendering::FormatUsage const ReadPixels;
+static UnityEngine::Experimental::Rendering::FormatUsage const ReadPixels;
 
 /// @brief Field LoadStore offset 0
-static ::UnityEngine::Experimental::Rendering::FormatUsage const LoadStore;
+static UnityEngine::Experimental::Rendering::FormatUsage const LoadStore;
 
 /// @brief Field MSAA2x offset 0
-static ::UnityEngine::Experimental::Rendering::FormatUsage const MSAA2x;
+static UnityEngine::Experimental::Rendering::FormatUsage const MSAA2x;
 
 /// @brief Field MSAA4x offset 0
-static ::UnityEngine::Experimental::Rendering::FormatUsage const MSAA4x;
+static UnityEngine::Experimental::Rendering::FormatUsage const MSAA4x;
 
 /// @brief Field MSAA8x offset 0
-static ::UnityEngine::Experimental::Rendering::FormatUsage const MSAA8x;
+static UnityEngine::Experimental::Rendering::FormatUsage const MSAA8x;
 
 /// @brief Field StencilSampling offset 0
-static ::UnityEngine::Experimental::Rendering::FormatUsage const StencilSampling;
+static UnityEngine::Experimental::Rendering::FormatUsage const StencilSampling;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Experimental::Rendering
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::Rendering::FormatUsage, "UnityEngine.Experimental.Rendering", "FormatUsage");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Rendering::FormatUsage, "UnityEngine.Experimental.Rendering", "FormatUsage");

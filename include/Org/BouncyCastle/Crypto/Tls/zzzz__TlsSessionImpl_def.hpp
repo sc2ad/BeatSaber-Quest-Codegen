@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto::Tls {
-class SessionParameters;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSession;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class SessionParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -23,8 +22,8 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE TlsSessionImpl : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Tls::TlsSession
-constexpr operator  ::Org::BouncyCastle::Crypto::Tls::TlsSession() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Tls::TlsSession
+constexpr operator  Org::BouncyCastle::Crypto::Tls::TlsSession() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -65,11 +64,11 @@ constexpr void __set_mSessionID(::ArrayW<uint8_t> value) ;
 
 constexpr ::ArrayW<uint8_t> __get_mSessionID() const;
 
- ::Org::BouncyCastle::Crypto::Tls::SessionParameters __declspec(property(get=__get_mSessionParameters, put=__set_mSessionParameters))  mSessionParameters;
+ Org::BouncyCastle::Crypto::Tls::SessionParameters __declspec(property(get=__get_mSessionParameters, put=__set_mSessionParameters))  mSessionParameters;
 
-constexpr void __set_mSessionParameters(::Org::BouncyCastle::Crypto::Tls::SessionParameters value) ;
+constexpr void __set_mSessionParameters(Org::BouncyCastle::Crypto::Tls::SessionParameters value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::SessionParameters __get_mSessionParameters() const;
+constexpr Org::BouncyCastle::Crypto::Tls::SessionParameters __get_mSessionParameters() const;
 
  bool __declspec(property(get=__get_mResumable, put=__set_mResumable))  mResumable;
 
@@ -87,14 +86,14 @@ constexpr bool __get_mResumable() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "sessionID", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "sessionParameters", ty: "::Org::BouncyCastle::Crypto::Tls::SessionParameters", modifiers: "", def_value: None }]
-explicit TlsSessionImpl(::ArrayW<uint8_t> sessionID, ::Org::BouncyCastle::Crypto::Tls::SessionParameters sessionParameters) ;
+// Ctor Parameters [CppParam { name: "sessionID", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "sessionParameters", ty: "Org::BouncyCastle::Crypto::Tls::SessionParameters", modifiers: "", def_value: None }]
+explicit TlsSessionImpl(::ArrayW<uint8_t> sessionID, Org::BouncyCastle::Crypto::Tls::SessionParameters sessionParameters) ;
 
 /// @brief Method .ctor addr 0xf29be4 size 0x140 virtual false final false
- void _ctor(::ArrayW<uint8_t> sessionID, ::Org::BouncyCastle::Crypto::Tls::SessionParameters sessionParameters) ;
+ void _ctor(::ArrayW<uint8_t> sessionID, Org::BouncyCastle::Crypto::Tls::SessionParameters sessionParameters) ;
 
 /// @brief Method ExportSessionParameters addr 0xf29d24 size 0xb4 virtual true final false
- ::Org::BouncyCastle::Crypto::Tls::SessionParameters ExportSessionParameters() ;
+ Org::BouncyCastle::Crypto::Tls::SessionParameters ExportSessionParameters() ;
 
 /// @brief Method get_SessionID addr 0xf29dd8 size 0x34 virtual true final false
  ::ArrayW<uint8_t> get_SessionID() ;
@@ -109,6 +108,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl, "Org.BouncyCastle.Crypto.Tls", "TlsSessionImpl");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::TlsSessionImpl);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::TlsSessionImpl, "Org.BouncyCastle.Crypto.Tls", "TlsSessionImpl");

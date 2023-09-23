@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace OVR::OpenVR {
 struct VRControllerAxis_t;
 }
@@ -19,8 +18,8 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE VRControllerState_t : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "unPacketNum", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "ulButtonPressed", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "ulButtonTouched", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "rAxis0", ty: "::OVR::OpenVR::VRControllerAxis_t", modifiers: "", def_value: None }, CppParam { name: "rAxis1", ty: "::OVR::OpenVR::VRControllerAxis_t", modifiers: "", def_value: None }, CppParam { name: "rAxis2", ty: "::OVR::OpenVR::VRControllerAxis_t", modifiers: "", def_value: None }, CppParam { name: "rAxis3", ty: "::OVR::OpenVR::VRControllerAxis_t", modifiers: "", def_value: None }, CppParam { name: "rAxis4", ty: "::OVR::OpenVR::VRControllerAxis_t", modifiers: "", def_value: None }]
-constexpr VRControllerState_t(uint32_t unPacketNum, uint64_t ulButtonPressed, uint64_t ulButtonTouched, ::OVR::OpenVR::VRControllerAxis_t rAxis0, ::OVR::OpenVR::VRControllerAxis_t rAxis1, ::OVR::OpenVR::VRControllerAxis_t rAxis2, ::OVR::OpenVR::VRControllerAxis_t rAxis3, ::OVR::OpenVR::VRControllerAxis_t rAxis4) noexcept;
+// Ctor Parameters [CppParam { name: "unPacketNum", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "ulButtonPressed", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "ulButtonTouched", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "rAxis0", ty: "OVR::OpenVR::VRControllerAxis_t", modifiers: "", def_value: None }, CppParam { name: "rAxis1", ty: "OVR::OpenVR::VRControllerAxis_t", modifiers: "", def_value: None }, CppParam { name: "rAxis2", ty: "OVR::OpenVR::VRControllerAxis_t", modifiers: "", def_value: None }, CppParam { name: "rAxis3", ty: "OVR::OpenVR::VRControllerAxis_t", modifiers: "", def_value: None }, CppParam { name: "rAxis4", ty: "OVR::OpenVR::VRControllerAxis_t", modifiers: "", def_value: None }]
+constexpr VRControllerState_t(uint32_t unPacketNum, uint64_t ulButtonPressed, uint64_t ulButtonTouched, OVR::OpenVR::VRControllerAxis_t rAxis0, OVR::OpenVR::VRControllerAxis_t rAxis1, OVR::OpenVR::VRControllerAxis_t rAxis2, OVR::OpenVR::VRControllerAxis_t rAxis3, OVR::OpenVR::VRControllerAxis_t rAxis4) noexcept;
 
 
                     constexpr VRControllerState_t(VRControllerState_t const&) = default;
@@ -71,39 +70,38 @@ constexpr void __set_ulButtonTouched(uint64_t value) ;
 
 constexpr uint64_t __get_ulButtonTouched() const;
 
- ::OVR::OpenVR::VRControllerAxis_t __declspec(property(get=__get_rAxis0, put=__set_rAxis0))  rAxis0;
+ OVR::OpenVR::VRControllerAxis_t __declspec(property(get=__get_rAxis0, put=__set_rAxis0))  rAxis0;
 
-constexpr void __set_rAxis0(::OVR::OpenVR::VRControllerAxis_t value) ;
+constexpr void __set_rAxis0(OVR::OpenVR::VRControllerAxis_t value) ;
 
-constexpr ::OVR::OpenVR::VRControllerAxis_t __get_rAxis0() const;
+constexpr OVR::OpenVR::VRControllerAxis_t __get_rAxis0() const;
 
- ::OVR::OpenVR::VRControllerAxis_t __declspec(property(get=__get_rAxis1, put=__set_rAxis1))  rAxis1;
+ OVR::OpenVR::VRControllerAxis_t __declspec(property(get=__get_rAxis1, put=__set_rAxis1))  rAxis1;
 
-constexpr void __set_rAxis1(::OVR::OpenVR::VRControllerAxis_t value) ;
+constexpr void __set_rAxis1(OVR::OpenVR::VRControllerAxis_t value) ;
 
-constexpr ::OVR::OpenVR::VRControllerAxis_t __get_rAxis1() const;
+constexpr OVR::OpenVR::VRControllerAxis_t __get_rAxis1() const;
 
- ::OVR::OpenVR::VRControllerAxis_t __declspec(property(get=__get_rAxis2, put=__set_rAxis2))  rAxis2;
+ OVR::OpenVR::VRControllerAxis_t __declspec(property(get=__get_rAxis2, put=__set_rAxis2))  rAxis2;
 
-constexpr void __set_rAxis2(::OVR::OpenVR::VRControllerAxis_t value) ;
+constexpr void __set_rAxis2(OVR::OpenVR::VRControllerAxis_t value) ;
 
-constexpr ::OVR::OpenVR::VRControllerAxis_t __get_rAxis2() const;
+constexpr OVR::OpenVR::VRControllerAxis_t __get_rAxis2() const;
 
- ::OVR::OpenVR::VRControllerAxis_t __declspec(property(get=__get_rAxis3, put=__set_rAxis3))  rAxis3;
+ OVR::OpenVR::VRControllerAxis_t __declspec(property(get=__get_rAxis3, put=__set_rAxis3))  rAxis3;
 
-constexpr void __set_rAxis3(::OVR::OpenVR::VRControllerAxis_t value) ;
+constexpr void __set_rAxis3(OVR::OpenVR::VRControllerAxis_t value) ;
 
-constexpr ::OVR::OpenVR::VRControllerAxis_t __get_rAxis3() const;
+constexpr OVR::OpenVR::VRControllerAxis_t __get_rAxis3() const;
 
- ::OVR::OpenVR::VRControllerAxis_t __declspec(property(get=__get_rAxis4, put=__set_rAxis4))  rAxis4;
+ OVR::OpenVR::VRControllerAxis_t __declspec(property(get=__get_rAxis4, put=__set_rAxis4))  rAxis4;
 
-constexpr void __set_rAxis4(::OVR::OpenVR::VRControllerAxis_t value) ;
+constexpr void __set_rAxis4(OVR::OpenVR::VRControllerAxis_t value) ;
 
-constexpr ::OVR::OpenVR::VRControllerAxis_t __get_rAxis4() const;
+constexpr OVR::OpenVR::VRControllerAxis_t __get_rAxis4() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::VRControllerState_t, "OVR.OpenVR", "VRControllerState_t");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRControllerState_t, "OVR.OpenVR", "VRControllerState_t");

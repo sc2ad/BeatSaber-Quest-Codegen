@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__CommandEventBase_1_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class ValidateCommandEvent;
@@ -9,10 +8,10 @@ class ValidateCommandEvent;
 // Type: UnityEngine.UIElements::ValidateCommandEvent
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7328), inst: 995 }), TypeDefinitionIndex(TypeDefinitionIndex(7328))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7328)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7328), inst: 995 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7329))
 // CS Name: UnityEngine.UIElements.ValidateCommandEvent
-class CORDL_TYPE ValidateCommandEvent : public ::UnityEngine::UIElements::CommandEventBase_1<::UnityEngine::UIElements::ValidateCommandEvent> {
+class CORDL_TYPE ValidateCommandEvent : public UnityEngine::UIElements::CommandEventBase_1<UnityEngine::UIElements::ValidateCommandEvent> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr ValidateCommandEvent(ValidateCommandEvent const& ) noexcept = default;
 constexpr ValidateCommandEvent(ValidateCommandEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ValidateCommandEvent(void* ptr) noexcept : ::UnityEngine::UIElements::CommandEventBase_1<::UnityEngine::UIElements::ValidateCommandEvent>(ptr) {
+constexpr explicit ValidateCommandEvent(void* ptr) noexcept : UnityEngine::UIElements::CommandEventBase_1<UnityEngine::UIElements::ValidateCommandEvent>(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::ValidateCommandEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ValidateCommandEvent, "UnityEngine.UIElements", "ValidateCommandEvent");
+NEED_NO_BOX(UnityEngine::UIElements::ValidateCommandEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::ValidateCommandEvent, "UnityEngine.UIElements", "ValidateCommandEvent");

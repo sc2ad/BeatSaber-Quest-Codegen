@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 // Forward declare root types
 namespace Newtonsoft::Json {
 class JsonRequiredAttribute;
@@ -12,7 +11,7 @@ namespace Newtonsoft::Json {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11750))
 // CS Name: Newtonsoft.Json.JsonRequiredAttribute
-class CORDL_TYPE JsonRequiredAttribute : public ::System::Attribute {
+class CORDL_TYPE JsonRequiredAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr JsonRequiredAttribute(JsonRequiredAttribute const& ) noexcept = defaul
 constexpr JsonRequiredAttribute(JsonRequiredAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit JsonRequiredAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit JsonRequiredAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::JsonRequiredAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonRequiredAttribute, "Newtonsoft.Json", "JsonRequiredAttribute");
+NEED_NO_BOX(Newtonsoft::Json::JsonRequiredAttribute);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::JsonRequiredAttribute, "Newtonsoft.Json", "JsonRequiredAttribute");

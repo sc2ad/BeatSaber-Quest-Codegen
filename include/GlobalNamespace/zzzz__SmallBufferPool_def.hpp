@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -79,35 +78,35 @@ static constexpr int32_t  kCacheLargeMaxCapacity{16};
 /// @brief Field kCacheMaxMaxCapacity offset 0
 static constexpr int32_t  kCacheMaxMaxCapacity{8};
 
- ::System::Collections::Generic::List_1<::ArrayW<uint8_t>> __declspec(property(get=__get__cacheSmall, put=__set__cacheSmall))  _cacheSmall;
+ System::Collections::Generic::List_1<::ArrayW<uint8_t>> __declspec(property(get=__get__cacheSmall, put=__set__cacheSmall))  _cacheSmall;
 
-constexpr void __set__cacheSmall(::System::Collections::Generic::List_1<::ArrayW<uint8_t>> value) ;
+constexpr void __set__cacheSmall(System::Collections::Generic::List_1<::ArrayW<uint8_t>> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::ArrayW<uint8_t>> __get__cacheSmall() const;
+constexpr System::Collections::Generic::List_1<::ArrayW<uint8_t>> __get__cacheSmall() const;
 
- ::System::Collections::Generic::List_1<::ArrayW<uint8_t>> __declspec(property(get=__get__cacheMedium, put=__set__cacheMedium))  _cacheMedium;
+ System::Collections::Generic::List_1<::ArrayW<uint8_t>> __declspec(property(get=__get__cacheMedium, put=__set__cacheMedium))  _cacheMedium;
 
-constexpr void __set__cacheMedium(::System::Collections::Generic::List_1<::ArrayW<uint8_t>> value) ;
+constexpr void __set__cacheMedium(System::Collections::Generic::List_1<::ArrayW<uint8_t>> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::ArrayW<uint8_t>> __get__cacheMedium() const;
+constexpr System::Collections::Generic::List_1<::ArrayW<uint8_t>> __get__cacheMedium() const;
 
- ::System::Collections::Generic::List_1<::ArrayW<uint8_t>> __declspec(property(get=__get__cacheLarge, put=__set__cacheLarge))  _cacheLarge;
+ System::Collections::Generic::List_1<::ArrayW<uint8_t>> __declspec(property(get=__get__cacheLarge, put=__set__cacheLarge))  _cacheLarge;
 
-constexpr void __set__cacheLarge(::System::Collections::Generic::List_1<::ArrayW<uint8_t>> value) ;
+constexpr void __set__cacheLarge(System::Collections::Generic::List_1<::ArrayW<uint8_t>> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::ArrayW<uint8_t>> __get__cacheLarge() const;
+constexpr System::Collections::Generic::List_1<::ArrayW<uint8_t>> __get__cacheLarge() const;
 
- ::System::Collections::Generic::List_1<::ArrayW<uint8_t>> __declspec(property(get=__get__cacheMax, put=__set__cacheMax))  _cacheMax;
+ System::Collections::Generic::List_1<::ArrayW<uint8_t>> __declspec(property(get=__get__cacheMax, put=__set__cacheMax))  _cacheMax;
 
-constexpr void __set__cacheMax(::System::Collections::Generic::List_1<::ArrayW<uint8_t>> value) ;
+constexpr void __set__cacheMax(System::Collections::Generic::List_1<::ArrayW<uint8_t>> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::ArrayW<uint8_t>> __get__cacheMax() const;
+constexpr System::Collections::Generic::List_1<::ArrayW<uint8_t>> __get__cacheMax() const;
 
-static ::GlobalNamespace::SmallBufferPool __declspec(property(get=__get_instance, put=__set_instance))  instance;
+static GlobalNamespace::SmallBufferPool __declspec(property(get=__get_instance, put=__set_instance))  instance;
 
-static void __set_instance(::GlobalNamespace::SmallBufferPool value) ;
+static void __set_instance(GlobalNamespace::SmallBufferPool value) ;
 
-static ::GlobalNamespace::SmallBufferPool __get_instance() ;
+static GlobalNamespace::SmallBufferPool __get_instance() ;
 
 
 // Methods
@@ -134,6 +133,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SmallBufferPool);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SmallBufferPool, "", "SmallBufferPool");
+NEED_NO_BOX(GlobalNamespace::SmallBufferPool);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SmallBufferPool, "", "SmallBufferPool");

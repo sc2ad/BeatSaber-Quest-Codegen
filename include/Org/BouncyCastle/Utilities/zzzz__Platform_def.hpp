@@ -3,15 +3,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections {
 class IDictionary;
 }
-namespace System::IO {
-class Stream;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
 class Exception;
+}
+namespace System::Collections {
+class ICollection;
 }
 namespace System::Globalization {
 class CompareInfo;
@@ -19,14 +21,11 @@ class CompareInfo;
 namespace System::Collections {
 class IList;
 }
-namespace System::Collections {
-class ICollection;
-}
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System::IO {
 class TextWriter;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities {
@@ -74,11 +73,11 @@ constexpr explicit Platform(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(p
 
 // Fields
 
-static ::System::Globalization::CompareInfo __declspec(property(get=__get_InvariantCompareInfo, put=__set_InvariantCompareInfo))  InvariantCompareInfo;
+static System::Globalization::CompareInfo __declspec(property(get=__get_InvariantCompareInfo, put=__set_InvariantCompareInfo))  InvariantCompareInfo;
 
-static void __set_InvariantCompareInfo(::System::Globalization::CompareInfo value) ;
+static void __set_InvariantCompareInfo(System::Globalization::CompareInfo value) ;
 
-static ::System::Globalization::CompareInfo __get_InvariantCompareInfo() ;
+static System::Globalization::CompareInfo __get_InvariantCompareInfo() ;
 
 static ::StringW __declspec(property(get=__get_NewLine, put=__set_NewLine))  NewLine;
 
@@ -99,28 +98,28 @@ static bool EqualsIgnoreCase(::StringW a, ::StringW b) ;
 static ::StringW GetEnvironmentVariable(::StringW variable) ;
 
 /// @brief Method CreateNotImplementedException addr 0x10e2c10 size 0x64 virtual false final false
-static ::System::Exception CreateNotImplementedException(::StringW message) ;
+static System::Exception CreateNotImplementedException(::StringW message) ;
 
 /// @brief Method CreateArrayList addr 0x10e2c74 size 0x5c virtual false final false
-static ::System::Collections::IList CreateArrayList() ;
+static System::Collections::IList CreateArrayList() ;
 
 /// @brief Method CreateArrayList addr 0x10e2cd0 size 0x64 virtual false final false
-static ::System::Collections::IList CreateArrayList(int32_t capacity) ;
+static System::Collections::IList CreateArrayList(int32_t capacity) ;
 
 /// @brief Method CreateArrayList addr 0x10e2d34 size 0x64 virtual false final false
-static ::System::Collections::IList CreateArrayList(::System::Collections::ICollection collection) ;
+static System::Collections::IList CreateArrayList(System::Collections::ICollection collection) ;
 
 /// @brief Method CreateArrayList addr 0x10e2d98 size 0x314 virtual false final false
-static ::System::Collections::IList CreateArrayList(::System::Collections::IEnumerable collection) ;
+static System::Collections::IList CreateArrayList(System::Collections::IEnumerable collection) ;
 
 /// @brief Method CreateHashtable addr 0x10e30ac size 0x5c virtual false final false
-static ::System::Collections::IDictionary CreateHashtable() ;
+static System::Collections::IDictionary CreateHashtable() ;
 
 /// @brief Method CreateHashtable addr 0x10e3108 size 0x64 virtual false final false
-static ::System::Collections::IDictionary CreateHashtable(int32_t capacity) ;
+static System::Collections::IDictionary CreateHashtable(int32_t capacity) ;
 
 /// @brief Method CreateHashtable addr 0x10e316c size 0x64 virtual false final false
-static ::System::Collections::IDictionary CreateHashtable(::System::Collections::IDictionary dictionary) ;
+static System::Collections::IDictionary CreateHashtable(System::Collections::IDictionary dictionary) ;
 
 /// @brief Method ToLowerInvariant addr 0x10e31d0 size 0x6c virtual false final false
 static ::StringW ToLowerInvariant(::StringW s) ;
@@ -129,10 +128,10 @@ static ::StringW ToLowerInvariant(::StringW s) ;
 static ::StringW ToUpperInvariant(::StringW s) ;
 
 /// @brief Method Dispose addr 0x10defb8 size 0x20 virtual false final false
-static void Dispose(::System::IO::Stream s) ;
+static void Dispose(System::IO::Stream s) ;
 
 /// @brief Method Dispose addr 0x10e323c size 0x1c virtual false final false
-static void Dispose(::System::IO::TextWriter t) ;
+static void Dispose(System::IO::TextWriter t) ;
 
 /// @brief Method IndexOf addr 0x10e3258 size 0x84 virtual false final false
 static int32_t IndexOf(::StringW source, ::StringW value) ;
@@ -159,6 +158,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::Platform);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Platform, "Org.BouncyCastle.Utilities", "Platform");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Platform);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Platform, "Org.BouncyCastle.Utilities", "Platform");

@@ -2,21 +2,8 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_1_def.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine::UIElements {
 class IPanel;
-}
-namespace UnityEngine::UIElements {
-class IMouseEvent;
-}
-namespace UnityEngine::UIElements {
-class IPointerEvent;
-}
-namespace UnityEngine {
-class Event;
-}
-namespace UnityEngine {
-struct Vector2;
 }
 namespace UnityEngine {
 struct EventModifiers;
@@ -24,8 +11,20 @@ struct EventModifiers;
 namespace UnityEngine::UIElements {
 class IMouseEventInternal;
 }
+namespace UnityEngine {
+class Event;
+}
+namespace UnityEngine {
+struct Vector2;
+}
 namespace UnityEngine::UIElements {
 class IEventHandler;
+}
+namespace UnityEngine::UIElements {
+class IPointerEvent;
+}
+namespace UnityEngine::UIElements {
+class IMouseEvent;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -42,17 +41,17 @@ namespace UnityEngine::UIElements {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7279)), TypeDefinitionIndex(TypeDefinitionIndex(7314)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7279), inst: 1631 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7279)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7279), inst: 1631 }), TypeDefinitionIndex(TypeDefinitionIndex(7314))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7314), inst: 2 })
 // CS Name: UnityEngine.UIElements.MouseEventBase`1
-class CORDL_TYPE MouseEventBase_1<T> : public ::UnityEngine::UIElements::EventBase_1<T> {
+class CORDL_TYPE MouseEventBase_1<T> : public UnityEngine::UIElements::EventBase_1<T> {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::UIElements::IMouseEvent
-constexpr operator  ::UnityEngine::UIElements::IMouseEvent() const noexcept;
+/// @brief Convert operator to UnityEngine::UIElements::IMouseEvent
+constexpr operator  UnityEngine::UIElements::IMouseEvent() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::UIElements::IMouseEventInternal
-constexpr operator  ::UnityEngine::UIElements::IMouseEventInternal() const noexcept;
+/// @brief Convert operator to UnityEngine::UIElements::IMouseEventInternal
+constexpr operator  UnityEngine::UIElements::IMouseEventInternal() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xd0};
@@ -66,7 +65,7 @@ constexpr MouseEventBase_1(MouseEventBase_1 const& ) noexcept = default;
 constexpr MouseEventBase_1(MouseEventBase_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MouseEventBase_1(void* ptr) noexcept : ::UnityEngine::UIElements::EventBase_1<T>(ptr) {
+constexpr explicit MouseEventBase_1(void* ptr) noexcept : UnityEngine::UIElements::EventBase_1<T>(ptr) {
 }
 
 
@@ -87,29 +86,29 @@ constexpr explicit MouseEventBase_1(void* ptr) noexcept : ::UnityEngine::UIEleme
 
 // Fields
 
- ::UnityEngine::EventModifiers __declspec(property(get=__get__modifiers_k__BackingField, put=__set__modifiers_k__BackingField))  _modifiers_k__BackingField;
+ UnityEngine::EventModifiers __declspec(property(get=__get__modifiers_k__BackingField, put=__set__modifiers_k__BackingField))  _modifiers_k__BackingField;
 
-constexpr void __set__modifiers_k__BackingField(::UnityEngine::EventModifiers value) ;
+constexpr void __set__modifiers_k__BackingField(UnityEngine::EventModifiers value) ;
 
-constexpr ::UnityEngine::EventModifiers __get__modifiers_k__BackingField() const;
+constexpr UnityEngine::EventModifiers __get__modifiers_k__BackingField() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get__mousePosition_k__BackingField, put=__set__mousePosition_k__BackingField))  _mousePosition_k__BackingField;
+ UnityEngine::Vector2 __declspec(property(get=__get__mousePosition_k__BackingField, put=__set__mousePosition_k__BackingField))  _mousePosition_k__BackingField;
 
-constexpr void __set__mousePosition_k__BackingField(::UnityEngine::Vector2 value) ;
+constexpr void __set__mousePosition_k__BackingField(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get__mousePosition_k__BackingField() const;
+constexpr UnityEngine::Vector2 __get__mousePosition_k__BackingField() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get__localMousePosition_k__BackingField, put=__set__localMousePosition_k__BackingField))  _localMousePosition_k__BackingField;
+ UnityEngine::Vector2 __declspec(property(get=__get__localMousePosition_k__BackingField, put=__set__localMousePosition_k__BackingField))  _localMousePosition_k__BackingField;
 
-constexpr void __set__localMousePosition_k__BackingField(::UnityEngine::Vector2 value) ;
+constexpr void __set__localMousePosition_k__BackingField(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get__localMousePosition_k__BackingField() const;
+constexpr UnityEngine::Vector2 __get__localMousePosition_k__BackingField() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get__mouseDelta_k__BackingField, put=__set__mouseDelta_k__BackingField))  _mouseDelta_k__BackingField;
+ UnityEngine::Vector2 __declspec(property(get=__get__mouseDelta_k__BackingField, put=__set__mouseDelta_k__BackingField))  _mouseDelta_k__BackingField;
 
-constexpr void __set__mouseDelta_k__BackingField(::UnityEngine::Vector2 value) ;
+constexpr void __set__mouseDelta_k__BackingField(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get__mouseDelta_k__BackingField() const;
+constexpr UnityEngine::Vector2 __get__mouseDelta_k__BackingField() const;
 
  int32_t __declspec(property(get=__get__clickCount_k__BackingField, put=__set__clickCount_k__BackingField))  _clickCount_k__BackingField;
 
@@ -141,22 +140,22 @@ constexpr void __set__UnityEngine_UIElements_IMouseEventInternal_recomputeTopEle
 
 constexpr bool __get__UnityEngine_UIElements_IMouseEventInternal_recomputeTopElementUnderMouse_k__BackingField() const;
 
- ::UnityEngine::UIElements::IPointerEvent __declspec(property(get=__get__UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField, put=__set__UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField))  _UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField;
+ UnityEngine::UIElements::IPointerEvent __declspec(property(get=__get__UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField, put=__set__UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField))  _UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField;
 
-constexpr void __set__UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField(::UnityEngine::UIElements::IPointerEvent value) ;
+constexpr void __set__UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField(UnityEngine::UIElements::IPointerEvent value) ;
 
-constexpr ::UnityEngine::UIElements::IPointerEvent __get__UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField() const;
+constexpr UnityEngine::UIElements::IPointerEvent __get__UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField() const;
 
 
 // Properties
 
- ::UnityEngine::EventModifiers __declspec(property(get=get_modifiers, put=set_modifiers))  modifiers;
+ UnityEngine::EventModifiers __declspec(property(get=get_modifiers, put=set_modifiers))  modifiers;
 
- ::UnityEngine::Vector2 __declspec(property(get=get_mousePosition, put=set_mousePosition))  mousePosition;
+ UnityEngine::Vector2 __declspec(property(get=get_mousePosition, put=set_mousePosition))  mousePosition;
 
- ::UnityEngine::Vector2 __declspec(property(get=get_localMousePosition, put=set_localMousePosition))  localMousePosition;
+ UnityEngine::Vector2 __declspec(property(get=get_localMousePosition, put=set_localMousePosition))  localMousePosition;
 
- ::UnityEngine::Vector2 __declspec(property(get=get_mouseDelta, put=set_mouseDelta))  mouseDelta;
+ UnityEngine::Vector2 __declspec(property(get=get_mouseDelta, put=set_mouseDelta))  mouseDelta;
 
  int32_t __declspec(property(get=get_clickCount, put=set_clickCount))  clickCount;
 
@@ -176,36 +175,36 @@ constexpr ::UnityEngine::UIElements::IPointerEvent __get__UnityEngine_UIElements
 
  bool __declspec(property(get=UnityEngine_UIElements_IMouseEventInternal_get_recomputeTopElementUnderMouse, put=UnityEngine_UIElements_IMouseEventInternal_set_recomputeTopElementUnderMouse))  UnityEngine_UIElements_IMouseEventInternal_recomputeTopElementUnderMouse;
 
- ::UnityEngine::UIElements::IPointerEvent __declspec(property(get=UnityEngine_UIElements_IMouseEventInternal_get_sourcePointerEvent, put=UnityEngine_UIElements_IMouseEventInternal_set_sourcePointerEvent))  UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent;
+ UnityEngine::UIElements::IPointerEvent __declspec(property(get=UnityEngine_UIElements_IMouseEventInternal_get_sourcePointerEvent, put=UnityEngine_UIElements_IMouseEventInternal_set_sourcePointerEvent))  UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent;
 
- ::UnityEngine::UIElements::IEventHandler __declspec(property(get=get_currentTarget, put=set_currentTarget))  currentTarget;
+ UnityEngine::UIElements::IEventHandler __declspec(property(get=get_currentTarget, put=set_currentTarget))  currentTarget;
 
 
 // Methods
 
 /// @brief Method get_modifiers addr 0x0 size 0xffffffffffffffff virtual true final true
- ::UnityEngine::EventModifiers get_modifiers() ;
+ UnityEngine::EventModifiers get_modifiers() ;
 
 /// @brief Method set_modifiers addr 0x0 size 0xffffffffffffffff virtual false final false
- void set_modifiers(::UnityEngine::EventModifiers value) ;
+ void set_modifiers(UnityEngine::EventModifiers value) ;
 
 /// @brief Method get_mousePosition addr 0x0 size 0xffffffffffffffff virtual true final true
- ::UnityEngine::Vector2 get_mousePosition() ;
+ UnityEngine::Vector2 get_mousePosition() ;
 
 /// @brief Method set_mousePosition addr 0x0 size 0xffffffffffffffff virtual false final false
- void set_mousePosition(::UnityEngine::Vector2 value) ;
+ void set_mousePosition(UnityEngine::Vector2 value) ;
 
 /// @brief Method get_localMousePosition addr 0x0 size 0xffffffffffffffff virtual true final true
- ::UnityEngine::Vector2 get_localMousePosition() ;
+ UnityEngine::Vector2 get_localMousePosition() ;
 
 /// @brief Method set_localMousePosition addr 0x0 size 0xffffffffffffffff virtual false final false
- void set_localMousePosition(::UnityEngine::Vector2 value) ;
+ void set_localMousePosition(UnityEngine::Vector2 value) ;
 
 /// @brief Method get_mouseDelta addr 0x0 size 0xffffffffffffffff virtual true final true
- ::UnityEngine::Vector2 get_mouseDelta() ;
+ UnityEngine::Vector2 get_mouseDelta() ;
 
 /// @brief Method set_mouseDelta addr 0x0 size 0xffffffffffffffff virtual false final false
- void set_mouseDelta(::UnityEngine::Vector2 value) ;
+ void set_mouseDelta(UnityEngine::Vector2 value) ;
 
 /// @brief Method get_clickCount addr 0x0 size 0xffffffffffffffff virtual true final true
  int32_t get_clickCount() ;
@@ -250,10 +249,10 @@ constexpr ::UnityEngine::UIElements::IPointerEvent __get__UnityEngine_UIElements
  void UnityEngine_UIElements_IMouseEventInternal_set_recomputeTopElementUnderMouse(bool value) ;
 
 /// @brief Method UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent addr 0x0 size 0xffffffffffffffff virtual true final true
- ::UnityEngine::UIElements::IPointerEvent UnityEngine_UIElements_IMouseEventInternal_get_sourcePointerEvent() ;
+ UnityEngine::UIElements::IPointerEvent UnityEngine_UIElements_IMouseEventInternal_get_sourcePointerEvent() ;
 
 /// @brief Method UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent addr 0x0 size 0xffffffffffffffff virtual true final true
- void UnityEngine_UIElements_IMouseEventInternal_set_sourcePointerEvent(::UnityEngine::UIElements::IPointerEvent value) ;
+ void UnityEngine_UIElements_IMouseEventInternal_set_sourcePointerEvent(UnityEngine::UIElements::IPointerEvent value) ;
 
 /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
  void Init() ;
@@ -262,28 +261,28 @@ constexpr ::UnityEngine::UIElements::IPointerEvent __get__UnityEngine_UIElements
  void LocalInit() ;
 
 /// @brief Method get_currentTarget addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::UIElements::IEventHandler get_currentTarget() ;
+ UnityEngine::UIElements::IEventHandler get_currentTarget() ;
 
 /// @brief Method set_currentTarget addr 0x0 size 0xffffffffffffffff virtual true final false
- void set_currentTarget(::UnityEngine::UIElements::IEventHandler value) ;
+ void set_currentTarget(UnityEngine::UIElements::IEventHandler value) ;
 
 /// @brief Method PreDispatch addr 0x0 size 0xffffffffffffffff virtual true final false
- void PreDispatch(::UnityEngine::UIElements::IPanel panel) ;
+ void PreDispatch(UnityEngine::UIElements::IPanel panel) ;
 
 /// @brief Method PostDispatch addr 0x0 size 0xffffffffffffffff virtual true final false
- void PostDispatch(::UnityEngine::UIElements::IPanel panel) ;
+ void PostDispatch(UnityEngine::UIElements::IPanel panel) ;
 
 /// @brief Method GetPooled addr 0x0 size 0xffffffffffffffff virtual false final false
-static T GetPooled(::UnityEngine::Event systemEvent) ;
+static T GetPooled(UnityEngine::Event systemEvent) ;
 
 /// @brief Method GetPooled addr 0x0 size 0xffffffffffffffff virtual false final false
-static T GetPooled(::UnityEngine::UIElements::IMouseEvent triggerEvent, ::UnityEngine::Vector2 mousePosition, bool recomputeTopElementUnderMouse) ;
+static T GetPooled(UnityEngine::UIElements::IMouseEvent triggerEvent, UnityEngine::Vector2 mousePosition, bool recomputeTopElementUnderMouse) ;
 
 /// @brief Method GetPooled addr 0x0 size 0xffffffffffffffff virtual false final false
-static T GetPooled(::UnityEngine::UIElements::IMouseEvent triggerEvent) ;
+static T GetPooled(UnityEngine::UIElements::IMouseEvent triggerEvent) ;
 
 /// @brief Method GetPooled addr 0x0 size 0xffffffffffffffff virtual false final false
-static T GetPooled(::UnityEngine::UIElements::IPointerEvent pointerEvent) ;
+static T GetPooled(UnityEngine::UIElements::IPointerEvent pointerEvent) ;
 
 // Ctor Parameters []
 explicit MouseEventBase_1() ;
@@ -295,5 +294,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::MouseEventBase_1, "UnityEngine.UIElements", "MouseEventBase`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::UIElements::MouseEventBase_1, "UnityEngine.UIElements", "MouseEventBase`1");

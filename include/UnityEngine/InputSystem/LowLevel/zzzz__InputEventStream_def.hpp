@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventBuffer;
 }
@@ -20,8 +19,8 @@ namespace UnityEngine::InputSystem::LowLevel {
 struct CORDL_TYPE InputEventStream : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "m_NativeBuffer", ty: "::UnityEngine::InputSystem::LowLevel::InputEventBuffer", modifiers: "", def_value: None }, CppParam { name: "m_CurrentNativeEventReadPtr", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_CurrentNativeEventWritePtr", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_RemainingNativeEventCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_MaxAppendedEvents", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_AppendBuffer", ty: "::UnityEngine::InputSystem::LowLevel::InputEventBuffer", modifiers: "", def_value: None }, CppParam { name: "m_CurrentAppendEventReadPtr", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_CurrentAppendEventWritePtr", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_RemainingAppendEventCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_NumEventsRetainedInBuffer", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_IsOpen", ty: "bool", modifiers: "", def_value: None }]
-constexpr InputEventStream(::UnityEngine::InputSystem::LowLevel::InputEventBuffer m_NativeBuffer, void* m_CurrentNativeEventReadPtr, void* m_CurrentNativeEventWritePtr, int32_t m_RemainingNativeEventCount, int32_t m_MaxAppendedEvents, ::UnityEngine::InputSystem::LowLevel::InputEventBuffer m_AppendBuffer, void* m_CurrentAppendEventReadPtr, void* m_CurrentAppendEventWritePtr, int32_t m_RemainingAppendEventCount, int32_t m_NumEventsRetainedInBuffer, bool m_IsOpen) noexcept;
+// Ctor Parameters [CppParam { name: "m_NativeBuffer", ty: "UnityEngine::InputSystem::LowLevel::InputEventBuffer", modifiers: "", def_value: None }, CppParam { name: "m_CurrentNativeEventReadPtr", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_CurrentNativeEventWritePtr", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_RemainingNativeEventCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_MaxAppendedEvents", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_AppendBuffer", ty: "UnityEngine::InputSystem::LowLevel::InputEventBuffer", modifiers: "", def_value: None }, CppParam { name: "m_CurrentAppendEventReadPtr", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_CurrentAppendEventWritePtr", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_RemainingAppendEventCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_NumEventsRetainedInBuffer", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_IsOpen", ty: "bool", modifiers: "", def_value: None }]
+constexpr InputEventStream(UnityEngine::InputSystem::LowLevel::InputEventBuffer m_NativeBuffer, void* m_CurrentNativeEventReadPtr, void* m_CurrentNativeEventWritePtr, int32_t m_RemainingNativeEventCount, int32_t m_MaxAppendedEvents, UnityEngine::InputSystem::LowLevel::InputEventBuffer m_AppendBuffer, void* m_CurrentAppendEventReadPtr, void* m_CurrentAppendEventWritePtr, int32_t m_RemainingAppendEventCount, int32_t m_NumEventsRetainedInBuffer, bool m_IsOpen) noexcept;
 
 
                     constexpr InputEventStream(InputEventStream const&) = default;
@@ -54,11 +53,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::InputSystem::LowLevel::InputEventBuffer __declspec(property(get=__get_m_NativeBuffer, put=__set_m_NativeBuffer))  m_NativeBuffer;
+ UnityEngine::InputSystem::LowLevel::InputEventBuffer __declspec(property(get=__get_m_NativeBuffer, put=__set_m_NativeBuffer))  m_NativeBuffer;
 
-constexpr void __set_m_NativeBuffer(::UnityEngine::InputSystem::LowLevel::InputEventBuffer value) ;
+constexpr void __set_m_NativeBuffer(UnityEngine::InputSystem::LowLevel::InputEventBuffer value) ;
 
-constexpr ::UnityEngine::InputSystem::LowLevel::InputEventBuffer __get_m_NativeBuffer() const;
+constexpr UnityEngine::InputSystem::LowLevel::InputEventBuffer __get_m_NativeBuffer() const;
 
  void* __declspec(property(get=__get_m_CurrentNativeEventReadPtr, put=__set_m_CurrentNativeEventReadPtr))  m_CurrentNativeEventReadPtr;
 
@@ -84,11 +83,11 @@ constexpr void __set_m_MaxAppendedEvents(int32_t value) ;
 
 constexpr int32_t __get_m_MaxAppendedEvents() const;
 
- ::UnityEngine::InputSystem::LowLevel::InputEventBuffer __declspec(property(get=__get_m_AppendBuffer, put=__set_m_AppendBuffer))  m_AppendBuffer;
+ UnityEngine::InputSystem::LowLevel::InputEventBuffer __declspec(property(get=__get_m_AppendBuffer, put=__set_m_AppendBuffer))  m_AppendBuffer;
 
-constexpr void __set_m_AppendBuffer(::UnityEngine::InputSystem::LowLevel::InputEventBuffer value) ;
+constexpr void __set_m_AppendBuffer(UnityEngine::InputSystem::LowLevel::InputEventBuffer value) ;
 
-constexpr ::UnityEngine::InputSystem::LowLevel::InputEventBuffer __get_m_AppendBuffer() const;
+constexpr UnityEngine::InputSystem::LowLevel::InputEventBuffer __get_m_AppendBuffer() const;
 
  void* __declspec(property(get=__get_m_CurrentAppendEventReadPtr, put=__set_m_CurrentAppendEventReadPtr))  m_CurrentAppendEventReadPtr;
 
@@ -152,10 +151,10 @@ constexpr bool __get_m_IsOpen() const;
  uint32_t get_numBytesRetainedInBuffer() ;
 
 /// @brief Method .ctor addr 0x29595c4 size 0x8c virtual false final false
- void _ctor(ByRef<::UnityEngine::InputSystem::LowLevel::InputEventBuffer> eventBuffer, int32_t maxAppendedEvents) ;
+ void _ctor(ByRef<UnityEngine::InputSystem::LowLevel::InputEventBuffer> eventBuffer, int32_t maxAppendedEvents) ;
 
 /// @brief Method Close addr 0x2959650 size 0x114 virtual false final false
- void Close(ByRef<::UnityEngine::InputSystem::LowLevel::InputEventBuffer> eventBuffer) ;
+ void Close(ByRef<UnityEngine::InputSystem::LowLevel::InputEventBuffer> eventBuffer) ;
 
 /// @brief Method CleanUpAfterException addr 0x2959764 size 0x90 virtual false final false
  void CleanUpAfterException() ;
@@ -173,5 +172,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::LowLevel
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::InputEventStream, "UnityEngine.InputSystem.LowLevel", "InputEventStream");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::LowLevel::InputEventStream, "UnityEngine.InputSystem.LowLevel", "InputEventStream");

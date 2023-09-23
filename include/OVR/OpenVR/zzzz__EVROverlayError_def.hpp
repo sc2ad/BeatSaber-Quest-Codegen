@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct EVROverlayError;
@@ -89,80 +88,79 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::OVR::OpenVR::EVROverlayError const None;
+static OVR::OpenVR::EVROverlayError const None;
 
 /// @brief Field UnknownOverlay offset 0
-static ::OVR::OpenVR::EVROverlayError const UnknownOverlay;
+static OVR::OpenVR::EVROverlayError const UnknownOverlay;
 
 /// @brief Field InvalidHandle offset 0
-static ::OVR::OpenVR::EVROverlayError const InvalidHandle;
+static OVR::OpenVR::EVROverlayError const InvalidHandle;
 
 /// @brief Field PermissionDenied offset 0
-static ::OVR::OpenVR::EVROverlayError const PermissionDenied;
+static OVR::OpenVR::EVROverlayError const PermissionDenied;
 
 /// @brief Field OverlayLimitExceeded offset 0
-static ::OVR::OpenVR::EVROverlayError const OverlayLimitExceeded;
+static OVR::OpenVR::EVROverlayError const OverlayLimitExceeded;
 
 /// @brief Field WrongVisibilityType offset 0
-static ::OVR::OpenVR::EVROverlayError const WrongVisibilityType;
+static OVR::OpenVR::EVROverlayError const WrongVisibilityType;
 
 /// @brief Field KeyTooLong offset 0
-static ::OVR::OpenVR::EVROverlayError const KeyTooLong;
+static OVR::OpenVR::EVROverlayError const KeyTooLong;
 
 /// @brief Field NameTooLong offset 0
-static ::OVR::OpenVR::EVROverlayError const NameTooLong;
+static OVR::OpenVR::EVROverlayError const NameTooLong;
 
 /// @brief Field KeyInUse offset 0
-static ::OVR::OpenVR::EVROverlayError const KeyInUse;
+static OVR::OpenVR::EVROverlayError const KeyInUse;
 
 /// @brief Field WrongTransformType offset 0
-static ::OVR::OpenVR::EVROverlayError const WrongTransformType;
+static OVR::OpenVR::EVROverlayError const WrongTransformType;
 
 /// @brief Field InvalidTrackedDevice offset 0
-static ::OVR::OpenVR::EVROverlayError const InvalidTrackedDevice;
+static OVR::OpenVR::EVROverlayError const InvalidTrackedDevice;
 
 /// @brief Field InvalidParameter offset 0
-static ::OVR::OpenVR::EVROverlayError const InvalidParameter;
+static OVR::OpenVR::EVROverlayError const InvalidParameter;
 
 /// @brief Field ThumbnailCantBeDestroyed offset 0
-static ::OVR::OpenVR::EVROverlayError const ThumbnailCantBeDestroyed;
+static OVR::OpenVR::EVROverlayError const ThumbnailCantBeDestroyed;
 
 /// @brief Field ArrayTooSmall offset 0
-static ::OVR::OpenVR::EVROverlayError const ArrayTooSmall;
+static OVR::OpenVR::EVROverlayError const ArrayTooSmall;
 
 /// @brief Field RequestFailed offset 0
-static ::OVR::OpenVR::EVROverlayError const RequestFailed;
+static OVR::OpenVR::EVROverlayError const RequestFailed;
 
 /// @brief Field InvalidTexture offset 0
-static ::OVR::OpenVR::EVROverlayError const InvalidTexture;
+static OVR::OpenVR::EVROverlayError const InvalidTexture;
 
 /// @brief Field UnableToLoadFile offset 0
-static ::OVR::OpenVR::EVROverlayError const UnableToLoadFile;
+static OVR::OpenVR::EVROverlayError const UnableToLoadFile;
 
 /// @brief Field KeyboardAlreadyInUse offset 0
-static ::OVR::OpenVR::EVROverlayError const KeyboardAlreadyInUse;
+static OVR::OpenVR::EVROverlayError const KeyboardAlreadyInUse;
 
 /// @brief Field NoNeighbor offset 0
-static ::OVR::OpenVR::EVROverlayError const NoNeighbor;
+static OVR::OpenVR::EVROverlayError const NoNeighbor;
 
 /// @brief Field TooManyMaskPrimitives offset 0
-static ::OVR::OpenVR::EVROverlayError const TooManyMaskPrimitives;
+static OVR::OpenVR::EVROverlayError const TooManyMaskPrimitives;
 
 /// @brief Field BadMaskPrimitive offset 0
-static ::OVR::OpenVR::EVROverlayError const BadMaskPrimitive;
+static OVR::OpenVR::EVROverlayError const BadMaskPrimitive;
 
 /// @brief Field TextureAlreadyLocked offset 0
-static ::OVR::OpenVR::EVROverlayError const TextureAlreadyLocked;
+static OVR::OpenVR::EVROverlayError const TextureAlreadyLocked;
 
 /// @brief Field TextureLockCapacityReached offset 0
-static ::OVR::OpenVR::EVROverlayError const TextureLockCapacityReached;
+static OVR::OpenVR::EVROverlayError const TextureLockCapacityReached;
 
 /// @brief Field TextureNotLocked offset 0
-static ::OVR::OpenVR::EVROverlayError const TextureNotLocked;
+static OVR::OpenVR::EVROverlayError const TextureNotLocked;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVROverlayError, "OVR.OpenVR", "EVROverlayError");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVROverlayError, "OVR.OpenVR", "EVROverlayError");

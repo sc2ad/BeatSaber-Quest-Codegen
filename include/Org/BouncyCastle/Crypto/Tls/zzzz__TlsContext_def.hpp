@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace Org::BouncyCastle::Crypto::Tls {
+class SecurityParameters;
+}
 namespace Org::BouncyCastle::Crypto::Prng {
 class IRandomGenerator;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSession;
@@ -17,8 +16,8 @@ class TlsSession;
 namespace Org::BouncyCastle::Crypto::Tls {
 class ProtocolVersion;
 }
-namespace Org::BouncyCastle::Crypto::Tls {
-class SecurityParameters;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -42,19 +41,19 @@ constexpr explicit TlsContext(void* ptr) noexcept : ::cordl_internals::Interface
 
 // Properties
 
- ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator __declspec(property(get=get_NonceRandomGenerator))  NonceRandomGenerator;
+ Org::BouncyCastle::Crypto::Prng::IRandomGenerator __declspec(property(get=get_NonceRandomGenerator))  NonceRandomGenerator;
 
- ::Org::BouncyCastle::Security::SecureRandom __declspec(property(get=get_SecureRandom))  SecureRandom;
+ Org::BouncyCastle::Security::SecureRandom __declspec(property(get=get_SecureRandom))  SecureRandom;
 
- ::Org::BouncyCastle::Crypto::Tls::SecurityParameters __declspec(property(get=get_SecurityParameters))  SecurityParameters;
+ Org::BouncyCastle::Crypto::Tls::SecurityParameters __declspec(property(get=get_SecurityParameters))  SecurityParameters;
 
  bool __declspec(property(get=get_IsServer))  IsServer;
 
- ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion __declspec(property(get=get_ClientVersion))  ClientVersion;
+ Org::BouncyCastle::Crypto::Tls::ProtocolVersion __declspec(property(get=get_ClientVersion))  ClientVersion;
 
- ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion __declspec(property(get=get_ServerVersion))  ServerVersion;
+ Org::BouncyCastle::Crypto::Tls::ProtocolVersion __declspec(property(get=get_ServerVersion))  ServerVersion;
 
- ::Org::BouncyCastle::Crypto::Tls::TlsSession __declspec(property(get=get_ResumableSession))  ResumableSession;
+ Org::BouncyCastle::Crypto::Tls::TlsSession __declspec(property(get=get_ResumableSession))  ResumableSession;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_UserObject, put=set_UserObject))  UserObject;
 
@@ -62,25 +61,25 @@ constexpr explicit TlsContext(void* ptr) noexcept : ::cordl_internals::Interface
 // Methods
 
 /// @brief Method get_NonceRandomGenerator addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator get_NonceRandomGenerator() ;
+ Org::BouncyCastle::Crypto::Prng::IRandomGenerator get_NonceRandomGenerator() ;
 
 /// @brief Method get_SecureRandom addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Security::SecureRandom get_SecureRandom() ;
+ Org::BouncyCastle::Security::SecureRandom get_SecureRandom() ;
 
 /// @brief Method get_SecurityParameters addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Crypto::Tls::SecurityParameters get_SecurityParameters() ;
+ Org::BouncyCastle::Crypto::Tls::SecurityParameters get_SecurityParameters() ;
 
 /// @brief Method get_IsServer addr 0x0 size 0xffffffffffffffff virtual true final false
  bool get_IsServer() ;
 
 /// @brief Method get_ClientVersion addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion get_ClientVersion() ;
+ Org::BouncyCastle::Crypto::Tls::ProtocolVersion get_ClientVersion() ;
 
 /// @brief Method get_ServerVersion addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion get_ServerVersion() ;
+ Org::BouncyCastle::Crypto::Tls::ProtocolVersion get_ServerVersion() ;
 
 /// @brief Method get_ResumableSession addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Crypto::Tls::TlsSession get_ResumableSession() ;
+ Org::BouncyCastle::Crypto::Tls::TlsSession get_ResumableSession() ;
 
 /// @brief Method get_UserObject addr 0x0 size 0xffffffffffffffff virtual true final false
  ::bs_hook::Il2CppWrapperType get_UserObject() ;
@@ -95,6 +94,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsContext);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::TlsContext, "Org.BouncyCastle.Crypto.Tls", "TlsContext");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::TlsContext);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::TlsContext, "Org.BouncyCastle.Crypto.Tls", "TlsContext");

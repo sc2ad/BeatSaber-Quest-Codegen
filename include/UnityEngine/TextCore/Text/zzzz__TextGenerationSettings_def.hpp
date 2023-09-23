@@ -4,42 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine::TextCore::Text {
-struct TextFontWeight;
-}
-namespace UnityEngine::TextCore::Text {
-struct TextureMapping;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine::TextCore::Text {
-class TextSettings;
-}
-namespace UnityEngine::TextCore::Text {
-struct TextOverflowMode;
-}
-namespace UnityEngine {
-struct Vector4;
-}
 namespace UnityEngine::TextCore::Text {
 class TextStyleSheet;
 }
 namespace UnityEngine::TextCore::Text {
-struct TextAlignment;
-}
-namespace UnityEngine::TextCore::Text {
 class TextColorGradient;
-}
-namespace UnityEngine::TextCore::Text {
-class SpriteAsset;
-}
-namespace UnityEngine {
-struct Color;
 }
 namespace UnityEngine::TextCore::Text {
 class FontAsset;
@@ -47,8 +16,38 @@ class FontAsset;
 namespace UnityEngine::TextCore::Text {
 struct FontStyles;
 }
+namespace UnityEngine {
+struct Vector4;
+}
+namespace UnityEngine::TextCore::Text {
+class SpriteAsset;
+}
+namespace UnityEngine::TextCore::Text {
+struct TextOverflowMode;
+}
+namespace UnityEngine::TextCore::Text {
+struct TextureMapping;
+}
+namespace UnityEngine::TextCore::Text {
+struct TextAlignment;
+}
+namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine::TextCore::Text {
+struct TextFontWeight;
+}
+namespace UnityEngine {
+class Material;
+}
 namespace UnityEngine::TextCore::Text {
 struct VertexSortingOrder;
+}
+namespace UnityEngine::TextCore::Text {
+class TextSettings;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -102,17 +101,17 @@ constexpr void __set_text(::StringW value) ;
 
 constexpr ::StringW __get_text() const;
 
- ::UnityEngine::Rect __declspec(property(get=__get_screenRect, put=__set_screenRect))  screenRect;
+ UnityEngine::Rect __declspec(property(get=__get_screenRect, put=__set_screenRect))  screenRect;
 
-constexpr void __set_screenRect(::UnityEngine::Rect value) ;
+constexpr void __set_screenRect(UnityEngine::Rect value) ;
 
-constexpr ::UnityEngine::Rect __get_screenRect() const;
+constexpr UnityEngine::Rect __get_screenRect() const;
 
- ::UnityEngine::Vector4 __declspec(property(get=__get_margins, put=__set_margins))  margins;
+ UnityEngine::Vector4 __declspec(property(get=__get_margins, put=__set_margins))  margins;
 
-constexpr void __set_margins(::UnityEngine::Vector4 value) ;
+constexpr void __set_margins(UnityEngine::Vector4 value) ;
 
-constexpr ::UnityEngine::Vector4 __get_margins() const;
+constexpr UnityEngine::Vector4 __get_margins() const;
 
  float_t __declspec(property(get=__get_scale, put=__set_scale))  scale;
 
@@ -120,53 +119,53 @@ constexpr void __set_scale(float_t value) ;
 
 constexpr float_t __get_scale() const;
 
- ::UnityEngine::TextCore::Text::FontAsset __declspec(property(get=__get_fontAsset, put=__set_fontAsset))  fontAsset;
+ UnityEngine::TextCore::Text::FontAsset __declspec(property(get=__get_fontAsset, put=__set_fontAsset))  fontAsset;
 
-constexpr void __set_fontAsset(::UnityEngine::TextCore::Text::FontAsset value) ;
+constexpr void __set_fontAsset(UnityEngine::TextCore::Text::FontAsset value) ;
 
-constexpr ::UnityEngine::TextCore::Text::FontAsset __get_fontAsset() const;
+constexpr UnityEngine::TextCore::Text::FontAsset __get_fontAsset() const;
 
- ::UnityEngine::Material __declspec(property(get=__get_material, put=__set_material))  material;
+ UnityEngine::Material __declspec(property(get=__get_material, put=__set_material))  material;
 
-constexpr void __set_material(::UnityEngine::Material value) ;
+constexpr void __set_material(UnityEngine::Material value) ;
 
-constexpr ::UnityEngine::Material __get_material() const;
+constexpr UnityEngine::Material __get_material() const;
 
- ::UnityEngine::TextCore::Text::SpriteAsset __declspec(property(get=__get_spriteAsset, put=__set_spriteAsset))  spriteAsset;
+ UnityEngine::TextCore::Text::SpriteAsset __declspec(property(get=__get_spriteAsset, put=__set_spriteAsset))  spriteAsset;
 
-constexpr void __set_spriteAsset(::UnityEngine::TextCore::Text::SpriteAsset value) ;
+constexpr void __set_spriteAsset(UnityEngine::TextCore::Text::SpriteAsset value) ;
 
-constexpr ::UnityEngine::TextCore::Text::SpriteAsset __get_spriteAsset() const;
+constexpr UnityEngine::TextCore::Text::SpriteAsset __get_spriteAsset() const;
 
- ::UnityEngine::TextCore::Text::TextStyleSheet __declspec(property(get=__get_styleSheet, put=__set_styleSheet))  styleSheet;
+ UnityEngine::TextCore::Text::TextStyleSheet __declspec(property(get=__get_styleSheet, put=__set_styleSheet))  styleSheet;
 
-constexpr void __set_styleSheet(::UnityEngine::TextCore::Text::TextStyleSheet value) ;
+constexpr void __set_styleSheet(UnityEngine::TextCore::Text::TextStyleSheet value) ;
 
-constexpr ::UnityEngine::TextCore::Text::TextStyleSheet __get_styleSheet() const;
+constexpr UnityEngine::TextCore::Text::TextStyleSheet __get_styleSheet() const;
 
- ::UnityEngine::TextCore::Text::FontStyles __declspec(property(get=__get_fontStyle, put=__set_fontStyle))  fontStyle;
+ UnityEngine::TextCore::Text::FontStyles __declspec(property(get=__get_fontStyle, put=__set_fontStyle))  fontStyle;
 
-constexpr void __set_fontStyle(::UnityEngine::TextCore::Text::FontStyles value) ;
+constexpr void __set_fontStyle(UnityEngine::TextCore::Text::FontStyles value) ;
 
-constexpr ::UnityEngine::TextCore::Text::FontStyles __get_fontStyle() const;
+constexpr UnityEngine::TextCore::Text::FontStyles __get_fontStyle() const;
 
- ::UnityEngine::TextCore::Text::TextSettings __declspec(property(get=__get_textSettings, put=__set_textSettings))  textSettings;
+ UnityEngine::TextCore::Text::TextSettings __declspec(property(get=__get_textSettings, put=__set_textSettings))  textSettings;
 
-constexpr void __set_textSettings(::UnityEngine::TextCore::Text::TextSettings value) ;
+constexpr void __set_textSettings(UnityEngine::TextCore::Text::TextSettings value) ;
 
-constexpr ::UnityEngine::TextCore::Text::TextSettings __get_textSettings() const;
+constexpr UnityEngine::TextCore::Text::TextSettings __get_textSettings() const;
 
- ::UnityEngine::TextCore::Text::TextAlignment __declspec(property(get=__get_textAlignment, put=__set_textAlignment))  textAlignment;
+ UnityEngine::TextCore::Text::TextAlignment __declspec(property(get=__get_textAlignment, put=__set_textAlignment))  textAlignment;
 
-constexpr void __set_textAlignment(::UnityEngine::TextCore::Text::TextAlignment value) ;
+constexpr void __set_textAlignment(UnityEngine::TextCore::Text::TextAlignment value) ;
 
-constexpr ::UnityEngine::TextCore::Text::TextAlignment __get_textAlignment() const;
+constexpr UnityEngine::TextCore::Text::TextAlignment __get_textAlignment() const;
 
- ::UnityEngine::TextCore::Text::TextOverflowMode __declspec(property(get=__get_overflowMode, put=__set_overflowMode))  overflowMode;
+ UnityEngine::TextCore::Text::TextOverflowMode __declspec(property(get=__get_overflowMode, put=__set_overflowMode))  overflowMode;
 
-constexpr void __set_overflowMode(::UnityEngine::TextCore::Text::TextOverflowMode value) ;
+constexpr void __set_overflowMode(UnityEngine::TextCore::Text::TextOverflowMode value) ;
 
-constexpr ::UnityEngine::TextCore::Text::TextOverflowMode __get_overflowMode() const;
+constexpr UnityEngine::TextCore::Text::TextOverflowMode __get_overflowMode() const;
 
  bool __declspec(property(get=__get_wordWrap, put=__set_wordWrap))  wordWrap;
 
@@ -180,17 +179,17 @@ constexpr void __set_wordWrappingRatio(float_t value) ;
 
 constexpr float_t __get_wordWrappingRatio() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_color, put=__set_color))  color;
+ UnityEngine::Color __declspec(property(get=__get_color, put=__set_color))  color;
 
-constexpr void __set_color(::UnityEngine::Color value) ;
+constexpr void __set_color(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_color() const;
+constexpr UnityEngine::Color __get_color() const;
 
- ::UnityEngine::TextCore::Text::TextColorGradient __declspec(property(get=__get_fontColorGradient, put=__set_fontColorGradient))  fontColorGradient;
+ UnityEngine::TextCore::Text::TextColorGradient __declspec(property(get=__get_fontColorGradient, put=__set_fontColorGradient))  fontColorGradient;
 
-constexpr void __set_fontColorGradient(::UnityEngine::TextCore::Text::TextColorGradient value) ;
+constexpr void __set_fontColorGradient(UnityEngine::TextCore::Text::TextColorGradient value) ;
 
-constexpr ::UnityEngine::TextCore::Text::TextColorGradient __get_fontColorGradient() const;
+constexpr UnityEngine::TextCore::Text::TextColorGradient __get_fontColorGradient() const;
 
  bool __declspec(property(get=__get_tintSprites, put=__set_tintSprites))  tintSprites;
 
@@ -318,11 +317,11 @@ constexpr void __set_useMaxVisibleDescender(bool value) ;
 
 constexpr bool __get_useMaxVisibleDescender() const;
 
- ::UnityEngine::TextCore::Text::TextFontWeight __declspec(property(get=__get_fontWeight, put=__set_fontWeight))  fontWeight;
+ UnityEngine::TextCore::Text::TextFontWeight __declspec(property(get=__get_fontWeight, put=__set_fontWeight))  fontWeight;
 
-constexpr void __set_fontWeight(::UnityEngine::TextCore::Text::TextFontWeight value) ;
+constexpr void __set_fontWeight(UnityEngine::TextCore::Text::TextFontWeight value) ;
 
-constexpr ::UnityEngine::TextCore::Text::TextFontWeight __get_fontWeight() const;
+constexpr UnityEngine::TextCore::Text::TextFontWeight __get_fontWeight() const;
 
  int32_t __declspec(property(get=__get_pageToDisplay, put=__set_pageToDisplay))  pageToDisplay;
 
@@ -330,17 +329,17 @@ constexpr void __set_pageToDisplay(int32_t value) ;
 
 constexpr int32_t __get_pageToDisplay() const;
 
- ::UnityEngine::TextCore::Text::TextureMapping __declspec(property(get=__get_horizontalMapping, put=__set_horizontalMapping))  horizontalMapping;
+ UnityEngine::TextCore::Text::TextureMapping __declspec(property(get=__get_horizontalMapping, put=__set_horizontalMapping))  horizontalMapping;
 
-constexpr void __set_horizontalMapping(::UnityEngine::TextCore::Text::TextureMapping value) ;
+constexpr void __set_horizontalMapping(UnityEngine::TextCore::Text::TextureMapping value) ;
 
-constexpr ::UnityEngine::TextCore::Text::TextureMapping __get_horizontalMapping() const;
+constexpr UnityEngine::TextCore::Text::TextureMapping __get_horizontalMapping() const;
 
- ::UnityEngine::TextCore::Text::TextureMapping __declspec(property(get=__get_verticalMapping, put=__set_verticalMapping))  verticalMapping;
+ UnityEngine::TextCore::Text::TextureMapping __declspec(property(get=__get_verticalMapping, put=__set_verticalMapping))  verticalMapping;
 
-constexpr void __set_verticalMapping(::UnityEngine::TextCore::Text::TextureMapping value) ;
+constexpr void __set_verticalMapping(UnityEngine::TextCore::Text::TextureMapping value) ;
 
-constexpr ::UnityEngine::TextCore::Text::TextureMapping __get_verticalMapping() const;
+constexpr UnityEngine::TextCore::Text::TextureMapping __get_verticalMapping() const;
 
  float_t __declspec(property(get=__get_uvLineOffset, put=__set_uvLineOffset))  uvLineOffset;
 
@@ -348,11 +347,11 @@ constexpr void __set_uvLineOffset(float_t value) ;
 
 constexpr float_t __get_uvLineOffset() const;
 
- ::UnityEngine::TextCore::Text::VertexSortingOrder __declspec(property(get=__get_geometrySortingOrder, put=__set_geometrySortingOrder))  geometrySortingOrder;
+ UnityEngine::TextCore::Text::VertexSortingOrder __declspec(property(get=__get_geometrySortingOrder, put=__set_geometrySortingOrder))  geometrySortingOrder;
 
-constexpr void __set_geometrySortingOrder(::UnityEngine::TextCore::Text::VertexSortingOrder value) ;
+constexpr void __set_geometrySortingOrder(UnityEngine::TextCore::Text::VertexSortingOrder value) ;
 
-constexpr ::UnityEngine::TextCore::Text::VertexSortingOrder __get_geometrySortingOrder() const;
+constexpr UnityEngine::TextCore::Text::VertexSortingOrder __get_geometrySortingOrder() const;
 
  bool __declspec(property(get=__get_inverseYAxis, put=__set_inverseYAxis))  inverseYAxis;
 
@@ -370,7 +369,7 @@ constexpr float_t __get_charWidthMaxAdj() const;
 // Methods
 
 /// @brief Method Equals addr 0x2bc96b4 size 0x3b4 virtual false final false
- bool Equals(::UnityEngine::TextCore::Text::TextGenerationSettings other) ;
+ bool Equals(UnityEngine::TextCore::Text::TextGenerationSettings other) ;
 
 /// @brief Method Equals addr 0x2bc9a68 size 0xc8 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -388,6 +387,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::Text
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::TextCore::Text::TextGenerationSettings);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::TextGenerationSettings, "UnityEngine.TextCore.Text", "TextGenerationSettings");
+NEED_NO_BOX(UnityEngine::TextCore::Text::TextGenerationSettings);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Text::TextGenerationSettings, "UnityEngine.TextCore.Text", "TextGenerationSettings");

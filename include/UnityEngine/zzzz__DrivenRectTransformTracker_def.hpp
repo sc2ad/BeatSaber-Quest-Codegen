@@ -1,15 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
+namespace UnityEngine {
+class RectTransform;
+}
 namespace UnityEngine {
 struct DrivenTransformProperties;
 }
 namespace UnityEngine {
 class Object;
-}
-namespace UnityEngine {
-class RectTransform;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -56,7 +55,7 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 // Methods
 
 /// @brief Method Add addr 0x2b6c12c size 0x4 virtual false final false
- void Add(::UnityEngine::Object driver, ::UnityEngine::RectTransform rectTransform, ::UnityEngine::DrivenTransformProperties drivenProperties) ;
+ void Add(UnityEngine::Object driver, UnityEngine::RectTransform rectTransform, UnityEngine::DrivenTransformProperties drivenProperties) ;
 
 /// @brief Method Clear addr 0x2b6c130 size 0x4 virtual false final false
  void Clear() ;
@@ -65,5 +64,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::DrivenRectTransformTracker, "UnityEngine", "DrivenRectTransformTracker");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::DrivenRectTransformTracker, "UnityEngine", "DrivenRectTransformTracker");

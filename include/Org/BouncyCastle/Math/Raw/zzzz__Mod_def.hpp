@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
@@ -54,11 +53,11 @@ constexpr explicit Mod(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 
 // Fields
 
-static ::Org::BouncyCastle::Security::SecureRandom __declspec(property(get=__get_RandomSource, put=__set_RandomSource))  RandomSource;
+static Org::BouncyCastle::Security::SecureRandom __declspec(property(get=__get_RandomSource, put=__set_RandomSource))  RandomSource;
 
-static void __set_RandomSource(::Org::BouncyCastle::Security::SecureRandom value) ;
+static void __set_RandomSource(Org::BouncyCastle::Security::SecureRandom value) ;
 
-static ::Org::BouncyCastle::Security::SecureRandom __get_RandomSource() ;
+static Org::BouncyCastle::Security::SecureRandom __get_RandomSource() ;
 
 
 // Methods
@@ -91,6 +90,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Math::Raw
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Math::Raw::Mod);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::Raw::Mod, "Org.BouncyCastle.Math.Raw", "Mod");
+NEED_NO_BOX(Org::BouncyCastle::Math::Raw::Mod);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Raw::Mod, "Org.BouncyCastle.Math.Raw", "Mod");

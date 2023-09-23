@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct ____UnityEngine__Texture2D__EXRFlags;
-}
 namespace UnityEngine {
 class Texture2D;
+}
+namespace UnityEngine {
+struct UnityEngine__Texture2D__EXRFlags;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -57,33 +56,32 @@ constexpr explicit ImageConversion(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 // Methods
 
 /// @brief Method EncodeToTGA addr 0x2b82e4c size 0x3c virtual false final false
-static ::ArrayW<uint8_t> EncodeToTGA(::UnityEngine::Texture2D tex) ;
+static ::ArrayW<uint8_t> EncodeToTGA(UnityEngine::Texture2D tex) ;
 
 /// @brief Method EncodeToPNG addr 0x2b82e88 size 0x3c virtual false final false
-static ::ArrayW<uint8_t> EncodeToPNG(::UnityEngine::Texture2D tex) ;
+static ::ArrayW<uint8_t> EncodeToPNG(UnityEngine::Texture2D tex) ;
 
 /// @brief Method EncodeToJPG addr 0x2b82ec4 size 0x44 virtual false final false
-static ::ArrayW<uint8_t> EncodeToJPG(::UnityEngine::Texture2D tex, int32_t quality) ;
+static ::ArrayW<uint8_t> EncodeToJPG(UnityEngine::Texture2D tex, int32_t quality) ;
 
 /// @brief Method EncodeToJPG addr 0x2b82f08 size 0x40 virtual false final false
-static ::ArrayW<uint8_t> EncodeToJPG(::UnityEngine::Texture2D tex) ;
+static ::ArrayW<uint8_t> EncodeToJPG(UnityEngine::Texture2D tex) ;
 
 /// @brief Method EncodeToEXR addr 0x2b82f48 size 0x44 virtual false final false
-static ::ArrayW<uint8_t> EncodeToEXR(::UnityEngine::Texture2D tex, ::UnityEngine::____UnityEngine__Texture2D__EXRFlags flags) ;
+static ::ArrayW<uint8_t> EncodeToEXR(UnityEngine::Texture2D tex, UnityEngine::UnityEngine__Texture2D__EXRFlags flags) ;
 
 /// @brief Method EncodeToEXR addr 0x2b82f8c size 0x40 virtual false final false
-static ::ArrayW<uint8_t> EncodeToEXR(::UnityEngine::Texture2D tex) ;
+static ::ArrayW<uint8_t> EncodeToEXR(UnityEngine::Texture2D tex) ;
 
 /// @brief Method LoadImage addr 0x2b82fcc size 0x54 virtual false final false
-static bool LoadImage(::UnityEngine::Texture2D tex, ::ArrayW<uint8_t> data, bool markNonReadable) ;
+static bool LoadImage(UnityEngine::Texture2D tex, ::ArrayW<uint8_t> data, bool markNonReadable) ;
 
 /// @brief Method LoadImage addr 0x2b83020 size 0x48 virtual false final false
-static bool LoadImage(::UnityEngine::Texture2D tex, ::ArrayW<uint8_t> data) ;
+static bool LoadImage(UnityEngine::Texture2D tex, ::ArrayW<uint8_t> data) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ImageConversion);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ImageConversion, "UnityEngine", "ImageConversion");
+NEED_NO_BOX(UnityEngine::ImageConversion);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ImageConversion, "UnityEngine", "ImageConversion");

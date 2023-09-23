@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 class Transform;
 }
@@ -20,7 +19,7 @@ namespace RootMotion::FinalIK {
 class GenericPoser;
 }
 namespace RootMotion::FinalIK {
-class ____RootMotion__FinalIK__GenericPoser__Map;
+class RootMotion__FinalIK__GenericPoser__Map;
 }
 // Type: ::Map
 namespace RootMotion::FinalIK {
@@ -28,74 +27,74 @@ namespace RootMotion::FinalIK {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12556))
 // CS Name: RootMotion.FinalIK.GenericPoser::Map
-class CORDL_TYPE ____RootMotion__FinalIK__GenericPoser__Map : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE RootMotion__FinalIK__GenericPoser__Map : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
 
-virtual ~____RootMotion__FinalIK__GenericPoser__Map() = default;
+virtual ~RootMotion__FinalIK__GenericPoser__Map() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____RootMotion__FinalIK__GenericPoser__Map", modifiers: " const&", def_value: None }]
-constexpr ____RootMotion__FinalIK__GenericPoser__Map(____RootMotion__FinalIK__GenericPoser__Map const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "RootMotion__FinalIK__GenericPoser__Map", modifiers: " const&", def_value: None }]
+constexpr RootMotion__FinalIK__GenericPoser__Map(RootMotion__FinalIK__GenericPoser__Map const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____RootMotion__FinalIK__GenericPoser__Map", modifiers: "&&", def_value: None }]
-constexpr ____RootMotion__FinalIK__GenericPoser__Map(____RootMotion__FinalIK__GenericPoser__Map&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "RootMotion__FinalIK__GenericPoser__Map", modifiers: "&&", def_value: None }]
+constexpr RootMotion__FinalIK__GenericPoser__Map(RootMotion__FinalIK__GenericPoser__Map&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____RootMotion__FinalIK__GenericPoser__Map(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit RootMotion__FinalIK__GenericPoser__Map(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____RootMotion__FinalIK__GenericPoser__Map& operator=(std::nullptr_t) noexcept {
+  constexpr RootMotion__FinalIK__GenericPoser__Map& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____RootMotion__FinalIK__GenericPoser__Map& operator=(void* o) noexcept {
+  constexpr RootMotion__FinalIK__GenericPoser__Map& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____RootMotion__FinalIK__GenericPoser__Map& operator=(____RootMotion__FinalIK__GenericPoser__Map&& o) noexcept = default;
-  constexpr ____RootMotion__FinalIK__GenericPoser__Map& operator=(____RootMotion__FinalIK__GenericPoser__Map const& o) noexcept = default;
+  constexpr RootMotion__FinalIK__GenericPoser__Map& operator=(RootMotion__FinalIK__GenericPoser__Map&& o) noexcept = default;
+  constexpr RootMotion__FinalIK__GenericPoser__Map& operator=(RootMotion__FinalIK__GenericPoser__Map const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::UnityEngine::Transform __declspec(property(get=__get_bone, put=__set_bone))  bone;
+ UnityEngine::Transform __declspec(property(get=__get_bone, put=__set_bone))  bone;
 
-constexpr void __set_bone(::UnityEngine::Transform value) ;
+constexpr void __set_bone(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_bone() const;
+constexpr UnityEngine::Transform __get_bone() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_target, put=__set_target))  target;
+ UnityEngine::Transform __declspec(property(get=__get_target, put=__set_target))  target;
 
-constexpr void __set_target(::UnityEngine::Transform value) ;
+constexpr void __set_target(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_target() const;
+constexpr UnityEngine::Transform __get_target() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_defaultLocalPosition, put=__set_defaultLocalPosition))  defaultLocalPosition;
+ UnityEngine::Vector3 __declspec(property(get=__get_defaultLocalPosition, put=__set_defaultLocalPosition))  defaultLocalPosition;
 
-constexpr void __set_defaultLocalPosition(::UnityEngine::Vector3 value) ;
+constexpr void __set_defaultLocalPosition(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_defaultLocalPosition() const;
+constexpr UnityEngine::Vector3 __get_defaultLocalPosition() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get_defaultLocalRotation, put=__set_defaultLocalRotation))  defaultLocalRotation;
+ UnityEngine::Quaternion __declspec(property(get=__get_defaultLocalRotation, put=__set_defaultLocalRotation))  defaultLocalRotation;
 
-constexpr void __set_defaultLocalRotation(::UnityEngine::Quaternion value) ;
+constexpr void __set_defaultLocalRotation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get_defaultLocalRotation() const;
+constexpr UnityEngine::Quaternion __get_defaultLocalRotation() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bone", ty: "::UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "target", ty: "::UnityEngine::Transform", modifiers: "", def_value: None }]
-explicit ____RootMotion__FinalIK__GenericPoser__Map(::UnityEngine::Transform bone, ::UnityEngine::Transform target) ;
+// Ctor Parameters [CppParam { name: "bone", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "target", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
+explicit RootMotion__FinalIK__GenericPoser__Map(UnityEngine::Transform bone, UnityEngine::Transform target) ;
 
 /// @brief Method .ctor addr 0x12007c4 size 0x30 virtual false final false
- void _ctor(::UnityEngine::Transform bone, ::UnityEngine::Transform target) ;
+ void _ctor(UnityEngine::Transform bone, UnityEngine::Transform target) ;
 
 /// @brief Method StoreDefaultState addr 0x1200b00 size 0x44 virtual false final false
  void StoreDefaultState() ;
@@ -116,10 +115,10 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12559))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12557))
 // CS Name: RootMotion.FinalIK.GenericPoser
-class CORDL_TYPE GenericPoser : public ::RootMotion::FinalIK::Poser {
+class CORDL_TYPE GenericPoser : public RootMotion::FinalIK::Poser {
 public:
 // Declarations
-using Map = ::RootMotion::FinalIK::____RootMotion__FinalIK__GenericPoser__Map;
+using Map = RootMotion::FinalIK::RootMotion__FinalIK__GenericPoser__Map;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x58};
@@ -133,7 +132,7 @@ constexpr GenericPoser(GenericPoser const& ) noexcept = default;
 constexpr GenericPoser(GenericPoser&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GenericPoser(void* ptr) noexcept : ::RootMotion::FinalIK::Poser(ptr) {
+constexpr explicit GenericPoser(void* ptr) noexcept : RootMotion::FinalIK::Poser(ptr) {
 }
 
 
@@ -154,11 +153,11 @@ constexpr explicit GenericPoser(void* ptr) noexcept : ::RootMotion::FinalIK::Pos
 
 // Fields
 
- ::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__GenericPoser__Map> __declspec(property(get=__get_maps, put=__set_maps))  maps;
+ ::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__GenericPoser__Map> __declspec(property(get=__get_maps, put=__set_maps))  maps;
 
-constexpr void __set_maps(::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__GenericPoser__Map> value) ;
+constexpr void __set_maps(::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__GenericPoser__Map> value) ;
 
-constexpr ::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__GenericPoser__Map> __get_maps() const;
+constexpr ::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__GenericPoser__Map> __get_maps() const;
 
 
 // Methods
@@ -179,7 +178,7 @@ constexpr ::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__GenericPoser_
  void StoreDefaultState() ;
 
 /// @brief Method GetTargetNamed addr 0x1200730 size 0x94 virtual false final false
- ::UnityEngine::Transform GetTargetNamed(::StringW tName, ::ArrayW<::UnityEngine::Transform> array) ;
+ UnityEngine::Transform GetTargetNamed(::StringW tName, ::ArrayW<UnityEngine::Transform> array) ;
 
 // Ctor Parameters []
 explicit GenericPoser() ;
@@ -191,8 +190,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::GenericPoser);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::GenericPoser, "RootMotion.FinalIK", "GenericPoser");
-NEED_NO_BOX(::RootMotion::FinalIK::____RootMotion__FinalIK__GenericPoser__Map);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::____RootMotion__FinalIK__GenericPoser__Map, "RootMotion.FinalIK", "GenericPoser/Map");
+NEED_NO_BOX(RootMotion::FinalIK::GenericPoser);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GenericPoser, "RootMotion.FinalIK", "GenericPoser");
+NEED_NO_BOX(RootMotion::FinalIK::RootMotion__FinalIK__GenericPoser__Map);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RootMotion__FinalIK__GenericPoser__Map, "RootMotion.FinalIK", "GenericPoser/Map");

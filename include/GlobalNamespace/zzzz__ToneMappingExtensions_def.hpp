@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace GlobalNamespace {
 struct ToneMapping;
 }
@@ -63,12 +62,11 @@ static ::ArrayW<::StringW> __get__shaderKeywordMap() ;
 // Methods
 
 /// @brief Method SetShaderKeyword addr 0x1f95f20 size 0x94 virtual false final false
-static void SetShaderKeyword(::GlobalNamespace::ToneMapping toneMapping) ;
+static void SetShaderKeyword(GlobalNamespace::ToneMapping toneMapping) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ToneMappingExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ToneMappingExtensions, "", "ToneMappingExtensions");
+NEED_NO_BOX(GlobalNamespace::ToneMappingExtensions);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ToneMappingExtensions, "", "ToneMappingExtensions");

@@ -2,28 +2,27 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
-namespace System {
-class Action;
-}
 namespace System {
 template<typename T>
 class Action_1;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-class PlayerTransforms;
 }
 namespace GlobalNamespace {
 class IAudioTimeSource;
 }
 namespace UnityEngine {
+struct Vector3;
+}
+namespace System {
+class Action;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
 struct Quaternion;
+}
+namespace GlobalNamespace {
+class PlayerTransforms;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,7 +34,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4939))
 // CS Name: SliderMovement
-class CORDL_TYPE SliderMovement : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SliderMovement : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -50,7 +49,7 @@ constexpr SliderMovement(SliderMovement const& ) noexcept = default;
 constexpr SliderMovement(SliderMovement&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SliderMovement(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SliderMovement(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -71,53 +70,53 @@ constexpr explicit SliderMovement(void* ptr) noexcept : ::UnityEngine::MonoBehav
 
 // Fields
 
- ::GlobalNamespace::IAudioTimeSource __declspec(property(get=__get__audioTimeSyncController, put=__set__audioTimeSyncController))  _audioTimeSyncController;
+ GlobalNamespace::IAudioTimeSource __declspec(property(get=__get__audioTimeSyncController, put=__set__audioTimeSyncController))  _audioTimeSyncController;
 
-constexpr void __set__audioTimeSyncController(::GlobalNamespace::IAudioTimeSource value) ;
+constexpr void __set__audioTimeSyncController(GlobalNamespace::IAudioTimeSource value) ;
 
-constexpr ::GlobalNamespace::IAudioTimeSource __get__audioTimeSyncController() const;
+constexpr GlobalNamespace::IAudioTimeSource __get__audioTimeSyncController() const;
 
- ::GlobalNamespace::PlayerTransforms __declspec(property(get=__get__playerTransforms, put=__set__playerTransforms))  _playerTransforms;
+ GlobalNamespace::PlayerTransforms __declspec(property(get=__get__playerTransforms, put=__set__playerTransforms))  _playerTransforms;
 
-constexpr void __set__playerTransforms(::GlobalNamespace::PlayerTransforms value) ;
+constexpr void __set__playerTransforms(GlobalNamespace::PlayerTransforms value) ;
 
-constexpr ::GlobalNamespace::PlayerTransforms __get__playerTransforms() const;
+constexpr GlobalNamespace::PlayerTransforms __get__playerTransforms() const;
 
- ::System::Action __declspec(property(get=__get_movementDidFinishEvent, put=__set_movementDidFinishEvent))  movementDidFinishEvent;
+ System::Action __declspec(property(get=__get_movementDidFinishEvent, put=__set_movementDidFinishEvent))  movementDidFinishEvent;
 
-constexpr void __set_movementDidFinishEvent(::System::Action value) ;
+constexpr void __set_movementDidFinishEvent(System::Action value) ;
 
-constexpr ::System::Action __get_movementDidFinishEvent() const;
+constexpr System::Action __get_movementDidFinishEvent() const;
 
- ::System::Action_1<float_t> __declspec(property(get=__get_movementDidMoveEvent, put=__set_movementDidMoveEvent))  movementDidMoveEvent;
+ System::Action_1<float_t> __declspec(property(get=__get_movementDidMoveEvent, put=__set_movementDidMoveEvent))  movementDidMoveEvent;
 
-constexpr void __set_movementDidMoveEvent(::System::Action_1<float_t> value) ;
+constexpr void __set_movementDidMoveEvent(System::Action_1<float_t> value) ;
 
-constexpr ::System::Action_1<float_t> __get_movementDidMoveEvent() const;
+constexpr System::Action_1<float_t> __get_movementDidMoveEvent() const;
 
- ::System::Action __declspec(property(get=__get_headDidMovePastCutMarkEvent, put=__set_headDidMovePastCutMarkEvent))  headDidMovePastCutMarkEvent;
+ System::Action __declspec(property(get=__get_headDidMovePastCutMarkEvent, put=__set_headDidMovePastCutMarkEvent))  headDidMovePastCutMarkEvent;
 
-constexpr void __set_headDidMovePastCutMarkEvent(::System::Action value) ;
+constexpr void __set_headDidMovePastCutMarkEvent(System::Action value) ;
 
-constexpr ::System::Action __get_headDidMovePastCutMarkEvent() const;
+constexpr System::Action __get_headDidMovePastCutMarkEvent() const;
 
- ::System::Action __declspec(property(get=__get_tailDidMovePastCutMarkEvent, put=__set_tailDidMovePastCutMarkEvent))  tailDidMovePastCutMarkEvent;
+ System::Action __declspec(property(get=__get_tailDidMovePastCutMarkEvent, put=__set_tailDidMovePastCutMarkEvent))  tailDidMovePastCutMarkEvent;
 
-constexpr void __set_tailDidMovePastCutMarkEvent(::System::Action value) ;
+constexpr void __set_tailDidMovePastCutMarkEvent(System::Action value) ;
 
-constexpr ::System::Action __get_tailDidMovePastCutMarkEvent() const;
+constexpr System::Action __get_tailDidMovePastCutMarkEvent() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__headNoteJumpStartPos, put=__set__headNoteJumpStartPos))  _headNoteJumpStartPos;
+ UnityEngine::Vector3 __declspec(property(get=__get__headNoteJumpStartPos, put=__set__headNoteJumpStartPos))  _headNoteJumpStartPos;
 
-constexpr void __set__headNoteJumpStartPos(::UnityEngine::Vector3 value) ;
+constexpr void __set__headNoteJumpStartPos(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__headNoteJumpStartPos() const;
+constexpr UnityEngine::Vector3 __get__headNoteJumpStartPos() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__headNoteJumpEndPos, put=__set__headNoteJumpEndPos))  _headNoteJumpEndPos;
+ UnityEngine::Vector3 __declspec(property(get=__get__headNoteJumpEndPos, put=__set__headNoteJumpEndPos))  _headNoteJumpEndPos;
 
-constexpr void __set__headNoteJumpEndPos(::UnityEngine::Vector3 value) ;
+constexpr void __set__headNoteJumpEndPos(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__headNoteJumpEndPos() const;
+constexpr UnityEngine::Vector3 __get__headNoteJumpEndPos() const;
 
  float_t __declspec(property(get=__get__headNoteTime, put=__set__headNoteTime))  _headNoteTime;
 
@@ -131,23 +130,23 @@ constexpr void __set__tailNoteTime(float_t value) ;
 
 constexpr float_t __get__tailNoteTime() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__localPosition, put=__set__localPosition))  _localPosition;
+ UnityEngine::Vector3 __declspec(property(get=__get__localPosition, put=__set__localPosition))  _localPosition;
 
-constexpr void __set__localPosition(::UnityEngine::Vector3 value) ;
+constexpr void __set__localPosition(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__localPosition() const;
+constexpr UnityEngine::Vector3 __get__localPosition() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get__worldRotation, put=__set__worldRotation))  _worldRotation;
+ UnityEngine::Quaternion __declspec(property(get=__get__worldRotation, put=__set__worldRotation))  _worldRotation;
 
-constexpr void __set__worldRotation(::UnityEngine::Quaternion value) ;
+constexpr void __set__worldRotation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get__worldRotation() const;
+constexpr UnityEngine::Quaternion __get__worldRotation() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get__inverseWorldRotation, put=__set__inverseWorldRotation))  _inverseWorldRotation;
+ UnityEngine::Quaternion __declspec(property(get=__get__inverseWorldRotation, put=__set__inverseWorldRotation))  _inverseWorldRotation;
 
-constexpr void __set__inverseWorldRotation(::UnityEngine::Quaternion value) ;
+constexpr void __set__inverseWorldRotation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get__inverseWorldRotation() const;
+constexpr UnityEngine::Quaternion __get__inverseWorldRotation() const;
 
  float_t __declspec(property(get=__get__jumpDuration, put=__set__jumpDuration))  _jumpDuration;
 
@@ -167,11 +166,11 @@ constexpr void __set__tailNoteGravity(float_t value) ;
 
 constexpr float_t __get__tailNoteGravity() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
+ UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
 
-constexpr void __set__transform(::UnityEngine::Transform value) ;
+constexpr void __set__transform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__transform() const;
+constexpr UnityEngine::Transform __get__transform() const;
 
  bool __declspec(property(get=__get__movementEndReported, put=__set__movementEndReported))  _movementEndReported;
 
@@ -212,28 +211,28 @@ constexpr float_t __get__timeSinceHeadNoteJump() const;
 // Methods
 
 /// @brief Method add_movementDidFinishEvent addr 0x224830c size 0x9c virtual false final false
- void add_movementDidFinishEvent(::System::Action value) ;
+ void add_movementDidFinishEvent(System::Action value) ;
 
 /// @brief Method remove_movementDidFinishEvent addr 0x2248974 size 0x9c virtual false final false
- void remove_movementDidFinishEvent(::System::Action value) ;
+ void remove_movementDidFinishEvent(System::Action value) ;
 
 /// @brief Method add_movementDidMoveEvent addr 0x224c14c size 0xb0 virtual false final false
- void add_movementDidMoveEvent(::System::Action_1<float_t> value) ;
+ void add_movementDidMoveEvent(System::Action_1<float_t> value) ;
 
 /// @brief Method remove_movementDidMoveEvent addr 0x224c1fc size 0xb0 virtual false final false
- void remove_movementDidMoveEvent(::System::Action_1<float_t> value) ;
+ void remove_movementDidMoveEvent(System::Action_1<float_t> value) ;
 
 /// @brief Method add_headDidMovePastCutMarkEvent addr 0x22483a8 size 0x9c virtual false final false
- void add_headDidMovePastCutMarkEvent(::System::Action value) ;
+ void add_headDidMovePastCutMarkEvent(System::Action value) ;
 
 /// @brief Method remove_headDidMovePastCutMarkEvent addr 0x2248a10 size 0x9c virtual false final false
- void remove_headDidMovePastCutMarkEvent(::System::Action value) ;
+ void remove_headDidMovePastCutMarkEvent(System::Action value) ;
 
 /// @brief Method add_tailDidMovePastCutMarkEvent addr 0x2248444 size 0x9c virtual false final false
- void add_tailDidMovePastCutMarkEvent(::System::Action value) ;
+ void add_tailDidMovePastCutMarkEvent(System::Action value) ;
 
 /// @brief Method remove_tailDidMovePastCutMarkEvent addr 0x2248aac size 0x9c virtual false final false
- void remove_tailDidMovePastCutMarkEvent(::System::Action value) ;
+ void remove_tailDidMovePastCutMarkEvent(System::Action value) ;
 
 /// @brief Method get_jumpDuration addr 0x224c2ac size 0x8 virtual false final false
  float_t get_jumpDuration() ;
@@ -248,7 +247,7 @@ constexpr float_t __get__timeSinceHeadNoteJump() const;
  float_t get_timeSinceHeadNoteJump() ;
 
 /// @brief Method Init addr 0x224764c size 0xf0 virtual false final false
- void Init(float_t headNoteTime, float_t tailNoteTime, float_t worldRotation, ::UnityEngine::Vector3 headNoteJumpStartPos, ::UnityEngine::Vector3 headNoteJumpEndPos, float_t jumpDuration, float_t headNoteGravity, float_t tailNoteGravity) ;
+ void Init(float_t headNoteTime, float_t tailNoteTime, float_t worldRotation, UnityEngine::Vector3 headNoteJumpStartPos, UnityEngine::Vector3 headNoteJumpEndPos, float_t jumpDuration, float_t headNoteGravity, float_t tailNoteGravity) ;
 
 /// @brief Method StartMovement addr 0x2248184 size 0x28 virtual false final false
  void StartMovement() ;
@@ -266,6 +265,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SliderMovement);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SliderMovement, "", "SliderMovement");
+NEED_NO_BOX(GlobalNamespace::SliderMovement);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SliderMovement, "", "SliderMovement");

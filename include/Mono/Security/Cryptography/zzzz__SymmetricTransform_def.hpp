@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::Security::Cryptography {
 class ICryptoTransform;
 }
@@ -14,10 +13,10 @@ namespace System::Security::Cryptography {
 class SymmetricAlgorithm;
 }
 namespace System::Security::Cryptography {
-struct PaddingMode;
+class RandomNumberGenerator;
 }
 namespace System::Security::Cryptography {
-class RandomNumberGenerator;
+struct PaddingMode;
 }
 // Forward declare root types
 namespace Mono::Security::Cryptography {
@@ -32,11 +31,11 @@ namespace Mono::Security::Cryptography {
 class CORDL_TYPE SymmetricTransform : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Security::Cryptography::ICryptoTransform
-constexpr operator  ::System::Security::Cryptography::ICryptoTransform() const noexcept;
+/// @brief Convert operator to System::Security::Cryptography::ICryptoTransform
+constexpr operator  System::Security::Cryptography::ICryptoTransform() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x58};
@@ -71,11 +70,11 @@ constexpr explicit SymmetricTransform(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Fields
 
- ::System::Security::Cryptography::SymmetricAlgorithm __declspec(property(get=__get_algo, put=__set_algo))  algo;
+ System::Security::Cryptography::SymmetricAlgorithm __declspec(property(get=__get_algo, put=__set_algo))  algo;
 
-constexpr void __set_algo(::System::Security::Cryptography::SymmetricAlgorithm value) ;
+constexpr void __set_algo(System::Security::Cryptography::SymmetricAlgorithm value) ;
 
-constexpr ::System::Security::Cryptography::SymmetricAlgorithm __get_algo() const;
+constexpr System::Security::Cryptography::SymmetricAlgorithm __get_algo() const;
 
  bool __declspec(property(get=__get_encrypt, put=__set_encrypt))  encrypt;
 
@@ -113,11 +112,11 @@ constexpr void __set_workout(::ArrayW<uint8_t> value) ;
 
 constexpr ::ArrayW<uint8_t> __get_workout() const;
 
- ::System::Security::Cryptography::PaddingMode __declspec(property(get=__get_padmode, put=__set_padmode))  padmode;
+ System::Security::Cryptography::PaddingMode __declspec(property(get=__get_padmode, put=__set_padmode))  padmode;
 
-constexpr void __set_padmode(::System::Security::Cryptography::PaddingMode value) ;
+constexpr void __set_padmode(System::Security::Cryptography::PaddingMode value) ;
 
-constexpr ::System::Security::Cryptography::PaddingMode __get_padmode() const;
+constexpr System::Security::Cryptography::PaddingMode __get_padmode() const;
 
  int32_t __declspec(property(get=__get_FeedBackByte, put=__set_FeedBackByte))  FeedBackByte;
 
@@ -137,11 +136,11 @@ constexpr void __set_lastBlock(bool value) ;
 
 constexpr bool __get_lastBlock() const;
 
- ::System::Security::Cryptography::RandomNumberGenerator __declspec(property(get=__get__rng, put=__set__rng))  _rng;
+ System::Security::Cryptography::RandomNumberGenerator __declspec(property(get=__get__rng, put=__set__rng))  _rng;
 
-constexpr void __set__rng(::System::Security::Cryptography::RandomNumberGenerator value) ;
+constexpr void __set__rng(System::Security::Cryptography::RandomNumberGenerator value) ;
 
-constexpr ::System::Security::Cryptography::RandomNumberGenerator __get__rng() const;
+constexpr System::Security::Cryptography::RandomNumberGenerator __get__rng() const;
 
 
 // Properties
@@ -157,11 +156,11 @@ constexpr ::System::Security::Cryptography::RandomNumberGenerator __get__rng() c
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "symmAlgo", ty: "::System::Security::Cryptography::SymmetricAlgorithm", modifiers: "", def_value: None }, CppParam { name: "encryption", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "rgbIV", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit SymmetricTransform(::System::Security::Cryptography::SymmetricAlgorithm symmAlgo, bool encryption, ::ArrayW<uint8_t> rgbIV) ;
+// Ctor Parameters [CppParam { name: "symmAlgo", ty: "System::Security::Cryptography::SymmetricAlgorithm", modifiers: "", def_value: None }, CppParam { name: "encryption", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "rgbIV", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
+explicit SymmetricTransform(System::Security::Cryptography::SymmetricAlgorithm symmAlgo, bool encryption, ::ArrayW<uint8_t> rgbIV) ;
 
 /// @brief Method .ctor addr 0x22b79b8 size 0x2c8 virtual false final false
- void _ctor(::System::Security::Cryptography::SymmetricAlgorithm symmAlgo, bool encryption, ::ArrayW<uint8_t> rgbIV) ;
+ void _ctor(System::Security::Cryptography::SymmetricAlgorithm symmAlgo, bool encryption, ::ArrayW<uint8_t> rgbIV) ;
 
 /// @brief Method Finalize addr 0x22b7c80 size 0xa0 virtual true final false
  void Finalize() ;
@@ -215,7 +214,7 @@ explicit SymmetricTransform(::System::Security::Cryptography::SymmetricAlgorithm
  void Random(::ArrayW<uint8_t> buffer, int32_t start, int32_t length) ;
 
 /// @brief Method ThrowBadPaddingException addr 0x22b8a0c size 0x1a8 virtual false final false
- void ThrowBadPaddingException(::System::Security::Cryptography::PaddingMode padding, int32_t length, int32_t position) ;
+ void ThrowBadPaddingException(System::Security::Cryptography::PaddingMode padding, int32_t length, int32_t position) ;
 
 /// @brief Method FinalEncrypt addr 0x22b8bf8 size 0x2a0 virtual true final false
  ::ArrayW<uint8_t> FinalEncrypt(::ArrayW<uint8_t> inputBuffer, int32_t inputOffset, int32_t inputCount) ;
@@ -230,6 +229,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Security::Cryptography::SymmetricTransform);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Cryptography::SymmetricTransform, "Mono.Security.Cryptography", "SymmetricTransform");
+NEED_NO_BOX(Mono::Security::Cryptography::SymmetricTransform);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::SymmetricTransform, "Mono.Security.Cryptography", "SymmetricTransform");

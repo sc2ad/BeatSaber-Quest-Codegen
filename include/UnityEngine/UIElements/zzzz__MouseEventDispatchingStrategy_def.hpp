@@ -2,21 +2,20 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace {
 namespace UnityEngine::UIElements {
 class BaseVisualElementPanel;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+class IPanel;
 }
 namespace UnityEngine::UIElements {
 class IEventDispatchingStrategy;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
-}
-namespace UnityEngine::UIElements {
-class IPanel;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -31,8 +30,8 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE MouseEventDispatchingStrategy : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::UIElements::IEventDispatchingStrategy
-constexpr operator  ::UnityEngine::UIElements::IEventDispatchingStrategy() const noexcept;
+/// @brief Convert operator to UnityEngine::UIElements::IEventDispatchingStrategy
+constexpr operator  UnityEngine::UIElements::IEventDispatchingStrategy() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -68,28 +67,28 @@ constexpr explicit MouseEventDispatchingStrategy(void* ptr) noexcept : ::bs_hook
 // Methods
 
 /// @brief Method CanDispatchEvent addr 0x2cdaf00 size 0x54 virtual true final true
- bool CanDispatchEvent(::UnityEngine::UIElements::EventBase evt) ;
+ bool CanDispatchEvent(UnityEngine::UIElements::EventBase evt) ;
 
 /// @brief Method DispatchEvent addr 0x2cdaf54 size 0x108 virtual true final true
- void DispatchEvent(::UnityEngine::UIElements::EventBase evt, ::UnityEngine::UIElements::IPanel iPanel) ;
+ void DispatchEvent(UnityEngine::UIElements::EventBase evt, UnityEngine::UIElements::IPanel iPanel) ;
 
 /// @brief Method SendEventToTarget addr 0x2cdb0fc size 0x3c virtual false final false
-static bool SendEventToTarget(::UnityEngine::UIElements::EventBase evt, ::UnityEngine::UIElements::BaseVisualElementPanel panel) ;
+static bool SendEventToTarget(UnityEngine::UIElements::EventBase evt, UnityEngine::UIElements::BaseVisualElementPanel panel) ;
 
 /// @brief Method SendEventToRegularTarget addr 0x2cdb138 size 0x38 virtual false final false
-static bool SendEventToRegularTarget(::UnityEngine::UIElements::EventBase evt, ::UnityEngine::UIElements::BaseVisualElementPanel panel) ;
+static bool SendEventToRegularTarget(UnityEngine::UIElements::EventBase evt, UnityEngine::UIElements::BaseVisualElementPanel panel) ;
 
 /// @brief Method SendEventToIMGUIContainer addr 0x2cdb170 size 0x1d8 virtual false final false
-static bool SendEventToIMGUIContainer(::UnityEngine::UIElements::EventBase evt, ::UnityEngine::UIElements::BaseVisualElementPanel panel) ;
+static bool SendEventToIMGUIContainer(UnityEngine::UIElements::EventBase evt, UnityEngine::UIElements::BaseVisualElementPanel panel) ;
 
 /// @brief Method SetBestTargetForEvent addr 0x2cdb05c size 0xa0 virtual false final false
-static void SetBestTargetForEvent(::UnityEngine::UIElements::EventBase evt, ::UnityEngine::UIElements::BaseVisualElementPanel panel) ;
+static void SetBestTargetForEvent(UnityEngine::UIElements::EventBase evt, UnityEngine::UIElements::BaseVisualElementPanel panel) ;
 
 /// @brief Method UpdateElementUnderMouse addr 0x2cdb390 size 0x2fc virtual false final false
-static void UpdateElementUnderMouse(::UnityEngine::UIElements::EventBase evt, ::UnityEngine::UIElements::BaseVisualElementPanel panel, ByRef<::UnityEngine::UIElements::VisualElement> elementUnderMouse) ;
+static void UpdateElementUnderMouse(UnityEngine::UIElements::EventBase evt, UnityEngine::UIElements::BaseVisualElementPanel panel, ByRef<UnityEngine::UIElements::VisualElement> elementUnderMouse) ;
 
 /// @brief Method IsDone addr 0x2cdb348 size 0x48 virtual false final false
-static bool IsDone(::UnityEngine::UIElements::EventBase evt) ;
+static bool IsDone(UnityEngine::UIElements::EventBase evt) ;
 
 // Ctor Parameters []
 explicit MouseEventDispatchingStrategy() ;
@@ -101,6 +100,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::MouseEventDispatchingStrategy);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::MouseEventDispatchingStrategy, "UnityEngine.UIElements", "MouseEventDispatchingStrategy");
+NEED_NO_BOX(UnityEngine::UIElements::MouseEventDispatchingStrategy);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::MouseEventDispatchingStrategy, "UnityEngine.UIElements", "MouseEventDispatchingStrategy");

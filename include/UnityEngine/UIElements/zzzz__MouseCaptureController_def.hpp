@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace UnityEngine::UIElements {
 class IEventHandler;
 }
@@ -52,18 +51,17 @@ constexpr explicit MouseCaptureController(void* ptr) noexcept : ::bs_hook::Il2Cp
 // Methods
 
 /// @brief Method HasMouseCapture addr 0x2c88f8c size 0xb0 virtual false final false
-static bool HasMouseCapture(::UnityEngine::UIElements::IEventHandler handler) ;
+static bool HasMouseCapture(UnityEngine::UIElements::IEventHandler handler) ;
 
 /// @brief Method CaptureMouse addr 0x2c846a4 size 0xe0 virtual false final false
-static void CaptureMouse(::UnityEngine::UIElements::IEventHandler handler) ;
+static void CaptureMouse(UnityEngine::UIElements::IEventHandler handler) ;
 
 /// @brief Method ReleaseMouse addr 0x2c89acc size 0xe0 virtual false final false
-static void ReleaseMouse(::UnityEngine::UIElements::IEventHandler handler) ;
+static void ReleaseMouse(UnityEngine::UIElements::IEventHandler handler) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::MouseCaptureController);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::MouseCaptureController, "UnityEngine.UIElements", "MouseCaptureController");
+NEED_NO_BOX(UnityEngine::UIElements::MouseCaptureController);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::MouseCaptureController, "UnityEngine.UIElements", "MouseCaptureController");

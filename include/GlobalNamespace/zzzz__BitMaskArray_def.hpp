@@ -4,23 +4,22 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-template<typename T>
-class IEquatable_1;
-}
-namespace LiteNetLib::Utils {
-class INetSerializable;
-}
 namespace GlobalNamespace {
 template<typename T>
 class IBitMask_1;
 }
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+class INetSerializable;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
+}
+namespace System {
+template<typename T>
+class IEquatable_1;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,14 +34,14 @@ namespace GlobalNamespace {
 class CORDL_TYPE BitMaskArray : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskArray>
-constexpr operator  ::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskArray>() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IBitMask_1<GlobalNamespace::BitMaskArray>
+constexpr operator  GlobalNamespace::IBitMask_1<GlobalNamespace::BitMaskArray>() const noexcept;
 
-/// @brief Convert operator to ::System::IEquatable_1<::GlobalNamespace::BitMaskArray>
-constexpr operator  ::System::IEquatable_1<::GlobalNamespace::BitMaskArray>() const noexcept;
+/// @brief Convert operator to System::IEquatable_1<GlobalNamespace::BitMaskArray>
+constexpr operator  System::IEquatable_1<GlobalNamespace::BitMaskArray>() const noexcept;
 
-/// @brief Convert operator to ::LiteNetLib::Utils::INetSerializable
-constexpr operator  ::LiteNetLib::Utils::INetSerializable() const noexcept;
+/// @brief Convert operator to LiteNetLib::Utils::INetSerializable
+constexpr operator  LiteNetLib::Utils::INetSerializable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -107,10 +106,10 @@ explicit BitMaskArray(int32_t bitCount) ;
  void _ctor(int32_t bitCount) ;
 
 /// @brief Method Equals addr 0x1214534 size 0x64 virtual true final true
- bool Equals(::GlobalNamespace::BitMaskArray other) ;
+ bool Equals(GlobalNamespace::BitMaskArray other) ;
 
 /// @brief Method SetBits addr 0x1214598 size 0xfc virtual true final true
- ::GlobalNamespace::BitMaskArray SetBits(int32_t offset, uint64_t bits) ;
+ GlobalNamespace::BitMaskArray SetBits(int32_t offset, uint64_t bits) ;
 
 /// @brief Method GetBits addr 0x1214694 size 0x11c virtual true final true
  uint64_t GetBits(int32_t offset, int32_t count) ;
@@ -119,15 +118,14 @@ explicit BitMaskArray(int32_t bitCount) ;
  ::StringW ToString() ;
 
 /// @brief Method Serialize addr 0x12148a8 size 0x15c virtual true final true
- void Serialize(::LiteNetLib::Utils::NetDataWriter writer) ;
+ void Serialize(LiteNetLib::Utils::NetDataWriter writer) ;
 
 /// @brief Method Deserialize addr 0x1214a04 size 0xcc virtual true final true
- void Deserialize(::LiteNetLib::Utils::NetDataReader reader) ;
+ void Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BitMaskArray);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BitMaskArray, "", "BitMaskArray");
+NEED_NO_BOX(GlobalNamespace::BitMaskArray);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BitMaskArray, "", "BitMaskArray");

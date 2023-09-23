@@ -3,7 +3,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
-namespace {
+namespace UnityEngine {
+class Transform;
+}
 namespace GlobalNamespace {
 class MultiplayerLayoutProvider;
 }
@@ -12,9 +14,6 @@ class MultiplayerCenterResizeController;
 }
 namespace GlobalNamespace {
 class BeatmapObjectSpawnCenter;
-}
-namespace UnityEngine {
-class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,7 +25,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5246))
 // CS Name: MultiplayerLocalActiveCenterRingLightsController
-class CORDL_TYPE MultiplayerLocalActiveCenterRingLightsController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerLocalActiveCenterRingLightsController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -41,7 +40,7 @@ constexpr MultiplayerLocalActiveCenterRingLightsController(MultiplayerLocalActiv
 constexpr MultiplayerLocalActiveCenterRingLightsController(MultiplayerLocalActiveCenterRingLightsController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerLocalActiveCenterRingLightsController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerLocalActiveCenterRingLightsController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -68,29 +67,29 @@ constexpr void __set__verticalLinePositions(::ArrayW<float_t> value) ;
 
 constexpr ::ArrayW<float_t> __get__verticalLinePositions() const;
 
- ::ArrayW<::UnityEngine::Transform> __declspec(property(get=__get__horizontalLines, put=__set__horizontalLines))  _horizontalLines;
+ ::ArrayW<UnityEngine::Transform> __declspec(property(get=__get__horizontalLines, put=__set__horizontalLines))  _horizontalLines;
 
-constexpr void __set__horizontalLines(::ArrayW<::UnityEngine::Transform> value) ;
+constexpr void __set__horizontalLines(::ArrayW<UnityEngine::Transform> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Transform> __get__horizontalLines() const;
+constexpr ::ArrayW<UnityEngine::Transform> __get__horizontalLines() const;
 
- ::GlobalNamespace::MultiplayerCenterResizeController __declspec(property(get=__get__centerResizeController, put=__set__centerResizeController))  _centerResizeController;
+ GlobalNamespace::MultiplayerCenterResizeController __declspec(property(get=__get__centerResizeController, put=__set__centerResizeController))  _centerResizeController;
 
-constexpr void __set__centerResizeController(::GlobalNamespace::MultiplayerCenterResizeController value) ;
+constexpr void __set__centerResizeController(GlobalNamespace::MultiplayerCenterResizeController value) ;
 
-constexpr ::GlobalNamespace::MultiplayerCenterResizeController __get__centerResizeController() const;
+constexpr GlobalNamespace::MultiplayerCenterResizeController __get__centerResizeController() const;
 
- ::GlobalNamespace::MultiplayerLayoutProvider __declspec(property(get=__get__layoutProvider, put=__set__layoutProvider))  _layoutProvider;
+ GlobalNamespace::MultiplayerLayoutProvider __declspec(property(get=__get__layoutProvider, put=__set__layoutProvider))  _layoutProvider;
 
-constexpr void __set__layoutProvider(::GlobalNamespace::MultiplayerLayoutProvider value) ;
+constexpr void __set__layoutProvider(GlobalNamespace::MultiplayerLayoutProvider value) ;
 
-constexpr ::GlobalNamespace::MultiplayerLayoutProvider __get__layoutProvider() const;
+constexpr GlobalNamespace::MultiplayerLayoutProvider __get__layoutProvider() const;
 
- ::GlobalNamespace::BeatmapObjectSpawnCenter __declspec(property(get=__get__beatmapObjectSpawnCenter, put=__set__beatmapObjectSpawnCenter))  _beatmapObjectSpawnCenter;
+ GlobalNamespace::BeatmapObjectSpawnCenter __declspec(property(get=__get__beatmapObjectSpawnCenter, put=__set__beatmapObjectSpawnCenter))  _beatmapObjectSpawnCenter;
 
-constexpr void __set__beatmapObjectSpawnCenter(::GlobalNamespace::BeatmapObjectSpawnCenter value) ;
+constexpr void __set__beatmapObjectSpawnCenter(GlobalNamespace::BeatmapObjectSpawnCenter value) ;
 
-constexpr ::GlobalNamespace::BeatmapObjectSpawnCenter __get__beatmapObjectSpawnCenter() const;
+constexpr GlobalNamespace::BeatmapObjectSpawnCenter __get__beatmapObjectSpawnCenter() const;
 
  bool __declspec(property(get=__get__edgeDistanceFromCenterCalculated, put=__set__edgeDistanceFromCenterCalculated))  _edgeDistanceFromCenterCalculated;
 
@@ -135,6 +134,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController, "", "MultiplayerLocalActiveCenterRingLightsController");
+NEED_NO_BOX(GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController, "", "MultiplayerLocalActiveCenterRingLightsController");

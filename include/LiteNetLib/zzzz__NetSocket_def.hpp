@@ -4,27 +4,26 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace LiteNetLib {
 class INetSocketListener;
 }
 namespace System::Net::Sockets {
-class Socket;
-}
-namespace System::Net {
-class IPAddress;
+struct SocketError;
 }
 namespace System::Threading {
 struct ThreadPriority;
 }
 namespace System::Net {
-class IPEndPoint;
+class IPAddress;
 }
 namespace System::Threading {
 class Thread;
 }
 namespace System::Net::Sockets {
-struct SocketError;
+class Socket;
+}
+namespace System::Net {
+class IPEndPoint;
 }
 // Forward declare root types
 namespace LiteNetLib {
@@ -75,44 +74,44 @@ constexpr explicit NetSocket(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 /// @brief Field ReceivePollingTime offset 0
 static constexpr int32_t  ReceivePollingTime{500000};
 
- ::System::Net::Sockets::Socket __declspec(property(get=__get__udpSocketv4, put=__set__udpSocketv4))  _udpSocketv4;
+ System::Net::Sockets::Socket __declspec(property(get=__get__udpSocketv4, put=__set__udpSocketv4))  _udpSocketv4;
 
-constexpr void __set__udpSocketv4(::System::Net::Sockets::Socket value) ;
+constexpr void __set__udpSocketv4(System::Net::Sockets::Socket value) ;
 
-constexpr ::System::Net::Sockets::Socket __get__udpSocketv4() const;
+constexpr System::Net::Sockets::Socket __get__udpSocketv4() const;
 
- ::System::Net::Sockets::Socket __declspec(property(get=__get__udpSocketv6, put=__set__udpSocketv6))  _udpSocketv6;
+ System::Net::Sockets::Socket __declspec(property(get=__get__udpSocketv6, put=__set__udpSocketv6))  _udpSocketv6;
 
-constexpr void __set__udpSocketv6(::System::Net::Sockets::Socket value) ;
+constexpr void __set__udpSocketv6(System::Net::Sockets::Socket value) ;
 
-constexpr ::System::Net::Sockets::Socket __get__udpSocketv6() const;
+constexpr System::Net::Sockets::Socket __get__udpSocketv6() const;
 
- ::System::Threading::Thread __declspec(property(get=__get__threadv4, put=__set__threadv4))  _threadv4;
+ System::Threading::Thread __declspec(property(get=__get__threadv4, put=__set__threadv4))  _threadv4;
 
-constexpr void __set__threadv4(::System::Threading::Thread value) ;
+constexpr void __set__threadv4(System::Threading::Thread value) ;
 
-constexpr ::System::Threading::Thread __get__threadv4() const;
+constexpr System::Threading::Thread __get__threadv4() const;
 
- ::System::Threading::Thread __declspec(property(get=__get__threadv6, put=__set__threadv6))  _threadv6;
+ System::Threading::Thread __declspec(property(get=__get__threadv6, put=__set__threadv6))  _threadv6;
 
-constexpr void __set__threadv6(::System::Threading::Thread value) ;
+constexpr void __set__threadv6(System::Threading::Thread value) ;
 
-constexpr ::System::Threading::Thread __get__threadv6() const;
+constexpr System::Threading::Thread __get__threadv6() const;
 
- ::LiteNetLib::INetSocketListener __declspec(property(get=__get__listener, put=__set__listener))  _listener;
+ LiteNetLib::INetSocketListener __declspec(property(get=__get__listener, put=__set__listener))  _listener;
 
-constexpr void __set__listener(::LiteNetLib::INetSocketListener value) ;
+constexpr void __set__listener(LiteNetLib::INetSocketListener value) ;
 
-constexpr ::LiteNetLib::INetSocketListener __get__listener() const;
+constexpr LiteNetLib::INetSocketListener __get__listener() const;
 
 /// @brief Field SioUdpConnreset offset 0
 static constexpr int32_t  SioUdpConnreset{-1744830452};
 
-static ::System::Net::IPAddress __declspec(property(get=__get_MulticastAddressV6, put=__set_MulticastAddressV6))  MulticastAddressV6;
+static System::Net::IPAddress __declspec(property(get=__get_MulticastAddressV6, put=__set_MulticastAddressV6))  MulticastAddressV6;
 
-static void __set_MulticastAddressV6(::System::Net::IPAddress value) ;
+static void __set_MulticastAddressV6(System::Net::IPAddress value) ;
 
-static ::System::Net::IPAddress __get_MulticastAddressV6() ;
+static System::Net::IPAddress __get_MulticastAddressV6() ;
 
 static bool __declspec(property(get=__get_IPv6Support, put=__set_IPv6Support))  IPv6Support;
 
@@ -154,11 +153,11 @@ constexpr bool __get_IsRunning() const;
 /// @brief Method set_Ttl addr 0x2088140 size 0x1c virtual false final false
  void set_Ttl(int16_t value) ;
 
-// Ctor Parameters [CppParam { name: "listener", ty: "::LiteNetLib::INetSocketListener", modifiers: "", def_value: None }]
-explicit NetSocket(::LiteNetLib::INetSocketListener listener) ;
+// Ctor Parameters [CppParam { name: "listener", ty: "LiteNetLib::INetSocketListener", modifiers: "", def_value: None }]
+explicit NetSocket(LiteNetLib::INetSocketListener listener) ;
 
 /// @brief Method .ctor addr 0x2089a44 size 0x28 virtual false final false
- void _ctor(::LiteNetLib::INetSocketListener listener) ;
+ void _ctor(LiteNetLib::INetSocketListener listener) ;
 
 /// @brief Method IsActive addr 0x2091830 size 0x18 virtual false final false
  bool IsActive() ;
@@ -167,16 +166,16 @@ explicit NetSocket(::LiteNetLib::INetSocketListener listener) ;
  void ReceiveLogic(::bs_hook::Il2CppWrapperType state) ;
 
 /// @brief Method Bind addr 0x208d6a8 size 0x404 virtual false final false
- bool Bind(::System::Net::IPAddress addressIPv4, ::System::Net::IPAddress addressIPv6, int32_t port, bool reuseAddress, bool ipv6, ::System::Threading::ThreadPriority priority) ;
+ bool Bind(System::Net::IPAddress addressIPv4, System::Net::IPAddress addressIPv6, int32_t port, bool reuseAddress, bool ipv6, System::Threading::ThreadPriority priority) ;
 
 /// @brief Method BindSocket addr 0x2091dc0 size 0x6bc virtual false final false
- bool BindSocket(::System::Net::Sockets::Socket socket, ::System::Net::IPEndPoint ep, bool reuseAddress) ;
+ bool BindSocket(System::Net::Sockets::Socket socket, System::Net::IPEndPoint ep, bool reuseAddress) ;
 
 /// @brief Method SendBroadcast addr 0x208e070 size 0x30c virtual false final false
  bool SendBroadcast(::ArrayW<uint8_t> data, int32_t offset, int32_t size, int32_t port) ;
 
 /// @brief Method SendTo addr 0x208815c size 0x360 virtual false final false
- int32_t SendTo(::ArrayW<uint8_t> data, int32_t offset, int32_t size, ::System::Net::IPEndPoint remoteEndPoint, ByRef<::System::Net::Sockets::SocketError> errorCode) ;
+ int32_t SendTo(::ArrayW<uint8_t> data, int32_t offset, int32_t size, System::Net::IPEndPoint remoteEndPoint, ByRef<System::Net::Sockets::SocketError> errorCode) ;
 
 /// @brief Method Close addr 0x208ef08 size 0xa8 virtual false final false
  void Close(bool suspend) ;
@@ -185,6 +184,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib
-} // end anonymous namespace
-NEED_NO_BOX(::LiteNetLib::NetSocket);
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::NetSocket, "LiteNetLib", "NetSocket");
+NEED_NO_BOX(LiteNetLib::NetSocket);
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetSocket, "LiteNetLib", "NetSocket");

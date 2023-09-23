@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class Type;
 }
@@ -64,11 +63,11 @@ constexpr void __set__CreateKernel_k__BackingField(bool value) ;
 
 constexpr bool __get__CreateKernel_k__BackingField() const;
 
- ::System::Type __declspec(property(get=__get__KernelType_k__BackingField, put=__set__KernelType_k__BackingField))  _KernelType_k__BackingField;
+ System::Type __declspec(property(get=__get__KernelType_k__BackingField, put=__set__KernelType_k__BackingField))  _KernelType_k__BackingField;
 
-constexpr void __set__KernelType_k__BackingField(::System::Type value) ;
+constexpr void __set__KernelType_k__BackingField(System::Type value) ;
 
-constexpr ::System::Type __get__KernelType_k__BackingField() const;
+constexpr System::Type __get__KernelType_k__BackingField() const;
 
 
 // Properties
@@ -77,7 +76,7 @@ constexpr ::System::Type __get__KernelType_k__BackingField() const;
 
  bool __declspec(property(get=get_CreateKernel, put=set_CreateKernel))  CreateKernel;
 
- ::System::Type __declspec(property(get=get_KernelType, put=set_KernelType))  KernelType;
+ System::Type __declspec(property(get=get_KernelType, put=set_KernelType))  KernelType;
 
 
 // Methods
@@ -95,10 +94,10 @@ constexpr ::System::Type __get__KernelType_k__BackingField() const;
  void set_CreateKernel(bool value) ;
 
 /// @brief Method get_KernelType addr 0x2d91a90 size 0x8 virtual false final false
- ::System::Type get_KernelType() ;
+ System::Type get_KernelType() ;
 
 /// @brief Method set_KernelType addr 0x2d91a98 size 0x8 virtual false final false
- void set_KernelType(::System::Type value) ;
+ void set_KernelType(System::Type value) ;
 
 // Ctor Parameters []
 explicit SubContainerCreatorBindInfo() ;
@@ -110,6 +109,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::SubContainerCreatorBindInfo);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::SubContainerCreatorBindInfo, "Zenject", "SubContainerCreatorBindInfo");
+NEED_NO_BOX(Zenject::SubContainerCreatorBindInfo);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorBindInfo, "Zenject", "SubContainerCreatorBindInfo");

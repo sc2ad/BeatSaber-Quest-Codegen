@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::IO {
-class Stream;
-}
 namespace System::Text {
 class Encoding;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace System::IO {
@@ -21,7 +20,7 @@ namespace System::IO {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3566))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3621))
 // CS Name: System.IO.UnexceptionalStreamWriter
-class CORDL_TYPE UnexceptionalStreamWriter : public ::System::IO::StreamWriter {
+class CORDL_TYPE UnexceptionalStreamWriter : public System::IO::StreamWriter {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr UnexceptionalStreamWriter(UnexceptionalStreamWriter const& ) noexcept 
 constexpr UnexceptionalStreamWriter(UnexceptionalStreamWriter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UnexceptionalStreamWriter(void* ptr) noexcept : ::System::IO::StreamWriter(ptr) {
+constexpr explicit UnexceptionalStreamWriter(void* ptr) noexcept : System::IO::StreamWriter(ptr) {
 }
 
 
@@ -57,11 +56,11 @@ constexpr explicit UnexceptionalStreamWriter(void* ptr) noexcept : ::System::IO:
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "::System::Text::Encoding", modifiers: "", def_value: None }]
-explicit UnexceptionalStreamWriter(::System::IO::Stream stream, ::System::Text::Encoding encoding) ;
+// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
+explicit UnexceptionalStreamWriter(System::IO::Stream stream, System::Text::Encoding encoding) ;
 
 /// @brief Method .ctor addr 0x23d44c4 size 0x78 virtual false final false
- void _ctor(::System::IO::Stream stream, ::System::Text::Encoding encoding) ;
+ void _ctor(System::IO::Stream stream, System::Text::Encoding encoding) ;
 
 /// @brief Method Flush addr 0x23d453c size 0x84 virtual true final false
  void Flush() ;
@@ -82,6 +81,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::IO
-} // end anonymous namespace
-NEED_NO_BOX(::System::IO::UnexceptionalStreamWriter);
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::UnexceptionalStreamWriter, "System.IO", "UnexceptionalStreamWriter");
+NEED_NO_BOX(System::IO::UnexceptionalStreamWriter);
+DEFINE_IL2CPP_ARG_TYPE(System::IO::UnexceptionalStreamWriter, "System.IO", "UnexceptionalStreamWriter");

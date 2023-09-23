@@ -1,21 +1,20 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class NoteControllerBase;
-}
 namespace GlobalNamespace {
 class INoteControllerDidInitEvent;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 namespace UnityEngine {
 class BoxCollider;
 }
 namespace GlobalNamespace {
+class NoteControllerBase;
+}
+namespace GlobalNamespace {
 class NoteController;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,11 +26,11 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4875))
 // CS Name: NoteBigCuttableColliderSize
-class CORDL_TYPE NoteBigCuttableColliderSize : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE NoteBigCuttableColliderSize : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::INoteControllerDidInitEvent
-constexpr operator  ::GlobalNamespace::INoteControllerDidInitEvent() const noexcept;
+/// @brief Convert operator to GlobalNamespace::INoteControllerDidInitEvent
+constexpr operator  GlobalNamespace::INoteControllerDidInitEvent() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -45,7 +44,7 @@ constexpr NoteBigCuttableColliderSize(NoteBigCuttableColliderSize const& ) noexc
 constexpr NoteBigCuttableColliderSize(NoteBigCuttableColliderSize&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NoteBigCuttableColliderSize(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit NoteBigCuttableColliderSize(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -66,23 +65,23 @@ constexpr explicit NoteBigCuttableColliderSize(void* ptr) noexcept : ::UnityEngi
 
 // Fields
 
- ::GlobalNamespace::NoteController __declspec(property(get=__get__noteController, put=__set__noteController))  _noteController;
+ GlobalNamespace::NoteController __declspec(property(get=__get__noteController, put=__set__noteController))  _noteController;
 
-constexpr void __set__noteController(::GlobalNamespace::NoteController value) ;
+constexpr void __set__noteController(GlobalNamespace::NoteController value) ;
 
-constexpr ::GlobalNamespace::NoteController __get__noteController() const;
+constexpr GlobalNamespace::NoteController __get__noteController() const;
 
- ::UnityEngine::BoxCollider __declspec(property(get=__get__boxCollider, put=__set__boxCollider))  _boxCollider;
+ UnityEngine::BoxCollider __declspec(property(get=__get__boxCollider, put=__set__boxCollider))  _boxCollider;
 
-constexpr void __set__boxCollider(::UnityEngine::BoxCollider value) ;
+constexpr void __set__boxCollider(UnityEngine::BoxCollider value) ;
 
-constexpr ::UnityEngine::BoxCollider __get__boxCollider() const;
+constexpr UnityEngine::BoxCollider __get__boxCollider() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__defaultColliderSize, put=__set__defaultColliderSize))  _defaultColliderSize;
+ UnityEngine::Vector3 __declspec(property(get=__get__defaultColliderSize, put=__set__defaultColliderSize))  _defaultColliderSize;
 
-constexpr void __set__defaultColliderSize(::UnityEngine::Vector3 value) ;
+constexpr void __set__defaultColliderSize(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__defaultColliderSize() const;
+constexpr UnityEngine::Vector3 __get__defaultColliderSize() const;
 
 
 // Methods
@@ -94,7 +93,7 @@ constexpr ::UnityEngine::Vector3 __get__defaultColliderSize() const;
  void OnDestroy() ;
 
 /// @brief Method HandleNoteControllerDidInit addr 0x223e5ec size 0x74 virtual true final true
- void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase noteController) ;
+ void HandleNoteControllerDidInit(GlobalNamespace::NoteControllerBase noteController) ;
 
 // Ctor Parameters []
 explicit NoteBigCuttableColliderSize() ;
@@ -106,6 +105,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::NoteBigCuttableColliderSize);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoteBigCuttableColliderSize, "", "NoteBigCuttableColliderSize");
+NEED_NO_BOX(GlobalNamespace::NoteBigCuttableColliderSize);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteBigCuttableColliderSize, "", "NoteBigCuttableColliderSize");

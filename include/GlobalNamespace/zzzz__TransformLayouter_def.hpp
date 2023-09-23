@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class TransformLayouter;
@@ -12,7 +11,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13841))
 // CS Name: TransformLayouter
-class CORDL_TYPE TransformLayouter : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE TransformLayouter : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr TransformLayouter(TransformLayouter const& ) noexcept = default;
 constexpr TransformLayouter(TransformLayouter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TransformLayouter(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit TransformLayouter(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::TransformLayouter);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TransformLayouter, "", "TransformLayouter");
+NEED_NO_BOX(GlobalNamespace::TransformLayouter);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TransformLayouter, "", "TransformLayouter");

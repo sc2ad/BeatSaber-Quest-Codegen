@@ -5,14 +5,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivable_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
-struct ____HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType;
+struct HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType;
 }
 namespace HoudiniEngineUnity {
 class HEU_HandleParamBinding;
@@ -23,20 +22,20 @@ namespace HoudiniEngineUnity {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9624))
 // CS Name: HoudiniEngineUnity.HEU_HandleParamBinding::HEU_HandleParamType
-struct CORDL_TYPE ____HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType(int32_t value__) noexcept;
+constexpr HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType(int32_t value__) noexcept;
 
 
-                    constexpr ____HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType(____HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType const&) = default;
-                    constexpr ____HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType(____HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType&&) = default;
-                    constexpr ____HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType& operator=(____HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType const& o) {
+                    constexpr HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType(HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType const&) = default;
+                    constexpr HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType(HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType&&) = default;
+                    constexpr HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType& operator=(HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType& operator=(____HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType&& o) noexcept {
+                    constexpr HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType& operator=(HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -49,7 +48,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -57,15 +56,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType_Unwrapped : int32_t {
+enum class __HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType_Unwrapped : int32_t {
 __TRANSLATE = 0,
 __ROTATE = 1,
 __SCALE = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType_Unwrapped () const noexcept {
-return std::bit_cast<______HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType_Unwrapped>(__instance);
+constexpr operator __HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType_Unwrapped () const noexcept {
+return std::bit_cast<__HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType_Unwrapped>(__instance);
 }
 
 
@@ -78,13 +77,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field TRANSLATE offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType const TRANSLATE;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType const TRANSLATE;
 
 /// @brief Field ROTATE offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType const ROTATE;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType const ROTATE;
 
 /// @brief Field SCALE offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType const SCALE;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType const SCALE;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -99,10 +98,10 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE HEU_HandleParamBinding : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using HEU_HandleParamType = ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType;
+using HEU_HandleParamType = HoudiniEngineUnity::HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType;
 
-/// @brief Convert operator to ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding>
-constexpr operator  ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding>() const noexcept;
+/// @brief Convert operator to HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_HandleParamBinding>
+constexpr operator  HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_HandleParamBinding>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -137,11 +136,11 @@ constexpr explicit HEU_HandleParamBinding(void* ptr) noexcept : ::bs_hook::Il2Cp
 
 // Fields
 
- ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType __declspec(property(get=__get__paramType, put=__set__paramType))  _paramType;
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType __declspec(property(get=__get__paramType, put=__set__paramType))  _paramType;
 
-constexpr void __set__paramType(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType value) ;
+constexpr void __set__paramType(HoudiniEngineUnity::HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType value) ;
 
-constexpr ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType __get__paramType() const;
+constexpr HoudiniEngineUnity::HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType __get__paramType() const;
 
  int32_t __declspec(property(get=__get__parmID, put=__set__parmID))  _parmID;
 
@@ -171,7 +170,7 @@ constexpr ::ArrayW<bool> __get__boundChannels() const;
 // Methods
 
 /// @brief Method IsEquivalentTo addr 0x201ef4c size 0x200 virtual true final true
- bool IsEquivalentTo(::HoudiniEngineUnity::HEU_HandleParamBinding other) ;
+ bool IsEquivalentTo(HoudiniEngineUnity::HEU_HandleParamBinding other) ;
 
 // Ctor Parameters []
 explicit HEU_HandleParamBinding() ;
@@ -183,7 +182,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType, "HoudiniEngineUnity", "HEU_HandleParamBinding/HEU_HandleParamType");
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_HandleParamBinding);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_HandleParamBinding, "HoudiniEngineUnity", "HEU_HandleParamBinding");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType, "HoudiniEngineUnity", "HEU_HandleParamBinding/HEU_HandleParamType");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_HandleParamBinding);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_HandleParamBinding, "HoudiniEngineUnity", "HEU_HandleParamBinding");

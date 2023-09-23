@@ -2,31 +2,30 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine::UIElements {
-class EventBase;
-}
-namespace UnityEngine::UIElements {
-class EventCallbackListPool;
-}
-namespace UnityEngine::UIElements {
-struct InvokePolicy;
-}
 namespace UnityEngine::UIElements {
 template<typename TEventType>
 class EventCallback_1;
-}
-namespace UnityEngine::UIElements {
-struct TrickleDown;
-}
-namespace System {
-class Delegate;
 }
 namespace UnityEngine::UIElements {
 struct PropagationPhase;
 }
 namespace UnityEngine::UIElements {
 class EventCallbackList;
+}
+namespace UnityEngine::UIElements {
+struct InvokePolicy;
+}
+namespace UnityEngine::UIElements {
+class EventBase;
+}
+namespace UnityEngine::UIElements {
+struct TrickleDown;
+}
+namespace UnityEngine::UIElements {
+class EventCallbackListPool;
+}
+namespace System {
+class Delegate;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -74,23 +73,23 @@ constexpr explicit EventCallbackRegistry(void* ptr) noexcept : ::bs_hook::Il2Cpp
 
 // Fields
 
-static ::UnityEngine::UIElements::EventCallbackListPool __declspec(property(get=__get_s_ListPool, put=__set_s_ListPool))  s_ListPool;
+static UnityEngine::UIElements::EventCallbackListPool __declspec(property(get=__get_s_ListPool, put=__set_s_ListPool))  s_ListPool;
 
-static void __set_s_ListPool(::UnityEngine::UIElements::EventCallbackListPool value) ;
+static void __set_s_ListPool(UnityEngine::UIElements::EventCallbackListPool value) ;
 
-static ::UnityEngine::UIElements::EventCallbackListPool __get_s_ListPool() ;
+static UnityEngine::UIElements::EventCallbackListPool __get_s_ListPool() ;
 
- ::UnityEngine::UIElements::EventCallbackList __declspec(property(get=__get_m_Callbacks, put=__set_m_Callbacks))  m_Callbacks;
+ UnityEngine::UIElements::EventCallbackList __declspec(property(get=__get_m_Callbacks, put=__set_m_Callbacks))  m_Callbacks;
 
-constexpr void __set_m_Callbacks(::UnityEngine::UIElements::EventCallbackList value) ;
+constexpr void __set_m_Callbacks(UnityEngine::UIElements::EventCallbackList value) ;
 
-constexpr ::UnityEngine::UIElements::EventCallbackList __get_m_Callbacks() const;
+constexpr UnityEngine::UIElements::EventCallbackList __get_m_Callbacks() const;
 
- ::UnityEngine::UIElements::EventCallbackList __declspec(property(get=__get_m_TemporaryCallbacks, put=__set_m_TemporaryCallbacks))  m_TemporaryCallbacks;
+ UnityEngine::UIElements::EventCallbackList __declspec(property(get=__get_m_TemporaryCallbacks, put=__set_m_TemporaryCallbacks))  m_TemporaryCallbacks;
 
-constexpr void __set_m_TemporaryCallbacks(::UnityEngine::UIElements::EventCallbackList value) ;
+constexpr void __set_m_TemporaryCallbacks(UnityEngine::UIElements::EventCallbackList value) ;
 
-constexpr ::UnityEngine::UIElements::EventCallbackList __get_m_TemporaryCallbacks() const;
+constexpr UnityEngine::UIElements::EventCallbackList __get_m_TemporaryCallbacks() const;
 
  int32_t __declspec(property(get=__get_m_IsInvoking, put=__set_m_IsInvoking))  m_IsInvoking;
 
@@ -102,10 +101,10 @@ constexpr int32_t __get_m_IsInvoking() const;
 // Methods
 
 /// @brief Method GetCallbackList addr 0x2cd4278 size 0x68 virtual false final false
-static ::UnityEngine::UIElements::EventCallbackList GetCallbackList(::UnityEngine::UIElements::EventCallbackList initializer) ;
+static UnityEngine::UIElements::EventCallbackList GetCallbackList(UnityEngine::UIElements::EventCallbackList initializer) ;
 
 /// @brief Method ReleaseCallbackList addr 0x2cd42e0 size 0x68 virtual false final false
-static void ReleaseCallbackList(::UnityEngine::UIElements::EventCallbackList toRelease) ;
+static void ReleaseCallbackList(UnityEngine::UIElements::EventCallbackList toRelease) ;
 
 // Ctor Parameters []
 explicit EventCallbackRegistry() ;
@@ -114,24 +113,24 @@ explicit EventCallbackRegistry() ;
  void _ctor() ;
 
 /// @brief Method GetCallbackListForWriting addr 0x2cd4364 size 0xb0 virtual false final false
- ::UnityEngine::UIElements::EventCallbackList GetCallbackListForWriting() ;
+ UnityEngine::UIElements::EventCallbackList GetCallbackListForWriting() ;
 
 /// @brief Method GetCallbackListForReading addr 0x2cd4414 size 0x1c virtual false final false
- ::UnityEngine::UIElements::EventCallbackList GetCallbackListForReading() ;
+ UnityEngine::UIElements::EventCallbackList GetCallbackListForReading() ;
 
 /// @brief Method UnregisterCallback addr 0x2cd4430 size 0x54 virtual false final false
- bool UnregisterCallback(int64_t eventTypeId, ::System::Delegate callback, ::UnityEngine::UIElements::TrickleDown useTrickleDown) ;
+ bool UnregisterCallback(int64_t eventTypeId, System::Delegate callback, UnityEngine::UIElements::TrickleDown useTrickleDown) ;
 
 /// @brief Method RegisterCallback addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TEventType>
- void RegisterCallback(::UnityEngine::UIElements::EventCallback_1<TEventType> callback, ::UnityEngine::UIElements::TrickleDown useTrickleDown, ::UnityEngine::UIElements::InvokePolicy invokePolicy) ;
+ void RegisterCallback(UnityEngine::UIElements::EventCallback_1<TEventType> callback, UnityEngine::UIElements::TrickleDown useTrickleDown, UnityEngine::UIElements::InvokePolicy invokePolicy) ;
 
 /// @brief Method UnregisterCallback addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TEventType>
- bool UnregisterCallback(::UnityEngine::UIElements::EventCallback_1<TEventType> callback, ::UnityEngine::UIElements::TrickleDown useTrickleDown) ;
+ bool UnregisterCallback(UnityEngine::UIElements::EventCallback_1<TEventType> callback, UnityEngine::UIElements::TrickleDown useTrickleDown) ;
 
 /// @brief Method InvokeCallbacks addr 0x2cd4484 size 0x198 virtual false final false
- void InvokeCallbacks(::UnityEngine::UIElements::EventBase evt, ::UnityEngine::UIElements::PropagationPhase propagationPhase) ;
+ void InvokeCallbacks(UnityEngine::UIElements::EventBase evt, UnityEngine::UIElements::PropagationPhase propagationPhase) ;
 
 /// @brief Method HasTrickleDownHandlers addr 0x2cd4634 size 0x20 virtual false final false
  bool HasTrickleDownHandlers() ;
@@ -143,6 +142,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::EventCallbackRegistry);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::EventCallbackRegistry, "UnityEngine.UIElements", "EventCallbackRegistry");
+NEED_NO_BOX(UnityEngine::UIElements::EventCallbackRegistry);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::EventCallbackRegistry, "UnityEngine.UIElements", "EventCallbackRegistry");

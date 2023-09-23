@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine::UIElements::UIR {
 struct OwnedState;
 }
@@ -20,8 +19,8 @@ namespace UnityEngine::UIElements::UIR {
 struct CORDL_TYPE BMPAlloc : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "page", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "pageLine", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "bitIndex", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "ownedState", ty: "::UnityEngine::UIElements::UIR::OwnedState", modifiers: "", def_value: None }]
-constexpr BMPAlloc(int32_t page, uint16_t pageLine, uint8_t bitIndex, ::UnityEngine::UIElements::UIR::OwnedState ownedState) noexcept;
+// Ctor Parameters [CppParam { name: "page", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "pageLine", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "bitIndex", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "ownedState", ty: "UnityEngine::UIElements::UIR::OwnedState", modifiers: "", def_value: None }]
+constexpr BMPAlloc(int32_t page, uint16_t pageLine, uint8_t bitIndex, UnityEngine::UIElements::UIR::OwnedState ownedState) noexcept;
 
 
                     constexpr BMPAlloc(BMPAlloc const&) = default;
@@ -54,11 +53,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
-static ::UnityEngine::UIElements::UIR::BMPAlloc __declspec(property(get=__get_Invalid, put=__set_Invalid))  Invalid;
+static UnityEngine::UIElements::UIR::BMPAlloc __declspec(property(get=__get_Invalid, put=__set_Invalid))  Invalid;
 
-static void __set_Invalid(::UnityEngine::UIElements::UIR::BMPAlloc value) ;
+static void __set_Invalid(UnityEngine::UIElements::UIR::BMPAlloc value) ;
 
-static ::UnityEngine::UIElements::UIR::BMPAlloc __get_Invalid() ;
+static UnityEngine::UIElements::UIR::BMPAlloc __get_Invalid() ;
 
  int32_t __declspec(property(get=__get_page, put=__set_page))  page;
 
@@ -78,17 +77,17 @@ constexpr void __set_bitIndex(uint8_t value) ;
 
 constexpr uint8_t __get_bitIndex() const;
 
- ::UnityEngine::UIElements::UIR::OwnedState __declspec(property(get=__get_ownedState, put=__set_ownedState))  ownedState;
+ UnityEngine::UIElements::UIR::OwnedState __declspec(property(get=__get_ownedState, put=__set_ownedState))  ownedState;
 
-constexpr void __set_ownedState(::UnityEngine::UIElements::UIR::OwnedState value) ;
+constexpr void __set_ownedState(UnityEngine::UIElements::UIR::OwnedState value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::OwnedState __get_ownedState() const;
+constexpr UnityEngine::UIElements::UIR::OwnedState __get_ownedState() const;
 
 
 // Methods
 
 /// @brief Method Equals addr 0x2d11c84 size 0x38 virtual false final false
- bool Equals(::UnityEngine::UIElements::UIR::BMPAlloc other) ;
+ bool Equals(UnityEngine::UIElements::UIR::BMPAlloc other) ;
 
 /// @brief Method IsValid addr 0x2d11cbc size 0x10 virtual false final false
  bool IsValid() ;
@@ -100,5 +99,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::UIR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::BMPAlloc, "UnityEngine.UIElements.UIR", "BMPAlloc");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::BMPAlloc, "UnityEngine.UIElements.UIR", "BMPAlloc");

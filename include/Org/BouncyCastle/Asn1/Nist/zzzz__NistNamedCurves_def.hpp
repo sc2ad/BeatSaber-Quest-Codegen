@@ -2,12 +2,11 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
 namespace System::Collections {
 class IEnumerable;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 namespace System::Collections {
 class IDictionary;
@@ -61,22 +60,22 @@ constexpr explicit NistNamedCurves(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Fields
 
-static ::System::Collections::IDictionary __declspec(property(get=__get_objIds, put=__set_objIds))  objIds;
+static System::Collections::IDictionary __declspec(property(get=__get_objIds, put=__set_objIds))  objIds;
 
-static void __set_objIds(::System::Collections::IDictionary value) ;
+static void __set_objIds(System::Collections::IDictionary value) ;
 
-static ::System::Collections::IDictionary __get_objIds() ;
+static System::Collections::IDictionary __get_objIds() ;
 
-static ::System::Collections::IDictionary __declspec(property(get=__get_names, put=__set_names))  names;
+static System::Collections::IDictionary __declspec(property(get=__get_names, put=__set_names))  names;
 
-static void __set_names(::System::Collections::IDictionary value) ;
+static void __set_names(System::Collections::IDictionary value) ;
 
-static ::System::Collections::IDictionary __get_names() ;
+static System::Collections::IDictionary __get_names() ;
 
 
 // Properties
 
-static ::System::Collections::IEnumerable __declspec(property(get=get_Names))  Names;
+static System::Collections::IEnumerable __declspec(property(get=get_Names))  Names;
 
 
 // Methods
@@ -88,27 +87,26 @@ explicit NistNamedCurves() ;
  void _ctor() ;
 
 /// @brief Method DefineCurveAlias addr 0xeef5d0 size 0x198 virtual false final false
-static void DefineCurveAlias(::StringW name, ::Org::BouncyCastle::Asn1::DerObjectIdentifier oid) ;
+static void DefineCurveAlias(::StringW name, Org::BouncyCastle::Asn1::DerObjectIdentifier oid) ;
 
 /// @brief Method GetByName addr 0xeefa88 size 0x80 virtual false final false
-static ::Org::BouncyCastle::Asn1::X9::X9ECParameters GetByName(::StringW name) ;
+static Org::BouncyCastle::Asn1::X9::X9ECParameters GetByName(::StringW name) ;
 
 /// @brief Method GetByOid addr 0xeefc5c size 0x58 virtual false final false
-static ::Org::BouncyCastle::Asn1::X9::X9ECParameters GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier oid) ;
+static Org::BouncyCastle::Asn1::X9::X9ECParameters GetByOid(Org::BouncyCastle::Asn1::DerObjectIdentifier oid) ;
 
 /// @brief Method GetOid addr 0xeefb08 size 0x154 virtual false final false
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier GetOid(::StringW name) ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier GetOid(::StringW name) ;
 
 /// @brief Method GetName addr 0xeefcb4 size 0x100 virtual false final false
-static ::StringW GetName(::Org::BouncyCastle::Asn1::DerObjectIdentifier oid) ;
+static ::StringW GetName(Org::BouncyCastle::Asn1::DerObjectIdentifier oid) ;
 
 /// @brief Method get_Names addr 0xeefdb4 size 0x10c virtual false final false
-static ::System::Collections::IEnumerable get_Names() ;
+static System::Collections::IEnumerable get_Names() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::Nist
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::Nist::NistNamedCurves);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Nist::NistNamedCurves, "Org.BouncyCastle.Asn1.Nist", "NistNamedCurves");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Nist::NistNamedCurves);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Nist::NistNamedCurves, "Org.BouncyCastle.Asn1.Nist", "NistNamedCurves");

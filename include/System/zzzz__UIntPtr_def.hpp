@@ -4,9 +4,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
@@ -16,7 +15,7 @@ template<typename T>
 class IEquatable_1;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System {
@@ -31,11 +30,11 @@ namespace System {
 struct CORDL_TYPE UIntPtr : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::Serialization::ISerializable
-constexpr operator  ::System::Runtime::Serialization::ISerializable() const;
+/// @brief Convert operator to System::Runtime::Serialization::ISerializable
+constexpr operator  System::Runtime::Serialization::ISerializable() const;
 
-/// @brief Convert operator to ::System::IEquatable_1<::cordl_internals::uintptr_t>
-constexpr operator  ::System::IEquatable_1<::cordl_internals::uintptr_t>() const;
+/// @brief Convert operator to System::IEquatable_1<::cordl_internals::uintptr_t>
+constexpr operator  System::IEquatable_1<::cordl_internals::uintptr_t>() const;
 
 // Ctor Parameters [CppParam { name: "_pointer", ty: "void*", modifiers: "", def_value: None }]
 constexpr UIntPtr(void* _pointer) noexcept;
@@ -110,7 +109,7 @@ static int32_t __declspec(property(get=get_Size))  Size;
  ::StringW ToString() ;
 
 /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData addr 0x249b8c8 size 0xa4 virtual true final true
- void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method op_Equality addr 0x249b96c size 0xc virtual false final false
 static bool op_Equality(::cordl_internals::uintptr_t value1, ::cordl_internals::uintptr_t value2) ;
@@ -140,5 +139,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::UIntPtr, "System", "UIntPtr");
+DEFINE_IL2CPP_ARG_TYPE(System::UIntPtr, "System", "UIntPtr");

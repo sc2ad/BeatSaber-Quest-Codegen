@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__Behaviour_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 class LightProbeProxyVolume;
@@ -12,7 +11,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10129))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10066))
 // CS Name: UnityEngine.LightProbeProxyVolume
-class CORDL_TYPE LightProbeProxyVolume : public ::UnityEngine::Behaviour {
+class CORDL_TYPE LightProbeProxyVolume : public UnityEngine::Behaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr LightProbeProxyVolume(LightProbeProxyVolume const& ) noexcept = defaul
 constexpr LightProbeProxyVolume(LightProbeProxyVolume&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LightProbeProxyVolume(void* ptr) noexcept : ::UnityEngine::Behaviour(ptr) {
+constexpr explicit LightProbeProxyVolume(void* ptr) noexcept : UnityEngine::Behaviour(ptr) {
 }
 
 
@@ -49,6 +48,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::LightProbeProxyVolume);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::LightProbeProxyVolume, "UnityEngine", "LightProbeProxyVolume");
+NEED_NO_BOX(UnityEngine::LightProbeProxyVolume);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LightProbeProxyVolume, "UnityEngine", "LightProbeProxyVolume");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__DataItemConvertor_2_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System {
 class Type;
 }
@@ -21,10 +20,10 @@ namespace GlobalNamespace {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TBase,::cordl_internals::il2cpp_reference_type TIn,::cordl_internals::il2cpp_reference_type TOut,::cordl_internals::il2cpp_reference_type TParam>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4319)), TypeDefinitionIndex(TypeDefinitionIndex(4318)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4318), inst: 1117 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4318)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4318), inst: 1117 }), TypeDefinitionIndex(TypeDefinitionIndex(4319))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4319), inst: 5937 })
 // CS Name: DataItemConvertor`4
-class CORDL_TYPE DataItemConvertor_4<TBase,TIn,TOut,TParam> : public ::GlobalNamespace::DataItemConvertor_2<TBase,TParam> {
+class CORDL_TYPE DataItemConvertor_4<TBase,TIn,TOut,TParam> : public GlobalNamespace::DataItemConvertor_2<TBase,TParam> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr DataItemConvertor_4(DataItemConvertor_4 const& ) noexcept = default;
 constexpr DataItemConvertor_4(DataItemConvertor_4&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DataItemConvertor_4(void* ptr) noexcept : ::GlobalNamespace::DataItemConvertor_2<TBase,TParam>(ptr) {
+constexpr explicit DataItemConvertor_4(void* ptr) noexcept : GlobalNamespace::DataItemConvertor_2<TBase,TParam>(ptr) {
 }
 
 
@@ -60,13 +59,13 @@ constexpr explicit DataItemConvertor_4(void* ptr) noexcept : ::GlobalNamespace::
 
 // Properties
 
- ::System::Type __declspec(property(get=get_inputDataType))  inputDataType;
+ System::Type __declspec(property(get=get_inputDataType))  inputDataType;
 
 
 // Methods
 
 /// @brief Method get_inputDataType addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Type get_inputDataType() ;
+ System::Type get_inputDataType() ;
 
 /// @brief Method Convert addr 0x0 size 0xffffffffffffffff virtual true final false
  TBase Convert(::bs_hook::Il2CppWrapperType item, TParam param) ;
@@ -84,5 +83,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::DataItemConvertor_4, "", "DataItemConvertor`4");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::DataItemConvertor_4, "", "DataItemConvertor`4");

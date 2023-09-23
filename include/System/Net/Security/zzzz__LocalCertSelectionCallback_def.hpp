@@ -5,12 +5,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
-}
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateCollection;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
 }
 // Forward declare root types
 namespace System::Net::Security {
@@ -22,7 +21,7 @@ namespace System::Net::Security {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8221))
 // CS Name: System.Net.Security.LocalCertSelectionCallback
-class CORDL_TYPE LocalCertSelectionCallback : public ::System::MulticastDelegate {
+class CORDL_TYPE LocalCertSelectionCallback : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr LocalCertSelectionCallback(LocalCertSelectionCallback const& ) noexcep
 constexpr LocalCertSelectionCallback(LocalCertSelectionCallback&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LocalCertSelectionCallback(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit LocalCertSelectionCallback(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -65,12 +64,11 @@ explicit LocalCertSelectionCallback(::bs_hook::Il2CppWrapperType object, ::cordl
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x276d3dc size 0x14 virtual true final false
- ::System::Security::Cryptography::X509Certificates::X509Certificate Invoke(::StringW targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection localCertificates, ::System::Security::Cryptography::X509Certificates::X509Certificate remoteCertificate, ::ArrayW<::StringW> acceptableIssuers) ;
+ System::Security::Cryptography::X509Certificates::X509Certificate Invoke(::StringW targetHost, System::Security::Cryptography::X509Certificates::X509CertificateCollection localCertificates, System::Security::Cryptography::X509Certificates::X509Certificate remoteCertificate, ::ArrayW<::StringW> acceptableIssuers) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Security
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Security::LocalCertSelectionCallback);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Security::LocalCertSelectionCallback, "System.Net.Security", "LocalCertSelectionCallback");
+NEED_NO_BOX(System::Net::Security::LocalCertSelectionCallback);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Security::LocalCertSelectionCallback, "System.Net.Security", "LocalCertSelectionCallback");

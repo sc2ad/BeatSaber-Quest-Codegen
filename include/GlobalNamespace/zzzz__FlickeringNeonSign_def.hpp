@@ -5,18 +5,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
-class Material;
+class ParticleSystem;
 }
-namespace GlobalNamespace {
-class TubeBloomPrePassLight;
+namespace UnityEngine {
+class SpriteRenderer;
+}
+namespace UnityEngine {
+class AudioClip;
 }
 namespace UnityEngine {
 struct Color;
-}
-namespace UnityEngine {
-class ParticleSystem;
 }
 namespace GlobalNamespace {
 template<typename T>
@@ -26,24 +25,24 @@ namespace System::Collections {
 class IEnumerator;
 }
 namespace UnityEngine {
-class AudioClip;
+class Material;
 }
-namespace UnityEngine {
-class SpriteRenderer;
-}
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class TubeBloomPrePassLight;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
 class FlickeringNeonSign;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16;
+class GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16;
 }
 // Type: ::<FlickeringCoroutine>d__16
 namespace GlobalNamespace {
@@ -51,46 +50,46 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5084))
 // CS Name: FlickeringNeonSign::<FlickeringCoroutine>d__16
-class CORDL_TYPE ____GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16() = default;
+virtual ~GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16(____GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16(GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16(____GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16(GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16& operator=(____GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16&& o) noexcept = default;
-  constexpr ____GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16& operator=(____GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16 const& o) noexcept = default;
+  constexpr GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16& operator=(GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16&& o) noexcept = default;
+  constexpr GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16& operator=(GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16 const& o) noexcept = default;
                 
 
 
@@ -108,11 +107,11 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::GlobalNamespace::FlickeringNeonSign __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::FlickeringNeonSign __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::FlickeringNeonSign value) ;
+constexpr void __set___4__this(GlobalNamespace::FlickeringNeonSign value) ;
 
-constexpr ::GlobalNamespace::FlickeringNeonSign __get___4__this() const;
+constexpr GlobalNamespace::FlickeringNeonSign __get___4__this() const;
 
 
 // Properties
@@ -125,7 +124,7 @@ constexpr ::GlobalNamespace::FlickeringNeonSign __get___4__this() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16(int32_t __1__state) ;
+explicit GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x22692ec size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -155,10 +154,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5085))
 // CS Name: FlickeringNeonSign
-class CORDL_TYPE FlickeringNeonSign : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE FlickeringNeonSign : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using _FlickeringCoroutine_d__16 = ::GlobalNamespace::____GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16;
+using _FlickeringCoroutine_d__16 = GlobalNamespace::GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x80};
@@ -172,7 +171,7 @@ constexpr FlickeringNeonSign(FlickeringNeonSign const& ) noexcept = default;
 constexpr FlickeringNeonSign(FlickeringNeonSign&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FlickeringNeonSign(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit FlickeringNeonSign(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -193,23 +192,23 @@ constexpr explicit FlickeringNeonSign(void* ptr) noexcept : ::UnityEngine::MonoB
 
 // Fields
 
- ::UnityEngine::SpriteRenderer __declspec(property(get=__get__flickeringSprite, put=__set__flickeringSprite))  _flickeringSprite;
+ UnityEngine::SpriteRenderer __declspec(property(get=__get__flickeringSprite, put=__set__flickeringSprite))  _flickeringSprite;
 
-constexpr void __set__flickeringSprite(::UnityEngine::SpriteRenderer value) ;
+constexpr void __set__flickeringSprite(UnityEngine::SpriteRenderer value) ;
 
-constexpr ::UnityEngine::SpriteRenderer __get__flickeringSprite() const;
+constexpr UnityEngine::SpriteRenderer __get__flickeringSprite() const;
 
- ::GlobalNamespace::TubeBloomPrePassLight __declspec(property(get=__get__light, put=__set__light))  _light;
+ GlobalNamespace::TubeBloomPrePassLight __declspec(property(get=__get__light, put=__set__light))  _light;
 
-constexpr void __set__light(::GlobalNamespace::TubeBloomPrePassLight value) ;
+constexpr void __set__light(GlobalNamespace::TubeBloomPrePassLight value) ;
 
-constexpr ::GlobalNamespace::TubeBloomPrePassLight __get__light() const;
+constexpr GlobalNamespace::TubeBloomPrePassLight __get__light() const;
 
- ::ArrayW<::UnityEngine::ParticleSystem> __declspec(property(get=__get__particleSystems, put=__set__particleSystems))  _particleSystems;
+ ::ArrayW<UnityEngine::ParticleSystem> __declspec(property(get=__get__particleSystems, put=__set__particleSystems))  _particleSystems;
 
-constexpr void __set__particleSystems(::ArrayW<::UnityEngine::ParticleSystem> value) ;
+constexpr void __set__particleSystems(::ArrayW<UnityEngine::ParticleSystem> value) ;
 
-constexpr ::ArrayW<::UnityEngine::ParticleSystem> __get__particleSystems() const;
+constexpr ::ArrayW<UnityEngine::ParticleSystem> __get__particleSystems() const;
 
  float_t __declspec(property(get=__get__minOnDelay, put=__set__minOnDelay))  _minOnDelay;
 
@@ -235,41 +234,41 @@ constexpr void __set__maxOffDelay(float_t value) ;
 
 constexpr float_t __get__maxOffDelay() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__spriteOnColor, put=__set__spriteOnColor))  _spriteOnColor;
+ UnityEngine::Color __declspec(property(get=__get__spriteOnColor, put=__set__spriteOnColor))  _spriteOnColor;
 
-constexpr void __set__spriteOnColor(::UnityEngine::Color value) ;
+constexpr void __set__spriteOnColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__spriteOnColor() const;
+constexpr UnityEngine::Color __get__spriteOnColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__lightOnColor, put=__set__lightOnColor))  _lightOnColor;
+ UnityEngine::Color __declspec(property(get=__get__lightOnColor, put=__set__lightOnColor))  _lightOnColor;
 
-constexpr void __set__lightOnColor(::UnityEngine::Color value) ;
+constexpr void __set__lightOnColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__lightOnColor() const;
+constexpr UnityEngine::Color __get__lightOnColor() const;
 
- ::UnityEngine::Material __declspec(property(get=__get__onMaterial, put=__set__onMaterial))  _onMaterial;
+ UnityEngine::Material __declspec(property(get=__get__onMaterial, put=__set__onMaterial))  _onMaterial;
 
-constexpr void __set__onMaterial(::UnityEngine::Material value) ;
+constexpr void __set__onMaterial(UnityEngine::Material value) ;
 
-constexpr ::UnityEngine::Material __get__onMaterial() const;
+constexpr UnityEngine::Material __get__onMaterial() const;
 
- ::UnityEngine::Material __declspec(property(get=__get__offMaterial, put=__set__offMaterial))  _offMaterial;
+ UnityEngine::Material __declspec(property(get=__get__offMaterial, put=__set__offMaterial))  _offMaterial;
 
-constexpr void __set__offMaterial(::UnityEngine::Material value) ;
+constexpr void __set__offMaterial(UnityEngine::Material value) ;
 
-constexpr ::UnityEngine::Material __get__offMaterial() const;
+constexpr UnityEngine::Material __get__offMaterial() const;
 
- ::ArrayW<::UnityEngine::AudioClip> __declspec(property(get=__get__sparksAudioClips, put=__set__sparksAudioClips))  _sparksAudioClips;
+ ::ArrayW<UnityEngine::AudioClip> __declspec(property(get=__get__sparksAudioClips, put=__set__sparksAudioClips))  _sparksAudioClips;
 
-constexpr void __set__sparksAudioClips(::ArrayW<::UnityEngine::AudioClip> value) ;
+constexpr void __set__sparksAudioClips(::ArrayW<UnityEngine::AudioClip> value) ;
 
-constexpr ::ArrayW<::UnityEngine::AudioClip> __get__sparksAudioClips() const;
+constexpr ::ArrayW<UnityEngine::AudioClip> __get__sparksAudioClips() const;
 
- ::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip> __declspec(property(get=__get__sparksAudioClipPicker, put=__set__sparksAudioClipPicker))  _sparksAudioClipPicker;
+ GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip> __declspec(property(get=__get__sparksAudioClipPicker, put=__set__sparksAudioClipPicker))  _sparksAudioClipPicker;
 
-constexpr void __set__sparksAudioClipPicker(::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip> value) ;
+constexpr void __set__sparksAudioClipPicker(GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip> value) ;
 
-constexpr ::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip> __get__sparksAudioClipPicker() const;
+constexpr GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip> __get__sparksAudioClipPicker() const;
 
 
 // Methods
@@ -284,7 +283,7 @@ constexpr ::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip> __ge
  void OnEnable() ;
 
 /// @brief Method FlickeringCoroutine addr 0x2269284 size 0x68 virtual false final false
- ::System::Collections::IEnumerator FlickeringCoroutine() ;
+ System::Collections::IEnumerator FlickeringCoroutine() ;
 
 /// @brief Method SetOn addr 0x2269314 size 0x110 virtual false final false
  void SetOn(bool on) ;
@@ -299,8 +298,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::FlickeringNeonSign);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FlickeringNeonSign, "", "FlickeringNeonSign");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16, "", "FlickeringNeonSign/<FlickeringCoroutine>d__16");
+NEED_NO_BOX(GlobalNamespace::FlickeringNeonSign);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlickeringNeonSign, "", "FlickeringNeonSign");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16, "", "FlickeringNeonSign/<FlickeringCoroutine>d__16");

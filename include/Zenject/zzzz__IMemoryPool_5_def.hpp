@@ -1,6 +1,5 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace Zenject {
 template<typename TValue>
 class IDespawnableMemoryPool_1;
@@ -24,11 +23,11 @@ template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typ
 class CORDL_TYPE IMemoryPool_5 : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::Zenject::IDespawnableMemoryPool_1<TValue>
-constexpr operator  ::Zenject::IDespawnableMemoryPool_1<TValue>() const noexcept;
+/// @brief Convert operator to Zenject::IDespawnableMemoryPool_1<TValue>
+constexpr operator  Zenject::IDespawnableMemoryPool_1<TValue>() const noexcept;
 
-/// @brief Convert operator to ::Zenject::IMemoryPool
-constexpr operator  ::Zenject::IMemoryPool() const noexcept;
+/// @brief Convert operator to Zenject::IMemoryPool
+constexpr operator  Zenject::IMemoryPool() const noexcept;
 
 ~IMemoryPool_5() = default;
 
@@ -46,5 +45,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::IMemoryPool_5, "Zenject", "IMemoryPool`5");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::IMemoryPool_5, "Zenject", "IMemoryPool`5");

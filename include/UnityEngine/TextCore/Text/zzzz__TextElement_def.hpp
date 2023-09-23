@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine::TextCore::Text {
-struct TextElementType;
-}
 namespace UnityEngine::TextCore {
 class Glyph;
 }
 namespace UnityEngine::TextCore::Text {
 class TextAsset;
+}
+namespace UnityEngine::TextCore::Text {
+struct TextElementType;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -59,11 +58,11 @@ constexpr explicit TextElement(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 
 // Fields
 
- ::UnityEngine::TextCore::Text::TextElementType __declspec(property(get=__get_m_ElementType, put=__set_m_ElementType))  m_ElementType;
+ UnityEngine::TextCore::Text::TextElementType __declspec(property(get=__get_m_ElementType, put=__set_m_ElementType))  m_ElementType;
 
-constexpr void __set_m_ElementType(::UnityEngine::TextCore::Text::TextElementType value) ;
+constexpr void __set_m_ElementType(UnityEngine::TextCore::Text::TextElementType value) ;
 
-constexpr ::UnityEngine::TextCore::Text::TextElementType __get_m_ElementType() const;
+constexpr UnityEngine::TextCore::Text::TextElementType __get_m_ElementType() const;
 
  uint32_t __declspec(property(get=__get_m_Unicode, put=__set_m_Unicode))  m_Unicode;
 
@@ -71,17 +70,17 @@ constexpr void __set_m_Unicode(uint32_t value) ;
 
 constexpr uint32_t __get_m_Unicode() const;
 
- ::UnityEngine::TextCore::Text::TextAsset __declspec(property(get=__get_m_TextAsset, put=__set_m_TextAsset))  m_TextAsset;
+ UnityEngine::TextCore::Text::TextAsset __declspec(property(get=__get_m_TextAsset, put=__set_m_TextAsset))  m_TextAsset;
 
-constexpr void __set_m_TextAsset(::UnityEngine::TextCore::Text::TextAsset value) ;
+constexpr void __set_m_TextAsset(UnityEngine::TextCore::Text::TextAsset value) ;
 
-constexpr ::UnityEngine::TextCore::Text::TextAsset __get_m_TextAsset() const;
+constexpr UnityEngine::TextCore::Text::TextAsset __get_m_TextAsset() const;
 
- ::UnityEngine::TextCore::Glyph __declspec(property(get=__get_m_Glyph, put=__set_m_Glyph))  m_Glyph;
+ UnityEngine::TextCore::Glyph __declspec(property(get=__get_m_Glyph, put=__set_m_Glyph))  m_Glyph;
 
-constexpr void __set_m_Glyph(::UnityEngine::TextCore::Glyph value) ;
+constexpr void __set_m_Glyph(UnityEngine::TextCore::Glyph value) ;
 
-constexpr ::UnityEngine::TextCore::Glyph __get_m_Glyph() const;
+constexpr UnityEngine::TextCore::Glyph __get_m_Glyph() const;
 
  uint32_t __declspec(property(get=__get_m_GlyphIndex, put=__set_m_GlyphIndex))  m_GlyphIndex;
 
@@ -98,13 +97,13 @@ constexpr float_t __get_m_Scale() const;
 
 // Properties
 
- ::UnityEngine::TextCore::Text::TextElementType __declspec(property(get=get_elementType))  elementType;
+ UnityEngine::TextCore::Text::TextElementType __declspec(property(get=get_elementType))  elementType;
 
  uint32_t __declspec(property(get=get_unicode, put=set_unicode))  unicode;
 
- ::UnityEngine::TextCore::Text::TextAsset __declspec(property(get=get_textAsset, put=set_textAsset))  textAsset;
+ UnityEngine::TextCore::Text::TextAsset __declspec(property(get=get_textAsset, put=set_textAsset))  textAsset;
 
- ::UnityEngine::TextCore::Glyph __declspec(property(get=get_glyph, put=set_glyph))  glyph;
+ UnityEngine::TextCore::Glyph __declspec(property(get=get_glyph, put=set_glyph))  glyph;
 
  uint32_t __declspec(property(get=get_glyphIndex, put=set_glyphIndex))  glyphIndex;
 
@@ -114,7 +113,7 @@ constexpr float_t __get_m_Scale() const;
 // Methods
 
 /// @brief Method get_elementType addr 0x2bcc740 size 0x8 virtual false final false
- ::UnityEngine::TextCore::Text::TextElementType get_elementType() ;
+ UnityEngine::TextCore::Text::TextElementType get_elementType() ;
 
 /// @brief Method get_unicode addr 0x2bc2428 size 0x8 virtual false final false
  uint32_t get_unicode() ;
@@ -123,16 +122,16 @@ constexpr float_t __get_m_Scale() const;
  void set_unicode(uint32_t value) ;
 
 /// @brief Method get_textAsset addr 0x2bca1e4 size 0x8 virtual false final false
- ::UnityEngine::TextCore::Text::TextAsset get_textAsset() ;
+ UnityEngine::TextCore::Text::TextAsset get_textAsset() ;
 
 /// @brief Method set_textAsset addr 0x2bc2430 size 0x8 virtual false final false
- void set_textAsset(::UnityEngine::TextCore::Text::TextAsset value) ;
+ void set_textAsset(UnityEngine::TextCore::Text::TextAsset value) ;
 
 /// @brief Method get_glyph addr 0x2bcc748 size 0x8 virtual false final false
- ::UnityEngine::TextCore::Glyph get_glyph() ;
+ UnityEngine::TextCore::Glyph get_glyph() ;
 
 /// @brief Method set_glyph addr 0x2bc2438 size 0x8 virtual false final false
- void set_glyph(::UnityEngine::TextCore::Glyph value) ;
+ void set_glyph(UnityEngine::TextCore::Glyph value) ;
 
 /// @brief Method get_glyphIndex addr 0x2bc1dc0 size 0x8 virtual false final false
  uint32_t get_glyphIndex() ;
@@ -156,6 +155,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::Text
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::TextCore::Text::TextElement);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::TextElement, "UnityEngine.TextCore.Text", "TextElement");
+NEED_NO_BOX(UnityEngine::TextCore::Text::TextElement);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Text::TextElement, "UnityEngine.TextCore.Text", "TextElement");

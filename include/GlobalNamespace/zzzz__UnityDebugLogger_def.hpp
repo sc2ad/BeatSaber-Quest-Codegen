@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System {
-class Exception;
-}
 namespace GlobalNamespace {
 class IBeatSaberLogger;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,8 +21,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE UnityDebugLogger : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IBeatSaberLogger
-constexpr operator  ::GlobalNamespace::IBeatSaberLogger() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IBeatSaberLogger
+constexpr operator  GlobalNamespace::IBeatSaberLogger() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -77,10 +76,10 @@ constexpr explicit UnityDebugLogger(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
  void LogError(::StringW message, ::bs_hook::Il2CppWrapperType context) ;
 
 /// @brief Method LogException addr 0x219edb4 size 0x58 virtual true final true
- void LogException(::System::Exception exception) ;
+ void LogException(System::Exception exception) ;
 
 /// @brief Method LogException addr 0x219ee0c size 0xb8 virtual true final true
- void LogException(::System::Exception exception, ::bs_hook::Il2CppWrapperType context) ;
+ void LogException(System::Exception exception, ::bs_hook::Il2CppWrapperType context) ;
 
 // Ctor Parameters []
 explicit UnityDebugLogger() ;
@@ -92,6 +91,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::UnityDebugLogger);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::UnityDebugLogger, "", "UnityDebugLogger");
+NEED_NO_BOX(GlobalNamespace::UnityDebugLogger);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnityDebugLogger, "", "UnityDebugLogger");

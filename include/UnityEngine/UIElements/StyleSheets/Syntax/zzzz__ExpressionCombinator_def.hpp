@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 struct ExpressionCombinator;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator const None;
+static UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator const None;
 
 /// @brief Field Or offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator const Or;
+static UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator const Or;
 
 /// @brief Field OrOr offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator const OrOr;
+static UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator const OrOr;
 
 /// @brief Field AndAnd offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator const AndAnd;
+static UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator const AndAnd;
 
 /// @brief Field Juxtaposition offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator const Juxtaposition;
+static UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator const Juxtaposition;
 
 /// @brief Field Group offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator const Group;
+static UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator const Group;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::StyleSheets::Syntax
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator, "UnityEngine.UIElements.StyleSheets.Syntax", "ExpressionCombinator");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator, "UnityEngine.UIElements.StyleSheets.Syntax", "ExpressionCombinator");

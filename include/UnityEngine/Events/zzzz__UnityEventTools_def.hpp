@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::Events {
 class UnityEventTools;
@@ -56,6 +55,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Events
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Events::UnityEventTools);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Events::UnityEventTools, "UnityEngine.Events", "UnityEventTools");
+NEED_NO_BOX(UnityEngine::Events::UnityEventTools);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::UnityEventTools, "UnityEngine.Events", "UnityEventTools");

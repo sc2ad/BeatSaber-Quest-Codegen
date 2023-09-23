@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Text {
 class StringBuilder;
 }
@@ -17,7 +16,7 @@ namespace System::Security {
 class SecurityElement;
 }
 namespace System::Security {
-class ____System__Security__SecurityElement__SecurityAttribute;
+class System__Security__SecurityElement__SecurityAttribute;
 }
 // Type: ::SecurityAttribute
 namespace System::Security {
@@ -25,37 +24,37 @@ namespace System::Security {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2883))
 // CS Name: System.Security.SecurityElement::SecurityAttribute
-class CORDL_TYPE ____System__Security__SecurityElement__SecurityAttribute : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Security__SecurityElement__SecurityAttribute : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____System__Security__SecurityElement__SecurityAttribute() = default;
+virtual ~System__Security__SecurityElement__SecurityAttribute() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Security__SecurityElement__SecurityAttribute", modifiers: " const&", def_value: None }]
-constexpr ____System__Security__SecurityElement__SecurityAttribute(____System__Security__SecurityElement__SecurityAttribute const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Security__SecurityElement__SecurityAttribute", modifiers: " const&", def_value: None }]
+constexpr System__Security__SecurityElement__SecurityAttribute(System__Security__SecurityElement__SecurityAttribute const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Security__SecurityElement__SecurityAttribute", modifiers: "&&", def_value: None }]
-constexpr ____System__Security__SecurityElement__SecurityAttribute(____System__Security__SecurityElement__SecurityAttribute&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Security__SecurityElement__SecurityAttribute", modifiers: "&&", def_value: None }]
+constexpr System__Security__SecurityElement__SecurityAttribute(System__Security__SecurityElement__SecurityAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Security__SecurityElement__SecurityAttribute(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Security__SecurityElement__SecurityAttribute(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Security__SecurityElement__SecurityAttribute& operator=(std::nullptr_t) noexcept {
+  constexpr System__Security__SecurityElement__SecurityAttribute& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Security__SecurityElement__SecurityAttribute& operator=(void* o) noexcept {
+  constexpr System__Security__SecurityElement__SecurityAttribute& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Security__SecurityElement__SecurityAttribute& operator=(____System__Security__SecurityElement__SecurityAttribute&& o) noexcept = default;
-  constexpr ____System__Security__SecurityElement__SecurityAttribute& operator=(____System__Security__SecurityElement__SecurityAttribute const& o) noexcept = default;
+  constexpr System__Security__SecurityElement__SecurityAttribute& operator=(System__Security__SecurityElement__SecurityAttribute&& o) noexcept = default;
+  constexpr System__Security__SecurityElement__SecurityAttribute& operator=(System__Security__SecurityElement__SecurityAttribute const& o) noexcept = default;
                 
 
 
@@ -84,7 +83,7 @@ constexpr ::StringW __get__value() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }]
-explicit ____System__Security__SecurityElement__SecurityAttribute(::StringW name, ::StringW value) ;
+explicit System__Security__SecurityElement__SecurityAttribute(::StringW name, ::StringW value) ;
 
 /// @brief Method .ctor addr 0x22e7390 size 0x164 virtual false final false
  void _ctor(::StringW name, ::StringW value) ;
@@ -108,7 +107,7 @@ namespace System::Security {
 class CORDL_TYPE SecurityElement : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using SecurityAttribute = ::System::Security::____System__Security__SecurityElement__SecurityAttribute;
+using SecurityAttribute = System::Security::System__Security__SecurityElement__SecurityAttribute;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -155,17 +154,17 @@ constexpr void __set_tag(::StringW value) ;
 
 constexpr ::StringW __get_tag() const;
 
- ::System::Collections::ArrayList __declspec(property(get=__get_attributes, put=__set_attributes))  attributes;
+ System::Collections::ArrayList __declspec(property(get=__get_attributes, put=__set_attributes))  attributes;
 
-constexpr void __set_attributes(::System::Collections::ArrayList value) ;
+constexpr void __set_attributes(System::Collections::ArrayList value) ;
 
-constexpr ::System::Collections::ArrayList __get_attributes() const;
+constexpr System::Collections::ArrayList __get_attributes() const;
 
- ::System::Collections::ArrayList __declspec(property(get=__get_children, put=__set_children))  children;
+ System::Collections::ArrayList __declspec(property(get=__get_children, put=__set_children))  children;
 
-constexpr void __set_children(::System::Collections::ArrayList value) ;
+constexpr void __set_children(System::Collections::ArrayList value) ;
 
-constexpr ::System::Collections::ArrayList __get_children() const;
+constexpr System::Collections::ArrayList __get_children() const;
 
 static ::ArrayW<char16_t> __declspec(property(get=__get_invalid_tag_chars, put=__set_invalid_tag_chars))  invalid_tag_chars;
 
@@ -200,7 +199,7 @@ static ::ArrayW<char16_t> __get_invalid_chars() ;
 
 // Properties
 
- ::System::Collections::ArrayList __declspec(property(get=get_Children))  Children;
+ System::Collections::ArrayList __declspec(property(get=get_Children))  Children;
 
  ::StringW __declspec(property(get=get_Tag))  Tag;
 
@@ -224,7 +223,7 @@ explicit SecurityElement(::StringW tag, ::StringW text) ;
  void _ctor(::StringW tag, ::StringW text) ;
 
 /// @brief Method get_Children addr 0x22e6e18 size 0x8 virtual false final false
- ::System::Collections::ArrayList get_Children() ;
+ System::Collections::ArrayList get_Children() ;
 
 /// @brief Method get_Tag addr 0x22e6e20 size 0x8 virtual false final false
  ::StringW get_Tag() ;
@@ -236,7 +235,7 @@ explicit SecurityElement(::StringW tag, ::StringW text) ;
  void AddAttribute(::StringW name, ::StringW value) ;
 
 /// @brief Method AddChild addr 0x22e4e18 size 0xd0 virtual false final false
- void AddChild(::System::Security::SecurityElement child) ;
+ void AddChild(System::Security::SecurityElement child) ;
 
 /// @brief Method Escape addr 0x22e74f4 size 0x1ec virtual false final false
 static ::StringW Escape(::StringW str) ;
@@ -257,16 +256,16 @@ static bool IsValidTag(::StringW tag) ;
 static bool IsValidText(::StringW text) ;
 
 /// @brief Method SearchForChildByTag addr 0x22e77d8 size 0x128 virtual false final false
- ::System::Security::SecurityElement SearchForChildByTag(::StringW tag) ;
+ System::Security::SecurityElement SearchForChildByTag(::StringW tag) ;
 
 /// @brief Method ToString addr 0x22e7900 size 0x88 virtual true final false
  ::StringW ToString() ;
 
 /// @brief Method ToXml addr 0x22e7988 size 0x64c virtual false final false
- void ToXml(ByRef<::System::Text::StringBuilder> s, int32_t level) ;
+ void ToXml(ByRef<System::Text::StringBuilder> s, int32_t level) ;
 
 /// @brief Method GetAttribute addr 0x22e7080 size 0x310 virtual false final false
- ::System::Security::____System__Security__SecurityElement__SecurityAttribute GetAttribute(::StringW name) ;
+ System::Security::System__Security__SecurityElement__SecurityAttribute GetAttribute(::StringW name) ;
 
 /// @brief Method set_m_strText addr 0x22e7fd4 size 0x8 virtual false final false
  void set_m_strText(::StringW value) ;
@@ -278,8 +277,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::SecurityElement);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::SecurityElement, "System.Security", "SecurityElement");
-NEED_NO_BOX(::System::Security::____System__Security__SecurityElement__SecurityAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::____System__Security__SecurityElement__SecurityAttribute, "System.Security", "SecurityElement/SecurityAttribute");
+NEED_NO_BOX(System::Security::SecurityElement);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::SecurityElement, "System.Security", "SecurityElement");
+NEED_NO_BOX(System::Security::System__Security__SecurityElement__SecurityAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::System__Security__SecurityElement__SecurityAttribute, "System.Security", "SecurityElement/SecurityAttribute");

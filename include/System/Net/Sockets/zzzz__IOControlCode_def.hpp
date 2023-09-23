@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net::Sockets {
 struct IOControlCode;
@@ -99,110 +98,109 @@ constexpr void __set_value__(int64_t value) ;
 constexpr int64_t __get_value__() const;
 
 /// @brief Field AsyncIO offset 0
-static ::System::Net::Sockets::IOControlCode const AsyncIO;
+static System::Net::Sockets::IOControlCode const AsyncIO;
 
 /// @brief Field NonBlockingIO offset 0
-static ::System::Net::Sockets::IOControlCode const NonBlockingIO;
+static System::Net::Sockets::IOControlCode const NonBlockingIO;
 
 /// @brief Field DataToRead offset 0
-static ::System::Net::Sockets::IOControlCode const DataToRead;
+static System::Net::Sockets::IOControlCode const DataToRead;
 
 /// @brief Field OobDataRead offset 0
-static ::System::Net::Sockets::IOControlCode const OobDataRead;
+static System::Net::Sockets::IOControlCode const OobDataRead;
 
 /// @brief Field AssociateHandle offset 0
-static ::System::Net::Sockets::IOControlCode const AssociateHandle;
+static System::Net::Sockets::IOControlCode const AssociateHandle;
 
 /// @brief Field EnableCircularQueuing offset 0
-static ::System::Net::Sockets::IOControlCode const EnableCircularQueuing;
+static System::Net::Sockets::IOControlCode const EnableCircularQueuing;
 
 /// @brief Field Flush offset 0
-static ::System::Net::Sockets::IOControlCode const Flush;
+static System::Net::Sockets::IOControlCode const Flush;
 
 /// @brief Field GetBroadcastAddress offset 0
-static ::System::Net::Sockets::IOControlCode const GetBroadcastAddress;
+static System::Net::Sockets::IOControlCode const GetBroadcastAddress;
 
 /// @brief Field GetExtensionFunctionPointer offset 0
-static ::System::Net::Sockets::IOControlCode const GetExtensionFunctionPointer;
+static System::Net::Sockets::IOControlCode const GetExtensionFunctionPointer;
 
 /// @brief Field GetQos offset 0
-static ::System::Net::Sockets::IOControlCode const GetQos;
+static System::Net::Sockets::IOControlCode const GetQos;
 
 /// @brief Field GetGroupQos offset 0
-static ::System::Net::Sockets::IOControlCode const GetGroupQos;
+static System::Net::Sockets::IOControlCode const GetGroupQos;
 
 /// @brief Field MultipointLoopback offset 0
-static ::System::Net::Sockets::IOControlCode const MultipointLoopback;
+static System::Net::Sockets::IOControlCode const MultipointLoopback;
 
 /// @brief Field MulticastScope offset 0
-static ::System::Net::Sockets::IOControlCode const MulticastScope;
+static System::Net::Sockets::IOControlCode const MulticastScope;
 
 /// @brief Field SetQos offset 0
-static ::System::Net::Sockets::IOControlCode const SetQos;
+static System::Net::Sockets::IOControlCode const SetQos;
 
 /// @brief Field SetGroupQos offset 0
-static ::System::Net::Sockets::IOControlCode const SetGroupQos;
+static System::Net::Sockets::IOControlCode const SetGroupQos;
 
 /// @brief Field TranslateHandle offset 0
-static ::System::Net::Sockets::IOControlCode const TranslateHandle;
+static System::Net::Sockets::IOControlCode const TranslateHandle;
 
 /// @brief Field RoutingInterfaceQuery offset 0
-static ::System::Net::Sockets::IOControlCode const RoutingInterfaceQuery;
+static System::Net::Sockets::IOControlCode const RoutingInterfaceQuery;
 
 /// @brief Field RoutingInterfaceChange offset 0
-static ::System::Net::Sockets::IOControlCode const RoutingInterfaceChange;
+static System::Net::Sockets::IOControlCode const RoutingInterfaceChange;
 
 /// @brief Field AddressListQuery offset 0
-static ::System::Net::Sockets::IOControlCode const AddressListQuery;
+static System::Net::Sockets::IOControlCode const AddressListQuery;
 
 /// @brief Field AddressListChange offset 0
-static ::System::Net::Sockets::IOControlCode const AddressListChange;
+static System::Net::Sockets::IOControlCode const AddressListChange;
 
 /// @brief Field QueryTargetPnpHandle offset 0
-static ::System::Net::Sockets::IOControlCode const QueryTargetPnpHandle;
+static System::Net::Sockets::IOControlCode const QueryTargetPnpHandle;
 
 /// @brief Field NamespaceChange offset 0
-static ::System::Net::Sockets::IOControlCode const NamespaceChange;
+static System::Net::Sockets::IOControlCode const NamespaceChange;
 
 /// @brief Field AddressListSort offset 0
-static ::System::Net::Sockets::IOControlCode const AddressListSort;
+static System::Net::Sockets::IOControlCode const AddressListSort;
 
 /// @brief Field ReceiveAll offset 0
-static ::System::Net::Sockets::IOControlCode const ReceiveAll;
+static System::Net::Sockets::IOControlCode const ReceiveAll;
 
 /// @brief Field ReceiveAllMulticast offset 0
-static ::System::Net::Sockets::IOControlCode const ReceiveAllMulticast;
+static System::Net::Sockets::IOControlCode const ReceiveAllMulticast;
 
 /// @brief Field ReceiveAllIgmpMulticast offset 0
-static ::System::Net::Sockets::IOControlCode const ReceiveAllIgmpMulticast;
+static System::Net::Sockets::IOControlCode const ReceiveAllIgmpMulticast;
 
 /// @brief Field KeepAliveValues offset 0
-static ::System::Net::Sockets::IOControlCode const KeepAliveValues;
+static System::Net::Sockets::IOControlCode const KeepAliveValues;
 
 /// @brief Field AbsorbRouterAlert offset 0
-static ::System::Net::Sockets::IOControlCode const AbsorbRouterAlert;
+static System::Net::Sockets::IOControlCode const AbsorbRouterAlert;
 
 /// @brief Field UnicastInterface offset 0
-static ::System::Net::Sockets::IOControlCode const UnicastInterface;
+static System::Net::Sockets::IOControlCode const UnicastInterface;
 
 /// @brief Field LimitBroadcasts offset 0
-static ::System::Net::Sockets::IOControlCode const LimitBroadcasts;
+static System::Net::Sockets::IOControlCode const LimitBroadcasts;
 
 /// @brief Field BindToInterface offset 0
-static ::System::Net::Sockets::IOControlCode const BindToInterface;
+static System::Net::Sockets::IOControlCode const BindToInterface;
 
 /// @brief Field MulticastInterface offset 0
-static ::System::Net::Sockets::IOControlCode const MulticastInterface;
+static System::Net::Sockets::IOControlCode const MulticastInterface;
 
 /// @brief Field AddMulticastGroupOnInterface offset 0
-static ::System::Net::Sockets::IOControlCode const AddMulticastGroupOnInterface;
+static System::Net::Sockets::IOControlCode const AddMulticastGroupOnInterface;
 
 /// @brief Field DeleteMulticastGroupFromInterface offset 0
-static ::System::Net::Sockets::IOControlCode const DeleteMulticastGroupFromInterface;
+static System::Net::Sockets::IOControlCode const DeleteMulticastGroupFromInterface;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net::Sockets
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Sockets::IOControlCode, "System.Net.Sockets", "IOControlCode");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::IOControlCode, "System.Net.Sockets", "IOControlCode");

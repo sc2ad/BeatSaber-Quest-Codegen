@@ -3,15 +3,14 @@
 #include "GlobalNamespace/zzzz__BaseStateTransition_1_def.hpp"
 #include "UnityEngine/zzzz__CanvasGroup_def.hpp"
 #include <cmath>
-namespace {
-namespace GlobalNamespace {
-class BaseTransitionSO;
+namespace Tweening {
+class FloatTween;
 }
 namespace GlobalNamespace {
 class CanvasGroupTransitionSO;
 }
-namespace Tweening {
-class FloatTween;
+namespace GlobalNamespace {
+class BaseTransitionSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,10 +19,10 @@ class CanvasGroupStateTransition;
 // Type: ::CanvasGroupStateTransition
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5544), inst: 892 }), TypeDefinitionIndex(TypeDefinitionIndex(5544)), TypeDefinitionIndex(TypeDefinitionIndex(15764))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5544)), TypeDefinitionIndex(TypeDefinitionIndex(15764)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5544), inst: 892 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5546))
 // CS Name: CanvasGroupStateTransition
-class CORDL_TYPE CanvasGroupStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityEngine::CanvasGroup> {
+class CORDL_TYPE CanvasGroupStateTransition : public GlobalNamespace::BaseStateTransition_1<UnityEngine::CanvasGroup> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr CanvasGroupStateTransition(CanvasGroupStateTransition const& ) noexcep
 constexpr CanvasGroupStateTransition(CanvasGroupStateTransition&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CanvasGroupStateTransition(void* ptr) noexcept : ::GlobalNamespace::BaseStateTransition_1<::UnityEngine::CanvasGroup>(ptr) {
+constexpr explicit CanvasGroupStateTransition(void* ptr) noexcept : GlobalNamespace::BaseStateTransition_1<UnityEngine::CanvasGroup>(ptr) {
 }
 
 
@@ -59,28 +58,28 @@ constexpr explicit CanvasGroupStateTransition(void* ptr) noexcept : ::GlobalName
 
 // Fields
 
- ::GlobalNamespace::CanvasGroupTransitionSO __declspec(property(get=__get__transition, put=__set__transition))  _transition;
+ GlobalNamespace::CanvasGroupTransitionSO __declspec(property(get=__get__transition, put=__set__transition))  _transition;
 
-constexpr void __set__transition(::GlobalNamespace::CanvasGroupTransitionSO value) ;
+constexpr void __set__transition(GlobalNamespace::CanvasGroupTransitionSO value) ;
 
-constexpr ::GlobalNamespace::CanvasGroupTransitionSO __get__transition() const;
+constexpr GlobalNamespace::CanvasGroupTransitionSO __get__transition() const;
 
- ::Tweening::FloatTween __declspec(property(get=__get__floatTween, put=__set__floatTween))  _floatTween;
+ Tweening::FloatTween __declspec(property(get=__get__floatTween, put=__set__floatTween))  _floatTween;
 
-constexpr void __set__floatTween(::Tweening::FloatTween value) ;
+constexpr void __set__floatTween(Tweening::FloatTween value) ;
 
-constexpr ::Tweening::FloatTween __get__floatTween() const;
+constexpr Tweening::FloatTween __get__floatTween() const;
 
 
 // Properties
 
- ::GlobalNamespace::BaseTransitionSO __declspec(property(get=get_transition))  transition;
+ GlobalNamespace::BaseTransitionSO __declspec(property(get=get_transition))  transition;
 
 
 // Methods
 
 /// @brief Method get_transition addr 0x2127eb0 size 0x8 virtual true final false
- ::GlobalNamespace::BaseTransitionSO get_transition() ;
+ GlobalNamespace::BaseTransitionSO get_transition() ;
 
 /// @brief Method TransitionToNormalState addr 0x2127eb8 size 0x1c virtual true final false
  void TransitionToNormalState() ;
@@ -137,6 +136,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::CanvasGroupStateTransition);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CanvasGroupStateTransition, "", "CanvasGroupStateTransition");
+NEED_NO_BOX(GlobalNamespace::CanvasGroupStateTransition);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CanvasGroupStateTransition, "", "CanvasGroupStateTransition");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace IgnoranceCore {
 struct IgnoranceLogType;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Quiet offset 0
-static ::IgnoranceCore::IgnoranceLogType const Quiet;
+static IgnoranceCore::IgnoranceLogType const Quiet;
 
 /// @brief Field Standard offset 0
-static ::IgnoranceCore::IgnoranceLogType const Standard;
+static IgnoranceCore::IgnoranceLogType const Standard;
 
 /// @brief Field Verbose offset 0
-static ::IgnoranceCore::IgnoranceLogType const Verbose;
+static IgnoranceCore::IgnoranceLogType const Verbose;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def IgnoranceCore
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::IgnoranceCore::IgnoranceLogType, "IgnoranceCore", "IgnoranceLogType");
+DEFINE_IL2CPP_ARG_TYPE(IgnoranceCore::IgnoranceLogType, "IgnoranceCore", "IgnoranceLogType");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace UnityEngine::UI {
 class ILayoutController;
 }
@@ -15,11 +14,11 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5538))
 // CS Name: StartMiddleEndButtonsGroup
-class CORDL_TYPE StartMiddleEndButtonsGroup : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE StartMiddleEndButtonsGroup : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::UI::ILayoutController
-constexpr operator  ::UnityEngine::UI::ILayoutController() const noexcept;
+/// @brief Convert operator to UnityEngine::UI::ILayoutController
+constexpr operator  UnityEngine::UI::ILayoutController() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -33,7 +32,7 @@ constexpr StartMiddleEndButtonsGroup(StartMiddleEndButtonsGroup const& ) noexcep
 constexpr StartMiddleEndButtonsGroup(StartMiddleEndButtonsGroup&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit StartMiddleEndButtonsGroup(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit StartMiddleEndButtonsGroup(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -70,6 +69,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::StartMiddleEndButtonsGroup);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StartMiddleEndButtonsGroup, "", "StartMiddleEndButtonsGroup");
+NEED_NO_BOX(GlobalNamespace::StartMiddleEndButtonsGroup);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StartMiddleEndButtonsGroup, "", "StartMiddleEndButtonsGroup");

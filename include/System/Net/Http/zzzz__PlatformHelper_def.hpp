@@ -2,19 +2,18 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System::Threading {
-struct CancellationToken;
-}
 namespace System::IO {
 class Stream;
 }
-namespace System::Net::Http {
-class StreamContent;
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
+}
+namespace System::Net::Http {
+class StreamContent;
 }
 // Forward declare root types
 namespace System::Net::Http {
@@ -66,15 +65,14 @@ constexpr explicit PlatformHelper(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 static bool IsContentHeader(::StringW name) ;
 
 /// @brief Method GetSingleHeaderString addr 0x269c730 size 0x64 virtual false final false
-static ::StringW GetSingleHeaderString(::StringW name, ::System::Collections::Generic::IEnumerable_1<::StringW> values) ;
+static ::StringW GetSingleHeaderString(::StringW name, System::Collections::Generic::IEnumerable_1<::StringW> values) ;
 
 /// @brief Method CreateStreamContent addr 0x269c988 size 0x74 virtual false final false
-static ::System::Net::Http::StreamContent CreateStreamContent(::System::IO::Stream stream, ::System::Threading::CancellationToken cancellationToken) ;
+static System::Net::Http::StreamContent CreateStreamContent(System::IO::Stream stream, System::Threading::CancellationToken cancellationToken) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Http
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Http::PlatformHelper);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::PlatformHelper, "System.Net.Http", "PlatformHelper");
+NEED_NO_BOX(System::Net::Http::PlatformHelper);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::PlatformHelper, "System.Net.Http", "PlatformHelper");

@@ -4,12 +4,11 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace LIV::SDK::Unity {
-struct SDKMatrix4x4;
-}
 namespace LIV::SDK::Unity {
 struct SDKVector3;
+}
+namespace LIV::SDK::Unity {
+struct SDKMatrix4x4;
 }
 namespace LIV::SDK::Unity {
 struct SDKQuaternion;
@@ -27,8 +26,8 @@ namespace LIV::SDK::Unity {
 struct CORDL_TYPE SDKPose : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "projectionMatrix", ty: "::LIV::SDK::Unity::SDKMatrix4x4", modifiers: "", def_value: None }, CppParam { name: "localPosition", ty: "::LIV::SDK::Unity::SDKVector3", modifiers: "", def_value: None }, CppParam { name: "localRotation", ty: "::LIV::SDK::Unity::SDKQuaternion", modifiers: "", def_value: None }, CppParam { name: "verticalFieldOfView", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "nearClipPlane", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "farClipPlane", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "unused0", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "unused1", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr SDKPose(::LIV::SDK::Unity::SDKMatrix4x4 projectionMatrix, ::LIV::SDK::Unity::SDKVector3 localPosition, ::LIV::SDK::Unity::SDKQuaternion localRotation, float_t verticalFieldOfView, float_t nearClipPlane, float_t farClipPlane, int32_t unused0, int32_t unused1) noexcept;
+// Ctor Parameters [CppParam { name: "projectionMatrix", ty: "LIV::SDK::Unity::SDKMatrix4x4", modifiers: "", def_value: None }, CppParam { name: "localPosition", ty: "LIV::SDK::Unity::SDKVector3", modifiers: "", def_value: None }, CppParam { name: "localRotation", ty: "LIV::SDK::Unity::SDKQuaternion", modifiers: "", def_value: None }, CppParam { name: "verticalFieldOfView", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "nearClipPlane", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "farClipPlane", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "unused0", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "unused1", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr SDKPose(LIV::SDK::Unity::SDKMatrix4x4 projectionMatrix, LIV::SDK::Unity::SDKVector3 localPosition, LIV::SDK::Unity::SDKQuaternion localRotation, float_t verticalFieldOfView, float_t nearClipPlane, float_t farClipPlane, int32_t unused0, int32_t unused1) noexcept;
 
 
                     constexpr SDKPose(SDKPose const&) = default;
@@ -61,23 +60,23 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::LIV::SDK::Unity::SDKMatrix4x4 __declspec(property(get=__get_projectionMatrix, put=__set_projectionMatrix))  projectionMatrix;
+ LIV::SDK::Unity::SDKMatrix4x4 __declspec(property(get=__get_projectionMatrix, put=__set_projectionMatrix))  projectionMatrix;
 
-constexpr void __set_projectionMatrix(::LIV::SDK::Unity::SDKMatrix4x4 value) ;
+constexpr void __set_projectionMatrix(LIV::SDK::Unity::SDKMatrix4x4 value) ;
 
-constexpr ::LIV::SDK::Unity::SDKMatrix4x4 __get_projectionMatrix() const;
+constexpr LIV::SDK::Unity::SDKMatrix4x4 __get_projectionMatrix() const;
 
- ::LIV::SDK::Unity::SDKVector3 __declspec(property(get=__get_localPosition, put=__set_localPosition))  localPosition;
+ LIV::SDK::Unity::SDKVector3 __declspec(property(get=__get_localPosition, put=__set_localPosition))  localPosition;
 
-constexpr void __set_localPosition(::LIV::SDK::Unity::SDKVector3 value) ;
+constexpr void __set_localPosition(LIV::SDK::Unity::SDKVector3 value) ;
 
-constexpr ::LIV::SDK::Unity::SDKVector3 __get_localPosition() const;
+constexpr LIV::SDK::Unity::SDKVector3 __get_localPosition() const;
 
- ::LIV::SDK::Unity::SDKQuaternion __declspec(property(get=__get_localRotation, put=__set_localRotation))  localRotation;
+ LIV::SDK::Unity::SDKQuaternion __declspec(property(get=__get_localRotation, put=__set_localRotation))  localRotation;
 
-constexpr void __set_localRotation(::LIV::SDK::Unity::SDKQuaternion value) ;
+constexpr void __set_localRotation(LIV::SDK::Unity::SDKQuaternion value) ;
 
-constexpr ::LIV::SDK::Unity::SDKQuaternion __get_localRotation() const;
+constexpr LIV::SDK::Unity::SDKQuaternion __get_localRotation() const;
 
  float_t __declspec(property(get=__get_verticalFieldOfView, put=__set_verticalFieldOfView))  verticalFieldOfView;
 
@@ -112,13 +111,13 @@ constexpr int32_t __get_unused1() const;
 
 // Properties
 
-static ::LIV::SDK::Unity::SDKPose __declspec(property(get=get_empty))  empty;
+static LIV::SDK::Unity::SDKPose __declspec(property(get=get_empty))  empty;
 
 
 // Methods
 
 /// @brief Method get_empty addr 0x209d734 size 0x70 virtual false final false
-static ::LIV::SDK::Unity::SDKPose get_empty() ;
+static LIV::SDK::Unity::SDKPose get_empty() ;
 
 /// @brief Method ToString addr 0x20a3ab8 size 0x278 virtual true final false
  ::StringW ToString() ;
@@ -127,5 +126,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def LIV::SDK::Unity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::SDKPose, "LIV.SDK.Unity", "SDKPose");
+DEFINE_IL2CPP_ARG_TYPE(LIV::SDK::Unity::SDKPose, "LIV.SDK.Unity", "SDKPose");

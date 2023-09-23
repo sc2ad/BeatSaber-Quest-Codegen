@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/Timeline/zzzz__Marker_def.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class JumpDestinationMarker;
@@ -12,7 +11,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14099))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13890))
 // CS Name: JumpDestinationMarker
-class CORDL_TYPE JumpDestinationMarker : public ::UnityEngine::Timeline::Marker {
+class CORDL_TYPE JumpDestinationMarker : public UnityEngine::Timeline::Marker {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr JumpDestinationMarker(JumpDestinationMarker const& ) noexcept = defaul
 constexpr JumpDestinationMarker(JumpDestinationMarker&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit JumpDestinationMarker(void* ptr) noexcept : ::UnityEngine::Timeline::Marker(ptr) {
+constexpr explicit JumpDestinationMarker(void* ptr) noexcept : UnityEngine::Timeline::Marker(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::JumpDestinationMarker);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::JumpDestinationMarker, "", "JumpDestinationMarker");
+NEED_NO_BOX(GlobalNamespace::JumpDestinationMarker);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::JumpDestinationMarker, "", "JumpDestinationMarker");

@@ -3,7 +3,6 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -17,7 +16,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15307))
 // CS Name: FakeMirrorSettings
-class CORDL_TYPE FakeMirrorSettings : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE FakeMirrorSettings : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr FakeMirrorSettings(FakeMirrorSettings const& ) noexcept = default;
 constexpr FakeMirrorSettings(FakeMirrorSettings&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FakeMirrorSettings(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit FakeMirrorSettings(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -77,11 +76,11 @@ constexpr void __set__vertexDistortionStrength(float_t value) ;
 
 constexpr float_t __get__vertexDistortionStrength() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__vertexDistortionDirectionality, put=__set__vertexDistortionDirectionality))  _vertexDistortionDirectionality;
+ UnityEngine::Vector3 __declspec(property(get=__get__vertexDistortionDirectionality, put=__set__vertexDistortionDirectionality))  _vertexDistortionDirectionality;
 
-constexpr void __set__vertexDistortionDirectionality(::UnityEngine::Vector3 value) ;
+constexpr void __set__vertexDistortionDirectionality(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__vertexDistortionDirectionality() const;
+constexpr UnityEngine::Vector3 __get__vertexDistortionDirectionality() const;
 
  float_t __declspec(property(get=__get__vertexDistortionZposMultiplier, put=__set__vertexDistortionZposMultiplier))  _vertexDistortionZposMultiplier;
 
@@ -155,6 +154,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::FakeMirrorSettings);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FakeMirrorSettings, "", "FakeMirrorSettings");
+NEED_NO_BOX(GlobalNamespace::FakeMirrorSettings);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FakeMirrorSettings, "", "FakeMirrorSettings");

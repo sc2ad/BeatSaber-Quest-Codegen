@@ -4,10 +4,9 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem::Controls {
-struct ____UnityEngine__InputSystem__Controls__AxisControl__Clamp;
+struct UnityEngine__InputSystem__Controls__AxisControl__Clamp;
 }
 namespace UnityEngine::InputSystem::Controls {
 class AxisControl;
@@ -18,20 +17,20 @@ namespace UnityEngine::InputSystem::Controls {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6710))
 // CS Name: UnityEngine.InputSystem.Controls.AxisControl::Clamp
-struct CORDL_TYPE ____UnityEngine__InputSystem__Controls__AxisControl__Clamp : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__InputSystem__Controls__AxisControl__Clamp : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__InputSystem__Controls__AxisControl__Clamp(int32_t value__) noexcept;
+constexpr UnityEngine__InputSystem__Controls__AxisControl__Clamp(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__InputSystem__Controls__AxisControl__Clamp(____UnityEngine__InputSystem__Controls__AxisControl__Clamp const&) = default;
-                    constexpr ____UnityEngine__InputSystem__Controls__AxisControl__Clamp(____UnityEngine__InputSystem__Controls__AxisControl__Clamp&&) = default;
-                    constexpr ____UnityEngine__InputSystem__Controls__AxisControl__Clamp& operator=(____UnityEngine__InputSystem__Controls__AxisControl__Clamp const& o) {
+                    constexpr UnityEngine__InputSystem__Controls__AxisControl__Clamp(UnityEngine__InputSystem__Controls__AxisControl__Clamp const&) = default;
+                    constexpr UnityEngine__InputSystem__Controls__AxisControl__Clamp(UnityEngine__InputSystem__Controls__AxisControl__Clamp&&) = default;
+                    constexpr UnityEngine__InputSystem__Controls__AxisControl__Clamp& operator=(UnityEngine__InputSystem__Controls__AxisControl__Clamp const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__InputSystem__Controls__AxisControl__Clamp& operator=(____UnityEngine__InputSystem__Controls__AxisControl__Clamp&& o) noexcept {
+                    constexpr UnityEngine__InputSystem__Controls__AxisControl__Clamp& operator=(UnityEngine__InputSystem__Controls__AxisControl__Clamp&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -44,7 +43,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__InputSystem__Controls__AxisControl__Clamp(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__InputSystem__Controls__AxisControl__Clamp(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -52,7 +51,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__InputSystem__Controls__AxisControl__Clamp_Unwrapped : int32_t {
+enum class __UnityEngine__InputSystem__Controls__AxisControl__Clamp_Unwrapped : int32_t {
 __None = 0,
 __BeforeNormalize = 1,
 __AfterNormalize = 2,
@@ -60,8 +59,8 @@ __ToConstantBeforeNormalize = 3,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__InputSystem__Controls__AxisControl__Clamp_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__InputSystem__Controls__AxisControl__Clamp_Unwrapped>(__instance);
+constexpr operator __UnityEngine__InputSystem__Controls__AxisControl__Clamp_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__InputSystem__Controls__AxisControl__Clamp_Unwrapped>(__instance);
 }
 
 
@@ -74,16 +73,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::InputSystem::Controls::____UnityEngine__InputSystem__Controls__AxisControl__Clamp const None;
+static UnityEngine::InputSystem::Controls::UnityEngine__InputSystem__Controls__AxisControl__Clamp const None;
 
 /// @brief Field BeforeNormalize offset 0
-static ::UnityEngine::InputSystem::Controls::____UnityEngine__InputSystem__Controls__AxisControl__Clamp const BeforeNormalize;
+static UnityEngine::InputSystem::Controls::UnityEngine__InputSystem__Controls__AxisControl__Clamp const BeforeNormalize;
 
 /// @brief Field AfterNormalize offset 0
-static ::UnityEngine::InputSystem::Controls::____UnityEngine__InputSystem__Controls__AxisControl__Clamp const AfterNormalize;
+static UnityEngine::InputSystem::Controls::UnityEngine__InputSystem__Controls__AxisControl__Clamp const AfterNormalize;
 
 /// @brief Field ToConstantBeforeNormalize offset 0
-static ::UnityEngine::InputSystem::Controls::____UnityEngine__InputSystem__Controls__AxisControl__Clamp const ToConstantBeforeNormalize;
+static UnityEngine::InputSystem::Controls::UnityEngine__InputSystem__Controls__AxisControl__Clamp const ToConstantBeforeNormalize;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -92,13 +91,13 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 // Type: UnityEngine.InputSystem.Controls::AxisControl
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6299), inst: 374 }), TypeDefinitionIndex(TypeDefinitionIndex(6299))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6299)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6299), inst: 374 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6711))
 // CS Name: UnityEngine.InputSystem.Controls.AxisControl
-class CORDL_TYPE AxisControl : public ::UnityEngine::InputSystem::InputControl_1<float_t> {
+class CORDL_TYPE AxisControl : public UnityEngine::InputSystem::InputControl_1<float_t> {
 public:
 // Declarations
-using Clamp = ::UnityEngine::InputSystem::Controls::____UnityEngine__InputSystem__Controls__AxisControl__Clamp;
+using Clamp = UnityEngine::InputSystem::Controls::UnityEngine__InputSystem__Controls__AxisControl__Clamp;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x118};
@@ -112,7 +111,7 @@ constexpr AxisControl(AxisControl const& ) noexcept = default;
 constexpr AxisControl(AxisControl&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AxisControl(void* ptr) noexcept : ::UnityEngine::InputSystem::InputControl_1<float_t>(ptr) {
+constexpr explicit AxisControl(void* ptr) noexcept : UnityEngine::InputSystem::InputControl_1<float_t>(ptr) {
 }
 
 
@@ -133,11 +132,11 @@ constexpr explicit AxisControl(void* ptr) noexcept : ::UnityEngine::InputSystem:
 
 // Fields
 
- ::UnityEngine::InputSystem::Controls::____UnityEngine__InputSystem__Controls__AxisControl__Clamp __declspec(property(get=__get_clamp, put=__set_clamp))  clamp;
+ UnityEngine::InputSystem::Controls::UnityEngine__InputSystem__Controls__AxisControl__Clamp __declspec(property(get=__get_clamp, put=__set_clamp))  clamp;
 
-constexpr void __set_clamp(::UnityEngine::InputSystem::Controls::____UnityEngine__InputSystem__Controls__AxisControl__Clamp value) ;
+constexpr void __set_clamp(UnityEngine::InputSystem::Controls::UnityEngine__InputSystem__Controls__AxisControl__Clamp value) ;
 
-constexpr ::UnityEngine::InputSystem::Controls::____UnityEngine__InputSystem__Controls__AxisControl__Clamp __get_clamp() const;
+constexpr UnityEngine::InputSystem::Controls::UnityEngine__InputSystem__Controls__AxisControl__Clamp __get_clamp() const;
 
  float_t __declspec(property(get=__get_clampMin, put=__set_clampMin))  clampMin;
 
@@ -233,7 +232,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Controls
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Controls::____UnityEngine__InputSystem__Controls__AxisControl__Clamp, "UnityEngine.InputSystem.Controls", "AxisControl/Clamp");
-NEED_NO_BOX(::UnityEngine::InputSystem::Controls::AxisControl);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Controls::AxisControl, "UnityEngine.InputSystem.Controls", "AxisControl");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Controls::UnityEngine__InputSystem__Controls__AxisControl__Clamp, "UnityEngine.InputSystem.Controls", "AxisControl/Clamp");
+NEED_NO_BOX(UnityEngine::InputSystem::Controls::AxisControl);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Controls::AxisControl, "UnityEngine.InputSystem.Controls", "AxisControl");

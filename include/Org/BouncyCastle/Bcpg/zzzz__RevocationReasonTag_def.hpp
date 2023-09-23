@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
 struct RevocationReasonTag;
@@ -70,23 +69,22 @@ constexpr void __set_value__(uint8_t value) ;
 constexpr uint8_t __get_value__() const;
 
 /// @brief Field NoReason offset 0
-static ::Org::BouncyCastle::Bcpg::RevocationReasonTag const NoReason;
+static Org::BouncyCastle::Bcpg::RevocationReasonTag const NoReason;
 
 /// @brief Field KeySuperseded offset 0
-static ::Org::BouncyCastle::Bcpg::RevocationReasonTag const KeySuperseded;
+static Org::BouncyCastle::Bcpg::RevocationReasonTag const KeySuperseded;
 
 /// @brief Field KeyCompromised offset 0
-static ::Org::BouncyCastle::Bcpg::RevocationReasonTag const KeyCompromised;
+static Org::BouncyCastle::Bcpg::RevocationReasonTag const KeyCompromised;
 
 /// @brief Field KeyRetired offset 0
-static ::Org::BouncyCastle::Bcpg::RevocationReasonTag const KeyRetired;
+static Org::BouncyCastle::Bcpg::RevocationReasonTag const KeyRetired;
 
 /// @brief Field UserNoLongerValid offset 0
-static ::Org::BouncyCastle::Bcpg::RevocationReasonTag const UserNoLongerValid;
+static Org::BouncyCastle::Bcpg::RevocationReasonTag const UserNoLongerValid;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::RevocationReasonTag, "Org.BouncyCastle.Bcpg", "RevocationReasonTag");
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::RevocationReasonTag, "Org.BouncyCastle.Bcpg", "RevocationReasonTag");

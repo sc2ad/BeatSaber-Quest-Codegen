@@ -3,7 +3,6 @@
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class Type;
 }
@@ -17,7 +16,7 @@ namespace System::Xml::Serialization {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11529))
 // CS Name: System.Xml.Serialization.XmlElementAttribute
-class CORDL_TYPE XmlElementAttribute : public ::System::Attribute {
+class CORDL_TYPE XmlElementAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr XmlElementAttribute(XmlElementAttribute const& ) noexcept = default;
 constexpr XmlElementAttribute(XmlElementAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XmlElementAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit XmlElementAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -59,11 +58,11 @@ constexpr void __set_elementName(::StringW value) ;
 
 constexpr ::StringW __get_elementName() const;
 
- ::System::Type __declspec(property(get=__get_type, put=__set_type))  type;
+ System::Type __declspec(property(get=__get_type, put=__set_type))  type;
 
-constexpr void __set_type(::System::Type value) ;
+constexpr void __set_type(System::Type value) ;
 
-constexpr ::System::Type __get_type() const;
+constexpr System::Type __get_type() const;
 
  int32_t __declspec(property(get=__get_order, put=__set_order))  order;
 
@@ -74,16 +73,15 @@ constexpr int32_t __get_order() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "elementName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "::System::Type", modifiers: "", def_value: None }]
-explicit XmlElementAttribute(::StringW elementName, ::System::Type type) ;
+// Ctor Parameters [CppParam { name: "elementName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
+explicit XmlElementAttribute(::StringW elementName, System::Type type) ;
 
 /// @brief Method .ctor addr 0x271858c size 0x34 virtual false final false
- void _ctor(::StringW elementName, ::System::Type type) ;
+ void _ctor(::StringW elementName, System::Type type) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Serialization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Serialization::XmlElementAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::XmlElementAttribute, "System.Xml.Serialization", "XmlElementAttribute");
+NEED_NO_BOX(System::Xml::Serialization::XmlElementAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Serialization::XmlElementAttribute, "System.Xml.Serialization", "XmlElementAttribute");

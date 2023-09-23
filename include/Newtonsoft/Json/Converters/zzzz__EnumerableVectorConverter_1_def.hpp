@@ -2,21 +2,20 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace System {
-class Type;
-}
-namespace Newtonsoft::Json {
-class JsonReader;
-}
-namespace Newtonsoft::Json::Converters {
-class VectorConverter;
-}
 namespace Newtonsoft::Json {
 class JsonSerializer;
 }
 namespace Newtonsoft::Json {
 class JsonWriter;
+}
+namespace Newtonsoft::Json::Converters {
+class VectorConverter;
+}
+namespace System {
+class Type;
+}
+namespace Newtonsoft::Json {
+class JsonReader;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -36,7 +35,7 @@ template<::cordl_internals::il2cpp_reference_type T>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11772)), TypeDefinitionIndex(TypeDefinitionIndex(11975))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11975), inst: 2 })
 // CS Name: Newtonsoft.Json.Converters.EnumerableVectorConverter`1
-class CORDL_TYPE EnumerableVectorConverter_1<T> : public ::Newtonsoft::Json::JsonConverter {
+class CORDL_TYPE EnumerableVectorConverter_1<T> : public Newtonsoft::Json::JsonConverter {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -51,7 +50,7 @@ constexpr EnumerableVectorConverter_1(EnumerableVectorConverter_1 const& ) noexc
 constexpr EnumerableVectorConverter_1(EnumerableVectorConverter_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EnumerableVectorConverter_1(void* ptr) noexcept : ::Newtonsoft::Json::JsonConverter(ptr) {
+constexpr explicit EnumerableVectorConverter_1(void* ptr) noexcept : Newtonsoft::Json::JsonConverter(ptr) {
 }
 
 
@@ -72,11 +71,11 @@ constexpr explicit EnumerableVectorConverter_1(void* ptr) noexcept : ::Newtonsof
 
 // Fields
 
-static ::Newtonsoft::Json::Converters::VectorConverter __declspec(property(get=__get_VectorConverter, put=__set_VectorConverter))  VectorConverter;
+static Newtonsoft::Json::Converters::VectorConverter __declspec(property(get=__get_VectorConverter, put=__set_VectorConverter))  VectorConverter;
 
-static void __set_VectorConverter(::Newtonsoft::Json::Converters::VectorConverter value) ;
+static void __set_VectorConverter(Newtonsoft::Json::Converters::VectorConverter value) ;
 
-static ::Newtonsoft::Json::Converters::VectorConverter __get_VectorConverter() ;
+static Newtonsoft::Json::Converters::VectorConverter __get_VectorConverter() ;
 
 
 // Properties
@@ -87,13 +86,13 @@ static ::Newtonsoft::Json::Converters::VectorConverter __get_VectorConverter() ;
 // Methods
 
 /// @brief Method WriteJson addr 0x0 size 0xffffffffffffffff virtual true final false
- void WriteJson(::Newtonsoft::Json::JsonWriter writer, ::bs_hook::Il2CppWrapperType value, ::Newtonsoft::Json::JsonSerializer serializer) ;
+ void WriteJson(Newtonsoft::Json::JsonWriter writer, ::bs_hook::Il2CppWrapperType value, Newtonsoft::Json::JsonSerializer serializer) ;
 
 /// @brief Method CanConvert addr 0x0 size 0xffffffffffffffff virtual true final false
- bool CanConvert(::System::Type objectType) ;
+ bool CanConvert(System::Type objectType) ;
 
 /// @brief Method ReadJson addr 0x0 size 0xffffffffffffffff virtual true final false
- ::bs_hook::Il2CppWrapperType ReadJson(::Newtonsoft::Json::JsonReader reader, ::System::Type objectType, ::bs_hook::Il2CppWrapperType existingValue, ::Newtonsoft::Json::JsonSerializer serializer) ;
+ ::bs_hook::Il2CppWrapperType ReadJson(Newtonsoft::Json::JsonReader reader, System::Type objectType, ::bs_hook::Il2CppWrapperType existingValue, Newtonsoft::Json::JsonSerializer serializer) ;
 
 /// @brief Method get_CanRead addr 0x0 size 0xffffffffffffffff virtual true final false
  bool get_CanRead() ;
@@ -108,5 +107,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Converters
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Newtonsoft::Json::Converters::EnumerableVectorConverter_1, "Newtonsoft.Json.Converters", "EnumerableVectorConverter`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Newtonsoft::Json::Converters::EnumerableVectorConverter_1, "Newtonsoft.Json.Converters", "EnumerableVectorConverter`1");

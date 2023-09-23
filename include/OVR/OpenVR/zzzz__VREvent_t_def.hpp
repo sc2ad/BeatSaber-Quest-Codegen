@@ -3,7 +3,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace OVR::OpenVR {
 struct VREvent_Data_t;
 }
@@ -20,8 +19,8 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE VREvent_t : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "eventType", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "trackedDeviceIndex", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "eventAgeSeconds", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::OVR::OpenVR::VREvent_Data_t", modifiers: "", def_value: None }]
-constexpr VREvent_t(uint32_t eventType, uint32_t trackedDeviceIndex, float_t eventAgeSeconds, ::OVR::OpenVR::VREvent_Data_t data) noexcept;
+// Ctor Parameters [CppParam { name: "eventType", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "trackedDeviceIndex", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "eventAgeSeconds", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "data", ty: "OVR::OpenVR::VREvent_Data_t", modifiers: "", def_value: None }]
+constexpr VREvent_t(uint32_t eventType, uint32_t trackedDeviceIndex, float_t eventAgeSeconds, OVR::OpenVR::VREvent_Data_t data) noexcept;
 
 
                     constexpr VREvent_t(VREvent_t const&) = default;
@@ -72,15 +71,14 @@ constexpr void __set_eventAgeSeconds(float_t value) ;
 
 constexpr float_t __get_eventAgeSeconds() const;
 
- ::OVR::OpenVR::VREvent_Data_t __declspec(property(get=__get_data, put=__set_data))  data;
+ OVR::OpenVR::VREvent_Data_t __declspec(property(get=__get_data, put=__set_data))  data;
 
-constexpr void __set_data(::OVR::OpenVR::VREvent_Data_t value) ;
+constexpr void __set_data(OVR::OpenVR::VREvent_Data_t value) ;
 
-constexpr ::OVR::OpenVR::VREvent_Data_t __get_data() const;
+constexpr OVR::OpenVR::VREvent_Data_t __get_data() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::VREvent_t, "OVR.OpenVR", "VREvent_t");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_t, "OVR.OpenVR", "VREvent_t");

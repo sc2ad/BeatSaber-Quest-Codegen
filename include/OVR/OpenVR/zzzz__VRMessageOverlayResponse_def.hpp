@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct VRMessageOverlayResponse;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field ButtonPress_0 offset 0
-static ::OVR::OpenVR::VRMessageOverlayResponse const ButtonPress_0;
+static OVR::OpenVR::VRMessageOverlayResponse const ButtonPress_0;
 
 /// @brief Field ButtonPress_1 offset 0
-static ::OVR::OpenVR::VRMessageOverlayResponse const ButtonPress_1;
+static OVR::OpenVR::VRMessageOverlayResponse const ButtonPress_1;
 
 /// @brief Field ButtonPress_2 offset 0
-static ::OVR::OpenVR::VRMessageOverlayResponse const ButtonPress_2;
+static OVR::OpenVR::VRMessageOverlayResponse const ButtonPress_2;
 
 /// @brief Field ButtonPress_3 offset 0
-static ::OVR::OpenVR::VRMessageOverlayResponse const ButtonPress_3;
+static OVR::OpenVR::VRMessageOverlayResponse const ButtonPress_3;
 
 /// @brief Field CouldntFindSystemOverlay offset 0
-static ::OVR::OpenVR::VRMessageOverlayResponse const CouldntFindSystemOverlay;
+static OVR::OpenVR::VRMessageOverlayResponse const CouldntFindSystemOverlay;
 
 /// @brief Field CouldntFindOrCreateClientOverlay offset 0
-static ::OVR::OpenVR::VRMessageOverlayResponse const CouldntFindOrCreateClientOverlay;
+static OVR::OpenVR::VRMessageOverlayResponse const CouldntFindOrCreateClientOverlay;
 
 /// @brief Field ApplicationQuit offset 0
-static ::OVR::OpenVR::VRMessageOverlayResponse const ApplicationQuit;
+static OVR::OpenVR::VRMessageOverlayResponse const ApplicationQuit;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::VRMessageOverlayResponse, "OVR.OpenVR", "VRMessageOverlayResponse");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRMessageOverlayResponse, "OVR.OpenVR", "VRMessageOverlayResponse");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
-namespace {
 namespace UnityEngine {
 struct Vector2;
 }
@@ -19,8 +18,8 @@ namespace TMPro {
 struct CORDL_TYPE Mesh_Extents : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "min", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "max", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }]
-constexpr Mesh_Extents(::UnityEngine::Vector2 min, ::UnityEngine::Vector2 max) noexcept;
+// Ctor Parameters [CppParam { name: "min", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "max", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }]
+constexpr Mesh_Extents(UnityEngine::Vector2 min, UnityEngine::Vector2 max) noexcept;
 
 
                     constexpr Mesh_Extents(Mesh_Extents const&) = default;
@@ -53,23 +52,23 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_min, put=__set_min))  min;
+ UnityEngine::Vector2 __declspec(property(get=__get_min, put=__set_min))  min;
 
-constexpr void __set_min(::UnityEngine::Vector2 value) ;
+constexpr void __set_min(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_min() const;
+constexpr UnityEngine::Vector2 __get_min() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_max, put=__set_max))  max;
+ UnityEngine::Vector2 __declspec(property(get=__get_max, put=__set_max))  max;
 
-constexpr void __set_max(::UnityEngine::Vector2 value) ;
+constexpr void __set_max(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_max() const;
+constexpr UnityEngine::Vector2 __get_max() const;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x2a69a80 size 0xc virtual false final false
- void _ctor(::UnityEngine::Vector2 min, ::UnityEngine::Vector2 max) ;
+ void _ctor(UnityEngine::Vector2 min, UnityEngine::Vector2 max) ;
 
 /// @brief Method ToString addr 0x2a69a8c size 0x2ac virtual true final false
  ::StringW ToString() ;
@@ -78,5 +77,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::Mesh_Extents, "TMPro", "Mesh_Extents");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::Mesh_Extents, "TMPro", "Mesh_Extents");

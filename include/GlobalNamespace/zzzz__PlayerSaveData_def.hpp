@@ -7,83 +7,82 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
+namespace UnityEngine {
+struct Color;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace UnityEngine {
-struct Color;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__RankModel__Rank;
+struct GlobalNamespace__RankModel__Rank;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct ______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType;
+struct GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType;
 }
 namespace GlobalNamespace {
-struct ______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType;
+struct GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType;
 }
 namespace GlobalNamespace {
-struct ______GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed;
+struct GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed;
 }
 namespace GlobalNamespace {
-struct ______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData;
+struct GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData;
 }
 namespace GlobalNamespace {
-struct ______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData;
+struct GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData;
 }
 namespace GlobalNamespace {
-struct ______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData;
+struct GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveData__ColorScheme;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveData__ColorSchemesSettings;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveData__GameplayModifiers;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveData__GuestPlayer;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveData__LocalPlayer;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveData__MultiplayerModeSettings;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveData__PlayerAgreementsData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveData__PlayerLevelStatsData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveData__PlayerMissionStatsData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveData__PlayerOverallStatsData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveData__PlayerSpecificSettings;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveData__PracticeSettings;
 }
 namespace GlobalNamespace {
 class PlayerSaveData;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__PlayerSaveData__ColorScheme;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__PlayerSaveData__ColorSchemesSettings;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__PlayerSaveData__GameplayModifiers;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__PlayerSaveData__GuestPlayer;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__PlayerSaveData__LocalPlayer;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__PlayerSaveData__MultiplayerModeSettings;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__PlayerSaveData__PlayerAgreementsData;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__PlayerSaveData__PlayerLevelStatsData;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__PlayerSaveData__PlayerMissionStatsData;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__PlayerSaveData__PlayerSpecificSettings;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__PlayerSaveData__PracticeSettings;
 }
 // Type: ::EnabledObstacleType
 namespace GlobalNamespace {
@@ -91,20 +90,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4743))
 // CS Name: PlayerSaveData::GameplayModifiers::EnabledObstacleType
-struct CORDL_TYPE ______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType(int32_t value__) noexcept;
+constexpr GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType(int32_t value__) noexcept;
 
 
-                    constexpr ______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType(______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType const&) = default;
-                    constexpr ______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType(______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType&&) = default;
-                    constexpr ______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType& operator=(______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType const& o) {
+                    constexpr GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType(GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType const&) = default;
+                    constexpr GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType(GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType&&) = default;
+                    constexpr GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType& operator=(GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType& operator=(______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType&& o) noexcept {
+                    constexpr GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType& operator=(GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -117,7 +116,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -125,15 +124,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ________GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType_Unwrapped : int32_t {
+enum class __GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType_Unwrapped : int32_t {
 __All = 0,
 __FullHeightOnly = 1,
 __None = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ________GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType_Unwrapped () const noexcept {
-return std::bit_cast<________GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType_Unwrapped>(__instance);
 }
 
 
@@ -146,13 +145,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field All offset 0
-static ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType const All;
+static GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType const All;
 
 /// @brief Field FullHeightOnly offset 0
-static ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType const FullHeightOnly;
+static GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType const FullHeightOnly;
 
 /// @brief Field None offset 0
-static ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType const None;
+static GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType const None;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -164,20 +163,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4744))
 // CS Name: PlayerSaveData::GameplayModifiers::EnergyType
-struct CORDL_TYPE ______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType(int32_t value__) noexcept;
+constexpr GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType(int32_t value__) noexcept;
 
 
-                    constexpr ______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType(______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType const&) = default;
-                    constexpr ______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType(______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType&&) = default;
-                    constexpr ______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType& operator=(______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType const& o) {
+                    constexpr GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType(GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType const&) = default;
+                    constexpr GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType(GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType&&) = default;
+                    constexpr GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType& operator=(GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType& operator=(______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType&& o) noexcept {
+                    constexpr GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType& operator=(GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -190,7 +189,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -198,14 +197,14 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ________GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType_Unwrapped : int32_t {
+enum class __GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType_Unwrapped : int32_t {
 __Bar = 0,
 __Battery = 1,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ________GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType_Unwrapped () const noexcept {
-return std::bit_cast<________GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType_Unwrapped>(__instance);
 }
 
 
@@ -218,10 +217,10 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Bar offset 0
-static ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType const Bar;
+static GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType const Bar;
 
 /// @brief Field Battery offset 0
-static ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType const Battery;
+static GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType const Battery;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -233,20 +232,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4745))
 // CS Name: PlayerSaveData::GameplayModifiers::SongSpeed
-struct CORDL_TYPE ______GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ______GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed(int32_t value__) noexcept;
+constexpr GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed(int32_t value__) noexcept;
 
 
-                    constexpr ______GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed(______GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed const&) = default;
-                    constexpr ______GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed(______GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed&&) = default;
-                    constexpr ______GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed& operator=(______GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed const& o) {
+                    constexpr GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed(GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed const&) = default;
+                    constexpr GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed(GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed&&) = default;
+                    constexpr GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed& operator=(GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ______GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed& operator=(______GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed&& o) noexcept {
+                    constexpr GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed& operator=(GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -259,7 +258,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ______GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -267,15 +266,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ________GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed_Unwrapped : int32_t {
+enum class __GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed_Unwrapped : int32_t {
 __Normal = 0,
 __Faster = 1,
 __Slower = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ________GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed_Unwrapped () const noexcept {
-return std::bit_cast<________GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed_Unwrapped>(__instance);
 }
 
 
@@ -288,13 +287,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Normal offset 0
-static ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed const Normal;
+static GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed const Normal;
 
 /// @brief Field Faster offset 0
-static ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed const Faster;
+static GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed const Faster;
 
 /// @brief Field Slower offset 0
-static ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed const Slower;
+static GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed const Slower;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -306,53 +305,53 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4746))
 // CS Name: PlayerSaveData::GameplayModifiers
-class CORDL_TYPE ____GlobalNamespace__PlayerSaveData__GameplayModifiers : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__PlayerSaveData__GameplayModifiers : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using SongSpeed = ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed;
+using SongSpeed = GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed;
 
-using EnergyType = ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType;
+using EnergyType = GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType;
 
-using EnabledObstacleType = ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType;
+using EnabledObstacleType = GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____GlobalNamespace__PlayerSaveData__GameplayModifiers() = default;
+virtual ~GlobalNamespace__PlayerSaveData__GameplayModifiers() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PlayerSaveData__GameplayModifiers", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__PlayerSaveData__GameplayModifiers(____GlobalNamespace__PlayerSaveData__GameplayModifiers const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PlayerSaveData__GameplayModifiers", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__PlayerSaveData__GameplayModifiers(GlobalNamespace__PlayerSaveData__GameplayModifiers const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PlayerSaveData__GameplayModifiers", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__PlayerSaveData__GameplayModifiers(____GlobalNamespace__PlayerSaveData__GameplayModifiers&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PlayerSaveData__GameplayModifiers", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__PlayerSaveData__GameplayModifiers(GlobalNamespace__PlayerSaveData__GameplayModifiers&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__PlayerSaveData__GameplayModifiers(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__PlayerSaveData__GameplayModifiers(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__PlayerSaveData__GameplayModifiers& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__PlayerSaveData__GameplayModifiers& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PlayerSaveData__GameplayModifiers& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__PlayerSaveData__GameplayModifiers& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PlayerSaveData__GameplayModifiers& operator=(____GlobalNamespace__PlayerSaveData__GameplayModifiers&& o) noexcept = default;
-  constexpr ____GlobalNamespace__PlayerSaveData__GameplayModifiers& operator=(____GlobalNamespace__PlayerSaveData__GameplayModifiers const& o) noexcept = default;
+  constexpr GlobalNamespace__PlayerSaveData__GameplayModifiers& operator=(GlobalNamespace__PlayerSaveData__GameplayModifiers&& o) noexcept = default;
+  constexpr GlobalNamespace__PlayerSaveData__GameplayModifiers& operator=(GlobalNamespace__PlayerSaveData__GameplayModifiers const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType __declspec(property(get=__get_energyType, put=__set_energyType))  energyType;
+ GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType __declspec(property(get=__get_energyType, put=__set_energyType))  energyType;
 
-constexpr void __set_energyType(::GlobalNamespace::______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType value) ;
+constexpr void __set_energyType(GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType value) ;
 
-constexpr ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType __get_energyType() const;
+constexpr GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType __get_energyType() const;
 
  bool __declspec(property(get=__get_instaFail, put=__set_instaFail))  instaFail;
 
@@ -366,11 +365,11 @@ constexpr void __set_failOnSaberClash(bool value) ;
 
 constexpr bool __get_failOnSaberClash() const;
 
- ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType __declspec(property(get=__get_enabledObstacleType, put=__set_enabledObstacleType))  enabledObstacleType;
+ GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType __declspec(property(get=__get_enabledObstacleType, put=__set_enabledObstacleType))  enabledObstacleType;
 
-constexpr void __set_enabledObstacleType(::GlobalNamespace::______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType value) ;
+constexpr void __set_enabledObstacleType(GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType value) ;
 
-constexpr ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType __get_enabledObstacleType() const;
+constexpr GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType __get_enabledObstacleType() const;
 
  bool __declspec(property(get=__get_fastNotes, put=__set_fastNotes))  fastNotes;
 
@@ -402,11 +401,11 @@ constexpr void __set_noBombs(bool value) ;
 
 constexpr bool __get_noBombs() const;
 
- ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed __declspec(property(get=__get_songSpeed, put=__set_songSpeed))  songSpeed;
+ GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed __declspec(property(get=__get_songSpeed, put=__set_songSpeed))  songSpeed;
 
-constexpr void __set_songSpeed(::GlobalNamespace::______GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed value) ;
+constexpr void __set_songSpeed(GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed value) ;
 
-constexpr ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed __get_songSpeed() const;
+constexpr GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed __get_songSpeed() const;
 
  bool __declspec(property(get=__get_noArrows, put=__set_noArrows))  noArrows;
 
@@ -442,7 +441,7 @@ constexpr bool __get_smallCubes() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__PlayerSaveData__GameplayModifiers() ;
+explicit GlobalNamespace__PlayerSaveData__GameplayModifiers() ;
 
 /// @brief Method .ctor addr 0x22236fc size 0x8 virtual false final false
  void _ctor() ;
@@ -457,20 +456,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4747))
 // CS Name: PlayerSaveData::PlayerSpecificSettings::EnvironmentEffectsFilterPresetSaveData
-struct CORDL_TYPE ______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData(int32_t value__) noexcept;
+constexpr GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData(int32_t value__) noexcept;
 
 
-                    constexpr ______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData(______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData const&) = default;
-                    constexpr ______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData(______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData&&) = default;
-                    constexpr ______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData& operator=(______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData const& o) {
+                    constexpr GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData(GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData const&) = default;
+                    constexpr GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData(GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData&&) = default;
+                    constexpr GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData& operator=(GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData& operator=(______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData&& o) noexcept {
+                    constexpr GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData& operator=(GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -483,7 +482,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -491,15 +490,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ________GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData_Unwrapped : int32_t {
+enum class __GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData_Unwrapped : int32_t {
 __AllEffects = 0,
 __StrobeFilter = 1,
 __NoEffects = 10,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ________GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData_Unwrapped () const noexcept {
-return std::bit_cast<________GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData_Unwrapped>(__instance);
 }
 
 
@@ -512,13 +511,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field AllEffects offset 0
-static ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData const AllEffects;
+static GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData const AllEffects;
 
 /// @brief Field StrobeFilter offset 0
-static ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData const StrobeFilter;
+static GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData const StrobeFilter;
 
 /// @brief Field NoEffects offset 0
-static ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData const NoEffects;
+static GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData const NoEffects;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -530,20 +529,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4748))
 // CS Name: PlayerSaveData::PlayerSpecificSettings::ArcVisibilityTypeSaveData
-struct CORDL_TYPE ______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData(int32_t value__) noexcept;
+constexpr GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData(int32_t value__) noexcept;
 
 
-                    constexpr ______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData(______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData const&) = default;
-                    constexpr ______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData(______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData&&) = default;
-                    constexpr ______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData& operator=(______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData const& o) {
+                    constexpr GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData(GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData const&) = default;
+                    constexpr GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData(GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData&&) = default;
+                    constexpr GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData& operator=(GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData& operator=(______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData&& o) noexcept {
+                    constexpr GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData& operator=(GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -556,7 +555,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -564,7 +563,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ________GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData_Unwrapped : int32_t {
+enum class __GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData_Unwrapped : int32_t {
 __None = 0,
 __Low = 1,
 __Standard = 2,
@@ -572,8 +571,8 @@ __High = 3,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ________GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData_Unwrapped () const noexcept {
-return std::bit_cast<________GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData_Unwrapped>(__instance);
 }
 
 
@@ -586,16 +585,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData const None;
+static GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData const None;
 
 /// @brief Field Low offset 0
-static ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData const Low;
+static GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData const Low;
 
 /// @brief Field Standard offset 0
-static ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData const Standard;
+static GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData const Standard;
 
 /// @brief Field High offset 0
-static ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData const High;
+static GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData const High;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -607,20 +606,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4749))
 // CS Name: PlayerSaveData::PlayerSpecificSettings::NoteJumpDurationTypeSettingsSaveData
-struct CORDL_TYPE ______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData(int32_t value__) noexcept;
+constexpr GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData(int32_t value__) noexcept;
 
 
-                    constexpr ______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData(______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData const&) = default;
-                    constexpr ______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData(______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData&&) = default;
-                    constexpr ______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData& operator=(______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData const& o) {
+                    constexpr GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData(GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData const&) = default;
+                    constexpr GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData(GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData&&) = default;
+                    constexpr GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData& operator=(GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData& operator=(______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData&& o) noexcept {
+                    constexpr GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData& operator=(GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -633,7 +632,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -641,14 +640,14 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ________GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData_Unwrapped : int32_t {
+enum class __GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData_Unwrapped : int32_t {
 __Dynamic = 0,
 __Static = 1,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ________GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData_Unwrapped () const noexcept {
-return std::bit_cast<________GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData_Unwrapped>(__instance);
 }
 
 
@@ -661,10 +660,10 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Dynamic offset 0
-static ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData const Dynamic;
+static GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData const Dynamic;
 
 /// @brief Field Static offset 0
-static ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData const Static;
+static GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData const Static;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -676,43 +675,43 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4750))
 // CS Name: PlayerSaveData::PlayerSpecificSettings
-class CORDL_TYPE ____GlobalNamespace__PlayerSaveData__PlayerSpecificSettings : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__PlayerSaveData__PlayerSpecificSettings : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using NoteJumpDurationTypeSettingsSaveData = ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData;
+using NoteJumpDurationTypeSettingsSaveData = GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData;
 
-using ArcVisibilityTypeSaveData = ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData;
+using ArcVisibilityTypeSaveData = GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData;
 
-using EnvironmentEffectsFilterPresetSaveData = ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData;
+using EnvironmentEffectsFilterPresetSaveData = GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
 
-virtual ~____GlobalNamespace__PlayerSaveData__PlayerSpecificSettings() = default;
+virtual ~GlobalNamespace__PlayerSaveData__PlayerSpecificSettings() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PlayerSaveData__PlayerSpecificSettings", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__PlayerSaveData__PlayerSpecificSettings(____GlobalNamespace__PlayerSaveData__PlayerSpecificSettings const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PlayerSaveData__PlayerSpecificSettings", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__PlayerSaveData__PlayerSpecificSettings(GlobalNamespace__PlayerSaveData__PlayerSpecificSettings const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PlayerSaveData__PlayerSpecificSettings", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__PlayerSaveData__PlayerSpecificSettings(____GlobalNamespace__PlayerSaveData__PlayerSpecificSettings&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PlayerSaveData__PlayerSpecificSettings", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__PlayerSaveData__PlayerSpecificSettings(GlobalNamespace__PlayerSaveData__PlayerSpecificSettings&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__PlayerSaveData__PlayerSpecificSettings(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__PlayerSaveData__PlayerSpecificSettings(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__PlayerSaveData__PlayerSpecificSettings& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__PlayerSaveData__PlayerSpecificSettings& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PlayerSaveData__PlayerSpecificSettings& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__PlayerSaveData__PlayerSpecificSettings& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PlayerSaveData__PlayerSpecificSettings& operator=(____GlobalNamespace__PlayerSaveData__PlayerSpecificSettings&& o) noexcept = default;
-  constexpr ____GlobalNamespace__PlayerSaveData__PlayerSpecificSettings& operator=(____GlobalNamespace__PlayerSaveData__PlayerSpecificSettings const& o) noexcept = default;
+  constexpr GlobalNamespace__PlayerSaveData__PlayerSpecificSettings& operator=(GlobalNamespace__PlayerSaveData__PlayerSpecificSettings&& o) noexcept = default;
+  constexpr GlobalNamespace__PlayerSaveData__PlayerSpecificSettings& operator=(GlobalNamespace__PlayerSaveData__PlayerSpecificSettings const& o) noexcept = default;
                 
 
 
@@ -772,11 +771,11 @@ constexpr void __set_saberTrailIntensity(float_t value) ;
 
 constexpr float_t __get_saberTrailIntensity() const;
 
- ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData __declspec(property(get=__get__noteJumpDurationTypeSettingsSaveData, put=__set__noteJumpDurationTypeSettingsSaveData))  _noteJumpDurationTypeSettingsSaveData;
+ GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData __declspec(property(get=__get__noteJumpDurationTypeSettingsSaveData, put=__set__noteJumpDurationTypeSettingsSaveData))  _noteJumpDurationTypeSettingsSaveData;
 
-constexpr void __set__noteJumpDurationTypeSettingsSaveData(::GlobalNamespace::______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData value) ;
+constexpr void __set__noteJumpDurationTypeSettingsSaveData(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData value) ;
 
-constexpr ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData __get__noteJumpDurationTypeSettingsSaveData() const;
+constexpr GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData __get__noteJumpDurationTypeSettingsSaveData() const;
 
  float_t __declspec(property(get=__get_noteJumpFixedDuration, put=__set_noteJumpFixedDuration))  noteJumpFixedDuration;
 
@@ -820,29 +819,29 @@ constexpr void __set_arcsHapticFeedback(bool value) ;
 
 constexpr bool __get_arcsHapticFeedback() const;
 
- ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData __declspec(property(get=__get_arcsVisibleSaveData, put=__set_arcsVisibleSaveData))  arcsVisibleSaveData;
+ GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData __declspec(property(get=__get_arcsVisibleSaveData, put=__set_arcsVisibleSaveData))  arcsVisibleSaveData;
 
-constexpr void __set_arcsVisibleSaveData(::GlobalNamespace::______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData value) ;
+constexpr void __set_arcsVisibleSaveData(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData value) ;
 
-constexpr ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData __get_arcsVisibleSaveData() const;
+constexpr GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData __get_arcsVisibleSaveData() const;
 
- ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData __declspec(property(get=__get_environmentEffectsFilterDefaultPreset, put=__set_environmentEffectsFilterDefaultPreset))  environmentEffectsFilterDefaultPreset;
+ GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData __declspec(property(get=__get_environmentEffectsFilterDefaultPreset, put=__set_environmentEffectsFilterDefaultPreset))  environmentEffectsFilterDefaultPreset;
 
-constexpr void __set_environmentEffectsFilterDefaultPreset(::GlobalNamespace::______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData value) ;
+constexpr void __set_environmentEffectsFilterDefaultPreset(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData value) ;
 
-constexpr ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData __get_environmentEffectsFilterDefaultPreset() const;
+constexpr GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData __get_environmentEffectsFilterDefaultPreset() const;
 
- ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData __declspec(property(get=__get_environmentEffectsFilterExpertPlusPreset, put=__set_environmentEffectsFilterExpertPlusPreset))  environmentEffectsFilterExpertPlusPreset;
+ GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData __declspec(property(get=__get_environmentEffectsFilterExpertPlusPreset, put=__set_environmentEffectsFilterExpertPlusPreset))  environmentEffectsFilterExpertPlusPreset;
 
-constexpr void __set_environmentEffectsFilterExpertPlusPreset(::GlobalNamespace::______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData value) ;
+constexpr void __set_environmentEffectsFilterExpertPlusPreset(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData value) ;
 
-constexpr ::GlobalNamespace::______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData __get_environmentEffectsFilterExpertPlusPreset() const;
+constexpr GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData __get_environmentEffectsFilterExpertPlusPreset() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__PlayerSaveData__PlayerSpecificSettings() ;
+explicit GlobalNamespace__PlayerSaveData__PlayerSpecificSettings() ;
 
 /// @brief Method .ctor addr 0x2223704 size 0x34 virtual false final false
  void _ctor() ;
@@ -857,80 +856,80 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4751))
 // CS Name: PlayerSaveData::PlayerAllOverallStatsData
-class CORDL_TYPE ____GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData() = default;
+virtual ~GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData(____GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData(GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData(____GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData(GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData& operator=(____GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData&& o) noexcept = default;
-  constexpr ____GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData& operator=(____GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData const& o) noexcept = default;
+  constexpr GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData& operator=(GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData&& o) noexcept = default;
+  constexpr GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData& operator=(GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData __declspec(property(get=__get_campaignOverallStatsData, put=__set_campaignOverallStatsData))  campaignOverallStatsData;
+ GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData __declspec(property(get=__get_campaignOverallStatsData, put=__set_campaignOverallStatsData))  campaignOverallStatsData;
 
-constexpr void __set_campaignOverallStatsData(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData value) ;
+constexpr void __set_campaignOverallStatsData(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData __get_campaignOverallStatsData() const;
+constexpr GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData __get_campaignOverallStatsData() const;
 
- ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData __declspec(property(get=__get_soloFreePlayOverallStatsData, put=__set_soloFreePlayOverallStatsData))  soloFreePlayOverallStatsData;
+ GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData __declspec(property(get=__get_soloFreePlayOverallStatsData, put=__set_soloFreePlayOverallStatsData))  soloFreePlayOverallStatsData;
 
-constexpr void __set_soloFreePlayOverallStatsData(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData value) ;
+constexpr void __set_soloFreePlayOverallStatsData(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData __get_soloFreePlayOverallStatsData() const;
+constexpr GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData __get_soloFreePlayOverallStatsData() const;
 
- ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData __declspec(property(get=__get_partyFreePlayOverallStatsData, put=__set_partyFreePlayOverallStatsData))  partyFreePlayOverallStatsData;
+ GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData __declspec(property(get=__get_partyFreePlayOverallStatsData, put=__set_partyFreePlayOverallStatsData))  partyFreePlayOverallStatsData;
 
-constexpr void __set_partyFreePlayOverallStatsData(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData value) ;
+constexpr void __set_partyFreePlayOverallStatsData(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData __get_partyFreePlayOverallStatsData() const;
+constexpr GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData __get_partyFreePlayOverallStatsData() const;
 
- ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData __declspec(property(get=__get_onlinePlayOverallStatsData, put=__set_onlinePlayOverallStatsData))  onlinePlayOverallStatsData;
+ GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData __declspec(property(get=__get_onlinePlayOverallStatsData, put=__set_onlinePlayOverallStatsData))  onlinePlayOverallStatsData;
 
-constexpr void __set_onlinePlayOverallStatsData(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData value) ;
+constexpr void __set_onlinePlayOverallStatsData(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData __get_onlinePlayOverallStatsData() const;
+constexpr GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData __get_onlinePlayOverallStatsData() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData() ;
+explicit GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData() ;
 
 /// @brief Method .ctor addr 0x2226bc0 size 0xc0 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "campaignOverallStatsData", ty: "::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData", modifiers: "", def_value: None }, CppParam { name: "soloFreePlayOverallStatsData", ty: "::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData", modifiers: "", def_value: None }, CppParam { name: "partyFreePlayOverallStatsData", ty: "::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData", modifiers: "", def_value: None }, CppParam { name: "onlinePlayOverallStatsData", ty: "::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData campaignOverallStatsData, ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData soloFreePlayOverallStatsData, ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData partyFreePlayOverallStatsData, ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData onlinePlayOverallStatsData) ;
+// Ctor Parameters [CppParam { name: "campaignOverallStatsData", ty: "GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData", modifiers: "", def_value: None }, CppParam { name: "soloFreePlayOverallStatsData", ty: "GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData", modifiers: "", def_value: None }, CppParam { name: "partyFreePlayOverallStatsData", ty: "GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData", modifiers: "", def_value: None }, CppParam { name: "onlinePlayOverallStatsData", ty: "GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData", modifiers: "", def_value: None }]
+explicit GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData campaignOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData soloFreePlayOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData partyFreePlayOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData onlinePlayOverallStatsData) ;
 
 /// @brief Method .ctor addr 0x2226d6c size 0x40 virtual false final false
- void _ctor(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData campaignOverallStatsData, ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData soloFreePlayOverallStatsData, ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData partyFreePlayOverallStatsData, ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData onlinePlayOverallStatsData) ;
+ void _ctor(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData campaignOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData soloFreePlayOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData partyFreePlayOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData onlinePlayOverallStatsData) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -942,37 +941,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4752))
 // CS Name: PlayerSaveData::PlayerOverallStatsData
-class CORDL_TYPE ____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__PlayerSaveData__PlayerOverallStatsData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
 
-virtual ~____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData() = default;
+virtual ~GlobalNamespace__PlayerSaveData__PlayerOverallStatsData() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData(____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PlayerSaveData__PlayerOverallStatsData", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__PlayerSaveData__PlayerOverallStatsData(GlobalNamespace__PlayerSaveData__PlayerOverallStatsData const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData(____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PlayerSaveData__PlayerOverallStatsData", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__PlayerSaveData__PlayerOverallStatsData(GlobalNamespace__PlayerSaveData__PlayerOverallStatsData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__PlayerSaveData__PlayerOverallStatsData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__PlayerSaveData__PlayerOverallStatsData& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__PlayerSaveData__PlayerOverallStatsData& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData& operator=(____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData&& o) noexcept = default;
-  constexpr ____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData& operator=(____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData const& o) noexcept = default;
+  constexpr GlobalNamespace__PlayerSaveData__PlayerOverallStatsData& operator=(GlobalNamespace__PlayerSaveData__PlayerOverallStatsData&& o) noexcept = default;
+  constexpr GlobalNamespace__PlayerSaveData__PlayerOverallStatsData& operator=(GlobalNamespace__PlayerSaveData__PlayerOverallStatsData const& o) noexcept = default;
                 
 
 
@@ -1048,13 +1047,13 @@ constexpr int64_t __get_cummulativeCutScoreWithoutMultiplier() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData() ;
+explicit GlobalNamespace__PlayerSaveData__PlayerOverallStatsData() ;
 
 /// @brief Method .ctor addr 0x2226dac size 0x8 virtual false final false
  void _ctor() ;
 
 // Ctor Parameters [CppParam { name: "goodCutsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "badCutsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "missedCutsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "totalScore", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "playedLevelsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cleardLevelsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "failedLevelsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fullComboCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "timePlayed", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "handDistanceTravelled", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cummulativeCutScoreWithoutMultiplier", ty: "int64_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData(int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCutsCount, int64_t totalScore, int32_t playedLevelsCount, int32_t cleardLevelsCount, int32_t failedLevelsCount, int32_t fullComboCount, float_t timePlayed, int32_t handDistanceTravelled, int64_t cummulativeCutScoreWithoutMultiplier) ;
+explicit GlobalNamespace__PlayerSaveData__PlayerOverallStatsData(int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCutsCount, int64_t totalScore, int32_t playedLevelsCount, int32_t cleardLevelsCount, int32_t failedLevelsCount, int32_t fullComboCount, float_t timePlayed, int32_t handDistanceTravelled, int64_t cummulativeCutScoreWithoutMultiplier) ;
 
 /// @brief Method .ctor addr 0x2226db4 size 0xb0 virtual false final false
  void _ctor(int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCutsCount, int64_t totalScore, int32_t playedLevelsCount, int32_t cleardLevelsCount, int32_t failedLevelsCount, int32_t fullComboCount, float_t timePlayed, int32_t handDistanceTravelled, int64_t cummulativeCutScoreWithoutMultiplier) ;
@@ -1069,37 +1068,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4753))
 // CS Name: PlayerSaveData::PlayerLevelStatsData
-class CORDL_TYPE ____GlobalNamespace__PlayerSaveData__PlayerLevelStatsData : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__PlayerSaveData__PlayerLevelStatsData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
 
-virtual ~____GlobalNamespace__PlayerSaveData__PlayerLevelStatsData() = default;
+virtual ~GlobalNamespace__PlayerSaveData__PlayerLevelStatsData() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PlayerSaveData__PlayerLevelStatsData", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__PlayerSaveData__PlayerLevelStatsData(____GlobalNamespace__PlayerSaveData__PlayerLevelStatsData const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PlayerSaveData__PlayerLevelStatsData", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__PlayerSaveData__PlayerLevelStatsData(GlobalNamespace__PlayerSaveData__PlayerLevelStatsData const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PlayerSaveData__PlayerLevelStatsData", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__PlayerSaveData__PlayerLevelStatsData(____GlobalNamespace__PlayerSaveData__PlayerLevelStatsData&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PlayerSaveData__PlayerLevelStatsData", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__PlayerSaveData__PlayerLevelStatsData(GlobalNamespace__PlayerSaveData__PlayerLevelStatsData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__PlayerSaveData__PlayerLevelStatsData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__PlayerSaveData__PlayerLevelStatsData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__PlayerSaveData__PlayerLevelStatsData& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__PlayerSaveData__PlayerLevelStatsData& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PlayerSaveData__PlayerLevelStatsData& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__PlayerSaveData__PlayerLevelStatsData& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PlayerSaveData__PlayerLevelStatsData& operator=(____GlobalNamespace__PlayerSaveData__PlayerLevelStatsData&& o) noexcept = default;
-  constexpr ____GlobalNamespace__PlayerSaveData__PlayerLevelStatsData& operator=(____GlobalNamespace__PlayerSaveData__PlayerLevelStatsData const& o) noexcept = default;
+  constexpr GlobalNamespace__PlayerSaveData__PlayerLevelStatsData& operator=(GlobalNamespace__PlayerSaveData__PlayerLevelStatsData&& o) noexcept = default;
+  constexpr GlobalNamespace__PlayerSaveData__PlayerLevelStatsData& operator=(GlobalNamespace__PlayerSaveData__PlayerLevelStatsData const& o) noexcept = default;
                 
 
 
@@ -1111,11 +1110,11 @@ constexpr void __set_levelId(::StringW value) ;
 
 constexpr ::StringW __get_levelId() const;
 
- ::GlobalNamespace::BeatmapDifficulty __declspec(property(get=__get_difficulty, put=__set_difficulty))  difficulty;
+ GlobalNamespace::BeatmapDifficulty __declspec(property(get=__get_difficulty, put=__set_difficulty))  difficulty;
 
-constexpr void __set_difficulty(::GlobalNamespace::BeatmapDifficulty value) ;
+constexpr void __set_difficulty(GlobalNamespace::BeatmapDifficulty value) ;
 
-constexpr ::GlobalNamespace::BeatmapDifficulty __get_difficulty() const;
+constexpr GlobalNamespace::BeatmapDifficulty __get_difficulty() const;
 
  ::StringW __declspec(property(get=__get_beatmapCharacteristicName, put=__set_beatmapCharacteristicName))  beatmapCharacteristicName;
 
@@ -1141,11 +1140,11 @@ constexpr void __set_fullCombo(bool value) ;
 
 constexpr bool __get_fullCombo() const;
 
- ::GlobalNamespace::____GlobalNamespace__RankModel__Rank __declspec(property(get=__get_maxRank, put=__set_maxRank))  maxRank;
+ GlobalNamespace::GlobalNamespace__RankModel__Rank __declspec(property(get=__get_maxRank, put=__set_maxRank))  maxRank;
 
-constexpr void __set_maxRank(::GlobalNamespace::____GlobalNamespace__RankModel__Rank value) ;
+constexpr void __set_maxRank(GlobalNamespace::GlobalNamespace__RankModel__Rank value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__RankModel__Rank __get_maxRank() const;
+constexpr GlobalNamespace::GlobalNamespace__RankModel__Rank __get_maxRank() const;
 
  bool __declspec(property(get=__get_validScore, put=__set_validScore))  validScore;
 
@@ -1163,7 +1162,7 @@ constexpr int32_t __get_playCount() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__PlayerSaveData__PlayerLevelStatsData() ;
+explicit GlobalNamespace__PlayerSaveData__PlayerLevelStatsData() ;
 
 /// @brief Method .ctor addr 0x2223844 size 0x8 virtual false final false
  void _ctor() ;
@@ -1178,37 +1177,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4754))
 // CS Name: PlayerSaveData::PlayerMissionStatsData
-class CORDL_TYPE ____GlobalNamespace__PlayerSaveData__PlayerMissionStatsData : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__PlayerSaveData__PlayerMissionStatsData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____GlobalNamespace__PlayerSaveData__PlayerMissionStatsData() = default;
+virtual ~GlobalNamespace__PlayerSaveData__PlayerMissionStatsData() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PlayerSaveData__PlayerMissionStatsData", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__PlayerSaveData__PlayerMissionStatsData(____GlobalNamespace__PlayerSaveData__PlayerMissionStatsData const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PlayerSaveData__PlayerMissionStatsData", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__PlayerSaveData__PlayerMissionStatsData(GlobalNamespace__PlayerSaveData__PlayerMissionStatsData const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PlayerSaveData__PlayerMissionStatsData", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__PlayerSaveData__PlayerMissionStatsData(____GlobalNamespace__PlayerSaveData__PlayerMissionStatsData&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PlayerSaveData__PlayerMissionStatsData", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__PlayerSaveData__PlayerMissionStatsData(GlobalNamespace__PlayerSaveData__PlayerMissionStatsData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__PlayerSaveData__PlayerMissionStatsData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__PlayerSaveData__PlayerMissionStatsData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__PlayerSaveData__PlayerMissionStatsData& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__PlayerSaveData__PlayerMissionStatsData& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PlayerSaveData__PlayerMissionStatsData& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__PlayerSaveData__PlayerMissionStatsData& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PlayerSaveData__PlayerMissionStatsData& operator=(____GlobalNamespace__PlayerSaveData__PlayerMissionStatsData&& o) noexcept = default;
-  constexpr ____GlobalNamespace__PlayerSaveData__PlayerMissionStatsData& operator=(____GlobalNamespace__PlayerSaveData__PlayerMissionStatsData const& o) noexcept = default;
+  constexpr GlobalNamespace__PlayerSaveData__PlayerMissionStatsData& operator=(GlobalNamespace__PlayerSaveData__PlayerMissionStatsData&& o) noexcept = default;
+  constexpr GlobalNamespace__PlayerSaveData__PlayerMissionStatsData& operator=(GlobalNamespace__PlayerSaveData__PlayerMissionStatsData const& o) noexcept = default;
                 
 
 
@@ -1230,7 +1229,7 @@ constexpr bool __get_cleared() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__PlayerSaveData__PlayerMissionStatsData() ;
+explicit GlobalNamespace__PlayerSaveData__PlayerMissionStatsData() ;
 
 /// @brief Method .ctor addr 0x222384c size 0x8 virtual false final false
  void _ctor() ;
@@ -1245,37 +1244,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4755))
 // CS Name: PlayerSaveData::PracticeSettings
-class CORDL_TYPE ____GlobalNamespace__PlayerSaveData__PracticeSettings : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__PlayerSaveData__PracticeSettings : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____GlobalNamespace__PlayerSaveData__PracticeSettings() = default;
+virtual ~GlobalNamespace__PlayerSaveData__PracticeSettings() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PlayerSaveData__PracticeSettings", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__PlayerSaveData__PracticeSettings(____GlobalNamespace__PlayerSaveData__PracticeSettings const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PlayerSaveData__PracticeSettings", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__PlayerSaveData__PracticeSettings(GlobalNamespace__PlayerSaveData__PracticeSettings const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PlayerSaveData__PracticeSettings", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__PlayerSaveData__PracticeSettings(____GlobalNamespace__PlayerSaveData__PracticeSettings&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PlayerSaveData__PracticeSettings", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__PlayerSaveData__PracticeSettings(GlobalNamespace__PlayerSaveData__PracticeSettings&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__PlayerSaveData__PracticeSettings(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__PlayerSaveData__PracticeSettings(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__PlayerSaveData__PracticeSettings& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__PlayerSaveData__PracticeSettings& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PlayerSaveData__PracticeSettings& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__PlayerSaveData__PracticeSettings& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PlayerSaveData__PracticeSettings& operator=(____GlobalNamespace__PlayerSaveData__PracticeSettings&& o) noexcept = default;
-  constexpr ____GlobalNamespace__PlayerSaveData__PracticeSettings& operator=(____GlobalNamespace__PlayerSaveData__PracticeSettings const& o) noexcept = default;
+  constexpr GlobalNamespace__PlayerSaveData__PracticeSettings& operator=(GlobalNamespace__PlayerSaveData__PracticeSettings&& o) noexcept = default;
+  constexpr GlobalNamespace__PlayerSaveData__PracticeSettings& operator=(GlobalNamespace__PlayerSaveData__PracticeSettings const& o) noexcept = default;
                 
 
 
@@ -1297,7 +1296,7 @@ constexpr float_t __get_songSpeedMul() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__PlayerSaveData__PracticeSettings() ;
+explicit GlobalNamespace__PlayerSaveData__PracticeSettings() ;
 
 /// @brief Method .ctor addr 0x2223770 size 0x8 virtual false final false
  void _ctor() ;
@@ -1312,37 +1311,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4756))
 // CS Name: PlayerSaveData::ColorScheme
-class CORDL_TYPE ____GlobalNamespace__PlayerSaveData__ColorScheme : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__PlayerSaveData__ColorScheme : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x88};
 
-virtual ~____GlobalNamespace__PlayerSaveData__ColorScheme() = default;
+virtual ~GlobalNamespace__PlayerSaveData__ColorScheme() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PlayerSaveData__ColorScheme", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__PlayerSaveData__ColorScheme(____GlobalNamespace__PlayerSaveData__ColorScheme const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PlayerSaveData__ColorScheme", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__PlayerSaveData__ColorScheme(GlobalNamespace__PlayerSaveData__ColorScheme const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PlayerSaveData__ColorScheme", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__PlayerSaveData__ColorScheme(____GlobalNamespace__PlayerSaveData__ColorScheme&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PlayerSaveData__ColorScheme", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__PlayerSaveData__ColorScheme(GlobalNamespace__PlayerSaveData__ColorScheme&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__PlayerSaveData__ColorScheme(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__PlayerSaveData__ColorScheme(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__PlayerSaveData__ColorScheme& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__PlayerSaveData__ColorScheme& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PlayerSaveData__ColorScheme& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__PlayerSaveData__ColorScheme& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PlayerSaveData__ColorScheme& operator=(____GlobalNamespace__PlayerSaveData__ColorScheme&& o) noexcept = default;
-  constexpr ____GlobalNamespace__PlayerSaveData__ColorScheme& operator=(____GlobalNamespace__PlayerSaveData__ColorScheme const& o) noexcept = default;
+  constexpr GlobalNamespace__PlayerSaveData__ColorScheme& operator=(GlobalNamespace__PlayerSaveData__ColorScheme&& o) noexcept = default;
+  constexpr GlobalNamespace__PlayerSaveData__ColorScheme& operator=(GlobalNamespace__PlayerSaveData__ColorScheme const& o) noexcept = default;
                 
 
 
@@ -1354,56 +1353,56 @@ constexpr void __set_colorSchemeId(::StringW value) ;
 
 constexpr ::StringW __get_colorSchemeId() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_saberAColor, put=__set_saberAColor))  saberAColor;
+ UnityEngine::Color __declspec(property(get=__get_saberAColor, put=__set_saberAColor))  saberAColor;
 
-constexpr void __set_saberAColor(::UnityEngine::Color value) ;
+constexpr void __set_saberAColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_saberAColor() const;
+constexpr UnityEngine::Color __get_saberAColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_saberBColor, put=__set_saberBColor))  saberBColor;
+ UnityEngine::Color __declspec(property(get=__get_saberBColor, put=__set_saberBColor))  saberBColor;
 
-constexpr void __set_saberBColor(::UnityEngine::Color value) ;
+constexpr void __set_saberBColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_saberBColor() const;
+constexpr UnityEngine::Color __get_saberBColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_environmentColor0, put=__set_environmentColor0))  environmentColor0;
+ UnityEngine::Color __declspec(property(get=__get_environmentColor0, put=__set_environmentColor0))  environmentColor0;
 
-constexpr void __set_environmentColor0(::UnityEngine::Color value) ;
+constexpr void __set_environmentColor0(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_environmentColor0() const;
+constexpr UnityEngine::Color __get_environmentColor0() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_environmentColor1, put=__set_environmentColor1))  environmentColor1;
+ UnityEngine::Color __declspec(property(get=__get_environmentColor1, put=__set_environmentColor1))  environmentColor1;
 
-constexpr void __set_environmentColor1(::UnityEngine::Color value) ;
+constexpr void __set_environmentColor1(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_environmentColor1() const;
+constexpr UnityEngine::Color __get_environmentColor1() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_obstaclesColor, put=__set_obstaclesColor))  obstaclesColor;
+ UnityEngine::Color __declspec(property(get=__get_obstaclesColor, put=__set_obstaclesColor))  obstaclesColor;
 
-constexpr void __set_obstaclesColor(::UnityEngine::Color value) ;
+constexpr void __set_obstaclesColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_obstaclesColor() const;
+constexpr UnityEngine::Color __get_obstaclesColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_environmentColor0Boost, put=__set_environmentColor0Boost))  environmentColor0Boost;
+ UnityEngine::Color __declspec(property(get=__get_environmentColor0Boost, put=__set_environmentColor0Boost))  environmentColor0Boost;
 
-constexpr void __set_environmentColor0Boost(::UnityEngine::Color value) ;
+constexpr void __set_environmentColor0Boost(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_environmentColor0Boost() const;
+constexpr UnityEngine::Color __get_environmentColor0Boost() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_environmentColor1Boost, put=__set_environmentColor1Boost))  environmentColor1Boost;
+ UnityEngine::Color __declspec(property(get=__get_environmentColor1Boost, put=__set_environmentColor1Boost))  environmentColor1Boost;
 
-constexpr void __set_environmentColor1Boost(::UnityEngine::Color value) ;
+constexpr void __set_environmentColor1Boost(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_environmentColor1Boost() const;
+constexpr UnityEngine::Color __get_environmentColor1Boost() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "colorSchemeId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "saberAColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "saberBColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "environmentColor0", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "environmentColor1", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "obstaclesColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "environmentColor0Boost", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "environmentColor1Boost", ty: "::UnityEngine::Color", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__PlayerSaveData__ColorScheme(::StringW colorSchemeId, ::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1, ::UnityEngine::Color obstaclesColor, ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost) ;
+// Ctor Parameters [CppParam { name: "colorSchemeId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "saberAColor", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "saberBColor", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "environmentColor0", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "environmentColor1", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "obstaclesColor", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "environmentColor0Boost", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "environmentColor1Boost", ty: "UnityEngine::Color", modifiers: "", def_value: None }]
+explicit GlobalNamespace__PlayerSaveData__ColorScheme(::StringW colorSchemeId, UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, UnityEngine::Color obstaclesColor, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost) ;
 
 /// @brief Method .ctor addr 0x222385c size 0xd0 virtual false final false
- void _ctor(::StringW colorSchemeId, ::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1, ::UnityEngine::Color obstaclesColor, ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost) ;
+ void _ctor(::StringW colorSchemeId, UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, UnityEngine::Color obstaclesColor, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -1415,37 +1414,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4757))
 // CS Name: PlayerSaveData::ColorSchemesSettings
-class CORDL_TYPE ____GlobalNamespace__PlayerSaveData__ColorSchemesSettings : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__PlayerSaveData__ColorSchemesSettings : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____GlobalNamespace__PlayerSaveData__ColorSchemesSettings() = default;
+virtual ~GlobalNamespace__PlayerSaveData__ColorSchemesSettings() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PlayerSaveData__ColorSchemesSettings", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__PlayerSaveData__ColorSchemesSettings(____GlobalNamespace__PlayerSaveData__ColorSchemesSettings const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PlayerSaveData__ColorSchemesSettings", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__PlayerSaveData__ColorSchemesSettings(GlobalNamespace__PlayerSaveData__ColorSchemesSettings const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PlayerSaveData__ColorSchemesSettings", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__PlayerSaveData__ColorSchemesSettings(____GlobalNamespace__PlayerSaveData__ColorSchemesSettings&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PlayerSaveData__ColorSchemesSettings", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__PlayerSaveData__ColorSchemesSettings(GlobalNamespace__PlayerSaveData__ColorSchemesSettings&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__PlayerSaveData__ColorSchemesSettings(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__PlayerSaveData__ColorSchemesSettings(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__PlayerSaveData__ColorSchemesSettings& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__PlayerSaveData__ColorSchemesSettings& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PlayerSaveData__ColorSchemesSettings& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__PlayerSaveData__ColorSchemesSettings& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PlayerSaveData__ColorSchemesSettings& operator=(____GlobalNamespace__PlayerSaveData__ColorSchemesSettings&& o) noexcept = default;
-  constexpr ____GlobalNamespace__PlayerSaveData__ColorSchemesSettings& operator=(____GlobalNamespace__PlayerSaveData__ColorSchemesSettings const& o) noexcept = default;
+  constexpr GlobalNamespace__PlayerSaveData__ColorSchemesSettings& operator=(GlobalNamespace__PlayerSaveData__ColorSchemesSettings&& o) noexcept = default;
+  constexpr GlobalNamespace__PlayerSaveData__ColorSchemesSettings& operator=(GlobalNamespace__PlayerSaveData__ColorSchemesSettings const& o) noexcept = default;
                 
 
 
@@ -1463,20 +1462,20 @@ constexpr void __set_selectedColorSchemeId(::StringW value) ;
 
 constexpr ::StringW __get_selectedColorSchemeId() const;
 
- ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__PlayerSaveData__ColorScheme> __declspec(property(get=__get_colorSchemes, put=__set_colorSchemes))  colorSchemes;
+ System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorScheme> __declspec(property(get=__get_colorSchemes, put=__set_colorSchemes))  colorSchemes;
 
-constexpr void __set_colorSchemes(::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__PlayerSaveData__ColorScheme> value) ;
+constexpr void __set_colorSchemes(System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorScheme> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__PlayerSaveData__ColorScheme> __get_colorSchemes() const;
+constexpr System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorScheme> __get_colorSchemes() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "overrideDefaultColors", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "selectedColorSchemeId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "colorSchemes", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__PlayerSaveData__ColorScheme>", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__PlayerSaveData__ColorSchemesSettings(bool overrideDefaultColors, ::StringW selectedColorSchemeId, ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__PlayerSaveData__ColorScheme> colorSchemes) ;
+// Ctor Parameters [CppParam { name: "overrideDefaultColors", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "selectedColorSchemeId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "colorSchemes", ty: "System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorScheme>", modifiers: "", def_value: None }]
+explicit GlobalNamespace__PlayerSaveData__ColorSchemesSettings(bool overrideDefaultColors, ::StringW selectedColorSchemeId, System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorScheme> colorSchemes) ;
 
 /// @brief Method .ctor addr 0x222392c size 0x3c virtual false final false
- void _ctor(bool overrideDefaultColors, ::StringW selectedColorSchemeId, ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__PlayerSaveData__ColorScheme> colorSchemes) ;
+ void _ctor(bool overrideDefaultColors, ::StringW selectedColorSchemeId, System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorScheme> colorSchemes) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -1488,37 +1487,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4758))
 // CS Name: PlayerSaveData::OverrideEnvironmentSettings
-class CORDL_TYPE ____GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings() = default;
+virtual ~GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings(____GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings(GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings(____GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings(GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings& operator=(____GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings&& o) noexcept = default;
-  constexpr ____GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings& operator=(____GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings const& o) noexcept = default;
+  constexpr GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings& operator=(GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings&& o) noexcept = default;
+  constexpr GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings& operator=(GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings const& o) noexcept = default;
                 
 
 
@@ -1546,7 +1545,7 @@ constexpr ::StringW __get_override360EnvironmentName() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings() ;
+explicit GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings() ;
 
 /// @brief Method .ctor addr 0x2223968 size 0x8 virtual false final false
  void _ctor() ;
@@ -1561,37 +1560,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4759))
 // CS Name: PlayerSaveData::GuestPlayer
-class CORDL_TYPE ____GlobalNamespace__PlayerSaveData__GuestPlayer : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__PlayerSaveData__GuestPlayer : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____GlobalNamespace__PlayerSaveData__GuestPlayer() = default;
+virtual ~GlobalNamespace__PlayerSaveData__GuestPlayer() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PlayerSaveData__GuestPlayer", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__PlayerSaveData__GuestPlayer(____GlobalNamespace__PlayerSaveData__GuestPlayer const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PlayerSaveData__GuestPlayer", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__PlayerSaveData__GuestPlayer(GlobalNamespace__PlayerSaveData__GuestPlayer const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PlayerSaveData__GuestPlayer", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__PlayerSaveData__GuestPlayer(____GlobalNamespace__PlayerSaveData__GuestPlayer&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PlayerSaveData__GuestPlayer", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__PlayerSaveData__GuestPlayer(GlobalNamespace__PlayerSaveData__GuestPlayer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__PlayerSaveData__GuestPlayer(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__PlayerSaveData__GuestPlayer(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__PlayerSaveData__GuestPlayer& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__PlayerSaveData__GuestPlayer& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PlayerSaveData__GuestPlayer& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__PlayerSaveData__GuestPlayer& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PlayerSaveData__GuestPlayer& operator=(____GlobalNamespace__PlayerSaveData__GuestPlayer&& o) noexcept = default;
-  constexpr ____GlobalNamespace__PlayerSaveData__GuestPlayer& operator=(____GlobalNamespace__PlayerSaveData__GuestPlayer const& o) noexcept = default;
+  constexpr GlobalNamespace__PlayerSaveData__GuestPlayer& operator=(GlobalNamespace__PlayerSaveData__GuestPlayer&& o) noexcept = default;
+  constexpr GlobalNamespace__PlayerSaveData__GuestPlayer& operator=(GlobalNamespace__PlayerSaveData__GuestPlayer const& o) noexcept = default;
                 
 
 
@@ -1607,7 +1606,7 @@ constexpr ::StringW __get_playerName() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__PlayerSaveData__GuestPlayer() ;
+explicit GlobalNamespace__PlayerSaveData__GuestPlayer() ;
 
 /// @brief Method .ctor addr 0x2223854 size 0x8 virtual false final false
  void _ctor() ;
@@ -1622,37 +1621,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4760))
 // CS Name: PlayerSaveData::MultiplayerModeSettings
-class CORDL_TYPE ____GlobalNamespace__PlayerSaveData__MultiplayerModeSettings : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__PlayerSaveData__MultiplayerModeSettings : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
 
-virtual ~____GlobalNamespace__PlayerSaveData__MultiplayerModeSettings() = default;
+virtual ~GlobalNamespace__PlayerSaveData__MultiplayerModeSettings() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PlayerSaveData__MultiplayerModeSettings", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__PlayerSaveData__MultiplayerModeSettings(____GlobalNamespace__PlayerSaveData__MultiplayerModeSettings const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PlayerSaveData__MultiplayerModeSettings", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__PlayerSaveData__MultiplayerModeSettings(GlobalNamespace__PlayerSaveData__MultiplayerModeSettings const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PlayerSaveData__MultiplayerModeSettings", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__PlayerSaveData__MultiplayerModeSettings(____GlobalNamespace__PlayerSaveData__MultiplayerModeSettings&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PlayerSaveData__MultiplayerModeSettings", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__PlayerSaveData__MultiplayerModeSettings(GlobalNamespace__PlayerSaveData__MultiplayerModeSettings&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__PlayerSaveData__MultiplayerModeSettings(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__PlayerSaveData__MultiplayerModeSettings(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__PlayerSaveData__MultiplayerModeSettings& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__PlayerSaveData__MultiplayerModeSettings& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PlayerSaveData__MultiplayerModeSettings& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__PlayerSaveData__MultiplayerModeSettings& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PlayerSaveData__MultiplayerModeSettings& operator=(____GlobalNamespace__PlayerSaveData__MultiplayerModeSettings&& o) noexcept = default;
-  constexpr ____GlobalNamespace__PlayerSaveData__MultiplayerModeSettings& operator=(____GlobalNamespace__PlayerSaveData__MultiplayerModeSettings const& o) noexcept = default;
+  constexpr GlobalNamespace__PlayerSaveData__MultiplayerModeSettings& operator=(GlobalNamespace__PlayerSaveData__MultiplayerModeSettings&& o) noexcept = default;
+  constexpr GlobalNamespace__PlayerSaveData__MultiplayerModeSettings& operator=(GlobalNamespace__PlayerSaveData__MultiplayerModeSettings const& o) noexcept = default;
                 
 
 
@@ -1692,7 +1691,7 @@ constexpr bool __get_quickPlayEnableLevelSelection() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__PlayerSaveData__MultiplayerModeSettings() ;
+explicit GlobalNamespace__PlayerSaveData__MultiplayerModeSettings() ;
 
 /// @brief Method .ctor addr 0x2223970 size 0x74 virtual false final false
  void _ctor() ;
@@ -1707,37 +1706,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4761))
 // CS Name: PlayerSaveData::PlayerAgreementsData
-class CORDL_TYPE ____GlobalNamespace__PlayerSaveData__PlayerAgreementsData : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__PlayerSaveData__PlayerAgreementsData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____GlobalNamespace__PlayerSaveData__PlayerAgreementsData() = default;
+virtual ~GlobalNamespace__PlayerSaveData__PlayerAgreementsData() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PlayerSaveData__PlayerAgreementsData", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__PlayerSaveData__PlayerAgreementsData(____GlobalNamespace__PlayerSaveData__PlayerAgreementsData const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PlayerSaveData__PlayerAgreementsData", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__PlayerSaveData__PlayerAgreementsData(GlobalNamespace__PlayerSaveData__PlayerAgreementsData const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PlayerSaveData__PlayerAgreementsData", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__PlayerSaveData__PlayerAgreementsData(____GlobalNamespace__PlayerSaveData__PlayerAgreementsData&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PlayerSaveData__PlayerAgreementsData", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__PlayerSaveData__PlayerAgreementsData(GlobalNamespace__PlayerSaveData__PlayerAgreementsData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__PlayerSaveData__PlayerAgreementsData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__PlayerSaveData__PlayerAgreementsData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__PlayerSaveData__PlayerAgreementsData& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__PlayerSaveData__PlayerAgreementsData& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PlayerSaveData__PlayerAgreementsData& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__PlayerSaveData__PlayerAgreementsData& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PlayerSaveData__PlayerAgreementsData& operator=(____GlobalNamespace__PlayerSaveData__PlayerAgreementsData&& o) noexcept = default;
-  constexpr ____GlobalNamespace__PlayerSaveData__PlayerAgreementsData& operator=(____GlobalNamespace__PlayerSaveData__PlayerAgreementsData const& o) noexcept = default;
+  constexpr GlobalNamespace__PlayerSaveData__PlayerAgreementsData& operator=(GlobalNamespace__PlayerSaveData__PlayerAgreementsData&& o) noexcept = default;
+  constexpr GlobalNamespace__PlayerSaveData__PlayerAgreementsData& operator=(GlobalNamespace__PlayerSaveData__PlayerAgreementsData const& o) noexcept = default;
                 
 
 
@@ -1765,7 +1764,7 @@ constexpr int32_t __get_healthAndSafetyVersion() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__PlayerSaveData__PlayerAgreementsData() ;
+explicit GlobalNamespace__PlayerSaveData__PlayerAgreementsData() ;
 
 /// @brief Method .ctor addr 0x22239e4 size 0x8 virtual false final false
  void _ctor() ;
@@ -1780,37 +1779,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4762))
 // CS Name: PlayerSaveData::LocalPlayer
-class CORDL_TYPE ____GlobalNamespace__PlayerSaveData__LocalPlayer : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__PlayerSaveData__LocalPlayer : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xb0};
 
-virtual ~____GlobalNamespace__PlayerSaveData__LocalPlayer() = default;
+virtual ~GlobalNamespace__PlayerSaveData__LocalPlayer() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PlayerSaveData__LocalPlayer", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__PlayerSaveData__LocalPlayer(____GlobalNamespace__PlayerSaveData__LocalPlayer const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PlayerSaveData__LocalPlayer", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__PlayerSaveData__LocalPlayer(GlobalNamespace__PlayerSaveData__LocalPlayer const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PlayerSaveData__LocalPlayer", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__PlayerSaveData__LocalPlayer(____GlobalNamespace__PlayerSaveData__LocalPlayer&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PlayerSaveData__LocalPlayer", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__PlayerSaveData__LocalPlayer(GlobalNamespace__PlayerSaveData__LocalPlayer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__PlayerSaveData__LocalPlayer(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__PlayerSaveData__LocalPlayer(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__PlayerSaveData__LocalPlayer& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__PlayerSaveData__LocalPlayer& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PlayerSaveData__LocalPlayer& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__PlayerSaveData__LocalPlayer& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PlayerSaveData__LocalPlayer& operator=(____GlobalNamespace__PlayerSaveData__LocalPlayer&& o) noexcept = default;
-  constexpr ____GlobalNamespace__PlayerSaveData__LocalPlayer& operator=(____GlobalNamespace__PlayerSaveData__LocalPlayer const& o) noexcept = default;
+  constexpr GlobalNamespace__PlayerSaveData__LocalPlayer& operator=(GlobalNamespace__PlayerSaveData__LocalPlayer&& o) noexcept = default;
+  constexpr GlobalNamespace__PlayerSaveData__LocalPlayer& operator=(GlobalNamespace__PlayerSaveData__LocalPlayer const& o) noexcept = default;
                 
 
 
@@ -1870,17 +1869,17 @@ constexpr void __set_didSelectRegionVersion(int32_t value) ;
 
 constexpr int32_t __get_didSelectRegionVersion() const;
 
- ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerAgreementsData __declspec(property(get=__get_playerAgreements, put=__set_playerAgreements))  playerAgreements;
+ GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAgreementsData __declspec(property(get=__get_playerAgreements, put=__set_playerAgreements))  playerAgreements;
 
-constexpr void __set_playerAgreements(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerAgreementsData value) ;
+constexpr void __set_playerAgreements(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAgreementsData value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerAgreementsData __get_playerAgreements() const;
+constexpr GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAgreementsData __get_playerAgreements() const;
 
- ::GlobalNamespace::BeatmapDifficulty __declspec(property(get=__get_lastSelectedBeatmapDifficulty, put=__set_lastSelectedBeatmapDifficulty))  lastSelectedBeatmapDifficulty;
+ GlobalNamespace::BeatmapDifficulty __declspec(property(get=__get_lastSelectedBeatmapDifficulty, put=__set_lastSelectedBeatmapDifficulty))  lastSelectedBeatmapDifficulty;
 
-constexpr void __set_lastSelectedBeatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value) ;
+constexpr void __set_lastSelectedBeatmapDifficulty(GlobalNamespace::BeatmapDifficulty value) ;
 
-constexpr ::GlobalNamespace::BeatmapDifficulty __get_lastSelectedBeatmapDifficulty() const;
+constexpr GlobalNamespace::BeatmapDifficulty __get_lastSelectedBeatmapDifficulty() const;
 
  ::StringW __declspec(property(get=__get_lastSelectedBeatmapCharacteristicName, put=__set_lastSelectedBeatmapCharacteristicName))  lastSelectedBeatmapCharacteristicName;
 
@@ -1888,71 +1887,71 @@ constexpr void __set_lastSelectedBeatmapCharacteristicName(::StringW value) ;
 
 constexpr ::StringW __get_lastSelectedBeatmapCharacteristicName() const;
 
- ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__GameplayModifiers __declspec(property(get=__get_gameplayModifiers, put=__set_gameplayModifiers))  gameplayModifiers;
+ GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers __declspec(property(get=__get_gameplayModifiers, put=__set_gameplayModifiers))  gameplayModifiers;
 
-constexpr void __set_gameplayModifiers(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__GameplayModifiers value) ;
+constexpr void __set_gameplayModifiers(GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__GameplayModifiers __get_gameplayModifiers() const;
+constexpr GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers __get_gameplayModifiers() const;
 
- ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerSpecificSettings __declspec(property(get=__get_playerSpecificSettings, put=__set_playerSpecificSettings))  playerSpecificSettings;
+ GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings __declspec(property(get=__get_playerSpecificSettings, put=__set_playerSpecificSettings))  playerSpecificSettings;
 
-constexpr void __set_playerSpecificSettings(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerSpecificSettings value) ;
+constexpr void __set_playerSpecificSettings(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerSpecificSettings __get_playerSpecificSettings() const;
+constexpr GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings __get_playerSpecificSettings() const;
 
- ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PracticeSettings __declspec(property(get=__get_practiceSettings, put=__set_practiceSettings))  practiceSettings;
+ GlobalNamespace::GlobalNamespace__PlayerSaveData__PracticeSettings __declspec(property(get=__get_practiceSettings, put=__set_practiceSettings))  practiceSettings;
 
-constexpr void __set_practiceSettings(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PracticeSettings value) ;
+constexpr void __set_practiceSettings(GlobalNamespace::GlobalNamespace__PlayerSaveData__PracticeSettings value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PracticeSettings __get_practiceSettings() const;
+constexpr GlobalNamespace::GlobalNamespace__PlayerSaveData__PracticeSettings __get_practiceSettings() const;
 
- ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData __declspec(property(get=__get_playerAllOverallStatsData, put=__set_playerAllOverallStatsData))  playerAllOverallStatsData;
+ GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData __declspec(property(get=__get_playerAllOverallStatsData, put=__set_playerAllOverallStatsData))  playerAllOverallStatsData;
 
-constexpr void __set_playerAllOverallStatsData(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData value) ;
+constexpr void __set_playerAllOverallStatsData(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData __get_playerAllOverallStatsData() const;
+constexpr GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData __get_playerAllOverallStatsData() const;
 
- ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerLevelStatsData> __declspec(property(get=__get_levelsStatsData, put=__set_levelsStatsData))  levelsStatsData;
+ System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerLevelStatsData> __declspec(property(get=__get_levelsStatsData, put=__set_levelsStatsData))  levelsStatsData;
 
-constexpr void __set_levelsStatsData(::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerLevelStatsData> value) ;
+constexpr void __set_levelsStatsData(System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerLevelStatsData> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerLevelStatsData> __get_levelsStatsData() const;
+constexpr System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerLevelStatsData> __get_levelsStatsData() const;
 
- ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerMissionStatsData> __declspec(property(get=__get_missionsStatsData, put=__set_missionsStatsData))  missionsStatsData;
+ System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerMissionStatsData> __declspec(property(get=__get_missionsStatsData, put=__set_missionsStatsData))  missionsStatsData;
 
-constexpr void __set_missionsStatsData(::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerMissionStatsData> value) ;
+constexpr void __set_missionsStatsData(System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerMissionStatsData> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerMissionStatsData> __get_missionsStatsData() const;
+constexpr System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerMissionStatsData> __get_missionsStatsData() const;
 
- ::System::Collections::Generic::List_1<::StringW> __declspec(property(get=__get_showedMissionHelpIds, put=__set_showedMissionHelpIds))  showedMissionHelpIds;
+ System::Collections::Generic::List_1<::StringW> __declspec(property(get=__get_showedMissionHelpIds, put=__set_showedMissionHelpIds))  showedMissionHelpIds;
 
-constexpr void __set_showedMissionHelpIds(::System::Collections::Generic::List_1<::StringW> value) ;
+constexpr void __set_showedMissionHelpIds(System::Collections::Generic::List_1<::StringW> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::StringW> __get_showedMissionHelpIds() const;
+constexpr System::Collections::Generic::List_1<::StringW> __get_showedMissionHelpIds() const;
 
- ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__ColorSchemesSettings __declspec(property(get=__get_colorSchemesSettings, put=__set_colorSchemesSettings))  colorSchemesSettings;
+ GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorSchemesSettings __declspec(property(get=__get_colorSchemesSettings, put=__set_colorSchemesSettings))  colorSchemesSettings;
 
-constexpr void __set_colorSchemesSettings(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__ColorSchemesSettings value) ;
+constexpr void __set_colorSchemesSettings(GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorSchemesSettings value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__ColorSchemesSettings __get_colorSchemesSettings() const;
+constexpr GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorSchemesSettings __get_colorSchemesSettings() const;
 
- ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings __declspec(property(get=__get_overrideEnvironmentSettings, put=__set_overrideEnvironmentSettings))  overrideEnvironmentSettings;
+ GlobalNamespace::GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings __declspec(property(get=__get_overrideEnvironmentSettings, put=__set_overrideEnvironmentSettings))  overrideEnvironmentSettings;
 
-constexpr void __set_overrideEnvironmentSettings(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings value) ;
+constexpr void __set_overrideEnvironmentSettings(GlobalNamespace::GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings __get_overrideEnvironmentSettings() const;
+constexpr GlobalNamespace::GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings __get_overrideEnvironmentSettings() const;
 
- ::System::Collections::Generic::List_1<::StringW> __declspec(property(get=__get_favoritesLevelIds, put=__set_favoritesLevelIds))  favoritesLevelIds;
+ System::Collections::Generic::List_1<::StringW> __declspec(property(get=__get_favoritesLevelIds, put=__set_favoritesLevelIds))  favoritesLevelIds;
 
-constexpr void __set_favoritesLevelIds(::System::Collections::Generic::List_1<::StringW> value) ;
+constexpr void __set_favoritesLevelIds(System::Collections::Generic::List_1<::StringW> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::StringW> __get_favoritesLevelIds() const;
+constexpr System::Collections::Generic::List_1<::StringW> __get_favoritesLevelIds() const;
 
- ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__MultiplayerModeSettings __declspec(property(get=__get_multiplayerModeSettings, put=__set_multiplayerModeSettings))  multiplayerModeSettings;
+ GlobalNamespace::GlobalNamespace__PlayerSaveData__MultiplayerModeSettings __declspec(property(get=__get_multiplayerModeSettings, put=__set_multiplayerModeSettings))  multiplayerModeSettings;
 
-constexpr void __set_multiplayerModeSettings(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__MultiplayerModeSettings value) ;
+constexpr void __set_multiplayerModeSettings(GlobalNamespace::GlobalNamespace__PlayerSaveData__MultiplayerModeSettings value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__MultiplayerModeSettings __get_multiplayerModeSettings() const;
+constexpr GlobalNamespace::GlobalNamespace__PlayerSaveData__MultiplayerModeSettings __get_multiplayerModeSettings() const;
 
  int32_t __declspec(property(get=__get_currentDlcPromoDisplayCount, put=__set_currentDlcPromoDisplayCount))  currentDlcPromoDisplayCount;
 
@@ -1970,7 +1969,7 @@ constexpr ::StringW __get_currentDlcPromoId() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__PlayerSaveData__LocalPlayer() ;
+explicit GlobalNamespace__PlayerSaveData__LocalPlayer() ;
 
 /// @brief Method .ctor addr 0x22236e4 size 0x18 virtual false final false
  void _ctor() ;
@@ -1985,36 +1984,36 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4801))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4763))
 // CS Name: PlayerSaveData
-class CORDL_TYPE PlayerSaveData : public ::GlobalNamespace::VersionSaveData {
+class CORDL_TYPE PlayerSaveData : public GlobalNamespace::VersionSaveData {
 public:
 // Declarations
-using LocalPlayer = ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__LocalPlayer;
+using LocalPlayer = GlobalNamespace::GlobalNamespace__PlayerSaveData__LocalPlayer;
 
-using PlayerAgreementsData = ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerAgreementsData;
+using PlayerAgreementsData = GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAgreementsData;
 
-using MultiplayerModeSettings = ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__MultiplayerModeSettings;
+using MultiplayerModeSettings = GlobalNamespace::GlobalNamespace__PlayerSaveData__MultiplayerModeSettings;
 
-using GuestPlayer = ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__GuestPlayer;
+using GuestPlayer = GlobalNamespace::GlobalNamespace__PlayerSaveData__GuestPlayer;
 
-using OverrideEnvironmentSettings = ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings;
+using OverrideEnvironmentSettings = GlobalNamespace::GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings;
 
-using ColorSchemesSettings = ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__ColorSchemesSettings;
+using ColorSchemesSettings = GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorSchemesSettings;
 
-using ColorScheme = ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__ColorScheme;
+using ColorScheme = GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorScheme;
 
-using PracticeSettings = ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PracticeSettings;
+using PracticeSettings = GlobalNamespace::GlobalNamespace__PlayerSaveData__PracticeSettings;
 
-using PlayerMissionStatsData = ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerMissionStatsData;
+using PlayerMissionStatsData = GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerMissionStatsData;
 
-using PlayerLevelStatsData = ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerLevelStatsData;
+using PlayerLevelStatsData = GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerLevelStatsData;
 
-using PlayerOverallStatsData = ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData;
+using PlayerOverallStatsData = GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData;
 
-using PlayerAllOverallStatsData = ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData;
+using PlayerAllOverallStatsData = GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData;
 
-using PlayerSpecificSettings = ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerSpecificSettings;
+using PlayerSpecificSettings = GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings;
 
-using GameplayModifiers = ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__GameplayModifiers;
+using GameplayModifiers = GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -2028,7 +2027,7 @@ constexpr PlayerSaveData(PlayerSaveData const& ) noexcept = default;
 constexpr PlayerSaveData(PlayerSaveData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PlayerSaveData(void* ptr) noexcept : ::GlobalNamespace::VersionSaveData(ptr) {
+constexpr explicit PlayerSaveData(void* ptr) noexcept : GlobalNamespace::VersionSaveData(ptr) {
 }
 
 
@@ -2052,17 +2051,17 @@ constexpr explicit PlayerSaveData(void* ptr) noexcept : ::GlobalNamespace::Versi
 /// @brief Field kCurrentVersion offset 0
 static constexpr ::ConstString  kCurrentVersion{u"2.0.23"};
 
- ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__PlayerSaveData__LocalPlayer> __declspec(property(get=__get_localPlayers, put=__set_localPlayers))  localPlayers;
+ System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__PlayerSaveData__LocalPlayer> __declspec(property(get=__get_localPlayers, put=__set_localPlayers))  localPlayers;
 
-constexpr void __set_localPlayers(::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__PlayerSaveData__LocalPlayer> value) ;
+constexpr void __set_localPlayers(System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__PlayerSaveData__LocalPlayer> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__PlayerSaveData__LocalPlayer> __get_localPlayers() const;
+constexpr System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__PlayerSaveData__LocalPlayer> __get_localPlayers() const;
 
- ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__PlayerSaveData__GuestPlayer> __declspec(property(get=__get_guestPlayers, put=__set_guestPlayers))  guestPlayers;
+ System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__PlayerSaveData__GuestPlayer> __declspec(property(get=__get_guestPlayers, put=__set_guestPlayers))  guestPlayers;
 
-constexpr void __set_guestPlayers(::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__PlayerSaveData__GuestPlayer> value) ;
+constexpr void __set_guestPlayers(System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__PlayerSaveData__GuestPlayer> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__PlayerSaveData__GuestPlayer> __get_guestPlayers() const;
+constexpr System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__PlayerSaveData__GuestPlayer> __get_guestPlayers() const;
 
 
 // Methods
@@ -2077,40 +2076,39 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType, "", "PlayerSaveData/GameplayModifiers/EnabledObstacleType");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::______GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType, "", "PlayerSaveData/GameplayModifiers/EnergyType");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::______GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed, "", "PlayerSaveData/GameplayModifiers/SongSpeed");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData, "", "PlayerSaveData/PlayerSpecificSettings/ArcVisibilityTypeSaveData");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData, "", "PlayerSaveData/PlayerSpecificSettings/EnvironmentEffectsFilterPresetSaveData");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::______GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData, "", "PlayerSaveData/PlayerSpecificSettings/NoteJumpDurationTypeSettingsSaveData");
-NEED_NO_BOX(::GlobalNamespace::PlayerSaveData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerSaveData, "", "PlayerSaveData");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__ColorScheme);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__ColorScheme, "", "PlayerSaveData/ColorScheme");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__ColorSchemesSettings);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__ColorSchemesSettings, "", "PlayerSaveData/ColorSchemesSettings");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__GameplayModifiers);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__GameplayModifiers, "", "PlayerSaveData/GameplayModifiers");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__GuestPlayer);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__GuestPlayer, "", "PlayerSaveData/GuestPlayer");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__LocalPlayer);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__LocalPlayer, "", "PlayerSaveData/LocalPlayer");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__MultiplayerModeSettings);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__MultiplayerModeSettings, "", "PlayerSaveData/MultiplayerModeSettings");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings, "", "PlayerSaveData/OverrideEnvironmentSettings");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerAgreementsData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerAgreementsData, "", "PlayerSaveData/PlayerAgreementsData");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData, "", "PlayerSaveData/PlayerAllOverallStatsData");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerLevelStatsData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerLevelStatsData, "", "PlayerSaveData/PlayerLevelStatsData");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerMissionStatsData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerMissionStatsData, "", "PlayerSaveData/PlayerMissionStatsData");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerOverallStatsData, "", "PlayerSaveData/PlayerOverallStatsData");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerSpecificSettings);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PlayerSpecificSettings, "", "PlayerSaveData/PlayerSpecificSettings");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PracticeSettings);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__PracticeSettings, "", "PlayerSaveData/PracticeSettings");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType, "", "PlayerSaveData/GameplayModifiers/EnabledObstacleType");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType, "", "PlayerSaveData/GameplayModifiers/EnergyType");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed, "", "PlayerSaveData/GameplayModifiers/SongSpeed");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData, "", "PlayerSaveData/PlayerSpecificSettings/ArcVisibilityTypeSaveData");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData, "", "PlayerSaveData/PlayerSpecificSettings/EnvironmentEffectsFilterPresetSaveData");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData, "", "PlayerSaveData/PlayerSpecificSettings/NoteJumpDurationTypeSettingsSaveData");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorScheme);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorScheme, "", "PlayerSaveData/ColorScheme");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorSchemesSettings);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorSchemesSettings, "", "PlayerSaveData/ColorSchemesSettings");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers, "", "PlayerSaveData/GameplayModifiers");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__PlayerSaveData__GuestPlayer);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__PlayerSaveData__GuestPlayer, "", "PlayerSaveData/GuestPlayer");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__PlayerSaveData__LocalPlayer);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__PlayerSaveData__LocalPlayer, "", "PlayerSaveData/LocalPlayer");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__PlayerSaveData__MultiplayerModeSettings);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__PlayerSaveData__MultiplayerModeSettings, "", "PlayerSaveData/MultiplayerModeSettings");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings, "", "PlayerSaveData/OverrideEnvironmentSettings");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAgreementsData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAgreementsData, "", "PlayerSaveData/PlayerAgreementsData");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData, "", "PlayerSaveData/PlayerAllOverallStatsData");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerLevelStatsData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerLevelStatsData, "", "PlayerSaveData/PlayerLevelStatsData");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerMissionStatsData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerMissionStatsData, "", "PlayerSaveData/PlayerMissionStatsData");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData, "", "PlayerSaveData/PlayerOverallStatsData");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings, "", "PlayerSaveData/PlayerSpecificSettings");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__PlayerSaveData__PracticeSettings);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__PlayerSaveData__PracticeSettings, "", "PlayerSaveData/PracticeSettings");
+NEED_NO_BOX(GlobalNamespace::PlayerSaveData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData, "", "PlayerSaveData");

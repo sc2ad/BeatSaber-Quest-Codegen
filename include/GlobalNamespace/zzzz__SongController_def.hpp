@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace System {
 class Action;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5424))
 // CS Name: SongController
-class CORDL_TYPE SongController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SongController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr SongController(SongController const& ) noexcept = default;
 constexpr SongController(SongController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SongController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SongController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -51,20 +50,20 @@ constexpr explicit SongController(void* ptr) noexcept : ::UnityEngine::MonoBehav
 
 // Fields
 
- ::System::Action __declspec(property(get=__get_songDidFinishEvent, put=__set_songDidFinishEvent))  songDidFinishEvent;
+ System::Action __declspec(property(get=__get_songDidFinishEvent, put=__set_songDidFinishEvent))  songDidFinishEvent;
 
-constexpr void __set_songDidFinishEvent(::System::Action value) ;
+constexpr void __set_songDidFinishEvent(System::Action value) ;
 
-constexpr ::System::Action __get_songDidFinishEvent() const;
+constexpr System::Action __get_songDidFinishEvent() const;
 
 
 // Methods
 
 /// @brief Method add_songDidFinishEvent addr 0x2110c84 size 0x9c virtual false final false
- void add_songDidFinishEvent(::System::Action value) ;
+ void add_songDidFinishEvent(System::Action value) ;
 
 /// @brief Method remove_songDidFinishEvent addr 0x2110d20 size 0x9c virtual false final false
- void remove_songDidFinishEvent(::System::Action value) ;
+ void remove_songDidFinishEvent(System::Action value) ;
 
 /// @brief Method SendSongDidFinishEvent addr 0x2110a54 size 0x1c virtual false final false
  void SendSongDidFinishEvent() ;
@@ -88,6 +87,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SongController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SongController, "", "SongController");
+NEED_NO_BOX(GlobalNamespace::SongController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongController, "", "SongController");

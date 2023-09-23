@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
@@ -21,8 +20,8 @@ namespace Org::BouncyCastle::Math::EC::Endo {
 class CORDL_TYPE GlvEndomorphism : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism
-constexpr operator  ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Math::EC::Endo::ECEndomorphism
+constexpr operator  Org::BouncyCastle::Math::EC::Endo::ECEndomorphism() const noexcept;
 
 ~GlvEndomorphism() = default;
 
@@ -34,12 +33,11 @@ constexpr explicit GlvEndomorphism(void* ptr) noexcept : ::cordl_internals::Inte
 // Methods
 
 /// @brief Method DecomposeScalar addr 0x0 size 0xffffffffffffffff virtual true final false
- ::ArrayW<::Org::BouncyCastle::Math::BigInteger> DecomposeScalar(::Org::BouncyCastle::Math::BigInteger k) ;
+ ::ArrayW<Org::BouncyCastle::Math::BigInteger> DecomposeScalar(Org::BouncyCastle::Math::BigInteger k) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Math::EC::Endo
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism, "Org.BouncyCastle.Math.EC.Endo", "GlvEndomorphism");
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism, "Org.BouncyCastle.Math.EC.Endo", "GlvEndomorphism");

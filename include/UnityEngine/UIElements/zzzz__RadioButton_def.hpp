@@ -5,7 +5,6 @@
 #include "UnityEngine/UIElements/zzzz__UxmlBoolAttributeDescription_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace UnityEngine::UIElements {
 class IGroupBoxOption;
 }
@@ -13,10 +12,10 @@ namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-class UxmlStringAttributeDescription;
+class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-class IUxmlAttributes;
+class UxmlStringAttributeDescription;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;
@@ -26,67 +25,67 @@ namespace UnityEngine::UIElements {
 class RadioButton;
 }
 namespace UnityEngine::UIElements {
-class ____UnityEngine__UIElements__RadioButton__UxmlFactory;
+class UnityEngine__UIElements__RadioButton__UxmlFactory;
 }
 namespace UnityEngine::UIElements {
-class ____UnityEngine__UIElements__RadioButton__UxmlTraits;
+class UnityEngine__UIElements__RadioButton__UxmlTraits;
 }
 // Type: ::UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7229)), TypeDefinitionIndex(TypeDefinitionIndex(7083)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7229), inst: 884 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7083)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7229), inst: 884 }), TypeDefinitionIndex(TypeDefinitionIndex(7229))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7174))
 // CS Name: UnityEngine.UIElements.RadioButton::UxmlTraits
-class CORDL_TYPE ____UnityEngine__UIElements__RadioButton__UxmlTraits : public ::UnityEngine::UIElements::BaseFieldTraits_2<bool,::UnityEngine::UIElements::UxmlBoolAttributeDescription> {
+class CORDL_TYPE UnityEngine__UIElements__RadioButton__UxmlTraits : public UnityEngine::UIElements::BaseFieldTraits_2<bool,UnityEngine::UIElements::UxmlBoolAttributeDescription> {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x90};
 
-virtual ~____UnityEngine__UIElements__RadioButton__UxmlTraits() = default;
+virtual ~UnityEngine__UIElements__RadioButton__UxmlTraits() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__RadioButton__UxmlTraits", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__UIElements__RadioButton__UxmlTraits(____UnityEngine__UIElements__RadioButton__UxmlTraits const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__RadioButton__UxmlTraits", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__UIElements__RadioButton__UxmlTraits(UnityEngine__UIElements__RadioButton__UxmlTraits const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__RadioButton__UxmlTraits", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__UIElements__RadioButton__UxmlTraits(____UnityEngine__UIElements__RadioButton__UxmlTraits&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__RadioButton__UxmlTraits", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__UIElements__RadioButton__UxmlTraits(UnityEngine__UIElements__RadioButton__UxmlTraits&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UIElements__RadioButton__UxmlTraits(void* ptr) noexcept : ::UnityEngine::UIElements::BaseFieldTraits_2<bool,::UnityEngine::UIElements::UxmlBoolAttributeDescription>(ptr) {
+constexpr explicit UnityEngine__UIElements__RadioButton__UxmlTraits(void* ptr) noexcept : UnityEngine::UIElements::BaseFieldTraits_2<bool,UnityEngine::UIElements::UxmlBoolAttributeDescription>(ptr) {
 }
 
 
-  constexpr ____UnityEngine__UIElements__RadioButton__UxmlTraits& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__UIElements__RadioButton__UxmlTraits& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__RadioButton__UxmlTraits& operator=(void* o) noexcept {
+  constexpr UnityEngine__UIElements__RadioButton__UxmlTraits& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__RadioButton__UxmlTraits& operator=(____UnityEngine__UIElements__RadioButton__UxmlTraits&& o) noexcept = default;
-  constexpr ____UnityEngine__UIElements__RadioButton__UxmlTraits& operator=(____UnityEngine__UIElements__RadioButton__UxmlTraits const& o) noexcept = default;
+  constexpr UnityEngine__UIElements__RadioButton__UxmlTraits& operator=(UnityEngine__UIElements__RadioButton__UxmlTraits&& o) noexcept = default;
+  constexpr UnityEngine__UIElements__RadioButton__UxmlTraits& operator=(UnityEngine__UIElements__RadioButton__UxmlTraits const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::UnityEngine::UIElements::UxmlStringAttributeDescription __declspec(property(get=__get_m_Text, put=__set_m_Text))  m_Text;
+ UnityEngine::UIElements::UxmlStringAttributeDescription __declspec(property(get=__get_m_Text, put=__set_m_Text))  m_Text;
 
-constexpr void __set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription value) ;
+constexpr void __set_m_Text(UnityEngine::UIElements::UxmlStringAttributeDescription value) ;
 
-constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription __get_m_Text() const;
+constexpr UnityEngine::UIElements::UxmlStringAttributeDescription __get_m_Text() const;
 
 
 // Methods
 
 /// @brief Method Init addr 0x2cbad0c size 0x118 virtual true final false
- void Init(::UnityEngine::UIElements::VisualElement ve, ::UnityEngine::UIElements::IUxmlAttributes bag, ::UnityEngine::UIElements::CreationContext cc) ;
+ void Init(UnityEngine::UIElements::VisualElement ve, UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
 // Ctor Parameters []
-explicit ____UnityEngine__UIElements__RadioButton__UxmlTraits() ;
+explicit UnityEngine__UIElements__RadioButton__UxmlTraits() ;
 
 /// @brief Method .ctor addr 0x2cbae24 size 0xa0 virtual false final false
  void _ctor() ;
@@ -101,15 +100,15 @@ namespace UnityEngine::UIElements {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7163))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7175))
 // CS Name: UnityEngine.UIElements.RadioButton
-class CORDL_TYPE RadioButton : public ::UnityEngine::UIElements::BaseBoolField {
+class CORDL_TYPE RadioButton : public UnityEngine::UIElements::BaseBoolField {
 public:
 // Declarations
-using UxmlTraits = ::UnityEngine::UIElements::____UnityEngine__UIElements__RadioButton__UxmlTraits;
+using UxmlTraits = UnityEngine::UIElements::UnityEngine__UIElements__RadioButton__UxmlTraits;
 
-using UxmlFactory = ::UnityEngine::UIElements::____UnityEngine__UIElements__RadioButton__UxmlFactory;
+using UxmlFactory = UnityEngine::UIElements::UnityEngine__UIElements__RadioButton__UxmlFactory;
 
-/// @brief Convert operator to ::UnityEngine::UIElements::IGroupBoxOption
-constexpr operator  ::UnityEngine::UIElements::IGroupBoxOption() const noexcept;
+/// @brief Convert operator to UnityEngine::UIElements::IGroupBoxOption
+constexpr operator  UnityEngine::UIElements::IGroupBoxOption() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x430};
@@ -123,7 +122,7 @@ constexpr RadioButton(RadioButton const& ) noexcept = default;
 constexpr RadioButton(RadioButton&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RadioButton(void* ptr) noexcept : ::UnityEngine::UIElements::BaseBoolField(ptr) {
+constexpr explicit RadioButton(void* ptr) noexcept : UnityEngine::UIElements::BaseBoolField(ptr) {
 }
 
 
@@ -180,11 +179,11 @@ static void __set_textUssClassName(::StringW value) ;
 
 static ::StringW __get_textUssClassName() ;
 
- ::UnityEngine::UIElements::VisualElement __declspec(property(get=__get_m_CheckmarkBackground, put=__set_m_CheckmarkBackground))  m_CheckmarkBackground;
+ UnityEngine::UIElements::VisualElement __declspec(property(get=__get_m_CheckmarkBackground, put=__set_m_CheckmarkBackground))  m_CheckmarkBackground;
 
-constexpr void __set_m_CheckmarkBackground(::UnityEngine::UIElements::VisualElement value) ;
+constexpr void __set_m_CheckmarkBackground(UnityEngine::UIElements::VisualElement value) ;
 
-constexpr ::UnityEngine::UIElements::VisualElement __get_m_CheckmarkBackground() const;
+constexpr UnityEngine::UIElements::VisualElement __get_m_CheckmarkBackground() const;
 
 
 // Properties
@@ -237,47 +236,47 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::UxmlFactory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7174)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5098 }), TypeDefinitionIndex(TypeDefinitionIndex(7175)), TypeDefinitionIndex(TypeDefinitionIndex(7089))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5098 }), TypeDefinitionIndex(TypeDefinitionIndex(7175)), TypeDefinitionIndex(TypeDefinitionIndex(7174)), TypeDefinitionIndex(TypeDefinitionIndex(7089))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7173))
 // CS Name: UnityEngine.UIElements.RadioButton::UxmlFactory
-class CORDL_TYPE ____UnityEngine__UIElements__RadioButton__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::RadioButton,::UnityEngine::UIElements::____UnityEngine__UIElements__RadioButton__UxmlTraits> {
+class CORDL_TYPE UnityEngine__UIElements__RadioButton__UxmlFactory : public UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::RadioButton,UnityEngine::UIElements::UnityEngine__UIElements__RadioButton__UxmlTraits> {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____UnityEngine__UIElements__RadioButton__UxmlFactory() = default;
+virtual ~UnityEngine__UIElements__RadioButton__UxmlFactory() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__RadioButton__UxmlFactory", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__UIElements__RadioButton__UxmlFactory(____UnityEngine__UIElements__RadioButton__UxmlFactory const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__RadioButton__UxmlFactory", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__UIElements__RadioButton__UxmlFactory(UnityEngine__UIElements__RadioButton__UxmlFactory const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__RadioButton__UxmlFactory", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__UIElements__RadioButton__UxmlFactory(____UnityEngine__UIElements__RadioButton__UxmlFactory&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__RadioButton__UxmlFactory", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__UIElements__RadioButton__UxmlFactory(UnityEngine__UIElements__RadioButton__UxmlFactory&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UIElements__RadioButton__UxmlFactory(void* ptr) noexcept : ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::RadioButton,::UnityEngine::UIElements::____UnityEngine__UIElements__RadioButton__UxmlTraits>(ptr) {
+constexpr explicit UnityEngine__UIElements__RadioButton__UxmlFactory(void* ptr) noexcept : UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::RadioButton,UnityEngine::UIElements::UnityEngine__UIElements__RadioButton__UxmlTraits>(ptr) {
 }
 
 
-  constexpr ____UnityEngine__UIElements__RadioButton__UxmlFactory& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__UIElements__RadioButton__UxmlFactory& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__RadioButton__UxmlFactory& operator=(void* o) noexcept {
+  constexpr UnityEngine__UIElements__RadioButton__UxmlFactory& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__RadioButton__UxmlFactory& operator=(____UnityEngine__UIElements__RadioButton__UxmlFactory&& o) noexcept = default;
-  constexpr ____UnityEngine__UIElements__RadioButton__UxmlFactory& operator=(____UnityEngine__UIElements__RadioButton__UxmlFactory const& o) noexcept = default;
+  constexpr UnityEngine__UIElements__RadioButton__UxmlFactory& operator=(UnityEngine__UIElements__RadioButton__UxmlFactory&& o) noexcept = default;
+  constexpr UnityEngine__UIElements__RadioButton__UxmlFactory& operator=(UnityEngine__UIElements__RadioButton__UxmlFactory const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__UIElements__RadioButton__UxmlFactory() ;
+explicit UnityEngine__UIElements__RadioButton__UxmlFactory() ;
 
 /// @brief Method .ctor addr 0x2cbacc4 size 0x48 virtual false final false
  void _ctor() ;
@@ -286,10 +285,9 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::RadioButton);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::RadioButton, "UnityEngine.UIElements", "RadioButton");
-NEED_NO_BOX(::UnityEngine::UIElements::____UnityEngine__UIElements__RadioButton__UxmlFactory);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::____UnityEngine__UIElements__RadioButton__UxmlFactory, "UnityEngine.UIElements", "RadioButton/UxmlFactory");
-NEED_NO_BOX(::UnityEngine::UIElements::____UnityEngine__UIElements__RadioButton__UxmlTraits);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::____UnityEngine__UIElements__RadioButton__UxmlTraits, "UnityEngine.UIElements", "RadioButton/UxmlTraits");
+NEED_NO_BOX(UnityEngine::UIElements::RadioButton);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::RadioButton, "UnityEngine.UIElements", "RadioButton");
+NEED_NO_BOX(UnityEngine::UIElements::UnityEngine__UIElements__RadioButton__UxmlFactory);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UnityEngine__UIElements__RadioButton__UxmlFactory, "UnityEngine.UIElements", "RadioButton/UxmlFactory");
+NEED_NO_BOX(UnityEngine::UIElements::UnityEngine__UIElements__RadioButton__UxmlTraits);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UnityEngine__UIElements__RadioButton__UxmlTraits, "UnityEngine.UIElements", "RadioButton/UxmlTraits");

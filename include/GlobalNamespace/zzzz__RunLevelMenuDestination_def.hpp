@@ -3,18 +3,17 @@
 #include "GlobalNamespace/zzzz__MenuDestination_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
 class IBeatmapLevelPack;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
+struct BeatmapDifficulty;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,7 +25,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4184))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4190))
 // CS Name: RunLevelMenuDestination
-class CORDL_TYPE RunLevelMenuDestination : public ::GlobalNamespace::MenuDestination {
+class CORDL_TYPE RunLevelMenuDestination : public GlobalNamespace::MenuDestination {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -41,7 +40,7 @@ constexpr RunLevelMenuDestination(RunLevelMenuDestination const& ) noexcept = de
 constexpr RunLevelMenuDestination(RunLevelMenuDestination&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RunLevelMenuDestination(void* ptr) noexcept : ::GlobalNamespace::MenuDestination(ptr) {
+constexpr explicit RunLevelMenuDestination(void* ptr) noexcept : GlobalNamespace::MenuDestination(ptr) {
 }
 
 
@@ -62,29 +61,29 @@ constexpr explicit RunLevelMenuDestination(void* ptr) noexcept : ::GlobalNamespa
 
 // Fields
 
- ::GlobalNamespace::IBeatmapLevelPack __declspec(property(get=__get_beatmapLevelPack, put=__set_beatmapLevelPack))  beatmapLevelPack;
+ GlobalNamespace::IBeatmapLevelPack __declspec(property(get=__get_beatmapLevelPack, put=__set_beatmapLevelPack))  beatmapLevelPack;
 
-constexpr void __set_beatmapLevelPack(::GlobalNamespace::IBeatmapLevelPack value) ;
+constexpr void __set_beatmapLevelPack(GlobalNamespace::IBeatmapLevelPack value) ;
 
-constexpr ::GlobalNamespace::IBeatmapLevelPack __get_beatmapLevelPack() const;
+constexpr GlobalNamespace::IBeatmapLevelPack __get_beatmapLevelPack() const;
 
- ::GlobalNamespace::IPreviewBeatmapLevel __declspec(property(get=__get_previewBeatmapLevel, put=__set_previewBeatmapLevel))  previewBeatmapLevel;
+ GlobalNamespace::IPreviewBeatmapLevel __declspec(property(get=__get_previewBeatmapLevel, put=__set_previewBeatmapLevel))  previewBeatmapLevel;
 
-constexpr void __set_previewBeatmapLevel(::GlobalNamespace::IPreviewBeatmapLevel value) ;
+constexpr void __set_previewBeatmapLevel(GlobalNamespace::IPreviewBeatmapLevel value) ;
 
-constexpr ::GlobalNamespace::IPreviewBeatmapLevel __get_previewBeatmapLevel() const;
+constexpr GlobalNamespace::IPreviewBeatmapLevel __get_previewBeatmapLevel() const;
 
- ::GlobalNamespace::BeatmapDifficulty __declspec(property(get=__get_beatmapDifficulty, put=__set_beatmapDifficulty))  beatmapDifficulty;
+ GlobalNamespace::BeatmapDifficulty __declspec(property(get=__get_beatmapDifficulty, put=__set_beatmapDifficulty))  beatmapDifficulty;
 
-constexpr void __set_beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value) ;
+constexpr void __set_beatmapDifficulty(GlobalNamespace::BeatmapDifficulty value) ;
 
-constexpr ::GlobalNamespace::BeatmapDifficulty __get_beatmapDifficulty() const;
+constexpr GlobalNamespace::BeatmapDifficulty __get_beatmapDifficulty() const;
 
- ::GlobalNamespace::BeatmapCharacteristicSO __declspec(property(get=__get_beatmapCharacteristic, put=__set_beatmapCharacteristic))  beatmapCharacteristic;
+ GlobalNamespace::BeatmapCharacteristicSO __declspec(property(get=__get_beatmapCharacteristic, put=__set_beatmapCharacteristic))  beatmapCharacteristic;
 
-constexpr void __set_beatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO value) ;
+constexpr void __set_beatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO value) ;
 
-constexpr ::GlobalNamespace::BeatmapCharacteristicSO __get_beatmapCharacteristic() const;
+constexpr GlobalNamespace::BeatmapCharacteristicSO __get_beatmapCharacteristic() const;
 
  bool __declspec(property(get=__get_practice, put=__set_practice))  practice;
 
@@ -125,16 +124,15 @@ constexpr ::StringW __get_environmentName() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "beatmapLevelPack", ty: "::GlobalNamespace::IBeatmapLevelPack", modifiers: "", def_value: None }, CppParam { name: "previewBeatmapLevel", ty: "::GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "beatmapDifficulty", ty: "::GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristic", ty: "::GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }, CppParam { name: "practice", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "startSongTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "songSpeedMultiplier", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "overrideEnvironments", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "environmentType", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "environmentName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit RunLevelMenuDestination(::GlobalNamespace::IBeatmapLevelPack beatmapLevelPack, ::GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, bool practice, float_t startSongTime, float_t songSpeedMultiplier, bool overrideEnvironments, ::StringW environmentType, ::StringW environmentName) ;
+// Ctor Parameters [CppParam { name: "beatmapLevelPack", ty: "GlobalNamespace::IBeatmapLevelPack", modifiers: "", def_value: None }, CppParam { name: "previewBeatmapLevel", ty: "GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "beatmapDifficulty", ty: "GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristic", ty: "GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }, CppParam { name: "practice", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "startSongTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "songSpeedMultiplier", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "overrideEnvironments", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "environmentType", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "environmentName", ty: "::StringW", modifiers: "", def_value: None }]
+explicit RunLevelMenuDestination(GlobalNamespace::IBeatmapLevelPack beatmapLevelPack, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, bool practice, float_t startSongTime, float_t songSpeedMultiplier, bool overrideEnvironments, ::StringW environmentType, ::StringW environmentName) ;
 
 /// @brief Method .ctor addr 0x21bd498 size 0x84 virtual false final false
- void _ctor(::GlobalNamespace::IBeatmapLevelPack beatmapLevelPack, ::GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, bool practice, float_t startSongTime, float_t songSpeedMultiplier, bool overrideEnvironments, ::StringW environmentType, ::StringW environmentName) ;
+ void _ctor(GlobalNamespace::IBeatmapLevelPack beatmapLevelPack, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, bool practice, float_t startSongTime, float_t songSpeedMultiplier, bool overrideEnvironments, ::StringW environmentType, ::StringW environmentName) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::RunLevelMenuDestination);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RunLevelMenuDestination, "", "RunLevelMenuDestination");
+NEED_NO_BOX(GlobalNamespace::RunLevelMenuDestination);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RunLevelMenuDestination, "", "RunLevelMenuDestination");

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct CachedAssetBundle;
 }
@@ -57,18 +56,17 @@ constexpr explicit UnityWebRequestAssetBundle(void* ptr) noexcept : ::bs_hook::I
 // Methods
 
 /// @brief Method GetAssetBundle addr 0x2d33444 size 0x8 virtual false final false
-static ::UnityEngine::Networking::UnityWebRequest GetAssetBundle(::StringW uri) ;
+static UnityEngine::Networking::UnityWebRequest GetAssetBundle(::StringW uri) ;
 
 /// @brief Method GetAssetBundle addr 0x2d3344c size 0xc0 virtual false final false
-static ::UnityEngine::Networking::UnityWebRequest GetAssetBundle(::StringW uri, uint32_t crc) ;
+static UnityEngine::Networking::UnityWebRequest GetAssetBundle(::StringW uri, uint32_t crc) ;
 
 /// @brief Method GetAssetBundle addr 0x2d33570 size 0xf0 virtual false final false
-static ::UnityEngine::Networking::UnityWebRequest GetAssetBundle(::StringW uri, ::UnityEngine::CachedAssetBundle cachedAssetBundle, uint32_t crc) ;
+static UnityEngine::Networking::UnityWebRequest GetAssetBundle(::StringW uri, UnityEngine::CachedAssetBundle cachedAssetBundle, uint32_t crc) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Networking
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Networking::UnityWebRequestAssetBundle);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Networking::UnityWebRequestAssetBundle, "UnityEngine.Networking", "UnityWebRequestAssetBundle");
+NEED_NO_BOX(UnityEngine::Networking::UnityWebRequestAssetBundle);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequestAssetBundle, "UnityEngine.Networking", "UnityWebRequestAssetBundle");

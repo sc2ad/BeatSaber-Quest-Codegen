@@ -3,7 +3,6 @@
 #include "System/Security/Cryptography/zzzz__HashAlgorithm_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security::Cryptography {
 class KeyedHashAlgorithm;
@@ -14,7 +13,7 @@ namespace System::Security::Cryptography {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2912))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2938))
 // CS Name: System.Security.Cryptography.KeyedHashAlgorithm
-class CORDL_TYPE KeyedHashAlgorithm : public ::System::Security::Cryptography::HashAlgorithm {
+class CORDL_TYPE KeyedHashAlgorithm : public System::Security::Cryptography::HashAlgorithm {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr KeyedHashAlgorithm(KeyedHashAlgorithm const& ) noexcept = default;
 constexpr KeyedHashAlgorithm(KeyedHashAlgorithm&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit KeyedHashAlgorithm(void* ptr) noexcept : ::System::Security::Cryptography::HashAlgorithm(ptr) {
+constexpr explicit KeyedHashAlgorithm(void* ptr) noexcept : System::Security::Cryptography::HashAlgorithm(ptr) {
 }
 
 
@@ -83,6 +82,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::KeyedHashAlgorithm);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::KeyedHashAlgorithm, "System.Security.Cryptography", "KeyedHashAlgorithm");
+NEED_NO_BOX(System::Security::Cryptography::KeyedHashAlgorithm);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::KeyedHashAlgorithm, "System.Security.Cryptography", "KeyedHashAlgorithm");

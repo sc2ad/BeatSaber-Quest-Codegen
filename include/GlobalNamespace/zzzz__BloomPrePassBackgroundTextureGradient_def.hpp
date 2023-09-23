@@ -2,28 +2,27 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassNonLightPass_def.hpp"
 #include <cstdint>
-namespace {
+namespace UnityEngine {
+struct Color32;
+}
+namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace UnityEngine {
+class RenderTexture;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+class Texture2D;
+}
 namespace UnityEngine {
 struct Color;
 }
 namespace Unity::Collections {
 template<typename T>
 struct NativeArray_1;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine {
-struct Color32;
-}
-namespace UnityEngine {
-class Texture2D;
-}
-namespace UnityEngine {
-class RenderTexture;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,7 +34,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14639))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14629))
 // CS Name: BloomPrePassBackgroundTextureGradient
-class CORDL_TYPE BloomPrePassBackgroundTextureGradient : public ::GlobalNamespace::BloomPrePassNonLightPass {
+class CORDL_TYPE BloomPrePassBackgroundTextureGradient : public GlobalNamespace::BloomPrePassNonLightPass {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -50,7 +49,7 @@ constexpr BloomPrePassBackgroundTextureGradient(BloomPrePassBackgroundTextureGra
 constexpr BloomPrePassBackgroundTextureGradient(BloomPrePassBackgroundTextureGradient&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BloomPrePassBackgroundTextureGradient(void* ptr) noexcept : ::GlobalNamespace::BloomPrePassNonLightPass(ptr) {
+constexpr explicit BloomPrePassBackgroundTextureGradient(void* ptr) noexcept : GlobalNamespace::BloomPrePassNonLightPass(ptr) {
 }
 
 
@@ -71,11 +70,11 @@ constexpr explicit BloomPrePassBackgroundTextureGradient(void* ptr) noexcept : :
 
 // Fields
 
- ::UnityEngine::Color __declspec(property(get=__get__tintColor, put=__set__tintColor))  _tintColor;
+ UnityEngine::Color __declspec(property(get=__get__tintColor, put=__set__tintColor))  _tintColor;
 
-constexpr void __set__tintColor(::UnityEngine::Color value) ;
+constexpr void __set__tintColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__tintColor() const;
+constexpr UnityEngine::Color __get__tintColor() const;
 
 static int32_t __declspec(property(get=__get__gradientTexID, put=__set__gradientTexID))  _gradientTexID;
 
@@ -110,31 +109,31 @@ static constexpr ::ConstString  kSkyGradientShaderName{u"Hidden/SkyGradient"};
 /// @brief Field kTextureWidth offset 0
 static constexpr int32_t  kTextureWidth{128};
 
- ::UnityEngine::Texture2D __declspec(property(get=__get__texture, put=__set__texture))  _texture;
+ UnityEngine::Texture2D __declspec(property(get=__get__texture, put=__set__texture))  _texture;
 
-constexpr void __set__texture(::UnityEngine::Texture2D value) ;
+constexpr void __set__texture(UnityEngine::Texture2D value) ;
 
-constexpr ::UnityEngine::Texture2D __get__texture() const;
+constexpr UnityEngine::Texture2D __get__texture() const;
 
- ::UnityEngine::Material __declspec(property(get=__get__material, put=__set__material))  _material;
+ UnityEngine::Material __declspec(property(get=__get__material, put=__set__material))  _material;
 
-constexpr void __set__material(::UnityEngine::Material value) ;
+constexpr void __set__material(UnityEngine::Material value) ;
 
-constexpr ::UnityEngine::Material __get__material() const;
+constexpr UnityEngine::Material __get__material() const;
 
 
 // Properties
 
- ::UnityEngine::Color __declspec(property(get=get_tintColor, put=set_tintColor))  tintColor;
+ UnityEngine::Color __declspec(property(get=get_tintColor, put=set_tintColor))  tintColor;
 
 
 // Methods
 
 /// @brief Method get_tintColor addr 0x1f93f88 size 0xc virtual false final false
- ::UnityEngine::Color get_tintColor() ;
+ UnityEngine::Color get_tintColor() ;
 
 /// @brief Method set_tintColor addr 0x1f93f94 size 0xc virtual false final false
- void set_tintColor(::UnityEngine::Color value) ;
+ void set_tintColor(UnityEngine::Color value) ;
 
 /// @brief Method InitIfNeeded addr 0x1f93fa0 size 0x22c virtual false final false
  void InitIfNeeded() ;
@@ -146,7 +145,7 @@ constexpr ::UnityEngine::Material __get__material() const;
  void OnDestroy() ;
 
 /// @brief Method UpdatePixels addr 0x0 size 0xffffffffffffffff virtual true final false
- void UpdatePixels(::Unity::Collections::NativeArray_1<::UnityEngine::Color32> pixels, int32_t numberOfPixels) ;
+ void UpdatePixels(Unity::Collections::NativeArray_1<UnityEngine::Color32> pixels, int32_t numberOfPixels) ;
 
 /// @brief Method OnValidate addr 0x1f94280 size 0xa8 virtual true final false
  void OnValidate() ;
@@ -155,7 +154,7 @@ constexpr ::UnityEngine::Material __get__material() const;
  void UpdateGradientTexture() ;
 
 /// @brief Method Render addr 0x1f94354 size 0x1b8 virtual true final false
- void Render(::UnityEngine::RenderTexture dest, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix) ;
+ void Render(UnityEngine::RenderTexture dest, UnityEngine::Matrix4x4 viewMatrix, UnityEngine::Matrix4x4 projectionMatrix) ;
 
 // Ctor Parameters []
 explicit BloomPrePassBackgroundTextureGradient() ;
@@ -167,6 +166,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BloomPrePassBackgroundTextureGradient);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BloomPrePassBackgroundTextureGradient, "", "BloomPrePassBackgroundTextureGradient");
+NEED_NO_BOX(GlobalNamespace::BloomPrePassBackgroundTextureGradient);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundTextureGradient, "", "BloomPrePassBackgroundTextureGradient");

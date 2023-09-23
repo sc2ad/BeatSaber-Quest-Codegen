@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsContext;
 }
@@ -59,11 +58,11 @@ constexpr explicit TlsMac(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr
 
 // Fields
 
- ::Org::BouncyCastle::Crypto::Tls::TlsContext __declspec(property(get=__get_context, put=__set_context))  context;
+ Org::BouncyCastle::Crypto::Tls::TlsContext __declspec(property(get=__get_context, put=__set_context))  context;
 
-constexpr void __set_context(::Org::BouncyCastle::Crypto::Tls::TlsContext value) ;
+constexpr void __set_context(Org::BouncyCastle::Crypto::Tls::TlsContext value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext __get_context() const;
+constexpr Org::BouncyCastle::Crypto::Tls::TlsContext __get_context() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get_secret, put=__set_secret))  secret;
 
@@ -71,11 +70,11 @@ constexpr void __set_secret(::ArrayW<uint8_t> value) ;
 
 constexpr ::ArrayW<uint8_t> __get_secret() const;
 
- ::Org::BouncyCastle::Crypto::IMac __declspec(property(get=__get_mac, put=__set_mac))  mac;
+ Org::BouncyCastle::Crypto::IMac __declspec(property(get=__get_mac, put=__set_mac))  mac;
 
-constexpr void __set_mac(::Org::BouncyCastle::Crypto::IMac value) ;
+constexpr void __set_mac(Org::BouncyCastle::Crypto::IMac value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IMac __get_mac() const;
+constexpr Org::BouncyCastle::Crypto::IMac __get_mac() const;
 
  int32_t __declspec(property(get=__get_digestBlockSize, put=__set_digestBlockSize))  digestBlockSize;
 
@@ -105,11 +104,11 @@ constexpr int32_t __get_macLength() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "context", ty: "::Org::BouncyCastle::Crypto::Tls::TlsContext", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "::Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "keyOff", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "keyLen", ty: "int32_t", modifiers: "", def_value: None }]
-explicit TlsMac(::Org::BouncyCastle::Crypto::Tls::TlsContext context, ::Org::BouncyCastle::Crypto::IDigest digest, ::ArrayW<uint8_t> key, int32_t keyOff, int32_t keyLen) ;
+// Ctor Parameters [CppParam { name: "context", ty: "Org::BouncyCastle::Crypto::Tls::TlsContext", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "keyOff", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "keyLen", ty: "int32_t", modifiers: "", def_value: None }]
+explicit TlsMac(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::IDigest digest, ::ArrayW<uint8_t> key, int32_t keyOff, int32_t keyLen) ;
 
 /// @brief Method .ctor addr 0xf20eb4 size 0x404 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext context, ::Org::BouncyCastle::Crypto::IDigest digest, ::ArrayW<uint8_t> key, int32_t keyOff, int32_t keyLen) ;
+ void _ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::IDigest digest, ::ArrayW<uint8_t> key, int32_t keyOff, int32_t keyLen) ;
 
 /// @brief Method get_MacSecret addr 0xf21364 size 0x8 virtual true final false
  ::ArrayW<uint8_t> get_MacSecret() ;
@@ -133,6 +132,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsMac);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::TlsMac, "Org.BouncyCastle.Crypto.Tls", "TlsMac");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::TlsMac);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::TlsMac, "Org.BouncyCastle.Crypto.Tls", "TlsMac");

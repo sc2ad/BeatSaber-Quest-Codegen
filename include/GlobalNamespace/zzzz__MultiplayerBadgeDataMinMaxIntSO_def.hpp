@@ -3,25 +3,24 @@
 #include "GlobalNamespace/zzzz__MultiplayerBadgeDataSO_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 struct MultiplayerBadgeMinMax;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
+namespace GlobalNamespace {
+class MultiplayerPlayerResultsData;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;
 }
 namespace GlobalNamespace {
-class MultiplayerBadgeAwardData;
-}
-namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class MultiplayerPlayerResultsData;
+class MultiplayerBadgeAwardData;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -33,7 +32,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5208))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5204))
 // CS Name: MultiplayerBadgeDataMinMaxIntSO
-class CORDL_TYPE MultiplayerBadgeDataMinMaxIntSO : public ::GlobalNamespace::MultiplayerBadgeDataSO {
+class CORDL_TYPE MultiplayerBadgeDataMinMaxIntSO : public GlobalNamespace::MultiplayerBadgeDataSO {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -48,7 +47,7 @@ constexpr MultiplayerBadgeDataMinMaxIntSO(MultiplayerBadgeDataMinMaxIntSO const&
 constexpr MultiplayerBadgeDataMinMaxIntSO(MultiplayerBadgeDataMinMaxIntSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerBadgeDataMinMaxIntSO(void* ptr) noexcept : ::GlobalNamespace::MultiplayerBadgeDataSO(ptr) {
+constexpr explicit MultiplayerBadgeDataMinMaxIntSO(void* ptr) noexcept : GlobalNamespace::MultiplayerBadgeDataSO(ptr) {
 }
 
 
@@ -69,11 +68,11 @@ constexpr explicit MultiplayerBadgeDataMinMaxIntSO(void* ptr) noexcept : ::Globa
 
 // Fields
 
- ::GlobalNamespace::MultiplayerBadgeMinMax __declspec(property(get=__get__minMax, put=__set__minMax))  _minMax;
+ GlobalNamespace::MultiplayerBadgeMinMax __declspec(property(get=__get__minMax, put=__set__minMax))  _minMax;
 
-constexpr void __set__minMax(::GlobalNamespace::MultiplayerBadgeMinMax value) ;
+constexpr void __set__minMax(GlobalNamespace::MultiplayerBadgeMinMax value) ;
 
-constexpr ::GlobalNamespace::MultiplayerBadgeMinMax __get__minMax() const;
+constexpr GlobalNamespace::MultiplayerBadgeMinMax __get__minMax() const;
 
  float_t __declspec(property(get=__get__weightMultiplier, put=__set__weightMultiplier))  _weightMultiplier;
 
@@ -85,16 +84,16 @@ constexpr float_t __get__weightMultiplier() const;
 // Methods
 
 /// @brief Method CalculateBadgeData addr 0x20d91d0 size 0x14 virtual true final false
- ::GlobalNamespace::MultiplayerBadgeAwardData CalculateBadgeData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData> resultsData, ::GlobalNamespace::PlayerDataModel playerDataModel, ::GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, float_t randomMultiplier) ;
+ GlobalNamespace::MultiplayerBadgeAwardData CalculateBadgeData(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData> resultsData, GlobalNamespace::PlayerDataModel playerDataModel, GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, float_t randomMultiplier) ;
 
 /// @brief Method GetValue addr 0x0 size 0xffffffffffffffff virtual true final false
- int32_t GetValue(::GlobalNamespace::MultiplayerPlayerResultsData result) ;
+ int32_t GetValue(GlobalNamespace::MultiplayerPlayerResultsData result) ;
 
 /// @brief Method CalculateMax addr 0x20d91e4 size 0x584 virtual false final false
- ::GlobalNamespace::MultiplayerBadgeAwardData CalculateMax(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData> resultsData, float_t randomMultiplier) ;
+ GlobalNamespace::MultiplayerBadgeAwardData CalculateMax(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData> resultsData, float_t randomMultiplier) ;
 
 /// @brief Method CalculateMin addr 0x20d9768 size 0x584 virtual false final false
- ::GlobalNamespace::MultiplayerBadgeAwardData CalculateMin(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData> resultsData, float_t randomMultiplier) ;
+ GlobalNamespace::MultiplayerBadgeAwardData CalculateMin(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData> resultsData, float_t randomMultiplier) ;
 
 // Ctor Parameters []
 explicit MultiplayerBadgeDataMinMaxIntSO() ;
@@ -106,6 +105,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO, "", "MultiplayerBadgeDataMinMaxIntSO");
+NEED_NO_BOX(GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO, "", "MultiplayerBadgeDataMinMaxIntSO");

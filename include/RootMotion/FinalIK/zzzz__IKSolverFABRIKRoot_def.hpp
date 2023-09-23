@@ -6,9 +6,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace RootMotion::FinalIK {
-class ____RootMotion__FinalIK__IKSolver__Point;
+class RootMotion__FinalIK__IKSolver__Point;
 }
 namespace UnityEngine {
 class Transform;
@@ -29,7 +28,7 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12506))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12511))
 // CS Name: RootMotion.FinalIK.IKSolverFABRIKRoot
-class CORDL_TYPE IKSolverFABRIKRoot : public ::RootMotion::FinalIK::IKSolver {
+class CORDL_TYPE IKSolverFABRIKRoot : public RootMotion::FinalIK::IKSolver {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -44,7 +43,7 @@ constexpr IKSolverFABRIKRoot(IKSolverFABRIKRoot const& ) noexcept = default;
 constexpr IKSolverFABRIKRoot(IKSolverFABRIKRoot&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit IKSolverFABRIKRoot(void* ptr) noexcept : ::RootMotion::FinalIK::IKSolver(ptr) {
+constexpr explicit IKSolverFABRIKRoot(void* ptr) noexcept : RootMotion::FinalIK::IKSolver(ptr) {
 }
 
 
@@ -77,11 +76,11 @@ constexpr void __set_rootPin(float_t value) ;
 
 constexpr float_t __get_rootPin() const;
 
- ::ArrayW<::RootMotion::FinalIK::FABRIKChain> __declspec(property(get=__get_chains, put=__set_chains))  chains;
+ ::ArrayW<RootMotion::FinalIK::FABRIKChain> __declspec(property(get=__get_chains, put=__set_chains))  chains;
 
-constexpr void __set_chains(::ArrayW<::RootMotion::FinalIK::FABRIKChain> value) ;
+constexpr void __set_chains(::ArrayW<RootMotion::FinalIK::FABRIKChain> value) ;
 
-constexpr ::ArrayW<::RootMotion::FinalIK::FABRIKChain> __get_chains() const;
+constexpr ::ArrayW<RootMotion::FinalIK::FABRIKChain> __get_chains() const;
 
  bool __declspec(property(get=__get_zeroWeightApplied, put=__set_zeroWeightApplied))  zeroWeightApplied;
 
@@ -95,11 +94,11 @@ constexpr void __set_isRoot(::ArrayW<bool> value) ;
 
 constexpr ::ArrayW<bool> __get_isRoot() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_rootDefaultPosition, put=__set_rootDefaultPosition))  rootDefaultPosition;
+ UnityEngine::Vector3 __declspec(property(get=__get_rootDefaultPosition, put=__set_rootDefaultPosition))  rootDefaultPosition;
 
-constexpr void __set_rootDefaultPosition(::UnityEngine::Vector3 value) ;
+constexpr void __set_rootDefaultPosition(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_rootDefaultPosition() const;
+constexpr UnityEngine::Vector3 __get_rootDefaultPosition() const;
 
 
 // Methods
@@ -123,16 +122,16 @@ constexpr ::UnityEngine::Vector3 __get_rootDefaultPosition() const;
  void OnUpdate() ;
 
 /// @brief Method GetPoints addr 0x11dabe8 size 0xa0 virtual true final false
- ::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__Point> GetPoints() ;
+ ::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Point> GetPoints() ;
 
 /// @brief Method GetPoint addr 0x11dadc0 size 0x84 virtual true final false
- ::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__Point GetPoint(::UnityEngine::Transform transform) ;
+ RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Point GetPoint(UnityEngine::Transform transform) ;
 
 /// @brief Method AddPointsToArray addr 0x11dac88 size 0x138 virtual false final false
- void AddPointsToArray(ByRef<::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__Point>> array, ::RootMotion::FinalIK::FABRIKChain chain) ;
+ void AddPointsToArray(ByRef<::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Point>> array, RootMotion::FinalIK::FABRIKChain chain) ;
 
 /// @brief Method GetCentroid addr 0x11da9c0 size 0x228 virtual false final false
- ::UnityEngine::Vector3 GetCentroid() ;
+ UnityEngine::Vector3 GetCentroid() ;
 
 // Ctor Parameters []
 explicit IKSolverFABRIKRoot() ;
@@ -144,6 +143,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::IKSolverFABRIKRoot);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::IKSolverFABRIKRoot, "RootMotion.FinalIK", "IKSolverFABRIKRoot");
+NEED_NO_BOX(RootMotion::FinalIK::IKSolverFABRIKRoot);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverFABRIKRoot, "RootMotion.FinalIK", "IKSolverFABRIKRoot");

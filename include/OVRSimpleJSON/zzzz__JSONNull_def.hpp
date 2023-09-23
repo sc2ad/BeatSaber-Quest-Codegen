@@ -4,7 +4,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace OVRSimpleJSON {
+struct OVRSimpleJSON__JSONNode__Enumerator;
+}
 namespace System::Text {
 class StringBuilder;
 }
@@ -13,9 +15,6 @@ struct JSONNodeType;
 }
 namespace OVRSimpleJSON {
 struct JSONTextMode;
-}
-namespace OVRSimpleJSON {
-struct ____OVRSimpleJSON__JSONNode__Enumerator;
 }
 // Forward declare root types
 namespace OVRSimpleJSON {
@@ -27,7 +26,7 @@ namespace OVRSimpleJSON {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8987))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8996))
 // CS Name: OVRSimpleJSON.JSONNull
-class CORDL_TYPE JSONNull : public ::OVRSimpleJSON::JSONNode {
+class CORDL_TYPE JSONNull : public OVRSimpleJSON::JSONNode {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -42,7 +41,7 @@ constexpr JSONNull(JSONNull const& ) noexcept = default;
 constexpr JSONNull(JSONNull&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit JSONNull(void* ptr) noexcept : ::OVRSimpleJSON::JSONNode(ptr) {
+constexpr explicit JSONNull(void* ptr) noexcept : OVRSimpleJSON::JSONNode(ptr) {
 }
 
 
@@ -63,11 +62,11 @@ constexpr explicit JSONNull(void* ptr) noexcept : ::OVRSimpleJSON::JSONNode(ptr)
 
 // Fields
 
-static ::OVRSimpleJSON::JSONNull __declspec(property(get=__get_m_StaticInstance, put=__set_m_StaticInstance))  m_StaticInstance;
+static OVRSimpleJSON::JSONNull __declspec(property(get=__get_m_StaticInstance, put=__set_m_StaticInstance))  m_StaticInstance;
 
-static void __set_m_StaticInstance(::OVRSimpleJSON::JSONNull value) ;
+static void __set_m_StaticInstance(OVRSimpleJSON::JSONNull value) ;
 
-static ::OVRSimpleJSON::JSONNull __get_m_StaticInstance() ;
+static OVRSimpleJSON::JSONNull __get_m_StaticInstance() ;
 
 static bool __declspec(property(get=__get_reuseSameInstance, put=__set_reuseSameInstance))  reuseSameInstance;
 
@@ -78,7 +77,7 @@ static bool __get_reuseSameInstance() ;
 
 // Properties
 
- ::OVRSimpleJSON::JSONNodeType __declspec(property(get=get_Tag))  Tag;
+ OVRSimpleJSON::JSONNodeType __declspec(property(get=get_Tag))  Tag;
 
  bool __declspec(property(get=get_IsNull))  IsNull;
 
@@ -90,7 +89,7 @@ static bool __get_reuseSameInstance() ;
 // Methods
 
 /// @brief Method CreateOrGet addr 0x263e744 size 0x94 virtual false final false
-static ::OVRSimpleJSON::JSONNull CreateOrGet() ;
+static OVRSimpleJSON::JSONNull CreateOrGet() ;
 
 // Ctor Parameters []
 explicit JSONNull() ;
@@ -99,13 +98,13 @@ explicit JSONNull() ;
  void _ctor() ;
 
 /// @brief Method get_Tag addr 0x2640ae4 size 0x8 virtual true final false
- ::OVRSimpleJSON::JSONNodeType get_Tag() ;
+ OVRSimpleJSON::JSONNodeType get_Tag() ;
 
 /// @brief Method get_IsNull addr 0x2640aec size 0x8 virtual true final false
  bool get_IsNull() ;
 
 /// @brief Method GetEnumerator addr 0x2640af4 size 0x14 virtual true final false
- ::OVRSimpleJSON::____OVRSimpleJSON__JSONNode__Enumerator GetEnumerator() ;
+ OVRSimpleJSON::OVRSimpleJSON__JSONNode__Enumerator GetEnumerator() ;
 
 /// @brief Method get_Value addr 0x2640b08 size 0x40 virtual true final false
  ::StringW get_Value() ;
@@ -126,12 +125,11 @@ explicit JSONNull() ;
  int32_t GetHashCode() ;
 
 /// @brief Method WriteToStringBuilder addr 0x2640bec size 0x54 virtual true final false
- void WriteToStringBuilder(::System::Text::StringBuilder aSB, int32_t aIndent, int32_t aIndentInc, ::OVRSimpleJSON::JSONTextMode aMode) ;
+ void WriteToStringBuilder(System::Text::StringBuilder aSB, int32_t aIndent, int32_t aIndentInc, OVRSimpleJSON::JSONTextMode aMode) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def OVRSimpleJSON
-} // end anonymous namespace
-NEED_NO_BOX(::OVRSimpleJSON::JSONNull);
-DEFINE_IL2CPP_ARG_TYPE(::OVRSimpleJSON::JSONNull, "OVRSimpleJSON", "JSONNull");
+NEED_NO_BOX(OVRSimpleJSON::JSONNull);
+DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNull, "OVRSimpleJSON", "JSONNull");

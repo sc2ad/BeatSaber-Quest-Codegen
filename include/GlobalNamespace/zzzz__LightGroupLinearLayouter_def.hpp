@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__LightGroupSubsystem_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class IEditTimeValidated;
-}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace GlobalNamespace {
+class IEditTimeValidated;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -18,11 +17,11 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5035))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5031))
 // CS Name: LightGroupLinearLayouter
-class CORDL_TYPE LightGroupLinearLayouter : public ::GlobalNamespace::LightGroupSubsystem {
+class CORDL_TYPE LightGroupLinearLayouter : public GlobalNamespace::LightGroupSubsystem {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IEditTimeValidated
-constexpr operator  ::GlobalNamespace::IEditTimeValidated() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IEditTimeValidated
+constexpr operator  GlobalNamespace::IEditTimeValidated() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -36,7 +35,7 @@ constexpr LightGroupLinearLayouter(LightGroupLinearLayouter const& ) noexcept = 
 constexpr LightGroupLinearLayouter(LightGroupLinearLayouter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LightGroupLinearLayouter(void* ptr) noexcept : ::GlobalNamespace::LightGroupSubsystem(ptr) {
+constexpr explicit LightGroupLinearLayouter(void* ptr) noexcept : GlobalNamespace::LightGroupSubsystem(ptr) {
 }
 
 
@@ -57,17 +56,17 @@ constexpr explicit LightGroupLinearLayouter(void* ptr) noexcept : ::GlobalNamesp
 
 // Fields
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__movementStep, put=__set__movementStep))  _movementStep;
+ UnityEngine::Vector3 __declspec(property(get=__get__movementStep, put=__set__movementStep))  _movementStep;
 
-constexpr void __set__movementStep(::UnityEngine::Vector3 value) ;
+constexpr void __set__movementStep(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__movementStep() const;
+constexpr UnityEngine::Vector3 __get__movementStep() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__defaultRotation, put=__set__defaultRotation))  _defaultRotation;
+ UnityEngine::Vector3 __declspec(property(get=__get__defaultRotation, put=__set__defaultRotation))  _defaultRotation;
 
-constexpr void __set__defaultRotation(::UnityEngine::Vector3 value) ;
+constexpr void __set__defaultRotation(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__defaultRotation() const;
+constexpr UnityEngine::Vector3 __get__defaultRotation() const;
 
  bool __declspec(property(get=__get__startFromCenter, put=__set__startFromCenter))  _startFromCenter;
 
@@ -88,6 +87,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LightGroupLinearLayouter);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightGroupLinearLayouter, "", "LightGroupLinearLayouter");
+NEED_NO_BOX(GlobalNamespace::LightGroupLinearLayouter);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightGroupLinearLayouter, "", "LightGroupLinearLayouter");

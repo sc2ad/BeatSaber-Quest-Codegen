@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class RecordingToolResourceContainerSO;
-}
 namespace GlobalNamespace {
 class ProgramArguments;
+}
+namespace GlobalNamespace {
+class RecordingToolResourceContainerSO;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicCollection;
@@ -24,7 +23,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6040))
 // CS Name: RecordingToolInstallerSO
-class CORDL_TYPE RecordingToolInstallerSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE RecordingToolInstallerSO : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr RecordingToolInstallerSO(RecordingToolInstallerSO const& ) noexcept = 
 constexpr RecordingToolInstallerSO(RecordingToolInstallerSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RecordingToolInstallerSO(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit RecordingToolInstallerSO(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -60,17 +59,17 @@ constexpr explicit RecordingToolInstallerSO(void* ptr) noexcept : ::GlobalNamesp
 
 // Fields
 
- ::GlobalNamespace::RecordingToolResourceContainerSO __declspec(property(get=__get__recordingToolResourceContainer, put=__set__recordingToolResourceContainer))  _recordingToolResourceContainer;
+ GlobalNamespace::RecordingToolResourceContainerSO __declspec(property(get=__get__recordingToolResourceContainer, put=__set__recordingToolResourceContainer))  _recordingToolResourceContainer;
 
-constexpr void __set__recordingToolResourceContainer(::GlobalNamespace::RecordingToolResourceContainerSO value) ;
+constexpr void __set__recordingToolResourceContainer(GlobalNamespace::RecordingToolResourceContainerSO value) ;
 
-constexpr ::GlobalNamespace::RecordingToolResourceContainerSO __get__recordingToolResourceContainer() const;
+constexpr GlobalNamespace::RecordingToolResourceContainerSO __get__recordingToolResourceContainer() const;
 
 
 // Methods
 
 /// @brief Method InstallDependencies addr 0x21ab928 size 0x368 virtual false final false
- void InstallDependencies(::Zenject::DiContainer container, ::GlobalNamespace::ProgramArguments programArguments, ::GlobalNamespace::BeatmapCharacteristicCollection beatmapCharacteristicCollection) ;
+ void InstallDependencies(Zenject::DiContainer container, GlobalNamespace::ProgramArguments programArguments, GlobalNamespace::BeatmapCharacteristicCollection beatmapCharacteristicCollection) ;
 
 // Ctor Parameters []
 explicit RecordingToolInstallerSO() ;
@@ -82,6 +81,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::RecordingToolInstallerSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RecordingToolInstallerSO, "", "RecordingToolInstallerSO");
+NEED_NO_BOX(GlobalNamespace::RecordingToolInstallerSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RecordingToolInstallerSO, "", "RecordingToolInstallerSO");

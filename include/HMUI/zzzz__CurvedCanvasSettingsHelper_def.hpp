@@ -1,16 +1,15 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace HMUI {
-class CurvedCanvasSettings;
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace UnityEngine {
 class Canvas;
 }
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+namespace HMUI {
+class CurvedCanvasSettings;
 }
 // Forward declare root types
 namespace HMUI {
@@ -58,11 +57,11 @@ constexpr explicit CurvedCanvasSettingsHelper(void* ptr) noexcept : ::bs_hook::I
 
 // Fields
 
- ::UnityEngine::Canvas __declspec(property(get=__get__cachedCanvas, put=__set__cachedCanvas))  _cachedCanvas;
+ UnityEngine::Canvas __declspec(property(get=__get__cachedCanvas, put=__set__cachedCanvas))  _cachedCanvas;
 
-constexpr void __set__cachedCanvas(::UnityEngine::Canvas value) ;
+constexpr void __set__cachedCanvas(UnityEngine::Canvas value) ;
 
-constexpr ::UnityEngine::Canvas __get__cachedCanvas() const;
+constexpr UnityEngine::Canvas __get__cachedCanvas() const;
 
  bool __declspec(property(get=__get__cachedCanvasIsRootCanvas, put=__set__cachedCanvasIsRootCanvas))  _cachedCanvasIsRootCanvas;
 
@@ -70,11 +69,11 @@ constexpr void __set__cachedCanvasIsRootCanvas(bool value) ;
 
 constexpr bool __get__cachedCanvasIsRootCanvas() const;
 
- ::HMUI::CurvedCanvasSettings __declspec(property(get=__get__curvedCanvasSettings, put=__set__curvedCanvasSettings))  _curvedCanvasSettings;
+ HMUI::CurvedCanvasSettings __declspec(property(get=__get__curvedCanvasSettings, put=__set__curvedCanvasSettings))  _curvedCanvasSettings;
 
-constexpr void __set__curvedCanvasSettings(::HMUI::CurvedCanvasSettings value) ;
+constexpr void __set__curvedCanvasSettings(HMUI::CurvedCanvasSettings value) ;
 
-constexpr ::HMUI::CurvedCanvasSettings __get__curvedCanvasSettings() const;
+constexpr HMUI::CurvedCanvasSettings __get__curvedCanvasSettings() const;
 
  bool __declspec(property(get=__get__hasCachedData, put=__set__hasCachedData))  _hasCachedData;
 
@@ -82,11 +81,11 @@ constexpr void __set__hasCachedData(bool value) ;
 
 constexpr bool __get__hasCachedData() const;
 
-static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Canvas,::HMUI::CurvedCanvasSettings> __declspec(property(get=__get__curvedCanvasCache, put=__set__curvedCanvasCache))  _curvedCanvasCache;
+static System::Collections::Generic::Dictionary_2<UnityEngine::Canvas,HMUI::CurvedCanvasSettings> __declspec(property(get=__get__curvedCanvasCache, put=__set__curvedCanvasCache))  _curvedCanvasCache;
 
-static void __set__curvedCanvasCache(::System::Collections::Generic::Dictionary_2<::UnityEngine::Canvas,::HMUI::CurvedCanvasSettings> value) ;
+static void __set__curvedCanvasCache(System::Collections::Generic::Dictionary_2<UnityEngine::Canvas,HMUI::CurvedCanvasSettings> value) ;
 
-static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Canvas,::HMUI::CurvedCanvasSettings> __get__curvedCanvasCache() ;
+static System::Collections::Generic::Dictionary_2<UnityEngine::Canvas,HMUI::CurvedCanvasSettings> __get__curvedCanvasCache() ;
 
 
 // Methods
@@ -95,10 +94,10 @@ static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Canvas,::HMUI
  void Reset() ;
 
 /// @brief Method GetCurvedCanvasSettings addr 0x1fa8974 size 0x1ec virtual false final false
- ::HMUI::CurvedCanvasSettings GetCurvedCanvasSettings(::UnityEngine::Canvas canvas) ;
+ HMUI::CurvedCanvasSettings GetCurvedCanvasSettings(UnityEngine::Canvas canvas) ;
 
 /// @brief Method GetCurvedCanvasSettingsForCanvas addr 0x1fa8b60 size 0x110 virtual false final false
-static ::HMUI::CurvedCanvasSettings GetCurvedCanvasSettingsForCanvas(::UnityEngine::Canvas canvas) ;
+static HMUI::CurvedCanvasSettings GetCurvedCanvasSettingsForCanvas(UnityEngine::Canvas canvas) ;
 
 // Ctor Parameters []
 explicit CurvedCanvasSettingsHelper() ;
@@ -110,6 +109,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HMUI
-} // end anonymous namespace
-NEED_NO_BOX(::HMUI::CurvedCanvasSettingsHelper);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::CurvedCanvasSettingsHelper, "HMUI", "CurvedCanvasSettingsHelper");
+NEED_NO_BOX(HMUI::CurvedCanvasSettingsHelper);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::CurvedCanvasSettingsHelper, "HMUI", "CurvedCanvasSettingsHelper");

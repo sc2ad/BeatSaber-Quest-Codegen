@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -16,7 +15,7 @@ namespace HMUI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13700))
 // CS Name: HMUI.ScrollViewItemForVisibilityController
-class CORDL_TYPE ScrollViewItemForVisibilityController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ScrollViewItemForVisibilityController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr ScrollViewItemForVisibilityController(ScrollViewItemForVisibilityContr
 constexpr ScrollViewItemForVisibilityController(ScrollViewItemForVisibilityController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ScrollViewItemForVisibilityController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ScrollViewItemForVisibilityController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -53,7 +52,7 @@ constexpr explicit ScrollViewItemForVisibilityController(void* ptr) noexcept : :
 // Methods
 
 /// @brief Method GetWorldCorners addr 0x1fd15c0 size 0x68 virtual false final false
- void GetWorldCorners(::ArrayW<::UnityEngine::Vector3> fourCornersArray) ;
+ void GetWorldCorners(::ArrayW<UnityEngine::Vector3> fourCornersArray) ;
 
 // Ctor Parameters []
 explicit ScrollViewItemForVisibilityController() ;
@@ -65,6 +64,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HMUI
-} // end anonymous namespace
-NEED_NO_BOX(::HMUI::ScrollViewItemForVisibilityController);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::ScrollViewItemForVisibilityController, "HMUI", "ScrollViewItemForVisibilityController");
+NEED_NO_BOX(HMUI::ScrollViewItemForVisibilityController);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollViewItemForVisibilityController, "HMUI", "ScrollViewItemForVisibilityController");

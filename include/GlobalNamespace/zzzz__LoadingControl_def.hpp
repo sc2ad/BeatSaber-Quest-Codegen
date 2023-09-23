@@ -3,24 +3,23 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
-namespace UnityEngine::UI {
-class Image;
+namespace UnityEngine {
+class GameObject;
 }
 namespace System {
 class Action;
 }
-namespace HMUI {
-class ButtonBinder;
+namespace UnityEngine::UI {
+class Button;
 }
 namespace TMPro {
 class TextMeshProUGUI;
 }
 namespace UnityEngine::UI {
-class Button;
+class Image;
 }
-namespace UnityEngine {
-class GameObject;
+namespace HMUI {
+class ButtonBinder;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,7 +31,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5529))
 // CS Name: LoadingControl
-class CORDL_TYPE LoadingControl : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE LoadingControl : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -47,7 +46,7 @@ constexpr LoadingControl(LoadingControl const& ) noexcept = default;
 constexpr LoadingControl(LoadingControl&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LoadingControl(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit LoadingControl(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -68,65 +67,65 @@ constexpr explicit LoadingControl(void* ptr) noexcept : ::UnityEngine::MonoBehav
 
 // Fields
 
- ::UnityEngine::GameObject __declspec(property(get=__get__loadingContainer, put=__set__loadingContainer))  _loadingContainer;
+ UnityEngine::GameObject __declspec(property(get=__get__loadingContainer, put=__set__loadingContainer))  _loadingContainer;
 
-constexpr void __set__loadingContainer(::UnityEngine::GameObject value) ;
+constexpr void __set__loadingContainer(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__loadingContainer() const;
+constexpr UnityEngine::GameObject __get__loadingContainer() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__loadingText, put=__set__loadingText))  _loadingText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__loadingText, put=__set__loadingText))  _loadingText;
 
-constexpr void __set__loadingText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__loadingText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__loadingText() const;
+constexpr TMPro::TextMeshProUGUI __get__loadingText() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__refreshText, put=__set__refreshText))  _refreshText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__refreshText, put=__set__refreshText))  _refreshText;
 
-constexpr void __set__refreshText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__refreshText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__refreshText() const;
+constexpr TMPro::TextMeshProUGUI __get__refreshText() const;
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__refreshButton, put=__set__refreshButton))  _refreshButton;
+ UnityEngine::UI::Button __declspec(property(get=__get__refreshButton, put=__set__refreshButton))  _refreshButton;
 
-constexpr void __set__refreshButton(::UnityEngine::UI::Button value) ;
+constexpr void __set__refreshButton(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__refreshButton() const;
+constexpr UnityEngine::UI::Button __get__refreshButton() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get__refreshContainer, put=__set__refreshContainer))  _refreshContainer;
+ UnityEngine::GameObject __declspec(property(get=__get__refreshContainer, put=__set__refreshContainer))  _refreshContainer;
 
-constexpr void __set__refreshContainer(::UnityEngine::GameObject value) ;
+constexpr void __set__refreshContainer(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__refreshContainer() const;
+constexpr UnityEngine::GameObject __get__refreshContainer() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get__downloadingContainer, put=__set__downloadingContainer))  _downloadingContainer;
+ UnityEngine::GameObject __declspec(property(get=__get__downloadingContainer, put=__set__downloadingContainer))  _downloadingContainer;
 
-constexpr void __set__downloadingContainer(::UnityEngine::GameObject value) ;
+constexpr void __set__downloadingContainer(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__downloadingContainer() const;
+constexpr UnityEngine::GameObject __get__downloadingContainer() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__downloadingText, put=__set__downloadingText))  _downloadingText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__downloadingText, put=__set__downloadingText))  _downloadingText;
 
-constexpr void __set__downloadingText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__downloadingText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__downloadingText() const;
+constexpr TMPro::TextMeshProUGUI __get__downloadingText() const;
 
- ::UnityEngine::UI::Image __declspec(property(get=__get__donwloadingProgressImage, put=__set__donwloadingProgressImage))  _donwloadingProgressImage;
+ UnityEngine::UI::Image __declspec(property(get=__get__donwloadingProgressImage, put=__set__donwloadingProgressImage))  _donwloadingProgressImage;
 
-constexpr void __set__donwloadingProgressImage(::UnityEngine::UI::Image value) ;
+constexpr void __set__donwloadingProgressImage(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get__donwloadingProgressImage() const;
+constexpr UnityEngine::UI::Image __get__donwloadingProgressImage() const;
 
- ::System::Action __declspec(property(get=__get_didPressRefreshButtonEvent, put=__set_didPressRefreshButtonEvent))  didPressRefreshButtonEvent;
+ System::Action __declspec(property(get=__get_didPressRefreshButtonEvent, put=__set_didPressRefreshButtonEvent))  didPressRefreshButtonEvent;
 
-constexpr void __set_didPressRefreshButtonEvent(::System::Action value) ;
+constexpr void __set_didPressRefreshButtonEvent(System::Action value) ;
 
-constexpr ::System::Action __get_didPressRefreshButtonEvent() const;
+constexpr System::Action __get_didPressRefreshButtonEvent() const;
 
- ::HMUI::ButtonBinder __declspec(property(get=__get__buttonBinder, put=__set__buttonBinder))  _buttonBinder;
+ HMUI::ButtonBinder __declspec(property(get=__get__buttonBinder, put=__set__buttonBinder))  _buttonBinder;
 
-constexpr void __set__buttonBinder(::HMUI::ButtonBinder value) ;
+constexpr void __set__buttonBinder(HMUI::ButtonBinder value) ;
 
-constexpr ::HMUI::ButtonBinder __get__buttonBinder() const;
+constexpr HMUI::ButtonBinder __get__buttonBinder() const;
 
 
 // Properties
@@ -137,10 +136,10 @@ constexpr ::HMUI::ButtonBinder __get__buttonBinder() const;
 // Methods
 
 /// @brief Method add_didPressRefreshButtonEvent addr 0x212663c size 0x9c virtual false final false
- void add_didPressRefreshButtonEvent(::System::Action value) ;
+ void add_didPressRefreshButtonEvent(System::Action value) ;
 
 /// @brief Method remove_didPressRefreshButtonEvent addr 0x21266d8 size 0x9c virtual false final false
- void remove_didPressRefreshButtonEvent(::System::Action value) ;
+ void remove_didPressRefreshButtonEvent(System::Action value) ;
 
 /// @brief Method get_isLoading addr 0x2126774 size 0x1c virtual false final false
  bool get_isLoading() ;
@@ -176,6 +175,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LoadingControl);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LoadingControl, "", "LoadingControl");
+NEED_NO_BOX(GlobalNamespace::LoadingControl);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LoadingControl, "", "LoadingControl");

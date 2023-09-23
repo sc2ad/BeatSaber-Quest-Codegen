@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
-namespace UnityEngine {
-struct Color;
-}
 namespace GlobalNamespace {
 class MaterialPropertyBlockColorSetter;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14703))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14690))
 // CS Name: InstancedMaterialLightWithId
-class CORDL_TYPE InstancedMaterialLightWithId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
+class CORDL_TYPE InstancedMaterialLightWithId : public GlobalNamespace::LightWithIdMonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr InstancedMaterialLightWithId(InstancedMaterialLightWithId const& ) noe
 constexpr InstancedMaterialLightWithId(InstancedMaterialLightWithId&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit InstancedMaterialLightWithId(void* ptr) noexcept : ::GlobalNamespace::LightWithIdMonoBehaviour(ptr) {
+constexpr explicit InstancedMaterialLightWithId(void* ptr) noexcept : GlobalNamespace::LightWithIdMonoBehaviour(ptr) {
 }
 
 
@@ -55,11 +54,11 @@ constexpr explicit InstancedMaterialLightWithId(void* ptr) noexcept : ::GlobalNa
 
 // Fields
 
- ::GlobalNamespace::MaterialPropertyBlockColorSetter __declspec(property(get=__get__materialPropertyBlockColorSetter, put=__set__materialPropertyBlockColorSetter))  _materialPropertyBlockColorSetter;
+ GlobalNamespace::MaterialPropertyBlockColorSetter __declspec(property(get=__get__materialPropertyBlockColorSetter, put=__set__materialPropertyBlockColorSetter))  _materialPropertyBlockColorSetter;
 
-constexpr void __set__materialPropertyBlockColorSetter(::GlobalNamespace::MaterialPropertyBlockColorSetter value) ;
+constexpr void __set__materialPropertyBlockColorSetter(GlobalNamespace::MaterialPropertyBlockColorSetter value) ;
 
-constexpr ::GlobalNamespace::MaterialPropertyBlockColorSetter __get__materialPropertyBlockColorSetter() const;
+constexpr GlobalNamespace::MaterialPropertyBlockColorSetter __get__materialPropertyBlockColorSetter() const;
 
  bool __declspec(property(get=__get__setColorOnly, put=__set__setColorOnly))  _setColorOnly;
 
@@ -85,11 +84,11 @@ constexpr void __set__hdr(bool value) ;
 
 constexpr bool __get__hdr() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__color, put=__set__color))  _color;
+ UnityEngine::Color __declspec(property(get=__get__color, put=__set__color))  _color;
 
-constexpr void __set__color(::UnityEngine::Color value) ;
+constexpr void __set__color(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__color() const;
+constexpr UnityEngine::Color __get__color() const;
 
  bool __declspec(property(get=__get__startColorWasSet, put=__set__startColorWasSet))  _startColorWasSet;
 
@@ -101,7 +100,7 @@ constexpr bool __get__startColorWasSet() const;
 // Methods
 
 /// @brief Method ColorWasSet addr 0x1f9cd58 size 0x84 virtual true final false
- void ColorWasSet(::UnityEngine::Color newColor) ;
+ void ColorWasSet(UnityEngine::Color newColor) ;
 
 // Ctor Parameters []
 explicit InstancedMaterialLightWithId() ;
@@ -113,6 +112,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::InstancedMaterialLightWithId);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::InstancedMaterialLightWithId, "", "InstancedMaterialLightWithId");
+NEED_NO_BOX(GlobalNamespace::InstancedMaterialLightWithId);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::InstancedMaterialLightWithId, "", "InstancedMaterialLightWithId");

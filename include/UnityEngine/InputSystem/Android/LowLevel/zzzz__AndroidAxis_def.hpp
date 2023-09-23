@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem::Android::LowLevel {
 struct AndroidAxis;
@@ -107,134 +106,133 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field X offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const X;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const X;
 
 /// @brief Field Y offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Y;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Y;
 
 /// @brief Field Pressure offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Pressure;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Pressure;
 
 /// @brief Field Size offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Size;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Size;
 
 /// @brief Field TouchMajor offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const TouchMajor;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const TouchMajor;
 
 /// @brief Field TouchMinor offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const TouchMinor;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const TouchMinor;
 
 /// @brief Field ToolMajor offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const ToolMajor;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const ToolMajor;
 
 /// @brief Field ToolMinor offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const ToolMinor;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const ToolMinor;
 
 /// @brief Field Orientation offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Orientation;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Orientation;
 
 /// @brief Field Vscroll offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Vscroll;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Vscroll;
 
 /// @brief Field Hscroll offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Hscroll;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Hscroll;
 
 /// @brief Field Z offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Z;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Z;
 
 /// @brief Field Rx offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Rx;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Rx;
 
 /// @brief Field Ry offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Ry;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Ry;
 
 /// @brief Field Rz offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Rz;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Rz;
 
 /// @brief Field HatX offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const HatX;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const HatX;
 
 /// @brief Field HatY offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const HatY;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const HatY;
 
 /// @brief Field Ltrigger offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Ltrigger;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Ltrigger;
 
 /// @brief Field Rtrigger offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Rtrigger;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Rtrigger;
 
 /// @brief Field Throttle offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Throttle;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Throttle;
 
 /// @brief Field Rudder offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Rudder;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Rudder;
 
 /// @brief Field Wheel offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Wheel;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Wheel;
 
 /// @brief Field Gas offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Gas;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Gas;
 
 /// @brief Field Brake offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Brake;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Brake;
 
 /// @brief Field Distance offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Distance;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Distance;
 
 /// @brief Field Tilt offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Tilt;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Tilt;
 
 /// @brief Field Generic1 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic1;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic1;
 
 /// @brief Field Generic2 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic2;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic2;
 
 /// @brief Field Generic3 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic3;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic3;
 
 /// @brief Field Generic4 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic4;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic4;
 
 /// @brief Field Generic5 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic5;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic5;
 
 /// @brief Field Generic6 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic6;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic6;
 
 /// @brief Field Generic7 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic7;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic7;
 
 /// @brief Field Generic8 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic8;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic8;
 
 /// @brief Field Generic9 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic9;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic9;
 
 /// @brief Field Generic10 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic10;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic10;
 
 /// @brief Field Generic11 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic11;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic11;
 
 /// @brief Field Generic12 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic12;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic12;
 
 /// @brief Field Generic13 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic13;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic13;
 
 /// @brief Field Generic14 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic14;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic14;
 
 /// @brief Field Generic15 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic15;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic15;
 
 /// @brief Field Generic16 offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic16;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic16;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Android::LowLevel
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis, "UnityEngine.InputSystem.Android.LowLevel", "AndroidAxis");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Android::LowLevel::AndroidAxis, "UnityEngine.InputSystem.Android.LowLevel", "AndroidAxis");

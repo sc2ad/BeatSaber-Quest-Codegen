@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Bindings {
 struct TargetType;
@@ -67,14 +66,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Function offset 0
-static ::UnityEngine::Bindings::TargetType const Function;
+static UnityEngine::Bindings::TargetType const Function;
 
 /// @brief Field Field offset 0
-static ::UnityEngine::Bindings::TargetType const Field;
+static UnityEngine::Bindings::TargetType const Field;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Bindings
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Bindings::TargetType, "UnityEngine.Bindings", "TargetType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::TargetType, "UnityEngine.Bindings", "TargetType");

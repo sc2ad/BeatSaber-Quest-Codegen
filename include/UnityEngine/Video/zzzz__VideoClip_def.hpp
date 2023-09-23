@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Video {
 class VideoClip;
@@ -15,7 +14,7 @@ namespace UnityEngine::Video {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10142))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15908))
 // CS Name: UnityEngine.Video.VideoClip
-class CORDL_TYPE VideoClip : public ::UnityEngine::Object {
+class CORDL_TYPE VideoClip : public UnityEngine::Object {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr VideoClip(VideoClip const& ) noexcept = default;
 constexpr VideoClip(VideoClip&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit VideoClip(void* ptr) noexcept : ::UnityEngine::Object(ptr) {
+constexpr explicit VideoClip(void* ptr) noexcept : UnityEngine::Object(ptr) {
 }
 
 
@@ -123,6 +122,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Video
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Video::VideoClip);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Video::VideoClip, "UnityEngine.Video", "VideoClip");
+NEED_NO_BOX(UnityEngine::Video::VideoClip);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Video::VideoClip, "UnityEngine.Video", "VideoClip");

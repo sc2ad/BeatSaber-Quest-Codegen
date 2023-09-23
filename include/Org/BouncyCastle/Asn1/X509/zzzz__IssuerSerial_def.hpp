@@ -2,24 +2,23 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Org::BouncyCastle::Asn1 {
-class DerBitString;
+class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralNames;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class DerBitString;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -31,7 +30,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(366))
 // CS Name: Org.BouncyCastle.Asn1.X509.IssuerSerial
-class CORDL_TYPE IssuerSerial : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
+class CORDL_TYPE IssuerSerial : public Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -46,7 +45,7 @@ constexpr IssuerSerial(IssuerSerial const& ) noexcept = default;
 constexpr IssuerSerial(IssuerSerial&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit IssuerSerial(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
+constexpr explicit IssuerSerial(void* ptr) noexcept : Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
 }
 
 
@@ -67,70 +66,69 @@ constexpr explicit IssuerSerial(void* ptr) noexcept : ::Org::BouncyCastle::Asn1:
 
 // Fields
 
- ::Org::BouncyCastle::Asn1::X509::GeneralNames __declspec(property(get=__get_issuer, put=__set_issuer))  issuer;
+ Org::BouncyCastle::Asn1::X509::GeneralNames __declspec(property(get=__get_issuer, put=__set_issuer))  issuer;
 
-constexpr void __set_issuer(::Org::BouncyCastle::Asn1::X509::GeneralNames value) ;
+constexpr void __set_issuer(Org::BouncyCastle::Asn1::X509::GeneralNames value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::X509::GeneralNames __get_issuer() const;
+constexpr Org::BouncyCastle::Asn1::X509::GeneralNames __get_issuer() const;
 
- ::Org::BouncyCastle::Asn1::DerInteger __declspec(property(get=__get_serial, put=__set_serial))  serial;
+ Org::BouncyCastle::Asn1::DerInteger __declspec(property(get=__get_serial, put=__set_serial))  serial;
 
-constexpr void __set_serial(::Org::BouncyCastle::Asn1::DerInteger value) ;
+constexpr void __set_serial(Org::BouncyCastle::Asn1::DerInteger value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::DerInteger __get_serial() const;
+constexpr Org::BouncyCastle::Asn1::DerInteger __get_serial() const;
 
- ::Org::BouncyCastle::Asn1::DerBitString __declspec(property(get=__get_issuerUid, put=__set_issuerUid))  issuerUid;
+ Org::BouncyCastle::Asn1::DerBitString __declspec(property(get=__get_issuerUid, put=__set_issuerUid))  issuerUid;
 
-constexpr void __set_issuerUid(::Org::BouncyCastle::Asn1::DerBitString value) ;
+constexpr void __set_issuerUid(Org::BouncyCastle::Asn1::DerBitString value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::DerBitString __get_issuerUid() const;
+constexpr Org::BouncyCastle::Asn1::DerBitString __get_issuerUid() const;
 
 
 // Properties
 
- ::Org::BouncyCastle::Asn1::X509::GeneralNames __declspec(property(get=get_Issuer))  Issuer;
+ Org::BouncyCastle::Asn1::X509::GeneralNames __declspec(property(get=get_Issuer))  Issuer;
 
- ::Org::BouncyCastle::Asn1::DerInteger __declspec(property(get=get_Serial))  Serial;
+ Org::BouncyCastle::Asn1::DerInteger __declspec(property(get=get_Serial))  Serial;
 
- ::Org::BouncyCastle::Asn1::DerBitString __declspec(property(get=get_IssuerUid))  IssuerUid;
+ Org::BouncyCastle::Asn1::DerBitString __declspec(property(get=get_IssuerUid))  IssuerUid;
 
 
 // Methods
 
 /// @brief Method GetInstance addr 0x1106d90 size 0x188 virtual false final false
-static ::Org::BouncyCastle::Asn1::X509::IssuerSerial GetInstance(::bs_hook::Il2CppWrapperType obj) ;
+static Org::BouncyCastle::Asn1::X509::IssuerSerial GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method GetInstance addr 0x1106054 size 0x18 virtual false final false
-static ::Org::BouncyCastle::Asn1::X509::IssuerSerial GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool explicitly) ;
+static Org::BouncyCastle::Asn1::X509::IssuerSerial GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool explicitly) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "::Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit IssuerSerial(::Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
+explicit IssuerSerial(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0x1106f18 size 0x1c0 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+ void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "issuer", ty: "::Org::BouncyCastle::Asn1::X509::GeneralNames", modifiers: "", def_value: None }, CppParam { name: "serial", ty: "::Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }]
-explicit IssuerSerial(::Org::BouncyCastle::Asn1::X509::GeneralNames issuer, ::Org::BouncyCastle::Asn1::DerInteger serial) ;
+// Ctor Parameters [CppParam { name: "issuer", ty: "Org::BouncyCastle::Asn1::X509::GeneralNames", modifiers: "", def_value: None }, CppParam { name: "serial", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }]
+explicit IssuerSerial(Org::BouncyCastle::Asn1::X509::GeneralNames issuer, Org::BouncyCastle::Asn1::DerInteger serial) ;
 
 /// @brief Method .ctor addr 0x11070d8 size 0x2c virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralNames issuer, ::Org::BouncyCastle::Asn1::DerInteger serial) ;
+ void _ctor(Org::BouncyCastle::Asn1::X509::GeneralNames issuer, Org::BouncyCastle::Asn1::DerInteger serial) ;
 
 /// @brief Method get_Issuer addr 0x1107104 size 0x8 virtual false final false
- ::Org::BouncyCastle::Asn1::X509::GeneralNames get_Issuer() ;
+ Org::BouncyCastle::Asn1::X509::GeneralNames get_Issuer() ;
 
 /// @brief Method get_Serial addr 0x110710c size 0x8 virtual false final false
- ::Org::BouncyCastle::Asn1::DerInteger get_Serial() ;
+ Org::BouncyCastle::Asn1::DerInteger get_Serial() ;
 
 /// @brief Method get_IssuerUid addr 0x1107114 size 0x8 virtual false final false
- ::Org::BouncyCastle::Asn1::DerBitString get_IssuerUid() ;
+ Org::BouncyCastle::Asn1::DerBitString get_IssuerUid() ;
 
 /// @brief Method ToAsn1Object addr 0x110711c size 0x174 virtual true final false
- ::Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
+ Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::X509
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::IssuerSerial);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X509::IssuerSerial, "Org.BouncyCastle.Asn1.X509", "IssuerSerial");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::IssuerSerial);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::IssuerSerial, "Org.BouncyCastle.Asn1.X509", "IssuerSerial");

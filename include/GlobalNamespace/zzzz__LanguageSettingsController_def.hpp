@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 class LanguageSO;
 }
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5679))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5696))
 // CS Name: LanguageSettingsController
-class CORDL_TYPE LanguageSettingsController : public ::GlobalNamespace::DropdownSettingsController {
+class CORDL_TYPE LanguageSettingsController : public GlobalNamespace::DropdownSettingsController {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr LanguageSettingsController(LanguageSettingsController const& ) noexcep
 constexpr LanguageSettingsController(LanguageSettingsController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LanguageSettingsController(void* ptr) noexcept : ::GlobalNamespace::DropdownSettingsController(ptr) {
+constexpr explicit LanguageSettingsController(void* ptr) noexcept : GlobalNamespace::DropdownSettingsController(ptr) {
 }
 
 
@@ -54,11 +53,11 @@ constexpr explicit LanguageSettingsController(void* ptr) noexcept : ::GlobalName
 
 // Fields
 
- ::GlobalNamespace::LanguageSO __declspec(property(get=__get__settingsValue, put=__set__settingsValue))  _settingsValue;
+ GlobalNamespace::LanguageSO __declspec(property(get=__get__settingsValue, put=__set__settingsValue))  _settingsValue;
 
-constexpr void __set__settingsValue(::GlobalNamespace::LanguageSO value) ;
+constexpr void __set__settingsValue(GlobalNamespace::LanguageSO value) ;
 
-constexpr ::GlobalNamespace::LanguageSO __get__settingsValue() const;
+constexpr GlobalNamespace::LanguageSO __get__settingsValue() const;
 
 
 // Methods
@@ -82,6 +81,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LanguageSettingsController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LanguageSettingsController, "", "LanguageSettingsController");
+NEED_NO_BOX(GlobalNamespace::LanguageSettingsController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LanguageSettingsController, "", "LanguageSettingsController");

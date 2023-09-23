@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
-namespace {
 // Forward declare root types
 namespace Notepad {
 struct NoteURL;
@@ -66,5 +65,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Notepad
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Notepad::NoteURL, "Notepad", "NoteURL");
+DEFINE_IL2CPP_ARG_TYPE(Notepad::NoteURL, "Notepad", "NoteURL");

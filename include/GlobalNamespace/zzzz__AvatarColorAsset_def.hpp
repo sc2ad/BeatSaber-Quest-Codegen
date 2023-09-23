@@ -1,9 +1,8 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_def.hpp"
-namespace {
-namespace UnityEngine::Playables {
-struct PlayableGraph;
+namespace UnityEngine::Timeline {
+struct ClipCaps;
 }
 namespace GlobalNamespace {
 class AvatarColorBehaviour;
@@ -11,11 +10,11 @@ class AvatarColorBehaviour;
 namespace UnityEngine::Timeline {
 class ITimelineClipAsset;
 }
+namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
 namespace UnityEngine {
 class GameObject;
-}
-namespace UnityEngine::Timeline {
-struct ClipCaps;
 }
 namespace UnityEngine::Playables {
 struct Playable;
@@ -30,11 +29,11 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10358))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6056))
 // CS Name: AvatarColorAsset
-class CORDL_TYPE AvatarColorAsset : public ::UnityEngine::Playables::PlayableAsset {
+class CORDL_TYPE AvatarColorAsset : public UnityEngine::Playables::PlayableAsset {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::Timeline::ITimelineClipAsset
-constexpr operator  ::UnityEngine::Timeline::ITimelineClipAsset() const noexcept;
+/// @brief Convert operator to UnityEngine::Timeline::ITimelineClipAsset
+constexpr operator  UnityEngine::Timeline::ITimelineClipAsset() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -48,7 +47,7 @@ constexpr AvatarColorAsset(AvatarColorAsset const& ) noexcept = default;
 constexpr AvatarColorAsset(AvatarColorAsset&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AvatarColorAsset(void* ptr) noexcept : ::UnityEngine::Playables::PlayableAsset(ptr) {
+constexpr explicit AvatarColorAsset(void* ptr) noexcept : UnityEngine::Playables::PlayableAsset(ptr) {
 }
 
 
@@ -69,25 +68,25 @@ constexpr explicit AvatarColorAsset(void* ptr) noexcept : ::UnityEngine::Playabl
 
 // Fields
 
- ::GlobalNamespace::AvatarColorBehaviour __declspec(property(get=__get__template, put=__set__template))  _template;
+ GlobalNamespace::AvatarColorBehaviour __declspec(property(get=__get__template, put=__set__template))  _template;
 
-constexpr void __set__template(::GlobalNamespace::AvatarColorBehaviour value) ;
+constexpr void __set__template(GlobalNamespace::AvatarColorBehaviour value) ;
 
-constexpr ::GlobalNamespace::AvatarColorBehaviour __get__template() const;
+constexpr GlobalNamespace::AvatarColorBehaviour __get__template() const;
 
 
 // Properties
 
- ::UnityEngine::Timeline::ClipCaps __declspec(property(get=get_clipCaps))  clipCaps;
+ UnityEngine::Timeline::ClipCaps __declspec(property(get=get_clipCaps))  clipCaps;
 
 
 // Methods
 
 /// @brief Method get_clipCaps addr 0x21b16a0 size 0x8 virtual true final true
- ::UnityEngine::Timeline::ClipCaps get_clipCaps() ;
+ UnityEngine::Timeline::ClipCaps get_clipCaps() ;
 
 /// @brief Method CreatePlayable addr 0x21b16a8 size 0xa8 virtual true final false
- ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject go) ;
+ UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject go) ;
 
 // Ctor Parameters []
 explicit AvatarColorAsset() ;
@@ -99,6 +98,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::AvatarColorAsset);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AvatarColorAsset, "", "AvatarColorAsset");
+NEED_NO_BOX(GlobalNamespace::AvatarColorAsset);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarColorAsset, "", "AvatarColorAsset");

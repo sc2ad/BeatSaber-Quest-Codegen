@@ -1,6 +1,5 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace System {
 class IDisposable;
 }
@@ -17,8 +16,8 @@ namespace UnityEngine::Experimental::Rendering {
 class CORDL_TYPE IScriptableRuntimeReflectionSystem : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 ~IScriptableRuntimeReflectionSystem() = default;
 
@@ -36,6 +35,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Experimental::Rendering
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem, "UnityEngine.Experimental.Rendering", "IScriptableRuntimeReflectionSystem");
+NEED_NO_BOX(UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem, "UnityEngine.Experimental.Rendering", "IScriptableRuntimeReflectionSystem");

@@ -3,7 +3,6 @@
 #include "UnityEngine/InputSystem/zzzz__InputProcessor_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine::InputSystem {
 class InputControl;
 }
@@ -17,7 +16,7 @@ namespace UnityEngine::InputSystem::Processors {
 // Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6319), inst: 374 }), TypeDefinitionIndex(TypeDefinitionIndex(6319))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6667))
 // CS Name: UnityEngine.InputSystem.Processors.InvertProcessor
-class CORDL_TYPE InvertProcessor : public ::UnityEngine::InputSystem::InputProcessor_1<float_t> {
+class CORDL_TYPE InvertProcessor : public UnityEngine::InputSystem::InputProcessor_1<float_t> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr InvertProcessor(InvertProcessor const& ) noexcept = default;
 constexpr InvertProcessor(InvertProcessor&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit InvertProcessor(void* ptr) noexcept : ::UnityEngine::InputSystem::InputProcessor_1<float_t>(ptr) {
+constexpr explicit InvertProcessor(void* ptr) noexcept : UnityEngine::InputSystem::InputProcessor_1<float_t>(ptr) {
 }
 
 
@@ -54,7 +53,7 @@ constexpr explicit InvertProcessor(void* ptr) noexcept : ::UnityEngine::InputSys
 // Methods
 
 /// @brief Method Process addr 0x29669d8 size 0x8 virtual true final false
- float_t Process(float_t value, ::UnityEngine::InputSystem::InputControl control) ;
+ float_t Process(float_t value, UnityEngine::InputSystem::InputControl control) ;
 
 /// @brief Method ToString addr 0x29669e0 size 0x40 virtual true final false
  ::StringW ToString() ;
@@ -69,6 +68,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Processors
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Processors::InvertProcessor);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Processors::InvertProcessor, "UnityEngine.InputSystem.Processors", "InvertProcessor");
+NEED_NO_BOX(UnityEngine::InputSystem::Processors::InvertProcessor);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Processors::InvertProcessor, "UnityEngine.InputSystem.Processors", "InvertProcessor");

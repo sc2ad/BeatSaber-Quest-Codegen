@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_anySimpleType_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace System::Xml::Schema {
 class XmlSchemaSimpleType;
 }
@@ -19,7 +18,7 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11566))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11565))
 // CS Name: System.Xml.Schema.Datatype_union
-class CORDL_TYPE Datatype_union : public ::System::Xml::Schema::Datatype_anySimpleType {
+class CORDL_TYPE Datatype_union : public System::Xml::Schema::Datatype_anySimpleType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr Datatype_union(Datatype_union const& ) noexcept = default;
 constexpr Datatype_union(Datatype_union&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Datatype_union(void* ptr) noexcept : ::System::Xml::Schema::Datatype_anySimpleType(ptr) {
+constexpr explicit Datatype_union(void* ptr) noexcept : System::Xml::Schema::Datatype_anySimpleType(ptr) {
 }
 
 
@@ -55,23 +54,23 @@ constexpr explicit Datatype_union(void* ptr) noexcept : ::System::Xml::Schema::D
 
 // Fields
 
-static ::System::Type __declspec(property(get=__get_atomicValueType, put=__set_atomicValueType))  atomicValueType;
+static System::Type __declspec(property(get=__get_atomicValueType, put=__set_atomicValueType))  atomicValueType;
 
-static void __set_atomicValueType(::System::Type value) ;
+static void __set_atomicValueType(System::Type value) ;
 
-static ::System::Type __get_atomicValueType() ;
+static System::Type __get_atomicValueType() ;
 
-static ::System::Type __declspec(property(get=__get_listValueType, put=__set_listValueType))  listValueType;
+static System::Type __declspec(property(get=__get_listValueType, put=__set_listValueType))  listValueType;
 
-static void __set_listValueType(::System::Type value) ;
+static void __set_listValueType(System::Type value) ;
 
-static ::System::Type __get_listValueType() ;
+static System::Type __get_listValueType() ;
 
- ::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType> __declspec(property(get=__get_types, put=__set_types))  types;
+ ::ArrayW<System::Xml::Schema::XmlSchemaSimpleType> __declspec(property(get=__get_types, put=__set_types))  types;
 
-constexpr void __set_types(::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType> value) ;
+constexpr void __set_types(::ArrayW<System::Xml::Schema::XmlSchemaSimpleType> value) ;
 
-constexpr ::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType> __get_types() const;
+constexpr ::ArrayW<System::Xml::Schema::XmlSchemaSimpleType> __get_types() const;
 
 
 // Methods
@@ -83,6 +82,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::Datatype_union);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::Datatype_union, "System.Xml.Schema", "Datatype_union");
+NEED_NO_BOX(System::Xml::Schema::Datatype_union);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::Datatype_union, "System.Xml.Schema", "Datatype_union");

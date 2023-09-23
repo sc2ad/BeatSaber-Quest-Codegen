@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
 class UnwrapParameters;
@@ -130,11 +129,11 @@ explicit UnwrapParameters() ;
 /// @brief Method .ctor addr 0x29e0db8 size 0x38 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "other", ty: "::UnityEngine::ProBuilder::UnwrapParameters", modifiers: "", def_value: None }]
-explicit UnwrapParameters(::UnityEngine::ProBuilder::UnwrapParameters other) ;
+// Ctor Parameters [CppParam { name: "other", ty: "UnityEngine::ProBuilder::UnwrapParameters", modifiers: "", def_value: None }]
+explicit UnwrapParameters(UnityEngine::ProBuilder::UnwrapParameters other) ;
 
 /// @brief Method .ctor addr 0x29e86bc size 0x88 virtual false final false
- void _ctor(::UnityEngine::ProBuilder::UnwrapParameters other) ;
+ void _ctor(UnityEngine::ProBuilder::UnwrapParameters other) ;
 
 /// @brief Method Reset addr 0x29e86ac size 0x10 virtual false final false
  void Reset() ;
@@ -146,6 +145,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::UnwrapParameters);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::UnwrapParameters, "UnityEngine.ProBuilder", "UnwrapParameters");
+NEED_NO_BOX(UnityEngine::ProBuilder::UnwrapParameters);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::UnwrapParameters, "UnityEngine.ProBuilder", "UnwrapParameters");

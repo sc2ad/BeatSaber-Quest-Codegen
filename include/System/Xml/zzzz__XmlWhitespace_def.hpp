@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/zzzz__XmlCharacterData_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Xml {
 struct XmlNodeType;
 }
@@ -22,7 +21,7 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11442))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11471))
 // CS Name: System.Xml.XmlWhitespace
-class CORDL_TYPE XmlWhitespace : public ::System::Xml::XmlCharacterData {
+class CORDL_TYPE XmlWhitespace : public System::Xml::XmlCharacterData {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr XmlWhitespace(XmlWhitespace const& ) noexcept = default;
 constexpr XmlWhitespace(XmlWhitespace&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XmlWhitespace(void* ptr) noexcept : ::System::Xml::XmlCharacterData(ptr) {
+constexpr explicit XmlWhitespace(void* ptr) noexcept : System::Xml::XmlCharacterData(ptr) {
 }
 
 
@@ -62,9 +61,9 @@ constexpr explicit XmlWhitespace(void* ptr) noexcept : ::System::Xml::XmlCharact
 
  ::StringW __declspec(property(get=get_LocalName))  LocalName;
 
- ::System::Xml::XmlNodeType __declspec(property(get=get_NodeType))  NodeType;
+ System::Xml::XmlNodeType __declspec(property(get=get_NodeType))  NodeType;
 
- ::System::Xml::XmlNode __declspec(property(get=get_ParentNode))  ParentNode;
+ System::Xml::XmlNode __declspec(property(get=get_ParentNode))  ParentNode;
 
  ::StringW __declspec(property(get=get_Value, put=set_Value))  Value;
 
@@ -73,11 +72,11 @@ constexpr explicit XmlWhitespace(void* ptr) noexcept : ::System::Xml::XmlCharact
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "strData", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "::System::Xml::XmlDocument", modifiers: "", def_value: None }]
-explicit XmlWhitespace(::StringW strData, ::System::Xml::XmlDocument doc) ;
+// Ctor Parameters [CppParam { name: "strData", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
+explicit XmlWhitespace(::StringW strData, System::Xml::XmlDocument doc) ;
 
 /// @brief Method .ctor addr 0x26f9558 size 0xa4 virtual false final false
- void _ctor(::StringW strData, ::System::Xml::XmlDocument doc) ;
+ void _ctor(::StringW strData, System::Xml::XmlDocument doc) ;
 
 /// @brief Method get_Name addr 0x26fe800 size 0x28 virtual true final false
  ::StringW get_Name() ;
@@ -86,10 +85,10 @@ explicit XmlWhitespace(::StringW strData, ::System::Xml::XmlDocument doc) ;
  ::StringW get_LocalName() ;
 
 /// @brief Method get_NodeType addr 0x26fe850 size 0x8 virtual true final false
- ::System::Xml::XmlNodeType get_NodeType() ;
+ System::Xml::XmlNodeType get_NodeType() ;
 
 /// @brief Method get_ParentNode addr 0x26fe858 size 0x88 virtual true final false
- ::System::Xml::XmlNode get_ParentNode() ;
+ System::Xml::XmlNode get_ParentNode() ;
 
 /// @brief Method get_Value addr 0x26fe8e0 size 0x10 virtual true final false
  ::StringW get_Value() ;
@@ -98,7 +97,7 @@ explicit XmlWhitespace(::StringW strData, ::System::Xml::XmlDocument doc) ;
  void set_Value(::StringW value) ;
 
 /// @brief Method CloneNode addr 0x26fe984 size 0x5c virtual true final false
- ::System::Xml::XmlNode CloneNode(bool deep) ;
+ System::Xml::XmlNode CloneNode(bool deep) ;
 
 /// @brief Method get_IsText addr 0x26fe9e0 size 0x8 virtual true final false
  bool get_IsText() ;
@@ -107,6 +106,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::XmlWhitespace);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlWhitespace, "System.Xml", "XmlWhitespace");
+NEED_NO_BOX(System::Xml::XmlWhitespace);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWhitespace, "System.Xml", "XmlWhitespace");

@@ -3,13 +3,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
+namespace GlobalNamespace {
+class RelativeSfxVolumePerLevelSO;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
-}
-namespace GlobalNamespace {
-class RelativeSfxVolumePerLevelSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -60,20 +59,20 @@ constexpr explicit RelativeSfxVolumePerLevelModel(void* ptr) noexcept : ::bs_hoo
 /// @brief Field kDefaultSfxVolume offset 0
 static constexpr float_t  kDefaultSfxVolume{0};
 
- ::System::Collections::Generic::Dictionary_2<::StringW,float_t> __declspec(property(get=__get__relativeSfxVolumePerLevelId, put=__set__relativeSfxVolumePerLevelId))  _relativeSfxVolumePerLevelId;
+ System::Collections::Generic::Dictionary_2<::StringW,float_t> __declspec(property(get=__get__relativeSfxVolumePerLevelId, put=__set__relativeSfxVolumePerLevelId))  _relativeSfxVolumePerLevelId;
 
-constexpr void __set__relativeSfxVolumePerLevelId(::System::Collections::Generic::Dictionary_2<::StringW,float_t> value) ;
+constexpr void __set__relativeSfxVolumePerLevelId(System::Collections::Generic::Dictionary_2<::StringW,float_t> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::StringW,float_t> __get__relativeSfxVolumePerLevelId() const;
+constexpr System::Collections::Generic::Dictionary_2<::StringW,float_t> __get__relativeSfxVolumePerLevelId() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "relativeSfxVolumePerLevelData", ty: "::GlobalNamespace::RelativeSfxVolumePerLevelSO", modifiers: "", def_value: None }]
-explicit RelativeSfxVolumePerLevelModel(::GlobalNamespace::RelativeSfxVolumePerLevelSO relativeSfxVolumePerLevelData) ;
+// Ctor Parameters [CppParam { name: "relativeSfxVolumePerLevelData", ty: "GlobalNamespace::RelativeSfxVolumePerLevelSO", modifiers: "", def_value: None }]
+explicit RelativeSfxVolumePerLevelModel(GlobalNamespace::RelativeSfxVolumePerLevelSO relativeSfxVolumePerLevelData) ;
 
 /// @brief Method .ctor addr 0x21ee878 size 0x114 virtual false final false
- void _ctor(::GlobalNamespace::RelativeSfxVolumePerLevelSO relativeSfxVolumePerLevelData) ;
+ void _ctor(GlobalNamespace::RelativeSfxVolumePerLevelSO relativeSfxVolumePerLevelData) ;
 
 /// @brief Method GetRelativeSfxVolume addr 0x21ee98c size 0x7c virtual false final false
  float_t GetRelativeSfxVolume(::StringW levelId) ;
@@ -82,6 +81,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::RelativeSfxVolumePerLevelModel);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RelativeSfxVolumePerLevelModel, "", "RelativeSfxVolumePerLevelModel");
+NEED_NO_BOX(GlobalNamespace::RelativeSfxVolumePerLevelModel);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RelativeSfxVolumePerLevelModel, "", "RelativeSfxVolumePerLevelModel");

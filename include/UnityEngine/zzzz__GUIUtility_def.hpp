@@ -5,48 +5,47 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace System {
-class Exception;
-}
 namespace UnityEngine {
 struct Vector2;
-}
-namespace System {
-template<typename T1,typename T2,typename TResult>
-class Func_3;
-}
-namespace System {
-template<typename TResult>
-class Func_1;
 }
 namespace UnityEngine {
 struct IMECompositionMode;
 }
 namespace UnityEngine {
+class ObjectGUIState;
+}
+namespace UnityEngine {
 class Event;
 }
-namespace UnityEngine {
-class GUISkin;
-}
-namespace UnityEngine {
-class ObjectGUIState;
+namespace System {
+class Exception;
 }
 namespace System {
 class Action;
 }
-namespace UnityEngine {
-class ScriptableObject;
+namespace System {
+template<typename TResult>
+class Func_1;
 }
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
 namespace UnityEngine {
-struct FocusType;
+class ScriptableObject;
 }
 namespace UnityEngine {
 struct Rect;
+}
+namespace UnityEngine {
+class GUISkin;
+}
+namespace System {
+template<typename T1,typename T2,typename TResult>
+class Func_3;
+}
+namespace UnityEngine {
+struct FocusType;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -112,41 +111,41 @@ static void __set_s_OriginalID(int32_t value) ;
 
 static int32_t __get_s_OriginalID() ;
 
-static ::System::Action __declspec(property(get=__get_takeCapture, put=__set_takeCapture))  takeCapture;
+static System::Action __declspec(property(get=__get_takeCapture, put=__set_takeCapture))  takeCapture;
 
-static void __set_takeCapture(::System::Action value) ;
+static void __set_takeCapture(System::Action value) ;
 
-static ::System::Action __get_takeCapture() ;
+static System::Action __get_takeCapture() ;
 
-static ::System::Action __declspec(property(get=__get_releaseCapture, put=__set_releaseCapture))  releaseCapture;
+static System::Action __declspec(property(get=__get_releaseCapture, put=__set_releaseCapture))  releaseCapture;
 
-static void __set_releaseCapture(::System::Action value) ;
+static void __set_releaseCapture(System::Action value) ;
 
-static ::System::Action __get_releaseCapture() ;
+static System::Action __get_releaseCapture() ;
 
-static ::System::Func_3<int32_t,::cordl_internals::intptr_t,bool> __declspec(property(get=__get_processEvent, put=__set_processEvent))  processEvent;
+static System::Func_3<int32_t,::cordl_internals::intptr_t,bool> __declspec(property(get=__get_processEvent, put=__set_processEvent))  processEvent;
 
-static void __set_processEvent(::System::Func_3<int32_t,::cordl_internals::intptr_t,bool> value) ;
+static void __set_processEvent(System::Func_3<int32_t,::cordl_internals::intptr_t,bool> value) ;
 
-static ::System::Func_3<int32_t,::cordl_internals::intptr_t,bool> __get_processEvent() ;
+static System::Func_3<int32_t,::cordl_internals::intptr_t,bool> __get_processEvent() ;
 
-static ::System::Action __declspec(property(get=__get_cleanupRoots, put=__set_cleanupRoots))  cleanupRoots;
+static System::Action __declspec(property(get=__get_cleanupRoots, put=__set_cleanupRoots))  cleanupRoots;
 
-static void __set_cleanupRoots(::System::Action value) ;
+static void __set_cleanupRoots(System::Action value) ;
 
-static ::System::Action __get_cleanupRoots() ;
+static System::Action __get_cleanupRoots() ;
 
-static ::System::Func_2<::System::Exception,bool> __declspec(property(get=__get_endContainerGUIFromException, put=__set_endContainerGUIFromException))  endContainerGUIFromException;
+static System::Func_2<System::Exception,bool> __declspec(property(get=__get_endContainerGUIFromException, put=__set_endContainerGUIFromException))  endContainerGUIFromException;
 
-static void __set_endContainerGUIFromException(::System::Func_2<::System::Exception,bool> value) ;
+static void __set_endContainerGUIFromException(System::Func_2<System::Exception,bool> value) ;
 
-static ::System::Func_2<::System::Exception,bool> __get_endContainerGUIFromException() ;
+static System::Func_2<System::Exception,bool> __get_endContainerGUIFromException() ;
 
-static ::System::Action __declspec(property(get=__get_guiChanged, put=__set_guiChanged))  guiChanged;
+static System::Action __declspec(property(get=__get_guiChanged, put=__set_guiChanged))  guiChanged;
 
-static void __set_guiChanged(::System::Action value) ;
+static void __set_guiChanged(System::Action value) ;
 
-static ::System::Action __get_guiChanged() ;
+static System::Action __get_guiChanged() ;
 
 static bool __declspec(property(get=__get__guiIsExiting_k__BackingField, put=__set__guiIsExiting_k__BackingField))  _guiIsExiting_k__BackingField;
 
@@ -154,11 +153,11 @@ static void __set__guiIsExiting_k__BackingField(bool value) ;
 
 static bool __get__guiIsExiting_k__BackingField() ;
 
-static ::System::Func_1<bool> __declspec(property(get=__get_s_HasCurrentWindowKeyFocusFunc, put=__set_s_HasCurrentWindowKeyFocusFunc))  s_HasCurrentWindowKeyFocusFunc;
+static System::Func_1<bool> __declspec(property(get=__get_s_HasCurrentWindowKeyFocusFunc, put=__set_s_HasCurrentWindowKeyFocusFunc))  s_HasCurrentWindowKeyFocusFunc;
 
-static void __set_s_HasCurrentWindowKeyFocusFunc(::System::Func_1<bool> value) ;
+static void __set_s_HasCurrentWindowKeyFocusFunc(System::Func_1<bool> value) ;
 
-static ::System::Func_1<bool> __get_s_HasCurrentWindowKeyFocusFunc() ;
+static System::Func_1<bool> __get_s_HasCurrentWindowKeyFocusFunc() ;
 
 
 // Properties
@@ -173,9 +172,9 @@ static ::StringW __declspec(property(get=get_systemCopyBuffer, put=set_systemCop
 
 static ::StringW __declspec(property(get=get_compositionString))  compositionString;
 
-static ::UnityEngine::IMECompositionMode __declspec(property(put=set_imeCompositionMode))  imeCompositionMode;
+static UnityEngine::IMECompositionMode __declspec(property(put=set_imeCompositionMode))  imeCompositionMode;
 
-static ::UnityEngine::Vector2 __declspec(property(put=set_compositionCursorPos))  compositionCursorPos;
+static UnityEngine::Vector2 __declspec(property(put=set_compositionCursorPos))  compositionCursorPos;
 
 static bool __declspec(property(put=set_guiIsExiting))  guiIsExiting;
 
@@ -202,22 +201,22 @@ static ::StringW get_systemCopyBuffer() ;
 static void set_systemCopyBuffer(::StringW value) ;
 
 /// @brief Method Internal_GetControlID addr 0x2b8b3e4 size 0x5c virtual false final false
-static int32_t Internal_GetControlID(int32_t hint, ::UnityEngine::FocusType focusType, ::UnityEngine::Rect rect) ;
+static int32_t Internal_GetControlID(int32_t hint, UnityEngine::FocusType focusType, UnityEngine::Rect rect) ;
 
 /// @brief Method GetControlID addr 0x2b8b494 size 0x98 virtual false final false
-static int32_t GetControlID(int32_t hint, ::UnityEngine::FocusType focusType, ::UnityEngine::Rect rect) ;
+static int32_t GetControlID(int32_t hint, UnityEngine::FocusType focusType, UnityEngine::Rect rect) ;
 
 /// @brief Method BeginContainerFromOwner addr 0x2b8b52c size 0x3c virtual false final false
-static void BeginContainerFromOwner(::UnityEngine::ScriptableObject owner) ;
+static void BeginContainerFromOwner(UnityEngine::ScriptableObject owner) ;
 
 /// @brief Method BeginContainer addr 0x2b8b568 size 0x3c virtual false final false
-static void BeginContainer(::UnityEngine::ObjectGUIState objectGUIState) ;
+static void BeginContainer(UnityEngine::ObjectGUIState objectGUIState) ;
 
 /// @brief Method Internal_EndContainer addr 0x2b8b5a4 size 0x28 virtual false final false
 static void Internal_EndContainer() ;
 
 /// @brief Method CheckForTabEvent addr 0x2b8b5cc size 0x3c virtual false final false
-static int32_t CheckForTabEvent(::UnityEngine::Event evt) ;
+static int32_t CheckForTabEvent(UnityEngine::Event evt) ;
 
 /// @brief Method SetKeyboardControlToFirstControlId addr 0x2b8b608 size 0x28 virtual false final false
 static void SetKeyboardControlToFirstControlId() ;
@@ -235,10 +234,10 @@ static bool OwnsId(int32_t id) ;
 static ::StringW get_compositionString() ;
 
 /// @brief Method set_imeCompositionMode addr 0x2b8b6e4 size 0x3c virtual false final false
-static void set_imeCompositionMode(::UnityEngine::IMECompositionMode value) ;
+static void set_imeCompositionMode(UnityEngine::IMECompositionMode value) ;
 
 /// @brief Method set_compositionCursorPos addr 0x2b8b720 size 0x40 virtual false final false
-static void set_compositionCursorPos(::UnityEngine::Vector2 value) ;
+static void set_compositionCursorPos(UnityEngine::Vector2 value) ;
 
 /// @brief Method Internal_GetHotControl addr 0x2b8b79c size 0x28 virtual false final false
 static int32_t Internal_GetHotControl() ;
@@ -262,7 +261,7 @@ static void Internal_ExitGUI() ;
 static void MarkGUIChanged() ;
 
 /// @brief Method GetControlID addr 0x2b84e78 size 0x2c virtual false final false
-static int32_t GetControlID(int32_t hint, ::UnityEngine::FocusType focus) ;
+static int32_t GetControlID(int32_t hint, UnityEngine::FocusType focus) ;
 
 /// @brief Method set_guiIsExiting addr 0x2b8b92c size 0x4c virtual false final false
 static void set_guiIsExiting(bool value) ;
@@ -292,7 +291,7 @@ static bool HasKeyFocus(int32_t controlID) ;
 static void ExitGUI() ;
 
 /// @brief Method GetDefaultSkin addr 0x2b8450c size 0x98 virtual false final false
-static ::UnityEngine::GUISkin GetDefaultSkin() ;
+static UnityEngine::GUISkin GetDefaultSkin() ;
 
 /// @brief Method ProcessEvent addr 0x2b8bbe8 size 0x84 virtual false final false
 static void ProcessEvent(int32_t instanceID, ::cordl_internals::intptr_t nativeEventPtr, ByRef<bool> result) ;
@@ -307,19 +306,19 @@ static void BeginGUI(int32_t skinMode, int32_t instanceID, int32_t useGUILayout)
 static void EndGUI(int32_t layoutType) ;
 
 /// @brief Method EndGUIFromException addr 0x2b8c0e0 size 0x40 virtual false final false
-static bool EndGUIFromException(::System::Exception exception) ;
+static bool EndGUIFromException(System::Exception exception) ;
 
 /// @brief Method EndContainerGUIFromException addr 0x2b8c124 size 0x70 virtual false final false
-static bool EndContainerGUIFromException(::System::Exception exception) ;
+static bool EndContainerGUIFromException(System::Exception exception) ;
 
 /// @brief Method ResetGlobalState addr 0x2b8bd50 size 0x100 virtual false final false
 static void ResetGlobalState() ;
 
 /// @brief Method IsExitGUIException addr 0x2b8c194 size 0x84 virtual false final false
-static bool IsExitGUIException(::System::Exception exception) ;
+static bool IsExitGUIException(System::Exception exception) ;
 
 /// @brief Method ShouldRethrowException addr 0x2b8c120 size 0x4 virtual false final false
-static bool ShouldRethrowException(::System::Exception exception) ;
+static bool ShouldRethrowException(System::Exception exception) ;
 
 /// @brief Method CheckOnGUI addr 0x2b84388 size 0x84 virtual false final false
 static void CheckOnGUI() ;
@@ -328,21 +327,20 @@ static void CheckOnGUI() ;
 static float_t RoundToPixelGrid(float_t v) ;
 
 /// @brief Method HitTest addr 0x2b8c284 size 0xa4 virtual false final false
-static bool HitTest(::UnityEngine::Rect rect, ::UnityEngine::Vector2 point, int32_t offset) ;
+static bool HitTest(UnityEngine::Rect rect, UnityEngine::Vector2 point, int32_t offset) ;
 
 /// @brief Method HitTest addr 0x2b8c328 size 0x8 virtual false final false
-static bool HitTest(::UnityEngine::Rect rect, ::UnityEngine::Vector2 point, bool isDirectManipulationDevice) ;
+static bool HitTest(UnityEngine::Rect rect, UnityEngine::Vector2 point, bool isDirectManipulationDevice) ;
 
 /// @brief Method Internal_GetControlID_Injected addr 0x2b8b440 size 0x54 virtual false final false
-static int32_t Internal_GetControlID_Injected(int32_t hint, ::UnityEngine::FocusType focusType, ByRef<::UnityEngine::Rect> rect) ;
+static int32_t Internal_GetControlID_Injected(int32_t hint, UnityEngine::FocusType focusType, ByRef<UnityEngine::Rect> rect) ;
 
 /// @brief Method set_compositionCursorPos_Injected addr 0x2b8b760 size 0x3c virtual false final false
-static void set_compositionCursorPos_Injected(ByRef<::UnityEngine::Vector2> value) ;
+static void set_compositionCursorPos_Injected(ByRef<UnityEngine::Vector2> value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::GUIUtility);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::GUIUtility, "UnityEngine", "GUIUtility");
+NEED_NO_BOX(UnityEngine::GUIUtility);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIUtility, "UnityEngine", "GUIUtility");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -68,11 +67,11 @@ constexpr void __set__workItemID(int32_t value) ;
 
 constexpr int32_t __get__workItemID() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::GameObject> __declspec(property(get=__get__generatedGOs, put=__set__generatedGOs))  _generatedGOs;
+ System::Collections::Generic::List_1<UnityEngine::GameObject> __declspec(property(get=__get__generatedGOs, put=__set__generatedGOs))  _generatedGOs;
 
-constexpr void __set__generatedGOs(::System::Collections::Generic::List_1<::UnityEngine::GameObject> value) ;
+constexpr void __set__generatedGOs(System::Collections::Generic::List_1<UnityEngine::GameObject> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::GameObject> __get__generatedGOs() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::GameObject> __get__generatedGOs() const;
 
 
 // Methods
@@ -87,6 +86,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_TOPWorkResult);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_TOPWorkResult, "HoudiniEngineUnity", "HEU_TOPWorkResult");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_TOPWorkResult);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_TOPWorkResult, "HoudiniEngineUnity", "HEU_TOPWorkResult");

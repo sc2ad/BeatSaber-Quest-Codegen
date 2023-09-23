@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace Zenject {
 struct BindingId;
 }
@@ -55,17 +54,17 @@ constexpr explicit LookupId(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(p
 
 // Fields
 
- ::Zenject::IProvider __declspec(property(get=__get_Provider, put=__set_Provider))  Provider;
+ Zenject::IProvider __declspec(property(get=__get_Provider, put=__set_Provider))  Provider;
 
-constexpr void __set_Provider(::Zenject::IProvider value) ;
+constexpr void __set_Provider(Zenject::IProvider value) ;
 
-constexpr ::Zenject::IProvider __get_Provider() const;
+constexpr Zenject::IProvider __get_Provider() const;
 
- ::Zenject::BindingId __declspec(property(get=__get_BindingId, put=__set_BindingId))  BindingId;
+ Zenject::BindingId __declspec(property(get=__get_BindingId, put=__set_BindingId))  BindingId;
 
-constexpr void __set_BindingId(::Zenject::BindingId value) ;
+constexpr void __set_BindingId(Zenject::BindingId value) ;
 
-constexpr ::Zenject::BindingId __get_BindingId() const;
+constexpr Zenject::BindingId __get_BindingId() const;
 
 
 // Methods
@@ -76,11 +75,11 @@ explicit LookupId() ;
 /// @brief Method .ctor addr 0x2da7e78 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "provider", ty: "::Zenject::IProvider", modifiers: "", def_value: None }, CppParam { name: "bindingId", ty: "::Zenject::BindingId", modifiers: "", def_value: None }]
-explicit LookupId(::Zenject::IProvider provider, ::Zenject::BindingId bindingId) ;
+// Ctor Parameters [CppParam { name: "provider", ty: "Zenject::IProvider", modifiers: "", def_value: None }, CppParam { name: "bindingId", ty: "Zenject::BindingId", modifiers: "", def_value: None }]
+explicit LookupId(Zenject::IProvider provider, Zenject::BindingId bindingId) ;
 
 /// @brief Method .ctor addr 0x2da7e80 size 0x9c virtual false final false
- void _ctor(::Zenject::IProvider provider, ::Zenject::BindingId bindingId) ;
+ void _ctor(Zenject::IProvider provider, Zenject::BindingId bindingId) ;
 
 /// @brief Method GetHashCode addr 0x2da7f1c size 0x50 virtual true final false
  int32_t GetHashCode() ;
@@ -89,6 +88,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject::Internal
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::Internal::LookupId);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::Internal::LookupId, "Zenject.Internal", "LookupId");
+NEED_NO_BOX(Zenject::Internal::LookupId);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::LookupId, "Zenject.Internal", "LookupId");

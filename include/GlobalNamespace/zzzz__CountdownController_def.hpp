@@ -4,7 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace System::Collections::Generic {
+template<typename T>
+class Queue_1;
+}
 namespace GlobalNamespace {
 class CountdownElementController;
 }
@@ -13,10 +16,6 @@ class ITimeProvider;
 }
 namespace UnityEngine {
 class AudioSource;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class Queue_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,7 +27,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5647))
 // CS Name: CountdownController
-class CORDL_TYPE CountdownController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE CountdownController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -43,7 +42,7 @@ constexpr CountdownController(CountdownController const& ) noexcept = default;
 constexpr CountdownController(CountdownController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CountdownController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit CountdownController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -64,23 +63,23 @@ constexpr explicit CountdownController(void* ptr) noexcept : ::UnityEngine::Mono
 
 // Fields
 
- ::UnityEngine::AudioSource __declspec(property(get=__get__audioSource, put=__set__audioSource))  _audioSource;
+ UnityEngine::AudioSource __declspec(property(get=__get__audioSource, put=__set__audioSource))  _audioSource;
 
-constexpr void __set__audioSource(::UnityEngine::AudioSource value) ;
+constexpr void __set__audioSource(UnityEngine::AudioSource value) ;
 
-constexpr ::UnityEngine::AudioSource __get__audioSource() const;
+constexpr UnityEngine::AudioSource __get__audioSource() const;
 
- ::ArrayW<::GlobalNamespace::CountdownElementController> __declspec(property(get=__get__countdownElementControllers, put=__set__countdownElementControllers))  _countdownElementControllers;
+ ::ArrayW<GlobalNamespace::CountdownElementController> __declspec(property(get=__get__countdownElementControllers, put=__set__countdownElementControllers))  _countdownElementControllers;
 
-constexpr void __set__countdownElementControllers(::ArrayW<::GlobalNamespace::CountdownElementController> value) ;
+constexpr void __set__countdownElementControllers(::ArrayW<GlobalNamespace::CountdownElementController> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::CountdownElementController> __get__countdownElementControllers() const;
+constexpr ::ArrayW<GlobalNamespace::CountdownElementController> __get__countdownElementControllers() const;
 
- ::GlobalNamespace::ITimeProvider __declspec(property(get=__get__timeProvider, put=__set__timeProvider))  _timeProvider;
+ GlobalNamespace::ITimeProvider __declspec(property(get=__get__timeProvider, put=__set__timeProvider))  _timeProvider;
 
-constexpr void __set__timeProvider(::GlobalNamespace::ITimeProvider value) ;
+constexpr void __set__timeProvider(GlobalNamespace::ITimeProvider value) ;
 
-constexpr ::GlobalNamespace::ITimeProvider __get__timeProvider() const;
+constexpr GlobalNamespace::ITimeProvider __get__timeProvider() const;
 
 /// @brief Field kGongTime offset 0
 static constexpr float_t  kGongTime{5};
@@ -109,11 +108,11 @@ constexpr void __set__countdownRunning(bool value) ;
 
 constexpr bool __get__countdownRunning() const;
 
- ::System::Collections::Generic::Queue_1<::GlobalNamespace::CountdownElementController> __declspec(property(get=__get__countdownElementControllerQueue, put=__set__countdownElementControllerQueue))  _countdownElementControllerQueue;
+ System::Collections::Generic::Queue_1<GlobalNamespace::CountdownElementController> __declspec(property(get=__get__countdownElementControllerQueue, put=__set__countdownElementControllerQueue))  _countdownElementControllerQueue;
 
-constexpr void __set__countdownElementControllerQueue(::System::Collections::Generic::Queue_1<::GlobalNamespace::CountdownElementController> value) ;
+constexpr void __set__countdownElementControllerQueue(System::Collections::Generic::Queue_1<GlobalNamespace::CountdownElementController> value) ;
 
-constexpr ::System::Collections::Generic::Queue_1<::GlobalNamespace::CountdownElementController> __get__countdownElementControllerQueue() const;
+constexpr System::Collections::Generic::Queue_1<GlobalNamespace::CountdownElementController> __get__countdownElementControllerQueue() const;
 
 
 // Methods
@@ -143,6 +142,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::CountdownController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CountdownController, "", "CountdownController");
+NEED_NO_BOX(GlobalNamespace::CountdownController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CountdownController, "", "CountdownController");

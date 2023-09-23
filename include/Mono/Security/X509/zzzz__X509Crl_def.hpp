@@ -4,37 +4,36 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace Mono::Security {
+class ASN1;
+}
 namespace Mono::Security::X509 {
 class X509ExtensionCollection;
 }
-namespace System::Security::Cryptography {
-class AsymmetricAlgorithm;
-}
 namespace System {
 struct DateTime;
-}
-namespace System::Collections {
-class ArrayList;
 }
 namespace Mono::Security::X509 {
 class X509Certificate;
 }
 namespace System::Security::Cryptography {
+class AsymmetricAlgorithm;
+}
+namespace System::Security::Cryptography {
 class RSA;
+}
+namespace System::Collections {
+class ArrayList;
 }
 namespace System::Security::Cryptography {
 class DSA;
 }
-namespace Mono::Security {
-class ASN1;
-}
 // Forward declare root types
 namespace Mono::Security::X509 {
-class X509Crl;
+class Mono__Security__X509__X509Crl__X509CrlEntry;
 }
 namespace Mono::Security::X509 {
-class ____Mono__Security__X509__X509Crl__X509CrlEntry;
+class X509Crl;
 }
 // Type: ::X509CrlEntry
 namespace Mono::Security::X509 {
@@ -42,37 +41,37 @@ namespace Mono::Security::X509 {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13960))
 // CS Name: Mono.Security.X509.X509Crl::X509CrlEntry
-class CORDL_TYPE ____Mono__Security__X509__X509Crl__X509CrlEntry : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Mono__Security__X509__X509Crl__X509CrlEntry : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____Mono__Security__X509__X509Crl__X509CrlEntry() = default;
+virtual ~Mono__Security__X509__X509Crl__X509CrlEntry() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Mono__Security__X509__X509Crl__X509CrlEntry", modifiers: " const&", def_value: None }]
-constexpr ____Mono__Security__X509__X509Crl__X509CrlEntry(____Mono__Security__X509__X509Crl__X509CrlEntry const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Mono__Security__X509__X509Crl__X509CrlEntry", modifiers: " const&", def_value: None }]
+constexpr Mono__Security__X509__X509Crl__X509CrlEntry(Mono__Security__X509__X509Crl__X509CrlEntry const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Mono__Security__X509__X509Crl__X509CrlEntry", modifiers: "&&", def_value: None }]
-constexpr ____Mono__Security__X509__X509Crl__X509CrlEntry(____Mono__Security__X509__X509Crl__X509CrlEntry&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Mono__Security__X509__X509Crl__X509CrlEntry", modifiers: "&&", def_value: None }]
+constexpr Mono__Security__X509__X509Crl__X509CrlEntry(Mono__Security__X509__X509Crl__X509CrlEntry&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Mono__Security__X509__X509Crl__X509CrlEntry(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Mono__Security__X509__X509Crl__X509CrlEntry(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Mono__Security__X509__X509Crl__X509CrlEntry& operator=(std::nullptr_t) noexcept {
+  constexpr Mono__Security__X509__X509Crl__X509CrlEntry& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Mono__Security__X509__X509Crl__X509CrlEntry& operator=(void* o) noexcept {
+  constexpr Mono__Security__X509__X509Crl__X509CrlEntry& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Mono__Security__X509__X509Crl__X509CrlEntry& operator=(____Mono__Security__X509__X509Crl__X509CrlEntry&& o) noexcept = default;
-  constexpr ____Mono__Security__X509__X509Crl__X509CrlEntry& operator=(____Mono__Security__X509__X509Crl__X509CrlEntry const& o) noexcept = default;
+  constexpr Mono__Security__X509__X509Crl__X509CrlEntry& operator=(Mono__Security__X509__X509Crl__X509CrlEntry&& o) noexcept = default;
+  constexpr Mono__Security__X509__X509Crl__X509CrlEntry& operator=(Mono__Security__X509__X509Crl__X509CrlEntry const& o) noexcept = default;
                 
 
 
@@ -84,44 +83,44 @@ constexpr void __set_sn(::ArrayW<uint8_t> value) ;
 
 constexpr ::ArrayW<uint8_t> __get_sn() const;
 
- ::System::DateTime __declspec(property(get=__get_revocationDate, put=__set_revocationDate))  revocationDate;
+ System::DateTime __declspec(property(get=__get_revocationDate, put=__set_revocationDate))  revocationDate;
 
-constexpr void __set_revocationDate(::System::DateTime value) ;
+constexpr void __set_revocationDate(System::DateTime value) ;
 
-constexpr ::System::DateTime __get_revocationDate() const;
+constexpr System::DateTime __get_revocationDate() const;
 
- ::Mono::Security::X509::X509ExtensionCollection __declspec(property(get=__get_extensions, put=__set_extensions))  extensions;
+ Mono::Security::X509::X509ExtensionCollection __declspec(property(get=__get_extensions, put=__set_extensions))  extensions;
 
-constexpr void __set_extensions(::Mono::Security::X509::X509ExtensionCollection value) ;
+constexpr void __set_extensions(Mono::Security::X509::X509ExtensionCollection value) ;
 
-constexpr ::Mono::Security::X509::X509ExtensionCollection __get_extensions() const;
+constexpr Mono::Security::X509::X509ExtensionCollection __get_extensions() const;
 
 
 // Properties
 
  ::ArrayW<uint8_t> __declspec(property(get=get_SerialNumber))  SerialNumber;
 
- ::System::DateTime __declspec(property(get=get_RevocationDate))  RevocationDate;
+ System::DateTime __declspec(property(get=get_RevocationDate))  RevocationDate;
 
- ::Mono::Security::X509::X509ExtensionCollection __declspec(property(get=get_Extensions))  Extensions;
+ Mono::Security::X509::X509ExtensionCollection __declspec(property(get=get_Extensions))  Extensions;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "entry", ty: "::Mono::Security::ASN1", modifiers: "", def_value: None }]
-explicit ____Mono__Security__X509__X509Crl__X509CrlEntry(::Mono::Security::ASN1 entry) ;
+// Ctor Parameters [CppParam { name: "entry", ty: "Mono::Security::ASN1", modifiers: "", def_value: None }]
+explicit Mono__Security__X509__X509Crl__X509CrlEntry(Mono::Security::ASN1 entry) ;
 
 /// @brief Method .ctor addr 0x228ba2c size 0xd8 virtual false final false
- void _ctor(::Mono::Security::ASN1 entry) ;
+ void _ctor(Mono::Security::ASN1 entry) ;
 
 /// @brief Method get_SerialNumber addr 0x228c0b0 size 0x78 virtual false final false
  ::ArrayW<uint8_t> get_SerialNumber() ;
 
 /// @brief Method get_RevocationDate addr 0x228c654 size 0x8 virtual false final false
- ::System::DateTime get_RevocationDate() ;
+ System::DateTime get_RevocationDate() ;
 
 /// @brief Method get_Extensions addr 0x228c65c size 0x8 virtual false final false
- ::Mono::Security::X509::X509ExtensionCollection get_Extensions() ;
+ Mono::Security::X509::X509ExtensionCollection get_Extensions() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -136,7 +135,7 @@ namespace Mono::Security::X509 {
 class CORDL_TYPE X509Crl : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using X509CrlEntry = ::Mono::Security::X509::____Mono__Security__X509__X509Crl__X509CrlEntry;
+using X509CrlEntry = Mono::Security::X509::Mono__Security__X509__X509Crl__X509CrlEntry;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x60};
@@ -183,23 +182,23 @@ constexpr void __set_version(uint8_t value) ;
 
 constexpr uint8_t __get_version() const;
 
- ::System::DateTime __declspec(property(get=__get_thisUpdate, put=__set_thisUpdate))  thisUpdate;
+ System::DateTime __declspec(property(get=__get_thisUpdate, put=__set_thisUpdate))  thisUpdate;
 
-constexpr void __set_thisUpdate(::System::DateTime value) ;
+constexpr void __set_thisUpdate(System::DateTime value) ;
 
-constexpr ::System::DateTime __get_thisUpdate() const;
+constexpr System::DateTime __get_thisUpdate() const;
 
- ::System::DateTime __declspec(property(get=__get_nextUpdate, put=__set_nextUpdate))  nextUpdate;
+ System::DateTime __declspec(property(get=__get_nextUpdate, put=__set_nextUpdate))  nextUpdate;
 
-constexpr void __set_nextUpdate(::System::DateTime value) ;
+constexpr void __set_nextUpdate(System::DateTime value) ;
 
-constexpr ::System::DateTime __get_nextUpdate() const;
+constexpr System::DateTime __get_nextUpdate() const;
 
- ::System::Collections::ArrayList __declspec(property(get=__get_entries, put=__set_entries))  entries;
+ System::Collections::ArrayList __declspec(property(get=__get_entries, put=__set_entries))  entries;
 
-constexpr void __set_entries(::System::Collections::ArrayList value) ;
+constexpr void __set_entries(System::Collections::ArrayList value) ;
 
-constexpr ::System::Collections::ArrayList __get_entries() const;
+constexpr System::Collections::ArrayList __get_entries() const;
 
  ::StringW __declspec(property(get=__get_signatureOID, put=__set_signatureOID))  signatureOID;
 
@@ -213,11 +212,11 @@ constexpr void __set_signature(::ArrayW<uint8_t> value) ;
 
 constexpr ::ArrayW<uint8_t> __get_signature() const;
 
- ::Mono::Security::X509::X509ExtensionCollection __declspec(property(get=__get_extensions, put=__set_extensions))  extensions;
+ Mono::Security::X509::X509ExtensionCollection __declspec(property(get=__get_extensions, put=__set_extensions))  extensions;
 
-constexpr void __set_extensions(::Mono::Security::X509::X509ExtensionCollection value) ;
+constexpr void __set_extensions(Mono::Security::X509::X509ExtensionCollection value) ;
 
-constexpr ::Mono::Security::X509::X509ExtensionCollection __get_extensions() const;
+constexpr Mono::Security::X509::X509ExtensionCollection __get_extensions() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get_encoded, put=__set_encoded))  encoded;
 
@@ -234,13 +233,13 @@ constexpr ::ArrayW<uint8_t> __get_hash_value() const;
 
 // Properties
 
- ::Mono::Security::X509::X509ExtensionCollection __declspec(property(get=get_Extensions))  Extensions;
+ Mono::Security::X509::X509ExtensionCollection __declspec(property(get=get_Extensions))  Extensions;
 
  ::ArrayW<uint8_t> __declspec(property(get=get_Hash))  Hash;
 
  ::StringW __declspec(property(get=get_IssuerName))  IssuerName;
 
- ::System::DateTime __declspec(property(get=get_NextUpdate))  NextUpdate;
+ System::DateTime __declspec(property(get=get_NextUpdate))  NextUpdate;
 
 
 // Methods
@@ -255,7 +254,7 @@ explicit X509Crl(::ArrayW<uint8_t> crl) ;
  void Parse(::ArrayW<uint8_t> crl) ;
 
 /// @brief Method get_Extensions addr 0x228bc40 size 0x8 virtual false final false
- ::Mono::Security::X509::X509ExtensionCollection get_Extensions() ;
+ Mono::Security::X509::X509ExtensionCollection get_Extensions() ;
 
 /// @brief Method get_Hash addr 0x228bc48 size 0x214 virtual false final false
  ::ArrayW<uint8_t> get_Hash() ;
@@ -264,32 +263,31 @@ explicit X509Crl(::ArrayW<uint8_t> crl) ;
  ::StringW get_IssuerName() ;
 
 /// @brief Method get_NextUpdate addr 0x228be64 size 0x8 virtual false final false
- ::System::DateTime get_NextUpdate() ;
+ System::DateTime get_NextUpdate() ;
 
 /// @brief Method Compare addr 0x228be6c size 0x7c virtual false final false
  bool Compare(::ArrayW<uint8_t> array1, ::ArrayW<uint8_t> array2) ;
 
 /// @brief Method GetCrlEntry addr 0x228bee8 size 0x80 virtual false final false
- ::Mono::Security::X509::____Mono__Security__X509__X509Crl__X509CrlEntry GetCrlEntry(::Mono::Security::X509::X509Certificate x509) ;
+ Mono::Security::X509::Mono__Security__X509__X509Crl__X509CrlEntry GetCrlEntry(Mono::Security::X509::X509Certificate x509) ;
 
 /// @brief Method GetCrlEntry addr 0x228bf68 size 0x148 virtual false final false
- ::Mono::Security::X509::____Mono__Security__X509__X509Crl__X509CrlEntry GetCrlEntry(::ArrayW<uint8_t> serialNumber) ;
+ Mono::Security::X509::Mono__Security__X509__X509Crl__X509CrlEntry GetCrlEntry(::ArrayW<uint8_t> serialNumber) ;
 
 /// @brief Method VerifySignature addr 0x228c128 size 0x2cc virtual false final false
- bool VerifySignature(::System::Security::Cryptography::DSA dsa) ;
+ bool VerifySignature(System::Security::Cryptography::DSA dsa) ;
 
 /// @brief Method VerifySignature addr 0x228c3f4 size 0xd4 virtual false final false
- bool VerifySignature(::System::Security::Cryptography::RSA rsa) ;
+ bool VerifySignature(System::Security::Cryptography::RSA rsa) ;
 
 /// @brief Method VerifySignature addr 0x228c4c8 size 0x18c virtual false final false
- bool VerifySignature(::System::Security::Cryptography::AsymmetricAlgorithm aa) ;
+ bool VerifySignature(System::Security::Cryptography::AsymmetricAlgorithm aa) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Security::X509
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Security::X509::X509Crl);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::X509::X509Crl, "Mono.Security.X509", "X509Crl");
-NEED_NO_BOX(::Mono::Security::X509::____Mono__Security__X509__X509Crl__X509CrlEntry);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::X509::____Mono__Security__X509__X509Crl__X509CrlEntry, "Mono.Security.X509", "X509Crl/X509CrlEntry");
+NEED_NO_BOX(Mono::Security::X509::Mono__Security__X509__X509Crl__X509CrlEntry);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::Mono__Security__X509__X509Crl__X509CrlEntry, "Mono.Security.X509", "X509Crl/X509CrlEntry");
+NEED_NO_BOX(Mono::Security::X509::X509Crl);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Crl, "Mono.Security.X509", "X509Crl");

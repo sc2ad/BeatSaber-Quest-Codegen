@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace System::Runtime::Serialization {
-class IFormatterConverter;
-}
 namespace System {
 class Type;
+}
+namespace System::Runtime::Serialization {
+class IFormatterConverter;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -24,8 +23,8 @@ namespace System::Runtime::Serialization {
 class CORDL_TYPE FormatterConverter : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::Serialization::IFormatterConverter
-constexpr operator  ::System::Runtime::Serialization::IFormatterConverter() const noexcept;
+/// @brief Convert operator to System::Runtime::Serialization::IFormatterConverter
+constexpr operator  System::Runtime::Serialization::IFormatterConverter() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -61,7 +60,7 @@ constexpr explicit FormatterConverter(void* ptr) noexcept : ::bs_hook::Il2CppWra
 // Methods
 
 /// @brief Method Convert addr 0x2348854 size 0xa0 virtual true final true
- ::bs_hook::Il2CppWrapperType Convert(::bs_hook::Il2CppWrapperType value, ::System::Type type) ;
+ ::bs_hook::Il2CppWrapperType Convert(::bs_hook::Il2CppWrapperType value, System::Type type) ;
 
 /// @brief Method ToBoolean addr 0x2348944 size 0x98 virtual true final true
  bool ToBoolean(::bs_hook::Il2CppWrapperType value) ;
@@ -91,6 +90,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::FormatterConverter);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::FormatterConverter, "System.Runtime.Serialization", "FormatterConverter");
+NEED_NO_BOX(System::Runtime::Serialization::FormatterConverter);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::FormatterConverter, "System.Runtime.Serialization", "FormatterConverter");

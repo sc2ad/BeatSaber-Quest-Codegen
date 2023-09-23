@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::IO {
 class StringReader;
@@ -16,7 +15,7 @@ namespace System::IO {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3569))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3608))
 // CS Name: System.IO.StringReader
-class CORDL_TYPE StringReader : public ::System::IO::TextReader {
+class CORDL_TYPE StringReader : public System::IO::TextReader {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr StringReader(StringReader const& ) noexcept = default;
 constexpr StringReader(StringReader&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit StringReader(void* ptr) noexcept : ::System::IO::TextReader(ptr) {
+constexpr explicit StringReader(void* ptr) noexcept : System::IO::TextReader(ptr) {
 }
 
 
@@ -104,6 +103,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::IO
-} // end anonymous namespace
-NEED_NO_BOX(::System::IO::StringReader);
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::StringReader, "System.IO", "StringReader");
+NEED_NO_BOX(System::IO::StringReader);
+DEFINE_IL2CPP_ARG_TYPE(System::IO::StringReader, "System.IO", "StringReader");

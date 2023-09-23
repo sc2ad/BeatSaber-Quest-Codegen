@@ -3,12 +3,11 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace Mono::Math {
-class BigInteger;
-}
 namespace Mono::Math::Prime {
 struct ConfidenceFactor;
+}
+namespace Mono::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Mono::Math::Prime {
@@ -18,9 +17,9 @@ class PrimalityTest;
 namespace Mono::Math::Prime {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14020))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2292))
 // CS Name: Mono.Math.Prime.PrimalityTest
-class CORDL_TYPE PrimalityTest : public ::System::MulticastDelegate {
+class CORDL_TYPE PrimalityTest : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr PrimalityTest(PrimalityTest const& ) noexcept = default;
 constexpr PrimalityTest(PrimalityTest&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PrimalityTest(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit PrimalityTest(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -59,16 +58,15 @@ constexpr explicit PrimalityTest(void* ptr) noexcept : ::System::MulticastDelega
 // Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
 explicit PrimalityTest(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
-/// @brief Method .ctor addr 0x22a27fc size 0x130 virtual false final false
+/// @brief Method .ctor addr 0x22bdcc0 size 0x130 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
-/// @brief Method Invoke addr 0x22a292c size 0x14 virtual true final false
- bool Invoke(::Mono::Math::BigInteger bi, ::Mono::Math::Prime::ConfidenceFactor confidence) ;
+/// @brief Method Invoke addr 0x22bddf0 size 0x14 virtual true final false
+ bool Invoke(Mono::Math::BigInteger bi, Mono::Math::Prime::ConfidenceFactor confidence) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Math::Prime
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Math::Prime::PrimalityTest);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Math::Prime::PrimalityTest, "Mono.Math.Prime", "PrimalityTest");
+NEED_NO_BOX(Mono::Math::Prime::PrimalityTest);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Math::Prime::PrimalityTest, "Mono.Math.Prime", "PrimalityTest");

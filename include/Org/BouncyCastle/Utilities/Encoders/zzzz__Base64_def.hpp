@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::IO {
 class Stream;
 }
@@ -73,10 +72,10 @@ static ::ArrayW<uint8_t> Encode(::ArrayW<uint8_t> data) ;
 static ::ArrayW<uint8_t> Encode(::ArrayW<uint8_t> data, int32_t off, int32_t length) ;
 
 /// @brief Method Encode addr 0x10cf9d4 size 0x50 virtual false final false
-static int32_t Encode(::ArrayW<uint8_t> data, ::System::IO::Stream outStream) ;
+static int32_t Encode(::ArrayW<uint8_t> data, System::IO::Stream outStream) ;
 
 /// @brief Method Encode addr 0x10cfa24 size 0x50 virtual false final false
-static int32_t Encode(::ArrayW<uint8_t> data, int32_t off, int32_t length, ::System::IO::Stream outStream) ;
+static int32_t Encode(::ArrayW<uint8_t> data, int32_t off, int32_t length, System::IO::Stream outStream) ;
 
 /// @brief Method Decode addr 0x10cfa74 size 0x6c virtual false final false
 static ::ArrayW<uint8_t> Decode(::ArrayW<uint8_t> data) ;
@@ -85,12 +84,11 @@ static ::ArrayW<uint8_t> Decode(::ArrayW<uint8_t> data) ;
 static ::ArrayW<uint8_t> Decode(::StringW data) ;
 
 /// @brief Method Decode addr 0x10cfb38 size 0x50 virtual false final false
-static int32_t Decode(::StringW data, ::System::IO::Stream outStream) ;
+static int32_t Decode(::StringW data, System::IO::Stream outStream) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities::Encoders
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::Encoders::Base64);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Encoders::Base64, "Org.BouncyCastle.Utilities.Encoders", "Base64");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Encoders::Base64);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Encoders::Base64, "Org.BouncyCastle.Utilities.Encoders", "Base64");

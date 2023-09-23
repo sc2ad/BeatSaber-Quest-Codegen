@@ -1,20 +1,19 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace System {
-template<typename T>
-class IObserver_1;
-}
 namespace System {
 class Exception;
+}
+namespace System {
+class Action;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace System {
-class Action;
+template<typename T>
+class IObserver_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -37,8 +36,8 @@ template<::cordl_internals::il2cpp_reference_type TValue>
 class CORDL_TYPE Observer_1<TValue> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IObserver_1<TValue>
-constexpr operator  ::System::IObserver_1<TValue>() const noexcept;
+/// @brief Convert operator to System::IObserver_1<TValue>
+constexpr operator  System::IObserver_1<TValue>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -73,32 +72,32 @@ constexpr explicit Observer_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType
 
 // Fields
 
- ::System::Action_1<TValue> __declspec(property(get=__get_m_OnNext, put=__set_m_OnNext))  m_OnNext;
+ System::Action_1<TValue> __declspec(property(get=__get_m_OnNext, put=__set_m_OnNext))  m_OnNext;
 
-constexpr void __set_m_OnNext(::System::Action_1<TValue> value) ;
+constexpr void __set_m_OnNext(System::Action_1<TValue> value) ;
 
-constexpr ::System::Action_1<TValue> __get_m_OnNext() const;
+constexpr System::Action_1<TValue> __get_m_OnNext() const;
 
- ::System::Action __declspec(property(get=__get_m_OnCompleted, put=__set_m_OnCompleted))  m_OnCompleted;
+ System::Action __declspec(property(get=__get_m_OnCompleted, put=__set_m_OnCompleted))  m_OnCompleted;
 
-constexpr void __set_m_OnCompleted(::System::Action value) ;
+constexpr void __set_m_OnCompleted(System::Action value) ;
 
-constexpr ::System::Action __get_m_OnCompleted() const;
+constexpr System::Action __get_m_OnCompleted() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "onNext", ty: "::System::Action_1<TValue>", modifiers: "", def_value: None }, CppParam { name: "onCompleted", ty: "::System::Action", modifiers: "", def_value: None }]
-explicit Observer_1(::System::Action_1<TValue> onNext, ::System::Action onCompleted) ;
+// Ctor Parameters [CppParam { name: "onNext", ty: "System::Action_1<TValue>", modifiers: "", def_value: None }, CppParam { name: "onCompleted", ty: "System::Action", modifiers: "", def_value: None }]
+explicit Observer_1(System::Action_1<TValue> onNext, System::Action onCompleted) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Action_1<TValue> onNext, ::System::Action onCompleted) ;
+ void _ctor(System::Action_1<TValue> onNext, System::Action onCompleted) ;
 
 /// @brief Method OnCompleted addr 0x0 size 0xffffffffffffffff virtual true final true
  void OnCompleted() ;
 
 /// @brief Method OnError addr 0x0 size 0xffffffffffffffff virtual true final true
- void OnError(::System::Exception error) ;
+ void OnError(System::Exception error) ;
 
 /// @brief Method OnNext addr 0x0 size 0xffffffffffffffff virtual true final true
  void OnNext(TValue evt) ;
@@ -107,5 +106,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Utilities
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::InputSystem::Utilities::Observer_1, "UnityEngine.InputSystem.Utilities", "Observer`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::InputSystem::Utilities::Observer_1, "UnityEngine.InputSystem.Utilities", "Observer`1");

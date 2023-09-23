@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/DualShock/zzzz__DualShockGamepad_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem::Android {
 class DualShock4GamepadAndroid;
@@ -12,7 +11,7 @@ namespace UnityEngine::InputSystem::Android {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6506))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6513))
 // CS Name: UnityEngine.InputSystem.Android.DualShock4GamepadAndroid
-class CORDL_TYPE DualShock4GamepadAndroid : public ::UnityEngine::InputSystem::DualShock::DualShockGamepad {
+class CORDL_TYPE DualShock4GamepadAndroid : public UnityEngine::InputSystem::DualShock::DualShockGamepad {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr DualShock4GamepadAndroid(DualShock4GamepadAndroid const& ) noexcept = 
 constexpr DualShock4GamepadAndroid(DualShock4GamepadAndroid&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DualShock4GamepadAndroid(void* ptr) noexcept : ::UnityEngine::InputSystem::DualShock::DualShockGamepad(ptr) {
+constexpr explicit DualShock4GamepadAndroid(void* ptr) noexcept : UnityEngine::InputSystem::DualShock::DualShockGamepad(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Android
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Android::DualShock4GamepadAndroid);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Android::DualShock4GamepadAndroid, "UnityEngine.InputSystem.Android", "DualShock4GamepadAndroid");
+NEED_NO_BOX(UnityEngine::InputSystem::Android::DualShock4GamepadAndroid);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Android::DualShock4GamepadAndroid, "UnityEngine.InputSystem.Android", "DualShock4GamepadAndroid");

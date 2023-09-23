@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security::AccessControl {
 struct AuditFlags;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::Security::AccessControl::AuditFlags const None;
+static System::Security::AccessControl::AuditFlags const None;
 
 /// @brief Field Success offset 0
-static ::System::Security::AccessControl::AuditFlags const Success;
+static System::Security::AccessControl::AuditFlags const Success;
 
 /// @brief Field Failure offset 0
-static ::System::Security::AccessControl::AuditFlags const Failure;
+static System::Security::AccessControl::AuditFlags const Failure;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Security::AccessControl
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::AccessControl::AuditFlags, "System.Security.AccessControl", "AuditFlags");
+DEFINE_IL2CPP_ARG_TYPE(System::Security::AccessControl::AuditFlags, "System.Security.AccessControl", "AuditFlags");

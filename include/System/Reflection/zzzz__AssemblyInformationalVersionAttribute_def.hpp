@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace System::Reflection {
 class AssemblyInformationalVersionAttribute;
@@ -13,7 +12,7 @@ namespace System::Reflection {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3444))
 // CS Name: System.Reflection.AssemblyInformationalVersionAttribute
-class CORDL_TYPE AssemblyInformationalVersionAttribute : public ::System::Attribute {
+class CORDL_TYPE AssemblyInformationalVersionAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr AssemblyInformationalVersionAttribute(AssemblyInformationalVersionAttr
 constexpr AssemblyInformationalVersionAttribute(AssemblyInformationalVersionAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AssemblyInformationalVersionAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit AssemblyInformationalVersionAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -68,6 +67,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Reflection
-} // end anonymous namespace
-NEED_NO_BOX(::System::Reflection::AssemblyInformationalVersionAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::AssemblyInformationalVersionAttribute, "System.Reflection", "AssemblyInformationalVersionAttribute");
+NEED_NO_BOX(System::Reflection::AssemblyInformationalVersionAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyInformationalVersionAttribute, "System.Reflection", "AssemblyInformationalVersionAttribute");

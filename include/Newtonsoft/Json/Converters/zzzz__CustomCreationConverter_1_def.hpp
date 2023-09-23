@@ -2,15 +2,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
+namespace Newtonsoft::Json {
+class JsonReader;
+}
 namespace Newtonsoft::Json {
 class JsonSerializer;
 }
 namespace Newtonsoft::Json {
 class JsonWriter;
-}
-namespace Newtonsoft::Json {
-class JsonReader;
 }
 namespace System {
 class Type;
@@ -33,7 +32,7 @@ template<::cordl_internals::il2cpp_reference_type T>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11772)), TypeDefinitionIndex(TypeDefinitionIndex(11973))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11973), inst: 2 })
 // CS Name: Newtonsoft.Json.Converters.CustomCreationConverter`1
-class CORDL_TYPE CustomCreationConverter_1<T> : public ::Newtonsoft::Json::JsonConverter {
+class CORDL_TYPE CustomCreationConverter_1<T> : public Newtonsoft::Json::JsonConverter {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -48,7 +47,7 @@ constexpr CustomCreationConverter_1(CustomCreationConverter_1 const& ) noexcept 
 constexpr CustomCreationConverter_1(CustomCreationConverter_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CustomCreationConverter_1(void* ptr) noexcept : ::Newtonsoft::Json::JsonConverter(ptr) {
+constexpr explicit CustomCreationConverter_1(void* ptr) noexcept : Newtonsoft::Json::JsonConverter(ptr) {
 }
 
 
@@ -75,16 +74,16 @@ constexpr explicit CustomCreationConverter_1(void* ptr) noexcept : ::Newtonsoft:
 // Methods
 
 /// @brief Method WriteJson addr 0x0 size 0xffffffffffffffff virtual true final false
- void WriteJson(::Newtonsoft::Json::JsonWriter writer, ::bs_hook::Il2CppWrapperType value, ::Newtonsoft::Json::JsonSerializer serializer) ;
+ void WriteJson(Newtonsoft::Json::JsonWriter writer, ::bs_hook::Il2CppWrapperType value, Newtonsoft::Json::JsonSerializer serializer) ;
 
 /// @brief Method ReadJson addr 0x0 size 0xffffffffffffffff virtual true final false
- ::bs_hook::Il2CppWrapperType ReadJson(::Newtonsoft::Json::JsonReader reader, ::System::Type objectType, ::bs_hook::Il2CppWrapperType existingValue, ::Newtonsoft::Json::JsonSerializer serializer) ;
+ ::bs_hook::Il2CppWrapperType ReadJson(Newtonsoft::Json::JsonReader reader, System::Type objectType, ::bs_hook::Il2CppWrapperType existingValue, Newtonsoft::Json::JsonSerializer serializer) ;
 
 /// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual true final false
- T Create(::System::Type objectType) ;
+ T Create(System::Type objectType) ;
 
 /// @brief Method CanConvert addr 0x0 size 0xffffffffffffffff virtual true final false
- bool CanConvert(::System::Type objectType) ;
+ bool CanConvert(System::Type objectType) ;
 
 /// @brief Method get_CanWrite addr 0x0 size 0xffffffffffffffff virtual true final false
  bool get_CanWrite() ;
@@ -99,5 +98,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Converters
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Newtonsoft::Json::Converters::CustomCreationConverter_1, "Newtonsoft.Json.Converters", "CustomCreationConverter`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Newtonsoft::Json::Converters::CustomCreationConverter_1, "Newtonsoft.Json.Converters", "CustomCreationConverter`1");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct EVREventType;
@@ -213,452 +212,451 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field VREvent_None offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_None;
+static OVR::OpenVR::EVREventType const VREvent_None;
 
 /// @brief Field VREvent_TrackedDeviceActivated offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_TrackedDeviceActivated;
+static OVR::OpenVR::EVREventType const VREvent_TrackedDeviceActivated;
 
 /// @brief Field VREvent_TrackedDeviceDeactivated offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_TrackedDeviceDeactivated;
+static OVR::OpenVR::EVREventType const VREvent_TrackedDeviceDeactivated;
 
 /// @brief Field VREvent_TrackedDeviceUpdated offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_TrackedDeviceUpdated;
+static OVR::OpenVR::EVREventType const VREvent_TrackedDeviceUpdated;
 
 /// @brief Field VREvent_TrackedDeviceUserInteractionStarted offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_TrackedDeviceUserInteractionStarted;
+static OVR::OpenVR::EVREventType const VREvent_TrackedDeviceUserInteractionStarted;
 
 /// @brief Field VREvent_TrackedDeviceUserInteractionEnded offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_TrackedDeviceUserInteractionEnded;
+static OVR::OpenVR::EVREventType const VREvent_TrackedDeviceUserInteractionEnded;
 
 /// @brief Field VREvent_IpdChanged offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_IpdChanged;
+static OVR::OpenVR::EVREventType const VREvent_IpdChanged;
 
 /// @brief Field VREvent_EnterStandbyMode offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_EnterStandbyMode;
+static OVR::OpenVR::EVREventType const VREvent_EnterStandbyMode;
 
 /// @brief Field VREvent_LeaveStandbyMode offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_LeaveStandbyMode;
+static OVR::OpenVR::EVREventType const VREvent_LeaveStandbyMode;
 
 /// @brief Field VREvent_TrackedDeviceRoleChanged offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_TrackedDeviceRoleChanged;
+static OVR::OpenVR::EVREventType const VREvent_TrackedDeviceRoleChanged;
 
 /// @brief Field VREvent_WatchdogWakeUpRequested offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_WatchdogWakeUpRequested;
+static OVR::OpenVR::EVREventType const VREvent_WatchdogWakeUpRequested;
 
 /// @brief Field VREvent_LensDistortionChanged offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_LensDistortionChanged;
+static OVR::OpenVR::EVREventType const VREvent_LensDistortionChanged;
 
 /// @brief Field VREvent_PropertyChanged offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_PropertyChanged;
+static OVR::OpenVR::EVREventType const VREvent_PropertyChanged;
 
 /// @brief Field VREvent_WirelessDisconnect offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_WirelessDisconnect;
+static OVR::OpenVR::EVREventType const VREvent_WirelessDisconnect;
 
 /// @brief Field VREvent_WirelessReconnect offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_WirelessReconnect;
+static OVR::OpenVR::EVREventType const VREvent_WirelessReconnect;
 
 /// @brief Field VREvent_ButtonPress offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_ButtonPress;
+static OVR::OpenVR::EVREventType const VREvent_ButtonPress;
 
 /// @brief Field VREvent_ButtonUnpress offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_ButtonUnpress;
+static OVR::OpenVR::EVREventType const VREvent_ButtonUnpress;
 
 /// @brief Field VREvent_ButtonTouch offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_ButtonTouch;
+static OVR::OpenVR::EVREventType const VREvent_ButtonTouch;
 
 /// @brief Field VREvent_ButtonUntouch offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_ButtonUntouch;
+static OVR::OpenVR::EVREventType const VREvent_ButtonUntouch;
 
 /// @brief Field VREvent_DualAnalog_Press offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_DualAnalog_Press;
+static OVR::OpenVR::EVREventType const VREvent_DualAnalog_Press;
 
 /// @brief Field VREvent_DualAnalog_Unpress offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_DualAnalog_Unpress;
+static OVR::OpenVR::EVREventType const VREvent_DualAnalog_Unpress;
 
 /// @brief Field VREvent_DualAnalog_Touch offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_DualAnalog_Touch;
+static OVR::OpenVR::EVREventType const VREvent_DualAnalog_Touch;
 
 /// @brief Field VREvent_DualAnalog_Untouch offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_DualAnalog_Untouch;
+static OVR::OpenVR::EVREventType const VREvent_DualAnalog_Untouch;
 
 /// @brief Field VREvent_DualAnalog_Move offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_DualAnalog_Move;
+static OVR::OpenVR::EVREventType const VREvent_DualAnalog_Move;
 
 /// @brief Field VREvent_DualAnalog_ModeSwitch1 offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_DualAnalog_ModeSwitch1;
+static OVR::OpenVR::EVREventType const VREvent_DualAnalog_ModeSwitch1;
 
 /// @brief Field VREvent_DualAnalog_ModeSwitch2 offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_DualAnalog_ModeSwitch2;
+static OVR::OpenVR::EVREventType const VREvent_DualAnalog_ModeSwitch2;
 
 /// @brief Field VREvent_DualAnalog_Cancel offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_DualAnalog_Cancel;
+static OVR::OpenVR::EVREventType const VREvent_DualAnalog_Cancel;
 
 /// @brief Field VREvent_MouseMove offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_MouseMove;
+static OVR::OpenVR::EVREventType const VREvent_MouseMove;
 
 /// @brief Field VREvent_MouseButtonDown offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_MouseButtonDown;
+static OVR::OpenVR::EVREventType const VREvent_MouseButtonDown;
 
 /// @brief Field VREvent_MouseButtonUp offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_MouseButtonUp;
+static OVR::OpenVR::EVREventType const VREvent_MouseButtonUp;
 
 /// @brief Field VREvent_FocusEnter offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_FocusEnter;
+static OVR::OpenVR::EVREventType const VREvent_FocusEnter;
 
 /// @brief Field VREvent_FocusLeave offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_FocusLeave;
+static OVR::OpenVR::EVREventType const VREvent_FocusLeave;
 
 /// @brief Field VREvent_Scroll offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_Scroll;
+static OVR::OpenVR::EVREventType const VREvent_Scroll;
 
 /// @brief Field VREvent_TouchPadMove offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_TouchPadMove;
+static OVR::OpenVR::EVREventType const VREvent_TouchPadMove;
 
 /// @brief Field VREvent_OverlayFocusChanged offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_OverlayFocusChanged;
+static OVR::OpenVR::EVREventType const VREvent_OverlayFocusChanged;
 
 /// @brief Field VREvent_InputFocusCaptured offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_InputFocusCaptured;
+static OVR::OpenVR::EVREventType const VREvent_InputFocusCaptured;
 
 /// @brief Field VREvent_InputFocusReleased offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_InputFocusReleased;
+static OVR::OpenVR::EVREventType const VREvent_InputFocusReleased;
 
 /// @brief Field VREvent_SceneFocusLost offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_SceneFocusLost;
+static OVR::OpenVR::EVREventType const VREvent_SceneFocusLost;
 
 /// @brief Field VREvent_SceneFocusGained offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_SceneFocusGained;
+static OVR::OpenVR::EVREventType const VREvent_SceneFocusGained;
 
 /// @brief Field VREvent_SceneApplicationChanged offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_SceneApplicationChanged;
+static OVR::OpenVR::EVREventType const VREvent_SceneApplicationChanged;
 
 /// @brief Field VREvent_SceneFocusChanged offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_SceneFocusChanged;
+static OVR::OpenVR::EVREventType const VREvent_SceneFocusChanged;
 
 /// @brief Field VREvent_InputFocusChanged offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_InputFocusChanged;
+static OVR::OpenVR::EVREventType const VREvent_InputFocusChanged;
 
 /// @brief Field VREvent_SceneApplicationSecondaryRenderingStarted offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_SceneApplicationSecondaryRenderingStarted;
+static OVR::OpenVR::EVREventType const VREvent_SceneApplicationSecondaryRenderingStarted;
 
 /// @brief Field VREvent_SceneApplicationUsingWrongGraphicsAdapter offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_SceneApplicationUsingWrongGraphicsAdapter;
+static OVR::OpenVR::EVREventType const VREvent_SceneApplicationUsingWrongGraphicsAdapter;
 
 /// @brief Field VREvent_ActionBindingReloaded offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_ActionBindingReloaded;
+static OVR::OpenVR::EVREventType const VREvent_ActionBindingReloaded;
 
 /// @brief Field VREvent_HideRenderModels offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_HideRenderModels;
+static OVR::OpenVR::EVREventType const VREvent_HideRenderModels;
 
 /// @brief Field VREvent_ShowRenderModels offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_ShowRenderModels;
+static OVR::OpenVR::EVREventType const VREvent_ShowRenderModels;
 
 /// @brief Field VREvent_ConsoleOpened offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_ConsoleOpened;
+static OVR::OpenVR::EVREventType const VREvent_ConsoleOpened;
 
 /// @brief Field VREvent_ConsoleClosed offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_ConsoleClosed;
+static OVR::OpenVR::EVREventType const VREvent_ConsoleClosed;
 
 /// @brief Field VREvent_OverlayShown offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_OverlayShown;
+static OVR::OpenVR::EVREventType const VREvent_OverlayShown;
 
 /// @brief Field VREvent_OverlayHidden offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_OverlayHidden;
+static OVR::OpenVR::EVREventType const VREvent_OverlayHidden;
 
 /// @brief Field VREvent_DashboardActivated offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_DashboardActivated;
+static OVR::OpenVR::EVREventType const VREvent_DashboardActivated;
 
 /// @brief Field VREvent_DashboardDeactivated offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_DashboardDeactivated;
+static OVR::OpenVR::EVREventType const VREvent_DashboardDeactivated;
 
 /// @brief Field VREvent_DashboardThumbSelected offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_DashboardThumbSelected;
+static OVR::OpenVR::EVREventType const VREvent_DashboardThumbSelected;
 
 /// @brief Field VREvent_DashboardRequested offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_DashboardRequested;
+static OVR::OpenVR::EVREventType const VREvent_DashboardRequested;
 
 /// @brief Field VREvent_ResetDashboard offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_ResetDashboard;
+static OVR::OpenVR::EVREventType const VREvent_ResetDashboard;
 
 /// @brief Field VREvent_RenderToast offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_RenderToast;
+static OVR::OpenVR::EVREventType const VREvent_RenderToast;
 
 /// @brief Field VREvent_ImageLoaded offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_ImageLoaded;
+static OVR::OpenVR::EVREventType const VREvent_ImageLoaded;
 
 /// @brief Field VREvent_ShowKeyboard offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_ShowKeyboard;
+static OVR::OpenVR::EVREventType const VREvent_ShowKeyboard;
 
 /// @brief Field VREvent_HideKeyboard offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_HideKeyboard;
+static OVR::OpenVR::EVREventType const VREvent_HideKeyboard;
 
 /// @brief Field VREvent_OverlayGamepadFocusGained offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_OverlayGamepadFocusGained;
+static OVR::OpenVR::EVREventType const VREvent_OverlayGamepadFocusGained;
 
 /// @brief Field VREvent_OverlayGamepadFocusLost offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_OverlayGamepadFocusLost;
+static OVR::OpenVR::EVREventType const VREvent_OverlayGamepadFocusLost;
 
 /// @brief Field VREvent_OverlaySharedTextureChanged offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_OverlaySharedTextureChanged;
+static OVR::OpenVR::EVREventType const VREvent_OverlaySharedTextureChanged;
 
 /// @brief Field VREvent_ScreenshotTriggered offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_ScreenshotTriggered;
+static OVR::OpenVR::EVREventType const VREvent_ScreenshotTriggered;
 
 /// @brief Field VREvent_ImageFailed offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_ImageFailed;
+static OVR::OpenVR::EVREventType const VREvent_ImageFailed;
 
 /// @brief Field VREvent_DashboardOverlayCreated offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_DashboardOverlayCreated;
+static OVR::OpenVR::EVREventType const VREvent_DashboardOverlayCreated;
 
 /// @brief Field VREvent_SwitchGamepadFocus offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_SwitchGamepadFocus;
+static OVR::OpenVR::EVREventType const VREvent_SwitchGamepadFocus;
 
 /// @brief Field VREvent_RequestScreenshot offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_RequestScreenshot;
+static OVR::OpenVR::EVREventType const VREvent_RequestScreenshot;
 
 /// @brief Field VREvent_ScreenshotTaken offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_ScreenshotTaken;
+static OVR::OpenVR::EVREventType const VREvent_ScreenshotTaken;
 
 /// @brief Field VREvent_ScreenshotFailed offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_ScreenshotFailed;
+static OVR::OpenVR::EVREventType const VREvent_ScreenshotFailed;
 
 /// @brief Field VREvent_SubmitScreenshotToDashboard offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_SubmitScreenshotToDashboard;
+static OVR::OpenVR::EVREventType const VREvent_SubmitScreenshotToDashboard;
 
 /// @brief Field VREvent_ScreenshotProgressToDashboard offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_ScreenshotProgressToDashboard;
+static OVR::OpenVR::EVREventType const VREvent_ScreenshotProgressToDashboard;
 
 /// @brief Field VREvent_PrimaryDashboardDeviceChanged offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_PrimaryDashboardDeviceChanged;
+static OVR::OpenVR::EVREventType const VREvent_PrimaryDashboardDeviceChanged;
 
 /// @brief Field VREvent_RoomViewShown offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_RoomViewShown;
+static OVR::OpenVR::EVREventType const VREvent_RoomViewShown;
 
 /// @brief Field VREvent_RoomViewHidden offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_RoomViewHidden;
+static OVR::OpenVR::EVREventType const VREvent_RoomViewHidden;
 
 /// @brief Field VREvent_Notification_Shown offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_Notification_Shown;
+static OVR::OpenVR::EVREventType const VREvent_Notification_Shown;
 
 /// @brief Field VREvent_Notification_Hidden offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_Notification_Hidden;
+static OVR::OpenVR::EVREventType const VREvent_Notification_Hidden;
 
 /// @brief Field VREvent_Notification_BeginInteraction offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_Notification_BeginInteraction;
+static OVR::OpenVR::EVREventType const VREvent_Notification_BeginInteraction;
 
 /// @brief Field VREvent_Notification_Destroyed offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_Notification_Destroyed;
+static OVR::OpenVR::EVREventType const VREvent_Notification_Destroyed;
 
 /// @brief Field VREvent_Quit offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_Quit;
+static OVR::OpenVR::EVREventType const VREvent_Quit;
 
 /// @brief Field VREvent_ProcessQuit offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_ProcessQuit;
+static OVR::OpenVR::EVREventType const VREvent_ProcessQuit;
 
 /// @brief Field VREvent_QuitAborted_UserPrompt offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_QuitAborted_UserPrompt;
+static OVR::OpenVR::EVREventType const VREvent_QuitAborted_UserPrompt;
 
 /// @brief Field VREvent_QuitAcknowledged offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_QuitAcknowledged;
+static OVR::OpenVR::EVREventType const VREvent_QuitAcknowledged;
 
 /// @brief Field VREvent_DriverRequestedQuit offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_DriverRequestedQuit;
+static OVR::OpenVR::EVREventType const VREvent_DriverRequestedQuit;
 
 /// @brief Field VREvent_ChaperoneDataHasChanged offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_ChaperoneDataHasChanged;
+static OVR::OpenVR::EVREventType const VREvent_ChaperoneDataHasChanged;
 
 /// @brief Field VREvent_ChaperoneUniverseHasChanged offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_ChaperoneUniverseHasChanged;
+static OVR::OpenVR::EVREventType const VREvent_ChaperoneUniverseHasChanged;
 
 /// @brief Field VREvent_ChaperoneTempDataHasChanged offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_ChaperoneTempDataHasChanged;
+static OVR::OpenVR::EVREventType const VREvent_ChaperoneTempDataHasChanged;
 
 /// @brief Field VREvent_ChaperoneSettingsHaveChanged offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_ChaperoneSettingsHaveChanged;
+static OVR::OpenVR::EVREventType const VREvent_ChaperoneSettingsHaveChanged;
 
 /// @brief Field VREvent_SeatedZeroPoseReset offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_SeatedZeroPoseReset;
+static OVR::OpenVR::EVREventType const VREvent_SeatedZeroPoseReset;
 
 /// @brief Field VREvent_AudioSettingsHaveChanged offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_AudioSettingsHaveChanged;
+static OVR::OpenVR::EVREventType const VREvent_AudioSettingsHaveChanged;
 
 /// @brief Field VREvent_BackgroundSettingHasChanged offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_BackgroundSettingHasChanged;
+static OVR::OpenVR::EVREventType const VREvent_BackgroundSettingHasChanged;
 
 /// @brief Field VREvent_CameraSettingsHaveChanged offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_CameraSettingsHaveChanged;
+static OVR::OpenVR::EVREventType const VREvent_CameraSettingsHaveChanged;
 
 /// @brief Field VREvent_ReprojectionSettingHasChanged offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_ReprojectionSettingHasChanged;
+static OVR::OpenVR::EVREventType const VREvent_ReprojectionSettingHasChanged;
 
 /// @brief Field VREvent_ModelSkinSettingsHaveChanged offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_ModelSkinSettingsHaveChanged;
+static OVR::OpenVR::EVREventType const VREvent_ModelSkinSettingsHaveChanged;
 
 /// @brief Field VREvent_EnvironmentSettingsHaveChanged offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_EnvironmentSettingsHaveChanged;
+static OVR::OpenVR::EVREventType const VREvent_EnvironmentSettingsHaveChanged;
 
 /// @brief Field VREvent_PowerSettingsHaveChanged offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_PowerSettingsHaveChanged;
+static OVR::OpenVR::EVREventType const VREvent_PowerSettingsHaveChanged;
 
 /// @brief Field VREvent_EnableHomeAppSettingsHaveChanged offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_EnableHomeAppSettingsHaveChanged;
+static OVR::OpenVR::EVREventType const VREvent_EnableHomeAppSettingsHaveChanged;
 
 /// @brief Field VREvent_SteamVRSectionSettingChanged offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_SteamVRSectionSettingChanged;
+static OVR::OpenVR::EVREventType const VREvent_SteamVRSectionSettingChanged;
 
 /// @brief Field VREvent_LighthouseSectionSettingChanged offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_LighthouseSectionSettingChanged;
+static OVR::OpenVR::EVREventType const VREvent_LighthouseSectionSettingChanged;
 
 /// @brief Field VREvent_NullSectionSettingChanged offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_NullSectionSettingChanged;
+static OVR::OpenVR::EVREventType const VREvent_NullSectionSettingChanged;
 
 /// @brief Field VREvent_UserInterfaceSectionSettingChanged offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_UserInterfaceSectionSettingChanged;
+static OVR::OpenVR::EVREventType const VREvent_UserInterfaceSectionSettingChanged;
 
 /// @brief Field VREvent_NotificationsSectionSettingChanged offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_NotificationsSectionSettingChanged;
+static OVR::OpenVR::EVREventType const VREvent_NotificationsSectionSettingChanged;
 
 /// @brief Field VREvent_KeyboardSectionSettingChanged offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_KeyboardSectionSettingChanged;
+static OVR::OpenVR::EVREventType const VREvent_KeyboardSectionSettingChanged;
 
 /// @brief Field VREvent_PerfSectionSettingChanged offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_PerfSectionSettingChanged;
+static OVR::OpenVR::EVREventType const VREvent_PerfSectionSettingChanged;
 
 /// @brief Field VREvent_DashboardSectionSettingChanged offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_DashboardSectionSettingChanged;
+static OVR::OpenVR::EVREventType const VREvent_DashboardSectionSettingChanged;
 
 /// @brief Field VREvent_WebInterfaceSectionSettingChanged offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_WebInterfaceSectionSettingChanged;
+static OVR::OpenVR::EVREventType const VREvent_WebInterfaceSectionSettingChanged;
 
 /// @brief Field VREvent_TrackersSectionSettingChanged offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_TrackersSectionSettingChanged;
+static OVR::OpenVR::EVREventType const VREvent_TrackersSectionSettingChanged;
 
 /// @brief Field VREvent_StatusUpdate offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_StatusUpdate;
+static OVR::OpenVR::EVREventType const VREvent_StatusUpdate;
 
 /// @brief Field VREvent_WebInterface_InstallDriverCompleted offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_WebInterface_InstallDriverCompleted;
+static OVR::OpenVR::EVREventType const VREvent_WebInterface_InstallDriverCompleted;
 
 /// @brief Field VREvent_MCImageUpdated offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_MCImageUpdated;
+static OVR::OpenVR::EVREventType const VREvent_MCImageUpdated;
 
 /// @brief Field VREvent_FirmwareUpdateStarted offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_FirmwareUpdateStarted;
+static OVR::OpenVR::EVREventType const VREvent_FirmwareUpdateStarted;
 
 /// @brief Field VREvent_FirmwareUpdateFinished offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_FirmwareUpdateFinished;
+static OVR::OpenVR::EVREventType const VREvent_FirmwareUpdateFinished;
 
 /// @brief Field VREvent_KeyboardClosed offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_KeyboardClosed;
+static OVR::OpenVR::EVREventType const VREvent_KeyboardClosed;
 
 /// @brief Field VREvent_KeyboardCharInput offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_KeyboardCharInput;
+static OVR::OpenVR::EVREventType const VREvent_KeyboardCharInput;
 
 /// @brief Field VREvent_KeyboardDone offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_KeyboardDone;
+static OVR::OpenVR::EVREventType const VREvent_KeyboardDone;
 
 /// @brief Field VREvent_ApplicationTransitionStarted offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_ApplicationTransitionStarted;
+static OVR::OpenVR::EVREventType const VREvent_ApplicationTransitionStarted;
 
 /// @brief Field VREvent_ApplicationTransitionAborted offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_ApplicationTransitionAborted;
+static OVR::OpenVR::EVREventType const VREvent_ApplicationTransitionAborted;
 
 /// @brief Field VREvent_ApplicationTransitionNewAppStarted offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_ApplicationTransitionNewAppStarted;
+static OVR::OpenVR::EVREventType const VREvent_ApplicationTransitionNewAppStarted;
 
 /// @brief Field VREvent_ApplicationListUpdated offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_ApplicationListUpdated;
+static OVR::OpenVR::EVREventType const VREvent_ApplicationListUpdated;
 
 /// @brief Field VREvent_ApplicationMimeTypeLoad offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_ApplicationMimeTypeLoad;
+static OVR::OpenVR::EVREventType const VREvent_ApplicationMimeTypeLoad;
 
 /// @brief Field VREvent_ApplicationTransitionNewAppLaunchComplete offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_ApplicationTransitionNewAppLaunchComplete;
+static OVR::OpenVR::EVREventType const VREvent_ApplicationTransitionNewAppLaunchComplete;
 
 /// @brief Field VREvent_ProcessConnected offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_ProcessConnected;
+static OVR::OpenVR::EVREventType const VREvent_ProcessConnected;
 
 /// @brief Field VREvent_ProcessDisconnected offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_ProcessDisconnected;
+static OVR::OpenVR::EVREventType const VREvent_ProcessDisconnected;
 
 /// @brief Field VREvent_Compositor_MirrorWindowShown offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_Compositor_MirrorWindowShown;
+static OVR::OpenVR::EVREventType const VREvent_Compositor_MirrorWindowShown;
 
 /// @brief Field VREvent_Compositor_MirrorWindowHidden offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_Compositor_MirrorWindowHidden;
+static OVR::OpenVR::EVREventType const VREvent_Compositor_MirrorWindowHidden;
 
 /// @brief Field VREvent_Compositor_ChaperoneBoundsShown offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_Compositor_ChaperoneBoundsShown;
+static OVR::OpenVR::EVREventType const VREvent_Compositor_ChaperoneBoundsShown;
 
 /// @brief Field VREvent_Compositor_ChaperoneBoundsHidden offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_Compositor_ChaperoneBoundsHidden;
+static OVR::OpenVR::EVREventType const VREvent_Compositor_ChaperoneBoundsHidden;
 
 /// @brief Field VREvent_TrackedCamera_StartVideoStream offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_TrackedCamera_StartVideoStream;
+static OVR::OpenVR::EVREventType const VREvent_TrackedCamera_StartVideoStream;
 
 /// @brief Field VREvent_TrackedCamera_StopVideoStream offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_TrackedCamera_StopVideoStream;
+static OVR::OpenVR::EVREventType const VREvent_TrackedCamera_StopVideoStream;
 
 /// @brief Field VREvent_TrackedCamera_PauseVideoStream offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_TrackedCamera_PauseVideoStream;
+static OVR::OpenVR::EVREventType const VREvent_TrackedCamera_PauseVideoStream;
 
 /// @brief Field VREvent_TrackedCamera_ResumeVideoStream offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_TrackedCamera_ResumeVideoStream;
+static OVR::OpenVR::EVREventType const VREvent_TrackedCamera_ResumeVideoStream;
 
 /// @brief Field VREvent_TrackedCamera_EditingSurface offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_TrackedCamera_EditingSurface;
+static OVR::OpenVR::EVREventType const VREvent_TrackedCamera_EditingSurface;
 
 /// @brief Field VREvent_PerformanceTest_EnableCapture offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_PerformanceTest_EnableCapture;
+static OVR::OpenVR::EVREventType const VREvent_PerformanceTest_EnableCapture;
 
 /// @brief Field VREvent_PerformanceTest_DisableCapture offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_PerformanceTest_DisableCapture;
+static OVR::OpenVR::EVREventType const VREvent_PerformanceTest_DisableCapture;
 
 /// @brief Field VREvent_PerformanceTest_FidelityLevel offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_PerformanceTest_FidelityLevel;
+static OVR::OpenVR::EVREventType const VREvent_PerformanceTest_FidelityLevel;
 
 /// @brief Field VREvent_MessageOverlay_Closed offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_MessageOverlay_Closed;
+static OVR::OpenVR::EVREventType const VREvent_MessageOverlay_Closed;
 
 /// @brief Field VREvent_MessageOverlayCloseRequested offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_MessageOverlayCloseRequested;
+static OVR::OpenVR::EVREventType const VREvent_MessageOverlayCloseRequested;
 
 /// @brief Field VREvent_Input_HapticVibration offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_Input_HapticVibration;
+static OVR::OpenVR::EVREventType const VREvent_Input_HapticVibration;
 
 /// @brief Field VREvent_Input_BindingLoadFailed offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_Input_BindingLoadFailed;
+static OVR::OpenVR::EVREventType const VREvent_Input_BindingLoadFailed;
 
 /// @brief Field VREvent_Input_BindingLoadSuccessful offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_Input_BindingLoadSuccessful;
+static OVR::OpenVR::EVREventType const VREvent_Input_BindingLoadSuccessful;
 
 /// @brief Field VREvent_Input_ActionManifestReloaded offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_Input_ActionManifestReloaded;
+static OVR::OpenVR::EVREventType const VREvent_Input_ActionManifestReloaded;
 
 /// @brief Field VREvent_Input_ActionManifestLoadFailed offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_Input_ActionManifestLoadFailed;
+static OVR::OpenVR::EVREventType const VREvent_Input_ActionManifestLoadFailed;
 
 /// @brief Field VREvent_SpatialAnchors_PoseUpdated offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_SpatialAnchors_PoseUpdated;
+static OVR::OpenVR::EVREventType const VREvent_SpatialAnchors_PoseUpdated;
 
 /// @brief Field VREvent_SpatialAnchors_DescriptorUpdated offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_SpatialAnchors_DescriptorUpdated;
+static OVR::OpenVR::EVREventType const VREvent_SpatialAnchors_DescriptorUpdated;
 
 /// @brief Field VREvent_SpatialAnchors_RequestPoseUpdate offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_SpatialAnchors_RequestPoseUpdate;
+static OVR::OpenVR::EVREventType const VREvent_SpatialAnchors_RequestPoseUpdate;
 
 /// @brief Field VREvent_SpatialAnchors_RequestDescriptorUpdate offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_SpatialAnchors_RequestDescriptorUpdate;
+static OVR::OpenVR::EVREventType const VREvent_SpatialAnchors_RequestDescriptorUpdate;
 
 /// @brief Field VREvent_VendorSpecific_Reserved_Start offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_VendorSpecific_Reserved_Start;
+static OVR::OpenVR::EVREventType const VREvent_VendorSpecific_Reserved_Start;
 
 /// @brief Field VREvent_VendorSpecific_Reserved_End offset 0
-static ::OVR::OpenVR::EVREventType const VREvent_VendorSpecific_Reserved_End;
+static OVR::OpenVR::EVREventType const VREvent_VendorSpecific_Reserved_End;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVREventType, "OVR.OpenVR", "EVREventType");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVREventType, "OVR.OpenVR", "EVREventType");

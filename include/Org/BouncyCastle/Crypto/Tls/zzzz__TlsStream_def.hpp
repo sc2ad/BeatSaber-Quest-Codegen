@@ -3,12 +3,11 @@
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace System::IO {
-struct SeekOrigin;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsProtocol;
+}
+namespace System::IO {
+struct SeekOrigin;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -20,7 +19,7 @@ namespace Org::BouncyCastle::Crypto::Tls {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3604))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1330))
 // CS Name: Org.BouncyCastle.Crypto.Tls.TlsStream
-class CORDL_TYPE TlsStream : public ::System::IO::Stream {
+class CORDL_TYPE TlsStream : public System::IO::Stream {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr TlsStream(TlsStream const& ) noexcept = default;
 constexpr TlsStream(TlsStream&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TlsStream(void* ptr) noexcept : ::System::IO::Stream(ptr) {
+constexpr explicit TlsStream(void* ptr) noexcept : System::IO::Stream(ptr) {
 }
 
 
@@ -56,11 +55,11 @@ constexpr explicit TlsStream(void* ptr) noexcept : ::System::IO::Stream(ptr) {
 
 // Fields
 
- ::Org::BouncyCastle::Crypto::Tls::TlsProtocol __declspec(property(get=__get_handler, put=__set_handler))  handler;
+ Org::BouncyCastle::Crypto::Tls::TlsProtocol __declspec(property(get=__get_handler, put=__set_handler))  handler;
 
-constexpr void __set_handler(::Org::BouncyCastle::Crypto::Tls::TlsProtocol value) ;
+constexpr void __set_handler(Org::BouncyCastle::Crypto::Tls::TlsProtocol value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::TlsProtocol __get_handler() const;
+constexpr Org::BouncyCastle::Crypto::Tls::TlsProtocol __get_handler() const;
 
 
 // Properties
@@ -78,11 +77,11 @@ constexpr ::Org::BouncyCastle::Crypto::Tls::TlsProtocol __get_handler() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "handler", ty: "::Org::BouncyCastle::Crypto::Tls::TlsProtocol", modifiers: "", def_value: None }]
-explicit TlsStream(::Org::BouncyCastle::Crypto::Tls::TlsProtocol handler) ;
+// Ctor Parameters [CppParam { name: "handler", ty: "Org::BouncyCastle::Crypto::Tls::TlsProtocol", modifiers: "", def_value: None }]
+explicit TlsStream(Org::BouncyCastle::Crypto::Tls::TlsProtocol handler) ;
 
 /// @brief Method .ctor addr 0xf2c22c size 0x6c virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsProtocol handler) ;
+ void _ctor(Org::BouncyCastle::Crypto::Tls::TlsProtocol handler) ;
 
 /// @brief Method get_CanRead addr 0xf2c298 size 0x30 virtual true final false
  bool get_CanRead() ;
@@ -115,7 +114,7 @@ explicit TlsStream(::Org::BouncyCastle::Crypto::Tls::TlsProtocol handler) ;
  int32_t ReadByte() ;
 
 /// @brief Method Seek addr 0xf2c4d4 size 0x40 virtual true final false
- int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin) ;
+ int64_t Seek(int64_t offset, System::IO::SeekOrigin origin) ;
 
 /// @brief Method SetLength addr 0xf2c514 size 0x40 virtual true final false
  void SetLength(int64_t value) ;
@@ -130,6 +129,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsStream);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::TlsStream, "Org.BouncyCastle.Crypto.Tls", "TlsStream");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::TlsStream);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::TlsStream, "Org.BouncyCastle.Crypto.Tls", "TlsStream");

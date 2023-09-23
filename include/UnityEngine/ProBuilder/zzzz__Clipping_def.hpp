@@ -4,13 +4,12 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Rect;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
-struct ____UnityEngine__ProBuilder__Clipping__OutCode;
+struct UnityEngine__ProBuilder__Clipping__OutCode;
 }
 namespace UnityEngine::ProBuilder {
 class Clipping;
@@ -21,20 +20,20 @@ namespace UnityEngine::ProBuilder {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12051))
 // CS Name: UnityEngine.ProBuilder.Clipping::OutCode
-struct CORDL_TYPE ____UnityEngine__ProBuilder__Clipping__OutCode : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__ProBuilder__Clipping__OutCode : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__ProBuilder__Clipping__OutCode(int32_t value__) noexcept;
+constexpr UnityEngine__ProBuilder__Clipping__OutCode(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__ProBuilder__Clipping__OutCode(____UnityEngine__ProBuilder__Clipping__OutCode const&) = default;
-                    constexpr ____UnityEngine__ProBuilder__Clipping__OutCode(____UnityEngine__ProBuilder__Clipping__OutCode&&) = default;
-                    constexpr ____UnityEngine__ProBuilder__Clipping__OutCode& operator=(____UnityEngine__ProBuilder__Clipping__OutCode const& o) {
+                    constexpr UnityEngine__ProBuilder__Clipping__OutCode(UnityEngine__ProBuilder__Clipping__OutCode const&) = default;
+                    constexpr UnityEngine__ProBuilder__Clipping__OutCode(UnityEngine__ProBuilder__Clipping__OutCode&&) = default;
+                    constexpr UnityEngine__ProBuilder__Clipping__OutCode& operator=(UnityEngine__ProBuilder__Clipping__OutCode const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__ProBuilder__Clipping__OutCode& operator=(____UnityEngine__ProBuilder__Clipping__OutCode&& o) noexcept {
+                    constexpr UnityEngine__ProBuilder__Clipping__OutCode& operator=(UnityEngine__ProBuilder__Clipping__OutCode&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -47,7 +46,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__ProBuilder__Clipping__OutCode(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__ProBuilder__Clipping__OutCode(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -55,7 +54,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__ProBuilder__Clipping__OutCode_Unwrapped : int32_t {
+enum class __UnityEngine__ProBuilder__Clipping__OutCode_Unwrapped : int32_t {
 __Inside = 0,
 __Left = 1,
 __Right = 2,
@@ -64,8 +63,8 @@ __Top = 8,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__ProBuilder__Clipping__OutCode_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__ProBuilder__Clipping__OutCode_Unwrapped>(__instance);
+constexpr operator __UnityEngine__ProBuilder__Clipping__OutCode_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__ProBuilder__Clipping__OutCode_Unwrapped>(__instance);
 }
 
 
@@ -78,19 +77,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Inside offset 0
-static ::UnityEngine::ProBuilder::____UnityEngine__ProBuilder__Clipping__OutCode const Inside;
+static UnityEngine::ProBuilder::UnityEngine__ProBuilder__Clipping__OutCode const Inside;
 
 /// @brief Field Left offset 0
-static ::UnityEngine::ProBuilder::____UnityEngine__ProBuilder__Clipping__OutCode const Left;
+static UnityEngine::ProBuilder::UnityEngine__ProBuilder__Clipping__OutCode const Left;
 
 /// @brief Field Right offset 0
-static ::UnityEngine::ProBuilder::____UnityEngine__ProBuilder__Clipping__OutCode const Right;
+static UnityEngine::ProBuilder::UnityEngine__ProBuilder__Clipping__OutCode const Right;
 
 /// @brief Field Bottom offset 0
-static ::UnityEngine::ProBuilder::____UnityEngine__ProBuilder__Clipping__OutCode const Bottom;
+static UnityEngine::ProBuilder::UnityEngine__ProBuilder__Clipping__OutCode const Bottom;
 
 /// @brief Field Top offset 0
-static ::UnityEngine::ProBuilder::____UnityEngine__ProBuilder__Clipping__OutCode const Top;
+static UnityEngine::ProBuilder::UnityEngine__ProBuilder__Clipping__OutCode const Top;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -105,7 +104,7 @@ namespace UnityEngine::ProBuilder {
 class CORDL_TYPE Clipping : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using OutCode = ::UnityEngine::ProBuilder::____UnityEngine__ProBuilder__Clipping__OutCode;
+using OutCode = UnityEngine::ProBuilder::UnityEngine__ProBuilder__Clipping__OutCode;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -141,16 +140,15 @@ constexpr explicit Clipping(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(p
 // Methods
 
 /// @brief Method ComputeOutCode addr 0x29a8898 size 0x9c virtual false final false
-static ::UnityEngine::ProBuilder::____UnityEngine__ProBuilder__Clipping__OutCode ComputeOutCode(::UnityEngine::Rect rect, float_t x, float_t y) ;
+static UnityEngine::ProBuilder::UnityEngine__ProBuilder__Clipping__OutCode ComputeOutCode(UnityEngine::Rect rect, float_t x, float_t y) ;
 
 /// @brief Method RectContainsLineSegment addr 0x29a8934 size 0x1c0 virtual false final false
-static bool RectContainsLineSegment(::UnityEngine::Rect rect, float_t x0, float_t y0, float_t x1, float_t y1) ;
+static bool RectContainsLineSegment(UnityEngine::Rect rect, float_t x0, float_t y0, float_t x1, float_t y1) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::____UnityEngine__ProBuilder__Clipping__OutCode, "UnityEngine.ProBuilder", "Clipping/OutCode");
-NEED_NO_BOX(::UnityEngine::ProBuilder::Clipping);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Clipping, "UnityEngine.ProBuilder", "Clipping");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::UnityEngine__ProBuilder__Clipping__OutCode, "UnityEngine.ProBuilder", "Clipping/OutCode");
+NEED_NO_BOX(UnityEngine::ProBuilder::Clipping);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Clipping, "UnityEngine.ProBuilder", "Clipping");

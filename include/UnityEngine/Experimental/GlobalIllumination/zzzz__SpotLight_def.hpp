@@ -3,7 +3,15 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
+namespace UnityEngine::Experimental::GlobalIllumination {
+struct AngularFalloffType;
+}
+namespace UnityEngine::Experimental::GlobalIllumination {
+struct LinearColor;
+}
+namespace UnityEngine {
+struct Vector3;
+}
 namespace UnityEngine::Experimental::GlobalIllumination {
 struct LightMode;
 }
@@ -11,16 +19,7 @@ namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine::Experimental::GlobalIllumination {
-struct LinearColor;
-}
-namespace UnityEngine::Experimental::GlobalIllumination {
 struct FalloffType;
-}
-namespace UnityEngine::Experimental::GlobalIllumination {
-struct AngularFalloffType;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::Experimental::GlobalIllumination {
@@ -35,8 +34,8 @@ namespace UnityEngine::Experimental::GlobalIllumination {
 struct CORDL_TYPE SpotLight : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "instanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "shadow", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "::UnityEngine::Experimental::GlobalIllumination::LightMode", modifiers: "", def_value: None }, CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "orientation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "color", ty: "::UnityEngine::Experimental::GlobalIllumination::LinearColor", modifiers: "", def_value: None }, CppParam { name: "indirectColor", ty: "::UnityEngine::Experimental::GlobalIllumination::LinearColor", modifiers: "", def_value: None }, CppParam { name: "range", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "sphereRadius", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "coneAngle", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "innerConeAngle", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "falloff", ty: "::UnityEngine::Experimental::GlobalIllumination::FalloffType", modifiers: "", def_value: None }, CppParam { name: "angularFalloff", ty: "::UnityEngine::Experimental::GlobalIllumination::AngularFalloffType", modifiers: "", def_value: None }]
-constexpr SpotLight(int32_t instanceID, bool shadow, ::UnityEngine::Experimental::GlobalIllumination::LightMode mode, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion orientation, ::UnityEngine::Experimental::GlobalIllumination::LinearColor color, ::UnityEngine::Experimental::GlobalIllumination::LinearColor indirectColor, float_t range, float_t sphereRadius, float_t coneAngle, float_t innerConeAngle, ::UnityEngine::Experimental::GlobalIllumination::FalloffType falloff, ::UnityEngine::Experimental::GlobalIllumination::AngularFalloffType angularFalloff) noexcept;
+// Ctor Parameters [CppParam { name: "instanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "shadow", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "UnityEngine::Experimental::GlobalIllumination::LightMode", modifiers: "", def_value: None }, CppParam { name: "position", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "orientation", ty: "UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "color", ty: "UnityEngine::Experimental::GlobalIllumination::LinearColor", modifiers: "", def_value: None }, CppParam { name: "indirectColor", ty: "UnityEngine::Experimental::GlobalIllumination::LinearColor", modifiers: "", def_value: None }, CppParam { name: "range", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "sphereRadius", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "coneAngle", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "innerConeAngle", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "falloff", ty: "UnityEngine::Experimental::GlobalIllumination::FalloffType", modifiers: "", def_value: None }, CppParam { name: "angularFalloff", ty: "UnityEngine::Experimental::GlobalIllumination::AngularFalloffType", modifiers: "", def_value: None }]
+constexpr SpotLight(int32_t instanceID, bool shadow, UnityEngine::Experimental::GlobalIllumination::LightMode mode, UnityEngine::Vector3 position, UnityEngine::Quaternion orientation, UnityEngine::Experimental::GlobalIllumination::LinearColor color, UnityEngine::Experimental::GlobalIllumination::LinearColor indirectColor, float_t range, float_t sphereRadius, float_t coneAngle, float_t innerConeAngle, UnityEngine::Experimental::GlobalIllumination::FalloffType falloff, UnityEngine::Experimental::GlobalIllumination::AngularFalloffType angularFalloff) noexcept;
 
 
                     constexpr SpotLight(SpotLight const&) = default;
@@ -81,35 +80,35 @@ constexpr void __set_shadow(bool value) ;
 
 constexpr bool __get_shadow() const;
 
- ::UnityEngine::Experimental::GlobalIllumination::LightMode __declspec(property(get=__get_mode, put=__set_mode))  mode;
+ UnityEngine::Experimental::GlobalIllumination::LightMode __declspec(property(get=__get_mode, put=__set_mode))  mode;
 
-constexpr void __set_mode(::UnityEngine::Experimental::GlobalIllumination::LightMode value) ;
+constexpr void __set_mode(UnityEngine::Experimental::GlobalIllumination::LightMode value) ;
 
-constexpr ::UnityEngine::Experimental::GlobalIllumination::LightMode __get_mode() const;
+constexpr UnityEngine::Experimental::GlobalIllumination::LightMode __get_mode() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_position, put=__set_position))  position;
+ UnityEngine::Vector3 __declspec(property(get=__get_position, put=__set_position))  position;
 
-constexpr void __set_position(::UnityEngine::Vector3 value) ;
+constexpr void __set_position(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_position() const;
+constexpr UnityEngine::Vector3 __get_position() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get_orientation, put=__set_orientation))  orientation;
+ UnityEngine::Quaternion __declspec(property(get=__get_orientation, put=__set_orientation))  orientation;
 
-constexpr void __set_orientation(::UnityEngine::Quaternion value) ;
+constexpr void __set_orientation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get_orientation() const;
+constexpr UnityEngine::Quaternion __get_orientation() const;
 
- ::UnityEngine::Experimental::GlobalIllumination::LinearColor __declspec(property(get=__get_color, put=__set_color))  color;
+ UnityEngine::Experimental::GlobalIllumination::LinearColor __declspec(property(get=__get_color, put=__set_color))  color;
 
-constexpr void __set_color(::UnityEngine::Experimental::GlobalIllumination::LinearColor value) ;
+constexpr void __set_color(UnityEngine::Experimental::GlobalIllumination::LinearColor value) ;
 
-constexpr ::UnityEngine::Experimental::GlobalIllumination::LinearColor __get_color() const;
+constexpr UnityEngine::Experimental::GlobalIllumination::LinearColor __get_color() const;
 
- ::UnityEngine::Experimental::GlobalIllumination::LinearColor __declspec(property(get=__get_indirectColor, put=__set_indirectColor))  indirectColor;
+ UnityEngine::Experimental::GlobalIllumination::LinearColor __declspec(property(get=__get_indirectColor, put=__set_indirectColor))  indirectColor;
 
-constexpr void __set_indirectColor(::UnityEngine::Experimental::GlobalIllumination::LinearColor value) ;
+constexpr void __set_indirectColor(UnityEngine::Experimental::GlobalIllumination::LinearColor value) ;
 
-constexpr ::UnityEngine::Experimental::GlobalIllumination::LinearColor __get_indirectColor() const;
+constexpr UnityEngine::Experimental::GlobalIllumination::LinearColor __get_indirectColor() const;
 
  float_t __declspec(property(get=__get_range, put=__set_range))  range;
 
@@ -135,21 +134,20 @@ constexpr void __set_innerConeAngle(float_t value) ;
 
 constexpr float_t __get_innerConeAngle() const;
 
- ::UnityEngine::Experimental::GlobalIllumination::FalloffType __declspec(property(get=__get_falloff, put=__set_falloff))  falloff;
+ UnityEngine::Experimental::GlobalIllumination::FalloffType __declspec(property(get=__get_falloff, put=__set_falloff))  falloff;
 
-constexpr void __set_falloff(::UnityEngine::Experimental::GlobalIllumination::FalloffType value) ;
+constexpr void __set_falloff(UnityEngine::Experimental::GlobalIllumination::FalloffType value) ;
 
-constexpr ::UnityEngine::Experimental::GlobalIllumination::FalloffType __get_falloff() const;
+constexpr UnityEngine::Experimental::GlobalIllumination::FalloffType __get_falloff() const;
 
- ::UnityEngine::Experimental::GlobalIllumination::AngularFalloffType __declspec(property(get=__get_angularFalloff, put=__set_angularFalloff))  angularFalloff;
+ UnityEngine::Experimental::GlobalIllumination::AngularFalloffType __declspec(property(get=__get_angularFalloff, put=__set_angularFalloff))  angularFalloff;
 
-constexpr void __set_angularFalloff(::UnityEngine::Experimental::GlobalIllumination::AngularFalloffType value) ;
+constexpr void __set_angularFalloff(UnityEngine::Experimental::GlobalIllumination::AngularFalloffType value) ;
 
-constexpr ::UnityEngine::Experimental::GlobalIllumination::AngularFalloffType __get_angularFalloff() const;
+constexpr UnityEngine::Experimental::GlobalIllumination::AngularFalloffType __get_angularFalloff() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Experimental::GlobalIllumination
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::GlobalIllumination::SpotLight, "UnityEngine.Experimental.GlobalIllumination", "SpotLight");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::SpotLight, "UnityEngine.Experimental.GlobalIllumination", "SpotLight");

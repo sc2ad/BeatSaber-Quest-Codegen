@@ -1,15 +1,14 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace UnityEngine::InputSystem {
 struct InputActionPhase;
 }
 namespace UnityEngine::InputSystem {
-struct Key;
+struct TouchPhase;
 }
 namespace UnityEngine::InputSystem {
-struct TouchPhase;
+struct Key;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -58,24 +57,23 @@ constexpr explicit InputExtensions(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 // Methods
 
 /// @brief Method IsInProgress addr 0x2918370 size 0x10 virtual false final false
-static bool IsInProgress(::UnityEngine::InputSystem::InputActionPhase phase) ;
+static bool IsInProgress(UnityEngine::InputSystem::InputActionPhase phase) ;
 
 /// @brief Method IsEndedOrCanceled addr 0x2918380 size 0x10 virtual false final false
-static bool IsEndedOrCanceled(::UnityEngine::InputSystem::TouchPhase phase) ;
+static bool IsEndedOrCanceled(UnityEngine::InputSystem::TouchPhase phase) ;
 
 /// @brief Method IsActive addr 0x2917c4c size 0x20 virtual false final false
-static bool IsActive(::UnityEngine::InputSystem::TouchPhase phase) ;
+static bool IsActive(UnityEngine::InputSystem::TouchPhase phase) ;
 
 /// @brief Method IsModifierKey addr 0x2918390 size 0x10 virtual false final false
-static bool IsModifierKey(::UnityEngine::InputSystem::Key key) ;
+static bool IsModifierKey(UnityEngine::InputSystem::Key key) ;
 
 /// @brief Method IsTextInputKey addr 0x29183a0 size 0x2c virtual false final false
-static bool IsTextInputKey(::UnityEngine::InputSystem::Key key) ;
+static bool IsTextInputKey(UnityEngine::InputSystem::Key key) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::InputExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::InputExtensions, "UnityEngine.InputSystem", "InputExtensions");
+NEED_NO_BOX(UnityEngine::InputSystem::InputExtensions);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::InputExtensions, "UnityEngine.InputSystem", "InputExtensions");

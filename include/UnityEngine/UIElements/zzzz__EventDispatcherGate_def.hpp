@@ -3,16 +3,15 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine::UIElements {
 class EventDispatcher;
 }
 namespace System {
-template<typename T>
-class IEquatable_1;
+class IDisposable;
 }
 namespace System {
-class IDisposable;
+template<typename T>
+class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -27,14 +26,14 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE EventDispatcherGate : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const;
 
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::UIElements::EventDispatcherGate>
+constexpr operator  System::IEquatable_1<UnityEngine::UIElements::EventDispatcherGate>() const;
 
-// Ctor Parameters [CppParam { name: "m_Dispatcher", ty: "::UnityEngine::UIElements::EventDispatcher", modifiers: "", def_value: None }]
-constexpr EventDispatcherGate(::UnityEngine::UIElements::EventDispatcher m_Dispatcher) noexcept;
+// Ctor Parameters [CppParam { name: "m_Dispatcher", ty: "UnityEngine::UIElements::EventDispatcher", modifiers: "", def_value: None }]
+constexpr EventDispatcherGate(UnityEngine::UIElements::EventDispatcher m_Dispatcher) noexcept;
 
 
                     constexpr EventDispatcherGate(EventDispatcherGate const&) = default;
@@ -67,23 +66,23 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::UIElements::EventDispatcher __declspec(property(get=__get_m_Dispatcher, put=__set_m_Dispatcher))  m_Dispatcher;
+ UnityEngine::UIElements::EventDispatcher __declspec(property(get=__get_m_Dispatcher, put=__set_m_Dispatcher))  m_Dispatcher;
 
-constexpr void __set_m_Dispatcher(::UnityEngine::UIElements::EventDispatcher value) ;
+constexpr void __set_m_Dispatcher(UnityEngine::UIElements::EventDispatcher value) ;
 
-constexpr ::UnityEngine::UIElements::EventDispatcher __get_m_Dispatcher() const;
+constexpr UnityEngine::UIElements::EventDispatcher __get_m_Dispatcher() const;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x2c89bac size 0x6c virtual false final false
- void _ctor(::UnityEngine::UIElements::EventDispatcher d) ;
+ void _ctor(UnityEngine::UIElements::EventDispatcher d) ;
 
 /// @brief Method Dispose addr 0x2c89c28 size 0x18 virtual true final true
  void Dispose() ;
 
 /// @brief Method Equals addr 0x2c89cc8 size 0xc virtual true final true
- bool Equals(::UnityEngine::UIElements::EventDispatcherGate other) ;
+ bool Equals(UnityEngine::UIElements::EventDispatcherGate other) ;
 
 /// @brief Method Equals addr 0x2c89cd4 size 0x7c virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -95,5 +94,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::EventDispatcherGate, "UnityEngine.UIElements", "EventDispatcherGate");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::EventDispatcherGate, "UnityEngine.UIElements", "EventDispatcherGate");

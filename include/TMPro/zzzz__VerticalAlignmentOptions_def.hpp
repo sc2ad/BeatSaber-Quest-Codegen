@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace TMPro {
 struct VerticalAlignmentOptions;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Top offset 0
-static ::TMPro::VerticalAlignmentOptions const Top;
+static TMPro::VerticalAlignmentOptions const Top;
 
 /// @brief Field Middle offset 0
-static ::TMPro::VerticalAlignmentOptions const Middle;
+static TMPro::VerticalAlignmentOptions const Middle;
 
 /// @brief Field Bottom offset 0
-static ::TMPro::VerticalAlignmentOptions const Bottom;
+static TMPro::VerticalAlignmentOptions const Bottom;
 
 /// @brief Field Baseline offset 0
-static ::TMPro::VerticalAlignmentOptions const Baseline;
+static TMPro::VerticalAlignmentOptions const Baseline;
 
 /// @brief Field Geometry offset 0
-static ::TMPro::VerticalAlignmentOptions const Geometry;
+static TMPro::VerticalAlignmentOptions const Geometry;
 
 /// @brief Field Capline offset 0
-static ::TMPro::VerticalAlignmentOptions const Capline;
+static TMPro::VerticalAlignmentOptions const Capline;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::VerticalAlignmentOptions, "TMPro", "VerticalAlignmentOptions");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::VerticalAlignmentOptions, "TMPro", "VerticalAlignmentOptions");

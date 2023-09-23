@@ -3,19 +3,18 @@
 #include "System/Xml/Schema/zzzz__BaseValidator_def.hpp"
 #include "System/Xml/zzzz__XmlNamespaceManager_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System::Xml::Schema {
-class SchemaAttDef;
-}
 namespace System::Xml {
 class IDtdParserAdapter;
+}
+namespace System::Xml::Schema {
+class SchemaAttDef;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
 class DtdValidator;
 }
 namespace System::Xml::Schema {
-class ____System__Xml__Schema__DtdValidator__NamespaceManager;
+class System__Xml__Schema__DtdValidator__NamespaceManager;
 }
 // Type: ::NamespaceManager
 namespace System::Xml::Schema {
@@ -23,37 +22,37 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11512))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11626))
 // CS Name: System.Xml.Schema.DtdValidator::NamespaceManager
-class CORDL_TYPE ____System__Xml__Schema__DtdValidator__NamespaceManager : public ::System::Xml::XmlNamespaceManager {
+class CORDL_TYPE System__Xml__Schema__DtdValidator__NamespaceManager : public System::Xml::XmlNamespaceManager {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x50};
 
-virtual ~____System__Xml__Schema__DtdValidator__NamespaceManager() = default;
+virtual ~System__Xml__Schema__DtdValidator__NamespaceManager() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Xml__Schema__DtdValidator__NamespaceManager", modifiers: " const&", def_value: None }]
-constexpr ____System__Xml__Schema__DtdValidator__NamespaceManager(____System__Xml__Schema__DtdValidator__NamespaceManager const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Xml__Schema__DtdValidator__NamespaceManager", modifiers: " const&", def_value: None }]
+constexpr System__Xml__Schema__DtdValidator__NamespaceManager(System__Xml__Schema__DtdValidator__NamespaceManager const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Xml__Schema__DtdValidator__NamespaceManager", modifiers: "&&", def_value: None }]
-constexpr ____System__Xml__Schema__DtdValidator__NamespaceManager(____System__Xml__Schema__DtdValidator__NamespaceManager&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Xml__Schema__DtdValidator__NamespaceManager", modifiers: "&&", def_value: None }]
+constexpr System__Xml__Schema__DtdValidator__NamespaceManager(System__Xml__Schema__DtdValidator__NamespaceManager&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Xml__Schema__DtdValidator__NamespaceManager(void* ptr) noexcept : ::System::Xml::XmlNamespaceManager(ptr) {
+constexpr explicit System__Xml__Schema__DtdValidator__NamespaceManager(void* ptr) noexcept : System::Xml::XmlNamespaceManager(ptr) {
 }
 
 
-  constexpr ____System__Xml__Schema__DtdValidator__NamespaceManager& operator=(std::nullptr_t) noexcept {
+  constexpr System__Xml__Schema__DtdValidator__NamespaceManager& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Xml__Schema__DtdValidator__NamespaceManager& operator=(void* o) noexcept {
+  constexpr System__Xml__Schema__DtdValidator__NamespaceManager& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Xml__Schema__DtdValidator__NamespaceManager& operator=(____System__Xml__Schema__DtdValidator__NamespaceManager&& o) noexcept = default;
-  constexpr ____System__Xml__Schema__DtdValidator__NamespaceManager& operator=(____System__Xml__Schema__DtdValidator__NamespaceManager const& o) noexcept = default;
+  constexpr System__Xml__Schema__DtdValidator__NamespaceManager& operator=(System__Xml__Schema__DtdValidator__NamespaceManager&& o) noexcept = default;
+  constexpr System__Xml__Schema__DtdValidator__NamespaceManager& operator=(System__Xml__Schema__DtdValidator__NamespaceManager const& o) noexcept = default;
                 
 
 
@@ -63,7 +62,7 @@ constexpr explicit ____System__Xml__Schema__DtdValidator__NamespaceManager(void*
  ::StringW LookupNamespace(::StringW prefix) ;
 
 // Ctor Parameters []
-explicit ____System__Xml__Schema__DtdValidator__NamespaceManager() ;
+explicit System__Xml__Schema__DtdValidator__NamespaceManager() ;
 
 /// @brief Method .ctor addr 0x272cfb8 size 0x8 virtual false final false
  void _ctor() ;
@@ -78,10 +77,10 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11535))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11627))
 // CS Name: System.Xml.Schema.DtdValidator
-class CORDL_TYPE DtdValidator : public ::System::Xml::Schema::BaseValidator {
+class CORDL_TYPE DtdValidator : public System::Xml::Schema::BaseValidator {
 public:
 // Declarations
-using NamespaceManager = ::System::Xml::Schema::____System__Xml__Schema__DtdValidator__NamespaceManager;
+using NamespaceManager = System::Xml::Schema::System__Xml__Schema__DtdValidator__NamespaceManager;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -95,7 +94,7 @@ constexpr DtdValidator(DtdValidator const& ) noexcept = default;
 constexpr DtdValidator(DtdValidator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DtdValidator(void* ptr) noexcept : ::System::Xml::Schema::BaseValidator(ptr) {
+constexpr explicit DtdValidator(void* ptr) noexcept : System::Xml::Schema::BaseValidator(ptr) {
 }
 
 
@@ -116,24 +115,23 @@ constexpr explicit DtdValidator(void* ptr) noexcept : ::System::Xml::Schema::Bas
 
 // Fields
 
-static ::System::Xml::Schema::____System__Xml__Schema__DtdValidator__NamespaceManager __declspec(property(get=__get_namespaceManager, put=__set_namespaceManager))  namespaceManager;
+static System::Xml::Schema::System__Xml__Schema__DtdValidator__NamespaceManager __declspec(property(get=__get_namespaceManager, put=__set_namespaceManager))  namespaceManager;
 
-static void __set_namespaceManager(::System::Xml::Schema::____System__Xml__Schema__DtdValidator__NamespaceManager value) ;
+static void __set_namespaceManager(System::Xml::Schema::System__Xml__Schema__DtdValidator__NamespaceManager value) ;
 
-static ::System::Xml::Schema::____System__Xml__Schema__DtdValidator__NamespaceManager __get_namespaceManager() ;
+static System::Xml::Schema::System__Xml__Schema__DtdValidator__NamespaceManager __get_namespaceManager() ;
 
 
 // Methods
 
 /// @brief Method SetDefaultTypedValue addr 0x272cb10 size 0x3dc virtual false final false
-static void SetDefaultTypedValue(::System::Xml::Schema::SchemaAttDef attdef, ::System::Xml::IDtdParserAdapter readerAdapter) ;
+static void SetDefaultTypedValue(System::Xml::Schema::SchemaAttDef attdef, System::Xml::IDtdParserAdapter readerAdapter) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::DtdValidator);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::DtdValidator, "System.Xml.Schema", "DtdValidator");
-NEED_NO_BOX(::System::Xml::Schema::____System__Xml__Schema__DtdValidator__NamespaceManager);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::____System__Xml__Schema__DtdValidator__NamespaceManager, "System.Xml.Schema", "DtdValidator/NamespaceManager");
+NEED_NO_BOX(System::Xml::Schema::DtdValidator);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::DtdValidator, "System.Xml.Schema", "DtdValidator");
+NEED_NO_BOX(System::Xml::Schema::System__Xml__Schema__DtdValidator__NamespaceManager);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::System__Xml__Schema__DtdValidator__NamespaceManager, "System.Xml.Schema", "DtdValidator/NamespaceManager");

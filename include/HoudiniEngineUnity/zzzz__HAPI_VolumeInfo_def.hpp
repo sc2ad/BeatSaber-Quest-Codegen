@@ -3,12 +3,11 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace HoudiniEngineUnity {
-struct HAPI_StorageType;
-}
 namespace HoudiniEngineUnity {
 struct HAPI_VolumeType;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_StorageType;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_Transform;
@@ -26,8 +25,8 @@ namespace HoudiniEngineUnity {
 struct CORDL_TYPE HAPI_VolumeInfo : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "nameSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "type", ty: "::HoudiniEngineUnity::HAPI_VolumeType", modifiers: "", def_value: None }, CppParam { name: "xLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "yLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "zLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "minX", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "minY", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "minZ", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "tupleSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "storage", ty: "::HoudiniEngineUnity::HAPI_StorageType", modifiers: "", def_value: None }, CppParam { name: "tileSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "transform", ty: "::HoudiniEngineUnity::HAPI_Transform", modifiers: "", def_value: None }, CppParam { name: "hasTaper", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "xTaper", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "yTaper", ty: "float_t", modifiers: "", def_value: None }]
-constexpr HAPI_VolumeInfo(int32_t nameSH, ::HoudiniEngineUnity::HAPI_VolumeType type, int32_t xLength, int32_t yLength, int32_t zLength, int32_t minX, int32_t minY, int32_t minZ, int32_t tupleSize, ::HoudiniEngineUnity::HAPI_StorageType storage, int32_t tileSize, ::HoudiniEngineUnity::HAPI_Transform transform, bool hasTaper, float_t xTaper, float_t yTaper) noexcept;
+// Ctor Parameters [CppParam { name: "nameSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "type", ty: "HoudiniEngineUnity::HAPI_VolumeType", modifiers: "", def_value: None }, CppParam { name: "xLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "yLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "zLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "minX", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "minY", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "minZ", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "tupleSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "storage", ty: "HoudiniEngineUnity::HAPI_StorageType", modifiers: "", def_value: None }, CppParam { name: "tileSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "transform", ty: "HoudiniEngineUnity::HAPI_Transform", modifiers: "", def_value: None }, CppParam { name: "hasTaper", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "xTaper", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "yTaper", ty: "float_t", modifiers: "", def_value: None }]
+constexpr HAPI_VolumeInfo(int32_t nameSH, HoudiniEngineUnity::HAPI_VolumeType type, int32_t xLength, int32_t yLength, int32_t zLength, int32_t minX, int32_t minY, int32_t minZ, int32_t tupleSize, HoudiniEngineUnity::HAPI_StorageType storage, int32_t tileSize, HoudiniEngineUnity::HAPI_Transform transform, bool hasTaper, float_t xTaper, float_t yTaper) noexcept;
 
 
                     constexpr HAPI_VolumeInfo(HAPI_VolumeInfo const&) = default;
@@ -66,11 +65,11 @@ constexpr void __set_nameSH(int32_t value) ;
 
 constexpr int32_t __get_nameSH() const;
 
- ::HoudiniEngineUnity::HAPI_VolumeType __declspec(property(get=__get_type, put=__set_type))  type;
+ HoudiniEngineUnity::HAPI_VolumeType __declspec(property(get=__get_type, put=__set_type))  type;
 
-constexpr void __set_type(::HoudiniEngineUnity::HAPI_VolumeType value) ;
+constexpr void __set_type(HoudiniEngineUnity::HAPI_VolumeType value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_VolumeType __get_type() const;
+constexpr HoudiniEngineUnity::HAPI_VolumeType __get_type() const;
 
  int32_t __declspec(property(get=__get_xLength, put=__set_xLength))  xLength;
 
@@ -114,11 +113,11 @@ constexpr void __set_tupleSize(int32_t value) ;
 
 constexpr int32_t __get_tupleSize() const;
 
- ::HoudiniEngineUnity::HAPI_StorageType __declspec(property(get=__get_storage, put=__set_storage))  storage;
+ HoudiniEngineUnity::HAPI_StorageType __declspec(property(get=__get_storage, put=__set_storage))  storage;
 
-constexpr void __set_storage(::HoudiniEngineUnity::HAPI_StorageType value) ;
+constexpr void __set_storage(HoudiniEngineUnity::HAPI_StorageType value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_StorageType __get_storage() const;
+constexpr HoudiniEngineUnity::HAPI_StorageType __get_storage() const;
 
  int32_t __declspec(property(get=__get_tileSize, put=__set_tileSize))  tileSize;
 
@@ -126,11 +125,11 @@ constexpr void __set_tileSize(int32_t value) ;
 
 constexpr int32_t __get_tileSize() const;
 
- ::HoudiniEngineUnity::HAPI_Transform __declspec(property(get=__get_transform, put=__set_transform))  transform;
+ HoudiniEngineUnity::HAPI_Transform __declspec(property(get=__get_transform, put=__set_transform))  transform;
 
-constexpr void __set_transform(::HoudiniEngineUnity::HAPI_Transform value) ;
+constexpr void __set_transform(HoudiniEngineUnity::HAPI_Transform value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_Transform __get_transform() const;
+constexpr HoudiniEngineUnity::HAPI_Transform __get_transform() const;
 
  bool __declspec(property(get=__get_hasTaper, put=__set_hasTaper))  hasTaper;
 
@@ -154,5 +153,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_VolumeInfo, "HoudiniEngineUnity", "HAPI_VolumeInfo");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_VolumeInfo, "HoudiniEngineUnity", "HAPI_VolumeInfo");

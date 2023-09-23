@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Polyglot {
 struct Language;
@@ -96,101 +95,100 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field English offset 0
-static ::Polyglot::Language const English;
+static Polyglot::Language const English;
 
 /// @brief Field French offset 0
-static ::Polyglot::Language const French;
+static Polyglot::Language const French;
 
 /// @brief Field Spanish offset 0
-static ::Polyglot::Language const Spanish;
+static Polyglot::Language const Spanish;
 
 /// @brief Field German offset 0
-static ::Polyglot::Language const German;
+static Polyglot::Language const German;
 
 /// @brief Field Italian offset 0
-static ::Polyglot::Language const Italian;
+static Polyglot::Language const Italian;
 
 /// @brief Field Portuguese_Brazil offset 0
-static ::Polyglot::Language const Portuguese_Brazil;
+static Polyglot::Language const Portuguese_Brazil;
 
 /// @brief Field Portuguese offset 0
-static ::Polyglot::Language const Portuguese;
+static Polyglot::Language const Portuguese;
 
 /// @brief Field Russian offset 0
-static ::Polyglot::Language const Russian;
+static Polyglot::Language const Russian;
 
 /// @brief Field Greek offset 0
-static ::Polyglot::Language const Greek;
+static Polyglot::Language const Greek;
 
 /// @brief Field Turkish offset 0
-static ::Polyglot::Language const Turkish;
+static Polyglot::Language const Turkish;
 
 /// @brief Field Danish offset 0
-static ::Polyglot::Language const Danish;
+static Polyglot::Language const Danish;
 
 /// @brief Field Norwegian offset 0
-static ::Polyglot::Language const Norwegian;
+static Polyglot::Language const Norwegian;
 
 /// @brief Field Swedish offset 0
-static ::Polyglot::Language const Swedish;
+static Polyglot::Language const Swedish;
 
 /// @brief Field Dutch offset 0
-static ::Polyglot::Language const Dutch;
+static Polyglot::Language const Dutch;
 
 /// @brief Field Polish offset 0
-static ::Polyglot::Language const Polish;
+static Polyglot::Language const Polish;
 
 /// @brief Field Finnish offset 0
-static ::Polyglot::Language const Finnish;
+static Polyglot::Language const Finnish;
 
 /// @brief Field Japanese offset 0
-static ::Polyglot::Language const Japanese;
+static Polyglot::Language const Japanese;
 
 /// @brief Field Simplified_Chinese offset 0
-static ::Polyglot::Language const Simplified_Chinese;
+static Polyglot::Language const Simplified_Chinese;
 
 /// @brief Field Traditional_Chinese offset 0
-static ::Polyglot::Language const Traditional_Chinese;
+static Polyglot::Language const Traditional_Chinese;
 
 /// @brief Field Korean offset 0
-static ::Polyglot::Language const Korean;
+static Polyglot::Language const Korean;
 
 /// @brief Field Czech offset 0
-static ::Polyglot::Language const Czech;
+static Polyglot::Language const Czech;
 
 /// @brief Field Hungarian offset 0
-static ::Polyglot::Language const Hungarian;
+static Polyglot::Language const Hungarian;
 
 /// @brief Field Romanian offset 0
-static ::Polyglot::Language const Romanian;
+static Polyglot::Language const Romanian;
 
 /// @brief Field Thai offset 0
-static ::Polyglot::Language const Thai;
+static Polyglot::Language const Thai;
 
 /// @brief Field Bulgarian offset 0
-static ::Polyglot::Language const Bulgarian;
+static Polyglot::Language const Bulgarian;
 
 /// @brief Field Hebrew offset 0
-static ::Polyglot::Language const Hebrew;
+static Polyglot::Language const Hebrew;
 
 /// @brief Field Arabic offset 0
-static ::Polyglot::Language const Arabic;
+static Polyglot::Language const Arabic;
 
 /// @brief Field Bosnian offset 0
-static ::Polyglot::Language const Bosnian;
+static Polyglot::Language const Bosnian;
 
 /// @brief Field Debug_Keys offset 0
-static ::Polyglot::Language const Debug_Keys;
+static Polyglot::Language const Debug_Keys;
 
 /// @brief Field Debug_English_Reverted offset 0
-static ::Polyglot::Language const Debug_English_Reverted;
+static Polyglot::Language const Debug_English_Reverted;
 
 /// @brief Field Debug_Word_With_Max_Lenght offset 0
-static ::Polyglot::Language const Debug_Word_With_Max_Lenght;
+static Polyglot::Language const Debug_Word_With_Max_Lenght;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Polyglot
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Polyglot::Language, "Polyglot", "Language");
+DEFINE_IL2CPP_ARG_TYPE(Polyglot::Language, "Polyglot", "Language");

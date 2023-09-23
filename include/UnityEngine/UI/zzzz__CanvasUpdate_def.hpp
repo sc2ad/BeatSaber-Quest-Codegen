@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UI {
 struct CanvasUpdate;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Prelayout offset 0
-static ::UnityEngine::UI::CanvasUpdate const Prelayout;
+static UnityEngine::UI::CanvasUpdate const Prelayout;
 
 /// @brief Field Layout offset 0
-static ::UnityEngine::UI::CanvasUpdate const Layout;
+static UnityEngine::UI::CanvasUpdate const Layout;
 
 /// @brief Field PostLayout offset 0
-static ::UnityEngine::UI::CanvasUpdate const PostLayout;
+static UnityEngine::UI::CanvasUpdate const PostLayout;
 
 /// @brief Field PreRender offset 0
-static ::UnityEngine::UI::CanvasUpdate const PreRender;
+static UnityEngine::UI::CanvasUpdate const PreRender;
 
 /// @brief Field LatePreRender offset 0
-static ::UnityEngine::UI::CanvasUpdate const LatePreRender;
+static UnityEngine::UI::CanvasUpdate const LatePreRender;
 
 /// @brief Field MaxUpdateValue offset 0
-static ::UnityEngine::UI::CanvasUpdate const MaxUpdateValue;
+static UnityEngine::UI::CanvasUpdate const MaxUpdateValue;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UI
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::CanvasUpdate, "UnityEngine.UI", "CanvasUpdate");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CanvasUpdate, "UnityEngine.UI", "CanvasUpdate");

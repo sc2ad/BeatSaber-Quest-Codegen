@@ -1,15 +1,14 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace System::Runtime::Remoting {
-class ServerIdentity;
+namespace System {
+struct TimeSpan;
 }
 namespace System::Runtime::Remoting::Lifetime {
 class LeaseManager;
 }
-namespace System {
-struct TimeSpan;
+namespace System::Runtime::Remoting {
+class ServerIdentity;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Lifetime {
@@ -57,81 +56,80 @@ constexpr explicit LifetimeServices(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
-static ::System::TimeSpan __declspec(property(get=__get__leaseManagerPollTime, put=__set__leaseManagerPollTime))  _leaseManagerPollTime;
+static System::TimeSpan __declspec(property(get=__get__leaseManagerPollTime, put=__set__leaseManagerPollTime))  _leaseManagerPollTime;
 
-static void __set__leaseManagerPollTime(::System::TimeSpan value) ;
+static void __set__leaseManagerPollTime(System::TimeSpan value) ;
 
-static ::System::TimeSpan __get__leaseManagerPollTime() ;
+static System::TimeSpan __get__leaseManagerPollTime() ;
 
-static ::System::TimeSpan __declspec(property(get=__get__leaseTime, put=__set__leaseTime))  _leaseTime;
+static System::TimeSpan __declspec(property(get=__get__leaseTime, put=__set__leaseTime))  _leaseTime;
 
-static void __set__leaseTime(::System::TimeSpan value) ;
+static void __set__leaseTime(System::TimeSpan value) ;
 
-static ::System::TimeSpan __get__leaseTime() ;
+static System::TimeSpan __get__leaseTime() ;
 
-static ::System::TimeSpan __declspec(property(get=__get__renewOnCallTime, put=__set__renewOnCallTime))  _renewOnCallTime;
+static System::TimeSpan __declspec(property(get=__get__renewOnCallTime, put=__set__renewOnCallTime))  _renewOnCallTime;
 
-static void __set__renewOnCallTime(::System::TimeSpan value) ;
+static void __set__renewOnCallTime(System::TimeSpan value) ;
 
-static ::System::TimeSpan __get__renewOnCallTime() ;
+static System::TimeSpan __get__renewOnCallTime() ;
 
-static ::System::TimeSpan __declspec(property(get=__get__sponsorshipTimeout, put=__set__sponsorshipTimeout))  _sponsorshipTimeout;
+static System::TimeSpan __declspec(property(get=__get__sponsorshipTimeout, put=__set__sponsorshipTimeout))  _sponsorshipTimeout;
 
-static void __set__sponsorshipTimeout(::System::TimeSpan value) ;
+static void __set__sponsorshipTimeout(System::TimeSpan value) ;
 
-static ::System::TimeSpan __get__sponsorshipTimeout() ;
+static System::TimeSpan __get__sponsorshipTimeout() ;
 
-static ::System::Runtime::Remoting::Lifetime::LeaseManager __declspec(property(get=__get__leaseManager, put=__set__leaseManager))  _leaseManager;
+static System::Runtime::Remoting::Lifetime::LeaseManager __declspec(property(get=__get__leaseManager, put=__set__leaseManager))  _leaseManager;
 
-static void __set__leaseManager(::System::Runtime::Remoting::Lifetime::LeaseManager value) ;
+static void __set__leaseManager(System::Runtime::Remoting::Lifetime::LeaseManager value) ;
 
-static ::System::Runtime::Remoting::Lifetime::LeaseManager __get__leaseManager() ;
+static System::Runtime::Remoting::Lifetime::LeaseManager __get__leaseManager() ;
 
 
 // Properties
 
-static ::System::TimeSpan __declspec(property(get=get_LeaseManagerPollTime, put=set_LeaseManagerPollTime))  LeaseManagerPollTime;
+static System::TimeSpan __declspec(property(get=get_LeaseManagerPollTime, put=set_LeaseManagerPollTime))  LeaseManagerPollTime;
 
-static ::System::TimeSpan __declspec(property(get=get_LeaseTime, put=set_LeaseTime))  LeaseTime;
+static System::TimeSpan __declspec(property(get=get_LeaseTime, put=set_LeaseTime))  LeaseTime;
 
-static ::System::TimeSpan __declspec(property(get=get_RenewOnCallTime, put=set_RenewOnCallTime))  RenewOnCallTime;
+static System::TimeSpan __declspec(property(get=get_RenewOnCallTime, put=set_RenewOnCallTime))  RenewOnCallTime;
 
-static ::System::TimeSpan __declspec(property(get=get_SponsorshipTimeout, put=set_SponsorshipTimeout))  SponsorshipTimeout;
+static System::TimeSpan __declspec(property(get=get_SponsorshipTimeout, put=set_SponsorshipTimeout))  SponsorshipTimeout;
 
 
 // Methods
 
 /// @brief Method get_LeaseManagerPollTime addr 0x232ffc0 size 0x58 virtual false final false
-static ::System::TimeSpan get_LeaseManagerPollTime() ;
+static System::TimeSpan get_LeaseManagerPollTime() ;
 
 /// @brief Method set_LeaseManagerPollTime addr 0x2330018 size 0x74 virtual false final false
-static void set_LeaseManagerPollTime(::System::TimeSpan value) ;
+static void set_LeaseManagerPollTime(System::TimeSpan value) ;
 
 /// @brief Method get_LeaseTime addr 0x233008c size 0x58 virtual false final false
-static ::System::TimeSpan get_LeaseTime() ;
+static System::TimeSpan get_LeaseTime() ;
 
 /// @brief Method set_LeaseTime addr 0x23300e4 size 0x5c virtual false final false
-static void set_LeaseTime(::System::TimeSpan value) ;
+static void set_LeaseTime(System::TimeSpan value) ;
 
 /// @brief Method get_RenewOnCallTime addr 0x2330140 size 0x58 virtual false final false
-static ::System::TimeSpan get_RenewOnCallTime() ;
+static System::TimeSpan get_RenewOnCallTime() ;
 
 /// @brief Method set_RenewOnCallTime addr 0x2330198 size 0x5c virtual false final false
-static void set_RenewOnCallTime(::System::TimeSpan value) ;
+static void set_RenewOnCallTime(System::TimeSpan value) ;
 
 /// @brief Method get_SponsorshipTimeout addr 0x23301f4 size 0x58 virtual false final false
-static ::System::TimeSpan get_SponsorshipTimeout() ;
+static System::TimeSpan get_SponsorshipTimeout() ;
 
 /// @brief Method set_SponsorshipTimeout addr 0x233024c size 0x5c virtual false final false
-static void set_SponsorshipTimeout(::System::TimeSpan value) ;
+static void set_SponsorshipTimeout(System::TimeSpan value) ;
 
 /// @brief Method TrackLifetime addr 0x2326868 size 0x68 virtual false final false
-static void TrackLifetime(::System::Runtime::Remoting::ServerIdentity identity) ;
+static void TrackLifetime(System::Runtime::Remoting::ServerIdentity identity) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Lifetime
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Lifetime::LifetimeServices);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Lifetime::LifetimeServices, "System.Runtime.Remoting.Lifetime", "LifetimeServices");
+NEED_NO_BOX(System::Runtime::Remoting::Lifetime::LifetimeServices);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Lifetime::LifetimeServices, "System.Runtime.Remoting.Lifetime", "LifetimeServices");

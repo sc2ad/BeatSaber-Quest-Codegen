@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct ThreadPriority;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Low offset 0
-static ::UnityEngine::ThreadPriority const Low;
+static UnityEngine::ThreadPriority const Low;
 
 /// @brief Field BelowNormal offset 0
-static ::UnityEngine::ThreadPriority const BelowNormal;
+static UnityEngine::ThreadPriority const BelowNormal;
 
 /// @brief Field Normal offset 0
-static ::UnityEngine::ThreadPriority const Normal;
+static UnityEngine::ThreadPriority const Normal;
 
 /// @brief Field High offset 0
-static ::UnityEngine::ThreadPriority const High;
+static UnityEngine::ThreadPriority const High;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ThreadPriority, "UnityEngine", "ThreadPriority");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ThreadPriority, "UnityEngine", "ThreadPriority");

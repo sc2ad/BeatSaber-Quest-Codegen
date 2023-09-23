@@ -1,6 +1,5 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace UnityEngine::UIElements {
 class IPointerEvent;
 }
@@ -30,7 +29,7 @@ constexpr explicit IMouseEventInternal(void* ptr) noexcept : ::cordl_internals::
 
  bool __declspec(property(get=get_recomputeTopElementUnderMouse, put=set_recomputeTopElementUnderMouse))  recomputeTopElementUnderMouse;
 
- ::UnityEngine::UIElements::IPointerEvent __declspec(property(get=get_sourcePointerEvent, put=set_sourcePointerEvent))  sourcePointerEvent;
+ UnityEngine::UIElements::IPointerEvent __declspec(property(get=get_sourcePointerEvent, put=set_sourcePointerEvent))  sourcePointerEvent;
 
 
 // Methods
@@ -48,15 +47,14 @@ constexpr explicit IMouseEventInternal(void* ptr) noexcept : ::cordl_internals::
  void set_recomputeTopElementUnderMouse(bool value) ;
 
 /// @brief Method get_sourcePointerEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::UIElements::IPointerEvent get_sourcePointerEvent() ;
+ UnityEngine::UIElements::IPointerEvent get_sourcePointerEvent() ;
 
 /// @brief Method set_sourcePointerEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void set_sourcePointerEvent(::UnityEngine::UIElements::IPointerEvent value) ;
+ void set_sourcePointerEvent(UnityEngine::UIElements::IPointerEvent value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::IMouseEventInternal);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::IMouseEventInternal, "UnityEngine.UIElements", "IMouseEventInternal");
+NEED_NO_BOX(UnityEngine::UIElements::IMouseEventInternal);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::IMouseEventInternal, "UnityEngine.UIElements", "IMouseEventInternal");

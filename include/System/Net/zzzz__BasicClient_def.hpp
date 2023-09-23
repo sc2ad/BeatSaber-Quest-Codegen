@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Net {
-class WebRequest;
-}
 namespace System::Net {
 class Authorization;
 }
 namespace System::Net {
 class IAuthenticationModule;
+}
+namespace System::Net {
+class WebRequest;
 }
 namespace System::Net {
 class ICredentials;
@@ -30,8 +29,8 @@ namespace System::Net {
 class CORDL_TYPE BasicClient : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Net::IAuthenticationModule
-constexpr operator  ::System::Net::IAuthenticationModule() const noexcept;
+/// @brief Convert operator to System::Net::IAuthenticationModule
+constexpr operator  System::Net::IAuthenticationModule() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -72,16 +71,16 @@ constexpr explicit BasicClient(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 // Methods
 
 /// @brief Method Authenticate addr 0x28292a4 size 0xac virtual true final true
- ::System::Net::Authorization Authenticate(::StringW challenge, ::System::Net::WebRequest webRequest, ::System::Net::ICredentials credentials) ;
+ System::Net::Authorization Authenticate(::StringW challenge, System::Net::WebRequest webRequest, System::Net::ICredentials credentials) ;
 
 /// @brief Method GetBytes addr 0x28296fc size 0xa8 virtual false final false
 static ::ArrayW<uint8_t> GetBytes(::StringW str) ;
 
 /// @brief Method InternalAuthenticate addr 0x2829350 size 0x3ac virtual false final false
-static ::System::Net::Authorization InternalAuthenticate(::System::Net::WebRequest webRequest, ::System::Net::ICredentials credentials) ;
+static System::Net::Authorization InternalAuthenticate(System::Net::WebRequest webRequest, System::Net::ICredentials credentials) ;
 
 /// @brief Method PreAuthenticate addr 0x28297a4 size 0xc virtual true final true
- ::System::Net::Authorization PreAuthenticate(::System::Net::WebRequest webRequest, ::System::Net::ICredentials credentials) ;
+ System::Net::Authorization PreAuthenticate(System::Net::WebRequest webRequest, System::Net::ICredentials credentials) ;
 
 /// @brief Method get_AuthenticationType addr 0x28297b0 size 0x40 virtual true final true
  ::StringW get_AuthenticationType() ;
@@ -96,6 +95,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::BasicClient);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::BasicClient, "System.Net", "BasicClient");
+NEED_NO_BOX(System::Net::BasicClient);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::BasicClient, "System.Net", "BasicClient");

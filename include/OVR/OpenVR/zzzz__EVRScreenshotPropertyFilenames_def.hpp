@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct EVRScreenshotPropertyFilenames;
@@ -67,14 +66,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Preview offset 0
-static ::OVR::OpenVR::EVRScreenshotPropertyFilenames const Preview;
+static OVR::OpenVR::EVRScreenshotPropertyFilenames const Preview;
 
 /// @brief Field VR offset 0
-static ::OVR::OpenVR::EVRScreenshotPropertyFilenames const VR;
+static OVR::OpenVR::EVRScreenshotPropertyFilenames const VR;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRScreenshotPropertyFilenames, "OVR.OpenVR", "EVRScreenshotPropertyFilenames");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRScreenshotPropertyFilenames, "OVR.OpenVR", "EVRScreenshotPropertyFilenames");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HFLayerType;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field DEFAULT offset 0
-static ::HoudiniEngineUnity::HFLayerType const DEFAULT;
+static HoudiniEngineUnity::HFLayerType const DEFAULT;
 
 /// @brief Field HEIGHT offset 0
-static ::HoudiniEngineUnity::HFLayerType const HEIGHT;
+static HoudiniEngineUnity::HFLayerType const HEIGHT;
 
 /// @brief Field MASK offset 0
-static ::HoudiniEngineUnity::HFLayerType const MASK;
+static HoudiniEngineUnity::HFLayerType const MASK;
 
 /// @brief Field DETAIL offset 0
-static ::HoudiniEngineUnity::HFLayerType const DETAIL;
+static HoudiniEngineUnity::HFLayerType const DETAIL;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HFLayerType, "HoudiniEngineUnity", "HFLayerType");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HFLayerType, "HoudiniEngineUnity", "HFLayerType");

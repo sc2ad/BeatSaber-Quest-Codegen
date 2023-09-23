@@ -2,12 +2,14 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace System {
 class IDisposable;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509ChainPolicy;
+class X509ChainElementCollection;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate2;
 }
 namespace System::Security::Cryptography::X509Certificates {
 struct X509ChainStatusFlags;
@@ -16,10 +18,7 @@ namespace System::Security::Cryptography::X509Certificates {
 struct X509ChainStatus;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509ChainElementCollection;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2;
+class X509ChainPolicy;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -34,8 +33,8 @@ namespace System::Security::Cryptography::X509Certificates {
 class CORDL_TYPE X509ChainImpl : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -72,11 +71,11 @@ constexpr explicit X509ChainImpl(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 
  bool __declspec(property(get=get_IsValid))  IsValid;
 
- ::System::Security::Cryptography::X509Certificates::X509ChainElementCollection __declspec(property(get=get_ChainElements))  ChainElements;
+ System::Security::Cryptography::X509Certificates::X509ChainElementCollection __declspec(property(get=get_ChainElements))  ChainElements;
 
- ::System::Security::Cryptography::X509Certificates::X509ChainPolicy __declspec(property(get=get_ChainPolicy))  ChainPolicy;
+ System::Security::Cryptography::X509Certificates::X509ChainPolicy __declspec(property(get=get_ChainPolicy))  ChainPolicy;
 
- ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus> __declspec(property(get=get_ChainStatus))  ChainStatus;
+ ::ArrayW<System::Security::Cryptography::X509Certificates::X509ChainStatus> __declspec(property(get=get_ChainStatus))  ChainStatus;
 
 
 // Methods
@@ -88,19 +87,19 @@ constexpr explicit X509ChainImpl(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
  void ThrowIfContextInvalid() ;
 
 /// @brief Method get_ChainElements addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Security::Cryptography::X509Certificates::X509ChainElementCollection get_ChainElements() ;
+ System::Security::Cryptography::X509Certificates::X509ChainElementCollection get_ChainElements() ;
 
 /// @brief Method get_ChainPolicy addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Security::Cryptography::X509Certificates::X509ChainPolicy get_ChainPolicy() ;
+ System::Security::Cryptography::X509Certificates::X509ChainPolicy get_ChainPolicy() ;
 
 /// @brief Method get_ChainStatus addr 0x0 size 0xffffffffffffffff virtual true final false
- ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus> get_ChainStatus() ;
+ ::ArrayW<System::Security::Cryptography::X509Certificates::X509ChainStatus> get_ChainStatus() ;
 
 /// @brief Method Build addr 0x0 size 0xffffffffffffffff virtual true final false
- bool Build(::System::Security::Cryptography::X509Certificates::X509Certificate2 certificate) ;
+ bool Build(System::Security::Cryptography::X509Certificates::X509Certificate2 certificate) ;
 
 /// @brief Method AddStatus addr 0x0 size 0xffffffffffffffff virtual true final false
- void AddStatus(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags errorCode) ;
+ void AddStatus(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags errorCode) ;
 
 /// @brief Method Reset addr 0x0 size 0xffffffffffffffff virtual true final false
  void Reset() ;
@@ -124,6 +123,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography::X509Certificates
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::X509Certificates::X509ChainImpl);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::X509Certificates::X509ChainImpl, "System.Security.Cryptography.X509Certificates", "X509ChainImpl");
+NEED_NO_BOX(System::Security::Cryptography::X509Certificates::X509ChainImpl);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509ChainImpl, "System.Security.Cryptography.X509Certificates", "X509ChainImpl");

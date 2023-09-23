@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECFieldElement_def.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Math::EC {
 class ECFieldElement;
 }
@@ -16,7 +15,7 @@ namespace Org::BouncyCastle::Math::EC {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1368))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1441))
 // CS Name: Org.BouncyCastle.Math.EC.AbstractF2mFieldElement
-class CORDL_TYPE AbstractF2mFieldElement : public ::Org::BouncyCastle::Math::EC::ECFieldElement {
+class CORDL_TYPE AbstractF2mFieldElement : public Org::BouncyCastle::Math::EC::ECFieldElement {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr AbstractF2mFieldElement(AbstractF2mFieldElement const& ) noexcept = de
 constexpr AbstractF2mFieldElement(AbstractF2mFieldElement&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AbstractF2mFieldElement(void* ptr) noexcept : ::Org::BouncyCastle::Math::EC::ECFieldElement(ptr) {
+constexpr explicit AbstractF2mFieldElement(void* ptr) noexcept : Org::BouncyCastle::Math::EC::ECFieldElement(ptr) {
 }
 
 
@@ -58,7 +57,7 @@ constexpr explicit AbstractF2mFieldElement(void* ptr) noexcept : ::Org::BouncyCa
 // Methods
 
 /// @brief Method HalfTrace addr 0xf74924 size 0x140 virtual true final false
- ::Org::BouncyCastle::Math::EC::ECFieldElement HalfTrace() ;
+ Org::BouncyCastle::Math::EC::ECFieldElement HalfTrace() ;
 
 /// @brief Method get_HasFastTrace addr 0xf74a64 size 0x8 virtual true final false
  bool get_HasFastTrace() ;
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Math::EC
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement, "Org.BouncyCastle.Math.EC", "AbstractF2mFieldElement");
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::AbstractF2mFieldElement);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::AbstractF2mFieldElement, "Org.BouncyCastle.Math.EC", "AbstractF2mFieldElement");

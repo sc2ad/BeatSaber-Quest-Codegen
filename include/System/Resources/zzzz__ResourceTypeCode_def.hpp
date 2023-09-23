@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Resources {
 struct ResourceTypeCode;
@@ -86,71 +85,70 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Null offset 0
-static ::System::Resources::ResourceTypeCode const Null;
+static System::Resources::ResourceTypeCode const Null;
 
 /// @brief Field String offset 0
-static ::System::Resources::ResourceTypeCode const String;
+static System::Resources::ResourceTypeCode const String;
 
 /// @brief Field Boolean offset 0
-static ::System::Resources::ResourceTypeCode const Boolean;
+static System::Resources::ResourceTypeCode const Boolean;
 
 /// @brief Field Char offset 0
-static ::System::Resources::ResourceTypeCode const Char;
+static System::Resources::ResourceTypeCode const Char;
 
 /// @brief Field Byte offset 0
-static ::System::Resources::ResourceTypeCode const Byte;
+static System::Resources::ResourceTypeCode const Byte;
 
 /// @brief Field SByte offset 0
-static ::System::Resources::ResourceTypeCode const SByte;
+static System::Resources::ResourceTypeCode const SByte;
 
 /// @brief Field Int16 offset 0
-static ::System::Resources::ResourceTypeCode const Int16;
+static System::Resources::ResourceTypeCode const Int16;
 
 /// @brief Field UInt16 offset 0
-static ::System::Resources::ResourceTypeCode const UInt16;
+static System::Resources::ResourceTypeCode const UInt16;
 
 /// @brief Field Int32 offset 0
-static ::System::Resources::ResourceTypeCode const Int32;
+static System::Resources::ResourceTypeCode const Int32;
 
 /// @brief Field UInt32 offset 0
-static ::System::Resources::ResourceTypeCode const UInt32;
+static System::Resources::ResourceTypeCode const UInt32;
 
 /// @brief Field Int64 offset 0
-static ::System::Resources::ResourceTypeCode const Int64;
+static System::Resources::ResourceTypeCode const Int64;
 
 /// @brief Field UInt64 offset 0
-static ::System::Resources::ResourceTypeCode const UInt64;
+static System::Resources::ResourceTypeCode const UInt64;
 
 /// @brief Field Single offset 0
-static ::System::Resources::ResourceTypeCode const Single;
+static System::Resources::ResourceTypeCode const Single;
 
 /// @brief Field Double offset 0
-static ::System::Resources::ResourceTypeCode const Double;
+static System::Resources::ResourceTypeCode const Double;
 
 /// @brief Field Decimal offset 0
-static ::System::Resources::ResourceTypeCode const Decimal;
+static System::Resources::ResourceTypeCode const Decimal;
 
 /// @brief Field DateTime offset 0
-static ::System::Resources::ResourceTypeCode const DateTime;
+static System::Resources::ResourceTypeCode const DateTime;
 
 /// @brief Field TimeSpan offset 0
-static ::System::Resources::ResourceTypeCode const TimeSpan;
+static System::Resources::ResourceTypeCode const TimeSpan;
 
 /// @brief Field LastPrimitive offset 0
-static ::System::Resources::ResourceTypeCode const LastPrimitive;
+static System::Resources::ResourceTypeCode const LastPrimitive;
 
 /// @brief Field ByteArray offset 0
-static ::System::Resources::ResourceTypeCode const ByteArray;
+static System::Resources::ResourceTypeCode const ByteArray;
 
 /// @brief Field Stream offset 0
-static ::System::Resources::ResourceTypeCode const Stream;
+static System::Resources::ResourceTypeCode const Stream;
 
 /// @brief Field StartOfUserTypes offset 0
-static ::System::Resources::ResourceTypeCode const StartOfUserTypes;
+static System::Resources::ResourceTypeCode const StartOfUserTypes;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Resources
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Resources::ResourceTypeCode, "System.Resources", "ResourceTypeCode");
+DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceTypeCode, "System.Resources", "ResourceTypeCode");

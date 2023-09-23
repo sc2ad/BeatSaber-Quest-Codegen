@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
-namespace {
 namespace System::Text {
 class EncoderNLS;
 }
@@ -65,11 +64,11 @@ constexpr void __set_charEnd(void* value) ;
 
 constexpr void* __get_charEnd() const;
 
- ::System::Text::EncoderNLS __declspec(property(get=__get_encoder, put=__set_encoder))  encoder;
+ System::Text::EncoderNLS __declspec(property(get=__get_encoder, put=__set_encoder))  encoder;
 
-constexpr void __set_encoder(::System::Text::EncoderNLS value) ;
+constexpr void __set_encoder(System::Text::EncoderNLS value) ;
 
-constexpr ::System::Text::EncoderNLS __get_encoder() const;
+constexpr System::Text::EncoderNLS __get_encoder() const;
 
  bool __declspec(property(get=__get_setEncoder, put=__set_setEncoder))  setEncoder;
 
@@ -125,7 +124,7 @@ constexpr int32_t __get_iRecursionCount() const;
  void InternalReset() ;
 
 /// @brief Method InternalInitialize addr 0x24c0e70 size 0x1c virtual false final false
- void InternalInitialize(void* charStart, void* charEnd, ::System::Text::EncoderNLS encoder, bool setEncoder) ;
+ void InternalInitialize(void* charStart, void* charEnd, System::Text::EncoderNLS encoder, bool setEncoder) ;
 
 /// @brief Method InternalGetNextChar addr 0x24c0e8c size 0x34 virtual false final false
  char16_t InternalGetNextChar() ;
@@ -146,6 +145,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Text
-} // end anonymous namespace
-NEED_NO_BOX(::System::Text::EncoderFallbackBuffer);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::EncoderFallbackBuffer, "System.Text", "EncoderFallbackBuffer");
+NEED_NO_BOX(System::Text::EncoderFallbackBuffer);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::EncoderFallbackBuffer, "System.Text", "EncoderFallbackBuffer");

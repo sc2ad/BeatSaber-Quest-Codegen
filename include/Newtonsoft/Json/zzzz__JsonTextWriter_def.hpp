@@ -6,41 +6,40 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace System {
-struct TimeSpan;
-}
-namespace System {
-class Uri;
-}
-namespace System {
-struct Guid;
-}
 namespace Newtonsoft::Json {
-struct JsonToken;
-}
-namespace System {
-struct DateTime;
+template<typename T>
+class IArrayPool_1;
 }
 namespace Newtonsoft::Json::Utilities {
 class Base64Encoder;
 }
 namespace System {
-struct Decimal;
+struct DateTime;
+}
+namespace System {
+struct Guid;
 }
 namespace System::IO {
 class TextWriter;
+}
+namespace Newtonsoft::Json {
+struct JsonToken;
+}
+namespace System {
+struct DateTimeOffset;
+}
+namespace System {
+class Uri;
 }
 namespace System {
 template<typename T>
 struct Nullable_1;
 }
-namespace Newtonsoft::Json {
-template<typename T>
-class IArrayPool_1;
+namespace System {
+struct Decimal;
 }
 namespace System {
-struct DateTimeOffset;
+struct TimeSpan;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {
@@ -52,7 +51,7 @@ namespace Newtonsoft::Json {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11785))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11769))
 // CS Name: Newtonsoft.Json.JsonTextWriter
-class CORDL_TYPE JsonTextWriter : public ::Newtonsoft::Json::JsonWriter {
+class CORDL_TYPE JsonTextWriter : public Newtonsoft::Json::JsonWriter {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -67,7 +66,7 @@ constexpr JsonTextWriter(JsonTextWriter const& ) noexcept = default;
 constexpr JsonTextWriter(JsonTextWriter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit JsonTextWriter(void* ptr) noexcept : ::Newtonsoft::Json::JsonWriter(ptr) {
+constexpr explicit JsonTextWriter(void* ptr) noexcept : Newtonsoft::Json::JsonWriter(ptr) {
 }
 
 
@@ -88,17 +87,17 @@ constexpr explicit JsonTextWriter(void* ptr) noexcept : ::Newtonsoft::Json::Json
 
 // Fields
 
- ::System::IO::TextWriter __declspec(property(get=__get__writer, put=__set__writer))  _writer;
+ System::IO::TextWriter __declspec(property(get=__get__writer, put=__set__writer))  _writer;
 
-constexpr void __set__writer(::System::IO::TextWriter value) ;
+constexpr void __set__writer(System::IO::TextWriter value) ;
 
-constexpr ::System::IO::TextWriter __get__writer() const;
+constexpr System::IO::TextWriter __get__writer() const;
 
- ::Newtonsoft::Json::Utilities::Base64Encoder __declspec(property(get=__get__base64Encoder, put=__set__base64Encoder))  _base64Encoder;
+ Newtonsoft::Json::Utilities::Base64Encoder __declspec(property(get=__get__base64Encoder, put=__set__base64Encoder))  _base64Encoder;
 
-constexpr void __set__base64Encoder(::Newtonsoft::Json::Utilities::Base64Encoder value) ;
+constexpr void __set__base64Encoder(Newtonsoft::Json::Utilities::Base64Encoder value) ;
 
-constexpr ::Newtonsoft::Json::Utilities::Base64Encoder __get__base64Encoder() const;
+constexpr Newtonsoft::Json::Utilities::Base64Encoder __get__base64Encoder() const;
 
  char16_t __declspec(property(get=__get__indentChar, put=__set__indentChar))  _indentChar;
 
@@ -136,11 +135,11 @@ constexpr void __set__writeBuffer(::ArrayW<char16_t> value) ;
 
 constexpr ::ArrayW<char16_t> __get__writeBuffer() const;
 
- ::Newtonsoft::Json::IArrayPool_1<char16_t> __declspec(property(get=__get__arrayPool, put=__set__arrayPool))  _arrayPool;
+ Newtonsoft::Json::IArrayPool_1<char16_t> __declspec(property(get=__get__arrayPool, put=__set__arrayPool))  _arrayPool;
 
-constexpr void __set__arrayPool(::Newtonsoft::Json::IArrayPool_1<char16_t> value) ;
+constexpr void __set__arrayPool(Newtonsoft::Json::IArrayPool_1<char16_t> value) ;
 
-constexpr ::Newtonsoft::Json::IArrayPool_1<char16_t> __get__arrayPool() const;
+constexpr Newtonsoft::Json::IArrayPool_1<char16_t> __get__arrayPool() const;
 
  ::ArrayW<char16_t> __declspec(property(get=__get__indentChars, put=__set__indentChars))  _indentChars;
 
@@ -151,9 +150,9 @@ constexpr ::ArrayW<char16_t> __get__indentChars() const;
 
 // Properties
 
- ::Newtonsoft::Json::Utilities::Base64Encoder __declspec(property(get=get_Base64Encoder))  Base64Encoder;
+ Newtonsoft::Json::Utilities::Base64Encoder __declspec(property(get=get_Base64Encoder))  Base64Encoder;
 
- ::Newtonsoft::Json::IArrayPool_1<char16_t> __declspec(property(get=get_ArrayPool, put=set_ArrayPool))  ArrayPool;
+ Newtonsoft::Json::IArrayPool_1<char16_t> __declspec(property(get=get_ArrayPool, put=set_ArrayPool))  ArrayPool;
 
  int32_t __declspec(property(get=get_Indentation, put=set_Indentation))  Indentation;
 
@@ -167,13 +166,13 @@ constexpr ::ArrayW<char16_t> __get__indentChars() const;
 // Methods
 
 /// @brief Method get_Base64Encoder addr 0x24d12a4 size 0x74 virtual false final false
- ::Newtonsoft::Json::Utilities::Base64Encoder get_Base64Encoder() ;
+ Newtonsoft::Json::Utilities::Base64Encoder get_Base64Encoder() ;
 
 /// @brief Method get_ArrayPool addr 0x24d1318 size 0x8 virtual false final false
- ::Newtonsoft::Json::IArrayPool_1<char16_t> get_ArrayPool() ;
+ Newtonsoft::Json::IArrayPool_1<char16_t> get_ArrayPool() ;
 
 /// @brief Method set_ArrayPool addr 0x24d1320 size 0x60 virtual false final false
- void set_ArrayPool(::Newtonsoft::Json::IArrayPool_1<char16_t> value) ;
+ void set_ArrayPool(Newtonsoft::Json::IArrayPool_1<char16_t> value) ;
 
 /// @brief Method get_Indentation addr 0x24d1380 size 0x8 virtual false final false
  int32_t get_Indentation() ;
@@ -199,11 +198,11 @@ constexpr ::ArrayW<char16_t> __get__indentChars() const;
 /// @brief Method set_QuoteName addr 0x24d14f4 size 0xc virtual false final false
  void set_QuoteName(bool value) ;
 
-// Ctor Parameters [CppParam { name: "textWriter", ty: "::System::IO::TextWriter", modifiers: "", def_value: None }]
-explicit JsonTextWriter(::System::IO::TextWriter textWriter) ;
+// Ctor Parameters [CppParam { name: "textWriter", ty: "System::IO::TextWriter", modifiers: "", def_value: None }]
+explicit JsonTextWriter(System::IO::TextWriter textWriter) ;
 
 /// @brief Method .ctor addr 0x24d1500 size 0xe0 virtual false final false
- void _ctor(::System::IO::TextWriter textWriter) ;
+ void _ctor(System::IO::TextWriter textWriter) ;
 
 /// @brief Method Flush addr 0x24d15e0 size 0x20 virtual true final false
  void Flush() ;
@@ -221,7 +220,7 @@ explicit JsonTextWriter(::System::IO::TextWriter textWriter) ;
  void WriteStartConstructor(::StringW name) ;
 
 /// @brief Method WriteEnd addr 0x24d1774 size 0xd8 virtual true final false
- void WriteEnd(::Newtonsoft::Json::JsonToken token) ;
+ void WriteEnd(Newtonsoft::Json::JsonToken token) ;
 
 /// @brief Method WritePropertyName addr 0x24d1880 size 0x50 virtual true final false
  void WritePropertyName(::StringW name) ;
@@ -245,7 +244,7 @@ explicit JsonTextWriter(::System::IO::TextWriter textWriter) ;
  void WriteIndentSpace() ;
 
 /// @brief Method WriteValueInternal addr 0x24d1bc0 size 0x24 virtual false final false
- void WriteValueInternal(::StringW value, ::Newtonsoft::Json::JsonToken token) ;
+ void WriteValueInternal(::StringW value, Newtonsoft::Json::JsonToken token) ;
 
 /// @brief Method WriteValue addr 0x24d1be4 size 0x8 virtual true final false
  void WriteValue(::bs_hook::Il2CppWrapperType value) ;
@@ -281,13 +280,13 @@ explicit JsonTextWriter(::System::IO::TextWriter textWriter) ;
  void WriteValue(float_t value) ;
 
 /// @brief Method WriteValue addr 0x24d21bc size 0xf0 virtual true final false
- void WriteValue(::System::Nullable_1<float_t> value) ;
+ void WriteValue(System::Nullable_1<float_t> value) ;
 
 /// @brief Method WriteValue addr 0x24d22ac size 0xa8 virtual true final false
  void WriteValue(double_t value) ;
 
 /// @brief Method WriteValue addr 0x24d2440 size 0xfc virtual true final false
- void WriteValue(::System::Nullable_1<double_t> value) ;
+ void WriteValue(System::Nullable_1<double_t> value) ;
 
 /// @brief Method WriteValue addr 0x24d253c size 0x94 virtual true final false
  void WriteValue(bool value) ;
@@ -308,25 +307,25 @@ explicit JsonTextWriter(::System::IO::TextWriter textWriter) ;
  void WriteValue(int8_t value) ;
 
 /// @brief Method WriteValue addr 0x24d281c size 0x9c virtual true final false
- void WriteValue(::System::Decimal value) ;
+ void WriteValue(System::Decimal value) ;
 
 /// @brief Method WriteValue addr 0x24d2980 size 0x1f0 virtual true final false
- void WriteValue(::System::DateTime value) ;
+ void WriteValue(System::DateTime value) ;
 
 /// @brief Method WriteValue addr 0x24d2b70 size 0xb8 virtual true final false
  void WriteValue(::ArrayW<uint8_t> value) ;
 
 /// @brief Method WriteValue addr 0x24d2c28 size 0x1fc virtual true final false
- void WriteValue(::System::DateTimeOffset value) ;
+ void WriteValue(System::DateTimeOffset value) ;
 
 /// @brief Method WriteValue addr 0x24d2e24 size 0xfc virtual true final false
- void WriteValue(::System::Guid value) ;
+ void WriteValue(System::Guid value) ;
 
 /// @brief Method WriteValue addr 0x24d2f20 size 0x94 virtual true final false
- void WriteValue(::System::TimeSpan value) ;
+ void WriteValue(System::TimeSpan value) ;
 
 /// @brief Method WriteValue addr 0x24d2fb4 size 0xc0 virtual true final false
- void WriteValue(::System::Uri value) ;
+ void WriteValue(System::Uri value) ;
 
 /// @brief Method WriteComment addr 0x24d3074 size 0xb8 virtual true final false
  void WriteComment(::StringW text) ;
@@ -347,6 +346,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::JsonTextWriter);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonTextWriter, "Newtonsoft.Json", "JsonTextWriter");
+NEED_NO_BOX(Newtonsoft::Json::JsonTextWriter);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::JsonTextWriter, "Newtonsoft.Json", "JsonTextWriter");

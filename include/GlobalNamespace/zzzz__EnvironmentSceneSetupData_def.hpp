@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__SceneSetupData_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
 namespace GlobalNamespace {
 class EnvironmentInfoSO;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13869))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6101))
 // CS Name: EnvironmentSceneSetupData
-class CORDL_TYPE EnvironmentSceneSetupData : public ::GlobalNamespace::SceneSetupData {
+class CORDL_TYPE EnvironmentSceneSetupData : public GlobalNamespace::SceneSetupData {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr EnvironmentSceneSetupData(EnvironmentSceneSetupData const& ) noexcept 
 constexpr EnvironmentSceneSetupData(EnvironmentSceneSetupData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EnvironmentSceneSetupData(void* ptr) noexcept : ::GlobalNamespace::SceneSetupData(ptr) {
+constexpr explicit EnvironmentSceneSetupData(void* ptr) noexcept : GlobalNamespace::SceneSetupData(ptr) {
 }
 
 
@@ -60,31 +59,30 @@ constexpr void __set_hideBranding(bool value) ;
 
 constexpr bool __get_hideBranding() const;
 
- ::GlobalNamespace::EnvironmentInfoSO __declspec(property(get=__get_environmentInfo, put=__set_environmentInfo))  environmentInfo;
+ GlobalNamespace::EnvironmentInfoSO __declspec(property(get=__get_environmentInfo, put=__set_environmentInfo))  environmentInfo;
 
-constexpr void __set_environmentInfo(::GlobalNamespace::EnvironmentInfoSO value) ;
+constexpr void __set_environmentInfo(GlobalNamespace::EnvironmentInfoSO value) ;
 
-constexpr ::GlobalNamespace::EnvironmentInfoSO __get_environmentInfo() const;
+constexpr GlobalNamespace::EnvironmentInfoSO __get_environmentInfo() const;
 
- ::GlobalNamespace::IPreviewBeatmapLevel __declspec(property(get=__get_previewBeatmapLevel, put=__set_previewBeatmapLevel))  previewBeatmapLevel;
+ GlobalNamespace::IPreviewBeatmapLevel __declspec(property(get=__get_previewBeatmapLevel, put=__set_previewBeatmapLevel))  previewBeatmapLevel;
 
-constexpr void __set_previewBeatmapLevel(::GlobalNamespace::IPreviewBeatmapLevel value) ;
+constexpr void __set_previewBeatmapLevel(GlobalNamespace::IPreviewBeatmapLevel value) ;
 
-constexpr ::GlobalNamespace::IPreviewBeatmapLevel __get_previewBeatmapLevel() const;
+constexpr GlobalNamespace::IPreviewBeatmapLevel __get_previewBeatmapLevel() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "environmentInfo", ty: "::GlobalNamespace::EnvironmentInfoSO", modifiers: "", def_value: None }, CppParam { name: "previewBeatmapLevel", ty: "::GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "hideBranding", ty: "bool", modifiers: "", def_value: None }]
-explicit EnvironmentSceneSetupData(::GlobalNamespace::EnvironmentInfoSO environmentInfo, ::GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, bool hideBranding) ;
+// Ctor Parameters [CppParam { name: "environmentInfo", ty: "GlobalNamespace::EnvironmentInfoSO", modifiers: "", def_value: None }, CppParam { name: "previewBeatmapLevel", ty: "GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "hideBranding", ty: "bool", modifiers: "", def_value: None }]
+explicit EnvironmentSceneSetupData(GlobalNamespace::EnvironmentInfoSO environmentInfo, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, bool hideBranding) ;
 
 /// @brief Method .ctor addr 0x21b6ab0 size 0x3c virtual false final false
- void _ctor(::GlobalNamespace::EnvironmentInfoSO environmentInfo, ::GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, bool hideBranding) ;
+ void _ctor(GlobalNamespace::EnvironmentInfoSO environmentInfo, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, bool hideBranding) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::EnvironmentSceneSetupData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EnvironmentSceneSetupData, "", "EnvironmentSceneSetupData");
+NEED_NO_BOX(GlobalNamespace::EnvironmentSceneSetupData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentSceneSetupData, "", "EnvironmentSceneSetupData");

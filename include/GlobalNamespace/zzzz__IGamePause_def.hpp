@@ -1,6 +1,5 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace System {
 class Action;
 }
@@ -35,22 +34,22 @@ constexpr explicit IGamePause(void* ptr) noexcept : ::cordl_internals::Interface
  bool get_isPaused() ;
 
 /// @brief Method add_didPauseEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void add_didPauseEvent(::System::Action value) ;
+ void add_didPauseEvent(System::Action value) ;
 
 /// @brief Method remove_didPauseEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void remove_didPauseEvent(::System::Action value) ;
+ void remove_didPauseEvent(System::Action value) ;
 
 /// @brief Method add_willResumeEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void add_willResumeEvent(::System::Action value) ;
+ void add_willResumeEvent(System::Action value) ;
 
 /// @brief Method remove_willResumeEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void remove_willResumeEvent(::System::Action value) ;
+ void remove_willResumeEvent(System::Action value) ;
 
 /// @brief Method add_didResumeEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void add_didResumeEvent(::System::Action value) ;
+ void add_didResumeEvent(System::Action value) ;
 
 /// @brief Method remove_didResumeEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void remove_didResumeEvent(::System::Action value) ;
+ void remove_didResumeEvent(System::Action value) ;
 
 /// @brief Method Pause addr 0x0 size 0xffffffffffffffff virtual true final false
  void Pause() ;
@@ -65,6 +64,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IGamePause);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IGamePause, "", "IGamePause");
+NEED_NO_BOX(GlobalNamespace::IGamePause);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IGamePause, "", "IGamePause");

@@ -6,19 +6,8 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System {
 class IDisposable;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -27,22 +16,35 @@ class IEnumerable_1;
 namespace UnityEngine::UIElements {
 class UxmlChildElementDescription;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections {
+class IEnumerable;
+}
 namespace UnityEngine::UIElements {
 template<typename T>
 class ChangeEvent_1;
-}
-namespace UnityEngine::UIElements {
-class TextField;
 }
 namespace UnityEngine::UIElements {
 template<typename TEventType>
 class EventCallback_1;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+class TextField;
 }
 namespace UnityEngine::UIElements {
 class UxmlStringAttributeDescription;
+}
+namespace UnityEngine::UIElements {
+class UxmlBoolAttributeDescription;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
@@ -50,21 +52,18 @@ class IUxmlAttributes;
 namespace UnityEngine::UIElements {
 struct CreationContext;
 }
-namespace UnityEngine::UIElements {
-class UxmlBoolAttributeDescription;
-}
 // Forward declare root types
 namespace GlobalNamespace {
-class ______UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4;
+class UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4;
 }
 namespace UIToolkitUtilities::Controls {
 class TextInputFoldout;
 }
 namespace UIToolkitUtilities::Controls {
-class ____UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory;
+class UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory;
 }
 namespace UIToolkitUtilities::Controls {
-class ____UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits;
+class UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits;
 }
 // Type: ::UxmlTraits
 namespace UIToolkitUtilities::Controls {
@@ -72,78 +71,78 @@ namespace UIToolkitUtilities::Controls {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6821))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15950))
 // CS Name: UIToolkitUtilities.Controls.TextInputFoldout::UxmlTraits
-class CORDL_TYPE ____UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits : public ::UnityEngine::UIElements::____UnityEngine__UIElements__VisualElement__UxmlTraits {
+class CORDL_TYPE UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits : public UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__UxmlTraits {
 public:
 // Declarations
-using _get_uxmlChildElementsDescription_d__4 = ::GlobalNamespace::______UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4;
+using _get_uxmlChildElementsDescription_d__4 = GlobalNamespace::UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x88};
 
-virtual ~____UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits() = default;
+virtual ~UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits", modifiers: " const&", def_value: None }]
-constexpr ____UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits(____UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits", modifiers: " const&", def_value: None }]
+constexpr UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits(UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits", modifiers: "&&", def_value: None }]
-constexpr ____UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits(____UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits", modifiers: "&&", def_value: None }]
+constexpr UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits(UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits(void* ptr) noexcept : ::UnityEngine::UIElements::____UnityEngine__UIElements__VisualElement__UxmlTraits(ptr) {
+constexpr explicit UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits(void* ptr) noexcept : UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__UxmlTraits(ptr) {
 }
 
 
-  constexpr ____UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits& operator=(std::nullptr_t) noexcept {
+  constexpr UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits& operator=(void* o) noexcept {
+  constexpr UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits& operator=(____UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits&& o) noexcept = default;
-  constexpr ____UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits& operator=(____UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits const& o) noexcept = default;
+  constexpr UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits& operator=(UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits&& o) noexcept = default;
+  constexpr UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits& operator=(UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::UnityEngine::UIElements::UxmlStringAttributeDescription __declspec(property(get=__get__textFieldText, put=__set__textFieldText))  _textFieldText;
+ UnityEngine::UIElements::UxmlStringAttributeDescription __declspec(property(get=__get__textFieldText, put=__set__textFieldText))  _textFieldText;
 
-constexpr void __set__textFieldText(::UnityEngine::UIElements::UxmlStringAttributeDescription value) ;
+constexpr void __set__textFieldText(UnityEngine::UIElements::UxmlStringAttributeDescription value) ;
 
-constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription __get__textFieldText() const;
+constexpr UnityEngine::UIElements::UxmlStringAttributeDescription __get__textFieldText() const;
 
- ::UnityEngine::UIElements::UxmlStringAttributeDescription __declspec(property(get=__get__suffix, put=__set__suffix))  _suffix;
+ UnityEngine::UIElements::UxmlStringAttributeDescription __declspec(property(get=__get__suffix, put=__set__suffix))  _suffix;
 
-constexpr void __set__suffix(::UnityEngine::UIElements::UxmlStringAttributeDescription value) ;
+constexpr void __set__suffix(UnityEngine::UIElements::UxmlStringAttributeDescription value) ;
 
-constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription __get__suffix() const;
+constexpr UnityEngine::UIElements::UxmlStringAttributeDescription __get__suffix() const;
 
- ::UnityEngine::UIElements::UxmlBoolAttributeDescription __declspec(property(get=__get__value, put=__set__value))  _value;
+ UnityEngine::UIElements::UxmlBoolAttributeDescription __declspec(property(get=__get__value, put=__set__value))  _value;
 
-constexpr void __set__value(::UnityEngine::UIElements::UxmlBoolAttributeDescription value) ;
+constexpr void __set__value(UnityEngine::UIElements::UxmlBoolAttributeDescription value) ;
 
-constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription __get__value() const;
+constexpr UnityEngine::UIElements::UxmlBoolAttributeDescription __get__value() const;
 
 
 // Properties
 
- ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::UxmlChildElementDescription> __declspec(property(get=get_uxmlChildElementsDescription))  uxmlChildElementsDescription;
+ System::Collections::Generic::IEnumerable_1<UnityEngine::UIElements::UxmlChildElementDescription> __declspec(property(get=get_uxmlChildElementsDescription))  uxmlChildElementsDescription;
 
 
 // Methods
 
 /// @brief Method get_uxmlChildElementsDescription addr 0x287d1a0 size 0x70 virtual true final false
- ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::UxmlChildElementDescription> get_uxmlChildElementsDescription() ;
+ System::Collections::Generic::IEnumerable_1<UnityEngine::UIElements::UxmlChildElementDescription> get_uxmlChildElementsDescription() ;
 
 /// @brief Method Init addr 0x287d244 size 0x18c virtual true final false
- void Init(::UnityEngine::UIElements::VisualElement ve, ::UnityEngine::UIElements::IUxmlAttributes bag, ::UnityEngine::UIElements::CreationContext cc) ;
+ void Init(UnityEngine::UIElements::VisualElement ve, UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
 // Ctor Parameters []
-explicit ____UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits() ;
+explicit UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits() ;
 
 /// @brief Method .ctor addr 0x287d3d0 size 0x124 virtual false final false
  void _ctor() ;
@@ -158,12 +157,12 @@ namespace UIToolkitUtilities::Controls {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7185))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15951))
 // CS Name: UIToolkitUtilities.Controls.TextInputFoldout
-class CORDL_TYPE TextInputFoldout : public ::UnityEngine::UIElements::Foldout {
+class CORDL_TYPE TextInputFoldout : public UnityEngine::UIElements::Foldout {
 public:
 // Declarations
-using UxmlTraits = ::UIToolkitUtilities::Controls::____UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits;
+using UxmlTraits = UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits;
 
-using UxmlFactory = ::UIToolkitUtilities::Controls::____UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory;
+using UxmlFactory = UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x3e0};
@@ -177,7 +176,7 @@ constexpr TextInputFoldout(TextInputFoldout const& ) noexcept = default;
 constexpr TextInputFoldout(TextInputFoldout&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TextInputFoldout(void* ptr) noexcept : ::UnityEngine::UIElements::Foldout(ptr) {
+constexpr explicit TextInputFoldout(void* ptr) noexcept : UnityEngine::UIElements::Foldout(ptr) {
 }
 
 
@@ -198,11 +197,11 @@ constexpr explicit TextInputFoldout(void* ptr) noexcept : ::UnityEngine::UIEleme
 
 // Fields
 
- ::UnityEngine::UIElements::TextField __declspec(property(get=__get_textField, put=__set_textField))  textField;
+ UnityEngine::UIElements::TextField __declspec(property(get=__get_textField, put=__set_textField))  textField;
 
-constexpr void __set_textField(::UnityEngine::UIElements::TextField value) ;
+constexpr void __set_textField(UnityEngine::UIElements::TextField value) ;
 
-constexpr ::UnityEngine::UIElements::TextField __get_textField() const;
+constexpr UnityEngine::UIElements::TextField __get_textField() const;
 
 
 // Properties
@@ -233,10 +232,10 @@ explicit TextInputFoldout() ;
  void _ctor() ;
 
 /// @brief Method RegisterTextFieldValueChangedCallback addr 0x287d0a8 size 0x58 virtual false final false
- void RegisterTextFieldValueChangedCallback(::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::ChangeEvent_1<::StringW>> callback) ;
+ void RegisterTextFieldValueChangedCallback(UnityEngine::UIElements::EventCallback_1<UnityEngine::UIElements::ChangeEvent_1<::StringW>> callback) ;
 
 /// @brief Method UnregisterTextFieldValueChangedCallback addr 0x287d100 size 0x58 virtual false final false
- void UnregisterTextFieldValueChangedCallback(::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::ChangeEvent_1<::StringW>> callback) ;
+ void UnregisterTextFieldValueChangedCallback(UnityEngine::UIElements::EventCallback_1<UnityEngine::UIElements::ChangeEvent_1<::StringW>> callback) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -245,47 +244,47 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::UxmlFactory
 namespace UIToolkitUtilities::Controls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(15951)), TypeDefinitionIndex(TypeDefinitionIndex(15950)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5109 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15951)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5109 }), TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(15950))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15948))
 // CS Name: UIToolkitUtilities.Controls.TextInputFoldout::UxmlFactory
-class CORDL_TYPE ____UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UIToolkitUtilities::Controls::TextInputFoldout,::UIToolkitUtilities::Controls::____UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits> {
+class CORDL_TYPE UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory : public UnityEngine::UIElements::UxmlFactory_2<UIToolkitUtilities::Controls::TextInputFoldout,UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits> {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory() = default;
+virtual ~UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory", modifiers: " const&", def_value: None }]
-constexpr ____UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory(____UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory", modifiers: " const&", def_value: None }]
+constexpr UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory(UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory", modifiers: "&&", def_value: None }]
-constexpr ____UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory(____UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory", modifiers: "&&", def_value: None }]
+constexpr UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory(UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory(void* ptr) noexcept : ::UnityEngine::UIElements::UxmlFactory_2<::UIToolkitUtilities::Controls::TextInputFoldout,::UIToolkitUtilities::Controls::____UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits>(ptr) {
+constexpr explicit UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory(void* ptr) noexcept : UnityEngine::UIElements::UxmlFactory_2<UIToolkitUtilities::Controls::TextInputFoldout,UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits>(ptr) {
 }
 
 
-  constexpr ____UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory& operator=(std::nullptr_t) noexcept {
+  constexpr UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory& operator=(void* o) noexcept {
+  constexpr UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory& operator=(____UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory&& o) noexcept = default;
-  constexpr ____UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory& operator=(____UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory const& o) noexcept = default;
+  constexpr UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory& operator=(UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory&& o) noexcept = default;
+  constexpr UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory& operator=(UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory() ;
+explicit UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory() ;
 
 /// @brief Method .ctor addr 0x287d158 size 0x48 virtual false final false
  void _ctor() ;
@@ -300,52 +299,52 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15949))
 // CS Name: UIToolkitUtilities.Controls.TextInputFoldout::UxmlTraits::<get_uxmlChildElementsDescription>d__4
-class CORDL_TYPE ______UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::UxmlChildElementDescription>
-constexpr operator  ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::UxmlChildElementDescription>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerable_1<UnityEngine::UIElements::UxmlChildElementDescription>
+constexpr operator  System::Collections::Generic::IEnumerable_1<UnityEngine::UIElements::UxmlChildElementDescription>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::UxmlChildElementDescription>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::UxmlChildElementDescription>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<UnityEngine::UIElements::UxmlChildElementDescription>
+constexpr operator  System::Collections::Generic::IEnumerator_1<UnityEngine::UIElements::UxmlChildElementDescription>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~______UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4() = default;
+virtual ~UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "______UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4", modifiers: " const&", def_value: None }]
-constexpr ______UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4(______UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4", modifiers: " const&", def_value: None }]
+constexpr UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4(UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "______UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4", modifiers: "&&", def_value: None }]
-constexpr ______UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4(______UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4", modifiers: "&&", def_value: None }]
+constexpr UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4(UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ______UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ______UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4& operator=(std::nullptr_t) noexcept {
+  constexpr UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ______UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4& operator=(void* o) noexcept {
+  constexpr UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ______UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4& operator=(______UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4&& o) noexcept = default;
-  constexpr ______UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4& operator=(______UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4 const& o) noexcept = default;
+  constexpr UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4& operator=(UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4&& o) noexcept = default;
+  constexpr UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4& operator=(UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4 const& o) noexcept = default;
                 
 
 
@@ -357,11 +356,11 @@ constexpr void __set___1__state(int32_t value) ;
 
 constexpr int32_t __get___1__state() const;
 
- ::UnityEngine::UIElements::UxmlChildElementDescription __declspec(property(get=__get___2__current, put=__set___2__current))  __2__current;
+ UnityEngine::UIElements::UxmlChildElementDescription __declspec(property(get=__get___2__current, put=__set___2__current))  __2__current;
 
-constexpr void __set___2__current(::UnityEngine::UIElements::UxmlChildElementDescription value) ;
+constexpr void __set___2__current(UnityEngine::UIElements::UxmlChildElementDescription value) ;
 
-constexpr ::UnityEngine::UIElements::UxmlChildElementDescription __get___2__current() const;
+constexpr UnityEngine::UIElements::UxmlChildElementDescription __get___2__current() const;
 
  int32_t __declspec(property(get=__get___l__initialThreadId, put=__set___l__initialThreadId))  __l__initialThreadId;
 
@@ -372,7 +371,7 @@ constexpr int32_t __get___l__initialThreadId() const;
 
 // Properties
 
- ::UnityEngine::UIElements::UxmlChildElementDescription __declspec(property(get=System_Collections_Generic_IEnumerator_UnityEngine_UIElements_UxmlChildElementDescription__get_Current))  System_Collections_Generic_IEnumerator_UnityEngine_UIElements_UxmlChildElementDescription__Current;
+ UnityEngine::UIElements::UxmlChildElementDescription __declspec(property(get=System_Collections_Generic_IEnumerator_UnityEngine_UIElements_UxmlChildElementDescription__get_Current))  System_Collections_Generic_IEnumerator_UnityEngine_UIElements_UxmlChildElementDescription__Current;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=System_Collections_IEnumerator_get_Current))  System_Collections_IEnumerator_Current;
 
@@ -380,7 +379,7 @@ constexpr int32_t __get___l__initialThreadId() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ______UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4(int32_t __1__state) ;
+explicit UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x287d210 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -392,7 +391,7 @@ explicit ______UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_
  bool MoveNext() ;
 
 /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.UIElements.UxmlChildElementDescription>.get_Current addr 0x287d510 size 0x8 virtual true final true
- ::UnityEngine::UIElements::UxmlChildElementDescription System_Collections_Generic_IEnumerator_UnityEngine_UIElements_UxmlChildElementDescription__get_Current() ;
+ UnityEngine::UIElements::UxmlChildElementDescription System_Collections_Generic_IEnumerator_UnityEngine_UIElements_UxmlChildElementDescription__get_Current() ;
 
 /// @brief Method System.Collections.IEnumerator.Reset addr 0x287d518 size 0x40 virtual true final true
  void System_Collections_IEnumerator_Reset() ;
@@ -401,21 +400,20 @@ explicit ______UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_
  ::bs_hook::Il2CppWrapperType System_Collections_IEnumerator_get_Current() ;
 
 /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.UIElements.UxmlChildElementDescription>.GetEnumerator addr 0x287d560 size 0x98 virtual true final true
- ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::UxmlChildElementDescription> System_Collections_Generic_IEnumerable_UnityEngine_UIElements_UxmlChildElementDescription__GetEnumerator() ;
+ System::Collections::Generic::IEnumerator_1<UnityEngine::UIElements::UxmlChildElementDescription> System_Collections_Generic_IEnumerable_UnityEngine_UIElements_UxmlChildElementDescription__GetEnumerator() ;
 
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x287d5f8 size 0x4 virtual true final true
- ::System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
+ System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::______UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::______UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4, "UIToolkitUtilities.Controls", "TextInputFoldout/UxmlTraits/<get_uxmlChildElementsDescription>d__4");
-NEED_NO_BOX(::UIToolkitUtilities::Controls::TextInputFoldout);
-DEFINE_IL2CPP_ARG_TYPE(::UIToolkitUtilities::Controls::TextInputFoldout, "UIToolkitUtilities.Controls", "TextInputFoldout");
-NEED_NO_BOX(::UIToolkitUtilities::Controls::____UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory);
-DEFINE_IL2CPP_ARG_TYPE(::UIToolkitUtilities::Controls::____UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory, "UIToolkitUtilities.Controls", "TextInputFoldout/UxmlFactory");
-NEED_NO_BOX(::UIToolkitUtilities::Controls::____UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits);
-DEFINE_IL2CPP_ARG_TYPE(::UIToolkitUtilities::Controls::____UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits, "UIToolkitUtilities.Controls", "TextInputFoldout/UxmlTraits");
+NEED_NO_BOX(GlobalNamespace::UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4, "UIToolkitUtilities.Controls", "TextInputFoldout/UxmlTraits/<get_uxmlChildElementsDescription>d__4");
+NEED_NO_BOX(UIToolkitUtilities::Controls::TextInputFoldout);
+DEFINE_IL2CPP_ARG_TYPE(UIToolkitUtilities::Controls::TextInputFoldout, "UIToolkitUtilities.Controls", "TextInputFoldout");
+NEED_NO_BOX(UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory);
+DEFINE_IL2CPP_ARG_TYPE(UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory, "UIToolkitUtilities.Controls", "TextInputFoldout/UxmlFactory");
+NEED_NO_BOX(UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits);
+DEFINE_IL2CPP_ARG_TYPE(UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits, "UIToolkitUtilities.Controls", "TextInputFoldout/UxmlTraits");

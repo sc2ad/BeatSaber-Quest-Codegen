@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
 class CADArgHolder;
@@ -68,6 +67,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Messaging
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Messaging::CADArgHolder);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::CADArgHolder, "System.Runtime.Remoting.Messaging", "CADArgHolder");
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::CADArgHolder);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CADArgHolder, "System.Runtime.Remoting.Messaging", "CADArgHolder");

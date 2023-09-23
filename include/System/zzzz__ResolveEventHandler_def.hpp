@@ -3,7 +3,6 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Reflection {
 class Assembly;
 }
@@ -20,7 +19,7 @@ namespace System {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2465))
 // CS Name: System.ResolveEventHandler
-class CORDL_TYPE ResolveEventHandler : public ::System::MulticastDelegate {
+class CORDL_TYPE ResolveEventHandler : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr ResolveEventHandler(ResolveEventHandler const& ) noexcept = default;
 constexpr ResolveEventHandler(ResolveEventHandler&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ResolveEventHandler(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit ResolveEventHandler(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -63,12 +62,11 @@ explicit ResolveEventHandler(::bs_hook::Il2CppWrapperType object, ::cordl_intern
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x24520dc size 0x14 virtual true final false
- ::System::Reflection::Assembly Invoke(::bs_hook::Il2CppWrapperType sender, ::System::ResolveEventArgs args) ;
+ System::Reflection::Assembly Invoke(::bs_hook::Il2CppWrapperType sender, System::ResolveEventArgs args) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::ResolveEventHandler);
-DEFINE_IL2CPP_ARG_TYPE(::System::ResolveEventHandler, "System", "ResolveEventHandler");
+NEED_NO_BOX(System::ResolveEventHandler);
+DEFINE_IL2CPP_ARG_TYPE(System::ResolveEventHandler, "System", "ResolveEventHandler");

@@ -3,15 +3,14 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-class AsyncCallback;
-}
 namespace Zenject {
 class InjectContext;
 }
 namespace System {
 class IAsyncResult;
+}
+namespace System {
+class AsyncCallback;
 }
 // Forward declare root types
 namespace Zenject {
@@ -23,7 +22,7 @@ namespace Zenject {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11101))
 // CS Name: Zenject.BindingCondition
-class CORDL_TYPE BindingCondition : public ::System::MulticastDelegate {
+class CORDL_TYPE BindingCondition : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr BindingCondition(BindingCondition const& ) noexcept = default;
 constexpr BindingCondition(BindingCondition&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BindingCondition(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit BindingCondition(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -66,18 +65,17 @@ explicit BindingCondition(::bs_hook::Il2CppWrapperType object, ::cordl_internals
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x2d7d124 size 0x14 virtual true final false
- bool Invoke(::Zenject::InjectContext c) ;
+ bool Invoke(Zenject::InjectContext c) ;
 
 /// @brief Method BeginInvoke addr 0x2d7d138 size 0x20 virtual true final false
- ::System::IAsyncResult BeginInvoke(::Zenject::InjectContext c, ::System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
+ System::IAsyncResult BeginInvoke(Zenject::InjectContext c, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
 
 /// @brief Method EndInvoke addr 0x2d7d158 size 0x28 virtual true final false
- bool EndInvoke(::System::IAsyncResult result) ;
+ bool EndInvoke(System::IAsyncResult result) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::BindingCondition);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::BindingCondition, "Zenject", "BindingCondition");
+NEED_NO_BOX(Zenject::BindingCondition);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::BindingCondition, "Zenject", "BindingCondition");

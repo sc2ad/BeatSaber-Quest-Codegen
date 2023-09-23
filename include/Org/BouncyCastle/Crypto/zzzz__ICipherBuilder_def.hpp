@@ -2,12 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto {
-class ICipher;
-}
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto {
@@ -43,12 +42,11 @@ constexpr explicit ICipherBuilder(void* ptr) noexcept : ::cordl_internals::Inter
  int32_t GetMaxOutputSize(int32_t inputLen) ;
 
 /// @brief Method BuildCipher addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Crypto::ICipher BuildCipher(::System::IO::Stream stream) ;
+ Org::BouncyCastle::Crypto::ICipher BuildCipher(System::IO::Stream stream) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::ICipherBuilder);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::ICipherBuilder, "Org.BouncyCastle.Crypto", "ICipherBuilder");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::ICipherBuilder);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::ICipherBuilder, "Org.BouncyCastle.Crypto", "ICipherBuilder");

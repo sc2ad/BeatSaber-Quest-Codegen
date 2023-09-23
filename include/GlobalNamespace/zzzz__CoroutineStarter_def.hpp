@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace System::Collections {
 class IEnumerator;
 }
@@ -21,11 +20,11 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13786))
 // CS Name: CoroutineStarter
-class CORDL_TYPE CoroutineStarter : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE CoroutineStarter : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::ICoroutineStarter
-constexpr operator  ::GlobalNamespace::ICoroutineStarter() const noexcept;
+/// @brief Convert operator to GlobalNamespace::ICoroutineStarter
+constexpr operator  GlobalNamespace::ICoroutineStarter() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -39,7 +38,7 @@ constexpr CoroutineStarter(CoroutineStarter const& ) noexcept = default;
 constexpr CoroutineStarter(CoroutineStarter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CoroutineStarter(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit CoroutineStarter(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -61,10 +60,10 @@ constexpr explicit CoroutineStarter(void* ptr) noexcept : ::UnityEngine::MonoBeh
 // Methods
 
 /// @brief Method ICoroutineStarter.StartCoroutine addr 0x1f765b0 size 0xd4 virtual true final true
- ::UnityEngine::Coroutine ICoroutineStarter_StartCoroutine(::System::Collections::IEnumerator routine) ;
+ UnityEngine::Coroutine ICoroutineStarter_StartCoroutine(System::Collections::IEnumerator routine) ;
 
 /// @brief Method ICoroutineStarter.StopCoroutine addr 0x1f76684 size 0xcc virtual true final true
- void ICoroutineStarter_StopCoroutine(::UnityEngine::Coroutine routine) ;
+ void ICoroutineStarter_StopCoroutine(UnityEngine::Coroutine routine) ;
 
 // Ctor Parameters []
 explicit CoroutineStarter() ;
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::CoroutineStarter);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CoroutineStarter, "", "CoroutineStarter");
+NEED_NO_BOX(GlobalNamespace::CoroutineStarter);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CoroutineStarter, "", "CoroutineStarter");

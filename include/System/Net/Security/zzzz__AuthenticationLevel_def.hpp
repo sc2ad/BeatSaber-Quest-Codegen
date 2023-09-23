@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net::Security {
 struct AuthenticationLevel;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::Net::Security::AuthenticationLevel const None;
+static System::Net::Security::AuthenticationLevel const None;
 
 /// @brief Field MutualAuthRequested offset 0
-static ::System::Net::Security::AuthenticationLevel const MutualAuthRequested;
+static System::Net::Security::AuthenticationLevel const MutualAuthRequested;
 
 /// @brief Field MutualAuthRequired offset 0
-static ::System::Net::Security::AuthenticationLevel const MutualAuthRequired;
+static System::Net::Security::AuthenticationLevel const MutualAuthRequired;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net::Security
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Security::AuthenticationLevel, "System.Net.Security", "AuthenticationLevel");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Security::AuthenticationLevel, "System.Net.Security", "AuthenticationLevel");

@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Security::Cryptography {
 class HashAlgorithm;
 }
@@ -18,7 +17,7 @@ namespace System::Security::Cryptography {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2938))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2930))
 // CS Name: System.Security.Cryptography.HMAC
-class CORDL_TYPE HMAC : public ::System::Security::Cryptography::KeyedHashAlgorithm {
+class CORDL_TYPE HMAC : public System::Security::Cryptography::KeyedHashAlgorithm {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr HMAC(HMAC const& ) noexcept = default;
 constexpr HMAC(HMAC&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HMAC(void* ptr) noexcept : ::System::Security::Cryptography::KeyedHashAlgorithm(ptr) {
+constexpr explicit HMAC(void* ptr) noexcept : System::Security::Cryptography::KeyedHashAlgorithm(ptr) {
 }
 
 
@@ -66,17 +65,17 @@ constexpr void __set_m_hashName(::StringW value) ;
 
 constexpr ::StringW __get_m_hashName() const;
 
- ::System::Security::Cryptography::HashAlgorithm __declspec(property(get=__get_m_hash1, put=__set_m_hash1))  m_hash1;
+ System::Security::Cryptography::HashAlgorithm __declspec(property(get=__get_m_hash1, put=__set_m_hash1))  m_hash1;
 
-constexpr void __set_m_hash1(::System::Security::Cryptography::HashAlgorithm value) ;
+constexpr void __set_m_hash1(System::Security::Cryptography::HashAlgorithm value) ;
 
-constexpr ::System::Security::Cryptography::HashAlgorithm __get_m_hash1() const;
+constexpr System::Security::Cryptography::HashAlgorithm __get_m_hash1() const;
 
- ::System::Security::Cryptography::HashAlgorithm __declspec(property(get=__get_m_hash2, put=__set_m_hash2))  m_hash2;
+ System::Security::Cryptography::HashAlgorithm __declspec(property(get=__get_m_hash2, put=__set_m_hash2))  m_hash2;
 
-constexpr void __set_m_hash2(::System::Security::Cryptography::HashAlgorithm value) ;
+constexpr void __set_m_hash2(System::Security::Cryptography::HashAlgorithm value) ;
 
-constexpr ::System::Security::Cryptography::HashAlgorithm __get_m_hash2() const;
+constexpr System::Security::Cryptography::HashAlgorithm __get_m_hash2() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get_m_inner, put=__set_m_inner))  m_inner;
 
@@ -125,7 +124,7 @@ constexpr bool __get_m_hashing() const;
  void set_Key(::ArrayW<uint8_t> value) ;
 
 /// @brief Method Create addr 0x22f3300 size 0x70 virtual false final false
-static ::System::Security::Cryptography::HMAC Create() ;
+static System::Security::Cryptography::HMAC Create() ;
 
 /// @brief Method Initialize addr 0x22f3398 size 0x48 virtual true final false
  void Initialize() ;
@@ -149,6 +148,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::HMAC);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::HMAC, "System.Security.Cryptography", "HMAC");
+NEED_NO_BOX(System::Security::Cryptography::HMAC);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::HMAC, "System.Security.Cryptography", "HMAC");

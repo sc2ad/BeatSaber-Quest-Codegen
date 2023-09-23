@@ -4,7 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
+namespace System {
+template<typename T>
+class IEquatable_1;
+}
 namespace LiteNetLib::Utils {
 template<typename T>
 class INetImmutableSerializable_1;
@@ -13,14 +16,10 @@ namespace UnityEngine {
 struct Color32;
 }
 namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace LiteNetLib::Utils {
 class NetDataReader;
 }
-namespace System {
-template<typename T>
-class IEquatable_1;
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,14 +34,14 @@ namespace GlobalNamespace {
 struct CORDL_TYPE MultiplayerAvatarData : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::MultiplayerAvatarData>
-constexpr operator  ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::MultiplayerAvatarData>() const;
+/// @brief Convert operator to LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::MultiplayerAvatarData>
+constexpr operator  LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::MultiplayerAvatarData>() const;
 
-/// @brief Convert operator to ::System::IEquatable_1<::GlobalNamespace::MultiplayerAvatarData>
-constexpr operator  ::System::IEquatable_1<::GlobalNamespace::MultiplayerAvatarData>() const;
+/// @brief Convert operator to System::IEquatable_1<GlobalNamespace::MultiplayerAvatarData>
+constexpr operator  System::IEquatable_1<GlobalNamespace::MultiplayerAvatarData>() const;
 
-// Ctor Parameters [CppParam { name: "headTopId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "headTopPrimaryColor", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "headTopSecondaryColor", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "glassesId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "glassesColor", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "facialHairId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "facialHairColor", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "handsId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "handsColor", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "clothesId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "clothesPrimaryColor", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "clothesSecondaryColor", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "clothesDetailColor", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "skinColorId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "eyesId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "mouthId", ty: "::StringW", modifiers: "", def_value: None }]
-constexpr MultiplayerAvatarData(::StringW headTopId, ::UnityEngine::Color32 headTopPrimaryColor, ::UnityEngine::Color32 headTopSecondaryColor, ::StringW glassesId, ::UnityEngine::Color32 glassesColor, ::StringW facialHairId, ::UnityEngine::Color32 facialHairColor, ::StringW handsId, ::UnityEngine::Color32 handsColor, ::StringW clothesId, ::UnityEngine::Color32 clothesPrimaryColor, ::UnityEngine::Color32 clothesSecondaryColor, ::UnityEngine::Color32 clothesDetailColor, ::StringW skinColorId, ::StringW eyesId, ::StringW mouthId) noexcept;
+// Ctor Parameters [CppParam { name: "headTopId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "headTopPrimaryColor", ty: "UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "headTopSecondaryColor", ty: "UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "glassesId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "glassesColor", ty: "UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "facialHairId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "facialHairColor", ty: "UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "handsId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "handsColor", ty: "UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "clothesId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "clothesPrimaryColor", ty: "UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "clothesSecondaryColor", ty: "UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "clothesDetailColor", ty: "UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "skinColorId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "eyesId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "mouthId", ty: "::StringW", modifiers: "", def_value: None }]
+constexpr MultiplayerAvatarData(::StringW headTopId, UnityEngine::Color32 headTopPrimaryColor, UnityEngine::Color32 headTopSecondaryColor, ::StringW glassesId, UnityEngine::Color32 glassesColor, ::StringW facialHairId, UnityEngine::Color32 facialHairColor, ::StringW handsId, UnityEngine::Color32 handsColor, ::StringW clothesId, UnityEngine::Color32 clothesPrimaryColor, UnityEngine::Color32 clothesSecondaryColor, UnityEngine::Color32 clothesDetailColor, ::StringW skinColorId, ::StringW eyesId, ::StringW mouthId) noexcept;
 
 
                     constexpr MultiplayerAvatarData(MultiplayerAvatarData const&) = default;
@@ -81,17 +80,17 @@ constexpr void __set_headTopId(::StringW value) ;
 
 constexpr ::StringW __get_headTopId() const;
 
- ::UnityEngine::Color32 __declspec(property(get=__get_headTopPrimaryColor, put=__set_headTopPrimaryColor))  headTopPrimaryColor;
+ UnityEngine::Color32 __declspec(property(get=__get_headTopPrimaryColor, put=__set_headTopPrimaryColor))  headTopPrimaryColor;
 
-constexpr void __set_headTopPrimaryColor(::UnityEngine::Color32 value) ;
+constexpr void __set_headTopPrimaryColor(UnityEngine::Color32 value) ;
 
-constexpr ::UnityEngine::Color32 __get_headTopPrimaryColor() const;
+constexpr UnityEngine::Color32 __get_headTopPrimaryColor() const;
 
- ::UnityEngine::Color32 __declspec(property(get=__get_headTopSecondaryColor, put=__set_headTopSecondaryColor))  headTopSecondaryColor;
+ UnityEngine::Color32 __declspec(property(get=__get_headTopSecondaryColor, put=__set_headTopSecondaryColor))  headTopSecondaryColor;
 
-constexpr void __set_headTopSecondaryColor(::UnityEngine::Color32 value) ;
+constexpr void __set_headTopSecondaryColor(UnityEngine::Color32 value) ;
 
-constexpr ::UnityEngine::Color32 __get_headTopSecondaryColor() const;
+constexpr UnityEngine::Color32 __get_headTopSecondaryColor() const;
 
  ::StringW __declspec(property(get=__get_glassesId, put=__set_glassesId))  glassesId;
 
@@ -99,11 +98,11 @@ constexpr void __set_glassesId(::StringW value) ;
 
 constexpr ::StringW __get_glassesId() const;
 
- ::UnityEngine::Color32 __declspec(property(get=__get_glassesColor, put=__set_glassesColor))  glassesColor;
+ UnityEngine::Color32 __declspec(property(get=__get_glassesColor, put=__set_glassesColor))  glassesColor;
 
-constexpr void __set_glassesColor(::UnityEngine::Color32 value) ;
+constexpr void __set_glassesColor(UnityEngine::Color32 value) ;
 
-constexpr ::UnityEngine::Color32 __get_glassesColor() const;
+constexpr UnityEngine::Color32 __get_glassesColor() const;
 
  ::StringW __declspec(property(get=__get_facialHairId, put=__set_facialHairId))  facialHairId;
 
@@ -111,11 +110,11 @@ constexpr void __set_facialHairId(::StringW value) ;
 
 constexpr ::StringW __get_facialHairId() const;
 
- ::UnityEngine::Color32 __declspec(property(get=__get_facialHairColor, put=__set_facialHairColor))  facialHairColor;
+ UnityEngine::Color32 __declspec(property(get=__get_facialHairColor, put=__set_facialHairColor))  facialHairColor;
 
-constexpr void __set_facialHairColor(::UnityEngine::Color32 value) ;
+constexpr void __set_facialHairColor(UnityEngine::Color32 value) ;
 
-constexpr ::UnityEngine::Color32 __get_facialHairColor() const;
+constexpr UnityEngine::Color32 __get_facialHairColor() const;
 
  ::StringW __declspec(property(get=__get_handsId, put=__set_handsId))  handsId;
 
@@ -123,11 +122,11 @@ constexpr void __set_handsId(::StringW value) ;
 
 constexpr ::StringW __get_handsId() const;
 
- ::UnityEngine::Color32 __declspec(property(get=__get_handsColor, put=__set_handsColor))  handsColor;
+ UnityEngine::Color32 __declspec(property(get=__get_handsColor, put=__set_handsColor))  handsColor;
 
-constexpr void __set_handsColor(::UnityEngine::Color32 value) ;
+constexpr void __set_handsColor(UnityEngine::Color32 value) ;
 
-constexpr ::UnityEngine::Color32 __get_handsColor() const;
+constexpr UnityEngine::Color32 __get_handsColor() const;
 
  ::StringW __declspec(property(get=__get_clothesId, put=__set_clothesId))  clothesId;
 
@@ -135,23 +134,23 @@ constexpr void __set_clothesId(::StringW value) ;
 
 constexpr ::StringW __get_clothesId() const;
 
- ::UnityEngine::Color32 __declspec(property(get=__get_clothesPrimaryColor, put=__set_clothesPrimaryColor))  clothesPrimaryColor;
+ UnityEngine::Color32 __declspec(property(get=__get_clothesPrimaryColor, put=__set_clothesPrimaryColor))  clothesPrimaryColor;
 
-constexpr void __set_clothesPrimaryColor(::UnityEngine::Color32 value) ;
+constexpr void __set_clothesPrimaryColor(UnityEngine::Color32 value) ;
 
-constexpr ::UnityEngine::Color32 __get_clothesPrimaryColor() const;
+constexpr UnityEngine::Color32 __get_clothesPrimaryColor() const;
 
- ::UnityEngine::Color32 __declspec(property(get=__get_clothesSecondaryColor, put=__set_clothesSecondaryColor))  clothesSecondaryColor;
+ UnityEngine::Color32 __declspec(property(get=__get_clothesSecondaryColor, put=__set_clothesSecondaryColor))  clothesSecondaryColor;
 
-constexpr void __set_clothesSecondaryColor(::UnityEngine::Color32 value) ;
+constexpr void __set_clothesSecondaryColor(UnityEngine::Color32 value) ;
 
-constexpr ::UnityEngine::Color32 __get_clothesSecondaryColor() const;
+constexpr UnityEngine::Color32 __get_clothesSecondaryColor() const;
 
- ::UnityEngine::Color32 __declspec(property(get=__get_clothesDetailColor, put=__set_clothesDetailColor))  clothesDetailColor;
+ UnityEngine::Color32 __declspec(property(get=__get_clothesDetailColor, put=__set_clothesDetailColor))  clothesDetailColor;
 
-constexpr void __set_clothesDetailColor(::UnityEngine::Color32 value) ;
+constexpr void __set_clothesDetailColor(UnityEngine::Color32 value) ;
 
-constexpr ::UnityEngine::Color32 __get_clothesDetailColor() const;
+constexpr UnityEngine::Color32 __get_clothesDetailColor() const;
 
  ::StringW __declspec(property(get=__get_skinColorId, put=__set_skinColorId))  skinColorId;
 
@@ -175,19 +174,19 @@ constexpr ::StringW __get_mouthId() const;
 // Methods
 
 /// @brief Method .ctor addr 0x1216304 size 0x4c virtual false final false
- void _ctor(::StringW headTopId, ::UnityEngine::Color32 headTopPrimaryColor, ::UnityEngine::Color32 headTopSecondaryColor, ::StringW glassesId, ::UnityEngine::Color32 glassesColor, ::StringW facialHairId, ::UnityEngine::Color32 facialHairColor, ::StringW handsId, ::UnityEngine::Color32 handsColor, ::StringW clothesId, ::UnityEngine::Color32 clothesPrimaryColor, ::UnityEngine::Color32 clothesSecondaryColor, ::UnityEngine::Color32 clothesDetailColor, ::StringW skinColorId, ::StringW eyesId, ::StringW mouthId) ;
+ void _ctor(::StringW headTopId, UnityEngine::Color32 headTopPrimaryColor, UnityEngine::Color32 headTopSecondaryColor, ::StringW glassesId, UnityEngine::Color32 glassesColor, ::StringW facialHairId, UnityEngine::Color32 facialHairColor, ::StringW handsId, UnityEngine::Color32 handsColor, ::StringW clothesId, UnityEngine::Color32 clothesPrimaryColor, UnityEngine::Color32 clothesSecondaryColor, UnityEngine::Color32 clothesDetailColor, ::StringW skinColorId, ::StringW eyesId, ::StringW mouthId) ;
 
 /// @brief Method Serialize addr 0x1216350 size 0x154 virtual true final true
- void Serialize(::LiteNetLib::Utils::NetDataWriter writer) ;
+ void Serialize(LiteNetLib::Utils::NetDataWriter writer) ;
 
 /// @brief Method CreateFromSerializedData addr 0x121650c size 0x34 virtual true final true
- ::GlobalNamespace::MultiplayerAvatarData CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader reader) ;
+ GlobalNamespace::MultiplayerAvatarData CreateFromSerializedData(LiteNetLib::Utils::NetDataReader reader) ;
 
 /// @brief Method Deserialize addr 0x1216540 size 0x1b0 virtual false final false
-static ::GlobalNamespace::MultiplayerAvatarData Deserialize(::LiteNetLib::Utils::NetDataReader reader) ;
+static GlobalNamespace::MultiplayerAvatarData Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
 
 /// @brief Method Equals addr 0x1216754 size 0x2d4 virtual true final true
- bool Equals(::GlobalNamespace::MultiplayerAvatarData other) ;
+ bool Equals(GlobalNamespace::MultiplayerAvatarData other) ;
 
 /// @brief Method Equals addr 0x1216a28 size 0x90 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -199,5 +198,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerAvatarData, "", "MultiplayerAvatarData");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerAvatarData, "", "MultiplayerAvatarData");

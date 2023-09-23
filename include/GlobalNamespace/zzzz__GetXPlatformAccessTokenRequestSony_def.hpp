@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace GlobalNamespace {
 struct PlatformEnvironment;
 }
@@ -58,25 +57,24 @@ constexpr void __set_platformToken(::StringW value) ;
 
 constexpr ::StringW __get_platformToken() const;
 
- ::GlobalNamespace::PlatformEnvironment __declspec(property(get=__get_platformEnvironment, put=__set_platformEnvironment))  platformEnvironment;
+ GlobalNamespace::PlatformEnvironment __declspec(property(get=__get_platformEnvironment, put=__set_platformEnvironment))  platformEnvironment;
 
-constexpr void __set_platformEnvironment(::GlobalNamespace::PlatformEnvironment value) ;
+constexpr void __set_platformEnvironment(GlobalNamespace::PlatformEnvironment value) ;
 
-constexpr ::GlobalNamespace::PlatformEnvironment __get_platformEnvironment() const;
+constexpr GlobalNamespace::PlatformEnvironment __get_platformEnvironment() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "platformToken", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "platformEnvironment", ty: "::GlobalNamespace::PlatformEnvironment", modifiers: "", def_value: None }]
-explicit GetXPlatformAccessTokenRequestSony(::StringW platformToken, ::GlobalNamespace::PlatformEnvironment platformEnvironment) ;
+// Ctor Parameters [CppParam { name: "platformToken", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "platformEnvironment", ty: "GlobalNamespace::PlatformEnvironment", modifiers: "", def_value: None }]
+explicit GetXPlatformAccessTokenRequestSony(::StringW platformToken, GlobalNamespace::PlatformEnvironment platformEnvironment) ;
 
 /// @brief Method .ctor addr 0x221f9cc size 0x30 virtual false final false
- void _ctor(::StringW platformToken, ::GlobalNamespace::PlatformEnvironment platformEnvironment) ;
+ void _ctor(::StringW platformToken, GlobalNamespace::PlatformEnvironment platformEnvironment) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::GetXPlatformAccessTokenRequestSony);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GetXPlatformAccessTokenRequestSony, "", "GetXPlatformAccessTokenRequestSony");
+NEED_NO_BOX(GlobalNamespace::GetXPlatformAccessTokenRequestSony);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GetXPlatformAccessTokenRequestSony, "", "GetXPlatformAccessTokenRequestSony");

@@ -4,7 +4,9 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
+namespace UnityEngine {
+class AnimationCurve;
+}
 namespace UnityEngine {
 struct Quaternion;
 }
@@ -12,13 +14,10 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-class AnimationCurve;
-}
-namespace UnityEngine {
 class AnimationClip;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace RootMotion {
@@ -66,53 +65,53 @@ constexpr explicit BakerTransform(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
- ::UnityEngine::Transform __declspec(property(get=__get_transform, put=__set_transform))  transform;
+ UnityEngine::Transform __declspec(property(get=__get_transform, put=__set_transform))  transform;
 
-constexpr void __set_transform(::UnityEngine::Transform value) ;
+constexpr void __set_transform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_transform() const;
+constexpr UnityEngine::Transform __get_transform() const;
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get_posX, put=__set_posX))  posX;
+ UnityEngine::AnimationCurve __declspec(property(get=__get_posX, put=__set_posX))  posX;
 
-constexpr void __set_posX(::UnityEngine::AnimationCurve value) ;
+constexpr void __set_posX(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get_posX() const;
+constexpr UnityEngine::AnimationCurve __get_posX() const;
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get_posY, put=__set_posY))  posY;
+ UnityEngine::AnimationCurve __declspec(property(get=__get_posY, put=__set_posY))  posY;
 
-constexpr void __set_posY(::UnityEngine::AnimationCurve value) ;
+constexpr void __set_posY(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get_posY() const;
+constexpr UnityEngine::AnimationCurve __get_posY() const;
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get_posZ, put=__set_posZ))  posZ;
+ UnityEngine::AnimationCurve __declspec(property(get=__get_posZ, put=__set_posZ))  posZ;
 
-constexpr void __set_posZ(::UnityEngine::AnimationCurve value) ;
+constexpr void __set_posZ(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get_posZ() const;
+constexpr UnityEngine::AnimationCurve __get_posZ() const;
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get_rotX, put=__set_rotX))  rotX;
+ UnityEngine::AnimationCurve __declspec(property(get=__get_rotX, put=__set_rotX))  rotX;
 
-constexpr void __set_rotX(::UnityEngine::AnimationCurve value) ;
+constexpr void __set_rotX(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get_rotX() const;
+constexpr UnityEngine::AnimationCurve __get_rotX() const;
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get_rotY, put=__set_rotY))  rotY;
+ UnityEngine::AnimationCurve __declspec(property(get=__get_rotY, put=__set_rotY))  rotY;
 
-constexpr void __set_rotY(::UnityEngine::AnimationCurve value) ;
+constexpr void __set_rotY(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get_rotY() const;
+constexpr UnityEngine::AnimationCurve __get_rotY() const;
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get_rotZ, put=__set_rotZ))  rotZ;
+ UnityEngine::AnimationCurve __declspec(property(get=__get_rotZ, put=__set_rotZ))  rotZ;
 
-constexpr void __set_rotZ(::UnityEngine::AnimationCurve value) ;
+constexpr void __set_rotZ(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get_rotZ() const;
+constexpr UnityEngine::AnimationCurve __get_rotZ() const;
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get_rotW, put=__set_rotW))  rotW;
+ UnityEngine::AnimationCurve __declspec(property(get=__get_rotW, put=__set_rotW))  rotW;
 
-constexpr void __set_rotW(::UnityEngine::AnimationCurve value) ;
+constexpr void __set_rotW(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get_rotW() const;
+constexpr UnityEngine::AnimationCurve __get_rotW() const;
 
  ::StringW __declspec(property(get=__get_relativePath, put=__set_relativePath))  relativePath;
 
@@ -126,11 +125,11 @@ constexpr void __set_recordPosition(bool value) ;
 
 constexpr bool __get_recordPosition() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_relativePosition, put=__set_relativePosition))  relativePosition;
+ UnityEngine::Vector3 __declspec(property(get=__get_relativePosition, put=__set_relativePosition))  relativePosition;
 
-constexpr void __set_relativePosition(::UnityEngine::Vector3 value) ;
+constexpr void __set_relativePosition(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_relativePosition() const;
+constexpr UnityEngine::Vector3 __get_relativePosition() const;
 
  bool __declspec(property(get=__get_isRootNode, put=__set_isRootNode))  isRootNode;
 
@@ -138,29 +137,29 @@ constexpr void __set_isRootNode(bool value) ;
 
 constexpr bool __get_isRootNode() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get_relativeRotation, put=__set_relativeRotation))  relativeRotation;
+ UnityEngine::Quaternion __declspec(property(get=__get_relativeRotation, put=__set_relativeRotation))  relativeRotation;
 
-constexpr void __set_relativeRotation(::UnityEngine::Quaternion value) ;
+constexpr void __set_relativeRotation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get_relativeRotation() const;
+constexpr UnityEngine::Quaternion __get_relativeRotation() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "transform", ty: "::UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "root", ty: "::UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "recordPosition", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isRootNode", ty: "bool", modifiers: "", def_value: None }]
-explicit BakerTransform(::UnityEngine::Transform transform, ::UnityEngine::Transform root, bool recordPosition, bool isRootNode) ;
+// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "root", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "recordPosition", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isRootNode", ty: "bool", modifiers: "", def_value: None }]
+explicit BakerTransform(UnityEngine::Transform transform, UnityEngine::Transform root, bool recordPosition, bool isRootNode) ;
 
 /// @brief Method .ctor addr 0x11a6f18 size 0x94 virtual false final false
- void _ctor(::UnityEngine::Transform transform, ::UnityEngine::Transform root, bool recordPosition, bool isRootNode) ;
+ void _ctor(UnityEngine::Transform transform, UnityEngine::Transform root, bool recordPosition, bool isRootNode) ;
 
 /// @brief Method SetRelativeSpace addr 0x11a718c size 0x14 virtual false final false
- void SetRelativeSpace(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation) ;
+ void SetRelativeSpace(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation) ;
 
 /// @brief Method SetCurves addr 0x11a7468 size 0x2b4 virtual false final false
- void SetCurves(ByRef<::UnityEngine::AnimationClip> clip) ;
+ void SetCurves(ByRef<UnityEngine::AnimationClip> clip) ;
 
 /// @brief Method AddRootMotionCurves addr 0x11aa380 size 0x288 virtual false final false
- void AddRootMotionCurves(ByRef<::UnityEngine::AnimationClip> clip) ;
+ void AddRootMotionCurves(ByRef<UnityEngine::AnimationClip> clip) ;
 
 /// @brief Method Reset addr 0x11a7084 size 0x108 virtual false final false
  void Reset() ;
@@ -178,6 +177,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::BakerTransform);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::BakerTransform, "RootMotion", "BakerTransform");
+NEED_NO_BOX(RootMotion::BakerTransform);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::BakerTransform, "RootMotion", "BakerTransform");

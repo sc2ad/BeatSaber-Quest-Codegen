@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct StereoTargetEyeMask;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::StereoTargetEyeMask const None;
+static UnityEngine::StereoTargetEyeMask const None;
 
 /// @brief Field Left offset 0
-static ::UnityEngine::StereoTargetEyeMask const Left;
+static UnityEngine::StereoTargetEyeMask const Left;
 
 /// @brief Field Right offset 0
-static ::UnityEngine::StereoTargetEyeMask const Right;
+static UnityEngine::StereoTargetEyeMask const Right;
 
 /// @brief Field Both offset 0
-static ::UnityEngine::StereoTargetEyeMask const Both;
+static UnityEngine::StereoTargetEyeMask const Both;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::StereoTargetEyeMask, "UnityEngine", "StereoTargetEyeMask");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::StereoTargetEyeMask, "UnityEngine", "StereoTargetEyeMask");

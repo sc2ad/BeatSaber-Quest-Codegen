@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Text::RegularExpressions {
 class CaptureCollection;
 }
@@ -18,7 +17,7 @@ namespace System::Text::RegularExpressions {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7751))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7754))
 // CS Name: System.Text.RegularExpressions.Group
-class CORDL_TYPE Group : public ::System::Text::RegularExpressions::Capture {
+class CORDL_TYPE Group : public System::Text::RegularExpressions::Capture {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr Group(Group const& ) noexcept = default;
 constexpr Group(Group&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Group(void* ptr) noexcept : ::System::Text::RegularExpressions::Capture(ptr) {
+constexpr explicit Group(void* ptr) noexcept : System::Text::RegularExpressions::Capture(ptr) {
 }
 
 
@@ -54,11 +53,11 @@ constexpr explicit Group(void* ptr) noexcept : ::System::Text::RegularExpression
 
 // Fields
 
-static ::System::Text::RegularExpressions::Group __declspec(property(get=__get_s_emptyGroup, put=__set_s_emptyGroup))  s_emptyGroup;
+static System::Text::RegularExpressions::Group __declspec(property(get=__get_s_emptyGroup, put=__set_s_emptyGroup))  s_emptyGroup;
 
-static void __set_s_emptyGroup(::System::Text::RegularExpressions::Group value) ;
+static void __set_s_emptyGroup(System::Text::RegularExpressions::Group value) ;
 
-static ::System::Text::RegularExpressions::Group __get_s_emptyGroup() ;
+static System::Text::RegularExpressions::Group __get_s_emptyGroup() ;
 
  ::ArrayW<int32_t> __declspec(property(get=__get__caps, put=__set__caps))  _caps;
 
@@ -72,11 +71,11 @@ constexpr void __set__capcount(int32_t value) ;
 
 constexpr int32_t __get__capcount() const;
 
- ::System::Text::RegularExpressions::CaptureCollection __declspec(property(get=__get__capcoll, put=__set__capcoll))  _capcoll;
+ System::Text::RegularExpressions::CaptureCollection __declspec(property(get=__get__capcoll, put=__set__capcoll))  _capcoll;
 
-constexpr void __set__capcoll(::System::Text::RegularExpressions::CaptureCollection value) ;
+constexpr void __set__capcoll(System::Text::RegularExpressions::CaptureCollection value) ;
 
-constexpr ::System::Text::RegularExpressions::CaptureCollection __get__capcoll() const;
+constexpr System::Text::RegularExpressions::CaptureCollection __get__capcoll() const;
 
  ::StringW __declspec(property(get=__get__Name_k__BackingField, put=__set__Name_k__BackingField))  _Name_k__BackingField;
 
@@ -111,6 +110,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Text::RegularExpressions
-} // end anonymous namespace
-NEED_NO_BOX(::System::Text::RegularExpressions::Group);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::RegularExpressions::Group, "System.Text.RegularExpressions", "Group");
+NEED_NO_BOX(System::Text::RegularExpressions::Group);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::Group, "System.Text.RegularExpressions", "Group");

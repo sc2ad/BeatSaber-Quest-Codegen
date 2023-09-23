@@ -4,35 +4,34 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace System::Collections {
-class IEnumerator;
-}
 namespace UnityEngine {
-class Coroutine;
+class AudioSource;
 }
 namespace UnityEngine {
 class AnimationCurve;
 }
-namespace UnityEngine {
-class AudioSource;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class Action;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
+namespace UnityEngine {
+class Coroutine;
 }
 namespace System {
 class IDisposable;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
 class AudioPitchGainEffect;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8;
+class GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8;
 }
 // Type: ::<StartEffectCoroutine>d__8
 namespace GlobalNamespace {
@@ -40,46 +39,46 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4033))
 // CS Name: AudioPitchGainEffect::<StartEffectCoroutine>d__8
-class CORDL_TYPE ____GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
 
-virtual ~____GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8() = default;
+virtual ~GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8(____GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8(GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8(____GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8(GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8& operator=(____GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8&& o) noexcept = default;
-  constexpr ____GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8& operator=(____GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8 const& o) noexcept = default;
+  constexpr GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8& operator=(GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8&& o) noexcept = default;
+  constexpr GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8& operator=(GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8 const& o) noexcept = default;
                 
 
 
@@ -97,11 +96,11 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::GlobalNamespace::AudioPitchGainEffect __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::AudioPitchGainEffect __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::AudioPitchGainEffect value) ;
+constexpr void __set___4__this(GlobalNamespace::AudioPitchGainEffect value) ;
 
-constexpr ::GlobalNamespace::AudioPitchGainEffect __get___4__this() const;
+constexpr GlobalNamespace::AudioPitchGainEffect __get___4__this() const;
 
  float_t __declspec(property(get=__get_volumeScale, put=__set_volumeScale))  volumeScale;
 
@@ -109,11 +108,11 @@ constexpr void __set_volumeScale(float_t value) ;
 
 constexpr float_t __get_volumeScale() const;
 
- ::System::Action __declspec(property(get=__get_finishCallback, put=__set_finishCallback))  finishCallback;
+ System::Action __declspec(property(get=__get_finishCallback, put=__set_finishCallback))  finishCallback;
 
-constexpr void __set_finishCallback(::System::Action value) ;
+constexpr void __set_finishCallback(System::Action value) ;
 
-constexpr ::System::Action __get_finishCallback() const;
+constexpr System::Action __get_finishCallback() const;
 
  float_t __declspec(property(get=__get__startPitch_5__2, put=__set__startPitch_5__2))  _startPitch_5__2;
 
@@ -138,7 +137,7 @@ constexpr float_t __get__time_5__3() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8(int32_t __1__state) ;
+explicit GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x20b8df4 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -168,10 +167,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4034))
 // CS Name: AudioPitchGainEffect
-class CORDL_TYPE AudioPitchGainEffect : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE AudioPitchGainEffect : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using _StartEffectCoroutine_d__8 = ::GlobalNamespace::____GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8;
+using _StartEffectCoroutine_d__8 = GlobalNamespace::GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
@@ -185,7 +184,7 @@ constexpr AudioPitchGainEffect(AudioPitchGainEffect const& ) noexcept = default;
 constexpr AudioPitchGainEffect(AudioPitchGainEffect&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AudioPitchGainEffect(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit AudioPitchGainEffect(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -206,11 +205,11 @@ constexpr explicit AudioPitchGainEffect(void* ptr) noexcept : ::UnityEngine::Mon
 
 // Fields
 
- ::UnityEngine::AudioSource __declspec(property(get=__get__audioSource, put=__set__audioSource))  _audioSource;
+ UnityEngine::AudioSource __declspec(property(get=__get__audioSource, put=__set__audioSource))  _audioSource;
 
-constexpr void __set__audioSource(::UnityEngine::AudioSource value) ;
+constexpr void __set__audioSource(UnityEngine::AudioSource value) ;
 
-constexpr ::UnityEngine::AudioSource __get__audioSource() const;
+constexpr UnityEngine::AudioSource __get__audioSource() const;
 
  float_t __declspec(property(get=__get__duration, put=__set__duration))  _duration;
 
@@ -218,23 +217,23 @@ constexpr void __set__duration(float_t value) ;
 
 constexpr float_t __get__duration() const;
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get__pitchCurve, put=__set__pitchCurve))  _pitchCurve;
+ UnityEngine::AnimationCurve __declspec(property(get=__get__pitchCurve, put=__set__pitchCurve))  _pitchCurve;
 
-constexpr void __set__pitchCurve(::UnityEngine::AnimationCurve value) ;
+constexpr void __set__pitchCurve(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get__pitchCurve() const;
+constexpr UnityEngine::AnimationCurve __get__pitchCurve() const;
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get__gainCurve, put=__set__gainCurve))  _gainCurve;
+ UnityEngine::AnimationCurve __declspec(property(get=__get__gainCurve, put=__set__gainCurve))  _gainCurve;
 
-constexpr void __set__gainCurve(::UnityEngine::AnimationCurve value) ;
+constexpr void __set__gainCurve(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get__gainCurve() const;
+constexpr UnityEngine::AnimationCurve __get__gainCurve() const;
 
- ::UnityEngine::Coroutine __declspec(property(get=__get__currentCoroutine, put=__set__currentCoroutine))  _currentCoroutine;
+ UnityEngine::Coroutine __declspec(property(get=__get__currentCoroutine, put=__set__currentCoroutine))  _currentCoroutine;
 
-constexpr void __set__currentCoroutine(::UnityEngine::Coroutine value) ;
+constexpr void __set__currentCoroutine(UnityEngine::Coroutine value) ;
 
-constexpr ::UnityEngine::Coroutine __get__currentCoroutine() const;
+constexpr UnityEngine::Coroutine __get__currentCoroutine() const;
 
  float_t __declspec(property(get=__get__startPitch, put=__set__startPitch))  _startPitch;
 
@@ -255,16 +254,16 @@ constexpr float_t __get__startVolume() const;
  void Start() ;
 
 /// @brief Method StartEffectCoroutine addr 0x20b8d6c size 0x88 virtual false final false
- ::System::Collections::IEnumerator StartEffectCoroutine(float_t volumeScale, ::System::Action finishCallback) ;
+ System::Collections::IEnumerator StartEffectCoroutine(float_t volumeScale, System::Action finishCallback) ;
 
 /// @brief Method StartEffect addr 0x20b8e1c size 0x28 virtual false final false
- void StartEffect(float_t volumeScale, ::System::Action finishCallback) ;
+ void StartEffect(float_t volumeScale, System::Action finishCallback) ;
 
 /// @brief Method InterruptEffect addr 0x20b8e44 size 0x40 virtual false final false
  void InterruptEffect() ;
 
 /// @brief Method SetAudioSource addr 0x20b8e84 size 0x8 virtual false final false
- void SetAudioSource(::UnityEngine::AudioSource audioSource) ;
+ void SetAudioSource(UnityEngine::AudioSource audioSource) ;
 
 // Ctor Parameters []
 explicit AudioPitchGainEffect() ;
@@ -276,8 +275,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::AudioPitchGainEffect);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AudioPitchGainEffect, "", "AudioPitchGainEffect");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8, "", "AudioPitchGainEffect/<StartEffectCoroutine>d__8");
+NEED_NO_BOX(GlobalNamespace::AudioPitchGainEffect);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioPitchGainEffect, "", "AudioPitchGainEffect");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8, "", "AudioPitchGainEffect/<StartEffectCoroutine>d__8");

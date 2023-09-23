@@ -1,18 +1,17 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__TableCell_def.hpp"
-namespace {
-namespace HMUI {
-class CurvedTextMeshPro;
-}
 namespace UnityEngine {
 class GameObject;
 }
 namespace GlobalNamespace {
-class SongPackMasksModel;
+class INetworkPlayer;
+}
+namespace HMUI {
+class CurvedTextMeshPro;
 }
 namespace GlobalNamespace {
-class INetworkPlayer;
+class SongPackMasksModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,7 +23,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13715))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5517))
 // CS Name: GameServerListTableCell
-class CORDL_TYPE GameServerListTableCell : public ::HMUI::TableCell {
+class CORDL_TYPE GameServerListTableCell : public HMUI::TableCell {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr GameServerListTableCell(GameServerListTableCell const& ) noexcept = de
 constexpr GameServerListTableCell(GameServerListTableCell&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GameServerListTableCell(void* ptr) noexcept : ::HMUI::TableCell(ptr) {
+constexpr explicit GameServerListTableCell(void* ptr) noexcept : HMUI::TableCell(ptr) {
 }
 
 
@@ -60,47 +59,47 @@ constexpr explicit GameServerListTableCell(void* ptr) noexcept : ::HMUI::TableCe
 
 // Fields
 
- ::HMUI::CurvedTextMeshPro __declspec(property(get=__get__serverName, put=__set__serverName))  _serverName;
+ HMUI::CurvedTextMeshPro __declspec(property(get=__get__serverName, put=__set__serverName))  _serverName;
 
-constexpr void __set__serverName(::HMUI::CurvedTextMeshPro value) ;
+constexpr void __set__serverName(HMUI::CurvedTextMeshPro value) ;
 
-constexpr ::HMUI::CurvedTextMeshPro __get__serverName() const;
+constexpr HMUI::CurvedTextMeshPro __get__serverName() const;
 
- ::HMUI::CurvedTextMeshPro __declspec(property(get=__get__difficultiesText, put=__set__difficultiesText))  _difficultiesText;
+ HMUI::CurvedTextMeshPro __declspec(property(get=__get__difficultiesText, put=__set__difficultiesText))  _difficultiesText;
 
-constexpr void __set__difficultiesText(::HMUI::CurvedTextMeshPro value) ;
+constexpr void __set__difficultiesText(HMUI::CurvedTextMeshPro value) ;
 
-constexpr ::HMUI::CurvedTextMeshPro __get__difficultiesText() const;
+constexpr HMUI::CurvedTextMeshPro __get__difficultiesText() const;
 
- ::HMUI::CurvedTextMeshPro __declspec(property(get=__get__musicPackText, put=__set__musicPackText))  _musicPackText;
+ HMUI::CurvedTextMeshPro __declspec(property(get=__get__musicPackText, put=__set__musicPackText))  _musicPackText;
 
-constexpr void __set__musicPackText(::HMUI::CurvedTextMeshPro value) ;
+constexpr void __set__musicPackText(HMUI::CurvedTextMeshPro value) ;
 
-constexpr ::HMUI::CurvedTextMeshPro __get__musicPackText() const;
+constexpr HMUI::CurvedTextMeshPro __get__musicPackText() const;
 
- ::HMUI::CurvedTextMeshPro __declspec(property(get=__get__playerCount, put=__set__playerCount))  _playerCount;
+ HMUI::CurvedTextMeshPro __declspec(property(get=__get__playerCount, put=__set__playerCount))  _playerCount;
 
-constexpr void __set__playerCount(::HMUI::CurvedTextMeshPro value) ;
+constexpr void __set__playerCount(HMUI::CurvedTextMeshPro value) ;
 
-constexpr ::HMUI::CurvedTextMeshPro __get__playerCount() const;
+constexpr HMUI::CurvedTextMeshPro __get__playerCount() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get__passwordProtected, put=__set__passwordProtected))  _passwordProtected;
+ UnityEngine::GameObject __declspec(property(get=__get__passwordProtected, put=__set__passwordProtected))  _passwordProtected;
 
-constexpr void __set__passwordProtected(::UnityEngine::GameObject value) ;
+constexpr void __set__passwordProtected(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__passwordProtected() const;
+constexpr UnityEngine::GameObject __get__passwordProtected() const;
 
- ::GlobalNamespace::SongPackMasksModel __declspec(property(get=__get__songPackMasksModel, put=__set__songPackMasksModel))  _songPackMasksModel;
+ GlobalNamespace::SongPackMasksModel __declspec(property(get=__get__songPackMasksModel, put=__set__songPackMasksModel))  _songPackMasksModel;
 
-constexpr void __set__songPackMasksModel(::GlobalNamespace::SongPackMasksModel value) ;
+constexpr void __set__songPackMasksModel(GlobalNamespace::SongPackMasksModel value) ;
 
-constexpr ::GlobalNamespace::SongPackMasksModel __get__songPackMasksModel() const;
+constexpr GlobalNamespace::SongPackMasksModel __get__songPackMasksModel() const;
 
 
 // Methods
 
 /// @brief Method SetData addr 0x2123404 size 0x388 virtual false final false
- void SetData(::GlobalNamespace::INetworkPlayer player) ;
+ void SetData(GlobalNamespace::INetworkPlayer player) ;
 
 // Ctor Parameters []
 explicit GameServerListTableCell() ;
@@ -112,6 +111,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::GameServerListTableCell);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameServerListTableCell, "", "GameServerListTableCell");
+NEED_NO_BOX(GlobalNamespace::GameServerListTableCell);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerListTableCell, "", "GameServerListTableCell");

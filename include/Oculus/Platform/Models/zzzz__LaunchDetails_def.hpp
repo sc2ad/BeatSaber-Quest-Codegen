@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
 class UserList;
 }
@@ -74,11 +73,11 @@ constexpr void __set_LaunchSource(::StringW value) ;
 
 constexpr ::StringW __get_LaunchSource() const;
 
- ::Oculus::Platform::LaunchType __declspec(property(get=__get_LaunchType, put=__set_LaunchType))  LaunchType;
+ Oculus::Platform::LaunchType __declspec(property(get=__get_LaunchType, put=__set_LaunchType))  LaunchType;
 
-constexpr void __set_LaunchType(::Oculus::Platform::LaunchType value) ;
+constexpr void __set_LaunchType(Oculus::Platform::LaunchType value) ;
 
-constexpr ::Oculus::Platform::LaunchType __get_LaunchType() const;
+constexpr Oculus::Platform::LaunchType __get_LaunchType() const;
 
  uint64_t __declspec(property(get=__get_RoomID, put=__set_RoomID))  RoomID;
 
@@ -92,17 +91,17 @@ constexpr void __set_TrackingID(::StringW value) ;
 
 constexpr ::StringW __get_TrackingID() const;
 
- ::Oculus::Platform::Models::UserList __declspec(property(get=__get_UsersOptional, put=__set_UsersOptional))  UsersOptional;
+ Oculus::Platform::Models::UserList __declspec(property(get=__get_UsersOptional, put=__set_UsersOptional))  UsersOptional;
 
-constexpr void __set_UsersOptional(::Oculus::Platform::Models::UserList value) ;
+constexpr void __set_UsersOptional(Oculus::Platform::Models::UserList value) ;
 
-constexpr ::Oculus::Platform::Models::UserList __get_UsersOptional() const;
+constexpr Oculus::Platform::Models::UserList __get_UsersOptional() const;
 
- ::Oculus::Platform::Models::UserList __declspec(property(get=__get_Users, put=__set_Users))  Users;
+ Oculus::Platform::Models::UserList __declspec(property(get=__get_Users, put=__set_Users))  Users;
 
-constexpr void __set_Users(::Oculus::Platform::Models::UserList value) ;
+constexpr void __set_Users(Oculus::Platform::Models::UserList value) ;
 
-constexpr ::Oculus::Platform::Models::UserList __get_Users() const;
+constexpr Oculus::Platform::Models::UserList __get_Users() const;
 
 
 // Methods
@@ -117,6 +116,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::LaunchDetails);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::LaunchDetails, "Oculus.Platform.Models", "LaunchDetails");
+NEED_NO_BOX(Oculus::Platform::Models::LaunchDetails);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LaunchDetails, "Oculus.Platform.Models", "LaunchDetails");

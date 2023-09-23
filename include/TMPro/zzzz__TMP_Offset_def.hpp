@@ -4,7 +4,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace TMPro {
 struct TMP_Offset;
@@ -76,11 +75,11 @@ constexpr void __set_m_Bottom(float_t value) ;
 
 constexpr float_t __get_m_Bottom() const;
 
-static ::TMPro::TMP_Offset __declspec(property(get=__get_k_ZeroOffset, put=__set_k_ZeroOffset))  k_ZeroOffset;
+static TMPro::TMP_Offset __declspec(property(get=__get_k_ZeroOffset, put=__set_k_ZeroOffset))  k_ZeroOffset;
 
-static void __set_k_ZeroOffset(::TMPro::TMP_Offset value) ;
+static void __set_k_ZeroOffset(TMPro::TMP_Offset value) ;
 
-static ::TMPro::TMP_Offset __get_k_ZeroOffset() ;
+static TMPro::TMP_Offset __get_k_ZeroOffset() ;
 
 
 // Properties
@@ -97,7 +96,7 @@ static ::TMPro::TMP_Offset __get_k_ZeroOffset() ;
 
  float_t __declspec(property(get=get_vertical, put=set_vertical))  vertical;
 
-static ::TMPro::TMP_Offset __declspec(property(get=get_zero))  zero;
+static TMPro::TMP_Offset __declspec(property(get=get_zero))  zero;
 
 
 // Methods
@@ -139,7 +138,7 @@ static ::TMPro::TMP_Offset __declspec(property(get=get_zero))  zero;
  void set_vertical(float_t value) ;
 
 /// @brief Method get_zero addr 0x2a69f50 size 0x5c virtual false final false
-static ::TMPro::TMP_Offset get_zero() ;
+static TMPro::TMP_Offset get_zero() ;
 
 /// @brief Method .ctor addr 0x2a69fac size 0xc virtual false final false
  void _ctor(float_t left, float_t right, float_t top, float_t bottom) ;
@@ -148,13 +147,13 @@ static ::TMPro::TMP_Offset get_zero() ;
  void _ctor(float_t horizontal, float_t vertical) ;
 
 /// @brief Method op_Equality addr 0x2a69fc4 size 0x30 virtual false final false
-static bool op_Equality(::TMPro::TMP_Offset lhs, ::TMPro::TMP_Offset rhs) ;
+static bool op_Equality(TMPro::TMP_Offset lhs, TMPro::TMP_Offset rhs) ;
 
 /// @brief Method op_Inequality addr 0x2a69ff4 size 0xb8 virtual false final false
-static bool op_Inequality(::TMPro::TMP_Offset lhs, ::TMPro::TMP_Offset rhs) ;
+static bool op_Inequality(TMPro::TMP_Offset lhs, TMPro::TMP_Offset rhs) ;
 
 /// @brief Method op_Multiply addr 0x2a6a0ac size 0x14 virtual false final false
-static ::TMPro::TMP_Offset op_Multiply(::TMPro::TMP_Offset a, float_t b) ;
+static TMPro::TMP_Offset op_Multiply(TMPro::TMP_Offset a, float_t b) ;
 
 /// @brief Method GetHashCode addr 0x2a6a0c0 size 0x64 virtual true final false
  int32_t GetHashCode() ;
@@ -163,11 +162,10 @@ static ::TMPro::TMP_Offset op_Multiply(::TMPro::TMP_Offset a, float_t b) ;
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x2a6a19c size 0xa8 virtual false final false
- bool Equals(::TMPro::TMP_Offset other) ;
+ bool Equals(TMPro::TMP_Offset other) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_Offset, "TMPro", "TMP_Offset");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Offset, "TMPro", "TMP_Offset");

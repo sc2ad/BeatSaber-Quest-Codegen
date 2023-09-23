@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Ocsp {
 class OcspResp;
 }
@@ -74,7 +73,7 @@ static constexpr int32_t  Unauthorized{6};
 // Methods
 
 /// @brief Method Generate addr 0x10160a0 size 0x318 virtual false final false
- ::Org::BouncyCastle::Ocsp::OcspResp Generate(int32_t status, ::bs_hook::Il2CppWrapperType response) ;
+ Org::BouncyCastle::Ocsp::OcspResp Generate(int32_t status, ::bs_hook::Il2CppWrapperType response) ;
 
 // Ctor Parameters []
 explicit OCSPRespGenerator() ;
@@ -86,6 +85,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Ocsp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Ocsp::OCSPRespGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Ocsp::OCSPRespGenerator, "Org.BouncyCastle.Ocsp", "OCSPRespGenerator");
+NEED_NO_BOX(Org::BouncyCastle::Ocsp::OCSPRespGenerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Ocsp::OCSPRespGenerator, "Org.BouncyCastle.Ocsp", "OCSPRespGenerator");

@@ -3,7 +3,6 @@
 #include "Org/BouncyCastle/Utilities/IO/zzzz__BaseOutputStream_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class IMac;
 }
@@ -17,7 +16,7 @@ namespace Org::BouncyCastle::Crypto::IO {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(484))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(930))
 // CS Name: Org.BouncyCastle.Crypto.IO.MacSink
-class CORDL_TYPE MacSink : public ::Org::BouncyCastle::Utilities::IO::BaseOutputStream {
+class CORDL_TYPE MacSink : public Org::BouncyCastle::Utilities::IO::BaseOutputStream {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr MacSink(MacSink const& ) noexcept = default;
 constexpr MacSink(MacSink&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MacSink(void* ptr) noexcept : ::Org::BouncyCastle::Utilities::IO::BaseOutputStream(ptr) {
+constexpr explicit MacSink(void* ptr) noexcept : Org::BouncyCastle::Utilities::IO::BaseOutputStream(ptr) {
 }
 
 
@@ -53,28 +52,28 @@ constexpr explicit MacSink(void* ptr) noexcept : ::Org::BouncyCastle::Utilities:
 
 // Fields
 
- ::Org::BouncyCastle::Crypto::IMac __declspec(property(get=__get_mMac, put=__set_mMac))  mMac;
+ Org::BouncyCastle::Crypto::IMac __declspec(property(get=__get_mMac, put=__set_mMac))  mMac;
 
-constexpr void __set_mMac(::Org::BouncyCastle::Crypto::IMac value) ;
+constexpr void __set_mMac(Org::BouncyCastle::Crypto::IMac value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IMac __get_mMac() const;
+constexpr Org::BouncyCastle::Crypto::IMac __get_mMac() const;
 
 
 // Properties
 
- ::Org::BouncyCastle::Crypto::IMac __declspec(property(get=get_Mac))  Mac;
+ Org::BouncyCastle::Crypto::IMac __declspec(property(get=get_Mac))  Mac;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "mac", ty: "::Org::BouncyCastle::Crypto::IMac", modifiers: "", def_value: None }]
-explicit MacSink(::Org::BouncyCastle::Crypto::IMac mac) ;
+// Ctor Parameters [CppParam { name: "mac", ty: "Org::BouncyCastle::Crypto::IMac", modifiers: "", def_value: None }]
+explicit MacSink(Org::BouncyCastle::Crypto::IMac mac) ;
 
 /// @brief Method .ctor addr 0xe7c140 size 0x28 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IMac mac) ;
+ void _ctor(Org::BouncyCastle::Crypto::IMac mac) ;
 
 /// @brief Method get_Mac addr 0xe7c168 size 0x8 virtual true final false
- ::Org::BouncyCastle::Crypto::IMac get_Mac() ;
+ Org::BouncyCastle::Crypto::IMac get_Mac() ;
 
 /// @brief Method WriteByte addr 0xe7c170 size 0xac virtual true final false
  void WriteByte(uint8_t b) ;
@@ -86,6 +85,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::IO
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::IO::MacSink);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::IO::MacSink, "Org.BouncyCastle.Crypto.IO", "MacSink");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::IO::MacSink);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::IO::MacSink, "Org.BouncyCastle.Crypto.IO", "MacSink");

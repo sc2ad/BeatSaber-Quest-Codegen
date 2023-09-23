@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class Exception;
 }
@@ -16,7 +15,7 @@ namespace Org::BouncyCastle::X509::Store {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2560))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1844))
 // CS Name: Org.BouncyCastle.X509.Store.X509StoreException
-class CORDL_TYPE X509StoreException : public ::System::Exception {
+class CORDL_TYPE X509StoreException : public System::Exception {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr X509StoreException(X509StoreException const& ) noexcept = default;
 constexpr X509StoreException(X509StoreException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit X509StoreException(void* ptr) noexcept : ::System::Exception(ptr) {
+constexpr explicit X509StoreException(void* ptr) noexcept : System::Exception(ptr) {
 }
 
 
@@ -64,16 +63,15 @@ explicit X509StoreException(::StringW message) ;
 /// @brief Method .ctor addr 0x10e4f84 size 0x68 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "e", ty: "::System::Exception", modifiers: "", def_value: None }]
-explicit X509StoreException(::StringW message, ::System::Exception e) ;
+// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "e", ty: "System::Exception", modifiers: "", def_value: None }]
+explicit X509StoreException(::StringW message, System::Exception e) ;
 
 /// @brief Method .ctor addr 0x10e4fec size 0x70 virtual false final false
- void _ctor(::StringW message, ::System::Exception e) ;
+ void _ctor(::StringW message, System::Exception e) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::X509::Store
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::X509::Store::X509StoreException);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::X509::Store::X509StoreException, "Org.BouncyCastle.X509.Store", "X509StoreException");
+NEED_NO_BOX(Org::BouncyCastle::X509::Store::X509StoreException);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::Store::X509StoreException, "Org.BouncyCastle.X509.Store", "X509StoreException");

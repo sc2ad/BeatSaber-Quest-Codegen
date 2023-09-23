@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 class InspectorNameAttribute;
@@ -13,7 +12,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10112))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10114))
 // CS Name: UnityEngine.InspectorNameAttribute
-class CORDL_TYPE InspectorNameAttribute : public ::UnityEngine::PropertyAttribute {
+class CORDL_TYPE InspectorNameAttribute : public UnityEngine::PropertyAttribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr InspectorNameAttribute(InspectorNameAttribute const& ) noexcept = defa
 constexpr InspectorNameAttribute(InspectorNameAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit InspectorNameAttribute(void* ptr) noexcept : ::UnityEngine::PropertyAttribute(ptr) {
+constexpr explicit InspectorNameAttribute(void* ptr) noexcept : UnityEngine::PropertyAttribute(ptr) {
 }
 
 
@@ -68,6 +67,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InspectorNameAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InspectorNameAttribute, "UnityEngine", "InspectorNameAttribute");
+NEED_NO_BOX(UnityEngine::InspectorNameAttribute);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InspectorNameAttribute, "UnityEngine", "InspectorNameAttribute");

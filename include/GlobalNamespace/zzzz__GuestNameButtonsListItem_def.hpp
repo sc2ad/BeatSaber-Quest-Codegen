@@ -2,15 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace TMPro {
 class TextMeshProUGUI;
 }
-namespace UnityEngine::UI {
-class Button;
-}
 namespace System {
 class Action;
+}
+namespace UnityEngine::UI {
+class Button;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,7 +21,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5620))
 // CS Name: GuestNameButtonsListItem
-class CORDL_TYPE GuestNameButtonsListItem : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE GuestNameButtonsListItem : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr GuestNameButtonsListItem(GuestNameButtonsListItem const& ) noexcept = 
 constexpr GuestNameButtonsListItem(GuestNameButtonsListItem&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GuestNameButtonsListItem(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit GuestNameButtonsListItem(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -58,30 +57,30 @@ constexpr explicit GuestNameButtonsListItem(void* ptr) noexcept : ::UnityEngine:
 
 // Fields
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__nameText, put=__set__nameText))  _nameText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__nameText, put=__set__nameText))  _nameText;
 
-constexpr void __set__nameText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__nameText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__nameText() const;
+constexpr TMPro::TextMeshProUGUI __get__nameText() const;
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__button, put=__set__button))  _button;
+ UnityEngine::UI::Button __declspec(property(get=__get__button, put=__set__button))  _button;
 
-constexpr void __set__button(::UnityEngine::UI::Button value) ;
+constexpr void __set__button(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__button() const;
+constexpr UnityEngine::UI::Button __get__button() const;
 
- ::System::Action __declspec(property(get=__get__buttonPressed, put=__set__buttonPressed))  _buttonPressed;
+ System::Action __declspec(property(get=__get__buttonPressed, put=__set__buttonPressed))  _buttonPressed;
 
-constexpr void __set__buttonPressed(::System::Action value) ;
+constexpr void __set__buttonPressed(System::Action value) ;
 
-constexpr ::System::Action __get__buttonPressed() const;
+constexpr System::Action __get__buttonPressed() const;
 
 
 // Properties
 
  ::StringW __declspec(property(put=set_nameText))  nameText;
 
- ::System::Action __declspec(property(put=set_buttonPressed))  buttonPressed;
+ System::Action __declspec(property(put=set_buttonPressed))  buttonPressed;
 
 
 // Methods
@@ -90,7 +89,7 @@ constexpr ::System::Action __get__buttonPressed() const;
  void set_nameText(::StringW value) ;
 
 /// @brief Method set_buttonPressed addr 0x2146e18 size 0x8 virtual false final false
- void set_buttonPressed(::System::Action value) ;
+ void set_buttonPressed(System::Action value) ;
 
 /// @brief Method Awake addr 0x2146e20 size 0x94 virtual false final false
  void Awake() ;
@@ -108,6 +107,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::GuestNameButtonsListItem);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GuestNameButtonsListItem, "", "GuestNameButtonsListItem");
+NEED_NO_BOX(GlobalNamespace::GuestNameButtonsListItem);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GuestNameButtonsListItem, "", "GuestNameButtonsListItem");

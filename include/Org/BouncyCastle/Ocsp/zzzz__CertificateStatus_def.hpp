@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Ocsp {
 class CertificateStatus;
@@ -48,11 +47,11 @@ constexpr explicit CertificateStatus(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 
 // Fields
 
-static ::Org::BouncyCastle::Ocsp::CertificateStatus __declspec(property(get=__get_Good, put=__set_Good))  Good;
+static Org::BouncyCastle::Ocsp::CertificateStatus __declspec(property(get=__get_Good, put=__set_Good))  Good;
 
-static void __set_Good(::Org::BouncyCastle::Ocsp::CertificateStatus value) ;
+static void __set_Good(Org::BouncyCastle::Ocsp::CertificateStatus value) ;
 
-static ::Org::BouncyCastle::Ocsp::CertificateStatus __get_Good() ;
+static Org::BouncyCastle::Ocsp::CertificateStatus __get_Good() ;
 
 
 // Methods
@@ -67,6 +66,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Ocsp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Ocsp::CertificateStatus);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Ocsp::CertificateStatus, "Org.BouncyCastle.Ocsp", "CertificateStatus");
+NEED_NO_BOX(Org::BouncyCastle::Ocsp::CertificateStatus);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Ocsp::CertificateStatus, "Org.BouncyCastle.Ocsp", "CertificateStatus");

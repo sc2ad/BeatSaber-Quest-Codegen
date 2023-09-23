@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace ENet {
-struct Event;
+class ChecksumCallback;
 }
 namespace ENet {
-struct Address;
+class InterceptCallback;
 }
 namespace ENet {
 struct Packet;
@@ -17,21 +16,21 @@ struct Packet;
 namespace ENet {
 struct SslConfiguration;
 }
-namespace System {
-template<typename T>
-struct Nullable_1;
-}
 namespace ENet {
-struct Peer;
+struct Event;
 }
 namespace System {
 class IDisposable;
 }
 namespace ENet {
-class InterceptCallback;
+struct Address;
 }
 namespace ENet {
-class ChecksumCallback;
+struct Peer;
+}
+namespace System {
+template<typename T>
+struct Nullable_1;
 }
 // Forward declare root types
 namespace ENet {
@@ -46,8 +45,8 @@ namespace ENet {
 class CORDL_TYPE Host : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -148,34 +147,34 @@ constexpr ::cordl_internals::intptr_t __get_nativeHost() const;
 static void ThrowIfChannelsExceeded(int32_t channelLimit) ;
 
 /// @brief Method Create addr 0x207eb2c size 0x29c virtual false final false
- void Create(::System::Nullable_1<::ENet::Address> address, int32_t peerLimit, int32_t channelLimit, uint32_t incomingBandwidth, uint32_t outgoingBandwidth, int32_t bufferSize, ::ENet::SslConfiguration sslConfiguration) ;
+ void Create(System::Nullable_1<ENet::Address> address, int32_t peerLimit, int32_t channelLimit, uint32_t incomingBandwidth, uint32_t outgoingBandwidth, int32_t bufferSize, ENet::SslConfiguration sslConfiguration) ;
 
 /// @brief Method PreventConnections addr 0x207f000 size 0x28 virtual false final false
  void PreventConnections(bool state) ;
 
 /// @brief Method Broadcast addr 0x207f0ac size 0x80 virtual false final false
- void Broadcast(uint8_t channelID, ByRef<::ENet::Packet> packet) ;
+ void Broadcast(uint8_t channelID, ByRef<ENet::Packet> packet) ;
 
 /// @brief Method Broadcast addr 0x207f1c0 size 0x90 virtual false final false
- void Broadcast(uint8_t channelID, ByRef<::ENet::Packet> packet, ::ENet::Peer excludedPeer) ;
+ void Broadcast(uint8_t channelID, ByRef<ENet::Packet> packet, ENet::Peer excludedPeer) ;
 
 /// @brief Method Broadcast addr 0x207f2ec size 0x1a0 virtual false final false
- void Broadcast(uint8_t channelID, ByRef<::ENet::Packet> packet, ::ArrayW<::ENet::Peer> peers) ;
+ void Broadcast(uint8_t channelID, ByRef<ENet::Packet> packet, ::ArrayW<ENet::Peer> peers) ;
 
 /// @brief Method CheckEvents addr 0x207f540 size 0x58 virtual false final false
- int32_t CheckEvents(ByRef<::ENet::Event> event) ;
+ int32_t CheckEvents(ByRef<ENet::Event> event) ;
 
 /// @brief Method Connect addr 0x207f61c size 0x54 virtual false final false
- ::ENet::Peer Connect(::ENet::Address address) ;
+ ENet::Peer Connect(ENet::Address address) ;
 
 /// @brief Method Connect addr 0x207f7c4 size 0x50 virtual false final false
- ::ENet::Peer Connect(::ENet::Address address, int32_t channelLimit) ;
+ ENet::Peer Connect(ENet::Address address, int32_t channelLimit) ;
 
 /// @brief Method Connect addr 0x207f670 size 0x154 virtual false final false
- ::ENet::Peer Connect(::ENet::Address address, int32_t channelLimit, uint32_t data) ;
+ ENet::Peer Connect(ENet::Address address, int32_t channelLimit, uint32_t data) ;
 
 /// @brief Method Service addr 0x207f8b0 size 0xb0 virtual false final false
- int32_t Service(int32_t timeout, ByRef<::ENet::Event> event) ;
+ int32_t Service(int32_t timeout, ByRef<ENet::Event> event) ;
 
 /// @brief Method SetBandwidthLimit addr 0x207f9f4 size 0x30 virtual false final false
  void SetBandwidthLimit(uint32_t incomingBandwidth, uint32_t outgoingBandwidth) ;
@@ -190,13 +189,13 @@ static void ThrowIfChannelsExceeded(int32_t channelLimit) ;
  void SetInterceptCallback(::cordl_internals::intptr_t callback) ;
 
 /// @brief Method SetInterceptCallback addr 0x207fcd4 size 0x90 virtual false final false
- void SetInterceptCallback(::ENet::InterceptCallback callback) ;
+ void SetInterceptCallback(ENet::InterceptCallback callback) ;
 
 /// @brief Method SetChecksumCallback addr 0x207fd64 size 0x28 virtual false final false
  void SetChecksumCallback(::cordl_internals::intptr_t callback) ;
 
 /// @brief Method SetChecksumCallback addr 0x207fe10 size 0x90 virtual false final false
- void SetChecksumCallback(::ENet::ChecksumCallback callback) ;
+ void SetChecksumCallback(ENet::ChecksumCallback callback) ;
 
 /// @brief Method Flush addr 0x207fea0 size 0x18 virtual false final false
  void Flush() ;
@@ -211,6 +210,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def ENet
-} // end anonymous namespace
-NEED_NO_BOX(::ENet::Host);
-DEFINE_IL2CPP_ARG_TYPE(::ENet::Host, "ENet", "Host");
+NEED_NO_BOX(ENet::Host);
+DEFINE_IL2CPP_ARG_TYPE(ENet::Host, "ENet", "Host");

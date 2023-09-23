@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVRSimpleJSON {
 struct JSONNodeType;
@@ -73,32 +72,31 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Array offset 0
-static ::OVRSimpleJSON::JSONNodeType const Array;
+static OVRSimpleJSON::JSONNodeType const Array;
 
 /// @brief Field Object offset 0
-static ::OVRSimpleJSON::JSONNodeType const Object;
+static OVRSimpleJSON::JSONNodeType const Object;
 
 /// @brief Field String offset 0
-static ::OVRSimpleJSON::JSONNodeType const String;
+static OVRSimpleJSON::JSONNodeType const String;
 
 /// @brief Field Number offset 0
-static ::OVRSimpleJSON::JSONNodeType const Number;
+static OVRSimpleJSON::JSONNodeType const Number;
 
 /// @brief Field NullValue offset 0
-static ::OVRSimpleJSON::JSONNodeType const NullValue;
+static OVRSimpleJSON::JSONNodeType const NullValue;
 
 /// @brief Field Boolean offset 0
-static ::OVRSimpleJSON::JSONNodeType const Boolean;
+static OVRSimpleJSON::JSONNodeType const Boolean;
 
 /// @brief Field None offset 0
-static ::OVRSimpleJSON::JSONNodeType const None;
+static OVRSimpleJSON::JSONNodeType const None;
 
 /// @brief Field Custom offset 0
-static ::OVRSimpleJSON::JSONNodeType const Custom;
+static OVRSimpleJSON::JSONNodeType const Custom;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVRSimpleJSON
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVRSimpleJSON::JSONNodeType, "OVRSimpleJSON", "JSONNodeType");
+DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNodeType, "OVRSimpleJSON", "JSONNodeType");

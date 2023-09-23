@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace HoudiniEngineUnity {
 class HEU_HoudiniAsset;
 }
@@ -70,15 +69,14 @@ static int32_t __get_PRESET_VERSION() ;
 // Methods
 
 /// @brief Method SaveAssetPresetToFile addr 0x1fdb128 size 0x640 virtual false final false
-static void SaveAssetPresetToFile(::HoudiniEngineUnity::HEU_HoudiniAsset asset, ::StringW filePath) ;
+static void SaveAssetPresetToFile(HoudiniEngineUnity::HEU_HoudiniAsset asset, ::StringW filePath) ;
 
 /// @brief Method LoadPresetFileIntoAssetAndCook addr 0x1fdbf54 size 0x668 virtual false final false
-static void LoadPresetFileIntoAssetAndCook(::HoudiniEngineUnity::HEU_HoudiniAsset asset, ::StringW filePath) ;
+static void LoadPresetFileIntoAssetAndCook(HoudiniEngineUnity::HEU_HoudiniAsset asset, ::StringW filePath) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_AssetPresetUtility);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_AssetPresetUtility, "HoudiniEngineUnity", "HEU_AssetPresetUtility");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_AssetPresetUtility);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_AssetPresetUtility, "HoudiniEngineUnity", "HEU_AssetPresetUtility");

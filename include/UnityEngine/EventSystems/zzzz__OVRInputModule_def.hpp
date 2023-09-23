@@ -6,27 +6,8 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine::EventSystems {
-class ____UnityEngine__EventSystems__PointerInputModule__MouseButtonEventData;
-}
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRInput__Button;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace GlobalNamespace {
-class OVRCursor;
-}
-namespace UnityEngine::EventSystems {
-class OVRPointerEventData;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-class RectTransform;
+struct GlobalNamespace__OVRInput__Button;
 }
 namespace UnityEngine {
 class Transform;
@@ -38,21 +19,39 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine::EventSystems {
-struct ____UnityEngine__EventSystems__PointerEventData__FramePressState;
+class UnityEngine__EventSystems__PointerInputModule__MouseButtonEventData;
 }
-namespace UnityEngine::EventSystems {
-class ____UnityEngine__EventSystems__PointerInputModule__MouseState;
+namespace GlobalNamespace {
+class OVRCursor;
 }
 namespace GlobalNamespace {
 class OVRRaycaster;
+}
+namespace UnityEngine::EventSystems {
+struct UnityEngine__EventSystems__PointerEventData__FramePressState;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::EventSystems {
+class OVRPointerEventData;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine::EventSystems {
+class UnityEngine__EventSystems__PointerInputModule__MouseState;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
 // Forward declare root types
 namespace UnityEngine::EventSystems {
-struct ____UnityEngine__EventSystems__OVRInputModule__InputMode;
+struct UnityEngine__EventSystems__OVRInputModule__InputMode;
 }
 namespace UnityEngine::EventSystems {
 class OVRInputModule;
@@ -63,20 +62,20 @@ namespace UnityEngine::EventSystems {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9517))
 // CS Name: UnityEngine.EventSystems.OVRInputModule::InputMode
-struct CORDL_TYPE ____UnityEngine__EventSystems__OVRInputModule__InputMode : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__EventSystems__OVRInputModule__InputMode : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__EventSystems__OVRInputModule__InputMode(int32_t value__) noexcept;
+constexpr UnityEngine__EventSystems__OVRInputModule__InputMode(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__EventSystems__OVRInputModule__InputMode(____UnityEngine__EventSystems__OVRInputModule__InputMode const&) = default;
-                    constexpr ____UnityEngine__EventSystems__OVRInputModule__InputMode(____UnityEngine__EventSystems__OVRInputModule__InputMode&&) = default;
-                    constexpr ____UnityEngine__EventSystems__OVRInputModule__InputMode& operator=(____UnityEngine__EventSystems__OVRInputModule__InputMode const& o) {
+                    constexpr UnityEngine__EventSystems__OVRInputModule__InputMode(UnityEngine__EventSystems__OVRInputModule__InputMode const&) = default;
+                    constexpr UnityEngine__EventSystems__OVRInputModule__InputMode(UnityEngine__EventSystems__OVRInputModule__InputMode&&) = default;
+                    constexpr UnityEngine__EventSystems__OVRInputModule__InputMode& operator=(UnityEngine__EventSystems__OVRInputModule__InputMode const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__EventSystems__OVRInputModule__InputMode& operator=(____UnityEngine__EventSystems__OVRInputModule__InputMode&& o) noexcept {
+                    constexpr UnityEngine__EventSystems__OVRInputModule__InputMode& operator=(UnityEngine__EventSystems__OVRInputModule__InputMode&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -89,7 +88,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__EventSystems__OVRInputModule__InputMode(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__EventSystems__OVRInputModule__InputMode(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -97,14 +96,14 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__EventSystems__OVRInputModule__InputMode_Unwrapped : int32_t {
+enum class __UnityEngine__EventSystems__OVRInputModule__InputMode_Unwrapped : int32_t {
 __Mouse = 0,
 __Buttons = 1,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__EventSystems__OVRInputModule__InputMode_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__EventSystems__OVRInputModule__InputMode_Unwrapped>(__instance);
+constexpr operator __UnityEngine__EventSystems__OVRInputModule__InputMode_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__EventSystems__OVRInputModule__InputMode_Unwrapped>(__instance);
 }
 
 
@@ -117,10 +116,10 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Mouse offset 0
-static ::UnityEngine::EventSystems::____UnityEngine__EventSystems__OVRInputModule__InputMode const Mouse;
+static UnityEngine::EventSystems::UnityEngine__EventSystems__OVRInputModule__InputMode const Mouse;
 
 /// @brief Field Buttons offset 0
-static ::UnityEngine::EventSystems::____UnityEngine__EventSystems__OVRInputModule__InputMode const Buttons;
+static UnityEngine::EventSystems::UnityEngine__EventSystems__OVRInputModule__InputMode const Buttons;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -132,10 +131,10 @@ namespace UnityEngine::EventSystems {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13142))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9518))
 // CS Name: UnityEngine.EventSystems.OVRInputModule
-class CORDL_TYPE OVRInputModule : public ::UnityEngine::EventSystems::PointerInputModule {
+class CORDL_TYPE OVRInputModule : public UnityEngine::EventSystems::PointerInputModule {
 public:
 // Declarations
-using InputMode = ::UnityEngine::EventSystems::____UnityEngine__EventSystems__OVRInputModule__InputMode;
+using InputMode = UnityEngine::EventSystems::UnityEngine__EventSystems__OVRInputModule__InputMode;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xf0};
@@ -149,7 +148,7 @@ constexpr OVRInputModule(OVRInputModule const& ) noexcept = default;
 constexpr OVRInputModule(OVRInputModule&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OVRInputModule(void* ptr) noexcept : ::UnityEngine::EventSystems::PointerInputModule(ptr) {
+constexpr explicit OVRInputModule(void* ptr) noexcept : UnityEngine::EventSystems::PointerInputModule(ptr) {
 }
 
 
@@ -170,29 +169,29 @@ constexpr explicit OVRInputModule(void* ptr) noexcept : ::UnityEngine::EventSyst
 
 // Fields
 
- ::UnityEngine::Transform __declspec(property(get=__get_rayTransform, put=__set_rayTransform))  rayTransform;
+ UnityEngine::Transform __declspec(property(get=__get_rayTransform, put=__set_rayTransform))  rayTransform;
 
-constexpr void __set_rayTransform(::UnityEngine::Transform value) ;
+constexpr void __set_rayTransform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_rayTransform() const;
+constexpr UnityEngine::Transform __get_rayTransform() const;
 
- ::GlobalNamespace::OVRCursor __declspec(property(get=__get_m_Cursor, put=__set_m_Cursor))  m_Cursor;
+ GlobalNamespace::OVRCursor __declspec(property(get=__get_m_Cursor, put=__set_m_Cursor))  m_Cursor;
 
-constexpr void __set_m_Cursor(::GlobalNamespace::OVRCursor value) ;
+constexpr void __set_m_Cursor(GlobalNamespace::OVRCursor value) ;
 
-constexpr ::GlobalNamespace::OVRCursor __get_m_Cursor() const;
+constexpr GlobalNamespace::OVRCursor __get_m_Cursor() const;
 
- ::GlobalNamespace::____GlobalNamespace__OVRInput__Button __declspec(property(get=__get_joyPadClickButton, put=__set_joyPadClickButton))  joyPadClickButton;
+ GlobalNamespace::GlobalNamespace__OVRInput__Button __declspec(property(get=__get_joyPadClickButton, put=__set_joyPadClickButton))  joyPadClickButton;
 
-constexpr void __set_joyPadClickButton(::GlobalNamespace::____GlobalNamespace__OVRInput__Button value) ;
+constexpr void __set_joyPadClickButton(GlobalNamespace::GlobalNamespace__OVRInput__Button value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVRInput__Button __get_joyPadClickButton() const;
+constexpr GlobalNamespace::GlobalNamespace__OVRInput__Button __get_joyPadClickButton() const;
 
- ::UnityEngine::KeyCode __declspec(property(get=__get_gazeClickKey, put=__set_gazeClickKey))  gazeClickKey;
+ UnityEngine::KeyCode __declspec(property(get=__get_gazeClickKey, put=__set_gazeClickKey))  gazeClickKey;
 
-constexpr void __set_gazeClickKey(::UnityEngine::KeyCode value) ;
+constexpr void __set_gazeClickKey(UnityEngine::KeyCode value) ;
 
-constexpr ::UnityEngine::KeyCode __get_gazeClickKey() const;
+constexpr UnityEngine::KeyCode __get_gazeClickKey() const;
 
  bool __declspec(property(get=__get_performSphereCastForGazepointer, put=__set_performSphereCastForGazepointer))  performSphereCastForGazepointer;
 
@@ -236,11 +235,11 @@ constexpr void __set_InvertSwipeXAxis(bool value) ;
 
 constexpr bool __get_InvertSwipeXAxis() const;
 
- ::GlobalNamespace::OVRRaycaster __declspec(property(get=__get_activeGraphicRaycaster, put=__set_activeGraphicRaycaster))  activeGraphicRaycaster;
+ GlobalNamespace::OVRRaycaster __declspec(property(get=__get_activeGraphicRaycaster, put=__set_activeGraphicRaycaster))  activeGraphicRaycaster;
 
-constexpr void __set_activeGraphicRaycaster(::GlobalNamespace::OVRRaycaster value) ;
+constexpr void __set_activeGraphicRaycaster(GlobalNamespace::OVRRaycaster value) ;
 
-constexpr ::GlobalNamespace::OVRRaycaster __get_activeGraphicRaycaster() const;
+constexpr GlobalNamespace::OVRRaycaster __get_activeGraphicRaycaster() const;
 
  float_t __declspec(property(get=__get_angleDragThreshold, put=__set_angleDragThreshold))  angleDragThreshold;
 
@@ -260,17 +259,17 @@ constexpr void __set_m_NextAction(float_t value) ;
 
 constexpr float_t __get_m_NextAction() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_m_LastMousePosition, put=__set_m_LastMousePosition))  m_LastMousePosition;
+ UnityEngine::Vector2 __declspec(property(get=__get_m_LastMousePosition, put=__set_m_LastMousePosition))  m_LastMousePosition;
 
-constexpr void __set_m_LastMousePosition(::UnityEngine::Vector2 value) ;
+constexpr void __set_m_LastMousePosition(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_m_LastMousePosition() const;
+constexpr UnityEngine::Vector2 __get_m_LastMousePosition() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_m_MousePosition, put=__set_m_MousePosition))  m_MousePosition;
+ UnityEngine::Vector2 __declspec(property(get=__get_m_MousePosition, put=__set_m_MousePosition))  m_MousePosition;
 
-constexpr void __set_m_MousePosition(::UnityEngine::Vector2 value) ;
+constexpr void __set_m_MousePosition(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_m_MousePosition() const;
+constexpr UnityEngine::Vector2 __get_m_MousePosition() const;
 
  ::StringW __declspec(property(get=__get_m_HorizontalAxis, put=__set_m_HorizontalAxis))  m_HorizontalAxis;
 
@@ -308,22 +307,22 @@ constexpr void __set_m_AllowActivationOnMobileDevice(bool value) ;
 
 constexpr bool __get_m_AllowActivationOnMobileDevice() const;
 
- ::System::Collections::Generic::Dictionary_2<int32_t,::UnityEngine::EventSystems::OVRPointerEventData> __declspec(property(get=__get_m_VRRayPointerData, put=__set_m_VRRayPointerData))  m_VRRayPointerData;
+ System::Collections::Generic::Dictionary_2<int32_t,UnityEngine::EventSystems::OVRPointerEventData> __declspec(property(get=__get_m_VRRayPointerData, put=__set_m_VRRayPointerData))  m_VRRayPointerData;
 
-constexpr void __set_m_VRRayPointerData(::System::Collections::Generic::Dictionary_2<int32_t,::UnityEngine::EventSystems::OVRPointerEventData> value) ;
+constexpr void __set_m_VRRayPointerData(System::Collections::Generic::Dictionary_2<int32_t,UnityEngine::EventSystems::OVRPointerEventData> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<int32_t,::UnityEngine::EventSystems::OVRPointerEventData> __get_m_VRRayPointerData() const;
+constexpr System::Collections::Generic::Dictionary_2<int32_t,UnityEngine::EventSystems::OVRPointerEventData> __get_m_VRRayPointerData() const;
 
- ::UnityEngine::EventSystems::____UnityEngine__EventSystems__PointerInputModule__MouseState __declspec(property(get=__get_m_MouseState, put=__set_m_MouseState))  m_MouseState;
+ UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModule__MouseState __declspec(property(get=__get_m_MouseState, put=__set_m_MouseState))  m_MouseState;
 
-constexpr void __set_m_MouseState(::UnityEngine::EventSystems::____UnityEngine__EventSystems__PointerInputModule__MouseState value) ;
+constexpr void __set_m_MouseState(UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModule__MouseState value) ;
 
-constexpr ::UnityEngine::EventSystems::____UnityEngine__EventSystems__PointerInputModule__MouseState __get_m_MouseState() const;
+constexpr UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModule__MouseState __get_m_MouseState() const;
 
 
 // Properties
 
- ::UnityEngine::EventSystems::____UnityEngine__EventSystems__OVRInputModule__InputMode __declspec(property(get=get_inputMode))  inputMode;
+ UnityEngine::EventSystems::UnityEngine__EventSystems__OVRInputModule__InputMode __declspec(property(get=get_inputMode))  inputMode;
 
  bool __declspec(property(get=get_allowActivationOnMobileDevice, put=set_allowActivationOnMobileDevice))  allowActivationOnMobileDevice;
 
@@ -347,7 +346,7 @@ explicit OVRInputModule() ;
  void _ctor() ;
 
 /// @brief Method get_inputMode addr 0x266ad88 size 0x8 virtual false final false
- ::UnityEngine::EventSystems::____UnityEngine__EventSystems__OVRInputModule__InputMode get_inputMode() ;
+ UnityEngine::EventSystems::UnityEngine__EventSystems__OVRInputModule__InputMode get_inputMode() ;
 
 /// @brief Method get_allowActivationOnMobileDevice addr 0x266ad90 size 0x8 virtual false final false
  bool get_allowActivationOnMobileDevice() ;
@@ -407,7 +406,7 @@ explicit OVRInputModule() ;
  bool AllowMoveEventProcessing(float_t time) ;
 
 /// @brief Method GetRawMoveVector addr 0x266b5d8 size 0xbc virtual false final false
- ::UnityEngine::Vector2 GetRawMoveVector() ;
+ UnityEngine::Vector2 GetRawMoveVector() ;
 
 /// @brief Method SendMoveEventToSelectedObject addr 0x266b694 size 0x204 virtual false final false
  bool SendMoveEventToSelectedObject() ;
@@ -416,61 +415,60 @@ explicit OVRInputModule() ;
  bool SendUpdateEventToSelectedObject() ;
 
 /// @brief Method ProcessMousePress addr 0x266b9e0 size 0x64c virtual false final false
- void ProcessMousePress(::UnityEngine::EventSystems::____UnityEngine__EventSystems__PointerInputModule__MouseButtonEventData data) ;
+ void ProcessMousePress(UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModule__MouseButtonEventData data) ;
 
 /// @brief Method ProcessMouseEvent addr 0x266c130 size 0x2c8 virtual false final false
- void ProcessMouseEvent(::UnityEngine::EventSystems::____UnityEngine__EventSystems__PointerInputModule__MouseState mouseData) ;
+ void ProcessMouseEvent(UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModule__MouseState mouseData) ;
 
 /// @brief Method Process addr 0x266c438 size 0x64 virtual true final false
  void Process() ;
 
 /// @brief Method UseMouse addr 0x266c3f8 size 0x40 virtual false final false
-static bool UseMouse(bool pressed, bool released, ::UnityEngine::EventSystems::PointerEventData pointerData) ;
+static bool UseMouse(bool pressed, bool released, UnityEngine::EventSystems::PointerEventData pointerData) ;
 
 /// @brief Method CopyFromTo addr 0x266c4d0 size 0x68 virtual false final false
- void CopyFromTo(::UnityEngine::EventSystems::OVRPointerEventData from, ::UnityEngine::EventSystems::OVRPointerEventData to) ;
+ void CopyFromTo(UnityEngine::EventSystems::OVRPointerEventData from, UnityEngine::EventSystems::OVRPointerEventData to) ;
 
 /// @brief Method CopyFromTo addr 0x266c538 size 0x58 virtual false final false
- void CopyFromTo(::UnityEngine::EventSystems::PointerEventData from, ::UnityEngine::EventSystems::PointerEventData to) ;
+ void CopyFromTo(UnityEngine::EventSystems::PointerEventData from, UnityEngine::EventSystems::PointerEventData to) ;
 
 /// @brief Method GetPointerData addr 0x266c590 size 0xec virtual false final false
- bool GetPointerData(int32_t id, ByRef<::UnityEngine::EventSystems::OVRPointerEventData> data, bool create) ;
+ bool GetPointerData(int32_t id, ByRef<UnityEngine::EventSystems::OVRPointerEventData> data, bool create) ;
 
 /// @brief Method ClearSelection addr 0x266b0a0 size 0x2f4 virtual false final false
  void ClearSelection() ;
 
 /// @brief Method GetRectTransformNormal addr 0x266c684 size 0x1a4 virtual false final false
-static ::UnityEngine::Vector3 GetRectTransformNormal(::UnityEngine::RectTransform rectTransform) ;
+static UnityEngine::Vector3 GetRectTransformNormal(UnityEngine::RectTransform rectTransform) ;
 
 /// @brief Method GetGazePointerData addr 0x266c828 size 0x674 virtual true final false
- ::UnityEngine::EventSystems::____UnityEngine__EventSystems__PointerInputModule__MouseState GetGazePointerData() ;
+ UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModule__MouseState GetGazePointerData() ;
 
 /// @brief Method GetCanvasPointerData addr 0x266d3b8 size 0x3a4 virtual false final false
- ::UnityEngine::EventSystems::____UnityEngine__EventSystems__PointerInputModule__MouseState GetCanvasPointerData() ;
+ UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModule__MouseState GetCanvasPointerData() ;
 
 /// @brief Method ShouldStartDrag addr 0x266d75c size 0x338 virtual false final false
- bool ShouldStartDrag(::UnityEngine::EventSystems::PointerEventData pointerEvent) ;
+ bool ShouldStartDrag(UnityEngine::EventSystems::PointerEventData pointerEvent) ;
 
 /// @brief Method IsPointerMoving addr 0x266c49c size 0x34 virtual false final false
-static bool IsPointerMoving(::UnityEngine::EventSystems::PointerEventData pointerEvent) ;
+static bool IsPointerMoving(UnityEngine::EventSystems::PointerEventData pointerEvent) ;
 
 /// @brief Method SwipeAdjustedPosition addr 0x266db10 size 0x88 virtual false final false
- ::UnityEngine::Vector2 SwipeAdjustedPosition(::UnityEngine::Vector2 originalPosition, ::UnityEngine::EventSystems::PointerEventData pointerEvent) ;
+ UnityEngine::Vector2 SwipeAdjustedPosition(UnityEngine::Vector2 originalPosition, UnityEngine::EventSystems::PointerEventData pointerEvent) ;
 
 /// @brief Method ProcessDrag addr 0x266db98 size 0x2fc virtual true final false
- void ProcessDrag(::UnityEngine::EventSystems::PointerEventData pointerEvent) ;
+ void ProcessDrag(UnityEngine::EventSystems::PointerEventData pointerEvent) ;
 
 /// @brief Method GetGazeButtonState addr 0x266de94 size 0x110 virtual true final false
- ::UnityEngine::EventSystems::____UnityEngine__EventSystems__PointerEventData__FramePressState GetGazeButtonState() ;
+ UnityEngine::EventSystems::UnityEngine__EventSystems__PointerEventData__FramePressState GetGazeButtonState() ;
 
 /// @brief Method GetExtraScrollDelta addr 0x266ce9c size 0x94 virtual false final false
- ::UnityEngine::Vector2 GetExtraScrollDelta() ;
+ UnityEngine::Vector2 GetExtraScrollDelta() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::EventSystems
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::____UnityEngine__EventSystems__OVRInputModule__InputMode, "UnityEngine.EventSystems", "OVRInputModule/InputMode");
-NEED_NO_BOX(::UnityEngine::EventSystems::OVRInputModule);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::OVRInputModule, "UnityEngine.EventSystems", "OVRInputModule");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::UnityEngine__EventSystems__OVRInputModule__InputMode, "UnityEngine.EventSystems", "OVRInputModule/InputMode");
+NEED_NO_BOX(UnityEngine::EventSystems::OVRInputModule);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::OVRInputModule, "UnityEngine.EventSystems", "OVRInputModule");

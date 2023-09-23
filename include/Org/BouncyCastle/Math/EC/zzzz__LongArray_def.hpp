@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
@@ -125,11 +124,11 @@ explicit LongArray(::ArrayW<int64_t> ints, int32_t off, int32_t len) ;
 /// @brief Method .ctor addr 0xfcaa88 size 0xb4 virtual false final false
  void _ctor(::ArrayW<int64_t> ints, int32_t off, int32_t len) ;
 
-// Ctor Parameters [CppParam { name: "bigInt", ty: "::Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit LongArray(::Org::BouncyCastle::Math::BigInteger bigInt) ;
+// Ctor Parameters [CppParam { name: "bigInt", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
+explicit LongArray(Org::BouncyCastle::Math::BigInteger bigInt) ;
 
 /// @brief Method .ctor addr 0xfc3384 size 0x224 virtual false final false
- void _ctor(::Org::BouncyCastle::Math::BigInteger bigInt) ;
+ void _ctor(Org::BouncyCastle::Math::BigInteger bigInt) ;
 
 /// @brief Method CopyTo addr 0xfc0fb0 size 0x2c virtual false final false
  void CopyTo(::ArrayW<int64_t> z, int32_t zOff) ;
@@ -159,7 +158,7 @@ static int32_t BitLength(int64_t w) ;
  ::ArrayW<int64_t> ResizedInts(int32_t newLen) ;
 
 /// @brief Method ToBigInteger addr 0xfc3814 size 0x214 virtual false final false
- ::Org::BouncyCastle::Math::BigInteger ToBigInteger() ;
+ Org::BouncyCastle::Math::BigInteger ToBigInteger() ;
 
 /// @brief Method ShiftUp addr 0xfcaec0 size 0x80 virtual false final false
 static int64_t ShiftUp(::ArrayW<int64_t> x, int32_t xOff, int32_t count, int32_t shift) ;
@@ -168,10 +167,10 @@ static int64_t ShiftUp(::ArrayW<int64_t> x, int32_t xOff, int32_t count, int32_t
 static int64_t ShiftUp(::ArrayW<int64_t> x, int32_t xOff, ::ArrayW<int64_t> z, int32_t zOff, int32_t count, int32_t shift) ;
 
 /// @brief Method AddOne addr 0xfc3ed4 size 0x11c virtual false final false
- ::Org::BouncyCastle::Math::EC::LongArray AddOne() ;
+ Org::BouncyCastle::Math::EC::LongArray AddOne() ;
 
 /// @brief Method AddShiftedByBitsSafe addr 0xfcafd8 size 0x100 virtual false final false
- void AddShiftedByBitsSafe(::Org::BouncyCastle::Math::EC::LongArray other, int32_t otherDegree, int32_t bits) ;
+ void AddShiftedByBitsSafe(Org::BouncyCastle::Math::EC::LongArray other, int32_t otherDegree, int32_t bits) ;
 
 /// @brief Method AddShiftedUp addr 0xfcb150 size 0xa4 virtual false final false
 static int64_t AddShiftedUp(::ArrayW<int64_t> x, int32_t xOff, ::ArrayW<int64_t> y, int32_t yOff, int32_t count, int32_t shift) ;
@@ -180,7 +179,7 @@ static int64_t AddShiftedUp(::ArrayW<int64_t> x, int32_t xOff, ::ArrayW<int64_t>
 static int64_t AddShiftedDown(::ArrayW<int64_t> x, int32_t xOff, ::ArrayW<int64_t> y, int32_t yOff, int32_t count, int32_t shift) ;
 
 /// @brief Method AddShiftedByWords addr 0xfc3d74 size 0xd4 virtual false final false
- void AddShiftedByWords(::Org::BouncyCastle::Math::EC::LongArray other, int32_t words) ;
+ void AddShiftedByWords(Org::BouncyCastle::Math::EC::LongArray other, int32_t words) ;
 
 /// @brief Method Add addr 0xfcb0d8 size 0x78 virtual false final false
 static void Add(::ArrayW<int64_t> x, int32_t xOff, ::ArrayW<int64_t> y, int32_t yOff, int32_t count) ;
@@ -213,25 +212,25 @@ static void FlipBit(::ArrayW<int64_t> buf, int32_t off, int32_t n) ;
 static void MultiplyWord(int64_t a, ::ArrayW<int64_t> b, int32_t bLen, ::ArrayW<int64_t> c, int32_t cOff) ;
 
 /// @brief Method ModMultiplyLD addr 0xfcb688 size 0x518 virtual false final false
- ::Org::BouncyCastle::Math::EC::LongArray ModMultiplyLD(::Org::BouncyCastle::Math::EC::LongArray other, int32_t m, ::ArrayW<int32_t> ks) ;
+ Org::BouncyCastle::Math::EC::LongArray ModMultiplyLD(Org::BouncyCastle::Math::EC::LongArray other, int32_t m, ::ArrayW<int32_t> ks) ;
 
 /// @brief Method ModMultiply addr 0xfc40d0 size 0x450 virtual false final false
- ::Org::BouncyCastle::Math::EC::LongArray ModMultiply(::Org::BouncyCastle::Math::EC::LongArray other, int32_t m, ::ArrayW<int32_t> ks) ;
+ Org::BouncyCastle::Math::EC::LongArray ModMultiply(Org::BouncyCastle::Math::EC::LongArray other, int32_t m, ::ArrayW<int32_t> ks) ;
 
 /// @brief Method ModMultiplyAlt addr 0xfcbc58 size 0x4bc virtual false final false
- ::Org::BouncyCastle::Math::EC::LongArray ModMultiplyAlt(::Org::BouncyCastle::Math::EC::LongArray other, int32_t m, ::ArrayW<int32_t> ks) ;
+ Org::BouncyCastle::Math::EC::LongArray ModMultiplyAlt(Org::BouncyCastle::Math::EC::LongArray other, int32_t m, ::ArrayW<int32_t> ks) ;
 
 /// @brief Method ModReduce addr 0xfcc28c size 0xe4 virtual false final false
- ::Org::BouncyCastle::Math::EC::LongArray ModReduce(int32_t m, ::ArrayW<int32_t> ks) ;
+ Org::BouncyCastle::Math::EC::LongArray ModReduce(int32_t m, ::ArrayW<int32_t> ks) ;
 
 /// @brief Method Multiply addr 0xfc46c8 size 0x430 virtual false final false
- ::Org::BouncyCastle::Math::EC::LongArray Multiply(::Org::BouncyCastle::Math::EC::LongArray other, int32_t m, ::ArrayW<int32_t> ks) ;
+ Org::BouncyCastle::Math::EC::LongArray Multiply(Org::BouncyCastle::Math::EC::LongArray other, int32_t m, ::ArrayW<int32_t> ks) ;
 
 /// @brief Method Reduce addr 0xfc4af8 size 0xe0 virtual false final false
  void Reduce(int32_t m, ::ArrayW<int32_t> ks) ;
 
 /// @brief Method ReduceResult addr 0xfcbba0 size 0xb8 virtual false final false
-static ::Org::BouncyCastle::Math::EC::LongArray ReduceResult(::ArrayW<int64_t> buf, int32_t off, int32_t len, int32_t m, ::ArrayW<int32_t> ks) ;
+static Org::BouncyCastle::Math::EC::LongArray ReduceResult(::ArrayW<int64_t> buf, int32_t off, int32_t len, int32_t m, ::ArrayW<int32_t> ks) ;
 
 /// @brief Method ReduceInPlace addr 0xfcc370 size 0x248 virtual false final false
 static int32_t ReduceInPlace(::ArrayW<int64_t> buf, int32_t off, int32_t len, int32_t m, ::ArrayW<int32_t> ks) ;
@@ -255,13 +254,13 @@ static void ReduceVectorWise(::ArrayW<int64_t> buf, int32_t off, int32_t len, in
 static void FlipVector(::ArrayW<int64_t> x, int32_t xOff, ::ArrayW<int64_t> y, int32_t yOff, int32_t yLen, int32_t bits) ;
 
 /// @brief Method ModSquare addr 0xfc4cb0 size 0x190 virtual false final false
- ::Org::BouncyCastle::Math::EC::LongArray ModSquare(int32_t m, ::ArrayW<int32_t> ks) ;
+ Org::BouncyCastle::Math::EC::LongArray ModSquare(int32_t m, ::ArrayW<int32_t> ks) ;
 
 /// @brief Method ModSquareN addr 0xfc5198 size 0x134 virtual false final false
- ::Org::BouncyCastle::Math::EC::LongArray ModSquareN(int32_t n, int32_t m, ::ArrayW<int32_t> ks) ;
+ Org::BouncyCastle::Math::EC::LongArray ModSquareN(int32_t n, int32_t m, ::ArrayW<int32_t> ks) ;
 
 /// @brief Method Square addr 0xfc4fa4 size 0x150 virtual false final false
- ::Org::BouncyCastle::Math::EC::LongArray Square(int32_t m, ::ArrayW<int32_t> ks) ;
+ Org::BouncyCastle::Math::EC::LongArray Square(int32_t m, ::ArrayW<int32_t> ks) ;
 
 /// @brief Method SquareInPlace addr 0xfccd00 size 0xe0 virtual false final false
 static void SquareInPlace(::ArrayW<int64_t> x, int32_t xLen, int32_t m, ::ArrayW<int32_t> ks) ;
@@ -306,19 +305,19 @@ static int64_t Interleave4_16to64(int32_t x) ;
 static int64_t Interleave2_32to64(int32_t x) ;
 
 /// @brief Method ModInverse addr 0xfc5360 size 0x480 virtual false final false
- ::Org::BouncyCastle::Math::EC::LongArray ModInverse(int32_t m, ::ArrayW<int32_t> ks) ;
+ Org::BouncyCastle::Math::EC::LongArray ModInverse(int32_t m, ::ArrayW<int32_t> ks) ;
 
 /// @brief Method Equals addr 0xfcd67c size 0x88 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0xfcd704 size 0xb0 virtual true final false
- bool Equals(::Org::BouncyCastle::Math::EC::LongArray other) ;
+ bool Equals(Org::BouncyCastle::Math::EC::LongArray other) ;
 
 /// @brief Method GetHashCode addr 0xfcd7b4 size 0x7c virtual true final false
  int32_t GetHashCode() ;
 
 /// @brief Method Copy addr 0xfc3cd4 size 0xa0 virtual false final false
- ::Org::BouncyCastle::Math::EC::LongArray Copy() ;
+ Org::BouncyCastle::Math::EC::LongArray Copy() ;
 
 /// @brief Method ToString addr 0xfcd830 size 0x1bc virtual true final false
  ::StringW ToString() ;
@@ -327,6 +326,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Math::EC
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Math::EC::LongArray);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::LongArray, "Org.BouncyCastle.Math.EC", "LongArray");
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::LongArray);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::LongArray, "Org.BouncyCastle.Math.EC", "LongArray");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace LiteNetLib {
 struct ConnectionState;
@@ -70,23 +69,22 @@ constexpr void __set_value__(uint8_t value) ;
 constexpr uint8_t __get_value__() const;
 
 /// @brief Field Outgoing offset 0
-static ::LiteNetLib::ConnectionState const Outgoing;
+static LiteNetLib::ConnectionState const Outgoing;
 
 /// @brief Field Connected offset 0
-static ::LiteNetLib::ConnectionState const Connected;
+static LiteNetLib::ConnectionState const Connected;
 
 /// @brief Field ShutdownRequested offset 0
-static ::LiteNetLib::ConnectionState const ShutdownRequested;
+static LiteNetLib::ConnectionState const ShutdownRequested;
 
 /// @brief Field Disconnected offset 0
-static ::LiteNetLib::ConnectionState const Disconnected;
+static LiteNetLib::ConnectionState const Disconnected;
 
 /// @brief Field Any offset 0
-static ::LiteNetLib::ConnectionState const Any;
+static LiteNetLib::ConnectionState const Any;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::ConnectionState, "LiteNetLib", "ConnectionState");
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::ConnectionState, "LiteNetLib", "ConnectionState");

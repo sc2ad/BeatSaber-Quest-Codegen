@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Security/AccessControl/zzzz__FileSystemSecurity_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Security::AccessControl {
 struct AccessControlSections;
 }
@@ -16,7 +15,7 @@ namespace System::Security::AccessControl {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3030))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3025))
 // CS Name: System.Security.AccessControl.DirectorySecurity
-class CORDL_TYPE DirectorySecurity : public ::System::Security::AccessControl::FileSystemSecurity {
+class CORDL_TYPE DirectorySecurity : public System::Security::AccessControl::FileSystemSecurity {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr DirectorySecurity(DirectorySecurity const& ) noexcept = default;
 constexpr DirectorySecurity(DirectorySecurity&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DirectorySecurity(void* ptr) noexcept : ::System::Security::AccessControl::FileSystemSecurity(ptr) {
+constexpr explicit DirectorySecurity(void* ptr) noexcept : System::Security::AccessControl::FileSystemSecurity(ptr) {
 }
 
 
@@ -52,16 +51,15 @@ constexpr explicit DirectorySecurity(void* ptr) noexcept : ::System::Security::A
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "includeSections", ty: "::System::Security::AccessControl::AccessControlSections", modifiers: "", def_value: None }]
-explicit DirectorySecurity(::StringW name, ::System::Security::AccessControl::AccessControlSections includeSections) ;
+// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "includeSections", ty: "System::Security::AccessControl::AccessControlSections", modifiers: "", def_value: None }]
+explicit DirectorySecurity(::StringW name, System::Security::AccessControl::AccessControlSections includeSections) ;
 
 /// @brief Method .ctor addr 0x231815c size 0x18 virtual false final false
- void _ctor(::StringW name, ::System::Security::AccessControl::AccessControlSections includeSections) ;
+ void _ctor(::StringW name, System::Security::AccessControl::AccessControlSections includeSections) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::AccessControl
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::AccessControl::DirectorySecurity);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::AccessControl::DirectorySecurity, "System.Security.AccessControl", "DirectorySecurity");
+NEED_NO_BOX(System::Security::AccessControl::DirectorySecurity);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::AccessControl::DirectorySecurity, "System.Security.AccessControl", "DirectorySecurity");

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -59,17 +58,17 @@ constexpr void __set_distance(float_t value) ;
 
 constexpr float_t __get_distance() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_point, put=__set_point))  point;
+ UnityEngine::Vector3 __declspec(property(get=__get_point, put=__set_point))  point;
 
-constexpr void __set_point(::UnityEngine::Vector3 value) ;
+constexpr void __set_point(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_point() const;
+constexpr UnityEngine::Vector3 __get_point() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_normal, put=__set_normal))  normal;
+ UnityEngine::Vector3 __declspec(property(get=__get_normal, put=__set_normal))  normal;
 
-constexpr void __set_normal(::UnityEngine::Vector3 value) ;
+constexpr void __set_normal(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_normal() const;
+constexpr UnityEngine::Vector3 __get_normal() const;
 
  int32_t __declspec(property(get=__get_face, put=__set_face))  face;
 
@@ -80,16 +79,15 @@ constexpr int32_t __get_face() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "distance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "point", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "normal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "face", ty: "int32_t", modifiers: "", def_value: None }]
-explicit RaycastHit(float_t distance, ::UnityEngine::Vector3 point, ::UnityEngine::Vector3 normal, int32_t face) ;
+// Ctor Parameters [CppParam { name: "distance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "point", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "normal", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "face", ty: "int32_t", modifiers: "", def_value: None }]
+explicit RaycastHit(float_t distance, UnityEngine::Vector3 point, UnityEngine::Vector3 normal, int32_t face) ;
 
 /// @brief Method .ctor addr 0x29cf058 size 0x74 virtual false final false
- void _ctor(float_t distance, ::UnityEngine::Vector3 point, ::UnityEngine::Vector3 normal, int32_t face) ;
+ void _ctor(float_t distance, UnityEngine::Vector3 point, UnityEngine::Vector3 normal, int32_t face) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::RaycastHit);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::RaycastHit, "UnityEngine.ProBuilder", "RaycastHit");
+NEED_NO_BOX(UnityEngine::ProBuilder::RaycastHit);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::RaycastHit, "UnityEngine.ProBuilder", "RaycastHit");

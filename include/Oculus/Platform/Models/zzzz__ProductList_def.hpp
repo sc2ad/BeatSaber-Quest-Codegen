@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_def.hpp"
 #include "Oculus/Platform/Models/zzzz__Product_def.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class ProductList;
@@ -11,10 +10,10 @@ class ProductList;
 // Type: Oculus.Platform.Models::ProductList
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13463)), TypeDefinitionIndex(TypeDefinitionIndex(13410)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1146 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1146 }), TypeDefinitionIndex(TypeDefinitionIndex(13463)), TypeDefinitionIndex(TypeDefinitionIndex(13410))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13464))
 // CS Name: Oculus.Platform.Models.ProductList
-class CORDL_TYPE ProductList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::Product> {
+class CORDL_TYPE ProductList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::Product> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr ProductList(ProductList const& ) noexcept = default;
 constexpr ProductList(ProductList&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ProductList(void* ptr) noexcept : ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::Product>(ptr) {
+constexpr explicit ProductList(void* ptr) noexcept : Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::Product>(ptr) {
 }
 
 
@@ -60,6 +59,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::ProductList);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::ProductList, "Oculus.Platform.Models", "ProductList");
+NEED_NO_BOX(Oculus::Platform::Models::ProductList);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::ProductList, "Oculus.Platform.Models", "ProductList");

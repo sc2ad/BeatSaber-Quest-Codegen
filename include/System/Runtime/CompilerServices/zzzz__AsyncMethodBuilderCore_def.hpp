@@ -3,21 +3,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
-namespace {
 namespace System {
 class Action;
 }
 namespace System::Threading::Tasks {
 class Task;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace System::Threading {
+class ContextCallback;
 }
 namespace System::Threading {
 class ExecutionContext;
 }
-namespace System::Threading {
-class ContextCallback;
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Threading {
 class WaitCallback;
@@ -33,16 +32,16 @@ class Exception;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
-class ____System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper;
+class System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper;
 }
 namespace System::Runtime::CompilerServices {
-class ____System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner;
+class System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner;
 }
 namespace System::Runtime::CompilerServices {
-class ____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c;
+class System__Runtime__CompilerServices__AsyncMethodBuilderCore____c;
 }
 namespace System::Runtime::CompilerServices {
-class ____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0;
+class System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncMethodBuilderCore;
@@ -53,68 +52,68 @@ namespace System::Runtime::CompilerServices {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3396))
 // CS Name: System.Runtime.CompilerServices.AsyncMethodBuilderCore::MoveNextRunner
-class CORDL_TYPE ____System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner() = default;
+virtual ~System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner", modifiers: " const&", def_value: None }]
-constexpr ____System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner(____System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner", modifiers: " const&", def_value: None }]
+constexpr System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner(System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner", modifiers: "&&", def_value: None }]
-constexpr ____System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner(____System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner", modifiers: "&&", def_value: None }]
+constexpr System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner(System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner& operator=(std::nullptr_t) noexcept {
+  constexpr System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner& operator=(void* o) noexcept {
+  constexpr System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner& operator=(____System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner&& o) noexcept = default;
-  constexpr ____System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner& operator=(____System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner const& o) noexcept = default;
+  constexpr System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner& operator=(System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner&& o) noexcept = default;
+  constexpr System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner& operator=(System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Threading::ExecutionContext __declspec(property(get=__get_m_context, put=__set_m_context))  m_context;
+ System::Threading::ExecutionContext __declspec(property(get=__get_m_context, put=__set_m_context))  m_context;
 
-constexpr void __set_m_context(::System::Threading::ExecutionContext value) ;
+constexpr void __set_m_context(System::Threading::ExecutionContext value) ;
 
-constexpr ::System::Threading::ExecutionContext __get_m_context() const;
+constexpr System::Threading::ExecutionContext __get_m_context() const;
 
- ::System::Runtime::CompilerServices::IAsyncStateMachine __declspec(property(get=__get_m_stateMachine, put=__set_m_stateMachine))  m_stateMachine;
+ System::Runtime::CompilerServices::IAsyncStateMachine __declspec(property(get=__get_m_stateMachine, put=__set_m_stateMachine))  m_stateMachine;
 
-constexpr void __set_m_stateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine value) ;
+constexpr void __set_m_stateMachine(System::Runtime::CompilerServices::IAsyncStateMachine value) ;
 
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine __get_m_stateMachine() const;
+constexpr System::Runtime::CompilerServices::IAsyncStateMachine __get_m_stateMachine() const;
 
-static ::System::Threading::ContextCallback __declspec(property(get=__get_s_invokeMoveNext, put=__set_s_invokeMoveNext))  s_invokeMoveNext;
+static System::Threading::ContextCallback __declspec(property(get=__get_s_invokeMoveNext, put=__set_s_invokeMoveNext))  s_invokeMoveNext;
 
-static void __set_s_invokeMoveNext(::System::Threading::ContextCallback value) ;
+static void __set_s_invokeMoveNext(System::Threading::ContextCallback value) ;
 
-static ::System::Threading::ContextCallback __get_s_invokeMoveNext() ;
+static System::Threading::ContextCallback __get_s_invokeMoveNext() ;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "context", ty: "::System::Threading::ExecutionContext", modifiers: "", def_value: None }, CppParam { name: "stateMachine", ty: "::System::Runtime::CompilerServices::IAsyncStateMachine", modifiers: "", def_value: None }]
-explicit ____System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner(::System::Threading::ExecutionContext context, ::System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
+// Ctor Parameters [CppParam { name: "context", ty: "System::Threading::ExecutionContext", modifiers: "", def_value: None }, CppParam { name: "stateMachine", ty: "System::Runtime::CompilerServices::IAsyncStateMachine", modifiers: "", def_value: None }]
+explicit System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner(System::Threading::ExecutionContext context, System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
 
 /// @brief Method .ctor addr 0x236fcd4 size 0x2c virtual false final false
- void _ctor(::System::Threading::ExecutionContext context, ::System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
+ void _ctor(System::Threading::ExecutionContext context, System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
 
 /// @brief Method Run addr 0x2370108 size 0x20c virtual false final false
  void Run() ;
@@ -132,68 +131,68 @@ namespace System::Runtime::CompilerServices {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3397))
 // CS Name: System.Runtime.CompilerServices.AsyncMethodBuilderCore::ContinuationWrapper
-class CORDL_TYPE ____System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper() = default;
+virtual ~System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper", modifiers: " const&", def_value: None }]
-constexpr ____System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper(____System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper", modifiers: " const&", def_value: None }]
+constexpr System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper(System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper", modifiers: "&&", def_value: None }]
-constexpr ____System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper(____System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper", modifiers: "&&", def_value: None }]
+constexpr System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper(System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper& operator=(std::nullptr_t) noexcept {
+  constexpr System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper& operator=(void* o) noexcept {
+  constexpr System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper& operator=(____System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper&& o) noexcept = default;
-  constexpr ____System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper& operator=(____System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper const& o) noexcept = default;
+  constexpr System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper& operator=(System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper&& o) noexcept = default;
+  constexpr System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper& operator=(System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Action __declspec(property(get=__get_m_continuation, put=__set_m_continuation))  m_continuation;
+ System::Action __declspec(property(get=__get_m_continuation, put=__set_m_continuation))  m_continuation;
 
-constexpr void __set_m_continuation(::System::Action value) ;
+constexpr void __set_m_continuation(System::Action value) ;
 
-constexpr ::System::Action __get_m_continuation() const;
+constexpr System::Action __get_m_continuation() const;
 
- ::System::Action __declspec(property(get=__get_m_invokeAction, put=__set_m_invokeAction))  m_invokeAction;
+ System::Action __declspec(property(get=__get_m_invokeAction, put=__set_m_invokeAction))  m_invokeAction;
 
-constexpr void __set_m_invokeAction(::System::Action value) ;
+constexpr void __set_m_invokeAction(System::Action value) ;
 
-constexpr ::System::Action __get_m_invokeAction() const;
+constexpr System::Action __get_m_invokeAction() const;
 
- ::System::Threading::Tasks::Task __declspec(property(get=__get_m_innerTask, put=__set_m_innerTask))  m_innerTask;
+ System::Threading::Tasks::Task __declspec(property(get=__get_m_innerTask, put=__set_m_innerTask))  m_innerTask;
 
-constexpr void __set_m_innerTask(::System::Threading::Tasks::Task value) ;
+constexpr void __set_m_innerTask(System::Threading::Tasks::Task value) ;
 
-constexpr ::System::Threading::Tasks::Task __get_m_innerTask() const;
+constexpr System::Threading::Tasks::Task __get_m_innerTask() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "continuation", ty: "::System::Action", modifiers: "", def_value: None }, CppParam { name: "invokeAction", ty: "::System::Action", modifiers: "", def_value: None }, CppParam { name: "innerTask", ty: "::System::Threading::Tasks::Task", modifiers: "", def_value: None }]
-explicit ____System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper(::System::Action continuation, ::System::Action invokeAction, ::System::Threading::Tasks::Task innerTask) ;
+// Ctor Parameters [CppParam { name: "continuation", ty: "System::Action", modifiers: "", def_value: None }, CppParam { name: "invokeAction", ty: "System::Action", modifiers: "", def_value: None }, CppParam { name: "innerTask", ty: "System::Threading::Tasks::Task", modifiers: "", def_value: None }]
+explicit System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper(System::Action continuation, System::Action invokeAction, System::Threading::Tasks::Task innerTask) ;
 
 /// @brief Method .ctor addr 0x2370028 size 0x4c virtual false final false
- void _ctor(::System::Action continuation, ::System::Action invokeAction, ::System::Threading::Tasks::Task innerTask) ;
+ void _ctor(System::Action continuation, System::Action invokeAction, System::Threading::Tasks::Task innerTask) ;
 
 /// @brief Method Invoke addr 0x23703f4 size 0x24 virtual false final false
  void Invoke() ;
@@ -208,59 +207,59 @@ namespace System::Runtime::CompilerServices {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3398))
 // CS Name: System.Runtime.CompilerServices.AsyncMethodBuilderCore::<>c__DisplayClass5_0
-class CORDL_TYPE ____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0() = default;
+virtual ~System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0", modifiers: " const&", def_value: None }]
-constexpr ____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0(____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0", modifiers: " const&", def_value: None }]
+constexpr System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0(System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0", modifiers: "&&", def_value: None }]
-constexpr ____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0(____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0", modifiers: "&&", def_value: None }]
+constexpr System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0(System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0& operator=(std::nullptr_t) noexcept {
+  constexpr System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0& operator=(void* o) noexcept {
+  constexpr System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0& operator=(____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0&& o) noexcept = default;
-  constexpr ____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0& operator=(____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0 const& o) noexcept = default;
+  constexpr System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0& operator=(System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0&& o) noexcept = default;
+  constexpr System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0& operator=(System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Threading::Tasks::Task __declspec(property(get=__get_innerTask, put=__set_innerTask))  innerTask;
+ System::Threading::Tasks::Task __declspec(property(get=__get_innerTask, put=__set_innerTask))  innerTask;
 
-constexpr void __set_innerTask(::System::Threading::Tasks::Task value) ;
+constexpr void __set_innerTask(System::Threading::Tasks::Task value) ;
 
-constexpr ::System::Threading::Tasks::Task __get_innerTask() const;
+constexpr System::Threading::Tasks::Task __get_innerTask() const;
 
- ::System::Action __declspec(property(get=__get_continuation, put=__set_continuation))  continuation;
+ System::Action __declspec(property(get=__get_continuation, put=__set_continuation))  continuation;
 
-constexpr void __set_continuation(::System::Action value) ;
+constexpr void __set_continuation(System::Action value) ;
 
-constexpr ::System::Action __get_continuation() const;
+constexpr System::Action __get_continuation() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0() ;
+explicit System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0() ;
 
 /// @brief Method .ctor addr 0x236fdc0 size 0x8 virtual false final false
  void _ctor() ;
@@ -278,65 +277,65 @@ namespace System::Runtime::CompilerServices {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3399))
 // CS Name: System.Runtime.CompilerServices.AsyncMethodBuilderCore::<>c
-class CORDL_TYPE ____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Runtime__CompilerServices__AsyncMethodBuilderCore____c : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c() = default;
+virtual ~System__Runtime__CompilerServices__AsyncMethodBuilderCore____c() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c", modifiers: " const&", def_value: None }]
-constexpr ____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c(____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Runtime__CompilerServices__AsyncMethodBuilderCore____c", modifiers: " const&", def_value: None }]
+constexpr System__Runtime__CompilerServices__AsyncMethodBuilderCore____c(System__Runtime__CompilerServices__AsyncMethodBuilderCore____c const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c", modifiers: "&&", def_value: None }]
-constexpr ____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c(____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Runtime__CompilerServices__AsyncMethodBuilderCore____c", modifiers: "&&", def_value: None }]
+constexpr System__Runtime__CompilerServices__AsyncMethodBuilderCore____c(System__Runtime__CompilerServices__AsyncMethodBuilderCore____c&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Runtime__CompilerServices__AsyncMethodBuilderCore____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c& operator=(std::nullptr_t) noexcept {
+  constexpr System__Runtime__CompilerServices__AsyncMethodBuilderCore____c& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c& operator=(void* o) noexcept {
+  constexpr System__Runtime__CompilerServices__AsyncMethodBuilderCore____c& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c& operator=(____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c&& o) noexcept = default;
-  constexpr ____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c& operator=(____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c const& o) noexcept = default;
+  constexpr System__Runtime__CompilerServices__AsyncMethodBuilderCore____c& operator=(System__Runtime__CompilerServices__AsyncMethodBuilderCore____c&& o) noexcept = default;
+  constexpr System__Runtime__CompilerServices__AsyncMethodBuilderCore____c& operator=(System__Runtime__CompilerServices__AsyncMethodBuilderCore____c const& o) noexcept = default;
                 
 
 
 // Fields
 
-static ::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c __declspec(property(get=__get___9, put=__set___9))  __9;
+static System::Runtime::CompilerServices::System__Runtime__CompilerServices__AsyncMethodBuilderCore____c __declspec(property(get=__get___9, put=__set___9))  __9;
 
-static void __set___9(::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c value) ;
+static void __set___9(System::Runtime::CompilerServices::System__Runtime__CompilerServices__AsyncMethodBuilderCore____c value) ;
 
-static ::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c __get___9() ;
+static System::Runtime::CompilerServices::System__Runtime__CompilerServices__AsyncMethodBuilderCore____c __get___9() ;
 
-static ::System::Threading::SendOrPostCallback __declspec(property(get=__get___9__7_0, put=__set___9__7_0))  __9__7_0;
+static System::Threading::SendOrPostCallback __declspec(property(get=__get___9__7_0, put=__set___9__7_0))  __9__7_0;
 
-static void __set___9__7_0(::System::Threading::SendOrPostCallback value) ;
+static void __set___9__7_0(System::Threading::SendOrPostCallback value) ;
 
-static ::System::Threading::SendOrPostCallback __get___9__7_0() ;
+static System::Threading::SendOrPostCallback __get___9__7_0() ;
 
-static ::System::Threading::WaitCallback __declspec(property(get=__get___9__7_1, put=__set___9__7_1))  __9__7_1;
+static System::Threading::WaitCallback __declspec(property(get=__get___9__7_1, put=__set___9__7_1))  __9__7_1;
 
-static void __set___9__7_1(::System::Threading::WaitCallback value) ;
+static void __set___9__7_1(System::Threading::WaitCallback value) ;
 
-static ::System::Threading::WaitCallback __get___9__7_1() ;
+static System::Threading::WaitCallback __get___9__7_1() ;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c() ;
+explicit System__Runtime__CompilerServices__AsyncMethodBuilderCore____c() ;
 
 /// @brief Method .ctor addr 0x23704d8 size 0x8 virtual false final false
  void _ctor() ;
@@ -360,16 +359,16 @@ namespace System::Runtime::CompilerServices {
 struct CORDL_TYPE AsyncMethodBuilderCore : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-using __c = ::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c;
+using __c = System::Runtime::CompilerServices::System__Runtime__CompilerServices__AsyncMethodBuilderCore____c;
 
-using __c__DisplayClass5_0 = ::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0;
+using __c__DisplayClass5_0 = System::Runtime::CompilerServices::System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0;
 
-using ContinuationWrapper = ::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper;
+using ContinuationWrapper = System::Runtime::CompilerServices::System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper;
 
-using MoveNextRunner = ::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner;
+using MoveNextRunner = System::Runtime::CompilerServices::System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner;
 
-// Ctor Parameters [CppParam { name: "m_stateMachine", ty: "::System::Runtime::CompilerServices::IAsyncStateMachine", modifiers: "", def_value: None }, CppParam { name: "m_defaultContextAction", ty: "::System::Action", modifiers: "", def_value: None }]
-constexpr AsyncMethodBuilderCore(::System::Runtime::CompilerServices::IAsyncStateMachine m_stateMachine, ::System::Action m_defaultContextAction) noexcept;
+// Ctor Parameters [CppParam { name: "m_stateMachine", ty: "System::Runtime::CompilerServices::IAsyncStateMachine", modifiers: "", def_value: None }, CppParam { name: "m_defaultContextAction", ty: "System::Action", modifiers: "", def_value: None }]
+constexpr AsyncMethodBuilderCore(System::Runtime::CompilerServices::IAsyncStateMachine m_stateMachine, System::Action m_defaultContextAction) noexcept;
 
 
                     constexpr AsyncMethodBuilderCore(AsyncMethodBuilderCore const&) = default;
@@ -402,53 +401,52 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::Runtime::CompilerServices::IAsyncStateMachine __declspec(property(get=__get_m_stateMachine, put=__set_m_stateMachine))  m_stateMachine;
+ System::Runtime::CompilerServices::IAsyncStateMachine __declspec(property(get=__get_m_stateMachine, put=__set_m_stateMachine))  m_stateMachine;
 
-constexpr void __set_m_stateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine value) ;
+constexpr void __set_m_stateMachine(System::Runtime::CompilerServices::IAsyncStateMachine value) ;
 
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine __get_m_stateMachine() const;
+constexpr System::Runtime::CompilerServices::IAsyncStateMachine __get_m_stateMachine() const;
 
- ::System::Action __declspec(property(get=__get_m_defaultContextAction, put=__set_m_defaultContextAction))  m_defaultContextAction;
+ System::Action __declspec(property(get=__get_m_defaultContextAction, put=__set_m_defaultContextAction))  m_defaultContextAction;
 
-constexpr void __set_m_defaultContextAction(::System::Action value) ;
+constexpr void __set_m_defaultContextAction(System::Action value) ;
 
-constexpr ::System::Action __get_m_defaultContextAction() const;
+constexpr System::Action __get_m_defaultContextAction() const;
 
 
 // Methods
 
 /// @brief Method SetStateMachine addr 0x236f128 size 0xc8 virtual false final false
- void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
+ void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
 
 /// @brief Method GetCompletionAction addr 0x236fb08 size 0x1cc virtual false final false
- ::System::Action GetCompletionAction(::System::Threading::Tasks::Task taskForTracing, ByRef<::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner> runnerToInitialize) ;
+ System::Action GetCompletionAction(System::Threading::Tasks::Task taskForTracing, ByRef<System::Runtime::CompilerServices::System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner> runnerToInitialize) ;
 
 /// @brief Method OutputAsyncCausalityEvents addr 0x236fd00 size 0xc0 virtual false final false
- ::System::Action OutputAsyncCausalityEvents(::System::Threading::Tasks::Task innerTask, ::System::Action continuation) ;
+ System::Action OutputAsyncCausalityEvents(System::Threading::Tasks::Task innerTask, System::Action continuation) ;
 
 /// @brief Method PostBoxInitialization addr 0x236fe88 size 0x1a0 virtual false final false
- void PostBoxInitialization(::System::Runtime::CompilerServices::IAsyncStateMachine stateMachine, ::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner runner, ::System::Threading::Tasks::Task builtTask) ;
+ void PostBoxInitialization(System::Runtime::CompilerServices::IAsyncStateMachine stateMachine, System::Runtime::CompilerServices::System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner runner, System::Threading::Tasks::Task builtTask) ;
 
 /// @brief Method ThrowAsync addr 0x236f490 size 0x2ec virtual false final false
-static void ThrowAsync(::System::Exception exception, ::System::Threading::SynchronizationContext targetContext) ;
+static void ThrowAsync(System::Exception exception, System::Threading::SynchronizationContext targetContext) ;
 
 /// @brief Method CreateContinuationWrapper addr 0x236fdc8 size 0xc0 virtual false final false
-static ::System::Action CreateContinuationWrapper(::System::Action continuation, ::System::Action invokeAction, ::System::Threading::Tasks::Task innerTask) ;
+static System::Action CreateContinuationWrapper(System::Action continuation, System::Action invokeAction, System::Threading::Tasks::Task innerTask) ;
 
 /// @brief Method TryGetContinuationTask addr 0x2370074 size 0x94 virtual false final false
-static ::System::Threading::Tasks::Task TryGetContinuationTask(::System::Action action) ;
+static System::Threading::Tasks::Task TryGetContinuationTask(System::Action action) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::CompilerServices
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore/ContinuationWrapper");
-NEED_NO_BOX(::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore/MoveNextRunner");
-NEED_NO_BOX(::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore/<>c");
-NEED_NO_BOX(::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore/<>c__DisplayClass5_0");
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::AsyncMethodBuilderCore, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore");
+NEED_NO_BOX(System::Runtime::CompilerServices::System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore/ContinuationWrapper");
+NEED_NO_BOX(System::Runtime::CompilerServices::System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore/MoveNextRunner");
+NEED_NO_BOX(System::Runtime::CompilerServices::System__Runtime__CompilerServices__AsyncMethodBuilderCore____c);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::System__Runtime__CompilerServices__AsyncMethodBuilderCore____c, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore/<>c");
+NEED_NO_BOX(System::Runtime::CompilerServices::System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore/<>c__DisplayClass5_0");
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncMethodBuilderCore, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore");

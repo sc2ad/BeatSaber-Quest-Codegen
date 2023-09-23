@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 // Forward declare root types
 namespace JetBrains::Annotations {
 class AspMvcViewComponentAttribute;
@@ -12,7 +11,7 @@ namespace JetBrains::Annotations {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15719))
 // CS Name: JetBrains.Annotations.AspMvcViewComponentAttribute
-class CORDL_TYPE AspMvcViewComponentAttribute : public ::System::Attribute {
+class CORDL_TYPE AspMvcViewComponentAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr AspMvcViewComponentAttribute(AspMvcViewComponentAttribute const& ) noe
 constexpr AspMvcViewComponentAttribute(AspMvcViewComponentAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AspMvcViewComponentAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit AspMvcViewComponentAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def JetBrains::Annotations
-} // end anonymous namespace
-NEED_NO_BOX(::JetBrains::Annotations::AspMvcViewComponentAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::JetBrains::Annotations::AspMvcViewComponentAttribute, "JetBrains.Annotations", "AspMvcViewComponentAttribute");
+NEED_NO_BOX(JetBrains::Annotations::AspMvcViewComponentAttribute);
+DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspMvcViewComponentAttribute, "JetBrains.Annotations", "AspMvcViewComponentAttribute");

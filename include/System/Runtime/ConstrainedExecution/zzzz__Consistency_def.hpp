@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Runtime::ConstrainedExecution {
 struct Consistency;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field MayCorruptProcess offset 0
-static ::System::Runtime::ConstrainedExecution::Consistency const MayCorruptProcess;
+static System::Runtime::ConstrainedExecution::Consistency const MayCorruptProcess;
 
 /// @brief Field MayCorruptAppDomain offset 0
-static ::System::Runtime::ConstrainedExecution::Consistency const MayCorruptAppDomain;
+static System::Runtime::ConstrainedExecution::Consistency const MayCorruptAppDomain;
 
 /// @brief Field MayCorruptInstance offset 0
-static ::System::Runtime::ConstrainedExecution::Consistency const MayCorruptInstance;
+static System::Runtime::ConstrainedExecution::Consistency const MayCorruptInstance;
 
 /// @brief Field WillNotCorruptState offset 0
-static ::System::Runtime::ConstrainedExecution::Consistency const WillNotCorruptState;
+static System::Runtime::ConstrainedExecution::Consistency const WillNotCorruptState;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::ConstrainedExecution
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::ConstrainedExecution::Consistency, "System.Runtime.ConstrainedExecution", "Consistency");
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ConstrainedExecution::Consistency, "System.Runtime.ConstrainedExecution", "Consistency");

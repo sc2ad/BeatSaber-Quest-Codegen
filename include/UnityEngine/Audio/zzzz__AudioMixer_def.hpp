@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine::Audio {
 struct AudioMixerUpdateMode;
 }
@@ -18,7 +17,7 @@ namespace UnityEngine::Audio {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10142))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15616))
 // CS Name: UnityEngine.Audio.AudioMixer
-class CORDL_TYPE AudioMixer : public ::UnityEngine::Object {
+class CORDL_TYPE AudioMixer : public UnityEngine::Object {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr AudioMixer(AudioMixer const& ) noexcept = default;
 constexpr AudioMixer(AudioMixer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AudioMixer(void* ptr) noexcept : ::UnityEngine::Object(ptr) {
+constexpr explicit AudioMixer(void* ptr) noexcept : UnityEngine::Object(ptr) {
 }
 
 
@@ -54,13 +53,13 @@ constexpr explicit AudioMixer(void* ptr) noexcept : ::UnityEngine::Object(ptr) {
 
 // Properties
 
- ::UnityEngine::Audio::AudioMixerUpdateMode __declspec(property(put=set_updateMode))  updateMode;
+ UnityEngine::Audio::AudioMixerUpdateMode __declspec(property(put=set_updateMode))  updateMode;
 
 
 // Methods
 
 /// @brief Method set_updateMode addr 0x2b26a78 size 0x44 virtual false final false
- void set_updateMode(::UnityEngine::Audio::AudioMixerUpdateMode value) ;
+ void set_updateMode(UnityEngine::Audio::AudioMixerUpdateMode value) ;
 
 /// @brief Method SetFloat addr 0x2b26abc size 0x54 virtual false final false
  bool SetFloat(::StringW name, float_t value) ;
@@ -72,6 +71,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Audio
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Audio::AudioMixer);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Audio::AudioMixer, "UnityEngine.Audio", "AudioMixer");
+NEED_NO_BOX(UnityEngine::Audio::AudioMixer);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioMixer, "UnityEngine.Audio", "AudioMixer");

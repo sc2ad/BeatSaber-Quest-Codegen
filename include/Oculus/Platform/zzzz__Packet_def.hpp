@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform {
 struct SendPolicy;
 }
@@ -23,8 +22,8 @@ namespace Oculus::Platform {
 class CORDL_TYPE Packet : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -78,7 +77,7 @@ constexpr ::cordl_internals::intptr_t __get_packetHandle() const;
 
  uint64_t __declspec(property(get=get_Size))  Size;
 
- ::Oculus::Platform::SendPolicy __declspec(property(get=get_Policy))  Policy;
+ Oculus::Platform::SendPolicy __declspec(property(get=get_Policy))  Policy;
 
 
 // Methods
@@ -99,7 +98,7 @@ explicit Packet(::cordl_internals::intptr_t packetHandle) ;
  uint64_t get_Size() ;
 
 /// @brief Method get_Policy addr 0x25851d4 size 0x58 virtual false final false
- ::Oculus::Platform::SendPolicy get_Policy() ;
+ Oculus::Platform::SendPolicy get_Policy() ;
 
 /// @brief Method Finalize addr 0x258522c size 0x94 virtual true final false
  void Finalize() ;
@@ -111,6 +110,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Packet);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Packet, "Oculus.Platform", "Packet");
+NEED_NO_BOX(Oculus::Platform::Packet);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Packet, "Oculus.Platform", "Packet");

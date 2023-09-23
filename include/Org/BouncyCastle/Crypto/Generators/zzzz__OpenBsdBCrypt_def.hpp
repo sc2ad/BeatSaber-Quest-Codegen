@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
 }
@@ -72,11 +71,11 @@ static void __set_DefaultVersion(::StringW value) ;
 
 static ::StringW __get_DefaultVersion() ;
 
-static ::Org::BouncyCastle::Utilities::Collections::ISet __declspec(property(get=__get_AllowedVersions, put=__set_AllowedVersions))  AllowedVersions;
+static Org::BouncyCastle::Utilities::Collections::ISet __declspec(property(get=__get_AllowedVersions, put=__set_AllowedVersions))  AllowedVersions;
 
-static void __set_AllowedVersions(::Org::BouncyCastle::Utilities::Collections::ISet value) ;
+static void __set_AllowedVersions(Org::BouncyCastle::Utilities::Collections::ISet value) ;
 
-static ::Org::BouncyCastle::Utilities::Collections::ISet __get_AllowedVersions() ;
+static Org::BouncyCastle::Utilities::Collections::ISet __get_AllowedVersions() ;
 
 
 // Methods
@@ -109,6 +108,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Generators
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt, "Org.BouncyCastle.Crypto.Generators", "OpenBsdBCrypt");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt, "Org.BouncyCastle.Crypto.Generators", "OpenBsdBCrypt");

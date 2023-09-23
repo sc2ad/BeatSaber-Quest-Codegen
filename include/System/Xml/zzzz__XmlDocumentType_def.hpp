@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/zzzz__XmlLinkedNode_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Xml::Schema {
 class SchemaInfo;
 }
@@ -10,13 +9,13 @@ namespace System::Xml {
 class XmlDocument;
 }
 namespace System::Xml {
-class XmlNode;
+struct XmlNodeType;
 }
 namespace System::Xml {
 class XmlNamedNodeMap;
 }
 namespace System::Xml {
-struct XmlNodeType;
+class XmlNode;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -28,7 +27,7 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11455))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11449))
 // CS Name: System.Xml.XmlDocumentType
-class CORDL_TYPE XmlDocumentType : public ::System::Xml::XmlLinkedNode {
+class CORDL_TYPE XmlDocumentType : public System::Xml::XmlLinkedNode {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -43,7 +42,7 @@ constexpr XmlDocumentType(XmlDocumentType const& ) noexcept = default;
 constexpr XmlDocumentType(XmlDocumentType&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XmlDocumentType(void* ptr) noexcept : ::System::Xml::XmlLinkedNode(ptr) {
+constexpr explicit XmlDocumentType(void* ptr) noexcept : System::Xml::XmlLinkedNode(ptr) {
 }
 
 
@@ -94,23 +93,23 @@ constexpr void __set_namespaces(bool value) ;
 
 constexpr bool __get_namespaces() const;
 
- ::System::Xml::XmlNamedNodeMap __declspec(property(get=__get_entities, put=__set_entities))  entities;
+ System::Xml::XmlNamedNodeMap __declspec(property(get=__get_entities, put=__set_entities))  entities;
 
-constexpr void __set_entities(::System::Xml::XmlNamedNodeMap value) ;
+constexpr void __set_entities(System::Xml::XmlNamedNodeMap value) ;
 
-constexpr ::System::Xml::XmlNamedNodeMap __get_entities() const;
+constexpr System::Xml::XmlNamedNodeMap __get_entities() const;
 
- ::System::Xml::XmlNamedNodeMap __declspec(property(get=__get_notations, put=__set_notations))  notations;
+ System::Xml::XmlNamedNodeMap __declspec(property(get=__get_notations, put=__set_notations))  notations;
 
-constexpr void __set_notations(::System::Xml::XmlNamedNodeMap value) ;
+constexpr void __set_notations(System::Xml::XmlNamedNodeMap value) ;
 
-constexpr ::System::Xml::XmlNamedNodeMap __get_notations() const;
+constexpr System::Xml::XmlNamedNodeMap __get_notations() const;
 
- ::System::Xml::Schema::SchemaInfo __declspec(property(get=__get_schemaInfo, put=__set_schemaInfo))  schemaInfo;
+ System::Xml::Schema::SchemaInfo __declspec(property(get=__get_schemaInfo, put=__set_schemaInfo))  schemaInfo;
 
-constexpr void __set_schemaInfo(::System::Xml::Schema::SchemaInfo value) ;
+constexpr void __set_schemaInfo(System::Xml::Schema::SchemaInfo value) ;
 
-constexpr ::System::Xml::Schema::SchemaInfo __get_schemaInfo() const;
+constexpr System::Xml::Schema::SchemaInfo __get_schemaInfo() const;
 
 
 // Properties
@@ -119,13 +118,13 @@ constexpr ::System::Xml::Schema::SchemaInfo __get_schemaInfo() const;
 
  ::StringW __declspec(property(get=get_LocalName))  LocalName;
 
- ::System::Xml::XmlNodeType __declspec(property(get=get_NodeType))  NodeType;
+ System::Xml::XmlNodeType __declspec(property(get=get_NodeType))  NodeType;
 
  bool __declspec(property(get=get_IsReadOnly))  IsReadOnly;
 
- ::System::Xml::XmlNamedNodeMap __declspec(property(get=get_Entities))  Entities;
+ System::Xml::XmlNamedNodeMap __declspec(property(get=get_Entities))  Entities;
 
- ::System::Xml::XmlNamedNodeMap __declspec(property(get=get_Notations))  Notations;
+ System::Xml::XmlNamedNodeMap __declspec(property(get=get_Notations))  Notations;
 
  ::StringW __declspec(property(get=get_PublicId))  PublicId;
 
@@ -135,16 +134,16 @@ constexpr ::System::Xml::Schema::SchemaInfo __get_schemaInfo() const;
 
  bool __declspec(property(get=get_ParseWithNamespaces))  ParseWithNamespaces;
 
- ::System::Xml::Schema::SchemaInfo __declspec(property(get=get_DtdSchemaInfo, put=set_DtdSchemaInfo))  DtdSchemaInfo;
+ System::Xml::Schema::SchemaInfo __declspec(property(get=get_DtdSchemaInfo, put=set_DtdSchemaInfo))  DtdSchemaInfo;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "publicId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "systemId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "internalSubset", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "::System::Xml::XmlDocument", modifiers: "", def_value: None }]
-explicit XmlDocumentType(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset, ::System::Xml::XmlDocument doc) ;
+// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "publicId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "systemId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "internalSubset", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
+explicit XmlDocumentType(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset, System::Xml::XmlDocument doc) ;
 
 /// @brief Method .ctor addr 0x26f45dc size 0xc4 virtual false final false
- void _ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset, ::System::Xml::XmlDocument doc) ;
+ void _ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset, System::Xml::XmlDocument doc) ;
 
 /// @brief Method get_Name addr 0x26f4720 size 0x8 virtual true final false
  ::StringW get_Name() ;
@@ -153,19 +152,19 @@ explicit XmlDocumentType(::StringW name, ::StringW publicId, ::StringW systemId,
  ::StringW get_LocalName() ;
 
 /// @brief Method get_NodeType addr 0x26f4730 size 0x8 virtual true final false
- ::System::Xml::XmlNodeType get_NodeType() ;
+ System::Xml::XmlNodeType get_NodeType() ;
 
 /// @brief Method CloneNode addr 0x26f4738 size 0x3c virtual true final false
- ::System::Xml::XmlNode CloneNode(bool deep) ;
+ System::Xml::XmlNode CloneNode(bool deep) ;
 
 /// @brief Method get_IsReadOnly addr 0x26f4774 size 0x8 virtual true final false
  bool get_IsReadOnly() ;
 
 /// @brief Method get_Entities addr 0x26f477c size 0x70 virtual false final false
- ::System::Xml::XmlNamedNodeMap get_Entities() ;
+ System::Xml::XmlNamedNodeMap get_Entities() ;
 
 /// @brief Method get_Notations addr 0x26f4814 size 0x70 virtual false final false
- ::System::Xml::XmlNamedNodeMap get_Notations() ;
+ System::Xml::XmlNamedNodeMap get_Notations() ;
 
 /// @brief Method get_PublicId addr 0x26f4884 size 0x8 virtual false final false
  ::StringW get_PublicId() ;
@@ -180,15 +179,14 @@ explicit XmlDocumentType(::StringW name, ::StringW publicId, ::StringW systemId,
  bool get_ParseWithNamespaces() ;
 
 /// @brief Method get_DtdSchemaInfo addr 0x26f48a4 size 0x8 virtual false final false
- ::System::Xml::Schema::SchemaInfo get_DtdSchemaInfo() ;
+ System::Xml::Schema::SchemaInfo get_DtdSchemaInfo() ;
 
 /// @brief Method set_DtdSchemaInfo addr 0x26f48ac size 0x8 virtual false final false
- void set_DtdSchemaInfo(::System::Xml::Schema::SchemaInfo value) ;
+ void set_DtdSchemaInfo(System::Xml::Schema::SchemaInfo value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::XmlDocumentType);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlDocumentType, "System.Xml", "XmlDocumentType");
+NEED_NO_BOX(System::Xml::XmlDocumentType);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlDocumentType, "System.Xml", "XmlDocumentType");

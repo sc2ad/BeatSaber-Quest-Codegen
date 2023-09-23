@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace TMPro {
 class TextMeshProUGUI;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5892))
 // CS Name: ObjectiveListItem
-class CORDL_TYPE ObjectiveListItem : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ObjectiveListItem : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr ObjectiveListItem(ObjectiveListItem const& ) noexcept = default;
 constexpr ObjectiveListItem(ObjectiveListItem&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ObjectiveListItem(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ObjectiveListItem(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -52,17 +51,17 @@ constexpr explicit ObjectiveListItem(void* ptr) noexcept : ::UnityEngine::MonoBe
 
 // Fields
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__titleText, put=__set__titleText))  _titleText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__titleText, put=__set__titleText))  _titleText;
 
-constexpr void __set__titleText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__titleText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__titleText() const;
+constexpr TMPro::TextMeshProUGUI __get__titleText() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__conditionText, put=__set__conditionText))  _conditionText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__conditionText, put=__set__conditionText))  _conditionText;
 
-constexpr void __set__conditionText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__conditionText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__conditionText() const;
+constexpr TMPro::TextMeshProUGUI __get__conditionText() const;
 
 
 // Properties
@@ -95,6 +94,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ObjectiveListItem);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ObjectiveListItem, "", "ObjectiveListItem");
+NEED_NO_BOX(GlobalNamespace::ObjectiveListItem);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObjectiveListItem, "", "ObjectiveListItem");

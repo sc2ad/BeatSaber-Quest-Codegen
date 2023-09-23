@@ -3,30 +3,29 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace System::IO {
-class Stream;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1InputStream;
-}
-namespace Org::BouncyCastle::X509::Store {
-class IX509Store;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class IssuerAndSerialNumber;
-}
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
-namespace System::Collections {
-class IList;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Set;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class ContentInfo;
 }
+namespace System::IO {
+class Stream;
+}
+namespace System::Collections {
+class IList;
+}
+namespace Org::BouncyCastle::X509::Store {
+class IX509Store;
+}
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
+class Asn1InputStream;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class IssuerAndSerialNumber;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class TbsCertificateStructure;
@@ -86,40 +85,40 @@ static int32_t __declspec(property(get=get_MaximumMemory))  MaximumMemory;
 static int32_t get_MaximumMemory() ;
 
 /// @brief Method ReadContentInfo addr 0x115a694 size 0x64 virtual false final false
-static ::Org::BouncyCastle::Asn1::Cms::ContentInfo ReadContentInfo(::ArrayW<uint8_t> input) ;
+static Org::BouncyCastle::Asn1::Cms::ContentInfo ReadContentInfo(::ArrayW<uint8_t> input) ;
 
 /// @brief Method ReadContentInfo addr 0x115a3cc size 0x68 virtual false final false
-static ::Org::BouncyCastle::Asn1::Cms::ContentInfo ReadContentInfo(::System::IO::Stream input) ;
+static Org::BouncyCastle::Asn1::Cms::ContentInfo ReadContentInfo(System::IO::Stream input) ;
 
 /// @brief Method ReadContentInfo addr 0x1174e70 size 0x158 virtual false final false
-static ::Org::BouncyCastle::Asn1::Cms::ContentInfo ReadContentInfo(::Org::BouncyCastle::Asn1::Asn1InputStream aIn) ;
+static Org::BouncyCastle::Asn1::Cms::ContentInfo ReadContentInfo(Org::BouncyCastle::Asn1::Asn1InputStream aIn) ;
 
 /// @brief Method StreamToByteArray addr 0x1174fc8 size 0x8 virtual false final false
-static ::ArrayW<uint8_t> StreamToByteArray(::System::IO::Stream inStream) ;
+static ::ArrayW<uint8_t> StreamToByteArray(System::IO::Stream inStream) ;
 
 /// @brief Method StreamToByteArray addr 0x1174fd0 size 0x8 virtual false final false
-static ::ArrayW<uint8_t> StreamToByteArray(::System::IO::Stream inStream, int32_t limit) ;
+static ::ArrayW<uint8_t> StreamToByteArray(System::IO::Stream inStream, int32_t limit) ;
 
 /// @brief Method GetCertificatesFromStore addr 0x115c710 size 0x5a4 virtual false final false
-static ::System::Collections::IList GetCertificatesFromStore(::Org::BouncyCastle::X509::Store::IX509Store certStore) ;
+static System::Collections::IList GetCertificatesFromStore(Org::BouncyCastle::X509::Store::IX509Store certStore) ;
 
 /// @brief Method GetCrlsFromStore addr 0x115d044 size 0x5a4 virtual false final false
-static ::System::Collections::IList GetCrlsFromStore(::Org::BouncyCastle::X509::Store::IX509Store crlStore) ;
+static System::Collections::IList GetCrlsFromStore(Org::BouncyCastle::X509::Store::IX509Store crlStore) ;
 
 /// @brief Method CreateBerSetFromList addr 0x115ccb4 size 0x390 virtual false final false
-static ::Org::BouncyCastle::Asn1::Asn1Set CreateBerSetFromList(::System::Collections::IList berObjects) ;
+static Org::BouncyCastle::Asn1::Asn1Set CreateBerSetFromList(System::Collections::IList berObjects) ;
 
 /// @brief Method CreateDerSetFromList addr 0x1161a50 size 0x390 virtual false final false
-static ::Org::BouncyCastle::Asn1::Asn1Set CreateDerSetFromList(::System::Collections::IList derObjects) ;
+static Org::BouncyCastle::Asn1::Asn1Set CreateDerSetFromList(System::Collections::IList derObjects) ;
 
 /// @brief Method CreateBerOctetOutputStream addr 0x1166b78 size 0x90 virtual false final false
-static ::System::IO::Stream CreateBerOctetOutputStream(::System::IO::Stream s, int32_t tagNo, bool isExplicit, int32_t bufferSize) ;
+static System::IO::Stream CreateBerOctetOutputStream(System::IO::Stream s, int32_t tagNo, bool isExplicit, int32_t bufferSize) ;
 
 /// @brief Method GetTbsCertificateStructure addr 0x1174fd8 size 0x30 virtual false final false
-static ::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure GetTbsCertificateStructure(::Org::BouncyCastle::X509::X509Certificate cert) ;
+static Org::BouncyCastle::Asn1::X509::TbsCertificateStructure GetTbsCertificateStructure(Org::BouncyCastle::X509::X509Certificate cert) ;
 
 /// @brief Method GetIssuerAndSerialNumber addr 0x115e510 size 0x94 virtual false final false
-static ::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber GetIssuerAndSerialNumber(::Org::BouncyCastle::X509::X509Certificate cert) ;
+static Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber GetIssuerAndSerialNumber(Org::BouncyCastle::X509::X509Certificate cert) ;
 
 // Ctor Parameters []
 explicit CmsUtilities() ;
@@ -131,6 +130,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Cms
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Cms::CmsUtilities);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::CmsUtilities, "Org.BouncyCastle.Cms", "CmsUtilities");
+NEED_NO_BOX(Org::BouncyCastle::Cms::CmsUtilities);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Cms::CmsUtilities, "Org.BouncyCastle.Cms", "CmsUtilities");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Globalization {
 class CultureInfo;
 }
@@ -22,7 +21,7 @@ namespace System::ComponentModel {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8331))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8266))
 // CS Name: System.ComponentModel.DateTimeConverter
-class CORDL_TYPE DateTimeConverter : public ::System::ComponentModel::TypeConverter {
+class CORDL_TYPE DateTimeConverter : public System::ComponentModel::TypeConverter {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr DateTimeConverter(DateTimeConverter const& ) noexcept = default;
 constexpr DateTimeConverter(DateTimeConverter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DateTimeConverter(void* ptr) noexcept : ::System::ComponentModel::TypeConverter(ptr) {
+constexpr explicit DateTimeConverter(void* ptr) noexcept : System::ComponentModel::TypeConverter(ptr) {
 }
 
 
@@ -59,16 +58,16 @@ constexpr explicit DateTimeConverter(void* ptr) noexcept : ::System::ComponentMo
 // Methods
 
 /// @brief Method CanConvertFrom addr 0x277ac34 size 0xc8 virtual true final false
- bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext context, ::System::Type sourceType) ;
+ bool CanConvertFrom(System::ComponentModel::ITypeDescriptorContext context, System::Type sourceType) ;
 
 /// @brief Method CanConvertTo addr 0x277acfc size 0xc8 virtual true final false
- bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext context, ::System::Type destinationType) ;
+ bool CanConvertTo(System::ComponentModel::ITypeDescriptorContext context, System::Type destinationType) ;
 
 /// @brief Method ConvertFrom addr 0x277adc4 size 0x320 virtual true final false
- ::bs_hook::Il2CppWrapperType ConvertFrom(::System::ComponentModel::ITypeDescriptorContext context, ::System::Globalization::CultureInfo culture, ::bs_hook::Il2CppWrapperType value) ;
+ ::bs_hook::Il2CppWrapperType ConvertFrom(System::ComponentModel::ITypeDescriptorContext context, System::Globalization::CultureInfo culture, ::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method ConvertTo addr 0x277b0e4 size 0x32c virtual true final false
- ::bs_hook::Il2CppWrapperType ConvertTo(::System::ComponentModel::ITypeDescriptorContext context, ::System::Globalization::CultureInfo culture, ::bs_hook::Il2CppWrapperType value, ::System::Type destinationType) ;
+ ::bs_hook::Il2CppWrapperType ConvertTo(System::ComponentModel::ITypeDescriptorContext context, System::Globalization::CultureInfo culture, ::bs_hook::Il2CppWrapperType value, System::Type destinationType) ;
 
 // Ctor Parameters []
 explicit DateTimeConverter() ;
@@ -80,6 +79,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::DateTimeConverter);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::DateTimeConverter, "System.ComponentModel", "DateTimeConverter");
+NEED_NO_BOX(System::ComponentModel::DateTimeConverter);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::DateTimeConverter, "System.ComponentModel", "DateTimeConverter");

@@ -4,16 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine::XR::OpenXR::NativeTypes {
-struct XrVector3f;
-}
-namespace UnityEngine::XR::OpenXR::NativeTypes {
-struct XrVector2f;
-}
 namespace UnityEngine {
 struct Vector2;
 }
@@ -22,6 +12,15 @@ struct Vector3;
 }
 namespace UnityEngine::XR::OpenXR::NativeTypes {
 struct XrPosef;
+}
+namespace UnityEngine::XR::OpenXR::NativeTypes {
+struct XrVector3f;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine::XR::OpenXR::NativeTypes {
+struct XrVector2f;
 }
 // Forward declare root types
 namespace UnityEngine::XR::OpenXR::Features::ConformanceAutomation {
@@ -33,7 +32,7 @@ namespace UnityEngine::XR::OpenXR::Features::ConformanceAutomation {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14201))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16049))
 // CS Name: UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature
-class CORDL_TYPE ConformanceAutomationFeature : public ::UnityEngine::XR::OpenXR::Features::OpenXRFeature {
+class CORDL_TYPE ConformanceAutomationFeature : public UnityEngine::XR::OpenXR::Features::OpenXRFeature {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -48,7 +47,7 @@ constexpr ConformanceAutomationFeature(ConformanceAutomationFeature const& ) noe
 constexpr ConformanceAutomationFeature(ConformanceAutomationFeature&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ConformanceAutomationFeature(void* ptr) noexcept : ::UnityEngine::XR::OpenXR::Features::OpenXRFeature(ptr) {
+constexpr explicit ConformanceAutomationFeature(void* ptr) noexcept : UnityEngine::XR::OpenXR::Features::OpenXRFeature(ptr) {
 }
 
 
@@ -112,13 +111,13 @@ static bool ConformanceAutomationSetBool(::StringW topLevelPath, ::StringW input
 static bool ConformanceAutomationSetFloat(::StringW topLevelPath, ::StringW inputSourcePath, float_t state) ;
 
 /// @brief Method ConformanceAutomationSetVec2 addr 0x2b04a24 size 0xb8 virtual false final false
-static bool ConformanceAutomationSetVec2(::StringW topLevelPath, ::StringW inputSourcePath, ::UnityEngine::Vector2 state) ;
+static bool ConformanceAutomationSetVec2(::StringW topLevelPath, ::StringW inputSourcePath, UnityEngine::Vector2 state) ;
 
 /// @brief Method ConformanceAutomationSetPose addr 0x2b04b90 size 0x128 virtual false final false
-static bool ConformanceAutomationSetPose(::StringW topLevelPath, ::StringW inputSourcePath, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion orientation) ;
+static bool ConformanceAutomationSetPose(::StringW topLevelPath, ::StringW inputSourcePath, UnityEngine::Vector3 position, UnityEngine::Quaternion orientation) ;
 
 /// @brief Method ConformanceAutomationSetVelocity addr 0x2b04d7c size 0x12c virtual false final false
-static bool ConformanceAutomationSetVelocity(::StringW topLevelPath, ::StringW inputSourcePath, bool linearValid, ::UnityEngine::Vector3 linear, bool angularValid, ::UnityEngine::Vector3 angular) ;
+static bool ConformanceAutomationSetVelocity(::StringW topLevelPath, ::StringW inputSourcePath, bool linearValid, UnityEngine::Vector3 linear, bool angularValid, UnityEngine::Vector3 angular) ;
 
 /// @brief Method initialize addr 0x2b044d8 size 0x84 virtual false final false
 static void initialize(::cordl_internals::intptr_t xrGetInstanceProcAddr, uint64_t xrInstance) ;
@@ -133,13 +132,13 @@ static bool xrSetInputDeviceStateBoolEXT(uint64_t xrSession, uint64_t topLevelPa
 static bool xrSetInputDeviceStateFloatEXT(uint64_t xrSession, uint64_t topLevelPath, uint64_t inputSourcePath, float_t state) ;
 
 /// @brief Method xrSetInputDeviceStateVector2fEXT addr 0x2b04adc size 0xb4 virtual false final false
-static bool xrSetInputDeviceStateVector2fEXT(uint64_t xrSession, uint64_t topLevelPath, uint64_t inputSourcePath, ::UnityEngine::XR::OpenXR::NativeTypes::XrVector2f state) ;
+static bool xrSetInputDeviceStateVector2fEXT(uint64_t xrSession, uint64_t topLevelPath, uint64_t inputSourcePath, UnityEngine::XR::OpenXR::NativeTypes::XrVector2f state) ;
 
 /// @brief Method xrSetInputDeviceLocationEXT addr 0x2b04cb8 size 0xc4 virtual false final false
-static bool xrSetInputDeviceLocationEXT(uint64_t xrSession, uint64_t topLevelPath, uint64_t inputSourcePath, uint64_t space, ::UnityEngine::XR::OpenXR::NativeTypes::XrPosef pose) ;
+static bool xrSetInputDeviceLocationEXT(uint64_t xrSession, uint64_t topLevelPath, uint64_t inputSourcePath, uint64_t space, UnityEngine::XR::OpenXR::NativeTypes::XrPosef pose) ;
 
 /// @brief Method xrSetInputDeviceVelocityUNITY addr 0x2b04ea8 size 0xfc virtual false final false
-static bool xrSetInputDeviceVelocityUNITY(uint64_t xrSession, uint64_t topLevelPath, uint64_t inputSourcePath, bool linearValid, ::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f linear, bool angularValid, ::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f angular) ;
+static bool xrSetInputDeviceVelocityUNITY(uint64_t xrSession, uint64_t topLevelPath, uint64_t inputSourcePath, bool linearValid, UnityEngine::XR::OpenXR::NativeTypes::XrVector3f linear, bool angularValid, UnityEngine::XR::OpenXR::NativeTypes::XrVector3f angular) ;
 
 // Ctor Parameters []
 explicit ConformanceAutomationFeature() ;
@@ -151,6 +150,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR::OpenXR::Features::ConformanceAutomation
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature, "UnityEngine.XR.OpenXR.Features.ConformanceAutomation", "ConformanceAutomationFeature");
+NEED_NO_BOX(UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature, "UnityEngine.XR.OpenXR.Features.ConformanceAutomation", "ConformanceAutomationFeature");

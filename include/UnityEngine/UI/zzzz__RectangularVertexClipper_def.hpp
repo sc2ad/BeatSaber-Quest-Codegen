@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace UnityEngine {
 struct Rect;
 }
@@ -61,23 +60,23 @@ constexpr explicit RectangularVertexClipper(void* ptr) noexcept : ::bs_hook::Il2
 
 // Fields
 
- ::ArrayW<::UnityEngine::Vector3> __declspec(property(get=__get_m_WorldCorners, put=__set_m_WorldCorners))  m_WorldCorners;
+ ::ArrayW<UnityEngine::Vector3> __declspec(property(get=__get_m_WorldCorners, put=__set_m_WorldCorners))  m_WorldCorners;
 
-constexpr void __set_m_WorldCorners(::ArrayW<::UnityEngine::Vector3> value) ;
+constexpr void __set_m_WorldCorners(::ArrayW<UnityEngine::Vector3> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector3> __get_m_WorldCorners() const;
+constexpr ::ArrayW<UnityEngine::Vector3> __get_m_WorldCorners() const;
 
- ::ArrayW<::UnityEngine::Vector3> __declspec(property(get=__get_m_CanvasCorners, put=__set_m_CanvasCorners))  m_CanvasCorners;
+ ::ArrayW<UnityEngine::Vector3> __declspec(property(get=__get_m_CanvasCorners, put=__set_m_CanvasCorners))  m_CanvasCorners;
 
-constexpr void __set_m_CanvasCorners(::ArrayW<::UnityEngine::Vector3> value) ;
+constexpr void __set_m_CanvasCorners(::ArrayW<UnityEngine::Vector3> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector3> __get_m_CanvasCorners() const;
+constexpr ::ArrayW<UnityEngine::Vector3> __get_m_CanvasCorners() const;
 
 
 // Methods
 
 /// @brief Method GetCanvasRect addr 0x2bda3f8 size 0x170 virtual false final false
- ::UnityEngine::Rect GetCanvasRect(::UnityEngine::RectTransform t, ::UnityEngine::Canvas c) ;
+ UnityEngine::Rect GetCanvasRect(UnityEngine::RectTransform t, UnityEngine::Canvas c) ;
 
 // Ctor Parameters []
 explicit RectangularVertexClipper() ;
@@ -89,6 +88,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UI
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UI::RectangularVertexClipper);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::RectangularVertexClipper, "UnityEngine.UI", "RectangularVertexClipper");
+NEED_NO_BOX(UnityEngine::UI::RectangularVertexClipper);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::RectangularVertexClipper, "UnityEngine.UI", "RectangularVertexClipper");

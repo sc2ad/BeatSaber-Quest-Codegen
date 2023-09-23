@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
@@ -81,7 +80,7 @@ static void AddOne(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> z) ;
 static void AddTo(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> z) ;
 
 /// @brief Method FromBigInteger addr 0xf96ecc size 0x10 virtual false final false
-static ::ArrayW<uint64_t> FromBigInteger(::Org::BouncyCastle::Math::BigInteger x) ;
+static ::ArrayW<uint64_t> FromBigInteger(Org::BouncyCastle::Math::BigInteger x) ;
 
 /// @brief Method HalfTrace addr 0xf96edc size 0xc8 virtual false final false
 static void HalfTrace(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> z) ;
@@ -141,6 +140,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Math::EC::Custom::Sec
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT283Field);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT283Field, "Org.BouncyCastle.Math.EC.Custom.Sec", "SecT283Field");
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Custom::Sec::SecT283Field);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Sec::SecT283Field, "Org.BouncyCastle.Math.EC.Custom.Sec", "SecT283Field");

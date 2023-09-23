@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Security::Principal {
 class SecurityIdentifier;
 }
@@ -51,9 +50,9 @@ constexpr explicit GenericSecurityDescriptor(void* ptr) noexcept : ::bs_hook::Il
 
 // Properties
 
- ::System::Security::Principal::SecurityIdentifier __declspec(property(put=set_Group))  Group;
+ System::Security::Principal::SecurityIdentifier __declspec(property(put=set_Group))  Group;
 
- ::System::Security::Principal::SecurityIdentifier __declspec(property(put=set_Owner))  Owner;
+ System::Security::Principal::SecurityIdentifier __declspec(property(put=set_Owner))  Owner;
 
 
 // Methods
@@ -65,15 +64,14 @@ explicit GenericSecurityDescriptor() ;
  void _ctor() ;
 
 /// @brief Method set_Group addr 0x0 size 0xffffffffffffffff virtual true final false
- void set_Group(::System::Security::Principal::SecurityIdentifier value) ;
+ void set_Group(System::Security::Principal::SecurityIdentifier value) ;
 
 /// @brief Method set_Owner addr 0x0 size 0xffffffffffffffff virtual true final false
- void set_Owner(::System::Security::Principal::SecurityIdentifier value) ;
+ void set_Owner(System::Security::Principal::SecurityIdentifier value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::AccessControl
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::AccessControl::GenericSecurityDescriptor);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::AccessControl::GenericSecurityDescriptor, "System.Security.AccessControl", "GenericSecurityDescriptor");
+NEED_NO_BOX(System::Security::AccessControl::GenericSecurityDescriptor);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::AccessControl::GenericSecurityDescriptor, "System.Security.AccessControl", "GenericSecurityDescriptor");

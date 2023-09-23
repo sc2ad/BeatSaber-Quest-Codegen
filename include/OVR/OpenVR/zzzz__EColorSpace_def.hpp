@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct EColorSpace;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Auto offset 0
-static ::OVR::OpenVR::EColorSpace const Auto;
+static OVR::OpenVR::EColorSpace const Auto;
 
 /// @brief Field Gamma offset 0
-static ::OVR::OpenVR::EColorSpace const Gamma;
+static OVR::OpenVR::EColorSpace const Gamma;
 
 /// @brief Field Linear offset 0
-static ::OVR::OpenVR::EColorSpace const Linear;
+static OVR::OpenVR::EColorSpace const Linear;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EColorSpace, "OVR.OpenVR", "EColorSpace");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EColorSpace, "OVR.OpenVR", "EColorSpace");

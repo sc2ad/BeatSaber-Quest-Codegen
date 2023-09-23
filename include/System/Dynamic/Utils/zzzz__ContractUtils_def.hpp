@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System {
 class Exception;
 }
@@ -51,18 +50,17 @@ constexpr explicit ContractUtils(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 
 // Properties
 
-static ::System::Exception __declspec(property(get=get_Unreachable))  Unreachable;
+static System::Exception __declspec(property(get=get_Unreachable))  Unreachable;
 
 
 // Methods
 
 /// @brief Method get_Unreachable addr 0x268243c size 0x74 virtual false final false
-static ::System::Exception get_Unreachable() ;
+static System::Exception get_Unreachable() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Dynamic::Utils
-} // end anonymous namespace
-NEED_NO_BOX(::System::Dynamic::Utils::ContractUtils);
-DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::Utils::ContractUtils, "System.Dynamic.Utils", "ContractUtils");
+NEED_NO_BOX(System::Dynamic::Utils::ContractUtils);
+DEFINE_IL2CPP_ARG_TYPE(System::Dynamic::Utils::ContractUtils, "System.Dynamic.Utils", "ContractUtils");

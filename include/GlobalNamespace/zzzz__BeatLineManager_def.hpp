@@ -2,21 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
-namespace GlobalNamespace {
-class NoteController;
-}
-namespace GlobalNamespace {
-class BeatmapObjectManager;
-}
 namespace UnityEngine {
 struct Vector4;
 }
 namespace GlobalNamespace {
-class BeatLine;
+class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__BeatLine__Pool;
+class AudioTimeSyncController;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -27,7 +20,13 @@ template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
-class AudioTimeSyncController;
+class NoteController;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BeatLine__Pool;
+}
+namespace GlobalNamespace {
+class BeatLine;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -39,7 +38,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4817))
 // CS Name: BeatLineManager
-class CORDL_TYPE BeatLineManager : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE BeatLineManager : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -54,7 +53,7 @@ constexpr BeatLineManager(BeatLineManager const& ) noexcept = default;
 constexpr BeatLineManager(BeatLineManager&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BeatLineManager(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit BeatLineManager(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -81,35 +80,35 @@ constexpr void __set__linesYPosition(float_t value) ;
 
 constexpr float_t __get__linesYPosition() const;
 
- ::GlobalNamespace::BeatmapObjectManager __declspec(property(get=__get__beatmapObjectManager, put=__set__beatmapObjectManager))  _beatmapObjectManager;
+ GlobalNamespace::BeatmapObjectManager __declspec(property(get=__get__beatmapObjectManager, put=__set__beatmapObjectManager))  _beatmapObjectManager;
 
-constexpr void __set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager value) ;
+constexpr void __set__beatmapObjectManager(GlobalNamespace::BeatmapObjectManager value) ;
 
-constexpr ::GlobalNamespace::BeatmapObjectManager __get__beatmapObjectManager() const;
+constexpr GlobalNamespace::BeatmapObjectManager __get__beatmapObjectManager() const;
 
- ::GlobalNamespace::____GlobalNamespace__BeatLine__Pool __declspec(property(get=__get__beatLinePool, put=__set__beatLinePool))  _beatLinePool;
+ GlobalNamespace::GlobalNamespace__BeatLine__Pool __declspec(property(get=__get__beatLinePool, put=__set__beatLinePool))  _beatLinePool;
 
-constexpr void __set__beatLinePool(::GlobalNamespace::____GlobalNamespace__BeatLine__Pool value) ;
+constexpr void __set__beatLinePool(GlobalNamespace::GlobalNamespace__BeatLine__Pool value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__BeatLine__Pool __get__beatLinePool() const;
+constexpr GlobalNamespace::GlobalNamespace__BeatLine__Pool __get__beatLinePool() const;
 
- ::GlobalNamespace::AudioTimeSyncController __declspec(property(get=__get__audioTimeSyncController, put=__set__audioTimeSyncController))  _audioTimeSyncController;
+ GlobalNamespace::AudioTimeSyncController __declspec(property(get=__get__audioTimeSyncController, put=__set__audioTimeSyncController))  _audioTimeSyncController;
 
-constexpr void __set__audioTimeSyncController(::GlobalNamespace::AudioTimeSyncController value) ;
+constexpr void __set__audioTimeSyncController(GlobalNamespace::AudioTimeSyncController value) ;
 
-constexpr ::GlobalNamespace::AudioTimeSyncController __get__audioTimeSyncController() const;
+constexpr GlobalNamespace::AudioTimeSyncController __get__audioTimeSyncController() const;
 
- ::System::Collections::Generic::Dictionary_2<::UnityEngine::Vector4,::GlobalNamespace::BeatLine> __declspec(property(get=__get__activeBeatLines, put=__set__activeBeatLines))  _activeBeatLines;
+ System::Collections::Generic::Dictionary_2<UnityEngine::Vector4,GlobalNamespace::BeatLine> __declspec(property(get=__get__activeBeatLines, put=__set__activeBeatLines))  _activeBeatLines;
 
-constexpr void __set__activeBeatLines(::System::Collections::Generic::Dictionary_2<::UnityEngine::Vector4,::GlobalNamespace::BeatLine> value) ;
+constexpr void __set__activeBeatLines(System::Collections::Generic::Dictionary_2<UnityEngine::Vector4,GlobalNamespace::BeatLine> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::Vector4,::GlobalNamespace::BeatLine> __get__activeBeatLines() const;
+constexpr System::Collections::Generic::Dictionary_2<UnityEngine::Vector4,GlobalNamespace::BeatLine> __get__activeBeatLines() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::Vector4> __declspec(property(get=__get__removeBeatLineKeyList, put=__set__removeBeatLineKeyList))  _removeBeatLineKeyList;
+ System::Collections::Generic::List_1<UnityEngine::Vector4> __declspec(property(get=__get__removeBeatLineKeyList, put=__set__removeBeatLineKeyList))  _removeBeatLineKeyList;
 
-constexpr void __set__removeBeatLineKeyList(::System::Collections::Generic::List_1<::UnityEngine::Vector4> value) ;
+constexpr void __set__removeBeatLineKeyList(System::Collections::Generic::List_1<UnityEngine::Vector4> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4> __get__removeBeatLineKeyList() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::Vector4> __get__removeBeatLineKeyList() const;
 
  bool __declspec(property(get=__get__isMidRotationValid, put=__set__isMidRotationValid))  _isMidRotationValid;
 
@@ -160,7 +159,7 @@ constexpr float_t __get__rotationRange() const;
  void Update() ;
 
 /// @brief Method HandleNoteWasSpawned addr 0x222dcd0 size 0x1a0 virtual false final false
- void HandleNoteWasSpawned(::GlobalNamespace::NoteController noteController) ;
+ void HandleNoteWasSpawned(GlobalNamespace::NoteController noteController) ;
 
 // Ctor Parameters []
 explicit BeatLineManager() ;
@@ -172,6 +171,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BeatLineManager);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatLineManager, "", "BeatLineManager");
+NEED_NO_BOX(GlobalNamespace::BeatLineManager);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatLineManager, "", "BeatLineManager");

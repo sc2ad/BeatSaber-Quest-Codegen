@@ -4,22 +4,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-struct OVRGLTFInputNode;
-}
 namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+template<typename T>
+class IEnumerator_1;
 }
-namespace UnityEngine {
-class Shader;
-}
-namespace GlobalNamespace {
-class OVRGLTFAnimatinonNode;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRInput__Controller;
+namespace System {
+class IDisposable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -27,19 +17,28 @@ class IEnumerator;
 namespace UnityEngine {
 class GameObject;
 }
-namespace System {
-class IDisposable;
-}
 namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace GlobalNamespace {
+struct OVRGLTFInputNode;
+}
+namespace GlobalNamespace {
+class OVRGLTFAnimatinonNode;
+}
+namespace UnityEngine {
+class Shader;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRInput__Controller;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-class OVRRuntimeController;
+class GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16;
+class OVRRuntimeController;
 }
 // Type: ::<UpdateControllerModel>d__16
 namespace GlobalNamespace {
@@ -47,46 +46,46 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8950))
 // CS Name: OVRRuntimeController::<UpdateControllerModel>d__16
-class CORDL_TYPE ____GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16() = default;
+virtual ~GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16(____GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16(GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16(____GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16(GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16& operator=(____GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16&& o) noexcept = default;
-  constexpr ____GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16& operator=(____GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16 const& o) noexcept = default;
+  constexpr GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16& operator=(GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16&& o) noexcept = default;
+  constexpr GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16& operator=(GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16 const& o) noexcept = default;
                 
 
 
@@ -104,11 +103,11 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::GlobalNamespace::OVRRuntimeController __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::OVRRuntimeController __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::OVRRuntimeController value) ;
+constexpr void __set___4__this(GlobalNamespace::OVRRuntimeController value) ;
 
-constexpr ::GlobalNamespace::OVRRuntimeController __get___4__this() const;
+constexpr GlobalNamespace::OVRRuntimeController __get___4__this() const;
 
 
 // Properties
@@ -121,7 +120,7 @@ constexpr ::GlobalNamespace::OVRRuntimeController __get___4__this() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16(int32_t __1__state) ;
+explicit GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x262ff28 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -151,10 +150,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8951))
 // CS Name: OVRRuntimeController
-class CORDL_TYPE OVRRuntimeController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OVRRuntimeController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using _UpdateControllerModel_d__16 = ::GlobalNamespace::____GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16;
+using _UpdateControllerModel_d__16 = GlobalNamespace::GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x50};
@@ -168,7 +167,7 @@ constexpr OVRRuntimeController(OVRRuntimeController const& ) noexcept = default;
 constexpr OVRRuntimeController(OVRRuntimeController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OVRRuntimeController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OVRRuntimeController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -189,17 +188,17 @@ constexpr explicit OVRRuntimeController(void* ptr) noexcept : ::UnityEngine::Mon
 
 // Fields
 
- ::GlobalNamespace::____GlobalNamespace__OVRInput__Controller __declspec(property(get=__get_m_controller, put=__set_m_controller))  m_controller;
+ GlobalNamespace::GlobalNamespace__OVRInput__Controller __declspec(property(get=__get_m_controller, put=__set_m_controller))  m_controller;
 
-constexpr void __set_m_controller(::GlobalNamespace::____GlobalNamespace__OVRInput__Controller value) ;
+constexpr void __set_m_controller(GlobalNamespace::GlobalNamespace__OVRInput__Controller value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVRInput__Controller __get_m_controller() const;
+constexpr GlobalNamespace::GlobalNamespace__OVRInput__Controller __get_m_controller() const;
 
- ::UnityEngine::Shader __declspec(property(get=__get_m_controllerModelShader, put=__set_m_controllerModelShader))  m_controllerModelShader;
+ UnityEngine::Shader __declspec(property(get=__get_m_controllerModelShader, put=__set_m_controllerModelShader))  m_controllerModelShader;
 
-constexpr void __set_m_controllerModelShader(::UnityEngine::Shader value) ;
+constexpr void __set_m_controllerModelShader(UnityEngine::Shader value) ;
 
-constexpr ::UnityEngine::Shader __get_m_controllerModelShader() const;
+constexpr UnityEngine::Shader __get_m_controllerModelShader() const;
 
  bool __declspec(property(get=__get_m_supportAnimation, put=__set_m_supportAnimation))  m_supportAnimation;
 
@@ -207,11 +206,11 @@ constexpr void __set_m_supportAnimation(bool value) ;
 
 constexpr bool __get_m_supportAnimation() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get_m_controllerObject, put=__set_m_controllerObject))  m_controllerObject;
+ UnityEngine::GameObject __declspec(property(get=__get_m_controllerObject, put=__set_m_controllerObject))  m_controllerObject;
 
-constexpr void __set_m_controllerObject(::UnityEngine::GameObject value) ;
+constexpr void __set_m_controllerObject(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get_m_controllerObject() const;
+constexpr UnityEngine::GameObject __get_m_controllerObject() const;
 
 static ::StringW __declspec(property(get=__get_leftControllerModelPath, put=__set_leftControllerModelPath))  leftControllerModelPath;
 
@@ -255,11 +254,11 @@ constexpr void __set_m_controllerConnectedPrev(bool value) ;
 
 constexpr bool __get_m_controllerConnectedPrev() const;
 
- ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode,::GlobalNamespace::OVRGLTFAnimatinonNode> __declspec(property(get=__get_m_animationNodes, put=__set_m_animationNodes))  m_animationNodes;
+ System::Collections::Generic::Dictionary_2<GlobalNamespace::OVRGLTFInputNode,GlobalNamespace::OVRGLTFAnimatinonNode> __declspec(property(get=__get_m_animationNodes, put=__set_m_animationNodes))  m_animationNodes;
 
-constexpr void __set_m_animationNodes(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode,::GlobalNamespace::OVRGLTFAnimatinonNode> value) ;
+constexpr void __set_m_animationNodes(System::Collections::Generic::Dictionary_2<GlobalNamespace::OVRGLTFInputNode,GlobalNamespace::OVRGLTFAnimatinonNode> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode,::GlobalNamespace::OVRGLTFAnimatinonNode> __get_m_animationNodes() const;
+constexpr System::Collections::Generic::Dictionary_2<GlobalNamespace::OVRGLTFInputNode,GlobalNamespace::OVRGLTFAnimatinonNode> __get_m_animationNodes() const;
 
 
 // Methods
@@ -277,7 +276,7 @@ constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLT
  bool LoadControllerModel(::StringW modelPath) ;
 
 /// @brief Method UpdateControllerModel addr 0x262f7c0 size 0x68 virtual false final false
- ::System::Collections::IEnumerator UpdateControllerModel() ;
+ System::Collections::IEnumerator UpdateControllerModel() ;
 
 /// @brief Method UpdateControllerAnimation addr 0x262f934 size 0x334 virtual false final false
  void UpdateControllerAnimation() ;
@@ -298,8 +297,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OVRRuntimeController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRRuntimeController, "", "OVRRuntimeController");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16, "", "OVRRuntimeController/<UpdateControllerModel>d__16");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16, "", "OVRRuntimeController/<UpdateControllerModel>d__16");
+NEED_NO_BOX(GlobalNamespace::OVRRuntimeController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRRuntimeController, "", "OVRRuntimeController");

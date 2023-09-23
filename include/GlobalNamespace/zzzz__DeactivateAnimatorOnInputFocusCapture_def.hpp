@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class IVRPlatformHelper;
-}
 namespace UnityEngine {
 class Animator;
+}
+namespace GlobalNamespace {
+class IVRPlatformHelper;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13734))
 // CS Name: DeactivateAnimatorOnInputFocusCapture
-class CORDL_TYPE DeactivateAnimatorOnInputFocusCapture : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE DeactivateAnimatorOnInputFocusCapture : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr DeactivateAnimatorOnInputFocusCapture(DeactivateAnimatorOnInputFocusCa
 constexpr DeactivateAnimatorOnInputFocusCapture(DeactivateAnimatorOnInputFocusCapture&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DeactivateAnimatorOnInputFocusCapture(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit DeactivateAnimatorOnInputFocusCapture(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -54,17 +53,17 @@ constexpr explicit DeactivateAnimatorOnInputFocusCapture(void* ptr) noexcept : :
 
 // Fields
 
- ::UnityEngine::Animator __declspec(property(get=__get__animator, put=__set__animator))  _animator;
+ UnityEngine::Animator __declspec(property(get=__get__animator, put=__set__animator))  _animator;
 
-constexpr void __set__animator(::UnityEngine::Animator value) ;
+constexpr void __set__animator(UnityEngine::Animator value) ;
 
-constexpr ::UnityEngine::Animator __get__animator() const;
+constexpr UnityEngine::Animator __get__animator() const;
 
- ::GlobalNamespace::IVRPlatformHelper __declspec(property(get=__get__vrPlatformHelper, put=__set__vrPlatformHelper))  _vrPlatformHelper;
+ GlobalNamespace::IVRPlatformHelper __declspec(property(get=__get__vrPlatformHelper, put=__set__vrPlatformHelper))  _vrPlatformHelper;
 
-constexpr void __set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper value) ;
+constexpr void __set__vrPlatformHelper(GlobalNamespace::IVRPlatformHelper value) ;
 
-constexpr ::GlobalNamespace::IVRPlatformHelper __get__vrPlatformHelper() const;
+constexpr GlobalNamespace::IVRPlatformHelper __get__vrPlatformHelper() const;
 
  bool __declspec(property(get=__get__wasEnabled, put=__set__wasEnabled))  _wasEnabled;
 
@@ -97,6 +96,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture, "", "DeactivateAnimatorOnInputFocusCapture");
+NEED_NO_BOX(GlobalNamespace::DeactivateAnimatorOnInputFocusCapture);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DeactivateAnimatorOnInputFocusCapture, "", "DeactivateAnimatorOnInputFocusCapture");

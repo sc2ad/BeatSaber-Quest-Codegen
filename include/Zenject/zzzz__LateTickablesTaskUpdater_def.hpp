@@ -4,7 +4,6 @@
 #include "Zenject/zzzz__TaskUpdater_1_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace Zenject {
 class InjectTypeInfo;
 }
@@ -21,7 +20,7 @@ namespace Zenject {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11279)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11279), inst: 4061 }), TypeDefinitionIndex(TypeDefinitionIndex(15676))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11281))
 // CS Name: Zenject.LateTickablesTaskUpdater
-class CORDL_TYPE LateTickablesTaskUpdater : public ::Zenject::TaskUpdater_1<::Zenject::ILateTickable> {
+class CORDL_TYPE LateTickablesTaskUpdater : public Zenject::TaskUpdater_1<Zenject::ILateTickable> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr LateTickablesTaskUpdater(LateTickablesTaskUpdater const& ) noexcept = 
 constexpr LateTickablesTaskUpdater(LateTickablesTaskUpdater&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LateTickablesTaskUpdater(void* ptr) noexcept : ::Zenject::TaskUpdater_1<::Zenject::ILateTickable>(ptr) {
+constexpr explicit LateTickablesTaskUpdater(void* ptr) noexcept : Zenject::TaskUpdater_1<Zenject::ILateTickable>(ptr) {
 }
 
 
@@ -58,7 +57,7 @@ constexpr explicit LateTickablesTaskUpdater(void* ptr) noexcept : ::Zenject::Tas
 // Methods
 
 /// @brief Method UpdateItem addr 0x2d9fbdc size 0x9c virtual true final false
- void UpdateItem(::Zenject::ILateTickable task) ;
+ void UpdateItem(Zenject::ILateTickable task) ;
 
 // Ctor Parameters []
 explicit LateTickablesTaskUpdater() ;
@@ -70,12 +69,11 @@ explicit LateTickablesTaskUpdater() ;
 static ::bs_hook::Il2CppWrapperType __zenCreate(::ArrayW<::bs_hook::Il2CppWrapperType> P_0) ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x2d9fd18 size 0x1c0 virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::LateTickablesTaskUpdater);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::LateTickablesTaskUpdater, "Zenject", "LateTickablesTaskUpdater");
+NEED_NO_BOX(Zenject::LateTickablesTaskUpdater);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::LateTickablesTaskUpdater, "Zenject", "LateTickablesTaskUpdater");

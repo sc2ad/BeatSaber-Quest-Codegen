@@ -3,21 +3,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace UnityEngine {
-struct LogOption;
-}
 namespace System {
 class Exception;
-}
-namespace UnityEngine {
-class Object;
 }
 namespace UnityEngine {
 struct LogType;
 }
 namespace UnityEngine {
+class Object;
+}
+namespace UnityEngine {
 class ILogHandler;
+}
+namespace UnityEngine {
+struct LogOption;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -32,8 +31,8 @@ namespace UnityEngine {
 class CORDL_TYPE DebugLogHandler : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::ILogHandler
-constexpr operator  ::UnityEngine::ILogHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::ILogHandler
+constexpr operator  UnityEngine::ILogHandler() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -69,16 +68,16 @@ constexpr explicit DebugLogHandler(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 // Methods
 
 /// @brief Method Internal_Log addr 0x2b297c8 size 0x5c virtual false final false
-static void Internal_Log(::UnityEngine::LogType level, ::UnityEngine::LogOption options, ::StringW msg, ::UnityEngine::Object obj) ;
+static void Internal_Log(UnityEngine::LogType level, UnityEngine::LogOption options, ::StringW msg, UnityEngine::Object obj) ;
 
 /// @brief Method Internal_LogException addr 0x2b29824 size 0x44 virtual false final false
-static void Internal_LogException(::System::Exception ex, ::UnityEngine::Object obj) ;
+static void Internal_LogException(System::Exception ex, UnityEngine::Object obj) ;
 
 /// @brief Method LogFormat addr 0x2b29868 size 0x68 virtual true final true
- void LogFormat(::UnityEngine::LogType logType, ::UnityEngine::Object context, ::StringW format, ::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
+ void LogFormat(UnityEngine::LogType logType, UnityEngine::Object context, ::StringW format, ::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
 
 /// @brief Method LogException addr 0x2b298d0 size 0x94 virtual true final true
- void LogException(::System::Exception exception, ::UnityEngine::Object context) ;
+ void LogException(System::Exception exception, UnityEngine::Object context) ;
 
 // Ctor Parameters []
 explicit DebugLogHandler() ;
@@ -90,6 +89,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::DebugLogHandler);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::DebugLogHandler, "UnityEngine", "DebugLogHandler");
+NEED_NO_BOX(UnityEngine::DebugLogHandler);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::DebugLogHandler, "UnityEngine", "DebugLogHandler");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace GlobalNamespace {
 class BeatmapLevelPackSO;
 }
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4127))
 // CS Name: AlwaysOwnedContentSO
-class CORDL_TYPE AlwaysOwnedContentSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE AlwaysOwnedContentSO : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr AlwaysOwnedContentSO(AlwaysOwnedContentSO const& ) noexcept = default;
 constexpr AlwaysOwnedContentSO(AlwaysOwnedContentSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AlwaysOwnedContentSO(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit AlwaysOwnedContentSO(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -55,33 +54,33 @@ constexpr explicit AlwaysOwnedContentSO(void* ptr) noexcept : ::GlobalNamespace:
 
 // Fields
 
- ::ArrayW<::GlobalNamespace::BeatmapLevelPackSO> __declspec(property(get=__get__alwaysOwnedPacks, put=__set__alwaysOwnedPacks))  _alwaysOwnedPacks;
+ ::ArrayW<GlobalNamespace::BeatmapLevelPackSO> __declspec(property(get=__get__alwaysOwnedPacks, put=__set__alwaysOwnedPacks))  _alwaysOwnedPacks;
 
-constexpr void __set__alwaysOwnedPacks(::ArrayW<::GlobalNamespace::BeatmapLevelPackSO> value) ;
+constexpr void __set__alwaysOwnedPacks(::ArrayW<GlobalNamespace::BeatmapLevelPackSO> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::BeatmapLevelPackSO> __get__alwaysOwnedPacks() const;
+constexpr ::ArrayW<GlobalNamespace::BeatmapLevelPackSO> __get__alwaysOwnedPacks() const;
 
- ::ArrayW<::GlobalNamespace::BeatmapLevelSO> __declspec(property(get=__get__alwaysOwnedBeatmapLevels, put=__set__alwaysOwnedBeatmapLevels))  _alwaysOwnedBeatmapLevels;
+ ::ArrayW<GlobalNamespace::BeatmapLevelSO> __declspec(property(get=__get__alwaysOwnedBeatmapLevels, put=__set__alwaysOwnedBeatmapLevels))  _alwaysOwnedBeatmapLevels;
 
-constexpr void __set__alwaysOwnedBeatmapLevels(::ArrayW<::GlobalNamespace::BeatmapLevelSO> value) ;
+constexpr void __set__alwaysOwnedBeatmapLevels(::ArrayW<GlobalNamespace::BeatmapLevelSO> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::BeatmapLevelSO> __get__alwaysOwnedBeatmapLevels() const;
+constexpr ::ArrayW<GlobalNamespace::BeatmapLevelSO> __get__alwaysOwnedBeatmapLevels() const;
 
 
 // Properties
 
- ::ArrayW<::GlobalNamespace::BeatmapLevelPackSO> __declspec(property(get=get_alwaysOwnedPacks))  alwaysOwnedPacks;
+ ::ArrayW<GlobalNamespace::BeatmapLevelPackSO> __declspec(property(get=get_alwaysOwnedPacks))  alwaysOwnedPacks;
 
- ::ArrayW<::GlobalNamespace::BeatmapLevelSO> __declspec(property(get=get_alwaysOwnedBeatmapLevels))  alwaysOwnedBeatmapLevels;
+ ::ArrayW<GlobalNamespace::BeatmapLevelSO> __declspec(property(get=get_alwaysOwnedBeatmapLevels))  alwaysOwnedBeatmapLevels;
 
 
 // Methods
 
 /// @brief Method get_alwaysOwnedPacks addr 0x20c81e4 size 0x8 virtual false final false
- ::ArrayW<::GlobalNamespace::BeatmapLevelPackSO> get_alwaysOwnedPacks() ;
+ ::ArrayW<GlobalNamespace::BeatmapLevelPackSO> get_alwaysOwnedPacks() ;
 
 /// @brief Method get_alwaysOwnedBeatmapLevels addr 0x20c81ec size 0x8 virtual false final false
- ::ArrayW<::GlobalNamespace::BeatmapLevelSO> get_alwaysOwnedBeatmapLevels() ;
+ ::ArrayW<GlobalNamespace::BeatmapLevelSO> get_alwaysOwnedBeatmapLevels() ;
 
 // Ctor Parameters []
 explicit AlwaysOwnedContentSO() ;
@@ -93,6 +92,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::AlwaysOwnedContentSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AlwaysOwnedContentSO, "", "AlwaysOwnedContentSO");
+NEED_NO_BOX(GlobalNamespace::AlwaysOwnedContentSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AlwaysOwnedContentSO, "", "AlwaysOwnedContentSO");

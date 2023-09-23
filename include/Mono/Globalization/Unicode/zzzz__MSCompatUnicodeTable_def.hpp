@@ -5,21 +5,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Mono::Globalization::Unicode {
-class Level2Map;
-}
 namespace Mono::Globalization::Unicode {
 class CodePointIndexer;
-}
-namespace Mono::Globalization::Unicode {
-class Contraction;
 }
 namespace System::Globalization {
 class CultureInfo;
 }
 namespace Mono::Globalization::Unicode {
 class TailoringInfo;
+}
+namespace Mono::Globalization::Unicode {
+class Contraction;
+}
+namespace Mono::Globalization::Unicode {
+class Level2Map;
 }
 namespace System {
 template<typename T>
@@ -30,7 +29,7 @@ namespace Mono::Globalization::Unicode {
 class MSCompatUnicodeTable;
 }
 namespace Mono::Globalization::Unicode {
-class ____Mono__Globalization__Unicode__MSCompatUnicodeTable____c;
+class Mono__Globalization__Unicode__MSCompatUnicodeTable____c;
 }
 // Type: ::<>c
 namespace Mono::Globalization::Unicode {
@@ -38,65 +37,65 @@ namespace Mono::Globalization::Unicode {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2263))
 // CS Name: Mono.Globalization.Unicode.MSCompatUnicodeTable::<>c
-class CORDL_TYPE ____Mono__Globalization__Unicode__MSCompatUnicodeTable____c : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Mono__Globalization__Unicode__MSCompatUnicodeTable____c : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____Mono__Globalization__Unicode__MSCompatUnicodeTable____c() = default;
+virtual ~Mono__Globalization__Unicode__MSCompatUnicodeTable____c() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Mono__Globalization__Unicode__MSCompatUnicodeTable____c", modifiers: " const&", def_value: None }]
-constexpr ____Mono__Globalization__Unicode__MSCompatUnicodeTable____c(____Mono__Globalization__Unicode__MSCompatUnicodeTable____c const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Mono__Globalization__Unicode__MSCompatUnicodeTable____c", modifiers: " const&", def_value: None }]
+constexpr Mono__Globalization__Unicode__MSCompatUnicodeTable____c(Mono__Globalization__Unicode__MSCompatUnicodeTable____c const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Mono__Globalization__Unicode__MSCompatUnicodeTable____c", modifiers: "&&", def_value: None }]
-constexpr ____Mono__Globalization__Unicode__MSCompatUnicodeTable____c(____Mono__Globalization__Unicode__MSCompatUnicodeTable____c&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Mono__Globalization__Unicode__MSCompatUnicodeTable____c", modifiers: "&&", def_value: None }]
+constexpr Mono__Globalization__Unicode__MSCompatUnicodeTable____c(Mono__Globalization__Unicode__MSCompatUnicodeTable____c&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Mono__Globalization__Unicode__MSCompatUnicodeTable____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Mono__Globalization__Unicode__MSCompatUnicodeTable____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Mono__Globalization__Unicode__MSCompatUnicodeTable____c& operator=(std::nullptr_t) noexcept {
+  constexpr Mono__Globalization__Unicode__MSCompatUnicodeTable____c& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Mono__Globalization__Unicode__MSCompatUnicodeTable____c& operator=(void* o) noexcept {
+  constexpr Mono__Globalization__Unicode__MSCompatUnicodeTable____c& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Mono__Globalization__Unicode__MSCompatUnicodeTable____c& operator=(____Mono__Globalization__Unicode__MSCompatUnicodeTable____c&& o) noexcept = default;
-  constexpr ____Mono__Globalization__Unicode__MSCompatUnicodeTable____c& operator=(____Mono__Globalization__Unicode__MSCompatUnicodeTable____c const& o) noexcept = default;
+  constexpr Mono__Globalization__Unicode__MSCompatUnicodeTable____c& operator=(Mono__Globalization__Unicode__MSCompatUnicodeTable____c&& o) noexcept = default;
+  constexpr Mono__Globalization__Unicode__MSCompatUnicodeTable____c& operator=(Mono__Globalization__Unicode__MSCompatUnicodeTable____c const& o) noexcept = default;
                 
 
 
 // Fields
 
-static ::Mono::Globalization::Unicode::____Mono__Globalization__Unicode__MSCompatUnicodeTable____c __declspec(property(get=__get___9, put=__set___9))  __9;
+static Mono::Globalization::Unicode::Mono__Globalization__Unicode__MSCompatUnicodeTable____c __declspec(property(get=__get___9, put=__set___9))  __9;
 
-static void __set___9(::Mono::Globalization::Unicode::____Mono__Globalization__Unicode__MSCompatUnicodeTable____c value) ;
+static void __set___9(Mono::Globalization::Unicode::Mono__Globalization__Unicode__MSCompatUnicodeTable____c value) ;
 
-static ::Mono::Globalization::Unicode::____Mono__Globalization__Unicode__MSCompatUnicodeTable____c __get___9() ;
+static Mono::Globalization::Unicode::Mono__Globalization__Unicode__MSCompatUnicodeTable____c __get___9() ;
 
-static ::System::Comparison_1<::Mono::Globalization::Unicode::Level2Map> __declspec(property(get=__get___9__17_0, put=__set___9__17_0))  __9__17_0;
+static System::Comparison_1<Mono::Globalization::Unicode::Level2Map> __declspec(property(get=__get___9__17_0, put=__set___9__17_0))  __9__17_0;
 
-static void __set___9__17_0(::System::Comparison_1<::Mono::Globalization::Unicode::Level2Map> value) ;
+static void __set___9__17_0(System::Comparison_1<Mono::Globalization::Unicode::Level2Map> value) ;
 
-static ::System::Comparison_1<::Mono::Globalization::Unicode::Level2Map> __get___9__17_0() ;
+static System::Comparison_1<Mono::Globalization::Unicode::Level2Map> __get___9__17_0() ;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____Mono__Globalization__Unicode__MSCompatUnicodeTable____c() ;
+explicit Mono__Globalization__Unicode__MSCompatUnicodeTable____c() ;
 
 /// @brief Method .ctor addr 0x22a9f14 size 0x8 virtual false final false
  void _ctor() ;
 
 /// @brief Method <BuildTailoringTables>b__17_0 addr 0x22a9f1c size 0x24 virtual false final false
- int32_t _BuildTailoringTables_b__17_0(::Mono::Globalization::Unicode::Level2Map a, ::Mono::Globalization::Unicode::Level2Map b) ;
+ int32_t _BuildTailoringTables_b__17_0(Mono::Globalization::Unicode::Level2Map a, Mono::Globalization::Unicode::Level2Map b) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -111,7 +110,7 @@ namespace Mono::Globalization::Unicode {
 class CORDL_TYPE MSCompatUnicodeTable : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using __c = ::Mono::Globalization::Unicode::____Mono__Globalization__Unicode__MSCompatUnicodeTable____c;
+using __c = Mono::Globalization::Unicode::Mono__Globalization__Unicode__MSCompatUnicodeTable____c;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -242,11 +241,11 @@ static void __set_tailoringArr(::ArrayW<char16_t> value) ;
 
 static ::ArrayW<char16_t> __get_tailoringArr() ;
 
-static ::ArrayW<::Mono::Globalization::Unicode::TailoringInfo> __declspec(property(get=__get_tailoringInfos, put=__set_tailoringInfos))  tailoringInfos;
+static ::ArrayW<Mono::Globalization::Unicode::TailoringInfo> __declspec(property(get=__get_tailoringInfos, put=__set_tailoringInfos))  tailoringInfos;
 
-static void __set_tailoringInfos(::ArrayW<::Mono::Globalization::Unicode::TailoringInfo> value) ;
+static void __set_tailoringInfos(::ArrayW<Mono::Globalization::Unicode::TailoringInfo> value) ;
 
-static ::ArrayW<::Mono::Globalization::Unicode::TailoringInfo> __get_tailoringInfos() ;
+static ::ArrayW<Mono::Globalization::Unicode::TailoringInfo> __get_tailoringInfos() ;
 
 static ::bs_hook::Il2CppWrapperType __declspec(property(get=__get_forLock, put=__set_forLock))  forLock;
 
@@ -269,13 +268,13 @@ static bool __declspec(property(get=get_IsReady))  IsReady;
 // Methods
 
 /// @brief Method GetTailoringInfo addr 0x22a80cc size 0x104 virtual false final false
-static ::Mono::Globalization::Unicode::TailoringInfo GetTailoringInfo(int32_t lcid) ;
+static Mono::Globalization::Unicode::TailoringInfo GetTailoringInfo(int32_t lcid) ;
 
 /// @brief Method BuildTailoringTables addr 0x22a81d0 size 0x750 virtual false final false
-static void BuildTailoringTables(::System::Globalization::CultureInfo culture, ::Mono::Globalization::Unicode::TailoringInfo t, ByRef<::ArrayW<::Mono::Globalization::Unicode::Contraction>> contractions, ByRef<::ArrayW<::Mono::Globalization::Unicode::Level2Map>> diacriticals) ;
+static void BuildTailoringTables(System::Globalization::CultureInfo culture, Mono::Globalization::Unicode::TailoringInfo t, ByRef<::ArrayW<Mono::Globalization::Unicode::Contraction>> contractions, ByRef<::ArrayW<Mono::Globalization::Unicode::Level2Map>> diacriticals) ;
 
 /// @brief Method SetCJKReferences addr 0x22a8920 size 0x238 virtual false final false
-static void SetCJKReferences(::StringW name, ByRef<::Mono::Globalization::Unicode::CodePointIndexer> cjkIndexer, ByRef<void*> catTable, ByRef<void*> lv1Table, ByRef<::Mono::Globalization::Unicode::CodePointIndexer> lv2Indexer, ByRef<void*> lv2Table) ;
+static void SetCJKReferences(::StringW name, ByRef<Mono::Globalization::Unicode::CodePointIndexer> cjkIndexer, ByRef<void*> catTable, ByRef<void*> lv1Table, ByRef<Mono::Globalization::Unicode::CodePointIndexer> lv2Indexer, ByRef<void*> lv2Table) ;
 
 /// @brief Method Category addr 0x22a8b58 size 0xa4 virtual false final false
 static uint8_t Category(int32_t cp) ;
@@ -323,17 +322,16 @@ static ::cordl_internals::intptr_t GetResource(::StringW name) ;
 static uint32_t UInt32FromBytePtr(void* raw, uint32_t idx) ;
 
 /// @brief Method FillCJK addr 0x22a9884 size 0x164 virtual false final false
-static void FillCJK(::StringW culture, ByRef<::Mono::Globalization::Unicode::CodePointIndexer> cjkIndexer, ByRef<void*> catTable, ByRef<void*> lv1Table, ByRef<::Mono::Globalization::Unicode::CodePointIndexer> lv2Indexer, ByRef<void*> lv2Table) ;
+static void FillCJK(::StringW culture, ByRef<Mono::Globalization::Unicode::CodePointIndexer> cjkIndexer, ByRef<void*> catTable, ByRef<void*> lv1Table, ByRef<Mono::Globalization::Unicode::CodePointIndexer> lv2Indexer, ByRef<void*> lv2Table) ;
 
 /// @brief Method FillCJKCore addr 0x22a99e8 size 0x4c8 virtual false final false
-static void FillCJKCore(::StringW culture, ByRef<::Mono::Globalization::Unicode::CodePointIndexer> cjkIndexer, ByRef<void*> catTable, ByRef<void*> lv1Table, ByRef<::Mono::Globalization::Unicode::CodePointIndexer> cjkLv2Indexer, ByRef<void*> lv2Table) ;
+static void FillCJKCore(::StringW culture, ByRef<Mono::Globalization::Unicode::CodePointIndexer> cjkIndexer, ByRef<void*> catTable, ByRef<void*> lv1Table, ByRef<Mono::Globalization::Unicode::CodePointIndexer> cjkLv2Indexer, ByRef<void*> lv2Table) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Globalization::Unicode
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Globalization::Unicode::MSCompatUnicodeTable);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Globalization::Unicode::MSCompatUnicodeTable, "Mono.Globalization.Unicode", "MSCompatUnicodeTable");
-NEED_NO_BOX(::Mono::Globalization::Unicode::____Mono__Globalization__Unicode__MSCompatUnicodeTable____c);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Globalization::Unicode::____Mono__Globalization__Unicode__MSCompatUnicodeTable____c, "Mono.Globalization.Unicode", "MSCompatUnicodeTable/<>c");
+NEED_NO_BOX(Mono::Globalization::Unicode::MSCompatUnicodeTable);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::MSCompatUnicodeTable, "Mono.Globalization.Unicode", "MSCompatUnicodeTable");
+NEED_NO_BOX(Mono::Globalization::Unicode::Mono__Globalization__Unicode__MSCompatUnicodeTable____c);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::Mono__Globalization__Unicode__MSCompatUnicodeTable____c, "Mono.Globalization.Unicode", "MSCompatUnicodeTable/<>c");

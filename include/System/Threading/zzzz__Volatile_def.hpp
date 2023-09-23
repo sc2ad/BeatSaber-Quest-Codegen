@@ -4,19 +4,18 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Threading {
 class Volatile;
 }
 namespace System::Threading {
-struct ____System__Threading__Volatile__VolatileBoolean;
+struct System__Threading__Volatile__VolatileBoolean;
 }
 namespace System::Threading {
-struct ____System__Threading__Volatile__VolatileInt32;
+struct System__Threading__Volatile__VolatileInt32;
 }
 namespace System::Threading {
-struct ____System__Threading__Volatile__VolatileObject;
+struct System__Threading__Volatile__VolatileObject;
 }
 // Type: ::VolatileBoolean
 namespace System::Threading {
@@ -24,20 +23,20 @@ namespace System::Threading {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2751))
 // CS Name: System.Threading.Volatile::VolatileBoolean
-struct CORDL_TYPE ____System__Threading__Volatile__VolatileBoolean : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE System__Threading__Volatile__VolatileBoolean : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "Value", ty: "bool", modifiers: "", def_value: None }]
-constexpr ____System__Threading__Volatile__VolatileBoolean(bool Value) noexcept;
+constexpr System__Threading__Volatile__VolatileBoolean(bool Value) noexcept;
 
 
-                    constexpr ____System__Threading__Volatile__VolatileBoolean(____System__Threading__Volatile__VolatileBoolean const&) = default;
-                    constexpr ____System__Threading__Volatile__VolatileBoolean(____System__Threading__Volatile__VolatileBoolean&&) = default;
-                    constexpr ____System__Threading__Volatile__VolatileBoolean& operator=(____System__Threading__Volatile__VolatileBoolean const& o) {
+                    constexpr System__Threading__Volatile__VolatileBoolean(System__Threading__Volatile__VolatileBoolean const&) = default;
+                    constexpr System__Threading__Volatile__VolatileBoolean(System__Threading__Volatile__VolatileBoolean&&) = default;
+                    constexpr System__Threading__Volatile__VolatileBoolean& operator=(System__Threading__Volatile__VolatileBoolean const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Threading__Volatile__VolatileBoolean& operator=(____System__Threading__Volatile__VolatileBoolean&& o) noexcept {
+                    constexpr System__Threading__Volatile__VolatileBoolean& operator=(System__Threading__Volatile__VolatileBoolean&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -50,7 +49,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x1};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Threading__Volatile__VolatileBoolean(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Threading__Volatile__VolatileBoolean(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -77,20 +76,20 @@ namespace System::Threading {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2752))
 // CS Name: System.Threading.Volatile::VolatileInt32
-struct CORDL_TYPE ____System__Threading__Volatile__VolatileInt32 : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE System__Threading__Volatile__VolatileInt32 : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "Value", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____System__Threading__Volatile__VolatileInt32(int32_t Value) noexcept;
+constexpr System__Threading__Volatile__VolatileInt32(int32_t Value) noexcept;
 
 
-                    constexpr ____System__Threading__Volatile__VolatileInt32(____System__Threading__Volatile__VolatileInt32 const&) = default;
-                    constexpr ____System__Threading__Volatile__VolatileInt32(____System__Threading__Volatile__VolatileInt32&&) = default;
-                    constexpr ____System__Threading__Volatile__VolatileInt32& operator=(____System__Threading__Volatile__VolatileInt32 const& o) {
+                    constexpr System__Threading__Volatile__VolatileInt32(System__Threading__Volatile__VolatileInt32 const&) = default;
+                    constexpr System__Threading__Volatile__VolatileInt32(System__Threading__Volatile__VolatileInt32&&) = default;
+                    constexpr System__Threading__Volatile__VolatileInt32& operator=(System__Threading__Volatile__VolatileInt32 const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Threading__Volatile__VolatileInt32& operator=(____System__Threading__Volatile__VolatileInt32&& o) noexcept {
+                    constexpr System__Threading__Volatile__VolatileInt32& operator=(System__Threading__Volatile__VolatileInt32&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -103,7 +102,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Threading__Volatile__VolatileInt32(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Threading__Volatile__VolatileInt32(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -130,20 +129,20 @@ namespace System::Threading {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2753))
 // CS Name: System.Threading.Volatile::VolatileObject
-struct CORDL_TYPE ____System__Threading__Volatile__VolatileObject : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE System__Threading__Volatile__VolatileObject : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "Value", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-constexpr ____System__Threading__Volatile__VolatileObject(::bs_hook::Il2CppWrapperType Value) noexcept;
+constexpr System__Threading__Volatile__VolatileObject(::bs_hook::Il2CppWrapperType Value) noexcept;
 
 
-                    constexpr ____System__Threading__Volatile__VolatileObject(____System__Threading__Volatile__VolatileObject const&) = default;
-                    constexpr ____System__Threading__Volatile__VolatileObject(____System__Threading__Volatile__VolatileObject&&) = default;
-                    constexpr ____System__Threading__Volatile__VolatileObject& operator=(____System__Threading__Volatile__VolatileObject const& o) {
+                    constexpr System__Threading__Volatile__VolatileObject(System__Threading__Volatile__VolatileObject const&) = default;
+                    constexpr System__Threading__Volatile__VolatileObject(System__Threading__Volatile__VolatileObject&&) = default;
+                    constexpr System__Threading__Volatile__VolatileObject& operator=(System__Threading__Volatile__VolatileObject const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Threading__Volatile__VolatileObject& operator=(____System__Threading__Volatile__VolatileObject&& o) noexcept {
+                    constexpr System__Threading__Volatile__VolatileObject& operator=(System__Threading__Volatile__VolatileObject&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -156,7 +155,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x8};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Threading__Volatile__VolatileObject(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Threading__Volatile__VolatileObject(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -186,11 +185,11 @@ namespace System::Threading {
 class CORDL_TYPE Volatile : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using VolatileObject = ::System::Threading::____System__Threading__Volatile__VolatileObject;
+using VolatileObject = System::Threading::System__Threading__Volatile__VolatileObject;
 
-using VolatileInt32 = ::System::Threading::____System__Threading__Volatile__VolatileInt32;
+using VolatileInt32 = System::Threading::System__Threading__Volatile__VolatileInt32;
 
-using VolatileBoolean = ::System::Threading::____System__Threading__Volatile__VolatileBoolean;
+using VolatileBoolean = System::Threading::System__Threading__Volatile__VolatileBoolean;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -249,9 +248,8 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Threading
-} // end anonymous namespace
-NEED_NO_BOX(::System::Threading::Volatile);
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Volatile, "System.Threading", "Volatile");
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::____System__Threading__Volatile__VolatileBoolean, "System.Threading", "Volatile/VolatileBoolean");
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::____System__Threading__Volatile__VolatileInt32, "System.Threading", "Volatile/VolatileInt32");
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::____System__Threading__Volatile__VolatileObject, "System.Threading", "Volatile/VolatileObject");
+NEED_NO_BOX(System::Threading::Volatile);
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::Volatile, "System.Threading", "Volatile");
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::System__Threading__Volatile__VolatileBoolean, "System.Threading", "Volatile/VolatileBoolean");
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::System__Threading__Volatile__VolatileInt32, "System.Threading", "Volatile/VolatileInt32");
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::System__Threading__Volatile__VolatileObject, "System.Threading", "Volatile/VolatileObject");

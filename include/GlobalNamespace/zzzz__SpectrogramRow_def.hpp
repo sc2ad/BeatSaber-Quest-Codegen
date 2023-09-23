@@ -3,12 +3,11 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class MeshRenderer;
-}
 namespace UnityEngine {
 class MaterialPropertyBlock;
+}
+namespace UnityEngine {
+class MeshRenderer;
 }
 namespace GlobalNamespace {
 class BasicSpectrogramData;
@@ -23,7 +22,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5100))
 // CS Name: SpectrogramRow
-class CORDL_TYPE SpectrogramRow : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SpectrogramRow : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr SpectrogramRow(SpectrogramRow const& ) noexcept = default;
 constexpr SpectrogramRow(SpectrogramRow&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SpectrogramRow(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SpectrogramRow(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -59,11 +58,11 @@ constexpr explicit SpectrogramRow(void* ptr) noexcept : ::UnityEngine::MonoBehav
 
 // Fields
 
- ::ArrayW<::UnityEngine::MeshRenderer> __declspec(property(get=__get__meshRenderers, put=__set__meshRenderers))  _meshRenderers;
+ ::ArrayW<UnityEngine::MeshRenderer> __declspec(property(get=__get__meshRenderers, put=__set__meshRenderers))  _meshRenderers;
 
-constexpr void __set__meshRenderers(::ArrayW<::UnityEngine::MeshRenderer> value) ;
+constexpr void __set__meshRenderers(::ArrayW<UnityEngine::MeshRenderer> value) ;
 
-constexpr ::ArrayW<::UnityEngine::MeshRenderer> __get__meshRenderers() const;
+constexpr ::ArrayW<UnityEngine::MeshRenderer> __get__meshRenderers() const;
 
  int32_t __declspec(property(get=__get__dataIndex, put=__set__dataIndex))  _dataIndex;
 
@@ -71,11 +70,11 @@ constexpr void __set__dataIndex(int32_t value) ;
 
 constexpr int32_t __get__dataIndex() const;
 
- ::GlobalNamespace::BasicSpectrogramData __declspec(property(get=__get__spectrogramData, put=__set__spectrogramData))  _spectrogramData;
+ GlobalNamespace::BasicSpectrogramData __declspec(property(get=__get__spectrogramData, put=__set__spectrogramData))  _spectrogramData;
 
-constexpr void __set__spectrogramData(::GlobalNamespace::BasicSpectrogramData value) ;
+constexpr void __set__spectrogramData(GlobalNamespace::BasicSpectrogramData value) ;
 
-constexpr ::GlobalNamespace::BasicSpectrogramData __get__spectrogramData() const;
+constexpr GlobalNamespace::BasicSpectrogramData __get__spectrogramData() const;
 
 static int32_t __declspec(property(get=__get__spectrogramDataID, put=__set__spectrogramDataID))  _spectrogramDataID;
 
@@ -83,11 +82,11 @@ static void __set__spectrogramDataID(int32_t value) ;
 
 static int32_t __get__spectrogramDataID() ;
 
-static ::UnityEngine::MaterialPropertyBlock __declspec(property(get=__get__materialPropertyBlock, put=__set__materialPropertyBlock))  _materialPropertyBlock;
+static UnityEngine::MaterialPropertyBlock __declspec(property(get=__get__materialPropertyBlock, put=__set__materialPropertyBlock))  _materialPropertyBlock;
 
-static void __set__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock value) ;
+static void __set__materialPropertyBlock(UnityEngine::MaterialPropertyBlock value) ;
 
-static ::UnityEngine::MaterialPropertyBlock __get__materialPropertyBlock() ;
+static UnityEngine::MaterialPropertyBlock __get__materialPropertyBlock() ;
 
 
 // Methods
@@ -108,6 +107,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SpectrogramRow);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SpectrogramRow, "", "SpectrogramRow");
+NEED_NO_BOX(GlobalNamespace::SpectrogramRow);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpectrogramRow, "", "SpectrogramRow");

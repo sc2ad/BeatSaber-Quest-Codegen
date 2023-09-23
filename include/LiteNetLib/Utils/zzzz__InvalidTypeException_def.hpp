@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__ArgumentException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace LiteNetLib::Utils {
 class InvalidTypeException;
@@ -13,7 +12,7 @@ namespace LiteNetLib::Utils {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2344))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14488))
 // CS Name: LiteNetLib.Utils.InvalidTypeException
-class CORDL_TYPE InvalidTypeException : public ::System::ArgumentException {
+class CORDL_TYPE InvalidTypeException : public System::ArgumentException {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr InvalidTypeException(InvalidTypeException const& ) noexcept = default;
 constexpr InvalidTypeException(InvalidTypeException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit InvalidTypeException(void* ptr) noexcept : ::System::ArgumentException(ptr) {
+constexpr explicit InvalidTypeException(void* ptr) noexcept : System::ArgumentException(ptr) {
 }
 
 
@@ -59,6 +58,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib::Utils
-} // end anonymous namespace
-NEED_NO_BOX(::LiteNetLib::Utils::InvalidTypeException);
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::Utils::InvalidTypeException, "LiteNetLib.Utils", "InvalidTypeException");
+NEED_NO_BOX(LiteNetLib::Utils::InvalidTypeException);
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::InvalidTypeException, "LiteNetLib.Utils", "InvalidTypeException");

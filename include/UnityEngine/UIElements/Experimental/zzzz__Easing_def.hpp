@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements::Experimental {
 class Easing;
@@ -129,6 +128,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::Experimental
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::Experimental::Easing);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Experimental::Easing, "UnityEngine.UIElements.Experimental", "Easing");
+NEED_NO_BOX(UnityEngine::UIElements::Experimental::Easing);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::Experimental::Easing, "UnityEngine.UIElements.Experimental", "Easing");

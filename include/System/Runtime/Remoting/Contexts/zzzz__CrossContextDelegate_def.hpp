@@ -3,7 +3,6 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Runtime::Remoting::Contexts {
 class CrossContextDelegate;
@@ -14,7 +13,7 @@ namespace System::Runtime::Remoting::Contexts {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3100))
 // CS Name: System.Runtime.Remoting.Contexts.CrossContextDelegate
-class CORDL_TYPE CrossContextDelegate : public ::System::MulticastDelegate {
+class CORDL_TYPE CrossContextDelegate : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr CrossContextDelegate(CrossContextDelegate const& ) noexcept = default;
 constexpr CrossContextDelegate(CrossContextDelegate&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CrossContextDelegate(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit CrossContextDelegate(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -63,6 +62,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Contexts
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Contexts::CrossContextDelegate);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Contexts::CrossContextDelegate, "System.Runtime.Remoting.Contexts", "CrossContextDelegate");
+NEED_NO_BOX(System::Runtime::Remoting::Contexts::CrossContextDelegate);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::CrossContextDelegate, "System.Runtime.Remoting.Contexts", "CrossContextDelegate");

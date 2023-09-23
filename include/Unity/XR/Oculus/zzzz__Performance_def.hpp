@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Unity::XR::Oculus {
 class Performance;
@@ -80,6 +79,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Unity::XR::Oculus
-} // end anonymous namespace
-NEED_NO_BOX(::Unity::XR::Oculus::Performance);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::XR::Oculus::Performance, "Unity.XR.Oculus", "Performance");
+NEED_NO_BOX(Unity::XR::Oculus::Performance);
+DEFINE_IL2CPP_ARG_TYPE(Unity::XR::Oculus::Performance, "Unity.XR.Oculus", "Performance");

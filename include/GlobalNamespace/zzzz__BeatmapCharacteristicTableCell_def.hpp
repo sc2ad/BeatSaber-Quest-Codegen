@@ -1,18 +1,17 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__TableCell_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
 }
 namespace UnityEngine::UI {
 class Image;
 }
+namespace HMUI {
+struct HMUI__SelectableCell__TransitionType;
+}
 namespace UnityEngine {
 struct Color;
-}
-namespace HMUI {
-struct ____HMUI__SelectableCell__TransitionType;
 }
 namespace TMPro {
 class TextMeshProUGUI;
@@ -27,7 +26,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13715))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5509))
 // CS Name: BeatmapCharacteristicTableCell
-class CORDL_TYPE BeatmapCharacteristicTableCell : public ::HMUI::TableCell {
+class CORDL_TYPE BeatmapCharacteristicTableCell : public HMUI::TableCell {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -42,7 +41,7 @@ constexpr BeatmapCharacteristicTableCell(BeatmapCharacteristicTableCell const& )
 constexpr BeatmapCharacteristicTableCell(BeatmapCharacteristicTableCell&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BeatmapCharacteristicTableCell(void* ptr) noexcept : ::HMUI::TableCell(ptr) {
+constexpr explicit BeatmapCharacteristicTableCell(void* ptr) noexcept : HMUI::TableCell(ptr) {
 }
 
 
@@ -63,53 +62,53 @@ constexpr explicit BeatmapCharacteristicTableCell(void* ptr) noexcept : ::HMUI::
 
 // Fields
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__nameText, put=__set__nameText))  _nameText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__nameText, put=__set__nameText))  _nameText;
 
-constexpr void __set__nameText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__nameText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__nameText() const;
+constexpr TMPro::TextMeshProUGUI __get__nameText() const;
 
- ::UnityEngine::UI::Image __declspec(property(get=__get__iconImage, put=__set__iconImage))  _iconImage;
+ UnityEngine::UI::Image __declspec(property(get=__get__iconImage, put=__set__iconImage))  _iconImage;
 
-constexpr void __set__iconImage(::UnityEngine::UI::Image value) ;
+constexpr void __set__iconImage(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get__iconImage() const;
+constexpr UnityEngine::UI::Image __get__iconImage() const;
 
- ::UnityEngine::UI::Image __declspec(property(get=__get__bgImage, put=__set__bgImage))  _bgImage;
+ UnityEngine::UI::Image __declspec(property(get=__get__bgImage, put=__set__bgImage))  _bgImage;
 
-constexpr void __set__bgImage(::UnityEngine::UI::Image value) ;
+constexpr void __set__bgImage(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get__bgImage() const;
+constexpr UnityEngine::UI::Image __get__bgImage() const;
 
- ::UnityEngine::UI::Image __declspec(property(get=__get__selectionImage, put=__set__selectionImage))  _selectionImage;
+ UnityEngine::UI::Image __declspec(property(get=__get__selectionImage, put=__set__selectionImage))  _selectionImage;
 
-constexpr void __set__selectionImage(::UnityEngine::UI::Image value) ;
+constexpr void __set__selectionImage(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get__selectionImage() const;
+constexpr UnityEngine::UI::Image __get__selectionImage() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__bgNormalColor, put=__set__bgNormalColor))  _bgNormalColor;
+ UnityEngine::Color __declspec(property(get=__get__bgNormalColor, put=__set__bgNormalColor))  _bgNormalColor;
 
-constexpr void __set__bgNormalColor(::UnityEngine::Color value) ;
+constexpr void __set__bgNormalColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__bgNormalColor() const;
+constexpr UnityEngine::Color __get__bgNormalColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__bgHighlightColor, put=__set__bgHighlightColor))  _bgHighlightColor;
+ UnityEngine::Color __declspec(property(get=__get__bgHighlightColor, put=__set__bgHighlightColor))  _bgHighlightColor;
 
-constexpr void __set__bgHighlightColor(::UnityEngine::Color value) ;
+constexpr void __set__bgHighlightColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__bgHighlightColor() const;
+constexpr UnityEngine::Color __get__bgHighlightColor() const;
 
 
 // Methods
 
 /// @brief Method SetData addr 0x2122708 size 0x60 virtual false final false
- void SetData(::GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic) ;
+ void SetData(GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic) ;
 
 /// @brief Method SelectionDidChange addr 0x2122768 size 0x4 virtual true final false
- void SelectionDidChange(::HMUI::____HMUI__SelectableCell__TransitionType transitionType) ;
+ void SelectionDidChange(HMUI::HMUI__SelectableCell__TransitionType transitionType) ;
 
 /// @brief Method HighlightDidChange addr 0x21227e8 size 0x4 virtual true final false
- void HighlightDidChange(::HMUI::____HMUI__SelectableCell__TransitionType transitionType) ;
+ void HighlightDidChange(HMUI::HMUI__SelectableCell__TransitionType transitionType) ;
 
 /// @brief Method RefreshVisuals addr 0x212276c size 0x7c virtual false final false
  void RefreshVisuals() ;
@@ -124,6 +123,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BeatmapCharacteristicTableCell);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapCharacteristicTableCell, "", "BeatmapCharacteristicTableCell");
+NEED_NO_BOX(GlobalNamespace::BeatmapCharacteristicTableCell);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicTableCell, "", "BeatmapCharacteristicTableCell");

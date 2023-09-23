@@ -1,16 +1,15 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_AssetEventData_def.hpp"
-namespace {
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
 namespace UnityEngine {
 class GameObject;
 }
 namespace HoudiniEngineUnity {
 class HEU_HoudiniAsset;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -22,7 +21,7 @@ namespace HoudiniEngineUnity {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9536))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9539))
 // CS Name: HoudiniEngineUnity.HEU_BakedEventData
-class CORDL_TYPE HEU_BakedEventData : public ::HoudiniEngineUnity::HEU_AssetEventData {
+class CORDL_TYPE HEU_BakedEventData : public HoudiniEngineUnity::HEU_AssetEventData {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr HEU_BakedEventData(HEU_BakedEventData const& ) noexcept = default;
 constexpr HEU_BakedEventData(HEU_BakedEventData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HEU_BakedEventData(void* ptr) noexcept : ::HoudiniEngineUnity::HEU_AssetEventData(ptr) {
+constexpr explicit HEU_BakedEventData(void* ptr) noexcept : HoudiniEngineUnity::HEU_AssetEventData(ptr) {
 }
 
 
@@ -67,16 +66,15 @@ constexpr bool __get_IsNewBake() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "asset", ty: "::HoudiniEngineUnity::HEU_HoudiniAsset", modifiers: "", def_value: None }, CppParam { name: "successful", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "outputObjects", ty: "::System::Collections::Generic::List_1<::UnityEngine::GameObject>", modifiers: "", def_value: None }, CppParam { name: "isNewBake", ty: "bool", modifiers: "", def_value: None }]
-explicit HEU_BakedEventData(::HoudiniEngineUnity::HEU_HoudiniAsset asset, bool successful, ::System::Collections::Generic::List_1<::UnityEngine::GameObject> outputObjects, bool isNewBake) ;
+// Ctor Parameters [CppParam { name: "asset", ty: "HoudiniEngineUnity::HEU_HoudiniAsset", modifiers: "", def_value: None }, CppParam { name: "successful", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "outputObjects", ty: "System::Collections::Generic::List_1<UnityEngine::GameObject>", modifiers: "", def_value: None }, CppParam { name: "isNewBake", ty: "bool", modifiers: "", def_value: None }]
+explicit HEU_BakedEventData(HoudiniEngineUnity::HEU_HoudiniAsset asset, bool successful, System::Collections::Generic::List_1<UnityEngine::GameObject> outputObjects, bool isNewBake) ;
 
 /// @brief Method .ctor addr 0x1fdaa98 size 0x6c virtual false final false
- void _ctor(::HoudiniEngineUnity::HEU_HoudiniAsset asset, bool successful, ::System::Collections::Generic::List_1<::UnityEngine::GameObject> outputObjects, bool isNewBake) ;
+ void _ctor(HoudiniEngineUnity::HEU_HoudiniAsset asset, bool successful, System::Collections::Generic::List_1<UnityEngine::GameObject> outputObjects, bool isNewBake) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_BakedEventData);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_BakedEventData, "HoudiniEngineUnity", "HEU_BakedEventData");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_BakedEventData);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_BakedEventData, "HoudiniEngineUnity", "HEU_BakedEventData");

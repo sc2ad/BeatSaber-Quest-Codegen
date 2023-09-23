@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace GlobalNamespace {
 class ISaveData;
 }
@@ -20,8 +19,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE FileSaveData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::ISaveData
-constexpr operator  ::GlobalNamespace::ISaveData() const noexcept;
+/// @brief Convert operator to GlobalNamespace::ISaveData
+constexpr operator  GlobalNamespace::ISaveData() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -84,6 +83,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::FileSaveData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FileSaveData, "", "FileSaveData");
+NEED_NO_BOX(GlobalNamespace::FileSaveData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileSaveData, "", "FileSaveData");

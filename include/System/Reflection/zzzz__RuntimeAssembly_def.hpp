@@ -6,33 +6,32 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Threading {
-struct StackCrawlMark;
-}
-namespace System::Reflection {
-class ____System__Reflection__Assembly__ResolveEventHolder;
-}
 namespace System::Reflection {
 class AssemblyName;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 namespace System::Security::Policy {
 class Evidence;
 }
-namespace System {
-class Type;
-}
-namespace System::Reflection {
-class Module;
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System::Reflection {
 class Assembly;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+namespace System::Reflection {
+class System__Reflection__Assembly__ResolveEventHolder;
+}
+namespace System {
+class Type;
+}
+namespace System::Threading {
+struct StackCrawlMark;
+}
+namespace System::Reflection {
+class Module;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -44,7 +43,7 @@ namespace System::Reflection {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3503))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3509))
 // CS Name: System.Reflection.RuntimeAssembly
-class CORDL_TYPE RuntimeAssembly : public ::System::Reflection::Assembly {
+class CORDL_TYPE RuntimeAssembly : public System::Reflection::Assembly {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -59,7 +58,7 @@ constexpr RuntimeAssembly(RuntimeAssembly const& ) noexcept = default;
 constexpr RuntimeAssembly(RuntimeAssembly&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RuntimeAssembly(void* ptr) noexcept : ::System::Reflection::Assembly(ptr) {
+constexpr explicit RuntimeAssembly(void* ptr) noexcept : System::Reflection::Assembly(ptr) {
 }
 
 
@@ -92,11 +91,11 @@ constexpr void __set__evidence(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get__evidence() const;
 
- ::System::Reflection::____System__Reflection__Assembly__ResolveEventHolder __declspec(property(get=__get_resolve_event_holder, put=__set_resolve_event_holder))  resolve_event_holder;
+ System::Reflection::System__Reflection__Assembly__ResolveEventHolder __declspec(property(get=__get_resolve_event_holder, put=__set_resolve_event_holder))  resolve_event_holder;
 
-constexpr void __set_resolve_event_holder(::System::Reflection::____System__Reflection__Assembly__ResolveEventHolder value) ;
+constexpr void __set_resolve_event_holder(System::Reflection::System__Reflection__Assembly__ResolveEventHolder value) ;
 
-constexpr ::System::Reflection::____System__Reflection__Assembly__ResolveEventHolder __get_resolve_event_holder() const;
+constexpr System::Reflection::System__Reflection__Assembly__ResolveEventHolder __get_resolve_event_holder() const;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=__get__minimum, put=__set__minimum))  _minimum;
 
@@ -159,40 +158,40 @@ explicit RuntimeAssembly() ;
  void _ctor() ;
 
 /// @brief Method GetObjectData addr 0x2384bf0 size 0x8c virtual true final false
- void GetObjectData(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void GetObjectData(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method LoadWithPartialNameInternal addr 0x2384c7c size 0x88 virtual false final false
-static ::System::Reflection::RuntimeAssembly LoadWithPartialNameInternal(::StringW partialName, ::System::Security::Policy::Evidence securityEvidence, ByRef<::System::Threading::StackCrawlMark> stackMark) ;
+static System::Reflection::RuntimeAssembly LoadWithPartialNameInternal(::StringW partialName, System::Security::Policy::Evidence securityEvidence, ByRef<System::Threading::StackCrawlMark> stackMark) ;
 
 /// @brief Method LoadWithPartialNameInternal addr 0x2384d04 size 0x28 virtual false final false
-static ::System::Reflection::RuntimeAssembly LoadWithPartialNameInternal(::System::Reflection::AssemblyName an, ::System::Security::Policy::Evidence securityEvidence, ByRef<::System::Threading::StackCrawlMark> stackMark) ;
+static System::Reflection::RuntimeAssembly LoadWithPartialNameInternal(System::Reflection::AssemblyName an, System::Security::Policy::Evidence securityEvidence, ByRef<System::Threading::StackCrawlMark> stackMark) ;
 
 /// @brief Method GetName addr 0x2384d2c size 0x8 virtual true final false
- ::System::Reflection::AssemblyName GetName(bool copiedName) ;
+ System::Reflection::AssemblyName GetName(bool copiedName) ;
 
 /// @brief Method GetType addr 0x2384d34 size 0xc4 virtual true final false
- ::System::Type GetType(::StringW name, bool throwOnError, bool ignoreCase) ;
+ System::Type GetType(::StringW name, bool throwOnError, bool ignoreCase) ;
 
 /// @brief Method GetModule addr 0x2384df8 size 0x130 virtual true final false
- ::System::Reflection::Module GetModule(::StringW name) ;
+ System::Reflection::Module GetModule(::StringW name) ;
 
 /// @brief Method GetModules addr 0x2384f28 size 0x194 virtual true final false
- ::ArrayW<::System::Reflection::Module> GetModules(bool getResourceModules) ;
+ ::ArrayW<System::Reflection::Module> GetModules(bool getResourceModules) ;
 
 /// @brief Method GetAotId addr 0x23850bc size 0x58 virtual false final false
 static ::ArrayW<uint8_t> GetAotId() ;
 
 /// @brief Method get_code_base addr 0x2385118 size 0x8 virtual false final false
-static ::StringW get_code_base(::System::Reflection::Assembly a, bool escaped) ;
+static ::StringW get_code_base(System::Reflection::Assembly a, bool escaped) ;
 
 /// @brief Method get_fullname addr 0x2385120 size 0x4 virtual false final false
-static ::StringW get_fullname(::System::Reflection::Assembly a) ;
+static ::StringW get_fullname(System::Reflection::Assembly a) ;
 
 /// @brief Method GetAotIdInternal addr 0x2385114 size 0x4 virtual false final false
 static bool GetAotIdInternal(::ArrayW<uint8_t> aotid) ;
 
 /// @brief Method GetCodeBase addr 0x2385124 size 0x8 virtual false final false
-static ::StringW GetCodeBase(::System::Reflection::Assembly a, bool escaped) ;
+static ::StringW GetCodeBase(System::Reflection::Assembly a, bool escaped) ;
 
 /// @brief Method get_CodeBase addr 0x238512c size 0x8 virtual true final false
  ::StringW get_CodeBase() ;
@@ -204,19 +203,19 @@ static ::StringW GetCodeBase(::System::Reflection::Assembly a, bool escaped) ;
  ::cordl_internals::intptr_t get_MonoAssembly() ;
 
 /// @brief Method GetManifestResourceInternal addr 0x2385140 size 0x4 virtual false final false
- ::cordl_internals::intptr_t GetManifestResourceInternal(::StringW name, ByRef<int32_t> size, ByRef<::System::Reflection::Module> module) ;
+ ::cordl_internals::intptr_t GetManifestResourceInternal(::StringW name, ByRef<int32_t> size, ByRef<System::Reflection::Module> module) ;
 
 /// @brief Method IsDefined addr 0x2385144 size 0x70 virtual true final false
- bool IsDefined(::System::Type attributeType, bool inherit) ;
+ bool IsDefined(System::Type attributeType, bool inherit) ;
 
 /// @brief Method GetCustomAttributes addr 0x23851b4 size 0x68 virtual true final false
  ::ArrayW<::bs_hook::Il2CppWrapperType> GetCustomAttributes(bool inherit) ;
 
 /// @brief Method GetCustomAttributes addr 0x238521c size 0x70 virtual true final false
- ::ArrayW<::bs_hook::Il2CppWrapperType> GetCustomAttributes(::System::Type attributeType, bool inherit) ;
+ ::ArrayW<::bs_hook::Il2CppWrapperType> GetCustomAttributes(System::Type attributeType, bool inherit) ;
 
 /// @brief Method GetModulesInternal addr 0x238528c size 0x4 virtual true final false
- ::ArrayW<::System::Reflection::Module> GetModulesInternal() ;
+ ::ArrayW<System::Reflection::Module> GetModulesInternal() ;
 
 /// @brief Method GetHashCode addr 0x2385290 size 0x8 virtual true final false
  int32_t GetHashCode() ;
@@ -231,6 +230,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Reflection
-} // end anonymous namespace
-NEED_NO_BOX(::System::Reflection::RuntimeAssembly);
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::RuntimeAssembly, "System.Reflection", "RuntimeAssembly");
+NEED_NO_BOX(System::Reflection::RuntimeAssembly);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::RuntimeAssembly, "System.Reflection", "RuntimeAssembly");

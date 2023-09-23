@@ -3,30 +3,29 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-class IDisposable;
-}
-namespace System::IO {
-class Stream;
+namespace System::Xml {
+struct XmlNodeType;
 }
 namespace System::Xml {
-class IDtdInfo;
+class XmlReaderSettings;
 }
 namespace System::Xml::Schema {
 class IXmlSchemaInfo;
 }
 namespace System::Xml {
-class XmlReaderSettings;
+class IDtdInfo;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Xml {
-struct XmlNodeType;
+class XmlNameTable;
 }
 namespace System::Xml {
 struct ReadState;
 }
-namespace System::Xml {
-class XmlNameTable;
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -41,8 +40,8 @@ namespace System::Xml {
 class CORDL_TYPE XmlReader : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -98,9 +97,9 @@ static uint32_t __get_HasValueBitmap() ;
 
 // Properties
 
- ::System::Xml::XmlReaderSettings __declspec(property(get=get_Settings))  Settings;
+ System::Xml::XmlReaderSettings __declspec(property(get=get_Settings))  Settings;
 
- ::System::Xml::XmlNodeType __declspec(property(get=get_NodeType))  NodeType;
+ System::Xml::XmlNodeType __declspec(property(get=get_NodeType))  NodeType;
 
  ::StringW __declspec(property(get=get_Name))  Name;
 
@@ -118,24 +117,24 @@ static uint32_t __get_HasValueBitmap() ;
 
  bool __declspec(property(get=get_IsDefault))  IsDefault;
 
- ::System::Xml::Schema::IXmlSchemaInfo __declspec(property(get=get_SchemaInfo))  SchemaInfo;
+ System::Xml::Schema::IXmlSchemaInfo __declspec(property(get=get_SchemaInfo))  SchemaInfo;
 
- ::System::Xml::ReadState __declspec(property(get=get_ReadState))  ReadState;
+ System::Xml::ReadState __declspec(property(get=get_ReadState))  ReadState;
 
- ::System::Xml::XmlNameTable __declspec(property(get=get_NameTable))  NameTable;
+ System::Xml::XmlNameTable __declspec(property(get=get_NameTable))  NameTable;
 
  bool __declspec(property(get=get_CanResolveEntity))  CanResolveEntity;
 
- ::System::Xml::IDtdInfo __declspec(property(get=get_DtdInfo))  DtdInfo;
+ System::Xml::IDtdInfo __declspec(property(get=get_DtdInfo))  DtdInfo;
 
 
 // Methods
 
 /// @brief Method get_Settings addr 0x26c74b0 size 0x8 virtual true final false
- ::System::Xml::XmlReaderSettings get_Settings() ;
+ System::Xml::XmlReaderSettings get_Settings() ;
 
 /// @brief Method get_NodeType addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Xml::XmlNodeType get_NodeType() ;
+ System::Xml::XmlNodeType get_NodeType() ;
 
 /// @brief Method get_Name addr 0x26c74b8 size 0xe4 virtual true final false
  ::StringW get_Name() ;
@@ -162,7 +161,7 @@ static uint32_t __get_HasValueBitmap() ;
  bool get_IsDefault() ;
 
 /// @brief Method get_SchemaInfo addr 0x26c75a4 size 0x48 virtual true final false
- ::System::Xml::Schema::IXmlSchemaInfo get_SchemaInfo() ;
+ System::Xml::Schema::IXmlSchemaInfo get_SchemaInfo() ;
 
 /// @brief Method MoveToAttribute addr 0x0 size 0xffffffffffffffff virtual true final false
  bool MoveToAttribute(::StringW name) ;
@@ -186,10 +185,10 @@ static uint32_t __get_HasValueBitmap() ;
  void Close() ;
 
 /// @brief Method get_ReadState addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Xml::ReadState get_ReadState() ;
+ System::Xml::ReadState get_ReadState() ;
 
 /// @brief Method get_NameTable addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Xml::XmlNameTable get_NameTable() ;
+ System::Xml::XmlNameTable get_NameTable() ;
 
 /// @brief Method LookupNamespace addr 0x0 size 0xffffffffffffffff virtual true final false
  ::StringW LookupNamespace(::StringW prefix) ;
@@ -207,10 +206,10 @@ static uint32_t __get_HasValueBitmap() ;
  void Dispose(bool disposing) ;
 
 /// @brief Method get_DtdInfo addr 0x26c7650 size 0x8 virtual true final false
- ::System::Xml::IDtdInfo get_DtdInfo() ;
+ System::Xml::IDtdInfo get_DtdInfo() ;
 
 /// @brief Method CalcBufferSize addr 0x26c7658 size 0x84 virtual false final false
-static int32_t CalcBufferSize(::System::IO::Stream input) ;
+static int32_t CalcBufferSize(System::IO::Stream input) ;
 
 // Ctor Parameters []
 explicit XmlReader() ;
@@ -222,6 +221,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::XmlReader);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlReader, "System.Xml", "XmlReader");
+NEED_NO_BOX(System::Xml::XmlReader);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlReader, "System.Xml", "XmlReader");

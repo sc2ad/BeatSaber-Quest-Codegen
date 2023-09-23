@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Xml {
 class Ucs4Decoder;
@@ -15,7 +14,7 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2823))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11504))
 // CS Name: System.Xml.Ucs4Decoder
-class CORDL_TYPE Ucs4Decoder : public ::System::Text::Decoder {
+class CORDL_TYPE Ucs4Decoder : public System::Text::Decoder {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr Ucs4Decoder(Ucs4Decoder const& ) noexcept = default;
 constexpr Ucs4Decoder(Ucs4Decoder&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Ucs4Decoder(void* ptr) noexcept : ::System::Text::Decoder(ptr) {
+constexpr explicit Ucs4Decoder(void* ptr) noexcept : System::Text::Decoder(ptr) {
 }
 
 
@@ -91,6 +90,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Ucs4Decoder);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Ucs4Decoder, "System.Xml", "Ucs4Decoder");
+NEED_NO_BOX(System::Xml::Ucs4Decoder);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Ucs4Decoder, "System.Xml", "Ucs4Decoder");

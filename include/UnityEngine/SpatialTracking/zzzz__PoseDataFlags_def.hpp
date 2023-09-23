@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::SpatialTracking {
 struct PoseDataFlags;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field NoData offset 0
-static ::UnityEngine::SpatialTracking::PoseDataFlags const NoData;
+static UnityEngine::SpatialTracking::PoseDataFlags const NoData;
 
 /// @brief Field Position offset 0
-static ::UnityEngine::SpatialTracking::PoseDataFlags const Position;
+static UnityEngine::SpatialTracking::PoseDataFlags const Position;
 
 /// @brief Field Rotation offset 0
-static ::UnityEngine::SpatialTracking::PoseDataFlags const Rotation;
+static UnityEngine::SpatialTracking::PoseDataFlags const Rotation;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::SpatialTracking
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SpatialTracking::PoseDataFlags, "UnityEngine.SpatialTracking", "PoseDataFlags");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SpatialTracking::PoseDataFlags, "UnityEngine.SpatialTracking", "PoseDataFlags");

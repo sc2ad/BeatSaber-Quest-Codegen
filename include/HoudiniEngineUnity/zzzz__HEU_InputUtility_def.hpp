@@ -3,12 +3,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class GameObject;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace HoudiniEngineUnity {
-class HEU_InputInterface;
+class HEU_HoudiniAsset;
 }
 namespace System {
 class Type;
@@ -17,10 +17,10 @@ namespace HoudiniEngineUnity {
 class HEU_InputObjectInfo;
 }
 namespace HoudiniEngineUnity {
-class HEU_InputNode;
+class HEU_InputInterface;
 }
 namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
+class HEU_InputNode;
 }
 namespace HoudiniEngineUnity {
 class HEU_InputHDAInfo;
@@ -28,9 +28,8 @@ class HEU_InputHDAInfo;
 namespace HoudiniEngineUnity {
 class HEU_SessionBase;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -78,11 +77,11 @@ constexpr explicit HEU_InputUtility(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
-static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputInterface> __declspec(property(get=__get__inputInterfaces, put=__set__inputInterfaces))  _inputInterfaces;
+static System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputInterface> __declspec(property(get=__get__inputInterfaces, put=__set__inputInterfaces))  _inputInterfaces;
 
-static void __set__inputInterfaces(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputInterface> value) ;
+static void __set__inputInterfaces(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputInterface> value) ;
 
-static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputInterface> __get__inputInterfaces() ;
+static System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputInterface> __get__inputInterfaces() ;
 
 
 // Methods
@@ -91,33 +90,32 @@ static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputInt
 static int32_t GetHighestPriority() ;
 
 /// @brief Method RegisterInputInterface addr 0x205d180 size 0x29c virtual false final false
-static void RegisterInputInterface(::HoudiniEngineUnity::HEU_InputInterface inputInterface) ;
+static void RegisterInputInterface(HoudiniEngineUnity::HEU_InputInterface inputInterface) ;
 
 /// @brief Method UnregisterInputInterface addr 0x205d574 size 0x80 virtual false final false
-static void UnregisterInputInterface(::HoudiniEngineUnity::HEU_InputInterface inputInterface) ;
+static void UnregisterInputInterface(HoudiniEngineUnity::HEU_InputInterface inputInterface) ;
 
 /// @brief Method GetInputInterfaceByType addr 0x205d41c size 0x158 virtual false final false
-static ::HoudiniEngineUnity::HEU_InputInterface GetInputInterfaceByType(::System::Type type) ;
+static HoudiniEngineUnity::HEU_InputInterface GetInputInterfaceByType(System::Type type) ;
 
 /// @brief Method GetInputInterface addr 0x205d5f4 size 0x118 virtual false final false
-static ::HoudiniEngineUnity::HEU_InputInterface GetInputInterface(::UnityEngine::GameObject inputObject) ;
+static HoudiniEngineUnity::HEU_InputInterface GetInputInterface(UnityEngine::GameObject inputObject) ;
 
 /// @brief Method GetInputInterface addr 0x205d70c size 0xe0 virtual false final false
-static ::HoudiniEngineUnity::HEU_InputInterface GetInputInterface(::HoudiniEngineUnity::HEU_InputObjectInfo inputObjectInfo) ;
+static HoudiniEngineUnity::HEU_InputInterface GetInputInterface(HoudiniEngineUnity::HEU_InputObjectInfo inputObjectInfo) ;
 
 /// @brief Method CreateInputNodeWithMultiObjects addr 0x205d7ec size 0x5d0 virtual false final false
-static bool CreateInputNodeWithMultiObjects(::HoudiniEngineUnity::HEU_SessionBase session, int32_t assetID, ByRef<int32_t> connectMergeID, ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectInfo>> inputObjects, ByRef<::System::Collections::Generic::List_1<int32_t>> inputObjectsConnectedAssetIDs, ::HoudiniEngineUnity::HEU_InputNode inputNode) ;
+static bool CreateInputNodeWithMultiObjects(HoudiniEngineUnity::HEU_SessionBase session, int32_t assetID, ByRef<int32_t> connectMergeID, ByRef<System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputObjectInfo>> inputObjects, ByRef<System::Collections::Generic::List_1<int32_t>> inputObjectsConnectedAssetIDs, HoudiniEngineUnity::HEU_InputNode inputNode) ;
 
 /// @brief Method CreateInputNodeWithMultiAssets addr 0x205e0e4 size 0x3c4 virtual false final false
-static bool CreateInputNodeWithMultiAssets(::HoudiniEngineUnity::HEU_SessionBase session, ::HoudiniEngineUnity::HEU_HoudiniAsset parentAsset, ByRef<int32_t> connectMergeID, ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputHDAInfo>> inputAssetInfos, bool bKeepWorldTransform, int32_t mergeParentID) ;
+static bool CreateInputNodeWithMultiAssets(HoudiniEngineUnity::HEU_SessionBase session, HoudiniEngineUnity::HEU_HoudiniAsset parentAsset, ByRef<int32_t> connectMergeID, ByRef<System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputHDAInfo>> inputAssetInfos, bool bKeepWorldTransform, int32_t mergeParentID) ;
 
 /// @brief Method UploadInputObjectTransform addr 0x205ddbc size 0x328 virtual false final false
-static bool UploadInputObjectTransform(::HoudiniEngineUnity::HEU_SessionBase session, ::HoudiniEngineUnity::HEU_InputObjectInfo inputObject, int32_t inputNodeID, bool bKeepWorldTransform) ;
+static bool UploadInputObjectTransform(HoudiniEngineUnity::HEU_SessionBase session, HoudiniEngineUnity::HEU_InputObjectInfo inputObject, int32_t inputNodeID, bool bKeepWorldTransform) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_InputUtility);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_InputUtility, "HoudiniEngineUnity", "HEU_InputUtility");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_InputUtility);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputUtility, "HoudiniEngineUnity", "HEU_InputUtility");

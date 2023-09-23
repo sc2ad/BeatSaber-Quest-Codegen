@@ -1,11 +1,10 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
-namespace UnityEngine {
-class Camera;
-}
 namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine {
+class Camera;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -30,12 +29,11 @@ constexpr explicit ICanvasRaycastFilter(void* ptr) noexcept : ::cordl_internals:
 // Methods
 
 /// @brief Method IsRaycastLocationValid addr 0x0 size 0xffffffffffffffff virtual true final false
- bool IsRaycastLocationValid(::UnityEngine::Vector2 sp, ::UnityEngine::Camera eventCamera) ;
+ bool IsRaycastLocationValid(UnityEngine::Vector2 sp, UnityEngine::Camera eventCamera) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ICanvasRaycastFilter);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ICanvasRaycastFilter, "UnityEngine", "ICanvasRaycastFilter");
+NEED_NO_BOX(UnityEngine::ICanvasRaycastFilter);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ICanvasRaycastFilter, "UnityEngine", "ICanvasRaycastFilter");

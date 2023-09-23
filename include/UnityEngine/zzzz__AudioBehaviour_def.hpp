@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__Behaviour_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 class AudioBehaviour;
@@ -12,7 +11,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10129))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15607))
 // CS Name: UnityEngine.AudioBehaviour
-class CORDL_TYPE AudioBehaviour : public ::UnityEngine::Behaviour {
+class CORDL_TYPE AudioBehaviour : public UnityEngine::Behaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr AudioBehaviour(AudioBehaviour const& ) noexcept = default;
 constexpr AudioBehaviour(AudioBehaviour&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AudioBehaviour(void* ptr) noexcept : ::UnityEngine::Behaviour(ptr) {
+constexpr explicit AudioBehaviour(void* ptr) noexcept : UnityEngine::Behaviour(ptr) {
 }
 
 
@@ -49,6 +48,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AudioBehaviour);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AudioBehaviour, "UnityEngine", "AudioBehaviour");
+NEED_NO_BOX(UnityEngine::AudioBehaviour);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioBehaviour, "UnityEngine", "AudioBehaviour");

@@ -1,12 +1,11 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
 namespace UnityEngine::ProBuilder::Shapes {
 class Shape;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
 }
 namespace System {
 class Type;
@@ -62,18 +61,17 @@ constexpr explicit ShapeFactory(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 
 /// @brief Method Instantiate addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static ::UnityEngine::ProBuilder::ProBuilderMesh Instantiate(::UnityEngine::ProBuilder::PivotLocation pivotType) ;
+static UnityEngine::ProBuilder::ProBuilderMesh Instantiate(UnityEngine::ProBuilder::PivotLocation pivotType) ;
 
 /// @brief Method Instantiate addr 0x29d8e54 size 0x294 virtual false final false
-static ::UnityEngine::ProBuilder::ProBuilderMesh Instantiate(::System::Type shapeType, ::UnityEngine::ProBuilder::PivotLocation pivotType) ;
+static UnityEngine::ProBuilder::ProBuilderMesh Instantiate(System::Type shapeType, UnityEngine::ProBuilder::PivotLocation pivotType) ;
 
 /// @brief Method Instantiate addr 0x29d90e8 size 0x258 virtual false final false
-static ::UnityEngine::ProBuilder::ProBuilderMesh Instantiate(::UnityEngine::ProBuilder::Shapes::Shape shape, ::UnityEngine::ProBuilder::PivotLocation pivotType) ;
+static UnityEngine::ProBuilder::ProBuilderMesh Instantiate(UnityEngine::ProBuilder::Shapes::Shape shape, UnityEngine::ProBuilder::PivotLocation pivotType) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::ShapeFactory);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::ShapeFactory, "UnityEngine.ProBuilder", "ShapeFactory");
+NEED_NO_BOX(UnityEngine::ProBuilder::ShapeFactory);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ShapeFactory, "UnityEngine.ProBuilder", "ShapeFactory");

@@ -2,24 +2,23 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class Sprite;
-}
-namespace GlobalNamespace {
-class MissionObjectiveChecker;
+namespace UnityEngine::UI {
+class Image;
 }
 namespace UnityEngine {
 struct Color;
 }
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace UnityEngine {
+class Sprite;
+}
 namespace UnityEngine {
 class ParticleSystem;
 }
-namespace UnityEngine::UI {
-class Image;
-}
-namespace TMPro {
-class TextMeshProUGUI;
+namespace GlobalNamespace {
+class MissionObjectiveChecker;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -31,7 +30,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5135))
 // CS Name: MissionObjectiveGameUIView
-class CORDL_TYPE MissionObjectiveGameUIView : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MissionObjectiveGameUIView : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -46,7 +45,7 @@ constexpr MissionObjectiveGameUIView(MissionObjectiveGameUIView const& ) noexcep
 constexpr MissionObjectiveGameUIView(MissionObjectiveGameUIView&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MissionObjectiveGameUIView(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MissionObjectiveGameUIView(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -67,59 +66,59 @@ constexpr explicit MissionObjectiveGameUIView(void* ptr) noexcept : ::UnityEngin
 
 // Fields
 
- ::UnityEngine::Sprite __declspec(property(get=__get__notFailedIcon, put=__set__notFailedIcon))  _notFailedIcon;
+ UnityEngine::Sprite __declspec(property(get=__get__notFailedIcon, put=__set__notFailedIcon))  _notFailedIcon;
 
-constexpr void __set__notFailedIcon(::UnityEngine::Sprite value) ;
+constexpr void __set__notFailedIcon(UnityEngine::Sprite value) ;
 
-constexpr ::UnityEngine::Sprite __get__notFailedIcon() const;
+constexpr UnityEngine::Sprite __get__notFailedIcon() const;
 
- ::UnityEngine::Sprite __declspec(property(get=__get__failedIcon, put=__set__failedIcon))  _failedIcon;
+ UnityEngine::Sprite __declspec(property(get=__get__failedIcon, put=__set__failedIcon))  _failedIcon;
 
-constexpr void __set__failedIcon(::UnityEngine::Sprite value) ;
+constexpr void __set__failedIcon(UnityEngine::Sprite value) ;
 
-constexpr ::UnityEngine::Sprite __get__failedIcon() const;
+constexpr UnityEngine::Sprite __get__failedIcon() const;
 
- ::UnityEngine::Sprite __declspec(property(get=__get__notClearedIcon, put=__set__notClearedIcon))  _notClearedIcon;
+ UnityEngine::Sprite __declspec(property(get=__get__notClearedIcon, put=__set__notClearedIcon))  _notClearedIcon;
 
-constexpr void __set__notClearedIcon(::UnityEngine::Sprite value) ;
+constexpr void __set__notClearedIcon(UnityEngine::Sprite value) ;
 
-constexpr ::UnityEngine::Sprite __get__notClearedIcon() const;
+constexpr UnityEngine::Sprite __get__notClearedIcon() const;
 
- ::UnityEngine::Sprite __declspec(property(get=__get__clearedIcon, put=__set__clearedIcon))  _clearedIcon;
+ UnityEngine::Sprite __declspec(property(get=__get__clearedIcon, put=__set__clearedIcon))  _clearedIcon;
 
-constexpr void __set__clearedIcon(::UnityEngine::Sprite value) ;
+constexpr void __set__clearedIcon(UnityEngine::Sprite value) ;
 
-constexpr ::UnityEngine::Sprite __get__clearedIcon() const;
+constexpr UnityEngine::Sprite __get__clearedIcon() const;
 
- ::UnityEngine::UI::Image __declspec(property(get=__get__resultIcon, put=__set__resultIcon))  _resultIcon;
+ UnityEngine::UI::Image __declspec(property(get=__get__resultIcon, put=__set__resultIcon))  _resultIcon;
 
-constexpr void __set__resultIcon(::UnityEngine::UI::Image value) ;
+constexpr void __set__resultIcon(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get__resultIcon() const;
+constexpr UnityEngine::UI::Image __get__resultIcon() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__finalClearIconColor, put=__set__finalClearIconColor))  _finalClearIconColor;
+ UnityEngine::Color __declspec(property(get=__get__finalClearIconColor, put=__set__finalClearIconColor))  _finalClearIconColor;
 
-constexpr void __set__finalClearIconColor(::UnityEngine::Color value) ;
+constexpr void __set__finalClearIconColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__finalClearIconColor() const;
+constexpr UnityEngine::Color __get__finalClearIconColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__finalFailIconColor, put=__set__finalFailIconColor))  _finalFailIconColor;
+ UnityEngine::Color __declspec(property(get=__get__finalFailIconColor, put=__set__finalFailIconColor))  _finalFailIconColor;
 
-constexpr void __set__finalFailIconColor(::UnityEngine::Color value) ;
+constexpr void __set__finalFailIconColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__finalFailIconColor() const;
+constexpr UnityEngine::Color __get__finalFailIconColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__nonFinalIconColor, put=__set__nonFinalIconColor))  _nonFinalIconColor;
+ UnityEngine::Color __declspec(property(get=__get__nonFinalIconColor, put=__set__nonFinalIconColor))  _nonFinalIconColor;
 
-constexpr void __set__nonFinalIconColor(::UnityEngine::Color value) ;
+constexpr void __set__nonFinalIconColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__nonFinalIconColor() const;
+constexpr UnityEngine::Color __get__nonFinalIconColor() const;
 
- ::UnityEngine::ParticleSystem __declspec(property(get=__get__clearedPS, put=__set__clearedPS))  _clearedPS;
+ UnityEngine::ParticleSystem __declspec(property(get=__get__clearedPS, put=__set__clearedPS))  _clearedPS;
 
-constexpr void __set__clearedPS(::UnityEngine::ParticleSystem value) ;
+constexpr void __set__clearedPS(UnityEngine::ParticleSystem value) ;
 
-constexpr ::UnityEngine::ParticleSystem __get__clearedPS() const;
+constexpr UnityEngine::ParticleSystem __get__clearedPS() const;
 
  int32_t __declspec(property(get=__get__numberOfParticles, put=__set__numberOfParticles))  _numberOfParticles;
 
@@ -127,41 +126,41 @@ constexpr void __set__numberOfParticles(int32_t value) ;
 
 constexpr int32_t __get__numberOfParticles() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__nameText, put=__set__nameText))  _nameText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__nameText, put=__set__nameText))  _nameText;
 
-constexpr void __set__nameText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__nameText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__nameText() const;
+constexpr TMPro::TextMeshProUGUI __get__nameText() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__valueText, put=__set__valueText))  _valueText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__valueText, put=__set__valueText))  _valueText;
 
-constexpr void __set__valueText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__valueText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__valueText() const;
+constexpr TMPro::TextMeshProUGUI __get__valueText() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__conditionText, put=__set__conditionText))  _conditionText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__conditionText, put=__set__conditionText))  _conditionText;
 
-constexpr void __set__conditionText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__conditionText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__conditionText() const;
+constexpr TMPro::TextMeshProUGUI __get__conditionText() const;
 
- ::GlobalNamespace::MissionObjectiveChecker __declspec(property(get=__get__missionObjectiveChecker, put=__set__missionObjectiveChecker))  _missionObjectiveChecker;
+ GlobalNamespace::MissionObjectiveChecker __declspec(property(get=__get__missionObjectiveChecker, put=__set__missionObjectiveChecker))  _missionObjectiveChecker;
 
-constexpr void __set__missionObjectiveChecker(::GlobalNamespace::MissionObjectiveChecker value) ;
+constexpr void __set__missionObjectiveChecker(GlobalNamespace::MissionObjectiveChecker value) ;
 
-constexpr ::GlobalNamespace::MissionObjectiveChecker __get__missionObjectiveChecker() const;
+constexpr GlobalNamespace::MissionObjectiveChecker __get__missionObjectiveChecker() const;
 
 
 // Methods
 
 /// @brief Method SetMissionObjectiveChecker addr 0x2275b04 size 0x27c virtual false final false
- void SetMissionObjectiveChecker(::GlobalNamespace::MissionObjectiveChecker missionObjectiveChecker) ;
+ void SetMissionObjectiveChecker(GlobalNamespace::MissionObjectiveChecker missionObjectiveChecker) ;
 
 /// @brief Method HandleMissionObjectiveStatusDidChange addr 0x2275edc size 0x4 virtual false final false
- void HandleMissionObjectiveStatusDidChange(::GlobalNamespace::MissionObjectiveChecker missionObjectiveChecker) ;
+ void HandleMissionObjectiveStatusDidChange(GlobalNamespace::MissionObjectiveChecker missionObjectiveChecker) ;
 
 /// @brief Method HandleMissionObjectiveCheckedValueDidChange addr 0x2275ee0 size 0x4 virtual false final false
- void HandleMissionObjectiveCheckedValueDidChange(::GlobalNamespace::MissionObjectiveChecker missionObjectiveChecker) ;
+ void HandleMissionObjectiveCheckedValueDidChange(GlobalNamespace::MissionObjectiveChecker missionObjectiveChecker) ;
 
 /// @brief Method RefreshIcon addr 0x2275d80 size 0x104 virtual false final false
  void RefreshIcon() ;
@@ -179,6 +178,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MissionObjectiveGameUIView);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionObjectiveGameUIView, "", "MissionObjectiveGameUIView");
+NEED_NO_BOX(GlobalNamespace::MissionObjectiveGameUIView);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveGameUIView, "", "MissionObjectiveGameUIView");

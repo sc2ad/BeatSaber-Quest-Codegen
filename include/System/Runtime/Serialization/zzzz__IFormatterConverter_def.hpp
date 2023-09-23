@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace System {
 class Type;
 }
@@ -31,7 +30,7 @@ constexpr explicit IFormatterConverter(void* ptr) noexcept : ::cordl_internals::
 // Methods
 
 /// @brief Method Convert addr 0x0 size 0xffffffffffffffff virtual true final false
- ::bs_hook::Il2CppWrapperType Convert(::bs_hook::Il2CppWrapperType value, ::System::Type type) ;
+ ::bs_hook::Il2CppWrapperType Convert(::bs_hook::Il2CppWrapperType value, System::Type type) ;
 
 /// @brief Method ToBoolean addr 0x0 size 0xffffffffffffffff virtual true final false
  bool ToBoolean(::bs_hook::Il2CppWrapperType value) ;
@@ -52,6 +51,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::IFormatterConverter);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::IFormatterConverter, "System.Runtime.Serialization", "IFormatterConverter");
+NEED_NO_BOX(System::Runtime::Serialization::IFormatterConverter);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::IFormatterConverter, "System.Runtime.Serialization", "IFormatterConverter");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Tilemaps {
 struct TileFlags;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::Tilemaps::TileFlags const None;
+static UnityEngine::Tilemaps::TileFlags const None;
 
 /// @brief Field LockColor offset 0
-static ::UnityEngine::Tilemaps::TileFlags const LockColor;
+static UnityEngine::Tilemaps::TileFlags const LockColor;
 
 /// @brief Field LockTransform offset 0
-static ::UnityEngine::Tilemaps::TileFlags const LockTransform;
+static UnityEngine::Tilemaps::TileFlags const LockTransform;
 
 /// @brief Field InstantiateGameObjectRuntimeOnly offset 0
-static ::UnityEngine::Tilemaps::TileFlags const InstantiateGameObjectRuntimeOnly;
+static UnityEngine::Tilemaps::TileFlags const InstantiateGameObjectRuntimeOnly;
 
 /// @brief Field KeepGameObjectRuntimeOnly offset 0
-static ::UnityEngine::Tilemaps::TileFlags const KeepGameObjectRuntimeOnly;
+static UnityEngine::Tilemaps::TileFlags const KeepGameObjectRuntimeOnly;
 
 /// @brief Field LockAll offset 0
-static ::UnityEngine::Tilemaps::TileFlags const LockAll;
+static UnityEngine::Tilemaps::TileFlags const LockAll;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Tilemaps
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Tilemaps::TileFlags, "UnityEngine.Tilemaps", "TileFlags");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Tilemaps::TileFlags, "UnityEngine.Tilemaps", "TileFlags");

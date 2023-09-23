@@ -3,12 +3,11 @@
 #include "System/zzzz__SystemException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Runtime::InteropServices {
@@ -20,7 +19,7 @@ namespace System::Runtime::InteropServices {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2480))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3298))
 // CS Name: System.Runtime.InteropServices.ExternalException
-class CORDL_TYPE ExternalException : public ::System::SystemException {
+class CORDL_TYPE ExternalException : public System::SystemException {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr ExternalException(ExternalException const& ) noexcept = default;
 constexpr ExternalException(ExternalException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ExternalException(void* ptr) noexcept : ::System::SystemException(ptr) {
+constexpr explicit ExternalException(void* ptr) noexcept : System::SystemException(ptr) {
 }
 
 
@@ -79,11 +78,11 @@ explicit ExternalException(::StringW message, int32_t errorCode) ;
 /// @brief Method .ctor addr 0x236a31c size 0x28 virtual false final false
  void _ctor(::StringW message, int32_t errorCode) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit ExternalException(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit ExternalException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x236a344 size 0x8 virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method get_ErrorCode addr 0x236a34c size 0x8 virtual true final false
  int32_t get_ErrorCode() ;
@@ -95,6 +94,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::InteropServices
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::InteropServices::ExternalException);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::ExternalException, "System.Runtime.InteropServices", "ExternalException");
+NEED_NO_BOX(System::Runtime::InteropServices::ExternalException);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::ExternalException, "System.Runtime.InteropServices", "ExternalException");

@@ -2,15 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 class Animator;
 }
-namespace GlobalNamespace {
-class IComboController;
-}
 namespace TMPro {
 class TextMeshProUGUI;
+}
+namespace GlobalNamespace {
+class IComboController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,7 +21,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5130))
 // CS Name: ComboUIController
-class CORDL_TYPE ComboUIController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ComboUIController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr ComboUIController(ComboUIController const& ) noexcept = default;
 constexpr ComboUIController(ComboUIController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ComboUIController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ComboUIController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -58,23 +57,23 @@ constexpr explicit ComboUIController(void* ptr) noexcept : ::UnityEngine::MonoBe
 
 // Fields
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__comboText, put=__set__comboText))  _comboText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__comboText, put=__set__comboText))  _comboText;
 
-constexpr void __set__comboText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__comboText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__comboText() const;
+constexpr TMPro::TextMeshProUGUI __get__comboText() const;
 
- ::UnityEngine::Animator __declspec(property(get=__get__animator, put=__set__animator))  _animator;
+ UnityEngine::Animator __declspec(property(get=__get__animator, put=__set__animator))  _animator;
 
-constexpr void __set__animator(::UnityEngine::Animator value) ;
+constexpr void __set__animator(UnityEngine::Animator value) ;
 
-constexpr ::UnityEngine::Animator __get__animator() const;
+constexpr UnityEngine::Animator __get__animator() const;
 
- ::GlobalNamespace::IComboController __declspec(property(get=__get__comboController, put=__set__comboController))  _comboController;
+ GlobalNamespace::IComboController __declspec(property(get=__get__comboController, put=__set__comboController))  _comboController;
 
-constexpr void __set__comboController(::GlobalNamespace::IComboController value) ;
+constexpr void __set__comboController(GlobalNamespace::IComboController value) ;
 
-constexpr ::GlobalNamespace::IComboController __get__comboController() const;
+constexpr GlobalNamespace::IComboController __get__comboController() const;
 
  int32_t __declspec(property(get=__get__comboLostId, put=__set__comboLostId))  _comboLostId;
 
@@ -122,6 +121,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ComboUIController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ComboUIController, "", "ComboUIController");
+NEED_NO_BOX(GlobalNamespace::ComboUIController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ComboUIController, "", "ComboUIController");

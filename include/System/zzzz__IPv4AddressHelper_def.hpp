@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
@@ -56,13 +55,13 @@ constexpr explicit IPv4AddressHelper(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 // Methods
 
 /// @brief Method ParseHostNumber addr 0x2699544 size 0x30 virtual false final false
-static int32_t ParseHostNumber(::System::ReadOnlySpan_1<char16_t> str, int32_t start, int32_t end) ;
+static int32_t ParseHostNumber(System::ReadOnlySpan_1<char16_t> str, int32_t start, int32_t end) ;
 
 /// @brief Method IsValid addr 0x2699600 size 0x30 virtual false final false
 static bool IsValid(void* name, int32_t start, ByRef<int32_t> end, bool allowIPv6, bool notImplicitFile, bool unknownScheme) ;
 
 /// @brief Method ParseCanonical addr 0x2699574 size 0x8c virtual false final false
-static bool ParseCanonical(::System::ReadOnlySpan_1<char16_t> name, void* numbers, int32_t start, int32_t end) ;
+static bool ParseCanonical(System::ReadOnlySpan_1<char16_t> name, void* numbers, int32_t start, int32_t end) ;
 
 /// @brief Method IsValidCanonical addr 0x2699630 size 0x140 virtual false final false
 static bool IsValidCanonical(void* name, int32_t start, ByRef<int32_t> end, bool allowIPv6, bool notImplicitFile) ;
@@ -80,6 +79,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::IPv4AddressHelper);
-DEFINE_IL2CPP_ARG_TYPE(::System::IPv4AddressHelper, "System", "IPv4AddressHelper");
+NEED_NO_BOX(System::IPv4AddressHelper);
+DEFINE_IL2CPP_ARG_TYPE(System::IPv4AddressHelper, "System", "IPv4AddressHelper");

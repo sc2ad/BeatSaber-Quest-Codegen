@@ -2,11 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-template<typename T>
-class LazyCopyHashSet_1;
-}
 namespace System {
 template<typename TResult>
 class Func_1;
@@ -14,6 +9,10 @@ class Func_1;
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace GlobalNamespace {
+template<typename T>
+class LazyCopyHashSet_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -69,40 +68,40 @@ constexpr explicit SimpleMemoryPool_1(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Fields
 
- ::GlobalNamespace::LazyCopyHashSet_1<T> __declspec(property(get=__get__activeElements, put=__set__activeElements))  _activeElements;
+ GlobalNamespace::LazyCopyHashSet_1<T> __declspec(property(get=__get__activeElements, put=__set__activeElements))  _activeElements;
 
-constexpr void __set__activeElements(::GlobalNamespace::LazyCopyHashSet_1<T> value) ;
+constexpr void __set__activeElements(GlobalNamespace::LazyCopyHashSet_1<T> value) ;
 
-constexpr ::GlobalNamespace::LazyCopyHashSet_1<T> __get__activeElements() const;
+constexpr GlobalNamespace::LazyCopyHashSet_1<T> __get__activeElements() const;
 
- ::System::Collections::Generic::List_1<T> __declspec(property(get=__get__inactiveElements, put=__set__inactiveElements))  _inactiveElements;
+ System::Collections::Generic::List_1<T> __declspec(property(get=__get__inactiveElements, put=__set__inactiveElements))  _inactiveElements;
 
-constexpr void __set__inactiveElements(::System::Collections::Generic::List_1<T> value) ;
+constexpr void __set__inactiveElements(System::Collections::Generic::List_1<T> value) ;
 
-constexpr ::System::Collections::Generic::List_1<T> __get__inactiveElements() const;
+constexpr System::Collections::Generic::List_1<T> __get__inactiveElements() const;
 
- ::System::Func_1<T> __declspec(property(get=__get__createNewItemFunc, put=__set__createNewItemFunc))  _createNewItemFunc;
+ System::Func_1<T> __declspec(property(get=__get__createNewItemFunc, put=__set__createNewItemFunc))  _createNewItemFunc;
 
-constexpr void __set__createNewItemFunc(::System::Func_1<T> value) ;
+constexpr void __set__createNewItemFunc(System::Func_1<T> value) ;
 
-constexpr ::System::Func_1<T> __get__createNewItemFunc() const;
+constexpr System::Func_1<T> __get__createNewItemFunc() const;
 
 
 // Properties
 
- ::System::Collections::Generic::List_1<T> __declspec(property(get=get_items))  items;
+ System::Collections::Generic::List_1<T> __declspec(property(get=get_items))  items;
 
 
 // Methods
 
 /// @brief Method get_items addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Collections::Generic::List_1<T> get_items() ;
+ System::Collections::Generic::List_1<T> get_items() ;
 
-// Ctor Parameters [CppParam { name: "startCapacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "createNewItemFunc", ty: "::System::Func_1<T>", modifiers: "", def_value: None }]
-explicit SimpleMemoryPool_1(int32_t startCapacity, ::System::Func_1<T> createNewItemFunc) ;
+// Ctor Parameters [CppParam { name: "startCapacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "createNewItemFunc", ty: "System::Func_1<T>", modifiers: "", def_value: None }]
+explicit SimpleMemoryPool_1(int32_t startCapacity, System::Func_1<T> createNewItemFunc) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(int32_t startCapacity, ::System::Func_1<T> createNewItemFunc) ;
+ void _ctor(int32_t startCapacity, System::Func_1<T> createNewItemFunc) ;
 
 /// @brief Method Spawn addr 0x0 size 0xffffffffffffffff virtual false final false
  T Spawn() ;
@@ -114,5 +113,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::SimpleMemoryPool_1, "", "SimpleMemoryPool`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::SimpleMemoryPool_1, "", "SimpleMemoryPool`1");

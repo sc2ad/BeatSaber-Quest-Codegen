@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Zenject {
 class BindInfo;
 }
@@ -51,20 +50,20 @@ constexpr explicit IdBinder(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(p
 
 // Fields
 
- ::Zenject::BindInfo __declspec(property(get=__get__bindInfo, put=__set__bindInfo))  _bindInfo;
+ Zenject::BindInfo __declspec(property(get=__get__bindInfo, put=__set__bindInfo))  _bindInfo;
 
-constexpr void __set__bindInfo(::Zenject::BindInfo value) ;
+constexpr void __set__bindInfo(Zenject::BindInfo value) ;
 
-constexpr ::Zenject::BindInfo __get__bindInfo() const;
+constexpr Zenject::BindInfo __get__bindInfo() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "::Zenject::BindInfo", modifiers: "", def_value: None }]
-explicit IdBinder(::Zenject::BindInfo bindInfo) ;
+// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }]
+explicit IdBinder(Zenject::BindInfo bindInfo) ;
 
 /// @brief Method .ctor addr 0x2d60c34 size 0x28 virtual false final false
- void _ctor(::Zenject::BindInfo bindInfo) ;
+ void _ctor(Zenject::BindInfo bindInfo) ;
 
 /// @brief Method WithId addr 0x2d60c5c size 0x101c virtual false final false
  void WithId(::bs_hook::Il2CppWrapperType identifier) ;
@@ -73,6 +72,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::IdBinder);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::IdBinder, "Zenject", "IdBinder");
+NEED_NO_BOX(Zenject::IdBinder);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::IdBinder, "Zenject", "IdBinder");

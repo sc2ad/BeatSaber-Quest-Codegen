@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Utilities::Encoders {
 class ITranslator;
 }
@@ -65,20 +64,20 @@ constexpr void __set_bufOff(int32_t value) ;
 
 constexpr int32_t __get_bufOff() const;
 
- ::Org::BouncyCastle::Utilities::Encoders::ITranslator __declspec(property(get=__get_translator, put=__set_translator))  translator;
+ Org::BouncyCastle::Utilities::Encoders::ITranslator __declspec(property(get=__get_translator, put=__set_translator))  translator;
 
-constexpr void __set_translator(::Org::BouncyCastle::Utilities::Encoders::ITranslator value) ;
+constexpr void __set_translator(Org::BouncyCastle::Utilities::Encoders::ITranslator value) ;
 
-constexpr ::Org::BouncyCastle::Utilities::Encoders::ITranslator __get_translator() const;
+constexpr Org::BouncyCastle::Utilities::Encoders::ITranslator __get_translator() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "translator", ty: "::Org::BouncyCastle::Utilities::Encoders::ITranslator", modifiers: "", def_value: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit BufferedDecoder(::Org::BouncyCastle::Utilities::Encoders::ITranslator translator, int32_t bufferSize) ;
+// Ctor Parameters [CppParam { name: "translator", ty: "Org::BouncyCastle::Utilities::Encoders::ITranslator", modifiers: "", def_value: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }]
+explicit BufferedDecoder(Org::BouncyCastle::Utilities::Encoders::ITranslator translator, int32_t bufferSize) ;
 
 /// @brief Method .ctor addr 0x10d0cd8 size 0x13c virtual false final false
- void _ctor(::Org::BouncyCastle::Utilities::Encoders::ITranslator translator, int32_t bufferSize) ;
+ void _ctor(Org::BouncyCastle::Utilities::Encoders::ITranslator translator, int32_t bufferSize) ;
 
 /// @brief Method ProcessByte addr 0x10d0e14 size 0x128 virtual false final false
  int32_t ProcessByte(uint8_t input, ::ArrayW<uint8_t> output, int32_t outOff) ;
@@ -90,6 +89,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities::Encoders
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::Encoders::BufferedDecoder);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Encoders::BufferedDecoder, "Org.BouncyCastle.Utilities.Encoders", "BufferedDecoder");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Encoders::BufferedDecoder);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Encoders::BufferedDecoder, "Org.BouncyCastle.Utilities.Encoders", "BufferedDecoder");

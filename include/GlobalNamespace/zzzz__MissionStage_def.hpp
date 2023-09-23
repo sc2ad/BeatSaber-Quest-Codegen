@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 class RectTransform;
 }
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4473))
 // CS Name: MissionStage
-class CORDL_TYPE MissionStage : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MissionStage : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr MissionStage(MissionStage const& ) noexcept = default;
 constexpr MissionStage(MissionStage&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MissionStage(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MissionStage(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -61,18 +60,18 @@ constexpr void __set__minimumMissionsToUnlock(int32_t value) ;
 
 constexpr int32_t __get__minimumMissionsToUnlock() const;
 
- ::UnityEngine::RectTransform __declspec(property(get=__get__rectTransform, put=__set__rectTransform))  _rectTransform;
+ UnityEngine::RectTransform __declspec(property(get=__get__rectTransform, put=__set__rectTransform))  _rectTransform;
 
-constexpr void __set__rectTransform(::UnityEngine::RectTransform value) ;
+constexpr void __set__rectTransform(UnityEngine::RectTransform value) ;
 
-constexpr ::UnityEngine::RectTransform __get__rectTransform() const;
+constexpr UnityEngine::RectTransform __get__rectTransform() const;
 
 
 // Properties
 
  int32_t __declspec(property(get=get_minimumMissionsToUnlock))  minimumMissionsToUnlock;
 
- ::UnityEngine::Vector2 __declspec(property(get=get_position))  position;
+ UnityEngine::Vector2 __declspec(property(get=get_position))  position;
 
 
 // Methods
@@ -81,7 +80,7 @@ constexpr ::UnityEngine::RectTransform __get__rectTransform() const;
  int32_t get_minimumMissionsToUnlock() ;
 
 /// @brief Method get_position addr 0x21f1280 size 0x1c virtual false final false
- ::UnityEngine::Vector2 get_position() ;
+ UnityEngine::Vector2 get_position() ;
 
 // Ctor Parameters []
 explicit MissionStage() ;
@@ -93,6 +92,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MissionStage);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionStage, "", "MissionStage");
+NEED_NO_BOX(GlobalNamespace::MissionStage);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionStage, "", "MissionStage");

@@ -4,21 +4,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace UnityEngine {
+struct AnimatorStateInfo;
+}
 namespace UnityEngine {
 struct AnimatorClipInfo;
 }
 namespace UnityEngine {
-struct AnimationEventSource;
+class AnimationState;
 }
 namespace UnityEngine {
 class Object;
 }
 namespace UnityEngine {
-struct AnimatorStateInfo;
-}
-namespace UnityEngine {
-class AnimationState;
+struct AnimationEventSource;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -84,11 +83,11 @@ constexpr void __set_m_StringParameter(::StringW value) ;
 
 constexpr ::StringW __get_m_StringParameter() const;
 
- ::UnityEngine::Object __declspec(property(get=__get_m_ObjectReferenceParameter, put=__set_m_ObjectReferenceParameter))  m_ObjectReferenceParameter;
+ UnityEngine::Object __declspec(property(get=__get_m_ObjectReferenceParameter, put=__set_m_ObjectReferenceParameter))  m_ObjectReferenceParameter;
 
-constexpr void __set_m_ObjectReferenceParameter(::UnityEngine::Object value) ;
+constexpr void __set_m_ObjectReferenceParameter(UnityEngine::Object value) ;
 
-constexpr ::UnityEngine::Object __get_m_ObjectReferenceParameter() const;
+constexpr UnityEngine::Object __get_m_ObjectReferenceParameter() const;
 
  float_t __declspec(property(get=__get_m_FloatParameter, put=__set_m_FloatParameter))  m_FloatParameter;
 
@@ -108,29 +107,29 @@ constexpr void __set_m_MessageOptions(int32_t value) ;
 
 constexpr int32_t __get_m_MessageOptions() const;
 
- ::UnityEngine::AnimationEventSource __declspec(property(get=__get_m_Source, put=__set_m_Source))  m_Source;
+ UnityEngine::AnimationEventSource __declspec(property(get=__get_m_Source, put=__set_m_Source))  m_Source;
 
-constexpr void __set_m_Source(::UnityEngine::AnimationEventSource value) ;
+constexpr void __set_m_Source(UnityEngine::AnimationEventSource value) ;
 
-constexpr ::UnityEngine::AnimationEventSource __get_m_Source() const;
+constexpr UnityEngine::AnimationEventSource __get_m_Source() const;
 
- ::UnityEngine::AnimationState __declspec(property(get=__get_m_StateSender, put=__set_m_StateSender))  m_StateSender;
+ UnityEngine::AnimationState __declspec(property(get=__get_m_StateSender, put=__set_m_StateSender))  m_StateSender;
 
-constexpr void __set_m_StateSender(::UnityEngine::AnimationState value) ;
+constexpr void __set_m_StateSender(UnityEngine::AnimationState value) ;
 
-constexpr ::UnityEngine::AnimationState __get_m_StateSender() const;
+constexpr UnityEngine::AnimationState __get_m_StateSender() const;
 
- ::UnityEngine::AnimatorStateInfo __declspec(property(get=__get_m_AnimatorStateInfo, put=__set_m_AnimatorStateInfo))  m_AnimatorStateInfo;
+ UnityEngine::AnimatorStateInfo __declspec(property(get=__get_m_AnimatorStateInfo, put=__set_m_AnimatorStateInfo))  m_AnimatorStateInfo;
 
-constexpr void __set_m_AnimatorStateInfo(::UnityEngine::AnimatorStateInfo value) ;
+constexpr void __set_m_AnimatorStateInfo(UnityEngine::AnimatorStateInfo value) ;
 
-constexpr ::UnityEngine::AnimatorStateInfo __get_m_AnimatorStateInfo() const;
+constexpr UnityEngine::AnimatorStateInfo __get_m_AnimatorStateInfo() const;
 
- ::UnityEngine::AnimatorClipInfo __declspec(property(get=__get_m_AnimatorClipInfo, put=__set_m_AnimatorClipInfo))  m_AnimatorClipInfo;
+ UnityEngine::AnimatorClipInfo __declspec(property(get=__get_m_AnimatorClipInfo, put=__set_m_AnimatorClipInfo))  m_AnimatorClipInfo;
 
-constexpr void __set_m_AnimatorClipInfo(::UnityEngine::AnimatorClipInfo value) ;
+constexpr void __set_m_AnimatorClipInfo(UnityEngine::AnimatorClipInfo value) ;
 
-constexpr ::UnityEngine::AnimatorClipInfo __get_m_AnimatorClipInfo() const;
+constexpr UnityEngine::AnimatorClipInfo __get_m_AnimatorClipInfo() const;
 
 
 // Methods
@@ -145,6 +144,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AnimationEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AnimationEvent, "UnityEngine", "AnimationEvent");
+NEED_NO_BOX(UnityEngine::AnimationEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimationEvent, "UnityEngine", "AnimationEvent");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {
 template<typename T>
@@ -18,10 +17,10 @@ namespace UnityEngine::ResourceManagement::Util {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14247)), TypeDefinitionIndex(TypeDefinitionIndex(10166))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166)), TypeDefinitionIndex(TypeDefinitionIndex(14247))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14247), inst: 2 })
 // CS Name: UnityEngine.ResourceManagement.Util.ComponentSingleton`1
-class CORDL_TYPE ComponentSingleton_1<T> : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ComponentSingleton_1<T> : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr ComponentSingleton_1(ComponentSingleton_1 const& ) noexcept = default;
 constexpr ComponentSingleton_1(ComponentSingleton_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ComponentSingleton_1(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ComponentSingleton_1(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -104,5 +103,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ResourceManagement::Util
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::ResourceManagement::Util::ComponentSingleton_1, "UnityEngine.ResourceManagement.Util", "ComponentSingleton`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::ResourceManagement::Util::ComponentSingleton_1, "UnityEngine.ResourceManagement.Util", "ComponentSingleton`1");

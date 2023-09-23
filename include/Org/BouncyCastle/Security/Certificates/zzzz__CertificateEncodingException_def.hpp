@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Security/Certificates/zzzz__CertificateException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class Exception;
 }
@@ -16,7 +15,7 @@ namespace Org::BouncyCastle::Security::Certificates {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1733))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1734))
 // CS Name: Org.BouncyCastle.Security.Certificates.CertificateEncodingException
-class CORDL_TYPE CertificateEncodingException : public ::Org::BouncyCastle::Security::Certificates::CertificateException {
+class CORDL_TYPE CertificateEncodingException : public Org::BouncyCastle::Security::Certificates::CertificateException {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr CertificateEncodingException(CertificateEncodingException const& ) noe
 constexpr CertificateEncodingException(CertificateEncodingException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CertificateEncodingException(void* ptr) noexcept : ::Org::BouncyCastle::Security::Certificates::CertificateException(ptr) {
+constexpr explicit CertificateEncodingException(void* ptr) noexcept : Org::BouncyCastle::Security::Certificates::CertificateException(ptr) {
 }
 
 
@@ -64,16 +63,15 @@ explicit CertificateEncodingException(::StringW msg) ;
 /// @brief Method .ctor addr 0x1091808 size 0x8 virtual false final false
  void _ctor(::StringW msg) ;
 
-// Ctor Parameters [CppParam { name: "msg", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "e", ty: "::System::Exception", modifiers: "", def_value: None }]
-explicit CertificateEncodingException(::StringW msg, ::System::Exception e) ;
+// Ctor Parameters [CppParam { name: "msg", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "e", ty: "System::Exception", modifiers: "", def_value: None }]
+explicit CertificateEncodingException(::StringW msg, System::Exception e) ;
 
 /// @brief Method .ctor addr 0x1091810 size 0x8 virtual false final false
- void _ctor(::StringW msg, ::System::Exception e) ;
+ void _ctor(::StringW msg, System::Exception e) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Security::Certificates
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Security::Certificates::CertificateEncodingException);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Security::Certificates::CertificateEncodingException, "Org.BouncyCastle.Security.Certificates", "CertificateEncodingException");
+NEED_NO_BOX(Org::BouncyCastle::Security::Certificates::CertificateEncodingException);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::Certificates::CertificateEncodingException, "Org.BouncyCastle.Security.Certificates", "CertificateEncodingException");

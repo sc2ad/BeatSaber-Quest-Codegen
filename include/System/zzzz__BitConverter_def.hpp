@@ -5,25 +5,24 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 struct Span_1;
 }
-namespace System::Buffers {
-template<typename T,typename TArg>
-class SpanAction_2;
-}
 namespace System {
 template<typename T1,typename T2,typename T3>
 struct ValueTuple_3;
+}
+namespace System::Buffers {
+template<typename T,typename TArg>
+class SpanAction_2;
 }
 // Forward declare root types
 namespace System {
 class BitConverter;
 }
 namespace System {
-class ____System__BitConverter____c;
+class System__BitConverter____c;
 }
 // Type: ::<>c
 namespace System {
@@ -31,65 +30,65 @@ namespace System {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2357))
 // CS Name: System.BitConverter::<>c
-class CORDL_TYPE ____System__BitConverter____c : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__BitConverter____c : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____System__BitConverter____c() = default;
+virtual ~System__BitConverter____c() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__BitConverter____c", modifiers: " const&", def_value: None }]
-constexpr ____System__BitConverter____c(____System__BitConverter____c const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__BitConverter____c", modifiers: " const&", def_value: None }]
+constexpr System__BitConverter____c(System__BitConverter____c const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__BitConverter____c", modifiers: "&&", def_value: None }]
-constexpr ____System__BitConverter____c(____System__BitConverter____c&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__BitConverter____c", modifiers: "&&", def_value: None }]
+constexpr System__BitConverter____c(System__BitConverter____c&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__BitConverter____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__BitConverter____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__BitConverter____c& operator=(std::nullptr_t) noexcept {
+  constexpr System__BitConverter____c& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__BitConverter____c& operator=(void* o) noexcept {
+  constexpr System__BitConverter____c& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__BitConverter____c& operator=(____System__BitConverter____c&& o) noexcept = default;
-  constexpr ____System__BitConverter____c& operator=(____System__BitConverter____c const& o) noexcept = default;
+  constexpr System__BitConverter____c& operator=(System__BitConverter____c&& o) noexcept = default;
+  constexpr System__BitConverter____c& operator=(System__BitConverter____c const& o) noexcept = default;
                 
 
 
 // Fields
 
-static ::System::____System__BitConverter____c __declspec(property(get=__get___9, put=__set___9))  __9;
+static System::System__BitConverter____c __declspec(property(get=__get___9, put=__set___9))  __9;
 
-static void __set___9(::System::____System__BitConverter____c value) ;
+static void __set___9(System::System__BitConverter____c value) ;
 
-static ::System::____System__BitConverter____c __get___9() ;
+static System::System__BitConverter____c __get___9() ;
 
-static ::System::Buffers::SpanAction_2<char16_t,::System::ValueTuple_3<::ArrayW<uint8_t>,int32_t,int32_t>> __declspec(property(get=__get___9__38_0, put=__set___9__38_0))  __9__38_0;
+static System::Buffers::SpanAction_2<char16_t,System::ValueTuple_3<::ArrayW<uint8_t>,int32_t,int32_t>> __declspec(property(get=__get___9__38_0, put=__set___9__38_0))  __9__38_0;
 
-static void __set___9__38_0(::System::Buffers::SpanAction_2<char16_t,::System::ValueTuple_3<::ArrayW<uint8_t>,int32_t,int32_t>> value) ;
+static void __set___9__38_0(System::Buffers::SpanAction_2<char16_t,System::ValueTuple_3<::ArrayW<uint8_t>,int32_t,int32_t>> value) ;
 
-static ::System::Buffers::SpanAction_2<char16_t,::System::ValueTuple_3<::ArrayW<uint8_t>,int32_t,int32_t>> __get___9__38_0() ;
+static System::Buffers::SpanAction_2<char16_t,System::ValueTuple_3<::ArrayW<uint8_t>,int32_t,int32_t>> __get___9__38_0() ;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____System__BitConverter____c() ;
+explicit System__BitConverter____c() ;
 
 /// @brief Method .ctor addr 0x23b5978 size 0x8 virtual false final false
  void _ctor() ;
 
 /// @brief Method <ToString>b__38_0 addr 0x23b5980 size 0x194 virtual false final false
- void _ToString_b__38_0(::System::Span_1<char16_t> dst, ::System::ValueTuple_3<::ArrayW<uint8_t>,int32_t,int32_t> state) ;
+ void _ToString_b__38_0(System::Span_1<char16_t> dst, System::ValueTuple_3<::ArrayW<uint8_t>,int32_t,int32_t> state) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -104,7 +103,7 @@ namespace System {
 class CORDL_TYPE BitConverter : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using __c = ::System::____System__BitConverter____c;
+using __c = System::System__BitConverter____c;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -158,7 +157,7 @@ static ::ArrayW<uint8_t> GetBytes(uint16_t value) ;
 static ::ArrayW<uint8_t> GetBytes(uint32_t value) ;
 
 /// @brief Method TryWriteBytes addr 0x23b5074 size 0x84 virtual false final false
-static bool TryWriteBytes(::System::Span_1<uint8_t> destination, uint32_t value) ;
+static bool TryWriteBytes(System::Span_1<uint8_t> destination, uint32_t value) ;
 
 /// @brief Method GetBytes addr 0x23b50f8 size 0x6c virtual false final false
 static ::ArrayW<uint8_t> GetBytes(float_t value) ;
@@ -212,8 +211,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::BitConverter);
-DEFINE_IL2CPP_ARG_TYPE(::System::BitConverter, "System", "BitConverter");
-NEED_NO_BOX(::System::____System__BitConverter____c);
-DEFINE_IL2CPP_ARG_TYPE(::System::____System__BitConverter____c, "System", "BitConverter/<>c");
+NEED_NO_BOX(System::BitConverter);
+DEFINE_IL2CPP_ARG_TYPE(System::BitConverter, "System", "BitConverter");
+NEED_NO_BOX(System::System__BitConverter____c);
+DEFINE_IL2CPP_ARG_TYPE(System::System__BitConverter____c, "System", "BitConverter/<>c");

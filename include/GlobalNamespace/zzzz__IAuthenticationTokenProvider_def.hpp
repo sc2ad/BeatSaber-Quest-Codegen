@@ -1,7 +1,12 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace GlobalNamespace {
+struct PlatformEnvironment;
+}
+namespace GlobalNamespace {
+class XPlatformAccessTokenData;
+}
 namespace GlobalNamespace {
 struct AuthenticationToken;
 }
@@ -13,13 +18,7 @@ namespace System::Threading {
 struct CancellationToken;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__AuthenticationToken__Platform;
-}
-namespace GlobalNamespace {
-struct PlatformEnvironment;
-}
-namespace GlobalNamespace {
-class XPlatformAccessTokenData;
+struct GlobalNamespace__AuthenticationToken__Platform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -47,19 +46,19 @@ constexpr explicit IAuthenticationTokenProvider(void* ptr) noexcept : ::cordl_in
 
  ::StringW __declspec(property(get=get_userName))  userName;
 
- ::GlobalNamespace::____GlobalNamespace__AuthenticationToken__Platform __declspec(property(get=get_platform))  platform;
+ GlobalNamespace::GlobalNamespace__AuthenticationToken__Platform __declspec(property(get=get_platform))  platform;
 
 
 // Methods
 
 /// @brief Method GetAuthenticationToken addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Threading::Tasks::Task_1<::GlobalNamespace::AuthenticationToken> GetAuthenticationToken() ;
+ System::Threading::Tasks::Task_1<GlobalNamespace::AuthenticationToken> GetAuthenticationToken() ;
 
 /// @brief Method GetTokenPlatform addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::____GlobalNamespace__AuthenticationToken__Platform GetTokenPlatform(::GlobalNamespace::PlatformEnvironment tokenPlatformEnvironment) ;
+ GlobalNamespace::GlobalNamespace__AuthenticationToken__Platform GetTokenPlatform(GlobalNamespace::PlatformEnvironment tokenPlatformEnvironment) ;
 
 /// @brief Method GetXPlatformAccessToken addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData> GetXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken, bool skipCache) ;
+ System::Threading::Tasks::Task_1<GlobalNamespace::XPlatformAccessTokenData> GetXPlatformAccessToken(System::Threading::CancellationToken cancellationToken, bool skipCache) ;
 
 /// @brief Method get_hashedUserId addr 0x0 size 0xffffffffffffffff virtual true final false
  ::StringW get_hashedUserId() ;
@@ -68,12 +67,11 @@ constexpr explicit IAuthenticationTokenProvider(void* ptr) noexcept : ::cordl_in
  ::StringW get_userName() ;
 
 /// @brief Method get_platform addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::____GlobalNamespace__AuthenticationToken__Platform get_platform() ;
+ GlobalNamespace::GlobalNamespace__AuthenticationToken__Platform get_platform() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IAuthenticationTokenProvider);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IAuthenticationTokenProvider, "", "IAuthenticationTokenProvider");
+NEED_NO_BOX(GlobalNamespace::IAuthenticationTokenProvider);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IAuthenticationTokenProvider, "", "IAuthenticationTokenProvider");

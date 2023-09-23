@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace TMPro {
 struct TextContainerAnchors;
@@ -75,38 +74,37 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field TopLeft offset 0
-static ::TMPro::TextContainerAnchors const TopLeft;
+static TMPro::TextContainerAnchors const TopLeft;
 
 /// @brief Field Top offset 0
-static ::TMPro::TextContainerAnchors const Top;
+static TMPro::TextContainerAnchors const Top;
 
 /// @brief Field TopRight offset 0
-static ::TMPro::TextContainerAnchors const TopRight;
+static TMPro::TextContainerAnchors const TopRight;
 
 /// @brief Field Left offset 0
-static ::TMPro::TextContainerAnchors const Left;
+static TMPro::TextContainerAnchors const Left;
 
 /// @brief Field Middle offset 0
-static ::TMPro::TextContainerAnchors const Middle;
+static TMPro::TextContainerAnchors const Middle;
 
 /// @brief Field Right offset 0
-static ::TMPro::TextContainerAnchors const Right;
+static TMPro::TextContainerAnchors const Right;
 
 /// @brief Field BottomLeft offset 0
-static ::TMPro::TextContainerAnchors const BottomLeft;
+static TMPro::TextContainerAnchors const BottomLeft;
 
 /// @brief Field Bottom offset 0
-static ::TMPro::TextContainerAnchors const Bottom;
+static TMPro::TextContainerAnchors const Bottom;
 
 /// @brief Field BottomRight offset 0
-static ::TMPro::TextContainerAnchors const BottomRight;
+static TMPro::TextContainerAnchors const BottomRight;
 
 /// @brief Field Custom offset 0
-static ::TMPro::TextContainerAnchors const Custom;
+static TMPro::TextContainerAnchors const Custom;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::TextContainerAnchors, "TMPro", "TextContainerAnchors");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TextContainerAnchors, "TMPro", "TextContainerAnchors");

@@ -5,10 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace BeatSaberAPI::DataTransferObjects {
-struct ____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers;
+struct BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers;
 }
 namespace BeatSaberAPI::DataTransferObjects {
 class LevelScoreResult;
@@ -19,20 +18,20 @@ namespace BeatSaberAPI::DataTransferObjects {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6179))
 // CS Name: BeatSaberAPI.DataTransferObjects.LevelScoreResult::GameplayModifiers
-struct CORDL_TYPE ____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
-constexpr ____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers(uint32_t value__) noexcept;
+constexpr BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers(uint32_t value__) noexcept;
 
 
-                    constexpr ____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers(____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const&) = default;
-                    constexpr ____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers(____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers&&) = default;
-                    constexpr ____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers& operator=(____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const& o) {
+                    constexpr BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers(BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const&) = default;
+                    constexpr BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers(BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers&&) = default;
+                    constexpr BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers& operator=(BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers& operator=(____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers&& o) noexcept {
+                    constexpr BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers& operator=(BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -45,7 +44,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -53,7 +52,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers_Unwrapped : uint32_t {
+enum class __BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers_Unwrapped : uint32_t {
 __None = 0u,
 __InstaFail = 2u,
 __FailOnSaberClash = 4u,
@@ -76,8 +75,8 @@ __SmallCubes = 262144u,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers_Unwrapped () const noexcept {
-return std::bit_cast<______BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers_Unwrapped>(__instance);
+constexpr operator __BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers_Unwrapped () const noexcept {
+return std::bit_cast<__BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers_Unwrapped>(__instance);
 }
 
 
@@ -90,61 +89,61 @@ constexpr void __set_value__(uint32_t value) ;
 constexpr uint32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::BeatSaberAPI::DataTransferObjects::____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const None;
+static BeatSaberAPI::DataTransferObjects::BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const None;
 
 /// @brief Field InstaFail offset 0
-static ::BeatSaberAPI::DataTransferObjects::____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const InstaFail;
+static BeatSaberAPI::DataTransferObjects::BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const InstaFail;
 
 /// @brief Field FailOnSaberClash offset 0
-static ::BeatSaberAPI::DataTransferObjects::____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const FailOnSaberClash;
+static BeatSaberAPI::DataTransferObjects::BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const FailOnSaberClash;
 
 /// @brief Field FastNotes offset 0
-static ::BeatSaberAPI::DataTransferObjects::____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const FastNotes;
+static BeatSaberAPI::DataTransferObjects::BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const FastNotes;
 
 /// @brief Field DisappearingArrows offset 0
-static ::BeatSaberAPI::DataTransferObjects::____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const DisappearingArrows;
+static BeatSaberAPI::DataTransferObjects::BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const DisappearingArrows;
 
 /// @brief Field NoBombs offset 0
-static ::BeatSaberAPI::DataTransferObjects::____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const NoBombs;
+static BeatSaberAPI::DataTransferObjects::BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const NoBombs;
 
 /// @brief Field SongSpeedFaster offset 0
-static ::BeatSaberAPI::DataTransferObjects::____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const SongSpeedFaster;
+static BeatSaberAPI::DataTransferObjects::BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const SongSpeedFaster;
 
 /// @brief Field SongSpeedSlower offset 0
-static ::BeatSaberAPI::DataTransferObjects::____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const SongSpeedSlower;
+static BeatSaberAPI::DataTransferObjects::BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const SongSpeedSlower;
 
 /// @brief Field EnabledObstacleTypeFullHeightOnly offset 0
-static ::BeatSaberAPI::DataTransferObjects::____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const EnabledObstacleTypeFullHeightOnly;
+static BeatSaberAPI::DataTransferObjects::BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const EnabledObstacleTypeFullHeightOnly;
 
 /// @brief Field EnabledObstacleTypeNoObstacles offset 0
-static ::BeatSaberAPI::DataTransferObjects::____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const EnabledObstacleTypeNoObstacles;
+static BeatSaberAPI::DataTransferObjects::BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const EnabledObstacleTypeNoObstacles;
 
 /// @brief Field EnergyTypeBattery offset 0
-static ::BeatSaberAPI::DataTransferObjects::____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const EnergyTypeBattery;
+static BeatSaberAPI::DataTransferObjects::BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const EnergyTypeBattery;
 
 /// @brief Field StrictAngles offset 0
-static ::BeatSaberAPI::DataTransferObjects::____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const StrictAngles;
+static BeatSaberAPI::DataTransferObjects::BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const StrictAngles;
 
 /// @brief Field NoArrows offset 0
-static ::BeatSaberAPI::DataTransferObjects::____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const NoArrows;
+static BeatSaberAPI::DataTransferObjects::BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const NoArrows;
 
 /// @brief Field GhostNotes offset 0
-static ::BeatSaberAPI::DataTransferObjects::____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const GhostNotes;
+static BeatSaberAPI::DataTransferObjects::BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const GhostNotes;
 
 /// @brief Field NoFailOn0Energy offset 0
-static ::BeatSaberAPI::DataTransferObjects::____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const NoFailOn0Energy;
+static BeatSaberAPI::DataTransferObjects::BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const NoFailOn0Energy;
 
 /// @brief Field SongSpeedSuperFast offset 0
-static ::BeatSaberAPI::DataTransferObjects::____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const SongSpeedSuperFast;
+static BeatSaberAPI::DataTransferObjects::BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const SongSpeedSuperFast;
 
 /// @brief Field ProMode offset 0
-static ::BeatSaberAPI::DataTransferObjects::____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const ProMode;
+static BeatSaberAPI::DataTransferObjects::BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const ProMode;
 
 /// @brief Field ZenMode offset 0
-static ::BeatSaberAPI::DataTransferObjects::____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const ZenMode;
+static BeatSaberAPI::DataTransferObjects::BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const ZenMode;
 
 /// @brief Field SmallCubes offset 0
-static ::BeatSaberAPI::DataTransferObjects::____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const SmallCubes;
+static BeatSaberAPI::DataTransferObjects::BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers const SmallCubes;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -159,7 +158,7 @@ namespace BeatSaberAPI::DataTransferObjects {
 class CORDL_TYPE LevelScoreResult : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using GameplayModifiers = ::BeatSaberAPI::DataTransferObjects::____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers;
+using GameplayModifiers = BeatSaberAPI::DataTransferObjects::BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x50};
@@ -242,11 +241,11 @@ constexpr void __set_maxCombo(int32_t value) ;
 
 constexpr int32_t __get_maxCombo() const;
 
- ::ArrayW<::BeatSaberAPI::DataTransferObjects::____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers> __declspec(property(get=__get_gameplayModifiers, put=__set_gameplayModifiers))  gameplayModifiers;
+ ::ArrayW<BeatSaberAPI::DataTransferObjects::BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers> __declspec(property(get=__get_gameplayModifiers, put=__set_gameplayModifiers))  gameplayModifiers;
 
-constexpr void __set_gameplayModifiers(::ArrayW<::BeatSaberAPI::DataTransferObjects::____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers> value) ;
+constexpr void __set_gameplayModifiers(::ArrayW<BeatSaberAPI::DataTransferObjects::BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers> value) ;
 
-constexpr ::ArrayW<::BeatSaberAPI::DataTransferObjects::____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers> __get_gameplayModifiers() const;
+constexpr ::ArrayW<BeatSaberAPI::DataTransferObjects::BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers> __get_gameplayModifiers() const;
 
  ::StringW __declspec(property(get=__get_deviceModel, put=__set_deviceModel))  deviceModel;
 
@@ -273,7 +272,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def BeatSaberAPI::DataTransferObjects
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaberAPI::DataTransferObjects::____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers, "BeatSaberAPI.DataTransferObjects", "LevelScoreResult/GameplayModifiers");
-NEED_NO_BOX(::BeatSaberAPI::DataTransferObjects::LevelScoreResult);
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaberAPI::DataTransferObjects::LevelScoreResult, "BeatSaberAPI.DataTransferObjects", "LevelScoreResult");
+DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers, "BeatSaberAPI.DataTransferObjects", "LevelScoreResult/GameplayModifiers");
+NEED_NO_BOX(BeatSaberAPI::DataTransferObjects::LevelScoreResult);
+DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::LevelScoreResult, "BeatSaberAPI.DataTransferObjects", "LevelScoreResult");

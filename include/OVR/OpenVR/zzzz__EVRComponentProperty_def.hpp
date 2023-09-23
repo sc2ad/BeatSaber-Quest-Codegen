@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct EVRComponentProperty;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field IsStatic offset 0
-static ::OVR::OpenVR::EVRComponentProperty const IsStatic;
+static OVR::OpenVR::EVRComponentProperty const IsStatic;
 
 /// @brief Field IsVisible offset 0
-static ::OVR::OpenVR::EVRComponentProperty const IsVisible;
+static OVR::OpenVR::EVRComponentProperty const IsVisible;
 
 /// @brief Field IsTouched offset 0
-static ::OVR::OpenVR::EVRComponentProperty const IsTouched;
+static OVR::OpenVR::EVRComponentProperty const IsTouched;
 
 /// @brief Field IsPressed offset 0
-static ::OVR::OpenVR::EVRComponentProperty const IsPressed;
+static OVR::OpenVR::EVRComponentProperty const IsPressed;
 
 /// @brief Field IsScrolled offset 0
-static ::OVR::OpenVR::EVRComponentProperty const IsScrolled;
+static OVR::OpenVR::EVRComponentProperty const IsScrolled;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRComponentProperty, "OVR.OpenVR", "EVRComponentProperty");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRComponentProperty, "OVR.OpenVR", "EVRComponentProperty");

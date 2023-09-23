@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class AssetBundleRequest;
-}
 namespace UnityEngine {
 class AssetBundleCreateRequest;
+}
+namespace UnityEngine {
+class AssetBundleRequest;
 }
 namespace UnityEngine {
 class Object;
@@ -27,7 +26,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10142))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15923))
 // CS Name: UnityEngine.AssetBundle
-class CORDL_TYPE AssetBundle : public ::UnityEngine::Object {
+class CORDL_TYPE AssetBundle : public UnityEngine::Object {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -42,7 +41,7 @@ constexpr AssetBundle(AssetBundle const& ) noexcept = default;
 constexpr AssetBundle(AssetBundle&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AssetBundle(void* ptr) noexcept : ::UnityEngine::Object(ptr) {
+constexpr explicit AssetBundle(void* ptr) noexcept : UnityEngine::Object(ptr) {
 }
 
 
@@ -73,55 +72,55 @@ explicit AssetBundle() ;
 static void UnloadAllAssetBundles(bool unloadAllObjects) ;
 
 /// @brief Method LoadFromFileAsync_Internal addr 0x2b23b2c size 0x54 virtual false final false
-static ::UnityEngine::AssetBundleCreateRequest LoadFromFileAsync_Internal(::StringW path, uint32_t crc, uint64_t offset) ;
+static UnityEngine::AssetBundleCreateRequest LoadFromFileAsync_Internal(::StringW path, uint32_t crc, uint64_t offset) ;
 
 /// @brief Method LoadFromFileAsync addr 0x2b23b80 size 0x44 virtual false final false
-static ::UnityEngine::AssetBundleCreateRequest LoadFromFileAsync(::StringW path) ;
+static UnityEngine::AssetBundleCreateRequest LoadFromFileAsync(::StringW path) ;
 
 /// @brief Method LoadFromFileAsync addr 0x2b23bc4 size 0x48 virtual false final false
-static ::UnityEngine::AssetBundleCreateRequest LoadFromFileAsync(::StringW path, uint32_t crc) ;
+static UnityEngine::AssetBundleCreateRequest LoadFromFileAsync(::StringW path, uint32_t crc) ;
 
 /// @brief Method LoadFromFile_Internal addr 0x2b23c0c size 0x54 virtual false final false
-static ::UnityEngine::AssetBundle LoadFromFile_Internal(::StringW path, uint32_t crc, uint64_t offset) ;
+static UnityEngine::AssetBundle LoadFromFile_Internal(::StringW path, uint32_t crc, uint64_t offset) ;
 
 /// @brief Method LoadFromFile addr 0x2b23c60 size 0x44 virtual false final false
-static ::UnityEngine::AssetBundle LoadFromFile(::StringW path) ;
+static UnityEngine::AssetBundle LoadFromFile(::StringW path) ;
 
 /// @brief Method LoadAsset addr 0x2b23ca4 size 0x8c virtual false final false
- ::UnityEngine::Object LoadAsset(::StringW name) ;
+ UnityEngine::Object LoadAsset(::StringW name) ;
 
 /// @brief Method LoadAsset addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
  T LoadAsset(::StringW name) ;
 
 /// @brief Method LoadAsset addr 0x2b23d30 size 0x10c virtual false final false
- ::UnityEngine::Object LoadAsset(::StringW name, ::System::Type type) ;
+ UnityEngine::Object LoadAsset(::StringW name, System::Type type) ;
 
 /// @brief Method LoadAsset_Internal addr 0x2b23e3c size 0x54 virtual false final false
- ::UnityEngine::Object LoadAsset_Internal(::StringW name, ::System::Type type) ;
+ UnityEngine::Object LoadAsset_Internal(::StringW name, System::Type type) ;
 
 /// @brief Method LoadAssetAsync addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
- ::UnityEngine::AssetBundleRequest LoadAssetAsync(::StringW name) ;
+ UnityEngine::AssetBundleRequest LoadAssetAsync(::StringW name) ;
 
 /// @brief Method LoadAssetAsync addr 0x2b23e90 size 0x10c virtual false final false
- ::UnityEngine::AssetBundleRequest LoadAssetAsync(::StringW name, ::System::Type type) ;
+ UnityEngine::AssetBundleRequest LoadAssetAsync(::StringW name, System::Type type) ;
 
 /// @brief Method LoadAssetWithSubAssetsAsync addr 0x2b23ff0 size 0x10c virtual false final false
- ::UnityEngine::AssetBundleRequest LoadAssetWithSubAssetsAsync(::StringW name, ::System::Type type) ;
+ UnityEngine::AssetBundleRequest LoadAssetWithSubAssetsAsync(::StringW name, System::Type type) ;
 
 /// @brief Method LoadAllAssetsAsync addr 0x2b24150 size 0x84 virtual false final false
- ::UnityEngine::AssetBundleRequest LoadAllAssetsAsync() ;
+ UnityEngine::AssetBundleRequest LoadAllAssetsAsync() ;
 
 /// @brief Method LoadAllAssetsAsync addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
- ::UnityEngine::AssetBundleRequest LoadAllAssetsAsync() ;
+ UnityEngine::AssetBundleRequest LoadAllAssetsAsync() ;
 
 /// @brief Method LoadAllAssetsAsync addr 0x2b241d4 size 0xcc virtual false final false
- ::UnityEngine::AssetBundleRequest LoadAllAssetsAsync(::System::Type type) ;
+ UnityEngine::AssetBundleRequest LoadAllAssetsAsync(System::Type type) ;
 
 /// @brief Method LoadAssetAsync_Internal addr 0x2b23f9c size 0x54 virtual false final false
- ::UnityEngine::AssetBundleRequest LoadAssetAsync_Internal(::StringW name, ::System::Type type) ;
+ UnityEngine::AssetBundleRequest LoadAssetAsync_Internal(::StringW name, System::Type type) ;
 
 /// @brief Method Unload addr 0x2b242a0 size 0x44 virtual false final false
  void Unload(bool unloadAllLoadedObjects) ;
@@ -133,12 +132,11 @@ template<typename T>
  ::ArrayW<::StringW> GetAllScenePaths() ;
 
 /// @brief Method LoadAssetWithSubAssetsAsync_Internal addr 0x2b240fc size 0x54 virtual false final false
- ::UnityEngine::AssetBundleRequest LoadAssetWithSubAssetsAsync_Internal(::StringW name, ::System::Type type) ;
+ UnityEngine::AssetBundleRequest LoadAssetWithSubAssetsAsync_Internal(::StringW name, System::Type type) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AssetBundle);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AssetBundle, "UnityEngine", "AssetBundle");
+NEED_NO_BOX(UnityEngine::AssetBundle);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AssetBundle, "UnityEngine", "AssetBundle");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace Polyglot {
 struct Language;
 }
@@ -53,18 +52,17 @@ constexpr explicit LanguageExtensions(void* ptr) noexcept : ::bs_hook::Il2CppWra
 // Methods
 
 /// @brief Method ToSerializedName addr 0x2670810 size 0x1b0 virtual false final false
-static ::StringW ToSerializedName(::Polyglot::Language lang) ;
+static ::StringW ToSerializedName(Polyglot::Language lang) ;
 
 /// @brief Method ToCultureInfoName addr 0x26709c0 size 0xe8 virtual false final false
-static ::StringW ToCultureInfoName(::Polyglot::Language lang) ;
+static ::StringW ToCultureInfoName(Polyglot::Language lang) ;
 
 /// @brief Method ToLanguage addr 0x2670aa8 size 0x7e8 virtual false final false
-static ::Polyglot::Language ToLanguage(::StringW serializedName) ;
+static Polyglot::Language ToLanguage(::StringW serializedName) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Polyglot
-} // end anonymous namespace
-NEED_NO_BOX(::Polyglot::LanguageExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::Polyglot::LanguageExtensions, "Polyglot", "LanguageExtensions");
+NEED_NO_BOX(Polyglot::LanguageExtensions);
+DEFINE_IL2CPP_ARG_TYPE(Polyglot::LanguageExtensions, "Polyglot", "LanguageExtensions");

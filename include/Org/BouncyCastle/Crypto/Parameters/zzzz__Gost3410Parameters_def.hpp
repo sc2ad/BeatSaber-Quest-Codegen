@@ -2,12 +2,11 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class Gost3410ValidationParameters;
@@ -25,8 +24,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
 class CORDL_TYPE Gost3410Parameters : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::ICipherParameters
-constexpr operator  ::Org::BouncyCastle::Crypto::ICipherParameters() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::ICipherParameters
+constexpr operator  Org::BouncyCastle::Crypto::ICipherParameters() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -61,73 +60,73 @@ constexpr explicit Gost3410Parameters(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Fields
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_p, put=__set_p))  p;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_p, put=__set_p))  p;
 
-constexpr void __set_p(::Org::BouncyCastle::Math::BigInteger value) ;
+constexpr void __set_p(Org::BouncyCastle::Math::BigInteger value) ;
 
-constexpr ::Org::BouncyCastle::Math::BigInteger __get_p() const;
+constexpr Org::BouncyCastle::Math::BigInteger __get_p() const;
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_q, put=__set_q))  q;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_q, put=__set_q))  q;
 
-constexpr void __set_q(::Org::BouncyCastle::Math::BigInteger value) ;
+constexpr void __set_q(Org::BouncyCastle::Math::BigInteger value) ;
 
-constexpr ::Org::BouncyCastle::Math::BigInteger __get_q() const;
+constexpr Org::BouncyCastle::Math::BigInteger __get_q() const;
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_a, put=__set_a))  a;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_a, put=__set_a))  a;
 
-constexpr void __set_a(::Org::BouncyCastle::Math::BigInteger value) ;
+constexpr void __set_a(Org::BouncyCastle::Math::BigInteger value) ;
 
-constexpr ::Org::BouncyCastle::Math::BigInteger __get_a() const;
+constexpr Org::BouncyCastle::Math::BigInteger __get_a() const;
 
- ::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters __declspec(property(get=__get_validation, put=__set_validation))  validation;
+ Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters __declspec(property(get=__get_validation, put=__set_validation))  validation;
 
-constexpr void __set_validation(::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters value) ;
+constexpr void __set_validation(Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters __get_validation() const;
+constexpr Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters __get_validation() const;
 
 
 // Properties
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_P))  P;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_P))  P;
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_Q))  Q;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_Q))  Q;
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_A))  A;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_A))  A;
 
- ::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters __declspec(property(get=get_ValidationParameters))  ValidationParameters;
+ Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters __declspec(property(get=get_ValidationParameters))  ValidationParameters;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "p", ty: "::Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "q", ty: "::Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "a", ty: "::Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit Gost3410Parameters(::Org::BouncyCastle::Math::BigInteger p, ::Org::BouncyCastle::Math::BigInteger q, ::Org::BouncyCastle::Math::BigInteger a) ;
+// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "a", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
+explicit Gost3410Parameters(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger a) ;
 
 /// @brief Method .ctor addr 0xea8e54 size 0x8 virtual false final false
- void _ctor(::Org::BouncyCastle::Math::BigInteger p, ::Org::BouncyCastle::Math::BigInteger q, ::Org::BouncyCastle::Math::BigInteger a) ;
+ void _ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger a) ;
 
-// Ctor Parameters [CppParam { name: "p", ty: "::Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "q", ty: "::Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "a", ty: "::Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "validation", ty: "::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters", modifiers: "", def_value: None }]
-explicit Gost3410Parameters(::Org::BouncyCastle::Math::BigInteger p, ::Org::BouncyCastle::Math::BigInteger q, ::Org::BouncyCastle::Math::BigInteger a, ::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters validation) ;
+// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "a", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "validation", ty: "Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters", modifiers: "", def_value: None }]
+explicit Gost3410Parameters(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger a, Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters validation) ;
 
 /// @brief Method .ctor addr 0xea904c size 0xe0 virtual false final false
- void _ctor(::Org::BouncyCastle::Math::BigInteger p, ::Org::BouncyCastle::Math::BigInteger q, ::Org::BouncyCastle::Math::BigInteger a, ::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters validation) ;
+ void _ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger a, Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters validation) ;
 
 /// @brief Method get_P addr 0xea912c size 0x8 virtual false final false
- ::Org::BouncyCastle::Math::BigInteger get_P() ;
+ Org::BouncyCastle::Math::BigInteger get_P() ;
 
 /// @brief Method get_Q addr 0xea9134 size 0x8 virtual false final false
- ::Org::BouncyCastle::Math::BigInteger get_Q() ;
+ Org::BouncyCastle::Math::BigInteger get_Q() ;
 
 /// @brief Method get_A addr 0xea913c size 0x8 virtual false final false
- ::Org::BouncyCastle::Math::BigInteger get_A() ;
+ Org::BouncyCastle::Math::BigInteger get_A() ;
 
 /// @brief Method get_ValidationParameters addr 0xea9144 size 0x8 virtual false final false
- ::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters get_ValidationParameters() ;
+ Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters get_ValidationParameters() ;
 
 /// @brief Method Equals addr 0xea914c size 0x9c virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0xea91e8 size 0x80 virtual false final false
- bool Equals(::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters other) ;
+ bool Equals(Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters other) ;
 
 /// @brief Method GetHashCode addr 0xea9268 size 0x70 virtual true final false
  int32_t GetHashCode() ;
@@ -136,6 +135,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Parameters
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters, "Org.BouncyCastle.Crypto.Parameters", "Gost3410Parameters");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters, "Org.BouncyCastle.Crypto.Parameters", "Gost3410Parameters");

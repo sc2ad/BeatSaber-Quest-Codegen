@@ -2,7 +2,6 @@
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
 struct BinaryTypeEnum;
@@ -73,32 +72,31 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Primitive offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum const Primitive;
+static System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum const Primitive;
 
 /// @brief Field String offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum const String;
+static System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum const String;
 
 /// @brief Field Object offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum const Object;
+static System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum const Object;
 
 /// @brief Field ObjectUrt offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum const ObjectUrt;
+static System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum const ObjectUrt;
 
 /// @brief Field ObjectUser offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum const ObjectUser;
+static System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum const ObjectUser;
 
 /// @brief Field ObjectArray offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum const ObjectArray;
+static System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum const ObjectArray;
 
 /// @brief Field StringArray offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum const StringArray;
+static System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum const StringArray;
 
 /// @brief Field PrimitiveArray offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum const PrimitiveArray;
+static System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum const PrimitiveArray;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization::Formatters::Binary
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum, "System.Runtime.Serialization.Formatters.Binary", "BinaryTypeEnum");
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum, "System.Runtime.Serialization.Formatters.Binary", "BinaryTypeEnum");

@@ -3,13 +3,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
+namespace UnityEngine::TextCore::LowLevel {
+struct GlyphValueRecord;
+}
 namespace System {
 template<typename T>
 class IEquatable_1;
-}
-namespace UnityEngine::TextCore::LowLevel {
-struct GlyphValueRecord;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::LowLevel {
@@ -24,11 +23,11 @@ namespace UnityEngine::TextCore::LowLevel {
 struct CORDL_TYPE GlyphAdjustmentRecord : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>
+constexpr operator  System::IEquatable_1<UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>() const;
 
-// Ctor Parameters [CppParam { name: "m_GlyphIndex", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_GlyphValueRecord", ty: "::UnityEngine::TextCore::LowLevel::GlyphValueRecord", modifiers: "", def_value: None }]
-constexpr GlyphAdjustmentRecord(uint32_t m_GlyphIndex, ::UnityEngine::TextCore::LowLevel::GlyphValueRecord m_GlyphValueRecord) noexcept;
+// Ctor Parameters [CppParam { name: "m_GlyphIndex", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_GlyphValueRecord", ty: "UnityEngine::TextCore::LowLevel::GlyphValueRecord", modifiers: "", def_value: None }]
+constexpr GlyphAdjustmentRecord(uint32_t m_GlyphIndex, UnityEngine::TextCore::LowLevel::GlyphValueRecord m_GlyphValueRecord) noexcept;
 
 
                     constexpr GlyphAdjustmentRecord(GlyphAdjustmentRecord const&) = default;
@@ -67,18 +66,18 @@ constexpr void __set_m_GlyphIndex(uint32_t value) ;
 
 constexpr uint32_t __get_m_GlyphIndex() const;
 
- ::UnityEngine::TextCore::LowLevel::GlyphValueRecord __declspec(property(get=__get_m_GlyphValueRecord, put=__set_m_GlyphValueRecord))  m_GlyphValueRecord;
+ UnityEngine::TextCore::LowLevel::GlyphValueRecord __declspec(property(get=__get_m_GlyphValueRecord, put=__set_m_GlyphValueRecord))  m_GlyphValueRecord;
 
-constexpr void __set_m_GlyphValueRecord(::UnityEngine::TextCore::LowLevel::GlyphValueRecord value) ;
+constexpr void __set_m_GlyphValueRecord(UnityEngine::TextCore::LowLevel::GlyphValueRecord value) ;
 
-constexpr ::UnityEngine::TextCore::LowLevel::GlyphValueRecord __get_m_GlyphValueRecord() const;
+constexpr UnityEngine::TextCore::LowLevel::GlyphValueRecord __get_m_GlyphValueRecord() const;
 
 
 // Properties
 
  uint32_t __declspec(property(get=get_glyphIndex))  glyphIndex;
 
- ::UnityEngine::TextCore::LowLevel::GlyphValueRecord __declspec(property(get=get_glyphValueRecord))  glyphValueRecord;
+ UnityEngine::TextCore::LowLevel::GlyphValueRecord __declspec(property(get=get_glyphValueRecord))  glyphValueRecord;
 
 
 // Methods
@@ -87,7 +86,7 @@ constexpr ::UnityEngine::TextCore::LowLevel::GlyphValueRecord __get_m_GlyphValue
  uint32_t get_glyphIndex() ;
 
 /// @brief Method get_glyphValueRecord addr 0x2bac8c8 size 0xc virtual false final false
- ::UnityEngine::TextCore::LowLevel::GlyphValueRecord get_glyphValueRecord() ;
+ UnityEngine::TextCore::LowLevel::GlyphValueRecord get_glyphValueRecord() ;
 
 /// @brief Method GetHashCode addr 0x2bac8d4 size 0x6c virtual true final false
  int32_t GetHashCode() ;
@@ -96,11 +95,10 @@ constexpr ::UnityEngine::TextCore::LowLevel::GlyphValueRecord __get_m_GlyphValue
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x2bac9c0 size 0xa4 virtual true final true
- bool Equals(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord other) ;
+ bool Equals(UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord other) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::LowLevel
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord, "UnityEngine.TextCore.LowLevel", "GlyphAdjustmentRecord");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord, "UnityEngine.TextCore.LowLevel", "GlyphAdjustmentRecord");

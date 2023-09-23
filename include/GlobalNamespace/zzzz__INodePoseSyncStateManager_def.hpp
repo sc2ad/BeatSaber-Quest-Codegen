@@ -1,24 +1,23 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace GlobalNamespace {
 template<typename TStateTable,typename TType,typename TState,typename TSerializable,typename TDeltaSerializable>
 class INodePoseSyncStateManager_5;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__NodePoseSyncState__NodePose;
+class NodePoseSyncStateNetSerializable;
 }
 namespace GlobalNamespace {
 struct PoseSerializable;
 }
 namespace GlobalNamespace {
-class NodePoseSyncStateDeltaNetSerializable;
-}
-namespace GlobalNamespace {
 struct NodePoseSyncState;
 }
 namespace GlobalNamespace {
-class NodePoseSyncStateNetSerializable;
+struct GlobalNamespace__NodePoseSyncState__NodePose;
+}
+namespace GlobalNamespace {
+class NodePoseSyncStateDeltaNetSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -33,8 +32,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE INodePoseSyncStateManager : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::INodePoseSyncStateManager_5<::GlobalNamespace::NodePoseSyncState,::GlobalNamespace::____GlobalNamespace__NodePoseSyncState__NodePose,::GlobalNamespace::PoseSerializable,::GlobalNamespace::NodePoseSyncStateNetSerializable,::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable>
-constexpr operator  ::GlobalNamespace::INodePoseSyncStateManager_5<::GlobalNamespace::NodePoseSyncState,::GlobalNamespace::____GlobalNamespace__NodePoseSyncState__NodePose,::GlobalNamespace::PoseSerializable,::GlobalNamespace::NodePoseSyncStateNetSerializable,::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable>() const noexcept;
+/// @brief Convert operator to GlobalNamespace::INodePoseSyncStateManager_5<GlobalNamespace::NodePoseSyncState,GlobalNamespace::GlobalNamespace__NodePoseSyncState__NodePose,GlobalNamespace::PoseSerializable,GlobalNamespace::NodePoseSyncStateNetSerializable,GlobalNamespace::NodePoseSyncStateDeltaNetSerializable>
+constexpr operator  GlobalNamespace::INodePoseSyncStateManager_5<GlobalNamespace::NodePoseSyncState,GlobalNamespace::GlobalNamespace__NodePoseSyncState__NodePose,GlobalNamespace::PoseSerializable,GlobalNamespace::NodePoseSyncStateNetSerializable,GlobalNamespace::NodePoseSyncStateDeltaNetSerializable>() const noexcept;
 
 ~INodePoseSyncStateManager() = default;
 
@@ -46,6 +45,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::INodePoseSyncStateManager);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::INodePoseSyncStateManager, "", "INodePoseSyncStateManager");
+NEED_NO_BOX(GlobalNamespace::INodePoseSyncStateManager);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INodePoseSyncStateManager, "", "INodePoseSyncStateManager");

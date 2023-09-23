@@ -7,9 +7,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine::InputSystem {
-class InputActionAsset;
+namespace UnityEngine::InputSystem::UI {
+class InputSystemUIInputModule;
 }
 namespace UnityEngine::InputSystem {
 struct InputDeviceChange;
@@ -21,65 +20,65 @@ namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
+namespace UnityEngine::InputSystem::Utilities {
+template<typename TValue>
+struct ReadOnlyArray_1;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace UnityEngine::InputSystem::UI {
-class InputSystemUIInputModule;
+namespace UnityEngine::InputSystem {
+class InputActionAsset;
 }
 namespace System {
 template<typename T1,typename T2,typename TResult>
 class Func_3;
 }
-namespace UnityEngine::InputSystem {
-struct PlayerNotifications;
-}
 namespace System {
 template<typename T1,typename T2,typename T3>
 class Action_3;
 }
-namespace UnityEngine::InputSystem {
-class InputActionMap;
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class Camera;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template<typename TDelegate>
 struct CallbackArray_1;
 }
 namespace UnityEngine::InputSystem {
-class InputValue;
-}
-namespace UnityEngine::InputSystem {
-struct ____UnityEngine__InputSystem__InputAction__CallbackContext;
-}
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
-namespace UnityEngine::InputSystem {
 struct InputControlScheme;
-}
-namespace UnityEngine {
-class GameObject;
 }
 namespace UnityEngine::InputSystem::Users {
 struct InputUser;
 }
-namespace UnityEngine::InputSystem::Utilities {
-template<typename TValue>
-struct ReadOnlyArray_1;
-}
-namespace UnityEngine {
-class Camera;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
+namespace UnityEngine::InputSystem {
+class InputDevice;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace UnityEngine::InputSystem {
+class InputActionMap;
+}
+namespace UnityEngine::InputSystem {
+struct PlayerNotifications;
+}
+namespace UnityEngine::InputSystem {
+class InputValue;
+}
+namespace UnityEngine::InputSystem {
 class InputControl;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputAction__CallbackContext;
 }
 namespace UnityEngine::InputSystem {
 class InputAction;
@@ -92,54 +91,54 @@ namespace UnityEngine::InputSystem {
 class PlayerInput;
 }
 namespace UnityEngine::InputSystem {
-class ____UnityEngine__InputSystem__PlayerInput__ActionEvent;
+class UnityEngine__InputSystem__PlayerInput__ActionEvent;
 }
 namespace UnityEngine::InputSystem {
-class ____UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent;
+class UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent;
 }
 namespace UnityEngine::InputSystem {
-class ____UnityEngine__InputSystem__PlayerInput__DeviceLostEvent;
+class UnityEngine__InputSystem__PlayerInput__DeviceLostEvent;
 }
 namespace UnityEngine::InputSystem {
-class ____UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent;
+class UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent;
 }
 // Type: ::ActionEvent
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 408 }), TypeDefinitionIndex(TypeDefinitionIndex(6216)), TypeDefinitionIndex(TypeDefinitionIndex(10401))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 408 }), TypeDefinitionIndex(TypeDefinitionIndex(10401)), TypeDefinitionIndex(TypeDefinitionIndex(6216))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6394))
 // CS Name: UnityEngine.InputSystem.PlayerInput::ActionEvent
-class CORDL_TYPE ____UnityEngine__InputSystem__PlayerInput__ActionEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext> {
+class CORDL_TYPE UnityEngine__InputSystem__PlayerInput__ActionEvent : public UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext> {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
 
-virtual ~____UnityEngine__InputSystem__PlayerInput__ActionEvent() = default;
+virtual ~UnityEngine__InputSystem__PlayerInput__ActionEvent() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__InputSystem__PlayerInput__ActionEvent", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__InputSystem__PlayerInput__ActionEvent(____UnityEngine__InputSystem__PlayerInput__ActionEvent const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__InputSystem__PlayerInput__ActionEvent", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__InputSystem__PlayerInput__ActionEvent(UnityEngine__InputSystem__PlayerInput__ActionEvent const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__InputSystem__PlayerInput__ActionEvent", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__InputSystem__PlayerInput__ActionEvent(____UnityEngine__InputSystem__PlayerInput__ActionEvent&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__InputSystem__PlayerInput__ActionEvent", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__InputSystem__PlayerInput__ActionEvent(UnityEngine__InputSystem__PlayerInput__ActionEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__InputSystem__PlayerInput__ActionEvent(void* ptr) noexcept : ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>(ptr) {
+constexpr explicit UnityEngine__InputSystem__PlayerInput__ActionEvent(void* ptr) noexcept : UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>(ptr) {
 }
 
 
-  constexpr ____UnityEngine__InputSystem__PlayerInput__ActionEvent& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__InputSystem__PlayerInput__ActionEvent& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__InputSystem__PlayerInput__ActionEvent& operator=(void* o) noexcept {
+  constexpr UnityEngine__InputSystem__PlayerInput__ActionEvent& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__InputSystem__PlayerInput__ActionEvent& operator=(____UnityEngine__InputSystem__PlayerInput__ActionEvent&& o) noexcept = default;
-  constexpr ____UnityEngine__InputSystem__PlayerInput__ActionEvent& operator=(____UnityEngine__InputSystem__PlayerInput__ActionEvent const& o) noexcept = default;
+  constexpr UnityEngine__InputSystem__PlayerInput__ActionEvent& operator=(UnityEngine__InputSystem__PlayerInput__ActionEvent&& o) noexcept = default;
+  constexpr UnityEngine__InputSystem__PlayerInput__ActionEvent& operator=(UnityEngine__InputSystem__PlayerInput__ActionEvent const& o) noexcept = default;
                 
 
 
@@ -174,22 +173,22 @@ constexpr ::StringW __get_m_ActionName() const;
  ::StringW get_actionName() ;
 
 // Ctor Parameters []
-explicit ____UnityEngine__InputSystem__PlayerInput__ActionEvent() ;
+explicit UnityEngine__InputSystem__PlayerInput__ActionEvent() ;
 
 /// @brief Method .ctor addr 0x2930428 size 0x48 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "action", ty: "::UnityEngine::InputSystem::InputAction", modifiers: "", def_value: None }]
-explicit ____UnityEngine__InputSystem__PlayerInput__ActionEvent(::UnityEngine::InputSystem::InputAction action) ;
+// Ctor Parameters [CppParam { name: "action", ty: "UnityEngine::InputSystem::InputAction", modifiers: "", def_value: None }]
+explicit UnityEngine__InputSystem__PlayerInput__ActionEvent(UnityEngine::InputSystem::InputAction action) ;
 
 /// @brief Method .ctor addr 0x2930470 size 0x1dc virtual false final false
- void _ctor(::UnityEngine::InputSystem::InputAction action) ;
+ void _ctor(UnityEngine::InputSystem::InputAction action) ;
 
-// Ctor Parameters [CppParam { name: "actionGUID", ty: "::System::Guid", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit ____UnityEngine__InputSystem__PlayerInput__ActionEvent(::System::Guid actionGUID, ::StringW name) ;
+// Ctor Parameters [CppParam { name: "actionGUID", ty: "System::Guid", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
+explicit UnityEngine__InputSystem__PlayerInput__ActionEvent(System::Guid actionGUID, ::StringW name) ;
 
 /// @brief Method .ctor addr 0x293064c size 0x74 virtual false final false
- void _ctor(::System::Guid actionGUID, ::StringW name) ;
+ void _ctor(System::Guid actionGUID, ::StringW name) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -201,16 +200,16 @@ namespace UnityEngine::InputSystem {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6398))
 // CS Name: UnityEngine.InputSystem.PlayerInput
-class CORDL_TYPE PlayerInput : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE PlayerInput : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using ControlsChangedEvent = ::UnityEngine::InputSystem::____UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent;
+using ControlsChangedEvent = UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent;
 
-using DeviceRegainedEvent = ::UnityEngine::InputSystem::____UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent;
+using DeviceRegainedEvent = UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent;
 
-using DeviceLostEvent = ::UnityEngine::InputSystem::____UnityEngine__InputSystem__PlayerInput__DeviceLostEvent;
+using DeviceLostEvent = UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__DeviceLostEvent;
 
-using ActionEvent = ::UnityEngine::InputSystem::____UnityEngine__InputSystem__PlayerInput__ActionEvent;
+using ActionEvent = UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__ActionEvent;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x210};
@@ -224,7 +223,7 @@ constexpr PlayerInput(PlayerInput const& ) noexcept = default;
 constexpr PlayerInput(PlayerInput&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PlayerInput(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit PlayerInput(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -254,47 +253,47 @@ static constexpr ::ConstString  DeviceRegainedMessage{u"OnDeviceRegained"};
 /// @brief Field ControlsChangedMessage offset 0
 static constexpr ::ConstString  ControlsChangedMessage{u"OnControlsChanged"};
 
- ::UnityEngine::InputSystem::InputActionAsset __declspec(property(get=__get_m_Actions, put=__set_m_Actions))  m_Actions;
+ UnityEngine::InputSystem::InputActionAsset __declspec(property(get=__get_m_Actions, put=__set_m_Actions))  m_Actions;
 
-constexpr void __set_m_Actions(::UnityEngine::InputSystem::InputActionAsset value) ;
+constexpr void __set_m_Actions(UnityEngine::InputSystem::InputActionAsset value) ;
 
-constexpr ::UnityEngine::InputSystem::InputActionAsset __get_m_Actions() const;
+constexpr UnityEngine::InputSystem::InputActionAsset __get_m_Actions() const;
 
- ::UnityEngine::InputSystem::PlayerNotifications __declspec(property(get=__get_m_NotificationBehavior, put=__set_m_NotificationBehavior))  m_NotificationBehavior;
+ UnityEngine::InputSystem::PlayerNotifications __declspec(property(get=__get_m_NotificationBehavior, put=__set_m_NotificationBehavior))  m_NotificationBehavior;
 
-constexpr void __set_m_NotificationBehavior(::UnityEngine::InputSystem::PlayerNotifications value) ;
+constexpr void __set_m_NotificationBehavior(UnityEngine::InputSystem::PlayerNotifications value) ;
 
-constexpr ::UnityEngine::InputSystem::PlayerNotifications __get_m_NotificationBehavior() const;
+constexpr UnityEngine::InputSystem::PlayerNotifications __get_m_NotificationBehavior() const;
 
- ::UnityEngine::InputSystem::UI::InputSystemUIInputModule __declspec(property(get=__get_m_UIInputModule, put=__set_m_UIInputModule))  m_UIInputModule;
+ UnityEngine::InputSystem::UI::InputSystemUIInputModule __declspec(property(get=__get_m_UIInputModule, put=__set_m_UIInputModule))  m_UIInputModule;
 
-constexpr void __set_m_UIInputModule(::UnityEngine::InputSystem::UI::InputSystemUIInputModule value) ;
+constexpr void __set_m_UIInputModule(UnityEngine::InputSystem::UI::InputSystemUIInputModule value) ;
 
-constexpr ::UnityEngine::InputSystem::UI::InputSystemUIInputModule __get_m_UIInputModule() const;
+constexpr UnityEngine::InputSystem::UI::InputSystemUIInputModule __get_m_UIInputModule() const;
 
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__PlayerInput__DeviceLostEvent __declspec(property(get=__get_m_DeviceLostEvent, put=__set_m_DeviceLostEvent))  m_DeviceLostEvent;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__DeviceLostEvent __declspec(property(get=__get_m_DeviceLostEvent, put=__set_m_DeviceLostEvent))  m_DeviceLostEvent;
 
-constexpr void __set_m_DeviceLostEvent(::UnityEngine::InputSystem::____UnityEngine__InputSystem__PlayerInput__DeviceLostEvent value) ;
+constexpr void __set_m_DeviceLostEvent(UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__DeviceLostEvent value) ;
 
-constexpr ::UnityEngine::InputSystem::____UnityEngine__InputSystem__PlayerInput__DeviceLostEvent __get_m_DeviceLostEvent() const;
+constexpr UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__DeviceLostEvent __get_m_DeviceLostEvent() const;
 
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent __declspec(property(get=__get_m_DeviceRegainedEvent, put=__set_m_DeviceRegainedEvent))  m_DeviceRegainedEvent;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent __declspec(property(get=__get_m_DeviceRegainedEvent, put=__set_m_DeviceRegainedEvent))  m_DeviceRegainedEvent;
 
-constexpr void __set_m_DeviceRegainedEvent(::UnityEngine::InputSystem::____UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent value) ;
+constexpr void __set_m_DeviceRegainedEvent(UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent value) ;
 
-constexpr ::UnityEngine::InputSystem::____UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent __get_m_DeviceRegainedEvent() const;
+constexpr UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent __get_m_DeviceRegainedEvent() const;
 
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent __declspec(property(get=__get_m_ControlsChangedEvent, put=__set_m_ControlsChangedEvent))  m_ControlsChangedEvent;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent __declspec(property(get=__get_m_ControlsChangedEvent, put=__set_m_ControlsChangedEvent))  m_ControlsChangedEvent;
 
-constexpr void __set_m_ControlsChangedEvent(::UnityEngine::InputSystem::____UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent value) ;
+constexpr void __set_m_ControlsChangedEvent(UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent value) ;
 
-constexpr ::UnityEngine::InputSystem::____UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent __get_m_ControlsChangedEvent() const;
+constexpr UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent __get_m_ControlsChangedEvent() const;
 
- ::ArrayW<::UnityEngine::InputSystem::____UnityEngine__InputSystem__PlayerInput__ActionEvent> __declspec(property(get=__get_m_ActionEvents, put=__set_m_ActionEvents))  m_ActionEvents;
+ ::ArrayW<UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__ActionEvent> __declspec(property(get=__get_m_ActionEvents, put=__set_m_ActionEvents))  m_ActionEvents;
 
-constexpr void __set_m_ActionEvents(::ArrayW<::UnityEngine::InputSystem::____UnityEngine__InputSystem__PlayerInput__ActionEvent> value) ;
+constexpr void __set_m_ActionEvents(::ArrayW<UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__ActionEvent> value) ;
 
-constexpr ::ArrayW<::UnityEngine::InputSystem::____UnityEngine__InputSystem__PlayerInput__ActionEvent> __get_m_ActionEvents() const;
+constexpr ::ArrayW<UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__ActionEvent> __get_m_ActionEvents() const;
 
  bool __declspec(property(get=__get_m_NeverAutoSwitchControlSchemes, put=__set_m_NeverAutoSwitchControlSchemes))  m_NeverAutoSwitchControlSchemes;
 
@@ -320,23 +319,23 @@ constexpr void __set_m_SplitScreenIndex(int32_t value) ;
 
 constexpr int32_t __get_m_SplitScreenIndex() const;
 
- ::UnityEngine::Camera __declspec(property(get=__get_m_Camera, put=__set_m_Camera))  m_Camera;
+ UnityEngine::Camera __declspec(property(get=__get_m_Camera, put=__set_m_Camera))  m_Camera;
 
-constexpr void __set_m_Camera(::UnityEngine::Camera value) ;
+constexpr void __set_m_Camera(UnityEngine::Camera value) ;
 
-constexpr ::UnityEngine::Camera __get_m_Camera() const;
+constexpr UnityEngine::Camera __get_m_Camera() const;
 
- ::UnityEngine::InputSystem::InputValue __declspec(property(get=__get_m_InputValueObject, put=__set_m_InputValueObject))  m_InputValueObject;
+ UnityEngine::InputSystem::InputValue __declspec(property(get=__get_m_InputValueObject, put=__set_m_InputValueObject))  m_InputValueObject;
 
-constexpr void __set_m_InputValueObject(::UnityEngine::InputSystem::InputValue value) ;
+constexpr void __set_m_InputValueObject(UnityEngine::InputSystem::InputValue value) ;
 
-constexpr ::UnityEngine::InputSystem::InputValue __get_m_InputValueObject() const;
+constexpr UnityEngine::InputSystem::InputValue __get_m_InputValueObject() const;
 
- ::UnityEngine::InputSystem::InputActionMap __declspec(property(get=__get_m_CurrentActionMap, put=__set_m_CurrentActionMap))  m_CurrentActionMap;
+ UnityEngine::InputSystem::InputActionMap __declspec(property(get=__get_m_CurrentActionMap, put=__set_m_CurrentActionMap))  m_CurrentActionMap;
 
-constexpr void __set_m_CurrentActionMap(::UnityEngine::InputSystem::InputActionMap value) ;
+constexpr void __set_m_CurrentActionMap(UnityEngine::InputSystem::InputActionMap value) ;
 
-constexpr ::UnityEngine::InputSystem::InputActionMap __get_m_CurrentActionMap() const;
+constexpr UnityEngine::InputSystem::InputActionMap __get_m_CurrentActionMap() const;
 
  int32_t __declspec(property(get=__get_m_PlayerIndex, put=__set_m_PlayerIndex))  m_PlayerIndex;
 
@@ -362,59 +361,59 @@ constexpr void __set_m_ActionsInitialized(bool value) ;
 
 constexpr bool __get_m_ActionsInitialized() const;
 
- ::System::Collections::Generic::Dictionary_2<::StringW,::StringW> __declspec(property(get=__get_m_ActionMessageNames, put=__set_m_ActionMessageNames))  m_ActionMessageNames;
+ System::Collections::Generic::Dictionary_2<::StringW,::StringW> __declspec(property(get=__get_m_ActionMessageNames, put=__set_m_ActionMessageNames))  m_ActionMessageNames;
 
-constexpr void __set_m_ActionMessageNames(::System::Collections::Generic::Dictionary_2<::StringW,::StringW> value) ;
+constexpr void __set_m_ActionMessageNames(System::Collections::Generic::Dictionary_2<::StringW,::StringW> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::StringW,::StringW> __get_m_ActionMessageNames() const;
+constexpr System::Collections::Generic::Dictionary_2<::StringW,::StringW> __get_m_ActionMessageNames() const;
 
- ::UnityEngine::InputSystem::Users::InputUser __declspec(property(get=__get_m_InputUser, put=__set_m_InputUser))  m_InputUser;
+ UnityEngine::InputSystem::Users::InputUser __declspec(property(get=__get_m_InputUser, put=__set_m_InputUser))  m_InputUser;
 
-constexpr void __set_m_InputUser(::UnityEngine::InputSystem::Users::InputUser value) ;
+constexpr void __set_m_InputUser(UnityEngine::InputSystem::Users::InputUser value) ;
 
-constexpr ::UnityEngine::InputSystem::Users::InputUser __get_m_InputUser() const;
+constexpr UnityEngine::InputSystem::Users::InputUser __get_m_InputUser() const;
 
- ::System::Action_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext> __declspec(property(get=__get_m_ActionTriggeredDelegate, put=__set_m_ActionTriggeredDelegate))  m_ActionTriggeredDelegate;
+ System::Action_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext> __declspec(property(get=__get_m_ActionTriggeredDelegate, put=__set_m_ActionTriggeredDelegate))  m_ActionTriggeredDelegate;
 
-constexpr void __set_m_ActionTriggeredDelegate(::System::Action_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext> value) ;
+constexpr void __set_m_ActionTriggeredDelegate(System::Action_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext> value) ;
 
-constexpr ::System::Action_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext> __get_m_ActionTriggeredDelegate() const;
+constexpr System::Action_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext> __get_m_ActionTriggeredDelegate() const;
 
- ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput>> __declspec(property(get=__get_m_DeviceLostCallbacks, put=__set_m_DeviceLostCallbacks))  m_DeviceLostCallbacks;
+ UnityEngine::InputSystem::Utilities::CallbackArray_1<System::Action_1<UnityEngine::InputSystem::PlayerInput>> __declspec(property(get=__get_m_DeviceLostCallbacks, put=__set_m_DeviceLostCallbacks))  m_DeviceLostCallbacks;
 
-constexpr void __set_m_DeviceLostCallbacks(::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput>> value) ;
+constexpr void __set_m_DeviceLostCallbacks(UnityEngine::InputSystem::Utilities::CallbackArray_1<System::Action_1<UnityEngine::InputSystem::PlayerInput>> value) ;
 
-constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput>> __get_m_DeviceLostCallbacks() const;
+constexpr UnityEngine::InputSystem::Utilities::CallbackArray_1<System::Action_1<UnityEngine::InputSystem::PlayerInput>> __get_m_DeviceLostCallbacks() const;
 
- ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput>> __declspec(property(get=__get_m_DeviceRegainedCallbacks, put=__set_m_DeviceRegainedCallbacks))  m_DeviceRegainedCallbacks;
+ UnityEngine::InputSystem::Utilities::CallbackArray_1<System::Action_1<UnityEngine::InputSystem::PlayerInput>> __declspec(property(get=__get_m_DeviceRegainedCallbacks, put=__set_m_DeviceRegainedCallbacks))  m_DeviceRegainedCallbacks;
 
-constexpr void __set_m_DeviceRegainedCallbacks(::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput>> value) ;
+constexpr void __set_m_DeviceRegainedCallbacks(UnityEngine::InputSystem::Utilities::CallbackArray_1<System::Action_1<UnityEngine::InputSystem::PlayerInput>> value) ;
 
-constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput>> __get_m_DeviceRegainedCallbacks() const;
+constexpr UnityEngine::InputSystem::Utilities::CallbackArray_1<System::Action_1<UnityEngine::InputSystem::PlayerInput>> __get_m_DeviceRegainedCallbacks() const;
 
- ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput>> __declspec(property(get=__get_m_ControlsChangedCallbacks, put=__set_m_ControlsChangedCallbacks))  m_ControlsChangedCallbacks;
+ UnityEngine::InputSystem::Utilities::CallbackArray_1<System::Action_1<UnityEngine::InputSystem::PlayerInput>> __declspec(property(get=__get_m_ControlsChangedCallbacks, put=__set_m_ControlsChangedCallbacks))  m_ControlsChangedCallbacks;
 
-constexpr void __set_m_ControlsChangedCallbacks(::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput>> value) ;
+constexpr void __set_m_ControlsChangedCallbacks(UnityEngine::InputSystem::Utilities::CallbackArray_1<System::Action_1<UnityEngine::InputSystem::PlayerInput>> value) ;
 
-constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput>> __get_m_ControlsChangedCallbacks() const;
+constexpr UnityEngine::InputSystem::Utilities::CallbackArray_1<System::Action_1<UnityEngine::InputSystem::PlayerInput>> __get_m_ControlsChangedCallbacks() const;
 
- ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>> __declspec(property(get=__get_m_ActionTriggeredCallbacks, put=__set_m_ActionTriggeredCallbacks))  m_ActionTriggeredCallbacks;
+ UnityEngine::InputSystem::Utilities::CallbackArray_1<System::Action_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>> __declspec(property(get=__get_m_ActionTriggeredCallbacks, put=__set_m_ActionTriggeredCallbacks))  m_ActionTriggeredCallbacks;
 
-constexpr void __set_m_ActionTriggeredCallbacks(::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>> value) ;
+constexpr void __set_m_ActionTriggeredCallbacks(UnityEngine::InputSystem::Utilities::CallbackArray_1<System::Action_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>> value) ;
 
-constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>> __get_m_ActionTriggeredCallbacks() const;
+constexpr UnityEngine::InputSystem::Utilities::CallbackArray_1<System::Action_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>> __get_m_ActionTriggeredCallbacks() const;
 
- ::System::Action_2<::UnityEngine::InputSystem::InputControl,::UnityEngine::InputSystem::LowLevel::InputEventPtr> __declspec(property(get=__get_m_UnpairedDeviceUsedDelegate, put=__set_m_UnpairedDeviceUsedDelegate))  m_UnpairedDeviceUsedDelegate;
+ System::Action_2<UnityEngine::InputSystem::InputControl,UnityEngine::InputSystem::LowLevel::InputEventPtr> __declspec(property(get=__get_m_UnpairedDeviceUsedDelegate, put=__set_m_UnpairedDeviceUsedDelegate))  m_UnpairedDeviceUsedDelegate;
 
-constexpr void __set_m_UnpairedDeviceUsedDelegate(::System::Action_2<::UnityEngine::InputSystem::InputControl,::UnityEngine::InputSystem::LowLevel::InputEventPtr> value) ;
+constexpr void __set_m_UnpairedDeviceUsedDelegate(System::Action_2<UnityEngine::InputSystem::InputControl,UnityEngine::InputSystem::LowLevel::InputEventPtr> value) ;
 
-constexpr ::System::Action_2<::UnityEngine::InputSystem::InputControl,::UnityEngine::InputSystem::LowLevel::InputEventPtr> __get_m_UnpairedDeviceUsedDelegate() const;
+constexpr System::Action_2<UnityEngine::InputSystem::InputControl,UnityEngine::InputSystem::LowLevel::InputEventPtr> __get_m_UnpairedDeviceUsedDelegate() const;
 
- ::System::Func_3<::UnityEngine::InputSystem::InputDevice,::UnityEngine::InputSystem::LowLevel::InputEventPtr,bool> __declspec(property(get=__get_m_PreFilterUnpairedDeviceUsedDelegate, put=__set_m_PreFilterUnpairedDeviceUsedDelegate))  m_PreFilterUnpairedDeviceUsedDelegate;
+ System::Func_3<UnityEngine::InputSystem::InputDevice,UnityEngine::InputSystem::LowLevel::InputEventPtr,bool> __declspec(property(get=__get_m_PreFilterUnpairedDeviceUsedDelegate, put=__set_m_PreFilterUnpairedDeviceUsedDelegate))  m_PreFilterUnpairedDeviceUsedDelegate;
 
-constexpr void __set_m_PreFilterUnpairedDeviceUsedDelegate(::System::Func_3<::UnityEngine::InputSystem::InputDevice,::UnityEngine::InputSystem::LowLevel::InputEventPtr,bool> value) ;
+constexpr void __set_m_PreFilterUnpairedDeviceUsedDelegate(System::Func_3<UnityEngine::InputSystem::InputDevice,UnityEngine::InputSystem::LowLevel::InputEventPtr,bool> value) ;
 
-constexpr ::System::Func_3<::UnityEngine::InputSystem::InputDevice,::UnityEngine::InputSystem::LowLevel::InputEventPtr,bool> __get_m_PreFilterUnpairedDeviceUsedDelegate() const;
+constexpr System::Func_3<UnityEngine::InputSystem::InputDevice,UnityEngine::InputSystem::LowLevel::InputEventPtr,bool> __get_m_PreFilterUnpairedDeviceUsedDelegate() const;
 
  bool __declspec(property(get=__get_m_OnUnpairedDeviceUsedHooked, put=__set_m_OnUnpairedDeviceUsedHooked))  m_OnUnpairedDeviceUsedHooked;
 
@@ -422,11 +421,11 @@ constexpr void __set_m_OnUnpairedDeviceUsedHooked(bool value) ;
 
 constexpr bool __get_m_OnUnpairedDeviceUsedHooked() const;
 
- ::System::Action_2<::UnityEngine::InputSystem::InputDevice,::UnityEngine::InputSystem::InputDeviceChange> __declspec(property(get=__get_m_DeviceChangeDelegate, put=__set_m_DeviceChangeDelegate))  m_DeviceChangeDelegate;
+ System::Action_2<UnityEngine::InputSystem::InputDevice,UnityEngine::InputSystem::InputDeviceChange> __declspec(property(get=__get_m_DeviceChangeDelegate, put=__set_m_DeviceChangeDelegate))  m_DeviceChangeDelegate;
 
-constexpr void __set_m_DeviceChangeDelegate(::System::Action_2<::UnityEngine::InputSystem::InputDevice,::UnityEngine::InputSystem::InputDeviceChange> value) ;
+constexpr void __set_m_DeviceChangeDelegate(System::Action_2<UnityEngine::InputSystem::InputDevice,UnityEngine::InputSystem::InputDeviceChange> value) ;
 
-constexpr ::System::Action_2<::UnityEngine::InputSystem::InputDevice,::UnityEngine::InputSystem::InputDeviceChange> __get_m_DeviceChangeDelegate() const;
+constexpr System::Action_2<UnityEngine::InputSystem::InputDevice,UnityEngine::InputSystem::InputDeviceChange> __get_m_DeviceChangeDelegate() const;
 
  bool __declspec(property(get=__get_m_OnDeviceChangeHooked, put=__set_m_OnDeviceChangeHooked))  m_OnDeviceChangeHooked;
 
@@ -440,17 +439,17 @@ static void __set_s_AllActivePlayersCount(int32_t value) ;
 
 static int32_t __get_s_AllActivePlayersCount() ;
 
-static ::ArrayW<::UnityEngine::InputSystem::PlayerInput> __declspec(property(get=__get_s_AllActivePlayers, put=__set_s_AllActivePlayers))  s_AllActivePlayers;
+static ::ArrayW<UnityEngine::InputSystem::PlayerInput> __declspec(property(get=__get_s_AllActivePlayers, put=__set_s_AllActivePlayers))  s_AllActivePlayers;
 
-static void __set_s_AllActivePlayers(::ArrayW<::UnityEngine::InputSystem::PlayerInput> value) ;
+static void __set_s_AllActivePlayers(::ArrayW<UnityEngine::InputSystem::PlayerInput> value) ;
 
-static ::ArrayW<::UnityEngine::InputSystem::PlayerInput> __get_s_AllActivePlayers() ;
+static ::ArrayW<UnityEngine::InputSystem::PlayerInput> __get_s_AllActivePlayers() ;
 
-static ::System::Action_3<::UnityEngine::InputSystem::Users::InputUser,::UnityEngine::InputSystem::Users::InputUserChange,::UnityEngine::InputSystem::InputDevice> __declspec(property(get=__get_s_UserChangeDelegate, put=__set_s_UserChangeDelegate))  s_UserChangeDelegate;
+static System::Action_3<UnityEngine::InputSystem::Users::InputUser,UnityEngine::InputSystem::Users::InputUserChange,UnityEngine::InputSystem::InputDevice> __declspec(property(get=__get_s_UserChangeDelegate, put=__set_s_UserChangeDelegate))  s_UserChangeDelegate;
 
-static void __set_s_UserChangeDelegate(::System::Action_3<::UnityEngine::InputSystem::Users::InputUser,::UnityEngine::InputSystem::Users::InputUserChange,::UnityEngine::InputSystem::InputDevice> value) ;
+static void __set_s_UserChangeDelegate(System::Action_3<UnityEngine::InputSystem::Users::InputUser,UnityEngine::InputSystem::Users::InputUserChange,UnityEngine::InputSystem::InputDevice> value) ;
 
-static ::System::Action_3<::UnityEngine::InputSystem::Users::InputUser,::UnityEngine::InputSystem::Users::InputUserChange,::UnityEngine::InputSystem::InputDevice> __get_s_UserChangeDelegate() ;
+static System::Action_3<UnityEngine::InputSystem::Users::InputUser,UnityEngine::InputSystem::Users::InputUserChange,UnityEngine::InputSystem::InputDevice> __get_s_UserChangeDelegate() ;
 
 static int32_t __declspec(property(get=__get_s_InitPairWithDevicesCount, put=__set_s_InitPairWithDevicesCount))  s_InitPairWithDevicesCount;
 
@@ -458,11 +457,11 @@ static void __set_s_InitPairWithDevicesCount(int32_t value) ;
 
 static int32_t __get_s_InitPairWithDevicesCount() ;
 
-static ::ArrayW<::UnityEngine::InputSystem::InputDevice> __declspec(property(get=__get_s_InitPairWithDevices, put=__set_s_InitPairWithDevices))  s_InitPairWithDevices;
+static ::ArrayW<UnityEngine::InputSystem::InputDevice> __declspec(property(get=__get_s_InitPairWithDevices, put=__set_s_InitPairWithDevices))  s_InitPairWithDevices;
 
-static void __set_s_InitPairWithDevices(::ArrayW<::UnityEngine::InputSystem::InputDevice> value) ;
+static void __set_s_InitPairWithDevices(::ArrayW<UnityEngine::InputSystem::InputDevice> value) ;
 
-static ::ArrayW<::UnityEngine::InputSystem::InputDevice> __get_s_InitPairWithDevices() ;
+static ::ArrayW<UnityEngine::InputSystem::InputDevice> __get_s_InitPairWithDevices() ;
 
 static int32_t __declspec(property(get=__get_s_InitPlayerIndex, put=__set_s_InitPlayerIndex))  s_InitPlayerIndex;
 
@@ -499,7 +498,7 @@ static bool __get_s_DestroyIfDeviceSetupUnsuccessful() ;
 
  int32_t __declspec(property(get=get_splitScreenIndex))  splitScreenIndex;
 
- ::UnityEngine::InputSystem::InputActionAsset __declspec(property(get=get_actions, put=set_actions))  actions;
+ UnityEngine::InputSystem::InputActionAsset __declspec(property(get=get_actions, put=set_actions))  actions;
 
  ::StringW __declspec(property(get=get_currentControlScheme))  currentControlScheme;
 
@@ -507,31 +506,31 @@ static bool __get_s_DestroyIfDeviceSetupUnsuccessful() ;
 
  bool __declspec(property(get=get_neverAutoSwitchControlSchemes, put=set_neverAutoSwitchControlSchemes))  neverAutoSwitchControlSchemes;
 
- ::UnityEngine::InputSystem::InputActionMap __declspec(property(get=get_currentActionMap, put=set_currentActionMap))  currentActionMap;
+ UnityEngine::InputSystem::InputActionMap __declspec(property(get=get_currentActionMap, put=set_currentActionMap))  currentActionMap;
 
  ::StringW __declspec(property(get=get_defaultActionMap, put=set_defaultActionMap))  defaultActionMap;
 
- ::UnityEngine::InputSystem::PlayerNotifications __declspec(property(get=get_notificationBehavior, put=set_notificationBehavior))  notificationBehavior;
+ UnityEngine::InputSystem::PlayerNotifications __declspec(property(get=get_notificationBehavior, put=set_notificationBehavior))  notificationBehavior;
 
- ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__PlayerInput__ActionEvent> __declspec(property(get=get_actionEvents, put=set_actionEvents))  actionEvents;
+ UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__ActionEvent> __declspec(property(get=get_actionEvents, put=set_actionEvents))  actionEvents;
 
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__PlayerInput__DeviceLostEvent __declspec(property(get=get_deviceLostEvent))  deviceLostEvent;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__DeviceLostEvent __declspec(property(get=get_deviceLostEvent))  deviceLostEvent;
 
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent __declspec(property(get=get_deviceRegainedEvent))  deviceRegainedEvent;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent __declspec(property(get=get_deviceRegainedEvent))  deviceRegainedEvent;
 
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent __declspec(property(get=get_controlsChangedEvent))  controlsChangedEvent;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent __declspec(property(get=get_controlsChangedEvent))  controlsChangedEvent;
 
- ::UnityEngine::Camera __declspec(property(get=get_camera, put=set_camera))  camera;
+ UnityEngine::Camera __declspec(property(get=get_camera, put=set_camera))  camera;
 
- ::UnityEngine::InputSystem::UI::InputSystemUIInputModule __declspec(property(get=get_uiInputModule, put=set_uiInputModule))  uiInputModule;
+ UnityEngine::InputSystem::UI::InputSystemUIInputModule __declspec(property(get=get_uiInputModule, put=set_uiInputModule))  uiInputModule;
 
- ::UnityEngine::InputSystem::Users::InputUser __declspec(property(get=get_user))  user;
+ UnityEngine::InputSystem::Users::InputUser __declspec(property(get=get_user))  user;
 
- ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice> __declspec(property(get=get_devices))  devices;
+ UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<UnityEngine::InputSystem::InputDevice> __declspec(property(get=get_devices))  devices;
 
  bool __declspec(property(get=get_hasMissingRequiredDevices))  hasMissingRequiredDevices;
 
-static ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::PlayerInput> __declspec(property(get=get_all))  all;
+static UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<UnityEngine::InputSystem::PlayerInput> __declspec(property(get=get_all))  all;
 
 static bool __declspec(property(get=get_isSinglePlayer))  isSinglePlayer;
 
@@ -551,10 +550,10 @@ static bool __declspec(property(get=get_isSinglePlayer))  isSinglePlayer;
  int32_t get_splitScreenIndex() ;
 
 /// @brief Method get_actions addr 0x29297c8 size 0x44 virtual false final false
- ::UnityEngine::InputSystem::InputActionAsset get_actions() ;
+ UnityEngine::InputSystem::InputActionAsset get_actions() ;
 
 /// @brief Method set_actions addr 0x2929d18 size 0xf8 virtual false final false
- void set_actions(::UnityEngine::InputSystem::InputActionAsset value) ;
+ void set_actions(UnityEngine::InputSystem::InputActionAsset value) ;
 
 /// @brief Method get_currentControlScheme addr 0x292a828 size 0x80 virtual false final false
  ::StringW get_currentControlScheme() ;
@@ -572,10 +571,10 @@ static bool __declspec(property(get=get_isSinglePlayer))  isSinglePlayer;
  void set_neverAutoSwitchControlSchemes(bool value) ;
 
 /// @brief Method get_currentActionMap addr 0x292abd0 size 0x8 virtual false final false
- ::UnityEngine::InputSystem::InputActionMap get_currentActionMap() ;
+ UnityEngine::InputSystem::InputActionMap get_currentActionMap() ;
 
 /// @brief Method set_currentActionMap addr 0x292abd8 size 0x4c virtual false final false
- void set_currentActionMap(::UnityEngine::InputSystem::InputActionMap value) ;
+ void set_currentActionMap(UnityEngine::InputSystem::InputActionMap value) ;
 
 /// @brief Method get_defaultActionMap addr 0x292ac24 size 0x8 virtual false final false
  ::StringW get_defaultActionMap() ;
@@ -584,73 +583,73 @@ static bool __declspec(property(get=get_isSinglePlayer))  isSinglePlayer;
  void set_defaultActionMap(::StringW value) ;
 
 /// @brief Method get_notificationBehavior addr 0x292ac34 size 0x8 virtual false final false
- ::UnityEngine::InputSystem::PlayerNotifications get_notificationBehavior() ;
+ UnityEngine::InputSystem::PlayerNotifications get_notificationBehavior() ;
 
 /// @brief Method set_notificationBehavior addr 0x292ac3c size 0x58 virtual false final false
- void set_notificationBehavior(::UnityEngine::InputSystem::PlayerNotifications value) ;
+ void set_notificationBehavior(UnityEngine::InputSystem::PlayerNotifications value) ;
 
 /// @brief Method get_actionEvents addr 0x292ac94 size 0x48 virtual false final false
- ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__PlayerInput__ActionEvent> get_actionEvents() ;
+ UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__ActionEvent> get_actionEvents() ;
 
 /// @brief Method set_actionEvents addr 0x292acdc size 0x7c virtual false final false
- void set_actionEvents(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__PlayerInput__ActionEvent> value) ;
+ void set_actionEvents(UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__ActionEvent> value) ;
 
 /// @brief Method get_deviceLostEvent addr 0x292ad58 size 0x68 virtual false final false
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__PlayerInput__DeviceLostEvent get_deviceLostEvent() ;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__DeviceLostEvent get_deviceLostEvent() ;
 
 /// @brief Method get_deviceRegainedEvent addr 0x292ae08 size 0x68 virtual false final false
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent get_deviceRegainedEvent() ;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent get_deviceRegainedEvent() ;
 
 /// @brief Method get_controlsChangedEvent addr 0x292aeb8 size 0x68 virtual false final false
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent get_controlsChangedEvent() ;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent get_controlsChangedEvent() ;
 
 /// @brief Method add_onActionTriggered addr 0x292af68 size 0xa0 virtual false final false
- void add_onActionTriggered(::System::Action_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext> value) ;
+ void add_onActionTriggered(System::Action_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext> value) ;
 
 /// @brief Method remove_onActionTriggered addr 0x292b008 size 0xa0 virtual false final false
- void remove_onActionTriggered(::System::Action_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext> value) ;
+ void remove_onActionTriggered(System::Action_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext> value) ;
 
 /// @brief Method add_onDeviceLost addr 0x292b0a8 size 0xa0 virtual false final false
- void add_onDeviceLost(::System::Action_1<::UnityEngine::InputSystem::PlayerInput> value) ;
+ void add_onDeviceLost(System::Action_1<UnityEngine::InputSystem::PlayerInput> value) ;
 
 /// @brief Method remove_onDeviceLost addr 0x292b148 size 0xa0 virtual false final false
- void remove_onDeviceLost(::System::Action_1<::UnityEngine::InputSystem::PlayerInput> value) ;
+ void remove_onDeviceLost(System::Action_1<UnityEngine::InputSystem::PlayerInput> value) ;
 
 /// @brief Method add_onDeviceRegained addr 0x292b1e8 size 0xa0 virtual false final false
- void add_onDeviceRegained(::System::Action_1<::UnityEngine::InputSystem::PlayerInput> value) ;
+ void add_onDeviceRegained(System::Action_1<UnityEngine::InputSystem::PlayerInput> value) ;
 
 /// @brief Method remove_onDeviceRegained addr 0x292b288 size 0xa0 virtual false final false
- void remove_onDeviceRegained(::System::Action_1<::UnityEngine::InputSystem::PlayerInput> value) ;
+ void remove_onDeviceRegained(System::Action_1<UnityEngine::InputSystem::PlayerInput> value) ;
 
 /// @brief Method add_onControlsChanged addr 0x292b328 size 0xa0 virtual false final false
- void add_onControlsChanged(::System::Action_1<::UnityEngine::InputSystem::PlayerInput> value) ;
+ void add_onControlsChanged(System::Action_1<UnityEngine::InputSystem::PlayerInput> value) ;
 
 /// @brief Method remove_onControlsChanged addr 0x292b3c8 size 0xa0 virtual false final false
- void remove_onControlsChanged(::System::Action_1<::UnityEngine::InputSystem::PlayerInput> value) ;
+ void remove_onControlsChanged(System::Action_1<UnityEngine::InputSystem::PlayerInput> value) ;
 
 /// @brief Method get_camera addr 0x292b468 size 0x8 virtual false final false
- ::UnityEngine::Camera get_camera() ;
+ UnityEngine::Camera get_camera() ;
 
 /// @brief Method set_camera addr 0x292b470 size 0x8 virtual false final false
- void set_camera(::UnityEngine::Camera value) ;
+ void set_camera(UnityEngine::Camera value) ;
 
 /// @brief Method get_uiInputModule addr 0x292b478 size 0x8 virtual false final false
- ::UnityEngine::InputSystem::UI::InputSystemUIInputModule get_uiInputModule() ;
+ UnityEngine::InputSystem::UI::InputSystemUIInputModule get_uiInputModule() ;
 
 /// @brief Method set_uiInputModule addr 0x292b480 size 0x158 virtual false final false
- void set_uiInputModule(::UnityEngine::InputSystem::UI::InputSystemUIInputModule value) ;
+ void set_uiInputModule(UnityEngine::InputSystem::UI::InputSystemUIInputModule value) ;
 
 /// @brief Method get_user addr 0x292b5d8 size 0x8 virtual false final false
- ::UnityEngine::InputSystem::Users::InputUser get_user() ;
+ UnityEngine::InputSystem::Users::InputUser get_user() ;
 
 /// @brief Method get_devices addr 0x292b5e0 size 0x30 virtual false final false
- ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice> get_devices() ;
+ UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<UnityEngine::InputSystem::InputDevice> get_devices() ;
 
 /// @brief Method get_hasMissingRequiredDevices addr 0x292b6bc size 0x48 virtual false final false
  bool get_hasMissingRequiredDevices() ;
 
 /// @brief Method get_all addr 0x292b780 size 0x90 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::PlayerInput> get_all() ;
+static UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<UnityEngine::InputSystem::PlayerInput> get_all() ;
 
 /// @brief Method get_isSinglePlayer addr 0x292b810 size 0x118 virtual false final false
 static bool get_isSinglePlayer() ;
@@ -669,28 +668,28 @@ template<typename TDevice>
  void PassivateInput() ;
 
 /// @brief Method SwitchCurrentControlScheme addr 0x292badc size 0x1d8 virtual false final false
- bool SwitchCurrentControlScheme(::ArrayW<::UnityEngine::InputSystem::InputDevice> devices) ;
+ bool SwitchCurrentControlScheme(::ArrayW<UnityEngine::InputSystem::InputDevice> devices) ;
 
 /// @brief Method SwitchCurrentControlScheme addr 0x292c0a8 size 0xe0 virtual false final false
- void SwitchCurrentControlScheme(::StringW controlScheme, ::ArrayW<::UnityEngine::InputSystem::InputDevice> devices) ;
+ void SwitchCurrentControlScheme(::StringW controlScheme, ::ArrayW<UnityEngine::InputSystem::InputDevice> devices) ;
 
 /// @brief Method SwitchCurrentActionMap addr 0x292b928 size 0x16c virtual false final false
  void SwitchCurrentActionMap(::StringW mapNameOrId) ;
 
 /// @brief Method GetPlayerByIndex addr 0x292c244 size 0xfc virtual false final false
-static ::UnityEngine::InputSystem::PlayerInput GetPlayerByIndex(int32_t playerIndex) ;
+static UnityEngine::InputSystem::PlayerInput GetPlayerByIndex(int32_t playerIndex) ;
 
 /// @brief Method FindFirstPairedToDevice addr 0x292c340 size 0x16c virtual false final false
-static ::UnityEngine::InputSystem::PlayerInput FindFirstPairedToDevice(::UnityEngine::InputSystem::InputDevice device) ;
+static UnityEngine::InputSystem::PlayerInput FindFirstPairedToDevice(UnityEngine::InputSystem::InputDevice device) ;
 
 /// @brief Method Instantiate addr 0x292c4ac size 0x15c virtual false final false
-static ::UnityEngine::InputSystem::PlayerInput Instantiate(::UnityEngine::GameObject prefab, int32_t playerIndex, ::StringW controlScheme, int32_t splitScreenIndex, ::UnityEngine::InputSystem::InputDevice pairWithDevice) ;
+static UnityEngine::InputSystem::PlayerInput Instantiate(UnityEngine::GameObject prefab, int32_t playerIndex, ::StringW controlScheme, int32_t splitScreenIndex, UnityEngine::InputSystem::InputDevice pairWithDevice) ;
 
 /// @brief Method Instantiate addr 0x292c948 size 0x194 virtual false final false
-static ::UnityEngine::InputSystem::PlayerInput Instantiate(::UnityEngine::GameObject prefab, int32_t playerIndex, ::StringW controlScheme, int32_t splitScreenIndex, ::ArrayW<::UnityEngine::InputSystem::InputDevice> pairWithDevices) ;
+static UnityEngine::InputSystem::PlayerInput Instantiate(UnityEngine::GameObject prefab, int32_t playerIndex, ::StringW controlScheme, int32_t splitScreenIndex, ::ArrayW<UnityEngine::InputSystem::InputDevice> pairWithDevices) ;
 
 /// @brief Method DoInstantiate addr 0x292c608 size 0x340 virtual false final false
-static ::UnityEngine::InputSystem::PlayerInput DoInstantiate(::UnityEngine::GameObject prefab) ;
+static UnityEngine::InputSystem::PlayerInput DoInstantiate(UnityEngine::GameObject prefab) ;
 
 /// @brief Method InitializeActions addr 0x292980c size 0x50c virtual false final false
  void InitializeActions() ;
@@ -705,7 +704,7 @@ static ::UnityEngine::InputSystem::PlayerInput DoInstantiate(::UnityEngine::Game
  void UninstallOnActionTriggeredHook() ;
 
 /// @brief Method OnActionTriggered addr 0x292d20c size 0x1f4 virtual false final false
- void OnActionTriggered(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext context) ;
+ void OnActionTriggered(UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext context) ;
 
 /// @brief Method CacheMessageNames addr 0x292ccb4 size 0x3cc virtual false final false
  void CacheMessageNames() ;
@@ -717,13 +716,13 @@ static ::UnityEngine::InputSystem::PlayerInput DoInstantiate(::UnityEngine::Game
  void AssignUserAndDevices() ;
 
 /// @brief Method HaveBindingForDevice addr 0x292da90 size 0x108 virtual false final false
- bool HaveBindingForDevice(::UnityEngine::InputSystem::InputDevice device) ;
+ bool HaveBindingForDevice(UnityEngine::InputSystem::InputDevice device) ;
 
 /// @brief Method UnassignUserAndDevices addr 0x292ded0 size 0xb8 virtual false final false
  void UnassignUserAndDevices() ;
 
 /// @brief Method TryToActivateControlScheme addr 0x292d83c size 0x1e0 virtual false final false
- bool TryToActivateControlScheme(::UnityEngine::InputSystem::InputControlScheme controlScheme) ;
+ bool TryToActivateControlScheme(UnityEngine::InputSystem::InputControlScheme controlScheme) ;
 
 /// @brief Method AssignPlayerIndex addr 0x292e264 size 0x208 virtual false final false
  void AssignPlayerIndex() ;
@@ -747,7 +746,7 @@ static ::UnityEngine::InputSystem::PlayerInput DoInstantiate(::UnityEngine::Game
  void OnDisable() ;
 
 /// @brief Method DebugLogAction addr 0x292f6ac size 0x78 virtual false final false
- void DebugLogAction(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext context) ;
+ void DebugLogAction(UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext context) ;
 
 /// @brief Method HandleDeviceLost addr 0x292f724 size 0x11c virtual false final false
  void HandleDeviceLost() ;
@@ -759,19 +758,19 @@ static ::UnityEngine::InputSystem::PlayerInput DoInstantiate(::UnityEngine::Game
  void HandleControlsChanged() ;
 
 /// @brief Method OnUserChange addr 0x292f95c size 0x168 virtual false final false
-static void OnUserChange(::UnityEngine::InputSystem::Users::InputUser user, ::UnityEngine::InputSystem::Users::InputUserChange change, ::UnityEngine::InputSystem::InputDevice device) ;
+static void OnUserChange(UnityEngine::InputSystem::Users::InputUser user, UnityEngine::InputSystem::Users::InputUserChange change, UnityEngine::InputSystem::InputDevice device) ;
 
 /// @brief Method OnPreFilterUnpairedDeviceUsed addr 0x292fad0 size 0xf4 virtual false final false
-static bool OnPreFilterUnpairedDeviceUsed(::UnityEngine::InputSystem::InputDevice device, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr) ;
+static bool OnPreFilterUnpairedDeviceUsed(UnityEngine::InputSystem::InputDevice device, UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr) ;
 
 /// @brief Method OnUnpairedDeviceUsed addr 0x292fbc4 size 0x610 virtual false final false
- void OnUnpairedDeviceUsed(::UnityEngine::InputSystem::InputControl control, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr) ;
+ void OnUnpairedDeviceUsed(UnityEngine::InputSystem::InputControl control, UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr) ;
 
 /// @brief Method OnDeviceChange addr 0x29301d4 size 0x108 virtual false final false
- void OnDeviceChange(::UnityEngine::InputSystem::InputDevice device, ::UnityEngine::InputSystem::InputDeviceChange change) ;
+ void OnDeviceChange(UnityEngine::InputSystem::InputDevice device, UnityEngine::InputSystem::InputDeviceChange change) ;
 
 /// @brief Method SwitchControlSchemeInternal addr 0x292bcb4 size 0x3f4 virtual false final false
- void SwitchControlSchemeInternal(ByRef<::UnityEngine::InputSystem::InputControlScheme> controlScheme, ::ArrayW<::UnityEngine::InputSystem::InputDevice> devices) ;
+ void SwitchControlSchemeInternal(ByRef<UnityEngine::InputSystem::InputControlScheme> controlScheme, ::ArrayW<UnityEngine::InputSystem::InputDevice> devices) ;
 
 // Ctor Parameters []
 explicit PlayerInput() ;
@@ -786,47 +785,47 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::DeviceLostEvent
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 361 }), TypeDefinitionIndex(TypeDefinitionIndex(6398))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6398)), TypeDefinitionIndex(TypeDefinitionIndex(10401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 361 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6395))
 // CS Name: UnityEngine.InputSystem.PlayerInput::DeviceLostEvent
-class CORDL_TYPE ____UnityEngine__InputSystem__PlayerInput__DeviceLostEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::PlayerInput> {
+class CORDL_TYPE UnityEngine__InputSystem__PlayerInput__DeviceLostEvent : public UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::PlayerInput> {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____UnityEngine__InputSystem__PlayerInput__DeviceLostEvent() = default;
+virtual ~UnityEngine__InputSystem__PlayerInput__DeviceLostEvent() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__InputSystem__PlayerInput__DeviceLostEvent", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__InputSystem__PlayerInput__DeviceLostEvent(____UnityEngine__InputSystem__PlayerInput__DeviceLostEvent const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__InputSystem__PlayerInput__DeviceLostEvent", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__InputSystem__PlayerInput__DeviceLostEvent(UnityEngine__InputSystem__PlayerInput__DeviceLostEvent const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__InputSystem__PlayerInput__DeviceLostEvent", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__InputSystem__PlayerInput__DeviceLostEvent(____UnityEngine__InputSystem__PlayerInput__DeviceLostEvent&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__InputSystem__PlayerInput__DeviceLostEvent", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__InputSystem__PlayerInput__DeviceLostEvent(UnityEngine__InputSystem__PlayerInput__DeviceLostEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__InputSystem__PlayerInput__DeviceLostEvent(void* ptr) noexcept : ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::PlayerInput>(ptr) {
+constexpr explicit UnityEngine__InputSystem__PlayerInput__DeviceLostEvent(void* ptr) noexcept : UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::PlayerInput>(ptr) {
 }
 
 
-  constexpr ____UnityEngine__InputSystem__PlayerInput__DeviceLostEvent& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__InputSystem__PlayerInput__DeviceLostEvent& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__InputSystem__PlayerInput__DeviceLostEvent& operator=(void* o) noexcept {
+  constexpr UnityEngine__InputSystem__PlayerInput__DeviceLostEvent& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__InputSystem__PlayerInput__DeviceLostEvent& operator=(____UnityEngine__InputSystem__PlayerInput__DeviceLostEvent&& o) noexcept = default;
-  constexpr ____UnityEngine__InputSystem__PlayerInput__DeviceLostEvent& operator=(____UnityEngine__InputSystem__PlayerInput__DeviceLostEvent const& o) noexcept = default;
+  constexpr UnityEngine__InputSystem__PlayerInput__DeviceLostEvent& operator=(UnityEngine__InputSystem__PlayerInput__DeviceLostEvent&& o) noexcept = default;
+  constexpr UnityEngine__InputSystem__PlayerInput__DeviceLostEvent& operator=(UnityEngine__InputSystem__PlayerInput__DeviceLostEvent const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__InputSystem__PlayerInput__DeviceLostEvent() ;
+explicit UnityEngine__InputSystem__PlayerInput__DeviceLostEvent() ;
 
 /// @brief Method .ctor addr 0x292adc0 size 0x48 virtual false final false
  void _ctor() ;
@@ -838,47 +837,47 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::DeviceRegainedEvent
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 361 }), TypeDefinitionIndex(TypeDefinitionIndex(6398))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6398)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 361 }), TypeDefinitionIndex(TypeDefinitionIndex(10401))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6396))
 // CS Name: UnityEngine.InputSystem.PlayerInput::DeviceRegainedEvent
-class CORDL_TYPE ____UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::PlayerInput> {
+class CORDL_TYPE UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent : public UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::PlayerInput> {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent() = default;
+virtual ~UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent(____UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent(UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent(____UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent(UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent(void* ptr) noexcept : ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::PlayerInput>(ptr) {
+constexpr explicit UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent(void* ptr) noexcept : UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::PlayerInput>(ptr) {
 }
 
 
-  constexpr ____UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent& operator=(void* o) noexcept {
+  constexpr UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent& operator=(____UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent&& o) noexcept = default;
-  constexpr ____UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent& operator=(____UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent const& o) noexcept = default;
+  constexpr UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent& operator=(UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent&& o) noexcept = default;
+  constexpr UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent& operator=(UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent() ;
+explicit UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent() ;
 
 /// @brief Method .ctor addr 0x292ae70 size 0x48 virtual false final false
  void _ctor() ;
@@ -890,47 +889,47 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::ControlsChangedEvent
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6398)), TypeDefinitionIndex(TypeDefinitionIndex(10401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 361 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 361 }), TypeDefinitionIndex(TypeDefinitionIndex(6398)), TypeDefinitionIndex(TypeDefinitionIndex(10401))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6397))
 // CS Name: UnityEngine.InputSystem.PlayerInput::ControlsChangedEvent
-class CORDL_TYPE ____UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::PlayerInput> {
+class CORDL_TYPE UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent : public UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::PlayerInput> {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent() = default;
+virtual ~UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent(____UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent(UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent(____UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent(UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent(void* ptr) noexcept : ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::PlayerInput>(ptr) {
+constexpr explicit UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent(void* ptr) noexcept : UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::PlayerInput>(ptr) {
 }
 
 
-  constexpr ____UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent& operator=(void* o) noexcept {
+  constexpr UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent& operator=(____UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent&& o) noexcept = default;
-  constexpr ____UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent& operator=(____UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent const& o) noexcept = default;
+  constexpr UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent& operator=(UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent&& o) noexcept = default;
+  constexpr UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent& operator=(UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent() ;
+explicit UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent() ;
 
 /// @brief Method .ctor addr 0x292af20 size 0x48 virtual false final false
  void _ctor() ;
@@ -939,14 +938,13 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::PlayerInput);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::PlayerInput, "UnityEngine.InputSystem", "PlayerInput");
-NEED_NO_BOX(::UnityEngine::InputSystem::____UnityEngine__InputSystem__PlayerInput__ActionEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::____UnityEngine__InputSystem__PlayerInput__ActionEvent, "UnityEngine.InputSystem", "PlayerInput/ActionEvent");
-NEED_NO_BOX(::UnityEngine::InputSystem::____UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::____UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent, "UnityEngine.InputSystem", "PlayerInput/ControlsChangedEvent");
-NEED_NO_BOX(::UnityEngine::InputSystem::____UnityEngine__InputSystem__PlayerInput__DeviceLostEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::____UnityEngine__InputSystem__PlayerInput__DeviceLostEvent, "UnityEngine.InputSystem", "PlayerInput/DeviceLostEvent");
-NEED_NO_BOX(::UnityEngine::InputSystem::____UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::____UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent, "UnityEngine.InputSystem", "PlayerInput/DeviceRegainedEvent");
+NEED_NO_BOX(UnityEngine::InputSystem::PlayerInput);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::PlayerInput, "UnityEngine.InputSystem", "PlayerInput");
+NEED_NO_BOX(UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__ActionEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__ActionEvent, "UnityEngine.InputSystem", "PlayerInput/ActionEvent");
+NEED_NO_BOX(UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent, "UnityEngine.InputSystem", "PlayerInput/ControlsChangedEvent");
+NEED_NO_BOX(UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__DeviceLostEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__DeviceLostEvent, "UnityEngine.InputSystem", "PlayerInput/DeviceLostEvent");
+NEED_NO_BOX(UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent, "UnityEngine.InputSystem", "PlayerInput/DeviceRegainedEvent");

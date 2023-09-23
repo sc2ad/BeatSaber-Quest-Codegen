@@ -1,6 +1,5 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace UnityEngine::Timeline {
 struct NotificationFlags;
 }
@@ -26,18 +25,17 @@ constexpr explicit INotificationOptionProvider(void* ptr) noexcept : ::cordl_int
 
 // Properties
 
- ::UnityEngine::Timeline::NotificationFlags __declspec(property(get=get_flags))  flags;
+ UnityEngine::Timeline::NotificationFlags __declspec(property(get=get_flags))  flags;
 
 
 // Methods
 
 /// @brief Method get_flags addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Timeline::NotificationFlags get_flags() ;
+ UnityEngine::Timeline::NotificationFlags get_flags() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Timeline::INotificationOptionProvider);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::INotificationOptionProvider, "UnityEngine.Timeline", "INotificationOptionProvider");
+NEED_NO_BOX(UnityEngine::Timeline::INotificationOptionProvider);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::INotificationOptionProvider, "UnityEngine.Timeline", "INotificationOptionProvider");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Rendering {
 struct TextureDimension;
@@ -73,32 +72,31 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::UnityEngine::Rendering::TextureDimension const Unknown;
+static UnityEngine::Rendering::TextureDimension const Unknown;
 
 /// @brief Field None offset 0
-static ::UnityEngine::Rendering::TextureDimension const None;
+static UnityEngine::Rendering::TextureDimension const None;
 
 /// @brief Field Any offset 0
-static ::UnityEngine::Rendering::TextureDimension const Any;
+static UnityEngine::Rendering::TextureDimension const Any;
 
 /// @brief Field Tex2D offset 0
-static ::UnityEngine::Rendering::TextureDimension const Tex2D;
+static UnityEngine::Rendering::TextureDimension const Tex2D;
 
 /// @brief Field Tex3D offset 0
-static ::UnityEngine::Rendering::TextureDimension const Tex3D;
+static UnityEngine::Rendering::TextureDimension const Tex3D;
 
 /// @brief Field Cube offset 0
-static ::UnityEngine::Rendering::TextureDimension const Cube;
+static UnityEngine::Rendering::TextureDimension const Cube;
 
 /// @brief Field Tex2DArray offset 0
-static ::UnityEngine::Rendering::TextureDimension const Tex2DArray;
+static UnityEngine::Rendering::TextureDimension const Tex2DArray;
 
 /// @brief Field CubeArray offset 0
-static ::UnityEngine::Rendering::TextureDimension const CubeArray;
+static UnityEngine::Rendering::TextureDimension const CubeArray;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Rendering
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::TextureDimension, "UnityEngine.Rendering", "TextureDimension");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::TextureDimension, "UnityEngine.Rendering", "TextureDimension");

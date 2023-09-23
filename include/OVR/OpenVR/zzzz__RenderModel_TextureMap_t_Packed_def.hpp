@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace OVR::OpenVR {
 struct RenderModel_TextureMap_t;
 }
@@ -76,14 +75,13 @@ constexpr ::cordl_internals::intptr_t __get_rubTextureMapData() const;
 // Methods
 
 /// @brief Method .ctor addr 0x2668f0c size 0x14 virtual false final false
- void _ctor(::OVR::OpenVR::RenderModel_TextureMap_t unpacked) ;
+ void _ctor(OVR::OpenVR::RenderModel_TextureMap_t unpacked) ;
 
 /// @brief Method Unpack addr 0x2668f20 size 0x1c virtual false final false
- void Unpack(ByRef<::OVR::OpenVR::RenderModel_TextureMap_t> unpacked) ;
+ void Unpack(ByRef<OVR::OpenVR::RenderModel_TextureMap_t> unpacked) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::RenderModel_TextureMap_t_Packed, "OVR.OpenVR", "RenderModel_TextureMap_t_Packed");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::RenderModel_TextureMap_t_Packed, "OVR.OpenVR", "RenderModel_TextureMap_t_Packed");

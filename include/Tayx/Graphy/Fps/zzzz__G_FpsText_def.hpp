@@ -3,15 +3,14 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine::UI {
-class Text;
-}
 namespace Tayx::Graphy::Fps {
 class G_FpsMonitor;
 }
 namespace Tayx::Graphy {
 class GraphyManager;
+}
+namespace UnityEngine::UI {
+class Text;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Fps {
@@ -23,7 +22,7 @@ namespace Tayx::Graphy::Fps {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15207))
 // CS Name: Tayx.Graphy.Fps.G_FpsText
-class CORDL_TYPE G_FpsText : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE G_FpsText : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr G_FpsText(G_FpsText const& ) noexcept = default;
 constexpr G_FpsText(G_FpsText&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit G_FpsText(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit G_FpsText(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -59,47 +58,47 @@ constexpr explicit G_FpsText(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(
 
 // Fields
 
- ::UnityEngine::UI::Text __declspec(property(get=__get_m_fpsText, put=__set_m_fpsText))  m_fpsText;
+ UnityEngine::UI::Text __declspec(property(get=__get_m_fpsText, put=__set_m_fpsText))  m_fpsText;
 
-constexpr void __set_m_fpsText(::UnityEngine::UI::Text value) ;
+constexpr void __set_m_fpsText(UnityEngine::UI::Text value) ;
 
-constexpr ::UnityEngine::UI::Text __get_m_fpsText() const;
+constexpr UnityEngine::UI::Text __get_m_fpsText() const;
 
- ::UnityEngine::UI::Text __declspec(property(get=__get_m_msText, put=__set_m_msText))  m_msText;
+ UnityEngine::UI::Text __declspec(property(get=__get_m_msText, put=__set_m_msText))  m_msText;
 
-constexpr void __set_m_msText(::UnityEngine::UI::Text value) ;
+constexpr void __set_m_msText(UnityEngine::UI::Text value) ;
 
-constexpr ::UnityEngine::UI::Text __get_m_msText() const;
+constexpr UnityEngine::UI::Text __get_m_msText() const;
 
- ::UnityEngine::UI::Text __declspec(property(get=__get_m_avgFpsText, put=__set_m_avgFpsText))  m_avgFpsText;
+ UnityEngine::UI::Text __declspec(property(get=__get_m_avgFpsText, put=__set_m_avgFpsText))  m_avgFpsText;
 
-constexpr void __set_m_avgFpsText(::UnityEngine::UI::Text value) ;
+constexpr void __set_m_avgFpsText(UnityEngine::UI::Text value) ;
 
-constexpr ::UnityEngine::UI::Text __get_m_avgFpsText() const;
+constexpr UnityEngine::UI::Text __get_m_avgFpsText() const;
 
- ::UnityEngine::UI::Text __declspec(property(get=__get_m_onePercentFpsText, put=__set_m_onePercentFpsText))  m_onePercentFpsText;
+ UnityEngine::UI::Text __declspec(property(get=__get_m_onePercentFpsText, put=__set_m_onePercentFpsText))  m_onePercentFpsText;
 
-constexpr void __set_m_onePercentFpsText(::UnityEngine::UI::Text value) ;
+constexpr void __set_m_onePercentFpsText(UnityEngine::UI::Text value) ;
 
-constexpr ::UnityEngine::UI::Text __get_m_onePercentFpsText() const;
+constexpr UnityEngine::UI::Text __get_m_onePercentFpsText() const;
 
- ::UnityEngine::UI::Text __declspec(property(get=__get_m_zero1PercentFpsText, put=__set_m_zero1PercentFpsText))  m_zero1PercentFpsText;
+ UnityEngine::UI::Text __declspec(property(get=__get_m_zero1PercentFpsText, put=__set_m_zero1PercentFpsText))  m_zero1PercentFpsText;
 
-constexpr void __set_m_zero1PercentFpsText(::UnityEngine::UI::Text value) ;
+constexpr void __set_m_zero1PercentFpsText(UnityEngine::UI::Text value) ;
 
-constexpr ::UnityEngine::UI::Text __get_m_zero1PercentFpsText() const;
+constexpr UnityEngine::UI::Text __get_m_zero1PercentFpsText() const;
 
- ::Tayx::Graphy::GraphyManager __declspec(property(get=__get_m_graphyManager, put=__set_m_graphyManager))  m_graphyManager;
+ Tayx::Graphy::GraphyManager __declspec(property(get=__get_m_graphyManager, put=__set_m_graphyManager))  m_graphyManager;
 
-constexpr void __set_m_graphyManager(::Tayx::Graphy::GraphyManager value) ;
+constexpr void __set_m_graphyManager(Tayx::Graphy::GraphyManager value) ;
 
-constexpr ::Tayx::Graphy::GraphyManager __get_m_graphyManager() const;
+constexpr Tayx::Graphy::GraphyManager __get_m_graphyManager() const;
 
- ::Tayx::Graphy::Fps::G_FpsMonitor __declspec(property(get=__get_m_fpsMonitor, put=__set_m_fpsMonitor))  m_fpsMonitor;
+ Tayx::Graphy::Fps::G_FpsMonitor __declspec(property(get=__get_m_fpsMonitor, put=__set_m_fpsMonitor))  m_fpsMonitor;
 
-constexpr void __set_m_fpsMonitor(::Tayx::Graphy::Fps::G_FpsMonitor value) ;
+constexpr void __set_m_fpsMonitor(Tayx::Graphy::Fps::G_FpsMonitor value) ;
 
-constexpr ::Tayx::Graphy::Fps::G_FpsMonitor __get_m_fpsMonitor() const;
+constexpr Tayx::Graphy::Fps::G_FpsMonitor __get_m_fpsMonitor() const;
 
  int32_t __declspec(property(get=__get_m_updateRate, put=__set_m_updateRate))  m_updateRate;
 
@@ -147,7 +146,7 @@ static constexpr ::ConstString  m_msStringFormat{u"0.0"};
  void UpdateParameters() ;
 
 /// @brief Method SetFpsRelatedTextColor addr 0x28766e0 size 0x7c virtual false final false
- void SetFpsRelatedTextColor(::UnityEngine::UI::Text text, float_t fps) ;
+ void SetFpsRelatedTextColor(UnityEngine::UI::Text text, float_t fps) ;
 
 /// @brief Method Init addr 0x28762d0 size 0x104 virtual false final false
  void Init() ;
@@ -162,6 +161,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Tayx::Graphy::Fps
-} // end anonymous namespace
-NEED_NO_BOX(::Tayx::Graphy::Fps::G_FpsText);
-DEFINE_IL2CPP_ARG_TYPE(::Tayx::Graphy::Fps::G_FpsText, "Tayx.Graphy.Fps", "G_FpsText");
+NEED_NO_BOX(Tayx::Graphy::Fps::G_FpsText);
+DEFINE_IL2CPP_ARG_TYPE(Tayx::Graphy::Fps::G_FpsText, "Tayx.Graphy.Fps", "G_FpsText");

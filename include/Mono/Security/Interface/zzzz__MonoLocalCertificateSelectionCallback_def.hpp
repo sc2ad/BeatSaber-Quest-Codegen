@@ -5,12 +5,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
-}
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateCollection;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
 }
 // Forward declare root types
 namespace Mono::Security::Interface {
@@ -22,7 +21,7 @@ namespace Mono::Security::Interface {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13992))
 // CS Name: Mono.Security.Interface.MonoLocalCertificateSelectionCallback
-class CORDL_TYPE MonoLocalCertificateSelectionCallback : public ::System::MulticastDelegate {
+class CORDL_TYPE MonoLocalCertificateSelectionCallback : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr MonoLocalCertificateSelectionCallback(MonoLocalCertificateSelectionCal
 constexpr MonoLocalCertificateSelectionCallback(MonoLocalCertificateSelectionCallback&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MonoLocalCertificateSelectionCallback(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit MonoLocalCertificateSelectionCallback(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -65,12 +64,11 @@ explicit MonoLocalCertificateSelectionCallback(::bs_hook::Il2CppWrapperType obje
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x2295748 size 0x14 virtual true final false
- ::System::Security::Cryptography::X509Certificates::X509Certificate Invoke(::StringW targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection localCertificates, ::System::Security::Cryptography::X509Certificates::X509Certificate remoteCertificate, ::ArrayW<::StringW> acceptableIssuers) ;
+ System::Security::Cryptography::X509Certificates::X509Certificate Invoke(::StringW targetHost, System::Security::Cryptography::X509Certificates::X509CertificateCollection localCertificates, System::Security::Cryptography::X509Certificates::X509Certificate remoteCertificate, ::ArrayW<::StringW> acceptableIssuers) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Security::Interface
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Security::Interface::MonoLocalCertificateSelectionCallback);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Interface::MonoLocalCertificateSelectionCallback, "Mono.Security.Interface", "MonoLocalCertificateSelectionCallback");
+NEED_NO_BOX(Mono::Security::Interface::MonoLocalCertificateSelectionCallback);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::MonoLocalCertificateSelectionCallback, "Mono.Security.Interface", "MonoLocalCertificateSelectionCallback");

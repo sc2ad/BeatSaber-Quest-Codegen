@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Pkix {
-class PkixParameters;
-}
 namespace Org::BouncyCastle::X509::Store {
 class IX509Selector;
 }
 namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
+}
+namespace Org::BouncyCastle::Pkix {
+class PkixParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {
@@ -24,7 +23,7 @@ namespace Org::BouncyCastle::Pkix {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1713))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1714))
 // CS Name: Org.BouncyCastle.Pkix.PkixBuilderParameters
-class CORDL_TYPE PkixBuilderParameters : public ::Org::BouncyCastle::Pkix::PkixParameters {
+class CORDL_TYPE PkixBuilderParameters : public Org::BouncyCastle::Pkix::PkixParameters {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr PkixBuilderParameters(PkixBuilderParameters const& ) noexcept = defaul
 constexpr PkixBuilderParameters(PkixBuilderParameters&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PkixBuilderParameters(void* ptr) noexcept : ::Org::BouncyCastle::Pkix::PkixParameters(ptr) {
+constexpr explicit PkixBuilderParameters(void* ptr) noexcept : Org::BouncyCastle::Pkix::PkixParameters(ptr) {
 }
 
 
@@ -66,11 +65,11 @@ constexpr void __set_maxPathLength(int32_t value) ;
 
 constexpr int32_t __get_maxPathLength() const;
 
- ::Org::BouncyCastle::Utilities::Collections::ISet __declspec(property(get=__get_excludedCerts, put=__set_excludedCerts))  excludedCerts;
+ Org::BouncyCastle::Utilities::Collections::ISet __declspec(property(get=__get_excludedCerts, put=__set_excludedCerts))  excludedCerts;
 
-constexpr void __set_excludedCerts(::Org::BouncyCastle::Utilities::Collections::ISet value) ;
+constexpr void __set_excludedCerts(Org::BouncyCastle::Utilities::Collections::ISet value) ;
 
-constexpr ::Org::BouncyCastle::Utilities::Collections::ISet __get_excludedCerts() const;
+constexpr Org::BouncyCastle::Utilities::Collections::ISet __get_excludedCerts() const;
 
 
 // Properties
@@ -81,13 +80,13 @@ constexpr ::Org::BouncyCastle::Utilities::Collections::ISet __get_excludedCerts(
 // Methods
 
 /// @brief Method GetInstance addr 0x106372c size 0xec virtual false final false
-static ::Org::BouncyCastle::Pkix::PkixBuilderParameters GetInstance(::Org::BouncyCastle::Pkix::PkixParameters pkixParams) ;
+static Org::BouncyCastle::Pkix::PkixBuilderParameters GetInstance(Org::BouncyCastle::Pkix::PkixParameters pkixParams) ;
 
-// Ctor Parameters [CppParam { name: "trustAnchors", ty: "::Org::BouncyCastle::Utilities::Collections::ISet", modifiers: "", def_value: None }, CppParam { name: "targetConstraints", ty: "::Org::BouncyCastle::X509::Store::IX509Selector", modifiers: "", def_value: None }]
-explicit PkixBuilderParameters(::Org::BouncyCastle::Utilities::Collections::ISet trustAnchors, ::Org::BouncyCastle::X509::Store::IX509Selector targetConstraints) ;
+// Ctor Parameters [CppParam { name: "trustAnchors", ty: "Org::BouncyCastle::Utilities::Collections::ISet", modifiers: "", def_value: None }, CppParam { name: "targetConstraints", ty: "Org::BouncyCastle::X509::Store::IX509Selector", modifiers: "", def_value: None }]
+explicit PkixBuilderParameters(Org::BouncyCastle::Utilities::Collections::ISet trustAnchors, Org::BouncyCastle::X509::Store::IX509Selector targetConstraints) ;
 
 /// @brief Method .ctor addr 0x1063818 size 0x98 virtual false final false
- void _ctor(::Org::BouncyCastle::Utilities::Collections::ISet trustAnchors, ::Org::BouncyCastle::X509::Store::IX509Selector targetConstraints) ;
+ void _ctor(Org::BouncyCastle::Utilities::Collections::ISet trustAnchors, Org::BouncyCastle::X509::Store::IX509Selector targetConstraints) ;
 
 /// @brief Method get_MaxPathLength addr 0x10638b0 size 0x8 virtual true final false
  int32_t get_MaxPathLength() ;
@@ -96,13 +95,13 @@ explicit PkixBuilderParameters(::Org::BouncyCastle::Utilities::Collections::ISet
  void set_MaxPathLength(int32_t value) ;
 
 /// @brief Method GetExcludedCerts addr 0x106391c size 0x68 virtual true final false
- ::Org::BouncyCastle::Utilities::Collections::ISet GetExcludedCerts() ;
+ Org::BouncyCastle::Utilities::Collections::ISet GetExcludedCerts() ;
 
 /// @brief Method SetExcludedCerts addr 0x1063984 size 0x80 virtual true final false
- void SetExcludedCerts(::Org::BouncyCastle::Utilities::Collections::ISet excludedCerts) ;
+ void SetExcludedCerts(Org::BouncyCastle::Utilities::Collections::ISet excludedCerts) ;
 
 /// @brief Method SetParams addr 0x1063a04 size 0xc4 virtual true final false
- void SetParams(::Org::BouncyCastle::Pkix::PkixParameters parameters) ;
+ void SetParams(Org::BouncyCastle::Pkix::PkixParameters parameters) ;
 
 /// @brief Method Clone addr 0x1063ac8 size 0xb8 virtual true final false
  ::bs_hook::Il2CppWrapperType Clone() ;
@@ -114,6 +113,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Pkix
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Pkix::PkixBuilderParameters);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Pkix::PkixBuilderParameters, "Org.BouncyCastle.Pkix", "PkixBuilderParameters");
+NEED_NO_BOX(Org::BouncyCastle::Pkix::PkixBuilderParameters);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Pkix::PkixBuilderParameters, "Org.BouncyCastle.Pkix", "PkixBuilderParameters");

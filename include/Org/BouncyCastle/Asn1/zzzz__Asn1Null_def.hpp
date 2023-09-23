@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Null;
@@ -13,7 +12,7 @@ namespace Org::BouncyCastle::Asn1 {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(31))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(454))
 // CS Name: Org.BouncyCastle.Asn1.Asn1Null
-class CORDL_TYPE Asn1Null : public ::Org::BouncyCastle::Asn1::Asn1Object {
+class CORDL_TYPE Asn1Null : public Org::BouncyCastle::Asn1::Asn1Object {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr Asn1Null(Asn1Null const& ) noexcept = default;
 constexpr Asn1Null(Asn1Null&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Asn1Null(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::Asn1Object(ptr) {
+constexpr explicit Asn1Null(void* ptr) noexcept : Org::BouncyCastle::Asn1::Asn1Object(ptr) {
 }
 
 
@@ -62,6 +61,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::Asn1Null);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Asn1Null, "Org.BouncyCastle.Asn1", "Asn1Null");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Asn1Null);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1Null, "Org.BouncyCastle.Asn1", "Asn1Null");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace UnityEngine::UIElements {
 class PropagationPaths;
 }
@@ -55,12 +54,11 @@ constexpr explicit EventDebugger(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 // Methods
 
 /// @brief Method LogPropagationPaths addr 0x2d0d310 size 0x4 virtual false final false
-static void LogPropagationPaths(::UnityEngine::UIElements::EventBase evt, ::UnityEngine::UIElements::PropagationPaths paths) ;
+static void LogPropagationPaths(UnityEngine::UIElements::EventBase evt, UnityEngine::UIElements::PropagationPaths paths) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::EventDebugger);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::EventDebugger, "UnityEngine.UIElements", "EventDebugger");
+NEED_NO_BOX(UnityEngine::UIElements::EventDebugger);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::EventDebugger, "UnityEngine.UIElements", "EventDebugger");

@@ -4,24 +4,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto::Modes {
-class IAeadBlockCipher;
-}
-namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
-}
 namespace Org::BouncyCastle::Crypto::Modes {
 class IAeadCipher;
 }
+namespace Org::BouncyCastle::Crypto::Modes {
+class IAeadBlockCipher;
+}
 namespace Org::BouncyCastle::Crypto::Modes::Gcm {
-class IGcmExponentiator;
+class IGcmMultiplier;
+}
+namespace Org::BouncyCastle::Crypto {
+class IBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto::Modes::Gcm {
-class IGcmMultiplier;
+class IGcmExponentiator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Modes {
@@ -36,11 +35,11 @@ namespace Org::BouncyCastle::Crypto::Modes {
 class CORDL_TYPE GcmBlockCipher : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher
-constexpr operator  ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher
+constexpr operator  Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher() const noexcept;
 
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Modes::IAeadCipher
-constexpr operator  ::Org::BouncyCastle::Crypto::Modes::IAeadCipher() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Modes::IAeadCipher
+constexpr operator  Org::BouncyCastle::Crypto::Modes::IAeadCipher() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xb8};
@@ -78,23 +77,23 @@ constexpr explicit GcmBlockCipher(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 /// @brief Field BlockSize offset 0
 static constexpr int32_t  BlockSize{16};
 
- ::Org::BouncyCastle::Crypto::IBlockCipher __declspec(property(get=__get_cipher, put=__set_cipher))  cipher;
+ Org::BouncyCastle::Crypto::IBlockCipher __declspec(property(get=__get_cipher, put=__set_cipher))  cipher;
 
-constexpr void __set_cipher(::Org::BouncyCastle::Crypto::IBlockCipher value) ;
+constexpr void __set_cipher(Org::BouncyCastle::Crypto::IBlockCipher value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IBlockCipher __get_cipher() const;
+constexpr Org::BouncyCastle::Crypto::IBlockCipher __get_cipher() const;
 
- ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier __declspec(property(get=__get_multiplier, put=__set_multiplier))  multiplier;
+ Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier __declspec(property(get=__get_multiplier, put=__set_multiplier))  multiplier;
 
-constexpr void __set_multiplier(::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier value) ;
+constexpr void __set_multiplier(Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier __get_multiplier() const;
+constexpr Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier __get_multiplier() const;
 
- ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator __declspec(property(get=__get_exp, put=__set_exp))  exp;
+ Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator __declspec(property(get=__get_exp, put=__set_exp))  exp;
 
-constexpr void __set_exp(::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator value) ;
+constexpr void __set_exp(Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator __get_exp() const;
+constexpr Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator __get_exp() const;
 
  bool __declspec(property(get=__get_forEncryption, put=__set_forEncryption))  forEncryption;
 
@@ -230,29 +229,29 @@ constexpr uint64_t __get_atLengthPre() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c", ty: "::Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
-explicit GcmBlockCipher(::Org::BouncyCastle::Crypto::IBlockCipher c) ;
+// Ctor Parameters [CppParam { name: "c", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
+explicit GcmBlockCipher(Org::BouncyCastle::Crypto::IBlockCipher c) ;
 
 /// @brief Method .ctor addr 0xe91300 size 0x8 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher c) ;
+ void _ctor(Org::BouncyCastle::Crypto::IBlockCipher c) ;
 
-// Ctor Parameters [CppParam { name: "c", ty: "::Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }, CppParam { name: "m", ty: "::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier", modifiers: "", def_value: None }]
-explicit GcmBlockCipher(::Org::BouncyCastle::Crypto::IBlockCipher c, ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier m) ;
+// Ctor Parameters [CppParam { name: "c", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }, CppParam { name: "m", ty: "Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier", modifiers: "", def_value: None }]
+explicit GcmBlockCipher(Org::BouncyCastle::Crypto::IBlockCipher c, Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier m) ;
 
 /// @brief Method .ctor addr 0xe91308 size 0x190 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher c, ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier m) ;
+ void _ctor(Org::BouncyCastle::Crypto::IBlockCipher c, Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier m) ;
 
 /// @brief Method get_AlgorithmName addr 0xe91498 size 0xc0 virtual true final false
  ::StringW get_AlgorithmName() ;
 
 /// @brief Method GetUnderlyingCipher addr 0xe91558 size 0x8 virtual true final true
- ::Org::BouncyCastle::Crypto::IBlockCipher GetUnderlyingCipher() ;
+ Org::BouncyCastle::Crypto::IBlockCipher GetUnderlyingCipher() ;
 
 /// @brief Method GetBlockSize addr 0xe91560 size 0x8 virtual true final false
  int32_t GetBlockSize() ;
 
 /// @brief Method Init addr 0xe91568 size 0x6bc virtual true final false
- void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method GetMac addr 0xe91e3c size 0x88 virtual true final false
  ::ArrayW<uint8_t> GetMac() ;
@@ -315,6 +314,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Modes
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher, "Org.BouncyCastle.Crypto.Modes", "GcmBlockCipher");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Modes::GcmBlockCipher);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::GcmBlockCipher, "Org.BouncyCastle.Crypto.Modes", "GcmBlockCipher");

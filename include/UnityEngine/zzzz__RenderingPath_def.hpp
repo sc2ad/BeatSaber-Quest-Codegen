@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct RenderingPath;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field UsePlayerSettings offset 0
-static ::UnityEngine::RenderingPath const UsePlayerSettings;
+static UnityEngine::RenderingPath const UsePlayerSettings;
 
 /// @brief Field VertexLit offset 0
-static ::UnityEngine::RenderingPath const VertexLit;
+static UnityEngine::RenderingPath const VertexLit;
 
 /// @brief Field Forward offset 0
-static ::UnityEngine::RenderingPath const Forward;
+static UnityEngine::RenderingPath const Forward;
 
 /// @brief Field DeferredLighting offset 0
-static ::UnityEngine::RenderingPath const DeferredLighting;
+static UnityEngine::RenderingPath const DeferredLighting;
 
 /// @brief Field DeferredShading offset 0
-static ::UnityEngine::RenderingPath const DeferredShading;
+static UnityEngine::RenderingPath const DeferredShading;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::RenderingPath, "UnityEngine", "RenderingPath");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RenderingPath, "UnityEngine", "RenderingPath");

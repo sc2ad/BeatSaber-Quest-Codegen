@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 class Sprite;
 }
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4225))
 // CS Name: GameplayModifierParamsSO
-class CORDL_TYPE GameplayModifierParamsSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE GameplayModifierParamsSO : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr GameplayModifierParamsSO(GameplayModifierParamsSO const& ) noexcept = 
 constexpr GameplayModifierParamsSO(GameplayModifierParamsSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GameplayModifierParamsSO(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit GameplayModifierParamsSO(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -78,29 +77,29 @@ constexpr void __set__multiplierConditionallyValid(bool value) ;
 
 constexpr bool __get__multiplierConditionallyValid() const;
 
- ::UnityEngine::Sprite __declspec(property(get=__get__icon, put=__set__icon))  _icon;
+ UnityEngine::Sprite __declspec(property(get=__get__icon, put=__set__icon))  _icon;
 
-constexpr void __set__icon(::UnityEngine::Sprite value) ;
+constexpr void __set__icon(UnityEngine::Sprite value) ;
 
-constexpr ::UnityEngine::Sprite __get__icon() const;
+constexpr UnityEngine::Sprite __get__icon() const;
 
- ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO> __declspec(property(get=__get__mutuallyExclusives, put=__set__mutuallyExclusives))  _mutuallyExclusives;
+ ::ArrayW<GlobalNamespace::GameplayModifierParamsSO> __declspec(property(get=__get__mutuallyExclusives, put=__set__mutuallyExclusives))  _mutuallyExclusives;
 
-constexpr void __set__mutuallyExclusives(::ArrayW<::GlobalNamespace::GameplayModifierParamsSO> value) ;
+constexpr void __set__mutuallyExclusives(::ArrayW<GlobalNamespace::GameplayModifierParamsSO> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO> __get__mutuallyExclusives() const;
+constexpr ::ArrayW<GlobalNamespace::GameplayModifierParamsSO> __get__mutuallyExclusives() const;
 
- ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO> __declspec(property(get=__get__requires, put=__set__requires))  _requires;
+ ::ArrayW<GlobalNamespace::GameplayModifierParamsSO> __declspec(property(get=__get__requires, put=__set__requires))  _requires;
 
-constexpr void __set__requires(::ArrayW<::GlobalNamespace::GameplayModifierParamsSO> value) ;
+constexpr void __set__requires(::ArrayW<GlobalNamespace::GameplayModifierParamsSO> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO> __get__requires() const;
+constexpr ::ArrayW<GlobalNamespace::GameplayModifierParamsSO> __get__requires() const;
 
- ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO> __declspec(property(get=__get__requiredBy, put=__set__requiredBy))  _requiredBy;
+ ::ArrayW<GlobalNamespace::GameplayModifierParamsSO> __declspec(property(get=__get__requiredBy, put=__set__requiredBy))  _requiredBy;
 
-constexpr void __set__requiredBy(::ArrayW<::GlobalNamespace::GameplayModifierParamsSO> value) ;
+constexpr void __set__requiredBy(::ArrayW<GlobalNamespace::GameplayModifierParamsSO> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO> __get__requiredBy() const;
+constexpr ::ArrayW<GlobalNamespace::GameplayModifierParamsSO> __get__requiredBy() const;
 
  bool __declspec(property(get=__get__isInBeta, put=__set__isInBeta))  _isInBeta;
 
@@ -119,13 +118,13 @@ constexpr bool __get__isInBeta() const;
 
  bool __declspec(property(get=get_multiplierConditionallyValid))  multiplierConditionallyValid;
 
- ::UnityEngine::Sprite __declspec(property(get=get_icon))  icon;
+ UnityEngine::Sprite __declspec(property(get=get_icon))  icon;
 
- ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO> __declspec(property(get=get_mutuallyExclusives))  mutuallyExclusives;
+ ::ArrayW<GlobalNamespace::GameplayModifierParamsSO> __declspec(property(get=get_mutuallyExclusives))  mutuallyExclusives;
 
- ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO> __declspec(property(get=get_requires))  requires;
+ ::ArrayW<GlobalNamespace::GameplayModifierParamsSO> __declspec(property(get=get_requires))  requires;
 
- ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO> __declspec(property(get=get_requiredBy))  requiredBy;
+ ::ArrayW<GlobalNamespace::GameplayModifierParamsSO> __declspec(property(get=get_requiredBy))  requiredBy;
 
  bool __declspec(property(get=get_isInBeta))  isInBeta;
 
@@ -145,16 +144,16 @@ constexpr bool __get__isInBeta() const;
  bool get_multiplierConditionallyValid() ;
 
 /// @brief Method get_icon addr 0x21c2190 size 0x8 virtual false final false
- ::UnityEngine::Sprite get_icon() ;
+ UnityEngine::Sprite get_icon() ;
 
 /// @brief Method get_mutuallyExclusives addr 0x21c2198 size 0x8 virtual false final false
- ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO> get_mutuallyExclusives() ;
+ ::ArrayW<GlobalNamespace::GameplayModifierParamsSO> get_mutuallyExclusives() ;
 
 /// @brief Method get_requires addr 0x21c21a0 size 0x8 virtual false final false
- ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO> get_requires() ;
+ ::ArrayW<GlobalNamespace::GameplayModifierParamsSO> get_requires() ;
 
 /// @brief Method get_requiredBy addr 0x21c21a8 size 0x8 virtual false final false
- ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO> get_requiredBy() ;
+ ::ArrayW<GlobalNamespace::GameplayModifierParamsSO> get_requiredBy() ;
 
 /// @brief Method get_isInBeta addr 0x21c21b0 size 0x8 virtual false final false
  bool get_isInBeta() ;
@@ -169,6 +168,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::GameplayModifierParamsSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameplayModifierParamsSO, "", "GameplayModifierParamsSO");
+NEED_NO_BOX(GlobalNamespace::GameplayModifierParamsSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifierParamsSO, "", "GameplayModifierParamsSO");

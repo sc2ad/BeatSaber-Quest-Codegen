@@ -3,19 +3,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstddef>
-namespace {
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputStateTypeInfo;
-}
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputStateTypeInfo;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Android::LowLevel {
 struct AndroidSensorState;
 }
 namespace UnityEngine::InputSystem::Android::LowLevel {
-struct ____UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer;
+struct UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer;
 }
 // Type: ::<data>e__FixedBuffer
 namespace UnityEngine::InputSystem::Android::LowLevel {
@@ -23,20 +22,20 @@ namespace UnityEngine::InputSystem::Android::LowLevel {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6539))
 // CS Name: UnityEngine.InputSystem.Android.LowLevel.AndroidSensorState::<data>e__FixedBuffer
-struct CORDL_TYPE ____UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer(float_t FixedElementField) noexcept;
+constexpr UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer(float_t FixedElementField) noexcept;
 
 
-                    constexpr ____UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer(____UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer const&) = default;
-                    constexpr ____UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer(____UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer&&) = default;
-                    constexpr ____UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer& operator=(____UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer const& o) {
+                    constexpr UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer(UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer const&) = default;
+                    constexpr UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer(UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer&&) = default;
+                    constexpr UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer& operator=(UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer& operator=(____UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer&& o) noexcept {
+                    constexpr UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer& operator=(UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -49,7 +48,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x40};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -79,13 +78,13 @@ namespace UnityEngine::InputSystem::Android::LowLevel {
 struct CORDL_TYPE AndroidSensorState : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-using _data_e__FixedBuffer = ::UnityEngine::InputSystem::Android::LowLevel::____UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer;
+using _data_e__FixedBuffer = UnityEngine::InputSystem::Android::LowLevel::UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer;
 
-/// @brief Convert operator to ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo
-constexpr operator  ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo() const;
+/// @brief Convert operator to UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo
+constexpr operator  UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo() const;
 
-// Ctor Parameters [CppParam { name: "data", ty: "::UnityEngine::InputSystem::Android::LowLevel::____UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer", modifiers: "", def_value: None }]
-constexpr AndroidSensorState(::UnityEngine::InputSystem::Android::LowLevel::____UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer data) noexcept;
+// Ctor Parameters [CppParam { name: "data", ty: "UnityEngine::InputSystem::Android::LowLevel::UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer", modifiers: "", def_value: None }]
+constexpr AndroidSensorState(UnityEngine::InputSystem::Android::LowLevel::UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer data) noexcept;
 
 
                     constexpr AndroidSensorState(AndroidSensorState const&) = default;
@@ -118,36 +117,35 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
-static ::UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=__get_kFormat, put=__set_kFormat))  kFormat;
+static UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=__get_kFormat, put=__set_kFormat))  kFormat;
 
-static void __set_kFormat(::UnityEngine::InputSystem::Utilities::FourCC value) ;
+static void __set_kFormat(UnityEngine::InputSystem::Utilities::FourCC value) ;
 
-static ::UnityEngine::InputSystem::Utilities::FourCC __get_kFormat() ;
+static UnityEngine::InputSystem::Utilities::FourCC __get_kFormat() ;
 
- ::UnityEngine::InputSystem::Android::LowLevel::____UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer __declspec(property(get=__get_data, put=__set_data))  data;
+ UnityEngine::InputSystem::Android::LowLevel::UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer __declspec(property(get=__get_data, put=__set_data))  data;
 
-constexpr void __set_data(::UnityEngine::InputSystem::Android::LowLevel::____UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer value) ;
+constexpr void __set_data(UnityEngine::InputSystem::Android::LowLevel::UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer value) ;
 
-constexpr ::UnityEngine::InputSystem::Android::LowLevel::____UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer __get_data() const;
+constexpr UnityEngine::InputSystem::Android::LowLevel::UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer __get_data() const;
 
 
 // Properties
 
- ::UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_format))  format;
+ UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_format))  format;
 
 
 // Methods
 
 /// @brief Method WithData addr 0x295443c size 0xd0 virtual false final false
- ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState WithData(::ArrayW<float_t> data) ;
+ UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState WithData(::ArrayW<float_t> data) ;
 
 /// @brief Method get_format addr 0x295450c size 0x58 virtual true final true
- ::UnityEngine::InputSystem::Utilities::FourCC get_format() ;
+ UnityEngine::InputSystem::Utilities::FourCC get_format() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Android::LowLevel
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState, "UnityEngine.InputSystem.Android.LowLevel", "AndroidSensorState");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Android::LowLevel::____UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer, "UnityEngine.InputSystem.Android.LowLevel", "AndroidSensorState/<data>e__FixedBuffer");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState, "UnityEngine.InputSystem.Android.LowLevel", "AndroidSensorState");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Android::LowLevel::UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer, "UnityEngine.InputSystem.Android.LowLevel", "AndroidSensorState/<data>e__FixedBuffer");

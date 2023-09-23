@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct FrameTiming;
 }
@@ -57,12 +56,11 @@ constexpr explicit FrameTimingManager(void* ptr) noexcept : ::bs_hook::Il2CppWra
 static void CaptureFrameTimings() ;
 
 /// @brief Method GetLatestTimings addr 0x2b4cff0 size 0x44 virtual false final false
-static uint32_t GetLatestTimings(uint32_t numFrames, ::ArrayW<::UnityEngine::FrameTiming> timings) ;
+static uint32_t GetLatestTimings(uint32_t numFrames, ::ArrayW<UnityEngine::FrameTiming> timings) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::FrameTimingManager);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::FrameTimingManager, "UnityEngine", "FrameTimingManager");
+NEED_NO_BOX(UnityEngine::FrameTimingManager);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::FrameTimingManager, "UnityEngine", "FrameTimingManager");

@@ -3,11 +3,6 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
-namespace System {
-template<typename T>
-class Action_1;
-}
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
@@ -15,13 +10,17 @@ namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-class SongStartHandler;
+class PlayersSpecificSettingsAtGameStartModel;
+}
+namespace System {
+template<typename T>
+class Action_1;
 }
 namespace GlobalNamespace {
 class IGameplayRpcManager;
 }
 namespace GlobalNamespace {
-class PlayersSpecificSettingsAtGameStartModel;
+class SongStartHandler;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -33,7 +32,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4602))
 // CS Name: SongStartSyncController
-class CORDL_TYPE SongStartSyncController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SongStartSyncController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -48,7 +47,7 @@ constexpr SongStartSyncController(SongStartSyncController const& ) noexcept = de
 constexpr SongStartSyncController(SongStartSyncController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SongStartSyncController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SongStartSyncController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -72,17 +71,17 @@ constexpr explicit SongStartSyncController(void* ptr) noexcept : ::UnityEngine::
 /// @brief Field kAudioLoadTimeout offset 0
 static constexpr float_t  kAudioLoadTimeout{15};
 
- ::GlobalNamespace::IMultiplayerSessionManager __declspec(property(get=__get__multiplayerSessionManager, put=__set__multiplayerSessionManager))  _multiplayerSessionManager;
+ GlobalNamespace::IMultiplayerSessionManager __declspec(property(get=__get__multiplayerSessionManager, put=__set__multiplayerSessionManager))  _multiplayerSessionManager;
 
-constexpr void __set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager value) ;
+constexpr void __set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager value) ;
 
-constexpr ::GlobalNamespace::IMultiplayerSessionManager __get__multiplayerSessionManager() const;
+constexpr GlobalNamespace::IMultiplayerSessionManager __get__multiplayerSessionManager() const;
 
- ::GlobalNamespace::IGameplayRpcManager __declspec(property(get=__get__gameplayRpcManager, put=__set__gameplayRpcManager))  _gameplayRpcManager;
+ GlobalNamespace::IGameplayRpcManager __declspec(property(get=__get__gameplayRpcManager, put=__set__gameplayRpcManager))  _gameplayRpcManager;
 
-constexpr void __set__gameplayRpcManager(::GlobalNamespace::IGameplayRpcManager value) ;
+constexpr void __set__gameplayRpcManager(GlobalNamespace::IGameplayRpcManager value) ;
 
-constexpr ::GlobalNamespace::IGameplayRpcManager __get__gameplayRpcManager() const;
+constexpr GlobalNamespace::IGameplayRpcManager __get__gameplayRpcManager() const;
 
  float_t __declspec(property(get=__get__waitStartTime, put=__set__waitStartTime))  _waitStartTime;
 
@@ -108,29 +107,29 @@ constexpr void __set__sessionGameId(::StringW value) ;
 
 constexpr ::StringW __get__sessionGameId() const;
 
- ::GlobalNamespace::SongStartHandler __declspec(property(get=__get__songStartHandler, put=__set__songStartHandler))  _songStartHandler;
+ GlobalNamespace::SongStartHandler __declspec(property(get=__get__songStartHandler, put=__set__songStartHandler))  _songStartHandler;
 
-constexpr void __set__songStartHandler(::GlobalNamespace::SongStartHandler value) ;
+constexpr void __set__songStartHandler(GlobalNamespace::SongStartHandler value) ;
 
-constexpr ::GlobalNamespace::SongStartHandler __get__songStartHandler() const;
+constexpr GlobalNamespace::SongStartHandler __get__songStartHandler() const;
 
- ::System::Action __declspec(property(get=__get_syncStartFailedEvent, put=__set_syncStartFailedEvent))  syncStartFailedEvent;
+ System::Action __declspec(property(get=__get_syncStartFailedEvent, put=__set_syncStartFailedEvent))  syncStartFailedEvent;
 
-constexpr void __set_syncStartFailedEvent(::System::Action value) ;
+constexpr void __set_syncStartFailedEvent(System::Action value) ;
 
-constexpr ::System::Action __get_syncStartFailedEvent() const;
+constexpr System::Action __get_syncStartFailedEvent() const;
 
- ::System::Action_1<float_t> __declspec(property(get=__get_syncStartSuccessEvent, put=__set_syncStartSuccessEvent))  syncStartSuccessEvent;
+ System::Action_1<float_t> __declspec(property(get=__get_syncStartSuccessEvent, put=__set_syncStartSuccessEvent))  syncStartSuccessEvent;
 
-constexpr void __set_syncStartSuccessEvent(::System::Action_1<float_t> value) ;
+constexpr void __set_syncStartSuccessEvent(System::Action_1<float_t> value) ;
 
-constexpr ::System::Action_1<float_t> __get_syncStartSuccessEvent() const;
+constexpr System::Action_1<float_t> __get_syncStartSuccessEvent() const;
 
- ::System::Action_1<float_t> __declspec(property(get=__get_syncResumeEvent, put=__set_syncResumeEvent))  syncResumeEvent;
+ System::Action_1<float_t> __declspec(property(get=__get_syncResumeEvent, put=__set_syncResumeEvent))  syncResumeEvent;
 
-constexpr void __set_syncResumeEvent(::System::Action_1<float_t> value) ;
+constexpr void __set_syncResumeEvent(System::Action_1<float_t> value) ;
 
-constexpr ::System::Action_1<float_t> __get_syncResumeEvent() const;
+constexpr System::Action_1<float_t> __get_syncResumeEvent() const;
 
 
 // Properties
@@ -149,22 +148,22 @@ constexpr ::System::Action_1<float_t> __get_syncResumeEvent() const;
  float_t get_songStartSyncTime() ;
 
 /// @brief Method add_syncStartFailedEvent addr 0x2212090 size 0x9c virtual false final false
- void add_syncStartFailedEvent(::System::Action value) ;
+ void add_syncStartFailedEvent(System::Action value) ;
 
 /// @brief Method remove_syncStartFailedEvent addr 0x221212c size 0x9c virtual false final false
- void remove_syncStartFailedEvent(::System::Action value) ;
+ void remove_syncStartFailedEvent(System::Action value) ;
 
 /// @brief Method add_syncStartSuccessEvent addr 0x22121c8 size 0xb0 virtual false final false
- void add_syncStartSuccessEvent(::System::Action_1<float_t> value) ;
+ void add_syncStartSuccessEvent(System::Action_1<float_t> value) ;
 
 /// @brief Method remove_syncStartSuccessEvent addr 0x2212278 size 0xb0 virtual false final false
- void remove_syncStartSuccessEvent(::System::Action_1<float_t> value) ;
+ void remove_syncStartSuccessEvent(System::Action_1<float_t> value) ;
 
 /// @brief Method add_syncResumeEvent addr 0x2212328 size 0xb0 virtual false final false
- void add_syncResumeEvent(::System::Action_1<float_t> value) ;
+ void add_syncResumeEvent(System::Action_1<float_t> value) ;
 
 /// @brief Method remove_syncResumeEvent addr 0x22123d8 size 0xb0 virtual false final false
- void remove_syncResumeEvent(::System::Action_1<float_t> value) ;
+ void remove_syncResumeEvent(System::Action_1<float_t> value) ;
 
 /// @brief Method Start addr 0x2212488 size 0xc virtual false final false
  void Start() ;
@@ -179,7 +178,7 @@ constexpr ::System::Action_1<float_t> __get_syncResumeEvent() const;
  void OnApplicationPause(bool pauseStatus) ;
 
 /// @brief Method StartSong addr 0x221254c size 0x15c virtual false final false
- void StartSong(::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel playersSpecificSettingsAtGameStartModel, ::StringW sessionGameId) ;
+ void StartSong(GlobalNamespace::PlayersSpecificSettingsAtGameStartModel playersSpecificSettingsAtGameStartModel, ::StringW sessionGameId) ;
 
 /// @brief Method HandleSetSongStartSyncTime addr 0x22126a8 size 0x2c virtual false final false
  void HandleSetSongStartSyncTime(float_t songStartSyncTime) ;
@@ -194,6 +193,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SongStartSyncController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SongStartSyncController, "", "SongStartSyncController");
+NEED_NO_BOX(GlobalNamespace::SongStartSyncController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongStartSyncController, "", "SongStartSyncController");

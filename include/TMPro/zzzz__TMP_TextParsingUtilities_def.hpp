@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace TMPro {
 class TMP_TextParsingUtilities;
@@ -50,11 +49,11 @@ constexpr explicit TMP_TextParsingUtilities(void* ptr) noexcept : ::bs_hook::Il2
 
 // Fields
 
-static ::TMPro::TMP_TextParsingUtilities __declspec(property(get=__get_s_Instance, put=__set_s_Instance))  s_Instance;
+static TMPro::TMP_TextParsingUtilities __declspec(property(get=__get_s_Instance, put=__set_s_Instance))  s_Instance;
 
-static void __set_s_Instance(::TMPro::TMP_TextParsingUtilities value) ;
+static void __set_s_Instance(TMPro::TMP_TextParsingUtilities value) ;
 
-static ::TMPro::TMP_TextParsingUtilities __get_s_Instance() ;
+static TMPro::TMP_TextParsingUtilities __get_s_Instance() ;
 
 /// @brief Field k_LookupStringL offset 0
 static constexpr ::ConstString  k_LookupStringL{u"-------------------------------- !-#$%&-()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[-]^_`abcdefghijklmnopqrstuvwxyz{|}~-"};
@@ -65,13 +64,13 @@ static constexpr ::ConstString  k_LookupStringU{u"------------------------------
 
 // Properties
 
-static ::TMPro::TMP_TextParsingUtilities __declspec(property(get=get_instance))  instance;
+static TMPro::TMP_TextParsingUtilities __declspec(property(get=get_instance))  instance;
 
 
 // Methods
 
 /// @brief Method get_instance addr 0x2ab1278 size 0x58 virtual false final false
-static ::TMPro::TMP_TextParsingUtilities get_instance() ;
+static TMPro::TMP_TextParsingUtilities get_instance() ;
 
 /// @brief Method GetHashCode addr 0x2aad37c size 0xbc virtual false final false
 static int32_t GetHashCode(::StringW s) ;
@@ -110,6 +109,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-NEED_NO_BOX(::TMPro::TMP_TextParsingUtilities);
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_TextParsingUtilities, "TMPro", "TMP_TextParsingUtilities");
+NEED_NO_BOX(TMPro::TMP_TextParsingUtilities);
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextParsingUtilities, "TMPro", "TMP_TextParsingUtilities");

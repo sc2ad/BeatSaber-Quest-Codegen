@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class Signal;
-}
 namespace UnityEngine::Events {
 class UnityEvent;
+}
+namespace GlobalNamespace {
+class Signal;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13883))
 // CS Name: SignalListener
-class CORDL_TYPE SignalListener : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SignalListener : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr SignalListener(SignalListener const& ) noexcept = default;
 constexpr SignalListener(SignalListener&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SignalListener(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SignalListener(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -54,17 +53,17 @@ constexpr explicit SignalListener(void* ptr) noexcept : ::UnityEngine::MonoBehav
 
 // Fields
 
- ::GlobalNamespace::Signal __declspec(property(get=__get__signal, put=__set__signal))  _signal;
+ GlobalNamespace::Signal __declspec(property(get=__get__signal, put=__set__signal))  _signal;
 
-constexpr void __set__signal(::GlobalNamespace::Signal value) ;
+constexpr void __set__signal(GlobalNamespace::Signal value) ;
 
-constexpr ::GlobalNamespace::Signal __get__signal() const;
+constexpr GlobalNamespace::Signal __get__signal() const;
 
- ::UnityEngine::Events::UnityEvent __declspec(property(get=__get__unityEvent, put=__set__unityEvent))  _unityEvent;
+ UnityEngine::Events::UnityEvent __declspec(property(get=__get__unityEvent, put=__set__unityEvent))  _unityEvent;
 
-constexpr void __set__unityEvent(::UnityEngine::Events::UnityEvent value) ;
+constexpr void __set__unityEvent(UnityEngine::Events::UnityEvent value) ;
 
-constexpr ::UnityEngine::Events::UnityEvent __get__unityEvent() const;
+constexpr UnityEngine::Events::UnityEvent __get__unityEvent() const;
 
 
 // Methods
@@ -88,6 +87,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SignalListener);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SignalListener, "", "SignalListener");
+NEED_NO_BOX(GlobalNamespace::SignalListener);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SignalListener, "", "SignalListener");

@@ -3,7 +3,6 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 class OVRFaceExpressions;
 }
@@ -11,7 +10,7 @@ namespace UnityEngine {
 class SkinnedMeshRenderer;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRFaceExpressions__FaceExpression;
+struct GlobalNamespace__OVRFaceExpressions__FaceExpression;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,7 +22,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8903))
 // CS Name: OVRFace
-class CORDL_TYPE OVRFace : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OVRFace : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr OVRFace(OVRFace const& ) noexcept = default;
 constexpr OVRFace(OVRFace&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OVRFace(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OVRFace(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -59,11 +58,11 @@ constexpr explicit OVRFace(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(pt
 
 // Fields
 
- ::GlobalNamespace::OVRFaceExpressions __declspec(property(get=__get__faceExpressions, put=__set__faceExpressions))  _faceExpressions;
+ GlobalNamespace::OVRFaceExpressions __declspec(property(get=__get__faceExpressions, put=__set__faceExpressions))  _faceExpressions;
 
-constexpr void __set__faceExpressions(::GlobalNamespace::OVRFaceExpressions value) ;
+constexpr void __set__faceExpressions(GlobalNamespace::OVRFaceExpressions value) ;
 
-constexpr ::GlobalNamespace::OVRFaceExpressions __get__faceExpressions() const;
+constexpr GlobalNamespace::OVRFaceExpressions __get__faceExpressions() const;
 
  float_t __declspec(property(get=__get__blendShapeStrengthMultiplier, put=__set__blendShapeStrengthMultiplier))  _blendShapeStrengthMultiplier;
 
@@ -71,16 +70,16 @@ constexpr void __set__blendShapeStrengthMultiplier(float_t value) ;
 
 constexpr float_t __get__blendShapeStrengthMultiplier() const;
 
- ::UnityEngine::SkinnedMeshRenderer __declspec(property(get=__get__skinnedMeshRenderer, put=__set__skinnedMeshRenderer))  _skinnedMeshRenderer;
+ UnityEngine::SkinnedMeshRenderer __declspec(property(get=__get__skinnedMeshRenderer, put=__set__skinnedMeshRenderer))  _skinnedMeshRenderer;
 
-constexpr void __set__skinnedMeshRenderer(::UnityEngine::SkinnedMeshRenderer value) ;
+constexpr void __set__skinnedMeshRenderer(UnityEngine::SkinnedMeshRenderer value) ;
 
-constexpr ::UnityEngine::SkinnedMeshRenderer __get__skinnedMeshRenderer() const;
+constexpr UnityEngine::SkinnedMeshRenderer __get__skinnedMeshRenderer() const;
 
 
 // Properties
 
- ::GlobalNamespace::OVRFaceExpressions __declspec(property(get=get_FaceExpressions, put=set_FaceExpressions))  FaceExpressions;
+ GlobalNamespace::OVRFaceExpressions __declspec(property(get=get_FaceExpressions, put=set_FaceExpressions))  FaceExpressions;
 
  float_t __declspec(property(get=get_BlendShapeStrengthMultiplier, put=set_BlendShapeStrengthMultiplier))  BlendShapeStrengthMultiplier;
 
@@ -88,10 +87,10 @@ constexpr ::UnityEngine::SkinnedMeshRenderer __get__skinnedMeshRenderer() const;
 // Methods
 
 /// @brief Method get_FaceExpressions addr 0x262045c size 0x8 virtual false final false
- ::GlobalNamespace::OVRFaceExpressions get_FaceExpressions() ;
+ GlobalNamespace::OVRFaceExpressions get_FaceExpressions() ;
 
 /// @brief Method set_FaceExpressions addr 0x2620464 size 0x8 virtual false final false
- void set_FaceExpressions(::GlobalNamespace::OVRFaceExpressions value) ;
+ void set_FaceExpressions(GlobalNamespace::OVRFaceExpressions value) ;
 
 /// @brief Method get_BlendShapeStrengthMultiplier addr 0x262046c size 0x8 virtual false final false
  float_t get_BlendShapeStrengthMultiplier() ;
@@ -106,7 +105,7 @@ constexpr ::UnityEngine::SkinnedMeshRenderer __get__skinnedMeshRenderer() const;
  void Update() ;
 
 /// @brief Method GetFaceExpression addr 0x2620554 size 0x8 virtual true final false
- ::GlobalNamespace::____GlobalNamespace__OVRFaceExpressions__FaceExpression GetFaceExpression(int32_t blendShapeIndex) ;
+ GlobalNamespace::GlobalNamespace__OVRFaceExpressions__FaceExpression GetFaceExpression(int32_t blendShapeIndex) ;
 
 // Ctor Parameters []
 explicit OVRFace() ;
@@ -118,6 +117,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OVRFace);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRFace, "", "OVRFace");
+NEED_NO_BOX(GlobalNamespace::OVRFace);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRFace, "", "OVRFace");

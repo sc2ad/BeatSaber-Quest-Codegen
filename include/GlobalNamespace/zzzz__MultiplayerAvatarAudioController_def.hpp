@@ -3,16 +3,6 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine {
-class AudioSource;
-}
 namespace System {
 class IDisposable;
 }
@@ -20,12 +10,21 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-// Forward declare root types
-namespace GlobalNamespace {
-class MultiplayerAvatarAudioController;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4;
+class IConnectedPlayer;
+}
+namespace UnityEngine {
+class AudioSource;
+}
+// Forward declare root types
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4;
+}
+namespace GlobalNamespace {
+class MultiplayerAvatarAudioController;
 }
 // Type: ::<Start>d__4
 namespace GlobalNamespace {
@@ -33,46 +32,46 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4092))
 // CS Name: MultiplayerAvatarAudioController::<Start>d__4
-class CORDL_TYPE ____GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4() = default;
+virtual ~GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4(____GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4(GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4(____GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4(GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4& operator=(____GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4&& o) noexcept = default;
-  constexpr ____GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4& operator=(____GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4 const& o) noexcept = default;
+  constexpr GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4& operator=(GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4&& o) noexcept = default;
+  constexpr GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4& operator=(GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4 const& o) noexcept = default;
                 
 
 
@@ -90,11 +89,11 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::GlobalNamespace::MultiplayerAvatarAudioController __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::MultiplayerAvatarAudioController __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::MultiplayerAvatarAudioController value) ;
+constexpr void __set___4__this(GlobalNamespace::MultiplayerAvatarAudioController value) ;
 
-constexpr ::GlobalNamespace::MultiplayerAvatarAudioController __get___4__this() const;
+constexpr GlobalNamespace::MultiplayerAvatarAudioController __get___4__this() const;
 
 
 // Properties
@@ -107,7 +106,7 @@ constexpr ::GlobalNamespace::MultiplayerAvatarAudioController __get___4__this() 
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4(int32_t __1__state) ;
+explicit GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x20c3490 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -137,10 +136,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4093))
 // CS Name: MultiplayerAvatarAudioController
-class CORDL_TYPE MultiplayerAvatarAudioController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerAvatarAudioController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using _Start_d__4 = ::GlobalNamespace::____GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4;
+using _Start_d__4 = GlobalNamespace::GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -154,7 +153,7 @@ constexpr MultiplayerAvatarAudioController(MultiplayerAvatarAudioController cons
 constexpr MultiplayerAvatarAudioController(MultiplayerAvatarAudioController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerAvatarAudioController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerAvatarAudioController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -175,31 +174,31 @@ constexpr explicit MultiplayerAvatarAudioController(void* ptr) noexcept : ::Unit
 
 // Fields
 
- ::UnityEngine::AudioSource __declspec(property(get=__get__audioSource, put=__set__audioSource))  _audioSource;
+ UnityEngine::AudioSource __declspec(property(get=__get__audioSource, put=__set__audioSource))  _audioSource;
 
-constexpr void __set__audioSource(::UnityEngine::AudioSource value) ;
+constexpr void __set__audioSource(UnityEngine::AudioSource value) ;
 
-constexpr ::UnityEngine::AudioSource __get__audioSource() const;
+constexpr UnityEngine::AudioSource __get__audioSource() const;
 
- ::GlobalNamespace::IConnectedPlayer __declspec(property(get=__get__connectedPlayer, put=__set__connectedPlayer))  _connectedPlayer;
+ GlobalNamespace::IConnectedPlayer __declspec(property(get=__get__connectedPlayer, put=__set__connectedPlayer))  _connectedPlayer;
 
-constexpr void __set__connectedPlayer(::GlobalNamespace::IConnectedPlayer value) ;
+constexpr void __set__connectedPlayer(GlobalNamespace::IConnectedPlayer value) ;
 
-constexpr ::GlobalNamespace::IConnectedPlayer __get__connectedPlayer() const;
+constexpr GlobalNamespace::IConnectedPlayer __get__connectedPlayer() const;
 
 
 // Properties
 
- ::GlobalNamespace::IConnectedPlayer __declspec(property(put=set_connectedPlayer))  connectedPlayer;
+ GlobalNamespace::IConnectedPlayer __declspec(property(put=set_connectedPlayer))  connectedPlayer;
 
 
 // Methods
 
 /// @brief Method set_connectedPlayer addr 0x20c3420 size 0x8 virtual false final false
- void set_connectedPlayer(::GlobalNamespace::IConnectedPlayer value) ;
+ void set_connectedPlayer(GlobalNamespace::IConnectedPlayer value) ;
 
 /// @brief Method Start addr 0x20c3428 size 0x68 virtual false final false
- ::System::Collections::IEnumerator Start() ;
+ System::Collections::IEnumerator Start() ;
 
 // Ctor Parameters []
 explicit MultiplayerAvatarAudioController() ;
@@ -211,8 +210,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerAvatarAudioController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerAvatarAudioController, "", "MultiplayerAvatarAudioController");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4, "", "MultiplayerAvatarAudioController/<Start>d__4");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4, "", "MultiplayerAvatarAudioController/<Start>d__4");
+NEED_NO_BOX(GlobalNamespace::MultiplayerAvatarAudioController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerAvatarAudioController, "", "MultiplayerAvatarAudioController");

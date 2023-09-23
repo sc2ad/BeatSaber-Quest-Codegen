@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventDataProcessor_1_def.hpp"
 #include "GlobalNamespace/zzzz__LightRotationBeatmapEventData_def.hpp"
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class LinkedListNode_1;
@@ -17,10 +16,10 @@ class LightRotationBeatmapEventDataProcessor;
 // Type: ::LightRotationBeatmapEventDataProcessor
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14924), inst: 921 }), TypeDefinitionIndex(TypeDefinitionIndex(14924)), TypeDefinitionIndex(TypeDefinitionIndex(14918))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14924), inst: 921 }), TypeDefinitionIndex(TypeDefinitionIndex(14918)), TypeDefinitionIndex(TypeDefinitionIndex(14924))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14927))
 // CS Name: LightRotationBeatmapEventDataProcessor
-class CORDL_TYPE LightRotationBeatmapEventDataProcessor : public ::GlobalNamespace::BeatmapEventDataProcessor_1<::GlobalNamespace::LightRotationBeatmapEventData> {
+class CORDL_TYPE LightRotationBeatmapEventDataProcessor : public GlobalNamespace::BeatmapEventDataProcessor_1<GlobalNamespace::LightRotationBeatmapEventData> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr LightRotationBeatmapEventDataProcessor(LightRotationBeatmapEventDataPr
 constexpr LightRotationBeatmapEventDataProcessor(LightRotationBeatmapEventDataProcessor&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LightRotationBeatmapEventDataProcessor(void* ptr) noexcept : ::GlobalNamespace::BeatmapEventDataProcessor_1<::GlobalNamespace::LightRotationBeatmapEventData>(ptr) {
+constexpr explicit LightRotationBeatmapEventDataProcessor(void* ptr) noexcept : GlobalNamespace::BeatmapEventDataProcessor_1<GlobalNamespace::LightRotationBeatmapEventData>(ptr) {
 }
 
 
@@ -57,10 +56,10 @@ constexpr explicit LightRotationBeatmapEventDataProcessor(void* ptr) noexcept : 
 // Methods
 
 /// @brief Method ProcessInsertedEventDataInternal addr 0xd93114 size 0x110 virtual true final false
- void ProcessInsertedEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem> insertedNode) ;
+ void ProcessInsertedEventDataInternal(System::Collections::Generic::LinkedListNode_1<GlobalNamespace::BeatmapDataItem> insertedNode) ;
 
 /// @brief Method ProcessBeforeDeleteEventDataInternal addr 0xd93224 size 0xfc virtual true final false
- void ProcessBeforeDeleteEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem> nodeToDelete) ;
+ void ProcessBeforeDeleteEventDataInternal(System::Collections::Generic::LinkedListNode_1<GlobalNamespace::BeatmapDataItem> nodeToDelete) ;
 
 // Ctor Parameters []
 explicit LightRotationBeatmapEventDataProcessor() ;
@@ -72,6 +71,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LightRotationBeatmapEventDataProcessor);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightRotationBeatmapEventDataProcessor, "", "LightRotationBeatmapEventDataProcessor");
+NEED_NO_BOX(GlobalNamespace::LightRotationBeatmapEventDataProcessor);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightRotationBeatmapEventDataProcessor, "", "LightRotationBeatmapEventDataProcessor");

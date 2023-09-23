@@ -5,16 +5,15 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
 class PreviewBeatmapLevelSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-class RelativeSfxVolumePerLevelSO;
+class GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair;
+class RelativeSfxVolumePerLevelSO;
 }
 // Type: ::RelativeSfxVolumePair
 namespace GlobalNamespace {
@@ -22,47 +21,47 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4781))
 // CS Name: RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair
-class CORDL_TYPE ____GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair() = default;
+virtual ~GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair(____GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair(GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair(____GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair(GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair& operator=(____GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair&& o) noexcept = default;
-  constexpr ____GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair& operator=(____GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair const& o) noexcept = default;
+  constexpr GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair& operator=(GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair&& o) noexcept = default;
+  constexpr GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair& operator=(GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::GlobalNamespace::PreviewBeatmapLevelSO __declspec(property(get=__get__previewLevel, put=__set__previewLevel))  _previewLevel;
+ GlobalNamespace::PreviewBeatmapLevelSO __declspec(property(get=__get__previewLevel, put=__set__previewLevel))  _previewLevel;
 
-constexpr void __set__previewLevel(::GlobalNamespace::PreviewBeatmapLevelSO value) ;
+constexpr void __set__previewLevel(GlobalNamespace::PreviewBeatmapLevelSO value) ;
 
-constexpr ::GlobalNamespace::PreviewBeatmapLevelSO __get__previewLevel() const;
+constexpr GlobalNamespace::PreviewBeatmapLevelSO __get__previewLevel() const;
 
  float_t __declspec(property(get=__get__relativeSfxVolume, put=__set__relativeSfxVolume))  _relativeSfxVolume;
 
@@ -87,7 +86,7 @@ constexpr float_t __get__relativeSfxVolume() const;
  float_t get_relativeSfxVolume() ;
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair() ;
+explicit GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair() ;
 
 /// @brief Method .ctor addr 0x2229bc0 size 0x8 virtual false final false
  void _ctor() ;
@@ -102,10 +101,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10151))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4782))
 // CS Name: RelativeSfxVolumePerLevelSO
-class CORDL_TYPE RelativeSfxVolumePerLevelSO : public ::UnityEngine::ScriptableObject {
+class CORDL_TYPE RelativeSfxVolumePerLevelSO : public UnityEngine::ScriptableObject {
 public:
 // Declarations
-using RelativeSfxVolumePair = ::GlobalNamespace::____GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair;
+using RelativeSfxVolumePair = GlobalNamespace::GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -119,7 +118,7 @@ constexpr RelativeSfxVolumePerLevelSO(RelativeSfxVolumePerLevelSO const& ) noexc
 constexpr RelativeSfxVolumePerLevelSO(RelativeSfxVolumePerLevelSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RelativeSfxVolumePerLevelSO(void* ptr) noexcept : ::UnityEngine::ScriptableObject(ptr) {
+constexpr explicit RelativeSfxVolumePerLevelSO(void* ptr) noexcept : UnityEngine::ScriptableObject(ptr) {
 }
 
 
@@ -140,22 +139,22 @@ constexpr explicit RelativeSfxVolumePerLevelSO(void* ptr) noexcept : ::UnityEngi
 
 // Fields
 
- ::ArrayW<::GlobalNamespace::____GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair> __declspec(property(get=__get__relativeSfxVolumePerLevel, put=__set__relativeSfxVolumePerLevel))  _relativeSfxVolumePerLevel;
+ ::ArrayW<GlobalNamespace::GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair> __declspec(property(get=__get__relativeSfxVolumePerLevel, put=__set__relativeSfxVolumePerLevel))  _relativeSfxVolumePerLevel;
 
-constexpr void __set__relativeSfxVolumePerLevel(::ArrayW<::GlobalNamespace::____GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair> value) ;
+constexpr void __set__relativeSfxVolumePerLevel(::ArrayW<GlobalNamespace::GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::____GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair> __get__relativeSfxVolumePerLevel() const;
+constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair> __get__relativeSfxVolumePerLevel() const;
 
 
 // Properties
 
- ::ArrayW<::GlobalNamespace::____GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair> __declspec(property(get=get_relativeSfxVolumePerLevel))  relativeSfxVolumePerLevel;
+ ::ArrayW<GlobalNamespace::GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair> __declspec(property(get=get_relativeSfxVolumePerLevel))  relativeSfxVolumePerLevel;
 
 
 // Methods
 
 /// @brief Method get_relativeSfxVolumePerLevel addr 0x2229b8c size 0x8 virtual false final false
- ::ArrayW<::GlobalNamespace::____GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair> get_relativeSfxVolumePerLevel() ;
+ ::ArrayW<GlobalNamespace::GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair> get_relativeSfxVolumePerLevel() ;
 
 // Ctor Parameters []
 explicit RelativeSfxVolumePerLevelSO() ;
@@ -167,8 +166,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::RelativeSfxVolumePerLevelSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RelativeSfxVolumePerLevelSO, "", "RelativeSfxVolumePerLevelSO");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair, "", "RelativeSfxVolumePerLevelSO/RelativeSfxVolumePair");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair, "", "RelativeSfxVolumePerLevelSO/RelativeSfxVolumePair");
+NEED_NO_BOX(GlobalNamespace::RelativeSfxVolumePerLevelSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RelativeSfxVolumePerLevelSO, "", "RelativeSfxVolumePerLevelSO");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct ETextureType;
@@ -73,32 +72,31 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Invalid offset 0
-static ::OVR::OpenVR::ETextureType const Invalid;
+static OVR::OpenVR::ETextureType const Invalid;
 
 /// @brief Field DirectX offset 0
-static ::OVR::OpenVR::ETextureType const DirectX;
+static OVR::OpenVR::ETextureType const DirectX;
 
 /// @brief Field OpenGL offset 0
-static ::OVR::OpenVR::ETextureType const OpenGL;
+static OVR::OpenVR::ETextureType const OpenGL;
 
 /// @brief Field Vulkan offset 0
-static ::OVR::OpenVR::ETextureType const Vulkan;
+static OVR::OpenVR::ETextureType const Vulkan;
 
 /// @brief Field IOSurface offset 0
-static ::OVR::OpenVR::ETextureType const IOSurface;
+static OVR::OpenVR::ETextureType const IOSurface;
 
 /// @brief Field DirectX12 offset 0
-static ::OVR::OpenVR::ETextureType const DirectX12;
+static OVR::OpenVR::ETextureType const DirectX12;
 
 /// @brief Field DXGISharedHandle offset 0
-static ::OVR::OpenVR::ETextureType const DXGISharedHandle;
+static OVR::OpenVR::ETextureType const DXGISharedHandle;
 
 /// @brief Field Metal offset 0
-static ::OVR::OpenVR::ETextureType const Metal;
+static OVR::OpenVR::ETextureType const Metal;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::ETextureType, "OVR.OpenVR", "ETextureType");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::ETextureType, "OVR.OpenVR", "ETextureType");

@@ -4,14 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 // Forward declare root types
 namespace Polyglot {
-struct ____Polyglot__CsvReader__ParsingMode;
+struct Polyglot__CsvReader__ParsingMode;
 }
 namespace Polyglot {
 class CsvReader;
@@ -22,20 +21,20 @@ namespace Polyglot {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15522))
 // CS Name: Polyglot.CsvReader::ParsingMode
-struct CORDL_TYPE ____Polyglot__CsvReader__ParsingMode : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE Polyglot__CsvReader__ParsingMode : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____Polyglot__CsvReader__ParsingMode(int32_t value__) noexcept;
+constexpr Polyglot__CsvReader__ParsingMode(int32_t value__) noexcept;
 
 
-                    constexpr ____Polyglot__CsvReader__ParsingMode(____Polyglot__CsvReader__ParsingMode const&) = default;
-                    constexpr ____Polyglot__CsvReader__ParsingMode(____Polyglot__CsvReader__ParsingMode&&) = default;
-                    constexpr ____Polyglot__CsvReader__ParsingMode& operator=(____Polyglot__CsvReader__ParsingMode const& o) {
+                    constexpr Polyglot__CsvReader__ParsingMode(Polyglot__CsvReader__ParsingMode const&) = default;
+                    constexpr Polyglot__CsvReader__ParsingMode(Polyglot__CsvReader__ParsingMode&&) = default;
+                    constexpr Polyglot__CsvReader__ParsingMode& operator=(Polyglot__CsvReader__ParsingMode const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____Polyglot__CsvReader__ParsingMode& operator=(____Polyglot__CsvReader__ParsingMode&& o) noexcept {
+                    constexpr Polyglot__CsvReader__ParsingMode& operator=(Polyglot__CsvReader__ParsingMode&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -48,7 +47,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____Polyglot__CsvReader__ParsingMode(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit Polyglot__CsvReader__ParsingMode(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -56,15 +55,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______Polyglot__CsvReader__ParsingMode_Unwrapped : int32_t {
+enum class __Polyglot__CsvReader__ParsingMode_Unwrapped : int32_t {
 __None = 0,
 __OutQuote = 1,
 __InQuote = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______Polyglot__CsvReader__ParsingMode_Unwrapped () const noexcept {
-return std::bit_cast<______Polyglot__CsvReader__ParsingMode_Unwrapped>(__instance);
+constexpr operator __Polyglot__CsvReader__ParsingMode_Unwrapped () const noexcept {
+return std::bit_cast<__Polyglot__CsvReader__ParsingMode_Unwrapped>(__instance);
 }
 
 
@@ -77,13 +76,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::Polyglot::____Polyglot__CsvReader__ParsingMode const None;
+static Polyglot::Polyglot__CsvReader__ParsingMode const None;
 
 /// @brief Field OutQuote offset 0
-static ::Polyglot::____Polyglot__CsvReader__ParsingMode const OutQuote;
+static Polyglot::Polyglot__CsvReader__ParsingMode const OutQuote;
 
 /// @brief Field InQuote offset 0
-static ::Polyglot::____Polyglot__CsvReader__ParsingMode const InQuote;
+static Polyglot::Polyglot__CsvReader__ParsingMode const InQuote;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -98,7 +97,7 @@ namespace Polyglot {
 class CORDL_TYPE CsvReader : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using ParsingMode = ::Polyglot::____Polyglot__CsvReader__ParsingMode;
+using ParsingMode = Polyglot::Polyglot__CsvReader__ParsingMode;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -134,7 +133,7 @@ constexpr explicit CsvReader(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 // Methods
 
 /// @brief Method Parse addr 0x266f56c size 0x7e8 virtual false final false
-static ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::StringW>> Parse(::StringW src) ;
+static System::Collections::Generic::List_1<System::Collections::Generic::List_1<::StringW>> Parse(::StringW src) ;
 
 // Ctor Parameters []
 explicit CsvReader() ;
@@ -146,7 +145,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Polyglot
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Polyglot::____Polyglot__CsvReader__ParsingMode, "Polyglot", "CsvReader/ParsingMode");
-NEED_NO_BOX(::Polyglot::CsvReader);
-DEFINE_IL2CPP_ARG_TYPE(::Polyglot::CsvReader, "Polyglot", "CsvReader");
+DEFINE_IL2CPP_ARG_TYPE(Polyglot::Polyglot__CsvReader__ParsingMode, "Polyglot", "CsvReader/ParsingMode");
+NEED_NO_BOX(Polyglot::CsvReader);
+DEFINE_IL2CPP_ARG_TYPE(Polyglot::CsvReader, "Polyglot", "CsvReader");

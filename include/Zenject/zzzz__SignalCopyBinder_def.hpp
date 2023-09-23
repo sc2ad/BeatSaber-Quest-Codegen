@@ -1,16 +1,15 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
+namespace Zenject {
+struct BindingInheritanceMethods;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace Zenject {
 class BindInfo;
-}
-namespace Zenject {
-struct BindingInheritanceMethods;
 }
 // Forward declare root types
 namespace Zenject {
@@ -58,11 +57,11 @@ constexpr explicit SignalCopyBinder(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
- ::System::Collections::Generic::List_1<::Zenject::BindInfo> __declspec(property(get=__get__bindInfos, put=__set__bindInfos))  _bindInfos;
+ System::Collections::Generic::List_1<Zenject::BindInfo> __declspec(property(get=__get__bindInfos, put=__set__bindInfos))  _bindInfos;
 
-constexpr void __set__bindInfos(::System::Collections::Generic::List_1<::Zenject::BindInfo> value) ;
+constexpr void __set__bindInfos(System::Collections::Generic::List_1<Zenject::BindInfo> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::Zenject::BindInfo> __get__bindInfos() const;
+constexpr System::Collections::Generic::List_1<Zenject::BindInfo> __get__bindInfos() const;
 
 
 // Methods
@@ -73,14 +72,14 @@ explicit SignalCopyBinder() ;
 /// @brief Method .ctor addr 0x2d48fd4 size 0x80 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "::Zenject::BindInfo", modifiers: "", def_value: None }]
-explicit SignalCopyBinder(::Zenject::BindInfo bindInfo) ;
+// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }]
+explicit SignalCopyBinder(Zenject::BindInfo bindInfo) ;
 
 /// @brief Method .ctor addr 0x2d49054 size 0xf8 virtual false final false
- void _ctor(::Zenject::BindInfo bindInfo) ;
+ void _ctor(Zenject::BindInfo bindInfo) ;
 
 /// @brief Method AddCopyBindInfo addr 0x2d4914c size 0xa8 virtual false final false
- void AddCopyBindInfo(::Zenject::BindInfo bindInfo) ;
+ void AddCopyBindInfo(Zenject::BindInfo bindInfo) ;
 
 /// @brief Method CopyIntoAllSubContainers addr 0x2d491f4 size 0x8 virtual false final false
  void CopyIntoAllSubContainers() ;
@@ -95,12 +94,11 @@ explicit SignalCopyBinder(::Zenject::BindInfo bindInfo) ;
  void MoveIntoDirectSubContainers() ;
 
 /// @brief Method SetInheritanceMethod addr 0x2d491fc size 0x94 virtual false final false
- void SetInheritanceMethod(::Zenject::BindingInheritanceMethods method) ;
+ void SetInheritanceMethod(Zenject::BindingInheritanceMethods method) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::SignalCopyBinder);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::SignalCopyBinder, "Zenject", "SignalCopyBinder");
+NEED_NO_BOX(Zenject::SignalCopyBinder);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::SignalCopyBinder, "Zenject", "SignalCopyBinder");

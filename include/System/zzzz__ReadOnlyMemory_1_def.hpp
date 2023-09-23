@@ -6,14 +6,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System {
-template<typename T>
-struct ReadOnlySpan_1;
-}
 namespace System {
 template<typename T>
 class IEquatable_1;
+}
+namespace System {
+template<typename T>
+struct ReadOnlySpan_1;
 }
 // Forward declare root types
 namespace System {
@@ -40,8 +39,8 @@ template<::cordl_internals::il2cpp_reference_type T>
 struct CORDL_TYPE ReadOnlyMemory_1<T> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::System::ReadOnlyMemory_1<T>>
-constexpr operator  ::System::IEquatable_1<::System::ReadOnlyMemory_1<T>>() const;
+/// @brief Convert operator to System::IEquatable_1<System::ReadOnlyMemory_1<T>>
+constexpr operator  System::IEquatable_1<System::ReadOnlyMemory_1<T>>() const;
 
 // Ctor Parameters [CppParam { name: "_object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_length", ty: "int32_t", modifiers: "", def_value: None }]
 constexpr ReadOnlyMemory_1(::bs_hook::Il2CppWrapperType _object, int32_t _index, int32_t _length) noexcept;
@@ -100,7 +99,7 @@ constexpr int32_t __get__length() const;
 
  int32_t __declspec(property(get=get_Length))  Length;
 
- ::System::ReadOnlySpan_1<T> __declspec(property(get=get_Span))  Span;
+ System::ReadOnlySpan_1<T> __declspec(property(get=get_Span))  Span;
 
 
 // Methods
@@ -118,16 +117,16 @@ constexpr int32_t __get__length() const;
  ::StringW ToString() ;
 
 /// @brief Method Slice addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::ReadOnlyMemory_1<T> Slice(int32_t start) ;
+ System::ReadOnlyMemory_1<T> Slice(int32_t start) ;
 
 /// @brief Method get_Span addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::ReadOnlySpan_1<T> get_Span() ;
+ System::ReadOnlySpan_1<T> get_Span() ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final true
- bool Equals(::System::ReadOnlyMemory_1<T> other) ;
+ bool Equals(System::ReadOnlyMemory_1<T> other) ;
 
 /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t GetHashCode() ;
@@ -156,8 +155,8 @@ template<>
 struct CORDL_TYPE ReadOnlyMemory_1<uint8_t> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::System::ReadOnlyMemory_1<uint8_t>>
-constexpr operator  ::System::IEquatable_1<::System::ReadOnlyMemory_1<uint8_t>>() const;
+/// @brief Convert operator to System::IEquatable_1<System::ReadOnlyMemory_1<uint8_t>>
+constexpr operator  System::IEquatable_1<System::ReadOnlyMemory_1<uint8_t>>() const;
 
 // Ctor Parameters [CppParam { name: "_object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_length", ty: "int32_t", modifiers: "", def_value: None }]
 constexpr ReadOnlyMemory_1(::bs_hook::Il2CppWrapperType _object, int32_t _index, int32_t _length) noexcept;
@@ -216,7 +215,7 @@ constexpr int32_t __get__length() const;
 
  int32_t __declspec(property(get=get_Length))  Length;
 
- ::System::ReadOnlySpan_1<uint8_t> __declspec(property(get=get_Span))  Span;
+ System::ReadOnlySpan_1<uint8_t> __declspec(property(get=get_Span))  Span;
 
 
 // Methods
@@ -234,16 +233,16 @@ constexpr int32_t __get__length() const;
  ::StringW ToString() ;
 
 /// @brief Method Slice addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::ReadOnlyMemory_1<uint8_t> Slice(int32_t start) ;
+ System::ReadOnlyMemory_1<uint8_t> Slice(int32_t start) ;
 
 /// @brief Method get_Span addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::ReadOnlySpan_1<uint8_t> get_Span() ;
+ System::ReadOnlySpan_1<uint8_t> get_Span() ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final true
- bool Equals(::System::ReadOnlyMemory_1<uint8_t> other) ;
+ bool Equals(System::ReadOnlyMemory_1<uint8_t> other) ;
 
 /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t GetHashCode() ;
@@ -261,5 +260,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::ReadOnlyMemory_1, "System", "ReadOnlyMemory`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::ReadOnlyMemory_1, "System", "ReadOnlyMemory`1");

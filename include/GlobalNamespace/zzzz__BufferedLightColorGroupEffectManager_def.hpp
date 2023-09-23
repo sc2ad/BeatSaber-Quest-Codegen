@@ -2,10 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
-namespace Zenject {
-class DiContainer;
-}
 namespace GlobalNamespace {
 class LightGroup;
 }
@@ -14,6 +10,9 @@ class BufferedLightColorGroupEffect;
 }
 namespace GlobalNamespace {
 class MaterialPropertyBlockController;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,7 +24,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5017))
 // CS Name: BufferedLightColorGroupEffectManager
-class CORDL_TYPE BufferedLightColorGroupEffectManager : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE BufferedLightColorGroupEffectManager : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr BufferedLightColorGroupEffectManager(BufferedLightColorGroupEffectMana
 constexpr BufferedLightColorGroupEffectManager(BufferedLightColorGroupEffectManager&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BufferedLightColorGroupEffectManager(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit BufferedLightColorGroupEffectManager(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -61,29 +60,29 @@ constexpr explicit BufferedLightColorGroupEffectManager(void* ptr) noexcept : ::
 
 // Fields
 
- ::ArrayW<::GlobalNamespace::LightGroup> __declspec(property(get=__get__lightGroups, put=__set__lightGroups))  _lightGroups;
+ ::ArrayW<GlobalNamespace::LightGroup> __declspec(property(get=__get__lightGroups, put=__set__lightGroups))  _lightGroups;
 
-constexpr void __set__lightGroups(::ArrayW<::GlobalNamespace::LightGroup> value) ;
+constexpr void __set__lightGroups(::ArrayW<GlobalNamespace::LightGroup> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::LightGroup> __get__lightGroups() const;
+constexpr ::ArrayW<GlobalNamespace::LightGroup> __get__lightGroups() const;
 
- ::ArrayW<::GlobalNamespace::MaterialPropertyBlockController> __declspec(property(get=__get__materialPropertyBlockControllers, put=__set__materialPropertyBlockControllers))  _materialPropertyBlockControllers;
+ ::ArrayW<GlobalNamespace::MaterialPropertyBlockController> __declspec(property(get=__get__materialPropertyBlockControllers, put=__set__materialPropertyBlockControllers))  _materialPropertyBlockControllers;
 
-constexpr void __set__materialPropertyBlockControllers(::ArrayW<::GlobalNamespace::MaterialPropertyBlockController> value) ;
+constexpr void __set__materialPropertyBlockControllers(::ArrayW<GlobalNamespace::MaterialPropertyBlockController> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::MaterialPropertyBlockController> __get__materialPropertyBlockControllers() const;
+constexpr ::ArrayW<GlobalNamespace::MaterialPropertyBlockController> __get__materialPropertyBlockControllers() const;
 
- ::Zenject::DiContainer __declspec(property(get=__get__container, put=__set__container))  _container;
+ Zenject::DiContainer __declspec(property(get=__get__container, put=__set__container))  _container;
 
-constexpr void __set__container(::Zenject::DiContainer value) ;
+constexpr void __set__container(Zenject::DiContainer value) ;
 
-constexpr ::Zenject::DiContainer __get__container() const;
+constexpr Zenject::DiContainer __get__container() const;
 
- ::ArrayW<::GlobalNamespace::BufferedLightColorGroupEffect> __declspec(property(get=__get__bufferedLightColorGroupEffects, put=__set__bufferedLightColorGroupEffects))  _bufferedLightColorGroupEffects;
+ ::ArrayW<GlobalNamespace::BufferedLightColorGroupEffect> __declspec(property(get=__get__bufferedLightColorGroupEffects, put=__set__bufferedLightColorGroupEffects))  _bufferedLightColorGroupEffects;
 
-constexpr void __set__bufferedLightColorGroupEffects(::ArrayW<::GlobalNamespace::BufferedLightColorGroupEffect> value) ;
+constexpr void __set__bufferedLightColorGroupEffects(::ArrayW<GlobalNamespace::BufferedLightColorGroupEffect> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::BufferedLightColorGroupEffect> __get__bufferedLightColorGroupEffects() const;
+constexpr ::ArrayW<GlobalNamespace::BufferedLightColorGroupEffect> __get__bufferedLightColorGroupEffects() const;
 
 
 // Methods
@@ -104,6 +103,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BufferedLightColorGroupEffectManager);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BufferedLightColorGroupEffectManager, "", "BufferedLightColorGroupEffectManager");
+NEED_NO_BOX(GlobalNamespace::BufferedLightColorGroupEffectManager);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BufferedLightColorGroupEffectManager, "", "BufferedLightColorGroupEffectManager");

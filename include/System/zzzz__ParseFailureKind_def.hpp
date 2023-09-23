@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 struct ParseFailureKind;
@@ -73,32 +72,31 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::ParseFailureKind const None;
+static System::ParseFailureKind const None;
 
 /// @brief Field ArgumentNull offset 0
-static ::System::ParseFailureKind const ArgumentNull;
+static System::ParseFailureKind const ArgumentNull;
 
 /// @brief Field Format offset 0
-static ::System::ParseFailureKind const Format;
+static System::ParseFailureKind const Format;
 
 /// @brief Field FormatWithParameter offset 0
-static ::System::ParseFailureKind const FormatWithParameter;
+static System::ParseFailureKind const FormatWithParameter;
 
 /// @brief Field FormatWithOriginalDateTime offset 0
-static ::System::ParseFailureKind const FormatWithOriginalDateTime;
+static System::ParseFailureKind const FormatWithOriginalDateTime;
 
 /// @brief Field FormatWithFormatSpecifier offset 0
-static ::System::ParseFailureKind const FormatWithFormatSpecifier;
+static System::ParseFailureKind const FormatWithFormatSpecifier;
 
 /// @brief Field FormatWithOriginalDateTimeAndParameter offset 0
-static ::System::ParseFailureKind const FormatWithOriginalDateTimeAndParameter;
+static System::ParseFailureKind const FormatWithOriginalDateTimeAndParameter;
 
 /// @brief Field FormatBadDateTimeCalendar offset 0
-static ::System::ParseFailureKind const FormatBadDateTimeCalendar;
+static System::ParseFailureKind const FormatBadDateTimeCalendar;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::ParseFailureKind, "System", "ParseFailureKind");
+DEFINE_IL2CPP_ARG_TYPE(System::ParseFailureKind, "System", "ParseFailureKind");

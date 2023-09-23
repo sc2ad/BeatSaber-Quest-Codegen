@@ -1,17 +1,16 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace UnityEngine {
-class Transform;
+namespace HoudiniEngineUnity {
+template<typename T>
+class IEquivableWrapperClass_1;
 }
 namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivable_1;
 }
-namespace HoudiniEngineUnity {
-template<typename T>
-class IEquivableWrapperClass_1;
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -26,11 +25,11 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE Test_Transform : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Transform>
-constexpr operator  ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Transform>() const noexcept;
+/// @brief Convert operator to HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_Transform>
+constexpr operator  HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_Transform>() const noexcept;
 
-/// @brief Convert operator to ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Transform>
-constexpr operator  ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Transform>() const noexcept;
+/// @brief Convert operator to HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_Transform>
+constexpr operator  HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_Transform>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -65,31 +64,30 @@ constexpr explicit Test_Transform(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
- ::UnityEngine::Transform __declspec(property(get=__get_self, put=__set_self))  self;
+ UnityEngine::Transform __declspec(property(get=__get_self, put=__set_self))  self;
 
-constexpr void __set_self(::UnityEngine::Transform value) ;
+constexpr void __set_self(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_self() const;
+constexpr UnityEngine::Transform __get_self() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "self", ty: "::UnityEngine::Transform", modifiers: "", def_value: None }]
-explicit Test_Transform(::UnityEngine::Transform self) ;
+// Ctor Parameters [CppParam { name: "self", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
+explicit Test_Transform(UnityEngine::Transform self) ;
 
 /// @brief Method .ctor addr 0x2071fe4 size 0x28 virtual false final false
- void _ctor(::UnityEngine::Transform self) ;
+ void _ctor(UnityEngine::Transform self) ;
 
 /// @brief Method IsNull addr 0x207200c size 0x60 virtual true final true
  bool IsNull() ;
 
 /// @brief Method IsEquivalentTo addr 0x207206c size 0x1cc virtual true final true
- bool IsEquivalentTo(::HoudiniEngineUnity::Test_Transform other) ;
+ bool IsEquivalentTo(HoudiniEngineUnity::Test_Transform other) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::Test_Transform);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::Test_Transform, "HoudiniEngineUnity", "Test_Transform");
+NEED_NO_BOX(HoudiniEngineUnity::Test_Transform);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_Transform, "HoudiniEngineUnity", "Test_Transform");

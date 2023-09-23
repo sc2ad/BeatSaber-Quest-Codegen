@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Net {
-class IPAddress;
+class IPEndPoint;
 }
 namespace System::Net::Sockets {
 struct AddressFamily;
 }
 namespace System::Net {
-class IPEndPoint;
+class IPAddress;
 }
 // Forward declare root types
 namespace System::Net {
@@ -87,7 +86,7 @@ constexpr int32_t __get_m_hash() const;
 
 // Properties
 
- ::System::Net::Sockets::AddressFamily __declspec(property(get=get_Family))  Family;
+ System::Net::Sockets::AddressFamily __declspec(property(get=get_Family))  Family;
 
  int32_t __declspec(property(get=get_Size))  Size;
 
@@ -97,7 +96,7 @@ constexpr int32_t __get_m_hash() const;
 // Methods
 
 /// @brief Method get_Family addr 0x280d5a0 size 0x38 virtual false final false
- ::System::Net::Sockets::AddressFamily get_Family() ;
+ System::Net::Sockets::AddressFamily get_Family() ;
 
 /// @brief Method get_Size addr 0x280d5d8 size 0x8 virtual false final false
  int32_t get_Size() ;
@@ -105,29 +104,29 @@ constexpr int32_t __get_m_hash() const;
 /// @brief Method get_Item addr 0x280d5e0 size 0x7c virtual false final false
  uint8_t get_Item(int32_t offset) ;
 
-// Ctor Parameters [CppParam { name: "family", ty: "::System::Net::Sockets::AddressFamily", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }]
-explicit SocketAddress(::System::Net::Sockets::AddressFamily family, int32_t size) ;
+// Ctor Parameters [CppParam { name: "family", ty: "System::Net::Sockets::AddressFamily", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }]
+explicit SocketAddress(System::Net::Sockets::AddressFamily family, int32_t size) ;
 
 /// @brief Method .ctor addr 0x280d65c size 0x120 virtual false final false
- void _ctor(::System::Net::Sockets::AddressFamily family, int32_t size) ;
+ void _ctor(System::Net::Sockets::AddressFamily family, int32_t size) ;
 
-// Ctor Parameters [CppParam { name: "ipAddress", ty: "::System::Net::IPAddress", modifiers: "", def_value: None }]
-explicit SocketAddress(::System::Net::IPAddress ipAddress) ;
+// Ctor Parameters [CppParam { name: "ipAddress", ty: "System::Net::IPAddress", modifiers: "", def_value: None }]
+explicit SocketAddress(System::Net::IPAddress ipAddress) ;
 
 /// @brief Method .ctor addr 0x280d77c size 0x288 virtual false final false
- void _ctor(::System::Net::IPAddress ipAddress) ;
+ void _ctor(System::Net::IPAddress ipAddress) ;
 
-// Ctor Parameters [CppParam { name: "ipaddress", ty: "::System::Net::IPAddress", modifiers: "", def_value: None }, CppParam { name: "port", ty: "int32_t", modifiers: "", def_value: None }]
-explicit SocketAddress(::System::Net::IPAddress ipaddress, int32_t port) ;
+// Ctor Parameters [CppParam { name: "ipaddress", ty: "System::Net::IPAddress", modifiers: "", def_value: None }, CppParam { name: "port", ty: "int32_t", modifiers: "", def_value: None }]
+explicit SocketAddress(System::Net::IPAddress ipaddress, int32_t port) ;
 
 /// @brief Method .ctor addr 0x280da04 size 0x5c virtual false final false
- void _ctor(::System::Net::IPAddress ipaddress, int32_t port) ;
+ void _ctor(System::Net::IPAddress ipaddress, int32_t port) ;
 
 /// @brief Method GetIPAddress addr 0x280da60 size 0x1f4 virtual false final false
- ::System::Net::IPAddress GetIPAddress() ;
+ System::Net::IPAddress GetIPAddress() ;
 
 /// @brief Method GetIPEndPoint addr 0x280dc54 size 0xa8 virtual false final false
- ::System::Net::IPEndPoint GetIPEndPoint() ;
+ System::Net::IPEndPoint GetIPEndPoint() ;
 
 /// @brief Method Equals addr 0x280dcfc size 0xec virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType comparand) ;
@@ -142,6 +141,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::SocketAddress);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::SocketAddress, "System.Net", "SocketAddress");
+NEED_NO_BOX(System::Net::SocketAddress);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::SocketAddress, "System.Net", "SocketAddress");

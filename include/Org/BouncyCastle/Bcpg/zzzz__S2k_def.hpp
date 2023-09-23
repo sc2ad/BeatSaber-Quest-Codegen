@@ -3,7 +3,6 @@
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Bcpg {
 class BcpgOutputStream;
 }
@@ -23,7 +22,7 @@ namespace Org::BouncyCastle::Bcpg {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(554))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(586))
 // CS Name: Org.BouncyCastle.Bcpg.S2k
-class CORDL_TYPE S2k : public ::Org::BouncyCastle::Bcpg::BcpgObject {
+class CORDL_TYPE S2k : public Org::BouncyCastle::Bcpg::BcpgObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr S2k(S2k const& ) noexcept = default;
 constexpr S2k(S2k&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit S2k(void* ptr) noexcept : ::Org::BouncyCastle::Bcpg::BcpgObject(ptr) {
+constexpr explicit S2k(void* ptr) noexcept : Org::BouncyCastle::Bcpg::BcpgObject(ptr) {
 }
 
 
@@ -86,11 +85,11 @@ constexpr void __set_type(int32_t value) ;
 
 constexpr int32_t __get_type() const;
 
- ::Org::BouncyCastle::Bcpg::HashAlgorithmTag __declspec(property(get=__get_algorithm, put=__set_algorithm))  algorithm;
+ Org::BouncyCastle::Bcpg::HashAlgorithmTag __declspec(property(get=__get_algorithm, put=__set_algorithm))  algorithm;
 
-constexpr void __set_algorithm(::Org::BouncyCastle::Bcpg::HashAlgorithmTag value) ;
+constexpr void __set_algorithm(Org::BouncyCastle::Bcpg::HashAlgorithmTag value) ;
 
-constexpr ::Org::BouncyCastle::Bcpg::HashAlgorithmTag __get_algorithm() const;
+constexpr Org::BouncyCastle::Bcpg::HashAlgorithmTag __get_algorithm() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get_iv, put=__set_iv))  iv;
 
@@ -115,7 +114,7 @@ constexpr int32_t __get_protectionMode() const;
 
  int32_t __declspec(property(get=get_Type))  Type;
 
- ::Org::BouncyCastle::Bcpg::HashAlgorithmTag __declspec(property(get=get_HashAlgorithm))  HashAlgorithm;
+ Org::BouncyCastle::Bcpg::HashAlgorithmTag __declspec(property(get=get_HashAlgorithm))  HashAlgorithm;
 
  int64_t __declspec(property(get=get_IterationCount))  IterationCount;
 
@@ -124,35 +123,35 @@ constexpr int32_t __get_protectionMode() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "inStr", ty: "::System::IO::Stream", modifiers: "", def_value: None }]
-explicit S2k(::System::IO::Stream inStr) ;
+// Ctor Parameters [CppParam { name: "inStr", ty: "System::IO::Stream", modifiers: "", def_value: None }]
+explicit S2k(System::IO::Stream inStr) ;
 
 /// @brief Method .ctor addr 0x1148f90 size 0x198 virtual false final false
- void _ctor(::System::IO::Stream inStr) ;
+ void _ctor(System::IO::Stream inStr) ;
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "::Org::BouncyCastle::Bcpg::HashAlgorithmTag", modifiers: "", def_value: None }]
-explicit S2k(::Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm) ;
+// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Bcpg::HashAlgorithmTag", modifiers: "", def_value: None }]
+explicit S2k(Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm) ;
 
 /// @brief Method .ctor addr 0x1149128 size 0x30 virtual false final false
- void _ctor(::Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm) ;
+ void _ctor(Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm) ;
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "::Org::BouncyCastle::Bcpg::HashAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit S2k(::Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uint8_t> iv) ;
+// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Bcpg::HashAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
+explicit S2k(Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uint8_t> iv) ;
 
 /// @brief Method .ctor addr 0x1149158 size 0x3c virtual false final false
- void _ctor(::Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uint8_t> iv) ;
+ void _ctor(Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uint8_t> iv) ;
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "::Org::BouncyCastle::Bcpg::HashAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "itCount", ty: "int32_t", modifiers: "", def_value: None }]
-explicit S2k(::Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uint8_t> iv, int32_t itCount) ;
+// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Bcpg::HashAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "itCount", ty: "int32_t", modifiers: "", def_value: None }]
+explicit S2k(Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uint8_t> iv, int32_t itCount) ;
 
 /// @brief Method .ctor addr 0x1149194 size 0x4c virtual false final false
- void _ctor(::Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uint8_t> iv, int32_t itCount) ;
+ void _ctor(Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uint8_t> iv, int32_t itCount) ;
 
 /// @brief Method get_Type addr 0x11491e0 size 0x8 virtual true final false
  int32_t get_Type() ;
 
 /// @brief Method get_HashAlgorithm addr 0x11491e8 size 0x8 virtual true final false
- ::Org::BouncyCastle::Bcpg::HashAlgorithmTag get_HashAlgorithm() ;
+ Org::BouncyCastle::Bcpg::HashAlgorithmTag get_HashAlgorithm() ;
 
 /// @brief Method GetIV addr 0x11491f0 size 0x5c virtual true final false
  ::ArrayW<uint8_t> GetIV() ;
@@ -167,12 +166,11 @@ explicit S2k(::Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uin
  int32_t get_ProtectionMode() ;
 
 /// @brief Method Encode addr 0x1149280 size 0xfc virtual true final false
- void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream bcpgOut) ;
+ void Encode(Org::BouncyCastle::Bcpg::BcpgOutputStream bcpgOut) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::S2k);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::S2k, "Org.BouncyCastle.Bcpg", "S2k");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::S2k);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::S2k, "Org.BouncyCastle.Bcpg", "S2k");

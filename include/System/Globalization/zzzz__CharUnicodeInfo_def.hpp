@@ -5,13 +5,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace System::Globalization {
-struct UnicodeCategory;
-}
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
+}
+namespace System::Globalization {
+struct UnicodeCategory;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -59,21 +58,21 @@ constexpr explicit CharUnicodeInfo(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Properties
 
-static ::System::ReadOnlySpan_1<uint8_t> __declspec(property(get=get_CategoryLevel1Index))  CategoryLevel1Index;
+static System::ReadOnlySpan_1<uint8_t> __declspec(property(get=get_CategoryLevel1Index))  CategoryLevel1Index;
 
-static ::System::ReadOnlySpan_1<uint8_t> __declspec(property(get=get_CategoryLevel2Index))  CategoryLevel2Index;
+static System::ReadOnlySpan_1<uint8_t> __declspec(property(get=get_CategoryLevel2Index))  CategoryLevel2Index;
 
-static ::System::ReadOnlySpan_1<uint8_t> __declspec(property(get=get_CategoryLevel3Index))  CategoryLevel3Index;
+static System::ReadOnlySpan_1<uint8_t> __declspec(property(get=get_CategoryLevel3Index))  CategoryLevel3Index;
 
-static ::System::ReadOnlySpan_1<uint8_t> __declspec(property(get=get_CategoriesValue))  CategoriesValue;
+static System::ReadOnlySpan_1<uint8_t> __declspec(property(get=get_CategoriesValue))  CategoriesValue;
 
-static ::System::ReadOnlySpan_1<uint8_t> __declspec(property(get=get_NumericLevel1Index))  NumericLevel1Index;
+static System::ReadOnlySpan_1<uint8_t> __declspec(property(get=get_NumericLevel1Index))  NumericLevel1Index;
 
-static ::System::ReadOnlySpan_1<uint8_t> __declspec(property(get=get_NumericLevel2Index))  NumericLevel2Index;
+static System::ReadOnlySpan_1<uint8_t> __declspec(property(get=get_NumericLevel2Index))  NumericLevel2Index;
 
-static ::System::ReadOnlySpan_1<uint8_t> __declspec(property(get=get_NumericLevel3Index))  NumericLevel3Index;
+static System::ReadOnlySpan_1<uint8_t> __declspec(property(get=get_NumericLevel3Index))  NumericLevel3Index;
 
-static ::System::ReadOnlySpan_1<uint8_t> __declspec(property(get=get_NumericValues))  NumericValues;
+static System::ReadOnlySpan_1<uint8_t> __declspec(property(get=get_NumericValues))  NumericValues;
 
 
 // Methods
@@ -91,22 +90,22 @@ static double_t InternalGetNumericValue(int32_t ch) ;
 static double_t GetNumericValue(char16_t ch) ;
 
 /// @brief Method GetUnicodeCategory addr 0x23d84c4 size 0x1c virtual false final false
-static ::System::Globalization::UnicodeCategory GetUnicodeCategory(char16_t ch) ;
+static System::Globalization::UnicodeCategory GetUnicodeCategory(char16_t ch) ;
 
 /// @brief Method GetUnicodeCategory addr 0x23d84f8 size 0xb0 virtual false final false
-static ::System::Globalization::UnicodeCategory GetUnicodeCategory(::StringW s, int32_t index) ;
+static System::Globalization::UnicodeCategory GetUnicodeCategory(::StringW s, int32_t index) ;
 
 /// @brief Method GetUnicodeCategory addr 0x23d84e0 size 0x18 virtual false final false
-static ::System::Globalization::UnicodeCategory GetUnicodeCategory(int32_t codePoint) ;
+static System::Globalization::UnicodeCategory GetUnicodeCategory(int32_t codePoint) ;
 
 /// @brief Method InternalGetCategoryValue addr 0x23d85c4 size 0xf4 virtual false final false
 static uint8_t InternalGetCategoryValue(int32_t ch, int32_t offset) ;
 
 /// @brief Method InternalGetUnicodeCategory addr 0x23d85a8 size 0x1c virtual false final false
-static ::System::Globalization::UnicodeCategory InternalGetUnicodeCategory(::StringW value, int32_t index) ;
+static System::Globalization::UnicodeCategory InternalGetUnicodeCategory(::StringW value, int32_t index) ;
 
 /// @brief Method InternalGetUnicodeCategory addr 0x23d8888 size 0x1c virtual false final false
-static ::System::Globalization::UnicodeCategory InternalGetUnicodeCategory(::StringW str, int32_t index, ByRef<int32_t> charLength) ;
+static System::Globalization::UnicodeCategory InternalGetUnicodeCategory(::StringW str, int32_t index, ByRef<int32_t> charLength) ;
 
 /// @brief Method IsWhiteSpace addr 0x23d88a4 size 0x1c virtual false final false
 static bool IsWhiteSpace(::StringW s, int32_t index) ;
@@ -115,33 +114,32 @@ static bool IsWhiteSpace(::StringW s, int32_t index) ;
 static bool IsWhiteSpace(char16_t c) ;
 
 /// @brief Method get_CategoryLevel1Index addr 0x23d86b8 size 0x74 virtual false final false
-static ::System::ReadOnlySpan_1<uint8_t> get_CategoryLevel1Index() ;
+static System::ReadOnlySpan_1<uint8_t> get_CategoryLevel1Index() ;
 
 /// @brief Method get_CategoryLevel2Index addr 0x23d872c size 0x74 virtual false final false
-static ::System::ReadOnlySpan_1<uint8_t> get_CategoryLevel2Index() ;
+static System::ReadOnlySpan_1<uint8_t> get_CategoryLevel2Index() ;
 
 /// @brief Method get_CategoryLevel3Index addr 0x23d87a0 size 0x74 virtual false final false
-static ::System::ReadOnlySpan_1<uint8_t> get_CategoryLevel3Index() ;
+static System::ReadOnlySpan_1<uint8_t> get_CategoryLevel3Index() ;
 
 /// @brief Method get_CategoriesValue addr 0x23d8814 size 0x74 virtual false final false
-static ::System::ReadOnlySpan_1<uint8_t> get_CategoriesValue() ;
+static System::ReadOnlySpan_1<uint8_t> get_CategoriesValue() ;
 
 /// @brief Method get_NumericLevel1Index addr 0x23d82ec size 0x74 virtual false final false
-static ::System::ReadOnlySpan_1<uint8_t> get_NumericLevel1Index() ;
+static System::ReadOnlySpan_1<uint8_t> get_NumericLevel1Index() ;
 
 /// @brief Method get_NumericLevel2Index addr 0x23d8360 size 0x74 virtual false final false
-static ::System::ReadOnlySpan_1<uint8_t> get_NumericLevel2Index() ;
+static System::ReadOnlySpan_1<uint8_t> get_NumericLevel2Index() ;
 
 /// @brief Method get_NumericLevel3Index addr 0x23d83d4 size 0x74 virtual false final false
-static ::System::ReadOnlySpan_1<uint8_t> get_NumericLevel3Index() ;
+static System::ReadOnlySpan_1<uint8_t> get_NumericLevel3Index() ;
 
 /// @brief Method get_NumericValues addr 0x23d8448 size 0x74 virtual false final false
-static ::System::ReadOnlySpan_1<uint8_t> get_NumericValues() ;
+static System::ReadOnlySpan_1<uint8_t> get_NumericValues() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Globalization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Globalization::CharUnicodeInfo);
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::CharUnicodeInfo, "System.Globalization", "CharUnicodeInfo");
+NEED_NO_BOX(System::Globalization::CharUnicodeInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CharUnicodeInfo, "System.Globalization", "CharUnicodeInfo");

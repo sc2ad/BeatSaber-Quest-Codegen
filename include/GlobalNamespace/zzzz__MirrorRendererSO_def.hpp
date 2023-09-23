@@ -5,53 +5,52 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct LayerMask;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace GlobalNamespace {
-class BloomPrePassRendererSO;
-}
-namespace UnityEngine {
-class Shader;
-}
-namespace UnityEngine {
-class Camera;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace GlobalNamespace {
-class BloomPrePassEffectSO;
-}
-namespace UnityEngine {
-class Texture;
 }
 namespace UnityEngine {
 struct Vector4;
 }
 namespace UnityEngine {
+struct Quaternion;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace GlobalNamespace {
+class BloomPrePassRendererSO;
+}
+namespace UnityEngine {
 struct Rect;
+}
+namespace UnityEngine {
+struct Matrix4x4;
 }
 namespace UnityEngine {
 class RenderTexture;
 }
 namespace UnityEngine {
-struct Matrix4x4;
+class Shader;
+}
+namespace GlobalNamespace {
+class BloomPrePassEffectSO;
+}
+namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine {
+class Texture;
 }
 // Forward declare root types
 namespace GlobalNamespace {
 class MirrorRendererSO;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__MirrorRendererSO__CameraTransformData;
+struct GlobalNamespace__MirrorRendererSO__CameraTransformData;
 }
 // Type: ::CameraTransformData
 namespace GlobalNamespace {
@@ -59,20 +58,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15318))
 // CS Name: MirrorRendererSO::CameraTransformData
-struct CORDL_TYPE ____GlobalNamespace__MirrorRendererSO__CameraTransformData : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__MirrorRendererSO__CameraTransformData : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "fov", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "stereoEnabled", ty: "bool", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__MirrorRendererSO__CameraTransformData(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, float_t fov, bool stereoEnabled) noexcept;
+// Ctor Parameters [CppParam { name: "position", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "fov", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "stereoEnabled", ty: "bool", modifiers: "", def_value: None }]
+constexpr GlobalNamespace__MirrorRendererSO__CameraTransformData(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, float_t fov, bool stereoEnabled) noexcept;
 
 
-                    constexpr ____GlobalNamespace__MirrorRendererSO__CameraTransformData(____GlobalNamespace__MirrorRendererSO__CameraTransformData const&) = default;
-                    constexpr ____GlobalNamespace__MirrorRendererSO__CameraTransformData(____GlobalNamespace__MirrorRendererSO__CameraTransformData&&) = default;
-                    constexpr ____GlobalNamespace__MirrorRendererSO__CameraTransformData& operator=(____GlobalNamespace__MirrorRendererSO__CameraTransformData const& o) {
+                    constexpr GlobalNamespace__MirrorRendererSO__CameraTransformData(GlobalNamespace__MirrorRendererSO__CameraTransformData const&) = default;
+                    constexpr GlobalNamespace__MirrorRendererSO__CameraTransformData(GlobalNamespace__MirrorRendererSO__CameraTransformData&&) = default;
+                    constexpr GlobalNamespace__MirrorRendererSO__CameraTransformData& operator=(GlobalNamespace__MirrorRendererSO__CameraTransformData const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__MirrorRendererSO__CameraTransformData& operator=(____GlobalNamespace__MirrorRendererSO__CameraTransformData&& o) noexcept {
+                    constexpr GlobalNamespace__MirrorRendererSO__CameraTransformData& operator=(GlobalNamespace__MirrorRendererSO__CameraTransformData&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -85,7 +84,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x24};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__MirrorRendererSO__CameraTransformData(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__MirrorRendererSO__CameraTransformData(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -96,17 +95,17 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_position, put=__set_position))  position;
+ UnityEngine::Vector3 __declspec(property(get=__get_position, put=__set_position))  position;
 
-constexpr void __set_position(::UnityEngine::Vector3 value) ;
+constexpr void __set_position(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_position() const;
+constexpr UnityEngine::Vector3 __get_position() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get_rotation, put=__set_rotation))  rotation;
+ UnityEngine::Quaternion __declspec(property(get=__get_rotation, put=__set_rotation))  rotation;
 
-constexpr void __set_rotation(::UnityEngine::Quaternion value) ;
+constexpr void __set_rotation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get_rotation() const;
+constexpr UnityEngine::Quaternion __get_rotation() const;
 
  float_t __declspec(property(get=__get_fov, put=__set_fov))  fov;
 
@@ -124,7 +123,7 @@ constexpr bool __get_stereoEnabled() const;
 // Methods
 
 /// @brief Method .ctor addr 0x2678ac0 size 0x1c virtual false final false
- void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, float_t fov, bool stereoEnabled) ;
+ void _ctor(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, float_t fov, bool stereoEnabled) ;
 
 /// @brief Method Equals addr 0x26795a0 size 0x100 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -142,10 +141,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15319))
 // CS Name: MirrorRendererSO
-class CORDL_TYPE MirrorRendererSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE MirrorRendererSO : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
-using CameraTransformData = ::GlobalNamespace::____GlobalNamespace__MirrorRendererSO__CameraTransformData;
+using CameraTransformData = GlobalNamespace::GlobalNamespace__MirrorRendererSO__CameraTransformData;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xa0};
@@ -159,7 +158,7 @@ constexpr MirrorRendererSO(MirrorRendererSO const& ) noexcept = default;
 constexpr MirrorRendererSO(MirrorRendererSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MirrorRendererSO(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit MirrorRendererSO(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -180,11 +179,11 @@ constexpr explicit MirrorRendererSO(void* ptr) noexcept : ::GlobalNamespace::Per
 
 // Fields
 
- ::UnityEngine::LayerMask __declspec(property(get=__get__reflectLayers, put=__set__reflectLayers))  _reflectLayers;
+ UnityEngine::LayerMask __declspec(property(get=__get__reflectLayers, put=__set__reflectLayers))  _reflectLayers;
 
-constexpr void __set__reflectLayers(::UnityEngine::LayerMask value) ;
+constexpr void __set__reflectLayers(UnityEngine::LayerMask value) ;
 
-constexpr ::UnityEngine::LayerMask __get__reflectLayers() const;
+constexpr UnityEngine::LayerMask __get__reflectLayers() const;
 
  int32_t __declspec(property(get=__get__stereoTextureWidth, put=__set__stereoTextureWidth))  _stereoTextureWidth;
 
@@ -228,35 +227,35 @@ constexpr void __set__enableBloomPrePass(bool value) ;
 
 constexpr bool __get__enableBloomPrePass() const;
 
- ::GlobalNamespace::BloomPrePassRendererSO __declspec(property(get=__get__bloomPrePassRenderer, put=__set__bloomPrePassRenderer))  _bloomPrePassRenderer;
+ GlobalNamespace::BloomPrePassRendererSO __declspec(property(get=__get__bloomPrePassRenderer, put=__set__bloomPrePassRenderer))  _bloomPrePassRenderer;
 
-constexpr void __set__bloomPrePassRenderer(::GlobalNamespace::BloomPrePassRendererSO value) ;
+constexpr void __set__bloomPrePassRenderer(GlobalNamespace::BloomPrePassRendererSO value) ;
 
-constexpr ::GlobalNamespace::BloomPrePassRendererSO __get__bloomPrePassRenderer() const;
+constexpr GlobalNamespace::BloomPrePassRendererSO __get__bloomPrePassRenderer() const;
 
- ::GlobalNamespace::BloomPrePassEffectSO __declspec(property(get=__get__bloomPrePassEffect, put=__set__bloomPrePassEffect))  _bloomPrePassEffect;
+ GlobalNamespace::BloomPrePassEffectSO __declspec(property(get=__get__bloomPrePassEffect, put=__set__bloomPrePassEffect))  _bloomPrePassEffect;
 
-constexpr void __set__bloomPrePassEffect(::GlobalNamespace::BloomPrePassEffectSO value) ;
+constexpr void __set__bloomPrePassEffect(GlobalNamespace::BloomPrePassEffectSO value) ;
 
-constexpr ::GlobalNamespace::BloomPrePassEffectSO __get__bloomPrePassEffect() const;
+constexpr GlobalNamespace::BloomPrePassEffectSO __get__bloomPrePassEffect() const;
 
- ::UnityEngine::Shader __declspec(property(get=__get__clearDepthShader, put=__set__clearDepthShader))  _clearDepthShader;
+ UnityEngine::Shader __declspec(property(get=__get__clearDepthShader, put=__set__clearDepthShader))  _clearDepthShader;
 
-constexpr void __set__clearDepthShader(::UnityEngine::Shader value) ;
+constexpr void __set__clearDepthShader(UnityEngine::Shader value) ;
 
-constexpr ::UnityEngine::Shader __get__clearDepthShader() const;
+constexpr UnityEngine::Shader __get__clearDepthShader() const;
 
- ::UnityEngine::RenderTexture __declspec(property(get=__get__bloomPrePassRenderTexture, put=__set__bloomPrePassRenderTexture))  _bloomPrePassRenderTexture;
+ UnityEngine::RenderTexture __declspec(property(get=__get__bloomPrePassRenderTexture, put=__set__bloomPrePassRenderTexture))  _bloomPrePassRenderTexture;
 
-constexpr void __set__bloomPrePassRenderTexture(::UnityEngine::RenderTexture value) ;
+constexpr void __set__bloomPrePassRenderTexture(UnityEngine::RenderTexture value) ;
 
-constexpr ::UnityEngine::RenderTexture __get__bloomPrePassRenderTexture() const;
+constexpr UnityEngine::RenderTexture __get__bloomPrePassRenderTexture() const;
 
- ::UnityEngine::Camera __declspec(property(get=__get__mirrorCamera, put=__set__mirrorCamera))  _mirrorCamera;
+ UnityEngine::Camera __declspec(property(get=__get__mirrorCamera, put=__set__mirrorCamera))  _mirrorCamera;
 
-constexpr void __set__mirrorCamera(::UnityEngine::Camera value) ;
+constexpr void __set__mirrorCamera(UnityEngine::Camera value) ;
 
-constexpr ::UnityEngine::Camera __get__mirrorCamera() const;
+constexpr UnityEngine::Camera __get__mirrorCamera() const;
 
  int32_t __declspec(property(get=__get__antialiasing, put=__set__antialiasing))  _antialiasing;
 
@@ -264,29 +263,29 @@ constexpr void __set__antialiasing(int32_t value) ;
 
 constexpr int32_t __get__antialiasing() const;
 
- ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::____GlobalNamespace__MirrorRendererSO__CameraTransformData,::UnityEngine::RenderTexture> __declspec(property(get=__get__renderTextures, put=__set__renderTextures))  _renderTextures;
+ System::Collections::Generic::Dictionary_2<GlobalNamespace::GlobalNamespace__MirrorRendererSO__CameraTransformData,UnityEngine::RenderTexture> __declspec(property(get=__get__renderTextures, put=__set__renderTextures))  _renderTextures;
 
-constexpr void __set__renderTextures(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::____GlobalNamespace__MirrorRendererSO__CameraTransformData,::UnityEngine::RenderTexture> value) ;
+constexpr void __set__renderTextures(System::Collections::Generic::Dictionary_2<GlobalNamespace::GlobalNamespace__MirrorRendererSO__CameraTransformData,UnityEngine::RenderTexture> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::____GlobalNamespace__MirrorRendererSO__CameraTransformData,::UnityEngine::RenderTexture> __get__renderTextures() const;
+constexpr System::Collections::Generic::Dictionary_2<GlobalNamespace::GlobalNamespace__MirrorRendererSO__CameraTransformData,UnityEngine::RenderTexture> __get__renderTextures() const;
 
- ::UnityEngine::Rect __declspec(property(get=__get_kLeftRect, put=__set_kLeftRect))  kLeftRect;
+ UnityEngine::Rect __declspec(property(get=__get_kLeftRect, put=__set_kLeftRect))  kLeftRect;
 
-constexpr void __set_kLeftRect(::UnityEngine::Rect value) ;
+constexpr void __set_kLeftRect(UnityEngine::Rect value) ;
 
-constexpr ::UnityEngine::Rect __get_kLeftRect() const;
+constexpr UnityEngine::Rect __get_kLeftRect() const;
 
- ::UnityEngine::Rect __declspec(property(get=__get_kRightRect, put=__set_kRightRect))  kRightRect;
+ UnityEngine::Rect __declspec(property(get=__get_kRightRect, put=__set_kRightRect))  kRightRect;
 
-constexpr void __set_kRightRect(::UnityEngine::Rect value) ;
+constexpr void __set_kRightRect(UnityEngine::Rect value) ;
 
-constexpr ::UnityEngine::Rect __get_kRightRect() const;
+constexpr UnityEngine::Rect __get_kRightRect() const;
 
- ::UnityEngine::Rect __declspec(property(get=__get_kFullRect, put=__set_kFullRect))  kFullRect;
+ UnityEngine::Rect __declspec(property(get=__get_kFullRect, put=__set_kFullRect))  kFullRect;
 
-constexpr void __set_kFullRect(::UnityEngine::Rect value) ;
+constexpr void __set_kFullRect(UnityEngine::Rect value) ;
 
-constexpr ::UnityEngine::Rect __get_kFullRect() const;
+constexpr UnityEngine::Rect __get_kFullRect() const;
 
 /// @brief Field kWaterLayer offset 0
 static constexpr int32_t  kWaterLayer{4};
@@ -304,31 +303,31 @@ static constexpr int32_t  kWaterLayer{4};
  void ValidateParams() ;
 
 /// @brief Method Init addr 0x2678aa8 size 0x18 virtual false final false
- void Init(::UnityEngine::LayerMask reflectLayers, int32_t stereoTextureWidth, int32_t stereoTextureHeight, int32_t monoTextureWidth, int32_t monoTextureHeight, int32_t maxAntiAliasing, bool enableBloomPrePass) ;
+ void Init(UnityEngine::LayerMask reflectLayers, int32_t stereoTextureWidth, int32_t stereoTextureHeight, int32_t monoTextureWidth, int32_t monoTextureHeight, int32_t maxAntiAliasing, bool enableBloomPrePass) ;
 
 /// @brief Method PrepareForNextFrame addr 0x2677dac size 0x18c virtual false final false
  void PrepareForNextFrame() ;
 
 /// @brief Method GetMirrorTexture addr 0x26781cc size 0x7f0 virtual false final false
- ::UnityEngine::Texture GetMirrorTexture(::UnityEngine::Vector3 reflectionPlanePos, ::UnityEngine::Vector3 reflectionPlaneNormal) ;
+ UnityEngine::Texture GetMirrorTexture(UnityEngine::Vector3 reflectionPlanePos, UnityEngine::Vector3 reflectionPlaneNormal) ;
 
 /// @brief Method RenderMirror addr 0x2678ea4 size 0x270 virtual false final false
- void RenderMirror(::UnityEngine::Vector3 camPosition, ::UnityEngine::Quaternion camRotation, ::UnityEngine::Matrix4x4 camProjectionMatrix, ::UnityEngine::Rect screenRect, ::UnityEngine::Vector3 reclectionPlanePos, ::UnityEngine::Vector3 reflectionPlaneNormal) ;
+ void RenderMirror(UnityEngine::Vector3 camPosition, UnityEngine::Quaternion camRotation, UnityEngine::Matrix4x4 camProjectionMatrix, UnityEngine::Rect screenRect, UnityEngine::Vector3 reclectionPlanePos, UnityEngine::Vector3 reflectionPlaneNormal) ;
 
 /// @brief Method OnDisable addr 0x2679240 size 0x224 virtual false final false
  void OnDisable() ;
 
 /// @brief Method CreateOrUpdateMirrorCamera addr 0x2678adc size 0x2b4 virtual false final false
- void CreateOrUpdateMirrorCamera(::UnityEngine::Camera currentCamera, ::UnityEngine::RenderTexture renderTexture) ;
+ void CreateOrUpdateMirrorCamera(UnityEngine::Camera currentCamera, UnityEngine::RenderTexture renderTexture) ;
 
 /// @brief Method Plane addr 0x2678d90 size 0x2c virtual false final false
-static ::UnityEngine::Vector4 Plane(::UnityEngine::Vector3 pos, ::UnityEngine::Vector3 normal) ;
+static UnityEngine::Vector4 Plane(UnityEngine::Vector3 pos, UnityEngine::Vector3 normal) ;
 
 /// @brief Method CameraSpacePlane addr 0x2679114 size 0x12c virtual false final false
-static ::UnityEngine::Vector4 CameraSpacePlane(::UnityEngine::Matrix4x4 worldToCameraMatrix, ::UnityEngine::Vector3 pos, ::UnityEngine::Vector3 normal) ;
+static UnityEngine::Vector4 CameraSpacePlane(UnityEngine::Matrix4x4 worldToCameraMatrix, UnityEngine::Vector3 pos, UnityEngine::Vector3 normal) ;
 
 /// @brief Method CalculateReflectionMatrix addr 0x2678dbc size 0xe8 virtual false final false
-static ::UnityEngine::Matrix4x4 CalculateReflectionMatrix(::UnityEngine::Vector4 plane) ;
+static UnityEngine::Matrix4x4 CalculateReflectionMatrix(UnityEngine::Vector4 plane) ;
 
 // Ctor Parameters []
 explicit MirrorRendererSO() ;
@@ -340,7 +339,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MirrorRendererSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MirrorRendererSO, "", "MirrorRendererSO");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__MirrorRendererSO__CameraTransformData, "", "MirrorRendererSO/CameraTransformData");
+NEED_NO_BOX(GlobalNamespace::MirrorRendererSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirrorRendererSO, "", "MirrorRendererSO");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__MirrorRendererSO__CameraTransformData, "", "MirrorRendererSO/CameraTransformData");

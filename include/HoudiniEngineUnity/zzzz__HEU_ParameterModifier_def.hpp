@@ -4,14 +4,13 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivable_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
-struct ____HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction;
+struct HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction;
 }
 namespace HoudiniEngineUnity {
 class HEU_ParameterModifier;
@@ -22,20 +21,20 @@ namespace HoudiniEngineUnity {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9702))
 // CS Name: HoudiniEngineUnity.HEU_ParameterModifier::ModifierAction
-struct CORDL_TYPE ____HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction(int32_t value__) noexcept;
+constexpr HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction(int32_t value__) noexcept;
 
 
-                    constexpr ____HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction(____HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction const&) = default;
-                    constexpr ____HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction(____HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction&&) = default;
-                    constexpr ____HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction& operator=(____HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction const& o) {
+                    constexpr HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction(HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction const&) = default;
+                    constexpr HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction(HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction&&) = default;
+                    constexpr HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction& operator=(HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction& operator=(____HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction&& o) noexcept {
+                    constexpr HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction& operator=(HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -48,7 +47,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -56,7 +55,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction_Unwrapped : int32_t {
+enum class __HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction_Unwrapped : int32_t {
 __MULTIPARM_INSERT = 0,
 __MULTIPARM_REMOVE = 1,
 __MULTIPARM_CLEAR = 2,
@@ -65,8 +64,8 @@ __SET_INT = 4,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction_Unwrapped () const noexcept {
-return std::bit_cast<______HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction_Unwrapped>(__instance);
+constexpr operator __HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction_Unwrapped () const noexcept {
+return std::bit_cast<__HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction_Unwrapped>(__instance);
 }
 
 
@@ -79,19 +78,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field MULTIPARM_INSERT offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction const MULTIPARM_INSERT;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction const MULTIPARM_INSERT;
 
 /// @brief Field MULTIPARM_REMOVE offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction const MULTIPARM_REMOVE;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction const MULTIPARM_REMOVE;
 
 /// @brief Field MULTIPARM_CLEAR offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction const MULTIPARM_CLEAR;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction const MULTIPARM_CLEAR;
 
 /// @brief Field SET_FLOAT offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction const SET_FLOAT;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction const SET_FLOAT;
 
 /// @brief Field SET_INT offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction const SET_INT;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction const SET_INT;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -106,10 +105,10 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE HEU_ParameterModifier : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using ModifierAction = ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction;
+using ModifierAction = HoudiniEngineUnity::HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction;
 
-/// @brief Convert operator to ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterModifier>
-constexpr operator  ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterModifier>() const noexcept;
+/// @brief Convert operator to HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_ParameterModifier>
+constexpr operator  HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_ParameterModifier>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -150,11 +149,11 @@ constexpr void __set__parameterIndex(int32_t value) ;
 
 constexpr int32_t __get__parameterIndex() const;
 
- ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction __declspec(property(get=__get__action, put=__set__action))  _action;
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction __declspec(property(get=__get__action, put=__set__action))  _action;
 
-constexpr void __set__action(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction value) ;
+constexpr void __set__action(HoudiniEngineUnity::HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction value) ;
 
-constexpr ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction __get__action() const;
+constexpr HoudiniEngineUnity::HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction __get__action() const;
 
  int32_t __declspec(property(get=__get__instanceIndex, put=__set__instanceIndex))  _instanceIndex;
 
@@ -184,10 +183,10 @@ constexpr int32_t __get__intValue() const;
 // Methods
 
 /// @brief Method GetNewModifier addr 0x20204bc size 0x84 virtual false final false
-static ::HoudiniEngineUnity::HEU_ParameterModifier GetNewModifier(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction action, int32_t parameterIndex, int32_t instanceIndex, int32_t modifierValue) ;
+static HoudiniEngineUnity::HEU_ParameterModifier GetNewModifier(HoudiniEngineUnity::HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction action, int32_t parameterIndex, int32_t instanceIndex, int32_t modifierValue) ;
 
 /// @brief Method IsEquivalentTo addr 0x2020548 size 0x28c virtual true final true
- bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ParameterModifier other) ;
+ bool IsEquivalentTo(HoudiniEngineUnity::HEU_ParameterModifier other) ;
 
 // Ctor Parameters []
 explicit HEU_ParameterModifier() ;
@@ -199,7 +198,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction, "HoudiniEngineUnity", "HEU_ParameterModifier/ModifierAction");
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_ParameterModifier);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_ParameterModifier, "HoudiniEngineUnity", "HEU_ParameterModifier");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction, "HoudiniEngineUnity", "HEU_ParameterModifier/ModifierAction");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_ParameterModifier);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ParameterModifier, "HoudiniEngineUnity", "HEU_ParameterModifier");

@@ -6,27 +6,26 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace ENet {
-struct PeerState;
+struct ENetEvent;
 }
 namespace ENet {
 struct ENetCallbacks;
 }
 namespace ENet {
-struct ENetAddress;
-}
-namespace ENet {
 struct PacketFlags;
-}
-namespace System::Text {
-class StringBuilder;
 }
 namespace ENet {
 struct ENetSslConfiguration;
 }
 namespace ENet {
-struct ENetEvent;
+struct PeerState;
+}
+namespace ENet {
+struct ENetAddress;
+}
+namespace System::Text {
+class StringBuilder;
 }
 // Forward declare root types
 namespace ENet {
@@ -96,7 +95,7 @@ static int32_t OPENSSL_init_ssl(uint64_t opts, ::cordl_internals::intptr_t setti
 static int32_t enet_initialize() ;
 
 /// @brief Method enet_initialize_with_callbacks addr 0x20816f0 size 0xc4 virtual false final false
-static int32_t enet_initialize_with_callbacks(uint32_t version, ByRef<::ENet::ENetCallbacks> inits) ;
+static int32_t enet_initialize_with_callbacks(uint32_t version, ByRef<ENet::ENetCallbacks> inits) ;
 
 /// @brief Method enet_deinitialize addr 0x20817b8 size 0x64 virtual false final false
 static void enet_deinitialize() ;
@@ -111,28 +110,28 @@ static uint32_t enet_time_get() ;
 static uint64_t enet_crc64(::cordl_internals::intptr_t buffers, int32_t bufferCount) ;
 
 /// @brief Method enet_address_set_ip addr 0x207d0cc size 0xa0 virtual false final false
-static int32_t enet_address_set_ip(ByRef<::ENet::ENetAddress> address, ::StringW ip) ;
+static int32_t enet_address_set_ip(ByRef<ENet::ENetAddress> address, ::StringW ip) ;
 
 /// @brief Method enet_address_set_hostname addr 0x207d350 size 0xa0 virtual false final false
-static int32_t enet_address_set_hostname(ByRef<::ENet::ENetAddress> address, ::StringW hostName) ;
+static int32_t enet_address_set_hostname(ByRef<ENet::ENetAddress> address, ::StringW hostName) ;
 
 /// @brief Method enet_address_get_ip addr 0x207cfa8 size 0xbc virtual false final false
-static int32_t enet_address_get_ip(ByRef<::ENet::ENetAddress> address, ::System::Text::StringBuilder ip, ::cordl_internals::intptr_t ipLength) ;
+static int32_t enet_address_get_ip(ByRef<ENet::ENetAddress> address, System::Text::StringBuilder ip, ::cordl_internals::intptr_t ipLength) ;
 
 /// @brief Method enet_address_get_hostname addr 0x207d22c size 0xbc virtual false final false
-static int32_t enet_address_get_hostname(ByRef<::ENet::ENetAddress> address, ::System::Text::StringBuilder hostName, ::cordl_internals::intptr_t nameLength) ;
+static int32_t enet_address_get_hostname(ByRef<ENet::ENetAddress> address, System::Text::StringBuilder hostName, ::cordl_internals::intptr_t nameLength) ;
 
 /// @brief Method enet_packet_create addr 0x207ddd4 size 0x9c virtual false final false
-static ::cordl_internals::intptr_t enet_packet_create(::ArrayW<uint8_t> data, ::cordl_internals::intptr_t dataLength, ::ENet::PacketFlags flags) ;
+static ::cordl_internals::intptr_t enet_packet_create(::ArrayW<uint8_t> data, ::cordl_internals::intptr_t dataLength, ENet::PacketFlags flags) ;
 
 /// @brief Method enet_packet_create addr 0x207df90 size 0x94 virtual false final false
-static ::cordl_internals::intptr_t enet_packet_create(::cordl_internals::intptr_t data, ::cordl_internals::intptr_t dataLength, ::ENet::PacketFlags flags) ;
+static ::cordl_internals::intptr_t enet_packet_create(::cordl_internals::intptr_t data, ::cordl_internals::intptr_t dataLength, ENet::PacketFlags flags) ;
 
 /// @brief Method enet_packet_create_offset addr 0x207e144 size 0xa4 virtual false final false
-static ::cordl_internals::intptr_t enet_packet_create_offset(::ArrayW<uint8_t> data, ::cordl_internals::intptr_t dataLength, ::cordl_internals::intptr_t dataOffset, ::ENet::PacketFlags flags) ;
+static ::cordl_internals::intptr_t enet_packet_create_offset(::ArrayW<uint8_t> data, ::cordl_internals::intptr_t dataLength, ::cordl_internals::intptr_t dataOffset, ENet::PacketFlags flags) ;
 
 /// @brief Method enet_packet_create_offset addr 0x207e348 size 0x9c virtual false final false
-static ::cordl_internals::intptr_t enet_packet_create_offset(::cordl_internals::intptr_t data, ::cordl_internals::intptr_t dataLength, ::cordl_internals::intptr_t dataOffset, ::ENet::PacketFlags flags) ;
+static ::cordl_internals::intptr_t enet_packet_create_offset(::cordl_internals::intptr_t data, ::cordl_internals::intptr_t dataLength, ::cordl_internals::intptr_t dataOffset, ENet::PacketFlags flags) ;
 
 /// @brief Method enet_packet_check_references addr 0x207dabc size 0x7c virtual false final false
 static int32_t enet_packet_check_references(::cordl_internals::intptr_t packet) ;
@@ -156,19 +155,19 @@ static void enet_packet_set_free_callback(::cordl_internals::intptr_t packet, ::
 static void enet_packet_dispose(::cordl_internals::intptr_t packet) ;
 
 /// @brief Method enet_host_create addr 0x20818a4 size 0xb4 virtual false final false
-static ::cordl_internals::intptr_t enet_host_create(ByRef<::ENet::ENetAddress> address, ::cordl_internals::intptr_t peerLimit, ::cordl_internals::intptr_t channelLimit, uint32_t incomingBandwidth, uint32_t outgoingBandwidth, int32_t bufferSize) ;
+static ::cordl_internals::intptr_t enet_host_create(ByRef<ENet::ENetAddress> address, ::cordl_internals::intptr_t peerLimit, ::cordl_internals::intptr_t channelLimit, uint32_t incomingBandwidth, uint32_t outgoingBandwidth, int32_t bufferSize) ;
 
 /// @brief Method enet_host_create addr 0x2081958 size 0xb4 virtual false final false
 static ::cordl_internals::intptr_t enet_host_create(::cordl_internals::intptr_t address, ::cordl_internals::intptr_t peerLimit, ::cordl_internals::intptr_t channelLimit, uint32_t incomingBandwidth, uint32_t outgoingBandwidth, int32_t bufferSize) ;
 
 /// @brief Method enet_host_create_ssl addr 0x207edc8 size 0x11c virtual false final false
-static ::cordl_internals::intptr_t enet_host_create_ssl(ByRef<::ENet::ENetAddress> address, ::cordl_internals::intptr_t peerLimit, ::cordl_internals::intptr_t channelLimit, uint32_t incomingBandwidth, uint32_t outgoingBandwidth, int32_t bufferSize, ByRef<::ENet::ENetSslConfiguration> sslConfiguration) ;
+static ::cordl_internals::intptr_t enet_host_create_ssl(ByRef<ENet::ENetAddress> address, ::cordl_internals::intptr_t peerLimit, ::cordl_internals::intptr_t channelLimit, uint32_t incomingBandwidth, uint32_t outgoingBandwidth, int32_t bufferSize, ByRef<ENet::ENetSslConfiguration> sslConfiguration) ;
 
 /// @brief Method enet_host_create_ssl addr 0x207eee4 size 0x11c virtual false final false
-static ::cordl_internals::intptr_t enet_host_create_ssl(::cordl_internals::intptr_t address, ::cordl_internals::intptr_t peerLimit, ::cordl_internals::intptr_t channelLimit, uint32_t incomingBandwidth, uint32_t outgoingBandwidth, int32_t bufferSize, ByRef<::ENet::ENetSslConfiguration> sslConfiguration) ;
+static ::cordl_internals::intptr_t enet_host_create_ssl(::cordl_internals::intptr_t address, ::cordl_internals::intptr_t peerLimit, ::cordl_internals::intptr_t channelLimit, uint32_t incomingBandwidth, uint32_t outgoingBandwidth, int32_t bufferSize, ByRef<ENet::ENetSslConfiguration> sslConfiguration) ;
 
 /// @brief Method enet_host_connect addr 0x207f814 size 0x9c virtual false final false
-static ::cordl_internals::intptr_t enet_host_connect(::cordl_internals::intptr_t host, ByRef<::ENet::ENetAddress> address, ::cordl_internals::intptr_t channelCount, uint32_t data) ;
+static ::cordl_internals::intptr_t enet_host_connect(::cordl_internals::intptr_t host, ByRef<ENet::ENetAddress> address, ::cordl_internals::intptr_t channelCount, uint32_t data) ;
 
 /// @brief Method enet_host_broadcast addr 0x207f12c size 0x94 virtual false final false
 static void enet_host_broadcast(::cordl_internals::intptr_t host, uint8_t channelID, ::cordl_internals::intptr_t packet) ;
@@ -180,10 +179,10 @@ static void enet_host_broadcast_exclude(::cordl_internals::intptr_t host, uint8_
 static void enet_host_broadcast_selective(::cordl_internals::intptr_t host, uint8_t channelID, ::cordl_internals::intptr_t packet, ::ArrayW<::cordl_internals::intptr_t> peers, ::cordl_internals::intptr_t peersLength) ;
 
 /// @brief Method enet_host_service addr 0x207f960 size 0x94 virtual false final false
-static int32_t enet_host_service(::cordl_internals::intptr_t host, ByRef<::ENet::ENetEvent> event, uint32_t timeout) ;
+static int32_t enet_host_service(::cordl_internals::intptr_t host, ByRef<ENet::ENetEvent> event, uint32_t timeout) ;
 
 /// @brief Method enet_host_check_events addr 0x207f598 size 0x84 virtual false final false
-static int32_t enet_host_check_events(::cordl_internals::intptr_t host, ByRef<::ENet::ENetEvent> event) ;
+static int32_t enet_host_check_events(::cordl_internals::intptr_t host, ByRef<ENet::ENetEvent> event) ;
 
 /// @brief Method enet_host_channel_limit addr 0x207faf8 size 0x84 virtual false final false
 static void enet_host_channel_limit(::cordl_internals::intptr_t host, ::cordl_internals::intptr_t channelLimit) ;
@@ -240,7 +239,7 @@ static uint16_t enet_peer_get_port(::cordl_internals::intptr_t peer) ;
 static uint32_t enet_peer_get_mtu(::cordl_internals::intptr_t peer) ;
 
 /// @brief Method enet_peer_get_state addr 0x2080464 size 0x7c virtual false final false
-static ::ENet::PeerState enet_peer_get_state(::cordl_internals::intptr_t peer) ;
+static ENet::PeerState enet_peer_get_state(::cordl_internals::intptr_t peer) ;
 
 /// @brief Method enet_peer_get_rtt addr 0x20804f8 size 0x7c virtual false final false
 static uint32_t enet_peer_get_rtt(::cordl_internals::intptr_t peer) ;
@@ -306,6 +305,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def ENet
-} // end anonymous namespace
-NEED_NO_BOX(::ENet::Native);
-DEFINE_IL2CPP_ARG_TYPE(::ENet::Native, "ENet", "Native");
+NEED_NO_BOX(ENet::Native);
+DEFINE_IL2CPP_ARG_TYPE(ENet::Native, "ENet", "Native");

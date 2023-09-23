@@ -5,28 +5,27 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto::Modes {
 class IAeadCipher;
+}
+namespace Org::BouncyCastle::Crypto::Modes {
+class IAeadBlockCipher;
+}
+namespace Org::BouncyCastle::Crypto {
+class IBlockCipher;
+}
+namespace Org::BouncyCastle::Crypto::Modes {
+class SicBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class IMac;
 }
 namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
-}
-namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
-}
-namespace Org::BouncyCastle::Crypto::Modes {
-class IAeadBlockCipher;
-}
-namespace Org::BouncyCastle::Crypto::Modes {
-class SicBlockCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Modes {
-struct ____Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag;
+struct Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag;
 }
 namespace Org::BouncyCastle::Crypto::Modes {
 class EaxBlockCipher;
@@ -37,20 +36,20 @@ namespace Org::BouncyCastle::Crypto::Modes {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(968))
 // CS Name: Org.BouncyCastle.Crypto.Modes.EaxBlockCipher::Tag
-struct CORDL_TYPE ____Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
-constexpr ____Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag(uint8_t value__) noexcept;
+constexpr Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag(uint8_t value__) noexcept;
 
 
-                    constexpr ____Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag(____Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag const&) = default;
-                    constexpr ____Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag(____Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag&&) = default;
-                    constexpr ____Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag& operator=(____Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag const& o) {
+                    constexpr Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag(Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag const&) = default;
+                    constexpr Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag(Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag&&) = default;
+                    constexpr Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag& operator=(Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag& operator=(____Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag&& o) noexcept {
+                    constexpr Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag& operator=(Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -63,7 +62,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x1};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -71,15 +70,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag_Unwrapped : uint8_t {
+enum class __Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag_Unwrapped : uint8_t {
 __N = 0u,
 __H = 1u,
 __C = 2u,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag_Unwrapped () const noexcept {
-return std::bit_cast<______Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag_Unwrapped>(__instance);
+constexpr operator __Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag_Unwrapped () const noexcept {
+return std::bit_cast<__Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag_Unwrapped>(__instance);
 }
 
 
@@ -92,13 +91,13 @@ constexpr void __set_value__(uint8_t value) ;
 constexpr uint8_t __get_value__() const;
 
 /// @brief Field N offset 0
-static ::Org::BouncyCastle::Crypto::Modes::____Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag const N;
+static Org::BouncyCastle::Crypto::Modes::Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag const N;
 
 /// @brief Field H offset 0
-static ::Org::BouncyCastle::Crypto::Modes::____Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag const H;
+static Org::BouncyCastle::Crypto::Modes::Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag const H;
 
 /// @brief Field C offset 0
-static ::Org::BouncyCastle::Crypto::Modes::____Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag const C;
+static Org::BouncyCastle::Crypto::Modes::Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag const C;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -113,13 +112,13 @@ namespace Org::BouncyCastle::Crypto::Modes {
 class CORDL_TYPE EaxBlockCipher : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using Tag = ::Org::BouncyCastle::Crypto::Modes::____Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag;
+using Tag = Org::BouncyCastle::Crypto::Modes::Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag;
 
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher
-constexpr operator  ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher
+constexpr operator  Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher() const noexcept;
 
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Modes::IAeadCipher
-constexpr operator  ::Org::BouncyCastle::Crypto::Modes::IAeadCipher() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Modes::IAeadCipher
+constexpr operator  Org::BouncyCastle::Crypto::Modes::IAeadCipher() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x60};
@@ -154,11 +153,11 @@ constexpr explicit EaxBlockCipher(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
- ::Org::BouncyCastle::Crypto::Modes::SicBlockCipher __declspec(property(get=__get_cipher, put=__set_cipher))  cipher;
+ Org::BouncyCastle::Crypto::Modes::SicBlockCipher __declspec(property(get=__get_cipher, put=__set_cipher))  cipher;
 
-constexpr void __set_cipher(::Org::BouncyCastle::Crypto::Modes::SicBlockCipher value) ;
+constexpr void __set_cipher(Org::BouncyCastle::Crypto::Modes::SicBlockCipher value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Modes::SicBlockCipher __get_cipher() const;
+constexpr Org::BouncyCastle::Crypto::Modes::SicBlockCipher __get_cipher() const;
 
  bool __declspec(property(get=__get_forEncryption, put=__set_forEncryption))  forEncryption;
 
@@ -172,11 +171,11 @@ constexpr void __set_blockSize(int32_t value) ;
 
 constexpr int32_t __get_blockSize() const;
 
- ::Org::BouncyCastle::Crypto::IMac __declspec(property(get=__get_mac, put=__set_mac))  mac;
+ Org::BouncyCastle::Crypto::IMac __declspec(property(get=__get_mac, put=__set_mac))  mac;
 
-constexpr void __set_mac(::Org::BouncyCastle::Crypto::IMac value) ;
+constexpr void __set_mac(Org::BouncyCastle::Crypto::IMac value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IMac __get_mac() const;
+constexpr Org::BouncyCastle::Crypto::IMac __get_mac() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get_nonceMac, put=__set_nonceMac))  nonceMac;
 
@@ -234,23 +233,23 @@ constexpr ::ArrayW<uint8_t> __get_initialAssociatedText() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "::Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
-explicit EaxBlockCipher(::Org::BouncyCastle::Crypto::IBlockCipher cipher) ;
+// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
+explicit EaxBlockCipher(Org::BouncyCastle::Crypto::IBlockCipher cipher) ;
 
 /// @brief Method .ctor addr 0xe8fc38 size 0x24c virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher cipher) ;
+ void _ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher) ;
 
 /// @brief Method get_AlgorithmName addr 0xe8fe84 size 0xd4 virtual true final false
  ::StringW get_AlgorithmName() ;
 
 /// @brief Method GetUnderlyingCipher addr 0xe8ff58 size 0x8 virtual true final false
- ::Org::BouncyCastle::Crypto::IBlockCipher GetUnderlyingCipher() ;
+ Org::BouncyCastle::Crypto::IBlockCipher GetUnderlyingCipher() ;
 
 /// @brief Method GetBlockSize addr 0xe8ff60 size 0x24 virtual true final false
  int32_t GetBlockSize() ;
 
 /// @brief Method Init addr 0xe8ff84 size 0x490 virtual true final false
- void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method InitCipher addr 0xe90414 size 0x198 virtual false final false
  void InitCipher() ;
@@ -298,7 +297,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Modes
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Modes::____Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag, "Org.BouncyCastle.Crypto.Modes", "EaxBlockCipher/Tag");
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Modes::EaxBlockCipher);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Modes::EaxBlockCipher, "Org.BouncyCastle.Crypto.Modes", "EaxBlockCipher");
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag, "Org.BouncyCastle.Crypto.Modes", "EaxBlockCipher/Tag");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Modes::EaxBlockCipher);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::EaxBlockCipher, "Org.BouncyCastle.Crypto.Modes", "EaxBlockCipher");

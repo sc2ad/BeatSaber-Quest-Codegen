@@ -2,21 +2,20 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::CryptoPro {
@@ -28,7 +27,7 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(128))
 // CS Name: Org.BouncyCastle.Asn1.CryptoPro.Gost28147Parameters
-class CORDL_TYPE Gost28147Parameters : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
+class CORDL_TYPE Gost28147Parameters : public Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -43,7 +42,7 @@ constexpr Gost28147Parameters(Gost28147Parameters const& ) noexcept = default;
 constexpr Gost28147Parameters(Gost28147Parameters&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Gost28147Parameters(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
+constexpr explicit Gost28147Parameters(void* ptr) noexcept : Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
 }
 
 
@@ -64,40 +63,39 @@ constexpr explicit Gost28147Parameters(void* ptr) noexcept : ::Org::BouncyCastle
 
 // Fields
 
- ::Org::BouncyCastle::Asn1::Asn1OctetString __declspec(property(get=__get_iv, put=__set_iv))  iv;
+ Org::BouncyCastle::Asn1::Asn1OctetString __declspec(property(get=__get_iv, put=__set_iv))  iv;
 
-constexpr void __set_iv(::Org::BouncyCastle::Asn1::Asn1OctetString value) ;
+constexpr void __set_iv(Org::BouncyCastle::Asn1::Asn1OctetString value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString __get_iv() const;
+constexpr Org::BouncyCastle::Asn1::Asn1OctetString __get_iv() const;
 
- ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_paramSet, put=__set_paramSet))  paramSet;
+ Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_paramSet, put=__set_paramSet))  paramSet;
 
-constexpr void __set_paramSet(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+constexpr void __set_paramSet(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_paramSet() const;
+constexpr Org::BouncyCastle::Asn1::DerObjectIdentifier __get_paramSet() const;
 
 
 // Methods
 
 /// @brief Method GetInstance addr 0xdfe834 size 0x18 virtual false final false
-static ::Org::BouncyCastle::Asn1::CryptoPro::Gost28147Parameters GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool explicitly) ;
+static Org::BouncyCastle::Asn1::CryptoPro::Gost28147Parameters GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool explicitly) ;
 
 /// @brief Method GetInstance addr 0xdfe84c size 0x178 virtual false final false
-static ::Org::BouncyCastle::Asn1::CryptoPro::Gost28147Parameters GetInstance(::bs_hook::Il2CppWrapperType obj) ;
+static Org::BouncyCastle::Asn1::CryptoPro::Gost28147Parameters GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "::Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit Gost28147Parameters(::Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
+explicit Gost28147Parameters(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xdfe9c4 size 0x130 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+ void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method ToAsn1Object addr 0xdfeaf4 size 0xf0 virtual true final false
- ::Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
+ Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::CryptoPro
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::CryptoPro::Gost28147Parameters);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::CryptoPro::Gost28147Parameters, "Org.BouncyCastle.Asn1.CryptoPro", "Gost28147Parameters");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::CryptoPro::Gost28147Parameters);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::CryptoPro::Gost28147Parameters, "Org.BouncyCastle.Asn1.CryptoPro", "Gost28147Parameters");

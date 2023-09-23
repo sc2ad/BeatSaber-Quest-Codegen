@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace Org::BouncyCastle::Crypto {
+class IAsymmetricBlockCipher;
+}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
-}
-namespace Org::BouncyCastle::Crypto {
-class IAsymmetricBlockCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Encodings {
@@ -27,8 +26,8 @@ namespace Org::BouncyCastle::Crypto::Encodings {
 class CORDL_TYPE Pkcs1Encoding : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher
-constexpr operator  ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IAsymmetricBlockCipher
+constexpr operator  Org::BouncyCastle::Crypto::IAsymmetricBlockCipher() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -75,17 +74,17 @@ static void __set_strictLengthEnabled(::ArrayW<bool> value) ;
 
 static ::ArrayW<bool> __get_strictLengthEnabled() ;
 
- ::Org::BouncyCastle::Security::SecureRandom __declspec(property(get=__get_random, put=__set_random))  random;
+ Org::BouncyCastle::Security::SecureRandom __declspec(property(get=__get_random, put=__set_random))  random;
 
-constexpr void __set_random(::Org::BouncyCastle::Security::SecureRandom value) ;
+constexpr void __set_random(Org::BouncyCastle::Security::SecureRandom value) ;
 
-constexpr ::Org::BouncyCastle::Security::SecureRandom __get_random() const;
+constexpr Org::BouncyCastle::Security::SecureRandom __get_random() const;
 
- ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher __declspec(property(get=__get_engine, put=__set_engine))  engine;
+ Org::BouncyCastle::Crypto::IAsymmetricBlockCipher __declspec(property(get=__get_engine, put=__set_engine))  engine;
 
-constexpr void __set_engine(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher value) ;
+constexpr void __set_engine(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher __get_engine() const;
+constexpr Org::BouncyCastle::Crypto::IAsymmetricBlockCipher __get_engine() const;
 
  bool __declspec(property(get=__get_forEncryption, put=__set_forEncryption))  forEncryption;
 
@@ -139,32 +138,32 @@ static bool get_StrictLengthEnabled() ;
 /// @brief Method set_StrictLengthEnabled addr 0xe2805c size 0x78 virtual false final false
 static void set_StrictLengthEnabled(bool value) ;
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }]
-explicit Pkcs1Encoding(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher) ;
+// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }]
+explicit Pkcs1Encoding(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher) ;
 
 /// @brief Method .ctor addr 0xe281ec size 0x84 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher) ;
+ void _ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher) ;
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "pLen", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Pkcs1Encoding(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, int32_t pLen) ;
+// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "pLen", ty: "int32_t", modifiers: "", def_value: None }]
+explicit Pkcs1Encoding(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, int32_t pLen) ;
 
 /// @brief Method .ctor addr 0xe28270 size 0x8c virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, int32_t pLen) ;
+ void _ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, int32_t pLen) ;
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "fallback", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit Pkcs1Encoding(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, ::ArrayW<uint8_t> fallback) ;
+// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "fallback", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
+explicit Pkcs1Encoding(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, ::ArrayW<uint8_t> fallback) ;
 
 /// @brief Method .ctor addr 0xe282fc size 0x9c virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, ::ArrayW<uint8_t> fallback) ;
+ void _ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, ::ArrayW<uint8_t> fallback) ;
 
 /// @brief Method GetUnderlyingCipher addr 0xe28398 size 0x8 virtual false final false
- ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher GetUnderlyingCipher() ;
+ Org::BouncyCastle::Crypto::IAsymmetricBlockCipher GetUnderlyingCipher() ;
 
 /// @brief Method get_AlgorithmName addr 0xe283a0 size 0xc0 virtual true final true
  ::StringW get_AlgorithmName() ;
 
 /// @brief Method Init addr 0xe28460 size 0x2dc virtual true final true
- void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method GetInputBlockSize addr 0xe2873c size 0xb8 virtual true final true
  int32_t GetInputBlockSize() ;
@@ -194,6 +193,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Encodings
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding, "Org.BouncyCastle.Crypto.Encodings", "Pkcs1Encoding");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding, "Org.BouncyCastle.Crypto.Encodings", "Pkcs1Encoding");

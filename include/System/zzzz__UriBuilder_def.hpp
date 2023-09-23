@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class Uri;
 }
@@ -107,11 +106,11 @@ constexpr void __set__schemeDelimiter(::StringW value) ;
 
 constexpr ::StringW __get__schemeDelimiter() const;
 
- ::System::Uri __declspec(property(get=__get__uri, put=__set__uri))  _uri;
+ System::Uri __declspec(property(get=__get__uri, put=__set__uri))  _uri;
 
-constexpr void __set__uri(::System::Uri value) ;
+constexpr void __set__uri(System::Uri value) ;
 
-constexpr ::System::Uri __get__uri() const;
+constexpr System::Uri __get__uri() const;
 
  ::StringW __declspec(property(get=__get__username, put=__set__username))  _username;
 
@@ -132,7 +131,7 @@ constexpr ::StringW __get__username() const;
 
  ::StringW __declspec(property(put=set_Scheme))  Scheme;
 
- ::System::Uri __declspec(property(get=get_Uri))  Uri;
+ System::Uri __declspec(property(get=get_Uri))  Uri;
 
 
 // Methods
@@ -149,14 +148,14 @@ explicit UriBuilder(::StringW uri) ;
 /// @brief Method .ctor addr 0x27b5220 size 0x1a8 virtual false final false
  void _ctor(::StringW uri) ;
 
-// Ctor Parameters [CppParam { name: "uri", ty: "::System::Uri", modifiers: "", def_value: None }]
-explicit UriBuilder(::System::Uri uri) ;
+// Ctor Parameters [CppParam { name: "uri", ty: "System::Uri", modifiers: "", def_value: None }]
+explicit UriBuilder(System::Uri uri) ;
 
 /// @brief Method .ctor addr 0x27b553c size 0x174 virtual false final false
- void _ctor(::System::Uri uri) ;
+ void _ctor(System::Uri uri) ;
 
 /// @brief Method Init addr 0x27b53c8 size 0x174 virtual false final false
- void Init(::System::Uri uri) ;
+ void Init(System::Uri uri) ;
 
 /// @brief Method set_Host addr 0x27b5814 size 0xec virtual false final false
  void set_Host(::StringW value) ;
@@ -174,7 +173,7 @@ explicit UriBuilder(::System::Uri uri) ;
  void set_Scheme(::StringW value) ;
 
 /// @brief Method get_Uri addr 0x27b5c24 size 0x98 virtual false final false
- ::System::Uri get_Uri() ;
+ System::Uri get_Uri() ;
 
 /// @brief Method Equals addr 0x27b5cbc size 0x5c virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType rparam) ;
@@ -183,7 +182,7 @@ explicit UriBuilder(::System::Uri uri) ;
  int32_t GetHashCode() ;
 
 /// @brief Method SetFieldsFromUri addr 0x27b56b0 size 0x164 virtual false final false
- void SetFieldsFromUri(::System::Uri uri) ;
+ void SetFieldsFromUri(System::Uri uri) ;
 
 /// @brief Method ToString addr 0x27b5d38 size 0x4cc virtual true final false
  ::StringW ToString() ;
@@ -192,6 +191,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::UriBuilder);
-DEFINE_IL2CPP_ARG_TYPE(::System::UriBuilder, "System", "UriBuilder");
+NEED_NO_BOX(System::UriBuilder);
+DEFINE_IL2CPP_ARG_TYPE(System::UriBuilder, "System", "UriBuilder");

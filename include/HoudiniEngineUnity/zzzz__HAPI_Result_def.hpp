@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HAPI_Result;
@@ -86,71 +85,70 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field HAPI_RESULT_SUCCESS offset 0
-static ::HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_SUCCESS;
+static HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_SUCCESS;
 
 /// @brief Field HAPI_RESULT_FAILURE offset 0
-static ::HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_FAILURE;
+static HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_FAILURE;
 
 /// @brief Field HAPI_RESULT_ALREADY_INITIALIZED offset 0
-static ::HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_ALREADY_INITIALIZED;
+static HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_ALREADY_INITIALIZED;
 
 /// @brief Field HAPI_RESULT_NOT_INITIALIZED offset 0
-static ::HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_NOT_INITIALIZED;
+static HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_NOT_INITIALIZED;
 
 /// @brief Field HAPI_RESULT_CANT_LOADFILE offset 0
-static ::HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_CANT_LOADFILE;
+static HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_CANT_LOADFILE;
 
 /// @brief Field HAPI_RESULT_PARM_SET_FAILED offset 0
-static ::HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_PARM_SET_FAILED;
+static HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_PARM_SET_FAILED;
 
 /// @brief Field HAPI_RESULT_INVALID_ARGUMENT offset 0
-static ::HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_INVALID_ARGUMENT;
+static HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_INVALID_ARGUMENT;
 
 /// @brief Field HAPI_RESULT_CANT_LOAD_GEO offset 0
-static ::HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_CANT_LOAD_GEO;
+static HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_CANT_LOAD_GEO;
 
 /// @brief Field HAPI_RESULT_CANT_GENERATE_PRESET offset 0
-static ::HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_CANT_GENERATE_PRESET;
+static HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_CANT_GENERATE_PRESET;
 
 /// @brief Field HAPI_RESULT_CANT_LOAD_PRESET offset 0
-static ::HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_CANT_LOAD_PRESET;
+static HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_CANT_LOAD_PRESET;
 
 /// @brief Field HAPI_RESULT_ASSET_DEF_ALREADY_LOADED offset 0
-static ::HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_ASSET_DEF_ALREADY_LOADED;
+static HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_ASSET_DEF_ALREADY_LOADED;
 
 /// @brief Field HAPI_RESULT_NO_LICENSE_FOUND offset 0
-static ::HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_NO_LICENSE_FOUND;
+static HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_NO_LICENSE_FOUND;
 
 /// @brief Field HAPI_RESULT_DISALLOWED_NC_LICENSE_FOUND offset 0
-static ::HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_DISALLOWED_NC_LICENSE_FOUND;
+static HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_DISALLOWED_NC_LICENSE_FOUND;
 
 /// @brief Field HAPI_RESULT_DISALLOWED_NC_ASSET_WITH_C_LICENSE offset 0
-static ::HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_DISALLOWED_NC_ASSET_WITH_C_LICENSE;
+static HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_DISALLOWED_NC_ASSET_WITH_C_LICENSE;
 
 /// @brief Field HAPI_RESULT_DISALLOWED_NC_ASSET_WITH_LC_LICENSE offset 0
-static ::HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_DISALLOWED_NC_ASSET_WITH_LC_LICENSE;
+static HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_DISALLOWED_NC_ASSET_WITH_LC_LICENSE;
 
 /// @brief Field HAPI_RESULT_DISALLOWED_LC_ASSET_WITH_C_LICENSE offset 0
-static ::HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_DISALLOWED_LC_ASSET_WITH_C_LICENSE;
+static HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_DISALLOWED_LC_ASSET_WITH_C_LICENSE;
 
 /// @brief Field HAPI_RESULT_DISALLOWED_HENGINEINDIE_W_3PARTY_PLUGIN offset 0
-static ::HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_DISALLOWED_HENGINEINDIE_W_3PARTY_PLUGIN;
+static HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_DISALLOWED_HENGINEINDIE_W_3PARTY_PLUGIN;
 
 /// @brief Field HAPI_RESULT_ASSET_INVALID offset 0
-static ::HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_ASSET_INVALID;
+static HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_ASSET_INVALID;
 
 /// @brief Field HAPI_RESULT_NODE_INVALID offset 0
-static ::HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_NODE_INVALID;
+static HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_NODE_INVALID;
 
 /// @brief Field HAPI_RESULT_USER_INTERRUPTED offset 0
-static ::HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_USER_INTERRUPTED;
+static HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_USER_INTERRUPTED;
 
 /// @brief Field HAPI_RESULT_INVALID_SESSION offset 0
-static ::HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_INVALID_SESSION;
+static HoudiniEngineUnity::HAPI_Result const HAPI_RESULT_INVALID_SESSION;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_Result, "HoudiniEngineUnity", "HAPI_Result");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_Result, "HoudiniEngineUnity", "HAPI_Result");

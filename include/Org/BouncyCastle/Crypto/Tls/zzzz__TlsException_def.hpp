@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "System/IO/zzzz__IOException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class Exception;
 }
@@ -16,7 +15,7 @@ namespace Org::BouncyCastle::Crypto::Tls {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3557))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1307))
 // CS Name: Org.BouncyCastle.Crypto.Tls.TlsException
-class CORDL_TYPE TlsException : public ::System::IO::IOException {
+class CORDL_TYPE TlsException : public System::IO::IOException {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr TlsException(TlsException const& ) noexcept = default;
 constexpr TlsException(TlsException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TlsException(void* ptr) noexcept : ::System::IO::IOException(ptr) {
+constexpr explicit TlsException(void* ptr) noexcept : System::IO::IOException(ptr) {
 }
 
 
@@ -52,16 +51,15 @@ constexpr explicit TlsException(void* ptr) noexcept : ::System::IO::IOException(
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cause", ty: "::System::Exception", modifiers: "", def_value: None }]
-explicit TlsException(::StringW message, ::System::Exception cause) ;
+// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cause", ty: "System::Exception", modifiers: "", def_value: None }]
+explicit TlsException(::StringW message, System::Exception cause) ;
 
 /// @brief Method .ctor addr 0xf1edf8 size 0x8 virtual false final false
- void _ctor(::StringW message, ::System::Exception cause) ;
+ void _ctor(::StringW message, System::Exception cause) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsException);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::TlsException, "Org.BouncyCastle.Crypto.Tls", "TlsException");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::TlsException);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::TlsException, "Org.BouncyCastle.Crypto.Tls", "TlsException");

@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class Exception;
 }
@@ -57,11 +56,11 @@ constexpr explicit ValidateNames(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 
 // Fields
 
-static ::System::Xml::XmlCharType __declspec(property(get=__get_xmlCharType, put=__set_xmlCharType))  xmlCharType;
+static System::Xml::XmlCharType __declspec(property(get=__get_xmlCharType, put=__set_xmlCharType))  xmlCharType;
 
-static void __set_xmlCharType(::System::Xml::XmlCharType value) ;
+static void __set_xmlCharType(System::Xml::XmlCharType value) ;
 
-static ::System::Xml::XmlCharType __get_xmlCharType() ;
+static System::Xml::XmlCharType __get_xmlCharType() ;
 
 
 // Methods
@@ -91,12 +90,11 @@ static void ParseQNameThrow(::StringW s, ByRef<::StringW> prefix, ByRef<::String
 static void ThrowInvalidName(::StringW s, int32_t offsetStartChar, int32_t offsetBadChar) ;
 
 /// @brief Method GetInvalidNameException addr 0x2709b4c size 0x1c0 virtual false final false
-static ::System::Exception GetInvalidNameException(::StringW s, int32_t offsetStartChar, int32_t offsetBadChar) ;
+static System::Exception GetInvalidNameException(::StringW s, int32_t offsetStartChar, int32_t offsetBadChar) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::ValidateNames);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::ValidateNames, "System.Xml", "ValidateNames");
+NEED_NO_BOX(System::Xml::ValidateNames);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::ValidateNames, "System.Xml", "ValidateNames");

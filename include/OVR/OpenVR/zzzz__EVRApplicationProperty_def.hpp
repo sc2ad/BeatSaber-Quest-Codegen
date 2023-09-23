@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct EVRApplicationProperty;
@@ -82,59 +81,58 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Name_String offset 0
-static ::OVR::OpenVR::EVRApplicationProperty const Name_String;
+static OVR::OpenVR::EVRApplicationProperty const Name_String;
 
 /// @brief Field LaunchType_String offset 0
-static ::OVR::OpenVR::EVRApplicationProperty const LaunchType_String;
+static OVR::OpenVR::EVRApplicationProperty const LaunchType_String;
 
 /// @brief Field WorkingDirectory_String offset 0
-static ::OVR::OpenVR::EVRApplicationProperty const WorkingDirectory_String;
+static OVR::OpenVR::EVRApplicationProperty const WorkingDirectory_String;
 
 /// @brief Field BinaryPath_String offset 0
-static ::OVR::OpenVR::EVRApplicationProperty const BinaryPath_String;
+static OVR::OpenVR::EVRApplicationProperty const BinaryPath_String;
 
 /// @brief Field Arguments_String offset 0
-static ::OVR::OpenVR::EVRApplicationProperty const Arguments_String;
+static OVR::OpenVR::EVRApplicationProperty const Arguments_String;
 
 /// @brief Field URL_String offset 0
-static ::OVR::OpenVR::EVRApplicationProperty const URL_String;
+static OVR::OpenVR::EVRApplicationProperty const URL_String;
 
 /// @brief Field Description_String offset 0
-static ::OVR::OpenVR::EVRApplicationProperty const Description_String;
+static OVR::OpenVR::EVRApplicationProperty const Description_String;
 
 /// @brief Field NewsURL_String offset 0
-static ::OVR::OpenVR::EVRApplicationProperty const NewsURL_String;
+static OVR::OpenVR::EVRApplicationProperty const NewsURL_String;
 
 /// @brief Field ImagePath_String offset 0
-static ::OVR::OpenVR::EVRApplicationProperty const ImagePath_String;
+static OVR::OpenVR::EVRApplicationProperty const ImagePath_String;
 
 /// @brief Field Source_String offset 0
-static ::OVR::OpenVR::EVRApplicationProperty const Source_String;
+static OVR::OpenVR::EVRApplicationProperty const Source_String;
 
 /// @brief Field ActionManifestURL_String offset 0
-static ::OVR::OpenVR::EVRApplicationProperty const ActionManifestURL_String;
+static OVR::OpenVR::EVRApplicationProperty const ActionManifestURL_String;
 
 /// @brief Field IsDashboardOverlay_Bool offset 0
-static ::OVR::OpenVR::EVRApplicationProperty const IsDashboardOverlay_Bool;
+static OVR::OpenVR::EVRApplicationProperty const IsDashboardOverlay_Bool;
 
 /// @brief Field IsTemplate_Bool offset 0
-static ::OVR::OpenVR::EVRApplicationProperty const IsTemplate_Bool;
+static OVR::OpenVR::EVRApplicationProperty const IsTemplate_Bool;
 
 /// @brief Field IsInstanced_Bool offset 0
-static ::OVR::OpenVR::EVRApplicationProperty const IsInstanced_Bool;
+static OVR::OpenVR::EVRApplicationProperty const IsInstanced_Bool;
 
 /// @brief Field IsInternal_Bool offset 0
-static ::OVR::OpenVR::EVRApplicationProperty const IsInternal_Bool;
+static OVR::OpenVR::EVRApplicationProperty const IsInternal_Bool;
 
 /// @brief Field WantsCompositorPauseInStandby_Bool offset 0
-static ::OVR::OpenVR::EVRApplicationProperty const WantsCompositorPauseInStandby_Bool;
+static OVR::OpenVR::EVRApplicationProperty const WantsCompositorPauseInStandby_Bool;
 
 /// @brief Field LastLaunchTime_Uint64 offset 0
-static ::OVR::OpenVR::EVRApplicationProperty const LastLaunchTime_Uint64;
+static OVR::OpenVR::EVRApplicationProperty const LastLaunchTime_Uint64;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRApplicationProperty, "OVR.OpenVR", "EVRApplicationProperty");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRApplicationProperty, "OVR.OpenVR", "EVRApplicationProperty");

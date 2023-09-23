@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform {
 struct PartyUpdateAction;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::Oculus::Platform::PartyUpdateAction const Unknown;
+static Oculus::Platform::PartyUpdateAction const Unknown;
 
 /// @brief Field Join offset 0
-static ::Oculus::Platform::PartyUpdateAction const Join;
+static Oculus::Platform::PartyUpdateAction const Join;
 
 /// @brief Field Leave offset 0
-static ::Oculus::Platform::PartyUpdateAction const Leave;
+static Oculus::Platform::PartyUpdateAction const Leave;
 
 /// @brief Field Invite offset 0
-static ::Oculus::Platform::PartyUpdateAction const Invite;
+static Oculus::Platform::PartyUpdateAction const Invite;
 
 /// @brief Field Uninvite offset 0
-static ::Oculus::Platform::PartyUpdateAction const Uninvite;
+static Oculus::Platform::PartyUpdateAction const Uninvite;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::PartyUpdateAction, "Oculus.Platform", "PartyUpdateAction");
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PartyUpdateAction, "Oculus.Platform", "PartyUpdateAction");

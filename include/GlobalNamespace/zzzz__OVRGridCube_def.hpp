@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace UnityEngine {
+class GameObject;
+}
 namespace UnityEngine {
 struct KeyCode;
 }
 namespace GlobalNamespace {
 class OVRCameraRig;
-}
-namespace UnityEngine {
-class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,7 +23,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8908))
 // CS Name: OVRGridCube
-class CORDL_TYPE OVRGridCube : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OVRGridCube : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr OVRGridCube(OVRGridCube const& ) noexcept = default;
 constexpr OVRGridCube(OVRGridCube&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OVRGridCube(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OVRGridCube(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -60,17 +59,17 @@ constexpr explicit OVRGridCube(void* ptr) noexcept : ::UnityEngine::MonoBehaviou
 
 // Fields
 
- ::UnityEngine::KeyCode __declspec(property(get=__get_GridKey, put=__set_GridKey))  GridKey;
+ UnityEngine::KeyCode __declspec(property(get=__get_GridKey, put=__set_GridKey))  GridKey;
 
-constexpr void __set_GridKey(::UnityEngine::KeyCode value) ;
+constexpr void __set_GridKey(UnityEngine::KeyCode value) ;
 
-constexpr ::UnityEngine::KeyCode __get_GridKey() const;
+constexpr UnityEngine::KeyCode __get_GridKey() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get_CubeGrid, put=__set_CubeGrid))  CubeGrid;
+ UnityEngine::GameObject __declspec(property(get=__get_CubeGrid, put=__set_CubeGrid))  CubeGrid;
 
-constexpr void __set_CubeGrid(::UnityEngine::GameObject value) ;
+constexpr void __set_CubeGrid(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get_CubeGrid() const;
+constexpr UnityEngine::GameObject __get_CubeGrid() const;
 
  bool __declspec(property(get=__get_CubeGridOn, put=__set_CubeGridOn))  CubeGridOn;
 
@@ -120,11 +119,11 @@ constexpr void __set_cubeScale(float_t value) ;
 
 constexpr float_t __get_cubeScale() const;
 
- ::GlobalNamespace::OVRCameraRig __declspec(property(get=__get_CameraController, put=__set_CameraController))  CameraController;
+ GlobalNamespace::OVRCameraRig __declspec(property(get=__get_CameraController, put=__set_CameraController))  CameraController;
 
-constexpr void __set_CameraController(::GlobalNamespace::OVRCameraRig value) ;
+constexpr void __set_CameraController(GlobalNamespace::OVRCameraRig value) ;
 
-constexpr ::GlobalNamespace::OVRCameraRig __get_CameraController() const;
+constexpr GlobalNamespace::OVRCameraRig __get_CameraController() const;
 
 
 // Methods
@@ -133,7 +132,7 @@ constexpr ::GlobalNamespace::OVRCameraRig __get_CameraController() const;
  void Update() ;
 
 /// @brief Method SetOVRCameraController addr 0x2623038 size 0xc virtual false final false
- void SetOVRCameraController(ByRef<::GlobalNamespace::OVRCameraRig> cameraController) ;
+ void SetOVRCameraController(ByRef<GlobalNamespace::OVRCameraRig> cameraController) ;
 
 /// @brief Method UpdateCubeGrid addr 0x2622e24 size 0x214 virtual false final false
  void UpdateCubeGrid() ;
@@ -154,6 +153,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OVRGridCube);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRGridCube, "", "OVRGridCube");
+NEED_NO_BOX(GlobalNamespace::OVRGridCube);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRGridCube, "", "OVRGridCube");

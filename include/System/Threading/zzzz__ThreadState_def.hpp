@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Threading {
 struct ThreadState;
@@ -75,38 +74,37 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Running offset 0
-static ::System::Threading::ThreadState const Running;
+static System::Threading::ThreadState const Running;
 
 /// @brief Field StopRequested offset 0
-static ::System::Threading::ThreadState const StopRequested;
+static System::Threading::ThreadState const StopRequested;
 
 /// @brief Field SuspendRequested offset 0
-static ::System::Threading::ThreadState const SuspendRequested;
+static System::Threading::ThreadState const SuspendRequested;
 
 /// @brief Field Background offset 0
-static ::System::Threading::ThreadState const Background;
+static System::Threading::ThreadState const Background;
 
 /// @brief Field Unstarted offset 0
-static ::System::Threading::ThreadState const Unstarted;
+static System::Threading::ThreadState const Unstarted;
 
 /// @brief Field Stopped offset 0
-static ::System::Threading::ThreadState const Stopped;
+static System::Threading::ThreadState const Stopped;
 
 /// @brief Field WaitSleepJoin offset 0
-static ::System::Threading::ThreadState const WaitSleepJoin;
+static System::Threading::ThreadState const WaitSleepJoin;
 
 /// @brief Field Suspended offset 0
-static ::System::Threading::ThreadState const Suspended;
+static System::Threading::ThreadState const Suspended;
 
 /// @brief Field AbortRequested offset 0
-static ::System::Threading::ThreadState const AbortRequested;
+static System::Threading::ThreadState const AbortRequested;
 
 /// @brief Field Aborted offset 0
-static ::System::Threading::ThreadState const Aborted;
+static System::Threading::ThreadState const Aborted;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Threading
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::ThreadState, "System.Threading", "ThreadState");
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadState, "System.Threading", "ThreadState");

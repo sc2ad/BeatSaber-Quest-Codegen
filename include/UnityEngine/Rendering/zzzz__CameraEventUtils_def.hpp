@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace UnityEngine::Rendering {
 struct CameraEvent;
 }
@@ -52,12 +51,11 @@ constexpr explicit CameraEventUtils(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 // Methods
 
 /// @brief Method IsValid addr 0x2b73a48 size 0xc virtual false final false
-static bool IsValid(::UnityEngine::Rendering::CameraEvent value) ;
+static bool IsValid(UnityEngine::Rendering::CameraEvent value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Rendering
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Rendering::CameraEventUtils);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::CameraEventUtils, "UnityEngine.Rendering", "CameraEventUtils");
+NEED_NO_BOX(UnityEngine::Rendering::CameraEventUtils);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::CameraEventUtils, "UnityEngine.Rendering", "CameraEventUtils");

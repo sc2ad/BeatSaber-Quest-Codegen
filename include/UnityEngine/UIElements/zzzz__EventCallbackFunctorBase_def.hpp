@@ -2,18 +2,17 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine::UIElements {
-struct CallbackPhase;
-}
 namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
-struct InvokePolicy;
+struct PropagationPhase;
 }
 namespace UnityEngine::UIElements {
-struct PropagationPhase;
+struct CallbackPhase;
+}
+namespace UnityEngine::UIElements {
+struct InvokePolicy;
 }
 namespace System {
 class Delegate;
@@ -64,53 +63,52 @@ constexpr explicit EventCallbackFunctorBase(void* ptr) noexcept : ::bs_hook::Il2
 
 // Fields
 
- ::UnityEngine::UIElements::CallbackPhase __declspec(property(get=__get__phase_k__BackingField, put=__set__phase_k__BackingField))  _phase_k__BackingField;
+ UnityEngine::UIElements::CallbackPhase __declspec(property(get=__get__phase_k__BackingField, put=__set__phase_k__BackingField))  _phase_k__BackingField;
 
-constexpr void __set__phase_k__BackingField(::UnityEngine::UIElements::CallbackPhase value) ;
+constexpr void __set__phase_k__BackingField(UnityEngine::UIElements::CallbackPhase value) ;
 
-constexpr ::UnityEngine::UIElements::CallbackPhase __get__phase_k__BackingField() const;
+constexpr UnityEngine::UIElements::CallbackPhase __get__phase_k__BackingField() const;
 
- ::UnityEngine::UIElements::InvokePolicy __declspec(property(get=__get__invokePolicy_k__BackingField, put=__set__invokePolicy_k__BackingField))  _invokePolicy_k__BackingField;
+ UnityEngine::UIElements::InvokePolicy __declspec(property(get=__get__invokePolicy_k__BackingField, put=__set__invokePolicy_k__BackingField))  _invokePolicy_k__BackingField;
 
-constexpr void __set__invokePolicy_k__BackingField(::UnityEngine::UIElements::InvokePolicy value) ;
+constexpr void __set__invokePolicy_k__BackingField(UnityEngine::UIElements::InvokePolicy value) ;
 
-constexpr ::UnityEngine::UIElements::InvokePolicy __get__invokePolicy_k__BackingField() const;
+constexpr UnityEngine::UIElements::InvokePolicy __get__invokePolicy_k__BackingField() const;
 
 
 // Properties
 
- ::UnityEngine::UIElements::CallbackPhase __declspec(property(get=get_phase))  phase;
+ UnityEngine::UIElements::CallbackPhase __declspec(property(get=get_phase))  phase;
 
- ::UnityEngine::UIElements::InvokePolicy __declspec(property(get=get_invokePolicy))  invokePolicy;
+ UnityEngine::UIElements::InvokePolicy __declspec(property(get=get_invokePolicy))  invokePolicy;
 
 
 // Methods
 
 /// @brief Method get_phase addr 0x2cd6cc8 size 0x8 virtual false final false
- ::UnityEngine::UIElements::CallbackPhase get_phase() ;
+ UnityEngine::UIElements::CallbackPhase get_phase() ;
 
 /// @brief Method get_invokePolicy addr 0x2cd6cd0 size 0x8 virtual false final false
- ::UnityEngine::UIElements::InvokePolicy get_invokePolicy() ;
+ UnityEngine::UIElements::InvokePolicy get_invokePolicy() ;
 
-// Ctor Parameters [CppParam { name: "phase", ty: "::UnityEngine::UIElements::CallbackPhase", modifiers: "", def_value: None }, CppParam { name: "invokePolicy", ty: "::UnityEngine::UIElements::InvokePolicy", modifiers: "", def_value: None }]
-explicit EventCallbackFunctorBase(::UnityEngine::UIElements::CallbackPhase phase, ::UnityEngine::UIElements::InvokePolicy invokePolicy) ;
+// Ctor Parameters [CppParam { name: "phase", ty: "UnityEngine::UIElements::CallbackPhase", modifiers: "", def_value: None }, CppParam { name: "invokePolicy", ty: "UnityEngine::UIElements::InvokePolicy", modifiers: "", def_value: None }]
+explicit EventCallbackFunctorBase(UnityEngine::UIElements::CallbackPhase phase, UnityEngine::UIElements::InvokePolicy invokePolicy) ;
 
 /// @brief Method .ctor addr 0x2cd6cd8 size 0x2c virtual false final false
- void _ctor(::UnityEngine::UIElements::CallbackPhase phase, ::UnityEngine::UIElements::InvokePolicy invokePolicy) ;
+ void _ctor(UnityEngine::UIElements::CallbackPhase phase, UnityEngine::UIElements::InvokePolicy invokePolicy) ;
 
 /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
- void Invoke(::UnityEngine::UIElements::EventBase evt, ::UnityEngine::UIElements::PropagationPhase propagationPhase) ;
+ void Invoke(UnityEngine::UIElements::EventBase evt, UnityEngine::UIElements::PropagationPhase propagationPhase) ;
 
 /// @brief Method IsEquivalentTo addr 0x0 size 0xffffffffffffffff virtual true final false
- bool IsEquivalentTo(int64_t eventTypeId, ::System::Delegate callback, ::UnityEngine::UIElements::CallbackPhase phase) ;
+ bool IsEquivalentTo(int64_t eventTypeId, System::Delegate callback, UnityEngine::UIElements::CallbackPhase phase) ;
 
 /// @brief Method PhaseMatches addr 0x2cd6d04 size 0x3c virtual false final false
- bool PhaseMatches(::UnityEngine::UIElements::PropagationPhase propagationPhase) ;
+ bool PhaseMatches(UnityEngine::UIElements::PropagationPhase propagationPhase) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::EventCallbackFunctorBase);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::EventCallbackFunctorBase, "UnityEngine.UIElements", "EventCallbackFunctorBase");
+NEED_NO_BOX(UnityEngine::UIElements::EventCallbackFunctorBase);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::EventCallbackFunctorBase, "UnityEngine.UIElements", "EventCallbackFunctorBase");

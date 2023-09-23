@@ -2,16 +2,15 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace Oculus::Platform {
+struct LaunchResult;
+}
 namespace Oculus::Platform {
 template<typename T>
-class ____Oculus__Platform__Message_1__Callback;
+class Oculus__Platform__Message_1__Callback;
 }
 namespace Oculus::Platform::Models {
 class LaunchDetails;
-}
-namespace Oculus::Platform {
-struct LaunchResult;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -60,18 +59,17 @@ constexpr explicit ApplicationLifecycle(void* ptr) noexcept : ::bs_hook::Il2CppW
 // Methods
 
 /// @brief Method GetLaunchDetails addr 0x2585e70 size 0x90 virtual false final false
-static ::Oculus::Platform::Models::LaunchDetails GetLaunchDetails() ;
+static Oculus::Platform::Models::LaunchDetails GetLaunchDetails() ;
 
 /// @brief Method LogDeeplinkResult addr 0x2585f00 size 0x64 virtual false final false
-static void LogDeeplinkResult(::StringW trackingID, ::Oculus::Platform::LaunchResult result) ;
+static void LogDeeplinkResult(::StringW trackingID, Oculus::Platform::LaunchResult result) ;
 
 /// @brief Method SetLaunchIntentChangedNotificationCallback addr 0x2585f64 size 0x74 virtual false final false
-static void SetLaunchIntentChangedNotificationCallback(::Oculus::Platform::____Oculus__Platform__Message_1__Callback<::StringW> callback) ;
+static void SetLaunchIntentChangedNotificationCallback(Oculus::Platform::Oculus__Platform__Message_1__Callback<::StringW> callback) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::ApplicationLifecycle);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::ApplicationLifecycle, "Oculus.Platform", "ApplicationLifecycle");
+NEED_NO_BOX(Oculus::Platform::ApplicationLifecycle);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::ApplicationLifecycle, "Oculus.Platform", "ApplicationLifecycle");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Net {
 class IPEndPoint;
 }
@@ -31,15 +30,14 @@ constexpr explicit INatPunchListener(void* ptr) noexcept : ::cordl_internals::In
 // Methods
 
 /// @brief Method OnNatIntroductionRequest addr 0x0 size 0xffffffffffffffff virtual true final false
- void OnNatIntroductionRequest(::System::Net::IPEndPoint localEndPoint, ::System::Net::IPEndPoint remoteEndPoint, ::StringW token) ;
+ void OnNatIntroductionRequest(System::Net::IPEndPoint localEndPoint, System::Net::IPEndPoint remoteEndPoint, ::StringW token) ;
 
 /// @brief Method OnNatIntroductionSuccess addr 0x0 size 0xffffffffffffffff virtual true final false
- void OnNatIntroductionSuccess(::System::Net::IPEndPoint targetEndPoint, ::LiteNetLib::NatAddressType type, ::StringW token) ;
+ void OnNatIntroductionSuccess(System::Net::IPEndPoint targetEndPoint, LiteNetLib::NatAddressType type, ::StringW token) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib
-} // end anonymous namespace
-NEED_NO_BOX(::LiteNetLib::INatPunchListener);
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::INatPunchListener, "LiteNetLib", "INatPunchListener");
+NEED_NO_BOX(LiteNetLib::INatPunchListener);
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::INatPunchListener, "LiteNetLib", "INatPunchListener");

@@ -2,17 +2,16 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Collections::ObjectModel {
 template<typename T>
 class ReadOnlyCollection_1;
 }
-namespace UnityEngine::ProBuilder {
-class ChangelogEntry;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace UnityEngine::ProBuilder {
+class ChangelogEntry;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -69,22 +68,22 @@ static constexpr ::ConstString  k_VersionInfoPattern{u"(?<=##\\s\\[).*(?=\\])"};
 /// @brief Field k_VersionDatePattern offset 0
 static constexpr ::ConstString  k_VersionDatePattern{u"(?<=##\\s\\[.*\\]\\s-\\s)[0-9-]*"};
 
- ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ChangelogEntry> __declspec(property(get=__get_m_Entries, put=__set_m_Entries))  m_Entries;
+ System::Collections::Generic::List_1<UnityEngine::ProBuilder::ChangelogEntry> __declspec(property(get=__get_m_Entries, put=__set_m_Entries))  m_Entries;
 
-constexpr void __set_m_Entries(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ChangelogEntry> value) ;
+constexpr void __set_m_Entries(System::Collections::Generic::List_1<UnityEngine::ProBuilder::ChangelogEntry> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ChangelogEntry> __get_m_Entries() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::ProBuilder::ChangelogEntry> __get_m_Entries() const;
 
 
 // Properties
 
- ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::ProBuilder::ChangelogEntry> __declspec(property(get=get_entries))  entries;
+ System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::ProBuilder::ChangelogEntry> __declspec(property(get=get_entries))  entries;
 
 
 // Methods
 
 /// @brief Method get_entries addr 0x29a83a0 size 0x7c virtual false final false
- ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::ProBuilder::ChangelogEntry> get_entries() ;
+ System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::ProBuilder::ChangelogEntry> get_entries() ;
 
 // Ctor Parameters [CppParam { name: "log", ty: "::StringW", modifiers: "", def_value: None }]
 explicit Changelog(::StringW log) ;
@@ -93,12 +92,11 @@ explicit Changelog(::StringW log) ;
  void _ctor(::StringW log) ;
 
 /// @brief Method CreateEntry addr 0x29a8728 size 0x170 virtual false final false
- ::UnityEngine::ProBuilder::ChangelogEntry CreateEntry(::StringW version, ::StringW contents) ;
+ UnityEngine::ProBuilder::ChangelogEntry CreateEntry(::StringW version, ::StringW contents) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::Changelog);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Changelog, "UnityEngine.ProBuilder", "Changelog");
+NEED_NO_BOX(UnityEngine::ProBuilder::Changelog);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Changelog, "UnityEngine.ProBuilder", "Changelog");

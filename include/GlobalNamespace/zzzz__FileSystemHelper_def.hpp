@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Security::AccessControl {
 class FileSystemSecurity;
 }
@@ -56,7 +55,7 @@ constexpr explicit FileSystemHelper(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 static ::StringW FindFirstExistedParentPath(::StringW path) ;
 
 /// @brief Method HasWritePermission addr 0x219257c size 0x398 virtual false final false
-static bool HasWritePermission(::System::Security::AccessControl::FileSystemSecurity accessControlList) ;
+static bool HasWritePermission(System::Security::AccessControl::FileSystemSecurity accessControlList) ;
 
 /// @brief Method HasWritePermissionOnDirectory addr 0x2192914 size 0x14 virtual false final false
 static bool HasWritePermissionOnDirectory(::StringW path) ;
@@ -71,6 +70,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::FileSystemHelper);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FileSystemHelper, "", "FileSystemHelper");
+NEED_NO_BOX(GlobalNamespace::FileSystemHelper);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileSystemHelper, "", "FileSystemHelper");

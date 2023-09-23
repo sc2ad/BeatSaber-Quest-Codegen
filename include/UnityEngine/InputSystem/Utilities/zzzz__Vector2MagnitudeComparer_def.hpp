@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class IComparer_1;
@@ -23,8 +22,8 @@ namespace UnityEngine::InputSystem::Utilities {
 struct CORDL_TYPE Vector2MagnitudeComparer : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IComparer_1<::UnityEngine::Vector2>
-constexpr operator  ::System::Collections::Generic::IComparer_1<::UnityEngine::Vector2>() const;
+/// @brief Convert operator to System::Collections::Generic::IComparer_1<UnityEngine::Vector2>
+constexpr operator  System::Collections::Generic::IComparer_1<UnityEngine::Vector2>() const;
 
 
                     constexpr Vector2MagnitudeComparer(Vector2MagnitudeComparer const&) = default;
@@ -58,11 +57,10 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 // Methods
 
 /// @brief Method Compare addr 0x297c7c8 size 0x30 virtual true final true
- int32_t Compare(::UnityEngine::Vector2 x, ::UnityEngine::Vector2 y) ;
+ int32_t Compare(UnityEngine::Vector2 x, UnityEngine::Vector2 y) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Utilities
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Utilities::Vector2MagnitudeComparer, "UnityEngine.InputSystem.Utilities", "Vector2MagnitudeComparer");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Utilities::Vector2MagnitudeComparer, "UnityEngine.InputSystem.Utilities", "Vector2MagnitudeComparer");

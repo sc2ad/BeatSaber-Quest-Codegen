@@ -4,21 +4,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class AndroidJavaProxy;
-}
 namespace System {
 class IDisposable;
 }
 namespace UnityEngine {
-class GlobalJavaObjectRef;
+class AndroidJavaRunnable;
 }
 namespace UnityEngine {
 class AndroidJavaClass;
 }
 namespace UnityEngine {
-class AndroidJavaRunnable;
+class GlobalJavaObjectRef;
+}
+namespace UnityEngine {
+class AndroidJavaProxy;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -33,8 +32,8 @@ namespace UnityEngine {
 class CORDL_TYPE AndroidJavaObject : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -75,17 +74,17 @@ static void __set_enableDebugPrints(bool value) ;
 
 static bool __get_enableDebugPrints() ;
 
- ::UnityEngine::GlobalJavaObjectRef __declspec(property(get=__get_m_jobject, put=__set_m_jobject))  m_jobject;
+ UnityEngine::GlobalJavaObjectRef __declspec(property(get=__get_m_jobject, put=__set_m_jobject))  m_jobject;
 
-constexpr void __set_m_jobject(::UnityEngine::GlobalJavaObjectRef value) ;
+constexpr void __set_m_jobject(UnityEngine::GlobalJavaObjectRef value) ;
 
-constexpr ::UnityEngine::GlobalJavaObjectRef __get_m_jobject() const;
+constexpr UnityEngine::GlobalJavaObjectRef __get_m_jobject() const;
 
- ::UnityEngine::GlobalJavaObjectRef __declspec(property(get=__get_m_jclass, put=__set_m_jclass))  m_jclass;
+ UnityEngine::GlobalJavaObjectRef __declspec(property(get=__get_m_jclass, put=__set_m_jclass))  m_jclass;
 
-constexpr void __set_m_jclass(::UnityEngine::GlobalJavaObjectRef value) ;
+constexpr void __set_m_jclass(UnityEngine::GlobalJavaObjectRef value) ;
 
-constexpr ::UnityEngine::GlobalJavaObjectRef __get_m_jclass() const;
+constexpr UnityEngine::GlobalJavaObjectRef __get_m_jclass() const;
 
 
 // Methods
@@ -96,29 +95,29 @@ explicit AndroidJavaObject(::StringW className, ::ArrayW<::StringW> args) ;
 /// @brief Method .ctor addr 0x2b1084c size 0xb4 virtual false final false
  void _ctor(::StringW className, ::ArrayW<::StringW> args) ;
 
-// Ctor Parameters [CppParam { name: "className", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "args", ty: "::ArrayW<::UnityEngine::AndroidJavaObject>", modifiers: "", def_value: None }]
-explicit AndroidJavaObject(::StringW className, ::ArrayW<::UnityEngine::AndroidJavaObject> args) ;
+// Ctor Parameters [CppParam { name: "className", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "args", ty: "::ArrayW<UnityEngine::AndroidJavaObject>", modifiers: "", def_value: None }]
+explicit AndroidJavaObject(::StringW className, ::ArrayW<UnityEngine::AndroidJavaObject> args) ;
 
 /// @brief Method .ctor addr 0x2b10b04 size 0xb4 virtual false final false
- void _ctor(::StringW className, ::ArrayW<::UnityEngine::AndroidJavaObject> args) ;
+ void _ctor(::StringW className, ::ArrayW<UnityEngine::AndroidJavaObject> args) ;
 
-// Ctor Parameters [CppParam { name: "className", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "args", ty: "::ArrayW<::UnityEngine::AndroidJavaClass>", modifiers: "", def_value: None }]
-explicit AndroidJavaObject(::StringW className, ::ArrayW<::UnityEngine::AndroidJavaClass> args) ;
+// Ctor Parameters [CppParam { name: "className", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "args", ty: "::ArrayW<UnityEngine::AndroidJavaClass>", modifiers: "", def_value: None }]
+explicit AndroidJavaObject(::StringW className, ::ArrayW<UnityEngine::AndroidJavaClass> args) ;
 
 /// @brief Method .ctor addr 0x2b10bb8 size 0xb4 virtual false final false
- void _ctor(::StringW className, ::ArrayW<::UnityEngine::AndroidJavaClass> args) ;
+ void _ctor(::StringW className, ::ArrayW<UnityEngine::AndroidJavaClass> args) ;
 
-// Ctor Parameters [CppParam { name: "className", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "args", ty: "::ArrayW<::UnityEngine::AndroidJavaProxy>", modifiers: "", def_value: None }]
-explicit AndroidJavaObject(::StringW className, ::ArrayW<::UnityEngine::AndroidJavaProxy> args) ;
+// Ctor Parameters [CppParam { name: "className", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "args", ty: "::ArrayW<UnityEngine::AndroidJavaProxy>", modifiers: "", def_value: None }]
+explicit AndroidJavaObject(::StringW className, ::ArrayW<UnityEngine::AndroidJavaProxy> args) ;
 
 /// @brief Method .ctor addr 0x2b10c6c size 0xb4 virtual false final false
- void _ctor(::StringW className, ::ArrayW<::UnityEngine::AndroidJavaProxy> args) ;
+ void _ctor(::StringW className, ::ArrayW<UnityEngine::AndroidJavaProxy> args) ;
 
-// Ctor Parameters [CppParam { name: "className", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "args", ty: "::ArrayW<::UnityEngine::AndroidJavaRunnable>", modifiers: "", def_value: None }]
-explicit AndroidJavaObject(::StringW className, ::ArrayW<::UnityEngine::AndroidJavaRunnable> args) ;
+// Ctor Parameters [CppParam { name: "className", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "args", ty: "::ArrayW<UnityEngine::AndroidJavaRunnable>", modifiers: "", def_value: None }]
+explicit AndroidJavaObject(::StringW className, ::ArrayW<UnityEngine::AndroidJavaRunnable> args) ;
 
 /// @brief Method .ctor addr 0x2b10d20 size 0xb4 virtual false final false
- void _ctor(::StringW className, ::ArrayW<::UnityEngine::AndroidJavaRunnable> args) ;
+ void _ctor(::StringW className, ::ArrayW<UnityEngine::AndroidJavaRunnable> args) ;
 
 // Ctor Parameters [CppParam { name: "className", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "args", ty: "::ArrayW<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
 explicit AndroidJavaObject(::StringW className, ::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
@@ -166,7 +165,7 @@ template<typename FieldType>
  ::cordl_internals::intptr_t GetRawClass() ;
 
 /// @brief Method CloneReference addr 0x2b1111c size 0x15c virtual false final false
- ::UnityEngine::AndroidJavaObject CloneReference() ;
+ UnityEngine::AndroidJavaObject CloneReference() ;
 
 /// @brief Method Call addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename ReturnType,typename T>
@@ -242,10 +241,10 @@ template<typename FieldType>
  void _SetStatic(::StringW fieldName, FieldType val) ;
 
 /// @brief Method AndroidJavaObjectDeleteLocalRef addr 0x2b10554 size 0xc8 virtual false final false
-static ::UnityEngine::AndroidJavaObject AndroidJavaObjectDeleteLocalRef(::cordl_internals::intptr_t jobject) ;
+static UnityEngine::AndroidJavaObject AndroidJavaObjectDeleteLocalRef(::cordl_internals::intptr_t jobject) ;
 
 /// @brief Method AndroidJavaClassDeleteLocalRef addr 0x2b1199c size 0xc8 virtual false final false
-static ::UnityEngine::AndroidJavaClass AndroidJavaClassDeleteLocalRef(::cordl_internals::intptr_t jclass) ;
+static UnityEngine::AndroidJavaClass AndroidJavaClassDeleteLocalRef(::cordl_internals::intptr_t jclass) ;
 
 /// @brief Method FromJavaArrayDeleteLocalRef addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename ReturnType>
@@ -261,6 +260,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AndroidJavaObject);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AndroidJavaObject, "UnityEngine", "AndroidJavaObject");
+NEED_NO_BOX(UnityEngine::AndroidJavaObject);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AndroidJavaObject, "UnityEngine", "AndroidJavaObject");

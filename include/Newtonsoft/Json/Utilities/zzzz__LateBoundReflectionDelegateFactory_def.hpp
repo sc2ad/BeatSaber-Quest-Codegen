@@ -3,26 +3,12 @@
 #include "Newtonsoft/Json/Utilities/zzzz__ReflectionDelegateFactory_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
-namespace System::Reflection {
-class MethodBase;
-}
-namespace Newtonsoft::Json::Utilities {
-template<typename T,typename TResult>
-class MethodCall_2;
-}
 namespace System::Reflection {
 class PropertyInfo;
 }
 namespace Newtonsoft::Json::Utilities {
-class ReflectionDelegateFactory;
-}
-namespace System {
-class Type;
+template<typename T,typename TResult>
+class MethodCall_2;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -32,6 +18,9 @@ namespace System {
 template<typename TResult>
 class Func_1;
 }
+namespace System {
+class Type;
+}
 namespace Newtonsoft::Json::Serialization {
 template<typename T>
 class ObjectConstructor_1;
@@ -39,63 +28,73 @@ class ObjectConstructor_1;
 namespace System::Reflection {
 class FieldInfo;
 }
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace System::Reflection {
+class MethodBase;
+}
+namespace Newtonsoft::Json::Utilities {
+class ReflectionDelegateFactory;
+}
 namespace System::Reflection {
 class ConstructorInfo;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
 template<typename T>
-class ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1;
+class Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1;
 }
 namespace Newtonsoft::Json::Utilities {
 template<typename T>
-class ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1;
+class Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1;
 }
 namespace Newtonsoft::Json::Utilities {
 template<typename T>
-class ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1;
+class Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1;
 }
 namespace Newtonsoft::Json::Utilities {
 template<typename T>
-class ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1;
+class Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1;
 }
 namespace Newtonsoft::Json::Utilities {
 template<typename T>
-class ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1;
+class Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1;
 }
 namespace Newtonsoft::Json::Utilities {
 template<typename T>
-class ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1;
+class Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1;
 }
 namespace Newtonsoft::Json::Utilities {
 class LateBoundReflectionDelegateFactory;
 }
 namespace Newtonsoft::Json::Utilities {
-class ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0;
+class Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0;
 }
 namespace Newtonsoft::Json::Utilities {
 template<::cordl_internals::il2cpp_reference_type T>
-class ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1<T>;
+class Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1<T>;
 }
 namespace Newtonsoft::Json::Utilities {
 template<::cordl_internals::il2cpp_reference_type T>
-class ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1<T>;
+class Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1<T>;
 }
 namespace Newtonsoft::Json::Utilities {
 template<::cordl_internals::il2cpp_reference_type T>
-class ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1<T>;
+class Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1<T>;
 }
 namespace Newtonsoft::Json::Utilities {
 template<::cordl_internals::il2cpp_reference_type T>
-class ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1<T>;
+class Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1<T>;
 }
 namespace Newtonsoft::Json::Utilities {
 template<::cordl_internals::il2cpp_reference_type T>
-class ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1<T>;
+class Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1<T>;
 }
 namespace Newtonsoft::Json::Utilities {
 template<::cordl_internals::il2cpp_reference_type T>
-class ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1<T>;
+class Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1<T>;
 }
 // Type: ::<>c__DisplayClass3_0
 namespace Newtonsoft::Json::Utilities {
@@ -103,59 +102,59 @@ namespace Newtonsoft::Json::Utilities {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11794))
 // CS Name: Newtonsoft.Json.Utilities.LateBoundReflectionDelegateFactory::<>c__DisplayClass3_0
-class CORDL_TYPE ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0() = default;
+virtual ~Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0", modifiers: " const&", def_value: None }]
-constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0(____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0", modifiers: " const&", def_value: None }]
+constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0(Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0", modifiers: "&&", def_value: None }]
-constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0(____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0", modifiers: "&&", def_value: None }]
+constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0(Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0& operator=(std::nullptr_t) noexcept {
+  constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0& operator=(void* o) noexcept {
+  constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0& operator=(____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0&& o) noexcept = default;
-  constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0& operator=(____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0 const& o) noexcept = default;
+  constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0& operator=(Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0&& o) noexcept = default;
+  constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0& operator=(Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Reflection::ConstructorInfo __declspec(property(get=__get_c, put=__set_c))  c;
+ System::Reflection::ConstructorInfo __declspec(property(get=__get_c, put=__set_c))  c;
 
-constexpr void __set_c(::System::Reflection::ConstructorInfo value) ;
+constexpr void __set_c(System::Reflection::ConstructorInfo value) ;
 
-constexpr ::System::Reflection::ConstructorInfo __get_c() const;
+constexpr System::Reflection::ConstructorInfo __get_c() const;
 
- ::System::Reflection::MethodBase __declspec(property(get=__get_method, put=__set_method))  method;
+ System::Reflection::MethodBase __declspec(property(get=__get_method, put=__set_method))  method;
 
-constexpr void __set_method(::System::Reflection::MethodBase value) ;
+constexpr void __set_method(System::Reflection::MethodBase value) ;
 
-constexpr ::System::Reflection::MethodBase __get_method() const;
+constexpr System::Reflection::MethodBase __get_method() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0() ;
+explicit Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0() ;
 
 /// @brief Method .ctor addr 0x24e2654 size 0x8 virtual false final false
  void _ctor() ;
@@ -182,28 +181,28 @@ namespace Newtonsoft::Json::Utilities {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11793))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11801))
 // CS Name: Newtonsoft.Json.Utilities.LateBoundReflectionDelegateFactory
-class CORDL_TYPE LateBoundReflectionDelegateFactory : public ::Newtonsoft::Json::Utilities::ReflectionDelegateFactory {
+class CORDL_TYPE LateBoundReflectionDelegateFactory : public Newtonsoft::Json::Utilities::ReflectionDelegateFactory {
 public:
 // Declarations
 template<typename T>
-using __c__DisplayClass9_0_1 = ::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1<T>;
+using __c__DisplayClass9_0_1 = Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1<T>;
 
 template<typename T>
-using __c__DisplayClass8_0_1 = ::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1<T>;
+using __c__DisplayClass8_0_1 = Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1<T>;
 
 template<typename T>
-using __c__DisplayClass7_0_1 = ::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1<T>;
+using __c__DisplayClass7_0_1 = Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1<T>;
 
 template<typename T>
-using __c__DisplayClass6_0_1 = ::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1<T>;
+using __c__DisplayClass6_0_1 = Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1<T>;
 
 template<typename T>
-using __c__DisplayClass5_0_1 = ::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1<T>;
+using __c__DisplayClass5_0_1 = Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1<T>;
 
 template<typename T>
-using __c__DisplayClass4_0_1 = ::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1<T>;
+using __c__DisplayClass4_0_1 = Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1<T>;
 
-using __c__DisplayClass3_0 = ::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0;
+using __c__DisplayClass3_0 = Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -217,7 +216,7 @@ constexpr LateBoundReflectionDelegateFactory(LateBoundReflectionDelegateFactory 
 constexpr LateBoundReflectionDelegateFactory(LateBoundReflectionDelegateFactory&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LateBoundReflectionDelegateFactory(void* ptr) noexcept : ::Newtonsoft::Json::Utilities::ReflectionDelegateFactory(ptr) {
+constexpr explicit LateBoundReflectionDelegateFactory(void* ptr) noexcept : Newtonsoft::Json::Utilities::ReflectionDelegateFactory(ptr) {
 }
 
 
@@ -238,49 +237,49 @@ constexpr explicit LateBoundReflectionDelegateFactory(void* ptr) noexcept : ::Ne
 
 // Fields
 
-static ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory __declspec(property(get=__get__instance, put=__set__instance))  _instance;
+static Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory __declspec(property(get=__get__instance, put=__set__instance))  _instance;
 
-static void __set__instance(::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory value) ;
+static void __set__instance(Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory value) ;
 
-static ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory __get__instance() ;
+static Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory __get__instance() ;
 
 
 // Properties
 
-static ::Newtonsoft::Json::Utilities::ReflectionDelegateFactory __declspec(property(get=get_Instance))  Instance;
+static Newtonsoft::Json::Utilities::ReflectionDelegateFactory __declspec(property(get=get_Instance))  Instance;
 
 
 // Methods
 
 /// @brief Method get_Instance addr 0x24e24ac size 0x58 virtual false final false
-static ::Newtonsoft::Json::Utilities::ReflectionDelegateFactory get_Instance() ;
+static Newtonsoft::Json::Utilities::ReflectionDelegateFactory get_Instance() ;
 
 /// @brief Method CreateParameterizedConstructor addr 0x24e2504 size 0x150 virtual true final false
- ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::bs_hook::Il2CppWrapperType> CreateParameterizedConstructor(::System::Reflection::MethodBase method) ;
+ Newtonsoft::Json::Serialization::ObjectConstructor_1<::bs_hook::Il2CppWrapperType> CreateParameterizedConstructor(System::Reflection::MethodBase method) ;
 
 /// @brief Method CreateMethodCall addr 0x0 size 0xffffffffffffffff virtual true final false
 template<typename T>
- ::Newtonsoft::Json::Utilities::MethodCall_2<T,::bs_hook::Il2CppWrapperType> CreateMethodCall(::System::Reflection::MethodBase method) ;
+ Newtonsoft::Json::Utilities::MethodCall_2<T,::bs_hook::Il2CppWrapperType> CreateMethodCall(System::Reflection::MethodBase method) ;
 
 /// @brief Method CreateDefaultConstructor addr 0x0 size 0xffffffffffffffff virtual true final false
 template<typename T>
- ::System::Func_1<T> CreateDefaultConstructor(::System::Type type) ;
+ System::Func_1<T> CreateDefaultConstructor(System::Type type) ;
 
 /// @brief Method CreateGet addr 0x0 size 0xffffffffffffffff virtual true final false
 template<typename T>
- ::System::Func_2<T,::bs_hook::Il2CppWrapperType> CreateGet(::System::Reflection::PropertyInfo propertyInfo) ;
+ System::Func_2<T,::bs_hook::Il2CppWrapperType> CreateGet(System::Reflection::PropertyInfo propertyInfo) ;
 
 /// @brief Method CreateGet addr 0x0 size 0xffffffffffffffff virtual true final false
 template<typename T>
- ::System::Func_2<T,::bs_hook::Il2CppWrapperType> CreateGet(::System::Reflection::FieldInfo fieldInfo) ;
+ System::Func_2<T,::bs_hook::Il2CppWrapperType> CreateGet(System::Reflection::FieldInfo fieldInfo) ;
 
 /// @brief Method CreateSet addr 0x0 size 0xffffffffffffffff virtual true final false
 template<typename T>
- ::System::Action_2<T,::bs_hook::Il2CppWrapperType> CreateSet(::System::Reflection::FieldInfo fieldInfo) ;
+ System::Action_2<T,::bs_hook::Il2CppWrapperType> CreateSet(System::Reflection::FieldInfo fieldInfo) ;
 
 /// @brief Method CreateSet addr 0x0 size 0xffffffffffffffff virtual true final false
 template<typename T>
- ::System::Action_2<T,::bs_hook::Il2CppWrapperType> CreateSet(::System::Reflection::PropertyInfo propertyInfo) ;
+ System::Action_2<T,::bs_hook::Il2CppWrapperType> CreateSet(System::Reflection::PropertyInfo propertyInfo) ;
 
 // Ctor Parameters []
 explicit LateBoundReflectionDelegateFactory() ;
@@ -300,59 +299,59 @@ template<::cordl_internals::il2cpp_reference_type T>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11795))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11795), inst: 2 })
 // CS Name: Newtonsoft.Json.Utilities.LateBoundReflectionDelegateFactory::<>c__DisplayClass4_0`1
-class CORDL_TYPE ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1<T> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1<T> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1() = default;
+virtual ~Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1", modifiers: " const&", def_value: None }]
-constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1(____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1", modifiers: " const&", def_value: None }]
+constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1(Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1", modifiers: "&&", def_value: None }]
-constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1(____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1", modifiers: "&&", def_value: None }]
+constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1(Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1& operator=(std::nullptr_t) noexcept {
+  constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1& operator=(void* o) noexcept {
+  constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1& operator=(____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1&& o) noexcept = default;
-  constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1& operator=(____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1 const& o) noexcept = default;
+  constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1& operator=(Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1&& o) noexcept = default;
+  constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1& operator=(Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Reflection::ConstructorInfo __declspec(property(get=__get_c, put=__set_c))  c;
+ System::Reflection::ConstructorInfo __declspec(property(get=__get_c, put=__set_c))  c;
 
-constexpr void __set_c(::System::Reflection::ConstructorInfo value) ;
+constexpr void __set_c(System::Reflection::ConstructorInfo value) ;
 
-constexpr ::System::Reflection::ConstructorInfo __get_c() const;
+constexpr System::Reflection::ConstructorInfo __get_c() const;
 
- ::System::Reflection::MethodBase __declspec(property(get=__get_method, put=__set_method))  method;
+ System::Reflection::MethodBase __declspec(property(get=__get_method, put=__set_method))  method;
 
-constexpr void __set_method(::System::Reflection::MethodBase value) ;
+constexpr void __set_method(System::Reflection::MethodBase value) ;
 
-constexpr ::System::Reflection::MethodBase __get_method() const;
+constexpr System::Reflection::MethodBase __get_method() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1() ;
+explicit Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -375,59 +374,59 @@ template<::cordl_internals::il2cpp_reference_type T>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11796))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11796), inst: 2 })
 // CS Name: Newtonsoft.Json.Utilities.LateBoundReflectionDelegateFactory::<>c__DisplayClass5_0`1
-class CORDL_TYPE ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1<T> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1<T> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1() = default;
+virtual ~Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1", modifiers: " const&", def_value: None }]
-constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1(____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1", modifiers: " const&", def_value: None }]
+constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1(Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1", modifiers: "&&", def_value: None }]
-constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1(____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1", modifiers: "&&", def_value: None }]
+constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1(Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1& operator=(std::nullptr_t) noexcept {
+  constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1& operator=(void* o) noexcept {
+  constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1& operator=(____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1&& o) noexcept = default;
-  constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1& operator=(____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1 const& o) noexcept = default;
+  constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1& operator=(Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1&& o) noexcept = default;
+  constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1& operator=(Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Type __declspec(property(get=__get_type, put=__set_type))  type;
+ System::Type __declspec(property(get=__get_type, put=__set_type))  type;
 
-constexpr void __set_type(::System::Type value) ;
+constexpr void __set_type(System::Type value) ;
 
-constexpr ::System::Type __get_type() const;
+constexpr System::Type __get_type() const;
 
- ::System::Reflection::ConstructorInfo __declspec(property(get=__get_constructorInfo, put=__set_constructorInfo))  constructorInfo;
+ System::Reflection::ConstructorInfo __declspec(property(get=__get_constructorInfo, put=__set_constructorInfo))  constructorInfo;
 
-constexpr void __set_constructorInfo(::System::Reflection::ConstructorInfo value) ;
+constexpr void __set_constructorInfo(System::Reflection::ConstructorInfo value) ;
 
-constexpr ::System::Reflection::ConstructorInfo __get_constructorInfo() const;
+constexpr System::Reflection::ConstructorInfo __get_constructorInfo() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1() ;
+explicit Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -450,53 +449,53 @@ template<::cordl_internals::il2cpp_reference_type T>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11797))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11797), inst: 2 })
 // CS Name: Newtonsoft.Json.Utilities.LateBoundReflectionDelegateFactory::<>c__DisplayClass6_0`1
-class CORDL_TYPE ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1<T> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1<T> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1() = default;
+virtual ~Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1", modifiers: " const&", def_value: None }]
-constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1(____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1", modifiers: " const&", def_value: None }]
+constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1(Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1", modifiers: "&&", def_value: None }]
-constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1(____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1", modifiers: "&&", def_value: None }]
+constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1(Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1& operator=(std::nullptr_t) noexcept {
+  constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1& operator=(void* o) noexcept {
+  constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1& operator=(____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1&& o) noexcept = default;
-  constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1& operator=(____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1 const& o) noexcept = default;
+  constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1& operator=(Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1&& o) noexcept = default;
+  constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1& operator=(Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Reflection::PropertyInfo __declspec(property(get=__get_propertyInfo, put=__set_propertyInfo))  propertyInfo;
+ System::Reflection::PropertyInfo __declspec(property(get=__get_propertyInfo, put=__set_propertyInfo))  propertyInfo;
 
-constexpr void __set_propertyInfo(::System::Reflection::PropertyInfo value) ;
+constexpr void __set_propertyInfo(System::Reflection::PropertyInfo value) ;
 
-constexpr ::System::Reflection::PropertyInfo __get_propertyInfo() const;
+constexpr System::Reflection::PropertyInfo __get_propertyInfo() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1() ;
+explicit Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -516,53 +515,53 @@ template<::cordl_internals::il2cpp_reference_type T>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11798))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11798), inst: 2 })
 // CS Name: Newtonsoft.Json.Utilities.LateBoundReflectionDelegateFactory::<>c__DisplayClass7_0`1
-class CORDL_TYPE ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1<T> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1<T> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1() = default;
+virtual ~Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1", modifiers: " const&", def_value: None }]
-constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1(____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1", modifiers: " const&", def_value: None }]
+constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1(Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1", modifiers: "&&", def_value: None }]
-constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1(____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1", modifiers: "&&", def_value: None }]
+constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1(Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1& operator=(std::nullptr_t) noexcept {
+  constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1& operator=(void* o) noexcept {
+  constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1& operator=(____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1&& o) noexcept = default;
-  constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1& operator=(____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1 const& o) noexcept = default;
+  constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1& operator=(Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1&& o) noexcept = default;
+  constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1& operator=(Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Reflection::FieldInfo __declspec(property(get=__get_fieldInfo, put=__set_fieldInfo))  fieldInfo;
+ System::Reflection::FieldInfo __declspec(property(get=__get_fieldInfo, put=__set_fieldInfo))  fieldInfo;
 
-constexpr void __set_fieldInfo(::System::Reflection::FieldInfo value) ;
+constexpr void __set_fieldInfo(System::Reflection::FieldInfo value) ;
 
-constexpr ::System::Reflection::FieldInfo __get_fieldInfo() const;
+constexpr System::Reflection::FieldInfo __get_fieldInfo() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1() ;
+explicit Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -582,53 +581,53 @@ template<::cordl_internals::il2cpp_reference_type T>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11799))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11799), inst: 2 })
 // CS Name: Newtonsoft.Json.Utilities.LateBoundReflectionDelegateFactory::<>c__DisplayClass8_0`1
-class CORDL_TYPE ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1<T> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1<T> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1() = default;
+virtual ~Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1", modifiers: " const&", def_value: None }]
-constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1(____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1", modifiers: " const&", def_value: None }]
+constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1(Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1", modifiers: "&&", def_value: None }]
-constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1(____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1", modifiers: "&&", def_value: None }]
+constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1(Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1& operator=(std::nullptr_t) noexcept {
+  constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1& operator=(void* o) noexcept {
+  constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1& operator=(____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1&& o) noexcept = default;
-  constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1& operator=(____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1 const& o) noexcept = default;
+  constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1& operator=(Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1&& o) noexcept = default;
+  constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1& operator=(Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Reflection::FieldInfo __declspec(property(get=__get_fieldInfo, put=__set_fieldInfo))  fieldInfo;
+ System::Reflection::FieldInfo __declspec(property(get=__get_fieldInfo, put=__set_fieldInfo))  fieldInfo;
 
-constexpr void __set_fieldInfo(::System::Reflection::FieldInfo value) ;
+constexpr void __set_fieldInfo(System::Reflection::FieldInfo value) ;
 
-constexpr ::System::Reflection::FieldInfo __get_fieldInfo() const;
+constexpr System::Reflection::FieldInfo __get_fieldInfo() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1() ;
+explicit Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -648,53 +647,53 @@ template<::cordl_internals::il2cpp_reference_type T>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11800))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11800), inst: 2 })
 // CS Name: Newtonsoft.Json.Utilities.LateBoundReflectionDelegateFactory::<>c__DisplayClass9_0`1
-class CORDL_TYPE ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1<T> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1<T> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1() = default;
+virtual ~Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1", modifiers: " const&", def_value: None }]
-constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1(____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1", modifiers: " const&", def_value: None }]
+constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1(Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1", modifiers: "&&", def_value: None }]
-constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1(____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1", modifiers: "&&", def_value: None }]
+constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1(Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1& operator=(std::nullptr_t) noexcept {
+  constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1& operator=(void* o) noexcept {
+  constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1& operator=(____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1&& o) noexcept = default;
-  constexpr ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1& operator=(____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1 const& o) noexcept = default;
+  constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1& operator=(Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1&& o) noexcept = default;
+  constexpr Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1& operator=(Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Reflection::PropertyInfo __declspec(property(get=__get_propertyInfo, put=__set_propertyInfo))  propertyInfo;
+ System::Reflection::PropertyInfo __declspec(property(get=__get_propertyInfo, put=__set_propertyInfo))  propertyInfo;
 
-constexpr void __set_propertyInfo(::System::Reflection::PropertyInfo value) ;
+constexpr void __set_propertyInfo(System::Reflection::PropertyInfo value) ;
 
-constexpr ::System::Reflection::PropertyInfo __get_propertyInfo() const;
+constexpr System::Reflection::PropertyInfo __get_propertyInfo() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1() ;
+explicit Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -706,14 +705,13 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Utilities
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1, "Newtonsoft.Json.Utilities", "LateBoundReflectionDelegateFactory/<>c__DisplayClass4_0`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1, "Newtonsoft.Json.Utilities", "LateBoundReflectionDelegateFactory/<>c__DisplayClass5_0`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1, "Newtonsoft.Json.Utilities", "LateBoundReflectionDelegateFactory/<>c__DisplayClass6_0`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1, "Newtonsoft.Json.Utilities", "LateBoundReflectionDelegateFactory/<>c__DisplayClass7_0`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1, "Newtonsoft.Json.Utilities", "LateBoundReflectionDelegateFactory/<>c__DisplayClass8_0`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1, "Newtonsoft.Json.Utilities", "LateBoundReflectionDelegateFactory/<>c__DisplayClass9_0`1");
-NEED_NO_BOX(::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory, "Newtonsoft.Json.Utilities", "LateBoundReflectionDelegateFactory");
-NEED_NO_BOX(::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0, "Newtonsoft.Json.Utilities", "LateBoundReflectionDelegateFactory/<>c__DisplayClass3_0");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1, "Newtonsoft.Json.Utilities", "LateBoundReflectionDelegateFactory/<>c__DisplayClass4_0`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1, "Newtonsoft.Json.Utilities", "LateBoundReflectionDelegateFactory/<>c__DisplayClass5_0`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1, "Newtonsoft.Json.Utilities", "LateBoundReflectionDelegateFactory/<>c__DisplayClass6_0`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1, "Newtonsoft.Json.Utilities", "LateBoundReflectionDelegateFactory/<>c__DisplayClass7_0`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1, "Newtonsoft.Json.Utilities", "LateBoundReflectionDelegateFactory/<>c__DisplayClass8_0`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1, "Newtonsoft.Json.Utilities", "LateBoundReflectionDelegateFactory/<>c__DisplayClass9_0`1");
+NEED_NO_BOX(Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory, "Newtonsoft.Json.Utilities", "LateBoundReflectionDelegateFactory");
+NEED_NO_BOX(Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0, "Newtonsoft.Json.Utilities", "LateBoundReflectionDelegateFactory/<>c__DisplayClass3_0");

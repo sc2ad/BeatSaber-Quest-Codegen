@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Reflection {
 struct CorElementType;
@@ -137,224 +136,223 @@ constexpr void __set_value__(uint8_t value) ;
 constexpr uint8_t __get_value__() const;
 
 /// @brief Field End offset 0
-static ::System::Reflection::CorElementType const End;
+static System::Reflection::CorElementType const End;
 
 /// @brief Field Void offset 0
-static ::System::Reflection::CorElementType const Void;
+static System::Reflection::CorElementType const Void;
 
 /// @brief Field Boolean offset 0
-static ::System::Reflection::CorElementType const Boolean;
+static System::Reflection::CorElementType const Boolean;
 
 /// @brief Field Char offset 0
-static ::System::Reflection::CorElementType const Char;
+static System::Reflection::CorElementType const Char;
 
 /// @brief Field I1 offset 0
-static ::System::Reflection::CorElementType const I1;
+static System::Reflection::CorElementType const I1;
 
 /// @brief Field U1 offset 0
-static ::System::Reflection::CorElementType const U1;
+static System::Reflection::CorElementType const U1;
 
 /// @brief Field I2 offset 0
-static ::System::Reflection::CorElementType const I2;
+static System::Reflection::CorElementType const I2;
 
 /// @brief Field U2 offset 0
-static ::System::Reflection::CorElementType const U2;
+static System::Reflection::CorElementType const U2;
 
 /// @brief Field I4 offset 0
-static ::System::Reflection::CorElementType const I4;
+static System::Reflection::CorElementType const I4;
 
 /// @brief Field U4 offset 0
-static ::System::Reflection::CorElementType const U4;
+static System::Reflection::CorElementType const U4;
 
 /// @brief Field I8 offset 0
-static ::System::Reflection::CorElementType const I8;
+static System::Reflection::CorElementType const I8;
 
 /// @brief Field U8 offset 0
-static ::System::Reflection::CorElementType const U8;
+static System::Reflection::CorElementType const U8;
 
 /// @brief Field R4 offset 0
-static ::System::Reflection::CorElementType const R4;
+static System::Reflection::CorElementType const R4;
 
 /// @brief Field R8 offset 0
-static ::System::Reflection::CorElementType const R8;
+static System::Reflection::CorElementType const R8;
 
 /// @brief Field String offset 0
-static ::System::Reflection::CorElementType const String;
+static System::Reflection::CorElementType const String;
 
 /// @brief Field Ptr offset 0
-static ::System::Reflection::CorElementType const Ptr;
+static System::Reflection::CorElementType const Ptr;
 
 /// @brief Field ByRef offset 0
-static ::System::Reflection::CorElementType const ByRef;
+static System::Reflection::CorElementType const ByRef;
 
 /// @brief Field ValueType offset 0
-static ::System::Reflection::CorElementType const ValueType;
+static System::Reflection::CorElementType const ValueType;
 
 /// @brief Field Class offset 0
-static ::System::Reflection::CorElementType const Class;
+static System::Reflection::CorElementType const Class;
 
 /// @brief Field Var offset 0
-static ::System::Reflection::CorElementType const Var;
+static System::Reflection::CorElementType const Var;
 
 /// @brief Field Array offset 0
-static ::System::Reflection::CorElementType const Array;
+static System::Reflection::CorElementType const Array;
 
 /// @brief Field GenericInst offset 0
-static ::System::Reflection::CorElementType const GenericInst;
+static System::Reflection::CorElementType const GenericInst;
 
 /// @brief Field TypedByRef offset 0
-static ::System::Reflection::CorElementType const TypedByRef;
+static System::Reflection::CorElementType const TypedByRef;
 
 /// @brief Field I offset 0
-static ::System::Reflection::CorElementType const I;
+static System::Reflection::CorElementType const I;
 
 /// @brief Field U offset 0
-static ::System::Reflection::CorElementType const U;
+static System::Reflection::CorElementType const U;
 
 /// @brief Field FnPtr offset 0
-static ::System::Reflection::CorElementType const FnPtr;
+static System::Reflection::CorElementType const FnPtr;
 
 /// @brief Field Object offset 0
-static ::System::Reflection::CorElementType const Object;
+static System::Reflection::CorElementType const Object;
 
 /// @brief Field SzArray offset 0
-static ::System::Reflection::CorElementType const SzArray;
+static System::Reflection::CorElementType const SzArray;
 
 /// @brief Field MVar offset 0
-static ::System::Reflection::CorElementType const MVar;
+static System::Reflection::CorElementType const MVar;
 
 /// @brief Field CModReqd offset 0
-static ::System::Reflection::CorElementType const CModReqd;
+static System::Reflection::CorElementType const CModReqd;
 
 /// @brief Field CModOpt offset 0
-static ::System::Reflection::CorElementType const CModOpt;
+static System::Reflection::CorElementType const CModOpt;
 
 /// @brief Field Internal offset 0
-static ::System::Reflection::CorElementType const Internal;
+static System::Reflection::CorElementType const Internal;
 
 /// @brief Field Max offset 0
-static ::System::Reflection::CorElementType const Max;
+static System::Reflection::CorElementType const Max;
 
 /// @brief Field Modifier offset 0
-static ::System::Reflection::CorElementType const Modifier;
+static System::Reflection::CorElementType const Modifier;
 
 /// @brief Field Sentinel offset 0
-static ::System::Reflection::CorElementType const Sentinel;
+static System::Reflection::CorElementType const Sentinel;
 
 /// @brief Field Pinned offset 0
-static ::System::Reflection::CorElementType const Pinned;
+static System::Reflection::CorElementType const Pinned;
 
 /// @brief Field ELEMENT_TYPE_END offset 0
-static ::System::Reflection::CorElementType const ELEMENT_TYPE_END;
+static System::Reflection::CorElementType const ELEMENT_TYPE_END;
 
 /// @brief Field ELEMENT_TYPE_VOID offset 0
-static ::System::Reflection::CorElementType const ELEMENT_TYPE_VOID;
+static System::Reflection::CorElementType const ELEMENT_TYPE_VOID;
 
 /// @brief Field ELEMENT_TYPE_BOOLEAN offset 0
-static ::System::Reflection::CorElementType const ELEMENT_TYPE_BOOLEAN;
+static System::Reflection::CorElementType const ELEMENT_TYPE_BOOLEAN;
 
 /// @brief Field ELEMENT_TYPE_CHAR offset 0
-static ::System::Reflection::CorElementType const ELEMENT_TYPE_CHAR;
+static System::Reflection::CorElementType const ELEMENT_TYPE_CHAR;
 
 /// @brief Field ELEMENT_TYPE_I1 offset 0
-static ::System::Reflection::CorElementType const ELEMENT_TYPE_I1;
+static System::Reflection::CorElementType const ELEMENT_TYPE_I1;
 
 /// @brief Field ELEMENT_TYPE_U1 offset 0
-static ::System::Reflection::CorElementType const ELEMENT_TYPE_U1;
+static System::Reflection::CorElementType const ELEMENT_TYPE_U1;
 
 /// @brief Field ELEMENT_TYPE_I2 offset 0
-static ::System::Reflection::CorElementType const ELEMENT_TYPE_I2;
+static System::Reflection::CorElementType const ELEMENT_TYPE_I2;
 
 /// @brief Field ELEMENT_TYPE_U2 offset 0
-static ::System::Reflection::CorElementType const ELEMENT_TYPE_U2;
+static System::Reflection::CorElementType const ELEMENT_TYPE_U2;
 
 /// @brief Field ELEMENT_TYPE_I4 offset 0
-static ::System::Reflection::CorElementType const ELEMENT_TYPE_I4;
+static System::Reflection::CorElementType const ELEMENT_TYPE_I4;
 
 /// @brief Field ELEMENT_TYPE_U4 offset 0
-static ::System::Reflection::CorElementType const ELEMENT_TYPE_U4;
+static System::Reflection::CorElementType const ELEMENT_TYPE_U4;
 
 /// @brief Field ELEMENT_TYPE_I8 offset 0
-static ::System::Reflection::CorElementType const ELEMENT_TYPE_I8;
+static System::Reflection::CorElementType const ELEMENT_TYPE_I8;
 
 /// @brief Field ELEMENT_TYPE_U8 offset 0
-static ::System::Reflection::CorElementType const ELEMENT_TYPE_U8;
+static System::Reflection::CorElementType const ELEMENT_TYPE_U8;
 
 /// @brief Field ELEMENT_TYPE_R4 offset 0
-static ::System::Reflection::CorElementType const ELEMENT_TYPE_R4;
+static System::Reflection::CorElementType const ELEMENT_TYPE_R4;
 
 /// @brief Field ELEMENT_TYPE_R8 offset 0
-static ::System::Reflection::CorElementType const ELEMENT_TYPE_R8;
+static System::Reflection::CorElementType const ELEMENT_TYPE_R8;
 
 /// @brief Field ELEMENT_TYPE_STRING offset 0
-static ::System::Reflection::CorElementType const ELEMENT_TYPE_STRING;
+static System::Reflection::CorElementType const ELEMENT_TYPE_STRING;
 
 /// @brief Field ELEMENT_TYPE_PTR offset 0
-static ::System::Reflection::CorElementType const ELEMENT_TYPE_PTR;
+static System::Reflection::CorElementType const ELEMENT_TYPE_PTR;
 
 /// @brief Field ELEMENT_TYPE_BYREF offset 0
-static ::System::Reflection::CorElementType const ELEMENT_TYPE_BYREF;
+static System::Reflection::CorElementType const ELEMENT_TYPE_BYREF;
 
 /// @brief Field ELEMENT_TYPE_VALUETYPE offset 0
-static ::System::Reflection::CorElementType const ELEMENT_TYPE_VALUETYPE;
+static System::Reflection::CorElementType const ELEMENT_TYPE_VALUETYPE;
 
 /// @brief Field ELEMENT_TYPE_CLASS offset 0
-static ::System::Reflection::CorElementType const ELEMENT_TYPE_CLASS;
+static System::Reflection::CorElementType const ELEMENT_TYPE_CLASS;
 
 /// @brief Field ELEMENT_TYPE_VAR offset 0
-static ::System::Reflection::CorElementType const ELEMENT_TYPE_VAR;
+static System::Reflection::CorElementType const ELEMENT_TYPE_VAR;
 
 /// @brief Field ELEMENT_TYPE_ARRAY offset 0
-static ::System::Reflection::CorElementType const ELEMENT_TYPE_ARRAY;
+static System::Reflection::CorElementType const ELEMENT_TYPE_ARRAY;
 
 /// @brief Field ELEMENT_TYPE_GENERICINST offset 0
-static ::System::Reflection::CorElementType const ELEMENT_TYPE_GENERICINST;
+static System::Reflection::CorElementType const ELEMENT_TYPE_GENERICINST;
 
 /// @brief Field ELEMENT_TYPE_TYPEDBYREF offset 0
-static ::System::Reflection::CorElementType const ELEMENT_TYPE_TYPEDBYREF;
+static System::Reflection::CorElementType const ELEMENT_TYPE_TYPEDBYREF;
 
 /// @brief Field ELEMENT_TYPE_I offset 0
-static ::System::Reflection::CorElementType const ELEMENT_TYPE_I;
+static System::Reflection::CorElementType const ELEMENT_TYPE_I;
 
 /// @brief Field ELEMENT_TYPE_U offset 0
-static ::System::Reflection::CorElementType const ELEMENT_TYPE_U;
+static System::Reflection::CorElementType const ELEMENT_TYPE_U;
 
 /// @brief Field ELEMENT_TYPE_FNPTR offset 0
-static ::System::Reflection::CorElementType const ELEMENT_TYPE_FNPTR;
+static System::Reflection::CorElementType const ELEMENT_TYPE_FNPTR;
 
 /// @brief Field ELEMENT_TYPE_OBJECT offset 0
-static ::System::Reflection::CorElementType const ELEMENT_TYPE_OBJECT;
+static System::Reflection::CorElementType const ELEMENT_TYPE_OBJECT;
 
 /// @brief Field ELEMENT_TYPE_SZARRAY offset 0
-static ::System::Reflection::CorElementType const ELEMENT_TYPE_SZARRAY;
+static System::Reflection::CorElementType const ELEMENT_TYPE_SZARRAY;
 
 /// @brief Field ELEMENT_TYPE_MVAR offset 0
-static ::System::Reflection::CorElementType const ELEMENT_TYPE_MVAR;
+static System::Reflection::CorElementType const ELEMENT_TYPE_MVAR;
 
 /// @brief Field ELEMENT_TYPE_CMOD_REQD offset 0
-static ::System::Reflection::CorElementType const ELEMENT_TYPE_CMOD_REQD;
+static System::Reflection::CorElementType const ELEMENT_TYPE_CMOD_REQD;
 
 /// @brief Field ELEMENT_TYPE_CMOD_OPT offset 0
-static ::System::Reflection::CorElementType const ELEMENT_TYPE_CMOD_OPT;
+static System::Reflection::CorElementType const ELEMENT_TYPE_CMOD_OPT;
 
 /// @brief Field ELEMENT_TYPE_INTERNAL offset 0
-static ::System::Reflection::CorElementType const ELEMENT_TYPE_INTERNAL;
+static System::Reflection::CorElementType const ELEMENT_TYPE_INTERNAL;
 
 /// @brief Field ELEMENT_TYPE_MAX offset 0
-static ::System::Reflection::CorElementType const ELEMENT_TYPE_MAX;
+static System::Reflection::CorElementType const ELEMENT_TYPE_MAX;
 
 /// @brief Field ELEMENT_TYPE_MODIFIER offset 0
-static ::System::Reflection::CorElementType const ELEMENT_TYPE_MODIFIER;
+static System::Reflection::CorElementType const ELEMENT_TYPE_MODIFIER;
 
 /// @brief Field ELEMENT_TYPE_SENTINEL offset 0
-static ::System::Reflection::CorElementType const ELEMENT_TYPE_SENTINEL;
+static System::Reflection::CorElementType const ELEMENT_TYPE_SENTINEL;
 
 /// @brief Field ELEMENT_TYPE_PINNED offset 0
-static ::System::Reflection::CorElementType const ELEMENT_TYPE_PINNED;
+static System::Reflection::CorElementType const ELEMENT_TYPE_PINNED;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Reflection
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::CorElementType, "System.Reflection", "CorElementType");
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CorElementType, "System.Reflection", "CorElementType");

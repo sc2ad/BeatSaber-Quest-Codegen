@@ -3,19 +3,18 @@
 #include "GlobalNamespace/zzzz__RemoteProcedureCall_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
 namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
 namespace GlobalNamespace {
-class IRemoteProcedureCall;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
+template<typename T>
+class GlobalNamespace__RemoteProcedureCall__TypeWrapper_1;
 }
 namespace GlobalNamespace {
-template<typename T>
-class ____GlobalNamespace__RemoteProcedureCall__TypeWrapper_1;
+class IRemoteProcedureCall;
 }
 namespace GlobalNamespace {
 struct SongPackMask;
@@ -34,11 +33,11 @@ class RemoteProcedureCall_1<T0>;
 }
 namespace GlobalNamespace {
 template<>
-class RemoteProcedureCall_1<::GlobalNamespace::SongPackMask>;
+class RemoteProcedureCall_1<GlobalNamespace::SongPackMask>;
 }
 namespace GlobalNamespace {
 template<>
-class RemoteProcedureCall_1<::System::Int32Enum>;
+class RemoteProcedureCall_1<System::Int32Enum>;
 }
 namespace GlobalNamespace {
 template<>
@@ -57,7 +56,7 @@ template<::cordl_internals::il2cpp_reference_type T0>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12875)), TypeDefinitionIndex(TypeDefinitionIndex(12876))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12876), inst: 2 })
 // CS Name: RemoteProcedureCall`1
-class CORDL_TYPE RemoteProcedureCall_1<T0> : public ::GlobalNamespace::RemoteProcedureCall {
+class CORDL_TYPE RemoteProcedureCall_1<T0> : public GlobalNamespace::RemoteProcedureCall {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -72,7 +71,7 @@ constexpr RemoteProcedureCall_1(RemoteProcedureCall_1 const& ) noexcept = defaul
 constexpr RemoteProcedureCall_1(RemoteProcedureCall_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RemoteProcedureCall_1(void* ptr) noexcept : ::GlobalNamespace::RemoteProcedureCall(ptr) {
+constexpr explicit RemoteProcedureCall_1(void* ptr) noexcept : GlobalNamespace::RemoteProcedureCall(ptr) {
 }
 
 
@@ -93,11 +92,11 @@ constexpr explicit RemoteProcedureCall_1(void* ptr) noexcept : ::GlobalNamespace
 
 // Fields
 
- ::GlobalNamespace::____GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T0> __declspec(property(get=__get__value0, put=__set__value0))  _value0;
+ GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T0> __declspec(property(get=__get__value0, put=__set__value0))  _value0;
 
-constexpr void __set__value0(::GlobalNamespace::____GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T0> value) ;
+constexpr void __set__value0(GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T0> value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T0> __get__value0() const;
+constexpr GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T0> __get__value0() const;
 
 
 // Properties
@@ -111,13 +110,13 @@ constexpr ::GlobalNamespace::____GlobalNamespace__RemoteProcedureCall__TypeWrapp
  T0 get_value0() ;
 
 /// @brief Method SerializeData addr 0x0 size 0xffffffffffffffff virtual true final false
- void SerializeData(::LiteNetLib::Utils::NetDataWriter writer, uint32_t protocolVersion) ;
+ void SerializeData(LiteNetLib::Utils::NetDataWriter writer, uint32_t protocolVersion) ;
 
 /// @brief Method DeserializeData addr 0x0 size 0xffffffffffffffff virtual true final false
- void DeserializeData(::LiteNetLib::Utils::NetDataReader reader, uint32_t protocolVersion) ;
+ void DeserializeData(LiteNetLib::Utils::NetDataReader reader, uint32_t protocolVersion) ;
 
 /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual false final false
- ::GlobalNamespace::IRemoteProcedureCall Init(float_t syncTime, T0 value0) ;
+ GlobalNamespace::IRemoteProcedureCall Init(float_t syncTime, T0 value0) ;
 
 /// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual true final false
  void Release() ;
@@ -137,10 +136,10 @@ namespace GlobalNamespace {
 // cpp template
 template<>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12876)), TypeDefinitionIndex(TypeDefinitionIndex(12875))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12875)), TypeDefinitionIndex(TypeDefinitionIndex(12876))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12876), inst: 99 })
 // CS Name: RemoteProcedureCall`1
-class CORDL_TYPE RemoteProcedureCall_1<bool> : public ::GlobalNamespace::RemoteProcedureCall {
+class CORDL_TYPE RemoteProcedureCall_1<bool> : public GlobalNamespace::RemoteProcedureCall {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -155,7 +154,7 @@ constexpr RemoteProcedureCall_1(RemoteProcedureCall_1 const& ) noexcept = defaul
 constexpr RemoteProcedureCall_1(RemoteProcedureCall_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RemoteProcedureCall_1(void* ptr) noexcept : ::GlobalNamespace::RemoteProcedureCall(ptr) {
+constexpr explicit RemoteProcedureCall_1(void* ptr) noexcept : GlobalNamespace::RemoteProcedureCall(ptr) {
 }
 
 
@@ -176,11 +175,11 @@ constexpr explicit RemoteProcedureCall_1(void* ptr) noexcept : ::GlobalNamespace
 
 // Fields
 
- ::GlobalNamespace::____GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<bool> __declspec(property(get=__get__value0, put=__set__value0))  _value0;
+ GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<bool> __declspec(property(get=__get__value0, put=__set__value0))  _value0;
 
-constexpr void __set__value0(::GlobalNamespace::____GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<bool> value) ;
+constexpr void __set__value0(GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<bool> value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<bool> __get__value0() const;
+constexpr GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<bool> __get__value0() const;
 
 
 // Properties
@@ -194,13 +193,13 @@ constexpr ::GlobalNamespace::____GlobalNamespace__RemoteProcedureCall__TypeWrapp
  bool get_value0() ;
 
 /// @brief Method SerializeData addr 0x0 size 0xffffffffffffffff virtual true final false
- void SerializeData(::LiteNetLib::Utils::NetDataWriter writer, uint32_t protocolVersion) ;
+ void SerializeData(LiteNetLib::Utils::NetDataWriter writer, uint32_t protocolVersion) ;
 
 /// @brief Method DeserializeData addr 0x0 size 0xffffffffffffffff virtual true final false
- void DeserializeData(::LiteNetLib::Utils::NetDataReader reader, uint32_t protocolVersion) ;
+ void DeserializeData(LiteNetLib::Utils::NetDataReader reader, uint32_t protocolVersion) ;
 
 /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual false final false
- ::GlobalNamespace::IRemoteProcedureCall Init(float_t syncTime, bool value0) ;
+ GlobalNamespace::IRemoteProcedureCall Init(float_t syncTime, bool value0) ;
 
 /// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual true final false
  void Release() ;
@@ -223,7 +222,7 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12875)), TypeDefinitionIndex(TypeDefinitionIndex(12876))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12876), inst: 374 })
 // CS Name: RemoteProcedureCall`1
-class CORDL_TYPE RemoteProcedureCall_1<float_t> : public ::GlobalNamespace::RemoteProcedureCall {
+class CORDL_TYPE RemoteProcedureCall_1<float_t> : public GlobalNamespace::RemoteProcedureCall {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -238,7 +237,7 @@ constexpr RemoteProcedureCall_1(RemoteProcedureCall_1 const& ) noexcept = defaul
 constexpr RemoteProcedureCall_1(RemoteProcedureCall_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RemoteProcedureCall_1(void* ptr) noexcept : ::GlobalNamespace::RemoteProcedureCall(ptr) {
+constexpr explicit RemoteProcedureCall_1(void* ptr) noexcept : GlobalNamespace::RemoteProcedureCall(ptr) {
 }
 
 
@@ -259,11 +258,11 @@ constexpr explicit RemoteProcedureCall_1(void* ptr) noexcept : ::GlobalNamespace
 
 // Fields
 
- ::GlobalNamespace::____GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<float_t> __declspec(property(get=__get__value0, put=__set__value0))  _value0;
+ GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<float_t> __declspec(property(get=__get__value0, put=__set__value0))  _value0;
 
-constexpr void __set__value0(::GlobalNamespace::____GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<float_t> value) ;
+constexpr void __set__value0(GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<float_t> value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<float_t> __get__value0() const;
+constexpr GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<float_t> __get__value0() const;
 
 
 // Properties
@@ -277,13 +276,13 @@ constexpr ::GlobalNamespace::____GlobalNamespace__RemoteProcedureCall__TypeWrapp
  float_t get_value0() ;
 
 /// @brief Method SerializeData addr 0x0 size 0xffffffffffffffff virtual true final false
- void SerializeData(::LiteNetLib::Utils::NetDataWriter writer, uint32_t protocolVersion) ;
+ void SerializeData(LiteNetLib::Utils::NetDataWriter writer, uint32_t protocolVersion) ;
 
 /// @brief Method DeserializeData addr 0x0 size 0xffffffffffffffff virtual true final false
- void DeserializeData(::LiteNetLib::Utils::NetDataReader reader, uint32_t protocolVersion) ;
+ void DeserializeData(LiteNetLib::Utils::NetDataReader reader, uint32_t protocolVersion) ;
 
 /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual false final false
- ::GlobalNamespace::IRemoteProcedureCall Init(float_t syncTime, float_t value0) ;
+ GlobalNamespace::IRemoteProcedureCall Init(float_t syncTime, float_t value0) ;
 
 /// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual true final false
  void Release() ;
@@ -303,10 +302,10 @@ namespace GlobalNamespace {
 // cpp template
 template<>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12875)), TypeDefinitionIndex(TypeDefinitionIndex(12876))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12876)), TypeDefinitionIndex(TypeDefinitionIndex(12875))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12876), inst: 3232 })
 // CS Name: RemoteProcedureCall`1
-class CORDL_TYPE RemoteProcedureCall_1<::GlobalNamespace::SongPackMask> : public ::GlobalNamespace::RemoteProcedureCall {
+class CORDL_TYPE RemoteProcedureCall_1<GlobalNamespace::SongPackMask> : public GlobalNamespace::RemoteProcedureCall {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -321,7 +320,7 @@ constexpr RemoteProcedureCall_1(RemoteProcedureCall_1 const& ) noexcept = defaul
 constexpr RemoteProcedureCall_1(RemoteProcedureCall_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RemoteProcedureCall_1(void* ptr) noexcept : ::GlobalNamespace::RemoteProcedureCall(ptr) {
+constexpr explicit RemoteProcedureCall_1(void* ptr) noexcept : GlobalNamespace::RemoteProcedureCall(ptr) {
 }
 
 
@@ -342,31 +341,31 @@ constexpr explicit RemoteProcedureCall_1(void* ptr) noexcept : ::GlobalNamespace
 
 // Fields
 
- ::GlobalNamespace::____GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<::GlobalNamespace::SongPackMask> __declspec(property(get=__get__value0, put=__set__value0))  _value0;
+ GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<GlobalNamespace::SongPackMask> __declspec(property(get=__get__value0, put=__set__value0))  _value0;
 
-constexpr void __set__value0(::GlobalNamespace::____GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<::GlobalNamespace::SongPackMask> value) ;
+constexpr void __set__value0(GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<GlobalNamespace::SongPackMask> value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<::GlobalNamespace::SongPackMask> __get__value0() const;
+constexpr GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<GlobalNamespace::SongPackMask> __get__value0() const;
 
 
 // Properties
 
- ::GlobalNamespace::SongPackMask __declspec(property(get=get_value0))  value0;
+ GlobalNamespace::SongPackMask __declspec(property(get=get_value0))  value0;
 
 
 // Methods
 
 /// @brief Method get_value0 addr 0x0 size 0xffffffffffffffff virtual false final false
- ::GlobalNamespace::SongPackMask get_value0() ;
+ GlobalNamespace::SongPackMask get_value0() ;
 
 /// @brief Method SerializeData addr 0x0 size 0xffffffffffffffff virtual true final false
- void SerializeData(::LiteNetLib::Utils::NetDataWriter writer, uint32_t protocolVersion) ;
+ void SerializeData(LiteNetLib::Utils::NetDataWriter writer, uint32_t protocolVersion) ;
 
 /// @brief Method DeserializeData addr 0x0 size 0xffffffffffffffff virtual true final false
- void DeserializeData(::LiteNetLib::Utils::NetDataReader reader, uint32_t protocolVersion) ;
+ void DeserializeData(LiteNetLib::Utils::NetDataReader reader, uint32_t protocolVersion) ;
 
 /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual false final false
- ::GlobalNamespace::IRemoteProcedureCall Init(float_t syncTime, ::GlobalNamespace::SongPackMask value0) ;
+ GlobalNamespace::IRemoteProcedureCall Init(float_t syncTime, GlobalNamespace::SongPackMask value0) ;
 
 /// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual true final false
  void Release() ;
@@ -389,7 +388,7 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12876)), TypeDefinitionIndex(TypeDefinitionIndex(12875))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12876), inst: 4825 })
 // CS Name: RemoteProcedureCall`1
-class CORDL_TYPE RemoteProcedureCall_1<::System::Int32Enum> : public ::GlobalNamespace::RemoteProcedureCall {
+class CORDL_TYPE RemoteProcedureCall_1<System::Int32Enum> : public GlobalNamespace::RemoteProcedureCall {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -404,7 +403,7 @@ constexpr RemoteProcedureCall_1(RemoteProcedureCall_1 const& ) noexcept = defaul
 constexpr RemoteProcedureCall_1(RemoteProcedureCall_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RemoteProcedureCall_1(void* ptr) noexcept : ::GlobalNamespace::RemoteProcedureCall(ptr) {
+constexpr explicit RemoteProcedureCall_1(void* ptr) noexcept : GlobalNamespace::RemoteProcedureCall(ptr) {
 }
 
 
@@ -425,31 +424,31 @@ constexpr explicit RemoteProcedureCall_1(void* ptr) noexcept : ::GlobalNamespace
 
 // Fields
 
- ::GlobalNamespace::____GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<::System::Int32Enum> __declspec(property(get=__get__value0, put=__set__value0))  _value0;
+ GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<System::Int32Enum> __declspec(property(get=__get__value0, put=__set__value0))  _value0;
 
-constexpr void __set__value0(::GlobalNamespace::____GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<::System::Int32Enum> value) ;
+constexpr void __set__value0(GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<System::Int32Enum> value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<::System::Int32Enum> __get__value0() const;
+constexpr GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<System::Int32Enum> __get__value0() const;
 
 
 // Properties
 
- ::System::Int32Enum __declspec(property(get=get_value0))  value0;
+ System::Int32Enum __declspec(property(get=get_value0))  value0;
 
 
 // Methods
 
 /// @brief Method get_value0 addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Int32Enum get_value0() ;
+ System::Int32Enum get_value0() ;
 
 /// @brief Method SerializeData addr 0x0 size 0xffffffffffffffff virtual true final false
- void SerializeData(::LiteNetLib::Utils::NetDataWriter writer, uint32_t protocolVersion) ;
+ void SerializeData(LiteNetLib::Utils::NetDataWriter writer, uint32_t protocolVersion) ;
 
 /// @brief Method DeserializeData addr 0x0 size 0xffffffffffffffff virtual true final false
- void DeserializeData(::LiteNetLib::Utils::NetDataReader reader, uint32_t protocolVersion) ;
+ void DeserializeData(LiteNetLib::Utils::NetDataReader reader, uint32_t protocolVersion) ;
 
 /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual false final false
- ::GlobalNamespace::IRemoteProcedureCall Init(float_t syncTime, ::System::Int32Enum value0) ;
+ GlobalNamespace::IRemoteProcedureCall Init(float_t syncTime, System::Int32Enum value0) ;
 
 /// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual true final false
  void Release() ;
@@ -464,5 +463,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::RemoteProcedureCall_1, "", "RemoteProcedureCall`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::RemoteProcedureCall_1, "", "RemoteProcedureCall`1");

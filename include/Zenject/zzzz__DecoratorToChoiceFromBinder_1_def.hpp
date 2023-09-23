@@ -1,19 +1,18 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Zenject {
 class BindInfo;
-}
-namespace Zenject {
-template<typename TParam1,typename TContract>
-class FactoryFromBinder_2;
 }
 namespace Zenject {
 class FactoryBindInfo;
 }
 namespace Zenject {
 class DiContainer;
+}
+namespace Zenject {
+template<typename TParam1,typename TContract>
+class FactoryFromBinder_2;
 }
 // Forward declare root types
 namespace Zenject {
@@ -69,40 +68,39 @@ constexpr explicit DecoratorToChoiceFromBinder_1(void* ptr) noexcept : ::bs_hook
 
 // Fields
 
- ::Zenject::DiContainer __declspec(property(get=__get__bindContainer, put=__set__bindContainer))  _bindContainer;
+ Zenject::DiContainer __declspec(property(get=__get__bindContainer, put=__set__bindContainer))  _bindContainer;
 
-constexpr void __set__bindContainer(::Zenject::DiContainer value) ;
+constexpr void __set__bindContainer(Zenject::DiContainer value) ;
 
-constexpr ::Zenject::DiContainer __get__bindContainer() const;
+constexpr Zenject::DiContainer __get__bindContainer() const;
 
- ::Zenject::BindInfo __declspec(property(get=__get__bindInfo, put=__set__bindInfo))  _bindInfo;
+ Zenject::BindInfo __declspec(property(get=__get__bindInfo, put=__set__bindInfo))  _bindInfo;
 
-constexpr void __set__bindInfo(::Zenject::BindInfo value) ;
+constexpr void __set__bindInfo(Zenject::BindInfo value) ;
 
-constexpr ::Zenject::BindInfo __get__bindInfo() const;
+constexpr Zenject::BindInfo __get__bindInfo() const;
 
- ::Zenject::FactoryBindInfo __declspec(property(get=__get__factoryBindInfo, put=__set__factoryBindInfo))  _factoryBindInfo;
+ Zenject::FactoryBindInfo __declspec(property(get=__get__factoryBindInfo, put=__set__factoryBindInfo))  _factoryBindInfo;
 
-constexpr void __set__factoryBindInfo(::Zenject::FactoryBindInfo value) ;
+constexpr void __set__factoryBindInfo(Zenject::FactoryBindInfo value) ;
 
-constexpr ::Zenject::FactoryBindInfo __get__factoryBindInfo() const;
+constexpr Zenject::FactoryBindInfo __get__factoryBindInfo() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindContainer", ty: "::Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "::Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "factoryBindInfo", ty: "::Zenject::FactoryBindInfo", modifiers: "", def_value: None }]
-explicit DecoratorToChoiceFromBinder_1(::Zenject::DiContainer bindContainer, ::Zenject::BindInfo bindInfo, ::Zenject::FactoryBindInfo factoryBindInfo) ;
+// Ctor Parameters [CppParam { name: "bindContainer", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "factoryBindInfo", ty: "Zenject::FactoryBindInfo", modifiers: "", def_value: None }]
+explicit DecoratorToChoiceFromBinder_1(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::Zenject::DiContainer bindContainer, ::Zenject::BindInfo bindInfo, ::Zenject::FactoryBindInfo factoryBindInfo) ;
+ void _ctor(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;
 
 /// @brief Method With addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TConcrete>
- ::Zenject::FactoryFromBinder_2<TContract,TConcrete> With() ;
+ Zenject::FactoryFromBinder_2<TContract,TConcrete> With() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::DecoratorToChoiceFromBinder_1, "Zenject", "DecoratorToChoiceFromBinder`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::DecoratorToChoiceFromBinder_1, "Zenject", "DecoratorToChoiceFromBinder`1");

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class IDerivationParameters;
 }
@@ -20,8 +19,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
 class CORDL_TYPE HkdfParameters : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IDerivationParameters
-constexpr operator  ::Org::BouncyCastle::Crypto::IDerivationParameters() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IDerivationParameters
+constexpr operator  Org::BouncyCastle::Crypto::IDerivationParameters() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -101,10 +100,10 @@ explicit HkdfParameters(::ArrayW<uint8_t> ikm, ::ArrayW<uint8_t> salt, ::ArrayW<
  void _ctor(::ArrayW<uint8_t> ikm, ::ArrayW<uint8_t> salt, ::ArrayW<uint8_t> info) ;
 
 /// @brief Method SkipExtractParameters addr 0xea9948 size 0x78 virtual false final false
-static ::Org::BouncyCastle::Crypto::Parameters::HkdfParameters SkipExtractParameters(::ArrayW<uint8_t> ikm, ::ArrayW<uint8_t> info) ;
+static Org::BouncyCastle::Crypto::Parameters::HkdfParameters SkipExtractParameters(::ArrayW<uint8_t> ikm, ::ArrayW<uint8_t> info) ;
 
 /// @brief Method DefaultParameters addr 0xea99c0 size 0x6c virtual false final false
-static ::Org::BouncyCastle::Crypto::Parameters::HkdfParameters DefaultParameters(::ArrayW<uint8_t> ikm) ;
+static Org::BouncyCastle::Crypto::Parameters::HkdfParameters DefaultParameters(::ArrayW<uint8_t> ikm) ;
 
 /// @brief Method GetIkm addr 0xea9a2c size 0x5c virtual true final false
  ::ArrayW<uint8_t> GetIkm() ;
@@ -122,6 +121,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Parameters
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::HkdfParameters);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Parameters::HkdfParameters, "Org.BouncyCastle.Crypto.Parameters", "HkdfParameters");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::HkdfParameters);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::HkdfParameters, "Org.BouncyCastle.Crypto.Parameters", "HkdfParameters");

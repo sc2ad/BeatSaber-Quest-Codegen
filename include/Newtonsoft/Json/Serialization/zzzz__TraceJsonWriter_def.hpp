@@ -6,37 +6,36 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace System {
-struct Guid;
+struct Decimal;
+}
+namespace System {
+struct DateTimeOffset;
 }
 namespace System {
 class Uri;
+}
+namespace System {
+struct TimeSpan;
+}
+namespace Newtonsoft::Json {
+class JsonTextWriter;
+}
+namespace System {
+struct Guid;
 }
 namespace System {
 template<typename T>
 struct Nullable_1;
 }
 namespace Newtonsoft::Json {
-class JsonTextWriter;
-}
-namespace System {
-struct DateTimeOffset;
-}
-namespace System {
-struct DateTime;
+class JsonWriter;
 }
 namespace System::IO {
 class StringWriter;
 }
 namespace System {
-struct Decimal;
-}
-namespace System {
-struct TimeSpan;
-}
-namespace Newtonsoft::Json {
-class JsonWriter;
+struct DateTime;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -48,7 +47,7 @@ namespace Newtonsoft::Json::Serialization {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11785))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11853))
 // CS Name: Newtonsoft.Json.Serialization.TraceJsonWriter
-class CORDL_TYPE TraceJsonWriter : public ::Newtonsoft::Json::JsonWriter {
+class CORDL_TYPE TraceJsonWriter : public Newtonsoft::Json::JsonWriter {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -63,7 +62,7 @@ constexpr TraceJsonWriter(TraceJsonWriter const& ) noexcept = default;
 constexpr TraceJsonWriter(TraceJsonWriter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TraceJsonWriter(void* ptr) noexcept : ::Newtonsoft::Json::JsonWriter(ptr) {
+constexpr explicit TraceJsonWriter(void* ptr) noexcept : Newtonsoft::Json::JsonWriter(ptr) {
 }
 
 
@@ -84,38 +83,38 @@ constexpr explicit TraceJsonWriter(void* ptr) noexcept : ::Newtonsoft::Json::Jso
 
 // Fields
 
- ::Newtonsoft::Json::JsonWriter __declspec(property(get=__get__innerWriter, put=__set__innerWriter))  _innerWriter;
+ Newtonsoft::Json::JsonWriter __declspec(property(get=__get__innerWriter, put=__set__innerWriter))  _innerWriter;
 
-constexpr void __set__innerWriter(::Newtonsoft::Json::JsonWriter value) ;
+constexpr void __set__innerWriter(Newtonsoft::Json::JsonWriter value) ;
 
-constexpr ::Newtonsoft::Json::JsonWriter __get__innerWriter() const;
+constexpr Newtonsoft::Json::JsonWriter __get__innerWriter() const;
 
- ::Newtonsoft::Json::JsonTextWriter __declspec(property(get=__get__textWriter, put=__set__textWriter))  _textWriter;
+ Newtonsoft::Json::JsonTextWriter __declspec(property(get=__get__textWriter, put=__set__textWriter))  _textWriter;
 
-constexpr void __set__textWriter(::Newtonsoft::Json::JsonTextWriter value) ;
+constexpr void __set__textWriter(Newtonsoft::Json::JsonTextWriter value) ;
 
-constexpr ::Newtonsoft::Json::JsonTextWriter __get__textWriter() const;
+constexpr Newtonsoft::Json::JsonTextWriter __get__textWriter() const;
 
- ::System::IO::StringWriter __declspec(property(get=__get__sw, put=__set__sw))  _sw;
+ System::IO::StringWriter __declspec(property(get=__get__sw, put=__set__sw))  _sw;
 
-constexpr void __set__sw(::System::IO::StringWriter value) ;
+constexpr void __set__sw(System::IO::StringWriter value) ;
 
-constexpr ::System::IO::StringWriter __get__sw() const;
+constexpr System::IO::StringWriter __get__sw() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "innerWriter", ty: "::Newtonsoft::Json::JsonWriter", modifiers: "", def_value: None }]
-explicit TraceJsonWriter(::Newtonsoft::Json::JsonWriter innerWriter) ;
+// Ctor Parameters [CppParam { name: "innerWriter", ty: "Newtonsoft::Json::JsonWriter", modifiers: "", def_value: None }]
+explicit TraceJsonWriter(Newtonsoft::Json::JsonWriter innerWriter) ;
 
 /// @brief Method .ctor addr 0x24f37d0 size 0x1c0 virtual false final false
- void _ctor(::Newtonsoft::Json::JsonWriter innerWriter) ;
+ void _ctor(Newtonsoft::Json::JsonWriter innerWriter) ;
 
 /// @brief Method GetSerializedJsonMessage addr 0x24f3990 size 0x20 virtual false final false
  ::StringW GetSerializedJsonMessage() ;
 
 /// @brief Method WriteValue addr 0x24f39b0 size 0x78 virtual true final false
- void WriteValue(::System::Decimal value) ;
+ void WriteValue(System::Decimal value) ;
 
 /// @brief Method WriteValue addr 0x24f3a28 size 0x74 virtual true final false
  void WriteValue(bool value) ;
@@ -124,7 +123,7 @@ explicit TraceJsonWriter(::Newtonsoft::Json::JsonWriter innerWriter) ;
  void WriteValue(uint8_t value) ;
 
 /// @brief Method WriteValue addr 0x24f3b0c size 0x60 virtual true final false
- void WriteValue(::System::Nullable_1<uint8_t> value) ;
+ void WriteValue(System::Nullable_1<uint8_t> value) ;
 
 /// @brief Method WriteValue addr 0x24f3b6c size 0x70 virtual true final false
  void WriteValue(char16_t value) ;
@@ -133,10 +132,10 @@ explicit TraceJsonWriter(::Newtonsoft::Json::JsonWriter innerWriter) ;
  void WriteValue(::ArrayW<uint8_t> value) ;
 
 /// @brief Method WriteValue addr 0x24f3c38 size 0x70 virtual true final false
- void WriteValue(::System::DateTime value) ;
+ void WriteValue(System::DateTime value) ;
 
 /// @brief Method WriteValue addr 0x24f3ca8 size 0x78 virtual true final false
- void WriteValue(::System::DateTimeOffset value) ;
+ void WriteValue(System::DateTimeOffset value) ;
 
 /// @brief Method WriteValue addr 0x24f3d20 size 0x70 virtual true final false
  void WriteValue(double_t value) ;
@@ -151,7 +150,7 @@ explicit TraceJsonWriter(::Newtonsoft::Json::JsonWriter innerWriter) ;
  void WriteValue(float_t value) ;
 
 /// @brief Method WriteValue addr 0x24f3ec0 size 0x78 virtual true final false
- void WriteValue(::System::Guid value) ;
+ void WriteValue(System::Guid value) ;
 
 /// @brief Method WriteValue addr 0x24f3f38 size 0x70 virtual true final false
  void WriteValue(int32_t value) ;
@@ -172,7 +171,7 @@ explicit TraceJsonWriter(::Newtonsoft::Json::JsonWriter innerWriter) ;
  void WriteValue(::StringW value) ;
 
 /// @brief Method WriteValue addr 0x24f41c4 size 0x70 virtual true final false
- void WriteValue(::System::TimeSpan value) ;
+ void WriteValue(System::TimeSpan value) ;
 
 /// @brief Method WriteValue addr 0x24f4234 size 0x70 virtual true final false
  void WriteValue(uint32_t value) ;
@@ -181,7 +180,7 @@ explicit TraceJsonWriter(::Newtonsoft::Json::JsonWriter innerWriter) ;
  void WriteValue(uint64_t value) ;
 
 /// @brief Method WriteValue addr 0x24f4314 size 0x5c virtual true final false
- void WriteValue(::System::Uri value) ;
+ void WriteValue(System::Uri value) ;
 
 /// @brief Method WriteValue addr 0x24f4370 size 0x70 virtual true final false
  void WriteValue(uint16_t value) ;
@@ -232,6 +231,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Serialization
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Serialization::TraceJsonWriter);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::TraceJsonWriter, "Newtonsoft.Json.Serialization", "TraceJsonWriter");
+NEED_NO_BOX(Newtonsoft::Json::Serialization::TraceJsonWriter);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Serialization::TraceJsonWriter, "Newtonsoft.Json.Serialization", "TraceJsonWriter");

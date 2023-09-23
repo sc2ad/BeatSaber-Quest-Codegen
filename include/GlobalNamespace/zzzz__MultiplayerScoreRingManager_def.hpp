@@ -5,50 +5,49 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
-class MultiplayerController;
+struct GlobalNamespace__MultiplayerController__State;
 }
 namespace GlobalNamespace {
-class BeatmapObjectSpawnCenter;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-class MultiplayerScoreProvider;
+class GlobalNamespace__MultiplayerScoreRingItem__Pool;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
+namespace GlobalNamespace {
+class MultiplayerScoreRingItem;
+}
 namespace UnityEngine {
 struct Color;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
+}
+namespace GlobalNamespace {
+class MultiplayerLayoutProvider;
+}
+namespace GlobalNamespace {
+class MultiplayerScoreProvider;
+}
+namespace GlobalNamespace {
+class BeatmapObjectSpawnCenter;
+}
+namespace GlobalNamespace {
+struct EaseType;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__MultiplayerScoreRingItem__Pool;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace GlobalNamespace {
-class MultiplayerLayoutProvider;
-}
-namespace GlobalNamespace {
-class MultiplayerScoreRingItem;
-}
-namespace GlobalNamespace {
-struct EaseType;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__MultiplayerController__State;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
+class MultiplayerController;
 }
 namespace GlobalNamespace {
 class MultiplayerPlayersManager;
@@ -63,7 +62,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5344))
 // CS Name: MultiplayerScoreRingManager
-class CORDL_TYPE MultiplayerScoreRingManager : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerScoreRingManager : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -78,7 +77,7 @@ constexpr MultiplayerScoreRingManager(MultiplayerScoreRingManager const& ) noexc
 constexpr MultiplayerScoreRingManager(MultiplayerScoreRingManager&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerScoreRingManager(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerScoreRingManager(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -111,59 +110,59 @@ constexpr void __set__centerDistanceOffset(float_t value) ;
 
 constexpr float_t __get__centerDistanceOffset() const;
 
- ::GlobalNamespace::MultiplayerController __declspec(property(get=__get__multiplayerController, put=__set__multiplayerController))  _multiplayerController;
+ GlobalNamespace::MultiplayerController __declspec(property(get=__get__multiplayerController, put=__set__multiplayerController))  _multiplayerController;
 
-constexpr void __set__multiplayerController(::GlobalNamespace::MultiplayerController value) ;
+constexpr void __set__multiplayerController(GlobalNamespace::MultiplayerController value) ;
 
-constexpr ::GlobalNamespace::MultiplayerController __get__multiplayerController() const;
+constexpr GlobalNamespace::MultiplayerController __get__multiplayerController() const;
 
- ::GlobalNamespace::MultiplayerPlayersManager __declspec(property(get=__get__multiplayerPlayersManager, put=__set__multiplayerPlayersManager))  _multiplayerPlayersManager;
+ GlobalNamespace::MultiplayerPlayersManager __declspec(property(get=__get__multiplayerPlayersManager, put=__set__multiplayerPlayersManager))  _multiplayerPlayersManager;
 
-constexpr void __set__multiplayerPlayersManager(::GlobalNamespace::MultiplayerPlayersManager value) ;
+constexpr void __set__multiplayerPlayersManager(GlobalNamespace::MultiplayerPlayersManager value) ;
 
-constexpr ::GlobalNamespace::MultiplayerPlayersManager __get__multiplayerPlayersManager() const;
+constexpr GlobalNamespace::MultiplayerPlayersManager __get__multiplayerPlayersManager() const;
 
- ::GlobalNamespace::IMultiplayerSessionManager __declspec(property(get=__get__multiplayerSessionManager, put=__set__multiplayerSessionManager))  _multiplayerSessionManager;
+ GlobalNamespace::IMultiplayerSessionManager __declspec(property(get=__get__multiplayerSessionManager, put=__set__multiplayerSessionManager))  _multiplayerSessionManager;
 
-constexpr void __set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager value) ;
+constexpr void __set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager value) ;
 
-constexpr ::GlobalNamespace::IMultiplayerSessionManager __get__multiplayerSessionManager() const;
+constexpr GlobalNamespace::IMultiplayerSessionManager __get__multiplayerSessionManager() const;
 
- ::GlobalNamespace::BeatmapObjectSpawnCenter __declspec(property(get=__get__spawnCenter, put=__set__spawnCenter))  _spawnCenter;
+ GlobalNamespace::BeatmapObjectSpawnCenter __declspec(property(get=__get__spawnCenter, put=__set__spawnCenter))  _spawnCenter;
 
-constexpr void __set__spawnCenter(::GlobalNamespace::BeatmapObjectSpawnCenter value) ;
+constexpr void __set__spawnCenter(GlobalNamespace::BeatmapObjectSpawnCenter value) ;
 
-constexpr ::GlobalNamespace::BeatmapObjectSpawnCenter __get__spawnCenter() const;
+constexpr GlobalNamespace::BeatmapObjectSpawnCenter __get__spawnCenter() const;
 
- ::GlobalNamespace::MultiplayerLayoutProvider __declspec(property(get=__get__layoutProvider, put=__set__layoutProvider))  _layoutProvider;
+ GlobalNamespace::MultiplayerLayoutProvider __declspec(property(get=__get__layoutProvider, put=__set__layoutProvider))  _layoutProvider;
 
-constexpr void __set__layoutProvider(::GlobalNamespace::MultiplayerLayoutProvider value) ;
+constexpr void __set__layoutProvider(GlobalNamespace::MultiplayerLayoutProvider value) ;
 
-constexpr ::GlobalNamespace::MultiplayerLayoutProvider __get__layoutProvider() const;
+constexpr GlobalNamespace::MultiplayerLayoutProvider __get__layoutProvider() const;
 
- ::GlobalNamespace::MultiplayerScoreProvider __declspec(property(get=__get__scoreProvider, put=__set__scoreProvider))  _scoreProvider;
+ GlobalNamespace::MultiplayerScoreProvider __declspec(property(get=__get__scoreProvider, put=__set__scoreProvider))  _scoreProvider;
 
-constexpr void __set__scoreProvider(::GlobalNamespace::MultiplayerScoreProvider value) ;
+constexpr void __set__scoreProvider(GlobalNamespace::MultiplayerScoreProvider value) ;
 
-constexpr ::GlobalNamespace::MultiplayerScoreProvider __get__scoreProvider() const;
+constexpr GlobalNamespace::MultiplayerScoreProvider __get__scoreProvider() const;
 
- ::GlobalNamespace::____GlobalNamespace__MultiplayerScoreRingItem__Pool __declspec(property(get=__get__scoreRingItemPool, put=__set__scoreRingItemPool))  _scoreRingItemPool;
+ GlobalNamespace::GlobalNamespace__MultiplayerScoreRingItem__Pool __declspec(property(get=__get__scoreRingItemPool, put=__set__scoreRingItemPool))  _scoreRingItemPool;
 
-constexpr void __set__scoreRingItemPool(::GlobalNamespace::____GlobalNamespace__MultiplayerScoreRingItem__Pool value) ;
+constexpr void __set__scoreRingItemPool(GlobalNamespace::GlobalNamespace__MultiplayerScoreRingItem__Pool value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__MultiplayerScoreRingItem__Pool __get__scoreRingItemPool() const;
+constexpr GlobalNamespace::GlobalNamespace__MultiplayerScoreRingItem__Pool __get__scoreRingItemPool() const;
 
- ::System::Collections::Generic::Dictionary_2<::StringW,::GlobalNamespace::MultiplayerScoreRingItem> __declspec(property(get=__get__scoreRingItems, put=__set__scoreRingItems))  _scoreRingItems;
+ System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::MultiplayerScoreRingItem> __declspec(property(get=__get__scoreRingItems, put=__set__scoreRingItems))  _scoreRingItems;
 
-constexpr void __set__scoreRingItems(::System::Collections::Generic::Dictionary_2<::StringW,::GlobalNamespace::MultiplayerScoreRingItem> value) ;
+constexpr void __set__scoreRingItems(System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::MultiplayerScoreRingItem> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::StringW,::GlobalNamespace::MultiplayerScoreRingItem> __get__scoreRingItems() const;
+constexpr System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::MultiplayerScoreRingItem> __get__scoreRingItems() const;
 
- ::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer> __declspec(property(get=__get__allActivePlayers, put=__set__allActivePlayers))  _allActivePlayers;
+ System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer> __declspec(property(get=__get__allActivePlayers, put=__set__allActivePlayers))  _allActivePlayers;
 
-constexpr void __set__allActivePlayers(::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer> value) ;
+constexpr void __set__allActivePlayers(System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer> __get__allActivePlayers() const;
+constexpr System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer> __get__allActivePlayers() const;
 
  int32_t __declspec(property(get=__get__currentlyScoreUpdateIndex, put=__set__currentlyScoreUpdateIndex))  _currentlyScoreUpdateIndex;
 
@@ -177,11 +176,11 @@ constexpr void __set__timeSinceLastScoreUpdate(float_t value) ;
 
 constexpr float_t __get__timeSinceLastScoreUpdate() const;
 
- ::GlobalNamespace::MultiplayerScoreRingItem __declspec(property(get=__get__firstPlayerItem, put=__set__firstPlayerItem))  _firstPlayerItem;
+ GlobalNamespace::MultiplayerScoreRingItem __declspec(property(get=__get__firstPlayerItem, put=__set__firstPlayerItem))  _firstPlayerItem;
 
-constexpr void __set__firstPlayerItem(::GlobalNamespace::MultiplayerScoreRingItem value) ;
+constexpr void __set__firstPlayerItem(GlobalNamespace::MultiplayerScoreRingItem value) ;
 
-constexpr ::GlobalNamespace::MultiplayerScoreRingItem __get__firstPlayerItem() const;
+constexpr GlobalNamespace::MultiplayerScoreRingItem __get__firstPlayerItem() const;
 
  bool __declspec(property(get=__get__spawnCenterDistanceFound, put=__set__spawnCenterDistanceFound))  _spawnCenterDistanceFound;
 
@@ -208,22 +207,22 @@ constexpr bool __get__playersSpawned() const;
  void Update() ;
 
 /// @brief Method UpdateScore addr 0x21034e4 size 0x1f4 virtual false final false
- void UpdateScore(::GlobalNamespace::IConnectedPlayer playerToUpdate) ;
+ void UpdateScore(GlobalNamespace::IConnectedPlayer playerToUpdate) ;
 
 /// @brief Method AnimateColorsForPlayer addr 0x21036d8 size 0x180 virtual false final false
- void AnimateColorsForPlayer(::StringW userId, ::UnityEngine::Color nameColor, ::UnityEngine::Color scoreColor, float_t duration, ::GlobalNamespace::EaseType easeType) ;
+ void AnimateColorsForPlayer(::StringW userId, UnityEngine::Color nameColor, UnityEngine::Color scoreColor, float_t duration, GlobalNamespace::EaseType easeType) ;
 
 /// @brief Method GetScoreRingItem addr 0x2103858 size 0x104 virtual false final false
- ::GlobalNamespace::MultiplayerScoreRingItem GetScoreRingItem(::StringW userId) ;
+ GlobalNamespace::MultiplayerScoreRingItem GetScoreRingItem(::StringW userId) ;
 
 /// @brief Method GetScoreRingItems addr 0x210395c size 0x220 virtual false final false
- ::ArrayW<::UnityEngine::GameObject> GetScoreRingItems() ;
+ ::ArrayW<UnityEngine::GameObject> GetScoreRingItems() ;
 
 /// @brief Method AnimateColorsForAllPlayers addr 0x2103b7c size 0x1c8 virtual false final false
- void AnimateColorsForAllPlayers(::UnityEngine::Color nameColor, ::UnityEngine::Color scoreColor, float_t duration, ::GlobalNamespace::EaseType easeType) ;
+ void AnimateColorsForAllPlayers(UnityEngine::Color nameColor, UnityEngine::Color scoreColor, float_t duration, GlobalNamespace::EaseType easeType) ;
 
 /// @brief Method SetPlayerToFailedState addr 0x2103d44 size 0x120 virtual false final false
- void SetPlayerToFailedState(::GlobalNamespace::IConnectedPlayer player) ;
+ void SetPlayerToFailedState(GlobalNamespace::IConnectedPlayer player) ;
 
 /// @brief Method TrySpawnTexts addr 0x2103e64 size 0x18 virtual false final false
  void TrySpawnTexts() ;
@@ -232,7 +231,7 @@ constexpr bool __get__playersSpawned() const;
  void SpawnTexts() ;
 
 /// @brief Method HandleStateChanged addr 0x2102bc0 size 0x4f4 virtual false final false
- void HandleStateChanged(::GlobalNamespace::____GlobalNamespace__MultiplayerController__State state) ;
+ void HandleStateChanged(GlobalNamespace::GlobalNamespace__MultiplayerController__State state) ;
 
 /// @brief Method HandleSpawnCenterDistanceWasFound addr 0x2102b90 size 0x18 virtual false final false
  void HandleSpawnCenterDistanceWasFound(float_t spawnCenterDistance) ;
@@ -241,10 +240,10 @@ constexpr bool __get__playersSpawned() const;
  void HandlePlayerSpawningDidFinish() ;
 
 /// @brief Method HandlePlayerStateChanged addr 0x210445c size 0x40 virtual false final false
- void HandlePlayerStateChanged(::GlobalNamespace::IConnectedPlayer player) ;
+ void HandlePlayerStateChanged(GlobalNamespace::IConnectedPlayer player) ;
 
 /// @brief Method HandlePlayerDisconnected addr 0x210449c size 0x4 virtual false final false
- void HandlePlayerDisconnected(::GlobalNamespace::IConnectedPlayer player) ;
+ void HandlePlayerDisconnected(GlobalNamespace::IConnectedPlayer player) ;
 
 // Ctor Parameters []
 explicit MultiplayerScoreRingManager() ;
@@ -256,6 +255,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerScoreRingManager);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerScoreRingManager, "", "MultiplayerScoreRingManager");
+NEED_NO_BOX(GlobalNamespace::MultiplayerScoreRingManager);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerScoreRingManager, "", "MultiplayerScoreRingManager");

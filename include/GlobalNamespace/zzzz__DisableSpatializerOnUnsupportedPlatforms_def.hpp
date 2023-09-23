@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace UnityEngine {
 class AudioSource;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4046))
 // CS Name: DisableSpatializerOnUnsupportedPlatforms
-class CORDL_TYPE DisableSpatializerOnUnsupportedPlatforms : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE DisableSpatializerOnUnsupportedPlatforms : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr DisableSpatializerOnUnsupportedPlatforms(DisableSpatializerOnUnsupport
 constexpr DisableSpatializerOnUnsupportedPlatforms(DisableSpatializerOnUnsupportedPlatforms&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DisableSpatializerOnUnsupportedPlatforms(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit DisableSpatializerOnUnsupportedPlatforms(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit DisableSpatializerOnUnsupportedPlatforms(void* ptr) noexcept 
 
 // Fields
 
- ::UnityEngine::AudioSource __declspec(property(get=__get__audioSource, put=__set__audioSource))  _audioSource;
+ UnityEngine::AudioSource __declspec(property(get=__get__audioSource, put=__set__audioSource))  _audioSource;
 
-constexpr void __set__audioSource(::UnityEngine::AudioSource value) ;
+constexpr void __set__audioSource(UnityEngine::AudioSource value) ;
 
-constexpr ::UnityEngine::AudioSource __get__audioSource() const;
+constexpr UnityEngine::AudioSource __get__audioSource() const;
 
 
 // Methods
@@ -70,6 +69,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::DisableSpatializerOnUnsupportedPlatforms);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DisableSpatializerOnUnsupportedPlatforms, "", "DisableSpatializerOnUnsupportedPlatforms");
+NEED_NO_BOX(GlobalNamespace::DisableSpatializerOnUnsupportedPlatforms);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisableSpatializerOnUnsupportedPlatforms, "", "DisableSpatializerOnUnsupportedPlatforms");

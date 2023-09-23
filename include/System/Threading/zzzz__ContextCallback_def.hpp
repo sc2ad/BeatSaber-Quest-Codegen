@@ -3,7 +3,6 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Threading {
 class ContextCallback;
@@ -14,7 +13,7 @@ namespace System::Threading {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2708))
 // CS Name: System.Threading.ContextCallback
-class CORDL_TYPE ContextCallback : public ::System::MulticastDelegate {
+class CORDL_TYPE ContextCallback : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr ContextCallback(ContextCallback const& ) noexcept = default;
 constexpr ContextCallback(ContextCallback&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ContextCallback(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit ContextCallback(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -63,6 +62,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Threading
-} // end anonymous namespace
-NEED_NO_BOX(::System::Threading::ContextCallback);
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::ContextCallback, "System.Threading", "ContextCallback");
+NEED_NO_BOX(System::Threading::ContextCallback);
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::ContextCallback, "System.Threading", "ContextCallback");

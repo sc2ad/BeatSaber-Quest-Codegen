@@ -2,18 +2,17 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace Org::BouncyCastle::X509::Store {
 class IX509Store;
+}
+namespace Org::BouncyCastle::X509::Store {
+class IX509StoreParameters;
 }
 namespace System {
 class Type;
 }
 namespace System::Collections {
 class ICollection;
-}
-namespace Org::BouncyCastle::X509::Store {
-class IX509StoreParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509::Store {
@@ -68,15 +67,14 @@ explicit X509StoreFactory() ;
  void _ctor() ;
 
 /// @brief Method Create addr 0x10e7554 size 0x3b8 virtual false final false
-static ::Org::BouncyCastle::X509::Store::IX509Store Create(::StringW type, ::Org::BouncyCastle::X509::Store::IX509StoreParameters parameters) ;
+static Org::BouncyCastle::X509::Store::IX509Store Create(::StringW type, Org::BouncyCastle::X509::Store::IX509StoreParameters parameters) ;
 
 /// @brief Method checkCorrectType addr 0x10e790c size 0x380 virtual false final false
-static void checkCorrectType(::System::Collections::ICollection coll, ::System::Type t) ;
+static void checkCorrectType(System::Collections::ICollection coll, System::Type t) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::X509::Store
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::X509::Store::X509StoreFactory);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::X509::Store::X509StoreFactory, "Org.BouncyCastle.X509.Store", "X509StoreFactory");
+NEED_NO_BOX(Org::BouncyCastle::X509::Store::X509StoreFactory);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::Store::X509StoreFactory, "Org.BouncyCastle.X509.Store", "X509StoreFactory");

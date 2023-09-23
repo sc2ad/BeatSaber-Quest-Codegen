@@ -4,25 +4,24 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace HMUI {
-class TextSegmentedControlCell;
-}
-namespace HMUI {
-class SegmentedControlCell;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace HMUI {
+class TextSegmentedControlCell;
 }
 namespace UnityEngine {
 class Object;
 }
 namespace HMUI {
-class ____HMUI__SegmentedControl__IDataSource;
+class SegmentedControlCell;
 }
-namespace Zenject {
-class DiContainer;
+namespace HMUI {
+class HMUI__SegmentedControl__IDataSource;
 }
 // Forward declare root types
 namespace HMUI {
@@ -34,11 +33,11 @@ namespace HMUI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13603))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13605))
 // CS Name: HMUI.TextSegmentedControl
-class CORDL_TYPE TextSegmentedControl : public ::HMUI::SegmentedControl {
+class CORDL_TYPE TextSegmentedControl : public HMUI::SegmentedControl {
 public:
 // Declarations
-/// @brief Convert operator to ::HMUI::____HMUI__SegmentedControl__IDataSource
-constexpr operator  ::HMUI::____HMUI__SegmentedControl__IDataSource() const noexcept;
+/// @brief Convert operator to HMUI::HMUI__SegmentedControl__IDataSource
+constexpr operator  HMUI::HMUI__SegmentedControl__IDataSource() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x98};
@@ -52,7 +51,7 @@ constexpr TextSegmentedControl(TextSegmentedControl const& ) noexcept = default;
 constexpr TextSegmentedControl(TextSegmentedControl&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TextSegmentedControl(void* ptr) noexcept : ::HMUI::SegmentedControl(ptr) {
+constexpr explicit TextSegmentedControl(void* ptr) noexcept : HMUI::SegmentedControl(ptr) {
 }
 
 
@@ -97,56 +96,56 @@ constexpr void __set__hideCellBackground(bool value) ;
 
 constexpr bool __get__hideCellBackground() const;
 
- ::HMUI::TextSegmentedControlCell __declspec(property(get=__get__firstCellPrefab, put=__set__firstCellPrefab))  _firstCellPrefab;
+ HMUI::TextSegmentedControlCell __declspec(property(get=__get__firstCellPrefab, put=__set__firstCellPrefab))  _firstCellPrefab;
 
-constexpr void __set__firstCellPrefab(::HMUI::TextSegmentedControlCell value) ;
+constexpr void __set__firstCellPrefab(HMUI::TextSegmentedControlCell value) ;
 
-constexpr ::HMUI::TextSegmentedControlCell __get__firstCellPrefab() const;
+constexpr HMUI::TextSegmentedControlCell __get__firstCellPrefab() const;
 
- ::HMUI::TextSegmentedControlCell __declspec(property(get=__get__lastCellPrefab, put=__set__lastCellPrefab))  _lastCellPrefab;
+ HMUI::TextSegmentedControlCell __declspec(property(get=__get__lastCellPrefab, put=__set__lastCellPrefab))  _lastCellPrefab;
 
-constexpr void __set__lastCellPrefab(::HMUI::TextSegmentedControlCell value) ;
+constexpr void __set__lastCellPrefab(HMUI::TextSegmentedControlCell value) ;
 
-constexpr ::HMUI::TextSegmentedControlCell __get__lastCellPrefab() const;
+constexpr HMUI::TextSegmentedControlCell __get__lastCellPrefab() const;
 
- ::HMUI::TextSegmentedControlCell __declspec(property(get=__get__singleCellPrefab, put=__set__singleCellPrefab))  _singleCellPrefab;
+ HMUI::TextSegmentedControlCell __declspec(property(get=__get__singleCellPrefab, put=__set__singleCellPrefab))  _singleCellPrefab;
 
-constexpr void __set__singleCellPrefab(::HMUI::TextSegmentedControlCell value) ;
+constexpr void __set__singleCellPrefab(HMUI::TextSegmentedControlCell value) ;
 
-constexpr ::HMUI::TextSegmentedControlCell __get__singleCellPrefab() const;
+constexpr HMUI::TextSegmentedControlCell __get__singleCellPrefab() const;
 
- ::HMUI::TextSegmentedControlCell __declspec(property(get=__get__middleCellPrefab, put=__set__middleCellPrefab))  _middleCellPrefab;
+ HMUI::TextSegmentedControlCell __declspec(property(get=__get__middleCellPrefab, put=__set__middleCellPrefab))  _middleCellPrefab;
 
-constexpr void __set__middleCellPrefab(::HMUI::TextSegmentedControlCell value) ;
+constexpr void __set__middleCellPrefab(HMUI::TextSegmentedControlCell value) ;
 
-constexpr ::HMUI::TextSegmentedControlCell __get__middleCellPrefab() const;
+constexpr HMUI::TextSegmentedControlCell __get__middleCellPrefab() const;
 
- ::Zenject::DiContainer __declspec(property(get=__get__container, put=__set__container))  _container;
+ Zenject::DiContainer __declspec(property(get=__get__container, put=__set__container))  _container;
 
-constexpr void __set__container(::Zenject::DiContainer value) ;
+constexpr void __set__container(Zenject::DiContainer value) ;
 
-constexpr ::Zenject::DiContainer __get__container() const;
+constexpr Zenject::DiContainer __get__container() const;
 
- ::System::Collections::Generic::IReadOnlyList_1<::StringW> __declspec(property(get=__get__texts, put=__set__texts))  _texts;
+ System::Collections::Generic::IReadOnlyList_1<::StringW> __declspec(property(get=__get__texts, put=__set__texts))  _texts;
 
-constexpr void __set__texts(::System::Collections::Generic::IReadOnlyList_1<::StringW> value) ;
+constexpr void __set__texts(System::Collections::Generic::IReadOnlyList_1<::StringW> value) ;
 
-constexpr ::System::Collections::Generic::IReadOnlyList_1<::StringW> __get__texts() const;
+constexpr System::Collections::Generic::IReadOnlyList_1<::StringW> __get__texts() const;
 
 
 // Methods
 
 /// @brief Method SetTexts addr 0x1fad158 size 0x18 virtual false final false
- void SetTexts(::System::Collections::Generic::IReadOnlyList_1<::StringW> texts) ;
+ void SetTexts(System::Collections::Generic::IReadOnlyList_1<::StringW> texts) ;
 
 /// @brief Method NumberOfCells addr 0x1fad170 size 0xac virtual true final true
  int32_t NumberOfCells() ;
 
 /// @brief Method CellForCellNumber addr 0x1fad21c size 0x294 virtual true final true
- ::HMUI::SegmentedControlCell CellForCellNumber(int32_t cellNumber) ;
+ HMUI::SegmentedControlCell CellForCellNumber(int32_t cellNumber) ;
 
 /// @brief Method InstantiateCell addr 0x1fad4b0 size 0x180 virtual false final false
- ::HMUI::TextSegmentedControlCell InstantiateCell(::UnityEngine::Object prefab) ;
+ HMUI::TextSegmentedControlCell InstantiateCell(UnityEngine::Object prefab) ;
 
 // Ctor Parameters []
 explicit TextSegmentedControl() ;
@@ -158,6 +157,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HMUI
-} // end anonymous namespace
-NEED_NO_BOX(::HMUI::TextSegmentedControl);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::TextSegmentedControl, "HMUI", "TextSegmentedControl");
+NEED_NO_BOX(HMUI::TextSegmentedControl);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::TextSegmentedControl, "HMUI", "TextSegmentedControl");

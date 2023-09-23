@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PS5LevelProductsModelSO_def.hpp"
 #include "GlobalNamespace/zzzz__SonyPlatformAdditionalContentModel_1_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class PS5LevelProductsModelSO;
 }
@@ -13,10 +12,10 @@ class PS5PlatformAdditionalContentModel;
 // Type: ::PS5PlatformAdditionalContentModel
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4688)), TypeDefinitionIndex(TypeDefinitionIndex(4650)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4688), inst: 4827 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4688)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4688), inst: 4827 }), TypeDefinitionIndex(TypeDefinitionIndex(4650))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4652))
 // CS Name: PS5PlatformAdditionalContentModel
-class CORDL_TYPE PS5PlatformAdditionalContentModel : public ::GlobalNamespace::SonyPlatformAdditionalContentModel_1<::GlobalNamespace::PS5LevelProductsModelSO> {
+class CORDL_TYPE PS5PlatformAdditionalContentModel : public GlobalNamespace::SonyPlatformAdditionalContentModel_1<GlobalNamespace::PS5LevelProductsModelSO> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr PS5PlatformAdditionalContentModel(PS5PlatformAdditionalContentModel co
 constexpr PS5PlatformAdditionalContentModel(PS5PlatformAdditionalContentModel&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PS5PlatformAdditionalContentModel(void* ptr) noexcept : ::GlobalNamespace::SonyPlatformAdditionalContentModel_1<::GlobalNamespace::PS5LevelProductsModelSO>(ptr) {
+constexpr explicit PS5PlatformAdditionalContentModel(void* ptr) noexcept : GlobalNamespace::SonyPlatformAdditionalContentModel_1<GlobalNamespace::PS5LevelProductsModelSO>(ptr) {
 }
 
 
@@ -52,17 +51,17 @@ constexpr explicit PS5PlatformAdditionalContentModel(void* ptr) noexcept : ::Glo
 
 // Fields
 
- ::GlobalNamespace::PS5LevelProductsModelSO __declspec(property(get=__get__ps5LevelProductsModel, put=__set__ps5LevelProductsModel))  _ps5LevelProductsModel;
+ GlobalNamespace::PS5LevelProductsModelSO __declspec(property(get=__get__ps5LevelProductsModel, put=__set__ps5LevelProductsModel))  _ps5LevelProductsModel;
 
-constexpr void __set__ps5LevelProductsModel(::GlobalNamespace::PS5LevelProductsModelSO value) ;
+constexpr void __set__ps5LevelProductsModel(GlobalNamespace::PS5LevelProductsModelSO value) ;
 
-constexpr ::GlobalNamespace::PS5LevelProductsModelSO __get__ps5LevelProductsModel() const;
+constexpr GlobalNamespace::PS5LevelProductsModelSO __get__ps5LevelProductsModel() const;
 
 
 // Methods
 
 /// @brief Method GetLevelProductsModel addr 0x221a804 size 0x8 virtual true final false
- ::GlobalNamespace::PS5LevelProductsModelSO GetLevelProductsModel() ;
+ GlobalNamespace::PS5LevelProductsModelSO GetLevelProductsModel() ;
 
 // Ctor Parameters []
 explicit PS5PlatformAdditionalContentModel() ;
@@ -74,6 +73,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PS5PlatformAdditionalContentModel);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PS5PlatformAdditionalContentModel, "", "PS5PlatformAdditionalContentModel");
+NEED_NO_BOX(GlobalNamespace::PS5PlatformAdditionalContentModel);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS5PlatformAdditionalContentModel, "", "PS5PlatformAdditionalContentModel");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
 class MainCamera;
 }
@@ -22,7 +21,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5420))
 // CS Name: SmoothCamera
-class CORDL_TYPE SmoothCamera : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SmoothCamera : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr SmoothCamera(SmoothCamera const& ) noexcept = default;
 constexpr SmoothCamera(SmoothCamera&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SmoothCamera(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SmoothCamera(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -58,29 +57,29 @@ constexpr explicit SmoothCamera(void* ptr) noexcept : ::UnityEngine::MonoBehavio
 
 // Fields
 
- ::UnityEngine::Camera __declspec(property(get=__get__camera, put=__set__camera))  _camera;
+ UnityEngine::Camera __declspec(property(get=__get__camera, put=__set__camera))  _camera;
 
-constexpr void __set__camera(::UnityEngine::Camera value) ;
+constexpr void __set__camera(UnityEngine::Camera value) ;
 
-constexpr ::UnityEngine::Camera __get__camera() const;
+constexpr UnityEngine::Camera __get__camera() const;
 
- ::GlobalNamespace::MainCamera __declspec(property(get=__get__mainCamera, put=__set__mainCamera))  _mainCamera;
+ GlobalNamespace::MainCamera __declspec(property(get=__get__mainCamera, put=__set__mainCamera))  _mainCamera;
 
-constexpr void __set__mainCamera(::GlobalNamespace::MainCamera value) ;
+constexpr void __set__mainCamera(GlobalNamespace::MainCamera value) ;
 
-constexpr ::GlobalNamespace::MainCamera __get__mainCamera() const;
+constexpr GlobalNamespace::MainCamera __get__mainCamera() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__thirdPersonPosition, put=__set__thirdPersonPosition))  _thirdPersonPosition;
+ UnityEngine::Vector3 __declspec(property(get=__get__thirdPersonPosition, put=__set__thirdPersonPosition))  _thirdPersonPosition;
 
-constexpr void __set__thirdPersonPosition(::UnityEngine::Vector3 value) ;
+constexpr void __set__thirdPersonPosition(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__thirdPersonPosition() const;
+constexpr UnityEngine::Vector3 __get__thirdPersonPosition() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__thirdPersonEulerAngles, put=__set__thirdPersonEulerAngles))  _thirdPersonEulerAngles;
+ UnityEngine::Vector3 __declspec(property(get=__get__thirdPersonEulerAngles, put=__set__thirdPersonEulerAngles))  _thirdPersonEulerAngles;
 
-constexpr void __set__thirdPersonEulerAngles(::UnityEngine::Vector3 value) ;
+constexpr void __set__thirdPersonEulerAngles(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__thirdPersonEulerAngles() const;
+constexpr UnityEngine::Vector3 __get__thirdPersonEulerAngles() const;
 
  bool __declspec(property(get=__get__thirdPersonEnabled, put=__set__thirdPersonEnabled))  _thirdPersonEnabled;
 
@@ -104,7 +103,7 @@ constexpr float_t __get__positionSmooth() const;
 // Methods
 
 /// @brief Method Init addr 0x21103d4 size 0x1a8 virtual false final false
- void Init(float_t fieldOfView, float_t positionSmooth, float_t rotationSmooth, bool thirdPersonEnabled, ::UnityEngine::Vector3 thirdPersonPosition, ::UnityEngine::Vector3 thirdPersonEulerAngles) ;
+ void Init(float_t fieldOfView, float_t positionSmooth, float_t rotationSmooth, bool thirdPersonEnabled, UnityEngine::Vector3 thirdPersonPosition, UnityEngine::Vector3 thirdPersonEulerAngles) ;
 
 /// @brief Method OnEnable addr 0x211057c size 0x20 virtual false final false
  void OnEnable() ;
@@ -125,6 +124,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SmoothCamera);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SmoothCamera, "", "SmoothCamera");
+NEED_NO_BOX(GlobalNamespace::SmoothCamera);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SmoothCamera, "", "SmoothCamera");

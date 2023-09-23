@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 #include <cstddef>
-namespace {
 namespace UnityEngine {
 struct Rect;
 }
@@ -97,11 +96,10 @@ constexpr float_t __get_bottom() const;
  void _ctor(float_t left, float_t top, float_t right, float_t bottom) ;
 
 /// @brief Method op_Subtraction addr 0x2c44128 size 0xc8 virtual false final false
-static ::UnityEngine::Rect op_Subtraction(::UnityEngine::Rect r, ::UnityEngine::UIElements::Spacing a) ;
+static UnityEngine::Rect op_Subtraction(UnityEngine::Rect r, UnityEngine::UIElements::Spacing a) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Spacing, "UnityEngine.UIElements", "Spacing");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::Spacing, "UnityEngine.UIElements", "Spacing");

@@ -1,6 +1,5 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
 class ICustomDeviceReset;
@@ -30,6 +29,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::LowLevel
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::LowLevel::ICustomDeviceReset);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::ICustomDeviceReset, "UnityEngine.InputSystem.LowLevel", "ICustomDeviceReset");
+NEED_NO_BOX(UnityEngine::InputSystem::LowLevel::ICustomDeviceReset);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::LowLevel::ICustomDeviceReset, "UnityEngine.InputSystem.LowLevel", "ICustomDeviceReset");

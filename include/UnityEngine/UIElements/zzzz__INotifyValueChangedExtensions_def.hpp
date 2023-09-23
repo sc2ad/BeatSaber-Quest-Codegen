@@ -1,18 +1,17 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace UnityEngine::UIElements {
-template<typename TEventType>
-class EventCallback_1;
+template<typename T>
+class INotifyValueChanged_1;
 }
 namespace UnityEngine::UIElements {
 template<typename T>
 class ChangeEvent_1;
 }
 namespace UnityEngine::UIElements {
-template<typename T>
-class INotifyValueChanged_1;
+template<typename TEventType>
+class EventCallback_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -62,16 +61,15 @@ constexpr explicit INotifyValueChangedExtensions(void* ptr) noexcept : ::bs_hook
 
 /// @brief Method RegisterValueChangedCallback addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static bool RegisterValueChangedCallback(::UnityEngine::UIElements::INotifyValueChanged_1<T> control, ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::ChangeEvent_1<T>> callback) ;
+static bool RegisterValueChangedCallback(UnityEngine::UIElements::INotifyValueChanged_1<T> control, UnityEngine::UIElements::EventCallback_1<UnityEngine::UIElements::ChangeEvent_1<T>> callback) ;
 
 /// @brief Method UnregisterValueChangedCallback addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static bool UnregisterValueChangedCallback(::UnityEngine::UIElements::INotifyValueChanged_1<T> control, ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::ChangeEvent_1<T>> callback) ;
+static bool UnregisterValueChangedCallback(UnityEngine::UIElements::INotifyValueChanged_1<T> control, UnityEngine::UIElements::EventCallback_1<UnityEngine::UIElements::ChangeEvent_1<T>> callback) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::INotifyValueChangedExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::INotifyValueChangedExtensions, "UnityEngine.UIElements", "INotifyValueChangedExtensions");
+NEED_NO_BOX(UnityEngine::UIElements::INotifyValueChangedExtensions);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::INotifyValueChangedExtensions, "UnityEngine.UIElements", "INotifyValueChangedExtensions");

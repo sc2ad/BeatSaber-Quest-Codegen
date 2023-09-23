@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace LiteNetLib {
 struct DisconnectResult;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::LiteNetLib::DisconnectResult const None;
+static LiteNetLib::DisconnectResult const None;
 
 /// @brief Field Reject offset 0
-static ::LiteNetLib::DisconnectResult const Reject;
+static LiteNetLib::DisconnectResult const Reject;
 
 /// @brief Field Disconnect offset 0
-static ::LiteNetLib::DisconnectResult const Disconnect;
+static LiteNetLib::DisconnectResult const Disconnect;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::DisconnectResult, "LiteNetLib", "DisconnectResult");
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::DisconnectResult, "LiteNetLib", "DisconnectResult");

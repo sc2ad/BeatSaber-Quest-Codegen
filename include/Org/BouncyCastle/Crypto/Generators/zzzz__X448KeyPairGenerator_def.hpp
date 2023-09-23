@@ -1,18 +1,17 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricCipherKeyPair;
+}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto {
-class AsymmetricCipherKeyPair;
+class KeyGenerationParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class IAsymmetricCipherKeyPairGenerator;
-}
-namespace Org::BouncyCastle::Crypto {
-class KeyGenerationParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {
@@ -27,8 +26,8 @@ namespace Org::BouncyCastle::Crypto::Generators {
 class CORDL_TYPE X448KeyPairGenerator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator
-constexpr operator  ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator
+constexpr operator  Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -63,20 +62,20 @@ constexpr explicit X448KeyPairGenerator(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 // Fields
 
- ::Org::BouncyCastle::Security::SecureRandom __declspec(property(get=__get_random, put=__set_random))  random;
+ Org::BouncyCastle::Security::SecureRandom __declspec(property(get=__get_random, put=__set_random))  random;
 
-constexpr void __set_random(::Org::BouncyCastle::Security::SecureRandom value) ;
+constexpr void __set_random(Org::BouncyCastle::Security::SecureRandom value) ;
 
-constexpr ::Org::BouncyCastle::Security::SecureRandom __get_random() const;
+constexpr Org::BouncyCastle::Security::SecureRandom __get_random() const;
 
 
 // Methods
 
 /// @brief Method Init addr 0xe7aef8 size 0x1c virtual true final false
- void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters parameters) ;
+ void Init(Org::BouncyCastle::Crypto::KeyGenerationParameters parameters) ;
 
 /// @brief Method GenerateKeyPair addr 0xe7af14 size 0xb0 virtual true final false
- ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair GenerateKeyPair() ;
+ Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair GenerateKeyPair() ;
 
 // Ctor Parameters []
 explicit X448KeyPairGenerator() ;
@@ -88,6 +87,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Generators
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Generators::X448KeyPairGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Generators::X448KeyPairGenerator, "Org.BouncyCastle.Crypto.Generators", "X448KeyPairGenerator");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Generators::X448KeyPairGenerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::X448KeyPairGenerator, "Org.BouncyCastle.Crypto.Generators", "X448KeyPairGenerator");

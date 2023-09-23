@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct WrapMode;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Once offset 0
-static ::UnityEngine::WrapMode const Once;
+static UnityEngine::WrapMode const Once;
 
 /// @brief Field Loop offset 0
-static ::UnityEngine::WrapMode const Loop;
+static UnityEngine::WrapMode const Loop;
 
 /// @brief Field PingPong offset 0
-static ::UnityEngine::WrapMode const PingPong;
+static UnityEngine::WrapMode const PingPong;
 
 /// @brief Field Default offset 0
-static ::UnityEngine::WrapMode const Default;
+static UnityEngine::WrapMode const Default;
 
 /// @brief Field ClampForever offset 0
-static ::UnityEngine::WrapMode const ClampForever;
+static UnityEngine::WrapMode const ClampForever;
 
 /// @brief Field Clamp offset 0
-static ::UnityEngine::WrapMode const Clamp;
+static UnityEngine::WrapMode const Clamp;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::WrapMode, "UnityEngine", "WrapMode");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WrapMode, "UnityEngine", "WrapMode");

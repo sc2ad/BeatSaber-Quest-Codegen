@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__InputFieldSettingsController_def.hpp"
-namespace {
 namespace HMUI {
 class InputFieldView;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5685))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5692))
 // CS Name: UrlInputFieldSettingsController
-class CORDL_TYPE UrlInputFieldSettingsController : public ::GlobalNamespace::InputFieldSettingsController {
+class CORDL_TYPE UrlInputFieldSettingsController : public GlobalNamespace::InputFieldSettingsController {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr UrlInputFieldSettingsController(UrlInputFieldSettingsController const&
 constexpr UrlInputFieldSettingsController(UrlInputFieldSettingsController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UrlInputFieldSettingsController(void* ptr) noexcept : ::GlobalNamespace::InputFieldSettingsController(ptr) {
+constexpr explicit UrlInputFieldSettingsController(void* ptr) noexcept : GlobalNamespace::InputFieldSettingsController(ptr) {
 }
 
 
@@ -52,7 +51,7 @@ constexpr explicit UrlInputFieldSettingsController(void* ptr) noexcept : ::Globa
 // Methods
 
 /// @brief Method HandleInputFieldDidChange addr 0x2153ca8 size 0x90 virtual true final false
- void HandleInputFieldDidChange(::HMUI::InputFieldView inputFieldView) ;
+ void HandleInputFieldDidChange(HMUI::InputFieldView inputFieldView) ;
 
 // Ctor Parameters []
 explicit UrlInputFieldSettingsController() ;
@@ -64,6 +63,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::UrlInputFieldSettingsController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::UrlInputFieldSettingsController, "", "UrlInputFieldSettingsController");
+NEED_NO_BOX(GlobalNamespace::UrlInputFieldSettingsController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UrlInputFieldSettingsController, "", "UrlInputFieldSettingsController");

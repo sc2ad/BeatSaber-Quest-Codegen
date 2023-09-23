@@ -1,13 +1,12 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAsset;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
 }
 namespace UnityEngine {
 class GameObject;
@@ -22,7 +21,7 @@ namespace HoudiniEngineUnity {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9581))
 // CS Name: HoudiniEngineUnity.HEU_HoudiniAssetRoot
-class CORDL_TYPE HEU_HoudiniAssetRoot : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE HEU_HoudiniAssetRoot : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr HEU_HoudiniAssetRoot(HEU_HoudiniAssetRoot const& ) noexcept = default;
 constexpr HEU_HoudiniAssetRoot(HEU_HoudiniAssetRoot&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HEU_HoudiniAssetRoot(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit HEU_HoudiniAssetRoot(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -58,17 +57,17 @@ constexpr explicit HEU_HoudiniAssetRoot(void* ptr) noexcept : ::UnityEngine::Mon
 
 // Fields
 
- ::HoudiniEngineUnity::HEU_HoudiniAsset __declspec(property(get=__get__houdiniAsset, put=__set__houdiniAsset))  _houdiniAsset;
+ HoudiniEngineUnity::HEU_HoudiniAsset __declspec(property(get=__get__houdiniAsset, put=__set__houdiniAsset))  _houdiniAsset;
 
-constexpr void __set__houdiniAsset(::HoudiniEngineUnity::HEU_HoudiniAsset value) ;
+constexpr void __set__houdiniAsset(HoudiniEngineUnity::HEU_HoudiniAsset value) ;
 
-constexpr ::HoudiniEngineUnity::HEU_HoudiniAsset __get__houdiniAsset() const;
+constexpr HoudiniEngineUnity::HEU_HoudiniAsset __get__houdiniAsset() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::GameObject> __declspec(property(get=__get__bakeTargets, put=__set__bakeTargets))  _bakeTargets;
+ System::Collections::Generic::List_1<UnityEngine::GameObject> __declspec(property(get=__get__bakeTargets, put=__set__bakeTargets))  _bakeTargets;
 
-constexpr void __set__bakeTargets(::System::Collections::Generic::List_1<::UnityEngine::GameObject> value) ;
+constexpr void __set__bakeTargets(System::Collections::Generic::List_1<UnityEngine::GameObject> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::GameObject> __get__bakeTargets() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::GameObject> __get__bakeTargets() const;
 
 
 // Methods
@@ -83,7 +82,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityEngine::GameObject> __ge
  void ClearHoudiniEngineReferences() ;
 
 /// @brief Method DestroyRootComponent addr 0x1ff9f1c size 0x10 virtual false final false
-static void DestroyRootComponent(::HoudiniEngineUnity::HEU_HoudiniAssetRoot assetRoot) ;
+static void DestroyRootComponent(HoudiniEngineUnity::HEU_HoudiniAssetRoot assetRoot) ;
 
 /// @brief Method Reset addr 0x1ff9f2c size 0xe8 virtual false final false
  void Reset() ;
@@ -98,6 +97,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_HoudiniAssetRoot);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_HoudiniAssetRoot, "HoudiniEngineUnity", "HEU_HoudiniAssetRoot");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_HoudiniAssetRoot);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_HoudiniAssetRoot, "HoudiniEngineUnity", "HEU_HoudiniAssetRoot");

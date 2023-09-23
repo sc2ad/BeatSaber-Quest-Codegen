@@ -4,38 +4,37 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace System::Collections::Concurrent {
-template<typename T>
-class IProducerConsumerCollection_1;
+namespace System::Collections {
+class ICollection;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyCollection_1;
-}
-namespace System {
-class Array;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Threading {
+namespace System {
+class Array;
+}
+namespace System::Collections::Concurrent {
 template<typename T>
-class ThreadLocal_1;
+class IProducerConsumerCollection_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System::Collections {
-class ICollection;
+namespace System::Threading {
+template<typename T>
+class ThreadLocal_1;
 }
 namespace System {
 class IDisposable;
@@ -47,11 +46,11 @@ class ConcurrentBag_1;
 }
 namespace System::Collections::Concurrent {
 template<typename T>
-class ____System__Collections__Concurrent__ConcurrentBag_1__Enumerator;
+class System__Collections__Concurrent__ConcurrentBag_1__Enumerator;
 }
 namespace System::Collections::Concurrent {
 template<typename T>
-class ____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue;
+class System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue;
 }
 namespace System::Collections::Concurrent {
 template<::cordl_internals::il2cpp_reference_type T>
@@ -59,11 +58,11 @@ class ConcurrentBag_1<T>;
 }
 namespace System::Collections::Concurrent {
 template<::cordl_internals::il2cpp_reference_type T>
-class ____System__Collections__Concurrent__ConcurrentBag_1__Enumerator<T>;
+class System__Collections__Concurrent__ConcurrentBag_1__Enumerator<T>;
 }
 namespace System::Collections::Concurrent {
 template<::cordl_internals::il2cpp_reference_type T>
-class ____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T>;
+class System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T>;
 }
 // Type: ::WorkStealingQueue
 // Type: ::Enumerator
@@ -76,37 +75,37 @@ template<::cordl_internals::il2cpp_reference_type T>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8378))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8378), inst: 2 })
 // CS Name: System.Collections.Concurrent.ConcurrentBag`1::WorkStealingQueue
-class CORDL_TYPE ____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x60};
 
-virtual ~____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue() = default;
+virtual ~System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue", modifiers: " const&", def_value: None }]
-constexpr ____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue(____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue", modifiers: " const&", def_value: None }]
+constexpr System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue(System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue", modifiers: "&&", def_value: None }]
-constexpr ____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue(____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue", modifiers: "&&", def_value: None }]
+constexpr System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue(System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue& operator=(std::nullptr_t) noexcept {
+  constexpr System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue& operator=(void* o) noexcept {
+  constexpr System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue& operator=(____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue&& o) noexcept = default;
-  constexpr ____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue& operator=(____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue const& o) noexcept = default;
+  constexpr System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue& operator=(System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue&& o) noexcept = default;
+  constexpr System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue& operator=(System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue const& o) noexcept = default;
                 
 
 
@@ -166,11 +165,11 @@ constexpr void __set__frozen(bool value) ;
 
 constexpr bool __get__frozen() const;
 
- ::System::Collections::Concurrent::____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T> __declspec(property(get=__get__nextQueue, put=__set__nextQueue))  _nextQueue;
+ System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T> __declspec(property(get=__get__nextQueue, put=__set__nextQueue))  _nextQueue;
 
-constexpr void __set__nextQueue(::System::Collections::Concurrent::____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T> value) ;
+constexpr void __set__nextQueue(System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T> value) ;
 
-constexpr ::System::Collections::Concurrent::____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T> __get__nextQueue() const;
+constexpr System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T> __get__nextQueue() const;
 
  int32_t __declspec(property(get=__get__ownerThreadId, put=__set__ownerThreadId))  _ownerThreadId;
 
@@ -186,11 +185,11 @@ constexpr int32_t __get__ownerThreadId() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "nextQueue", ty: "::System::Collections::Concurrent::____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T>", modifiers: "", def_value: None }]
-explicit ____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue(::System::Collections::Concurrent::____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T> nextQueue) ;
+// Ctor Parameters [CppParam { name: "nextQueue", ty: "System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T>", modifiers: "", def_value: None }]
+explicit System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue(System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T> nextQueue) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Collections::Concurrent::____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T> nextQueue) ;
+ void _ctor(System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T> nextQueue) ;
 
 /// @brief Method LocalPush addr 0x0 size 0xffffffffffffffff virtual false final false
  void LocalPush(T item, ByRef<int64_t> emptyToNonEmptyListTransitionCount) ;
@@ -222,46 +221,46 @@ template<::cordl_internals::il2cpp_reference_type T>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8379))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8379), inst: 2 })
 // CS Name: System.Collections.Concurrent.ConcurrentBag`1::Enumerator
-class CORDL_TYPE ____System__Collections__Concurrent__ConcurrentBag_1__Enumerator<T> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Collections__Concurrent__ConcurrentBag_1__Enumerator<T> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<T>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<T>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<T>
+constexpr operator  System::Collections::Generic::IEnumerator_1<T>() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____System__Collections__Concurrent__ConcurrentBag_1__Enumerator() = default;
+virtual ~System__Collections__Concurrent__ConcurrentBag_1__Enumerator() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__Concurrent__ConcurrentBag_1__Enumerator", modifiers: " const&", def_value: None }]
-constexpr ____System__Collections__Concurrent__ConcurrentBag_1__Enumerator(____System__Collections__Concurrent__ConcurrentBag_1__Enumerator const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__Concurrent__ConcurrentBag_1__Enumerator", modifiers: " const&", def_value: None }]
+constexpr System__Collections__Concurrent__ConcurrentBag_1__Enumerator(System__Collections__Concurrent__ConcurrentBag_1__Enumerator const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__Concurrent__ConcurrentBag_1__Enumerator", modifiers: "&&", def_value: None }]
-constexpr ____System__Collections__Concurrent__ConcurrentBag_1__Enumerator(____System__Collections__Concurrent__ConcurrentBag_1__Enumerator&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__Concurrent__ConcurrentBag_1__Enumerator", modifiers: "&&", def_value: None }]
+constexpr System__Collections__Concurrent__ConcurrentBag_1__Enumerator(System__Collections__Concurrent__ConcurrentBag_1__Enumerator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Collections__Concurrent__ConcurrentBag_1__Enumerator(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Collections__Concurrent__ConcurrentBag_1__Enumerator(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Collections__Concurrent__ConcurrentBag_1__Enumerator& operator=(std::nullptr_t) noexcept {
+  constexpr System__Collections__Concurrent__ConcurrentBag_1__Enumerator& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Collections__Concurrent__ConcurrentBag_1__Enumerator& operator=(void* o) noexcept {
+  constexpr System__Collections__Concurrent__ConcurrentBag_1__Enumerator& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Collections__Concurrent__ConcurrentBag_1__Enumerator& operator=(____System__Collections__Concurrent__ConcurrentBag_1__Enumerator&& o) noexcept = default;
-  constexpr ____System__Collections__Concurrent__ConcurrentBag_1__Enumerator& operator=(____System__Collections__Concurrent__ConcurrentBag_1__Enumerator const& o) noexcept = default;
+  constexpr System__Collections__Concurrent__ConcurrentBag_1__Enumerator& operator=(System__Collections__Concurrent__ConcurrentBag_1__Enumerator&& o) noexcept = default;
+  constexpr System__Collections__Concurrent__ConcurrentBag_1__Enumerator& operator=(System__Collections__Concurrent__ConcurrentBag_1__Enumerator const& o) noexcept = default;
                 
 
 
@@ -296,7 +295,7 @@ constexpr int32_t __get__index() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "array", ty: "::ArrayW<T>", modifiers: "", def_value: None }]
-explicit ____System__Collections__Concurrent__ConcurrentBag_1__Enumerator(::ArrayW<T> array) ;
+explicit System__Collections__Concurrent__ConcurrentBag_1__Enumerator(::ArrayW<T> array) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::ArrayW<T> array) ;
@@ -331,24 +330,24 @@ template<::cordl_internals::il2cpp_reference_type T>
 class CORDL_TYPE ConcurrentBag_1<T> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using Enumerator = ::System::Collections::Concurrent::____System__Collections__Concurrent__ConcurrentBag_1__Enumerator<T>;
+using Enumerator = System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentBag_1__Enumerator<T>;
 
-using WorkStealingQueue = ::System::Collections::Concurrent::____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T>;
+using WorkStealingQueue = System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T>;
 
-/// @brief Convert operator to ::System::Collections::Concurrent::IProducerConsumerCollection_1<T>
-constexpr operator  ::System::Collections::Concurrent::IProducerConsumerCollection_1<T>() const noexcept;
+/// @brief Convert operator to System::Collections::Concurrent::IProducerConsumerCollection_1<T>
+constexpr operator  System::Collections::Concurrent::IProducerConsumerCollection_1<T>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerable_1<T>
-constexpr operator  ::System::Collections::Generic::IEnumerable_1<T>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerable_1<T>
+constexpr operator  System::Collections::Generic::IEnumerable_1<T>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::ICollection
-constexpr operator  ::System::Collections::ICollection() const noexcept;
+/// @brief Convert operator to System::Collections::ICollection
+constexpr operator  System::Collections::ICollection() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::Generic::IReadOnlyCollection_1<T>
-constexpr operator  ::System::Collections::Generic::IReadOnlyCollection_1<T>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IReadOnlyCollection_1<T>
+constexpr operator  System::Collections::Generic::IReadOnlyCollection_1<T>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -383,17 +382,17 @@ constexpr explicit ConcurrentBag_1(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Fields
 
- ::System::Threading::ThreadLocal_1<::System::Collections::Concurrent::____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T>> __declspec(property(get=__get__locals, put=__set__locals))  _locals;
+ System::Threading::ThreadLocal_1<System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T>> __declspec(property(get=__get__locals, put=__set__locals))  _locals;
 
-constexpr void __set__locals(::System::Threading::ThreadLocal_1<::System::Collections::Concurrent::____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T>> value) ;
+constexpr void __set__locals(System::Threading::ThreadLocal_1<System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T>> value) ;
 
-constexpr ::System::Threading::ThreadLocal_1<::System::Collections::Concurrent::____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T>> __get__locals() const;
+constexpr System::Threading::ThreadLocal_1<System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T>> __get__locals() const;
 
- ::System::Collections::Concurrent::____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T> __declspec(property(get=__get__workStealingQueues, put=__set__workStealingQueues))  _workStealingQueues;
+ System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T> __declspec(property(get=__get__workStealingQueues, put=__set__workStealingQueues))  _workStealingQueues;
 
-constexpr void __set__workStealingQueues(::System::Collections::Concurrent::____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T> value) ;
+constexpr void __set__workStealingQueues(System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T> value) ;
 
-constexpr ::System::Collections::Concurrent::____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T> __get__workStealingQueues() const;
+constexpr System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T> __get__workStealingQueues() const;
 
  int64_t __declspec(property(get=__get__emptyToNonEmptyListTransitionCount, put=__set__emptyToNonEmptyListTransitionCount))  _emptyToNonEmptyListTransitionCount;
 
@@ -433,19 +432,19 @@ explicit ConcurrentBag_1() ;
  bool TryTake(ByRef<T> result) ;
 
 /// @brief Method GetCurrentThreadWorkStealingQueue addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Collections::Concurrent::____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T> GetCurrentThreadWorkStealingQueue(bool forceCreate) ;
+ System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T> GetCurrentThreadWorkStealingQueue(bool forceCreate) ;
 
 /// @brief Method CreateWorkStealingQueueForCurrentThread addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Collections::Concurrent::____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T> CreateWorkStealingQueueForCurrentThread() ;
+ System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T> CreateWorkStealingQueueForCurrentThread() ;
 
 /// @brief Method GetUnownedWorkStealingQueue addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Collections::Concurrent::____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T> GetUnownedWorkStealingQueue() ;
+ System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T> GetUnownedWorkStealingQueue() ;
 
 /// @brief Method TrySteal addr 0x0 size 0xffffffffffffffff virtual false final false
  bool TrySteal(ByRef<T> result, bool take) ;
 
 /// @brief Method TryStealFromTo addr 0x0 size 0xffffffffffffffff virtual false final false
- bool TryStealFromTo(::System::Collections::Concurrent::____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T> startInclusive, ::System::Collections::Concurrent::____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T> endExclusive, ByRef<T> result, bool take) ;
+ bool TryStealFromTo(System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T> startInclusive, System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T> endExclusive, ByRef<T> result, bool take) ;
 
 /// @brief Method CopyTo addr 0x0 size 0xffffffffffffffff virtual true final true
  void CopyTo(::ArrayW<T> array, int32_t index) ;
@@ -454,7 +453,7 @@ explicit ConcurrentBag_1() ;
  int32_t CopyFromEachQueueToArray(::ArrayW<T> array, int32_t index) ;
 
 /// @brief Method System.Collections.ICollection.CopyTo addr 0x0 size 0xffffffffffffffff virtual true final true
- void System_Collections_ICollection_CopyTo(::System::Array array, int32_t index) ;
+ void System_Collections_ICollection_CopyTo(System::Array array, int32_t index) ;
 
 /// @brief Method ToArray addr 0x0 size 0xffffffffffffffff virtual true final true
  ::ArrayW<T> ToArray() ;
@@ -463,10 +462,10 @@ explicit ConcurrentBag_1() ;
  void Clear() ;
 
 /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Collections::Generic::IEnumerator_1<T> GetEnumerator() ;
+ System::Collections::Generic::IEnumerator_1<T> GetEnumerator() ;
 
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
+ System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
 /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual true final true
  int32_t get_Count() ;
@@ -493,7 +492,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Collections::Concurrent
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Concurrent::ConcurrentBag_1, "System.Collections.Concurrent", "ConcurrentBag`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Concurrent::____System__Collections__Concurrent__ConcurrentBag_1__Enumerator, "System.Collections.Concurrent", "ConcurrentBag`1/Enumerator");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Concurrent::____System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue, "System.Collections.Concurrent", "ConcurrentBag`1/WorkStealingQueue");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Concurrent::ConcurrentBag_1, "System.Collections.Concurrent", "ConcurrentBag`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentBag_1__Enumerator, "System.Collections.Concurrent", "ConcurrentBag`1/Enumerator");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue, "System.Collections.Concurrent", "ConcurrentBag`1/WorkStealingQueue");

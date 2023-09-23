@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class IStreamCalculator;
 }
@@ -36,12 +35,11 @@ constexpr explicit IVerifierFactory(void* ptr) noexcept : ::cordl_internals::Int
  ::bs_hook::Il2CppWrapperType get_AlgorithmDetails() ;
 
 /// @brief Method CreateCalculator addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Crypto::IStreamCalculator CreateCalculator() ;
+ Org::BouncyCastle::Crypto::IStreamCalculator CreateCalculator() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::IVerifierFactory);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::IVerifierFactory, "Org.BouncyCastle.Crypto", "IVerifierFactory");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::IVerifierFactory);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::IVerifierFactory, "Org.BouncyCastle.Crypto", "IVerifierFactory");

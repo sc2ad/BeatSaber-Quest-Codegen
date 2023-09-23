@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class AssertExtensions;
@@ -63,6 +62,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::AssertExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AssertExtensions, "", "AssertExtensions");
+NEED_NO_BOX(GlobalNamespace::AssertExtensions);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AssertExtensions, "", "AssertExtensions");

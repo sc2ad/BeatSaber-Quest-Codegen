@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct LightType;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Spot offset 0
-static ::UnityEngine::LightType const Spot;
+static UnityEngine::LightType const Spot;
 
 /// @brief Field Directional offset 0
-static ::UnityEngine::LightType const Directional;
+static UnityEngine::LightType const Directional;
 
 /// @brief Field Point offset 0
-static ::UnityEngine::LightType const Point;
+static UnityEngine::LightType const Point;
 
 /// @brief Field Area offset 0
-static ::UnityEngine::LightType const Area;
+static UnityEngine::LightType const Area;
 
 /// @brief Field Rectangle offset 0
-static ::UnityEngine::LightType const Rectangle;
+static UnityEngine::LightType const Rectangle;
 
 /// @brief Field Disc offset 0
-static ::UnityEngine::LightType const Disc;
+static UnityEngine::LightType const Disc;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::LightType, "UnityEngine", "LightType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LightType, "UnityEngine", "LightType");

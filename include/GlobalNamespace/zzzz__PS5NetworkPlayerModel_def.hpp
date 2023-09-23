@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PlatformNetworkPlayerModel_def.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class PS5NetworkPlayerModel;
@@ -12,7 +11,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4597))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4599))
 // CS Name: PS5NetworkPlayerModel
-class CORDL_TYPE PS5NetworkPlayerModel : public ::GlobalNamespace::PlatformNetworkPlayerModel {
+class CORDL_TYPE PS5NetworkPlayerModel : public GlobalNamespace::PlatformNetworkPlayerModel {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr PS5NetworkPlayerModel(PS5NetworkPlayerModel const& ) noexcept = defaul
 constexpr PS5NetworkPlayerModel(PS5NetworkPlayerModel&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PS5NetworkPlayerModel(void* ptr) noexcept : ::GlobalNamespace::PlatformNetworkPlayerModel(ptr) {
+constexpr explicit PS5NetworkPlayerModel(void* ptr) noexcept : GlobalNamespace::PlatformNetworkPlayerModel(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PS5NetworkPlayerModel);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PS5NetworkPlayerModel, "", "PS5NetworkPlayerModel");
+NEED_NO_BOX(GlobalNamespace::PS5NetworkPlayerModel);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS5NetworkPlayerModel, "", "PS5NetworkPlayerModel");

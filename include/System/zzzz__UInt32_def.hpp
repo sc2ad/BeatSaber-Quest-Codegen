@@ -6,41 +6,40 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System {
-class ISpanFormattable;
-}
 namespace System {
 template<typename T>
-struct ReadOnlySpan_1;
+struct Span_1;
+}
+namespace System {
+class Type;
 }
 namespace System {
 class IConvertible;
 }
+namespace System::Globalization {
+struct NumberStyles;
+}
 namespace System {
-struct Decimal;
+class IFormatProvider;
+}
+namespace System {
+struct DateTime;
+}
+namespace System {
+struct TypeCode;
+}
+namespace System {
+class IComparable;
 }
 namespace System {
 class IFormattable;
 }
 namespace System {
 template<typename T>
-struct Span_1;
+struct ReadOnlySpan_1;
 }
 namespace System {
-class IComparable;
-}
-namespace System {
-class IFormatProvider;
-}
-namespace System {
-struct TypeCode;
-}
-namespace System::Globalization {
-struct NumberStyles;
-}
-namespace System {
-class Type;
+class ISpanFormattable;
 }
 namespace System {
 template<typename T>
@@ -51,7 +50,7 @@ template<typename T>
 class IEquatable_1;
 }
 namespace System {
-struct DateTime;
+struct Decimal;
 }
 // Forward declare root types
 namespace System {
@@ -66,23 +65,23 @@ namespace System {
 struct CORDL_TYPE UInt32 : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IComparable
-constexpr operator  ::System::IComparable() const;
+/// @brief Convert operator to System::IComparable
+constexpr operator  System::IComparable() const;
 
-/// @brief Convert operator to ::System::IConvertible
-constexpr operator  ::System::IConvertible() const;
+/// @brief Convert operator to System::IConvertible
+constexpr operator  System::IConvertible() const;
 
-/// @brief Convert operator to ::System::IFormattable
-constexpr operator  ::System::IFormattable() const;
+/// @brief Convert operator to System::IFormattable
+constexpr operator  System::IFormattable() const;
 
-/// @brief Convert operator to ::System::IComparable_1<uint32_t>
-constexpr operator  ::System::IComparable_1<uint32_t>() const;
+/// @brief Convert operator to System::IComparable_1<uint32_t>
+constexpr operator  System::IComparable_1<uint32_t>() const;
 
-/// @brief Convert operator to ::System::IEquatable_1<uint32_t>
-constexpr operator  ::System::IEquatable_1<uint32_t>() const;
+/// @brief Convert operator to System::IEquatable_1<uint32_t>
+constexpr operator  System::IEquatable_1<uint32_t>() const;
 
-/// @brief Convert operator to ::System::ISpanFormattable
-constexpr operator  ::System::ISpanFormattable() const;
+/// @brief Convert operator to System::ISpanFormattable
+constexpr operator  System::ISpanFormattable() const;
 
 // Ctor Parameters [CppParam { name: "m_value", ty: "uint32_t", modifiers: "", def_value: None }]
 constexpr UInt32(uint32_t m_value) noexcept;
@@ -152,77 +151,76 @@ static constexpr uint32_t  MinValue{0u};
  ::StringW ToString() ;
 
 /// @brief Method ToString addr 0x245e15c size 0x9c virtual true final true
- ::StringW ToString(::System::IFormatProvider provider) ;
+ ::StringW ToString(System::IFormatProvider provider) ;
 
 /// @brief Method ToString addr 0x245e1f8 size 0xb8 virtual true final true
- ::StringW ToString(::StringW format, ::System::IFormatProvider provider) ;
+ ::StringW ToString(::StringW format, System::IFormatProvider provider) ;
 
 /// @brief Method TryFormat addr 0x245e2b0 size 0xa4 virtual true final true
- bool TryFormat(::System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten, ::System::ReadOnlySpan_1<char16_t> format, ::System::IFormatProvider provider) ;
+ bool TryFormat(System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten, System::ReadOnlySpan_1<char16_t> format, System::IFormatProvider provider) ;
 
 /// @brief Method Parse addr 0x245e354 size 0xb4 virtual false final false
 static uint32_t Parse(::StringW s) ;
 
 /// @brief Method Parse addr 0x245e408 size 0xc4 virtual false final false
-static uint32_t Parse(::StringW s, ::System::IFormatProvider provider) ;
+static uint32_t Parse(::StringW s, System::IFormatProvider provider) ;
 
 /// @brief Method Parse addr 0x245e4cc size 0xd4 virtual false final false
-static uint32_t Parse(::StringW s, ::System::Globalization::NumberStyles style, ::System::IFormatProvider provider) ;
+static uint32_t Parse(::StringW s, System::Globalization::NumberStyles style, System::IFormatProvider provider) ;
 
 /// @brief Method TryParse addr 0x245e5a0 size 0xf8 virtual false final false
-static bool TryParse(::StringW s, ::System::Globalization::NumberStyles style, ::System::IFormatProvider provider, ByRef<uint32_t> result) ;
+static bool TryParse(::StringW s, System::Globalization::NumberStyles style, System::IFormatProvider provider, ByRef<uint32_t> result) ;
 
 /// @brief Method GetTypeCode addr 0x245e698 size 0x8 virtual true final true
- ::System::TypeCode GetTypeCode() ;
+ System::TypeCode GetTypeCode() ;
 
 /// @brief Method System.IConvertible.ToBoolean addr 0x245e6a0 size 0x5c virtual true final true
- bool System_IConvertible_ToBoolean(::System::IFormatProvider provider) ;
+ bool System_IConvertible_ToBoolean(System::IFormatProvider provider) ;
 
 /// @brief Method System.IConvertible.ToChar addr 0x245e6fc size 0x5c virtual true final true
- char16_t System_IConvertible_ToChar(::System::IFormatProvider provider) ;
+ char16_t System_IConvertible_ToChar(System::IFormatProvider provider) ;
 
 /// @brief Method System.IConvertible.ToSByte addr 0x245e758 size 0x5c virtual true final true
- int8_t System_IConvertible_ToSByte(::System::IFormatProvider provider) ;
+ int8_t System_IConvertible_ToSByte(System::IFormatProvider provider) ;
 
 /// @brief Method System.IConvertible.ToByte addr 0x245e7b4 size 0x5c virtual true final true
- uint8_t System_IConvertible_ToByte(::System::IFormatProvider provider) ;
+ uint8_t System_IConvertible_ToByte(System::IFormatProvider provider) ;
 
 /// @brief Method System.IConvertible.ToInt16 addr 0x245e810 size 0x5c virtual true final true
- int16_t System_IConvertible_ToInt16(::System::IFormatProvider provider) ;
+ int16_t System_IConvertible_ToInt16(System::IFormatProvider provider) ;
 
 /// @brief Method System.IConvertible.ToUInt16 addr 0x245e86c size 0x5c virtual true final true
- uint16_t System_IConvertible_ToUInt16(::System::IFormatProvider provider) ;
+ uint16_t System_IConvertible_ToUInt16(System::IFormatProvider provider) ;
 
 /// @brief Method System.IConvertible.ToInt32 addr 0x245e8c8 size 0x5c virtual true final true
- int32_t System_IConvertible_ToInt32(::System::IFormatProvider provider) ;
+ int32_t System_IConvertible_ToInt32(System::IFormatProvider provider) ;
 
 /// @brief Method System.IConvertible.ToUInt32 addr 0x245e924 size 0x8 virtual true final true
- uint32_t System_IConvertible_ToUInt32(::System::IFormatProvider provider) ;
+ uint32_t System_IConvertible_ToUInt32(System::IFormatProvider provider) ;
 
 /// @brief Method System.IConvertible.ToInt64 addr 0x245e92c size 0x5c virtual true final true
- int64_t System_IConvertible_ToInt64(::System::IFormatProvider provider) ;
+ int64_t System_IConvertible_ToInt64(System::IFormatProvider provider) ;
 
 /// @brief Method System.IConvertible.ToUInt64 addr 0x245e988 size 0x5c virtual true final true
- uint64_t System_IConvertible_ToUInt64(::System::IFormatProvider provider) ;
+ uint64_t System_IConvertible_ToUInt64(System::IFormatProvider provider) ;
 
 /// @brief Method System.IConvertible.ToSingle addr 0x245e9e4 size 0x5c virtual true final true
- float_t System_IConvertible_ToSingle(::System::IFormatProvider provider) ;
+ float_t System_IConvertible_ToSingle(System::IFormatProvider provider) ;
 
 /// @brief Method System.IConvertible.ToDouble addr 0x245ea40 size 0x5c virtual true final true
- double_t System_IConvertible_ToDouble(::System::IFormatProvider provider) ;
+ double_t System_IConvertible_ToDouble(System::IFormatProvider provider) ;
 
 /// @brief Method System.IConvertible.ToDecimal addr 0x245ea9c size 0x5c virtual true final true
- ::System::Decimal System_IConvertible_ToDecimal(::System::IFormatProvider provider) ;
+ System::Decimal System_IConvertible_ToDecimal(System::IFormatProvider provider) ;
 
 /// @brief Method System.IConvertible.ToDateTime addr 0x245eaf8 size 0x8c virtual true final true
- ::System::DateTime System_IConvertible_ToDateTime(::System::IFormatProvider provider) ;
+ System::DateTime System_IConvertible_ToDateTime(System::IFormatProvider provider) ;
 
 /// @brief Method System.IConvertible.ToType addr 0x245eb84 size 0xac virtual true final true
- ::bs_hook::Il2CppWrapperType System_IConvertible_ToType(::System::Type type, ::System::IFormatProvider provider) ;
+ ::bs_hook::Il2CppWrapperType System_IConvertible_ToType(System::Type type, System::IFormatProvider provider) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::UInt32, "System", "UInt32");
+DEFINE_IL2CPP_ARG_TYPE(System::UInt32, "System", "UInt32");

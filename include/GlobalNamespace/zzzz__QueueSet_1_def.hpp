@@ -2,14 +2,13 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace System::Collections::Generic {
-template<typename T>
-class LinkedList_1;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class LinkedList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -65,17 +64,17 @@ constexpr explicit QueueSet_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType
 
 // Fields
 
- ::System::Collections::Generic::LinkedList_1<T> __declspec(property(get=__get__linkedList, put=__set__linkedList))  _linkedList;
+ System::Collections::Generic::LinkedList_1<T> __declspec(property(get=__get__linkedList, put=__set__linkedList))  _linkedList;
 
-constexpr void __set__linkedList(::System::Collections::Generic::LinkedList_1<T> value) ;
+constexpr void __set__linkedList(System::Collections::Generic::LinkedList_1<T> value) ;
 
-constexpr ::System::Collections::Generic::LinkedList_1<T> __get__linkedList() const;
+constexpr System::Collections::Generic::LinkedList_1<T> __get__linkedList() const;
 
- ::System::Collections::Generic::HashSet_1<T> __declspec(property(get=__get__set, put=__set__set))  _set;
+ System::Collections::Generic::HashSet_1<T> __declspec(property(get=__get__set, put=__set__set))  _set;
 
-constexpr void __set__set(::System::Collections::Generic::HashSet_1<T> value) ;
+constexpr void __set__set(System::Collections::Generic::HashSet_1<T> value) ;
 
-constexpr ::System::Collections::Generic::HashSet_1<T> __get__set() const;
+constexpr System::Collections::Generic::HashSet_1<T> __get__set() const;
 
 
 // Properties
@@ -107,5 +106,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::QueueSet_1, "", "QueueSet`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::QueueSet_1, "", "QueueSet`1");

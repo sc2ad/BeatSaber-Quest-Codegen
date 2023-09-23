@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace JetBrains::Annotations {
 class PathReferenceAttribute;
@@ -13,7 +12,7 @@ namespace JetBrains::Annotations {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15699))
 // CS Name: JetBrains.Annotations.PathReferenceAttribute
-class CORDL_TYPE PathReferenceAttribute : public ::System::Attribute {
+class CORDL_TYPE PathReferenceAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr PathReferenceAttribute(PathReferenceAttribute const& ) noexcept = defa
 constexpr PathReferenceAttribute(PathReferenceAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PathReferenceAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit PathReferenceAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -85,6 +84,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def JetBrains::Annotations
-} // end anonymous namespace
-NEED_NO_BOX(::JetBrains::Annotations::PathReferenceAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::JetBrains::Annotations::PathReferenceAttribute, "JetBrains.Annotations", "PathReferenceAttribute");
+NEED_NO_BOX(JetBrains::Annotations::PathReferenceAttribute);
+DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::PathReferenceAttribute, "JetBrains.Annotations", "PathReferenceAttribute");

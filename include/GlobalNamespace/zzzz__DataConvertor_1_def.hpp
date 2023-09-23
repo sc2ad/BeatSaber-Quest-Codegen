@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace GlobalNamespace {
 template<typename TOut>
 class DataItemConvertor_1;
@@ -67,11 +66,11 @@ constexpr explicit DataConvertor_1(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Fields
 
- ::System::Collections::Generic::Dictionary_2<::System::Type,::GlobalNamespace::DataItemConvertor_1<T>> __declspec(property(get=__get__convertors, put=__set__convertors))  _convertors;
+ System::Collections::Generic::Dictionary_2<System::Type,GlobalNamespace::DataItemConvertor_1<T>> __declspec(property(get=__get__convertors, put=__set__convertors))  _convertors;
 
-constexpr void __set__convertors(::System::Collections::Generic::Dictionary_2<::System::Type,::GlobalNamespace::DataItemConvertor_1<T>> value) ;
+constexpr void __set__convertors(System::Collections::Generic::Dictionary_2<System::Type,GlobalNamespace::DataItemConvertor_1<T>> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::System::Type,::GlobalNamespace::DataItemConvertor_1<T>> __get__convertors() const;
+constexpr System::Collections::Generic::Dictionary_2<System::Type,GlobalNamespace::DataItemConvertor_1<T>> __get__convertors() const;
 
 
 // Methods
@@ -80,7 +79,7 @@ constexpr ::System::Collections::Generic::Dictionary_2<::System::Type,::GlobalNa
  T ProcessItem(::bs_hook::Il2CppWrapperType item) ;
 
 /// @brief Method AddConvertor addr 0x0 size 0xffffffffffffffff virtual false final false
- void AddConvertor(::GlobalNamespace::DataItemConvertor_1<T> dataItemConvertor) ;
+ void AddConvertor(GlobalNamespace::DataItemConvertor_1<T> dataItemConvertor) ;
 
 // Ctor Parameters []
 explicit DataConvertor_1() ;
@@ -92,5 +91,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::DataConvertor_1, "", "DataConvertor`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::DataConvertor_1, "", "DataConvertor`1");

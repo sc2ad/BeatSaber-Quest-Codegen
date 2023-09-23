@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct EVRInputFilterCancelType;
@@ -67,14 +66,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field VRInputFilterCancel_Timers offset 0
-static ::OVR::OpenVR::EVRInputFilterCancelType const VRInputFilterCancel_Timers;
+static OVR::OpenVR::EVRInputFilterCancelType const VRInputFilterCancel_Timers;
 
 /// @brief Field VRInputFilterCancel_Momentum offset 0
-static ::OVR::OpenVR::EVRInputFilterCancelType const VRInputFilterCancel_Momentum;
+static OVR::OpenVR::EVRInputFilterCancelType const VRInputFilterCancel_Momentum;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRInputFilterCancelType, "OVR.OpenVR", "EVRInputFilterCancelType");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRInputFilterCancelType, "OVR.OpenVR", "EVRInputFilterCancelType");

@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class ColorStepValuePicker;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace GlobalNamespace {
+class ColorStepValuePicker;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5522))
 // CS Name: IncDecColorController
-class CORDL_TYPE IncDecColorController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE IncDecColorController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr IncDecColorController(IncDecColorController const& ) noexcept = defaul
 constexpr IncDecColorController(IncDecColorController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit IncDecColorController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit IncDecColorController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -54,11 +53,11 @@ constexpr explicit IncDecColorController(void* ptr) noexcept : ::UnityEngine::Mo
 
 // Fields
 
- ::GlobalNamespace::ColorStepValuePicker __declspec(property(get=__get__stepValuePicker, put=__set__stepValuePicker))  _stepValuePicker;
+ GlobalNamespace::ColorStepValuePicker __declspec(property(get=__get__stepValuePicker, put=__set__stepValuePicker))  _stepValuePicker;
 
-constexpr void __set__stepValuePicker(::GlobalNamespace::ColorStepValuePicker value) ;
+constexpr void __set__stepValuePicker(GlobalNamespace::ColorStepValuePicker value) ;
 
-constexpr ::GlobalNamespace::ColorStepValuePicker __get__stepValuePicker() const;
+constexpr GlobalNamespace::ColorStepValuePicker __get__stepValuePicker() const;
 
 
 // Properties
@@ -67,7 +66,7 @@ constexpr ::GlobalNamespace::ColorStepValuePicker __get__stepValuePicker() const
 
  bool __declspec(property(put=set_enableInc))  enableInc;
 
- ::UnityEngine::Color __declspec(property(put=set_color))  color;
+ UnityEngine::Color __declspec(property(put=set_color))  color;
 
 
 // Methods
@@ -79,7 +78,7 @@ constexpr ::GlobalNamespace::ColorStepValuePicker __get__stepValuePicker() const
  void set_enableInc(bool value) ;
 
 /// @brief Method set_color addr 0x2124ef0 size 0x2c virtual false final false
- void set_color(::UnityEngine::Color value) ;
+ void set_color(UnityEngine::Color value) ;
 
 /// @brief Method Awake addr 0x2124f1c size 0xb8 virtual true final false
  void Awake() ;
@@ -103,6 +102,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IncDecColorController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IncDecColorController, "", "IncDecColorController");
+NEED_NO_BOX(GlobalNamespace::IncDecColorController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IncDecColorController, "", "IncDecColorController");

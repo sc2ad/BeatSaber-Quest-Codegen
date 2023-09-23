@@ -1,16 +1,15 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace Zenject {
+class InjectContext;
 }
 namespace Zenject {
 class IProvider;
 }
-namespace Zenject {
-class InjectContext;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace Zenject::Internal {
@@ -35,12 +34,11 @@ constexpr explicit IDecoratorProvider(void* ptr) noexcept : ::cordl_internals::I
 // Methods
 
 /// @brief Method GetAllInstances addr 0x0 size 0xffffffffffffffff virtual true final false
- void GetAllInstances(::Zenject::IProvider provider, ::Zenject::InjectContext context, ::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> buffer) ;
+ void GetAllInstances(Zenject::IProvider provider, Zenject::InjectContext context, System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> buffer) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject::Internal
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::Internal::IDecoratorProvider);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::Internal::IDecoratorProvider, "Zenject.Internal", "IDecoratorProvider");
+NEED_NO_BOX(Zenject::Internal::IDecoratorProvider);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::IDecoratorProvider, "Zenject.Internal", "IDecoratorProvider");

@@ -1,15 +1,8 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace UnityEngine::UI {
-class Toggle;
-}
 namespace UnityEngine::UI {
 class Image;
-}
-namespace HMUI {
-class HoverTextSetter;
 }
 namespace UnityEngine {
 struct Color;
@@ -19,6 +12,12 @@ class GameplayModifierParamsSO;
 }
 namespace TMPro {
 class TextMeshProUGUI;
+}
+namespace HMUI {
+class HoverTextSetter;
+}
+namespace UnityEngine::UI {
+class Toggle;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,7 +29,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5619))
 // CS Name: GameplayModifierToggle
-class CORDL_TYPE GameplayModifierToggle : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE GameplayModifierToggle : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -45,7 +44,7 @@ constexpr GameplayModifierToggle(GameplayModifierToggle const& ) noexcept = defa
 constexpr GameplayModifierToggle(GameplayModifierToggle&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GameplayModifierToggle(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit GameplayModifierToggle(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -66,63 +65,63 @@ constexpr explicit GameplayModifierToggle(void* ptr) noexcept : ::UnityEngine::M
 
 // Fields
 
- ::GlobalNamespace::GameplayModifierParamsSO __declspec(property(get=__get__gameplayModifier, put=__set__gameplayModifier))  _gameplayModifier;
+ GlobalNamespace::GameplayModifierParamsSO __declspec(property(get=__get__gameplayModifier, put=__set__gameplayModifier))  _gameplayModifier;
 
-constexpr void __set__gameplayModifier(::GlobalNamespace::GameplayModifierParamsSO value) ;
+constexpr void __set__gameplayModifier(GlobalNamespace::GameplayModifierParamsSO value) ;
 
-constexpr ::GlobalNamespace::GameplayModifierParamsSO __get__gameplayModifier() const;
+constexpr GlobalNamespace::GameplayModifierParamsSO __get__gameplayModifier() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__nameText, put=__set__nameText))  _nameText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__nameText, put=__set__nameText))  _nameText;
 
-constexpr void __set__nameText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__nameText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__nameText() const;
+constexpr TMPro::TextMeshProUGUI __get__nameText() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__multiplierText, put=__set__multiplierText))  _multiplierText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__multiplierText, put=__set__multiplierText))  _multiplierText;
 
-constexpr void __set__multiplierText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__multiplierText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__multiplierText() const;
+constexpr TMPro::TextMeshProUGUI __get__multiplierText() const;
 
- ::HMUI::HoverTextSetter __declspec(property(get=__get__hoverTextSetter, put=__set__hoverTextSetter))  _hoverTextSetter;
+ HMUI::HoverTextSetter __declspec(property(get=__get__hoverTextSetter, put=__set__hoverTextSetter))  _hoverTextSetter;
 
-constexpr void __set__hoverTextSetter(::HMUI::HoverTextSetter value) ;
+constexpr void __set__hoverTextSetter(HMUI::HoverTextSetter value) ;
 
-constexpr ::HMUI::HoverTextSetter __get__hoverTextSetter() const;
+constexpr HMUI::HoverTextSetter __get__hoverTextSetter() const;
 
- ::UnityEngine::UI::Image __declspec(property(get=__get__icon, put=__set__icon))  _icon;
+ UnityEngine::UI::Image __declspec(property(get=__get__icon, put=__set__icon))  _icon;
 
-constexpr void __set__icon(::UnityEngine::UI::Image value) ;
+constexpr void __set__icon(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get__icon() const;
+constexpr UnityEngine::UI::Image __get__icon() const;
 
- ::UnityEngine::UI::Toggle __declspec(property(get=__get__toggle, put=__set__toggle))  _toggle;
+ UnityEngine::UI::Toggle __declspec(property(get=__get__toggle, put=__set__toggle))  _toggle;
 
-constexpr void __set__toggle(::UnityEngine::UI::Toggle value) ;
+constexpr void __set__toggle(UnityEngine::UI::Toggle value) ;
 
-constexpr ::UnityEngine::UI::Toggle __get__toggle() const;
+constexpr UnityEngine::UI::Toggle __get__toggle() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__positiveColor, put=__set__positiveColor))  _positiveColor;
+ UnityEngine::Color __declspec(property(get=__get__positiveColor, put=__set__positiveColor))  _positiveColor;
 
-constexpr void __set__positiveColor(::UnityEngine::Color value) ;
+constexpr void __set__positiveColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__positiveColor() const;
+constexpr UnityEngine::Color __get__positiveColor() const;
 
 
 // Properties
 
- ::UnityEngine::UI::Toggle __declspec(property(get=get_toggle))  toggle;
+ UnityEngine::UI::Toggle __declspec(property(get=get_toggle))  toggle;
 
- ::GlobalNamespace::GameplayModifierParamsSO __declspec(property(get=get_gameplayModifier))  gameplayModifier;
+ GlobalNamespace::GameplayModifierParamsSO __declspec(property(get=get_gameplayModifier))  gameplayModifier;
 
 
 // Methods
 
 /// @brief Method get_toggle addr 0x2146a60 size 0x8 virtual false final false
- ::UnityEngine::UI::Toggle get_toggle() ;
+ UnityEngine::UI::Toggle get_toggle() ;
 
 /// @brief Method get_gameplayModifier addr 0x2146a68 size 0x8 virtual false final false
- ::GlobalNamespace::GameplayModifierParamsSO get_gameplayModifier() ;
+ GlobalNamespace::GameplayModifierParamsSO get_gameplayModifier() ;
 
 /// @brief Method Start addr 0x2146a70 size 0x37c virtual false final false
  void Start() ;
@@ -137,6 +136,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::GameplayModifierToggle);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameplayModifierToggle, "", "GameplayModifierToggle");
+NEED_NO_BOX(GlobalNamespace::GameplayModifierToggle);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifierToggle, "", "GameplayModifierToggle");

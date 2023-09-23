@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::IO {
 class TextWriter;
 }
@@ -65,11 +64,11 @@ constexpr void __set__charsLine(::ArrayW<char16_t> value) ;
 
 constexpr ::ArrayW<char16_t> __get__charsLine() const;
 
- ::System::IO::TextWriter __declspec(property(get=__get__writer, put=__set__writer))  _writer;
+ System::IO::TextWriter __declspec(property(get=__get__writer, put=__set__writer))  _writer;
 
-constexpr void __set__writer(::System::IO::TextWriter value) ;
+constexpr void __set__writer(System::IO::TextWriter value) ;
 
-constexpr ::System::IO::TextWriter __get__writer() const;
+constexpr System::IO::TextWriter __get__writer() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get__leftOverBytes, put=__set__leftOverBytes))  _leftOverBytes;
 
@@ -86,11 +85,11 @@ constexpr int32_t __get__leftOverBytesCount() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "writer", ty: "::System::IO::TextWriter", modifiers: "", def_value: None }]
-explicit Base64Encoder(::System::IO::TextWriter writer) ;
+// Ctor Parameters [CppParam { name: "writer", ty: "System::IO::TextWriter", modifiers: "", def_value: None }]
+explicit Base64Encoder(System::IO::TextWriter writer) ;
 
 /// @brief Method .ctor addr 0x24e18b8 size 0x8c virtual false final false
- void _ctor(::System::IO::TextWriter writer) ;
+ void _ctor(System::IO::TextWriter writer) ;
 
 /// @brief Method Encode addr 0x24e1944 size 0x34c virtual false final false
  void Encode(::ArrayW<uint8_t> buffer, int32_t index, int32_t count) ;
@@ -105,6 +104,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Utilities
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Utilities::Base64Encoder);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::Base64Encoder, "Newtonsoft.Json.Utilities", "Base64Encoder");
+NEED_NO_BOX(Newtonsoft::Json::Utilities::Base64Encoder);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::Base64Encoder, "Newtonsoft.Json.Utilities", "Base64Encoder");

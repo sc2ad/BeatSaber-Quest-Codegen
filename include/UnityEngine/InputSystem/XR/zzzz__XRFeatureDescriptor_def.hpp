@@ -3,16 +3,15 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine::InputSystem::XR {
-struct FeatureType;
+struct UsageHint;
 }
 namespace UnityEngine::InputSystem::XR {
-struct UsageHint;
+struct FeatureType;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XR {
@@ -27,8 +26,8 @@ namespace UnityEngine::InputSystem::XR {
 struct CORDL_TYPE XRFeatureDescriptor : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "usageHints", ty: "::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::UsageHint>", modifiers: "", def_value: None }, CppParam { name: "featureType", ty: "::UnityEngine::InputSystem::XR::FeatureType", modifiers: "", def_value: None }, CppParam { name: "customSize", ty: "uint32_t", modifiers: "", def_value: None }]
-constexpr XRFeatureDescriptor(::StringW name, ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::UsageHint> usageHints, ::UnityEngine::InputSystem::XR::FeatureType featureType, uint32_t customSize) noexcept;
+// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "usageHints", ty: "System::Collections::Generic::List_1<UnityEngine::InputSystem::XR::UsageHint>", modifiers: "", def_value: None }, CppParam { name: "featureType", ty: "UnityEngine::InputSystem::XR::FeatureType", modifiers: "", def_value: None }, CppParam { name: "customSize", ty: "uint32_t", modifiers: "", def_value: None }]
+constexpr XRFeatureDescriptor(::StringW name, System::Collections::Generic::List_1<UnityEngine::InputSystem::XR::UsageHint> usageHints, UnityEngine::InputSystem::XR::FeatureType featureType, uint32_t customSize) noexcept;
 
 
                     constexpr XRFeatureDescriptor(XRFeatureDescriptor const&) = default;
@@ -67,17 +66,17 @@ constexpr void __set_name(::StringW value) ;
 
 constexpr ::StringW __get_name() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::UsageHint> __declspec(property(get=__get_usageHints, put=__set_usageHints))  usageHints;
+ System::Collections::Generic::List_1<UnityEngine::InputSystem::XR::UsageHint> __declspec(property(get=__get_usageHints, put=__set_usageHints))  usageHints;
 
-constexpr void __set_usageHints(::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::UsageHint> value) ;
+constexpr void __set_usageHints(System::Collections::Generic::List_1<UnityEngine::InputSystem::XR::UsageHint> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::UsageHint> __get_usageHints() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::InputSystem::XR::UsageHint> __get_usageHints() const;
 
- ::UnityEngine::InputSystem::XR::FeatureType __declspec(property(get=__get_featureType, put=__set_featureType))  featureType;
+ UnityEngine::InputSystem::XR::FeatureType __declspec(property(get=__get_featureType, put=__set_featureType))  featureType;
 
-constexpr void __set_featureType(::UnityEngine::InputSystem::XR::FeatureType value) ;
+constexpr void __set_featureType(UnityEngine::InputSystem::XR::FeatureType value) ;
 
-constexpr ::UnityEngine::InputSystem::XR::FeatureType __get_featureType() const;
+constexpr UnityEngine::InputSystem::XR::FeatureType __get_featureType() const;
 
  uint32_t __declspec(property(get=__get_customSize, put=__set_customSize))  customSize;
 
@@ -89,5 +88,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::XR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::XR::XRFeatureDescriptor, "UnityEngine.InputSystem.XR", "XRFeatureDescriptor");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::XR::XRFeatureDescriptor, "UnityEngine.InputSystem.XR", "XRFeatureDescriptor");

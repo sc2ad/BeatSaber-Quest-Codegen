@@ -2,28 +2,20 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace UnityEngine::EventSystems {
+class ISubmitHandler;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
 namespace UnityEngine::EventSystems {
 class IEventSystemHandler;
 }
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
 namespace UnityEngine::EventSystems {
 class IPointerClickHandler;
-}
-namespace GlobalNamespace {
-class Signal;
-}
-namespace HMUI {
-class Interactable;
-}
-namespace UnityEngine::EventSystems {
-class ISubmitHandler;
 }
 namespace UnityEngine::UI {
 class Image;
@@ -31,17 +23,24 @@ class Image;
 namespace UnityEngine::EventSystems {
 class IPointerExitHandler;
 }
-namespace UnityEngine::EventSystems {
-class PointerEventData;
+namespace HMUI {
+class Interactable;
+}
+namespace System {
+template<typename T>
+class Action_1;
 }
 namespace UnityEngine::EventSystems {
 class BaseEventData;
 }
-namespace UnityEngine {
-struct Color;
+namespace GlobalNamespace {
+class Signal;
 }
 namespace UnityEngine::EventSystems {
 class IPointerEnterHandler;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -53,23 +52,23 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13153))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5644))
 // CS Name: MissionToggle
-class CORDL_TYPE MissionToggle : public ::UnityEngine::EventSystems::UIBehaviour {
+class CORDL_TYPE MissionToggle : public UnityEngine::EventSystems::UIBehaviour {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::EventSystems::IPointerClickHandler
-constexpr operator  ::UnityEngine::EventSystems::IPointerClickHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IPointerClickHandler
+constexpr operator  UnityEngine::EventSystems::IPointerClickHandler() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::EventSystems::IEventSystemHandler
-constexpr operator  ::UnityEngine::EventSystems::IEventSystemHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IEventSystemHandler
+constexpr operator  UnityEngine::EventSystems::IEventSystemHandler() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::EventSystems::ISubmitHandler
-constexpr operator  ::UnityEngine::EventSystems::ISubmitHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::ISubmitHandler
+constexpr operator  UnityEngine::EventSystems::ISubmitHandler() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::EventSystems::IPointerEnterHandler
-constexpr operator  ::UnityEngine::EventSystems::IPointerEnterHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IPointerEnterHandler
+constexpr operator  UnityEngine::EventSystems::IPointerEnterHandler() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::EventSystems::IPointerExitHandler
-constexpr operator  ::UnityEngine::EventSystems::IPointerExitHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IPointerExitHandler
+constexpr operator  UnityEngine::EventSystems::IPointerExitHandler() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xa0};
@@ -83,7 +82,7 @@ constexpr MissionToggle(MissionToggle const& ) noexcept = default;
 constexpr MissionToggle(MissionToggle&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MissionToggle(void* ptr) noexcept : ::UnityEngine::EventSystems::UIBehaviour(ptr) {
+constexpr explicit MissionToggle(void* ptr) noexcept : UnityEngine::EventSystems::UIBehaviour(ptr) {
 }
 
 
@@ -104,77 +103,77 @@ constexpr explicit MissionToggle(void* ptr) noexcept : ::UnityEngine::EventSyste
 
 // Fields
 
- ::GlobalNamespace::Signal __declspec(property(get=__get__missionToggleWasPressedSignal, put=__set__missionToggleWasPressedSignal))  _missionToggleWasPressedSignal;
+ GlobalNamespace::Signal __declspec(property(get=__get__missionToggleWasPressedSignal, put=__set__missionToggleWasPressedSignal))  _missionToggleWasPressedSignal;
 
-constexpr void __set__missionToggleWasPressedSignal(::GlobalNamespace::Signal value) ;
+constexpr void __set__missionToggleWasPressedSignal(GlobalNamespace::Signal value) ;
 
-constexpr ::GlobalNamespace::Signal __get__missionToggleWasPressedSignal() const;
+constexpr GlobalNamespace::Signal __get__missionToggleWasPressedSignal() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__text, put=__set__text))  _text;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__text, put=__set__text))  _text;
 
-constexpr void __set__text(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__text(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__text() const;
+constexpr TMPro::TextMeshProUGUI __get__text() const;
 
- ::UnityEngine::UI::Image __declspec(property(get=__get__lockedImage, put=__set__lockedImage))  _lockedImage;
+ UnityEngine::UI::Image __declspec(property(get=__get__lockedImage, put=__set__lockedImage))  _lockedImage;
 
-constexpr void __set__lockedImage(::UnityEngine::UI::Image value) ;
+constexpr void __set__lockedImage(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get__lockedImage() const;
+constexpr UnityEngine::UI::Image __get__lockedImage() const;
 
- ::UnityEngine::UI::Image __declspec(property(get=__get__clearedImage, put=__set__clearedImage))  _clearedImage;
+ UnityEngine::UI::Image __declspec(property(get=__get__clearedImage, put=__set__clearedImage))  _clearedImage;
 
-constexpr void __set__clearedImage(::UnityEngine::UI::Image value) ;
+constexpr void __set__clearedImage(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get__clearedImage() const;
+constexpr UnityEngine::UI::Image __get__clearedImage() const;
 
- ::UnityEngine::UI::Image __declspec(property(get=__get__bgImage, put=__set__bgImage))  _bgImage;
+ UnityEngine::UI::Image __declspec(property(get=__get__bgImage, put=__set__bgImage))  _bgImage;
 
-constexpr void __set__bgImage(::UnityEngine::UI::Image value) ;
+constexpr void __set__bgImage(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get__bgImage() const;
+constexpr UnityEngine::UI::Image __get__bgImage() const;
 
- ::UnityEngine::UI::Image __declspec(property(get=__get__strokeImage, put=__set__strokeImage))  _strokeImage;
+ UnityEngine::UI::Image __declspec(property(get=__get__strokeImage, put=__set__strokeImage))  _strokeImage;
 
-constexpr void __set__strokeImage(::UnityEngine::UI::Image value) ;
+constexpr void __set__strokeImage(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get__strokeImage() const;
+constexpr UnityEngine::UI::Image __get__strokeImage() const;
 
- ::HMUI::Interactable __declspec(property(get=__get__vrInteractable, put=__set__vrInteractable))  _vrInteractable;
+ HMUI::Interactable __declspec(property(get=__get__vrInteractable, put=__set__vrInteractable))  _vrInteractable;
 
-constexpr void __set__vrInteractable(::HMUI::Interactable value) ;
+constexpr void __set__vrInteractable(HMUI::Interactable value) ;
 
-constexpr ::HMUI::Interactable __get__vrInteractable() const;
+constexpr HMUI::Interactable __get__vrInteractable() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__disabledColor, put=__set__disabledColor))  _disabledColor;
+ UnityEngine::Color __declspec(property(get=__get__disabledColor, put=__set__disabledColor))  _disabledColor;
 
-constexpr void __set__disabledColor(::UnityEngine::Color value) ;
+constexpr void __set__disabledColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__disabledColor() const;
+constexpr UnityEngine::Color __get__disabledColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__normalColor, put=__set__normalColor))  _normalColor;
+ UnityEngine::Color __declspec(property(get=__get__normalColor, put=__set__normalColor))  _normalColor;
 
-constexpr void __set__normalColor(::UnityEngine::Color value) ;
+constexpr void __set__normalColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__normalColor() const;
+constexpr UnityEngine::Color __get__normalColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__invertColor, put=__set__invertColor))  _invertColor;
+ UnityEngine::Color __declspec(property(get=__get__invertColor, put=__set__invertColor))  _invertColor;
 
-constexpr void __set__invertColor(::UnityEngine::Color value) ;
+constexpr void __set__invertColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__invertColor() const;
+constexpr UnityEngine::Color __get__invertColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__highlightColor, put=__set__highlightColor))  _highlightColor;
+ UnityEngine::Color __declspec(property(get=__get__highlightColor, put=__set__highlightColor))  _highlightColor;
 
-constexpr void __set__highlightColor(::UnityEngine::Color value) ;
+constexpr void __set__highlightColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__highlightColor() const;
+constexpr UnityEngine::Color __get__highlightColor() const;
 
- ::System::Action_1<::GlobalNamespace::MissionToggle> __declspec(property(get=__get_selectionDidChangeEvent, put=__set_selectionDidChangeEvent))  selectionDidChangeEvent;
+ System::Action_1<GlobalNamespace::MissionToggle> __declspec(property(get=__get_selectionDidChangeEvent, put=__set_selectionDidChangeEvent))  selectionDidChangeEvent;
 
-constexpr void __set_selectionDidChangeEvent(::System::Action_1<::GlobalNamespace::MissionToggle> value) ;
+constexpr void __set_selectionDidChangeEvent(System::Action_1<GlobalNamespace::MissionToggle> value) ;
 
-constexpr ::System::Action_1<::GlobalNamespace::MissionToggle> __get_selectionDidChangeEvent() const;
+constexpr System::Action_1<GlobalNamespace::MissionToggle> __get_selectionDidChangeEvent() const;
 
  bool __declspec(property(get=__get__selected, put=__set__selected))  _selected;
 
@@ -215,10 +214,10 @@ constexpr bool __get__missionCleared() const;
 // Methods
 
 /// @brief Method add_selectionDidChangeEvent addr 0x214a730 size 0xb0 virtual false final false
- void add_selectionDidChangeEvent(::System::Action_1<::GlobalNamespace::MissionToggle> value) ;
+ void add_selectionDidChangeEvent(System::Action_1<GlobalNamespace::MissionToggle> value) ;
 
 /// @brief Method remove_selectionDidChangeEvent addr 0x214a918 size 0xb0 virtual false final false
- void remove_selectionDidChangeEvent(::System::Action_1<::GlobalNamespace::MissionToggle> value) ;
+ void remove_selectionDidChangeEvent(System::Action_1<GlobalNamespace::MissionToggle> value) ;
 
 /// @brief Method set_missionCleared addr 0x214ae30 size 0xc virtual false final false
  void set_missionCleared(bool value) ;
@@ -257,16 +256,16 @@ constexpr bool __get__missionCleared() const;
  void RefreshUI() ;
 
 /// @brief Method OnPointerClick addr 0x214b168 size 0xa8 virtual true final false
- void OnPointerClick(::UnityEngine::EventSystems::PointerEventData eventData) ;
+ void OnPointerClick(UnityEngine::EventSystems::PointerEventData eventData) ;
 
 /// @brief Method OnSubmit addr 0x214b210 size 0x98 virtual true final false
- void OnSubmit(::UnityEngine::EventSystems::BaseEventData eventData) ;
+ void OnSubmit(UnityEngine::EventSystems::BaseEventData eventData) ;
 
 /// @brief Method OnPointerEnter addr 0x214b2a8 size 0x24 virtual true final false
- void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData eventData) ;
+ void OnPointerEnter(UnityEngine::EventSystems::PointerEventData eventData) ;
 
 /// @brief Method OnPointerExit addr 0x214b2cc size 0x1c virtual true final false
- void OnPointerExit(::UnityEngine::EventSystems::PointerEventData eventData) ;
+ void OnPointerExit(UnityEngine::EventSystems::PointerEventData eventData) ;
 
 // Ctor Parameters []
 explicit MissionToggle() ;
@@ -278,6 +277,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MissionToggle);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionToggle, "", "MissionToggle");
+NEED_NO_BOX(GlobalNamespace::MissionToggle);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionToggle, "", "MissionToggle");

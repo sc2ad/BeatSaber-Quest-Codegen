@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-struct EnvironmentColorType;
-}
 namespace GlobalNamespace {
 struct BeatmapEventTransitionType;
+}
+namespace GlobalNamespace {
+struct EnvironmentColorType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -62,17 +61,17 @@ constexpr void __set_beat(float_t value) ;
 
 constexpr float_t __get_beat() const;
 
- ::GlobalNamespace::BeatmapEventTransitionType __declspec(property(get=__get_transitionType, put=__set_transitionType))  transitionType;
+ GlobalNamespace::BeatmapEventTransitionType __declspec(property(get=__get_transitionType, put=__set_transitionType))  transitionType;
 
-constexpr void __set_transitionType(::GlobalNamespace::BeatmapEventTransitionType value) ;
+constexpr void __set_transitionType(GlobalNamespace::BeatmapEventTransitionType value) ;
 
-constexpr ::GlobalNamespace::BeatmapEventTransitionType __get_transitionType() const;
+constexpr GlobalNamespace::BeatmapEventTransitionType __get_transitionType() const;
 
- ::GlobalNamespace::EnvironmentColorType __declspec(property(get=__get_colorType, put=__set_colorType))  colorType;
+ GlobalNamespace::EnvironmentColorType __declspec(property(get=__get_colorType, put=__set_colorType))  colorType;
 
-constexpr void __set_colorType(::GlobalNamespace::EnvironmentColorType value) ;
+constexpr void __set_colorType(GlobalNamespace::EnvironmentColorType value) ;
 
-constexpr ::GlobalNamespace::EnvironmentColorType __get_colorType() const;
+constexpr GlobalNamespace::EnvironmentColorType __get_colorType() const;
 
  float_t __declspec(property(get=__get_brightness, put=__set_brightness))  brightness;
 
@@ -89,16 +88,15 @@ constexpr int32_t __get_strobeBeatFrequency() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "beat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "transitionType", ty: "::GlobalNamespace::BeatmapEventTransitionType", modifiers: "", def_value: None }, CppParam { name: "colorType", ty: "::GlobalNamespace::EnvironmentColorType", modifiers: "", def_value: None }, CppParam { name: "brightness", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "strobeBeatFrequency", ty: "int32_t", modifiers: "", def_value: None }]
-explicit LightColorBaseData(float_t beat, ::GlobalNamespace::BeatmapEventTransitionType transitionType, ::GlobalNamespace::EnvironmentColorType colorType, float_t brightness, int32_t strobeBeatFrequency) ;
+// Ctor Parameters [CppParam { name: "beat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "transitionType", ty: "GlobalNamespace::BeatmapEventTransitionType", modifiers: "", def_value: None }, CppParam { name: "colorType", ty: "GlobalNamespace::EnvironmentColorType", modifiers: "", def_value: None }, CppParam { name: "brightness", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "strobeBeatFrequency", ty: "int32_t", modifiers: "", def_value: None }]
+explicit LightColorBaseData(float_t beat, GlobalNamespace::BeatmapEventTransitionType transitionType, GlobalNamespace::EnvironmentColorType colorType, float_t brightness, int32_t strobeBeatFrequency) ;
 
 /// @brief Method .ctor addr 0x21d7b94 size 0x54 virtual false final false
- void _ctor(float_t beat, ::GlobalNamespace::BeatmapEventTransitionType transitionType, ::GlobalNamespace::EnvironmentColorType colorType, float_t brightness, int32_t strobeBeatFrequency) ;
+ void _ctor(float_t beat, GlobalNamespace::BeatmapEventTransitionType transitionType, GlobalNamespace::EnvironmentColorType colorType, float_t brightness, int32_t strobeBeatFrequency) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LightColorBaseData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightColorBaseData, "", "LightColorBaseData");
+NEED_NO_BOX(GlobalNamespace::LightColorBaseData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightColorBaseData, "", "LightColorBaseData");

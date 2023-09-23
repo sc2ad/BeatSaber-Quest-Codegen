@@ -4,10 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class Mesh;
-}
 namespace UnityEngine {
 struct UIVertex;
 }
@@ -22,6 +18,9 @@ struct Color32;
 }
 namespace UnityEngine {
 struct Vector4;
+}
+namespace UnityEngine {
+class Mesh;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -40,8 +39,8 @@ namespace UnityEngine::UI {
 class CORDL_TYPE VertexHelper : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x60};
@@ -76,71 +75,71 @@ constexpr explicit VertexHelper(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 
 // Fields
 
- ::System::Collections::Generic::List_1<::UnityEngine::Vector3> __declspec(property(get=__get_m_Positions, put=__set_m_Positions))  m_Positions;
+ System::Collections::Generic::List_1<UnityEngine::Vector3> __declspec(property(get=__get_m_Positions, put=__set_m_Positions))  m_Positions;
 
-constexpr void __set_m_Positions(::System::Collections::Generic::List_1<::UnityEngine::Vector3> value) ;
+constexpr void __set_m_Positions(System::Collections::Generic::List_1<UnityEngine::Vector3> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3> __get_m_Positions() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::Vector3> __get_m_Positions() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::Color32> __declspec(property(get=__get_m_Colors, put=__set_m_Colors))  m_Colors;
+ System::Collections::Generic::List_1<UnityEngine::Color32> __declspec(property(get=__get_m_Colors, put=__set_m_Colors))  m_Colors;
 
-constexpr void __set_m_Colors(::System::Collections::Generic::List_1<::UnityEngine::Color32> value) ;
+constexpr void __set_m_Colors(System::Collections::Generic::List_1<UnityEngine::Color32> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Color32> __get_m_Colors() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::Color32> __get_m_Colors() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::Vector4> __declspec(property(get=__get_m_Uv0S, put=__set_m_Uv0S))  m_Uv0S;
+ System::Collections::Generic::List_1<UnityEngine::Vector4> __declspec(property(get=__get_m_Uv0S, put=__set_m_Uv0S))  m_Uv0S;
 
-constexpr void __set_m_Uv0S(::System::Collections::Generic::List_1<::UnityEngine::Vector4> value) ;
+constexpr void __set_m_Uv0S(System::Collections::Generic::List_1<UnityEngine::Vector4> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4> __get_m_Uv0S() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::Vector4> __get_m_Uv0S() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::Vector4> __declspec(property(get=__get_m_Uv1S, put=__set_m_Uv1S))  m_Uv1S;
+ System::Collections::Generic::List_1<UnityEngine::Vector4> __declspec(property(get=__get_m_Uv1S, put=__set_m_Uv1S))  m_Uv1S;
 
-constexpr void __set_m_Uv1S(::System::Collections::Generic::List_1<::UnityEngine::Vector4> value) ;
+constexpr void __set_m_Uv1S(System::Collections::Generic::List_1<UnityEngine::Vector4> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4> __get_m_Uv1S() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::Vector4> __get_m_Uv1S() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::Vector4> __declspec(property(get=__get_m_Uv2S, put=__set_m_Uv2S))  m_Uv2S;
+ System::Collections::Generic::List_1<UnityEngine::Vector4> __declspec(property(get=__get_m_Uv2S, put=__set_m_Uv2S))  m_Uv2S;
 
-constexpr void __set_m_Uv2S(::System::Collections::Generic::List_1<::UnityEngine::Vector4> value) ;
+constexpr void __set_m_Uv2S(System::Collections::Generic::List_1<UnityEngine::Vector4> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4> __get_m_Uv2S() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::Vector4> __get_m_Uv2S() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::Vector4> __declspec(property(get=__get_m_Uv3S, put=__set_m_Uv3S))  m_Uv3S;
+ System::Collections::Generic::List_1<UnityEngine::Vector4> __declspec(property(get=__get_m_Uv3S, put=__set_m_Uv3S))  m_Uv3S;
 
-constexpr void __set_m_Uv3S(::System::Collections::Generic::List_1<::UnityEngine::Vector4> value) ;
+constexpr void __set_m_Uv3S(System::Collections::Generic::List_1<UnityEngine::Vector4> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4> __get_m_Uv3S() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::Vector4> __get_m_Uv3S() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::Vector3> __declspec(property(get=__get_m_Normals, put=__set_m_Normals))  m_Normals;
+ System::Collections::Generic::List_1<UnityEngine::Vector3> __declspec(property(get=__get_m_Normals, put=__set_m_Normals))  m_Normals;
 
-constexpr void __set_m_Normals(::System::Collections::Generic::List_1<::UnityEngine::Vector3> value) ;
+constexpr void __set_m_Normals(System::Collections::Generic::List_1<UnityEngine::Vector3> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3> __get_m_Normals() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::Vector3> __get_m_Normals() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::Vector4> __declspec(property(get=__get_m_Tangents, put=__set_m_Tangents))  m_Tangents;
+ System::Collections::Generic::List_1<UnityEngine::Vector4> __declspec(property(get=__get_m_Tangents, put=__set_m_Tangents))  m_Tangents;
 
-constexpr void __set_m_Tangents(::System::Collections::Generic::List_1<::UnityEngine::Vector4> value) ;
+constexpr void __set_m_Tangents(System::Collections::Generic::List_1<UnityEngine::Vector4> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4> __get_m_Tangents() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::Vector4> __get_m_Tangents() const;
 
- ::System::Collections::Generic::List_1<int32_t> __declspec(property(get=__get_m_Indices, put=__set_m_Indices))  m_Indices;
+ System::Collections::Generic::List_1<int32_t> __declspec(property(get=__get_m_Indices, put=__set_m_Indices))  m_Indices;
 
-constexpr void __set_m_Indices(::System::Collections::Generic::List_1<int32_t> value) ;
+constexpr void __set_m_Indices(System::Collections::Generic::List_1<int32_t> value) ;
 
-constexpr ::System::Collections::Generic::List_1<int32_t> __get_m_Indices() const;
+constexpr System::Collections::Generic::List_1<int32_t> __get_m_Indices() const;
 
-static ::UnityEngine::Vector4 __declspec(property(get=__get_s_DefaultTangent, put=__set_s_DefaultTangent))  s_DefaultTangent;
+static UnityEngine::Vector4 __declspec(property(get=__get_s_DefaultTangent, put=__set_s_DefaultTangent))  s_DefaultTangent;
 
-static void __set_s_DefaultTangent(::UnityEngine::Vector4 value) ;
+static void __set_s_DefaultTangent(UnityEngine::Vector4 value) ;
 
-static ::UnityEngine::Vector4 __get_s_DefaultTangent() ;
+static UnityEngine::Vector4 __get_s_DefaultTangent() ;
 
-static ::UnityEngine::Vector3 __declspec(property(get=__get_s_DefaultNormal, put=__set_s_DefaultNormal))  s_DefaultNormal;
+static UnityEngine::Vector3 __declspec(property(get=__get_s_DefaultNormal, put=__set_s_DefaultNormal))  s_DefaultNormal;
 
-static void __set_s_DefaultNormal(::UnityEngine::Vector3 value) ;
+static void __set_s_DefaultNormal(UnityEngine::Vector3 value) ;
 
-static ::UnityEngine::Vector3 __get_s_DefaultNormal() ;
+static UnityEngine::Vector3 __get_s_DefaultNormal() ;
 
  bool __declspec(property(get=__get_m_ListsInitalized, put=__set_m_ListsInitalized))  m_ListsInitalized;
 
@@ -164,11 +163,11 @@ explicit VertexHelper() ;
 /// @brief Method .ctor addr 0x2c16098 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "m", ty: "::UnityEngine::Mesh", modifiers: "", def_value: None }]
-explicit VertexHelper(::UnityEngine::Mesh m) ;
+// Ctor Parameters [CppParam { name: "m", ty: "UnityEngine::Mesh", modifiers: "", def_value: None }]
+explicit VertexHelper(UnityEngine::Mesh m) ;
 
 /// @brief Method .ctor addr 0x2c160a0 size 0x238 virtual false final false
- void _ctor(::UnityEngine::Mesh m) ;
+ void _ctor(UnityEngine::Mesh m) ;
 
 /// @brief Method InitializeListIfRequired addr 0x2c162d8 size 0x190 virtual false final false
  void InitializeListIfRequired() ;
@@ -186,45 +185,44 @@ explicit VertexHelper(::UnityEngine::Mesh m) ;
  int32_t get_currentIndexCount() ;
 
 /// @brief Method PopulateUIVertex addr 0x2c166b4 size 0x160 virtual false final false
- void PopulateUIVertex(ByRef<::UnityEngine::UIVertex> vertex, int32_t i) ;
+ void PopulateUIVertex(ByRef<UnityEngine::UIVertex> vertex, int32_t i) ;
 
 /// @brief Method SetUIVertex addr 0x2c16814 size 0x15c virtual false final false
- void SetUIVertex(::UnityEngine::UIVertex vertex, int32_t i) ;
+ void SetUIVertex(UnityEngine::UIVertex vertex, int32_t i) ;
 
 /// @brief Method FillMesh addr 0x2c16970 size 0x164 virtual false final false
- void FillMesh(::UnityEngine::Mesh mesh) ;
+ void FillMesh(UnityEngine::Mesh mesh) ;
 
 /// @brief Method AddVert addr 0x2c16ad4 size 0x4fc virtual false final false
- void AddVert(::UnityEngine::Vector3 position, ::UnityEngine::Color32 color, ::UnityEngine::Vector4 uv0, ::UnityEngine::Vector4 uv1, ::UnityEngine::Vector4 uv2, ::UnityEngine::Vector4 uv3, ::UnityEngine::Vector3 normal, ::UnityEngine::Vector4 tangent) ;
+ void AddVert(UnityEngine::Vector3 position, UnityEngine::Color32 color, UnityEngine::Vector4 uv0, UnityEngine::Vector4 uv1, UnityEngine::Vector4 uv2, UnityEngine::Vector4 uv3, UnityEngine::Vector3 normal, UnityEngine::Vector4 tangent) ;
 
 /// @brief Method AddVert addr 0x2c16fd0 size 0x110 virtual false final false
- void AddVert(::UnityEngine::Vector3 position, ::UnityEngine::Color32 color, ::UnityEngine::Vector4 uv0, ::UnityEngine::Vector4 uv1, ::UnityEngine::Vector3 normal, ::UnityEngine::Vector4 tangent) ;
+ void AddVert(UnityEngine::Vector3 position, UnityEngine::Color32 color, UnityEngine::Vector4 uv0, UnityEngine::Vector4 uv1, UnityEngine::Vector3 normal, UnityEngine::Vector4 tangent) ;
 
 /// @brief Method AddVert addr 0x2c06404 size 0x130 virtual false final false
- void AddVert(::UnityEngine::Vector3 position, ::UnityEngine::Color32 color, ::UnityEngine::Vector4 uv0) ;
+ void AddVert(UnityEngine::Vector3 position, UnityEngine::Color32 color, UnityEngine::Vector4 uv0) ;
 
 /// @brief Method AddVert addr 0x2c170e0 size 0x94 virtual false final false
- void AddVert(::UnityEngine::UIVertex v) ;
+ void AddVert(UnityEngine::UIVertex v) ;
 
 /// @brief Method AddTriangle addr 0x2c06534 size 0x17c virtual false final false
  void AddTriangle(int32_t idx0, int32_t idx1, int32_t idx2) ;
 
 /// @brief Method AddUIVertexQuad addr 0x2c130c8 size 0x110 virtual false final false
- void AddUIVertexQuad(::ArrayW<::UnityEngine::UIVertex> verts) ;
+ void AddUIVertexQuad(::ArrayW<UnityEngine::UIVertex> verts) ;
 
 /// @brief Method AddUIVertexStream addr 0x2c17174 size 0xac virtual false final false
- void AddUIVertexStream(::System::Collections::Generic::List_1<::UnityEngine::UIVertex> verts, ::System::Collections::Generic::List_1<int32_t> indices) ;
+ void AddUIVertexStream(System::Collections::Generic::List_1<UnityEngine::UIVertex> verts, System::Collections::Generic::List_1<int32_t> indices) ;
 
 /// @brief Method AddUIVertexTriangleStream addr 0x2c17220 size 0x50 virtual false final false
- void AddUIVertexTriangleStream(::System::Collections::Generic::List_1<::UnityEngine::UIVertex> verts) ;
+ void AddUIVertexTriangleStream(System::Collections::Generic::List_1<UnityEngine::UIVertex> verts) ;
 
 /// @brief Method GetUIVertexStream addr 0x2c17270 size 0x50 virtual false final false
- void GetUIVertexStream(::System::Collections::Generic::List_1<::UnityEngine::UIVertex> stream) ;
+ void GetUIVertexStream(System::Collections::Generic::List_1<UnityEngine::UIVertex> stream) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UI
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UI::VertexHelper);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::VertexHelper, "UnityEngine.UI", "VertexHelper");
+NEED_NO_BOX(UnityEngine::UI::VertexHelper);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::VertexHelper, "UnityEngine.UI", "VertexHelper");

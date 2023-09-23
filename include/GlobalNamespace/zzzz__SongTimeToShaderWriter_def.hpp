@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 class IAudioTimeSource;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6052))
 // CS Name: SongTimeToShaderWriter
-class CORDL_TYPE SongTimeToShaderWriter : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SongTimeToShaderWriter : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr SongTimeToShaderWriter(SongTimeToShaderWriter const& ) noexcept = defa
 constexpr SongTimeToShaderWriter(SongTimeToShaderWriter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SongTimeToShaderWriter(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SongTimeToShaderWriter(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -52,11 +51,11 @@ constexpr explicit SongTimeToShaderWriter(void* ptr) noexcept : ::UnityEngine::M
 
 // Fields
 
- ::GlobalNamespace::IAudioTimeSource __declspec(property(get=__get__audioTimeSource, put=__set__audioTimeSource))  _audioTimeSource;
+ GlobalNamespace::IAudioTimeSource __declspec(property(get=__get__audioTimeSource, put=__set__audioTimeSource))  _audioTimeSource;
 
-constexpr void __set__audioTimeSource(::GlobalNamespace::IAudioTimeSource value) ;
+constexpr void __set__audioTimeSource(GlobalNamespace::IAudioTimeSource value) ;
 
-constexpr ::GlobalNamespace::IAudioTimeSource __get__audioTimeSource() const;
+constexpr GlobalNamespace::IAudioTimeSource __get__audioTimeSource() const;
 
 static int32_t __declspec(property(get=__get__songTimePropertyId, put=__set__songTimePropertyId))  _songTimePropertyId;
 
@@ -80,6 +79,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SongTimeToShaderWriter);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SongTimeToShaderWriter, "", "SongTimeToShaderWriter");
+NEED_NO_BOX(GlobalNamespace::SongTimeToShaderWriter);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongTimeToShaderWriter, "", "SongTimeToShaderWriter");

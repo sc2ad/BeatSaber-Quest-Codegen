@@ -4,16 +4,15 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 struct PS4ApplicationCategory;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-class PS4PublisherSKUSettingsSO;
+class GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion;
+class PS4PublisherSKUSettingsSO;
 }
 // Type: ::PS4BuildVersion
 namespace GlobalNamespace {
@@ -21,37 +20,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4642))
 // CS Name: PS4PublisherSKUSettingsSO::PS4BuildVersion
-class CORDL_TYPE ____GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion() = default;
+virtual ~GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion(____GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion(GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion(____GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion(GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion& operator=(____GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion&& o) noexcept = default;
-  constexpr ____GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion& operator=(____GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion const& o) noexcept = default;
+  constexpr GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion& operator=(GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion&& o) noexcept = default;
+  constexpr GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion& operator=(GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion const& o) noexcept = default;
                 
 
 
@@ -86,7 +85,7 @@ constexpr ::StringW __get__applicationVersion() const;
  ::StringW get_applicationVersion() ;
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion() ;
+explicit GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion() ;
 
 /// @brief Method .ctor addr 0x221a794 size 0x8 virtual false final false
  void _ctor() ;
@@ -101,10 +100,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4689))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4643))
 // CS Name: PS4PublisherSKUSettingsSO
-class CORDL_TYPE PS4PublisherSKUSettingsSO : public ::GlobalNamespace::SonyPublisherSKUSettingsSO {
+class CORDL_TYPE PS4PublisherSKUSettingsSO : public GlobalNamespace::SonyPublisherSKUSettingsSO {
 public:
 // Declarations
-using PS4BuildVersion = ::GlobalNamespace::____GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion;
+using PS4BuildVersion = GlobalNamespace::GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x60};
@@ -118,7 +117,7 @@ constexpr PS4PublisherSKUSettingsSO(PS4PublisherSKUSettingsSO const& ) noexcept 
 constexpr PS4PublisherSKUSettingsSO(PS4PublisherSKUSettingsSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PS4PublisherSKUSettingsSO(void* ptr) noexcept : ::GlobalNamespace::SonyPublisherSKUSettingsSO(ptr) {
+constexpr explicit PS4PublisherSKUSettingsSO(void* ptr) noexcept : GlobalNamespace::SonyPublisherSKUSettingsSO(ptr) {
 }
 
 
@@ -139,17 +138,17 @@ constexpr explicit PS4PublisherSKUSettingsSO(void* ptr) noexcept : ::GlobalNames
 
 // Fields
 
- ::GlobalNamespace::____GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion __declspec(property(get=__get__buildVersion, put=__set__buildVersion))  _buildVersion;
+ GlobalNamespace::GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion __declspec(property(get=__get__buildVersion, put=__set__buildVersion))  _buildVersion;
 
-constexpr void __set__buildVersion(::GlobalNamespace::____GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion value) ;
+constexpr void __set__buildVersion(GlobalNamespace::GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion __get__buildVersion() const;
+constexpr GlobalNamespace::GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion __get__buildVersion() const;
 
- ::GlobalNamespace::____GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion __declspec(property(get=__get__latestBuildVersion, put=__set__latestBuildVersion))  _latestBuildVersion;
+ GlobalNamespace::GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion __declspec(property(get=__get__latestBuildVersion, put=__set__latestBuildVersion))  _latestBuildVersion;
 
-constexpr void __set__latestBuildVersion(::GlobalNamespace::____GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion value) ;
+constexpr void __set__latestBuildVersion(GlobalNamespace::GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion __get__latestBuildVersion() const;
+constexpr GlobalNamespace::GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion __get__latestBuildVersion() const;
 
  int32_t __declspec(property(get=__get__parentalLockLevel, put=__set__parentalLockLevel))  _parentalLockLevel;
 
@@ -169,18 +168,18 @@ constexpr void __set__defaultAgeRestriction(int32_t value) ;
 
 constexpr int32_t __get__defaultAgeRestriction() const;
 
- ::GlobalNamespace::PS4ApplicationCategory __declspec(property(get=__get__applicationCategory, put=__set__applicationCategory))  _applicationCategory;
+ GlobalNamespace::PS4ApplicationCategory __declspec(property(get=__get__applicationCategory, put=__set__applicationCategory))  _applicationCategory;
 
-constexpr void __set__applicationCategory(::GlobalNamespace::PS4ApplicationCategory value) ;
+constexpr void __set__applicationCategory(GlobalNamespace::PS4ApplicationCategory value) ;
 
-constexpr ::GlobalNamespace::PS4ApplicationCategory __get__applicationCategory() const;
+constexpr GlobalNamespace::PS4ApplicationCategory __get__applicationCategory() const;
 
 
 // Properties
 
- ::GlobalNamespace::____GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion __declspec(property(get=get_buildVersion))  buildVersion;
+ GlobalNamespace::GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion __declspec(property(get=get_buildVersion))  buildVersion;
 
- ::GlobalNamespace::____GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion __declspec(property(get=get_latestBuildVersion))  latestBuildVersion;
+ GlobalNamespace::GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion __declspec(property(get=get_latestBuildVersion))  latestBuildVersion;
 
  int32_t __declspec(property(get=get_parentalLockLevel))  parentalLockLevel;
 
@@ -188,16 +187,16 @@ constexpr ::GlobalNamespace::PS4ApplicationCategory __get__applicationCategory()
 
  int32_t __declspec(property(get=get_defaultAgeRestriction))  defaultAgeRestriction;
 
- ::GlobalNamespace::PS4ApplicationCategory __declspec(property(get=get_applicationCategory))  applicationCategory;
+ GlobalNamespace::PS4ApplicationCategory __declspec(property(get=get_applicationCategory))  applicationCategory;
 
 
 // Methods
 
 /// @brief Method get_buildVersion addr 0x221a744 size 0x8 virtual false final false
- ::GlobalNamespace::____GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion get_buildVersion() ;
+ GlobalNamespace::GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion get_buildVersion() ;
 
 /// @brief Method get_latestBuildVersion addr 0x221a74c size 0x8 virtual false final false
- ::GlobalNamespace::____GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion get_latestBuildVersion() ;
+ GlobalNamespace::GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion get_latestBuildVersion() ;
 
 /// @brief Method get_parentalLockLevel addr 0x221a754 size 0x8 virtual false final false
  int32_t get_parentalLockLevel() ;
@@ -209,7 +208,7 @@ constexpr ::GlobalNamespace::PS4ApplicationCategory __get__applicationCategory()
  int32_t get_defaultAgeRestriction() ;
 
 /// @brief Method get_applicationCategory addr 0x221a76c size 0x8 virtual false final false
- ::GlobalNamespace::PS4ApplicationCategory get_applicationCategory() ;
+ GlobalNamespace::PS4ApplicationCategory get_applicationCategory() ;
 
 // Ctor Parameters []
 explicit PS4PublisherSKUSettingsSO() ;
@@ -221,8 +220,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PS4PublisherSKUSettingsSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PS4PublisherSKUSettingsSO, "", "PS4PublisherSKUSettingsSO");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion, "", "PS4PublisherSKUSettingsSO/PS4BuildVersion");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion, "", "PS4PublisherSKUSettingsSO/PS4BuildVersion");
+NEED_NO_BOX(GlobalNamespace::PS4PublisherSKUSettingsSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4PublisherSKUSettingsSO, "", "PS4PublisherSKUSettingsSO");

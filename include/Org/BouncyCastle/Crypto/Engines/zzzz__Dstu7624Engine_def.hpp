@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class IBlockCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -24,8 +23,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
 class CORDL_TYPE Dstu7624Engine : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IBlockCipher
-constexpr operator  ::Org::BouncyCastle::Crypto::IBlockCipher() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IBlockCipher
+constexpr operator  Org::BouncyCastle::Crypto::IBlockCipher() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -182,7 +181,7 @@ explicit Dstu7624Engine(int32_t blockSizeBits) ;
  void _ctor(int32_t blockSizeBits) ;
 
 /// @brief Method Init addr 0xe40920 size 0x324 virtual true final false
- void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method WorkingKeyExpandKT addr 0xe40c44 size 0x270 virtual false final false
  void WorkingKeyExpandKT(::ArrayW<uint64_t> workingKey, ::ArrayW<uint64_t> tempKeys) ;
@@ -269,6 +268,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Engines
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::Dstu7624Engine);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Engines::Dstu7624Engine, "Org.BouncyCastle.Crypto.Engines", "Dstu7624Engine");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Engines::Dstu7624Engine);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::Dstu7624Engine, "Org.BouncyCastle.Crypto.Engines", "Dstu7624Engine");

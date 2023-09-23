@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class MissionNodesManager;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5635))
 // CS Name: MissionNodeNameGenerator
-class CORDL_TYPE MissionNodeNameGenerator : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MissionNodeNameGenerator : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr MissionNodeNameGenerator(MissionNodeNameGenerator const& ) noexcept = 
 constexpr MissionNodeNameGenerator(MissionNodeNameGenerator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MissionNodeNameGenerator(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MissionNodeNameGenerator(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit MissionNodeNameGenerator(void* ptr) noexcept : ::UnityEngine:
 
 // Fields
 
- ::GlobalNamespace::MissionNodesManager __declspec(property(get=__get__missionNodesManager, put=__set__missionNodesManager))  _missionNodesManager;
+ GlobalNamespace::MissionNodesManager __declspec(property(get=__get__missionNodesManager, put=__set__missionNodesManager))  _missionNodesManager;
 
-constexpr void __set__missionNodesManager(::GlobalNamespace::MissionNodesManager value) ;
+constexpr void __set__missionNodesManager(GlobalNamespace::MissionNodesManager value) ;
 
-constexpr ::GlobalNamespace::MissionNodesManager __get__missionNodesManager() const;
+constexpr GlobalNamespace::MissionNodesManager __get__missionNodesManager() const;
 
 
 // Methods
@@ -70,6 +69,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MissionNodeNameGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionNodeNameGenerator, "", "MissionNodeNameGenerator");
+NEED_NO_BOX(GlobalNamespace::MissionNodeNameGenerator);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodeNameGenerator, "", "MissionNodeNameGenerator");

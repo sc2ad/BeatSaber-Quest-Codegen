@@ -3,16 +3,15 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
+namespace System {
+class IFormatProvider;
+}
 namespace System {
 template<typename T>
 class IEquatable_1;
 }
 namespace System {
 class IFormattable;
-}
-namespace System {
-class IFormatProvider;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -27,11 +26,11 @@ namespace UnityEngine {
 struct CORDL_TYPE RectInt : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::RectInt>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::RectInt>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::RectInt>
+constexpr operator  System::IEquatable_1<UnityEngine::RectInt>() const;
 
-/// @brief Convert operator to ::System::IFormattable
-constexpr operator  ::System::IFormattable() const;
+/// @brief Convert operator to System::IFormattable
+constexpr operator  System::IFormattable() const;
 
 // Ctor Parameters [CppParam { name: "m_XMin", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_YMin", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Height", ty: "int32_t", modifiers: "", def_value: None }]
 constexpr RectInt(int32_t m_XMin, int32_t m_YMin, int32_t m_Width, int32_t m_Height) noexcept;
@@ -153,20 +152,19 @@ constexpr int32_t __get_m_Height() const;
  void _ctor(int32_t xMin, int32_t yMin, int32_t width, int32_t height) ;
 
 /// @brief Method Overlaps addr 0x2b5218c size 0x9c virtual false final false
- bool Overlaps(::UnityEngine::RectInt other) ;
+ bool Overlaps(UnityEngine::RectInt other) ;
 
 /// @brief Method ToString addr 0x2b52228 size 0xc virtual true final false
  ::StringW ToString() ;
 
 /// @brief Method ToString addr 0x2b52234 size 0x20c virtual true final true
- ::StringW ToString(::StringW format, ::System::IFormatProvider formatProvider) ;
+ ::StringW ToString(::StringW format, System::IFormatProvider formatProvider) ;
 
 /// @brief Method Equals addr 0x2b52440 size 0x44 virtual true final true
- bool Equals(::UnityEngine::RectInt other) ;
+ bool Equals(UnityEngine::RectInt other) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::RectInt, "UnityEngine", "RectInt");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RectInt, "UnityEngine", "RectInt");

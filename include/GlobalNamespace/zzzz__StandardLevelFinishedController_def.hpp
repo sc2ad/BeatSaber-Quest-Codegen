@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class StandardLevelScenesTransitionSetupDataSO;
-}
 namespace GlobalNamespace {
 class PrepareLevelCompletionResults;
+}
+namespace GlobalNamespace {
+class StandardLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
 class ILevelEndActions;
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5181))
 // CS Name: StandardLevelFinishedController
-class CORDL_TYPE StandardLevelFinishedController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE StandardLevelFinishedController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr StandardLevelFinishedController(StandardLevelFinishedController const&
 constexpr StandardLevelFinishedController(StandardLevelFinishedController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit StandardLevelFinishedController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit StandardLevelFinishedController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -57,23 +56,23 @@ constexpr explicit StandardLevelFinishedController(void* ptr) noexcept : ::Unity
 
 // Fields
 
- ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO __declspec(property(get=__get__standardLevelSceneSetupData, put=__set__standardLevelSceneSetupData))  _standardLevelSceneSetupData;
+ GlobalNamespace::StandardLevelScenesTransitionSetupDataSO __declspec(property(get=__get__standardLevelSceneSetupData, put=__set__standardLevelSceneSetupData))  _standardLevelSceneSetupData;
 
-constexpr void __set__standardLevelSceneSetupData(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO value) ;
+constexpr void __set__standardLevelSceneSetupData(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO value) ;
 
-constexpr ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO __get__standardLevelSceneSetupData() const;
+constexpr GlobalNamespace::StandardLevelScenesTransitionSetupDataSO __get__standardLevelSceneSetupData() const;
 
- ::GlobalNamespace::PrepareLevelCompletionResults __declspec(property(get=__get__prepareLevelCompletionResults, put=__set__prepareLevelCompletionResults))  _prepareLevelCompletionResults;
+ GlobalNamespace::PrepareLevelCompletionResults __declspec(property(get=__get__prepareLevelCompletionResults, put=__set__prepareLevelCompletionResults))  _prepareLevelCompletionResults;
 
-constexpr void __set__prepareLevelCompletionResults(::GlobalNamespace::PrepareLevelCompletionResults value) ;
+constexpr void __set__prepareLevelCompletionResults(GlobalNamespace::PrepareLevelCompletionResults value) ;
 
-constexpr ::GlobalNamespace::PrepareLevelCompletionResults __get__prepareLevelCompletionResults() const;
+constexpr GlobalNamespace::PrepareLevelCompletionResults __get__prepareLevelCompletionResults() const;
 
- ::GlobalNamespace::ILevelEndActions __declspec(property(get=__get__gameplayManager, put=__set__gameplayManager))  _gameplayManager;
+ GlobalNamespace::ILevelEndActions __declspec(property(get=__get__gameplayManager, put=__set__gameplayManager))  _gameplayManager;
 
-constexpr void __set__gameplayManager(::GlobalNamespace::ILevelEndActions value) ;
+constexpr void __set__gameplayManager(GlobalNamespace::ILevelEndActions value) ;
 
-constexpr ::GlobalNamespace::ILevelEndActions __get__gameplayManager() const;
+constexpr GlobalNamespace::ILevelEndActions __get__gameplayManager() const;
 
 
 // Methods
@@ -100,6 +99,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::StandardLevelFinishedController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StandardLevelFinishedController, "", "StandardLevelFinishedController");
+NEED_NO_BOX(GlobalNamespace::StandardLevelFinishedController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelFinishedController, "", "StandardLevelFinishedController");

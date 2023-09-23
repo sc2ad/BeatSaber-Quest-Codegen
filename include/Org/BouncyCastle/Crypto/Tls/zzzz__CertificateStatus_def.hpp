@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Asn1::Ocsp {
 class OcspResponse;
 }
@@ -90,13 +89,13 @@ explicit CertificateStatus(uint8_t statusType, ::bs_hook::Il2CppWrapperType resp
  ::bs_hook::Il2CppWrapperType get_Response() ;
 
 /// @brief Method GetOcspResponse addr 0xed0c38 size 0xd4 virtual true final false
- ::Org::BouncyCastle::Asn1::Ocsp::OcspResponse GetOcspResponse() ;
+ Org::BouncyCastle::Asn1::Ocsp::OcspResponse GetOcspResponse() ;
 
 /// @brief Method Encode addr 0xed0d0c size 0x150 virtual true final false
- void Encode(::System::IO::Stream output) ;
+ void Encode(System::IO::Stream output) ;
 
 /// @brief Method Parse addr 0xed0e5c size 0x114 virtual false final false
-static ::Org::BouncyCastle::Crypto::Tls::CertificateStatus Parse(::System::IO::Stream input) ;
+static Org::BouncyCastle::Crypto::Tls::CertificateStatus Parse(System::IO::Stream input) ;
 
 /// @brief Method IsCorrectType addr 0xed0b40 size 0xe8 virtual false final false
 static bool IsCorrectType(uint8_t statusType, ::bs_hook::Il2CppWrapperType response) ;
@@ -105,6 +104,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::CertificateStatus);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::CertificateStatus, "Org.BouncyCastle.Crypto.Tls", "CertificateStatus");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::CertificateStatus);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::CertificateStatus, "Org.BouncyCastle.Crypto.Tls", "CertificateStatus");

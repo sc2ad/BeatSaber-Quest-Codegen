@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 namespace System {
 class Type;
 }
@@ -15,7 +14,7 @@ namespace System::Runtime::CompilerServices {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3348))
 // CS Name: System.Runtime.CompilerServices.AsyncMethodBuilderAttribute
-class CORDL_TYPE AsyncMethodBuilderAttribute : public ::System::Attribute {
+class CORDL_TYPE AsyncMethodBuilderAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr AsyncMethodBuilderAttribute(AsyncMethodBuilderAttribute const& ) noexc
 constexpr AsyncMethodBuilderAttribute(AsyncMethodBuilderAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AsyncMethodBuilderAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit AsyncMethodBuilderAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -51,25 +50,24 @@ constexpr explicit AsyncMethodBuilderAttribute(void* ptr) noexcept : ::System::A
 
 // Fields
 
- ::System::Type __declspec(property(get=__get__BuilderType_k__BackingField, put=__set__BuilderType_k__BackingField))  _BuilderType_k__BackingField;
+ System::Type __declspec(property(get=__get__BuilderType_k__BackingField, put=__set__BuilderType_k__BackingField))  _BuilderType_k__BackingField;
 
-constexpr void __set__BuilderType_k__BackingField(::System::Type value) ;
+constexpr void __set__BuilderType_k__BackingField(System::Type value) ;
 
-constexpr ::System::Type __get__BuilderType_k__BackingField() const;
+constexpr System::Type __get__BuilderType_k__BackingField() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "builderType", ty: "::System::Type", modifiers: "", def_value: None }]
-explicit AsyncMethodBuilderAttribute(::System::Type builderType) ;
+// Ctor Parameters [CppParam { name: "builderType", ty: "System::Type", modifiers: "", def_value: None }]
+explicit AsyncMethodBuilderAttribute(System::Type builderType) ;
 
 /// @brief Method .ctor addr 0x236d98c size 0x28 virtual false final false
- void _ctor(::System::Type builderType) ;
+ void _ctor(System::Type builderType) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::CompilerServices
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::CompilerServices::AsyncMethodBuilderAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::AsyncMethodBuilderAttribute, "System.Runtime.CompilerServices", "AsyncMethodBuilderAttribute");
+NEED_NO_BOX(System::Runtime::CompilerServices::AsyncMethodBuilderAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncMethodBuilderAttribute, "System.Runtime.CompilerServices", "AsyncMethodBuilderAttribute");

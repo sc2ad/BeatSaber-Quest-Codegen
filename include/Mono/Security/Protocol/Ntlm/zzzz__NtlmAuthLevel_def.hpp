@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Mono::Security::Protocol::Ntlm {
 struct NtlmAuthLevel;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field LM_and_NTLM offset 0
-static ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel const LM_and_NTLM;
+static Mono::Security::Protocol::Ntlm::NtlmAuthLevel const LM_and_NTLM;
 
 /// @brief Field LM_and_NTLM_and_try_NTLMv2_Session offset 0
-static ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel const LM_and_NTLM_and_try_NTLMv2_Session;
+static Mono::Security::Protocol::Ntlm::NtlmAuthLevel const LM_and_NTLM_and_try_NTLMv2_Session;
 
 /// @brief Field NTLM_only offset 0
-static ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel const NTLM_only;
+static Mono::Security::Protocol::Ntlm::NtlmAuthLevel const NTLM_only;
 
 /// @brief Field NTLMv2_only offset 0
-static ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel const NTLMv2_only;
+static Mono::Security::Protocol::Ntlm::NtlmAuthLevel const NTLMv2_only;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Mono::Security::Protocol::Ntlm
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Protocol::Ntlm::NtlmAuthLevel, "Mono.Security.Protocol.Ntlm", "NtlmAuthLevel");
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::NtlmAuthLevel, "Mono.Security.Protocol.Ntlm", "NtlmAuthLevel");

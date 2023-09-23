@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class Exception;
 }
@@ -16,7 +15,7 @@ namespace System::Net::Http {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2560))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14813))
 // CS Name: System.Net.Http.HttpRequestException
-class CORDL_TYPE HttpRequestException : public ::System::Exception {
+class CORDL_TYPE HttpRequestException : public System::Exception {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr HttpRequestException(HttpRequestException const& ) noexcept = default;
 constexpr HttpRequestException(HttpRequestException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HttpRequestException(void* ptr) noexcept : ::System::Exception(ptr) {
+constexpr explicit HttpRequestException(void* ptr) noexcept : System::Exception(ptr) {
 }
 
 
@@ -64,16 +63,15 @@ explicit HttpRequestException(::StringW message) ;
 /// @brief Method .ctor addr 0x26a123c size 0x68 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "inner", ty: "::System::Exception", modifiers: "", def_value: None }]
-explicit HttpRequestException(::StringW message, ::System::Exception inner) ;
+// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "inner", ty: "System::Exception", modifiers: "", def_value: None }]
+explicit HttpRequestException(::StringW message, System::Exception inner) ;
 
 /// @brief Method .ctor addr 0x269eb78 size 0x70 virtual false final false
- void _ctor(::StringW message, ::System::Exception inner) ;
+ void _ctor(::StringW message, System::Exception inner) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Http
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Http::HttpRequestException);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::HttpRequestException, "System.Net.Http", "HttpRequestException");
+NEED_NO_BOX(System::Net::Http::HttpRequestException);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpRequestException, "System.Net.Http", "HttpRequestException");

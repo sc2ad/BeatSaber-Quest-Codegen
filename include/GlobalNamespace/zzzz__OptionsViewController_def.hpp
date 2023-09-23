@@ -3,20 +3,19 @@
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System {
-template<typename T>
-class Action_1;
-}
 namespace UnityEngine::UI {
 class Button;
 }
 namespace GlobalNamespace {
 class AppStaticSettingsSO;
 }
+namespace System {
+template<typename T>
+class Action_1;
+}
 // Forward declare root types
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OptionsViewController__OptionsButton;
+struct GlobalNamespace__OptionsViewController__OptionsButton;
 }
 namespace GlobalNamespace {
 class OptionsViewController;
@@ -27,20 +26,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5821))
 // CS Name: OptionsViewController::OptionsButton
-struct CORDL_TYPE ____GlobalNamespace__OptionsViewController__OptionsButton : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__OptionsViewController__OptionsButton : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__OptionsViewController__OptionsButton(int32_t value__) noexcept;
+constexpr GlobalNamespace__OptionsViewController__OptionsButton(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__OptionsViewController__OptionsButton(____GlobalNamespace__OptionsViewController__OptionsButton const&) = default;
-                    constexpr ____GlobalNamespace__OptionsViewController__OptionsButton(____GlobalNamespace__OptionsViewController__OptionsButton&&) = default;
-                    constexpr ____GlobalNamespace__OptionsViewController__OptionsButton& operator=(____GlobalNamespace__OptionsViewController__OptionsButton const& o) {
+                    constexpr GlobalNamespace__OptionsViewController__OptionsButton(GlobalNamespace__OptionsViewController__OptionsButton const&) = default;
+                    constexpr GlobalNamespace__OptionsViewController__OptionsButton(GlobalNamespace__OptionsViewController__OptionsButton&&) = default;
+                    constexpr GlobalNamespace__OptionsViewController__OptionsButton& operator=(GlobalNamespace__OptionsViewController__OptionsButton const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__OptionsViewController__OptionsButton& operator=(____GlobalNamespace__OptionsViewController__OptionsButton&& o) noexcept {
+                    constexpr GlobalNamespace__OptionsViewController__OptionsButton& operator=(GlobalNamespace__OptionsViewController__OptionsButton&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -53,7 +52,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OptionsViewController__OptionsButton(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__OptionsViewController__OptionsButton(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -61,15 +60,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__OptionsViewController__OptionsButton_Unwrapped : int32_t {
+enum class __GlobalNamespace__OptionsViewController__OptionsButton_Unwrapped : int32_t {
 __EditAvatar = 0,
 __PlayerOptions = 1,
 __Settings = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__OptionsViewController__OptionsButton_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__OptionsViewController__OptionsButton_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__OptionsViewController__OptionsButton_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__OptionsViewController__OptionsButton_Unwrapped>(__instance);
 }
 
 
@@ -82,13 +81,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field EditAvatar offset 0
-static ::GlobalNamespace::____GlobalNamespace__OptionsViewController__OptionsButton const EditAvatar;
+static GlobalNamespace::GlobalNamespace__OptionsViewController__OptionsButton const EditAvatar;
 
 /// @brief Field PlayerOptions offset 0
-static ::GlobalNamespace::____GlobalNamespace__OptionsViewController__OptionsButton const PlayerOptions;
+static GlobalNamespace::GlobalNamespace__OptionsViewController__OptionsButton const PlayerOptions;
 
 /// @brief Field Settings offset 0
-static ::GlobalNamespace::____GlobalNamespace__OptionsViewController__OptionsButton const Settings;
+static GlobalNamespace::GlobalNamespace__OptionsViewController__OptionsButton const Settings;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -100,10 +99,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13656))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5822))
 // CS Name: OptionsViewController
-class CORDL_TYPE OptionsViewController : public ::HMUI::ViewController {
+class CORDL_TYPE OptionsViewController : public HMUI::ViewController {
 public:
 // Declarations
-using OptionsButton = ::GlobalNamespace::____GlobalNamespace__OptionsViewController__OptionsButton;
+using OptionsButton = GlobalNamespace::GlobalNamespace__OptionsViewController__OptionsButton;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x98};
@@ -117,7 +116,7 @@ constexpr OptionsViewController(OptionsViewController const& ) noexcept = defaul
 constexpr OptionsViewController(OptionsViewController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OptionsViewController(void* ptr) noexcept : ::HMUI::ViewController(ptr) {
+constexpr explicit OptionsViewController(void* ptr) noexcept : HMUI::ViewController(ptr) {
 }
 
 
@@ -138,44 +137,44 @@ constexpr explicit OptionsViewController(void* ptr) noexcept : ::HMUI::ViewContr
 
 // Fields
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__editAvatarButton, put=__set__editAvatarButton))  _editAvatarButton;
+ UnityEngine::UI::Button __declspec(property(get=__get__editAvatarButton, put=__set__editAvatarButton))  _editAvatarButton;
 
-constexpr void __set__editAvatarButton(::UnityEngine::UI::Button value) ;
+constexpr void __set__editAvatarButton(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__editAvatarButton() const;
+constexpr UnityEngine::UI::Button __get__editAvatarButton() const;
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__playerOptionsButton, put=__set__playerOptionsButton))  _playerOptionsButton;
+ UnityEngine::UI::Button __declspec(property(get=__get__playerOptionsButton, put=__set__playerOptionsButton))  _playerOptionsButton;
 
-constexpr void __set__playerOptionsButton(::UnityEngine::UI::Button value) ;
+constexpr void __set__playerOptionsButton(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__playerOptionsButton() const;
+constexpr UnityEngine::UI::Button __get__playerOptionsButton() const;
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__settingsButton, put=__set__settingsButton))  _settingsButton;
+ UnityEngine::UI::Button __declspec(property(get=__get__settingsButton, put=__set__settingsButton))  _settingsButton;
 
-constexpr void __set__settingsButton(::UnityEngine::UI::Button value) ;
+constexpr void __set__settingsButton(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__settingsButton() const;
+constexpr UnityEngine::UI::Button __get__settingsButton() const;
 
- ::GlobalNamespace::AppStaticSettingsSO __declspec(property(get=__get__appStaticSettings, put=__set__appStaticSettings))  _appStaticSettings;
+ GlobalNamespace::AppStaticSettingsSO __declspec(property(get=__get__appStaticSettings, put=__set__appStaticSettings))  _appStaticSettings;
 
-constexpr void __set__appStaticSettings(::GlobalNamespace::AppStaticSettingsSO value) ;
+constexpr void __set__appStaticSettings(GlobalNamespace::AppStaticSettingsSO value) ;
 
-constexpr ::GlobalNamespace::AppStaticSettingsSO __get__appStaticSettings() const;
+constexpr GlobalNamespace::AppStaticSettingsSO __get__appStaticSettings() const;
 
- ::System::Action_1<::GlobalNamespace::____GlobalNamespace__OptionsViewController__OptionsButton> __declspec(property(get=__get_didFinishEvent, put=__set_didFinishEvent))  didFinishEvent;
+ System::Action_1<GlobalNamespace::GlobalNamespace__OptionsViewController__OptionsButton> __declspec(property(get=__get_didFinishEvent, put=__set_didFinishEvent))  didFinishEvent;
 
-constexpr void __set_didFinishEvent(::System::Action_1<::GlobalNamespace::____GlobalNamespace__OptionsViewController__OptionsButton> value) ;
+constexpr void __set_didFinishEvent(System::Action_1<GlobalNamespace::GlobalNamespace__OptionsViewController__OptionsButton> value) ;
 
-constexpr ::System::Action_1<::GlobalNamespace::____GlobalNamespace__OptionsViewController__OptionsButton> __get_didFinishEvent() const;
+constexpr System::Action_1<GlobalNamespace::GlobalNamespace__OptionsViewController__OptionsButton> __get_didFinishEvent() const;
 
 
 // Methods
 
 /// @brief Method add_didFinishEvent addr 0x217bb7c size 0xb0 virtual false final false
- void add_didFinishEvent(::System::Action_1<::GlobalNamespace::____GlobalNamespace__OptionsViewController__OptionsButton> value) ;
+ void add_didFinishEvent(System::Action_1<GlobalNamespace::GlobalNamespace__OptionsViewController__OptionsButton> value) ;
 
 /// @brief Method remove_didFinishEvent addr 0x217bc2c size 0xb0 virtual false final false
- void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::____GlobalNamespace__OptionsViewController__OptionsButton> value) ;
+ void remove_didFinishEvent(System::Action_1<GlobalNamespace::GlobalNamespace__OptionsViewController__OptionsButton> value) ;
 
 /// @brief Method DidActivate addr 0x217bcdc size 0x190 virtual true final false
  void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) ;
@@ -199,7 +198,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OptionsViewController__OptionsButton, "", "OptionsViewController/OptionsButton");
-NEED_NO_BOX(::GlobalNamespace::OptionsViewController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OptionsViewController, "", "OptionsViewController");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OptionsViewController__OptionsButton, "", "OptionsViewController/OptionsButton");
+NEED_NO_BOX(GlobalNamespace::OptionsViewController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OptionsViewController, "", "OptionsViewController");

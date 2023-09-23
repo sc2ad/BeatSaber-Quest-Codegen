@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class Type;
 }
@@ -16,7 +15,7 @@ namespace System::Diagnostics {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3721))
 // CS Name: System.Diagnostics.DebuggerTypeProxyAttribute
-class CORDL_TYPE DebuggerTypeProxyAttribute : public ::System::Attribute {
+class CORDL_TYPE DebuggerTypeProxyAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr DebuggerTypeProxyAttribute(DebuggerTypeProxyAttribute const& ) noexcep
 constexpr DebuggerTypeProxyAttribute(DebuggerTypeProxyAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DebuggerTypeProxyAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit DebuggerTypeProxyAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -61,16 +60,15 @@ constexpr ::StringW __get_typeName() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "::System::Type", modifiers: "", def_value: None }]
-explicit DebuggerTypeProxyAttribute(::System::Type type) ;
+// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
+explicit DebuggerTypeProxyAttribute(System::Type type) ;
 
 /// @brief Method .ctor addr 0x240bff4 size 0xe8 virtual false final false
- void _ctor(::System::Type type) ;
+ void _ctor(System::Type type) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Diagnostics
-} // end anonymous namespace
-NEED_NO_BOX(::System::Diagnostics::DebuggerTypeProxyAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::DebuggerTypeProxyAttribute, "System.Diagnostics", "DebuggerTypeProxyAttribute");
+NEED_NO_BOX(System::Diagnostics::DebuggerTypeProxyAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DebuggerTypeProxyAttribute, "System.Diagnostics", "DebuggerTypeProxyAttribute");

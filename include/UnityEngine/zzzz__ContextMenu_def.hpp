@@ -3,7 +3,6 @@
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 class ContextMenu;
@@ -14,7 +13,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10158))
 // CS Name: UnityEngine.ContextMenu
-class CORDL_TYPE ContextMenu : public ::System::Attribute {
+class CORDL_TYPE ContextMenu : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr ContextMenu(ContextMenu const& ) noexcept = default;
 constexpr ContextMenu(ContextMenu&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ContextMenu(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit ContextMenu(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -93,6 +92,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ContextMenu);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ContextMenu, "UnityEngine", "ContextMenu");
+NEED_NO_BOX(UnityEngine::ContextMenu);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ContextMenu, "UnityEngine", "ContextMenu");

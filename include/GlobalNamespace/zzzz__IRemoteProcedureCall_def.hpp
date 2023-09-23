@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
 class IPoolablePacket;
 }
@@ -21,11 +20,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE IRemoteProcedureCall : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::LiteNetLib::Utils::INetSerializable
-constexpr operator  ::LiteNetLib::Utils::INetSerializable() const noexcept;
+/// @brief Convert operator to LiteNetLib::Utils::INetSerializable
+constexpr operator  LiteNetLib::Utils::INetSerializable() const noexcept;
 
-/// @brief Convert operator to ::GlobalNamespace::IPoolablePacket
-constexpr operator  ::GlobalNamespace::IPoolablePacket() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IPoolablePacket
+constexpr operator  GlobalNamespace::IPoolablePacket() const noexcept;
 
 ~IRemoteProcedureCall() = default;
 
@@ -48,6 +47,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IRemoteProcedureCall);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IRemoteProcedureCall, "", "IRemoteProcedureCall");
+NEED_NO_BOX(GlobalNamespace::IRemoteProcedureCall);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IRemoteProcedureCall, "", "IRemoteProcedureCall");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Numerics {
 template<typename T>
 struct Vector_1;
@@ -60,19 +59,18 @@ static bool __declspec(property(get=get_IsHardwareAccelerated))  IsHardwareAccel
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static ::System::Numerics::Vector_1<T> Equals(::System::Numerics::Vector_1<T> left, ::System::Numerics::Vector_1<T> right) ;
+static System::Numerics::Vector_1<T> Equals(System::Numerics::Vector_1<T> left, System::Numerics::Vector_1<T> right) ;
 
 /// @brief Method get_IsHardwareAccelerated addr 0x238ec2c size 0x8 virtual false final false
 static bool get_IsHardwareAccelerated() ;
 
 /// @brief Method AsVectorUInt64 addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static ::System::Numerics::Vector_1<uint64_t> AsVectorUInt64(::System::Numerics::Vector_1<T> value) ;
+static System::Numerics::Vector_1<uint64_t> AsVectorUInt64(System::Numerics::Vector_1<T> value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Numerics
-} // end anonymous namespace
-NEED_NO_BOX(::System::Numerics::Vector);
-DEFINE_IL2CPP_ARG_TYPE(::System::Numerics::Vector, "System.Numerics", "Vector");
+NEED_NO_BOX(System::Numerics::Vector);
+DEFINE_IL2CPP_ARG_TYPE(System::Numerics::Vector, "System.Numerics", "Vector");

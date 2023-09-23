@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 class IEquatable_1;
@@ -22,8 +21,8 @@ namespace UnityEngine {
 struct CORDL_TYPE Cache : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::Cache>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::Cache>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::Cache>
+constexpr operator  System::IEquatable_1<UnityEngine::Cache>() const;
 
 // Ctor Parameters [CppParam { name: "m_Handle", ty: "int32_t", modifiers: "", def_value: None }]
 constexpr Cache(int32_t m_Handle) noexcept;
@@ -91,7 +90,7 @@ constexpr int32_t __get_m_Handle() const;
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
 
 /// @brief Method Equals addr 0x2b4f398 size 0x10 virtual true final true
- bool Equals(::UnityEngine::Cache other) ;
+ bool Equals(UnityEngine::Cache other) ;
 
 /// @brief Method get_valid addr 0x2b4f058 size 0x3c virtual false final false
  bool get_valid() ;
@@ -121,5 +120,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Cache, "UnityEngine", "Cache");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Cache, "UnityEngine", "Cache");

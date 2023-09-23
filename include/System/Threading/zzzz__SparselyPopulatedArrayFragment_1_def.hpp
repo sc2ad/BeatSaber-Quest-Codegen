@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Threading {
 template<typename T>
@@ -70,17 +69,17 @@ constexpr void __set__freeCount(int32_t value) ;
 
 constexpr int32_t __get__freeCount() const;
 
- ::System::Threading::SparselyPopulatedArrayFragment_1<T> __declspec(property(get=__get__next, put=__set__next))  _next;
+ System::Threading::SparselyPopulatedArrayFragment_1<T> __declspec(property(get=__get__next, put=__set__next))  _next;
 
-constexpr void __set__next(::System::Threading::SparselyPopulatedArrayFragment_1<T> value) ;
+constexpr void __set__next(System::Threading::SparselyPopulatedArrayFragment_1<T> value) ;
 
-constexpr ::System::Threading::SparselyPopulatedArrayFragment_1<T> __get__next() const;
+constexpr System::Threading::SparselyPopulatedArrayFragment_1<T> __get__next() const;
 
- ::System::Threading::SparselyPopulatedArrayFragment_1<T> __declspec(property(get=__get__prev, put=__set__prev))  _prev;
+ System::Threading::SparselyPopulatedArrayFragment_1<T> __declspec(property(get=__get__prev, put=__set__prev))  _prev;
 
-constexpr void __set__prev(::System::Threading::SparselyPopulatedArrayFragment_1<T> value) ;
+constexpr void __set__prev(System::Threading::SparselyPopulatedArrayFragment_1<T> value) ;
 
-constexpr ::System::Threading::SparselyPopulatedArrayFragment_1<T> __get__prev() const;
+constexpr System::Threading::SparselyPopulatedArrayFragment_1<T> __get__prev() const;
 
 
 // Properties
@@ -89,7 +88,7 @@ constexpr ::System::Threading::SparselyPopulatedArrayFragment_1<T> __get__prev()
 
  int32_t __declspec(property(get=get_Length))  Length;
 
- ::System::Threading::SparselyPopulatedArrayFragment_1<T> __declspec(property(get=get_Prev))  Prev;
+ System::Threading::SparselyPopulatedArrayFragment_1<T> __declspec(property(get=get_Prev))  Prev;
 
 
 // Methods
@@ -100,11 +99,11 @@ explicit SparselyPopulatedArrayFragment_1(int32_t size) ;
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t size) ;
 
-// Ctor Parameters [CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "prev", ty: "::System::Threading::SparselyPopulatedArrayFragment_1<T>", modifiers: "", def_value: None }]
-explicit SparselyPopulatedArrayFragment_1(int32_t size, ::System::Threading::SparselyPopulatedArrayFragment_1<T> prev) ;
+// Ctor Parameters [CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "prev", ty: "System::Threading::SparselyPopulatedArrayFragment_1<T>", modifiers: "", def_value: None }]
+explicit SparselyPopulatedArrayFragment_1(int32_t size, System::Threading::SparselyPopulatedArrayFragment_1<T> prev) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(int32_t size, ::System::Threading::SparselyPopulatedArrayFragment_1<T> prev) ;
+ void _ctor(int32_t size, System::Threading::SparselyPopulatedArrayFragment_1<T> prev) ;
 
 /// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual false final false
  T get_Item(int32_t index) ;
@@ -113,7 +112,7 @@ explicit SparselyPopulatedArrayFragment_1(int32_t size, ::System::Threading::Spa
  int32_t get_Length() ;
 
 /// @brief Method get_Prev addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Threading::SparselyPopulatedArrayFragment_1<T> get_Prev() ;
+ System::Threading::SparselyPopulatedArrayFragment_1<T> get_Prev() ;
 
 /// @brief Method SafeAtomicRemove addr 0x0 size 0xffffffffffffffff virtual false final false
  T SafeAtomicRemove(int32_t index, T expectedElement) ;
@@ -122,5 +121,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Threading
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Threading::SparselyPopulatedArrayFragment_1, "System.Threading", "SparselyPopulatedArrayFragment`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Threading::SparselyPopulatedArrayFragment_1, "System.Threading", "SparselyPopulatedArrayFragment`1");

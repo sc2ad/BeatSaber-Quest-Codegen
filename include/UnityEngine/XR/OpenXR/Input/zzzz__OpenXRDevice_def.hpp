@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::XR::OpenXR::Input {
 class OpenXRDevice;
@@ -12,7 +11,7 @@ namespace UnityEngine::XR::OpenXR::Input {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6322))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14189))
 // CS Name: UnityEngine.XR.OpenXR.Input.OpenXRDevice
-class CORDL_TYPE OpenXRDevice : public ::UnityEngine::InputSystem::InputDevice {
+class CORDL_TYPE OpenXRDevice : public UnityEngine::InputSystem::InputDevice {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr OpenXRDevice(OpenXRDevice const& ) noexcept = default;
 constexpr OpenXRDevice(OpenXRDevice&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OpenXRDevice(void* ptr) noexcept : ::UnityEngine::InputSystem::InputDevice(ptr) {
+constexpr explicit OpenXRDevice(void* ptr) noexcept : UnityEngine::InputSystem::InputDevice(ptr) {
 }
 
 
@@ -61,6 +60,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR::OpenXR::Input
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::XR::OpenXR::Input::OpenXRDevice);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::Input::OpenXRDevice, "UnityEngine.XR.OpenXR.Input", "OpenXRDevice");
+NEED_NO_BOX(UnityEngine::XR::OpenXR::Input::OpenXRDevice);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::OpenXR::Input::OpenXRDevice, "UnityEngine.XR.OpenXR.Input", "OpenXRDevice");

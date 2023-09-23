@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_ReloadEventData_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_1_def.hpp"
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 class HEU_ReloadDataEvent;
@@ -10,10 +9,10 @@ class HEU_ReloadDataEvent;
 // Type: HoudiniEngineUnity::HEU_ReloadDataEvent
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10401)), TypeDefinitionIndex(TypeDefinitionIndex(9537)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 5065 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 5065 }), TypeDefinitionIndex(TypeDefinitionIndex(9537))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9542))
 // CS Name: HoudiniEngineUnity.HEU_ReloadDataEvent
-class CORDL_TYPE HEU_ReloadDataEvent : public ::UnityEngine::Events::UnityEvent_1<::HoudiniEngineUnity::HEU_ReloadEventData> {
+class CORDL_TYPE HEU_ReloadDataEvent : public UnityEngine::Events::UnityEvent_1<HoudiniEngineUnity::HEU_ReloadEventData> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr HEU_ReloadDataEvent(HEU_ReloadDataEvent const& ) noexcept = default;
 constexpr HEU_ReloadDataEvent(HEU_ReloadDataEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HEU_ReloadDataEvent(void* ptr) noexcept : ::UnityEngine::Events::UnityEvent_1<::HoudiniEngineUnity::HEU_ReloadEventData>(ptr) {
+constexpr explicit HEU_ReloadDataEvent(void* ptr) noexcept : UnityEngine::Events::UnityEvent_1<HoudiniEngineUnity::HEU_ReloadEventData>(ptr) {
 }
 
 
@@ -59,6 +58,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_ReloadDataEvent);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_ReloadDataEvent, "HoudiniEngineUnity", "HEU_ReloadDataEvent");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_ReloadDataEvent);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ReloadDataEvent, "HoudiniEngineUnity", "HEU_ReloadDataEvent");

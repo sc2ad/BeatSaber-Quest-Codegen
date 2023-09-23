@@ -3,20 +3,19 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct AsyncTaskMethodBuilder_1;
-}
-namespace System {
-class Exception;
-}
 namespace System::Threading::Tasks {
 template<typename TResult>
 struct ValueTask_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+template<typename TResult>
+struct AsyncTaskMethodBuilder_1;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
@@ -43,8 +42,8 @@ template<::cordl_internals::il2cpp_reference_type TResult>
 struct CORDL_TYPE AsyncValueTaskMethodBuilder_1<TResult> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "_methodBuilder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult>", modifiers: "", def_value: None }, CppParam { name: "_result", ty: "TResult", modifiers: "", def_value: None }, CppParam { name: "_haveResult", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_useBuilder", ty: "bool", modifiers: "", def_value: None }]
-constexpr AsyncValueTaskMethodBuilder_1(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> _methodBuilder, TResult _result, bool _haveResult, bool _useBuilder) noexcept;
+// Ctor Parameters [CppParam { name: "_methodBuilder", ty: "System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult>", modifiers: "", def_value: None }, CppParam { name: "_result", ty: "TResult", modifiers: "", def_value: None }, CppParam { name: "_haveResult", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_useBuilder", ty: "bool", modifiers: "", def_value: None }]
+constexpr AsyncValueTaskMethodBuilder_1(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> _methodBuilder, TResult _result, bool _haveResult, bool _useBuilder) noexcept;
 
 
                     constexpr AsyncValueTaskMethodBuilder_1(AsyncValueTaskMethodBuilder_1 const&) = default;
@@ -77,11 +76,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> __declspec(property(get=__get__methodBuilder, put=__set__methodBuilder))  _methodBuilder;
+ System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> __declspec(property(get=__get__methodBuilder, put=__set__methodBuilder))  _methodBuilder;
 
-constexpr void __set__methodBuilder(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> value) ;
+constexpr void __set__methodBuilder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> value) ;
 
-constexpr ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> __get__methodBuilder() const;
+constexpr System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> __get__methodBuilder() const;
 
  TResult __declspec(property(get=__get__result, put=__set__result))  _result;
 
@@ -104,29 +103,29 @@ constexpr bool __get__useBuilder() const;
 
 // Properties
 
- ::System::Threading::Tasks::ValueTask_1<TResult> __declspec(property(get=get_Task))  Task;
+ System::Threading::Tasks::ValueTask_1<TResult> __declspec(property(get=get_Task))  Task;
 
 
 // Methods
 
 /// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder_1<TResult> Create() ;
+static System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder_1<TResult> Create() ;
 
 /// @brief Method Start addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TStateMachine>
  void Start(ByRef<TStateMachine> stateMachine) ;
 
 /// @brief Method SetStateMachine addr 0x0 size 0xffffffffffffffff virtual false final false
- void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
+ void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
 
 /// @brief Method SetResult addr 0x0 size 0xffffffffffffffff virtual false final false
  void SetResult(TResult result) ;
 
 /// @brief Method SetException addr 0x0 size 0xffffffffffffffff virtual false final false
- void SetException(::System::Exception exception) ;
+ void SetException(System::Exception exception) ;
 
 /// @brief Method get_Task addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Threading::Tasks::ValueTask_1<TResult> get_Task() ;
+ System::Threading::Tasks::ValueTask_1<TResult> get_Task() ;
 
 /// @brief Method AwaitUnsafeOnCompleted addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TAwaiter,typename TStateMachine>
@@ -147,8 +146,8 @@ template<>
 struct CORDL_TYPE AsyncValueTaskMethodBuilder_1<int32_t> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "_methodBuilder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "_result", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_haveResult", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_useBuilder", ty: "bool", modifiers: "", def_value: None }]
-constexpr AsyncValueTaskMethodBuilder_1(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> _methodBuilder, int32_t _result, bool _haveResult, bool _useBuilder) noexcept;
+// Ctor Parameters [CppParam { name: "_methodBuilder", ty: "System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "_result", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_haveResult", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_useBuilder", ty: "bool", modifiers: "", def_value: None }]
+constexpr AsyncValueTaskMethodBuilder_1(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> _methodBuilder, int32_t _result, bool _haveResult, bool _useBuilder) noexcept;
 
 
                     constexpr AsyncValueTaskMethodBuilder_1(AsyncValueTaskMethodBuilder_1 const&) = default;
@@ -181,11 +180,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> __declspec(property(get=__get__methodBuilder, put=__set__methodBuilder))  _methodBuilder;
+ System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> __declspec(property(get=__get__methodBuilder, put=__set__methodBuilder))  _methodBuilder;
 
-constexpr void __set__methodBuilder(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> value) ;
+constexpr void __set__methodBuilder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> value) ;
 
-constexpr ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> __get__methodBuilder() const;
+constexpr System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> __get__methodBuilder() const;
 
  int32_t __declspec(property(get=__get__result, put=__set__result))  _result;
 
@@ -208,29 +207,29 @@ constexpr bool __get__useBuilder() const;
 
 // Properties
 
- ::System::Threading::Tasks::ValueTask_1<int32_t> __declspec(property(get=get_Task))  Task;
+ System::Threading::Tasks::ValueTask_1<int32_t> __declspec(property(get=get_Task))  Task;
 
 
 // Methods
 
 /// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder_1<int32_t> Create() ;
+static System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder_1<int32_t> Create() ;
 
 /// @brief Method Start addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TStateMachine>
  void Start(ByRef<TStateMachine> stateMachine) ;
 
 /// @brief Method SetStateMachine addr 0x0 size 0xffffffffffffffff virtual false final false
- void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
+ void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
 
 /// @brief Method SetResult addr 0x0 size 0xffffffffffffffff virtual false final false
  void SetResult(int32_t result) ;
 
 /// @brief Method SetException addr 0x0 size 0xffffffffffffffff virtual false final false
- void SetException(::System::Exception exception) ;
+ void SetException(System::Exception exception) ;
 
 /// @brief Method get_Task addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Threading::Tasks::ValueTask_1<int32_t> get_Task() ;
+ System::Threading::Tasks::ValueTask_1<int32_t> get_Task() ;
 
 /// @brief Method AwaitUnsafeOnCompleted addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TAwaiter,typename TStateMachine>
@@ -240,5 +239,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::CompilerServices
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder_1, "System.Runtime.CompilerServices", "AsyncValueTaskMethodBuilder`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder_1, "System.Runtime.CompilerServices", "AsyncValueTaskMethodBuilder`1");

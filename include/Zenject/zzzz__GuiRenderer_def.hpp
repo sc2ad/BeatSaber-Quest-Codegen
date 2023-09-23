@@ -3,12 +3,11 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
-namespace Zenject {
-class GuiRenderableManager;
-}
 namespace Zenject {
 class InjectTypeInfo;
+}
+namespace Zenject {
+class GuiRenderableManager;
 }
 // Forward declare root types
 namespace Zenject {
@@ -20,7 +19,7 @@ namespace Zenject {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11258))
 // CS Name: Zenject.GuiRenderer
-class CORDL_TYPE GuiRenderer : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE GuiRenderer : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr GuiRenderer(GuiRenderer const& ) noexcept = default;
 constexpr GuiRenderer(GuiRenderer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GuiRenderer(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit GuiRenderer(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -56,17 +55,17 @@ constexpr explicit GuiRenderer(void* ptr) noexcept : ::UnityEngine::MonoBehaviou
 
 // Fields
 
- ::Zenject::GuiRenderableManager __declspec(property(get=__get__renderableManager, put=__set__renderableManager))  _renderableManager;
+ Zenject::GuiRenderableManager __declspec(property(get=__get__renderableManager, put=__set__renderableManager))  _renderableManager;
 
-constexpr void __set__renderableManager(::Zenject::GuiRenderableManager value) ;
+constexpr void __set__renderableManager(Zenject::GuiRenderableManager value) ;
 
-constexpr ::Zenject::GuiRenderableManager __get__renderableManager() const;
+constexpr Zenject::GuiRenderableManager __get__renderableManager() const;
 
 
 // Methods
 
 /// @brief Method Construct addr 0x2d99a40 size 0x8 virtual false final false
- void Construct(::Zenject::GuiRenderableManager renderableManager) ;
+ void Construct(Zenject::GuiRenderableManager renderableManager) ;
 
 /// @brief Method OnGUI addr 0x2d99a48 size 0x18 virtual false final false
  void OnGUI() ;
@@ -81,12 +80,11 @@ explicit GuiRenderer() ;
 static void __zenInjectMethod0(::bs_hook::Il2CppWrapperType P_0, ::ArrayW<::bs_hook::Il2CppWrapperType> P_1) ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x2d99b44 size 0x2f8 virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::GuiRenderer);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::GuiRenderer, "Zenject", "GuiRenderer");
+NEED_NO_BOX(Zenject::GuiRenderer);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::GuiRenderer, "Zenject", "GuiRenderer");

@@ -4,23 +4,22 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System::Xml::Schema {
 class XmlSchemaDatatype;
-}
-namespace System::Xml::Schema {
-class XmlSchemaType;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace System::Xml::Schema {
+class XmlSchemaType;
 }
 namespace System::Xml {
 class XmlQualifiedName;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
-struct ____System__Xml__Schema__SchemaDeclBase__Use;
+struct System__Xml__Schema__SchemaDeclBase__Use;
 }
 namespace System::Xml::Schema {
 class SchemaDeclBase;
@@ -31,20 +30,20 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11644))
 // CS Name: System.Xml.Schema.SchemaDeclBase::Use
-struct CORDL_TYPE ____System__Xml__Schema__SchemaDeclBase__Use : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE System__Xml__Schema__SchemaDeclBase__Use : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____System__Xml__Schema__SchemaDeclBase__Use(int32_t value__) noexcept;
+constexpr System__Xml__Schema__SchemaDeclBase__Use(int32_t value__) noexcept;
 
 
-                    constexpr ____System__Xml__Schema__SchemaDeclBase__Use(____System__Xml__Schema__SchemaDeclBase__Use const&) = default;
-                    constexpr ____System__Xml__Schema__SchemaDeclBase__Use(____System__Xml__Schema__SchemaDeclBase__Use&&) = default;
-                    constexpr ____System__Xml__Schema__SchemaDeclBase__Use& operator=(____System__Xml__Schema__SchemaDeclBase__Use const& o) {
+                    constexpr System__Xml__Schema__SchemaDeclBase__Use(System__Xml__Schema__SchemaDeclBase__Use const&) = default;
+                    constexpr System__Xml__Schema__SchemaDeclBase__Use(System__Xml__Schema__SchemaDeclBase__Use&&) = default;
+                    constexpr System__Xml__Schema__SchemaDeclBase__Use& operator=(System__Xml__Schema__SchemaDeclBase__Use const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Xml__Schema__SchemaDeclBase__Use& operator=(____System__Xml__Schema__SchemaDeclBase__Use&& o) noexcept {
+                    constexpr System__Xml__Schema__SchemaDeclBase__Use& operator=(System__Xml__Schema__SchemaDeclBase__Use&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -57,7 +56,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Xml__Schema__SchemaDeclBase__Use(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Xml__Schema__SchemaDeclBase__Use(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -65,7 +64,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______System__Xml__Schema__SchemaDeclBase__Use_Unwrapped : int32_t {
+enum class __System__Xml__Schema__SchemaDeclBase__Use_Unwrapped : int32_t {
 __Default = 0,
 __Required = 1,
 __Implied = 2,
@@ -74,8 +73,8 @@ __RequiredFixed = 4,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______System__Xml__Schema__SchemaDeclBase__Use_Unwrapped () const noexcept {
-return std::bit_cast<______System__Xml__Schema__SchemaDeclBase__Use_Unwrapped>(__instance);
+constexpr operator __System__Xml__Schema__SchemaDeclBase__Use_Unwrapped () const noexcept {
+return std::bit_cast<__System__Xml__Schema__SchemaDeclBase__Use_Unwrapped>(__instance);
 }
 
 
@@ -88,19 +87,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Default offset 0
-static ::System::Xml::Schema::____System__Xml__Schema__SchemaDeclBase__Use const Default;
+static System::Xml::Schema::System__Xml__Schema__SchemaDeclBase__Use const Default;
 
 /// @brief Field Required offset 0
-static ::System::Xml::Schema::____System__Xml__Schema__SchemaDeclBase__Use const Required;
+static System::Xml::Schema::System__Xml__Schema__SchemaDeclBase__Use const Required;
 
 /// @brief Field Implied offset 0
-static ::System::Xml::Schema::____System__Xml__Schema__SchemaDeclBase__Use const Implied;
+static System::Xml::Schema::System__Xml__Schema__SchemaDeclBase__Use const Implied;
 
 /// @brief Field Fixed offset 0
-static ::System::Xml::Schema::____System__Xml__Schema__SchemaDeclBase__Use const Fixed;
+static System::Xml::Schema::System__Xml__Schema__SchemaDeclBase__Use const Fixed;
 
 /// @brief Field RequiredFixed offset 0
-static ::System::Xml::Schema::____System__Xml__Schema__SchemaDeclBase__Use const RequiredFixed;
+static System::Xml::Schema::System__Xml__Schema__SchemaDeclBase__Use const RequiredFixed;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -115,7 +114,7 @@ namespace System::Xml::Schema {
 class CORDL_TYPE SchemaDeclBase : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using Use = ::System::Xml::Schema::____System__Xml__Schema__SchemaDeclBase__Use;
+using Use = System::Xml::Schema::System__Xml__Schema__SchemaDeclBase__Use;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x60};
@@ -150,11 +149,11 @@ constexpr explicit SchemaDeclBase(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
- ::System::Xml::XmlQualifiedName __declspec(property(get=__get_name, put=__set_name))  name;
+ System::Xml::XmlQualifiedName __declspec(property(get=__get_name, put=__set_name))  name;
 
-constexpr void __set_name(::System::Xml::XmlQualifiedName value) ;
+constexpr void __set_name(System::Xml::XmlQualifiedName value) ;
 
-constexpr ::System::Xml::XmlQualifiedName __get_name() const;
+constexpr System::Xml::XmlQualifiedName __get_name() const;
 
  ::StringW __declspec(property(get=__get_prefix, put=__set_prefix))  prefix;
 
@@ -168,23 +167,23 @@ constexpr void __set_isDeclaredInExternal(bool value) ;
 
 constexpr bool __get_isDeclaredInExternal() const;
 
- ::System::Xml::Schema::____System__Xml__Schema__SchemaDeclBase__Use __declspec(property(get=__get_presence, put=__set_presence))  presence;
+ System::Xml::Schema::System__Xml__Schema__SchemaDeclBase__Use __declspec(property(get=__get_presence, put=__set_presence))  presence;
 
-constexpr void __set_presence(::System::Xml::Schema::____System__Xml__Schema__SchemaDeclBase__Use value) ;
+constexpr void __set_presence(System::Xml::Schema::System__Xml__Schema__SchemaDeclBase__Use value) ;
 
-constexpr ::System::Xml::Schema::____System__Xml__Schema__SchemaDeclBase__Use __get_presence() const;
+constexpr System::Xml::Schema::System__Xml__Schema__SchemaDeclBase__Use __get_presence() const;
 
- ::System::Xml::Schema::XmlSchemaType __declspec(property(get=__get_schemaType, put=__set_schemaType))  schemaType;
+ System::Xml::Schema::XmlSchemaType __declspec(property(get=__get_schemaType, put=__set_schemaType))  schemaType;
 
-constexpr void __set_schemaType(::System::Xml::Schema::XmlSchemaType value) ;
+constexpr void __set_schemaType(System::Xml::Schema::XmlSchemaType value) ;
 
-constexpr ::System::Xml::Schema::XmlSchemaType __get_schemaType() const;
+constexpr System::Xml::Schema::XmlSchemaType __get_schemaType() const;
 
- ::System::Xml::Schema::XmlSchemaDatatype __declspec(property(get=__get_datatype, put=__set_datatype))  datatype;
+ System::Xml::Schema::XmlSchemaDatatype __declspec(property(get=__get_datatype, put=__set_datatype))  datatype;
 
-constexpr void __set_datatype(::System::Xml::Schema::XmlSchemaDatatype value) ;
+constexpr void __set_datatype(System::Xml::Schema::XmlSchemaDatatype value) ;
 
-constexpr ::System::Xml::Schema::XmlSchemaDatatype __get_datatype() const;
+constexpr System::Xml::Schema::XmlSchemaDatatype __get_datatype() const;
 
  ::StringW __declspec(property(get=__get_defaultValueRaw, put=__set_defaultValueRaw))  defaultValueRaw;
 
@@ -210,28 +209,28 @@ constexpr void __set_minLength(int64_t value) ;
 
 constexpr int64_t __get_minLength() const;
 
- ::System::Collections::Generic::List_1<::StringW> __declspec(property(get=__get_values, put=__set_values))  values;
+ System::Collections::Generic::List_1<::StringW> __declspec(property(get=__get_values, put=__set_values))  values;
 
-constexpr void __set_values(::System::Collections::Generic::List_1<::StringW> value) ;
+constexpr void __set_values(System::Collections::Generic::List_1<::StringW> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::StringW> __get_values() const;
+constexpr System::Collections::Generic::List_1<::StringW> __get_values() const;
 
 
 // Properties
 
- ::System::Xml::XmlQualifiedName __declspec(property(get=get_Name))  Name;
+ System::Xml::XmlQualifiedName __declspec(property(get=get_Name))  Name;
 
  ::StringW __declspec(property(get=get_Prefix))  Prefix;
 
  bool __declspec(property(get=get_IsDeclaredInExternal, put=set_IsDeclaredInExternal))  IsDeclaredInExternal;
 
- ::System::Xml::Schema::____System__Xml__Schema__SchemaDeclBase__Use __declspec(property(get=get_Presence, put=set_Presence))  Presence;
+ System::Xml::Schema::System__Xml__Schema__SchemaDeclBase__Use __declspec(property(get=get_Presence, put=set_Presence))  Presence;
 
- ::System::Xml::Schema::XmlSchemaType __declspec(property(put=set_SchemaType))  SchemaType;
+ System::Xml::Schema::XmlSchemaType __declspec(property(put=set_SchemaType))  SchemaType;
 
- ::System::Xml::Schema::XmlSchemaDatatype __declspec(property(get=get_Datatype, put=set_Datatype))  Datatype;
+ System::Xml::Schema::XmlSchemaDatatype __declspec(property(get=get_Datatype, put=set_Datatype))  Datatype;
 
- ::System::Collections::Generic::List_1<::StringW> __declspec(property(get=get_Values))  Values;
+ System::Collections::Generic::List_1<::StringW> __declspec(property(get=get_Values))  Values;
 
  ::StringW __declspec(property(get=get_DefaultValueRaw))  DefaultValueRaw;
 
@@ -240,11 +239,11 @@ constexpr ::System::Collections::Generic::List_1<::StringW> __get_values() const
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::System::Xml::XmlQualifiedName", modifiers: "", def_value: None }, CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None }]
-explicit SchemaDeclBase(::System::Xml::XmlQualifiedName name, ::StringW prefix) ;
+// Ctor Parameters [CppParam { name: "name", ty: "System::Xml::XmlQualifiedName", modifiers: "", def_value: None }, CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None }]
+explicit SchemaDeclBase(System::Xml::XmlQualifiedName name, ::StringW prefix) ;
 
 /// @brief Method .ctor addr 0x27309f0 size 0x88 virtual false final false
- void _ctor(::System::Xml::XmlQualifiedName name, ::StringW prefix) ;
+ void _ctor(System::Xml::XmlQualifiedName name, ::StringW prefix) ;
 
 // Ctor Parameters []
 explicit SchemaDeclBase() ;
@@ -253,7 +252,7 @@ explicit SchemaDeclBase() ;
  void _ctor() ;
 
 /// @brief Method get_Name addr 0x2731018 size 0x8 virtual false final false
- ::System::Xml::XmlQualifiedName get_Name() ;
+ System::Xml::XmlQualifiedName get_Name() ;
 
 /// @brief Method get_Prefix addr 0x2730b38 size 0x54 virtual false final false
  ::StringW get_Prefix() ;
@@ -265,25 +264,25 @@ explicit SchemaDeclBase() ;
  void set_IsDeclaredInExternal(bool value) ;
 
 /// @brief Method get_Presence addr 0x2731034 size 0x8 virtual false final false
- ::System::Xml::Schema::____System__Xml__Schema__SchemaDeclBase__Use get_Presence() ;
+ System::Xml::Schema::System__Xml__Schema__SchemaDeclBase__Use get_Presence() ;
 
 /// @brief Method set_Presence addr 0x273103c size 0x8 virtual false final false
- void set_Presence(::System::Xml::Schema::____System__Xml__Schema__SchemaDeclBase__Use value) ;
+ void set_Presence(System::Xml::Schema::System__Xml__Schema__SchemaDeclBase__Use value) ;
 
 /// @brief Method set_SchemaType addr 0x2731044 size 0x8 virtual false final false
- void set_SchemaType(::System::Xml::Schema::XmlSchemaType value) ;
+ void set_SchemaType(System::Xml::Schema::XmlSchemaType value) ;
 
 /// @brief Method get_Datatype addr 0x273104c size 0x8 virtual false final false
- ::System::Xml::Schema::XmlSchemaDatatype get_Datatype() ;
+ System::Xml::Schema::XmlSchemaDatatype get_Datatype() ;
 
 /// @brief Method set_Datatype addr 0x2731054 size 0x8 virtual false final false
- void set_Datatype(::System::Xml::Schema::XmlSchemaDatatype value) ;
+ void set_Datatype(System::Xml::Schema::XmlSchemaDatatype value) ;
 
 /// @brief Method AddValue addr 0x273105c size 0xf0 virtual false final false
  void AddValue(::StringW value) ;
 
 /// @brief Method get_Values addr 0x273114c size 0x8 virtual false final false
- ::System::Collections::Generic::List_1<::StringW> get_Values() ;
+ System::Collections::Generic::List_1<::StringW> get_Values() ;
 
 /// @brief Method get_DefaultValueRaw addr 0x2731154 size 0x54 virtual false final false
  ::StringW get_DefaultValueRaw() ;
@@ -298,7 +297,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::____System__Xml__Schema__SchemaDeclBase__Use, "System.Xml.Schema", "SchemaDeclBase/Use");
-NEED_NO_BOX(::System::Xml::Schema::SchemaDeclBase);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::SchemaDeclBase, "System.Xml.Schema", "SchemaDeclBase");
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::System__Xml__Schema__SchemaDeclBase__Use, "System.Xml.Schema", "SchemaDeclBase/Use");
+NEED_NO_BOX(System::Xml::Schema::SchemaDeclBase);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::SchemaDeclBase, "System.Xml.Schema", "SchemaDeclBase");

@@ -3,15 +3,14 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
+namespace UnityEngine::TextCore {
+struct GlyphClassDefinitionType;
+}
 namespace UnityEngine::TextCore {
 struct GlyphRect;
 }
 namespace UnityEngine::TextCore {
 struct GlyphMetrics;
-}
-namespace UnityEngine::TextCore {
-struct GlyphClassDefinitionType;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::LowLevel {
@@ -26,8 +25,8 @@ namespace UnityEngine::TextCore::LowLevel {
 struct CORDL_TYPE GlyphMarshallingStruct : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "index", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "metrics", ty: "::UnityEngine::TextCore::GlyphMetrics", modifiers: "", def_value: None }, CppParam { name: "glyphRect", ty: "::UnityEngine::TextCore::GlyphRect", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "atlasIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "classDefinitionType", ty: "::UnityEngine::TextCore::GlyphClassDefinitionType", modifiers: "", def_value: None }]
-constexpr GlyphMarshallingStruct(uint32_t index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex, ::UnityEngine::TextCore::GlyphClassDefinitionType classDefinitionType) noexcept;
+// Ctor Parameters [CppParam { name: "index", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "metrics", ty: "UnityEngine::TextCore::GlyphMetrics", modifiers: "", def_value: None }, CppParam { name: "glyphRect", ty: "UnityEngine::TextCore::GlyphRect", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "atlasIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "classDefinitionType", ty: "UnityEngine::TextCore::GlyphClassDefinitionType", modifiers: "", def_value: None }]
+constexpr GlyphMarshallingStruct(uint32_t index, UnityEngine::TextCore::GlyphMetrics metrics, UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex, UnityEngine::TextCore::GlyphClassDefinitionType classDefinitionType) noexcept;
 
 
                     constexpr GlyphMarshallingStruct(GlyphMarshallingStruct const&) = default;
@@ -66,17 +65,17 @@ constexpr void __set_index(uint32_t value) ;
 
 constexpr uint32_t __get_index() const;
 
- ::UnityEngine::TextCore::GlyphMetrics __declspec(property(get=__get_metrics, put=__set_metrics))  metrics;
+ UnityEngine::TextCore::GlyphMetrics __declspec(property(get=__get_metrics, put=__set_metrics))  metrics;
 
-constexpr void __set_metrics(::UnityEngine::TextCore::GlyphMetrics value) ;
+constexpr void __set_metrics(UnityEngine::TextCore::GlyphMetrics value) ;
 
-constexpr ::UnityEngine::TextCore::GlyphMetrics __get_metrics() const;
+constexpr UnityEngine::TextCore::GlyphMetrics __get_metrics() const;
 
- ::UnityEngine::TextCore::GlyphRect __declspec(property(get=__get_glyphRect, put=__set_glyphRect))  glyphRect;
+ UnityEngine::TextCore::GlyphRect __declspec(property(get=__get_glyphRect, put=__set_glyphRect))  glyphRect;
 
-constexpr void __set_glyphRect(::UnityEngine::TextCore::GlyphRect value) ;
+constexpr void __set_glyphRect(UnityEngine::TextCore::GlyphRect value) ;
 
-constexpr ::UnityEngine::TextCore::GlyphRect __get_glyphRect() const;
+constexpr UnityEngine::TextCore::GlyphRect __get_glyphRect() const;
 
  float_t __declspec(property(get=__get_scale, put=__set_scale))  scale;
 
@@ -90,15 +89,14 @@ constexpr void __set_atlasIndex(int32_t value) ;
 
 constexpr int32_t __get_atlasIndex() const;
 
- ::UnityEngine::TextCore::GlyphClassDefinitionType __declspec(property(get=__get_classDefinitionType, put=__set_classDefinitionType))  classDefinitionType;
+ UnityEngine::TextCore::GlyphClassDefinitionType __declspec(property(get=__get_classDefinitionType, put=__set_classDefinitionType))  classDefinitionType;
 
-constexpr void __set_classDefinitionType(::UnityEngine::TextCore::GlyphClassDefinitionType value) ;
+constexpr void __set_classDefinitionType(UnityEngine::TextCore::GlyphClassDefinitionType value) ;
 
-constexpr ::UnityEngine::TextCore::GlyphClassDefinitionType __get_classDefinitionType() const;
+constexpr UnityEngine::TextCore::GlyphClassDefinitionType __get_classDefinitionType() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::LowLevel
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct, "UnityEngine.TextCore.LowLevel", "GlyphMarshallingStruct");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct, "UnityEngine.TextCore.LowLevel", "GlyphMarshallingStruct");

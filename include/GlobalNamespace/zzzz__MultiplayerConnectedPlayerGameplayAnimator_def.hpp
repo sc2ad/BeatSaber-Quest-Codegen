@@ -2,15 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerGameplayAnimator_def.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
-struct ____GlobalNamespace__MultiplayerController__State;
-}
-namespace GlobalNamespace {
-class ScaleAnimator;
+struct GlobalNamespace__MultiplayerController__State;
 }
 namespace GlobalNamespace {
 class MultiplayerBigAvatarAnimator;
+}
+namespace GlobalNamespace {
+class MultiplayerLayoutProvider;
 }
 namespace GlobalNamespace {
 class MultiplayerConnectedPlayerLevelFailController;
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 class MultiplayerConnectedPlayerSpectatingSpot;
 }
 namespace GlobalNamespace {
-class MultiplayerLayoutProvider;
+class ScaleAnimator;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -31,7 +30,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5306))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5223))
 // CS Name: MultiplayerConnectedPlayerGameplayAnimator
-class CORDL_TYPE MultiplayerConnectedPlayerGameplayAnimator : public ::GlobalNamespace::MultiplayerGameplayAnimator {
+class CORDL_TYPE MultiplayerConnectedPlayerGameplayAnimator : public GlobalNamespace::MultiplayerGameplayAnimator {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -46,7 +45,7 @@ constexpr MultiplayerConnectedPlayerGameplayAnimator(MultiplayerConnectedPlayerG
 constexpr MultiplayerConnectedPlayerGameplayAnimator(MultiplayerConnectedPlayerGameplayAnimator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerConnectedPlayerGameplayAnimator(void* ptr) noexcept : ::GlobalNamespace::MultiplayerGameplayAnimator(ptr) {
+constexpr explicit MultiplayerConnectedPlayerGameplayAnimator(void* ptr) noexcept : GlobalNamespace::MultiplayerGameplayAnimator(ptr) {
 }
 
 
@@ -67,17 +66,17 @@ constexpr explicit MultiplayerConnectedPlayerGameplayAnimator(void* ptr) noexcep
 
 // Fields
 
- ::GlobalNamespace::MultiplayerBigAvatarAnimator __declspec(property(get=__get__bigAvatarAnimator, put=__set__bigAvatarAnimator))  _bigAvatarAnimator;
+ GlobalNamespace::MultiplayerBigAvatarAnimator __declspec(property(get=__get__bigAvatarAnimator, put=__set__bigAvatarAnimator))  _bigAvatarAnimator;
 
-constexpr void __set__bigAvatarAnimator(::GlobalNamespace::MultiplayerBigAvatarAnimator value) ;
+constexpr void __set__bigAvatarAnimator(GlobalNamespace::MultiplayerBigAvatarAnimator value) ;
 
-constexpr ::GlobalNamespace::MultiplayerBigAvatarAnimator __get__bigAvatarAnimator() const;
+constexpr GlobalNamespace::MultiplayerBigAvatarAnimator __get__bigAvatarAnimator() const;
 
- ::GlobalNamespace::ScaleAnimator __declspec(property(get=__get__avatarScaleAnimator, put=__set__avatarScaleAnimator))  _avatarScaleAnimator;
+ GlobalNamespace::ScaleAnimator __declspec(property(get=__get__avatarScaleAnimator, put=__set__avatarScaleAnimator))  _avatarScaleAnimator;
 
-constexpr void __set__avatarScaleAnimator(::GlobalNamespace::ScaleAnimator value) ;
+constexpr void __set__avatarScaleAnimator(GlobalNamespace::ScaleAnimator value) ;
 
-constexpr ::GlobalNamespace::ScaleAnimator __get__avatarScaleAnimator() const;
+constexpr GlobalNamespace::ScaleAnimator __get__avatarScaleAnimator() const;
 
  float_t __declspec(property(get=__get__defaultLightsWidth, put=__set__defaultLightsWidth))  _defaultLightsWidth;
 
@@ -91,23 +90,23 @@ constexpr void __set__observedLightsWidth(float_t value) ;
 
 constexpr float_t __get__observedLightsWidth() const;
 
- ::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController __declspec(property(get=__get__failController, put=__set__failController))  _failController;
+ GlobalNamespace::MultiplayerConnectedPlayerLevelFailController __declspec(property(get=__get__failController, put=__set__failController))  _failController;
 
-constexpr void __set__failController(::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController value) ;
+constexpr void __set__failController(GlobalNamespace::MultiplayerConnectedPlayerLevelFailController value) ;
 
-constexpr ::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController __get__failController() const;
+constexpr GlobalNamespace::MultiplayerConnectedPlayerLevelFailController __get__failController() const;
 
- ::GlobalNamespace::MultiplayerLayoutProvider __declspec(property(get=__get__multiplayerLayoutProvider, put=__set__multiplayerLayoutProvider))  _multiplayerLayoutProvider;
+ GlobalNamespace::MultiplayerLayoutProvider __declspec(property(get=__get__multiplayerLayoutProvider, put=__set__multiplayerLayoutProvider))  _multiplayerLayoutProvider;
 
-constexpr void __set__multiplayerLayoutProvider(::GlobalNamespace::MultiplayerLayoutProvider value) ;
+constexpr void __set__multiplayerLayoutProvider(GlobalNamespace::MultiplayerLayoutProvider value) ;
 
-constexpr ::GlobalNamespace::MultiplayerLayoutProvider __get__multiplayerLayoutProvider() const;
+constexpr GlobalNamespace::MultiplayerLayoutProvider __get__multiplayerLayoutProvider() const;
 
- ::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot __declspec(property(get=__get__playerSpectatingSpot, put=__set__playerSpectatingSpot))  _playerSpectatingSpot;
+ GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot __declspec(property(get=__get__playerSpectatingSpot, put=__set__playerSpectatingSpot))  _playerSpectatingSpot;
 
-constexpr void __set__playerSpectatingSpot(::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot value) ;
+constexpr void __set__playerSpectatingSpot(GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot value) ;
 
-constexpr ::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot __get__playerSpectatingSpot() const;
+constexpr GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot __get__playerSpectatingSpot() const;
 
 
 // Methods
@@ -125,7 +124,7 @@ constexpr ::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot __get__pla
  void AnimateNewLeaderSelected(bool isLeading) ;
 
 /// @brief Method HandleStateChanged addr 0x20dff18 size 0x110 virtual true final false
- void HandleStateChanged(::GlobalNamespace::____GlobalNamespace__MultiplayerController__State state) ;
+ void HandleStateChanged(GlobalNamespace::GlobalNamespace__MultiplayerController__State state) ;
 
 /// @brief Method HandlePlayerDidFail addr 0x20e00c4 size 0x4 virtual false final false
  void HandlePlayerDidFail() ;
@@ -143,6 +142,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator, "", "MultiplayerConnectedPlayerGameplayAnimator");
+NEED_NO_BOX(GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator, "", "MultiplayerConnectedPlayerGameplayAnimator");

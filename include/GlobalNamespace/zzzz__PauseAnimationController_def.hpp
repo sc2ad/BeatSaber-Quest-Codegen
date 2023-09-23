@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace UnityEngine {
 class Animator;
 }
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5162))
 // CS Name: PauseAnimationController
-class CORDL_TYPE PauseAnimationController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE PauseAnimationController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr PauseAnimationController(PauseAnimationController const& ) noexcept = 
 constexpr PauseAnimationController(PauseAnimationController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PauseAnimationController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit PauseAnimationController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -54,26 +53,26 @@ constexpr explicit PauseAnimationController(void* ptr) noexcept : ::UnityEngine:
 
 // Fields
 
- ::UnityEngine::Animator __declspec(property(get=__get__animator, put=__set__animator))  _animator;
+ UnityEngine::Animator __declspec(property(get=__get__animator, put=__set__animator))  _animator;
 
-constexpr void __set__animator(::UnityEngine::Animator value) ;
+constexpr void __set__animator(UnityEngine::Animator value) ;
 
-constexpr ::UnityEngine::Animator __get__animator() const;
+constexpr UnityEngine::Animator __get__animator() const;
 
- ::System::Action __declspec(property(get=__get_resumeFromPauseAnimationDidFinishEvent, put=__set_resumeFromPauseAnimationDidFinishEvent))  resumeFromPauseAnimationDidFinishEvent;
+ System::Action __declspec(property(get=__get_resumeFromPauseAnimationDidFinishEvent, put=__set_resumeFromPauseAnimationDidFinishEvent))  resumeFromPauseAnimationDidFinishEvent;
 
-constexpr void __set_resumeFromPauseAnimationDidFinishEvent(::System::Action value) ;
+constexpr void __set_resumeFromPauseAnimationDidFinishEvent(System::Action value) ;
 
-constexpr ::System::Action __get_resumeFromPauseAnimationDidFinishEvent() const;
+constexpr System::Action __get_resumeFromPauseAnimationDidFinishEvent() const;
 
 
 // Methods
 
 /// @brief Method add_resumeFromPauseAnimationDidFinishEvent addr 0x20d1780 size 0x9c virtual false final false
- void add_resumeFromPauseAnimationDidFinishEvent(::System::Action value) ;
+ void add_resumeFromPauseAnimationDidFinishEvent(System::Action value) ;
 
 /// @brief Method remove_resumeFromPauseAnimationDidFinishEvent addr 0x20d181c size 0x9c virtual false final false
- void remove_resumeFromPauseAnimationDidFinishEvent(::System::Action value) ;
+ void remove_resumeFromPauseAnimationDidFinishEvent(System::Action value) ;
 
 /// @brief Method Awake addr 0x20d18b8 size 0x30 virtual false final false
  void Awake() ;
@@ -100,6 +99,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PauseAnimationController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PauseAnimationController, "", "PauseAnimationController");
+NEED_NO_BOX(GlobalNamespace::PauseAnimationController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PauseAnimationController, "", "PauseAnimationController");

@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
 class TnepresEngine;
@@ -15,7 +14,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(869))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(880))
 // CS Name: Org.BouncyCastle.Crypto.Engines.TnepresEngine
-class CORDL_TYPE TnepresEngine : public ::Org::BouncyCastle::Crypto::Engines::SerpentEngineBase {
+class CORDL_TYPE TnepresEngine : public Org::BouncyCastle::Crypto::Engines::SerpentEngineBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr TnepresEngine(TnepresEngine const& ) noexcept = default;
 constexpr TnepresEngine(TnepresEngine&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TnepresEngine(void* ptr) noexcept : ::Org::BouncyCastle::Crypto::Engines::SerpentEngineBase(ptr) {
+constexpr explicit TnepresEngine(void* ptr) noexcept : Org::BouncyCastle::Crypto::Engines::SerpentEngineBase(ptr) {
 }
 
 
@@ -78,6 +77,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Engines
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::TnepresEngine);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Engines::TnepresEngine, "Org.BouncyCastle.Crypto.Engines", "TnepresEngine");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Engines::TnepresEngine);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::TnepresEngine, "Org.BouncyCastle.Crypto.Engines", "TnepresEngine");

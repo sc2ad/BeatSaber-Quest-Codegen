@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine::UI {
 class Image;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5513))
 // CS Name: FillIndicator
-class CORDL_TYPE FillIndicator : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE FillIndicator : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr FillIndicator(FillIndicator const& ) noexcept = default;
 constexpr FillIndicator(FillIndicator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FillIndicator(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit FillIndicator(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -52,17 +51,17 @@ constexpr explicit FillIndicator(void* ptr) noexcept : ::UnityEngine::MonoBehavi
 
 // Fields
 
- ::UnityEngine::UI::Image __declspec(property(get=__get__bgImage, put=__set__bgImage))  _bgImage;
+ UnityEngine::UI::Image __declspec(property(get=__get__bgImage, put=__set__bgImage))  _bgImage;
 
-constexpr void __set__bgImage(::UnityEngine::UI::Image value) ;
+constexpr void __set__bgImage(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get__bgImage() const;
+constexpr UnityEngine::UI::Image __get__bgImage() const;
 
- ::UnityEngine::UI::Image __declspec(property(get=__get__image, put=__set__image))  _image;
+ UnityEngine::UI::Image __declspec(property(get=__get__image, put=__set__image))  _image;
 
-constexpr void __set__image(::UnityEngine::UI::Image value) ;
+constexpr void __set__image(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get__image() const;
+constexpr UnityEngine::UI::Image __get__image() const;
 
 
 // Properties
@@ -88,6 +87,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::FillIndicator);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FillIndicator, "", "FillIndicator");
+NEED_NO_BOX(GlobalNamespace::FillIndicator);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FillIndicator, "", "FillIndicator");

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::Reflection {
 class FieldInfo;
 }
@@ -59,11 +58,11 @@ constexpr void __set__containerID(int64_t value) ;
 
 constexpr int64_t __get__containerID() const;
 
- ::System::Reflection::FieldInfo __declspec(property(get=__get__parentField, put=__set__parentField))  _parentField;
+ System::Reflection::FieldInfo __declspec(property(get=__get__parentField, put=__set__parentField))  _parentField;
 
-constexpr void __set__parentField(::System::Reflection::FieldInfo value) ;
+constexpr void __set__parentField(System::Reflection::FieldInfo value) ;
 
-constexpr ::System::Reflection::FieldInfo __get__parentField() const;
+constexpr System::Reflection::FieldInfo __get__parentField() const;
 
  ::ArrayW<int32_t> __declspec(property(get=__get__parentIndex, put=__set__parentIndex))  _parentIndex;
 
@@ -76,24 +75,24 @@ constexpr ::ArrayW<int32_t> __get__parentIndex() const;
 
  int64_t __declspec(property(get=get_ContainerID))  ContainerID;
 
- ::System::Reflection::FieldInfo __declspec(property(get=get_ParentField))  ParentField;
+ System::Reflection::FieldInfo __declspec(property(get=get_ParentField))  ParentField;
 
  ::ArrayW<int32_t> __declspec(property(get=get_ParentIndex))  ParentIndex;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "containerID", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "member", ty: "::System::Reflection::FieldInfo", modifiers: "", def_value: None }, CppParam { name: "parentIndex", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }]
-explicit ValueTypeFixupInfo(int64_t containerID, ::System::Reflection::FieldInfo member, ::ArrayW<int32_t> parentIndex) ;
+// Ctor Parameters [CppParam { name: "containerID", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "member", ty: "System::Reflection::FieldInfo", modifiers: "", def_value: None }, CppParam { name: "parentIndex", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }]
+explicit ValueTypeFixupInfo(int64_t containerID, System::Reflection::FieldInfo member, ::ArrayW<int32_t> parentIndex) ;
 
 /// @brief Method .ctor addr 0x2349968 size 0x150 virtual false final false
- void _ctor(int64_t containerID, ::System::Reflection::FieldInfo member, ::ArrayW<int32_t> parentIndex) ;
+ void _ctor(int64_t containerID, System::Reflection::FieldInfo member, ::ArrayW<int32_t> parentIndex) ;
 
 /// @brief Method get_ContainerID addr 0x2349ab8 size 0x8 virtual false final false
  int64_t get_ContainerID() ;
 
 /// @brief Method get_ParentField addr 0x2349ac0 size 0x8 virtual false final false
- ::System::Reflection::FieldInfo get_ParentField() ;
+ System::Reflection::FieldInfo get_ParentField() ;
 
 /// @brief Method get_ParentIndex addr 0x2349ac8 size 0x8 virtual false final false
  ::ArrayW<int32_t> get_ParentIndex() ;
@@ -102,6 +101,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::ValueTypeFixupInfo);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::ValueTypeFixupInfo, "System.Runtime.Serialization", "ValueTypeFixupInfo");
+NEED_NO_BOX(System::Runtime::Serialization::ValueTypeFixupInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ValueTypeFixupInfo, "System.Runtime.Serialization", "ValueTypeFixupInfo");

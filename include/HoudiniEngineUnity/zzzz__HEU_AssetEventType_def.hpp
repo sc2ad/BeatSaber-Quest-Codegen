@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HEU_AssetEventType;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field UNKNOWN offset 0
-static ::HoudiniEngineUnity::HEU_AssetEventType const UNKNOWN;
+static HoudiniEngineUnity::HEU_AssetEventType const UNKNOWN;
 
 /// @brief Field RELOAD offset 0
-static ::HoudiniEngineUnity::HEU_AssetEventType const RELOAD;
+static HoudiniEngineUnity::HEU_AssetEventType const RELOAD;
 
 /// @brief Field COOK offset 0
-static ::HoudiniEngineUnity::HEU_AssetEventType const COOK;
+static HoudiniEngineUnity::HEU_AssetEventType const COOK;
 
 /// @brief Field BAKE_NEW offset 0
-static ::HoudiniEngineUnity::HEU_AssetEventType const BAKE_NEW;
+static HoudiniEngineUnity::HEU_AssetEventType const BAKE_NEW;
 
 /// @brief Field BAKE_UPDATE offset 0
-static ::HoudiniEngineUnity::HEU_AssetEventType const BAKE_UPDATE;
+static HoudiniEngineUnity::HEU_AssetEventType const BAKE_UPDATE;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_AssetEventType, "HoudiniEngineUnity", "HEU_AssetEventType");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_AssetEventType, "HoudiniEngineUnity", "HEU_AssetEventType");

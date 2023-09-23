@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
 class User;
 }
@@ -57,23 +56,23 @@ constexpr explicit MatchmakingEnqueuedUser(void* ptr) noexcept : ::bs_hook::Il2C
 
 // Fields
 
- ::System::Collections::Generic::Dictionary_2<::StringW,::StringW> __declspec(property(get=__get_CustomData, put=__set_CustomData))  CustomData;
+ System::Collections::Generic::Dictionary_2<::StringW,::StringW> __declspec(property(get=__get_CustomData, put=__set_CustomData))  CustomData;
 
-constexpr void __set_CustomData(::System::Collections::Generic::Dictionary_2<::StringW,::StringW> value) ;
+constexpr void __set_CustomData(System::Collections::Generic::Dictionary_2<::StringW,::StringW> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::StringW,::StringW> __get_CustomData() const;
+constexpr System::Collections::Generic::Dictionary_2<::StringW,::StringW> __get_CustomData() const;
 
- ::Oculus::Platform::Models::User __declspec(property(get=__get_UserOptional, put=__set_UserOptional))  UserOptional;
+ Oculus::Platform::Models::User __declspec(property(get=__get_UserOptional, put=__set_UserOptional))  UserOptional;
 
-constexpr void __set_UserOptional(::Oculus::Platform::Models::User value) ;
+constexpr void __set_UserOptional(Oculus::Platform::Models::User value) ;
 
-constexpr ::Oculus::Platform::Models::User __get_UserOptional() const;
+constexpr Oculus::Platform::Models::User __get_UserOptional() const;
 
- ::Oculus::Platform::Models::User __declspec(property(get=__get_User, put=__set_User))  User;
+ Oculus::Platform::Models::User __declspec(property(get=__get_User, put=__set_User))  User;
 
-constexpr void __set_User(::Oculus::Platform::Models::User value) ;
+constexpr void __set_User(Oculus::Platform::Models::User value) ;
 
-constexpr ::Oculus::Platform::Models::User __get_User() const;
+constexpr Oculus::Platform::Models::User __get_User() const;
 
 
 // Methods
@@ -88,6 +87,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::MatchmakingEnqueuedUser);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::MatchmakingEnqueuedUser, "Oculus.Platform.Models", "MatchmakingEnqueuedUser");
+NEED_NO_BOX(Oculus::Platform::Models::MatchmakingEnqueuedUser);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::MatchmakingEnqueuedUser, "Oculus.Platform.Models", "MatchmakingEnqueuedUser");

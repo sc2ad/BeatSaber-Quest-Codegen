@@ -4,7 +4,16 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
+namespace UnityEngine {
+class ISerializationCallbackReceiver;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class ICollection_1;
@@ -14,29 +23,19 @@ template<typename TKey,typename TValue>
 struct KeyValuePair_2;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class IDictionary_2;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -59,20 +58,20 @@ template<::cordl_internals::il2cpp_reference_type TKey,::cordl_internals::il2cpp
 class CORDL_TYPE HEU_SerializableDictionary_2<TKey,TValue> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IDictionary_2<TKey,TValue>
-constexpr operator  ::System::Collections::Generic::IDictionary_2<TKey,TValue>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IDictionary_2<TKey,TValue>
+constexpr operator  System::Collections::Generic::IDictionary_2<TKey,TValue>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>
-constexpr operator  ::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::ICollection_1<System::Collections::Generic::KeyValuePair_2<TKey,TValue>>
+constexpr operator  System::Collections::Generic::ICollection_1<System::Collections::Generic::KeyValuePair_2<TKey,TValue>>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>
-constexpr operator  ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<TKey,TValue>>
+constexpr operator  System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<TKey,TValue>>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::ISerializationCallbackReceiver
-constexpr operator  ::UnityEngine::ISerializationCallbackReceiver() const noexcept;
+/// @brief Convert operator to UnityEngine::ISerializationCallbackReceiver
+constexpr operator  UnityEngine::ISerializationCallbackReceiver() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -107,11 +106,11 @@ constexpr explicit HEU_SerializableDictionary_2(void* ptr) noexcept : ::bs_hook:
 
 // Fields
 
- ::System::Collections::Generic::Dictionary_2<TKey,TValue> __declspec(property(get=__get__dictionary, put=__set__dictionary))  _dictionary;
+ System::Collections::Generic::Dictionary_2<TKey,TValue> __declspec(property(get=__get__dictionary, put=__set__dictionary))  _dictionary;
 
-constexpr void __set__dictionary(::System::Collections::Generic::Dictionary_2<TKey,TValue> value) ;
+constexpr void __set__dictionary(System::Collections::Generic::Dictionary_2<TKey,TValue> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<TKey,TValue> __get__dictionary() const;
+constexpr System::Collections::Generic::Dictionary_2<TKey,TValue> __get__dictionary() const;
 
  ::ArrayW<TKey> __declspec(property(get=__get__keys, put=__set__keys))  _keys;
 
@@ -130,9 +129,9 @@ constexpr ::ArrayW<TValue> __get__values() const;
 
  TValue __declspec(property(get=get_Item, put=set_Item))  Item;
 
- ::System::Collections::Generic::ICollection_1<TKey> __declspec(property(get=get_Keys))  Keys;
+ System::Collections::Generic::ICollection_1<TKey> __declspec(property(get=get_Keys))  Keys;
 
- ::System::Collections::Generic::ICollection_1<TValue> __declspec(property(get=get_Values))  Values;
+ System::Collections::Generic::ICollection_1<TValue> __declspec(property(get=get_Values))  Values;
 
  int32_t __declspec(property(get=get_Count))  Count;
 
@@ -148,10 +147,10 @@ constexpr ::ArrayW<TValue> __get__values() const;
  void set_Item(TKey key, TValue value) ;
 
 /// @brief Method get_Keys addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Collections::Generic::ICollection_1<TKey> get_Keys() ;
+ System::Collections::Generic::ICollection_1<TKey> get_Keys() ;
 
 /// @brief Method get_Values addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Collections::Generic::ICollection_1<TValue> get_Values() ;
+ System::Collections::Generic::ICollection_1<TValue> get_Values() ;
 
 /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual true final true
  int32_t get_Count() ;
@@ -163,34 +162,34 @@ constexpr ::ArrayW<TValue> __get__values() const;
  void Add(TKey key, TValue value) ;
 
 /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual true final true
- void Add(::System::Collections::Generic::KeyValuePair_2<TKey,TValue> item) ;
+ void Add(System::Collections::Generic::KeyValuePair_2<TKey,TValue> item) ;
 
 /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual true final true
  void Clear() ;
 
 /// @brief Method Contains addr 0x0 size 0xffffffffffffffff virtual true final true
- bool Contains(::System::Collections::Generic::KeyValuePair_2<TKey,TValue> item) ;
+ bool Contains(System::Collections::Generic::KeyValuePair_2<TKey,TValue> item) ;
 
 /// @brief Method ContainsKey addr 0x0 size 0xffffffffffffffff virtual true final true
  bool ContainsKey(TKey key) ;
 
 /// @brief Method CopyTo addr 0x0 size 0xffffffffffffffff virtual true final true
- void CopyTo(::ArrayW<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>> array, int32_t arrayIndex) ;
+ void CopyTo(::ArrayW<System::Collections::Generic::KeyValuePair_2<TKey,TValue>> array, int32_t arrayIndex) ;
 
 /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>> GetEnumerator() ;
+ System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<TKey,TValue>> GetEnumerator() ;
 
 /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual true final true
  bool Remove(TKey key) ;
 
 /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual true final true
- bool Remove(::System::Collections::Generic::KeyValuePair_2<TKey,TValue> item) ;
+ bool Remove(System::Collections::Generic::KeyValuePair_2<TKey,TValue> item) ;
 
 /// @brief Method TryGetValue addr 0x0 size 0xffffffffffffffff virtual true final true
  bool TryGetValue(TKey key, ByRef<TValue> value) ;
 
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
+ System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
 /// @brief Method OnAfterDeserialize addr 0x0 size 0xffffffffffffffff virtual true final true
  void OnAfterDeserialize() ;
@@ -208,5 +207,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::HoudiniEngineUnity::HEU_SerializableDictionary_2, "HoudiniEngineUnity", "HEU_SerializableDictionary`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(HoudiniEngineUnity::HEU_SerializableDictionary_2, "HoudiniEngineUnity", "HEU_SerializableDictionary`2");

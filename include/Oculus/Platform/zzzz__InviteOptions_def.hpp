@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform {
 class InviteOptions;
@@ -71,7 +70,7 @@ explicit InviteOptions() ;
  void ClearSuggestedUsers() ;
 
 /// @brief Method op_Explicit addr 0x257b024 size 0x58 virtual false final false
-static ::cordl_internals::intptr_t op_Explicit___cordl_internals__intptr_t(::Oculus::Platform::InviteOptions options) ;
+static ::cordl_internals::intptr_t op_Explicit___cordl_internals__intptr_t(Oculus::Platform::InviteOptions options) ;
 
 /// @brief Method Finalize addr 0x257b07c size 0xd4 virtual true final false
  void Finalize() ;
@@ -80,6 +79,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::InviteOptions);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::InviteOptions, "Oculus.Platform", "InviteOptions");
+NEED_NO_BOX(Oculus::Platform::InviteOptions);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::InviteOptions, "Oculus.Platform", "InviteOptions");

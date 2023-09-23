@@ -2,12 +2,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 #include <cstddef>
-namespace {
-namespace OVR::OpenVR {
-struct HmdVector2_t;
-}
 namespace OVR::OpenVR {
 struct HmdVector3_t;
+}
+namespace OVR::OpenVR {
+struct HmdVector2_t;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -22,8 +21,8 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE VROverlayIntersectionResults_t : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "vPoint", ty: "::OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: None }, CppParam { name: "vNormal", ty: "::OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: None }, CppParam { name: "vUVs", ty: "::OVR::OpenVR::HmdVector2_t", modifiers: "", def_value: None }, CppParam { name: "fDistance", ty: "float_t", modifiers: "", def_value: None }]
-constexpr VROverlayIntersectionResults_t(::OVR::OpenVR::HmdVector3_t vPoint, ::OVR::OpenVR::HmdVector3_t vNormal, ::OVR::OpenVR::HmdVector2_t vUVs, float_t fDistance) noexcept;
+// Ctor Parameters [CppParam { name: "vPoint", ty: "OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: None }, CppParam { name: "vNormal", ty: "OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: None }, CppParam { name: "vUVs", ty: "OVR::OpenVR::HmdVector2_t", modifiers: "", def_value: None }, CppParam { name: "fDistance", ty: "float_t", modifiers: "", def_value: None }]
+constexpr VROverlayIntersectionResults_t(OVR::OpenVR::HmdVector3_t vPoint, OVR::OpenVR::HmdVector3_t vNormal, OVR::OpenVR::HmdVector2_t vUVs, float_t fDistance) noexcept;
 
 
                     constexpr VROverlayIntersectionResults_t(VROverlayIntersectionResults_t const&) = default;
@@ -56,23 +55,23 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::OVR::OpenVR::HmdVector3_t __declspec(property(get=__get_vPoint, put=__set_vPoint))  vPoint;
+ OVR::OpenVR::HmdVector3_t __declspec(property(get=__get_vPoint, put=__set_vPoint))  vPoint;
 
-constexpr void __set_vPoint(::OVR::OpenVR::HmdVector3_t value) ;
+constexpr void __set_vPoint(OVR::OpenVR::HmdVector3_t value) ;
 
-constexpr ::OVR::OpenVR::HmdVector3_t __get_vPoint() const;
+constexpr OVR::OpenVR::HmdVector3_t __get_vPoint() const;
 
- ::OVR::OpenVR::HmdVector3_t __declspec(property(get=__get_vNormal, put=__set_vNormal))  vNormal;
+ OVR::OpenVR::HmdVector3_t __declspec(property(get=__get_vNormal, put=__set_vNormal))  vNormal;
 
-constexpr void __set_vNormal(::OVR::OpenVR::HmdVector3_t value) ;
+constexpr void __set_vNormal(OVR::OpenVR::HmdVector3_t value) ;
 
-constexpr ::OVR::OpenVR::HmdVector3_t __get_vNormal() const;
+constexpr OVR::OpenVR::HmdVector3_t __get_vNormal() const;
 
- ::OVR::OpenVR::HmdVector2_t __declspec(property(get=__get_vUVs, put=__set_vUVs))  vUVs;
+ OVR::OpenVR::HmdVector2_t __declspec(property(get=__get_vUVs, put=__set_vUVs))  vUVs;
 
-constexpr void __set_vUVs(::OVR::OpenVR::HmdVector2_t value) ;
+constexpr void __set_vUVs(OVR::OpenVR::HmdVector2_t value) ;
 
-constexpr ::OVR::OpenVR::HmdVector2_t __get_vUVs() const;
+constexpr OVR::OpenVR::HmdVector2_t __get_vUVs() const;
 
  float_t __declspec(property(get=__get_fDistance, put=__set_fDistance))  fDistance;
 
@@ -84,5 +83,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::VROverlayIntersectionResults_t, "OVR.OpenVR", "VROverlayIntersectionResults_t");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VROverlayIntersectionResults_t, "OVR.OpenVR", "VROverlayIntersectionResults_t");

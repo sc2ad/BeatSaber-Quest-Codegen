@@ -3,7 +3,6 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1String;
 }
@@ -17,11 +16,11 @@ namespace Org::BouncyCastle::Asn1 {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(31))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(33))
 // CS Name: Org.BouncyCastle.Asn1.DerStringBase
-class CORDL_TYPE DerStringBase : public ::Org::BouncyCastle::Asn1::Asn1Object {
+class CORDL_TYPE DerStringBase : public Org::BouncyCastle::Asn1::Asn1Object {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Asn1::IAsn1String
-constexpr operator  ::Org::BouncyCastle::Asn1::IAsn1String() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Asn1::IAsn1String
+constexpr operator  Org::BouncyCastle::Asn1::IAsn1String() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -35,7 +34,7 @@ constexpr DerStringBase(DerStringBase const& ) noexcept = default;
 constexpr DerStringBase(DerStringBase&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DerStringBase(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::Asn1Object(ptr) {
+constexpr explicit DerStringBase(void* ptr) noexcept : Org::BouncyCastle::Asn1::Asn1Object(ptr) {
 }
 
 
@@ -75,6 +74,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::DerStringBase);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::DerStringBase, "Org.BouncyCastle.Asn1", "DerStringBase");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::DerStringBase);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerStringBase, "Org.BouncyCastle.Asn1", "DerStringBase");

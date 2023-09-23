@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
 class GameScenesManager;
 }
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4049))
 // CS Name: FadeOutSongPreviewPlayerOnSceneTransitionStart
-class CORDL_TYPE FadeOutSongPreviewPlayerOnSceneTransitionStart : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE FadeOutSongPreviewPlayerOnSceneTransitionStart : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr FadeOutSongPreviewPlayerOnSceneTransitionStart(FadeOutSongPreviewPlaye
 constexpr FadeOutSongPreviewPlayerOnSceneTransitionStart(FadeOutSongPreviewPlayerOnSceneTransitionStart&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FadeOutSongPreviewPlayerOnSceneTransitionStart(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit FadeOutSongPreviewPlayerOnSceneTransitionStart(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -55,17 +54,17 @@ constexpr explicit FadeOutSongPreviewPlayerOnSceneTransitionStart(void* ptr) noe
 
 // Fields
 
- ::GlobalNamespace::AudioPlayerBase __declspec(property(get=__get__songPreviewPlayer, put=__set__songPreviewPlayer))  _songPreviewPlayer;
+ GlobalNamespace::AudioPlayerBase __declspec(property(get=__get__songPreviewPlayer, put=__set__songPreviewPlayer))  _songPreviewPlayer;
 
-constexpr void __set__songPreviewPlayer(::GlobalNamespace::AudioPlayerBase value) ;
+constexpr void __set__songPreviewPlayer(GlobalNamespace::AudioPlayerBase value) ;
 
-constexpr ::GlobalNamespace::AudioPlayerBase __get__songPreviewPlayer() const;
+constexpr GlobalNamespace::AudioPlayerBase __get__songPreviewPlayer() const;
 
- ::GlobalNamespace::GameScenesManager __declspec(property(get=__get__gameScenesManager, put=__set__gameScenesManager))  _gameScenesManager;
+ GlobalNamespace::GameScenesManager __declspec(property(get=__get__gameScenesManager, put=__set__gameScenesManager))  _gameScenesManager;
 
-constexpr void __set__gameScenesManager(::GlobalNamespace::GameScenesManager value) ;
+constexpr void __set__gameScenesManager(GlobalNamespace::GameScenesManager value) ;
 
-constexpr ::GlobalNamespace::GameScenesManager __get__gameScenesManager() const;
+constexpr GlobalNamespace::GameScenesManager __get__gameScenesManager() const;
 
 
 // Methods
@@ -89,6 +88,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart, "", "FadeOutSongPreviewPlayerOnSceneTransitionStart");
+NEED_NO_BOX(GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart, "", "FadeOutSongPreviewPlayerOnSceneTransitionStart");

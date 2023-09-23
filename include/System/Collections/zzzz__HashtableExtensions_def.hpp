@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace {
 namespace System::Collections {
 class Hashtable;
 }
@@ -54,12 +53,11 @@ constexpr explicit HashtableExtensions(void* ptr) noexcept : ::bs_hook::Il2CppWr
 
 /// @brief Method TryGetValue addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static bool TryGetValue(::System::Collections::Hashtable table, ::bs_hook::Il2CppWrapperType key, ByRef<T> value) ;
+static bool TryGetValue(System::Collections::Hashtable table, ::bs_hook::Il2CppWrapperType key, ByRef<T> value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Collections
-} // end anonymous namespace
-NEED_NO_BOX(::System::Collections::HashtableExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::HashtableExtensions, "System.Collections", "HashtableExtensions");
+NEED_NO_BOX(System::Collections::HashtableExtensions);
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::HashtableExtensions, "System.Collections", "HashtableExtensions");

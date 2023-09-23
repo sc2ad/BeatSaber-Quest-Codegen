@@ -3,7 +3,6 @@
 #include "GlobalNamespace/zzzz__ArcVisibilityType_def.hpp"
 #include "GlobalNamespace/zzzz__ValueDropdownController_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
@@ -22,10 +21,10 @@ class ArcVisibilityTypeSettingsDropdown;
 // Type: ::ArcVisibilityTypeSettingsDropdown
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5694)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5694), inst: 4589 }), TypeDefinitionIndex(TypeDefinitionIndex(4716))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5694), inst: 4589 }), TypeDefinitionIndex(TypeDefinitionIndex(5694)), TypeDefinitionIndex(TypeDefinitionIndex(4716))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5677))
 // CS Name: ArcVisibilityTypeSettingsDropdown
-class CORDL_TYPE ArcVisibilityTypeSettingsDropdown : public ::GlobalNamespace::ValueDropdownController_1<::GlobalNamespace::ArcVisibilityType> {
+class CORDL_TYPE ArcVisibilityTypeSettingsDropdown : public GlobalNamespace::ValueDropdownController_1<GlobalNamespace::ArcVisibilityType> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr ArcVisibilityTypeSettingsDropdown(ArcVisibilityTypeSettingsDropdown co
 constexpr ArcVisibilityTypeSettingsDropdown(ArcVisibilityTypeSettingsDropdown&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ArcVisibilityTypeSettingsDropdown(void* ptr) noexcept : ::GlobalNamespace::ValueDropdownController_1<::GlobalNamespace::ArcVisibilityType>(ptr) {
+constexpr explicit ArcVisibilityTypeSettingsDropdown(void* ptr) noexcept : GlobalNamespace::ValueDropdownController_1<GlobalNamespace::ArcVisibilityType>(ptr) {
 }
 
 
@@ -62,7 +61,7 @@ constexpr explicit ArcVisibilityTypeSettingsDropdown(void* ptr) noexcept : ::Glo
 // Methods
 
 /// @brief Method GetNamedValues addr 0x215220c size 0x164 virtual true final false
- ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::ArcVisibilityType,::StringW>> GetNamedValues() ;
+ System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::ArcVisibilityType,::StringW>> GetNamedValues() ;
 
 // Ctor Parameters []
 explicit ArcVisibilityTypeSettingsDropdown() ;
@@ -74,6 +73,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ArcVisibilityTypeSettingsDropdown);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ArcVisibilityTypeSettingsDropdown, "", "ArcVisibilityTypeSettingsDropdown");
+NEED_NO_BOX(GlobalNamespace::ArcVisibilityTypeSettingsDropdown);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ArcVisibilityTypeSettingsDropdown, "", "ArcVisibilityTypeSettingsDropdown");

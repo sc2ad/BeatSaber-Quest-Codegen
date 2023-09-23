@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PoolableSerializable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
 namespace LiteNetLib::Utils {
 class NetDataReader;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15122))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15119))
 // CS Name: PlayerLobbyPermissionConfigurationNetSerializable
-class CORDL_TYPE PlayerLobbyPermissionConfigurationNetSerializable : public ::GlobalNamespace::PoolableSerializable {
+class CORDL_TYPE PlayerLobbyPermissionConfigurationNetSerializable : public GlobalNamespace::PoolableSerializable {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr PlayerLobbyPermissionConfigurationNetSerializable(PlayerLobbyPermissio
 constexpr PlayerLobbyPermissionConfigurationNetSerializable(PlayerLobbyPermissionConfigurationNetSerializable&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PlayerLobbyPermissionConfigurationNetSerializable(void* ptr) noexcept : ::GlobalNamespace::PoolableSerializable(ptr) {
+constexpr explicit PlayerLobbyPermissionConfigurationNetSerializable(void* ptr) noexcept : GlobalNamespace::PoolableSerializable(ptr) {
 }
 
 
@@ -128,10 +127,10 @@ constexpr bool __get__hasInvitePermission() const;
  bool get_hasInvitePermission() ;
 
 /// @brief Method Obtain addr 0x1218570 size 0x64 virtual false final false
-static ::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable Obtain() ;
+static GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable Obtain() ;
 
 /// @brief Method Init addr 0x12185d4 size 0x30 virtual false final false
- ::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable Init(::StringW userId, bool isServerOwner, bool hasRecommendBeatmapsPermission, bool hasRecommendGameplayModifiersPermission, bool hasKickVotePermission, bool hasInvitePermission) ;
+ GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable Init(::StringW userId, bool isServerOwner, bool hasRecommendBeatmapsPermission, bool hasRecommendGameplayModifiersPermission, bool hasKickVotePermission, bool hasInvitePermission) ;
 
 // Ctor Parameters []
 explicit PlayerLobbyPermissionConfigurationNetSerializable() ;
@@ -140,15 +139,14 @@ explicit PlayerLobbyPermissionConfigurationNetSerializable() ;
  void _ctor() ;
 
 /// @brief Method Serialize addr 0x121865c size 0x60 virtual true final false
- void Serialize(::LiteNetLib::Utils::NetDataWriter writer) ;
+ void Serialize(LiteNetLib::Utils::NetDataWriter writer) ;
 
 /// @brief Method Deserialize addr 0x12186bc size 0x6c virtual true final false
- void Deserialize(::LiteNetLib::Utils::NetDataReader reader) ;
+ void Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable, "", "PlayerLobbyPermissionConfigurationNetSerializable");
+NEED_NO_BOX(GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable, "", "PlayerLobbyPermissionConfigurationNetSerializable");

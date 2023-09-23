@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Rendering {
 struct ShaderPropertyType;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Color offset 0
-static ::UnityEngine::Rendering::ShaderPropertyType const Color;
+static UnityEngine::Rendering::ShaderPropertyType const Color;
 
 /// @brief Field Vector offset 0
-static ::UnityEngine::Rendering::ShaderPropertyType const Vector;
+static UnityEngine::Rendering::ShaderPropertyType const Vector;
 
 /// @brief Field Float offset 0
-static ::UnityEngine::Rendering::ShaderPropertyType const Float;
+static UnityEngine::Rendering::ShaderPropertyType const Float;
 
 /// @brief Field Range offset 0
-static ::UnityEngine::Rendering::ShaderPropertyType const Range;
+static UnityEngine::Rendering::ShaderPropertyType const Range;
 
 /// @brief Field Texture offset 0
-static ::UnityEngine::Rendering::ShaderPropertyType const Texture;
+static UnityEngine::Rendering::ShaderPropertyType const Texture;
 
 /// @brief Field Int offset 0
-static ::UnityEngine::Rendering::ShaderPropertyType const Int;
+static UnityEngine::Rendering::ShaderPropertyType const Int;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Rendering
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::ShaderPropertyType, "UnityEngine.Rendering", "ShaderPropertyType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::ShaderPropertyType, "UnityEngine.Rendering", "ShaderPropertyType");

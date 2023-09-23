@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace JetBrains::Annotations {
 struct AssertionConditionType;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field IS_TRUE offset 0
-static ::JetBrains::Annotations::AssertionConditionType const IS_TRUE;
+static JetBrains::Annotations::AssertionConditionType const IS_TRUE;
 
 /// @brief Field IS_FALSE offset 0
-static ::JetBrains::Annotations::AssertionConditionType const IS_FALSE;
+static JetBrains::Annotations::AssertionConditionType const IS_FALSE;
 
 /// @brief Field IS_NULL offset 0
-static ::JetBrains::Annotations::AssertionConditionType const IS_NULL;
+static JetBrains::Annotations::AssertionConditionType const IS_NULL;
 
 /// @brief Field IS_NOT_NULL offset 0
-static ::JetBrains::Annotations::AssertionConditionType const IS_NOT_NULL;
+static JetBrains::Annotations::AssertionConditionType const IS_NOT_NULL;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def JetBrains::Annotations
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::JetBrains::Annotations::AssertionConditionType, "JetBrains.Annotations", "AssertionConditionType");
+DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AssertionConditionType, "JetBrains.Annotations", "AssertionConditionType");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::IO {
 struct FileOptions;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::IO::FileOptions const None;
+static System::IO::FileOptions const None;
 
 /// @brief Field WriteThrough offset 0
-static ::System::IO::FileOptions const WriteThrough;
+static System::IO::FileOptions const WriteThrough;
 
 /// @brief Field Asynchronous offset 0
-static ::System::IO::FileOptions const Asynchronous;
+static System::IO::FileOptions const Asynchronous;
 
 /// @brief Field RandomAccess offset 0
-static ::System::IO::FileOptions const RandomAccess;
+static System::IO::FileOptions const RandomAccess;
 
 /// @brief Field DeleteOnClose offset 0
-static ::System::IO::FileOptions const DeleteOnClose;
+static System::IO::FileOptions const DeleteOnClose;
 
 /// @brief Field SequentialScan offset 0
-static ::System::IO::FileOptions const SequentialScan;
+static System::IO::FileOptions const SequentialScan;
 
 /// @brief Field Encrypted offset 0
-static ::System::IO::FileOptions const Encrypted;
+static System::IO::FileOptions const Encrypted;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::IO
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::FileOptions, "System.IO", "FileOptions");
+DEFINE_IL2CPP_ARG_TYPE(System::IO::FileOptions, "System.IO", "FileOptions");

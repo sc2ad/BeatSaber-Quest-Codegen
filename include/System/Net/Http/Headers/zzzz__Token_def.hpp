@@ -3,10 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net::Http::Headers {
-struct ____System__Net__Http__Headers__Token__Type;
+struct System__Net__Http__Headers__Token__Type;
 }
 namespace System::Net::Http::Headers {
 struct Token;
@@ -17,20 +16,20 @@ namespace System::Net::Http::Headers {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14841))
 // CS Name: System.Net.Http.Headers.Token::Type
-struct CORDL_TYPE ____System__Net__Http__Headers__Token__Type : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE System__Net__Http__Headers__Token__Type : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____System__Net__Http__Headers__Token__Type(int32_t value__) noexcept;
+constexpr System__Net__Http__Headers__Token__Type(int32_t value__) noexcept;
 
 
-                    constexpr ____System__Net__Http__Headers__Token__Type(____System__Net__Http__Headers__Token__Type const&) = default;
-                    constexpr ____System__Net__Http__Headers__Token__Type(____System__Net__Http__Headers__Token__Type&&) = default;
-                    constexpr ____System__Net__Http__Headers__Token__Type& operator=(____System__Net__Http__Headers__Token__Type const& o) {
+                    constexpr System__Net__Http__Headers__Token__Type(System__Net__Http__Headers__Token__Type const&) = default;
+                    constexpr System__Net__Http__Headers__Token__Type(System__Net__Http__Headers__Token__Type&&) = default;
+                    constexpr System__Net__Http__Headers__Token__Type& operator=(System__Net__Http__Headers__Token__Type const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Net__Http__Headers__Token__Type& operator=(____System__Net__Http__Headers__Token__Type&& o) noexcept {
+                    constexpr System__Net__Http__Headers__Token__Type& operator=(System__Net__Http__Headers__Token__Type&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -43,7 +42,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Net__Http__Headers__Token__Type(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Net__Http__Headers__Token__Type(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -51,7 +50,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______System__Net__Http__Headers__Token__Type_Unwrapped : int32_t {
+enum class __System__Net__Http__Headers__Token__Type_Unwrapped : int32_t {
 __Error = 0,
 __End = 1,
 __Token = 2,
@@ -65,8 +64,8 @@ __OpenParens = 9,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______System__Net__Http__Headers__Token__Type_Unwrapped () const noexcept {
-return std::bit_cast<______System__Net__Http__Headers__Token__Type_Unwrapped>(__instance);
+constexpr operator __System__Net__Http__Headers__Token__Type_Unwrapped () const noexcept {
+return std::bit_cast<__System__Net__Http__Headers__Token__Type_Unwrapped>(__instance);
 }
 
 
@@ -79,34 +78,34 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Error offset 0
-static ::System::Net::Http::Headers::____System__Net__Http__Headers__Token__Type const Error;
+static System::Net::Http::Headers::System__Net__Http__Headers__Token__Type const Error;
 
 /// @brief Field End offset 0
-static ::System::Net::Http::Headers::____System__Net__Http__Headers__Token__Type const End;
+static System::Net::Http::Headers::System__Net__Http__Headers__Token__Type const End;
 
 /// @brief Field Token offset 0
-static ::System::Net::Http::Headers::____System__Net__Http__Headers__Token__Type const Token;
+static System::Net::Http::Headers::System__Net__Http__Headers__Token__Type const Token;
 
 /// @brief Field QuotedString offset 0
-static ::System::Net::Http::Headers::____System__Net__Http__Headers__Token__Type const QuotedString;
+static System::Net::Http::Headers::System__Net__Http__Headers__Token__Type const QuotedString;
 
 /// @brief Field SeparatorEqual offset 0
-static ::System::Net::Http::Headers::____System__Net__Http__Headers__Token__Type const SeparatorEqual;
+static System::Net::Http::Headers::System__Net__Http__Headers__Token__Type const SeparatorEqual;
 
 /// @brief Field SeparatorSemicolon offset 0
-static ::System::Net::Http::Headers::____System__Net__Http__Headers__Token__Type const SeparatorSemicolon;
+static System::Net::Http::Headers::System__Net__Http__Headers__Token__Type const SeparatorSemicolon;
 
 /// @brief Field SeparatorSlash offset 0
-static ::System::Net::Http::Headers::____System__Net__Http__Headers__Token__Type const SeparatorSlash;
+static System::Net::Http::Headers::System__Net__Http__Headers__Token__Type const SeparatorSlash;
 
 /// @brief Field SeparatorDash offset 0
-static ::System::Net::Http::Headers::____System__Net__Http__Headers__Token__Type const SeparatorDash;
+static System::Net::Http::Headers::System__Net__Http__Headers__Token__Type const SeparatorDash;
 
 /// @brief Field SeparatorComma offset 0
-static ::System::Net::Http::Headers::____System__Net__Http__Headers__Token__Type const SeparatorComma;
+static System::Net::Http::Headers::System__Net__Http__Headers__Token__Type const SeparatorComma;
 
 /// @brief Field OpenParens offset 0
-static ::System::Net::Http::Headers::____System__Net__Http__Headers__Token__Type const OpenParens;
+static System::Net::Http::Headers::System__Net__Http__Headers__Token__Type const OpenParens;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -121,10 +120,10 @@ namespace System::Net::Http::Headers {
 struct CORDL_TYPE Token : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-using Type = ::System::Net::Http::Headers::____System__Net__Http__Headers__Token__Type;
+using Type = System::Net::Http::Headers::System__Net__Http__Headers__Token__Type;
 
-// Ctor Parameters [CppParam { name: "type", ty: "::System::Net::Http::Headers::____System__Net__Http__Headers__Token__Type", modifiers: "", def_value: None }, CppParam { name: "_StartPosition_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_EndPosition_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr Token(::System::Net::Http::Headers::____System__Net__Http__Headers__Token__Type type, int32_t _StartPosition_k__BackingField, int32_t _EndPosition_k__BackingField) noexcept;
+// Ctor Parameters [CppParam { name: "type", ty: "System::Net::Http::Headers::System__Net__Http__Headers__Token__Type", modifiers: "", def_value: None }, CppParam { name: "_StartPosition_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_EndPosition_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr Token(System::Net::Http::Headers::System__Net__Http__Headers__Token__Type type, int32_t _StartPosition_k__BackingField, int32_t _EndPosition_k__BackingField) noexcept;
 
 
                     constexpr Token(Token const&) = default;
@@ -157,17 +156,17 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
-static ::System::Net::Http::Headers::Token __declspec(property(get=__get_Empty, put=__set_Empty))  Empty;
+static System::Net::Http::Headers::Token __declspec(property(get=__get_Empty, put=__set_Empty))  Empty;
 
-static void __set_Empty(::System::Net::Http::Headers::Token value) ;
+static void __set_Empty(System::Net::Http::Headers::Token value) ;
 
-static ::System::Net::Http::Headers::Token __get_Empty() ;
+static System::Net::Http::Headers::Token __get_Empty() ;
 
- ::System::Net::Http::Headers::____System__Net__Http__Headers__Token__Type __declspec(property(get=__get_type, put=__set_type))  type;
+ System::Net::Http::Headers::System__Net__Http__Headers__Token__Type __declspec(property(get=__get_type, put=__set_type))  type;
 
-constexpr void __set_type(::System::Net::Http::Headers::____System__Net__Http__Headers__Token__Type value) ;
+constexpr void __set_type(System::Net::Http::Headers::System__Net__Http__Headers__Token__Type value) ;
 
-constexpr ::System::Net::Http::Headers::____System__Net__Http__Headers__Token__Type __get_type() const;
+constexpr System::Net::Http::Headers::System__Net__Http__Headers__Token__Type __get_type() const;
 
  int32_t __declspec(property(get=__get__StartPosition_k__BackingField, put=__set__StartPosition_k__BackingField))  _StartPosition_k__BackingField;
 
@@ -188,13 +187,13 @@ constexpr int32_t __get__EndPosition_k__BackingField() const;
 
  int32_t __declspec(property(get=get_EndPosition, put=set_EndPosition))  EndPosition;
 
- ::System::Net::Http::Headers::____System__Net__Http__Headers__Token__Type __declspec(property(get=get_Kind))  Kind;
+ System::Net::Http::Headers::System__Net__Http__Headers__Token__Type __declspec(property(get=get_Kind))  Kind;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x26a375c size 0xc virtual false final false
- void _ctor(::System::Net::Http::Headers::____System__Net__Http__Headers__Token__Type type, int32_t startPosition, int32_t endPosition) ;
+ void _ctor(System::Net::Http::Headers::System__Net__Http__Headers__Token__Type type, int32_t startPosition, int32_t endPosition) ;
 
 /// @brief Method get_StartPosition addr 0x26aae2c size 0x8 virtual false final false
  int32_t get_StartPosition() ;
@@ -209,10 +208,10 @@ constexpr int32_t __get__EndPosition_k__BackingField() const;
  void set_EndPosition(int32_t value) ;
 
 /// @brief Method get_Kind addr 0x26aae4c size 0x8 virtual false final false
- ::System::Net::Http::Headers::____System__Net__Http__Headers__Token__Type get_Kind() ;
+ System::Net::Http::Headers::System__Net__Http__Headers__Token__Type get_Kind() ;
 
 /// @brief Method op_Implicit addr 0x26aae54 size 0x4 virtual false final false
-static ::System::Net::Http::Headers::____System__Net__Http__Headers__Token__Type op_Implicit___System__Net__Http__Headers______System__Net__Http__Headers__Token__Type(::System::Net::Http::Headers::Token token) ;
+static System::Net::Http::Headers::System__Net__Http__Headers__Token__Type op_Implicit_System__Net__Http__Headers__System__Net__Http__Headers__Token__Type(System::Net::Http::Headers::Token token) ;
 
 /// @brief Method ToString addr 0x26aae58 size 0x68 virtual true final false
  ::StringW ToString() ;
@@ -221,6 +220,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net::Http::Headers
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::____System__Net__Http__Headers__Token__Type, "System.Net.Http.Headers", "Token/Type");
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::Token, "System.Net.Http.Headers", "Token");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::System__Net__Http__Headers__Token__Type, "System.Net.Http.Headers", "Token/Type");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Token, "System.Net.Http.Headers", "Token");

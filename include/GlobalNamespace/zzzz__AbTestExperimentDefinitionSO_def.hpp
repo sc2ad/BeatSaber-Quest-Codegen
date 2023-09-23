@@ -5,10 +5,9 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
-struct ____GlobalNamespace__AbTestExperimentDefinitionSO__Group;
+struct GlobalNamespace__AbTestExperimentDefinitionSO__Group;
 }
 namespace GlobalNamespace {
 class AbTestExperimentDefinitionSO;
@@ -19,20 +18,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5905))
 // CS Name: AbTestExperimentDefinitionSO::Group
-struct CORDL_TYPE ____GlobalNamespace__AbTestExperimentDefinitionSO__Group : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__AbTestExperimentDefinitionSO__Group : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__AbTestExperimentDefinitionSO__Group(int32_t value__) noexcept;
+constexpr GlobalNamespace__AbTestExperimentDefinitionSO__Group(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__AbTestExperimentDefinitionSO__Group(____GlobalNamespace__AbTestExperimentDefinitionSO__Group const&) = default;
-                    constexpr ____GlobalNamespace__AbTestExperimentDefinitionSO__Group(____GlobalNamespace__AbTestExperimentDefinitionSO__Group&&) = default;
-                    constexpr ____GlobalNamespace__AbTestExperimentDefinitionSO__Group& operator=(____GlobalNamespace__AbTestExperimentDefinitionSO__Group const& o) {
+                    constexpr GlobalNamespace__AbTestExperimentDefinitionSO__Group(GlobalNamespace__AbTestExperimentDefinitionSO__Group const&) = default;
+                    constexpr GlobalNamespace__AbTestExperimentDefinitionSO__Group(GlobalNamespace__AbTestExperimentDefinitionSO__Group&&) = default;
+                    constexpr GlobalNamespace__AbTestExperimentDefinitionSO__Group& operator=(GlobalNamespace__AbTestExperimentDefinitionSO__Group const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__AbTestExperimentDefinitionSO__Group& operator=(____GlobalNamespace__AbTestExperimentDefinitionSO__Group&& o) noexcept {
+                    constexpr GlobalNamespace__AbTestExperimentDefinitionSO__Group& operator=(GlobalNamespace__AbTestExperimentDefinitionSO__Group&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -45,7 +44,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__AbTestExperimentDefinitionSO__Group(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__AbTestExperimentDefinitionSO__Group(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -53,15 +52,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__AbTestExperimentDefinitionSO__Group_Unwrapped : int32_t {
+enum class __GlobalNamespace__AbTestExperimentDefinitionSO__Group_Unwrapped : int32_t {
 __Control = 0,
 __Test1 = 1,
 __Test2 = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__AbTestExperimentDefinitionSO__Group_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__AbTestExperimentDefinitionSO__Group_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__AbTestExperimentDefinitionSO__Group_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__AbTestExperimentDefinitionSO__Group_Unwrapped>(__instance);
 }
 
 
@@ -74,13 +73,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Control offset 0
-static ::GlobalNamespace::____GlobalNamespace__AbTestExperimentDefinitionSO__Group const Control;
+static GlobalNamespace::GlobalNamespace__AbTestExperimentDefinitionSO__Group const Control;
 
 /// @brief Field Test1 offset 0
-static ::GlobalNamespace::____GlobalNamespace__AbTestExperimentDefinitionSO__Group const Test1;
+static GlobalNamespace::GlobalNamespace__AbTestExperimentDefinitionSO__Group const Test1;
 
 /// @brief Field Test2 offset 0
-static ::GlobalNamespace::____GlobalNamespace__AbTestExperimentDefinitionSO__Group const Test2;
+static GlobalNamespace::GlobalNamespace__AbTestExperimentDefinitionSO__Group const Test2;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -92,10 +91,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5906))
 // CS Name: AbTestExperimentDefinitionSO
-class CORDL_TYPE AbTestExperimentDefinitionSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE AbTestExperimentDefinitionSO : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
-using Group = ::GlobalNamespace::____GlobalNamespace__AbTestExperimentDefinitionSO__Group;
+using Group = GlobalNamespace::GlobalNamespace__AbTestExperimentDefinitionSO__Group;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -109,7 +108,7 @@ constexpr AbTestExperimentDefinitionSO(AbTestExperimentDefinitionSO const& ) noe
 constexpr AbTestExperimentDefinitionSO(AbTestExperimentDefinitionSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AbTestExperimentDefinitionSO(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit AbTestExperimentDefinitionSO(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -160,11 +159,11 @@ constexpr void __set__salt(::StringW value) ;
 
 constexpr ::StringW __get__salt() const;
 
- ::GlobalNamespace::____GlobalNamespace__AbTestExperimentDefinitionSO__Group __declspec(property(get=__get__currentUserTreatmentGroup, put=__set__currentUserTreatmentGroup))  _currentUserTreatmentGroup;
+ GlobalNamespace::GlobalNamespace__AbTestExperimentDefinitionSO__Group __declspec(property(get=__get__currentUserTreatmentGroup, put=__set__currentUserTreatmentGroup))  _currentUserTreatmentGroup;
 
-constexpr void __set__currentUserTreatmentGroup(::GlobalNamespace::____GlobalNamespace__AbTestExperimentDefinitionSO__Group value) ;
+constexpr void __set__currentUserTreatmentGroup(GlobalNamespace::GlobalNamespace__AbTestExperimentDefinitionSO__Group value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__AbTestExperimentDefinitionSO__Group __get__currentUserTreatmentGroup() const;
+constexpr GlobalNamespace::GlobalNamespace__AbTestExperimentDefinitionSO__Group __get__currentUserTreatmentGroup() const;
 
 
 // Properties
@@ -175,7 +174,7 @@ constexpr ::GlobalNamespace::____GlobalNamespace__AbTestExperimentDefinitionSO__
 
  ::StringW __declspec(property(get=get_experimentName))  experimentName;
 
- ::GlobalNamespace::____GlobalNamespace__AbTestExperimentDefinitionSO__Group __declspec(property(get=get_currentUserTreatmentGroup))  currentUserTreatmentGroup;
+ GlobalNamespace::GlobalNamespace__AbTestExperimentDefinitionSO__Group __declspec(property(get=get_currentUserTreatmentGroup))  currentUserTreatmentGroup;
 
 
 // Methods
@@ -190,7 +189,7 @@ constexpr ::GlobalNamespace::____GlobalNamespace__AbTestExperimentDefinitionSO__
  ::StringW get_experimentName() ;
 
 /// @brief Method get_currentUserTreatmentGroup addr 0x21909cc size 0x8 virtual false final false
- ::GlobalNamespace::____GlobalNamespace__AbTestExperimentDefinitionSO__Group get_currentUserTreatmentGroup() ;
+ GlobalNamespace::GlobalNamespace__AbTestExperimentDefinitionSO__Group get_currentUserTreatmentGroup() ;
 
 /// @brief Method OnValidate addr 0x21909d4 size 0x2c virtual false final false
  void OnValidate() ;
@@ -199,10 +198,10 @@ constexpr ::GlobalNamespace::____GlobalNamespace__AbTestExperimentDefinitionSO__
  void ComputeCurrentUserTreatment(::StringW userId) ;
 
 /// @brief Method ForceSetTreatmentGroup addr 0x2190ca0 size 0x8 virtual false final false
- void ForceSetTreatmentGroup(::GlobalNamespace::____GlobalNamespace__AbTestExperimentDefinitionSO__Group group) ;
+ void ForceSetTreatmentGroup(GlobalNamespace::GlobalNamespace__AbTestExperimentDefinitionSO__Group group) ;
 
 /// @brief Method AbSplit addr 0x2190a18 size 0x288 virtual false final false
- ::GlobalNamespace::____GlobalNamespace__AbTestExperimentDefinitionSO__Group AbSplit(::StringW userId) ;
+ GlobalNamespace::GlobalNamespace__AbTestExperimentDefinitionSO__Group AbSplit(::StringW userId) ;
 
 // Ctor Parameters []
 explicit AbTestExperimentDefinitionSO() ;
@@ -214,7 +213,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__AbTestExperimentDefinitionSO__Group, "", "AbTestExperimentDefinitionSO/Group");
-NEED_NO_BOX(::GlobalNamespace::AbTestExperimentDefinitionSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AbTestExperimentDefinitionSO, "", "AbTestExperimentDefinitionSO");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__AbTestExperimentDefinitionSO__Group, "", "AbTestExperimentDefinitionSO/Group");
+NEED_NO_BOX(GlobalNamespace::AbTestExperimentDefinitionSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AbTestExperimentDefinitionSO, "", "AbTestExperimentDefinitionSO");

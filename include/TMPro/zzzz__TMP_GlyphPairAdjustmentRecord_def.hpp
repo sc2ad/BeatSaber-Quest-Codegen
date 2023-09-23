@@ -1,15 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace TMPro {
-struct FontFeatureLookupFlags;
+namespace UnityEngine::TextCore::LowLevel {
+struct GlyphPairAdjustmentRecord;
 }
 namespace TMPro {
 struct TMP_GlyphAdjustmentRecord;
 }
-namespace UnityEngine::TextCore::LowLevel {
-struct GlyphPairAdjustmentRecord;
+namespace TMPro {
+struct FontFeatureLookupFlags;
 }
 // Forward declare root types
 namespace TMPro {
@@ -57,70 +56,69 @@ constexpr explicit TMP_GlyphPairAdjustmentRecord(void* ptr) noexcept : ::bs_hook
 
 // Fields
 
- ::TMPro::TMP_GlyphAdjustmentRecord __declspec(property(get=__get_m_FirstAdjustmentRecord, put=__set_m_FirstAdjustmentRecord))  m_FirstAdjustmentRecord;
+ TMPro::TMP_GlyphAdjustmentRecord __declspec(property(get=__get_m_FirstAdjustmentRecord, put=__set_m_FirstAdjustmentRecord))  m_FirstAdjustmentRecord;
 
-constexpr void __set_m_FirstAdjustmentRecord(::TMPro::TMP_GlyphAdjustmentRecord value) ;
+constexpr void __set_m_FirstAdjustmentRecord(TMPro::TMP_GlyphAdjustmentRecord value) ;
 
-constexpr ::TMPro::TMP_GlyphAdjustmentRecord __get_m_FirstAdjustmentRecord() const;
+constexpr TMPro::TMP_GlyphAdjustmentRecord __get_m_FirstAdjustmentRecord() const;
 
- ::TMPro::TMP_GlyphAdjustmentRecord __declspec(property(get=__get_m_SecondAdjustmentRecord, put=__set_m_SecondAdjustmentRecord))  m_SecondAdjustmentRecord;
+ TMPro::TMP_GlyphAdjustmentRecord __declspec(property(get=__get_m_SecondAdjustmentRecord, put=__set_m_SecondAdjustmentRecord))  m_SecondAdjustmentRecord;
 
-constexpr void __set_m_SecondAdjustmentRecord(::TMPro::TMP_GlyphAdjustmentRecord value) ;
+constexpr void __set_m_SecondAdjustmentRecord(TMPro::TMP_GlyphAdjustmentRecord value) ;
 
-constexpr ::TMPro::TMP_GlyphAdjustmentRecord __get_m_SecondAdjustmentRecord() const;
+constexpr TMPro::TMP_GlyphAdjustmentRecord __get_m_SecondAdjustmentRecord() const;
 
- ::TMPro::FontFeatureLookupFlags __declspec(property(get=__get_m_FeatureLookupFlags, put=__set_m_FeatureLookupFlags))  m_FeatureLookupFlags;
+ TMPro::FontFeatureLookupFlags __declspec(property(get=__get_m_FeatureLookupFlags, put=__set_m_FeatureLookupFlags))  m_FeatureLookupFlags;
 
-constexpr void __set_m_FeatureLookupFlags(::TMPro::FontFeatureLookupFlags value) ;
+constexpr void __set_m_FeatureLookupFlags(TMPro::FontFeatureLookupFlags value) ;
 
-constexpr ::TMPro::FontFeatureLookupFlags __get_m_FeatureLookupFlags() const;
+constexpr TMPro::FontFeatureLookupFlags __get_m_FeatureLookupFlags() const;
 
 
 // Properties
 
- ::TMPro::TMP_GlyphAdjustmentRecord __declspec(property(get=get_firstAdjustmentRecord, put=set_firstAdjustmentRecord))  firstAdjustmentRecord;
+ TMPro::TMP_GlyphAdjustmentRecord __declspec(property(get=get_firstAdjustmentRecord, put=set_firstAdjustmentRecord))  firstAdjustmentRecord;
 
- ::TMPro::TMP_GlyphAdjustmentRecord __declspec(property(get=get_secondAdjustmentRecord, put=set_secondAdjustmentRecord))  secondAdjustmentRecord;
+ TMPro::TMP_GlyphAdjustmentRecord __declspec(property(get=get_secondAdjustmentRecord, put=set_secondAdjustmentRecord))  secondAdjustmentRecord;
 
- ::TMPro::FontFeatureLookupFlags __declspec(property(get=get_featureLookupFlags, put=set_featureLookupFlags))  featureLookupFlags;
+ TMPro::FontFeatureLookupFlags __declspec(property(get=get_featureLookupFlags, put=set_featureLookupFlags))  featureLookupFlags;
 
 
 // Methods
 
 /// @brief Method get_firstAdjustmentRecord addr 0x2a7a8c4 size 0x14 virtual false final false
- ::TMPro::TMP_GlyphAdjustmentRecord get_firstAdjustmentRecord() ;
+ TMPro::TMP_GlyphAdjustmentRecord get_firstAdjustmentRecord() ;
 
 /// @brief Method set_firstAdjustmentRecord addr 0x2a7a8d8 size 0x14 virtual false final false
- void set_firstAdjustmentRecord(::TMPro::TMP_GlyphAdjustmentRecord value) ;
+ void set_firstAdjustmentRecord(TMPro::TMP_GlyphAdjustmentRecord value) ;
 
 /// @brief Method get_secondAdjustmentRecord addr 0x2a7a8ec size 0x14 virtual false final false
- ::TMPro::TMP_GlyphAdjustmentRecord get_secondAdjustmentRecord() ;
+ TMPro::TMP_GlyphAdjustmentRecord get_secondAdjustmentRecord() ;
 
 /// @brief Method set_secondAdjustmentRecord addr 0x2a7a900 size 0x14 virtual false final false
- void set_secondAdjustmentRecord(::TMPro::TMP_GlyphAdjustmentRecord value) ;
+ void set_secondAdjustmentRecord(TMPro::TMP_GlyphAdjustmentRecord value) ;
 
 /// @brief Method get_featureLookupFlags addr 0x2a7a914 size 0x8 virtual false final false
- ::TMPro::FontFeatureLookupFlags get_featureLookupFlags() ;
+ TMPro::FontFeatureLookupFlags get_featureLookupFlags() ;
 
 /// @brief Method set_featureLookupFlags addr 0x2a7a91c size 0x8 virtual false final false
- void set_featureLookupFlags(::TMPro::FontFeatureLookupFlags value) ;
+ void set_featureLookupFlags(TMPro::FontFeatureLookupFlags value) ;
 
-// Ctor Parameters [CppParam { name: "firstAdjustmentRecord", ty: "::TMPro::TMP_GlyphAdjustmentRecord", modifiers: "", def_value: None }, CppParam { name: "secondAdjustmentRecord", ty: "::TMPro::TMP_GlyphAdjustmentRecord", modifiers: "", def_value: None }]
-explicit TMP_GlyphPairAdjustmentRecord(::TMPro::TMP_GlyphAdjustmentRecord firstAdjustmentRecord, ::TMPro::TMP_GlyphAdjustmentRecord secondAdjustmentRecord) ;
+// Ctor Parameters [CppParam { name: "firstAdjustmentRecord", ty: "TMPro::TMP_GlyphAdjustmentRecord", modifiers: "", def_value: None }, CppParam { name: "secondAdjustmentRecord", ty: "TMPro::TMP_GlyphAdjustmentRecord", modifiers: "", def_value: None }]
+explicit TMP_GlyphPairAdjustmentRecord(TMPro::TMP_GlyphAdjustmentRecord firstAdjustmentRecord, TMPro::TMP_GlyphAdjustmentRecord secondAdjustmentRecord) ;
 
 /// @brief Method .ctor addr 0x2a780b4 size 0x48 virtual false final false
- void _ctor(::TMPro::TMP_GlyphAdjustmentRecord firstAdjustmentRecord, ::TMPro::TMP_GlyphAdjustmentRecord secondAdjustmentRecord) ;
+ void _ctor(TMPro::TMP_GlyphAdjustmentRecord firstAdjustmentRecord, TMPro::TMP_GlyphAdjustmentRecord secondAdjustmentRecord) ;
 
-// Ctor Parameters [CppParam { name: "glyphPairAdjustmentRecord", ty: "::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord", modifiers: "", def_value: None }]
-explicit TMP_GlyphPairAdjustmentRecord(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord glyphPairAdjustmentRecord) ;
+// Ctor Parameters [CppParam { name: "glyphPairAdjustmentRecord", ty: "UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord", modifiers: "", def_value: None }]
+explicit TMP_GlyphPairAdjustmentRecord(UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord glyphPairAdjustmentRecord) ;
 
 /// @brief Method .ctor addr 0x2a775a4 size 0xb4 virtual false final false
- void _ctor(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord glyphPairAdjustmentRecord) ;
+ void _ctor(UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord glyphPairAdjustmentRecord) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-NEED_NO_BOX(::TMPro::TMP_GlyphPairAdjustmentRecord);
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_GlyphPairAdjustmentRecord, "TMPro", "TMP_GlyphPairAdjustmentRecord");
+NEED_NO_BOX(TMPro::TMP_GlyphPairAdjustmentRecord);
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_GlyphPairAdjustmentRecord, "TMPro", "TMP_GlyphPairAdjustmentRecord");

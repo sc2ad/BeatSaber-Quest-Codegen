@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_NCName_def.hpp"
-namespace {
 namespace System::Xml::Schema {
 struct XmlTypeCode;
 }
@@ -18,7 +17,7 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11601))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11604))
 // CS Name: System.Xml.Schema.Datatype_ENTITY
-class CORDL_TYPE Datatype_ENTITY : public ::System::Xml::Schema::Datatype_NCName {
+class CORDL_TYPE Datatype_ENTITY : public System::Xml::Schema::Datatype_NCName {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr Datatype_ENTITY(Datatype_ENTITY const& ) noexcept = default;
 constexpr Datatype_ENTITY(Datatype_ENTITY&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Datatype_ENTITY(void* ptr) noexcept : ::System::Xml::Schema::Datatype_NCName(ptr) {
+constexpr explicit Datatype_ENTITY(void* ptr) noexcept : System::Xml::Schema::Datatype_NCName(ptr) {
 }
 
 
@@ -54,18 +53,18 @@ constexpr explicit Datatype_ENTITY(void* ptr) noexcept : ::System::Xml::Schema::
 
 // Properties
 
- ::System::Xml::Schema::XmlTypeCode __declspec(property(get=get_TypeCode))  TypeCode;
+ System::Xml::Schema::XmlTypeCode __declspec(property(get=get_TypeCode))  TypeCode;
 
- ::System::Xml::XmlTokenizedType __declspec(property(get=get_TokenizedType))  TokenizedType;
+ System::Xml::XmlTokenizedType __declspec(property(get=get_TokenizedType))  TokenizedType;
 
 
 // Methods
 
 /// @brief Method get_TypeCode addr 0x2727e80 size 0x8 virtual true final false
- ::System::Xml::Schema::XmlTypeCode get_TypeCode() ;
+ System::Xml::Schema::XmlTypeCode get_TypeCode() ;
 
 /// @brief Method get_TokenizedType addr 0x2727e88 size 0x8 virtual true final false
- ::System::Xml::XmlTokenizedType get_TokenizedType() ;
+ System::Xml::XmlTokenizedType get_TokenizedType() ;
 
 // Ctor Parameters []
 explicit Datatype_ENTITY() ;
@@ -77,6 +76,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::Datatype_ENTITY);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::Datatype_ENTITY, "System.Xml.Schema", "Datatype_ENTITY");
+NEED_NO_BOX(System::Xml::Schema::Datatype_ENTITY);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::Datatype_ENTITY, "System.Xml.Schema", "Datatype_ENTITY");

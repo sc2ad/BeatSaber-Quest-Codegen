@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 struct InvitePolicy;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field OnlyConnectionOwnerCanInvite offset 0
-static ::GlobalNamespace::InvitePolicy const OnlyConnectionOwnerCanInvite;
+static GlobalNamespace::InvitePolicy const OnlyConnectionOwnerCanInvite;
 
 /// @brief Field AnyoneCanInvite offset 0
-static ::GlobalNamespace::InvitePolicy const AnyoneCanInvite;
+static GlobalNamespace::InvitePolicy const AnyoneCanInvite;
 
 /// @brief Field NobodyCanInvite offset 0
-static ::GlobalNamespace::InvitePolicy const NobodyCanInvite;
+static GlobalNamespace::InvitePolicy const NobodyCanInvite;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::InvitePolicy, "", "InvitePolicy");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::InvitePolicy, "", "InvitePolicy");

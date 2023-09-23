@@ -4,10 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-class Uri;
-}
 namespace System {
 struct DateTime;
 }
@@ -19,6 +15,9 @@ struct CookieVariant;
 }
 namespace System::Collections {
 class IComparer;
+}
+namespace System {
+class Uri;
 }
 // Forward declare root types
 namespace System::Net {
@@ -84,11 +83,11 @@ static void __set_Reserved2Value(::ArrayW<char16_t> value) ;
 
 static ::ArrayW<char16_t> __get_Reserved2Value() ;
 
-static ::System::Net::Comparer __declspec(property(get=__get_staticComparer, put=__set_staticComparer))  staticComparer;
+static System::Net::Comparer __declspec(property(get=__get_staticComparer, put=__set_staticComparer))  staticComparer;
 
-static void __set_staticComparer(::System::Net::Comparer value) ;
+static void __set_staticComparer(System::Net::Comparer value) ;
 
-static ::System::Net::Comparer __get_staticComparer() ;
+static System::Net::Comparer __get_staticComparer() ;
 
  ::StringW __declspec(property(get=__get_m_comment, put=__set_m_comment))  m_comment;
 
@@ -96,17 +95,17 @@ constexpr void __set_m_comment(::StringW value) ;
 
 constexpr ::StringW __get_m_comment() const;
 
- ::System::Uri __declspec(property(get=__get_m_commentUri, put=__set_m_commentUri))  m_commentUri;
+ System::Uri __declspec(property(get=__get_m_commentUri, put=__set_m_commentUri))  m_commentUri;
 
-constexpr void __set_m_commentUri(::System::Uri value) ;
+constexpr void __set_m_commentUri(System::Uri value) ;
 
-constexpr ::System::Uri __get_m_commentUri() const;
+constexpr System::Uri __get_m_commentUri() const;
 
- ::System::Net::CookieVariant __declspec(property(get=__get_m_cookieVariant, put=__set_m_cookieVariant))  m_cookieVariant;
+ System::Net::CookieVariant __declspec(property(get=__get_m_cookieVariant, put=__set_m_cookieVariant))  m_cookieVariant;
 
-constexpr void __set_m_cookieVariant(::System::Net::CookieVariant value) ;
+constexpr void __set_m_cookieVariant(System::Net::CookieVariant value) ;
 
-constexpr ::System::Net::CookieVariant __get_m_cookieVariant() const;
+constexpr System::Net::CookieVariant __get_m_cookieVariant() const;
 
  bool __declspec(property(get=__get_m_discard, put=__set_m_discard))  m_discard;
 
@@ -126,11 +125,11 @@ constexpr void __set_m_domain_implicit(bool value) ;
 
 constexpr bool __get_m_domain_implicit() const;
 
- ::System::DateTime __declspec(property(get=__get_m_expires, put=__set_m_expires))  m_expires;
+ System::DateTime __declspec(property(get=__get_m_expires, put=__set_m_expires))  m_expires;
 
-constexpr void __set_m_expires(::System::DateTime value) ;
+constexpr void __set_m_expires(System::DateTime value) ;
 
-constexpr ::System::DateTime __get_m_expires() const;
+constexpr System::DateTime __get_m_expires() const;
 
  ::StringW __declspec(property(get=__get_m_name, put=__set_m_name))  m_name;
 
@@ -180,11 +179,11 @@ constexpr void __set_m_httpOnly(bool value) ;
 
 constexpr bool __get_m_httpOnly() const;
 
- ::System::DateTime __declspec(property(get=__get_m_timeStamp, put=__set_m_timeStamp))  m_timeStamp;
+ System::DateTime __declspec(property(get=__get_m_timeStamp, put=__set_m_timeStamp))  m_timeStamp;
 
-constexpr void __set_m_timeStamp(::System::DateTime value) ;
+constexpr void __set_m_timeStamp(System::DateTime value) ;
 
-constexpr ::System::DateTime __get_m_timeStamp() const;
+constexpr System::DateTime __get_m_timeStamp() const;
 
  ::StringW __declspec(property(get=__get_m_value, put=__set_m_value))  m_value;
 
@@ -221,7 +220,7 @@ constexpr bool __get_IsQuotedDomain() const;
 
  ::StringW __declspec(property(get=get_Comment, put=set_Comment))  Comment;
 
- ::System::Uri __declspec(property(put=set_CommentUri))  CommentUri;
+ System::Uri __declspec(property(put=set_CommentUri))  CommentUri;
 
  bool __declspec(property(put=set_HttpOnly))  HttpOnly;
 
@@ -233,7 +232,7 @@ constexpr bool __get_IsQuotedDomain() const;
 
  bool __declspec(property(get=get_Expired))  Expired;
 
- ::System::DateTime __declspec(property(put=set_Expires))  Expires;
+ System::DateTime __declspec(property(put=set_Expires))  Expires;
 
  ::StringW __declspec(property(get=get_Name, put=set_Name))  Name;
 
@@ -253,7 +252,7 @@ constexpr bool __get_IsQuotedDomain() const;
 
  ::StringW __declspec(property(get=get_Value, put=set_Value))  Value;
 
- ::System::Net::CookieVariant __declspec(property(get=get_Variant))  Variant;
+ System::Net::CookieVariant __declspec(property(get=get_Variant))  Variant;
 
  ::StringW __declspec(property(get=get_DomainKey))  DomainKey;
 
@@ -277,7 +276,7 @@ explicit Cookie() ;
  void set_Comment(::StringW value) ;
 
 /// @brief Method set_CommentUri addr 0x2819590 size 0x8 virtual false final false
- void set_CommentUri(::System::Uri value) ;
+ void set_CommentUri(System::Uri value) ;
 
 /// @brief Method set_HttpOnly addr 0x2819598 size 0xc virtual false final false
  void set_HttpOnly(bool value) ;
@@ -298,7 +297,7 @@ explicit Cookie() ;
  bool get_Expired() ;
 
 /// @brief Method set_Expires addr 0x28197c0 size 0x8 virtual false final false
- void set_Expires(::System::DateTime value) ;
+ void set_Expires(System::DateTime value) ;
 
 /// @brief Method get_Name addr 0x28197c8 size 0x8 virtual false final false
  ::StringW get_Name() ;
@@ -325,7 +324,7 @@ explicit Cookie() ;
 static bool IsDomainEqualToHost(::StringW domain, ::StringW host) ;
 
 /// @brief Method VerifySetDefaults addr 0x2819bd0 size 0x9f0 virtual false final false
- bool VerifySetDefaults(::System::Net::CookieVariant variant, ::System::Uri uri, bool isLocalDomain, ::StringW localDomain, bool set_default, bool isThrow) ;
+ bool VerifySetDefaults(System::Net::CookieVariant variant, System::Uri uri, bool isLocalDomain, ::StringW localDomain, bool set_default, bool isThrow) ;
 
 /// @brief Method DomainCharsTest addr 0x281a5c0 size 0x9c virtual false final false
 static bool DomainCharsTest(::StringW name) ;
@@ -355,7 +354,7 @@ static bool DomainCharsTest(::StringW name) ;
  void set_Value(::StringW value) ;
 
 /// @brief Method get_Variant addr 0x281abb0 size 0x8 virtual false final false
- ::System::Net::CookieVariant get_Variant() ;
+ System::Net::CookieVariant get_Variant() ;
 
 /// @brief Method get_DomainKey addr 0x281abb8 size 0x1c virtual false final false
  ::StringW get_DomainKey() ;
@@ -370,7 +369,7 @@ static bool DomainCharsTest(::StringW name) ;
  ::StringW get__Version() ;
 
 /// @brief Method GetComparer addr 0x281ad50 size 0x58 virtual false final false
-static ::System::Collections::IComparer GetComparer() ;
+static System::Collections::IComparer GetComparer() ;
 
 /// @brief Method Equals addr 0x281ada8 size 0xd0 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType comparand) ;
@@ -385,6 +384,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Cookie);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Cookie, "System.Net", "Cookie");
+NEED_NO_BOX(System::Net::Cookie);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Cookie, "System.Net", "Cookie");

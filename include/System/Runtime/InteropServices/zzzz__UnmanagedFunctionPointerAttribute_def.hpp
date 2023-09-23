@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 namespace System::Runtime::InteropServices {
 struct CallingConvention;
 }
@@ -15,7 +14,7 @@ namespace System::Runtime::InteropServices {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3307))
 // CS Name: System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute
-class CORDL_TYPE UnmanagedFunctionPointerAttribute : public ::System::Attribute {
+class CORDL_TYPE UnmanagedFunctionPointerAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr UnmanagedFunctionPointerAttribute(UnmanagedFunctionPointerAttribute co
 constexpr UnmanagedFunctionPointerAttribute(UnmanagedFunctionPointerAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UnmanagedFunctionPointerAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit UnmanagedFunctionPointerAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -51,25 +50,24 @@ constexpr explicit UnmanagedFunctionPointerAttribute(void* ptr) noexcept : ::Sys
 
 // Fields
 
- ::System::Runtime::InteropServices::CallingConvention __declspec(property(get=__get_m_callingConvention, put=__set_m_callingConvention))  m_callingConvention;
+ System::Runtime::InteropServices::CallingConvention __declspec(property(get=__get_m_callingConvention, put=__set_m_callingConvention))  m_callingConvention;
 
-constexpr void __set_m_callingConvention(::System::Runtime::InteropServices::CallingConvention value) ;
+constexpr void __set_m_callingConvention(System::Runtime::InteropServices::CallingConvention value) ;
 
-constexpr ::System::Runtime::InteropServices::CallingConvention __get_m_callingConvention() const;
+constexpr System::Runtime::InteropServices::CallingConvention __get_m_callingConvention() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "callingConvention", ty: "::System::Runtime::InteropServices::CallingConvention", modifiers: "", def_value: None }]
-explicit UnmanagedFunctionPointerAttribute(::System::Runtime::InteropServices::CallingConvention callingConvention) ;
+// Ctor Parameters [CppParam { name: "callingConvention", ty: "System::Runtime::InteropServices::CallingConvention", modifiers: "", def_value: None }]
+explicit UnmanagedFunctionPointerAttribute(System::Runtime::InteropServices::CallingConvention callingConvention) ;
 
 /// @brief Method .ctor addr 0x236aba0 size 0x28 virtual false final false
- void _ctor(::System::Runtime::InteropServices::CallingConvention callingConvention) ;
+ void _ctor(System::Runtime::InteropServices::CallingConvention callingConvention) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::InteropServices
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute, "System.Runtime.InteropServices", "UnmanagedFunctionPointerAttribute");
+NEED_NO_BOX(System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute, "System.Runtime.InteropServices", "UnmanagedFunctionPointerAttribute");

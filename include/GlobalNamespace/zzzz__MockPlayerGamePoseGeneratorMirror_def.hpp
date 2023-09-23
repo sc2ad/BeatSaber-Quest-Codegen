@@ -3,7 +3,36 @@
 #include "GlobalNamespace/zzzz__MockPlayerGamePoseGenerator_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
+namespace GlobalNamespace {
+class IGameplayRpcManager;
+}
+namespace GlobalNamespace {
+class SliderSpawnInfoNetSerializable;
+}
+namespace GlobalNamespace {
+class NoteMissInfoNetSerializable;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
+}
+namespace GlobalNamespace {
+class NoteCutInfoNetSerializable;
+}
+namespace GlobalNamespace {
+class MockBeatmapData;
+}
+namespace GlobalNamespace {
+class NoteSpawnInfoNetSerializable;
+}
+namespace GlobalNamespace {
+class StandardScoreSyncStateNetSerializable;
+}
+namespace GlobalNamespace {
+class MultiplayerLevelCompletionResults;
+}
 namespace GlobalNamespace {
 class NodePoseSyncStateManager;
 }
@@ -11,40 +40,10 @@ namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class StandardScoreSyncStateNetSerializable;
-}
-namespace GlobalNamespace {
-class NoteMissInfoNetSerializable;
-}
-namespace GlobalNamespace {
-class NoteCutInfoNetSerializable;
-}
-namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-class MultiplayerLevelCompletionResults;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace GlobalNamespace {
 class ObstacleSpawnInfoNetSerializable;
-}
-namespace GlobalNamespace {
-class IGameplayRpcManager;
-}
-namespace GlobalNamespace {
-class NoteSpawnInfoNetSerializable;
-}
-namespace GlobalNamespace {
-class SliderSpawnInfoNetSerializable;
-}
-namespace GlobalNamespace {
-class MockBeatmapData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -56,7 +55,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15491))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5280))
 // CS Name: MockPlayerGamePoseGeneratorMirror
-class CORDL_TYPE MockPlayerGamePoseGeneratorMirror : public ::GlobalNamespace::MockPlayerGamePoseGenerator {
+class CORDL_TYPE MockPlayerGamePoseGeneratorMirror : public GlobalNamespace::MockPlayerGamePoseGenerator {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -71,7 +70,7 @@ constexpr MockPlayerGamePoseGeneratorMirror(MockPlayerGamePoseGeneratorMirror co
 constexpr MockPlayerGamePoseGeneratorMirror(MockPlayerGamePoseGeneratorMirror&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MockPlayerGamePoseGeneratorMirror(void* ptr) noexcept : ::GlobalNamespace::MockPlayerGamePoseGenerator(ptr) {
+constexpr explicit MockPlayerGamePoseGeneratorMirror(void* ptr) noexcept : GlobalNamespace::MockPlayerGamePoseGenerator(ptr) {
 }
 
 
@@ -92,38 +91,38 @@ constexpr explicit MockPlayerGamePoseGeneratorMirror(void* ptr) noexcept : ::Glo
 
 // Fields
 
- ::GlobalNamespace::NodePoseSyncStateManager __declspec(property(get=__get__nodePoseSyncStateManager, put=__set__nodePoseSyncStateManager))  _nodePoseSyncStateManager;
+ GlobalNamespace::NodePoseSyncStateManager __declspec(property(get=__get__nodePoseSyncStateManager, put=__set__nodePoseSyncStateManager))  _nodePoseSyncStateManager;
 
-constexpr void __set__nodePoseSyncStateManager(::GlobalNamespace::NodePoseSyncStateManager value) ;
+constexpr void __set__nodePoseSyncStateManager(GlobalNamespace::NodePoseSyncStateManager value) ;
 
-constexpr ::GlobalNamespace::NodePoseSyncStateManager __get__nodePoseSyncStateManager() const;
+constexpr GlobalNamespace::NodePoseSyncStateManager __get__nodePoseSyncStateManager() const;
 
- ::GlobalNamespace::IConnectedPlayer __declspec(property(get=__get__mirroredPlayer, put=__set__mirroredPlayer))  _mirroredPlayer;
+ GlobalNamespace::IConnectedPlayer __declspec(property(get=__get__mirroredPlayer, put=__set__mirroredPlayer))  _mirroredPlayer;
 
-constexpr void __set__mirroredPlayer(::GlobalNamespace::IConnectedPlayer value) ;
+constexpr void __set__mirroredPlayer(GlobalNamespace::IConnectedPlayer value) ;
 
-constexpr ::GlobalNamespace::IConnectedPlayer __get__mirroredPlayer() const;
+constexpr GlobalNamespace::IConnectedPlayer __get__mirroredPlayer() const;
 
- ::System::Action __declspec(property(get=__get__onSongFinished, put=__set__onSongFinished))  _onSongFinished;
+ System::Action __declspec(property(get=__get__onSongFinished, put=__set__onSongFinished))  _onSongFinished;
 
-constexpr void __set__onSongFinished(::System::Action value) ;
+constexpr void __set__onSongFinished(System::Action value) ;
 
-constexpr ::System::Action __get__onSongFinished() const;
+constexpr System::Action __get__onSongFinished() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "multiplayerSessionManager", ty: "::GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }, CppParam { name: "gameplayRpcManager", ty: "::GlobalNamespace::IGameplayRpcManager", modifiers: "", def_value: None }, CppParam { name: "leftHanded", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "nodePoseSyncStateManager", ty: "::GlobalNamespace::NodePoseSyncStateManager", modifiers: "", def_value: None }]
-explicit MockPlayerGamePoseGeneratorMirror(::GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager gameplayRpcManager, bool leftHanded, ::GlobalNamespace::NodePoseSyncStateManager nodePoseSyncStateManager) ;
+// Ctor Parameters [CppParam { name: "multiplayerSessionManager", ty: "GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }, CppParam { name: "gameplayRpcManager", ty: "GlobalNamespace::IGameplayRpcManager", modifiers: "", def_value: None }, CppParam { name: "leftHanded", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "nodePoseSyncStateManager", ty: "GlobalNamespace::NodePoseSyncStateManager", modifiers: "", def_value: None }]
+explicit MockPlayerGamePoseGeneratorMirror(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager gameplayRpcManager, bool leftHanded, GlobalNamespace::NodePoseSyncStateManager nodePoseSyncStateManager) ;
 
 /// @brief Method .ctor addr 0x20ed980 size 0x5a4 virtual false final false
- void _ctor(::GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager gameplayRpcManager, bool leftHanded, ::GlobalNamespace::NodePoseSyncStateManager nodePoseSyncStateManager) ;
+ void _ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager gameplayRpcManager, bool leftHanded, GlobalNamespace::NodePoseSyncStateManager nodePoseSyncStateManager) ;
 
 /// @brief Method Dispose addr 0x20ee278 size 0x460 virtual true final false
  void Dispose() ;
 
 /// @brief Method Init addr 0x20ee6d8 size 0x8 virtual true final false
- void Init(float_t introStartTime, ::GlobalNamespace::MockBeatmapData beatmapData, ::GlobalNamespace::GameplayModifiers gameplayModifiers, ::System::Action onSongFinished) ;
+ void Init(float_t introStartTime, GlobalNamespace::MockBeatmapData beatmapData, GlobalNamespace::GameplayModifiers gameplayModifiers, System::Action onSongFinished) ;
 
 /// @brief Method Tick addr 0x20ee6e0 size 0x168 virtual true final false
  void Tick() ;
@@ -132,30 +131,29 @@ explicit MockPlayerGamePoseGeneratorMirror(::GlobalNamespace::IMultiplayerSessio
  void FindPlayerToMirror() ;
 
 /// @brief Method HandleNoteWasSpawned addr 0x20eebec size 0x184 virtual false final false
- void HandleNoteWasSpawned(::StringW userId, float_t syncTime, float_t songTime, ::GlobalNamespace::NoteSpawnInfoNetSerializable noteSpawnInfoNetSerializable) ;
+ void HandleNoteWasSpawned(::StringW userId, float_t syncTime, float_t songTime, GlobalNamespace::NoteSpawnInfoNetSerializable noteSpawnInfoNetSerializable) ;
 
 /// @brief Method HandleObstacleWasSpawned addr 0x20eed70 size 0x184 virtual false final false
- void HandleObstacleWasSpawned(::StringW userId, float_t syncTime, float_t songTime, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable obstacleSpawnInfoNetSerializable) ;
+ void HandleObstacleWasSpawned(::StringW userId, float_t syncTime, float_t songTime, GlobalNamespace::ObstacleSpawnInfoNetSerializable obstacleSpawnInfoNetSerializable) ;
 
 /// @brief Method HandleSliderWasSpawned addr 0x20eeef4 size 0x184 virtual false final false
- void HandleSliderWasSpawned(::StringW userId, float_t syncTime, float_t songTime, ::GlobalNamespace::SliderSpawnInfoNetSerializable sliderSpawnInfoNetSerializable) ;
+ void HandleSliderWasSpawned(::StringW userId, float_t syncTime, float_t songTime, GlobalNamespace::SliderSpawnInfoNetSerializable sliderSpawnInfoNetSerializable) ;
 
 /// @brief Method HandleNoteWasMissed addr 0x20ef078 size 0x184 virtual false final false
- void HandleNoteWasMissed(::StringW userId, float_t syncTime, float_t songTime, ::GlobalNamespace::NoteMissInfoNetSerializable noteMissInfo) ;
+ void HandleNoteWasMissed(::StringW userId, float_t syncTime, float_t songTime, GlobalNamespace::NoteMissInfoNetSerializable noteMissInfo) ;
 
 /// @brief Method HandleNoteWasCut addr 0x20ef1fc size 0x184 virtual false final false
- void HandleNoteWasCut(::StringW userId, float_t syncTime, float_t songTime, ::GlobalNamespace::NoteCutInfoNetSerializable noteCutInfo) ;
+ void HandleNoteWasCut(::StringW userId, float_t syncTime, float_t songTime, GlobalNamespace::NoteCutInfoNetSerializable noteCutInfo) ;
 
 /// @brief Method HandleScoreSyncStateUpdate addr 0x20ef380 size 0x1d8 virtual false final false
- void HandleScoreSyncStateUpdate(::GlobalNamespace::StandardScoreSyncStateNetSerializable nodePose, ::GlobalNamespace::IConnectedPlayer player) ;
+ void HandleScoreSyncStateUpdate(GlobalNamespace::StandardScoreSyncStateNetSerializable nodePose, GlobalNamespace::IConnectedPlayer player) ;
 
 /// @brief Method HandleLevelFinished addr 0x20ef558 size 0x174 virtual false final false
- void HandleLevelFinished(::StringW userId, ::GlobalNamespace::MultiplayerLevelCompletionResults results) ;
+ void HandleLevelFinished(::StringW userId, GlobalNamespace::MultiplayerLevelCompletionResults results) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MockPlayerGamePoseGeneratorMirror);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MockPlayerGamePoseGeneratorMirror, "", "MockPlayerGamePoseGeneratorMirror");
+NEED_NO_BOX(GlobalNamespace::MockPlayerGamePoseGeneratorMirror);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayerGamePoseGeneratorMirror, "", "MockPlayerGamePoseGeneratorMirror");

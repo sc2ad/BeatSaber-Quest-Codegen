@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace System {
 class Action;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13851))
 // CS Name: VisibilityChecker
-class CORDL_TYPE VisibilityChecker : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE VisibilityChecker : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr VisibilityChecker(VisibilityChecker const& ) noexcept = default;
 constexpr VisibilityChecker(VisibilityChecker&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit VisibilityChecker(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit VisibilityChecker(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -51,32 +50,32 @@ constexpr explicit VisibilityChecker(void* ptr) noexcept : ::UnityEngine::MonoBe
 
 // Fields
 
- ::System::Action __declspec(property(get=__get_OnBecameVisibleEvent, put=__set_OnBecameVisibleEvent))  OnBecameVisibleEvent;
+ System::Action __declspec(property(get=__get_OnBecameVisibleEvent, put=__set_OnBecameVisibleEvent))  OnBecameVisibleEvent;
 
-constexpr void __set_OnBecameVisibleEvent(::System::Action value) ;
+constexpr void __set_OnBecameVisibleEvent(System::Action value) ;
 
-constexpr ::System::Action __get_OnBecameVisibleEvent() const;
+constexpr System::Action __get_OnBecameVisibleEvent() const;
 
- ::System::Action __declspec(property(get=__get_OnBecameInvisibleEvent, put=__set_OnBecameInvisibleEvent))  OnBecameInvisibleEvent;
+ System::Action __declspec(property(get=__get_OnBecameInvisibleEvent, put=__set_OnBecameInvisibleEvent))  OnBecameInvisibleEvent;
 
-constexpr void __set_OnBecameInvisibleEvent(::System::Action value) ;
+constexpr void __set_OnBecameInvisibleEvent(System::Action value) ;
 
-constexpr ::System::Action __get_OnBecameInvisibleEvent() const;
+constexpr System::Action __get_OnBecameInvisibleEvent() const;
 
 
 // Methods
 
 /// @brief Method add_OnBecameVisibleEvent addr 0x1f7d83c size 0x9c virtual false final false
- void add_OnBecameVisibleEvent(::System::Action value) ;
+ void add_OnBecameVisibleEvent(System::Action value) ;
 
 /// @brief Method remove_OnBecameVisibleEvent addr 0x1f7d8d8 size 0x9c virtual false final false
- void remove_OnBecameVisibleEvent(::System::Action value) ;
+ void remove_OnBecameVisibleEvent(System::Action value) ;
 
 /// @brief Method add_OnBecameInvisibleEvent addr 0x1f7d974 size 0x9c virtual false final false
- void add_OnBecameInvisibleEvent(::System::Action value) ;
+ void add_OnBecameInvisibleEvent(System::Action value) ;
 
 /// @brief Method remove_OnBecameInvisibleEvent addr 0x1f7da10 size 0x9c virtual false final false
- void remove_OnBecameInvisibleEvent(::System::Action value) ;
+ void remove_OnBecameInvisibleEvent(System::Action value) ;
 
 /// @brief Method OnBecameVisible addr 0x1f7daac size 0x1c virtual false final false
  void OnBecameVisible() ;
@@ -94,6 +93,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::VisibilityChecker);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::VisibilityChecker, "", "VisibilityChecker");
+NEED_NO_BOX(GlobalNamespace::VisibilityChecker);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VisibilityChecker, "", "VisibilityChecker");

@@ -3,7 +3,6 @@
 #include "UnityEngine/Events/zzzz__UnityEvent_1_def.hpp"
 #include <cmath>
 #include <cstddef>
-namespace {
 namespace UnityEngine::Events {
 template<typename T0>
 class UnityAction_1;
@@ -13,7 +12,7 @@ class ITweenValue;
 }
 // Forward declare root types
 namespace TMPro {
-class ____TMPro__FloatTween__FloatTweenCallback;
+class TMPro__FloatTween__FloatTweenCallback;
 }
 namespace TMPro {
 struct FloatTween;
@@ -21,47 +20,47 @@ struct FloatTween;
 // Type: ::FloatTweenCallback
 namespace TMPro {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 374 }), TypeDefinitionIndex(TypeDefinitionIndex(10401))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 374 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12283))
 // CS Name: TMPro.FloatTween::FloatTweenCallback
-class CORDL_TYPE ____TMPro__FloatTween__FloatTweenCallback : public ::UnityEngine::Events::UnityEvent_1<float_t> {
+class CORDL_TYPE TMPro__FloatTween__FloatTweenCallback : public UnityEngine::Events::UnityEvent_1<float_t> {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____TMPro__FloatTween__FloatTweenCallback() = default;
+virtual ~TMPro__FloatTween__FloatTweenCallback() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____TMPro__FloatTween__FloatTweenCallback", modifiers: " const&", def_value: None }]
-constexpr ____TMPro__FloatTween__FloatTweenCallback(____TMPro__FloatTween__FloatTweenCallback const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "TMPro__FloatTween__FloatTweenCallback", modifiers: " const&", def_value: None }]
+constexpr TMPro__FloatTween__FloatTweenCallback(TMPro__FloatTween__FloatTweenCallback const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____TMPro__FloatTween__FloatTweenCallback", modifiers: "&&", def_value: None }]
-constexpr ____TMPro__FloatTween__FloatTweenCallback(____TMPro__FloatTween__FloatTweenCallback&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "TMPro__FloatTween__FloatTweenCallback", modifiers: "&&", def_value: None }]
+constexpr TMPro__FloatTween__FloatTweenCallback(TMPro__FloatTween__FloatTweenCallback&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____TMPro__FloatTween__FloatTweenCallback(void* ptr) noexcept : ::UnityEngine::Events::UnityEvent_1<float_t>(ptr) {
+constexpr explicit TMPro__FloatTween__FloatTweenCallback(void* ptr) noexcept : UnityEngine::Events::UnityEvent_1<float_t>(ptr) {
 }
 
 
-  constexpr ____TMPro__FloatTween__FloatTweenCallback& operator=(std::nullptr_t) noexcept {
+  constexpr TMPro__FloatTween__FloatTweenCallback& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____TMPro__FloatTween__FloatTweenCallback& operator=(void* o) noexcept {
+  constexpr TMPro__FloatTween__FloatTweenCallback& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____TMPro__FloatTween__FloatTweenCallback& operator=(____TMPro__FloatTween__FloatTweenCallback&& o) noexcept = default;
-  constexpr ____TMPro__FloatTween__FloatTweenCallback& operator=(____TMPro__FloatTween__FloatTweenCallback const& o) noexcept = default;
+  constexpr TMPro__FloatTween__FloatTweenCallback& operator=(TMPro__FloatTween__FloatTweenCallback&& o) noexcept = default;
+  constexpr TMPro__FloatTween__FloatTweenCallback& operator=(TMPro__FloatTween__FloatTweenCallback const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____TMPro__FloatTween__FloatTweenCallback() ;
+explicit TMPro__FloatTween__FloatTweenCallback() ;
 
 /// @brief Method .ctor addr 0x2a6aaf0 size 0x48 virtual false final false
  void _ctor() ;
@@ -79,13 +78,13 @@ namespace TMPro {
 struct CORDL_TYPE FloatTween : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-using FloatTweenCallback = ::TMPro::____TMPro__FloatTween__FloatTweenCallback;
+using FloatTweenCallback = TMPro::TMPro__FloatTween__FloatTweenCallback;
 
-/// @brief Convert operator to ::TMPro::ITweenValue
-constexpr operator  ::TMPro::ITweenValue() const;
+/// @brief Convert operator to TMPro::ITweenValue
+constexpr operator  TMPro::ITweenValue() const;
 
-// Ctor Parameters [CppParam { name: "m_Target", ty: "::TMPro::____TMPro__FloatTween__FloatTweenCallback", modifiers: "", def_value: None }, CppParam { name: "m_StartValue", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_TargetValue", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Duration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_IgnoreTimeScale", ty: "bool", modifiers: "", def_value: None }]
-constexpr FloatTween(::TMPro::____TMPro__FloatTween__FloatTweenCallback m_Target, float_t m_StartValue, float_t m_TargetValue, float_t m_Duration, bool m_IgnoreTimeScale) noexcept;
+// Ctor Parameters [CppParam { name: "m_Target", ty: "TMPro::TMPro__FloatTween__FloatTweenCallback", modifiers: "", def_value: None }, CppParam { name: "m_StartValue", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_TargetValue", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Duration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_IgnoreTimeScale", ty: "bool", modifiers: "", def_value: None }]
+constexpr FloatTween(TMPro::TMPro__FloatTween__FloatTweenCallback m_Target, float_t m_StartValue, float_t m_TargetValue, float_t m_Duration, bool m_IgnoreTimeScale) noexcept;
 
 
                     constexpr FloatTween(FloatTween const&) = default;
@@ -118,11 +117,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::TMPro::____TMPro__FloatTween__FloatTweenCallback __declspec(property(get=__get_m_Target, put=__set_m_Target))  m_Target;
+ TMPro::TMPro__FloatTween__FloatTweenCallback __declspec(property(get=__get_m_Target, put=__set_m_Target))  m_Target;
 
-constexpr void __set_m_Target(::TMPro::____TMPro__FloatTween__FloatTweenCallback value) ;
+constexpr void __set_m_Target(TMPro::TMPro__FloatTween__FloatTweenCallback value) ;
 
-constexpr ::TMPro::____TMPro__FloatTween__FloatTweenCallback __get_m_Target() const;
+constexpr TMPro::TMPro__FloatTween__FloatTweenCallback __get_m_Target() const;
 
  float_t __declspec(property(get=__get_m_StartValue, put=__set_m_StartValue))  m_StartValue;
 
@@ -190,7 +189,7 @@ constexpr bool __get_m_IgnoreTimeScale() const;
  void TweenValue(float_t floatPercentage) ;
 
 /// @brief Method AddOnChangedCallback addr 0x2a6aa68 size 0x88 virtual false final false
- void AddOnChangedCallback(::UnityEngine::Events::UnityAction_1<float_t> callback) ;
+ void AddOnChangedCallback(UnityEngine::Events::UnityAction_1<float_t> callback) ;
 
 /// @brief Method GetIgnoreTimescale addr 0x2a6ab38 size 0x8 virtual false final false
  bool GetIgnoreTimescale() ;
@@ -205,7 +204,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-NEED_NO_BOX(::TMPro::____TMPro__FloatTween__FloatTweenCallback);
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::____TMPro__FloatTween__FloatTweenCallback, "TMPro", "FloatTween/FloatTweenCallback");
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::FloatTween, "TMPro", "FloatTween");
+NEED_NO_BOX(TMPro::TMPro__FloatTween__FloatTweenCallback);
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMPro__FloatTween__FloatTweenCallback, "TMPro", "FloatTween/FloatTweenCallback");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::FloatTween, "TMPro", "FloatTween");

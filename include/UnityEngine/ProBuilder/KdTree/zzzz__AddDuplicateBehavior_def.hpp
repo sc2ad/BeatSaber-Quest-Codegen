@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::ProBuilder::KdTree {
 struct AddDuplicateBehavior;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Skip offset 0
-static ::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior const Skip;
+static UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior const Skip;
 
 /// @brief Field Error offset 0
-static ::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior const Error;
+static UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior const Error;
 
 /// @brief Field Update offset 0
-static ::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior const Update;
+static UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior const Update;
 
 /// @brief Field Collect offset 0
-static ::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior const Collect;
+static UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior const Collect;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder::KdTree
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior, "UnityEngine.ProBuilder.KdTree", "AddDuplicateBehavior");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior, "UnityEngine.ProBuilder.KdTree", "AddDuplicateBehavior");

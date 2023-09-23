@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 // Forward declare root types
 namespace Unity::Collections {
 class DeallocateOnJobCompletionAttribute;
@@ -12,7 +11,7 @@ namespace Unity::Collections {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9948))
 // CS Name: Unity.Collections.DeallocateOnJobCompletionAttribute
-class CORDL_TYPE DeallocateOnJobCompletionAttribute : public ::System::Attribute {
+class CORDL_TYPE DeallocateOnJobCompletionAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr DeallocateOnJobCompletionAttribute(DeallocateOnJobCompletionAttribute 
 constexpr DeallocateOnJobCompletionAttribute(DeallocateOnJobCompletionAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DeallocateOnJobCompletionAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit DeallocateOnJobCompletionAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -49,6 +48,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Unity::Collections
-} // end anonymous namespace
-NEED_NO_BOX(::Unity::Collections::DeallocateOnJobCompletionAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::DeallocateOnJobCompletionAttribute, "Unity.Collections", "DeallocateOnJobCompletionAttribute");
+NEED_NO_BOX(Unity::Collections::DeallocateOnJobCompletionAttribute);
+DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::DeallocateOnJobCompletionAttribute, "Unity.Collections", "DeallocateOnJobCompletionAttribute");

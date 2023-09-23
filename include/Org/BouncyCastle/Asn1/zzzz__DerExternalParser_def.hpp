@@ -1,15 +1,14 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-namespace {
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1StreamParser;
 }
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Convertible;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -21,7 +20,7 @@ namespace Org::BouncyCastle::Asn1 {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(505))
 // CS Name: Org.BouncyCastle.Asn1.DerExternalParser
-class CORDL_TYPE DerExternalParser : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
+class CORDL_TYPE DerExternalParser : public Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr DerExternalParser(DerExternalParser const& ) noexcept = default;
 constexpr DerExternalParser(DerExternalParser&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DerExternalParser(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
+constexpr explicit DerExternalParser(void* ptr) noexcept : Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
 }
 
 
@@ -57,31 +56,30 @@ constexpr explicit DerExternalParser(void* ptr) noexcept : ::Org::BouncyCastle::
 
 // Fields
 
- ::Org::BouncyCastle::Asn1::Asn1StreamParser __declspec(property(get=__get__parser, put=__set__parser))  _parser;
+ Org::BouncyCastle::Asn1::Asn1StreamParser __declspec(property(get=__get__parser, put=__set__parser))  _parser;
 
-constexpr void __set__parser(::Org::BouncyCastle::Asn1::Asn1StreamParser value) ;
+constexpr void __set__parser(Org::BouncyCastle::Asn1::Asn1StreamParser value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::Asn1StreamParser __get__parser() const;
+constexpr Org::BouncyCastle::Asn1::Asn1StreamParser __get__parser() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "parser", ty: "::Org::BouncyCastle::Asn1::Asn1StreamParser", modifiers: "", def_value: None }]
-explicit DerExternalParser(::Org::BouncyCastle::Asn1::Asn1StreamParser parser) ;
+// Ctor Parameters [CppParam { name: "parser", ty: "Org::BouncyCastle::Asn1::Asn1StreamParser", modifiers: "", def_value: None }]
+explicit DerExternalParser(Org::BouncyCastle::Asn1::Asn1StreamParser parser) ;
 
 /// @brief Method .ctor addr 0x112b71c size 0x28 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::Asn1StreamParser parser) ;
+ void _ctor(Org::BouncyCastle::Asn1::Asn1StreamParser parser) ;
 
 /// @brief Method ReadObject addr 0x11364d4 size 0x20 virtual false final false
- ::Org::BouncyCastle::Asn1::IAsn1Convertible ReadObject() ;
+ Org::BouncyCastle::Asn1::IAsn1Convertible ReadObject() ;
 
 /// @brief Method ToAsn1Object addr 0x11364f4 size 0x74 virtual true final false
- ::Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
+ Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::DerExternalParser);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::DerExternalParser, "Org.BouncyCastle.Asn1", "DerExternalParser");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::DerExternalParser);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerExternalParser, "Org.BouncyCastle.Asn1", "DerExternalParser");

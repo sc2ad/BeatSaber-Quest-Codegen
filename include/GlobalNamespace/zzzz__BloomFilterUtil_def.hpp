@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
@@ -14,18 +13,18 @@ struct BitMask128;
 // Forward declare root types
 namespace GlobalNamespace {
 template<typename T>
-class ____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1;
+class GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1;
 }
 namespace GlobalNamespace {
 class BloomFilterUtil;
 }
 namespace GlobalNamespace {
 template<::cordl_internals::il2cpp_reference_type T>
-class ____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<T>;
+class GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<T>;
 }
 namespace GlobalNamespace {
 template<>
-class ____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<::GlobalNamespace::BitMask128>;
+class GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<GlobalNamespace::BitMask128>;
 }
 // Type: ::<>c__DisplayClass2_0`1
 // Type: ::BloomFilterUtil
@@ -38,7 +37,7 @@ class CORDL_TYPE BloomFilterUtil : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 template<typename T>
-using __c__DisplayClass2_0_1 = ::GlobalNamespace::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<T>;
+using __c__DisplayClass2_0_1 = GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<T>;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -82,7 +81,7 @@ static T ToBloomFilter(::StringW value, int32_t hashCount, int32_t hashBits) ;
 
 /// @brief Method ToBloomFilter addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static T ToBloomFilter(::System::Collections::Generic::IEnumerable_1<::StringW> strings, int32_t hashCount, int32_t hashBits) ;
+static T ToBloomFilter(System::Collections::Generic::IEnumerable_1<::StringW> strings, int32_t hashCount, int32_t hashBits) ;
 
 /// @brief Method AddBloomFilterEntry addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
@@ -104,37 +103,37 @@ template<::cordl_internals::il2cpp_reference_type T>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15086))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15086), inst: 2 })
 // CS Name: BloomFilterUtil::<>c__DisplayClass2_0`1
-class CORDL_TYPE ____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<T> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<T> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1() = default;
+virtual ~GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1(____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1(GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1(____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1(GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1& operator=(____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1&& o) noexcept = default;
-  constexpr ____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1& operator=(____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1 const& o) noexcept = default;
+  constexpr GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1& operator=(GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1&& o) noexcept = default;
+  constexpr GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1& operator=(GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1 const& o) noexcept = default;
                 
 
 
@@ -156,7 +155,7 @@ constexpr int32_t __get_hashBits() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1() ;
+explicit GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -176,37 +175,37 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15086))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15086), inst: 2531 })
 // CS Name: BloomFilterUtil::<>c__DisplayClass2_0`1
-class CORDL_TYPE ____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<::GlobalNamespace::BitMask128> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<GlobalNamespace::BitMask128> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1() = default;
+virtual ~GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1(____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1(GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1(____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1(GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1& operator=(____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1&& o) noexcept = default;
-  constexpr ____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1& operator=(____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1 const& o) noexcept = default;
+  constexpr GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1& operator=(GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1&& o) noexcept = default;
+  constexpr GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1& operator=(GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1 const& o) noexcept = default;
                 
 
 
@@ -228,19 +227,18 @@ constexpr int32_t __get_hashBits() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1() ;
+explicit GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
 /// @brief Method <ToBloomFilter>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
- ::GlobalNamespace::BitMask128 _ToBloomFilter_b__0(::GlobalNamespace::BitMask128 bloomFilter, ::StringW str) ;
+ GlobalNamespace::BitMask128 _ToBloomFilter_b__0(GlobalNamespace::BitMask128 bloomFilter, ::StringW str) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1, "", "BloomFilterUtil/<>c__DisplayClass2_0`1");
-NEED_NO_BOX(::GlobalNamespace::BloomFilterUtil);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BloomFilterUtil, "", "BloomFilterUtil");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1, "", "BloomFilterUtil/<>c__DisplayClass2_0`1");
+NEED_NO_BOX(GlobalNamespace::BloomFilterUtil);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomFilterUtil, "", "BloomFilterUtil");

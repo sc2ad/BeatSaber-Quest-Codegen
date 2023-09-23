@@ -5,34 +5,33 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System::Security::Util {
-class TokenizerStream;
-}
-namespace System::Text {
-class Encoding;
-}
 namespace System::IO {
 class StreamReader;
 }
 namespace System::Text {
 class StringBuilder;
 }
+namespace System::Text {
+class Encoding;
+}
+namespace System::Security::Util {
+class TokenizerStream;
+}
 // Forward declare root types
 namespace System::Security::Util {
-struct ____System__Security__Util__Tokenizer__TokenSource;
+struct System__Security__Util__Tokenizer__TokenSource;
+}
+namespace System::Security::Util {
+class System__Security__Util__Tokenizer__ITokenReader;
+}
+namespace System::Security::Util {
+class System__Security__Util__Tokenizer__StreamTokenReader;
+}
+namespace System::Security::Util {
+class System__Security__Util__Tokenizer__StringMaker;
 }
 namespace System::Security::Util {
 class Tokenizer;
-}
-namespace System::Security::Util {
-class ____System__Security__Util__Tokenizer__ITokenReader;
-}
-namespace System::Security::Util {
-class ____System__Security__Util__Tokenizer__StreamTokenReader;
-}
-namespace System::Security::Util {
-class ____System__Security__Util__Tokenizer__StringMaker;
 }
 // Type: ::TokenSource
 namespace System::Security::Util {
@@ -40,20 +39,20 @@ namespace System::Security::Util {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2888))
 // CS Name: System.Security.Util.Tokenizer::TokenSource
-struct CORDL_TYPE ____System__Security__Util__Tokenizer__TokenSource : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE System__Security__Util__Tokenizer__TokenSource : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____System__Security__Util__Tokenizer__TokenSource(int32_t value__) noexcept;
+constexpr System__Security__Util__Tokenizer__TokenSource(int32_t value__) noexcept;
 
 
-                    constexpr ____System__Security__Util__Tokenizer__TokenSource(____System__Security__Util__Tokenizer__TokenSource const&) = default;
-                    constexpr ____System__Security__Util__Tokenizer__TokenSource(____System__Security__Util__Tokenizer__TokenSource&&) = default;
-                    constexpr ____System__Security__Util__Tokenizer__TokenSource& operator=(____System__Security__Util__Tokenizer__TokenSource const& o) {
+                    constexpr System__Security__Util__Tokenizer__TokenSource(System__Security__Util__Tokenizer__TokenSource const&) = default;
+                    constexpr System__Security__Util__Tokenizer__TokenSource(System__Security__Util__Tokenizer__TokenSource&&) = default;
+                    constexpr System__Security__Util__Tokenizer__TokenSource& operator=(System__Security__Util__Tokenizer__TokenSource const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Security__Util__Tokenizer__TokenSource& operator=(____System__Security__Util__Tokenizer__TokenSource&& o) noexcept {
+                    constexpr System__Security__Util__Tokenizer__TokenSource& operator=(System__Security__Util__Tokenizer__TokenSource&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -66,7 +65,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Security__Util__Tokenizer__TokenSource(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Security__Util__Tokenizer__TokenSource(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -74,7 +73,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______System__Security__Util__Tokenizer__TokenSource_Unwrapped : int32_t {
+enum class __System__Security__Util__Tokenizer__TokenSource_Unwrapped : int32_t {
 __UnicodeByteArray = 0,
 __UTF8ByteArray = 1,
 __ASCIIByteArray = 2,
@@ -85,8 +84,8 @@ __Other = 6,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______System__Security__Util__Tokenizer__TokenSource_Unwrapped () const noexcept {
-return std::bit_cast<______System__Security__Util__Tokenizer__TokenSource_Unwrapped>(__instance);
+constexpr operator __System__Security__Util__Tokenizer__TokenSource_Unwrapped () const noexcept {
+return std::bit_cast<__System__Security__Util__Tokenizer__TokenSource_Unwrapped>(__instance);
 }
 
 
@@ -99,25 +98,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field UnicodeByteArray offset 0
-static ::System::Security::Util::____System__Security__Util__Tokenizer__TokenSource const UnicodeByteArray;
+static System::Security::Util::System__Security__Util__Tokenizer__TokenSource const UnicodeByteArray;
 
 /// @brief Field UTF8ByteArray offset 0
-static ::System::Security::Util::____System__Security__Util__Tokenizer__TokenSource const UTF8ByteArray;
+static System::Security::Util::System__Security__Util__Tokenizer__TokenSource const UTF8ByteArray;
 
 /// @brief Field ASCIIByteArray offset 0
-static ::System::Security::Util::____System__Security__Util__Tokenizer__TokenSource const ASCIIByteArray;
+static System::Security::Util::System__Security__Util__Tokenizer__TokenSource const ASCIIByteArray;
 
 /// @brief Field CharArray offset 0
-static ::System::Security::Util::____System__Security__Util__Tokenizer__TokenSource const CharArray;
+static System::Security::Util::System__Security__Util__Tokenizer__TokenSource const CharArray;
 
 /// @brief Field String offset 0
-static ::System::Security::Util::____System__Security__Util__Tokenizer__TokenSource const String;
+static System::Security::Util::System__Security__Util__Tokenizer__TokenSource const String;
 
 /// @brief Field NestedStrings offset 0
-static ::System::Security::Util::____System__Security__Util__Tokenizer__TokenSource const NestedStrings;
+static System::Security::Util::System__Security__Util__Tokenizer__TokenSource const NestedStrings;
 
 /// @brief Field Other offset 0
-static ::System::Security::Util::____System__Security__Util__Tokenizer__TokenSource const Other;
+static System::Security::Util::System__Security__Util__Tokenizer__TokenSource const Other;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -129,37 +128,37 @@ namespace System::Security::Util {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2889))
 // CS Name: System.Security.Util.Tokenizer::StringMaker
-class CORDL_TYPE ____System__Security__Util__Tokenizer__StringMaker : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Security__Util__Tokenizer__StringMaker : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
 
-virtual ~____System__Security__Util__Tokenizer__StringMaker() = default;
+virtual ~System__Security__Util__Tokenizer__StringMaker() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Security__Util__Tokenizer__StringMaker", modifiers: " const&", def_value: None }]
-constexpr ____System__Security__Util__Tokenizer__StringMaker(____System__Security__Util__Tokenizer__StringMaker const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Security__Util__Tokenizer__StringMaker", modifiers: " const&", def_value: None }]
+constexpr System__Security__Util__Tokenizer__StringMaker(System__Security__Util__Tokenizer__StringMaker const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Security__Util__Tokenizer__StringMaker", modifiers: "&&", def_value: None }]
-constexpr ____System__Security__Util__Tokenizer__StringMaker(____System__Security__Util__Tokenizer__StringMaker&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Security__Util__Tokenizer__StringMaker", modifiers: "&&", def_value: None }]
+constexpr System__Security__Util__Tokenizer__StringMaker(System__Security__Util__Tokenizer__StringMaker&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Security__Util__Tokenizer__StringMaker(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Security__Util__Tokenizer__StringMaker(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Security__Util__Tokenizer__StringMaker& operator=(std::nullptr_t) noexcept {
+  constexpr System__Security__Util__Tokenizer__StringMaker& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Security__Util__Tokenizer__StringMaker& operator=(void* o) noexcept {
+  constexpr System__Security__Util__Tokenizer__StringMaker& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Security__Util__Tokenizer__StringMaker& operator=(____System__Security__Util__Tokenizer__StringMaker&& o) noexcept = default;
-  constexpr ____System__Security__Util__Tokenizer__StringMaker& operator=(____System__Security__Util__Tokenizer__StringMaker const& o) noexcept = default;
+  constexpr System__Security__Util__Tokenizer__StringMaker& operator=(System__Security__Util__Tokenizer__StringMaker&& o) noexcept = default;
+  constexpr System__Security__Util__Tokenizer__StringMaker& operator=(System__Security__Util__Tokenizer__StringMaker const& o) noexcept = default;
                 
 
 
@@ -183,11 +182,11 @@ constexpr void __set_cStringsUsed(uint32_t value) ;
 
 constexpr uint32_t __get_cStringsUsed() const;
 
- ::System::Text::StringBuilder __declspec(property(get=__get__outStringBuilder, put=__set__outStringBuilder))  _outStringBuilder;
+ System::Text::StringBuilder __declspec(property(get=__get__outStringBuilder, put=__set__outStringBuilder))  _outStringBuilder;
 
-constexpr void __set__outStringBuilder(::System::Text::StringBuilder value) ;
+constexpr void __set__outStringBuilder(System::Text::StringBuilder value) ;
 
-constexpr ::System::Text::StringBuilder __get__outStringBuilder() const;
+constexpr System::Text::StringBuilder __get__outStringBuilder() const;
 
  ::ArrayW<char16_t> __declspec(property(get=__get__outChars, put=__set__outChars))  _outChars;
 
@@ -211,7 +210,7 @@ static uint32_t HashString(::StringW str) ;
 static uint32_t HashCharArray(::ArrayW<char16_t> a, int32_t l) ;
 
 // Ctor Parameters []
-explicit ____System__Security__Util__Tokenizer__StringMaker() ;
+explicit System__Security__Util__Tokenizer__StringMaker() ;
 
 /// @brief Method .ctor addr 0x22ea154 size 0x94 virtual false final false
  void _ctor() ;
@@ -232,13 +231,13 @@ namespace System::Security::Util {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2890))
 // CS Name: System.Security.Util.Tokenizer::ITokenReader
-class CORDL_TYPE ____System__Security__Util__Tokenizer__ITokenReader : public ::cordl_internals::InterfaceW {
+class CORDL_TYPE System__Security__Util__Tokenizer__ITokenReader : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-~____System__Security__Util__Tokenizer__ITokenReader() = default;
+~System__Security__Util__Tokenizer__ITokenReader() = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Security__Util__Tokenizer__ITokenReader(void* ptr) noexcept : ::cordl_internals::InterfaceW(ptr) {
+constexpr explicit System__Security__Util__Tokenizer__ITokenReader(void* ptr) noexcept : ::cordl_internals::InterfaceW(ptr) {
 }
 
 
@@ -257,50 +256,50 @@ namespace System::Security::Util {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2891))
 // CS Name: System.Security.Util.Tokenizer::StreamTokenReader
-class CORDL_TYPE ____System__Security__Util__Tokenizer__StreamTokenReader : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Security__Util__Tokenizer__StreamTokenReader : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Security::Util::____System__Security__Util__Tokenizer__ITokenReader
-constexpr operator  ::System::Security::Util::____System__Security__Util__Tokenizer__ITokenReader() const noexcept;
+/// @brief Convert operator to System::Security::Util::System__Security__Util__Tokenizer__ITokenReader
+constexpr operator  System::Security::Util::System__Security__Util__Tokenizer__ITokenReader() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____System__Security__Util__Tokenizer__StreamTokenReader() = default;
+virtual ~System__Security__Util__Tokenizer__StreamTokenReader() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Security__Util__Tokenizer__StreamTokenReader", modifiers: " const&", def_value: None }]
-constexpr ____System__Security__Util__Tokenizer__StreamTokenReader(____System__Security__Util__Tokenizer__StreamTokenReader const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Security__Util__Tokenizer__StreamTokenReader", modifiers: " const&", def_value: None }]
+constexpr System__Security__Util__Tokenizer__StreamTokenReader(System__Security__Util__Tokenizer__StreamTokenReader const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Security__Util__Tokenizer__StreamTokenReader", modifiers: "&&", def_value: None }]
-constexpr ____System__Security__Util__Tokenizer__StreamTokenReader(____System__Security__Util__Tokenizer__StreamTokenReader&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Security__Util__Tokenizer__StreamTokenReader", modifiers: "&&", def_value: None }]
+constexpr System__Security__Util__Tokenizer__StreamTokenReader(System__Security__Util__Tokenizer__StreamTokenReader&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Security__Util__Tokenizer__StreamTokenReader(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Security__Util__Tokenizer__StreamTokenReader(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Security__Util__Tokenizer__StreamTokenReader& operator=(std::nullptr_t) noexcept {
+  constexpr System__Security__Util__Tokenizer__StreamTokenReader& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Security__Util__Tokenizer__StreamTokenReader& operator=(void* o) noexcept {
+  constexpr System__Security__Util__Tokenizer__StreamTokenReader& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Security__Util__Tokenizer__StreamTokenReader& operator=(____System__Security__Util__Tokenizer__StreamTokenReader&& o) noexcept = default;
-  constexpr ____System__Security__Util__Tokenizer__StreamTokenReader& operator=(____System__Security__Util__Tokenizer__StreamTokenReader const& o) noexcept = default;
+  constexpr System__Security__Util__Tokenizer__StreamTokenReader& operator=(System__Security__Util__Tokenizer__StreamTokenReader&& o) noexcept = default;
+  constexpr System__Security__Util__Tokenizer__StreamTokenReader& operator=(System__Security__Util__Tokenizer__StreamTokenReader const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::IO::StreamReader __declspec(property(get=__get__in, put=__set__in))  _in;
+ System::IO::StreamReader __declspec(property(get=__get__in, put=__set__in))  _in;
 
-constexpr void __set__in(::System::IO::StreamReader value) ;
+constexpr void __set__in(System::IO::StreamReader value) ;
 
-constexpr ::System::IO::StreamReader __get__in() const;
+constexpr System::IO::StreamReader __get__in() const;
 
  int32_t __declspec(property(get=__get__numCharRead, put=__set__numCharRead))  _numCharRead;
 
@@ -316,11 +315,11 @@ constexpr int32_t __get__numCharRead() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "input", ty: "::System::IO::StreamReader", modifiers: "", def_value: None }]
-explicit ____System__Security__Util__Tokenizer__StreamTokenReader(::System::IO::StreamReader input) ;
+// Ctor Parameters [CppParam { name: "input", ty: "System::IO::StreamReader", modifiers: "", def_value: None }]
+explicit System__Security__Util__Tokenizer__StreamTokenReader(System::IO::StreamReader input) ;
 
 /// @brief Method .ctor addr 0x22e9e70 size 0x2c virtual false final false
- void _ctor(::System::IO::StreamReader input) ;
+ void _ctor(System::IO::StreamReader input) ;
 
 /// @brief Method Read addr 0x22ea27c size 0x3c virtual true final false
  int32_t Read() ;
@@ -341,13 +340,13 @@ namespace System::Security::Util {
 class CORDL_TYPE Tokenizer : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using StreamTokenReader = ::System::Security::Util::____System__Security__Util__Tokenizer__StreamTokenReader;
+using StreamTokenReader = System::Security::Util::System__Security__Util__Tokenizer__StreamTokenReader;
 
-using ITokenReader = ::System::Security::Util::____System__Security__Util__Tokenizer__ITokenReader;
+using ITokenReader = System::Security::Util::System__Security__Util__Tokenizer__ITokenReader;
 
-using StringMaker = ::System::Security::Util::____System__Security__Util__Tokenizer__StringMaker;
+using StringMaker = System::Security::Util::System__Security__Util__Tokenizer__StringMaker;
 
-using TokenSource = ::System::Security::Util::____System__Security__Util__Tokenizer__TokenSource;
+using TokenSource = System::Security::Util::System__Security__Util__Tokenizer__TokenSource;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x70};
@@ -430,23 +429,23 @@ constexpr void __set__inSavedCharacter(int32_t value) ;
 
 constexpr int32_t __get__inSavedCharacter() const;
 
- ::System::Security::Util::____System__Security__Util__Tokenizer__TokenSource __declspec(property(get=__get__inTokenSource, put=__set__inTokenSource))  _inTokenSource;
+ System::Security::Util::System__Security__Util__Tokenizer__TokenSource __declspec(property(get=__get__inTokenSource, put=__set__inTokenSource))  _inTokenSource;
 
-constexpr void __set__inTokenSource(::System::Security::Util::____System__Security__Util__Tokenizer__TokenSource value) ;
+constexpr void __set__inTokenSource(System::Security::Util::System__Security__Util__Tokenizer__TokenSource value) ;
 
-constexpr ::System::Security::Util::____System__Security__Util__Tokenizer__TokenSource __get__inTokenSource() const;
+constexpr System::Security::Util::System__Security__Util__Tokenizer__TokenSource __get__inTokenSource() const;
 
- ::System::Security::Util::____System__Security__Util__Tokenizer__ITokenReader __declspec(property(get=__get__inTokenReader, put=__set__inTokenReader))  _inTokenReader;
+ System::Security::Util::System__Security__Util__Tokenizer__ITokenReader __declspec(property(get=__get__inTokenReader, put=__set__inTokenReader))  _inTokenReader;
 
-constexpr void __set__inTokenReader(::System::Security::Util::____System__Security__Util__Tokenizer__ITokenReader value) ;
+constexpr void __set__inTokenReader(System::Security::Util::System__Security__Util__Tokenizer__ITokenReader value) ;
 
-constexpr ::System::Security::Util::____System__Security__Util__Tokenizer__ITokenReader __get__inTokenReader() const;
+constexpr System::Security::Util::System__Security__Util__Tokenizer__ITokenReader __get__inTokenReader() const;
 
- ::System::Security::Util::____System__Security__Util__Tokenizer__StringMaker __declspec(property(get=__get__maker, put=__set__maker))  _maker;
+ System::Security::Util::System__Security__Util__Tokenizer__StringMaker __declspec(property(get=__get__maker, put=__set__maker))  _maker;
 
-constexpr void __set__maker(::System::Security::Util::____System__Security__Util__Tokenizer__StringMaker value) ;
+constexpr void __set__maker(System::Security::Util::System__Security__Util__Tokenizer__StringMaker value) ;
 
-constexpr ::System::Security::Util::____System__Security__Util__Tokenizer__StringMaker __get__maker() const;
+constexpr System::Security::Util::System__Security__Util__Tokenizer__StringMaker __get__maker() const;
 
  ::ArrayW<::StringW> __declspec(property(get=__get__searchStrings, put=__set__searchStrings))  _searchStrings;
 
@@ -494,10 +493,10 @@ explicit Tokenizer(::StringW input) ;
  void _ctor(::StringW input) ;
 
 /// @brief Method ChangeFormat addr 0x22e95e0 size 0x224 virtual false final false
- void ChangeFormat(::System::Text::Encoding encoding) ;
+ void ChangeFormat(System::Text::Encoding encoding) ;
 
 /// @brief Method GetTokens addr 0x22e8da0 size 0x7e0 virtual false final false
- void GetTokens(::System::Security::Util::TokenizerStream stream, int32_t maxNum, bool endAfterKet) ;
+ void GetTokens(System::Security::Util::TokenizerStream stream, int32_t maxNum, bool endAfterKet) ;
 
 /// @brief Method GetStringToken addr 0x22e9f84 size 0x18 virtual false final false
  ::StringW GetStringToken() ;
@@ -506,13 +505,12 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Util
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Util::____System__Security__Util__Tokenizer__TokenSource, "System.Security.Util", "Tokenizer/TokenSource");
-NEED_NO_BOX(::System::Security::Util::Tokenizer);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Util::Tokenizer, "System.Security.Util", "Tokenizer");
-NEED_NO_BOX(::System::Security::Util::____System__Security__Util__Tokenizer__ITokenReader);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Util::____System__Security__Util__Tokenizer__ITokenReader, "System.Security.Util", "Tokenizer/ITokenReader");
-NEED_NO_BOX(::System::Security::Util::____System__Security__Util__Tokenizer__StreamTokenReader);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Util::____System__Security__Util__Tokenizer__StreamTokenReader, "System.Security.Util", "Tokenizer/StreamTokenReader");
-NEED_NO_BOX(::System::Security::Util::____System__Security__Util__Tokenizer__StringMaker);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Util::____System__Security__Util__Tokenizer__StringMaker, "System.Security.Util", "Tokenizer/StringMaker");
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::System__Security__Util__Tokenizer__TokenSource, "System.Security.Util", "Tokenizer/TokenSource");
+NEED_NO_BOX(System::Security::Util::System__Security__Util__Tokenizer__ITokenReader);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::System__Security__Util__Tokenizer__ITokenReader, "System.Security.Util", "Tokenizer/ITokenReader");
+NEED_NO_BOX(System::Security::Util::System__Security__Util__Tokenizer__StreamTokenReader);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::System__Security__Util__Tokenizer__StreamTokenReader, "System.Security.Util", "Tokenizer/StreamTokenReader");
+NEED_NO_BOX(System::Security::Util::System__Security__Util__Tokenizer__StringMaker);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::System__Security__Util__Tokenizer__StringMaker, "System.Security.Util", "Tokenizer/StringMaker");
+NEED_NO_BOX(System::Security::Util::Tokenizer);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Tokenizer, "System.Security.Util", "Tokenizer");

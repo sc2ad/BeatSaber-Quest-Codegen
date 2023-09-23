@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Newtonsoft::Json::Bson {
 struct BsonBinaryType;
@@ -72,29 +71,28 @@ constexpr void __set_value__(uint8_t value) ;
 constexpr uint8_t __get_value__() const;
 
 /// @brief Field Binary offset 0
-static ::Newtonsoft::Json::Bson::BsonBinaryType const Binary;
+static Newtonsoft::Json::Bson::BsonBinaryType const Binary;
 
 /// @brief Field Function offset 0
-static ::Newtonsoft::Json::Bson::BsonBinaryType const Function;
+static Newtonsoft::Json::Bson::BsonBinaryType const Function;
 
 /// @brief Field BinaryOld offset 0
-static ::Newtonsoft::Json::Bson::BsonBinaryType const BinaryOld;
+static Newtonsoft::Json::Bson::BsonBinaryType const BinaryOld;
 
 /// @brief Field UuidOld offset 0
-static ::Newtonsoft::Json::Bson::BsonBinaryType const UuidOld;
+static Newtonsoft::Json::Bson::BsonBinaryType const UuidOld;
 
 /// @brief Field Uuid offset 0
-static ::Newtonsoft::Json::Bson::BsonBinaryType const Uuid;
+static Newtonsoft::Json::Bson::BsonBinaryType const Uuid;
 
 /// @brief Field Md5 offset 0
-static ::Newtonsoft::Json::Bson::BsonBinaryType const Md5;
+static Newtonsoft::Json::Bson::BsonBinaryType const Md5;
 
 /// @brief Field UserDefined offset 0
-static ::Newtonsoft::Json::Bson::BsonBinaryType const UserDefined;
+static Newtonsoft::Json::Bson::BsonBinaryType const UserDefined;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Bson
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Bson::BsonBinaryType, "Newtonsoft.Json.Bson", "BsonBinaryType");
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Bson::BsonBinaryType, "Newtonsoft.Json.Bson", "BsonBinaryType");

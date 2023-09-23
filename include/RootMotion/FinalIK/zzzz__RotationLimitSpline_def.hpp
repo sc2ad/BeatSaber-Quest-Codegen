@@ -3,15 +3,14 @@
 #include "RootMotion/FinalIK/zzzz__RotationLimit_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
-namespace {
+namespace UnityEngine {
+class AnimationCurve;
+}
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
 struct Keyframe;
-}
-namespace UnityEngine {
-class AnimationCurve;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -23,7 +22,7 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12564))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12570))
 // CS Name: RootMotion.FinalIK.RotationLimitSpline
-class CORDL_TYPE RotationLimitSpline : public ::RootMotion::FinalIK::RotationLimit {
+class CORDL_TYPE RotationLimitSpline : public RootMotion::FinalIK::RotationLimit {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr RotationLimitSpline(RotationLimitSpline const& ) noexcept = default;
 constexpr RotationLimitSpline(RotationLimitSpline&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RotationLimitSpline(void* ptr) noexcept : ::RootMotion::FinalIK::RotationLimit(ptr) {
+constexpr explicit RotationLimitSpline(void* ptr) noexcept : RootMotion::FinalIK::RotationLimit(ptr) {
 }
 
 
@@ -65,11 +64,11 @@ constexpr void __set_twistLimit(float_t value) ;
 
 constexpr float_t __get_twistLimit() const;
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get_spline, put=__set_spline))  spline;
+ UnityEngine::AnimationCurve __declspec(property(get=__get_spline, put=__set_spline))  spline;
 
-constexpr void __set_spline(::UnityEngine::AnimationCurve value) ;
+constexpr void __set_spline(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get_spline() const;
+constexpr UnityEngine::AnimationCurve __get_spline() const;
 
 
 // Methods
@@ -87,13 +86,13 @@ constexpr ::UnityEngine::AnimationCurve __get_spline() const;
  void ASThread() ;
 
 /// @brief Method SetSpline addr 0x1205b10 size 0x1c virtual false final false
- void SetSpline(::ArrayW<::UnityEngine::Keyframe> keyframes) ;
+ void SetSpline(::ArrayW<UnityEngine::Keyframe> keyframes) ;
 
 /// @brief Method LimitRotation addr 0x1205b2c size 0x94 virtual true final false
- ::UnityEngine::Quaternion LimitRotation(::UnityEngine::Quaternion rotation) ;
+ UnityEngine::Quaternion LimitRotation(UnityEngine::Quaternion rotation) ;
 
 /// @brief Method LimitSwing addr 0x1205bc0 size 0x3b8 virtual false final false
- ::UnityEngine::Quaternion LimitSwing(::UnityEngine::Quaternion rotation) ;
+ UnityEngine::Quaternion LimitSwing(UnityEngine::Quaternion rotation) ;
 
 // Ctor Parameters []
 explicit RotationLimitSpline() ;
@@ -105,6 +104,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::RotationLimitSpline);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::RotationLimitSpline, "RootMotion.FinalIK", "RotationLimitSpline");
+NEED_NO_BOX(RootMotion::FinalIK::RotationLimitSpline);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitSpline, "RootMotion.FinalIK", "RotationLimitSpline");

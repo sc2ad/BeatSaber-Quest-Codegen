@@ -1,12 +1,11 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
-namespace UnityEngine::Playables {
-struct PlayableOutputHandle;
-}
 namespace UnityEngine::Playables {
 class IPlayableOutput;
+}
+namespace UnityEngine::Playables {
+struct PlayableOutputHandle;
 }
 // Forward declare root types
 namespace UnityEngine::Experimental::Playables {
@@ -21,11 +20,11 @@ namespace UnityEngine::Experimental::Playables {
 struct CORDL_TYPE TexturePlayableOutput : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::Playables::IPlayableOutput
-constexpr operator  ::UnityEngine::Playables::IPlayableOutput() const;
+/// @brief Convert operator to UnityEngine::Playables::IPlayableOutput
+constexpr operator  UnityEngine::Playables::IPlayableOutput() const;
 
-// Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableOutputHandle", modifiers: "", def_value: None }]
-constexpr TexturePlayableOutput(::UnityEngine::Playables::PlayableOutputHandle m_Handle) noexcept;
+// Ctor Parameters [CppParam { name: "m_Handle", ty: "UnityEngine::Playables::PlayableOutputHandle", modifiers: "", def_value: None }]
+constexpr TexturePlayableOutput(UnityEngine::Playables::PlayableOutputHandle m_Handle) noexcept;
 
 
                     constexpr TexturePlayableOutput(TexturePlayableOutput const&) = default;
@@ -58,21 +57,20 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Playables::PlayableOutputHandle __declspec(property(get=__get_m_Handle, put=__set_m_Handle))  m_Handle;
+ UnityEngine::Playables::PlayableOutputHandle __declspec(property(get=__get_m_Handle, put=__set_m_Handle))  m_Handle;
 
-constexpr void __set_m_Handle(::UnityEngine::Playables::PlayableOutputHandle value) ;
+constexpr void __set_m_Handle(UnityEngine::Playables::PlayableOutputHandle value) ;
 
-constexpr ::UnityEngine::Playables::PlayableOutputHandle __get_m_Handle() const;
+constexpr UnityEngine::Playables::PlayableOutputHandle __get_m_Handle() const;
 
 
 // Methods
 
 /// @brief Method GetHandle addr 0x2b7b764 size 0xc virtual true final true
- ::UnityEngine::Playables::PlayableOutputHandle GetHandle() ;
+ UnityEngine::Playables::PlayableOutputHandle GetHandle() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Experimental::Playables
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::Playables::TexturePlayableOutput, "UnityEngine.Experimental.Playables", "TexturePlayableOutput");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Playables::TexturePlayableOutput, "UnityEngine.Experimental.Playables", "TexturePlayableOutput");

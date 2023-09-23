@@ -1,12 +1,11 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "RootMotion/FinalIK/zzzz__IK_def.hpp"
-namespace {
-namespace RootMotion::FinalIK {
-class IKSolverAim;
-}
 namespace RootMotion::FinalIK {
 class IKSolver;
+}
+namespace RootMotion::FinalIK {
+class IKSolverAim;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -18,7 +17,7 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12478))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12472))
 // CS Name: RootMotion.FinalIK.AimIK
-class CORDL_TYPE AimIK : public ::RootMotion::FinalIK::IK {
+class CORDL_TYPE AimIK : public RootMotion::FinalIK::IK {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr AimIK(AimIK const& ) noexcept = default;
 constexpr AimIK(AimIK&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AimIK(void* ptr) noexcept : ::RootMotion::FinalIK::IK(ptr) {
+constexpr explicit AimIK(void* ptr) noexcept : RootMotion::FinalIK::IK(ptr) {
 }
 
 
@@ -54,11 +53,11 @@ constexpr explicit AimIK(void* ptr) noexcept : ::RootMotion::FinalIK::IK(ptr) {
 
 // Fields
 
- ::RootMotion::FinalIK::IKSolverAim __declspec(property(get=__get_solver, put=__set_solver))  solver;
+ RootMotion::FinalIK::IKSolverAim __declspec(property(get=__get_solver, put=__set_solver))  solver;
 
-constexpr void __set_solver(::RootMotion::FinalIK::IKSolverAim value) ;
+constexpr void __set_solver(RootMotion::FinalIK::IKSolverAim value) ;
 
-constexpr ::RootMotion::FinalIK::IKSolverAim __get_solver() const;
+constexpr RootMotion::FinalIK::IKSolverAim __get_solver() const;
 
 
 // Methods
@@ -79,7 +78,7 @@ constexpr ::RootMotion::FinalIK::IKSolverAim __get_solver() const;
  void ASThread() ;
 
 /// @brief Method GetIKSolver addr 0x11c3e4c size 0x8 virtual true final false
- ::RootMotion::FinalIK::IKSolver GetIKSolver() ;
+ RootMotion::FinalIK::IKSolver GetIKSolver() ;
 
 // Ctor Parameters []
 explicit AimIK() ;
@@ -91,6 +90,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::AimIK);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::AimIK, "RootMotion.FinalIK", "AimIK");
+NEED_NO_BOX(RootMotion::FinalIK::AimIK);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::AimIK, "RootMotion.FinalIK", "AimIK");

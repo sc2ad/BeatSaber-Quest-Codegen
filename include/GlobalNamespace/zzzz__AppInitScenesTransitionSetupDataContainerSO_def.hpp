@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class AppInitScenesTransitionSetupDataSO;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6113))
 // CS Name: AppInitScenesTransitionSetupDataContainerSO
-class CORDL_TYPE AppInitScenesTransitionSetupDataContainerSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE AppInitScenesTransitionSetupDataContainerSO : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr AppInitScenesTransitionSetupDataContainerSO(AppInitScenesTransitionSet
 constexpr AppInitScenesTransitionSetupDataContainerSO(AppInitScenesTransitionSetupDataContainerSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AppInitScenesTransitionSetupDataContainerSO(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit AppInitScenesTransitionSetupDataContainerSO(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit AppInitScenesTransitionSetupDataContainerSO(void* ptr) noexce
 
 // Fields
 
- ::GlobalNamespace::AppInitScenesTransitionSetupDataSO __declspec(property(get=__get_appInitScenesTransitionSetupData, put=__set_appInitScenesTransitionSetupData))  appInitScenesTransitionSetupData;
+ GlobalNamespace::AppInitScenesTransitionSetupDataSO __declspec(property(get=__get_appInitScenesTransitionSetupData, put=__set_appInitScenesTransitionSetupData))  appInitScenesTransitionSetupData;
 
-constexpr void __set_appInitScenesTransitionSetupData(::GlobalNamespace::AppInitScenesTransitionSetupDataSO value) ;
+constexpr void __set_appInitScenesTransitionSetupData(GlobalNamespace::AppInitScenesTransitionSetupDataSO value) ;
 
-constexpr ::GlobalNamespace::AppInitScenesTransitionSetupDataSO __get_appInitScenesTransitionSetupData() const;
+constexpr GlobalNamespace::AppInitScenesTransitionSetupDataSO __get_appInitScenesTransitionSetupData() const;
 
 
 // Methods
@@ -70,6 +69,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO, "", "AppInitScenesTransitionSetupDataContainerSO");
+NEED_NO_BOX(GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO, "", "AppInitScenesTransitionSetupDataContainerSO");

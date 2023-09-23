@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HEU_PipelineType;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unsupported offset 0
-static ::HoudiniEngineUnity::HEU_PipelineType const Unsupported;
+static HoudiniEngineUnity::HEU_PipelineType const Unsupported;
 
 /// @brief Field BiRP offset 0
-static ::HoudiniEngineUnity::HEU_PipelineType const BiRP;
+static HoudiniEngineUnity::HEU_PipelineType const BiRP;
 
 /// @brief Field URP offset 0
-static ::HoudiniEngineUnity::HEU_PipelineType const URP;
+static HoudiniEngineUnity::HEU_PipelineType const URP;
 
 /// @brief Field HDRP offset 0
-static ::HoudiniEngineUnity::HEU_PipelineType const HDRP;
+static HoudiniEngineUnity::HEU_PipelineType const HDRP;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_PipelineType, "HoudiniEngineUnity", "HEU_PipelineType");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_PipelineType, "HoudiniEngineUnity", "HEU_PipelineType");

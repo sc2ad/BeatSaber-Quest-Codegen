@@ -5,19 +5,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace System::Text {
+class Encoding;
+}
 namespace UnityEngine::Networking {
 class UnityWebRequest;
+}
+namespace System {
+class IDisposable;
 }
 namespace Unity::Collections {
 template<typename T>
 struct NativeArray_1;
-}
-namespace System::Text {
-class Encoding;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace UnityEngine::Networking {
@@ -32,8 +31,8 @@ namespace UnityEngine::Networking {
 class CORDL_TYPE DownloadHandler : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -109,7 +108,7 @@ explicit DownloadHandler() ;
  ::StringW get_text() ;
 
 /// @brief Method GetNativeData addr 0x2d37038 size 0xc virtual true final false
- ::Unity::Collections::NativeArray_1<uint8_t> GetNativeData() ;
+ Unity::Collections::NativeArray_1<uint8_t> GetNativeData() ;
 
 /// @brief Method GetData addr 0x2d37044 size 0x4 virtual true final false
  ::ArrayW<uint8_t> GetData() ;
@@ -118,7 +117,7 @@ explicit DownloadHandler() ;
  ::StringW GetText() ;
 
 /// @brief Method GetTextEncoder addr 0x2d371d4 size 0x270 virtual false final false
- ::System::Text::Encoding GetTextEncoder() ;
+ System::Text::Encoding GetTextEncoder() ;
 
 /// @brief Method GetContentType addr 0x2d37444 size 0x3c virtual false final false
  ::StringW GetContentType() ;
@@ -131,27 +130,26 @@ explicit DownloadHandler() ;
 
 /// @brief Method GetCheckedDownloader addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static T GetCheckedDownloader(::UnityEngine::Networking::UnityWebRequest www) ;
+static T GetCheckedDownloader(UnityEngine::Networking::UnityWebRequest www) ;
 
 /// @brief Method InternalGetByteArray addr 0x2d37490 size 0x44 virtual false final false
-static void* InternalGetByteArray(::UnityEngine::Networking::DownloadHandler dh, ByRef<int32_t> length) ;
+static void* InternalGetByteArray(UnityEngine::Networking::DownloadHandler dh, ByRef<int32_t> length) ;
 
 /// @brief Method InternalGetByteArray addr 0x2d37048 size 0xa4 virtual false final false
-static ::ArrayW<uint8_t> InternalGetByteArray(::UnityEngine::Networking::DownloadHandler dh) ;
+static ::ArrayW<uint8_t> InternalGetByteArray(UnityEngine::Networking::DownloadHandler dh) ;
 
 /// @brief Method InternalGetNativeArray addr 0x2d374d4 size 0xbc virtual false final false
-static ::Unity::Collections::NativeArray_1<uint8_t> InternalGetNativeArray(::UnityEngine::Networking::DownloadHandler dh, ByRef<::Unity::Collections::NativeArray_1<uint8_t>> nativeArray) ;
+static Unity::Collections::NativeArray_1<uint8_t> InternalGetNativeArray(UnityEngine::Networking::DownloadHandler dh, ByRef<Unity::Collections::NativeArray_1<uint8_t>> nativeArray) ;
 
 /// @brief Method DisposeNativeArray addr 0x2d37590 size 0x54 virtual false final false
-static void DisposeNativeArray(ByRef<::Unity::Collections::NativeArray_1<uint8_t>> data) ;
+static void DisposeNativeArray(ByRef<Unity::Collections::NativeArray_1<uint8_t>> data) ;
 
 /// @brief Method CreateNativeArrayForNativeData addr 0x2d375e4 size 0x68 virtual false final false
-static void CreateNativeArrayForNativeData(ByRef<::Unity::Collections::NativeArray_1<uint8_t>> data, void* bytes, int32_t length) ;
+static void CreateNativeArrayForNativeData(ByRef<Unity::Collections::NativeArray_1<uint8_t>> data, void* bytes, int32_t length) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Networking
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Networking::DownloadHandler);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Networking::DownloadHandler, "UnityEngine.Networking", "DownloadHandler");
+NEED_NO_BOX(UnityEngine::Networking::DownloadHandler);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandler, "UnityEngine.Networking", "DownloadHandler");

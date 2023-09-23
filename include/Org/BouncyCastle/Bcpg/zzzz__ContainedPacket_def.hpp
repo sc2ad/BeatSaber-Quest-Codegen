@@ -3,7 +3,6 @@
 #include "Org/BouncyCastle/Bcpg/zzzz__Packet_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Bcpg {
 class BcpgOutputStream;
 }
@@ -17,7 +16,7 @@ namespace Org::BouncyCastle::Bcpg {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(556))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(560))
 // CS Name: Org.BouncyCastle.Bcpg.ContainedPacket
-class CORDL_TYPE ContainedPacket : public ::Org::BouncyCastle::Bcpg::Packet {
+class CORDL_TYPE ContainedPacket : public Org::BouncyCastle::Bcpg::Packet {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr ContainedPacket(ContainedPacket const& ) noexcept = default;
 constexpr ContainedPacket(ContainedPacket&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ContainedPacket(void* ptr) noexcept : ::Org::BouncyCastle::Bcpg::Packet(ptr) {
+constexpr explicit ContainedPacket(void* ptr) noexcept : Org::BouncyCastle::Bcpg::Packet(ptr) {
 }
 
 
@@ -57,7 +56,7 @@ constexpr explicit ContainedPacket(void* ptr) noexcept : ::Org::BouncyCastle::Bc
  ::ArrayW<uint8_t> GetEncoded() ;
 
 /// @brief Method Encode addr 0x0 size 0xffffffffffffffff virtual true final false
- void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream bcpgOut) ;
+ void Encode(Org::BouncyCastle::Bcpg::BcpgOutputStream bcpgOut) ;
 
 // Ctor Parameters []
 explicit ContainedPacket() ;
@@ -69,6 +68,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::ContainedPacket);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::ContainedPacket, "Org.BouncyCastle.Bcpg", "ContainedPacket");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::ContainedPacket);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::ContainedPacket, "Org.BouncyCastle.Bcpg", "ContainedPacket");

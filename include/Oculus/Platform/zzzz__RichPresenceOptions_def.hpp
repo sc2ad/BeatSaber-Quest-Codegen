@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Oculus::Platform {
-struct RichPresenceExtraContext;
-}
 namespace System {
 struct DateTime;
+}
+namespace Oculus::Platform {
+struct RichPresenceExtraContext;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -81,10 +80,10 @@ explicit RichPresenceOptions() ;
  void SetDeeplinkMessageOverride(::StringW value) ;
 
 /// @brief Method SetEndTime addr 0x25994b8 size 0x6c virtual false final false
- void SetEndTime(::System::DateTime value) ;
+ void SetEndTime(System::DateTime value) ;
 
 /// @brief Method SetExtraContext addr 0x2599524 size 0x6c virtual false final false
- void SetExtraContext(::Oculus::Platform::RichPresenceExtraContext value) ;
+ void SetExtraContext(Oculus::Platform::RichPresenceExtraContext value) ;
 
 /// @brief Method SetInstanceId addr 0x2599590 size 0x6c virtual false final false
  void SetInstanceId(::StringW value) ;
@@ -99,10 +98,10 @@ explicit RichPresenceOptions() ;
  void SetMaxCapacity(uint32_t value) ;
 
 /// @brief Method SetStartTime addr 0x2599740 size 0x6c virtual false final false
- void SetStartTime(::System::DateTime value) ;
+ void SetStartTime(System::DateTime value) ;
 
 /// @brief Method op_Explicit addr 0x2597010 size 0x58 virtual false final false
-static ::cordl_internals::intptr_t op_Explicit___cordl_internals__intptr_t(::Oculus::Platform::RichPresenceOptions options) ;
+static ::cordl_internals::intptr_t op_Explicit___cordl_internals__intptr_t(Oculus::Platform::RichPresenceOptions options) ;
 
 /// @brief Method Finalize addr 0x25997ac size 0xd8 virtual true final false
  void Finalize() ;
@@ -111,6 +110,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::RichPresenceOptions);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::RichPresenceOptions, "Oculus.Platform", "RichPresenceOptions");
+NEED_NO_BOX(Oculus::Platform::RichPresenceOptions);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::RichPresenceOptions, "Oculus.Platform", "RichPresenceOptions");

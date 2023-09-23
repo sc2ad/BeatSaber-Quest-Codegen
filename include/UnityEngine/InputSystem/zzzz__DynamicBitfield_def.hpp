@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine::InputSystem::Utilities {
 template<typename TValue>
 struct InlinedArray_1;
@@ -20,8 +19,8 @@ namespace UnityEngine::InputSystem {
 struct CORDL_TYPE DynamicBitfield : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "array", ty: "::UnityEngine::InputSystem::Utilities::InlinedArray_1<uint64_t>", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr DynamicBitfield(::UnityEngine::InputSystem::Utilities::InlinedArray_1<uint64_t> array, int32_t length) noexcept;
+// Ctor Parameters [CppParam { name: "array", ty: "UnityEngine::InputSystem::Utilities::InlinedArray_1<uint64_t>", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr DynamicBitfield(UnityEngine::InputSystem::Utilities::InlinedArray_1<uint64_t> array, int32_t length) noexcept;
 
 
                     constexpr DynamicBitfield(DynamicBitfield const&) = default;
@@ -54,11 +53,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::InputSystem::Utilities::InlinedArray_1<uint64_t> __declspec(property(get=__get_array, put=__set_array))  array;
+ UnityEngine::InputSystem::Utilities::InlinedArray_1<uint64_t> __declspec(property(get=__get_array, put=__set_array))  array;
 
-constexpr void __set_array(::UnityEngine::InputSystem::Utilities::InlinedArray_1<uint64_t> value) ;
+constexpr void __set_array(UnityEngine::InputSystem::Utilities::InlinedArray_1<uint64_t> value) ;
 
-constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<uint64_t> __get_array() const;
+constexpr UnityEngine::InputSystem::Utilities::InlinedArray_1<uint64_t> __get_array() const;
 
  int32_t __declspec(property(get=__get_length, put=__set_length))  length;
 
@@ -88,5 +87,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::DynamicBitfield, "UnityEngine.InputSystem", "DynamicBitfield");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::DynamicBitfield, "UnityEngine.InputSystem", "DynamicBitfield");

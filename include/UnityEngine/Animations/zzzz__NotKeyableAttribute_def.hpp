@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::Animations {
 class NotKeyableAttribute;
@@ -12,7 +11,7 @@ namespace UnityEngine::Animations {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15075))
 // CS Name: UnityEngine.Animations.NotKeyableAttribute
-class CORDL_TYPE NotKeyableAttribute : public ::System::Attribute {
+class CORDL_TYPE NotKeyableAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr NotKeyableAttribute(NotKeyableAttribute const& ) noexcept = default;
 constexpr NotKeyableAttribute(NotKeyableAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NotKeyableAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit NotKeyableAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -49,6 +48,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Animations
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Animations::NotKeyableAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Animations::NotKeyableAttribute, "UnityEngine.Animations", "NotKeyableAttribute");
+NEED_NO_BOX(UnityEngine::Animations::NotKeyableAttribute);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::NotKeyableAttribute, "UnityEngine.Animations", "NotKeyableAttribute");

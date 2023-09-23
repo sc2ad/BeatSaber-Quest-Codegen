@@ -4,7 +4,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 class IEquatable_1;
@@ -22,8 +21,8 @@ namespace UnityEngine::TextCore::LowLevel {
 struct CORDL_TYPE GlyphValueRecord : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphValueRecord>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphValueRecord>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::TextCore::LowLevel::GlyphValueRecord>
+constexpr operator  System::IEquatable_1<UnityEngine::TextCore::LowLevel::GlyphValueRecord>() const;
 
 // Ctor Parameters [CppParam { name: "m_XPlacement", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_YPlacement", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_XAdvance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_YAdvance", ty: "float_t", modifiers: "", def_value: None }]
 constexpr GlyphValueRecord(float_t m_XPlacement, float_t m_YPlacement, float_t m_XAdvance, float_t m_YAdvance) noexcept;
@@ -110,7 +109,7 @@ constexpr float_t __get_m_YAdvance() const;
  float_t get_yAdvance() ;
 
 /// @brief Method op_Addition addr 0x2bac728 size 0x14 virtual false final false
-static ::UnityEngine::TextCore::LowLevel::GlyphValueRecord op_Addition(::UnityEngine::TextCore::LowLevel::GlyphValueRecord a, ::UnityEngine::TextCore::LowLevel::GlyphValueRecord b) ;
+static UnityEngine::TextCore::LowLevel::GlyphValueRecord op_Addition(UnityEngine::TextCore::LowLevel::GlyphValueRecord a, UnityEngine::TextCore::LowLevel::GlyphValueRecord b) ;
 
 /// @brief Method GetHashCode addr 0x2bac73c size 0x64 virtual true final false
  int32_t GetHashCode() ;
@@ -119,11 +118,10 @@ static ::UnityEngine::TextCore::LowLevel::GlyphValueRecord op_Addition(::UnityEn
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x2bac818 size 0xa8 virtual true final true
- bool Equals(::UnityEngine::TextCore::LowLevel::GlyphValueRecord other) ;
+ bool Equals(UnityEngine::TextCore::LowLevel::GlyphValueRecord other) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::LowLevel
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::LowLevel::GlyphValueRecord, "UnityEngine.TextCore.LowLevel", "GlyphValueRecord");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphValueRecord, "UnityEngine.TextCore.LowLevel", "GlyphValueRecord");

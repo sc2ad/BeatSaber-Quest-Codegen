@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace Libraries::HM::HMLib::VR {
-class HapticPresetSO;
-}
 namespace UnityEngine::XR {
 struct XRNode;
+}
+namespace Libraries::HM::HMLib::VR {
+class HapticPresetSO;
 }
 namespace GlobalNamespace {
 class IHapticFeedbackPlayer;
@@ -24,8 +23,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE EmptyAdvancedHapticsPlayer : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IHapticFeedbackPlayer
-constexpr operator  ::GlobalNamespace::IHapticFeedbackPlayer() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IHapticFeedbackPlayer
+constexpr operator  GlobalNamespace::IHapticFeedbackPlayer() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -61,10 +60,10 @@ constexpr explicit EmptyAdvancedHapticsPlayer(void* ptr) noexcept : ::bs_hook::I
 // Methods
 
 /// @brief Method PlayHapticFeedback addr 0x1f87ee0 size 0x4 virtual true final true
- void PlayHapticFeedback(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO hapticPreset) ;
+ void PlayHapticFeedback(UnityEngine::XR::XRNode node, Libraries::HM::HMLib::VR::HapticPresetSO hapticPreset) ;
 
 /// @brief Method CanPlayHapticPreset addr 0x1f87ee4 size 0x8 virtual true final true
- bool CanPlayHapticPreset(::Libraries::HM::HMLib::VR::HapticPresetSO hapticPreset) ;
+ bool CanPlayHapticPreset(Libraries::HM::HMLib::VR::HapticPresetSO hapticPreset) ;
 
 // Ctor Parameters []
 explicit EmptyAdvancedHapticsPlayer() ;
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::EmptyAdvancedHapticsPlayer);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EmptyAdvancedHapticsPlayer, "", "EmptyAdvancedHapticsPlayer");
+NEED_NO_BOX(GlobalNamespace::EmptyAdvancedHapticsPlayer);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EmptyAdvancedHapticsPlayer, "", "EmptyAdvancedHapticsPlayer");

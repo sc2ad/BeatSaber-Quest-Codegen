@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__ApplicationInvite_def.hpp"
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_def.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class ApplicationInviteList;
@@ -11,10 +10,10 @@ class ApplicationInviteList;
 // Type: Oculus.Platform.Models::ApplicationInviteList
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13410)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1129 }), TypeDefinitionIndex(TypeDefinitionIndex(13385))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13410)), TypeDefinitionIndex(TypeDefinitionIndex(13385)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1129 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13386))
 // CS Name: Oculus.Platform.Models.ApplicationInviteList
-class CORDL_TYPE ApplicationInviteList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::ApplicationInvite> {
+class CORDL_TYPE ApplicationInviteList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::ApplicationInvite> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr ApplicationInviteList(ApplicationInviteList const& ) noexcept = defaul
 constexpr ApplicationInviteList(ApplicationInviteList&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ApplicationInviteList(void* ptr) noexcept : ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::ApplicationInvite>(ptr) {
+constexpr explicit ApplicationInviteList(void* ptr) noexcept : Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::ApplicationInvite>(ptr) {
 }
 
 
@@ -60,6 +59,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::ApplicationInviteList);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::ApplicationInviteList, "Oculus.Platform.Models", "ApplicationInviteList");
+NEED_NO_BOX(Oculus::Platform::Models::ApplicationInviteList);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::ApplicationInviteList, "Oculus.Platform.Models", "ApplicationInviteList");

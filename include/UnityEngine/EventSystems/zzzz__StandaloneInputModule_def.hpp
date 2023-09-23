@@ -5,22 +5,21 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine::EventSystems {
 class PointerEventData;
-}
-namespace UnityEngine {
-class GameObject;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine::EventSystems {
-class ____UnityEngine__EventSystems__PointerInputModule__MouseButtonEventData;
+class UnityEngine__EventSystems__PointerInputModule__MouseButtonEventData;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
-struct ____UnityEngine__EventSystems__StandaloneInputModule__InputMode;
+struct UnityEngine__EventSystems__StandaloneInputModule__InputMode;
 }
 namespace UnityEngine::EventSystems {
 class StandaloneInputModule;
@@ -31,20 +30,20 @@ namespace UnityEngine::EventSystems {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13143))
 // CS Name: UnityEngine.EventSystems.StandaloneInputModule::InputMode
-struct CORDL_TYPE ____UnityEngine__EventSystems__StandaloneInputModule__InputMode : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__EventSystems__StandaloneInputModule__InputMode : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__EventSystems__StandaloneInputModule__InputMode(int32_t value__) noexcept;
+constexpr UnityEngine__EventSystems__StandaloneInputModule__InputMode(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__EventSystems__StandaloneInputModule__InputMode(____UnityEngine__EventSystems__StandaloneInputModule__InputMode const&) = default;
-                    constexpr ____UnityEngine__EventSystems__StandaloneInputModule__InputMode(____UnityEngine__EventSystems__StandaloneInputModule__InputMode&&) = default;
-                    constexpr ____UnityEngine__EventSystems__StandaloneInputModule__InputMode& operator=(____UnityEngine__EventSystems__StandaloneInputModule__InputMode const& o) {
+                    constexpr UnityEngine__EventSystems__StandaloneInputModule__InputMode(UnityEngine__EventSystems__StandaloneInputModule__InputMode const&) = default;
+                    constexpr UnityEngine__EventSystems__StandaloneInputModule__InputMode(UnityEngine__EventSystems__StandaloneInputModule__InputMode&&) = default;
+                    constexpr UnityEngine__EventSystems__StandaloneInputModule__InputMode& operator=(UnityEngine__EventSystems__StandaloneInputModule__InputMode const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__EventSystems__StandaloneInputModule__InputMode& operator=(____UnityEngine__EventSystems__StandaloneInputModule__InputMode&& o) noexcept {
+                    constexpr UnityEngine__EventSystems__StandaloneInputModule__InputMode& operator=(UnityEngine__EventSystems__StandaloneInputModule__InputMode&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -57,7 +56,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__EventSystems__StandaloneInputModule__InputMode(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__EventSystems__StandaloneInputModule__InputMode(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -65,14 +64,14 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__EventSystems__StandaloneInputModule__InputMode_Unwrapped : int32_t {
+enum class __UnityEngine__EventSystems__StandaloneInputModule__InputMode_Unwrapped : int32_t {
 __Mouse = 0,
 __Buttons = 1,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__EventSystems__StandaloneInputModule__InputMode_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__EventSystems__StandaloneInputModule__InputMode_Unwrapped>(__instance);
+constexpr operator __UnityEngine__EventSystems__StandaloneInputModule__InputMode_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__EventSystems__StandaloneInputModule__InputMode_Unwrapped>(__instance);
 }
 
 
@@ -85,10 +84,10 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Mouse offset 0
-static ::UnityEngine::EventSystems::____UnityEngine__EventSystems__StandaloneInputModule__InputMode const Mouse;
+static UnityEngine::EventSystems::UnityEngine__EventSystems__StandaloneInputModule__InputMode const Mouse;
 
 /// @brief Field Buttons offset 0
-static ::UnityEngine::EventSystems::____UnityEngine__EventSystems__StandaloneInputModule__InputMode const Buttons;
+static UnityEngine::EventSystems::UnityEngine__EventSystems__StandaloneInputModule__InputMode const Buttons;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -100,10 +99,10 @@ namespace UnityEngine::EventSystems {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13142))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13144))
 // CS Name: UnityEngine.EventSystems.StandaloneInputModule
-class CORDL_TYPE StandaloneInputModule : public ::UnityEngine::EventSystems::PointerInputModule {
+class CORDL_TYPE StandaloneInputModule : public UnityEngine::EventSystems::PointerInputModule {
 public:
 // Declarations
-using InputMode = ::UnityEngine::EventSystems::____UnityEngine__EventSystems__StandaloneInputModule__InputMode;
+using InputMode = UnityEngine::EventSystems::UnityEngine__EventSystems__StandaloneInputModule__InputMode;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xc0};
@@ -117,7 +116,7 @@ constexpr StandaloneInputModule(StandaloneInputModule const& ) noexcept = defaul
 constexpr StandaloneInputModule(StandaloneInputModule&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit StandaloneInputModule(void* ptr) noexcept : ::UnityEngine::EventSystems::PointerInputModule(ptr) {
+constexpr explicit StandaloneInputModule(void* ptr) noexcept : UnityEngine::EventSystems::PointerInputModule(ptr) {
 }
 
 
@@ -144,11 +143,11 @@ constexpr void __set_m_PrevActionTime(float_t value) ;
 
 constexpr float_t __get_m_PrevActionTime() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_m_LastMoveVector, put=__set_m_LastMoveVector))  m_LastMoveVector;
+ UnityEngine::Vector2 __declspec(property(get=__get_m_LastMoveVector, put=__set_m_LastMoveVector))  m_LastMoveVector;
 
-constexpr void __set_m_LastMoveVector(::UnityEngine::Vector2 value) ;
+constexpr void __set_m_LastMoveVector(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_m_LastMoveVector() const;
+constexpr UnityEngine::Vector2 __get_m_LastMoveVector() const;
 
  int32_t __declspec(property(get=__get_m_ConsecutiveMoveCount, put=__set_m_ConsecutiveMoveCount))  m_ConsecutiveMoveCount;
 
@@ -156,29 +155,29 @@ constexpr void __set_m_ConsecutiveMoveCount(int32_t value) ;
 
 constexpr int32_t __get_m_ConsecutiveMoveCount() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_m_LastMousePosition, put=__set_m_LastMousePosition))  m_LastMousePosition;
+ UnityEngine::Vector2 __declspec(property(get=__get_m_LastMousePosition, put=__set_m_LastMousePosition))  m_LastMousePosition;
 
-constexpr void __set_m_LastMousePosition(::UnityEngine::Vector2 value) ;
+constexpr void __set_m_LastMousePosition(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_m_LastMousePosition() const;
+constexpr UnityEngine::Vector2 __get_m_LastMousePosition() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_m_MousePosition, put=__set_m_MousePosition))  m_MousePosition;
+ UnityEngine::Vector2 __declspec(property(get=__get_m_MousePosition, put=__set_m_MousePosition))  m_MousePosition;
 
-constexpr void __set_m_MousePosition(::UnityEngine::Vector2 value) ;
+constexpr void __set_m_MousePosition(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_m_MousePosition() const;
+constexpr UnityEngine::Vector2 __get_m_MousePosition() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get_m_CurrentFocusedGameObject, put=__set_m_CurrentFocusedGameObject))  m_CurrentFocusedGameObject;
+ UnityEngine::GameObject __declspec(property(get=__get_m_CurrentFocusedGameObject, put=__set_m_CurrentFocusedGameObject))  m_CurrentFocusedGameObject;
 
-constexpr void __set_m_CurrentFocusedGameObject(::UnityEngine::GameObject value) ;
+constexpr void __set_m_CurrentFocusedGameObject(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get_m_CurrentFocusedGameObject() const;
+constexpr UnityEngine::GameObject __get_m_CurrentFocusedGameObject() const;
 
- ::UnityEngine::EventSystems::PointerEventData __declspec(property(get=__get_m_InputPointerEvent, put=__set_m_InputPointerEvent))  m_InputPointerEvent;
+ UnityEngine::EventSystems::PointerEventData __declspec(property(get=__get_m_InputPointerEvent, put=__set_m_InputPointerEvent))  m_InputPointerEvent;
 
-constexpr void __set_m_InputPointerEvent(::UnityEngine::EventSystems::PointerEventData value) ;
+constexpr void __set_m_InputPointerEvent(UnityEngine::EventSystems::PointerEventData value) ;
 
-constexpr ::UnityEngine::EventSystems::PointerEventData __get_m_InputPointerEvent() const;
+constexpr UnityEngine::EventSystems::PointerEventData __get_m_InputPointerEvent() const;
 
  ::StringW __declspec(property(get=__get_m_HorizontalAxis, put=__set_m_HorizontalAxis))  m_HorizontalAxis;
 
@@ -225,7 +224,7 @@ constexpr bool __get_m_ForceModuleActive() const;
 
 // Properties
 
- ::UnityEngine::EventSystems::____UnityEngine__EventSystems__StandaloneInputModule__InputMode __declspec(property(get=get_inputMode))  inputMode;
+ UnityEngine::EventSystems::UnityEngine__EventSystems__StandaloneInputModule__InputMode __declspec(property(get=get_inputMode))  inputMode;
 
  bool __declspec(property(get=get_allowActivationOnMobileDevice, put=set_allowActivationOnMobileDevice))  allowActivationOnMobileDevice;
 
@@ -253,7 +252,7 @@ explicit StandaloneInputModule() ;
  void _ctor() ;
 
 /// @brief Method get_inputMode addr 0x2c240d8 size 0x8 virtual false final false
- ::UnityEngine::EventSystems::____UnityEngine__EventSystems__StandaloneInputModule__InputMode get_inputMode() ;
+ UnityEngine::EventSystems::UnityEngine__EventSystems__StandaloneInputModule__InputMode get_inputMode() ;
 
 /// @brief Method get_allowActivationOnMobileDevice addr 0x2c240e0 size 0x8 virtual false final false
  bool get_allowActivationOnMobileDevice() ;
@@ -310,7 +309,7 @@ explicit StandaloneInputModule() ;
  void UpdateModule() ;
 
 /// @brief Method ReleaseMouse addr 0x2c24240 size 0x36c virtual false final false
- void ReleaseMouse(::UnityEngine::EventSystems::PointerEventData pointerEvent, ::UnityEngine::GameObject currentOverGo) ;
+ void ReleaseMouse(UnityEngine::EventSystems::PointerEventData pointerEvent, UnityEngine::GameObject currentOverGo) ;
 
 /// @brief Method ShouldActivateModule addr 0x2c245ac size 0x234 virtual true final false
  bool ShouldActivateModule() ;
@@ -328,13 +327,13 @@ explicit StandaloneInputModule() ;
  bool ProcessTouchEvents() ;
 
 /// @brief Method ProcessTouchPress addr 0x2c250ac size 0x664 virtual false final false
- void ProcessTouchPress(::UnityEngine::EventSystems::PointerEventData pointerEvent, bool pressed, bool released) ;
+ void ProcessTouchPress(UnityEngine::EventSystems::PointerEventData pointerEvent, bool pressed, bool released) ;
 
 /// @brief Method SendSubmitEventToSelectedObject addr 0x2c24ea0 size 0x20c virtual false final false
  bool SendSubmitEventToSelectedObject() ;
 
 /// @brief Method GetRawMoveVector addr 0x2c25710 size 0x110 virtual false final false
- ::UnityEngine::Vector2 GetRawMoveVector() ;
+ UnityEngine::Vector2 GetRawMoveVector() ;
 
 /// @brief Method SendMoveEventToSelectedObject addr 0x2c24c3c size 0x264 virtual false final false
  bool SendMoveEventToSelectedObject() ;
@@ -352,16 +351,15 @@ explicit StandaloneInputModule() ;
  bool SendUpdateEventToSelectedObject() ;
 
 /// @brief Method ProcessMousePress addr 0x2c25ad0 size 0x354 virtual false final false
- void ProcessMousePress(::UnityEngine::EventSystems::____UnityEngine__EventSystems__PointerInputModule__MouseButtonEventData data) ;
+ void ProcessMousePress(UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModule__MouseButtonEventData data) ;
 
 /// @brief Method GetCurrentFocusedGameObject addr 0x2c25e24 size 0x8 virtual false final false
- ::UnityEngine::GameObject GetCurrentFocusedGameObject() ;
+ UnityEngine::GameObject GetCurrentFocusedGameObject() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::EventSystems
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::____UnityEngine__EventSystems__StandaloneInputModule__InputMode, "UnityEngine.EventSystems", "StandaloneInputModule/InputMode");
-NEED_NO_BOX(::UnityEngine::EventSystems::StandaloneInputModule);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::StandaloneInputModule, "UnityEngine.EventSystems", "StandaloneInputModule");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::UnityEngine__EventSystems__StandaloneInputModule__InputMode, "UnityEngine.EventSystems", "StandaloneInputModule/InputMode");
+NEED_NO_BOX(UnityEngine::EventSystems::StandaloneInputModule);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::StandaloneInputModule, "UnityEngine.EventSystems", "StandaloneInputModule");

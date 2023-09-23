@@ -1,10 +1,12 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
+}
+namespace UnityEngine::UI {
+class Text;
 }
 namespace UnityEngine {
 class Font;
@@ -12,9 +14,6 @@ class Font;
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
-}
-namespace UnityEngine::UI {
-class Text;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -62,28 +61,27 @@ constexpr explicit FontUpdateTracker(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 
 // Fields
 
-static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Font,::System::Collections::Generic::HashSet_1<::UnityEngine::UI::Text>> __declspec(property(get=__get_m_Tracked, put=__set_m_Tracked))  m_Tracked;
+static System::Collections::Generic::Dictionary_2<UnityEngine::Font,System::Collections::Generic::HashSet_1<UnityEngine::UI::Text>> __declspec(property(get=__get_m_Tracked, put=__set_m_Tracked))  m_Tracked;
 
-static void __set_m_Tracked(::System::Collections::Generic::Dictionary_2<::UnityEngine::Font,::System::Collections::Generic::HashSet_1<::UnityEngine::UI::Text>> value) ;
+static void __set_m_Tracked(System::Collections::Generic::Dictionary_2<UnityEngine::Font,System::Collections::Generic::HashSet_1<UnityEngine::UI::Text>> value) ;
 
-static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Font,::System::Collections::Generic::HashSet_1<::UnityEngine::UI::Text>> __get_m_Tracked() ;
+static System::Collections::Generic::Dictionary_2<UnityEngine::Font,System::Collections::Generic::HashSet_1<UnityEngine::UI::Text>> __get_m_Tracked() ;
 
 
 // Methods
 
 /// @brief Method TrackText addr 0x2be2084 size 0x250 virtual false final false
-static void TrackText(::UnityEngine::UI::Text t) ;
+static void TrackText(UnityEngine::UI::Text t) ;
 
 /// @brief Method RebuildForFont addr 0x2be22d4 size 0x1a4 virtual false final false
-static void RebuildForFont(::UnityEngine::Font f) ;
+static void RebuildForFont(UnityEngine::Font f) ;
 
 /// @brief Method UntrackText addr 0x2be2478 size 0x20c virtual false final false
-static void UntrackText(::UnityEngine::UI::Text t) ;
+static void UntrackText(UnityEngine::UI::Text t) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UI
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UI::FontUpdateTracker);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::FontUpdateTracker, "UnityEngine.UI", "FontUpdateTracker");
+NEED_NO_BOX(UnityEngine::UI::FontUpdateTracker);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::FontUpdateTracker, "UnityEngine.UI", "FontUpdateTracker");

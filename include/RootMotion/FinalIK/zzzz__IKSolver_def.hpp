@@ -7,21 +7,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine {
 class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace RootMotion::FinalIK {
 class RotationLimit;
 }
 namespace System {
-class IAsyncResult;
+class AsyncCallback;
 }
 namespace System {
-class AsyncCallback;
+class IAsyncResult;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -31,19 +30,19 @@ namespace RootMotion::FinalIK {
 class IKSolver;
 }
 namespace RootMotion::FinalIK {
-class ____RootMotion__FinalIK__IKSolver__Bone;
+class RootMotion__FinalIK__IKSolver__Bone;
 }
 namespace RootMotion::FinalIK {
-class ____RootMotion__FinalIK__IKSolver__IterationDelegate;
+class RootMotion__FinalIK__IKSolver__IterationDelegate;
 }
 namespace RootMotion::FinalIK {
-class ____RootMotion__FinalIK__IKSolver__Node;
+class RootMotion__FinalIK__IKSolver__Node;
 }
 namespace RootMotion::FinalIK {
-class ____RootMotion__FinalIK__IKSolver__Point;
+class RootMotion__FinalIK__IKSolver__Point;
 }
 namespace RootMotion::FinalIK {
-class ____RootMotion__FinalIK__IKSolver__UpdateDelegate;
+class RootMotion__FinalIK__IKSolver__UpdateDelegate;
 }
 // Type: ::Point
 namespace RootMotion::FinalIK {
@@ -51,47 +50,47 @@ namespace RootMotion::FinalIK {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12501))
 // CS Name: RootMotion.FinalIK.IKSolver::Point
-class CORDL_TYPE ____RootMotion__FinalIK__IKSolver__Point : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE RootMotion__FinalIK__IKSolver__Point : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x58};
 
-virtual ~____RootMotion__FinalIK__IKSolver__Point() = default;
+virtual ~RootMotion__FinalIK__IKSolver__Point() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____RootMotion__FinalIK__IKSolver__Point", modifiers: " const&", def_value: None }]
-constexpr ____RootMotion__FinalIK__IKSolver__Point(____RootMotion__FinalIK__IKSolver__Point const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "RootMotion__FinalIK__IKSolver__Point", modifiers: " const&", def_value: None }]
+constexpr RootMotion__FinalIK__IKSolver__Point(RootMotion__FinalIK__IKSolver__Point const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____RootMotion__FinalIK__IKSolver__Point", modifiers: "&&", def_value: None }]
-constexpr ____RootMotion__FinalIK__IKSolver__Point(____RootMotion__FinalIK__IKSolver__Point&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "RootMotion__FinalIK__IKSolver__Point", modifiers: "&&", def_value: None }]
+constexpr RootMotion__FinalIK__IKSolver__Point(RootMotion__FinalIK__IKSolver__Point&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____RootMotion__FinalIK__IKSolver__Point(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit RootMotion__FinalIK__IKSolver__Point(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____RootMotion__FinalIK__IKSolver__Point& operator=(std::nullptr_t) noexcept {
+  constexpr RootMotion__FinalIK__IKSolver__Point& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____RootMotion__FinalIK__IKSolver__Point& operator=(void* o) noexcept {
+  constexpr RootMotion__FinalIK__IKSolver__Point& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____RootMotion__FinalIK__IKSolver__Point& operator=(____RootMotion__FinalIK__IKSolver__Point&& o) noexcept = default;
-  constexpr ____RootMotion__FinalIK__IKSolver__Point& operator=(____RootMotion__FinalIK__IKSolver__Point const& o) noexcept = default;
+  constexpr RootMotion__FinalIK__IKSolver__Point& operator=(RootMotion__FinalIK__IKSolver__Point&& o) noexcept = default;
+  constexpr RootMotion__FinalIK__IKSolver__Point& operator=(RootMotion__FinalIK__IKSolver__Point const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::UnityEngine::Transform __declspec(property(get=__get_transform, put=__set_transform))  transform;
+ UnityEngine::Transform __declspec(property(get=__get_transform, put=__set_transform))  transform;
 
-constexpr void __set_transform(::UnityEngine::Transform value) ;
+constexpr void __set_transform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_transform() const;
+constexpr UnityEngine::Transform __get_transform() const;
 
  float_t __declspec(property(get=__get_weight, put=__set_weight))  weight;
 
@@ -99,29 +98,29 @@ constexpr void __set_weight(float_t value) ;
 
 constexpr float_t __get_weight() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_solverPosition, put=__set_solverPosition))  solverPosition;
+ UnityEngine::Vector3 __declspec(property(get=__get_solverPosition, put=__set_solverPosition))  solverPosition;
 
-constexpr void __set_solverPosition(::UnityEngine::Vector3 value) ;
+constexpr void __set_solverPosition(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_solverPosition() const;
+constexpr UnityEngine::Vector3 __get_solverPosition() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get_solverRotation, put=__set_solverRotation))  solverRotation;
+ UnityEngine::Quaternion __declspec(property(get=__get_solverRotation, put=__set_solverRotation))  solverRotation;
 
-constexpr void __set_solverRotation(::UnityEngine::Quaternion value) ;
+constexpr void __set_solverRotation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get_solverRotation() const;
+constexpr UnityEngine::Quaternion __get_solverRotation() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_defaultLocalPosition, put=__set_defaultLocalPosition))  defaultLocalPosition;
+ UnityEngine::Vector3 __declspec(property(get=__get_defaultLocalPosition, put=__set_defaultLocalPosition))  defaultLocalPosition;
 
-constexpr void __set_defaultLocalPosition(::UnityEngine::Vector3 value) ;
+constexpr void __set_defaultLocalPosition(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_defaultLocalPosition() const;
+constexpr UnityEngine::Vector3 __get_defaultLocalPosition() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get_defaultLocalRotation, put=__set_defaultLocalRotation))  defaultLocalRotation;
+ UnityEngine::Quaternion __declspec(property(get=__get_defaultLocalRotation, put=__set_defaultLocalRotation))  defaultLocalRotation;
 
-constexpr void __set_defaultLocalRotation(::UnityEngine::Quaternion value) ;
+constexpr void __set_defaultLocalRotation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get_defaultLocalRotation() const;
+constexpr UnityEngine::Quaternion __get_defaultLocalRotation() const;
 
 
 // Methods
@@ -145,7 +144,7 @@ constexpr ::UnityEngine::Quaternion __get_defaultLocalRotation() const;
  void UpdateSolverLocalState() ;
 
 // Ctor Parameters []
-explicit ____RootMotion__FinalIK__IKSolver__Point() ;
+explicit RootMotion__FinalIK__IKSolver__Point() ;
 
 /// @brief Method .ctor addr 0x11d3bc8 size 0x60 virtual false final false
  void _ctor() ;
@@ -160,37 +159,37 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12501))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12502))
 // CS Name: RootMotion.FinalIK.IKSolver::Bone
-class CORDL_TYPE ____RootMotion__FinalIK__IKSolver__Bone : public ::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__Point {
+class CORDL_TYPE RootMotion__FinalIK__IKSolver__Bone : public RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Point {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x78};
 
-virtual ~____RootMotion__FinalIK__IKSolver__Bone() = default;
+virtual ~RootMotion__FinalIK__IKSolver__Bone() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____RootMotion__FinalIK__IKSolver__Bone", modifiers: " const&", def_value: None }]
-constexpr ____RootMotion__FinalIK__IKSolver__Bone(____RootMotion__FinalIK__IKSolver__Bone const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "RootMotion__FinalIK__IKSolver__Bone", modifiers: " const&", def_value: None }]
+constexpr RootMotion__FinalIK__IKSolver__Bone(RootMotion__FinalIK__IKSolver__Bone const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____RootMotion__FinalIK__IKSolver__Bone", modifiers: "&&", def_value: None }]
-constexpr ____RootMotion__FinalIK__IKSolver__Bone(____RootMotion__FinalIK__IKSolver__Bone&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "RootMotion__FinalIK__IKSolver__Bone", modifiers: "&&", def_value: None }]
+constexpr RootMotion__FinalIK__IKSolver__Bone(RootMotion__FinalIK__IKSolver__Bone&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____RootMotion__FinalIK__IKSolver__Bone(void* ptr) noexcept : ::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__Point(ptr) {
+constexpr explicit RootMotion__FinalIK__IKSolver__Bone(void* ptr) noexcept : RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Point(ptr) {
 }
 
 
-  constexpr ____RootMotion__FinalIK__IKSolver__Bone& operator=(std::nullptr_t) noexcept {
+  constexpr RootMotion__FinalIK__IKSolver__Bone& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____RootMotion__FinalIK__IKSolver__Bone& operator=(void* o) noexcept {
+  constexpr RootMotion__FinalIK__IKSolver__Bone& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____RootMotion__FinalIK__IKSolver__Bone& operator=(____RootMotion__FinalIK__IKSolver__Bone&& o) noexcept = default;
-  constexpr ____RootMotion__FinalIK__IKSolver__Bone& operator=(____RootMotion__FinalIK__IKSolver__Bone const& o) noexcept = default;
+  constexpr RootMotion__FinalIK__IKSolver__Bone& operator=(RootMotion__FinalIK__IKSolver__Bone&& o) noexcept = default;
+  constexpr RootMotion__FinalIK__IKSolver__Bone& operator=(RootMotion__FinalIK__IKSolver__Bone const& o) noexcept = default;
                 
 
 
@@ -208,17 +207,17 @@ constexpr void __set_sqrMag(float_t value) ;
 
 constexpr float_t __get_sqrMag() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_axis, put=__set_axis))  axis;
+ UnityEngine::Vector3 __declspec(property(get=__get_axis, put=__set_axis))  axis;
 
-constexpr void __set_axis(::UnityEngine::Vector3 value) ;
+constexpr void __set_axis(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_axis() const;
+constexpr UnityEngine::Vector3 __get_axis() const;
 
- ::RootMotion::FinalIK::RotationLimit __declspec(property(get=__get__rotationLimit, put=__set__rotationLimit))  _rotationLimit;
+ RootMotion::FinalIK::RotationLimit __declspec(property(get=__get__rotationLimit, put=__set__rotationLimit))  _rotationLimit;
 
-constexpr void __set__rotationLimit(::RootMotion::FinalIK::RotationLimit value) ;
+constexpr void __set__rotationLimit(RootMotion::FinalIK::RotationLimit value) ;
 
-constexpr ::RootMotion::FinalIK::RotationLimit __get__rotationLimit() const;
+constexpr RootMotion::FinalIK::RotationLimit __get__rotationLimit() const;
 
  bool __declspec(property(get=__get_isLimited, put=__set_isLimited))  isLimited;
 
@@ -229,46 +228,46 @@ constexpr bool __get_isLimited() const;
 
 // Properties
 
- ::RootMotion::FinalIK::RotationLimit __declspec(property(get=get_rotationLimit, put=set_rotationLimit))  rotationLimit;
+ RootMotion::FinalIK::RotationLimit __declspec(property(get=get_rotationLimit, put=set_rotationLimit))  rotationLimit;
 
 
 // Methods
 
 /// @brief Method get_rotationLimit addr 0x11d3c28 size 0xe0 virtual false final false
- ::RootMotion::FinalIK::RotationLimit get_rotationLimit() ;
+ RootMotion::FinalIK::RotationLimit get_rotationLimit() ;
 
 /// @brief Method set_rotationLimit addr 0x11d3d08 size 0x78 virtual false final false
- void set_rotationLimit(::RootMotion::FinalIK::RotationLimit value) ;
+ void set_rotationLimit(RootMotion::FinalIK::RotationLimit value) ;
 
 /// @brief Method Swing addr 0x11d3d80 size 0x26c virtual false final false
- void Swing(::UnityEngine::Vector3 swingTarget, float_t weight) ;
+ void Swing(UnityEngine::Vector3 swingTarget, float_t weight) ;
 
 /// @brief Method SolverSwing addr 0x11d3fec size 0x2bc virtual false final false
-static void SolverSwing(::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__Bone> bones, int32_t index, ::UnityEngine::Vector3 swingTarget, float_t weight) ;
+static void SolverSwing(::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone> bones, int32_t index, UnityEngine::Vector3 swingTarget, float_t weight) ;
 
 /// @brief Method Swing2D addr 0x11d42a8 size 0x1f4 virtual false final false
- void Swing2D(::UnityEngine::Vector3 swingTarget, float_t weight) ;
+ void Swing2D(UnityEngine::Vector3 swingTarget, float_t weight) ;
 
 /// @brief Method SetToSolverPosition addr 0x11d449c size 0x28 virtual false final false
  void SetToSolverPosition() ;
 
 // Ctor Parameters []
-explicit ____RootMotion__FinalIK__IKSolver__Bone() ;
+explicit RootMotion__FinalIK__IKSolver__Bone() ;
 
 /// @brief Method .ctor addr 0x11d44c4 size 0x6c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "transform", ty: "::UnityEngine::Transform", modifiers: "", def_value: None }]
-explicit ____RootMotion__FinalIK__IKSolver__Bone(::UnityEngine::Transform transform) ;
+// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
+explicit RootMotion__FinalIK__IKSolver__Bone(UnityEngine::Transform transform) ;
 
 /// @brief Method .ctor addr 0x11d4530 size 0x78 virtual false final false
- void _ctor(::UnityEngine::Transform transform) ;
+ void _ctor(UnityEngine::Transform transform) ;
 
-// Ctor Parameters [CppParam { name: "transform", ty: "::UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "weight", ty: "float_t", modifiers: "", def_value: None }]
-explicit ____RootMotion__FinalIK__IKSolver__Bone(::UnityEngine::Transform transform, float_t weight) ;
+// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "weight", ty: "float_t", modifiers: "", def_value: None }]
+explicit RootMotion__FinalIK__IKSolver__Bone(UnityEngine::Transform transform, float_t weight) ;
 
 /// @brief Method .ctor addr 0x11d45a8 size 0x88 virtual false final false
- void _ctor(::UnityEngine::Transform transform, float_t weight) ;
+ void _ctor(UnityEngine::Transform transform, float_t weight) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -280,37 +279,37 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12501))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12503))
 // CS Name: RootMotion.FinalIK.IKSolver::Node
-class CORDL_TYPE ____RootMotion__FinalIK__IKSolver__Node : public ::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__Point {
+class CORDL_TYPE RootMotion__FinalIK__IKSolver__Node : public RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Point {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x70};
 
-virtual ~____RootMotion__FinalIK__IKSolver__Node() = default;
+virtual ~RootMotion__FinalIK__IKSolver__Node() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____RootMotion__FinalIK__IKSolver__Node", modifiers: " const&", def_value: None }]
-constexpr ____RootMotion__FinalIK__IKSolver__Node(____RootMotion__FinalIK__IKSolver__Node const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "RootMotion__FinalIK__IKSolver__Node", modifiers: " const&", def_value: None }]
+constexpr RootMotion__FinalIK__IKSolver__Node(RootMotion__FinalIK__IKSolver__Node const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____RootMotion__FinalIK__IKSolver__Node", modifiers: "&&", def_value: None }]
-constexpr ____RootMotion__FinalIK__IKSolver__Node(____RootMotion__FinalIK__IKSolver__Node&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "RootMotion__FinalIK__IKSolver__Node", modifiers: "&&", def_value: None }]
+constexpr RootMotion__FinalIK__IKSolver__Node(RootMotion__FinalIK__IKSolver__Node&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____RootMotion__FinalIK__IKSolver__Node(void* ptr) noexcept : ::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__Point(ptr) {
+constexpr explicit RootMotion__FinalIK__IKSolver__Node(void* ptr) noexcept : RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Point(ptr) {
 }
 
 
-  constexpr ____RootMotion__FinalIK__IKSolver__Node& operator=(std::nullptr_t) noexcept {
+  constexpr RootMotion__FinalIK__IKSolver__Node& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____RootMotion__FinalIK__IKSolver__Node& operator=(void* o) noexcept {
+  constexpr RootMotion__FinalIK__IKSolver__Node& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____RootMotion__FinalIK__IKSolver__Node& operator=(____RootMotion__FinalIK__IKSolver__Node&& o) noexcept = default;
-  constexpr ____RootMotion__FinalIK__IKSolver__Node& operator=(____RootMotion__FinalIK__IKSolver__Node const& o) noexcept = default;
+  constexpr RootMotion__FinalIK__IKSolver__Node& operator=(RootMotion__FinalIK__IKSolver__Node&& o) noexcept = default;
+  constexpr RootMotion__FinalIK__IKSolver__Node& operator=(RootMotion__FinalIK__IKSolver__Node const& o) noexcept = default;
                 
 
 
@@ -334,32 +333,32 @@ constexpr void __set_effectorRotationWeight(float_t value) ;
 
 constexpr float_t __get_effectorRotationWeight() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_offset, put=__set_offset))  offset;
+ UnityEngine::Vector3 __declspec(property(get=__get_offset, put=__set_offset))  offset;
 
-constexpr void __set_offset(::UnityEngine::Vector3 value) ;
+constexpr void __set_offset(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_offset() const;
+constexpr UnityEngine::Vector3 __get_offset() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____RootMotion__FinalIK__IKSolver__Node() ;
+explicit RootMotion__FinalIK__IKSolver__Node() ;
 
 /// @brief Method .ctor addr 0x11d4630 size 0x4 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "transform", ty: "::UnityEngine::Transform", modifiers: "", def_value: None }]
-explicit ____RootMotion__FinalIK__IKSolver__Node(::UnityEngine::Transform transform) ;
+// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
+explicit RootMotion__FinalIK__IKSolver__Node(UnityEngine::Transform transform) ;
 
 /// @brief Method .ctor addr 0x11d4634 size 0x24 virtual false final false
- void _ctor(::UnityEngine::Transform transform) ;
+ void _ctor(UnityEngine::Transform transform) ;
 
-// Ctor Parameters [CppParam { name: "transform", ty: "::UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "weight", ty: "float_t", modifiers: "", def_value: None }]
-explicit ____RootMotion__FinalIK__IKSolver__Node(::UnityEngine::Transform transform, float_t weight) ;
+// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "weight", ty: "float_t", modifiers: "", def_value: None }]
+explicit RootMotion__FinalIK__IKSolver__Node(UnityEngine::Transform transform, float_t weight) ;
 
 /// @brief Method .ctor addr 0x11d4658 size 0x34 virtual false final false
- void _ctor(::UnityEngine::Transform transform, float_t weight) ;
+ void _ctor(UnityEngine::Transform transform, float_t weight) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -371,44 +370,44 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12504))
 // CS Name: RootMotion.FinalIK.IKSolver::UpdateDelegate
-class CORDL_TYPE ____RootMotion__FinalIK__IKSolver__UpdateDelegate : public ::System::MulticastDelegate {
+class CORDL_TYPE RootMotion__FinalIK__IKSolver__UpdateDelegate : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x80};
 
-virtual ~____RootMotion__FinalIK__IKSolver__UpdateDelegate() = default;
+virtual ~RootMotion__FinalIK__IKSolver__UpdateDelegate() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____RootMotion__FinalIK__IKSolver__UpdateDelegate", modifiers: " const&", def_value: None }]
-constexpr ____RootMotion__FinalIK__IKSolver__UpdateDelegate(____RootMotion__FinalIK__IKSolver__UpdateDelegate const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "RootMotion__FinalIK__IKSolver__UpdateDelegate", modifiers: " const&", def_value: None }]
+constexpr RootMotion__FinalIK__IKSolver__UpdateDelegate(RootMotion__FinalIK__IKSolver__UpdateDelegate const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____RootMotion__FinalIK__IKSolver__UpdateDelegate", modifiers: "&&", def_value: None }]
-constexpr ____RootMotion__FinalIK__IKSolver__UpdateDelegate(____RootMotion__FinalIK__IKSolver__UpdateDelegate&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "RootMotion__FinalIK__IKSolver__UpdateDelegate", modifiers: "&&", def_value: None }]
+constexpr RootMotion__FinalIK__IKSolver__UpdateDelegate(RootMotion__FinalIK__IKSolver__UpdateDelegate&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____RootMotion__FinalIK__IKSolver__UpdateDelegate(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit RootMotion__FinalIK__IKSolver__UpdateDelegate(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
-  constexpr ____RootMotion__FinalIK__IKSolver__UpdateDelegate& operator=(std::nullptr_t) noexcept {
+  constexpr RootMotion__FinalIK__IKSolver__UpdateDelegate& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____RootMotion__FinalIK__IKSolver__UpdateDelegate& operator=(void* o) noexcept {
+  constexpr RootMotion__FinalIK__IKSolver__UpdateDelegate& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____RootMotion__FinalIK__IKSolver__UpdateDelegate& operator=(____RootMotion__FinalIK__IKSolver__UpdateDelegate&& o) noexcept = default;
-  constexpr ____RootMotion__FinalIK__IKSolver__UpdateDelegate& operator=(____RootMotion__FinalIK__IKSolver__UpdateDelegate const& o) noexcept = default;
+  constexpr RootMotion__FinalIK__IKSolver__UpdateDelegate& operator=(RootMotion__FinalIK__IKSolver__UpdateDelegate&& o) noexcept = default;
+  constexpr RootMotion__FinalIK__IKSolver__UpdateDelegate& operator=(RootMotion__FinalIK__IKSolver__UpdateDelegate const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit ____RootMotion__FinalIK__IKSolver__UpdateDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+explicit RootMotion__FinalIK__IKSolver__UpdateDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x11d468c size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -417,10 +416,10 @@ explicit ____RootMotion__FinalIK__IKSolver__UpdateDelegate(::bs_hook::Il2CppWrap
  void Invoke() ;
 
 /// @brief Method BeginInvoke addr 0x11d475c size 0x20 virtual true final false
- ::System::IAsyncResult BeginInvoke(::System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
+ System::IAsyncResult BeginInvoke(System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
 
 /// @brief Method EndInvoke addr 0x11d477c size 0xc virtual true final false
- void EndInvoke(::System::IAsyncResult result) ;
+ void EndInvoke(System::IAsyncResult result) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -432,44 +431,44 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12505))
 // CS Name: RootMotion.FinalIK.IKSolver::IterationDelegate
-class CORDL_TYPE ____RootMotion__FinalIK__IKSolver__IterationDelegate : public ::System::MulticastDelegate {
+class CORDL_TYPE RootMotion__FinalIK__IKSolver__IterationDelegate : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x80};
 
-virtual ~____RootMotion__FinalIK__IKSolver__IterationDelegate() = default;
+virtual ~RootMotion__FinalIK__IKSolver__IterationDelegate() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____RootMotion__FinalIK__IKSolver__IterationDelegate", modifiers: " const&", def_value: None }]
-constexpr ____RootMotion__FinalIK__IKSolver__IterationDelegate(____RootMotion__FinalIK__IKSolver__IterationDelegate const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "RootMotion__FinalIK__IKSolver__IterationDelegate", modifiers: " const&", def_value: None }]
+constexpr RootMotion__FinalIK__IKSolver__IterationDelegate(RootMotion__FinalIK__IKSolver__IterationDelegate const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____RootMotion__FinalIK__IKSolver__IterationDelegate", modifiers: "&&", def_value: None }]
-constexpr ____RootMotion__FinalIK__IKSolver__IterationDelegate(____RootMotion__FinalIK__IKSolver__IterationDelegate&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "RootMotion__FinalIK__IKSolver__IterationDelegate", modifiers: "&&", def_value: None }]
+constexpr RootMotion__FinalIK__IKSolver__IterationDelegate(RootMotion__FinalIK__IKSolver__IterationDelegate&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____RootMotion__FinalIK__IKSolver__IterationDelegate(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit RootMotion__FinalIK__IKSolver__IterationDelegate(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
-  constexpr ____RootMotion__FinalIK__IKSolver__IterationDelegate& operator=(std::nullptr_t) noexcept {
+  constexpr RootMotion__FinalIK__IKSolver__IterationDelegate& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____RootMotion__FinalIK__IKSolver__IterationDelegate& operator=(void* o) noexcept {
+  constexpr RootMotion__FinalIK__IKSolver__IterationDelegate& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____RootMotion__FinalIK__IKSolver__IterationDelegate& operator=(____RootMotion__FinalIK__IKSolver__IterationDelegate&& o) noexcept = default;
-  constexpr ____RootMotion__FinalIK__IKSolver__IterationDelegate& operator=(____RootMotion__FinalIK__IKSolver__IterationDelegate const& o) noexcept = default;
+  constexpr RootMotion__FinalIK__IKSolver__IterationDelegate& operator=(RootMotion__FinalIK__IKSolver__IterationDelegate&& o) noexcept = default;
+  constexpr RootMotion__FinalIK__IKSolver__IterationDelegate& operator=(RootMotion__FinalIK__IKSolver__IterationDelegate const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit ____RootMotion__FinalIK__IKSolver__IterationDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+explicit RootMotion__FinalIK__IKSolver__IterationDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x11d4788 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -478,10 +477,10 @@ explicit ____RootMotion__FinalIK__IKSolver__IterationDelegate(::bs_hook::Il2CppW
  void Invoke(int32_t i) ;
 
 /// @brief Method BeginInvoke addr 0x11d4860 size 0x84 virtual true final false
- ::System::IAsyncResult BeginInvoke(int32_t i, ::System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
+ System::IAsyncResult BeginInvoke(int32_t i, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
 
 /// @brief Method EndInvoke addr 0x11d48e4 size 0xc virtual true final false
- void EndInvoke(::System::IAsyncResult result) ;
+ void EndInvoke(System::IAsyncResult result) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -496,15 +495,15 @@ namespace RootMotion::FinalIK {
 class CORDL_TYPE IKSolver : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using IterationDelegate = ::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__IterationDelegate;
+using IterationDelegate = RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__IterationDelegate;
 
-using UpdateDelegate = ::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__UpdateDelegate;
+using UpdateDelegate = RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__UpdateDelegate;
 
-using Node = ::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__Node;
+using Node = RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Node;
 
-using Bone = ::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__Bone;
+using Bone = RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone;
 
-using Point = ::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__Point;
+using Point = RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Point;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x58};
@@ -539,11 +538,11 @@ constexpr explicit IKSolver(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(p
 
 // Fields
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_IKPosition, put=__set_IKPosition))  IKPosition;
+ UnityEngine::Vector3 __declspec(property(get=__get_IKPosition, put=__set_IKPosition))  IKPosition;
 
-constexpr void __set_IKPosition(::UnityEngine::Vector3 value) ;
+constexpr void __set_IKPosition(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_IKPosition() const;
+constexpr UnityEngine::Vector3 __get_IKPosition() const;
 
  float_t __declspec(property(get=__get_IKPositionWeight, put=__set_IKPositionWeight))  IKPositionWeight;
 
@@ -557,29 +556,29 @@ constexpr void __set__initiated_k__BackingField(bool value) ;
 
 constexpr bool __get__initiated_k__BackingField() const;
 
- ::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__UpdateDelegate __declspec(property(get=__get_OnPreInitiate, put=__set_OnPreInitiate))  OnPreInitiate;
+ RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__UpdateDelegate __declspec(property(get=__get_OnPreInitiate, put=__set_OnPreInitiate))  OnPreInitiate;
 
-constexpr void __set_OnPreInitiate(::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__UpdateDelegate value) ;
+constexpr void __set_OnPreInitiate(RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__UpdateDelegate value) ;
 
-constexpr ::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__UpdateDelegate __get_OnPreInitiate() const;
+constexpr RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__UpdateDelegate __get_OnPreInitiate() const;
 
- ::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__UpdateDelegate __declspec(property(get=__get_OnPostInitiate, put=__set_OnPostInitiate))  OnPostInitiate;
+ RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__UpdateDelegate __declspec(property(get=__get_OnPostInitiate, put=__set_OnPostInitiate))  OnPostInitiate;
 
-constexpr void __set_OnPostInitiate(::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__UpdateDelegate value) ;
+constexpr void __set_OnPostInitiate(RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__UpdateDelegate value) ;
 
-constexpr ::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__UpdateDelegate __get_OnPostInitiate() const;
+constexpr RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__UpdateDelegate __get_OnPostInitiate() const;
 
- ::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__UpdateDelegate __declspec(property(get=__get_OnPreUpdate, put=__set_OnPreUpdate))  OnPreUpdate;
+ RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__UpdateDelegate __declspec(property(get=__get_OnPreUpdate, put=__set_OnPreUpdate))  OnPreUpdate;
 
-constexpr void __set_OnPreUpdate(::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__UpdateDelegate value) ;
+constexpr void __set_OnPreUpdate(RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__UpdateDelegate value) ;
 
-constexpr ::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__UpdateDelegate __get_OnPreUpdate() const;
+constexpr RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__UpdateDelegate __get_OnPreUpdate() const;
 
- ::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__UpdateDelegate __declspec(property(get=__get_OnPostUpdate, put=__set_OnPostUpdate))  OnPostUpdate;
+ RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__UpdateDelegate __declspec(property(get=__get_OnPostUpdate, put=__set_OnPostUpdate))  OnPostUpdate;
 
-constexpr void __set_OnPostUpdate(::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__UpdateDelegate value) ;
+constexpr void __set_OnPostUpdate(RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__UpdateDelegate value) ;
 
-constexpr ::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__UpdateDelegate __get_OnPostUpdate() const;
+constexpr RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__UpdateDelegate __get_OnPostUpdate() const;
 
  bool __declspec(property(get=__get_firstInitiation, put=__set_firstInitiation))  firstInitiation;
 
@@ -587,11 +586,11 @@ constexpr void __set_firstInitiation(bool value) ;
 
 constexpr bool __get_firstInitiation() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_root, put=__set_root))  root;
+ UnityEngine::Transform __declspec(property(get=__get_root, put=__set_root))  root;
 
-constexpr void __set_root(::UnityEngine::Transform value) ;
+constexpr void __set_root(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_root() const;
+constexpr UnityEngine::Transform __get_root() const;
 
 
 // Properties
@@ -608,16 +607,16 @@ constexpr ::UnityEngine::Transform __get_root() const;
  bool IsValid(ByRef<::StringW> message) ;
 
 /// @brief Method Initiate addr 0x11d33ac size 0x170 virtual false final false
- void Initiate(::UnityEngine::Transform root) ;
+ void Initiate(UnityEngine::Transform root) ;
 
 /// @brief Method Update addr 0x11d351c size 0x70 virtual false final false
  void Update() ;
 
 /// @brief Method GetIKPosition addr 0x11d358c size 0xc virtual true final false
- ::UnityEngine::Vector3 GetIKPosition() ;
+ UnityEngine::Vector3 GetIKPosition() ;
 
 /// @brief Method SetIKPosition addr 0x11d3598 size 0xc virtual false final false
- void SetIKPosition(::UnityEngine::Vector3 position) ;
+ void SetIKPosition(UnityEngine::Vector3 position) ;
 
 /// @brief Method GetIKPositionWeight addr 0x11d35a4 size 0x8 virtual false final false
  float_t GetIKPositionWeight() ;
@@ -626,7 +625,7 @@ constexpr ::UnityEngine::Transform __get_root() const;
  void SetIKPositionWeight(float_t weight) ;
 
 /// @brief Method GetRoot addr 0x11d35c8 size 0x8 virtual false final false
- ::UnityEngine::Transform GetRoot() ;
+ UnityEngine::Transform GetRoot() ;
 
 /// @brief Method get_initiated addr 0x11d35d0 size 0x8 virtual false final false
  bool get_initiated() ;
@@ -635,10 +634,10 @@ constexpr ::UnityEngine::Transform __get_root() const;
  void set_initiated(bool value) ;
 
 /// @brief Method GetPoints addr 0x0 size 0xffffffffffffffff virtual true final false
- ::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__Point> GetPoints() ;
+ ::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Point> GetPoints() ;
 
 /// @brief Method GetPoint addr 0x0 size 0xffffffffffffffff virtual true final false
- ::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__Point GetPoint(::UnityEngine::Transform transform) ;
+ RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Point GetPoint(UnityEngine::Transform transform) ;
 
 /// @brief Method FixTransforms addr 0x0 size 0xffffffffffffffff virtual true final false
  void FixTransforms() ;
@@ -656,13 +655,13 @@ constexpr ::UnityEngine::Transform __get_root() const;
  void LogWarning(::StringW message) ;
 
 /// @brief Method ContainsDuplicateBone addr 0x11d35fc size 0x124 virtual false final false
-static ::UnityEngine::Transform ContainsDuplicateBone(::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__Bone> bones) ;
+static UnityEngine::Transform ContainsDuplicateBone(::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone> bones) ;
 
 /// @brief Method HierarchyIsValid addr 0x11d3720 size 0x98 virtual false final false
-static bool HierarchyIsValid(::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__Bone> bones) ;
+static bool HierarchyIsValid(::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone> bones) ;
 
 /// @brief Method PreSolveBones addr 0x11d37b8 size 0x1f4 virtual false final false
-static float_t PreSolveBones(ByRef<::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__Bone>> bones) ;
+static float_t PreSolveBones(ByRef<::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone>> bones) ;
 
 // Ctor Parameters []
 explicit IKSolver() ;
@@ -674,16 +673,15 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::IKSolver);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::IKSolver, "RootMotion.FinalIK", "IKSolver");
-NEED_NO_BOX(::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__Bone);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__Bone, "RootMotion.FinalIK", "IKSolver/Bone");
-NEED_NO_BOX(::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__IterationDelegate);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__IterationDelegate, "RootMotion.FinalIK", "IKSolver/IterationDelegate");
-NEED_NO_BOX(::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__Node);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__Node, "RootMotion.FinalIK", "IKSolver/Node");
-NEED_NO_BOX(::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__Point);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__Point, "RootMotion.FinalIK", "IKSolver/Point");
-NEED_NO_BOX(::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__UpdateDelegate);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__UpdateDelegate, "RootMotion.FinalIK", "IKSolver/UpdateDelegate");
+NEED_NO_BOX(RootMotion::FinalIK::IKSolver);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolver, "RootMotion.FinalIK", "IKSolver");
+NEED_NO_BOX(RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone, "RootMotion.FinalIK", "IKSolver/Bone");
+NEED_NO_BOX(RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__IterationDelegate);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__IterationDelegate, "RootMotion.FinalIK", "IKSolver/IterationDelegate");
+NEED_NO_BOX(RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Node);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Node, "RootMotion.FinalIK", "IKSolver/Node");
+NEED_NO_BOX(RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Point);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Point, "RootMotion.FinalIK", "IKSolver/Point");
+NEED_NO_BOX(RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__UpdateDelegate);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__UpdateDelegate, "RootMotion.FinalIK", "IKSolver/UpdateDelegate");

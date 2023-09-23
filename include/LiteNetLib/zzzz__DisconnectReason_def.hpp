@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace LiteNetLib {
 struct DisconnectReason;
@@ -76,41 +75,40 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field ConnectionFailed offset 0
-static ::LiteNetLib::DisconnectReason const ConnectionFailed;
+static LiteNetLib::DisconnectReason const ConnectionFailed;
 
 /// @brief Field Timeout offset 0
-static ::LiteNetLib::DisconnectReason const Timeout;
+static LiteNetLib::DisconnectReason const Timeout;
 
 /// @brief Field HostUnreachable offset 0
-static ::LiteNetLib::DisconnectReason const HostUnreachable;
+static LiteNetLib::DisconnectReason const HostUnreachable;
 
 /// @brief Field NetworkUnreachable offset 0
-static ::LiteNetLib::DisconnectReason const NetworkUnreachable;
+static LiteNetLib::DisconnectReason const NetworkUnreachable;
 
 /// @brief Field RemoteConnectionClose offset 0
-static ::LiteNetLib::DisconnectReason const RemoteConnectionClose;
+static LiteNetLib::DisconnectReason const RemoteConnectionClose;
 
 /// @brief Field DisconnectPeerCalled offset 0
-static ::LiteNetLib::DisconnectReason const DisconnectPeerCalled;
+static LiteNetLib::DisconnectReason const DisconnectPeerCalled;
 
 /// @brief Field ConnectionRejected offset 0
-static ::LiteNetLib::DisconnectReason const ConnectionRejected;
+static LiteNetLib::DisconnectReason const ConnectionRejected;
 
 /// @brief Field InvalidProtocol offset 0
-static ::LiteNetLib::DisconnectReason const InvalidProtocol;
+static LiteNetLib::DisconnectReason const InvalidProtocol;
 
 /// @brief Field UnknownHost offset 0
-static ::LiteNetLib::DisconnectReason const UnknownHost;
+static LiteNetLib::DisconnectReason const UnknownHost;
 
 /// @brief Field Reconnect offset 0
-static ::LiteNetLib::DisconnectReason const Reconnect;
+static LiteNetLib::DisconnectReason const Reconnect;
 
 /// @brief Field PeerToPeerConnection offset 0
-static ::LiteNetLib::DisconnectReason const PeerToPeerConnection;
+static LiteNetLib::DisconnectReason const PeerToPeerConnection;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::DisconnectReason, "LiteNetLib", "DisconnectReason");
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::DisconnectReason, "LiteNetLib", "DisconnectReason");

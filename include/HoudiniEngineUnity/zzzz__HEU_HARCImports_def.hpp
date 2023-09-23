@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 class HEU_HARCImports;
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_HARCImports);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_HARCImports, "HoudiniEngineUnity", "HEU_HARCImports");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_HARCImports);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_HARCImports, "HoudiniEngineUnity", "HEU_HARCImports");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
-namespace {
 namespace System {
 class Type;
 }
@@ -15,7 +14,7 @@ namespace Newtonsoft::Json::Converters {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11772))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11974))
 // CS Name: Newtonsoft.Json.Converters.DateTimeConverterBase
-class CORDL_TYPE DateTimeConverterBase : public ::Newtonsoft::Json::JsonConverter {
+class CORDL_TYPE DateTimeConverterBase : public Newtonsoft::Json::JsonConverter {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr DateTimeConverterBase(DateTimeConverterBase const& ) noexcept = defaul
 constexpr DateTimeConverterBase(DateTimeConverterBase&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DateTimeConverterBase(void* ptr) noexcept : ::Newtonsoft::Json::JsonConverter(ptr) {
+constexpr explicit DateTimeConverterBase(void* ptr) noexcept : Newtonsoft::Json::JsonConverter(ptr) {
 }
 
 
@@ -52,7 +51,7 @@ constexpr explicit DateTimeConverterBase(void* ptr) noexcept : ::Newtonsoft::Jso
 // Methods
 
 /// @brief Method CanConvert addr 0x253bc6c size 0x140 virtual true final false
- bool CanConvert(::System::Type objectType) ;
+ bool CanConvert(System::Type objectType) ;
 
 // Ctor Parameters []
 explicit DateTimeConverterBase() ;
@@ -64,6 +63,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Converters
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Converters::DateTimeConverterBase);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Converters::DateTimeConverterBase, "Newtonsoft.Json.Converters", "DateTimeConverterBase");
+NEED_NO_BOX(Newtonsoft::Json::Converters::DateTimeConverterBase);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Converters::DateTimeConverterBase, "Newtonsoft.Json.Converters", "DateTimeConverterBase");

@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace UnityEngine::ResourceManagement {
+struct UnityEngine__ResourceManagement__ResourceManager__DiagnosticEventType;
+}
 namespace UnityEngine::ResourceManagement::Diagnostics {
 struct DiagnosticEvent;
-}
-namespace UnityEngine::ResourceManagement {
-struct ____UnityEngine__ResourceManagement__ResourceManager__DiagnosticEventType;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets::Utility {
@@ -79,7 +78,7 @@ constexpr ::ArrayW<int32_t> __get_Dependencies() const;
 // Methods
 
 /// @brief Method CreateEvent addr 0x2896e00 size 0x44 virtual false final false
- ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent CreateEvent(::StringW category, ::UnityEngine::ResourceManagement::____UnityEngine__ResourceManagement__ResourceManager__DiagnosticEventType eventType, int32_t frame, int32_t val) ;
+ UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent CreateEvent(::StringW category, UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__DiagnosticEventType eventType, int32_t frame, int32_t val) ;
 
 // Ctor Parameters []
 explicit DiagnosticInfo() ;
@@ -91,6 +90,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::AddressableAssets::Utility
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AddressableAssets::Utility::DiagnosticInfo);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::Utility::DiagnosticInfo, "UnityEngine.AddressableAssets.Utility", "DiagnosticInfo");
+NEED_NO_BOX(UnityEngine::AddressableAssets::Utility::DiagnosticInfo);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Utility::DiagnosticInfo, "UnityEngine.AddressableAssets.Utility", "DiagnosticInfo");

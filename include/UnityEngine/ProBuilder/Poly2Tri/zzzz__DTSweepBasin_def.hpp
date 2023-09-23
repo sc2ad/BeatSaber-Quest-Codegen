@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class AdvancingFrontNode;
 }
@@ -52,23 +51,23 @@ constexpr explicit DTSweepBasin(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 
 // Fields
 
- ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode __declspec(property(get=__get_leftNode, put=__set_leftNode))  leftNode;
+ UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode __declspec(property(get=__get_leftNode, put=__set_leftNode))  leftNode;
 
-constexpr void __set_leftNode(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode value) ;
+constexpr void __set_leftNode(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode value) ;
 
-constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode __get_leftNode() const;
+constexpr UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode __get_leftNode() const;
 
- ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode __declspec(property(get=__get_bottomNode, put=__set_bottomNode))  bottomNode;
+ UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode __declspec(property(get=__get_bottomNode, put=__set_bottomNode))  bottomNode;
 
-constexpr void __set_bottomNode(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode value) ;
+constexpr void __set_bottomNode(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode value) ;
 
-constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode __get_bottomNode() const;
+constexpr UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode __get_bottomNode() const;
 
- ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode __declspec(property(get=__get_rightNode, put=__set_rightNode))  rightNode;
+ UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode __declspec(property(get=__get_rightNode, put=__set_rightNode))  rightNode;
 
-constexpr void __set_rightNode(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode value) ;
+constexpr void __set_rightNode(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode value) ;
 
-constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode __get_rightNode() const;
+constexpr UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode __get_rightNode() const;
 
  double_t __declspec(property(get=__get_width, put=__set_width))  width;
 
@@ -95,6 +94,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder::Poly2Tri
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin, "UnityEngine.ProBuilder.Poly2Tri", "DTSweepBasin");
+NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin, "UnityEngine.ProBuilder.Poly2Tri", "DTSweepBasin");

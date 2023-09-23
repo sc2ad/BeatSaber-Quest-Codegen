@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
-class IStreamCipher;
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class IBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IStreamCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto {
@@ -27,8 +26,8 @@ namespace Org::BouncyCastle::Crypto {
 class CORDL_TYPE StreamBlockCipher : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IStreamCipher
-constexpr operator  ::Org::BouncyCastle::Crypto::IStreamCipher() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IStreamCipher
+constexpr operator  Org::BouncyCastle::Crypto::IStreamCipher() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -63,11 +62,11 @@ constexpr explicit StreamBlockCipher(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 
 // Fields
 
- ::Org::BouncyCastle::Crypto::IBlockCipher __declspec(property(get=__get_cipher, put=__set_cipher))  cipher;
+ Org::BouncyCastle::Crypto::IBlockCipher __declspec(property(get=__get_cipher, put=__set_cipher))  cipher;
 
-constexpr void __set_cipher(::Org::BouncyCastle::Crypto::IBlockCipher value) ;
+constexpr void __set_cipher(Org::BouncyCastle::Crypto::IBlockCipher value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IBlockCipher __get_cipher() const;
+constexpr Org::BouncyCastle::Crypto::IBlockCipher __get_cipher() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get_oneByte, put=__set_oneByte))  oneByte;
 
@@ -83,14 +82,14 @@ constexpr ::ArrayW<uint8_t> __get_oneByte() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "::Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
-explicit StreamBlockCipher(::Org::BouncyCastle::Crypto::IBlockCipher cipher) ;
+// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
+explicit StreamBlockCipher(Org::BouncyCastle::Crypto::IBlockCipher cipher) ;
 
 /// @brief Method .ctor addr 0xf38ee4 size 0x180 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher cipher) ;
+ void _ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher) ;
 
 /// @brief Method Init addr 0xf39064 size 0xbc virtual true final true
- void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method get_AlgorithmName addr 0xf39120 size 0xa0 virtual true final true
  ::StringW get_AlgorithmName() ;
@@ -108,6 +107,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::StreamBlockCipher);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::StreamBlockCipher, "Org.BouncyCastle.Crypto", "StreamBlockCipher");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::StreamBlockCipher);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::StreamBlockCipher, "Org.BouncyCastle.Crypto", "StreamBlockCipher");

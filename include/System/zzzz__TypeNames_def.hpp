@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 class IEquatable_1;
@@ -13,10 +12,10 @@ class TypeName;
 }
 // Forward declare root types
 namespace System {
-class TypeNames;
+class System__TypeNames__ATypeName;
 }
 namespace System {
-class ____System__TypeNames__ATypeName;
+class TypeNames;
 }
 // Type: ::ATypeName
 namespace System {
@@ -24,43 +23,43 @@ namespace System {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2628))
 // CS Name: System.TypeNames::ATypeName
-class CORDL_TYPE ____System__TypeNames__ATypeName : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__TypeNames__ATypeName : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::TypeName
-constexpr operator  ::System::TypeName() const noexcept;
+/// @brief Convert operator to System::TypeName
+constexpr operator  System::TypeName() const noexcept;
 
-/// @brief Convert operator to ::System::IEquatable_1<::System::TypeName>
-constexpr operator  ::System::IEquatable_1<::System::TypeName>() const noexcept;
+/// @brief Convert operator to System::IEquatable_1<System::TypeName>
+constexpr operator  System::IEquatable_1<System::TypeName>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____System__TypeNames__ATypeName() = default;
+virtual ~System__TypeNames__ATypeName() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__TypeNames__ATypeName", modifiers: " const&", def_value: None }]
-constexpr ____System__TypeNames__ATypeName(____System__TypeNames__ATypeName const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__TypeNames__ATypeName", modifiers: " const&", def_value: None }]
+constexpr System__TypeNames__ATypeName(System__TypeNames__ATypeName const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__TypeNames__ATypeName", modifiers: "&&", def_value: None }]
-constexpr ____System__TypeNames__ATypeName(____System__TypeNames__ATypeName&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__TypeNames__ATypeName", modifiers: "&&", def_value: None }]
+constexpr System__TypeNames__ATypeName(System__TypeNames__ATypeName&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__TypeNames__ATypeName(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__TypeNames__ATypeName(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__TypeNames__ATypeName& operator=(std::nullptr_t) noexcept {
+  constexpr System__TypeNames__ATypeName& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__TypeNames__ATypeName& operator=(void* o) noexcept {
+  constexpr System__TypeNames__ATypeName& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__TypeNames__ATypeName& operator=(____System__TypeNames__ATypeName&& o) noexcept = default;
-  constexpr ____System__TypeNames__ATypeName& operator=(____System__TypeNames__ATypeName const& o) noexcept = default;
+  constexpr System__TypeNames__ATypeName& operator=(System__TypeNames__ATypeName&& o) noexcept = default;
+  constexpr System__TypeNames__ATypeName& operator=(System__TypeNames__ATypeName const& o) noexcept = default;
                 
 
 
@@ -75,7 +74,7 @@ constexpr explicit ____System__TypeNames__ATypeName(void* ptr) noexcept : ::bs_h
  ::StringW get_DisplayName() ;
 
 /// @brief Method Equals addr 0x24982c8 size 0xd0 virtual true final true
- bool Equals(::System::TypeName other) ;
+ bool Equals(System::TypeName other) ;
 
 /// @brief Method GetHashCode addr 0x2498398 size 0x28 virtual true final false
  int32_t GetHashCode() ;
@@ -84,7 +83,7 @@ constexpr explicit ____System__TypeNames__ATypeName(void* ptr) noexcept : ::bs_h
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
 
 // Ctor Parameters []
-explicit ____System__TypeNames__ATypeName() ;
+explicit System__TypeNames__ATypeName() ;
 
 /// @brief Method .ctor addr 0x2498420 size 0x4 virtual false final false
  void _ctor() ;
@@ -102,7 +101,7 @@ namespace System {
 class CORDL_TYPE TypeNames : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using ATypeName = ::System::____System__TypeNames__ATypeName;
+using ATypeName = System::System__TypeNames__ATypeName;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -138,8 +137,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::TypeNames);
-DEFINE_IL2CPP_ARG_TYPE(::System::TypeNames, "System", "TypeNames");
-NEED_NO_BOX(::System::____System__TypeNames__ATypeName);
-DEFINE_IL2CPP_ARG_TYPE(::System::____System__TypeNames__ATypeName, "System", "TypeNames/ATypeName");
+NEED_NO_BOX(System::System__TypeNames__ATypeName);
+DEFINE_IL2CPP_ARG_TYPE(System::System__TypeNames__ATypeName, "System", "TypeNames/ATypeName");
+NEED_NO_BOX(System::TypeNames);
+DEFINE_IL2CPP_ARG_TYPE(System::TypeNames, "System", "TypeNames");

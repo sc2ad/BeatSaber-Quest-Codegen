@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4087))
 // CS Name: HeadBodyOffsetSO
-class CORDL_TYPE HeadBodyOffsetSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE HeadBodyOffsetSO : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr HeadBodyOffsetSO(HeadBodyOffsetSO const& ) noexcept = default;
 constexpr HeadBodyOffsetSO(HeadBodyOffsetSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HeadBodyOffsetSO(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit HeadBodyOffsetSO(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -52,11 +51,11 @@ constexpr explicit HeadBodyOffsetSO(void* ptr) noexcept : ::GlobalNamespace::Per
 
 // Fields
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__headNeckOffset, put=__set__headNeckOffset))  _headNeckOffset;
+ UnityEngine::Vector3 __declspec(property(get=__get__headNeckOffset, put=__set__headNeckOffset))  _headNeckOffset;
 
-constexpr void __set__headNeckOffset(::UnityEngine::Vector3 value) ;
+constexpr void __set__headNeckOffset(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__headNeckOffset() const;
+constexpr UnityEngine::Vector3 __get__headNeckOffset() const;
 
  float_t __declspec(property(get=__get__verticalOffset, put=__set__verticalOffset))  _verticalOffset;
 
@@ -67,7 +66,7 @@ constexpr float_t __get__verticalOffset() const;
 
 // Properties
 
- ::UnityEngine::Vector3 __declspec(property(get=get_headNeckOffset))  headNeckOffset;
+ UnityEngine::Vector3 __declspec(property(get=get_headNeckOffset))  headNeckOffset;
 
  float_t __declspec(property(get=get_verticalOffset))  verticalOffset;
 
@@ -75,7 +74,7 @@ constexpr float_t __get__verticalOffset() const;
 // Methods
 
 /// @brief Method get_headNeckOffset addr 0x20c2f6c size 0xc virtual false final false
- ::UnityEngine::Vector3 get_headNeckOffset() ;
+ UnityEngine::Vector3 get_headNeckOffset() ;
 
 /// @brief Method get_verticalOffset addr 0x20c2f78 size 0x8 virtual false final false
  float_t get_verticalOffset() ;
@@ -90,6 +89,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::HeadBodyOffsetSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::HeadBodyOffsetSO, "", "HeadBodyOffsetSO");
+NEED_NO_BOX(GlobalNamespace::HeadBodyOffsetSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HeadBodyOffsetSO, "", "HeadBodyOffsetSO");

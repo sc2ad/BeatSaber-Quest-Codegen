@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
 }
@@ -20,7 +19,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4268))
 // CS Name: BeatmapCharacteristicCollectionSO
-class CORDL_TYPE BeatmapCharacteristicCollectionSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE BeatmapCharacteristicCollectionSO : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr BeatmapCharacteristicCollectionSO(BeatmapCharacteristicCollectionSO co
 constexpr BeatmapCharacteristicCollectionSO(BeatmapCharacteristicCollectionSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BeatmapCharacteristicCollectionSO(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit BeatmapCharacteristicCollectionSO(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -56,22 +55,22 @@ constexpr explicit BeatmapCharacteristicCollectionSO(void* ptr) noexcept : ::Glo
 
 // Fields
 
- ::ArrayW<::GlobalNamespace::BeatmapCharacteristicSO> __declspec(property(get=__get__beatmapCharacteristics, put=__set__beatmapCharacteristics))  _beatmapCharacteristics;
+ ::ArrayW<GlobalNamespace::BeatmapCharacteristicSO> __declspec(property(get=__get__beatmapCharacteristics, put=__set__beatmapCharacteristics))  _beatmapCharacteristics;
 
-constexpr void __set__beatmapCharacteristics(::ArrayW<::GlobalNamespace::BeatmapCharacteristicSO> value) ;
+constexpr void __set__beatmapCharacteristics(::ArrayW<GlobalNamespace::BeatmapCharacteristicSO> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::BeatmapCharacteristicSO> __get__beatmapCharacteristics() const;
+constexpr ::ArrayW<GlobalNamespace::BeatmapCharacteristicSO> __get__beatmapCharacteristics() const;
 
 
 // Properties
 
- ::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapCharacteristicSO> __declspec(property(get=get_allBeatmapCharacteristics))  allBeatmapCharacteristics;
+ System::Collections::Generic::IReadOnlyCollection_1<GlobalNamespace::BeatmapCharacteristicSO> __declspec(property(get=get_allBeatmapCharacteristics))  allBeatmapCharacteristics;
 
 
 // Methods
 
 /// @brief Method get_allBeatmapCharacteristics addr 0x21c96d8 size 0x8 virtual false final false
- ::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapCharacteristicSO> get_allBeatmapCharacteristics() ;
+ System::Collections::Generic::IReadOnlyCollection_1<GlobalNamespace::BeatmapCharacteristicSO> get_allBeatmapCharacteristics() ;
 
 // Ctor Parameters []
 explicit BeatmapCharacteristicCollectionSO() ;
@@ -83,6 +82,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BeatmapCharacteristicCollectionSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapCharacteristicCollectionSO, "", "BeatmapCharacteristicCollectionSO");
+NEED_NO_BOX(GlobalNamespace::BeatmapCharacteristicCollectionSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicCollectionSO, "", "BeatmapCharacteristicCollectionSO");

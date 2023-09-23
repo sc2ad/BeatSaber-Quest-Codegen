@@ -2,12 +2,8 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections {
 class ICollection;
-}
-namespace System::Collections {
-class IDictionary;
 }
 namespace Org::BouncyCastle::Cms {
 class RecipientID;
@@ -17,6 +13,9 @@ class RecipientInformation;
 }
 namespace System::Collections {
 class IList;
+}
+namespace System::Collections {
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -64,53 +63,52 @@ constexpr explicit RecipientInformationStore(void* ptr) noexcept : ::bs_hook::Il
 
 // Fields
 
- ::System::Collections::IList __declspec(property(get=__get_all, put=__set_all))  all;
+ System::Collections::IList __declspec(property(get=__get_all, put=__set_all))  all;
 
-constexpr void __set_all(::System::Collections::IList value) ;
+constexpr void __set_all(System::Collections::IList value) ;
 
-constexpr ::System::Collections::IList __get_all() const;
+constexpr System::Collections::IList __get_all() const;
 
- ::System::Collections::IDictionary __declspec(property(get=__get_table, put=__set_table))  table;
+ System::Collections::IDictionary __declspec(property(get=__get_table, put=__set_table))  table;
 
-constexpr void __set_table(::System::Collections::IDictionary value) ;
+constexpr void __set_table(System::Collections::IDictionary value) ;
 
-constexpr ::System::Collections::IDictionary __get_table() const;
+constexpr System::Collections::IDictionary __get_table() const;
 
 
 // Properties
 
- ::Org::BouncyCastle::Cms::RecipientInformation __declspec(property(get=get_Item))  Item;
+ Org::BouncyCastle::Cms::RecipientInformation __declspec(property(get=get_Item))  Item;
 
  int32_t __declspec(property(get=get_Count))  Count;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "recipientInfos", ty: "::System::Collections::ICollection", modifiers: "", def_value: None }]
-explicit RecipientInformationStore(::System::Collections::ICollection recipientInfos) ;
+// Ctor Parameters [CppParam { name: "recipientInfos", ty: "System::Collections::ICollection", modifiers: "", def_value: None }]
+explicit RecipientInformationStore(System::Collections::ICollection recipientInfos) ;
 
 /// @brief Method .ctor addr 0x1157fa4 size 0x5a8 virtual false final false
- void _ctor(::System::Collections::ICollection recipientInfos) ;
+ void _ctor(System::Collections::ICollection recipientInfos) ;
 
 /// @brief Method get_Item addr 0x117d48c size 0x4 virtual false final false
- ::Org::BouncyCastle::Cms::RecipientInformation get_Item(::Org::BouncyCastle::Cms::RecipientID selector) ;
+ Org::BouncyCastle::Cms::RecipientInformation get_Item(Org::BouncyCastle::Cms::RecipientID selector) ;
 
 /// @brief Method GetFirstRecipient addr 0x117d490 size 0x190 virtual false final false
- ::Org::BouncyCastle::Cms::RecipientInformation GetFirstRecipient(::Org::BouncyCastle::Cms::RecipientID selector) ;
+ Org::BouncyCastle::Cms::RecipientInformation GetFirstRecipient(Org::BouncyCastle::Cms::RecipientID selector) ;
 
 /// @brief Method get_Count addr 0x117d620 size 0xa4 virtual false final false
  int32_t get_Count() ;
 
 /// @brief Method GetRecipients addr 0x117d6c4 size 0x5c virtual false final false
- ::System::Collections::ICollection GetRecipients() ;
+ System::Collections::ICollection GetRecipients() ;
 
 /// @brief Method GetRecipients addr 0x117d720 size 0x130 virtual false final false
- ::System::Collections::ICollection GetRecipients(::Org::BouncyCastle::Cms::RecipientID selector) ;
+ System::Collections::ICollection GetRecipients(Org::BouncyCastle::Cms::RecipientID selector) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Cms
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Cms::RecipientInformationStore);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::RecipientInformationStore, "Org.BouncyCastle.Cms", "RecipientInformationStore");
+NEED_NO_BOX(Org::BouncyCastle::Cms::RecipientInformationStore);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Cms::RecipientInformationStore, "Org.BouncyCastle.Cms", "RecipientInformationStore");

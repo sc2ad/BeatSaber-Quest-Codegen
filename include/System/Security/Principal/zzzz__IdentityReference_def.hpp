@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class Type;
 }
@@ -77,15 +76,14 @@ explicit IdentityReference() ;
  ::StringW ToString() ;
 
 /// @brief Method Translate addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Security::Principal::IdentityReference Translate(::System::Type targetType) ;
+ System::Security::Principal::IdentityReference Translate(System::Type targetType) ;
 
 /// @brief Method op_Equality addr 0x230bbf0 size 0x68 virtual false final false
-static bool op_Equality(::System::Security::Principal::IdentityReference left, ::System::Security::Principal::IdentityReference right) ;
+static bool op_Equality(System::Security::Principal::IdentityReference left, System::Security::Principal::IdentityReference right) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Principal
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Principal::IdentityReference);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Principal::IdentityReference, "System.Security.Principal", "IdentityReference");
+NEED_NO_BOX(System::Security::Principal::IdentityReference);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::IdentityReference, "System.Security.Principal", "IdentityReference");

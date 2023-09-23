@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine::Playables {
 struct Playable;
 }
@@ -53,12 +52,11 @@ constexpr explicit WeightUtility(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 // Methods
 
 /// @brief Method NormalizeMixer addr 0x2adbaf8 size 0x1188 virtual false final false
-static float_t NormalizeMixer(::UnityEngine::Playables::Playable mixer) ;
+static float_t NormalizeMixer(UnityEngine::Playables::Playable mixer) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Timeline::WeightUtility);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::WeightUtility, "UnityEngine.Timeline", "WeightUtility");
+NEED_NO_BOX(UnityEngine::Timeline::WeightUtility);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::WeightUtility, "UnityEngine.Timeline", "WeightUtility");

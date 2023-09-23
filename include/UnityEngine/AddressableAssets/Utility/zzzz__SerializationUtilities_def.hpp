@@ -4,14 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets::Utility {
-struct ____UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType;
+struct UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType;
 }
 namespace UnityEngine::AddressableAssets::Utility {
 class SerializationUtilities;
@@ -22,20 +21,20 @@ namespace UnityEngine::AddressableAssets::Utility {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14383))
 // CS Name: UnityEngine.AddressableAssets.Utility.SerializationUtilities::ObjectType
-struct CORDL_TYPE ____UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType(int32_t value__) noexcept;
+constexpr UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType(____UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType const&) = default;
-                    constexpr ____UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType(____UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType&&) = default;
-                    constexpr ____UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType& operator=(____UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType const& o) {
+                    constexpr UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType(UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType const&) = default;
+                    constexpr UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType(UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType&&) = default;
+                    constexpr UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType& operator=(UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType& operator=(____UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType&& o) noexcept {
+                    constexpr UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType& operator=(UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -48,7 +47,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -56,7 +55,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType_Unwrapped : int32_t {
+enum class __UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType_Unwrapped : int32_t {
 __AsciiString = 0,
 __UnicodeString = 1,
 __UInt16 = 2,
@@ -68,8 +67,8 @@ __JsonObject = 7,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType_Unwrapped>(__instance);
+constexpr operator __UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType_Unwrapped>(__instance);
 }
 
 
@@ -82,28 +81,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field AsciiString offset 0
-static ::UnityEngine::AddressableAssets::Utility::____UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType const AsciiString;
+static UnityEngine::AddressableAssets::Utility::UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType const AsciiString;
 
 /// @brief Field UnicodeString offset 0
-static ::UnityEngine::AddressableAssets::Utility::____UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType const UnicodeString;
+static UnityEngine::AddressableAssets::Utility::UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType const UnicodeString;
 
 /// @brief Field UInt16 offset 0
-static ::UnityEngine::AddressableAssets::Utility::____UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType const UInt16;
+static UnityEngine::AddressableAssets::Utility::UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType const UInt16;
 
 /// @brief Field UInt32 offset 0
-static ::UnityEngine::AddressableAssets::Utility::____UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType const UInt32;
+static UnityEngine::AddressableAssets::Utility::UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType const UInt32;
 
 /// @brief Field Int32 offset 0
-static ::UnityEngine::AddressableAssets::Utility::____UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType const Int32;
+static UnityEngine::AddressableAssets::Utility::UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType const Int32;
 
 /// @brief Field Hash128 offset 0
-static ::UnityEngine::AddressableAssets::Utility::____UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType const Hash128;
+static UnityEngine::AddressableAssets::Utility::UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType const Hash128;
 
 /// @brief Field Type offset 0
-static ::UnityEngine::AddressableAssets::Utility::____UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType const Type;
+static UnityEngine::AddressableAssets::Utility::UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType const Type;
 
 /// @brief Field JsonObject offset 0
-static ::UnityEngine::AddressableAssets::Utility::____UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType const JsonObject;
+static UnityEngine::AddressableAssets::Utility::UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType const JsonObject;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -118,7 +117,7 @@ namespace UnityEngine::AddressableAssets::Utility {
 class CORDL_TYPE SerializationUtilities : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using ObjectType = ::UnityEngine::AddressableAssets::Utility::____UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType;
+using ObjectType = UnityEngine::AddressableAssets::Utility::UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -163,13 +162,12 @@ static int32_t WriteInt32ToByteArray(::ArrayW<uint8_t> data, int32_t val, int32_
 static ::bs_hook::Il2CppWrapperType ReadObjectFromByteArray(::ArrayW<uint8_t> keyData, int32_t dataIndex) ;
 
 /// @brief Method WriteObjectToByteList addr 0x2898284 size 0xb60 virtual false final false
-static int32_t WriteObjectToByteList(::bs_hook::Il2CppWrapperType obj, ::System::Collections::Generic::List_1<uint8_t> buffer) ;
+static int32_t WriteObjectToByteList(::bs_hook::Il2CppWrapperType obj, System::Collections::Generic::List_1<uint8_t> buffer) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::AddressableAssets::Utility
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::Utility::____UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType, "UnityEngine.AddressableAssets.Utility", "SerializationUtilities/ObjectType");
-NEED_NO_BOX(::UnityEngine::AddressableAssets::Utility::SerializationUtilities);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::Utility::SerializationUtilities, "UnityEngine.AddressableAssets.Utility", "SerializationUtilities");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Utility::UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType, "UnityEngine.AddressableAssets.Utility", "SerializationUtilities/ObjectType");
+NEED_NO_BOX(UnityEngine::AddressableAssets::Utility::SerializationUtilities);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Utility::SerializationUtilities, "UnityEngine.AddressableAssets.Utility", "SerializationUtilities");

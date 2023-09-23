@@ -3,51 +3,50 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class IDisposable;
+}
+namespace GlobalNamespace {
+class IMultiplayerSpectatingSpot;
+}
 namespace GlobalNamespace {
 class MultiplayerSpectatingSpotManager;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__MultiplayerController__State;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace GlobalNamespace {
-class IMultiplayerSpectatingSpot;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__MultiplayerController__State;
-}
-namespace GlobalNamespace {
-class MultiplayerLocalInactivePlayerSongSyncController;
-}
-namespace UnityEngine {
-class Transform;
+class MultiplayerController;
 }
 namespace GlobalNamespace {
 class FadeInOutController;
 }
-namespace System::Collections {
-class IEnumerator;
-}
 namespace GlobalNamespace {
-class MultiplayerController;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
+class MultiplayerLocalInactivePlayerSongSyncController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17;
+}
+namespace GlobalNamespace {
 class MultiplayerSpectatorController;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17;
 }
 // Type: ::<SwitchToDefaultSpotWithFadeCoroutine>d__17
 namespace GlobalNamespace {
@@ -55,46 +54,46 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5353))
 // CS Name: MultiplayerSpectatorController::<SwitchToDefaultSpotWithFadeCoroutine>d__17
-class CORDL_TYPE ____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17() = default;
+virtual ~GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17(____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17(GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17(____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17(GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17& operator=(____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17&& o) noexcept = default;
-  constexpr ____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17& operator=(____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17 const& o) noexcept = default;
+  constexpr GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17& operator=(GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17&& o) noexcept = default;
+  constexpr GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17& operator=(GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17 const& o) noexcept = default;
                 
 
 
@@ -112,17 +111,17 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::GlobalNamespace::MultiplayerSpectatorController __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::MultiplayerSpectatorController __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::MultiplayerSpectatorController value) ;
+constexpr void __set___4__this(GlobalNamespace::MultiplayerSpectatorController value) ;
 
-constexpr ::GlobalNamespace::MultiplayerSpectatorController __get___4__this() const;
+constexpr GlobalNamespace::MultiplayerSpectatorController __get___4__this() const;
 
- ::GlobalNamespace::IMultiplayerSpectatingSpot __declspec(property(get=__get__defaultSpot_5__2, put=__set__defaultSpot_5__2))  _defaultSpot_5__2;
+ GlobalNamespace::IMultiplayerSpectatingSpot __declspec(property(get=__get__defaultSpot_5__2, put=__set__defaultSpot_5__2))  _defaultSpot_5__2;
 
-constexpr void __set__defaultSpot_5__2(::GlobalNamespace::IMultiplayerSpectatingSpot value) ;
+constexpr void __set__defaultSpot_5__2(GlobalNamespace::IMultiplayerSpectatingSpot value) ;
 
-constexpr ::GlobalNamespace::IMultiplayerSpectatingSpot __get__defaultSpot_5__2() const;
+constexpr GlobalNamespace::IMultiplayerSpectatingSpot __get__defaultSpot_5__2() const;
 
 
 // Properties
@@ -135,7 +134,7 @@ constexpr ::GlobalNamespace::IMultiplayerSpectatingSpot __get__defaultSpot_5__2(
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17(int32_t __1__state) ;
+explicit GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2106fbc size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -165,46 +164,46 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5354))
 // CS Name: MultiplayerSpectatorController::<SwitchToDefaultSpotCoroutine>d__18
-class CORDL_TYPE ____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18() = default;
+virtual ~GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18(____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18(GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18(____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18(GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18& operator=(____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18&& o) noexcept = default;
-  constexpr ____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18& operator=(____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18 const& o) noexcept = default;
+  constexpr GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18& operator=(GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18&& o) noexcept = default;
+  constexpr GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18& operator=(GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18 const& o) noexcept = default;
                 
 
 
@@ -222,11 +221,11 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::GlobalNamespace::MultiplayerSpectatorController __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::MultiplayerSpectatorController __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::MultiplayerSpectatorController value) ;
+constexpr void __set___4__this(GlobalNamespace::MultiplayerSpectatorController value) ;
 
-constexpr ::GlobalNamespace::MultiplayerSpectatorController __get___4__this() const;
+constexpr GlobalNamespace::MultiplayerSpectatorController __get___4__this() const;
 
 
 // Properties
@@ -239,7 +238,7 @@ constexpr ::GlobalNamespace::MultiplayerSpectatorController __get___4__this() co
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18(int32_t __1__state) ;
+explicit GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2106fe4 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -269,12 +268,12 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5355))
 // CS Name: MultiplayerSpectatorController
-class CORDL_TYPE MultiplayerSpectatorController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerSpectatorController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using _SwitchToDefaultSpotCoroutine_d__18 = ::GlobalNamespace::____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18;
+using _SwitchToDefaultSpotCoroutine_d__18 = GlobalNamespace::GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18;
 
-using _SwitchToDefaultSpotWithFadeCoroutine_d__17 = ::GlobalNamespace::____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17;
+using _SwitchToDefaultSpotWithFadeCoroutine_d__17 = GlobalNamespace::GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x50};
@@ -288,7 +287,7 @@ constexpr MultiplayerSpectatorController(MultiplayerSpectatorController const& )
 constexpr MultiplayerSpectatorController(MultiplayerSpectatorController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerSpectatorController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerSpectatorController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -309,64 +308,64 @@ constexpr explicit MultiplayerSpectatorController(void* ptr) noexcept : ::UnityE
 
 // Fields
 
- ::GlobalNamespace::MultiplayerSpectatingSpotManager __declspec(property(get=__get__spotManager, put=__set__spotManager))  _spotManager;
+ GlobalNamespace::MultiplayerSpectatingSpotManager __declspec(property(get=__get__spotManager, put=__set__spotManager))  _spotManager;
 
-constexpr void __set__spotManager(::GlobalNamespace::MultiplayerSpectatingSpotManager value) ;
+constexpr void __set__spotManager(GlobalNamespace::MultiplayerSpectatingSpotManager value) ;
 
-constexpr ::GlobalNamespace::MultiplayerSpectatingSpotManager __get__spotManager() const;
+constexpr GlobalNamespace::MultiplayerSpectatingSpotManager __get__spotManager() const;
 
- ::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController __declspec(property(get=__get__songController, put=__set__songController))  _songController;
+ GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController __declspec(property(get=__get__songController, put=__set__songController))  _songController;
 
-constexpr void __set__songController(::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController value) ;
+constexpr void __set__songController(GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController value) ;
 
-constexpr ::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController __get__songController() const;
+constexpr GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController __get__songController() const;
 
- ::GlobalNamespace::MultiplayerController __declspec(property(get=__get__multiplayerController, put=__set__multiplayerController))  _multiplayerController;
+ GlobalNamespace::MultiplayerController __declspec(property(get=__get__multiplayerController, put=__set__multiplayerController))  _multiplayerController;
 
-constexpr void __set__multiplayerController(::GlobalNamespace::MultiplayerController value) ;
+constexpr void __set__multiplayerController(GlobalNamespace::MultiplayerController value) ;
 
-constexpr ::GlobalNamespace::MultiplayerController __get__multiplayerController() const;
+constexpr GlobalNamespace::MultiplayerController __get__multiplayerController() const;
 
- ::GlobalNamespace::FadeInOutController __declspec(property(get=__get__fadeInOutController, put=__set__fadeInOutController))  _fadeInOutController;
+ GlobalNamespace::FadeInOutController __declspec(property(get=__get__fadeInOutController, put=__set__fadeInOutController))  _fadeInOutController;
 
-constexpr void __set__fadeInOutController(::GlobalNamespace::FadeInOutController value) ;
+constexpr void __set__fadeInOutController(GlobalNamespace::FadeInOutController value) ;
 
-constexpr ::GlobalNamespace::FadeInOutController __get__fadeInOutController() const;
+constexpr GlobalNamespace::FadeInOutController __get__fadeInOutController() const;
 
- ::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot> __declspec(property(get=__get_spectatingSpotDidChangeEvent, put=__set_spectatingSpotDidChangeEvent))  spectatingSpotDidChangeEvent;
+ System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot> __declspec(property(get=__get_spectatingSpotDidChangeEvent, put=__set_spectatingSpotDidChangeEvent))  spectatingSpotDidChangeEvent;
 
-constexpr void __set_spectatingSpotDidChangeEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot> value) ;
+constexpr void __set_spectatingSpotDidChangeEvent(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot> value) ;
 
-constexpr ::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot> __get_spectatingSpotDidChangeEvent() const;
+constexpr System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot> __get_spectatingSpotDidChangeEvent() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
+ UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
 
-constexpr void __set__transform(::UnityEngine::Transform value) ;
+constexpr void __set__transform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__transform() const;
+constexpr UnityEngine::Transform __get__transform() const;
 
- ::GlobalNamespace::IMultiplayerSpectatingSpot __declspec(property(get=__get__currentSpot, put=__set__currentSpot))  _currentSpot;
+ GlobalNamespace::IMultiplayerSpectatingSpot __declspec(property(get=__get__currentSpot, put=__set__currentSpot))  _currentSpot;
 
-constexpr void __set__currentSpot(::GlobalNamespace::IMultiplayerSpectatingSpot value) ;
+constexpr void __set__currentSpot(GlobalNamespace::IMultiplayerSpectatingSpot value) ;
 
-constexpr ::GlobalNamespace::IMultiplayerSpectatingSpot __get__currentSpot() const;
+constexpr GlobalNamespace::IMultiplayerSpectatingSpot __get__currentSpot() const;
 
 
 // Properties
 
- ::GlobalNamespace::IMultiplayerSpectatingSpot __declspec(property(get=get_currentSpot))  currentSpot;
+ GlobalNamespace::IMultiplayerSpectatingSpot __declspec(property(get=get_currentSpot))  currentSpot;
 
 
 // Methods
 
 /// @brief Method add_spectatingSpotDidChangeEvent addr 0x210692c size 0xb0 virtual false final false
- void add_spectatingSpotDidChangeEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot> value) ;
+ void add_spectatingSpotDidChangeEvent(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot> value) ;
 
 /// @brief Method remove_spectatingSpotDidChangeEvent addr 0x21069dc size 0xb0 virtual false final false
- void remove_spectatingSpotDidChangeEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot> value) ;
+ void remove_spectatingSpotDidChangeEvent(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot> value) ;
 
 /// @brief Method get_currentSpot addr 0x2106a8c size 0x8 virtual false final false
- ::GlobalNamespace::IMultiplayerSpectatingSpot get_currentSpot() ;
+ GlobalNamespace::IMultiplayerSpectatingSpot get_currentSpot() ;
 
 /// @brief Method Awake addr 0x2106a94 size 0x1c virtual false final false
  void Awake() ;
@@ -387,16 +386,16 @@ constexpr ::GlobalNamespace::IMultiplayerSpectatingSpot __get__currentSpot() con
  void SwitchToNext() ;
 
 /// @brief Method SwitchToDefaultSpotWithFadeCoroutine addr 0x2106f54 size 0x68 virtual false final false
- ::System::Collections::IEnumerator SwitchToDefaultSpotWithFadeCoroutine() ;
+ System::Collections::IEnumerator SwitchToDefaultSpotWithFadeCoroutine() ;
 
 /// @brief Method SwitchToDefaultSpotCoroutine addr 0x2106c30 size 0x68 virtual false final false
- ::System::Collections::IEnumerator SwitchToDefaultSpotCoroutine() ;
+ System::Collections::IEnumerator SwitchToDefaultSpotCoroutine() ;
 
 /// @brief Method SwitchToSpectatingSpot addr 0x2106cd4 size 0x244 virtual false final false
- void SwitchToSpectatingSpot(::GlobalNamespace::IMultiplayerSpectatingSpot spectatingSpot) ;
+ void SwitchToSpectatingSpot(GlobalNamespace::IMultiplayerSpectatingSpot spectatingSpot) ;
 
 /// @brief Method HandleStateChanged addr 0x210700c size 0x2c virtual false final false
- void HandleStateChanged(::GlobalNamespace::____GlobalNamespace__MultiplayerController__State state) ;
+ void HandleStateChanged(GlobalNamespace::GlobalNamespace__MultiplayerController__State state) ;
 
 // Ctor Parameters []
 explicit MultiplayerSpectatorController() ;
@@ -408,10 +407,9 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerSpectatorController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerSpectatorController, "", "MultiplayerSpectatorController");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18, "", "MultiplayerSpectatorController/<SwitchToDefaultSpotCoroutine>d__18");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17, "", "MultiplayerSpectatorController/<SwitchToDefaultSpotWithFadeCoroutine>d__17");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18, "", "MultiplayerSpectatorController/<SwitchToDefaultSpotCoroutine>d__18");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17, "", "MultiplayerSpectatorController/<SwitchToDefaultSpotWithFadeCoroutine>d__17");
+NEED_NO_BOX(GlobalNamespace::MultiplayerSpectatorController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSpectatorController, "", "MultiplayerSpectatorController");

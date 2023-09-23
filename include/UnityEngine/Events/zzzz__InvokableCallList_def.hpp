@@ -1,16 +1,15 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
+namespace UnityEngine::Events {
+class BaseInvokableCall;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace System::Reflection {
 class MethodInfo;
-}
-namespace UnityEngine::Events {
-class BaseInvokableCall;
 }
 // Forward declare root types
 namespace UnityEngine::Events {
@@ -58,23 +57,23 @@ constexpr explicit InvokableCallList(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 
 // Fields
 
- ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall> __declspec(property(get=__get_m_PersistentCalls, put=__set_m_PersistentCalls))  m_PersistentCalls;
+ System::Collections::Generic::List_1<UnityEngine::Events::BaseInvokableCall> __declspec(property(get=__get_m_PersistentCalls, put=__set_m_PersistentCalls))  m_PersistentCalls;
 
-constexpr void __set_m_PersistentCalls(::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall> value) ;
+constexpr void __set_m_PersistentCalls(System::Collections::Generic::List_1<UnityEngine::Events::BaseInvokableCall> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall> __get_m_PersistentCalls() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::Events::BaseInvokableCall> __get_m_PersistentCalls() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall> __declspec(property(get=__get_m_RuntimeCalls, put=__set_m_RuntimeCalls))  m_RuntimeCalls;
+ System::Collections::Generic::List_1<UnityEngine::Events::BaseInvokableCall> __declspec(property(get=__get_m_RuntimeCalls, put=__set_m_RuntimeCalls))  m_RuntimeCalls;
 
-constexpr void __set_m_RuntimeCalls(::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall> value) ;
+constexpr void __set_m_RuntimeCalls(System::Collections::Generic::List_1<UnityEngine::Events::BaseInvokableCall> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall> __get_m_RuntimeCalls() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::Events::BaseInvokableCall> __get_m_RuntimeCalls() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall> __declspec(property(get=__get_m_ExecutingCalls, put=__set_m_ExecutingCalls))  m_ExecutingCalls;
+ System::Collections::Generic::List_1<UnityEngine::Events::BaseInvokableCall> __declspec(property(get=__get_m_ExecutingCalls, put=__set_m_ExecutingCalls))  m_ExecutingCalls;
 
-constexpr void __set_m_ExecutingCalls(::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall> value) ;
+constexpr void __set_m_ExecutingCalls(System::Collections::Generic::List_1<UnityEngine::Events::BaseInvokableCall> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall> __get_m_ExecutingCalls() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::Events::BaseInvokableCall> __get_m_ExecutingCalls() const;
 
  bool __declspec(property(get=__get_m_NeedsUpdate, put=__set_m_NeedsUpdate))  m_NeedsUpdate;
 
@@ -86,19 +85,19 @@ constexpr bool __get_m_NeedsUpdate() const;
 // Methods
 
 /// @brief Method AddPersistentInvokableCall addr 0x2b80464 size 0xac virtual false final false
- void AddPersistentInvokableCall(::UnityEngine::Events::BaseInvokableCall call) ;
+ void AddPersistentInvokableCall(UnityEngine::Events::BaseInvokableCall call) ;
 
 /// @brief Method AddListener addr 0x2b80510 size 0xac virtual false final false
- void AddListener(::UnityEngine::Events::BaseInvokableCall call) ;
+ void AddListener(UnityEngine::Events::BaseInvokableCall call) ;
 
 /// @brief Method RemoveListener addr 0x2b805bc size 0x274 virtual false final false
- void RemoveListener(::bs_hook::Il2CppWrapperType targetObj, ::System::Reflection::MethodInfo method) ;
+ void RemoveListener(::bs_hook::Il2CppWrapperType targetObj, System::Reflection::MethodInfo method) ;
 
 /// @brief Method ClearPersistent addr 0x2b80830 size 0xb8 virtual false final false
  void ClearPersistent() ;
 
 /// @brief Method PrepareInvoke addr 0x2b808e8 size 0xb4 virtual false final false
- ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall> PrepareInvoke() ;
+ System::Collections::Generic::List_1<UnityEngine::Events::BaseInvokableCall> PrepareInvoke() ;
 
 // Ctor Parameters []
 explicit InvokableCallList() ;
@@ -110,6 +109,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Events
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Events::InvokableCallList);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Events::InvokableCallList, "UnityEngine.Events", "InvokableCallList");
+NEED_NO_BOX(UnityEngine::Events::InvokableCallList);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::InvokableCallList, "UnityEngine.Events", "InvokableCallList");

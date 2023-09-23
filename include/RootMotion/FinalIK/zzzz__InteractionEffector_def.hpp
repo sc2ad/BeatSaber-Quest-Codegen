@@ -4,18 +4,14 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
 namespace RootMotion::FinalIK {
-class InteractionObject;
+struct FullBodyBipedEffector;
 }
 namespace RootMotion::FinalIK {
 class Poser;
 }
-namespace RootMotion::FinalIK {
-class InteractionSystem;
-}
-namespace RootMotion::FinalIK {
-class IKEffector;
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -23,18 +19,21 @@ struct Vector3;
 namespace RootMotion::FinalIK {
 class InteractionTarget;
 }
+namespace UnityEngine {
+class Transform;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-class Transform;
+namespace RootMotion::FinalIK {
+class IKEffector;
 }
 namespace RootMotion::FinalIK {
-struct FullBodyBipedEffector;
+class InteractionSystem;
+}
+namespace RootMotion::FinalIK {
+class InteractionObject;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -82,11 +81,11 @@ constexpr explicit InteractionEffector(void* ptr) noexcept : ::bs_hook::Il2CppWr
 
 // Fields
 
- ::RootMotion::FinalIK::FullBodyBipedEffector __declspec(property(get=__get__effectorType_k__BackingField, put=__set__effectorType_k__BackingField))  _effectorType_k__BackingField;
+ RootMotion::FinalIK::FullBodyBipedEffector __declspec(property(get=__get__effectorType_k__BackingField, put=__set__effectorType_k__BackingField))  _effectorType_k__BackingField;
 
-constexpr void __set__effectorType_k__BackingField(::RootMotion::FinalIK::FullBodyBipedEffector value) ;
+constexpr void __set__effectorType_k__BackingField(RootMotion::FinalIK::FullBodyBipedEffector value) ;
 
-constexpr ::RootMotion::FinalIK::FullBodyBipedEffector __get__effectorType_k__BackingField() const;
+constexpr RootMotion::FinalIK::FullBodyBipedEffector __get__effectorType_k__BackingField() const;
 
  bool __declspec(property(get=__get__isPaused_k__BackingField, put=__set__isPaused_k__BackingField))  _isPaused_k__BackingField;
 
@@ -94,23 +93,23 @@ constexpr void __set__isPaused_k__BackingField(bool value) ;
 
 constexpr bool __get__isPaused_k__BackingField() const;
 
- ::RootMotion::FinalIK::InteractionObject __declspec(property(get=__get__interactionObject_k__BackingField, put=__set__interactionObject_k__BackingField))  _interactionObject_k__BackingField;
+ RootMotion::FinalIK::InteractionObject __declspec(property(get=__get__interactionObject_k__BackingField, put=__set__interactionObject_k__BackingField))  _interactionObject_k__BackingField;
 
-constexpr void __set__interactionObject_k__BackingField(::RootMotion::FinalIK::InteractionObject value) ;
+constexpr void __set__interactionObject_k__BackingField(RootMotion::FinalIK::InteractionObject value) ;
 
-constexpr ::RootMotion::FinalIK::InteractionObject __get__interactionObject_k__BackingField() const;
+constexpr RootMotion::FinalIK::InteractionObject __get__interactionObject_k__BackingField() const;
 
- ::RootMotion::FinalIK::Poser __declspec(property(get=__get_poser, put=__set_poser))  poser;
+ RootMotion::FinalIK::Poser __declspec(property(get=__get_poser, put=__set_poser))  poser;
 
-constexpr void __set_poser(::RootMotion::FinalIK::Poser value) ;
+constexpr void __set_poser(RootMotion::FinalIK::Poser value) ;
 
-constexpr ::RootMotion::FinalIK::Poser __get_poser() const;
+constexpr RootMotion::FinalIK::Poser __get_poser() const;
 
- ::RootMotion::FinalIK::IKEffector __declspec(property(get=__get_effector, put=__set_effector))  effector;
+ RootMotion::FinalIK::IKEffector __declspec(property(get=__get_effector, put=__set_effector))  effector;
 
-constexpr void __set_effector(::RootMotion::FinalIK::IKEffector value) ;
+constexpr void __set_effector(RootMotion::FinalIK::IKEffector value) ;
 
-constexpr ::RootMotion::FinalIK::IKEffector __get_effector() const;
+constexpr RootMotion::FinalIK::IKEffector __get_effector() const;
 
  float_t __declspec(property(get=__get_timer, put=__set_timer))  timer;
 
@@ -244,53 +243,53 @@ constexpr void __set_pickUpOnPostFBBIK(bool value) ;
 
 constexpr bool __get_pickUpOnPostFBBIK() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_pickUpPosition, put=__set_pickUpPosition))  pickUpPosition;
+ UnityEngine::Vector3 __declspec(property(get=__get_pickUpPosition, put=__set_pickUpPosition))  pickUpPosition;
 
-constexpr void __set_pickUpPosition(::UnityEngine::Vector3 value) ;
+constexpr void __set_pickUpPosition(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_pickUpPosition() const;
+constexpr UnityEngine::Vector3 __get_pickUpPosition() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_pausePositionRelative, put=__set_pausePositionRelative))  pausePositionRelative;
+ UnityEngine::Vector3 __declspec(property(get=__get_pausePositionRelative, put=__set_pausePositionRelative))  pausePositionRelative;
 
-constexpr void __set_pausePositionRelative(::UnityEngine::Vector3 value) ;
+constexpr void __set_pausePositionRelative(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_pausePositionRelative() const;
+constexpr UnityEngine::Vector3 __get_pausePositionRelative() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get_pickUpRotation, put=__set_pickUpRotation))  pickUpRotation;
+ UnityEngine::Quaternion __declspec(property(get=__get_pickUpRotation, put=__set_pickUpRotation))  pickUpRotation;
 
-constexpr void __set_pickUpRotation(::UnityEngine::Quaternion value) ;
+constexpr void __set_pickUpRotation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get_pickUpRotation() const;
+constexpr UnityEngine::Quaternion __get_pickUpRotation() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get_pauseRotationRelative, put=__set_pauseRotationRelative))  pauseRotationRelative;
+ UnityEngine::Quaternion __declspec(property(get=__get_pauseRotationRelative, put=__set_pauseRotationRelative))  pauseRotationRelative;
 
-constexpr void __set_pauseRotationRelative(::UnityEngine::Quaternion value) ;
+constexpr void __set_pauseRotationRelative(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get_pauseRotationRelative() const;
+constexpr UnityEngine::Quaternion __get_pauseRotationRelative() const;
 
- ::RootMotion::FinalIK::InteractionTarget __declspec(property(get=__get_interactionTarget, put=__set_interactionTarget))  interactionTarget;
+ RootMotion::FinalIK::InteractionTarget __declspec(property(get=__get_interactionTarget, put=__set_interactionTarget))  interactionTarget;
 
-constexpr void __set_interactionTarget(::RootMotion::FinalIK::InteractionTarget value) ;
+constexpr void __set_interactionTarget(RootMotion::FinalIK::InteractionTarget value) ;
 
-constexpr ::RootMotion::FinalIK::InteractionTarget __get_interactionTarget() const;
+constexpr RootMotion::FinalIK::InteractionTarget __get_interactionTarget() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_target, put=__set_target))  target;
+ UnityEngine::Transform __declspec(property(get=__get_target, put=__set_target))  target;
 
-constexpr void __set_target(::UnityEngine::Transform value) ;
+constexpr void __set_target(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_target() const;
+constexpr UnityEngine::Transform __get_target() const;
 
- ::System::Collections::Generic::List_1<bool> __declspec(property(get=__get_triggered, put=__set_triggered))  triggered;
+ System::Collections::Generic::List_1<bool> __declspec(property(get=__get_triggered, put=__set_triggered))  triggered;
 
-constexpr void __set_triggered(::System::Collections::Generic::List_1<bool> value) ;
+constexpr void __set_triggered(System::Collections::Generic::List_1<bool> value) ;
 
-constexpr ::System::Collections::Generic::List_1<bool> __get_triggered() const;
+constexpr System::Collections::Generic::List_1<bool> __get_triggered() const;
 
- ::RootMotion::FinalIK::InteractionSystem __declspec(property(get=__get_interactionSystem, put=__set_interactionSystem))  interactionSystem;
+ RootMotion::FinalIK::InteractionSystem __declspec(property(get=__get_interactionSystem, put=__set_interactionSystem))  interactionSystem;
 
-constexpr void __set_interactionSystem(::RootMotion::FinalIK::InteractionSystem value) ;
+constexpr void __set_interactionSystem(RootMotion::FinalIK::InteractionSystem value) ;
 
-constexpr ::RootMotion::FinalIK::InteractionSystem __get_interactionSystem() const;
+constexpr RootMotion::FinalIK::InteractionSystem __get_interactionSystem() const;
 
  bool __declspec(property(get=__get_started, put=__set_started))  started;
 
@@ -301,11 +300,11 @@ constexpr bool __get_started() const;
 
 // Properties
 
- ::RootMotion::FinalIK::FullBodyBipedEffector __declspec(property(get=get_effectorType, put=set_effectorType))  effectorType;
+ RootMotion::FinalIK::FullBodyBipedEffector __declspec(property(get=get_effectorType, put=set_effectorType))  effectorType;
 
  bool __declspec(property(get=get_isPaused, put=set_isPaused))  isPaused;
 
- ::RootMotion::FinalIK::InteractionObject __declspec(property(get=get_interactionObject, put=set_interactionObject))  interactionObject;
+ RootMotion::FinalIK::InteractionObject __declspec(property(get=get_interactionObject, put=set_interactionObject))  interactionObject;
 
  bool __declspec(property(get=get_inInteraction))  inInteraction;
 
@@ -315,10 +314,10 @@ constexpr bool __get_started() const;
 // Methods
 
 /// @brief Method get_effectorType addr 0x11f764c size 0x8 virtual false final false
- ::RootMotion::FinalIK::FullBodyBipedEffector get_effectorType() ;
+ RootMotion::FinalIK::FullBodyBipedEffector get_effectorType() ;
 
 /// @brief Method set_effectorType addr 0x11f7654 size 0x8 virtual false final false
- void set_effectorType(::RootMotion::FinalIK::FullBodyBipedEffector value) ;
+ void set_effectorType(RootMotion::FinalIK::FullBodyBipedEffector value) ;
 
 /// @brief Method get_isPaused addr 0x11f765c size 0x8 virtual false final false
  bool get_isPaused() ;
@@ -327,22 +326,22 @@ constexpr bool __get_started() const;
  void set_isPaused(bool value) ;
 
 /// @brief Method get_interactionObject addr 0x11f7670 size 0x8 virtual false final false
- ::RootMotion::FinalIK::InteractionObject get_interactionObject() ;
+ RootMotion::FinalIK::InteractionObject get_interactionObject() ;
 
 /// @brief Method set_interactionObject addr 0x11f7678 size 0x8 virtual false final false
- void set_interactionObject(::RootMotion::FinalIK::InteractionObject value) ;
+ void set_interactionObject(RootMotion::FinalIK::InteractionObject value) ;
 
 /// @brief Method get_inInteraction addr 0x11f7680 size 0x60 virtual false final false
  bool get_inInteraction() ;
 
-// Ctor Parameters [CppParam { name: "effectorType", ty: "::RootMotion::FinalIK::FullBodyBipedEffector", modifiers: "", def_value: None }]
-explicit InteractionEffector(::RootMotion::FinalIK::FullBodyBipedEffector effectorType) ;
+// Ctor Parameters [CppParam { name: "effectorType", ty: "RootMotion::FinalIK::FullBodyBipedEffector", modifiers: "", def_value: None }]
+explicit InteractionEffector(RootMotion::FinalIK::FullBodyBipedEffector effectorType) ;
 
 /// @brief Method .ctor addr 0x11f76e0 size 0x90 virtual false final false
- void _ctor(::RootMotion::FinalIK::FullBodyBipedEffector effectorType) ;
+ void _ctor(RootMotion::FinalIK::FullBodyBipedEffector effectorType) ;
 
 /// @brief Method Initiate addr 0x11f7770 size 0x94 virtual false final false
- void Initiate(::RootMotion::FinalIK::InteractionSystem interactionSystem) ;
+ void Initiate(RootMotion::FinalIK::InteractionSystem interactionSystem) ;
 
 /// @brief Method StoreDefaults addr 0x11f7804 size 0x16c virtual false final false
  void StoreDefaults() ;
@@ -357,10 +356,10 @@ explicit InteractionEffector(::RootMotion::FinalIK::FullBodyBipedEffector effect
  bool Resume() ;
 
 /// @brief Method Start addr 0x11f7ec0 size 0x48c virtual false final false
- bool Start(::RootMotion::FinalIK::InteractionObject interactionObject, ::StringW tag, float_t fadeInTime, bool interrupt) ;
+ bool Start(RootMotion::FinalIK::InteractionObject interactionObject, ::StringW tag, float_t fadeInTime, bool interrupt) ;
 
 /// @brief Method Update addr 0x11f89c8 size 0x640 virtual false final false
- void Update(::UnityEngine::Transform root, float_t speed) ;
+ void Update(UnityEngine::Transform root, float_t speed) ;
 
 /// @brief Method get_progress addr 0x11f9b9c size 0x30 virtual false final false
  float_t get_progress() ;
@@ -369,7 +368,7 @@ explicit InteractionEffector(::RootMotion::FinalIK::FullBodyBipedEffector effect
  void TriggerUntriggeredEvents(bool checkTime, ByRef<bool> pickUp, ByRef<bool> pause) ;
 
 /// @brief Method PickUp addr 0x11f9630 size 0x218 virtual false final false
- void PickUp(::UnityEngine::Transform root) ;
+ void PickUp(UnityEngine::Transform root) ;
 
 /// @brief Method Stop addr 0x11f9a54 size 0x148 virtual false final false
  bool Stop() ;
@@ -381,6 +380,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::InteractionEffector);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::InteractionEffector, "RootMotion.FinalIK", "InteractionEffector");
+NEED_NO_BOX(RootMotion::FinalIK::InteractionEffector);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionEffector, "RootMotion.FinalIK", "InteractionEffector");

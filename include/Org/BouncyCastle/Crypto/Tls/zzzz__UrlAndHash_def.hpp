@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
-}
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsContext;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -92,15 +91,14 @@ explicit UrlAndHash(::StringW url, ::ArrayW<uint8_t> sha1Hash) ;
  ::ArrayW<uint8_t> get_Sha1Hash() ;
 
 /// @brief Method Encode addr 0xf32cc4 size 0x100 virtual true final false
- void Encode(::System::IO::Stream output) ;
+ void Encode(System::IO::Stream output) ;
 
 /// @brief Method Parse addr 0xf32dc4 size 0x188 virtual false final false
-static ::Org::BouncyCastle::Crypto::Tls::UrlAndHash Parse(::Org::BouncyCastle::Crypto::Tls::TlsContext context, ::System::IO::Stream input) ;
+static Org::BouncyCastle::Crypto::Tls::UrlAndHash Parse(Org::BouncyCastle::Crypto::Tls::TlsContext context, System::IO::Stream input) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::UrlAndHash);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::UrlAndHash, "Org.BouncyCastle.Crypto.Tls", "UrlAndHash");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::UrlAndHash);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::UrlAndHash, "Org.BouncyCastle.Crypto.Tls", "UrlAndHash");

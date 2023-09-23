@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
-namespace {
 namespace LIV::SDK::Unity {
 struct FEATURES;
 }
@@ -19,8 +18,8 @@ namespace LIV::SDK::Unity {
 struct CORDL_TYPE SDKApplicationOutput : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "supportedFeatures", ty: "::LIV::SDK::Unity::FEATURES", modifiers: "", def_value: None }, CppParam { name: "engineName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "engineVersion", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "applicationName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "applicationVersion", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "xrDeviceName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "graphicsAPI", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "sdkID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "sdkVersion", ty: "::StringW", modifiers: "", def_value: None }]
-constexpr SDKApplicationOutput(::LIV::SDK::Unity::FEATURES supportedFeatures, ::StringW engineName, ::StringW engineVersion, ::StringW applicationName, ::StringW applicationVersion, ::StringW xrDeviceName, ::StringW graphicsAPI, ::StringW sdkID, ::StringW sdkVersion) noexcept;
+// Ctor Parameters [CppParam { name: "supportedFeatures", ty: "LIV::SDK::Unity::FEATURES", modifiers: "", def_value: None }, CppParam { name: "engineName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "engineVersion", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "applicationName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "applicationVersion", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "xrDeviceName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "graphicsAPI", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "sdkID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "sdkVersion", ty: "::StringW", modifiers: "", def_value: None }]
+constexpr SDKApplicationOutput(LIV::SDK::Unity::FEATURES supportedFeatures, ::StringW engineName, ::StringW engineVersion, ::StringW applicationName, ::StringW applicationVersion, ::StringW xrDeviceName, ::StringW graphicsAPI, ::StringW sdkID, ::StringW sdkVersion) noexcept;
 
 
                     constexpr SDKApplicationOutput(SDKApplicationOutput const&) = default;
@@ -53,11 +52,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::LIV::SDK::Unity::FEATURES __declspec(property(get=__get_supportedFeatures, put=__set_supportedFeatures))  supportedFeatures;
+ LIV::SDK::Unity::FEATURES __declspec(property(get=__get_supportedFeatures, put=__set_supportedFeatures))  supportedFeatures;
 
-constexpr void __set_supportedFeatures(::LIV::SDK::Unity::FEATURES value) ;
+constexpr void __set_supportedFeatures(LIV::SDK::Unity::FEATURES value) ;
 
-constexpr ::LIV::SDK::Unity::FEATURES __get_supportedFeatures() const;
+constexpr LIV::SDK::Unity::FEATURES __get_supportedFeatures() const;
 
  ::StringW __declspec(property(get=__get_engineName, put=__set_engineName))  engineName;
 
@@ -110,13 +109,13 @@ constexpr ::StringW __get_sdkVersion() const;
 
 // Properties
 
-static ::LIV::SDK::Unity::SDKApplicationOutput __declspec(property(get=get_empty))  empty;
+static LIV::SDK::Unity::SDKApplicationOutput __declspec(property(get=get_empty))  empty;
 
 
 // Methods
 
 /// @brief Method get_empty addr 0x209bc78 size 0x80 virtual false final false
-static ::LIV::SDK::Unity::SDKApplicationOutput get_empty() ;
+static LIV::SDK::Unity::SDKApplicationOutput get_empty() ;
 
 /// @brief Method ToString addr 0x20a2770 size 0x244 virtual true final false
  ::StringW ToString() ;
@@ -125,5 +124,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def LIV::SDK::Unity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::SDKApplicationOutput, "LIV.SDK.Unity", "SDKApplicationOutput");
+DEFINE_IL2CPP_ARG_TYPE(LIV::SDK::Unity::SDKApplicationOutput, "LIV.SDK.Unity", "SDKApplicationOutput");

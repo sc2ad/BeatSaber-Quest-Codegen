@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace GlobalNamespace {
+class DnsEndPoint;
+}
 namespace GlobalNamespace {
 class INetworkConfig;
 }
 namespace GlobalNamespace {
 struct ServiceEnvironment;
-}
-namespace GlobalNamespace {
-class DnsEndPoint;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,8 +25,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE CustomNetworkConfig : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::INetworkConfig
-constexpr operator  ::GlobalNamespace::INetworkConfig() const noexcept;
+/// @brief Convert operator to GlobalNamespace::INetworkConfig
+constexpr operator  GlobalNamespace::INetworkConfig() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
@@ -86,11 +85,11 @@ constexpr void __set__multiplayerPort_k__BackingField(int32_t value) ;
 
 constexpr int32_t __get__multiplayerPort_k__BackingField() const;
 
- ::GlobalNamespace::DnsEndPoint __declspec(property(get=__get__masterServerEndPoint_k__BackingField, put=__set__masterServerEndPoint_k__BackingField))  _masterServerEndPoint_k__BackingField;
+ GlobalNamespace::DnsEndPoint __declspec(property(get=__get__masterServerEndPoint_k__BackingField, put=__set__masterServerEndPoint_k__BackingField))  _masterServerEndPoint_k__BackingField;
 
-constexpr void __set__masterServerEndPoint_k__BackingField(::GlobalNamespace::DnsEndPoint value) ;
+constexpr void __set__masterServerEndPoint_k__BackingField(GlobalNamespace::DnsEndPoint value) ;
 
-constexpr ::GlobalNamespace::DnsEndPoint __get__masterServerEndPoint_k__BackingField() const;
+constexpr GlobalNamespace::DnsEndPoint __get__masterServerEndPoint_k__BackingField() const;
 
  ::StringW __declspec(property(get=__get__multiplayerStatusUrl_k__BackingField, put=__set__multiplayerStatusUrl_k__BackingField))  _multiplayerStatusUrl_k__BackingField;
 
@@ -116,11 +115,11 @@ constexpr void __set__forceGameLift_k__BackingField(bool value) ;
 
 constexpr bool __get__forceGameLift_k__BackingField() const;
 
- ::GlobalNamespace::ServiceEnvironment __declspec(property(get=__get__serviceEnvironment_k__BackingField, put=__set__serviceEnvironment_k__BackingField))  _serviceEnvironment_k__BackingField;
+ GlobalNamespace::ServiceEnvironment __declspec(property(get=__get__serviceEnvironment_k__BackingField, put=__set__serviceEnvironment_k__BackingField))  _serviceEnvironment_k__BackingField;
 
-constexpr void __set__serviceEnvironment_k__BackingField(::GlobalNamespace::ServiceEnvironment value) ;
+constexpr void __set__serviceEnvironment_k__BackingField(GlobalNamespace::ServiceEnvironment value) ;
 
-constexpr ::GlobalNamespace::ServiceEnvironment __get__serviceEnvironment_k__BackingField() const;
+constexpr GlobalNamespace::ServiceEnvironment __get__serviceEnvironment_k__BackingField() const;
 
 
 // Properties
@@ -133,7 +132,7 @@ constexpr ::GlobalNamespace::ServiceEnvironment __get__serviceEnvironment_k__Bac
 
  int32_t __declspec(property(get=get_multiplayerPort))  multiplayerPort;
 
- ::GlobalNamespace::DnsEndPoint __declspec(property(get=get_masterServerEndPoint))  masterServerEndPoint;
+ GlobalNamespace::DnsEndPoint __declspec(property(get=get_masterServerEndPoint))  masterServerEndPoint;
 
  ::StringW __declspec(property(get=get_multiplayerStatusUrl))  multiplayerStatusUrl;
 
@@ -145,7 +144,7 @@ constexpr ::GlobalNamespace::ServiceEnvironment __get__serviceEnvironment_k__Bac
 
  bool __declspec(property(get=get_forceGameLift))  forceGameLift;
 
- ::GlobalNamespace::ServiceEnvironment __declspec(property(get=get_serviceEnvironment))  serviceEnvironment;
+ GlobalNamespace::ServiceEnvironment __declspec(property(get=get_serviceEnvironment))  serviceEnvironment;
 
 
 // Methods
@@ -163,7 +162,7 @@ constexpr ::GlobalNamespace::ServiceEnvironment __get__serviceEnvironment_k__Bac
  int32_t get_multiplayerPort() ;
 
 /// @brief Method get_masterServerEndPoint addr 0xda55e0 size 0x8 virtual true final true
- ::GlobalNamespace::DnsEndPoint get_masterServerEndPoint() ;
+ GlobalNamespace::DnsEndPoint get_masterServerEndPoint() ;
 
 /// @brief Method get_multiplayerStatusUrl addr 0xda55e8 size 0x8 virtual true final true
  ::StringW get_multiplayerStatusUrl() ;
@@ -181,18 +180,17 @@ constexpr ::GlobalNamespace::ServiceEnvironment __get__serviceEnvironment_k__Bac
  bool get_forceGameLift() ;
 
 /// @brief Method get_serviceEnvironment addr 0xda5650 size 0x8 virtual true final true
- ::GlobalNamespace::ServiceEnvironment get_serviceEnvironment() ;
+ GlobalNamespace::ServiceEnvironment get_serviceEnvironment() ;
 
-// Ctor Parameters [CppParam { name: "fromNetworkConfig", ty: "::GlobalNamespace::INetworkConfig", modifiers: "", def_value: None }, CppParam { name: "customServerHostName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "port", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "forceGameLift", ty: "bool", modifiers: "", def_value: None }]
-explicit CustomNetworkConfig(::GlobalNamespace::INetworkConfig fromNetworkConfig, ::StringW customServerHostName, int32_t port, bool forceGameLift) ;
+// Ctor Parameters [CppParam { name: "fromNetworkConfig", ty: "GlobalNamespace::INetworkConfig", modifiers: "", def_value: None }, CppParam { name: "customServerHostName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "port", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "forceGameLift", ty: "bool", modifiers: "", def_value: None }]
+explicit CustomNetworkConfig(GlobalNamespace::INetworkConfig fromNetworkConfig, ::StringW customServerHostName, int32_t port, bool forceGameLift) ;
 
 /// @brief Method .ctor addr 0xda5658 size 0x4a0 virtual false final false
- void _ctor(::GlobalNamespace::INetworkConfig fromNetworkConfig, ::StringW customServerHostName, int32_t port, bool forceGameLift) ;
+ void _ctor(GlobalNamespace::INetworkConfig fromNetworkConfig, ::StringW customServerHostName, int32_t port, bool forceGameLift) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::CustomNetworkConfig);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CustomNetworkConfig, "", "CustomNetworkConfig");
+NEED_NO_BOX(GlobalNamespace::CustomNetworkConfig);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomNetworkConfig, "", "CustomNetworkConfig");

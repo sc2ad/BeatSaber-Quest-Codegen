@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class Exception;
 }
@@ -16,7 +15,7 @@ namespace Org::BouncyCastle::Cms {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(612))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(613))
 // CS Name: Org.BouncyCastle.Cms.CmsAttributeTableGenerationException
-class CORDL_TYPE CmsAttributeTableGenerationException : public ::Org::BouncyCastle::Cms::CmsException {
+class CORDL_TYPE CmsAttributeTableGenerationException : public Org::BouncyCastle::Cms::CmsException {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr CmsAttributeTableGenerationException(CmsAttributeTableGenerationExcept
 constexpr CmsAttributeTableGenerationException(CmsAttributeTableGenerationException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CmsAttributeTableGenerationException(void* ptr) noexcept : ::Org::BouncyCastle::Cms::CmsException(ptr) {
+constexpr explicit CmsAttributeTableGenerationException(void* ptr) noexcept : Org::BouncyCastle::Cms::CmsException(ptr) {
 }
 
 
@@ -64,16 +63,15 @@ explicit CmsAttributeTableGenerationException(::StringW name) ;
 /// @brief Method .ctor addr 0x114e1b0 size 0x4 virtual false final false
  void _ctor(::StringW name) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "e", ty: "::System::Exception", modifiers: "", def_value: None }]
-explicit CmsAttributeTableGenerationException(::StringW name, ::System::Exception e) ;
+// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "e", ty: "System::Exception", modifiers: "", def_value: None }]
+explicit CmsAttributeTableGenerationException(::StringW name, System::Exception e) ;
 
 /// @brief Method .ctor addr 0x114e1b4 size 0x4 virtual false final false
- void _ctor(::StringW name, ::System::Exception e) ;
+ void _ctor(::StringW name, System::Exception e) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Cms
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException, "Org.BouncyCastle.Cms", "CmsAttributeTableGenerationException");
+NEED_NO_BOX(Org::BouncyCastle::Cms::CmsAttributeTableGenerationException);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Cms::CmsAttributeTableGenerationException, "Org.BouncyCastle.Cms", "CmsAttributeTableGenerationException");

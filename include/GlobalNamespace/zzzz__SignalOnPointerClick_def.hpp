@@ -1,18 +1,17 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
 namespace GlobalNamespace {
 class Signal;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+class IPointerClickHandler;
 }
 namespace UnityEngine::EventSystems {
-class IPointerClickHandler;
+class IEventSystemHandler;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,14 +23,14 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13884))
 // CS Name: SignalOnPointerClick
-class CORDL_TYPE SignalOnPointerClick : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SignalOnPointerClick : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::EventSystems::IPointerClickHandler
-constexpr operator  ::UnityEngine::EventSystems::IPointerClickHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IPointerClickHandler
+constexpr operator  UnityEngine::EventSystems::IPointerClickHandler() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::EventSystems::IEventSystemHandler
-constexpr operator  ::UnityEngine::EventSystems::IEventSystemHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IEventSystemHandler
+constexpr operator  UnityEngine::EventSystems::IEventSystemHandler() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -45,7 +44,7 @@ constexpr SignalOnPointerClick(SignalOnPointerClick const& ) noexcept = default;
 constexpr SignalOnPointerClick(SignalOnPointerClick&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SignalOnPointerClick(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SignalOnPointerClick(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -66,17 +65,17 @@ constexpr explicit SignalOnPointerClick(void* ptr) noexcept : ::UnityEngine::Mon
 
 // Fields
 
- ::GlobalNamespace::Signal __declspec(property(get=__get__inputFieldClickedSignal, put=__set__inputFieldClickedSignal))  _inputFieldClickedSignal;
+ GlobalNamespace::Signal __declspec(property(get=__get__inputFieldClickedSignal, put=__set__inputFieldClickedSignal))  _inputFieldClickedSignal;
 
-constexpr void __set__inputFieldClickedSignal(::GlobalNamespace::Signal value) ;
+constexpr void __set__inputFieldClickedSignal(GlobalNamespace::Signal value) ;
 
-constexpr ::GlobalNamespace::Signal __get__inputFieldClickedSignal() const;
+constexpr GlobalNamespace::Signal __get__inputFieldClickedSignal() const;
 
 
 // Methods
 
 /// @brief Method OnPointerClick addr 0x1f8362c size 0x20 virtual true final true
- void OnPointerClick(::UnityEngine::EventSystems::PointerEventData eventData) ;
+ void OnPointerClick(UnityEngine::EventSystems::PointerEventData eventData) ;
 
 // Ctor Parameters []
 explicit SignalOnPointerClick() ;
@@ -88,6 +87,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SignalOnPointerClick);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SignalOnPointerClick, "", "SignalOnPointerClick");
+NEED_NO_BOX(GlobalNamespace::SignalOnPointerClick);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SignalOnPointerClick, "", "SignalOnPointerClick");

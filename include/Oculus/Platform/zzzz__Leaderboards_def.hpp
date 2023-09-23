@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
 class LeaderboardEntryList;
 }
@@ -68,36 +67,35 @@ constexpr explicit Leaderboards(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 // Methods
 
 /// @brief Method GetNextEntries addr 0x258aa28 size 0x17c virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardEntryList> GetNextEntries(::Oculus::Platform::Models::LeaderboardEntryList list) ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardEntryList> GetNextEntries(Oculus::Platform::Models::LeaderboardEntryList list) ;
 
 /// @brief Method GetPreviousEntries addr 0x258aba4 size 0x17c virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardEntryList> GetPreviousEntries(::Oculus::Platform::Models::LeaderboardEntryList list) ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardEntryList> GetPreviousEntries(Oculus::Platform::Models::LeaderboardEntryList list) ;
 
 /// @brief Method Get addr 0x258ad20 size 0x160 virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardList> Get(::StringW leaderboardName) ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardList> Get(::StringW leaderboardName) ;
 
 /// @brief Method GetEntries addr 0x258ae80 size 0x188 virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardEntryList> GetEntries(::StringW leaderboardName, int32_t limit, ::Oculus::Platform::LeaderboardFilterType filter, ::Oculus::Platform::LeaderboardStartAt startAt) ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardEntryList> GetEntries(::StringW leaderboardName, int32_t limit, Oculus::Platform::LeaderboardFilterType filter, Oculus::Platform::LeaderboardStartAt startAt) ;
 
 /// @brief Method GetEntriesAfterRank addr 0x258b008 size 0x178 virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardEntryList> GetEntriesAfterRank(::StringW leaderboardName, int32_t limit, uint64_t afterRank) ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardEntryList> GetEntriesAfterRank(::StringW leaderboardName, int32_t limit, uint64_t afterRank) ;
 
 /// @brief Method GetEntriesByIds addr 0x258b180 size 0x19c virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardEntryList> GetEntriesByIds(::StringW leaderboardName, int32_t limit, ::Oculus::Platform::LeaderboardStartAt startAt, ::ArrayW<uint64_t> userIDs) ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardEntryList> GetEntriesByIds(::StringW leaderboardName, int32_t limit, Oculus::Platform::LeaderboardStartAt startAt, ::ArrayW<uint64_t> userIDs) ;
 
 /// @brief Method WriteEntry addr 0x258b31c size 0x19c virtual false final false
-static ::Oculus::Platform::Request_1<bool> WriteEntry(::StringW leaderboardName, int64_t score, ::ArrayW<uint8_t> extraData, bool forceUpdate) ;
+static Oculus::Platform::Request_1<bool> WriteEntry(::StringW leaderboardName, int64_t score, ::ArrayW<uint8_t> extraData, bool forceUpdate) ;
 
 /// @brief Method WriteEntryWithSupplementaryMetric addr 0x258b4b8 size 0x1a4 virtual false final false
-static ::Oculus::Platform::Request_1<bool> WriteEntryWithSupplementaryMetric(::StringW leaderboardName, int64_t score, int64_t supplementaryMetric, ::ArrayW<uint8_t> extraData, bool forceUpdate) ;
+static Oculus::Platform::Request_1<bool> WriteEntryWithSupplementaryMetric(::StringW leaderboardName, int64_t score, int64_t supplementaryMetric, ::ArrayW<uint8_t> extraData, bool forceUpdate) ;
 
 /// @brief Method GetNextLeaderboardListPage addr 0x258b65c size 0x1dc virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardList> GetNextLeaderboardListPage(::Oculus::Platform::Models::LeaderboardList list) ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardList> GetNextLeaderboardListPage(Oculus::Platform::Models::LeaderboardList list) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Leaderboards);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Leaderboards, "Oculus.Platform", "Leaderboards");
+NEED_NO_BOX(Oculus::Platform::Leaderboards);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Leaderboards, "Oculus.Platform", "Leaderboards");

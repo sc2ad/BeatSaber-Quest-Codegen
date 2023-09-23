@@ -4,7 +4,6 @@
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class AudioReferenceCountingCache;
@@ -12,10 +11,10 @@ class AudioReferenceCountingCache;
 // Type: ::AudioReferenceCountingCache
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6001)), TypeDefinitionIndex(TypeDefinitionIndex(2770)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6001), inst: 3688 }), TypeDefinitionIndex(TypeDefinitionIndex(15606)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2770), inst: 266 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2770), inst: 266 }), TypeDefinitionIndex(TypeDefinitionIndex(6001)), TypeDefinitionIndex(TypeDefinitionIndex(15606)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6001), inst: 3688 }), TypeDefinitionIndex(TypeDefinitionIndex(2770))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5977))
 // CS Name: AudioReferenceCountingCache
-class CORDL_TYPE AudioReferenceCountingCache : public ::GlobalNamespace::ReferenceCountingCache_2<int32_t,::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip>> {
+class CORDL_TYPE AudioReferenceCountingCache : public GlobalNamespace::ReferenceCountingCache_2<int32_t,System::Threading::Tasks::Task_1<UnityEngine::AudioClip>> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr AudioReferenceCountingCache(AudioReferenceCountingCache const& ) noexc
 constexpr AudioReferenceCountingCache(AudioReferenceCountingCache&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AudioReferenceCountingCache(void* ptr) noexcept : ::GlobalNamespace::ReferenceCountingCache_2<int32_t,::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip>>(ptr) {
+constexpr explicit AudioReferenceCountingCache(void* ptr) noexcept : GlobalNamespace::ReferenceCountingCache_2<int32_t,System::Threading::Tasks::Task_1<UnityEngine::AudioClip>>(ptr) {
 }
 
 
@@ -61,6 +60,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::AudioReferenceCountingCache);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AudioReferenceCountingCache, "", "AudioReferenceCountingCache");
+NEED_NO_BOX(GlobalNamespace::AudioReferenceCountingCache);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioReferenceCountingCache, "", "AudioReferenceCountingCache");

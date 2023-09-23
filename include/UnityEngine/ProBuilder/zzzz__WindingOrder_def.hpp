@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
 struct WindingOrder;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::UnityEngine::ProBuilder::WindingOrder const Unknown;
+static UnityEngine::ProBuilder::WindingOrder const Unknown;
 
 /// @brief Field Clockwise offset 0
-static ::UnityEngine::ProBuilder::WindingOrder const Clockwise;
+static UnityEngine::ProBuilder::WindingOrder const Clockwise;
 
 /// @brief Field CounterClockwise offset 0
-static ::UnityEngine::ProBuilder::WindingOrder const CounterClockwise;
+static UnityEngine::ProBuilder::WindingOrder const CounterClockwise;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::WindingOrder, "UnityEngine.ProBuilder", "WindingOrder");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::WindingOrder, "UnityEngine.ProBuilder", "WindingOrder");

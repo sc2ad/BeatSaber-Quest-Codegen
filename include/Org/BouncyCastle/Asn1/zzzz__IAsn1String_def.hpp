@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1String;
@@ -31,6 +30,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::IAsn1String);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::IAsn1String, "Org.BouncyCastle.Asn1", "IAsn1String");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::IAsn1String);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::IAsn1String, "Org.BouncyCastle.Asn1", "IAsn1String");

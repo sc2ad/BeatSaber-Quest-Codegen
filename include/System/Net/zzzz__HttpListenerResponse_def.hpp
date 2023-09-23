@@ -4,18 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Net {
-class ResponseStream;
+namespace System::Text {
+class Encoding;
 }
 namespace System {
 class IDisposable;
 }
 namespace System::Net {
-class CookieCollection;
-}
-namespace System::Text {
-class Encoding;
+class Cookie;
 }
 namespace System::Net {
 class WebHeaderCollection;
@@ -24,16 +20,19 @@ namespace System::IO {
 class Stream;
 }
 namespace System::Net {
-class HttpListenerContext;
+class CookieCollection;
 }
-namespace System {
-class Version;
+namespace System::Net {
+class HttpListenerContext;
 }
 namespace System::IO {
 class MemoryStream;
 }
 namespace System::Net {
-class Cookie;
+class ResponseStream;
+}
+namespace System {
+class Version;
 }
 // Forward declare root types
 namespace System::Net {
@@ -48,8 +47,8 @@ namespace System::Net {
 class CORDL_TYPE HttpListenerResponse : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xa0};
@@ -90,11 +89,11 @@ constexpr void __set_disposed(bool value) ;
 
 constexpr bool __get_disposed() const;
 
- ::System::Text::Encoding __declspec(property(get=__get_content_encoding, put=__set_content_encoding))  content_encoding;
+ System::Text::Encoding __declspec(property(get=__get_content_encoding, put=__set_content_encoding))  content_encoding;
 
-constexpr void __set_content_encoding(::System::Text::Encoding value) ;
+constexpr void __set_content_encoding(System::Text::Encoding value) ;
 
-constexpr ::System::Text::Encoding __get_content_encoding() const;
+constexpr System::Text::Encoding __get_content_encoding() const;
 
  int64_t __declspec(property(get=__get_content_length, put=__set_content_length))  content_length;
 
@@ -114,17 +113,17 @@ constexpr void __set_content_type(::StringW value) ;
 
 constexpr ::StringW __get_content_type() const;
 
- ::System::Net::CookieCollection __declspec(property(get=__get_cookies, put=__set_cookies))  cookies;
+ System::Net::CookieCollection __declspec(property(get=__get_cookies, put=__set_cookies))  cookies;
 
-constexpr void __set_cookies(::System::Net::CookieCollection value) ;
+constexpr void __set_cookies(System::Net::CookieCollection value) ;
 
-constexpr ::System::Net::CookieCollection __get_cookies() const;
+constexpr System::Net::CookieCollection __get_cookies() const;
 
- ::System::Net::WebHeaderCollection __declspec(property(get=__get_headers, put=__set_headers))  headers;
+ System::Net::WebHeaderCollection __declspec(property(get=__get_headers, put=__set_headers))  headers;
 
-constexpr void __set_headers(::System::Net::WebHeaderCollection value) ;
+constexpr void __set_headers(System::Net::WebHeaderCollection value) ;
 
-constexpr ::System::Net::WebHeaderCollection __get_headers() const;
+constexpr System::Net::WebHeaderCollection __get_headers() const;
 
  bool __declspec(property(get=__get_keep_alive, put=__set_keep_alive))  keep_alive;
 
@@ -132,17 +131,17 @@ constexpr void __set_keep_alive(bool value) ;
 
 constexpr bool __get_keep_alive() const;
 
- ::System::Net::ResponseStream __declspec(property(get=__get_output_stream, put=__set_output_stream))  output_stream;
+ System::Net::ResponseStream __declspec(property(get=__get_output_stream, put=__set_output_stream))  output_stream;
 
-constexpr void __set_output_stream(::System::Net::ResponseStream value) ;
+constexpr void __set_output_stream(System::Net::ResponseStream value) ;
 
-constexpr ::System::Net::ResponseStream __get_output_stream() const;
+constexpr System::Net::ResponseStream __get_output_stream() const;
 
- ::System::Version __declspec(property(get=__get_version, put=__set_version))  version;
+ System::Version __declspec(property(get=__get_version, put=__set_version))  version;
 
-constexpr void __set_version(::System::Version value) ;
+constexpr void __set_version(System::Version value) ;
 
-constexpr ::System::Version __get_version() const;
+constexpr System::Version __get_version() const;
 
  ::StringW __declspec(property(get=__get_location, put=__set_location))  location;
 
@@ -168,11 +167,11 @@ constexpr void __set_chunked(bool value) ;
 
 constexpr bool __get_chunked() const;
 
- ::System::Net::HttpListenerContext __declspec(property(get=__get_context, put=__set_context))  context;
+ System::Net::HttpListenerContext __declspec(property(get=__get_context, put=__set_context))  context;
 
-constexpr void __set_context(::System::Net::HttpListenerContext value) ;
+constexpr void __set_context(System::Net::HttpListenerContext value) ;
 
-constexpr ::System::Net::HttpListenerContext __get_context() const;
+constexpr System::Net::HttpListenerContext __get_context() const;
 
  bool __declspec(property(get=__get_HeadersSent, put=__set_HeadersSent))  HeadersSent;
 
@@ -203,15 +202,15 @@ static ::StringW __get_tspecials() ;
 
  bool __declspec(property(get=get_ForceCloseChunked))  ForceCloseChunked;
 
- ::System::Text::Encoding __declspec(property(get=get_ContentEncoding))  ContentEncoding;
+ System::Text::Encoding __declspec(property(get=get_ContentEncoding))  ContentEncoding;
 
  int64_t __declspec(property(put=set_ContentLength64))  ContentLength64;
 
  ::StringW __declspec(property(put=set_ContentType))  ContentType;
 
- ::System::Net::WebHeaderCollection __declspec(property(get=get_Headers))  Headers;
+ System::Net::WebHeaderCollection __declspec(property(get=get_Headers))  Headers;
 
- ::System::IO::Stream __declspec(property(get=get_OutputStream))  OutputStream;
+ System::IO::Stream __declspec(property(get=get_OutputStream))  OutputStream;
 
  bool __declspec(property(get=get_SendChunked, put=set_SendChunked))  SendChunked;
 
@@ -220,17 +219,17 @@ static ::StringW __get_tspecials() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "context", ty: "::System::Net::HttpListenerContext", modifiers: "", def_value: None }]
-explicit HttpListenerResponse(::System::Net::HttpListenerContext context) ;
+// Ctor Parameters [CppParam { name: "context", ty: "System::Net::HttpListenerContext", modifiers: "", def_value: None }]
+explicit HttpListenerResponse(System::Net::HttpListenerContext context) ;
 
 /// @brief Method .ctor addr 0x2836f28 size 0x114 virtual false final false
- void _ctor(::System::Net::HttpListenerContext context) ;
+ void _ctor(System::Net::HttpListenerContext context) ;
 
 /// @brief Method get_ForceCloseChunked addr 0x2837e98 size 0x8 virtual false final false
  bool get_ForceCloseChunked() ;
 
 /// @brief Method get_ContentEncoding addr 0x2834fd0 size 0x20 virtual false final false
- ::System::Text::Encoding get_ContentEncoding() ;
+ System::Text::Encoding get_ContentEncoding() ;
 
 /// @brief Method set_ContentLength64 addr 0x2837ea0 size 0x130 virtual false final false
  void set_ContentLength64(int64_t value) ;
@@ -239,10 +238,10 @@ explicit HttpListenerResponse(::System::Net::HttpListenerContext context) ;
  void set_ContentType(::StringW value) ;
 
 /// @brief Method get_Headers addr 0x2837fd0 size 0x8 virtual false final false
- ::System::Net::WebHeaderCollection get_Headers() ;
+ System::Net::WebHeaderCollection get_Headers() ;
 
 /// @brief Method get_OutputStream addr 0x2837fd8 size 0x34 virtual false final false
- ::System::IO::Stream get_OutputStream() ;
+ System::IO::Stream get_OutputStream() ;
 
 /// @brief Method get_SendChunked addr 0x283800c size 0x8 virtual false final false
  bool get_SendChunked() ;
@@ -266,16 +265,16 @@ explicit HttpListenerResponse(::System::Net::HttpListenerContext context) ;
  void Close(::ArrayW<uint8_t> responseEntity, bool willBlock) ;
 
 /// @brief Method SendHeaders addr 0x283805c size 0x9a8 virtual false final false
- void SendHeaders(bool closing, ::System::IO::MemoryStream ms) ;
+ void SendHeaders(bool closing, System::IO::MemoryStream ms) ;
 
 /// @brief Method FormatHeaders addr 0x2838c9c size 0x254 virtual false final false
-static ::StringW FormatHeaders(::System::Net::WebHeaderCollection headers) ;
+static ::StringW FormatHeaders(System::Net::WebHeaderCollection headers) ;
 
 /// @brief Method CookieToClientString addr 0x2838a04 size 0x298 virtual false final false
-static ::StringW CookieToClientString(::System::Net::Cookie cookie) ;
+static ::StringW CookieToClientString(System::Net::Cookie cookie) ;
 
 /// @brief Method QuotedString addr 0x2838ef0 size 0xd0 virtual false final false
-static ::StringW QuotedString(::System::Net::Cookie cookie, ::StringW value) ;
+static ::StringW QuotedString(System::Net::Cookie cookie, ::StringW value) ;
 
 /// @brief Method IsToken addr 0x2838fc0 size 0xd0 virtual false final false
 static bool IsToken(::StringW value) ;
@@ -284,6 +283,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::HttpListenerResponse);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::HttpListenerResponse, "System.Net", "HttpListenerResponse");
+NEED_NO_BOX(System::Net::HttpListenerResponse);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListenerResponse, "System.Net", "HttpListenerResponse");

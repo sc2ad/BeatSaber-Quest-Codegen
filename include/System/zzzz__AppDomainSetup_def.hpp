@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 class AppDomainSetup;
@@ -220,6 +219,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::AppDomainSetup);
-DEFINE_IL2CPP_ARG_TYPE(::System::AppDomainSetup, "System", "AppDomainSetup");
+NEED_NO_BOX(System::AppDomainSetup);
+DEFINE_IL2CPP_ARG_TYPE(System::AppDomainSetup, "System", "AppDomainSetup");

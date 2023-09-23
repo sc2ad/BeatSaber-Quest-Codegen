@@ -4,30 +4,29 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Xml {
-class TernaryTreeReadOnly;
-}
-namespace System::Xml {
-struct AttributeProperties;
-}
-namespace System::Xml {
-class ByteStack;
-}
-namespace System::Xml {
-struct ElementProperties;
-}
-namespace System::Xml {
-struct XmlStandalone;
+class XmlWriterSettings;
 }
 namespace System::IO {
 class TextWriter;
 }
 namespace System::Xml {
-class XmlWriterSettings;
+class ByteStack;
+}
+namespace System::Xml {
+struct AttributeProperties;
+}
+namespace System::Xml {
+struct ElementProperties;
+}
+namespace System::Xml {
+class TernaryTreeReadOnly;
 }
 namespace System::IO {
 class Stream;
+}
+namespace System::Xml {
+struct XmlStandalone;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -39,7 +38,7 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11391))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11358))
 // CS Name: System.Xml.HtmlEncodedRawTextWriter
-class CORDL_TYPE HtmlEncodedRawTextWriter : public ::System::Xml::XmlEncodedRawTextWriter {
+class CORDL_TYPE HtmlEncodedRawTextWriter : public System::Xml::XmlEncodedRawTextWriter {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -54,7 +53,7 @@ constexpr HtmlEncodedRawTextWriter(HtmlEncodedRawTextWriter const& ) noexcept = 
 constexpr HtmlEncodedRawTextWriter(HtmlEncodedRawTextWriter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HtmlEncodedRawTextWriter(void* ptr) noexcept : ::System::Xml::XmlEncodedRawTextWriter(ptr) {
+constexpr explicit HtmlEncodedRawTextWriter(void* ptr) noexcept : System::Xml::XmlEncodedRawTextWriter(ptr) {
 }
 
 
@@ -75,23 +74,23 @@ constexpr explicit HtmlEncodedRawTextWriter(void* ptr) noexcept : ::System::Xml:
 
 // Fields
 
- ::System::Xml::ByteStack __declspec(property(get=__get_elementScope, put=__set_elementScope))  elementScope;
+ System::Xml::ByteStack __declspec(property(get=__get_elementScope, put=__set_elementScope))  elementScope;
 
-constexpr void __set_elementScope(::System::Xml::ByteStack value) ;
+constexpr void __set_elementScope(System::Xml::ByteStack value) ;
 
-constexpr ::System::Xml::ByteStack __get_elementScope() const;
+constexpr System::Xml::ByteStack __get_elementScope() const;
 
- ::System::Xml::ElementProperties __declspec(property(get=__get_currentElementProperties, put=__set_currentElementProperties))  currentElementProperties;
+ System::Xml::ElementProperties __declspec(property(get=__get_currentElementProperties, put=__set_currentElementProperties))  currentElementProperties;
 
-constexpr void __set_currentElementProperties(::System::Xml::ElementProperties value) ;
+constexpr void __set_currentElementProperties(System::Xml::ElementProperties value) ;
 
-constexpr ::System::Xml::ElementProperties __get_currentElementProperties() const;
+constexpr System::Xml::ElementProperties __get_currentElementProperties() const;
 
- ::System::Xml::AttributeProperties __declspec(property(get=__get_currentAttributeProperties, put=__set_currentAttributeProperties))  currentAttributeProperties;
+ System::Xml::AttributeProperties __declspec(property(get=__get_currentAttributeProperties, put=__set_currentAttributeProperties))  currentAttributeProperties;
 
-constexpr void __set_currentAttributeProperties(::System::Xml::AttributeProperties value) ;
+constexpr void __set_currentAttributeProperties(System::Xml::AttributeProperties value) ;
 
-constexpr ::System::Xml::AttributeProperties __get_currentAttributeProperties() const;
+constexpr System::Xml::AttributeProperties __get_currentAttributeProperties() const;
 
  bool __declspec(property(get=__get_endsWithAmpersand, put=__set_endsWithAmpersand))  endsWithAmpersand;
 
@@ -117,35 +116,35 @@ constexpr void __set_doNotEscapeUriAttributes(bool value) ;
 
 constexpr bool __get_doNotEscapeUriAttributes() const;
 
-static ::System::Xml::TernaryTreeReadOnly __declspec(property(get=__get_elementPropertySearch, put=__set_elementPropertySearch))  elementPropertySearch;
+static System::Xml::TernaryTreeReadOnly __declspec(property(get=__get_elementPropertySearch, put=__set_elementPropertySearch))  elementPropertySearch;
 
-static void __set_elementPropertySearch(::System::Xml::TernaryTreeReadOnly value) ;
+static void __set_elementPropertySearch(System::Xml::TernaryTreeReadOnly value) ;
 
-static ::System::Xml::TernaryTreeReadOnly __get_elementPropertySearch() ;
+static System::Xml::TernaryTreeReadOnly __get_elementPropertySearch() ;
 
-static ::System::Xml::TernaryTreeReadOnly __declspec(property(get=__get_attributePropertySearch, put=__set_attributePropertySearch))  attributePropertySearch;
+static System::Xml::TernaryTreeReadOnly __declspec(property(get=__get_attributePropertySearch, put=__set_attributePropertySearch))  attributePropertySearch;
 
-static void __set_attributePropertySearch(::System::Xml::TernaryTreeReadOnly value) ;
+static void __set_attributePropertySearch(System::Xml::TernaryTreeReadOnly value) ;
 
-static ::System::Xml::TernaryTreeReadOnly __get_attributePropertySearch() ;
+static System::Xml::TernaryTreeReadOnly __get_attributePropertySearch() ;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "writer", ty: "::System::IO::TextWriter", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "::System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
-explicit HtmlEncodedRawTextWriter(::System::IO::TextWriter writer, ::System::Xml::XmlWriterSettings settings) ;
+// Ctor Parameters [CppParam { name: "writer", ty: "System::IO::TextWriter", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
+explicit HtmlEncodedRawTextWriter(System::IO::TextWriter writer, System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method .ctor addr 0x26bc704 size 0x28 virtual false final false
- void _ctor(::System::IO::TextWriter writer, ::System::Xml::XmlWriterSettings settings) ;
+ void _ctor(System::IO::TextWriter writer, System::Xml::XmlWriterSettings settings) ;
 
-// Ctor Parameters [CppParam { name: "stream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "::System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
-explicit HtmlEncodedRawTextWriter(::System::IO::Stream stream, ::System::Xml::XmlWriterSettings settings) ;
+// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
+explicit HtmlEncodedRawTextWriter(System::IO::Stream stream, System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method .ctor addr 0x26bc978 size 0x28 virtual false final false
- void _ctor(::System::IO::Stream stream, ::System::Xml::XmlWriterSettings settings) ;
+ void _ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method WriteXmlDeclaration addr 0x26bcc24 size 0x4 virtual true final false
- void WriteXmlDeclaration(::System::Xml::XmlStandalone standalone) ;
+ void WriteXmlDeclaration(System::Xml::XmlStandalone standalone) ;
 
 /// @brief Method WriteXmlDeclaration addr 0x26bcc28 size 0x4 virtual true final false
  void WriteXmlDeclaration(::StringW xmldecl) ;
@@ -190,7 +189,7 @@ explicit HtmlEncodedRawTextWriter(::System::IO::Stream stream, ::System::Xml::Xm
  void WriteChars(::ArrayW<char16_t> buffer, int32_t index, int32_t count) ;
 
 /// @brief Method Init addr 0x26bc804 size 0x174 virtual false final false
- void Init(::System::Xml::XmlWriterSettings settings) ;
+ void Init(System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method WriteMetaElement addr 0x26bd264 size 0xfc virtual false final false
  void WriteMetaElement() ;
@@ -214,6 +213,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::HtmlEncodedRawTextWriter);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::HtmlEncodedRawTextWriter, "System.Xml", "HtmlEncodedRawTextWriter");
+NEED_NO_BOX(System::Xml::HtmlEncodedRawTextWriter);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::HtmlEncodedRawTextWriter, "System.Xml", "HtmlEncodedRawTextWriter");

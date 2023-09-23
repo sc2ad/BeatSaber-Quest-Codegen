@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System {
 template<typename T>
 class IEquatable_1;
@@ -19,8 +18,8 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE UxmlTypeRestriction : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::UIElements::UxmlTypeRestriction>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::UIElements::UxmlTypeRestriction>() const noexcept;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::UIElements::UxmlTypeRestriction>
+constexpr operator  System::IEquatable_1<UnityEngine::UIElements::UxmlTypeRestriction>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -56,7 +55,7 @@ constexpr explicit UxmlTypeRestriction(void* ptr) noexcept : ::bs_hook::Il2CppWr
 // Methods
 
 /// @brief Method Equals addr 0x2c964b8 size 0xc virtual true final false
- bool Equals(::UnityEngine::UIElements::UxmlTypeRestriction other) ;
+ bool Equals(UnityEngine::UIElements::UxmlTypeRestriction other) ;
 
 // Ctor Parameters []
 explicit UxmlTypeRestriction() ;
@@ -68,6 +67,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::UxmlTypeRestriction);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UxmlTypeRestriction, "UnityEngine.UIElements", "UxmlTypeRestriction");
+NEED_NO_BOX(UnityEngine::UIElements::UxmlTypeRestriction);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UxmlTypeRestriction, "UnityEngine.UIElements", "UxmlTypeRestriction");

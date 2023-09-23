@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__TypeAccessException_def.hpp"
-namespace {
 // Forward declare root types
 namespace System::Reflection {
 class MissingMetadataException;
@@ -12,7 +11,7 @@ namespace System::Reflection {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2494))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3497))
 // CS Name: System.Reflection.MissingMetadataException
-class CORDL_TYPE MissingMetadataException : public ::System::TypeAccessException {
+class CORDL_TYPE MissingMetadataException : public System::TypeAccessException {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr MissingMetadataException(MissingMetadataException const& ) noexcept = 
 constexpr MissingMetadataException(MissingMetadataException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MissingMetadataException(void* ptr) noexcept : ::System::TypeAccessException(ptr) {
+constexpr explicit MissingMetadataException(void* ptr) noexcept : System::TypeAccessException(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Reflection
-} // end anonymous namespace
-NEED_NO_BOX(::System::Reflection::MissingMetadataException);
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::MissingMetadataException, "System.Reflection", "MissingMetadataException");
+NEED_NO_BOX(System::Reflection::MissingMetadataException);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MissingMetadataException, "System.Reflection", "MissingMetadataException");

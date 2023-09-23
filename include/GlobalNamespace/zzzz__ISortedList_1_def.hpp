@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class LinkedListNode_1;
@@ -37,7 +36,7 @@ constexpr explicit ISortedList_1(void* ptr) noexcept : ::cordl_internals::Interf
 
  int32_t __declspec(property(get=get_count))  count;
 
- ::System::Collections::Generic::LinkedList_1<T> __declspec(property(get=get_items))  items;
+ System::Collections::Generic::LinkedList_1<T> __declspec(property(get=get_items))  items;
 
 
 // Methods
@@ -46,20 +45,19 @@ constexpr explicit ISortedList_1(void* ptr) noexcept : ::cordl_internals::Interf
  int32_t get_count() ;
 
 /// @brief Method get_items addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Collections::Generic::LinkedList_1<T> get_items() ;
+ System::Collections::Generic::LinkedList_1<T> get_items() ;
 
 /// @brief Method Insert addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Collections::Generic::LinkedListNode_1<T> Insert(T newItem) ;
+ System::Collections::Generic::LinkedListNode_1<T> Insert(T newItem) ;
 
 /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual true final false
- void Remove(::System::Collections::Generic::LinkedListNode_1<T> node) ;
+ void Remove(System::Collections::Generic::LinkedListNode_1<T> node) ;
 
 /// @brief Method TouchLastUsedNode addr 0x0 size 0xffffffffffffffff virtual true final false
- void TouchLastUsedNode(::System::Collections::Generic::LinkedListNode_1<T> node) ;
+ void TouchLastUsedNode(System::Collections::Generic::LinkedListNode_1<T> node) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::ISortedList_1, "", "ISortedList`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::ISortedList_1, "", "ISortedList`1");

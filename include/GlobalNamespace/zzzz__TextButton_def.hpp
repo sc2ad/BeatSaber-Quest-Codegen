@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace UnityEngine::UI {
 class Text;
 }
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5540))
 // CS Name: TextButton
-class CORDL_TYPE TextButton : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE TextButton : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr TextButton(TextButton const& ) noexcept = default;
 constexpr TextButton(TextButton&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TextButton(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit TextButton(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -54,33 +53,33 @@ constexpr explicit TextButton(void* ptr) noexcept : ::UnityEngine::MonoBehaviour
 
 // Fields
 
- ::UnityEngine::UI::Text __declspec(property(get=__get__text, put=__set__text))  _text;
+ UnityEngine::UI::Text __declspec(property(get=__get__text, put=__set__text))  _text;
 
-constexpr void __set__text(::UnityEngine::UI::Text value) ;
+constexpr void __set__text(UnityEngine::UI::Text value) ;
 
-constexpr ::UnityEngine::UI::Text __get__text() const;
+constexpr UnityEngine::UI::Text __get__text() const;
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__button, put=__set__button))  _button;
+ UnityEngine::UI::Button __declspec(property(get=__get__button, put=__set__button))  _button;
 
-constexpr void __set__button(::UnityEngine::UI::Button value) ;
+constexpr void __set__button(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__button() const;
+constexpr UnityEngine::UI::Button __get__button() const;
 
 
 // Properties
 
- ::UnityEngine::UI::Text __declspec(property(get=get_text))  text;
+ UnityEngine::UI::Text __declspec(property(get=get_text))  text;
 
- ::UnityEngine::UI::Button __declspec(property(get=get_button))  button;
+ UnityEngine::UI::Button __declspec(property(get=get_button))  button;
 
 
 // Methods
 
 /// @brief Method get_text addr 0x2127a08 size 0x8 virtual false final false
- ::UnityEngine::UI::Text get_text() ;
+ UnityEngine::UI::Text get_text() ;
 
 /// @brief Method get_button addr 0x2127a10 size 0x8 virtual false final false
- ::UnityEngine::UI::Button get_button() ;
+ UnityEngine::UI::Button get_button() ;
 
 // Ctor Parameters []
 explicit TextButton() ;
@@ -92,6 +91,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::TextButton);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TextButton, "", "TextButton");
+NEED_NO_BOX(GlobalNamespace::TextButton);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextButton, "", "TextButton");

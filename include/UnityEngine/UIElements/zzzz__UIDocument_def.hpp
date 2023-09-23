@@ -3,7 +3,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace UnityEngine::UIElements {
+class PanelSettings;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -13,9 +15,6 @@ class VisualElement;
 }
 namespace UnityEngine::UIElements {
 class VisualTreeAsset;
-}
-namespace UnityEngine::UIElements {
-class PanelSettings;
 }
 namespace UnityEngine::UIElements {
 class UIDocumentList;
@@ -30,7 +29,7 @@ namespace UnityEngine::UIElements {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7108))
 // CS Name: UnityEngine.UIElements.UIDocument
-class CORDL_TYPE UIDocument : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE UIDocument : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -45,7 +44,7 @@ constexpr UIDocument(UIDocument const& ) noexcept = default;
 constexpr UIDocument(UIDocument&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UIDocument(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit UIDocument(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -87,47 +86,47 @@ constexpr void __set_m_UIDocumentCreationIndex(int32_t value) ;
 
 constexpr int32_t __get_m_UIDocumentCreationIndex() const;
 
- ::UnityEngine::UIElements::PanelSettings __declspec(property(get=__get_m_PanelSettings, put=__set_m_PanelSettings))  m_PanelSettings;
+ UnityEngine::UIElements::PanelSettings __declspec(property(get=__get_m_PanelSettings, put=__set_m_PanelSettings))  m_PanelSettings;
 
-constexpr void __set_m_PanelSettings(::UnityEngine::UIElements::PanelSettings value) ;
+constexpr void __set_m_PanelSettings(UnityEngine::UIElements::PanelSettings value) ;
 
-constexpr ::UnityEngine::UIElements::PanelSettings __get_m_PanelSettings() const;
+constexpr UnityEngine::UIElements::PanelSettings __get_m_PanelSettings() const;
 
- ::UnityEngine::UIElements::PanelSettings __declspec(property(get=__get_m_PreviousPanelSettings, put=__set_m_PreviousPanelSettings))  m_PreviousPanelSettings;
+ UnityEngine::UIElements::PanelSettings __declspec(property(get=__get_m_PreviousPanelSettings, put=__set_m_PreviousPanelSettings))  m_PreviousPanelSettings;
 
-constexpr void __set_m_PreviousPanelSettings(::UnityEngine::UIElements::PanelSettings value) ;
+constexpr void __set_m_PreviousPanelSettings(UnityEngine::UIElements::PanelSettings value) ;
 
-constexpr ::UnityEngine::UIElements::PanelSettings __get_m_PreviousPanelSettings() const;
+constexpr UnityEngine::UIElements::PanelSettings __get_m_PreviousPanelSettings() const;
 
- ::UnityEngine::UIElements::UIDocument __declspec(property(get=__get_m_ParentUI, put=__set_m_ParentUI))  m_ParentUI;
+ UnityEngine::UIElements::UIDocument __declspec(property(get=__get_m_ParentUI, put=__set_m_ParentUI))  m_ParentUI;
 
-constexpr void __set_m_ParentUI(::UnityEngine::UIElements::UIDocument value) ;
+constexpr void __set_m_ParentUI(UnityEngine::UIElements::UIDocument value) ;
 
-constexpr ::UnityEngine::UIElements::UIDocument __get_m_ParentUI() const;
+constexpr UnityEngine::UIElements::UIDocument __get_m_ParentUI() const;
 
- ::UnityEngine::UIElements::UIDocumentList __declspec(property(get=__get_m_ChildrenContent, put=__set_m_ChildrenContent))  m_ChildrenContent;
+ UnityEngine::UIElements::UIDocumentList __declspec(property(get=__get_m_ChildrenContent, put=__set_m_ChildrenContent))  m_ChildrenContent;
 
-constexpr void __set_m_ChildrenContent(::UnityEngine::UIElements::UIDocumentList value) ;
+constexpr void __set_m_ChildrenContent(UnityEngine::UIElements::UIDocumentList value) ;
 
-constexpr ::UnityEngine::UIElements::UIDocumentList __get_m_ChildrenContent() const;
+constexpr UnityEngine::UIElements::UIDocumentList __get_m_ChildrenContent() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIDocument> __declspec(property(get=__get_m_ChildrenContentCopy, put=__set_m_ChildrenContentCopy))  m_ChildrenContentCopy;
+ System::Collections::Generic::List_1<UnityEngine::UIElements::UIDocument> __declspec(property(get=__get_m_ChildrenContentCopy, put=__set_m_ChildrenContentCopy))  m_ChildrenContentCopy;
 
-constexpr void __set_m_ChildrenContentCopy(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIDocument> value) ;
+constexpr void __set_m_ChildrenContentCopy(System::Collections::Generic::List_1<UnityEngine::UIElements::UIDocument> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIDocument> __get_m_ChildrenContentCopy() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::UIElements::UIDocument> __get_m_ChildrenContentCopy() const;
 
- ::UnityEngine::UIElements::VisualTreeAsset __declspec(property(get=__get_sourceAsset, put=__set_sourceAsset))  sourceAsset;
+ UnityEngine::UIElements::VisualTreeAsset __declspec(property(get=__get_sourceAsset, put=__set_sourceAsset))  sourceAsset;
 
-constexpr void __set_sourceAsset(::UnityEngine::UIElements::VisualTreeAsset value) ;
+constexpr void __set_sourceAsset(UnityEngine::UIElements::VisualTreeAsset value) ;
 
-constexpr ::UnityEngine::UIElements::VisualTreeAsset __get_sourceAsset() const;
+constexpr UnityEngine::UIElements::VisualTreeAsset __get_sourceAsset() const;
 
- ::UnityEngine::UIElements::VisualElement __declspec(property(get=__get_m_RootVisualElement, put=__set_m_RootVisualElement))  m_RootVisualElement;
+ UnityEngine::UIElements::VisualElement __declspec(property(get=__get_m_RootVisualElement, put=__set_m_RootVisualElement))  m_RootVisualElement;
 
-constexpr void __set_m_RootVisualElement(::UnityEngine::UIElements::VisualElement value) ;
+constexpr void __set_m_RootVisualElement(UnityEngine::UIElements::VisualElement value) ;
 
-constexpr ::UnityEngine::UIElements::VisualElement __get_m_RootVisualElement() const;
+constexpr UnityEngine::UIElements::VisualElement __get_m_RootVisualElement() const;
 
  int32_t __declspec(property(get=__get_m_FirstChildInsertIndex, put=__set_m_FirstChildInsertIndex))  m_FirstChildInsertIndex;
 
@@ -144,13 +143,13 @@ constexpr float_t __get_m_SortingOrder() const;
 
 // Properties
 
- ::UnityEngine::UIElements::PanelSettings __declspec(property(get=get_panelSettings, put=set_panelSettings))  panelSettings;
+ UnityEngine::UIElements::PanelSettings __declspec(property(get=get_panelSettings, put=set_panelSettings))  panelSettings;
 
- ::UnityEngine::UIElements::UIDocument __declspec(property(get=get_parentUI, put=set_parentUI))  parentUI;
+ UnityEngine::UIElements::UIDocument __declspec(property(get=get_parentUI, put=set_parentUI))  parentUI;
 
- ::UnityEngine::UIElements::VisualTreeAsset __declspec(property(get=get_visualTreeAsset, put=set_visualTreeAsset))  visualTreeAsset;
+ UnityEngine::UIElements::VisualTreeAsset __declspec(property(get=get_visualTreeAsset, put=set_visualTreeAsset))  visualTreeAsset;
 
- ::UnityEngine::UIElements::VisualElement __declspec(property(get=get_rootVisualElement))  rootVisualElement;
+ UnityEngine::UIElements::VisualElement __declspec(property(get=get_rootVisualElement))  rootVisualElement;
 
  int32_t __declspec(property(get=get_firstChildInserIndex))  firstChildInserIndex;
 
@@ -160,25 +159,25 @@ constexpr float_t __get_m_SortingOrder() const;
 // Methods
 
 /// @brief Method get_panelSettings addr 0x2c9e4e8 size 0x8 virtual false final false
- ::UnityEngine::UIElements::PanelSettings get_panelSettings() ;
+ UnityEngine::UIElements::PanelSettings get_panelSettings() ;
 
 /// @brief Method set_panelSettings addr 0x2c9e4f0 size 0x29c virtual false final false
- void set_panelSettings(::UnityEngine::UIElements::PanelSettings value) ;
+ void set_panelSettings(UnityEngine::UIElements::PanelSettings value) ;
 
 /// @brief Method get_parentUI addr 0x2c9e89c size 0x8 virtual false final false
- ::UnityEngine::UIElements::UIDocument get_parentUI() ;
+ UnityEngine::UIElements::UIDocument get_parentUI() ;
 
 /// @brief Method set_parentUI addr 0x2c9e8a4 size 0x8 virtual false final false
- void set_parentUI(::UnityEngine::UIElements::UIDocument value) ;
+ void set_parentUI(UnityEngine::UIElements::UIDocument value) ;
 
 /// @brief Method get_visualTreeAsset addr 0x2c9e8ac size 0x8 virtual false final false
- ::UnityEngine::UIElements::VisualTreeAsset get_visualTreeAsset() ;
+ UnityEngine::UIElements::VisualTreeAsset get_visualTreeAsset() ;
 
 /// @brief Method set_visualTreeAsset addr 0x2c9e8b4 size 0x8 virtual false final false
- void set_visualTreeAsset(::UnityEngine::UIElements::VisualTreeAsset value) ;
+ void set_visualTreeAsset(UnityEngine::UIElements::VisualTreeAsset value) ;
 
 /// @brief Method get_rootVisualElement addr 0x2c9e110 size 0x8 virtual false final false
- ::UnityEngine::UIElements::VisualElement get_rootVisualElement() ;
+ UnityEngine::UIElements::VisualElement get_rootVisualElement() ;
 
 /// @brief Method get_firstChildInserIndex addr 0x2c9ecc0 size 0x8 virtual false final false
  int32_t get_firstChildInserIndex() ;
@@ -208,16 +207,16 @@ explicit UIDocument() ;
  void SetupFromHierarchy() ;
 
 /// @brief Method FindUIDocumentParent addr 0x2c9ef94 size 0xd0 virtual false final false
- ::UnityEngine::UIElements::UIDocument FindUIDocumentParent() ;
+ UnityEngine::UIElements::UIDocument FindUIDocumentParent() ;
 
 /// @brief Method Reset addr 0x2c9f064 size 0x104 virtual false final false
  void Reset() ;
 
 /// @brief Method AddChildAndInsertContentToVisualTree addr 0x2c9f168 size 0x90 virtual false final false
- void AddChildAndInsertContentToVisualTree(::UnityEngine::UIElements::UIDocument child) ;
+ void AddChildAndInsertContentToVisualTree(UnityEngine::UIElements::UIDocument child) ;
 
 /// @brief Method RemoveChild addr 0x2c9ef84 size 0x10 virtual false final false
- void RemoveChild(::UnityEngine::UIElements::UIDocument child) ;
+ void RemoveChild(UnityEngine::UIElements::UIDocument child) ;
 
 /// @brief Method RecreateUI addr 0x2c9e8bc size 0x404 virtual false final false
  void RecreateUI() ;
@@ -247,6 +246,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::UIDocument);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIDocument, "UnityEngine.UIElements", "UIDocument");
+NEED_NO_BOX(UnityEngine::UIElements::UIDocument);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIDocument, "UnityEngine.UIElements", "UIDocument");

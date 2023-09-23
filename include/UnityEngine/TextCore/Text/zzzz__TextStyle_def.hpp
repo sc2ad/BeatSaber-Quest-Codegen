@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
 class TextStyle;
@@ -51,11 +50,11 @@ constexpr explicit TextStyle(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 
 // Fields
 
-static ::UnityEngine::TextCore::Text::TextStyle __declspec(property(get=__get_k_NormalStyle, put=__set_k_NormalStyle))  k_NormalStyle;
+static UnityEngine::TextCore::Text::TextStyle __declspec(property(get=__get_k_NormalStyle, put=__set_k_NormalStyle))  k_NormalStyle;
 
-static void __set_k_NormalStyle(::UnityEngine::TextCore::Text::TextStyle value) ;
+static void __set_k_NormalStyle(UnityEngine::TextCore::Text::TextStyle value) ;
 
-static ::UnityEngine::TextCore::Text::TextStyle __get_k_NormalStyle() ;
+static UnityEngine::TextCore::Text::TextStyle __get_k_NormalStyle() ;
 
  ::StringW __declspec(property(get=__get_m_Name, put=__set_m_Name))  m_Name;
 
@@ -133,6 +132,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::Text
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::TextCore::Text::TextStyle);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::TextStyle, "UnityEngine.TextCore.Text", "TextStyle");
+NEED_NO_BOX(UnityEngine::TextCore::Text::TextStyle);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Text::TextStyle, "UnityEngine.TextCore.Text", "TextStyle");

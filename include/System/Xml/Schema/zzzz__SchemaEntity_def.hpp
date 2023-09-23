@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Xml {
-class IDtdEntityInfo;
-}
 namespace System::Xml {
 class XmlQualifiedName;
+}
+namespace System::Xml {
+class IDtdEntityInfo;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -23,8 +22,8 @@ namespace System::Xml::Schema {
 class CORDL_TYPE SchemaEntity : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Xml::IDtdEntityInfo
-constexpr operator  ::System::Xml::IDtdEntityInfo() const noexcept;
+/// @brief Convert operator to System::Xml::IDtdEntityInfo
+constexpr operator  System::Xml::IDtdEntityInfo() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x58};
@@ -59,11 +58,11 @@ constexpr explicit SchemaEntity(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 
 // Fields
 
- ::System::Xml::XmlQualifiedName __declspec(property(get=__get_qname, put=__set_qname))  qname;
+ System::Xml::XmlQualifiedName __declspec(property(get=__get_qname, put=__set_qname))  qname;
 
-constexpr void __set_qname(::System::Xml::XmlQualifiedName value) ;
+constexpr void __set_qname(System::Xml::XmlQualifiedName value) ;
 
-constexpr ::System::Xml::XmlQualifiedName __get_qname() const;
+constexpr System::Xml::XmlQualifiedName __get_qname() const;
 
  ::StringW __declspec(property(get=__get_url, put=__set_url))  url;
 
@@ -83,11 +82,11 @@ constexpr void __set_text(::StringW value) ;
 
 constexpr ::StringW __get_text() const;
 
- ::System::Xml::XmlQualifiedName __declspec(property(get=__get_ndata, put=__set_ndata))  ndata;
+ System::Xml::XmlQualifiedName __declspec(property(get=__get_ndata, put=__set_ndata))  ndata;
 
-constexpr void __set_ndata(::System::Xml::XmlQualifiedName value) ;
+constexpr void __set_ndata(System::Xml::XmlQualifiedName value) ;
 
-constexpr ::System::Xml::XmlQualifiedName __get_ndata() const;
+constexpr System::Xml::XmlQualifiedName __get_ndata() const;
 
  int32_t __declspec(property(get=__get_lineNumber, put=__set_lineNumber))  lineNumber;
 
@@ -164,7 +163,7 @@ constexpr ::StringW __get_declaredURI() const;
 
  int32_t __declspec(property(get=System_Xml_IDtdEntityInfo_get_LinePosition))  System_Xml_IDtdEntityInfo_LinePosition;
 
- ::System::Xml::XmlQualifiedName __declspec(property(get=get_Name))  Name;
+ System::Xml::XmlQualifiedName __declspec(property(get=get_Name))  Name;
 
  ::StringW __declspec(property(get=get_Url, put=set_Url))  Url;
 
@@ -174,7 +173,7 @@ constexpr ::StringW __get_declaredURI() const;
 
  bool __declspec(property(get=get_DeclaredInExternal, put=set_DeclaredInExternal))  DeclaredInExternal;
 
- ::System::Xml::XmlQualifiedName __declspec(property(get=get_NData, put=set_NData))  NData;
+ System::Xml::XmlQualifiedName __declspec(property(get=get_NData, put=set_NData))  NData;
 
  ::StringW __declspec(property(get=get_Text, put=set_Text))  Text;
 
@@ -191,11 +190,11 @@ constexpr ::StringW __get_declaredURI() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "qname", ty: "::System::Xml::XmlQualifiedName", modifiers: "", def_value: None }, CppParam { name: "isParameter", ty: "bool", modifiers: "", def_value: None }]
-explicit SchemaEntity(::System::Xml::XmlQualifiedName qname, bool isParameter) ;
+// Ctor Parameters [CppParam { name: "qname", ty: "System::Xml::XmlQualifiedName", modifiers: "", def_value: None }, CppParam { name: "isParameter", ty: "bool", modifiers: "", def_value: None }]
+explicit SchemaEntity(System::Xml::XmlQualifiedName qname, bool isParameter) ;
 
 /// @brief Method .ctor addr 0x2731868 size 0x84 virtual false final false
- void _ctor(::System::Xml::XmlQualifiedName qname, bool isParameter) ;
+ void _ctor(System::Xml::XmlQualifiedName qname, bool isParameter) ;
 
 /// @brief Method System.Xml.IDtdEntityInfo.get_Name addr 0x27318ec size 0x1c virtual true final true
  ::StringW System_Xml_IDtdEntityInfo_get_Name() ;
@@ -234,7 +233,7 @@ explicit SchemaEntity(::System::Xml::XmlQualifiedName qname, bool isParameter) ;
  int32_t System_Xml_IDtdEntityInfo_get_LinePosition() ;
 
 /// @brief Method get_Name addr 0x2731ac0 size 0x8 virtual false final false
- ::System::Xml::XmlQualifiedName get_Name() ;
+ System::Xml::XmlQualifiedName get_Name() ;
 
 /// @brief Method get_Url addr 0x2731ac8 size 0x8 virtual false final false
  ::StringW get_Url() ;
@@ -261,10 +260,10 @@ explicit SchemaEntity(::System::Xml::XmlQualifiedName qname, bool isParameter) ;
  void set_DeclaredInExternal(bool value) ;
 
 /// @brief Method get_NData addr 0x2731b18 size 0x8 virtual false final false
- ::System::Xml::XmlQualifiedName get_NData() ;
+ System::Xml::XmlQualifiedName get_NData() ;
 
 /// @brief Method set_NData addr 0x2731b20 size 0x8 virtual false final false
- void set_NData(::System::Xml::XmlQualifiedName value) ;
+ void set_NData(System::Xml::XmlQualifiedName value) ;
 
 /// @brief Method get_Text addr 0x2731b28 size 0x8 virtual false final false
  ::StringW get_Text() ;
@@ -306,6 +305,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::SchemaEntity);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::SchemaEntity, "System.Xml.Schema", "SchemaEntity");
+NEED_NO_BOX(System::Xml::Schema::SchemaEntity);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::SchemaEntity, "System.Xml.Schema", "SchemaEntity");

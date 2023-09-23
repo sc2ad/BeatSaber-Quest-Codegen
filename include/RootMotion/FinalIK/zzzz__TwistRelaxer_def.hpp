@@ -2,15 +2,14 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 class Transform;
 }
-namespace RootMotion::FinalIK {
-class IK;
-}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace RootMotion::FinalIK {
+class IK;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -22,7 +21,7 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12536))
 // CS Name: RootMotion.FinalIK.TwistRelaxer
-class CORDL_TYPE TwistRelaxer : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE TwistRelaxer : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr TwistRelaxer(TwistRelaxer const& ) noexcept = default;
 constexpr TwistRelaxer(TwistRelaxer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TwistRelaxer(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit TwistRelaxer(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -58,23 +57,23 @@ constexpr explicit TwistRelaxer(void* ptr) noexcept : ::UnityEngine::MonoBehavio
 
 // Fields
 
- ::RootMotion::FinalIK::IK __declspec(property(get=__get_ik, put=__set_ik))  ik;
+ RootMotion::FinalIK::IK __declspec(property(get=__get_ik, put=__set_ik))  ik;
 
-constexpr void __set_ik(::RootMotion::FinalIK::IK value) ;
+constexpr void __set_ik(RootMotion::FinalIK::IK value) ;
 
-constexpr ::RootMotion::FinalIK::IK __get_ik() const;
+constexpr RootMotion::FinalIK::IK __get_ik() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_parent, put=__set_parent))  parent;
+ UnityEngine::Transform __declspec(property(get=__get_parent, put=__set_parent))  parent;
 
-constexpr void __set_parent(::UnityEngine::Transform value) ;
+constexpr void __set_parent(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_parent() const;
+constexpr UnityEngine::Transform __get_parent() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_child, put=__set_child))  child;
+ UnityEngine::Transform __declspec(property(get=__get_child, put=__set_child))  child;
 
-constexpr void __set_child(::UnityEngine::Transform value) ;
+constexpr void __set_child(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_child() const;
+constexpr UnityEngine::Transform __get_child() const;
 
  float_t __declspec(property(get=__get_weight, put=__set_weight))  weight;
 
@@ -94,29 +93,29 @@ constexpr void __set_twistAngleOffset(float_t value) ;
 
 constexpr float_t __get_twistAngleOffset() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_twistAxis, put=__set_twistAxis))  twistAxis;
+ UnityEngine::Vector3 __declspec(property(get=__get_twistAxis, put=__set_twistAxis))  twistAxis;
 
-constexpr void __set_twistAxis(::UnityEngine::Vector3 value) ;
+constexpr void __set_twistAxis(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_twistAxis() const;
+constexpr UnityEngine::Vector3 __get_twistAxis() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_axis, put=__set_axis))  axis;
+ UnityEngine::Vector3 __declspec(property(get=__get_axis, put=__set_axis))  axis;
 
-constexpr void __set_axis(::UnityEngine::Vector3 value) ;
+constexpr void __set_axis(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_axis() const;
+constexpr UnityEngine::Vector3 __get_axis() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_axisRelativeToParentDefault, put=__set_axisRelativeToParentDefault))  axisRelativeToParentDefault;
+ UnityEngine::Vector3 __declspec(property(get=__get_axisRelativeToParentDefault, put=__set_axisRelativeToParentDefault))  axisRelativeToParentDefault;
 
-constexpr void __set_axisRelativeToParentDefault(::UnityEngine::Vector3 value) ;
+constexpr void __set_axisRelativeToParentDefault(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_axisRelativeToParentDefault() const;
+constexpr UnityEngine::Vector3 __get_axisRelativeToParentDefault() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_axisRelativeToChildDefault, put=__set_axisRelativeToChildDefault))  axisRelativeToChildDefault;
+ UnityEngine::Vector3 __declspec(property(get=__get_axisRelativeToChildDefault, put=__set_axisRelativeToChildDefault))  axisRelativeToChildDefault;
 
-constexpr void __set_axisRelativeToChildDefault(::UnityEngine::Vector3 value) ;
+constexpr void __set_axisRelativeToChildDefault(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_axisRelativeToChildDefault() const;
+constexpr UnityEngine::Vector3 __get_axisRelativeToChildDefault() const;
 
 
 // Methods
@@ -146,6 +145,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::TwistRelaxer);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::TwistRelaxer, "RootMotion.FinalIK", "TwistRelaxer");
+NEED_NO_BOX(RootMotion::FinalIK::TwistRelaxer);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::TwistRelaxer, "RootMotion.FinalIK", "TwistRelaxer");

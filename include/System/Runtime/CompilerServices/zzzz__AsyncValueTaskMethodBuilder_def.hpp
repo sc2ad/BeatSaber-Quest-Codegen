@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
 }
@@ -18,8 +17,8 @@ namespace System::Runtime::CompilerServices {
 struct CORDL_TYPE AsyncValueTaskMethodBuilder : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "_methodBuilder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "_haveResult", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_useBuilder", ty: "bool", modifiers: "", def_value: None }]
-constexpr AsyncValueTaskMethodBuilder(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder _methodBuilder, bool _haveResult, bool _useBuilder) noexcept;
+// Ctor Parameters [CppParam { name: "_methodBuilder", ty: "System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "_haveResult", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_useBuilder", ty: "bool", modifiers: "", def_value: None }]
+constexpr AsyncValueTaskMethodBuilder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder _methodBuilder, bool _haveResult, bool _useBuilder) noexcept;
 
 
                     constexpr AsyncValueTaskMethodBuilder(AsyncValueTaskMethodBuilder const&) = default;
@@ -52,11 +51,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __declspec(property(get=__get__methodBuilder, put=__set__methodBuilder))  _methodBuilder;
+ System::Runtime::CompilerServices::AsyncTaskMethodBuilder __declspec(property(get=__get__methodBuilder, put=__set__methodBuilder))  _methodBuilder;
 
-constexpr void __set__methodBuilder(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder value) ;
+constexpr void __set__methodBuilder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder value) ;
 
-constexpr ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __get__methodBuilder() const;
+constexpr System::Runtime::CompilerServices::AsyncTaskMethodBuilder __get__methodBuilder() const;
 
  bool __declspec(property(get=__get__haveResult, put=__set__haveResult))  _haveResult;
 
@@ -74,5 +73,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::CompilerServices
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder, "System.Runtime.CompilerServices", "AsyncValueTaskMethodBuilder");
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder, "System.Runtime.CompilerServices", "AsyncValueTaskMethodBuilder");

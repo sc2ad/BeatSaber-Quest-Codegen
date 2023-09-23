@@ -6,30 +6,20 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine::UIElements {
-class IStylePainter;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine::UIElements::UIR {
-class RenderChain;
-}
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine::UIElements::UIR {
-class RenderChainCommand;
+struct UnityEngine__UIElements__MeshGenerationContextUtils__BorderParams;
 }
 namespace UnityEngine::UIElements {
-struct ____UnityEngine__UIElements__MeshGenerationContextUtils__TextParams;
+class AtlasBase;
 }
 namespace UnityEngine::UIElements {
 class MeshGenerationContext;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace System {
+class Action;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -37,52 +27,61 @@ struct Vector2;
 namespace UnityEngine::UIElements {
 struct Vertex;
 }
-namespace UnityEngine::UIElements::UIR {
-struct ____UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData;
+namespace UnityEngine {
+class Texture;
 }
-namespace Unity::Collections {
-template<typename T>
-struct NativeSlice_1;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
-class ITextHandle;
-}
-namespace UnityEngine::UIElements {
-struct ____UnityEngine__UIElements__MeshGenerationContext__MeshFlags;
-}
-namespace UnityEngine::UIElements {
-class MeshWriteData;
-}
-namespace UnityEngine::UIElements {
-struct ____UnityEngine__UIElements__MeshGenerationContextUtils__BorderParams;
-}
-namespace UnityEngine::UIElements {
-struct TextureId;
+namespace System {
+class IDisposable;
 }
 namespace UnityEngine::UIElements::UIR {
-class VectorImageManager;
-}
-namespace UnityEngine::UIElements {
-struct ____UnityEngine__UIElements__MeshGenerationContextUtils__RectangleParams;
-}
-namespace GlobalNamespace {
-class ______UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData__Allocator;
+class RenderChainCommand;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine {
-class Texture;
+namespace UnityEngine::UIElements::UIR {
+class VectorImageManager;
 }
 namespace UnityEngine::UIElements::UIR {
 struct BMPAlloc;
 }
 namespace UnityEngine::UIElements {
-class AtlasBase;
+class ITextHandle;
+}
+namespace Unity::Collections {
+template<typename T>
+struct NativeSlice_1;
+}
+namespace UnityEngine::UIElements::UIR {
+class RenderChain;
+}
+namespace UnityEngine::UIElements {
+struct TextureId;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine::UIElements {
+class IStylePainter;
+}
+namespace UnityEngine::UIElements::UIR {
+struct UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__MeshGenerationContext__MeshFlags;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__MeshGenerationContextUtils__TextParams;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__MeshGenerationContextUtils__RectangleParams;
+}
+namespace GlobalNamespace {
+class UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData__Allocator;
+}
+namespace UnityEngine::UIElements {
+class MeshWriteData;
 }
 namespace UnityEngine::UIElements::UIR {
 struct VertexFlags;
@@ -97,21 +96,21 @@ class UIRStylePainter;
 }
 namespace UnityEngine::UIElements::UIR::Implementation {
 template<typename T>
-struct ____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1;
+struct UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1;
 }
 namespace UnityEngine::UIElements::UIR::Implementation {
-struct ____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo;
+struct UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo;
 }
 namespace UnityEngine::UIElements::UIR::Implementation {
-struct ____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry;
-}
-namespace UnityEngine::UIElements::UIR::Implementation {
-template<>
-struct ____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<::UnityEngine::UIElements::Vertex>;
+struct UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry;
 }
 namespace UnityEngine::UIElements::UIR::Implementation {
 template<>
-struct ____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>;
+struct UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<UnityEngine::UIElements::Vertex>;
+}
+namespace UnityEngine::UIElements::UIR::Implementation {
+template<>
+struct UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>;
 }
 // Type: ::Entry
 namespace UnityEngine::UIElements::UIR::Implementation {
@@ -119,20 +118,20 @@ namespace UnityEngine::UIElements::UIR::Implementation {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7547))
 // CS Name: UnityEngine.UIElements.UIR.Implementation.UIRStylePainter::Entry
-struct CORDL_TYPE ____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "vertices", ty: "::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>", modifiers: "", def_value: None }, CppParam { name: "indices", ty: "::Unity::Collections::NativeSlice_1<uint16_t>", modifiers: "", def_value: None }, CppParam { name: "material", ty: "::UnityEngine::Material", modifiers: "", def_value: None }, CppParam { name: "custom", ty: "::UnityEngine::Texture", modifiers: "", def_value: None }, CppParam { name: "font", ty: "::UnityEngine::Texture", modifiers: "", def_value: None }, CppParam { name: "fontTexSDFScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "texture", ty: "::UnityEngine::UIElements::TextureId", modifiers: "", def_value: None }, CppParam { name: "customCommand", ty: "::UnityEngine::UIElements::UIR::RenderChainCommand", modifiers: "", def_value: None }, CppParam { name: "clipRectID", ty: "::UnityEngine::UIElements::UIR::BMPAlloc", modifiers: "", def_value: None }, CppParam { name: "addFlags", ty: "::UnityEngine::UIElements::UIR::VertexFlags", modifiers: "", def_value: None }, CppParam { name: "uvIsDisplacement", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isTextEntry", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isClipRegisterEntry", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "stencilRef", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maskDepth", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices, ::Unity::Collections::NativeSlice_1<uint16_t> indices, ::UnityEngine::Material material, ::UnityEngine::Texture custom, ::UnityEngine::Texture font, float_t fontTexSDFScale, ::UnityEngine::UIElements::TextureId texture, ::UnityEngine::UIElements::UIR::RenderChainCommand customCommand, ::UnityEngine::UIElements::UIR::BMPAlloc clipRectID, ::UnityEngine::UIElements::UIR::VertexFlags addFlags, bool uvIsDisplacement, bool isTextEntry, bool isClipRegisterEntry, int32_t stencilRef, int32_t maskDepth) noexcept;
+// Ctor Parameters [CppParam { name: "vertices", ty: "Unity::Collections::NativeSlice_1<UnityEngine::UIElements::Vertex>", modifiers: "", def_value: None }, CppParam { name: "indices", ty: "Unity::Collections::NativeSlice_1<uint16_t>", modifiers: "", def_value: None }, CppParam { name: "material", ty: "UnityEngine::Material", modifiers: "", def_value: None }, CppParam { name: "custom", ty: "UnityEngine::Texture", modifiers: "", def_value: None }, CppParam { name: "font", ty: "UnityEngine::Texture", modifiers: "", def_value: None }, CppParam { name: "fontTexSDFScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "texture", ty: "UnityEngine::UIElements::TextureId", modifiers: "", def_value: None }, CppParam { name: "customCommand", ty: "UnityEngine::UIElements::UIR::RenderChainCommand", modifiers: "", def_value: None }, CppParam { name: "clipRectID", ty: "UnityEngine::UIElements::UIR::BMPAlloc", modifiers: "", def_value: None }, CppParam { name: "addFlags", ty: "UnityEngine::UIElements::UIR::VertexFlags", modifiers: "", def_value: None }, CppParam { name: "uvIsDisplacement", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isTextEntry", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isClipRegisterEntry", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "stencilRef", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maskDepth", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry(Unity::Collections::NativeSlice_1<UnityEngine::UIElements::Vertex> vertices, Unity::Collections::NativeSlice_1<uint16_t> indices, UnityEngine::Material material, UnityEngine::Texture custom, UnityEngine::Texture font, float_t fontTexSDFScale, UnityEngine::UIElements::TextureId texture, UnityEngine::UIElements::UIR::RenderChainCommand customCommand, UnityEngine::UIElements::UIR::BMPAlloc clipRectID, UnityEngine::UIElements::UIR::VertexFlags addFlags, bool uvIsDisplacement, bool isTextEntry, bool isClipRegisterEntry, int32_t stencilRef, int32_t maskDepth) noexcept;
 
 
-                    constexpr ____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry(____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry const&) = default;
-                    constexpr ____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry(____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry&&) = default;
-                    constexpr ____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry& operator=(____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry const& o) {
+                    constexpr UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry(UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry const&) = default;
+                    constexpr UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry(UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry&&) = default;
+                    constexpr UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry& operator=(UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry& operator=(____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry&& o) noexcept {
+                    constexpr UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry& operator=(UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -145,7 +144,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x60};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -156,35 +155,35 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> __declspec(property(get=__get_vertices, put=__set_vertices))  vertices;
+ Unity::Collections::NativeSlice_1<UnityEngine::UIElements::Vertex> __declspec(property(get=__get_vertices, put=__set_vertices))  vertices;
 
-constexpr void __set_vertices(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> value) ;
+constexpr void __set_vertices(Unity::Collections::NativeSlice_1<UnityEngine::UIElements::Vertex> value) ;
 
-constexpr ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> __get_vertices() const;
+constexpr Unity::Collections::NativeSlice_1<UnityEngine::UIElements::Vertex> __get_vertices() const;
 
- ::Unity::Collections::NativeSlice_1<uint16_t> __declspec(property(get=__get_indices, put=__set_indices))  indices;
+ Unity::Collections::NativeSlice_1<uint16_t> __declspec(property(get=__get_indices, put=__set_indices))  indices;
 
-constexpr void __set_indices(::Unity::Collections::NativeSlice_1<uint16_t> value) ;
+constexpr void __set_indices(Unity::Collections::NativeSlice_1<uint16_t> value) ;
 
-constexpr ::Unity::Collections::NativeSlice_1<uint16_t> __get_indices() const;
+constexpr Unity::Collections::NativeSlice_1<uint16_t> __get_indices() const;
 
- ::UnityEngine::Material __declspec(property(get=__get_material, put=__set_material))  material;
+ UnityEngine::Material __declspec(property(get=__get_material, put=__set_material))  material;
 
-constexpr void __set_material(::UnityEngine::Material value) ;
+constexpr void __set_material(UnityEngine::Material value) ;
 
-constexpr ::UnityEngine::Material __get_material() const;
+constexpr UnityEngine::Material __get_material() const;
 
- ::UnityEngine::Texture __declspec(property(get=__get_custom, put=__set_custom))  custom;
+ UnityEngine::Texture __declspec(property(get=__get_custom, put=__set_custom))  custom;
 
-constexpr void __set_custom(::UnityEngine::Texture value) ;
+constexpr void __set_custom(UnityEngine::Texture value) ;
 
-constexpr ::UnityEngine::Texture __get_custom() const;
+constexpr UnityEngine::Texture __get_custom() const;
 
- ::UnityEngine::Texture __declspec(property(get=__get_font, put=__set_font))  font;
+ UnityEngine::Texture __declspec(property(get=__get_font, put=__set_font))  font;
 
-constexpr void __set_font(::UnityEngine::Texture value) ;
+constexpr void __set_font(UnityEngine::Texture value) ;
 
-constexpr ::UnityEngine::Texture __get_font() const;
+constexpr UnityEngine::Texture __get_font() const;
 
  float_t __declspec(property(get=__get_fontTexSDFScale, put=__set_fontTexSDFScale))  fontTexSDFScale;
 
@@ -192,29 +191,29 @@ constexpr void __set_fontTexSDFScale(float_t value) ;
 
 constexpr float_t __get_fontTexSDFScale() const;
 
- ::UnityEngine::UIElements::TextureId __declspec(property(get=__get_texture, put=__set_texture))  texture;
+ UnityEngine::UIElements::TextureId __declspec(property(get=__get_texture, put=__set_texture))  texture;
 
-constexpr void __set_texture(::UnityEngine::UIElements::TextureId value) ;
+constexpr void __set_texture(UnityEngine::UIElements::TextureId value) ;
 
-constexpr ::UnityEngine::UIElements::TextureId __get_texture() const;
+constexpr UnityEngine::UIElements::TextureId __get_texture() const;
 
- ::UnityEngine::UIElements::UIR::RenderChainCommand __declspec(property(get=__get_customCommand, put=__set_customCommand))  customCommand;
+ UnityEngine::UIElements::UIR::RenderChainCommand __declspec(property(get=__get_customCommand, put=__set_customCommand))  customCommand;
 
-constexpr void __set_customCommand(::UnityEngine::UIElements::UIR::RenderChainCommand value) ;
+constexpr void __set_customCommand(UnityEngine::UIElements::UIR::RenderChainCommand value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::RenderChainCommand __get_customCommand() const;
+constexpr UnityEngine::UIElements::UIR::RenderChainCommand __get_customCommand() const;
 
- ::UnityEngine::UIElements::UIR::BMPAlloc __declspec(property(get=__get_clipRectID, put=__set_clipRectID))  clipRectID;
+ UnityEngine::UIElements::UIR::BMPAlloc __declspec(property(get=__get_clipRectID, put=__set_clipRectID))  clipRectID;
 
-constexpr void __set_clipRectID(::UnityEngine::UIElements::UIR::BMPAlloc value) ;
+constexpr void __set_clipRectID(UnityEngine::UIElements::UIR::BMPAlloc value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::BMPAlloc __get_clipRectID() const;
+constexpr UnityEngine::UIElements::UIR::BMPAlloc __get_clipRectID() const;
 
- ::UnityEngine::UIElements::UIR::VertexFlags __declspec(property(get=__get_addFlags, put=__set_addFlags))  addFlags;
+ UnityEngine::UIElements::UIR::VertexFlags __declspec(property(get=__get_addFlags, put=__set_addFlags))  addFlags;
 
-constexpr void __set_addFlags(::UnityEngine::UIElements::UIR::VertexFlags value) ;
+constexpr void __set_addFlags(UnityEngine::UIElements::UIR::VertexFlags value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::VertexFlags __get_addFlags() const;
+constexpr UnityEngine::UIElements::UIR::VertexFlags __get_addFlags() const;
 
  bool __declspec(property(get=__get_uvIsDisplacement, put=__set_uvIsDisplacement))  uvIsDisplacement;
 
@@ -256,20 +255,20 @@ namespace UnityEngine::UIElements::UIR::Implementation {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7548))
 // CS Name: UnityEngine.UIElements.UIR.Implementation.UIRStylePainter::ClosingInfo
-struct CORDL_TYPE ____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "needsClosing", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "popViewMatrix", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "popScissorClip", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "blitAndPopRenderTexture", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "PopDefaultMaterial", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "clipUnregisterDrawCommand", ty: "::UnityEngine::UIElements::UIR::RenderChainCommand", modifiers: "", def_value: None }, CppParam { name: "clipperRegisterVertices", ty: "::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>", modifiers: "", def_value: None }, CppParam { name: "clipperRegisterIndices", ty: "::Unity::Collections::NativeSlice_1<uint16_t>", modifiers: "", def_value: None }, CppParam { name: "clipperRegisterIndexOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maskStencilRef", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo(bool needsClosing, bool popViewMatrix, bool popScissorClip, bool blitAndPopRenderTexture, bool PopDefaultMaterial, ::UnityEngine::UIElements::UIR::RenderChainCommand clipUnregisterDrawCommand, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> clipperRegisterVertices, ::Unity::Collections::NativeSlice_1<uint16_t> clipperRegisterIndices, int32_t clipperRegisterIndexOffset, int32_t maskStencilRef) noexcept;
+// Ctor Parameters [CppParam { name: "needsClosing", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "popViewMatrix", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "popScissorClip", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "blitAndPopRenderTexture", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "PopDefaultMaterial", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "clipUnregisterDrawCommand", ty: "UnityEngine::UIElements::UIR::RenderChainCommand", modifiers: "", def_value: None }, CppParam { name: "clipperRegisterVertices", ty: "Unity::Collections::NativeSlice_1<UnityEngine::UIElements::Vertex>", modifiers: "", def_value: None }, CppParam { name: "clipperRegisterIndices", ty: "Unity::Collections::NativeSlice_1<uint16_t>", modifiers: "", def_value: None }, CppParam { name: "clipperRegisterIndexOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maskStencilRef", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo(bool needsClosing, bool popViewMatrix, bool popScissorClip, bool blitAndPopRenderTexture, bool PopDefaultMaterial, UnityEngine::UIElements::UIR::RenderChainCommand clipUnregisterDrawCommand, Unity::Collections::NativeSlice_1<UnityEngine::UIElements::Vertex> clipperRegisterVertices, Unity::Collections::NativeSlice_1<uint16_t> clipperRegisterIndices, int32_t clipperRegisterIndexOffset, int32_t maskStencilRef) noexcept;
 
 
-                    constexpr ____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo(____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo const&) = default;
-                    constexpr ____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo(____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo&&) = default;
-                    constexpr ____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo& operator=(____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo const& o) {
+                    constexpr UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo(UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo const&) = default;
+                    constexpr UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo(UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo&&) = default;
+                    constexpr UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo& operator=(UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo& operator=(____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo&& o) noexcept {
+                    constexpr UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo& operator=(UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -282,7 +281,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x38};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -323,23 +322,23 @@ constexpr void __set_PopDefaultMaterial(bool value) ;
 
 constexpr bool __get_PopDefaultMaterial() const;
 
- ::UnityEngine::UIElements::UIR::RenderChainCommand __declspec(property(get=__get_clipUnregisterDrawCommand, put=__set_clipUnregisterDrawCommand))  clipUnregisterDrawCommand;
+ UnityEngine::UIElements::UIR::RenderChainCommand __declspec(property(get=__get_clipUnregisterDrawCommand, put=__set_clipUnregisterDrawCommand))  clipUnregisterDrawCommand;
 
-constexpr void __set_clipUnregisterDrawCommand(::UnityEngine::UIElements::UIR::RenderChainCommand value) ;
+constexpr void __set_clipUnregisterDrawCommand(UnityEngine::UIElements::UIR::RenderChainCommand value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::RenderChainCommand __get_clipUnregisterDrawCommand() const;
+constexpr UnityEngine::UIElements::UIR::RenderChainCommand __get_clipUnregisterDrawCommand() const;
 
- ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> __declspec(property(get=__get_clipperRegisterVertices, put=__set_clipperRegisterVertices))  clipperRegisterVertices;
+ Unity::Collections::NativeSlice_1<UnityEngine::UIElements::Vertex> __declspec(property(get=__get_clipperRegisterVertices, put=__set_clipperRegisterVertices))  clipperRegisterVertices;
 
-constexpr void __set_clipperRegisterVertices(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> value) ;
+constexpr void __set_clipperRegisterVertices(Unity::Collections::NativeSlice_1<UnityEngine::UIElements::Vertex> value) ;
 
-constexpr ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> __get_clipperRegisterVertices() const;
+constexpr Unity::Collections::NativeSlice_1<UnityEngine::UIElements::Vertex> __get_clipperRegisterVertices() const;
 
- ::Unity::Collections::NativeSlice_1<uint16_t> __declspec(property(get=__get_clipperRegisterIndices, put=__set_clipperRegisterIndices))  clipperRegisterIndices;
+ Unity::Collections::NativeSlice_1<uint16_t> __declspec(property(get=__get_clipperRegisterIndices, put=__set_clipperRegisterIndices))  clipperRegisterIndices;
 
-constexpr void __set_clipperRegisterIndices(::Unity::Collections::NativeSlice_1<uint16_t> value) ;
+constexpr void __set_clipperRegisterIndices(Unity::Collections::NativeSlice_1<uint16_t> value) ;
 
-constexpr ::Unity::Collections::NativeSlice_1<uint16_t> __get_clipperRegisterIndices() const;
+constexpr Unity::Collections::NativeSlice_1<uint16_t> __get_clipperRegisterIndices() const;
 
  int32_t __declspec(property(get=__get_clipperRegisterIndexOffset, put=__set_clipperRegisterIndexOffset))  clipperRegisterIndexOffset;
 
@@ -368,17 +367,17 @@ class CORDL_TYPE UIRStylePainter : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 template<typename T>
-using TempDataAlloc_1 = ::UnityEngine::UIElements::UIR::Implementation::____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<T>;
+using TempDataAlloc_1 = UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<T>;
 
-using ClosingInfo = ::UnityEngine::UIElements::UIR::Implementation::____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo;
+using ClosingInfo = UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo;
 
-using Entry = ::UnityEngine::UIElements::UIR::Implementation::____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry;
+using Entry = UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry;
 
-/// @brief Convert operator to ::UnityEngine::UIElements::IStylePainter
-constexpr operator  ::UnityEngine::UIElements::IStylePainter() const noexcept;
+/// @brief Convert operator to UnityEngine::UIElements::IStylePainter
+constexpr operator  UnityEngine::UIElements::IStylePainter() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x178};
@@ -413,41 +412,41 @@ constexpr explicit UIRStylePainter(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Fields
 
- ::UnityEngine::UIElements::UIR::RenderChain __declspec(property(get=__get_m_Owner, put=__set_m_Owner))  m_Owner;
+ UnityEngine::UIElements::UIR::RenderChain __declspec(property(get=__get_m_Owner, put=__set_m_Owner))  m_Owner;
 
-constexpr void __set_m_Owner(::UnityEngine::UIElements::UIR::RenderChain value) ;
+constexpr void __set_m_Owner(UnityEngine::UIElements::UIR::RenderChain value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::RenderChain __get_m_Owner() const;
+constexpr UnityEngine::UIElements::UIR::RenderChain __get_m_Owner() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::Implementation::____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry> __declspec(property(get=__get_m_Entries, put=__set_m_Entries))  m_Entries;
+ System::Collections::Generic::List_1<UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry> __declspec(property(get=__get_m_Entries, put=__set_m_Entries))  m_Entries;
 
-constexpr void __set_m_Entries(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::Implementation::____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry> value) ;
+constexpr void __set_m_Entries(System::Collections::Generic::List_1<UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::Implementation::____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry> __get_m_Entries() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry> __get_m_Entries() const;
 
- ::UnityEngine::UIElements::AtlasBase __declspec(property(get=__get_m_Atlas, put=__set_m_Atlas))  m_Atlas;
+ UnityEngine::UIElements::AtlasBase __declspec(property(get=__get_m_Atlas, put=__set_m_Atlas))  m_Atlas;
 
-constexpr void __set_m_Atlas(::UnityEngine::UIElements::AtlasBase value) ;
+constexpr void __set_m_Atlas(UnityEngine::UIElements::AtlasBase value) ;
 
-constexpr ::UnityEngine::UIElements::AtlasBase __get_m_Atlas() const;
+constexpr UnityEngine::UIElements::AtlasBase __get_m_Atlas() const;
 
- ::UnityEngine::UIElements::UIR::VectorImageManager __declspec(property(get=__get_m_VectorImageManager, put=__set_m_VectorImageManager))  m_VectorImageManager;
+ UnityEngine::UIElements::UIR::VectorImageManager __declspec(property(get=__get_m_VectorImageManager, put=__set_m_VectorImageManager))  m_VectorImageManager;
 
-constexpr void __set_m_VectorImageManager(::UnityEngine::UIElements::UIR::VectorImageManager value) ;
+constexpr void __set_m_VectorImageManager(UnityEngine::UIElements::UIR::VectorImageManager value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::VectorImageManager __get_m_VectorImageManager() const;
+constexpr UnityEngine::UIElements::UIR::VectorImageManager __get_m_VectorImageManager() const;
 
- ::UnityEngine::UIElements::UIR::Implementation::____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry __declspec(property(get=__get_m_CurrentEntry, put=__set_m_CurrentEntry))  m_CurrentEntry;
+ UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry __declspec(property(get=__get_m_CurrentEntry, put=__set_m_CurrentEntry))  m_CurrentEntry;
 
-constexpr void __set_m_CurrentEntry(::UnityEngine::UIElements::UIR::Implementation::____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry value) ;
+constexpr void __set_m_CurrentEntry(UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::Implementation::____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry __get_m_CurrentEntry() const;
+constexpr UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry __get_m_CurrentEntry() const;
 
- ::UnityEngine::UIElements::UIR::Implementation::____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo __declspec(property(get=__get_m_ClosingInfo, put=__set_m_ClosingInfo))  m_ClosingInfo;
+ UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo __declspec(property(get=__get_m_ClosingInfo, put=__set_m_ClosingInfo))  m_ClosingInfo;
 
-constexpr void __set_m_ClosingInfo(::UnityEngine::UIElements::UIR::Implementation::____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo value) ;
+constexpr void __set_m_ClosingInfo(UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::Implementation::____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo __get_m_ClosingInfo() const;
+constexpr UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo __get_m_ClosingInfo() const;
 
  int32_t __declspec(property(get=__get_m_MaskDepth, put=__set_m_MaskDepth))  m_MaskDepth;
 
@@ -461,11 +460,11 @@ constexpr void __set_m_StencilRef(int32_t value) ;
 
 constexpr int32_t __get_m_StencilRef() const;
 
- ::UnityEngine::UIElements::UIR::BMPAlloc __declspec(property(get=__get_m_ClipRectID, put=__set_m_ClipRectID))  m_ClipRectID;
+ UnityEngine::UIElements::UIR::BMPAlloc __declspec(property(get=__get_m_ClipRectID, put=__set_m_ClipRectID))  m_ClipRectID;
 
-constexpr void __set_m_ClipRectID(::UnityEngine::UIElements::UIR::BMPAlloc value) ;
+constexpr void __set_m_ClipRectID(UnityEngine::UIElements::UIR::BMPAlloc value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::BMPAlloc __get_m_ClipRectID() const;
+constexpr UnityEngine::UIElements::UIR::BMPAlloc __get_m_ClipRectID() const;
 
  int32_t __declspec(property(get=__get_m_SVGBackgroundEntryIndex, put=__set_m_SVGBackgroundEntryIndex))  m_SVGBackgroundEntryIndex;
 
@@ -473,23 +472,23 @@ constexpr void __set_m_SVGBackgroundEntryIndex(int32_t value) ;
 
 constexpr int32_t __get_m_SVGBackgroundEntryIndex() const;
 
- ::UnityEngine::UIElements::UIR::Implementation::____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<::UnityEngine::UIElements::Vertex> __declspec(property(get=__get_m_VertsPool, put=__set_m_VertsPool))  m_VertsPool;
+ UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<UnityEngine::UIElements::Vertex> __declspec(property(get=__get_m_VertsPool, put=__set_m_VertsPool))  m_VertsPool;
 
-constexpr void __set_m_VertsPool(::UnityEngine::UIElements::UIR::Implementation::____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<::UnityEngine::UIElements::Vertex> value) ;
+constexpr void __set_m_VertsPool(UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<UnityEngine::UIElements::Vertex> value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::Implementation::____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<::UnityEngine::UIElements::Vertex> __get_m_VertsPool() const;
+constexpr UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<UnityEngine::UIElements::Vertex> __get_m_VertsPool() const;
 
- ::UnityEngine::UIElements::UIR::Implementation::____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t> __declspec(property(get=__get_m_IndicesPool, put=__set_m_IndicesPool))  m_IndicesPool;
+ UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t> __declspec(property(get=__get_m_IndicesPool, put=__set_m_IndicesPool))  m_IndicesPool;
 
-constexpr void __set_m_IndicesPool(::UnityEngine::UIElements::UIR::Implementation::____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t> value) ;
+constexpr void __set_m_IndicesPool(UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t> value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::Implementation::____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t> __get_m_IndicesPool() const;
+constexpr UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t> __get_m_IndicesPool() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::UIElements::MeshWriteData> __declspec(property(get=__get_m_MeshWriteDataPool, put=__set_m_MeshWriteDataPool))  m_MeshWriteDataPool;
+ System::Collections::Generic::List_1<UnityEngine::UIElements::MeshWriteData> __declspec(property(get=__get_m_MeshWriteDataPool, put=__set_m_MeshWriteDataPool))  m_MeshWriteDataPool;
 
-constexpr void __set_m_MeshWriteDataPool(::System::Collections::Generic::List_1<::UnityEngine::UIElements::MeshWriteData> value) ;
+constexpr void __set_m_MeshWriteDataPool(System::Collections::Generic::List_1<UnityEngine::UIElements::MeshWriteData> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::MeshWriteData> __get_m_MeshWriteDataPool() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::UIElements::MeshWriteData> __get_m_MeshWriteDataPool() const;
 
  int32_t __declspec(property(get=__get_m_NextMeshWriteDataPoolItem, put=__set_m_NextMeshWriteDataPoolItem))  m_NextMeshWriteDataPoolItem;
 
@@ -497,35 +496,35 @@ constexpr void __set_m_NextMeshWriteDataPoolItem(int32_t value) ;
 
 constexpr int32_t __get_m_NextMeshWriteDataPoolItem() const;
 
- ::GlobalNamespace::______UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData__Allocator __declspec(property(get=__get_m_AllocRawVertsIndicesDelegate, put=__set_m_AllocRawVertsIndicesDelegate))  m_AllocRawVertsIndicesDelegate;
+ GlobalNamespace::UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData__Allocator __declspec(property(get=__get_m_AllocRawVertsIndicesDelegate, put=__set_m_AllocRawVertsIndicesDelegate))  m_AllocRawVertsIndicesDelegate;
 
-constexpr void __set_m_AllocRawVertsIndicesDelegate(::GlobalNamespace::______UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData__Allocator value) ;
+constexpr void __set_m_AllocRawVertsIndicesDelegate(GlobalNamespace::UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData__Allocator value) ;
 
-constexpr ::GlobalNamespace::______UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData__Allocator __get_m_AllocRawVertsIndicesDelegate() const;
+constexpr GlobalNamespace::UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData__Allocator __get_m_AllocRawVertsIndicesDelegate() const;
 
- ::GlobalNamespace::______UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData__Allocator __declspec(property(get=__get_m_AllocThroughDrawMeshDelegate, put=__set_m_AllocThroughDrawMeshDelegate))  m_AllocThroughDrawMeshDelegate;
+ GlobalNamespace::UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData__Allocator __declspec(property(get=__get_m_AllocThroughDrawMeshDelegate, put=__set_m_AllocThroughDrawMeshDelegate))  m_AllocThroughDrawMeshDelegate;
 
-constexpr void __set_m_AllocThroughDrawMeshDelegate(::GlobalNamespace::______UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData__Allocator value) ;
+constexpr void __set_m_AllocThroughDrawMeshDelegate(GlobalNamespace::UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData__Allocator value) ;
 
-constexpr ::GlobalNamespace::______UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData__Allocator __get_m_AllocThroughDrawMeshDelegate() const;
+constexpr GlobalNamespace::UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData__Allocator __get_m_AllocThroughDrawMeshDelegate() const;
 
- ::GlobalNamespace::______UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData__Allocator __declspec(property(get=__get_m_AllocThroughDrawGradientsDelegate, put=__set_m_AllocThroughDrawGradientsDelegate))  m_AllocThroughDrawGradientsDelegate;
+ GlobalNamespace::UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData__Allocator __declspec(property(get=__get_m_AllocThroughDrawGradientsDelegate, put=__set_m_AllocThroughDrawGradientsDelegate))  m_AllocThroughDrawGradientsDelegate;
 
-constexpr void __set_m_AllocThroughDrawGradientsDelegate(::GlobalNamespace::______UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData__Allocator value) ;
+constexpr void __set_m_AllocThroughDrawGradientsDelegate(GlobalNamespace::UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData__Allocator value) ;
 
-constexpr ::GlobalNamespace::______UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData__Allocator __get_m_AllocThroughDrawGradientsDelegate() const;
+constexpr GlobalNamespace::UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData__Allocator __get_m_AllocThroughDrawGradientsDelegate() const;
 
- ::UnityEngine::UIElements::MeshGenerationContext __declspec(property(get=__get__meshGenerationContext_k__BackingField, put=__set__meshGenerationContext_k__BackingField))  _meshGenerationContext_k__BackingField;
+ UnityEngine::UIElements::MeshGenerationContext __declspec(property(get=__get__meshGenerationContext_k__BackingField, put=__set__meshGenerationContext_k__BackingField))  _meshGenerationContext_k__BackingField;
 
-constexpr void __set__meshGenerationContext_k__BackingField(::UnityEngine::UIElements::MeshGenerationContext value) ;
+constexpr void __set__meshGenerationContext_k__BackingField(UnityEngine::UIElements::MeshGenerationContext value) ;
 
-constexpr ::UnityEngine::UIElements::MeshGenerationContext __get__meshGenerationContext_k__BackingField() const;
+constexpr UnityEngine::UIElements::MeshGenerationContext __get__meshGenerationContext_k__BackingField() const;
 
- ::UnityEngine::UIElements::VisualElement __declspec(property(get=__get__currentElement_k__BackingField, put=__set__currentElement_k__BackingField))  _currentElement_k__BackingField;
+ UnityEngine::UIElements::VisualElement __declspec(property(get=__get__currentElement_k__BackingField, put=__set__currentElement_k__BackingField))  _currentElement_k__BackingField;
 
-constexpr void __set__currentElement_k__BackingField(::UnityEngine::UIElements::VisualElement value) ;
+constexpr void __set__currentElement_k__BackingField(UnityEngine::UIElements::VisualElement value) ;
 
-constexpr ::UnityEngine::UIElements::VisualElement __get__currentElement_k__BackingField() const;
+constexpr UnityEngine::UIElements::VisualElement __get__currentElement_k__BackingField() const;
 
  int32_t __declspec(property(get=__get__totalVertices_k__BackingField, put=__set__totalVertices_k__BackingField))  _totalVertices_k__BackingField;
 
@@ -548,13 +547,13 @@ constexpr bool __get__disposed_k__BackingField() const;
 
 // Properties
 
- ::UnityEngine::UIElements::MeshGenerationContext __declspec(property(get=get_meshGenerationContext))  meshGenerationContext;
+ UnityEngine::UIElements::MeshGenerationContext __declspec(property(get=get_meshGenerationContext))  meshGenerationContext;
 
- ::UnityEngine::UIElements::VisualElement __declspec(property(get=get_currentElement, put=set_currentElement))  currentElement;
+ UnityEngine::UIElements::VisualElement __declspec(property(get=get_currentElement, put=set_currentElement))  currentElement;
 
- ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::Implementation::____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry> __declspec(property(get=get_entries))  entries;
+ System::Collections::Generic::List_1<UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry> __declspec(property(get=get_entries))  entries;
 
- ::UnityEngine::UIElements::UIR::Implementation::____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo __declspec(property(get=get_closingInfo))  closingInfo;
+ UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo __declspec(property(get=get_closingInfo))  closingInfo;
 
  int32_t __declspec(property(get=get_totalVertices, put=set_totalVertices))  totalVertices;
 
@@ -562,43 +561,43 @@ constexpr bool __get__disposed_k__BackingField() const;
 
  bool __declspec(property(get=get_disposed, put=set_disposed))  disposed;
 
- ::UnityEngine::UIElements::VisualElement __declspec(property(get=get_visualElement))  visualElement;
+ UnityEngine::UIElements::VisualElement __declspec(property(get=get_visualElement))  visualElement;
 
 
 // Methods
 
 /// @brief Method GetPooledMeshWriteData addr 0x2c605e8 size 0x120 virtual false final false
- ::UnityEngine::UIElements::MeshWriteData GetPooledMeshWriteData() ;
+ UnityEngine::UIElements::MeshWriteData GetPooledMeshWriteData() ;
 
 /// @brief Method AllocRawVertsIndices addr 0x2c60708 size 0xbc virtual false final false
- ::UnityEngine::UIElements::MeshWriteData AllocRawVertsIndices(uint32_t vertexCount, uint32_t indexCount, ByRef<::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData> allocatorData) ;
+ UnityEngine::UIElements::MeshWriteData AllocRawVertsIndices(uint32_t vertexCount, uint32_t indexCount, ByRef<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData> allocatorData) ;
 
 /// @brief Method AllocThroughDrawMesh addr 0x2c607c4 size 0x14 virtual false final false
- ::UnityEngine::UIElements::MeshWriteData AllocThroughDrawMesh(uint32_t vertexCount, uint32_t indexCount, ByRef<::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData> allocatorData) ;
+ UnityEngine::UIElements::MeshWriteData AllocThroughDrawMesh(uint32_t vertexCount, uint32_t indexCount, ByRef<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData> allocatorData) ;
 
 /// @brief Method AllocThroughDrawGradients addr 0x2c60ca8 size 0x10 virtual false final false
- ::UnityEngine::UIElements::MeshWriteData AllocThroughDrawGradients(uint32_t vertexCount, uint32_t indexCount, ByRef<::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData> allocatorData) ;
+ UnityEngine::UIElements::MeshWriteData AllocThroughDrawGradients(uint32_t vertexCount, uint32_t indexCount, ByRef<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData> allocatorData) ;
 
-// Ctor Parameters [CppParam { name: "renderChain", ty: "::UnityEngine::UIElements::UIR::RenderChain", modifiers: "", def_value: None }]
-explicit UIRStylePainter(::UnityEngine::UIElements::UIR::RenderChain renderChain) ;
+// Ctor Parameters [CppParam { name: "renderChain", ty: "UnityEngine::UIElements::UIR::RenderChain", modifiers: "", def_value: None }]
+explicit UIRStylePainter(UnityEngine::UIElements::UIR::RenderChain renderChain) ;
 
 /// @brief Method .ctor addr 0x2c60fbc size 0x368 virtual false final false
- void _ctor(::UnityEngine::UIElements::UIR::RenderChain renderChain) ;
+ void _ctor(UnityEngine::UIElements::UIR::RenderChain renderChain) ;
 
 /// @brief Method get_meshGenerationContext addr 0x2c61324 size 0x8 virtual false final false
- ::UnityEngine::UIElements::MeshGenerationContext get_meshGenerationContext() ;
+ UnityEngine::UIElements::MeshGenerationContext get_meshGenerationContext() ;
 
 /// @brief Method get_currentElement addr 0x2c6132c size 0x8 virtual false final false
- ::UnityEngine::UIElements::VisualElement get_currentElement() ;
+ UnityEngine::UIElements::VisualElement get_currentElement() ;
 
 /// @brief Method set_currentElement addr 0x2c61334 size 0x8 virtual false final false
- void set_currentElement(::UnityEngine::UIElements::VisualElement value) ;
+ void set_currentElement(UnityEngine::UIElements::VisualElement value) ;
 
 /// @brief Method get_entries addr 0x2c6133c size 0x8 virtual false final false
- ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::Implementation::____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry> get_entries() ;
+ System::Collections::Generic::List_1<UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry> get_entries() ;
 
 /// @brief Method get_closingInfo addr 0x2c61344 size 0x1c virtual false final false
- ::UnityEngine::UIElements::UIR::Implementation::____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo get_closingInfo() ;
+ UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo get_closingInfo() ;
 
 /// @brief Method get_totalVertices addr 0x2c61360 size 0x8 virtual false final false
  int32_t get_totalVertices() ;
@@ -625,40 +624,40 @@ explicit UIRStylePainter(::UnityEngine::UIElements::UIR::RenderChain renderChain
  void Dispose(bool disposing) ;
 
 /// @brief Method Begin addr 0x2c6147c size 0x510 virtual false final false
- void Begin(::UnityEngine::UIElements::VisualElement ve) ;
+ void Begin(UnityEngine::UIElements::VisualElement ve) ;
 
 /// @brief Method LandClipUnregisterMeshDrawCommand addr 0x2c6198c size 0x74 virtual false final false
- void LandClipUnregisterMeshDrawCommand(::UnityEngine::UIElements::UIR::RenderChainCommand cmd) ;
+ void LandClipUnregisterMeshDrawCommand(UnityEngine::UIElements::UIR::RenderChainCommand cmd) ;
 
 /// @brief Method LandClipRegisterMesh addr 0x2c61a00 size 0x9c virtual false final false
- void LandClipRegisterMesh(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices, ::Unity::Collections::NativeSlice_1<uint16_t> indices, int32_t indexOffset) ;
+ void LandClipRegisterMesh(Unity::Collections::NativeSlice_1<UnityEngine::UIElements::Vertex> vertices, Unity::Collections::NativeSlice_1<uint16_t> indices, int32_t indexOffset) ;
 
 /// @brief Method AddGradientsEntry addr 0x2c60cb8 size 0x304 virtual false final false
- ::UnityEngine::UIElements::MeshWriteData AddGradientsEntry(int32_t vertexCount, int32_t indexCount, ::UnityEngine::UIElements::TextureId texture, ::UnityEngine::Material material, ::UnityEngine::UIElements::____UnityEngine__UIElements__MeshGenerationContext__MeshFlags flags) ;
+ UnityEngine::UIElements::MeshWriteData AddGradientsEntry(int32_t vertexCount, int32_t indexCount, UnityEngine::UIElements::TextureId texture, UnityEngine::Material material, UnityEngine::UIElements::UnityEngine__UIElements__MeshGenerationContext__MeshFlags flags) ;
 
 /// @brief Method DrawMesh addr 0x2c607d8 size 0x4d0 virtual true final true
- ::UnityEngine::UIElements::MeshWriteData DrawMesh(int32_t vertexCount, int32_t indexCount, ::UnityEngine::Texture texture, ::UnityEngine::Material material, ::UnityEngine::UIElements::____UnityEngine__UIElements__MeshGenerationContext__MeshFlags flags) ;
+ UnityEngine::UIElements::MeshWriteData DrawMesh(int32_t vertexCount, int32_t indexCount, UnityEngine::Texture texture, UnityEngine::Material material, UnityEngine::UIElements::UnityEngine__UIElements__MeshGenerationContext__MeshFlags flags) ;
 
 /// @brief Method DrawText addr 0x2c61a9c size 0x138 virtual true final true
- void DrawText(::UnityEngine::UIElements::____UnityEngine__UIElements__MeshGenerationContextUtils__TextParams textParams, ::UnityEngine::UIElements::ITextHandle handle, float_t pixelsPerPoint) ;
+ void DrawText(UnityEngine::UIElements::UnityEngine__UIElements__MeshGenerationContextUtils__TextParams textParams, UnityEngine::UIElements::ITextHandle handle, float_t pixelsPerPoint) ;
 
 /// @brief Method DrawTextNative addr 0x2c61bd4 size 0x438 virtual false final false
- void DrawTextNative(::UnityEngine::UIElements::____UnityEngine__UIElements__MeshGenerationContextUtils__TextParams textParams, ::UnityEngine::UIElements::ITextHandle handle, float_t pixelsPerPoint) ;
+ void DrawTextNative(UnityEngine::UIElements::UnityEngine__UIElements__MeshGenerationContextUtils__TextParams textParams, UnityEngine::UIElements::ITextHandle handle, float_t pixelsPerPoint) ;
 
 /// @brief Method DrawTextCore addr 0x2c6200c size 0x628 virtual false final false
- void DrawTextCore(::UnityEngine::UIElements::____UnityEngine__UIElements__MeshGenerationContextUtils__TextParams textParams, ::UnityEngine::UIElements::ITextHandle handle, float_t pixelsPerPoint) ;
+ void DrawTextCore(UnityEngine::UIElements::UnityEngine__UIElements__MeshGenerationContextUtils__TextParams textParams, UnityEngine::UIElements::ITextHandle handle, float_t pixelsPerPoint) ;
 
 /// @brief Method DrawRectangle addr 0x2c62634 size 0x29c virtual true final true
- void DrawRectangle(::UnityEngine::UIElements::____UnityEngine__UIElements__MeshGenerationContextUtils__RectangleParams rectParams) ;
+ void DrawRectangle(UnityEngine::UIElements::UnityEngine__UIElements__MeshGenerationContextUtils__RectangleParams rectParams) ;
 
 /// @brief Method DrawBorder addr 0x2c6338c size 0xe0 virtual true final true
- void DrawBorder(::UnityEngine::UIElements::____UnityEngine__UIElements__MeshGenerationContextUtils__BorderParams borderParams) ;
+ void DrawBorder(UnityEngine::UIElements::UnityEngine__UIElements__MeshGenerationContextUtils__BorderParams borderParams) ;
 
 /// @brief Method DrawImmediate addr 0x2c6346c size 0x17c virtual true final true
- void DrawImmediate(::System::Action callback, bool cullingEnabled) ;
+ void DrawImmediate(System::Action callback, bool cullingEnabled) ;
 
 /// @brief Method get_visualElement addr 0x2c635e8 size 0x8 virtual true final true
- ::UnityEngine::UIElements::VisualElement get_visualElement() ;
+ UnityEngine::UIElements::VisualElement get_visualElement() ;
 
 /// @brief Method DrawVisualElementBackground addr 0x2c635f0 size 0xe08 virtual false final false
  void DrawVisualElementBackground() ;
@@ -670,13 +669,13 @@ explicit UIRStylePainter(::UnityEngine::UIElements::UIR::RenderChain renderChain
  void ApplyVisualElementClipping() ;
 
 /// @brief Method AdjustSpriteWinding addr 0x2c65d48 size 0x320 virtual false final false
- ::ArrayW<uint16_t> AdjustSpriteWinding(::ArrayW<::UnityEngine::Vector2> vertices, ::ArrayW<uint16_t> indices) ;
+ ::ArrayW<uint16_t> AdjustSpriteWinding(::ArrayW<UnityEngine::Vector2> vertices, ::ArrayW<uint16_t> indices) ;
 
 /// @brief Method DrawSprite addr 0x2c62d34 size 0x658 virtual false final false
- void DrawSprite(::UnityEngine::UIElements::____UnityEngine__UIElements__MeshGenerationContextUtils__RectangleParams rectParams) ;
+ void DrawSprite(UnityEngine::UIElements::UnityEngine__UIElements__MeshGenerationContextUtils__RectangleParams rectParams) ;
 
 /// @brief Method DrawVectorImage addr 0x2c628d0 size 0x464 virtual false final false
- void DrawVectorImage(::UnityEngine::UIElements::____UnityEngine__UIElements__MeshGenerationContextUtils__RectangleParams rectParams) ;
+ void DrawVectorImage(UnityEngine::UIElements::UnityEngine__UIElements__MeshGenerationContextUtils__RectangleParams rectParams) ;
 
 /// @brief Method Reset addr 0x2c66068 size 0xe4 virtual false final false
  void Reset() ;
@@ -702,23 +701,23 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7549)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7549), inst: 728 })
 // CS Name: UnityEngine.UIElements.UIR.Implementation.UIRStylePainter::TempDataAlloc`1
-struct CORDL_TYPE ____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const;
 
-// Ctor Parameters [CppParam { name: "maxPoolElemCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "pool", ty: "::Unity::Collections::NativeArray_1<uint16_t>", modifiers: "", def_value: None }, CppParam { name: "excess", ty: "::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<uint16_t>>", modifiers: "", def_value: None }, CppParam { name: "takenFromPool", ty: "uint32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1(int32_t maxPoolElemCount, ::Unity::Collections::NativeArray_1<uint16_t> pool, ::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<uint16_t>> excess, uint32_t takenFromPool) noexcept;
+// Ctor Parameters [CppParam { name: "maxPoolElemCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "pool", ty: "Unity::Collections::NativeArray_1<uint16_t>", modifiers: "", def_value: None }, CppParam { name: "excess", ty: "System::Collections::Generic::List_1<Unity::Collections::NativeArray_1<uint16_t>>", modifiers: "", def_value: None }, CppParam { name: "takenFromPool", ty: "uint32_t", modifiers: "", def_value: None }]
+constexpr UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1(int32_t maxPoolElemCount, Unity::Collections::NativeArray_1<uint16_t> pool, System::Collections::Generic::List_1<Unity::Collections::NativeArray_1<uint16_t>> excess, uint32_t takenFromPool) noexcept;
 
 
-                    constexpr ____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1(____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1 const&) = default;
-                    constexpr ____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1(____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1&&) = default;
-                    constexpr ____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1& operator=(____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1 const& o) {
+                    constexpr UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1(UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1 const&) = default;
+                    constexpr UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1(UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1&&) = default;
+                    constexpr UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1& operator=(UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1 const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1& operator=(____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1&& o) noexcept {
+                    constexpr UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1& operator=(UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -731,7 +730,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x20};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -748,17 +747,17 @@ constexpr void __set_maxPoolElemCount(int32_t value) ;
 
 constexpr int32_t __get_maxPoolElemCount() const;
 
- ::Unity::Collections::NativeArray_1<uint16_t> __declspec(property(get=__get_pool, put=__set_pool))  pool;
+ Unity::Collections::NativeArray_1<uint16_t> __declspec(property(get=__get_pool, put=__set_pool))  pool;
 
-constexpr void __set_pool(::Unity::Collections::NativeArray_1<uint16_t> value) ;
+constexpr void __set_pool(Unity::Collections::NativeArray_1<uint16_t> value) ;
 
-constexpr ::Unity::Collections::NativeArray_1<uint16_t> __get_pool() const;
+constexpr Unity::Collections::NativeArray_1<uint16_t> __get_pool() const;
 
- ::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<uint16_t>> __declspec(property(get=__get_excess, put=__set_excess))  excess;
+ System::Collections::Generic::List_1<Unity::Collections::NativeArray_1<uint16_t>> __declspec(property(get=__get_excess, put=__set_excess))  excess;
 
-constexpr void __set_excess(::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<uint16_t>> value) ;
+constexpr void __set_excess(System::Collections::Generic::List_1<Unity::Collections::NativeArray_1<uint16_t>> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<uint16_t>> __get_excess() const;
+constexpr System::Collections::Generic::List_1<Unity::Collections::NativeArray_1<uint16_t>> __get_excess() const;
 
  uint32_t __declspec(property(get=__get_takenFromPool, put=__set_takenFromPool))  takenFromPool;
 
@@ -776,7 +775,7 @@ constexpr uint32_t __get_takenFromPool() const;
  void Dispose() ;
 
 /// @brief Method Alloc addr 0x0 size 0xffffffffffffffff virtual false final false
- ::Unity::Collections::NativeSlice_1<uint16_t> Alloc(uint32_t count) ;
+ Unity::Collections::NativeSlice_1<uint16_t> Alloc(uint32_t count) ;
 
 /// @brief Method SessionDone addr 0x0 size 0xffffffffffffffff virtual false final false
  void SessionDone() ;
@@ -790,26 +789,26 @@ namespace UnityEngine::UIElements::UIR::Implementation {
 // cpp template
 template<>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7549)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(7549))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7549), inst: 732 })
 // CS Name: UnityEngine.UIElements.UIR.Implementation.UIRStylePainter::TempDataAlloc`1
-struct CORDL_TYPE ____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<::UnityEngine::UIElements::Vertex> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<UnityEngine::UIElements::Vertex> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const;
 
-// Ctor Parameters [CppParam { name: "maxPoolElemCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "pool", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::Vertex>", modifiers: "", def_value: None }, CppParam { name: "excess", ty: "::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::Vertex>>", modifiers: "", def_value: None }, CppParam { name: "takenFromPool", ty: "uint32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1(int32_t maxPoolElemCount, ::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::Vertex> pool, ::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::Vertex>> excess, uint32_t takenFromPool) noexcept;
+// Ctor Parameters [CppParam { name: "maxPoolElemCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "pool", ty: "Unity::Collections::NativeArray_1<UnityEngine::UIElements::Vertex>", modifiers: "", def_value: None }, CppParam { name: "excess", ty: "System::Collections::Generic::List_1<Unity::Collections::NativeArray_1<UnityEngine::UIElements::Vertex>>", modifiers: "", def_value: None }, CppParam { name: "takenFromPool", ty: "uint32_t", modifiers: "", def_value: None }]
+constexpr UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1(int32_t maxPoolElemCount, Unity::Collections::NativeArray_1<UnityEngine::UIElements::Vertex> pool, System::Collections::Generic::List_1<Unity::Collections::NativeArray_1<UnityEngine::UIElements::Vertex>> excess, uint32_t takenFromPool) noexcept;
 
 
-                    constexpr ____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1(____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1 const&) = default;
-                    constexpr ____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1(____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1&&) = default;
-                    constexpr ____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1& operator=(____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1 const& o) {
+                    constexpr UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1(UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1 const&) = default;
+                    constexpr UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1(UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1&&) = default;
+                    constexpr UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1& operator=(UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1 const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1& operator=(____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1&& o) noexcept {
+                    constexpr UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1& operator=(UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -822,7 +821,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x20};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -839,17 +838,17 @@ constexpr void __set_maxPoolElemCount(int32_t value) ;
 
 constexpr int32_t __get_maxPoolElemCount() const;
 
- ::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::Vertex> __declspec(property(get=__get_pool, put=__set_pool))  pool;
+ Unity::Collections::NativeArray_1<UnityEngine::UIElements::Vertex> __declspec(property(get=__get_pool, put=__set_pool))  pool;
 
-constexpr void __set_pool(::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::Vertex> value) ;
+constexpr void __set_pool(Unity::Collections::NativeArray_1<UnityEngine::UIElements::Vertex> value) ;
 
-constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::Vertex> __get_pool() const;
+constexpr Unity::Collections::NativeArray_1<UnityEngine::UIElements::Vertex> __get_pool() const;
 
- ::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::Vertex>> __declspec(property(get=__get_excess, put=__set_excess))  excess;
+ System::Collections::Generic::List_1<Unity::Collections::NativeArray_1<UnityEngine::UIElements::Vertex>> __declspec(property(get=__get_excess, put=__set_excess))  excess;
 
-constexpr void __set_excess(::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::Vertex>> value) ;
+constexpr void __set_excess(System::Collections::Generic::List_1<Unity::Collections::NativeArray_1<UnityEngine::UIElements::Vertex>> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::Vertex>> __get_excess() const;
+constexpr System::Collections::Generic::List_1<Unity::Collections::NativeArray_1<UnityEngine::UIElements::Vertex>> __get_excess() const;
 
  uint32_t __declspec(property(get=__get_takenFromPool, put=__set_takenFromPool))  takenFromPool;
 
@@ -867,7 +866,7 @@ constexpr uint32_t __get_takenFromPool() const;
  void Dispose() ;
 
 /// @brief Method Alloc addr 0x0 size 0xffffffffffffffff virtual false final false
- ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> Alloc(uint32_t count) ;
+ Unity::Collections::NativeSlice_1<UnityEngine::UIElements::Vertex> Alloc(uint32_t count) ;
 
 /// @brief Method SessionDone addr 0x0 size 0xffffffffffffffff virtual false final false
  void SessionDone() ;
@@ -876,9 +875,8 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::UIR::Implementation
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter, "UnityEngine.UIElements.UIR.Implementation", "UIRStylePainter");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::UnityEngine::UIElements::UIR::Implementation::____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1, "UnityEngine.UIElements.UIR.Implementation", "UIRStylePainter/TempDataAlloc`1");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::Implementation::____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo, "UnityEngine.UIElements.UIR.Implementation", "UIRStylePainter/ClosingInfo");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::Implementation::____UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry, "UnityEngine.UIElements.UIR.Implementation", "UIRStylePainter/Entry");
+NEED_NO_BOX(UnityEngine::UIElements::UIR::Implementation::UIRStylePainter);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::Implementation::UIRStylePainter, "UnityEngine.UIElements.UIR.Implementation", "UIRStylePainter");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1, "UnityEngine.UIElements.UIR.Implementation", "UIRStylePainter/TempDataAlloc`1");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo, "UnityEngine.UIElements.UIR.Implementation", "UIRStylePainter/ClosingInfo");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry, "UnityEngine.UIElements.UIR.Implementation", "UIRStylePainter/Entry");

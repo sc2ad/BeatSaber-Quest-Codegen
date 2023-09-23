@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto {
-class IMac;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class IMac;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Macs {
@@ -24,8 +23,8 @@ namespace Org::BouncyCastle::Crypto::Macs {
 class CORDL_TYPE Gost28147Mac : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IMac
-constexpr operator  ::Org::BouncyCastle::Crypto::IMac() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IMac
+constexpr operator  Org::BouncyCastle::Crypto::IMac() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
@@ -126,7 +125,7 @@ explicit Gost28147Mac() ;
 static ::ArrayW<int32_t> GenerateWorkingKey(::ArrayW<uint8_t> userKey) ;
 
 /// @brief Method Init addr 0xe810c0 size 0x278 virtual true final true
- void Init(::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method get_AlgorithmName addr 0xe81370 size 0x40 virtual true final true
  ::StringW get_AlgorithmName() ;
@@ -165,6 +164,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Macs
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Macs::Gost28147Mac);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Macs::Gost28147Mac, "Org.BouncyCastle.Crypto.Macs", "Gost28147Mac");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Macs::Gost28147Mac);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Macs::Gost28147Mac, "Org.BouncyCastle.Crypto.Macs", "Gost28147Mac");

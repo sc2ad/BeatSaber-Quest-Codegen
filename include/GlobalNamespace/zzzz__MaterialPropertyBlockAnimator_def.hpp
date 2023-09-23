@@ -3,7 +3,6 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 class MaterialPropertyBlockController;
 }
@@ -17,7 +16,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14723))
 // CS Name: MaterialPropertyBlockAnimator
-class CORDL_TYPE MaterialPropertyBlockAnimator : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MaterialPropertyBlockAnimator : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr MaterialPropertyBlockAnimator(MaterialPropertyBlockAnimator const& ) n
 constexpr MaterialPropertyBlockAnimator(MaterialPropertyBlockAnimator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MaterialPropertyBlockAnimator(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MaterialPropertyBlockAnimator(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -59,11 +58,11 @@ constexpr void __set__property(::StringW value) ;
 
 constexpr ::StringW __get__property() const;
 
- ::GlobalNamespace::MaterialPropertyBlockController __declspec(property(get=__get__materialPropertyBlockController, put=__set__materialPropertyBlockController))  _materialPropertyBlockController;
+ GlobalNamespace::MaterialPropertyBlockController __declspec(property(get=__get__materialPropertyBlockController, put=__set__materialPropertyBlockController))  _materialPropertyBlockController;
 
-constexpr void __set__materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController value) ;
+constexpr void __set__materialPropertyBlockController(GlobalNamespace::MaterialPropertyBlockController value) ;
 
-constexpr ::GlobalNamespace::MaterialPropertyBlockController __get__materialPropertyBlockController() const;
+constexpr GlobalNamespace::MaterialPropertyBlockController __get__materialPropertyBlockController() const;
 
  int32_t __declspec(property(get=__get_propertyId, put=__set_propertyId))  propertyId;
 
@@ -80,16 +79,16 @@ constexpr bool __get__isInitialized() const;
 
 // Properties
 
- ::GlobalNamespace::MaterialPropertyBlockController __declspec(property(get=get_materialPropertyBlockController, put=set_materialPropertyBlockController))  materialPropertyBlockController;
+ GlobalNamespace::MaterialPropertyBlockController __declspec(property(get=get_materialPropertyBlockController, put=set_materialPropertyBlockController))  materialPropertyBlockController;
 
 
 // Methods
 
 /// @brief Method get_materialPropertyBlockController addr 0x1fa2004 size 0x8 virtual false final false
- ::GlobalNamespace::MaterialPropertyBlockController get_materialPropertyBlockController() ;
+ GlobalNamespace::MaterialPropertyBlockController get_materialPropertyBlockController() ;
 
 /// @brief Method set_materialPropertyBlockController addr 0x1fa200c size 0x7c virtual false final false
- void set_materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController value) ;
+ void set_materialPropertyBlockController(GlobalNamespace::MaterialPropertyBlockController value) ;
 
 /// @brief Method SetProperty addr 0x1fa2088 size 0x4 virtual true final false
  void SetProperty() ;
@@ -116,6 +115,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MaterialPropertyBlockAnimator);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MaterialPropertyBlockAnimator, "", "MaterialPropertyBlockAnimator");
+NEED_NO_BOX(GlobalNamespace::MaterialPropertyBlockAnimator);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyBlockAnimator, "", "MaterialPropertyBlockAnimator");

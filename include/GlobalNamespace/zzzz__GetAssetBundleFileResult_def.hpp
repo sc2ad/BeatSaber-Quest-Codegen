@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 struct GetAssetBundleFileResult;
@@ -72,5 +71,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GetAssetBundleFileResult, "", "GetAssetBundleFileResult");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GetAssetBundleFileResult, "", "GetAssetBundleFileResult");

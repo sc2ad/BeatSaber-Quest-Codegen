@@ -5,10 +5,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct RaycastHit;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -16,12 +12,15 @@ class List_1;
 namespace UnityEngine {
 struct Ray;
 }
+namespace UnityEngine {
+struct RaycastHit;
+}
 // Forward declare root types
 namespace VRUIControls {
 class PhysicsRaycasterWithCache;
 }
 namespace VRUIControls {
-struct ____VRUIControls__PhysicsRaycasterWithCache__CachedRaycast;
+struct VRUIControls__PhysicsRaycasterWithCache__CachedRaycast;
 }
 // Type: ::CachedRaycast
 namespace VRUIControls {
@@ -29,20 +28,20 @@ namespace VRUIControls {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15637))
 // CS Name: VRUIControls.PhysicsRaycasterWithCache::CachedRaycast
-struct CORDL_TYPE ____VRUIControls__PhysicsRaycasterWithCache__CachedRaycast : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE VRUIControls__PhysicsRaycasterWithCache__CachedRaycast : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "wasHit", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "ray", ty: "::UnityEngine::Ray", modifiers: "", def_value: None }, CppParam { name: "hitInfo", ty: "::UnityEngine::RaycastHit", modifiers: "", def_value: None }, CppParam { name: "maxDistance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "layerMask", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____VRUIControls__PhysicsRaycasterWithCache__CachedRaycast(bool wasHit, ::UnityEngine::Ray ray, ::UnityEngine::RaycastHit hitInfo, float_t maxDistance, int32_t layerMask) noexcept;
+// Ctor Parameters [CppParam { name: "wasHit", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "ray", ty: "UnityEngine::Ray", modifiers: "", def_value: None }, CppParam { name: "hitInfo", ty: "UnityEngine::RaycastHit", modifiers: "", def_value: None }, CppParam { name: "maxDistance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "layerMask", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr VRUIControls__PhysicsRaycasterWithCache__CachedRaycast(bool wasHit, UnityEngine::Ray ray, UnityEngine::RaycastHit hitInfo, float_t maxDistance, int32_t layerMask) noexcept;
 
 
-                    constexpr ____VRUIControls__PhysicsRaycasterWithCache__CachedRaycast(____VRUIControls__PhysicsRaycasterWithCache__CachedRaycast const&) = default;
-                    constexpr ____VRUIControls__PhysicsRaycasterWithCache__CachedRaycast(____VRUIControls__PhysicsRaycasterWithCache__CachedRaycast&&) = default;
-                    constexpr ____VRUIControls__PhysicsRaycasterWithCache__CachedRaycast& operator=(____VRUIControls__PhysicsRaycasterWithCache__CachedRaycast const& o) {
+                    constexpr VRUIControls__PhysicsRaycasterWithCache__CachedRaycast(VRUIControls__PhysicsRaycasterWithCache__CachedRaycast const&) = default;
+                    constexpr VRUIControls__PhysicsRaycasterWithCache__CachedRaycast(VRUIControls__PhysicsRaycasterWithCache__CachedRaycast&&) = default;
+                    constexpr VRUIControls__PhysicsRaycasterWithCache__CachedRaycast& operator=(VRUIControls__PhysicsRaycasterWithCache__CachedRaycast const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____VRUIControls__PhysicsRaycasterWithCache__CachedRaycast& operator=(____VRUIControls__PhysicsRaycasterWithCache__CachedRaycast&& o) noexcept {
+                    constexpr VRUIControls__PhysicsRaycasterWithCache__CachedRaycast& operator=(VRUIControls__PhysicsRaycasterWithCache__CachedRaycast&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -55,7 +54,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x50};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____VRUIControls__PhysicsRaycasterWithCache__CachedRaycast(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit VRUIControls__PhysicsRaycasterWithCache__CachedRaycast(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -72,17 +71,17 @@ constexpr void __set_wasHit(bool value) ;
 
 constexpr bool __get_wasHit() const;
 
- ::UnityEngine::Ray __declspec(property(get=__get_ray, put=__set_ray))  ray;
+ UnityEngine::Ray __declspec(property(get=__get_ray, put=__set_ray))  ray;
 
-constexpr void __set_ray(::UnityEngine::Ray value) ;
+constexpr void __set_ray(UnityEngine::Ray value) ;
 
-constexpr ::UnityEngine::Ray __get_ray() const;
+constexpr UnityEngine::Ray __get_ray() const;
 
- ::UnityEngine::RaycastHit __declspec(property(get=__get_hitInfo, put=__set_hitInfo))  hitInfo;
+ UnityEngine::RaycastHit __declspec(property(get=__get_hitInfo, put=__set_hitInfo))  hitInfo;
 
-constexpr void __set_hitInfo(::UnityEngine::RaycastHit value) ;
+constexpr void __set_hitInfo(UnityEngine::RaycastHit value) ;
 
-constexpr ::UnityEngine::RaycastHit __get_hitInfo() const;
+constexpr UnityEngine::RaycastHit __get_hitInfo() const;
 
  float_t __declspec(property(get=__get_maxDistance, put=__set_maxDistance))  maxDistance;
 
@@ -100,7 +99,7 @@ constexpr int32_t __get_layerMask() const;
 // Methods
 
 /// @brief Method .ctor addr 0x2d3b5e8 size 0x40 virtual false final false
- void _ctor(bool wasHit, ::UnityEngine::Ray ray, ::UnityEngine::RaycastHit hitInfo, float_t maxDistance, int32_t layerMask) ;
+ void _ctor(bool wasHit, UnityEngine::Ray ray, UnityEngine::RaycastHit hitInfo, float_t maxDistance, int32_t layerMask) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -115,7 +114,7 @@ namespace VRUIControls {
 class CORDL_TYPE PhysicsRaycasterWithCache : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using CachedRaycast = ::VRUIControls::____VRUIControls__PhysicsRaycasterWithCache__CachedRaycast;
+using CachedRaycast = VRUIControls::VRUIControls__PhysicsRaycasterWithCache__CachedRaycast;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -150,11 +149,11 @@ constexpr explicit PhysicsRaycasterWithCache(void* ptr) noexcept : ::bs_hook::Il
 
 // Fields
 
- ::System::Collections::Generic::List_1<::VRUIControls::____VRUIControls__PhysicsRaycasterWithCache__CachedRaycast> __declspec(property(get=__get__cachedRaycasts, put=__set__cachedRaycasts))  _cachedRaycasts;
+ System::Collections::Generic::List_1<VRUIControls::VRUIControls__PhysicsRaycasterWithCache__CachedRaycast> __declspec(property(get=__get__cachedRaycasts, put=__set__cachedRaycasts))  _cachedRaycasts;
 
-constexpr void __set__cachedRaycasts(::System::Collections::Generic::List_1<::VRUIControls::____VRUIControls__PhysicsRaycasterWithCache__CachedRaycast> value) ;
+constexpr void __set__cachedRaycasts(System::Collections::Generic::List_1<VRUIControls::VRUIControls__PhysicsRaycasterWithCache__CachedRaycast> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::VRUIControls::____VRUIControls__PhysicsRaycasterWithCache__CachedRaycast> __get__cachedRaycasts() const;
+constexpr System::Collections::Generic::List_1<VRUIControls::VRUIControls__PhysicsRaycasterWithCache__CachedRaycast> __get__cachedRaycasts() const;
 
  int32_t __declspec(property(get=__get__lastFrameCount, put=__set__lastFrameCount))  _lastFrameCount;
 
@@ -166,7 +165,7 @@ constexpr int32_t __get__lastFrameCount() const;
 // Methods
 
 /// @brief Method Raycast addr 0x2d3b07c size 0x56c virtual false final false
- bool Raycast(::UnityEngine::Ray ray, ByRef<::UnityEngine::RaycastHit> hitInfo, float_t maxDistance, int32_t layerMask) ;
+ bool Raycast(UnityEngine::Ray ray, ByRef<UnityEngine::RaycastHit> hitInfo, float_t maxDistance, int32_t layerMask) ;
 
 // Ctor Parameters []
 explicit PhysicsRaycasterWithCache() ;
@@ -178,7 +177,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def VRUIControls
-} // end anonymous namespace
-NEED_NO_BOX(::VRUIControls::PhysicsRaycasterWithCache);
-DEFINE_IL2CPP_ARG_TYPE(::VRUIControls::PhysicsRaycasterWithCache, "VRUIControls", "PhysicsRaycasterWithCache");
-DEFINE_IL2CPP_ARG_TYPE(::VRUIControls::____VRUIControls__PhysicsRaycasterWithCache__CachedRaycast, "VRUIControls", "PhysicsRaycasterWithCache/CachedRaycast");
+NEED_NO_BOX(VRUIControls::PhysicsRaycasterWithCache);
+DEFINE_IL2CPP_ARG_TYPE(VRUIControls::PhysicsRaycasterWithCache, "VRUIControls", "PhysicsRaycasterWithCache");
+DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRUIControls__PhysicsRaycasterWithCache__CachedRaycast, "VRUIControls", "PhysicsRaycasterWithCache/CachedRaycast");

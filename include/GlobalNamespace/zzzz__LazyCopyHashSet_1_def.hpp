@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 template<typename T>
 class ILazyCopyHashSet_1;
@@ -36,8 +35,8 @@ template<::cordl_internals::il2cpp_reference_type T>
 class CORDL_TYPE LazyCopyHashSet_1<T> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::ILazyCopyHashSet_1<T>
-constexpr operator  ::GlobalNamespace::ILazyCopyHashSet_1<T>() const noexcept;
+/// @brief Convert operator to GlobalNamespace::ILazyCopyHashSet_1<T>
+constexpr operator  GlobalNamespace::ILazyCopyHashSet_1<T>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -72,17 +71,17 @@ constexpr explicit LazyCopyHashSet_1(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 
 // Fields
 
- ::System::Collections::Generic::List_1<T> __declspec(property(get=__get__itemsCopy, put=__set__itemsCopy))  _itemsCopy;
+ System::Collections::Generic::List_1<T> __declspec(property(get=__get__itemsCopy, put=__set__itemsCopy))  _itemsCopy;
 
-constexpr void __set__itemsCopy(::System::Collections::Generic::List_1<T> value) ;
+constexpr void __set__itemsCopy(System::Collections::Generic::List_1<T> value) ;
 
-constexpr ::System::Collections::Generic::List_1<T> __get__itemsCopy() const;
+constexpr System::Collections::Generic::List_1<T> __get__itemsCopy() const;
 
- ::System::Collections::Generic::HashSet_1<T> __declspec(property(get=__get__items, put=__set__items))  _items;
+ System::Collections::Generic::HashSet_1<T> __declspec(property(get=__get__items, put=__set__items))  _items;
 
-constexpr void __set__items(::System::Collections::Generic::HashSet_1<T> value) ;
+constexpr void __set__items(System::Collections::Generic::HashSet_1<T> value) ;
 
-constexpr ::System::Collections::Generic::HashSet_1<T> __get__items() const;
+constexpr System::Collections::Generic::HashSet_1<T> __get__items() const;
 
  bool __declspec(property(get=__get__dirty, put=__set__dirty))  _dirty;
 
@@ -93,13 +92,13 @@ constexpr bool __get__dirty() const;
 
 // Properties
 
- ::System::Collections::Generic::List_1<T> __declspec(property(get=get_items))  items;
+ System::Collections::Generic::List_1<T> __declspec(property(get=get_items))  items;
 
 
 // Methods
 
 /// @brief Method get_items addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Collections::Generic::List_1<T> get_items() ;
+ System::Collections::Generic::List_1<T> get_items() ;
 
 // Ctor Parameters []
 explicit LazyCopyHashSet_1() ;
@@ -123,5 +122,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::LazyCopyHashSet_1, "", "LazyCopyHashSet`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::LazyCopyHashSet_1, "", "LazyCopyHashSet`1");

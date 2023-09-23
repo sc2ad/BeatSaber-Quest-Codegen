@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::XR {
 struct XRNode;
@@ -74,35 +73,34 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field LeftEye offset 0
-static ::UnityEngine::XR::XRNode const LeftEye;
+static UnityEngine::XR::XRNode const LeftEye;
 
 /// @brief Field RightEye offset 0
-static ::UnityEngine::XR::XRNode const RightEye;
+static UnityEngine::XR::XRNode const RightEye;
 
 /// @brief Field CenterEye offset 0
-static ::UnityEngine::XR::XRNode const CenterEye;
+static UnityEngine::XR::XRNode const CenterEye;
 
 /// @brief Field Head offset 0
-static ::UnityEngine::XR::XRNode const Head;
+static UnityEngine::XR::XRNode const Head;
 
 /// @brief Field LeftHand offset 0
-static ::UnityEngine::XR::XRNode const LeftHand;
+static UnityEngine::XR::XRNode const LeftHand;
 
 /// @brief Field RightHand offset 0
-static ::UnityEngine::XR::XRNode const RightHand;
+static UnityEngine::XR::XRNode const RightHand;
 
 /// @brief Field GameController offset 0
-static ::UnityEngine::XR::XRNode const GameController;
+static UnityEngine::XR::XRNode const GameController;
 
 /// @brief Field TrackingReference offset 0
-static ::UnityEngine::XR::XRNode const TrackingReference;
+static UnityEngine::XR::XRNode const TrackingReference;
 
 /// @brief Field HardwareTracker offset 0
-static ::UnityEngine::XR::XRNode const HardwareTracker;
+static UnityEngine::XR::XRNode const HardwareTracker;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::XRNode, "UnityEngine.XR", "XRNode");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRNode, "UnityEngine.XR", "XRNode");

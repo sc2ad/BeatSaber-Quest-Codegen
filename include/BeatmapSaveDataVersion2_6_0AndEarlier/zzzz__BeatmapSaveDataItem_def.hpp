@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 class IComparable_1;
@@ -21,8 +20,8 @@ namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 class CORDL_TYPE BeatmapSaveDataItem : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IComparable_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem>
-constexpr operator  ::System::IComparable_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem>() const noexcept;
+/// @brief Convert operator to System::IComparable_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem>
+constexpr operator  System::IComparable_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -66,7 +65,7 @@ constexpr explicit BeatmapSaveDataItem(void* ptr) noexcept : ::bs_hook::Il2CppWr
  float_t get_time() ;
 
 /// @brief Method CompareTo addr 0xd9c020 size 0xb0 virtual true final true
- int32_t CompareTo(::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem other) ;
+ int32_t CompareTo(BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem other) ;
 
 // Ctor Parameters []
 explicit BeatmapSaveDataItem() ;
@@ -78,6 +77,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def BeatmapSaveDataVersion2_6_0AndEarlier
-} // end anonymous namespace
-NEED_NO_BOX(::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem);
-DEFINE_IL2CPP_ARG_TYPE(::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem, "BeatmapSaveDataVersion2_6_0AndEarlier", "BeatmapSaveDataItem");
+NEED_NO_BOX(BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem);
+DEFINE_IL2CPP_ARG_TYPE(BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem, "BeatmapSaveDataVersion2_6_0AndEarlier", "BeatmapSaveDataItem");

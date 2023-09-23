@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Text::RegularExpressions {
 class RegexRunner;
 }
@@ -52,17 +51,17 @@ constexpr explicit ExclusiveReference(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Fields
 
- ::System::Text::RegularExpressions::RegexRunner __declspec(property(get=__get__ref, put=__set__ref))  _ref;
+ System::Text::RegularExpressions::RegexRunner __declspec(property(get=__get__ref, put=__set__ref))  _ref;
 
-constexpr void __set__ref(::System::Text::RegularExpressions::RegexRunner value) ;
+constexpr void __set__ref(System::Text::RegularExpressions::RegexRunner value) ;
 
-constexpr ::System::Text::RegularExpressions::RegexRunner __get__ref() const;
+constexpr System::Text::RegularExpressions::RegexRunner __get__ref() const;
 
- ::System::Text::RegularExpressions::RegexRunner __declspec(property(get=__get__obj, put=__set__obj))  _obj;
+ System::Text::RegularExpressions::RegexRunner __declspec(property(get=__get__obj, put=__set__obj))  _obj;
 
-constexpr void __set__obj(::System::Text::RegularExpressions::RegexRunner value) ;
+constexpr void __set__obj(System::Text::RegularExpressions::RegexRunner value) ;
 
-constexpr ::System::Text::RegularExpressions::RegexRunner __get__obj() const;
+constexpr System::Text::RegularExpressions::RegexRunner __get__obj() const;
 
  int32_t __declspec(property(get=__get__locked, put=__set__locked))  _locked;
 
@@ -74,10 +73,10 @@ constexpr int32_t __get__locked() const;
 // Methods
 
 /// @brief Method Get addr 0x27bfb84 size 0x58 virtual false final false
- ::System::Text::RegularExpressions::RegexRunner Get() ;
+ System::Text::RegularExpressions::RegexRunner Get() ;
 
 /// @brief Method Release addr 0x27bfbdc size 0xbc virtual false final false
- void Release(::System::Text::RegularExpressions::RegexRunner obj) ;
+ void Release(System::Text::RegularExpressions::RegexRunner obj) ;
 
 // Ctor Parameters []
 explicit ExclusiveReference() ;
@@ -89,6 +88,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Text::RegularExpressions
-} // end anonymous namespace
-NEED_NO_BOX(::System::Text::RegularExpressions::ExclusiveReference);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::RegularExpressions::ExclusiveReference, "System.Text.RegularExpressions", "ExclusiveReference");
+NEED_NO_BOX(System::Text::RegularExpressions::ExclusiveReference);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::ExclusiveReference, "System.Text.RegularExpressions", "ExclusiveReference");

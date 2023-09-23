@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace UnityEngine {
-class Camera;
-}
 namespace GlobalNamespace {
 class BoolSO;
+}
+namespace UnityEngine {
+class Camera;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15335))
 // CS Name: VisualEffectsController
-class CORDL_TYPE VisualEffectsController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE VisualEffectsController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr VisualEffectsController(VisualEffectsController const& ) noexcept = de
 constexpr VisualEffectsController(VisualEffectsController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit VisualEffectsController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit VisualEffectsController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -55,17 +54,17 @@ constexpr explicit VisualEffectsController(void* ptr) noexcept : ::UnityEngine::
 
 // Fields
 
- ::GlobalNamespace::BoolSO __declspec(property(get=__get__depthTextureEnabled, put=__set__depthTextureEnabled))  _depthTextureEnabled;
+ GlobalNamespace::BoolSO __declspec(property(get=__get__depthTextureEnabled, put=__set__depthTextureEnabled))  _depthTextureEnabled;
 
-constexpr void __set__depthTextureEnabled(::GlobalNamespace::BoolSO value) ;
+constexpr void __set__depthTextureEnabled(GlobalNamespace::BoolSO value) ;
 
-constexpr ::GlobalNamespace::BoolSO __get__depthTextureEnabled() const;
+constexpr GlobalNamespace::BoolSO __get__depthTextureEnabled() const;
 
- ::UnityEngine::Camera __declspec(property(get=__get__camera, put=__set__camera))  _camera;
+ UnityEngine::Camera __declspec(property(get=__get__camera, put=__set__camera))  _camera;
 
-constexpr void __set__camera(::UnityEngine::Camera value) ;
+constexpr void __set__camera(UnityEngine::Camera value) ;
 
-constexpr ::UnityEngine::Camera __get__camera() const;
+constexpr UnityEngine::Camera __get__camera() const;
 
 /// @brief Field kDepthTextureEnabledKeyword offset 0
 static constexpr ::ConstString  kDepthTextureEnabledKeyword{u"DEPTH_TEXTURE_ENABLED"};
@@ -98,6 +97,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::VisualEffectsController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::VisualEffectsController, "", "VisualEffectsController");
+NEED_NO_BOX(GlobalNamespace::VisualEffectsController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VisualEffectsController, "", "VisualEffectsController");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 #include <cstddef>
-namespace {
 namespace UnityEngine::InputSystem {
 class InputDevice;
 }
@@ -93,20 +92,19 @@ constexpr float_t __get__highFrequencyMotorSpeed_k__BackingField() const;
  bool get_isRumbling() ;
 
 /// @brief Method PauseHaptics addr 0x2954708 size 0x110 virtual false final false
- void PauseHaptics(::UnityEngine::InputSystem::InputDevice device) ;
+ void PauseHaptics(UnityEngine::InputSystem::InputDevice device) ;
 
 /// @brief Method ResumeHaptics addr 0x2954868 size 0x8c virtual false final false
- void ResumeHaptics(::UnityEngine::InputSystem::InputDevice device) ;
+ void ResumeHaptics(UnityEngine::InputSystem::InputDevice device) ;
 
 /// @brief Method ResetHaptics addr 0x2954a38 size 0x90 virtual false final false
- void ResetHaptics(::UnityEngine::InputSystem::InputDevice device) ;
+ void ResetHaptics(UnityEngine::InputSystem::InputDevice device) ;
 
 /// @brief Method SetMotorSpeeds addr 0x29548f4 size 0x144 virtual false final false
- void SetMotorSpeeds(::UnityEngine::InputSystem::InputDevice device, float_t lowFrequency, float_t highFrequency) ;
+ void SetMotorSpeeds(UnityEngine::InputSystem::InputDevice device, float_t lowFrequency, float_t highFrequency) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Haptics
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Haptics::DualMotorRumble, "UnityEngine.InputSystem.Haptics", "DualMotorRumble");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Haptics::DualMotorRumble, "UnityEngine.InputSystem.Haptics", "DualMotorRumble");

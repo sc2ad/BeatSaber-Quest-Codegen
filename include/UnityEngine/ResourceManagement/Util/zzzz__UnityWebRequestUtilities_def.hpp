@@ -2,12 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace {
-namespace UnityEngine::Networking {
-class UnityWebRequest;
-}
 namespace UnityEngine::ResourceManagement::Util {
 class UnityWebRequestResult;
+}
+namespace UnityEngine::Networking {
+class UnityWebRequest;
 }
 namespace UnityEngine::Networking {
 class UnityWebRequestAsyncOperation;
@@ -59,10 +58,10 @@ constexpr explicit UnityWebRequestUtilities(void* ptr) noexcept : ::bs_hook::Il2
 // Methods
 
 /// @brief Method RequestHasErrors addr 0x2a3b7f4 size 0x138 virtual false final false
-static bool RequestHasErrors(::UnityEngine::Networking::UnityWebRequest webReq, ByRef<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult> result) ;
+static bool RequestHasErrors(UnityEngine::Networking::UnityWebRequest webReq, ByRef<UnityEngine::ResourceManagement::Util::UnityWebRequestResult> result) ;
 
 /// @brief Method IsAssetBundleDownloaded addr 0x2a38118 size 0xa4 virtual false final false
-static bool IsAssetBundleDownloaded(::UnityEngine::Networking::UnityWebRequestAsyncOperation op) ;
+static bool IsAssetBundleDownloaded(UnityEngine::Networking::UnityWebRequestAsyncOperation op) ;
 
 // Ctor Parameters []
 explicit UnityWebRequestUtilities() ;
@@ -74,6 +73,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ResourceManagement::Util
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities, "UnityEngine.ResourceManagement.Util", "UnityWebRequestUtilities");
+NEED_NO_BOX(UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities, "UnityEngine.ResourceManagement.Util", "UnityWebRequestUtilities");

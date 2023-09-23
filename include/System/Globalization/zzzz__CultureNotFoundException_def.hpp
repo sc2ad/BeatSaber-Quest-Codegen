@@ -3,7 +3,6 @@
 #include "System/zzzz__ArgumentException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
@@ -24,7 +23,7 @@ namespace System::Globalization {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2344))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3645))
 // CS Name: System.Globalization.CultureNotFoundException
-class CORDL_TYPE CultureNotFoundException : public ::System::ArgumentException {
+class CORDL_TYPE CultureNotFoundException : public System::ArgumentException {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr CultureNotFoundException(CultureNotFoundException const& ) noexcept = 
 constexpr CultureNotFoundException(CultureNotFoundException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CultureNotFoundException(void* ptr) noexcept : ::System::ArgumentException(ptr) {
+constexpr explicit CultureNotFoundException(void* ptr) noexcept : System::ArgumentException(ptr) {
 }
 
 
@@ -66,16 +65,16 @@ constexpr void __set__invalidCultureName(::StringW value) ;
 
 constexpr ::StringW __get__invalidCultureName() const;
 
- ::System::Nullable_1<int32_t> __declspec(property(get=__get__invalidCultureId, put=__set__invalidCultureId))  _invalidCultureId;
+ System::Nullable_1<int32_t> __declspec(property(get=__get__invalidCultureId, put=__set__invalidCultureId))  _invalidCultureId;
 
-constexpr void __set__invalidCultureId(::System::Nullable_1<int32_t> value) ;
+constexpr void __set__invalidCultureId(System::Nullable_1<int32_t> value) ;
 
-constexpr ::System::Nullable_1<int32_t> __get__invalidCultureId() const;
+constexpr System::Nullable_1<int32_t> __get__invalidCultureId() const;
 
 
 // Properties
 
- ::System::Nullable_1<int32_t> __declspec(property(get=get_InvalidCultureId))  InvalidCultureId;
+ System::Nullable_1<int32_t> __declspec(property(get=get_InvalidCultureId))  InvalidCultureId;
 
  ::StringW __declspec(property(get=get_InvalidCultureName))  InvalidCultureName;
 
@@ -100,17 +99,17 @@ explicit CultureNotFoundException(::StringW paramName, ::StringW message) ;
 /// @brief Method .ctor addr 0x23dde84 size 0x14 virtual false final false
  void _ctor(::StringW paramName, ::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit CultureNotFoundException(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit CultureNotFoundException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x23dde98 size 0x1bc virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method GetObjectData addr 0x23de054 size 0x164 virtual true final false
- void GetObjectData(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void GetObjectData(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method get_InvalidCultureId addr 0x23de1b8 size 0x8 virtual true final false
- ::System::Nullable_1<int32_t> get_InvalidCultureId() ;
+ System::Nullable_1<int32_t> get_InvalidCultureId() ;
 
 /// @brief Method get_InvalidCultureName addr 0x23de1c0 size 0x8 virtual true final false
  ::StringW get_InvalidCultureName() ;
@@ -128,6 +127,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Globalization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Globalization::CultureNotFoundException);
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::CultureNotFoundException, "System.Globalization", "CultureNotFoundException");
+NEED_NO_BOX(System::Globalization::CultureNotFoundException);
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CultureNotFoundException, "System.Globalization", "CultureNotFoundException");

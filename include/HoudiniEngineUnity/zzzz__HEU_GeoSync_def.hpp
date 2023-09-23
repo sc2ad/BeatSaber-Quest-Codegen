@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_BaseSync_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace HoudiniEngineUnity {
 class HEU_SessionBase;
 }
@@ -16,7 +15,7 @@ namespace HoudiniEngineUnity {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9734))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9736))
 // CS Name: HoudiniEngineUnity.HEU_GeoSync
-class CORDL_TYPE HEU_GeoSync : public ::HoudiniEngineUnity::HEU_BaseSync {
+class CORDL_TYPE HEU_GeoSync : public HoudiniEngineUnity::HEU_BaseSync {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr HEU_GeoSync(HEU_GeoSync const& ) noexcept = default;
 constexpr HEU_GeoSync(HEU_GeoSync&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HEU_GeoSync(void* ptr) noexcept : ::HoudiniEngineUnity::HEU_BaseSync(ptr) {
+constexpr explicit HEU_GeoSync(void* ptr) noexcept : HoudiniEngineUnity::HEU_BaseSync(ptr) {
 }
 
 
@@ -62,7 +61,7 @@ constexpr ::StringW __get__filePath() const;
 // Methods
 
 /// @brief Method SetupLoadTask addr 0x20386e4 size 0x98 virtual true final false
- void SetupLoadTask(::HoudiniEngineUnity::HEU_SessionBase session) ;
+ void SetupLoadTask(HoudiniEngineUnity::HEU_SessionBase session) ;
 
 // Ctor Parameters []
 explicit HEU_GeoSync() ;
@@ -74,6 +73,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_GeoSync);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_GeoSync, "HoudiniEngineUnity", "HEU_GeoSync");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_GeoSync);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_GeoSync, "HoudiniEngineUnity", "HEU_GeoSync");

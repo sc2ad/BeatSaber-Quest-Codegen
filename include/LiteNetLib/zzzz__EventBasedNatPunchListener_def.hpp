@@ -4,31 +4,30 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace LiteNetLib {
-struct NatAddressType;
-}
 namespace System::Net {
 class IPEndPoint;
 }
 namespace LiteNetLib {
 class INatPunchListener;
 }
-namespace System {
-class AsyncCallback;
+namespace LiteNetLib {
+struct NatAddressType;
 }
 namespace System {
 class IAsyncResult;
+}
+namespace System {
+class AsyncCallback;
 }
 // Forward declare root types
 namespace LiteNetLib {
 class EventBasedNatPunchListener;
 }
 namespace LiteNetLib {
-class ____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest;
+class LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest;
 }
 namespace LiteNetLib {
-class ____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess;
+class LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess;
 }
 // Type: ::OnNatIntroductionRequest
 namespace LiteNetLib {
@@ -36,56 +35,56 @@ namespace LiteNetLib {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14427))
 // CS Name: LiteNetLib.EventBasedNatPunchListener::OnNatIntroductionRequest
-class CORDL_TYPE ____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest : public ::System::MulticastDelegate {
+class CORDL_TYPE LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x80};
 
-virtual ~____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest() = default;
+virtual ~LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest", modifiers: " const&", def_value: None }]
-constexpr ____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest(____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest", modifiers: " const&", def_value: None }]
+constexpr LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest(LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest", modifiers: "&&", def_value: None }]
-constexpr ____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest(____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest", modifiers: "&&", def_value: None }]
+constexpr LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest(LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
-  constexpr ____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest& operator=(std::nullptr_t) noexcept {
+  constexpr LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest& operator=(void* o) noexcept {
+  constexpr LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest& operator=(____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest&& o) noexcept = default;
-  constexpr ____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest& operator=(____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest const& o) noexcept = default;
+  constexpr LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest& operator=(LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest&& o) noexcept = default;
+  constexpr LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest& operator=(LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit ____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+explicit LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2086eb4 size 0x130 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x2086fe4 size 0x14 virtual true final false
- void Invoke(::System::Net::IPEndPoint localEndPoint, ::System::Net::IPEndPoint remoteEndPoint, ::StringW token) ;
+ void Invoke(System::Net::IPEndPoint localEndPoint, System::Net::IPEndPoint remoteEndPoint, ::StringW token) ;
 
 /// @brief Method BeginInvoke addr 0x2086ff8 size 0x2c virtual true final false
- ::System::IAsyncResult BeginInvoke(::System::Net::IPEndPoint localEndPoint, ::System::Net::IPEndPoint remoteEndPoint, ::StringW token, ::System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
+ System::IAsyncResult BeginInvoke(System::Net::IPEndPoint localEndPoint, System::Net::IPEndPoint remoteEndPoint, ::StringW token, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
 
 /// @brief Method EndInvoke addr 0x2087024 size 0xc virtual true final false
- void EndInvoke(::System::IAsyncResult result) ;
+ void EndInvoke(System::IAsyncResult result) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -97,56 +96,56 @@ namespace LiteNetLib {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14428))
 // CS Name: LiteNetLib.EventBasedNatPunchListener::OnNatIntroductionSuccess
-class CORDL_TYPE ____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess : public ::System::MulticastDelegate {
+class CORDL_TYPE LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x80};
 
-virtual ~____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess() = default;
+virtual ~LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess", modifiers: " const&", def_value: None }]
-constexpr ____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess(____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess", modifiers: " const&", def_value: None }]
+constexpr LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess(LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess", modifiers: "&&", def_value: None }]
-constexpr ____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess(____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess", modifiers: "&&", def_value: None }]
+constexpr LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess(LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
-  constexpr ____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess& operator=(std::nullptr_t) noexcept {
+  constexpr LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess& operator=(void* o) noexcept {
+  constexpr LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess& operator=(____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess&& o) noexcept = default;
-  constexpr ____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess& operator=(____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess const& o) noexcept = default;
+  constexpr LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess& operator=(LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess&& o) noexcept = default;
+  constexpr LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess& operator=(LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit ____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+explicit LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2087030 size 0x130 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x2087160 size 0x14 virtual true final false
- void Invoke(::System::Net::IPEndPoint targetEndPoint, ::LiteNetLib::NatAddressType type, ::StringW token) ;
+ void Invoke(System::Net::IPEndPoint targetEndPoint, LiteNetLib::NatAddressType type, ::StringW token) ;
 
 /// @brief Method BeginInvoke addr 0x2087174 size 0x98 virtual true final false
- ::System::IAsyncResult BeginInvoke(::System::Net::IPEndPoint targetEndPoint, ::LiteNetLib::NatAddressType type, ::StringW token, ::System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
+ System::IAsyncResult BeginInvoke(System::Net::IPEndPoint targetEndPoint, LiteNetLib::NatAddressType type, ::StringW token, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
 
 /// @brief Method EndInvoke addr 0x208720c size 0xc virtual true final false
- void EndInvoke(::System::IAsyncResult result) ;
+ void EndInvoke(System::IAsyncResult result) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -161,12 +160,12 @@ namespace LiteNetLib {
 class CORDL_TYPE EventBasedNatPunchListener : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using OnNatIntroductionSuccess = ::LiteNetLib::____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess;
+using OnNatIntroductionSuccess = LiteNetLib::LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess;
 
-using OnNatIntroductionRequest = ::LiteNetLib::____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest;
+using OnNatIntroductionRequest = LiteNetLib::LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest;
 
-/// @brief Convert operator to ::LiteNetLib::INatPunchListener
-constexpr operator  ::LiteNetLib::INatPunchListener() const noexcept;
+/// @brief Convert operator to LiteNetLib::INatPunchListener
+constexpr operator  LiteNetLib::INatPunchListener() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -201,38 +200,38 @@ constexpr explicit EventBasedNatPunchListener(void* ptr) noexcept : ::bs_hook::I
 
 // Fields
 
- ::LiteNetLib::____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest __declspec(property(get=__get_NatIntroductionRequest, put=__set_NatIntroductionRequest))  NatIntroductionRequest;
+ LiteNetLib::LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest __declspec(property(get=__get_NatIntroductionRequest, put=__set_NatIntroductionRequest))  NatIntroductionRequest;
 
-constexpr void __set_NatIntroductionRequest(::LiteNetLib::____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest value) ;
+constexpr void __set_NatIntroductionRequest(LiteNetLib::LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest value) ;
 
-constexpr ::LiteNetLib::____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest __get_NatIntroductionRequest() const;
+constexpr LiteNetLib::LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest __get_NatIntroductionRequest() const;
 
- ::LiteNetLib::____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess __declspec(property(get=__get_NatIntroductionSuccess, put=__set_NatIntroductionSuccess))  NatIntroductionSuccess;
+ LiteNetLib::LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess __declspec(property(get=__get_NatIntroductionSuccess, put=__set_NatIntroductionSuccess))  NatIntroductionSuccess;
 
-constexpr void __set_NatIntroductionSuccess(::LiteNetLib::____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess value) ;
+constexpr void __set_NatIntroductionSuccess(LiteNetLib::LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess value) ;
 
-constexpr ::LiteNetLib::____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess __get_NatIntroductionSuccess() const;
+constexpr LiteNetLib::LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess __get_NatIntroductionSuccess() const;
 
 
 // Methods
 
 /// @brief Method add_NatIntroductionRequest addr 0x2086c04 size 0x9c virtual false final false
- void add_NatIntroductionRequest(::LiteNetLib::____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest value) ;
+ void add_NatIntroductionRequest(LiteNetLib::LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest value) ;
 
 /// @brief Method remove_NatIntroductionRequest addr 0x2086ca0 size 0x9c virtual false final false
- void remove_NatIntroductionRequest(::LiteNetLib::____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest value) ;
+ void remove_NatIntroductionRequest(LiteNetLib::LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest value) ;
 
 /// @brief Method add_NatIntroductionSuccess addr 0x2086d3c size 0x9c virtual false final false
- void add_NatIntroductionSuccess(::LiteNetLib::____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess value) ;
+ void add_NatIntroductionSuccess(LiteNetLib::LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess value) ;
 
 /// @brief Method remove_NatIntroductionSuccess addr 0x2086dd8 size 0x9c virtual false final false
- void remove_NatIntroductionSuccess(::LiteNetLib::____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess value) ;
+ void remove_NatIntroductionSuccess(LiteNetLib::LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess value) ;
 
 /// @brief Method LiteNetLib.INatPunchListener.OnNatIntroductionRequest addr 0x2086e74 size 0x1c virtual true final true
- void LiteNetLib_INatPunchListener_OnNatIntroductionRequest(::System::Net::IPEndPoint localEndPoint, ::System::Net::IPEndPoint remoteEndPoint, ::StringW token) ;
+ void LiteNetLib_INatPunchListener_OnNatIntroductionRequest(System::Net::IPEndPoint localEndPoint, System::Net::IPEndPoint remoteEndPoint, ::StringW token) ;
 
 /// @brief Method LiteNetLib.INatPunchListener.OnNatIntroductionSuccess addr 0x2086e90 size 0x1c virtual true final true
- void LiteNetLib_INatPunchListener_OnNatIntroductionSuccess(::System::Net::IPEndPoint targetEndPoint, ::LiteNetLib::NatAddressType type, ::StringW token) ;
+ void LiteNetLib_INatPunchListener_OnNatIntroductionSuccess(System::Net::IPEndPoint targetEndPoint, LiteNetLib::NatAddressType type, ::StringW token) ;
 
 // Ctor Parameters []
 explicit EventBasedNatPunchListener() ;
@@ -244,10 +243,9 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib
-} // end anonymous namespace
-NEED_NO_BOX(::LiteNetLib::EventBasedNatPunchListener);
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::EventBasedNatPunchListener, "LiteNetLib", "EventBasedNatPunchListener");
-NEED_NO_BOX(::LiteNetLib::____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest);
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest, "LiteNetLib", "EventBasedNatPunchListener/OnNatIntroductionRequest");
-NEED_NO_BOX(::LiteNetLib::____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess);
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::____LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess, "LiteNetLib", "EventBasedNatPunchListener/OnNatIntroductionSuccess");
+NEED_NO_BOX(LiteNetLib::EventBasedNatPunchListener);
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::EventBasedNatPunchListener, "LiteNetLib", "EventBasedNatPunchListener");
+NEED_NO_BOX(LiteNetLib::LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest);
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest, "LiteNetLib", "EventBasedNatPunchListener/OnNatIntroductionRequest");
+NEED_NO_BOX(LiteNetLib::LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess);
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess, "LiteNetLib", "EventBasedNatPunchListener/OnNatIntroductionSuccess");

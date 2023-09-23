@@ -4,26 +4,25 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace GlobalNamespace {
+struct GlobalNamespace__LightConstants__BakeId;
+}
+namespace UnityEngine {
+struct Color;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__LightWithIds__LightWithId;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__LightConstants__BakeId;
-}
-namespace UnityEngine {
-struct Color;
+class GlobalNamespace__LightWithIds__LightWithId;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-class LightmapLightsWithIds;
+class GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId;
+class LightmapLightsWithIds;
 }
 // Type: ::LightIntensitiesWithId
 namespace GlobalNamespace {
@@ -31,47 +30,47 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14704))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14693))
 // CS Name: LightmapLightsWithIds::LightIntensitiesWithId
-class CORDL_TYPE ____GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId : public ::GlobalNamespace::____GlobalNamespace__LightWithIds__LightWithId {
+class CORDL_TYPE GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId : public GlobalNamespace::GlobalNamespace__LightWithIds__LightWithId {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
 
-virtual ~____GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId() = default;
+virtual ~GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId(____GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId(GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId(____GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId(GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId(void* ptr) noexcept : ::GlobalNamespace::____GlobalNamespace__LightWithIds__LightWithId(ptr) {
+constexpr explicit GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId(void* ptr) noexcept : GlobalNamespace::GlobalNamespace__LightWithIds__LightWithId(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId& operator=(____GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId&& o) noexcept = default;
-  constexpr ____GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId& operator=(____GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId const& o) noexcept = default;
+  constexpr GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId& operator=(GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId&& o) noexcept = default;
+  constexpr GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId& operator=(GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::GlobalNamespace::____GlobalNamespace__LightConstants__BakeId __declspec(property(get=__get__bakeId, put=__set__bakeId))  _bakeId;
+ GlobalNamespace::GlobalNamespace__LightConstants__BakeId __declspec(property(get=__get__bakeId, put=__set__bakeId))  _bakeId;
 
-constexpr void __set__bakeId(::GlobalNamespace::____GlobalNamespace__LightConstants__BakeId value) ;
+constexpr void __set__bakeId(GlobalNamespace::GlobalNamespace__LightConstants__BakeId value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__LightConstants__BakeId __get__bakeId() const;
+constexpr GlobalNamespace::GlobalNamespace__LightConstants__BakeId __get__bakeId() const;
 
  float_t __declspec(property(get=__get__intensity, put=__set__intensity))  _intensity;
 
@@ -106,7 +105,7 @@ constexpr bool __get__initializedPropertyIds() const;
 
 // Properties
 
- ::GlobalNamespace::____GlobalNamespace__LightConstants__BakeId __declspec(property(get=get_bakeId))  bakeId;
+ GlobalNamespace::GlobalNamespace__LightConstants__BakeId __declspec(property(get=get_bakeId))  bakeId;
 
  float_t __declspec(property(get=get_intensity, put=set_intensity))  intensity;
 
@@ -116,7 +115,7 @@ constexpr bool __get__initializedPropertyIds() const;
 // Methods
 
 /// @brief Method get_bakeId addr 0x1f9d174 size 0x8 virtual false final false
- ::GlobalNamespace::____GlobalNamespace__LightConstants__BakeId get_bakeId() ;
+ GlobalNamespace::GlobalNamespace__LightConstants__BakeId get_bakeId() ;
 
 /// @brief Method get_intensity addr 0x1f9d17c size 0x8 virtual false final false
  float_t get_intensity() ;
@@ -131,10 +130,10 @@ constexpr bool __get__initializedPropertyIds() const;
  void set_weight(float_t value) ;
 
 /// @brief Method SetDataToShaders addr 0x1f9cffc size 0x160 virtual false final false
- void SetDataToShaders(::UnityEngine::Color lightmapColor, ::UnityEngine::Color probeColor) ;
+ void SetDataToShaders(UnityEngine::Color lightmapColor, UnityEngine::Color probeColor) ;
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId() ;
+explicit GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId() ;
 
 /// @brief Method .ctor addr 0x1f9d19c size 0x8 virtual false final false
  void _ctor() ;
@@ -149,10 +148,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14705))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14694))
 // CS Name: LightmapLightsWithIds
-class CORDL_TYPE LightmapLightsWithIds : public ::GlobalNamespace::LightWithIds {
+class CORDL_TYPE LightmapLightsWithIds : public GlobalNamespace::LightWithIds {
 public:
 // Declarations
-using LightIntensitiesWithId = ::GlobalNamespace::____GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId;
+using LightIntensitiesWithId = GlobalNamespace::GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -166,7 +165,7 @@ constexpr LightmapLightsWithIds(LightmapLightsWithIds const& ) noexcept = defaul
 constexpr LightmapLightsWithIds(LightmapLightsWithIds&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LightmapLightsWithIds(void* ptr) noexcept : ::GlobalNamespace::LightWithIds(ptr) {
+constexpr explicit LightmapLightsWithIds(void* ptr) noexcept : GlobalNamespace::LightWithIds(ptr) {
 }
 
 
@@ -193,11 +192,11 @@ constexpr void __set__maxTotalIntensity(float_t value) ;
 
 constexpr float_t __get__maxTotalIntensity() const;
 
- ::ArrayW<::GlobalNamespace::____GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId> __declspec(property(get=__get__lightIntensityData, put=__set__lightIntensityData))  _lightIntensityData;
+ ::ArrayW<GlobalNamespace::GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId> __declspec(property(get=__get__lightIntensityData, put=__set__lightIntensityData))  _lightIntensityData;
 
-constexpr void __set__lightIntensityData(::ArrayW<::GlobalNamespace::____GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId> value) ;
+constexpr void __set__lightIntensityData(::ArrayW<GlobalNamespace::GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::____GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId> __get__lightIntensityData() const;
+constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId> __get__lightIntensityData() const;
 
 
 // Properties
@@ -217,7 +216,7 @@ constexpr ::ArrayW<::GlobalNamespace::____GlobalNamespace__LightmapLightsWithIds
  void ProcessNewColorData() ;
 
 /// @brief Method GetLightWithIds addr 0x1f9d15c size 0x8 virtual true final false
- ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::____GlobalNamespace__LightWithIds__LightWithId> GetLightWithIds() ;
+ System::Collections::Generic::IEnumerable_1<GlobalNamespace::GlobalNamespace__LightWithIds__LightWithId> GetLightWithIds() ;
 
 // Ctor Parameters []
 explicit LightmapLightsWithIds() ;
@@ -229,8 +228,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LightmapLightsWithIds);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightmapLightsWithIds, "", "LightmapLightsWithIds");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId, "", "LightmapLightsWithIds/LightIntensitiesWithId");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId, "", "LightmapLightsWithIds/LightIntensitiesWithId");
+NEED_NO_BOX(GlobalNamespace::LightmapLightsWithIds);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightmapLightsWithIds, "", "LightmapLightsWithIds");

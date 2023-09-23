@@ -1,11 +1,10 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
-namespace {
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {
@@ -29,23 +28,22 @@ constexpr explicit IControl(void* ptr) noexcept : ::cordl_internals::InterfaceW(
 
 // Properties
 
- ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=get_Type))  Type;
+ Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=get_Type))  Type;
 
- ::Org::BouncyCastle::Asn1::Asn1Encodable __declspec(property(get=get_Value))  Value;
+ Org::BouncyCastle::Asn1::Asn1Encodable __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
 /// @brief Method get_Type addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Asn1::DerObjectIdentifier get_Type() ;
+ Org::BouncyCastle::Asn1::DerObjectIdentifier get_Type() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Asn1::Asn1Encodable get_Value() ;
+ Org::BouncyCastle::Asn1::Asn1Encodable get_Value() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crmf
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crmf::IControl);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crmf::IControl, "Org.BouncyCastle.Crmf", "IControl");
+NEED_NO_BOX(Org::BouncyCastle::Crmf::IControl);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crmf::IControl, "Org.BouncyCastle.Crmf", "IControl");

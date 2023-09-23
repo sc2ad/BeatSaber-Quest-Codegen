@@ -3,12 +3,11 @@
 #include "HMUI/zzzz__SegmentedControlCell_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
-namespace UnityEngine {
-class GameObject;
-}
 namespace TMPro {
 class TextMeshProUGUI;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace HMUI {
@@ -20,7 +19,7 @@ namespace HMUI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13604))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13606))
 // CS Name: HMUI.TextSegmentedControlCell
-class CORDL_TYPE TextSegmentedControlCell : public ::HMUI::SegmentedControlCell {
+class CORDL_TYPE TextSegmentedControlCell : public HMUI::SegmentedControlCell {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr TextSegmentedControlCell(TextSegmentedControlCell const& ) noexcept = 
 constexpr TextSegmentedControlCell(TextSegmentedControlCell&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TextSegmentedControlCell(void* ptr) noexcept : ::HMUI::SegmentedControlCell(ptr) {
+constexpr explicit TextSegmentedControlCell(void* ptr) noexcept : HMUI::SegmentedControlCell(ptr) {
 }
 
 
@@ -56,17 +55,17 @@ constexpr explicit TextSegmentedControlCell(void* ptr) noexcept : ::HMUI::Segmen
 
 // Fields
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__text, put=__set__text))  _text;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__text, put=__set__text))  _text;
 
-constexpr void __set__text(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__text(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__text() const;
+constexpr TMPro::TextMeshProUGUI __get__text() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get__backgroundGameObject, put=__set__backgroundGameObject))  _backgroundGameObject;
+ UnityEngine::GameObject __declspec(property(get=__get__backgroundGameObject, put=__set__backgroundGameObject))  _backgroundGameObject;
 
-constexpr void __set__backgroundGameObject(::UnityEngine::GameObject value) ;
+constexpr void __set__backgroundGameObject(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__backgroundGameObject() const;
+constexpr UnityEngine::GameObject __get__backgroundGameObject() const;
 
 
 // Properties
@@ -110,6 +109,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HMUI
-} // end anonymous namespace
-NEED_NO_BOX(::HMUI::TextSegmentedControlCell);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::TextSegmentedControlCell, "HMUI", "TextSegmentedControlCell");
+NEED_NO_BOX(HMUI::TextSegmentedControlCell);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::TextSegmentedControlCell, "HMUI", "TextSegmentedControlCell");

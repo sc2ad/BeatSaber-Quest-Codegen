@@ -4,9 +4,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
-struct ____GlobalNamespace__AuthenticationToken__Platform;
+struct GlobalNamespace__AuthenticationToken__Platform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -73,7 +72,7 @@ static ::ArrayW<uint8_t> __get__nameEncryptionIv() ;
 static void Init() ;
 
 /// @brief Method GetHashedUserId addr 0xdc020c size 0xcc virtual false final false
-static ::StringW GetHashedUserId(::StringW userId, ::GlobalNamespace::____GlobalNamespace__AuthenticationToken__Platform platform) ;
+static ::StringW GetHashedUserId(::StringW userId, GlobalNamespace::GlobalNamespace__AuthenticationToken__Platform platform) ;
 
 /// @brief Method EncryptName addr 0xdc04e4 size 0x420 virtual false final false
 static ::StringW EncryptName(::StringW text) ;
@@ -91,6 +90,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::NetworkUtility);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NetworkUtility, "", "NetworkUtility");
+NEED_NO_BOX(GlobalNamespace::NetworkUtility);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkUtility, "", "NetworkUtility");

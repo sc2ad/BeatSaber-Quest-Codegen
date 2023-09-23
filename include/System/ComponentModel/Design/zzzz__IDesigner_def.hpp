@@ -1,6 +1,5 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace System {
 class IDisposable;
 }
@@ -17,8 +16,8 @@ namespace System::ComponentModel::Design {
 class CORDL_TYPE IDesigner : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 ~IDesigner() = default;
 
@@ -30,6 +29,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel::Design
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::Design::IDesigner);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::Design::IDesigner, "System.ComponentModel.Design", "IDesigner");
+NEED_NO_BOX(System::ComponentModel::Design::IDesigner);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::Design::IDesigner, "System.ComponentModel.Design", "IDesigner");

@@ -3,22 +3,21 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine::UIElements {
-class IPointerEvent;
+class IMouseEvent;
 }
 namespace System {
 template<typename T>
 class IEquatable_1;
 }
-namespace UnityEngine::UIElements {
-struct MouseButton;
-}
 namespace UnityEngine {
 struct EventModifiers;
 }
 namespace UnityEngine::UIElements {
-class IMouseEvent;
+struct MouseButton;
+}
+namespace UnityEngine::UIElements {
+class IPointerEvent;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -33,11 +32,11 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE ManipulatorActivationFilter : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::UIElements::ManipulatorActivationFilter>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::UIElements::ManipulatorActivationFilter>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::UIElements::ManipulatorActivationFilter>
+constexpr operator  System::IEquatable_1<UnityEngine::UIElements::ManipulatorActivationFilter>() const;
 
-// Ctor Parameters [CppParam { name: "_button_k__BackingField", ty: "::UnityEngine::UIElements::MouseButton", modifiers: "", def_value: None }, CppParam { name: "_modifiers_k__BackingField", ty: "::UnityEngine::EventModifiers", modifiers: "", def_value: None }, CppParam { name: "_clickCount_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ManipulatorActivationFilter(::UnityEngine::UIElements::MouseButton _button_k__BackingField, ::UnityEngine::EventModifiers _modifiers_k__BackingField, int32_t _clickCount_k__BackingField) noexcept;
+// Ctor Parameters [CppParam { name: "_button_k__BackingField", ty: "UnityEngine::UIElements::MouseButton", modifiers: "", def_value: None }, CppParam { name: "_modifiers_k__BackingField", ty: "UnityEngine::EventModifiers", modifiers: "", def_value: None }, CppParam { name: "_clickCount_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr ManipulatorActivationFilter(UnityEngine::UIElements::MouseButton _button_k__BackingField, UnityEngine::EventModifiers _modifiers_k__BackingField, int32_t _clickCount_k__BackingField) noexcept;
 
 
                     constexpr ManipulatorActivationFilter(ManipulatorActivationFilter const&) = default;
@@ -70,17 +69,17 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::UIElements::MouseButton __declspec(property(get=__get__button_k__BackingField, put=__set__button_k__BackingField))  _button_k__BackingField;
+ UnityEngine::UIElements::MouseButton __declspec(property(get=__get__button_k__BackingField, put=__set__button_k__BackingField))  _button_k__BackingField;
 
-constexpr void __set__button_k__BackingField(::UnityEngine::UIElements::MouseButton value) ;
+constexpr void __set__button_k__BackingField(UnityEngine::UIElements::MouseButton value) ;
 
-constexpr ::UnityEngine::UIElements::MouseButton __get__button_k__BackingField() const;
+constexpr UnityEngine::UIElements::MouseButton __get__button_k__BackingField() const;
 
- ::UnityEngine::EventModifiers __declspec(property(get=__get__modifiers_k__BackingField, put=__set__modifiers_k__BackingField))  _modifiers_k__BackingField;
+ UnityEngine::EventModifiers __declspec(property(get=__get__modifiers_k__BackingField, put=__set__modifiers_k__BackingField))  _modifiers_k__BackingField;
 
-constexpr void __set__modifiers_k__BackingField(::UnityEngine::EventModifiers value) ;
+constexpr void __set__modifiers_k__BackingField(UnityEngine::EventModifiers value) ;
 
-constexpr ::UnityEngine::EventModifiers __get__modifiers_k__BackingField() const;
+constexpr UnityEngine::EventModifiers __get__modifiers_k__BackingField() const;
 
  int32_t __declspec(property(get=__get__clickCount_k__BackingField, put=__set__clickCount_k__BackingField))  _clickCount_k__BackingField;
 
@@ -91,9 +90,9 @@ constexpr int32_t __get__clickCount_k__BackingField() const;
 
 // Properties
 
- ::UnityEngine::UIElements::MouseButton __declspec(property(get=get_button, put=set_button))  button;
+ UnityEngine::UIElements::MouseButton __declspec(property(get=get_button, put=set_button))  button;
 
- ::UnityEngine::EventModifiers __declspec(property(get=get_modifiers))  modifiers;
+ UnityEngine::EventModifiers __declspec(property(get=get_modifiers))  modifiers;
 
  int32_t __declspec(property(get=get_clickCount))  clickCount;
 
@@ -101,13 +100,13 @@ constexpr int32_t __get__clickCount_k__BackingField() const;
 // Methods
 
 /// @brief Method get_button addr 0x2c40b10 size 0x8 virtual false final false
- ::UnityEngine::UIElements::MouseButton get_button() ;
+ UnityEngine::UIElements::MouseButton get_button() ;
 
 /// @brief Method set_button addr 0x2c40b18 size 0x8 virtual false final false
- void set_button(::UnityEngine::UIElements::MouseButton value) ;
+ void set_button(UnityEngine::UIElements::MouseButton value) ;
 
 /// @brief Method get_modifiers addr 0x2c40b20 size 0x8 virtual false final false
- ::UnityEngine::EventModifiers get_modifiers() ;
+ UnityEngine::EventModifiers get_modifiers() ;
 
 /// @brief Method get_clickCount addr 0x2c40b28 size 0x8 virtual false final false
  int32_t get_clickCount() ;
@@ -116,22 +115,22 @@ constexpr int32_t __get__clickCount_k__BackingField() const;
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x2c40bc8 size 0x34 virtual true final true
- bool Equals(::UnityEngine::UIElements::ManipulatorActivationFilter other) ;
+ bool Equals(UnityEngine::UIElements::ManipulatorActivationFilter other) ;
 
 /// @brief Method GetHashCode addr 0x2c40bfc size 0x80 virtual true final false
  int32_t GetHashCode() ;
 
 /// @brief Method Matches addr 0x2c40c7c size 0x158 virtual false final false
- bool Matches(::UnityEngine::UIElements::IMouseEvent e) ;
+ bool Matches(UnityEngine::UIElements::IMouseEvent e) ;
 
 /// @brief Method HasModifiers addr 0x2c40dd4 size 0x1f4 virtual false final false
- bool HasModifiers(::UnityEngine::UIElements::IMouseEvent e) ;
+ bool HasModifiers(UnityEngine::UIElements::IMouseEvent e) ;
 
 /// @brief Method Matches addr 0x2c4101c size 0x158 virtual false final false
- bool Matches(::UnityEngine::UIElements::IPointerEvent e) ;
+ bool Matches(UnityEngine::UIElements::IPointerEvent e) ;
 
 /// @brief Method HasModifiers addr 0x2c41174 size 0x1f4 virtual false final false
- bool HasModifiers(::UnityEngine::UIElements::IPointerEvent e) ;
+ bool HasModifiers(UnityEngine::UIElements::IPointerEvent e) ;
 
 /// @brief Method MatchModifiers addr 0x2c40fc8 size 0x54 virtual false final false
  bool MatchModifiers(bool alt, bool ctrl, bool shift, bool command) ;
@@ -140,5 +139,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ManipulatorActivationFilter, "UnityEngine.UIElements", "ManipulatorActivationFilter");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::ManipulatorActivationFilter, "UnityEngine.UIElements", "ManipulatorActivationFilter");

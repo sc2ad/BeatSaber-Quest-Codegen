@@ -1,8 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class Exception;
 }
@@ -14,7 +12,7 @@ class NotImplemented;
 namespace System {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7714))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2513))
 // CS Name: System.NotImplemented
 class CORDL_TYPE NotImplemented : public ::bs_hook::Il2CppWrapperType {
 public:
@@ -50,15 +48,19 @@ constexpr explicit NotImplemented(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
                 
 
 
+// Properties
+
+static System::Exception __declspec(property(get=get_ByDesign))  ByDesign;
+
+
 // Methods
 
-/// @brief Method ByDesignWithMessage addr 0x27b4ca4 size 0x64 virtual false final false
-static ::System::Exception ByDesignWithMessage(::StringW message) ;
+/// @brief Method get_ByDesign addr 0x245b018 size 0x5c virtual false final false
+static System::Exception get_ByDesign() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::NotImplemented);
-DEFINE_IL2CPP_ARG_TYPE(::System::NotImplemented, "System", "NotImplemented");
+NEED_NO_BOX(System::NotImplemented);
+DEFINE_IL2CPP_ARG_TYPE(System::NotImplemented, "System", "NotImplemented");

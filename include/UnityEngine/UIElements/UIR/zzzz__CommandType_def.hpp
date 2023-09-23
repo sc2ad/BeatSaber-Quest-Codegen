@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
 struct CommandType;
@@ -77,44 +76,43 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Draw offset 0
-static ::UnityEngine::UIElements::UIR::CommandType const Draw;
+static UnityEngine::UIElements::UIR::CommandType const Draw;
 
 /// @brief Field ImmediateCull offset 0
-static ::UnityEngine::UIElements::UIR::CommandType const ImmediateCull;
+static UnityEngine::UIElements::UIR::CommandType const ImmediateCull;
 
 /// @brief Field Immediate offset 0
-static ::UnityEngine::UIElements::UIR::CommandType const Immediate;
+static UnityEngine::UIElements::UIR::CommandType const Immediate;
 
 /// @brief Field PushView offset 0
-static ::UnityEngine::UIElements::UIR::CommandType const PushView;
+static UnityEngine::UIElements::UIR::CommandType const PushView;
 
 /// @brief Field PopView offset 0
-static ::UnityEngine::UIElements::UIR::CommandType const PopView;
+static UnityEngine::UIElements::UIR::CommandType const PopView;
 
 /// @brief Field PushScissor offset 0
-static ::UnityEngine::UIElements::UIR::CommandType const PushScissor;
+static UnityEngine::UIElements::UIR::CommandType const PushScissor;
 
 /// @brief Field PopScissor offset 0
-static ::UnityEngine::UIElements::UIR::CommandType const PopScissor;
+static UnityEngine::UIElements::UIR::CommandType const PopScissor;
 
 /// @brief Field PushRenderTexture offset 0
-static ::UnityEngine::UIElements::UIR::CommandType const PushRenderTexture;
+static UnityEngine::UIElements::UIR::CommandType const PushRenderTexture;
 
 /// @brief Field PopRenderTexture offset 0
-static ::UnityEngine::UIElements::UIR::CommandType const PopRenderTexture;
+static UnityEngine::UIElements::UIR::CommandType const PopRenderTexture;
 
 /// @brief Field BlitToPreviousRT offset 0
-static ::UnityEngine::UIElements::UIR::CommandType const BlitToPreviousRT;
+static UnityEngine::UIElements::UIR::CommandType const BlitToPreviousRT;
 
 /// @brief Field PushDefaultMaterial offset 0
-static ::UnityEngine::UIElements::UIR::CommandType const PushDefaultMaterial;
+static UnityEngine::UIElements::UIR::CommandType const PushDefaultMaterial;
 
 /// @brief Field PopDefaultMaterial offset 0
-static ::UnityEngine::UIElements::UIR::CommandType const PopDefaultMaterial;
+static UnityEngine::UIElements::UIR::CommandType const PopDefaultMaterial;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::UIR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::CommandType, "UnityEngine.UIElements.UIR", "CommandType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::CommandType, "UnityEngine.UIElements.UIR", "CommandType");

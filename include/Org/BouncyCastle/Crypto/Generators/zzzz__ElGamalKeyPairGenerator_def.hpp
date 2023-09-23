@@ -1,15 +1,14 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace Org::BouncyCastle::Crypto {
-class KeyGenerationParameters;
-}
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricCipherKeyPair;
 }
 namespace Org::BouncyCastle::Crypto {
 class IAsymmetricCipherKeyPairGenerator;
+}
+namespace Org::BouncyCastle::Crypto {
+class KeyGenerationParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ElGamalKeyGenerationParameters;
@@ -27,8 +26,8 @@ namespace Org::BouncyCastle::Crypto::Generators {
 class CORDL_TYPE ElGamalKeyPairGenerator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator
-constexpr operator  ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator
+constexpr operator  Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -63,20 +62,20 @@ constexpr explicit ElGamalKeyPairGenerator(void* ptr) noexcept : ::bs_hook::Il2C
 
 // Fields
 
- ::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters __declspec(property(get=__get_param, put=__set_param))  param;
+ Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters __declspec(property(get=__get_param, put=__set_param))  param;
 
-constexpr void __set_param(::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters value) ;
+constexpr void __set_param(Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters __get_param() const;
+constexpr Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters __get_param() const;
 
 
 // Methods
 
 /// @brief Method Init addr 0xe6e228 size 0xa4 virtual true final true
- void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters parameters) ;
+ void Init(Org::BouncyCastle::Crypto::KeyGenerationParameters parameters) ;
 
 /// @brief Method GenerateKeyPair addr 0xe6e2cc size 0x198 virtual true final true
- ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair GenerateKeyPair() ;
+ Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair GenerateKeyPair() ;
 
 // Ctor Parameters []
 explicit ElGamalKeyPairGenerator() ;
@@ -88,6 +87,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Generators
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator, "Org.BouncyCastle.Crypto.Generators", "ElGamalKeyPairGenerator");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator, "Org.BouncyCastle.Crypto.Generators", "ElGamalKeyPairGenerator");

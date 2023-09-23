@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct EVRTrackedCameraError;
@@ -82,59 +81,58 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::OVR::OpenVR::EVRTrackedCameraError const None;
+static OVR::OpenVR::EVRTrackedCameraError const None;
 
 /// @brief Field OperationFailed offset 0
-static ::OVR::OpenVR::EVRTrackedCameraError const OperationFailed;
+static OVR::OpenVR::EVRTrackedCameraError const OperationFailed;
 
 /// @brief Field InvalidHandle offset 0
-static ::OVR::OpenVR::EVRTrackedCameraError const InvalidHandle;
+static OVR::OpenVR::EVRTrackedCameraError const InvalidHandle;
 
 /// @brief Field InvalidFrameHeaderVersion offset 0
-static ::OVR::OpenVR::EVRTrackedCameraError const InvalidFrameHeaderVersion;
+static OVR::OpenVR::EVRTrackedCameraError const InvalidFrameHeaderVersion;
 
 /// @brief Field OutOfHandles offset 0
-static ::OVR::OpenVR::EVRTrackedCameraError const OutOfHandles;
+static OVR::OpenVR::EVRTrackedCameraError const OutOfHandles;
 
 /// @brief Field IPCFailure offset 0
-static ::OVR::OpenVR::EVRTrackedCameraError const IPCFailure;
+static OVR::OpenVR::EVRTrackedCameraError const IPCFailure;
 
 /// @brief Field NotSupportedForThisDevice offset 0
-static ::OVR::OpenVR::EVRTrackedCameraError const NotSupportedForThisDevice;
+static OVR::OpenVR::EVRTrackedCameraError const NotSupportedForThisDevice;
 
 /// @brief Field SharedMemoryFailure offset 0
-static ::OVR::OpenVR::EVRTrackedCameraError const SharedMemoryFailure;
+static OVR::OpenVR::EVRTrackedCameraError const SharedMemoryFailure;
 
 /// @brief Field FrameBufferingFailure offset 0
-static ::OVR::OpenVR::EVRTrackedCameraError const FrameBufferingFailure;
+static OVR::OpenVR::EVRTrackedCameraError const FrameBufferingFailure;
 
 /// @brief Field StreamSetupFailure offset 0
-static ::OVR::OpenVR::EVRTrackedCameraError const StreamSetupFailure;
+static OVR::OpenVR::EVRTrackedCameraError const StreamSetupFailure;
 
 /// @brief Field InvalidGLTextureId offset 0
-static ::OVR::OpenVR::EVRTrackedCameraError const InvalidGLTextureId;
+static OVR::OpenVR::EVRTrackedCameraError const InvalidGLTextureId;
 
 /// @brief Field InvalidSharedTextureHandle offset 0
-static ::OVR::OpenVR::EVRTrackedCameraError const InvalidSharedTextureHandle;
+static OVR::OpenVR::EVRTrackedCameraError const InvalidSharedTextureHandle;
 
 /// @brief Field FailedToGetGLTextureId offset 0
-static ::OVR::OpenVR::EVRTrackedCameraError const FailedToGetGLTextureId;
+static OVR::OpenVR::EVRTrackedCameraError const FailedToGetGLTextureId;
 
 /// @brief Field SharedTextureFailure offset 0
-static ::OVR::OpenVR::EVRTrackedCameraError const SharedTextureFailure;
+static OVR::OpenVR::EVRTrackedCameraError const SharedTextureFailure;
 
 /// @brief Field NoFrameAvailable offset 0
-static ::OVR::OpenVR::EVRTrackedCameraError const NoFrameAvailable;
+static OVR::OpenVR::EVRTrackedCameraError const NoFrameAvailable;
 
 /// @brief Field InvalidArgument offset 0
-static ::OVR::OpenVR::EVRTrackedCameraError const InvalidArgument;
+static OVR::OpenVR::EVRTrackedCameraError const InvalidArgument;
 
 /// @brief Field InvalidFrameBufferSize offset 0
-static ::OVR::OpenVR::EVRTrackedCameraError const InvalidFrameBufferSize;
+static OVR::OpenVR::EVRTrackedCameraError const InvalidFrameBufferSize;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRTrackedCameraError, "OVR.OpenVR", "EVRTrackedCameraError");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRTrackedCameraError, "OVR.OpenVR", "EVRTrackedCameraError");

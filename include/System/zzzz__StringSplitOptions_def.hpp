@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 struct StringSplitOptions;
@@ -67,14 +66,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::StringSplitOptions const None;
+static System::StringSplitOptions const None;
 
 /// @brief Field RemoveEmptyEntries offset 0
-static ::System::StringSplitOptions const RemoveEmptyEntries;
+static System::StringSplitOptions const RemoveEmptyEntries;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::StringSplitOptions, "System", "StringSplitOptions");
+DEFINE_IL2CPP_ARG_TYPE(System::StringSplitOptions, "System", "StringSplitOptions");

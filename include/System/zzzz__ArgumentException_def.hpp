@@ -2,15 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__SystemException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
 namespace System {
 class Exception;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System {
@@ -22,7 +21,7 @@ namespace System {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2480))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2344))
 // CS Name: System.ArgumentException
-class CORDL_TYPE ArgumentException : public ::System::SystemException {
+class CORDL_TYPE ArgumentException : public System::SystemException {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr ArgumentException(ArgumentException const& ) noexcept = default;
 constexpr ArgumentException(ArgumentException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ArgumentException(void* ptr) noexcept : ::System::SystemException(ptr) {
+constexpr explicit ArgumentException(void* ptr) noexcept : System::SystemException(ptr) {
 }
 
 
@@ -84,17 +83,17 @@ explicit ArgumentException(::StringW message) ;
 /// @brief Method .ctor addr 0x23b2ca4 size 0x24 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "::System::Exception", modifiers: "", def_value: None }]
-explicit ArgumentException(::StringW message, ::System::Exception innerException) ;
+// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
+explicit ArgumentException(::StringW message, System::Exception innerException) ;
 
 /// @brief Method .ctor addr 0x23b3f10 size 0x24 virtual false final false
- void _ctor(::StringW message, ::System::Exception innerException) ;
+ void _ctor(::StringW message, System::Exception innerException) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "paramName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "::System::Exception", modifiers: "", def_value: None }]
-explicit ArgumentException(::StringW message, ::StringW paramName, ::System::Exception innerException) ;
+// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "paramName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
+explicit ArgumentException(::StringW message, ::StringW paramName, System::Exception innerException) ;
 
 /// @brief Method .ctor addr 0x23b3f34 size 0x38 virtual false final false
- void _ctor(::StringW message, ::StringW paramName, ::System::Exception innerException) ;
+ void _ctor(::StringW message, ::StringW paramName, System::Exception innerException) ;
 
 // Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "paramName", ty: "::StringW", modifiers: "", def_value: None }]
 explicit ArgumentException(::StringW message, ::StringW paramName) ;
@@ -102,14 +101,14 @@ explicit ArgumentException(::StringW message, ::StringW paramName) ;
 /// @brief Method .ctor addr 0x23ac97c size 0x34 virtual false final false
  void _ctor(::StringW message, ::StringW paramName) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit ArgumentException(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit ArgumentException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x23b3f6c size 0x88 virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method GetObjectData addr 0x23b3ff4 size 0xdc virtual true final false
- void GetObjectData(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void GetObjectData(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method get_Message addr 0x23b40d0 size 0xa0 virtual true final false
  ::StringW get_Message() ;
@@ -118,6 +117,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::ArgumentException);
-DEFINE_IL2CPP_ARG_TYPE(::System::ArgumentException, "System", "ArgumentException");
+NEED_NO_BOX(System::ArgumentException);
+DEFINE_IL2CPP_ARG_TYPE(System::ArgumentException, "System", "ArgumentException");

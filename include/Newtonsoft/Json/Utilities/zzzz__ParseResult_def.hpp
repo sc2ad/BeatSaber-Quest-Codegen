@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
 struct ParseResult;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::Newtonsoft::Json::Utilities::ParseResult const None;
+static Newtonsoft::Json::Utilities::ParseResult const None;
 
 /// @brief Field Success offset 0
-static ::Newtonsoft::Json::Utilities::ParseResult const Success;
+static Newtonsoft::Json::Utilities::ParseResult const Success;
 
 /// @brief Field Overflow offset 0
-static ::Newtonsoft::Json::Utilities::ParseResult const Overflow;
+static Newtonsoft::Json::Utilities::ParseResult const Overflow;
 
 /// @brief Field Invalid offset 0
-static ::Newtonsoft::Json::Utilities::ParseResult const Invalid;
+static Newtonsoft::Json::Utilities::ParseResult const Invalid;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Utilities
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::ParseResult, "Newtonsoft.Json.Utilities", "ParseResult");
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::ParseResult, "Newtonsoft.Json.Utilities", "ParseResult");

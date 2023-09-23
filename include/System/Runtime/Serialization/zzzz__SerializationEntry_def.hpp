@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
-namespace {
 namespace System {
 class Type;
 }
@@ -20,8 +19,8 @@ namespace System::Runtime::Serialization {
 struct CORDL_TYPE SerializationEntry : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "_name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_value", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "_type", ty: "::System::Type", modifiers: "", def_value: None }]
-constexpr SerializationEntry(::StringW _name, ::bs_hook::Il2CppWrapperType _value, ::System::Type _type) noexcept;
+// Ctor Parameters [CppParam { name: "_name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_value", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "_type", ty: "System::Type", modifiers: "", def_value: None }]
+constexpr SerializationEntry(::StringW _name, ::bs_hook::Il2CppWrapperType _value, System::Type _type) noexcept;
 
 
                     constexpr SerializationEntry(SerializationEntry const&) = default;
@@ -66,11 +65,11 @@ constexpr void __set__value(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get__value() const;
 
- ::System::Type __declspec(property(get=__get__type, put=__set__type))  _type;
+ System::Type __declspec(property(get=__get__type, put=__set__type))  _type;
 
-constexpr void __set__type(::System::Type value) ;
+constexpr void __set__type(System::Type value) ;
 
-constexpr ::System::Type __get__type() const;
+constexpr System::Type __get__type() const;
 
 
 // Properties
@@ -83,7 +82,7 @@ constexpr ::System::Type __get__type() const;
 // Methods
 
 /// @brief Method .ctor addr 0x23482c4 size 0xc virtual false final false
- void _ctor(::StringW entryName, ::bs_hook::Il2CppWrapperType entryValue, ::System::Type entryType) ;
+ void _ctor(::StringW entryName, ::bs_hook::Il2CppWrapperType entryValue, System::Type entryType) ;
 
 /// @brief Method get_Value addr 0x23482d0 size 0x8 virtual false final false
  ::bs_hook::Il2CppWrapperType get_Value() ;
@@ -95,5 +94,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::SerializationEntry, "System.Runtime.Serialization", "SerializationEntry");
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationEntry, "System.Runtime.Serialization", "SerializationEntry");

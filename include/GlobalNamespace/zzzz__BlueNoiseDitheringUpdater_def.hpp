@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class BlueNoiseDithering;
 }
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14655))
 // CS Name: BlueNoiseDitheringUpdater
-class CORDL_TYPE BlueNoiseDitheringUpdater : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE BlueNoiseDitheringUpdater : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr BlueNoiseDitheringUpdater(BlueNoiseDitheringUpdater const& ) noexcept 
 constexpr BlueNoiseDitheringUpdater(BlueNoiseDitheringUpdater&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BlueNoiseDitheringUpdater(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit BlueNoiseDitheringUpdater(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -57,17 +56,17 @@ constexpr explicit BlueNoiseDitheringUpdater(void* ptr) noexcept : ::UnityEngine
 
 // Fields
 
- ::GlobalNamespace::BlueNoiseDithering __declspec(property(get=__get__blueNoiseDithering, put=__set__blueNoiseDithering))  _blueNoiseDithering;
+ GlobalNamespace::BlueNoiseDithering __declspec(property(get=__get__blueNoiseDithering, put=__set__blueNoiseDithering))  _blueNoiseDithering;
 
-constexpr void __set__blueNoiseDithering(::GlobalNamespace::BlueNoiseDithering value) ;
+constexpr void __set__blueNoiseDithering(GlobalNamespace::BlueNoiseDithering value) ;
 
-constexpr ::GlobalNamespace::BlueNoiseDithering __get__blueNoiseDithering() const;
+constexpr GlobalNamespace::BlueNoiseDithering __get__blueNoiseDithering() const;
 
- ::GlobalNamespace::RandomValueToShader __declspec(property(get=__get__randomValueToShader, put=__set__randomValueToShader))  _randomValueToShader;
+ GlobalNamespace::RandomValueToShader __declspec(property(get=__get__randomValueToShader, put=__set__randomValueToShader))  _randomValueToShader;
 
-constexpr void __set__randomValueToShader(::GlobalNamespace::RandomValueToShader value) ;
+constexpr void __set__randomValueToShader(GlobalNamespace::RandomValueToShader value) ;
 
-constexpr ::GlobalNamespace::RandomValueToShader __get__randomValueToShader() const;
+constexpr GlobalNamespace::RandomValueToShader __get__randomValueToShader() const;
 
 
 // Methods
@@ -79,7 +78,7 @@ constexpr ::GlobalNamespace::RandomValueToShader __get__randomValueToShader() co
  void OnDisable() ;
 
 /// @brief Method HandleCameraPreRender addr 0x1f98d5c size 0x60 virtual false final false
- void HandleCameraPreRender(::UnityEngine::Camera camera) ;
+ void HandleCameraPreRender(UnityEngine::Camera camera) ;
 
 // Ctor Parameters []
 explicit BlueNoiseDitheringUpdater() ;
@@ -91,6 +90,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BlueNoiseDitheringUpdater);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BlueNoiseDitheringUpdater, "", "BlueNoiseDitheringUpdater");
+NEED_NO_BOX(GlobalNamespace::BlueNoiseDitheringUpdater);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BlueNoiseDitheringUpdater, "", "BlueNoiseDitheringUpdater");

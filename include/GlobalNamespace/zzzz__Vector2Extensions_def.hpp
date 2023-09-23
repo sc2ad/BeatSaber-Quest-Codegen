@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 struct Vector2;
 }
@@ -53,12 +52,11 @@ constexpr explicit Vector2Extensions(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 // Methods
 
 /// @brief Method SignedAngleToLine addr 0x22781a8 size 0x1d4 virtual false final false
-static float_t SignedAngleToLine(::UnityEngine::Vector2 vec, ::UnityEngine::Vector2 line) ;
+static float_t SignedAngleToLine(UnityEngine::Vector2 vec, UnityEngine::Vector2 line) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::Vector2Extensions);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::Vector2Extensions, "", "Vector2Extensions");
+NEED_NO_BOX(GlobalNamespace::Vector2Extensions);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Vector2Extensions, "", "Vector2Extensions");

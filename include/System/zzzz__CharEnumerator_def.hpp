@@ -3,19 +3,18 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
-}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
-class IDisposable;
+class ICloneable;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
 }
 namespace System {
-class ICloneable;
+class IDisposable;
 }
 // Forward declare root types
 namespace System {
@@ -30,17 +29,17 @@ namespace System {
 class CORDL_TYPE CharEnumerator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<char16_t>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<char16_t>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<char16_t>
+constexpr operator  System::Collections::Generic::IEnumerator_1<char16_t>() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
-/// @brief Convert operator to ::System::ICloneable
-constexpr operator  ::System::ICloneable() const noexcept;
+/// @brief Convert operator to System::ICloneable
+constexpr operator  System::ICloneable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -137,6 +136,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::CharEnumerator);
-DEFINE_IL2CPP_ARG_TYPE(::System::CharEnumerator, "System", "CharEnumerator");
+NEED_NO_BOX(System::CharEnumerator);
+DEFINE_IL2CPP_ARG_TYPE(System::CharEnumerator, "System", "CharEnumerator");

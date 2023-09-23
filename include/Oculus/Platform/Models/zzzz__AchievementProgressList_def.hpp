@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__AchievementProgress_def.hpp"
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_def.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class AchievementProgressList;
@@ -11,10 +10,10 @@ class AchievementProgressList;
 // Type: Oculus.Platform.Models::AchievementProgressList
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13410)), TypeDefinitionIndex(TypeDefinitionIndex(13382)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1128 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13382)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1128 }), TypeDefinitionIndex(TypeDefinitionIndex(13410))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13383))
 // CS Name: Oculus.Platform.Models.AchievementProgressList
-class CORDL_TYPE AchievementProgressList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::AchievementProgress> {
+class CORDL_TYPE AchievementProgressList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::AchievementProgress> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr AchievementProgressList(AchievementProgressList const& ) noexcept = de
 constexpr AchievementProgressList(AchievementProgressList&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AchievementProgressList(void* ptr) noexcept : ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::AchievementProgress>(ptr) {
+constexpr explicit AchievementProgressList(void* ptr) noexcept : Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::AchievementProgress>(ptr) {
 }
 
 
@@ -60,6 +59,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::AchievementProgressList);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::AchievementProgressList, "Oculus.Platform.Models", "AchievementProgressList");
+NEED_NO_BOX(Oculus::Platform::Models::AchievementProgressList);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AchievementProgressList, "Oculus.Platform.Models", "AchievementProgressList");

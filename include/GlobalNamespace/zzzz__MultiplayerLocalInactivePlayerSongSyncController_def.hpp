@@ -3,9 +3,8 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
-namespace GlobalNamespace {
-class IVRPlatformHelper;
+namespace UnityEngine {
+class AudioClip;
 }
 namespace UnityEngine {
 class WaitUntil;
@@ -17,23 +16,23 @@ namespace GlobalNamespace {
 class CrossFadeAudioSource;
 }
 namespace GlobalNamespace {
-class IMultiplayerObservable;
+class IVRPlatformHelper;
 }
 namespace GlobalNamespace {
-class FloatSO;
+class IMultiplayerObservable;
 }
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
-namespace UnityEngine {
-class AudioClip;
+namespace GlobalNamespace {
+class FloatSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-class MultiplayerLocalInactivePlayerSongSyncController;
+class GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData;
+class MultiplayerLocalInactivePlayerSongSyncController;
 }
 // Type: ::InitData
 namespace GlobalNamespace {
@@ -41,47 +40,47 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5264))
 // CS Name: MultiplayerLocalInactivePlayerSongSyncController::InitData
-class CORDL_TYPE ____GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData() = default;
+virtual ~GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData(____GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData(GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData(____GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData(GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData& operator=(____GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData&& o) noexcept = default;
-  constexpr ____GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData& operator=(____GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData const& o) noexcept = default;
+  constexpr GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData& operator=(GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData&& o) noexcept = default;
+  constexpr GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData& operator=(GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::UnityEngine::AudioClip __declspec(property(get=__get_audioClip, put=__set_audioClip))  audioClip;
+ UnityEngine::AudioClip __declspec(property(get=__get_audioClip, put=__set_audioClip))  audioClip;
 
-constexpr void __set_audioClip(::UnityEngine::AudioClip value) ;
+constexpr void __set_audioClip(UnityEngine::AudioClip value) ;
 
-constexpr ::UnityEngine::AudioClip __get_audioClip() const;
+constexpr UnityEngine::AudioClip __get_audioClip() const;
 
  float_t __declspec(property(get=__get_startSongTime, put=__set_startSongTime))  startSongTime;
 
@@ -104,11 +103,11 @@ constexpr float_t __get_timeScale() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "audioClip", ty: "::UnityEngine::AudioClip", modifiers: "", def_value: None }, CppParam { name: "startSongTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "songTimeOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "timeScale", ty: "float_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData(::UnityEngine::AudioClip audioClip, float_t startSongTime, float_t songTimeOffset, float_t timeScale) ;
+// Ctor Parameters [CppParam { name: "audioClip", ty: "UnityEngine::AudioClip", modifiers: "", def_value: None }, CppParam { name: "startSongTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "songTimeOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "timeScale", ty: "float_t", modifiers: "", def_value: None }]
+explicit GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData(UnityEngine::AudioClip audioClip, float_t startSongTime, float_t songTimeOffset, float_t timeScale) ;
 
 /// @brief Method .ctor addr 0x20e8e24 size 0x4c virtual false final false
- void _ctor(::UnityEngine::AudioClip audioClip, float_t startSongTime, float_t songTimeOffset, float_t timeScale) ;
+ void _ctor(UnityEngine::AudioClip audioClip, float_t startSongTime, float_t songTimeOffset, float_t timeScale) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -120,13 +119,13 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5265))
 // CS Name: MultiplayerLocalInactivePlayerSongSyncController
-class CORDL_TYPE MultiplayerLocalInactivePlayerSongSyncController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerLocalInactivePlayerSongSyncController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using InitData = ::GlobalNamespace::____GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData;
+using InitData = GlobalNamespace::GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData;
 
-/// @brief Convert operator to ::GlobalNamespace::IStartSeekSongController
-constexpr operator  ::GlobalNamespace::IStartSeekSongController() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IStartSeekSongController
+constexpr operator  GlobalNamespace::IStartSeekSongController() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x68};
@@ -140,7 +139,7 @@ constexpr MultiplayerLocalInactivePlayerSongSyncController(MultiplayerLocalInact
 constexpr MultiplayerLocalInactivePlayerSongSyncController(MultiplayerLocalInactivePlayerSongSyncController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerLocalInactivePlayerSongSyncController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerLocalInactivePlayerSongSyncController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -161,35 +160,35 @@ constexpr explicit MultiplayerLocalInactivePlayerSongSyncController(void* ptr) n
 
 // Fields
 
- ::GlobalNamespace::CrossFadeAudioSource __declspec(property(get=__get__audioSource, put=__set__audioSource))  _audioSource;
+ GlobalNamespace::CrossFadeAudioSource __declspec(property(get=__get__audioSource, put=__set__audioSource))  _audioSource;
 
-constexpr void __set__audioSource(::GlobalNamespace::CrossFadeAudioSource value) ;
+constexpr void __set__audioSource(GlobalNamespace::CrossFadeAudioSource value) ;
 
-constexpr ::GlobalNamespace::CrossFadeAudioSource __get__audioSource() const;
+constexpr GlobalNamespace::CrossFadeAudioSource __get__audioSource() const;
 
- ::GlobalNamespace::FloatSO __declspec(property(get=__get__audioLatency, put=__set__audioLatency))  _audioLatency;
+ GlobalNamespace::FloatSO __declspec(property(get=__get__audioLatency, put=__set__audioLatency))  _audioLatency;
 
-constexpr void __set__audioLatency(::GlobalNamespace::FloatSO value) ;
+constexpr void __set__audioLatency(GlobalNamespace::FloatSO value) ;
 
-constexpr ::GlobalNamespace::FloatSO __get__audioLatency() const;
+constexpr GlobalNamespace::FloatSO __get__audioLatency() const;
 
- ::GlobalNamespace::____GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData __declspec(property(get=__get__initData, put=__set__initData))  _initData;
+ GlobalNamespace::GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData __declspec(property(get=__get__initData, put=__set__initData))  _initData;
 
-constexpr void __set__initData(::GlobalNamespace::____GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData value) ;
+constexpr void __set__initData(GlobalNamespace::GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData __get__initData() const;
+constexpr GlobalNamespace::GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData __get__initData() const;
 
- ::GlobalNamespace::IMultiplayerSessionManager __declspec(property(get=__get__multiplayerSessionManager, put=__set__multiplayerSessionManager))  _multiplayerSessionManager;
+ GlobalNamespace::IMultiplayerSessionManager __declspec(property(get=__get__multiplayerSessionManager, put=__set__multiplayerSessionManager))  _multiplayerSessionManager;
 
-constexpr void __set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager value) ;
+constexpr void __set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager value) ;
 
-constexpr ::GlobalNamespace::IMultiplayerSessionManager __get__multiplayerSessionManager() const;
+constexpr GlobalNamespace::IMultiplayerSessionManager __get__multiplayerSessionManager() const;
 
- ::GlobalNamespace::IVRPlatformHelper __declspec(property(get=__get__vrPlatformHelper, put=__set__vrPlatformHelper))  _vrPlatformHelper;
+ GlobalNamespace::IVRPlatformHelper __declspec(property(get=__get__vrPlatformHelper, put=__set__vrPlatformHelper))  _vrPlatformHelper;
 
-constexpr void __set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper value) ;
+constexpr void __set__vrPlatformHelper(GlobalNamespace::IVRPlatformHelper value) ;
 
-constexpr ::GlobalNamespace::IVRPlatformHelper __get__vrPlatformHelper() const;
+constexpr GlobalNamespace::IVRPlatformHelper __get__vrPlatformHelper() const;
 
  float_t __declspec(property(get=__get__timeScale, put=__set__timeScale))  _timeScale;
 
@@ -227,11 +226,11 @@ constexpr void __set__currentObservableIsFailed(bool value) ;
 
 constexpr bool __get__currentObservableIsFailed() const;
 
- ::GlobalNamespace::IMultiplayerObservable __declspec(property(get=__get__observable, put=__set__observable))  _observable;
+ GlobalNamespace::IMultiplayerObservable __declspec(property(get=__get__observable, put=__set__observable))  _observable;
 
-constexpr void __set__observable(::GlobalNamespace::IMultiplayerObservable value) ;
+constexpr void __set__observable(GlobalNamespace::IMultiplayerObservable value) ;
 
-constexpr ::GlobalNamespace::IMultiplayerObservable __get__observable() const;
+constexpr GlobalNamespace::IMultiplayerObservable __get__observable() const;
 
  float_t __declspec(property(get=__get__lastLatencyOffsetTime, put=__set__lastLatencyOffsetTime))  _lastLatencyOffsetTime;
 
@@ -245,7 +244,7 @@ static constexpr float_t  kReSyncThreshold{0.05};
 
 // Properties
 
- ::UnityEngine::WaitUntil __declspec(property(get=get_waitUntilIsReadyToStartTheSong))  waitUntilIsReadyToStartTheSong;
+ UnityEngine::WaitUntil __declspec(property(get=get_waitUntilIsReadyToStartTheSong))  waitUntilIsReadyToStartTheSong;
 
  bool __declspec(property(get=get_isAudioLoaded))  isAudioLoaded;
 
@@ -253,7 +252,7 @@ static constexpr float_t  kReSyncThreshold{0.05};
 // Methods
 
 /// @brief Method get_waitUntilIsReadyToStartTheSong addr 0x20e8ebc size 0xac virtual true final true
- ::UnityEngine::WaitUntil get_waitUntilIsReadyToStartTheSong() ;
+ UnityEngine::WaitUntil get_waitUntilIsReadyToStartTheSong() ;
 
 /// @brief Method get_isAudioLoaded addr 0x20e8f68 size 0x9c virtual false final false
  bool get_isAudioLoaded() ;
@@ -274,7 +273,7 @@ static constexpr float_t  kReSyncThreshold{0.05};
  void StartSong(float_t offsetTime) ;
 
 /// @brief Method FollowOffsetSyncTime addr 0x20e9904 size 0x1e0 virtual false final false
- void FollowOffsetSyncTime(::GlobalNamespace::IMultiplayerObservable observable, bool crossFade, bool forceUpdate) ;
+ void FollowOffsetSyncTime(GlobalNamespace::IMultiplayerObservable observable, bool crossFade, bool forceUpdate) ;
 
 /// @brief Method UpdateOffsetSyncTime addr 0x20e958c size 0x12c virtual false final false
  void UpdateOffsetSyncTime(float_t offsetSyncTime, bool crossFade, bool forceUpdate) ;
@@ -301,8 +300,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController, "", "MultiplayerLocalInactivePlayerSongSyncController");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData, "", "MultiplayerLocalInactivePlayerSongSyncController/InitData");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData, "", "MultiplayerLocalInactivePlayerSongSyncController/InitData");
+NEED_NO_BOX(GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController, "", "MultiplayerLocalInactivePlayerSongSyncController");

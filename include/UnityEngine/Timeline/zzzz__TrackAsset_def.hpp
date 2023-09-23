@@ -8,100 +8,99 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
-}
-namespace UnityEngine::Timeline {
-class TrackBindingTypeAttribute;
-}
-namespace UnityEngine::Playables {
-class IPlayableAsset;
-}
-namespace UnityEngine::Timeline {
-class TimelineAsset;
-}
-namespace UnityEngine {
-class AnimationClip;
-}
-namespace UnityEngine::Playables {
-class PlayableDirector;
-}
-namespace UnityEngine::Timeline {
-class RuntimeElement;
-}
-namespace UnityEngine::Playables {
-struct PlayableBinding;
-}
-namespace UnityEngine::Playables {
-struct Playable;
-}
-namespace System {
-class Type;
-}
-namespace System {
-template<typename T1,typename T2,typename T3>
-class Action_3;
-}
-namespace UnityEngine::Timeline {
-struct MarkerList;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace UnityEngine::Timeline {
-class TimelineClip;
-}
-namespace UnityEngine::Timeline {
-struct DiscreteTime;
-}
-namespace UnityEngine::Timeline {
-class IPropertyCollector;
-}
-namespace UnityEngine::Timeline {
-class ICurvesOwner;
-}
-namespace UnityEngine {
-class ScriptableObject;
-}
 namespace System {
 template<typename T>
 struct Nullable_1;
 }
 namespace UnityEngine::Timeline {
+class RuntimeElement;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
+namespace UnityEngine::Timeline {
 class IMarker;
 }
-namespace UnityEngine {
-class GameObject;
+namespace UnityEngine::Timeline {
+class IPropertyPreview;
+}
+namespace UnityEngine::Timeline {
+struct DiscreteTime;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace UnityEngine::Playables {
-struct PlayableGraph;
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace UnityEngine {
+class Object;
+}
+namespace UnityEngine::Timeline {
+class TimelineClip;
+}
+namespace UnityEngine::Timeline {
+struct MarkerList;
+}
+namespace System {
+class Type;
 }
 namespace UnityEngine::Timeline {
 template<typename T>
 class IntervalTree_1;
 }
 namespace UnityEngine::Playables {
-class PlayableAsset;
+class PlayableDirector;
+}
+namespace UnityEngine::Timeline {
+class TrackBindingTypeAttribute;
 }
 namespace UnityEngine {
-class Object;
+class GameObject;
 }
 namespace UnityEngine {
 class ISerializationCallbackReceiver;
 }
+namespace UnityEngine {
+class ScriptableObject;
+}
+namespace UnityEngine::Playables {
+class IPlayableAsset;
+}
+namespace UnityEngine::Playables {
+class PlayableAsset;
+}
 namespace UnityEngine::Timeline {
-class IPropertyPreview;
+class ICurvesOwner;
+}
+namespace UnityEngine::Playables {
+struct Playable;
+}
+namespace UnityEngine::Timeline {
+class IPropertyCollector;
+}
+namespace UnityEngine::Playables {
+struct PlayableBinding;
+}
+namespace System {
+template<typename T1,typename T2,typename T3>
+class Action_3;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
+}
+namespace UnityEngine::Timeline {
+class TimelineAsset;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace UnityEngine {
+class AnimationClip;
 }
 namespace System {
 template<typename T>
@@ -113,31 +112,31 @@ class IEnumerator;
 namespace System {
 class IDisposable;
 }
+namespace System::Collections {
+class IEnumerable;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System::Collections {
-class IEnumerable;
-}
 // Forward declare root types
 namespace UnityEngine::Timeline {
-struct ____UnityEngine__Timeline__TrackAsset__Versions;
+struct UnityEngine__Timeline__TrackAsset__Versions;
 }
 namespace UnityEngine::Timeline {
 class TrackAsset;
 }
 namespace UnityEngine::Timeline {
-class ____UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade;
+class UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade;
 }
 namespace UnityEngine::Timeline {
-class ____UnityEngine__Timeline__TrackAsset____c;
+class UnityEngine__Timeline__TrackAsset____c;
 }
 namespace UnityEngine::Timeline {
-class ____UnityEngine__Timeline__TrackAsset___get_outputs_d__65;
+class UnityEngine__Timeline__TrackAsset___get_outputs_d__65;
 }
 namespace UnityEngine::Timeline {
-struct ____UnityEngine__Timeline__TrackAsset__TransientBuildData;
+struct UnityEngine__Timeline__TrackAsset__TransientBuildData;
 }
 // Type: ::Versions
 namespace UnityEngine::Timeline {
@@ -145,20 +144,20 @@ namespace UnityEngine::Timeline {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14068))
 // CS Name: UnityEngine.Timeline.TrackAsset::Versions
-struct CORDL_TYPE ____UnityEngine__Timeline__TrackAsset__Versions : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__Timeline__TrackAsset__Versions : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__Timeline__TrackAsset__Versions(int32_t value__) noexcept;
+constexpr UnityEngine__Timeline__TrackAsset__Versions(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__Timeline__TrackAsset__Versions(____UnityEngine__Timeline__TrackAsset__Versions const&) = default;
-                    constexpr ____UnityEngine__Timeline__TrackAsset__Versions(____UnityEngine__Timeline__TrackAsset__Versions&&) = default;
-                    constexpr ____UnityEngine__Timeline__TrackAsset__Versions& operator=(____UnityEngine__Timeline__TrackAsset__Versions const& o) {
+                    constexpr UnityEngine__Timeline__TrackAsset__Versions(UnityEngine__Timeline__TrackAsset__Versions const&) = default;
+                    constexpr UnityEngine__Timeline__TrackAsset__Versions(UnityEngine__Timeline__TrackAsset__Versions&&) = default;
+                    constexpr UnityEngine__Timeline__TrackAsset__Versions& operator=(UnityEngine__Timeline__TrackAsset__Versions const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__Timeline__TrackAsset__Versions& operator=(____UnityEngine__Timeline__TrackAsset__Versions&& o) noexcept {
+                    constexpr UnityEngine__Timeline__TrackAsset__Versions& operator=(UnityEngine__Timeline__TrackAsset__Versions&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -171,7 +170,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__Timeline__TrackAsset__Versions(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__Timeline__TrackAsset__Versions(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -179,7 +178,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__Timeline__TrackAsset__Versions_Unwrapped : int32_t {
+enum class __UnityEngine__Timeline__TrackAsset__Versions_Unwrapped : int32_t {
 __Initial = 0,
 __RotationAsEuler = 1,
 __RootMotionUpgrade = 2,
@@ -187,8 +186,8 @@ __AnimatedTrackProperties = 3,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__Timeline__TrackAsset__Versions_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__Timeline__TrackAsset__Versions_Unwrapped>(__instance);
+constexpr operator __UnityEngine__Timeline__TrackAsset__Versions_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__Timeline__TrackAsset__Versions_Unwrapped>(__instance);
 }
 
 
@@ -201,16 +200,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Initial offset 0
-static ::UnityEngine::Timeline::____UnityEngine__Timeline__TrackAsset__Versions const Initial;
+static UnityEngine::Timeline::UnityEngine__Timeline__TrackAsset__Versions const Initial;
 
 /// @brief Field RotationAsEuler offset 0
-static ::UnityEngine::Timeline::____UnityEngine__Timeline__TrackAsset__Versions const RotationAsEuler;
+static UnityEngine::Timeline::UnityEngine__Timeline__TrackAsset__Versions const RotationAsEuler;
 
 /// @brief Field RootMotionUpgrade offset 0
-static ::UnityEngine::Timeline::____UnityEngine__Timeline__TrackAsset__Versions const RootMotionUpgrade;
+static UnityEngine::Timeline::UnityEngine__Timeline__TrackAsset__Versions const RootMotionUpgrade;
 
 /// @brief Field AnimatedTrackProperties offset 0
-static ::UnityEngine::Timeline::____UnityEngine__Timeline__TrackAsset__Versions const AnimatedTrackProperties;
+static UnityEngine::Timeline::UnityEngine__Timeline__TrackAsset__Versions const AnimatedTrackProperties;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -222,37 +221,37 @@ namespace UnityEngine::Timeline {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14069))
 // CS Name: UnityEngine.Timeline.TrackAsset::TrackAssetUpgrade
-class CORDL_TYPE ____UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade() = default;
+virtual ~UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade(____UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade(UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade(____UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade(UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade& operator=(void* o) noexcept {
+  constexpr UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade& operator=(____UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade&& o) noexcept = default;
-  constexpr ____UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade& operator=(____UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade const& o) noexcept = default;
+  constexpr UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade& operator=(UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade&& o) noexcept = default;
+  constexpr UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade& operator=(UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade const& o) noexcept = default;
                 
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
@@ -265,20 +264,20 @@ namespace UnityEngine::Timeline {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14070))
 // CS Name: UnityEngine.Timeline.TrackAsset::TransientBuildData
-struct CORDL_TYPE ____UnityEngine__Timeline__TrackAsset__TransientBuildData : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__Timeline__TrackAsset__TransientBuildData : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "trackList", ty: "::System::Collections::Generic::List_1<::UnityEngine::Timeline::TrackAsset>", modifiers: "", def_value: None }, CppParam { name: "clipList", ty: "::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip>", modifiers: "", def_value: None }, CppParam { name: "markerList", ty: "::System::Collections::Generic::List_1<::UnityEngine::Timeline::IMarker>", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__Timeline__TrackAsset__TransientBuildData(::System::Collections::Generic::List_1<::UnityEngine::Timeline::TrackAsset> trackList, ::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip> clipList, ::System::Collections::Generic::List_1<::UnityEngine::Timeline::IMarker> markerList) noexcept;
+// Ctor Parameters [CppParam { name: "trackList", ty: "System::Collections::Generic::List_1<UnityEngine::Timeline::TrackAsset>", modifiers: "", def_value: None }, CppParam { name: "clipList", ty: "System::Collections::Generic::List_1<UnityEngine::Timeline::TimelineClip>", modifiers: "", def_value: None }, CppParam { name: "markerList", ty: "System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker>", modifiers: "", def_value: None }]
+constexpr UnityEngine__Timeline__TrackAsset__TransientBuildData(System::Collections::Generic::List_1<UnityEngine::Timeline::TrackAsset> trackList, System::Collections::Generic::List_1<UnityEngine::Timeline::TimelineClip> clipList, System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker> markerList) noexcept;
 
 
-                    constexpr ____UnityEngine__Timeline__TrackAsset__TransientBuildData(____UnityEngine__Timeline__TrackAsset__TransientBuildData const&) = default;
-                    constexpr ____UnityEngine__Timeline__TrackAsset__TransientBuildData(____UnityEngine__Timeline__TrackAsset__TransientBuildData&&) = default;
-                    constexpr ____UnityEngine__Timeline__TrackAsset__TransientBuildData& operator=(____UnityEngine__Timeline__TrackAsset__TransientBuildData const& o) {
+                    constexpr UnityEngine__Timeline__TrackAsset__TransientBuildData(UnityEngine__Timeline__TrackAsset__TransientBuildData const&) = default;
+                    constexpr UnityEngine__Timeline__TrackAsset__TransientBuildData(UnityEngine__Timeline__TrackAsset__TransientBuildData&&) = default;
+                    constexpr UnityEngine__Timeline__TrackAsset__TransientBuildData& operator=(UnityEngine__Timeline__TrackAsset__TransientBuildData const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__Timeline__TrackAsset__TransientBuildData& operator=(____UnityEngine__Timeline__TrackAsset__TransientBuildData&& o) noexcept {
+                    constexpr UnityEngine__Timeline__TrackAsset__TransientBuildData& operator=(UnityEngine__Timeline__TrackAsset__TransientBuildData&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -291,7 +290,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x18};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__Timeline__TrackAsset__TransientBuildData(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__Timeline__TrackAsset__TransientBuildData(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -302,29 +301,29 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::Collections::Generic::List_1<::UnityEngine::Timeline::TrackAsset> __declspec(property(get=__get_trackList, put=__set_trackList))  trackList;
+ System::Collections::Generic::List_1<UnityEngine::Timeline::TrackAsset> __declspec(property(get=__get_trackList, put=__set_trackList))  trackList;
 
-constexpr void __set_trackList(::System::Collections::Generic::List_1<::UnityEngine::Timeline::TrackAsset> value) ;
+constexpr void __set_trackList(System::Collections::Generic::List_1<UnityEngine::Timeline::TrackAsset> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Timeline::TrackAsset> __get_trackList() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::Timeline::TrackAsset> __get_trackList() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip> __declspec(property(get=__get_clipList, put=__set_clipList))  clipList;
+ System::Collections::Generic::List_1<UnityEngine::Timeline::TimelineClip> __declspec(property(get=__get_clipList, put=__set_clipList))  clipList;
 
-constexpr void __set_clipList(::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip> value) ;
+constexpr void __set_clipList(System::Collections::Generic::List_1<UnityEngine::Timeline::TimelineClip> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip> __get_clipList() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::Timeline::TimelineClip> __get_clipList() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::Timeline::IMarker> __declspec(property(get=__get_markerList, put=__set_markerList))  markerList;
+ System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker> __declspec(property(get=__get_markerList, put=__set_markerList))  markerList;
 
-constexpr void __set_markerList(::System::Collections::Generic::List_1<::UnityEngine::Timeline::IMarker> value) ;
+constexpr void __set_markerList(System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Timeline::IMarker> __get_markerList() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker> __get_markerList() const;
 
 
 // Methods
 
 /// @brief Method Create addr 0x2ac8ba0 size 0x10c virtual false final false
-static ::UnityEngine::Timeline::____UnityEngine__Timeline__TrackAsset__TransientBuildData Create() ;
+static UnityEngine::Timeline::UnityEngine__Timeline__TrackAsset__TransientBuildData Create() ;
 
 /// @brief Method Clear addr 0x2ac66a0 size 0xe0 virtual false final false
  void Clear() ;
@@ -339,52 +338,52 @@ namespace UnityEngine::Timeline {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14071))
 // CS Name: UnityEngine.Timeline.TrackAsset::<get_outputs>d__65
-class CORDL_TYPE ____UnityEngine__Timeline__TrackAsset___get_outputs_d__65 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__Timeline__TrackAsset___get_outputs_d__65 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>
-constexpr operator  ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>
+constexpr operator  System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::PlayableBinding>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::PlayableBinding>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<UnityEngine::Playables::PlayableBinding>
+constexpr operator  System::Collections::Generic::IEnumerator_1<UnityEngine::Playables::PlayableBinding>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
 
-virtual ~____UnityEngine__Timeline__TrackAsset___get_outputs_d__65() = default;
+virtual ~UnityEngine__Timeline__TrackAsset___get_outputs_d__65() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__Timeline__TrackAsset___get_outputs_d__65", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__Timeline__TrackAsset___get_outputs_d__65(____UnityEngine__Timeline__TrackAsset___get_outputs_d__65 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__Timeline__TrackAsset___get_outputs_d__65", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__Timeline__TrackAsset___get_outputs_d__65(UnityEngine__Timeline__TrackAsset___get_outputs_d__65 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__Timeline__TrackAsset___get_outputs_d__65", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__Timeline__TrackAsset___get_outputs_d__65(____UnityEngine__Timeline__TrackAsset___get_outputs_d__65&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__Timeline__TrackAsset___get_outputs_d__65", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__Timeline__TrackAsset___get_outputs_d__65(UnityEngine__Timeline__TrackAsset___get_outputs_d__65&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__Timeline__TrackAsset___get_outputs_d__65(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__Timeline__TrackAsset___get_outputs_d__65(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__Timeline__TrackAsset___get_outputs_d__65& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__Timeline__TrackAsset___get_outputs_d__65& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__Timeline__TrackAsset___get_outputs_d__65& operator=(void* o) noexcept {
+  constexpr UnityEngine__Timeline__TrackAsset___get_outputs_d__65& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__Timeline__TrackAsset___get_outputs_d__65& operator=(____UnityEngine__Timeline__TrackAsset___get_outputs_d__65&& o) noexcept = default;
-  constexpr ____UnityEngine__Timeline__TrackAsset___get_outputs_d__65& operator=(____UnityEngine__Timeline__TrackAsset___get_outputs_d__65 const& o) noexcept = default;
+  constexpr UnityEngine__Timeline__TrackAsset___get_outputs_d__65& operator=(UnityEngine__Timeline__TrackAsset___get_outputs_d__65&& o) noexcept = default;
+  constexpr UnityEngine__Timeline__TrackAsset___get_outputs_d__65& operator=(UnityEngine__Timeline__TrackAsset___get_outputs_d__65 const& o) noexcept = default;
                 
 
 
@@ -396,11 +395,11 @@ constexpr void __set___1__state(int32_t value) ;
 
 constexpr int32_t __get___1__state() const;
 
- ::UnityEngine::Playables::PlayableBinding __declspec(property(get=__get___2__current, put=__set___2__current))  __2__current;
+ UnityEngine::Playables::PlayableBinding __declspec(property(get=__get___2__current, put=__set___2__current))  __2__current;
 
-constexpr void __set___2__current(::UnityEngine::Playables::PlayableBinding value) ;
+constexpr void __set___2__current(UnityEngine::Playables::PlayableBinding value) ;
 
-constexpr ::UnityEngine::Playables::PlayableBinding __get___2__current() const;
+constexpr UnityEngine::Playables::PlayableBinding __get___2__current() const;
 
  int32_t __declspec(property(get=__get___l__initialThreadId, put=__set___l__initialThreadId))  __l__initialThreadId;
 
@@ -408,16 +407,16 @@ constexpr void __set___l__initialThreadId(int32_t value) ;
 
 constexpr int32_t __get___l__initialThreadId() const;
 
- ::UnityEngine::Timeline::TrackAsset __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ UnityEngine::Timeline::TrackAsset __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::UnityEngine::Timeline::TrackAsset value) ;
+constexpr void __set___4__this(UnityEngine::Timeline::TrackAsset value) ;
 
-constexpr ::UnityEngine::Timeline::TrackAsset __get___4__this() const;
+constexpr UnityEngine::Timeline::TrackAsset __get___4__this() const;
 
 
 // Properties
 
- ::UnityEngine::Playables::PlayableBinding __declspec(property(get=System_Collections_Generic_IEnumerator_UnityEngine_Playables_PlayableBinding__get_Current))  System_Collections_Generic_IEnumerator_UnityEngine_Playables_PlayableBinding__Current;
+ UnityEngine::Playables::PlayableBinding __declspec(property(get=System_Collections_Generic_IEnumerator_UnityEngine_Playables_PlayableBinding__get_Current))  System_Collections_Generic_IEnumerator_UnityEngine_Playables_PlayableBinding__Current;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=System_Collections_IEnumerator_get_Current))  System_Collections_IEnumerator_Current;
 
@@ -425,7 +424,7 @@ constexpr ::UnityEngine::Timeline::TrackAsset __get___4__this() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____UnityEngine__Timeline__TrackAsset___get_outputs_d__65(int32_t __1__state) ;
+explicit UnityEngine__Timeline__TrackAsset___get_outputs_d__65(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2ac36b0 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -437,7 +436,7 @@ explicit ____UnityEngine__Timeline__TrackAsset___get_outputs_d__65(int32_t __1__
  bool MoveNext() ;
 
 /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.get_Current addr 0x2ac8ef4 size 0x10 virtual true final true
- ::UnityEngine::Playables::PlayableBinding System_Collections_Generic_IEnumerator_UnityEngine_Playables_PlayableBinding__get_Current() ;
+ UnityEngine::Playables::PlayableBinding System_Collections_Generic_IEnumerator_UnityEngine_Playables_PlayableBinding__get_Current() ;
 
 /// @brief Method System.Collections.IEnumerator.Reset addr 0x2ac8f04 size 0x40 virtual true final true
  void System_Collections_IEnumerator_Reset() ;
@@ -446,10 +445,10 @@ explicit ____UnityEngine__Timeline__TrackAsset___get_outputs_d__65(int32_t __1__
  ::bs_hook::Il2CppWrapperType System_Collections_IEnumerator_get_Current() ;
 
 /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>.GetEnumerator addr 0x2ac8fa4 size 0xa4 virtual true final true
- ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::PlayableBinding> System_Collections_Generic_IEnumerable_UnityEngine_Playables_PlayableBinding__GetEnumerator() ;
+ System::Collections::Generic::IEnumerator_1<UnityEngine::Playables::PlayableBinding> System_Collections_Generic_IEnumerable_UnityEngine_Playables_PlayableBinding__GetEnumerator() ;
 
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x2ac9048 size 0x4 virtual true final true
- ::System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
+ System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -461,65 +460,65 @@ namespace UnityEngine::Timeline {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14072))
 // CS Name: UnityEngine.Timeline.TrackAsset::<>c
-class CORDL_TYPE ____UnityEngine__Timeline__TrackAsset____c : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__Timeline__TrackAsset____c : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____UnityEngine__Timeline__TrackAsset____c() = default;
+virtual ~UnityEngine__Timeline__TrackAsset____c() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__Timeline__TrackAsset____c", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__Timeline__TrackAsset____c(____UnityEngine__Timeline__TrackAsset____c const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__Timeline__TrackAsset____c", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__Timeline__TrackAsset____c(UnityEngine__Timeline__TrackAsset____c const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__Timeline__TrackAsset____c", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__Timeline__TrackAsset____c(____UnityEngine__Timeline__TrackAsset____c&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__Timeline__TrackAsset____c", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__Timeline__TrackAsset____c(UnityEngine__Timeline__TrackAsset____c&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__Timeline__TrackAsset____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__Timeline__TrackAsset____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__Timeline__TrackAsset____c& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__Timeline__TrackAsset____c& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__Timeline__TrackAsset____c& operator=(void* o) noexcept {
+  constexpr UnityEngine__Timeline__TrackAsset____c& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__Timeline__TrackAsset____c& operator=(____UnityEngine__Timeline__TrackAsset____c&& o) noexcept = default;
-  constexpr ____UnityEngine__Timeline__TrackAsset____c& operator=(____UnityEngine__Timeline__TrackAsset____c const& o) noexcept = default;
+  constexpr UnityEngine__Timeline__TrackAsset____c& operator=(UnityEngine__Timeline__TrackAsset____c&& o) noexcept = default;
+  constexpr UnityEngine__Timeline__TrackAsset____c& operator=(UnityEngine__Timeline__TrackAsset____c const& o) noexcept = default;
                 
 
 
 // Fields
 
-static ::UnityEngine::Timeline::____UnityEngine__Timeline__TrackAsset____c __declspec(property(get=__get___9, put=__set___9))  __9;
+static UnityEngine::Timeline::UnityEngine__Timeline__TrackAsset____c __declspec(property(get=__get___9, put=__set___9))  __9;
 
-static void __set___9(::UnityEngine::Timeline::____UnityEngine__Timeline__TrackAsset____c value) ;
+static void __set___9(UnityEngine::Timeline::UnityEngine__Timeline__TrackAsset____c value) ;
 
-static ::UnityEngine::Timeline::____UnityEngine__Timeline__TrackAsset____c __get___9() ;
+static UnityEngine::Timeline::UnityEngine__Timeline__TrackAsset____c __get___9() ;
 
-static ::System::Comparison_1<::UnityEngine::Timeline::TimelineClip> __declspec(property(get=__get___9__121_0, put=__set___9__121_0))  __9__121_0;
+static System::Comparison_1<UnityEngine::Timeline::TimelineClip> __declspec(property(get=__get___9__121_0, put=__set___9__121_0))  __9__121_0;
 
-static void __set___9__121_0(::System::Comparison_1<::UnityEngine::Timeline::TimelineClip> value) ;
+static void __set___9__121_0(System::Comparison_1<UnityEngine::Timeline::TimelineClip> value) ;
 
-static ::System::Comparison_1<::UnityEngine::Timeline::TimelineClip> __get___9__121_0() ;
+static System::Comparison_1<UnityEngine::Timeline::TimelineClip> __get___9__121_0() ;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__Timeline__TrackAsset____c() ;
+explicit UnityEngine__Timeline__TrackAsset____c() ;
 
 /// @brief Method .ctor addr 0x2ac90b0 size 0x8 virtual false final false
  void _ctor() ;
 
 /// @brief Method <SortClips>b__121_0 addr 0x2ac90b8 size 0x34 virtual false final false
- int32_t _SortClips_b__121_0(::UnityEngine::Timeline::TimelineClip clip1, ::UnityEngine::Timeline::TimelineClip clip2) ;
+ int32_t _SortClips_b__121_0(UnityEngine::Timeline::TimelineClip clip1, UnityEngine::Timeline::TimelineClip clip2) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -531,27 +530,27 @@ namespace UnityEngine::Timeline {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10358))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14073))
 // CS Name: UnityEngine.Timeline.TrackAsset
-class CORDL_TYPE TrackAsset : public ::UnityEngine::Playables::PlayableAsset {
+class CORDL_TYPE TrackAsset : public UnityEngine::Playables::PlayableAsset {
 public:
 // Declarations
-using __c = ::UnityEngine::Timeline::____UnityEngine__Timeline__TrackAsset____c;
+using __c = UnityEngine::Timeline::UnityEngine__Timeline__TrackAsset____c;
 
-using _get_outputs_d__65 = ::UnityEngine::Timeline::____UnityEngine__Timeline__TrackAsset___get_outputs_d__65;
+using _get_outputs_d__65 = UnityEngine::Timeline::UnityEngine__Timeline__TrackAsset___get_outputs_d__65;
 
-using TransientBuildData = ::UnityEngine::Timeline::____UnityEngine__Timeline__TrackAsset__TransientBuildData;
+using TransientBuildData = UnityEngine::Timeline::UnityEngine__Timeline__TrackAsset__TransientBuildData;
 
-using TrackAssetUpgrade = ::UnityEngine::Timeline::____UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade;
+using TrackAssetUpgrade = UnityEngine::Timeline::UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade;
 
-using Versions = ::UnityEngine::Timeline::____UnityEngine__Timeline__TrackAsset__Versions;
+using Versions = UnityEngine::Timeline::UnityEngine__Timeline__TrackAsset__Versions;
 
-/// @brief Convert operator to ::UnityEngine::ISerializationCallbackReceiver
-constexpr operator  ::UnityEngine::ISerializationCallbackReceiver() const noexcept;
+/// @brief Convert operator to UnityEngine::ISerializationCallbackReceiver
+constexpr operator  UnityEngine::ISerializationCallbackReceiver() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::Timeline::IPropertyPreview
-constexpr operator  ::UnityEngine::Timeline::IPropertyPreview() const noexcept;
+/// @brief Convert operator to UnityEngine::Timeline::IPropertyPreview
+constexpr operator  UnityEngine::Timeline::IPropertyPreview() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::Timeline::ICurvesOwner
-constexpr operator  ::UnityEngine::Timeline::ICurvesOwner() const noexcept;
+/// @brief Convert operator to UnityEngine::Timeline::ICurvesOwner
+constexpr operator  UnityEngine::Timeline::ICurvesOwner() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xa0};
@@ -565,7 +564,7 @@ constexpr TrackAsset(TrackAsset const& ) noexcept = default;
 constexpr TrackAsset(TrackAsset&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TrackAsset(void* ptr) noexcept : ::UnityEngine::Playables::PlayableAsset(ptr) {
+constexpr explicit TrackAsset(void* ptr) noexcept : UnityEngine::Playables::PlayableAsset(ptr) {
 }
 
 
@@ -595,32 +594,32 @@ constexpr void __set_m_Version(int32_t value) ;
 
 constexpr int32_t __get_m_Version() const;
 
- ::UnityEngine::AnimationClip __declspec(property(get=__get_m_AnimClip, put=__set_m_AnimClip))  m_AnimClip;
+ UnityEngine::AnimationClip __declspec(property(get=__get_m_AnimClip, put=__set_m_AnimClip))  m_AnimClip;
 
-constexpr void __set_m_AnimClip(::UnityEngine::AnimationClip value) ;
+constexpr void __set_m_AnimClip(UnityEngine::AnimationClip value) ;
 
-constexpr ::UnityEngine::AnimationClip __get_m_AnimClip() const;
+constexpr UnityEngine::AnimationClip __get_m_AnimClip() const;
 
-static ::UnityEngine::Timeline::____UnityEngine__Timeline__TrackAsset__TransientBuildData __declspec(property(get=__get_s_BuildData, put=__set_s_BuildData))  s_BuildData;
+static UnityEngine::Timeline::UnityEngine__Timeline__TrackAsset__TransientBuildData __declspec(property(get=__get_s_BuildData, put=__set_s_BuildData))  s_BuildData;
 
-static void __set_s_BuildData(::UnityEngine::Timeline::____UnityEngine__Timeline__TrackAsset__TransientBuildData value) ;
+static void __set_s_BuildData(UnityEngine::Timeline::UnityEngine__Timeline__TrackAsset__TransientBuildData value) ;
 
-static ::UnityEngine::Timeline::____UnityEngine__Timeline__TrackAsset__TransientBuildData __get_s_BuildData() ;
+static UnityEngine::Timeline::UnityEngine__Timeline__TrackAsset__TransientBuildData __get_s_BuildData() ;
 
 /// @brief Field kDefaultCurvesName offset 0
 static constexpr ::ConstString  kDefaultCurvesName{u"Track Parameters"};
 
-static ::System::Action_3<::UnityEngine::Timeline::TimelineClip,::UnityEngine::GameObject,::UnityEngine::Playables::Playable> __declspec(property(get=__get_OnClipPlayableCreate, put=__set_OnClipPlayableCreate))  OnClipPlayableCreate;
+static System::Action_3<UnityEngine::Timeline::TimelineClip,UnityEngine::GameObject,UnityEngine::Playables::Playable> __declspec(property(get=__get_OnClipPlayableCreate, put=__set_OnClipPlayableCreate))  OnClipPlayableCreate;
 
-static void __set_OnClipPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TimelineClip,::UnityEngine::GameObject,::UnityEngine::Playables::Playable> value) ;
+static void __set_OnClipPlayableCreate(System::Action_3<UnityEngine::Timeline::TimelineClip,UnityEngine::GameObject,UnityEngine::Playables::Playable> value) ;
 
-static ::System::Action_3<::UnityEngine::Timeline::TimelineClip,::UnityEngine::GameObject,::UnityEngine::Playables::Playable> __get_OnClipPlayableCreate() ;
+static System::Action_3<UnityEngine::Timeline::TimelineClip,UnityEngine::GameObject,UnityEngine::Playables::Playable> __get_OnClipPlayableCreate() ;
 
-static ::System::Action_3<::UnityEngine::Timeline::TrackAsset,::UnityEngine::GameObject,::UnityEngine::Playables::Playable> __declspec(property(get=__get_OnTrackAnimationPlayableCreate, put=__set_OnTrackAnimationPlayableCreate))  OnTrackAnimationPlayableCreate;
+static System::Action_3<UnityEngine::Timeline::TrackAsset,UnityEngine::GameObject,UnityEngine::Playables::Playable> __declspec(property(get=__get_OnTrackAnimationPlayableCreate, put=__set_OnTrackAnimationPlayableCreate))  OnTrackAnimationPlayableCreate;
 
-static void __set_OnTrackAnimationPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TrackAsset,::UnityEngine::GameObject,::UnityEngine::Playables::Playable> value) ;
+static void __set_OnTrackAnimationPlayableCreate(System::Action_3<UnityEngine::Timeline::TrackAsset,UnityEngine::GameObject,UnityEngine::Playables::Playable> value) ;
 
-static ::System::Action_3<::UnityEngine::Timeline::TrackAsset,::UnityEngine::GameObject,::UnityEngine::Playables::Playable> __get_OnTrackAnimationPlayableCreate() ;
+static System::Action_3<UnityEngine::Timeline::TrackAsset,UnityEngine::GameObject,UnityEngine::Playables::Playable> __get_OnTrackAnimationPlayableCreate() ;
 
  bool __declspec(property(get=__get_m_Locked, put=__set_m_Locked))  m_Locked;
 
@@ -640,23 +639,23 @@ constexpr void __set_m_CustomPlayableFullTypename(::StringW value) ;
 
 constexpr ::StringW __get_m_CustomPlayableFullTypename() const;
 
- ::UnityEngine::AnimationClip __declspec(property(get=__get_m_Curves, put=__set_m_Curves))  m_Curves;
+ UnityEngine::AnimationClip __declspec(property(get=__get_m_Curves, put=__set_m_Curves))  m_Curves;
 
-constexpr void __set_m_Curves(::UnityEngine::AnimationClip value) ;
+constexpr void __set_m_Curves(UnityEngine::AnimationClip value) ;
 
-constexpr ::UnityEngine::AnimationClip __get_m_Curves() const;
+constexpr UnityEngine::AnimationClip __get_m_Curves() const;
 
- ::UnityEngine::Playables::PlayableAsset __declspec(property(get=__get_m_Parent, put=__set_m_Parent))  m_Parent;
+ UnityEngine::Playables::PlayableAsset __declspec(property(get=__get_m_Parent, put=__set_m_Parent))  m_Parent;
 
-constexpr void __set_m_Parent(::UnityEngine::Playables::PlayableAsset value) ;
+constexpr void __set_m_Parent(UnityEngine::Playables::PlayableAsset value) ;
 
-constexpr ::UnityEngine::Playables::PlayableAsset __get_m_Parent() const;
+constexpr UnityEngine::Playables::PlayableAsset __get_m_Parent() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::ScriptableObject> __declspec(property(get=__get_m_Children, put=__set_m_Children))  m_Children;
+ System::Collections::Generic::List_1<UnityEngine::ScriptableObject> __declspec(property(get=__get_m_Children, put=__set_m_Children))  m_Children;
 
-constexpr void __set_m_Children(::System::Collections::Generic::List_1<::UnityEngine::ScriptableObject> value) ;
+constexpr void __set_m_Children(System::Collections::Generic::List_1<UnityEngine::ScriptableObject> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::ScriptableObject> __get_m_Children() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::ScriptableObject> __get_m_Children() const;
 
  int32_t __declspec(property(get=__get_m_ItemsHash, put=__set_m_ItemsHash))  m_ItemsHash;
 
@@ -664,23 +663,23 @@ constexpr void __set_m_ItemsHash(int32_t value) ;
 
 constexpr int32_t __get_m_ItemsHash() const;
 
- ::ArrayW<::UnityEngine::Timeline::TimelineClip> __declspec(property(get=__get_m_ClipsCache, put=__set_m_ClipsCache))  m_ClipsCache;
+ ::ArrayW<UnityEngine::Timeline::TimelineClip> __declspec(property(get=__get_m_ClipsCache, put=__set_m_ClipsCache))  m_ClipsCache;
 
-constexpr void __set_m_ClipsCache(::ArrayW<::UnityEngine::Timeline::TimelineClip> value) ;
+constexpr void __set_m_ClipsCache(::ArrayW<UnityEngine::Timeline::TimelineClip> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Timeline::TimelineClip> __get_m_ClipsCache() const;
+constexpr ::ArrayW<UnityEngine::Timeline::TimelineClip> __get_m_ClipsCache() const;
 
- ::UnityEngine::Timeline::DiscreteTime __declspec(property(get=__get_m_Start, put=__set_m_Start))  m_Start;
+ UnityEngine::Timeline::DiscreteTime __declspec(property(get=__get_m_Start, put=__set_m_Start))  m_Start;
 
-constexpr void __set_m_Start(::UnityEngine::Timeline::DiscreteTime value) ;
+constexpr void __set_m_Start(UnityEngine::Timeline::DiscreteTime value) ;
 
-constexpr ::UnityEngine::Timeline::DiscreteTime __get_m_Start() const;
+constexpr UnityEngine::Timeline::DiscreteTime __get_m_Start() const;
 
- ::UnityEngine::Timeline::DiscreteTime __declspec(property(get=__get_m_End, put=__set_m_End))  m_End;
+ UnityEngine::Timeline::DiscreteTime __declspec(property(get=__get_m_End, put=__set_m_End))  m_End;
 
-constexpr void __set_m_End(::UnityEngine::Timeline::DiscreteTime value) ;
+constexpr void __set_m_End(UnityEngine::Timeline::DiscreteTime value) ;
 
-constexpr ::UnityEngine::Timeline::DiscreteTime __get_m_End() const;
+constexpr UnityEngine::Timeline::DiscreteTime __get_m_End() const;
 
  bool __declspec(property(get=__get_m_CacheSorted, put=__set_m_CacheSorted))  m_CacheSorted;
 
@@ -688,41 +687,41 @@ constexpr void __set_m_CacheSorted(bool value) ;
 
 constexpr bool __get_m_CacheSorted() const;
 
- ::System::Nullable_1<bool> __declspec(property(get=__get_m_SupportsNotifications, put=__set_m_SupportsNotifications))  m_SupportsNotifications;
+ System::Nullable_1<bool> __declspec(property(get=__get_m_SupportsNotifications, put=__set_m_SupportsNotifications))  m_SupportsNotifications;
 
-constexpr void __set_m_SupportsNotifications(::System::Nullable_1<bool> value) ;
+constexpr void __set_m_SupportsNotifications(System::Nullable_1<bool> value) ;
 
-constexpr ::System::Nullable_1<bool> __get_m_SupportsNotifications() const;
+constexpr System::Nullable_1<bool> __get_m_SupportsNotifications() const;
 
-static ::ArrayW<::UnityEngine::Timeline::TrackAsset> __declspec(property(get=__get_s_EmptyCache, put=__set_s_EmptyCache))  s_EmptyCache;
+static ::ArrayW<UnityEngine::Timeline::TrackAsset> __declspec(property(get=__get_s_EmptyCache, put=__set_s_EmptyCache))  s_EmptyCache;
 
-static void __set_s_EmptyCache(::ArrayW<::UnityEngine::Timeline::TrackAsset> value) ;
+static void __set_s_EmptyCache(::ArrayW<UnityEngine::Timeline::TrackAsset> value) ;
 
-static ::ArrayW<::UnityEngine::Timeline::TrackAsset> __get_s_EmptyCache() ;
+static ::ArrayW<UnityEngine::Timeline::TrackAsset> __get_s_EmptyCache() ;
 
- ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset> __declspec(property(get=__get_m_ChildTrackCache, put=__set_m_ChildTrackCache))  m_ChildTrackCache;
+ System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::TrackAsset> __declspec(property(get=__get_m_ChildTrackCache, put=__set_m_ChildTrackCache))  m_ChildTrackCache;
 
-constexpr void __set_m_ChildTrackCache(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset> value) ;
+constexpr void __set_m_ChildTrackCache(System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::TrackAsset> value) ;
 
-constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset> __get_m_ChildTrackCache() const;
+constexpr System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::TrackAsset> __get_m_ChildTrackCache() const;
 
-static ::System::Collections::Generic::Dictionary_2<::System::Type,::UnityEngine::Timeline::TrackBindingTypeAttribute> __declspec(property(get=__get_s_TrackBindingTypeAttributeCache, put=__set_s_TrackBindingTypeAttributeCache))  s_TrackBindingTypeAttributeCache;
+static System::Collections::Generic::Dictionary_2<System::Type,UnityEngine::Timeline::TrackBindingTypeAttribute> __declspec(property(get=__get_s_TrackBindingTypeAttributeCache, put=__set_s_TrackBindingTypeAttributeCache))  s_TrackBindingTypeAttributeCache;
 
-static void __set_s_TrackBindingTypeAttributeCache(::System::Collections::Generic::Dictionary_2<::System::Type,::UnityEngine::Timeline::TrackBindingTypeAttribute> value) ;
+static void __set_s_TrackBindingTypeAttributeCache(System::Collections::Generic::Dictionary_2<System::Type,UnityEngine::Timeline::TrackBindingTypeAttribute> value) ;
 
-static ::System::Collections::Generic::Dictionary_2<::System::Type,::UnityEngine::Timeline::TrackBindingTypeAttribute> __get_s_TrackBindingTypeAttributeCache() ;
+static System::Collections::Generic::Dictionary_2<System::Type,UnityEngine::Timeline::TrackBindingTypeAttribute> __get_s_TrackBindingTypeAttributeCache() ;
 
- ::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip> __declspec(property(get=__get_m_Clips, put=__set_m_Clips))  m_Clips;
+ System::Collections::Generic::List_1<UnityEngine::Timeline::TimelineClip> __declspec(property(get=__get_m_Clips, put=__set_m_Clips))  m_Clips;
 
-constexpr void __set_m_Clips(::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip> value) ;
+constexpr void __set_m_Clips(System::Collections::Generic::List_1<UnityEngine::Timeline::TimelineClip> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip> __get_m_Clips() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::Timeline::TimelineClip> __get_m_Clips() const;
 
- ::UnityEngine::Timeline::MarkerList __declspec(property(get=__get_m_Markers, put=__set_m_Markers))  m_Markers;
+ UnityEngine::Timeline::MarkerList __declspec(property(get=__get_m_Markers, put=__set_m_Markers))  m_Markers;
 
-constexpr void __set_m_Markers(::UnityEngine::Timeline::MarkerList value) ;
+constexpr void __set_m_Markers(UnityEngine::Timeline::MarkerList value) ;
 
-constexpr ::UnityEngine::Timeline::MarkerList __get_m_Markers() const;
+constexpr UnityEngine::Timeline::MarkerList __get_m_Markers() const;
 
 
 // Properties
@@ -737,11 +736,11 @@ constexpr ::UnityEngine::Timeline::MarkerList __get_m_Markers() const;
 
  bool __declspec(property(get=get_mutedInHierarchy))  mutedInHierarchy;
 
- ::UnityEngine::Timeline::TimelineAsset __declspec(property(get=get_timelineAsset))  timelineAsset;
+ UnityEngine::Timeline::TimelineAsset __declspec(property(get=get_timelineAsset))  timelineAsset;
 
- ::UnityEngine::Playables::PlayableAsset __declspec(property(get=get_parent, put=set_parent))  parent;
+ UnityEngine::Playables::PlayableAsset __declspec(property(get=get_parent, put=set_parent))  parent;
 
- ::ArrayW<::UnityEngine::Timeline::TimelineClip> __declspec(property(get=get_clips))  clips;
+ ::ArrayW<UnityEngine::Timeline::TimelineClip> __declspec(property(get=get_clips))  clips;
 
  bool __declspec(property(get=get_isEmpty))  isEmpty;
 
@@ -751,21 +750,21 @@ constexpr ::UnityEngine::Timeline::MarkerList __get_m_Markers() const;
 
  bool __declspec(property(get=get_isSubTrack))  isSubTrack;
 
- ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding> __declspec(property(get=get_outputs))  outputs;
+ System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding> __declspec(property(get=get_outputs))  outputs;
 
  ::StringW __declspec(property(get=get_customPlayableTypename, put=set_customPlayableTypename))  customPlayableTypename;
 
- ::UnityEngine::AnimationClip __declspec(property(get=get_curves, put=set_curves))  curves;
+ UnityEngine::AnimationClip __declspec(property(get=get_curves, put=set_curves))  curves;
 
  ::StringW __declspec(property(get=UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName))  UnityEngine_Timeline_ICurvesOwner_defaultCurvesName;
 
- ::UnityEngine::Object __declspec(property(get=UnityEngine_Timeline_ICurvesOwner_get_asset))  UnityEngine_Timeline_ICurvesOwner_asset;
+ UnityEngine::Object __declspec(property(get=UnityEngine_Timeline_ICurvesOwner_get_asset))  UnityEngine_Timeline_ICurvesOwner_asset;
 
- ::UnityEngine::Object __declspec(property(get=UnityEngine_Timeline_ICurvesOwner_get_assetOwner))  UnityEngine_Timeline_ICurvesOwner_assetOwner;
+ UnityEngine::Object __declspec(property(get=UnityEngine_Timeline_ICurvesOwner_get_assetOwner))  UnityEngine_Timeline_ICurvesOwner_assetOwner;
 
- ::UnityEngine::Timeline::TrackAsset __declspec(property(get=UnityEngine_Timeline_ICurvesOwner_get_targetTrack))  UnityEngine_Timeline_ICurvesOwner_targetTrack;
+ UnityEngine::Timeline::TrackAsset __declspec(property(get=UnityEngine_Timeline_ICurvesOwner_get_targetTrack))  UnityEngine_Timeline_ICurvesOwner_targetTrack;
 
- ::System::Collections::Generic::List_1<::UnityEngine::ScriptableObject> __declspec(property(get=get_subTracksObjects))  subTracksObjects;
+ System::Collections::Generic::List_1<UnityEngine::ScriptableObject> __declspec(property(get=get_subTracksObjects))  subTracksObjects;
 
  bool __declspec(property(get=get_locked, put=set_locked))  locked;
 
@@ -795,16 +794,16 @@ constexpr ::UnityEngine::Timeline::MarkerList __get_m_Markers() const;
  void UpgradeToLatestVersion() ;
 
 /// @brief Method add_OnClipPlayableCreate addr 0x2ac2f70 size 0xf4 virtual false final false
-static void add_OnClipPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TimelineClip,::UnityEngine::GameObject,::UnityEngine::Playables::Playable> value) ;
+static void add_OnClipPlayableCreate(System::Action_3<UnityEngine::Timeline::TimelineClip,UnityEngine::GameObject,UnityEngine::Playables::Playable> value) ;
 
 /// @brief Method remove_OnClipPlayableCreate addr 0x2ac3064 size 0xf4 virtual false final false
-static void remove_OnClipPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TimelineClip,::UnityEngine::GameObject,::UnityEngine::Playables::Playable> value) ;
+static void remove_OnClipPlayableCreate(System::Action_3<UnityEngine::Timeline::TimelineClip,UnityEngine::GameObject,UnityEngine::Playables::Playable> value) ;
 
 /// @brief Method add_OnTrackAnimationPlayableCreate addr 0x2ac3158 size 0xf4 virtual false final false
-static void add_OnTrackAnimationPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TrackAsset,::UnityEngine::GameObject,::UnityEngine::Playables::Playable> value) ;
+static void add_OnTrackAnimationPlayableCreate(System::Action_3<UnityEngine::Timeline::TrackAsset,UnityEngine::GameObject,UnityEngine::Playables::Playable> value) ;
 
 /// @brief Method remove_OnTrackAnimationPlayableCreate addr 0x2ac324c size 0xf4 virtual false final false
-static void remove_OnTrackAnimationPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TrackAsset,::UnityEngine::GameObject,::UnityEngine::Playables::Playable> value) ;
+static void remove_OnTrackAnimationPlayableCreate(System::Action_3<UnityEngine::Timeline::TrackAsset,UnityEngine::GameObject,UnityEngine::Playables::Playable> value) ;
 
 /// @brief Method get_start addr 0x2ac3340 size 0x60 virtual false final false
  double_t get_start() ;
@@ -825,19 +824,19 @@ static void remove_OnTrackAnimationPlayableCreate(::System::Action_3<::UnityEngi
  bool get_mutedInHierarchy() ;
 
 /// @brief Method get_timelineAsset addr 0x2ac0e34 size 0x16c virtual false final false
- ::UnityEngine::Timeline::TimelineAsset get_timelineAsset() ;
+ UnityEngine::Timeline::TimelineAsset get_timelineAsset() ;
 
 /// @brief Method get_parent addr 0x2ac3528 size 0x8 virtual false final false
- ::UnityEngine::Playables::PlayableAsset get_parent() ;
+ UnityEngine::Playables::PlayableAsset get_parent() ;
 
 /// @brief Method set_parent addr 0x2ac3530 size 0x8 virtual false final false
- void set_parent(::UnityEngine::Playables::PlayableAsset value) ;
+ void set_parent(UnityEngine::Playables::PlayableAsset value) ;
 
 /// @brief Method GetClips addr 0x2abc2fc size 0x4 virtual false final false
- ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TimelineClip> GetClips() ;
+ System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::TimelineClip> GetClips() ;
 
 /// @brief Method get_clips addr 0x2ab8730 size 0xb0 virtual false final false
- ::ArrayW<::UnityEngine::Timeline::TimelineClip> get_clips() ;
+ ::ArrayW<UnityEngine::Timeline::TimelineClip> get_clips() ;
 
 /// @brief Method get_isEmpty addr 0x2ac3538 size 0x6c virtual true final false
  bool get_isEmpty() ;
@@ -852,10 +851,10 @@ static void remove_OnTrackAnimationPlayableCreate(::System::Action_3<::UnityEngi
  bool get_isSubTrack() ;
 
 /// @brief Method get_outputs addr 0x2ac3638 size 0x78 virtual true final false
- ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding> get_outputs() ;
+ System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding> get_outputs() ;
 
 /// @brief Method GetChildTracks addr 0x2abac28 size 0x18 virtual false final false
- ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset> GetChildTracks() ;
+ System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::TrackAsset> GetChildTracks() ;
 
 /// @brief Method get_customPlayableTypename addr 0x2ac38f0 size 0x8 virtual false final false
  ::StringW get_customPlayableTypename() ;
@@ -864,25 +863,25 @@ static void remove_OnTrackAnimationPlayableCreate(::System::Action_3<::UnityEngi
  void set_customPlayableTypename(::StringW value) ;
 
 /// @brief Method get_curves addr 0x2ac3900 size 0x8 virtual true final true
- ::UnityEngine::AnimationClip get_curves() ;
+ UnityEngine::AnimationClip get_curves() ;
 
 /// @brief Method set_curves addr 0x2ac3908 size 0x8 virtual false final false
- void set_curves(::UnityEngine::AnimationClip value) ;
+ void set_curves(UnityEngine::AnimationClip value) ;
 
 /// @brief Method UnityEngine.Timeline.ICurvesOwner.get_defaultCurvesName addr 0x2ac3910 size 0x40 virtual true final true
  ::StringW UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName() ;
 
 /// @brief Method UnityEngine.Timeline.ICurvesOwner.get_asset addr 0x2ac3950 size 0x4 virtual true final true
- ::UnityEngine::Object UnityEngine_Timeline_ICurvesOwner_get_asset() ;
+ UnityEngine::Object UnityEngine_Timeline_ICurvesOwner_get_asset() ;
 
 /// @brief Method UnityEngine.Timeline.ICurvesOwner.get_assetOwner addr 0x2ac3954 size 0x4 virtual true final true
- ::UnityEngine::Object UnityEngine_Timeline_ICurvesOwner_get_assetOwner() ;
+ UnityEngine::Object UnityEngine_Timeline_ICurvesOwner_get_assetOwner() ;
 
 /// @brief Method UnityEngine.Timeline.ICurvesOwner.get_targetTrack addr 0x2ac3958 size 0x4 virtual true final true
- ::UnityEngine::Timeline::TrackAsset UnityEngine_Timeline_ICurvesOwner_get_targetTrack() ;
+ UnityEngine::Timeline::TrackAsset UnityEngine_Timeline_ICurvesOwner_get_targetTrack() ;
 
 /// @brief Method get_subTracksObjects addr 0x2ac395c size 0x8 virtual false final false
- ::System::Collections::Generic::List_1<::UnityEngine::ScriptableObject> get_subTracksObjects() ;
+ System::Collections::Generic::List_1<UnityEngine::ScriptableObject> get_subTracksObjects() ;
 
 /// @brief Method get_locked addr 0x2ac3964 size 0x8 virtual false final false
  bool get_locked() ;
@@ -903,93 +902,93 @@ static void remove_OnTrackAnimationPlayableCreate(::System::Action_3<::UnityEngi
  void CreateCurves(::StringW curvesClipName) ;
 
 /// @brief Method CreateTrackMixer addr 0x2ac3d38 size 0x70 virtual true final false
- ::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject go, int32_t inputCount) ;
+ UnityEngine::Playables::Playable CreateTrackMixer(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject go, int32_t inputCount) ;
 
 /// @brief Method CreatePlayable addr 0x2ac3da8 size 0x50 virtual true final true
- ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject go) ;
+ UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject go) ;
 
 /// @brief Method CreateDefaultClip addr 0x2ac3df8 size 0x2cc virtual false final false
- ::UnityEngine::Timeline::TimelineClip CreateDefaultClip() ;
+ UnityEngine::Timeline::TimelineClip CreateDefaultClip() ;
 
 /// @brief Method CreateClip addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
- ::UnityEngine::Timeline::TimelineClip CreateClip() ;
+ UnityEngine::Timeline::TimelineClip CreateClip() ;
 
 /// @brief Method DeleteClip addr 0x2ac40f4 size 0x114 virtual false final false
- bool DeleteClip(::UnityEngine::Timeline::TimelineClip clip) ;
+ bool DeleteClip(UnityEngine::Timeline::TimelineClip clip) ;
 
 /// @brief Method CreateMarker addr 0x2ac4208 size 0xc virtual false final false
- ::UnityEngine::Timeline::IMarker CreateMarker(::System::Type type, double_t time) ;
+ UnityEngine::Timeline::IMarker CreateMarker(System::Type type, double_t time) ;
 
 /// @brief Method CreateMarker addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
  T CreateMarker(double_t time) ;
 
 /// @brief Method DeleteMarker addr 0x2ac4514 size 0x8 virtual false final false
- bool DeleteMarker(::UnityEngine::Timeline::IMarker marker) ;
+ bool DeleteMarker(UnityEngine::Timeline::IMarker marker) ;
 
 /// @brief Method GetMarkers addr 0x2ac2f54 size 0x1c virtual false final false
- ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::IMarker> GetMarkers() ;
+ System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::IMarker> GetMarkers() ;
 
 /// @brief Method GetMarkerCount addr 0x2ac3630 size 0x8 virtual false final false
  int32_t GetMarkerCount() ;
 
 /// @brief Method GetMarker addr 0x2ac4768 size 0x8 virtual false final false
- ::UnityEngine::Timeline::IMarker GetMarker(int32_t idx) ;
+ UnityEngine::Timeline::IMarker GetMarker(int32_t idx) ;
 
 /// @brief Method CreateClip addr 0x2ac47d0 size 0x130 virtual false final false
- ::UnityEngine::Timeline::TimelineClip CreateClip(::System::Type requestedType) ;
+ UnityEngine::Timeline::TimelineClip CreateClip(System::Type requestedType) ;
 
 /// @brief Method CreateAndAddNewClipOfType addr 0x2ac40c4 size 0x30 virtual false final false
- ::UnityEngine::Timeline::TimelineClip CreateAndAddNewClipOfType(::System::Type requestedType) ;
+ UnityEngine::Timeline::TimelineClip CreateAndAddNewClipOfType(System::Type requestedType) ;
 
 /// @brief Method CreateClipOfType addr 0x2ac4b80 size 0x1e0 virtual false final false
- ::UnityEngine::Timeline::TimelineClip CreateClipOfType(::System::Type requestedType) ;
+ UnityEngine::Timeline::TimelineClip CreateClipOfType(System::Type requestedType) ;
 
 /// @brief Method CreateClipFromPlayableAsset addr 0x2ac5000 size 0x284 virtual false final false
- ::UnityEngine::Timeline::TimelineClip CreateClipFromPlayableAsset(::UnityEngine::Playables::IPlayableAsset asset) ;
+ UnityEngine::Timeline::TimelineClip CreateClipFromPlayableAsset(UnityEngine::Playables::IPlayableAsset asset) ;
 
 /// @brief Method CreateClipFromAsset addr 0x2ac4d60 size 0x2a0 virtual false final false
- ::UnityEngine::Timeline::TimelineClip CreateClipFromAsset(::UnityEngine::ScriptableObject playableAsset) ;
+ UnityEngine::Timeline::TimelineClip CreateClipFromAsset(UnityEngine::ScriptableObject playableAsset) ;
 
 /// @brief Method GetMarkersRaw addr 0x2ac54e0 size 0x8 virtual false final false
- ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ScriptableObject> GetMarkersRaw() ;
+ System::Collections::Generic::IEnumerable_1<UnityEngine::ScriptableObject> GetMarkersRaw() ;
 
 /// @brief Method ClearMarkers addr 0x2ac54e8 size 0x8 virtual false final false
  void ClearMarkers() ;
 
 /// @brief Method AddMarker addr 0x2ac5560 size 0x8 virtual false final false
- void AddMarker(::UnityEngine::ScriptableObject e) ;
+ void AddMarker(UnityEngine::ScriptableObject e) ;
 
 /// @brief Method DeleteMarkerRaw addr 0x2ac5654 size 0x34 virtual false final false
- bool DeleteMarkerRaw(::UnityEngine::ScriptableObject marker) ;
+ bool DeleteMarkerRaw(UnityEngine::ScriptableObject marker) ;
 
 /// @brief Method GetTimeRangeHash addr 0x2ac5748 size 0x314 virtual false final false
  int32_t GetTimeRangeHash() ;
 
 /// @brief Method AddClip addr 0x2abd2bc size 0xd4 virtual false final false
- void AddClip(::UnityEngine::Timeline::TimelineClip newClip) ;
+ void AddClip(UnityEngine::Timeline::TimelineClip newClip) ;
 
 /// @brief Method CreateNotificationsPlayable addr 0x2ac5a5c size 0x2d0 virtual false final false
- ::UnityEngine::Playables::Playable CreateNotificationsPlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Playables::Playable mixerPlayable, ::UnityEngine::GameObject go, ::UnityEngine::Playables::Playable timelinePlayable) ;
+ UnityEngine::Playables::Playable CreateNotificationsPlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::Playables::Playable mixerPlayable, UnityEngine::GameObject go, UnityEngine::Playables::Playable timelinePlayable) ;
 
 /// @brief Method CreatePlayableGraph addr 0x2ac60ac size 0x2c0 virtual false final false
- ::UnityEngine::Playables::Playable CreatePlayableGraph(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject go, ::UnityEngine::Timeline::IntervalTree_1<::UnityEngine::Timeline::RuntimeElement> tree, ::UnityEngine::Playables::Playable timelinePlayable) ;
+ UnityEngine::Playables::Playable CreatePlayableGraph(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject go, UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement> tree, UnityEngine::Playables::Playable timelinePlayable) ;
 
 /// @brief Method CompileClips addr 0x2ac6780 size 0x428 virtual true final false
- ::UnityEngine::Playables::Playable CompileClips(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject go, ::System::Collections::Generic::IList_1<::UnityEngine::Timeline::TimelineClip> timelineClips, ::UnityEngine::Timeline::IntervalTree_1<::UnityEngine::Timeline::RuntimeElement> tree) ;
+ UnityEngine::Playables::Playable CompileClips(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject go, System::Collections::Generic::IList_1<UnityEngine::Timeline::TimelineClip> timelineClips, UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement> tree) ;
 
 /// @brief Method GatherCompilableTracks addr 0x2ac6d04 size 0x3d4 virtual false final false
- void GatherCompilableTracks(::System::Collections::Generic::IList_1<::UnityEngine::Timeline::TrackAsset> tracks) ;
+ void GatherCompilableTracks(System::Collections::Generic::IList_1<UnityEngine::Timeline::TrackAsset> tracks) ;
 
 /// @brief Method GatherNotifications addr 0x2ac5d2c size 0x380 virtual false final false
- void GatherNotifications(::System::Collections::Generic::List_1<::UnityEngine::Timeline::IMarker> markers) ;
+ void GatherNotifications(System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker> markers) ;
 
 /// @brief Method CreateMixerPlayableGraph addr 0x2ac710c size 0x5a8 virtual true final false
- ::UnityEngine::Playables::Playable CreateMixerPlayableGraph(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject go, ::UnityEngine::Timeline::IntervalTree_1<::UnityEngine::Timeline::RuntimeElement> tree) ;
+ UnityEngine::Playables::Playable CreateMixerPlayableGraph(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject go, UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement> tree) ;
 
 /// @brief Method ConfigureTrackAnimation addr 0x2ac6ba8 size 0x15c virtual false final false
- void ConfigureTrackAnimation(::UnityEngine::Timeline::IntervalTree_1<::UnityEngine::Timeline::RuntimeElement> tree, ::UnityEngine::GameObject go, ::UnityEngine::Playables::Playable blend) ;
+ void ConfigureTrackAnimation(UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement> tree, UnityEngine::GameObject go, UnityEngine::Playables::Playable blend) ;
 
 /// @brief Method SortClips addr 0x2ac76b4 size 0x128 virtual false final false
  void SortClips() ;
@@ -1004,19 +1003,19 @@ template<typename T>
  void OnClipMove() ;
 
 /// @brief Method CreateNewClipContainerInternal addr 0x2ac5284 size 0x25c virtual false final false
- ::UnityEngine::Timeline::TimelineClip CreateNewClipContainerInternal() ;
+ UnityEngine::Timeline::TimelineClip CreateNewClipContainerInternal() ;
 
 /// @brief Method AddChild addr 0x2ac1da4 size 0x104 virtual false final false
- void AddChild(::UnityEngine::Timeline::TrackAsset child) ;
+ void AddChild(UnityEngine::Timeline::TrackAsset child) ;
 
 /// @brief Method MoveLastTrackBefore addr 0x2ac78cc size 0x1f0 virtual false final false
- void MoveLastTrackBefore(::UnityEngine::Timeline::TrackAsset asset) ;
+ void MoveLastTrackBefore(UnityEngine::Timeline::TrackAsset asset) ;
 
 /// @brief Method RemoveSubTrack addr 0x2ac0060 size 0x7c virtual false final false
- bool RemoveSubTrack(::UnityEngine::Timeline::TrackAsset child) ;
+ bool RemoveSubTrack(UnityEngine::Timeline::TrackAsset child) ;
 
 /// @brief Method RemoveClip addr 0x2abd25c size 0x60 virtual false final false
- void RemoveClip(::UnityEngine::Timeline::TimelineClip clip) ;
+ void RemoveClip(UnityEngine::Timeline::TimelineClip clip) ;
 
 /// @brief Method GetEvaluationTime addr 0x2abb6f4 size 0x25c virtual true final false
  void GetEvaluationTime(ByRef<double_t> outStart, ByRef<double_t> outDuration) ;
@@ -1025,16 +1024,16 @@ template<typename T>
  void GetSequenceTime(ByRef<double_t> outStart, ByRef<double_t> outDuration) ;
 
 /// @brief Method GatherProperties addr 0x2ac7ad8 size 0x6d4 virtual true final false
- void GatherProperties(::UnityEngine::Playables::PlayableDirector director, ::UnityEngine::Timeline::IPropertyCollector driver) ;
+ void GatherProperties(UnityEngine::Playables::PlayableDirector director, UnityEngine::Timeline::IPropertyCollector driver) ;
 
 /// @brief Method GetGameObjectBinding addr 0x2ab66e4 size 0x178 virtual false final false
- ::UnityEngine::GameObject GetGameObjectBinding(::UnityEngine::Playables::PlayableDirector director) ;
+ UnityEngine::GameObject GetGameObjectBinding(UnityEngine::Playables::PlayableDirector director) ;
 
 /// @brief Method ValidateClipType addr 0x2ac4900 size 0x280 virtual false final false
- bool ValidateClipType(::System::Type clipType) ;
+ bool ValidateClipType(System::Type clipType) ;
 
 /// @brief Method OnCreateClip addr 0x2ab68ac size 0x4 virtual true final false
- void OnCreateClip(::UnityEngine::Timeline::TimelineClip clip) ;
+ void OnCreateClip(UnityEngine::Timeline::TimelineClip clip) ;
 
 /// @brief Method UpdateDuration addr 0x2ac33a0 size 0x10c virtual false final false
  void UpdateDuration() ;
@@ -1043,7 +1042,7 @@ template<typename T>
  int32_t CalculateItemsHash() ;
 
 /// @brief Method CreatePlayable addr 0x2ac8314 size 0x2a4 virtual true final false
- ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject gameObject, ::UnityEngine::Timeline::TimelineClip clip) ;
+ UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject gameObject, UnityEngine::Timeline::TimelineClip clip) ;
 
 /// @brief Method Invalidate addr 0x2ac2ec8 size 0x88 virtual false final false
  void Invalidate() ;
@@ -1070,7 +1069,7 @@ template<typename T>
  int32_t GetClipsHash() ;
 
 /// @brief Method GetAnimationClipHash addr 0x2ab9260 size 0xec virtual false final false
-static int32_t GetAnimationClipHash(::UnityEngine::AnimationClip clip) ;
+static int32_t GetAnimationClipHash(UnityEngine::AnimationClip clip) ;
 
 /// @brief Method HasNotifications addr 0x2ac7abc size 0x1c virtual false final false
  bool HasNotifications() ;
@@ -1091,14 +1090,13 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::____UnityEngine__Timeline__TrackAsset__Versions, "UnityEngine.Timeline", "TrackAsset/Versions");
-NEED_NO_BOX(::UnityEngine::Timeline::TrackAsset);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::TrackAsset, "UnityEngine.Timeline", "TrackAsset");
-NEED_NO_BOX(::UnityEngine::Timeline::____UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::____UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade, "UnityEngine.Timeline", "TrackAsset/TrackAssetUpgrade");
-NEED_NO_BOX(::UnityEngine::Timeline::____UnityEngine__Timeline__TrackAsset____c);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::____UnityEngine__Timeline__TrackAsset____c, "UnityEngine.Timeline", "TrackAsset/<>c");
-NEED_NO_BOX(::UnityEngine::Timeline::____UnityEngine__Timeline__TrackAsset___get_outputs_d__65);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::____UnityEngine__Timeline__TrackAsset___get_outputs_d__65, "UnityEngine.Timeline", "TrackAsset/<get_outputs>d__65");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::____UnityEngine__Timeline__TrackAsset__TransientBuildData, "UnityEngine.Timeline", "TrackAsset/TransientBuildData");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::UnityEngine__Timeline__TrackAsset__Versions, "UnityEngine.Timeline", "TrackAsset/Versions");
+NEED_NO_BOX(UnityEngine::Timeline::TrackAsset);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackAsset, "UnityEngine.Timeline", "TrackAsset");
+NEED_NO_BOX(UnityEngine::Timeline::UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::UnityEngine__Timeline__TrackAsset__TrackAssetUpgrade, "UnityEngine.Timeline", "TrackAsset/TrackAssetUpgrade");
+NEED_NO_BOX(UnityEngine::Timeline::UnityEngine__Timeline__TrackAsset____c);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::UnityEngine__Timeline__TrackAsset____c, "UnityEngine.Timeline", "TrackAsset/<>c");
+NEED_NO_BOX(UnityEngine::Timeline::UnityEngine__Timeline__TrackAsset___get_outputs_d__65);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::UnityEngine__Timeline__TrackAsset___get_outputs_d__65, "UnityEngine.Timeline", "TrackAsset/<get_outputs>d__65");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::UnityEngine__Timeline__TrackAsset__TransientBuildData, "UnityEngine.Timeline", "TrackAsset/TransientBuildData");

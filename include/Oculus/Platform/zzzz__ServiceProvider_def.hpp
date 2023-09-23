@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform {
 struct ServiceProvider;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::Oculus::Platform::ServiceProvider const Unknown;
+static Oculus::Platform::ServiceProvider const Unknown;
 
 /// @brief Field Dropbox offset 0
-static ::Oculus::Platform::ServiceProvider const Dropbox;
+static Oculus::Platform::ServiceProvider const Dropbox;
 
 /// @brief Field Facebook offset 0
-static ::Oculus::Platform::ServiceProvider const Facebook;
+static Oculus::Platform::ServiceProvider const Facebook;
 
 /// @brief Field Google offset 0
-static ::Oculus::Platform::ServiceProvider const Google;
+static Oculus::Platform::ServiceProvider const Google;
 
 /// @brief Field Instagram offset 0
-static ::Oculus::Platform::ServiceProvider const Instagram;
+static Oculus::Platform::ServiceProvider const Instagram;
 
 /// @brief Field RemoteMedia offset 0
-static ::Oculus::Platform::ServiceProvider const RemoteMedia;
+static Oculus::Platform::ServiceProvider const RemoteMedia;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::ServiceProvider, "Oculus.Platform", "ServiceProvider");
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::ServiceProvider, "Oculus.Platform", "ServiceProvider");

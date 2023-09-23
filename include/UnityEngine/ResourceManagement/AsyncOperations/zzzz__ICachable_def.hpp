@@ -1,6 +1,5 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace UnityEngine::ResourceManagement::Util {
 class IOperationCacheKey;
 }
@@ -26,21 +25,20 @@ constexpr explicit ICachable(void* ptr) noexcept : ::cordl_internals::InterfaceW
 
 // Properties
 
- ::UnityEngine::ResourceManagement::Util::IOperationCacheKey __declspec(property(get=get_Key, put=set_Key))  Key;
+ UnityEngine::ResourceManagement::Util::IOperationCacheKey __declspec(property(get=get_Key, put=set_Key))  Key;
 
 
 // Methods
 
 /// @brief Method get_Key addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::ResourceManagement::Util::IOperationCacheKey get_Key() ;
+ UnityEngine::ResourceManagement::Util::IOperationCacheKey get_Key() ;
 
 /// @brief Method set_Key addr 0x0 size 0xffffffffffffffff virtual true final false
- void set_Key(::UnityEngine::ResourceManagement::Util::IOperationCacheKey value) ;
+ void set_Key(UnityEngine::ResourceManagement::Util::IOperationCacheKey value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ResourceManagement::AsyncOperations
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ResourceManagement::AsyncOperations::ICachable);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::AsyncOperations::ICachable, "UnityEngine.ResourceManagement.AsyncOperations", "ICachable");
+NEED_NO_BOX(UnityEngine::ResourceManagement::AsyncOperations::ICachable);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::ICachable, "UnityEngine.ResourceManagement.AsyncOperations", "ICachable");

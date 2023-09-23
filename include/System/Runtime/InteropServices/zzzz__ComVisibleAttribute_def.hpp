@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 // Forward declare root types
 namespace System::Runtime::InteropServices {
 class ComVisibleAttribute;
@@ -12,7 +11,7 @@ namespace System::Runtime::InteropServices {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3313))
 // CS Name: System.Runtime.InteropServices.ComVisibleAttribute
-class CORDL_TYPE ComVisibleAttribute : public ::System::Attribute {
+class CORDL_TYPE ComVisibleAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr ComVisibleAttribute(ComVisibleAttribute const& ) noexcept = default;
 constexpr ComVisibleAttribute(ComVisibleAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ComVisibleAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit ComVisibleAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -67,6 +66,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::InteropServices
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::InteropServices::ComVisibleAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::ComVisibleAttribute, "System.Runtime.InteropServices", "ComVisibleAttribute");
+NEED_NO_BOX(System::Runtime::InteropServices::ComVisibleAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::ComVisibleAttribute, "System.Runtime.InteropServices", "ComVisibleAttribute");

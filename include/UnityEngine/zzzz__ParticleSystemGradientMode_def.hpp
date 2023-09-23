@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct ParticleSystemGradientMode;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Color offset 0
-static ::UnityEngine::ParticleSystemGradientMode const Color;
+static UnityEngine::ParticleSystemGradientMode const Color;
 
 /// @brief Field Gradient offset 0
-static ::UnityEngine::ParticleSystemGradientMode const Gradient;
+static UnityEngine::ParticleSystemGradientMode const Gradient;
 
 /// @brief Field TwoColors offset 0
-static ::UnityEngine::ParticleSystemGradientMode const TwoColors;
+static UnityEngine::ParticleSystemGradientMode const TwoColors;
 
 /// @brief Field TwoGradients offset 0
-static ::UnityEngine::ParticleSystemGradientMode const TwoGradients;
+static UnityEngine::ParticleSystemGradientMode const TwoGradients;
 
 /// @brief Field RandomColor offset 0
-static ::UnityEngine::ParticleSystemGradientMode const RandomColor;
+static UnityEngine::ParticleSystemGradientMode const RandomColor;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ParticleSystemGradientMode, "UnityEngine", "ParticleSystemGradientMode");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystemGradientMode, "UnityEngine", "ParticleSystemGradientMode");

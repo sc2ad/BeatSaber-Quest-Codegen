@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Threading::Tasks {
 struct TaskCreationOptions;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::Threading::Tasks::TaskCreationOptions const None;
+static System::Threading::Tasks::TaskCreationOptions const None;
 
 /// @brief Field PreferFairness offset 0
-static ::System::Threading::Tasks::TaskCreationOptions const PreferFairness;
+static System::Threading::Tasks::TaskCreationOptions const PreferFairness;
 
 /// @brief Field LongRunning offset 0
-static ::System::Threading::Tasks::TaskCreationOptions const LongRunning;
+static System::Threading::Tasks::TaskCreationOptions const LongRunning;
 
 /// @brief Field AttachedToParent offset 0
-static ::System::Threading::Tasks::TaskCreationOptions const AttachedToParent;
+static System::Threading::Tasks::TaskCreationOptions const AttachedToParent;
 
 /// @brief Field DenyChildAttach offset 0
-static ::System::Threading::Tasks::TaskCreationOptions const DenyChildAttach;
+static System::Threading::Tasks::TaskCreationOptions const DenyChildAttach;
 
 /// @brief Field HideScheduler offset 0
-static ::System::Threading::Tasks::TaskCreationOptions const HideScheduler;
+static System::Threading::Tasks::TaskCreationOptions const HideScheduler;
 
 /// @brief Field RunContinuationsAsynchronously offset 0
-static ::System::Threading::Tasks::TaskCreationOptions const RunContinuationsAsynchronously;
+static System::Threading::Tasks::TaskCreationOptions const RunContinuationsAsynchronously;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Threading::Tasks
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::TaskCreationOptions, "System.Threading.Tasks", "TaskCreationOptions");
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskCreationOptions, "System.Threading.Tasks", "TaskCreationOptions");

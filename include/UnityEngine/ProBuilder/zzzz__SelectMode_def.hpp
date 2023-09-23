@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
 struct SelectMode;
@@ -75,38 +74,37 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::ProBuilder::SelectMode const None;
+static UnityEngine::ProBuilder::SelectMode const None;
 
 /// @brief Field Object offset 0
-static ::UnityEngine::ProBuilder::SelectMode const Object;
+static UnityEngine::ProBuilder::SelectMode const Object;
 
 /// @brief Field Vertex offset 0
-static ::UnityEngine::ProBuilder::SelectMode const Vertex;
+static UnityEngine::ProBuilder::SelectMode const Vertex;
 
 /// @brief Field Edge offset 0
-static ::UnityEngine::ProBuilder::SelectMode const Edge;
+static UnityEngine::ProBuilder::SelectMode const Edge;
 
 /// @brief Field Face offset 0
-static ::UnityEngine::ProBuilder::SelectMode const Face;
+static UnityEngine::ProBuilder::SelectMode const Face;
 
 /// @brief Field TextureFace offset 0
-static ::UnityEngine::ProBuilder::SelectMode const TextureFace;
+static UnityEngine::ProBuilder::SelectMode const TextureFace;
 
 /// @brief Field TextureEdge offset 0
-static ::UnityEngine::ProBuilder::SelectMode const TextureEdge;
+static UnityEngine::ProBuilder::SelectMode const TextureEdge;
 
 /// @brief Field TextureVertex offset 0
-static ::UnityEngine::ProBuilder::SelectMode const TextureVertex;
+static UnityEngine::ProBuilder::SelectMode const TextureVertex;
 
 /// @brief Field InputTool offset 0
-static ::UnityEngine::ProBuilder::SelectMode const InputTool;
+static UnityEngine::ProBuilder::SelectMode const InputTool;
 
 /// @brief Field Any offset 0
-static ::UnityEngine::ProBuilder::SelectMode const Any;
+static UnityEngine::ProBuilder::SelectMode const Any;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::SelectMode, "UnityEngine.ProBuilder", "SelectMode");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SelectMode, "UnityEngine.ProBuilder", "SelectMode");

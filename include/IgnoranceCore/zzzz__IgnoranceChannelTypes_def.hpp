@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace IgnoranceCore {
 struct IgnoranceChannelTypes;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Reliable offset 0
-static ::IgnoranceCore::IgnoranceChannelTypes const Reliable;
+static IgnoranceCore::IgnoranceChannelTypes const Reliable;
 
 /// @brief Field ReliableUnsequenced offset 0
-static ::IgnoranceCore::IgnoranceChannelTypes const ReliableUnsequenced;
+static IgnoranceCore::IgnoranceChannelTypes const ReliableUnsequenced;
 
 /// @brief Field Unreliable offset 0
-static ::IgnoranceCore::IgnoranceChannelTypes const Unreliable;
+static IgnoranceCore::IgnoranceChannelTypes const Unreliable;
 
 /// @brief Field UnreliableFragmented offset 0
-static ::IgnoranceCore::IgnoranceChannelTypes const UnreliableFragmented;
+static IgnoranceCore::IgnoranceChannelTypes const UnreliableFragmented;
 
 /// @brief Field UnreliableSequenced offset 0
-static ::IgnoranceCore::IgnoranceChannelTypes const UnreliableSequenced;
+static IgnoranceCore::IgnoranceChannelTypes const UnreliableSequenced;
 
 /// @brief Field Unthrottled offset 0
-static ::IgnoranceCore::IgnoranceChannelTypes const Unthrottled;
+static IgnoranceCore::IgnoranceChannelTypes const Unthrottled;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def IgnoranceCore
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::IgnoranceCore::IgnoranceChannelTypes, "IgnoranceCore", "IgnoranceChannelTypes");
+DEFINE_IL2CPP_ARG_TYPE(IgnoranceCore::IgnoranceChannelTypes, "IgnoranceCore", "IgnoranceChannelTypes");

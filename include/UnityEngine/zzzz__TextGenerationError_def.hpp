@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct TextGenerationError;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::TextGenerationError const None;
+static UnityEngine::TextGenerationError const None;
 
 /// @brief Field CustomSizeOnNonDynamicFont offset 0
-static ::UnityEngine::TextGenerationError const CustomSizeOnNonDynamicFont;
+static UnityEngine::TextGenerationError const CustomSizeOnNonDynamicFont;
 
 /// @brief Field CustomStyleOnNonDynamicFont offset 0
-static ::UnityEngine::TextGenerationError const CustomStyleOnNonDynamicFont;
+static UnityEngine::TextGenerationError const CustomStyleOnNonDynamicFont;
 
 /// @brief Field NoFont offset 0
-static ::UnityEngine::TextGenerationError const NoFont;
+static UnityEngine::TextGenerationError const NoFont;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextGenerationError, "UnityEngine", "TextGenerationError");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextGenerationError, "UnityEngine", "TextGenerationError");

@@ -4,9 +4,18 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class Transform;
+namespace System {
+class IDisposable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Media__PlatformCameraMode;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -14,28 +23,18 @@ struct Vector3;
 namespace UnityEngine {
 class Camera;
 }
-namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRPlugin__Fovf;
-}
-namespace System::Collections {
-class IEnumerator;
+namespace UnityEngine {
+class Transform;
 }
 namespace GlobalNamespace {
-struct ______GlobalNamespace__OVRPlugin__Media__PlatformCameraMode;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
-}
-namespace System {
-class IDisposable;
+struct GlobalNamespace__OVRPlugin__Fovf;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-class OVRSpectatorModeDomeTest;
+class GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20;
+class OVRSpectatorModeDomeTest;
 }
 // Type: ::<TimerCoroutine>d__20
 namespace GlobalNamespace {
@@ -43,46 +42,46 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8969))
 // CS Name: OVRSpectatorModeDomeTest::<TimerCoroutine>d__20
-class CORDL_TYPE ____GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20() = default;
+virtual ~GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20(____GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20(GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20(____GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20(GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20& operator=(____GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20&& o) noexcept = default;
-  constexpr ____GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20& operator=(____GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20 const& o) noexcept = default;
+  constexpr GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20& operator=(GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20&& o) noexcept = default;
+  constexpr GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20& operator=(GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20 const& o) noexcept = default;
                 
 
 
@@ -100,11 +99,11 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::GlobalNamespace::OVRSpectatorModeDomeTest __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::OVRSpectatorModeDomeTest __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::OVRSpectatorModeDomeTest value) ;
+constexpr void __set___4__this(GlobalNamespace::OVRSpectatorModeDomeTest value) ;
 
-constexpr ::GlobalNamespace::OVRSpectatorModeDomeTest __get___4__this() const;
+constexpr GlobalNamespace::OVRSpectatorModeDomeTest __get___4__this() const;
 
 
 // Properties
@@ -117,7 +116,7 @@ constexpr ::GlobalNamespace::OVRSpectatorModeDomeTest __get___4__this() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20(int32_t __1__state) ;
+explicit GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x263587c size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -147,10 +146,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8970))
 // CS Name: OVRSpectatorModeDomeTest
-class CORDL_TYPE OVRSpectatorModeDomeTest : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OVRSpectatorModeDomeTest : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using _TimerCoroutine_d__20 = ::GlobalNamespace::____GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20;
+using _TimerCoroutine_d__20 = GlobalNamespace::GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x68};
@@ -164,7 +163,7 @@ constexpr OVRSpectatorModeDomeTest(OVRSpectatorModeDomeTest const& ) noexcept = 
 constexpr OVRSpectatorModeDomeTest(OVRSpectatorModeDomeTest&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OVRSpectatorModeDomeTest(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OVRSpectatorModeDomeTest(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -191,35 +190,35 @@ constexpr void __set_inited(bool value) ;
 
 constexpr bool __get_inited() const;
 
- ::UnityEngine::Camera __declspec(property(get=__get_defaultExternalCamera, put=__set_defaultExternalCamera))  defaultExternalCamera;
+ UnityEngine::Camera __declspec(property(get=__get_defaultExternalCamera, put=__set_defaultExternalCamera))  defaultExternalCamera;
 
-constexpr void __set_defaultExternalCamera(::UnityEngine::Camera value) ;
+constexpr void __set_defaultExternalCamera(UnityEngine::Camera value) ;
 
-constexpr ::UnityEngine::Camera __get_defaultExternalCamera() const;
+constexpr UnityEngine::Camera __get_defaultExternalCamera() const;
 
- ::GlobalNamespace::____GlobalNamespace__OVRPlugin__Fovf __declspec(property(get=__get_defaultFov, put=__set_defaultFov))  defaultFov;
+ GlobalNamespace::GlobalNamespace__OVRPlugin__Fovf __declspec(property(get=__get_defaultFov, put=__set_defaultFov))  defaultFov;
 
-constexpr void __set_defaultFov(::GlobalNamespace::____GlobalNamespace__OVRPlugin__Fovf value) ;
+constexpr void __set_defaultFov(GlobalNamespace::GlobalNamespace__OVRPlugin__Fovf value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVRPlugin__Fovf __get_defaultFov() const;
+constexpr GlobalNamespace::GlobalNamespace__OVRPlugin__Fovf __get_defaultFov() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_SpectatorAnchor, put=__set_SpectatorAnchor))  SpectatorAnchor;
+ UnityEngine::Transform __declspec(property(get=__get_SpectatorAnchor, put=__set_SpectatorAnchor))  SpectatorAnchor;
 
-constexpr void __set_SpectatorAnchor(::UnityEngine::Transform value) ;
+constexpr void __set_SpectatorAnchor(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_SpectatorAnchor() const;
+constexpr UnityEngine::Transform __get_SpectatorAnchor() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_Head, put=__set_Head))  Head;
+ UnityEngine::Transform __declspec(property(get=__get_Head, put=__set_Head))  Head;
 
-constexpr void __set_Head(::UnityEngine::Transform value) ;
+constexpr void __set_Head(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_Head() const;
+constexpr UnityEngine::Transform __get_Head() const;
 
- ::GlobalNamespace::______GlobalNamespace__OVRPlugin__Media__PlatformCameraMode __declspec(property(get=__get_camMode, put=__set_camMode))  camMode;
+ GlobalNamespace::GlobalNamespace__OVRPlugin__Media__PlatformCameraMode __declspec(property(get=__get_camMode, put=__set_camMode))  camMode;
 
-constexpr void __set_camMode(::GlobalNamespace::______GlobalNamespace__OVRPlugin__Media__PlatformCameraMode value) ;
+constexpr void __set_camMode(GlobalNamespace::GlobalNamespace__OVRPlugin__Media__PlatformCameraMode value) ;
 
-constexpr ::GlobalNamespace::______GlobalNamespace__OVRPlugin__Media__PlatformCameraMode __get_camMode() const;
+constexpr GlobalNamespace::GlobalNamespace__OVRPlugin__Media__PlatformCameraMode __get_camMode() const;
 
  bool __declspec(property(get=__get_readyToSwitch, put=__set_readyToSwitch))  readyToSwitch;
 
@@ -227,11 +226,11 @@ constexpr void __set_readyToSwitch(bool value) ;
 
 constexpr bool __get_readyToSwitch() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_SpectatorCamera, put=__set_SpectatorCamera))  SpectatorCamera;
+ UnityEngine::Transform __declspec(property(get=__get_SpectatorCamera, put=__set_SpectatorCamera))  SpectatorCamera;
 
-constexpr void __set_SpectatorCamera(::UnityEngine::Transform value) ;
+constexpr void __set_SpectatorCamera(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_SpectatorCamera() const;
+constexpr UnityEngine::Transform __get_SpectatorCamera() const;
 
  float_t __declspec(property(get=__get_distance, put=__set_distance))  distance;
 
@@ -279,10 +278,10 @@ static constexpr float_t  elevationLimit{30};
  void UpdateSpectatorCameraStatus() ;
 
 /// @brief Method SpectatorCameraDomePosition addr 0x26357e8 size 0x94 virtual false final false
- ::UnityEngine::Vector3 SpectatorCameraDomePosition(::UnityEngine::Vector3 spectatorAnchorPosition, float_t d, float_t e, float_t p) ;
+ UnityEngine::Vector3 SpectatorCameraDomePosition(UnityEngine::Vector3 spectatorAnchorPosition, float_t d, float_t e, float_t p) ;
 
 /// @brief Method TimerCoroutine addr 0x2635780 size 0x68 virtual false final false
- ::System::Collections::IEnumerator TimerCoroutine() ;
+ System::Collections::IEnumerator TimerCoroutine() ;
 
 /// @brief Method Update addr 0x26358a4 size 0x140 virtual false final false
  void Update() ;
@@ -303,8 +302,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OVRSpectatorModeDomeTest);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRSpectatorModeDomeTest, "", "OVRSpectatorModeDomeTest");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20, "", "OVRSpectatorModeDomeTest/<TimerCoroutine>d__20");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20, "", "OVRSpectatorModeDomeTest/<TimerCoroutine>d__20");
+NEED_NO_BOX(GlobalNamespace::OVRSpectatorModeDomeTest);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSpectatorModeDomeTest, "", "OVRSpectatorModeDomeTest");

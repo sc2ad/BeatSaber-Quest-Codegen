@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace RootMotion {
 class InspectorComment;
@@ -13,7 +12,7 @@ namespace RootMotion {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10112))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12434))
 // CS Name: RootMotion.InspectorComment
-class CORDL_TYPE InspectorComment : public ::UnityEngine::PropertyAttribute {
+class CORDL_TYPE InspectorComment : public UnityEngine::PropertyAttribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr InspectorComment(InspectorComment const& ) noexcept = default;
 constexpr InspectorComment(InspectorComment&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit InspectorComment(void* ptr) noexcept : ::UnityEngine::PropertyAttribute(ptr) {
+constexpr explicit InspectorComment(void* ptr) noexcept : UnityEngine::PropertyAttribute(ptr) {
 }
 
 
@@ -80,6 +79,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::InspectorComment);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::InspectorComment, "RootMotion", "InspectorComment");
+NEED_NO_BOX(RootMotion::InspectorComment);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::InspectorComment, "RootMotion", "InspectorComment");

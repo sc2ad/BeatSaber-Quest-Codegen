@@ -2,15 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__FactoryArgumentsToChoiceBinder_6_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Zenject {
 class BindInfo;
 }
 namespace Zenject {
-class FactoryBindInfo;
+class DiContainer;
 }
 namespace Zenject {
-class DiContainer;
+class FactoryBindInfo;
 }
 namespace Zenject {
 template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TContract>
@@ -34,7 +33,7 @@ template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10804)), TypeDefinitionIndex(TypeDefinitionIndex(10651)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10651), inst: 1695 })}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10804), inst: 5939 })
 // CS Name: Zenject.FactoryToChoiceIdBinder`6
-class CORDL_TYPE FactoryToChoiceIdBinder_6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract> : public ::Zenject::FactoryArgumentsToChoiceBinder_6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract> {
+class CORDL_TYPE FactoryToChoiceIdBinder_6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract> : public Zenject::FactoryArgumentsToChoiceBinder_6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -49,7 +48,7 @@ constexpr FactoryToChoiceIdBinder_6(FactoryToChoiceIdBinder_6 const& ) noexcept 
 constexpr FactoryToChoiceIdBinder_6(FactoryToChoiceIdBinder_6&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FactoryToChoiceIdBinder_6(void* ptr) noexcept : ::Zenject::FactoryArgumentsToChoiceBinder_6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract>(ptr) {
+constexpr explicit FactoryToChoiceIdBinder_6(void* ptr) noexcept : Zenject::FactoryArgumentsToChoiceBinder_6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract>(ptr) {
 }
 
 
@@ -70,18 +69,17 @@ constexpr explicit FactoryToChoiceIdBinder_6(void* ptr) noexcept : ::Zenject::Fa
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindContainer", ty: "::Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "::Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "factoryBindInfo", ty: "::Zenject::FactoryBindInfo", modifiers: "", def_value: None }]
-explicit FactoryToChoiceIdBinder_6(::Zenject::DiContainer bindContainer, ::Zenject::BindInfo bindInfo, ::Zenject::FactoryBindInfo factoryBindInfo) ;
+// Ctor Parameters [CppParam { name: "bindContainer", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "factoryBindInfo", ty: "Zenject::FactoryBindInfo", modifiers: "", def_value: None }]
+explicit FactoryToChoiceIdBinder_6(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::Zenject::DiContainer bindContainer, ::Zenject::BindInfo bindInfo, ::Zenject::FactoryBindInfo factoryBindInfo) ;
+ void _ctor(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;
 
 /// @brief Method WithId addr 0x0 size 0xffffffffffffffff virtual false final false
- ::Zenject::FactoryArgumentsToChoiceBinder_6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract> WithId(::bs_hook::Il2CppWrapperType identifier) ;
+ Zenject::FactoryArgumentsToChoiceBinder_6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract> WithId(::bs_hook::Il2CppWrapperType identifier) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::FactoryToChoiceIdBinder_6, "Zenject", "FactoryToChoiceIdBinder`6");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::FactoryToChoiceIdBinder_6, "Zenject", "FactoryToChoiceIdBinder`6");

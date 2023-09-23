@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System::IO {
 class Stream;
 }
@@ -19,8 +18,8 @@ namespace GlobalNamespace {
 struct CORDL_TYPE OVRBinaryChunk : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "chunkStream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "chunkLength", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "chunkStart", ty: "int64_t", modifiers: "", def_value: None }]
-constexpr OVRBinaryChunk(::System::IO::Stream chunkStream, uint32_t chunkLength, int64_t chunkStart) noexcept;
+// Ctor Parameters [CppParam { name: "chunkStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "chunkLength", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "chunkStart", ty: "int64_t", modifiers: "", def_value: None }]
+constexpr OVRBinaryChunk(System::IO::Stream chunkStream, uint32_t chunkLength, int64_t chunkStart) noexcept;
 
 
                     constexpr OVRBinaryChunk(OVRBinaryChunk const&) = default;
@@ -53,11 +52,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::IO::Stream __declspec(property(get=__get_chunkStream, put=__set_chunkStream))  chunkStream;
+ System::IO::Stream __declspec(property(get=__get_chunkStream, put=__set_chunkStream))  chunkStream;
 
-constexpr void __set_chunkStream(::System::IO::Stream value) ;
+constexpr void __set_chunkStream(System::IO::Stream value) ;
 
-constexpr ::System::IO::Stream __get_chunkStream() const;
+constexpr System::IO::Stream __get_chunkStream() const;
 
  uint32_t __declspec(property(get=__get_chunkLength, put=__set_chunkLength))  chunkLength;
 
@@ -75,5 +74,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRBinaryChunk, "", "OVRBinaryChunk");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRBinaryChunk, "", "OVRBinaryChunk");

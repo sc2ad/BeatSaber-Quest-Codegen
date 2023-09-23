@@ -2,21 +2,20 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputStateTypeInfo;
-}
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine::XR {
-struct InputTrackingState;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
+}
+namespace UnityEngine::XR {
+struct InputTrackingState;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputStateTypeInfo;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XR {
@@ -31,11 +30,11 @@ namespace UnityEngine::InputSystem::XR {
 struct CORDL_TYPE PoseState : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo
-constexpr operator  ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo() const;
+/// @brief Convert operator to UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo
+constexpr operator  UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo() const;
 
-// Ctor Parameters [CppParam { name: "isTracked", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "trackingState", ty: "::UnityEngine::XR::InputTrackingState", modifiers: "", def_value: None }, CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "velocity", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "angularVelocity", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
-constexpr PoseState(bool isTracked, ::UnityEngine::XR::InputTrackingState trackingState, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 velocity, ::UnityEngine::Vector3 angularVelocity) noexcept;
+// Ctor Parameters [CppParam { name: "isTracked", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "trackingState", ty: "UnityEngine::XR::InputTrackingState", modifiers: "", def_value: None }, CppParam { name: "position", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "velocity", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "angularVelocity", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }]
+constexpr PoseState(bool isTracked, UnityEngine::XR::InputTrackingState trackingState, UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, UnityEngine::Vector3 velocity, UnityEngine::Vector3 angularVelocity) noexcept;
 
 
                     constexpr PoseState(PoseState const&) = default;
@@ -77,53 +76,52 @@ constexpr void __set_isTracked(bool value) ;
 
 constexpr bool __get_isTracked() const;
 
- ::UnityEngine::XR::InputTrackingState __declspec(property(get=__get_trackingState, put=__set_trackingState))  trackingState;
+ UnityEngine::XR::InputTrackingState __declspec(property(get=__get_trackingState, put=__set_trackingState))  trackingState;
 
-constexpr void __set_trackingState(::UnityEngine::XR::InputTrackingState value) ;
+constexpr void __set_trackingState(UnityEngine::XR::InputTrackingState value) ;
 
-constexpr ::UnityEngine::XR::InputTrackingState __get_trackingState() const;
+constexpr UnityEngine::XR::InputTrackingState __get_trackingState() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_position, put=__set_position))  position;
+ UnityEngine::Vector3 __declspec(property(get=__get_position, put=__set_position))  position;
 
-constexpr void __set_position(::UnityEngine::Vector3 value) ;
+constexpr void __set_position(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_position() const;
+constexpr UnityEngine::Vector3 __get_position() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get_rotation, put=__set_rotation))  rotation;
+ UnityEngine::Quaternion __declspec(property(get=__get_rotation, put=__set_rotation))  rotation;
 
-constexpr void __set_rotation(::UnityEngine::Quaternion value) ;
+constexpr void __set_rotation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get_rotation() const;
+constexpr UnityEngine::Quaternion __get_rotation() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_velocity, put=__set_velocity))  velocity;
+ UnityEngine::Vector3 __declspec(property(get=__get_velocity, put=__set_velocity))  velocity;
 
-constexpr void __set_velocity(::UnityEngine::Vector3 value) ;
+constexpr void __set_velocity(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_velocity() const;
+constexpr UnityEngine::Vector3 __get_velocity() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_angularVelocity, put=__set_angularVelocity))  angularVelocity;
+ UnityEngine::Vector3 __declspec(property(get=__get_angularVelocity, put=__set_angularVelocity))  angularVelocity;
 
-constexpr void __set_angularVelocity(::UnityEngine::Vector3 value) ;
+constexpr void __set_angularVelocity(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_angularVelocity() const;
+constexpr UnityEngine::Vector3 __get_angularVelocity() const;
 
 
 // Properties
 
- ::UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_format))  format;
+ UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_format))  format;
 
 
 // Methods
 
 /// @brief Method get_format addr 0x29328f4 size 0x30 virtual true final true
- ::UnityEngine::InputSystem::Utilities::FourCC get_format() ;
+ UnityEngine::InputSystem::Utilities::FourCC get_format() ;
 
 /// @brief Method .ctor addr 0x2932924 size 0x40 virtual false final false
- void _ctor(bool isTracked, ::UnityEngine::XR::InputTrackingState trackingState, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 velocity, ::UnityEngine::Vector3 angularVelocity) ;
+ void _ctor(bool isTracked, UnityEngine::XR::InputTrackingState trackingState, UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, UnityEngine::Vector3 velocity, UnityEngine::Vector3 angularVelocity) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::XR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::XR::PoseState, "UnityEngine.InputSystem.XR", "PoseState");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::XR::PoseState, "UnityEngine.InputSystem.XR", "PoseState");

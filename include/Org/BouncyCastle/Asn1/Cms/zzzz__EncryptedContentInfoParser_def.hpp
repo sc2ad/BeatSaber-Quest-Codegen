@@ -2,21 +2,20 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObjectParser;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1SequenceParser;
 }
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Convertible;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+class Asn1SequenceParser;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObjectParser;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -64,53 +63,52 @@ constexpr explicit EncryptedContentInfoParser(void* ptr) noexcept : ::bs_hook::I
 
 // Fields
 
- ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get__contentType, put=__set__contentType))  _contentType;
+ Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get__contentType, put=__set__contentType))  _contentType;
 
-constexpr void __set__contentType(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+constexpr void __set__contentType(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get__contentType() const;
+constexpr Org::BouncyCastle::Asn1::DerObjectIdentifier __get__contentType() const;
 
- ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __declspec(property(get=__get__contentEncryptionAlgorithm, put=__set__contentEncryptionAlgorithm))  _contentEncryptionAlgorithm;
+ Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __declspec(property(get=__get__contentEncryptionAlgorithm, put=__set__contentEncryptionAlgorithm))  _contentEncryptionAlgorithm;
 
-constexpr void __set__contentEncryptionAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier value) ;
+constexpr void __set__contentEncryptionAlgorithm(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __get__contentEncryptionAlgorithm() const;
+constexpr Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __get__contentEncryptionAlgorithm() const;
 
- ::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser __declspec(property(get=__get__encryptedContent, put=__set__encryptedContent))  _encryptedContent;
+ Org::BouncyCastle::Asn1::Asn1TaggedObjectParser __declspec(property(get=__get__encryptedContent, put=__set__encryptedContent))  _encryptedContent;
 
-constexpr void __set__encryptedContent(::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser value) ;
+constexpr void __set__encryptedContent(Org::BouncyCastle::Asn1::Asn1TaggedObjectParser value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser __get__encryptedContent() const;
+constexpr Org::BouncyCastle::Asn1::Asn1TaggedObjectParser __get__encryptedContent() const;
 
 
 // Properties
 
- ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=get_ContentType))  ContentType;
+ Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=get_ContentType))  ContentType;
 
- ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __declspec(property(get=get_ContentEncryptionAlgorithm))  ContentEncryptionAlgorithm;
+ Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __declspec(property(get=get_ContentEncryptionAlgorithm))  ContentEncryptionAlgorithm;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seq", ty: "::Org::BouncyCastle::Asn1::Asn1SequenceParser", modifiers: "", def_value: None }]
-explicit EncryptedContentInfoParser(::Org::BouncyCastle::Asn1::Asn1SequenceParser seq) ;
+// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1SequenceParser", modifiers: "", def_value: None }]
+explicit EncryptedContentInfoParser(Org::BouncyCastle::Asn1::Asn1SequenceParser seq) ;
 
 /// @brief Method .ctor addr 0xde7c78 size 0x2b8 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser seq) ;
+ void _ctor(Org::BouncyCastle::Asn1::Asn1SequenceParser seq) ;
 
 /// @brief Method get_ContentType addr 0xde953c size 0x8 virtual false final false
- ::Org::BouncyCastle::Asn1::DerObjectIdentifier get_ContentType() ;
+ Org::BouncyCastle::Asn1::DerObjectIdentifier get_ContentType() ;
 
 /// @brief Method get_ContentEncryptionAlgorithm addr 0xde9544 size 0x8 virtual false final false
- ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier get_ContentEncryptionAlgorithm() ;
+ Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier get_ContentEncryptionAlgorithm() ;
 
 /// @brief Method GetEncryptedContent addr 0xde954c size 0xb0 virtual false final false
- ::Org::BouncyCastle::Asn1::IAsn1Convertible GetEncryptedContent(int32_t tag) ;
+ Org::BouncyCastle::Asn1::IAsn1Convertible GetEncryptedContent(int32_t tag) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::Cms
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfoParser);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfoParser, "Org.BouncyCastle.Asn1.Cms", "EncryptedContentInfoParser");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Cms::EncryptedContentInfoParser);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Cms::EncryptedContentInfoParser, "Org.BouncyCastle.Asn1.Cms", "EncryptedContentInfoParser");

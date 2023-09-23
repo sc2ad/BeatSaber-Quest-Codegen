@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
 class OVRCameraRig;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8456))
 // CS Name: OVRDebugHeadController
-class CORDL_TYPE OVRDebugHeadController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OVRDebugHeadController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr OVRDebugHeadController(OVRDebugHeadController const& ) noexcept = defa
 constexpr OVRDebugHeadController(OVRDebugHeadController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OVRDebugHeadController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OVRDebugHeadController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -100,11 +99,11 @@ constexpr void __set_StrafeSpeed(float_t value) ;
 
 constexpr float_t __get_StrafeSpeed() const;
 
- ::GlobalNamespace::OVRCameraRig __declspec(property(get=__get_CameraRig, put=__set_CameraRig))  CameraRig;
+ GlobalNamespace::OVRCameraRig __declspec(property(get=__get_CameraRig, put=__set_CameraRig))  CameraRig;
 
-constexpr void __set_CameraRig(::GlobalNamespace::OVRCameraRig value) ;
+constexpr void __set_CameraRig(GlobalNamespace::OVRCameraRig value) ;
 
-constexpr ::GlobalNamespace::OVRCameraRig __get_CameraRig() const;
+constexpr GlobalNamespace::OVRCameraRig __get_CameraRig() const;
 
 
 // Methods
@@ -128,6 +127,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OVRDebugHeadController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRDebugHeadController, "", "OVRDebugHeadController");
+NEED_NO_BOX(GlobalNamespace::OVRDebugHeadController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDebugHeadController, "", "OVRDebugHeadController");

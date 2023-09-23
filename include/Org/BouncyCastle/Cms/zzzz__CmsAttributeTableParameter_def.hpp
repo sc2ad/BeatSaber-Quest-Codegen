@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
 struct CmsAttributeTableParameter;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field ContentType offset 0
-static ::Org::BouncyCastle::Cms::CmsAttributeTableParameter const ContentType;
+static Org::BouncyCastle::Cms::CmsAttributeTableParameter const ContentType;
 
 /// @brief Field Digest offset 0
-static ::Org::BouncyCastle::Cms::CmsAttributeTableParameter const Digest;
+static Org::BouncyCastle::Cms::CmsAttributeTableParameter const Digest;
 
 /// @brief Field Signature offset 0
-static ::Org::BouncyCastle::Cms::CmsAttributeTableParameter const Signature;
+static Org::BouncyCastle::Cms::CmsAttributeTableParameter const Signature;
 
 /// @brief Field DigestAlgorithmIdentifier offset 0
-static ::Org::BouncyCastle::Cms::CmsAttributeTableParameter const DigestAlgorithmIdentifier;
+static Org::BouncyCastle::Cms::CmsAttributeTableParameter const DigestAlgorithmIdentifier;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Cms
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::CmsAttributeTableParameter, "Org.BouncyCastle.Cms", "CmsAttributeTableParameter");
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Cms::CmsAttributeTableParameter, "Org.BouncyCastle.Cms", "CmsAttributeTableParameter");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
 struct MouseButton;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Left offset 0
-static ::UnityEngine::InputSystem::LowLevel::MouseButton const Left;
+static UnityEngine::InputSystem::LowLevel::MouseButton const Left;
 
 /// @brief Field Right offset 0
-static ::UnityEngine::InputSystem::LowLevel::MouseButton const Right;
+static UnityEngine::InputSystem::LowLevel::MouseButton const Right;
 
 /// @brief Field Middle offset 0
-static ::UnityEngine::InputSystem::LowLevel::MouseButton const Middle;
+static UnityEngine::InputSystem::LowLevel::MouseButton const Middle;
 
 /// @brief Field Forward offset 0
-static ::UnityEngine::InputSystem::LowLevel::MouseButton const Forward;
+static UnityEngine::InputSystem::LowLevel::MouseButton const Forward;
 
 /// @brief Field Back offset 0
-static ::UnityEngine::InputSystem::LowLevel::MouseButton const Back;
+static UnityEngine::InputSystem::LowLevel::MouseButton const Back;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::LowLevel
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::MouseButton, "UnityEngine.InputSystem.LowLevel", "MouseButton");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::LowLevel::MouseButton, "UnityEngine.InputSystem.LowLevel", "MouseButton");

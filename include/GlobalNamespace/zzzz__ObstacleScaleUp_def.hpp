@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
-namespace GlobalNamespace {
-class ObstacleController;
-}
 namespace UnityEngine {
 class Transform;
+}
+namespace GlobalNamespace {
+class ObstacleController;
 }
 namespace GlobalNamespace {
 class ObstacleControllerBase;
@@ -22,7 +21,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4911))
 // CS Name: ObstacleScaleUp
-class CORDL_TYPE ObstacleScaleUp : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ObstacleScaleUp : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr ObstacleScaleUp(ObstacleScaleUp const& ) noexcept = default;
 constexpr ObstacleScaleUp(ObstacleScaleUp&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ObstacleScaleUp(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ObstacleScaleUp(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -64,17 +63,17 @@ constexpr void __set__fullScalePart(float_t value) ;
 
 constexpr float_t __get__fullScalePart() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__targetTransform, put=__set__targetTransform))  _targetTransform;
+ UnityEngine::Transform __declspec(property(get=__get__targetTransform, put=__set__targetTransform))  _targetTransform;
 
-constexpr void __set__targetTransform(::UnityEngine::Transform value) ;
+constexpr void __set__targetTransform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__targetTransform() const;
+constexpr UnityEngine::Transform __get__targetTransform() const;
 
- ::GlobalNamespace::ObstacleController __declspec(property(get=__get__obstacleController, put=__set__obstacleController))  _obstacleController;
+ GlobalNamespace::ObstacleController __declspec(property(get=__get__obstacleController, put=__set__obstacleController))  _obstacleController;
 
-constexpr void __set__obstacleController(::GlobalNamespace::ObstacleController value) ;
+constexpr void __set__obstacleController(GlobalNamespace::ObstacleController value) ;
 
-constexpr ::GlobalNamespace::ObstacleController __get__obstacleController() const;
+constexpr GlobalNamespace::ObstacleController __get__obstacleController() const;
 
 
 // Methods
@@ -89,10 +88,10 @@ constexpr ::GlobalNamespace::ObstacleController __get__obstacleController() cons
  void UpdateScale(float_t progress) ;
 
 /// @brief Method HandleObstacleControllerDidUpdateProgress addr 0x22461c8 size 0x28 virtual false final false
- void HandleObstacleControllerDidUpdateProgress(::GlobalNamespace::ObstacleController obstacleController, float_t time) ;
+ void HandleObstacleControllerDidUpdateProgress(GlobalNamespace::ObstacleController obstacleController, float_t time) ;
 
 /// @brief Method HandleObstacleControllerDidInit addr 0x22461f0 size 0xd0 virtual false final false
- void HandleObstacleControllerDidInit(::GlobalNamespace::ObstacleControllerBase obstacleController) ;
+ void HandleObstacleControllerDidInit(GlobalNamespace::ObstacleControllerBase obstacleController) ;
 
 // Ctor Parameters []
 explicit ObstacleScaleUp() ;
@@ -104,6 +103,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ObstacleScaleUp);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ObstacleScaleUp, "", "ObstacleScaleUp");
+NEED_NO_BOX(GlobalNamespace::ObstacleScaleUp);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleScaleUp, "", "ObstacleScaleUp");

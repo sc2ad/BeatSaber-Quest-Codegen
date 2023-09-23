@@ -2,15 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
-namespace GlobalNamespace {
-class BeatmapCallbacksController;
-}
 namespace GlobalNamespace {
 class SpawnRotationBeatmapEventData;
 }
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
+}
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,7 +21,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5092))
 // CS Name: RotateBySpawnRotation
-class CORDL_TYPE RotateBySpawnRotation : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE RotateBySpawnRotation : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr RotateBySpawnRotation(RotateBySpawnRotation const& ) noexcept = defaul
 constexpr RotateBySpawnRotation(RotateBySpawnRotation&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RotateBySpawnRotation(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit RotateBySpawnRotation(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -70,17 +69,17 @@ constexpr void __set__smooth(float_t value) ;
 
 constexpr float_t __get__smooth() const;
 
- ::GlobalNamespace::BeatmapCallbacksController __declspec(property(get=__get__beatmapCallbacksController, put=__set__beatmapCallbacksController))  _beatmapCallbacksController;
+ GlobalNamespace::BeatmapCallbacksController __declspec(property(get=__get__beatmapCallbacksController, put=__set__beatmapCallbacksController))  _beatmapCallbacksController;
 
-constexpr void __set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController value) ;
+constexpr void __set__beatmapCallbacksController(GlobalNamespace::BeatmapCallbacksController value) ;
 
-constexpr ::GlobalNamespace::BeatmapCallbacksController __get__beatmapCallbacksController() const;
+constexpr GlobalNamespace::BeatmapCallbacksController __get__beatmapCallbacksController() const;
 
- ::GlobalNamespace::BeatmapDataCallbackWrapper __declspec(property(get=__get__beatmapDataCallbackWrapper, put=__set__beatmapDataCallbackWrapper))  _beatmapDataCallbackWrapper;
+ GlobalNamespace::BeatmapDataCallbackWrapper __declspec(property(get=__get__beatmapDataCallbackWrapper, put=__set__beatmapDataCallbackWrapper))  _beatmapDataCallbackWrapper;
 
-constexpr void __set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper value) ;
+constexpr void __set__beatmapDataCallbackWrapper(GlobalNamespace::BeatmapDataCallbackWrapper value) ;
 
-constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallbackWrapper() const;
+constexpr GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallbackWrapper() const;
 
  float_t __declspec(property(get=__get__currentRotation, put=__set__currentRotation))  _currentRotation;
 
@@ -110,7 +109,7 @@ constexpr float_t __get__targetRotation() const;
  void OnDestroy() ;
 
 /// @brief Method HandleSpawnRotationBeatmapEvent addr 0x226a3f4 size 0x9c virtual false final false
- void HandleSpawnRotationBeatmapEvent(::GlobalNamespace::SpawnRotationBeatmapEventData beatmapEventData) ;
+ void HandleSpawnRotationBeatmapEvent(GlobalNamespace::SpawnRotationBeatmapEventData beatmapEventData) ;
 
 /// @brief Method FixedUpdate addr 0x226a490 size 0x90 virtual false final false
  void FixedUpdate() ;
@@ -128,6 +127,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::RotateBySpawnRotation);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RotateBySpawnRotation, "", "RotateBySpawnRotation");
+NEED_NO_BOX(GlobalNamespace::RotateBySpawnRotation);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RotateBySpawnRotation, "", "RotateBySpawnRotation");

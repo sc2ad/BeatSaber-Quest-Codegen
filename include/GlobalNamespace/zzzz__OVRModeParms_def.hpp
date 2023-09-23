@@ -1,9 +1,8 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRInput__RawButton;
+struct GlobalNamespace__OVRInput__RawButton;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8934))
 // CS Name: OVRModeParms
-class CORDL_TYPE OVRModeParms : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OVRModeParms : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr OVRModeParms(OVRModeParms const& ) noexcept = default;
 constexpr OVRModeParms(OVRModeParms&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OVRModeParms(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OVRModeParms(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit OVRModeParms(void* ptr) noexcept : ::UnityEngine::MonoBehavio
 
 // Fields
 
- ::GlobalNamespace::____GlobalNamespace__OVRInput__RawButton __declspec(property(get=__get_resetButton, put=__set_resetButton))  resetButton;
+ GlobalNamespace::GlobalNamespace__OVRInput__RawButton __declspec(property(get=__get_resetButton, put=__set_resetButton))  resetButton;
 
-constexpr void __set_resetButton(::GlobalNamespace::____GlobalNamespace__OVRInput__RawButton value) ;
+constexpr void __set_resetButton(GlobalNamespace::GlobalNamespace__OVRInput__RawButton value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVRInput__RawButton __get_resetButton() const;
+constexpr GlobalNamespace::GlobalNamespace__OVRInput__RawButton __get_resetButton() const;
 
 
 // Methods
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OVRModeParms);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRModeParms, "", "OVRModeParms");
+NEED_NO_BOX(GlobalNamespace::OVRModeParms);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRModeParms, "", "OVRModeParms");

@@ -4,16 +4,15 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Net::Http::Headers {
-struct Token;
-}
 namespace System {
 class ICloneable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace System::Net::Http::Headers {
+struct Token;
 }
 namespace System::Net::Http::Headers {
 class Lexer;
@@ -31,8 +30,8 @@ namespace System::Net::Http::Headers {
 class CORDL_TYPE NameValueHeaderValue : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::ICloneable
-constexpr operator  ::System::ICloneable() const noexcept;
+/// @brief Convert operator to System::ICloneable
+constexpr operator  System::ICloneable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -95,11 +94,11 @@ explicit NameValueHeaderValue(::StringW name, ::StringW value) ;
 /// @brief Method .ctor addr 0x26a5a80 size 0x3c virtual false final false
  void _ctor(::StringW name, ::StringW value) ;
 
-// Ctor Parameters [CppParam { name: "source", ty: "::System::Net::Http::Headers::NameValueHeaderValue", modifiers: "", def_value: None }]
-explicit NameValueHeaderValue(::System::Net::Http::Headers::NameValueHeaderValue source) ;
+// Ctor Parameters [CppParam { name: "source", ty: "System::Net::Http::Headers::NameValueHeaderValue", modifiers: "", def_value: None }]
+explicit NameValueHeaderValue(System::Net::Http::Headers::NameValueHeaderValue source) ;
 
 /// @brief Method .ctor addr 0x26a5f38 size 0x34 virtual false final false
- void _ctor(::System::Net::Http::Headers::NameValueHeaderValue source) ;
+ void _ctor(System::Net::Http::Headers::NameValueHeaderValue source) ;
 
 // Ctor Parameters []
 explicit NameValueHeaderValue() ;
@@ -120,7 +119,7 @@ explicit NameValueHeaderValue() ;
  void set_Value(::StringW value) ;
 
 /// @brief Method Create addr 0x26a5000 size 0x70 virtual false final false
-static ::System::Net::Http::Headers::NameValueHeaderValue Create(::StringW name, ::StringW value) ;
+static System::Net::Http::Headers::NameValueHeaderValue Create(::StringW name, ::StringW value) ;
 
 /// @brief Method System.ICloneable.Clone addr 0x26ac3e4 size 0x60 virtual true final true
  ::bs_hook::Il2CppWrapperType System_ICloneable_Clone() ;
@@ -132,21 +131,20 @@ static ::System::Net::Http::Headers::NameValueHeaderValue Create(::StringW name,
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method TryParsePragma addr 0x26ac5a0 size 0xb0 virtual false final false
-static bool TryParsePragma(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue>> result) ;
+static bool TryParsePragma(::StringW input, int32_t minimalCount, ByRef<System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue>> result) ;
 
 /// @brief Method TryParseParameters addr 0x26a62d8 size 0x2c0 virtual false final false
-static bool TryParseParameters(::System::Net::Http::Headers::Lexer lexer, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue>> result, ByRef<::System::Net::Http::Headers::Token> t) ;
+static bool TryParseParameters(System::Net::Http::Headers::Lexer lexer, ByRef<System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue>> result, ByRef<System::Net::Http::Headers::Token> t) ;
 
 /// @brief Method ToString addr 0x26ac650 size 0x74 virtual true final false
  ::StringW ToString() ;
 
 /// @brief Method TryParseElement addr 0x26ac6c4 size 0x188 virtual false final false
-static bool TryParseElement(::System::Net::Http::Headers::Lexer lexer, ByRef<::System::Net::Http::Headers::NameValueHeaderValue> parsedValue, ByRef<::System::Net::Http::Headers::Token> t) ;
+static bool TryParseElement(System::Net::Http::Headers::Lexer lexer, ByRef<System::Net::Http::Headers::NameValueHeaderValue> parsedValue, ByRef<System::Net::Http::Headers::Token> t) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Http::Headers
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Http::Headers::NameValueHeaderValue);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::NameValueHeaderValue, "System.Net.Http.Headers", "NameValueHeaderValue");
+NEED_NO_BOX(System::Net::Http::Headers::NameValueHeaderValue);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::NameValueHeaderValue, "System.Net.Http.Headers", "NameValueHeaderValue");

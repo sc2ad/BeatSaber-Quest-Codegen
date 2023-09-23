@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Rendering {
 struct IndexFormat;
@@ -67,14 +66,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field UInt16 offset 0
-static ::UnityEngine::Rendering::IndexFormat const UInt16;
+static UnityEngine::Rendering::IndexFormat const UInt16;
 
 /// @brief Field UInt32 offset 0
-static ::UnityEngine::Rendering::IndexFormat const UInt32;
+static UnityEngine::Rendering::IndexFormat const UInt32;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Rendering
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::IndexFormat, "UnityEngine.Rendering", "IndexFormat");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::IndexFormat, "UnityEngine.Rendering", "IndexFormat");

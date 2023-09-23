@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace UnityEngine::Playables {
 struct FrameData;
 }
@@ -31,33 +30,32 @@ constexpr explicit IPlayableBehaviour(void* ptr) noexcept : ::cordl_internals::I
 // Methods
 
 /// @brief Method OnGraphStart addr 0x0 size 0xffffffffffffffff virtual true final false
- void OnGraphStart(::UnityEngine::Playables::Playable playable) ;
+ void OnGraphStart(UnityEngine::Playables::Playable playable) ;
 
 /// @brief Method OnGraphStop addr 0x0 size 0xffffffffffffffff virtual true final false
- void OnGraphStop(::UnityEngine::Playables::Playable playable) ;
+ void OnGraphStop(UnityEngine::Playables::Playable playable) ;
 
 /// @brief Method OnPlayableCreate addr 0x0 size 0xffffffffffffffff virtual true final false
- void OnPlayableCreate(::UnityEngine::Playables::Playable playable) ;
+ void OnPlayableCreate(UnityEngine::Playables::Playable playable) ;
 
 /// @brief Method OnPlayableDestroy addr 0x0 size 0xffffffffffffffff virtual true final false
- void OnPlayableDestroy(::UnityEngine::Playables::Playable playable) ;
+ void OnPlayableDestroy(UnityEngine::Playables::Playable playable) ;
 
 /// @brief Method OnBehaviourPlay addr 0x0 size 0xffffffffffffffff virtual true final false
- void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info) ;
+ void OnBehaviourPlay(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info) ;
 
 /// @brief Method OnBehaviourPause addr 0x0 size 0xffffffffffffffff virtual true final false
- void OnBehaviourPause(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info) ;
+ void OnBehaviourPause(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info) ;
 
 /// @brief Method PrepareFrame addr 0x0 size 0xffffffffffffffff virtual true final false
- void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info) ;
+ void PrepareFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info) ;
 
 /// @brief Method ProcessFrame addr 0x0 size 0xffffffffffffffff virtual true final false
- void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::bs_hook::Il2CppWrapperType playerData) ;
+ void ProcessFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info, ::bs_hook::Il2CppWrapperType playerData) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Playables
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Playables::IPlayableBehaviour);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Playables::IPlayableBehaviour, "UnityEngine.Playables", "IPlayableBehaviour");
+NEED_NO_BOX(UnityEngine::Playables::IPlayableBehaviour);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::IPlayableBehaviour, "UnityEngine.Playables", "IPlayableBehaviour");

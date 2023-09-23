@@ -2,21 +2,20 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Runtime/Remoting/zzzz__ServerIdentity_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Runtime::Remoting::Messaging {
-class IMessage;
+class IMessageSink;
 }
 namespace System {
 class Type;
 }
-namespace System {
-class MarshalByRefObject;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessageSink;
-}
 namespace System::Runtime::Remoting::Messaging {
 class IMessageCtrl;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
+}
+namespace System {
+class MarshalByRefObject;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {
@@ -28,7 +27,7 @@ namespace System::Runtime::Remoting {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3068))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3069))
 // CS Name: System.Runtime.Remoting.ClientActivatedIdentity
-class CORDL_TYPE ClientActivatedIdentity : public ::System::Runtime::Remoting::ServerIdentity {
+class CORDL_TYPE ClientActivatedIdentity : public System::Runtime::Remoting::ServerIdentity {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -43,7 +42,7 @@ constexpr ClientActivatedIdentity(ClientActivatedIdentity const& ) noexcept = de
 constexpr ClientActivatedIdentity(ClientActivatedIdentity&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ClientActivatedIdentity(void* ptr) noexcept : ::System::Runtime::Remoting::ServerIdentity(ptr) {
+constexpr explicit ClientActivatedIdentity(void* ptr) noexcept : System::Runtime::Remoting::ServerIdentity(ptr) {
 }
 
 
@@ -64,40 +63,39 @@ constexpr explicit ClientActivatedIdentity(void* ptr) noexcept : ::System::Runti
 
 // Fields
 
- ::System::MarshalByRefObject __declspec(property(get=__get__targetThis, put=__set__targetThis))  _targetThis;
+ System::MarshalByRefObject __declspec(property(get=__get__targetThis, put=__set__targetThis))  _targetThis;
 
-constexpr void __set__targetThis(::System::MarshalByRefObject value) ;
+constexpr void __set__targetThis(System::MarshalByRefObject value) ;
 
-constexpr ::System::MarshalByRefObject __get__targetThis() const;
+constexpr System::MarshalByRefObject __get__targetThis() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "objectUri", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "objectType", ty: "::System::Type", modifiers: "", def_value: None }]
-explicit ClientActivatedIdentity(::StringW objectUri, ::System::Type objectType) ;
+// Ctor Parameters [CppParam { name: "objectUri", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "objectType", ty: "System::Type", modifiers: "", def_value: None }]
+explicit ClientActivatedIdentity(::StringW objectUri, System::Type objectType) ;
 
 /// @brief Method .ctor addr 0x2327524 size 0x2c virtual false final false
- void _ctor(::StringW objectUri, ::System::Type objectType) ;
+ void _ctor(::StringW objectUri, System::Type objectType) ;
 
 /// @brief Method GetServerObject addr 0x2327550 size 0x8 virtual false final false
- ::System::MarshalByRefObject GetServerObject() ;
+ System::MarshalByRefObject GetServerObject() ;
 
 /// @brief Method SetClientProxy addr 0x2327558 size 0x8 virtual false final false
- void SetClientProxy(::System::MarshalByRefObject obj) ;
+ void SetClientProxy(System::MarshalByRefObject obj) ;
 
 /// @brief Method OnLifetimeExpired addr 0x2327560 size 0x60 virtual true final false
  void OnLifetimeExpired() ;
 
 /// @brief Method SyncObjectProcessMessage addr 0x23275c0 size 0xdc virtual true final false
- ::System::Runtime::Remoting::Messaging::IMessage SyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage msg) ;
+ System::Runtime::Remoting::Messaging::IMessage SyncObjectProcessMessage(System::Runtime::Remoting::Messaging::IMessage msg) ;
 
 /// @brief Method AsyncObjectProcessMessage addr 0x2327854 size 0xf0 virtual true final false
- ::System::Runtime::Remoting::Messaging::IMessageCtrl AsyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage msg, ::System::Runtime::Remoting::Messaging::IMessageSink replySink) ;
+ System::Runtime::Remoting::Messaging::IMessageCtrl AsyncObjectProcessMessage(System::Runtime::Remoting::Messaging::IMessage msg, System::Runtime::Remoting::Messaging::IMessageSink replySink) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::ClientActivatedIdentity);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::ClientActivatedIdentity, "System.Runtime.Remoting", "ClientActivatedIdentity");
+NEED_NO_BOX(System::Runtime::Remoting::ClientActivatedIdentity);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ClientActivatedIdentity, "System.Runtime.Remoting", "ClientActivatedIdentity");

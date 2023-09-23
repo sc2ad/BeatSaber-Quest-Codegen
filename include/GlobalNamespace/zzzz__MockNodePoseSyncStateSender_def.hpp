@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace GlobalNamespace {
 class NodePoseSyncStateNetSerializable;
 }
@@ -12,10 +11,10 @@ namespace System {
 class IDisposable;
 }
 namespace GlobalNamespace {
-struct PoseSerializable;
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+struct PoseSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,8 +29,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE MockNodePoseSyncStateSender : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -66,34 +65,33 @@ constexpr explicit MockNodePoseSyncStateSender(void* ptr) noexcept : ::bs_hook::
 
 // Fields
 
- ::GlobalNamespace::IMultiplayerSessionManager __declspec(property(get=__get__multiplayerSessionManager, put=__set__multiplayerSessionManager))  _multiplayerSessionManager;
+ GlobalNamespace::IMultiplayerSessionManager __declspec(property(get=__get__multiplayerSessionManager, put=__set__multiplayerSessionManager))  _multiplayerSessionManager;
 
-constexpr void __set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager value) ;
+constexpr void __set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager value) ;
 
-constexpr ::GlobalNamespace::IMultiplayerSessionManager __get__multiplayerSessionManager() const;
+constexpr GlobalNamespace::IMultiplayerSessionManager __get__multiplayerSessionManager() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "msm", ty: "::GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }]
-explicit MockNodePoseSyncStateSender(::GlobalNamespace::IMultiplayerSessionManager msm) ;
+// Ctor Parameters [CppParam { name: "msm", ty: "GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }]
+explicit MockNodePoseSyncStateSender(GlobalNamespace::IMultiplayerSessionManager msm) ;
 
 /// @brief Method .ctor addr 0x22791cc size 0x17c virtual false final false
- void _ctor(::GlobalNamespace::IMultiplayerSessionManager msm) ;
+ void _ctor(GlobalNamespace::IMultiplayerSessionManager msm) ;
 
 /// @brief Method Dispose addr 0x2279348 size 0xc8 virtual true final true
  void Dispose() ;
 
 /// @brief Method SendPose addr 0x2279410 size 0x230 virtual false final false
- void SendPose(::GlobalNamespace::PoseSerializable headPose, ::GlobalNamespace::PoseSerializable leftHandPose, ::GlobalNamespace::PoseSerializable rightHandPose) ;
+ void SendPose(GlobalNamespace::PoseSerializable headPose, GlobalNamespace::PoseSerializable leftHandPose, GlobalNamespace::PoseSerializable rightHandPose) ;
 
 /// @brief Method HandleNodePoseSyncStateUpdate addr 0x2279640 size 0x4 virtual false final false
- void HandleNodePoseSyncStateUpdate(::GlobalNamespace::NodePoseSyncStateNetSerializable nodePose, ::GlobalNamespace::IConnectedPlayer connectedPlayer) ;
+ void HandleNodePoseSyncStateUpdate(GlobalNamespace::NodePoseSyncStateNetSerializable nodePose, GlobalNamespace::IConnectedPlayer connectedPlayer) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MockNodePoseSyncStateSender);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MockNodePoseSyncStateSender, "", "MockNodePoseSyncStateSender");
+NEED_NO_BOX(GlobalNamespace::MockNodePoseSyncStateSender);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockNodePoseSyncStateSender, "", "MockNodePoseSyncStateSender");

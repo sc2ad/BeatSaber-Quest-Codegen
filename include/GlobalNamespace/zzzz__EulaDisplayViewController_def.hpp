@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
-namespace {
-namespace HMUI {
-class TextPageScrollView;
-}
 namespace GlobalNamespace {
 class LocalizedTextAsset;
+}
+namespace HMUI {
+class TextPageScrollView;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13656))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5723))
 // CS Name: EulaDisplayViewController
-class CORDL_TYPE EulaDisplayViewController : public ::HMUI::ViewController {
+class CORDL_TYPE EulaDisplayViewController : public HMUI::ViewController {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr EulaDisplayViewController(EulaDisplayViewController const& ) noexcept 
 constexpr EulaDisplayViewController(EulaDisplayViewController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EulaDisplayViewController(void* ptr) noexcept : ::HMUI::ViewController(ptr) {
+constexpr explicit EulaDisplayViewController(void* ptr) noexcept : HMUI::ViewController(ptr) {
 }
 
 
@@ -54,17 +53,17 @@ constexpr explicit EulaDisplayViewController(void* ptr) noexcept : ::HMUI::ViewC
 
 // Fields
 
- ::HMUI::TextPageScrollView __declspec(property(get=__get__textPageScrollView, put=__set__textPageScrollView))  _textPageScrollView;
+ HMUI::TextPageScrollView __declspec(property(get=__get__textPageScrollView, put=__set__textPageScrollView))  _textPageScrollView;
 
-constexpr void __set__textPageScrollView(::HMUI::TextPageScrollView value) ;
+constexpr void __set__textPageScrollView(HMUI::TextPageScrollView value) ;
 
-constexpr ::HMUI::TextPageScrollView __get__textPageScrollView() const;
+constexpr HMUI::TextPageScrollView __get__textPageScrollView() const;
 
- ::GlobalNamespace::LocalizedTextAsset __declspec(property(get=__get__localizedTextAsset, put=__set__localizedTextAsset))  _localizedTextAsset;
+ GlobalNamespace::LocalizedTextAsset __declspec(property(get=__get__localizedTextAsset, put=__set__localizedTextAsset))  _localizedTextAsset;
 
-constexpr void __set__localizedTextAsset(::GlobalNamespace::LocalizedTextAsset value) ;
+constexpr void __set__localizedTextAsset(GlobalNamespace::LocalizedTextAsset value) ;
 
-constexpr ::GlobalNamespace::LocalizedTextAsset __get__localizedTextAsset() const;
+constexpr GlobalNamespace::LocalizedTextAsset __get__localizedTextAsset() const;
 
 
 // Methods
@@ -82,6 +81,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::EulaDisplayViewController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EulaDisplayViewController, "", "EulaDisplayViewController");
+NEED_NO_BOX(GlobalNamespace::EulaDisplayViewController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EulaDisplayViewController, "", "EulaDisplayViewController");

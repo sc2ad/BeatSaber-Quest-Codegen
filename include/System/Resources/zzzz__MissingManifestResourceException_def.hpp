@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__SystemException_def.hpp"
-namespace {
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
@@ -18,7 +17,7 @@ namespace System::Resources {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2480))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3418))
 // CS Name: System.Resources.MissingManifestResourceException
-class CORDL_TYPE MissingManifestResourceException : public ::System::SystemException {
+class CORDL_TYPE MissingManifestResourceException : public System::SystemException {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr MissingManifestResourceException(MissingManifestResourceException cons
 constexpr MissingManifestResourceException(MissingManifestResourceException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MissingManifestResourceException(void* ptr) noexcept : ::System::SystemException(ptr) {
+constexpr explicit MissingManifestResourceException(void* ptr) noexcept : System::SystemException(ptr) {
 }
 
 
@@ -60,16 +59,15 @@ explicit MissingManifestResourceException() ;
 /// @brief Method .ctor addr 0x2370ca4 size 0x5c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit MissingManifestResourceException(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit MissingManifestResourceException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x2370d00 size 0x8 virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Resources
-} // end anonymous namespace
-NEED_NO_BOX(::System::Resources::MissingManifestResourceException);
-DEFINE_IL2CPP_ARG_TYPE(::System::Resources::MissingManifestResourceException, "System.Resources", "MissingManifestResourceException");
+NEED_NO_BOX(System::Resources::MissingManifestResourceException);
+DEFINE_IL2CPP_ARG_TYPE(System::Resources::MissingManifestResourceException, "System.Resources", "MissingManifestResourceException");

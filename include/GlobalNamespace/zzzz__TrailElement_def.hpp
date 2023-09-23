@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -52,17 +51,17 @@ constexpr explicit TrailElement(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 
 // Fields
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_position, put=__set_position))  position;
+ UnityEngine::Vector3 __declspec(property(get=__get_position, put=__set_position))  position;
 
-constexpr void __set_position(::UnityEngine::Vector3 value) ;
+constexpr void __set_position(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_position() const;
+constexpr UnityEngine::Vector3 __get_position() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_normal, put=__set_normal))  normal;
+ UnityEngine::Vector3 __declspec(property(get=__get_normal, put=__set_normal))  normal;
 
-constexpr void __set_normal(::UnityEngine::Vector3 value) ;
+constexpr void __set_normal(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_normal() const;
+constexpr UnityEngine::Vector3 __get_normal() const;
 
  float_t __declspec(property(get=__get_distance, put=__set_distance))  distance;
 
@@ -86,16 +85,16 @@ constexpr float_t __get_time() const;
 // Methods
 
 /// @brief Method SetData addr 0x2257684 size 0x40 virtual false final false
- void SetData(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, float_t time) ;
+ void SetData(UnityEngine::Vector3 start, UnityEngine::Vector3 end, float_t time) ;
 
 /// @brief Method CopyFrom addr 0x22576c4 size 0x40 virtual false final false
- void CopyFrom(::GlobalNamespace::TrailElement other) ;
+ void CopyFrom(GlobalNamespace::TrailElement other) ;
 
 /// @brief Method SetDistance addr 0x2257704 size 0x8 virtual false final false
  void SetDistance(float_t value) ;
 
 /// @brief Method UpdateLocalDistance addr 0x225770c size 0xa8 virtual false final false
- void UpdateLocalDistance(::GlobalNamespace::TrailElement prev) ;
+ void UpdateLocalDistance(GlobalNamespace::TrailElement prev) ;
 
 // Ctor Parameters []
 explicit TrailElement() ;
@@ -107,6 +106,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::TrailElement);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TrailElement, "", "TrailElement");
+NEED_NO_BOX(GlobalNamespace::TrailElement);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrailElement, "", "TrailElement");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 struct NodeStatePropertyType;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Acceleration offset 0
-static ::GlobalNamespace::NodeStatePropertyType const Acceleration;
+static GlobalNamespace::NodeStatePropertyType const Acceleration;
 
 /// @brief Field AngularAcceleration offset 0
-static ::GlobalNamespace::NodeStatePropertyType const AngularAcceleration;
+static GlobalNamespace::NodeStatePropertyType const AngularAcceleration;
 
 /// @brief Field Velocity offset 0
-static ::GlobalNamespace::NodeStatePropertyType const Velocity;
+static GlobalNamespace::NodeStatePropertyType const Velocity;
 
 /// @brief Field AngularVelocity offset 0
-static ::GlobalNamespace::NodeStatePropertyType const AngularVelocity;
+static GlobalNamespace::NodeStatePropertyType const AngularVelocity;
 
 /// @brief Field Position offset 0
-static ::GlobalNamespace::NodeStatePropertyType const Position;
+static GlobalNamespace::NodeStatePropertyType const Position;
 
 /// @brief Field Orientation offset 0
-static ::GlobalNamespace::NodeStatePropertyType const Orientation;
+static GlobalNamespace::NodeStatePropertyType const Orientation;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NodeStatePropertyType, "", "NodeStatePropertyType");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NodeStatePropertyType, "", "NodeStatePropertyType");

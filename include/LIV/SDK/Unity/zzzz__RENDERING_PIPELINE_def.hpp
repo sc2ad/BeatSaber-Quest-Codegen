@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace LIV::SDK::Unity {
 struct RENDERING_PIPELINE;
@@ -71,26 +70,25 @@ constexpr void __set_value__(uint32_t value) ;
 constexpr uint32_t __get_value__() const;
 
 /// @brief Field UNDEFINED offset 0
-static ::LIV::SDK::Unity::RENDERING_PIPELINE const UNDEFINED;
+static LIV::SDK::Unity::RENDERING_PIPELINE const UNDEFINED;
 
 /// @brief Field FORWARD offset 0
-static ::LIV::SDK::Unity::RENDERING_PIPELINE const FORWARD;
+static LIV::SDK::Unity::RENDERING_PIPELINE const FORWARD;
 
 /// @brief Field DEFERRED offset 0
-static ::LIV::SDK::Unity::RENDERING_PIPELINE const DEFERRED;
+static LIV::SDK::Unity::RENDERING_PIPELINE const DEFERRED;
 
 /// @brief Field VERTEX_LIT offset 0
-static ::LIV::SDK::Unity::RENDERING_PIPELINE const VERTEX_LIT;
+static LIV::SDK::Unity::RENDERING_PIPELINE const VERTEX_LIT;
 
 /// @brief Field UNIVERSAL offset 0
-static ::LIV::SDK::Unity::RENDERING_PIPELINE const UNIVERSAL;
+static LIV::SDK::Unity::RENDERING_PIPELINE const UNIVERSAL;
 
 /// @brief Field HIGH_DEFINITION offset 0
-static ::LIV::SDK::Unity::RENDERING_PIPELINE const HIGH_DEFINITION;
+static LIV::SDK::Unity::RENDERING_PIPELINE const HIGH_DEFINITION;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def LIV::SDK::Unity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::RENDERING_PIPELINE, "LIV.SDK.Unity", "RENDERING_PIPELINE");
+DEFINE_IL2CPP_ARG_TYPE(LIV::SDK::Unity::RENDERING_PIPELINE, "LIV.SDK.Unity", "RENDERING_PIPELINE");

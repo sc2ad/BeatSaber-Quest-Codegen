@@ -1,6 +1,5 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
 // Forward declare root types
 namespace Zenject {
 template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TParam6,typename TParam7,typename TParam8>
@@ -36,5 +35,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::IPoolable_8, "Zenject", "IPoolable`8");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::IPoolable_8, "Zenject", "IPoolable`8");

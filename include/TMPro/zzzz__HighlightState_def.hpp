@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace TMPro {
 struct TMP_Offset;
 }
@@ -23,8 +22,8 @@ namespace TMPro {
 struct CORDL_TYPE HighlightState : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "color", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "padding", ty: "::TMPro::TMP_Offset", modifiers: "", def_value: None }]
-constexpr HighlightState(::UnityEngine::Color32 color, ::TMPro::TMP_Offset padding) noexcept;
+// Ctor Parameters [CppParam { name: "color", ty: "UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "padding", ty: "TMPro::TMP_Offset", modifiers: "", def_value: None }]
+constexpr HighlightState(UnityEngine::Color32 color, TMPro::TMP_Offset padding) noexcept;
 
 
                     constexpr HighlightState(HighlightState const&) = default;
@@ -57,29 +56,29 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Color32 __declspec(property(get=__get_color, put=__set_color))  color;
+ UnityEngine::Color32 __declspec(property(get=__get_color, put=__set_color))  color;
 
-constexpr void __set_color(::UnityEngine::Color32 value) ;
+constexpr void __set_color(UnityEngine::Color32 value) ;
 
-constexpr ::UnityEngine::Color32 __get_color() const;
+constexpr UnityEngine::Color32 __get_color() const;
 
- ::TMPro::TMP_Offset __declspec(property(get=__get_padding, put=__set_padding))  padding;
+ TMPro::TMP_Offset __declspec(property(get=__get_padding, put=__set_padding))  padding;
 
-constexpr void __set_padding(::TMPro::TMP_Offset value) ;
+constexpr void __set_padding(TMPro::TMP_Offset value) ;
 
-constexpr ::TMPro::TMP_Offset __get_padding() const;
+constexpr TMPro::TMP_Offset __get_padding() const;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x2a6a28c size 0x10 virtual false final false
- void _ctor(::UnityEngine::Color32 color, ::TMPro::TMP_Offset padding) ;
+ void _ctor(UnityEngine::Color32 color, TMPro::TMP_Offset padding) ;
 
 /// @brief Method op_Equality addr 0x2a6a29c size 0xc8 virtual false final false
-static bool op_Equality(::TMPro::HighlightState lhs, ::TMPro::HighlightState rhs) ;
+static bool op_Equality(TMPro::HighlightState lhs, TMPro::HighlightState rhs) ;
 
 /// @brief Method op_Inequality addr 0x2a6a364 size 0x48 virtual false final false
-static bool op_Inequality(::TMPro::HighlightState lhs, ::TMPro::HighlightState rhs) ;
+static bool op_Inequality(TMPro::HighlightState lhs, TMPro::HighlightState rhs) ;
 
 /// @brief Method GetHashCode addr 0x2a6a3ac size 0x6c virtual true final false
  int32_t GetHashCode() ;
@@ -88,11 +87,10 @@ static bool op_Inequality(::TMPro::HighlightState lhs, ::TMPro::HighlightState r
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x2a6a498 size 0xa4 virtual false final false
- bool Equals(::TMPro::HighlightState other) ;
+ bool Equals(TMPro::HighlightState other) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::HighlightState, "TMPro", "HighlightState");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::HighlightState, "TMPro", "HighlightState");

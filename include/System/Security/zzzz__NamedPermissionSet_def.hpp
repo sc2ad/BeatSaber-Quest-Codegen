@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Security {
 class SecurityElement;
 }
@@ -21,7 +20,7 @@ namespace System::Security {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2880))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2879))
 // CS Name: System.Security.NamedPermissionSet
-class CORDL_TYPE NamedPermissionSet : public ::System::Security::PermissionSet {
+class CORDL_TYPE NamedPermissionSet : public System::Security::PermissionSet {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr NamedPermissionSet(NamedPermissionSet const& ) noexcept = default;
 constexpr NamedPermissionSet(NamedPermissionSet&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NamedPermissionSet(void* ptr) noexcept : ::System::Security::PermissionSet(ptr) {
+constexpr explicit NamedPermissionSet(void* ptr) noexcept : System::Security::PermissionSet(ptr) {
 }
 
 
@@ -83,11 +82,11 @@ explicit NamedPermissionSet() ;
 /// @brief Method .ctor addr 0x22e53fc size 0x54 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "state", ty: "::System::Security::Permissions::PermissionState", modifiers: "", def_value: None }]
-explicit NamedPermissionSet(::StringW name, ::System::Security::Permissions::PermissionState state) ;
+// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "state", ty: "System::Security::Permissions::PermissionState", modifiers: "", def_value: None }]
+explicit NamedPermissionSet(::StringW name, System::Security::Permissions::PermissionState state) ;
 
 /// @brief Method .ctor addr 0x22e54bc size 0x80 virtual false final false
- void _ctor(::StringW name, ::System::Security::Permissions::PermissionState state) ;
+ void _ctor(::StringW name, System::Security::Permissions::PermissionState state) ;
 
 // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
 explicit NamedPermissionSet(::StringW name) ;
@@ -102,7 +101,7 @@ explicit NamedPermissionSet(::StringW name) ;
  void set_Name(::StringW value) ;
 
 /// @brief Method ToXml addr 0x22e563c size 0x98 virtual true final false
- ::System::Security::SecurityElement ToXml() ;
+ System::Security::SecurityElement ToXml() ;
 
 /// @brief Method Equals addr 0x22e5b30 size 0x90 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -114,6 +113,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::NamedPermissionSet);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::NamedPermissionSet, "System.Security", "NamedPermissionSet");
+NEED_NO_BOX(System::Security::NamedPermissionSet);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::NamedPermissionSet, "System.Security", "NamedPermissionSet");

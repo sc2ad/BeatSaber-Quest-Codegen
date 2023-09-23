@@ -3,12 +3,11 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-class AsyncCallback;
-}
 namespace System {
 class IAsyncResult;
+}
+namespace System {
+class AsyncCallback;
 }
 // Forward declare root types
 namespace Zenject {
@@ -20,7 +19,7 @@ namespace Zenject {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15657))
 // CS Name: Zenject.ZenMemberSetterMethod
-class CORDL_TYPE ZenMemberSetterMethod : public ::System::MulticastDelegate {
+class CORDL_TYPE ZenMemberSetterMethod : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr ZenMemberSetterMethod(ZenMemberSetterMethod const& ) noexcept = defaul
 constexpr ZenMemberSetterMethod(ZenMemberSetterMethod&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ZenMemberSetterMethod(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit ZenMemberSetterMethod(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -66,15 +65,14 @@ explicit ZenMemberSetterMethod(::bs_hook::Il2CppWrapperType object, ::cordl_inte
  void Invoke(::bs_hook::Il2CppWrapperType obj, ::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method BeginInvoke addr 0x2d40768 size 0x28 virtual true final false
- ::System::IAsyncResult BeginInvoke(::bs_hook::Il2CppWrapperType obj, ::bs_hook::Il2CppWrapperType value, ::System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
+ System::IAsyncResult BeginInvoke(::bs_hook::Il2CppWrapperType obj, ::bs_hook::Il2CppWrapperType value, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
 
 /// @brief Method EndInvoke addr 0x2d40790 size 0xc virtual true final false
- void EndInvoke(::System::IAsyncResult result) ;
+ void EndInvoke(System::IAsyncResult result) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::ZenMemberSetterMethod);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::ZenMemberSetterMethod, "Zenject", "ZenMemberSetterMethod");
+NEED_NO_BOX(Zenject::ZenMemberSetterMethod);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenMemberSetterMethod, "Zenject", "ZenMemberSetterMethod");

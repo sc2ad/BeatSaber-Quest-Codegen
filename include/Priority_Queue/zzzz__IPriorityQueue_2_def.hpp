@@ -1,13 +1,12 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
-namespace {
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace Priority_Queue {
@@ -25,11 +24,11 @@ template<typename TItem,typename TPriority>
 class CORDL_TYPE IPriorityQueue_2 : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerable_1<TItem>
-constexpr operator  ::System::Collections::Generic::IEnumerable_1<TItem>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerable_1<TItem>
+constexpr operator  System::Collections::Generic::IEnumerable_1<TItem>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
 ~IPriorityQueue_2() = default;
 
@@ -75,5 +74,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Priority_Queue
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Priority_Queue::IPriorityQueue_2, "Priority_Queue", "IPriorityQueue`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Priority_Queue::IPriorityQueue_2, "Priority_Queue", "IPriorityQueue`2");

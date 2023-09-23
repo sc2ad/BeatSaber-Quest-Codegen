@@ -3,7 +3,6 @@
 #include "System/Text/zzzz__EncoderFallback_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Text {
 class EncoderFallbackBuffer;
 }
@@ -17,7 +16,7 @@ namespace System::Text {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2840))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2837))
 // CS Name: System.Text.EncoderExceptionFallback
-class CORDL_TYPE EncoderExceptionFallback : public ::System::Text::EncoderFallback {
+class CORDL_TYPE EncoderExceptionFallback : public System::Text::EncoderFallback {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr EncoderExceptionFallback(EncoderExceptionFallback const& ) noexcept = 
 constexpr EncoderExceptionFallback(EncoderExceptionFallback&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EncoderExceptionFallback(void* ptr) noexcept : ::System::Text::EncoderFallback(ptr) {
+constexpr explicit EncoderExceptionFallback(void* ptr) noexcept : System::Text::EncoderFallback(ptr) {
 }
 
 
@@ -65,7 +64,7 @@ explicit EncoderExceptionFallback() ;
  void _ctor() ;
 
 /// @brief Method CreateFallbackBuffer addr 0x24c5530 size 0x5c virtual true final false
- ::System::Text::EncoderFallbackBuffer CreateFallbackBuffer() ;
+ System::Text::EncoderFallbackBuffer CreateFallbackBuffer() ;
 
 /// @brief Method get_MaxCharCount addr 0x24c5594 size 0x8 virtual true final false
  int32_t get_MaxCharCount() ;
@@ -80,6 +79,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Text
-} // end anonymous namespace
-NEED_NO_BOX(::System::Text::EncoderExceptionFallback);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::EncoderExceptionFallback, "System.Text", "EncoderExceptionFallback");
+NEED_NO_BOX(System::Text::EncoderExceptionFallback);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::EncoderExceptionFallback, "System.Text", "EncoderExceptionFallback");

@@ -3,22 +3,21 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
-namespace GlobalNamespace {
-class IAudioTimeSource;
-}
 namespace GlobalNamespace {
 class FloatSO;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
 }
+namespace GlobalNamespace {
+class IAudioTimeSource;
+}
 // Forward declare root types
 namespace GlobalNamespace {
-class MultiplayerConnectedPlayerSongTimeSyncController;
+class GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData;
+class MultiplayerConnectedPlayerSongTimeSyncController;
 }
 // Type: ::InitData
 namespace GlobalNamespace {
@@ -26,37 +25,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5227))
 // CS Name: MultiplayerConnectedPlayerSongTimeSyncController::InitData
-class CORDL_TYPE ____GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData() = default;
+virtual ~GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData(____GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData(GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData(____GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData(GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData& operator=(____GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData&& o) noexcept = default;
-  constexpr ____GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData& operator=(____GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData const& o) noexcept = default;
+  constexpr GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData& operator=(GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData&& o) noexcept = default;
+  constexpr GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData& operator=(GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData const& o) noexcept = default;
                 
 
 
@@ -84,7 +83,7 @@ constexpr float_t __get_timeScale() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "startSongTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "songTimeOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "timeScale", ty: "float_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData(float_t startSongTime, float_t songTimeOffset, float_t timeScale) ;
+explicit GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData(float_t startSongTime, float_t songTimeOffset, float_t timeScale) ;
 
 /// @brief Method .ctor addr 0x20e0e40 size 0x3c virtual false final false
  void _ctor(float_t startSongTime, float_t songTimeOffset, float_t timeScale) ;
@@ -99,13 +98,13 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5228))
 // CS Name: MultiplayerConnectedPlayerSongTimeSyncController
-class CORDL_TYPE MultiplayerConnectedPlayerSongTimeSyncController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerConnectedPlayerSongTimeSyncController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using InitData = ::GlobalNamespace::____GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData;
+using InitData = GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData;
 
-/// @brief Convert operator to ::GlobalNamespace::IAudioTimeSource
-constexpr operator  ::GlobalNamespace::IAudioTimeSource() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IAudioTimeSource
+constexpr operator  GlobalNamespace::IAudioTimeSource() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x58};
@@ -119,7 +118,7 @@ constexpr MultiplayerConnectedPlayerSongTimeSyncController(MultiplayerConnectedP
 constexpr MultiplayerConnectedPlayerSongTimeSyncController(MultiplayerConnectedPlayerSongTimeSyncController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerConnectedPlayerSongTimeSyncController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerConnectedPlayerSongTimeSyncController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -164,23 +163,23 @@ constexpr void __set__stopSyncDeltaTime(float_t value) ;
 
 constexpr float_t __get__stopSyncDeltaTime() const;
 
- ::GlobalNamespace::FloatSO __declspec(property(get=__get__audioLatency, put=__set__audioLatency))  _audioLatency;
+ GlobalNamespace::FloatSO __declspec(property(get=__get__audioLatency, put=__set__audioLatency))  _audioLatency;
 
-constexpr void __set__audioLatency(::GlobalNamespace::FloatSO value) ;
+constexpr void __set__audioLatency(GlobalNamespace::FloatSO value) ;
 
-constexpr ::GlobalNamespace::FloatSO __get__audioLatency() const;
+constexpr GlobalNamespace::FloatSO __get__audioLatency() const;
 
- ::GlobalNamespace::____GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData __declspec(property(get=__get__initData, put=__set__initData))  _initData;
+ GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData __declspec(property(get=__get__initData, put=__set__initData))  _initData;
 
-constexpr void __set__initData(::GlobalNamespace::____GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData value) ;
+constexpr void __set__initData(GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData __get__initData() const;
+constexpr GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData __get__initData() const;
 
- ::GlobalNamespace::IConnectedPlayer __declspec(property(get=__get__connectedPlayer, put=__set__connectedPlayer))  _connectedPlayer;
+ GlobalNamespace::IConnectedPlayer __declspec(property(get=__get__connectedPlayer, put=__set__connectedPlayer))  _connectedPlayer;
 
-constexpr void __set__connectedPlayer(::GlobalNamespace::IConnectedPlayer value) ;
+constexpr void __set__connectedPlayer(GlobalNamespace::IConnectedPlayer value) ;
 
-constexpr ::GlobalNamespace::IConnectedPlayer __get__connectedPlayer() const;
+constexpr GlobalNamespace::IConnectedPlayer __get__connectedPlayer() const;
 
  float_t __declspec(property(get=__get__songTime_k__BackingField, put=__set__songTime_k__BackingField))  _songTime_k__BackingField;
 
@@ -280,8 +279,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController, "", "MultiplayerConnectedPlayerSongTimeSyncController");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData, "", "MultiplayerConnectedPlayerSongTimeSyncController/InitData");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData, "", "MultiplayerConnectedPlayerSongTimeSyncController/InitData");
+NEED_NO_BOX(GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController, "", "MultiplayerConnectedPlayerSongTimeSyncController");

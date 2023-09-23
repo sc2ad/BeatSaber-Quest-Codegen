@@ -3,27 +3,26 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
-namespace System::IO {
-class Stream;
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DHPublicKeyParameters;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class SubjectPublicKeyInfo;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Security {
@@ -78,27 +77,26 @@ explicit PublicKeyFactory() ;
  void _ctor() ;
 
 /// @brief Method CreateKey addr 0x10b3438 size 0x1c virtual false final false
-static ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter CreateKey(::ArrayW<uint8_t> keyInfoData) ;
+static Org::BouncyCastle::Crypto::AsymmetricKeyParameter CreateKey(::ArrayW<uint8_t> keyInfoData) ;
 
 /// @brief Method CreateKey addr 0x10b49d8 size 0x1c virtual false final false
-static ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter CreateKey(::System::IO::Stream inStr) ;
+static Org::BouncyCastle::Crypto::AsymmetricKeyParameter CreateKey(System::IO::Stream inStr) ;
 
 /// @brief Method CreateKey addr 0x10b3454 size 0x1584 virtual false final false
-static ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter CreateKey(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo keyInfo) ;
+static Org::BouncyCastle::Crypto::AsymmetricKeyParameter CreateKey(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo keyInfo) ;
 
 /// @brief Method GetRawKey addr 0x10b4c6c size 0x84 virtual false final false
-static ::ArrayW<uint8_t> GetRawKey(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo keyInfo, int32_t expectedSize) ;
+static ::ArrayW<uint8_t> GetRawKey(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo keyInfo, int32_t expectedSize) ;
 
 /// @brief Method IsPkcsDHParam addr 0x10b49f4 size 0x140 virtual false final false
-static bool IsPkcsDHParam(::Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static bool IsPkcsDHParam(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method ReadPkcsDHParam addr 0x10b4b34 size 0x138 virtual false final false
-static ::Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters ReadPkcsDHParam(::Org::BouncyCastle::Asn1::DerObjectIdentifier algOid, ::Org::BouncyCastle::Math::BigInteger y, ::Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters ReadPkcsDHParam(Org::BouncyCastle::Asn1::DerObjectIdentifier algOid, Org::BouncyCastle::Math::BigInteger y, Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Security
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Security::PublicKeyFactory);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Security::PublicKeyFactory, "Org.BouncyCastle.Security", "PublicKeyFactory");
+NEED_NO_BOX(Org::BouncyCastle::Security::PublicKeyFactory);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::PublicKeyFactory, "Org.BouncyCastle.Security", "PublicKeyFactory");

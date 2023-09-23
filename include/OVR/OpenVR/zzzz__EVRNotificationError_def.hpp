@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct EVRNotificationError;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field OK offset 0
-static ::OVR::OpenVR::EVRNotificationError const OK;
+static OVR::OpenVR::EVRNotificationError const OK;
 
 /// @brief Field InvalidNotificationId offset 0
-static ::OVR::OpenVR::EVRNotificationError const InvalidNotificationId;
+static OVR::OpenVR::EVRNotificationError const InvalidNotificationId;
 
 /// @brief Field NotificationQueueFull offset 0
-static ::OVR::OpenVR::EVRNotificationError const NotificationQueueFull;
+static OVR::OpenVR::EVRNotificationError const NotificationQueueFull;
 
 /// @brief Field InvalidOverlayHandle offset 0
-static ::OVR::OpenVR::EVRNotificationError const InvalidOverlayHandle;
+static OVR::OpenVR::EVRNotificationError const InvalidOverlayHandle;
 
 /// @brief Field SystemWithUserValueAlreadyExists offset 0
-static ::OVR::OpenVR::EVRNotificationError const SystemWithUserValueAlreadyExists;
+static OVR::OpenVR::EVRNotificationError const SystemWithUserValueAlreadyExists;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRNotificationError, "OVR.OpenVR", "EVRNotificationError");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRNotificationError, "OVR.OpenVR", "EVRNotificationError");

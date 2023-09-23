@@ -3,25 +3,24 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace GlobalNamespace {
+class MultiplayerSpectatingSpotManager;
+}
 namespace GlobalNamespace {
 class MultiplayerActivePlayersTimeOffsetAverage;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace GlobalNamespace {
 class IMultiplayerSpectatingSpot;
 }
 namespace GlobalNamespace {
 class IMultiplayerObservable;
-}
-namespace GlobalNamespace {
-class MultiplayerSpectatingSpotManager;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace UnityEngine {
-class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -33,11 +32,11 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5350))
 // CS Name: MultiplayerEnvironmentSpectatingSpot
-class CORDL_TYPE MultiplayerEnvironmentSpectatingSpot : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerEnvironmentSpectatingSpot : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IMultiplayerSpectatingSpot
-constexpr operator  ::GlobalNamespace::IMultiplayerSpectatingSpot() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IMultiplayerSpectatingSpot
+constexpr operator  GlobalNamespace::IMultiplayerSpectatingSpot() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -51,7 +50,7 @@ constexpr MultiplayerEnvironmentSpectatingSpot(MultiplayerEnvironmentSpectatingS
 constexpr MultiplayerEnvironmentSpectatingSpot(MultiplayerEnvironmentSpectatingSpot&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerEnvironmentSpectatingSpot(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerEnvironmentSpectatingSpot(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -90,28 +89,28 @@ constexpr void __set__spotNumber(int32_t value) ;
 
 constexpr int32_t __get__spotNumber() const;
 
- ::GlobalNamespace::MultiplayerSpectatingSpotManager __declspec(property(get=__get__spectatingSpotManager, put=__set__spectatingSpotManager))  _spectatingSpotManager;
+ GlobalNamespace::MultiplayerSpectatingSpotManager __declspec(property(get=__get__spectatingSpotManager, put=__set__spectatingSpotManager))  _spectatingSpotManager;
 
-constexpr void __set__spectatingSpotManager(::GlobalNamespace::MultiplayerSpectatingSpotManager value) ;
+constexpr void __set__spectatingSpotManager(GlobalNamespace::MultiplayerSpectatingSpotManager value) ;
 
-constexpr ::GlobalNamespace::MultiplayerSpectatingSpotManager __get__spectatingSpotManager() const;
+constexpr GlobalNamespace::MultiplayerSpectatingSpotManager __get__spectatingSpotManager() const;
 
- ::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage __declspec(property(get=__get__activePlayersTimeOffsetAverage, put=__set__activePlayersTimeOffsetAverage))  _activePlayersTimeOffsetAverage;
+ GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage __declspec(property(get=__get__activePlayersTimeOffsetAverage, put=__set__activePlayersTimeOffsetAverage))  _activePlayersTimeOffsetAverage;
 
-constexpr void __set__activePlayersTimeOffsetAverage(::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage value) ;
+constexpr void __set__activePlayersTimeOffsetAverage(GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage value) ;
 
-constexpr ::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage __get__activePlayersTimeOffsetAverage() const;
+constexpr GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage __get__activePlayersTimeOffsetAverage() const;
 
- ::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot> __declspec(property(get=__get_hasBeenRemovedEvent, put=__set_hasBeenRemovedEvent))  hasBeenRemovedEvent;
+ System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot> __declspec(property(get=__get_hasBeenRemovedEvent, put=__set_hasBeenRemovedEvent))  hasBeenRemovedEvent;
 
-constexpr void __set_hasBeenRemovedEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot> value) ;
+constexpr void __set_hasBeenRemovedEvent(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot> value) ;
 
-constexpr ::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot> __get_hasBeenRemovedEvent() const;
+constexpr System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot> __get_hasBeenRemovedEvent() const;
 
 
 // Properties
 
- ::GlobalNamespace::IMultiplayerObservable __declspec(property(get=get_observable))  observable;
+ GlobalNamespace::IMultiplayerObservable __declspec(property(get=get_observable))  observable;
 
  ::StringW __declspec(property(get=get_spotName))  spotName;
 
@@ -121,13 +120,13 @@ constexpr ::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot> __ge
 // Methods
 
 /// @brief Method add_hasBeenRemovedEvent addr 0x2105fb8 size 0xb0 virtual true final true
- void add_hasBeenRemovedEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot> value) ;
+ void add_hasBeenRemovedEvent(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot> value) ;
 
 /// @brief Method remove_hasBeenRemovedEvent addr 0x2106068 size 0xb0 virtual true final true
- void remove_hasBeenRemovedEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot> value) ;
+ void remove_hasBeenRemovedEvent(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot> value) ;
 
 /// @brief Method get_observable addr 0x2106118 size 0x8 virtual true final true
- ::GlobalNamespace::IMultiplayerObservable get_observable() ;
+ GlobalNamespace::IMultiplayerObservable get_observable() ;
 
 /// @brief Method get_spotName addr 0x2106120 size 0xbc virtual true final true
  ::StringW get_spotName() ;
@@ -151,12 +150,11 @@ explicit MultiplayerEnvironmentSpectatingSpot() ;
  void _ctor() ;
 
 /// @brief Method IMultiplayerSpectatingSpot.get_transform addr 0x210622c size 0x8 virtual true final true
- ::UnityEngine::Transform IMultiplayerSpectatingSpot_get_transform() ;
+ UnityEngine::Transform IMultiplayerSpectatingSpot_get_transform() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot, "", "MultiplayerEnvironmentSpectatingSpot");
+NEED_NO_BOX(GlobalNamespace::MultiplayerEnvironmentSpectatingSpot);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerEnvironmentSpectatingSpot, "", "MultiplayerEnvironmentSpectatingSpot");

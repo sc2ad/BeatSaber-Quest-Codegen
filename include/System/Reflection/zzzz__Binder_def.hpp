@@ -4,18 +4,11 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System::Reflection {
-class MethodBase;
-}
-namespace System::Reflection {
-class PropertyInfo;
-}
 namespace System::Reflection {
 class FieldInfo;
 }
-namespace System::Reflection {
-struct BindingFlags;
+namespace System::Globalization {
+class CultureInfo;
 }
 namespace System::Reflection {
 struct ParameterModifier;
@@ -23,8 +16,14 @@ struct ParameterModifier;
 namespace System {
 class Type;
 }
-namespace System::Globalization {
-class CultureInfo;
+namespace System::Reflection {
+class MethodBase;
+}
+namespace System::Reflection {
+class PropertyInfo;
+}
+namespace System::Reflection {
+struct BindingFlags;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -79,27 +78,26 @@ explicit Binder() ;
  void _ctor() ;
 
 /// @brief Method BindToField addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Reflection::FieldInfo BindToField(::System::Reflection::BindingFlags bindingAttr, ::ArrayW<::System::Reflection::FieldInfo> match, ::bs_hook::Il2CppWrapperType value, ::System::Globalization::CultureInfo culture) ;
+ System::Reflection::FieldInfo BindToField(System::Reflection::BindingFlags bindingAttr, ::ArrayW<System::Reflection::FieldInfo> match, ::bs_hook::Il2CppWrapperType value, System::Globalization::CultureInfo culture) ;
 
 /// @brief Method BindToMethod addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Reflection::MethodBase BindToMethod(::System::Reflection::BindingFlags bindingAttr, ::ArrayW<::System::Reflection::MethodBase> match, ByRef<::ArrayW<::bs_hook::Il2CppWrapperType>> args, ::ArrayW<::System::Reflection::ParameterModifier> modifiers, ::System::Globalization::CultureInfo culture, ::ArrayW<::StringW> names, ByRef<::bs_hook::Il2CppWrapperType> state) ;
+ System::Reflection::MethodBase BindToMethod(System::Reflection::BindingFlags bindingAttr, ::ArrayW<System::Reflection::MethodBase> match, ByRef<::ArrayW<::bs_hook::Il2CppWrapperType>> args, ::ArrayW<System::Reflection::ParameterModifier> modifiers, System::Globalization::CultureInfo culture, ::ArrayW<::StringW> names, ByRef<::bs_hook::Il2CppWrapperType> state) ;
 
 /// @brief Method ChangeType addr 0x0 size 0xffffffffffffffff virtual true final false
- ::bs_hook::Il2CppWrapperType ChangeType(::bs_hook::Il2CppWrapperType value, ::System::Type type, ::System::Globalization::CultureInfo culture) ;
+ ::bs_hook::Il2CppWrapperType ChangeType(::bs_hook::Il2CppWrapperType value, System::Type type, System::Globalization::CultureInfo culture) ;
 
 /// @brief Method ReorderArgumentArray addr 0x0 size 0xffffffffffffffff virtual true final false
  void ReorderArgumentArray(ByRef<::ArrayW<::bs_hook::Il2CppWrapperType>> args, ::bs_hook::Il2CppWrapperType state) ;
 
 /// @brief Method SelectMethod addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Reflection::MethodBase SelectMethod(::System::Reflection::BindingFlags bindingAttr, ::ArrayW<::System::Reflection::MethodBase> match, ::ArrayW<::System::Type> types, ::ArrayW<::System::Reflection::ParameterModifier> modifiers) ;
+ System::Reflection::MethodBase SelectMethod(System::Reflection::BindingFlags bindingAttr, ::ArrayW<System::Reflection::MethodBase> match, ::ArrayW<System::Type> types, ::ArrayW<System::Reflection::ParameterModifier> modifiers) ;
 
 /// @brief Method SelectProperty addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Reflection::PropertyInfo SelectProperty(::System::Reflection::BindingFlags bindingAttr, ::ArrayW<::System::Reflection::PropertyInfo> match, ::System::Type returnType, ::ArrayW<::System::Type> indexes, ::ArrayW<::System::Reflection::ParameterModifier> modifiers) ;
+ System::Reflection::PropertyInfo SelectProperty(System::Reflection::BindingFlags bindingAttr, ::ArrayW<System::Reflection::PropertyInfo> match, System::Type returnType, ::ArrayW<System::Type> indexes, ::ArrayW<System::Reflection::ParameterModifier> modifiers) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Reflection
-} // end anonymous namespace
-NEED_NO_BOX(::System::Reflection::Binder);
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::Binder, "System.Reflection", "Binder");
+NEED_NO_BOX(System::Reflection::Binder);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Binder, "System.Reflection", "Binder");

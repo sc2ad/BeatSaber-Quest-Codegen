@@ -4,24 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine::Events {
-class PersistentCall;
-}
-namespace System::Reflection {
-class MethodInfo;
-}
-namespace System {
-class Type;
+class BaseInvokableCall;
 }
 namespace UnityEngine {
 class ISerializationCallbackReceiver;
 }
-namespace UnityEngine::Events {
-class InvokableCallList;
-}
-namespace UnityEngine::Events {
-class PersistentCallGroup;
+namespace System::Reflection {
+class MethodInfo;
 }
 namespace UnityEngine::Events {
 struct PersistentListenerMode;
@@ -31,7 +21,16 @@ template<typename T>
 class List_1;
 }
 namespace UnityEngine::Events {
-class BaseInvokableCall;
+class InvokableCallList;
+}
+namespace UnityEngine::Events {
+class PersistentCall;
+}
+namespace UnityEngine::Events {
+class PersistentCallGroup;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace UnityEngine::Events {
@@ -46,8 +45,8 @@ namespace UnityEngine::Events {
 class CORDL_TYPE UnityEventBase : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::ISerializationCallbackReceiver
-constexpr operator  ::UnityEngine::ISerializationCallbackReceiver() const noexcept;
+/// @brief Convert operator to UnityEngine::ISerializationCallbackReceiver
+constexpr operator  UnityEngine::ISerializationCallbackReceiver() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -82,17 +81,17 @@ constexpr explicit UnityEventBase(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
- ::UnityEngine::Events::InvokableCallList __declspec(property(get=__get_m_Calls, put=__set_m_Calls))  m_Calls;
+ UnityEngine::Events::InvokableCallList __declspec(property(get=__get_m_Calls, put=__set_m_Calls))  m_Calls;
 
-constexpr void __set_m_Calls(::UnityEngine::Events::InvokableCallList value) ;
+constexpr void __set_m_Calls(UnityEngine::Events::InvokableCallList value) ;
 
-constexpr ::UnityEngine::Events::InvokableCallList __get_m_Calls() const;
+constexpr UnityEngine::Events::InvokableCallList __get_m_Calls() const;
 
- ::UnityEngine::Events::PersistentCallGroup __declspec(property(get=__get_m_PersistentCalls, put=__set_m_PersistentCalls))  m_PersistentCalls;
+ UnityEngine::Events::PersistentCallGroup __declspec(property(get=__get_m_PersistentCalls, put=__set_m_PersistentCalls))  m_PersistentCalls;
 
-constexpr void __set_m_PersistentCalls(::UnityEngine::Events::PersistentCallGroup value) ;
+constexpr void __set_m_PersistentCalls(UnityEngine::Events::PersistentCallGroup value) ;
 
-constexpr ::UnityEngine::Events::PersistentCallGroup __get_m_PersistentCalls() const;
+constexpr UnityEngine::Events::PersistentCallGroup __get_m_PersistentCalls() const;
 
  bool __declspec(property(get=__get_m_CallsDirty, put=__set_m_CallsDirty))  m_CallsDirty;
 
@@ -116,16 +115,16 @@ explicit UnityEventBase() ;
  void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize() ;
 
 /// @brief Method FindMethod_Impl addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Reflection::MethodInfo FindMethod_Impl(::StringW name, ::System::Type targetObjType) ;
+ System::Reflection::MethodInfo FindMethod_Impl(::StringW name, System::Type targetObjType) ;
 
 /// @brief Method GetDelegate addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Events::BaseInvokableCall GetDelegate(::bs_hook::Il2CppWrapperType target, ::System::Reflection::MethodInfo theFunction) ;
+ UnityEngine::Events::BaseInvokableCall GetDelegate(::bs_hook::Il2CppWrapperType target, System::Reflection::MethodInfo theFunction) ;
 
 /// @brief Method FindMethod addr 0x2b7fb68 size 0x1c8 virtual false final false
- ::System::Reflection::MethodInfo FindMethod(::UnityEngine::Events::PersistentCall call) ;
+ System::Reflection::MethodInfo FindMethod(UnityEngine::Events::PersistentCall call) ;
 
 /// @brief Method FindMethod addr 0x2b80b2c size 0x260 virtual false final false
- ::System::Reflection::MethodInfo FindMethod(::StringW name, ::System::Type listenerType, ::UnityEngine::Events::PersistentListenerMode mode, ::System::Type argumentType) ;
+ System::Reflection::MethodInfo FindMethod(::StringW name, System::Type listenerType, UnityEngine::Events::PersistentListenerMode mode, System::Type argumentType) ;
 
 /// @brief Method GetPersistentEventCount addr 0x2b80f30 size 0x18 virtual false final false
  int32_t GetPersistentEventCount() ;
@@ -137,24 +136,23 @@ explicit UnityEventBase() ;
  void RebuildPersistentCallsIfNeeded() ;
 
 /// @brief Method AddCall addr 0x2b80f7c size 0x18 virtual false final false
- void AddCall(::UnityEngine::Events::BaseInvokableCall call) ;
+ void AddCall(UnityEngine::Events::BaseInvokableCall call) ;
 
 /// @brief Method RemoveListener addr 0x2b80f94 size 0x18 virtual false final false
- void RemoveListener(::bs_hook::Il2CppWrapperType targetObj, ::System::Reflection::MethodInfo method) ;
+ void RemoveListener(::bs_hook::Il2CppWrapperType targetObj, System::Reflection::MethodInfo method) ;
 
 /// @brief Method PrepareInvoke addr 0x2b80fac size 0x20 virtual false final false
- ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall> PrepareInvoke() ;
+ System::Collections::Generic::List_1<UnityEngine::Events::BaseInvokableCall> PrepareInvoke() ;
 
 /// @brief Method ToString addr 0x2b80fcc size 0x84 virtual true final false
  ::StringW ToString() ;
 
 /// @brief Method GetValidMethodInfo addr 0x2b80d8c size 0x1a4 virtual false final false
-static ::System::Reflection::MethodInfo GetValidMethodInfo(::System::Type objectType, ::StringW functionName, ::ArrayW<::System::Type> argumentTypes) ;
+static System::Reflection::MethodInfo GetValidMethodInfo(System::Type objectType, ::StringW functionName, ::ArrayW<System::Type> argumentTypes) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Events
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Events::UnityEventBase);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Events::UnityEventBase, "UnityEngine.Events", "UnityEventBase");
+NEED_NO_BOX(UnityEngine::Events::UnityEventBase);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::UnityEventBase, "UnityEngine.Events", "UnityEventBase");

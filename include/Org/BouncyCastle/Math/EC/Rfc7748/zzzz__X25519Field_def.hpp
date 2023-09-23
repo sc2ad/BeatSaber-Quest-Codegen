@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Rfc7748 {
 class X25519Field;
@@ -180,6 +179,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Math::EC::Rfc7748
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Rfc7748::X25519Field);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Rfc7748::X25519Field, "Org.BouncyCastle.Math.EC.Rfc7748", "X25519Field");
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Rfc7748::X25519Field);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc7748::X25519Field, "Org.BouncyCastle.Math.EC.Rfc7748", "X25519Field");

@@ -2,17 +2,16 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine::UIElements {
 template<typename T>
 class ObjectPool_1;
 }
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -60,28 +59,27 @@ constexpr explicit VisualElementListPool(void* ptr) noexcept : ::bs_hook::Il2Cpp
 
 // Fields
 
-static ::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement>> __declspec(property(get=__get_pool, put=__set_pool))  pool;
+static UnityEngine::UIElements::ObjectPool_1<System::Collections::Generic::List_1<UnityEngine::UIElements::VisualElement>> __declspec(property(get=__get_pool, put=__set_pool))  pool;
 
-static void __set_pool(::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement>> value) ;
+static void __set_pool(UnityEngine::UIElements::ObjectPool_1<System::Collections::Generic::List_1<UnityEngine::UIElements::VisualElement>> value) ;
 
-static ::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement>> __get_pool() ;
+static UnityEngine::UIElements::ObjectPool_1<System::Collections::Generic::List_1<UnityEngine::UIElements::VisualElement>> __get_pool() ;
 
 
 // Methods
 
 /// @brief Method Copy addr 0x2c4ac4c size 0xac virtual false final false
-static ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement> Copy(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement> elements) ;
+static System::Collections::Generic::List_1<UnityEngine::UIElements::VisualElement> Copy(System::Collections::Generic::List_1<UnityEngine::UIElements::VisualElement> elements) ;
 
 /// @brief Method Get addr 0x2c4acf8 size 0xe0 virtual false final false
-static ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement> Get(int32_t initialCapacity) ;
+static System::Collections::Generic::List_1<UnityEngine::UIElements::VisualElement> Get(int32_t initialCapacity) ;
 
 /// @brief Method Release addr 0x2c4add8 size 0xb4 virtual false final false
-static void Release(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement> elements) ;
+static void Release(System::Collections::Generic::List_1<UnityEngine::UIElements::VisualElement> elements) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::VisualElementListPool);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::VisualElementListPool, "UnityEngine.UIElements", "VisualElementListPool");
+NEED_NO_BOX(UnityEngine::UIElements::VisualElementListPool);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::VisualElementListPool, "UnityEngine.UIElements", "VisualElementListPool");

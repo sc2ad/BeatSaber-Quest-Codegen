@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
-namespace {
 namespace OVR::OpenVR {
 struct IVRExtendedDisplay;
 }
@@ -56,11 +55,11 @@ constexpr explicit CVRExtendedDisplay(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Fields
 
- ::OVR::OpenVR::IVRExtendedDisplay __declspec(property(get=__get_FnTable, put=__set_FnTable))  FnTable;
+ OVR::OpenVR::IVRExtendedDisplay __declspec(property(get=__get_FnTable, put=__set_FnTable))  FnTable;
 
-constexpr void __set_FnTable(::OVR::OpenVR::IVRExtendedDisplay value) ;
+constexpr void __set_FnTable(OVR::OpenVR::IVRExtendedDisplay value) ;
 
-constexpr ::OVR::OpenVR::IVRExtendedDisplay __get_FnTable() const;
+constexpr OVR::OpenVR::IVRExtendedDisplay __get_FnTable() const;
 
 
 // Methods
@@ -75,7 +74,7 @@ explicit CVRExtendedDisplay(::cordl_internals::intptr_t pInterface) ;
  void GetWindowBounds(ByRef<int32_t> pnX, ByRef<int32_t> pnY, ByRef<uint32_t> pnWidth, ByRef<uint32_t> pnHeight) ;
 
 /// @brief Method GetEyeOutputViewport addr 0x26646a8 size 0x34 virtual false final false
- void GetEyeOutputViewport(::OVR::OpenVR::EVREye eEye, ByRef<uint32_t> pnX, ByRef<uint32_t> pnY, ByRef<uint32_t> pnWidth, ByRef<uint32_t> pnHeight) ;
+ void GetEyeOutputViewport(OVR::OpenVR::EVREye eEye, ByRef<uint32_t> pnX, ByRef<uint32_t> pnY, ByRef<uint32_t> pnWidth, ByRef<uint32_t> pnHeight) ;
 
 /// @brief Method GetDXGIOutputInfo addr 0x26646dc size 0x2c virtual false final false
  void GetDXGIOutputInfo(ByRef<int32_t> pnAdapterIndex, ByRef<int32_t> pnAdapterOutputIndex) ;
@@ -84,6 +83,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-NEED_NO_BOX(::OVR::OpenVR::CVRExtendedDisplay);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::CVRExtendedDisplay, "OVR.OpenVR", "CVRExtendedDisplay");
+NEED_NO_BOX(OVR::OpenVR::CVRExtendedDisplay);
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRExtendedDisplay, "OVR.OpenVR", "CVRExtendedDisplay");

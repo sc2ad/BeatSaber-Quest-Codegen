@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__IntegratedSubsystemDescriptor_def.hpp"
-namespace {
 namespace UnityEngine {
 class ISubsystem;
 }
@@ -20,10 +19,10 @@ namespace UnityEngine {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TSubsystem>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15843)), TypeDefinitionIndex(TypeDefinitionIndex(15844))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15844)), TypeDefinitionIndex(TypeDefinitionIndex(15843))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15844), inst: 2 })
 // CS Name: UnityEngine.IntegratedSubsystemDescriptor`1
-class CORDL_TYPE IntegratedSubsystemDescriptor_1<TSubsystem> : public ::UnityEngine::IntegratedSubsystemDescriptor {
+class CORDL_TYPE IntegratedSubsystemDescriptor_1<TSubsystem> : public UnityEngine::IntegratedSubsystemDescriptor {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr IntegratedSubsystemDescriptor_1(IntegratedSubsystemDescriptor_1 const&
 constexpr IntegratedSubsystemDescriptor_1(IntegratedSubsystemDescriptor_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit IntegratedSubsystemDescriptor_1(void* ptr) noexcept : ::UnityEngine::IntegratedSubsystemDescriptor(ptr) {
+constexpr explicit IntegratedSubsystemDescriptor_1(void* ptr) noexcept : UnityEngine::IntegratedSubsystemDescriptor(ptr) {
 }
 
 
@@ -60,7 +59,7 @@ constexpr explicit IntegratedSubsystemDescriptor_1(void* ptr) noexcept : ::Unity
 // Methods
 
 /// @brief Method CreateImpl addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::ISubsystem CreateImpl() ;
+ UnityEngine::ISubsystem CreateImpl() ;
 
 /// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual false final false
  TSubsystem Create() ;
@@ -75,5 +74,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::IntegratedSubsystemDescriptor_1, "UnityEngine", "IntegratedSubsystemDescriptor`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::IntegratedSubsystemDescriptor_1, "UnityEngine", "IntegratedSubsystemDescriptor`1");

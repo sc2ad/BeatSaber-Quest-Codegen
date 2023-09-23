@@ -2,15 +2,14 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace Mono::Unity {
+struct Mono__Unity__UnityTls__unitytls_x509verify_result;
+}
+namespace Mono::Unity {
+struct Mono__Unity__UnityTls__unitytls_errorstate;
+}
 namespace Mono::Security::Interface {
 struct AlertDescription;
-}
-namespace Mono::Unity {
-struct ____Mono__Unity__UnityTls__unitytls_x509verify_result;
-}
-namespace Mono::Unity {
-struct ____Mono__Unity__UnityTls__unitytls_errorstate;
 }
 // Forward declare root types
 namespace Mono::Unity {
@@ -59,15 +58,14 @@ constexpr explicit Debug(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr)
 // Methods
 
 /// @brief Method CheckAndThrow addr 0x2686108 size 0xa0 virtual false final false
-static void CheckAndThrow(::Mono::Unity::____Mono__Unity__UnityTls__unitytls_errorstate errorState, ::StringW context, ::Mono::Security::Interface::AlertDescription defaultAlert) ;
+static void CheckAndThrow(Mono::Unity::Mono__Unity__UnityTls__unitytls_errorstate errorState, ::StringW context, Mono::Security::Interface::AlertDescription defaultAlert) ;
 
 /// @brief Method CheckAndThrow addr 0x26861a8 size 0xd8 virtual false final false
-static void CheckAndThrow(::Mono::Unity::____Mono__Unity__UnityTls__unitytls_errorstate errorState, ::Mono::Unity::____Mono__Unity__UnityTls__unitytls_x509verify_result verifyResult, ::StringW context, ::Mono::Security::Interface::AlertDescription defaultAlert) ;
+static void CheckAndThrow(Mono::Unity::Mono__Unity__UnityTls__unitytls_errorstate errorState, Mono::Unity::Mono__Unity__UnityTls__unitytls_x509verify_result verifyResult, ::StringW context, Mono::Security::Interface::AlertDescription defaultAlert) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Unity
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Unity::Debug);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Unity::Debug, "Mono.Unity", "Debug");
+NEED_NO_BOX(Mono::Unity::Debug);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::Debug, "Mono.Unity", "Debug");

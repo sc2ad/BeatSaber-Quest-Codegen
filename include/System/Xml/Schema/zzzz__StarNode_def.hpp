@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/Schema/zzzz__InteriorNode_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace System::Xml::Schema {
 class BitSet;
 }
@@ -16,7 +15,7 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11544))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11550))
 // CS Name: System.Xml.Schema.StarNode
-class CORDL_TYPE StarNode : public ::System::Xml::Schema::InteriorNode {
+class CORDL_TYPE StarNode : public System::Xml::Schema::InteriorNode {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr StarNode(StarNode const& ) noexcept = default;
 constexpr StarNode(StarNode&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit StarNode(void* ptr) noexcept : ::System::Xml::Schema::InteriorNode(ptr) {
+constexpr explicit StarNode(void* ptr) noexcept : System::Xml::Schema::InteriorNode(ptr) {
 }
 
 
@@ -58,7 +57,7 @@ constexpr explicit StarNode(void* ptr) noexcept : ::System::Xml::Schema::Interio
 // Methods
 
 /// @brief Method ConstructPos addr 0x271b2e8 size 0x9c virtual true final false
- void ConstructPos(::System::Xml::Schema::BitSet firstpos, ::System::Xml::Schema::BitSet lastpos, ::ArrayW<::System::Xml::Schema::BitSet> followpos) ;
+ void ConstructPos(System::Xml::Schema::BitSet firstpos, System::Xml::Schema::BitSet lastpos, ::ArrayW<System::Xml::Schema::BitSet> followpos) ;
 
 /// @brief Method get_IsNullable addr 0x271b384 size 0x8 virtual true final false
  bool get_IsNullable() ;
@@ -73,6 +72,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::StarNode);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::StarNode, "System.Xml.Schema", "StarNode");
+NEED_NO_BOX(System::Xml::Schema::StarNode);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::StarNode, "System.Xml.Schema", "StarNode");

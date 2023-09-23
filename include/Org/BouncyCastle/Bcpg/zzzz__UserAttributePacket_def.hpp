@@ -2,15 +2,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__ContainedPacket_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace Org::BouncyCastle::Bcpg {
-class BcpgOutputStream;
+class BcpgInputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
 class UserAttributeSubpacket;
 }
 namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
+class BcpgOutputStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -22,7 +21,7 @@ namespace Org::BouncyCastle::Bcpg {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(560))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(597))
 // CS Name: Org.BouncyCastle.Bcpg.UserAttributePacket
-class CORDL_TYPE UserAttributePacket : public ::Org::BouncyCastle::Bcpg::ContainedPacket {
+class CORDL_TYPE UserAttributePacket : public Org::BouncyCastle::Bcpg::ContainedPacket {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr UserAttributePacket(UserAttributePacket const& ) noexcept = default;
 constexpr UserAttributePacket(UserAttributePacket&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UserAttributePacket(void* ptr) noexcept : ::Org::BouncyCastle::Bcpg::ContainedPacket(ptr) {
+constexpr explicit UserAttributePacket(void* ptr) noexcept : Org::BouncyCastle::Bcpg::ContainedPacket(ptr) {
 }
 
 
@@ -58,37 +57,36 @@ constexpr explicit UserAttributePacket(void* ptr) noexcept : ::Org::BouncyCastle
 
 // Fields
 
- ::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket> __declspec(property(get=__get_subpackets, put=__set_subpackets))  subpackets;
+ ::ArrayW<Org::BouncyCastle::Bcpg::UserAttributeSubpacket> __declspec(property(get=__get_subpackets, put=__set_subpackets))  subpackets;
 
-constexpr void __set_subpackets(::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket> value) ;
+constexpr void __set_subpackets(::ArrayW<Org::BouncyCastle::Bcpg::UserAttributeSubpacket> value) ;
 
-constexpr ::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket> __get_subpackets() const;
+constexpr ::ArrayW<Org::BouncyCastle::Bcpg::UserAttributeSubpacket> __get_subpackets() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "::Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
-explicit UserAttributePacket(::Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
+explicit UserAttributePacket(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
 /// @brief Method .ctor addr 0x1144cbc size 0x324 virtual false final false
- void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+ void _ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
-// Ctor Parameters [CppParam { name: "subpackets", ty: "::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket>", modifiers: "", def_value: None }]
-explicit UserAttributePacket(::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket> subpackets) ;
+// Ctor Parameters [CppParam { name: "subpackets", ty: "::ArrayW<Org::BouncyCastle::Bcpg::UserAttributeSubpacket>", modifiers: "", def_value: None }]
+explicit UserAttributePacket(::ArrayW<Org::BouncyCastle::Bcpg::UserAttributeSubpacket> subpackets) ;
 
 /// @brief Method .ctor addr 0x114ad58 size 0x28 virtual false final false
- void _ctor(::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket> subpackets) ;
+ void _ctor(::ArrayW<Org::BouncyCastle::Bcpg::UserAttributeSubpacket> subpackets) ;
 
 /// @brief Method GetSubpackets addr 0x114ad80 size 0x8 virtual false final false
- ::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket> GetSubpackets() ;
+ ::ArrayW<Org::BouncyCastle::Bcpg::UserAttributeSubpacket> GetSubpackets() ;
 
 /// @brief Method Encode addr 0x114ad88 size 0xd8 virtual true final false
- void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream bcpgOut) ;
+ void Encode(Org::BouncyCastle::Bcpg::BcpgOutputStream bcpgOut) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::UserAttributePacket);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::UserAttributePacket, "Org.BouncyCastle.Bcpg", "UserAttributePacket");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::UserAttributePacket);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::UserAttributePacket, "Org.BouncyCastle.Bcpg", "UserAttributePacket");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
 struct EditLevel;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Top offset 0
-static ::UnityEngine::ProBuilder::EditLevel const Top;
+static UnityEngine::ProBuilder::EditLevel const Top;
 
 /// @brief Field Geometry offset 0
-static ::UnityEngine::ProBuilder::EditLevel const Geometry;
+static UnityEngine::ProBuilder::EditLevel const Geometry;
 
 /// @brief Field Texture offset 0
-static ::UnityEngine::ProBuilder::EditLevel const Texture;
+static UnityEngine::ProBuilder::EditLevel const Texture;
 
 /// @brief Field Plugin offset 0
-static ::UnityEngine::ProBuilder::EditLevel const Plugin;
+static UnityEngine::ProBuilder::EditLevel const Plugin;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::EditLevel, "UnityEngine.ProBuilder", "EditLevel");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::EditLevel, "UnityEngine.ProBuilder", "EditLevel");

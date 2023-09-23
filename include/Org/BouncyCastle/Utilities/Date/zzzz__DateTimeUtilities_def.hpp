@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 struct DateTime;
 }
@@ -52,11 +51,11 @@ constexpr explicit DateTimeUtilities(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 
 // Fields
 
-static ::System::DateTime __declspec(property(get=__get_UnixEpoch, put=__set_UnixEpoch))  UnixEpoch;
+static System::DateTime __declspec(property(get=__get_UnixEpoch, put=__set_UnixEpoch))  UnixEpoch;
 
-static void __set_UnixEpoch(::System::DateTime value) ;
+static void __set_UnixEpoch(System::DateTime value) ;
 
-static ::System::DateTime __get_UnixEpoch() ;
+static System::DateTime __get_UnixEpoch() ;
 
 
 // Methods
@@ -68,10 +67,10 @@ explicit DateTimeUtilities() ;
  void _ctor() ;
 
 /// @brief Method DateTimeToUnixMs addr 0x10cf598 size 0x15c virtual false final false
-static int64_t DateTimeToUnixMs(::System::DateTime dateTime) ;
+static int64_t DateTimeToUnixMs(System::DateTime dateTime) ;
 
 /// @brief Method UnixMsToDateTime addr 0x10cf6f4 size 0x94 virtual false final false
-static ::System::DateTime UnixMsToDateTime(int64_t unixMs) ;
+static System::DateTime UnixMsToDateTime(int64_t unixMs) ;
 
 /// @brief Method CurrentUnixMs addr 0x10cf788 size 0x84 virtual false final false
 static int64_t CurrentUnixMs() ;
@@ -80,6 +79,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities::Date
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::Date::DateTimeUtilities);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Date::DateTimeUtilities, "Org.BouncyCastle.Utilities.Date", "DateTimeUtilities");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Date::DateTimeUtilities);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Date::DateTimeUtilities, "Org.BouncyCastle.Utilities.Date", "DateTimeUtilities");

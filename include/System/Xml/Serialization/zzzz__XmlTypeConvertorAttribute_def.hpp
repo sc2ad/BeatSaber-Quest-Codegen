@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace System::Xml::Serialization {
 class XmlTypeConvertorAttribute;
@@ -13,7 +12,7 @@ namespace System::Xml::Serialization {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11527))
 // CS Name: System.Xml.Serialization.XmlTypeConvertorAttribute
-class CORDL_TYPE XmlTypeConvertorAttribute : public ::System::Attribute {
+class CORDL_TYPE XmlTypeConvertorAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr XmlTypeConvertorAttribute(XmlTypeConvertorAttribute const& ) noexcept 
 constexpr XmlTypeConvertorAttribute(XmlTypeConvertorAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XmlTypeConvertorAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit XmlTypeConvertorAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Serialization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Serialization::XmlTypeConvertorAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::XmlTypeConvertorAttribute, "System.Xml.Serialization", "XmlTypeConvertorAttribute");
+NEED_NO_BOX(System::Xml::Serialization::XmlTypeConvertorAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Serialization::XmlTypeConvertorAttribute, "System.Xml.Serialization", "XmlTypeConvertorAttribute");

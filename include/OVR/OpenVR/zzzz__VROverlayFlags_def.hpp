@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct VROverlayFlags;
@@ -81,56 +80,55 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::OVR::OpenVR::VROverlayFlags const None;
+static OVR::OpenVR::VROverlayFlags const None;
 
 /// @brief Field Curved offset 0
-static ::OVR::OpenVR::VROverlayFlags const Curved;
+static OVR::OpenVR::VROverlayFlags const Curved;
 
 /// @brief Field RGSS4X offset 0
-static ::OVR::OpenVR::VROverlayFlags const RGSS4X;
+static OVR::OpenVR::VROverlayFlags const RGSS4X;
 
 /// @brief Field NoDashboardTab offset 0
-static ::OVR::OpenVR::VROverlayFlags const NoDashboardTab;
+static OVR::OpenVR::VROverlayFlags const NoDashboardTab;
 
 /// @brief Field AcceptsGamepadEvents offset 0
-static ::OVR::OpenVR::VROverlayFlags const AcceptsGamepadEvents;
+static OVR::OpenVR::VROverlayFlags const AcceptsGamepadEvents;
 
 /// @brief Field ShowGamepadFocus offset 0
-static ::OVR::OpenVR::VROverlayFlags const ShowGamepadFocus;
+static OVR::OpenVR::VROverlayFlags const ShowGamepadFocus;
 
 /// @brief Field SendVRScrollEvents offset 0
-static ::OVR::OpenVR::VROverlayFlags const SendVRScrollEvents;
+static OVR::OpenVR::VROverlayFlags const SendVRScrollEvents;
 
 /// @brief Field SendVRTouchpadEvents offset 0
-static ::OVR::OpenVR::VROverlayFlags const SendVRTouchpadEvents;
+static OVR::OpenVR::VROverlayFlags const SendVRTouchpadEvents;
 
 /// @brief Field ShowTouchPadScrollWheel offset 0
-static ::OVR::OpenVR::VROverlayFlags const ShowTouchPadScrollWheel;
+static OVR::OpenVR::VROverlayFlags const ShowTouchPadScrollWheel;
 
 /// @brief Field TransferOwnershipToInternalProcess offset 0
-static ::OVR::OpenVR::VROverlayFlags const TransferOwnershipToInternalProcess;
+static OVR::OpenVR::VROverlayFlags const TransferOwnershipToInternalProcess;
 
 /// @brief Field SideBySide_Parallel offset 0
-static ::OVR::OpenVR::VROverlayFlags const SideBySide_Parallel;
+static OVR::OpenVR::VROverlayFlags const SideBySide_Parallel;
 
 /// @brief Field SideBySide_Crossed offset 0
-static ::OVR::OpenVR::VROverlayFlags const SideBySide_Crossed;
+static OVR::OpenVR::VROverlayFlags const SideBySide_Crossed;
 
 /// @brief Field Panorama offset 0
-static ::OVR::OpenVR::VROverlayFlags const Panorama;
+static OVR::OpenVR::VROverlayFlags const Panorama;
 
 /// @brief Field StereoPanorama offset 0
-static ::OVR::OpenVR::VROverlayFlags const StereoPanorama;
+static OVR::OpenVR::VROverlayFlags const StereoPanorama;
 
 /// @brief Field SortWithNonSceneOverlays offset 0
-static ::OVR::OpenVR::VROverlayFlags const SortWithNonSceneOverlays;
+static OVR::OpenVR::VROverlayFlags const SortWithNonSceneOverlays;
 
 /// @brief Field VisibleInDashboard offset 0
-static ::OVR::OpenVR::VROverlayFlags const VisibleInDashboard;
+static OVR::OpenVR::VROverlayFlags const VisibleInDashboard;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::VROverlayFlags, "OVR.OpenVR", "VROverlayFlags");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VROverlayFlags, "OVR.OpenVR", "VROverlayFlags");

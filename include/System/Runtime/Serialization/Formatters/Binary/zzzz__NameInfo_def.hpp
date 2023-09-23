@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Runtime::Serialization::Formatters::Binary {
-struct InternalPrimitiveTypeE;
+namespace System {
+class Type;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 struct InternalArrayTypeE;
 }
-namespace System {
-class Type;
+namespace System::Runtime::Serialization::Formatters::Binary {
+struct InternalPrimitiveTypeE;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -77,17 +76,17 @@ constexpr void __set_NIassemId(int64_t value) ;
 
 constexpr int64_t __get_NIassemId() const;
 
- ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE __declspec(property(get=__get_NIprimitiveTypeEnum, put=__set_NIprimitiveTypeEnum))  NIprimitiveTypeEnum;
+ System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE __declspec(property(get=__get_NIprimitiveTypeEnum, put=__set_NIprimitiveTypeEnum))  NIprimitiveTypeEnum;
 
-constexpr void __set_NIprimitiveTypeEnum(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE value) ;
+constexpr void __set_NIprimitiveTypeEnum(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE value) ;
 
-constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE __get_NIprimitiveTypeEnum() const;
+constexpr System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE __get_NIprimitiveTypeEnum() const;
 
- ::System::Type __declspec(property(get=__get_NItype, put=__set_NItype))  NItype;
+ System::Type __declspec(property(get=__get_NItype, put=__set_NItype))  NItype;
 
-constexpr void __set_NItype(::System::Type value) ;
+constexpr void __set_NItype(System::Type value) ;
 
-constexpr ::System::Type __get_NItype() const;
+constexpr System::Type __get_NItype() const;
 
  bool __declspec(property(get=__get_NIisSealed, put=__set_NIisSealed))  NIisSealed;
 
@@ -125,11 +124,11 @@ constexpr void __set_NIisParentTypeOnObject(bool value) ;
 
 constexpr bool __get_NIisParentTypeOnObject() const;
 
- ::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE __declspec(property(get=__get_NIarrayEnum, put=__set_NIarrayEnum))  NIarrayEnum;
+ System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE __declspec(property(get=__get_NIarrayEnum, put=__set_NIarrayEnum))  NIarrayEnum;
 
-constexpr void __set_NIarrayEnum(::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE value) ;
+constexpr void __set_NIarrayEnum(System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE value) ;
 
-constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE __get_NIarrayEnum() const;
+constexpr System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE __get_NIarrayEnum() const;
 
  bool __declspec(property(get=__get_NIsealedStatusChecked, put=__set_NIsealedStatusChecked))  NIsealedStatusChecked;
 
@@ -169,6 +168,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization::Formatters::Binary
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::NameInfo);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::NameInfo, "System.Runtime.Serialization.Formatters.Binary", "NameInfo");
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::NameInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::NameInfo, "System.Runtime.Serialization.Formatters.Binary", "NameInfo");

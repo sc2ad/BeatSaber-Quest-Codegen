@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Newtonsoft::Json::Linq::JsonPath {
 struct QueryOperator;
@@ -75,38 +74,37 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::Newtonsoft::Json::Linq::JsonPath::QueryOperator const None;
+static Newtonsoft::Json::Linq::JsonPath::QueryOperator const None;
 
 /// @brief Field Equals offset 0
-static ::Newtonsoft::Json::Linq::JsonPath::QueryOperator const Equals;
+static Newtonsoft::Json::Linq::JsonPath::QueryOperator const Equals;
 
 /// @brief Field NotEquals offset 0
-static ::Newtonsoft::Json::Linq::JsonPath::QueryOperator const NotEquals;
+static Newtonsoft::Json::Linq::JsonPath::QueryOperator const NotEquals;
 
 /// @brief Field Exists offset 0
-static ::Newtonsoft::Json::Linq::JsonPath::QueryOperator const Exists;
+static Newtonsoft::Json::Linq::JsonPath::QueryOperator const Exists;
 
 /// @brief Field LessThan offset 0
-static ::Newtonsoft::Json::Linq::JsonPath::QueryOperator const LessThan;
+static Newtonsoft::Json::Linq::JsonPath::QueryOperator const LessThan;
 
 /// @brief Field LessThanOrEquals offset 0
-static ::Newtonsoft::Json::Linq::JsonPath::QueryOperator const LessThanOrEquals;
+static Newtonsoft::Json::Linq::JsonPath::QueryOperator const LessThanOrEquals;
 
 /// @brief Field GreaterThan offset 0
-static ::Newtonsoft::Json::Linq::JsonPath::QueryOperator const GreaterThan;
+static Newtonsoft::Json::Linq::JsonPath::QueryOperator const GreaterThan;
 
 /// @brief Field GreaterThanOrEquals offset 0
-static ::Newtonsoft::Json::Linq::JsonPath::QueryOperator const GreaterThanOrEquals;
+static Newtonsoft::Json::Linq::JsonPath::QueryOperator const GreaterThanOrEquals;
 
 /// @brief Field And offset 0
-static ::Newtonsoft::Json::Linq::JsonPath::QueryOperator const And;
+static Newtonsoft::Json::Linq::JsonPath::QueryOperator const And;
 
 /// @brief Field Or offset 0
-static ::Newtonsoft::Json::Linq::JsonPath::QueryOperator const Or;
+static Newtonsoft::Json::Linq::JsonPath::QueryOperator const Or;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Linq::JsonPath
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Linq::JsonPath::QueryOperator, "Newtonsoft.Json.Linq.JsonPath", "QueryOperator");
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Linq::JsonPath::QueryOperator, "Newtonsoft.Json.Linq.JsonPath", "QueryOperator");

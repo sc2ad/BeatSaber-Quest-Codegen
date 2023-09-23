@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
-namespace {
 namespace UnityEngine {
 class AndroidJavaObject;
 }
@@ -54,39 +53,38 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
-static ::UnityEngine::AndroidJavaObject __declspec(property(get=__get_m_UnityPermissions, put=__set_m_UnityPermissions))  m_UnityPermissions;
+static UnityEngine::AndroidJavaObject __declspec(property(get=__get_m_UnityPermissions, put=__set_m_UnityPermissions))  m_UnityPermissions;
 
-static void __set_m_UnityPermissions(::UnityEngine::AndroidJavaObject value) ;
+static void __set_m_UnityPermissions(UnityEngine::AndroidJavaObject value) ;
 
-static ::UnityEngine::AndroidJavaObject __get_m_UnityPermissions() ;
+static UnityEngine::AndroidJavaObject __get_m_UnityPermissions() ;
 
-static ::UnityEngine::AndroidJavaObject __declspec(property(get=__get_m_Activity, put=__set_m_Activity))  m_Activity;
+static UnityEngine::AndroidJavaObject __declspec(property(get=__get_m_Activity, put=__set_m_Activity))  m_Activity;
 
-static void __set_m_Activity(::UnityEngine::AndroidJavaObject value) ;
+static void __set_m_Activity(UnityEngine::AndroidJavaObject value) ;
 
-static ::UnityEngine::AndroidJavaObject __get_m_Activity() ;
+static UnityEngine::AndroidJavaObject __get_m_Activity() ;
 
 
 // Methods
 
 /// @brief Method GetActivity addr 0x2b17d84 size 0x218 virtual false final false
-static ::UnityEngine::AndroidJavaObject GetActivity() ;
+static UnityEngine::AndroidJavaObject GetActivity() ;
 
 /// @brief Method GetUnityPermissions addr 0x2b17f9c size 0xb8 virtual false final false
-static ::UnityEngine::AndroidJavaObject GetUnityPermissions() ;
+static UnityEngine::AndroidJavaObject GetUnityPermissions() ;
 
 /// @brief Method HasUserAuthorizedPermission addr 0x2b18054 size 0x120 virtual false final false
 static bool HasUserAuthorizedPermission(::StringW permission) ;
 
 /// @brief Method RequestUserPermission addr 0x2b18174 size 0xa4 virtual false final false
-static void RequestUserPermission(::StringW permission, ::UnityEngine::Android::PermissionCallbacks callbacks) ;
+static void RequestUserPermission(::StringW permission, UnityEngine::Android::PermissionCallbacks callbacks) ;
 
 /// @brief Method RequestUserPermissions addr 0x2b18218 size 0x1138 virtual false final false
-static void RequestUserPermissions(::ArrayW<::StringW> permissions, ::UnityEngine::Android::PermissionCallbacks callbacks) ;
+static void RequestUserPermissions(::ArrayW<::StringW> permissions, UnityEngine::Android::PermissionCallbacks callbacks) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Android
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Android::Permission, "UnityEngine.Android", "Permission");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Android::Permission, "UnityEngine.Android", "Permission");

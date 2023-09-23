@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
 namespace OVR::OpenVR {
 struct HmdVector4_t;
 }
@@ -21,8 +20,8 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE VRBoneTransform_t : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "position", ty: "::OVR::OpenVR::HmdVector4_t", modifiers: "", def_value: None }, CppParam { name: "orientation", ty: "::OVR::OpenVR::HmdQuaternionf_t", modifiers: "", def_value: None }]
-constexpr VRBoneTransform_t(::OVR::OpenVR::HmdVector4_t position, ::OVR::OpenVR::HmdQuaternionf_t orientation) noexcept;
+// Ctor Parameters [CppParam { name: "position", ty: "OVR::OpenVR::HmdVector4_t", modifiers: "", def_value: None }, CppParam { name: "orientation", ty: "OVR::OpenVR::HmdQuaternionf_t", modifiers: "", def_value: None }]
+constexpr VRBoneTransform_t(OVR::OpenVR::HmdVector4_t position, OVR::OpenVR::HmdQuaternionf_t orientation) noexcept;
 
 
                     constexpr VRBoneTransform_t(VRBoneTransform_t const&) = default;
@@ -55,21 +54,20 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::OVR::OpenVR::HmdVector4_t __declspec(property(get=__get_position, put=__set_position))  position;
+ OVR::OpenVR::HmdVector4_t __declspec(property(get=__get_position, put=__set_position))  position;
 
-constexpr void __set_position(::OVR::OpenVR::HmdVector4_t value) ;
+constexpr void __set_position(OVR::OpenVR::HmdVector4_t value) ;
 
-constexpr ::OVR::OpenVR::HmdVector4_t __get_position() const;
+constexpr OVR::OpenVR::HmdVector4_t __get_position() const;
 
- ::OVR::OpenVR::HmdQuaternionf_t __declspec(property(get=__get_orientation, put=__set_orientation))  orientation;
+ OVR::OpenVR::HmdQuaternionf_t __declspec(property(get=__get_orientation, put=__set_orientation))  orientation;
 
-constexpr void __set_orientation(::OVR::OpenVR::HmdQuaternionf_t value) ;
+constexpr void __set_orientation(OVR::OpenVR::HmdQuaternionf_t value) ;
 
-constexpr ::OVR::OpenVR::HmdQuaternionf_t __get_orientation() const;
+constexpr OVR::OpenVR::HmdQuaternionf_t __get_orientation() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::VRBoneTransform_t, "OVR.OpenVR", "VRBoneTransform_t");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRBoneTransform_t, "OVR.OpenVR", "VRBoneTransform_t");

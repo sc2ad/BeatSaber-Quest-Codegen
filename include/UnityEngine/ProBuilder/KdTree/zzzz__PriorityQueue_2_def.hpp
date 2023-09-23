@@ -4,11 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine::ProBuilder::KdTree {
-template<typename TItem,typename TPriority>
-struct ItemPriority_2;
-}
 namespace UnityEngine::ProBuilder::KdTree {
 template<typename TItem,typename TPriority>
 class IPriorityQueue_2;
@@ -17,18 +12,22 @@ namespace UnityEngine::ProBuilder::KdTree {
 template<typename T>
 class ITypeMath_1;
 }
+namespace UnityEngine::ProBuilder::KdTree {
+template<typename TItem,typename TPriority>
+struct ItemPriority_2;
+}
 // Forward declare root types
 namespace UnityEngine::ProBuilder::KdTree {
 template<typename TItem,typename TPriority>
 class PriorityQueue_2;
 }
 namespace UnityEngine::ProBuilder::KdTree {
-template<::cordl_internals::il2cpp_reference_type TItem>
-class PriorityQueue_2<TItem,float_t>;
-}
-namespace UnityEngine::ProBuilder::KdTree {
 template<::cordl_internals::il2cpp_reference_type TItem,::cordl_internals::il2cpp_reference_type TPriority>
 class PriorityQueue_2<TItem,TPriority>;
+}
+namespace UnityEngine::ProBuilder::KdTree {
+template<::cordl_internals::il2cpp_reference_type TItem>
+class PriorityQueue_2<TItem,float_t>;
 }
 // Type: UnityEngine.ProBuilder.KdTree::PriorityQueue`2
 // Type: UnityEngine.ProBuilder.KdTree::PriorityQueue`2
@@ -42,8 +41,8 @@ template<::cordl_internals::il2cpp_reference_type TItem,::cordl_internals::il2cp
 class CORDL_TYPE PriorityQueue_2<TItem,TPriority> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem,TPriority>
-constexpr operator  ::UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem,TPriority>() const noexcept;
+/// @brief Convert operator to UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem,TPriority>
+constexpr operator  UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem,TPriority>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -78,17 +77,17 @@ constexpr explicit PriorityQueue_2(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Fields
 
- ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority> __declspec(property(get=__get_priorityMath, put=__set_priorityMath))  priorityMath;
+ UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority> __declspec(property(get=__get_priorityMath, put=__set_priorityMath))  priorityMath;
 
-constexpr void __set_priorityMath(::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority> value) ;
+constexpr void __set_priorityMath(UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority> value) ;
 
-constexpr ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority> __get_priorityMath() const;
+constexpr UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority> __get_priorityMath() const;
 
- ::ArrayW<::UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem,TPriority>> __declspec(property(get=__get_queue, put=__set_queue))  queue;
+ ::ArrayW<UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem,TPriority>> __declspec(property(get=__get_queue, put=__set_queue))  queue;
 
-constexpr void __set_queue(::ArrayW<::UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem,TPriority>> value) ;
+constexpr void __set_queue(::ArrayW<UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem,TPriority>> value) ;
 
-constexpr ::ArrayW<::UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem,TPriority>> __get_queue() const;
+constexpr ::ArrayW<UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem,TPriority>> __get_queue() const;
 
  int32_t __declspec(property(get=__get_capacity, put=__set_capacity))  capacity;
 
@@ -110,11 +109,11 @@ constexpr int32_t __get_count() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "priorityMath", ty: "::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority>", modifiers: "", def_value: None }]
-explicit PriorityQueue_2(int32_t capacity, ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority> priorityMath) ;
+// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "priorityMath", ty: "UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority>", modifiers: "", def_value: None }]
+explicit PriorityQueue_2(int32_t capacity, UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority> priorityMath) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(int32_t capacity, ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority> priorityMath) ;
+ void _ctor(int32_t capacity, UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority> priorityMath) ;
 
 /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual true final true
  int32_t get_Count() ;
@@ -152,8 +151,8 @@ template<::cordl_internals::il2cpp_reference_type TItem>
 class CORDL_TYPE PriorityQueue_2<TItem,float_t> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem,float_t>
-constexpr operator  ::UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem,float_t>() const noexcept;
+/// @brief Convert operator to UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem,float_t>
+constexpr operator  UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem,float_t>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -188,17 +187,17 @@ constexpr explicit PriorityQueue_2(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Fields
 
- ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<float_t> __declspec(property(get=__get_priorityMath, put=__set_priorityMath))  priorityMath;
+ UnityEngine::ProBuilder::KdTree::ITypeMath_1<float_t> __declspec(property(get=__get_priorityMath, put=__set_priorityMath))  priorityMath;
 
-constexpr void __set_priorityMath(::UnityEngine::ProBuilder::KdTree::ITypeMath_1<float_t> value) ;
+constexpr void __set_priorityMath(UnityEngine::ProBuilder::KdTree::ITypeMath_1<float_t> value) ;
 
-constexpr ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<float_t> __get_priorityMath() const;
+constexpr UnityEngine::ProBuilder::KdTree::ITypeMath_1<float_t> __get_priorityMath() const;
 
- ::ArrayW<::UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem,float_t>> __declspec(property(get=__get_queue, put=__set_queue))  queue;
+ ::ArrayW<UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem,float_t>> __declspec(property(get=__get_queue, put=__set_queue))  queue;
 
-constexpr void __set_queue(::ArrayW<::UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem,float_t>> value) ;
+constexpr void __set_queue(::ArrayW<UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem,float_t>> value) ;
 
-constexpr ::ArrayW<::UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem,float_t>> __get_queue() const;
+constexpr ::ArrayW<UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem,float_t>> __get_queue() const;
 
  int32_t __declspec(property(get=__get_capacity, put=__set_capacity))  capacity;
 
@@ -220,11 +219,11 @@ constexpr int32_t __get_count() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "priorityMath", ty: "::UnityEngine::ProBuilder::KdTree::ITypeMath_1<float_t>", modifiers: "", def_value: None }]
-explicit PriorityQueue_2(int32_t capacity, ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<float_t> priorityMath) ;
+// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "priorityMath", ty: "UnityEngine::ProBuilder::KdTree::ITypeMath_1<float_t>", modifiers: "", def_value: None }]
+explicit PriorityQueue_2(int32_t capacity, UnityEngine::ProBuilder::KdTree::ITypeMath_1<float_t> priorityMath) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(int32_t capacity, ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<float_t> priorityMath) ;
+ void _ctor(int32_t capacity, UnityEngine::ProBuilder::KdTree::ITypeMath_1<float_t> priorityMath) ;
 
 /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual true final true
  int32_t get_Count() ;
@@ -251,5 +250,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder::KdTree
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::ProBuilder::KdTree::PriorityQueue_2, "UnityEngine.ProBuilder.KdTree", "PriorityQueue`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::ProBuilder::KdTree::PriorityQueue_2, "UnityEngine.ProBuilder.KdTree", "PriorityQueue`2");

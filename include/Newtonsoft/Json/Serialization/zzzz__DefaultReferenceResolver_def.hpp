@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Newtonsoft::Json::Serialization {
 class IReferenceResolver;
 }
@@ -24,8 +23,8 @@ namespace Newtonsoft::Json::Serialization {
 class CORDL_TYPE DefaultReferenceResolver : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Newtonsoft::Json::Serialization::IReferenceResolver
-constexpr operator  ::Newtonsoft::Json::Serialization::IReferenceResolver() const noexcept;
+/// @brief Convert operator to Newtonsoft::Json::Serialization::IReferenceResolver
+constexpr operator  Newtonsoft::Json::Serialization::IReferenceResolver() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -70,7 +69,7 @@ constexpr int32_t __get__referenceCount() const;
 // Methods
 
 /// @brief Method GetMappings addr 0x24f6784 size 0x110 virtual false final false
- ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW,::bs_hook::Il2CppWrapperType> GetMappings(::bs_hook::Il2CppWrapperType context) ;
+ Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW,::bs_hook::Il2CppWrapperType> GetMappings(::bs_hook::Il2CppWrapperType context) ;
 
 /// @brief Method ResolveReference addr 0x24f69a4 size 0x74 virtual true final true
  ::bs_hook::Il2CppWrapperType ResolveReference(::bs_hook::Il2CppWrapperType context, ::StringW reference) ;
@@ -94,6 +93,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Serialization
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Serialization::DefaultReferenceResolver);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::DefaultReferenceResolver, "Newtonsoft.Json.Serialization", "DefaultReferenceResolver");
+NEED_NO_BOX(Newtonsoft::Json::Serialization::DefaultReferenceResolver);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Serialization::DefaultReferenceResolver, "Newtonsoft.Json.Serialization", "DefaultReferenceResolver");

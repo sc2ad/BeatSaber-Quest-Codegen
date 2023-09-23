@@ -1,18 +1,17 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class MainCamera;
-}
-namespace UnityEngine {
-class Transform;
-}
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
 struct Quaternion;
+}
+namespace GlobalNamespace {
+class MainCamera;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,7 +23,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6002))
 // CS Name: MoveAndRotateWithMainCamera
-class CORDL_TYPE MoveAndRotateWithMainCamera : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MoveAndRotateWithMainCamera : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr MoveAndRotateWithMainCamera(MoveAndRotateWithMainCamera const& ) noexc
 constexpr MoveAndRotateWithMainCamera(MoveAndRotateWithMainCamera&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MoveAndRotateWithMainCamera(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MoveAndRotateWithMainCamera(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -60,29 +59,29 @@ constexpr explicit MoveAndRotateWithMainCamera(void* ptr) noexcept : ::UnityEngi
 
 // Fields
 
- ::GlobalNamespace::MainCamera __declspec(property(get=__get__mainCamera, put=__set__mainCamera))  _mainCamera;
+ GlobalNamespace::MainCamera __declspec(property(get=__get__mainCamera, put=__set__mainCamera))  _mainCamera;
 
-constexpr void __set__mainCamera(::GlobalNamespace::MainCamera value) ;
+constexpr void __set__mainCamera(GlobalNamespace::MainCamera value) ;
 
-constexpr ::GlobalNamespace::MainCamera __get__mainCamera() const;
+constexpr GlobalNamespace::MainCamera __get__mainCamera() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get__rotationOffset, put=__set__rotationOffset))  _rotationOffset;
+ UnityEngine::Quaternion __declspec(property(get=__get__rotationOffset, put=__set__rotationOffset))  _rotationOffset;
 
-constexpr void __set__rotationOffset(::UnityEngine::Quaternion value) ;
+constexpr void __set__rotationOffset(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get__rotationOffset() const;
+constexpr UnityEngine::Quaternion __get__rotationOffset() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__positionOffset, put=__set__positionOffset))  _positionOffset;
+ UnityEngine::Vector3 __declspec(property(get=__get__positionOffset, put=__set__positionOffset))  _positionOffset;
 
-constexpr void __set__positionOffset(::UnityEngine::Vector3 value) ;
+constexpr void __set__positionOffset(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__positionOffset() const;
+constexpr UnityEngine::Vector3 __get__positionOffset() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
+ UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
 
-constexpr void __set__transform(::UnityEngine::Transform value) ;
+constexpr void __set__transform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__transform() const;
+constexpr UnityEngine::Transform __get__transform() const;
 
 
 // Methods
@@ -103,6 +102,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MoveAndRotateWithMainCamera);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MoveAndRotateWithMainCamera, "", "MoveAndRotateWithMainCamera");
+NEED_NO_BOX(GlobalNamespace::MoveAndRotateWithMainCamera);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MoveAndRotateWithMainCamera, "", "MoveAndRotateWithMainCamera");

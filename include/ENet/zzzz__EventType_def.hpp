@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace ENet {
 struct EventType;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::ENet::EventType const None;
+static ENet::EventType const None;
 
 /// @brief Field Connect offset 0
-static ::ENet::EventType const Connect;
+static ENet::EventType const Connect;
 
 /// @brief Field Disconnect offset 0
-static ::ENet::EventType const Disconnect;
+static ENet::EventType const Disconnect;
 
 /// @brief Field Receive offset 0
-static ::ENet::EventType const Receive;
+static ENet::EventType const Receive;
 
 /// @brief Field Timeout offset 0
-static ::ENet::EventType const Timeout;
+static ENet::EventType const Timeout;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def ENet
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::ENet::EventType, "ENet", "EventType");
+DEFINE_IL2CPP_ARG_TYPE(ENet::EventType, "ENet", "EventType");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
@@ -54,53 +53,53 @@ constexpr explicit OcspObjectIdentifiers(void* ptr) noexcept : ::bs_hook::Il2Cpp
 /// @brief Field PkixOcspId offset 0
 static constexpr ::ConstString  PkixOcspId{u"1.3.6.1.5.5.7.48.1"};
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_PkixOcsp, put=__set_PkixOcsp))  PkixOcsp;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_PkixOcsp, put=__set_PkixOcsp))  PkixOcsp;
 
-static void __set_PkixOcsp(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_PkixOcsp(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_PkixOcsp() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_PkixOcsp() ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_PkixOcspBasic, put=__set_PkixOcspBasic))  PkixOcspBasic;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_PkixOcspBasic, put=__set_PkixOcspBasic))  PkixOcspBasic;
 
-static void __set_PkixOcspBasic(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_PkixOcspBasic(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_PkixOcspBasic() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_PkixOcspBasic() ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_PkixOcspNonce, put=__set_PkixOcspNonce))  PkixOcspNonce;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_PkixOcspNonce, put=__set_PkixOcspNonce))  PkixOcspNonce;
 
-static void __set_PkixOcspNonce(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_PkixOcspNonce(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_PkixOcspNonce() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_PkixOcspNonce() ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_PkixOcspCrl, put=__set_PkixOcspCrl))  PkixOcspCrl;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_PkixOcspCrl, put=__set_PkixOcspCrl))  PkixOcspCrl;
 
-static void __set_PkixOcspCrl(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_PkixOcspCrl(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_PkixOcspCrl() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_PkixOcspCrl() ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_PkixOcspResponse, put=__set_PkixOcspResponse))  PkixOcspResponse;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_PkixOcspResponse, put=__set_PkixOcspResponse))  PkixOcspResponse;
 
-static void __set_PkixOcspResponse(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_PkixOcspResponse(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_PkixOcspResponse() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_PkixOcspResponse() ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_PkixOcspNocheck, put=__set_PkixOcspNocheck))  PkixOcspNocheck;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_PkixOcspNocheck, put=__set_PkixOcspNocheck))  PkixOcspNocheck;
 
-static void __set_PkixOcspNocheck(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_PkixOcspNocheck(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_PkixOcspNocheck() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_PkixOcspNocheck() ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_PkixOcspArchiveCutoff, put=__set_PkixOcspArchiveCutoff))  PkixOcspArchiveCutoff;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_PkixOcspArchiveCutoff, put=__set_PkixOcspArchiveCutoff))  PkixOcspArchiveCutoff;
 
-static void __set_PkixOcspArchiveCutoff(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_PkixOcspArchiveCutoff(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_PkixOcspArchiveCutoff() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_PkixOcspArchiveCutoff() ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_PkixOcspServiceLocator, put=__set_PkixOcspServiceLocator))  PkixOcspServiceLocator;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_PkixOcspServiceLocator, put=__set_PkixOcspServiceLocator))  PkixOcspServiceLocator;
 
-static void __set_PkixOcspServiceLocator(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_PkixOcspServiceLocator(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_PkixOcspServiceLocator() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_PkixOcspServiceLocator() ;
 
 
 // Methods
@@ -115,6 +114,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::Ocsp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::Ocsp::OcspObjectIdentifiers);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Ocsp::OcspObjectIdentifiers, "Org.BouncyCastle.Asn1.Ocsp", "OcspObjectIdentifiers");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Ocsp::OcspObjectIdentifiers);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Ocsp::OcspObjectIdentifiers, "Org.BouncyCastle.Asn1.Ocsp", "OcspObjectIdentifiers");

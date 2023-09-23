@@ -3,7 +3,6 @@
 #include "System/Reflection/zzzz__SignatureHasElementType_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Reflection {
 class SignatureType;
 }
@@ -17,7 +16,7 @@ namespace System::Reflection {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3485))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3482))
 // CS Name: System.Reflection.SignatureArrayType
-class CORDL_TYPE SignatureArrayType : public ::System::Reflection::SignatureHasElementType {
+class CORDL_TYPE SignatureArrayType : public System::Reflection::SignatureHasElementType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr SignatureArrayType(SignatureArrayType const& ) noexcept = default;
 constexpr SignatureArrayType(SignatureArrayType&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SignatureArrayType(void* ptr) noexcept : ::System::Reflection::SignatureHasElementType(ptr) {
+constexpr explicit SignatureArrayType(void* ptr) noexcept : System::Reflection::SignatureHasElementType(ptr) {
 }
 
 
@@ -77,11 +76,11 @@ constexpr bool __get__isMultiDim() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "elementType", ty: "::System::Reflection::SignatureType", modifiers: "", def_value: None }, CppParam { name: "rank", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "isMultiDim", ty: "bool", modifiers: "", def_value: None }]
-explicit SignatureArrayType(::System::Reflection::SignatureType elementType, int32_t rank, bool isMultiDim) ;
+// Ctor Parameters [CppParam { name: "elementType", ty: "System::Reflection::SignatureType", modifiers: "", def_value: None }, CppParam { name: "rank", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "isMultiDim", ty: "bool", modifiers: "", def_value: None }]
+explicit SignatureArrayType(System::Reflection::SignatureType elementType, int32_t rank, bool isMultiDim) ;
 
 /// @brief Method .ctor addr 0x237cc84 size 0x3c virtual false final false
- void _ctor(::System::Reflection::SignatureType elementType, int32_t rank, bool isMultiDim) ;
+ void _ctor(System::Reflection::SignatureType elementType, int32_t rank, bool isMultiDim) ;
 
 /// @brief Method IsArrayImpl addr 0x237cce4 size 0x8 virtual true final true
  bool IsArrayImpl() ;
@@ -108,6 +107,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Reflection
-} // end anonymous namespace
-NEED_NO_BOX(::System::Reflection::SignatureArrayType);
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::SignatureArrayType, "System.Reflection", "SignatureArrayType");
+NEED_NO_BOX(System::Reflection::SignatureArrayType);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::SignatureArrayType, "System.Reflection", "SignatureArrayType");

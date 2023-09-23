@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
@@ -13,7 +12,7 @@ class Texture2D;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct ____GlobalNamespace__ScreenCaptureCache__ScreenshotType;
+struct GlobalNamespace__ScreenCaptureCache__ScreenshotType;
 }
 namespace GlobalNamespace {
 class ScreenCaptureCache;
@@ -24,20 +23,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15327))
 // CS Name: ScreenCaptureCache::ScreenshotType
-struct CORDL_TYPE ____GlobalNamespace__ScreenCaptureCache__ScreenshotType : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__ScreenCaptureCache__ScreenshotType : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__ScreenCaptureCache__ScreenshotType(int32_t value__) noexcept;
+constexpr GlobalNamespace__ScreenCaptureCache__ScreenshotType(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__ScreenCaptureCache__ScreenshotType(____GlobalNamespace__ScreenCaptureCache__ScreenshotType const&) = default;
-                    constexpr ____GlobalNamespace__ScreenCaptureCache__ScreenshotType(____GlobalNamespace__ScreenCaptureCache__ScreenshotType&&) = default;
-                    constexpr ____GlobalNamespace__ScreenCaptureCache__ScreenshotType& operator=(____GlobalNamespace__ScreenCaptureCache__ScreenshotType const& o) {
+                    constexpr GlobalNamespace__ScreenCaptureCache__ScreenshotType(GlobalNamespace__ScreenCaptureCache__ScreenshotType const&) = default;
+                    constexpr GlobalNamespace__ScreenCaptureCache__ScreenshotType(GlobalNamespace__ScreenCaptureCache__ScreenshotType&&) = default;
+                    constexpr GlobalNamespace__ScreenCaptureCache__ScreenshotType& operator=(GlobalNamespace__ScreenCaptureCache__ScreenshotType const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__ScreenCaptureCache__ScreenshotType& operator=(____GlobalNamespace__ScreenCaptureCache__ScreenshotType&& o) noexcept {
+                    constexpr GlobalNamespace__ScreenCaptureCache__ScreenshotType& operator=(GlobalNamespace__ScreenCaptureCache__ScreenshotType&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -50,7 +49,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__ScreenCaptureCache__ScreenshotType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__ScreenCaptureCache__ScreenshotType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -58,15 +57,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__ScreenCaptureCache__ScreenshotType_Unwrapped : int32_t {
+enum class __GlobalNamespace__ScreenCaptureCache__ScreenshotType_Unwrapped : int32_t {
 __Game = 0,
 __Menu = 1,
 __Other = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__ScreenCaptureCache__ScreenshotType_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__ScreenCaptureCache__ScreenshotType_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__ScreenCaptureCache__ScreenshotType_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__ScreenCaptureCache__ScreenshotType_Unwrapped>(__instance);
 }
 
 
@@ -79,13 +78,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Game offset 0
-static ::GlobalNamespace::____GlobalNamespace__ScreenCaptureCache__ScreenshotType const Game;
+static GlobalNamespace::GlobalNamespace__ScreenCaptureCache__ScreenshotType const Game;
 
 /// @brief Field Menu offset 0
-static ::GlobalNamespace::____GlobalNamespace__ScreenCaptureCache__ScreenshotType const Menu;
+static GlobalNamespace::GlobalNamespace__ScreenCaptureCache__ScreenshotType const Menu;
 
 /// @brief Field Other offset 0
-static ::GlobalNamespace::____GlobalNamespace__ScreenCaptureCache__ScreenshotType const Other;
+static GlobalNamespace::GlobalNamespace__ScreenCaptureCache__ScreenshotType const Other;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -100,7 +99,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE ScreenCaptureCache : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using ScreenshotType = ::GlobalNamespace::____GlobalNamespace__ScreenCaptureCache__ScreenshotType;
+using ScreenshotType = GlobalNamespace::GlobalNamespace__ScreenCaptureCache__ScreenshotType;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -135,20 +134,20 @@ constexpr explicit ScreenCaptureCache(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Fields
 
- ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::____GlobalNamespace__ScreenCaptureCache__ScreenshotType,::UnityEngine::Texture2D> __declspec(property(get=__get__cache, put=__set__cache))  _cache;
+ System::Collections::Generic::Dictionary_2<GlobalNamespace::GlobalNamespace__ScreenCaptureCache__ScreenshotType,UnityEngine::Texture2D> __declspec(property(get=__get__cache, put=__set__cache))  _cache;
 
-constexpr void __set__cache(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::____GlobalNamespace__ScreenCaptureCache__ScreenshotType,::UnityEngine::Texture2D> value) ;
+constexpr void __set__cache(System::Collections::Generic::Dictionary_2<GlobalNamespace::GlobalNamespace__ScreenCaptureCache__ScreenshotType,UnityEngine::Texture2D> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::____GlobalNamespace__ScreenCaptureCache__ScreenshotType,::UnityEngine::Texture2D> __get__cache() const;
+constexpr System::Collections::Generic::Dictionary_2<GlobalNamespace::GlobalNamespace__ScreenCaptureCache__ScreenshotType,UnityEngine::Texture2D> __get__cache() const;
 
 
 // Methods
 
 /// @brief Method GetLastScreenshot addr 0x267a618 size 0x78 virtual false final false
- ::UnityEngine::Texture2D GetLastScreenshot(::GlobalNamespace::____GlobalNamespace__ScreenCaptureCache__ScreenshotType screenshotType) ;
+ UnityEngine::Texture2D GetLastScreenshot(GlobalNamespace::GlobalNamespace__ScreenCaptureCache__ScreenshotType screenshotType) ;
 
 /// @brief Method StoreScreenshot addr 0x267a2d4 size 0xac virtual false final false
- void StoreScreenshot(::GlobalNamespace::____GlobalNamespace__ScreenCaptureCache__ScreenshotType screenshotType, ::UnityEngine::Texture2D texture) ;
+ void StoreScreenshot(GlobalNamespace::GlobalNamespace__ScreenCaptureCache__ScreenshotType screenshotType, UnityEngine::Texture2D texture) ;
 
 // Ctor Parameters []
 explicit ScreenCaptureCache() ;
@@ -160,7 +159,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__ScreenCaptureCache__ScreenshotType, "", "ScreenCaptureCache/ScreenshotType");
-NEED_NO_BOX(::GlobalNamespace::ScreenCaptureCache);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ScreenCaptureCache, "", "ScreenCaptureCache");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__ScreenCaptureCache__ScreenshotType, "", "ScreenCaptureCache/ScreenshotType");
+NEED_NO_BOX(GlobalNamespace::ScreenCaptureCache);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenCaptureCache, "", "ScreenCaptureCache");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform {
 struct PeerConnectionState;
 }
@@ -58,27 +57,27 @@ constexpr void __set__ID_k__BackingField(uint64_t value) ;
 
 constexpr uint64_t __get__ID_k__BackingField() const;
 
- ::Oculus::Platform::PeerConnectionState __declspec(property(get=__get__State_k__BackingField, put=__set__State_k__BackingField))  _State_k__BackingField;
+ Oculus::Platform::PeerConnectionState __declspec(property(get=__get__State_k__BackingField, put=__set__State_k__BackingField))  _State_k__BackingField;
 
-constexpr void __set__State_k__BackingField(::Oculus::Platform::PeerConnectionState value) ;
+constexpr void __set__State_k__BackingField(Oculus::Platform::PeerConnectionState value) ;
 
-constexpr ::Oculus::Platform::PeerConnectionState __get__State_k__BackingField() const;
+constexpr Oculus::Platform::PeerConnectionState __get__State_k__BackingField() const;
 
 
 // Properties
 
  uint64_t __declspec(property(get=get_ID, put=set_ID))  ID;
 
- ::Oculus::Platform::PeerConnectionState __declspec(property(get=get_State, put=set_State))  State;
+ Oculus::Platform::PeerConnectionState __declspec(property(get=get_State, put=set_State))  State;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "id", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "state", ty: "::Oculus::Platform::PeerConnectionState", modifiers: "", def_value: None }]
-explicit NetworkingPeer(uint64_t id, ::Oculus::Platform::PeerConnectionState state) ;
+// Ctor Parameters [CppParam { name: "id", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "state", ty: "Oculus::Platform::PeerConnectionState", modifiers: "", def_value: None }]
+explicit NetworkingPeer(uint64_t id, Oculus::Platform::PeerConnectionState state) ;
 
 /// @brief Method .ctor addr 0x25a1b54 size 0x30 virtual false final false
- void _ctor(uint64_t id, ::Oculus::Platform::PeerConnectionState state) ;
+ void _ctor(uint64_t id, Oculus::Platform::PeerConnectionState state) ;
 
 /// @brief Method get_ID addr 0x25a1b84 size 0x8 virtual false final false
  uint64_t get_ID() ;
@@ -87,15 +86,14 @@ explicit NetworkingPeer(uint64_t id, ::Oculus::Platform::PeerConnectionState sta
  void set_ID(uint64_t value) ;
 
 /// @brief Method get_State addr 0x25a1b94 size 0x8 virtual false final false
- ::Oculus::Platform::PeerConnectionState get_State() ;
+ Oculus::Platform::PeerConnectionState get_State() ;
 
 /// @brief Method set_State addr 0x25a1b9c size 0x8 virtual false final false
- void set_State(::Oculus::Platform::PeerConnectionState value) ;
+ void set_State(Oculus::Platform::PeerConnectionState value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::NetworkingPeer);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::NetworkingPeer, "Oculus.Platform.Models", "NetworkingPeer");
+NEED_NO_BOX(Oculus::Platform::Models::NetworkingPeer);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::NetworkingPeer, "Oculus.Platform.Models", "NetworkingPeer");

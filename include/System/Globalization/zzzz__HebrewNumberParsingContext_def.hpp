@@ -2,9 +2,8 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System::Globalization {
-struct ____System__Globalization__HebrewNumber__HS;
+struct System__Globalization__HebrewNumber__HS;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -19,8 +18,8 @@ namespace System::Globalization {
 struct CORDL_TYPE HebrewNumberParsingContext : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "state", ty: "::System::Globalization::____System__Globalization__HebrewNumber__HS", modifiers: "", def_value: None }, CppParam { name: "result", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr HebrewNumberParsingContext(::System::Globalization::____System__Globalization__HebrewNumber__HS state, int32_t result) noexcept;
+// Ctor Parameters [CppParam { name: "state", ty: "System::Globalization::System__Globalization__HebrewNumber__HS", modifiers: "", def_value: None }, CppParam { name: "result", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr HebrewNumberParsingContext(System::Globalization::System__Globalization__HebrewNumber__HS state, int32_t result) noexcept;
 
 
                     constexpr HebrewNumberParsingContext(HebrewNumberParsingContext const&) = default;
@@ -53,11 +52,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::Globalization::____System__Globalization__HebrewNumber__HS __declspec(property(get=__get_state, put=__set_state))  state;
+ System::Globalization::System__Globalization__HebrewNumber__HS __declspec(property(get=__get_state, put=__set_state))  state;
 
-constexpr void __set_state(::System::Globalization::____System__Globalization__HebrewNumber__HS value) ;
+constexpr void __set_state(System::Globalization::System__Globalization__HebrewNumber__HS value) ;
 
-constexpr ::System::Globalization::____System__Globalization__HebrewNumber__HS __get_state() const;
+constexpr System::Globalization::System__Globalization__HebrewNumber__HS __get_state() const;
 
  int32_t __declspec(property(get=__get_result, put=__set_result))  result;
 
@@ -75,5 +74,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Globalization
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::HebrewNumberParsingContext, "System.Globalization", "HebrewNumberParsingContext");
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::HebrewNumberParsingContext, "System.Globalization", "HebrewNumberParsingContext");

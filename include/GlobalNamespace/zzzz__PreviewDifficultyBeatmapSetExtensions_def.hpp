@@ -2,16 +2,15 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
 namespace GlobalNamespace {
 class PreviewDifficultyBeatmapSet;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -60,15 +59,14 @@ constexpr explicit PreviewDifficultyBeatmapSetExtensions(void* ptr) noexcept : :
 // Methods
 
 /// @brief Method GetBeatmapCharacteristics addr 0x21c9740 size 0xec virtual false final false
-static ::ArrayW<::GlobalNamespace::BeatmapCharacteristicSO> GetBeatmapCharacteristics(::ArrayW<::GlobalNamespace::PreviewDifficultyBeatmapSet> previewDifficultyBeatmapSet) ;
+static ::ArrayW<GlobalNamespace::BeatmapCharacteristicSO> GetBeatmapCharacteristics(::ArrayW<GlobalNamespace::PreviewDifficultyBeatmapSet> previewDifficultyBeatmapSet) ;
 
 /// @brief Method GetPreviewDifficultyBeatmapSetWithout360Movement addr 0x21c982c size 0x144 virtual false final false
-static ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet> GetPreviewDifficultyBeatmapSetWithout360Movement(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet> previewDifficultyBeatmapSet) ;
+static System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PreviewDifficultyBeatmapSet> GetPreviewDifficultyBeatmapSetWithout360Movement(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PreviewDifficultyBeatmapSet> previewDifficultyBeatmapSet) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PreviewDifficultyBeatmapSetExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PreviewDifficultyBeatmapSetExtensions, "", "PreviewDifficultyBeatmapSetExtensions");
+NEED_NO_BOX(GlobalNamespace::PreviewDifficultyBeatmapSetExtensions);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PreviewDifficultyBeatmapSetExtensions, "", "PreviewDifficultyBeatmapSetExtensions");

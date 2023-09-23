@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeHandleMinusOneIsInvalid_def.hpp"
 #include <cstdint>
-namespace {
 namespace System::Diagnostics {
 class StackTrace;
 }
@@ -27,7 +26,7 @@ namespace System::Net::Sockets {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2302))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8207))
 // CS Name: System.Net.Sockets.SafeSocketHandle
-class CORDL_TYPE SafeSocketHandle : public ::Microsoft::Win32::SafeHandles::SafeHandleMinusOneIsInvalid {
+class CORDL_TYPE SafeSocketHandle : public Microsoft::Win32::SafeHandles::SafeHandleMinusOneIsInvalid {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -42,7 +41,7 @@ constexpr SafeSocketHandle(SafeSocketHandle const& ) noexcept = default;
 constexpr SafeSocketHandle(SafeSocketHandle&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SafeSocketHandle(void* ptr) noexcept : ::Microsoft::Win32::SafeHandles::SafeHandleMinusOneIsInvalid(ptr) {
+constexpr explicit SafeSocketHandle(void* ptr) noexcept : Microsoft::Win32::SafeHandles::SafeHandleMinusOneIsInvalid(ptr) {
 }
 
 
@@ -63,17 +62,17 @@ constexpr explicit SafeSocketHandle(void* ptr) noexcept : ::Microsoft::Win32::Sa
 
 // Fields
 
- ::System::Collections::Generic::List_1<::System::Threading::Thread> __declspec(property(get=__get_blocking_threads, put=__set_blocking_threads))  blocking_threads;
+ System::Collections::Generic::List_1<System::Threading::Thread> __declspec(property(get=__get_blocking_threads, put=__set_blocking_threads))  blocking_threads;
 
-constexpr void __set_blocking_threads(::System::Collections::Generic::List_1<::System::Threading::Thread> value) ;
+constexpr void __set_blocking_threads(System::Collections::Generic::List_1<System::Threading::Thread> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::System::Threading::Thread> __get_blocking_threads() const;
+constexpr System::Collections::Generic::List_1<System::Threading::Thread> __get_blocking_threads() const;
 
- ::System::Collections::Generic::Dictionary_2<::System::Threading::Thread,::System::Diagnostics::StackTrace> __declspec(property(get=__get_threads_stacktraces, put=__set_threads_stacktraces))  threads_stacktraces;
+ System::Collections::Generic::Dictionary_2<System::Threading::Thread,System::Diagnostics::StackTrace> __declspec(property(get=__get_threads_stacktraces, put=__set_threads_stacktraces))  threads_stacktraces;
 
-constexpr void __set_threads_stacktraces(::System::Collections::Generic::Dictionary_2<::System::Threading::Thread,::System::Diagnostics::StackTrace> value) ;
+constexpr void __set_threads_stacktraces(System::Collections::Generic::Dictionary_2<System::Threading::Thread,System::Diagnostics::StackTrace> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::System::Threading::Thread,::System::Diagnostics::StackTrace> __get_threads_stacktraces() const;
+constexpr System::Collections::Generic::Dictionary_2<System::Threading::Thread,System::Diagnostics::StackTrace> __get_threads_stacktraces() const;
 
  bool __declspec(property(get=__get_in_cleanup, put=__set_in_cleanup))  in_cleanup;
 
@@ -115,6 +114,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Sockets
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Sockets::SafeSocketHandle);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Sockets::SafeSocketHandle, "System.Net.Sockets", "SafeSocketHandle");
+NEED_NO_BOX(System::Net::Sockets::SafeSocketHandle);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SafeSocketHandle, "System.Net.Sockets", "SafeSocketHandle");

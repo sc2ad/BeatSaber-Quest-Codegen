@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Utilities {
-class IMemoable;
-}
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
+}
+namespace Org::BouncyCastle::Utilities {
+class IMemoable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Digests {
@@ -24,11 +23,11 @@ namespace Org::BouncyCastle::Crypto::Digests {
 class CORDL_TYPE Gost3411_2012Digest : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IDigest
-constexpr operator  ::Org::BouncyCastle::Crypto::IDigest() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IDigest
+constexpr operator  Org::BouncyCastle::Crypto::IDigest() const noexcept;
 
-/// @brief Convert operator to ::Org::BouncyCastle::Utilities::IMemoable
-constexpr operator  ::Org::BouncyCastle::Utilities::IMemoable() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Utilities::IMemoable
+constexpr operator  Org::BouncyCastle::Utilities::IMemoable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x58};
@@ -153,7 +152,7 @@ explicit Gost3411_2012Digest(::ArrayW<uint8_t> IV) ;
  ::StringW get_AlgorithmName() ;
 
 /// @brief Method Copy addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Utilities::IMemoable Copy() ;
+ Org::BouncyCastle::Utilities::IMemoable Copy() ;
 
 /// @brief Method DoFinal addr 0x1198108 size 0x178 virtual true final false
  int32_t DoFinal(::ArrayW<uint8_t> output, int32_t outOff) ;
@@ -168,7 +167,7 @@ explicit Gost3411_2012Digest(::ArrayW<uint8_t> IV) ;
  void Reset() ;
 
 /// @brief Method Reset addr 0x11984fc size 0x14c virtual true final true
- void Reset(::Org::BouncyCastle::Utilities::IMemoable other) ;
+ void Reset(Org::BouncyCastle::Utilities::IMemoable other) ;
 
 /// @brief Method Update addr 0x1198648 size 0x7c virtual true final true
  void Update(uint8_t input) ;
@@ -201,6 +200,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Digests
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest, "Org.BouncyCastle.Crypto.Digests", "Gost3411_2012Digest");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest, "Org.BouncyCastle.Crypto.Digests", "Gost3411_2012Digest");

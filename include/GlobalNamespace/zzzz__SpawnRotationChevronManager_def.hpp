@@ -4,33 +4,21 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+namespace GlobalNamespace {
+class SpawnRotationChevron;
+}
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
-}
-namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
-}
-namespace GlobalNamespace {
-class IAudioTimeSource;
+class BeatmapObjectData;
 }
 namespace GlobalNamespace {
 class SpawnRotationBeatmapEventData;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__SpawnRotationChevron__Pool;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
 }
 namespace UnityEngine {
 class AnimationCurve;
@@ -39,17 +27,28 @@ namespace GlobalNamespace {
 class BeatmapObjectSpawnController;
 }
 namespace GlobalNamespace {
-class BeatmapObjectData;
+class IAudioTimeSource;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace GlobalNamespace {
-class SpawnRotationChevron;
+class GlobalNamespace__SpawnRotationChevron__Pool;
+}
+namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-class SpawnRotationChevronManager;
+class GlobalNamespace__SpawnRotationChevronManager__DirectionData;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__SpawnRotationChevronManager__DirectionData;
+class SpawnRotationChevronManager;
 }
 // Type: ::DirectionData
 namespace GlobalNamespace {
@@ -57,47 +56,47 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5096))
 // CS Name: SpawnRotationChevronManager::DirectionData
-class CORDL_TYPE ____GlobalNamespace__SpawnRotationChevronManager__DirectionData : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__SpawnRotationChevronManager__DirectionData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____GlobalNamespace__SpawnRotationChevronManager__DirectionData() = default;
+virtual ~GlobalNamespace__SpawnRotationChevronManager__DirectionData() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__SpawnRotationChevronManager__DirectionData", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__SpawnRotationChevronManager__DirectionData(____GlobalNamespace__SpawnRotationChevronManager__DirectionData const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__SpawnRotationChevronManager__DirectionData", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__SpawnRotationChevronManager__DirectionData(GlobalNamespace__SpawnRotationChevronManager__DirectionData const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__SpawnRotationChevronManager__DirectionData", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__SpawnRotationChevronManager__DirectionData(____GlobalNamespace__SpawnRotationChevronManager__DirectionData&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__SpawnRotationChevronManager__DirectionData", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__SpawnRotationChevronManager__DirectionData(GlobalNamespace__SpawnRotationChevronManager__DirectionData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__SpawnRotationChevronManager__DirectionData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__SpawnRotationChevronManager__DirectionData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__SpawnRotationChevronManager__DirectionData& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__SpawnRotationChevronManager__DirectionData& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__SpawnRotationChevronManager__DirectionData& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__SpawnRotationChevronManager__DirectionData& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__SpawnRotationChevronManager__DirectionData& operator=(____GlobalNamespace__SpawnRotationChevronManager__DirectionData&& o) noexcept = default;
-  constexpr ____GlobalNamespace__SpawnRotationChevronManager__DirectionData& operator=(____GlobalNamespace__SpawnRotationChevronManager__DirectionData const& o) noexcept = default;
+  constexpr GlobalNamespace__SpawnRotationChevronManager__DirectionData& operator=(GlobalNamespace__SpawnRotationChevronManager__DirectionData&& o) noexcept = default;
+  constexpr GlobalNamespace__SpawnRotationChevronManager__DirectionData& operator=(GlobalNamespace__SpawnRotationChevronManager__DirectionData const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::GlobalNamespace::SpawnRotationChevron __declspec(property(get=__get_chevron, put=__set_chevron))  chevron;
+ GlobalNamespace::SpawnRotationChevron __declspec(property(get=__get_chevron, put=__set_chevron))  chevron;
 
-constexpr void __set_chevron(::GlobalNamespace::SpawnRotationChevron value) ;
+constexpr void __set_chevron(GlobalNamespace::SpawnRotationChevron value) ;
 
-constexpr ::GlobalNamespace::SpawnRotationChevron __get_chevron() const;
+constexpr GlobalNamespace::SpawnRotationChevron __get_chevron() const;
 
  bool __declspec(property(get=__get_fullyLid, put=__set_fullyLid))  fullyLid;
 
@@ -121,7 +120,7 @@ constexpr float_t __get_fadeInEndTime() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__SpawnRotationChevronManager__DirectionData() ;
+explicit GlobalNamespace__SpawnRotationChevronManager__DirectionData() ;
 
 /// @brief Method .ctor addr 0x226b8b8 size 0x8 virtual false final false
  void _ctor() ;
@@ -136,10 +135,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5097))
 // CS Name: SpawnRotationChevronManager
-class CORDL_TYPE SpawnRotationChevronManager : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SpawnRotationChevronManager : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using DirectionData = ::GlobalNamespace::____GlobalNamespace__SpawnRotationChevronManager__DirectionData;
+using DirectionData = GlobalNamespace::GlobalNamespace__SpawnRotationChevronManager__DirectionData;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x90};
@@ -153,7 +152,7 @@ constexpr SpawnRotationChevronManager(SpawnRotationChevronManager const& ) noexc
 constexpr SpawnRotationChevronManager(SpawnRotationChevronManager&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SpawnRotationChevronManager(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SpawnRotationChevronManager(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -198,71 +197,71 @@ constexpr void __set__cutOffsetTime(float_t value) ;
 
 constexpr float_t __get__cutOffsetTime() const;
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get__fadeInLightAmountCurve, put=__set__fadeInLightAmountCurve))  _fadeInLightAmountCurve;
+ UnityEngine::AnimationCurve __declspec(property(get=__get__fadeInLightAmountCurve, put=__set__fadeInLightAmountCurve))  _fadeInLightAmountCurve;
 
-constexpr void __set__fadeInLightAmountCurve(::UnityEngine::AnimationCurve value) ;
+constexpr void __set__fadeInLightAmountCurve(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get__fadeInLightAmountCurve() const;
+constexpr UnityEngine::AnimationCurve __get__fadeInLightAmountCurve() const;
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get__fadeOutLightAmountCurve, put=__set__fadeOutLightAmountCurve))  _fadeOutLightAmountCurve;
+ UnityEngine::AnimationCurve __declspec(property(get=__get__fadeOutLightAmountCurve, put=__set__fadeOutLightAmountCurve))  _fadeOutLightAmountCurve;
 
-constexpr void __set__fadeOutLightAmountCurve(::UnityEngine::AnimationCurve value) ;
+constexpr void __set__fadeOutLightAmountCurve(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get__fadeOutLightAmountCurve() const;
+constexpr UnityEngine::AnimationCurve __get__fadeOutLightAmountCurve() const;
 
- ::GlobalNamespace::____GlobalNamespace__SpawnRotationChevron__Pool __declspec(property(get=__get__chevronPool, put=__set__chevronPool))  _chevronPool;
+ GlobalNamespace::GlobalNamespace__SpawnRotationChevron__Pool __declspec(property(get=__get__chevronPool, put=__set__chevronPool))  _chevronPool;
 
-constexpr void __set__chevronPool(::GlobalNamespace::____GlobalNamespace__SpawnRotationChevron__Pool value) ;
+constexpr void __set__chevronPool(GlobalNamespace::GlobalNamespace__SpawnRotationChevron__Pool value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__SpawnRotationChevron__Pool __get__chevronPool() const;
+constexpr GlobalNamespace::GlobalNamespace__SpawnRotationChevron__Pool __get__chevronPool() const;
 
- ::GlobalNamespace::IAudioTimeSource __declspec(property(get=__get__audioTimeSyncController, put=__set__audioTimeSyncController))  _audioTimeSyncController;
+ GlobalNamespace::IAudioTimeSource __declspec(property(get=__get__audioTimeSyncController, put=__set__audioTimeSyncController))  _audioTimeSyncController;
 
-constexpr void __set__audioTimeSyncController(::GlobalNamespace::IAudioTimeSource value) ;
+constexpr void __set__audioTimeSyncController(GlobalNamespace::IAudioTimeSource value) ;
 
-constexpr ::GlobalNamespace::IAudioTimeSource __get__audioTimeSyncController() const;
+constexpr GlobalNamespace::IAudioTimeSource __get__audioTimeSyncController() const;
 
- ::GlobalNamespace::BeatmapObjectSpawnController __declspec(property(get=__get__beatmapObjectSpawnController, put=__set__beatmapObjectSpawnController))  _beatmapObjectSpawnController;
+ GlobalNamespace::BeatmapObjectSpawnController __declspec(property(get=__get__beatmapObjectSpawnController, put=__set__beatmapObjectSpawnController))  _beatmapObjectSpawnController;
 
-constexpr void __set__beatmapObjectSpawnController(::GlobalNamespace::BeatmapObjectSpawnController value) ;
+constexpr void __set__beatmapObjectSpawnController(GlobalNamespace::BeatmapObjectSpawnController value) ;
 
-constexpr ::GlobalNamespace::BeatmapObjectSpawnController __get__beatmapObjectSpawnController() const;
+constexpr GlobalNamespace::BeatmapObjectSpawnController __get__beatmapObjectSpawnController() const;
 
- ::GlobalNamespace::BeatmapCallbacksController __declspec(property(get=__get__beatmapCallbacksController, put=__set__beatmapCallbacksController))  _beatmapCallbacksController;
+ GlobalNamespace::BeatmapCallbacksController __declspec(property(get=__get__beatmapCallbacksController, put=__set__beatmapCallbacksController))  _beatmapCallbacksController;
 
-constexpr void __set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController value) ;
+constexpr void __set__beatmapCallbacksController(GlobalNamespace::BeatmapCallbacksController value) ;
 
-constexpr ::GlobalNamespace::BeatmapCallbacksController __get__beatmapCallbacksController() const;
+constexpr GlobalNamespace::BeatmapCallbacksController __get__beatmapCallbacksController() const;
 
- ::GlobalNamespace::BeatmapDataCallbackWrapper __declspec(property(get=__get__spawnRotationDataCallbackWrapper, put=__set__spawnRotationDataCallbackWrapper))  _spawnRotationDataCallbackWrapper;
+ GlobalNamespace::BeatmapDataCallbackWrapper __declspec(property(get=__get__spawnRotationDataCallbackWrapper, put=__set__spawnRotationDataCallbackWrapper))  _spawnRotationDataCallbackWrapper;
 
-constexpr void __set__spawnRotationDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper value) ;
+constexpr void __set__spawnRotationDataCallbackWrapper(GlobalNamespace::BeatmapDataCallbackWrapper value) ;
 
-constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper __get__spawnRotationDataCallbackWrapper() const;
+constexpr GlobalNamespace::BeatmapDataCallbackWrapper __get__spawnRotationDataCallbackWrapper() const;
 
- ::GlobalNamespace::BeatmapDataCallbackWrapper __declspec(property(get=__get__beatmapObjectDataCallbackWrapper, put=__set__beatmapObjectDataCallbackWrapper))  _beatmapObjectDataCallbackWrapper;
+ GlobalNamespace::BeatmapDataCallbackWrapper __declspec(property(get=__get__beatmapObjectDataCallbackWrapper, put=__set__beatmapObjectDataCallbackWrapper))  _beatmapObjectDataCallbackWrapper;
 
-constexpr void __set__beatmapObjectDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper value) ;
+constexpr void __set__beatmapObjectDataCallbackWrapper(GlobalNamespace::BeatmapDataCallbackWrapper value) ;
 
-constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapObjectDataCallbackWrapper() const;
+constexpr GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapObjectDataCallbackWrapper() const;
 
- ::System::Collections::Generic::Dictionary_2<int32_t,::GlobalNamespace::____GlobalNamespace__SpawnRotationChevronManager__DirectionData> __declspec(property(get=__get__directionToDataDictionary, put=__set__directionToDataDictionary))  _directionToDataDictionary;
+ System::Collections::Generic::Dictionary_2<int32_t,GlobalNamespace::GlobalNamespace__SpawnRotationChevronManager__DirectionData> __declspec(property(get=__get__directionToDataDictionary, put=__set__directionToDataDictionary))  _directionToDataDictionary;
 
-constexpr void __set__directionToDataDictionary(::System::Collections::Generic::Dictionary_2<int32_t,::GlobalNamespace::____GlobalNamespace__SpawnRotationChevronManager__DirectionData> value) ;
+constexpr void __set__directionToDataDictionary(System::Collections::Generic::Dictionary_2<int32_t,GlobalNamespace::GlobalNamespace__SpawnRotationChevronManager__DirectionData> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<int32_t,::GlobalNamespace::____GlobalNamespace__SpawnRotationChevronManager__DirectionData> __get__directionToDataDictionary() const;
+constexpr System::Collections::Generic::Dictionary_2<int32_t,GlobalNamespace::GlobalNamespace__SpawnRotationChevronManager__DirectionData> __get__directionToDataDictionary() const;
 
- ::System::Collections::Generic::HashSet_1<int32_t> __declspec(property(get=__get__activeDirections, put=__set__activeDirections))  _activeDirections;
+ System::Collections::Generic::HashSet_1<int32_t> __declspec(property(get=__get__activeDirections, put=__set__activeDirections))  _activeDirections;
 
-constexpr void __set__activeDirections(::System::Collections::Generic::HashSet_1<int32_t> value) ;
+constexpr void __set__activeDirections(System::Collections::Generic::HashSet_1<int32_t> value) ;
 
-constexpr ::System::Collections::Generic::HashSet_1<int32_t> __get__activeDirections() const;
+constexpr System::Collections::Generic::HashSet_1<int32_t> __get__activeDirections() const;
 
- ::System::Collections::Generic::List_1<int32_t> __declspec(property(get=__get__reusableDirectionsList, put=__set__reusableDirectionsList))  _reusableDirectionsList;
+ System::Collections::Generic::List_1<int32_t> __declspec(property(get=__get__reusableDirectionsList, put=__set__reusableDirectionsList))  _reusableDirectionsList;
 
-constexpr void __set__reusableDirectionsList(::System::Collections::Generic::List_1<int32_t> value) ;
+constexpr void __set__reusableDirectionsList(System::Collections::Generic::List_1<int32_t> value) ;
 
-constexpr ::System::Collections::Generic::List_1<int32_t> __get__reusableDirectionsList() const;
+constexpr System::Collections::Generic::List_1<int32_t> __get__reusableDirectionsList() const;
 
  float_t __declspec(property(get=__get__moveDuration, put=__set__moveDuration))  _moveDuration;
 
@@ -295,10 +294,10 @@ constexpr float_t __get__currentSpawnRotation() const;
  void OnDestroy() ;
 
 /// @brief Method HandleBeatmapObjectCallback addr 0x226b55c size 0x35c virtual false final false
- void HandleBeatmapObjectCallback(::GlobalNamespace::BeatmapObjectData beatmapObjectData) ;
+ void HandleBeatmapObjectCallback(GlobalNamespace::BeatmapObjectData beatmapObjectData) ;
 
 /// @brief Method HandleSpawnRotationBeatmapEvent addr 0x226b8c0 size 0x1c virtual false final false
- void HandleSpawnRotationBeatmapEvent(::GlobalNamespace::SpawnRotationBeatmapEventData beatmapEventData) ;
+ void HandleSpawnRotationBeatmapEvent(GlobalNamespace::SpawnRotationBeatmapEventData beatmapEventData) ;
 
 /// @brief Method HandleBeatmapObjectSpawnControllerDidInit addr 0x226a8b8 size 0x144 virtual false final false
  void HandleBeatmapObjectSpawnControllerDidInit() ;
@@ -316,8 +315,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SpawnRotationChevronManager);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SpawnRotationChevronManager, "", "SpawnRotationChevronManager");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__SpawnRotationChevronManager__DirectionData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__SpawnRotationChevronManager__DirectionData, "", "SpawnRotationChevronManager/DirectionData");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__SpawnRotationChevronManager__DirectionData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__SpawnRotationChevronManager__DirectionData, "", "SpawnRotationChevronManager/DirectionData");
+NEED_NO_BOX(GlobalNamespace::SpawnRotationChevronManager);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpawnRotationChevronManager, "", "SpawnRotationChevronManager");

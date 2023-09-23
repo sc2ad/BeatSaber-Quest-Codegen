@@ -2,7 +2,6 @@
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class Exception;
 }
@@ -16,7 +15,7 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2560))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1804))
 // CS Name: Org.BouncyCastle.Utilities.IO.Pem.PemGenerationException
-class CORDL_TYPE PemGenerationException : public ::System::Exception {
+class CORDL_TYPE PemGenerationException : public System::Exception {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr PemGenerationException(PemGenerationException const& ) noexcept = defa
 constexpr PemGenerationException(PemGenerationException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PemGenerationException(void* ptr) noexcept : ::System::Exception(ptr) {
+constexpr explicit PemGenerationException(void* ptr) noexcept : System::Exception(ptr) {
 }
 
 
@@ -64,16 +63,15 @@ explicit PemGenerationException(::StringW message) ;
 /// @brief Method .ctor addr 0x10d3678 size 0x68 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "exception", ty: "::System::Exception", modifiers: "", def_value: None }]
-explicit PemGenerationException(::StringW message, ::System::Exception exception) ;
+// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "exception", ty: "System::Exception", modifiers: "", def_value: None }]
+explicit PemGenerationException(::StringW message, System::Exception exception) ;
 
 /// @brief Method .ctor addr 0x10d36e0 size 0x70 virtual false final false
- void _ctor(::StringW message, ::System::Exception exception) ;
+ void _ctor(::StringW message, System::Exception exception) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities::IO::Pem
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::IO::Pem::PemGenerationException);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::IO::Pem::PemGenerationException, "Org.BouncyCastle.Utilities.IO.Pem", "PemGenerationException");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::IO::Pem::PemGenerationException);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::Pem::PemGenerationException, "Org.BouncyCastle.Utilities.IO.Pem", "PemGenerationException");

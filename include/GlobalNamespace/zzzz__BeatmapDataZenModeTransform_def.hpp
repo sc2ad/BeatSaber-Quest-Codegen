@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace GlobalNamespace {
-class BeatmapDataItem;
-}
 namespace GlobalNamespace {
 class IReadonlyBeatmapData;
+}
+namespace GlobalNamespace {
+class BeatmapDataItem;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -55,15 +54,14 @@ constexpr explicit BeatmapDataZenModeTransform(void* ptr) noexcept : ::bs_hook::
 // Methods
 
 /// @brief Method CreateTransformedData addr 0x21bb128 size 0xec virtual false final false
-static ::GlobalNamespace::IReadonlyBeatmapData CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData beatmapData) ;
+static GlobalNamespace::IReadonlyBeatmapData CreateTransformedData(GlobalNamespace::IReadonlyBeatmapData beatmapData) ;
 
 /// @brief Method <CreateTransformedData>g__ProcessData|0_0 addr 0x21bb480 size 0xb0 virtual false final false
-static ::GlobalNamespace::BeatmapDataItem _CreateTransformedData_g__ProcessData_0_0(::GlobalNamespace::BeatmapDataItem beatmapDataItem) ;
+static GlobalNamespace::BeatmapDataItem _CreateTransformedData_g__ProcessData_0_0(GlobalNamespace::BeatmapDataItem beatmapDataItem) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BeatmapDataZenModeTransform);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapDataZenModeTransform, "", "BeatmapDataZenModeTransform");
+NEED_NO_BOX(GlobalNamespace::BeatmapDataZenModeTransform);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataZenModeTransform, "", "BeatmapDataZenModeTransform");

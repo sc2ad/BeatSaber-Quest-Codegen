@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__InvalidCastException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities {
 class MemoableResetException;
@@ -13,7 +12,7 @@ namespace Org::BouncyCastle::Utilities {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2425))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1835))
 // CS Name: Org.BouncyCastle.Utilities.MemoableResetException
-class CORDL_TYPE MemoableResetException : public ::System::InvalidCastException {
+class CORDL_TYPE MemoableResetException : public System::InvalidCastException {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr MemoableResetException(MemoableResetException const& ) noexcept = defa
 constexpr MemoableResetException(MemoableResetException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MemoableResetException(void* ptr) noexcept : ::System::InvalidCastException(ptr) {
+constexpr explicit MemoableResetException(void* ptr) noexcept : System::InvalidCastException(ptr) {
 }
 
 
@@ -59,6 +58,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::MemoableResetException);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::MemoableResetException, "Org.BouncyCastle.Utilities", "MemoableResetException");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::MemoableResetException);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::MemoableResetException, "Org.BouncyCastle.Utilities", "MemoableResetException");

@@ -2,15 +2,14 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
 namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -59,15 +58,14 @@ constexpr explicit MultipleDisplayUtilities(void* ptr) noexcept : ::bs_hook::Il2
 // Methods
 
 /// @brief Method GetRelativeMousePositionForDrag addr 0x2c0499c size 0x68 virtual false final false
-static bool GetRelativeMousePositionForDrag(::UnityEngine::EventSystems::PointerEventData eventData, ByRef<::UnityEngine::Vector2> position) ;
+static bool GetRelativeMousePositionForDrag(UnityEngine::EventSystems::PointerEventData eventData, ByRef<UnityEngine::Vector2> position) ;
 
 /// @brief Method RelativeMouseAtScaled addr 0x2c04a04 size 0x468 virtual false final false
-static ::UnityEngine::Vector3 RelativeMouseAtScaled(::UnityEngine::Vector2 position) ;
+static UnityEngine::Vector3 RelativeMouseAtScaled(UnityEngine::Vector2 position) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UI
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UI::MultipleDisplayUtilities);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::MultipleDisplayUtilities, "UnityEngine.UI", "MultipleDisplayUtilities");
+NEED_NO_BOX(UnityEngine::UI::MultipleDisplayUtilities);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::MultipleDisplayUtilities, "UnityEngine.UI", "MultipleDisplayUtilities");

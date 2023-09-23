@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -70,23 +69,23 @@ constexpr void __set__useTransformOffset(bool value) ;
 
 constexpr bool __get__useTransformOffset() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__translateOffset, put=__set__translateOffset))  _translateOffset;
+ UnityEngine::Vector3 __declspec(property(get=__get__translateOffset, put=__set__translateOffset))  _translateOffset;
 
-constexpr void __set__translateOffset(::UnityEngine::Vector3 value) ;
+constexpr void __set__translateOffset(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__translateOffset() const;
+constexpr UnityEngine::Vector3 __get__translateOffset() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__rotateOffset, put=__set__rotateOffset))  _rotateOffset;
+ UnityEngine::Vector3 __declspec(property(get=__get__rotateOffset, put=__set__rotateOffset))  _rotateOffset;
 
-constexpr void __set__rotateOffset(::UnityEngine::Vector3 value) ;
+constexpr void __set__rotateOffset(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__rotateOffset() const;
+constexpr UnityEngine::Vector3 __get__rotateOffset() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__scaleOffset, put=__set__scaleOffset))  _scaleOffset;
+ UnityEngine::Vector3 __declspec(property(get=__get__scaleOffset, put=__set__scaleOffset))  _scaleOffset;
 
-constexpr void __set__scaleOffset(::UnityEngine::Vector3 value) ;
+constexpr void __set__scaleOffset(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__scaleOffset() const;
+constexpr UnityEngine::Vector3 __get__scaleOffset() const;
 
 
 // Methods
@@ -101,6 +100,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_InputObjectPreset);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_InputObjectPreset, "HoudiniEngineUnity", "HEU_InputObjectPreset");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_InputObjectPreset);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputObjectPreset, "HoudiniEngineUnity", "HEU_InputObjectPreset");

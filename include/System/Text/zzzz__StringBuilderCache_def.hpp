@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Text {
 class StringBuilder;
 }
@@ -53,28 +52,27 @@ constexpr explicit StringBuilderCache(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Fields
 
-static ::System::Text::StringBuilder __declspec(property(get=__get_t_cachedInstance, put=__set_t_cachedInstance))  t_cachedInstance;
+static System::Text::StringBuilder __declspec(property(get=__get_t_cachedInstance, put=__set_t_cachedInstance))  t_cachedInstance;
 
-static void __set_t_cachedInstance(::System::Text::StringBuilder value) ;
+static void __set_t_cachedInstance(System::Text::StringBuilder value) ;
 
-static ::System::Text::StringBuilder __get_t_cachedInstance() ;
+static System::Text::StringBuilder __get_t_cachedInstance() ;
 
 
 // Methods
 
 /// @brief Method Acquire addr 0x26cb7f0 size 0xc8 virtual false final false
-static ::System::Text::StringBuilder Acquire(int32_t capacity) ;
+static System::Text::StringBuilder Acquire(int32_t capacity) ;
 
 /// @brief Method Release addr 0x26cf08c size 0x78 virtual false final false
-static void Release(::System::Text::StringBuilder sb) ;
+static void Release(System::Text::StringBuilder sb) ;
 
 /// @brief Method GetStringAndRelease addr 0x26cb8b8 size 0x3c virtual false final false
-static ::StringW GetStringAndRelease(::System::Text::StringBuilder sb) ;
+static ::StringW GetStringAndRelease(System::Text::StringBuilder sb) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Text
-} // end anonymous namespace
-NEED_NO_BOX(::System::Text::StringBuilderCache);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::StringBuilderCache, "System.Text", "StringBuilderCache");
+NEED_NO_BOX(System::Text::StringBuilderCache);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::StringBuilderCache, "System.Text", "StringBuilderCache");

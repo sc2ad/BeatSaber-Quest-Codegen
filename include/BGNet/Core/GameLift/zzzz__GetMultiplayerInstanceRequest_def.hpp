@@ -3,22 +3,21 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
+namespace GlobalNamespace {
+struct BeatmapLevelSelectionMask;
+}
+namespace GlobalNamespace {
+struct GameplayServerConfiguration;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace GlobalNamespace {
+struct GlobalNamespace__AuthenticationToken__Platform;
+}
+namespace GlobalNamespace {
 struct ServiceEnvironment;
-}
-namespace GlobalNamespace {
-struct GameplayServerConfiguration;
-}
-namespace GlobalNamespace {
-struct BeatmapLevelSelectionMask;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__AuthenticationToken__Platform;
 }
 // Forward declare root types
 namespace BGNet::Core::GameLift {
@@ -33,8 +32,8 @@ namespace BGNet::Core::GameLift {
 struct CORDL_TYPE GetMultiplayerInstanceRequest : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "version", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "serviceEnvironment", ty: "::GlobalNamespace::ServiceEnvironment", modifiers: "", def_value: None }, CppParam { name: "singleUseAuthToken", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "beatmapLevelSelectionMask", ty: "::GlobalNamespace::BeatmapLevelSelectionMask", modifiers: "", def_value: None }, CppParam { name: "gameplayServerConfiguration", ty: "::GlobalNamespace::GameplayServerConfiguration", modifiers: "", def_value: None }, CppParam { name: "userId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "privateGameSecret", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "privateGameCode", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "platform", ty: "::GlobalNamespace::____GlobalNamespace__AuthenticationToken__Platform", modifiers: "", def_value: None }, CppParam { name: "authUserId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "gameliftRegionLatencies", ty: "::System::Collections::Generic::Dictionary_2<::StringW,int64_t>", modifiers: "", def_value: None }, CppParam { name: "ticketId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "placementId", ty: "::StringW", modifiers: "", def_value: None }]
-constexpr GetMultiplayerInstanceRequest(::StringW version, ::GlobalNamespace::ServiceEnvironment serviceEnvironment, ::StringW singleUseAuthToken, ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask, ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration, ::StringW userId, ::StringW privateGameSecret, ::StringW privateGameCode, ::GlobalNamespace::____GlobalNamespace__AuthenticationToken__Platform platform, ::StringW authUserId, ::System::Collections::Generic::Dictionary_2<::StringW,int64_t> gameliftRegionLatencies, ::StringW ticketId, ::StringW placementId) noexcept;
+// Ctor Parameters [CppParam { name: "version", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "serviceEnvironment", ty: "GlobalNamespace::ServiceEnvironment", modifiers: "", def_value: None }, CppParam { name: "singleUseAuthToken", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "beatmapLevelSelectionMask", ty: "GlobalNamespace::BeatmapLevelSelectionMask", modifiers: "", def_value: None }, CppParam { name: "gameplayServerConfiguration", ty: "GlobalNamespace::GameplayServerConfiguration", modifiers: "", def_value: None }, CppParam { name: "userId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "privateGameSecret", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "privateGameCode", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "platform", ty: "GlobalNamespace::GlobalNamespace__AuthenticationToken__Platform", modifiers: "", def_value: None }, CppParam { name: "authUserId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "gameliftRegionLatencies", ty: "System::Collections::Generic::Dictionary_2<::StringW,int64_t>", modifiers: "", def_value: None }, CppParam { name: "ticketId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "placementId", ty: "::StringW", modifiers: "", def_value: None }]
+constexpr GetMultiplayerInstanceRequest(::StringW version, GlobalNamespace::ServiceEnvironment serviceEnvironment, ::StringW singleUseAuthToken, GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration, ::StringW userId, ::StringW privateGameSecret, ::StringW privateGameCode, GlobalNamespace::GlobalNamespace__AuthenticationToken__Platform platform, ::StringW authUserId, System::Collections::Generic::Dictionary_2<::StringW,int64_t> gameliftRegionLatencies, ::StringW ticketId, ::StringW placementId) noexcept;
 
 
                     constexpr GetMultiplayerInstanceRequest(GetMultiplayerInstanceRequest const&) = default;
@@ -73,11 +72,11 @@ constexpr void __set_version(::StringW value) ;
 
 constexpr ::StringW __get_version() const;
 
- ::GlobalNamespace::ServiceEnvironment __declspec(property(get=__get_serviceEnvironment, put=__set_serviceEnvironment))  serviceEnvironment;
+ GlobalNamespace::ServiceEnvironment __declspec(property(get=__get_serviceEnvironment, put=__set_serviceEnvironment))  serviceEnvironment;
 
-constexpr void __set_serviceEnvironment(::GlobalNamespace::ServiceEnvironment value) ;
+constexpr void __set_serviceEnvironment(GlobalNamespace::ServiceEnvironment value) ;
 
-constexpr ::GlobalNamespace::ServiceEnvironment __get_serviceEnvironment() const;
+constexpr GlobalNamespace::ServiceEnvironment __get_serviceEnvironment() const;
 
  ::StringW __declspec(property(get=__get_singleUseAuthToken, put=__set_singleUseAuthToken))  singleUseAuthToken;
 
@@ -85,17 +84,17 @@ constexpr void __set_singleUseAuthToken(::StringW value) ;
 
 constexpr ::StringW __get_singleUseAuthToken() const;
 
- ::GlobalNamespace::BeatmapLevelSelectionMask __declspec(property(get=__get_beatmapLevelSelectionMask, put=__set_beatmapLevelSelectionMask))  beatmapLevelSelectionMask;
+ GlobalNamespace::BeatmapLevelSelectionMask __declspec(property(get=__get_beatmapLevelSelectionMask, put=__set_beatmapLevelSelectionMask))  beatmapLevelSelectionMask;
 
-constexpr void __set_beatmapLevelSelectionMask(::GlobalNamespace::BeatmapLevelSelectionMask value) ;
+constexpr void __set_beatmapLevelSelectionMask(GlobalNamespace::BeatmapLevelSelectionMask value) ;
 
-constexpr ::GlobalNamespace::BeatmapLevelSelectionMask __get_beatmapLevelSelectionMask() const;
+constexpr GlobalNamespace::BeatmapLevelSelectionMask __get_beatmapLevelSelectionMask() const;
 
- ::GlobalNamespace::GameplayServerConfiguration __declspec(property(get=__get_gameplayServerConfiguration, put=__set_gameplayServerConfiguration))  gameplayServerConfiguration;
+ GlobalNamespace::GameplayServerConfiguration __declspec(property(get=__get_gameplayServerConfiguration, put=__set_gameplayServerConfiguration))  gameplayServerConfiguration;
 
-constexpr void __set_gameplayServerConfiguration(::GlobalNamespace::GameplayServerConfiguration value) ;
+constexpr void __set_gameplayServerConfiguration(GlobalNamespace::GameplayServerConfiguration value) ;
 
-constexpr ::GlobalNamespace::GameplayServerConfiguration __get_gameplayServerConfiguration() const;
+constexpr GlobalNamespace::GameplayServerConfiguration __get_gameplayServerConfiguration() const;
 
  ::StringW __declspec(property(get=__get_userId, put=__set_userId))  userId;
 
@@ -115,11 +114,11 @@ constexpr void __set_privateGameCode(::StringW value) ;
 
 constexpr ::StringW __get_privateGameCode() const;
 
- ::GlobalNamespace::____GlobalNamespace__AuthenticationToken__Platform __declspec(property(get=__get_platform, put=__set_platform))  platform;
+ GlobalNamespace::GlobalNamespace__AuthenticationToken__Platform __declspec(property(get=__get_platform, put=__set_platform))  platform;
 
-constexpr void __set_platform(::GlobalNamespace::____GlobalNamespace__AuthenticationToken__Platform value) ;
+constexpr void __set_platform(GlobalNamespace::GlobalNamespace__AuthenticationToken__Platform value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__AuthenticationToken__Platform __get_platform() const;
+constexpr GlobalNamespace::GlobalNamespace__AuthenticationToken__Platform __get_platform() const;
 
  ::StringW __declspec(property(get=__get_authUserId, put=__set_authUserId))  authUserId;
 
@@ -127,11 +126,11 @@ constexpr void __set_authUserId(::StringW value) ;
 
 constexpr ::StringW __get_authUserId() const;
 
- ::System::Collections::Generic::Dictionary_2<::StringW,int64_t> __declspec(property(get=__get_gameliftRegionLatencies, put=__set_gameliftRegionLatencies))  gameliftRegionLatencies;
+ System::Collections::Generic::Dictionary_2<::StringW,int64_t> __declspec(property(get=__get_gameliftRegionLatencies, put=__set_gameliftRegionLatencies))  gameliftRegionLatencies;
 
-constexpr void __set_gameliftRegionLatencies(::System::Collections::Generic::Dictionary_2<::StringW,int64_t> value) ;
+constexpr void __set_gameliftRegionLatencies(System::Collections::Generic::Dictionary_2<::StringW,int64_t> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::StringW,int64_t> __get_gameliftRegionLatencies() const;
+constexpr System::Collections::Generic::Dictionary_2<::StringW,int64_t> __get_gameliftRegionLatencies() const;
 
  ::StringW __declspec(property(get=__get_ticketId, put=__set_ticketId))  ticketId;
 
@@ -149,11 +148,10 @@ constexpr ::StringW __get_placementId() const;
 // Methods
 
 /// @brief Method .ctor addr 0xdd34e8 size 0x58 virtual false final false
- void _ctor(::StringW version, ::GlobalNamespace::ServiceEnvironment serviceEnvironment, ::StringW userId, ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask, ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration, ::GlobalNamespace::____GlobalNamespace__AuthenticationToken__Platform platform, ::StringW authUserId, ::StringW singleUseAuthToken, ::StringW privateGameSecret, ::StringW privateGameCode, ::System::Collections::Generic::Dictionary_2<::StringW,int64_t> gameliftRegionLatencies, ::StringW ticketId, ::StringW placementId) ;
+ void _ctor(::StringW version, GlobalNamespace::ServiceEnvironment serviceEnvironment, ::StringW userId, GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration, GlobalNamespace::GlobalNamespace__AuthenticationToken__Platform platform, ::StringW authUserId, ::StringW singleUseAuthToken, ::StringW privateGameSecret, ::StringW privateGameCode, System::Collections::Generic::Dictionary_2<::StringW,int64_t> gameliftRegionLatencies, ::StringW ticketId, ::StringW placementId) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def BGNet::Core::GameLift
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest, "BGNet.Core.GameLift", "GetMultiplayerInstanceRequest");
+DEFINE_IL2CPP_ARG_TYPE(BGNet::Core::GameLift::GetMultiplayerInstanceRequest, "BGNet.Core.GameLift", "GetMultiplayerInstanceRequest");

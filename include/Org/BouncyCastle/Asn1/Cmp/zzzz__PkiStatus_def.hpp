@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {
 struct PkiStatus;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Granted offset 0
-static ::Org::BouncyCastle::Asn1::Cmp::PkiStatus const Granted;
+static Org::BouncyCastle::Asn1::Cmp::PkiStatus const Granted;
 
 /// @brief Field GrantedWithMods offset 0
-static ::Org::BouncyCastle::Asn1::Cmp::PkiStatus const GrantedWithMods;
+static Org::BouncyCastle::Asn1::Cmp::PkiStatus const GrantedWithMods;
 
 /// @brief Field Rejection offset 0
-static ::Org::BouncyCastle::Asn1::Cmp::PkiStatus const Rejection;
+static Org::BouncyCastle::Asn1::Cmp::PkiStatus const Rejection;
 
 /// @brief Field Waiting offset 0
-static ::Org::BouncyCastle::Asn1::Cmp::PkiStatus const Waiting;
+static Org::BouncyCastle::Asn1::Cmp::PkiStatus const Waiting;
 
 /// @brief Field RevocationWarning offset 0
-static ::Org::BouncyCastle::Asn1::Cmp::PkiStatus const RevocationWarning;
+static Org::BouncyCastle::Asn1::Cmp::PkiStatus const RevocationWarning;
 
 /// @brief Field RevocationNotification offset 0
-static ::Org::BouncyCastle::Asn1::Cmp::PkiStatus const RevocationNotification;
+static Org::BouncyCastle::Asn1::Cmp::PkiStatus const RevocationNotification;
 
 /// @brief Field KeyUpdateWarning offset 0
-static ::Org::BouncyCastle::Asn1::Cmp::PkiStatus const KeyUpdateWarning;
+static Org::BouncyCastle::Asn1::Cmp::PkiStatus const KeyUpdateWarning;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::Cmp
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Cmp::PkiStatus, "Org.BouncyCastle.Asn1.Cmp", "PkiStatus");
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Cmp::PkiStatus, "Org.BouncyCastle.Asn1.Cmp", "PkiStatus");

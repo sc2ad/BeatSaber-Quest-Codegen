@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 struct LazyState;
@@ -75,38 +74,37 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field NoneViaConstructor offset 0
-static ::System::LazyState const NoneViaConstructor;
+static System::LazyState const NoneViaConstructor;
 
 /// @brief Field NoneViaFactory offset 0
-static ::System::LazyState const NoneViaFactory;
+static System::LazyState const NoneViaFactory;
 
 /// @brief Field NoneException offset 0
-static ::System::LazyState const NoneException;
+static System::LazyState const NoneException;
 
 /// @brief Field PublicationOnlyViaConstructor offset 0
-static ::System::LazyState const PublicationOnlyViaConstructor;
+static System::LazyState const PublicationOnlyViaConstructor;
 
 /// @brief Field PublicationOnlyViaFactory offset 0
-static ::System::LazyState const PublicationOnlyViaFactory;
+static System::LazyState const PublicationOnlyViaFactory;
 
 /// @brief Field PublicationOnlyWait offset 0
-static ::System::LazyState const PublicationOnlyWait;
+static System::LazyState const PublicationOnlyWait;
 
 /// @brief Field PublicationOnlyException offset 0
-static ::System::LazyState const PublicationOnlyException;
+static System::LazyState const PublicationOnlyException;
 
 /// @brief Field ExecutionAndPublicationViaConstructor offset 0
-static ::System::LazyState const ExecutionAndPublicationViaConstructor;
+static System::LazyState const ExecutionAndPublicationViaConstructor;
 
 /// @brief Field ExecutionAndPublicationViaFactory offset 0
-static ::System::LazyState const ExecutionAndPublicationViaFactory;
+static System::LazyState const ExecutionAndPublicationViaFactory;
 
 /// @brief Field ExecutionAndPublicationException offset 0
-static ::System::LazyState const ExecutionAndPublicationException;
+static System::LazyState const ExecutionAndPublicationException;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::LazyState, "System", "LazyState");
+DEFINE_IL2CPP_ARG_TYPE(System::LazyState, "System", "LazyState");

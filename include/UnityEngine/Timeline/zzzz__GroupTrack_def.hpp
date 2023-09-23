@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/Timeline/zzzz__TrackAsset_def.hpp"
-namespace {
 namespace UnityEngine::Playables {
 struct PlayableBinding;
 }
@@ -19,7 +18,7 @@ namespace UnityEngine::Timeline {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14073))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14109))
 // CS Name: UnityEngine.Timeline.GroupTrack
-class CORDL_TYPE GroupTrack : public ::UnityEngine::Timeline::TrackAsset {
+class CORDL_TYPE GroupTrack : public UnityEngine::Timeline::TrackAsset {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr GroupTrack(GroupTrack const& ) noexcept = default;
 constexpr GroupTrack(GroupTrack&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GroupTrack(void* ptr) noexcept : ::UnityEngine::Timeline::TrackAsset(ptr) {
+constexpr explicit GroupTrack(void* ptr) noexcept : UnityEngine::Timeline::TrackAsset(ptr) {
 }
 
 
@@ -55,7 +54,7 @@ constexpr explicit GroupTrack(void* ptr) noexcept : ::UnityEngine::Timeline::Tra
 
 // Properties
 
- ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding> __declspec(property(get=get_outputs))  outputs;
+ System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding> __declspec(property(get=get_outputs))  outputs;
 
 
 // Methods
@@ -64,7 +63,7 @@ constexpr explicit GroupTrack(void* ptr) noexcept : ::UnityEngine::Timeline::Tra
  bool CanCompileClips() ;
 
 /// @brief Method get_outputs addr 0x2ad18f4 size 0x58 virtual true final false
- ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding> get_outputs() ;
+ System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding> get_outputs() ;
 
 // Ctor Parameters []
 explicit GroupTrack() ;
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Timeline::GroupTrack);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::GroupTrack, "UnityEngine.Timeline", "GroupTrack");
+NEED_NO_BOX(UnityEngine::Timeline::GroupTrack);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::GroupTrack, "UnityEngine.Timeline", "GroupTrack");

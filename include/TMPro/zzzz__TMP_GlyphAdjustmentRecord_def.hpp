@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine::TextCore::LowLevel {
 struct GlyphAdjustmentRecord;
 }
@@ -22,8 +21,8 @@ namespace TMPro {
 struct CORDL_TYPE TMP_GlyphAdjustmentRecord : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "m_GlyphIndex", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_GlyphValueRecord", ty: "::TMPro::TMP_GlyphValueRecord", modifiers: "", def_value: None }]
-constexpr TMP_GlyphAdjustmentRecord(uint32_t m_GlyphIndex, ::TMPro::TMP_GlyphValueRecord m_GlyphValueRecord) noexcept;
+// Ctor Parameters [CppParam { name: "m_GlyphIndex", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_GlyphValueRecord", ty: "TMPro::TMP_GlyphValueRecord", modifiers: "", def_value: None }]
+constexpr TMP_GlyphAdjustmentRecord(uint32_t m_GlyphIndex, TMPro::TMP_GlyphValueRecord m_GlyphValueRecord) noexcept;
 
 
                     constexpr TMP_GlyphAdjustmentRecord(TMP_GlyphAdjustmentRecord const&) = default;
@@ -62,18 +61,18 @@ constexpr void __set_m_GlyphIndex(uint32_t value) ;
 
 constexpr uint32_t __get_m_GlyphIndex() const;
 
- ::TMPro::TMP_GlyphValueRecord __declspec(property(get=__get_m_GlyphValueRecord, put=__set_m_GlyphValueRecord))  m_GlyphValueRecord;
+ TMPro::TMP_GlyphValueRecord __declspec(property(get=__get_m_GlyphValueRecord, put=__set_m_GlyphValueRecord))  m_GlyphValueRecord;
 
-constexpr void __set_m_GlyphValueRecord(::TMPro::TMP_GlyphValueRecord value) ;
+constexpr void __set_m_GlyphValueRecord(TMPro::TMP_GlyphValueRecord value) ;
 
-constexpr ::TMPro::TMP_GlyphValueRecord __get_m_GlyphValueRecord() const;
+constexpr TMPro::TMP_GlyphValueRecord __get_m_GlyphValueRecord() const;
 
 
 // Properties
 
  uint32_t __declspec(property(get=get_glyphIndex, put=set_glyphIndex))  glyphIndex;
 
- ::TMPro::TMP_GlyphValueRecord __declspec(property(get=get_glyphValueRecord, put=set_glyphValueRecord))  glyphValueRecord;
+ TMPro::TMP_GlyphValueRecord __declspec(property(get=get_glyphValueRecord, put=set_glyphValueRecord))  glyphValueRecord;
 
 
 // Methods
@@ -85,20 +84,19 @@ constexpr ::TMPro::TMP_GlyphValueRecord __get_m_GlyphValueRecord() const;
  void set_glyphIndex(uint32_t value) ;
 
 /// @brief Method get_glyphValueRecord addr 0x2a7a858 size 0xc virtual false final false
- ::TMPro::TMP_GlyphValueRecord get_glyphValueRecord() ;
+ TMPro::TMP_GlyphValueRecord get_glyphValueRecord() ;
 
 /// @brief Method set_glyphValueRecord addr 0x2a7a864 size 0xc virtual false final false
- void set_glyphValueRecord(::TMPro::TMP_GlyphValueRecord value) ;
+ void set_glyphValueRecord(TMPro::TMP_GlyphValueRecord value) ;
 
 /// @brief Method .ctor addr 0x2a780a4 size 0x10 virtual false final false
- void _ctor(uint32_t glyphIndex, ::TMPro::TMP_GlyphValueRecord glyphValueRecord) ;
+ void _ctor(uint32_t glyphIndex, TMPro::TMP_GlyphValueRecord glyphValueRecord) ;
 
 /// @brief Method .ctor addr 0x2a7a870 size 0x54 virtual false final false
- void _ctor(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord adjustmentRecord) ;
+ void _ctor(UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord adjustmentRecord) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_GlyphAdjustmentRecord, "TMPro", "TMP_GlyphAdjustmentRecord");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_GlyphAdjustmentRecord, "TMPro", "TMP_GlyphAdjustmentRecord");

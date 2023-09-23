@@ -3,7 +3,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -20,8 +19,8 @@ namespace UnityEngine {
 struct CORDL_TYPE HumanLimit : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "m_Min", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Max", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Center", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_AxisLength", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_UseDefaultValues", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr HumanLimit(::UnityEngine::Vector3 m_Min, ::UnityEngine::Vector3 m_Max, ::UnityEngine::Vector3 m_Center, float_t m_AxisLength, int32_t m_UseDefaultValues) noexcept;
+// Ctor Parameters [CppParam { name: "m_Min", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Max", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Center", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_AxisLength", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_UseDefaultValues", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr HumanLimit(UnityEngine::Vector3 m_Min, UnityEngine::Vector3 m_Max, UnityEngine::Vector3 m_Center, float_t m_AxisLength, int32_t m_UseDefaultValues) noexcept;
 
 
                     constexpr HumanLimit(HumanLimit const&) = default;
@@ -54,23 +53,23 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_m_Min, put=__set_m_Min))  m_Min;
+ UnityEngine::Vector3 __declspec(property(get=__get_m_Min, put=__set_m_Min))  m_Min;
 
-constexpr void __set_m_Min(::UnityEngine::Vector3 value) ;
+constexpr void __set_m_Min(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_m_Min() const;
+constexpr UnityEngine::Vector3 __get_m_Min() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_m_Max, put=__set_m_Max))  m_Max;
+ UnityEngine::Vector3 __declspec(property(get=__get_m_Max, put=__set_m_Max))  m_Max;
 
-constexpr void __set_m_Max(::UnityEngine::Vector3 value) ;
+constexpr void __set_m_Max(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_m_Max() const;
+constexpr UnityEngine::Vector3 __get_m_Max() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_m_Center, put=__set_m_Center))  m_Center;
+ UnityEngine::Vector3 __declspec(property(get=__get_m_Center, put=__set_m_Center))  m_Center;
 
-constexpr void __set_m_Center(::UnityEngine::Vector3 value) ;
+constexpr void __set_m_Center(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_m_Center() const;
+constexpr UnityEngine::Vector3 __get_m_Center() const;
 
  float_t __declspec(property(get=__get_m_AxisLength, put=__set_m_AxisLength))  m_AxisLength;
 
@@ -88,5 +87,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::HumanLimit, "UnityEngine", "HumanLimit");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HumanLimit, "UnityEngine", "HumanLimit");

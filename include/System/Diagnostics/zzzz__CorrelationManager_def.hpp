@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Collections {
 class Stack;
 }
@@ -51,7 +50,7 @@ constexpr explicit CorrelationManager(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Properties
 
- ::System::Collections::Stack __declspec(property(get=get_LogicalOperationStack))  LogicalOperationStack;
+ System::Collections::Stack __declspec(property(get=get_LogicalOperationStack))  LogicalOperationStack;
 
 
 // Methods
@@ -63,15 +62,14 @@ explicit CorrelationManager() ;
  void _ctor() ;
 
 /// @brief Method get_LogicalOperationStack addr 0x27d99f8 size 0x4 virtual false final false
- ::System::Collections::Stack get_LogicalOperationStack() ;
+ System::Collections::Stack get_LogicalOperationStack() ;
 
 /// @brief Method GetLogicalOperationStack addr 0x27d99fc size 0xc0 virtual false final false
- ::System::Collections::Stack GetLogicalOperationStack() ;
+ System::Collections::Stack GetLogicalOperationStack() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Diagnostics
-} // end anonymous namespace
-NEED_NO_BOX(::System::Diagnostics::CorrelationManager);
-DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::CorrelationManager, "System.Diagnostics", "CorrelationManager");
+NEED_NO_BOX(System::Diagnostics::CorrelationManager);
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::CorrelationManager, "System.Diagnostics", "CorrelationManager");

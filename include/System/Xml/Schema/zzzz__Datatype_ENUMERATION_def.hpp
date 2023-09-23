@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_NMTOKEN_def.hpp"
-namespace {
 namespace System::Xml {
 struct XmlTokenizedType;
 }
@@ -15,7 +14,7 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11599))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11622))
 // CS Name: System.Xml.Schema.Datatype_ENUMERATION
-class CORDL_TYPE Datatype_ENUMERATION : public ::System::Xml::Schema::Datatype_NMTOKEN {
+class CORDL_TYPE Datatype_ENUMERATION : public System::Xml::Schema::Datatype_NMTOKEN {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr Datatype_ENUMERATION(Datatype_ENUMERATION const& ) noexcept = default;
 constexpr Datatype_ENUMERATION(Datatype_ENUMERATION&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Datatype_ENUMERATION(void* ptr) noexcept : ::System::Xml::Schema::Datatype_NMTOKEN(ptr) {
+constexpr explicit Datatype_ENUMERATION(void* ptr) noexcept : System::Xml::Schema::Datatype_NMTOKEN(ptr) {
 }
 
 
@@ -51,13 +50,13 @@ constexpr explicit Datatype_ENUMERATION(void* ptr) noexcept : ::System::Xml::Sch
 
 // Properties
 
- ::System::Xml::XmlTokenizedType __declspec(property(get=get_TokenizedType))  TokenizedType;
+ System::Xml::XmlTokenizedType __declspec(property(get=get_TokenizedType))  TokenizedType;
 
 
 // Methods
 
 /// @brief Method get_TokenizedType addr 0x272ba50 size 0x8 virtual true final false
- ::System::Xml::XmlTokenizedType get_TokenizedType() ;
+ System::Xml::XmlTokenizedType get_TokenizedType() ;
 
 // Ctor Parameters []
 explicit Datatype_ENUMERATION() ;
@@ -69,6 +68,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::Datatype_ENUMERATION);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::Datatype_ENUMERATION, "System.Xml.Schema", "Datatype_ENUMERATION");
+NEED_NO_BOX(System::Xml::Schema::Datatype_ENUMERATION);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::Datatype_ENUMERATION, "System.Xml.Schema", "Datatype_ENUMERATION");

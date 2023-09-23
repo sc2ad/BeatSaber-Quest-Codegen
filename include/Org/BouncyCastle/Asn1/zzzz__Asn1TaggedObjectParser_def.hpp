@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Convertible;
 }
@@ -18,8 +17,8 @@ namespace Org::BouncyCastle::Asn1 {
 class CORDL_TYPE Asn1TaggedObjectParser : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Asn1::IAsn1Convertible
-constexpr operator  ::Org::BouncyCastle::Asn1::IAsn1Convertible() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Asn1::IAsn1Convertible
+constexpr operator  Org::BouncyCastle::Asn1::IAsn1Convertible() const noexcept;
 
 ~Asn1TaggedObjectParser() = default;
 
@@ -39,12 +38,11 @@ constexpr explicit Asn1TaggedObjectParser(void* ptr) noexcept : ::cordl_internal
  int32_t get_TagNo() ;
 
 /// @brief Method GetObjectParser addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Asn1::IAsn1Convertible GetObjectParser(int32_t tag, bool isExplicit) ;
+ Org::BouncyCastle::Asn1::IAsn1Convertible GetObjectParser(int32_t tag, bool isExplicit) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser, "Org.BouncyCastle.Asn1", "Asn1TaggedObjectParser");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Asn1TaggedObjectParser);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1TaggedObjectParser, "Org.BouncyCastle.Asn1", "Asn1TaggedObjectParser");

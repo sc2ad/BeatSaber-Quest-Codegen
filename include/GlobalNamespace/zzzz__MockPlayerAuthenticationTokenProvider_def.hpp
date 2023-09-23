@@ -2,28 +2,27 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
-}
-namespace GlobalNamespace {
-class XPlatformAccessTokenData;
-}
 namespace System::Threading {
 struct CancellationToken;
-}
-namespace GlobalNamespace {
-struct AuthenticationToken;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__AuthenticationToken__Platform;
 }
 namespace GlobalNamespace {
 struct PlatformEnvironment;
 }
 namespace GlobalNamespace {
+struct GlobalNamespace__AuthenticationToken__Platform;
+}
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
+}
+namespace GlobalNamespace {
 class IAuthenticationTokenProvider;
+}
+namespace GlobalNamespace {
+struct AuthenticationToken;
+}
+namespace GlobalNamespace {
+class XPlatformAccessTokenData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -38,8 +37,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE MockPlayerAuthenticationTokenProvider : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IAuthenticationTokenProvider
-constexpr operator  ::GlobalNamespace::IAuthenticationTokenProvider() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IAuthenticationTokenProvider
+constexpr operator  GlobalNamespace::IAuthenticationTokenProvider() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -98,11 +97,11 @@ constexpr void __set__userName_k__BackingField(::StringW value) ;
 
 constexpr ::StringW __get__userName_k__BackingField() const;
 
- ::GlobalNamespace::____GlobalNamespace__AuthenticationToken__Platform __declspec(property(get=__get__platform_k__BackingField, put=__set__platform_k__BackingField))  _platform_k__BackingField;
+ GlobalNamespace::GlobalNamespace__AuthenticationToken__Platform __declspec(property(get=__get__platform_k__BackingField, put=__set__platform_k__BackingField))  _platform_k__BackingField;
 
-constexpr void __set__platform_k__BackingField(::GlobalNamespace::____GlobalNamespace__AuthenticationToken__Platform value) ;
+constexpr void __set__platform_k__BackingField(GlobalNamespace::GlobalNamespace__AuthenticationToken__Platform value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__AuthenticationToken__Platform __get__platform_k__BackingField() const;
+constexpr GlobalNamespace::GlobalNamespace__AuthenticationToken__Platform __get__platform_k__BackingField() const;
 
 
 // Properties
@@ -111,7 +110,7 @@ constexpr ::GlobalNamespace::____GlobalNamespace__AuthenticationToken__Platform 
 
  ::StringW __declspec(property(get=get_userName))  userName;
 
- ::GlobalNamespace::____GlobalNamespace__AuthenticationToken__Platform __declspec(property(get=get_platform))  platform;
+ GlobalNamespace::GlobalNamespace__AuthenticationToken__Platform __declspec(property(get=get_platform))  platform;
 
 
 // Methods
@@ -123,7 +122,7 @@ constexpr ::GlobalNamespace::____GlobalNamespace__AuthenticationToken__Platform 
  ::StringW get_userName() ;
 
 /// @brief Method get_platform addr 0x227977c size 0x8 virtual true final true
- ::GlobalNamespace::____GlobalNamespace__AuthenticationToken__Platform get_platform() ;
+ GlobalNamespace::GlobalNamespace__AuthenticationToken__Platform get_platform() ;
 
 // Ctor Parameters [CppParam { name: "userId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: None }]
 explicit MockPlayerAuthenticationTokenProvider(::StringW userId, ::StringW userName, ::StringW password) ;
@@ -132,18 +131,17 @@ explicit MockPlayerAuthenticationTokenProvider(::StringW userId, ::StringW userN
  void _ctor(::StringW userId, ::StringW userName, ::StringW password) ;
 
 /// @brief Method GetAuthenticationToken addr 0x227981c size 0xa0 virtual true final true
- ::System::Threading::Tasks::Task_1<::GlobalNamespace::AuthenticationToken> GetAuthenticationToken() ;
+ System::Threading::Tasks::Task_1<GlobalNamespace::AuthenticationToken> GetAuthenticationToken() ;
 
 /// @brief Method GetTokenPlatform addr 0x22798bc size 0x8 virtual true final true
- ::GlobalNamespace::____GlobalNamespace__AuthenticationToken__Platform GetTokenPlatform(::GlobalNamespace::PlatformEnvironment tokenPlatformEnvironment) ;
+ GlobalNamespace::GlobalNamespace__AuthenticationToken__Platform GetTokenPlatform(GlobalNamespace::PlatformEnvironment tokenPlatformEnvironment) ;
 
 /// @brief Method GetXPlatformAccessToken addr 0x22798c4 size 0xb4 virtual true final true
- ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData> GetXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken, bool skipCache) ;
+ System::Threading::Tasks::Task_1<GlobalNamespace::XPlatformAccessTokenData> GetXPlatformAccessToken(System::Threading::CancellationToken cancellationToken, bool skipCache) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MockPlayerAuthenticationTokenProvider);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MockPlayerAuthenticationTokenProvider, "", "MockPlayerAuthenticationTokenProvider");
+NEED_NO_BOX(GlobalNamespace::MockPlayerAuthenticationTokenProvider);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayerAuthenticationTokenProvider, "", "MockPlayerAuthenticationTokenProvider");

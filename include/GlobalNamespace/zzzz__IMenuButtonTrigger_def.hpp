@@ -1,6 +1,5 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace System {
 class Action;
 }
@@ -27,15 +26,14 @@ constexpr explicit IMenuButtonTrigger(void* ptr) noexcept : ::cordl_internals::I
 // Methods
 
 /// @brief Method add_menuButtonTriggeredEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void add_menuButtonTriggeredEvent(::System::Action value) ;
+ void add_menuButtonTriggeredEvent(System::Action value) ;
 
 /// @brief Method remove_menuButtonTriggeredEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void remove_menuButtonTriggeredEvent(::System::Action value) ;
+ void remove_menuButtonTriggeredEvent(System::Action value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IMenuButtonTrigger);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IMenuButtonTrigger, "", "IMenuButtonTrigger");
+NEED_NO_BOX(GlobalNamespace::IMenuButtonTrigger);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IMenuButtonTrigger, "", "IMenuButtonTrigger");

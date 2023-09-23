@@ -3,11 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine::ProBuilder::KdTree {
-template<typename T>
-class ITypeMath_1;
-}
 namespace UnityEngine::ProBuilder::KdTree {
 template<typename TItem,typename TDistance>
 class INearestNeighbourList_2;
@@ -15,6 +10,10 @@ class INearestNeighbourList_2;
 namespace UnityEngine::ProBuilder::KdTree {
 template<typename TItem,typename TPriority>
 class PriorityQueue_2;
+}
+namespace UnityEngine::ProBuilder::KdTree {
+template<typename T>
+class ITypeMath_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::KdTree {
@@ -41,8 +40,8 @@ template<::cordl_internals::il2cpp_reference_type TItem,::cordl_internals::il2cp
 class CORDL_TYPE NearestNeighbourList_2<TItem,TDistance> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::ProBuilder::KdTree::INearestNeighbourList_2<TItem,TDistance>
-constexpr operator  ::UnityEngine::ProBuilder::KdTree::INearestNeighbourList_2<TItem,TDistance>() const noexcept;
+/// @brief Convert operator to UnityEngine::ProBuilder::KdTree::INearestNeighbourList_2<TItem,TDistance>
+constexpr operator  UnityEngine::ProBuilder::KdTree::INearestNeighbourList_2<TItem,TDistance>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -77,17 +76,17 @@ constexpr explicit NearestNeighbourList_2(void* ptr) noexcept : ::bs_hook::Il2Cp
 
 // Fields
 
- ::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem,TDistance> __declspec(property(get=__get_queue, put=__set_queue))  queue;
+ UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem,TDistance> __declspec(property(get=__get_queue, put=__set_queue))  queue;
 
-constexpr void __set_queue(::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem,TDistance> value) ;
+constexpr void __set_queue(UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem,TDistance> value) ;
 
-constexpr ::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem,TDistance> __get_queue() const;
+constexpr UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem,TDistance> __get_queue() const;
 
- ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance> __declspec(property(get=__get_distanceMath, put=__set_distanceMath))  distanceMath;
+ UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance> __declspec(property(get=__get_distanceMath, put=__set_distanceMath))  distanceMath;
 
-constexpr void __set_distanceMath(::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance> value) ;
+constexpr void __set_distanceMath(UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance> value) ;
 
-constexpr ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance> __get_distanceMath() const;
+constexpr UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance> __get_distanceMath() const;
 
  int32_t __declspec(property(get=__get_maxCapacity, put=__set_maxCapacity))  maxCapacity;
 
@@ -107,11 +106,11 @@ constexpr int32_t __get_maxCapacity() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "maxCapacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "distanceMath", ty: "::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance>", modifiers: "", def_value: None }]
-explicit NearestNeighbourList_2(int32_t maxCapacity, ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance> distanceMath) ;
+// Ctor Parameters [CppParam { name: "maxCapacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "distanceMath", ty: "UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance>", modifiers: "", def_value: None }]
+explicit NearestNeighbourList_2(int32_t maxCapacity, UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance> distanceMath) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(int32_t maxCapacity, ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance> distanceMath) ;
+ void _ctor(int32_t maxCapacity, UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance> distanceMath) ;
 
 /// @brief Method get_MaxCapacity addr 0x0 size 0xffffffffffffffff virtual true final true
  int32_t get_MaxCapacity() ;
@@ -149,8 +148,8 @@ template<::cordl_internals::il2cpp_reference_type TItem>
 class CORDL_TYPE NearestNeighbourList_2<TItem,float_t> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::ProBuilder::KdTree::INearestNeighbourList_2<TItem,float_t>
-constexpr operator  ::UnityEngine::ProBuilder::KdTree::INearestNeighbourList_2<TItem,float_t>() const noexcept;
+/// @brief Convert operator to UnityEngine::ProBuilder::KdTree::INearestNeighbourList_2<TItem,float_t>
+constexpr operator  UnityEngine::ProBuilder::KdTree::INearestNeighbourList_2<TItem,float_t>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -185,17 +184,17 @@ constexpr explicit NearestNeighbourList_2(void* ptr) noexcept : ::bs_hook::Il2Cp
 
 // Fields
 
- ::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem,float_t> __declspec(property(get=__get_queue, put=__set_queue))  queue;
+ UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem,float_t> __declspec(property(get=__get_queue, put=__set_queue))  queue;
 
-constexpr void __set_queue(::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem,float_t> value) ;
+constexpr void __set_queue(UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem,float_t> value) ;
 
-constexpr ::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem,float_t> __get_queue() const;
+constexpr UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem,float_t> __get_queue() const;
 
- ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<float_t> __declspec(property(get=__get_distanceMath, put=__set_distanceMath))  distanceMath;
+ UnityEngine::ProBuilder::KdTree::ITypeMath_1<float_t> __declspec(property(get=__get_distanceMath, put=__set_distanceMath))  distanceMath;
 
-constexpr void __set_distanceMath(::UnityEngine::ProBuilder::KdTree::ITypeMath_1<float_t> value) ;
+constexpr void __set_distanceMath(UnityEngine::ProBuilder::KdTree::ITypeMath_1<float_t> value) ;
 
-constexpr ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<float_t> __get_distanceMath() const;
+constexpr UnityEngine::ProBuilder::KdTree::ITypeMath_1<float_t> __get_distanceMath() const;
 
  int32_t __declspec(property(get=__get_maxCapacity, put=__set_maxCapacity))  maxCapacity;
 
@@ -215,11 +214,11 @@ constexpr int32_t __get_maxCapacity() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "maxCapacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "distanceMath", ty: "::UnityEngine::ProBuilder::KdTree::ITypeMath_1<float_t>", modifiers: "", def_value: None }]
-explicit NearestNeighbourList_2(int32_t maxCapacity, ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<float_t> distanceMath) ;
+// Ctor Parameters [CppParam { name: "maxCapacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "distanceMath", ty: "UnityEngine::ProBuilder::KdTree::ITypeMath_1<float_t>", modifiers: "", def_value: None }]
+explicit NearestNeighbourList_2(int32_t maxCapacity, UnityEngine::ProBuilder::KdTree::ITypeMath_1<float_t> distanceMath) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(int32_t maxCapacity, ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<float_t> distanceMath) ;
+ void _ctor(int32_t maxCapacity, UnityEngine::ProBuilder::KdTree::ITypeMath_1<float_t> distanceMath) ;
 
 /// @brief Method get_MaxCapacity addr 0x0 size 0xffffffffffffffff virtual true final true
  int32_t get_MaxCapacity() ;
@@ -246,5 +245,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder::KdTree
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2, "UnityEngine.ProBuilder.KdTree", "NearestNeighbourList`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2, "UnityEngine.ProBuilder.KdTree", "NearestNeighbourList`2");

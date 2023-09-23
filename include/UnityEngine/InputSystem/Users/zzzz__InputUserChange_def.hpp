@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem::Users {
 struct InputUserChange;
@@ -78,47 +77,46 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Added offset 0
-static ::UnityEngine::InputSystem::Users::InputUserChange const Added;
+static UnityEngine::InputSystem::Users::InputUserChange const Added;
 
 /// @brief Field Removed offset 0
-static ::UnityEngine::InputSystem::Users::InputUserChange const Removed;
+static UnityEngine::InputSystem::Users::InputUserChange const Removed;
 
 /// @brief Field DevicePaired offset 0
-static ::UnityEngine::InputSystem::Users::InputUserChange const DevicePaired;
+static UnityEngine::InputSystem::Users::InputUserChange const DevicePaired;
 
 /// @brief Field DeviceUnpaired offset 0
-static ::UnityEngine::InputSystem::Users::InputUserChange const DeviceUnpaired;
+static UnityEngine::InputSystem::Users::InputUserChange const DeviceUnpaired;
 
 /// @brief Field DeviceLost offset 0
-static ::UnityEngine::InputSystem::Users::InputUserChange const DeviceLost;
+static UnityEngine::InputSystem::Users::InputUserChange const DeviceLost;
 
 /// @brief Field DeviceRegained offset 0
-static ::UnityEngine::InputSystem::Users::InputUserChange const DeviceRegained;
+static UnityEngine::InputSystem::Users::InputUserChange const DeviceRegained;
 
 /// @brief Field AccountChanged offset 0
-static ::UnityEngine::InputSystem::Users::InputUserChange const AccountChanged;
+static UnityEngine::InputSystem::Users::InputUserChange const AccountChanged;
 
 /// @brief Field AccountNameChanged offset 0
-static ::UnityEngine::InputSystem::Users::InputUserChange const AccountNameChanged;
+static UnityEngine::InputSystem::Users::InputUserChange const AccountNameChanged;
 
 /// @brief Field AccountSelectionInProgress offset 0
-static ::UnityEngine::InputSystem::Users::InputUserChange const AccountSelectionInProgress;
+static UnityEngine::InputSystem::Users::InputUserChange const AccountSelectionInProgress;
 
 /// @brief Field AccountSelectionCanceled offset 0
-static ::UnityEngine::InputSystem::Users::InputUserChange const AccountSelectionCanceled;
+static UnityEngine::InputSystem::Users::InputUserChange const AccountSelectionCanceled;
 
 /// @brief Field AccountSelectionComplete offset 0
-static ::UnityEngine::InputSystem::Users::InputUserChange const AccountSelectionComplete;
+static UnityEngine::InputSystem::Users::InputUserChange const AccountSelectionComplete;
 
 /// @brief Field ControlSchemeChanged offset 0
-static ::UnityEngine::InputSystem::Users::InputUserChange const ControlSchemeChanged;
+static UnityEngine::InputSystem::Users::InputUserChange const ControlSchemeChanged;
 
 /// @brief Field ControlsChanged offset 0
-static ::UnityEngine::InputSystem::Users::InputUserChange const ControlsChanged;
+static UnityEngine::InputSystem::Users::InputUserChange const ControlsChanged;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Users
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Users::InputUserChange, "UnityEngine.InputSystem.Users", "InputUserChange");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Users::InputUserChange, "UnityEngine.InputSystem.Users", "InputUserChange");

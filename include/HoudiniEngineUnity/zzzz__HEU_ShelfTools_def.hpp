@@ -5,25 +5,24 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 class GameObject;
 }
-namespace HoudiniEngineUnity {
-class HEU_Shelf;
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace HoudiniEngineUnity {
 class HEU_ShelfToolData;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace HoudiniEngineUnity {
+class HEU_Shelf;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine {
-struct Quaternion;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -71,11 +70,11 @@ constexpr explicit HEU_ShelfTools(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
-static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Shelf> __declspec(property(get=__get__shelves, put=__set__shelves))  _shelves;
+static System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Shelf> __declspec(property(get=__get__shelves, put=__set__shelves))  _shelves;
 
-static void __set__shelves(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Shelf> value) ;
+static void __set__shelves(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Shelf> value) ;
 
-static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Shelf> __get__shelves() ;
+static System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Shelf> __get__shelves() ;
 
 static bool __declspec(property(get=__get__shelvesLoaded, put=__set__shelvesLoaded))  _shelvesLoaded;
 
@@ -117,10 +116,10 @@ static int32_t GetCurrentShelfIndex() ;
 static void SetCurrentShelf(int32_t index) ;
 
 /// @brief Method GetShelf addr 0x205f15c size 0xcc virtual false final false
-static ::HoudiniEngineUnity::HEU_Shelf GetShelf(int32_t index) ;
+static HoudiniEngineUnity::HEU_Shelf GetShelf(int32_t index) ;
 
 /// @brief Method GetShelf addr 0x205f228 size 0x1b8 virtual false final false
-static ::HoudiniEngineUnity::HEU_Shelf GetShelf(::StringW shelfName) ;
+static HoudiniEngineUnity::HEU_Shelf GetShelf(::StringW shelfName) ;
 
 /// @brief Method GetShelfStorageEntry addr 0x205f3e0 size 0x5c virtual false final false
 static ::StringW GetShelfStorageEntry(::StringW shelfName, ::StringW shelfPath) ;
@@ -132,16 +131,16 @@ static void GetSplitShelfEntry(::StringW shelfEntry, ByRef<::StringW> shelfName,
 static void LoadShelves() ;
 
 /// @brief Method LoadToolsFromDirectory addr 0x205fd5c size 0x2ac virtual false final false
-static bool LoadToolsFromDirectory(::StringW folderPath, ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ShelfToolData>> tools) ;
+static bool LoadToolsFromDirectory(::StringW folderPath, ByRef<System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ShelfToolData>> tools) ;
 
 /// @brief Method LoadToolFromJsonFile addr 0x2060294 size 0x1c8 virtual false final false
-static ::HoudiniEngineUnity::HEU_ShelfToolData LoadToolFromJsonFile(::StringW jsonFilePath) ;
+static HoudiniEngineUnity::HEU_ShelfToolData LoadToolFromJsonFile(::StringW jsonFilePath) ;
 
 /// @brief Method LoadToolFromJsonString addr 0x206045c size 0x990 virtual false final false
-static ::HoudiniEngineUnity::HEU_ShelfToolData LoadToolFromJsonString(::StringW json, ::StringW jsonFilePath) ;
+static HoudiniEngineUnity::HEU_ShelfToolData LoadToolFromJsonString(::StringW json, ::StringW jsonFilePath) ;
 
 /// @brief Method AddShelf addr 0x205fc54 size 0x108 virtual false final false
-static ::HoudiniEngineUnity::HEU_Shelf AddShelf(::StringW shelfName, ::StringW shelfPath) ;
+static HoudiniEngineUnity::HEU_Shelf AddShelf(::StringW shelfName, ::StringW shelfPath) ;
 
 /// @brief Method RemoveShelf addr 0x20610f4 size 0x144 virtual false final false
 static void RemoveShelf(int32_t shelfIndex) ;
@@ -153,31 +152,31 @@ static void SaveShelf() ;
 static void ExecuteTool(int32_t toolSlot) ;
 
 /// @brief Method ExecuteToolGenerator addr 0x20615bc size 0x210 virtual false final false
-static void ExecuteToolGenerator(::StringW toolName, ::StringW toolPath, ::UnityEngine::Vector3 targetPosition, ::UnityEngine::Quaternion targetRotation, ::UnityEngine::Vector3 targetScale) ;
+static void ExecuteToolGenerator(::StringW toolName, ::StringW toolPath, UnityEngine::Vector3 targetPosition, UnityEngine::Quaternion targetRotation, UnityEngine::Vector3 targetScale) ;
 
 /// @brief Method IsValidInput addr 0x20624cc size 0xfc virtual false final false
-static bool IsValidInput(::UnityEngine::GameObject gameObject) ;
+static bool IsValidInput(UnityEngine::GameObject gameObject) ;
 
 /// @brief Method ExecuteToolNoInput addr 0x20617cc size 0x1b8 virtual false final false
 static void ExecuteToolNoInput(::StringW toolName, ::StringW toolPath) ;
 
 /// @brief Method ExecuteToolOperatorSingle addr 0x2061984 size 0x5fc virtual false final false
-static void ExecuteToolOperatorSingle(::StringW toolName, ::StringW toolPath, ::ArrayW<::UnityEngine::GameObject> inputObjects) ;
+static void ExecuteToolOperatorSingle(::StringW toolName, ::StringW toolPath, ::ArrayW<UnityEngine::GameObject> inputObjects) ;
 
 /// @brief Method ExecuteToolOperatorMultiple addr 0x2061f80 size 0x4e0 virtual false final false
-static void ExecuteToolOperatorMultiple(::StringW toolName, ::StringW toolPath, ::ArrayW<::UnityEngine::GameObject> inputObjects) ;
+static void ExecuteToolOperatorMultiple(::StringW toolName, ::StringW toolPath, ::ArrayW<UnityEngine::GameObject> inputObjects) ;
 
 /// @brief Method ExecuteToolBatch addr 0x2062460 size 0x6c virtual false final false
-static void ExecuteToolBatch(::StringW toolName, ::StringW toolPath, ::ArrayW<::UnityEngine::GameObject> batchObjects) ;
+static void ExecuteToolBatch(::StringW toolName, ::StringW toolPath, ::ArrayW<UnityEngine::GameObject> batchObjects) ;
 
 /// @brief Method GetToolResourcePath addr 0x20625c8 size 0xe0 virtual false final false
-static ::StringW GetToolResourcePath(::HoudiniEngineUnity::HEU_ShelfToolData tool, ::StringW inPath, ::StringW ext) ;
+static ::StringW GetToolResourcePath(HoudiniEngineUnity::HEU_ShelfToolData tool, ::StringW inPath, ::StringW ext) ;
 
 /// @brief Method GetToolIconPath addr 0x2060fa0 size 0x154 virtual false final false
-static ::StringW GetToolIconPath(::HoudiniEngineUnity::HEU_ShelfToolData tool, ::StringW inPath) ;
+static ::StringW GetToolIconPath(HoudiniEngineUnity::HEU_ShelfToolData tool, ::StringW inPath) ;
 
 /// @brief Method GetToolAssetPath addr 0x2060e44 size 0x15c virtual false final false
-static ::StringW GetToolAssetPath(::HoudiniEngineUnity::HEU_ShelfToolData tool, ::StringW inPath) ;
+static ::StringW GetToolAssetPath(HoudiniEngineUnity::HEU_ShelfToolData tool, ::StringW inPath) ;
 
 // Ctor Parameters []
 explicit HEU_ShelfTools() ;
@@ -189,6 +188,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_ShelfTools);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_ShelfTools, "HoudiniEngineUnity", "HEU_ShelfTools");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_ShelfTools);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ShelfTools, "HoudiniEngineUnity", "HEU_ShelfTools");

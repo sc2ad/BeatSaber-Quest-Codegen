@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Collections::Generic {
 class BitHelper;
@@ -12,7 +11,7 @@ class BitHelper;
 namespace System::Collections::Generic {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14592))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8382))
 // CS Name: System.Collections.Generic.BitHelper
 class CORDL_TYPE BitHelper : public ::bs_hook::Il2CppWrapperType {
 public:
@@ -80,28 +79,27 @@ constexpr bool __get__useStackAlloc() const;
 // Ctor Parameters [CppParam { name: "bitArrayPtr", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
 explicit BitHelper(void* bitArrayPtr, int32_t length) ;
 
-/// @brief Method .ctor addr 0x26824b8 size 0x38 virtual false final false
+/// @brief Method .ctor addr 0x27af1b8 size 0x38 virtual false final false
  void _ctor(void* bitArrayPtr, int32_t length) ;
 
 // Ctor Parameters [CppParam { name: "bitArray", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
 explicit BitHelper(::ArrayW<int32_t> bitArray, int32_t length) ;
 
-/// @brief Method .ctor addr 0x26824f0 size 0x30 virtual false final false
+/// @brief Method .ctor addr 0x27af1f0 size 0x30 virtual false final false
  void _ctor(::ArrayW<int32_t> bitArray, int32_t length) ;
 
-/// @brief Method MarkBit addr 0x2682520 size 0x7c virtual false final false
+/// @brief Method MarkBit addr 0x27af220 size 0x7c virtual false final false
  void MarkBit(int32_t bitPosition) ;
 
-/// @brief Method IsMarked addr 0x268259c size 0x84 virtual false final false
+/// @brief Method IsMarked addr 0x27af29c size 0x84 virtual false final false
  bool IsMarked(int32_t bitPosition) ;
 
-/// @brief Method ToIntArrayLength addr 0x2682620 size 0x28 virtual false final false
+/// @brief Method ToIntArrayLength addr 0x27af320 size 0x28 virtual false final false
 static int32_t ToIntArrayLength(int32_t n) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Collections::Generic
-} // end anonymous namespace
-NEED_NO_BOX(::System::Collections::Generic::BitHelper);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Generic::BitHelper, "System.Collections.Generic", "BitHelper");
+NEED_NO_BOX(System::Collections::Generic::BitHelper);
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::BitHelper, "System.Collections.Generic", "BitHelper");

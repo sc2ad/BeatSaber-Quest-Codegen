@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__ScriptableObjectInstaller_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class SafeAreaFocusedSimpleDialogPromptViewController;
-}
 namespace GlobalNamespace {
 class SimpleDialogPromptViewController;
+}
+namespace GlobalNamespace {
+class SafeAreaFocusedSimpleDialogPromptViewController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11089))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5474))
 // CS Name: BaseViewControllersInstaller
-class CORDL_TYPE BaseViewControllersInstaller : public ::Zenject::ScriptableObjectInstaller {
+class CORDL_TYPE BaseViewControllersInstaller : public Zenject::ScriptableObjectInstaller {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr BaseViewControllersInstaller(BaseViewControllersInstaller const& ) noe
 constexpr BaseViewControllersInstaller(BaseViewControllersInstaller&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BaseViewControllersInstaller(void* ptr) noexcept : ::Zenject::ScriptableObjectInstaller(ptr) {
+constexpr explicit BaseViewControllersInstaller(void* ptr) noexcept : Zenject::ScriptableObjectInstaller(ptr) {
 }
 
 
@@ -54,17 +53,17 @@ constexpr explicit BaseViewControllersInstaller(void* ptr) noexcept : ::Zenject:
 
 // Fields
 
- ::GlobalNamespace::SimpleDialogPromptViewController __declspec(property(get=__get__simpleDialogPromptViewControllerPrefab, put=__set__simpleDialogPromptViewControllerPrefab))  _simpleDialogPromptViewControllerPrefab;
+ GlobalNamespace::SimpleDialogPromptViewController __declspec(property(get=__get__simpleDialogPromptViewControllerPrefab, put=__set__simpleDialogPromptViewControllerPrefab))  _simpleDialogPromptViewControllerPrefab;
 
-constexpr void __set__simpleDialogPromptViewControllerPrefab(::GlobalNamespace::SimpleDialogPromptViewController value) ;
+constexpr void __set__simpleDialogPromptViewControllerPrefab(GlobalNamespace::SimpleDialogPromptViewController value) ;
 
-constexpr ::GlobalNamespace::SimpleDialogPromptViewController __get__simpleDialogPromptViewControllerPrefab() const;
+constexpr GlobalNamespace::SimpleDialogPromptViewController __get__simpleDialogPromptViewControllerPrefab() const;
 
- ::GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController __declspec(property(get=__get__safeAreaFocusedSimpleDialogPromptViewControllerPrefab, put=__set__safeAreaFocusedSimpleDialogPromptViewControllerPrefab))  _safeAreaFocusedSimpleDialogPromptViewControllerPrefab;
+ GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController __declspec(property(get=__get__safeAreaFocusedSimpleDialogPromptViewControllerPrefab, put=__set__safeAreaFocusedSimpleDialogPromptViewControllerPrefab))  _safeAreaFocusedSimpleDialogPromptViewControllerPrefab;
 
-constexpr void __set__safeAreaFocusedSimpleDialogPromptViewControllerPrefab(::GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController value) ;
+constexpr void __set__safeAreaFocusedSimpleDialogPromptViewControllerPrefab(GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController value) ;
 
-constexpr ::GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController __get__safeAreaFocusedSimpleDialogPromptViewControllerPrefab() const;
+constexpr GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController __get__safeAreaFocusedSimpleDialogPromptViewControllerPrefab() const;
 
 
 // Methods
@@ -82,6 +81,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BaseViewControllersInstaller);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BaseViewControllersInstaller, "", "BaseViewControllersInstaller");
+NEED_NO_BOX(GlobalNamespace::BaseViewControllersInstaller);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseViewControllersInstaller, "", "BaseViewControllersInstaller");

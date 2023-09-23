@@ -4,21 +4,20 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Runtime::Serialization::Formatters::Binary {
-struct BinaryTypeEnum;
+namespace System {
+class Type;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryWriter;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryAssemblyInfo;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryParser;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryAssemblyInfo;
-}
-namespace System {
-class Type;
+class ObjectReader;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class WriteObjectInfo;
@@ -27,10 +26,10 @@ namespace System::Runtime::Serialization::Formatters::Binary {
 class ObjectWriter;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class ObjectReader;
+struct InternalPrimitiveTypeE;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-struct InternalPrimitiveTypeE;
+struct BinaryTypeEnum;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -79,24 +78,23 @@ constexpr explicit BinaryConverter(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 // Methods
 
 /// @brief Method GetBinaryTypeInfo addr 0x2353cd8 size 0x2f0 virtual false final false
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum GetBinaryTypeInfo(::System::Type type, ::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo objectInfo, ::StringW typeName, ::System::Runtime::Serialization::Formatters::Binary::ObjectWriter objectWriter, ByRef<::bs_hook::Il2CppWrapperType> typeInformation, ByRef<int32_t> assemId) ;
+static System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum GetBinaryTypeInfo(System::Type type, System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo objectInfo, ::StringW typeName, System::Runtime::Serialization::Formatters::Binary::ObjectWriter objectWriter, ByRef<::bs_hook::Il2CppWrapperType> typeInformation, ByRef<int32_t> assemId) ;
 
 /// @brief Method GetParserBinaryTypeInfo addr 0x23542a8 size 0x1d0 virtual false final false
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum GetParserBinaryTypeInfo(::System::Type type, ByRef<::bs_hook::Il2CppWrapperType> typeInformation) ;
+static System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum GetParserBinaryTypeInfo(System::Type type, ByRef<::bs_hook::Il2CppWrapperType> typeInformation) ;
 
 /// @brief Method WriteTypeInfo addr 0x235459c size 0x228 virtual false final false
-static void WriteTypeInfo(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum, ::bs_hook::Il2CppWrapperType typeInformation, int32_t assemId, ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter sout) ;
+static void WriteTypeInfo(System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum, ::bs_hook::Il2CppWrapperType typeInformation, int32_t assemId, System::Runtime::Serialization::Formatters::Binary::__BinaryWriter sout) ;
 
 /// @brief Method ReadTypeInfo addr 0x235482c size 0x1a8 virtual false final false
-static ::bs_hook::Il2CppWrapperType ReadTypeInfo(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum, ::System::Runtime::Serialization::Formatters::Binary::__BinaryParser input, ByRef<int32_t> assemId) ;
+static ::bs_hook::Il2CppWrapperType ReadTypeInfo(System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum, System::Runtime::Serialization::Formatters::Binary::__BinaryParser input, ByRef<int32_t> assemId) ;
 
 /// @brief Method TypeFromInfo addr 0x23549d4 size 0x31c virtual false final false
-static void TypeFromInfo(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum, ::bs_hook::Il2CppWrapperType typeInformation, ::System::Runtime::Serialization::Formatters::Binary::ObjectReader objectReader, ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo assemblyInfo, ByRef<::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE> primitiveTypeEnum, ByRef<::StringW> typeString, ByRef<::System::Type> type, ByRef<bool> isVariant) ;
+static void TypeFromInfo(System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum, ::bs_hook::Il2CppWrapperType typeInformation, System::Runtime::Serialization::Formatters::Binary::ObjectReader objectReader, System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo assemblyInfo, ByRef<System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE> primitiveTypeEnum, ByRef<::StringW> typeString, ByRef<System::Type> type, ByRef<bool> isVariant) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization::Formatters::Binary
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::BinaryConverter);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::BinaryConverter, "System.Runtime.Serialization.Formatters.Binary", "BinaryConverter");
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::BinaryConverter);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryConverter, "System.Runtime.Serialization.Formatters.Binary", "BinaryConverter");

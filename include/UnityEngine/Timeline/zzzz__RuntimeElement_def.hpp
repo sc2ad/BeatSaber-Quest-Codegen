@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine::Timeline {
-class IInterval;
-}
 namespace UnityEngine::Playables {
 struct FrameData;
+}
+namespace UnityEngine::Timeline {
+class IInterval;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -23,8 +22,8 @@ namespace UnityEngine::Timeline {
 class CORDL_TYPE RuntimeElement : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::Timeline::IInterval
-constexpr operator  ::UnityEngine::Timeline::IInterval() const noexcept;
+/// @brief Convert operator to UnityEngine::Timeline::IInterval
+constexpr operator  UnityEngine::Timeline::IInterval() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -95,10 +94,10 @@ constexpr int32_t __get__intervalBit_k__BackingField() const;
  void set_enable(bool value) ;
 
 /// @brief Method EvaluateAt addr 0x0 size 0xffffffffffffffff virtual true final false
- void EvaluateAt(double_t localTime, ::UnityEngine::Playables::FrameData frameData) ;
+ void EvaluateAt(double_t localTime, UnityEngine::Playables::FrameData frameData) ;
 
 /// @brief Method DisableAt addr 0x0 size 0xffffffffffffffff virtual true final false
- void DisableAt(double_t localTime, double_t rootDuration, ::UnityEngine::Playables::FrameData frameData) ;
+ void DisableAt(double_t localTime, double_t rootDuration, UnityEngine::Playables::FrameData frameData) ;
 
 // Ctor Parameters []
 explicit RuntimeElement() ;
@@ -110,6 +109,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Timeline::RuntimeElement);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::RuntimeElement, "UnityEngine.Timeline", "RuntimeElement");
+NEED_NO_BOX(UnityEngine::Timeline::RuntimeElement);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::RuntimeElement, "UnityEngine.Timeline", "RuntimeElement");

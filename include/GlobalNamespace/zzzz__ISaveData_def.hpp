@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class ISaveData;
@@ -47,6 +46,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ISaveData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ISaveData, "", "ISaveData");
+NEED_NO_BOX(GlobalNamespace::ISaveData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ISaveData, "", "ISaveData");

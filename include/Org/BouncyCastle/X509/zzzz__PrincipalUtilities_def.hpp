@@ -1,15 +1,14 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
+}
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Crl;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {
@@ -58,13 +57,13 @@ constexpr explicit PrincipalUtilities(void* ptr) noexcept : ::bs_hook::Il2CppWra
 // Methods
 
 /// @brief Method GetIssuerX509Principal addr 0x10eacd8 size 0x118 virtual false final false
-static ::Org::BouncyCastle::Asn1::X509::X509Name GetIssuerX509Principal(::Org::BouncyCastle::X509::X509Certificate cert) ;
+static Org::BouncyCastle::Asn1::X509::X509Name GetIssuerX509Principal(Org::BouncyCastle::X509::X509Certificate cert) ;
 
 /// @brief Method GetSubjectX509Principal addr 0x10eadf0 size 0x118 virtual false final false
-static ::Org::BouncyCastle::Asn1::X509::X509Name GetSubjectX509Principal(::Org::BouncyCastle::X509::X509Certificate cert) ;
+static Org::BouncyCastle::Asn1::X509::X509Name GetSubjectX509Principal(Org::BouncyCastle::X509::X509Certificate cert) ;
 
 /// @brief Method GetIssuerX509Principal addr 0x10eaf08 size 0x118 virtual false final false
-static ::Org::BouncyCastle::Asn1::X509::X509Name GetIssuerX509Principal(::Org::BouncyCastle::X509::X509Crl crl) ;
+static Org::BouncyCastle::Asn1::X509::X509Name GetIssuerX509Principal(Org::BouncyCastle::X509::X509Crl crl) ;
 
 // Ctor Parameters []
 explicit PrincipalUtilities() ;
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::X509
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::X509::PrincipalUtilities);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::X509::PrincipalUtilities, "Org.BouncyCastle.X509", "PrincipalUtilities");
+NEED_NO_BOX(Org::BouncyCastle::X509::PrincipalUtilities);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::PrincipalUtilities, "Org.BouncyCastle.X509", "PrincipalUtilities");

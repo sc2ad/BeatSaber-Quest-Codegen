@@ -2,12 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XR {
@@ -22,8 +21,8 @@ namespace UnityEngine::InputSystem::XR {
 struct CORDL_TYPE Bone : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "_parentBoneIndex_k__BackingField", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_position_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "_rotation_k__BackingField", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }]
-constexpr Bone(uint32_t _parentBoneIndex_k__BackingField, ::UnityEngine::Vector3 _position_k__BackingField, ::UnityEngine::Quaternion _rotation_k__BackingField) noexcept;
+// Ctor Parameters [CppParam { name: "_parentBoneIndex_k__BackingField", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_position_k__BackingField", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "_rotation_k__BackingField", ty: "UnityEngine::Quaternion", modifiers: "", def_value: None }]
+constexpr Bone(uint32_t _parentBoneIndex_k__BackingField, UnityEngine::Vector3 _position_k__BackingField, UnityEngine::Quaternion _rotation_k__BackingField) noexcept;
 
 
                     constexpr Bone(Bone const&) = default;
@@ -62,26 +61,26 @@ constexpr void __set__parentBoneIndex_k__BackingField(uint32_t value) ;
 
 constexpr uint32_t __get__parentBoneIndex_k__BackingField() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__position_k__BackingField, put=__set__position_k__BackingField))  _position_k__BackingField;
+ UnityEngine::Vector3 __declspec(property(get=__get__position_k__BackingField, put=__set__position_k__BackingField))  _position_k__BackingField;
 
-constexpr void __set__position_k__BackingField(::UnityEngine::Vector3 value) ;
+constexpr void __set__position_k__BackingField(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__position_k__BackingField() const;
+constexpr UnityEngine::Vector3 __get__position_k__BackingField() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get__rotation_k__BackingField, put=__set__rotation_k__BackingField))  _rotation_k__BackingField;
+ UnityEngine::Quaternion __declspec(property(get=__get__rotation_k__BackingField, put=__set__rotation_k__BackingField))  _rotation_k__BackingField;
 
-constexpr void __set__rotation_k__BackingField(::UnityEngine::Quaternion value) ;
+constexpr void __set__rotation_k__BackingField(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get__rotation_k__BackingField() const;
+constexpr UnityEngine::Quaternion __get__rotation_k__BackingField() const;
 
 
 // Properties
 
  uint32_t __declspec(property(get=get_parentBoneIndex, put=set_parentBoneIndex))  parentBoneIndex;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_position, put=set_position))  position;
+ UnityEngine::Vector3 __declspec(property(get=get_position, put=set_position))  position;
 
- ::UnityEngine::Quaternion __declspec(property(get=get_rotation, put=set_rotation))  rotation;
+ UnityEngine::Quaternion __declspec(property(get=get_rotation, put=set_rotation))  rotation;
 
 
 // Methods
@@ -93,20 +92,19 @@ constexpr ::UnityEngine::Quaternion __get__rotation_k__BackingField() const;
  void set_parentBoneIndex(uint32_t value) ;
 
 /// @brief Method get_position addr 0x29359d8 size 0xc virtual false final false
- ::UnityEngine::Vector3 get_position() ;
+ UnityEngine::Vector3 get_position() ;
 
 /// @brief Method set_position addr 0x29359e4 size 0xc virtual false final false
- void set_position(::UnityEngine::Vector3 value) ;
+ void set_position(UnityEngine::Vector3 value) ;
 
 /// @brief Method get_rotation addr 0x29359f0 size 0xc virtual false final false
- ::UnityEngine::Quaternion get_rotation() ;
+ UnityEngine::Quaternion get_rotation() ;
 
 /// @brief Method set_rotation addr 0x29359fc size 0xc virtual false final false
- void set_rotation(::UnityEngine::Quaternion value) ;
+ void set_rotation(UnityEngine::Quaternion value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::XR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::XR::Bone, "UnityEngine.InputSystem.XR", "Bone");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::XR::Bone, "UnityEngine.InputSystem.XR", "Bone");

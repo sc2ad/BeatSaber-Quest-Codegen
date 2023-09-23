@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct ETrackedDeviceProperty;
@@ -223,482 +222,481 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Prop_Invalid offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_Invalid;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_Invalid;
 
 /// @brief Field Prop_TrackingSystemName_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_TrackingSystemName_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_TrackingSystemName_String;
 
 /// @brief Field Prop_ModelNumber_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ModelNumber_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_ModelNumber_String;
 
 /// @brief Field Prop_SerialNumber_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_SerialNumber_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_SerialNumber_String;
 
 /// @brief Field Prop_RenderModelName_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_RenderModelName_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_RenderModelName_String;
 
 /// @brief Field Prop_WillDriftInYaw_Bool offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_WillDriftInYaw_Bool;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_WillDriftInYaw_Bool;
 
 /// @brief Field Prop_ManufacturerName_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ManufacturerName_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_ManufacturerName_String;
 
 /// @brief Field Prop_TrackingFirmwareVersion_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_TrackingFirmwareVersion_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_TrackingFirmwareVersion_String;
 
 /// @brief Field Prop_HardwareRevision_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_HardwareRevision_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_HardwareRevision_String;
 
 /// @brief Field Prop_AllWirelessDongleDescriptions_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_AllWirelessDongleDescriptions_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_AllWirelessDongleDescriptions_String;
 
 /// @brief Field Prop_ConnectedWirelessDongle_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ConnectedWirelessDongle_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_ConnectedWirelessDongle_String;
 
 /// @brief Field Prop_DeviceIsWireless_Bool offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DeviceIsWireless_Bool;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DeviceIsWireless_Bool;
 
 /// @brief Field Prop_DeviceIsCharging_Bool offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DeviceIsCharging_Bool;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DeviceIsCharging_Bool;
 
 /// @brief Field Prop_DeviceBatteryPercentage_Float offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DeviceBatteryPercentage_Float;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DeviceBatteryPercentage_Float;
 
 /// @brief Field Prop_StatusDisplayTransform_Matrix34 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_StatusDisplayTransform_Matrix34;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_StatusDisplayTransform_Matrix34;
 
 /// @brief Field Prop_Firmware_UpdateAvailable_Bool offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_Firmware_UpdateAvailable_Bool;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_Firmware_UpdateAvailable_Bool;
 
 /// @brief Field Prop_Firmware_ManualUpdate_Bool offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_Firmware_ManualUpdate_Bool;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_Firmware_ManualUpdate_Bool;
 
 /// @brief Field Prop_Firmware_ManualUpdateURL_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_Firmware_ManualUpdateURL_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_Firmware_ManualUpdateURL_String;
 
 /// @brief Field Prop_HardwareRevision_Uint64 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_HardwareRevision_Uint64;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_HardwareRevision_Uint64;
 
 /// @brief Field Prop_FirmwareVersion_Uint64 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_FirmwareVersion_Uint64;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_FirmwareVersion_Uint64;
 
 /// @brief Field Prop_FPGAVersion_Uint64 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_FPGAVersion_Uint64;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_FPGAVersion_Uint64;
 
 /// @brief Field Prop_VRCVersion_Uint64 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_VRCVersion_Uint64;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_VRCVersion_Uint64;
 
 /// @brief Field Prop_RadioVersion_Uint64 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_RadioVersion_Uint64;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_RadioVersion_Uint64;
 
 /// @brief Field Prop_DongleVersion_Uint64 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DongleVersion_Uint64;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DongleVersion_Uint64;
 
 /// @brief Field Prop_BlockServerShutdown_Bool offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_BlockServerShutdown_Bool;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_BlockServerShutdown_Bool;
 
 /// @brief Field Prop_CanUnifyCoordinateSystemWithHmd_Bool offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_CanUnifyCoordinateSystemWithHmd_Bool;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_CanUnifyCoordinateSystemWithHmd_Bool;
 
 /// @brief Field Prop_ContainsProximitySensor_Bool offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ContainsProximitySensor_Bool;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_ContainsProximitySensor_Bool;
 
 /// @brief Field Prop_DeviceProvidesBatteryStatus_Bool offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DeviceProvidesBatteryStatus_Bool;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DeviceProvidesBatteryStatus_Bool;
 
 /// @brief Field Prop_DeviceCanPowerOff_Bool offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DeviceCanPowerOff_Bool;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DeviceCanPowerOff_Bool;
 
 /// @brief Field Prop_Firmware_ProgrammingTarget_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_Firmware_ProgrammingTarget_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_Firmware_ProgrammingTarget_String;
 
 /// @brief Field Prop_DeviceClass_Int32 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DeviceClass_Int32;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DeviceClass_Int32;
 
 /// @brief Field Prop_HasCamera_Bool offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_HasCamera_Bool;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_HasCamera_Bool;
 
 /// @brief Field Prop_DriverVersion_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverVersion_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverVersion_String;
 
 /// @brief Field Prop_Firmware_ForceUpdateRequired_Bool offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_Firmware_ForceUpdateRequired_Bool;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_Firmware_ForceUpdateRequired_Bool;
 
 /// @brief Field Prop_ViveSystemButtonFixRequired_Bool offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ViveSystemButtonFixRequired_Bool;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_ViveSystemButtonFixRequired_Bool;
 
 /// @brief Field Prop_ParentDriver_Uint64 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ParentDriver_Uint64;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_ParentDriver_Uint64;
 
 /// @brief Field Prop_ResourceRoot_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ResourceRoot_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_ResourceRoot_String;
 
 /// @brief Field Prop_RegisteredDeviceType_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_RegisteredDeviceType_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_RegisteredDeviceType_String;
 
 /// @brief Field Prop_InputProfilePath_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_InputProfilePath_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_InputProfilePath_String;
 
 /// @brief Field Prop_NeverTracked_Bool offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NeverTracked_Bool;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_NeverTracked_Bool;
 
 /// @brief Field Prop_NumCameras_Int32 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NumCameras_Int32;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_NumCameras_Int32;
 
 /// @brief Field Prop_CameraFrameLayout_Int32 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_CameraFrameLayout_Int32;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_CameraFrameLayout_Int32;
 
 /// @brief Field Prop_ReportsTimeSinceVSync_Bool offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ReportsTimeSinceVSync_Bool;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_ReportsTimeSinceVSync_Bool;
 
 /// @brief Field Prop_SecondsFromVsyncToPhotons_Float offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_SecondsFromVsyncToPhotons_Float;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_SecondsFromVsyncToPhotons_Float;
 
 /// @brief Field Prop_DisplayFrequency_Float offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayFrequency_Float;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayFrequency_Float;
 
 /// @brief Field Prop_UserIpdMeters_Float offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_UserIpdMeters_Float;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_UserIpdMeters_Float;
 
 /// @brief Field Prop_CurrentUniverseId_Uint64 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_CurrentUniverseId_Uint64;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_CurrentUniverseId_Uint64;
 
 /// @brief Field Prop_PreviousUniverseId_Uint64 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_PreviousUniverseId_Uint64;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_PreviousUniverseId_Uint64;
 
 /// @brief Field Prop_DisplayFirmwareVersion_Uint64 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayFirmwareVersion_Uint64;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayFirmwareVersion_Uint64;
 
 /// @brief Field Prop_IsOnDesktop_Bool offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_IsOnDesktop_Bool;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_IsOnDesktop_Bool;
 
 /// @brief Field Prop_DisplayMCType_Int32 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayMCType_Int32;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayMCType_Int32;
 
 /// @brief Field Prop_DisplayMCOffset_Float offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayMCOffset_Float;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayMCOffset_Float;
 
 /// @brief Field Prop_DisplayMCScale_Float offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayMCScale_Float;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayMCScale_Float;
 
 /// @brief Field Prop_EdidVendorID_Int32 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_EdidVendorID_Int32;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_EdidVendorID_Int32;
 
 /// @brief Field Prop_DisplayMCImageLeft_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayMCImageLeft_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayMCImageLeft_String;
 
 /// @brief Field Prop_DisplayMCImageRight_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayMCImageRight_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayMCImageRight_String;
 
 /// @brief Field Prop_DisplayGCBlackClamp_Float offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayGCBlackClamp_Float;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayGCBlackClamp_Float;
 
 /// @brief Field Prop_EdidProductID_Int32 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_EdidProductID_Int32;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_EdidProductID_Int32;
 
 /// @brief Field Prop_CameraToHeadTransform_Matrix34 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_CameraToHeadTransform_Matrix34;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_CameraToHeadTransform_Matrix34;
 
 /// @brief Field Prop_DisplayGCType_Int32 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayGCType_Int32;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayGCType_Int32;
 
 /// @brief Field Prop_DisplayGCOffset_Float offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayGCOffset_Float;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayGCOffset_Float;
 
 /// @brief Field Prop_DisplayGCScale_Float offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayGCScale_Float;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayGCScale_Float;
 
 /// @brief Field Prop_DisplayGCPrescale_Float offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayGCPrescale_Float;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayGCPrescale_Float;
 
 /// @brief Field Prop_DisplayGCImage_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayGCImage_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayGCImage_String;
 
 /// @brief Field Prop_LensCenterLeftU_Float offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_LensCenterLeftU_Float;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_LensCenterLeftU_Float;
 
 /// @brief Field Prop_LensCenterLeftV_Float offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_LensCenterLeftV_Float;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_LensCenterLeftV_Float;
 
 /// @brief Field Prop_LensCenterRightU_Float offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_LensCenterRightU_Float;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_LensCenterRightU_Float;
 
 /// @brief Field Prop_LensCenterRightV_Float offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_LensCenterRightV_Float;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_LensCenterRightV_Float;
 
 /// @brief Field Prop_UserHeadToEyeDepthMeters_Float offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_UserHeadToEyeDepthMeters_Float;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_UserHeadToEyeDepthMeters_Float;
 
 /// @brief Field Prop_CameraFirmwareVersion_Uint64 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_CameraFirmwareVersion_Uint64;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_CameraFirmwareVersion_Uint64;
 
 /// @brief Field Prop_CameraFirmwareDescription_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_CameraFirmwareDescription_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_CameraFirmwareDescription_String;
 
 /// @brief Field Prop_DisplayFPGAVersion_Uint64 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayFPGAVersion_Uint64;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayFPGAVersion_Uint64;
 
 /// @brief Field Prop_DisplayBootloaderVersion_Uint64 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayBootloaderVersion_Uint64;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayBootloaderVersion_Uint64;
 
 /// @brief Field Prop_DisplayHardwareVersion_Uint64 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayHardwareVersion_Uint64;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayHardwareVersion_Uint64;
 
 /// @brief Field Prop_AudioFirmwareVersion_Uint64 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_AudioFirmwareVersion_Uint64;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_AudioFirmwareVersion_Uint64;
 
 /// @brief Field Prop_CameraCompatibilityMode_Int32 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_CameraCompatibilityMode_Int32;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_CameraCompatibilityMode_Int32;
 
 /// @brief Field Prop_ScreenshotHorizontalFieldOfViewDegrees_Float offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ScreenshotHorizontalFieldOfViewDegrees_Float;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_ScreenshotHorizontalFieldOfViewDegrees_Float;
 
 /// @brief Field Prop_ScreenshotVerticalFieldOfViewDegrees_Float offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ScreenshotVerticalFieldOfViewDegrees_Float;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_ScreenshotVerticalFieldOfViewDegrees_Float;
 
 /// @brief Field Prop_DisplaySuppressed_Bool offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplaySuppressed_Bool;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplaySuppressed_Bool;
 
 /// @brief Field Prop_DisplayAllowNightMode_Bool offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayAllowNightMode_Bool;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayAllowNightMode_Bool;
 
 /// @brief Field Prop_DisplayMCImageWidth_Int32 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayMCImageWidth_Int32;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayMCImageWidth_Int32;
 
 /// @brief Field Prop_DisplayMCImageHeight_Int32 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayMCImageHeight_Int32;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayMCImageHeight_Int32;
 
 /// @brief Field Prop_DisplayMCImageNumChannels_Int32 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayMCImageNumChannels_Int32;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayMCImageNumChannels_Int32;
 
 /// @brief Field Prop_DisplayMCImageData_Binary offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayMCImageData_Binary;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayMCImageData_Binary;
 
 /// @brief Field Prop_SecondsFromPhotonsToVblank_Float offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_SecondsFromPhotonsToVblank_Float;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_SecondsFromPhotonsToVblank_Float;
 
 /// @brief Field Prop_DriverDirectModeSendsVsyncEvents_Bool offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverDirectModeSendsVsyncEvents_Bool;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverDirectModeSendsVsyncEvents_Bool;
 
 /// @brief Field Prop_DisplayDebugMode_Bool offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayDebugMode_Bool;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayDebugMode_Bool;
 
 /// @brief Field Prop_GraphicsAdapterLuid_Uint64 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_GraphicsAdapterLuid_Uint64;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_GraphicsAdapterLuid_Uint64;
 
 /// @brief Field Prop_DriverProvidedChaperonePath_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverProvidedChaperonePath_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverProvidedChaperonePath_String;
 
 /// @brief Field Prop_ExpectedTrackingReferenceCount_Int32 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ExpectedTrackingReferenceCount_Int32;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_ExpectedTrackingReferenceCount_Int32;
 
 /// @brief Field Prop_ExpectedControllerCount_Int32 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ExpectedControllerCount_Int32;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_ExpectedControllerCount_Int32;
 
 /// @brief Field Prop_NamedIconPathControllerLeftDeviceOff_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathControllerLeftDeviceOff_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathControllerLeftDeviceOff_String;
 
 /// @brief Field Prop_NamedIconPathControllerRightDeviceOff_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathControllerRightDeviceOff_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathControllerRightDeviceOff_String;
 
 /// @brief Field Prop_NamedIconPathTrackingReferenceDeviceOff_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathTrackingReferenceDeviceOff_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathTrackingReferenceDeviceOff_String;
 
 /// @brief Field Prop_DoNotApplyPrediction_Bool offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DoNotApplyPrediction_Bool;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DoNotApplyPrediction_Bool;
 
 /// @brief Field Prop_CameraToHeadTransforms_Matrix34_Array offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_CameraToHeadTransforms_Matrix34_Array;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_CameraToHeadTransforms_Matrix34_Array;
 
 /// @brief Field Prop_DistortionMeshResolution_Int32 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DistortionMeshResolution_Int32;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DistortionMeshResolution_Int32;
 
 /// @brief Field Prop_DriverIsDrawingControllers_Bool offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverIsDrawingControllers_Bool;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverIsDrawingControllers_Bool;
 
 /// @brief Field Prop_DriverRequestsApplicationPause_Bool offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestsApplicationPause_Bool;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestsApplicationPause_Bool;
 
 /// @brief Field Prop_DriverRequestsReducedRendering_Bool offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestsReducedRendering_Bool;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestsReducedRendering_Bool;
 
 /// @brief Field Prop_MinimumIpdStepMeters_Float offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_MinimumIpdStepMeters_Float;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_MinimumIpdStepMeters_Float;
 
 /// @brief Field Prop_AudioBridgeFirmwareVersion_Uint64 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_AudioBridgeFirmwareVersion_Uint64;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_AudioBridgeFirmwareVersion_Uint64;
 
 /// @brief Field Prop_ImageBridgeFirmwareVersion_Uint64 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ImageBridgeFirmwareVersion_Uint64;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_ImageBridgeFirmwareVersion_Uint64;
 
 /// @brief Field Prop_ImuToHeadTransform_Matrix34 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ImuToHeadTransform_Matrix34;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_ImuToHeadTransform_Matrix34;
 
 /// @brief Field Prop_ImuFactoryGyroBias_Vector3 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ImuFactoryGyroBias_Vector3;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_ImuFactoryGyroBias_Vector3;
 
 /// @brief Field Prop_ImuFactoryGyroScale_Vector3 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ImuFactoryGyroScale_Vector3;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_ImuFactoryGyroScale_Vector3;
 
 /// @brief Field Prop_ImuFactoryAccelerometerBias_Vector3 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ImuFactoryAccelerometerBias_Vector3;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_ImuFactoryAccelerometerBias_Vector3;
 
 /// @brief Field Prop_ImuFactoryAccelerometerScale_Vector3 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ImuFactoryAccelerometerScale_Vector3;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_ImuFactoryAccelerometerScale_Vector3;
 
 /// @brief Field Prop_ConfigurationIncludesLighthouse20Features_Bool offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ConfigurationIncludesLighthouse20Features_Bool;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_ConfigurationIncludesLighthouse20Features_Bool;
 
 /// @brief Field Prop_DriverRequestedMuraCorrectionMode_Int32 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestedMuraCorrectionMode_Int32;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestedMuraCorrectionMode_Int32;
 
 /// @brief Field Prop_DriverRequestedMuraFeather_InnerLeft_Int32 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestedMuraFeather_InnerLeft_Int32;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestedMuraFeather_InnerLeft_Int32;
 
 /// @brief Field Prop_DriverRequestedMuraFeather_InnerRight_Int32 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestedMuraFeather_InnerRight_Int32;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestedMuraFeather_InnerRight_Int32;
 
 /// @brief Field Prop_DriverRequestedMuraFeather_InnerTop_Int32 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestedMuraFeather_InnerTop_Int32;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestedMuraFeather_InnerTop_Int32;
 
 /// @brief Field Prop_DriverRequestedMuraFeather_InnerBottom_Int32 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestedMuraFeather_InnerBottom_Int32;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestedMuraFeather_InnerBottom_Int32;
 
 /// @brief Field Prop_DriverRequestedMuraFeather_OuterLeft_Int32 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestedMuraFeather_OuterLeft_Int32;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestedMuraFeather_OuterLeft_Int32;
 
 /// @brief Field Prop_DriverRequestedMuraFeather_OuterRight_Int32 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestedMuraFeather_OuterRight_Int32;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestedMuraFeather_OuterRight_Int32;
 
 /// @brief Field Prop_DriverRequestedMuraFeather_OuterTop_Int32 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestedMuraFeather_OuterTop_Int32;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestedMuraFeather_OuterTop_Int32;
 
 /// @brief Field Prop_DriverRequestedMuraFeather_OuterBottom_Int32 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestedMuraFeather_OuterBottom_Int32;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestedMuraFeather_OuterBottom_Int32;
 
 /// @brief Field Prop_AttachedDeviceId_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_AttachedDeviceId_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_AttachedDeviceId_String;
 
 /// @brief Field Prop_SupportedButtons_Uint64 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_SupportedButtons_Uint64;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_SupportedButtons_Uint64;
 
 /// @brief Field Prop_Axis0Type_Int32 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_Axis0Type_Int32;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_Axis0Type_Int32;
 
 /// @brief Field Prop_Axis1Type_Int32 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_Axis1Type_Int32;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_Axis1Type_Int32;
 
 /// @brief Field Prop_Axis2Type_Int32 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_Axis2Type_Int32;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_Axis2Type_Int32;
 
 /// @brief Field Prop_Axis3Type_Int32 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_Axis3Type_Int32;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_Axis3Type_Int32;
 
 /// @brief Field Prop_Axis4Type_Int32 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_Axis4Type_Int32;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_Axis4Type_Int32;
 
 /// @brief Field Prop_ControllerRoleHint_Int32 offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ControllerRoleHint_Int32;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_ControllerRoleHint_Int32;
 
 /// @brief Field Prop_FieldOfViewLeftDegrees_Float offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_FieldOfViewLeftDegrees_Float;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_FieldOfViewLeftDegrees_Float;
 
 /// @brief Field Prop_FieldOfViewRightDegrees_Float offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_FieldOfViewRightDegrees_Float;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_FieldOfViewRightDegrees_Float;
 
 /// @brief Field Prop_FieldOfViewTopDegrees_Float offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_FieldOfViewTopDegrees_Float;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_FieldOfViewTopDegrees_Float;
 
 /// @brief Field Prop_FieldOfViewBottomDegrees_Float offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_FieldOfViewBottomDegrees_Float;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_FieldOfViewBottomDegrees_Float;
 
 /// @brief Field Prop_TrackingRangeMinimumMeters_Float offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_TrackingRangeMinimumMeters_Float;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_TrackingRangeMinimumMeters_Float;
 
 /// @brief Field Prop_TrackingRangeMaximumMeters_Float offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_TrackingRangeMaximumMeters_Float;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_TrackingRangeMaximumMeters_Float;
 
 /// @brief Field Prop_ModeLabel_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ModeLabel_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_ModeLabel_String;
 
 /// @brief Field Prop_IconPathName_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_IconPathName_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_IconPathName_String;
 
 /// @brief Field Prop_NamedIconPathDeviceOff_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathDeviceOff_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathDeviceOff_String;
 
 /// @brief Field Prop_NamedIconPathDeviceSearching_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathDeviceSearching_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathDeviceSearching_String;
 
 /// @brief Field Prop_NamedIconPathDeviceSearchingAlert_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathDeviceSearchingAlert_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathDeviceSearchingAlert_String;
 
 /// @brief Field Prop_NamedIconPathDeviceReady_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathDeviceReady_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathDeviceReady_String;
 
 /// @brief Field Prop_NamedIconPathDeviceReadyAlert_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathDeviceReadyAlert_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathDeviceReadyAlert_String;
 
 /// @brief Field Prop_NamedIconPathDeviceNotReady_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathDeviceNotReady_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathDeviceNotReady_String;
 
 /// @brief Field Prop_NamedIconPathDeviceStandby_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathDeviceStandby_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathDeviceStandby_String;
 
 /// @brief Field Prop_NamedIconPathDeviceAlertLow_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathDeviceAlertLow_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathDeviceAlertLow_String;
 
 /// @brief Field Prop_DisplayHiddenArea_Binary_Start offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayHiddenArea_Binary_Start;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayHiddenArea_Binary_Start;
 
 /// @brief Field Prop_DisplayHiddenArea_Binary_End offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayHiddenArea_Binary_End;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayHiddenArea_Binary_End;
 
 /// @brief Field Prop_ParentContainer offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ParentContainer;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_ParentContainer;
 
 /// @brief Field Prop_UserConfigPath_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_UserConfigPath_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_UserConfigPath_String;
 
 /// @brief Field Prop_InstallPath_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_InstallPath_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_InstallPath_String;
 
 /// @brief Field Prop_HasDisplayComponent_Bool offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_HasDisplayComponent_Bool;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_HasDisplayComponent_Bool;
 
 /// @brief Field Prop_HasControllerComponent_Bool offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_HasControllerComponent_Bool;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_HasControllerComponent_Bool;
 
 /// @brief Field Prop_HasCameraComponent_Bool offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_HasCameraComponent_Bool;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_HasCameraComponent_Bool;
 
 /// @brief Field Prop_HasDriverDirectModeComponent_Bool offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_HasDriverDirectModeComponent_Bool;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_HasDriverDirectModeComponent_Bool;
 
 /// @brief Field Prop_HasVirtualDisplayComponent_Bool offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_HasVirtualDisplayComponent_Bool;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_HasVirtualDisplayComponent_Bool;
 
 /// @brief Field Prop_HasSpatialAnchorsSupport_Bool offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_HasSpatialAnchorsSupport_Bool;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_HasSpatialAnchorsSupport_Bool;
 
 /// @brief Field Prop_ControllerType_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ControllerType_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_ControllerType_String;
 
 /// @brief Field Prop_LegacyInputProfile_String offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_LegacyInputProfile_String;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_LegacyInputProfile_String;
 
 /// @brief Field Prop_VendorSpecific_Reserved_Start offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_VendorSpecific_Reserved_Start;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_VendorSpecific_Reserved_Start;
 
 /// @brief Field Prop_VendorSpecific_Reserved_End offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_VendorSpecific_Reserved_End;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_VendorSpecific_Reserved_End;
 
 /// @brief Field Prop_TrackedDeviceProperty_Max offset 0
-static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_TrackedDeviceProperty_Max;
+static OVR::OpenVR::ETrackedDeviceProperty const Prop_TrackedDeviceProperty_Max;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::ETrackedDeviceProperty, "OVR.OpenVR", "ETrackedDeviceProperty");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::ETrackedDeviceProperty, "OVR.OpenVR", "ETrackedDeviceProperty");

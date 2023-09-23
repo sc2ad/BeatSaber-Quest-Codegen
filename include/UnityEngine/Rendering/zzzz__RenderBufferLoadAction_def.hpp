@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Rendering {
 struct RenderBufferLoadAction;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Load offset 0
-static ::UnityEngine::Rendering::RenderBufferLoadAction const Load;
+static UnityEngine::Rendering::RenderBufferLoadAction const Load;
 
 /// @brief Field Clear offset 0
-static ::UnityEngine::Rendering::RenderBufferLoadAction const Clear;
+static UnityEngine::Rendering::RenderBufferLoadAction const Clear;
 
 /// @brief Field DontCare offset 0
-static ::UnityEngine::Rendering::RenderBufferLoadAction const DontCare;
+static UnityEngine::Rendering::RenderBufferLoadAction const DontCare;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Rendering
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::RenderBufferLoadAction, "UnityEngine.Rendering", "RenderBufferLoadAction");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::RenderBufferLoadAction, "UnityEngine.Rendering", "RenderBufferLoadAction");

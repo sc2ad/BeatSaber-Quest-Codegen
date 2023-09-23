@@ -1,6 +1,5 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
@@ -26,13 +25,13 @@ constexpr explicit IVisualElementPanelActivatable(void* ptr) noexcept : ::cordl_
 
 // Properties
 
- ::UnityEngine::UIElements::VisualElement __declspec(property(get=get_element))  element;
+ UnityEngine::UIElements::VisualElement __declspec(property(get=get_element))  element;
 
 
 // Methods
 
 /// @brief Method get_element addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::UIElements::VisualElement get_element() ;
+ UnityEngine::UIElements::VisualElement get_element() ;
 
 /// @brief Method CanBeActivated addr 0x0 size 0xffffffffffffffff virtual true final false
  bool CanBeActivated() ;
@@ -47,6 +46,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::IVisualElementPanelActivatable);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::IVisualElementPanelActivatable, "UnityEngine.UIElements", "IVisualElementPanelActivatable");
+NEED_NO_BOX(UnityEngine::UIElements::IVisualElementPanelActivatable);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::IVisualElementPanelActivatable, "UnityEngine.UIElements", "IVisualElementPanelActivatable");

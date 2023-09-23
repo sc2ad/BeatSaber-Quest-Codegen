@@ -3,13 +3,12 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct ____GlobalNamespace__Billboard__RotationMode;
+struct GlobalNamespace__Billboard__RotationMode;
 }
 namespace GlobalNamespace {
 class Billboard;
@@ -20,20 +19,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13774))
 // CS Name: Billboard::RotationMode
-struct CORDL_TYPE ____GlobalNamespace__Billboard__RotationMode : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__Billboard__RotationMode : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__Billboard__RotationMode(int32_t value__) noexcept;
+constexpr GlobalNamespace__Billboard__RotationMode(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__Billboard__RotationMode(____GlobalNamespace__Billboard__RotationMode const&) = default;
-                    constexpr ____GlobalNamespace__Billboard__RotationMode(____GlobalNamespace__Billboard__RotationMode&&) = default;
-                    constexpr ____GlobalNamespace__Billboard__RotationMode& operator=(____GlobalNamespace__Billboard__RotationMode const& o) {
+                    constexpr GlobalNamespace__Billboard__RotationMode(GlobalNamespace__Billboard__RotationMode const&) = default;
+                    constexpr GlobalNamespace__Billboard__RotationMode(GlobalNamespace__Billboard__RotationMode&&) = default;
+                    constexpr GlobalNamespace__Billboard__RotationMode& operator=(GlobalNamespace__Billboard__RotationMode const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__Billboard__RotationMode& operator=(____GlobalNamespace__Billboard__RotationMode&& o) noexcept {
+                    constexpr GlobalNamespace__Billboard__RotationMode& operator=(GlobalNamespace__Billboard__RotationMode&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -46,7 +45,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__Billboard__RotationMode(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__Billboard__RotationMode(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -54,7 +53,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__Billboard__RotationMode_Unwrapped : int32_t {
+enum class __GlobalNamespace__Billboard__RotationMode_Unwrapped : int32_t {
 __AllAxis = 0,
 __XAxis = 1,
 __YAxis = 2,
@@ -62,8 +61,8 @@ __ZAxis = 3,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__Billboard__RotationMode_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__Billboard__RotationMode_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__Billboard__RotationMode_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__Billboard__RotationMode_Unwrapped>(__instance);
 }
 
 
@@ -76,16 +75,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field AllAxis offset 0
-static ::GlobalNamespace::____GlobalNamespace__Billboard__RotationMode const AllAxis;
+static GlobalNamespace::GlobalNamespace__Billboard__RotationMode const AllAxis;
 
 /// @brief Field XAxis offset 0
-static ::GlobalNamespace::____GlobalNamespace__Billboard__RotationMode const XAxis;
+static GlobalNamespace::GlobalNamespace__Billboard__RotationMode const XAxis;
 
 /// @brief Field YAxis offset 0
-static ::GlobalNamespace::____GlobalNamespace__Billboard__RotationMode const YAxis;
+static GlobalNamespace::GlobalNamespace__Billboard__RotationMode const YAxis;
 
 /// @brief Field ZAxis offset 0
-static ::GlobalNamespace::____GlobalNamespace__Billboard__RotationMode const ZAxis;
+static GlobalNamespace::GlobalNamespace__Billboard__RotationMode const ZAxis;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -97,10 +96,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13775))
 // CS Name: Billboard
-class CORDL_TYPE Billboard : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE Billboard : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using RotationMode = ::GlobalNamespace::____GlobalNamespace__Billboard__RotationMode;
+using RotationMode = GlobalNamespace::GlobalNamespace__Billboard__RotationMode;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -114,7 +113,7 @@ constexpr Billboard(Billboard const& ) noexcept = default;
 constexpr Billboard(Billboard&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Billboard(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit Billboard(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -135,11 +134,11 @@ constexpr explicit Billboard(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(
 
 // Fields
 
- ::GlobalNamespace::____GlobalNamespace__Billboard__RotationMode __declspec(property(get=__get__rotationMode, put=__set__rotationMode))  _rotationMode;
+ GlobalNamespace::GlobalNamespace__Billboard__RotationMode __declspec(property(get=__get__rotationMode, put=__set__rotationMode))  _rotationMode;
 
-constexpr void __set__rotationMode(::GlobalNamespace::____GlobalNamespace__Billboard__RotationMode value) ;
+constexpr void __set__rotationMode(GlobalNamespace::GlobalNamespace__Billboard__RotationMode value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__Billboard__RotationMode __get__rotationMode() const;
+constexpr GlobalNamespace::GlobalNamespace__Billboard__RotationMode __get__rotationMode() const;
 
  bool __declspec(property(get=__get__flipDirection, put=__set__flipDirection))  _flipDirection;
 
@@ -147,11 +146,11 @@ constexpr void __set__flipDirection(bool value) ;
 
 constexpr bool __get__flipDirection() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
+ UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
 
-constexpr void __set__transform(::UnityEngine::Transform value) ;
+constexpr void __set__transform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__transform() const;
+constexpr UnityEngine::Transform __get__transform() const;
 
 
 // Methods
@@ -172,7 +171,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__Billboard__RotationMode, "", "Billboard/RotationMode");
-NEED_NO_BOX(::GlobalNamespace::Billboard);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::Billboard, "", "Billboard");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__Billboard__RotationMode, "", "Billboard/RotationMode");
+NEED_NO_BOX(GlobalNamespace::Billboard);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Billboard, "", "Billboard");

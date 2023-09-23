@@ -3,18 +3,17 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct Color;
-}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace GlobalNamespace {
+class MaterialPropertyBlockController;
 }
 namespace UnityEngine {
 class MeshRenderer;
 }
-namespace GlobalNamespace {
-class MaterialPropertyBlockController;
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,7 +25,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14648))
 // CS Name: ParametricBoxFakeGlowController
-class CORDL_TYPE ParametricBoxFakeGlowController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ParametricBoxFakeGlowController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -41,7 +40,7 @@ constexpr ParametricBoxFakeGlowController(ParametricBoxFakeGlowController const&
 constexpr ParametricBoxFakeGlowController(ParametricBoxFakeGlowController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ParametricBoxFakeGlowController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ParametricBoxFakeGlowController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -92,23 +91,23 @@ constexpr void __set_edgeSizeMultiplier(float_t value) ;
 
 constexpr float_t __get_edgeSizeMultiplier() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_color, put=__set_color))  color;
+ UnityEngine::Color __declspec(property(get=__get_color, put=__set_color))  color;
 
-constexpr void __set_color(::UnityEngine::Color value) ;
+constexpr void __set_color(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_color() const;
+constexpr UnityEngine::Color __get_color() const;
 
- ::UnityEngine::MeshRenderer __declspec(property(get=__get__meshRenderer, put=__set__meshRenderer))  _meshRenderer;
+ UnityEngine::MeshRenderer __declspec(property(get=__get__meshRenderer, put=__set__meshRenderer))  _meshRenderer;
 
-constexpr void __set__meshRenderer(::UnityEngine::MeshRenderer value) ;
+constexpr void __set__meshRenderer(UnityEngine::MeshRenderer value) ;
 
-constexpr ::UnityEngine::MeshRenderer __get__meshRenderer() const;
+constexpr UnityEngine::MeshRenderer __get__meshRenderer() const;
 
- ::GlobalNamespace::MaterialPropertyBlockController __declspec(property(get=__get__materialPropertyBlockController, put=__set__materialPropertyBlockController))  _materialPropertyBlockController;
+ GlobalNamespace::MaterialPropertyBlockController __declspec(property(get=__get__materialPropertyBlockController, put=__set__materialPropertyBlockController))  _materialPropertyBlockController;
 
-constexpr void __set__materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController value) ;
+constexpr void __set__materialPropertyBlockController(GlobalNamespace::MaterialPropertyBlockController value) ;
 
-constexpr ::GlobalNamespace::MaterialPropertyBlockController __get__materialPropertyBlockController() const;
+constexpr GlobalNamespace::MaterialPropertyBlockController __get__materialPropertyBlockController() const;
 
 static int32_t __declspec(property(get=__get__colorID, put=__set__colorID))  _colorID;
 
@@ -125,13 +124,13 @@ static int32_t __get__sizeParamsID() ;
 
 // Properties
 
- ::UnityEngine::Vector3 __declspec(property(put=set_localPosition))  localPosition;
+ UnityEngine::Vector3 __declspec(property(put=set_localPosition))  localPosition;
 
 
 // Methods
 
 /// @brief Method set_localPosition addr 0x1f9707c size 0x48 virtual false final false
- void set_localPosition(::UnityEngine::Vector3 value) ;
+ void set_localPosition(UnityEngine::Vector3 value) ;
 
 /// @brief Method Awake addr 0x1f970c4 size 0x20 virtual false final false
  void Awake() ;
@@ -155,6 +154,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ParametricBoxFakeGlowController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ParametricBoxFakeGlowController, "", "ParametricBoxFakeGlowController");
+NEED_NO_BOX(GlobalNamespace::ParametricBoxFakeGlowController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ParametricBoxFakeGlowController, "", "ParametricBoxFakeGlowController");

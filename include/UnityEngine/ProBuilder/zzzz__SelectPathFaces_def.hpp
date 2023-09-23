@@ -4,23 +4,22 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine::ProBuilder {
-class Face;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace UnityEngine::ProBuilder {
-class WingedEdge;
+class ProBuilderMesh;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+class WingedEdge;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace UnityEngine::ProBuilder {
+class Face;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -80,11 +79,11 @@ static void __set_s_cachedStart(int32_t value) ;
 
 static int32_t __get_s_cachedStart() ;
 
-static ::UnityEngine::ProBuilder::ProBuilderMesh __declspec(property(get=__get_s_cachedMesh, put=__set_s_cachedMesh))  s_cachedMesh;
+static UnityEngine::ProBuilder::ProBuilderMesh __declspec(property(get=__get_s_cachedMesh, put=__set_s_cachedMesh))  s_cachedMesh;
 
-static void __set_s_cachedMesh(::UnityEngine::ProBuilder::ProBuilderMesh value) ;
+static void __set_s_cachedMesh(UnityEngine::ProBuilder::ProBuilderMesh value) ;
 
-static ::UnityEngine::ProBuilder::ProBuilderMesh __get_s_cachedMesh() ;
+static UnityEngine::ProBuilder::ProBuilderMesh __get_s_cachedMesh() ;
 
 static int32_t __declspec(property(get=__get_s_cachedFacesCount, put=__set_s_cachedFacesCount))  s_cachedFacesCount;
 
@@ -92,37 +91,36 @@ static void __set_s_cachedFacesCount(int32_t value) ;
 
 static int32_t __get_s_cachedFacesCount() ;
 
-static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge> __declspec(property(get=__get_s_cachedWings, put=__set_s_cachedWings))  s_cachedWings;
+static System::Collections::Generic::List_1<UnityEngine::ProBuilder::WingedEdge> __declspec(property(get=__get_s_cachedWings, put=__set_s_cachedWings))  s_cachedWings;
 
-static void __set_s_cachedWings(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge> value) ;
+static void __set_s_cachedWings(System::Collections::Generic::List_1<UnityEngine::ProBuilder::WingedEdge> value) ;
 
-static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge> __get_s_cachedWings() ;
+static System::Collections::Generic::List_1<UnityEngine::ProBuilder::WingedEdge> __get_s_cachedWings() ;
 
-static ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face,int32_t> __declspec(property(get=__get_s_cachedFacesIndex, put=__set_s_cachedFacesIndex))  s_cachedFacesIndex;
+static System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Face,int32_t> __declspec(property(get=__get_s_cachedFacesIndex, put=__set_s_cachedFacesIndex))  s_cachedFacesIndex;
 
-static void __set_s_cachedFacesIndex(::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face,int32_t> value) ;
+static void __set_s_cachedFacesIndex(System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Face,int32_t> value) ;
 
-static ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face,int32_t> __get_s_cachedFacesIndex() ;
+static System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Face,int32_t> __get_s_cachedFacesIndex() ;
 
 
 // Methods
 
 /// @brief Method GetPath addr 0x29d6b2c size 0x2b0 virtual false final false
-static ::System::Collections::Generic::List_1<int32_t> GetPath(::UnityEngine::ProBuilder::ProBuilderMesh mesh, int32_t start, int32_t end) ;
+static System::Collections::Generic::List_1<int32_t> GetPath(UnityEngine::ProBuilder::ProBuilderMesh mesh, int32_t start, int32_t end) ;
 
 /// @brief Method Dijkstra addr 0x29d6ef8 size 0x6cc virtual false final false
-static ::ArrayW<int32_t> Dijkstra(::UnityEngine::ProBuilder::ProBuilderMesh mesh, int32_t start) ;
+static ::ArrayW<int32_t> Dijkstra(UnityEngine::ProBuilder::ProBuilderMesh mesh, int32_t start) ;
 
 /// @brief Method GetWeight addr 0x29d75c4 size 0x494 virtual false final false
-static float_t GetWeight(int32_t face1, int32_t face2, ::UnityEngine::ProBuilder::ProBuilderMesh mesh) ;
+static float_t GetWeight(int32_t face1, int32_t face2, UnityEngine::ProBuilder::ProBuilderMesh mesh) ;
 
 /// @brief Method GetMinimalPath addr 0x29d6ddc size 0x11c virtual false final false
-static ::System::Collections::Generic::List_1<int32_t> GetMinimalPath(::ArrayW<int32_t> predecessors, int32_t start, int32_t end) ;
+static System::Collections::Generic::List_1<int32_t> GetMinimalPath(::ArrayW<int32_t> predecessors, int32_t start, int32_t end) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::SelectPathFaces);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::SelectPathFaces, "UnityEngine.ProBuilder", "SelectPathFaces");
+NEED_NO_BOX(UnityEngine::ProBuilder::SelectPathFaces);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SelectPathFaces, "UnityEngine.ProBuilder", "SelectPathFaces");

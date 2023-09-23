@@ -1,25 +1,24 @@
 #pragma once
 #include "UnityEngine/Events/zzzz__UnityEventBase_impl.hpp"
-namespace {
 #include "UnityEngine/Events/zzzz__UnityEvent_1_def.hpp"
+#include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
+#include "System/Reflection/zzzz__MethodInfo_def.hpp"
 #include "UnityEngine/Events/zzzz__BaseInvokableCall_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/Reflection/zzzz__MethodInfo_def.hpp"
-#include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
 #include "System/zzzz__Int32Enum_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1._ctor
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1._ctor
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEvent_1::*)()>(&::UnityEngine::Events::UnityEvent_1::_ctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent_1::*)()>(&UnityEngine::Events::UnityEvent_1::_ctor)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -27,101 +26,101 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Uni
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1.AddListener
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1.AddListener
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEvent_1::*)(::UnityEngine::Events::UnityAction_1<T0>)>(&::UnityEngine::Events::UnityEvent_1::AddListener)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent_1::*)(UnityEngine::Events::UnityAction_1<T0>)>(&UnityEngine::Events::UnityEvent_1::AddListener)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1>::get(),
                             "AddListener",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<T0>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<T0>>::get()}
                         )));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1.RemoveListener
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1.RemoveListener
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEvent_1::*)(::UnityEngine::Events::UnityAction_1<T0>)>(&::UnityEngine::Events::UnityEvent_1::RemoveListener)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent_1::*)(UnityEngine::Events::UnityAction_1<T0>)>(&UnityEngine::Events::UnityEvent_1::RemoveListener)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1>::get(),
                             "RemoveListener",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<T0>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<T0>>::get()}
                         )));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1.FindMethod_Impl
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1.FindMethod_Impl
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo (::UnityEngine::Events::UnityEvent_1::*)(::StringW, ::System::Type)>(&::UnityEngine::Events::UnityEvent_1::FindMethod_Impl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo (UnityEngine::Events::UnityEvent_1::*)(::StringW, System::Type)>(&UnityEngine::Events::UnityEvent_1::FindMethod_Impl)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(::UnityEngine::Events::UnityEvent_1),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1>::get(),
+                                classof(UnityEngine::Events::UnityEvent_1),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1>::get(),
                                   6
                                 ));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1.GetDelegate
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1.GetDelegate
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Events::BaseInvokableCall (::UnityEngine::Events::UnityEvent_1::*)(::bs_hook::Il2CppWrapperType, ::System::Reflection::MethodInfo)>(&::UnityEngine::Events::UnityEvent_1::GetDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::BaseInvokableCall (UnityEngine::Events::UnityEvent_1::*)(::bs_hook::Il2CppWrapperType, System::Reflection::MethodInfo)>(&UnityEngine::Events::UnityEvent_1::GetDelegate)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(::UnityEngine::Events::UnityEvent_1),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1>::get(),
+                                classof(UnityEngine::Events::UnityEvent_1),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1>::get(),
                                   7
                                 ));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1.GetDelegate
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1.GetDelegate
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Events::BaseInvokableCall (*)(::UnityEngine::Events::UnityAction_1<T0>)>(&::UnityEngine::Events::UnityEvent_1::GetDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::BaseInvokableCall (*)(UnityEngine::Events::UnityAction_1<T0>)>(&UnityEngine::Events::UnityEvent_1::GetDelegate)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1>::get(),
                             "GetDelegate",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<T0>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<T0>>::get()}
                         )));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1.Invoke
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1.Invoke
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEvent_1::*)(T0)>(&::UnityEngine::Events::UnityEvent_1::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent_1::*)(T0)>(&UnityEngine::Events::UnityEvent_1::Invoke)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1>::get(),
                             "Invoke",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T0>::get()}
@@ -129,87 +128,87 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Uni
     return ___internal_method;
   }
 };
-constexpr void ::UnityEngine::Events::UnityEvent_1::__set_m_InvokeArray(::ArrayW<::bs_hook::Il2CppWrapperType> value)  {
+constexpr void UnityEngine::Events::UnityEvent_1::__set_m_InvokeArray(::ArrayW<::bs_hook::Il2CppWrapperType> value)  {
 ::cordl_internals::setInstanceField<::ArrayW<::bs_hook::Il2CppWrapperType>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<::ArrayW<::bs_hook::Il2CppWrapperType>>(value));
 }
-constexpr ::ArrayW<::bs_hook::Il2CppWrapperType> ::UnityEngine::Events::UnityEvent_1::__get_m_InvokeArray() const {
+constexpr ::ArrayW<::bs_hook::Il2CppWrapperType> UnityEngine::Events::UnityEvent_1::__get_m_InvokeArray() const {
 return ::cordl_internals::getInstanceField<::ArrayW<::bs_hook::Il2CppWrapperType>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
 // Ctor Parameters []
- ::UnityEngine::Events::UnityEvent_1::UnityEvent_1()  : ::UnityEngine::Events::UnityEventBase(THROW_UNLESS(::il2cpp_utils::New<UnityEvent_1>())) {}
- void ::UnityEngine::Events::UnityEvent_1::_ctor()  {
+ UnityEngine::Events::UnityEvent_1::UnityEvent_1()  : UnityEngine::Events::UnityEventBase(THROW_UNLESS(::il2cpp_utils::New<UnityEvent_1>())) {}
+ void UnityEngine::Events::UnityEvent_1::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- void ::UnityEngine::Events::UnityEvent_1::AddListener(::UnityEngine::Events::UnityAction_1<T0> call)  {
+ void UnityEngine::Events::UnityEvent_1::AddListener(UnityEngine::Events::UnityAction_1<T0> call)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1>::get(),
                             "AddListener",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<T0>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<T0>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, call);
 }
- void ::UnityEngine::Events::UnityEvent_1::RemoveListener(::UnityEngine::Events::UnityAction_1<T0> call)  {
+ void UnityEngine::Events::UnityEvent_1::RemoveListener(UnityEngine::Events::UnityAction_1<T0> call)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1>::get(),
                             "RemoveListener",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<T0>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<T0>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, call);
 }
- ::System::Reflection::MethodInfo ::UnityEngine::Events::UnityEvent_1::FindMethod_Impl(::StringW name, ::System::Type targetObjType)  {
+ System::Reflection::MethodInfo UnityEngine::Events::UnityEvent_1::FindMethod_Impl(::StringW name, System::Type targetObjType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1>::get(),
                             "FindMethod_Impl",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Type>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<::System::Reflection::MethodInfo, false>(const_cast<void*>(instance), ___internal_method, name, targetObjType);
+return ::cordl_internals::RunMethodRethrow<System::Reflection::MethodInfo, false>(const_cast<void*>(instance), ___internal_method, name, targetObjType);
 }
- ::UnityEngine::Events::BaseInvokableCall ::UnityEngine::Events::UnityEvent_1::GetDelegate(::bs_hook::Il2CppWrapperType target, ::System::Reflection::MethodInfo theFunction)  {
+ UnityEngine::Events::BaseInvokableCall UnityEngine::Events::UnityEvent_1::GetDelegate(::bs_hook::Il2CppWrapperType target, System::Reflection::MethodInfo theFunction)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1>::get(),
                             "GetDelegate",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MethodInfo>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Reflection::MethodInfo>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Events::BaseInvokableCall, false>(const_cast<void*>(instance), ___internal_method, target, theFunction);
+return ::cordl_internals::RunMethodRethrow<UnityEngine::Events::BaseInvokableCall, false>(const_cast<void*>(instance), ___internal_method, target, theFunction);
 }
- ::UnityEngine::Events::BaseInvokableCall ::UnityEngine::Events::UnityEvent_1::GetDelegate(::UnityEngine::Events::UnityAction_1<T0> action)  {
+ UnityEngine::Events::BaseInvokableCall UnityEngine::Events::UnityEvent_1::GetDelegate(UnityEngine::Events::UnityAction_1<T0> action)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1>::get(),
                             "GetDelegate",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<T0>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<T0>>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Events::BaseInvokableCall, false>(nullptr, ___internal_method, action);
+return ::cordl_internals::RunMethodRethrow<UnityEngine::Events::BaseInvokableCall, false>(nullptr, ___internal_method, action);
 }
- void ::UnityEngine::Events::UnityEvent_1::Invoke(T0 arg0)  {
+ void UnityEngine::Events::UnityEvent_1::Invoke(T0 arg0)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1>::get(),
                             "Invoke",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T0>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, arg0);
 }
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<int32_t>._ctor
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<int32_t>._ctor
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEvent_1<int32_t>::*)()>(&::UnityEngine::Events::UnityEvent_1<int32_t>::_ctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent_1<int32_t>::*)()>(&UnityEngine::Events::UnityEvent_1<int32_t>::_ctor)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<int32_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<int32_t>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -217,101 +216,101 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Uni
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<int32_t>.AddListener
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<int32_t>.AddListener
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEvent_1<int32_t>::*)(::UnityEngine::Events::UnityAction_1<int32_t>)>(&::UnityEngine::Events::UnityEvent_1<int32_t>::AddListener)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent_1<int32_t>::*)(UnityEngine::Events::UnityAction_1<int32_t>)>(&UnityEngine::Events::UnityEvent_1<int32_t>::AddListener)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<int32_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<int32_t>>::get(),
                             "AddListener",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<int32_t>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<int32_t>>::get()}
                         )));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<int32_t>.RemoveListener
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<int32_t>.RemoveListener
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEvent_1<int32_t>::*)(::UnityEngine::Events::UnityAction_1<int32_t>)>(&::UnityEngine::Events::UnityEvent_1<int32_t>::RemoveListener)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent_1<int32_t>::*)(UnityEngine::Events::UnityAction_1<int32_t>)>(&UnityEngine::Events::UnityEvent_1<int32_t>::RemoveListener)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<int32_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<int32_t>>::get(),
                             "RemoveListener",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<int32_t>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<int32_t>>::get()}
                         )));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<int32_t>.FindMethod_Impl
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<int32_t>.FindMethod_Impl
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo (::UnityEngine::Events::UnityEvent_1<int32_t>::*)(::StringW, ::System::Type)>(&::UnityEngine::Events::UnityEvent_1<int32_t>::FindMethod_Impl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo (UnityEngine::Events::UnityEvent_1<int32_t>::*)(::StringW, System::Type)>(&UnityEngine::Events::UnityEvent_1<int32_t>::FindMethod_Impl)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(::UnityEngine::Events::UnityEvent_1<int32_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1>::get(),
+                                classof(UnityEngine::Events::UnityEvent_1<int32_t>),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1>::get(),
                                   6
                                 ));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<int32_t>.GetDelegate
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<int32_t>.GetDelegate
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Events::BaseInvokableCall (::UnityEngine::Events::UnityEvent_1<int32_t>::*)(::bs_hook::Il2CppWrapperType, ::System::Reflection::MethodInfo)>(&::UnityEngine::Events::UnityEvent_1<int32_t>::GetDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::BaseInvokableCall (UnityEngine::Events::UnityEvent_1<int32_t>::*)(::bs_hook::Il2CppWrapperType, System::Reflection::MethodInfo)>(&UnityEngine::Events::UnityEvent_1<int32_t>::GetDelegate)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(::UnityEngine::Events::UnityEvent_1<int32_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1>::get(),
+                                classof(UnityEngine::Events::UnityEvent_1<int32_t>),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1>::get(),
                                   7
                                 ));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<int32_t>.GetDelegate
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<int32_t>.GetDelegate
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Events::BaseInvokableCall (*)(::UnityEngine::Events::UnityAction_1<int32_t>)>(&::UnityEngine::Events::UnityEvent_1<int32_t>::GetDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::BaseInvokableCall (*)(UnityEngine::Events::UnityAction_1<int32_t>)>(&UnityEngine::Events::UnityEvent_1<int32_t>::GetDelegate)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<int32_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<int32_t>>::get(),
                             "GetDelegate",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<int32_t>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<int32_t>>::get()}
                         )));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<int32_t>.Invoke
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<int32_t>.Invoke
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEvent_1<int32_t>::*)(int32_t)>(&::UnityEngine::Events::UnityEvent_1<int32_t>::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent_1<int32_t>::*)(int32_t)>(&UnityEngine::Events::UnityEvent_1<int32_t>::Invoke)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<int32_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<int32_t>>::get(),
                             "Invoke",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
@@ -319,87 +318,87 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Uni
     return ___internal_method;
   }
 };
-constexpr void ::UnityEngine::Events::UnityEvent_1<int32_t>::__set_m_InvokeArray(::ArrayW<::bs_hook::Il2CppWrapperType> value)  {
+constexpr void UnityEngine::Events::UnityEvent_1<int32_t>::__set_m_InvokeArray(::ArrayW<::bs_hook::Il2CppWrapperType> value)  {
 ::cordl_internals::setInstanceField<::ArrayW<::bs_hook::Il2CppWrapperType>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<::ArrayW<::bs_hook::Il2CppWrapperType>>(value));
 }
-constexpr ::ArrayW<::bs_hook::Il2CppWrapperType> ::UnityEngine::Events::UnityEvent_1<int32_t>::__get_m_InvokeArray() const {
+constexpr ::ArrayW<::bs_hook::Il2CppWrapperType> UnityEngine::Events::UnityEvent_1<int32_t>::__get_m_InvokeArray() const {
 return ::cordl_internals::getInstanceField<::ArrayW<::bs_hook::Il2CppWrapperType>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
 // Ctor Parameters []
- ::UnityEngine::Events::UnityEvent_1<int32_t>::UnityEvent_1()  : ::UnityEngine::Events::UnityEventBase(THROW_UNLESS(::il2cpp_utils::New<UnityEvent_1>())) {}
- void ::UnityEngine::Events::UnityEvent_1<int32_t>::_ctor()  {
+ UnityEngine::Events::UnityEvent_1<int32_t>::UnityEvent_1()  : UnityEngine::Events::UnityEventBase(THROW_UNLESS(::il2cpp_utils::New<UnityEvent_1>())) {}
+ void UnityEngine::Events::UnityEvent_1<int32_t>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<int32_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<int32_t>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- void ::UnityEngine::Events::UnityEvent_1<int32_t>::AddListener(::UnityEngine::Events::UnityAction_1<int32_t> call)  {
+ void UnityEngine::Events::UnityEvent_1<int32_t>::AddListener(UnityEngine::Events::UnityAction_1<int32_t> call)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<int32_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<int32_t>>::get(),
                             "AddListener",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<int32_t>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<int32_t>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, call);
 }
- void ::UnityEngine::Events::UnityEvent_1<int32_t>::RemoveListener(::UnityEngine::Events::UnityAction_1<int32_t> call)  {
+ void UnityEngine::Events::UnityEvent_1<int32_t>::RemoveListener(UnityEngine::Events::UnityAction_1<int32_t> call)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<int32_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<int32_t>>::get(),
                             "RemoveListener",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<int32_t>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<int32_t>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, call);
 }
- ::System::Reflection::MethodInfo ::UnityEngine::Events::UnityEvent_1<int32_t>::FindMethod_Impl(::StringW name, ::System::Type targetObjType)  {
+ System::Reflection::MethodInfo UnityEngine::Events::UnityEvent_1<int32_t>::FindMethod_Impl(::StringW name, System::Type targetObjType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<int32_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<int32_t>>::get(),
                             "FindMethod_Impl",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Type>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<::System::Reflection::MethodInfo, false>(const_cast<void*>(instance), ___internal_method, name, targetObjType);
+return ::cordl_internals::RunMethodRethrow<System::Reflection::MethodInfo, false>(const_cast<void*>(instance), ___internal_method, name, targetObjType);
 }
- ::UnityEngine::Events::BaseInvokableCall ::UnityEngine::Events::UnityEvent_1<int32_t>::GetDelegate(::bs_hook::Il2CppWrapperType target, ::System::Reflection::MethodInfo theFunction)  {
+ UnityEngine::Events::BaseInvokableCall UnityEngine::Events::UnityEvent_1<int32_t>::GetDelegate(::bs_hook::Il2CppWrapperType target, System::Reflection::MethodInfo theFunction)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<int32_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<int32_t>>::get(),
                             "GetDelegate",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MethodInfo>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Reflection::MethodInfo>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Events::BaseInvokableCall, false>(const_cast<void*>(instance), ___internal_method, target, theFunction);
+return ::cordl_internals::RunMethodRethrow<UnityEngine::Events::BaseInvokableCall, false>(const_cast<void*>(instance), ___internal_method, target, theFunction);
 }
- ::UnityEngine::Events::BaseInvokableCall ::UnityEngine::Events::UnityEvent_1<int32_t>::GetDelegate(::UnityEngine::Events::UnityAction_1<int32_t> action)  {
+ UnityEngine::Events::BaseInvokableCall UnityEngine::Events::UnityEvent_1<int32_t>::GetDelegate(UnityEngine::Events::UnityAction_1<int32_t> action)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<int32_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<int32_t>>::get(),
                             "GetDelegate",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<int32_t>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<int32_t>>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Events::BaseInvokableCall, false>(nullptr, ___internal_method, action);
+return ::cordl_internals::RunMethodRethrow<UnityEngine::Events::BaseInvokableCall, false>(nullptr, ___internal_method, action);
 }
- void ::UnityEngine::Events::UnityEvent_1<int32_t>::Invoke(int32_t arg0)  {
+ void UnityEngine::Events::UnityEvent_1<int32_t>::Invoke(int32_t arg0)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<int32_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<int32_t>>::get(),
                             "Invoke",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, arg0);
 }
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<bool>._ctor
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<bool>._ctor
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEvent_1<bool>::*)()>(&::UnityEngine::Events::UnityEvent_1<bool>::_ctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent_1<bool>::*)()>(&UnityEngine::Events::UnityEvent_1<bool>::_ctor)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<bool>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<bool>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -407,101 +406,101 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Uni
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<bool>.AddListener
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<bool>.AddListener
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEvent_1<bool>::*)(::UnityEngine::Events::UnityAction_1<bool>)>(&::UnityEngine::Events::UnityEvent_1<bool>::AddListener)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent_1<bool>::*)(UnityEngine::Events::UnityAction_1<bool>)>(&UnityEngine::Events::UnityEvent_1<bool>::AddListener)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<bool>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<bool>>::get(),
                             "AddListener",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<bool>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<bool>>::get()}
                         )));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<bool>.RemoveListener
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<bool>.RemoveListener
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEvent_1<bool>::*)(::UnityEngine::Events::UnityAction_1<bool>)>(&::UnityEngine::Events::UnityEvent_1<bool>::RemoveListener)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent_1<bool>::*)(UnityEngine::Events::UnityAction_1<bool>)>(&UnityEngine::Events::UnityEvent_1<bool>::RemoveListener)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<bool>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<bool>>::get(),
                             "RemoveListener",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<bool>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<bool>>::get()}
                         )));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<bool>.FindMethod_Impl
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<bool>.FindMethod_Impl
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo (::UnityEngine::Events::UnityEvent_1<bool>::*)(::StringW, ::System::Type)>(&::UnityEngine::Events::UnityEvent_1<bool>::FindMethod_Impl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo (UnityEngine::Events::UnityEvent_1<bool>::*)(::StringW, System::Type)>(&UnityEngine::Events::UnityEvent_1<bool>::FindMethod_Impl)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(::UnityEngine::Events::UnityEvent_1<bool>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1>::get(),
+                                classof(UnityEngine::Events::UnityEvent_1<bool>),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1>::get(),
                                   6
                                 ));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<bool>.GetDelegate
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<bool>.GetDelegate
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Events::BaseInvokableCall (::UnityEngine::Events::UnityEvent_1<bool>::*)(::bs_hook::Il2CppWrapperType, ::System::Reflection::MethodInfo)>(&::UnityEngine::Events::UnityEvent_1<bool>::GetDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::BaseInvokableCall (UnityEngine::Events::UnityEvent_1<bool>::*)(::bs_hook::Il2CppWrapperType, System::Reflection::MethodInfo)>(&UnityEngine::Events::UnityEvent_1<bool>::GetDelegate)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(::UnityEngine::Events::UnityEvent_1<bool>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1>::get(),
+                                classof(UnityEngine::Events::UnityEvent_1<bool>),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1>::get(),
                                   7
                                 ));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<bool>.GetDelegate
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<bool>.GetDelegate
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Events::BaseInvokableCall (*)(::UnityEngine::Events::UnityAction_1<bool>)>(&::UnityEngine::Events::UnityEvent_1<bool>::GetDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::BaseInvokableCall (*)(UnityEngine::Events::UnityAction_1<bool>)>(&UnityEngine::Events::UnityEvent_1<bool>::GetDelegate)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<bool>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<bool>>::get(),
                             "GetDelegate",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<bool>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<bool>>::get()}
                         )));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<bool>.Invoke
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<bool>.Invoke
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEvent_1<bool>::*)(bool)>(&::UnityEngine::Events::UnityEvent_1<bool>::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent_1<bool>::*)(bool)>(&UnityEngine::Events::UnityEvent_1<bool>::Invoke)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<bool>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<bool>>::get(),
                             "Invoke",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
@@ -509,87 +508,87 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Uni
     return ___internal_method;
   }
 };
-constexpr void ::UnityEngine::Events::UnityEvent_1<bool>::__set_m_InvokeArray(::ArrayW<::bs_hook::Il2CppWrapperType> value)  {
+constexpr void UnityEngine::Events::UnityEvent_1<bool>::__set_m_InvokeArray(::ArrayW<::bs_hook::Il2CppWrapperType> value)  {
 ::cordl_internals::setInstanceField<::ArrayW<::bs_hook::Il2CppWrapperType>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<::ArrayW<::bs_hook::Il2CppWrapperType>>(value));
 }
-constexpr ::ArrayW<::bs_hook::Il2CppWrapperType> ::UnityEngine::Events::UnityEvent_1<bool>::__get_m_InvokeArray() const {
+constexpr ::ArrayW<::bs_hook::Il2CppWrapperType> UnityEngine::Events::UnityEvent_1<bool>::__get_m_InvokeArray() const {
 return ::cordl_internals::getInstanceField<::ArrayW<::bs_hook::Il2CppWrapperType>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
 // Ctor Parameters []
- ::UnityEngine::Events::UnityEvent_1<bool>::UnityEvent_1()  : ::UnityEngine::Events::UnityEventBase(THROW_UNLESS(::il2cpp_utils::New<UnityEvent_1>())) {}
- void ::UnityEngine::Events::UnityEvent_1<bool>::_ctor()  {
+ UnityEngine::Events::UnityEvent_1<bool>::UnityEvent_1()  : UnityEngine::Events::UnityEventBase(THROW_UNLESS(::il2cpp_utils::New<UnityEvent_1>())) {}
+ void UnityEngine::Events::UnityEvent_1<bool>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<bool>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<bool>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- void ::UnityEngine::Events::UnityEvent_1<bool>::AddListener(::UnityEngine::Events::UnityAction_1<bool> call)  {
+ void UnityEngine::Events::UnityEvent_1<bool>::AddListener(UnityEngine::Events::UnityAction_1<bool> call)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<bool>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<bool>>::get(),
                             "AddListener",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<bool>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<bool>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, call);
 }
- void ::UnityEngine::Events::UnityEvent_1<bool>::RemoveListener(::UnityEngine::Events::UnityAction_1<bool> call)  {
+ void UnityEngine::Events::UnityEvent_1<bool>::RemoveListener(UnityEngine::Events::UnityAction_1<bool> call)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<bool>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<bool>>::get(),
                             "RemoveListener",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<bool>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<bool>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, call);
 }
- ::System::Reflection::MethodInfo ::UnityEngine::Events::UnityEvent_1<bool>::FindMethod_Impl(::StringW name, ::System::Type targetObjType)  {
+ System::Reflection::MethodInfo UnityEngine::Events::UnityEvent_1<bool>::FindMethod_Impl(::StringW name, System::Type targetObjType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<bool>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<bool>>::get(),
                             "FindMethod_Impl",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Type>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<::System::Reflection::MethodInfo, false>(const_cast<void*>(instance), ___internal_method, name, targetObjType);
+return ::cordl_internals::RunMethodRethrow<System::Reflection::MethodInfo, false>(const_cast<void*>(instance), ___internal_method, name, targetObjType);
 }
- ::UnityEngine::Events::BaseInvokableCall ::UnityEngine::Events::UnityEvent_1<bool>::GetDelegate(::bs_hook::Il2CppWrapperType target, ::System::Reflection::MethodInfo theFunction)  {
+ UnityEngine::Events::BaseInvokableCall UnityEngine::Events::UnityEvent_1<bool>::GetDelegate(::bs_hook::Il2CppWrapperType target, System::Reflection::MethodInfo theFunction)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<bool>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<bool>>::get(),
                             "GetDelegate",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MethodInfo>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Reflection::MethodInfo>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Events::BaseInvokableCall, false>(const_cast<void*>(instance), ___internal_method, target, theFunction);
+return ::cordl_internals::RunMethodRethrow<UnityEngine::Events::BaseInvokableCall, false>(const_cast<void*>(instance), ___internal_method, target, theFunction);
 }
- ::UnityEngine::Events::BaseInvokableCall ::UnityEngine::Events::UnityEvent_1<bool>::GetDelegate(::UnityEngine::Events::UnityAction_1<bool> action)  {
+ UnityEngine::Events::BaseInvokableCall UnityEngine::Events::UnityEvent_1<bool>::GetDelegate(UnityEngine::Events::UnityAction_1<bool> action)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<bool>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<bool>>::get(),
                             "GetDelegate",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<bool>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<bool>>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Events::BaseInvokableCall, false>(nullptr, ___internal_method, action);
+return ::cordl_internals::RunMethodRethrow<UnityEngine::Events::BaseInvokableCall, false>(nullptr, ___internal_method, action);
 }
- void ::UnityEngine::Events::UnityEvent_1<bool>::Invoke(bool arg0)  {
+ void UnityEngine::Events::UnityEvent_1<bool>::Invoke(bool arg0)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<bool>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<bool>>::get(),
                             "Invoke",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, arg0);
 }
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>._ctor
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<UnityEngine::Color>._ctor
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>::*)()>(&::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>::_ctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent_1<UnityEngine::Color>::*)()>(&UnityEngine::Events::UnityEvent_1<UnityEngine::Color>::_ctor)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<UnityEngine::Color>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -597,189 +596,189 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Uni
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>.AddListener
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<UnityEngine::Color>.AddListener
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>::*)(::UnityEngine::Events::UnityAction_1<::UnityEngine::Color>)>(&::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>::AddListener)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent_1<UnityEngine::Color>::*)(UnityEngine::Events::UnityAction_1<UnityEngine::Color>)>(&UnityEngine::Events::UnityEvent_1<UnityEngine::Color>::AddListener)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<UnityEngine::Color>>::get(),
                             "AddListener",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<::UnityEngine::Color>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<UnityEngine::Color>>::get()}
                         )));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>.RemoveListener
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<UnityEngine::Color>.RemoveListener
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>::*)(::UnityEngine::Events::UnityAction_1<::UnityEngine::Color>)>(&::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>::RemoveListener)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent_1<UnityEngine::Color>::*)(UnityEngine::Events::UnityAction_1<UnityEngine::Color>)>(&UnityEngine::Events::UnityEvent_1<UnityEngine::Color>::RemoveListener)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<UnityEngine::Color>>::get(),
                             "RemoveListener",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<::UnityEngine::Color>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<UnityEngine::Color>>::get()}
                         )));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>.FindMethod_Impl
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<UnityEngine::Color>.FindMethod_Impl
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo (::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>::*)(::StringW, ::System::Type)>(&::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>::FindMethod_Impl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo (UnityEngine::Events::UnityEvent_1<UnityEngine::Color>::*)(::StringW, System::Type)>(&UnityEngine::Events::UnityEvent_1<UnityEngine::Color>::FindMethod_Impl)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1>::get(),
+                                classof(UnityEngine::Events::UnityEvent_1<UnityEngine::Color>),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1>::get(),
                                   6
                                 ));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>.GetDelegate
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<UnityEngine::Color>.GetDelegate
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Events::BaseInvokableCall (::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>::*)(::bs_hook::Il2CppWrapperType, ::System::Reflection::MethodInfo)>(&::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>::GetDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::BaseInvokableCall (UnityEngine::Events::UnityEvent_1<UnityEngine::Color>::*)(::bs_hook::Il2CppWrapperType, System::Reflection::MethodInfo)>(&UnityEngine::Events::UnityEvent_1<UnityEngine::Color>::GetDelegate)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1>::get(),
+                                classof(UnityEngine::Events::UnityEvent_1<UnityEngine::Color>),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1>::get(),
                                   7
                                 ));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>.GetDelegate
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<UnityEngine::Color>.GetDelegate
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Events::BaseInvokableCall (*)(::UnityEngine::Events::UnityAction_1<::UnityEngine::Color>)>(&::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>::GetDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::BaseInvokableCall (*)(UnityEngine::Events::UnityAction_1<UnityEngine::Color>)>(&UnityEngine::Events::UnityEvent_1<UnityEngine::Color>::GetDelegate)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<UnityEngine::Color>>::get(),
                             "GetDelegate",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<::UnityEngine::Color>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<UnityEngine::Color>>::get()}
                         )));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>.Invoke
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<UnityEngine::Color>.Invoke
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>::*)(::UnityEngine::Color)>(&::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent_1<UnityEngine::Color>::*)(UnityEngine::Color)>(&UnityEngine::Events::UnityEvent_1<UnityEngine::Color>::Invoke)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<UnityEngine::Color>>::get(),
                             "Invoke",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Color>::get()}
                         )));
     return ___internal_method;
   }
 };
-constexpr void ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>::__set_m_InvokeArray(::ArrayW<::bs_hook::Il2CppWrapperType> value)  {
+constexpr void UnityEngine::Events::UnityEvent_1<UnityEngine::Color>::__set_m_InvokeArray(::ArrayW<::bs_hook::Il2CppWrapperType> value)  {
 ::cordl_internals::setInstanceField<::ArrayW<::bs_hook::Il2CppWrapperType>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<::ArrayW<::bs_hook::Il2CppWrapperType>>(value));
 }
-constexpr ::ArrayW<::bs_hook::Il2CppWrapperType> ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>::__get_m_InvokeArray() const {
+constexpr ::ArrayW<::bs_hook::Il2CppWrapperType> UnityEngine::Events::UnityEvent_1<UnityEngine::Color>::__get_m_InvokeArray() const {
 return ::cordl_internals::getInstanceField<::ArrayW<::bs_hook::Il2CppWrapperType>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
 // Ctor Parameters []
- ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>::UnityEvent_1()  : ::UnityEngine::Events::UnityEventBase(THROW_UNLESS(::il2cpp_utils::New<UnityEvent_1>())) {}
- void ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>::_ctor()  {
+ UnityEngine::Events::UnityEvent_1<UnityEngine::Color>::UnityEvent_1()  : UnityEngine::Events::UnityEventBase(THROW_UNLESS(::il2cpp_utils::New<UnityEvent_1>())) {}
+ void UnityEngine::Events::UnityEvent_1<UnityEngine::Color>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<UnityEngine::Color>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- void ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>::AddListener(::UnityEngine::Events::UnityAction_1<::UnityEngine::Color> call)  {
+ void UnityEngine::Events::UnityEvent_1<UnityEngine::Color>::AddListener(UnityEngine::Events::UnityAction_1<UnityEngine::Color> call)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<UnityEngine::Color>>::get(),
                             "AddListener",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<::UnityEngine::Color>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<UnityEngine::Color>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, call);
 }
- void ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>::RemoveListener(::UnityEngine::Events::UnityAction_1<::UnityEngine::Color> call)  {
+ void UnityEngine::Events::UnityEvent_1<UnityEngine::Color>::RemoveListener(UnityEngine::Events::UnityAction_1<UnityEngine::Color> call)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<UnityEngine::Color>>::get(),
                             "RemoveListener",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<::UnityEngine::Color>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<UnityEngine::Color>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, call);
 }
- ::System::Reflection::MethodInfo ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>::FindMethod_Impl(::StringW name, ::System::Type targetObjType)  {
+ System::Reflection::MethodInfo UnityEngine::Events::UnityEvent_1<UnityEngine::Color>::FindMethod_Impl(::StringW name, System::Type targetObjType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<UnityEngine::Color>>::get(),
                             "FindMethod_Impl",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Type>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<::System::Reflection::MethodInfo, false>(const_cast<void*>(instance), ___internal_method, name, targetObjType);
+return ::cordl_internals::RunMethodRethrow<System::Reflection::MethodInfo, false>(const_cast<void*>(instance), ___internal_method, name, targetObjType);
 }
- ::UnityEngine::Events::BaseInvokableCall ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>::GetDelegate(::bs_hook::Il2CppWrapperType target, ::System::Reflection::MethodInfo theFunction)  {
+ UnityEngine::Events::BaseInvokableCall UnityEngine::Events::UnityEvent_1<UnityEngine::Color>::GetDelegate(::bs_hook::Il2CppWrapperType target, System::Reflection::MethodInfo theFunction)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<UnityEngine::Color>>::get(),
                             "GetDelegate",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MethodInfo>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Reflection::MethodInfo>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Events::BaseInvokableCall, false>(const_cast<void*>(instance), ___internal_method, target, theFunction);
+return ::cordl_internals::RunMethodRethrow<UnityEngine::Events::BaseInvokableCall, false>(const_cast<void*>(instance), ___internal_method, target, theFunction);
 }
- ::UnityEngine::Events::BaseInvokableCall ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>::GetDelegate(::UnityEngine::Events::UnityAction_1<::UnityEngine::Color> action)  {
+ UnityEngine::Events::BaseInvokableCall UnityEngine::Events::UnityEvent_1<UnityEngine::Color>::GetDelegate(UnityEngine::Events::UnityAction_1<UnityEngine::Color> action)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<UnityEngine::Color>>::get(),
                             "GetDelegate",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<::UnityEngine::Color>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<UnityEngine::Color>>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Events::BaseInvokableCall, false>(nullptr, ___internal_method, action);
+return ::cordl_internals::RunMethodRethrow<UnityEngine::Events::BaseInvokableCall, false>(nullptr, ___internal_method, action);
 }
- void ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>::Invoke(::UnityEngine::Color arg0)  {
+ void UnityEngine::Events::UnityEvent_1<UnityEngine::Color>::Invoke(UnityEngine::Color arg0)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<UnityEngine::Color>>::get(),
                             "Invoke",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Color>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, arg0);
 }
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<float_t>._ctor
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<float_t>._ctor
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEvent_1<float_t>::*)()>(&::UnityEngine::Events::UnityEvent_1<float_t>::_ctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent_1<float_t>::*)()>(&UnityEngine::Events::UnityEvent_1<float_t>::_ctor)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<float_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<float_t>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -787,101 +786,101 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Uni
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<float_t>.AddListener
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<float_t>.AddListener
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEvent_1<float_t>::*)(::UnityEngine::Events::UnityAction_1<float_t>)>(&::UnityEngine::Events::UnityEvent_1<float_t>::AddListener)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent_1<float_t>::*)(UnityEngine::Events::UnityAction_1<float_t>)>(&UnityEngine::Events::UnityEvent_1<float_t>::AddListener)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<float_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<float_t>>::get(),
                             "AddListener",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<float_t>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<float_t>>::get()}
                         )));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<float_t>.RemoveListener
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<float_t>.RemoveListener
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEvent_1<float_t>::*)(::UnityEngine::Events::UnityAction_1<float_t>)>(&::UnityEngine::Events::UnityEvent_1<float_t>::RemoveListener)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent_1<float_t>::*)(UnityEngine::Events::UnityAction_1<float_t>)>(&UnityEngine::Events::UnityEvent_1<float_t>::RemoveListener)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<float_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<float_t>>::get(),
                             "RemoveListener",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<float_t>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<float_t>>::get()}
                         )));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<float_t>.FindMethod_Impl
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<float_t>.FindMethod_Impl
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo (::UnityEngine::Events::UnityEvent_1<float_t>::*)(::StringW, ::System::Type)>(&::UnityEngine::Events::UnityEvent_1<float_t>::FindMethod_Impl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo (UnityEngine::Events::UnityEvent_1<float_t>::*)(::StringW, System::Type)>(&UnityEngine::Events::UnityEvent_1<float_t>::FindMethod_Impl)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(::UnityEngine::Events::UnityEvent_1<float_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1>::get(),
+                                classof(UnityEngine::Events::UnityEvent_1<float_t>),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1>::get(),
                                   6
                                 ));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<float_t>.GetDelegate
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<float_t>.GetDelegate
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Events::BaseInvokableCall (::UnityEngine::Events::UnityEvent_1<float_t>::*)(::bs_hook::Il2CppWrapperType, ::System::Reflection::MethodInfo)>(&::UnityEngine::Events::UnityEvent_1<float_t>::GetDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::BaseInvokableCall (UnityEngine::Events::UnityEvent_1<float_t>::*)(::bs_hook::Il2CppWrapperType, System::Reflection::MethodInfo)>(&UnityEngine::Events::UnityEvent_1<float_t>::GetDelegate)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(::UnityEngine::Events::UnityEvent_1<float_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1>::get(),
+                                classof(UnityEngine::Events::UnityEvent_1<float_t>),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1>::get(),
                                   7
                                 ));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<float_t>.GetDelegate
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<float_t>.GetDelegate
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Events::BaseInvokableCall (*)(::UnityEngine::Events::UnityAction_1<float_t>)>(&::UnityEngine::Events::UnityEvent_1<float_t>::GetDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::BaseInvokableCall (*)(UnityEngine::Events::UnityAction_1<float_t>)>(&UnityEngine::Events::UnityEvent_1<float_t>::GetDelegate)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<float_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<float_t>>::get(),
                             "GetDelegate",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<float_t>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<float_t>>::get()}
                         )));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<float_t>.Invoke
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<float_t>.Invoke
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEvent_1<float_t>::*)(float_t)>(&::UnityEngine::Events::UnityEvent_1<float_t>::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent_1<float_t>::*)(float_t)>(&UnityEngine::Events::UnityEvent_1<float_t>::Invoke)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<float_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<float_t>>::get(),
                             "Invoke",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
@@ -889,87 +888,87 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Uni
     return ___internal_method;
   }
 };
-constexpr void ::UnityEngine::Events::UnityEvent_1<float_t>::__set_m_InvokeArray(::ArrayW<::bs_hook::Il2CppWrapperType> value)  {
+constexpr void UnityEngine::Events::UnityEvent_1<float_t>::__set_m_InvokeArray(::ArrayW<::bs_hook::Il2CppWrapperType> value)  {
 ::cordl_internals::setInstanceField<::ArrayW<::bs_hook::Il2CppWrapperType>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<::ArrayW<::bs_hook::Il2CppWrapperType>>(value));
 }
-constexpr ::ArrayW<::bs_hook::Il2CppWrapperType> ::UnityEngine::Events::UnityEvent_1<float_t>::__get_m_InvokeArray() const {
+constexpr ::ArrayW<::bs_hook::Il2CppWrapperType> UnityEngine::Events::UnityEvent_1<float_t>::__get_m_InvokeArray() const {
 return ::cordl_internals::getInstanceField<::ArrayW<::bs_hook::Il2CppWrapperType>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
 // Ctor Parameters []
- ::UnityEngine::Events::UnityEvent_1<float_t>::UnityEvent_1()  : ::UnityEngine::Events::UnityEventBase(THROW_UNLESS(::il2cpp_utils::New<UnityEvent_1>())) {}
- void ::UnityEngine::Events::UnityEvent_1<float_t>::_ctor()  {
+ UnityEngine::Events::UnityEvent_1<float_t>::UnityEvent_1()  : UnityEngine::Events::UnityEventBase(THROW_UNLESS(::il2cpp_utils::New<UnityEvent_1>())) {}
+ void UnityEngine::Events::UnityEvent_1<float_t>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<float_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<float_t>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- void ::UnityEngine::Events::UnityEvent_1<float_t>::AddListener(::UnityEngine::Events::UnityAction_1<float_t> call)  {
+ void UnityEngine::Events::UnityEvent_1<float_t>::AddListener(UnityEngine::Events::UnityAction_1<float_t> call)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<float_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<float_t>>::get(),
                             "AddListener",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<float_t>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<float_t>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, call);
 }
- void ::UnityEngine::Events::UnityEvent_1<float_t>::RemoveListener(::UnityEngine::Events::UnityAction_1<float_t> call)  {
+ void UnityEngine::Events::UnityEvent_1<float_t>::RemoveListener(UnityEngine::Events::UnityAction_1<float_t> call)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<float_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<float_t>>::get(),
                             "RemoveListener",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<float_t>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<float_t>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, call);
 }
- ::System::Reflection::MethodInfo ::UnityEngine::Events::UnityEvent_1<float_t>::FindMethod_Impl(::StringW name, ::System::Type targetObjType)  {
+ System::Reflection::MethodInfo UnityEngine::Events::UnityEvent_1<float_t>::FindMethod_Impl(::StringW name, System::Type targetObjType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<float_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<float_t>>::get(),
                             "FindMethod_Impl",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Type>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<::System::Reflection::MethodInfo, false>(const_cast<void*>(instance), ___internal_method, name, targetObjType);
+return ::cordl_internals::RunMethodRethrow<System::Reflection::MethodInfo, false>(const_cast<void*>(instance), ___internal_method, name, targetObjType);
 }
- ::UnityEngine::Events::BaseInvokableCall ::UnityEngine::Events::UnityEvent_1<float_t>::GetDelegate(::bs_hook::Il2CppWrapperType target, ::System::Reflection::MethodInfo theFunction)  {
+ UnityEngine::Events::BaseInvokableCall UnityEngine::Events::UnityEvent_1<float_t>::GetDelegate(::bs_hook::Il2CppWrapperType target, System::Reflection::MethodInfo theFunction)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<float_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<float_t>>::get(),
                             "GetDelegate",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MethodInfo>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Reflection::MethodInfo>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Events::BaseInvokableCall, false>(const_cast<void*>(instance), ___internal_method, target, theFunction);
+return ::cordl_internals::RunMethodRethrow<UnityEngine::Events::BaseInvokableCall, false>(const_cast<void*>(instance), ___internal_method, target, theFunction);
 }
- ::UnityEngine::Events::BaseInvokableCall ::UnityEngine::Events::UnityEvent_1<float_t>::GetDelegate(::UnityEngine::Events::UnityAction_1<float_t> action)  {
+ UnityEngine::Events::BaseInvokableCall UnityEngine::Events::UnityEvent_1<float_t>::GetDelegate(UnityEngine::Events::UnityAction_1<float_t> action)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<float_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<float_t>>::get(),
                             "GetDelegate",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<float_t>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<float_t>>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Events::BaseInvokableCall, false>(nullptr, ___internal_method, action);
+return ::cordl_internals::RunMethodRethrow<UnityEngine::Events::BaseInvokableCall, false>(nullptr, ___internal_method, action);
 }
- void ::UnityEngine::Events::UnityEvent_1<float_t>::Invoke(float_t arg0)  {
+ void UnityEngine::Events::UnityEvent_1<float_t>::Invoke(float_t arg0)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<float_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<float_t>>::get(),
                             "Invoke",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, arg0);
 }
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>._ctor
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>._ctor
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>::*)()>(&::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>::_ctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>::*)()>(&UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>::_ctor)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -977,189 +976,189 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Uni
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>.AddListener
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>.AddListener
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>::*)(::UnityEngine::Events::UnityAction_1<::UnityEngine::Vector2>)>(&::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>::AddListener)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>::*)(UnityEngine::Events::UnityAction_1<UnityEngine::Vector2>)>(&UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>::AddListener)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>>::get(),
                             "AddListener",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<::UnityEngine::Vector2>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<UnityEngine::Vector2>>::get()}
                         )));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>.RemoveListener
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>.RemoveListener
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>::*)(::UnityEngine::Events::UnityAction_1<::UnityEngine::Vector2>)>(&::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>::RemoveListener)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>::*)(UnityEngine::Events::UnityAction_1<UnityEngine::Vector2>)>(&UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>::RemoveListener)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>>::get(),
                             "RemoveListener",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<::UnityEngine::Vector2>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<UnityEngine::Vector2>>::get()}
                         )));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>.FindMethod_Impl
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>.FindMethod_Impl
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo (::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>::*)(::StringW, ::System::Type)>(&::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>::FindMethod_Impl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo (UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>::*)(::StringW, System::Type)>(&UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>::FindMethod_Impl)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1>::get(),
+                                classof(UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1>::get(),
                                   6
                                 ));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>.GetDelegate
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>.GetDelegate
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Events::BaseInvokableCall (::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>::*)(::bs_hook::Il2CppWrapperType, ::System::Reflection::MethodInfo)>(&::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>::GetDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::BaseInvokableCall (UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>::*)(::bs_hook::Il2CppWrapperType, System::Reflection::MethodInfo)>(&UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>::GetDelegate)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1>::get(),
+                                classof(UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1>::get(),
                                   7
                                 ));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>.GetDelegate
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>.GetDelegate
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Events::BaseInvokableCall (*)(::UnityEngine::Events::UnityAction_1<::UnityEngine::Vector2>)>(&::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>::GetDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::BaseInvokableCall (*)(UnityEngine::Events::UnityAction_1<UnityEngine::Vector2>)>(&UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>::GetDelegate)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>>::get(),
                             "GetDelegate",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<::UnityEngine::Vector2>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<UnityEngine::Vector2>>::get()}
                         )));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>.Invoke
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>.Invoke
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>::*)(::UnityEngine::Vector2)>(&::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>::*)(UnityEngine::Vector2)>(&UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>::Invoke)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>>::get(),
                             "Invoke",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Vector2>::get()}
                         )));
     return ___internal_method;
   }
 };
-constexpr void ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>::__set_m_InvokeArray(::ArrayW<::bs_hook::Il2CppWrapperType> value)  {
+constexpr void UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>::__set_m_InvokeArray(::ArrayW<::bs_hook::Il2CppWrapperType> value)  {
 ::cordl_internals::setInstanceField<::ArrayW<::bs_hook::Il2CppWrapperType>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<::ArrayW<::bs_hook::Il2CppWrapperType>>(value));
 }
-constexpr ::ArrayW<::bs_hook::Il2CppWrapperType> ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>::__get_m_InvokeArray() const {
+constexpr ::ArrayW<::bs_hook::Il2CppWrapperType> UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>::__get_m_InvokeArray() const {
 return ::cordl_internals::getInstanceField<::ArrayW<::bs_hook::Il2CppWrapperType>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
 // Ctor Parameters []
- ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>::UnityEvent_1()  : ::UnityEngine::Events::UnityEventBase(THROW_UNLESS(::il2cpp_utils::New<UnityEvent_1>())) {}
- void ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>::_ctor()  {
+ UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>::UnityEvent_1()  : UnityEngine::Events::UnityEventBase(THROW_UNLESS(::il2cpp_utils::New<UnityEvent_1>())) {}
+ void UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- void ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>::AddListener(::UnityEngine::Events::UnityAction_1<::UnityEngine::Vector2> call)  {
+ void UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>::AddListener(UnityEngine::Events::UnityAction_1<UnityEngine::Vector2> call)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>>::get(),
                             "AddListener",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<::UnityEngine::Vector2>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<UnityEngine::Vector2>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, call);
 }
- void ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>::RemoveListener(::UnityEngine::Events::UnityAction_1<::UnityEngine::Vector2> call)  {
+ void UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>::RemoveListener(UnityEngine::Events::UnityAction_1<UnityEngine::Vector2> call)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>>::get(),
                             "RemoveListener",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<::UnityEngine::Vector2>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<UnityEngine::Vector2>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, call);
 }
- ::System::Reflection::MethodInfo ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>::FindMethod_Impl(::StringW name, ::System::Type targetObjType)  {
+ System::Reflection::MethodInfo UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>::FindMethod_Impl(::StringW name, System::Type targetObjType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>>::get(),
                             "FindMethod_Impl",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Type>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<::System::Reflection::MethodInfo, false>(const_cast<void*>(instance), ___internal_method, name, targetObjType);
+return ::cordl_internals::RunMethodRethrow<System::Reflection::MethodInfo, false>(const_cast<void*>(instance), ___internal_method, name, targetObjType);
 }
- ::UnityEngine::Events::BaseInvokableCall ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>::GetDelegate(::bs_hook::Il2CppWrapperType target, ::System::Reflection::MethodInfo theFunction)  {
+ UnityEngine::Events::BaseInvokableCall UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>::GetDelegate(::bs_hook::Il2CppWrapperType target, System::Reflection::MethodInfo theFunction)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>>::get(),
                             "GetDelegate",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MethodInfo>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Reflection::MethodInfo>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Events::BaseInvokableCall, false>(const_cast<void*>(instance), ___internal_method, target, theFunction);
+return ::cordl_internals::RunMethodRethrow<UnityEngine::Events::BaseInvokableCall, false>(const_cast<void*>(instance), ___internal_method, target, theFunction);
 }
- ::UnityEngine::Events::BaseInvokableCall ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>::GetDelegate(::UnityEngine::Events::UnityAction_1<::UnityEngine::Vector2> action)  {
+ UnityEngine::Events::BaseInvokableCall UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>::GetDelegate(UnityEngine::Events::UnityAction_1<UnityEngine::Vector2> action)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>>::get(),
                             "GetDelegate",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<::UnityEngine::Vector2>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<UnityEngine::Vector2>>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Events::BaseInvokableCall, false>(nullptr, ___internal_method, action);
+return ::cordl_internals::RunMethodRethrow<UnityEngine::Events::BaseInvokableCall, false>(nullptr, ___internal_method, action);
 }
- void ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>::Invoke(::UnityEngine::Vector2 arg0)  {
+ void UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>::Invoke(UnityEngine::Vector2 arg0)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>>::get(),
                             "Invoke",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Vector2>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, arg0);
 }
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>._ctor
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>._ctor
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>::*)()>(&::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>::_ctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>::*)()>(&UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>::_ctor)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -1167,189 +1166,189 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Uni
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>.AddListener
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>.AddListener
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>::*)(::UnityEngine::Events::UnityAction_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>)>(&::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>::AddListener)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>::*)(UnityEngine::Events::UnityAction_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>)>(&UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>::AddListener)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>>::get(),
                             "AddListener",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>>::get()}
                         )));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>.RemoveListener
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>.RemoveListener
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>::*)(::UnityEngine::Events::UnityAction_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>)>(&::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>::RemoveListener)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>::*)(UnityEngine::Events::UnityAction_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>)>(&UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>::RemoveListener)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>>::get(),
                             "RemoveListener",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>>::get()}
                         )));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>.FindMethod_Impl
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>.FindMethod_Impl
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo (::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>::*)(::StringW, ::System::Type)>(&::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>::FindMethod_Impl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo (UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>::*)(::StringW, System::Type)>(&UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>::FindMethod_Impl)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1>::get(),
+                                classof(UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1>::get(),
                                   6
                                 ));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>.GetDelegate
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>.GetDelegate
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Events::BaseInvokableCall (::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>::*)(::bs_hook::Il2CppWrapperType, ::System::Reflection::MethodInfo)>(&::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>::GetDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::BaseInvokableCall (UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>::*)(::bs_hook::Il2CppWrapperType, System::Reflection::MethodInfo)>(&UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>::GetDelegate)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1>::get(),
+                                classof(UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1>::get(),
                                   7
                                 ));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>.GetDelegate
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>.GetDelegate
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Events::BaseInvokableCall (*)(::UnityEngine::Events::UnityAction_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>)>(&::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>::GetDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::BaseInvokableCall (*)(UnityEngine::Events::UnityAction_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>)>(&UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>::GetDelegate)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>>::get(),
                             "GetDelegate",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>>::get()}
                         )));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>.Invoke
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>.Invoke
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>::*)(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext)>(&::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>::*)(UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext)>(&UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>::Invoke)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>>::get(),
                             "Invoke",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>::get()}
                         )));
     return ___internal_method;
   }
 };
-constexpr void ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>::__set_m_InvokeArray(::ArrayW<::bs_hook::Il2CppWrapperType> value)  {
+constexpr void UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>::__set_m_InvokeArray(::ArrayW<::bs_hook::Il2CppWrapperType> value)  {
 ::cordl_internals::setInstanceField<::ArrayW<::bs_hook::Il2CppWrapperType>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<::ArrayW<::bs_hook::Il2CppWrapperType>>(value));
 }
-constexpr ::ArrayW<::bs_hook::Il2CppWrapperType> ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>::__get_m_InvokeArray() const {
+constexpr ::ArrayW<::bs_hook::Il2CppWrapperType> UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>::__get_m_InvokeArray() const {
 return ::cordl_internals::getInstanceField<::ArrayW<::bs_hook::Il2CppWrapperType>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
 // Ctor Parameters []
- ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>::UnityEvent_1()  : ::UnityEngine::Events::UnityEventBase(THROW_UNLESS(::il2cpp_utils::New<UnityEvent_1>())) {}
- void ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>::_ctor()  {
+ UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>::UnityEvent_1()  : UnityEngine::Events::UnityEventBase(THROW_UNLESS(::il2cpp_utils::New<UnityEvent_1>())) {}
+ void UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- void ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>::AddListener(::UnityEngine::Events::UnityAction_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext> call)  {
+ void UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>::AddListener(UnityEngine::Events::UnityAction_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext> call)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>>::get(),
                             "AddListener",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, call);
 }
- void ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>::RemoveListener(::UnityEngine::Events::UnityAction_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext> call)  {
+ void UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>::RemoveListener(UnityEngine::Events::UnityAction_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext> call)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>>::get(),
                             "RemoveListener",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, call);
 }
- ::System::Reflection::MethodInfo ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>::FindMethod_Impl(::StringW name, ::System::Type targetObjType)  {
+ System::Reflection::MethodInfo UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>::FindMethod_Impl(::StringW name, System::Type targetObjType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>>::get(),
                             "FindMethod_Impl",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Type>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<::System::Reflection::MethodInfo, false>(const_cast<void*>(instance), ___internal_method, name, targetObjType);
+return ::cordl_internals::RunMethodRethrow<System::Reflection::MethodInfo, false>(const_cast<void*>(instance), ___internal_method, name, targetObjType);
 }
- ::UnityEngine::Events::BaseInvokableCall ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>::GetDelegate(::bs_hook::Il2CppWrapperType target, ::System::Reflection::MethodInfo theFunction)  {
+ UnityEngine::Events::BaseInvokableCall UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>::GetDelegate(::bs_hook::Il2CppWrapperType target, System::Reflection::MethodInfo theFunction)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>>::get(),
                             "GetDelegate",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MethodInfo>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Reflection::MethodInfo>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Events::BaseInvokableCall, false>(const_cast<void*>(instance), ___internal_method, target, theFunction);
+return ::cordl_internals::RunMethodRethrow<UnityEngine::Events::BaseInvokableCall, false>(const_cast<void*>(instance), ___internal_method, target, theFunction);
 }
- ::UnityEngine::Events::BaseInvokableCall ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>::GetDelegate(::UnityEngine::Events::UnityAction_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext> action)  {
+ UnityEngine::Events::BaseInvokableCall UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>::GetDelegate(UnityEngine::Events::UnityAction_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext> action)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>>::get(),
                             "GetDelegate",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Events::BaseInvokableCall, false>(nullptr, ___internal_method, action);
+return ::cordl_internals::RunMethodRethrow<UnityEngine::Events::BaseInvokableCall, false>(nullptr, ___internal_method, action);
 }
- void ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>::Invoke(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext arg0)  {
+ void UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>::Invoke(UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext arg0)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>>::get(),
                             "Invoke",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, arg0);
 }
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>._ctor
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<System::Int32Enum>._ctor
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>::*)()>(&::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>::_ctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent_1<System::Int32Enum>::*)()>(&UnityEngine::Events::UnityEvent_1<System::Int32Enum>::_ctor)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<System::Int32Enum>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -1357,177 +1356,176 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Uni
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>.AddListener
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<System::Int32Enum>.AddListener
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>::*)(::UnityEngine::Events::UnityAction_1<::System::Int32Enum>)>(&::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>::AddListener)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent_1<System::Int32Enum>::*)(UnityEngine::Events::UnityAction_1<System::Int32Enum>)>(&UnityEngine::Events::UnityEvent_1<System::Int32Enum>::AddListener)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<System::Int32Enum>>::get(),
                             "AddListener",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<::System::Int32Enum>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<System::Int32Enum>>::get()}
                         )));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>.RemoveListener
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<System::Int32Enum>.RemoveListener
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>::*)(::UnityEngine::Events::UnityAction_1<::System::Int32Enum>)>(&::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>::RemoveListener)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent_1<System::Int32Enum>::*)(UnityEngine::Events::UnityAction_1<System::Int32Enum>)>(&UnityEngine::Events::UnityEvent_1<System::Int32Enum>::RemoveListener)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<System::Int32Enum>>::get(),
                             "RemoveListener",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<::System::Int32Enum>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<System::Int32Enum>>::get()}
                         )));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>.FindMethod_Impl
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<System::Int32Enum>.FindMethod_Impl
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo (::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>::*)(::StringW, ::System::Type)>(&::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>::FindMethod_Impl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo (UnityEngine::Events::UnityEvent_1<System::Int32Enum>::*)(::StringW, System::Type)>(&UnityEngine::Events::UnityEvent_1<System::Int32Enum>::FindMethod_Impl)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1>::get(),
+                                classof(UnityEngine::Events::UnityEvent_1<System::Int32Enum>),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1>::get(),
                                   6
                                 ));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>.GetDelegate
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<System::Int32Enum>.GetDelegate
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Events::BaseInvokableCall (::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>::*)(::bs_hook::Il2CppWrapperType, ::System::Reflection::MethodInfo)>(&::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>::GetDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::BaseInvokableCall (UnityEngine::Events::UnityEvent_1<System::Int32Enum>::*)(::bs_hook::Il2CppWrapperType, System::Reflection::MethodInfo)>(&UnityEngine::Events::UnityEvent_1<System::Int32Enum>::GetDelegate)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1>::get(),
+                                classof(UnityEngine::Events::UnityEvent_1<System::Int32Enum>),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1>::get(),
                                   7
                                 ));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>.GetDelegate
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<System::Int32Enum>.GetDelegate
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Events::BaseInvokableCall (*)(::UnityEngine::Events::UnityAction_1<::System::Int32Enum>)>(&::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>::GetDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::BaseInvokableCall (*)(UnityEngine::Events::UnityAction_1<System::Int32Enum>)>(&UnityEngine::Events::UnityEvent_1<System::Int32Enum>::GetDelegate)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<System::Int32Enum>>::get(),
                             "GetDelegate",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<::System::Int32Enum>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<System::Int32Enum>>::get()}
                         )));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>.Invoke
+//  Writing Method size for method: UnityEngine::Events::UnityEvent_1<System::Int32Enum>.Invoke
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>::*)(::System::Int32Enum)>(&::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent_1<System::Int32Enum>::*)(System::Int32Enum)>(&UnityEngine::Events::UnityEvent_1<System::Int32Enum>::Invoke)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<System::Int32Enum>>::get(),
                             "Invoke",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Int32Enum>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Int32Enum>::get()}
                         )));
     return ___internal_method;
   }
 };
-constexpr void ::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>::__set_m_InvokeArray(::ArrayW<::bs_hook::Il2CppWrapperType> value)  {
+constexpr void UnityEngine::Events::UnityEvent_1<System::Int32Enum>::__set_m_InvokeArray(::ArrayW<::bs_hook::Il2CppWrapperType> value)  {
 ::cordl_internals::setInstanceField<::ArrayW<::bs_hook::Il2CppWrapperType>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<::ArrayW<::bs_hook::Il2CppWrapperType>>(value));
 }
-constexpr ::ArrayW<::bs_hook::Il2CppWrapperType> ::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>::__get_m_InvokeArray() const {
+constexpr ::ArrayW<::bs_hook::Il2CppWrapperType> UnityEngine::Events::UnityEvent_1<System::Int32Enum>::__get_m_InvokeArray() const {
 return ::cordl_internals::getInstanceField<::ArrayW<::bs_hook::Il2CppWrapperType>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
 // Ctor Parameters []
- ::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>::UnityEvent_1()  : ::UnityEngine::Events::UnityEventBase(THROW_UNLESS(::il2cpp_utils::New<UnityEvent_1>())) {}
- void ::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>::_ctor()  {
+ UnityEngine::Events::UnityEvent_1<System::Int32Enum>::UnityEvent_1()  : UnityEngine::Events::UnityEventBase(THROW_UNLESS(::il2cpp_utils::New<UnityEvent_1>())) {}
+ void UnityEngine::Events::UnityEvent_1<System::Int32Enum>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<System::Int32Enum>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- void ::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>::AddListener(::UnityEngine::Events::UnityAction_1<::System::Int32Enum> call)  {
+ void UnityEngine::Events::UnityEvent_1<System::Int32Enum>::AddListener(UnityEngine::Events::UnityAction_1<System::Int32Enum> call)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<System::Int32Enum>>::get(),
                             "AddListener",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<::System::Int32Enum>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<System::Int32Enum>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, call);
 }
- void ::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>::RemoveListener(::UnityEngine::Events::UnityAction_1<::System::Int32Enum> call)  {
+ void UnityEngine::Events::UnityEvent_1<System::Int32Enum>::RemoveListener(UnityEngine::Events::UnityAction_1<System::Int32Enum> call)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<System::Int32Enum>>::get(),
                             "RemoveListener",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<::System::Int32Enum>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<System::Int32Enum>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, call);
 }
- ::System::Reflection::MethodInfo ::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>::FindMethod_Impl(::StringW name, ::System::Type targetObjType)  {
+ System::Reflection::MethodInfo UnityEngine::Events::UnityEvent_1<System::Int32Enum>::FindMethod_Impl(::StringW name, System::Type targetObjType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<System::Int32Enum>>::get(),
                             "FindMethod_Impl",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Type>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<::System::Reflection::MethodInfo, false>(const_cast<void*>(instance), ___internal_method, name, targetObjType);
+return ::cordl_internals::RunMethodRethrow<System::Reflection::MethodInfo, false>(const_cast<void*>(instance), ___internal_method, name, targetObjType);
 }
- ::UnityEngine::Events::BaseInvokableCall ::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>::GetDelegate(::bs_hook::Il2CppWrapperType target, ::System::Reflection::MethodInfo theFunction)  {
+ UnityEngine::Events::BaseInvokableCall UnityEngine::Events::UnityEvent_1<System::Int32Enum>::GetDelegate(::bs_hook::Il2CppWrapperType target, System::Reflection::MethodInfo theFunction)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<System::Int32Enum>>::get(),
                             "GetDelegate",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MethodInfo>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Reflection::MethodInfo>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Events::BaseInvokableCall, false>(const_cast<void*>(instance), ___internal_method, target, theFunction);
+return ::cordl_internals::RunMethodRethrow<UnityEngine::Events::BaseInvokableCall, false>(const_cast<void*>(instance), ___internal_method, target, theFunction);
 }
- ::UnityEngine::Events::BaseInvokableCall ::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>::GetDelegate(::UnityEngine::Events::UnityAction_1<::System::Int32Enum> action)  {
+ UnityEngine::Events::BaseInvokableCall UnityEngine::Events::UnityEvent_1<System::Int32Enum>::GetDelegate(UnityEngine::Events::UnityAction_1<System::Int32Enum> action)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<System::Int32Enum>>::get(),
                             "GetDelegate",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<::System::Int32Enum>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Events::UnityAction_1<System::Int32Enum>>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Events::BaseInvokableCall, false>(nullptr, ___internal_method, action);
+return ::cordl_internals::RunMethodRethrow<UnityEngine::Events::BaseInvokableCall, false>(nullptr, ___internal_method, action);
 }
- void ::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>::Invoke(::System::Int32Enum arg0)  {
+ void UnityEngine::Events::UnityEvent_1<System::Int32Enum>::Invoke(System::Int32Enum arg0)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<::System::Int32Enum>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent_1<System::Int32Enum>>::get(),
                             "Invoke",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Int32Enum>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Int32Enum>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, arg0);
 }
-} // end anonymous namespace

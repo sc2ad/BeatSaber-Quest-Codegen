@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto::Modes::Gcm {
 class IGcmExponentiator;
 }
@@ -20,8 +19,8 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
 class CORDL_TYPE BasicGcmExponentiator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator
-constexpr operator  ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator
+constexpr operator  Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -81,6 +80,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Modes::Gcm
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmExponentiator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmExponentiator, "Org.BouncyCastle.Crypto.Modes.Gcm", "BasicGcmExponentiator");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmExponentiator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmExponentiator, "Org.BouncyCastle.Crypto.Modes.Gcm", "BasicGcmExponentiator");

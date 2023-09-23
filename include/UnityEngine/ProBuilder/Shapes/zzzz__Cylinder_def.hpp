@@ -2,18 +2,17 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_def.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
 namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
 struct Bounds;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine::ProBuilder::Shapes {
 class Shape;
@@ -28,7 +27,7 @@ namespace UnityEngine::ProBuilder::Shapes {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12175))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12169))
 // CS Name: UnityEngine.ProBuilder.Shapes.Cylinder
-class CORDL_TYPE Cylinder : public ::UnityEngine::ProBuilder::Shapes::Shape {
+class CORDL_TYPE Cylinder : public UnityEngine::ProBuilder::Shapes::Shape {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -43,7 +42,7 @@ constexpr Cylinder(Cylinder const& ) noexcept = default;
 constexpr Cylinder(Cylinder&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Cylinder(void* ptr) noexcept : ::UnityEngine::ProBuilder::Shapes::Shape(ptr) {
+constexpr explicit Cylinder(void* ptr) noexcept : UnityEngine::ProBuilder::Shapes::Shape(ptr) {
 }
 
 
@@ -86,13 +85,13 @@ constexpr bool __get_m_Smooth() const;
 // Methods
 
 /// @brief Method CopyShape addr 0x29f3354 size 0xd4 virtual true final false
- void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape shape) ;
+ void CopyShape(UnityEngine::ProBuilder::Shapes::Shape shape) ;
 
 /// @brief Method UpdateBounds addr 0x29f3428 size 0x38 virtual true final false
- ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds) ;
+ UnityEngine::Bounds UpdateBounds(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::Vector3 size, UnityEngine::Quaternion rotation, UnityEngine::Bounds bounds) ;
 
 /// @brief Method RebuildMesh addr 0x29f3460 size 0xbfc virtual true final false
- ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation) ;
+ UnityEngine::Bounds RebuildMesh(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::Vector3 size, UnityEngine::Quaternion rotation) ;
 
 // Ctor Parameters []
 explicit Cylinder() ;
@@ -104,6 +103,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder::Shapes
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::Shapes::Cylinder);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Shapes::Cylinder, "UnityEngine.ProBuilder.Shapes", "Cylinder");
+NEED_NO_BOX(UnityEngine::ProBuilder::Shapes::Cylinder);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Shapes::Cylinder, "UnityEngine.ProBuilder.Shapes", "Cylinder");

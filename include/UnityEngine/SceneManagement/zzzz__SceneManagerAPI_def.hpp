@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace UnityEngine {
+class AsyncOperation;
+}
 namespace UnityEngine::SceneManagement {
 struct LoadSceneParameters;
 }
 namespace UnityEngine::SceneManagement {
 struct UnloadSceneOptions;
-}
-namespace UnityEngine {
-class AsyncOperation;
 }
 // Forward declare root types
 namespace UnityEngine::SceneManagement {
@@ -60,33 +59,33 @@ constexpr explicit SceneManagerAPI(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Fields
 
-static ::UnityEngine::SceneManagement::SceneManagerAPI __declspec(property(get=__get_s_DefaultAPI, put=__set_s_DefaultAPI))  s_DefaultAPI;
+static UnityEngine::SceneManagement::SceneManagerAPI __declspec(property(get=__get_s_DefaultAPI, put=__set_s_DefaultAPI))  s_DefaultAPI;
 
-static void __set_s_DefaultAPI(::UnityEngine::SceneManagement::SceneManagerAPI value) ;
+static void __set_s_DefaultAPI(UnityEngine::SceneManagement::SceneManagerAPI value) ;
 
-static ::UnityEngine::SceneManagement::SceneManagerAPI __get_s_DefaultAPI() ;
+static UnityEngine::SceneManagement::SceneManagerAPI __get_s_DefaultAPI() ;
 
-static ::UnityEngine::SceneManagement::SceneManagerAPI __declspec(property(get=__get__overrideAPI_k__BackingField, put=__set__overrideAPI_k__BackingField))  _overrideAPI_k__BackingField;
+static UnityEngine::SceneManagement::SceneManagerAPI __declspec(property(get=__get__overrideAPI_k__BackingField, put=__set__overrideAPI_k__BackingField))  _overrideAPI_k__BackingField;
 
-static void __set__overrideAPI_k__BackingField(::UnityEngine::SceneManagement::SceneManagerAPI value) ;
+static void __set__overrideAPI_k__BackingField(UnityEngine::SceneManagement::SceneManagerAPI value) ;
 
-static ::UnityEngine::SceneManagement::SceneManagerAPI __get__overrideAPI_k__BackingField() ;
+static UnityEngine::SceneManagement::SceneManagerAPI __get__overrideAPI_k__BackingField() ;
 
 
 // Properties
 
-static ::UnityEngine::SceneManagement::SceneManagerAPI __declspec(property(get=get_ActiveAPI))  ActiveAPI;
+static UnityEngine::SceneManagement::SceneManagerAPI __declspec(property(get=get_ActiveAPI))  ActiveAPI;
 
-static ::UnityEngine::SceneManagement::SceneManagerAPI __declspec(property(get=get_overrideAPI))  overrideAPI;
+static UnityEngine::SceneManagement::SceneManagerAPI __declspec(property(get=get_overrideAPI))  overrideAPI;
 
 
 // Methods
 
 /// @brief Method get_ActiveAPI addr 0x2b77ea8 size 0xa8 virtual false final false
-static ::UnityEngine::SceneManagement::SceneManagerAPI get_ActiveAPI() ;
+static UnityEngine::SceneManagement::SceneManagerAPI get_ActiveAPI() ;
 
 /// @brief Method get_overrideAPI addr 0x2b78aec size 0x58 virtual false final false
-static ::UnityEngine::SceneManagement::SceneManagerAPI get_overrideAPI() ;
+static UnityEngine::SceneManagement::SceneManagerAPI get_overrideAPI() ;
 
 // Ctor Parameters []
 explicit SceneManagerAPI() ;
@@ -98,18 +97,17 @@ explicit SceneManagerAPI() ;
  int32_t GetNumScenesInBuildSettings() ;
 
 /// @brief Method LoadSceneAsyncByNameOrIndex addr 0x2b78b74 size 0x60 virtual true final false
- ::UnityEngine::AsyncOperation LoadSceneAsyncByNameOrIndex(::StringW sceneName, int32_t sceneBuildIndex, ::UnityEngine::SceneManagement::LoadSceneParameters parameters, bool mustCompleteNextFrame) ;
+ UnityEngine::AsyncOperation LoadSceneAsyncByNameOrIndex(::StringW sceneName, int32_t sceneBuildIndex, UnityEngine::SceneManagement::LoadSceneParameters parameters, bool mustCompleteNextFrame) ;
 
 /// @brief Method UnloadSceneAsyncByNameOrIndex addr 0x2b78bd4 size 0x6c virtual true final false
- ::UnityEngine::AsyncOperation UnloadSceneAsyncByNameOrIndex(::StringW sceneName, int32_t sceneBuildIndex, bool immediately, ::UnityEngine::SceneManagement::UnloadSceneOptions options, ByRef<bool> outSuccess) ;
+ UnityEngine::AsyncOperation UnloadSceneAsyncByNameOrIndex(::StringW sceneName, int32_t sceneBuildIndex, bool immediately, UnityEngine::SceneManagement::UnloadSceneOptions options, ByRef<bool> outSuccess) ;
 
 /// @brief Method LoadFirstScene addr 0x2b78c40 size 0x8 virtual true final false
- ::UnityEngine::AsyncOperation LoadFirstScene(bool mustLoadAsync) ;
+ UnityEngine::AsyncOperation LoadFirstScene(bool mustLoadAsync) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::SceneManagement
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::SceneManagement::SceneManagerAPI);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SceneManagement::SceneManagerAPI, "UnityEngine.SceneManagement", "SceneManagerAPI");
+NEED_NO_BOX(UnityEngine::SceneManagement::SceneManagerAPI);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SceneManagement::SceneManagerAPI, "UnityEngine.SceneManagement", "SceneManagerAPI");

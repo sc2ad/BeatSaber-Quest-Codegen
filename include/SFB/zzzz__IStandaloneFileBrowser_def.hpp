@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 template<typename T>
 class Action_1;
@@ -33,27 +32,26 @@ constexpr explicit IStandaloneFileBrowser(void* ptr) noexcept : ::cordl_internal
 // Methods
 
 /// @brief Method OpenFilePanel addr 0x0 size 0xffffffffffffffff virtual true final false
- ::ArrayW<::StringW> OpenFilePanel(::StringW title, ::StringW directory, ::ArrayW<::SFB::ExtensionFilter> extensions, bool multiselect) ;
+ ::ArrayW<::StringW> OpenFilePanel(::StringW title, ::StringW directory, ::ArrayW<SFB::ExtensionFilter> extensions, bool multiselect) ;
 
 /// @brief Method OpenFolderPanel addr 0x0 size 0xffffffffffffffff virtual true final false
  ::ArrayW<::StringW> OpenFolderPanel(::StringW title, ::StringW directory, bool multiselect) ;
 
 /// @brief Method SaveFilePanel addr 0x0 size 0xffffffffffffffff virtual true final false
- ::StringW SaveFilePanel(::StringW title, ::StringW directory, ::StringW defaultName, ::ArrayW<::SFB::ExtensionFilter> extensions) ;
+ ::StringW SaveFilePanel(::StringW title, ::StringW directory, ::StringW defaultName, ::ArrayW<SFB::ExtensionFilter> extensions) ;
 
 /// @brief Method OpenFilePanelAsync addr 0x0 size 0xffffffffffffffff virtual true final false
- void OpenFilePanelAsync(::StringW title, ::StringW directory, ::ArrayW<::SFB::ExtensionFilter> extensions, bool multiselect, ::System::Action_1<::ArrayW<::StringW>> cb) ;
+ void OpenFilePanelAsync(::StringW title, ::StringW directory, ::ArrayW<SFB::ExtensionFilter> extensions, bool multiselect, System::Action_1<::ArrayW<::StringW>> cb) ;
 
 /// @brief Method OpenFolderPanelAsync addr 0x0 size 0xffffffffffffffff virtual true final false
- void OpenFolderPanelAsync(::StringW title, ::StringW directory, bool multiselect, ::System::Action_1<::ArrayW<::StringW>> cb) ;
+ void OpenFolderPanelAsync(::StringW title, ::StringW directory, bool multiselect, System::Action_1<::ArrayW<::StringW>> cb) ;
 
 /// @brief Method SaveFilePanelAsync addr 0x0 size 0xffffffffffffffff virtual true final false
- void SaveFilePanelAsync(::StringW title, ::StringW directory, ::StringW defaultName, ::ArrayW<::SFB::ExtensionFilter> extensions, ::System::Action_1<::StringW> cb) ;
+ void SaveFilePanelAsync(::StringW title, ::StringW directory, ::StringW defaultName, ::ArrayW<SFB::ExtensionFilter> extensions, System::Action_1<::StringW> cb) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def SFB
-} // end anonymous namespace
-NEED_NO_BOX(::SFB::IStandaloneFileBrowser);
-DEFINE_IL2CPP_ARG_TYPE(::SFB::IStandaloneFileBrowser, "SFB", "IStandaloneFileBrowser");
+NEED_NO_BOX(SFB::IStandaloneFileBrowser);
+DEFINE_IL2CPP_ARG_TYPE(SFB::IStandaloneFileBrowser, "SFB", "IStandaloneFileBrowser");

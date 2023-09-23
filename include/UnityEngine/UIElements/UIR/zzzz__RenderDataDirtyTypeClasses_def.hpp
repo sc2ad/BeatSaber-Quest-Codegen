@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
 struct RenderDataDirtyTypeClasses;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Clipping offset 0
-static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypeClasses const Clipping;
+static UnityEngine::UIElements::UIR::RenderDataDirtyTypeClasses const Clipping;
 
 /// @brief Field Opacity offset 0
-static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypeClasses const Opacity;
+static UnityEngine::UIElements::UIR::RenderDataDirtyTypeClasses const Opacity;
 
 /// @brief Field Color offset 0
-static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypeClasses const Color;
+static UnityEngine::UIElements::UIR::RenderDataDirtyTypeClasses const Color;
 
 /// @brief Field TransformSize offset 0
-static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypeClasses const TransformSize;
+static UnityEngine::UIElements::UIR::RenderDataDirtyTypeClasses const TransformSize;
 
 /// @brief Field Visuals offset 0
-static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypeClasses const Visuals;
+static UnityEngine::UIElements::UIR::RenderDataDirtyTypeClasses const Visuals;
 
 /// @brief Field Count offset 0
-static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypeClasses const Count;
+static UnityEngine::UIElements::UIR::RenderDataDirtyTypeClasses const Count;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::UIR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::RenderDataDirtyTypeClasses, "UnityEngine.UIElements.UIR", "RenderDataDirtyTypeClasses");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::RenderDataDirtyTypeClasses, "UnityEngine.UIElements.UIR", "RenderDataDirtyTypeClasses");

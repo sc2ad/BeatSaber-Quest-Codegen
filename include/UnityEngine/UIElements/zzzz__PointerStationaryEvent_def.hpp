@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerEventBase_1_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class PointerStationaryEvent;
@@ -9,10 +8,10 @@ class PointerStationaryEvent;
 // Type: UnityEngine.UIElements::PointerStationaryEvent
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7297), inst: 4686 }), TypeDefinitionIndex(TypeDefinitionIndex(7297))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7297)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7297), inst: 4686 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7300))
 // CS Name: UnityEngine.UIElements.PointerStationaryEvent
-class CORDL_TYPE PointerStationaryEvent : public ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::PointerStationaryEvent> {
+class CORDL_TYPE PointerStationaryEvent : public UnityEngine::UIElements::PointerEventBase_1<UnityEngine::UIElements::PointerStationaryEvent> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr PointerStationaryEvent(PointerStationaryEvent const& ) noexcept = defa
 constexpr PointerStationaryEvent(PointerStationaryEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PointerStationaryEvent(void* ptr) noexcept : ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::PointerStationaryEvent>(ptr) {
+constexpr explicit PointerStationaryEvent(void* ptr) noexcept : UnityEngine::UIElements::PointerEventBase_1<UnityEngine::UIElements::PointerStationaryEvent>(ptr) {
 }
 
 
@@ -64,6 +63,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::PointerStationaryEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::PointerStationaryEvent, "UnityEngine.UIElements", "PointerStationaryEvent");
+NEED_NO_BOX(UnityEngine::UIElements::PointerStationaryEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::PointerStationaryEvent, "UnityEngine.UIElements", "PointerStationaryEvent");

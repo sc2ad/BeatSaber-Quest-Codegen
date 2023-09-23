@@ -2,12 +2,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace UnityEngine {
-struct AudioType;
-}
 namespace UnityEngine::Networking {
 class UnityWebRequest;
+}
+namespace UnityEngine {
+struct AudioType;
 }
 // Forward declare root types
 namespace UnityEngine::Networking {
@@ -56,12 +55,11 @@ constexpr explicit UnityWebRequestMultimedia(void* ptr) noexcept : ::bs_hook::Il
 // Methods
 
 /// @brief Method GetAudioClip addr 0x2d33a0c size 0xc0 virtual false final false
-static ::UnityEngine::Networking::UnityWebRequest GetAudioClip(::StringW uri, ::UnityEngine::AudioType audioType) ;
+static UnityEngine::Networking::UnityWebRequest GetAudioClip(::StringW uri, UnityEngine::AudioType audioType) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Networking
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Networking::UnityWebRequestMultimedia);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Networking::UnityWebRequestMultimedia, "UnityEngine.Networking", "UnityWebRequestMultimedia");
+NEED_NO_BOX(UnityEngine::Networking::UnityWebRequestMultimedia);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequestMultimedia, "UnityEngine.Networking", "UnityWebRequestMultimedia");

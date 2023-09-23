@@ -2,18 +2,17 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace Org::BouncyCastle::Asn1::Esf {
-class OtherHash;
-}
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class IssuerSerial;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1::Esf {
+class OtherHash;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Esf {
@@ -25,7 +24,7 @@ namespace Org::BouncyCastle::Asn1::Esf {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(148))
 // CS Name: Org.BouncyCastle.Asn1.Esf.OtherCertID
-class CORDL_TYPE OtherCertID : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
+class CORDL_TYPE OtherCertID : public Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr OtherCertID(OtherCertID const& ) noexcept = default;
 constexpr OtherCertID(OtherCertID&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OtherCertID(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
+constexpr explicit OtherCertID(void* ptr) noexcept : Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
 }
 
 
@@ -61,62 +60,61 @@ constexpr explicit OtherCertID(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::
 
 // Fields
 
- ::Org::BouncyCastle::Asn1::Esf::OtherHash __declspec(property(get=__get_otherCertHash, put=__set_otherCertHash))  otherCertHash;
+ Org::BouncyCastle::Asn1::Esf::OtherHash __declspec(property(get=__get_otherCertHash, put=__set_otherCertHash))  otherCertHash;
 
-constexpr void __set_otherCertHash(::Org::BouncyCastle::Asn1::Esf::OtherHash value) ;
+constexpr void __set_otherCertHash(Org::BouncyCastle::Asn1::Esf::OtherHash value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::Esf::OtherHash __get_otherCertHash() const;
+constexpr Org::BouncyCastle::Asn1::Esf::OtherHash __get_otherCertHash() const;
 
- ::Org::BouncyCastle::Asn1::X509::IssuerSerial __declspec(property(get=__get_issuerSerial, put=__set_issuerSerial))  issuerSerial;
+ Org::BouncyCastle::Asn1::X509::IssuerSerial __declspec(property(get=__get_issuerSerial, put=__set_issuerSerial))  issuerSerial;
 
-constexpr void __set_issuerSerial(::Org::BouncyCastle::Asn1::X509::IssuerSerial value) ;
+constexpr void __set_issuerSerial(Org::BouncyCastle::Asn1::X509::IssuerSerial value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::X509::IssuerSerial __get_issuerSerial() const;
+constexpr Org::BouncyCastle::Asn1::X509::IssuerSerial __get_issuerSerial() const;
 
 
 // Properties
 
- ::Org::BouncyCastle::Asn1::Esf::OtherHash __declspec(property(get=get_OtherCertHash))  OtherCertHash;
+ Org::BouncyCastle::Asn1::Esf::OtherHash __declspec(property(get=get_OtherCertHash))  OtherCertHash;
 
- ::Org::BouncyCastle::Asn1::X509::IssuerSerial __declspec(property(get=get_IssuerSerial))  IssuerSerial;
+ Org::BouncyCastle::Asn1::X509::IssuerSerial __declspec(property(get=get_IssuerSerial))  IssuerSerial;
 
 
 // Methods
 
 /// @brief Method GetInstance addr 0xe0235c size 0x188 virtual false final false
-static ::Org::BouncyCastle::Asn1::Esf::OtherCertID GetInstance(::bs_hook::Il2CppWrapperType obj) ;
+static Org::BouncyCastle::Asn1::Esf::OtherCertID GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "::Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit OtherCertID(::Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
+explicit OtherCertID(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xe06608 size 0x1cc virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+ void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "otherCertHash", ty: "::Org::BouncyCastle::Asn1::Esf::OtherHash", modifiers: "", def_value: None }]
-explicit OtherCertID(::Org::BouncyCastle::Asn1::Esf::OtherHash otherCertHash) ;
+// Ctor Parameters [CppParam { name: "otherCertHash", ty: "Org::BouncyCastle::Asn1::Esf::OtherHash", modifiers: "", def_value: None }]
+explicit OtherCertID(Org::BouncyCastle::Asn1::Esf::OtherHash otherCertHash) ;
 
 /// @brief Method .ctor addr 0xe067d4 size 0x8 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::Esf::OtherHash otherCertHash) ;
+ void _ctor(Org::BouncyCastle::Asn1::Esf::OtherHash otherCertHash) ;
 
-// Ctor Parameters [CppParam { name: "otherCertHash", ty: "::Org::BouncyCastle::Asn1::Esf::OtherHash", modifiers: "", def_value: None }, CppParam { name: "issuerSerial", ty: "::Org::BouncyCastle::Asn1::X509::IssuerSerial", modifiers: "", def_value: None }]
-explicit OtherCertID(::Org::BouncyCastle::Asn1::Esf::OtherHash otherCertHash, ::Org::BouncyCastle::Asn1::X509::IssuerSerial issuerSerial) ;
+// Ctor Parameters [CppParam { name: "otherCertHash", ty: "Org::BouncyCastle::Asn1::Esf::OtherHash", modifiers: "", def_value: None }, CppParam { name: "issuerSerial", ty: "Org::BouncyCastle::Asn1::X509::IssuerSerial", modifiers: "", def_value: None }]
+explicit OtherCertID(Org::BouncyCastle::Asn1::Esf::OtherHash otherCertHash, Org::BouncyCastle::Asn1::X509::IssuerSerial issuerSerial) ;
 
 /// @brief Method .ctor addr 0xe067dc size 0x7c virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::Esf::OtherHash otherCertHash, ::Org::BouncyCastle::Asn1::X509::IssuerSerial issuerSerial) ;
+ void _ctor(Org::BouncyCastle::Asn1::Esf::OtherHash otherCertHash, Org::BouncyCastle::Asn1::X509::IssuerSerial issuerSerial) ;
 
 /// @brief Method get_OtherCertHash addr 0xe06858 size 0x8 virtual false final false
- ::Org::BouncyCastle::Asn1::Esf::OtherHash get_OtherCertHash() ;
+ Org::BouncyCastle::Asn1::Esf::OtherHash get_OtherCertHash() ;
 
 /// @brief Method get_IssuerSerial addr 0xe06860 size 0x8 virtual false final false
- ::Org::BouncyCastle::Asn1::X509::IssuerSerial get_IssuerSerial() ;
+ Org::BouncyCastle::Asn1::X509::IssuerSerial get_IssuerSerial() ;
 
 /// @brief Method ToAsn1Object addr 0xe06868 size 0x138 virtual true final false
- ::Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
+ Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::Esf
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::Esf::OtherCertID);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Esf::OtherCertID, "Org.BouncyCastle.Asn1.Esf", "OtherCertID");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Esf::OtherCertID);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Esf::OtherCertID, "Org.BouncyCastle.Asn1.Esf", "OtherCertID");

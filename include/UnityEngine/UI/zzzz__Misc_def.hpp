@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace UnityEngine {
 class Object;
 }
@@ -52,15 +51,14 @@ constexpr explicit Misc(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) 
 // Methods
 
 /// @brief Method Destroy addr 0x2c047f4 size 0x100 virtual false final false
-static void Destroy(::UnityEngine::Object obj) ;
+static void Destroy(UnityEngine::Object obj) ;
 
 /// @brief Method DestroyImmediate addr 0x2c048f4 size 0xa8 virtual false final false
-static void DestroyImmediate(::UnityEngine::Object obj) ;
+static void DestroyImmediate(UnityEngine::Object obj) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UI
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UI::Misc);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::Misc, "UnityEngine.UI", "Misc");
+NEED_NO_BOX(UnityEngine::UI::Misc);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Misc, "UnityEngine.UI", "Misc");

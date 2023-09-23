@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Zlib {
 class StaticTree;
@@ -83,23 +82,23 @@ static void __set_static_dtree(::ArrayW<int16_t> value) ;
 
 static ::ArrayW<int16_t> __get_static_dtree() ;
 
-static ::Org::BouncyCastle::Utilities::Zlib::StaticTree __declspec(property(get=__get_static_l_desc, put=__set_static_l_desc))  static_l_desc;
+static Org::BouncyCastle::Utilities::Zlib::StaticTree __declspec(property(get=__get_static_l_desc, put=__set_static_l_desc))  static_l_desc;
 
-static void __set_static_l_desc(::Org::BouncyCastle::Utilities::Zlib::StaticTree value) ;
+static void __set_static_l_desc(Org::BouncyCastle::Utilities::Zlib::StaticTree value) ;
 
-static ::Org::BouncyCastle::Utilities::Zlib::StaticTree __get_static_l_desc() ;
+static Org::BouncyCastle::Utilities::Zlib::StaticTree __get_static_l_desc() ;
 
-static ::Org::BouncyCastle::Utilities::Zlib::StaticTree __declspec(property(get=__get_static_d_desc, put=__set_static_d_desc))  static_d_desc;
+static Org::BouncyCastle::Utilities::Zlib::StaticTree __declspec(property(get=__get_static_d_desc, put=__set_static_d_desc))  static_d_desc;
 
-static void __set_static_d_desc(::Org::BouncyCastle::Utilities::Zlib::StaticTree value) ;
+static void __set_static_d_desc(Org::BouncyCastle::Utilities::Zlib::StaticTree value) ;
 
-static ::Org::BouncyCastle::Utilities::Zlib::StaticTree __get_static_d_desc() ;
+static Org::BouncyCastle::Utilities::Zlib::StaticTree __get_static_d_desc() ;
 
-static ::Org::BouncyCastle::Utilities::Zlib::StaticTree __declspec(property(get=__get_static_bl_desc, put=__set_static_bl_desc))  static_bl_desc;
+static Org::BouncyCastle::Utilities::Zlib::StaticTree __declspec(property(get=__get_static_bl_desc, put=__set_static_bl_desc))  static_bl_desc;
 
-static void __set_static_bl_desc(::Org::BouncyCastle::Utilities::Zlib::StaticTree value) ;
+static void __set_static_bl_desc(Org::BouncyCastle::Utilities::Zlib::StaticTree value) ;
 
-static ::Org::BouncyCastle::Utilities::Zlib::StaticTree __get_static_bl_desc() ;
+static Org::BouncyCastle::Utilities::Zlib::StaticTree __get_static_bl_desc() ;
 
  ::ArrayW<int16_t> __declspec(property(get=__get_static_tree, put=__set_static_tree))  static_tree;
 
@@ -144,6 +143,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities::Zlib
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::Zlib::StaticTree);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Zlib::StaticTree, "Org.BouncyCastle.Utilities.Zlib", "StaticTree");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Zlib::StaticTree);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Zlib::StaticTree, "Org.BouncyCastle.Utilities.Zlib", "StaticTree");

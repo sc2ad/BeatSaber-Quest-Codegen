@@ -1,6 +1,5 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace System::ComponentModel {
 class PropertyChangingEventHandler;
 }
@@ -27,15 +26,14 @@ constexpr explicit INotifyPropertyChanging(void* ptr) noexcept : ::cordl_interna
 // Methods
 
 /// @brief Method add_PropertyChanging addr 0x0 size 0xffffffffffffffff virtual true final false
- void add_PropertyChanging(::System::ComponentModel::PropertyChangingEventHandler value) ;
+ void add_PropertyChanging(System::ComponentModel::PropertyChangingEventHandler value) ;
 
 /// @brief Method remove_PropertyChanging addr 0x0 size 0xffffffffffffffff virtual true final false
- void remove_PropertyChanging(::System::ComponentModel::PropertyChangingEventHandler value) ;
+ void remove_PropertyChanging(System::ComponentModel::PropertyChangingEventHandler value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::INotifyPropertyChanging);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::INotifyPropertyChanging, "System.ComponentModel", "INotifyPropertyChanging");
+NEED_NO_BOX(System::ComponentModel::INotifyPropertyChanging);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::INotifyPropertyChanging, "System.ComponentModel", "INotifyPropertyChanging");

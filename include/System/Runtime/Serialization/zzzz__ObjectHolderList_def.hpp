@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace System::Runtime::Serialization {
-class ObjectHolder;
-}
 namespace System::Runtime::Serialization {
 class ObjectHolderListEnumerator;
+}
+namespace System::Runtime::Serialization {
+class ObjectHolder;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -56,11 +55,11 @@ constexpr explicit ObjectHolderList(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
- ::ArrayW<::System::Runtime::Serialization::ObjectHolder> __declspec(property(get=__get_m_values, put=__set_m_values))  m_values;
+ ::ArrayW<System::Runtime::Serialization::ObjectHolder> __declspec(property(get=__get_m_values, put=__set_m_values))  m_values;
 
-constexpr void __set_m_values(::ArrayW<::System::Runtime::Serialization::ObjectHolder> value) ;
+constexpr void __set_m_values(::ArrayW<System::Runtime::Serialization::ObjectHolder> value) ;
 
-constexpr ::ArrayW<::System::Runtime::Serialization::ObjectHolder> __get_m_values() const;
+constexpr ::ArrayW<System::Runtime::Serialization::ObjectHolder> __get_m_values() const;
 
  int32_t __declspec(property(get=__get_m_count, put=__set_m_count))  m_count;
 
@@ -91,10 +90,10 @@ explicit ObjectHolderList(int32_t startingSize) ;
  void _ctor(int32_t startingSize) ;
 
 /// @brief Method Add addr 0x23509a0 size 0xa8 virtual true final false
- void Add(::System::Runtime::Serialization::ObjectHolder value) ;
+ void Add(System::Runtime::Serialization::ObjectHolder value) ;
 
 /// @brief Method GetFixupEnumerator addr 0x234f8f8 size 0x64 virtual false final false
- ::System::Runtime::Serialization::ObjectHolderListEnumerator GetFixupEnumerator() ;
+ System::Runtime::Serialization::ObjectHolderListEnumerator GetFixupEnumerator() ;
 
 /// @brief Method EnlargeArray addr 0x2350a48 size 0x88 virtual false final false
  void EnlargeArray() ;
@@ -109,6 +108,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::ObjectHolderList);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::ObjectHolderList, "System.Runtime.Serialization", "ObjectHolderList");
+NEED_NO_BOX(System::Runtime::Serialization::ObjectHolderList);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ObjectHolderList, "System.Runtime.Serialization", "ObjectHolderList");

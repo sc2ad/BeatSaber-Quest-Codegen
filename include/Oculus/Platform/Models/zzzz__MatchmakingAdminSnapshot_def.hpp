@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
 class MatchmakingAdminSnapshotCandidateList;
 }
@@ -53,11 +52,11 @@ constexpr explicit MatchmakingAdminSnapshot(void* ptr) noexcept : ::bs_hook::Il2
 
 // Fields
 
- ::Oculus::Platform::Models::MatchmakingAdminSnapshotCandidateList __declspec(property(get=__get_Candidates, put=__set_Candidates))  Candidates;
+ Oculus::Platform::Models::MatchmakingAdminSnapshotCandidateList __declspec(property(get=__get_Candidates, put=__set_Candidates))  Candidates;
 
-constexpr void __set_Candidates(::Oculus::Platform::Models::MatchmakingAdminSnapshotCandidateList value) ;
+constexpr void __set_Candidates(Oculus::Platform::Models::MatchmakingAdminSnapshotCandidateList value) ;
 
-constexpr ::Oculus::Platform::Models::MatchmakingAdminSnapshotCandidateList __get_Candidates() const;
+constexpr Oculus::Platform::Models::MatchmakingAdminSnapshotCandidateList __get_Candidates() const;
 
  double_t __declspec(property(get=__get_MyCurrentThreshold, put=__set_MyCurrentThreshold))  MyCurrentThreshold;
 
@@ -78,6 +77,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::MatchmakingAdminSnapshot);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::MatchmakingAdminSnapshot, "Oculus.Platform.Models", "MatchmakingAdminSnapshot");
+NEED_NO_BOX(Oculus::Platform::Models::MatchmakingAdminSnapshot);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::MatchmakingAdminSnapshot, "Oculus.Platform.Models", "MatchmakingAdminSnapshot");

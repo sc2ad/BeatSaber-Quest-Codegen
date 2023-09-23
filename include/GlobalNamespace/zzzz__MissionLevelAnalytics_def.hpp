@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class MissionLevelScenesTransitionSetupDataSO;
-}
 namespace GlobalNamespace {
 class IAnalyticsModel;
+}
+namespace GlobalNamespace {
+class MissionLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
 class MissionCompletionResults;
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4002))
 // CS Name: MissionLevelAnalytics
-class CORDL_TYPE MissionLevelAnalytics : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MissionLevelAnalytics : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr MissionLevelAnalytics(MissionLevelAnalytics const& ) noexcept = defaul
 constexpr MissionLevelAnalytics(MissionLevelAnalytics&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MissionLevelAnalytics(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MissionLevelAnalytics(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -57,17 +56,17 @@ constexpr explicit MissionLevelAnalytics(void* ptr) noexcept : ::UnityEngine::Mo
 
 // Fields
 
- ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO __declspec(property(get=__get__missionLevelScenesTransitionSetupData, put=__set__missionLevelScenesTransitionSetupData))  _missionLevelScenesTransitionSetupData;
+ GlobalNamespace::MissionLevelScenesTransitionSetupDataSO __declspec(property(get=__get__missionLevelScenesTransitionSetupData, put=__set__missionLevelScenesTransitionSetupData))  _missionLevelScenesTransitionSetupData;
 
-constexpr void __set__missionLevelScenesTransitionSetupData(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO value) ;
+constexpr void __set__missionLevelScenesTransitionSetupData(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO value) ;
 
-constexpr ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO __get__missionLevelScenesTransitionSetupData() const;
+constexpr GlobalNamespace::MissionLevelScenesTransitionSetupDataSO __get__missionLevelScenesTransitionSetupData() const;
 
- ::GlobalNamespace::IAnalyticsModel __declspec(property(get=__get__analyticsModel, put=__set__analyticsModel))  _analyticsModel;
+ GlobalNamespace::IAnalyticsModel __declspec(property(get=__get__analyticsModel, put=__set__analyticsModel))  _analyticsModel;
 
-constexpr void __set__analyticsModel(::GlobalNamespace::IAnalyticsModel value) ;
+constexpr void __set__analyticsModel(GlobalNamespace::IAnalyticsModel value) ;
 
-constexpr ::GlobalNamespace::IAnalyticsModel __get__analyticsModel() const;
+constexpr GlobalNamespace::IAnalyticsModel __get__analyticsModel() const;
 
 
 // Methods
@@ -79,7 +78,7 @@ constexpr ::GlobalNamespace::IAnalyticsModel __get__analyticsModel() const;
  void OnDestroy() ;
 
 /// @brief Method HandleMissionLevelDidFinishEvent addr 0x20b1b54 size 0x21c virtual false final false
- void HandleMissionLevelDidFinishEvent(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO missionLevelScenesTransitionSetupData, ::GlobalNamespace::MissionCompletionResults missionCompletionResults) ;
+ void HandleMissionLevelDidFinishEvent(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO missionLevelScenesTransitionSetupData, GlobalNamespace::MissionCompletionResults missionCompletionResults) ;
 
 // Ctor Parameters []
 explicit MissionLevelAnalytics() ;
@@ -91,6 +90,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MissionLevelAnalytics);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionLevelAnalytics, "", "MissionLevelAnalytics");
+NEED_NO_BOX(GlobalNamespace::MissionLevelAnalytics);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelAnalytics, "", "MissionLevelAnalytics");

@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
@@ -24,8 +23,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
 class CORDL_TYPE SkipjackEngine : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IBlockCipher
-constexpr operator  ::Org::BouncyCastle::Crypto::IBlockCipher() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IBlockCipher
+constexpr operator  Org::BouncyCastle::Crypto::IBlockCipher() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -110,7 +109,7 @@ constexpr bool __get_encrypting() const;
 // Methods
 
 /// @brief Method Init addr 0xe5b5a4 size 0x304 virtual true final false
- void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method get_AlgorithmName addr 0xe5b8a8 size 0x40 virtual true final false
  ::StringW get_AlgorithmName() ;
@@ -149,6 +148,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Engines
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::SkipjackEngine);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Engines::SkipjackEngine, "Org.BouncyCastle.Crypto.Engines", "SkipjackEngine");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Engines::SkipjackEngine);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::SkipjackEngine, "Org.BouncyCastle.Crypto.Engines", "SkipjackEngine");

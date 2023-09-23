@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace Newtonsoft::Json::Utilities {
 struct ParserTimeZone;
 }
@@ -21,8 +20,8 @@ namespace Newtonsoft::Json::Utilities {
 struct CORDL_TYPE DateTimeParser : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "Year", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Month", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Day", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Hour", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Minute", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Second", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Fraction", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ZoneHour", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ZoneMinute", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Zone", ty: "::Newtonsoft::Json::Utilities::ParserTimeZone", modifiers: "", def_value: None }, CppParam { name: "_text", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "_end", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr DateTimeParser(int32_t Year, int32_t Month, int32_t Day, int32_t Hour, int32_t Minute, int32_t Second, int32_t Fraction, int32_t ZoneHour, int32_t ZoneMinute, ::Newtonsoft::Json::Utilities::ParserTimeZone Zone, ::ArrayW<char16_t> _text, int32_t _end) noexcept;
+// Ctor Parameters [CppParam { name: "Year", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Month", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Day", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Hour", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Minute", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Second", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Fraction", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ZoneHour", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ZoneMinute", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Zone", ty: "Newtonsoft::Json::Utilities::ParserTimeZone", modifiers: "", def_value: None }, CppParam { name: "_text", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "_end", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr DateTimeParser(int32_t Year, int32_t Month, int32_t Day, int32_t Hour, int32_t Minute, int32_t Second, int32_t Fraction, int32_t ZoneHour, int32_t ZoneMinute, Newtonsoft::Json::Utilities::ParserTimeZone Zone, ::ArrayW<char16_t> _text, int32_t _end) noexcept;
 
 
                     constexpr DateTimeParser(DateTimeParser const&) = default;
@@ -109,11 +108,11 @@ constexpr void __set_ZoneMinute(int32_t value) ;
 
 constexpr int32_t __get_ZoneMinute() const;
 
- ::Newtonsoft::Json::Utilities::ParserTimeZone __declspec(property(get=__get_Zone, put=__set_Zone))  Zone;
+ Newtonsoft::Json::Utilities::ParserTimeZone __declspec(property(get=__get_Zone, put=__set_Zone))  Zone;
 
-constexpr void __set_Zone(::Newtonsoft::Json::Utilities::ParserTimeZone value) ;
+constexpr void __set_Zone(Newtonsoft::Json::Utilities::ParserTimeZone value) ;
 
-constexpr ::Newtonsoft::Json::Utilities::ParserTimeZone __get_Zone() const;
+constexpr Newtonsoft::Json::Utilities::ParserTimeZone __get_Zone() const;
 
  ::ArrayW<char16_t> __declspec(property(get=__get__text, put=__set__text))  _text;
 
@@ -245,5 +244,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Utilities
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::DateTimeParser, "Newtonsoft.Json.Utilities", "DateTimeParser");
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::DateTimeParser, "Newtonsoft.Json.Utilities", "DateTimeParser");

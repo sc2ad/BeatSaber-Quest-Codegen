@@ -1,16 +1,15 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace UnityEngine {
-class Canvas;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace UnityEngine::EventSystems {
 struct RaycastResult;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace UnityEngine {
+class Canvas;
 }
 // Forward declare root types
 namespace HMUI {
@@ -22,7 +21,7 @@ namespace HMUI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13598))
 // CS Name: HMUI.RaycastUITopLevelChecker
-class CORDL_TYPE RaycastUITopLevelChecker : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE RaycastUITopLevelChecker : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr RaycastUITopLevelChecker(RaycastUITopLevelChecker const& ) noexcept = 
 constexpr RaycastUITopLevelChecker(RaycastUITopLevelChecker&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RaycastUITopLevelChecker(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit RaycastUITopLevelChecker(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -58,17 +57,17 @@ constexpr explicit RaycastUITopLevelChecker(void* ptr) noexcept : ::UnityEngine:
 
 // Fields
 
- ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult> __declspec(property(get=__get_results, put=__set_results))  results;
+ System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult> __declspec(property(get=__get_results, put=__set_results))  results;
 
-constexpr void __set_results(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult> value) ;
+constexpr void __set_results(System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult> __get_results() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult> __get_results() const;
 
- ::UnityEngine::Canvas __declspec(property(get=__get__canvas, put=__set__canvas))  _canvas;
+ UnityEngine::Canvas __declspec(property(get=__get__canvas, put=__set__canvas))  _canvas;
 
-constexpr void __set__canvas(::UnityEngine::Canvas value) ;
+constexpr void __set__canvas(UnityEngine::Canvas value) ;
 
-constexpr ::UnityEngine::Canvas __get__canvas() const;
+constexpr UnityEngine::Canvas __get__canvas() const;
 
 
 // Properties
@@ -94,6 +93,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HMUI
-} // end anonymous namespace
-NEED_NO_BOX(::HMUI::RaycastUITopLevelChecker);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::RaycastUITopLevelChecker, "HMUI", "RaycastUITopLevelChecker");
+NEED_NO_BOX(HMUI::RaycastUITopLevelChecker);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::RaycastUITopLevelChecker, "HMUI", "RaycastUITopLevelChecker");

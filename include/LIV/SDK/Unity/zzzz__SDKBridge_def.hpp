@@ -5,15 +5,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace LIV::SDK::Unity {
-struct SDKResolution;
-}
-namespace LIV::SDK::Unity {
-struct SDKPlane;
+struct SDKInputFrame;
 }
 namespace LIV::SDK::Unity {
 struct SDKApplicationOutput;
+}
+namespace LIV::SDK::Unity {
+struct SDKResolution;
 }
 namespace LIV::SDK::Unity {
 struct SDKOutputFrame;
@@ -22,7 +21,7 @@ namespace LIV::SDK::Unity {
 struct SDKTexture;
 }
 namespace LIV::SDK::Unity {
-struct SDKInputFrame;
+struct SDKPlane;
 }
 namespace System {
 class Action;
@@ -33,7 +32,7 @@ class SDKBridge;
 }
 namespace LIV::SDK::Unity {
 template<typename T>
-struct ____LIV__SDK__Unity__SDKBridge__SDKInjection_1;
+struct LIV__SDK__Unity__SDKBridge__SDKInjection_1;
 }
 // Type: ::SDKInjection`1
 namespace LIV::SDK::Unity {
@@ -43,20 +42,20 @@ template<typename T>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15143))
 // CS Name: LIV.SDK.Unity.SDKBridge::SDKInjection`1
-struct CORDL_TYPE ____LIV__SDK__Unity__SDKBridge__SDKInjection_1 : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE LIV__SDK__Unity__SDKBridge__SDKInjection_1 : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "active", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "action", ty: "::System::Action", modifiers: "", def_value: None }, CppParam { name: "data", ty: "T", modifiers: "", def_value: None }]
-constexpr ____LIV__SDK__Unity__SDKBridge__SDKInjection_1(bool active, ::System::Action action, T data) noexcept;
+// Ctor Parameters [CppParam { name: "active", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "action", ty: "System::Action", modifiers: "", def_value: None }, CppParam { name: "data", ty: "T", modifiers: "", def_value: None }]
+constexpr LIV__SDK__Unity__SDKBridge__SDKInjection_1(bool active, System::Action action, T data) noexcept;
 
 
-                    constexpr ____LIV__SDK__Unity__SDKBridge__SDKInjection_1(____LIV__SDK__Unity__SDKBridge__SDKInjection_1 const&) = default;
-                    constexpr ____LIV__SDK__Unity__SDKBridge__SDKInjection_1(____LIV__SDK__Unity__SDKBridge__SDKInjection_1&&) = default;
-                    constexpr ____LIV__SDK__Unity__SDKBridge__SDKInjection_1& operator=(____LIV__SDK__Unity__SDKBridge__SDKInjection_1 const& o) {
+                    constexpr LIV__SDK__Unity__SDKBridge__SDKInjection_1(LIV__SDK__Unity__SDKBridge__SDKInjection_1 const&) = default;
+                    constexpr LIV__SDK__Unity__SDKBridge__SDKInjection_1(LIV__SDK__Unity__SDKBridge__SDKInjection_1&&) = default;
+                    constexpr LIV__SDK__Unity__SDKBridge__SDKInjection_1& operator=(LIV__SDK__Unity__SDKBridge__SDKInjection_1 const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____LIV__SDK__Unity__SDKBridge__SDKInjection_1& operator=(____LIV__SDK__Unity__SDKBridge__SDKInjection_1&& o) noexcept {
+                    constexpr LIV__SDK__Unity__SDKBridge__SDKInjection_1& operator=(LIV__SDK__Unity__SDKBridge__SDKInjection_1&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -69,7 +68,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x18};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____LIV__SDK__Unity__SDKBridge__SDKInjection_1(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit LIV__SDK__Unity__SDKBridge__SDKInjection_1(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -86,11 +85,11 @@ constexpr void __set_active(bool value) ;
 
 constexpr bool __get_active() const;
 
- ::System::Action __declspec(property(get=__get_action, put=__set_action))  action;
+ System::Action __declspec(property(get=__get_action, put=__set_action))  action;
 
-constexpr void __set_action(::System::Action value) ;
+constexpr void __set_action(System::Action value) ;
 
-constexpr ::System::Action __get_action() const;
+constexpr System::Action __get_action() const;
 
  T __declspec(property(get=__get_data, put=__set_data))  data;
 
@@ -112,7 +111,7 @@ class CORDL_TYPE SDKBridge : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 template<typename T>
-using SDKInjection_1 = ::LIV::SDK::Unity::____LIV__SDK__Unity__SDKBridge__SDKInjection_1<T>;
+using SDKInjection_1 = LIV::SDK::Unity::LIV__SDK__Unity__SDKBridge__SDKInjection_1<T>;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -147,23 +146,23 @@ constexpr explicit SDKBridge(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 
 // Fields
 
-static ::LIV::SDK::Unity::____LIV__SDK__Unity__SDKBridge__SDKInjection_1<::LIV::SDK::Unity::SDKInputFrame> __declspec(property(get=__get__injection_SDKInputFrame, put=__set__injection_SDKInputFrame))  _injection_SDKInputFrame;
+static LIV::SDK::Unity::LIV__SDK__Unity__SDKBridge__SDKInjection_1<LIV::SDK::Unity::SDKInputFrame> __declspec(property(get=__get__injection_SDKInputFrame, put=__set__injection_SDKInputFrame))  _injection_SDKInputFrame;
 
-static void __set__injection_SDKInputFrame(::LIV::SDK::Unity::____LIV__SDK__Unity__SDKBridge__SDKInjection_1<::LIV::SDK::Unity::SDKInputFrame> value) ;
+static void __set__injection_SDKInputFrame(LIV::SDK::Unity::LIV__SDK__Unity__SDKBridge__SDKInjection_1<LIV::SDK::Unity::SDKInputFrame> value) ;
 
-static ::LIV::SDK::Unity::____LIV__SDK__Unity__SDKBridge__SDKInjection_1<::LIV::SDK::Unity::SDKInputFrame> __get__injection_SDKInputFrame() ;
+static LIV::SDK::Unity::LIV__SDK__Unity__SDKBridge__SDKInjection_1<LIV::SDK::Unity::SDKInputFrame> __get__injection_SDKInputFrame() ;
 
-static ::LIV::SDK::Unity::____LIV__SDK__Unity__SDKBridge__SDKInjection_1<::LIV::SDK::Unity::SDKResolution> __declspec(property(get=__get__injection_SDKResolution, put=__set__injection_SDKResolution))  _injection_SDKResolution;
+static LIV::SDK::Unity::LIV__SDK__Unity__SDKBridge__SDKInjection_1<LIV::SDK::Unity::SDKResolution> __declspec(property(get=__get__injection_SDKResolution, put=__set__injection_SDKResolution))  _injection_SDKResolution;
 
-static void __set__injection_SDKResolution(::LIV::SDK::Unity::____LIV__SDK__Unity__SDKBridge__SDKInjection_1<::LIV::SDK::Unity::SDKResolution> value) ;
+static void __set__injection_SDKResolution(LIV::SDK::Unity::LIV__SDK__Unity__SDKBridge__SDKInjection_1<LIV::SDK::Unity::SDKResolution> value) ;
 
-static ::LIV::SDK::Unity::____LIV__SDK__Unity__SDKBridge__SDKInjection_1<::LIV::SDK::Unity::SDKResolution> __get__injection_SDKResolution() ;
+static LIV::SDK::Unity::LIV__SDK__Unity__SDKBridge__SDKInjection_1<LIV::SDK::Unity::SDKResolution> __get__injection_SDKResolution() ;
 
-static ::LIV::SDK::Unity::____LIV__SDK__Unity__SDKBridge__SDKInjection_1<bool> __declspec(property(get=__get__injection_IsActive, put=__set__injection_IsActive))  _injection_IsActive;
+static LIV::SDK::Unity::LIV__SDK__Unity__SDKBridge__SDKInjection_1<bool> __declspec(property(get=__get__injection_IsActive, put=__set__injection_IsActive))  _injection_IsActive;
 
-static void __set__injection_IsActive(::LIV::SDK::Unity::____LIV__SDK__Unity__SDKBridge__SDKInjection_1<bool> value) ;
+static void __set__injection_IsActive(LIV::SDK::Unity::LIV__SDK__Unity__SDKBridge__SDKInjection_1<bool> value) ;
 
-static ::LIV::SDK::Unity::____LIV__SDK__Unity__SDKBridge__SDKInjection_1<bool> __get__injection_IsActive() ;
+static LIV::SDK::Unity::LIV__SDK__Unity__SDKBridge__SDKInjection_1<bool> __get__injection_IsActive() ;
 
 static bool __declspec(property(get=__get__injection_DisableSubmit, put=__set__injection_DisableSubmit))  _injection_DisableSubmit;
 
@@ -243,7 +242,7 @@ static uint64_t Tag(::StringW str) ;
 static void AddString(::StringW tag, ::StringW value, int32_t slot) ;
 
 /// @brief Method AddTexture addr 0x209c5c4 size 0xc0 virtual false final false
-static void AddTexture(::LIV::SDK::Unity::SDKTexture texture, uint64_t tag) ;
+static void AddTexture(LIV::SDK::Unity::SDKTexture texture, uint64_t tag) ;
 
 /// @brief Method GetObjectTime addr 0x209c684 size 0x5c virtual false final false
 static uint64_t GetObjectTime(::cordl_internals::intptr_t objectptr) ;
@@ -258,7 +257,7 @@ static bool get_IsActive() ;
 static void IssuePluginEvent() ;
 
 /// @brief Method SubmitApplicationOutput addr 0x209bcf8 size 0x1f0 virtual false final false
-static void SubmitApplicationOutput(::LIV::SDK::Unity::SDKApplicationOutput applicationOutput) ;
+static void SubmitApplicationOutput(LIV::SDK::Unity::SDKApplicationOutput applicationOutput) ;
 
 /// @brief Method GetStructFromGlobalChannel addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
@@ -281,28 +280,27 @@ template<typename T>
 static void AddStructToFrame(ByRef<T> mystruct, uint64_t tag) ;
 
 /// @brief Method UpdateInputFrame addr 0x209c7ec size 0x2c0 virtual false final false
-static bool UpdateInputFrame(ByRef<::LIV::SDK::Unity::SDKInputFrame> setframe) ;
+static bool UpdateInputFrame(ByRef<LIV::SDK::Unity::SDKInputFrame> setframe) ;
 
 /// @brief Method GetViewfinderTexture addr 0x209cbf0 size 0x1d4 virtual false final false
-static ::LIV::SDK::Unity::SDKTexture GetViewfinderTexture() ;
+static LIV::SDK::Unity::SDKTexture GetViewfinderTexture() ;
 
 /// @brief Method AddTexture addr 0x209ce20 size 0x130 virtual false final false
-static void AddTexture(::LIV::SDK::Unity::SDKTexture texture) ;
+static void AddTexture(LIV::SDK::Unity::SDKTexture texture) ;
 
 /// @brief Method CreateFrame addr 0x209cf50 size 0x168 virtual false final false
-static void CreateFrame(::LIV::SDK::Unity::SDKOutputFrame frame) ;
+static void CreateFrame(LIV::SDK::Unity::SDKOutputFrame frame) ;
 
 /// @brief Method SetGroundPlane addr 0x209d0b8 size 0xa0 virtual false final false
-static void SetGroundPlane(::LIV::SDK::Unity::SDKPlane groundPlane) ;
+static void SetGroundPlane(LIV::SDK::Unity::SDKPlane groundPlane) ;
 
 /// @brief Method GetResolution addr 0x209d158 size 0x130 virtual false final false
-static bool GetResolution(ByRef<::LIV::SDK::Unity::SDKResolution> sdkResolution) ;
+static bool GetResolution(ByRef<LIV::SDK::Unity::SDKResolution> sdkResolution) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def LIV::SDK::Unity
-} // end anonymous namespace
-NEED_NO_BOX(::LIV::SDK::Unity::SDKBridge);
-DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::SDKBridge, "LIV.SDK.Unity", "SDKBridge");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::LIV::SDK::Unity::____LIV__SDK__Unity__SDKBridge__SDKInjection_1, "LIV.SDK.Unity", "SDKBridge/SDKInjection`1");
+NEED_NO_BOX(LIV::SDK::Unity::SDKBridge);
+DEFINE_IL2CPP_ARG_TYPE(LIV::SDK::Unity::SDKBridge, "LIV.SDK.Unity", "SDKBridge");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(LIV::SDK::Unity::LIV__SDK__Unity__SDKBridge__SDKInjection_1, "LIV.SDK.Unity", "SDKBridge/SDKInjection`1");

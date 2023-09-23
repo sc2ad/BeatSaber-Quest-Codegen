@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::Text {
 class Encoding;
 }
@@ -18,7 +17,7 @@ namespace System::Text {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2823))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2831))
 // CS Name: System.Text.DecoderNLS
-class CORDL_TYPE DecoderNLS : public ::System::Text::Decoder {
+class CORDL_TYPE DecoderNLS : public System::Text::Decoder {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr DecoderNLS(DecoderNLS const& ) noexcept = default;
 constexpr DecoderNLS(DecoderNLS&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DecoderNLS(void* ptr) noexcept : ::System::Text::Decoder(ptr) {
+constexpr explicit DecoderNLS(void* ptr) noexcept : System::Text::Decoder(ptr) {
 }
 
 
@@ -54,11 +53,11 @@ constexpr explicit DecoderNLS(void* ptr) noexcept : ::System::Text::Decoder(ptr)
 
 // Fields
 
- ::System::Text::Encoding __declspec(property(get=__get__encoding, put=__set__encoding))  _encoding;
+ System::Text::Encoding __declspec(property(get=__get__encoding, put=__set__encoding))  _encoding;
 
-constexpr void __set__encoding(::System::Text::Encoding value) ;
+constexpr void __set__encoding(System::Text::Encoding value) ;
 
-constexpr ::System::Text::Encoding __get__encoding() const;
+constexpr System::Text::Encoding __get__encoding() const;
 
  bool __declspec(property(get=__get__mustFlush, put=__set__mustFlush))  _mustFlush;
 
@@ -88,11 +87,11 @@ constexpr int32_t __get__bytesUsed() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "encoding", ty: "::System::Text::Encoding", modifiers: "", def_value: None }]
-explicit DecoderNLS(::System::Text::Encoding encoding) ;
+// Ctor Parameters [CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
+explicit DecoderNLS(System::Text::Encoding encoding) ;
 
 /// @brief Method .ctor addr 0x24c1984 size 0x44 virtual false final false
- void _ctor(::System::Text::Encoding encoding) ;
+ void _ctor(System::Text::Encoding encoding) ;
 
 /// @brief Method Reset addr 0x24c3448 size 0x18 virtual true final false
  void Reset() ;
@@ -134,6 +133,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Text
-} // end anonymous namespace
-NEED_NO_BOX(::System::Text::DecoderNLS);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::DecoderNLS, "System.Text", "DecoderNLS");
+NEED_NO_BOX(System::Text::DecoderNLS);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::DecoderNLS, "System.Text", "DecoderNLS");

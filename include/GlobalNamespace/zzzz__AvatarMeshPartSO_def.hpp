@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__AvatarPartSO_1_def.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"
-namespace {
 namespace UnityEngine {
 class Mesh;
 }
@@ -13,10 +12,10 @@ class AvatarMeshPartSO;
 // Type: ::AvatarMeshPartSO
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4773), inst: 883 }), TypeDefinitionIndex(TypeDefinitionIndex(4773)), TypeDefinitionIndex(TypeDefinitionIndex(10012))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10012)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4773), inst: 883 }), TypeDefinitionIndex(TypeDefinitionIndex(4773))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4769))
 // CS Name: AvatarMeshPartSO
-class CORDL_TYPE AvatarMeshPartSO : public ::GlobalNamespace::AvatarPartSO_1<::UnityEngine::Mesh> {
+class CORDL_TYPE AvatarMeshPartSO : public GlobalNamespace::AvatarPartSO_1<UnityEngine::Mesh> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr AvatarMeshPartSO(AvatarMeshPartSO const& ) noexcept = default;
 constexpr AvatarMeshPartSO(AvatarMeshPartSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AvatarMeshPartSO(void* ptr) noexcept : ::GlobalNamespace::AvatarPartSO_1<::UnityEngine::Mesh>(ptr) {
+constexpr explicit AvatarMeshPartSO(void* ptr) noexcept : GlobalNamespace::AvatarPartSO_1<UnityEngine::Mesh>(ptr) {
 }
 
 
@@ -52,13 +51,13 @@ constexpr explicit AvatarMeshPartSO(void* ptr) noexcept : ::GlobalNamespace::Ava
 
 // Properties
 
- ::UnityEngine::Mesh __declspec(property(get=get_mesh))  mesh;
+ UnityEngine::Mesh __declspec(property(get=get_mesh))  mesh;
 
 
 // Methods
 
 /// @brief Method get_mesh addr 0x2229558 size 0x3c virtual false final false
- ::UnityEngine::Mesh get_mesh() ;
+ UnityEngine::Mesh get_mesh() ;
 
 // Ctor Parameters []
 explicit AvatarMeshPartSO() ;
@@ -70,6 +69,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::AvatarMeshPartSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AvatarMeshPartSO, "", "AvatarMeshPartSO");
+NEED_NO_BOX(GlobalNamespace::AvatarMeshPartSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarMeshPartSO, "", "AvatarMeshPartSO");

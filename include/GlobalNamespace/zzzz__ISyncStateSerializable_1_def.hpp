@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
 struct SyncStateId;
 }
@@ -30,7 +29,7 @@ constexpr explicit ISyncStateSerializable_1(void* ptr) noexcept : ::cordl_intern
 
 // Properties
 
- ::GlobalNamespace::SyncStateId __declspec(property(get=get_id, put=set_id))  id;
+ GlobalNamespace::SyncStateId __declspec(property(get=get_id, put=set_id))  id;
 
  float_t __declspec(property(get=get_time, put=set_time))  time;
 
@@ -40,10 +39,10 @@ constexpr explicit ISyncStateSerializable_1(void* ptr) noexcept : ::cordl_intern
 // Methods
 
 /// @brief Method get_id addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::SyncStateId get_id() ;
+ GlobalNamespace::SyncStateId get_id() ;
 
 /// @brief Method set_id addr 0x0 size 0xffffffffffffffff virtual true final false
- void set_id(::GlobalNamespace::SyncStateId value) ;
+ void set_id(GlobalNamespace::SyncStateId value) ;
 
 /// @brief Method get_time addr 0x0 size 0xffffffffffffffff virtual true final false
  float_t get_time() ;
@@ -61,5 +60,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::ISyncStateSerializable_1, "", "ISyncStateSerializable`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::ISyncStateSerializable_1, "", "ISyncStateSerializable`1");

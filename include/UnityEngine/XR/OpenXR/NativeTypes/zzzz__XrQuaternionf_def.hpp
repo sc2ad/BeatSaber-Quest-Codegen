@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 #include <cstddef>
-namespace {
 namespace UnityEngine {
 struct Quaternion;
 }
@@ -84,11 +83,10 @@ constexpr float_t __get_w() const;
  void _ctor(float_t x, float_t y, float_t z, float_t w) ;
 
 /// @brief Method .ctor addr 0x2aed700 size 0x14 virtual false final false
- void _ctor(::UnityEngine::Quaternion quaternion) ;
+ void _ctor(UnityEngine::Quaternion quaternion) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR::OpenXR::NativeTypes
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf, "UnityEngine.XR.OpenXR.NativeTypes", "XrQuaternionf");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf, "UnityEngine.XR.OpenXR.NativeTypes", "XrQuaternionf");

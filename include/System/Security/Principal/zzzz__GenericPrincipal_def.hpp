@@ -3,7 +3,6 @@
 #include "System/Security/Claims/zzzz__ClaimsPrincipal_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Security::Principal {
 class IIdentity;
 }
@@ -17,7 +16,7 @@ namespace System::Security::Principal {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3007))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2994))
 // CS Name: System.Security.Principal.GenericPrincipal
-class CORDL_TYPE GenericPrincipal : public ::System::Security::Claims::ClaimsPrincipal {
+class CORDL_TYPE GenericPrincipal : public System::Security::Claims::ClaimsPrincipal {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr GenericPrincipal(GenericPrincipal const& ) noexcept = default;
 constexpr GenericPrincipal(GenericPrincipal&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GenericPrincipal(void* ptr) noexcept : ::System::Security::Claims::ClaimsPrincipal(ptr) {
+constexpr explicit GenericPrincipal(void* ptr) noexcept : System::Security::Claims::ClaimsPrincipal(ptr) {
 }
 
 
@@ -53,11 +52,11 @@ constexpr explicit GenericPrincipal(void* ptr) noexcept : ::System::Security::Cl
 
 // Fields
 
- ::System::Security::Principal::IIdentity __declspec(property(get=__get_m_identity, put=__set_m_identity))  m_identity;
+ System::Security::Principal::IIdentity __declspec(property(get=__get_m_identity, put=__set_m_identity))  m_identity;
 
-constexpr void __set_m_identity(::System::Security::Principal::IIdentity value) ;
+constexpr void __set_m_identity(System::Security::Principal::IIdentity value) ;
 
-constexpr ::System::Security::Principal::IIdentity __get_m_identity() const;
+constexpr System::Security::Principal::IIdentity __get_m_identity() const;
 
  ::ArrayW<::StringW> __declspec(property(get=__get_m_roles, put=__set_m_roles))  m_roles;
 
@@ -68,16 +67,15 @@ constexpr ::ArrayW<::StringW> __get_m_roles() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "identity", ty: "::System::Security::Principal::IIdentity", modifiers: "", def_value: None }, CppParam { name: "roles", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }]
-explicit GenericPrincipal(::System::Security::Principal::IIdentity identity, ::ArrayW<::StringW> roles) ;
+// Ctor Parameters [CppParam { name: "identity", ty: "System::Security::Principal::IIdentity", modifiers: "", def_value: None }, CppParam { name: "roles", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }]
+explicit GenericPrincipal(System::Security::Principal::IIdentity identity, ::ArrayW<::StringW> roles) ;
 
 /// @brief Method .ctor addr 0x230b97c size 0x168 virtual false final false
- void _ctor(::System::Security::Principal::IIdentity identity, ::ArrayW<::StringW> roles) ;
+ void _ctor(System::Security::Principal::IIdentity identity, ::ArrayW<::StringW> roles) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Principal
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Principal::GenericPrincipal);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Principal::GenericPrincipal, "System.Security.Principal", "GenericPrincipal");
+NEED_NO_BOX(System::Security::Principal::GenericPrincipal);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::GenericPrincipal, "System.Security.Principal", "GenericPrincipal");

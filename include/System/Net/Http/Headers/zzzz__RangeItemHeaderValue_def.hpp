@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 struct Nullable_1;
@@ -24,8 +23,8 @@ namespace System::Net::Http::Headers {
 class CORDL_TYPE RangeItemHeaderValue : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::ICloneable
-constexpr operator  ::System::ICloneable() const noexcept;
+/// @brief Convert operator to System::ICloneable
+constexpr operator  System::ICloneable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -60,45 +59,45 @@ constexpr explicit RangeItemHeaderValue(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 // Fields
 
- ::System::Nullable_1<int64_t> __declspec(property(get=__get__From_k__BackingField, put=__set__From_k__BackingField))  _From_k__BackingField;
+ System::Nullable_1<int64_t> __declspec(property(get=__get__From_k__BackingField, put=__set__From_k__BackingField))  _From_k__BackingField;
 
-constexpr void __set__From_k__BackingField(::System::Nullable_1<int64_t> value) ;
+constexpr void __set__From_k__BackingField(System::Nullable_1<int64_t> value) ;
 
-constexpr ::System::Nullable_1<int64_t> __get__From_k__BackingField() const;
+constexpr System::Nullable_1<int64_t> __get__From_k__BackingField() const;
 
- ::System::Nullable_1<int64_t> __declspec(property(get=__get__To_k__BackingField, put=__set__To_k__BackingField))  _To_k__BackingField;
+ System::Nullable_1<int64_t> __declspec(property(get=__get__To_k__BackingField, put=__set__To_k__BackingField))  _To_k__BackingField;
 
-constexpr void __set__To_k__BackingField(::System::Nullable_1<int64_t> value) ;
+constexpr void __set__To_k__BackingField(System::Nullable_1<int64_t> value) ;
 
-constexpr ::System::Nullable_1<int64_t> __get__To_k__BackingField() const;
+constexpr System::Nullable_1<int64_t> __get__To_k__BackingField() const;
 
 
 // Properties
 
- ::System::Nullable_1<int64_t> __declspec(property(get=get_From, put=set_From))  From;
+ System::Nullable_1<int64_t> __declspec(property(get=get_From, put=set_From))  From;
 
- ::System::Nullable_1<int64_t> __declspec(property(get=get_To, put=set_To))  To;
+ System::Nullable_1<int64_t> __declspec(property(get=get_To, put=set_To))  To;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "from", ty: "::System::Nullable_1<int64_t>", modifiers: "", def_value: None }, CppParam { name: "to", ty: "::System::Nullable_1<int64_t>", modifiers: "", def_value: None }]
-explicit RangeItemHeaderValue(::System::Nullable_1<int64_t> from, ::System::Nullable_1<int64_t> to) ;
+// Ctor Parameters [CppParam { name: "from", ty: "System::Nullable_1<int64_t>", modifiers: "", def_value: None }, CppParam { name: "to", ty: "System::Nullable_1<int64_t>", modifiers: "", def_value: None }]
+explicit RangeItemHeaderValue(System::Nullable_1<int64_t> from, System::Nullable_1<int64_t> to) ;
 
 /// @brief Method .ctor addr 0x26af124 size 0x15c virtual false final false
- void _ctor(::System::Nullable_1<int64_t> from, ::System::Nullable_1<int64_t> to) ;
+ void _ctor(System::Nullable_1<int64_t> from, System::Nullable_1<int64_t> to) ;
 
 /// @brief Method get_From addr 0x26af420 size 0xc virtual false final false
- ::System::Nullable_1<int64_t> get_From() ;
+ System::Nullable_1<int64_t> get_From() ;
 
 /// @brief Method set_From addr 0x26af42c size 0x8 virtual false final false
- void set_From(::System::Nullable_1<int64_t> value) ;
+ void set_From(System::Nullable_1<int64_t> value) ;
 
 /// @brief Method get_To addr 0x26af434 size 0xc virtual false final false
- ::System::Nullable_1<int64_t> get_To() ;
+ System::Nullable_1<int64_t> get_To() ;
 
 /// @brief Method set_To addr 0x26af440 size 0x8 virtual false final false
- void set_To(::System::Nullable_1<int64_t> value) ;
+ void set_To(System::Nullable_1<int64_t> value) ;
 
 /// @brief Method System.ICloneable.Clone addr 0x26af448 size 0x8 virtual true final true
  ::bs_hook::Il2CppWrapperType System_ICloneable_Clone() ;
@@ -116,6 +115,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Http::Headers
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Http::Headers::RangeItemHeaderValue);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::RangeItemHeaderValue, "System.Net.Http.Headers", "RangeItemHeaderValue");
+NEED_NO_BOX(System::Net::Http::Headers::RangeItemHeaderValue);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::RangeItemHeaderValue, "System.Net.Http.Headers", "RangeItemHeaderValue");

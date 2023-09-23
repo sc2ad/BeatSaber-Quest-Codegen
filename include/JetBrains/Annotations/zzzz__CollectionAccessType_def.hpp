@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace JetBrains::Annotations {
 struct CollectionAccessType;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::JetBrains::Annotations::CollectionAccessType const None;
+static JetBrains::Annotations::CollectionAccessType const None;
 
 /// @brief Field Read offset 0
-static ::JetBrains::Annotations::CollectionAccessType const Read;
+static JetBrains::Annotations::CollectionAccessType const Read;
 
 /// @brief Field ModifyExistingContent offset 0
-static ::JetBrains::Annotations::CollectionAccessType const ModifyExistingContent;
+static JetBrains::Annotations::CollectionAccessType const ModifyExistingContent;
 
 /// @brief Field UpdatedContent offset 0
-static ::JetBrains::Annotations::CollectionAccessType const UpdatedContent;
+static JetBrains::Annotations::CollectionAccessType const UpdatedContent;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def JetBrains::Annotations
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::JetBrains::Annotations::CollectionAccessType, "JetBrains.Annotations", "CollectionAccessType");
+DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::CollectionAccessType, "JetBrains.Annotations", "CollectionAccessType");

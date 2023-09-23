@@ -3,13 +3,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace TMPro {
 struct TextAlignmentOptions;
 }
 // Forward declare root types
 namespace TMPro {
-struct ____TMPro__TMP_Compatibility__AnchorPositions;
+struct TMPro__TMP_Compatibility__AnchorPositions;
 }
 namespace TMPro {
 class TMP_Compatibility;
@@ -20,20 +19,20 @@ namespace TMPro {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12277))
 // CS Name: TMPro.TMP_Compatibility::AnchorPositions
-struct CORDL_TYPE ____TMPro__TMP_Compatibility__AnchorPositions : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE TMPro__TMP_Compatibility__AnchorPositions : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____TMPro__TMP_Compatibility__AnchorPositions(int32_t value__) noexcept;
+constexpr TMPro__TMP_Compatibility__AnchorPositions(int32_t value__) noexcept;
 
 
-                    constexpr ____TMPro__TMP_Compatibility__AnchorPositions(____TMPro__TMP_Compatibility__AnchorPositions const&) = default;
-                    constexpr ____TMPro__TMP_Compatibility__AnchorPositions(____TMPro__TMP_Compatibility__AnchorPositions&&) = default;
-                    constexpr ____TMPro__TMP_Compatibility__AnchorPositions& operator=(____TMPro__TMP_Compatibility__AnchorPositions const& o) {
+                    constexpr TMPro__TMP_Compatibility__AnchorPositions(TMPro__TMP_Compatibility__AnchorPositions const&) = default;
+                    constexpr TMPro__TMP_Compatibility__AnchorPositions(TMPro__TMP_Compatibility__AnchorPositions&&) = default;
+                    constexpr TMPro__TMP_Compatibility__AnchorPositions& operator=(TMPro__TMP_Compatibility__AnchorPositions const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____TMPro__TMP_Compatibility__AnchorPositions& operator=(____TMPro__TMP_Compatibility__AnchorPositions&& o) noexcept {
+                    constexpr TMPro__TMP_Compatibility__AnchorPositions& operator=(TMPro__TMP_Compatibility__AnchorPositions&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -46,7 +45,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____TMPro__TMP_Compatibility__AnchorPositions(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit TMPro__TMP_Compatibility__AnchorPositions(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -54,7 +53,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______TMPro__TMP_Compatibility__AnchorPositions_Unwrapped : int32_t {
+enum class __TMPro__TMP_Compatibility__AnchorPositions_Unwrapped : int32_t {
 __TopLeft = 0,
 __Top = 1,
 __TopRight = 2,
@@ -69,8 +68,8 @@ __None = 10,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______TMPro__TMP_Compatibility__AnchorPositions_Unwrapped () const noexcept {
-return std::bit_cast<______TMPro__TMP_Compatibility__AnchorPositions_Unwrapped>(__instance);
+constexpr operator __TMPro__TMP_Compatibility__AnchorPositions_Unwrapped () const noexcept {
+return std::bit_cast<__TMPro__TMP_Compatibility__AnchorPositions_Unwrapped>(__instance);
 }
 
 
@@ -83,37 +82,37 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field TopLeft offset 0
-static ::TMPro::____TMPro__TMP_Compatibility__AnchorPositions const TopLeft;
+static TMPro::TMPro__TMP_Compatibility__AnchorPositions const TopLeft;
 
 /// @brief Field Top offset 0
-static ::TMPro::____TMPro__TMP_Compatibility__AnchorPositions const Top;
+static TMPro::TMPro__TMP_Compatibility__AnchorPositions const Top;
 
 /// @brief Field TopRight offset 0
-static ::TMPro::____TMPro__TMP_Compatibility__AnchorPositions const TopRight;
+static TMPro::TMPro__TMP_Compatibility__AnchorPositions const TopRight;
 
 /// @brief Field Left offset 0
-static ::TMPro::____TMPro__TMP_Compatibility__AnchorPositions const Left;
+static TMPro::TMPro__TMP_Compatibility__AnchorPositions const Left;
 
 /// @brief Field Center offset 0
-static ::TMPro::____TMPro__TMP_Compatibility__AnchorPositions const Center;
+static TMPro::TMPro__TMP_Compatibility__AnchorPositions const Center;
 
 /// @brief Field Right offset 0
-static ::TMPro::____TMPro__TMP_Compatibility__AnchorPositions const Right;
+static TMPro::TMPro__TMP_Compatibility__AnchorPositions const Right;
 
 /// @brief Field BottomLeft offset 0
-static ::TMPro::____TMPro__TMP_Compatibility__AnchorPositions const BottomLeft;
+static TMPro::TMPro__TMP_Compatibility__AnchorPositions const BottomLeft;
 
 /// @brief Field Bottom offset 0
-static ::TMPro::____TMPro__TMP_Compatibility__AnchorPositions const Bottom;
+static TMPro::TMPro__TMP_Compatibility__AnchorPositions const Bottom;
 
 /// @brief Field BottomRight offset 0
-static ::TMPro::____TMPro__TMP_Compatibility__AnchorPositions const BottomRight;
+static TMPro::TMPro__TMP_Compatibility__AnchorPositions const BottomRight;
 
 /// @brief Field BaseLine offset 0
-static ::TMPro::____TMPro__TMP_Compatibility__AnchorPositions const BaseLine;
+static TMPro::TMPro__TMP_Compatibility__AnchorPositions const BaseLine;
 
 /// @brief Field None offset 0
-static ::TMPro::____TMPro__TMP_Compatibility__AnchorPositions const None;
+static TMPro::TMPro__TMP_Compatibility__AnchorPositions const None;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -128,7 +127,7 @@ namespace TMPro {
 class CORDL_TYPE TMP_Compatibility : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using AnchorPositions = ::TMPro::____TMPro__TMP_Compatibility__AnchorPositions;
+using AnchorPositions = TMPro::TMPro__TMP_Compatibility__AnchorPositions;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -164,13 +163,12 @@ constexpr explicit TMP_Compatibility(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 // Methods
 
 /// @brief Method ConvertTextAlignmentEnumValues addr 0x2a6a734 size 0x24 virtual false final false
-static ::TMPro::TextAlignmentOptions ConvertTextAlignmentEnumValues(::TMPro::TextAlignmentOptions oldValue) ;
+static TMPro::TextAlignmentOptions ConvertTextAlignmentEnumValues(TMPro::TextAlignmentOptions oldValue) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::____TMPro__TMP_Compatibility__AnchorPositions, "TMPro", "TMP_Compatibility/AnchorPositions");
-NEED_NO_BOX(::TMPro::TMP_Compatibility);
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_Compatibility, "TMPro", "TMP_Compatibility");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMPro__TMP_Compatibility__AnchorPositions, "TMPro", "TMP_Compatibility/AnchorPositions");
+NEED_NO_BOX(TMPro::TMP_Compatibility);
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Compatibility, "TMPro", "TMP_Compatibility");

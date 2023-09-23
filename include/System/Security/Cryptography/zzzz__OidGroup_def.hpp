@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security::Cryptography {
 struct OidGroup;
@@ -76,41 +75,40 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field All offset 0
-static ::System::Security::Cryptography::OidGroup const All;
+static System::Security::Cryptography::OidGroup const All;
 
 /// @brief Field HashAlgorithm offset 0
-static ::System::Security::Cryptography::OidGroup const HashAlgorithm;
+static System::Security::Cryptography::OidGroup const HashAlgorithm;
 
 /// @brief Field EncryptionAlgorithm offset 0
-static ::System::Security::Cryptography::OidGroup const EncryptionAlgorithm;
+static System::Security::Cryptography::OidGroup const EncryptionAlgorithm;
 
 /// @brief Field PublicKeyAlgorithm offset 0
-static ::System::Security::Cryptography::OidGroup const PublicKeyAlgorithm;
+static System::Security::Cryptography::OidGroup const PublicKeyAlgorithm;
 
 /// @brief Field SignatureAlgorithm offset 0
-static ::System::Security::Cryptography::OidGroup const SignatureAlgorithm;
+static System::Security::Cryptography::OidGroup const SignatureAlgorithm;
 
 /// @brief Field Attribute offset 0
-static ::System::Security::Cryptography::OidGroup const Attribute;
+static System::Security::Cryptography::OidGroup const Attribute;
 
 /// @brief Field ExtensionOrAttribute offset 0
-static ::System::Security::Cryptography::OidGroup const ExtensionOrAttribute;
+static System::Security::Cryptography::OidGroup const ExtensionOrAttribute;
 
 /// @brief Field EnhancedKeyUsage offset 0
-static ::System::Security::Cryptography::OidGroup const EnhancedKeyUsage;
+static System::Security::Cryptography::OidGroup const EnhancedKeyUsage;
 
 /// @brief Field Policy offset 0
-static ::System::Security::Cryptography::OidGroup const Policy;
+static System::Security::Cryptography::OidGroup const Policy;
 
 /// @brief Field Template offset 0
-static ::System::Security::Cryptography::OidGroup const Template;
+static System::Security::Cryptography::OidGroup const Template;
 
 /// @brief Field KeyDerivationFunction offset 0
-static ::System::Security::Cryptography::OidGroup const KeyDerivationFunction;
+static System::Security::Cryptography::OidGroup const KeyDerivationFunction;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::OidGroup, "System.Security.Cryptography", "OidGroup");
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::OidGroup, "System.Security.Cryptography", "OidGroup");

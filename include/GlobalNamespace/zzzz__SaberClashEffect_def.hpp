@@ -1,7 +1,15 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
+namespace GlobalNamespace {
+class HapticFeedbackManager;
+}
+namespace UnityEngine {
+struct UnityEngine__ParticleSystem__EmissionModule;
+}
+namespace Libraries::HM::HMLib::VR {
+class HapticPresetSO;
+}
 namespace GlobalNamespace {
 class SaberClashChecker;
 }
@@ -9,16 +17,7 @@ namespace UnityEngine {
 class ParticleSystem;
 }
 namespace GlobalNamespace {
-class HapticFeedbackManager;
-}
-namespace GlobalNamespace {
 class ColorManager;
-}
-namespace UnityEngine {
-struct ____UnityEngine__ParticleSystem__EmissionModule;
-}
-namespace Libraries::HM::HMLib::VR {
-class HapticPresetSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,7 +29,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5069))
 // CS Name: SaberClashEffect
-class CORDL_TYPE SaberClashEffect : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SaberClashEffect : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -45,7 +44,7 @@ constexpr SaberClashEffect(SaberClashEffect const& ) noexcept = default;
 constexpr SaberClashEffect(SaberClashEffect&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SaberClashEffect(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SaberClashEffect(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -66,53 +65,53 @@ constexpr explicit SaberClashEffect(void* ptr) noexcept : ::UnityEngine::MonoBeh
 
 // Fields
 
- ::UnityEngine::ParticleSystem __declspec(property(get=__get__sparkleParticleSystem, put=__set__sparkleParticleSystem))  _sparkleParticleSystem;
+ UnityEngine::ParticleSystem __declspec(property(get=__get__sparkleParticleSystem, put=__set__sparkleParticleSystem))  _sparkleParticleSystem;
 
-constexpr void __set__sparkleParticleSystem(::UnityEngine::ParticleSystem value) ;
+constexpr void __set__sparkleParticleSystem(UnityEngine::ParticleSystem value) ;
 
-constexpr ::UnityEngine::ParticleSystem __get__sparkleParticleSystem() const;
+constexpr UnityEngine::ParticleSystem __get__sparkleParticleSystem() const;
 
- ::UnityEngine::ParticleSystem __declspec(property(get=__get__glowParticleSystem, put=__set__glowParticleSystem))  _glowParticleSystem;
+ UnityEngine::ParticleSystem __declspec(property(get=__get__glowParticleSystem, put=__set__glowParticleSystem))  _glowParticleSystem;
 
-constexpr void __set__glowParticleSystem(::UnityEngine::ParticleSystem value) ;
+constexpr void __set__glowParticleSystem(UnityEngine::ParticleSystem value) ;
 
-constexpr ::UnityEngine::ParticleSystem __get__glowParticleSystem() const;
+constexpr UnityEngine::ParticleSystem __get__glowParticleSystem() const;
 
- ::Libraries::HM::HMLib::VR::HapticPresetSO __declspec(property(get=__get__rumblePreset, put=__set__rumblePreset))  _rumblePreset;
+ Libraries::HM::HMLib::VR::HapticPresetSO __declspec(property(get=__get__rumblePreset, put=__set__rumblePreset))  _rumblePreset;
 
-constexpr void __set__rumblePreset(::Libraries::HM::HMLib::VR::HapticPresetSO value) ;
+constexpr void __set__rumblePreset(Libraries::HM::HMLib::VR::HapticPresetSO value) ;
 
-constexpr ::Libraries::HM::HMLib::VR::HapticPresetSO __get__rumblePreset() const;
+constexpr Libraries::HM::HMLib::VR::HapticPresetSO __get__rumblePreset() const;
 
- ::GlobalNamespace::SaberClashChecker __declspec(property(get=__get__saberClashChecker, put=__set__saberClashChecker))  _saberClashChecker;
+ GlobalNamespace::SaberClashChecker __declspec(property(get=__get__saberClashChecker, put=__set__saberClashChecker))  _saberClashChecker;
 
-constexpr void __set__saberClashChecker(::GlobalNamespace::SaberClashChecker value) ;
+constexpr void __set__saberClashChecker(GlobalNamespace::SaberClashChecker value) ;
 
-constexpr ::GlobalNamespace::SaberClashChecker __get__saberClashChecker() const;
+constexpr GlobalNamespace::SaberClashChecker __get__saberClashChecker() const;
 
- ::GlobalNamespace::HapticFeedbackManager __declspec(property(get=__get__hapticFeedbackController, put=__set__hapticFeedbackController))  _hapticFeedbackController;
+ GlobalNamespace::HapticFeedbackManager __declspec(property(get=__get__hapticFeedbackController, put=__set__hapticFeedbackController))  _hapticFeedbackController;
 
-constexpr void __set__hapticFeedbackController(::GlobalNamespace::HapticFeedbackManager value) ;
+constexpr void __set__hapticFeedbackController(GlobalNamespace::HapticFeedbackManager value) ;
 
-constexpr ::GlobalNamespace::HapticFeedbackManager __get__hapticFeedbackController() const;
+constexpr GlobalNamespace::HapticFeedbackManager __get__hapticFeedbackController() const;
 
- ::GlobalNamespace::ColorManager __declspec(property(get=__get__colorManager, put=__set__colorManager))  _colorManager;
+ GlobalNamespace::ColorManager __declspec(property(get=__get__colorManager, put=__set__colorManager))  _colorManager;
 
-constexpr void __set__colorManager(::GlobalNamespace::ColorManager value) ;
+constexpr void __set__colorManager(GlobalNamespace::ColorManager value) ;
 
-constexpr ::GlobalNamespace::ColorManager __get__colorManager() const;
+constexpr GlobalNamespace::ColorManager __get__colorManager() const;
 
- ::UnityEngine::____UnityEngine__ParticleSystem__EmissionModule __declspec(property(get=__get__sparkleParticleSystemEmmisionModule, put=__set__sparkleParticleSystemEmmisionModule))  _sparkleParticleSystemEmmisionModule;
+ UnityEngine::UnityEngine__ParticleSystem__EmissionModule __declspec(property(get=__get__sparkleParticleSystemEmmisionModule, put=__set__sparkleParticleSystemEmmisionModule))  _sparkleParticleSystemEmmisionModule;
 
-constexpr void __set__sparkleParticleSystemEmmisionModule(::UnityEngine::____UnityEngine__ParticleSystem__EmissionModule value) ;
+constexpr void __set__sparkleParticleSystemEmmisionModule(UnityEngine::UnityEngine__ParticleSystem__EmissionModule value) ;
 
-constexpr ::UnityEngine::____UnityEngine__ParticleSystem__EmissionModule __get__sparkleParticleSystemEmmisionModule() const;
+constexpr UnityEngine::UnityEngine__ParticleSystem__EmissionModule __get__sparkleParticleSystemEmmisionModule() const;
 
- ::UnityEngine::____UnityEngine__ParticleSystem__EmissionModule __declspec(property(get=__get__glowParticleSystemEmmisionModule, put=__set__glowParticleSystemEmmisionModule))  _glowParticleSystemEmmisionModule;
+ UnityEngine::UnityEngine__ParticleSystem__EmissionModule __declspec(property(get=__get__glowParticleSystemEmmisionModule, put=__set__glowParticleSystemEmmisionModule))  _glowParticleSystemEmmisionModule;
 
-constexpr void __set__glowParticleSystemEmmisionModule(::UnityEngine::____UnityEngine__ParticleSystem__EmissionModule value) ;
+constexpr void __set__glowParticleSystemEmmisionModule(UnityEngine::UnityEngine__ParticleSystem__EmissionModule value) ;
 
-constexpr ::UnityEngine::____UnityEngine__ParticleSystem__EmissionModule __get__glowParticleSystemEmmisionModule() const;
+constexpr UnityEngine::UnityEngine__ParticleSystem__EmissionModule __get__glowParticleSystemEmmisionModule() const;
 
  bool __declspec(property(get=__get__sabersAreClashing, put=__set__sabersAreClashing))  _sabersAreClashing;
 
@@ -142,6 +141,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SaberClashEffect);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SaberClashEffect, "", "SaberClashEffect");
+NEED_NO_BOX(GlobalNamespace::SaberClashEffect);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberClashEffect, "", "SaberClashEffect");

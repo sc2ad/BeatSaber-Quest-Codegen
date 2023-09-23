@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace UnityEngine::ProBuilder {
 class SemVer;
 }
@@ -52,11 +51,11 @@ constexpr explicit ChangelogEntry(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
- ::UnityEngine::ProBuilder::SemVer __declspec(property(get=__get_m_VersionInfo, put=__set_m_VersionInfo))  m_VersionInfo;
+ UnityEngine::ProBuilder::SemVer __declspec(property(get=__get_m_VersionInfo, put=__set_m_VersionInfo))  m_VersionInfo;
 
-constexpr void __set_m_VersionInfo(::UnityEngine::ProBuilder::SemVer value) ;
+constexpr void __set_m_VersionInfo(UnityEngine::ProBuilder::SemVer value) ;
 
-constexpr ::UnityEngine::ProBuilder::SemVer __get_m_VersionInfo() const;
+constexpr UnityEngine::ProBuilder::SemVer __get_m_VersionInfo() const;
 
  ::StringW __declspec(property(get=__get_m_ReleaseNotes, put=__set_m_ReleaseNotes))  m_ReleaseNotes;
 
@@ -67,7 +66,7 @@ constexpr ::StringW __get_m_ReleaseNotes() const;
 
 // Properties
 
- ::UnityEngine::ProBuilder::SemVer __declspec(property(get=get_versionInfo))  versionInfo;
+ UnityEngine::ProBuilder::SemVer __declspec(property(get=get_versionInfo))  versionInfo;
 
  ::StringW __declspec(property(get=get_releaseNotes))  releaseNotes;
 
@@ -75,16 +74,16 @@ constexpr ::StringW __get_m_ReleaseNotes() const;
 // Methods
 
 /// @brief Method get_versionInfo addr 0x29a8300 size 0x8 virtual false final false
- ::UnityEngine::ProBuilder::SemVer get_versionInfo() ;
+ UnityEngine::ProBuilder::SemVer get_versionInfo() ;
 
 /// @brief Method get_releaseNotes addr 0x29a8308 size 0x8 virtual false final false
  ::StringW get_releaseNotes() ;
 
-// Ctor Parameters [CppParam { name: "version", ty: "::UnityEngine::ProBuilder::SemVer", modifiers: "", def_value: None }, CppParam { name: "releaseNotes", ty: "::StringW", modifiers: "", def_value: None }]
-explicit ChangelogEntry(::UnityEngine::ProBuilder::SemVer version, ::StringW releaseNotes) ;
+// Ctor Parameters [CppParam { name: "version", ty: "UnityEngine::ProBuilder::SemVer", modifiers: "", def_value: None }, CppParam { name: "releaseNotes", ty: "::StringW", modifiers: "", def_value: None }]
+explicit ChangelogEntry(UnityEngine::ProBuilder::SemVer version, ::StringW releaseNotes) ;
 
 /// @brief Method .ctor addr 0x29a8310 size 0x2c virtual false final false
- void _ctor(::UnityEngine::ProBuilder::SemVer version, ::StringW releaseNotes) ;
+ void _ctor(UnityEngine::ProBuilder::SemVer version, ::StringW releaseNotes) ;
 
 /// @brief Method ToString addr 0x29a833c size 0x64 virtual true final false
  ::StringW ToString() ;
@@ -93,6 +92,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::ChangelogEntry);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::ChangelogEntry, "UnityEngine.ProBuilder", "ChangelogEntry");
+NEED_NO_BOX(UnityEngine::ProBuilder::ChangelogEntry);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ChangelogEntry, "UnityEngine.ProBuilder", "ChangelogEntry");

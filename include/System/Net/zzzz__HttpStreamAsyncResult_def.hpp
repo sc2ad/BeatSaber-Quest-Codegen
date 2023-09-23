@@ -3,10 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-class AsyncCallback;
-}
 namespace System {
 class IAsyncResult;
 }
@@ -18,6 +14,9 @@ class Exception;
 }
 namespace System::Threading {
 class WaitHandle;
+}
+namespace System {
+class AsyncCallback;
 }
 // Forward declare root types
 namespace System::Net {
@@ -32,8 +31,8 @@ namespace System::Net {
 class CORDL_TYPE HttpStreamAsyncResult : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IAsyncResult
-constexpr operator  ::System::IAsyncResult() const noexcept;
+/// @brief Convert operator to System::IAsyncResult
+constexpr operator  System::IAsyncResult() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x58};
@@ -74,11 +73,11 @@ constexpr void __set_locker(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get_locker() const;
 
- ::System::Threading::ManualResetEvent __declspec(property(get=__get_handle, put=__set_handle))  handle;
+ System::Threading::ManualResetEvent __declspec(property(get=__get_handle, put=__set_handle))  handle;
 
-constexpr void __set_handle(::System::Threading::ManualResetEvent value) ;
+constexpr void __set_handle(System::Threading::ManualResetEvent value) ;
 
-constexpr ::System::Threading::ManualResetEvent __get_handle() const;
+constexpr System::Threading::ManualResetEvent __get_handle() const;
 
  bool __declspec(property(get=__get_completed, put=__set_completed))  completed;
 
@@ -104,11 +103,11 @@ constexpr void __set_Count(int32_t value) ;
 
 constexpr int32_t __get_Count() const;
 
- ::System::AsyncCallback __declspec(property(get=__get_Callback, put=__set_Callback))  Callback;
+ System::AsyncCallback __declspec(property(get=__get_Callback, put=__set_Callback))  Callback;
 
-constexpr void __set_Callback(::System::AsyncCallback value) ;
+constexpr void __set_Callback(System::AsyncCallback value) ;
 
-constexpr ::System::AsyncCallback __get_Callback() const;
+constexpr System::AsyncCallback __get_Callback() const;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=__get_State, put=__set_State))  State;
 
@@ -122,18 +121,18 @@ constexpr void __set_SynchRead(int32_t value) ;
 
 constexpr int32_t __get_SynchRead() const;
 
- ::System::Exception __declspec(property(get=__get_Error, put=__set_Error))  Error;
+ System::Exception __declspec(property(get=__get_Error, put=__set_Error))  Error;
 
-constexpr void __set_Error(::System::Exception value) ;
+constexpr void __set_Error(System::Exception value) ;
 
-constexpr ::System::Exception __get_Error() const;
+constexpr System::Exception __get_Error() const;
 
 
 // Properties
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_AsyncState))  AsyncState;
 
- ::System::Threading::WaitHandle __declspec(property(get=get_AsyncWaitHandle))  AsyncWaitHandle;
+ System::Threading::WaitHandle __declspec(property(get=get_AsyncWaitHandle))  AsyncWaitHandle;
 
  bool __declspec(property(get=get_CompletedSynchronously))  CompletedSynchronously;
 
@@ -143,7 +142,7 @@ constexpr ::System::Exception __get_Error() const;
 // Methods
 
 /// @brief Method Complete addr 0x282a990 size 0x8 virtual false final false
- void Complete(::System::Exception e) ;
+ void Complete(System::Exception e) ;
 
 /// @brief Method Complete addr 0x282a2cc size 0x100 virtual false final false
  void Complete() ;
@@ -152,7 +151,7 @@ constexpr ::System::Exception __get_Error() const;
  ::bs_hook::Il2CppWrapperType get_AsyncState() ;
 
 /// @brief Method get_AsyncWaitHandle addr 0x2839308 size 0x13c virtual true final true
- ::System::Threading::WaitHandle get_AsyncWaitHandle() ;
+ System::Threading::WaitHandle get_AsyncWaitHandle() ;
 
 /// @brief Method get_CompletedSynchronously addr 0x2839444 size 0x14 virtual true final true
  bool get_CompletedSynchronously() ;
@@ -170,6 +169,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::HttpStreamAsyncResult);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::HttpStreamAsyncResult, "System.Net", "HttpStreamAsyncResult");
+NEED_NO_BOX(System::Net::HttpStreamAsyncResult);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpStreamAsyncResult, "System.Net", "HttpStreamAsyncResult");

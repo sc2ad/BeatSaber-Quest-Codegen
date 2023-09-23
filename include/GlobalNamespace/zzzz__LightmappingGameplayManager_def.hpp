@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class BeatmapCallbacksController;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5117))
 // CS Name: LightmappingGameplayManager
-class CORDL_TYPE LightmappingGameplayManager : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE LightmappingGameplayManager : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr LightmappingGameplayManager(LightmappingGameplayManager const& ) noexc
 constexpr LightmappingGameplayManager(LightmappingGameplayManager&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LightmappingGameplayManager(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit LightmappingGameplayManager(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit LightmappingGameplayManager(void* ptr) noexcept : ::UnityEngi
 
 // Fields
 
- ::GlobalNamespace::BeatmapCallbacksController __declspec(property(get=__get__beatmapCallbacksController, put=__set__beatmapCallbacksController))  _beatmapCallbacksController;
+ GlobalNamespace::BeatmapCallbacksController __declspec(property(get=__get__beatmapCallbacksController, put=__set__beatmapCallbacksController))  _beatmapCallbacksController;
 
-constexpr void __set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController value) ;
+constexpr void __set__beatmapCallbacksController(GlobalNamespace::BeatmapCallbacksController value) ;
 
-constexpr ::GlobalNamespace::BeatmapCallbacksController __get__beatmapCallbacksController() const;
+constexpr GlobalNamespace::BeatmapCallbacksController __get__beatmapCallbacksController() const;
 
 
 // Methods
@@ -73,6 +72,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LightmappingGameplayManager);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightmappingGameplayManager, "", "LightmappingGameplayManager");
+NEED_NO_BOX(GlobalNamespace::LightmappingGameplayManager);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightmappingGameplayManager, "", "LightmappingGameplayManager");

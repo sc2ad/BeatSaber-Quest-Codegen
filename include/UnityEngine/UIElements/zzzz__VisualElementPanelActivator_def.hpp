@@ -1,15 +1,14 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace UnityEngine::UIElements {
-class AttachToPanelEvent;
-}
 namespace UnityEngine::UIElements {
 class IVisualElementPanelActivatable;
 }
 namespace UnityEngine::UIElements {
 class DetachFromPanelEvent;
+}
+namespace UnityEngine::UIElements {
+class AttachToPanelEvent;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -57,11 +56,11 @@ constexpr explicit VisualElementPanelActivator(void* ptr) noexcept : ::bs_hook::
 
 // Fields
 
- ::UnityEngine::UIElements::IVisualElementPanelActivatable __declspec(property(get=__get_m_Activatable, put=__set_m_Activatable))  m_Activatable;
+ UnityEngine::UIElements::IVisualElementPanelActivatable __declspec(property(get=__get_m_Activatable, put=__set_m_Activatable))  m_Activatable;
 
-constexpr void __set_m_Activatable(::UnityEngine::UIElements::IVisualElementPanelActivatable value) ;
+constexpr void __set_m_Activatable(UnityEngine::UIElements::IVisualElementPanelActivatable value) ;
 
-constexpr ::UnityEngine::UIElements::IVisualElementPanelActivatable __get_m_Activatable() const;
+constexpr UnityEngine::UIElements::IVisualElementPanelActivatable __get_m_Activatable() const;
 
  bool __declspec(property(get=__get__isActive_k__BackingField, put=__set__isActive_k__BackingField))  _isActive_k__BackingField;
 
@@ -97,11 +96,11 @@ constexpr bool __get__isDetaching_k__BackingField() const;
 /// @brief Method set_isDetaching addr 0x2c39320 size 0xc virtual false final false
  void set_isDetaching(bool value) ;
 
-// Ctor Parameters [CppParam { name: "activatable", ty: "::UnityEngine::UIElements::IVisualElementPanelActivatable", modifiers: "", def_value: None }]
-explicit VisualElementPanelActivator(::UnityEngine::UIElements::IVisualElementPanelActivatable activatable) ;
+// Ctor Parameters [CppParam { name: "activatable", ty: "UnityEngine::UIElements::IVisualElementPanelActivatable", modifiers: "", def_value: None }]
+explicit VisualElementPanelActivator(UnityEngine::UIElements::IVisualElementPanelActivatable activatable) ;
 
 /// @brief Method .ctor addr 0x2c374e8 size 0x28 virtual false final false
- void _ctor(::UnityEngine::UIElements::IVisualElementPanelActivatable activatable) ;
+ void _ctor(UnityEngine::UIElements::IVisualElementPanelActivatable activatable) ;
 
 /// @brief Method SetActive addr 0x2c375f8 size 0x33c virtual false final false
  void SetActive(bool action) ;
@@ -113,15 +112,14 @@ explicit VisualElementPanelActivator(::UnityEngine::UIElements::IVisualElementPa
  void SendDeactivation() ;
 
 /// @brief Method OnEnter addr 0x2c3955c size 0x10 virtual false final false
- void OnEnter(::UnityEngine::UIElements::AttachToPanelEvent evt) ;
+ void OnEnter(UnityEngine::UIElements::AttachToPanelEvent evt) ;
 
 /// @brief Method OnLeave addr 0x2c3956c size 0x74 virtual false final false
- void OnLeave(::UnityEngine::UIElements::DetachFromPanelEvent evt) ;
+ void OnLeave(UnityEngine::UIElements::DetachFromPanelEvent evt) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::VisualElementPanelActivator);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::VisualElementPanelActivator, "UnityEngine.UIElements", "VisualElementPanelActivator");
+NEED_NO_BOX(UnityEngine::UIElements::VisualElementPanelActivator);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::VisualElementPanelActivator, "UnityEngine.UIElements", "VisualElementPanelActivator");

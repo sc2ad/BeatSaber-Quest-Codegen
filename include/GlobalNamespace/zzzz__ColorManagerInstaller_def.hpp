@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class ColorSchemeSO;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11080))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5476))
 // CS Name: ColorManagerInstaller
-class CORDL_TYPE ColorManagerInstaller : public ::Zenject::MonoInstaller {
+class CORDL_TYPE ColorManagerInstaller : public Zenject::MonoInstaller {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr ColorManagerInstaller(ColorManagerInstaller const& ) noexcept = defaul
 constexpr ColorManagerInstaller(ColorManagerInstaller&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ColorManagerInstaller(void* ptr) noexcept : ::Zenject::MonoInstaller(ptr) {
+constexpr explicit ColorManagerInstaller(void* ptr) noexcept : Zenject::MonoInstaller(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit ColorManagerInstaller(void* ptr) noexcept : ::Zenject::MonoIn
 
 // Fields
 
- ::GlobalNamespace::ColorSchemeSO __declspec(property(get=__get__menuColorScheme, put=__set__menuColorScheme))  _menuColorScheme;
+ GlobalNamespace::ColorSchemeSO __declspec(property(get=__get__menuColorScheme, put=__set__menuColorScheme))  _menuColorScheme;
 
-constexpr void __set__menuColorScheme(::GlobalNamespace::ColorSchemeSO value) ;
+constexpr void __set__menuColorScheme(GlobalNamespace::ColorSchemeSO value) ;
 
-constexpr ::GlobalNamespace::ColorSchemeSO __get__menuColorScheme() const;
+constexpr GlobalNamespace::ColorSchemeSO __get__menuColorScheme() const;
 
 
 // Methods
@@ -73,6 +72,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ColorManagerInstaller);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ColorManagerInstaller, "", "ColorManagerInstaller");
+NEED_NO_BOX(GlobalNamespace::ColorManagerInstaller);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorManagerInstaller, "", "ColorManagerInstaller");

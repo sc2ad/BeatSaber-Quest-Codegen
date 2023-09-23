@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Unity::Profiling::LowLevel {
 struct MarkerFlags;
 }
@@ -54,7 +53,7 @@ constexpr explicit ProfilerUnsafeUtility(void* ptr) noexcept : ::bs_hook::Il2Cpp
 // Methods
 
 /// @brief Method CreateMarker addr 0x2b27b74 size 0x5c virtual false final false
-static ::cordl_internals::intptr_t CreateMarker(::StringW name, uint16_t categoryId, ::Unity::Profiling::LowLevel::MarkerFlags flags, int32_t metadataCount) ;
+static ::cordl_internals::intptr_t CreateMarker(::StringW name, uint16_t categoryId, Unity::Profiling::LowLevel::MarkerFlags flags, int32_t metadataCount) ;
 
 /// @brief Method BeginSample addr 0x2b27cf8 size 0x3c virtual false final false
 static void BeginSample(::cordl_internals::intptr_t markerPtr) ;
@@ -66,6 +65,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Unity::Profiling::LowLevel::Unsafe
-} // end anonymous namespace
-NEED_NO_BOX(::Unity::Profiling::LowLevel::Unsafe::ProfilerUnsafeUtility);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::Profiling::LowLevel::Unsafe::ProfilerUnsafeUtility, "Unity.Profiling.LowLevel.Unsafe", "ProfilerUnsafeUtility");
+NEED_NO_BOX(Unity::Profiling::LowLevel::Unsafe::ProfilerUnsafeUtility);
+DEFINE_IL2CPP_ARG_TYPE(Unity::Profiling::LowLevel::Unsafe::ProfilerUnsafeUtility, "Unity.Profiling.LowLevel.Unsafe", "ProfilerUnsafeUtility");

@@ -4,18 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::ComponentModel {
-class AttributeCollection;
-}
 namespace System {
-class Type;
+class Attribute;
 }
 namespace System::Collections {
 class IList;
 }
 namespace System {
-class Attribute;
+class Type;
+}
+namespace System::ComponentModel {
+class AttributeCollection;
 }
 namespace System::Reflection {
 class MethodInfo;
@@ -87,23 +86,23 @@ constexpr void __set_nameHash(int32_t value) ;
 
 constexpr int32_t __get_nameHash() const;
 
- ::System::ComponentModel::AttributeCollection __declspec(property(get=__get_attributeCollection, put=__set_attributeCollection))  attributeCollection;
+ System::ComponentModel::AttributeCollection __declspec(property(get=__get_attributeCollection, put=__set_attributeCollection))  attributeCollection;
 
-constexpr void __set_attributeCollection(::System::ComponentModel::AttributeCollection value) ;
+constexpr void __set_attributeCollection(System::ComponentModel::AttributeCollection value) ;
 
-constexpr ::System::ComponentModel::AttributeCollection __get_attributeCollection() const;
+constexpr System::ComponentModel::AttributeCollection __get_attributeCollection() const;
 
- ::ArrayW<::System::Attribute> __declspec(property(get=__get_attributes, put=__set_attributes))  attributes;
+ ::ArrayW<System::Attribute> __declspec(property(get=__get_attributes, put=__set_attributes))  attributes;
 
-constexpr void __set_attributes(::ArrayW<::System::Attribute> value) ;
+constexpr void __set_attributes(::ArrayW<System::Attribute> value) ;
 
-constexpr ::ArrayW<::System::Attribute> __get_attributes() const;
+constexpr ::ArrayW<System::Attribute> __get_attributes() const;
 
- ::ArrayW<::System::Attribute> __declspec(property(get=__get_originalAttributes, put=__set_originalAttributes))  originalAttributes;
+ ::ArrayW<System::Attribute> __declspec(property(get=__get_originalAttributes, put=__set_originalAttributes))  originalAttributes;
 
-constexpr void __set_originalAttributes(::ArrayW<::System::Attribute> value) ;
+constexpr void __set_originalAttributes(::ArrayW<System::Attribute> value) ;
 
-constexpr ::ArrayW<::System::Attribute> __get_originalAttributes() const;
+constexpr ::ArrayW<System::Attribute> __get_originalAttributes() const;
 
  bool __declspec(property(get=__get_attributesFiltered, put=__set_attributesFiltered))  attributesFiltered;
 
@@ -144,9 +143,9 @@ constexpr ::bs_hook::Il2CppWrapperType __get_lockCookie() const;
 
 // Properties
 
- ::ArrayW<::System::Attribute> __declspec(property(get=get_AttributeArray, put=set_AttributeArray))  AttributeArray;
+ ::ArrayW<System::Attribute> __declspec(property(get=get_AttributeArray, put=set_AttributeArray))  AttributeArray;
 
- ::System::ComponentModel::AttributeCollection __declspec(property(get=get_Attributes))  Attributes;
+ System::ComponentModel::AttributeCollection __declspec(property(get=get_Attributes))  Attributes;
 
  ::StringW __declspec(property(get=get_Name))  Name;
 
@@ -157,26 +156,26 @@ constexpr ::bs_hook::Il2CppWrapperType __get_lockCookie() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "attributes", ty: "::ArrayW<::System::Attribute>", modifiers: "", def_value: None }]
-explicit MemberDescriptor(::StringW name, ::ArrayW<::System::Attribute> attributes) ;
+// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "attributes", ty: "::ArrayW<System::Attribute>", modifiers: "", def_value: None }]
+explicit MemberDescriptor(::StringW name, ::ArrayW<System::Attribute> attributes) ;
 
 /// @brief Method .ctor addr 0x278a6fc size 0x1a4 virtual false final false
- void _ctor(::StringW name, ::ArrayW<::System::Attribute> attributes) ;
+ void _ctor(::StringW name, ::ArrayW<System::Attribute> attributes) ;
 
-// Ctor Parameters [CppParam { name: "oldMemberDescriptor", ty: "::System::ComponentModel::MemberDescriptor", modifiers: "", def_value: None }, CppParam { name: "newAttributes", ty: "::ArrayW<::System::Attribute>", modifiers: "", def_value: None }]
-explicit MemberDescriptor(::System::ComponentModel::MemberDescriptor oldMemberDescriptor, ::ArrayW<::System::Attribute> newAttributes) ;
+// Ctor Parameters [CppParam { name: "oldMemberDescriptor", ty: "System::ComponentModel::MemberDescriptor", modifiers: "", def_value: None }, CppParam { name: "newAttributes", ty: "::ArrayW<System::Attribute>", modifiers: "", def_value: None }]
+explicit MemberDescriptor(System::ComponentModel::MemberDescriptor oldMemberDescriptor, ::ArrayW<System::Attribute> newAttributes) ;
 
 /// @brief Method .ctor addr 0x278a8a0 size 0x428 virtual false final false
- void _ctor(::System::ComponentModel::MemberDescriptor oldMemberDescriptor, ::ArrayW<::System::Attribute> newAttributes) ;
+ void _ctor(System::ComponentModel::MemberDescriptor oldMemberDescriptor, ::ArrayW<System::Attribute> newAttributes) ;
 
 /// @brief Method get_AttributeArray addr 0x278acc8 size 0x20 virtual true final false
- ::ArrayW<::System::Attribute> get_AttributeArray() ;
+ ::ArrayW<System::Attribute> get_AttributeArray() ;
 
 /// @brief Method set_AttributeArray addr 0x278b4e0 size 0xc4 virtual true final false
- void set_AttributeArray(::ArrayW<::System::Attribute> value) ;
+ void set_AttributeArray(::ArrayW<System::Attribute> value) ;
 
 /// @brief Method get_Attributes addr 0x278b5a4 size 0xe8 virtual true final false
- ::System::ComponentModel::AttributeCollection get_Attributes() ;
+ System::ComponentModel::AttributeCollection get_Attributes() ;
 
 /// @brief Method get_Name addr 0x278b68c size 0x50 virtual true final false
  ::StringW get_Name() ;
@@ -191,36 +190,35 @@ explicit MemberDescriptor(::System::ComponentModel::MemberDescriptor oldMemberDe
  void CheckAttributesValid() ;
 
 /// @brief Method CreateAttributeCollection addr 0x278b80c size 0x7c virtual true final false
- ::System::ComponentModel::AttributeCollection CreateAttributeCollection() ;
+ System::ComponentModel::AttributeCollection CreateAttributeCollection() ;
 
 /// @brief Method Equals addr 0x278b888 size 0x264 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method FillAttributes addr 0x2784f78 size 0xf4 virtual true final false
- void FillAttributes(::System::Collections::IList attributeList) ;
+ void FillAttributes(System::Collections::IList attributeList) ;
 
 /// @brief Method FilterAttributesIfNeeded addr 0x278ad98 size 0x748 virtual false final false
  void FilterAttributesIfNeeded() ;
 
 /// @brief Method FindMethod addr 0x27854bc size 0x8 virtual false final false
-static ::System::Reflection::MethodInfo FindMethod(::System::Type componentClass, ::StringW name, ::ArrayW<::System::Type> args, ::System::Type returnType) ;
+static System::Reflection::MethodInfo FindMethod(System::Type componentClass, ::StringW name, ::ArrayW<System::Type> args, System::Type returnType) ;
 
 /// @brief Method FindMethod addr 0x278baec size 0xa4 virtual false final false
-static ::System::Reflection::MethodInfo FindMethod(::System::Type componentClass, ::StringW name, ::ArrayW<::System::Type> args, ::System::Type returnType, bool publicOnly) ;
+static System::Reflection::MethodInfo FindMethod(System::Type componentClass, ::StringW name, ::ArrayW<System::Type> args, System::Type returnType, bool publicOnly) ;
 
 /// @brief Method GetHashCode addr 0x278bb90 size 0x8 virtual true final false
  int32_t GetHashCode() ;
 
 /// @brief Method GetInvocationTarget addr 0x278bb98 size 0x110 virtual true final false
- ::bs_hook::Il2CppWrapperType GetInvocationTarget(::System::Type type, ::bs_hook::Il2CppWrapperType instance) ;
+ ::bs_hook::Il2CppWrapperType GetInvocationTarget(System::Type type, ::bs_hook::Il2CppWrapperType instance) ;
 
 /// @brief Method GetSite addr 0x278c37c size 0xfc virtual false final false
-static ::System::ComponentModel::ISite GetSite(::bs_hook::Il2CppWrapperType component) ;
+static System::ComponentModel::ISite GetSite(::bs_hook::Il2CppWrapperType component) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::MemberDescriptor);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::MemberDescriptor, "System.ComponentModel", "MemberDescriptor");
+NEED_NO_BOX(System::ComponentModel::MemberDescriptor);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::MemberDescriptor, "System.ComponentModel", "MemberDescriptor");

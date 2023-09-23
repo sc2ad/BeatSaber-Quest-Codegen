@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
 struct EaseType;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5565))
 // CS Name: TransitionTimingSO
-class CORDL_TYPE TransitionTimingSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE TransitionTimingSO : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr TransitionTimingSO(TransitionTimingSO const& ) noexcept = default;
 constexpr TransitionTimingSO(TransitionTimingSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TransitionTimingSO(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit TransitionTimingSO(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -52,11 +51,11 @@ constexpr explicit TransitionTimingSO(void* ptr) noexcept : ::GlobalNamespace::P
 
 // Fields
 
- ::GlobalNamespace::EaseType __declspec(property(get=__get__easeType, put=__set__easeType))  _easeType;
+ GlobalNamespace::EaseType __declspec(property(get=__get__easeType, put=__set__easeType))  _easeType;
 
-constexpr void __set__easeType(::GlobalNamespace::EaseType value) ;
+constexpr void __set__easeType(GlobalNamespace::EaseType value) ;
 
-constexpr ::GlobalNamespace::EaseType __get__easeType() const;
+constexpr GlobalNamespace::EaseType __get__easeType() const;
 
  float_t __declspec(property(get=__get__easeDuration, put=__set__easeDuration))  _easeDuration;
 
@@ -67,7 +66,7 @@ constexpr float_t __get__easeDuration() const;
 
 // Properties
 
- ::GlobalNamespace::EaseType __declspec(property(get=get_easeType))  easeType;
+ GlobalNamespace::EaseType __declspec(property(get=get_easeType))  easeType;
 
  float_t __declspec(property(get=get_easeDuration))  easeDuration;
 
@@ -75,7 +74,7 @@ constexpr float_t __get__easeDuration() const;
 // Methods
 
 /// @brief Method get_easeType addr 0x212c294 size 0x8 virtual false final false
- ::GlobalNamespace::EaseType get_easeType() ;
+ GlobalNamespace::EaseType get_easeType() ;
 
 /// @brief Method get_easeDuration addr 0x212c29c size 0x8 virtual false final false
  float_t get_easeDuration() ;
@@ -90,6 +89,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::TransitionTimingSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TransitionTimingSO, "", "TransitionTimingSO");
+NEED_NO_BOX(GlobalNamespace::TransitionTimingSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TransitionTimingSO, "", "TransitionTimingSO");

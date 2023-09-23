@@ -2,15 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Zenject {
 class IInstaller;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class DiContainer;
 }
 namespace Zenject {
-class DiContainer;
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -22,11 +21,11 @@ namespace Zenject {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11088))
 // CS Name: Zenject.MonoInstallerBase
-class CORDL_TYPE MonoInstallerBase : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MonoInstallerBase : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-/// @brief Convert operator to ::Zenject::IInstaller
-constexpr operator  ::Zenject::IInstaller() const noexcept;
+/// @brief Convert operator to Zenject::IInstaller
+constexpr operator  Zenject::IInstaller() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -40,7 +39,7 @@ constexpr MonoInstallerBase(MonoInstallerBase const& ) noexcept = default;
 constexpr MonoInstallerBase(MonoInstallerBase&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MonoInstallerBase(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MonoInstallerBase(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -61,16 +60,16 @@ constexpr explicit MonoInstallerBase(void* ptr) noexcept : ::UnityEngine::MonoBe
 
 // Fields
 
- ::Zenject::DiContainer __declspec(property(get=__get__Container_k__BackingField, put=__set__Container_k__BackingField))  _Container_k__BackingField;
+ Zenject::DiContainer __declspec(property(get=__get__Container_k__BackingField, put=__set__Container_k__BackingField))  _Container_k__BackingField;
 
-constexpr void __set__Container_k__BackingField(::Zenject::DiContainer value) ;
+constexpr void __set__Container_k__BackingField(Zenject::DiContainer value) ;
 
-constexpr ::Zenject::DiContainer __get__Container_k__BackingField() const;
+constexpr Zenject::DiContainer __get__Container_k__BackingField() const;
 
 
 // Properties
 
- ::Zenject::DiContainer __declspec(property(get=get_Container, put=set_Container))  Container;
+ Zenject::DiContainer __declspec(property(get=get_Container, put=set_Container))  Container;
 
  bool __declspec(property(get=get_IsEnabled))  IsEnabled;
 
@@ -78,10 +77,10 @@ constexpr ::Zenject::DiContainer __get__Container_k__BackingField() const;
 // Methods
 
 /// @brief Method get_Container addr 0x2d7bc08 size 0x8 virtual false final false
- ::Zenject::DiContainer get_Container() ;
+ Zenject::DiContainer get_Container() ;
 
 /// @brief Method set_Container addr 0x2d7bc10 size 0x8 virtual false final false
- void set_Container(::Zenject::DiContainer value) ;
+ void set_Container(Zenject::DiContainer value) ;
 
 /// @brief Method get_IsEnabled addr 0x2d7bc18 size 0x8 virtual true final false
  bool get_IsEnabled() ;
@@ -102,12 +101,11 @@ explicit MonoInstallerBase() ;
 static void __zenPropertySetter0(::bs_hook::Il2CppWrapperType P_0, ::bs_hook::Il2CppWrapperType P_1) ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x2d7bd34 size 0x2b0 virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::MonoInstallerBase);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::MonoInstallerBase, "Zenject", "MonoInstallerBase");
+NEED_NO_BOX(Zenject::MonoInstallerBase);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::MonoInstallerBase, "Zenject", "MonoInstallerBase");

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
@@ -53,11 +52,11 @@ constexpr explicit GenericKey(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType
 
 // Fields
 
- ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __declspec(property(get=__get_algorithmIdentifier, put=__set_algorithmIdentifier))  algorithmIdentifier;
+ Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __declspec(property(get=__get_algorithmIdentifier, put=__set_algorithmIdentifier))  algorithmIdentifier;
 
-constexpr void __set_algorithmIdentifier(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier value) ;
+constexpr void __set_algorithmIdentifier(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __get_algorithmIdentifier() const;
+constexpr Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __get_algorithmIdentifier() const;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=__get_representation, put=__set_representation))  representation;
 
@@ -68,7 +67,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_representation() const;
 
 // Properties
 
- ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __declspec(property(get=get_AlgorithmIdentifier))  AlgorithmIdentifier;
+ Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __declspec(property(get=get_AlgorithmIdentifier))  AlgorithmIdentifier;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_Representation))  Representation;
 
@@ -81,20 +80,20 @@ explicit GenericKey(::bs_hook::Il2CppWrapperType representation) ;
 /// @brief Method .ctor addr 0xea0f40 size 0x28 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType representation) ;
 
-// Ctor Parameters [CppParam { name: "algorithmIdentifier", ty: "::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "representation", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit GenericKey(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithmIdentifier, ::ArrayW<uint8_t> representation) ;
+// Ctor Parameters [CppParam { name: "algorithmIdentifier", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "representation", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
+explicit GenericKey(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithmIdentifier, ::ArrayW<uint8_t> representation) ;
 
 /// @brief Method .ctor addr 0xea0f68 size 0x2c virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithmIdentifier, ::ArrayW<uint8_t> representation) ;
+ void _ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithmIdentifier, ::ArrayW<uint8_t> representation) ;
 
-// Ctor Parameters [CppParam { name: "algorithmIdentifier", ty: "::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "representation", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit GenericKey(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithmIdentifier, ::bs_hook::Il2CppWrapperType representation) ;
+// Ctor Parameters [CppParam { name: "algorithmIdentifier", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "representation", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
+explicit GenericKey(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithmIdentifier, ::bs_hook::Il2CppWrapperType representation) ;
 
 /// @brief Method .ctor addr 0xea0f94 size 0x2c virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithmIdentifier, ::bs_hook::Il2CppWrapperType representation) ;
+ void _ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithmIdentifier, ::bs_hook::Il2CppWrapperType representation) ;
 
 /// @brief Method get_AlgorithmIdentifier addr 0xea0fc0 size 0x8 virtual false final false
- ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier get_AlgorithmIdentifier() ;
+ Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier get_AlgorithmIdentifier() ;
 
 /// @brief Method get_Representation addr 0xea0fc8 size 0x8 virtual false final false
  ::bs_hook::Il2CppWrapperType get_Representation() ;
@@ -103,6 +102,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Operators
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Operators::GenericKey);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Operators::GenericKey, "Org.BouncyCastle.Crypto.Operators", "GenericKey");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Operators::GenericKey);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Operators::GenericKey, "Org.BouncyCastle.Crypto.Operators", "GenericKey");

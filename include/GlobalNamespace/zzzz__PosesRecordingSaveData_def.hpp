@@ -4,19 +4,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
+class GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PosesRecordingSaveData__PoseSaveData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe;
+}
+namespace GlobalNamespace {
 class PosesRecordingSaveData;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__PosesRecordingSaveData__PoseSaveData;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe;
 }
 // Type: ::PoseSaveData
 namespace GlobalNamespace {
@@ -24,37 +23,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6024))
 // CS Name: PosesRecordingSaveData::PoseSaveData
-class CORDL_TYPE ____GlobalNamespace__PosesRecordingSaveData__PoseSaveData : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__PosesRecordingSaveData__PoseSaveData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____GlobalNamespace__PosesRecordingSaveData__PoseSaveData() = default;
+virtual ~GlobalNamespace__PosesRecordingSaveData__PoseSaveData() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PosesRecordingSaveData__PoseSaveData", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__PosesRecordingSaveData__PoseSaveData(____GlobalNamespace__PosesRecordingSaveData__PoseSaveData const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PosesRecordingSaveData__PoseSaveData", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__PosesRecordingSaveData__PoseSaveData(GlobalNamespace__PosesRecordingSaveData__PoseSaveData const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PosesRecordingSaveData__PoseSaveData", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__PosesRecordingSaveData__PoseSaveData(____GlobalNamespace__PosesRecordingSaveData__PoseSaveData&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PosesRecordingSaveData__PoseSaveData", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__PosesRecordingSaveData__PoseSaveData(GlobalNamespace__PosesRecordingSaveData__PoseSaveData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__PosesRecordingSaveData__PoseSaveData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__PosesRecordingSaveData__PoseSaveData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__PosesRecordingSaveData__PoseSaveData& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__PosesRecordingSaveData__PoseSaveData& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PosesRecordingSaveData__PoseSaveData& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__PosesRecordingSaveData__PoseSaveData& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PosesRecordingSaveData__PoseSaveData& operator=(____GlobalNamespace__PosesRecordingSaveData__PoseSaveData&& o) noexcept = default;
-  constexpr ____GlobalNamespace__PosesRecordingSaveData__PoseSaveData& operator=(____GlobalNamespace__PosesRecordingSaveData__PoseSaveData const& o) noexcept = default;
+  constexpr GlobalNamespace__PosesRecordingSaveData__PoseSaveData& operator=(GlobalNamespace__PosesRecordingSaveData__PoseSaveData&& o) noexcept = default;
+  constexpr GlobalNamespace__PosesRecordingSaveData__PoseSaveData& operator=(GlobalNamespace__PosesRecordingSaveData__PoseSaveData const& o) noexcept = default;
                 
 
 
@@ -106,7 +105,7 @@ constexpr float_t __get_rotW() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "posX", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "posY", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "posZ", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rotX", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rotY", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rotZ", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rotW", ty: "float_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__PosesRecordingSaveData__PoseSaveData(float_t posX, float_t posY, float_t posZ, float_t rotX, float_t rotY, float_t rotZ, float_t rotW) ;
+explicit GlobalNamespace__PosesRecordingSaveData__PoseSaveData(float_t posX, float_t posY, float_t posZ, float_t rotX, float_t rotY, float_t rotZ, float_t rotW) ;
 
 /// @brief Method .ctor addr 0x21a6e00 size 0x64 virtual false final false
  void _ctor(float_t posX, float_t posY, float_t posZ, float_t rotX, float_t rotY, float_t rotZ, float_t rotW) ;
@@ -121,47 +120,47 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6025))
 // CS Name: PosesRecordingSaveData::TransformsSaveKeyframe
-class CORDL_TYPE ____GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe() = default;
+virtual ~GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe(____GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe(GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe(____GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe(GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe& operator=(____GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe&& o) noexcept = default;
-  constexpr ____GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe& operator=(____GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe const& o) noexcept = default;
+  constexpr GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe& operator=(GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe&& o) noexcept = default;
+  constexpr GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe& operator=(GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::ArrayW<::GlobalNamespace::____GlobalNamespace__PosesRecordingSaveData__PoseSaveData> __declspec(property(get=__get_poses, put=__set_poses))  poses;
+ ::ArrayW<GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__PoseSaveData> __declspec(property(get=__get_poses, put=__set_poses))  poses;
 
-constexpr void __set_poses(::ArrayW<::GlobalNamespace::____GlobalNamespace__PosesRecordingSaveData__PoseSaveData> value) ;
+constexpr void __set_poses(::ArrayW<GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__PoseSaveData> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::____GlobalNamespace__PosesRecordingSaveData__PoseSaveData> __get_poses() const;
+constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__PoseSaveData> __get_poses() const;
 
  float_t __declspec(property(get=__get_time, put=__set_time))  time;
 
@@ -172,11 +171,11 @@ constexpr float_t __get_time() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "poses", ty: "::ArrayW<::GlobalNamespace::____GlobalNamespace__PosesRecordingSaveData__PoseSaveData>", modifiers: "", def_value: None }, CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe(::ArrayW<::GlobalNamespace::____GlobalNamespace__PosesRecordingSaveData__PoseSaveData> poses, float_t time) ;
+// Ctor Parameters [CppParam { name: "poses", ty: "::ArrayW<GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__PoseSaveData>", modifiers: "", def_value: None }, CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }]
+explicit GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe(::ArrayW<GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__PoseSaveData> poses, float_t time) ;
 
 /// @brief Method .ctor addr 0x21a6e64 size 0x38 virtual false final false
- void _ctor(::ArrayW<::GlobalNamespace::____GlobalNamespace__PosesRecordingSaveData__PoseSaveData> poses, float_t time) ;
+ void _ctor(::ArrayW<GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__PoseSaveData> poses, float_t time) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -188,37 +187,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6026))
 // CS Name: PosesRecordingSaveData::ExternalCameraCalibrationSaveData
-class CORDL_TYPE ____GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData() = default;
+virtual ~GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData(____GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData(GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData(____GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData(GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData& operator=(____GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData&& o) noexcept = default;
-  constexpr ____GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData& operator=(____GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData const& o) noexcept = default;
+  constexpr GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData& operator=(GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData&& o) noexcept = default;
+  constexpr GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData& operator=(GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData const& o) noexcept = default;
                 
 
 
@@ -258,7 +257,7 @@ constexpr float_t __get_nearOffset() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "fieldOfVision", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "nearClip", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "farClip", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "hmdOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "nearOffset", ty: "float_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData(float_t fieldOfVision, float_t nearClip, float_t farClip, float_t hmdOffset, float_t nearOffset) ;
+explicit GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData(float_t fieldOfVision, float_t nearClip, float_t farClip, float_t hmdOffset, float_t nearOffset) ;
 
 /// @brief Method .ctor addr 0x21a6e9c size 0x50 virtual false final false
  void _ctor(float_t fieldOfVision, float_t nearClip, float_t farClip, float_t hmdOffset, float_t nearOffset) ;
@@ -276,11 +275,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE PosesRecordingSaveData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using ExternalCameraCalibrationSaveData = ::GlobalNamespace::____GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData;
+using ExternalCameraCalibrationSaveData = GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData;
 
-using TransformsSaveKeyframe = ::GlobalNamespace::____GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe;
+using TransformsSaveKeyframe = GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe;
 
-using PoseSaveData = ::GlobalNamespace::____GlobalNamespace__PosesRecordingSaveData__PoseSaveData;
+using PoseSaveData = GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__PoseSaveData;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -321,37 +320,36 @@ constexpr void __set_objectIds(::ArrayW<::StringW> value) ;
 
 constexpr ::ArrayW<::StringW> __get_objectIds() const;
 
- ::ArrayW<::GlobalNamespace::____GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe> __declspec(property(get=__get_keyframes, put=__set_keyframes))  keyframes;
+ ::ArrayW<GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe> __declspec(property(get=__get_keyframes, put=__set_keyframes))  keyframes;
 
-constexpr void __set_keyframes(::ArrayW<::GlobalNamespace::____GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe> value) ;
+constexpr void __set_keyframes(::ArrayW<GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::____GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe> __get_keyframes() const;
+constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe> __get_keyframes() const;
 
- ::GlobalNamespace::____GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData __declspec(property(get=__get_externalCameraCalibration, put=__set_externalCameraCalibration))  externalCameraCalibration;
+ GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData __declspec(property(get=__get_externalCameraCalibration, put=__set_externalCameraCalibration))  externalCameraCalibration;
 
-constexpr void __set_externalCameraCalibration(::GlobalNamespace::____GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData value) ;
+constexpr void __set_externalCameraCalibration(GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData __get_externalCameraCalibration() const;
+constexpr GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData __get_externalCameraCalibration() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "objectIds", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "keyframes", ty: "::ArrayW<::GlobalNamespace::____GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe>", modifiers: "", def_value: None }, CppParam { name: "externalCameraCalibration", ty: "::GlobalNamespace::____GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData", modifiers: "", def_value: None }]
-explicit PosesRecordingSaveData(::ArrayW<::StringW> objectIds, ::ArrayW<::GlobalNamespace::____GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe> keyframes, ::GlobalNamespace::____GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData externalCameraCalibration) ;
+// Ctor Parameters [CppParam { name: "objectIds", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "keyframes", ty: "::ArrayW<GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe>", modifiers: "", def_value: None }, CppParam { name: "externalCameraCalibration", ty: "GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData", modifiers: "", def_value: None }]
+explicit PosesRecordingSaveData(::ArrayW<::StringW> objectIds, ::ArrayW<GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe> keyframes, GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData externalCameraCalibration) ;
 
 /// @brief Method .ctor addr 0x21a6dc4 size 0x3c virtual false final false
- void _ctor(::ArrayW<::StringW> objectIds, ::ArrayW<::GlobalNamespace::____GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe> keyframes, ::GlobalNamespace::____GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData externalCameraCalibration) ;
+ void _ctor(::ArrayW<::StringW> objectIds, ::ArrayW<GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe> keyframes, GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData externalCameraCalibration) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PosesRecordingSaveData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PosesRecordingSaveData, "", "PosesRecordingSaveData");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData, "", "PosesRecordingSaveData/ExternalCameraCalibrationSaveData");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__PosesRecordingSaveData__PoseSaveData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__PosesRecordingSaveData__PoseSaveData, "", "PosesRecordingSaveData/PoseSaveData");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe, "", "PosesRecordingSaveData/TransformsSaveKeyframe");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData, "", "PosesRecordingSaveData/ExternalCameraCalibrationSaveData");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__PoseSaveData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__PoseSaveData, "", "PosesRecordingSaveData/PoseSaveData");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe, "", "PosesRecordingSaveData/TransformsSaveKeyframe");
+NEED_NO_BOX(GlobalNamespace::PosesRecordingSaveData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PosesRecordingSaveData, "", "PosesRecordingSaveData");

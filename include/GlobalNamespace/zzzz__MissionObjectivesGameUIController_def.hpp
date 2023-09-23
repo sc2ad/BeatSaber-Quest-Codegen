@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
-namespace GlobalNamespace {
-class MissionObjectiveGameUIView;
-}
 namespace GlobalNamespace {
 class MissionObjectiveCheckersManager;
+}
+namespace GlobalNamespace {
+class MissionObjectiveGameUIView;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -23,7 +22,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5136))
 // CS Name: MissionObjectivesGameUIController
-class CORDL_TYPE MissionObjectivesGameUIController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MissionObjectivesGameUIController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr MissionObjectivesGameUIController(MissionObjectivesGameUIController co
 constexpr MissionObjectivesGameUIController(MissionObjectivesGameUIController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MissionObjectivesGameUIController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MissionObjectivesGameUIController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -59,11 +58,11 @@ constexpr explicit MissionObjectivesGameUIController(void* ptr) noexcept : ::Uni
 
 // Fields
 
- ::GlobalNamespace::MissionObjectiveGameUIView __declspec(property(get=__get__missionObjectiveGameUIViewPrefab, put=__set__missionObjectiveGameUIViewPrefab))  _missionObjectiveGameUIViewPrefab;
+ GlobalNamespace::MissionObjectiveGameUIView __declspec(property(get=__get__missionObjectiveGameUIViewPrefab, put=__set__missionObjectiveGameUIViewPrefab))  _missionObjectiveGameUIViewPrefab;
 
-constexpr void __set__missionObjectiveGameUIViewPrefab(::GlobalNamespace::MissionObjectiveGameUIView value) ;
+constexpr void __set__missionObjectiveGameUIViewPrefab(GlobalNamespace::MissionObjectiveGameUIView value) ;
 
-constexpr ::GlobalNamespace::MissionObjectiveGameUIView __get__missionObjectiveGameUIViewPrefab() const;
+constexpr GlobalNamespace::MissionObjectiveGameUIView __get__missionObjectiveGameUIViewPrefab() const;
 
  float_t __declspec(property(get=__get__separator, put=__set__separator))  _separator;
 
@@ -77,17 +76,17 @@ constexpr void __set__elementWidth(float_t value) ;
 
 constexpr float_t __get__elementWidth() const;
 
- ::GlobalNamespace::MissionObjectiveCheckersManager __declspec(property(get=__get__missionObjectiveCheckersManager, put=__set__missionObjectiveCheckersManager))  _missionObjectiveCheckersManager;
+ GlobalNamespace::MissionObjectiveCheckersManager __declspec(property(get=__get__missionObjectiveCheckersManager, put=__set__missionObjectiveCheckersManager))  _missionObjectiveCheckersManager;
 
-constexpr void __set__missionObjectiveCheckersManager(::GlobalNamespace::MissionObjectiveCheckersManager value) ;
+constexpr void __set__missionObjectiveCheckersManager(GlobalNamespace::MissionObjectiveCheckersManager value) ;
 
-constexpr ::GlobalNamespace::MissionObjectiveCheckersManager __get__missionObjectiveCheckersManager() const;
+constexpr GlobalNamespace::MissionObjectiveCheckersManager __get__missionObjectiveCheckersManager() const;
 
- ::System::Collections::Generic::List_1<::GlobalNamespace::MissionObjectiveGameUIView> __declspec(property(get=__get__missionObjectiveGameUIViews, put=__set__missionObjectiveGameUIViews))  _missionObjectiveGameUIViews;
+ System::Collections::Generic::List_1<GlobalNamespace::MissionObjectiveGameUIView> __declspec(property(get=__get__missionObjectiveGameUIViews, put=__set__missionObjectiveGameUIViews))  _missionObjectiveGameUIViews;
 
-constexpr void __set__missionObjectiveGameUIViews(::System::Collections::Generic::List_1<::GlobalNamespace::MissionObjectiveGameUIView> value) ;
+constexpr void __set__missionObjectiveGameUIViews(System::Collections::Generic::List_1<GlobalNamespace::MissionObjectiveGameUIView> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::MissionObjectiveGameUIView> __get__missionObjectiveGameUIViews() const;
+constexpr System::Collections::Generic::List_1<GlobalNamespace::MissionObjectiveGameUIView> __get__missionObjectiveGameUIViews() const;
 
 
 // Methods
@@ -114,6 +113,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MissionObjectivesGameUIController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionObjectivesGameUIController, "", "MissionObjectivesGameUIController");
+NEED_NO_BOX(GlobalNamespace::MissionObjectivesGameUIController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectivesGameUIController, "", "MissionObjectivesGameUIController");

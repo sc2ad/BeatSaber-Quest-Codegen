@@ -5,10 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
-struct ____GlobalNamespace__NullAllowed__Context;
+struct GlobalNamespace__NullAllowed__Context;
 }
 namespace GlobalNamespace {
 class NullAllowed;
@@ -19,20 +18,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16088))
 // CS Name: NullAllowed::Context
-struct CORDL_TYPE ____GlobalNamespace__NullAllowed__Context : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__NullAllowed__Context : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__NullAllowed__Context(int32_t value__) noexcept;
+constexpr GlobalNamespace__NullAllowed__Context(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__NullAllowed__Context(____GlobalNamespace__NullAllowed__Context const&) = default;
-                    constexpr ____GlobalNamespace__NullAllowed__Context(____GlobalNamespace__NullAllowed__Context&&) = default;
-                    constexpr ____GlobalNamespace__NullAllowed__Context& operator=(____GlobalNamespace__NullAllowed__Context const& o) {
+                    constexpr GlobalNamespace__NullAllowed__Context(GlobalNamespace__NullAllowed__Context const&) = default;
+                    constexpr GlobalNamespace__NullAllowed__Context(GlobalNamespace__NullAllowed__Context&&) = default;
+                    constexpr GlobalNamespace__NullAllowed__Context& operator=(GlobalNamespace__NullAllowed__Context const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__NullAllowed__Context& operator=(____GlobalNamespace__NullAllowed__Context&& o) noexcept {
+                    constexpr GlobalNamespace__NullAllowed__Context& operator=(GlobalNamespace__NullAllowed__Context&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -45,7 +44,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__NullAllowed__Context(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__NullAllowed__Context(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -53,14 +52,14 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__NullAllowed__Context_Unwrapped : int32_t {
+enum class __GlobalNamespace__NullAllowed__Context_Unwrapped : int32_t {
 __Everywhere = 0,
 __Prefab = 1,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__NullAllowed__Context_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__NullAllowed__Context_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__NullAllowed__Context_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__NullAllowed__Context_Unwrapped>(__instance);
 }
 
 
@@ -73,10 +72,10 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Everywhere offset 0
-static ::GlobalNamespace::____GlobalNamespace__NullAllowed__Context const Everywhere;
+static GlobalNamespace::GlobalNamespace__NullAllowed__Context const Everywhere;
 
 /// @brief Field Prefab offset 0
-static ::GlobalNamespace::____GlobalNamespace__NullAllowed__Context const Prefab;
+static GlobalNamespace::GlobalNamespace__NullAllowed__Context const Prefab;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -88,10 +87,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10112))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16089))
 // CS Name: NullAllowed
-class CORDL_TYPE NullAllowed : public ::UnityEngine::PropertyAttribute {
+class CORDL_TYPE NullAllowed : public UnityEngine::PropertyAttribute {
 public:
 // Declarations
-using Context = ::GlobalNamespace::____GlobalNamespace__NullAllowed__Context;
+using Context = GlobalNamespace::GlobalNamespace__NullAllowed__Context;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -105,7 +104,7 @@ constexpr NullAllowed(NullAllowed const& ) noexcept = default;
 constexpr NullAllowed(NullAllowed&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NullAllowed(void* ptr) noexcept : ::UnityEngine::PropertyAttribute(ptr) {
+constexpr explicit NullAllowed(void* ptr) noexcept : UnityEngine::PropertyAttribute(ptr) {
 }
 
 
@@ -126,11 +125,11 @@ constexpr explicit NullAllowed(void* ptr) noexcept : ::UnityEngine::PropertyAttr
 
 // Fields
 
- ::GlobalNamespace::____GlobalNamespace__NullAllowed__Context __declspec(property(get=__get_context, put=__set_context))  context;
+ GlobalNamespace::GlobalNamespace__NullAllowed__Context __declspec(property(get=__get_context, put=__set_context))  context;
 
-constexpr void __set_context(::GlobalNamespace::____GlobalNamespace__NullAllowed__Context value) ;
+constexpr void __set_context(GlobalNamespace::GlobalNamespace__NullAllowed__Context value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__NullAllowed__Context __get_context() const;
+constexpr GlobalNamespace::GlobalNamespace__NullAllowed__Context __get_context() const;
 
  ::StringW __declspec(property(get=__get_propertyName, put=__set_propertyName))  propertyName;
 
@@ -153,11 +152,11 @@ explicit NullAllowed() ;
 /// @brief Method .ctor addr 0x1f8f350 size 0x1c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "context", ty: "::GlobalNamespace::____GlobalNamespace__NullAllowed__Context", modifiers: "", def_value: None }]
-explicit NullAllowed(::GlobalNamespace::____GlobalNamespace__NullAllowed__Context context) ;
+// Ctor Parameters [CppParam { name: "context", ty: "GlobalNamespace::GlobalNamespace__NullAllowed__Context", modifiers: "", def_value: None }]
+explicit NullAllowed(GlobalNamespace::GlobalNamespace__NullAllowed__Context context) ;
 
 /// @brief Method .ctor addr 0x1f8f36c size 0x28 virtual false final false
- void _ctor(::GlobalNamespace::____GlobalNamespace__NullAllowed__Context context) ;
+ void _ctor(GlobalNamespace::GlobalNamespace__NullAllowed__Context context) ;
 
 // Ctor Parameters [CppParam { name: "propertyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "ifNotValue", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
 explicit NullAllowed(::StringW propertyName, ::bs_hook::Il2CppWrapperType ifNotValue) ;
@@ -169,7 +168,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__NullAllowed__Context, "", "NullAllowed/Context");
-NEED_NO_BOX(::GlobalNamespace::NullAllowed);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NullAllowed, "", "NullAllowed");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__NullAllowed__Context, "", "NullAllowed/Context");
+NEED_NO_BOX(GlobalNamespace::NullAllowed);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NullAllowed, "", "NullAllowed");

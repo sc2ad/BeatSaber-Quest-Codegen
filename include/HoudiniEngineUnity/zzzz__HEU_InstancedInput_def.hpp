@@ -1,16 +1,15 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
+namespace UnityEngine {
+struct Vector3;
+}
 namespace UnityEngine {
 class GameObject;
 }
 namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivable_1;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -25,8 +24,8 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE HEU_InstancedInput : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstancedInput>
-constexpr operator  ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstancedInput>() const noexcept;
+/// @brief Convert operator to HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InstancedInput>
+constexpr operator  HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InstancedInput>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -61,29 +60,29 @@ constexpr explicit HEU_InstancedInput(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Fields
 
- ::UnityEngine::GameObject __declspec(property(get=__get__instancedGameObject, put=__set__instancedGameObject))  _instancedGameObject;
+ UnityEngine::GameObject __declspec(property(get=__get__instancedGameObject, put=__set__instancedGameObject))  _instancedGameObject;
 
-constexpr void __set__instancedGameObject(::UnityEngine::GameObject value) ;
+constexpr void __set__instancedGameObject(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__instancedGameObject() const;
+constexpr UnityEngine::GameObject __get__instancedGameObject() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__rotationOffset, put=__set__rotationOffset))  _rotationOffset;
+ UnityEngine::Vector3 __declspec(property(get=__get__rotationOffset, put=__set__rotationOffset))  _rotationOffset;
 
-constexpr void __set__rotationOffset(::UnityEngine::Vector3 value) ;
+constexpr void __set__rotationOffset(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__rotationOffset() const;
+constexpr UnityEngine::Vector3 __get__rotationOffset() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__scaleOffset, put=__set__scaleOffset))  _scaleOffset;
+ UnityEngine::Vector3 __declspec(property(get=__get__scaleOffset, put=__set__scaleOffset))  _scaleOffset;
 
-constexpr void __set__scaleOffset(::UnityEngine::Vector3 value) ;
+constexpr void __set__scaleOffset(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__scaleOffset() const;
+constexpr UnityEngine::Vector3 __get__scaleOffset() const;
 
 
 // Methods
 
 /// @brief Method IsEquivalentTo addr 0x1fff018 size 0x1a0 virtual true final true
- bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InstancedInput other) ;
+ bool IsEquivalentTo(HoudiniEngineUnity::HEU_InstancedInput other) ;
 
 // Ctor Parameters []
 explicit HEU_InstancedInput() ;
@@ -95,6 +94,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_InstancedInput);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_InstancedInput, "HoudiniEngineUnity", "HEU_InstancedInput");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_InstancedInput);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InstancedInput, "HoudiniEngineUnity", "HEU_InstancedInput");

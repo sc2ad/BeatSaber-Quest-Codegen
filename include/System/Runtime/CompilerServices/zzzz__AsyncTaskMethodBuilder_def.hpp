@@ -2,12 +2,12 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
-namespace {
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
+}
 namespace System {
 class Exception;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
@@ -17,11 +17,10 @@ namespace System::Threading::Tasks {
 struct VoidTaskResult;
 }
 namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
-}
-namespace System::Threading::Tasks {
 class Task;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
@@ -36,8 +35,8 @@ namespace System::Runtime::CompilerServices {
 struct CORDL_TYPE AsyncTaskMethodBuilder : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "m_builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Threading::Tasks::VoidTaskResult>", modifiers: "", def_value: None }]
-constexpr AsyncTaskMethodBuilder(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Threading::Tasks::VoidTaskResult> m_builder) noexcept;
+// Ctor Parameters [CppParam { name: "m_builder", ty: "System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Threading::Tasks::VoidTaskResult>", modifiers: "", def_value: None }]
+constexpr AsyncTaskMethodBuilder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Threading::Tasks::VoidTaskResult> m_builder) noexcept;
 
 
                     constexpr AsyncTaskMethodBuilder(AsyncTaskMethodBuilder const&) = default;
@@ -70,52 +69,51 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
-static ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::VoidTaskResult> __declspec(property(get=__get_s_cachedCompleted, put=__set_s_cachedCompleted))  s_cachedCompleted;
+static System::Threading::Tasks::Task_1<System::Threading::Tasks::VoidTaskResult> __declspec(property(get=__get_s_cachedCompleted, put=__set_s_cachedCompleted))  s_cachedCompleted;
 
-static void __set_s_cachedCompleted(::System::Threading::Tasks::Task_1<::System::Threading::Tasks::VoidTaskResult> value) ;
+static void __set_s_cachedCompleted(System::Threading::Tasks::Task_1<System::Threading::Tasks::VoidTaskResult> value) ;
 
-static ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::VoidTaskResult> __get_s_cachedCompleted() ;
+static System::Threading::Tasks::Task_1<System::Threading::Tasks::VoidTaskResult> __get_s_cachedCompleted() ;
 
- ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Threading::Tasks::VoidTaskResult> __declspec(property(get=__get_m_builder, put=__set_m_builder))  m_builder;
+ System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Threading::Tasks::VoidTaskResult> __declspec(property(get=__get_m_builder, put=__set_m_builder))  m_builder;
 
-constexpr void __set_m_builder(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Threading::Tasks::VoidTaskResult> value) ;
+constexpr void __set_m_builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Threading::Tasks::VoidTaskResult> value) ;
 
-constexpr ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Threading::Tasks::VoidTaskResult> __get_m_builder() const;
+constexpr System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Threading::Tasks::VoidTaskResult> __get_m_builder() const;
 
 
 // Properties
 
- ::System::Threading::Tasks::Task __declspec(property(get=get_Task))  Task;
+ System::Threading::Tasks::Task __declspec(property(get=get_Task))  Task;
 
 
 // Methods
 
 /// @brief Method Create addr 0x236f77c size 0xc virtual false final false
-static ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder Create() ;
+static System::Runtime::CompilerServices::AsyncTaskMethodBuilder Create() ;
 
 /// @brief Method Start addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TStateMachine>
  void Start(ByRef<TStateMachine> stateMachine) ;
 
 /// @brief Method SetStateMachine addr 0x236f788 size 0x58 virtual false final false
- void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
+ void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
 
 /// @brief Method AwaitUnsafeOnCompleted addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TAwaiter,typename TStateMachine>
  void AwaitUnsafeOnCompleted(ByRef<TAwaiter> awaiter, ByRef<TStateMachine> stateMachine) ;
 
 /// @brief Method get_Task addr 0x236f7e0 size 0x48 virtual false final false
- ::System::Threading::Tasks::Task get_Task() ;
+ System::Threading::Tasks::Task get_Task() ;
 
 /// @brief Method SetResult addr 0x236f828 size 0x78 virtual false final false
  void SetResult() ;
 
 /// @brief Method SetException addr 0x236f8a0 size 0x58 virtual false final false
- void SetException(::System::Exception exception) ;
+ void SetException(System::Exception exception) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::CompilerServices
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder, "System.Runtime.CompilerServices", "AsyncTaskMethodBuilder");
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncTaskMethodBuilder, "System.Runtime.CompilerServices", "AsyncTaskMethodBuilder");

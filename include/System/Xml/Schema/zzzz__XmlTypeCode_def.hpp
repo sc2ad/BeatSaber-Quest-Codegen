@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Xml::Schema {
 struct XmlTypeCode;
@@ -120,173 +119,172 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::Xml::Schema::XmlTypeCode const None;
+static System::Xml::Schema::XmlTypeCode const None;
 
 /// @brief Field Item offset 0
-static ::System::Xml::Schema::XmlTypeCode const Item;
+static System::Xml::Schema::XmlTypeCode const Item;
 
 /// @brief Field Node offset 0
-static ::System::Xml::Schema::XmlTypeCode const Node;
+static System::Xml::Schema::XmlTypeCode const Node;
 
 /// @brief Field Document offset 0
-static ::System::Xml::Schema::XmlTypeCode const Document;
+static System::Xml::Schema::XmlTypeCode const Document;
 
 /// @brief Field Element offset 0
-static ::System::Xml::Schema::XmlTypeCode const Element;
+static System::Xml::Schema::XmlTypeCode const Element;
 
 /// @brief Field Attribute offset 0
-static ::System::Xml::Schema::XmlTypeCode const Attribute;
+static System::Xml::Schema::XmlTypeCode const Attribute;
 
 /// @brief Field Namespace offset 0
-static ::System::Xml::Schema::XmlTypeCode const Namespace;
+static System::Xml::Schema::XmlTypeCode const Namespace;
 
 /// @brief Field ProcessingInstruction offset 0
-static ::System::Xml::Schema::XmlTypeCode const ProcessingInstruction;
+static System::Xml::Schema::XmlTypeCode const ProcessingInstruction;
 
 /// @brief Field Comment offset 0
-static ::System::Xml::Schema::XmlTypeCode const Comment;
+static System::Xml::Schema::XmlTypeCode const Comment;
 
 /// @brief Field Text offset 0
-static ::System::Xml::Schema::XmlTypeCode const Text;
+static System::Xml::Schema::XmlTypeCode const Text;
 
 /// @brief Field AnyAtomicType offset 0
-static ::System::Xml::Schema::XmlTypeCode const AnyAtomicType;
+static System::Xml::Schema::XmlTypeCode const AnyAtomicType;
 
 /// @brief Field UntypedAtomic offset 0
-static ::System::Xml::Schema::XmlTypeCode const UntypedAtomic;
+static System::Xml::Schema::XmlTypeCode const UntypedAtomic;
 
 /// @brief Field String offset 0
-static ::System::Xml::Schema::XmlTypeCode const String;
+static System::Xml::Schema::XmlTypeCode const String;
 
 /// @brief Field Boolean offset 0
-static ::System::Xml::Schema::XmlTypeCode const Boolean;
+static System::Xml::Schema::XmlTypeCode const Boolean;
 
 /// @brief Field Decimal offset 0
-static ::System::Xml::Schema::XmlTypeCode const Decimal;
+static System::Xml::Schema::XmlTypeCode const Decimal;
 
 /// @brief Field Float offset 0
-static ::System::Xml::Schema::XmlTypeCode const Float;
+static System::Xml::Schema::XmlTypeCode const Float;
 
 /// @brief Field Double offset 0
-static ::System::Xml::Schema::XmlTypeCode const Double;
+static System::Xml::Schema::XmlTypeCode const Double;
 
 /// @brief Field Duration offset 0
-static ::System::Xml::Schema::XmlTypeCode const Duration;
+static System::Xml::Schema::XmlTypeCode const Duration;
 
 /// @brief Field DateTime offset 0
-static ::System::Xml::Schema::XmlTypeCode const DateTime;
+static System::Xml::Schema::XmlTypeCode const DateTime;
 
 /// @brief Field Time offset 0
-static ::System::Xml::Schema::XmlTypeCode const Time;
+static System::Xml::Schema::XmlTypeCode const Time;
 
 /// @brief Field Date offset 0
-static ::System::Xml::Schema::XmlTypeCode const Date;
+static System::Xml::Schema::XmlTypeCode const Date;
 
 /// @brief Field GYearMonth offset 0
-static ::System::Xml::Schema::XmlTypeCode const GYearMonth;
+static System::Xml::Schema::XmlTypeCode const GYearMonth;
 
 /// @brief Field GYear offset 0
-static ::System::Xml::Schema::XmlTypeCode const GYear;
+static System::Xml::Schema::XmlTypeCode const GYear;
 
 /// @brief Field GMonthDay offset 0
-static ::System::Xml::Schema::XmlTypeCode const GMonthDay;
+static System::Xml::Schema::XmlTypeCode const GMonthDay;
 
 /// @brief Field GDay offset 0
-static ::System::Xml::Schema::XmlTypeCode const GDay;
+static System::Xml::Schema::XmlTypeCode const GDay;
 
 /// @brief Field GMonth offset 0
-static ::System::Xml::Schema::XmlTypeCode const GMonth;
+static System::Xml::Schema::XmlTypeCode const GMonth;
 
 /// @brief Field HexBinary offset 0
-static ::System::Xml::Schema::XmlTypeCode const HexBinary;
+static System::Xml::Schema::XmlTypeCode const HexBinary;
 
 /// @brief Field Base64Binary offset 0
-static ::System::Xml::Schema::XmlTypeCode const Base64Binary;
+static System::Xml::Schema::XmlTypeCode const Base64Binary;
 
 /// @brief Field AnyUri offset 0
-static ::System::Xml::Schema::XmlTypeCode const AnyUri;
+static System::Xml::Schema::XmlTypeCode const AnyUri;
 
 /// @brief Field QName offset 0
-static ::System::Xml::Schema::XmlTypeCode const QName;
+static System::Xml::Schema::XmlTypeCode const QName;
 
 /// @brief Field Notation offset 0
-static ::System::Xml::Schema::XmlTypeCode const Notation;
+static System::Xml::Schema::XmlTypeCode const Notation;
 
 /// @brief Field NormalizedString offset 0
-static ::System::Xml::Schema::XmlTypeCode const NormalizedString;
+static System::Xml::Schema::XmlTypeCode const NormalizedString;
 
 /// @brief Field Token offset 0
-static ::System::Xml::Schema::XmlTypeCode const Token;
+static System::Xml::Schema::XmlTypeCode const Token;
 
 /// @brief Field Language offset 0
-static ::System::Xml::Schema::XmlTypeCode const Language;
+static System::Xml::Schema::XmlTypeCode const Language;
 
 /// @brief Field NmToken offset 0
-static ::System::Xml::Schema::XmlTypeCode const NmToken;
+static System::Xml::Schema::XmlTypeCode const NmToken;
 
 /// @brief Field Name offset 0
-static ::System::Xml::Schema::XmlTypeCode const Name;
+static System::Xml::Schema::XmlTypeCode const Name;
 
 /// @brief Field NCName offset 0
-static ::System::Xml::Schema::XmlTypeCode const NCName;
+static System::Xml::Schema::XmlTypeCode const NCName;
 
 /// @brief Field Id offset 0
-static ::System::Xml::Schema::XmlTypeCode const Id;
+static System::Xml::Schema::XmlTypeCode const Id;
 
 /// @brief Field Idref offset 0
-static ::System::Xml::Schema::XmlTypeCode const Idref;
+static System::Xml::Schema::XmlTypeCode const Idref;
 
 /// @brief Field Entity offset 0
-static ::System::Xml::Schema::XmlTypeCode const Entity;
+static System::Xml::Schema::XmlTypeCode const Entity;
 
 /// @brief Field Integer offset 0
-static ::System::Xml::Schema::XmlTypeCode const Integer;
+static System::Xml::Schema::XmlTypeCode const Integer;
 
 /// @brief Field NonPositiveInteger offset 0
-static ::System::Xml::Schema::XmlTypeCode const NonPositiveInteger;
+static System::Xml::Schema::XmlTypeCode const NonPositiveInteger;
 
 /// @brief Field NegativeInteger offset 0
-static ::System::Xml::Schema::XmlTypeCode const NegativeInteger;
+static System::Xml::Schema::XmlTypeCode const NegativeInteger;
 
 /// @brief Field Long offset 0
-static ::System::Xml::Schema::XmlTypeCode const Long;
+static System::Xml::Schema::XmlTypeCode const Long;
 
 /// @brief Field Int offset 0
-static ::System::Xml::Schema::XmlTypeCode const Int;
+static System::Xml::Schema::XmlTypeCode const Int;
 
 /// @brief Field Short offset 0
-static ::System::Xml::Schema::XmlTypeCode const Short;
+static System::Xml::Schema::XmlTypeCode const Short;
 
 /// @brief Field Byte offset 0
-static ::System::Xml::Schema::XmlTypeCode const Byte;
+static System::Xml::Schema::XmlTypeCode const Byte;
 
 /// @brief Field NonNegativeInteger offset 0
-static ::System::Xml::Schema::XmlTypeCode const NonNegativeInteger;
+static System::Xml::Schema::XmlTypeCode const NonNegativeInteger;
 
 /// @brief Field UnsignedLong offset 0
-static ::System::Xml::Schema::XmlTypeCode const UnsignedLong;
+static System::Xml::Schema::XmlTypeCode const UnsignedLong;
 
 /// @brief Field UnsignedInt offset 0
-static ::System::Xml::Schema::XmlTypeCode const UnsignedInt;
+static System::Xml::Schema::XmlTypeCode const UnsignedInt;
 
 /// @brief Field UnsignedShort offset 0
-static ::System::Xml::Schema::XmlTypeCode const UnsignedShort;
+static System::Xml::Schema::XmlTypeCode const UnsignedShort;
 
 /// @brief Field UnsignedByte offset 0
-static ::System::Xml::Schema::XmlTypeCode const UnsignedByte;
+static System::Xml::Schema::XmlTypeCode const UnsignedByte;
 
 /// @brief Field PositiveInteger offset 0
-static ::System::Xml::Schema::XmlTypeCode const PositiveInteger;
+static System::Xml::Schema::XmlTypeCode const PositiveInteger;
 
 /// @brief Field YearMonthDuration offset 0
-static ::System::Xml::Schema::XmlTypeCode const YearMonthDuration;
+static System::Xml::Schema::XmlTypeCode const YearMonthDuration;
 
 /// @brief Field DayTimeDuration offset 0
-static ::System::Xml::Schema::XmlTypeCode const DayTimeDuration;
+static System::Xml::Schema::XmlTypeCode const DayTimeDuration;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlTypeCode, "System.Xml.Schema", "XmlTypeCode");
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::XmlTypeCode, "System.Xml.Schema", "XmlTypeCode");

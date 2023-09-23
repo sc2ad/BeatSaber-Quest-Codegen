@@ -1,15 +1,14 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace UnityEngine::UIElements {
 class IMouseEvent;
 }
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::UIElements {
 class VisualElement;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -59,15 +58,14 @@ constexpr explicit MouseEventsHelper(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 
 /// @brief Method SendEnterLeave addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TLeaveEvent,typename TEnterEvent>
-static void SendEnterLeave(::UnityEngine::UIElements::VisualElement previousTopElementUnderMouse, ::UnityEngine::UIElements::VisualElement currentTopElementUnderMouse, ::UnityEngine::UIElements::IMouseEvent triggerEvent, ::UnityEngine::Vector2 mousePosition) ;
+static void SendEnterLeave(UnityEngine::UIElements::VisualElement previousTopElementUnderMouse, UnityEngine::UIElements::VisualElement currentTopElementUnderMouse, UnityEngine::UIElements::IMouseEvent triggerEvent, UnityEngine::Vector2 mousePosition) ;
 
 /// @brief Method SendMouseOverMouseOut addr 0x2cd2220 size 0x374 virtual false final false
-static void SendMouseOverMouseOut(::UnityEngine::UIElements::VisualElement previousTopElementUnderMouse, ::UnityEngine::UIElements::VisualElement currentTopElementUnderMouse, ::UnityEngine::UIElements::IMouseEvent triggerEvent, ::UnityEngine::Vector2 mousePosition) ;
+static void SendMouseOverMouseOut(UnityEngine::UIElements::VisualElement previousTopElementUnderMouse, UnityEngine::UIElements::VisualElement currentTopElementUnderMouse, UnityEngine::UIElements::IMouseEvent triggerEvent, UnityEngine::Vector2 mousePosition) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::MouseEventsHelper);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::MouseEventsHelper, "UnityEngine.UIElements", "MouseEventsHelper");
+NEED_NO_BOX(UnityEngine::UIElements::MouseEventsHelper);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::MouseEventsHelper, "UnityEngine.UIElements", "MouseEventsHelper");

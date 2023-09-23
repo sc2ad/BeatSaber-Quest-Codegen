@@ -2,15 +2,14 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
-namespace {
+namespace System::Reflection {
+struct PropertyAttributes;
+}
 namespace System {
 class Type;
 }
 namespace System::Reflection {
 class MethodInfo;
-}
-namespace System::Reflection {
-struct PropertyAttributes;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -25,8 +24,8 @@ namespace System::Reflection {
 struct CORDL_TYPE MonoPropertyInfo : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "parent", ty: "::System::Type", modifiers: "", def_value: None }, CppParam { name: "declaring_type", ty: "::System::Type", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "get_method", ty: "::System::Reflection::MethodInfo", modifiers: "", def_value: None }, CppParam { name: "set_method", ty: "::System::Reflection::MethodInfo", modifiers: "", def_value: None }, CppParam { name: "attrs", ty: "::System::Reflection::PropertyAttributes", modifiers: "", def_value: None }]
-constexpr MonoPropertyInfo(::System::Type parent, ::System::Type declaring_type, ::StringW name, ::System::Reflection::MethodInfo get_method, ::System::Reflection::MethodInfo set_method, ::System::Reflection::PropertyAttributes attrs) noexcept;
+// Ctor Parameters [CppParam { name: "parent", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "declaring_type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "get_method", ty: "System::Reflection::MethodInfo", modifiers: "", def_value: None }, CppParam { name: "set_method", ty: "System::Reflection::MethodInfo", modifiers: "", def_value: None }, CppParam { name: "attrs", ty: "System::Reflection::PropertyAttributes", modifiers: "", def_value: None }]
+constexpr MonoPropertyInfo(System::Type parent, System::Type declaring_type, ::StringW name, System::Reflection::MethodInfo get_method, System::Reflection::MethodInfo set_method, System::Reflection::PropertyAttributes attrs) noexcept;
 
 
                     constexpr MonoPropertyInfo(MonoPropertyInfo const&) = default;
@@ -59,17 +58,17 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::Type __declspec(property(get=__get_parent, put=__set_parent))  parent;
+ System::Type __declspec(property(get=__get_parent, put=__set_parent))  parent;
 
-constexpr void __set_parent(::System::Type value) ;
+constexpr void __set_parent(System::Type value) ;
 
-constexpr ::System::Type __get_parent() const;
+constexpr System::Type __get_parent() const;
 
- ::System::Type __declspec(property(get=__get_declaring_type, put=__set_declaring_type))  declaring_type;
+ System::Type __declspec(property(get=__get_declaring_type, put=__set_declaring_type))  declaring_type;
 
-constexpr void __set_declaring_type(::System::Type value) ;
+constexpr void __set_declaring_type(System::Type value) ;
 
-constexpr ::System::Type __get_declaring_type() const;
+constexpr System::Type __get_declaring_type() const;
 
  ::StringW __declspec(property(get=__get_name, put=__set_name))  name;
 
@@ -77,27 +76,26 @@ constexpr void __set_name(::StringW value) ;
 
 constexpr ::StringW __get_name() const;
 
- ::System::Reflection::MethodInfo __declspec(property(get=__get_get_method, put=__set_get_method))  get_method;
+ System::Reflection::MethodInfo __declspec(property(get=__get_get_method, put=__set_get_method))  get_method;
 
-constexpr void __set_get_method(::System::Reflection::MethodInfo value) ;
+constexpr void __set_get_method(System::Reflection::MethodInfo value) ;
 
-constexpr ::System::Reflection::MethodInfo __get_get_method() const;
+constexpr System::Reflection::MethodInfo __get_get_method() const;
 
- ::System::Reflection::MethodInfo __declspec(property(get=__get_set_method, put=__set_set_method))  set_method;
+ System::Reflection::MethodInfo __declspec(property(get=__get_set_method, put=__set_set_method))  set_method;
 
-constexpr void __set_set_method(::System::Reflection::MethodInfo value) ;
+constexpr void __set_set_method(System::Reflection::MethodInfo value) ;
 
-constexpr ::System::Reflection::MethodInfo __get_set_method() const;
+constexpr System::Reflection::MethodInfo __get_set_method() const;
 
- ::System::Reflection::PropertyAttributes __declspec(property(get=__get_attrs, put=__set_attrs))  attrs;
+ System::Reflection::PropertyAttributes __declspec(property(get=__get_attrs, put=__set_attrs))  attrs;
 
-constexpr void __set_attrs(::System::Reflection::PropertyAttributes value) ;
+constexpr void __set_attrs(System::Reflection::PropertyAttributes value) ;
 
-constexpr ::System::Reflection::PropertyAttributes __get_attrs() const;
+constexpr System::Reflection::PropertyAttributes __get_attrs() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Reflection
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::MonoPropertyInfo, "System.Reflection", "MonoPropertyInfo");
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoPropertyInfo, "System.Reflection", "MonoPropertyInfo");

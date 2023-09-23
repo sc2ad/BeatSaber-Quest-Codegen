@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__MockPlayerSettings_def.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class MockServerSettings;
@@ -12,7 +11,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5284))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5287))
 // CS Name: MockServerSettings
-class CORDL_TYPE MockServerSettings : public ::GlobalNamespace::MockPlayerSettings {
+class CORDL_TYPE MockServerSettings : public GlobalNamespace::MockPlayerSettings {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr MockServerSettings(MockServerSettings const& ) noexcept = default;
 constexpr MockServerSettings(MockServerSettings&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MockServerSettings(void* ptr) noexcept : ::GlobalNamespace::MockPlayerSettings(ptr) {
+constexpr explicit MockServerSettings(void* ptr) noexcept : GlobalNamespace::MockPlayerSettings(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MockServerSettings);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MockServerSettings, "", "MockServerSettings");
+NEED_NO_BOX(GlobalNamespace::MockServerSettings);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockServerSettings, "", "MockServerSettings");

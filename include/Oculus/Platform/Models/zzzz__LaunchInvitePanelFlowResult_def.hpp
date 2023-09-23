@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
 class UserList;
 }
@@ -52,11 +51,11 @@ constexpr explicit LaunchInvitePanelFlowResult(void* ptr) noexcept : ::bs_hook::
 
 // Fields
 
- ::Oculus::Platform::Models::UserList __declspec(property(get=__get_InvitedUsers, put=__set_InvitedUsers))  InvitedUsers;
+ Oculus::Platform::Models::UserList __declspec(property(get=__get_InvitedUsers, put=__set_InvitedUsers))  InvitedUsers;
 
-constexpr void __set_InvitedUsers(::Oculus::Platform::Models::UserList value) ;
+constexpr void __set_InvitedUsers(Oculus::Platform::Models::UserList value) ;
 
-constexpr ::Oculus::Platform::Models::UserList __get_InvitedUsers() const;
+constexpr Oculus::Platform::Models::UserList __get_InvitedUsers() const;
 
 
 // Methods
@@ -71,6 +70,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::LaunchInvitePanelFlowResult);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::LaunchInvitePanelFlowResult, "Oculus.Platform.Models", "LaunchInvitePanelFlowResult");
+NEED_NO_BOX(Oculus::Platform::Models::LaunchInvitePanelFlowResult);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LaunchInvitePanelFlowResult, "Oculus.Platform.Models", "LaunchInvitePanelFlowResult");

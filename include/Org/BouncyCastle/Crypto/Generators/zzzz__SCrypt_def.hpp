@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class Array;
 }
@@ -72,10 +71,10 @@ static void BlockMix(::ArrayW<uint32_t> B, ::ArrayW<uint32_t> X1, ::ArrayW<uint3
 static void Xor(::ArrayW<uint32_t> a, ::ArrayW<uint32_t> b, int32_t bOff, ::ArrayW<uint32_t> output) ;
 
 /// @brief Method Clear addr 0xe7ad90 size 0x30 virtual false final false
-static void Clear(::System::Array array) ;
+static void Clear(System::Array array) ;
 
 /// @brief Method ClearAll addr 0xe7adc0 size 0x5c virtual false final false
-static void ClearAll(::ArrayW<::System::Array> arrays) ;
+static void ClearAll(::ArrayW<System::Array> arrays) ;
 
 /// @brief Method IsPowerOf2 addr 0xe7a524 size 0x10 virtual false final false
 static bool IsPowerOf2(int32_t x) ;
@@ -90,6 +89,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Generators
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Generators::SCrypt);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Generators::SCrypt, "Org.BouncyCastle.Crypto.Generators", "SCrypt");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Generators::SCrypt);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::SCrypt, "Org.BouncyCastle.Crypto.Generators", "SCrypt");

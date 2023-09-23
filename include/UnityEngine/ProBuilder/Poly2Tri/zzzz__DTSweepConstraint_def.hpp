@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationConstraint_def.hpp"
-namespace {
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class TriangulationPoint;
 }
@@ -15,7 +14,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15362))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15351))
 // CS Name: UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint
-class CORDL_TYPE DTSweepConstraint : public ::UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint {
+class CORDL_TYPE DTSweepConstraint : public UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr DTSweepConstraint(DTSweepConstraint const& ) noexcept = default;
 constexpr DTSweepConstraint(DTSweepConstraint&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DTSweepConstraint(void* ptr) noexcept : ::UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint(ptr) {
+constexpr explicit DTSweepConstraint(void* ptr) noexcept : UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint(ptr) {
 }
 
 
@@ -51,16 +50,15 @@ constexpr explicit DTSweepConstraint(void* ptr) noexcept : ::UnityEngine::ProBui
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "p1", ty: "::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint", modifiers: "", def_value: None }, CppParam { name: "p2", ty: "::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint", modifiers: "", def_value: None }]
-explicit DTSweepConstraint(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint p1, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint p2) ;
+// Ctor Parameters [CppParam { name: "p1", ty: "UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint", modifiers: "", def_value: None }, CppParam { name: "p2", ty: "UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint", modifiers: "", def_value: None }]
+explicit DTSweepConstraint(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint p1, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint p2) ;
 
 /// @brief Method .ctor addr 0x299ff7c size 0x70 virtual false final false
- void _ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint p1, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint p2) ;
+ void _ctor(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint p1, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint p2) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder::Poly2Tri
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint, "UnityEngine.ProBuilder.Poly2Tri", "DTSweepConstraint");
+NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint, "UnityEngine.ProBuilder.Poly2Tri", "DTSweepConstraint");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_1_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__TouchPhase_def.hpp"
-namespace {
 namespace UnityEngine::InputSystem {
 struct TouchPhase;
 }
@@ -13,10 +12,10 @@ class TouchPhaseControl;
 // Type: UnityEngine.InputSystem.Controls::TouchPhaseControl
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6299)), TypeDefinitionIndex(TypeDefinitionIndex(6370)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6299), inst: 3758 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6299), inst: 3758 }), TypeDefinitionIndex(TypeDefinitionIndex(6299)), TypeDefinitionIndex(TypeDefinitionIndex(6370))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6725))
 // CS Name: UnityEngine.InputSystem.Controls.TouchPhaseControl
-class CORDL_TYPE TouchPhaseControl : public ::UnityEngine::InputSystem::InputControl_1<::UnityEngine::InputSystem::TouchPhase> {
+class CORDL_TYPE TouchPhaseControl : public UnityEngine::InputSystem::InputControl_1<UnityEngine::InputSystem::TouchPhase> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr TouchPhaseControl(TouchPhaseControl const& ) noexcept = default;
 constexpr TouchPhaseControl(TouchPhaseControl&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TouchPhaseControl(void* ptr) noexcept : ::UnityEngine::InputSystem::InputControl_1<::UnityEngine::InputSystem::TouchPhase>(ptr) {
+constexpr explicit TouchPhaseControl(void* ptr) noexcept : UnityEngine::InputSystem::InputControl_1<UnityEngine::InputSystem::TouchPhase>(ptr) {
 }
 
 
@@ -59,15 +58,14 @@ explicit TouchPhaseControl() ;
  void _ctor() ;
 
 /// @brief Method ReadUnprocessedValueFromState addr 0x29792f0 size 0x28 virtual true final false
- ::UnityEngine::InputSystem::TouchPhase ReadUnprocessedValueFromState(void* statePtr) ;
+ UnityEngine::InputSystem::TouchPhase ReadUnprocessedValueFromState(void* statePtr) ;
 
 /// @brief Method WriteValueIntoState addr 0x2979318 size 0xc virtual true final false
- void WriteValueIntoState(::UnityEngine::InputSystem::TouchPhase value, void* statePtr) ;
+ void WriteValueIntoState(UnityEngine::InputSystem::TouchPhase value, void* statePtr) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Controls
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Controls::TouchPhaseControl);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Controls::TouchPhaseControl, "UnityEngine.InputSystem.Controls", "TouchPhaseControl");
+NEED_NO_BOX(UnityEngine::InputSystem::Controls::TouchPhaseControl);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Controls::TouchPhaseControl, "UnityEngine.InputSystem.Controls", "TouchPhaseControl");

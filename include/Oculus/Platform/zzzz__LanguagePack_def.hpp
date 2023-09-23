@@ -2,16 +2,15 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace Oculus::Platform {
-template<typename T>
-class Request_1;
-}
 namespace Oculus::Platform::Models {
 class AssetFileDownloadResult;
 }
 namespace Oculus::Platform::Models {
 class AssetDetails;
+}
+namespace Oculus::Platform {
+template<typename T>
+class Request_1;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -60,15 +59,14 @@ constexpr explicit LanguagePack(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 // Methods
 
 /// @brief Method GetCurrent addr 0x2595fe8 size 0x15c virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetDetails> GetCurrent() ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::AssetDetails> GetCurrent() ;
 
 /// @brief Method SetCurrent addr 0x2596144 size 0x164 virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDownloadResult> SetCurrent(::StringW tag) ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::AssetFileDownloadResult> SetCurrent(::StringW tag) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::LanguagePack);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::LanguagePack, "Oculus.Platform", "LanguagePack");
+NEED_NO_BOX(Oculus::Platform::LanguagePack);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::LanguagePack, "Oculus.Platform", "LanguagePack");

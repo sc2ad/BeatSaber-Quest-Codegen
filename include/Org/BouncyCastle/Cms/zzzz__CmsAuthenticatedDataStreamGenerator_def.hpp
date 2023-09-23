@@ -5,13 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Crypto {
 class CipherKeyGenerator;
 }
@@ -21,8 +14,14 @@ class AlgorithmIdentifier;
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
+namespace System::IO {
+class Stream;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1EncodableVector;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto {
 class IMac;
@@ -35,7 +34,7 @@ namespace Org::BouncyCastle::Cms {
 class CmsAuthenticatedDataStreamGenerator;
 }
 namespace Org::BouncyCastle::Cms {
-class ____Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream;
+class Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream;
 }
 // Type: ::CmsAuthenticatedDataOutputStream
 namespace Org::BouncyCastle::Cms {
@@ -43,80 +42,80 @@ namespace Org::BouncyCastle::Cms {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(484))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(622))
 // CS Name: Org.BouncyCastle.Cms.CmsAuthenticatedDataStreamGenerator::CmsAuthenticatedDataOutputStream
-class CORDL_TYPE ____Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream : public ::Org::BouncyCastle::Utilities::IO::BaseOutputStream {
+class CORDL_TYPE Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream : public Org::BouncyCastle::Utilities::IO::BaseOutputStream {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x58};
 
-virtual ~____Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream() = default;
+virtual ~Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream", modifiers: " const&", def_value: None }]
-constexpr ____Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream(____Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream", modifiers: " const&", def_value: None }]
+constexpr Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream(Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream", modifiers: "&&", def_value: None }]
-constexpr ____Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream(____Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream", modifiers: "&&", def_value: None }]
+constexpr Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream(Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream(void* ptr) noexcept : ::Org::BouncyCastle::Utilities::IO::BaseOutputStream(ptr) {
+constexpr explicit Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream(void* ptr) noexcept : Org::BouncyCastle::Utilities::IO::BaseOutputStream(ptr) {
 }
 
 
-  constexpr ____Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream& operator=(std::nullptr_t) noexcept {
+  constexpr Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream& operator=(void* o) noexcept {
+  constexpr Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream& operator=(____Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream&& o) noexcept = default;
-  constexpr ____Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream& operator=(____Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream const& o) noexcept = default;
+  constexpr Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream& operator=(Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream&& o) noexcept = default;
+  constexpr Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream& operator=(Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::IO::Stream __declspec(property(get=__get_macStream, put=__set_macStream))  macStream;
+ System::IO::Stream __declspec(property(get=__get_macStream, put=__set_macStream))  macStream;
 
-constexpr void __set_macStream(::System::IO::Stream value) ;
+constexpr void __set_macStream(System::IO::Stream value) ;
 
-constexpr ::System::IO::Stream __get_macStream() const;
+constexpr System::IO::Stream __get_macStream() const;
 
- ::Org::BouncyCastle::Crypto::IMac __declspec(property(get=__get_mac, put=__set_mac))  mac;
+ Org::BouncyCastle::Crypto::IMac __declspec(property(get=__get_mac, put=__set_mac))  mac;
 
-constexpr void __set_mac(::Org::BouncyCastle::Crypto::IMac value) ;
+constexpr void __set_mac(Org::BouncyCastle::Crypto::IMac value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IMac __get_mac() const;
+constexpr Org::BouncyCastle::Crypto::IMac __get_mac() const;
 
- ::Org::BouncyCastle::Asn1::BerSequenceGenerator __declspec(property(get=__get_cGen, put=__set_cGen))  cGen;
+ Org::BouncyCastle::Asn1::BerSequenceGenerator __declspec(property(get=__get_cGen, put=__set_cGen))  cGen;
 
-constexpr void __set_cGen(::Org::BouncyCastle::Asn1::BerSequenceGenerator value) ;
+constexpr void __set_cGen(Org::BouncyCastle::Asn1::BerSequenceGenerator value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::BerSequenceGenerator __get_cGen() const;
+constexpr Org::BouncyCastle::Asn1::BerSequenceGenerator __get_cGen() const;
 
- ::Org::BouncyCastle::Asn1::BerSequenceGenerator __declspec(property(get=__get_authGen, put=__set_authGen))  authGen;
+ Org::BouncyCastle::Asn1::BerSequenceGenerator __declspec(property(get=__get_authGen, put=__set_authGen))  authGen;
 
-constexpr void __set_authGen(::Org::BouncyCastle::Asn1::BerSequenceGenerator value) ;
+constexpr void __set_authGen(Org::BouncyCastle::Asn1::BerSequenceGenerator value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::BerSequenceGenerator __get_authGen() const;
+constexpr Org::BouncyCastle::Asn1::BerSequenceGenerator __get_authGen() const;
 
- ::Org::BouncyCastle::Asn1::BerSequenceGenerator __declspec(property(get=__get_eiGen, put=__set_eiGen))  eiGen;
+ Org::BouncyCastle::Asn1::BerSequenceGenerator __declspec(property(get=__get_eiGen, put=__set_eiGen))  eiGen;
 
-constexpr void __set_eiGen(::Org::BouncyCastle::Asn1::BerSequenceGenerator value) ;
+constexpr void __set_eiGen(Org::BouncyCastle::Asn1::BerSequenceGenerator value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::BerSequenceGenerator __get_eiGen() const;
+constexpr Org::BouncyCastle::Asn1::BerSequenceGenerator __get_eiGen() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "macStream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "mac", ty: "::Org::BouncyCastle::Crypto::IMac", modifiers: "", def_value: None }, CppParam { name: "cGen", ty: "::Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }, CppParam { name: "authGen", ty: "::Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }, CppParam { name: "eiGen", ty: "::Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }]
-explicit ____Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream(::System::IO::Stream macStream, ::Org::BouncyCastle::Crypto::IMac mac, ::Org::BouncyCastle::Asn1::BerSequenceGenerator cGen, ::Org::BouncyCastle::Asn1::BerSequenceGenerator authGen, ::Org::BouncyCastle::Asn1::BerSequenceGenerator eiGen) ;
+// Ctor Parameters [CppParam { name: "macStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "mac", ty: "Org::BouncyCastle::Crypto::IMac", modifiers: "", def_value: None }, CppParam { name: "cGen", ty: "Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }, CppParam { name: "authGen", ty: "Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }, CppParam { name: "eiGen", ty: "Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }]
+explicit Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream(System::IO::Stream macStream, Org::BouncyCastle::Crypto::IMac mac, Org::BouncyCastle::Asn1::BerSequenceGenerator cGen, Org::BouncyCastle::Asn1::BerSequenceGenerator authGen, Org::BouncyCastle::Asn1::BerSequenceGenerator eiGen) ;
 
 /// @brief Method .ctor addr 0x1151e18 size 0x50 virtual false final false
- void _ctor(::System::IO::Stream macStream, ::Org::BouncyCastle::Crypto::IMac mac, ::Org::BouncyCastle::Asn1::BerSequenceGenerator cGen, ::Org::BouncyCastle::Asn1::BerSequenceGenerator authGen, ::Org::BouncyCastle::Asn1::BerSequenceGenerator eiGen) ;
+ void _ctor(System::IO::Stream macStream, Org::BouncyCastle::Crypto::IMac mac, Org::BouncyCastle::Asn1::BerSequenceGenerator cGen, Org::BouncyCastle::Asn1::BerSequenceGenerator authGen, Org::BouncyCastle::Asn1::BerSequenceGenerator eiGen) ;
 
 /// @brief Method WriteByte addr 0x1152024 size 0x24 virtual true final false
  void WriteByte(uint8_t b) ;
@@ -137,10 +136,10 @@ namespace Org::BouncyCastle::Cms {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(618))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(623))
 // CS Name: Org.BouncyCastle.Cms.CmsAuthenticatedDataStreamGenerator
-class CORDL_TYPE CmsAuthenticatedDataStreamGenerator : public ::Org::BouncyCastle::Cms::CmsAuthenticatedGenerator {
+class CORDL_TYPE CmsAuthenticatedDataStreamGenerator : public Org::BouncyCastle::Cms::CmsAuthenticatedGenerator {
 public:
 // Declarations
-using CmsAuthenticatedDataOutputStream = ::Org::BouncyCastle::Cms::____Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream;
+using CmsAuthenticatedDataOutputStream = Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -154,7 +153,7 @@ constexpr CmsAuthenticatedDataStreamGenerator(CmsAuthenticatedDataStreamGenerato
 constexpr CmsAuthenticatedDataStreamGenerator(CmsAuthenticatedDataStreamGenerator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CmsAuthenticatedDataStreamGenerator(void* ptr) noexcept : ::Org::BouncyCastle::Cms::CmsAuthenticatedGenerator(ptr) {
+constexpr explicit CmsAuthenticatedDataStreamGenerator(void* ptr) noexcept : Org::BouncyCastle::Cms::CmsAuthenticatedGenerator(ptr) {
 }
 
 
@@ -196,11 +195,11 @@ explicit CmsAuthenticatedDataStreamGenerator() ;
 /// @brief Method .ctor addr 0x1150f58 size 0x4 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "rand", ty: "::Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit CmsAuthenticatedDataStreamGenerator(::Org::BouncyCastle::Security::SecureRandom rand) ;
+// Ctor Parameters [CppParam { name: "rand", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
+explicit CmsAuthenticatedDataStreamGenerator(Org::BouncyCastle::Security::SecureRandom rand) ;
 
 /// @brief Method .ctor addr 0x1150f5c size 0x4 virtual false final false
- void _ctor(::Org::BouncyCastle::Security::SecureRandom rand) ;
+ void _ctor(Org::BouncyCastle::Security::SecureRandom rand) ;
 
 /// @brief Method SetBufferSize addr 0x1150f60 size 0x8 virtual false final false
  void SetBufferSize(int32_t bufferSize) ;
@@ -209,23 +208,22 @@ explicit CmsAuthenticatedDataStreamGenerator(::Org::BouncyCastle::Security::Secu
  void SetBerEncodeRecipients(bool berEncodeRecipientSet) ;
 
 /// @brief Method Open addr 0x1150f74 size 0x5f8 virtual false final false
- ::System::IO::Stream Open(::System::IO::Stream outStr, ::StringW macOid, ::Org::BouncyCastle::Crypto::CipherKeyGenerator keyGen) ;
+ System::IO::Stream Open(System::IO::Stream outStr, ::StringW macOid, Org::BouncyCastle::Crypto::CipherKeyGenerator keyGen) ;
 
 /// @brief Method Open addr 0x115156c size 0x8ac virtual false final false
- ::System::IO::Stream Open(::System::IO::Stream outStr, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier macAlgId, ::Org::BouncyCastle::Crypto::ICipherParameters cipherParameters, ::Org::BouncyCastle::Asn1::Asn1EncodableVector recipientInfos) ;
+ System::IO::Stream Open(System::IO::Stream outStr, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier macAlgId, Org::BouncyCastle::Crypto::ICipherParameters cipherParameters, Org::BouncyCastle::Asn1::Asn1EncodableVector recipientInfos) ;
 
 /// @brief Method Open addr 0x1151e68 size 0xdc virtual false final false
- ::System::IO::Stream Open(::System::IO::Stream outStr, ::StringW encryptionOid) ;
+ System::IO::Stream Open(System::IO::Stream outStr, ::StringW encryptionOid) ;
 
 /// @brief Method Open addr 0x1151f44 size 0xe0 virtual false final false
- ::System::IO::Stream Open(::System::IO::Stream outStr, ::StringW encryptionOid, int32_t keySize) ;
+ System::IO::Stream Open(System::IO::Stream outStr, ::StringW encryptionOid, int32_t keySize) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Cms
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Cms::CmsAuthenticatedDataStreamGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::CmsAuthenticatedDataStreamGenerator, "Org.BouncyCastle.Cms", "CmsAuthenticatedDataStreamGenerator");
-NEED_NO_BOX(::Org::BouncyCastle::Cms::____Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::____Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream, "Org.BouncyCastle.Cms", "CmsAuthenticatedDataStreamGenerator/CmsAuthenticatedDataOutputStream");
+NEED_NO_BOX(Org::BouncyCastle::Cms::CmsAuthenticatedDataStreamGenerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Cms::CmsAuthenticatedDataStreamGenerator, "Org.BouncyCastle.Cms", "CmsAuthenticatedDataStreamGenerator");
+NEED_NO_BOX(Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream, "Org.BouncyCastle.Cms", "CmsAuthenticatedDataStreamGenerator/CmsAuthenticatedDataOutputStream");

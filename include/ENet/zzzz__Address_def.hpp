@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace ENet {
 struct ENetAddress;
 }
@@ -20,8 +19,8 @@ namespace ENet {
 struct CORDL_TYPE Address : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "nativeAddress", ty: "::ENet::ENetAddress", modifiers: "", def_value: None }]
-constexpr Address(::ENet::ENetAddress nativeAddress) noexcept;
+// Ctor Parameters [CppParam { name: "nativeAddress", ty: "ENet::ENetAddress", modifiers: "", def_value: None }]
+constexpr Address(ENet::ENetAddress nativeAddress) noexcept;
 
 
                     constexpr Address(Address const&) = default;
@@ -54,16 +53,16 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::ENet::ENetAddress __declspec(property(get=__get_nativeAddress, put=__set_nativeAddress))  nativeAddress;
+ ENet::ENetAddress __declspec(property(get=__get_nativeAddress, put=__set_nativeAddress))  nativeAddress;
 
-constexpr void __set_nativeAddress(::ENet::ENetAddress value) ;
+constexpr void __set_nativeAddress(ENet::ENetAddress value) ;
 
-constexpr ::ENet::ENetAddress __get_nativeAddress() const;
+constexpr ENet::ENetAddress __get_nativeAddress() const;
 
 
 // Properties
 
- ::ENet::ENetAddress __declspec(property(get=get_NativeData, put=set_NativeData))  NativeData;
+ ENet::ENetAddress __declspec(property(get=get_NativeData, put=set_NativeData))  NativeData;
 
  uint16_t __declspec(property(get=get_Port, put=set_Port))  Port;
 
@@ -71,13 +70,13 @@ constexpr ::ENet::ENetAddress __get_nativeAddress() const;
 // Methods
 
 /// @brief Method get_NativeData addr 0x207ce9c size 0x14 virtual false final false
- ::ENet::ENetAddress get_NativeData() ;
+ ENet::ENetAddress get_NativeData() ;
 
 /// @brief Method set_NativeData addr 0x207ceb0 size 0x14 virtual false final false
- void set_NativeData(::ENet::ENetAddress value) ;
+ void set_NativeData(ENet::ENetAddress value) ;
 
 /// @brief Method .ctor addr 0x207cec4 size 0x14 virtual false final false
- void _ctor(::ENet::ENetAddress address) ;
+ void _ctor(ENet::ENetAddress address) ;
 
 /// @brief Method get_Port addr 0x207ced8 size 0x8 virtual false final false
  uint16_t get_Port() ;
@@ -101,5 +100,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def ENet
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::ENet::Address, "ENet", "Address");
+DEFINE_IL2CPP_ARG_TYPE(ENet::Address, "ENet", "Address");

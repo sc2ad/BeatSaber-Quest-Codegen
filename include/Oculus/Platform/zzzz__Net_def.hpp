@@ -3,26 +3,25 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform {
-struct SendPolicy;
+template<typename T>
+class Oculus__Platform__Message_1__Callback;
 }
 namespace Oculus::Platform::Models {
 class PingResult;
 }
+namespace Oculus::Platform::Models {
+class NetworkingPeer;
+}
 namespace Oculus::Platform {
-template<typename T>
-class Request_1;
+struct SendPolicy;
 }
 namespace Oculus::Platform {
 class Packet;
 }
 namespace Oculus::Platform {
 template<typename T>
-class ____Oculus__Platform__Message_1__Callback;
-}
-namespace Oculus::Platform::Models {
-class NetworkingPeer;
+class Request_1;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -71,10 +70,10 @@ constexpr explicit Net(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 // Methods
 
 /// @brief Method ReadPacket addr 0x2589f28 size 0x16c virtual false final false
-static ::Oculus::Platform::Packet ReadPacket() ;
+static Oculus::Platform::Packet ReadPacket() ;
 
 /// @brief Method SendPacket addr 0x258a094 size 0x128 virtual false final false
-static bool SendPacket(uint64_t userID, ::ArrayW<uint8_t> bytes, ::Oculus::Platform::SendPolicy policy) ;
+static bool SendPacket(uint64_t userID, ::ArrayW<uint8_t> bytes, Oculus::Platform::SendPolicy policy) ;
 
 /// @brief Method Connect addr 0x258a1bc size 0xc4 virtual false final false
 static void Connect(uint64_t userID) ;
@@ -89,7 +88,7 @@ static void Close(uint64_t userID) ;
 static bool IsConnected(uint64_t userID) ;
 
 /// @brief Method SendPacketToCurrentRoom addr 0x258a4d0 size 0x120 virtual false final false
-static bool SendPacketToCurrentRoom(::ArrayW<uint8_t> bytes, ::Oculus::Platform::SendPolicy policy) ;
+static bool SendPacketToCurrentRoom(::ArrayW<uint8_t> bytes, Oculus::Platform::SendPolicy policy) ;
 
 /// @brief Method AcceptForCurrentRoom addr 0x258a5f0 size 0xc0 virtual false final false
 static bool AcceptForCurrentRoom() ;
@@ -98,21 +97,20 @@ static bool AcceptForCurrentRoom() ;
 static void CloseForCurrentRoom() ;
 
 /// @brief Method Ping addr 0x258a76c size 0x160 virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PingResult> Ping(uint64_t userID) ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::PingResult> Ping(uint64_t userID) ;
 
 /// @brief Method SetConnectionStateChangedCallback addr 0x258a8cc size 0x74 virtual false final false
-static void SetConnectionStateChangedCallback(::Oculus::Platform::____Oculus__Platform__Message_1__Callback<::Oculus::Platform::Models::NetworkingPeer> callback) ;
+static void SetConnectionStateChangedCallback(Oculus::Platform::Oculus__Platform__Message_1__Callback<Oculus::Platform::Models::NetworkingPeer> callback) ;
 
 /// @brief Method SetPeerConnectRequestCallback addr 0x258a940 size 0x74 virtual false final false
-static void SetPeerConnectRequestCallback(::Oculus::Platform::____Oculus__Platform__Message_1__Callback<::Oculus::Platform::Models::NetworkingPeer> callback) ;
+static void SetPeerConnectRequestCallback(Oculus::Platform::Oculus__Platform__Message_1__Callback<Oculus::Platform::Models::NetworkingPeer> callback) ;
 
 /// @brief Method SetPingResultNotificationCallback addr 0x258a9b4 size 0x74 virtual false final false
-static void SetPingResultNotificationCallback(::Oculus::Platform::____Oculus__Platform__Message_1__Callback<::Oculus::Platform::Models::PingResult> callback) ;
+static void SetPingResultNotificationCallback(Oculus::Platform::Oculus__Platform__Message_1__Callback<Oculus::Platform::Models::PingResult> callback) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Net);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Net, "Oculus.Platform", "Net");
+NEED_NO_BOX(Oculus::Platform::Net);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Net, "Oculus.Platform", "Net");

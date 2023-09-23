@@ -3,21 +3,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace System::Collections {
+class Hashtable;
+}
 namespace System::Xml {
 class XmlQualifiedName;
+}
+namespace System::Collections {
+class ArrayList;
 }
 namespace System::Xml::Schema {
 class NamespaceList;
 }
 namespace System::Collections {
 class ICollection;
-}
-namespace System::Collections {
-class ArrayList;
-}
-namespace System::Collections {
-class Hashtable;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -71,23 +70,23 @@ constexpr void __set_last(int32_t value) ;
 
 constexpr int32_t __get_last() const;
 
- ::System::Collections::Hashtable __declspec(property(get=__get_names, put=__set_names))  names;
+ System::Collections::Hashtable __declspec(property(get=__get_names, put=__set_names))  names;
 
-constexpr void __set_names(::System::Collections::Hashtable value) ;
+constexpr void __set_names(System::Collections::Hashtable value) ;
 
-constexpr ::System::Collections::Hashtable __get_names() const;
+constexpr System::Collections::Hashtable __get_names() const;
 
- ::System::Collections::Hashtable __declspec(property(get=__get_wildcards, put=__set_wildcards))  wildcards;
+ System::Collections::Hashtable __declspec(property(get=__get_wildcards, put=__set_wildcards))  wildcards;
 
-constexpr void __set_wildcards(::System::Collections::Hashtable value) ;
+constexpr void __set_wildcards(System::Collections::Hashtable value) ;
 
-constexpr ::System::Collections::Hashtable __get_wildcards() const;
+constexpr System::Collections::Hashtable __get_wildcards() const;
 
- ::System::Collections::ArrayList __declspec(property(get=__get_particles, put=__set_particles))  particles;
+ System::Collections::ArrayList __declspec(property(get=__get_particles, put=__set_particles))  particles;
 
-constexpr void __set_particles(::System::Collections::ArrayList value) ;
+constexpr void __set_particles(System::Collections::ArrayList value) ;
 
-constexpr ::System::Collections::ArrayList __get_particles() const;
+constexpr System::Collections::ArrayList __get_particles() const;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=__get_particleLast, put=__set_particleLast))  particleLast;
 
@@ -127,19 +126,19 @@ explicit SymbolsDictionary() ;
  void set_IsUpaEnforced(bool value) ;
 
 /// @brief Method AddName addr 0x2719278 size 0x134 virtual false final false
- int32_t AddName(::System::Xml::XmlQualifiedName name, ::bs_hook::Il2CppWrapperType particle) ;
+ int32_t AddName(System::Xml::XmlQualifiedName name, ::bs_hook::Il2CppWrapperType particle) ;
 
 /// @brief Method AddNamespaceList addr 0x27193ac size 0x39c virtual false final false
- void AddNamespaceList(::System::Xml::Schema::NamespaceList list, ::bs_hook::Il2CppWrapperType particle, bool allowLocal) ;
+ void AddNamespaceList(System::Xml::Schema::NamespaceList list, ::bs_hook::Il2CppWrapperType particle, bool allowLocal) ;
 
 /// @brief Method AddWildcard addr 0x2719748 size 0x168 virtual false final false
  void AddWildcard(::StringW wildcard, ::bs_hook::Il2CppWrapperType particle) ;
 
 /// @brief Method GetNamespaceListSymbols addr 0x27198b0 size 0x78c virtual false final false
- ::System::Collections::ICollection GetNamespaceListSymbols(::System::Xml::Schema::NamespaceList list) ;
+ System::Collections::ICollection GetNamespaceListSymbols(System::Xml::Schema::NamespaceList list) ;
 
 /// @brief Method Exists addr 0x271a03c size 0x30 virtual false final false
- bool Exists(::System::Xml::XmlQualifiedName name) ;
+ bool Exists(System::Xml::XmlQualifiedName name) ;
 
 /// @brief Method GetParticle addr 0x271a06c size 0x3c virtual false final false
  ::bs_hook::Il2CppWrapperType GetParticle(int32_t symbol) ;
@@ -148,6 +147,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::SymbolsDictionary);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::SymbolsDictionary, "System.Xml.Schema", "SymbolsDictionary");
+NEED_NO_BOX(System::Xml::Schema::SymbolsDictionary);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::SymbolsDictionary, "System.Xml.Schema", "SymbolsDictionary");

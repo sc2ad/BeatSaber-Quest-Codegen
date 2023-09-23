@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine::InputSystem {
 struct InputBindingCompositeContext;
 }
@@ -15,10 +14,10 @@ class ButtonWithTwoModifiers;
 // Type: UnityEngine.InputSystem.Composites::ButtonWithTwoModifiers
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6273), inst: 374 }), TypeDefinitionIndex(TypeDefinitionIndex(6273))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6273)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6273), inst: 374 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6799))
 // CS Name: UnityEngine.InputSystem.Composites.ButtonWithTwoModifiers
-class CORDL_TYPE ButtonWithTwoModifiers : public ::UnityEngine::InputSystem::InputBindingComposite_1<float_t> {
+class CORDL_TYPE ButtonWithTwoModifiers : public UnityEngine::InputSystem::InputBindingComposite_1<float_t> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr ButtonWithTwoModifiers(ButtonWithTwoModifiers const& ) noexcept = defa
 constexpr ButtonWithTwoModifiers(ButtonWithTwoModifiers&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ButtonWithTwoModifiers(void* ptr) noexcept : ::UnityEngine::InputSystem::InputBindingComposite_1<float_t>(ptr) {
+constexpr explicit ButtonWithTwoModifiers(void* ptr) noexcept : UnityEngine::InputSystem::InputBindingComposite_1<float_t>(ptr) {
 }
 
 
@@ -82,16 +81,16 @@ constexpr bool __get_overrideModifiersNeedToBePressedFirst() const;
 // Methods
 
 /// @brief Method ReadValue addr 0x28c84f4 size 0x70 virtual true final false
- float_t ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context) ;
+ float_t ReadValue(ByRef<UnityEngine::InputSystem::InputBindingCompositeContext> context) ;
 
 /// @brief Method ModifiersArePressed addr 0x28c8564 size 0xb4 virtual false final false
- bool ModifiersArePressed(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context) ;
+ bool ModifiersArePressed(ByRef<UnityEngine::InputSystem::InputBindingCompositeContext> context) ;
 
 /// @brief Method EvaluateMagnitude addr 0x28c8618 size 0xc virtual true final false
- float_t EvaluateMagnitude(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context) ;
+ float_t EvaluateMagnitude(ByRef<UnityEngine::InputSystem::InputBindingCompositeContext> context) ;
 
 /// @brief Method FinishSetup addr 0x28c8624 size 0x90 virtual true final false
- void FinishSetup(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context) ;
+ void FinishSetup(ByRef<UnityEngine::InputSystem::InputBindingCompositeContext> context) ;
 
 // Ctor Parameters []
 explicit ButtonWithTwoModifiers() ;
@@ -103,6 +102,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Composites
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers, "UnityEngine.InputSystem.Composites", "ButtonWithTwoModifiers");
+NEED_NO_BOX(UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers, "UnityEngine.InputSystem.Composites", "ButtonWithTwoModifiers");

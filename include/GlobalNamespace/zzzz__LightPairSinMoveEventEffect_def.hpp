@@ -4,34 +4,33 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-class BeatmapCallbacksController;
-}
-namespace GlobalNamespace {
-struct BasicBeatmapEventType;
-}
-namespace GlobalNamespace {
-class BasicBeatmapEventData;
+namespace UnityEngine {
+class Transform;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace GlobalNamespace {
+class IAudioTimeSource;
+}
+namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
-class IAudioTimeSource;
+struct BasicBeatmapEventType;
 }
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
+}
+namespace GlobalNamespace {
+class BasicBeatmapEventData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-class LightPairSinMoveEventEffect;
+class GlobalNamespace__LightPairSinMoveEventEffect__MovementData;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__LightPairSinMoveEventEffect__MovementData;
+class LightPairSinMoveEventEffect;
 }
 // Type: ::MovementData
 namespace GlobalNamespace {
@@ -39,37 +38,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5051))
 // CS Name: LightPairSinMoveEventEffect::MovementData
-class CORDL_TYPE ____GlobalNamespace__LightPairSinMoveEventEffect__MovementData : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__LightPairSinMoveEventEffect__MovementData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
 
-virtual ~____GlobalNamespace__LightPairSinMoveEventEffect__MovementData() = default;
+virtual ~GlobalNamespace__LightPairSinMoveEventEffect__MovementData() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__LightPairSinMoveEventEffect__MovementData", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__LightPairSinMoveEventEffect__MovementData(____GlobalNamespace__LightPairSinMoveEventEffect__MovementData const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__LightPairSinMoveEventEffect__MovementData", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__LightPairSinMoveEventEffect__MovementData(GlobalNamespace__LightPairSinMoveEventEffect__MovementData const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__LightPairSinMoveEventEffect__MovementData", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__LightPairSinMoveEventEffect__MovementData(____GlobalNamespace__LightPairSinMoveEventEffect__MovementData&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__LightPairSinMoveEventEffect__MovementData", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__LightPairSinMoveEventEffect__MovementData(GlobalNamespace__LightPairSinMoveEventEffect__MovementData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__LightPairSinMoveEventEffect__MovementData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__LightPairSinMoveEventEffect__MovementData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__LightPairSinMoveEventEffect__MovementData& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__LightPairSinMoveEventEffect__MovementData& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__LightPairSinMoveEventEffect__MovementData& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__LightPairSinMoveEventEffect__MovementData& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__LightPairSinMoveEventEffect__MovementData& operator=(____GlobalNamespace__LightPairSinMoveEventEffect__MovementData&& o) noexcept = default;
-  constexpr ____GlobalNamespace__LightPairSinMoveEventEffect__MovementData& operator=(____GlobalNamespace__LightPairSinMoveEventEffect__MovementData const& o) noexcept = default;
+  constexpr GlobalNamespace__LightPairSinMoveEventEffect__MovementData& operator=(GlobalNamespace__LightPairSinMoveEventEffect__MovementData&& o) noexcept = default;
+  constexpr GlobalNamespace__LightPairSinMoveEventEffect__MovementData& operator=(GlobalNamespace__LightPairSinMoveEventEffect__MovementData const& o) noexcept = default;
                 
 
 
@@ -87,17 +86,17 @@ constexpr void __set_speed(float_t value) ;
 
 constexpr float_t __get_speed() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_startPosition, put=__set_startPosition))  startPosition;
+ UnityEngine::Vector3 __declspec(property(get=__get_startPosition, put=__set_startPosition))  startPosition;
 
-constexpr void __set_startPosition(::UnityEngine::Vector3 value) ;
+constexpr void __set_startPosition(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_startPosition() const;
+constexpr UnityEngine::Vector3 __get_startPosition() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_transform, put=__set_transform))  transform;
+ UnityEngine::Transform __declspec(property(get=__get_transform, put=__set_transform))  transform;
 
-constexpr void __set_transform(::UnityEngine::Transform value) ;
+constexpr void __set_transform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_transform() const;
+constexpr UnityEngine::Transform __get_transform() const;
 
  float_t __declspec(property(get=__get_startMovementValue, put=__set_startMovementValue))  startMovementValue;
 
@@ -121,7 +120,7 @@ constexpr float_t __get_side() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__LightPairSinMoveEventEffect__MovementData() ;
+explicit GlobalNamespace__LightPairSinMoveEventEffect__MovementData() ;
 
 /// @brief Method .ctor addr 0x2263390 size 0x8 virtual false final false
  void _ctor() ;
@@ -136,10 +135,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5052))
 // CS Name: LightPairSinMoveEventEffect
-class CORDL_TYPE LightPairSinMoveEventEffect : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE LightPairSinMoveEventEffect : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using MovementData = ::GlobalNamespace::____GlobalNamespace__LightPairSinMoveEventEffect__MovementData;
+using MovementData = GlobalNamespace::GlobalNamespace__LightPairSinMoveEventEffect__MovementData;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x88};
@@ -153,7 +152,7 @@ constexpr LightPairSinMoveEventEffect(LightPairSinMoveEventEffect const& ) noexc
 constexpr LightPairSinMoveEventEffect(LightPairSinMoveEventEffect&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LightPairSinMoveEventEffect(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit LightPairSinMoveEventEffect(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -174,23 +173,23 @@ constexpr explicit LightPairSinMoveEventEffect(void* ptr) noexcept : ::UnityEngi
 
 // Fields
 
- ::GlobalNamespace::BasicBeatmapEventType __declspec(property(get=__get__eventL, put=__set__eventL))  _eventL;
+ GlobalNamespace::BasicBeatmapEventType __declspec(property(get=__get__eventL, put=__set__eventL))  _eventL;
 
-constexpr void __set__eventL(::GlobalNamespace::BasicBeatmapEventType value) ;
+constexpr void __set__eventL(GlobalNamespace::BasicBeatmapEventType value) ;
 
-constexpr ::GlobalNamespace::BasicBeatmapEventType __get__eventL() const;
+constexpr GlobalNamespace::BasicBeatmapEventType __get__eventL() const;
 
- ::GlobalNamespace::BasicBeatmapEventType __declspec(property(get=__get__eventR, put=__set__eventR))  _eventR;
+ GlobalNamespace::BasicBeatmapEventType __declspec(property(get=__get__eventR, put=__set__eventR))  _eventR;
 
-constexpr void __set__eventR(::GlobalNamespace::BasicBeatmapEventType value) ;
+constexpr void __set__eventR(GlobalNamespace::BasicBeatmapEventType value) ;
 
-constexpr ::GlobalNamespace::BasicBeatmapEventType __get__eventR() const;
+constexpr GlobalNamespace::BasicBeatmapEventType __get__eventR() const;
 
- ::GlobalNamespace::BasicBeatmapEventType __declspec(property(get=__get__switchOverrideRandomValuesEvent, put=__set__switchOverrideRandomValuesEvent))  _switchOverrideRandomValuesEvent;
+ GlobalNamespace::BasicBeatmapEventType __declspec(property(get=__get__switchOverrideRandomValuesEvent, put=__set__switchOverrideRandomValuesEvent))  _switchOverrideRandomValuesEvent;
 
-constexpr void __set__switchOverrideRandomValuesEvent(::GlobalNamespace::BasicBeatmapEventType value) ;
+constexpr void __set__switchOverrideRandomValuesEvent(GlobalNamespace::BasicBeatmapEventType value) ;
 
-constexpr ::GlobalNamespace::BasicBeatmapEventType __get__switchOverrideRandomValuesEvent() const;
+constexpr GlobalNamespace::BasicBeatmapEventType __get__switchOverrideRandomValuesEvent() const;
 
  bool __declspec(property(get=__get__overrideRandomValues, put=__set__overrideRandomValues))  _overrideRandomValues;
 
@@ -204,56 +203,56 @@ constexpr void __set__startValueOffset(float_t value) ;
 
 constexpr float_t __get__startValueOffset() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__startPositionOffset, put=__set__startPositionOffset))  _startPositionOffset;
+ UnityEngine::Vector3 __declspec(property(get=__get__startPositionOffset, put=__set__startPositionOffset))  _startPositionOffset;
 
-constexpr void __set__startPositionOffset(::UnityEngine::Vector3 value) ;
+constexpr void __set__startPositionOffset(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__startPositionOffset() const;
+constexpr UnityEngine::Vector3 __get__startPositionOffset() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__endPositionOffset, put=__set__endPositionOffset))  _endPositionOffset;
+ UnityEngine::Vector3 __declspec(property(get=__get__endPositionOffset, put=__set__endPositionOffset))  _endPositionOffset;
 
-constexpr void __set__endPositionOffset(::UnityEngine::Vector3 value) ;
+constexpr void __set__endPositionOffset(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__endPositionOffset() const;
+constexpr UnityEngine::Vector3 __get__endPositionOffset() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__transformL, put=__set__transformL))  _transformL;
+ UnityEngine::Transform __declspec(property(get=__get__transformL, put=__set__transformL))  _transformL;
 
-constexpr void __set__transformL(::UnityEngine::Transform value) ;
+constexpr void __set__transformL(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__transformL() const;
+constexpr UnityEngine::Transform __get__transformL() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__transformR, put=__set__transformR))  _transformR;
+ UnityEngine::Transform __declspec(property(get=__get__transformR, put=__set__transformR))  _transformR;
 
-constexpr void __set__transformR(::UnityEngine::Transform value) ;
+constexpr void __set__transformR(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__transformR() const;
+constexpr UnityEngine::Transform __get__transformR() const;
 
- ::GlobalNamespace::BeatmapCallbacksController __declspec(property(get=__get__beatmapCallbacksController, put=__set__beatmapCallbacksController))  _beatmapCallbacksController;
+ GlobalNamespace::BeatmapCallbacksController __declspec(property(get=__get__beatmapCallbacksController, put=__set__beatmapCallbacksController))  _beatmapCallbacksController;
 
-constexpr void __set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController value) ;
+constexpr void __set__beatmapCallbacksController(GlobalNamespace::BeatmapCallbacksController value) ;
 
-constexpr ::GlobalNamespace::BeatmapCallbacksController __get__beatmapCallbacksController() const;
+constexpr GlobalNamespace::BeatmapCallbacksController __get__beatmapCallbacksController() const;
 
- ::GlobalNamespace::IAudioTimeSource __declspec(property(get=__get__audioTimeSource, put=__set__audioTimeSource))  _audioTimeSource;
+ GlobalNamespace::IAudioTimeSource __declspec(property(get=__get__audioTimeSource, put=__set__audioTimeSource))  _audioTimeSource;
 
-constexpr void __set__audioTimeSource(::GlobalNamespace::IAudioTimeSource value) ;
+constexpr void __set__audioTimeSource(GlobalNamespace::IAudioTimeSource value) ;
 
-constexpr ::GlobalNamespace::IAudioTimeSource __get__audioTimeSource() const;
+constexpr GlobalNamespace::IAudioTimeSource __get__audioTimeSource() const;
 
 /// @brief Field kSpeedMultiplier offset 0
 static constexpr float_t  kSpeedMultiplier{1};
 
- ::GlobalNamespace::____GlobalNamespace__LightPairSinMoveEventEffect__MovementData __declspec(property(get=__get__movementDataL, put=__set__movementDataL))  _movementDataL;
+ GlobalNamespace::GlobalNamespace__LightPairSinMoveEventEffect__MovementData __declspec(property(get=__get__movementDataL, put=__set__movementDataL))  _movementDataL;
 
-constexpr void __set__movementDataL(::GlobalNamespace::____GlobalNamespace__LightPairSinMoveEventEffect__MovementData value) ;
+constexpr void __set__movementDataL(GlobalNamespace::GlobalNamespace__LightPairSinMoveEventEffect__MovementData value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__LightPairSinMoveEventEffect__MovementData __get__movementDataL() const;
+constexpr GlobalNamespace::GlobalNamespace__LightPairSinMoveEventEffect__MovementData __get__movementDataL() const;
 
- ::GlobalNamespace::____GlobalNamespace__LightPairSinMoveEventEffect__MovementData __declspec(property(get=__get__movementDataR, put=__set__movementDataR))  _movementDataR;
+ GlobalNamespace::GlobalNamespace__LightPairSinMoveEventEffect__MovementData __declspec(property(get=__get__movementDataR, put=__set__movementDataR))  _movementDataR;
 
-constexpr void __set__movementDataR(::GlobalNamespace::____GlobalNamespace__LightPairSinMoveEventEffect__MovementData value) ;
+constexpr void __set__movementDataR(GlobalNamespace::GlobalNamespace__LightPairSinMoveEventEffect__MovementData value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__LightPairSinMoveEventEffect__MovementData __get__movementDataR() const;
+constexpr GlobalNamespace::GlobalNamespace__LightPairSinMoveEventEffect__MovementData __get__movementDataR() const;
 
  int32_t __declspec(property(get=__get__randomGenerationFrameNum, put=__set__randomGenerationFrameNum))  _randomGenerationFrameNum;
 
@@ -267,11 +266,11 @@ constexpr void __set__randomStartOffset(float_t value) ;
 
 constexpr float_t __get__randomStartOffset() const;
 
- ::GlobalNamespace::BeatmapDataCallbackWrapper __declspec(property(get=__get__beatmapDataCallbackWrapper, put=__set__beatmapDataCallbackWrapper))  _beatmapDataCallbackWrapper;
+ GlobalNamespace::BeatmapDataCallbackWrapper __declspec(property(get=__get__beatmapDataCallbackWrapper, put=__set__beatmapDataCallbackWrapper))  _beatmapDataCallbackWrapper;
 
-constexpr void __set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper value) ;
+constexpr void __set__beatmapDataCallbackWrapper(GlobalNamespace::BeatmapDataCallbackWrapper value) ;
 
-constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallbackWrapper() const;
+constexpr GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallbackWrapper() const;
 
 
 // Methods
@@ -286,10 +285,10 @@ constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallba
  void OnDestroy() ;
 
 /// @brief Method HandleBeatmapEvent addr 0x22620d4 size 0x15c virtual false final false
- void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData basicBeatmapEventData) ;
+ void HandleBeatmapEvent(GlobalNamespace::BasicBeatmapEventData basicBeatmapEventData) ;
 
 /// @brief Method UpdateMovementData addr 0x2262230 size 0x138 virtual false final false
- void UpdateMovementData(int32_t beatmapEventDataValue, ::GlobalNamespace::____GlobalNamespace__LightPairSinMoveEventEffect__MovementData movementData, float_t movementValueOffset) ;
+ void UpdateMovementData(int32_t beatmapEventDataValue, GlobalNamespace::GlobalNamespace__LightPairSinMoveEventEffect__MovementData movementData, float_t movementValueOffset) ;
 
 // Ctor Parameters []
 explicit LightPairSinMoveEventEffect() ;
@@ -301,8 +300,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LightPairSinMoveEventEffect);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightPairSinMoveEventEffect, "", "LightPairSinMoveEventEffect");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__LightPairSinMoveEventEffect__MovementData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__LightPairSinMoveEventEffect__MovementData, "", "LightPairSinMoveEventEffect/MovementData");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__LightPairSinMoveEventEffect__MovementData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__LightPairSinMoveEventEffect__MovementData, "", "LightPairSinMoveEventEffect/MovementData");
+NEED_NO_BOX(GlobalNamespace::LightPairSinMoveEventEffect);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightPairSinMoveEventEffect, "", "LightPairSinMoveEventEffect");

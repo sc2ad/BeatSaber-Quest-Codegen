@@ -3,7 +3,6 @@
 #include "Org/BouncyCastle/Crypto/zzzz__CipherKeyGenerator_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class KeyGenerationParameters;
 }
@@ -17,7 +16,7 @@ namespace Org::BouncyCastle::Crypto::Generators {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(888))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(921))
 // CS Name: Org.BouncyCastle.Crypto.Generators.Poly1305KeyGenerator
-class CORDL_TYPE Poly1305KeyGenerator : public ::Org::BouncyCastle::Crypto::CipherKeyGenerator {
+class CORDL_TYPE Poly1305KeyGenerator : public Org::BouncyCastle::Crypto::CipherKeyGenerator {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr Poly1305KeyGenerator(Poly1305KeyGenerator const& ) noexcept = default;
 constexpr Poly1305KeyGenerator(Poly1305KeyGenerator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Poly1305KeyGenerator(void* ptr) noexcept : ::Org::BouncyCastle::Crypto::CipherKeyGenerator(ptr) {
+constexpr explicit Poly1305KeyGenerator(void* ptr) noexcept : Org::BouncyCastle::Crypto::CipherKeyGenerator(ptr) {
 }
 
 
@@ -63,7 +62,7 @@ static constexpr uint8_t  R_MASK_HIGH_4{15u};
 // Methods
 
 /// @brief Method engineInit addr 0xe7941c size 0x24 virtual true final false
- void engineInit(::Org::BouncyCastle::Crypto::KeyGenerationParameters param) ;
+ void engineInit(Org::BouncyCastle::Crypto::KeyGenerationParameters param) ;
 
 /// @brief Method engineGenerateKey addr 0xe79440 size 0x1c virtual true final false
  ::ArrayW<uint8_t> engineGenerateKey() ;
@@ -87,6 +86,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Generators
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Generators::Poly1305KeyGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Generators::Poly1305KeyGenerator, "Org.BouncyCastle.Crypto.Generators", "Poly1305KeyGenerator");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Generators::Poly1305KeyGenerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::Poly1305KeyGenerator, "Org.BouncyCastle.Crypto.Generators", "Poly1305KeyGenerator");

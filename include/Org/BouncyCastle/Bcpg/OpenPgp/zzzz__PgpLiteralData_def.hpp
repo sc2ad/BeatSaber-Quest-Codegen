@@ -4,18 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Bcpg {
+class LiteralDataPacket;
 }
 namespace System {
 struct DateTime;
 }
-namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::Bcpg {
-class LiteralDataPacket;
+class BcpgInputStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -27,7 +26,7 @@ namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1628))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1650))
 // CS Name: Org.BouncyCastle.Bcpg.OpenPgp.PgpLiteralData
-class CORDL_TYPE PgpLiteralData : public ::Org::BouncyCastle::Bcpg::OpenPgp::PgpObject {
+class CORDL_TYPE PgpLiteralData : public Org::BouncyCastle::Bcpg::OpenPgp::PgpObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -42,7 +41,7 @@ constexpr PgpLiteralData(PgpLiteralData const& ) noexcept = default;
 constexpr PgpLiteralData(PgpLiteralData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PgpLiteralData(void* ptr) noexcept : ::Org::BouncyCastle::Bcpg::OpenPgp::PgpObject(ptr) {
+constexpr explicit PgpLiteralData(void* ptr) noexcept : Org::BouncyCastle::Bcpg::OpenPgp::PgpObject(ptr) {
 }
 
 
@@ -75,11 +74,11 @@ static constexpr char16_t  Utf8{u};
 /// @brief Field Console offset 0
 static constexpr ::ConstString  Console{u"_CONSOLE"};
 
- ::Org::BouncyCastle::Bcpg::LiteralDataPacket __declspec(property(get=__get_data, put=__set_data))  data;
+ Org::BouncyCastle::Bcpg::LiteralDataPacket __declspec(property(get=__get_data, put=__set_data))  data;
 
-constexpr void __set_data(::Org::BouncyCastle::Bcpg::LiteralDataPacket value) ;
+constexpr void __set_data(Org::BouncyCastle::Bcpg::LiteralDataPacket value) ;
 
-constexpr ::Org::BouncyCastle::Bcpg::LiteralDataPacket __get_data() const;
+constexpr Org::BouncyCastle::Bcpg::LiteralDataPacket __get_data() const;
 
 
 // Properties
@@ -88,16 +87,16 @@ constexpr ::Org::BouncyCastle::Bcpg::LiteralDataPacket __get_data() const;
 
  ::StringW __declspec(property(get=get_FileName))  FileName;
 
- ::System::DateTime __declspec(property(get=get_ModificationTime))  ModificationTime;
+ System::DateTime __declspec(property(get=get_ModificationTime))  ModificationTime;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bcpgInput", ty: "::Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
-explicit PgpLiteralData(::Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput) ;
+// Ctor Parameters [CppParam { name: "bcpgInput", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
+explicit PgpLiteralData(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput) ;
 
 /// @brief Method .ctor addr 0x1023d80 size 0x120 virtual false final false
- void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput) ;
+ void _ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput) ;
 
 /// @brief Method get_Format addr 0x1023ea0 size 0x1c virtual false final false
  int32_t get_Format() ;
@@ -109,18 +108,17 @@ explicit PgpLiteralData(::Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput) ;
  ::ArrayW<uint8_t> GetRawFileName() ;
 
 /// @brief Method get_ModificationTime addr 0x1023ef4 size 0x68 virtual false final false
- ::System::DateTime get_ModificationTime() ;
+ System::DateTime get_ModificationTime() ;
 
 /// @brief Method GetInputStream addr 0x1023f5c size 0x1c virtual false final false
- ::System::IO::Stream GetInputStream() ;
+ System::IO::Stream GetInputStream() ;
 
 /// @brief Method GetDataStream addr 0x1023f78 size 0x1c virtual false final false
- ::System::IO::Stream GetDataStream() ;
+ System::IO::Stream GetDataStream() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg::OpenPgp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralData);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralData, "Org.BouncyCastle.Bcpg.OpenPgp", "PgpLiteralData");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralData);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralData, "Org.BouncyCastle.Bcpg.OpenPgp", "PgpLiteralData");

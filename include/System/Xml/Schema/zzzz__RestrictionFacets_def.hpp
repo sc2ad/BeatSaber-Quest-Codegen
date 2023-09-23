@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections {
 class ArrayList;
 }
@@ -76,23 +75,23 @@ constexpr void __set_MaxLength(int32_t value) ;
 
 constexpr int32_t __get_MaxLength() const;
 
- ::System::Collections::ArrayList __declspec(property(get=__get_Patterns, put=__set_Patterns))  Patterns;
+ System::Collections::ArrayList __declspec(property(get=__get_Patterns, put=__set_Patterns))  Patterns;
 
-constexpr void __set_Patterns(::System::Collections::ArrayList value) ;
+constexpr void __set_Patterns(System::Collections::ArrayList value) ;
 
-constexpr ::System::Collections::ArrayList __get_Patterns() const;
+constexpr System::Collections::ArrayList __get_Patterns() const;
 
- ::System::Collections::ArrayList __declspec(property(get=__get_Enumeration, put=__set_Enumeration))  Enumeration;
+ System::Collections::ArrayList __declspec(property(get=__get_Enumeration, put=__set_Enumeration))  Enumeration;
 
-constexpr void __set_Enumeration(::System::Collections::ArrayList value) ;
+constexpr void __set_Enumeration(System::Collections::ArrayList value) ;
 
-constexpr ::System::Collections::ArrayList __get_Enumeration() const;
+constexpr System::Collections::ArrayList __get_Enumeration() const;
 
- ::System::Xml::Schema::XmlSchemaWhiteSpace __declspec(property(get=__get_WhiteSpace, put=__set_WhiteSpace))  WhiteSpace;
+ System::Xml::Schema::XmlSchemaWhiteSpace __declspec(property(get=__get_WhiteSpace, put=__set_WhiteSpace))  WhiteSpace;
 
-constexpr void __set_WhiteSpace(::System::Xml::Schema::XmlSchemaWhiteSpace value) ;
+constexpr void __set_WhiteSpace(System::Xml::Schema::XmlSchemaWhiteSpace value) ;
 
-constexpr ::System::Xml::Schema::XmlSchemaWhiteSpace __get_WhiteSpace() const;
+constexpr System::Xml::Schema::XmlSchemaWhiteSpace __get_WhiteSpace() const;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=__get_MaxInclusive, put=__set_MaxInclusive))  MaxInclusive;
 
@@ -130,16 +129,15 @@ constexpr void __set_FractionDigits(int32_t value) ;
 
 constexpr int32_t __get_FractionDigits() const;
 
- ::System::Xml::Schema::RestrictionFlags __declspec(property(get=__get_Flags, put=__set_Flags))  Flags;
+ System::Xml::Schema::RestrictionFlags __declspec(property(get=__get_Flags, put=__set_Flags))  Flags;
 
-constexpr void __set_Flags(::System::Xml::Schema::RestrictionFlags value) ;
+constexpr void __set_Flags(System::Xml::Schema::RestrictionFlags value) ;
 
-constexpr ::System::Xml::Schema::RestrictionFlags __get_Flags() const;
+constexpr System::Xml::Schema::RestrictionFlags __get_Flags() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::RestrictionFacets);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::RestrictionFacets, "System.Xml.Schema", "RestrictionFacets");
+NEED_NO_BOX(System::Xml::Schema::RestrictionFacets);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::RestrictionFacets, "System.Xml.Schema", "RestrictionFacets");

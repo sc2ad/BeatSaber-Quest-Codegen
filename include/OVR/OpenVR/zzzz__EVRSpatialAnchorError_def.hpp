@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct EVRSpatialAnchorError;
@@ -79,50 +78,49 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Success offset 0
-static ::OVR::OpenVR::EVRSpatialAnchorError const Success;
+static OVR::OpenVR::EVRSpatialAnchorError const Success;
 
 /// @brief Field Internal offset 0
-static ::OVR::OpenVR::EVRSpatialAnchorError const Internal;
+static OVR::OpenVR::EVRSpatialAnchorError const Internal;
 
 /// @brief Field UnknownHandle offset 0
-static ::OVR::OpenVR::EVRSpatialAnchorError const UnknownHandle;
+static OVR::OpenVR::EVRSpatialAnchorError const UnknownHandle;
 
 /// @brief Field ArrayTooSmall offset 0
-static ::OVR::OpenVR::EVRSpatialAnchorError const ArrayTooSmall;
+static OVR::OpenVR::EVRSpatialAnchorError const ArrayTooSmall;
 
 /// @brief Field InvalidDescriptorChar offset 0
-static ::OVR::OpenVR::EVRSpatialAnchorError const InvalidDescriptorChar;
+static OVR::OpenVR::EVRSpatialAnchorError const InvalidDescriptorChar;
 
 /// @brief Field NotYetAvailable offset 0
-static ::OVR::OpenVR::EVRSpatialAnchorError const NotYetAvailable;
+static OVR::OpenVR::EVRSpatialAnchorError const NotYetAvailable;
 
 /// @brief Field NotAvailableInThisUniverse offset 0
-static ::OVR::OpenVR::EVRSpatialAnchorError const NotAvailableInThisUniverse;
+static OVR::OpenVR::EVRSpatialAnchorError const NotAvailableInThisUniverse;
 
 /// @brief Field PermanentlyUnavailable offset 0
-static ::OVR::OpenVR::EVRSpatialAnchorError const PermanentlyUnavailable;
+static OVR::OpenVR::EVRSpatialAnchorError const PermanentlyUnavailable;
 
 /// @brief Field WrongDriver offset 0
-static ::OVR::OpenVR::EVRSpatialAnchorError const WrongDriver;
+static OVR::OpenVR::EVRSpatialAnchorError const WrongDriver;
 
 /// @brief Field DescriptorTooLong offset 0
-static ::OVR::OpenVR::EVRSpatialAnchorError const DescriptorTooLong;
+static OVR::OpenVR::EVRSpatialAnchorError const DescriptorTooLong;
 
 /// @brief Field Unknown offset 0
-static ::OVR::OpenVR::EVRSpatialAnchorError const Unknown;
+static OVR::OpenVR::EVRSpatialAnchorError const Unknown;
 
 /// @brief Field NoRoomCalibration offset 0
-static ::OVR::OpenVR::EVRSpatialAnchorError const NoRoomCalibration;
+static OVR::OpenVR::EVRSpatialAnchorError const NoRoomCalibration;
 
 /// @brief Field InvalidArgument offset 0
-static ::OVR::OpenVR::EVRSpatialAnchorError const InvalidArgument;
+static OVR::OpenVR::EVRSpatialAnchorError const InvalidArgument;
 
 /// @brief Field UnknownDriver offset 0
-static ::OVR::OpenVR::EVRSpatialAnchorError const UnknownDriver;
+static OVR::OpenVR::EVRSpatialAnchorError const UnknownDriver;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRSpatialAnchorError, "OVR.OpenVR", "EVRSpatialAnchorError");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRSpatialAnchorError, "OVR.OpenVR", "EVRSpatialAnchorError");

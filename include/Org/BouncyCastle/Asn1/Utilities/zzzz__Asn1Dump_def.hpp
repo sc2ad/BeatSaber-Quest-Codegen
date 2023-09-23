@@ -4,18 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
-namespace System::Text {
-class StringBuilder;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerApplicationSpecific;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
+}
+namespace System::Text {
+class StringBuilder;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Utilities {
@@ -85,19 +84,19 @@ explicit Asn1Dump() ;
  void _ctor() ;
 
 /// @brief Method AsString addr 0xfedf6c size 0x2664 virtual false final false
-static void AsString(::StringW indent, bool verbose, ::Org::BouncyCastle::Asn1::Asn1Object obj, ::System::Text::StringBuilder buf) ;
+static void AsString(::StringW indent, bool verbose, Org::BouncyCastle::Asn1::Asn1Object obj, System::Text::StringBuilder buf) ;
 
 /// @brief Method outputApplicationSpecific addr 0xff0838 size 0x8d4 virtual false final false
-static ::StringW outputApplicationSpecific(::StringW type, ::StringW indent, bool verbose, ::Org::BouncyCastle::Asn1::DerApplicationSpecific app) ;
+static ::StringW outputApplicationSpecific(::StringW type, ::StringW indent, bool verbose, Org::BouncyCastle::Asn1::DerApplicationSpecific app) ;
 
 /// @brief Method DumpAsString addr 0xff110c size 0x184 virtual false final false
 static ::StringW DumpAsString(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method DumpAsString addr 0xff1290 size 0x58 virtual false final false
-static ::StringW DumpAsString(::Org::BouncyCastle::Asn1::Asn1Encodable obj) ;
+static ::StringW DumpAsString(Org::BouncyCastle::Asn1::Asn1Encodable obj) ;
 
 /// @brief Method DumpAsString addr 0xff12e8 size 0xd8 virtual false final false
-static ::StringW DumpAsString(::Org::BouncyCastle::Asn1::Asn1Encodable obj, bool verbose) ;
+static ::StringW DumpAsString(Org::BouncyCastle::Asn1::Asn1Encodable obj, bool verbose) ;
 
 /// @brief Method dumpBinaryDataAsString addr 0xff05d0 size 0x268 virtual false final false
 static ::StringW dumpBinaryDataAsString(::StringW indent, ::ArrayW<uint8_t> bytes) ;
@@ -109,6 +108,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::Utilities
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::Utilities::Asn1Dump);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Utilities::Asn1Dump, "Org.BouncyCastle.Asn1.Utilities", "Asn1Dump");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Utilities::Asn1Dump);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Utilities::Asn1Dump, "Org.BouncyCastle.Asn1.Utilities", "Asn1Dump");

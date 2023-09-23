@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace TMPro {
 class TextMeshProUGUI;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13656))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5738))
 // CS Name: HealthWarningDisplayViewController
-class CORDL_TYPE HealthWarningDisplayViewController : public ::HMUI::ViewController {
+class CORDL_TYPE HealthWarningDisplayViewController : public HMUI::ViewController {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr HealthWarningDisplayViewController(HealthWarningDisplayViewController 
 constexpr HealthWarningDisplayViewController(HealthWarningDisplayViewController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HealthWarningDisplayViewController(void* ptr) noexcept : ::HMUI::ViewController(ptr) {
+constexpr explicit HealthWarningDisplayViewController(void* ptr) noexcept : HMUI::ViewController(ptr) {
 }
 
 
@@ -52,11 +51,11 @@ constexpr explicit HealthWarningDisplayViewController(void* ptr) noexcept : ::HM
 
 // Fields
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__healthAndSafetyTextMesh, put=__set__healthAndSafetyTextMesh))  _healthAndSafetyTextMesh;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__healthAndSafetyTextMesh, put=__set__healthAndSafetyTextMesh))  _healthAndSafetyTextMesh;
 
-constexpr void __set__healthAndSafetyTextMesh(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__healthAndSafetyTextMesh(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__healthAndSafetyTextMesh() const;
+constexpr TMPro::TextMeshProUGUI __get__healthAndSafetyTextMesh() const;
 
  ::StringW __declspec(property(get=__get__healthAndSafetyFullLocalizationKey, put=__set__healthAndSafetyFullLocalizationKey))  _healthAndSafetyFullLocalizationKey;
 
@@ -92,6 +91,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::HealthWarningDisplayViewController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::HealthWarningDisplayViewController, "", "HealthWarningDisplayViewController");
+NEED_NO_BOX(GlobalNamespace::HealthWarningDisplayViewController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningDisplayViewController, "", "HealthWarningDisplayViewController");

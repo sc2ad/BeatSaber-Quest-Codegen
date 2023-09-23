@@ -4,15 +4,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Runtime::InteropServices {
-class _ParameterInfo;
-}
-namespace System {
-class Type;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+namespace System::Reflection {
+struct ParameterAttributes;
 }
 namespace System::Reflection {
 class ICustomAttributeProvider;
@@ -20,11 +13,17 @@ class ICustomAttributeProvider;
 namespace System::Runtime::Serialization {
 class IObjectReference;
 }
-namespace System::Reflection {
-struct ParameterAttributes;
+namespace System::Runtime::InteropServices {
+class _ParameterInfo;
+}
+namespace System {
+class Type;
 }
 namespace System::Reflection {
 class MemberInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -39,14 +38,14 @@ namespace System::Reflection {
 class CORDL_TYPE ParameterInfo : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Reflection::ICustomAttributeProvider
-constexpr operator  ::System::Reflection::ICustomAttributeProvider() const noexcept;
+/// @brief Convert operator to System::Reflection::ICustomAttributeProvider
+constexpr operator  System::Reflection::ICustomAttributeProvider() const noexcept;
 
-/// @brief Convert operator to ::System::Runtime::Serialization::IObjectReference
-constexpr operator  ::System::Runtime::Serialization::IObjectReference() const noexcept;
+/// @brief Convert operator to System::Runtime::Serialization::IObjectReference
+constexpr operator  System::Runtime::Serialization::IObjectReference() const noexcept;
 
-/// @brief Convert operator to ::System::Runtime::InteropServices::_ParameterInfo
-constexpr operator  ::System::Runtime::InteropServices::_ParameterInfo() const noexcept;
+/// @brief Convert operator to System::Runtime::InteropServices::_ParameterInfo
+constexpr operator  System::Runtime::InteropServices::_ParameterInfo() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -81,17 +80,17 @@ constexpr explicit ParameterInfo(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 
 // Fields
 
- ::System::Reflection::ParameterAttributes __declspec(property(get=__get_AttrsImpl, put=__set_AttrsImpl))  AttrsImpl;
+ System::Reflection::ParameterAttributes __declspec(property(get=__get_AttrsImpl, put=__set_AttrsImpl))  AttrsImpl;
 
-constexpr void __set_AttrsImpl(::System::Reflection::ParameterAttributes value) ;
+constexpr void __set_AttrsImpl(System::Reflection::ParameterAttributes value) ;
 
-constexpr ::System::Reflection::ParameterAttributes __get_AttrsImpl() const;
+constexpr System::Reflection::ParameterAttributes __get_AttrsImpl() const;
 
- ::System::Type __declspec(property(get=__get_ClassImpl, put=__set_ClassImpl))  ClassImpl;
+ System::Type __declspec(property(get=__get_ClassImpl, put=__set_ClassImpl))  ClassImpl;
 
-constexpr void __set_ClassImpl(::System::Type value) ;
+constexpr void __set_ClassImpl(System::Type value) ;
 
-constexpr ::System::Type __get_ClassImpl() const;
+constexpr System::Type __get_ClassImpl() const;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=__get_DefaultValueImpl, put=__set_DefaultValueImpl))  DefaultValueImpl;
 
@@ -99,11 +98,11 @@ constexpr void __set_DefaultValueImpl(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get_DefaultValueImpl() const;
 
- ::System::Reflection::MemberInfo __declspec(property(get=__get_MemberImpl, put=__set_MemberImpl))  MemberImpl;
+ System::Reflection::MemberInfo __declspec(property(get=__get_MemberImpl, put=__set_MemberImpl))  MemberImpl;
 
-constexpr void __set_MemberImpl(::System::Reflection::MemberInfo value) ;
+constexpr void __set_MemberImpl(System::Reflection::MemberInfo value) ;
 
-constexpr ::System::Reflection::MemberInfo __get_MemberImpl() const;
+constexpr System::Reflection::MemberInfo __get_MemberImpl() const;
 
  ::StringW __declspec(property(get=__get_NameImpl, put=__set_NameImpl))  NameImpl;
 
@@ -123,13 +122,13 @@ static constexpr int32_t  MetadataToken_ParamDef{134217728};
 
 // Properties
 
- ::System::Reflection::ParameterAttributes __declspec(property(get=get_Attributes))  Attributes;
+ System::Reflection::ParameterAttributes __declspec(property(get=get_Attributes))  Attributes;
 
- ::System::Reflection::MemberInfo __declspec(property(get=get_Member))  Member;
+ System::Reflection::MemberInfo __declspec(property(get=get_Member))  Member;
 
  ::StringW __declspec(property(get=get_Name))  Name;
 
- ::System::Type __declspec(property(get=get_ParameterType))  ParameterType;
+ System::Type __declspec(property(get=get_ParameterType))  ParameterType;
 
  int32_t __declspec(property(get=get_Position))  Position;
 
@@ -151,16 +150,16 @@ explicit ParameterInfo() ;
  void _ctor() ;
 
 /// @brief Method get_Attributes addr 0x237bfcc size 0x8 virtual true final false
- ::System::Reflection::ParameterAttributes get_Attributes() ;
+ System::Reflection::ParameterAttributes get_Attributes() ;
 
 /// @brief Method get_Member addr 0x237bfd4 size 0x8 virtual true final false
- ::System::Reflection::MemberInfo get_Member() ;
+ System::Reflection::MemberInfo get_Member() ;
 
 /// @brief Method get_Name addr 0x237bfdc size 0x8 virtual true final false
  ::StringW get_Name() ;
 
 /// @brief Method get_ParameterType addr 0x237bfe4 size 0x8 virtual true final false
- ::System::Type get_ParameterType() ;
+ System::Type get_ParameterType() ;
 
 /// @brief Method get_Position addr 0x237bfec size 0x8 virtual true final false
  int32_t get_Position() ;
@@ -178,16 +177,16 @@ explicit ParameterInfo() ;
  ::bs_hook::Il2CppWrapperType get_DefaultValue() ;
 
 /// @brief Method IsDefined addr 0x237c070 size 0xb4 virtual true final false
- bool IsDefined(::System::Type attributeType, bool inherit) ;
+ bool IsDefined(System::Type attributeType, bool inherit) ;
 
 /// @brief Method GetCustomAttributes addr 0x237c124 size 0x7c virtual true final false
  ::ArrayW<::bs_hook::Il2CppWrapperType> GetCustomAttributes(bool inherit) ;
 
 /// @brief Method GetCustomAttributes addr 0x237c1a0 size 0x104 virtual true final false
- ::ArrayW<::bs_hook::Il2CppWrapperType> GetCustomAttributes(::System::Type attributeType, bool inherit) ;
+ ::ArrayW<::bs_hook::Il2CppWrapperType> GetCustomAttributes(System::Type attributeType, bool inherit) ;
 
 /// @brief Method GetRealObject addr 0x237c2a4 size 0x2e0 virtual true final true
- ::bs_hook::Il2CppWrapperType GetRealObject(::System::Runtime::Serialization::StreamingContext context) ;
+ ::bs_hook::Il2CppWrapperType GetRealObject(System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method ToString addr 0x237c584 size 0x84 virtual true final false
  ::StringW ToString() ;
@@ -196,6 +195,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Reflection
-} // end anonymous namespace
-NEED_NO_BOX(::System::Reflection::ParameterInfo);
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::ParameterInfo, "System.Reflection", "ParameterInfo");
+NEED_NO_BOX(System::Reflection::ParameterInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ParameterInfo, "System.Reflection", "ParameterInfo");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security::AccessControl {
 struct ControlFlags;
@@ -82,59 +81,58 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::Security::AccessControl::ControlFlags const None;
+static System::Security::AccessControl::ControlFlags const None;
 
 /// @brief Field OwnerDefaulted offset 0
-static ::System::Security::AccessControl::ControlFlags const OwnerDefaulted;
+static System::Security::AccessControl::ControlFlags const OwnerDefaulted;
 
 /// @brief Field GroupDefaulted offset 0
-static ::System::Security::AccessControl::ControlFlags const GroupDefaulted;
+static System::Security::AccessControl::ControlFlags const GroupDefaulted;
 
 /// @brief Field DiscretionaryAclPresent offset 0
-static ::System::Security::AccessControl::ControlFlags const DiscretionaryAclPresent;
+static System::Security::AccessControl::ControlFlags const DiscretionaryAclPresent;
 
 /// @brief Field DiscretionaryAclDefaulted offset 0
-static ::System::Security::AccessControl::ControlFlags const DiscretionaryAclDefaulted;
+static System::Security::AccessControl::ControlFlags const DiscretionaryAclDefaulted;
 
 /// @brief Field SystemAclPresent offset 0
-static ::System::Security::AccessControl::ControlFlags const SystemAclPresent;
+static System::Security::AccessControl::ControlFlags const SystemAclPresent;
 
 /// @brief Field SystemAclDefaulted offset 0
-static ::System::Security::AccessControl::ControlFlags const SystemAclDefaulted;
+static System::Security::AccessControl::ControlFlags const SystemAclDefaulted;
 
 /// @brief Field DiscretionaryAclUntrusted offset 0
-static ::System::Security::AccessControl::ControlFlags const DiscretionaryAclUntrusted;
+static System::Security::AccessControl::ControlFlags const DiscretionaryAclUntrusted;
 
 /// @brief Field ServerSecurity offset 0
-static ::System::Security::AccessControl::ControlFlags const ServerSecurity;
+static System::Security::AccessControl::ControlFlags const ServerSecurity;
 
 /// @brief Field DiscretionaryAclAutoInheritRequired offset 0
-static ::System::Security::AccessControl::ControlFlags const DiscretionaryAclAutoInheritRequired;
+static System::Security::AccessControl::ControlFlags const DiscretionaryAclAutoInheritRequired;
 
 /// @brief Field SystemAclAutoInheritRequired offset 0
-static ::System::Security::AccessControl::ControlFlags const SystemAclAutoInheritRequired;
+static System::Security::AccessControl::ControlFlags const SystemAclAutoInheritRequired;
 
 /// @brief Field DiscretionaryAclAutoInherited offset 0
-static ::System::Security::AccessControl::ControlFlags const DiscretionaryAclAutoInherited;
+static System::Security::AccessControl::ControlFlags const DiscretionaryAclAutoInherited;
 
 /// @brief Field SystemAclAutoInherited offset 0
-static ::System::Security::AccessControl::ControlFlags const SystemAclAutoInherited;
+static System::Security::AccessControl::ControlFlags const SystemAclAutoInherited;
 
 /// @brief Field DiscretionaryAclProtected offset 0
-static ::System::Security::AccessControl::ControlFlags const DiscretionaryAclProtected;
+static System::Security::AccessControl::ControlFlags const DiscretionaryAclProtected;
 
 /// @brief Field SystemAclProtected offset 0
-static ::System::Security::AccessControl::ControlFlags const SystemAclProtected;
+static System::Security::AccessControl::ControlFlags const SystemAclProtected;
 
 /// @brief Field RMControlValid offset 0
-static ::System::Security::AccessControl::ControlFlags const RMControlValid;
+static System::Security::AccessControl::ControlFlags const RMControlValid;
 
 /// @brief Field SelfRelative offset 0
-static ::System::Security::AccessControl::ControlFlags const SelfRelative;
+static System::Security::AccessControl::ControlFlags const SelfRelative;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Security::AccessControl
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::AccessControl::ControlFlags, "System.Security.AccessControl", "ControlFlags");
+DEFINE_IL2CPP_ARG_TYPE(System::Security::AccessControl::ControlFlags, "System.Security.AccessControl", "ControlFlags");

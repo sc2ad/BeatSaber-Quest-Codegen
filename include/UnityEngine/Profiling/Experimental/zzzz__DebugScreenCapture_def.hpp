@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace Unity::Collections {
 template<typename T>
 struct NativeArray_1;
@@ -23,8 +22,8 @@ namespace UnityEngine::Profiling::Experimental {
 struct CORDL_TYPE DebugScreenCapture : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "_rawImageDataReference_k__BackingField", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "_imageFormat_k__BackingField", ty: "::UnityEngine::TextureFormat", modifiers: "", def_value: None }, CppParam { name: "_width_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_height_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr DebugScreenCapture(::Unity::Collections::NativeArray_1<uint8_t> _rawImageDataReference_k__BackingField, ::UnityEngine::TextureFormat _imageFormat_k__BackingField, int32_t _width_k__BackingField, int32_t _height_k__BackingField) noexcept;
+// Ctor Parameters [CppParam { name: "_rawImageDataReference_k__BackingField", ty: "Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "_imageFormat_k__BackingField", ty: "UnityEngine::TextureFormat", modifiers: "", def_value: None }, CppParam { name: "_width_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_height_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr DebugScreenCapture(Unity::Collections::NativeArray_1<uint8_t> _rawImageDataReference_k__BackingField, UnityEngine::TextureFormat _imageFormat_k__BackingField, int32_t _width_k__BackingField, int32_t _height_k__BackingField) noexcept;
 
 
                     constexpr DebugScreenCapture(DebugScreenCapture const&) = default;
@@ -57,17 +56,17 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::Unity::Collections::NativeArray_1<uint8_t> __declspec(property(get=__get__rawImageDataReference_k__BackingField, put=__set__rawImageDataReference_k__BackingField))  _rawImageDataReference_k__BackingField;
+ Unity::Collections::NativeArray_1<uint8_t> __declspec(property(get=__get__rawImageDataReference_k__BackingField, put=__set__rawImageDataReference_k__BackingField))  _rawImageDataReference_k__BackingField;
 
-constexpr void __set__rawImageDataReference_k__BackingField(::Unity::Collections::NativeArray_1<uint8_t> value) ;
+constexpr void __set__rawImageDataReference_k__BackingField(Unity::Collections::NativeArray_1<uint8_t> value) ;
 
-constexpr ::Unity::Collections::NativeArray_1<uint8_t> __get__rawImageDataReference_k__BackingField() const;
+constexpr Unity::Collections::NativeArray_1<uint8_t> __get__rawImageDataReference_k__BackingField() const;
 
- ::UnityEngine::TextureFormat __declspec(property(get=__get__imageFormat_k__BackingField, put=__set__imageFormat_k__BackingField))  _imageFormat_k__BackingField;
+ UnityEngine::TextureFormat __declspec(property(get=__get__imageFormat_k__BackingField, put=__set__imageFormat_k__BackingField))  _imageFormat_k__BackingField;
 
-constexpr void __set__imageFormat_k__BackingField(::UnityEngine::TextureFormat value) ;
+constexpr void __set__imageFormat_k__BackingField(UnityEngine::TextureFormat value) ;
 
-constexpr ::UnityEngine::TextureFormat __get__imageFormat_k__BackingField() const;
+constexpr UnityEngine::TextureFormat __get__imageFormat_k__BackingField() const;
 
  int32_t __declspec(property(get=__get__width_k__BackingField, put=__set__width_k__BackingField))  _width_k__BackingField;
 
@@ -84,9 +83,9 @@ constexpr int32_t __get__height_k__BackingField() const;
 
 // Properties
 
- ::Unity::Collections::NativeArray_1<uint8_t> __declspec(property(put=set_rawImageDataReference))  rawImageDataReference;
+ Unity::Collections::NativeArray_1<uint8_t> __declspec(property(put=set_rawImageDataReference))  rawImageDataReference;
 
- ::UnityEngine::TextureFormat __declspec(property(put=set_imageFormat))  imageFormat;
+ UnityEngine::TextureFormat __declspec(property(put=set_imageFormat))  imageFormat;
 
  int32_t __declspec(property(put=set_width))  width;
 
@@ -96,10 +95,10 @@ constexpr int32_t __get__height_k__BackingField() const;
 // Methods
 
 /// @brief Method set_rawImageDataReference addr 0x2b6eeac size 0x8 virtual false final false
- void set_rawImageDataReference(::Unity::Collections::NativeArray_1<uint8_t> value) ;
+ void set_rawImageDataReference(Unity::Collections::NativeArray_1<uint8_t> value) ;
 
 /// @brief Method set_imageFormat addr 0x2b6eeb4 size 0x8 virtual false final false
- void set_imageFormat(::UnityEngine::TextureFormat value) ;
+ void set_imageFormat(UnityEngine::TextureFormat value) ;
 
 /// @brief Method set_width addr 0x2b6eebc size 0x8 virtual false final false
  void set_width(int32_t value) ;
@@ -111,5 +110,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Profiling::Experimental
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Profiling::Experimental::DebugScreenCapture, "UnityEngine.Profiling.Experimental", "DebugScreenCapture");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Profiling::Experimental::DebugScreenCapture, "UnityEngine.Profiling.Experimental", "DebugScreenCapture");

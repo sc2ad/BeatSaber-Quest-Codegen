@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace System::Net::NetworkInformation {
 class NetworkInterface;
 }
@@ -53,10 +52,10 @@ constexpr explicit NetworkInterfaceFactory(void* ptr) noexcept : ::bs_hook::Il2C
 // Methods
 
 /// @brief Method GetAllNetworkInterfaces addr 0x0 size 0xffffffffffffffff virtual true final false
- ::ArrayW<::System::Net::NetworkInformation::NetworkInterface> GetAllNetworkInterfaces() ;
+ ::ArrayW<System::Net::NetworkInformation::NetworkInterface> GetAllNetworkInterfaces() ;
 
 /// @brief Method Create addr 0x285dbb0 size 0x4 virtual false final false
-static ::System::Net::NetworkInformation::NetworkInterfaceFactory Create() ;
+static System::Net::NetworkInformation::NetworkInterfaceFactory Create() ;
 
 // Ctor Parameters []
 explicit NetworkInterfaceFactory() ;
@@ -68,6 +67,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::NetworkInformation
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::NetworkInformation::NetworkInterfaceFactory);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::NetworkInterfaceFactory, "System.Net.NetworkInformation", "NetworkInterfaceFactory");
+NEED_NO_BOX(System::Net::NetworkInformation::NetworkInterfaceFactory);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::NetworkInterfaceFactory, "System.Net.NetworkInformation", "NetworkInterfaceFactory");

@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-struct DateTime;
-}
 namespace BGNet::Core {
 class ITimeProvider;
+}
+namespace System {
+struct DateTime;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,8 +21,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE UtcTimeProvider : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::BGNet::Core::ITimeProvider
-constexpr operator  ::BGNet::Core::ITimeProvider() const noexcept;
+/// @brief Convert operator to BGNet::Core::ITimeProvider
+constexpr operator  BGNet::Core::ITimeProvider() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -58,17 +57,17 @@ constexpr explicit UtcTimeProvider(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Fields
 
-static ::System::DateTime __declspec(property(get=__get__epoch, put=__set__epoch))  _epoch;
+static System::DateTime __declspec(property(get=__get__epoch, put=__set__epoch))  _epoch;
 
-static void __set__epoch(::System::DateTime value) ;
+static void __set__epoch(System::DateTime value) ;
 
-static ::System::DateTime __get__epoch() ;
+static System::DateTime __get__epoch() ;
 
-static ::GlobalNamespace::UtcTimeProvider __declspec(property(get=__get_instance, put=__set_instance))  instance;
+static GlobalNamespace::UtcTimeProvider __declspec(property(get=__get_instance, put=__set_instance))  instance;
 
-static void __set_instance(::GlobalNamespace::UtcTimeProvider value) ;
+static void __set_instance(GlobalNamespace::UtcTimeProvider value) ;
 
-static ::GlobalNamespace::UtcTimeProvider __get_instance() ;
+static GlobalNamespace::UtcTimeProvider __get_instance() ;
 
 
 // Methods
@@ -89,6 +88,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::UtcTimeProvider);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::UtcTimeProvider, "", "UtcTimeProvider");
+NEED_NO_BOX(GlobalNamespace::UtcTimeProvider);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UtcTimeProvider, "", "UtcTimeProvider");

@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
 class PolicyQualifierID;
@@ -13,7 +12,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(350))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(376))
 // CS Name: Org.BouncyCastle.Asn1.X509.PolicyQualifierID
-class CORDL_TYPE PolicyQualifierID : public ::Org::BouncyCastle::Asn1::DerObjectIdentifier {
+class CORDL_TYPE PolicyQualifierID : public Org::BouncyCastle::Asn1::DerObjectIdentifier {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr PolicyQualifierID(PolicyQualifierID const& ) noexcept = default;
 constexpr PolicyQualifierID(PolicyQualifierID&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PolicyQualifierID(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::DerObjectIdentifier(ptr) {
+constexpr explicit PolicyQualifierID(void* ptr) noexcept : Org::BouncyCastle::Asn1::DerObjectIdentifier(ptr) {
 }
 
 
@@ -52,17 +51,17 @@ constexpr explicit PolicyQualifierID(void* ptr) noexcept : ::Org::BouncyCastle::
 /// @brief Field IdQt offset 0
 static constexpr ::ConstString  IdQt{u"1.3.6.1.5.5.7.2"};
 
-static ::Org::BouncyCastle::Asn1::X509::PolicyQualifierID __declspec(property(get=__get_IdQtCps, put=__set_IdQtCps))  IdQtCps;
+static Org::BouncyCastle::Asn1::X509::PolicyQualifierID __declspec(property(get=__get_IdQtCps, put=__set_IdQtCps))  IdQtCps;
 
-static void __set_IdQtCps(::Org::BouncyCastle::Asn1::X509::PolicyQualifierID value) ;
+static void __set_IdQtCps(Org::BouncyCastle::Asn1::X509::PolicyQualifierID value) ;
 
-static ::Org::BouncyCastle::Asn1::X509::PolicyQualifierID __get_IdQtCps() ;
+static Org::BouncyCastle::Asn1::X509::PolicyQualifierID __get_IdQtCps() ;
 
-static ::Org::BouncyCastle::Asn1::X509::PolicyQualifierID __declspec(property(get=__get_IdQtUnotice, put=__set_IdQtUnotice))  IdQtUnotice;
+static Org::BouncyCastle::Asn1::X509::PolicyQualifierID __declspec(property(get=__get_IdQtUnotice, put=__set_IdQtUnotice))  IdQtUnotice;
 
-static void __set_IdQtUnotice(::Org::BouncyCastle::Asn1::X509::PolicyQualifierID value) ;
+static void __set_IdQtUnotice(Org::BouncyCastle::Asn1::X509::PolicyQualifierID value) ;
 
-static ::Org::BouncyCastle::Asn1::X509::PolicyQualifierID __get_IdQtUnotice() ;
+static Org::BouncyCastle::Asn1::X509::PolicyQualifierID __get_IdQtUnotice() ;
 
 
 // Methods
@@ -77,6 +76,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::X509
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::PolicyQualifierID);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X509::PolicyQualifierID, "Org.BouncyCastle.Asn1.X509", "PolicyQualifierID");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::PolicyQualifierID);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::PolicyQualifierID, "Org.BouncyCastle.Asn1.X509", "PolicyQualifierID");

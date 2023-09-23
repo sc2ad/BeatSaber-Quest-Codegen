@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/Collections/zzzz__ReadOnlyCollectionBase_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::ComponentModel {
 class IComponent;
 }
@@ -16,7 +15,7 @@ namespace System::ComponentModel {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3762))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8238))
 // CS Name: System.ComponentModel.ComponentCollection
-class CORDL_TYPE ComponentCollection : public ::System::Collections::ReadOnlyCollectionBase {
+class CORDL_TYPE ComponentCollection : public System::Collections::ReadOnlyCollectionBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr ComponentCollection(ComponentCollection const& ) noexcept = default;
 constexpr ComponentCollection(ComponentCollection&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ComponentCollection(void* ptr) noexcept : ::System::Collections::ReadOnlyCollectionBase(ptr) {
+constexpr explicit ComponentCollection(void* ptr) noexcept : System::Collections::ReadOnlyCollectionBase(ptr) {
 }
 
 
@@ -52,18 +51,17 @@ constexpr explicit ComponentCollection(void* ptr) noexcept : ::System::Collectio
 
 // Properties
 
- ::System::ComponentModel::IComponent __declspec(property(get=get_Item))  Item;
+ System::ComponentModel::IComponent __declspec(property(get=get_Item))  Item;
 
 
 // Methods
 
 /// @brief Method get_Item addr 0x2771294 size 0x588 virtual true final false
- ::System::ComponentModel::IComponent get_Item(::StringW name) ;
+ System::ComponentModel::IComponent get_Item(::StringW name) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::ComponentCollection);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::ComponentCollection, "System.ComponentModel", "ComponentCollection");
+NEED_NO_BOX(System::ComponentModel::ComponentCollection);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::ComponentCollection, "System.ComponentModel", "ComponentCollection");

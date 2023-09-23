@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Net {
 class IPAddress;
 }
@@ -65,11 +64,11 @@ constexpr void __set_aliases(::ArrayW<::StringW> value) ;
 
 constexpr ::ArrayW<::StringW> __get_aliases() const;
 
- ::ArrayW<::System::Net::IPAddress> __declspec(property(get=__get_addressList, put=__set_addressList))  addressList;
+ ::ArrayW<System::Net::IPAddress> __declspec(property(get=__get_addressList, put=__set_addressList))  addressList;
 
-constexpr void __set_addressList(::ArrayW<::System::Net::IPAddress> value) ;
+constexpr void __set_addressList(::ArrayW<System::Net::IPAddress> value) ;
 
-constexpr ::ArrayW<::System::Net::IPAddress> __get_addressList() const;
+constexpr ::ArrayW<System::Net::IPAddress> __get_addressList() const;
 
  bool __declspec(property(get=__get_isTrustedHost, put=__set_isTrustedHost))  isTrustedHost;
 
@@ -84,7 +83,7 @@ constexpr bool __get_isTrustedHost() const;
 
  ::ArrayW<::StringW> __declspec(property(put=set_Aliases))  Aliases;
 
- ::ArrayW<::System::Net::IPAddress> __declspec(property(get=get_AddressList, put=set_AddressList))  AddressList;
+ ::ArrayW<System::Net::IPAddress> __declspec(property(get=get_AddressList, put=set_AddressList))  AddressList;
 
 
 // Methods
@@ -99,10 +98,10 @@ constexpr bool __get_isTrustedHost() const;
  void set_Aliases(::ArrayW<::StringW> value) ;
 
 /// @brief Method get_AddressList addr 0x280c034 size 0x8 virtual false final false
- ::ArrayW<::System::Net::IPAddress> get_AddressList() ;
+ ::ArrayW<System::Net::IPAddress> get_AddressList() ;
 
 /// @brief Method set_AddressList addr 0x280c03c size 0x8 virtual false final false
- void set_AddressList(::ArrayW<::System::Net::IPAddress> value) ;
+ void set_AddressList(::ArrayW<System::Net::IPAddress> value) ;
 
 // Ctor Parameters []
 explicit IPHostEntry() ;
@@ -114,6 +113,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::IPHostEntry);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::IPHostEntry, "System.Net", "IPHostEntry");
+NEED_NO_BOX(System::Net::IPHostEntry);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::IPHostEntry, "System.Net", "IPHostEntry");

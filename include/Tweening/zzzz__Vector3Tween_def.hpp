@@ -3,20 +3,19 @@
 #include "Tweening/zzzz__Tween_1_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cmath>
-namespace {
-namespace Zenject {
-template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TParam6,typename TValue>
-class StaticMemoryPool_7;
-}
-namespace UnityEngine {
-struct Vector3;
-}
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace GlobalNamespace {
 struct EaseType;
+}
+namespace Zenject {
+template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TParam6,typename TValue>
+class StaticMemoryPool_7;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace Tweening {
@@ -25,10 +24,10 @@ class Vector3Tween;
 // Type: Tweening::Vector3Tween
 namespace Tweening {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15937), inst: 394 }), TypeDefinitionIndex(TypeDefinitionIndex(10190))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10190)), TypeDefinitionIndex(TypeDefinitionIndex(15937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15937), inst: 394 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15933))
 // CS Name: Tweening.Vector3Tween
-class CORDL_TYPE Vector3Tween : public ::Tweening::Tween_1<::UnityEngine::Vector3> {
+class CORDL_TYPE Vector3Tween : public Tweening::Tween_1<UnityEngine::Vector3> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -43,7 +42,7 @@ constexpr Vector3Tween(Vector3Tween const& ) noexcept = default;
 constexpr Vector3Tween(Vector3Tween&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Vector3Tween(void* ptr) noexcept : ::Tweening::Tween_1<::UnityEngine::Vector3>(ptr) {
+constexpr explicit Vector3Tween(void* ptr) noexcept : Tweening::Tween_1<UnityEngine::Vector3>(ptr) {
 }
 
 
@@ -64,11 +63,11 @@ constexpr explicit Vector3Tween(void* ptr) noexcept : ::Tweening::Tween_1<::Unit
 
 // Fields
 
-static ::Zenject::StaticMemoryPool_7<::UnityEngine::Vector3,::UnityEngine::Vector3,::System::Action_1<::UnityEngine::Vector3>,float_t,::GlobalNamespace::EaseType,float_t,::Tweening::Vector3Tween> __declspec(property(get=__get_Pool, put=__set_Pool))  Pool;
+static Zenject::StaticMemoryPool_7<UnityEngine::Vector3,UnityEngine::Vector3,System::Action_1<UnityEngine::Vector3>,float_t,GlobalNamespace::EaseType,float_t,Tweening::Vector3Tween> __declspec(property(get=__get_Pool, put=__set_Pool))  Pool;
 
-static void __set_Pool(::Zenject::StaticMemoryPool_7<::UnityEngine::Vector3,::UnityEngine::Vector3,::System::Action_1<::UnityEngine::Vector3>,float_t,::GlobalNamespace::EaseType,float_t,::Tweening::Vector3Tween> value) ;
+static void __set_Pool(Zenject::StaticMemoryPool_7<UnityEngine::Vector3,UnityEngine::Vector3,System::Action_1<UnityEngine::Vector3>,float_t,GlobalNamespace::EaseType,float_t,Tweening::Vector3Tween> value) ;
 
-static ::Zenject::StaticMemoryPool_7<::UnityEngine::Vector3,::UnityEngine::Vector3,::System::Action_1<::UnityEngine::Vector3>,float_t,::GlobalNamespace::EaseType,float_t,::Tweening::Vector3Tween> __get_Pool() ;
+static Zenject::StaticMemoryPool_7<UnityEngine::Vector3,UnityEngine::Vector3,System::Action_1<UnityEngine::Vector3>,float_t,GlobalNamespace::EaseType,float_t,Tweening::Vector3Tween> __get_Pool() ;
 
 
 // Methods
@@ -79,19 +78,18 @@ explicit Vector3Tween() ;
 /// @brief Method .ctor addr 0x287a314 size 0x48 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "fromValue", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "toValue", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "onUpdate", ty: "::System::Action_1<::UnityEngine::Vector3>", modifiers: "", def_value: None }, CppParam { name: "duration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "easeType", ty: "::GlobalNamespace::EaseType", modifiers: "", def_value: None }, CppParam { name: "delay", ty: "float_t", modifiers: "", def_value: None }]
-explicit Vector3Tween(::UnityEngine::Vector3 fromValue, ::UnityEngine::Vector3 toValue, ::System::Action_1<::UnityEngine::Vector3> onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay) ;
+// Ctor Parameters [CppParam { name: "fromValue", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "toValue", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "onUpdate", ty: "System::Action_1<UnityEngine::Vector3>", modifiers: "", def_value: None }, CppParam { name: "duration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "easeType", ty: "GlobalNamespace::EaseType", modifiers: "", def_value: None }, CppParam { name: "delay", ty: "float_t", modifiers: "", def_value: None }]
+explicit Vector3Tween(UnityEngine::Vector3 fromValue, UnityEngine::Vector3 toValue, System::Action_1<UnityEngine::Vector3> onUpdate, float_t duration, GlobalNamespace::EaseType easeType, float_t delay) ;
 
 /// @brief Method .ctor addr 0x287a35c size 0xc0 virtual false final false
- void _ctor(::UnityEngine::Vector3 fromValue, ::UnityEngine::Vector3 toValue, ::System::Action_1<::UnityEngine::Vector3> onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay) ;
+ void _ctor(UnityEngine::Vector3 fromValue, UnityEngine::Vector3 toValue, System::Action_1<UnityEngine::Vector3> onUpdate, float_t duration, GlobalNamespace::EaseType easeType, float_t delay) ;
 
 /// @brief Method GetValue addr 0x287a41c size 0x50 virtual true final false
- ::UnityEngine::Vector3 GetValue(float_t t) ;
+ UnityEngine::Vector3 GetValue(float_t t) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Tweening
-} // end anonymous namespace
-NEED_NO_BOX(::Tweening::Vector3Tween);
-DEFINE_IL2CPP_ARG_TYPE(::Tweening::Vector3Tween, "Tweening", "Vector3Tween");
+NEED_NO_BOX(Tweening::Vector3Tween);
+DEFINE_IL2CPP_ARG_TYPE(Tweening::Vector3Tween, "Tweening", "Vector3Tween");

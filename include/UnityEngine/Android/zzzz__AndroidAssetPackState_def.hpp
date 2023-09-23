@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace UnityEngine::Android {
 struct AndroidAssetPackError;
 }
@@ -61,31 +60,30 @@ constexpr void __set__name_k__BackingField(::StringW value) ;
 
 constexpr ::StringW __get__name_k__BackingField() const;
 
- ::UnityEngine::Android::AndroidAssetPackStatus __declspec(property(get=__get__status_k__BackingField, put=__set__status_k__BackingField))  _status_k__BackingField;
+ UnityEngine::Android::AndroidAssetPackStatus __declspec(property(get=__get__status_k__BackingField, put=__set__status_k__BackingField))  _status_k__BackingField;
 
-constexpr void __set__status_k__BackingField(::UnityEngine::Android::AndroidAssetPackStatus value) ;
+constexpr void __set__status_k__BackingField(UnityEngine::Android::AndroidAssetPackStatus value) ;
 
-constexpr ::UnityEngine::Android::AndroidAssetPackStatus __get__status_k__BackingField() const;
+constexpr UnityEngine::Android::AndroidAssetPackStatus __get__status_k__BackingField() const;
 
- ::UnityEngine::Android::AndroidAssetPackError __declspec(property(get=__get__error_k__BackingField, put=__set__error_k__BackingField))  _error_k__BackingField;
+ UnityEngine::Android::AndroidAssetPackError __declspec(property(get=__get__error_k__BackingField, put=__set__error_k__BackingField))  _error_k__BackingField;
 
-constexpr void __set__error_k__BackingField(::UnityEngine::Android::AndroidAssetPackError value) ;
+constexpr void __set__error_k__BackingField(UnityEngine::Android::AndroidAssetPackError value) ;
 
-constexpr ::UnityEngine::Android::AndroidAssetPackError __get__error_k__BackingField() const;
+constexpr UnityEngine::Android::AndroidAssetPackError __get__error_k__BackingField() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "status", ty: "::UnityEngine::Android::AndroidAssetPackStatus", modifiers: "", def_value: None }, CppParam { name: "error", ty: "::UnityEngine::Android::AndroidAssetPackError", modifiers: "", def_value: None }]
-explicit AndroidAssetPackState(::StringW name, ::UnityEngine::Android::AndroidAssetPackStatus status, ::UnityEngine::Android::AndroidAssetPackError error) ;
+// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "status", ty: "UnityEngine::Android::AndroidAssetPackStatus", modifiers: "", def_value: None }, CppParam { name: "error", ty: "UnityEngine::Android::AndroidAssetPackError", modifiers: "", def_value: None }]
+explicit AndroidAssetPackState(::StringW name, UnityEngine::Android::AndroidAssetPackStatus status, UnityEngine::Android::AndroidAssetPackError error) ;
 
 /// @brief Method .ctor addr 0x2b16e08 size 0x3c virtual false final false
- void _ctor(::StringW name, ::UnityEngine::Android::AndroidAssetPackStatus status, ::UnityEngine::Android::AndroidAssetPackError error) ;
+ void _ctor(::StringW name, UnityEngine::Android::AndroidAssetPackStatus status, UnityEngine::Android::AndroidAssetPackError error) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Android
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Android::AndroidAssetPackState);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Android::AndroidAssetPackState, "UnityEngine.Android", "AndroidAssetPackState");
+NEED_NO_BOX(UnityEngine::Android::AndroidAssetPackState);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Android::AndroidAssetPackState, "UnityEngine.Android", "AndroidAssetPackState");

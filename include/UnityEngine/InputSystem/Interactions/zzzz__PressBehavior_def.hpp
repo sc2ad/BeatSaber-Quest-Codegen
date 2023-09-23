@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem::Interactions {
 struct PressBehavior;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field PressOnly offset 0
-static ::UnityEngine::InputSystem::Interactions::PressBehavior const PressOnly;
+static UnityEngine::InputSystem::Interactions::PressBehavior const PressOnly;
 
 /// @brief Field ReleaseOnly offset 0
-static ::UnityEngine::InputSystem::Interactions::PressBehavior const ReleaseOnly;
+static UnityEngine::InputSystem::Interactions::PressBehavior const ReleaseOnly;
 
 /// @brief Field PressAndRelease offset 0
-static ::UnityEngine::InputSystem::Interactions::PressBehavior const PressAndRelease;
+static UnityEngine::InputSystem::Interactions::PressBehavior const PressAndRelease;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Interactions
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Interactions::PressBehavior, "UnityEngine.InputSystem.Interactions", "PressBehavior");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Interactions::PressBehavior, "UnityEngine.InputSystem.Interactions", "PressBehavior");

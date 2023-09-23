@@ -3,21 +3,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine::Playables {
 struct PlayableGraph;
+}
+namespace UnityEngine::Playables {
+struct PlayState;
+}
+namespace UnityEngine::Playables {
+struct DirectorWrapMode;
 }
 namespace UnityEngine::Playables {
 struct Playable;
 }
 namespace UnityEngine::Playables {
 struct PlayableTraversalMode;
-}
-namespace UnityEngine::Playables {
-struct DirectorWrapMode;
-}
-namespace UnityEngine::Playables {
-struct PlayState;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {
@@ -71,11 +70,11 @@ static bool IsValid(U playable) ;
 
 /// @brief Method GetGraph addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename U>
-static ::UnityEngine::Playables::PlayableGraph GetGraph(U playable) ;
+static UnityEngine::Playables::PlayableGraph GetGraph(U playable) ;
 
 /// @brief Method GetPlayState addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename U>
-static ::UnityEngine::Playables::PlayState GetPlayState(U playable) ;
+static UnityEngine::Playables::PlayState GetPlayState(U playable) ;
 
 /// @brief Method Play addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename U>
@@ -127,7 +126,7 @@ static int32_t GetInputCount(U playable) ;
 
 /// @brief Method GetInput addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename U>
-static ::UnityEngine::Playables::Playable GetInput(U playable, int32_t inputPort) ;
+static UnityEngine::Playables::Playable GetInput(U playable, int32_t inputPort) ;
 
 /// @brief Method SetInputWeight addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename U>
@@ -143,20 +142,19 @@ static float_t GetInputWeight(U playable, int32_t inputIndex) ;
 
 /// @brief Method SetTraversalMode addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename U>
-static void SetTraversalMode(U playable, ::UnityEngine::Playables::PlayableTraversalMode mode) ;
+static void SetTraversalMode(U playable, UnityEngine::Playables::PlayableTraversalMode mode) ;
 
 /// @brief Method GetTimeWrapMode addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename U>
-static ::UnityEngine::Playables::DirectorWrapMode GetTimeWrapMode(U playable) ;
+static UnityEngine::Playables::DirectorWrapMode GetTimeWrapMode(U playable) ;
 
 /// @brief Method SetTimeWrapMode addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename U>
-static void SetTimeWrapMode(U playable, ::UnityEngine::Playables::DirectorWrapMode value) ;
+static void SetTimeWrapMode(U playable, UnityEngine::Playables::DirectorWrapMode value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Playables
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Playables::PlayableExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Playables::PlayableExtensions, "UnityEngine.Playables", "PlayableExtensions");
+NEED_NO_BOX(UnityEngine::Playables::PlayableExtensions);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableExtensions, "UnityEngine.Playables", "PlayableExtensions");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
 class AveragingValueRecorder;
 }
@@ -52,11 +51,11 @@ constexpr explicit MovementHistoryRecorder(void* ptr) noexcept : ::bs_hook::Il2C
 
 // Fields
 
- ::GlobalNamespace::AveragingValueRecorder __declspec(property(get=__get__averagingValueRecorer, put=__set__averagingValueRecorer))  _averagingValueRecorer;
+ GlobalNamespace::AveragingValueRecorder __declspec(property(get=__get__averagingValueRecorer, put=__set__averagingValueRecorer))  _averagingValueRecorer;
 
-constexpr void __set__averagingValueRecorer(::GlobalNamespace::AveragingValueRecorder value) ;
+constexpr void __set__averagingValueRecorer(GlobalNamespace::AveragingValueRecorder value) ;
 
-constexpr ::GlobalNamespace::AveragingValueRecorder __get__averagingValueRecorer() const;
+constexpr GlobalNamespace::AveragingValueRecorder __get__averagingValueRecorer() const;
 
  float_t __declspec(property(get=__get__increaseSpeed, put=__set__increaseSpeed))  _increaseSpeed;
 
@@ -79,13 +78,13 @@ constexpr float_t __get__accum() const;
 
 // Properties
 
- ::GlobalNamespace::AveragingValueRecorder __declspec(property(get=get_averagingValueRecorer))  averagingValueRecorer;
+ GlobalNamespace::AveragingValueRecorder __declspec(property(get=get_averagingValueRecorer))  averagingValueRecorer;
 
 
 // Methods
 
 /// @brief Method get_averagingValueRecorer addr 0x210b1c8 size 0x8 virtual false final false
- ::GlobalNamespace::AveragingValueRecorder get_averagingValueRecorer() ;
+ GlobalNamespace::AveragingValueRecorder get_averagingValueRecorer() ;
 
 // Ctor Parameters [CppParam { name: "averageWindowDuration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "historyValuesPerSecond", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "increaseSpeed", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "decreaseSpeed", ty: "float_t", modifiers: "", def_value: None }]
 explicit MovementHistoryRecorder(float_t averageWindowDuration, float_t historyValuesPerSecond, float_t increaseSpeed, float_t decreaseSpeed) ;
@@ -103,6 +102,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MovementHistoryRecorder);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MovementHistoryRecorder, "", "MovementHistoryRecorder");
+NEED_NO_BOX(GlobalNamespace::MovementHistoryRecorder);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MovementHistoryRecorder, "", "MovementHistoryRecorder");

@@ -3,7 +3,6 @@
 #include "System/Reflection/zzzz__LocalVariableInfo_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Reflection::Emit {
 class ILGenerator;
 }
@@ -17,7 +16,7 @@ namespace System::Reflection::Emit {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3508))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3534))
 // CS Name: System.Reflection.Emit.LocalBuilder
-class CORDL_TYPE LocalBuilder : public ::System::Reflection::LocalVariableInfo {
+class CORDL_TYPE LocalBuilder : public System::Reflection::LocalVariableInfo {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr LocalBuilder(LocalBuilder const& ) noexcept = default;
 constexpr LocalBuilder(LocalBuilder&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LocalBuilder(void* ptr) noexcept : ::System::Reflection::LocalVariableInfo(ptr) {
+constexpr explicit LocalBuilder(void* ptr) noexcept : System::Reflection::LocalVariableInfo(ptr) {
 }
 
 
@@ -59,11 +58,11 @@ constexpr void __set_name(::StringW value) ;
 
 constexpr ::StringW __get_name() const;
 
- ::System::Reflection::Emit::ILGenerator __declspec(property(get=__get_ilgen, put=__set_ilgen))  ilgen;
+ System::Reflection::Emit::ILGenerator __declspec(property(get=__get_ilgen, put=__set_ilgen))  ilgen;
 
-constexpr void __set_ilgen(::System::Reflection::Emit::ILGenerator value) ;
+constexpr void __set_ilgen(System::Reflection::Emit::ILGenerator value) ;
 
-constexpr ::System::Reflection::Emit::ILGenerator __get_ilgen() const;
+constexpr System::Reflection::Emit::ILGenerator __get_ilgen() const;
 
  int32_t __declspec(property(get=__get_startOffset, put=__set_startOffset))  startOffset;
 
@@ -81,6 +80,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Reflection::Emit
-} // end anonymous namespace
-NEED_NO_BOX(::System::Reflection::Emit::LocalBuilder);
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::Emit::LocalBuilder, "System.Reflection.Emit", "LocalBuilder");
+NEED_NO_BOX(System::Reflection::Emit::LocalBuilder);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::LocalBuilder, "System.Reflection.Emit", "LocalBuilder");

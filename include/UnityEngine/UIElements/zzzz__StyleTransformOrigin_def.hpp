@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine::UIElements {
 struct TransformOrigin;
 }
@@ -12,12 +11,12 @@ namespace UnityEngine::UIElements {
 template<typename T>
 class IStyleValue_1;
 }
+namespace UnityEngine::UIElements {
+struct StyleKeyword;
+}
 namespace System {
 template<typename T>
 class IEquatable_1;
-}
-namespace UnityEngine::UIElements {
-struct StyleKeyword;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -32,14 +31,14 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE StyleTransformOrigin : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TransformOrigin>
-constexpr operator  ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TransformOrigin>() const;
+/// @brief Convert operator to UnityEngine::UIElements::IStyleValue_1<UnityEngine::UIElements::TransformOrigin>
+constexpr operator  UnityEngine::UIElements::IStyleValue_1<UnityEngine::UIElements::TransformOrigin>() const;
 
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::UIElements::StyleTransformOrigin>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::UIElements::StyleTransformOrigin>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::UIElements::StyleTransformOrigin>
+constexpr operator  System::IEquatable_1<UnityEngine::UIElements::StyleTransformOrigin>() const;
 
-// Ctor Parameters [CppParam { name: "m_Value", ty: "::UnityEngine::UIElements::TransformOrigin", modifiers: "", def_value: None }, CppParam { name: "m_Keyword", ty: "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: None }]
-constexpr StyleTransformOrigin(::UnityEngine::UIElements::TransformOrigin m_Value, ::UnityEngine::UIElements::StyleKeyword m_Keyword) noexcept;
+// Ctor Parameters [CppParam { name: "m_Value", ty: "UnityEngine::UIElements::TransformOrigin", modifiers: "", def_value: None }, CppParam { name: "m_Keyword", ty: "UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: None }]
+constexpr StyleTransformOrigin(UnityEngine::UIElements::TransformOrigin m_Value, UnityEngine::UIElements::StyleKeyword m_Keyword) noexcept;
 
 
                     constexpr StyleTransformOrigin(StyleTransformOrigin const&) = default;
@@ -72,48 +71,48 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::UIElements::TransformOrigin __declspec(property(get=__get_m_Value, put=__set_m_Value))  m_Value;
+ UnityEngine::UIElements::TransformOrigin __declspec(property(get=__get_m_Value, put=__set_m_Value))  m_Value;
 
-constexpr void __set_m_Value(::UnityEngine::UIElements::TransformOrigin value) ;
+constexpr void __set_m_Value(UnityEngine::UIElements::TransformOrigin value) ;
 
-constexpr ::UnityEngine::UIElements::TransformOrigin __get_m_Value() const;
+constexpr UnityEngine::UIElements::TransformOrigin __get_m_Value() const;
 
- ::UnityEngine::UIElements::StyleKeyword __declspec(property(get=__get_m_Keyword, put=__set_m_Keyword))  m_Keyword;
+ UnityEngine::UIElements::StyleKeyword __declspec(property(get=__get_m_Keyword, put=__set_m_Keyword))  m_Keyword;
 
-constexpr void __set_m_Keyword(::UnityEngine::UIElements::StyleKeyword value) ;
+constexpr void __set_m_Keyword(UnityEngine::UIElements::StyleKeyword value) ;
 
-constexpr ::UnityEngine::UIElements::StyleKeyword __get_m_Keyword() const;
+constexpr UnityEngine::UIElements::StyleKeyword __get_m_Keyword() const;
 
 
 // Properties
 
- ::UnityEngine::UIElements::TransformOrigin __declspec(property(get=get_value))  value;
+ UnityEngine::UIElements::TransformOrigin __declspec(property(get=get_value))  value;
 
- ::UnityEngine::UIElements::StyleKeyword __declspec(property(get=get_keyword))  keyword;
+ UnityEngine::UIElements::StyleKeyword __declspec(property(get=get_keyword))  keyword;
 
 
 // Methods
 
 /// @brief Method get_value addr 0x2cfbb34 size 0x40 virtual true final true
- ::UnityEngine::UIElements::TransformOrigin get_value() ;
+ UnityEngine::UIElements::TransformOrigin get_value() ;
 
 /// @brief Method get_keyword addr 0x2cfe148 size 0x8 virtual true final true
- ::UnityEngine::UIElements::StyleKeyword get_keyword() ;
+ UnityEngine::UIElements::StyleKeyword get_keyword() ;
 
 /// @brief Method .ctor addr 0x2cfe150 size 0xc virtual false final false
- void _ctor(::UnityEngine::UIElements::StyleKeyword keyword) ;
+ void _ctor(UnityEngine::UIElements::StyleKeyword keyword) ;
 
 /// @brief Method .ctor addr 0x2cfe15c size 0x18 virtual false final false
- void _ctor(::UnityEngine::UIElements::TransformOrigin v, ::UnityEngine::UIElements::StyleKeyword keyword) ;
+ void _ctor(UnityEngine::UIElements::TransformOrigin v, UnityEngine::UIElements::StyleKeyword keyword) ;
 
 /// @brief Method op_Equality addr 0x2cfe174 size 0x7c virtual false final false
-static bool op_Equality(::UnityEngine::UIElements::StyleTransformOrigin lhs, ::UnityEngine::UIElements::StyleTransformOrigin rhs) ;
+static bool op_Equality(UnityEngine::UIElements::StyleTransformOrigin lhs, UnityEngine::UIElements::StyleTransformOrigin rhs) ;
 
 /// @brief Method op_Implicit addr 0x2cfbd30 size 0xc virtual false final false
-static ::UnityEngine::UIElements::StyleTransformOrigin op_Implicit___UnityEngine__UIElements__StyleTransformOrigin(::UnityEngine::UIElements::StyleKeyword keyword) ;
+static UnityEngine::UIElements::StyleTransformOrigin op_Implicit_UnityEngine__UIElements__StyleTransformOrigin(UnityEngine::UIElements::StyleKeyword keyword) ;
 
 /// @brief Method Equals addr 0x2cfe250 size 0x8c virtual true final true
- bool Equals(::UnityEngine::UIElements::StyleTransformOrigin other) ;
+ bool Equals(UnityEngine::UIElements::StyleTransformOrigin other) ;
 
 /// @brief Method Equals addr 0x2cfe2dc size 0x90 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -128,5 +127,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleTransformOrigin, "UnityEngine.UIElements", "StyleTransformOrigin");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::StyleTransformOrigin, "UnityEngine.UIElements", "StyleTransformOrigin");

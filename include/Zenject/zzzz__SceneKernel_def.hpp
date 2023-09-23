@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__MonoKernel_def.hpp"
-namespace {
 namespace Zenject {
 class InjectTypeInfo;
 }
@@ -15,7 +14,7 @@ namespace Zenject {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11265))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11268))
 // CS Name: Zenject.SceneKernel
-class CORDL_TYPE SceneKernel : public ::Zenject::MonoKernel {
+class CORDL_TYPE SceneKernel : public Zenject::MonoKernel {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr SceneKernel(SceneKernel const& ) noexcept = default;
 constexpr SceneKernel(SceneKernel&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SceneKernel(void* ptr) noexcept : ::Zenject::MonoKernel(ptr) {
+constexpr explicit SceneKernel(void* ptr) noexcept : Zenject::MonoKernel(ptr) {
 }
 
 
@@ -58,12 +57,11 @@ explicit SceneKernel() ;
  void _ctor() ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x2d9d7d0 size 0x178 virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::SceneKernel);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::SceneKernel, "Zenject", "SceneKernel");
+NEED_NO_BOX(Zenject::SceneKernel);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::SceneKernel, "Zenject", "SceneKernel");

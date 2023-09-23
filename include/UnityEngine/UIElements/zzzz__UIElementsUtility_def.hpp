@@ -5,67 +5,66 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine::UIElements {
-class IUIElementsUtility;
-}
-namespace UnityEngine {
-class ____UnityEngine__GUILayoutUtility__LayoutCache;
-}
-namespace UnityEngine {
-struct Rect;
+class Panel;
 }
 namespace UnityEngine::UIElements {
-class BaseVisualElementPanel;
+class IMGUIContainer;
 }
 namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace UnityEngine {
-struct Color;
+template<typename T>
+class List_1;
 }
 namespace Unity::Profiling {
 struct ProfilerMarker;
 }
-namespace System {
-class Exception;
+namespace UnityEngine::UIElements {
+class IUIElementsUtility;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class Stack_1;
 }
-namespace UnityEngine::UIElements {
-class Panel;
+namespace UnityEngine {
+class UnityEngine__GUILayoutUtility__LayoutCache;
 }
 namespace UnityEngine {
 class Sprite;
 }
+namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine {
+class Event;
+}
 namespace UnityEngine::UIElements {
-class IMGUIContainer;
+class BaseVisualElementPanel;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
-struct ____System__Collections__Generic__Dictionary_2__Enumerator;
-}
-namespace UnityEngine {
-class Event;
-}
-namespace UnityEngine {
-struct EventType;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+struct System__Collections__Generic__Dictionary_2__Enumerator;
 }
 namespace UnityEngine::UIElements {
 struct ContextType;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
+}
+namespace System {
+class Exception;
+}
+namespace UnityEngine {
+struct EventType;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -80,8 +79,8 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE UIElementsUtility : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::UIElements::IUIElementsUtility
-constexpr operator  ::UnityEngine::UIElements::IUIElementsUtility() const noexcept;
+/// @brief Convert operator to UnityEngine::UIElements::IUIElementsUtility
+constexpr operator  UnityEngine::UIElements::IUIElementsUtility() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -116,29 +115,29 @@ constexpr explicit UIElementsUtility(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 
 // Fields
 
-static ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::IMGUIContainer> __declspec(property(get=__get_s_ContainerStack, put=__set_s_ContainerStack))  s_ContainerStack;
+static System::Collections::Generic::Stack_1<UnityEngine::UIElements::IMGUIContainer> __declspec(property(get=__get_s_ContainerStack, put=__set_s_ContainerStack))  s_ContainerStack;
 
-static void __set_s_ContainerStack(::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::IMGUIContainer> value) ;
+static void __set_s_ContainerStack(System::Collections::Generic::Stack_1<UnityEngine::UIElements::IMGUIContainer> value) ;
 
-static ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::IMGUIContainer> __get_s_ContainerStack() ;
+static System::Collections::Generic::Stack_1<UnityEngine::UIElements::IMGUIContainer> __get_s_ContainerStack() ;
 
-static ::System::Collections::Generic::Dictionary_2<int32_t,::UnityEngine::UIElements::Panel> __declspec(property(get=__get_s_UIElementsCache, put=__set_s_UIElementsCache))  s_UIElementsCache;
+static System::Collections::Generic::Dictionary_2<int32_t,UnityEngine::UIElements::Panel> __declspec(property(get=__get_s_UIElementsCache, put=__set_s_UIElementsCache))  s_UIElementsCache;
 
-static void __set_s_UIElementsCache(::System::Collections::Generic::Dictionary_2<int32_t,::UnityEngine::UIElements::Panel> value) ;
+static void __set_s_UIElementsCache(System::Collections::Generic::Dictionary_2<int32_t,UnityEngine::UIElements::Panel> value) ;
 
-static ::System::Collections::Generic::Dictionary_2<int32_t,::UnityEngine::UIElements::Panel> __get_s_UIElementsCache() ;
+static System::Collections::Generic::Dictionary_2<int32_t,UnityEngine::UIElements::Panel> __get_s_UIElementsCache() ;
 
-static ::UnityEngine::Event __declspec(property(get=__get_s_EventInstance, put=__set_s_EventInstance))  s_EventInstance;
+static UnityEngine::Event __declspec(property(get=__get_s_EventInstance, put=__set_s_EventInstance))  s_EventInstance;
 
-static void __set_s_EventInstance(::UnityEngine::Event value) ;
+static void __set_s_EventInstance(UnityEngine::Event value) ;
 
-static ::UnityEngine::Event __get_s_EventInstance() ;
+static UnityEngine::Event __get_s_EventInstance() ;
 
-static ::UnityEngine::Color __declspec(property(get=__get_editorPlayModeTintColor, put=__set_editorPlayModeTintColor))  editorPlayModeTintColor;
+static UnityEngine::Color __declspec(property(get=__get_editorPlayModeTintColor, put=__set_editorPlayModeTintColor))  editorPlayModeTintColor;
 
-static void __set_editorPlayModeTintColor(::UnityEngine::Color value) ;
+static void __set_editorPlayModeTintColor(UnityEngine::Color value) ;
 
-static ::UnityEngine::Color __get_editorPlayModeTintColor() ;
+static UnityEngine::Color __get_editorPlayModeTintColor() ;
 
 static float_t __declspec(property(get=__get_singleLineHeight, put=__set_singleLineHeight))  singleLineHeight;
 
@@ -146,17 +145,17 @@ static void __set_singleLineHeight(float_t value) ;
 
 static float_t __get_singleLineHeight() ;
 
-static ::UnityEngine::UIElements::UIElementsUtility __declspec(property(get=__get_s_Instance, put=__set_s_Instance))  s_Instance;
+static UnityEngine::UIElements::UIElementsUtility __declspec(property(get=__get_s_Instance, put=__set_s_Instance))  s_Instance;
 
-static void __set_s_Instance(::UnityEngine::UIElements::UIElementsUtility value) ;
+static void __set_s_Instance(UnityEngine::UIElements::UIElementsUtility value) ;
 
-static ::UnityEngine::UIElements::UIElementsUtility __get_s_Instance() ;
+static UnityEngine::UIElements::UIElementsUtility __get_s_Instance() ;
 
-static ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Panel> __declspec(property(get=__get_s_PanelsIterationList, put=__set_s_PanelsIterationList))  s_PanelsIterationList;
+static System::Collections::Generic::List_1<UnityEngine::UIElements::Panel> __declspec(property(get=__get_s_PanelsIterationList, put=__set_s_PanelsIterationList))  s_PanelsIterationList;
 
-static void __set_s_PanelsIterationList(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Panel> value) ;
+static void __set_s_PanelsIterationList(System::Collections::Generic::List_1<UnityEngine::UIElements::Panel> value) ;
 
-static ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Panel> __get_s_PanelsIterationList() ;
+static System::Collections::Generic::List_1<UnityEngine::UIElements::Panel> __get_s_PanelsIterationList() ;
 
 static ::StringW __declspec(property(get=__get_s_RepaintProfilerMarkerName, put=__set_s_RepaintProfilerMarkerName))  s_RepaintProfilerMarkerName;
 
@@ -170,17 +169,17 @@ static void __set_s_EventProfilerMarkerName(::StringW value) ;
 
 static ::StringW __get_s_EventProfilerMarkerName() ;
 
-static ::Unity::Profiling::ProfilerMarker __declspec(property(get=__get_s_RepaintProfilerMarker, put=__set_s_RepaintProfilerMarker))  s_RepaintProfilerMarker;
+static Unity::Profiling::ProfilerMarker __declspec(property(get=__get_s_RepaintProfilerMarker, put=__set_s_RepaintProfilerMarker))  s_RepaintProfilerMarker;
 
-static void __set_s_RepaintProfilerMarker(::Unity::Profiling::ProfilerMarker value) ;
+static void __set_s_RepaintProfilerMarker(Unity::Profiling::ProfilerMarker value) ;
 
-static ::Unity::Profiling::ProfilerMarker __get_s_RepaintProfilerMarker() ;
+static Unity::Profiling::ProfilerMarker __get_s_RepaintProfilerMarker() ;
 
-static ::Unity::Profiling::ProfilerMarker __declspec(property(get=__get_s_EventProfilerMarker, put=__set_s_EventProfilerMarker))  s_EventProfilerMarker;
+static Unity::Profiling::ProfilerMarker __declspec(property(get=__get_s_EventProfilerMarker, put=__set_s_EventProfilerMarker))  s_EventProfilerMarker;
 
-static void __set_s_EventProfilerMarker(::Unity::Profiling::ProfilerMarker value) ;
+static void __set_s_EventProfilerMarker(Unity::Profiling::ProfilerMarker value) ;
 
-static ::Unity::Profiling::ProfilerMarker __get_s_EventProfilerMarker() ;
+static Unity::Profiling::ProfilerMarker __get_s_EventProfilerMarker() ;
 
 
 // Methods
@@ -207,45 +206,44 @@ explicit UIElementsUtility() ;
  bool UnityEngine_UIElements_IUIElementsUtility_CleanupRoots() ;
 
 /// @brief Method UnityEngine.UIElements.IUIElementsUtility.EndContainerGUIFromException addr 0x2c84fbc size 0xc0 virtual true final true
- bool UnityEngine_UIElements_IUIElementsUtility_EndContainerGUIFromException(::System::Exception exception) ;
+ bool UnityEngine_UIElements_IUIElementsUtility_EndContainerGUIFromException(System::Exception exception) ;
 
 /// @brief Method RegisterCachedPanel addr 0x2c8507c size 0x90 virtual false final false
-static void RegisterCachedPanel(int32_t instanceID, ::UnityEngine::UIElements::Panel panel) ;
+static void RegisterCachedPanel(int32_t instanceID, UnityEngine::UIElements::Panel panel) ;
 
 /// @brief Method RemoveCachedPanel addr 0x2c8510c size 0x80 virtual false final false
 static void RemoveCachedPanel(int32_t instanceID) ;
 
 /// @brief Method TryGetPanel addr 0x2c8518c size 0x90 virtual false final false
-static bool TryGetPanel(int32_t instanceID, ByRef<::UnityEngine::UIElements::Panel> panel) ;
+static bool TryGetPanel(int32_t instanceID, ByRef<UnityEngine::UIElements::Panel> panel) ;
 
 /// @brief Method BeginContainerGUI addr 0x2c8521c size 0x1cc virtual false final false
-static void BeginContainerGUI(::UnityEngine::____UnityEngine__GUILayoutUtility__LayoutCache cache, ::UnityEngine::Event evt, ::UnityEngine::UIElements::IMGUIContainer container) ;
+static void BeginContainerGUI(UnityEngine::UnityEngine__GUILayoutUtility__LayoutCache cache, UnityEngine::Event evt, UnityEngine::UIElements::IMGUIContainer container) ;
 
 /// @brief Method EndContainerGUI addr 0x2c8548c size 0x224 virtual false final false
-static void EndContainerGUI(::UnityEngine::Event evt, ::UnityEngine::Rect layoutSize) ;
+static void EndContainerGUI(UnityEngine::Event evt, UnityEngine::Rect layoutSize) ;
 
 /// @brief Method CreateEvent addr 0x2c856b0 size 0x74 virtual false final false
-static ::UnityEngine::UIElements::EventBase CreateEvent(::UnityEngine::Event systemEvent) ;
+static UnityEngine::UIElements::EventBase CreateEvent(UnityEngine::Event systemEvent) ;
 
 /// @brief Method CreateEvent addr 0x2c85724 size 0x29c virtual false final false
-static ::UnityEngine::UIElements::EventBase CreateEvent(::UnityEngine::Event systemEvent, ::UnityEngine::EventType eventType) ;
+static UnityEngine::UIElements::EventBase CreateEvent(UnityEngine::Event systemEvent, UnityEngine::EventType eventType) ;
 
 /// @brief Method DoDispatch addr 0x2c848cc size 0x690 virtual false final false
-static bool DoDispatch(::UnityEngine::UIElements::BaseVisualElementPanel panel) ;
+static bool DoDispatch(UnityEngine::UIElements::BaseVisualElementPanel panel) ;
 
 /// @brief Method GetAllPanels addr 0x2c859c0 size 0x158 virtual false final false
-static void GetAllPanels(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Panel> panels, ::UnityEngine::UIElements::ContextType contextType) ;
+static void GetAllPanels(System::Collections::Generic::List_1<UnityEngine::UIElements::Panel> panels, UnityEngine::UIElements::ContextType contextType) ;
 
 /// @brief Method GetPanelsIterator addr 0x2c85b18 size 0xa8 virtual false final false
-static ::System::Collections::Generic::____System__Collections__Generic__Dictionary_2__Enumerator<int32_t,::UnityEngine::UIElements::Panel> GetPanelsIterator() ;
+static System::Collections::Generic::System__Collections__Generic__Dictionary_2__Enumerator<int32_t,UnityEngine::UIElements::Panel> GetPanelsIterator() ;
 
 /// @brief Method PixelsPerUnitScaleForElement addr 0x2c85bc0 size 0xa8 virtual false final false
-static float_t PixelsPerUnitScaleForElement(::UnityEngine::UIElements::VisualElement ve, ::UnityEngine::Sprite sprite) ;
+static float_t PixelsPerUnitScaleForElement(UnityEngine::UIElements::VisualElement ve, UnityEngine::Sprite sprite) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::UIElementsUtility);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIElementsUtility, "UnityEngine.UIElements", "UIElementsUtility");
+NEED_NO_BOX(UnityEngine::UIElements::UIElementsUtility);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIElementsUtility, "UnityEngine.UIElements", "UIElementsUtility");

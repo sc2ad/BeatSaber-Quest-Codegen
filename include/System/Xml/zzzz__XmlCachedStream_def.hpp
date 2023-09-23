@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/IO/zzzz__MemoryStream_def.hpp"
-namespace {
 namespace System {
 class Uri;
 }
@@ -18,7 +17,7 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11496))
 // CS Name: System.Xml.XmlCachedStream
-class CORDL_TYPE XmlCachedStream : public ::System::IO::MemoryStream {
+class CORDL_TYPE XmlCachedStream : public System::IO::MemoryStream {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr XmlCachedStream(XmlCachedStream const& ) noexcept = default;
 constexpr XmlCachedStream(XmlCachedStream&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XmlCachedStream(void* ptr) noexcept : ::System::IO::MemoryStream(ptr) {
+constexpr explicit XmlCachedStream(void* ptr) noexcept : System::IO::MemoryStream(ptr) {
 }
 
 
@@ -54,25 +53,24 @@ constexpr explicit XmlCachedStream(void* ptr) noexcept : ::System::IO::MemoryStr
 
 // Fields
 
- ::System::Uri __declspec(property(get=__get_uri, put=__set_uri))  uri;
+ System::Uri __declspec(property(get=__get_uri, put=__set_uri))  uri;
 
-constexpr void __set_uri(::System::Uri value) ;
+constexpr void __set_uri(System::Uri value) ;
 
-constexpr ::System::Uri __get_uri() const;
+constexpr System::Uri __get_uri() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "uri", ty: "::System::Uri", modifiers: "", def_value: None }, CppParam { name: "stream", ty: "::System::IO::Stream", modifiers: "", def_value: None }]
-explicit XmlCachedStream(::System::Uri uri, ::System::IO::Stream stream) ;
+// Ctor Parameters [CppParam { name: "uri", ty: "System::Uri", modifiers: "", def_value: None }, CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
+explicit XmlCachedStream(System::Uri uri, System::IO::Stream stream) ;
 
 /// @brief Method .ctor addr 0x2710964 size 0x174 virtual false final false
- void _ctor(::System::Uri uri, ::System::IO::Stream stream) ;
+ void _ctor(System::Uri uri, System::IO::Stream stream) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::XmlCachedStream);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlCachedStream, "System.Xml", "XmlCachedStream");
+NEED_NO_BOX(System::Xml::XmlCachedStream);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlCachedStream, "System.Xml", "XmlCachedStream");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace UnityEngine {
 struct Color;
 }
@@ -53,12 +52,11 @@ constexpr explicit ColorUtility(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 // Methods
 
 /// @brief Method ToHtmlStringRGB addr 0x2b62084 size 0x3f0 virtual false final false
-static ::StringW ToHtmlStringRGB(::UnityEngine::Color color) ;
+static ::StringW ToHtmlStringRGB(UnityEngine::Color color) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ColorUtility);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ColorUtility, "UnityEngine", "ColorUtility");
+NEED_NO_BOX(UnityEngine::ColorUtility);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ColorUtility, "UnityEngine", "ColorUtility");

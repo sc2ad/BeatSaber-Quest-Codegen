@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
-namespace UnityEngine {
-class Transform;
-}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5103))
 // CS Name: TrackLaneRing
-class CORDL_TYPE TrackLaneRing : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE TrackLaneRing : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr TrackLaneRing(TrackLaneRing const& ) noexcept = default;
 constexpr TrackLaneRing(TrackLaneRing&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TrackLaneRing(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit TrackLaneRing(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -103,17 +102,17 @@ constexpr void __set__moveSpeed(float_t value) ;
 
 constexpr float_t __get__moveSpeed() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__positionOffset, put=__set__positionOffset))  _positionOffset;
+ UnityEngine::Vector3 __declspec(property(get=__get__positionOffset, put=__set__positionOffset))  _positionOffset;
 
-constexpr void __set__positionOffset(::UnityEngine::Vector3 value) ;
+constexpr void __set__positionOffset(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__positionOffset() const;
+constexpr UnityEngine::Vector3 __get__positionOffset() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
+ UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
 
-constexpr void __set__transform(::UnityEngine::Transform value) ;
+constexpr void __set__transform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__transform() const;
+constexpr UnityEngine::Transform __get__transform() const;
 
 
 // Properties
@@ -127,7 +126,7 @@ constexpr ::UnityEngine::Transform __get__transform() const;
  float_t get_destRotZ() ;
 
 /// @brief Method Init addr 0x226c770 size 0x78 virtual false final false
- void Init(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 positionOffset) ;
+ void Init(UnityEngine::Vector3 position, UnityEngine::Vector3 positionOffset) ;
 
 /// @brief Method FixedUpdateRing addr 0x226c7e8 size 0x74 virtual false final false
  void FixedUpdateRing(float_t fixedDeltaTime) ;
@@ -157,6 +156,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::TrackLaneRing);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TrackLaneRing, "", "TrackLaneRing");
+NEED_NO_BOX(GlobalNamespace::TrackLaneRing);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRing, "", "TrackLaneRing");

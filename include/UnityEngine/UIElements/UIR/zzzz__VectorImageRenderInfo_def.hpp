@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPoolItem_1_def.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine::UIElements::UIR {
 struct Alloc;
 }
@@ -16,10 +15,10 @@ class VectorImageRenderInfo;
 // Type: UnityEngine.UIElements.UIR::VectorImageRenderInfo
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7499)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7499), inst: 395 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7499), inst: 395 }), TypeDefinitionIndex(TypeDefinitionIndex(7499))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7519))
 // CS Name: UnityEngine.UIElements.UIR.VectorImageRenderInfo
-class CORDL_TYPE VectorImageRenderInfo : public ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<::UnityEngine::UIElements::UIR::VectorImageRenderInfo> {
+class CORDL_TYPE VectorImageRenderInfo : public UnityEngine::UIElements::UIR::LinkedPoolItem_1<UnityEngine::UIElements::UIR::VectorImageRenderInfo> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr VectorImageRenderInfo(VectorImageRenderInfo const& ) noexcept = defaul
 constexpr VectorImageRenderInfo(VectorImageRenderInfo&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit VectorImageRenderInfo(void* ptr) noexcept : ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<::UnityEngine::UIElements::UIR::VectorImageRenderInfo>(ptr) {
+constexpr explicit VectorImageRenderInfo(void* ptr) noexcept : UnityEngine::UIElements::UIR::LinkedPoolItem_1<UnityEngine::UIElements::UIR::VectorImageRenderInfo>(ptr) {
 }
 
 
@@ -61,17 +60,17 @@ constexpr void __set_useCount(int32_t value) ;
 
 constexpr int32_t __get_useCount() const;
 
- ::UnityEngine::UIElements::UIR::GradientRemap __declspec(property(get=__get_firstGradientRemap, put=__set_firstGradientRemap))  firstGradientRemap;
+ UnityEngine::UIElements::UIR::GradientRemap __declspec(property(get=__get_firstGradientRemap, put=__set_firstGradientRemap))  firstGradientRemap;
 
-constexpr void __set_firstGradientRemap(::UnityEngine::UIElements::UIR::GradientRemap value) ;
+constexpr void __set_firstGradientRemap(UnityEngine::UIElements::UIR::GradientRemap value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::GradientRemap __get_firstGradientRemap() const;
+constexpr UnityEngine::UIElements::UIR::GradientRemap __get_firstGradientRemap() const;
 
- ::UnityEngine::UIElements::UIR::Alloc __declspec(property(get=__get_gradientSettingsAlloc, put=__set_gradientSettingsAlloc))  gradientSettingsAlloc;
+ UnityEngine::UIElements::UIR::Alloc __declspec(property(get=__get_gradientSettingsAlloc, put=__set_gradientSettingsAlloc))  gradientSettingsAlloc;
 
-constexpr void __set_gradientSettingsAlloc(::UnityEngine::UIElements::UIR::Alloc value) ;
+constexpr void __set_gradientSettingsAlloc(UnityEngine::UIElements::UIR::Alloc value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::Alloc __get_gradientSettingsAlloc() const;
+constexpr UnityEngine::UIElements::UIR::Alloc __get_gradientSettingsAlloc() const;
 
 
 // Methods
@@ -89,6 +88,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::UIR
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::UIR::VectorImageRenderInfo);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::VectorImageRenderInfo, "UnityEngine.UIElements.UIR", "VectorImageRenderInfo");
+NEED_NO_BOX(UnityEngine::UIElements::UIR::VectorImageRenderInfo);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::VectorImageRenderInfo, "UnityEngine.UIElements.UIR", "VectorImageRenderInfo");

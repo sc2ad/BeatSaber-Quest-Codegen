@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Diagnostics/Tracing/zzzz__EventSource_def.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Collections::Concurrent {
 class CDSCollectionETWBCLProvider;
@@ -13,7 +12,7 @@ namespace System::Collections::Concurrent {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3732))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3790))
 // CS Name: System.Collections.Concurrent.CDSCollectionETWBCLProvider
-class CORDL_TYPE CDSCollectionETWBCLProvider : public ::System::Diagnostics::Tracing::EventSource {
+class CORDL_TYPE CDSCollectionETWBCLProvider : public System::Diagnostics::Tracing::EventSource {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr CDSCollectionETWBCLProvider(CDSCollectionETWBCLProvider const& ) noexc
 constexpr CDSCollectionETWBCLProvider(CDSCollectionETWBCLProvider&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CDSCollectionETWBCLProvider(void* ptr) noexcept : ::System::Diagnostics::Tracing::EventSource(ptr) {
+constexpr explicit CDSCollectionETWBCLProvider(void* ptr) noexcept : System::Diagnostics::Tracing::EventSource(ptr) {
 }
 
 
@@ -49,11 +48,11 @@ constexpr explicit CDSCollectionETWBCLProvider(void* ptr) noexcept : ::System::D
 
 // Fields
 
-static ::System::Collections::Concurrent::CDSCollectionETWBCLProvider __declspec(property(get=__get_Log, put=__set_Log))  Log;
+static System::Collections::Concurrent::CDSCollectionETWBCLProvider __declspec(property(get=__get_Log, put=__set_Log))  Log;
 
-static void __set_Log(::System::Collections::Concurrent::CDSCollectionETWBCLProvider value) ;
+static void __set_Log(System::Collections::Concurrent::CDSCollectionETWBCLProvider value) ;
 
-static ::System::Collections::Concurrent::CDSCollectionETWBCLProvider __get_Log() ;
+static System::Collections::Concurrent::CDSCollectionETWBCLProvider __get_Log() ;
 
 
 // Methods
@@ -71,6 +70,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Collections::Concurrent
-} // end anonymous namespace
-NEED_NO_BOX(::System::Collections::Concurrent::CDSCollectionETWBCLProvider);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Concurrent::CDSCollectionETWBCLProvider, "System.Collections.Concurrent", "CDSCollectionETWBCLProvider");
+NEED_NO_BOX(System::Collections::Concurrent::CDSCollectionETWBCLProvider);
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::Concurrent::CDSCollectionETWBCLProvider, "System.Collections.Concurrent", "CDSCollectionETWBCLProvider");

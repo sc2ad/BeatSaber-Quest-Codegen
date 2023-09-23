@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 struct ExpressionType;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType const Unknown;
+static UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType const Unknown;
 
 /// @brief Field Data offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType const Data;
+static UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType const Data;
 
 /// @brief Field Keyword offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType const Keyword;
+static UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType const Keyword;
 
 /// @brief Field Combinator offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType const Combinator;
+static UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType const Combinator;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::StyleSheets::Syntax
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType, "UnityEngine.UIElements.StyleSheets.Syntax", "ExpressionType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType, "UnityEngine.UIElements.StyleSheets.Syntax", "ExpressionType");

@@ -1,15 +1,14 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Net/NetworkInformation/zzzz__GatewayIPAddressInformation_def.hpp"
-namespace {
-namespace System::Net {
-class IPAddress;
-}
 namespace System::Net::NetworkInformation {
 class GatewayIPAddressInformationCollection;
 }
 namespace System::Net::NetworkInformation {
 class IPAddressCollection;
+}
+namespace System::Net {
+class IPAddress;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {
@@ -21,7 +20,7 @@ namespace System::Net::NetworkInformation {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8096))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8106))
 // CS Name: System.Net.NetworkInformation.SystemGatewayIPAddressInformation
-class CORDL_TYPE SystemGatewayIPAddressInformation : public ::System::Net::NetworkInformation::GatewayIPAddressInformation {
+class CORDL_TYPE SystemGatewayIPAddressInformation : public System::Net::NetworkInformation::GatewayIPAddressInformation {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr SystemGatewayIPAddressInformation(SystemGatewayIPAddressInformation co
 constexpr SystemGatewayIPAddressInformation(SystemGatewayIPAddressInformation&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SystemGatewayIPAddressInformation(void* ptr) noexcept : ::System::Net::NetworkInformation::GatewayIPAddressInformation(ptr) {
+constexpr explicit SystemGatewayIPAddressInformation(void* ptr) noexcept : System::Net::NetworkInformation::GatewayIPAddressInformation(ptr) {
 }
 
 
@@ -57,28 +56,27 @@ constexpr explicit SystemGatewayIPAddressInformation(void* ptr) noexcept : ::Sys
 
 // Fields
 
- ::System::Net::IPAddress __declspec(property(get=__get_address, put=__set_address))  address;
+ System::Net::IPAddress __declspec(property(get=__get_address, put=__set_address))  address;
 
-constexpr void __set_address(::System::Net::IPAddress value) ;
+constexpr void __set_address(System::Net::IPAddress value) ;
 
-constexpr ::System::Net::IPAddress __get_address() const;
+constexpr System::Net::IPAddress __get_address() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "address", ty: "::System::Net::IPAddress", modifiers: "", def_value: None }]
-explicit SystemGatewayIPAddressInformation(::System::Net::IPAddress address) ;
+// Ctor Parameters [CppParam { name: "address", ty: "System::Net::IPAddress", modifiers: "", def_value: None }]
+explicit SystemGatewayIPAddressInformation(System::Net::IPAddress address) ;
 
 /// @brief Method .ctor addr 0x28592f8 size 0x28 virtual false final false
- void _ctor(::System::Net::IPAddress address) ;
+ void _ctor(System::Net::IPAddress address) ;
 
 /// @brief Method ToGatewayIpAddressInformationCollection addr 0x2859320 size 0x2f0 virtual false final false
-static ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection ToGatewayIpAddressInformationCollection(::System::Net::NetworkInformation::IPAddressCollection addresses) ;
+static System::Net::NetworkInformation::GatewayIPAddressInformationCollection ToGatewayIpAddressInformationCollection(System::Net::NetworkInformation::IPAddressCollection addresses) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::NetworkInformation
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::NetworkInformation::SystemGatewayIPAddressInformation);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::SystemGatewayIPAddressInformation, "System.Net.NetworkInformation", "SystemGatewayIPAddressInformation");
+NEED_NO_BOX(System::Net::NetworkInformation::SystemGatewayIPAddressInformation);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::SystemGatewayIPAddressInformation, "System.Net.NetworkInformation", "SystemGatewayIPAddressInformation");

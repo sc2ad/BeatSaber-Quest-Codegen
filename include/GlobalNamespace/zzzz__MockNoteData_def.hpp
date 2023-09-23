@@ -3,18 +3,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
-struct NoteLineLayer;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__NoteData__GameplayType;
+struct ColorType;
 }
 namespace GlobalNamespace {
 struct NoteCutDirection;
 }
 namespace GlobalNamespace {
-struct ColorType;
+struct NoteLineLayer;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__NoteData__GameplayType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -74,29 +73,29 @@ constexpr void __set__lineIndex_k__BackingField(int32_t value) ;
 
 constexpr int32_t __get__lineIndex_k__BackingField() const;
 
- ::GlobalNamespace::____GlobalNamespace__NoteData__GameplayType __declspec(property(get=__get__gameplayType_k__BackingField, put=__set__gameplayType_k__BackingField))  _gameplayType_k__BackingField;
+ GlobalNamespace::GlobalNamespace__NoteData__GameplayType __declspec(property(get=__get__gameplayType_k__BackingField, put=__set__gameplayType_k__BackingField))  _gameplayType_k__BackingField;
 
-constexpr void __set__gameplayType_k__BackingField(::GlobalNamespace::____GlobalNamespace__NoteData__GameplayType value) ;
+constexpr void __set__gameplayType_k__BackingField(GlobalNamespace::GlobalNamespace__NoteData__GameplayType value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__NoteData__GameplayType __get__gameplayType_k__BackingField() const;
+constexpr GlobalNamespace::GlobalNamespace__NoteData__GameplayType __get__gameplayType_k__BackingField() const;
 
- ::GlobalNamespace::ColorType __declspec(property(get=__get__colorType_k__BackingField, put=__set__colorType_k__BackingField))  _colorType_k__BackingField;
+ GlobalNamespace::ColorType __declspec(property(get=__get__colorType_k__BackingField, put=__set__colorType_k__BackingField))  _colorType_k__BackingField;
 
-constexpr void __set__colorType_k__BackingField(::GlobalNamespace::ColorType value) ;
+constexpr void __set__colorType_k__BackingField(GlobalNamespace::ColorType value) ;
 
-constexpr ::GlobalNamespace::ColorType __get__colorType_k__BackingField() const;
+constexpr GlobalNamespace::ColorType __get__colorType_k__BackingField() const;
 
- ::GlobalNamespace::NoteCutDirection __declspec(property(get=__get__cutDirection_k__BackingField, put=__set__cutDirection_k__BackingField))  _cutDirection_k__BackingField;
+ GlobalNamespace::NoteCutDirection __declspec(property(get=__get__cutDirection_k__BackingField, put=__set__cutDirection_k__BackingField))  _cutDirection_k__BackingField;
 
-constexpr void __set__cutDirection_k__BackingField(::GlobalNamespace::NoteCutDirection value) ;
+constexpr void __set__cutDirection_k__BackingField(GlobalNamespace::NoteCutDirection value) ;
 
-constexpr ::GlobalNamespace::NoteCutDirection __get__cutDirection_k__BackingField() const;
+constexpr GlobalNamespace::NoteCutDirection __get__cutDirection_k__BackingField() const;
 
- ::GlobalNamespace::NoteLineLayer __declspec(property(get=__get__noteLineLayer_k__BackingField, put=__set__noteLineLayer_k__BackingField))  _noteLineLayer_k__BackingField;
+ GlobalNamespace::NoteLineLayer __declspec(property(get=__get__noteLineLayer_k__BackingField, put=__set__noteLineLayer_k__BackingField))  _noteLineLayer_k__BackingField;
 
-constexpr void __set__noteLineLayer_k__BackingField(::GlobalNamespace::NoteLineLayer value) ;
+constexpr void __set__noteLineLayer_k__BackingField(GlobalNamespace::NoteLineLayer value) ;
 
-constexpr ::GlobalNamespace::NoteLineLayer __get__noteLineLayer_k__BackingField() const;
+constexpr GlobalNamespace::NoteLineLayer __get__noteLineLayer_k__BackingField() const;
 
  float_t __declspec(property(get=__get__duration_k__BackingField, put=__set__duration_k__BackingField))  _duration_k__BackingField;
 
@@ -111,13 +110,13 @@ constexpr float_t __get__duration_k__BackingField() const;
 
  int32_t __declspec(property(get=get_lineIndex, put=set_lineIndex))  lineIndex;
 
- ::GlobalNamespace::____GlobalNamespace__NoteData__GameplayType __declspec(property(get=get_gameplayType, put=set_gameplayType))  gameplayType;
+ GlobalNamespace::GlobalNamespace__NoteData__GameplayType __declspec(property(get=get_gameplayType, put=set_gameplayType))  gameplayType;
 
- ::GlobalNamespace::ColorType __declspec(property(get=get_colorType, put=set_colorType))  colorType;
+ GlobalNamespace::ColorType __declspec(property(get=get_colorType, put=set_colorType))  colorType;
 
- ::GlobalNamespace::NoteCutDirection __declspec(property(get=get_cutDirection, put=set_cutDirection))  cutDirection;
+ GlobalNamespace::NoteCutDirection __declspec(property(get=get_cutDirection, put=set_cutDirection))  cutDirection;
 
- ::GlobalNamespace::NoteLineLayer __declspec(property(get=get_noteLineLayer, put=set_noteLineLayer))  noteLineLayer;
+ GlobalNamespace::NoteLineLayer __declspec(property(get=get_noteLineLayer, put=set_noteLineLayer))  noteLineLayer;
 
  float_t __declspec(property(get=get_duration, put=set_duration))  duration;
 
@@ -137,28 +136,28 @@ constexpr float_t __get__duration_k__BackingField() const;
  void set_lineIndex(int32_t value) ;
 
 /// @brief Method get_gameplayType addr 0x2279664 size 0x8 virtual false final false
- ::GlobalNamespace::____GlobalNamespace__NoteData__GameplayType get_gameplayType() ;
+ GlobalNamespace::GlobalNamespace__NoteData__GameplayType get_gameplayType() ;
 
 /// @brief Method set_gameplayType addr 0x227966c size 0x8 virtual false final false
- void set_gameplayType(::GlobalNamespace::____GlobalNamespace__NoteData__GameplayType value) ;
+ void set_gameplayType(GlobalNamespace::GlobalNamespace__NoteData__GameplayType value) ;
 
 /// @brief Method get_colorType addr 0x2279674 size 0x8 virtual false final false
- ::GlobalNamespace::ColorType get_colorType() ;
+ GlobalNamespace::ColorType get_colorType() ;
 
 /// @brief Method set_colorType addr 0x227967c size 0x8 virtual false final false
- void set_colorType(::GlobalNamespace::ColorType value) ;
+ void set_colorType(GlobalNamespace::ColorType value) ;
 
 /// @brief Method get_cutDirection addr 0x2279684 size 0x8 virtual false final false
- ::GlobalNamespace::NoteCutDirection get_cutDirection() ;
+ GlobalNamespace::NoteCutDirection get_cutDirection() ;
 
 /// @brief Method set_cutDirection addr 0x227968c size 0x8 virtual false final false
- void set_cutDirection(::GlobalNamespace::NoteCutDirection value) ;
+ void set_cutDirection(GlobalNamespace::NoteCutDirection value) ;
 
 /// @brief Method get_noteLineLayer addr 0x2279694 size 0x8 virtual false final false
- ::GlobalNamespace::NoteLineLayer get_noteLineLayer() ;
+ GlobalNamespace::NoteLineLayer get_noteLineLayer() ;
 
 /// @brief Method set_noteLineLayer addr 0x227969c size 0x8 virtual false final false
- void set_noteLineLayer(::GlobalNamespace::NoteLineLayer value) ;
+ void set_noteLineLayer(GlobalNamespace::NoteLineLayer value) ;
 
 /// @brief Method get_duration addr 0x22796a4 size 0x8 virtual false final false
  float_t get_duration() ;
@@ -179,6 +178,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MockNoteData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MockNoteData, "", "MockNoteData");
+NEED_NO_BOX(GlobalNamespace::MockNoteData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockNoteData, "", "MockNoteData");

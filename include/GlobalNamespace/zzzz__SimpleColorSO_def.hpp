@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__ColorSO_def.hpp"
-namespace {
 namespace UnityEngine {
 struct Color;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16038))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16041))
 // CS Name: SimpleColorSO
-class CORDL_TYPE SimpleColorSO : public ::GlobalNamespace::ColorSO {
+class CORDL_TYPE SimpleColorSO : public GlobalNamespace::ColorSO {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr SimpleColorSO(SimpleColorSO const& ) noexcept = default;
 constexpr SimpleColorSO(SimpleColorSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SimpleColorSO(void* ptr) noexcept : ::GlobalNamespace::ColorSO(ptr) {
+constexpr explicit SimpleColorSO(void* ptr) noexcept : GlobalNamespace::ColorSO(ptr) {
 }
 
 
@@ -51,25 +50,25 @@ constexpr explicit SimpleColorSO(void* ptr) noexcept : ::GlobalNamespace::ColorS
 
 // Fields
 
- ::UnityEngine::Color __declspec(property(get=__get__color, put=__set__color))  _color;
+ UnityEngine::Color __declspec(property(get=__get__color, put=__set__color))  _color;
 
-constexpr void __set__color(::UnityEngine::Color value) ;
+constexpr void __set__color(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__color() const;
+constexpr UnityEngine::Color __get__color() const;
 
 
 // Properties
 
- ::UnityEngine::Color __declspec(property(get=get_color))  color;
+ UnityEngine::Color __declspec(property(get=get_color))  color;
 
 
 // Methods
 
 /// @brief Method get_color addr 0x11a3710 size 0xc virtual true final false
- ::UnityEngine::Color get_color() ;
+ UnityEngine::Color get_color() ;
 
 /// @brief Method SetColor addr 0x11a371c size 0xc virtual false final false
- void SetColor(::UnityEngine::Color c) ;
+ void SetColor(UnityEngine::Color c) ;
 
 // Ctor Parameters []
 explicit SimpleColorSO() ;
@@ -81,6 +80,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SimpleColorSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SimpleColorSO, "", "SimpleColorSO");
+NEED_NO_BOX(GlobalNamespace::SimpleColorSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleColorSO, "", "SimpleColorSO");

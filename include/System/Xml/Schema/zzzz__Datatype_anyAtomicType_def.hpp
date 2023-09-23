@@ -1,18 +1,17 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_anySimpleType_def.hpp"
-namespace {
 namespace System::Xml::Schema {
-struct XmlTypeCode;
+class XmlValueConverter;
 }
 namespace System::Xml::Schema {
-class XmlSchemaType;
+struct XmlTypeCode;
 }
 namespace System::Xml::Schema {
 struct XmlSchemaWhiteSpace;
 }
 namespace System::Xml::Schema {
-class XmlValueConverter;
+class XmlSchemaType;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -24,7 +23,7 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11566))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11567))
 // CS Name: System.Xml.Schema.Datatype_anyAtomicType
-class CORDL_TYPE Datatype_anyAtomicType : public ::System::Xml::Schema::Datatype_anySimpleType {
+class CORDL_TYPE Datatype_anyAtomicType : public System::Xml::Schema::Datatype_anySimpleType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr Datatype_anyAtomicType(Datatype_anyAtomicType const& ) noexcept = defa
 constexpr Datatype_anyAtomicType(Datatype_anyAtomicType&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Datatype_anyAtomicType(void* ptr) noexcept : ::System::Xml::Schema::Datatype_anySimpleType(ptr) {
+constexpr explicit Datatype_anyAtomicType(void* ptr) noexcept : System::Xml::Schema::Datatype_anySimpleType(ptr) {
 }
 
 
@@ -60,21 +59,21 @@ constexpr explicit Datatype_anyAtomicType(void* ptr) noexcept : ::System::Xml::S
 
 // Properties
 
- ::System::Xml::Schema::XmlSchemaWhiteSpace __declspec(property(get=get_BuiltInWhitespaceFacet))  BuiltInWhitespaceFacet;
+ System::Xml::Schema::XmlSchemaWhiteSpace __declspec(property(get=get_BuiltInWhitespaceFacet))  BuiltInWhitespaceFacet;
 
- ::System::Xml::Schema::XmlTypeCode __declspec(property(get=get_TypeCode))  TypeCode;
+ System::Xml::Schema::XmlTypeCode __declspec(property(get=get_TypeCode))  TypeCode;
 
 
 // Methods
 
 /// @brief Method CreateValueConverter addr 0x2723edc size 0x58 virtual true final false
- ::System::Xml::Schema::XmlValueConverter CreateValueConverter(::System::Xml::Schema::XmlSchemaType schemaType) ;
+ System::Xml::Schema::XmlValueConverter CreateValueConverter(System::Xml::Schema::XmlSchemaType schemaType) ;
 
 /// @brief Method get_BuiltInWhitespaceFacet addr 0x2723f34 size 0x8 virtual true final false
- ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet() ;
+ System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet() ;
 
 /// @brief Method get_TypeCode addr 0x2723f3c size 0x8 virtual true final false
- ::System::Xml::Schema::XmlTypeCode get_TypeCode() ;
+ System::Xml::Schema::XmlTypeCode get_TypeCode() ;
 
 // Ctor Parameters []
 explicit Datatype_anyAtomicType() ;
@@ -86,6 +85,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::Datatype_anyAtomicType);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::Datatype_anyAtomicType, "System.Xml.Schema", "Datatype_anyAtomicType");
+NEED_NO_BOX(System::Xml::Schema::Datatype_anyAtomicType);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::Datatype_anyAtomicType, "System.Xml.Schema", "Datatype_anyAtomicType");

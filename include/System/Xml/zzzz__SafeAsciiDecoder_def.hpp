@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Xml {
 class SafeAsciiDecoder;
@@ -15,7 +14,7 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2823))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11498))
 // CS Name: System.Xml.SafeAsciiDecoder
-class CORDL_TYPE SafeAsciiDecoder : public ::System::Text::Decoder {
+class CORDL_TYPE SafeAsciiDecoder : public System::Text::Decoder {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr SafeAsciiDecoder(SafeAsciiDecoder const& ) noexcept = default;
 constexpr SafeAsciiDecoder(SafeAsciiDecoder&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SafeAsciiDecoder(void* ptr) noexcept : ::System::Text::Decoder(ptr) {
+constexpr explicit SafeAsciiDecoder(void* ptr) noexcept : System::Text::Decoder(ptr) {
 }
 
 
@@ -70,6 +69,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::SafeAsciiDecoder);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::SafeAsciiDecoder, "System.Xml", "SafeAsciiDecoder");
+NEED_NO_BOX(System::Xml::SafeAsciiDecoder);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::SafeAsciiDecoder, "System.Xml", "SafeAsciiDecoder");

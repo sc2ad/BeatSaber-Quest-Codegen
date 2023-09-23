@@ -1,15 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__FactoryFromBinder_6_def.hpp"
-namespace {
+namespace Zenject {
+class BindInfo;
+}
 namespace Zenject {
 class FactoryBindInfo;
 }
 namespace Zenject {
 class DiContainer;
-}
-namespace Zenject {
-class BindInfo;
 }
 namespace Zenject {
 template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TContract>
@@ -30,10 +29,10 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TParam2,::cordl_internals::il2cpp_reference_type TParam3,::cordl_internals::il2cpp_reference_type TParam4,::cordl_internals::il2cpp_reference_type TParam5,::cordl_internals::il2cpp_reference_type TContract>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10707), inst: 1755 }), TypeDefinitionIndex(TypeDefinitionIndex(10796)), TypeDefinitionIndex(TypeDefinitionIndex(10707))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10796)), TypeDefinitionIndex(TypeDefinitionIndex(10707)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10707), inst: 1755 })}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10796), inst: 5939 })
 // CS Name: Zenject.FactoryToChoiceBinder`6
-class CORDL_TYPE FactoryToChoiceBinder_6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract> : public ::Zenject::FactoryFromBinder_6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract> {
+class CORDL_TYPE FactoryToChoiceBinder_6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract> : public Zenject::FactoryFromBinder_6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -48,7 +47,7 @@ constexpr FactoryToChoiceBinder_6(FactoryToChoiceBinder_6 const& ) noexcept = de
 constexpr FactoryToChoiceBinder_6(FactoryToChoiceBinder_6&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FactoryToChoiceBinder_6(void* ptr) noexcept : ::Zenject::FactoryFromBinder_6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract>(ptr) {
+constexpr explicit FactoryToChoiceBinder_6(void* ptr) noexcept : Zenject::FactoryFromBinder_6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract>(ptr) {
 }
 
 
@@ -69,22 +68,21 @@ constexpr explicit FactoryToChoiceBinder_6(void* ptr) noexcept : ::Zenject::Fact
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindContainer", ty: "::Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "::Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "factoryBindInfo", ty: "::Zenject::FactoryBindInfo", modifiers: "", def_value: None }]
-explicit FactoryToChoiceBinder_6(::Zenject::DiContainer bindContainer, ::Zenject::BindInfo bindInfo, ::Zenject::FactoryBindInfo factoryBindInfo) ;
+// Ctor Parameters [CppParam { name: "bindContainer", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "factoryBindInfo", ty: "Zenject::FactoryBindInfo", modifiers: "", def_value: None }]
+explicit FactoryToChoiceBinder_6(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::Zenject::DiContainer bindContainer, ::Zenject::BindInfo bindInfo, ::Zenject::FactoryBindInfo factoryBindInfo) ;
+ void _ctor(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;
 
 /// @brief Method ToSelf addr 0x0 size 0xffffffffffffffff virtual false final false
- ::Zenject::FactoryFromBinder_6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract> ToSelf() ;
+ Zenject::FactoryFromBinder_6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract> ToSelf() ;
 
 /// @brief Method To addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TConcrete>
- ::Zenject::FactoryFromBinder_6<TParam1,TParam2,TParam3,TParam4,TParam5,TConcrete> To() ;
+ Zenject::FactoryFromBinder_6<TParam1,TParam2,TParam3,TParam4,TParam5,TConcrete> To() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::FactoryToChoiceBinder_6, "Zenject", "FactoryToChoiceBinder`6");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::FactoryToChoiceBinder_6, "Zenject", "FactoryToChoiceBinder`6");

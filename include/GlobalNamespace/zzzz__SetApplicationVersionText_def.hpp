@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace TMPro {
 class TextMeshPro;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5147))
 // CS Name: SetApplicationVersionText
-class CORDL_TYPE SetApplicationVersionText : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SetApplicationVersionText : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr SetApplicationVersionText(SetApplicationVersionText const& ) noexcept 
 constexpr SetApplicationVersionText(SetApplicationVersionText&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SetApplicationVersionText(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SetApplicationVersionText(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit SetApplicationVersionText(void* ptr) noexcept : ::UnityEngine
 
 // Fields
 
- ::TMPro::TextMeshPro __declspec(property(get=__get__versionText, put=__set__versionText))  _versionText;
+ TMPro::TextMeshPro __declspec(property(get=__get__versionText, put=__set__versionText))  _versionText;
 
-constexpr void __set__versionText(::TMPro::TextMeshPro value) ;
+constexpr void __set__versionText(TMPro::TextMeshPro value) ;
 
-constexpr ::TMPro::TextMeshPro __get__versionText() const;
+constexpr TMPro::TextMeshPro __get__versionText() const;
 
 
 // Methods
@@ -73,6 +72,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SetApplicationVersionText);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SetApplicationVersionText, "", "SetApplicationVersionText");
+NEED_NO_BOX(GlobalNamespace::SetApplicationVersionText);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetApplicationVersionText, "", "SetApplicationVersionText");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace GlobalNamespace {
 struct SongPackMask;
 }
@@ -28,12 +27,11 @@ constexpr explicit IServerSongPackProvider(void* ptr) noexcept : ::cordl_interna
 // Methods
 
 /// @brief Method DecomposeSongPackMask addr 0x0 size 0xffffffffffffffff virtual true final false
- ::ArrayW<::GlobalNamespace::SongPackMask> DecomposeSongPackMask(::GlobalNamespace::SongPackMask songPackMask) ;
+ ::ArrayW<GlobalNamespace::SongPackMask> DecomposeSongPackMask(GlobalNamespace::SongPackMask songPackMask) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IServerSongPackProvider);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IServerSongPackProvider, "", "IServerSongPackProvider");
+NEED_NO_BOX(GlobalNamespace::IServerSongPackProvider);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IServerSongPackProvider, "", "IServerSongPackProvider");

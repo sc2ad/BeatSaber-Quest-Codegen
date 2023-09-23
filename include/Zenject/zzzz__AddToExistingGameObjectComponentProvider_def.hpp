@@ -2,12 +2,15 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__AddToGameObjectComponentProviderBase_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace Zenject {
-class InjectContext;
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace System {
+class Type;
 }
 namespace Zenject {
-struct TypeValuePair;
+class InjectContext;
 }
 namespace UnityEngine {
 class GameObject;
@@ -15,12 +18,8 @@ class GameObject;
 namespace Zenject {
 class DiContainer;
 }
-namespace System {
-class Type;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+namespace Zenject {
+struct TypeValuePair;
 }
 namespace System {
 template<typename T1,typename T2>
@@ -36,7 +35,7 @@ namespace Zenject {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11127))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11124))
 // CS Name: Zenject.AddToExistingGameObjectComponentProvider
-class CORDL_TYPE AddToExistingGameObjectComponentProvider : public ::Zenject::AddToGameObjectComponentProviderBase {
+class CORDL_TYPE AddToExistingGameObjectComponentProvider : public Zenject::AddToGameObjectComponentProviderBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -51,7 +50,7 @@ constexpr AddToExistingGameObjectComponentProvider(AddToExistingGameObjectCompon
 constexpr AddToExistingGameObjectComponentProvider(AddToExistingGameObjectComponentProvider&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AddToExistingGameObjectComponentProvider(void* ptr) noexcept : ::Zenject::AddToGameObjectComponentProviderBase(ptr) {
+constexpr explicit AddToExistingGameObjectComponentProvider(void* ptr) noexcept : Zenject::AddToGameObjectComponentProviderBase(ptr) {
 }
 
 
@@ -72,11 +71,11 @@ constexpr explicit AddToExistingGameObjectComponentProvider(void* ptr) noexcept 
 
 // Fields
 
- ::UnityEngine::GameObject __declspec(property(get=__get__gameObject, put=__set__gameObject))  _gameObject;
+ UnityEngine::GameObject __declspec(property(get=__get__gameObject, put=__set__gameObject))  _gameObject;
 
-constexpr void __set__gameObject(::UnityEngine::GameObject value) ;
+constexpr void __set__gameObject(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__gameObject() const;
+constexpr UnityEngine::GameObject __get__gameObject() const;
 
 
 // Properties
@@ -86,22 +85,21 @@ constexpr ::UnityEngine::GameObject __get__gameObject() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "gameObject", ty: "::UnityEngine::GameObject", modifiers: "", def_value: None }, CppParam { name: "container", ty: "::Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "componentType", ty: "::System::Type", modifiers: "", def_value: None }, CppParam { name: "extraArguments", ty: "::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>", modifiers: "", def_value: None }, CppParam { name: "concreteIdentifier", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "instantiateCallback", ty: "::System::Action_2<::Zenject::InjectContext,::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
-explicit AddToExistingGameObjectComponentProvider(::UnityEngine::GameObject gameObject, ::Zenject::DiContainer container, ::System::Type componentType, ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair> extraArguments, ::bs_hook::Il2CppWrapperType concreteIdentifier, ::System::Action_2<::Zenject::InjectContext,::bs_hook::Il2CppWrapperType> instantiateCallback) ;
+// Ctor Parameters [CppParam { name: "gameObject", ty: "UnityEngine::GameObject", modifiers: "", def_value: None }, CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "componentType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "extraArguments", ty: "System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>", modifiers: "", def_value: None }, CppParam { name: "concreteIdentifier", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "instantiateCallback", ty: "System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
+explicit AddToExistingGameObjectComponentProvider(UnityEngine::GameObject gameObject, Zenject::DiContainer container, System::Type componentType, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair> extraArguments, ::bs_hook::Il2CppWrapperType concreteIdentifier, System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> instantiateCallback) ;
 
 /// @brief Method .ctor addr 0x2d8cd44 size 0x38 virtual false final false
- void _ctor(::UnityEngine::GameObject gameObject, ::Zenject::DiContainer container, ::System::Type componentType, ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair> extraArguments, ::bs_hook::Il2CppWrapperType concreteIdentifier, ::System::Action_2<::Zenject::InjectContext,::bs_hook::Il2CppWrapperType> instantiateCallback) ;
+ void _ctor(UnityEngine::GameObject gameObject, Zenject::DiContainer container, System::Type componentType, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair> extraArguments, ::bs_hook::Il2CppWrapperType concreteIdentifier, System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> instantiateCallback) ;
 
 /// @brief Method get_ShouldToggleActive addr 0x2d8ce5c size 0x8 virtual true final false
  bool get_ShouldToggleActive() ;
 
 /// @brief Method GetGameObject addr 0x2d8ce64 size 0x8 virtual true final false
- ::UnityEngine::GameObject GetGameObject(::Zenject::InjectContext context) ;
+ UnityEngine::GameObject GetGameObject(Zenject::InjectContext context) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::AddToExistingGameObjectComponentProvider);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::AddToExistingGameObjectComponentProvider, "Zenject", "AddToExistingGameObjectComponentProvider");
+NEED_NO_BOX(Zenject::AddToExistingGameObjectComponentProvider);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::AddToExistingGameObjectComponentProvider, "Zenject", "AddToExistingGameObjectComponentProvider");

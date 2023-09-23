@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto {
-class IEntropySource;
-}
 namespace Org::BouncyCastle::Crypto {
 class IMac;
 }
 namespace Org::BouncyCastle::Crypto::Prng::Drbg {
 class ISP80090Drbg;
+}
+namespace Org::BouncyCastle::Crypto {
+class IEntropySource;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Prng::Drbg {
@@ -26,8 +25,8 @@ namespace Org::BouncyCastle::Crypto::Prng::Drbg {
 class CORDL_TYPE HMacSP800Drbg : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg
-constexpr operator  ::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg
+constexpr operator  Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -86,17 +85,17 @@ constexpr void __set_mV(::ArrayW<uint8_t> value) ;
 
 constexpr ::ArrayW<uint8_t> __get_mV() const;
 
- ::Org::BouncyCastle::Crypto::IEntropySource __declspec(property(get=__get_mEntropySource, put=__set_mEntropySource))  mEntropySource;
+ Org::BouncyCastle::Crypto::IEntropySource __declspec(property(get=__get_mEntropySource, put=__set_mEntropySource))  mEntropySource;
 
-constexpr void __set_mEntropySource(::Org::BouncyCastle::Crypto::IEntropySource value) ;
+constexpr void __set_mEntropySource(Org::BouncyCastle::Crypto::IEntropySource value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IEntropySource __get_mEntropySource() const;
+constexpr Org::BouncyCastle::Crypto::IEntropySource __get_mEntropySource() const;
 
- ::Org::BouncyCastle::Crypto::IMac __declspec(property(get=__get_mHMac, put=__set_mHMac))  mHMac;
+ Org::BouncyCastle::Crypto::IMac __declspec(property(get=__get_mHMac, put=__set_mHMac))  mHMac;
 
-constexpr void __set_mHMac(::Org::BouncyCastle::Crypto::IMac value) ;
+constexpr void __set_mHMac(Org::BouncyCastle::Crypto::IMac value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IMac __get_mHMac() const;
+constexpr Org::BouncyCastle::Crypto::IMac __get_mHMac() const;
 
  int32_t __declspec(property(get=__get_mSecurityStrength, put=__set_mSecurityStrength))  mSecurityStrength;
 
@@ -118,11 +117,11 @@ constexpr int64_t __get_mReseedCounter() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "hMac", ty: "::Org::BouncyCastle::Crypto::IMac", modifiers: "", def_value: None }, CppParam { name: "securityStrength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "entropySource", ty: "::Org::BouncyCastle::Crypto::IEntropySource", modifiers: "", def_value: None }, CppParam { name: "personalizationString", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "nonce", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit HMacSP800Drbg(::Org::BouncyCastle::Crypto::IMac hMac, int32_t securityStrength, ::Org::BouncyCastle::Crypto::IEntropySource entropySource, ::ArrayW<uint8_t> personalizationString, ::ArrayW<uint8_t> nonce) ;
+// Ctor Parameters [CppParam { name: "hMac", ty: "Org::BouncyCastle::Crypto::IMac", modifiers: "", def_value: None }, CppParam { name: "securityStrength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "entropySource", ty: "Org::BouncyCastle::Crypto::IEntropySource", modifiers: "", def_value: None }, CppParam { name: "personalizationString", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "nonce", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
+explicit HMacSP800Drbg(Org::BouncyCastle::Crypto::IMac hMac, int32_t securityStrength, Org::BouncyCastle::Crypto::IEntropySource entropySource, ::ArrayW<uint8_t> personalizationString, ::ArrayW<uint8_t> nonce) ;
 
 /// @brief Method .ctor addr 0xeb2a1c size 0x354 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IMac hMac, int32_t securityStrength, ::Org::BouncyCastle::Crypto::IEntropySource entropySource, ::ArrayW<uint8_t> personalizationString, ::ArrayW<uint8_t> nonce) ;
+ void _ctor(Org::BouncyCastle::Crypto::IMac hMac, int32_t securityStrength, Org::BouncyCastle::Crypto::IEntropySource entropySource, ::ArrayW<uint8_t> personalizationString, ::ArrayW<uint8_t> nonce) ;
 
 /// @brief Method hmac_DRBG_Update addr 0xeb2e88 size 0x40 virtual false final false
  void hmac_DRBG_Update(::ArrayW<uint8_t> seedMaterial) ;
@@ -146,6 +145,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Prng::Drbg
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg, "Org.BouncyCastle.Crypto.Prng.Drbg", "HMacSP800Drbg");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg, "Org.BouncyCastle.Crypto.Prng.Drbg", "HMacSP800Drbg");

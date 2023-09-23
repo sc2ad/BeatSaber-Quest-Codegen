@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Globalization {
 struct CompareOptions;
@@ -74,35 +73,34 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::Globalization::CompareOptions const None;
+static System::Globalization::CompareOptions const None;
 
 /// @brief Field IgnoreCase offset 0
-static ::System::Globalization::CompareOptions const IgnoreCase;
+static System::Globalization::CompareOptions const IgnoreCase;
 
 /// @brief Field IgnoreNonSpace offset 0
-static ::System::Globalization::CompareOptions const IgnoreNonSpace;
+static System::Globalization::CompareOptions const IgnoreNonSpace;
 
 /// @brief Field IgnoreSymbols offset 0
-static ::System::Globalization::CompareOptions const IgnoreSymbols;
+static System::Globalization::CompareOptions const IgnoreSymbols;
 
 /// @brief Field IgnoreKanaType offset 0
-static ::System::Globalization::CompareOptions const IgnoreKanaType;
+static System::Globalization::CompareOptions const IgnoreKanaType;
 
 /// @brief Field IgnoreWidth offset 0
-static ::System::Globalization::CompareOptions const IgnoreWidth;
+static System::Globalization::CompareOptions const IgnoreWidth;
 
 /// @brief Field OrdinalIgnoreCase offset 0
-static ::System::Globalization::CompareOptions const OrdinalIgnoreCase;
+static System::Globalization::CompareOptions const OrdinalIgnoreCase;
 
 /// @brief Field StringSort offset 0
-static ::System::Globalization::CompareOptions const StringSort;
+static System::Globalization::CompareOptions const StringSort;
 
 /// @brief Field Ordinal offset 0
-static ::System::Globalization::CompareOptions const Ordinal;
+static System::Globalization::CompareOptions const Ordinal;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Globalization
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::CompareOptions, "System.Globalization", "CompareOptions");
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CompareOptions, "System.Globalization", "CompareOptions");

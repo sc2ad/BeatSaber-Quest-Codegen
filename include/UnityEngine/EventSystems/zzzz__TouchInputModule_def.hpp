@@ -2,12 +2,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerInputModule_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
 namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -19,7 +18,7 @@ namespace UnityEngine::EventSystems {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13142))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13145))
 // CS Name: UnityEngine.EventSystems.TouchInputModule
-class CORDL_TYPE TouchInputModule : public ::UnityEngine::EventSystems::PointerInputModule {
+class CORDL_TYPE TouchInputModule : public UnityEngine::EventSystems::PointerInputModule {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr TouchInputModule(TouchInputModule const& ) noexcept = default;
 constexpr TouchInputModule(TouchInputModule&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TouchInputModule(void* ptr) noexcept : ::UnityEngine::EventSystems::PointerInputModule(ptr) {
+constexpr explicit TouchInputModule(void* ptr) noexcept : UnityEngine::EventSystems::PointerInputModule(ptr) {
 }
 
 
@@ -55,23 +54,23 @@ constexpr explicit TouchInputModule(void* ptr) noexcept : ::UnityEngine::EventSy
 
 // Fields
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_m_LastMousePosition, put=__set_m_LastMousePosition))  m_LastMousePosition;
+ UnityEngine::Vector2 __declspec(property(get=__get_m_LastMousePosition, put=__set_m_LastMousePosition))  m_LastMousePosition;
 
-constexpr void __set_m_LastMousePosition(::UnityEngine::Vector2 value) ;
+constexpr void __set_m_LastMousePosition(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_m_LastMousePosition() const;
+constexpr UnityEngine::Vector2 __get_m_LastMousePosition() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_m_MousePosition, put=__set_m_MousePosition))  m_MousePosition;
+ UnityEngine::Vector2 __declspec(property(get=__get_m_MousePosition, put=__set_m_MousePosition))  m_MousePosition;
 
-constexpr void __set_m_MousePosition(::UnityEngine::Vector2 value) ;
+constexpr void __set_m_MousePosition(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_m_MousePosition() const;
+constexpr UnityEngine::Vector2 __get_m_MousePosition() const;
 
- ::UnityEngine::EventSystems::PointerEventData __declspec(property(get=__get_m_InputPointerEvent, put=__set_m_InputPointerEvent))  m_InputPointerEvent;
+ UnityEngine::EventSystems::PointerEventData __declspec(property(get=__get_m_InputPointerEvent, put=__set_m_InputPointerEvent))  m_InputPointerEvent;
 
-constexpr void __set_m_InputPointerEvent(::UnityEngine::EventSystems::PointerEventData value) ;
+constexpr void __set_m_InputPointerEvent(UnityEngine::EventSystems::PointerEventData value) ;
 
-constexpr ::UnityEngine::EventSystems::PointerEventData __get_m_InputPointerEvent() const;
+constexpr UnityEngine::EventSystems::PointerEventData __get_m_InputPointerEvent() const;
 
  bool __declspec(property(get=__get_m_ForceModuleActive, put=__set_m_ForceModuleActive))  m_ForceModuleActive;
 
@@ -129,7 +128,7 @@ explicit TouchInputModule() ;
  void ProcessTouchEvents() ;
 
 /// @brief Method ProcessTouchPress addr 0x2c26348 size 0x668 virtual false final false
- void ProcessTouchPress(::UnityEngine::EventSystems::PointerEventData pointerEvent, bool pressed, bool released) ;
+ void ProcessTouchPress(UnityEngine::EventSystems::PointerEventData pointerEvent, bool pressed, bool released) ;
 
 /// @brief Method DeactivateModule addr 0x2c269b0 size 0x4 virtual true final false
  void DeactivateModule() ;
@@ -141,6 +140,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::EventSystems
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::EventSystems::TouchInputModule);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::TouchInputModule, "UnityEngine.EventSystems", "TouchInputModule");
+NEED_NO_BOX(UnityEngine::EventSystems::TouchInputModule);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::TouchInputModule, "UnityEngine.EventSystems", "TouchInputModule");

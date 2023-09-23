@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class AdvancingFrontNode;
 }
@@ -56,58 +55,57 @@ constexpr explicit AdvancingFront(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
- ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode __declspec(property(get=__get_Head, put=__set_Head))  Head;
+ UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode __declspec(property(get=__get_Head, put=__set_Head))  Head;
 
-constexpr void __set_Head(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode value) ;
+constexpr void __set_Head(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode value) ;
 
-constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode __get_Head() const;
+constexpr UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode __get_Head() const;
 
- ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode __declspec(property(get=__get_Tail, put=__set_Tail))  Tail;
+ UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode __declspec(property(get=__get_Tail, put=__set_Tail))  Tail;
 
-constexpr void __set_Tail(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode value) ;
+constexpr void __set_Tail(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode value) ;
 
-constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode __get_Tail() const;
+constexpr UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode __get_Tail() const;
 
- ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode __declspec(property(get=__get_Search, put=__set_Search))  Search;
+ UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode __declspec(property(get=__get_Search, put=__set_Search))  Search;
 
-constexpr void __set_Search(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode value) ;
+constexpr void __set_Search(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode value) ;
 
-constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode __get_Search() const;
+constexpr UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode __get_Search() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "head", ty: "::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode", modifiers: "", def_value: None }, CppParam { name: "tail", ty: "::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode", modifiers: "", def_value: None }]
-explicit AdvancingFront(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode head, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode tail) ;
+// Ctor Parameters [CppParam { name: "head", ty: "UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode", modifiers: "", def_value: None }, CppParam { name: "tail", ty: "UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode", modifiers: "", def_value: None }]
+explicit AdvancingFront(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode head, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode tail) ;
 
 /// @brief Method .ctor addr 0x299d0e8 size 0x30 virtual false final false
- void _ctor(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode head, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode tail) ;
+ void _ctor(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode head, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode tail) ;
 
 /// @brief Method AddNode addr 0x299d118 size 0x4 virtual false final false
- void AddNode(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode node) ;
+ void AddNode(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode node) ;
 
 /// @brief Method RemoveNode addr 0x299d11c size 0x4 virtual false final false
- void RemoveNode(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode node) ;
+ void RemoveNode(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode node) ;
 
 /// @brief Method ToString addr 0x299d120 size 0xe8 virtual true final false
  ::StringW ToString() ;
 
 /// @brief Method FindSearchNode addr 0x299d208 size 0x8 virtual false final false
- ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode FindSearchNode(double_t x) ;
+ UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode FindSearchNode(double_t x) ;
 
 /// @brief Method LocateNode addr 0x299d210 size 0x18 virtual false final false
- ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode LocateNode(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint point) ;
+ UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode LocateNode(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint point) ;
 
 /// @brief Method LocateNode addr 0x299d228 size 0x5c virtual false final false
- ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode LocateNode(double_t x) ;
+ UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode LocateNode(double_t x) ;
 
 /// @brief Method LocatePoint addr 0x299d284 size 0xf4 virtual false final false
- ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode LocatePoint(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint point) ;
+ UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode LocatePoint(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint point) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder::Poly2Tri
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront, "UnityEngine.ProBuilder.Poly2Tri", "AdvancingFront");
+NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::AdvancingFront);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::AdvancingFront, "UnityEngine.ProBuilder.Poly2Tri", "AdvancingFront");

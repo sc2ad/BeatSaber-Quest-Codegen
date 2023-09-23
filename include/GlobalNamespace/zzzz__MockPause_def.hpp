@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace System {
-class Action;
-}
 namespace GlobalNamespace {
 class IGamePause;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,8 +20,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE MockPause : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IGamePause
-constexpr operator  ::GlobalNamespace::IGamePause() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IGamePause
+constexpr operator  GlobalNamespace::IGamePause() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -57,23 +56,23 @@ constexpr explicit MockPause(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 
 // Fields
 
- ::System::Action __declspec(property(get=__get_didPauseEvent, put=__set_didPauseEvent))  didPauseEvent;
+ System::Action __declspec(property(get=__get_didPauseEvent, put=__set_didPauseEvent))  didPauseEvent;
 
-constexpr void __set_didPauseEvent(::System::Action value) ;
+constexpr void __set_didPauseEvent(System::Action value) ;
 
-constexpr ::System::Action __get_didPauseEvent() const;
+constexpr System::Action __get_didPauseEvent() const;
 
- ::System::Action __declspec(property(get=__get_willResumeEvent, put=__set_willResumeEvent))  willResumeEvent;
+ System::Action __declspec(property(get=__get_willResumeEvent, put=__set_willResumeEvent))  willResumeEvent;
 
-constexpr void __set_willResumeEvent(::System::Action value) ;
+constexpr void __set_willResumeEvent(System::Action value) ;
 
-constexpr ::System::Action __get_willResumeEvent() const;
+constexpr System::Action __get_willResumeEvent() const;
 
- ::System::Action __declspec(property(get=__get_didResumeEvent, put=__set_didResumeEvent))  didResumeEvent;
+ System::Action __declspec(property(get=__get_didResumeEvent, put=__set_didResumeEvent))  didResumeEvent;
 
-constexpr void __set_didResumeEvent(::System::Action value) ;
+constexpr void __set_didResumeEvent(System::Action value) ;
 
-constexpr ::System::Action __get_didResumeEvent() const;
+constexpr System::Action __get_didResumeEvent() const;
 
 
 // Properties
@@ -87,22 +86,22 @@ constexpr ::System::Action __get_didResumeEvent() const;
  bool get_isPaused() ;
 
 /// @brief Method add_didPauseEvent addr 0x20ce904 size 0x9c virtual true final true
- void add_didPauseEvent(::System::Action value) ;
+ void add_didPauseEvent(System::Action value) ;
 
 /// @brief Method remove_didPauseEvent addr 0x20ce9a0 size 0x9c virtual true final true
- void remove_didPauseEvent(::System::Action value) ;
+ void remove_didPauseEvent(System::Action value) ;
 
 /// @brief Method add_willResumeEvent addr 0x20cea3c size 0x9c virtual true final true
- void add_willResumeEvent(::System::Action value) ;
+ void add_willResumeEvent(System::Action value) ;
 
 /// @brief Method remove_willResumeEvent addr 0x20cead8 size 0x9c virtual true final true
- void remove_willResumeEvent(::System::Action value) ;
+ void remove_willResumeEvent(System::Action value) ;
 
 /// @brief Method add_didResumeEvent addr 0x20ceb74 size 0x9c virtual true final true
- void add_didResumeEvent(::System::Action value) ;
+ void add_didResumeEvent(System::Action value) ;
 
 /// @brief Method remove_didResumeEvent addr 0x20cec10 size 0x9c virtual true final true
- void remove_didResumeEvent(::System::Action value) ;
+ void remove_didResumeEvent(System::Action value) ;
 
 /// @brief Method Pause addr 0x20cecac size 0x40 virtual true final true
  void Pause() ;
@@ -123,6 +122,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MockPause);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MockPause, "", "MockPause");
+NEED_NO_BOX(GlobalNamespace::MockPause);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPause, "", "MockPause");

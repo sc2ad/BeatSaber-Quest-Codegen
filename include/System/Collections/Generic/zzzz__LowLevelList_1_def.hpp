@@ -3,14 +3,13 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
 namespace System {
 template<typename T>
 class Predicate_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
@@ -139,7 +138,7 @@ explicit LowLevelList_1(int32_t capacity) ;
  void EnsureCapacity(int32_t min) ;
 
 /// @brief Method AddRange addr 0x0 size 0xffffffffffffffff virtual false final false
- void AddRange(::System::Collections::Generic::IEnumerable_1<T> collection) ;
+ void AddRange(System::Collections::Generic::IEnumerable_1<T> collection) ;
 
 /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual true final true
  void Clear() ;
@@ -157,13 +156,13 @@ explicit LowLevelList_1(int32_t capacity) ;
  void Insert(int32_t index, T item) ;
 
 /// @brief Method InsertRange addr 0x0 size 0xffffffffffffffff virtual false final false
- void InsertRange(int32_t index, ::System::Collections::Generic::IEnumerable_1<T> collection) ;
+ void InsertRange(int32_t index, System::Collections::Generic::IEnumerable_1<T> collection) ;
 
 /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual true final true
  bool Remove(T item) ;
 
 /// @brief Method RemoveAll addr 0x0 size 0xffffffffffffffff virtual false final false
- int32_t RemoveAll(::System::Predicate_1<T> match) ;
+ int32_t RemoveAll(System::Predicate_1<T> match) ;
 
 /// @brief Method RemoveAt addr 0x0 size 0xffffffffffffffff virtual true final true
  void RemoveAt(int32_t index) ;
@@ -175,5 +174,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Collections::Generic
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Generic::LowLevelList_1, "System.Collections.Generic", "LowLevelList`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::LowLevelList_1, "System.Collections.Generic", "LowLevelList`1");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
 namespace UnityEngine::Playables {
 class IPlayable;
 }
@@ -25,14 +24,14 @@ namespace UnityEngine::Experimental::Video {
 struct CORDL_TYPE VideoClipPlayable : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::Playables::IPlayable
-constexpr operator  ::UnityEngine::Playables::IPlayable() const;
+/// @brief Convert operator to UnityEngine::Playables::IPlayable
+constexpr operator  UnityEngine::Playables::IPlayable() const;
 
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::Experimental::Video::VideoClipPlayable>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::Experimental::Video::VideoClipPlayable>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::Experimental::Video::VideoClipPlayable>
+constexpr operator  System::IEquatable_1<UnityEngine::Experimental::Video::VideoClipPlayable>() const;
 
-// Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]
-constexpr VideoClipPlayable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
+// Ctor Parameters [CppParam { name: "m_Handle", ty: "UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]
+constexpr VideoClipPlayable(UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
 
 
                     constexpr VideoClipPlayable(VideoClipPlayable const&) = default;
@@ -65,24 +64,23 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Playables::PlayableHandle __declspec(property(get=__get_m_Handle, put=__set_m_Handle))  m_Handle;
+ UnityEngine::Playables::PlayableHandle __declspec(property(get=__get_m_Handle, put=__set_m_Handle))  m_Handle;
 
-constexpr void __set_m_Handle(::UnityEngine::Playables::PlayableHandle value) ;
+constexpr void __set_m_Handle(UnityEngine::Playables::PlayableHandle value) ;
 
-constexpr ::UnityEngine::Playables::PlayableHandle __get_m_Handle() const;
+constexpr UnityEngine::Playables::PlayableHandle __get_m_Handle() const;
 
 
 // Methods
 
 /// @brief Method GetHandle addr 0x2d38728 size 0xc virtual true final true
- ::UnityEngine::Playables::PlayableHandle GetHandle() ;
+ UnityEngine::Playables::PlayableHandle GetHandle() ;
 
 /// @brief Method Equals addr 0x2d38734 size 0x78 virtual true final true
- bool Equals(::UnityEngine::Experimental::Video::VideoClipPlayable other) ;
+ bool Equals(UnityEngine::Experimental::Video::VideoClipPlayable other) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Experimental::Video
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::Video::VideoClipPlayable, "UnityEngine.Experimental.Video", "VideoClipPlayable");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Video::VideoClipPlayable, "UnityEngine.Experimental.Video", "VideoClipPlayable");

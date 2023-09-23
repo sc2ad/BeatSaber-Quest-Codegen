@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 class IEquatable_1;
@@ -14,7 +13,7 @@ namespace UnityEngine::InputSystem::Layouts {
 struct InputDeviceDescription;
 }
 namespace UnityEngine::InputSystem::Layouts {
-struct ____UnityEngine__InputSystem__Layouts__InputDeviceDescription__DeviceDescriptionJson;
+struct UnityEngine__InputSystem__Layouts__InputDeviceDescription__DeviceDescriptionJson;
 }
 // Type: ::DeviceDescriptionJson
 namespace UnityEngine::InputSystem::Layouts {
@@ -22,20 +21,20 @@ namespace UnityEngine::InputSystem::Layouts {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6702))
 // CS Name: UnityEngine.InputSystem.Layouts.InputDeviceDescription::DeviceDescriptionJson
-struct CORDL_TYPE ____UnityEngine__InputSystem__Layouts__InputDeviceDescription__DeviceDescriptionJson : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__InputSystem__Layouts__InputDeviceDescription__DeviceDescriptionJson : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "interface", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "product", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "serial", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "version", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "manufacturer", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "capabilities", ty: "::StringW", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__InputSystem__Layouts__InputDeviceDescription__DeviceDescriptionJson(::StringW interface, ::StringW type, ::StringW product, ::StringW serial, ::StringW version, ::StringW manufacturer, ::StringW capabilities) noexcept;
+constexpr UnityEngine__InputSystem__Layouts__InputDeviceDescription__DeviceDescriptionJson(::StringW interface, ::StringW type, ::StringW product, ::StringW serial, ::StringW version, ::StringW manufacturer, ::StringW capabilities) noexcept;
 
 
-                    constexpr ____UnityEngine__InputSystem__Layouts__InputDeviceDescription__DeviceDescriptionJson(____UnityEngine__InputSystem__Layouts__InputDeviceDescription__DeviceDescriptionJson const&) = default;
-                    constexpr ____UnityEngine__InputSystem__Layouts__InputDeviceDescription__DeviceDescriptionJson(____UnityEngine__InputSystem__Layouts__InputDeviceDescription__DeviceDescriptionJson&&) = default;
-                    constexpr ____UnityEngine__InputSystem__Layouts__InputDeviceDescription__DeviceDescriptionJson& operator=(____UnityEngine__InputSystem__Layouts__InputDeviceDescription__DeviceDescriptionJson const& o) {
+                    constexpr UnityEngine__InputSystem__Layouts__InputDeviceDescription__DeviceDescriptionJson(UnityEngine__InputSystem__Layouts__InputDeviceDescription__DeviceDescriptionJson const&) = default;
+                    constexpr UnityEngine__InputSystem__Layouts__InputDeviceDescription__DeviceDescriptionJson(UnityEngine__InputSystem__Layouts__InputDeviceDescription__DeviceDescriptionJson&&) = default;
+                    constexpr UnityEngine__InputSystem__Layouts__InputDeviceDescription__DeviceDescriptionJson& operator=(UnityEngine__InputSystem__Layouts__InputDeviceDescription__DeviceDescriptionJson const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__InputSystem__Layouts__InputDeviceDescription__DeviceDescriptionJson& operator=(____UnityEngine__InputSystem__Layouts__InputDeviceDescription__DeviceDescriptionJson&& o) noexcept {
+                    constexpr UnityEngine__InputSystem__Layouts__InputDeviceDescription__DeviceDescriptionJson& operator=(UnityEngine__InputSystem__Layouts__InputDeviceDescription__DeviceDescriptionJson&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -48,7 +47,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x38};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__InputSystem__Layouts__InputDeviceDescription__DeviceDescriptionJson(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__InputSystem__Layouts__InputDeviceDescription__DeviceDescriptionJson(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -114,10 +113,10 @@ namespace UnityEngine::InputSystem::Layouts {
 struct CORDL_TYPE InputDeviceDescription : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-using DeviceDescriptionJson = ::UnityEngine::InputSystem::Layouts::____UnityEngine__InputSystem__Layouts__InputDeviceDescription__DeviceDescriptionJson;
+using DeviceDescriptionJson = UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputDeviceDescription__DeviceDescriptionJson;
 
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::InputSystem::Layouts::InputDeviceDescription>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::InputSystem::Layouts::InputDeviceDescription>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::InputSystem::Layouts::InputDeviceDescription>
+constexpr operator  System::IEquatable_1<UnityEngine::InputSystem::Layouts::InputDeviceDescription>() const;
 
 // Ctor Parameters [CppParam { name: "m_InterfaceName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_DeviceClass", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Manufacturer", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Product", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Serial", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Version", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Capabilities", ty: "::StringW", modifiers: "", def_value: None }]
 constexpr InputDeviceDescription(::StringW m_InterfaceName, ::StringW m_DeviceClass, ::StringW m_Manufacturer, ::StringW m_Product, ::StringW m_Serial, ::StringW m_Version, ::StringW m_Capabilities) noexcept;
@@ -266,7 +265,7 @@ constexpr ::StringW __get_m_Capabilities() const;
  ::StringW ToString() ;
 
 /// @brief Method Equals addr 0x29743d0 size 0xb0 virtual true final true
- bool Equals(::UnityEngine::InputSystem::Layouts::InputDeviceDescription other) ;
+ bool Equals(UnityEngine::InputSystem::Layouts::InputDeviceDescription other) ;
 
 /// @brief Method Equals addr 0x2974480 size 0x98 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -275,16 +274,16 @@ constexpr ::StringW __get_m_Capabilities() const;
  int32_t GetHashCode() ;
 
 /// @brief Method op_Equality addr 0x2974640 size 0x38 virtual false final false
-static bool op_Equality(::UnityEngine::InputSystem::Layouts::InputDeviceDescription left, ::UnityEngine::InputSystem::Layouts::InputDeviceDescription right) ;
+static bool op_Equality(UnityEngine::InputSystem::Layouts::InputDeviceDescription left, UnityEngine::InputSystem::Layouts::InputDeviceDescription right) ;
 
 /// @brief Method op_Inequality addr 0x2974678 size 0x3c virtual false final false
-static bool op_Inequality(::UnityEngine::InputSystem::Layouts::InputDeviceDescription left, ::UnityEngine::InputSystem::Layouts::InputDeviceDescription right) ;
+static bool op_Inequality(UnityEngine::InputSystem::Layouts::InputDeviceDescription left, UnityEngine::InputSystem::Layouts::InputDeviceDescription right) ;
 
 /// @brief Method ToJson addr 0x29746b4 size 0x80 virtual false final false
  ::StringW ToJson() ;
 
 /// @brief Method FromJson addr 0x2974734 size 0xcc virtual false final false
-static ::UnityEngine::InputSystem::Layouts::InputDeviceDescription FromJson(::StringW json) ;
+static UnityEngine::InputSystem::Layouts::InputDeviceDescription FromJson(::StringW json) ;
 
 /// @brief Method ComparePropertyToDeviceDescriptor addr 0x2974800 size 0x90 virtual false final false
 static bool ComparePropertyToDeviceDescriptor(::StringW propertyName, ::StringW propertyValue, ::StringW deviceDescriptor) ;
@@ -293,6 +292,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Layouts
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::InputDeviceDescription, "UnityEngine.InputSystem.Layouts", "InputDeviceDescription");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::____UnityEngine__InputSystem__Layouts__InputDeviceDescription__DeviceDescriptionJson, "UnityEngine.InputSystem.Layouts", "InputDeviceDescription/DeviceDescriptionJson");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Layouts::InputDeviceDescription, "UnityEngine.InputSystem.Layouts", "InputDeviceDescription");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputDeviceDescription__DeviceDescriptionJson, "UnityEngine.InputSystem.Layouts", "InputDeviceDescription/DeviceDescriptionJson");

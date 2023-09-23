@@ -4,9 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System::IO {
 class Stream;
+}
+namespace System::Net {
+class WebOperation;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
@@ -15,15 +20,9 @@ class Task_1;
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace System::Net {
-class WebOperation;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
 // Forward declare root types
 namespace System::Net {
-struct ____System__Net__ContentDecodeStream__Mode;
+struct System__Net__ContentDecodeStream__Mode;
 }
 namespace System::Net {
 class ContentDecodeStream;
@@ -34,20 +33,20 @@ namespace System::Net {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8006))
 // CS Name: System.Net.ContentDecodeStream::Mode
-struct CORDL_TYPE ____System__Net__ContentDecodeStream__Mode : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE System__Net__ContentDecodeStream__Mode : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____System__Net__ContentDecodeStream__Mode(int32_t value__) noexcept;
+constexpr System__Net__ContentDecodeStream__Mode(int32_t value__) noexcept;
 
 
-                    constexpr ____System__Net__ContentDecodeStream__Mode(____System__Net__ContentDecodeStream__Mode const&) = default;
-                    constexpr ____System__Net__ContentDecodeStream__Mode(____System__Net__ContentDecodeStream__Mode&&) = default;
-                    constexpr ____System__Net__ContentDecodeStream__Mode& operator=(____System__Net__ContentDecodeStream__Mode const& o) {
+                    constexpr System__Net__ContentDecodeStream__Mode(System__Net__ContentDecodeStream__Mode const&) = default;
+                    constexpr System__Net__ContentDecodeStream__Mode(System__Net__ContentDecodeStream__Mode&&) = default;
+                    constexpr System__Net__ContentDecodeStream__Mode& operator=(System__Net__ContentDecodeStream__Mode const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Net__ContentDecodeStream__Mode& operator=(____System__Net__ContentDecodeStream__Mode&& o) noexcept {
+                    constexpr System__Net__ContentDecodeStream__Mode& operator=(System__Net__ContentDecodeStream__Mode&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -60,7 +59,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Net__ContentDecodeStream__Mode(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Net__ContentDecodeStream__Mode(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -68,14 +67,14 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______System__Net__ContentDecodeStream__Mode_Unwrapped : int32_t {
+enum class __System__Net__ContentDecodeStream__Mode_Unwrapped : int32_t {
 __GZip = 0,
 __Deflate = 1,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______System__Net__ContentDecodeStream__Mode_Unwrapped () const noexcept {
-return std::bit_cast<______System__Net__ContentDecodeStream__Mode_Unwrapped>(__instance);
+constexpr operator __System__Net__ContentDecodeStream__Mode_Unwrapped () const noexcept {
+return std::bit_cast<__System__Net__ContentDecodeStream__Mode_Unwrapped>(__instance);
 }
 
 
@@ -88,10 +87,10 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field GZip offset 0
-static ::System::Net::____System__Net__ContentDecodeStream__Mode const GZip;
+static System::Net::System__Net__ContentDecodeStream__Mode const GZip;
 
 /// @brief Field Deflate offset 0
-static ::System::Net::____System__Net__ContentDecodeStream__Mode const Deflate;
+static System::Net::System__Net__ContentDecodeStream__Mode const Deflate;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -103,10 +102,10 @@ namespace System::Net {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8080))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8007))
 // CS Name: System.Net.ContentDecodeStream
-class CORDL_TYPE ContentDecodeStream : public ::System::Net::WebReadStream {
+class CORDL_TYPE ContentDecodeStream : public System::Net::WebReadStream {
 public:
 // Declarations
-using Mode = ::System::Net::____System__Net__ContentDecodeStream__Mode;
+using Mode = System::Net::System__Net__ContentDecodeStream__Mode;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
@@ -120,7 +119,7 @@ constexpr ContentDecodeStream(ContentDecodeStream const& ) noexcept = default;
 constexpr ContentDecodeStream(ContentDecodeStream&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ContentDecodeStream(void* ptr) noexcept : ::System::Net::WebReadStream(ptr) {
+constexpr explicit ContentDecodeStream(void* ptr) noexcept : System::Net::WebReadStream(ptr) {
 }
 
 
@@ -141,43 +140,42 @@ constexpr explicit ContentDecodeStream(void* ptr) noexcept : ::System::Net::WebR
 
 // Fields
 
- ::System::IO::Stream __declspec(property(get=__get__OriginalInnerStream_k__BackingField, put=__set__OriginalInnerStream_k__BackingField))  _OriginalInnerStream_k__BackingField;
+ System::IO::Stream __declspec(property(get=__get__OriginalInnerStream_k__BackingField, put=__set__OriginalInnerStream_k__BackingField))  _OriginalInnerStream_k__BackingField;
 
-constexpr void __set__OriginalInnerStream_k__BackingField(::System::IO::Stream value) ;
+constexpr void __set__OriginalInnerStream_k__BackingField(System::IO::Stream value) ;
 
-constexpr ::System::IO::Stream __get__OriginalInnerStream_k__BackingField() const;
+constexpr System::IO::Stream __get__OriginalInnerStream_k__BackingField() const;
 
 
 // Properties
 
- ::System::IO::Stream __declspec(property(get=get_OriginalInnerStream))  OriginalInnerStream;
+ System::IO::Stream __declspec(property(get=get_OriginalInnerStream))  OriginalInnerStream;
 
 
 // Methods
 
 /// @brief Method Create addr 0x282ac54 size 0xec virtual false final false
-static ::System::Net::ContentDecodeStream Create(::System::Net::WebOperation operation, ::System::IO::Stream innerStream, ::System::Net::____System__Net__ContentDecodeStream__Mode mode) ;
+static System::Net::ContentDecodeStream Create(System::Net::WebOperation operation, System::IO::Stream innerStream, System::Net::System__Net__ContentDecodeStream__Mode mode) ;
 
 /// @brief Method get_OriginalInnerStream addr 0x282ad68 size 0x8 virtual false final false
- ::System::IO::Stream get_OriginalInnerStream() ;
+ System::IO::Stream get_OriginalInnerStream() ;
 
-// Ctor Parameters [CppParam { name: "operation", ty: "::System::Net::WebOperation", modifiers: "", def_value: None }, CppParam { name: "decodeStream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "originalInnerStream", ty: "::System::IO::Stream", modifiers: "", def_value: None }]
-explicit ContentDecodeStream(::System::Net::WebOperation operation, ::System::IO::Stream decodeStream, ::System::IO::Stream originalInnerStream) ;
+// Ctor Parameters [CppParam { name: "operation", ty: "System::Net::WebOperation", modifiers: "", def_value: None }, CppParam { name: "decodeStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "originalInnerStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
+explicit ContentDecodeStream(System::Net::WebOperation operation, System::IO::Stream decodeStream, System::IO::Stream originalInnerStream) ;
 
 /// @brief Method .ctor addr 0x282ad40 size 0x28 virtual false final false
- void _ctor(::System::Net::WebOperation operation, ::System::IO::Stream decodeStream, ::System::IO::Stream originalInnerStream) ;
+ void _ctor(System::Net::WebOperation operation, System::IO::Stream decodeStream, System::IO::Stream originalInnerStream) ;
 
 /// @brief Method ProcessReadAsync addr 0x282ad70 size 0x24 virtual true final false
- ::System::Threading::Tasks::Task_1<int32_t> ProcessReadAsync(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size, ::System::Threading::CancellationToken cancellationToken) ;
+ System::Threading::Tasks::Task_1<int32_t> ProcessReadAsync(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size, System::Threading::CancellationToken cancellationToken) ;
 
 /// @brief Method FinishReading addr 0x282ad94 size 0xf0 virtual true final false
- ::System::Threading::Tasks::Task FinishReading(::System::Threading::CancellationToken cancellationToken) ;
+ System::Threading::Tasks::Task FinishReading(System::Threading::CancellationToken cancellationToken) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::____System__Net__ContentDecodeStream__Mode, "System.Net", "ContentDecodeStream/Mode");
-NEED_NO_BOX(::System::Net::ContentDecodeStream);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::ContentDecodeStream, "System.Net", "ContentDecodeStream");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::System__Net__ContentDecodeStream__Mode, "System.Net", "ContentDecodeStream/Mode");
+NEED_NO_BOX(System::Net::ContentDecodeStream);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::ContentDecodeStream, "System.Net", "ContentDecodeStream");

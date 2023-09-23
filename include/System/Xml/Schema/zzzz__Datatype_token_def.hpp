@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_normalizedString_def.hpp"
-namespace {
 namespace System::Xml::Schema {
 struct XmlTypeCode;
 }
@@ -18,7 +17,7 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11594))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11596))
 // CS Name: System.Xml.Schema.Datatype_token
-class CORDL_TYPE Datatype_token : public ::System::Xml::Schema::Datatype_normalizedString {
+class CORDL_TYPE Datatype_token : public System::Xml::Schema::Datatype_normalizedString {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr Datatype_token(Datatype_token const& ) noexcept = default;
 constexpr Datatype_token(Datatype_token&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Datatype_token(void* ptr) noexcept : ::System::Xml::Schema::Datatype_normalizedString(ptr) {
+constexpr explicit Datatype_token(void* ptr) noexcept : System::Xml::Schema::Datatype_normalizedString(ptr) {
 }
 
 
@@ -54,18 +53,18 @@ constexpr explicit Datatype_token(void* ptr) noexcept : ::System::Xml::Schema::D
 
 // Properties
 
- ::System::Xml::Schema::XmlTypeCode __declspec(property(get=get_TypeCode))  TypeCode;
+ System::Xml::Schema::XmlTypeCode __declspec(property(get=get_TypeCode))  TypeCode;
 
- ::System::Xml::Schema::XmlSchemaWhiteSpace __declspec(property(get=get_BuiltInWhitespaceFacet))  BuiltInWhitespaceFacet;
+ System::Xml::Schema::XmlSchemaWhiteSpace __declspec(property(get=get_BuiltInWhitespaceFacet))  BuiltInWhitespaceFacet;
 
 
 // Methods
 
 /// @brief Method get_TypeCode addr 0x2727d04 size 0x8 virtual true final false
- ::System::Xml::Schema::XmlTypeCode get_TypeCode() ;
+ System::Xml::Schema::XmlTypeCode get_TypeCode() ;
 
 /// @brief Method get_BuiltInWhitespaceFacet addr 0x2727d0c size 0x8 virtual true final false
- ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet() ;
+ System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet() ;
 
 // Ctor Parameters []
 explicit Datatype_token() ;
@@ -77,6 +76,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::Datatype_token);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::Datatype_token, "System.Xml.Schema", "Datatype_token");
+NEED_NO_BOX(System::Xml::Schema::Datatype_token);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::Datatype_token, "System.Xml.Schema", "Datatype_token");

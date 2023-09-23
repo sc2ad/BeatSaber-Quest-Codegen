@@ -1,15 +1,14 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace UnityEngine::UIElements {
+class TextEditorEngine;
+}
 namespace UnityEngine::UIElements {
 class ITextElement;
 }
 namespace UnityEngine::UIElements {
 class IEventHandler;
-}
-namespace UnityEngine::UIElements {
-class TextEditorEngine;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -24,11 +23,11 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE ITextInputField : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::UIElements::IEventHandler
-constexpr operator  ::UnityEngine::UIElements::IEventHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::UIElements::IEventHandler
+constexpr operator  UnityEngine::UIElements::IEventHandler() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::UIElements::ITextElement
-constexpr operator  ::UnityEngine::UIElements::ITextElement() const noexcept;
+/// @brief Convert operator to UnityEngine::UIElements::ITextElement
+constexpr operator  UnityEngine::UIElements::ITextElement() const noexcept;
 
 ~ITextInputField() = default;
 
@@ -51,7 +50,7 @@ constexpr explicit ITextInputField(void* ptr) noexcept : ::cordl_internals::Inte
 
  bool __declspec(property(get=get_isPasswordField))  isPasswordField;
 
- ::UnityEngine::UIElements::TextEditorEngine __declspec(property(get=get_editorEngine))  editorEngine;
+ UnityEngine::UIElements::TextEditorEngine __declspec(property(get=get_editorEngine))  editorEngine;
 
 
 // Methods
@@ -75,7 +74,7 @@ constexpr explicit ITextInputField(void* ptr) noexcept : ::cordl_internals::Inte
  bool get_isPasswordField() ;
 
 /// @brief Method get_editorEngine addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::UIElements::TextEditorEngine get_editorEngine() ;
+ UnityEngine::UIElements::TextEditorEngine get_editorEngine() ;
 
 /// @brief Method SyncTextEngine addr 0x0 size 0xffffffffffffffff virtual true final false
  void SyncTextEngine() ;
@@ -96,6 +95,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::ITextInputField);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ITextInputField, "UnityEngine.UIElements", "ITextInputField");
+NEED_NO_BOX(UnityEngine::UIElements::ITextInputField);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::ITextInputField, "UnityEngine.UIElements", "ITextInputField");

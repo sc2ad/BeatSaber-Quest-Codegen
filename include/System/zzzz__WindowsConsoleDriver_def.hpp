@@ -3,13 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-class IConsoleDriver;
-}
-namespace System {
-struct ConsoleKeyInfo;
-}
 namespace System {
 struct InputRecord;
 }
@@ -18,6 +11,12 @@ struct Handles;
 }
 namespace System {
 struct ConsoleScreenBufferInfo;
+}
+namespace System {
+struct ConsoleKeyInfo;
+}
+namespace System {
+class IConsoleDriver;
 }
 // Forward declare root types
 namespace System {
@@ -32,8 +31,8 @@ namespace System {
 class CORDL_TYPE WindowsConsoleDriver : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IConsoleDriver
-constexpr operator  ::System::IConsoleDriver() const noexcept;
+/// @brief Convert operator to System::IConsoleDriver
+constexpr operator  System::IConsoleDriver() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -96,24 +95,23 @@ explicit WindowsConsoleDriver() ;
  void _ctor() ;
 
 /// @brief Method ReadKey addr 0x249c260 size 0x140 virtual true final true
- ::System::ConsoleKeyInfo ReadKey(bool intercept) ;
+ System::ConsoleKeyInfo ReadKey(bool intercept) ;
 
 /// @brief Method IsModifierKey addr 0x249c4a8 size 0x34 virtual false final false
 static bool IsModifierKey(int16_t virtualKeyCode) ;
 
 /// @brief Method GetStdHandle addr 0x249c148 size 0x84 virtual false final false
-static ::cordl_internals::intptr_t GetStdHandle(::System::Handles handle) ;
+static ::cordl_internals::intptr_t GetStdHandle(System::Handles handle) ;
 
 /// @brief Method GetConsoleScreenBufferInfo addr 0x249c1cc size 0x94 virtual false final false
-static bool GetConsoleScreenBufferInfo(::cordl_internals::intptr_t handle, ByRef<::System::ConsoleScreenBufferInfo> info) ;
+static bool GetConsoleScreenBufferInfo(::cordl_internals::intptr_t handle, ByRef<System::ConsoleScreenBufferInfo> info) ;
 
 /// @brief Method ReadConsoleInput addr 0x249c3a0 size 0x108 virtual false final false
-static bool ReadConsoleInput(::cordl_internals::intptr_t handle, ByRef<::System::InputRecord> record, int32_t length, ByRef<int32_t> nread) ;
+static bool ReadConsoleInput(::cordl_internals::intptr_t handle, ByRef<System::InputRecord> record, int32_t length, ByRef<int32_t> nread) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::WindowsConsoleDriver);
-DEFINE_IL2CPP_ARG_TYPE(::System::WindowsConsoleDriver, "System", "WindowsConsoleDriver");
+NEED_NO_BOX(System::WindowsConsoleDriver);
+DEFINE_IL2CPP_ARG_TYPE(System::WindowsConsoleDriver, "System", "WindowsConsoleDriver");

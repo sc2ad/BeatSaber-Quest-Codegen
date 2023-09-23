@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class MatchmakingAdminSnapshotCandidate;
@@ -94,6 +93,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::MatchmakingAdminSnapshotCandidate);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::MatchmakingAdminSnapshotCandidate, "Oculus.Platform.Models", "MatchmakingAdminSnapshotCandidate");
+NEED_NO_BOX(Oculus::Platform::Models::MatchmakingAdminSnapshotCandidate);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::MatchmakingAdminSnapshotCandidate, "Oculus.Platform.Models", "MatchmakingAdminSnapshotCandidate");

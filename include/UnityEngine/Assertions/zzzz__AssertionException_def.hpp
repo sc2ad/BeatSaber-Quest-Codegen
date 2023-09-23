@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::Assertions {
 class AssertionException;
@@ -13,7 +12,7 @@ namespace UnityEngine::Assertions {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2560))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10252))
 // CS Name: UnityEngine.Assertions.AssertionException
-class CORDL_TYPE AssertionException : public ::System::Exception {
+class CORDL_TYPE AssertionException : public System::Exception {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr AssertionException(AssertionException const& ) noexcept = default;
 constexpr AssertionException(AssertionException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AssertionException(void* ptr) noexcept : ::System::Exception(ptr) {
+constexpr explicit AssertionException(void* ptr) noexcept : System::Exception(ptr) {
 }
 
 
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Assertions
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Assertions::AssertionException);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Assertions::AssertionException, "UnityEngine.Assertions", "AssertionException");
+NEED_NO_BOX(UnityEngine::Assertions::AssertionException);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Assertions::AssertionException, "UnityEngine.Assertions", "AssertionException");

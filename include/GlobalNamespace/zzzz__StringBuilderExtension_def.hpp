@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::Text {
 class StringBuilder;
 }
@@ -63,18 +62,17 @@ static ::ArrayW<char16_t> __get_charToInt() ;
 // Methods
 
 /// @brief Method Swap addr 0x1f7b9ac size 0xac virtual false final false
-static void Swap(::System::Text::StringBuilder sb, int32_t startIndex, int32_t endIndex) ;
+static void Swap(System::Text::StringBuilder sb, int32_t startIndex, int32_t endIndex) ;
 
 /// @brief Method AppendNumber addr 0x1f7ba58 size 0x128 virtual false final false
-static void AppendNumber(::System::Text::StringBuilder sb, int32_t number) ;
+static void AppendNumber(System::Text::StringBuilder sb, int32_t number) ;
 
 /// @brief Method AppendNumber addr 0x1f7bb80 size 0x104 virtual false final false
-static void AppendNumber(::System::Text::StringBuilder sb, uint32_t unumber) ;
+static void AppendNumber(System::Text::StringBuilder sb, uint32_t unumber) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::StringBuilderExtension);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StringBuilderExtension, "", "StringBuilderExtension");
+NEED_NO_BOX(GlobalNamespace::StringBuilderExtension);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StringBuilderExtension, "", "StringBuilderExtension");

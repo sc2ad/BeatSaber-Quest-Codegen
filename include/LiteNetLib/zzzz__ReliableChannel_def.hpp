@@ -5,22 +5,21 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace LiteNetLib {
 class NetPeer;
 }
 namespace LiteNetLib {
-class NetPacket;
+struct DeliveryMethod;
 }
 namespace LiteNetLib {
-struct DeliveryMethod;
+class NetPacket;
 }
 // Forward declare root types
 namespace LiteNetLib {
 class ReliableChannel;
 }
 namespace LiteNetLib {
-struct ____LiteNetLib__ReliableChannel__PendingPacket;
+struct LiteNetLib__ReliableChannel__PendingPacket;
 }
 // Type: ::PendingPacket
 namespace LiteNetLib {
@@ -28,20 +27,20 @@ namespace LiteNetLib {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14465))
 // CS Name: LiteNetLib.ReliableChannel::PendingPacket
-struct CORDL_TYPE ____LiteNetLib__ReliableChannel__PendingPacket : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE LiteNetLib__ReliableChannel__PendingPacket : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "_packet", ty: "::LiteNetLib::NetPacket", modifiers: "", def_value: None }, CppParam { name: "_timeStamp", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "_isSent", ty: "bool", modifiers: "", def_value: None }]
-constexpr ____LiteNetLib__ReliableChannel__PendingPacket(::LiteNetLib::NetPacket _packet, int64_t _timeStamp, bool _isSent) noexcept;
+// Ctor Parameters [CppParam { name: "_packet", ty: "LiteNetLib::NetPacket", modifiers: "", def_value: None }, CppParam { name: "_timeStamp", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "_isSent", ty: "bool", modifiers: "", def_value: None }]
+constexpr LiteNetLib__ReliableChannel__PendingPacket(LiteNetLib::NetPacket _packet, int64_t _timeStamp, bool _isSent) noexcept;
 
 
-                    constexpr ____LiteNetLib__ReliableChannel__PendingPacket(____LiteNetLib__ReliableChannel__PendingPacket const&) = default;
-                    constexpr ____LiteNetLib__ReliableChannel__PendingPacket(____LiteNetLib__ReliableChannel__PendingPacket&&) = default;
-                    constexpr ____LiteNetLib__ReliableChannel__PendingPacket& operator=(____LiteNetLib__ReliableChannel__PendingPacket const& o) {
+                    constexpr LiteNetLib__ReliableChannel__PendingPacket(LiteNetLib__ReliableChannel__PendingPacket const&) = default;
+                    constexpr LiteNetLib__ReliableChannel__PendingPacket(LiteNetLib__ReliableChannel__PendingPacket&&) = default;
+                    constexpr LiteNetLib__ReliableChannel__PendingPacket& operator=(LiteNetLib__ReliableChannel__PendingPacket const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____LiteNetLib__ReliableChannel__PendingPacket& operator=(____LiteNetLib__ReliableChannel__PendingPacket&& o) noexcept {
+                    constexpr LiteNetLib__ReliableChannel__PendingPacket& operator=(LiteNetLib__ReliableChannel__PendingPacket&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -54,7 +53,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x18};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____LiteNetLib__ReliableChannel__PendingPacket(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit LiteNetLib__ReliableChannel__PendingPacket(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -65,11 +64,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::LiteNetLib::NetPacket __declspec(property(get=__get__packet, put=__set__packet))  _packet;
+ LiteNetLib::NetPacket __declspec(property(get=__get__packet, put=__set__packet))  _packet;
 
-constexpr void __set__packet(::LiteNetLib::NetPacket value) ;
+constexpr void __set__packet(LiteNetLib::NetPacket value) ;
 
-constexpr ::LiteNetLib::NetPacket __get__packet() const;
+constexpr LiteNetLib::NetPacket __get__packet() const;
 
  int64_t __declspec(property(get=__get__timeStamp, put=__set__timeStamp))  _timeStamp;
 
@@ -90,13 +89,13 @@ constexpr bool __get__isSent() const;
  ::StringW ToString() ;
 
 /// @brief Method Init addr 0x2093e64 size 0xc virtual false final false
- void Init(::LiteNetLib::NetPacket packet) ;
+ void Init(LiteNetLib::NetPacket packet) ;
 
 /// @brief Method TrySend addr 0x2093e70 size 0x78 virtual false final false
- void TrySend(int64_t currentTime, ::LiteNetLib::NetPeer peer) ;
+ void TrySend(int64_t currentTime, LiteNetLib::NetPeer peer) ;
 
 /// @brief Method Clear addr 0x20939bc size 0x3c virtual false final false
- bool Clear(::LiteNetLib::NetPeer peer) ;
+ bool Clear(LiteNetLib::NetPeer peer) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -108,10 +107,10 @@ namespace LiteNetLib {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14408))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14466))
 // CS Name: LiteNetLib.ReliableChannel
-class CORDL_TYPE ReliableChannel : public ::LiteNetLib::BaseChannel {
+class CORDL_TYPE ReliableChannel : public LiteNetLib::BaseChannel {
 public:
 // Declarations
-using PendingPacket = ::LiteNetLib::____LiteNetLib__ReliableChannel__PendingPacket;
+using PendingPacket = LiteNetLib::LiteNetLib__ReliableChannel__PendingPacket;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x68};
@@ -125,7 +124,7 @@ constexpr ReliableChannel(ReliableChannel const& ) noexcept = default;
 constexpr ReliableChannel(ReliableChannel&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ReliableChannel(void* ptr) noexcept : ::LiteNetLib::BaseChannel(ptr) {
+constexpr explicit ReliableChannel(void* ptr) noexcept : LiteNetLib::BaseChannel(ptr) {
 }
 
 
@@ -146,23 +145,23 @@ constexpr explicit ReliableChannel(void* ptr) noexcept : ::LiteNetLib::BaseChann
 
 // Fields
 
- ::LiteNetLib::NetPacket __declspec(property(get=__get__outgoingAcks, put=__set__outgoingAcks))  _outgoingAcks;
+ LiteNetLib::NetPacket __declspec(property(get=__get__outgoingAcks, put=__set__outgoingAcks))  _outgoingAcks;
 
-constexpr void __set__outgoingAcks(::LiteNetLib::NetPacket value) ;
+constexpr void __set__outgoingAcks(LiteNetLib::NetPacket value) ;
 
-constexpr ::LiteNetLib::NetPacket __get__outgoingAcks() const;
+constexpr LiteNetLib::NetPacket __get__outgoingAcks() const;
 
- ::ArrayW<::LiteNetLib::____LiteNetLib__ReliableChannel__PendingPacket> __declspec(property(get=__get__pendingPackets, put=__set__pendingPackets))  _pendingPackets;
+ ::ArrayW<LiteNetLib::LiteNetLib__ReliableChannel__PendingPacket> __declspec(property(get=__get__pendingPackets, put=__set__pendingPackets))  _pendingPackets;
 
-constexpr void __set__pendingPackets(::ArrayW<::LiteNetLib::____LiteNetLib__ReliableChannel__PendingPacket> value) ;
+constexpr void __set__pendingPackets(::ArrayW<LiteNetLib::LiteNetLib__ReliableChannel__PendingPacket> value) ;
 
-constexpr ::ArrayW<::LiteNetLib::____LiteNetLib__ReliableChannel__PendingPacket> __get__pendingPackets() const;
+constexpr ::ArrayW<LiteNetLib::LiteNetLib__ReliableChannel__PendingPacket> __get__pendingPackets() const;
 
- ::ArrayW<::LiteNetLib::NetPacket> __declspec(property(get=__get__receivedPackets, put=__set__receivedPackets))  _receivedPackets;
+ ::ArrayW<LiteNetLib::NetPacket> __declspec(property(get=__get__receivedPackets, put=__set__receivedPackets))  _receivedPackets;
 
-constexpr void __set__receivedPackets(::ArrayW<::LiteNetLib::NetPacket> value) ;
+constexpr void __set__receivedPackets(::ArrayW<LiteNetLib::NetPacket> value) ;
 
-constexpr ::ArrayW<::LiteNetLib::NetPacket> __get__receivedPackets() const;
+constexpr ::ArrayW<LiteNetLib::NetPacket> __get__receivedPackets() const;
 
  ::ArrayW<bool> __declspec(property(get=__get__earlyReceived, put=__set__earlyReceived))  _earlyReceived;
 
@@ -200,11 +199,11 @@ constexpr void __set__mustSendAcks(bool value) ;
 
 constexpr bool __get__mustSendAcks() const;
 
- ::LiteNetLib::DeliveryMethod __declspec(property(get=__get__deliveryMethod, put=__set__deliveryMethod))  _deliveryMethod;
+ LiteNetLib::DeliveryMethod __declspec(property(get=__get__deliveryMethod, put=__set__deliveryMethod))  _deliveryMethod;
 
-constexpr void __set__deliveryMethod(::LiteNetLib::DeliveryMethod value) ;
+constexpr void __set__deliveryMethod(LiteNetLib::DeliveryMethod value) ;
 
-constexpr ::LiteNetLib::DeliveryMethod __get__deliveryMethod() const;
+constexpr LiteNetLib::DeliveryMethod __get__deliveryMethod() const;
 
  bool __declspec(property(get=__get__ordered, put=__set__ordered))  _ordered;
 
@@ -230,26 +229,25 @@ constexpr uint8_t __get__id() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "peer", ty: "::LiteNetLib::NetPeer", modifiers: "", def_value: None }, CppParam { name: "ordered", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "id", ty: "uint8_t", modifiers: "", def_value: None }]
-explicit ReliableChannel(::LiteNetLib::NetPeer peer, bool ordered, uint8_t id) ;
+// Ctor Parameters [CppParam { name: "peer", ty: "LiteNetLib::NetPeer", modifiers: "", def_value: None }, CppParam { name: "ordered", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "id", ty: "uint8_t", modifiers: "", def_value: None }]
+explicit ReliableChannel(LiteNetLib::NetPeer peer, bool ordered, uint8_t id) ;
 
 /// @brief Method .ctor addr 0x208ff40 size 0x188 virtual false final false
- void _ctor(::LiteNetLib::NetPeer peer, bool ordered, uint8_t id) ;
+ void _ctor(LiteNetLib::NetPeer peer, bool ordered, uint8_t id) ;
 
 /// @brief Method ProcessAck addr 0x209366c size 0x350 virtual false final false
- void ProcessAck(::LiteNetLib::NetPacket packet) ;
+ void ProcessAck(LiteNetLib::NetPacket packet) ;
 
 /// @brief Method SendNextPackets addr 0x20939f8 size 0x46c virtual true final false
  void SendNextPackets() ;
 
 /// @brief Method ProcessPacket addr 0x2093ee8 size 0x4fc virtual true final false
- bool ProcessPacket(::LiteNetLib::NetPacket packet) ;
+ bool ProcessPacket(LiteNetLib::NetPacket packet) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib
-} // end anonymous namespace
-NEED_NO_BOX(::LiteNetLib::ReliableChannel);
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::ReliableChannel, "LiteNetLib", "ReliableChannel");
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::____LiteNetLib__ReliableChannel__PendingPacket, "LiteNetLib", "ReliableChannel/PendingPacket");
+NEED_NO_BOX(LiteNetLib::ReliableChannel);
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::ReliableChannel, "LiteNetLib", "ReliableChannel");
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::LiteNetLib__ReliableChannel__PendingPacket, "LiteNetLib", "ReliableChannel/PendingPacket");

@@ -3,7 +3,6 @@
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacket_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 struct DateTime;
 }
@@ -17,7 +16,7 @@ namespace Org::BouncyCastle::Bcpg::Sig {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(531))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(546))
 // CS Name: Org.BouncyCastle.Bcpg.Sig.SignatureCreationTime
-class CORDL_TYPE SignatureCreationTime : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
+class CORDL_TYPE SignatureCreationTime : public Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr SignatureCreationTime(SignatureCreationTime const& ) noexcept = defaul
 constexpr SignatureCreationTime(SignatureCreationTime&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SignatureCreationTime(void* ptr) noexcept : ::Org::BouncyCastle::Bcpg::SignatureSubpacket(ptr) {
+constexpr explicit SignatureCreationTime(void* ptr) noexcept : Org::BouncyCastle::Bcpg::SignatureSubpacket(ptr) {
 }
 
 
@@ -54,7 +53,7 @@ constexpr explicit SignatureCreationTime(void* ptr) noexcept : ::Org::BouncyCast
 // Methods
 
 /// @brief Method TimeToBytes addr 0x113ea78 size 0xe8 virtual false final false
-static ::ArrayW<uint8_t> TimeToBytes(::System::DateTime time) ;
+static ::ArrayW<uint8_t> TimeToBytes(System::DateTime time) ;
 
 // Ctor Parameters [CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isLongLength", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
 explicit SignatureCreationTime(bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
@@ -62,19 +61,18 @@ explicit SignatureCreationTime(bool critical, bool isLongLength, ::ArrayW<uint8_
 /// @brief Method .ctor addr 0x113eb60 size 0x48 virtual false final false
  void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
 
-// Ctor Parameters [CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "date", ty: "::System::DateTime", modifiers: "", def_value: None }]
-explicit SignatureCreationTime(bool critical, ::System::DateTime date) ;
+// Ctor Parameters [CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "date", ty: "System::DateTime", modifiers: "", def_value: None }]
+explicit SignatureCreationTime(bool critical, System::DateTime date) ;
 
 /// @brief Method .ctor addr 0x113eba8 size 0x4c virtual false final false
- void _ctor(bool critical, ::System::DateTime date) ;
+ void _ctor(bool critical, System::DateTime date) ;
 
 /// @brief Method GetTime addr 0x113ebf4 size 0xac virtual false final false
- ::System::DateTime GetTime() ;
+ System::DateTime GetTime() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg::Sig
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::Sig::SignatureCreationTime);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::Sig::SignatureCreationTime, "Org.BouncyCastle.Bcpg.Sig", "SignatureCreationTime");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::Sig::SignatureCreationTime);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::Sig::SignatureCreationTime, "Org.BouncyCastle.Bcpg.Sig", "SignatureCreationTime");

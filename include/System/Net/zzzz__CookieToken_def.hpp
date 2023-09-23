@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net {
 struct CookieToken;
@@ -85,68 +84,67 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Nothing offset 0
-static ::System::Net::CookieToken const Nothing;
+static System::Net::CookieToken const Nothing;
 
 /// @brief Field NameValuePair offset 0
-static ::System::Net::CookieToken const NameValuePair;
+static System::Net::CookieToken const NameValuePair;
 
 /// @brief Field Attribute offset 0
-static ::System::Net::CookieToken const Attribute;
+static System::Net::CookieToken const Attribute;
 
 /// @brief Field EndToken offset 0
-static ::System::Net::CookieToken const EndToken;
+static System::Net::CookieToken const EndToken;
 
 /// @brief Field EndCookie offset 0
-static ::System::Net::CookieToken const EndCookie;
+static System::Net::CookieToken const EndCookie;
 
 /// @brief Field End offset 0
-static ::System::Net::CookieToken const End;
+static System::Net::CookieToken const End;
 
 /// @brief Field Equals offset 0
-static ::System::Net::CookieToken const Equals;
+static System::Net::CookieToken const Equals;
 
 /// @brief Field Comment offset 0
-static ::System::Net::CookieToken const Comment;
+static System::Net::CookieToken const Comment;
 
 /// @brief Field CommentUrl offset 0
-static ::System::Net::CookieToken const CommentUrl;
+static System::Net::CookieToken const CommentUrl;
 
 /// @brief Field CookieName offset 0
-static ::System::Net::CookieToken const CookieName;
+static System::Net::CookieToken const CookieName;
 
 /// @brief Field Discard offset 0
-static ::System::Net::CookieToken const Discard;
+static System::Net::CookieToken const Discard;
 
 /// @brief Field Domain offset 0
-static ::System::Net::CookieToken const Domain;
+static System::Net::CookieToken const Domain;
 
 /// @brief Field Expires offset 0
-static ::System::Net::CookieToken const Expires;
+static System::Net::CookieToken const Expires;
 
 /// @brief Field MaxAge offset 0
-static ::System::Net::CookieToken const MaxAge;
+static System::Net::CookieToken const MaxAge;
 
 /// @brief Field Path offset 0
-static ::System::Net::CookieToken const Path;
+static System::Net::CookieToken const Path;
 
 /// @brief Field Port offset 0
-static ::System::Net::CookieToken const Port;
+static System::Net::CookieToken const Port;
 
 /// @brief Field Secure offset 0
-static ::System::Net::CookieToken const Secure;
+static System::Net::CookieToken const Secure;
 
 /// @brief Field HttpOnly offset 0
-static ::System::Net::CookieToken const HttpOnly;
+static System::Net::CookieToken const HttpOnly;
 
 /// @brief Field Unknown offset 0
-static ::System::Net::CookieToken const Unknown;
+static System::Net::CookieToken const Unknown;
 
 /// @brief Field Version offset 0
-static ::System::Net::CookieToken const Version;
+static System::Net::CookieToken const Version;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::CookieToken, "System.Net", "CookieToken");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieToken, "System.Net", "CookieToken");

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace ENet {
 class PacketFreeCallback;
 }
@@ -26,8 +25,8 @@ namespace ENet {
 struct CORDL_TYPE Packet : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const;
 
 // Ctor Parameters [CppParam { name: "nativePacket", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
 constexpr Packet(::cordl_internals::intptr_t nativePacket) noexcept;
@@ -124,7 +123,7 @@ constexpr ::cordl_internals::intptr_t __get_nativePacket() const;
  void SetFreeCallback(::cordl_internals::intptr_t callback) ;
 
 /// @brief Method SetFreeCallback addr 0x207dbe4 size 0x90 virtual false final false
- void SetFreeCallback(::ENet::PacketFreeCallback callback) ;
+ void SetFreeCallback(ENet::PacketFreeCallback callback) ;
 
 /// @brief Method Create addr 0x207dc74 size 0x64 virtual false final false
  void Create(::ArrayW<uint8_t> data) ;
@@ -133,19 +132,19 @@ constexpr ::cordl_internals::intptr_t __get_nativePacket() const;
  void Create(::ArrayW<uint8_t> data, int32_t length) ;
 
 /// @brief Method Create addr 0x207ddb8 size 0x1c virtual false final false
- void Create(::ArrayW<uint8_t> data, ::ENet::PacketFlags flags) ;
+ void Create(::ArrayW<uint8_t> data, ENet::PacketFlags flags) ;
 
 /// @brief Method Create addr 0x207dce0 size 0xd8 virtual false final false
- void Create(::ArrayW<uint8_t> data, int32_t length, ::ENet::PacketFlags flags) ;
+ void Create(::ArrayW<uint8_t> data, int32_t length, ENet::PacketFlags flags) ;
 
 /// @brief Method Create addr 0x207de70 size 0x120 virtual false final false
- void Create(::cordl_internals::intptr_t data, int32_t length, ::ENet::PacketFlags flags) ;
+ void Create(::cordl_internals::intptr_t data, int32_t length, ENet::PacketFlags flags) ;
 
 /// @brief Method Create addr 0x207e024 size 0x120 virtual false final false
- void Create(::ArrayW<uint8_t> data, int32_t offset, int32_t length, ::ENet::PacketFlags flags) ;
+ void Create(::ArrayW<uint8_t> data, int32_t offset, int32_t length, ENet::PacketFlags flags) ;
 
 /// @brief Method Create addr 0x207e1e8 size 0x160 virtual false final false
- void Create(::cordl_internals::intptr_t data, int32_t offset, int32_t length, ::ENet::PacketFlags flags) ;
+ void Create(::cordl_internals::intptr_t data, int32_t offset, int32_t length, ENet::PacketFlags flags) ;
 
 /// @brief Method CopyTo addr 0x207e3e4 size 0x100 virtual false final false
  void CopyTo(::ArrayW<uint8_t> destination, int32_t startPos) ;
@@ -154,5 +153,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def ENet
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::ENet::Packet, "ENet", "Packet");
+DEFINE_IL2CPP_ARG_TYPE(ENet::Packet, "ENet", "Packet");

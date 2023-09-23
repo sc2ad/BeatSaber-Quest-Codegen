@@ -4,33 +4,32 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Xml {
 class XmlRawWriter;
-}
-namespace System::IO {
-class Stream;
 }
 namespace System::Xml {
 class IXmlNamespaceResolver;
 }
-namespace System::Xml {
-class XmlWriterSettings;
-}
-namespace System::Xml {
-struct XmlOutputMethod;
+namespace System::IO {
+class Stream;
 }
 namespace System::IO {
 class TextWriter;
 }
 namespace System::Xml {
+struct XmlStandalone;
+}
+namespace System::Xml {
 class XmlEventCache;
+}
+namespace System::Xml {
+struct XmlOutputMethod;
 }
 namespace System::Xml {
 class OnRemoveWriter;
 }
 namespace System::Xml {
-struct XmlStandalone;
+class XmlWriterSettings;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -42,7 +41,7 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11397))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11390))
 // CS Name: System.Xml.XmlAutoDetectWriter
-class CORDL_TYPE XmlAutoDetectWriter : public ::System::Xml::XmlRawWriter {
+class CORDL_TYPE XmlAutoDetectWriter : public System::Xml::XmlRawWriter {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -57,7 +56,7 @@ constexpr XmlAutoDetectWriter(XmlAutoDetectWriter const& ) noexcept = default;
 constexpr XmlAutoDetectWriter(XmlAutoDetectWriter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XmlAutoDetectWriter(void* ptr) noexcept : ::System::Xml::XmlRawWriter(ptr) {
+constexpr explicit XmlAutoDetectWriter(void* ptr) noexcept : System::Xml::XmlRawWriter(ptr) {
 }
 
 
@@ -78,69 +77,69 @@ constexpr explicit XmlAutoDetectWriter(void* ptr) noexcept : ::System::Xml::XmlR
 
 // Fields
 
- ::System::Xml::XmlRawWriter __declspec(property(get=__get_wrapped, put=__set_wrapped))  wrapped;
+ System::Xml::XmlRawWriter __declspec(property(get=__get_wrapped, put=__set_wrapped))  wrapped;
 
-constexpr void __set_wrapped(::System::Xml::XmlRawWriter value) ;
+constexpr void __set_wrapped(System::Xml::XmlRawWriter value) ;
 
-constexpr ::System::Xml::XmlRawWriter __get_wrapped() const;
+constexpr System::Xml::XmlRawWriter __get_wrapped() const;
 
- ::System::Xml::OnRemoveWriter __declspec(property(get=__get_onRemove, put=__set_onRemove))  onRemove;
+ System::Xml::OnRemoveWriter __declspec(property(get=__get_onRemove, put=__set_onRemove))  onRemove;
 
-constexpr void __set_onRemove(::System::Xml::OnRemoveWriter value) ;
+constexpr void __set_onRemove(System::Xml::OnRemoveWriter value) ;
 
-constexpr ::System::Xml::OnRemoveWriter __get_onRemove() const;
+constexpr System::Xml::OnRemoveWriter __get_onRemove() const;
 
- ::System::Xml::XmlWriterSettings __declspec(property(get=__get_writerSettings, put=__set_writerSettings))  writerSettings;
+ System::Xml::XmlWriterSettings __declspec(property(get=__get_writerSettings, put=__set_writerSettings))  writerSettings;
 
-constexpr void __set_writerSettings(::System::Xml::XmlWriterSettings value) ;
+constexpr void __set_writerSettings(System::Xml::XmlWriterSettings value) ;
 
-constexpr ::System::Xml::XmlWriterSettings __get_writerSettings() const;
+constexpr System::Xml::XmlWriterSettings __get_writerSettings() const;
 
- ::System::Xml::XmlEventCache __declspec(property(get=__get_eventCache, put=__set_eventCache))  eventCache;
+ System::Xml::XmlEventCache __declspec(property(get=__get_eventCache, put=__set_eventCache))  eventCache;
 
-constexpr void __set_eventCache(::System::Xml::XmlEventCache value) ;
+constexpr void __set_eventCache(System::Xml::XmlEventCache value) ;
 
-constexpr ::System::Xml::XmlEventCache __get_eventCache() const;
+constexpr System::Xml::XmlEventCache __get_eventCache() const;
 
- ::System::IO::TextWriter __declspec(property(get=__get_textWriter, put=__set_textWriter))  textWriter;
+ System::IO::TextWriter __declspec(property(get=__get_textWriter, put=__set_textWriter))  textWriter;
 
-constexpr void __set_textWriter(::System::IO::TextWriter value) ;
+constexpr void __set_textWriter(System::IO::TextWriter value) ;
 
-constexpr ::System::IO::TextWriter __get_textWriter() const;
+constexpr System::IO::TextWriter __get_textWriter() const;
 
- ::System::IO::Stream __declspec(property(get=__get_strm, put=__set_strm))  strm;
+ System::IO::Stream __declspec(property(get=__get_strm, put=__set_strm))  strm;
 
-constexpr void __set_strm(::System::IO::Stream value) ;
+constexpr void __set_strm(System::IO::Stream value) ;
 
-constexpr ::System::IO::Stream __get_strm() const;
+constexpr System::IO::Stream __get_strm() const;
 
 
 // Properties
 
- ::System::Xml::IXmlNamespaceResolver __declspec(property(put=set_NamespaceResolver))  NamespaceResolver;
+ System::Xml::IXmlNamespaceResolver __declspec(property(put=set_NamespaceResolver))  NamespaceResolver;
 
  bool __declspec(property(get=get_SupportsNamespaceDeclarationInChunks))  SupportsNamespaceDeclarationInChunks;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "writerSettings", ty: "::System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
-explicit XmlAutoDetectWriter(::System::Xml::XmlWriterSettings writerSettings) ;
+// Ctor Parameters [CppParam { name: "writerSettings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
+explicit XmlAutoDetectWriter(System::Xml::XmlWriterSettings writerSettings) ;
 
 /// @brief Method .ctor addr 0x26c2a8c size 0xc0 virtual false final false
- void _ctor(::System::Xml::XmlWriterSettings writerSettings) ;
+ void _ctor(System::Xml::XmlWriterSettings writerSettings) ;
 
-// Ctor Parameters [CppParam { name: "textWriter", ty: "::System::IO::TextWriter", modifiers: "", def_value: None }, CppParam { name: "writerSettings", ty: "::System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
-explicit XmlAutoDetectWriter(::System::IO::TextWriter textWriter, ::System::Xml::XmlWriterSettings writerSettings) ;
+// Ctor Parameters [CppParam { name: "textWriter", ty: "System::IO::TextWriter", modifiers: "", def_value: None }, CppParam { name: "writerSettings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
+explicit XmlAutoDetectWriter(System::IO::TextWriter textWriter, System::Xml::XmlWriterSettings writerSettings) ;
 
 /// @brief Method .ctor addr 0x26c2b7c size 0x28 virtual false final false
- void _ctor(::System::IO::TextWriter textWriter, ::System::Xml::XmlWriterSettings writerSettings) ;
+ void _ctor(System::IO::TextWriter textWriter, System::Xml::XmlWriterSettings writerSettings) ;
 
-// Ctor Parameters [CppParam { name: "strm", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "writerSettings", ty: "::System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
-explicit XmlAutoDetectWriter(::System::IO::Stream strm, ::System::Xml::XmlWriterSettings writerSettings) ;
+// Ctor Parameters [CppParam { name: "strm", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "writerSettings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
+explicit XmlAutoDetectWriter(System::IO::Stream strm, System::Xml::XmlWriterSettings writerSettings) ;
 
 /// @brief Method .ctor addr 0x26c2ba4 size 0x28 virtual false final false
- void _ctor(::System::IO::Stream strm, ::System::Xml::XmlWriterSettings writerSettings) ;
+ void _ctor(System::IO::Stream strm, System::Xml::XmlWriterSettings writerSettings) ;
 
 /// @brief Method WriteDocType addr 0x26c2bcc size 0x68 virtual true final false
  void WriteDocType(::StringW name, ::StringW pubid, ::StringW sysid, ::StringW subset) ;
@@ -203,10 +202,10 @@ explicit XmlAutoDetectWriter(::System::IO::Stream strm, ::System::Xml::XmlWriter
  void WriteValue(::StringW value) ;
 
 /// @brief Method set_NamespaceResolver addr 0x26c343c size 0x34 virtual true final false
- void set_NamespaceResolver(::System::Xml::IXmlNamespaceResolver value) ;
+ void set_NamespaceResolver(System::Xml::IXmlNamespaceResolver value) ;
 
 /// @brief Method WriteXmlDeclaration addr 0x26c3470 size 0x4c virtual true final false
- void WriteXmlDeclaration(::System::Xml::XmlStandalone standalone) ;
+ void WriteXmlDeclaration(System::Xml::XmlStandalone standalone) ;
 
 /// @brief Method WriteXmlDeclaration addr 0x26c34bc size 0x4c virtual true final false
  void WriteXmlDeclaration(::StringW xmldecl) ;
@@ -236,18 +235,17 @@ explicit XmlAutoDetectWriter(::System::IO::Stream strm, ::System::Xml::XmlWriter
 static bool IsHtmlTag(::StringW tagName) ;
 
 /// @brief Method EnsureWrappedWriter addr 0x26c2c34 size 0x10 virtual false final false
- void EnsureWrappedWriter(::System::Xml::XmlOutputMethod outMethod) ;
+ void EnsureWrappedWriter(System::Xml::XmlOutputMethod outMethod) ;
 
 /// @brief Method TextBlockCreatesWriter addr 0x26c2fe4 size 0x60 virtual false final false
  bool TextBlockCreatesWriter(::StringW textBlock) ;
 
 /// @brief Method CreateWrappedWriter addr 0x26c2dd8 size 0x140 virtual false final false
- void CreateWrappedWriter(::System::Xml::XmlOutputMethod outMethod) ;
+ void CreateWrappedWriter(System::Xml::XmlOutputMethod outMethod) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::XmlAutoDetectWriter);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlAutoDetectWriter, "System.Xml", "XmlAutoDetectWriter");
+NEED_NO_BOX(System::Xml::XmlAutoDetectWriter);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlAutoDetectWriter, "System.Xml", "XmlAutoDetectWriter");

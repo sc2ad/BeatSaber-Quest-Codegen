@@ -8,7 +8,15 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
+namespace UnityEngine::InputSystem::Layouts {
+struct InputDeviceDescription;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct InternedString;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
 namespace UnityEngine::InputSystem::Utilities {
 template<typename TValue>
 struct ReadOnlyArray_1;
@@ -16,18 +24,9 @@ struct ReadOnlyArray_1;
 namespace System {
 class Type;
 }
-namespace UnityEngine::InputSystem::Utilities {
-struct InternedString;
-}
-namespace UnityEngine::InputSystem::Layouts {
-struct InputDeviceDescription;
-}
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
 // Forward declare root types
 namespace UnityEngine::InputSystem {
-struct ____UnityEngine__InputSystem__InputDevice__DeviceFlags;
+struct UnityEngine__InputSystem__InputDevice__DeviceFlags;
 }
 namespace UnityEngine::InputSystem {
 class InputDevice;
@@ -38,20 +37,20 @@ namespace UnityEngine::InputSystem {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6321))
 // CS Name: UnityEngine.InputSystem.InputDevice::DeviceFlags
-struct CORDL_TYPE ____UnityEngine__InputSystem__InputDevice__DeviceFlags : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__InputSystem__InputDevice__DeviceFlags : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__InputSystem__InputDevice__DeviceFlags(int32_t value__) noexcept;
+constexpr UnityEngine__InputSystem__InputDevice__DeviceFlags(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__InputSystem__InputDevice__DeviceFlags(____UnityEngine__InputSystem__InputDevice__DeviceFlags const&) = default;
-                    constexpr ____UnityEngine__InputSystem__InputDevice__DeviceFlags(____UnityEngine__InputSystem__InputDevice__DeviceFlags&&) = default;
-                    constexpr ____UnityEngine__InputSystem__InputDevice__DeviceFlags& operator=(____UnityEngine__InputSystem__InputDevice__DeviceFlags const& o) {
+                    constexpr UnityEngine__InputSystem__InputDevice__DeviceFlags(UnityEngine__InputSystem__InputDevice__DeviceFlags const&) = default;
+                    constexpr UnityEngine__InputSystem__InputDevice__DeviceFlags(UnityEngine__InputSystem__InputDevice__DeviceFlags&&) = default;
+                    constexpr UnityEngine__InputSystem__InputDevice__DeviceFlags& operator=(UnityEngine__InputSystem__InputDevice__DeviceFlags const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__InputSystem__InputDevice__DeviceFlags& operator=(____UnityEngine__InputSystem__InputDevice__DeviceFlags&& o) noexcept {
+                    constexpr UnityEngine__InputSystem__InputDevice__DeviceFlags& operator=(UnityEngine__InputSystem__InputDevice__DeviceFlags&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -64,7 +63,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__InputSystem__InputDevice__DeviceFlags(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__InputSystem__InputDevice__DeviceFlags(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -72,7 +71,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__InputSystem__InputDevice__DeviceFlags_Unwrapped : int32_t {
+enum class __UnityEngine__InputSystem__InputDevice__DeviceFlags_Unwrapped : int32_t {
 __UpdateBeforeRender = 1,
 __HasStateCallbacks = 2,
 __HasControlsWithDefaultState = 4,
@@ -90,8 +89,8 @@ __CanRunInBackgroundHasBeenQueried = 4096,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__InputSystem__InputDevice__DeviceFlags_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__InputSystem__InputDevice__DeviceFlags_Unwrapped>(__instance);
+constexpr operator __UnityEngine__InputSystem__InputDevice__DeviceFlags_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__InputSystem__InputDevice__DeviceFlags_Unwrapped>(__instance);
 }
 
 
@@ -104,46 +103,46 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field UpdateBeforeRender offset 0
-static ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputDevice__DeviceFlags const UpdateBeforeRender;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputDevice__DeviceFlags const UpdateBeforeRender;
 
 /// @brief Field HasStateCallbacks offset 0
-static ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputDevice__DeviceFlags const HasStateCallbacks;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputDevice__DeviceFlags const HasStateCallbacks;
 
 /// @brief Field HasControlsWithDefaultState offset 0
-static ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputDevice__DeviceFlags const HasControlsWithDefaultState;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputDevice__DeviceFlags const HasControlsWithDefaultState;
 
 /// @brief Field HasDontResetControls offset 0
-static ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputDevice__DeviceFlags const HasDontResetControls;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputDevice__DeviceFlags const HasDontResetControls;
 
 /// @brief Field HasEventMerger offset 0
-static ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputDevice__DeviceFlags const HasEventMerger;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputDevice__DeviceFlags const HasEventMerger;
 
 /// @brief Field HasEventPreProcessor offset 0
-static ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputDevice__DeviceFlags const HasEventPreProcessor;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputDevice__DeviceFlags const HasEventPreProcessor;
 
 /// @brief Field Remote offset 0
-static ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputDevice__DeviceFlags const Remote;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputDevice__DeviceFlags const Remote;
 
 /// @brief Field Native offset 0
-static ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputDevice__DeviceFlags const Native;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputDevice__DeviceFlags const Native;
 
 /// @brief Field DisabledInFrontend offset 0
-static ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputDevice__DeviceFlags const DisabledInFrontend;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputDevice__DeviceFlags const DisabledInFrontend;
 
 /// @brief Field DisabledInRuntime offset 0
-static ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputDevice__DeviceFlags const DisabledInRuntime;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputDevice__DeviceFlags const DisabledInRuntime;
 
 /// @brief Field DisabledWhileInBackground offset 0
-static ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputDevice__DeviceFlags const DisabledWhileInBackground;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputDevice__DeviceFlags const DisabledWhileInBackground;
 
 /// @brief Field DisabledStateHasBeenQueriedFromRuntime offset 0
-static ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputDevice__DeviceFlags const DisabledStateHasBeenQueriedFromRuntime;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputDevice__DeviceFlags const DisabledStateHasBeenQueriedFromRuntime;
 
 /// @brief Field CanRunInBackground offset 0
-static ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputDevice__DeviceFlags const CanRunInBackground;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputDevice__DeviceFlags const CanRunInBackground;
 
 /// @brief Field CanRunInBackgroundHasBeenQueried offset 0
-static ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputDevice__DeviceFlags const CanRunInBackgroundHasBeenQueried;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputDevice__DeviceFlags const CanRunInBackgroundHasBeenQueried;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -155,10 +154,10 @@ namespace UnityEngine::InputSystem {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6298))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6322))
 // CS Name: UnityEngine.InputSystem.InputDevice
-class CORDL_TYPE InputDevice : public ::UnityEngine::InputSystem::InputControl {
+class CORDL_TYPE InputDevice : public UnityEngine::InputSystem::InputControl {
 public:
 // Declarations
-using DeviceFlags = ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputDevice__DeviceFlags;
+using DeviceFlags = UnityEngine::InputSystem::UnityEngine__InputSystem__InputDevice__DeviceFlags;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x158};
@@ -172,7 +171,7 @@ constexpr InputDevice(InputDevice const& ) noexcept = default;
 constexpr InputDevice(InputDevice&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit InputDevice(void* ptr) noexcept : ::UnityEngine::InputSystem::InputControl(ptr) {
+constexpr explicit InputDevice(void* ptr) noexcept : UnityEngine::InputSystem::InputControl(ptr) {
 }
 
 
@@ -202,11 +201,11 @@ static constexpr int32_t  kLocalParticipantId{0};
 /// @brief Field kInvalidDeviceIndex offset 0
 static constexpr int32_t  kInvalidDeviceIndex{-1};
 
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputDevice__DeviceFlags __declspec(property(get=__get_m_DeviceFlags, put=__set_m_DeviceFlags))  m_DeviceFlags;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputDevice__DeviceFlags __declspec(property(get=__get_m_DeviceFlags, put=__set_m_DeviceFlags))  m_DeviceFlags;
 
-constexpr void __set_m_DeviceFlags(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputDevice__DeviceFlags value) ;
+constexpr void __set_m_DeviceFlags(UnityEngine::InputSystem::UnityEngine__InputSystem__InputDevice__DeviceFlags value) ;
 
-constexpr ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputDevice__DeviceFlags __get_m_DeviceFlags() const;
+constexpr UnityEngine::InputSystem::UnityEngine__InputSystem__InputDevice__DeviceFlags __get_m_DeviceFlags() const;
 
  int32_t __declspec(property(get=__get_m_DeviceId, put=__set_m_DeviceId))  m_DeviceId;
 
@@ -226,11 +225,11 @@ constexpr void __set_m_DeviceIndex(int32_t value) ;
 
 constexpr int32_t __get_m_DeviceIndex() const;
 
- ::UnityEngine::InputSystem::Layouts::InputDeviceDescription __declspec(property(get=__get_m_Description, put=__set_m_Description))  m_Description;
+ UnityEngine::InputSystem::Layouts::InputDeviceDescription __declspec(property(get=__get_m_Description, put=__set_m_Description))  m_Description;
 
-constexpr void __set_m_Description(::UnityEngine::InputSystem::Layouts::InputDeviceDescription value) ;
+constexpr void __set_m_Description(UnityEngine::InputSystem::Layouts::InputDeviceDescription value) ;
 
-constexpr ::UnityEngine::InputSystem::Layouts::InputDeviceDescription __get_m_Description() const;
+constexpr UnityEngine::InputSystem::Layouts::InputDeviceDescription __get_m_Description() const;
 
  double_t __declspec(property(get=__get_m_LastUpdateTimeInternal, put=__set_m_LastUpdateTimeInternal))  m_LastUpdateTimeInternal;
 
@@ -244,29 +243,29 @@ constexpr void __set_m_CurrentUpdateStepCount(uint32_t value) ;
 
 constexpr uint32_t __get_m_CurrentUpdateStepCount() const;
 
- ::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString> __declspec(property(get=__get_m_AliasesForEachControl, put=__set_m_AliasesForEachControl))  m_AliasesForEachControl;
+ ::ArrayW<UnityEngine::InputSystem::Utilities::InternedString> __declspec(property(get=__get_m_AliasesForEachControl, put=__set_m_AliasesForEachControl))  m_AliasesForEachControl;
 
-constexpr void __set_m_AliasesForEachControl(::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString> value) ;
+constexpr void __set_m_AliasesForEachControl(::ArrayW<UnityEngine::InputSystem::Utilities::InternedString> value) ;
 
-constexpr ::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString> __get_m_AliasesForEachControl() const;
+constexpr ::ArrayW<UnityEngine::InputSystem::Utilities::InternedString> __get_m_AliasesForEachControl() const;
 
- ::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString> __declspec(property(get=__get_m_UsagesForEachControl, put=__set_m_UsagesForEachControl))  m_UsagesForEachControl;
+ ::ArrayW<UnityEngine::InputSystem::Utilities::InternedString> __declspec(property(get=__get_m_UsagesForEachControl, put=__set_m_UsagesForEachControl))  m_UsagesForEachControl;
 
-constexpr void __set_m_UsagesForEachControl(::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString> value) ;
+constexpr void __set_m_UsagesForEachControl(::ArrayW<UnityEngine::InputSystem::Utilities::InternedString> value) ;
 
-constexpr ::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString> __get_m_UsagesForEachControl() const;
+constexpr ::ArrayW<UnityEngine::InputSystem::Utilities::InternedString> __get_m_UsagesForEachControl() const;
 
- ::ArrayW<::UnityEngine::InputSystem::InputControl> __declspec(property(get=__get_m_UsageToControl, put=__set_m_UsageToControl))  m_UsageToControl;
+ ::ArrayW<UnityEngine::InputSystem::InputControl> __declspec(property(get=__get_m_UsageToControl, put=__set_m_UsageToControl))  m_UsageToControl;
 
-constexpr void __set_m_UsageToControl(::ArrayW<::UnityEngine::InputSystem::InputControl> value) ;
+constexpr void __set_m_UsageToControl(::ArrayW<UnityEngine::InputSystem::InputControl> value) ;
 
-constexpr ::ArrayW<::UnityEngine::InputSystem::InputControl> __get_m_UsageToControl() const;
+constexpr ::ArrayW<UnityEngine::InputSystem::InputControl> __get_m_UsageToControl() const;
 
- ::ArrayW<::UnityEngine::InputSystem::InputControl> __declspec(property(get=__get_m_ChildrenForEachControl, put=__set_m_ChildrenForEachControl))  m_ChildrenForEachControl;
+ ::ArrayW<UnityEngine::InputSystem::InputControl> __declspec(property(get=__get_m_ChildrenForEachControl, put=__set_m_ChildrenForEachControl))  m_ChildrenForEachControl;
 
-constexpr void __set_m_ChildrenForEachControl(::ArrayW<::UnityEngine::InputSystem::InputControl> value) ;
+constexpr void __set_m_ChildrenForEachControl(::ArrayW<UnityEngine::InputSystem::InputControl> value) ;
 
-constexpr ::ArrayW<::UnityEngine::InputSystem::InputControl> __get_m_ChildrenForEachControl() const;
+constexpr ::ArrayW<UnityEngine::InputSystem::InputControl> __get_m_ChildrenForEachControl() const;
 
  ::ArrayW<uint32_t> __declspec(property(get=__get_m_StateOffsetToControlMap, put=__set_m_StateOffsetToControlMap))  m_StateOffsetToControlMap;
 
@@ -286,7 +285,7 @@ static constexpr int32_t  kStateSizeBits{9};
 
 // Properties
 
- ::UnityEngine::InputSystem::Layouts::InputDeviceDescription __declspec(property(get=get_description))  description;
+ UnityEngine::InputSystem::Layouts::InputDeviceDescription __declspec(property(get=get_description))  description;
 
  bool __declspec(property(get=get_enabled))  enabled;
 
@@ -306,13 +305,13 @@ static constexpr int32_t  kStateSizeBits{9};
 
  bool __declspec(property(get=get_wasUpdatedThisFrame))  wasUpdatedThisFrame;
 
- ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputControl> __declspec(property(get=get_allControls))  allControls;
+ UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<UnityEngine::InputSystem::InputControl> __declspec(property(get=get_allControls))  allControls;
 
- ::System::Type __declspec(property(get=get_valueType))  valueType;
+ System::Type __declspec(property(get=get_valueType))  valueType;
 
  int32_t __declspec(property(get=get_valueSizeInBytes))  valueSizeInBytes;
 
-static ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice> __declspec(property(get=get_all))  all;
+static UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<UnityEngine::InputSystem::InputDevice> __declspec(property(get=get_all))  all;
 
  bool __declspec(property(get=get_disabledInFrontend, put=set_disabledInFrontend))  disabledInFrontend;
 
@@ -334,7 +333,7 @@ static ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::Inp
 // Methods
 
 /// @brief Method get_description addr 0x28d7674 size 0x24 virtual false final false
- ::UnityEngine::InputSystem::Layouts::InputDeviceDescription get_description() ;
+ UnityEngine::InputSystem::Layouts::InputDeviceDescription get_description() ;
 
 /// @brief Method get_enabled addr 0x28d7698 size 0x1c virtual false final false
  bool get_enabled() ;
@@ -364,16 +363,16 @@ static ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::Inp
  bool get_wasUpdatedThisFrame() ;
 
 /// @brief Method get_allControls addr 0x28d78ec size 0x60 virtual false final false
- ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputControl> get_allControls() ;
+ UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<UnityEngine::InputSystem::InputControl> get_allControls() ;
 
 /// @brief Method get_valueType addr 0x28d794c size 0x6c virtual true final false
- ::System::Type get_valueType() ;
+ System::Type get_valueType() ;
 
 /// @brief Method get_valueSizeInBytes addr 0x28d79b8 size 0xc virtual true final false
  int32_t get_valueSizeInBytes() ;
 
 /// @brief Method get_all addr 0x28d79c4 size 0x4c virtual false final false
-static ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice> get_all() ;
+static UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<UnityEngine::InputSystem::InputDevice> get_all() ;
 
 // Ctor Parameters []
 explicit InputDevice() ;
@@ -473,10 +472,10 @@ static void DecodeStateOffsetToControlMapEntry(uint32_t entry, ByRef<uint32_t> c
  void set_hasEventPreProcessor(bool value) ;
 
 /// @brief Method AddDeviceUsage addr 0x28d7fb8 size 0xb4 virtual false final false
- void AddDeviceUsage(::UnityEngine::InputSystem::Utilities::InternedString usage) ;
+ void AddDeviceUsage(UnityEngine::InputSystem::Utilities::InternedString usage) ;
 
 /// @brief Method RemoveDeviceUsage addr 0x28d806c size 0xdc virtual false final false
- void RemoveDeviceUsage(::UnityEngine::InputSystem::Utilities::InternedString usage) ;
+ void RemoveDeviceUsage(UnityEngine::InputSystem::Utilities::InternedString usage) ;
 
 /// @brief Method ClearDeviceUsages addr 0x28d8148 size 0x60 virtual false final false
  void ClearDeviceUsages() ;
@@ -501,13 +500,12 @@ static void DecodeStateOffsetToControlMapEntry(uint32_t entry, ByRef<uint32_t> c
 
 /// @brief Method Build addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TDevice>
-static TDevice Build(::StringW layoutName, ::StringW layoutVariants, ::UnityEngine::InputSystem::Layouts::InputDeviceDescription deviceDescription, bool noPrecompiledLayouts) ;
+static TDevice Build(::StringW layoutName, ::StringW layoutVariants, UnityEngine::InputSystem::Layouts::InputDeviceDescription deviceDescription, bool noPrecompiledLayouts) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputDevice__DeviceFlags, "UnityEngine.InputSystem", "InputDevice/DeviceFlags");
-NEED_NO_BOX(::UnityEngine::InputSystem::InputDevice);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::InputDevice, "UnityEngine.InputSystem", "InputDevice");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::UnityEngine__InputSystem__InputDevice__DeviceFlags, "UnityEngine.InputSystem", "InputDevice/DeviceFlags");
+NEED_NO_BOX(UnityEngine::InputSystem::InputDevice);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::InputDevice, "UnityEngine.InputSystem", "InputDevice");

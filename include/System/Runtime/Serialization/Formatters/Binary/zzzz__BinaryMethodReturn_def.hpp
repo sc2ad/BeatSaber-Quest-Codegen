@@ -2,12 +2,11 @@
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
-namespace System {
-class Type;
-}
 namespace System::Runtime::Serialization::Formatters::Binary {
 struct MessageEnum;
+}
+namespace System {
+class Type;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryWriter;
@@ -76,11 +75,11 @@ constexpr void __set_callContext(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get_callContext() const;
 
- ::ArrayW<::System::Type> __declspec(property(get=__get_argTypes, put=__set_argTypes))  argTypes;
+ ::ArrayW<System::Type> __declspec(property(get=__get_argTypes, put=__set_argTypes))  argTypes;
 
-constexpr void __set_argTypes(::ArrayW<::System::Type> value) ;
+constexpr void __set_argTypes(::ArrayW<System::Type> value) ;
 
-constexpr ::ArrayW<::System::Type> __get_argTypes() const;
+constexpr ::ArrayW<System::Type> __get_argTypes() const;
 
  bool __declspec(property(get=__get_bArgsPrimitive, put=__set_bArgsPrimitive))  bArgsPrimitive;
 
@@ -88,17 +87,17 @@ constexpr void __set_bArgsPrimitive(bool value) ;
 
 constexpr bool __get_bArgsPrimitive() const;
 
- ::System::Runtime::Serialization::Formatters::Binary::MessageEnum __declspec(property(get=__get_messageEnum, put=__set_messageEnum))  messageEnum;
+ System::Runtime::Serialization::Formatters::Binary::MessageEnum __declspec(property(get=__get_messageEnum, put=__set_messageEnum))  messageEnum;
 
-constexpr void __set_messageEnum(::System::Runtime::Serialization::Formatters::Binary::MessageEnum value) ;
+constexpr void __set_messageEnum(System::Runtime::Serialization::Formatters::Binary::MessageEnum value) ;
 
-constexpr ::System::Runtime::Serialization::Formatters::Binary::MessageEnum __get_messageEnum() const;
+constexpr System::Runtime::Serialization::Formatters::Binary::MessageEnum __get_messageEnum() const;
 
- ::System::Type __declspec(property(get=__get_returnType, put=__set_returnType))  returnType;
+ System::Type __declspec(property(get=__get_returnType, put=__set_returnType))  returnType;
 
-constexpr void __set_returnType(::System::Type value) ;
+constexpr void __set_returnType(System::Type value) ;
 
-constexpr ::System::Type __get_returnType() const;
+constexpr System::Type __get_returnType() const;
 
 static ::bs_hook::Il2CppWrapperType __declspec(property(get=__get_instanceOfVoid, put=__set_instanceOfVoid))  instanceOfVoid;
 
@@ -116,7 +115,7 @@ explicit BinaryMethodReturn() ;
  void _ctor() ;
 
 /// @brief Method Write addr 0x2355f84 size 0x148 virtual true final true
- void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter sout) ;
+ void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter sout) ;
 
 /// @brief Method Dump addr 0x23560cc size 0x4 virtual false final false
  void Dump() ;
@@ -125,6 +124,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization::Formatters::Binary
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn, "System.Runtime.Serialization.Formatters.Binary", "BinaryMethodReturn");
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn, "System.Runtime.Serialization.Formatters.Binary", "BinaryMethodReturn");

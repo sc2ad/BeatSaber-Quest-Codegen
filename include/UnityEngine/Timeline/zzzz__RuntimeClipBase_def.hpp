@@ -3,7 +3,6 @@
 #include "UnityEngine/Timeline/zzzz__RuntimeElement_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Timeline {
 class RuntimeClipBase;
@@ -14,7 +13,7 @@ namespace UnityEngine::Timeline {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14095))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14094))
 // CS Name: UnityEngine.Timeline.RuntimeClipBase
-class CORDL_TYPE RuntimeClipBase : public ::UnityEngine::Timeline::RuntimeElement {
+class CORDL_TYPE RuntimeClipBase : public UnityEngine::Timeline::RuntimeElement {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr RuntimeClipBase(RuntimeClipBase const& ) noexcept = default;
 constexpr RuntimeClipBase(RuntimeClipBase&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RuntimeClipBase(void* ptr) noexcept : ::UnityEngine::Timeline::RuntimeElement(ptr) {
+constexpr explicit RuntimeClipBase(void* ptr) noexcept : UnityEngine::Timeline::RuntimeElement(ptr) {
 }
 
 
@@ -83,6 +82,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Timeline::RuntimeClipBase);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::RuntimeClipBase, "UnityEngine.Timeline", "RuntimeClipBase");
+NEED_NO_BOX(UnityEngine::Timeline::RuntimeClipBase);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::RuntimeClipBase, "UnityEngine.Timeline", "RuntimeClipBase");

@@ -3,7 +3,6 @@
 #include "Zenject/zzzz__Installer_1_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace Zenject {
 class InjectTypeInfo;
 }
@@ -17,7 +16,7 @@ namespace Zenject {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11073)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11073), inst: 3767 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11099))
 // CS Name: Zenject.ZenjectManagersInstaller
-class CORDL_TYPE ZenjectManagersInstaller : public ::Zenject::Installer_1<::Zenject::ZenjectManagersInstaller> {
+class CORDL_TYPE ZenjectManagersInstaller : public Zenject::Installer_1<Zenject::ZenjectManagersInstaller> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr ZenjectManagersInstaller(ZenjectManagersInstaller const& ) noexcept = 
 constexpr ZenjectManagersInstaller(ZenjectManagersInstaller&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ZenjectManagersInstaller(void* ptr) noexcept : ::Zenject::Installer_1<::Zenject::ZenjectManagersInstaller>(ptr) {
+constexpr explicit ZenjectManagersInstaller(void* ptr) noexcept : Zenject::Installer_1<Zenject::ZenjectManagersInstaller>(ptr) {
 }
 
 
@@ -66,12 +65,11 @@ explicit ZenjectManagersInstaller() ;
 static ::bs_hook::Il2CppWrapperType __zenCreate(::ArrayW<::bs_hook::Il2CppWrapperType> P_0) ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x2d7cb50 size 0x1c0 virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::ZenjectManagersInstaller);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::ZenjectManagersInstaller, "Zenject", "ZenjectManagersInstaller");
+NEED_NO_BOX(Zenject::ZenjectManagersInstaller);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectManagersInstaller, "Zenject", "ZenjectManagersInstaller");

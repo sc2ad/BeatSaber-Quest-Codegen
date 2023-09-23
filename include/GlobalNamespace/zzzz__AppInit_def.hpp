@@ -4,9 +4,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 class AppInitSetupData;
+}
+namespace GlobalNamespace {
+class MockPlayersModel;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace GlobalNamespace {
 class GameScenesManager;
@@ -15,13 +20,7 @@ namespace System::Collections {
 class IEnumerator;
 }
 namespace GlobalNamespace {
-class MockPlayersModel;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData;
-}
-namespace UnityEngine {
-class GameObject;
+class GlobalNamespace__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData;
 }
 namespace GlobalNamespace {
 class MultiplayerMockSettings;
@@ -39,16 +38,16 @@ class Func_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct ____GlobalNamespace__AppInit__AppStartType;
+struct GlobalNamespace__AppInit__AppStartType;
 }
 namespace GlobalNamespace {
 class AppInit;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__AppInit___StartCoroutine_d__11;
+class GlobalNamespace__AppInit___StartCoroutine_d__11;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__AppInit____c;
+class GlobalNamespace__AppInit____c;
 }
 // Type: ::AppStartType
 namespace GlobalNamespace {
@@ -56,20 +55,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4010))
 // CS Name: AppInit::AppStartType
-struct CORDL_TYPE ____GlobalNamespace__AppInit__AppStartType : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__AppInit__AppStartType : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__AppInit__AppStartType(int32_t value__) noexcept;
+constexpr GlobalNamespace__AppInit__AppStartType(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__AppInit__AppStartType(____GlobalNamespace__AppInit__AppStartType const&) = default;
-                    constexpr ____GlobalNamespace__AppInit__AppStartType(____GlobalNamespace__AppInit__AppStartType&&) = default;
-                    constexpr ____GlobalNamespace__AppInit__AppStartType& operator=(____GlobalNamespace__AppInit__AppStartType const& o) {
+                    constexpr GlobalNamespace__AppInit__AppStartType(GlobalNamespace__AppInit__AppStartType const&) = default;
+                    constexpr GlobalNamespace__AppInit__AppStartType(GlobalNamespace__AppInit__AppStartType&&) = default;
+                    constexpr GlobalNamespace__AppInit__AppStartType& operator=(GlobalNamespace__AppInit__AppStartType const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__AppInit__AppStartType& operator=(____GlobalNamespace__AppInit__AppStartType&& o) noexcept {
+                    constexpr GlobalNamespace__AppInit__AppStartType& operator=(GlobalNamespace__AppInit__AppStartType&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -82,7 +81,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__AppInit__AppStartType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__AppInit__AppStartType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -90,15 +89,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__AppInit__AppStartType_Unwrapped : int32_t {
+enum class __GlobalNamespace__AppInit__AppStartType_Unwrapped : int32_t {
 __AppStart = 0,
 __AppRestart = 1,
 __MultiSceneEditor = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__AppInit__AppStartType_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__AppInit__AppStartType_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__AppInit__AppStartType_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__AppInit__AppStartType_Unwrapped>(__instance);
 }
 
 
@@ -111,13 +110,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field AppStart offset 0
-static ::GlobalNamespace::____GlobalNamespace__AppInit__AppStartType const AppStart;
+static GlobalNamespace::GlobalNamespace__AppInit__AppStartType const AppStart;
 
 /// @brief Field AppRestart offset 0
-static ::GlobalNamespace::____GlobalNamespace__AppInit__AppStartType const AppRestart;
+static GlobalNamespace::GlobalNamespace__AppInit__AppStartType const AppRestart;
 
 /// @brief Field MultiSceneEditor offset 0
-static ::GlobalNamespace::____GlobalNamespace__AppInit__AppStartType const MultiSceneEditor;
+static GlobalNamespace::GlobalNamespace__AppInit__AppStartType const MultiSceneEditor;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -129,59 +128,59 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4011))
 // CS Name: AppInit::<>c
-class CORDL_TYPE ____GlobalNamespace__AppInit____c : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__AppInit____c : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____GlobalNamespace__AppInit____c() = default;
+virtual ~GlobalNamespace__AppInit____c() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__AppInit____c", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__AppInit____c(____GlobalNamespace__AppInit____c const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__AppInit____c", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__AppInit____c(GlobalNamespace__AppInit____c const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__AppInit____c", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__AppInit____c(____GlobalNamespace__AppInit____c&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__AppInit____c", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__AppInit____c(GlobalNamespace__AppInit____c&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__AppInit____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__AppInit____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__AppInit____c& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__AppInit____c& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__AppInit____c& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__AppInit____c& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__AppInit____c& operator=(____GlobalNamespace__AppInit____c&& o) noexcept = default;
-  constexpr ____GlobalNamespace__AppInit____c& operator=(____GlobalNamespace__AppInit____c const& o) noexcept = default;
+  constexpr GlobalNamespace__AppInit____c& operator=(GlobalNamespace__AppInit____c&& o) noexcept = default;
+  constexpr GlobalNamespace__AppInit____c& operator=(GlobalNamespace__AppInit____c const& o) noexcept = default;
                 
 
 
 // Fields
 
-static ::GlobalNamespace::____GlobalNamespace__AppInit____c __declspec(property(get=__get___9, put=__set___9))  __9;
+static GlobalNamespace::GlobalNamespace__AppInit____c __declspec(property(get=__get___9, put=__set___9))  __9;
 
-static void __set___9(::GlobalNamespace::____GlobalNamespace__AppInit____c value) ;
+static void __set___9(GlobalNamespace::GlobalNamespace__AppInit____c value) ;
 
-static ::GlobalNamespace::____GlobalNamespace__AppInit____c __get___9() ;
+static GlobalNamespace::GlobalNamespace__AppInit____c __get___9() ;
 
-static ::System::Func_1<bool> __declspec(property(get=__get___9__11_0, put=__set___9__11_0))  __9__11_0;
+static System::Func_1<bool> __declspec(property(get=__get___9__11_0, put=__set___9__11_0))  __9__11_0;
 
-static void __set___9__11_0(::System::Func_1<bool> value) ;
+static void __set___9__11_0(System::Func_1<bool> value) ;
 
-static ::System::Func_1<bool> __get___9__11_0() ;
+static System::Func_1<bool> __get___9__11_0() ;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__AppInit____c() ;
+explicit GlobalNamespace__AppInit____c() ;
 
 /// @brief Method .ctor addr 0x20b4468 size 0x8 virtual false final false
  void _ctor() ;
@@ -199,46 +198,46 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4012))
 // CS Name: AppInit::<StartCoroutine>d__11
-class CORDL_TYPE ____GlobalNamespace__AppInit___StartCoroutine_d__11 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__AppInit___StartCoroutine_d__11 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____GlobalNamespace__AppInit___StartCoroutine_d__11() = default;
+virtual ~GlobalNamespace__AppInit___StartCoroutine_d__11() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__AppInit___StartCoroutine_d__11", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__AppInit___StartCoroutine_d__11(____GlobalNamespace__AppInit___StartCoroutine_d__11 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__AppInit___StartCoroutine_d__11", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__AppInit___StartCoroutine_d__11(GlobalNamespace__AppInit___StartCoroutine_d__11 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__AppInit___StartCoroutine_d__11", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__AppInit___StartCoroutine_d__11(____GlobalNamespace__AppInit___StartCoroutine_d__11&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__AppInit___StartCoroutine_d__11", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__AppInit___StartCoroutine_d__11(GlobalNamespace__AppInit___StartCoroutine_d__11&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__AppInit___StartCoroutine_d__11(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__AppInit___StartCoroutine_d__11(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__AppInit___StartCoroutine_d__11& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__AppInit___StartCoroutine_d__11& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__AppInit___StartCoroutine_d__11& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__AppInit___StartCoroutine_d__11& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__AppInit___StartCoroutine_d__11& operator=(____GlobalNamespace__AppInit___StartCoroutine_d__11&& o) noexcept = default;
-  constexpr ____GlobalNamespace__AppInit___StartCoroutine_d__11& operator=(____GlobalNamespace__AppInit___StartCoroutine_d__11 const& o) noexcept = default;
+  constexpr GlobalNamespace__AppInit___StartCoroutine_d__11& operator=(GlobalNamespace__AppInit___StartCoroutine_d__11&& o) noexcept = default;
+  constexpr GlobalNamespace__AppInit___StartCoroutine_d__11& operator=(GlobalNamespace__AppInit___StartCoroutine_d__11 const& o) noexcept = default;
                 
 
 
@@ -256,17 +255,17 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::GlobalNamespace::AppInit __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::AppInit __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::AppInit value) ;
+constexpr void __set___4__this(GlobalNamespace::AppInit value) ;
 
-constexpr ::GlobalNamespace::AppInit __get___4__this() const;
+constexpr GlobalNamespace::AppInit __get___4__this() const;
 
- ::GlobalNamespace::____GlobalNamespace__AppInit__AppStartType __declspec(property(get=__get__startType_5__2, put=__set__startType_5__2))  _startType_5__2;
+ GlobalNamespace::GlobalNamespace__AppInit__AppStartType __declspec(property(get=__get__startType_5__2, put=__set__startType_5__2))  _startType_5__2;
 
-constexpr void __set__startType_5__2(::GlobalNamespace::____GlobalNamespace__AppInit__AppStartType value) ;
+constexpr void __set__startType_5__2(GlobalNamespace::GlobalNamespace__AppInit__AppStartType value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__AppInit__AppStartType __get__startType_5__2() const;
+constexpr GlobalNamespace::GlobalNamespace__AppInit__AppStartType __get__startType_5__2() const;
 
 
 // Properties
@@ -279,7 +278,7 @@ constexpr ::GlobalNamespace::____GlobalNamespace__AppInit__AppStartType __get__s
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__AppInit___StartCoroutine_d__11(int32_t __1__state) ;
+explicit GlobalNamespace__AppInit___StartCoroutine_d__11(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x20b41c4 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -309,14 +308,14 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11080))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4013))
 // CS Name: AppInit
-class CORDL_TYPE AppInit : public ::Zenject::MonoInstaller {
+class CORDL_TYPE AppInit : public Zenject::MonoInstaller {
 public:
 // Declarations
-using _StartCoroutine_d__11 = ::GlobalNamespace::____GlobalNamespace__AppInit___StartCoroutine_d__11;
+using _StartCoroutine_d__11 = GlobalNamespace::GlobalNamespace__AppInit___StartCoroutine_d__11;
 
-using __c = ::GlobalNamespace::____GlobalNamespace__AppInit____c;
+using __c = GlobalNamespace::GlobalNamespace__AppInit____c;
 
-using AppStartType = ::GlobalNamespace::____GlobalNamespace__AppInit__AppStartType;
+using AppStartType = GlobalNamespace::GlobalNamespace__AppInit__AppStartType;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
@@ -330,7 +329,7 @@ constexpr AppInit(AppInit const& ) noexcept = default;
 constexpr AppInit(AppInit&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AppInit(void* ptr) noexcept : ::Zenject::MonoInstaller(ptr) {
+constexpr explicit AppInit(void* ptr) noexcept : Zenject::MonoInstaller(ptr) {
 }
 
 
@@ -351,40 +350,40 @@ constexpr explicit AppInit(void* ptr) noexcept : ::Zenject::MonoInstaller(ptr) {
 
 // Fields
 
- ::UnityEngine::GameObject __declspec(property(get=__get__cameraGO, put=__set__cameraGO))  _cameraGO;
+ UnityEngine::GameObject __declspec(property(get=__get__cameraGO, put=__set__cameraGO))  _cameraGO;
 
-constexpr void __set__cameraGO(::UnityEngine::GameObject value) ;
+constexpr void __set__cameraGO(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__cameraGO() const;
+constexpr UnityEngine::GameObject __get__cameraGO() const;
 
- ::GlobalNamespace::MultiplayerMockSettings __declspec(property(get=__get__multiplayerMockSettings, put=__set__multiplayerMockSettings))  _multiplayerMockSettings;
+ GlobalNamespace::MultiplayerMockSettings __declspec(property(get=__get__multiplayerMockSettings, put=__set__multiplayerMockSettings))  _multiplayerMockSettings;
 
-constexpr void __set__multiplayerMockSettings(::GlobalNamespace::MultiplayerMockSettings value) ;
+constexpr void __set__multiplayerMockSettings(GlobalNamespace::MultiplayerMockSettings value) ;
 
-constexpr ::GlobalNamespace::MultiplayerMockSettings __get__multiplayerMockSettings() const;
+constexpr GlobalNamespace::MultiplayerMockSettings __get__multiplayerMockSettings() const;
 
- ::GlobalNamespace::____GlobalNamespace__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData __declspec(property(get=__get__sceneSetupData, put=__set__sceneSetupData))  _sceneSetupData;
+ GlobalNamespace::GlobalNamespace__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData __declspec(property(get=__get__sceneSetupData, put=__set__sceneSetupData))  _sceneSetupData;
 
-constexpr void __set__sceneSetupData(::GlobalNamespace::____GlobalNamespace__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData value) ;
+constexpr void __set__sceneSetupData(GlobalNamespace::GlobalNamespace__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData __get__sceneSetupData() const;
+constexpr GlobalNamespace::GlobalNamespace__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData __get__sceneSetupData() const;
 
- ::GlobalNamespace::AppInitSetupData __declspec(property(get=__get__setupData, put=__set__setupData))  _setupData;
+ GlobalNamespace::AppInitSetupData __declspec(property(get=__get__setupData, put=__set__setupData))  _setupData;
 
-constexpr void __set__setupData(::GlobalNamespace::AppInitSetupData value) ;
+constexpr void __set__setupData(GlobalNamespace::AppInitSetupData value) ;
 
-constexpr ::GlobalNamespace::AppInitSetupData __get__setupData() const;
+constexpr GlobalNamespace::AppInitSetupData __get__setupData() const;
 
- ::GlobalNamespace::GameScenesManager __declspec(property(get=__get__gameScenesManager, put=__set__gameScenesManager))  _gameScenesManager;
+ GlobalNamespace::GameScenesManager __declspec(property(get=__get__gameScenesManager, put=__set__gameScenesManager))  _gameScenesManager;
 
-constexpr void __set__gameScenesManager(::GlobalNamespace::GameScenesManager value) ;
+constexpr void __set__gameScenesManager(GlobalNamespace::GameScenesManager value) ;
 
-constexpr ::GlobalNamespace::GameScenesManager __get__gameScenesManager() const;
+constexpr GlobalNamespace::GameScenesManager __get__gameScenesManager() const;
 
 
 // Properties
 
- ::GlobalNamespace::GameScenesManager __declspec(property(get=get_gameScenesManager))  gameScenesManager;
+ GlobalNamespace::GameScenesManager __declspec(property(get=get_gameScenesManager))  gameScenesManager;
 
  bool __declspec(property(get=get_isTestContext))  isTestContext;
 
@@ -392,7 +391,7 @@ constexpr ::GlobalNamespace::GameScenesManager __get__gameScenesManager() const;
 // Methods
 
 /// @brief Method get_gameScenesManager addr 0x20b3fcc size 0x8 virtual false final false
- ::GlobalNamespace::GameScenesManager get_gameScenesManager() ;
+ GlobalNamespace::GameScenesManager get_gameScenesManager() ;
 
 /// @brief Method get_isTestContext addr 0x20b3fd4 size 0x20 virtual false final false
  bool get_isTestContext() ;
@@ -401,7 +400,7 @@ constexpr ::GlobalNamespace::GameScenesManager __get__gameScenesManager() const;
  void Start() ;
 
 /// @brief Method StartCoroutine addr 0x20b415c size 0x68 virtual false final false
- ::System::Collections::IEnumerator StartCoroutine() ;
+ System::Collections::IEnumerator StartCoroutine() ;
 
 /// @brief Method OnDestroy addr 0x20b41ec size 0xd4 virtual false final false
  void OnDestroy() ;
@@ -410,10 +409,10 @@ constexpr ::GlobalNamespace::GameScenesManager __get__gameScenesManager() const;
  void HandleBeforeDismissingScenes() ;
 
 /// @brief Method GetMockPlayersModel addr 0x20b4360 size 0x34 virtual false final false
- ::GlobalNamespace::MockPlayersModel GetMockPlayersModel() ;
+ GlobalNamespace::MockPlayersModel GetMockPlayersModel() ;
 
 /// @brief Method GetAppStartType addr 0x20b40c8 size 0x94 virtual false final false
- ::GlobalNamespace::____GlobalNamespace__AppInit__AppStartType GetAppStartType() ;
+ GlobalNamespace::GlobalNamespace__AppInit__AppStartType GetAppStartType() ;
 
 /// @brief Method AppStartAndMultiSceneEditorSetup addr 0x0 size 0xffffffffffffffff virtual true final false
  void AppStartAndMultiSceneEditorSetup() ;
@@ -434,11 +433,10 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__AppInit__AppStartType, "", "AppInit/AppStartType");
-NEED_NO_BOX(::GlobalNamespace::AppInit);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AppInit, "", "AppInit");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__AppInit___StartCoroutine_d__11);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__AppInit___StartCoroutine_d__11, "", "AppInit/<StartCoroutine>d__11");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__AppInit____c);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__AppInit____c, "", "AppInit/<>c");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__AppInit__AppStartType, "", "AppInit/AppStartType");
+NEED_NO_BOX(GlobalNamespace::AppInit);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppInit, "", "AppInit");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__AppInit___StartCoroutine_d__11);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__AppInit___StartCoroutine_d__11, "", "AppInit/<StartCoroutine>d__11");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__AppInit____c);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__AppInit____c, "", "AppInit/<>c");

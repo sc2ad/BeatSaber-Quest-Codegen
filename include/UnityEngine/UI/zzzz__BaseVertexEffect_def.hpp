@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace UnityEngine {
 struct UIVertex;
 }
@@ -56,7 +55,7 @@ constexpr explicit BaseVertexEffect(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 // Methods
 
 /// @brief Method ModifyVertices addr 0x0 size 0xffffffffffffffff virtual true final false
- void ModifyVertices(::System::Collections::Generic::List_1<::UnityEngine::UIVertex> vertices) ;
+ void ModifyVertices(System::Collections::Generic::List_1<UnityEngine::UIVertex> vertices) ;
 
 // Ctor Parameters []
 explicit BaseVertexEffect() ;
@@ -68,6 +67,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UI
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UI::BaseVertexEffect);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::BaseVertexEffect, "UnityEngine.UI", "BaseVertexEffect");
+NEED_NO_BOX(UnityEngine::UI::BaseVertexEffect);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::BaseVertexEffect, "UnityEngine.UI", "BaseVertexEffect");

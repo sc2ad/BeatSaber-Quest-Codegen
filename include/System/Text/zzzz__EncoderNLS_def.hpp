@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::Text {
 class Encoding;
 }
@@ -18,7 +17,7 @@ namespace System::Text {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2834))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2842))
 // CS Name: System.Text.EncoderNLS
-class CORDL_TYPE EncoderNLS : public ::System::Text::Encoder {
+class CORDL_TYPE EncoderNLS : public System::Text::Encoder {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr EncoderNLS(EncoderNLS const& ) noexcept = default;
 constexpr EncoderNLS(EncoderNLS&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EncoderNLS(void* ptr) noexcept : ::System::Text::Encoder(ptr) {
+constexpr explicit EncoderNLS(void* ptr) noexcept : System::Text::Encoder(ptr) {
 }
 
 
@@ -60,11 +59,11 @@ constexpr void __set__charLeftOver(char16_t value) ;
 
 constexpr char16_t __get__charLeftOver() const;
 
- ::System::Text::Encoding __declspec(property(get=__get__encoding, put=__set__encoding))  _encoding;
+ System::Text::Encoding __declspec(property(get=__get__encoding, put=__set__encoding))  _encoding;
 
-constexpr void __set__encoding(::System::Text::Encoding value) ;
+constexpr void __set__encoding(System::Text::Encoding value) ;
 
-constexpr ::System::Text::Encoding __get__encoding() const;
+constexpr System::Text::Encoding __get__encoding() const;
 
  bool __declspec(property(get=__get__mustFlush, put=__set__mustFlush))  _mustFlush;
 
@@ -87,7 +86,7 @@ constexpr int32_t __get__charsUsed() const;
 
 // Properties
 
- ::System::Text::Encoding __declspec(property(get=get_Encoding))  Encoding;
+ System::Text::Encoding __declspec(property(get=get_Encoding))  Encoding;
 
  bool __declspec(property(get=get_MustFlush))  MustFlush;
 
@@ -96,11 +95,11 @@ constexpr int32_t __get__charsUsed() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "encoding", ty: "::System::Text::Encoding", modifiers: "", def_value: None }]
-explicit EncoderNLS(::System::Text::Encoding encoding) ;
+// Ctor Parameters [CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
+explicit EncoderNLS(System::Text::Encoding encoding) ;
 
 /// @brief Method .ctor addr 0x24c1a28 size 0x44 virtual false final false
- void _ctor(::System::Text::Encoding encoding) ;
+ void _ctor(System::Text::Encoding encoding) ;
 
 /// @brief Method Reset addr 0x24c5ed0 size 0x20 virtual true final false
  void Reset() ;
@@ -124,7 +123,7 @@ explicit EncoderNLS(::System::Text::Encoding encoding) ;
  void Convert(void* chars, int32_t charCount, void* bytes, int32_t byteCount, bool flush, ByRef<int32_t> charsUsed, ByRef<int32_t> bytesUsed, ByRef<bool> completed) ;
 
 /// @brief Method get_Encoding addr 0x24c69ec size 0x8 virtual false final false
- ::System::Text::Encoding get_Encoding() ;
+ System::Text::Encoding get_Encoding() ;
 
 /// @brief Method get_MustFlush addr 0x24c69f4 size 0x8 virtual false final false
  bool get_MustFlush() ;
@@ -139,6 +138,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Text
-} // end anonymous namespace
-NEED_NO_BOX(::System::Text::EncoderNLS);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::EncoderNLS, "System.Text", "EncoderNLS");
+NEED_NO_BOX(System::Text::EncoderNLS);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::EncoderNLS, "System.Text", "EncoderNLS");

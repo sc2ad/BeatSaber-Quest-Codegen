@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace UnityEngine {
 class GameObject;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13809))
 // CS Name: InstantiatePrefab
-class CORDL_TYPE InstantiatePrefab : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE InstantiatePrefab : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr InstantiatePrefab(InstantiatePrefab const& ) noexcept = default;
 constexpr InstantiatePrefab(InstantiatePrefab&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit InstantiatePrefab(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit InstantiatePrefab(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit InstantiatePrefab(void* ptr) noexcept : ::UnityEngine::MonoBe
 
 // Fields
 
- ::UnityEngine::GameObject __declspec(property(get=__get__prefab, put=__set__prefab))  _prefab;
+ UnityEngine::GameObject __declspec(property(get=__get__prefab, put=__set__prefab))  _prefab;
 
-constexpr void __set__prefab(::UnityEngine::GameObject value) ;
+constexpr void __set__prefab(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__prefab() const;
+constexpr UnityEngine::GameObject __get__prefab() const;
 
 
 // Methods
@@ -73,6 +72,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::InstantiatePrefab);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::InstantiatePrefab, "", "InstantiatePrefab");
+NEED_NO_BOX(GlobalNamespace::InstantiatePrefab);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::InstantiatePrefab, "", "InstantiatePrefab");

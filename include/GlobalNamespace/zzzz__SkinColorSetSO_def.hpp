@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace GlobalNamespace {
 class SkinColorSO;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4777))
 // CS Name: SkinColorSetSO
-class CORDL_TYPE SkinColorSetSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE SkinColorSetSO : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr SkinColorSetSO(SkinColorSetSO const& ) noexcept = default;
 constexpr SkinColorSetSO(SkinColorSetSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SkinColorSetSO(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit SkinColorSetSO(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -52,22 +51,22 @@ constexpr explicit SkinColorSetSO(void* ptr) noexcept : ::GlobalNamespace::Persi
 
 // Fields
 
- ::ArrayW<::GlobalNamespace::SkinColorSO> __declspec(property(get=__get__colors, put=__set__colors))  _colors;
+ ::ArrayW<GlobalNamespace::SkinColorSO> __declspec(property(get=__get__colors, put=__set__colors))  _colors;
 
-constexpr void __set__colors(::ArrayW<::GlobalNamespace::SkinColorSO> value) ;
+constexpr void __set__colors(::ArrayW<GlobalNamespace::SkinColorSO> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::SkinColorSO> __get__colors() const;
+constexpr ::ArrayW<GlobalNamespace::SkinColorSO> __get__colors() const;
 
 
 // Properties
 
- ::ArrayW<::GlobalNamespace::SkinColorSO> __declspec(property(get=get_colors))  colors;
+ ::ArrayW<GlobalNamespace::SkinColorSO> __declspec(property(get=get_colors))  colors;
 
 
 // Methods
 
 /// @brief Method get_colors addr 0x22299f8 size 0x8 virtual false final false
- ::ArrayW<::GlobalNamespace::SkinColorSO> get_colors() ;
+ ::ArrayW<GlobalNamespace::SkinColorSO> get_colors() ;
 
 // Ctor Parameters []
 explicit SkinColorSetSO() ;
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SkinColorSetSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SkinColorSetSO, "", "SkinColorSetSO");
+NEED_NO_BOX(GlobalNamespace::SkinColorSetSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SkinColorSetSO, "", "SkinColorSetSO");

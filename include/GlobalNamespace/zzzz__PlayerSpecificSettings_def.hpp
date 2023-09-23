@@ -2,7 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
+namespace System {
+template<typename T>
+struct Nullable_1;
+}
 namespace GlobalNamespace {
 struct EnvironmentEffectsFilterPreset;
 }
@@ -11,10 +14,6 @@ struct ArcVisibilityType;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
-}
-namespace System {
-template<typename T>
-struct Nullable_1;
 }
 namespace GlobalNamespace {
 struct NoteJumpDurationTypeSettings;
@@ -125,11 +124,11 @@ constexpr void __set__saberTrailIntensity(float_t value) ;
 
 constexpr float_t __get__saberTrailIntensity() const;
 
- ::GlobalNamespace::NoteJumpDurationTypeSettings __declspec(property(get=__get__noteJumpDurationTypeSettings, put=__set__noteJumpDurationTypeSettings))  _noteJumpDurationTypeSettings;
+ GlobalNamespace::NoteJumpDurationTypeSettings __declspec(property(get=__get__noteJumpDurationTypeSettings, put=__set__noteJumpDurationTypeSettings))  _noteJumpDurationTypeSettings;
 
-constexpr void __set__noteJumpDurationTypeSettings(::GlobalNamespace::NoteJumpDurationTypeSettings value) ;
+constexpr void __set__noteJumpDurationTypeSettings(GlobalNamespace::NoteJumpDurationTypeSettings value) ;
 
-constexpr ::GlobalNamespace::NoteJumpDurationTypeSettings __get__noteJumpDurationTypeSettings() const;
+constexpr GlobalNamespace::NoteJumpDurationTypeSettings __get__noteJumpDurationTypeSettings() const;
 
  float_t __declspec(property(get=__get__noteJumpFixedDuration, put=__set__noteJumpFixedDuration))  _noteJumpFixedDuration;
 
@@ -161,23 +160,23 @@ constexpr void __set__arcsHapticFeedback(bool value) ;
 
 constexpr bool __get__arcsHapticFeedback() const;
 
- ::GlobalNamespace::ArcVisibilityType __declspec(property(get=__get__arcsVisible, put=__set__arcsVisible))  _arcsVisible;
+ GlobalNamespace::ArcVisibilityType __declspec(property(get=__get__arcsVisible, put=__set__arcsVisible))  _arcsVisible;
 
-constexpr void __set__arcsVisible(::GlobalNamespace::ArcVisibilityType value) ;
+constexpr void __set__arcsVisible(GlobalNamespace::ArcVisibilityType value) ;
 
-constexpr ::GlobalNamespace::ArcVisibilityType __get__arcsVisible() const;
+constexpr GlobalNamespace::ArcVisibilityType __get__arcsVisible() const;
 
- ::GlobalNamespace::EnvironmentEffectsFilterPreset __declspec(property(get=__get__environmentEffectsFilterDefaultPreset, put=__set__environmentEffectsFilterDefaultPreset))  _environmentEffectsFilterDefaultPreset;
+ GlobalNamespace::EnvironmentEffectsFilterPreset __declspec(property(get=__get__environmentEffectsFilterDefaultPreset, put=__set__environmentEffectsFilterDefaultPreset))  _environmentEffectsFilterDefaultPreset;
 
-constexpr void __set__environmentEffectsFilterDefaultPreset(::GlobalNamespace::EnvironmentEffectsFilterPreset value) ;
+constexpr void __set__environmentEffectsFilterDefaultPreset(GlobalNamespace::EnvironmentEffectsFilterPreset value) ;
 
-constexpr ::GlobalNamespace::EnvironmentEffectsFilterPreset __get__environmentEffectsFilterDefaultPreset() const;
+constexpr GlobalNamespace::EnvironmentEffectsFilterPreset __get__environmentEffectsFilterDefaultPreset() const;
 
- ::GlobalNamespace::EnvironmentEffectsFilterPreset __declspec(property(get=__get__environmentEffectsFilterExpertPlusPreset, put=__set__environmentEffectsFilterExpertPlusPreset))  _environmentEffectsFilterExpertPlusPreset;
+ GlobalNamespace::EnvironmentEffectsFilterPreset __declspec(property(get=__get__environmentEffectsFilterExpertPlusPreset, put=__set__environmentEffectsFilterExpertPlusPreset))  _environmentEffectsFilterExpertPlusPreset;
 
-constexpr void __set__environmentEffectsFilterExpertPlusPreset(::GlobalNamespace::EnvironmentEffectsFilterPreset value) ;
+constexpr void __set__environmentEffectsFilterExpertPlusPreset(GlobalNamespace::EnvironmentEffectsFilterPreset value) ;
 
-constexpr ::GlobalNamespace::EnvironmentEffectsFilterPreset __get__environmentEffectsFilterExpertPlusPreset() const;
+constexpr GlobalNamespace::EnvironmentEffectsFilterPreset __get__environmentEffectsFilterExpertPlusPreset() const;
 
 
 // Properties
@@ -202,7 +201,7 @@ constexpr ::GlobalNamespace::EnvironmentEffectsFilterPreset __get__environmentEf
 
  float_t __declspec(property(get=get_saberTrailIntensity))  saberTrailIntensity;
 
- ::GlobalNamespace::NoteJumpDurationTypeSettings __declspec(property(get=get_noteJumpDurationTypeSettings))  noteJumpDurationTypeSettings;
+ GlobalNamespace::NoteJumpDurationTypeSettings __declspec(property(get=get_noteJumpDurationTypeSettings))  noteJumpDurationTypeSettings;
 
  float_t __declspec(property(get=get_noteJumpFixedDuration))  noteJumpFixedDuration;
 
@@ -214,11 +213,11 @@ constexpr ::GlobalNamespace::EnvironmentEffectsFilterPreset __get__environmentEf
 
  bool __declspec(property(get=get_arcsHapticFeedback))  arcsHapticFeedback;
 
- ::GlobalNamespace::ArcVisibilityType __declspec(property(get=get_arcVisibility))  arcVisibility;
+ GlobalNamespace::ArcVisibilityType __declspec(property(get=get_arcVisibility))  arcVisibility;
 
- ::GlobalNamespace::EnvironmentEffectsFilterPreset __declspec(property(get=get_environmentEffectsFilterDefaultPreset))  environmentEffectsFilterDefaultPreset;
+ GlobalNamespace::EnvironmentEffectsFilterPreset __declspec(property(get=get_environmentEffectsFilterDefaultPreset))  environmentEffectsFilterDefaultPreset;
 
- ::GlobalNamespace::EnvironmentEffectsFilterPreset __declspec(property(get=get_environmentEffectsFilterExpertPlusPreset))  environmentEffectsFilterExpertPlusPreset;
+ GlobalNamespace::EnvironmentEffectsFilterPreset __declspec(property(get=get_environmentEffectsFilterExpertPlusPreset))  environmentEffectsFilterExpertPlusPreset;
 
 
 // Methods
@@ -254,7 +253,7 @@ constexpr ::GlobalNamespace::EnvironmentEffectsFilterPreset __get__environmentEf
  float_t get_saberTrailIntensity() ;
 
 /// @brief Method get_noteJumpDurationTypeSettings addr 0x2226fbc size 0x8 virtual false final false
- ::GlobalNamespace::NoteJumpDurationTypeSettings get_noteJumpDurationTypeSettings() ;
+ GlobalNamespace::NoteJumpDurationTypeSettings get_noteJumpDurationTypeSettings() ;
 
 /// @brief Method get_noteJumpFixedDuration addr 0x2226fc4 size 0x8 virtual false final false
  float_t get_noteJumpFixedDuration() ;
@@ -272,13 +271,13 @@ constexpr ::GlobalNamespace::EnvironmentEffectsFilterPreset __get__environmentEf
  bool get_arcsHapticFeedback() ;
 
 /// @brief Method get_arcVisibility addr 0x2226fec size 0x8 virtual false final false
- ::GlobalNamespace::ArcVisibilityType get_arcVisibility() ;
+ GlobalNamespace::ArcVisibilityType get_arcVisibility() ;
 
 /// @brief Method get_environmentEffectsFilterDefaultPreset addr 0x2226ff4 size 0x8 virtual false final false
- ::GlobalNamespace::EnvironmentEffectsFilterPreset get_environmentEffectsFilterDefaultPreset() ;
+ GlobalNamespace::EnvironmentEffectsFilterPreset get_environmentEffectsFilterDefaultPreset() ;
 
 /// @brief Method get_environmentEffectsFilterExpertPlusPreset addr 0x2226ffc size 0x8 virtual false final false
- ::GlobalNamespace::EnvironmentEffectsFilterPreset get_environmentEffectsFilterExpertPlusPreset() ;
+ GlobalNamespace::EnvironmentEffectsFilterPreset get_environmentEffectsFilterExpertPlusPreset() ;
 
 // Ctor Parameters []
 explicit PlayerSpecificSettings() ;
@@ -286,22 +285,21 @@ explicit PlayerSpecificSettings() ;
 /// @brief Method .ctor addr 0x2225e48 size 0x70 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "leftHanded", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "playerHeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "automaticPlayerHeight", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "sfxVolume", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "reduceDebris", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "noTextsAndHuds", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "noFailEffects", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "advancedHud", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "autoRestart", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "saberTrailIntensity", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "noteJumpDurationTypeSettings", ty: "::GlobalNamespace::NoteJumpDurationTypeSettings", modifiers: "", def_value: None }, CppParam { name: "noteJumpFixedDuration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "noteJumpStartBeatOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "hideNoteSpawnEffect", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "adaptiveSfx", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "arcsHapticFeedback", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "arcsVisible", ty: "::GlobalNamespace::ArcVisibilityType", modifiers: "", def_value: None }, CppParam { name: "environmentEffectsFilterDefaultPreset", ty: "::GlobalNamespace::EnvironmentEffectsFilterPreset", modifiers: "", def_value: None }, CppParam { name: "environmentEffectsFilterExpertPlusPreset", ty: "::GlobalNamespace::EnvironmentEffectsFilterPreset", modifiers: "", def_value: None }]
-explicit PlayerSpecificSettings(bool leftHanded, float_t playerHeight, bool automaticPlayerHeight, float_t sfxVolume, bool reduceDebris, bool noTextsAndHuds, bool noFailEffects, bool advancedHud, bool autoRestart, float_t saberTrailIntensity, ::GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings, float_t noteJumpFixedDuration, float_t noteJumpStartBeatOffset, bool hideNoteSpawnEffect, bool adaptiveSfx, bool arcsHapticFeedback, ::GlobalNamespace::ArcVisibilityType arcsVisible, ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterDefaultPreset, ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterExpertPlusPreset) ;
+// Ctor Parameters [CppParam { name: "leftHanded", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "playerHeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "automaticPlayerHeight", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "sfxVolume", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "reduceDebris", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "noTextsAndHuds", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "noFailEffects", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "advancedHud", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "autoRestart", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "saberTrailIntensity", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "noteJumpDurationTypeSettings", ty: "GlobalNamespace::NoteJumpDurationTypeSettings", modifiers: "", def_value: None }, CppParam { name: "noteJumpFixedDuration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "noteJumpStartBeatOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "hideNoteSpawnEffect", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "adaptiveSfx", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "arcsHapticFeedback", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "arcsVisible", ty: "GlobalNamespace::ArcVisibilityType", modifiers: "", def_value: None }, CppParam { name: "environmentEffectsFilterDefaultPreset", ty: "GlobalNamespace::EnvironmentEffectsFilterPreset", modifiers: "", def_value: None }, CppParam { name: "environmentEffectsFilterExpertPlusPreset", ty: "GlobalNamespace::EnvironmentEffectsFilterPreset", modifiers: "", def_value: None }]
+explicit PlayerSpecificSettings(bool leftHanded, float_t playerHeight, bool automaticPlayerHeight, float_t sfxVolume, bool reduceDebris, bool noTextsAndHuds, bool noFailEffects, bool advancedHud, bool autoRestart, float_t saberTrailIntensity, GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings, float_t noteJumpFixedDuration, float_t noteJumpStartBeatOffset, bool hideNoteSpawnEffect, bool adaptiveSfx, bool arcsHapticFeedback, GlobalNamespace::ArcVisibilityType arcsVisible, GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterDefaultPreset, GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterExpertPlusPreset) ;
 
 /// @brief Method .ctor addr 0x2225a2c size 0x120 virtual false final false
- void _ctor(bool leftHanded, float_t playerHeight, bool automaticPlayerHeight, float_t sfxVolume, bool reduceDebris, bool noTextsAndHuds, bool noFailEffects, bool advancedHud, bool autoRestart, float_t saberTrailIntensity, ::GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings, float_t noteJumpFixedDuration, float_t noteJumpStartBeatOffset, bool hideNoteSpawnEffect, bool adaptiveSfx, bool arcsHapticFeedback, ::GlobalNamespace::ArcVisibilityType arcsVisible, ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterDefaultPreset, ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterExpertPlusPreset) ;
+ void _ctor(bool leftHanded, float_t playerHeight, bool automaticPlayerHeight, float_t sfxVolume, bool reduceDebris, bool noTextsAndHuds, bool noFailEffects, bool advancedHud, bool autoRestart, float_t saberTrailIntensity, GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings, float_t noteJumpFixedDuration, float_t noteJumpStartBeatOffset, bool hideNoteSpawnEffect, bool adaptiveSfx, bool arcsHapticFeedback, GlobalNamespace::ArcVisibilityType arcsVisible, GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterDefaultPreset, GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterExpertPlusPreset) ;
 
 /// @brief Method CopyWith addr 0x2225eb8 size 0x3b4 virtual false final false
- ::GlobalNamespace::PlayerSpecificSettings CopyWith(::System::Nullable_1<bool> leftHanded, ::System::Nullable_1<float_t> playerHeight, ::System::Nullable_1<bool> automaticPlayerHeight, ::System::Nullable_1<float_t> sfxVolume, ::System::Nullable_1<bool> reduceDebris, ::System::Nullable_1<bool> noTextsAndHuds, ::System::Nullable_1<bool> noFailEffects, ::System::Nullable_1<bool> advancedHud, ::System::Nullable_1<bool> autoRestart, ::System::Nullable_1<float_t> saberTrailIntensity, ::System::Nullable_1<::GlobalNamespace::NoteJumpDurationTypeSettings> noteJumpDurationTypeSettings, ::System::Nullable_1<float_t> noteJumpFixedDuration, ::System::Nullable_1<float_t> noteJumpStartBeatOffset, ::System::Nullable_1<bool> hideNoteSpawnEffect, ::System::Nullable_1<bool> adaptiveSfx, ::System::Nullable_1<bool> arcsHapticFeedback, ::System::Nullable_1<::GlobalNamespace::ArcVisibilityType> arcsVisible, ::System::Nullable_1<::GlobalNamespace::EnvironmentEffectsFilterPreset> environmentEffectsFilterDefaultPreset, ::System::Nullable_1<::GlobalNamespace::EnvironmentEffectsFilterPreset> environmentEffectsFilterExpertPlusPreset) ;
+ GlobalNamespace::PlayerSpecificSettings CopyWith(System::Nullable_1<bool> leftHanded, System::Nullable_1<float_t> playerHeight, System::Nullable_1<bool> automaticPlayerHeight, System::Nullable_1<float_t> sfxVolume, System::Nullable_1<bool> reduceDebris, System::Nullable_1<bool> noTextsAndHuds, System::Nullable_1<bool> noFailEffects, System::Nullable_1<bool> advancedHud, System::Nullable_1<bool> autoRestart, System::Nullable_1<float_t> saberTrailIntensity, System::Nullable_1<GlobalNamespace::NoteJumpDurationTypeSettings> noteJumpDurationTypeSettings, System::Nullable_1<float_t> noteJumpFixedDuration, System::Nullable_1<float_t> noteJumpStartBeatOffset, System::Nullable_1<bool> hideNoteSpawnEffect, System::Nullable_1<bool> adaptiveSfx, System::Nullable_1<bool> arcsHapticFeedback, System::Nullable_1<GlobalNamespace::ArcVisibilityType> arcsVisible, System::Nullable_1<GlobalNamespace::EnvironmentEffectsFilterPreset> environmentEffectsFilterDefaultPreset, System::Nullable_1<GlobalNamespace::EnvironmentEffectsFilterPreset> environmentEffectsFilterExpertPlusPreset) ;
 
 /// @brief Method GetEnvironmentEffectsFilterPreset addr 0x2227004 size 0x18 virtual false final false
- ::GlobalNamespace::EnvironmentEffectsFilterPreset GetEnvironmentEffectsFilterPreset(::GlobalNamespace::BeatmapDifficulty difficulty) ;
+ GlobalNamespace::EnvironmentEffectsFilterPreset GetEnvironmentEffectsFilterPreset(GlobalNamespace::BeatmapDifficulty difficulty) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PlayerSpecificSettings);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerSpecificSettings, "", "PlayerSpecificSettings");
+NEED_NO_BOX(GlobalNamespace::PlayerSpecificSettings);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSpecificSettings, "", "PlayerSpecificSettings");

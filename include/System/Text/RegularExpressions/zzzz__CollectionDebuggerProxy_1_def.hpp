@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 // Forward declare root types
 namespace System::Text::RegularExpressions {
 template<typename T>
@@ -52,5 +51,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Text::RegularExpressions
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Text::RegularExpressions::CollectionDebuggerProxy_1, "System.Text.RegularExpressions", "CollectionDebuggerProxy`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Text::RegularExpressions::CollectionDebuggerProxy_1, "System.Text.RegularExpressions", "CollectionDebuggerProxy`1");

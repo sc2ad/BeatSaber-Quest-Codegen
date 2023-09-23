@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform {
 struct ChallengeViewerFilter;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::Oculus::Platform::ChallengeViewerFilter const Unknown;
+static Oculus::Platform::ChallengeViewerFilter const Unknown;
 
 /// @brief Field AllVisible offset 0
-static ::Oculus::Platform::ChallengeViewerFilter const AllVisible;
+static Oculus::Platform::ChallengeViewerFilter const AllVisible;
 
 /// @brief Field Participating offset 0
-static ::Oculus::Platform::ChallengeViewerFilter const Participating;
+static Oculus::Platform::ChallengeViewerFilter const Participating;
 
 /// @brief Field Invited offset 0
-static ::Oculus::Platform::ChallengeViewerFilter const Invited;
+static Oculus::Platform::ChallengeViewerFilter const Invited;
 
 /// @brief Field ParticipatingOrInvited offset 0
-static ::Oculus::Platform::ChallengeViewerFilter const ParticipatingOrInvited;
+static Oculus::Platform::ChallengeViewerFilter const ParticipatingOrInvited;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::ChallengeViewerFilter, "Oculus.Platform", "ChallengeViewerFilter");
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::ChallengeViewerFilter, "Oculus.Platform", "ChallengeViewerFilter");

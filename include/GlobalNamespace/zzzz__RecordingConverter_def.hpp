@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace GlobalNamespace {
-class PosesRecordingData;
-}
 namespace GlobalNamespace {
 class IBeatSaberLogger;
+}
+namespace GlobalNamespace {
+class PosesRecordingData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -55,28 +54,27 @@ constexpr explicit RecordingConverter(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Fields
 
- ::GlobalNamespace::IBeatSaberLogger __declspec(property(get=__get__logger, put=__set__logger))  _logger;
+ GlobalNamespace::IBeatSaberLogger __declspec(property(get=__get__logger, put=__set__logger))  _logger;
 
-constexpr void __set__logger(::GlobalNamespace::IBeatSaberLogger value) ;
+constexpr void __set__logger(GlobalNamespace::IBeatSaberLogger value) ;
 
-constexpr ::GlobalNamespace::IBeatSaberLogger __get__logger() const;
+constexpr GlobalNamespace::IBeatSaberLogger __get__logger() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "logger", ty: "::GlobalNamespace::IBeatSaberLogger", modifiers: "", def_value: None }]
-explicit RecordingConverter(::GlobalNamespace::IBeatSaberLogger logger) ;
+// Ctor Parameters [CppParam { name: "logger", ty: "GlobalNamespace::IBeatSaberLogger", modifiers: "", def_value: None }]
+explicit RecordingConverter(GlobalNamespace::IBeatSaberLogger logger) ;
 
 /// @brief Method .ctor addr 0x21a7078 size 0x28 virtual false final false
- void _ctor(::GlobalNamespace::IBeatSaberLogger logger) ;
+ void _ctor(GlobalNamespace::IBeatSaberLogger logger) ;
 
 /// @brief Method SaveToOldFormat addr 0x21a826c size 0xec virtual false final false
- void SaveToOldFormat(::StringW path, ::GlobalNamespace::PosesRecordingData data) ;
+ void SaveToOldFormat(::StringW path, GlobalNamespace::PosesRecordingData data) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::RecordingConverter);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RecordingConverter, "", "RecordingConverter");
+NEED_NO_BOX(GlobalNamespace::RecordingConverter);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RecordingConverter, "", "RecordingConverter");

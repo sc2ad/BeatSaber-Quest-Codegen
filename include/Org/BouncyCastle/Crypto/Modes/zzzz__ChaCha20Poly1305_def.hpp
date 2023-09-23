@@ -5,22 +5,21 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto {
-class IMac;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
 namespace Org::BouncyCastle::Crypto::Modes {
 class IAeadCipher;
 }
 namespace Org::BouncyCastle::Crypto::Engines {
 class ChaCha7539Engine;
 }
+namespace Org::BouncyCastle::Crypto {
+class IMac;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Modes {
-struct ____Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State;
+struct Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State;
 }
 namespace Org::BouncyCastle::Crypto::Modes {
 class ChaCha20Poly1305;
@@ -31,20 +30,20 @@ namespace Org::BouncyCastle::Crypto::Modes {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(962))
 // CS Name: Org.BouncyCastle.Crypto.Modes.ChaCha20Poly1305::State
-struct CORDL_TYPE ____Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State(int32_t value__) noexcept;
+constexpr Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State(int32_t value__) noexcept;
 
 
-                    constexpr ____Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State(____Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State const&) = default;
-                    constexpr ____Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State(____Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State&&) = default;
-                    constexpr ____Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State& operator=(____Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State const& o) {
+                    constexpr Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State(Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State const&) = default;
+                    constexpr Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State(Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State&&) = default;
+                    constexpr Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State& operator=(Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State& operator=(____Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State&& o) noexcept {
+                    constexpr Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State& operator=(Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -57,7 +56,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -65,7 +64,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State_Unwrapped : int32_t {
+enum class __Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State_Unwrapped : int32_t {
 __Uninitialized = 0,
 __EncInit = 1,
 __EncAad = 2,
@@ -78,8 +77,8 @@ __DecFinal = 8,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State_Unwrapped () const noexcept {
-return std::bit_cast<______Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State_Unwrapped>(__instance);
+constexpr operator __Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State_Unwrapped () const noexcept {
+return std::bit_cast<__Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State_Unwrapped>(__instance);
 }
 
 
@@ -92,31 +91,31 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Uninitialized offset 0
-static ::Org::BouncyCastle::Crypto::Modes::____Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State const Uninitialized;
+static Org::BouncyCastle::Crypto::Modes::Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State const Uninitialized;
 
 /// @brief Field EncInit offset 0
-static ::Org::BouncyCastle::Crypto::Modes::____Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State const EncInit;
+static Org::BouncyCastle::Crypto::Modes::Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State const EncInit;
 
 /// @brief Field EncAad offset 0
-static ::Org::BouncyCastle::Crypto::Modes::____Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State const EncAad;
+static Org::BouncyCastle::Crypto::Modes::Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State const EncAad;
 
 /// @brief Field EncData offset 0
-static ::Org::BouncyCastle::Crypto::Modes::____Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State const EncData;
+static Org::BouncyCastle::Crypto::Modes::Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State const EncData;
 
 /// @brief Field EncFinal offset 0
-static ::Org::BouncyCastle::Crypto::Modes::____Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State const EncFinal;
+static Org::BouncyCastle::Crypto::Modes::Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State const EncFinal;
 
 /// @brief Field DecInit offset 0
-static ::Org::BouncyCastle::Crypto::Modes::____Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State const DecInit;
+static Org::BouncyCastle::Crypto::Modes::Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State const DecInit;
 
 /// @brief Field DecAad offset 0
-static ::Org::BouncyCastle::Crypto::Modes::____Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State const DecAad;
+static Org::BouncyCastle::Crypto::Modes::Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State const DecAad;
 
 /// @brief Field DecData offset 0
-static ::Org::BouncyCastle::Crypto::Modes::____Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State const DecData;
+static Org::BouncyCastle::Crypto::Modes::Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State const DecData;
 
 /// @brief Field DecFinal offset 0
-static ::Org::BouncyCastle::Crypto::Modes::____Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State const DecFinal;
+static Org::BouncyCastle::Crypto::Modes::Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State const DecFinal;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -131,10 +130,10 @@ namespace Org::BouncyCastle::Crypto::Modes {
 class CORDL_TYPE ChaCha20Poly1305 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using State = ::Org::BouncyCastle::Crypto::Modes::____Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State;
+using State = Org::BouncyCastle::Crypto::Modes::Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State;
 
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Modes::IAeadCipher
-constexpr operator  ::Org::BouncyCastle::Crypto::Modes::IAeadCipher() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Modes::IAeadCipher
+constexpr operator  Org::BouncyCastle::Crypto::Modes::IAeadCipher() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x60};
@@ -193,17 +192,17 @@ static void __set_Zeroes(::ArrayW<uint8_t> value) ;
 
 static ::ArrayW<uint8_t> __get_Zeroes() ;
 
- ::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine __declspec(property(get=__get_mChacha20, put=__set_mChacha20))  mChacha20;
+ Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine __declspec(property(get=__get_mChacha20, put=__set_mChacha20))  mChacha20;
 
-constexpr void __set_mChacha20(::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine value) ;
+constexpr void __set_mChacha20(Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine __get_mChacha20() const;
+constexpr Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine __get_mChacha20() const;
 
- ::Org::BouncyCastle::Crypto::IMac __declspec(property(get=__get_mPoly1305, put=__set_mPoly1305))  mPoly1305;
+ Org::BouncyCastle::Crypto::IMac __declspec(property(get=__get_mPoly1305, put=__set_mPoly1305))  mPoly1305;
 
-constexpr void __set_mPoly1305(::Org::BouncyCastle::Crypto::IMac value) ;
+constexpr void __set_mPoly1305(Org::BouncyCastle::Crypto::IMac value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IMac __get_mPoly1305() const;
+constexpr Org::BouncyCastle::Crypto::IMac __get_mPoly1305() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get_mKey, put=__set_mKey))  mKey;
 
@@ -247,11 +246,11 @@ constexpr void __set_mDataCount(uint64_t value) ;
 
 constexpr uint64_t __get_mDataCount() const;
 
- ::Org::BouncyCastle::Crypto::Modes::____Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State __declspec(property(get=__get_mState, put=__set_mState))  mState;
+ Org::BouncyCastle::Crypto::Modes::Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State __declspec(property(get=__get_mState, put=__set_mState))  mState;
 
-constexpr void __set_mState(::Org::BouncyCastle::Crypto::Modes::____Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State value) ;
+constexpr void __set_mState(Org::BouncyCastle::Crypto::Modes::Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Modes::____Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State __get_mState() const;
+constexpr Org::BouncyCastle::Crypto::Modes::Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State __get_mState() const;
 
  int32_t __declspec(property(get=__get_mBufPos, put=__set_mBufPos))  mBufPos;
 
@@ -273,17 +272,17 @@ explicit ChaCha20Poly1305() ;
 /// @brief Method .ctor addr 0xe8ba98 size 0x60 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "poly1305", ty: "::Org::BouncyCastle::Crypto::IMac", modifiers: "", def_value: None }]
-explicit ChaCha20Poly1305(::Org::BouncyCastle::Crypto::IMac poly1305) ;
+// Ctor Parameters [CppParam { name: "poly1305", ty: "Org::BouncyCastle::Crypto::IMac", modifiers: "", def_value: None }]
+explicit ChaCha20Poly1305(Org::BouncyCastle::Crypto::IMac poly1305) ;
 
 /// @brief Method .ctor addr 0xe8baf8 size 0x1e4 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IMac poly1305) ;
+ void _ctor(Org::BouncyCastle::Crypto::IMac poly1305) ;
 
 /// @brief Method get_AlgorithmName addr 0xe8bcdc size 0x40 virtual true final false
  ::StringW get_AlgorithmName() ;
 
 /// @brief Method Init addr 0xe8bd1c size 0x464 virtual true final false
- void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method GetOutputSize addr 0xe8c2c0 size 0xf8 virtual true final false
  int32_t GetOutputSize(int32_t len) ;
@@ -319,10 +318,10 @@ explicit ChaCha20Poly1305(::Org::BouncyCastle::Crypto::IMac poly1305) ;
  void CheckData() ;
 
 /// @brief Method FinishAad addr 0xe8d788 size 0x2c virtual false final false
- void FinishAad(::Org::BouncyCastle::Crypto::Modes::____Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State nextState) ;
+ void FinishAad(Org::BouncyCastle::Crypto::Modes::Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State nextState) ;
 
 /// @brief Method FinishData addr 0xe8d590 size 0x190 virtual false final false
- void FinishData(::Org::BouncyCastle::Crypto::Modes::____Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State nextState) ;
+ void FinishData(Org::BouncyCastle::Crypto::Modes::Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State nextState) ;
 
 /// @brief Method IncrementCount addr 0xe8c634 size 0x68 virtual false final false
  uint64_t IncrementCount(uint64_t count, uint32_t increment, uint64_t limit) ;
@@ -343,7 +342,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Modes
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Modes::____Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State, "Org.BouncyCastle.Crypto.Modes", "ChaCha20Poly1305/State");
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305, "Org.BouncyCastle.Crypto.Modes", "ChaCha20Poly1305");
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State, "Org.BouncyCastle.Crypto.Modes", "ChaCha20Poly1305/State");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305, "Org.BouncyCastle.Crypto.Modes", "ChaCha20Poly1305");

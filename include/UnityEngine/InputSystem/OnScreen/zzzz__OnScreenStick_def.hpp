@@ -3,27 +3,26 @@
 #include "UnityEngine/InputSystem/OnScreen/zzzz__OnScreenControl_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine::EventSystems {
-class IPointerDownHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerUpHandler;
-}
-namespace UnityEngine {
-struct Vector3;
+class IDragHandler;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+class IPointerUpHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerDownHandler;
 }
 namespace UnityEngine::EventSystems {
 class IEventSystemHandler;
 }
+namespace UnityEngine {
+struct Vector3;
+}
 namespace UnityEngine::EventSystems {
-class IDragHandler;
+class PointerEventData;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::OnScreen {
@@ -35,20 +34,20 @@ namespace UnityEngine::InputSystem::OnScreen {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6471))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6472))
 // CS Name: UnityEngine.InputSystem.OnScreen.OnScreenStick
-class CORDL_TYPE OnScreenStick : public ::UnityEngine::InputSystem::OnScreen::OnScreenControl {
+class CORDL_TYPE OnScreenStick : public UnityEngine::InputSystem::OnScreen::OnScreenControl {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::EventSystems::IPointerDownHandler
-constexpr operator  ::UnityEngine::EventSystems::IPointerDownHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IPointerDownHandler
+constexpr operator  UnityEngine::EventSystems::IPointerDownHandler() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::EventSystems::IEventSystemHandler
-constexpr operator  ::UnityEngine::EventSystems::IEventSystemHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IEventSystemHandler
+constexpr operator  UnityEngine::EventSystems::IEventSystemHandler() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::EventSystems::IPointerUpHandler
-constexpr operator  ::UnityEngine::EventSystems::IPointerUpHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IPointerUpHandler
+constexpr operator  UnityEngine::EventSystems::IPointerUpHandler() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::EventSystems::IDragHandler
-constexpr operator  ::UnityEngine::EventSystems::IDragHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IDragHandler
+constexpr operator  UnityEngine::EventSystems::IDragHandler() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x58};
@@ -62,7 +61,7 @@ constexpr OnScreenStick(OnScreenStick const& ) noexcept = default;
 constexpr OnScreenStick(OnScreenStick&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OnScreenStick(void* ptr) noexcept : ::UnityEngine::InputSystem::OnScreen::OnScreenControl(ptr) {
+constexpr explicit OnScreenStick(void* ptr) noexcept : UnityEngine::InputSystem::OnScreen::OnScreenControl(ptr) {
 }
 
 
@@ -95,17 +94,17 @@ constexpr void __set_m_ControlPath(::StringW value) ;
 
 constexpr ::StringW __get_m_ControlPath() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_m_StartPos, put=__set_m_StartPos))  m_StartPos;
+ UnityEngine::Vector3 __declspec(property(get=__get_m_StartPos, put=__set_m_StartPos))  m_StartPos;
 
-constexpr void __set_m_StartPos(::UnityEngine::Vector3 value) ;
+constexpr void __set_m_StartPos(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_m_StartPos() const;
+constexpr UnityEngine::Vector3 __get_m_StartPos() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_m_PointerDownPos, put=__set_m_PointerDownPos))  m_PointerDownPos;
+ UnityEngine::Vector2 __declspec(property(get=__get_m_PointerDownPos, put=__set_m_PointerDownPos))  m_PointerDownPos;
 
-constexpr void __set_m_PointerDownPos(::UnityEngine::Vector2 value) ;
+constexpr void __set_m_PointerDownPos(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_m_PointerDownPos() const;
+constexpr UnityEngine::Vector2 __get_m_PointerDownPos() const;
 
 
 // Properties
@@ -118,13 +117,13 @@ constexpr ::UnityEngine::Vector2 __get_m_PointerDownPos() const;
 // Methods
 
 /// @brief Method OnPointerDown addr 0x2946088 size 0x124 virtual true final true
- void OnPointerDown(::UnityEngine::EventSystems::PointerEventData eventData) ;
+ void OnPointerDown(UnityEngine::EventSystems::PointerEventData eventData) ;
 
 /// @brief Method OnDrag addr 0x29461ac size 0x224 virtual true final true
- void OnDrag(::UnityEngine::EventSystems::PointerEventData eventData) ;
+ void OnDrag(UnityEngine::EventSystems::PointerEventData eventData) ;
 
 /// @brief Method OnPointerUp addr 0x29463d0 size 0xc4 virtual true final true
- void OnPointerUp(::UnityEngine::EventSystems::PointerEventData eventData) ;
+ void OnPointerUp(UnityEngine::EventSystems::PointerEventData eventData) ;
 
 /// @brief Method Start addr 0x2946494 size 0x78 virtual false final false
  void Start() ;
@@ -151,6 +150,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::OnScreen
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::OnScreen::OnScreenStick);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::OnScreen::OnScreenStick, "UnityEngine.InputSystem.OnScreen", "OnScreenStick");
+NEED_NO_BOX(UnityEngine::InputSystem::OnScreen::OnScreenStick);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::OnScreen::OnScreenStick, "UnityEngine.InputSystem.OnScreen", "OnScreenStick");

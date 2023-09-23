@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security::AccessControl {
 struct AceQualifier;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field AccessAllowed offset 0
-static ::System::Security::AccessControl::AceQualifier const AccessAllowed;
+static System::Security::AccessControl::AceQualifier const AccessAllowed;
 
 /// @brief Field AccessDenied offset 0
-static ::System::Security::AccessControl::AceQualifier const AccessDenied;
+static System::Security::AccessControl::AceQualifier const AccessDenied;
 
 /// @brief Field SystemAudit offset 0
-static ::System::Security::AccessControl::AceQualifier const SystemAudit;
+static System::Security::AccessControl::AceQualifier const SystemAudit;
 
 /// @brief Field SystemAlarm offset 0
-static ::System::Security::AccessControl::AceQualifier const SystemAlarm;
+static System::Security::AccessControl::AceQualifier const SystemAlarm;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Security::AccessControl
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::AccessControl::AceQualifier, "System.Security.AccessControl", "AceQualifier");
+DEFINE_IL2CPP_ARG_TYPE(System::Security::AccessControl::AceQualifier, "System.Security.AccessControl", "AceQualifier");

@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace System {
 class IDisposable;
 }
@@ -27,8 +26,8 @@ namespace UnityOpus {
 class CORDL_TYPE Decoder : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -72,11 +71,11 @@ constexpr void __set_decoder(::cordl_internals::intptr_t value) ;
 
 constexpr ::cordl_internals::intptr_t __get_decoder() const;
 
- ::UnityOpus::NumChannels __declspec(property(get=__get_channels, put=__set_channels))  channels;
+ UnityOpus::NumChannels __declspec(property(get=__get_channels, put=__set_channels))  channels;
 
-constexpr void __set_channels(::UnityOpus::NumChannels value) ;
+constexpr void __set_channels(UnityOpus::NumChannels value) ;
 
-constexpr ::UnityOpus::NumChannels __get_channels() const;
+constexpr UnityOpus::NumChannels __get_channels() const;
 
  ::ArrayW<float_t> __declspec(property(get=__get_softclipMem, put=__set_softclipMem))  softclipMem;
 
@@ -93,11 +92,11 @@ constexpr bool __get_disposedValue() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "samplingFrequency", ty: "::UnityOpus::SamplingFrequency", modifiers: "", def_value: None }, CppParam { name: "channels", ty: "::UnityOpus::NumChannels", modifiers: "", def_value: None }]
-explicit Decoder(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels) ;
+// Ctor Parameters [CppParam { name: "samplingFrequency", ty: "UnityOpus::SamplingFrequency", modifiers: "", def_value: None }, CppParam { name: "channels", ty: "UnityOpus::NumChannels", modifiers: "", def_value: None }]
+explicit Decoder(UnityOpus::SamplingFrequency samplingFrequency, UnityOpus::NumChannels channels) ;
 
 /// @brief Method .ctor addr 0x21d61b0 size 0x154 virtual false final false
- void _ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels) ;
+ void _ctor(UnityOpus::SamplingFrequency samplingFrequency, UnityOpus::NumChannels channels) ;
 
 /// @brief Method Decode addr 0x21d6398 size 0xcc virtual false final false
  int32_t Decode(::ArrayW<uint8_t> data, int32_t dataLength, ::ArrayW<float_t> pcm, int32_t decodeFec) ;
@@ -115,6 +114,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityOpus
-} // end anonymous namespace
-NEED_NO_BOX(::UnityOpus::Decoder);
-DEFINE_IL2CPP_ARG_TYPE(::UnityOpus::Decoder, "UnityOpus", "Decoder");
+NEED_NO_BOX(UnityOpus::Decoder);
+DEFINE_IL2CPP_ARG_TYPE(UnityOpus::Decoder, "UnityOpus", "Decoder");

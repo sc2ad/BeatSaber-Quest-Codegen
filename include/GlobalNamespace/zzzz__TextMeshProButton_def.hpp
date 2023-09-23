@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace TMPro {
 class TextMeshProUGUI;
 }
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5541))
 // CS Name: TextMeshProButton
-class CORDL_TYPE TextMeshProButton : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE TextMeshProButton : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr TextMeshProButton(TextMeshProButton const& ) noexcept = default;
 constexpr TextMeshProButton(TextMeshProButton&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TextMeshProButton(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit TextMeshProButton(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -54,33 +53,33 @@ constexpr explicit TextMeshProButton(void* ptr) noexcept : ::UnityEngine::MonoBe
 
 // Fields
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__text, put=__set__text))  _text;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__text, put=__set__text))  _text;
 
-constexpr void __set__text(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__text(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__text() const;
+constexpr TMPro::TextMeshProUGUI __get__text() const;
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__button, put=__set__button))  _button;
+ UnityEngine::UI::Button __declspec(property(get=__get__button, put=__set__button))  _button;
 
-constexpr void __set__button(::UnityEngine::UI::Button value) ;
+constexpr void __set__button(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__button() const;
+constexpr UnityEngine::UI::Button __get__button() const;
 
 
 // Properties
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=get_text))  text;
+ TMPro::TextMeshProUGUI __declspec(property(get=get_text))  text;
 
- ::UnityEngine::UI::Button __declspec(property(get=get_button))  button;
+ UnityEngine::UI::Button __declspec(property(get=get_button))  button;
 
 
 // Methods
 
 /// @brief Method get_text addr 0x2127a20 size 0x8 virtual false final false
- ::TMPro::TextMeshProUGUI get_text() ;
+ TMPro::TextMeshProUGUI get_text() ;
 
 /// @brief Method get_button addr 0x2127a28 size 0x8 virtual false final false
- ::UnityEngine::UI::Button get_button() ;
+ UnityEngine::UI::Button get_button() ;
 
 // Ctor Parameters []
 explicit TextMeshProButton() ;
@@ -92,6 +91,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::TextMeshProButton);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TextMeshProButton, "", "TextMeshProButton");
+NEED_NO_BOX(GlobalNamespace::TextMeshProButton);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextMeshProButton, "", "TextMeshProButton");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::PS4::XR {
 class PSVRSettings;
@@ -12,7 +11,7 @@ namespace UnityEngine::PS4::XR {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10151))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16083))
 // CS Name: UnityEngine.PS4.XR.PSVRSettings
-class CORDL_TYPE PSVRSettings : public ::UnityEngine::ScriptableObject {
+class CORDL_TYPE PSVRSettings : public UnityEngine::ScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr PSVRSettings(PSVRSettings const& ) noexcept = default;
 constexpr PSVRSettings(PSVRSettings&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PSVRSettings(void* ptr) noexcept : ::UnityEngine::ScriptableObject(ptr) {
+constexpr explicit PSVRSettings(void* ptr) noexcept : UnityEngine::ScriptableObject(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::PS4::XR
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::PS4::XR::PSVRSettings);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PS4::XR::PSVRSettings, "UnityEngine.PS4.XR", "PSVRSettings");
+NEED_NO_BOX(UnityEngine::PS4::XR::PSVRSettings);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PS4::XR::PSVRSettings, "UnityEngine.PS4.XR", "PSVRSettings");

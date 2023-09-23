@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace UnityEngine::Timeline {
 struct MatchTargetFields;
 }
@@ -51,43 +50,42 @@ constexpr explicit MatchTargetFieldConstants(void* ptr) noexcept : ::bs_hook::Il
 
 // Fields
 
-static ::UnityEngine::Timeline::MatchTargetFields __declspec(property(get=__get_All, put=__set_All))  All;
+static UnityEngine::Timeline::MatchTargetFields __declspec(property(get=__get_All, put=__set_All))  All;
 
-static void __set_All(::UnityEngine::Timeline::MatchTargetFields value) ;
+static void __set_All(UnityEngine::Timeline::MatchTargetFields value) ;
 
-static ::UnityEngine::Timeline::MatchTargetFields __get_All() ;
+static UnityEngine::Timeline::MatchTargetFields __get_All() ;
 
-static ::UnityEngine::Timeline::MatchTargetFields __declspec(property(get=__get_None, put=__set_None))  None;
+static UnityEngine::Timeline::MatchTargetFields __declspec(property(get=__get_None, put=__set_None))  None;
 
-static void __set_None(::UnityEngine::Timeline::MatchTargetFields value) ;
+static void __set_None(UnityEngine::Timeline::MatchTargetFields value) ;
 
-static ::UnityEngine::Timeline::MatchTargetFields __get_None() ;
+static UnityEngine::Timeline::MatchTargetFields __get_None() ;
 
-static ::UnityEngine::Timeline::MatchTargetFields __declspec(property(get=__get_Position, put=__set_Position))  Position;
+static UnityEngine::Timeline::MatchTargetFields __declspec(property(get=__get_Position, put=__set_Position))  Position;
 
-static void __set_Position(::UnityEngine::Timeline::MatchTargetFields value) ;
+static void __set_Position(UnityEngine::Timeline::MatchTargetFields value) ;
 
-static ::UnityEngine::Timeline::MatchTargetFields __get_Position() ;
+static UnityEngine::Timeline::MatchTargetFields __get_Position() ;
 
-static ::UnityEngine::Timeline::MatchTargetFields __declspec(property(get=__get_Rotation, put=__set_Rotation))  Rotation;
+static UnityEngine::Timeline::MatchTargetFields __declspec(property(get=__get_Rotation, put=__set_Rotation))  Rotation;
 
-static void __set_Rotation(::UnityEngine::Timeline::MatchTargetFields value) ;
+static void __set_Rotation(UnityEngine::Timeline::MatchTargetFields value) ;
 
-static ::UnityEngine::Timeline::MatchTargetFields __get_Rotation() ;
+static UnityEngine::Timeline::MatchTargetFields __get_Rotation() ;
 
 
 // Methods
 
 /// @brief Method HasAny addr 0x2ab835c size 0x74 virtual false final false
-static bool HasAny(::UnityEngine::Timeline::MatchTargetFields me, ::UnityEngine::Timeline::MatchTargetFields fields) ;
+static bool HasAny(UnityEngine::Timeline::MatchTargetFields me, UnityEngine::Timeline::MatchTargetFields fields) ;
 
 /// @brief Method Toggle addr 0x2ab83d0 size 0x8 virtual false final false
-static ::UnityEngine::Timeline::MatchTargetFields Toggle(::UnityEngine::Timeline::MatchTargetFields me, ::UnityEngine::Timeline::MatchTargetFields flag) ;
+static UnityEngine::Timeline::MatchTargetFields Toggle(UnityEngine::Timeline::MatchTargetFields me, UnityEngine::Timeline::MatchTargetFields flag) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Timeline::MatchTargetFieldConstants);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::MatchTargetFieldConstants, "UnityEngine.Timeline", "MatchTargetFieldConstants");
+NEED_NO_BOX(UnityEngine::Timeline::MatchTargetFieldConstants);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::MatchTargetFieldConstants, "UnityEngine.Timeline", "MatchTargetFieldConstants");

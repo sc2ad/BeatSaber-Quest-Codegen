@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct RenderTextureFormat;
@@ -93,92 +92,91 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field ARGB32 offset 0
-static ::UnityEngine::RenderTextureFormat const ARGB32;
+static UnityEngine::RenderTextureFormat const ARGB32;
 
 /// @brief Field Depth offset 0
-static ::UnityEngine::RenderTextureFormat const Depth;
+static UnityEngine::RenderTextureFormat const Depth;
 
 /// @brief Field ARGBHalf offset 0
-static ::UnityEngine::RenderTextureFormat const ARGBHalf;
+static UnityEngine::RenderTextureFormat const ARGBHalf;
 
 /// @brief Field Shadowmap offset 0
-static ::UnityEngine::RenderTextureFormat const Shadowmap;
+static UnityEngine::RenderTextureFormat const Shadowmap;
 
 /// @brief Field RGB565 offset 0
-static ::UnityEngine::RenderTextureFormat const RGB565;
+static UnityEngine::RenderTextureFormat const RGB565;
 
 /// @brief Field ARGB4444 offset 0
-static ::UnityEngine::RenderTextureFormat const ARGB4444;
+static UnityEngine::RenderTextureFormat const ARGB4444;
 
 /// @brief Field ARGB1555 offset 0
-static ::UnityEngine::RenderTextureFormat const ARGB1555;
+static UnityEngine::RenderTextureFormat const ARGB1555;
 
 /// @brief Field Default offset 0
-static ::UnityEngine::RenderTextureFormat const Default;
+static UnityEngine::RenderTextureFormat const Default;
 
 /// @brief Field ARGB2101010 offset 0
-static ::UnityEngine::RenderTextureFormat const ARGB2101010;
+static UnityEngine::RenderTextureFormat const ARGB2101010;
 
 /// @brief Field DefaultHDR offset 0
-static ::UnityEngine::RenderTextureFormat const DefaultHDR;
+static UnityEngine::RenderTextureFormat const DefaultHDR;
 
 /// @brief Field ARGB64 offset 0
-static ::UnityEngine::RenderTextureFormat const ARGB64;
+static UnityEngine::RenderTextureFormat const ARGB64;
 
 /// @brief Field ARGBFloat offset 0
-static ::UnityEngine::RenderTextureFormat const ARGBFloat;
+static UnityEngine::RenderTextureFormat const ARGBFloat;
 
 /// @brief Field RGFloat offset 0
-static ::UnityEngine::RenderTextureFormat const RGFloat;
+static UnityEngine::RenderTextureFormat const RGFloat;
 
 /// @brief Field RGHalf offset 0
-static ::UnityEngine::RenderTextureFormat const RGHalf;
+static UnityEngine::RenderTextureFormat const RGHalf;
 
 /// @brief Field RFloat offset 0
-static ::UnityEngine::RenderTextureFormat const RFloat;
+static UnityEngine::RenderTextureFormat const RFloat;
 
 /// @brief Field RHalf offset 0
-static ::UnityEngine::RenderTextureFormat const RHalf;
+static UnityEngine::RenderTextureFormat const RHalf;
 
 /// @brief Field R8 offset 0
-static ::UnityEngine::RenderTextureFormat const R8;
+static UnityEngine::RenderTextureFormat const R8;
 
 /// @brief Field ARGBInt offset 0
-static ::UnityEngine::RenderTextureFormat const ARGBInt;
+static UnityEngine::RenderTextureFormat const ARGBInt;
 
 /// @brief Field RGInt offset 0
-static ::UnityEngine::RenderTextureFormat const RGInt;
+static UnityEngine::RenderTextureFormat const RGInt;
 
 /// @brief Field RInt offset 0
-static ::UnityEngine::RenderTextureFormat const RInt;
+static UnityEngine::RenderTextureFormat const RInt;
 
 /// @brief Field BGRA32 offset 0
-static ::UnityEngine::RenderTextureFormat const BGRA32;
+static UnityEngine::RenderTextureFormat const BGRA32;
 
 /// @brief Field RGB111110Float offset 0
-static ::UnityEngine::RenderTextureFormat const RGB111110Float;
+static UnityEngine::RenderTextureFormat const RGB111110Float;
 
 /// @brief Field RG32 offset 0
-static ::UnityEngine::RenderTextureFormat const RG32;
+static UnityEngine::RenderTextureFormat const RG32;
 
 /// @brief Field RGBAUShort offset 0
-static ::UnityEngine::RenderTextureFormat const RGBAUShort;
+static UnityEngine::RenderTextureFormat const RGBAUShort;
 
 /// @brief Field RG16 offset 0
-static ::UnityEngine::RenderTextureFormat const RG16;
+static UnityEngine::RenderTextureFormat const RG16;
 
 /// @brief Field BGRA10101010_XR offset 0
-static ::UnityEngine::RenderTextureFormat const BGRA10101010_XR;
+static UnityEngine::RenderTextureFormat const BGRA10101010_XR;
 
 /// @brief Field BGR101010_XR offset 0
-static ::UnityEngine::RenderTextureFormat const BGR101010_XR;
+static UnityEngine::RenderTextureFormat const BGR101010_XR;
 
 /// @brief Field R16 offset 0
-static ::UnityEngine::RenderTextureFormat const R16;
+static UnityEngine::RenderTextureFormat const R16;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::RenderTextureFormat, "UnityEngine", "RenderTextureFormat");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RenderTextureFormat, "UnityEngine", "RenderTextureFormat");

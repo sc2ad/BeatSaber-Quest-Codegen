@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto {
-class KeyGenerationParameters;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::Crypto {
+class KeyGenerationParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto {
@@ -56,11 +55,11 @@ constexpr explicit CipherKeyGenerator(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Fields
 
- ::Org::BouncyCastle::Security::SecureRandom __declspec(property(get=__get_random, put=__set_random))  random;
+ Org::BouncyCastle::Security::SecureRandom __declspec(property(get=__get_random, put=__set_random))  random;
 
-constexpr void __set_random(::Org::BouncyCastle::Security::SecureRandom value) ;
+constexpr void __set_random(Org::BouncyCastle::Security::SecureRandom value) ;
 
-constexpr ::Org::BouncyCastle::Security::SecureRandom __get_random() const;
+constexpr Org::BouncyCastle::Security::SecureRandom __get_random() const;
 
  int32_t __declspec(property(get=__get_strength, put=__set_strength))  strength;
 
@@ -104,10 +103,10 @@ explicit CipherKeyGenerator(int32_t defaultStrength) ;
  int32_t get_DefaultStrength() ;
 
 /// @brief Method Init addr 0xe6aa20 size 0x68 virtual false final false
- void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters parameters) ;
+ void Init(Org::BouncyCastle::Crypto::KeyGenerationParameters parameters) ;
 
 /// @brief Method engineInit addr 0xe6aa88 size 0x38 virtual true final false
- void engineInit(::Org::BouncyCastle::Crypto::KeyGenerationParameters parameters) ;
+ void engineInit(Org::BouncyCastle::Crypto::KeyGenerationParameters parameters) ;
 
 /// @brief Method GenerateKey addr 0xe6aac0 size 0x120 virtual false final false
  ::ArrayW<uint8_t> GenerateKey() ;
@@ -119,6 +118,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::CipherKeyGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::CipherKeyGenerator, "Org.BouncyCastle.Crypto", "CipherKeyGenerator");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::CipherKeyGenerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::CipherKeyGenerator, "Org.BouncyCastle.Crypto", "CipherKeyGenerator");

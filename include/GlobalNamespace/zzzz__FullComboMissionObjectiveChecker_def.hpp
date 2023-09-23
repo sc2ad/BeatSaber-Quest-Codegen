@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__MissionObjectiveChecker_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class ComboController;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5193))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5189))
 // CS Name: FullComboMissionObjectiveChecker
-class CORDL_TYPE FullComboMissionObjectiveChecker : public ::GlobalNamespace::MissionObjectiveChecker {
+class CORDL_TYPE FullComboMissionObjectiveChecker : public GlobalNamespace::MissionObjectiveChecker {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr FullComboMissionObjectiveChecker(FullComboMissionObjectiveChecker cons
 constexpr FullComboMissionObjectiveChecker(FullComboMissionObjectiveChecker&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FullComboMissionObjectiveChecker(void* ptr) noexcept : ::GlobalNamespace::MissionObjectiveChecker(ptr) {
+constexpr explicit FullComboMissionObjectiveChecker(void* ptr) noexcept : GlobalNamespace::MissionObjectiveChecker(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit FullComboMissionObjectiveChecker(void* ptr) noexcept : ::Glob
 
 // Fields
 
- ::GlobalNamespace::ComboController __declspec(property(get=__get__comboController, put=__set__comboController))  _comboController;
+ GlobalNamespace::ComboController __declspec(property(get=__get__comboController, put=__set__comboController))  _comboController;
 
-constexpr void __set__comboController(::GlobalNamespace::ComboController value) ;
+constexpr void __set__comboController(GlobalNamespace::ComboController value) ;
 
-constexpr ::GlobalNamespace::ComboController __get__comboController() const;
+constexpr GlobalNamespace::ComboController __get__comboController() const;
 
 
 // Methods
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::FullComboMissionObjectiveChecker);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FullComboMissionObjectiveChecker, "", "FullComboMissionObjectiveChecker");
+NEED_NO_BOX(GlobalNamespace::FullComboMissionObjectiveChecker);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FullComboMissionObjectiveChecker, "", "FullComboMissionObjectiveChecker");

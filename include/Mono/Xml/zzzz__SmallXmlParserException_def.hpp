@@ -3,7 +3,6 @@
 #include "System/zzzz__SystemException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Mono::Xml {
 class SmallXmlParserException;
@@ -14,7 +13,7 @@ namespace Mono::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2480))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2255))
 // CS Name: Mono.Xml.SmallXmlParserException
-class CORDL_TYPE SmallXmlParserException : public ::System::SystemException {
+class CORDL_TYPE SmallXmlParserException : public System::SystemException {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr SmallXmlParserException(SmallXmlParserException const& ) noexcept = de
 constexpr SmallXmlParserException(SmallXmlParserException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SmallXmlParserException(void* ptr) noexcept : ::System::SystemException(ptr) {
+constexpr explicit SmallXmlParserException(void* ptr) noexcept : System::SystemException(ptr) {
 }
 
 
@@ -75,6 +74,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Xml::SmallXmlParserException);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Xml::SmallXmlParserException, "Mono.Xml", "SmallXmlParserException");
+NEED_NO_BOX(Mono::Xml::SmallXmlParserException);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SmallXmlParserException, "Mono.Xml", "SmallXmlParserException");

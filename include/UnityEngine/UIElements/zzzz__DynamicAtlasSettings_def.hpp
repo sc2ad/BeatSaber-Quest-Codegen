@@ -2,15 +2,14 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine::UIElements {
 struct DynamicAtlasFilters;
 }
 namespace UnityEngine::UIElements {
-class DynamicAtlasCustomFilter;
+struct DynamicAtlasFiltersInternal;
 }
 namespace UnityEngine::UIElements {
-struct DynamicAtlasFiltersInternal;
+class DynamicAtlasCustomFilter;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -76,17 +75,17 @@ constexpr void __set_m_MaxSubTextureSize(int32_t value) ;
 
 constexpr int32_t __get_m_MaxSubTextureSize() const;
 
- ::UnityEngine::UIElements::DynamicAtlasFiltersInternal __declspec(property(get=__get_m_ActiveFilters, put=__set_m_ActiveFilters))  m_ActiveFilters;
+ UnityEngine::UIElements::DynamicAtlasFiltersInternal __declspec(property(get=__get_m_ActiveFilters, put=__set_m_ActiveFilters))  m_ActiveFilters;
 
-constexpr void __set_m_ActiveFilters(::UnityEngine::UIElements::DynamicAtlasFiltersInternal value) ;
+constexpr void __set_m_ActiveFilters(UnityEngine::UIElements::DynamicAtlasFiltersInternal value) ;
 
-constexpr ::UnityEngine::UIElements::DynamicAtlasFiltersInternal __get_m_ActiveFilters() const;
+constexpr UnityEngine::UIElements::DynamicAtlasFiltersInternal __get_m_ActiveFilters() const;
 
- ::UnityEngine::UIElements::DynamicAtlasCustomFilter __declspec(property(get=__get_m_CustomFilter, put=__set_m_CustomFilter))  m_CustomFilter;
+ UnityEngine::UIElements::DynamicAtlasCustomFilter __declspec(property(get=__get_m_CustomFilter, put=__set_m_CustomFilter))  m_CustomFilter;
 
-constexpr void __set_m_CustomFilter(::UnityEngine::UIElements::DynamicAtlasCustomFilter value) ;
+constexpr void __set_m_CustomFilter(UnityEngine::UIElements::DynamicAtlasCustomFilter value) ;
 
-constexpr ::UnityEngine::UIElements::DynamicAtlasCustomFilter __get_m_CustomFilter() const;
+constexpr UnityEngine::UIElements::DynamicAtlasCustomFilter __get_m_CustomFilter() const;
 
 
 // Properties
@@ -97,13 +96,13 @@ constexpr ::UnityEngine::UIElements::DynamicAtlasCustomFilter __get_m_CustomFilt
 
  int32_t __declspec(property(get=get_maxSubTextureSize, put=set_maxSubTextureSize))  maxSubTextureSize;
 
- ::UnityEngine::UIElements::DynamicAtlasFilters __declspec(property(get=get_activeFilters, put=set_activeFilters))  activeFilters;
+ UnityEngine::UIElements::DynamicAtlasFilters __declspec(property(get=get_activeFilters, put=set_activeFilters))  activeFilters;
 
-static ::UnityEngine::UIElements::DynamicAtlasFilters __declspec(property(get=get_defaultFilters))  defaultFilters;
+static UnityEngine::UIElements::DynamicAtlasFilters __declspec(property(get=get_defaultFilters))  defaultFilters;
 
- ::UnityEngine::UIElements::DynamicAtlasCustomFilter __declspec(property(get=get_customFilter, put=set_customFilter))  customFilter;
+ UnityEngine::UIElements::DynamicAtlasCustomFilter __declspec(property(get=get_customFilter, put=set_customFilter))  customFilter;
 
-static ::UnityEngine::UIElements::DynamicAtlasSettings __declspec(property(get=get_defaults))  defaults;
+static UnityEngine::UIElements::DynamicAtlasSettings __declspec(property(get=get_defaults))  defaults;
 
 
 // Methods
@@ -127,22 +126,22 @@ static ::UnityEngine::UIElements::DynamicAtlasSettings __declspec(property(get=g
  void set_maxSubTextureSize(int32_t value) ;
 
 /// @brief Method get_activeFilters addr 0x2c9f668 size 0x8 virtual false final false
- ::UnityEngine::UIElements::DynamicAtlasFilters get_activeFilters() ;
+ UnityEngine::UIElements::DynamicAtlasFilters get_activeFilters() ;
 
 /// @brief Method set_activeFilters addr 0x2c9f670 size 0x8 virtual false final false
- void set_activeFilters(::UnityEngine::UIElements::DynamicAtlasFilters value) ;
+ void set_activeFilters(UnityEngine::UIElements::DynamicAtlasFilters value) ;
 
 /// @brief Method get_defaultFilters addr 0x2c9f678 size 0x8 virtual false final false
-static ::UnityEngine::UIElements::DynamicAtlasFilters get_defaultFilters() ;
+static UnityEngine::UIElements::DynamicAtlasFilters get_defaultFilters() ;
 
 /// @brief Method get_customFilter addr 0x2c9f680 size 0x8 virtual false final false
- ::UnityEngine::UIElements::DynamicAtlasCustomFilter get_customFilter() ;
+ UnityEngine::UIElements::DynamicAtlasCustomFilter get_customFilter() ;
 
 /// @brief Method set_customFilter addr 0x2c9f688 size 0x8 virtual false final false
- void set_customFilter(::UnityEngine::UIElements::DynamicAtlasCustomFilter value) ;
+ void set_customFilter(UnityEngine::UIElements::DynamicAtlasCustomFilter value) ;
 
 /// @brief Method get_defaults addr 0x2c9f690 size 0x80 virtual false final false
-static ::UnityEngine::UIElements::DynamicAtlasSettings get_defaults() ;
+static UnityEngine::UIElements::DynamicAtlasSettings get_defaults() ;
 
 // Ctor Parameters []
 explicit DynamicAtlasSettings() ;
@@ -154,6 +153,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::DynamicAtlasSettings);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::DynamicAtlasSettings, "UnityEngine.UIElements", "DynamicAtlasSettings");
+NEED_NO_BOX(UnityEngine::UIElements::DynamicAtlasSettings);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::DynamicAtlasSettings, "UnityEngine.UIElements", "DynamicAtlasSettings");

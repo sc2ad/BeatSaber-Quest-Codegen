@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Vector2;
 }
@@ -80,11 +79,11 @@ constexpr void __set_m_OtherRigidbody(int32_t value) ;
 
 constexpr int32_t __get_m_OtherRigidbody() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_m_RelativeVelocity, put=__set_m_RelativeVelocity))  m_RelativeVelocity;
+ UnityEngine::Vector2 __declspec(property(get=__get_m_RelativeVelocity, put=__set_m_RelativeVelocity))  m_RelativeVelocity;
 
-constexpr void __set_m_RelativeVelocity(::UnityEngine::Vector2 value) ;
+constexpr void __set_m_RelativeVelocity(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_m_RelativeVelocity() const;
+constexpr UnityEngine::Vector2 __get_m_RelativeVelocity() const;
 
  int32_t __declspec(property(get=__get_m_Enabled, put=__set_m_Enabled))  m_Enabled;
 
@@ -98,22 +97,21 @@ constexpr void __set_m_ContactCount(int32_t value) ;
 
 constexpr int32_t __get_m_ContactCount() const;
 
- ::ArrayW<::UnityEngine::ContactPoint2D> __declspec(property(get=__get_m_ReusedContacts, put=__set_m_ReusedContacts))  m_ReusedContacts;
+ ::ArrayW<UnityEngine::ContactPoint2D> __declspec(property(get=__get_m_ReusedContacts, put=__set_m_ReusedContacts))  m_ReusedContacts;
 
-constexpr void __set_m_ReusedContacts(::ArrayW<::UnityEngine::ContactPoint2D> value) ;
+constexpr void __set_m_ReusedContacts(::ArrayW<UnityEngine::ContactPoint2D> value) ;
 
-constexpr ::ArrayW<::UnityEngine::ContactPoint2D> __get_m_ReusedContacts() const;
+constexpr ::ArrayW<UnityEngine::ContactPoint2D> __get_m_ReusedContacts() const;
 
- ::ArrayW<::UnityEngine::ContactPoint2D> __declspec(property(get=__get_m_LegacyContacts, put=__set_m_LegacyContacts))  m_LegacyContacts;
+ ::ArrayW<UnityEngine::ContactPoint2D> __declspec(property(get=__get_m_LegacyContacts, put=__set_m_LegacyContacts))  m_LegacyContacts;
 
-constexpr void __set_m_LegacyContacts(::ArrayW<::UnityEngine::ContactPoint2D> value) ;
+constexpr void __set_m_LegacyContacts(::ArrayW<UnityEngine::ContactPoint2D> value) ;
 
-constexpr ::ArrayW<::UnityEngine::ContactPoint2D> __get_m_LegacyContacts() const;
+constexpr ::ArrayW<UnityEngine::ContactPoint2D> __get_m_LegacyContacts() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Collision2D);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Collision2D, "UnityEngine", "Collision2D");
+NEED_NO_BOX(UnityEngine::Collision2D);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Collision2D, "UnityEngine", "Collision2D");

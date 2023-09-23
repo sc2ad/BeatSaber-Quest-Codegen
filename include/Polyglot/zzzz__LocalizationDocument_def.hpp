@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace UnityEngine {
-class TextAsset;
-}
 namespace Polyglot {
 struct GoogleDriveDownloadFormat;
+}
+namespace UnityEngine {
+class TextAsset;
 }
 // Forward declare root types
 namespace Polyglot {
@@ -67,17 +66,17 @@ constexpr void __set_sheetId(::StringW value) ;
 
 constexpr ::StringW __get_sheetId() const;
 
- ::Polyglot::GoogleDriveDownloadFormat __declspec(property(get=__get_format, put=__set_format))  format;
+ Polyglot::GoogleDriveDownloadFormat __declspec(property(get=__get_format, put=__set_format))  format;
 
-constexpr void __set_format(::Polyglot::GoogleDriveDownloadFormat value) ;
+constexpr void __set_format(Polyglot::GoogleDriveDownloadFormat value) ;
 
-constexpr ::Polyglot::GoogleDriveDownloadFormat __get_format() const;
+constexpr Polyglot::GoogleDriveDownloadFormat __get_format() const;
 
- ::UnityEngine::TextAsset __declspec(property(get=__get_textAsset, put=__set_textAsset))  textAsset;
+ UnityEngine::TextAsset __declspec(property(get=__get_textAsset, put=__set_textAsset))  textAsset;
 
-constexpr void __set_textAsset(::UnityEngine::TextAsset value) ;
+constexpr void __set_textAsset(UnityEngine::TextAsset value) ;
 
-constexpr ::UnityEngine::TextAsset __get_textAsset() const;
+constexpr UnityEngine::TextAsset __get_textAsset() const;
 
  bool __declspec(property(get=__get_downloadOnStart, put=__set_downloadOnStart))  downloadOnStart;
 
@@ -88,13 +87,13 @@ constexpr bool __get_downloadOnStart() const;
 
 // Properties
 
- ::UnityEngine::TextAsset __declspec(property(get=get_TextAsset, put=set_TextAsset))  TextAsset;
+ UnityEngine::TextAsset __declspec(property(get=get_TextAsset, put=set_TextAsset))  TextAsset;
 
  ::StringW __declspec(property(get=get_DocsId, put=set_DocsId))  DocsId;
 
  ::StringW __declspec(property(get=get_SheetId, put=set_SheetId))  SheetId;
 
- ::Polyglot::GoogleDriveDownloadFormat __declspec(property(get=get_Format, put=set_Format))  Format;
+ Polyglot::GoogleDriveDownloadFormat __declspec(property(get=get_Format, put=set_Format))  Format;
 
  bool __declspec(property(get=get_DownloadOnStart, put=set_DownloadOnStart))  DownloadOnStart;
 
@@ -102,10 +101,10 @@ constexpr bool __get_downloadOnStart() const;
 // Methods
 
 /// @brief Method get_TextAsset addr 0x2672c48 size 0x8 virtual false final false
- ::UnityEngine::TextAsset get_TextAsset() ;
+ UnityEngine::TextAsset get_TextAsset() ;
 
 /// @brief Method set_TextAsset addr 0x2672c50 size 0x8 virtual false final false
- void set_TextAsset(::UnityEngine::TextAsset value) ;
+ void set_TextAsset(UnityEngine::TextAsset value) ;
 
 /// @brief Method get_DocsId addr 0x2672c58 size 0x8 virtual false final false
  ::StringW get_DocsId() ;
@@ -120,10 +119,10 @@ constexpr bool __get_downloadOnStart() const;
  void set_SheetId(::StringW value) ;
 
 /// @brief Method get_Format addr 0x2672c78 size 0x8 virtual false final false
- ::Polyglot::GoogleDriveDownloadFormat get_Format() ;
+ Polyglot::GoogleDriveDownloadFormat get_Format() ;
 
 /// @brief Method set_Format addr 0x2672c80 size 0x8 virtual false final false
- void set_Format(::Polyglot::GoogleDriveDownloadFormat value) ;
+ void set_Format(Polyglot::GoogleDriveDownloadFormat value) ;
 
 /// @brief Method get_DownloadOnStart addr 0x2672c88 size 0x8 virtual false final false
  bool get_DownloadOnStart() ;
@@ -141,6 +140,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Polyglot
-} // end anonymous namespace
-NEED_NO_BOX(::Polyglot::LocalizationDocument);
-DEFINE_IL2CPP_ARG_TYPE(::Polyglot::LocalizationDocument, "Polyglot", "LocalizationDocument");
+NEED_NO_BOX(Polyglot::LocalizationDocument);
+DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizationDocument, "Polyglot", "LocalizationDocument");

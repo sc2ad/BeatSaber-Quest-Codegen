@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -21,7 +20,7 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12564))
 // CS Name: RootMotion.FinalIK.RotationLimit
-class CORDL_TYPE RotationLimit : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE RotationLimit : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr RotationLimit(RotationLimit const& ) noexcept = default;
 constexpr RotationLimit(RotationLimit&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RotationLimit(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit RotationLimit(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -57,17 +56,17 @@ constexpr explicit RotationLimit(void* ptr) noexcept : ::UnityEngine::MonoBehavi
 
 // Fields
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_axis, put=__set_axis))  axis;
+ UnityEngine::Vector3 __declspec(property(get=__get_axis, put=__set_axis))  axis;
 
-constexpr void __set_axis(::UnityEngine::Vector3 value) ;
+constexpr void __set_axis(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_axis() const;
+constexpr UnityEngine::Vector3 __get_axis() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get_defaultLocalRotation, put=__set_defaultLocalRotation))  defaultLocalRotation;
+ UnityEngine::Quaternion __declspec(property(get=__get_defaultLocalRotation, put=__set_defaultLocalRotation))  defaultLocalRotation;
 
-constexpr void __set_defaultLocalRotation(::UnityEngine::Quaternion value) ;
+constexpr void __set_defaultLocalRotation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get_defaultLocalRotation() const;
+constexpr UnityEngine::Quaternion __get_defaultLocalRotation() const;
 
  bool __declspec(property(get=__get__defaultLocalRotationOverride_k__BackingField, put=__set__defaultLocalRotationOverride_k__BackingField))  _defaultLocalRotationOverride_k__BackingField;
 
@@ -96,9 +95,9 @@ constexpr bool __get_defaultLocalRotationSet() const;
 
 // Properties
 
- ::UnityEngine::Vector3 __declspec(property(get=get_secondaryAxis))  secondaryAxis;
+ UnityEngine::Vector3 __declspec(property(get=get_secondaryAxis))  secondaryAxis;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_crossAxis))  crossAxis;
+ UnityEngine::Vector3 __declspec(property(get=get_crossAxis))  crossAxis;
 
  bool __declspec(property(get=get_defaultLocalRotationOverride, put=set_defaultLocalRotationOverride))  defaultLocalRotationOverride;
 
@@ -109,10 +108,10 @@ constexpr bool __get_defaultLocalRotationSet() const;
  void SetDefaultLocalRotation() ;
 
 /// @brief Method SetDefaultLocalRotation addr 0x1202a18 size 0x18 virtual false final false
- void SetDefaultLocalRotation(::UnityEngine::Quaternion localRotation) ;
+ void SetDefaultLocalRotation(UnityEngine::Quaternion localRotation) ;
 
 /// @brief Method GetLimitedLocalRotation addr 0x1202a30 size 0x284 virtual false final false
- ::UnityEngine::Quaternion GetLimitedLocalRotation(::UnityEngine::Quaternion localRotation, ByRef<bool> changed) ;
+ UnityEngine::Quaternion GetLimitedLocalRotation(UnityEngine::Quaternion localRotation, ByRef<bool> changed) ;
 
 /// @brief Method Apply addr 0x1202db0 size 0x64 virtual false final false
  bool Apply() ;
@@ -121,10 +120,10 @@ constexpr bool __get_defaultLocalRotationSet() const;
  void Disable() ;
 
 /// @brief Method get_secondaryAxis addr 0x1202e40 size 0xc virtual false final false
- ::UnityEngine::Vector3 get_secondaryAxis() ;
+ UnityEngine::Vector3 get_secondaryAxis() ;
 
 /// @brief Method get_crossAxis addr 0x1202e4c size 0x30 virtual false final false
- ::UnityEngine::Vector3 get_crossAxis() ;
+ UnityEngine::Vector3 get_crossAxis() ;
 
 /// @brief Method get_defaultLocalRotationOverride addr 0x1202e7c size 0x8 virtual false final false
  bool get_defaultLocalRotationOverride() ;
@@ -133,7 +132,7 @@ constexpr bool __get_defaultLocalRotationSet() const;
  void set_defaultLocalRotationOverride(bool value) ;
 
 /// @brief Method LimitRotation addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Quaternion LimitRotation(::UnityEngine::Quaternion rotation) ;
+ UnityEngine::Quaternion LimitRotation(UnityEngine::Quaternion rotation) ;
 
 /// @brief Method Awake addr 0x1202cb4 size 0xfc virtual false final false
  void Awake() ;
@@ -145,13 +144,13 @@ constexpr bool __get_defaultLocalRotationSet() const;
  void LogWarning(::StringW message) ;
 
 /// @brief Method Limit1DOF addr 0x1202ebc size 0xd4 virtual false final false
-static ::UnityEngine::Quaternion Limit1DOF(::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 axis) ;
+static UnityEngine::Quaternion Limit1DOF(UnityEngine::Quaternion rotation, UnityEngine::Vector3 axis) ;
 
 /// @brief Method LimitTwist addr 0x1202f90 size 0x258 virtual false final false
-static ::UnityEngine::Quaternion LimitTwist(::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 axis, ::UnityEngine::Vector3 orthoAxis, float_t twistLimit) ;
+static UnityEngine::Quaternion LimitTwist(UnityEngine::Quaternion rotation, UnityEngine::Vector3 axis, UnityEngine::Vector3 orthoAxis, float_t twistLimit) ;
 
 /// @brief Method GetOrthogonalAngle addr 0x12031e8 size 0x154 virtual false final false
-static float_t GetOrthogonalAngle(::UnityEngine::Vector3 v1, ::UnityEngine::Vector3 v2, ::UnityEngine::Vector3 normal) ;
+static float_t GetOrthogonalAngle(UnityEngine::Vector3 v1, UnityEngine::Vector3 v2, UnityEngine::Vector3 normal) ;
 
 // Ctor Parameters []
 explicit RotationLimit() ;
@@ -163,6 +162,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::RotationLimit);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::RotationLimit, "RootMotion.FinalIK", "RotationLimit");
+NEED_NO_BOX(RootMotion::FinalIK::RotationLimit);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimit, "RootMotion.FinalIK", "RotationLimit");

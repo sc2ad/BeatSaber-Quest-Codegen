@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Newtonsoft::Json::Bson {
 struct BsonType;
@@ -85,68 +84,67 @@ constexpr void __set_value__(int8_t value) ;
 constexpr int8_t __get_value__() const;
 
 /// @brief Field Number offset 0
-static ::Newtonsoft::Json::Bson::BsonType const Number;
+static Newtonsoft::Json::Bson::BsonType const Number;
 
 /// @brief Field String offset 0
-static ::Newtonsoft::Json::Bson::BsonType const String;
+static Newtonsoft::Json::Bson::BsonType const String;
 
 /// @brief Field Object offset 0
-static ::Newtonsoft::Json::Bson::BsonType const Object;
+static Newtonsoft::Json::Bson::BsonType const Object;
 
 /// @brief Field Array offset 0
-static ::Newtonsoft::Json::Bson::BsonType const Array;
+static Newtonsoft::Json::Bson::BsonType const Array;
 
 /// @brief Field Binary offset 0
-static ::Newtonsoft::Json::Bson::BsonType const Binary;
+static Newtonsoft::Json::Bson::BsonType const Binary;
 
 /// @brief Field Undefined offset 0
-static ::Newtonsoft::Json::Bson::BsonType const Undefined;
+static Newtonsoft::Json::Bson::BsonType const Undefined;
 
 /// @brief Field Oid offset 0
-static ::Newtonsoft::Json::Bson::BsonType const Oid;
+static Newtonsoft::Json::Bson::BsonType const Oid;
 
 /// @brief Field Boolean offset 0
-static ::Newtonsoft::Json::Bson::BsonType const Boolean;
+static Newtonsoft::Json::Bson::BsonType const Boolean;
 
 /// @brief Field Date offset 0
-static ::Newtonsoft::Json::Bson::BsonType const Date;
+static Newtonsoft::Json::Bson::BsonType const Date;
 
 /// @brief Field Null offset 0
-static ::Newtonsoft::Json::Bson::BsonType const Null;
+static Newtonsoft::Json::Bson::BsonType const Null;
 
 /// @brief Field Regex offset 0
-static ::Newtonsoft::Json::Bson::BsonType const Regex;
+static Newtonsoft::Json::Bson::BsonType const Regex;
 
 /// @brief Field Reference offset 0
-static ::Newtonsoft::Json::Bson::BsonType const Reference;
+static Newtonsoft::Json::Bson::BsonType const Reference;
 
 /// @brief Field Code offset 0
-static ::Newtonsoft::Json::Bson::BsonType const Code;
+static Newtonsoft::Json::Bson::BsonType const Code;
 
 /// @brief Field Symbol offset 0
-static ::Newtonsoft::Json::Bson::BsonType const Symbol;
+static Newtonsoft::Json::Bson::BsonType const Symbol;
 
 /// @brief Field CodeWScope offset 0
-static ::Newtonsoft::Json::Bson::BsonType const CodeWScope;
+static Newtonsoft::Json::Bson::BsonType const CodeWScope;
 
 /// @brief Field Integer offset 0
-static ::Newtonsoft::Json::Bson::BsonType const Integer;
+static Newtonsoft::Json::Bson::BsonType const Integer;
 
 /// @brief Field TimeStamp offset 0
-static ::Newtonsoft::Json::Bson::BsonType const TimeStamp;
+static Newtonsoft::Json::Bson::BsonType const TimeStamp;
 
 /// @brief Field Long offset 0
-static ::Newtonsoft::Json::Bson::BsonType const Long;
+static Newtonsoft::Json::Bson::BsonType const Long;
 
 /// @brief Field MinKey offset 0
-static ::Newtonsoft::Json::Bson::BsonType const MinKey;
+static Newtonsoft::Json::Bson::BsonType const MinKey;
 
 /// @brief Field MaxKey offset 0
-static ::Newtonsoft::Json::Bson::BsonType const MaxKey;
+static Newtonsoft::Json::Bson::BsonType const MaxKey;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Bson
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Bson::BsonType, "Newtonsoft.Json.Bson", "BsonType");
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Bson::BsonType, "Newtonsoft.Json.Bson", "BsonType");

@@ -3,18 +3,17 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-class MaterialPropertyBlockController;
-}
 namespace GlobalNamespace {
 class BasicSpectrogramData;
 }
 namespace UnityEngine {
-class MeshRenderer;
+class MaterialPropertyBlock;
 }
 namespace UnityEngine {
-class MaterialPropertyBlock;
+class MeshRenderer;
+}
+namespace GlobalNamespace {
+class MaterialPropertyBlockController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,7 +25,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5099))
 // CS Name: Spectrogram
-class CORDL_TYPE Spectrogram : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE Spectrogram : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -41,7 +40,7 @@ constexpr Spectrogram(Spectrogram const& ) noexcept = default;
 constexpr Spectrogram(Spectrogram&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Spectrogram(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit Spectrogram(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -62,23 +61,23 @@ constexpr explicit Spectrogram(void* ptr) noexcept : ::UnityEngine::MonoBehaviou
 
 // Fields
 
- ::ArrayW<::UnityEngine::MeshRenderer> __declspec(property(get=__get__meshRenderers, put=__set__meshRenderers))  _meshRenderers;
+ ::ArrayW<UnityEngine::MeshRenderer> __declspec(property(get=__get__meshRenderers, put=__set__meshRenderers))  _meshRenderers;
 
-constexpr void __set__meshRenderers(::ArrayW<::UnityEngine::MeshRenderer> value) ;
+constexpr void __set__meshRenderers(::ArrayW<UnityEngine::MeshRenderer> value) ;
 
-constexpr ::ArrayW<::UnityEngine::MeshRenderer> __get__meshRenderers() const;
+constexpr ::ArrayW<UnityEngine::MeshRenderer> __get__meshRenderers() const;
 
- ::GlobalNamespace::MaterialPropertyBlockController __declspec(property(get=__get__materialPropertyBlockController, put=__set__materialPropertyBlockController))  _materialPropertyBlockController;
+ GlobalNamespace::MaterialPropertyBlockController __declspec(property(get=__get__materialPropertyBlockController, put=__set__materialPropertyBlockController))  _materialPropertyBlockController;
 
-constexpr void __set__materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController value) ;
+constexpr void __set__materialPropertyBlockController(GlobalNamespace::MaterialPropertyBlockController value) ;
 
-constexpr ::GlobalNamespace::MaterialPropertyBlockController __get__materialPropertyBlockController() const;
+constexpr GlobalNamespace::MaterialPropertyBlockController __get__materialPropertyBlockController() const;
 
- ::GlobalNamespace::BasicSpectrogramData __declspec(property(get=__get__spectrogramData, put=__set__spectrogramData))  _spectrogramData;
+ GlobalNamespace::BasicSpectrogramData __declspec(property(get=__get__spectrogramData, put=__set__spectrogramData))  _spectrogramData;
 
-constexpr void __set__spectrogramData(::GlobalNamespace::BasicSpectrogramData value) ;
+constexpr void __set__spectrogramData(GlobalNamespace::BasicSpectrogramData value) ;
 
-constexpr ::GlobalNamespace::BasicSpectrogramData __get__spectrogramData() const;
+constexpr GlobalNamespace::BasicSpectrogramData __get__spectrogramData() const;
 
 static int32_t __declspec(property(get=__get__spectrogramDataID, put=__set__spectrogramDataID))  _spectrogramDataID;
 
@@ -86,22 +85,22 @@ static void __set__spectrogramDataID(int32_t value) ;
 
 static int32_t __get__spectrogramDataID() ;
 
-static ::UnityEngine::MaterialPropertyBlock __declspec(property(get=__get__materialPropertyBlock, put=__set__materialPropertyBlock))  _materialPropertyBlock;
+static UnityEngine::MaterialPropertyBlock __declspec(property(get=__get__materialPropertyBlock, put=__set__materialPropertyBlock))  _materialPropertyBlock;
 
-static void __set__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock value) ;
+static void __set__materialPropertyBlock(UnityEngine::MaterialPropertyBlock value) ;
 
-static ::UnityEngine::MaterialPropertyBlock __get__materialPropertyBlock() ;
+static UnityEngine::MaterialPropertyBlock __get__materialPropertyBlock() ;
 
 
 // Properties
 
- ::UnityEngine::MaterialPropertyBlock __declspec(property(get=get_materialPropertyBlock))  materialPropertyBlock;
+ UnityEngine::MaterialPropertyBlock __declspec(property(get=get_materialPropertyBlock))  materialPropertyBlock;
 
 
 // Methods
 
 /// @brief Method get_materialPropertyBlock addr 0x226bd20 size 0xb4 virtual false final false
- ::UnityEngine::MaterialPropertyBlock get_materialPropertyBlock() ;
+ UnityEngine::MaterialPropertyBlock get_materialPropertyBlock() ;
 
 /// @brief Method Awake addr 0x226bdd4 size 0xe8 virtual false final false
  void Awake() ;
@@ -119,6 +118,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::Spectrogram);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::Spectrogram, "", "Spectrogram");
+NEED_NO_BOX(GlobalNamespace::Spectrogram);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Spectrogram, "", "Spectrogram");

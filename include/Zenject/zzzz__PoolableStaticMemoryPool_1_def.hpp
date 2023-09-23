@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__StaticMemoryPool_1_def.hpp"
-namespace {
 // Forward declare root types
 namespace Zenject {
 template<typename TValue>
@@ -17,10 +16,10 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TValue>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11028), inst: 2652 }), TypeDefinitionIndex(TypeDefinitionIndex(11028)), TypeDefinitionIndex(TypeDefinitionIndex(11018))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11018)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11028), inst: 2652 }), TypeDefinitionIndex(TypeDefinitionIndex(11028))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11018), inst: 2 })
 // CS Name: Zenject.PoolableStaticMemoryPool`1
-class CORDL_TYPE PoolableStaticMemoryPool_1<TValue> : public ::Zenject::StaticMemoryPool_1<TValue> {
+class CORDL_TYPE PoolableStaticMemoryPool_1<TValue> : public Zenject::StaticMemoryPool_1<TValue> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr PoolableStaticMemoryPool_1(PoolableStaticMemoryPool_1 const& ) noexcep
 constexpr PoolableStaticMemoryPool_1(PoolableStaticMemoryPool_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PoolableStaticMemoryPool_1(void* ptr) noexcept : ::Zenject::StaticMemoryPool_1<TValue>(ptr) {
+constexpr explicit PoolableStaticMemoryPool_1(void* ptr) noexcept : Zenject::StaticMemoryPool_1<TValue>(ptr) {
 }
 
 
@@ -72,5 +71,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::PoolableStaticMemoryPool_1, "Zenject", "PoolableStaticMemoryPool`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::PoolableStaticMemoryPool_1, "Zenject", "PoolableStaticMemoryPool`1");

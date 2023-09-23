@@ -3,7 +3,6 @@
 #include "Zenject/zzzz__MemoryPool_8_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace UnityEngine {
 class Transform;
 }
@@ -25,10 +24,10 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TParam2,::cordl_internals::il2cpp_reference_type TParam3,::cordl_internals::il2cpp_reference_type TParam4,::cordl_internals::il2cpp_reference_type TParam5,::cordl_internals::il2cpp_reference_type TParam6,::cordl_internals::il2cpp_reference_type TParam7,::cordl_internals::il2cpp_reference_type TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11005)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10987), inst: 3421 }), TypeDefinitionIndex(TypeDefinitionIndex(10987))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10987)), TypeDefinitionIndex(TypeDefinitionIndex(11005)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10987), inst: 3421 })}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11005), inst: 5941 })
 // CS Name: Zenject.MonoPoolableMemoryPool`8
-class CORDL_TYPE MonoPoolableMemoryPool_8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TValue> : public ::Zenject::MemoryPool_8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TValue> {
+class CORDL_TYPE MonoPoolableMemoryPool_8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TValue> : public Zenject::MemoryPool_8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TValue> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -43,7 +42,7 @@ constexpr MonoPoolableMemoryPool_8(MonoPoolableMemoryPool_8 const& ) noexcept = 
 constexpr MonoPoolableMemoryPool_8(MonoPoolableMemoryPool_8&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MonoPoolableMemoryPool_8(void* ptr) noexcept : ::Zenject::MemoryPool_8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TValue>(ptr) {
+constexpr explicit MonoPoolableMemoryPool_8(void* ptr) noexcept : Zenject::MemoryPool_8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TValue>(ptr) {
 }
 
 
@@ -64,11 +63,11 @@ constexpr explicit MonoPoolableMemoryPool_8(void* ptr) noexcept : ::Zenject::Mem
 
 // Fields
 
- ::UnityEngine::Transform __declspec(property(get=__get__originalParent, put=__set__originalParent))  _originalParent;
+ UnityEngine::Transform __declspec(property(get=__get__originalParent, put=__set__originalParent))  _originalParent;
 
-constexpr void __set__originalParent(::UnityEngine::Transform value) ;
+constexpr void __set__originalParent(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__originalParent() const;
+constexpr UnityEngine::Transform __get__originalParent() const;
 
 
 // Methods
@@ -95,11 +94,10 @@ explicit MonoPoolableMemoryPool_8() ;
 static ::bs_hook::Il2CppWrapperType __zenCreate(::ArrayW<::bs_hook::Il2CppWrapperType> P_0) ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::MonoPoolableMemoryPool_8, "Zenject", "MonoPoolableMemoryPool`8");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::MonoPoolableMemoryPool_8, "Zenject", "MonoPoolableMemoryPool`8");

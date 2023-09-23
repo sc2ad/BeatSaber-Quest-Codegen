@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include <cstdint>
-namespace {
 namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivable_1;
@@ -17,11 +16,11 @@ namespace HoudiniEngineUnity {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10151))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9592))
 // CS Name: HoudiniEngineUnity.HEU_InstanceInputUIState
-class CORDL_TYPE HEU_InstanceInputUIState : public ::UnityEngine::ScriptableObject {
+class CORDL_TYPE HEU_InstanceInputUIState : public UnityEngine::ScriptableObject {
 public:
 // Declarations
-/// @brief Convert operator to ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstanceInputUIState>
-constexpr operator  ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstanceInputUIState>() const noexcept;
+/// @brief Convert operator to HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InstanceInputUIState>
+constexpr operator  HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InstanceInputUIState>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -35,7 +34,7 @@ constexpr HEU_InstanceInputUIState(HEU_InstanceInputUIState const& ) noexcept = 
 constexpr HEU_InstanceInputUIState(HEU_InstanceInputUIState&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HEU_InstanceInputUIState(void* ptr) noexcept : ::UnityEngine::ScriptableObject(ptr) {
+constexpr explicit HEU_InstanceInputUIState(void* ptr) noexcept : UnityEngine::ScriptableObject(ptr) {
 }
 
 
@@ -78,10 +77,10 @@ constexpr int32_t __get__inputsPageIndexUI() const;
 // Methods
 
 /// @brief Method CopyTo addr 0x1ffebe8 size 0x24 virtual false final false
- void CopyTo(::HoudiniEngineUnity::HEU_InstanceInputUIState dest) ;
+ void CopyTo(HoudiniEngineUnity::HEU_InstanceInputUIState dest) ;
 
 /// @brief Method IsEquivalentTo addr 0x1ffec0c size 0x1e4 virtual true final true
- bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InstanceInputUIState other) ;
+ bool IsEquivalentTo(HoudiniEngineUnity::HEU_InstanceInputUIState other) ;
 
 // Ctor Parameters []
 explicit HEU_InstanceInputUIState() ;
@@ -93,6 +92,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_InstanceInputUIState);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_InstanceInputUIState, "HoudiniEngineUnity", "HEU_InstanceInputUIState");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_InstanceInputUIState);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InstanceInputUIState, "HoudiniEngineUnity", "HEU_InstanceInputUIState");

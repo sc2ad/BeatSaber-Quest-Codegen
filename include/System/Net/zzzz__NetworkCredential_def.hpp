@@ -2,15 +2,14 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System::Security {
-class SecureString;
-}
 namespace System {
 class Uri;
 }
 namespace System::Net {
 class ICredentials;
+}
+namespace System::Security {
+class SecureString;
 }
 // Forward declare root types
 namespace System::Net {
@@ -25,8 +24,8 @@ namespace System::Net {
 class CORDL_TYPE NetworkCredential : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Net::ICredentials
-constexpr operator  ::System::Net::ICredentials() const noexcept;
+/// @brief Convert operator to System::Net::ICredentials
+constexpr operator  System::Net::ICredentials() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -73,11 +72,11 @@ constexpr void __set_m_userName(::StringW value) ;
 
 constexpr ::StringW __get_m_userName() const;
 
- ::System::Security::SecureString __declspec(property(get=__get_m_password, put=__set_m_password))  m_password;
+ System::Security::SecureString __declspec(property(get=__get_m_password, put=__set_m_password))  m_password;
 
-constexpr void __set_m_password(::System::Security::SecureString value) ;
+constexpr void __set_m_password(System::Security::SecureString value) ;
 
-constexpr ::System::Security::SecureString __get_m_password() const;
+constexpr System::Security::SecureString __get_m_password() const;
 
 
 // Properties
@@ -131,12 +130,11 @@ explicit NetworkCredential(::StringW userName, ::StringW password, ::StringW dom
  ::StringW InternalGetDomain() ;
 
 /// @brief Method GetCredential addr 0x280d574 size 0x4 virtual true final true
- ::System::Net::NetworkCredential GetCredential(::System::Uri uri, ::StringW authType) ;
+ System::Net::NetworkCredential GetCredential(System::Uri uri, ::StringW authType) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::NetworkCredential);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkCredential, "System.Net", "NetworkCredential");
+NEED_NO_BOX(System::Net::NetworkCredential);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkCredential, "System.Net", "NetworkCredential");

@@ -3,7 +3,6 @@
 #include "GlobalNamespace/zzzz__FixedUpdateSmoothValue_1_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -14,10 +13,10 @@ class FixedUpdateVector3SmoothValue;
 // Type: ::FixedUpdateVector3SmoothValue
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10190)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13738), inst: 394 }), TypeDefinitionIndex(TypeDefinitionIndex(13738))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13738), inst: 394 }), TypeDefinitionIndex(TypeDefinitionIndex(13738)), TypeDefinitionIndex(TypeDefinitionIndex(10190))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13739))
 // CS Name: FixedUpdateVector3SmoothValue
-class CORDL_TYPE FixedUpdateVector3SmoothValue : public ::GlobalNamespace::FixedUpdateSmoothValue_1<::UnityEngine::Vector3> {
+class CORDL_TYPE FixedUpdateVector3SmoothValue : public GlobalNamespace::FixedUpdateSmoothValue_1<UnityEngine::Vector3> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr FixedUpdateVector3SmoothValue(FixedUpdateVector3SmoothValue const& ) n
 constexpr FixedUpdateVector3SmoothValue(FixedUpdateVector3SmoothValue&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FixedUpdateVector3SmoothValue(void* ptr) noexcept : ::GlobalNamespace::FixedUpdateSmoothValue_1<::UnityEngine::Vector3>(ptr) {
+constexpr explicit FixedUpdateVector3SmoothValue(void* ptr) noexcept : GlobalNamespace::FixedUpdateSmoothValue_1<UnityEngine::Vector3>(ptr) {
 }
 
 
@@ -60,12 +59,11 @@ explicit FixedUpdateVector3SmoothValue(float_t smooth) ;
  void _ctor(float_t smooth) ;
 
 /// @brief Method Interpolate addr 0x1f71f9c size 0x28 virtual true final false
- ::UnityEngine::Vector3 Interpolate(::UnityEngine::Vector3 value0, ::UnityEngine::Vector3 value1, float_t t) ;
+ UnityEngine::Vector3 Interpolate(UnityEngine::Vector3 value0, UnityEngine::Vector3 value1, float_t t) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::FixedUpdateVector3SmoothValue);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FixedUpdateVector3SmoothValue, "", "FixedUpdateVector3SmoothValue");
+NEED_NO_BOX(GlobalNamespace::FixedUpdateVector3SmoothValue);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FixedUpdateVector3SmoothValue, "", "FixedUpdateVector3SmoothValue");

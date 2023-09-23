@@ -3,24 +3,23 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
-namespace {
-namespace UnityEngine {
-class Camera;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-class VRController;
-}
 namespace GlobalNamespace {
 class MouseLook;
+}
+namespace GlobalNamespace {
+class VRCenterAdjust;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
-class VRCenterAdjust;
+class VRController;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class Camera;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,7 +31,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5922))
 // CS Name: FirstPersonFlyingController
-class CORDL_TYPE FirstPersonFlyingController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE FirstPersonFlyingController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -47,7 +46,7 @@ constexpr FirstPersonFlyingController(FirstPersonFlyingController const& ) noexc
 constexpr FirstPersonFlyingController(FirstPersonFlyingController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FirstPersonFlyingController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit FirstPersonFlyingController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -74,17 +73,17 @@ constexpr void __set__moveSensitivity(float_t value) ;
 
 constexpr float_t __get__moveSensitivity() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
+ UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
 
-constexpr void __set__transform(::UnityEngine::Transform value) ;
+constexpr void __set__transform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__transform() const;
+constexpr UnityEngine::Transform __get__transform() const;
 
- ::UnityEngine::Camera __declspec(property(get=__get__camera, put=__set__camera))  _camera;
+ UnityEngine::Camera __declspec(property(get=__get__camera, put=__set__camera))  _camera;
 
-constexpr void __set__camera(::UnityEngine::Camera value) ;
+constexpr void __set__camera(UnityEngine::Camera value) ;
 
-constexpr ::UnityEngine::Camera __get__camera() const;
+constexpr UnityEngine::Camera __get__camera() const;
 
  float_t __declspec(property(get=__get__cameraFov, put=__set__cameraFov))  _cameraFov;
 
@@ -92,35 +91,35 @@ constexpr void __set__cameraFov(float_t value) ;
 
 constexpr float_t __get__cameraFov() const;
 
- ::GlobalNamespace::VRCenterAdjust __declspec(property(get=__get__centerAdjust, put=__set__centerAdjust))  _centerAdjust;
+ GlobalNamespace::VRCenterAdjust __declspec(property(get=__get__centerAdjust, put=__set__centerAdjust))  _centerAdjust;
 
-constexpr void __set__centerAdjust(::GlobalNamespace::VRCenterAdjust value) ;
+constexpr void __set__centerAdjust(GlobalNamespace::VRCenterAdjust value) ;
 
-constexpr ::GlobalNamespace::VRCenterAdjust __get__centerAdjust() const;
+constexpr GlobalNamespace::VRCenterAdjust __get__centerAdjust() const;
 
- ::GlobalNamespace::VRController __declspec(property(get=__get__controller0, put=__set__controller0))  _controller0;
+ GlobalNamespace::VRController __declspec(property(get=__get__controller0, put=__set__controller0))  _controller0;
 
-constexpr void __set__controller0(::GlobalNamespace::VRController value) ;
+constexpr void __set__controller0(GlobalNamespace::VRController value) ;
 
-constexpr ::GlobalNamespace::VRController __get__controller0() const;
+constexpr GlobalNamespace::VRController __get__controller0() const;
 
- ::GlobalNamespace::VRController __declspec(property(get=__get__controller1, put=__set__controller1))  _controller1;
+ GlobalNamespace::VRController __declspec(property(get=__get__controller1, put=__set__controller1))  _controller1;
 
-constexpr void __set__controller1(::GlobalNamespace::VRController value) ;
+constexpr void __set__controller1(GlobalNamespace::VRController value) ;
 
-constexpr ::GlobalNamespace::VRController __get__controller1() const;
+constexpr GlobalNamespace::VRController __get__controller1() const;
 
- ::ArrayW<::UnityEngine::GameObject> __declspec(property(get=__get__controllerModels, put=__set__controllerModels))  _controllerModels;
+ ::ArrayW<UnityEngine::GameObject> __declspec(property(get=__get__controllerModels, put=__set__controllerModels))  _controllerModels;
 
-constexpr void __set__controllerModels(::ArrayW<::UnityEngine::GameObject> value) ;
+constexpr void __set__controllerModels(::ArrayW<UnityEngine::GameObject> value) ;
 
-constexpr ::ArrayW<::UnityEngine::GameObject> __get__controllerModels() const;
+constexpr ::ArrayW<UnityEngine::GameObject> __get__controllerModels() const;
 
- ::GlobalNamespace::MouseLook __declspec(property(get=__get__mouseLook, put=__set__mouseLook))  _mouseLook;
+ GlobalNamespace::MouseLook __declspec(property(get=__get__mouseLook, put=__set__mouseLook))  _mouseLook;
 
-constexpr void __set__mouseLook(::GlobalNamespace::MouseLook value) ;
+constexpr void __set__mouseLook(GlobalNamespace::MouseLook value) ;
 
-constexpr ::GlobalNamespace::MouseLook __get__mouseLook() const;
+constexpr GlobalNamespace::MouseLook __get__mouseLook() const;
 
  bool __declspec(property(get=__get__shouldBeEnabled, put=__set__shouldBeEnabled))  _shouldBeEnabled;
 
@@ -128,11 +127,11 @@ constexpr void __set__shouldBeEnabled(bool value) ;
 
 constexpr bool __get__shouldBeEnabled() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__cameraTransform, put=__set__cameraTransform))  _cameraTransform;
+ UnityEngine::Transform __declspec(property(get=__get__cameraTransform, put=__set__cameraTransform))  _cameraTransform;
 
-constexpr void __set__cameraTransform(::UnityEngine::Transform value) ;
+constexpr void __set__cameraTransform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__cameraTransform() const;
+constexpr UnityEngine::Transform __get__cameraTransform() const;
 
 
 // Methods
@@ -153,7 +152,7 @@ constexpr ::UnityEngine::Transform __get__cameraTransform() const;
  void Update() ;
 
 /// @brief Method Inject addr 0x21933b8 size 0x12c virtual false final false
- void Inject(::UnityEngine::Camera camera, ::GlobalNamespace::VRCenterAdjust centerAdjust, ::GlobalNamespace::VRController controller0, ::GlobalNamespace::VRController controller1, bool shouldBeEnabled) ;
+ void Inject(UnityEngine::Camera camera, GlobalNamespace::VRCenterAdjust centerAdjust, GlobalNamespace::VRController controller0, GlobalNamespace::VRController controller1, bool shouldBeEnabled) ;
 
 // Ctor Parameters []
 explicit FirstPersonFlyingController() ;
@@ -165,6 +164,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::FirstPersonFlyingController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FirstPersonFlyingController, "", "FirstPersonFlyingController");
+NEED_NO_BOX(GlobalNamespace::FirstPersonFlyingController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FirstPersonFlyingController, "", "FirstPersonFlyingController");

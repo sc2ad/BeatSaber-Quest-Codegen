@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace UnityEngine {
 class Animation;
 }
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5648))
 // CS Name: CountdownElementController
-class CORDL_TYPE CountdownElementController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE CountdownElementController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr CountdownElementController(CountdownElementController const& ) noexcep
 constexpr CountdownElementController(CountdownElementController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CountdownElementController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit CountdownElementController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -55,17 +54,17 @@ constexpr explicit CountdownElementController(void* ptr) noexcept : ::UnityEngin
 
 // Fields
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__text, put=__set__text))  _text;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__text, put=__set__text))  _text;
 
-constexpr void __set__text(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__text(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__text() const;
+constexpr TMPro::TextMeshProUGUI __get__text() const;
 
- ::UnityEngine::Animation __declspec(property(get=__get__animation, put=__set__animation))  _animation;
+ UnityEngine::Animation __declspec(property(get=__get__animation, put=__set__animation))  _animation;
 
-constexpr void __set__animation(::UnityEngine::Animation value) ;
+constexpr void __set__animation(UnityEngine::Animation value) ;
 
-constexpr ::UnityEngine::Animation __get__animation() const;
+constexpr UnityEngine::Animation __get__animation() const;
 
 
 // Methods
@@ -86,6 +85,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::CountdownElementController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CountdownElementController, "", "CountdownElementController");
+NEED_NO_BOX(GlobalNamespace::CountdownElementController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CountdownElementController, "", "CountdownElementController");

@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
 }
@@ -18,7 +17,7 @@ namespace System::Net::Security {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8222))
 // CS Name: System.Net.Security.ServerCertSelectionCallback
-class CORDL_TYPE ServerCertSelectionCallback : public ::System::MulticastDelegate {
+class CORDL_TYPE ServerCertSelectionCallback : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr ServerCertSelectionCallback(ServerCertSelectionCallback const& ) noexc
 constexpr ServerCertSelectionCallback(ServerCertSelectionCallback&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ServerCertSelectionCallback(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit ServerCertSelectionCallback(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -61,12 +60,11 @@ explicit ServerCertSelectionCallback(::bs_hook::Il2CppWrapperType object, ::cord
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x276d4c4 size 0x14 virtual true final false
- ::System::Security::Cryptography::X509Certificates::X509Certificate Invoke(::StringW hostName) ;
+ System::Security::Cryptography::X509Certificates::X509Certificate Invoke(::StringW hostName) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Security
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Security::ServerCertSelectionCallback);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Security::ServerCertSelectionCallback, "System.Net.Security", "ServerCertSelectionCallback");
+NEED_NO_BOX(System::Net::Security::ServerCertSelectionCallback);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Security::ServerCertSelectionCallback, "System.Net.Security", "ServerCertSelectionCallback");

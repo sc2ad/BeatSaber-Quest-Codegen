@@ -4,21 +4,20 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace OVR::OpenVR {
-struct EVRSpatialAnchorError;
-}
 namespace System::Text {
 class StringBuilder;
 }
 namespace OVR::OpenVR {
-struct IVRSpatialAnchors;
+struct EVRSpatialAnchorError;
 }
 namespace OVR::OpenVR {
 struct ETrackingUniverseOrigin;
 }
 namespace OVR::OpenVR {
 struct SpatialAnchorPose_t;
+}
+namespace OVR::OpenVR {
+struct IVRSpatialAnchors;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -66,11 +65,11 @@ constexpr explicit CVRSpatialAnchors(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 
 // Fields
 
- ::OVR::OpenVR::IVRSpatialAnchors __declspec(property(get=__get_FnTable, put=__set_FnTable))  FnTable;
+ OVR::OpenVR::IVRSpatialAnchors __declspec(property(get=__get_FnTable, put=__set_FnTable))  FnTable;
 
-constexpr void __set_FnTable(::OVR::OpenVR::IVRSpatialAnchors value) ;
+constexpr void __set_FnTable(OVR::OpenVR::IVRSpatialAnchors value) ;
 
-constexpr ::OVR::OpenVR::IVRSpatialAnchors __get_FnTable() const;
+constexpr OVR::OpenVR::IVRSpatialAnchors __get_FnTable() const;
 
 
 // Methods
@@ -82,21 +81,20 @@ explicit CVRSpatialAnchors(::cordl_internals::intptr_t pInterface) ;
  void _ctor(::cordl_internals::intptr_t pInterface) ;
 
 /// @brief Method CreateSpatialAnchorFromDescriptor addr 0x26688b4 size 0x28 virtual false final false
- ::OVR::OpenVR::EVRSpatialAnchorError CreateSpatialAnchorFromDescriptor(::StringW pchDescriptor, ByRef<uint32_t> pHandleOut) ;
+ OVR::OpenVR::EVRSpatialAnchorError CreateSpatialAnchorFromDescriptor(::StringW pchDescriptor, ByRef<uint32_t> pHandleOut) ;
 
 /// @brief Method CreateSpatialAnchorFromPose addr 0x26688dc size 0x28 virtual false final false
- ::OVR::OpenVR::EVRSpatialAnchorError CreateSpatialAnchorFromPose(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, ByRef<::OVR::OpenVR::SpatialAnchorPose_t> pPose, ByRef<uint32_t> pHandleOut) ;
+ OVR::OpenVR::EVRSpatialAnchorError CreateSpatialAnchorFromPose(uint32_t unDeviceIndex, OVR::OpenVR::ETrackingUniverseOrigin eOrigin, ByRef<OVR::OpenVR::SpatialAnchorPose_t> pPose, ByRef<uint32_t> pHandleOut) ;
 
 /// @brief Method GetSpatialAnchorPose addr 0x2668904 size 0x24 virtual false final false
- ::OVR::OpenVR::EVRSpatialAnchorError GetSpatialAnchorPose(uint32_t unHandle, ::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, ByRef<::OVR::OpenVR::SpatialAnchorPose_t> pPoseOut) ;
+ OVR::OpenVR::EVRSpatialAnchorError GetSpatialAnchorPose(uint32_t unHandle, OVR::OpenVR::ETrackingUniverseOrigin eOrigin, ByRef<OVR::OpenVR::SpatialAnchorPose_t> pPoseOut) ;
 
 /// @brief Method GetSpatialAnchorDescriptor addr 0x2668928 size 0x28 virtual false final false
- ::OVR::OpenVR::EVRSpatialAnchorError GetSpatialAnchorDescriptor(uint32_t unHandle, ::System::Text::StringBuilder pchDescriptorOut, ByRef<uint32_t> punDescriptorBufferLenInOut) ;
+ OVR::OpenVR::EVRSpatialAnchorError GetSpatialAnchorDescriptor(uint32_t unHandle, System::Text::StringBuilder pchDescriptorOut, ByRef<uint32_t> punDescriptorBufferLenInOut) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-NEED_NO_BOX(::OVR::OpenVR::CVRSpatialAnchors);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::CVRSpatialAnchors, "OVR.OpenVR", "CVRSpatialAnchors");
+NEED_NO_BOX(OVR::OpenVR::CVRSpatialAnchors);
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRSpatialAnchors, "OVR.OpenVR", "CVRSpatialAnchors");

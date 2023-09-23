@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security::AccessControl {
 struct AceType;
@@ -83,62 +82,61 @@ constexpr void __set_value__(uint8_t value) ;
 constexpr uint8_t __get_value__() const;
 
 /// @brief Field AccessAllowed offset 0
-static ::System::Security::AccessControl::AceType const AccessAllowed;
+static System::Security::AccessControl::AceType const AccessAllowed;
 
 /// @brief Field AccessDenied offset 0
-static ::System::Security::AccessControl::AceType const AccessDenied;
+static System::Security::AccessControl::AceType const AccessDenied;
 
 /// @brief Field SystemAudit offset 0
-static ::System::Security::AccessControl::AceType const SystemAudit;
+static System::Security::AccessControl::AceType const SystemAudit;
 
 /// @brief Field SystemAlarm offset 0
-static ::System::Security::AccessControl::AceType const SystemAlarm;
+static System::Security::AccessControl::AceType const SystemAlarm;
 
 /// @brief Field AccessAllowedCompound offset 0
-static ::System::Security::AccessControl::AceType const AccessAllowedCompound;
+static System::Security::AccessControl::AceType const AccessAllowedCompound;
 
 /// @brief Field AccessAllowedObject offset 0
-static ::System::Security::AccessControl::AceType const AccessAllowedObject;
+static System::Security::AccessControl::AceType const AccessAllowedObject;
 
 /// @brief Field AccessDeniedObject offset 0
-static ::System::Security::AccessControl::AceType const AccessDeniedObject;
+static System::Security::AccessControl::AceType const AccessDeniedObject;
 
 /// @brief Field SystemAuditObject offset 0
-static ::System::Security::AccessControl::AceType const SystemAuditObject;
+static System::Security::AccessControl::AceType const SystemAuditObject;
 
 /// @brief Field SystemAlarmObject offset 0
-static ::System::Security::AccessControl::AceType const SystemAlarmObject;
+static System::Security::AccessControl::AceType const SystemAlarmObject;
 
 /// @brief Field AccessAllowedCallback offset 0
-static ::System::Security::AccessControl::AceType const AccessAllowedCallback;
+static System::Security::AccessControl::AceType const AccessAllowedCallback;
 
 /// @brief Field AccessDeniedCallback offset 0
-static ::System::Security::AccessControl::AceType const AccessDeniedCallback;
+static System::Security::AccessControl::AceType const AccessDeniedCallback;
 
 /// @brief Field AccessAllowedCallbackObject offset 0
-static ::System::Security::AccessControl::AceType const AccessAllowedCallbackObject;
+static System::Security::AccessControl::AceType const AccessAllowedCallbackObject;
 
 /// @brief Field AccessDeniedCallbackObject offset 0
-static ::System::Security::AccessControl::AceType const AccessDeniedCallbackObject;
+static System::Security::AccessControl::AceType const AccessDeniedCallbackObject;
 
 /// @brief Field SystemAuditCallback offset 0
-static ::System::Security::AccessControl::AceType const SystemAuditCallback;
+static System::Security::AccessControl::AceType const SystemAuditCallback;
 
 /// @brief Field SystemAlarmCallback offset 0
-static ::System::Security::AccessControl::AceType const SystemAlarmCallback;
+static System::Security::AccessControl::AceType const SystemAlarmCallback;
 
 /// @brief Field SystemAuditCallbackObject offset 0
-static ::System::Security::AccessControl::AceType const SystemAuditCallbackObject;
+static System::Security::AccessControl::AceType const SystemAuditCallbackObject;
 
 /// @brief Field SystemAlarmCallbackObject offset 0
-static ::System::Security::AccessControl::AceType const SystemAlarmCallbackObject;
+static System::Security::AccessControl::AceType const SystemAlarmCallbackObject;
 
 /// @brief Field MaxDefinedAceType offset 0
-static ::System::Security::AccessControl::AceType const MaxDefinedAceType;
+static System::Security::AccessControl::AceType const MaxDefinedAceType;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Security::AccessControl
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::AccessControl::AceType, "System.Security.AccessControl", "AceType");
+DEFINE_IL2CPP_ARG_TYPE(System::Security::AccessControl::AceType, "System.Security.AccessControl", "AceType");

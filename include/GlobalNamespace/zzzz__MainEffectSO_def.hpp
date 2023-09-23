@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 class RenderTexture;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15314))
 // CS Name: MainEffectSO
-class CORDL_TYPE MainEffectSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE MainEffectSO : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr MainEffectSO(MainEffectSO const& ) noexcept = default;
 constexpr MainEffectSO(MainEffectSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MainEffectSO(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit MainEffectSO(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -61,7 +60,7 @@ constexpr explicit MainEffectSO(void* ptr) noexcept : ::GlobalNamespace::Persist
  void PreRender() ;
 
 /// @brief Method Render addr 0x26774ac size 0x4 virtual true final false
- void Render(::UnityEngine::RenderTexture src, ::UnityEngine::RenderTexture dest, float_t fade) ;
+ void Render(UnityEngine::RenderTexture src, UnityEngine::RenderTexture dest, float_t fade) ;
 
 /// @brief Method PostRender addr 0x26774b0 size 0x4 virtual true final false
  void PostRender(float_t fade) ;
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MainEffectSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MainEffectSO, "", "MainEffectSO");
+NEED_NO_BOX(GlobalNamespace::MainEffectSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainEffectSO, "", "MainEffectSO");

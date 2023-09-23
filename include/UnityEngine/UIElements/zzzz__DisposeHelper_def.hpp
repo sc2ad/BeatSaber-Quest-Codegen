@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System {
 class IDisposable;
 }
@@ -52,12 +51,11 @@ constexpr explicit DisposeHelper(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 // Methods
 
 /// @brief Method NotifyDisposedUsed addr 0x2c80e3c size 0xc8 virtual false final false
-static void NotifyDisposedUsed(::System::IDisposable disposable) ;
+static void NotifyDisposedUsed(System::IDisposable disposable) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::DisposeHelper);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::DisposeHelper, "UnityEngine.UIElements", "DisposeHelper");
+NEED_NO_BOX(UnityEngine::UIElements::DisposeHelper);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::DisposeHelper, "UnityEngine.UIElements", "DisposeHelper");

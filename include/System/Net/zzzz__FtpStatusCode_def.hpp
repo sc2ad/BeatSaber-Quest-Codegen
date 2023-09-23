@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net {
 struct FtpStatusCode;
@@ -102,119 +101,118 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Undefined offset 0
-static ::System::Net::FtpStatusCode const Undefined;
+static System::Net::FtpStatusCode const Undefined;
 
 /// @brief Field RestartMarker offset 0
-static ::System::Net::FtpStatusCode const RestartMarker;
+static System::Net::FtpStatusCode const RestartMarker;
 
 /// @brief Field ServiceTemporarilyNotAvailable offset 0
-static ::System::Net::FtpStatusCode const ServiceTemporarilyNotAvailable;
+static System::Net::FtpStatusCode const ServiceTemporarilyNotAvailable;
 
 /// @brief Field DataAlreadyOpen offset 0
-static ::System::Net::FtpStatusCode const DataAlreadyOpen;
+static System::Net::FtpStatusCode const DataAlreadyOpen;
 
 /// @brief Field OpeningData offset 0
-static ::System::Net::FtpStatusCode const OpeningData;
+static System::Net::FtpStatusCode const OpeningData;
 
 /// @brief Field CommandOK offset 0
-static ::System::Net::FtpStatusCode const CommandOK;
+static System::Net::FtpStatusCode const CommandOK;
 
 /// @brief Field CommandExtraneous offset 0
-static ::System::Net::FtpStatusCode const CommandExtraneous;
+static System::Net::FtpStatusCode const CommandExtraneous;
 
 /// @brief Field DirectoryStatus offset 0
-static ::System::Net::FtpStatusCode const DirectoryStatus;
+static System::Net::FtpStatusCode const DirectoryStatus;
 
 /// @brief Field FileStatus offset 0
-static ::System::Net::FtpStatusCode const FileStatus;
+static System::Net::FtpStatusCode const FileStatus;
 
 /// @brief Field SystemType offset 0
-static ::System::Net::FtpStatusCode const SystemType;
+static System::Net::FtpStatusCode const SystemType;
 
 /// @brief Field SendUserCommand offset 0
-static ::System::Net::FtpStatusCode const SendUserCommand;
+static System::Net::FtpStatusCode const SendUserCommand;
 
 /// @brief Field ClosingControl offset 0
-static ::System::Net::FtpStatusCode const ClosingControl;
+static System::Net::FtpStatusCode const ClosingControl;
 
 /// @brief Field ClosingData offset 0
-static ::System::Net::FtpStatusCode const ClosingData;
+static System::Net::FtpStatusCode const ClosingData;
 
 /// @brief Field EnteringPassive offset 0
-static ::System::Net::FtpStatusCode const EnteringPassive;
+static System::Net::FtpStatusCode const EnteringPassive;
 
 /// @brief Field LoggedInProceed offset 0
-static ::System::Net::FtpStatusCode const LoggedInProceed;
+static System::Net::FtpStatusCode const LoggedInProceed;
 
 /// @brief Field ServerWantsSecureSession offset 0
-static ::System::Net::FtpStatusCode const ServerWantsSecureSession;
+static System::Net::FtpStatusCode const ServerWantsSecureSession;
 
 /// @brief Field FileActionOK offset 0
-static ::System::Net::FtpStatusCode const FileActionOK;
+static System::Net::FtpStatusCode const FileActionOK;
 
 /// @brief Field PathnameCreated offset 0
-static ::System::Net::FtpStatusCode const PathnameCreated;
+static System::Net::FtpStatusCode const PathnameCreated;
 
 /// @brief Field SendPasswordCommand offset 0
-static ::System::Net::FtpStatusCode const SendPasswordCommand;
+static System::Net::FtpStatusCode const SendPasswordCommand;
 
 /// @brief Field NeedLoginAccount offset 0
-static ::System::Net::FtpStatusCode const NeedLoginAccount;
+static System::Net::FtpStatusCode const NeedLoginAccount;
 
 /// @brief Field FileCommandPending offset 0
-static ::System::Net::FtpStatusCode const FileCommandPending;
+static System::Net::FtpStatusCode const FileCommandPending;
 
 /// @brief Field ServiceNotAvailable offset 0
-static ::System::Net::FtpStatusCode const ServiceNotAvailable;
+static System::Net::FtpStatusCode const ServiceNotAvailable;
 
 /// @brief Field CantOpenData offset 0
-static ::System::Net::FtpStatusCode const CantOpenData;
+static System::Net::FtpStatusCode const CantOpenData;
 
 /// @brief Field ConnectionClosed offset 0
-static ::System::Net::FtpStatusCode const ConnectionClosed;
+static System::Net::FtpStatusCode const ConnectionClosed;
 
 /// @brief Field ActionNotTakenFileUnavailableOrBusy offset 0
-static ::System::Net::FtpStatusCode const ActionNotTakenFileUnavailableOrBusy;
+static System::Net::FtpStatusCode const ActionNotTakenFileUnavailableOrBusy;
 
 /// @brief Field ActionAbortedLocalProcessingError offset 0
-static ::System::Net::FtpStatusCode const ActionAbortedLocalProcessingError;
+static System::Net::FtpStatusCode const ActionAbortedLocalProcessingError;
 
 /// @brief Field ActionNotTakenInsufficientSpace offset 0
-static ::System::Net::FtpStatusCode const ActionNotTakenInsufficientSpace;
+static System::Net::FtpStatusCode const ActionNotTakenInsufficientSpace;
 
 /// @brief Field CommandSyntaxError offset 0
-static ::System::Net::FtpStatusCode const CommandSyntaxError;
+static System::Net::FtpStatusCode const CommandSyntaxError;
 
 /// @brief Field ArgumentSyntaxError offset 0
-static ::System::Net::FtpStatusCode const ArgumentSyntaxError;
+static System::Net::FtpStatusCode const ArgumentSyntaxError;
 
 /// @brief Field CommandNotImplemented offset 0
-static ::System::Net::FtpStatusCode const CommandNotImplemented;
+static System::Net::FtpStatusCode const CommandNotImplemented;
 
 /// @brief Field BadCommandSequence offset 0
-static ::System::Net::FtpStatusCode const BadCommandSequence;
+static System::Net::FtpStatusCode const BadCommandSequence;
 
 /// @brief Field NotLoggedIn offset 0
-static ::System::Net::FtpStatusCode const NotLoggedIn;
+static System::Net::FtpStatusCode const NotLoggedIn;
 
 /// @brief Field AccountNeeded offset 0
-static ::System::Net::FtpStatusCode const AccountNeeded;
+static System::Net::FtpStatusCode const AccountNeeded;
 
 /// @brief Field ActionNotTakenFileUnavailable offset 0
-static ::System::Net::FtpStatusCode const ActionNotTakenFileUnavailable;
+static System::Net::FtpStatusCode const ActionNotTakenFileUnavailable;
 
 /// @brief Field ActionAbortedUnknownPageType offset 0
-static ::System::Net::FtpStatusCode const ActionAbortedUnknownPageType;
+static System::Net::FtpStatusCode const ActionAbortedUnknownPageType;
 
 /// @brief Field FileActionAborted offset 0
-static ::System::Net::FtpStatusCode const FileActionAborted;
+static System::Net::FtpStatusCode const FileActionAborted;
 
 /// @brief Field ActionNotTakenFilenameNotAllowed offset 0
-static ::System::Net::FtpStatusCode const ActionNotTakenFilenameNotAllowed;
+static System::Net::FtpStatusCode const ActionNotTakenFilenameNotAllowed;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::FtpStatusCode, "System.Net", "FtpStatusCode");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpStatusCode, "System.Net", "FtpStatusCode");

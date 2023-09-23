@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
-namespace {
 namespace UnityEngine::InputSystem::Android::LowLevel {
 struct AndroidSensorType;
 }
@@ -19,8 +18,8 @@ namespace UnityEngine::InputSystem::Android::LowLevel {
 struct CORDL_TYPE AndroidSensorCapabilities : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "sensorType", ty: "::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType", modifiers: "", def_value: None }]
-constexpr AndroidSensorCapabilities(::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType sensorType) noexcept;
+// Ctor Parameters [CppParam { name: "sensorType", ty: "UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType", modifiers: "", def_value: None }]
+constexpr AndroidSensorCapabilities(UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType sensorType) noexcept;
 
 
                     constexpr AndroidSensorCapabilities(AndroidSensorCapabilities const&) = default;
@@ -53,11 +52,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType __declspec(property(get=__get_sensorType, put=__set_sensorType))  sensorType;
+ UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType __declspec(property(get=__get_sensorType, put=__set_sensorType))  sensorType;
 
-constexpr void __set_sensorType(::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType value) ;
+constexpr void __set_sensorType(UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType value) ;
 
-constexpr ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType __get_sensorType() const;
+constexpr UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType __get_sensorType() const;
 
 
 // Methods
@@ -66,7 +65,7 @@ constexpr ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType __get
  ::StringW ToJson() ;
 
 /// @brief Method FromJson addr 0x2954304 size 0xa0 virtual false final false
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorCapabilities FromJson(::StringW json) ;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidSensorCapabilities FromJson(::StringW json) ;
 
 /// @brief Method ToString addr 0x29543a4 size 0x98 virtual true final false
  ::StringW ToString() ;
@@ -75,5 +74,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Android::LowLevel
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorCapabilities, "UnityEngine.InputSystem.Android.LowLevel", "AndroidSensorCapabilities");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Android::LowLevel::AndroidSensorCapabilities, "UnityEngine.InputSystem.Android.LowLevel", "AndroidSensorCapabilities");

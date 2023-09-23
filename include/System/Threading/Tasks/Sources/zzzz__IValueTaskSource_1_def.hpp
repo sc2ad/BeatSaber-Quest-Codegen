@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Threading::Tasks::Sources {
 struct ValueTaskSourceStatus;
 }
@@ -39,10 +38,10 @@ constexpr explicit IValueTaskSource_1(void* ptr) noexcept : ::cordl_internals::I
 // Methods
 
 /// @brief Method GetStatus addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Threading::Tasks::Sources::ValueTaskSourceStatus GetStatus(int16_t token) ;
+ System::Threading::Tasks::Sources::ValueTaskSourceStatus GetStatus(int16_t token) ;
 
 /// @brief Method OnCompleted addr 0x0 size 0xffffffffffffffff virtual true final false
- void OnCompleted(::System::Action_1<::bs_hook::Il2CppWrapperType> continuation, ::bs_hook::Il2CppWrapperType state, int16_t token, ::System::Threading::Tasks::Sources::ValueTaskSourceOnCompletedFlags flags) ;
+ void OnCompleted(System::Action_1<::bs_hook::Il2CppWrapperType> continuation, ::bs_hook::Il2CppWrapperType state, int16_t token, System::Threading::Tasks::Sources::ValueTaskSourceOnCompletedFlags flags) ;
 
 /// @brief Method GetResult addr 0x0 size 0xffffffffffffffff virtual true final false
  TResult GetResult(int16_t token) ;
@@ -51,5 +50,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Threading::Tasks::Sources
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Threading::Tasks::Sources::IValueTaskSource_1, "System.Threading.Tasks.Sources", "IValueTaskSource`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Threading::Tasks::Sources::IValueTaskSource_1, "System.Threading.Tasks.Sources", "IValueTaskSource`1");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class Stack_1;
@@ -55,20 +54,20 @@ constexpr explicit EventCallbackListPool(void* ptr) noexcept : ::bs_hook::Il2Cpp
 
 // Fields
 
- ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::EventCallbackList> __declspec(property(get=__get_m_Stack, put=__set_m_Stack))  m_Stack;
+ System::Collections::Generic::Stack_1<UnityEngine::UIElements::EventCallbackList> __declspec(property(get=__get_m_Stack, put=__set_m_Stack))  m_Stack;
 
-constexpr void __set_m_Stack(::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::EventCallbackList> value) ;
+constexpr void __set_m_Stack(System::Collections::Generic::Stack_1<UnityEngine::UIElements::EventCallbackList> value) ;
 
-constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::EventCallbackList> __get_m_Stack() const;
+constexpr System::Collections::Generic::Stack_1<UnityEngine::UIElements::EventCallbackList> __get_m_Stack() const;
 
 
 // Methods
 
 /// @brief Method Get addr 0x2cd3a0c size 0xc4 virtual false final false
- ::UnityEngine::UIElements::EventCallbackList Get(::UnityEngine::UIElements::EventCallbackList initializer) ;
+ UnityEngine::UIElements::EventCallbackList Get(UnityEngine::UIElements::EventCallbackList initializer) ;
 
 /// @brief Method Release addr 0x2cd3d70 size 0x64 virtual false final false
- void Release(::UnityEngine::UIElements::EventCallbackList element) ;
+ void Release(UnityEngine::UIElements::EventCallbackList element) ;
 
 // Ctor Parameters []
 explicit EventCallbackListPool() ;
@@ -80,6 +79,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::EventCallbackListPool);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::EventCallbackListPool, "UnityEngine.UIElements", "EventCallbackListPool");
+NEED_NO_BOX(UnityEngine::UIElements::EventCallbackListPool);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::EventCallbackListPool, "UnityEngine.UIElements", "EventCallbackListPool");

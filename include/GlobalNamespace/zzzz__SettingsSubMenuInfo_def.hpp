@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace HMUI {
 class ViewController;
 }
@@ -52,11 +51,11 @@ constexpr explicit SettingsSubMenuInfo(void* ptr) noexcept : ::bs_hook::Il2CppWr
 
 // Fields
 
- ::HMUI::ViewController __declspec(property(get=__get__viewController, put=__set__viewController))  _viewController;
+ HMUI::ViewController __declspec(property(get=__get__viewController, put=__set__viewController))  _viewController;
 
-constexpr void __set__viewController(::HMUI::ViewController value) ;
+constexpr void __set__viewController(HMUI::ViewController value) ;
 
-constexpr ::HMUI::ViewController __get__viewController() const;
+constexpr HMUI::ViewController __get__viewController() const;
 
  ::StringW __declspec(property(get=__get__menuName, put=__set__menuName))  _menuName;
 
@@ -67,7 +66,7 @@ constexpr ::StringW __get__menuName() const;
 
 // Properties
 
- ::HMUI::ViewController __declspec(property(get=get_viewController))  viewController;
+ HMUI::ViewController __declspec(property(get=get_viewController))  viewController;
 
  ::StringW __declspec(property(get=get_localizedMenuName))  localizedMenuName;
 
@@ -75,7 +74,7 @@ constexpr ::StringW __get__menuName() const;
 // Methods
 
 /// @brief Method get_viewController addr 0x21727e0 size 0x8 virtual false final false
- ::HMUI::ViewController get_viewController() ;
+ HMUI::ViewController get_viewController() ;
 
 /// @brief Method get_localizedMenuName addr 0x21727e8 size 0xc virtual false final false
  ::StringW get_localizedMenuName() ;
@@ -90,6 +89,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SettingsSubMenuInfo);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SettingsSubMenuInfo, "", "SettingsSubMenuInfo");
+NEED_NO_BOX(GlobalNamespace::SettingsSubMenuInfo);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SettingsSubMenuInfo, "", "SettingsSubMenuInfo");

@@ -1,13 +1,12 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
-namespace {
+namespace UnityEngine::UIElements::Experimental {
+struct StyleValues;
+}
 namespace UnityEngine::UIElements::Experimental {
 template<typename T>
 class ValueAnimation_1;
-}
-namespace UnityEngine::UIElements::Experimental {
-struct StyleValues;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::Experimental {
@@ -32,12 +31,11 @@ constexpr explicit ITransitionAnimations(void* ptr) noexcept : ::cordl_internals
 // Methods
 
 /// @brief Method Start addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::UIElements::Experimental::ValueAnimation_1<::UnityEngine::UIElements::Experimental::StyleValues> Start(::UnityEngine::UIElements::Experimental::StyleValues to, int32_t durationMs) ;
+ UnityEngine::UIElements::Experimental::ValueAnimation_1<UnityEngine::UIElements::Experimental::StyleValues> Start(UnityEngine::UIElements::Experimental::StyleValues to, int32_t durationMs) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::Experimental
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::Experimental::ITransitionAnimations);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Experimental::ITransitionAnimations, "UnityEngine.UIElements.Experimental", "ITransitionAnimations");
+NEED_NO_BOX(UnityEngine::UIElements::Experimental::ITransitionAnimations);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::Experimental::ITransitionAnimations, "UnityEngine.UIElements.Experimental", "ITransitionAnimations");

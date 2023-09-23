@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeHandleZeroOrMinusOneIsInvalid_def.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Microsoft::Win32::SafeHandles {
 class SafeWaitHandle;
@@ -13,7 +12,7 @@ namespace Microsoft::Win32::SafeHandles {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2301))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2300))
 // CS Name: Microsoft.Win32.SafeHandles.SafeWaitHandle
-class CORDL_TYPE SafeWaitHandle : public ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid {
+class CORDL_TYPE SafeWaitHandle : public Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr SafeWaitHandle(SafeWaitHandle const& ) noexcept = default;
 constexpr SafeWaitHandle(SafeWaitHandle&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SafeWaitHandle(void* ptr) noexcept : ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid(ptr) {
+constexpr explicit SafeWaitHandle(void* ptr) noexcept : Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid(ptr) {
 }
 
 
@@ -62,6 +61,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Microsoft::Win32::SafeHandles
-} // end anonymous namespace
-NEED_NO_BOX(::Microsoft::Win32::SafeHandles::SafeWaitHandle);
-DEFINE_IL2CPP_ARG_TYPE(::Microsoft::Win32::SafeHandles::SafeWaitHandle, "Microsoft.Win32.SafeHandles", "SafeWaitHandle");
+NEED_NO_BOX(Microsoft::Win32::SafeHandles::SafeWaitHandle);
+DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::SafeHandles::SafeWaitHandle, "Microsoft.Win32.SafeHandles", "SafeWaitHandle");

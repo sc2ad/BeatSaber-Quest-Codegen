@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform {
 struct CloudStorageUpdateStatus;
 }
@@ -65,11 +64,11 @@ constexpr void __set_Key(::StringW value) ;
 
 constexpr ::StringW __get_Key() const;
 
- ::Oculus::Platform::CloudStorageUpdateStatus __declspec(property(get=__get_Status, put=__set_Status))  Status;
+ Oculus::Platform::CloudStorageUpdateStatus __declspec(property(get=__get_Status, put=__set_Status))  Status;
 
-constexpr void __set_Status(::Oculus::Platform::CloudStorageUpdateStatus value) ;
+constexpr void __set_Status(Oculus::Platform::CloudStorageUpdateStatus value) ;
 
-constexpr ::Oculus::Platform::CloudStorageUpdateStatus __get_Status() const;
+constexpr Oculus::Platform::CloudStorageUpdateStatus __get_Status() const;
 
  ::StringW __declspec(property(get=__get_VersionHandle, put=__set_VersionHandle))  VersionHandle;
 
@@ -90,6 +89,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::CloudStorageUpdateResponse);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::CloudStorageUpdateResponse, "Oculus.Platform.Models", "CloudStorageUpdateResponse");
+NEED_NO_BOX(Oculus::Platform::Models::CloudStorageUpdateResponse);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::CloudStorageUpdateResponse, "Oculus.Platform.Models", "CloudStorageUpdateResponse");

@@ -4,13 +4,12 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-class Uri;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
+}
+namespace System {
+class Uri;
 }
 // Forward declare root types
 namespace System::Net {
@@ -59,15 +58,14 @@ constexpr explicit AutoWebProxyScriptEngine(void* ptr) noexcept : ::bs_hook::Il2
 // Methods
 
 /// @brief Method GetProxies addr 0x2826bb8 size 0xc virtual false final false
- bool GetProxies(::System::Uri destination, ByRef<::System::Collections::Generic::IList_1<::StringW>> proxyList) ;
+ bool GetProxies(System::Uri destination, ByRef<System::Collections::Generic::IList_1<::StringW>> proxyList) ;
 
 /// @brief Method GetProxies addr 0x2826bc4 size 0xc virtual false final false
- bool GetProxies(::System::Uri destination, ByRef<::System::Collections::Generic::IList_1<::StringW>> proxyList, ByRef<int32_t> syncStatus) ;
+ bool GetProxies(System::Uri destination, ByRef<System::Collections::Generic::IList_1<::StringW>> proxyList, ByRef<int32_t> syncStatus) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::AutoWebProxyScriptEngine);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::AutoWebProxyScriptEngine, "System.Net", "AutoWebProxyScriptEngine");
+NEED_NO_BOX(System::Net::AutoWebProxyScriptEngine);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::AutoWebProxyScriptEngine, "System.Net", "AutoWebProxyScriptEngine");

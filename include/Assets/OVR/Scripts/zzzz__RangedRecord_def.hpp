@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Assets::OVR::Scripts {
 class RangedRecord;
@@ -15,7 +14,7 @@ namespace Assets::OVR::Scripts {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9513))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9514))
 // CS Name: Assets.OVR.Scripts.RangedRecord
-class CORDL_TYPE RangedRecord : public ::Assets::OVR::Scripts::Record {
+class CORDL_TYPE RangedRecord : public Assets::OVR::Scripts::Record {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr RangedRecord(RangedRecord const& ) noexcept = default;
 constexpr RangedRecord(RangedRecord&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RangedRecord(void* ptr) noexcept : ::Assets::OVR::Scripts::Record(ptr) {
+constexpr explicit RangedRecord(void* ptr) noexcept : Assets::OVR::Scripts::Record(ptr) {
 }
 
 
@@ -82,6 +81,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Assets::OVR::Scripts
-} // end anonymous namespace
-NEED_NO_BOX(::Assets::OVR::Scripts::RangedRecord);
-DEFINE_IL2CPP_ARG_TYPE(::Assets::OVR::Scripts::RangedRecord, "Assets.OVR.Scripts", "RangedRecord");
+NEED_NO_BOX(Assets::OVR::Scripts::RangedRecord);
+DEFINE_IL2CPP_ARG_TYPE(Assets::OVR::Scripts::RangedRecord, "Assets.OVR.Scripts", "RangedRecord");

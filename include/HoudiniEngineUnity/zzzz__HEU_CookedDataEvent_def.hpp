@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_CookedEventData_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_1_def.hpp"
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 class HEU_CookedDataEvent;
@@ -10,10 +9,10 @@ class HEU_CookedDataEvent;
 // Type: HoudiniEngineUnity::HEU_CookedDataEvent
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9538)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 5063 }), TypeDefinitionIndex(TypeDefinitionIndex(10401))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 5063 }), TypeDefinitionIndex(TypeDefinitionIndex(9538)), TypeDefinitionIndex(TypeDefinitionIndex(10401))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9544))
 // CS Name: HoudiniEngineUnity.HEU_CookedDataEvent
-class CORDL_TYPE HEU_CookedDataEvent : public ::UnityEngine::Events::UnityEvent_1<::HoudiniEngineUnity::HEU_CookedEventData> {
+class CORDL_TYPE HEU_CookedDataEvent : public UnityEngine::Events::UnityEvent_1<HoudiniEngineUnity::HEU_CookedEventData> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr HEU_CookedDataEvent(HEU_CookedDataEvent const& ) noexcept = default;
 constexpr HEU_CookedDataEvent(HEU_CookedDataEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HEU_CookedDataEvent(void* ptr) noexcept : ::UnityEngine::Events::UnityEvent_1<::HoudiniEngineUnity::HEU_CookedEventData>(ptr) {
+constexpr explicit HEU_CookedDataEvent(void* ptr) noexcept : UnityEngine::Events::UnityEvent_1<HoudiniEngineUnity::HEU_CookedEventData>(ptr) {
 }
 
 
@@ -59,6 +58,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_CookedDataEvent);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_CookedDataEvent, "HoudiniEngineUnity", "HEU_CookedDataEvent");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_CookedDataEvent);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_CookedDataEvent, "HoudiniEngineUnity", "HEU_CookedDataEvent");

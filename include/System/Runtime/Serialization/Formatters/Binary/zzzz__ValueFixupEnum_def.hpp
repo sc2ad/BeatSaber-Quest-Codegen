@@ -2,7 +2,6 @@
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
 struct ValueFixupEnum;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Empty offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum const Empty;
+static System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum const Empty;
 
 /// @brief Field Array offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum const Array;
+static System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum const Array;
 
 /// @brief Field Header offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum const Header;
+static System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum const Header;
 
 /// @brief Field Member offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum const Member;
+static System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum const Member;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization::Formatters::Binary
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum, "System.Runtime.Serialization.Formatters.Binary", "ValueFixupEnum");
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum, "System.Runtime.Serialization.Formatters.Binary", "ValueFixupEnum");

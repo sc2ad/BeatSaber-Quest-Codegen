@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct AudioType;
@@ -78,47 +77,46 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field UNKNOWN offset 0
-static ::UnityEngine::AudioType const UNKNOWN;
+static UnityEngine::AudioType const UNKNOWN;
 
 /// @brief Field ACC offset 0
-static ::UnityEngine::AudioType const ACC;
+static UnityEngine::AudioType const ACC;
 
 /// @brief Field AIFF offset 0
-static ::UnityEngine::AudioType const AIFF;
+static UnityEngine::AudioType const AIFF;
 
 /// @brief Field IT offset 0
-static ::UnityEngine::AudioType const IT;
+static UnityEngine::AudioType const IT;
 
 /// @brief Field MOD offset 0
-static ::UnityEngine::AudioType const MOD;
+static UnityEngine::AudioType const MOD;
 
 /// @brief Field MPEG offset 0
-static ::UnityEngine::AudioType const MPEG;
+static UnityEngine::AudioType const MPEG;
 
 /// @brief Field OGGVORBIS offset 0
-static ::UnityEngine::AudioType const OGGVORBIS;
+static UnityEngine::AudioType const OGGVORBIS;
 
 /// @brief Field S3M offset 0
-static ::UnityEngine::AudioType const S3M;
+static UnityEngine::AudioType const S3M;
 
 /// @brief Field WAV offset 0
-static ::UnityEngine::AudioType const WAV;
+static UnityEngine::AudioType const WAV;
 
 /// @brief Field XM offset 0
-static ::UnityEngine::AudioType const XM;
+static UnityEngine::AudioType const XM;
 
 /// @brief Field XMA offset 0
-static ::UnityEngine::AudioType const XMA;
+static UnityEngine::AudioType const XMA;
 
 /// @brief Field VAG offset 0
-static ::UnityEngine::AudioType const VAG;
+static UnityEngine::AudioType const VAG;
 
 /// @brief Field AUDIOQUEUE offset 0
-static ::UnityEngine::AudioType const AUDIOQUEUE;
+static UnityEngine::AudioType const AUDIOQUEUE;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AudioType, "UnityEngine", "AudioType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioType, "UnityEngine", "AudioType");

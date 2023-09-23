@@ -4,9 +4,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace HoudiniEngineUnity {
-class HEU_MeshData;
+class HEU_VertexEntry;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -17,11 +20,7 @@ template<typename T>
 class IComparable_1;
 }
 namespace HoudiniEngineUnity {
-class HEU_VertexEntry;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+class HEU_MeshData;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -36,8 +35,8 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE HEU_GeoGroup : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IComparable_1<::HoudiniEngineUnity::HEU_GeoGroup>
-constexpr operator  ::System::IComparable_1<::HoudiniEngineUnity::HEU_GeoGroup>() const noexcept;
+/// @brief Convert operator to System::IComparable_1<HoudiniEngineUnity::HEU_GeoGroup>
+constexpr operator  System::IComparable_1<HoudiniEngineUnity::HEU_GeoGroup>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -78,23 +77,23 @@ constexpr void __set__groupName(::StringW value) ;
 
 constexpr ::StringW __get__groupName() const;
 
- ::System::Collections::Generic::Dictionary_2<int32_t,::HoudiniEngineUnity::HEU_MeshData> __declspec(property(get=__get__subMeshesMap, put=__set__subMeshesMap))  _subMeshesMap;
+ System::Collections::Generic::Dictionary_2<int32_t,HoudiniEngineUnity::HEU_MeshData> __declspec(property(get=__get__subMeshesMap, put=__set__subMeshesMap))  _subMeshesMap;
 
-constexpr void __set__subMeshesMap(::System::Collections::Generic::Dictionary_2<int32_t,::HoudiniEngineUnity::HEU_MeshData> value) ;
+constexpr void __set__subMeshesMap(System::Collections::Generic::Dictionary_2<int32_t,HoudiniEngineUnity::HEU_MeshData> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<int32_t,::HoudiniEngineUnity::HEU_MeshData> __get__subMeshesMap() const;
+constexpr System::Collections::Generic::Dictionary_2<int32_t,HoudiniEngineUnity::HEU_MeshData> __get__subMeshesMap() const;
 
- ::ArrayW<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VertexEntry>> __declspec(property(get=__get__sharedNormalIndices, put=__set__sharedNormalIndices))  _sharedNormalIndices;
+ ::ArrayW<System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VertexEntry>> __declspec(property(get=__get__sharedNormalIndices, put=__set__sharedNormalIndices))  _sharedNormalIndices;
 
-constexpr void __set__sharedNormalIndices(::ArrayW<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VertexEntry>> value) ;
+constexpr void __set__sharedNormalIndices(::ArrayW<System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VertexEntry>> value) ;
 
-constexpr ::ArrayW<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VertexEntry>> __get__sharedNormalIndices() const;
+constexpr ::ArrayW<System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VertexEntry>> __get__sharedNormalIndices() const;
 
 
 // Methods
 
 /// @brief Method CompareTo addr 0x2053dc0 size 0x30 virtual true final true
- int32_t CompareTo(::HoudiniEngineUnity::HEU_GeoGroup other) ;
+ int32_t CompareTo(HoudiniEngineUnity::HEU_GeoGroup other) ;
 
 /// @brief Method SetupNormalIndices addr 0x2051914 size 0x120 virtual false final false
  void SetupNormalIndices(int32_t indicesCount) ;
@@ -109,6 +108,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_GeoGroup);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_GeoGroup, "HoudiniEngineUnity", "HEU_GeoGroup");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_GeoGroup);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_GeoGroup, "HoudiniEngineUnity", "HEU_GeoGroup");

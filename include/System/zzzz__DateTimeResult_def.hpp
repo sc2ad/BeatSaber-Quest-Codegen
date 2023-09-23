@@ -5,25 +5,24 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
+namespace System::Globalization {
+class Calendar;
+}
 namespace System {
 struct DateTime;
+}
+namespace System {
+struct ParseFailureKind;
+}
+namespace System {
+template<typename T>
+struct ReadOnlySpan_1;
 }
 namespace System {
 struct ParseFlags;
 }
 namespace System {
 struct TimeSpan;
-}
-namespace System {
-template<typename T>
-struct ReadOnlySpan_1;
-}
-namespace System::Globalization {
-class Calendar;
-}
-namespace System {
-struct ParseFailureKind;
 }
 // Forward declare root types
 namespace System {
@@ -38,8 +37,8 @@ namespace System {
 struct CORDL_TYPE DateTimeResult : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "Year", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Month", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Day", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Hour", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Minute", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Second", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fraction", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "era", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "::System::ParseFlags", modifiers: "", def_value: None }, CppParam { name: "timeZoneOffset", ty: "::System::TimeSpan", modifiers: "", def_value: None }, CppParam { name: "calendar", ty: "::System::Globalization::Calendar", modifiers: "", def_value: None }, CppParam { name: "parsedDate", ty: "::System::DateTime", modifiers: "", def_value: None }, CppParam { name: "failure", ty: "::System::ParseFailureKind", modifiers: "", def_value: None }, CppParam { name: "failureMessageID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "failureMessageFormatArgument", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "failureArgumentName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "originalDateTimeString", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None }, CppParam { name: "failedFormatSpecifier", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None }]
-constexpr DateTimeResult(int32_t Year, int32_t Month, int32_t Day, int32_t Hour, int32_t Minute, int32_t Second, double_t fraction, int32_t era, ::System::ParseFlags flags, ::System::TimeSpan timeZoneOffset, ::System::Globalization::Calendar calendar, ::System::DateTime parsedDate, ::System::ParseFailureKind failure, ::StringW failureMessageID, ::bs_hook::Il2CppWrapperType failureMessageFormatArgument, ::StringW failureArgumentName, ::System::ReadOnlySpan_1<char16_t> originalDateTimeString, ::System::ReadOnlySpan_1<char16_t> failedFormatSpecifier) noexcept;
+// Ctor Parameters [CppParam { name: "Year", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Month", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Day", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Hour", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Minute", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Second", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fraction", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "era", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "System::ParseFlags", modifiers: "", def_value: None }, CppParam { name: "timeZoneOffset", ty: "System::TimeSpan", modifiers: "", def_value: None }, CppParam { name: "calendar", ty: "System::Globalization::Calendar", modifiers: "", def_value: None }, CppParam { name: "parsedDate", ty: "System::DateTime", modifiers: "", def_value: None }, CppParam { name: "failure", ty: "System::ParseFailureKind", modifiers: "", def_value: None }, CppParam { name: "failureMessageID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "failureMessageFormatArgument", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "failureArgumentName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "originalDateTimeString", ty: "System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None }, CppParam { name: "failedFormatSpecifier", ty: "System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None }]
+constexpr DateTimeResult(int32_t Year, int32_t Month, int32_t Day, int32_t Hour, int32_t Minute, int32_t Second, double_t fraction, int32_t era, System::ParseFlags flags, System::TimeSpan timeZoneOffset, System::Globalization::Calendar calendar, System::DateTime parsedDate, System::ParseFailureKind failure, ::StringW failureMessageID, ::bs_hook::Il2CppWrapperType failureMessageFormatArgument, ::StringW failureArgumentName, System::ReadOnlySpan_1<char16_t> originalDateTimeString, System::ReadOnlySpan_1<char16_t> failedFormatSpecifier) noexcept;
 
 
                     constexpr DateTimeResult(DateTimeResult const&) = default;
@@ -120,35 +119,35 @@ constexpr void __set_era(int32_t value) ;
 
 constexpr int32_t __get_era() const;
 
- ::System::ParseFlags __declspec(property(get=__get_flags, put=__set_flags))  flags;
+ System::ParseFlags __declspec(property(get=__get_flags, put=__set_flags))  flags;
 
-constexpr void __set_flags(::System::ParseFlags value) ;
+constexpr void __set_flags(System::ParseFlags value) ;
 
-constexpr ::System::ParseFlags __get_flags() const;
+constexpr System::ParseFlags __get_flags() const;
 
- ::System::TimeSpan __declspec(property(get=__get_timeZoneOffset, put=__set_timeZoneOffset))  timeZoneOffset;
+ System::TimeSpan __declspec(property(get=__get_timeZoneOffset, put=__set_timeZoneOffset))  timeZoneOffset;
 
-constexpr void __set_timeZoneOffset(::System::TimeSpan value) ;
+constexpr void __set_timeZoneOffset(System::TimeSpan value) ;
 
-constexpr ::System::TimeSpan __get_timeZoneOffset() const;
+constexpr System::TimeSpan __get_timeZoneOffset() const;
 
- ::System::Globalization::Calendar __declspec(property(get=__get_calendar, put=__set_calendar))  calendar;
+ System::Globalization::Calendar __declspec(property(get=__get_calendar, put=__set_calendar))  calendar;
 
-constexpr void __set_calendar(::System::Globalization::Calendar value) ;
+constexpr void __set_calendar(System::Globalization::Calendar value) ;
 
-constexpr ::System::Globalization::Calendar __get_calendar() const;
+constexpr System::Globalization::Calendar __get_calendar() const;
 
- ::System::DateTime __declspec(property(get=__get_parsedDate, put=__set_parsedDate))  parsedDate;
+ System::DateTime __declspec(property(get=__get_parsedDate, put=__set_parsedDate))  parsedDate;
 
-constexpr void __set_parsedDate(::System::DateTime value) ;
+constexpr void __set_parsedDate(System::DateTime value) ;
 
-constexpr ::System::DateTime __get_parsedDate() const;
+constexpr System::DateTime __get_parsedDate() const;
 
- ::System::ParseFailureKind __declspec(property(get=__get_failure, put=__set_failure))  failure;
+ System::ParseFailureKind __declspec(property(get=__get_failure, put=__set_failure))  failure;
 
-constexpr void __set_failure(::System::ParseFailureKind value) ;
+constexpr void __set_failure(System::ParseFailureKind value) ;
 
-constexpr ::System::ParseFailureKind __get_failure() const;
+constexpr System::ParseFailureKind __get_failure() const;
 
  ::StringW __declspec(property(get=__get_failureMessageID, put=__set_failureMessageID))  failureMessageID;
 
@@ -168,23 +167,23 @@ constexpr void __set_failureArgumentName(::StringW value) ;
 
 constexpr ::StringW __get_failureArgumentName() const;
 
- ::System::ReadOnlySpan_1<char16_t> __declspec(property(get=__get_originalDateTimeString, put=__set_originalDateTimeString))  originalDateTimeString;
+ System::ReadOnlySpan_1<char16_t> __declspec(property(get=__get_originalDateTimeString, put=__set_originalDateTimeString))  originalDateTimeString;
 
-constexpr void __set_originalDateTimeString(::System::ReadOnlySpan_1<char16_t> value) ;
+constexpr void __set_originalDateTimeString(System::ReadOnlySpan_1<char16_t> value) ;
 
-constexpr ::System::ReadOnlySpan_1<char16_t> __get_originalDateTimeString() const;
+constexpr System::ReadOnlySpan_1<char16_t> __get_originalDateTimeString() const;
 
- ::System::ReadOnlySpan_1<char16_t> __declspec(property(get=__get_failedFormatSpecifier, put=__set_failedFormatSpecifier))  failedFormatSpecifier;
+ System::ReadOnlySpan_1<char16_t> __declspec(property(get=__get_failedFormatSpecifier, put=__set_failedFormatSpecifier))  failedFormatSpecifier;
 
-constexpr void __set_failedFormatSpecifier(::System::ReadOnlySpan_1<char16_t> value) ;
+constexpr void __set_failedFormatSpecifier(System::ReadOnlySpan_1<char16_t> value) ;
 
-constexpr ::System::ReadOnlySpan_1<char16_t> __get_failedFormatSpecifier() const;
+constexpr System::ReadOnlySpan_1<char16_t> __get_failedFormatSpecifier() const;
 
 
 // Methods
 
 /// @brief Method Init addr 0x2438a1c size 0x24 virtual false final false
- void Init(::System::ReadOnlySpan_1<char16_t> originalDateTimeString) ;
+ void Init(System::ReadOnlySpan_1<char16_t> originalDateTimeString) ;
 
 /// @brief Method SetDate addr 0x2438a40 size 0xc virtual false final false
  void SetDate(int32_t year, int32_t month, int32_t day) ;
@@ -193,23 +192,22 @@ constexpr ::System::ReadOnlySpan_1<char16_t> __get_failedFormatSpecifier() const
  void SetBadFormatSpecifierFailure() ;
 
 /// @brief Method SetBadFormatSpecifierFailure addr 0x2438ae0 size 0x64 virtual false final false
- void SetBadFormatSpecifierFailure(::System::ReadOnlySpan_1<char16_t> failedFormatSpecifier) ;
+ void SetBadFormatSpecifierFailure(System::ReadOnlySpan_1<char16_t> failedFormatSpecifier) ;
 
 /// @brief Method SetBadDateTimeFailure addr 0x2438b44 size 0x50 virtual false final false
  void SetBadDateTimeFailure() ;
 
 /// @brief Method SetFailure addr 0x2438b94 size 0xc virtual false final false
- void SetFailure(::System::ParseFailureKind failure, ::StringW failureMessageID) ;
+ void SetFailure(System::ParseFailureKind failure, ::StringW failureMessageID) ;
 
 /// @brief Method SetFailure addr 0x2438ba0 size 0xc virtual false final false
- void SetFailure(::System::ParseFailureKind failure, ::StringW failureMessageID, ::bs_hook::Il2CppWrapperType failureMessageFormatArgument) ;
+ void SetFailure(System::ParseFailureKind failure, ::StringW failureMessageID, ::bs_hook::Il2CppWrapperType failureMessageFormatArgument) ;
 
 /// @brief Method SetFailure addr 0x2438bac size 0x10 virtual false final false
- void SetFailure(::System::ParseFailureKind failure, ::StringW failureMessageID, ::bs_hook::Il2CppWrapperType failureMessageFormatArgument, ::StringW failureArgumentName) ;
+ void SetFailure(System::ParseFailureKind failure, ::StringW failureMessageID, ::bs_hook::Il2CppWrapperType failureMessageFormatArgument, ::StringW failureArgumentName) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::DateTimeResult, "System", "DateTimeResult");
+DEFINE_IL2CPP_ARG_TYPE(System::DateTimeResult, "System", "DateTimeResult");

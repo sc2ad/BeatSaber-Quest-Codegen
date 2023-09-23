@@ -4,7 +4,6 @@
 #include "UnityEngine/UIElements/zzzz__UxmlRootElementTraits_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace UnityEngine::UIElements {
 struct CreationContext;
 }
@@ -21,10 +20,10 @@ class UxmlRootElementFactory;
 // Type: UnityEngine.UIElements::UxmlRootElementFactory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(6828)), TypeDefinitionIndex(TypeDefinitionIndex(7059)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5114 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6828)), TypeDefinitionIndex(TypeDefinitionIndex(7059)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5114 }), TypeDefinitionIndex(TypeDefinitionIndex(7089))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7057))
 // CS Name: UnityEngine.UIElements.UxmlRootElementFactory
-class CORDL_TYPE UxmlRootElementFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::VisualElement,::UnityEngine::UIElements::UxmlRootElementTraits> {
+class CORDL_TYPE UxmlRootElementFactory : public UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::VisualElement,UnityEngine::UIElements::UxmlRootElementTraits> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr UxmlRootElementFactory(UxmlRootElementFactory const& ) noexcept = defa
 constexpr UxmlRootElementFactory(UxmlRootElementFactory&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UxmlRootElementFactory(void* ptr) noexcept : ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::VisualElement,::UnityEngine::UIElements::UxmlRootElementTraits>(ptr) {
+constexpr explicit UxmlRootElementFactory(void* ptr) noexcept : UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::VisualElement,UnityEngine::UIElements::UxmlRootElementTraits>(ptr) {
 }
 
 
@@ -74,7 +73,7 @@ constexpr explicit UxmlRootElementFactory(void* ptr) noexcept : ::UnityEngine::U
  ::StringW get_uxmlQualifiedName() ;
 
 /// @brief Method Create addr 0x2c95660 size 0x8 virtual true final false
- ::UnityEngine::UIElements::VisualElement Create(::UnityEngine::UIElements::IUxmlAttributes bag, ::UnityEngine::UIElements::CreationContext cc) ;
+ UnityEngine::UIElements::VisualElement Create(UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
 // Ctor Parameters []
 explicit UxmlRootElementFactory() ;
@@ -86,6 +85,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::UxmlRootElementFactory);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UxmlRootElementFactory, "UnityEngine.UIElements", "UxmlRootElementFactory");
+NEED_NO_BOX(UnityEngine::UIElements::UxmlRootElementFactory);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UxmlRootElementFactory, "UnityEngine.UIElements", "UxmlRootElementFactory");

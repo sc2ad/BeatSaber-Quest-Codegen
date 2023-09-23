@@ -1,6 +1,5 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
 }
@@ -27,15 +26,14 @@ constexpr explicit IDynamicMessageSink(void* ptr) noexcept : ::cordl_internals::
 // Methods
 
 /// @brief Method ProcessMessageFinish addr 0x0 size 0xffffffffffffffff virtual true final false
- void ProcessMessageFinish(::System::Runtime::Remoting::Messaging::IMessage replyMsg, bool bCliSide, bool bAsync) ;
+ void ProcessMessageFinish(System::Runtime::Remoting::Messaging::IMessage replyMsg, bool bCliSide, bool bAsync) ;
 
 /// @brief Method ProcessMessageStart addr 0x0 size 0xffffffffffffffff virtual true final false
- void ProcessMessageStart(::System::Runtime::Remoting::Messaging::IMessage reqMsg, bool bCliSide, bool bAsync) ;
+ void ProcessMessageStart(System::Runtime::Remoting::Messaging::IMessage reqMsg, bool bCliSide, bool bAsync) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Contexts
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Contexts::IDynamicMessageSink);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Contexts::IDynamicMessageSink, "System.Runtime.Remoting.Contexts", "IDynamicMessageSink");
+NEED_NO_BOX(System::Runtime::Remoting::Contexts::IDynamicMessageSink);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::IDynamicMessageSink, "System.Runtime.Remoting.Contexts", "IDynamicMessageSink");

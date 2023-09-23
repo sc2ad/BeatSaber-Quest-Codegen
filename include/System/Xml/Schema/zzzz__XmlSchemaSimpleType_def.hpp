@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaType_def.hpp"
-namespace {
 namespace System::Xml::Schema {
 class XmlSchemaSimpleTypeContent;
 }
@@ -15,7 +14,7 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11684))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11679))
 // CS Name: System.Xml.Schema.XmlSchemaSimpleType
-class CORDL_TYPE XmlSchemaSimpleType : public ::System::Xml::Schema::XmlSchemaType {
+class CORDL_TYPE XmlSchemaSimpleType : public System::Xml::Schema::XmlSchemaType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr XmlSchemaSimpleType(XmlSchemaSimpleType const& ) noexcept = default;
 constexpr XmlSchemaSimpleType(XmlSchemaSimpleType&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XmlSchemaSimpleType(void* ptr) noexcept : ::System::Xml::Schema::XmlSchemaType(ptr) {
+constexpr explicit XmlSchemaSimpleType(void* ptr) noexcept : System::Xml::Schema::XmlSchemaType(ptr) {
 }
 
 
@@ -51,16 +50,16 @@ constexpr explicit XmlSchemaSimpleType(void* ptr) noexcept : ::System::Xml::Sche
 
 // Fields
 
- ::System::Xml::Schema::XmlSchemaSimpleTypeContent __declspec(property(get=__get_content, put=__set_content))  content;
+ System::Xml::Schema::XmlSchemaSimpleTypeContent __declspec(property(get=__get_content, put=__set_content))  content;
 
-constexpr void __set_content(::System::Xml::Schema::XmlSchemaSimpleTypeContent value) ;
+constexpr void __set_content(System::Xml::Schema::XmlSchemaSimpleTypeContent value) ;
 
-constexpr ::System::Xml::Schema::XmlSchemaSimpleTypeContent __get_content() const;
+constexpr System::Xml::Schema::XmlSchemaSimpleTypeContent __get_content() const;
 
 
 // Properties
 
- ::System::Xml::Schema::XmlSchemaSimpleTypeContent __declspec(property(get=get_Content, put=set_Content))  Content;
+ System::Xml::Schema::XmlSchemaSimpleTypeContent __declspec(property(get=get_Content, put=set_Content))  Content;
 
 
 // Methods
@@ -72,15 +71,14 @@ explicit XmlSchemaSimpleType() ;
  void _ctor() ;
 
 /// @brief Method get_Content addr 0x2735778 size 0x8 virtual false final false
- ::System::Xml::Schema::XmlSchemaSimpleTypeContent get_Content() ;
+ System::Xml::Schema::XmlSchemaSimpleTypeContent get_Content() ;
 
 /// @brief Method set_Content addr 0x2735780 size 0x8 virtual false final false
- void set_Content(::System::Xml::Schema::XmlSchemaSimpleTypeContent value) ;
+ void set_Content(System::Xml::Schema::XmlSchemaSimpleTypeContent value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::XmlSchemaSimpleType);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlSchemaSimpleType, "System.Xml.Schema", "XmlSchemaSimpleType");
+NEED_NO_BOX(System::Xml::Schema::XmlSchemaSimpleType);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::XmlSchemaSimpleType, "System.Xml.Schema", "XmlSchemaSimpleType");

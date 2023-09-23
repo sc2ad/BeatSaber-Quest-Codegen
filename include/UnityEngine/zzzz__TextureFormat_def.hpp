@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct TextureFormat;
@@ -135,218 +134,217 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Alpha8 offset 0
-static ::UnityEngine::TextureFormat const Alpha8;
+static UnityEngine::TextureFormat const Alpha8;
 
 /// @brief Field ARGB4444 offset 0
-static ::UnityEngine::TextureFormat const ARGB4444;
+static UnityEngine::TextureFormat const ARGB4444;
 
 /// @brief Field RGB24 offset 0
-static ::UnityEngine::TextureFormat const RGB24;
+static UnityEngine::TextureFormat const RGB24;
 
 /// @brief Field RGBA32 offset 0
-static ::UnityEngine::TextureFormat const RGBA32;
+static UnityEngine::TextureFormat const RGBA32;
 
 /// @brief Field ARGB32 offset 0
-static ::UnityEngine::TextureFormat const ARGB32;
+static UnityEngine::TextureFormat const ARGB32;
 
 /// @brief Field RGB565 offset 0
-static ::UnityEngine::TextureFormat const RGB565;
+static UnityEngine::TextureFormat const RGB565;
 
 /// @brief Field R16 offset 0
-static ::UnityEngine::TextureFormat const R16;
+static UnityEngine::TextureFormat const R16;
 
 /// @brief Field DXT1 offset 0
-static ::UnityEngine::TextureFormat const DXT1;
+static UnityEngine::TextureFormat const DXT1;
 
 /// @brief Field DXT5 offset 0
-static ::UnityEngine::TextureFormat const DXT5;
+static UnityEngine::TextureFormat const DXT5;
 
 /// @brief Field RGBA4444 offset 0
-static ::UnityEngine::TextureFormat const RGBA4444;
+static UnityEngine::TextureFormat const RGBA4444;
 
 /// @brief Field BGRA32 offset 0
-static ::UnityEngine::TextureFormat const BGRA32;
+static UnityEngine::TextureFormat const BGRA32;
 
 /// @brief Field RHalf offset 0
-static ::UnityEngine::TextureFormat const RHalf;
+static UnityEngine::TextureFormat const RHalf;
 
 /// @brief Field RGHalf offset 0
-static ::UnityEngine::TextureFormat const RGHalf;
+static UnityEngine::TextureFormat const RGHalf;
 
 /// @brief Field RGBAHalf offset 0
-static ::UnityEngine::TextureFormat const RGBAHalf;
+static UnityEngine::TextureFormat const RGBAHalf;
 
 /// @brief Field RFloat offset 0
-static ::UnityEngine::TextureFormat const RFloat;
+static UnityEngine::TextureFormat const RFloat;
 
 /// @brief Field RGFloat offset 0
-static ::UnityEngine::TextureFormat const RGFloat;
+static UnityEngine::TextureFormat const RGFloat;
 
 /// @brief Field RGBAFloat offset 0
-static ::UnityEngine::TextureFormat const RGBAFloat;
+static UnityEngine::TextureFormat const RGBAFloat;
 
 /// @brief Field YUY2 offset 0
-static ::UnityEngine::TextureFormat const YUY2;
+static UnityEngine::TextureFormat const YUY2;
 
 /// @brief Field RGB9e5Float offset 0
-static ::UnityEngine::TextureFormat const RGB9e5Float;
+static UnityEngine::TextureFormat const RGB9e5Float;
 
 /// @brief Field BC4 offset 0
-static ::UnityEngine::TextureFormat const BC4;
+static UnityEngine::TextureFormat const BC4;
 
 /// @brief Field BC5 offset 0
-static ::UnityEngine::TextureFormat const BC5;
+static UnityEngine::TextureFormat const BC5;
 
 /// @brief Field BC6H offset 0
-static ::UnityEngine::TextureFormat const BC6H;
+static UnityEngine::TextureFormat const BC6H;
 
 /// @brief Field BC7 offset 0
-static ::UnityEngine::TextureFormat const BC7;
+static UnityEngine::TextureFormat const BC7;
 
 /// @brief Field DXT1Crunched offset 0
-static ::UnityEngine::TextureFormat const DXT1Crunched;
+static UnityEngine::TextureFormat const DXT1Crunched;
 
 /// @brief Field DXT5Crunched offset 0
-static ::UnityEngine::TextureFormat const DXT5Crunched;
+static UnityEngine::TextureFormat const DXT5Crunched;
 
 /// @brief Field PVRTC_RGB2 offset 0
-static ::UnityEngine::TextureFormat const PVRTC_RGB2;
+static UnityEngine::TextureFormat const PVRTC_RGB2;
 
 /// @brief Field PVRTC_RGBA2 offset 0
-static ::UnityEngine::TextureFormat const PVRTC_RGBA2;
+static UnityEngine::TextureFormat const PVRTC_RGBA2;
 
 /// @brief Field PVRTC_RGB4 offset 0
-static ::UnityEngine::TextureFormat const PVRTC_RGB4;
+static UnityEngine::TextureFormat const PVRTC_RGB4;
 
 /// @brief Field PVRTC_RGBA4 offset 0
-static ::UnityEngine::TextureFormat const PVRTC_RGBA4;
+static UnityEngine::TextureFormat const PVRTC_RGBA4;
 
 /// @brief Field ETC_RGB4 offset 0
-static ::UnityEngine::TextureFormat const ETC_RGB4;
+static UnityEngine::TextureFormat const ETC_RGB4;
 
 /// @brief Field EAC_R offset 0
-static ::UnityEngine::TextureFormat const EAC_R;
+static UnityEngine::TextureFormat const EAC_R;
 
 /// @brief Field EAC_R_SIGNED offset 0
-static ::UnityEngine::TextureFormat const EAC_R_SIGNED;
+static UnityEngine::TextureFormat const EAC_R_SIGNED;
 
 /// @brief Field EAC_RG offset 0
-static ::UnityEngine::TextureFormat const EAC_RG;
+static UnityEngine::TextureFormat const EAC_RG;
 
 /// @brief Field EAC_RG_SIGNED offset 0
-static ::UnityEngine::TextureFormat const EAC_RG_SIGNED;
+static UnityEngine::TextureFormat const EAC_RG_SIGNED;
 
 /// @brief Field ETC2_RGB offset 0
-static ::UnityEngine::TextureFormat const ETC2_RGB;
+static UnityEngine::TextureFormat const ETC2_RGB;
 
 /// @brief Field ETC2_RGBA1 offset 0
-static ::UnityEngine::TextureFormat const ETC2_RGBA1;
+static UnityEngine::TextureFormat const ETC2_RGBA1;
 
 /// @brief Field ETC2_RGBA8 offset 0
-static ::UnityEngine::TextureFormat const ETC2_RGBA8;
+static UnityEngine::TextureFormat const ETC2_RGBA8;
 
 /// @brief Field ASTC_4x4 offset 0
-static ::UnityEngine::TextureFormat const ASTC_4x4;
+static UnityEngine::TextureFormat const ASTC_4x4;
 
 /// @brief Field ASTC_5x5 offset 0
-static ::UnityEngine::TextureFormat const ASTC_5x5;
+static UnityEngine::TextureFormat const ASTC_5x5;
 
 /// @brief Field ASTC_6x6 offset 0
-static ::UnityEngine::TextureFormat const ASTC_6x6;
+static UnityEngine::TextureFormat const ASTC_6x6;
 
 /// @brief Field ASTC_8x8 offset 0
-static ::UnityEngine::TextureFormat const ASTC_8x8;
+static UnityEngine::TextureFormat const ASTC_8x8;
 
 /// @brief Field ASTC_10x10 offset 0
-static ::UnityEngine::TextureFormat const ASTC_10x10;
+static UnityEngine::TextureFormat const ASTC_10x10;
 
 /// @brief Field ASTC_12x12 offset 0
-static ::UnityEngine::TextureFormat const ASTC_12x12;
+static UnityEngine::TextureFormat const ASTC_12x12;
 
 /// @brief Field ETC_RGB4_3DS offset 0
-static ::UnityEngine::TextureFormat const ETC_RGB4_3DS;
+static UnityEngine::TextureFormat const ETC_RGB4_3DS;
 
 /// @brief Field ETC_RGBA8_3DS offset 0
-static ::UnityEngine::TextureFormat const ETC_RGBA8_3DS;
+static UnityEngine::TextureFormat const ETC_RGBA8_3DS;
 
 /// @brief Field RG16 offset 0
-static ::UnityEngine::TextureFormat const RG16;
+static UnityEngine::TextureFormat const RG16;
 
 /// @brief Field R8 offset 0
-static ::UnityEngine::TextureFormat const R8;
+static UnityEngine::TextureFormat const R8;
 
 /// @brief Field ETC_RGB4Crunched offset 0
-static ::UnityEngine::TextureFormat const ETC_RGB4Crunched;
+static UnityEngine::TextureFormat const ETC_RGB4Crunched;
 
 /// @brief Field ETC2_RGBA8Crunched offset 0
-static ::UnityEngine::TextureFormat const ETC2_RGBA8Crunched;
+static UnityEngine::TextureFormat const ETC2_RGBA8Crunched;
 
 /// @brief Field ASTC_HDR_4x4 offset 0
-static ::UnityEngine::TextureFormat const ASTC_HDR_4x4;
+static UnityEngine::TextureFormat const ASTC_HDR_4x4;
 
 /// @brief Field ASTC_HDR_5x5 offset 0
-static ::UnityEngine::TextureFormat const ASTC_HDR_5x5;
+static UnityEngine::TextureFormat const ASTC_HDR_5x5;
 
 /// @brief Field ASTC_HDR_6x6 offset 0
-static ::UnityEngine::TextureFormat const ASTC_HDR_6x6;
+static UnityEngine::TextureFormat const ASTC_HDR_6x6;
 
 /// @brief Field ASTC_HDR_8x8 offset 0
-static ::UnityEngine::TextureFormat const ASTC_HDR_8x8;
+static UnityEngine::TextureFormat const ASTC_HDR_8x8;
 
 /// @brief Field ASTC_HDR_10x10 offset 0
-static ::UnityEngine::TextureFormat const ASTC_HDR_10x10;
+static UnityEngine::TextureFormat const ASTC_HDR_10x10;
 
 /// @brief Field ASTC_HDR_12x12 offset 0
-static ::UnityEngine::TextureFormat const ASTC_HDR_12x12;
+static UnityEngine::TextureFormat const ASTC_HDR_12x12;
 
 /// @brief Field RG32 offset 0
-static ::UnityEngine::TextureFormat const RG32;
+static UnityEngine::TextureFormat const RG32;
 
 /// @brief Field RGB48 offset 0
-static ::UnityEngine::TextureFormat const RGB48;
+static UnityEngine::TextureFormat const RGB48;
 
 /// @brief Field RGBA64 offset 0
-static ::UnityEngine::TextureFormat const RGBA64;
+static UnityEngine::TextureFormat const RGBA64;
 
 /// @brief Field ASTC_RGB_4x4 offset 0
-static ::UnityEngine::TextureFormat const ASTC_RGB_4x4;
+static UnityEngine::TextureFormat const ASTC_RGB_4x4;
 
 /// @brief Field ASTC_RGB_5x5 offset 0
-static ::UnityEngine::TextureFormat const ASTC_RGB_5x5;
+static UnityEngine::TextureFormat const ASTC_RGB_5x5;
 
 /// @brief Field ASTC_RGB_6x6 offset 0
-static ::UnityEngine::TextureFormat const ASTC_RGB_6x6;
+static UnityEngine::TextureFormat const ASTC_RGB_6x6;
 
 /// @brief Field ASTC_RGB_8x8 offset 0
-static ::UnityEngine::TextureFormat const ASTC_RGB_8x8;
+static UnityEngine::TextureFormat const ASTC_RGB_8x8;
 
 /// @brief Field ASTC_RGB_10x10 offset 0
-static ::UnityEngine::TextureFormat const ASTC_RGB_10x10;
+static UnityEngine::TextureFormat const ASTC_RGB_10x10;
 
 /// @brief Field ASTC_RGB_12x12 offset 0
-static ::UnityEngine::TextureFormat const ASTC_RGB_12x12;
+static UnityEngine::TextureFormat const ASTC_RGB_12x12;
 
 /// @brief Field ASTC_RGBA_4x4 offset 0
-static ::UnityEngine::TextureFormat const ASTC_RGBA_4x4;
+static UnityEngine::TextureFormat const ASTC_RGBA_4x4;
 
 /// @brief Field ASTC_RGBA_5x5 offset 0
-static ::UnityEngine::TextureFormat const ASTC_RGBA_5x5;
+static UnityEngine::TextureFormat const ASTC_RGBA_5x5;
 
 /// @brief Field ASTC_RGBA_6x6 offset 0
-static ::UnityEngine::TextureFormat const ASTC_RGBA_6x6;
+static UnityEngine::TextureFormat const ASTC_RGBA_6x6;
 
 /// @brief Field ASTC_RGBA_8x8 offset 0
-static ::UnityEngine::TextureFormat const ASTC_RGBA_8x8;
+static UnityEngine::TextureFormat const ASTC_RGBA_8x8;
 
 /// @brief Field ASTC_RGBA_10x10 offset 0
-static ::UnityEngine::TextureFormat const ASTC_RGBA_10x10;
+static UnityEngine::TextureFormat const ASTC_RGBA_10x10;
 
 /// @brief Field ASTC_RGBA_12x12 offset 0
-static ::UnityEngine::TextureFormat const ASTC_RGBA_12x12;
+static UnityEngine::TextureFormat const ASTC_RGBA_12x12;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextureFormat, "UnityEngine", "TextureFormat");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextureFormat, "UnityEngine", "TextureFormat");

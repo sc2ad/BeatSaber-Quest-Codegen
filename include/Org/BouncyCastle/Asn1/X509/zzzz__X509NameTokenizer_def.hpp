@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Text {
 class StringBuilder;
 }
@@ -71,11 +70,11 @@ constexpr void __set_separator(char16_t value) ;
 
 constexpr char16_t __get_separator() const;
 
- ::System::Text::StringBuilder __declspec(property(get=__get_buffer, put=__set_buffer))  buffer;
+ System::Text::StringBuilder __declspec(property(get=__get_buffer, put=__set_buffer))  buffer;
 
-constexpr void __set_buffer(::System::Text::StringBuilder value) ;
+constexpr void __set_buffer(System::Text::StringBuilder value) ;
 
-constexpr ::System::Text::StringBuilder __get_buffer() const;
+constexpr System::Text::StringBuilder __get_buffer() const;
 
 
 // Methods
@@ -102,6 +101,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::X509
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::X509NameTokenizer);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X509::X509NameTokenizer, "Org.BouncyCastle.Asn1.X509", "X509NameTokenizer");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::X509NameTokenizer);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::X509NameTokenizer, "Org.BouncyCastle.Asn1.X509", "X509NameTokenizer");

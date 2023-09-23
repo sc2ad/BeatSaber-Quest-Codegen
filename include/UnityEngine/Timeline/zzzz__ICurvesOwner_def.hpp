@@ -2,15 +2,14 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
-namespace UnityEngine::Timeline {
-class TrackAsset;
-}
 namespace UnityEngine {
 class Object;
 }
 namespace UnityEngine {
 class AnimationClip;
+}
+namespace UnityEngine::Timeline {
+class TrackAsset;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -34,7 +33,7 @@ constexpr explicit ICurvesOwner(void* ptr) noexcept : ::cordl_internals::Interfa
 
 // Properties
 
- ::UnityEngine::AnimationClip __declspec(property(get=get_curves))  curves;
+ UnityEngine::AnimationClip __declspec(property(get=get_curves))  curves;
 
  bool __declspec(property(get=get_hasCurves))  hasCurves;
 
@@ -42,17 +41,17 @@ constexpr explicit ICurvesOwner(void* ptr) noexcept : ::cordl_internals::Interfa
 
  ::StringW __declspec(property(get=get_defaultCurvesName))  defaultCurvesName;
 
- ::UnityEngine::Object __declspec(property(get=get_asset))  asset;
+ UnityEngine::Object __declspec(property(get=get_asset))  asset;
 
- ::UnityEngine::Object __declspec(property(get=get_assetOwner))  assetOwner;
+ UnityEngine::Object __declspec(property(get=get_assetOwner))  assetOwner;
 
- ::UnityEngine::Timeline::TrackAsset __declspec(property(get=get_targetTrack))  targetTrack;
+ UnityEngine::Timeline::TrackAsset __declspec(property(get=get_targetTrack))  targetTrack;
 
 
 // Methods
 
 /// @brief Method get_curves addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::AnimationClip get_curves() ;
+ UnityEngine::AnimationClip get_curves() ;
 
 /// @brief Method get_hasCurves addr 0x0 size 0xffffffffffffffff virtual true final false
  bool get_hasCurves() ;
@@ -67,18 +66,17 @@ constexpr explicit ICurvesOwner(void* ptr) noexcept : ::cordl_internals::Interfa
  ::StringW get_defaultCurvesName() ;
 
 /// @brief Method get_asset addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Object get_asset() ;
+ UnityEngine::Object get_asset() ;
 
 /// @brief Method get_assetOwner addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Object get_assetOwner() ;
+ UnityEngine::Object get_assetOwner() ;
 
 /// @brief Method get_targetTrack addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Timeline::TrackAsset get_targetTrack() ;
+ UnityEngine::Timeline::TrackAsset get_targetTrack() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Timeline::ICurvesOwner);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::ICurvesOwner, "UnityEngine.Timeline", "ICurvesOwner");
+NEED_NO_BOX(UnityEngine::Timeline::ICurvesOwner);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ICurvesOwner, "UnityEngine.Timeline", "ICurvesOwner");

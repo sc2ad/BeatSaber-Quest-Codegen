@@ -2,12 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct Matrix4x4;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace UnityEngine {
+struct Matrix4x4;
 }
 namespace UnityEngine {
 struct Bounds;
@@ -25,8 +24,8 @@ namespace UnityEngine::Experimental::U2D {
 struct CORDL_TYPE SpriteIntermediateRendererInfo : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "SpriteID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "TextureID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "MaterialID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "Transform", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None }, CppParam { name: "Bounds", ty: "::UnityEngine::Bounds", modifiers: "", def_value: None }, CppParam { name: "Layer", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "SortingLayer", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "SortingOrder", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "SceneCullingMask", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "IndexData", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "VertexData", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "IndexCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "VertexCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ShaderChannelMask", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr SpriteIntermediateRendererInfo(int32_t SpriteID, int32_t TextureID, int32_t MaterialID, ::UnityEngine::Color Color, ::UnityEngine::Matrix4x4 Transform, ::UnityEngine::Bounds Bounds, int32_t Layer, int32_t SortingLayer, int32_t SortingOrder, uint64_t SceneCullingMask, ::cordl_internals::intptr_t IndexData, ::cordl_internals::intptr_t VertexData, int32_t IndexCount, int32_t VertexCount, int32_t ShaderChannelMask) noexcept;
+// Ctor Parameters [CppParam { name: "SpriteID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "TextureID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "MaterialID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Color", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "Transform", ty: "UnityEngine::Matrix4x4", modifiers: "", def_value: None }, CppParam { name: "Bounds", ty: "UnityEngine::Bounds", modifiers: "", def_value: None }, CppParam { name: "Layer", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "SortingLayer", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "SortingOrder", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "SceneCullingMask", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "IndexData", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "VertexData", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "IndexCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "VertexCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ShaderChannelMask", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr SpriteIntermediateRendererInfo(int32_t SpriteID, int32_t TextureID, int32_t MaterialID, UnityEngine::Color Color, UnityEngine::Matrix4x4 Transform, UnityEngine::Bounds Bounds, int32_t Layer, int32_t SortingLayer, int32_t SortingOrder, uint64_t SceneCullingMask, ::cordl_internals::intptr_t IndexData, ::cordl_internals::intptr_t VertexData, int32_t IndexCount, int32_t VertexCount, int32_t ShaderChannelMask) noexcept;
 
 
                     constexpr SpriteIntermediateRendererInfo(SpriteIntermediateRendererInfo const&) = default;
@@ -77,23 +76,23 @@ constexpr void __set_MaterialID(int32_t value) ;
 
 constexpr int32_t __get_MaterialID() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_Color, put=__set_Color))  Color;
+ UnityEngine::Color __declspec(property(get=__get_Color, put=__set_Color))  Color;
 
-constexpr void __set_Color(::UnityEngine::Color value) ;
+constexpr void __set_Color(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_Color() const;
+constexpr UnityEngine::Color __get_Color() const;
 
- ::UnityEngine::Matrix4x4 __declspec(property(get=__get_Transform, put=__set_Transform))  Transform;
+ UnityEngine::Matrix4x4 __declspec(property(get=__get_Transform, put=__set_Transform))  Transform;
 
-constexpr void __set_Transform(::UnityEngine::Matrix4x4 value) ;
+constexpr void __set_Transform(UnityEngine::Matrix4x4 value) ;
 
-constexpr ::UnityEngine::Matrix4x4 __get_Transform() const;
+constexpr UnityEngine::Matrix4x4 __get_Transform() const;
 
- ::UnityEngine::Bounds __declspec(property(get=__get_Bounds, put=__set_Bounds))  Bounds;
+ UnityEngine::Bounds __declspec(property(get=__get_Bounds, put=__set_Bounds))  Bounds;
 
-constexpr void __set_Bounds(::UnityEngine::Bounds value) ;
+constexpr void __set_Bounds(UnityEngine::Bounds value) ;
 
-constexpr ::UnityEngine::Bounds __get_Bounds() const;
+constexpr UnityEngine::Bounds __get_Bounds() const;
 
  int32_t __declspec(property(get=__get_Layer, put=__set_Layer))  Layer;
 
@@ -153,5 +152,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Experimental::U2D
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, "UnityEngine.Experimental.U2D", "SpriteIntermediateRendererInfo");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, "UnityEngine.Experimental.U2D", "SpriteIntermediateRendererInfo");

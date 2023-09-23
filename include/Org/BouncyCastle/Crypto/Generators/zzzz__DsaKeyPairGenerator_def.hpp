@@ -1,24 +1,23 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
+namespace Org::BouncyCastle::Crypto {
+class KeyGenerationParameters;
+}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DsaKeyGenerationParameters;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Crypto {
 class IAsymmetricCipherKeyPairGenerator;
 }
 namespace Org::BouncyCastle::Crypto {
-class KeyGenerationParameters;
-}
-namespace Org::BouncyCastle::Crypto {
 class AsymmetricCipherKeyPair;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DsaKeyGenerationParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {
@@ -33,8 +32,8 @@ namespace Org::BouncyCastle::Crypto::Generators {
 class CORDL_TYPE DsaKeyPairGenerator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator
-constexpr operator  ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator
+constexpr operator  Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -69,32 +68,32 @@ constexpr explicit DsaKeyPairGenerator(void* ptr) noexcept : ::bs_hook::Il2CppWr
 
 // Fields
 
-static ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_One, put=__set_One))  One;
+static Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_One, put=__set_One))  One;
 
-static void __set_One(::Org::BouncyCastle::Math::BigInteger value) ;
+static void __set_One(Org::BouncyCastle::Math::BigInteger value) ;
 
-static ::Org::BouncyCastle::Math::BigInteger __get_One() ;
+static Org::BouncyCastle::Math::BigInteger __get_One() ;
 
- ::Org::BouncyCastle::Crypto::Parameters::DsaKeyGenerationParameters __declspec(property(get=__get_param, put=__set_param))  param;
+ Org::BouncyCastle::Crypto::Parameters::DsaKeyGenerationParameters __declspec(property(get=__get_param, put=__set_param))  param;
 
-constexpr void __set_param(::Org::BouncyCastle::Crypto::Parameters::DsaKeyGenerationParameters value) ;
+constexpr void __set_param(Org::BouncyCastle::Crypto::Parameters::DsaKeyGenerationParameters value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Parameters::DsaKeyGenerationParameters __get_param() const;
+constexpr Org::BouncyCastle::Crypto::Parameters::DsaKeyGenerationParameters __get_param() const;
 
 
 // Methods
 
 /// @brief Method Init addr 0xe6c00c size 0xec virtual true final true
- void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters parameters) ;
+ void Init(Org::BouncyCastle::Crypto::KeyGenerationParameters parameters) ;
 
 /// @brief Method GenerateKeyPair addr 0xe6c0f8 size 0x148 virtual true final true
- ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair GenerateKeyPair() ;
+ Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair GenerateKeyPair() ;
 
 /// @brief Method GeneratePrivateKey addr 0xe6c240 size 0xf0 virtual false final false
-static ::Org::BouncyCastle::Math::BigInteger GeneratePrivateKey(::Org::BouncyCastle::Math::BigInteger q, ::Org::BouncyCastle::Security::SecureRandom random) ;
+static Org::BouncyCastle::Math::BigInteger GeneratePrivateKey(Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Security::SecureRandom random) ;
 
 /// @brief Method CalculatePublicKey addr 0xe6c330 size 0x24 virtual false final false
-static ::Org::BouncyCastle::Math::BigInteger CalculatePublicKey(::Org::BouncyCastle::Math::BigInteger p, ::Org::BouncyCastle::Math::BigInteger g, ::Org::BouncyCastle::Math::BigInteger x) ;
+static Org::BouncyCastle::Math::BigInteger CalculatePublicKey(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger x) ;
 
 // Ctor Parameters []
 explicit DsaKeyPairGenerator() ;
@@ -106,6 +105,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Generators
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Generators::DsaKeyPairGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Generators::DsaKeyPairGenerator, "Org.BouncyCastle.Crypto.Generators", "DsaKeyPairGenerator");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Generators::DsaKeyPairGenerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::DsaKeyPairGenerator, "Org.BouncyCastle.Crypto.Generators", "DsaKeyPairGenerator");

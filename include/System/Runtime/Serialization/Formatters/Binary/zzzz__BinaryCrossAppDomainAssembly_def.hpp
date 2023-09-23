@@ -2,7 +2,6 @@
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryParser;
 }
@@ -74,7 +73,7 @@ explicit BinaryCrossAppDomainAssembly() ;
  void _ctor() ;
 
 /// @brief Method Read addr 0x2355c60 size 0x44 virtual true final true
- void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser input) ;
+ void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser input) ;
 
 /// @brief Method Dump addr 0x2355ca4 size 0x4 virtual false final false
  void Dump() ;
@@ -83,6 +82,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization::Formatters::Binary
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly, "System.Runtime.Serialization.Formatters.Binary", "BinaryCrossAppDomainAssembly");
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly, "System.Runtime.Serialization.Formatters.Binary", "BinaryCrossAppDomainAssembly");

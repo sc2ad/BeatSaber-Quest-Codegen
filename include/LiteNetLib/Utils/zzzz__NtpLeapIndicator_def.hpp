@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace LiteNetLib::Utils {
 struct NtpLeapIndicator;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field NoWarning offset 0
-static ::LiteNetLib::Utils::NtpLeapIndicator const NoWarning;
+static LiteNetLib::Utils::NtpLeapIndicator const NoWarning;
 
 /// @brief Field LastMinuteHas61Seconds offset 0
-static ::LiteNetLib::Utils::NtpLeapIndicator const LastMinuteHas61Seconds;
+static LiteNetLib::Utils::NtpLeapIndicator const LastMinuteHas61Seconds;
 
 /// @brief Field LastMinuteHas59Seconds offset 0
-static ::LiteNetLib::Utils::NtpLeapIndicator const LastMinuteHas59Seconds;
+static LiteNetLib::Utils::NtpLeapIndicator const LastMinuteHas59Seconds;
 
 /// @brief Field AlarmCondition offset 0
-static ::LiteNetLib::Utils::NtpLeapIndicator const AlarmCondition;
+static LiteNetLib::Utils::NtpLeapIndicator const AlarmCondition;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib::Utils
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::Utils::NtpLeapIndicator, "LiteNetLib.Utils", "NtpLeapIndicator");
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NtpLeapIndicator, "LiteNetLib.Utils", "NtpLeapIndicator");

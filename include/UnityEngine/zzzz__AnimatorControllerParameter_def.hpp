@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct AnimatorControllerParameterType;
 }
@@ -60,11 +59,11 @@ constexpr void __set_m_Name(::StringW value) ;
 
 constexpr ::StringW __get_m_Name() const;
 
- ::UnityEngine::AnimatorControllerParameterType __declspec(property(get=__get_m_Type, put=__set_m_Type))  m_Type;
+ UnityEngine::AnimatorControllerParameterType __declspec(property(get=__get_m_Type, put=__set_m_Type))  m_Type;
 
-constexpr void __set_m_Type(::UnityEngine::AnimatorControllerParameterType value) ;
+constexpr void __set_m_Type(UnityEngine::AnimatorControllerParameterType value) ;
 
-constexpr ::UnityEngine::AnimatorControllerParameterType __get_m_Type() const;
+constexpr UnityEngine::AnimatorControllerParameterType __get_m_Type() const;
 
  float_t __declspec(property(get=__get_m_DefaultFloat, put=__set_m_DefaultFloat))  m_DefaultFloat;
 
@@ -111,6 +110,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AnimatorControllerParameter);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AnimatorControllerParameter, "UnityEngine", "AnimatorControllerParameter");
+NEED_NO_BOX(UnityEngine::AnimatorControllerParameter);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorControllerParameter, "UnityEngine", "AnimatorControllerParameter");

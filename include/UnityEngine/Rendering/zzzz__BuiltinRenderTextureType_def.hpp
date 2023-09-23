@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Rendering {
 struct BuiltinRenderTextureType;
@@ -88,77 +87,76 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field PropertyName offset 0
-static ::UnityEngine::Rendering::BuiltinRenderTextureType const PropertyName;
+static UnityEngine::Rendering::BuiltinRenderTextureType const PropertyName;
 
 /// @brief Field BufferPtr offset 0
-static ::UnityEngine::Rendering::BuiltinRenderTextureType const BufferPtr;
+static UnityEngine::Rendering::BuiltinRenderTextureType const BufferPtr;
 
 /// @brief Field RenderTexture offset 0
-static ::UnityEngine::Rendering::BuiltinRenderTextureType const RenderTexture;
+static UnityEngine::Rendering::BuiltinRenderTextureType const RenderTexture;
 
 /// @brief Field BindableTexture offset 0
-static ::UnityEngine::Rendering::BuiltinRenderTextureType const BindableTexture;
+static UnityEngine::Rendering::BuiltinRenderTextureType const BindableTexture;
 
 /// @brief Field None offset 0
-static ::UnityEngine::Rendering::BuiltinRenderTextureType const None;
+static UnityEngine::Rendering::BuiltinRenderTextureType const None;
 
 /// @brief Field CurrentActive offset 0
-static ::UnityEngine::Rendering::BuiltinRenderTextureType const CurrentActive;
+static UnityEngine::Rendering::BuiltinRenderTextureType const CurrentActive;
 
 /// @brief Field CameraTarget offset 0
-static ::UnityEngine::Rendering::BuiltinRenderTextureType const CameraTarget;
+static UnityEngine::Rendering::BuiltinRenderTextureType const CameraTarget;
 
 /// @brief Field Depth offset 0
-static ::UnityEngine::Rendering::BuiltinRenderTextureType const Depth;
+static UnityEngine::Rendering::BuiltinRenderTextureType const Depth;
 
 /// @brief Field DepthNormals offset 0
-static ::UnityEngine::Rendering::BuiltinRenderTextureType const DepthNormals;
+static UnityEngine::Rendering::BuiltinRenderTextureType const DepthNormals;
 
 /// @brief Field ResolvedDepth offset 0
-static ::UnityEngine::Rendering::BuiltinRenderTextureType const ResolvedDepth;
+static UnityEngine::Rendering::BuiltinRenderTextureType const ResolvedDepth;
 
 /// @brief Field PrepassNormalsSpec offset 0
-static ::UnityEngine::Rendering::BuiltinRenderTextureType const PrepassNormalsSpec;
+static UnityEngine::Rendering::BuiltinRenderTextureType const PrepassNormalsSpec;
 
 /// @brief Field PrepassLight offset 0
-static ::UnityEngine::Rendering::BuiltinRenderTextureType const PrepassLight;
+static UnityEngine::Rendering::BuiltinRenderTextureType const PrepassLight;
 
 /// @brief Field PrepassLightSpec offset 0
-static ::UnityEngine::Rendering::BuiltinRenderTextureType const PrepassLightSpec;
+static UnityEngine::Rendering::BuiltinRenderTextureType const PrepassLightSpec;
 
 /// @brief Field GBuffer0 offset 0
-static ::UnityEngine::Rendering::BuiltinRenderTextureType const GBuffer0;
+static UnityEngine::Rendering::BuiltinRenderTextureType const GBuffer0;
 
 /// @brief Field GBuffer1 offset 0
-static ::UnityEngine::Rendering::BuiltinRenderTextureType const GBuffer1;
+static UnityEngine::Rendering::BuiltinRenderTextureType const GBuffer1;
 
 /// @brief Field GBuffer2 offset 0
-static ::UnityEngine::Rendering::BuiltinRenderTextureType const GBuffer2;
+static UnityEngine::Rendering::BuiltinRenderTextureType const GBuffer2;
 
 /// @brief Field GBuffer3 offset 0
-static ::UnityEngine::Rendering::BuiltinRenderTextureType const GBuffer3;
+static UnityEngine::Rendering::BuiltinRenderTextureType const GBuffer3;
 
 /// @brief Field Reflections offset 0
-static ::UnityEngine::Rendering::BuiltinRenderTextureType const Reflections;
+static UnityEngine::Rendering::BuiltinRenderTextureType const Reflections;
 
 /// @brief Field MotionVectors offset 0
-static ::UnityEngine::Rendering::BuiltinRenderTextureType const MotionVectors;
+static UnityEngine::Rendering::BuiltinRenderTextureType const MotionVectors;
 
 /// @brief Field GBuffer4 offset 0
-static ::UnityEngine::Rendering::BuiltinRenderTextureType const GBuffer4;
+static UnityEngine::Rendering::BuiltinRenderTextureType const GBuffer4;
 
 /// @brief Field GBuffer5 offset 0
-static ::UnityEngine::Rendering::BuiltinRenderTextureType const GBuffer5;
+static UnityEngine::Rendering::BuiltinRenderTextureType const GBuffer5;
 
 /// @brief Field GBuffer6 offset 0
-static ::UnityEngine::Rendering::BuiltinRenderTextureType const GBuffer6;
+static UnityEngine::Rendering::BuiltinRenderTextureType const GBuffer6;
 
 /// @brief Field GBuffer7 offset 0
-static ::UnityEngine::Rendering::BuiltinRenderTextureType const GBuffer7;
+static UnityEngine::Rendering::BuiltinRenderTextureType const GBuffer7;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Rendering
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::BuiltinRenderTextureType, "UnityEngine.Rendering", "BuiltinRenderTextureType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BuiltinRenderTextureType, "UnityEngine.Rendering", "BuiltinRenderTextureType");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerCaptureEventBase_1_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class PointerCaptureEvent;
@@ -9,10 +8,10 @@ class PointerCaptureEvent;
 // Type: UnityEngine.UIElements::PointerCaptureEvent
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7249)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7249), inst: 4675 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7249), inst: 4675 }), TypeDefinitionIndex(TypeDefinitionIndex(7249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7251))
 // CS Name: UnityEngine.UIElements.PointerCaptureEvent
-class CORDL_TYPE PointerCaptureEvent : public ::UnityEngine::UIElements::PointerCaptureEventBase_1<::UnityEngine::UIElements::PointerCaptureEvent> {
+class CORDL_TYPE PointerCaptureEvent : public UnityEngine::UIElements::PointerCaptureEventBase_1<UnityEngine::UIElements::PointerCaptureEvent> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr PointerCaptureEvent(PointerCaptureEvent const& ) noexcept = default;
 constexpr PointerCaptureEvent(PointerCaptureEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PointerCaptureEvent(void* ptr) noexcept : ::UnityEngine::UIElements::PointerCaptureEventBase_1<::UnityEngine::UIElements::PointerCaptureEvent>(ptr) {
+constexpr explicit PointerCaptureEvent(void* ptr) noexcept : UnityEngine::UIElements::PointerCaptureEventBase_1<UnityEngine::UIElements::PointerCaptureEvent>(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::PointerCaptureEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::PointerCaptureEvent, "UnityEngine.UIElements", "PointerCaptureEvent");
+NEED_NO_BOX(UnityEngine::UIElements::PointerCaptureEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::PointerCaptureEvent, "UnityEngine.UIElements", "PointerCaptureEvent");

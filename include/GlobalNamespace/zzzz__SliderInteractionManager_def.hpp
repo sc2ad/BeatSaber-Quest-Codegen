@@ -2,16 +2,8 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 namespace GlobalNamespace {
 struct ColorType;
-}
-namespace GlobalNamespace {
-class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
 class SliderController;
@@ -23,6 +15,13 @@ class Action_1;
 namespace System {
 class Action;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace GlobalNamespace {
+class BeatmapObjectManager;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class SliderInteractionManager;
@@ -33,7 +32,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4935))
 // CS Name: SliderInteractionManager
-class CORDL_TYPE SliderInteractionManager : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SliderInteractionManager : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -48,7 +47,7 @@ constexpr SliderInteractionManager(SliderInteractionManager const& ) noexcept = 
 constexpr SliderInteractionManager(SliderInteractionManager&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SliderInteractionManager(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SliderInteractionManager(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -69,17 +68,17 @@ constexpr explicit SliderInteractionManager(void* ptr) noexcept : ::UnityEngine:
 
 // Fields
 
- ::GlobalNamespace::ColorType __declspec(property(get=__get__colorType, put=__set__colorType))  _colorType;
+ GlobalNamespace::ColorType __declspec(property(get=__get__colorType, put=__set__colorType))  _colorType;
 
-constexpr void __set__colorType(::GlobalNamespace::ColorType value) ;
+constexpr void __set__colorType(GlobalNamespace::ColorType value) ;
 
-constexpr ::GlobalNamespace::ColorType __get__colorType() const;
+constexpr GlobalNamespace::ColorType __get__colorType() const;
 
- ::GlobalNamespace::BeatmapObjectManager __declspec(property(get=__get__beatmapObjectManager, put=__set__beatmapObjectManager))  _beatmapObjectManager;
+ GlobalNamespace::BeatmapObjectManager __declspec(property(get=__get__beatmapObjectManager, put=__set__beatmapObjectManager))  _beatmapObjectManager;
 
-constexpr void __set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager value) ;
+constexpr void __set__beatmapObjectManager(GlobalNamespace::BeatmapObjectManager value) ;
 
-constexpr ::GlobalNamespace::BeatmapObjectManager __get__beatmapObjectManager() const;
+constexpr GlobalNamespace::BeatmapObjectManager __get__beatmapObjectManager() const;
 
  float_t __declspec(property(get=__get__saberInteractionParam_k__BackingField, put=__set__saberInteractionParam_k__BackingField))  _saberInteractionParam_k__BackingField;
 
@@ -87,28 +86,28 @@ constexpr void __set__saberInteractionParam_k__BackingField(float_t value) ;
 
 constexpr float_t __get__saberInteractionParam_k__BackingField() const;
 
- ::System::Action_1<float_t> __declspec(property(get=__get_sliderWasAddedToActiveSlidersEvent, put=__set_sliderWasAddedToActiveSlidersEvent))  sliderWasAddedToActiveSlidersEvent;
+ System::Action_1<float_t> __declspec(property(get=__get_sliderWasAddedToActiveSlidersEvent, put=__set_sliderWasAddedToActiveSlidersEvent))  sliderWasAddedToActiveSlidersEvent;
 
-constexpr void __set_sliderWasAddedToActiveSlidersEvent(::System::Action_1<float_t> value) ;
+constexpr void __set_sliderWasAddedToActiveSlidersEvent(System::Action_1<float_t> value) ;
 
-constexpr ::System::Action_1<float_t> __get_sliderWasAddedToActiveSlidersEvent() const;
+constexpr System::Action_1<float_t> __get_sliderWasAddedToActiveSlidersEvent() const;
 
- ::System::Action __declspec(property(get=__get_allSliderWereRemovedFromActiveSlidersEvent, put=__set_allSliderWereRemovedFromActiveSlidersEvent))  allSliderWereRemovedFromActiveSlidersEvent;
+ System::Action __declspec(property(get=__get_allSliderWereRemovedFromActiveSlidersEvent, put=__set_allSliderWereRemovedFromActiveSlidersEvent))  allSliderWereRemovedFromActiveSlidersEvent;
 
-constexpr void __set_allSliderWereRemovedFromActiveSlidersEvent(::System::Action value) ;
+constexpr void __set_allSliderWereRemovedFromActiveSlidersEvent(System::Action value) ;
 
-constexpr ::System::Action __get_allSliderWereRemovedFromActiveSlidersEvent() const;
+constexpr System::Action __get_allSliderWereRemovedFromActiveSlidersEvent() const;
 
- ::System::Collections::Generic::List_1<::GlobalNamespace::SliderController> __declspec(property(get=__get__activeSliders, put=__set__activeSliders))  _activeSliders;
+ System::Collections::Generic::List_1<GlobalNamespace::SliderController> __declspec(property(get=__get__activeSliders, put=__set__activeSliders))  _activeSliders;
 
-constexpr void __set__activeSliders(::System::Collections::Generic::List_1<::GlobalNamespace::SliderController> value) ;
+constexpr void __set__activeSliders(System::Collections::Generic::List_1<GlobalNamespace::SliderController> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::SliderController> __get__activeSliders() const;
+constexpr System::Collections::Generic::List_1<GlobalNamespace::SliderController> __get__activeSliders() const;
 
 
 // Properties
 
- ::GlobalNamespace::ColorType __declspec(property(get=get_colorType))  colorType;
+ GlobalNamespace::ColorType __declspec(property(get=get_colorType))  colorType;
 
  float_t __declspec(property(get=get_saberInteractionParam, put=set_saberInteractionParam))  saberInteractionParam;
 
@@ -116,7 +115,7 @@ constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::SliderContro
 // Methods
 
 /// @brief Method get_colorType addr 0x224b1b4 size 0x8 virtual false final false
- ::GlobalNamespace::ColorType get_colorType() ;
+ GlobalNamespace::ColorType get_colorType() ;
 
 /// @brief Method get_saberInteractionParam addr 0x224b1bc size 0x8 virtual false final false
  float_t get_saberInteractionParam() ;
@@ -125,16 +124,16 @@ constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::SliderContro
  void set_saberInteractionParam(float_t value) ;
 
 /// @brief Method add_sliderWasAddedToActiveSlidersEvent addr 0x224ae18 size 0xb0 virtual false final false
- void add_sliderWasAddedToActiveSlidersEvent(::System::Action_1<float_t> value) ;
+ void add_sliderWasAddedToActiveSlidersEvent(System::Action_1<float_t> value) ;
 
 /// @brief Method remove_sliderWasAddedToActiveSlidersEvent addr 0x224b050 size 0xb0 virtual false final false
- void remove_sliderWasAddedToActiveSlidersEvent(::System::Action_1<float_t> value) ;
+ void remove_sliderWasAddedToActiveSlidersEvent(System::Action_1<float_t> value) ;
 
 /// @brief Method add_allSliderWereRemovedFromActiveSlidersEvent addr 0x224aec8 size 0x9c virtual false final false
- void add_allSliderWereRemovedFromActiveSlidersEvent(::System::Action value) ;
+ void add_allSliderWereRemovedFromActiveSlidersEvent(System::Action value) ;
 
 /// @brief Method remove_allSliderWereRemovedFromActiveSlidersEvent addr 0x224b100 size 0x9c virtual false final false
- void remove_allSliderWereRemovedFromActiveSlidersEvent(::System::Action value) ;
+ void remove_allSliderWereRemovedFromActiveSlidersEvent(System::Action value) ;
 
 /// @brief Method Start addr 0x224b1cc size 0xe0 virtual false final false
  void Start() ;
@@ -146,16 +145,16 @@ constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::SliderContro
  void Update() ;
 
 /// @brief Method AddActiveSlider addr 0x224b500 size 0x220 virtual false final false
- void AddActiveSlider(::GlobalNamespace::SliderController newSliderController) ;
+ void AddActiveSlider(GlobalNamespace::SliderController newSliderController) ;
 
 /// @brief Method RemoveActiveSlider addr 0x224b720 size 0x98 virtual false final false
- void RemoveActiveSlider(::GlobalNamespace::SliderController sliderController) ;
+ void RemoveActiveSlider(GlobalNamespace::SliderController sliderController) ;
 
 /// @brief Method HandleSliderWasSpawned addr 0x224b7b8 size 0x34 virtual false final false
- void HandleSliderWasSpawned(::GlobalNamespace::SliderController sliderController) ;
+ void HandleSliderWasSpawned(GlobalNamespace::SliderController sliderController) ;
 
 /// @brief Method HandleSliderWasDespawned addr 0x224b7ec size 0x34 virtual false final false
- void HandleSliderWasDespawned(::GlobalNamespace::SliderController sliderController) ;
+ void HandleSliderWasDespawned(GlobalNamespace::SliderController sliderController) ;
 
 // Ctor Parameters []
 explicit SliderInteractionManager() ;
@@ -167,6 +166,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SliderInteractionManager);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SliderInteractionManager, "", "SliderInteractionManager");
+NEED_NO_BOX(GlobalNamespace::SliderInteractionManager);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SliderInteractionManager, "", "SliderInteractionManager");

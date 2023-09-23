@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
 struct RuntimeTypeHandle;
 }
@@ -87,11 +86,10 @@ constexpr void* __get_value() const;
 static ::cordl_internals::intptr_t GetTypeFromClass(void* klass) ;
 
 /// @brief Method GetTypeHandle addr 0x22a502c size 0x8 virtual false final false
- ::System::RuntimeTypeHandle GetTypeHandle() ;
+ System::RuntimeTypeHandle GetTypeHandle() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Mono
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Mono::RuntimeClassHandle, "Mono", "RuntimeClassHandle");
+DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeClassHandle, "Mono", "RuntimeClassHandle");

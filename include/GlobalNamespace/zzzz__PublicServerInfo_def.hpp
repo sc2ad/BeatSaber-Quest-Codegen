@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
 namespace LiteNetLib::Utils {
 class NetDataReader;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -76,14 +75,13 @@ constexpr int32_t __get_currentPlayerCount() const;
  void _ctor(::StringW code, int32_t currentPlayerCount) ;
 
 /// @brief Method Serialize addr 0xdc7258 size 0x40 virtual false final false
- void Serialize(::LiteNetLib::Utils::NetDataWriter writer) ;
+ void Serialize(LiteNetLib::Utils::NetDataWriter writer) ;
 
 /// @brief Method Deserialize addr 0xdc7298 size 0x40 virtual false final false
-static ::GlobalNamespace::PublicServerInfo Deserialize(::LiteNetLib::Utils::NetDataReader reader) ;
+static GlobalNamespace::PublicServerInfo Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PublicServerInfo, "", "PublicServerInfo");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PublicServerInfo, "", "PublicServerInfo");

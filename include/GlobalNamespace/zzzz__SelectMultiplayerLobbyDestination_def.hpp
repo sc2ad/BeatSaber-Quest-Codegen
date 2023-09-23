@@ -3,7 +3,6 @@
 #include "GlobalNamespace/zzzz__MenuDestination_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class SelectMultiplayerLobbyDestination;
@@ -14,7 +13,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4184))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4189))
 // CS Name: SelectMultiplayerLobbyDestination
-class CORDL_TYPE SelectMultiplayerLobbyDestination : public ::GlobalNamespace::MenuDestination {
+class CORDL_TYPE SelectMultiplayerLobbyDestination : public GlobalNamespace::MenuDestination {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr SelectMultiplayerLobbyDestination(SelectMultiplayerLobbyDestination co
 constexpr SelectMultiplayerLobbyDestination(SelectMultiplayerLobbyDestination&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SelectMultiplayerLobbyDestination(void* ptr) noexcept : ::GlobalNamespace::MenuDestination(ptr) {
+constexpr explicit SelectMultiplayerLobbyDestination(void* ptr) noexcept : GlobalNamespace::MenuDestination(ptr) {
 }
 
 
@@ -87,6 +86,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SelectMultiplayerLobbyDestination);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SelectMultiplayerLobbyDestination, "", "SelectMultiplayerLobbyDestination");
+NEED_NO_BOX(GlobalNamespace::SelectMultiplayerLobbyDestination);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectMultiplayerLobbyDestination, "", "SelectMultiplayerLobbyDestination");

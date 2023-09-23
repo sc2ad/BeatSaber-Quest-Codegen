@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace LiteNetLib {
-struct PacketProperty;
+namespace System::Threading {
+class ReaderWriterLockSlim;
 }
 namespace LiteNetLib {
 class NetPacket;
 }
-namespace System::Threading {
-class ReaderWriterLockSlim;
+namespace LiteNetLib {
+struct PacketProperty;
 }
 // Forward declare root types
 namespace LiteNetLib {
@@ -59,17 +58,17 @@ constexpr explicit NetPacketPool(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 
 // Fields
 
- ::ArrayW<::LiteNetLib::NetPacket> __declspec(property(get=__get__pool, put=__set__pool))  _pool;
+ ::ArrayW<LiteNetLib::NetPacket> __declspec(property(get=__get__pool, put=__set__pool))  _pool;
 
-constexpr void __set__pool(::ArrayW<::LiteNetLib::NetPacket> value) ;
+constexpr void __set__pool(::ArrayW<LiteNetLib::NetPacket> value) ;
 
-constexpr ::ArrayW<::LiteNetLib::NetPacket> __get__pool() const;
+constexpr ::ArrayW<LiteNetLib::NetPacket> __get__pool() const;
 
- ::System::Threading::ReaderWriterLockSlim __declspec(property(get=__get__lock, put=__set__lock))  _lock;
+ System::Threading::ReaderWriterLockSlim __declspec(property(get=__get__lock, put=__set__lock))  _lock;
 
-constexpr void __set__lock(::System::Threading::ReaderWriterLockSlim value) ;
+constexpr void __set__lock(System::Threading::ReaderWriterLockSlim value) ;
 
-constexpr ::System::Threading::ReaderWriterLockSlim __get__lock() const;
+constexpr System::Threading::ReaderWriterLockSlim __get__lock() const;
 
  int32_t __declspec(property(get=__get__count, put=__set__count))  _count;
 
@@ -81,19 +80,19 @@ constexpr int32_t __get__count() const;
 // Methods
 
 /// @brief Method GetWithData addr 0x208dd90 size 0xd8 virtual false final false
- ::LiteNetLib::NetPacket GetWithData(::LiteNetLib::PacketProperty property, ::ArrayW<uint8_t> data, int32_t start, int32_t length) ;
+ LiteNetLib::NetPacket GetWithData(LiteNetLib::PacketProperty property, ::ArrayW<uint8_t> data, int32_t start, int32_t length) ;
 
 /// @brief Method GetWithProperty addr 0x208b918 size 0xac virtual false final false
- ::LiteNetLib::NetPacket GetWithProperty(::LiteNetLib::PacketProperty property, int32_t size) ;
+ LiteNetLib::NetPacket GetWithProperty(LiteNetLib::PacketProperty property, int32_t size) ;
 
 /// @brief Method GetWithProperty addr 0x208c4bc size 0xa4 virtual false final false
- ::LiteNetLib::NetPacket GetWithProperty(::LiteNetLib::PacketProperty property) ;
+ LiteNetLib::NetPacket GetWithProperty(LiteNetLib::PacketProperty property) ;
 
 /// @brief Method GetPacket addr 0x208a1c0 size 0x16c virtual false final false
- ::LiteNetLib::NetPacket GetPacket(int32_t size) ;
+ LiteNetLib::NetPacket GetPacket(int32_t size) ;
 
 /// @brief Method Recycle addr 0x2088d04 size 0x140 virtual false final false
- void Recycle(::LiteNetLib::NetPacket packet) ;
+ void Recycle(LiteNetLib::NetPacket packet) ;
 
 // Ctor Parameters []
 explicit NetPacketPool() ;
@@ -105,6 +104,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib
-} // end anonymous namespace
-NEED_NO_BOX(::LiteNetLib::NetPacketPool);
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::NetPacketPool, "LiteNetLib", "NetPacketPool");
+NEED_NO_BOX(LiteNetLib::NetPacketPool);
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPacketPool, "LiteNetLib", "NetPacketPool");

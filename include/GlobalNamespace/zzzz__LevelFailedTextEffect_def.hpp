@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace UnityEngine {
 class Animator;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4978))
 // CS Name: LevelFailedTextEffect
-class CORDL_TYPE LevelFailedTextEffect : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE LevelFailedTextEffect : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr LevelFailedTextEffect(LevelFailedTextEffect const& ) noexcept = defaul
 constexpr LevelFailedTextEffect(LevelFailedTextEffect&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LevelFailedTextEffect(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit LevelFailedTextEffect(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit LevelFailedTextEffect(void* ptr) noexcept : ::UnityEngine::Mo
 
 // Fields
 
- ::UnityEngine::Animator __declspec(property(get=__get__animator, put=__set__animator))  _animator;
+ UnityEngine::Animator __declspec(property(get=__get__animator, put=__set__animator))  _animator;
 
-constexpr void __set__animator(::UnityEngine::Animator value) ;
+constexpr void __set__animator(UnityEngine::Animator value) ;
 
-constexpr ::UnityEngine::Animator __get__animator() const;
+constexpr UnityEngine::Animator __get__animator() const;
 
 
 // Methods
@@ -73,6 +72,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LevelFailedTextEffect);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelFailedTextEffect, "", "LevelFailedTextEffect");
+NEED_NO_BOX(GlobalNamespace::LevelFailedTextEffect);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelFailedTextEffect, "", "LevelFailedTextEffect");

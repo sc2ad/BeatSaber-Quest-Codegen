@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__EventArgs_def.hpp"
-namespace {
 namespace System {
 struct ConsoleSpecialKey;
 }
@@ -15,7 +14,7 @@ namespace System {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2376))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2516))
 // CS Name: System.ConsoleCancelEventArgs
-class CORDL_TYPE ConsoleCancelEventArgs : public ::System::EventArgs {
+class CORDL_TYPE ConsoleCancelEventArgs : public System::EventArgs {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr ConsoleCancelEventArgs(ConsoleCancelEventArgs const& ) noexcept = defa
 constexpr ConsoleCancelEventArgs(ConsoleCancelEventArgs&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ConsoleCancelEventArgs(void* ptr) noexcept : ::System::EventArgs(ptr) {
+constexpr explicit ConsoleCancelEventArgs(void* ptr) noexcept : System::EventArgs(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit ConsoleCancelEventArgs(void* ptr) noexcept : ::System::EventA
 
 // Fields
 
- ::System::ConsoleSpecialKey __declspec(property(get=__get__type, put=__set__type))  _type;
+ System::ConsoleSpecialKey __declspec(property(get=__get__type, put=__set__type))  _type;
 
-constexpr void __set__type(::System::ConsoleSpecialKey value) ;
+constexpr void __set__type(System::ConsoleSpecialKey value) ;
 
-constexpr ::System::ConsoleSpecialKey __get__type() const;
+constexpr System::ConsoleSpecialKey __get__type() const;
 
  bool __declspec(property(get=__get__Cancel_k__BackingField, put=__set__Cancel_k__BackingField))  _Cancel_k__BackingField;
 
@@ -71,11 +70,11 @@ constexpr bool __get__Cancel_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "::System::ConsoleSpecialKey", modifiers: "", def_value: None }]
-explicit ConsoleCancelEventArgs(::System::ConsoleSpecialKey type) ;
+// Ctor Parameters [CppParam { name: "type", ty: "System::ConsoleSpecialKey", modifiers: "", def_value: None }]
+explicit ConsoleCancelEventArgs(System::ConsoleSpecialKey type) ;
 
 /// @brief Method .ctor addr 0x2461874 size 0x6c virtual false final false
- void _ctor(::System::ConsoleSpecialKey type) ;
+ void _ctor(System::ConsoleSpecialKey type) ;
 
 /// @brief Method get_Cancel addr 0x24618e0 size 0x8 virtual false final false
  bool get_Cancel() ;
@@ -90,6 +89,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::ConsoleCancelEventArgs);
-DEFINE_IL2CPP_ARG_TYPE(::System::ConsoleCancelEventArgs, "System", "ConsoleCancelEventArgs");
+NEED_NO_BOX(System::ConsoleCancelEventArgs);
+DEFINE_IL2CPP_ARG_TYPE(System::ConsoleCancelEventArgs, "System", "ConsoleCancelEventArgs");

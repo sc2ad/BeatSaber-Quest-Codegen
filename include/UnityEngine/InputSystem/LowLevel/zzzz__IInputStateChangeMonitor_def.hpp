@@ -2,12 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
-}
 namespace UnityEngine::InputSystem {
 class InputControl;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -32,15 +31,14 @@ constexpr explicit IInputStateChangeMonitor(void* ptr) noexcept : ::cordl_intern
 // Methods
 
 /// @brief Method NotifyControlStateChanged addr 0x0 size 0xffffffffffffffff virtual true final false
- void NotifyControlStateChanged(::UnityEngine::InputSystem::InputControl control, double_t time, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, int64_t monitorIndex) ;
+ void NotifyControlStateChanged(UnityEngine::InputSystem::InputControl control, double_t time, UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, int64_t monitorIndex) ;
 
 /// @brief Method NotifyTimerExpired addr 0x0 size 0xffffffffffffffff virtual true final false
- void NotifyTimerExpired(::UnityEngine::InputSystem::InputControl control, double_t time, int64_t monitorIndex, int32_t timerIndex) ;
+ void NotifyTimerExpired(UnityEngine::InputSystem::InputControl control, double_t time, int64_t monitorIndex, int32_t timerIndex) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::LowLevel
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor, "UnityEngine.InputSystem.LowLevel", "IInputStateChangeMonitor");
+NEED_NO_BOX(UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor, "UnityEngine.InputSystem.LowLevel", "IInputStateChangeMonitor");

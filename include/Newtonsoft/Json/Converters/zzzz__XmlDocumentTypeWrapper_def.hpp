@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XmlNodeWrapper_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace Newtonsoft::Json::Converters {
 class IXmlNode;
 }
@@ -22,14 +21,14 @@ namespace Newtonsoft::Json::Converters {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11994))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11993))
 // CS Name: Newtonsoft.Json.Converters.XmlDocumentTypeWrapper
-class CORDL_TYPE XmlDocumentTypeWrapper : public ::Newtonsoft::Json::Converters::XmlNodeWrapper {
+class CORDL_TYPE XmlDocumentTypeWrapper : public Newtonsoft::Json::Converters::XmlNodeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::Newtonsoft::Json::Converters::IXmlDocumentType
-constexpr operator  ::Newtonsoft::Json::Converters::IXmlDocumentType() const noexcept;
+/// @brief Convert operator to Newtonsoft::Json::Converters::IXmlDocumentType
+constexpr operator  Newtonsoft::Json::Converters::IXmlDocumentType() const noexcept;
 
-/// @brief Convert operator to ::Newtonsoft::Json::Converters::IXmlNode
-constexpr operator  ::Newtonsoft::Json::Converters::IXmlNode() const noexcept;
+/// @brief Convert operator to Newtonsoft::Json::Converters::IXmlNode
+constexpr operator  Newtonsoft::Json::Converters::IXmlNode() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -43,7 +42,7 @@ constexpr XmlDocumentTypeWrapper(XmlDocumentTypeWrapper const& ) noexcept = defa
 constexpr XmlDocumentTypeWrapper(XmlDocumentTypeWrapper&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XmlDocumentTypeWrapper(void* ptr) noexcept : ::Newtonsoft::Json::Converters::XmlNodeWrapper(ptr) {
+constexpr explicit XmlDocumentTypeWrapper(void* ptr) noexcept : Newtonsoft::Json::Converters::XmlNodeWrapper(ptr) {
 }
 
 
@@ -64,11 +63,11 @@ constexpr explicit XmlDocumentTypeWrapper(void* ptr) noexcept : ::Newtonsoft::Js
 
 // Fields
 
- ::System::Xml::XmlDocumentType __declspec(property(get=__get__documentType, put=__set__documentType))  _documentType;
+ System::Xml::XmlDocumentType __declspec(property(get=__get__documentType, put=__set__documentType))  _documentType;
 
-constexpr void __set__documentType(::System::Xml::XmlDocumentType value) ;
+constexpr void __set__documentType(System::Xml::XmlDocumentType value) ;
 
-constexpr ::System::Xml::XmlDocumentType __get__documentType() const;
+constexpr System::Xml::XmlDocumentType __get__documentType() const;
 
 
 // Properties
@@ -86,11 +85,11 @@ constexpr ::System::Xml::XmlDocumentType __get__documentType() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "documentType", ty: "::System::Xml::XmlDocumentType", modifiers: "", def_value: None }]
-explicit XmlDocumentTypeWrapper(::System::Xml::XmlDocumentType documentType) ;
+// Ctor Parameters [CppParam { name: "documentType", ty: "System::Xml::XmlDocumentType", modifiers: "", def_value: None }]
+explicit XmlDocumentTypeWrapper(System::Xml::XmlDocumentType documentType) ;
 
 /// @brief Method .ctor addr 0x2541c24 size 0x2c virtual false final false
- void _ctor(::System::Xml::XmlDocumentType documentType) ;
+ void _ctor(System::Xml::XmlDocumentType documentType) ;
 
 /// @brief Method get_Name addr 0x2542200 size 0x20 virtual true final true
  ::StringW get_Name() ;
@@ -111,6 +110,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Converters
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Converters::XmlDocumentTypeWrapper);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Converters::XmlDocumentTypeWrapper, "Newtonsoft.Json.Converters", "XmlDocumentTypeWrapper");
+NEED_NO_BOX(Newtonsoft::Json::Converters::XmlDocumentTypeWrapper);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Converters::XmlDocumentTypeWrapper, "Newtonsoft.Json.Converters", "XmlDocumentTypeWrapper");

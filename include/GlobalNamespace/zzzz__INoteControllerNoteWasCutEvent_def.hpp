@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace {
-namespace GlobalNamespace {
-struct NoteCutInfo;
-}
 namespace GlobalNamespace {
 class NoteController;
+}
+namespace GlobalNamespace {
+struct NoteCutInfo;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -31,12 +30,11 @@ constexpr explicit INoteControllerNoteWasCutEvent(void* ptr) noexcept : ::cordl_
 // Methods
 
 /// @brief Method HandleNoteControllerNoteWasCut addr 0x0 size 0xffffffffffffffff virtual true final false
- void HandleNoteControllerNoteWasCut(::GlobalNamespace::NoteController noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo) ;
+ void HandleNoteControllerNoteWasCut(GlobalNamespace::NoteController noteController, ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::INoteControllerNoteWasCutEvent);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::INoteControllerNoteWasCutEvent, "", "INoteControllerNoteWasCutEvent");
+NEED_NO_BOX(GlobalNamespace::INoteControllerNoteWasCutEvent);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INoteControllerNoteWasCutEvent, "", "INoteControllerNoteWasCutEvent");

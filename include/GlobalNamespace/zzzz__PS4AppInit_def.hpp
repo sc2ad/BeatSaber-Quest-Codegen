@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__AppInit_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class AppInitScenesTransitionSetupDataContainerSO;
-}
 namespace GlobalNamespace {
 class MainSettingsModelSO;
+}
+namespace GlobalNamespace {
+class SonyOnGoingToBackgroundSaveHandler;
 }
 namespace GlobalNamespace {
 class PS4ActivePublisherSKUSettingsSO;
@@ -15,13 +14,13 @@ namespace GlobalNamespace {
 class MainSystemInit;
 }
 namespace GlobalNamespace {
-class SonyOnGoingToBackgroundSaveHandler;
+class DefaultScenesTransitionsFromInit;
 }
 namespace GlobalNamespace {
 class ISaveData;
 }
 namespace GlobalNamespace {
-class DefaultScenesTransitionsFromInit;
+class AppInitScenesTransitionSetupDataContainerSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -33,7 +32,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4013))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4025))
 // CS Name: PS4AppInit
-class CORDL_TYPE PS4AppInit : public ::GlobalNamespace::AppInit {
+class CORDL_TYPE PS4AppInit : public GlobalNamespace::AppInit {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -48,7 +47,7 @@ constexpr PS4AppInit(PS4AppInit const& ) noexcept = default;
 constexpr PS4AppInit(PS4AppInit&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PS4AppInit(void* ptr) noexcept : ::GlobalNamespace::AppInit(ptr) {
+constexpr explicit PS4AppInit(void* ptr) noexcept : GlobalNamespace::AppInit(ptr) {
 }
 
 
@@ -69,47 +68,47 @@ constexpr explicit PS4AppInit(void* ptr) noexcept : ::GlobalNamespace::AppInit(p
 
 // Fields
 
- ::GlobalNamespace::MainSystemInit __declspec(property(get=__get__mainSystemInit, put=__set__mainSystemInit))  _mainSystemInit;
+ GlobalNamespace::MainSystemInit __declspec(property(get=__get__mainSystemInit, put=__set__mainSystemInit))  _mainSystemInit;
 
-constexpr void __set__mainSystemInit(::GlobalNamespace::MainSystemInit value) ;
+constexpr void __set__mainSystemInit(GlobalNamespace::MainSystemInit value) ;
 
-constexpr ::GlobalNamespace::MainSystemInit __get__mainSystemInit() const;
+constexpr GlobalNamespace::MainSystemInit __get__mainSystemInit() const;
 
- ::GlobalNamespace::DefaultScenesTransitionsFromInit __declspec(property(get=__get__defaultScenesTransitionsFromInit, put=__set__defaultScenesTransitionsFromInit))  _defaultScenesTransitionsFromInit;
+ GlobalNamespace::DefaultScenesTransitionsFromInit __declspec(property(get=__get__defaultScenesTransitionsFromInit, put=__set__defaultScenesTransitionsFromInit))  _defaultScenesTransitionsFromInit;
 
-constexpr void __set__defaultScenesTransitionsFromInit(::GlobalNamespace::DefaultScenesTransitionsFromInit value) ;
+constexpr void __set__defaultScenesTransitionsFromInit(GlobalNamespace::DefaultScenesTransitionsFromInit value) ;
 
-constexpr ::GlobalNamespace::DefaultScenesTransitionsFromInit __get__defaultScenesTransitionsFromInit() const;
+constexpr GlobalNamespace::DefaultScenesTransitionsFromInit __get__defaultScenesTransitionsFromInit() const;
 
- ::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO __declspec(property(get=__get__appInitScenesTransitionSetupDataContainer, put=__set__appInitScenesTransitionSetupDataContainer))  _appInitScenesTransitionSetupDataContainer;
+ GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO __declspec(property(get=__get__appInitScenesTransitionSetupDataContainer, put=__set__appInitScenesTransitionSetupDataContainer))  _appInitScenesTransitionSetupDataContainer;
 
-constexpr void __set__appInitScenesTransitionSetupDataContainer(::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO value) ;
+constexpr void __set__appInitScenesTransitionSetupDataContainer(GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO value) ;
 
-constexpr ::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO __get__appInitScenesTransitionSetupDataContainer() const;
+constexpr GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO __get__appInitScenesTransitionSetupDataContainer() const;
 
- ::GlobalNamespace::MainSettingsModelSO __declspec(property(get=__get__mainSettingsModel, put=__set__mainSettingsModel))  _mainSettingsModel;
+ GlobalNamespace::MainSettingsModelSO __declspec(property(get=__get__mainSettingsModel, put=__set__mainSettingsModel))  _mainSettingsModel;
 
-constexpr void __set__mainSettingsModel(::GlobalNamespace::MainSettingsModelSO value) ;
+constexpr void __set__mainSettingsModel(GlobalNamespace::MainSettingsModelSO value) ;
 
-constexpr ::GlobalNamespace::MainSettingsModelSO __get__mainSettingsModel() const;
+constexpr GlobalNamespace::MainSettingsModelSO __get__mainSettingsModel() const;
 
- ::GlobalNamespace::PS4ActivePublisherSKUSettingsSO __declspec(property(get=__get__activePublisherSKUSettingsSO, put=__set__activePublisherSKUSettingsSO))  _activePublisherSKUSettingsSO;
+ GlobalNamespace::PS4ActivePublisherSKUSettingsSO __declspec(property(get=__get__activePublisherSKUSettingsSO, put=__set__activePublisherSKUSettingsSO))  _activePublisherSKUSettingsSO;
 
-constexpr void __set__activePublisherSKUSettingsSO(::GlobalNamespace::PS4ActivePublisherSKUSettingsSO value) ;
+constexpr void __set__activePublisherSKUSettingsSO(GlobalNamespace::PS4ActivePublisherSKUSettingsSO value) ;
 
-constexpr ::GlobalNamespace::PS4ActivePublisherSKUSettingsSO __get__activePublisherSKUSettingsSO() const;
+constexpr GlobalNamespace::PS4ActivePublisherSKUSettingsSO __get__activePublisherSKUSettingsSO() const;
 
- ::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler __declspec(property(get=__get__sonyOnGoingToBackgroundSaveHandler, put=__set__sonyOnGoingToBackgroundSaveHandler))  _sonyOnGoingToBackgroundSaveHandler;
+ GlobalNamespace::SonyOnGoingToBackgroundSaveHandler __declspec(property(get=__get__sonyOnGoingToBackgroundSaveHandler, put=__set__sonyOnGoingToBackgroundSaveHandler))  _sonyOnGoingToBackgroundSaveHandler;
 
-constexpr void __set__sonyOnGoingToBackgroundSaveHandler(::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler value) ;
+constexpr void __set__sonyOnGoingToBackgroundSaveHandler(GlobalNamespace::SonyOnGoingToBackgroundSaveHandler value) ;
 
-constexpr ::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler __get__sonyOnGoingToBackgroundSaveHandler() const;
+constexpr GlobalNamespace::SonyOnGoingToBackgroundSaveHandler __get__sonyOnGoingToBackgroundSaveHandler() const;
 
- ::GlobalNamespace::ISaveData __declspec(property(get=__get__saveData, put=__set__saveData))  _saveData;
+ GlobalNamespace::ISaveData __declspec(property(get=__get__saveData, put=__set__saveData))  _saveData;
 
-constexpr void __set__saveData(::GlobalNamespace::ISaveData value) ;
+constexpr void __set__saveData(GlobalNamespace::ISaveData value) ;
 
-constexpr ::GlobalNamespace::ISaveData __get__saveData() const;
+constexpr GlobalNamespace::ISaveData __get__saveData() const;
 
 
 // Methods
@@ -136,6 +135,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PS4AppInit);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PS4AppInit, "", "PS4AppInit");
+NEED_NO_BOX(GlobalNamespace::PS4AppInit);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4AppInit, "", "PS4AppInit");

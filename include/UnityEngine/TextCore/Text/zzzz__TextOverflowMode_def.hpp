@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
 struct TextOverflowMode;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Overflow offset 0
-static ::UnityEngine::TextCore::Text::TextOverflowMode const Overflow;
+static UnityEngine::TextCore::Text::TextOverflowMode const Overflow;
 
 /// @brief Field Ellipsis offset 0
-static ::UnityEngine::TextCore::Text::TextOverflowMode const Ellipsis;
+static UnityEngine::TextCore::Text::TextOverflowMode const Ellipsis;
 
 /// @brief Field Masking offset 0
-static ::UnityEngine::TextCore::Text::TextOverflowMode const Masking;
+static UnityEngine::TextCore::Text::TextOverflowMode const Masking;
 
 /// @brief Field Truncate offset 0
-static ::UnityEngine::TextCore::Text::TextOverflowMode const Truncate;
+static UnityEngine::TextCore::Text::TextOverflowMode const Truncate;
 
 /// @brief Field ScrollRect offset 0
-static ::UnityEngine::TextCore::Text::TextOverflowMode const ScrollRect;
+static UnityEngine::TextCore::Text::TextOverflowMode const ScrollRect;
 
 /// @brief Field Page offset 0
-static ::UnityEngine::TextCore::Text::TextOverflowMode const Page;
+static UnityEngine::TextCore::Text::TextOverflowMode const Page;
 
 /// @brief Field Linked offset 0
-static ::UnityEngine::TextCore::Text::TextOverflowMode const Linked;
+static UnityEngine::TextCore::Text::TextOverflowMode const Linked;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::Text
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::TextOverflowMode, "UnityEngine.TextCore.Text", "TextOverflowMode");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Text::TextOverflowMode, "UnityEngine.TextCore.Text", "TextOverflowMode");

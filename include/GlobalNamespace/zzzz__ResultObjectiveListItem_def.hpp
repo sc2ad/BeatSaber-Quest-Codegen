@@ -2,18 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace UnityEngine::UI {
-class Image;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace UnityEngine {
 struct Color;
 }
+namespace UnityEngine::UI {
+class Image;
+}
 namespace UnityEngine {
 class Sprite;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,7 +24,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5896))
 // CS Name: ResultObjectiveListItem
-class CORDL_TYPE ResultObjectiveListItem : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ResultObjectiveListItem : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr ResultObjectiveListItem(ResultObjectiveListItem const& ) noexcept = de
 constexpr ResultObjectiveListItem(ResultObjectiveListItem&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ResultObjectiveListItem(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ResultObjectiveListItem(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -61,44 +60,44 @@ constexpr explicit ResultObjectiveListItem(void* ptr) noexcept : ::UnityEngine::
 
 // Fields
 
- ::UnityEngine::UI::Image __declspec(property(get=__get__icon, put=__set__icon))  _icon;
+ UnityEngine::UI::Image __declspec(property(get=__get__icon, put=__set__icon))  _icon;
 
-constexpr void __set__icon(::UnityEngine::UI::Image value) ;
+constexpr void __set__icon(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get__icon() const;
+constexpr UnityEngine::UI::Image __get__icon() const;
 
- ::UnityEngine::UI::Image __declspec(property(get=__get__iconGlow, put=__set__iconGlow))  _iconGlow;
+ UnityEngine::UI::Image __declspec(property(get=__get__iconGlow, put=__set__iconGlow))  _iconGlow;
 
-constexpr void __set__iconGlow(::UnityEngine::UI::Image value) ;
+constexpr void __set__iconGlow(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get__iconGlow() const;
+constexpr UnityEngine::UI::Image __get__iconGlow() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__titleText, put=__set__titleText))  _titleText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__titleText, put=__set__titleText))  _titleText;
 
-constexpr void __set__titleText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__titleText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__titleText() const;
+constexpr TMPro::TextMeshProUGUI __get__titleText() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__conditionText, put=__set__conditionText))  _conditionText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__conditionText, put=__set__conditionText))  _conditionText;
 
-constexpr void __set__conditionText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__conditionText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__conditionText() const;
+constexpr TMPro::TextMeshProUGUI __get__conditionText() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__valueText, put=__set__valueText))  _valueText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__valueText, put=__set__valueText))  _valueText;
 
-constexpr void __set__valueText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__valueText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__valueText() const;
+constexpr TMPro::TextMeshProUGUI __get__valueText() const;
 
 
 // Properties
 
- ::UnityEngine::Color __declspec(property(put=set_iconColor))  iconColor;
+ UnityEngine::Color __declspec(property(put=set_iconColor))  iconColor;
 
- ::UnityEngine::Sprite __declspec(property(put=set_icon))  icon;
+ UnityEngine::Sprite __declspec(property(put=set_icon))  icon;
 
- ::UnityEngine::Sprite __declspec(property(put=set_iconGlow))  iconGlow;
+ UnityEngine::Sprite __declspec(property(put=set_iconGlow))  iconGlow;
 
  ::StringW __declspec(property(put=set_title))  title;
 
@@ -114,13 +113,13 @@ constexpr ::TMPro::TextMeshProUGUI __get__valueText() const;
 // Methods
 
 /// @brief Method set_iconColor addr 0x218ec70 size 0x24 virtual false final false
- void set_iconColor(::UnityEngine::Color value) ;
+ void set_iconColor(UnityEngine::Color value) ;
 
 /// @brief Method set_icon addr 0x218ec94 size 0x1c virtual false final false
- void set_icon(::UnityEngine::Sprite value) ;
+ void set_icon(UnityEngine::Sprite value) ;
 
 /// @brief Method set_iconGlow addr 0x218ecb0 size 0x1c virtual false final false
- void set_iconGlow(::UnityEngine::Sprite value) ;
+ void set_iconGlow(UnityEngine::Sprite value) ;
 
 /// @brief Method set_title addr 0x218eccc size 0x24 virtual false final false
  void set_title(::StringW value) ;
@@ -147,6 +146,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ResultObjectiveListItem);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ResultObjectiveListItem, "", "ResultObjectiveListItem");
+NEED_NO_BOX(GlobalNamespace::ResultObjectiveListItem);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultObjectiveListItem, "", "ResultObjectiveListItem");

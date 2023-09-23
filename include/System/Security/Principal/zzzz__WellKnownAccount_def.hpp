@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Security::Principal {
 struct WellKnownSidType;
 }
@@ -53,11 +52,11 @@ constexpr explicit WellKnownAccount(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
- ::System::Security::Principal::WellKnownSidType __declspec(property(get=__get__WellKnownValue_k__BackingField, put=__set__WellKnownValue_k__BackingField))  _WellKnownValue_k__BackingField;
+ System::Security::Principal::WellKnownSidType __declspec(property(get=__get__WellKnownValue_k__BackingField, put=__set__WellKnownValue_k__BackingField))  _WellKnownValue_k__BackingField;
 
-constexpr void __set__WellKnownValue_k__BackingField(::System::Security::Principal::WellKnownSidType value) ;
+constexpr void __set__WellKnownValue_k__BackingField(System::Security::Principal::WellKnownSidType value) ;
 
-constexpr ::System::Security::Principal::WellKnownSidType __get__WellKnownValue_k__BackingField() const;
+constexpr System::Security::Principal::WellKnownSidType __get__WellKnownValue_k__BackingField() const;
 
  bool __declspec(property(get=__get__IsAbsolute_k__BackingField, put=__set__IsAbsolute_k__BackingField))  _IsAbsolute_k__BackingField;
 
@@ -89,16 +88,16 @@ constexpr void __set__SddlForm_k__BackingField(::StringW value) ;
 
 constexpr ::StringW __get__SddlForm_k__BackingField() const;
 
-static ::ArrayW<::System::Security::Principal::WellKnownAccount> __declspec(property(get=__get_accounts, put=__set_accounts))  accounts;
+static ::ArrayW<System::Security::Principal::WellKnownAccount> __declspec(property(get=__get_accounts, put=__set_accounts))  accounts;
 
-static void __set_accounts(::ArrayW<::System::Security::Principal::WellKnownAccount> value) ;
+static void __set_accounts(::ArrayW<System::Security::Principal::WellKnownAccount> value) ;
 
-static ::ArrayW<::System::Security::Principal::WellKnownAccount> __get_accounts() ;
+static ::ArrayW<System::Security::Principal::WellKnownAccount> __get_accounts() ;
 
 
 // Properties
 
- ::System::Security::Principal::WellKnownSidType __declspec(property(put=set_WellKnownValue))  WellKnownValue;
+ System::Security::Principal::WellKnownSidType __declspec(property(put=set_WellKnownValue))  WellKnownValue;
 
  bool __declspec(property(get=get_IsAbsolute, put=set_IsAbsolute))  IsAbsolute;
 
@@ -114,7 +113,7 @@ static ::ArrayW<::System::Security::Principal::WellKnownAccount> __get_accounts(
 // Methods
 
 /// @brief Method set_WellKnownValue addr 0x230d564 size 0x8 virtual false final false
- void set_WellKnownValue(::System::Security::Principal::WellKnownSidType value) ;
+ void set_WellKnownValue(System::Security::Principal::WellKnownSidType value) ;
 
 /// @brief Method get_IsAbsolute addr 0x230d56c size 0x8 virtual false final false
  bool get_IsAbsolute() ;
@@ -144,13 +143,13 @@ static ::ArrayW<::System::Security::Principal::WellKnownAccount> __get_accounts(
  void set_SddlForm(::StringW value) ;
 
 /// @brief Method LookupBySid addr 0x230d1e4 size 0xc0 virtual false final false
-static ::System::Security::Principal::WellKnownAccount LookupBySid(::StringW s) ;
+static System::Security::Principal::WellKnownAccount LookupBySid(::StringW s) ;
 
 /// @brief Method LookupByName addr 0x230c0a8 size 0xc0 virtual false final false
-static ::System::Security::Principal::WellKnownAccount LookupByName(::StringW s) ;
+static System::Security::Principal::WellKnownAccount LookupByName(::StringW s) ;
 
 /// @brief Method LookupBySddlForm addr 0x230d2a4 size 0xc0 virtual false final false
-static ::System::Security::Principal::WellKnownAccount LookupBySddlForm(::StringW s) ;
+static System::Security::Principal::WellKnownAccount LookupBySddlForm(::StringW s) ;
 
 // Ctor Parameters []
 explicit WellKnownAccount() ;
@@ -162,6 +161,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Principal
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Principal::WellKnownAccount);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Principal::WellKnownAccount, "System.Security.Principal", "WellKnownAccount");
+NEED_NO_BOX(System::Security::Principal::WellKnownAccount);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::WellKnownAccount, "System.Security.Principal", "WellKnownAccount");

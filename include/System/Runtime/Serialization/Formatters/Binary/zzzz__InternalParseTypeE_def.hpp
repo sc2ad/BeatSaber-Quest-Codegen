@@ -2,7 +2,6 @@
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
 struct InternalParseTypeE;
@@ -78,47 +77,46 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Empty offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const Empty;
+static System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const Empty;
 
 /// @brief Field SerializedStreamHeader offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const SerializedStreamHeader;
+static System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const SerializedStreamHeader;
 
 /// @brief Field Object offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const Object;
+static System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const Object;
 
 /// @brief Field Member offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const Member;
+static System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const Member;
 
 /// @brief Field ObjectEnd offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const ObjectEnd;
+static System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const ObjectEnd;
 
 /// @brief Field MemberEnd offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const MemberEnd;
+static System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const MemberEnd;
 
 /// @brief Field Headers offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const Headers;
+static System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const Headers;
 
 /// @brief Field HeadersEnd offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const HeadersEnd;
+static System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const HeadersEnd;
 
 /// @brief Field SerializedStreamHeaderEnd offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const SerializedStreamHeaderEnd;
+static System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const SerializedStreamHeaderEnd;
 
 /// @brief Field Envelope offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const Envelope;
+static System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const Envelope;
 
 /// @brief Field EnvelopeEnd offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const EnvelopeEnd;
+static System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const EnvelopeEnd;
 
 /// @brief Field Body offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const Body;
+static System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const Body;
 
 /// @brief Field BodyEnd offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const BodyEnd;
+static System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const BodyEnd;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization::Formatters::Binary
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE, "System.Runtime.Serialization.Formatters.Binary", "InternalParseTypeE");
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE, "System.Runtime.Serialization.Formatters.Binary", "InternalParseTypeE");

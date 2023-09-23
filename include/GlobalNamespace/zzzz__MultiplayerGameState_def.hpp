@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 struct MultiplayerGameState;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::GlobalNamespace::MultiplayerGameState const None;
+static GlobalNamespace::MultiplayerGameState const None;
 
 /// @brief Field Lobby offset 0
-static ::GlobalNamespace::MultiplayerGameState const Lobby;
+static GlobalNamespace::MultiplayerGameState const Lobby;
 
 /// @brief Field Game offset 0
-static ::GlobalNamespace::MultiplayerGameState const Game;
+static GlobalNamespace::MultiplayerGameState const Game;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerGameState, "", "MultiplayerGameState");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerGameState, "", "MultiplayerGameState");

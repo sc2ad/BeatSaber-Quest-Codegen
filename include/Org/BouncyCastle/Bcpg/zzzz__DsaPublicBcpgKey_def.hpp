@@ -4,9 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
+}
+namespace Org::BouncyCastle::Bcpg {
+class IBcpgKey;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
@@ -16,9 +18,6 @@ class BcpgOutputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
 class MPInteger;
-}
-namespace Org::BouncyCastle::Bcpg {
-class IBcpgKey;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -30,11 +29,11 @@ namespace Org::BouncyCastle::Bcpg {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(554))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(563))
 // CS Name: Org.BouncyCastle.Bcpg.DsaPublicBcpgKey
-class CORDL_TYPE DsaPublicBcpgKey : public ::Org::BouncyCastle::Bcpg::BcpgObject {
+class CORDL_TYPE DsaPublicBcpgKey : public Org::BouncyCastle::Bcpg::BcpgObject {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Bcpg::IBcpgKey
-constexpr operator  ::Org::BouncyCastle::Bcpg::IBcpgKey() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Bcpg::IBcpgKey
+constexpr operator  Org::BouncyCastle::Bcpg::IBcpgKey() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -48,7 +47,7 @@ constexpr DsaPublicBcpgKey(DsaPublicBcpgKey const& ) noexcept = default;
 constexpr DsaPublicBcpgKey(DsaPublicBcpgKey&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DsaPublicBcpgKey(void* ptr) noexcept : ::Org::BouncyCastle::Bcpg::BcpgObject(ptr) {
+constexpr explicit DsaPublicBcpgKey(void* ptr) noexcept : Org::BouncyCastle::Bcpg::BcpgObject(ptr) {
 }
 
 
@@ -69,57 +68,57 @@ constexpr explicit DsaPublicBcpgKey(void* ptr) noexcept : ::Org::BouncyCastle::B
 
 // Fields
 
- ::Org::BouncyCastle::Bcpg::MPInteger __declspec(property(get=__get_p, put=__set_p))  p;
+ Org::BouncyCastle::Bcpg::MPInteger __declspec(property(get=__get_p, put=__set_p))  p;
 
-constexpr void __set_p(::Org::BouncyCastle::Bcpg::MPInteger value) ;
+constexpr void __set_p(Org::BouncyCastle::Bcpg::MPInteger value) ;
 
-constexpr ::Org::BouncyCastle::Bcpg::MPInteger __get_p() const;
+constexpr Org::BouncyCastle::Bcpg::MPInteger __get_p() const;
 
- ::Org::BouncyCastle::Bcpg::MPInteger __declspec(property(get=__get_q, put=__set_q))  q;
+ Org::BouncyCastle::Bcpg::MPInteger __declspec(property(get=__get_q, put=__set_q))  q;
 
-constexpr void __set_q(::Org::BouncyCastle::Bcpg::MPInteger value) ;
+constexpr void __set_q(Org::BouncyCastle::Bcpg::MPInteger value) ;
 
-constexpr ::Org::BouncyCastle::Bcpg::MPInteger __get_q() const;
+constexpr Org::BouncyCastle::Bcpg::MPInteger __get_q() const;
 
- ::Org::BouncyCastle::Bcpg::MPInteger __declspec(property(get=__get_g, put=__set_g))  g;
+ Org::BouncyCastle::Bcpg::MPInteger __declspec(property(get=__get_g, put=__set_g))  g;
 
-constexpr void __set_g(::Org::BouncyCastle::Bcpg::MPInteger value) ;
+constexpr void __set_g(Org::BouncyCastle::Bcpg::MPInteger value) ;
 
-constexpr ::Org::BouncyCastle::Bcpg::MPInteger __get_g() const;
+constexpr Org::BouncyCastle::Bcpg::MPInteger __get_g() const;
 
- ::Org::BouncyCastle::Bcpg::MPInteger __declspec(property(get=__get_y, put=__set_y))  y;
+ Org::BouncyCastle::Bcpg::MPInteger __declspec(property(get=__get_y, put=__set_y))  y;
 
-constexpr void __set_y(::Org::BouncyCastle::Bcpg::MPInteger value) ;
+constexpr void __set_y(Org::BouncyCastle::Bcpg::MPInteger value) ;
 
-constexpr ::Org::BouncyCastle::Bcpg::MPInteger __get_y() const;
+constexpr Org::BouncyCastle::Bcpg::MPInteger __get_y() const;
 
 
 // Properties
 
  ::StringW __declspec(property(get=get_Format))  Format;
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_G))  G;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_G))  G;
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_P))  P;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_P))  P;
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_Q))  Q;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_Q))  Q;
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_Y))  Y;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_Y))  Y;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "::Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
-explicit DsaPublicBcpgKey(::Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
+explicit DsaPublicBcpgKey(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
 /// @brief Method .ctor addr 0x1146330 size 0xcc virtual false final false
- void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+ void _ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
-// Ctor Parameters [CppParam { name: "p", ty: "::Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "q", ty: "::Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "g", ty: "::Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "y", ty: "::Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit DsaPublicBcpgKey(::Org::BouncyCastle::Math::BigInteger p, ::Org::BouncyCastle::Math::BigInteger q, ::Org::BouncyCastle::Math::BigInteger g, ::Org::BouncyCastle::Math::BigInteger y) ;
+// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "y", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
+explicit DsaPublicBcpgKey(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger y) ;
 
 /// @brief Method .ctor addr 0x114653c size 0xe0 virtual false final false
- void _ctor(::Org::BouncyCastle::Math::BigInteger p, ::Org::BouncyCastle::Math::BigInteger q, ::Org::BouncyCastle::Math::BigInteger g, ::Org::BouncyCastle::Math::BigInteger y) ;
+ void _ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger y) ;
 
 /// @brief Method get_Format addr 0x11466e8 size 0x40 virtual true final true
  ::StringW get_Format() ;
@@ -128,24 +127,23 @@ explicit DsaPublicBcpgKey(::Org::BouncyCastle::Math::BigInteger p, ::Org::Bouncy
  ::ArrayW<uint8_t> GetEncoded() ;
 
 /// @brief Method Encode addr 0x11467ac size 0x12c virtual true final false
- void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream bcpgOut) ;
+ void Encode(Org::BouncyCastle::Bcpg::BcpgOutputStream bcpgOut) ;
 
 /// @brief Method get_G addr 0x11468d8 size 0x1c virtual false final false
- ::Org::BouncyCastle::Math::BigInteger get_G() ;
+ Org::BouncyCastle::Math::BigInteger get_G() ;
 
 /// @brief Method get_P addr 0x11468f4 size 0x1c virtual false final false
- ::Org::BouncyCastle::Math::BigInteger get_P() ;
+ Org::BouncyCastle::Math::BigInteger get_P() ;
 
 /// @brief Method get_Q addr 0x1146910 size 0x1c virtual false final false
- ::Org::BouncyCastle::Math::BigInteger get_Q() ;
+ Org::BouncyCastle::Math::BigInteger get_Q() ;
 
 /// @brief Method get_Y addr 0x114692c size 0x1c virtual false final false
- ::Org::BouncyCastle::Math::BigInteger get_Y() ;
+ Org::BouncyCastle::Math::BigInteger get_Y() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::DsaPublicBcpgKey);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::DsaPublicBcpgKey, "Org.BouncyCastle.Bcpg", "DsaPublicBcpgKey");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::DsaPublicBcpgKey);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::DsaPublicBcpgKey, "Org.BouncyCastle.Bcpg", "DsaPublicBcpgKey");

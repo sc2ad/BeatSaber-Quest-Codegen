@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 class Texture2D;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14654))
 // CS Name: BlueNoiseDithering
-class CORDL_TYPE BlueNoiseDithering : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE BlueNoiseDithering : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr BlueNoiseDithering(BlueNoiseDithering const& ) noexcept = default;
 constexpr BlueNoiseDithering(BlueNoiseDithering&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BlueNoiseDithering(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit BlueNoiseDithering(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -52,11 +51,11 @@ constexpr explicit BlueNoiseDithering(void* ptr) noexcept : ::GlobalNamespace::P
 
 // Fields
 
- ::UnityEngine::Texture2D __declspec(property(get=__get__noiseTexture, put=__set__noiseTexture))  _noiseTexture;
+ UnityEngine::Texture2D __declspec(property(get=__get__noiseTexture, put=__set__noiseTexture))  _noiseTexture;
 
-constexpr void __set__noiseTexture(::UnityEngine::Texture2D value) ;
+constexpr void __set__noiseTexture(UnityEngine::Texture2D value) ;
 
-constexpr ::UnityEngine::Texture2D __get__noiseTexture() const;
+constexpr UnityEngine::Texture2D __get__noiseTexture() const;
 
 static int32_t __declspec(property(get=__get__noiseParamsID, put=__set__noiseParamsID))  _noiseParamsID;
 
@@ -86,6 +85,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BlueNoiseDithering);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BlueNoiseDithering, "", "BlueNoiseDithering");
+NEED_NO_BOX(GlobalNamespace::BlueNoiseDithering);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BlueNoiseDithering, "", "BlueNoiseDithering");

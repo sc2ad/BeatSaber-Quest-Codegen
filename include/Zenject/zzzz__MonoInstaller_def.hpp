@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__MonoInstallerBase_def.hpp"
-namespace {
 namespace Zenject {
 class InjectTypeInfo;
 }
@@ -15,7 +14,7 @@ namespace Zenject {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11088))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11080))
 // CS Name: Zenject.MonoInstaller
-class CORDL_TYPE MonoInstaller : public ::Zenject::MonoInstallerBase {
+class CORDL_TYPE MonoInstaller : public Zenject::MonoInstallerBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr MonoInstaller(MonoInstaller const& ) noexcept = default;
 constexpr MonoInstaller(MonoInstaller&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MonoInstaller(void* ptr) noexcept : ::Zenject::MonoInstallerBase(ptr) {
+constexpr explicit MonoInstaller(void* ptr) noexcept : Zenject::MonoInstallerBase(ptr) {
 }
 
 
@@ -58,12 +57,11 @@ explicit MonoInstaller() ;
  void _ctor() ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x2d7ba90 size 0x178 virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::MonoInstaller);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::MonoInstaller, "Zenject", "MonoInstaller");
+NEED_NO_BOX(Zenject::MonoInstaller);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::MonoInstaller, "Zenject", "MonoInstaller");

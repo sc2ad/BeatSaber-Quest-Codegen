@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Collections {
-class Stack;
-}
 namespace System {
 struct DateTime;
+}
+namespace System::Collections {
+class Stack;
 }
 // Forward declare root types
 namespace System::Diagnostics {
@@ -74,11 +73,11 @@ constexpr void __set_timeStamp(int64_t value) ;
 
 constexpr int64_t __get_timeStamp() const;
 
- ::System::DateTime __declspec(property(get=__get_dateTime, put=__set_dateTime))  dateTime;
+ System::DateTime __declspec(property(get=__get_dateTime, put=__set_dateTime))  dateTime;
 
-constexpr void __set_dateTime(::System::DateTime value) ;
+constexpr void __set_dateTime(System::DateTime value) ;
 
-constexpr ::System::DateTime __get_dateTime() const;
+constexpr System::DateTime __get_dateTime() const;
 
  ::StringW __declspec(property(get=__get_stackTrace, put=__set_stackTrace))  stackTrace;
 
@@ -91,9 +90,9 @@ constexpr ::StringW __get_stackTrace() const;
 
  ::StringW __declspec(property(get=get_Callstack))  Callstack;
 
- ::System::Collections::Stack __declspec(property(get=get_LogicalOperationStack))  LogicalOperationStack;
+ System::Collections::Stack __declspec(property(get=get_LogicalOperationStack))  LogicalOperationStack;
 
- ::System::DateTime __declspec(property(get=get_DateTime))  DateTime;
+ System::DateTime __declspec(property(get=get_DateTime))  DateTime;
 
  int32_t __declspec(property(get=get_ProcessId))  ProcessId;
 
@@ -108,10 +107,10 @@ constexpr ::StringW __get_stackTrace() const;
  ::StringW get_Callstack() ;
 
 /// @brief Method get_LogicalOperationStack addr 0x27da7d4 size 0x18 virtual false final false
- ::System::Collections::Stack get_LogicalOperationStack() ;
+ System::Collections::Stack get_LogicalOperationStack() ;
 
 /// @brief Method get_DateTime addr 0x27da7ec size 0x94 virtual false final false
- ::System::DateTime get_DateTime() ;
+ System::DateTime get_DateTime() ;
 
 /// @brief Method get_ProcessId addr 0x27da880 size 0x4 virtual false final false
  int32_t get_ProcessId() ;
@@ -141,6 +140,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Diagnostics
-} // end anonymous namespace
-NEED_NO_BOX(::System::Diagnostics::TraceEventCache);
-DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::TraceEventCache, "System.Diagnostics", "TraceEventCache");
+NEED_NO_BOX(System::Diagnostics::TraceEventCache);
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::TraceEventCache, "System.Diagnostics", "TraceEventCache");

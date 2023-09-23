@@ -1,18 +1,17 @@
 #pragma once
-namespace {
 #include "GlobalNamespace/zzzz__BloomFilterUtil_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "GlobalNamespace/zzzz__BitMask128_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::BloomFilterUtil.MurmurHash2
+//  Writing Method size for method: GlobalNamespace::BloomFilterUtil.MurmurHash2
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::StringW)>(&::GlobalNamespace::BloomFilterUtil::MurmurHash2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::StringW)>(&GlobalNamespace::BloomFilterUtil::MurmurHash2)> {
   constexpr static std::size_t size = 0x174;
   constexpr static std::size_t addrs = 0x1214e18;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomFilterUtil>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BloomFilterUtil>::get(),
                             "MurmurHash2",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
@@ -20,9 +19,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*
     return ___internal_method;
   }
 };
- uint32_t ::GlobalNamespace::BloomFilterUtil::MurmurHash2(::StringW key)  {
+ uint32_t GlobalNamespace::BloomFilterUtil::MurmurHash2(::StringW key)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomFilterUtil>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BloomFilterUtil>::get(),
                             "MurmurHash2",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
@@ -32,9 +31,9 @@ return ::cordl_internals::RunMethodRethrow<uint32_t, false>(nullptr, ___internal
 /// @param hashCount: int32_t (default: 3)
 /// @param hashBits: int32_t (default: 8)
 template<typename T>
- T ::GlobalNamespace::BloomFilterUtil::ToBloomFilter(::StringW value, int32_t hashCount, int32_t hashBits)  {
+ T GlobalNamespace::BloomFilterUtil::ToBloomFilter(::StringW value, int32_t hashCount, int32_t hashBits)  {
 static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomFilterUtil>::get(),
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BloomFilterUtil>::get(),
                         "ToBloomFilter",
                         std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
                         ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
@@ -48,12 +47,12 @@ return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method
 /// @param hashCount: int32_t (default: 3)
 /// @param hashBits: int32_t (default: 8)
 template<typename T>
- T ::GlobalNamespace::BloomFilterUtil::ToBloomFilter(::System::Collections::Generic::IEnumerable_1<::StringW> strings, int32_t hashCount, int32_t hashBits)  {
+ T GlobalNamespace::BloomFilterUtil::ToBloomFilter(System::Collections::Generic::IEnumerable_1<::StringW> strings, int32_t hashCount, int32_t hashBits)  {
 static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomFilterUtil>::get(),
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BloomFilterUtil>::get(),
                         "ToBloomFilter",
                         std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                        ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::StringW>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Collections::Generic::IEnumerable_1<::StringW>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
                     )));
 static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
                         ___internal_method_base,
@@ -64,9 +63,9 @@ return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method
 /// @param hashCount: int32_t (default: 3)
 /// @param hashBits: int32_t (default: 8)
 template<typename T>
- T ::GlobalNamespace::BloomFilterUtil::AddBloomFilterEntry(T bitMask, ::StringW value, int32_t hashCount, int32_t hashBits)  {
+ T GlobalNamespace::BloomFilterUtil::AddBloomFilterEntry(T bitMask, ::StringW value, int32_t hashCount, int32_t hashBits)  {
 static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomFilterUtil>::get(),
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BloomFilterUtil>::get(),
                         "AddBloomFilterEntry",
                         std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
                         ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
@@ -80,9 +79,9 @@ return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method
 /// @param hashCount: int32_t (default: 3)
 /// @param hashBits: int32_t (default: 8)
 template<typename T>
- bool ::GlobalNamespace::BloomFilterUtil::ContainsBloomFilterEntry(T bitMask, ::StringW value, int32_t hashCount, int32_t hashBits)  {
+ bool GlobalNamespace::BloomFilterUtil::ContainsBloomFilterEntry(T bitMask, ::StringW value, int32_t hashCount, int32_t hashBits)  {
 static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomFilterUtil>::get(),
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BloomFilterUtil>::get(),
                         "ContainsBloomFilterEntry",
                         std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
                         ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
@@ -93,16 +92,16 @@ static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod
                         ));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, bitMask, value, hashCount, hashBits);
 }
-//  Writing Method size for method: ::GlobalNamespace::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1._ctor
+//  Writing Method size for method: GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1._ctor
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1::*)()>(&::GlobalNamespace::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1::_ctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1::*)()>(&GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1::_ctor)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -110,16 +109,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Glo
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1._ToBloomFilter_b__0
+//  Writing Method size for method: GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1._ToBloomFilter_b__0
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<T (::GlobalNamespace::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1::*)(T, ::StringW)>(&::GlobalNamespace::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1::_ToBloomFilter_b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<T (GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1::*)(T, ::StringW)>(&GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1::_ToBloomFilter_b__0)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1>::get(),
                             "<ToBloomFilter>b__0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
@@ -127,48 +126,48 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<T (::Global
     return ___internal_method;
   }
 };
-constexpr void ::GlobalNamespace::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1::__set_hashCount(int32_t value)  {
+constexpr void GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1::__set_hashCount(int32_t value)  {
 ::cordl_internals::setInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<int32_t>(value));
 }
-constexpr int32_t ::GlobalNamespace::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1::__get_hashCount() const {
+constexpr int32_t GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1::__get_hashCount() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void ::GlobalNamespace::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1::__set_hashBits(int32_t value)  {
+constexpr void GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1::__set_hashBits(int32_t value)  {
 ::cordl_internals::setInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<int32_t>(value));
 }
-constexpr int32_t ::GlobalNamespace::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1::__get_hashBits() const {
+constexpr int32_t GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1::__get_hashBits() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
 // Ctor Parameters []
- ::GlobalNamespace::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1>())) {}
- void ::GlobalNamespace::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1::_ctor()  {
+ GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1>())) {}
+ void GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- T ::GlobalNamespace::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1::_ToBloomFilter_b__0(T bloomFilter, ::StringW str)  {
+ T GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1::_ToBloomFilter_b__0(T bloomFilter, ::StringW str)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1>::get(),
                             "<ToBloomFilter>b__0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<T, false>(const_cast<void*>(instance), ___internal_method, bloomFilter, str);
 }
-//  Writing Method size for method: ::GlobalNamespace::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<::GlobalNamespace::BitMask128>._ctor
+//  Writing Method size for method: GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<GlobalNamespace::BitMask128>._ctor
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<::GlobalNamespace::BitMask128>::*)()>(&::GlobalNamespace::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<::GlobalNamespace::BitMask128>::_ctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<GlobalNamespace::BitMask128>::*)()>(&GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<GlobalNamespace::BitMask128>::_ctor)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<::GlobalNamespace::BitMask128>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<GlobalNamespace::BitMask128>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -176,53 +175,52 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Glo
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<::GlobalNamespace::BitMask128>._ToBloomFilter_b__0
+//  Writing Method size for method: GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<GlobalNamespace::BitMask128>._ToBloomFilter_b__0
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BitMask128 (::GlobalNamespace::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<::GlobalNamespace::BitMask128>::*)(::GlobalNamespace::BitMask128, ::StringW)>(&::GlobalNamespace::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<::GlobalNamespace::BitMask128>::_ToBloomFilter_b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BitMask128 (GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<GlobalNamespace::BitMask128>::*)(GlobalNamespace::BitMask128, ::StringW)>(&GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<GlobalNamespace::BitMask128>::_ToBloomFilter_b__0)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<::GlobalNamespace::BitMask128>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<GlobalNamespace::BitMask128>>::get(),
                             "<ToBloomFilter>b__0",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BitMask128>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<GlobalNamespace::BitMask128>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
                         )));
     return ___internal_method;
   }
 };
-constexpr void ::GlobalNamespace::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<::GlobalNamespace::BitMask128>::__set_hashCount(int32_t value)  {
+constexpr void GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<GlobalNamespace::BitMask128>::__set_hashCount(int32_t value)  {
 ::cordl_internals::setInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<int32_t>(value));
 }
-constexpr int32_t ::GlobalNamespace::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<::GlobalNamespace::BitMask128>::__get_hashCount() const {
+constexpr int32_t GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<GlobalNamespace::BitMask128>::__get_hashCount() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void ::GlobalNamespace::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<::GlobalNamespace::BitMask128>::__set_hashBits(int32_t value)  {
+constexpr void GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<GlobalNamespace::BitMask128>::__set_hashBits(int32_t value)  {
 ::cordl_internals::setInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<int32_t>(value));
 }
-constexpr int32_t ::GlobalNamespace::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<::GlobalNamespace::BitMask128>::__get_hashBits() const {
+constexpr int32_t GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<GlobalNamespace::BitMask128>::__get_hashBits() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
 // Ctor Parameters []
- ::GlobalNamespace::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<::GlobalNamespace::BitMask128>::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1>())) {}
- void ::GlobalNamespace::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<::GlobalNamespace::BitMask128>::_ctor()  {
+ GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<GlobalNamespace::BitMask128>::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1>())) {}
+ void GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<GlobalNamespace::BitMask128>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<::GlobalNamespace::BitMask128>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<GlobalNamespace::BitMask128>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- ::GlobalNamespace::BitMask128 ::GlobalNamespace::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<::GlobalNamespace::BitMask128>::_ToBloomFilter_b__0(::GlobalNamespace::BitMask128 bloomFilter, ::StringW str)  {
+ GlobalNamespace::BitMask128 GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<GlobalNamespace::BitMask128>::_ToBloomFilter_b__0(GlobalNamespace::BitMask128 bloomFilter, ::StringW str)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::____GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<::GlobalNamespace::BitMask128>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<GlobalNamespace::BitMask128>>::get(),
                             "<ToBloomFilter>b__0",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BitMask128>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<GlobalNamespace::BitMask128>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BitMask128, false>(const_cast<void*>(instance), ___internal_method, bloomFilter, str);
+return ::cordl_internals::RunMethodRethrow<GlobalNamespace::BitMask128, false>(const_cast<void*>(instance), ___internal_method, bloomFilter, str);
 }
-} // end anonymous namespace

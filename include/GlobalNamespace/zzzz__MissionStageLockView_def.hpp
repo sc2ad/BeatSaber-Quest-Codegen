@@ -3,7 +3,6 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
 namespace TMPro {
 class TMP_Text;
 }
@@ -20,7 +19,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5641))
 // CS Name: MissionStageLockView
-class CORDL_TYPE MissionStageLockView : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MissionStageLockView : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr MissionStageLockView(MissionStageLockView const& ) noexcept = default;
 constexpr MissionStageLockView(MissionStageLockView&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MissionStageLockView(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MissionStageLockView(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -56,17 +55,17 @@ constexpr explicit MissionStageLockView(void* ptr) noexcept : ::UnityEngine::Mon
 
 // Fields
 
- ::TMPro::TMP_Text __declspec(property(get=__get__text, put=__set__text))  _text;
+ TMPro::TMP_Text __declspec(property(get=__get__text, put=__set__text))  _text;
 
-constexpr void __set__text(::TMPro::TMP_Text value) ;
+constexpr void __set__text(TMPro::TMP_Text value) ;
 
-constexpr ::TMPro::TMP_Text __get__text() const;
+constexpr TMPro::TMP_Text __get__text() const;
 
- ::UnityEngine::RectTransform __declspec(property(get=__get__rectTransform, put=__set__rectTransform))  _rectTransform;
+ UnityEngine::RectTransform __declspec(property(get=__get__rectTransform, put=__set__rectTransform))  _rectTransform;
 
-constexpr void __set__rectTransform(::UnityEngine::RectTransform value) ;
+constexpr void __set__rectTransform(UnityEngine::RectTransform value) ;
 
-constexpr ::UnityEngine::RectTransform __get__rectTransform() const;
+constexpr UnityEngine::RectTransform __get__rectTransform() const;
 
  float_t __declspec(property(get=__get__dstPosY, put=__set__dstPosY))  _dstPosY;
 
@@ -108,6 +107,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MissionStageLockView);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionStageLockView, "", "MissionStageLockView");
+NEED_NO_BOX(GlobalNamespace::MissionStageLockView);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionStageLockView, "", "MissionStageLockView");

@@ -2,15 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
-class Rigidbody2D;
+struct Vector3;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
-struct Vector3;
+class Rigidbody2D;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,7 +21,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13817))
 // CS Name: PhysicsFollow
-class CORDL_TYPE PhysicsFollow : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE PhysicsFollow : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr PhysicsFollow(PhysicsFollow const& ) noexcept = default;
 constexpr PhysicsFollow(PhysicsFollow&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PhysicsFollow(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit PhysicsFollow(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -58,17 +57,17 @@ constexpr explicit PhysicsFollow(void* ptr) noexcept : ::UnityEngine::MonoBehavi
 
 // Fields
 
- ::UnityEngine::Transform __declspec(property(get=__get__targetTransform, put=__set__targetTransform))  _targetTransform;
+ UnityEngine::Transform __declspec(property(get=__get__targetTransform, put=__set__targetTransform))  _targetTransform;
 
-constexpr void __set__targetTransform(::UnityEngine::Transform value) ;
+constexpr void __set__targetTransform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__targetTransform() const;
+constexpr UnityEngine::Transform __get__targetTransform() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__offset, put=__set__offset))  _offset;
+ UnityEngine::Vector3 __declspec(property(get=__get__offset, put=__set__offset))  _offset;
 
-constexpr void __set__offset(::UnityEngine::Vector3 value) ;
+constexpr void __set__offset(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__offset() const;
+constexpr UnityEngine::Vector3 __get__offset() const;
 
  float_t __declspec(property(get=__get__friction, put=__set__friction))  _friction;
 
@@ -82,11 +81,11 @@ constexpr void __set__elasticity(float_t value) ;
 
 constexpr float_t __get__elasticity() const;
 
- ::UnityEngine::Rigidbody2D __declspec(property(get=__get__rigidBody2D, put=__set__rigidBody2D))  _rigidBody2D;
+ UnityEngine::Rigidbody2D __declspec(property(get=__get__rigidBody2D, put=__set__rigidBody2D))  _rigidBody2D;
 
-constexpr void __set__rigidBody2D(::UnityEngine::Rigidbody2D value) ;
+constexpr void __set__rigidBody2D(UnityEngine::Rigidbody2D value) ;
 
-constexpr ::UnityEngine::Rigidbody2D __get__rigidBody2D() const;
+constexpr UnityEngine::Rigidbody2D __get__rigidBody2D() const;
 
 
 // Methods
@@ -107,6 +106,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PhysicsFollow);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PhysicsFollow, "", "PhysicsFollow");
+NEED_NO_BOX(GlobalNamespace::PhysicsFollow);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PhysicsFollow, "", "PhysicsFollow");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Newtonsoft::Json {
 struct JsonToken;
@@ -83,62 +82,61 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::Newtonsoft::Json::JsonToken const None;
+static Newtonsoft::Json::JsonToken const None;
 
 /// @brief Field StartObject offset 0
-static ::Newtonsoft::Json::JsonToken const StartObject;
+static Newtonsoft::Json::JsonToken const StartObject;
 
 /// @brief Field StartArray offset 0
-static ::Newtonsoft::Json::JsonToken const StartArray;
+static Newtonsoft::Json::JsonToken const StartArray;
 
 /// @brief Field StartConstructor offset 0
-static ::Newtonsoft::Json::JsonToken const StartConstructor;
+static Newtonsoft::Json::JsonToken const StartConstructor;
 
 /// @brief Field PropertyName offset 0
-static ::Newtonsoft::Json::JsonToken const PropertyName;
+static Newtonsoft::Json::JsonToken const PropertyName;
 
 /// @brief Field Comment offset 0
-static ::Newtonsoft::Json::JsonToken const Comment;
+static Newtonsoft::Json::JsonToken const Comment;
 
 /// @brief Field Raw offset 0
-static ::Newtonsoft::Json::JsonToken const Raw;
+static Newtonsoft::Json::JsonToken const Raw;
 
 /// @brief Field Integer offset 0
-static ::Newtonsoft::Json::JsonToken const Integer;
+static Newtonsoft::Json::JsonToken const Integer;
 
 /// @brief Field Float offset 0
-static ::Newtonsoft::Json::JsonToken const Float;
+static Newtonsoft::Json::JsonToken const Float;
 
 /// @brief Field String offset 0
-static ::Newtonsoft::Json::JsonToken const String;
+static Newtonsoft::Json::JsonToken const String;
 
 /// @brief Field Boolean offset 0
-static ::Newtonsoft::Json::JsonToken const Boolean;
+static Newtonsoft::Json::JsonToken const Boolean;
 
 /// @brief Field Null offset 0
-static ::Newtonsoft::Json::JsonToken const Null;
+static Newtonsoft::Json::JsonToken const Null;
 
 /// @brief Field Undefined offset 0
-static ::Newtonsoft::Json::JsonToken const Undefined;
+static Newtonsoft::Json::JsonToken const Undefined;
 
 /// @brief Field EndObject offset 0
-static ::Newtonsoft::Json::JsonToken const EndObject;
+static Newtonsoft::Json::JsonToken const EndObject;
 
 /// @brief Field EndArray offset 0
-static ::Newtonsoft::Json::JsonToken const EndArray;
+static Newtonsoft::Json::JsonToken const EndArray;
 
 /// @brief Field EndConstructor offset 0
-static ::Newtonsoft::Json::JsonToken const EndConstructor;
+static Newtonsoft::Json::JsonToken const EndConstructor;
 
 /// @brief Field Date offset 0
-static ::Newtonsoft::Json::JsonToken const Date;
+static Newtonsoft::Json::JsonToken const Date;
 
 /// @brief Field Bytes offset 0
-static ::Newtonsoft::Json::JsonToken const Bytes;
+static Newtonsoft::Json::JsonToken const Bytes;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonToken, "Newtonsoft.Json", "JsonToken");
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::JsonToken, "Newtonsoft.Json", "JsonToken");

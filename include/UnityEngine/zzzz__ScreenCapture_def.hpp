@@ -4,10 +4,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
-struct ____UnityEngine__ScreenCapture__StereoScreenCaptureMode;
+struct UnityEngine__ScreenCapture__StereoScreenCaptureMode;
 }
 namespace UnityEngine {
 class ScreenCapture;
@@ -18,20 +17,20 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16011))
 // CS Name: UnityEngine.ScreenCapture::StereoScreenCaptureMode
-struct CORDL_TYPE ____UnityEngine__ScreenCapture__StereoScreenCaptureMode : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__ScreenCapture__StereoScreenCaptureMode : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__ScreenCapture__StereoScreenCaptureMode(int32_t value__) noexcept;
+constexpr UnityEngine__ScreenCapture__StereoScreenCaptureMode(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__ScreenCapture__StereoScreenCaptureMode(____UnityEngine__ScreenCapture__StereoScreenCaptureMode const&) = default;
-                    constexpr ____UnityEngine__ScreenCapture__StereoScreenCaptureMode(____UnityEngine__ScreenCapture__StereoScreenCaptureMode&&) = default;
-                    constexpr ____UnityEngine__ScreenCapture__StereoScreenCaptureMode& operator=(____UnityEngine__ScreenCapture__StereoScreenCaptureMode const& o) {
+                    constexpr UnityEngine__ScreenCapture__StereoScreenCaptureMode(UnityEngine__ScreenCapture__StereoScreenCaptureMode const&) = default;
+                    constexpr UnityEngine__ScreenCapture__StereoScreenCaptureMode(UnityEngine__ScreenCapture__StereoScreenCaptureMode&&) = default;
+                    constexpr UnityEngine__ScreenCapture__StereoScreenCaptureMode& operator=(UnityEngine__ScreenCapture__StereoScreenCaptureMode const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__ScreenCapture__StereoScreenCaptureMode& operator=(____UnityEngine__ScreenCapture__StereoScreenCaptureMode&& o) noexcept {
+                    constexpr UnityEngine__ScreenCapture__StereoScreenCaptureMode& operator=(UnityEngine__ScreenCapture__StereoScreenCaptureMode&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -44,7 +43,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__ScreenCapture__StereoScreenCaptureMode(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__ScreenCapture__StereoScreenCaptureMode(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -52,15 +51,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__ScreenCapture__StereoScreenCaptureMode_Unwrapped : int32_t {
+enum class __UnityEngine__ScreenCapture__StereoScreenCaptureMode_Unwrapped : int32_t {
 __LeftEye = 1,
 __RightEye = 2,
 __BothEyes = 3,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__ScreenCapture__StereoScreenCaptureMode_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__ScreenCapture__StereoScreenCaptureMode_Unwrapped>(__instance);
+constexpr operator __UnityEngine__ScreenCapture__StereoScreenCaptureMode_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__ScreenCapture__StereoScreenCaptureMode_Unwrapped>(__instance);
 }
 
 
@@ -73,13 +72,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field LeftEye offset 0
-static ::UnityEngine::____UnityEngine__ScreenCapture__StereoScreenCaptureMode const LeftEye;
+static UnityEngine::UnityEngine__ScreenCapture__StereoScreenCaptureMode const LeftEye;
 
 /// @brief Field RightEye offset 0
-static ::UnityEngine::____UnityEngine__ScreenCapture__StereoScreenCaptureMode const RightEye;
+static UnityEngine::UnityEngine__ScreenCapture__StereoScreenCaptureMode const RightEye;
 
 /// @brief Field BothEyes offset 0
-static ::UnityEngine::____UnityEngine__ScreenCapture__StereoScreenCaptureMode const BothEyes;
+static UnityEngine::UnityEngine__ScreenCapture__StereoScreenCaptureMode const BothEyes;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -94,7 +93,7 @@ namespace UnityEngine {
 class CORDL_TYPE ScreenCapture : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using StereoScreenCaptureMode = ::UnityEngine::____UnityEngine__ScreenCapture__StereoScreenCaptureMode;
+using StereoScreenCaptureMode = UnityEngine::UnityEngine__ScreenCapture__StereoScreenCaptureMode;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -133,13 +132,12 @@ constexpr explicit ScreenCapture(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 static void CaptureScreenshot(::StringW filename) ;
 
 /// @brief Method CaptureScreenshot addr 0x2ba0e08 size 0x54 virtual false final false
-static void CaptureScreenshot(::StringW filename, int32_t superSize, ::UnityEngine::____UnityEngine__ScreenCapture__StereoScreenCaptureMode CaptureMode) ;
+static void CaptureScreenshot(::StringW filename, int32_t superSize, UnityEngine::UnityEngine__ScreenCapture__StereoScreenCaptureMode CaptureMode) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::____UnityEngine__ScreenCapture__StereoScreenCaptureMode, "UnityEngine", "ScreenCapture/StereoScreenCaptureMode");
-NEED_NO_BOX(::UnityEngine::ScreenCapture);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ScreenCapture, "UnityEngine", "ScreenCapture");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnityEngine__ScreenCapture__StereoScreenCaptureMode, "UnityEngine", "ScreenCapture/StereoScreenCaptureMode");
+NEED_NO_BOX(UnityEngine::ScreenCapture);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ScreenCapture, "UnityEngine", "ScreenCapture");

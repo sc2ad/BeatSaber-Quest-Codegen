@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
@@ -13,19 +12,19 @@ class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Rfc8032 {
-struct ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm;
+struct Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm;
 }
 namespace Org::BouncyCastle::Math::EC::Rfc8032 {
 class Ed25519;
 }
 namespace Org::BouncyCastle::Math::EC::Rfc8032 {
-class ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum;
+class Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum;
 }
 namespace Org::BouncyCastle::Math::EC::Rfc8032 {
-class ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt;
+class Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt;
 }
 namespace Org::BouncyCastle::Math::EC::Rfc8032 {
-class ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp;
+class Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp;
 }
 // Type: ::Algorithm
 namespace Org::BouncyCastle::Math::EC::Rfc8032 {
@@ -33,20 +32,20 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1556))
 // CS Name: Org.BouncyCastle.Math.EC.Rfc8032.Ed25519::Algorithm
-struct CORDL_TYPE ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm(int32_t value__) noexcept;
+constexpr Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm(int32_t value__) noexcept;
 
 
-                    constexpr ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm(____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm const&) = default;
-                    constexpr ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm(____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm&&) = default;
-                    constexpr ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm& operator=(____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm const& o) {
+                    constexpr Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm(Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm const&) = default;
+                    constexpr Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm(Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm&&) = default;
+                    constexpr Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm& operator=(Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm& operator=(____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm&& o) noexcept {
+                    constexpr Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm& operator=(Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -59,7 +58,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -67,15 +66,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm_Unwrapped : int32_t {
+enum class __Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm_Unwrapped : int32_t {
 __Ed25519 = 0,
 __Ed25519ctx = 1,
 __Ed25519ph = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm_Unwrapped () const noexcept {
-return std::bit_cast<______Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm_Unwrapped>(__instance);
+constexpr operator __Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm_Unwrapped () const noexcept {
+return std::bit_cast<__Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm_Unwrapped>(__instance);
 }
 
 
@@ -88,13 +87,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Ed25519 offset 0
-static ::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm const Ed25519;
+static Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm const Ed25519;
 
 /// @brief Field Ed25519ctx offset 0
-static ::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm const Ed25519ctx;
+static Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm const Ed25519ctx;
 
 /// @brief Field Ed25519ph offset 0
-static ::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm const Ed25519ph;
+static Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm const Ed25519ph;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -106,37 +105,37 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1557))
 // CS Name: Org.BouncyCastle.Math.EC.Rfc8032.Ed25519::PointAccum
-class CORDL_TYPE ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
 
-virtual ~____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum() = default;
+virtual ~Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum", modifiers: " const&", def_value: None }]
-constexpr ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum(____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum", modifiers: " const&", def_value: None }]
+constexpr Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum(Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum", modifiers: "&&", def_value: None }]
-constexpr ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum(____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum", modifiers: "&&", def_value: None }]
+constexpr Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum(Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum& operator=(std::nullptr_t) noexcept {
+  constexpr Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum& operator=(void* o) noexcept {
+  constexpr Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum& operator=(____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum&& o) noexcept = default;
-  constexpr ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum& operator=(____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum const& o) noexcept = default;
+  constexpr Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum& operator=(Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum&& o) noexcept = default;
+  constexpr Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum& operator=(Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum const& o) noexcept = default;
                 
 
 
@@ -176,7 +175,7 @@ constexpr ::ArrayW<int32_t> __get_v() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum() ;
+explicit Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum() ;
 
 /// @brief Method .ctor addr 0xfb7eb8 size 0x94 virtual false final false
  void _ctor() ;
@@ -191,37 +190,37 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1558))
 // CS Name: Org.BouncyCastle.Math.EC.Rfc8032.Ed25519::PointExt
-class CORDL_TYPE ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt() = default;
+virtual ~Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt", modifiers: " const&", def_value: None }]
-constexpr ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt(____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt", modifiers: " const&", def_value: None }]
+constexpr Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt(Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt", modifiers: "&&", def_value: None }]
-constexpr ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt(____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt", modifiers: "&&", def_value: None }]
+constexpr Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt(Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt& operator=(std::nullptr_t) noexcept {
+  constexpr Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt& operator=(void* o) noexcept {
+  constexpr Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt& operator=(____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt&& o) noexcept = default;
-  constexpr ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt& operator=(____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt const& o) noexcept = default;
+  constexpr Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt& operator=(Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt&& o) noexcept = default;
+  constexpr Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt& operator=(Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt const& o) noexcept = default;
                 
 
 
@@ -255,7 +254,7 @@ constexpr ::ArrayW<int32_t> __get_t() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt() ;
+explicit Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt() ;
 
 /// @brief Method .ctor addr 0xfb7f4c size 0x88 virtual false final false
  void _ctor() ;
@@ -270,37 +269,37 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1559))
 // CS Name: Org.BouncyCastle.Math.EC.Rfc8032.Ed25519::PointPrecomp
-class CORDL_TYPE ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp() = default;
+virtual ~Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp", modifiers: " const&", def_value: None }]
-constexpr ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp(____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp", modifiers: " const&", def_value: None }]
+constexpr Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp(Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp", modifiers: "&&", def_value: None }]
-constexpr ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp(____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp", modifiers: "&&", def_value: None }]
+constexpr Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp(Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp& operator=(std::nullptr_t) noexcept {
+  constexpr Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp& operator=(void* o) noexcept {
+  constexpr Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp& operator=(____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp&& o) noexcept = default;
-  constexpr ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp& operator=(____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp const& o) noexcept = default;
+  constexpr Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp& operator=(Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp&& o) noexcept = default;
+  constexpr Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp& operator=(Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp const& o) noexcept = default;
                 
 
 
@@ -328,7 +327,7 @@ constexpr ::ArrayW<int32_t> __get_xyd() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp() ;
+explicit Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp() ;
 
 /// @brief Method .ctor addr 0xfb7fd4 size 0x7c virtual false final false
  void _ctor() ;
@@ -346,13 +345,13 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
 class CORDL_TYPE Ed25519 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using PointPrecomp = ::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp;
+using PointPrecomp = Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp;
 
-using PointExt = ::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt;
+using PointExt = Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt;
 
-using PointAccum = ::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum;
+using PointAccum = Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum;
 
-using Algorithm = ::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm;
+using Algorithm = Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -513,11 +512,11 @@ static void __set_precompLock(::bs_hook::Il2CppWrapperType value) ;
 
 static ::bs_hook::Il2CppWrapperType __get_precompLock() ;
 
-static ::ArrayW<::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt> __declspec(property(get=__get_precompBaseTable, put=__set_precompBaseTable))  precompBaseTable;
+static ::ArrayW<Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt> __declspec(property(get=__get_precompBaseTable, put=__set_precompBaseTable))  precompBaseTable;
 
-static void __set_precompBaseTable(::ArrayW<::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt> value) ;
+static void __set_precompBaseTable(::ArrayW<Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt> value) ;
 
-static ::ArrayW<::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt> __get_precompBaseTable() ;
+static ::ArrayW<Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt> __get_precompBaseTable() ;
 
 static ::ArrayW<int32_t> __declspec(property(get=__get_precompBase, put=__set_precompBase))  precompBase;
 
@@ -547,10 +546,10 @@ static bool CheckPointVar(::ArrayW<uint8_t> p) ;
 static bool CheckScalarVar(::ArrayW<uint8_t> s) ;
 
 /// @brief Method CreateDigest addr 0xfb40cc size 0x5c virtual false final false
-static ::Org::BouncyCastle::Crypto::IDigest CreateDigest() ;
+static Org::BouncyCastle::Crypto::IDigest CreateDigest() ;
 
 /// @brief Method CreatePrehash addr 0xfb4128 size 0x4c virtual false final false
-static ::Org::BouncyCastle::Crypto::IDigest CreatePrehash() ;
+static Org::BouncyCastle::Crypto::IDigest CreatePrehash() ;
 
 /// @brief Method Decode24 addr 0xfb4174 size 0x54 virtual false final false
 static uint32_t Decode24(::ArrayW<uint8_t> bs, int32_t off) ;
@@ -562,13 +561,13 @@ static uint32_t Decode32(::ArrayW<uint8_t> bs, int32_t off) ;
 static void Decode32(::ArrayW<uint8_t> bs, int32_t bsOff, ::ArrayW<uint32_t> n, int32_t nOff, int32_t nLen) ;
 
 /// @brief Method DecodePointVar addr 0xfb4230 size 0x234 virtual false final false
-static bool DecodePointVar(::ArrayW<uint8_t> p, int32_t pOff, bool negate, ::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt r) ;
+static bool DecodePointVar(::ArrayW<uint8_t> p, int32_t pOff, bool negate, Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt r) ;
 
 /// @brief Method DecodeScalar addr 0xfb3650 size 0x74 virtual false final false
 static void DecodeScalar(::ArrayW<uint8_t> k, int32_t kOff, ::ArrayW<uint32_t> n) ;
 
 /// @brief Method Dom2 addr 0xfb44d0 size 0x244 virtual false final false
-static void Dom2(::Org::BouncyCastle::Crypto::IDigest d, uint8_t phflag, ::ArrayW<uint8_t> ctx) ;
+static void Dom2(Org::BouncyCastle::Crypto::IDigest d, uint8_t phflag, ::ArrayW<uint8_t> ctx) ;
 
 /// @brief Method Encode24 addr 0xfb4714 size 0x64 virtual false final false
 static void Encode24(uint32_t n, ::ArrayW<uint8_t> bs, int32_t off) ;
@@ -580,10 +579,10 @@ static void Encode32(uint32_t n, ::ArrayW<uint8_t> bs, int32_t off) ;
 static void Encode56(uint64_t n, ::ArrayW<uint8_t> bs, int32_t off) ;
 
 /// @brief Method EncodePoint addr 0xfb47f4 size 0x140 virtual false final false
-static int32_t EncodePoint(::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum p, ::ArrayW<uint8_t> r, int32_t rOff) ;
+static int32_t EncodePoint(Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum p, ::ArrayW<uint8_t> r, int32_t rOff) ;
 
 /// @brief Method GeneratePrivateKey addr 0xfb4934 size 0x1c virtual false final false
-static void GeneratePrivateKey(::Org::BouncyCastle::Security::SecureRandom random, ::ArrayW<uint8_t> k) ;
+static void GeneratePrivateKey(Org::BouncyCastle::Security::SecureRandom random, ::ArrayW<uint8_t> k) ;
 
 /// @brief Method GeneratePublicKey addr 0xfb4950 size 0x220 virtual false final false
 static void GeneratePublicKey(::ArrayW<uint8_t> sk, int32_t skOff, ::ArrayW<uint8_t> pk, int32_t pkOff) ;
@@ -592,7 +591,7 @@ static void GeneratePublicKey(::ArrayW<uint8_t> sk, int32_t skOff, ::ArrayW<uint
 static ::ArrayW<int8_t> GetWnafVar(::ArrayW<uint32_t> n, int32_t width) ;
 
 /// @brief Method ImplSign addr 0xfb4e6c size 0x450 virtual false final false
-static void ImplSign(::Org::BouncyCastle::Crypto::IDigest d, ::ArrayW<uint8_t> h, ::ArrayW<uint8_t> s, ::ArrayW<uint8_t> pk, int32_t pkOff, ::ArrayW<uint8_t> ctx, uint8_t phflag, ::ArrayW<uint8_t> m, int32_t mOff, int32_t mLen, ::ArrayW<uint8_t> sig, int32_t sigOff) ;
+static void ImplSign(Org::BouncyCastle::Crypto::IDigest d, ::ArrayW<uint8_t> h, ::ArrayW<uint8_t> s, ::ArrayW<uint8_t> pk, int32_t pkOff, ::ArrayW<uint8_t> ctx, uint8_t phflag, ::ArrayW<uint8_t> m, int32_t mOff, int32_t mLen, ::ArrayW<uint8_t> sig, int32_t sigOff) ;
 
 /// @brief Method ImplSign addr 0xfb52bc size 0x31c virtual false final false
 static void ImplSign(::ArrayW<uint8_t> sk, int32_t skOff, ::ArrayW<uint8_t> ctx, uint8_t phflag, ::ArrayW<uint8_t> m, int32_t mOff, int32_t mLen, ::ArrayW<uint8_t> sig, int32_t sigOff) ;
@@ -604,40 +603,40 @@ static void ImplSign(::ArrayW<uint8_t> sk, int32_t skOff, ::ArrayW<uint8_t> pk, 
 static bool ImplVerify(::ArrayW<uint8_t> sig, int32_t sigOff, ::ArrayW<uint8_t> pk, int32_t pkOff, ::ArrayW<uint8_t> ctx, uint8_t phflag, ::ArrayW<uint8_t> m, int32_t mOff, int32_t mLen) ;
 
 /// @brief Method PointAddVar addr 0xfb6040 size 0x220 virtual false final false
-static void PointAddVar(bool negate, ::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt p, ::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum r) ;
+static void PointAddVar(bool negate, Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt p, Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum r) ;
 
 /// @brief Method PointAddVar addr 0xfb6260 size 0x22c virtual false final false
-static void PointAddVar(bool negate, ::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt p, ::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt q, ::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt r) ;
+static void PointAddVar(bool negate, Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt p, Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt q, Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt r) ;
 
 /// @brief Method PointAddPrecomp addr 0xfb648c size 0x154 virtual false final false
-static void PointAddPrecomp(::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp p, ::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum r) ;
+static void PointAddPrecomp(Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp p, Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum r) ;
 
 /// @brief Method PointCopy addr 0xfb65e0 size 0xe0 virtual false final false
-static ::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt PointCopy(::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum p) ;
+static Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt PointCopy(Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum p) ;
 
 /// @brief Method PointCopy addr 0xfb66c0 size 0xe8 virtual false final false
-static ::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt PointCopy(::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt p) ;
+static Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt PointCopy(Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt p) ;
 
 /// @brief Method PointDouble addr 0xfb67a8 size 0x158 virtual false final false
-static void PointDouble(::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum r) ;
+static void PointDouble(Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum r) ;
 
 /// @brief Method PointExtendXY addr 0xfb6900 size 0x88 virtual false final false
-static void PointExtendXY(::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum p) ;
+static void PointExtendXY(Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum p) ;
 
 /// @brief Method PointExtendXY addr 0xfb4464 size 0x6c virtual false final false
-static void PointExtendXY(::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt p) ;
+static void PointExtendXY(Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt p) ;
 
 /// @brief Method PointLookup addr 0xfb6988 size 0x12c virtual false final false
-static void PointLookup(int32_t block, int32_t index, ::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp p) ;
+static void PointLookup(int32_t block, int32_t index, Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp p) ;
 
 /// @brief Method PointPrecompVar addr 0xfb6ab4 size 0x1c0 virtual false final false
-static ::ArrayW<::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt> PointPrecompVar(::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt p, int32_t count) ;
+static ::ArrayW<Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt> PointPrecompVar(Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt p, int32_t count) ;
 
 /// @brief Method PointSetNeutral addr 0xfb6c74 size 0x80 virtual false final false
-static void PointSetNeutral(::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum p) ;
+static void PointSetNeutral(Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum p) ;
 
 /// @brief Method PointSetNeutral addr 0xfb6cf4 size 0x78 virtual false final false
-static void PointSetNeutral(::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt p) ;
+static void PointSetNeutral(Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt p) ;
 
 /// @brief Method Precompute addr 0xfaf1b8 size 0x804 virtual false final false
 static void Precompute() ;
@@ -649,7 +648,7 @@ static void PruneScalar(::ArrayW<uint8_t> n, int32_t nOff, ::ArrayW<uint8_t> r) 
 static ::ArrayW<uint8_t> ReduceScalar(::ArrayW<uint8_t> n) ;
 
 /// @brief Method ScalarMultBase addr 0xfb6d6c size 0x254 virtual false final false
-static void ScalarMultBase(::ArrayW<uint8_t> k, ::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum r) ;
+static void ScalarMultBase(::ArrayW<uint8_t> k, Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum r) ;
 
 /// @brief Method ScalarMultBaseEncoded addr 0xfb4bc8 size 0xec virtual false final false
 static void ScalarMultBaseEncoded(::ArrayW<uint8_t> k, ::ArrayW<uint8_t> r, int32_t rOff) ;
@@ -658,7 +657,7 @@ static void ScalarMultBaseEncoded(::ArrayW<uint8_t> k, ::ArrayW<uint8_t> r, int3
 static void ScalarMultBaseYZ(::ArrayW<uint8_t> k, int32_t kOff, ::ArrayW<int32_t> y, ::ArrayW<int32_t> z) ;
 
 /// @brief Method ScalarMultStrausVar addr 0xfb5e84 size 0x1bc virtual false final false
-static void ScalarMultStrausVar(::ArrayW<uint32_t> nb, ::ArrayW<uint32_t> np, ::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt p, ::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum r) ;
+static void ScalarMultStrausVar(::ArrayW<uint32_t> nb, ::ArrayW<uint32_t> np, Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt p, Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum r) ;
 
 /// @brief Method Sign addr 0xfb6fc0 size 0xb0 virtual false final false
 static void Sign(::ArrayW<uint8_t> sk, int32_t skOff, ::ArrayW<uint8_t> m, int32_t mOff, int32_t mLen, ::ArrayW<uint8_t> sig, int32_t sigOff) ;
@@ -679,10 +678,10 @@ static void SignPrehash(::ArrayW<uint8_t> sk, int32_t skOff, ::ArrayW<uint8_t> c
 static void SignPrehash(::ArrayW<uint8_t> sk, int32_t skOff, ::ArrayW<uint8_t> pk, int32_t pkOff, ::ArrayW<uint8_t> ctx, ::ArrayW<uint8_t> ph, int32_t phOff, ::ArrayW<uint8_t> sig, int32_t sigOff) ;
 
 /// @brief Method SignPrehash addr 0xfb744c size 0x1cc virtual false final false
-static void SignPrehash(::ArrayW<uint8_t> sk, int32_t skOff, ::ArrayW<uint8_t> ctx, ::Org::BouncyCastle::Crypto::IDigest ph, ::ArrayW<uint8_t> sig, int32_t sigOff) ;
+static void SignPrehash(::ArrayW<uint8_t> sk, int32_t skOff, ::ArrayW<uint8_t> ctx, Org::BouncyCastle::Crypto::IDigest ph, ::ArrayW<uint8_t> sig, int32_t sigOff) ;
 
 /// @brief Method SignPrehash addr 0xfb7618 size 0x1e8 virtual false final false
-static void SignPrehash(::ArrayW<uint8_t> sk, int32_t skOff, ::ArrayW<uint8_t> pk, int32_t pkOff, ::ArrayW<uint8_t> ctx, ::Org::BouncyCastle::Crypto::IDigest ph, ::ArrayW<uint8_t> sig, int32_t sigOff) ;
+static void SignPrehash(::ArrayW<uint8_t> sk, int32_t skOff, ::ArrayW<uint8_t> pk, int32_t pkOff, ::ArrayW<uint8_t> ctx, Org::BouncyCastle::Crypto::IDigest ph, ::ArrayW<uint8_t> sig, int32_t sigOff) ;
 
 /// @brief Method Verify addr 0xfb7800 size 0xb4 virtual false final false
 static bool Verify(::ArrayW<uint8_t> sig, int32_t sigOff, ::ArrayW<uint8_t> pk, int32_t pkOff, ::ArrayW<uint8_t> m, int32_t mOff, int32_t mLen) ;
@@ -694,7 +693,7 @@ static bool Verify(::ArrayW<uint8_t> sig, int32_t sigOff, ::ArrayW<uint8_t> pk, 
 static bool VerifyPrehash(::ArrayW<uint8_t> sig, int32_t sigOff, ::ArrayW<uint8_t> pk, int32_t pkOff, ::ArrayW<uint8_t> ctx, ::ArrayW<uint8_t> ph, int32_t phOff) ;
 
 /// @brief Method VerifyPrehash addr 0xfb7a34 size 0x1d4 virtual false final false
-static bool VerifyPrehash(::ArrayW<uint8_t> sig, int32_t sigOff, ::ArrayW<uint8_t> pk, int32_t pkOff, ::ArrayW<uint8_t> ctx, ::Org::BouncyCastle::Crypto::IDigest ph) ;
+static bool VerifyPrehash(::ArrayW<uint8_t> sig, int32_t sigOff, ::ArrayW<uint8_t> pk, int32_t pkOff, ::ArrayW<uint8_t> ctx, Org::BouncyCastle::Crypto::IDigest ph) ;
 
 // Ctor Parameters []
 explicit Ed25519() ;
@@ -706,13 +705,12 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Math::EC::Rfc8032
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed25519/Algorithm");
-NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed25519");
-NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed25519/PointAccum");
-NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed25519/PointExt");
-NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Rfc8032::____Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed25519/PointPrecomp");
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed25519/Algorithm");
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed25519");
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed25519/PointAccum");
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed25519/PointExt");
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed25519/PointPrecomp");

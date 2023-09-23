@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct TouchScreenKeyboardType;
@@ -78,47 +77,46 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Default offset 0
-static ::UnityEngine::TouchScreenKeyboardType const Default;
+static UnityEngine::TouchScreenKeyboardType const Default;
 
 /// @brief Field ASCIICapable offset 0
-static ::UnityEngine::TouchScreenKeyboardType const ASCIICapable;
+static UnityEngine::TouchScreenKeyboardType const ASCIICapable;
 
 /// @brief Field NumbersAndPunctuation offset 0
-static ::UnityEngine::TouchScreenKeyboardType const NumbersAndPunctuation;
+static UnityEngine::TouchScreenKeyboardType const NumbersAndPunctuation;
 
 /// @brief Field URL offset 0
-static ::UnityEngine::TouchScreenKeyboardType const URL;
+static UnityEngine::TouchScreenKeyboardType const URL;
 
 /// @brief Field NumberPad offset 0
-static ::UnityEngine::TouchScreenKeyboardType const NumberPad;
+static UnityEngine::TouchScreenKeyboardType const NumberPad;
 
 /// @brief Field PhonePad offset 0
-static ::UnityEngine::TouchScreenKeyboardType const PhonePad;
+static UnityEngine::TouchScreenKeyboardType const PhonePad;
 
 /// @brief Field NamePhonePad offset 0
-static ::UnityEngine::TouchScreenKeyboardType const NamePhonePad;
+static UnityEngine::TouchScreenKeyboardType const NamePhonePad;
 
 /// @brief Field EmailAddress offset 0
-static ::UnityEngine::TouchScreenKeyboardType const EmailAddress;
+static UnityEngine::TouchScreenKeyboardType const EmailAddress;
 
 /// @brief Field NintendoNetworkAccount offset 0
-static ::UnityEngine::TouchScreenKeyboardType const NintendoNetworkAccount;
+static UnityEngine::TouchScreenKeyboardType const NintendoNetworkAccount;
 
 /// @brief Field Social offset 0
-static ::UnityEngine::TouchScreenKeyboardType const Social;
+static UnityEngine::TouchScreenKeyboardType const Social;
 
 /// @brief Field Search offset 0
-static ::UnityEngine::TouchScreenKeyboardType const Search;
+static UnityEngine::TouchScreenKeyboardType const Search;
 
 /// @brief Field DecimalPad offset 0
-static ::UnityEngine::TouchScreenKeyboardType const DecimalPad;
+static UnityEngine::TouchScreenKeyboardType const DecimalPad;
 
 /// @brief Field OneTimeCode offset 0
-static ::UnityEngine::TouchScreenKeyboardType const OneTimeCode;
+static UnityEngine::TouchScreenKeyboardType const OneTimeCode;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TouchScreenKeyboardType, "UnityEngine", "TouchScreenKeyboardType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TouchScreenKeyboardType, "UnityEngine", "TouchScreenKeyboardType");

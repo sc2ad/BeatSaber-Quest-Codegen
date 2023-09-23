@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
@@ -51,41 +50,41 @@ constexpr explicit CommitmentTypeIdentifier(void* ptr) noexcept : ::bs_hook::Il2
 
 // Fields
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_ProofOfOrigin, put=__set_ProofOfOrigin))  ProofOfOrigin;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_ProofOfOrigin, put=__set_ProofOfOrigin))  ProofOfOrigin;
 
-static void __set_ProofOfOrigin(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_ProofOfOrigin(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_ProofOfOrigin() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_ProofOfOrigin() ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_ProofOfReceipt, put=__set_ProofOfReceipt))  ProofOfReceipt;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_ProofOfReceipt, put=__set_ProofOfReceipt))  ProofOfReceipt;
 
-static void __set_ProofOfReceipt(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_ProofOfReceipt(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_ProofOfReceipt() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_ProofOfReceipt() ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_ProofOfDelivery, put=__set_ProofOfDelivery))  ProofOfDelivery;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_ProofOfDelivery, put=__set_ProofOfDelivery))  ProofOfDelivery;
 
-static void __set_ProofOfDelivery(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_ProofOfDelivery(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_ProofOfDelivery() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_ProofOfDelivery() ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_ProofOfSender, put=__set_ProofOfSender))  ProofOfSender;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_ProofOfSender, put=__set_ProofOfSender))  ProofOfSender;
 
-static void __set_ProofOfSender(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_ProofOfSender(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_ProofOfSender() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_ProofOfSender() ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_ProofOfApproval, put=__set_ProofOfApproval))  ProofOfApproval;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_ProofOfApproval, put=__set_ProofOfApproval))  ProofOfApproval;
 
-static void __set_ProofOfApproval(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_ProofOfApproval(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_ProofOfApproval() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_ProofOfApproval() ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_ProofOfCreation, put=__set_ProofOfCreation))  ProofOfCreation;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_ProofOfCreation, put=__set_ProofOfCreation))  ProofOfCreation;
 
-static void __set_ProofOfCreation(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_ProofOfCreation(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_ProofOfCreation() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_ProofOfCreation() ;
 
 
 // Methods
@@ -100,6 +99,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::Esf
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::Esf::CommitmentTypeIdentifier);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Esf::CommitmentTypeIdentifier, "Org.BouncyCastle.Asn1.Esf", "CommitmentTypeIdentifier");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Esf::CommitmentTypeIdentifier);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Esf::CommitmentTypeIdentifier, "Org.BouncyCastle.Asn1.Esf", "CommitmentTypeIdentifier");

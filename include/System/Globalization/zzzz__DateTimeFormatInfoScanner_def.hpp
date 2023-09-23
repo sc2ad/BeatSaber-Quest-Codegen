@@ -6,24 +6,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
+}
+namespace System::Globalization {
+struct FORMATFLAGS;
+}
+namespace System::Globalization {
+class DateTimeFormatInfo;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace System::Globalization {
-class DateTimeFormatInfo;
-}
-namespace System::Globalization {
-struct FORMATFLAGS;
-}
 // Forward declare root types
 namespace System::Globalization {
-struct ____System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern;
+struct System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern;
 }
 namespace System::Globalization {
 class DateTimeFormatInfoScanner;
@@ -34,20 +33,20 @@ namespace System::Globalization {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3653))
 // CS Name: System.Globalization.DateTimeFormatInfoScanner::FoundDatePattern
-struct CORDL_TYPE ____System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern(int32_t value__) noexcept;
+constexpr System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern(int32_t value__) noexcept;
 
 
-                    constexpr ____System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern(____System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern const&) = default;
-                    constexpr ____System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern(____System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern&&) = default;
-                    constexpr ____System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern& operator=(____System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern const& o) {
+                    constexpr System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern(System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern const&) = default;
+                    constexpr System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern(System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern&&) = default;
+                    constexpr System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern& operator=(System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern& operator=(____System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern&& o) noexcept {
+                    constexpr System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern& operator=(System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -60,7 +59,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -68,7 +67,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern_Unwrapped : int32_t {
+enum class __System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern_Unwrapped : int32_t {
 __None = 0,
 __FoundYearPatternFlag = 1,
 __FoundMonthPatternFlag = 2,
@@ -77,8 +76,8 @@ __FoundYMDPatternFlag = 7,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern_Unwrapped () const noexcept {
-return std::bit_cast<______System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern_Unwrapped>(__instance);
+constexpr operator __System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern_Unwrapped () const noexcept {
+return std::bit_cast<__System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern_Unwrapped>(__instance);
 }
 
 
@@ -91,19 +90,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::Globalization::____System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern const None;
+static System::Globalization::System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern const None;
 
 /// @brief Field FoundYearPatternFlag offset 0
-static ::System::Globalization::____System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern const FoundYearPatternFlag;
+static System::Globalization::System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern const FoundYearPatternFlag;
 
 /// @brief Field FoundMonthPatternFlag offset 0
-static ::System::Globalization::____System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern const FoundMonthPatternFlag;
+static System::Globalization::System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern const FoundMonthPatternFlag;
 
 /// @brief Field FoundDayPatternFlag offset 0
-static ::System::Globalization::____System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern const FoundDayPatternFlag;
+static System::Globalization::System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern const FoundDayPatternFlag;
 
 /// @brief Field FoundYMDPatternFlag offset 0
-static ::System::Globalization::____System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern const FoundYMDPatternFlag;
+static System::Globalization::System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern const FoundYMDPatternFlag;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -118,7 +117,7 @@ namespace System::Globalization {
 class CORDL_TYPE DateTimeFormatInfoScanner : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using FoundDatePattern = ::System::Globalization::____System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern;
+using FoundDatePattern = System::Globalization::System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -153,34 +152,34 @@ constexpr explicit DateTimeFormatInfoScanner(void* ptr) noexcept : ::bs_hook::Il
 
 // Fields
 
- ::System::Collections::Generic::List_1<::StringW> __declspec(property(get=__get_m_dateWords, put=__set_m_dateWords))  m_dateWords;
+ System::Collections::Generic::List_1<::StringW> __declspec(property(get=__get_m_dateWords, put=__set_m_dateWords))  m_dateWords;
 
-constexpr void __set_m_dateWords(::System::Collections::Generic::List_1<::StringW> value) ;
+constexpr void __set_m_dateWords(System::Collections::Generic::List_1<::StringW> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::StringW> __get_m_dateWords() const;
+constexpr System::Collections::Generic::List_1<::StringW> __get_m_dateWords() const;
 
-static ::System::Collections::Generic::Dictionary_2<::StringW,::StringW> __declspec(property(get=__get_s_knownWords, put=__set_s_knownWords))  s_knownWords;
+static System::Collections::Generic::Dictionary_2<::StringW,::StringW> __declspec(property(get=__get_s_knownWords, put=__set_s_knownWords))  s_knownWords;
 
-static void __set_s_knownWords(::System::Collections::Generic::Dictionary_2<::StringW,::StringW> value) ;
+static void __set_s_knownWords(System::Collections::Generic::Dictionary_2<::StringW,::StringW> value) ;
 
-static ::System::Collections::Generic::Dictionary_2<::StringW,::StringW> __get_s_knownWords() ;
+static System::Collections::Generic::Dictionary_2<::StringW,::StringW> __get_s_knownWords() ;
 
- ::System::Globalization::____System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern __declspec(property(get=__get__ymdFlags, put=__set__ymdFlags))  _ymdFlags;
+ System::Globalization::System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern __declspec(property(get=__get__ymdFlags, put=__set__ymdFlags))  _ymdFlags;
 
-constexpr void __set__ymdFlags(::System::Globalization::____System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern value) ;
+constexpr void __set__ymdFlags(System::Globalization::System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern value) ;
 
-constexpr ::System::Globalization::____System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern __get__ymdFlags() const;
+constexpr System::Globalization::System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern __get__ymdFlags() const;
 
 
 // Properties
 
-static ::System::Collections::Generic::Dictionary_2<::StringW,::StringW> __declspec(property(get=get_KnownWords))  KnownWords;
+static System::Collections::Generic::Dictionary_2<::StringW,::StringW> __declspec(property(get=get_KnownWords))  KnownWords;
 
 
 // Methods
 
 /// @brief Method get_KnownWords addr 0x23e401c size 0x400 virtual false final false
-static ::System::Collections::Generic::Dictionary_2<::StringW,::StringW> get_KnownWords() ;
+static System::Collections::Generic::Dictionary_2<::StringW,::StringW> get_KnownWords() ;
 
 /// @brief Method SkipWhiteSpacesAndNonLetter addr 0x23e441c size 0xfc virtual false final false
 static int32_t SkipWhiteSpacesAndNonLetter(::StringW pattern, int32_t currentIndex) ;
@@ -201,19 +200,19 @@ static int32_t ScanRepeatChar(::StringW pattern, char16_t ch, int32_t index, ByR
  void ScanDateWord(::StringW pattern) ;
 
 /// @brief Method GetDateWordsOfDTFI addr 0x23e2e14 size 0x2c0 virtual false final false
- ::ArrayW<::StringW> GetDateWordsOfDTFI(::System::Globalization::DateTimeFormatInfo dtfi) ;
+ ::ArrayW<::StringW> GetDateWordsOfDTFI(System::Globalization::DateTimeFormatInfo dtfi) ;
 
 /// @brief Method GetFormatFlagGenitiveMonth addr 0x23e1248 size 0x40 virtual false final false
-static ::System::Globalization::FORMATFLAGS GetFormatFlagGenitiveMonth(::ArrayW<::StringW> monthNames, ::ArrayW<::StringW> genitveMonthNames, ::ArrayW<::StringW> abbrevMonthNames, ::ArrayW<::StringW> genetiveAbbrevMonthNames) ;
+static System::Globalization::FORMATFLAGS GetFormatFlagGenitiveMonth(::ArrayW<::StringW> monthNames, ::ArrayW<::StringW> genitveMonthNames, ::ArrayW<::StringW> abbrevMonthNames, ::ArrayW<::StringW> genetiveAbbrevMonthNames) ;
 
 /// @brief Method GetFormatFlagUseSpaceInMonthNames addr 0x23e1288 size 0xa4 virtual false final false
-static ::System::Globalization::FORMATFLAGS GetFormatFlagUseSpaceInMonthNames(::ArrayW<::StringW> monthNames, ::ArrayW<::StringW> genitveMonthNames, ::ArrayW<::StringW> abbrevMonthNames, ::ArrayW<::StringW> genetiveAbbrevMonthNames) ;
+static System::Globalization::FORMATFLAGS GetFormatFlagUseSpaceInMonthNames(::ArrayW<::StringW> monthNames, ::ArrayW<::StringW> genitveMonthNames, ::ArrayW<::StringW> abbrevMonthNames, ::ArrayW<::StringW> genetiveAbbrevMonthNames) ;
 
 /// @brief Method GetFormatFlagUseSpaceInDayNames addr 0x23e132c size 0x30 virtual false final false
-static ::System::Globalization::FORMATFLAGS GetFormatFlagUseSpaceInDayNames(::ArrayW<::StringW> dayNames, ::ArrayW<::StringW> abbrevDayNames) ;
+static System::Globalization::FORMATFLAGS GetFormatFlagUseSpaceInDayNames(::ArrayW<::StringW> dayNames, ::ArrayW<::StringW> abbrevDayNames) ;
 
 /// @brief Method GetFormatFlagUseHebrewCalendar addr 0x23e135c size 0x10 virtual false final false
-static ::System::Globalization::FORMATFLAGS GetFormatFlagUseHebrewCalendar(int32_t calID) ;
+static System::Globalization::FORMATFLAGS GetFormatFlagUseHebrewCalendar(int32_t calID) ;
 
 /// @brief Method EqualStringArrays addr 0x23e4dac size 0xa8 virtual false final false
 static bool EqualStringArrays(::ArrayW<::StringW> array1, ::ArrayW<::StringW> array2) ;
@@ -234,7 +233,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Globalization
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::____System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern, "System.Globalization", "DateTimeFormatInfoScanner/FoundDatePattern");
-NEED_NO_BOX(::System::Globalization::DateTimeFormatInfoScanner);
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::DateTimeFormatInfoScanner, "System.Globalization", "DateTimeFormatInfoScanner");
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern, "System.Globalization", "DateTimeFormatInfoScanner/FoundDatePattern");
+NEED_NO_BOX(System::Globalization::DateTimeFormatInfoScanner);
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::DateTimeFormatInfoScanner, "System.Globalization", "DateTimeFormatInfoScanner");

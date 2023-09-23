@@ -3,7 +3,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace OVR::OpenVR {
 struct TrackedDevicePose_t;
 }
@@ -20,8 +19,8 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE Compositor_FrameTiming : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "m_nSize", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_nFrameIndex", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_nNumFramePresents", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_nNumMisPresented", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_nNumDroppedFrames", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_nReprojectionFlags", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_flSystemTimeInSeconds", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "m_flPreSubmitGpuMs", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flPostSubmitGpuMs", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flTotalRenderGpuMs", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flCompositorRenderGpuMs", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flCompositorRenderCpuMs", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flCompositorIdleCpuMs", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flClientFrameIntervalMs", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flPresentCallCpuMs", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flWaitForPresentCpuMs", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flSubmitFrameMs", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flWaitGetPosesCalledMs", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flNewPosesReadyMs", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flNewFrameReadyMs", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flCompositorUpdateStartMs", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flCompositorUpdateEndMs", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flCompositorRenderStartMs", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_HmdPose", ty: "::OVR::OpenVR::TrackedDevicePose_t", modifiers: "", def_value: None }]
-constexpr Compositor_FrameTiming(uint32_t m_nSize, uint32_t m_nFrameIndex, uint32_t m_nNumFramePresents, uint32_t m_nNumMisPresented, uint32_t m_nNumDroppedFrames, uint32_t m_nReprojectionFlags, double_t m_flSystemTimeInSeconds, float_t m_flPreSubmitGpuMs, float_t m_flPostSubmitGpuMs, float_t m_flTotalRenderGpuMs, float_t m_flCompositorRenderGpuMs, float_t m_flCompositorRenderCpuMs, float_t m_flCompositorIdleCpuMs, float_t m_flClientFrameIntervalMs, float_t m_flPresentCallCpuMs, float_t m_flWaitForPresentCpuMs, float_t m_flSubmitFrameMs, float_t m_flWaitGetPosesCalledMs, float_t m_flNewPosesReadyMs, float_t m_flNewFrameReadyMs, float_t m_flCompositorUpdateStartMs, float_t m_flCompositorUpdateEndMs, float_t m_flCompositorRenderStartMs, ::OVR::OpenVR::TrackedDevicePose_t m_HmdPose) noexcept;
+// Ctor Parameters [CppParam { name: "m_nSize", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_nFrameIndex", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_nNumFramePresents", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_nNumMisPresented", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_nNumDroppedFrames", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_nReprojectionFlags", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_flSystemTimeInSeconds", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "m_flPreSubmitGpuMs", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flPostSubmitGpuMs", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flTotalRenderGpuMs", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flCompositorRenderGpuMs", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flCompositorRenderCpuMs", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flCompositorIdleCpuMs", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flClientFrameIntervalMs", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flPresentCallCpuMs", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flWaitForPresentCpuMs", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flSubmitFrameMs", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flWaitGetPosesCalledMs", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flNewPosesReadyMs", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flNewFrameReadyMs", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flCompositorUpdateStartMs", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flCompositorUpdateEndMs", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flCompositorRenderStartMs", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_HmdPose", ty: "OVR::OpenVR::TrackedDevicePose_t", modifiers: "", def_value: None }]
+constexpr Compositor_FrameTiming(uint32_t m_nSize, uint32_t m_nFrameIndex, uint32_t m_nNumFramePresents, uint32_t m_nNumMisPresented, uint32_t m_nNumDroppedFrames, uint32_t m_nReprojectionFlags, double_t m_flSystemTimeInSeconds, float_t m_flPreSubmitGpuMs, float_t m_flPostSubmitGpuMs, float_t m_flTotalRenderGpuMs, float_t m_flCompositorRenderGpuMs, float_t m_flCompositorRenderCpuMs, float_t m_flCompositorIdleCpuMs, float_t m_flClientFrameIntervalMs, float_t m_flPresentCallCpuMs, float_t m_flWaitForPresentCpuMs, float_t m_flSubmitFrameMs, float_t m_flWaitGetPosesCalledMs, float_t m_flNewPosesReadyMs, float_t m_flNewFrameReadyMs, float_t m_flCompositorUpdateStartMs, float_t m_flCompositorUpdateEndMs, float_t m_flCompositorRenderStartMs, OVR::OpenVR::TrackedDevicePose_t m_HmdPose) noexcept;
 
 
                     constexpr Compositor_FrameTiming(Compositor_FrameTiming const&) = default;
@@ -192,15 +191,14 @@ constexpr void __set_m_flCompositorRenderStartMs(float_t value) ;
 
 constexpr float_t __get_m_flCompositorRenderStartMs() const;
 
- ::OVR::OpenVR::TrackedDevicePose_t __declspec(property(get=__get_m_HmdPose, put=__set_m_HmdPose))  m_HmdPose;
+ OVR::OpenVR::TrackedDevicePose_t __declspec(property(get=__get_m_HmdPose, put=__set_m_HmdPose))  m_HmdPose;
 
-constexpr void __set_m_HmdPose(::OVR::OpenVR::TrackedDevicePose_t value) ;
+constexpr void __set_m_HmdPose(OVR::OpenVR::TrackedDevicePose_t value) ;
 
-constexpr ::OVR::OpenVR::TrackedDevicePose_t __get_m_HmdPose() const;
+constexpr OVR::OpenVR::TrackedDevicePose_t __get_m_HmdPose() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::Compositor_FrameTiming, "OVR.OpenVR", "Compositor_FrameTiming");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::Compositor_FrameTiming, "OVR.OpenVR", "Compositor_FrameTiming");

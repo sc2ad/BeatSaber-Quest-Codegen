@@ -3,12 +3,11 @@
 #include "System/zzzz__MarshalByRefObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Diagnostics {
-class TraceEventCache;
+struct TraceEventType;
 }
 namespace System::Diagnostics {
-class TraceFilter;
+class TraceEventCache;
 }
 namespace System {
 class IDisposable;
@@ -17,7 +16,7 @@ namespace System::Diagnostics {
 struct TraceOptions;
 }
 namespace System::Diagnostics {
-struct TraceEventType;
+class TraceFilter;
 }
 // Forward declare root types
 namespace System::Diagnostics {
@@ -29,11 +28,11 @@ namespace System::Diagnostics {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2604))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7794))
 // CS Name: System.Diagnostics.TraceListener
-class CORDL_TYPE TraceListener : public ::System::MarshalByRefObject {
+class CORDL_TYPE TraceListener : public System::MarshalByRefObject {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -47,7 +46,7 @@ constexpr TraceListener(TraceListener const& ) noexcept = default;
 constexpr TraceListener(TraceListener&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TraceListener(void* ptr) noexcept : ::System::MarshalByRefObject(ptr) {
+constexpr explicit TraceListener(void* ptr) noexcept : System::MarshalByRefObject(ptr) {
 }
 
 
@@ -80,11 +79,11 @@ constexpr void __set_indentSize(int32_t value) ;
 
 constexpr int32_t __get_indentSize() const;
 
- ::System::Diagnostics::TraceOptions __declspec(property(get=__get_traceOptions, put=__set_traceOptions))  traceOptions;
+ System::Diagnostics::TraceOptions __declspec(property(get=__get_traceOptions, put=__set_traceOptions))  traceOptions;
 
-constexpr void __set_traceOptions(::System::Diagnostics::TraceOptions value) ;
+constexpr void __set_traceOptions(System::Diagnostics::TraceOptions value) ;
 
-constexpr ::System::Diagnostics::TraceOptions __get_traceOptions() const;
+constexpr System::Diagnostics::TraceOptions __get_traceOptions() const;
 
  bool __declspec(property(get=__get_needIndent, put=__set_needIndent))  needIndent;
 
@@ -98,11 +97,11 @@ constexpr void __set_listenerName(::StringW value) ;
 
 constexpr ::StringW __get_listenerName() const;
 
- ::System::Diagnostics::TraceFilter __declspec(property(get=__get_filter, put=__set_filter))  filter;
+ System::Diagnostics::TraceFilter __declspec(property(get=__get_filter, put=__set_filter))  filter;
 
-constexpr void __set_filter(::System::Diagnostics::TraceFilter value) ;
+constexpr void __set_filter(System::Diagnostics::TraceFilter value) ;
 
-constexpr ::System::Diagnostics::TraceFilter __get_filter() const;
+constexpr System::Diagnostics::TraceFilter __get_filter() const;
 
 
 // Properties
@@ -113,11 +112,11 @@ constexpr ::System::Diagnostics::TraceFilter __get_filter() const;
 
  int32_t __declspec(property(put=set_IndentSize))  IndentSize;
 
- ::System::Diagnostics::TraceFilter __declspec(property(get=get_Filter))  Filter;
+ System::Diagnostics::TraceFilter __declspec(property(get=get_Filter))  Filter;
 
  bool __declspec(property(get=get_NeedIndent, put=set_NeedIndent))  NeedIndent;
 
- ::System::Diagnostics::TraceOptions __declspec(property(get=get_TraceOutputOptions))  TraceOutputOptions;
+ System::Diagnostics::TraceOptions __declspec(property(get=get_TraceOutputOptions))  TraceOutputOptions;
 
 
 // Methods
@@ -147,7 +146,7 @@ explicit TraceListener(::StringW name) ;
  void set_IndentSize(int32_t value) ;
 
 /// @brief Method get_Filter addr 0x27db33c size 0x8 virtual false final false
- ::System::Diagnostics::TraceFilter get_Filter() ;
+ System::Diagnostics::TraceFilter get_Filter() ;
 
 /// @brief Method get_NeedIndent addr 0x27db344 size 0x8 virtual false final false
  bool get_NeedIndent() ;
@@ -156,7 +155,7 @@ explicit TraceListener(::StringW name) ;
  void set_NeedIndent(bool value) ;
 
 /// @brief Method get_TraceOutputOptions addr 0x27db358 size 0x8 virtual false final false
- ::System::Diagnostics::TraceOptions get_TraceOutputOptions() ;
+ System::Diagnostics::TraceOptions get_TraceOutputOptions() ;
 
 /// @brief Method Write addr 0x0 size 0xffffffffffffffff virtual true final false
  void Write(::StringW message) ;
@@ -168,21 +167,20 @@ explicit TraceListener(::StringW name) ;
  void WriteLine(::StringW message) ;
 
 /// @brief Method TraceEvent addr 0x27db434 size 0xc4 virtual true final false
- void TraceEvent(::System::Diagnostics::TraceEventCache eventCache, ::StringW source, ::System::Diagnostics::TraceEventType eventType, int32_t id, ::StringW message) ;
+ void TraceEvent(System::Diagnostics::TraceEventCache eventCache, ::StringW source, System::Diagnostics::TraceEventType eventType, int32_t id, ::StringW message) ;
 
 /// @brief Method WriteHeader addr 0x27db4f8 size 0x110 virtual false final false
- void WriteHeader(::StringW source, ::System::Diagnostics::TraceEventType eventType, int32_t id) ;
+ void WriteHeader(::StringW source, System::Diagnostics::TraceEventType eventType, int32_t id) ;
 
 /// @brief Method WriteFooter addr 0x27db608 size 0x5a0 virtual false final false
- void WriteFooter(::System::Diagnostics::TraceEventCache eventCache) ;
+ void WriteFooter(System::Diagnostics::TraceEventCache eventCache) ;
 
 /// @brief Method IsEnabled addr 0x27dbba8 size 0x10 virtual false final false
- bool IsEnabled(::System::Diagnostics::TraceOptions opts) ;
+ bool IsEnabled(System::Diagnostics::TraceOptions opts) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Diagnostics
-} // end anonymous namespace
-NEED_NO_BOX(::System::Diagnostics::TraceListener);
-DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::TraceListener, "System.Diagnostics", "TraceListener");
+NEED_NO_BOX(System::Diagnostics::TraceListener);
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::TraceListener, "System.Diagnostics", "TraceListener");

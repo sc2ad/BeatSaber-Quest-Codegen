@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace Mono::Security::X509 {
 class X509Store;
 }
@@ -64,16 +63,16 @@ constexpr void __set__newFormat(bool value) ;
 
 constexpr bool __get__newFormat() const;
 
- ::Mono::Security::X509::X509Store __declspec(property(get=__get__trusted, put=__set__trusted))  _trusted;
+ Mono::Security::X509::X509Store __declspec(property(get=__get__trusted, put=__set__trusted))  _trusted;
 
-constexpr void __set__trusted(::Mono::Security::X509::X509Store value) ;
+constexpr void __set__trusted(Mono::Security::X509::X509Store value) ;
 
-constexpr ::Mono::Security::X509::X509Store __get__trusted() const;
+constexpr Mono::Security::X509::X509Store __get__trusted() const;
 
 
 // Properties
 
- ::Mono::Security::X509::X509Store __declspec(property(get=get_TrustedRoot))  TrustedRoot;
+ Mono::Security::X509::X509Store __declspec(property(get=get_TrustedRoot))  TrustedRoot;
 
 
 // Methods
@@ -85,15 +84,14 @@ explicit X509Stores(::StringW path, bool newFormat) ;
  void _ctor(::StringW path, bool newFormat) ;
 
 /// @brief Method get_TrustedRoot addr 0x2290aec size 0xdc virtual false final false
- ::Mono::Security::X509::X509Store get_TrustedRoot() ;
+ Mono::Security::X509::X509Store get_TrustedRoot() ;
 
 /// @brief Method Open addr 0x2290bc8 size 0x120 virtual false final false
- ::Mono::Security::X509::X509Store Open(::StringW storeName, bool create) ;
+ Mono::Security::X509::X509Store Open(::StringW storeName, bool create) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Security::X509
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Security::X509::X509Stores);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::X509::X509Stores, "Mono.Security.X509", "X509Stores");
+NEED_NO_BOX(Mono::Security::X509::X509Stores);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Stores, "Mono.Security.X509", "X509Stores");

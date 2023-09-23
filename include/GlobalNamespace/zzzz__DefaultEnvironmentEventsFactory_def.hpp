@@ -1,18 +1,17 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace GlobalNamespace {
-class EnvironmentLightGroups;
-}
 namespace GlobalNamespace {
 class BeatmapEventDataBoxGroupLists;
 }
 namespace GlobalNamespace {
-class BeatmapData;
+class DefaultEnvironmentEvents;
 }
 namespace GlobalNamespace {
-class DefaultEnvironmentEvents;
+class EnvironmentLightGroups;
+}
+namespace GlobalNamespace {
+class BeatmapData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -61,12 +60,11 @@ constexpr explicit DefaultEnvironmentEventsFactory(void* ptr) noexcept : ::bs_ho
 // Methods
 
 /// @brief Method InsertDefaultEnvironmentEvents addr 0x21d96fc size 0x260 virtual false final false
-static void InsertDefaultEnvironmentEvents(::GlobalNamespace::BeatmapData beatmapData, ::GlobalNamespace::BeatmapEventDataBoxGroupLists beatmapEventDataBoxGroupLists, ::GlobalNamespace::DefaultEnvironmentEvents defaultEnvironmentEvents, ::GlobalNamespace::EnvironmentLightGroups environmentLightGroups) ;
+static void InsertDefaultEnvironmentEvents(GlobalNamespace::BeatmapData beatmapData, GlobalNamespace::BeatmapEventDataBoxGroupLists beatmapEventDataBoxGroupLists, GlobalNamespace::DefaultEnvironmentEvents defaultEnvironmentEvents, GlobalNamespace::EnvironmentLightGroups environmentLightGroups) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::DefaultEnvironmentEventsFactory);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DefaultEnvironmentEventsFactory, "", "DefaultEnvironmentEventsFactory");
+NEED_NO_BOX(GlobalNamespace::DefaultEnvironmentEventsFactory);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DefaultEnvironmentEventsFactory, "", "DefaultEnvironmentEventsFactory");

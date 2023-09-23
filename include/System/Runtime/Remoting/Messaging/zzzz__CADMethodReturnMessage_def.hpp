@@ -4,24 +4,23 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
+namespace System::Runtime::Remoting::Messaging {
+class CADArgHolder;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMethodReturnMessage;
+}
 namespace System {
 class Exception;
-}
-namespace System::Collections {
-class ArrayList;
 }
 namespace System {
 class Type;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMethodReturnMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
 class IMessage;
 }
-namespace System::Runtime::Remoting::Messaging {
-class CADArgHolder;
+namespace System::Collections {
+class ArrayList;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -33,7 +32,7 @@ namespace System::Runtime::Remoting::Messaging {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3151))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3153))
 // CS Name: System.Runtime.Remoting.Messaging.CADMethodReturnMessage
-class CORDL_TYPE CADMethodReturnMessage : public ::System::Runtime::Remoting::Messaging::CADMessageBase {
+class CORDL_TYPE CADMethodReturnMessage : public System::Runtime::Remoting::Messaging::CADMessageBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -48,7 +47,7 @@ constexpr CADMethodReturnMessage(CADMethodReturnMessage const& ) noexcept = defa
 constexpr CADMethodReturnMessage(CADMethodReturnMessage&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CADMethodReturnMessage(void* ptr) noexcept : ::System::Runtime::Remoting::Messaging::CADMessageBase(ptr) {
+constexpr explicit CADMethodReturnMessage(void* ptr) noexcept : System::Runtime::Remoting::Messaging::CADMessageBase(ptr) {
 }
 
 
@@ -75,17 +74,17 @@ constexpr void __set__returnValue(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get__returnValue() const;
 
- ::System::Runtime::Remoting::Messaging::CADArgHolder __declspec(property(get=__get__exception, put=__set__exception))  _exception;
+ System::Runtime::Remoting::Messaging::CADArgHolder __declspec(property(get=__get__exception, put=__set__exception))  _exception;
 
-constexpr void __set__exception(::System::Runtime::Remoting::Messaging::CADArgHolder value) ;
+constexpr void __set__exception(System::Runtime::Remoting::Messaging::CADArgHolder value) ;
 
-constexpr ::System::Runtime::Remoting::Messaging::CADArgHolder __get__exception() const;
+constexpr System::Runtime::Remoting::Messaging::CADArgHolder __get__exception() const;
 
- ::ArrayW<::System::Type> __declspec(property(get=__get__sig, put=__set__sig))  _sig;
+ ::ArrayW<System::Type> __declspec(property(get=__get__sig, put=__set__sig))  _sig;
 
-constexpr void __set__sig(::ArrayW<::System::Type> value) ;
+constexpr void __set__sig(::ArrayW<System::Type> value) ;
 
-constexpr ::ArrayW<::System::Type> __get__sig() const;
+constexpr ::ArrayW<System::Type> __get__sig() const;
 
 
 // Properties
@@ -96,25 +95,25 @@ constexpr ::ArrayW<::System::Type> __get__sig() const;
 // Methods
 
 /// @brief Method Create addr 0x233e2c8 size 0x90 virtual false final false
-static ::System::Runtime::Remoting::Messaging::CADMethodReturnMessage Create(::System::Runtime::Remoting::Messaging::IMessage callMsg) ;
+static System::Runtime::Remoting::Messaging::CADMethodReturnMessage Create(System::Runtime::Remoting::Messaging::IMessage callMsg) ;
 
-// Ctor Parameters [CppParam { name: "retMsg", ty: "::System::Runtime::Remoting::Messaging::IMethodReturnMessage", modifiers: "", def_value: None }]
-explicit CADMethodReturnMessage(::System::Runtime::Remoting::Messaging::IMethodReturnMessage retMsg) ;
+// Ctor Parameters [CppParam { name: "retMsg", ty: "System::Runtime::Remoting::Messaging::IMethodReturnMessage", modifiers: "", def_value: None }]
+explicit CADMethodReturnMessage(System::Runtime::Remoting::Messaging::IMethodReturnMessage retMsg) ;
 
 /// @brief Method .ctor addr 0x233e358 size 0x37c virtual false final false
- void _ctor(::System::Runtime::Remoting::Messaging::IMethodReturnMessage retMsg) ;
+ void _ctor(System::Runtime::Remoting::Messaging::IMethodReturnMessage retMsg) ;
 
 /// @brief Method GetArguments addr 0x233e6d4 size 0x140 virtual false final false
- ::System::Collections::ArrayList GetArguments() ;
+ System::Collections::ArrayList GetArguments() ;
 
 /// @brief Method GetArgs addr 0x233e814 size 0x10 virtual false final false
- ::ArrayW<::bs_hook::Il2CppWrapperType> GetArgs(::System::Collections::ArrayList args) ;
+ ::ArrayW<::bs_hook::Il2CppWrapperType> GetArgs(System::Collections::ArrayList args) ;
 
 /// @brief Method GetReturnValue addr 0x233e824 size 0x10 virtual false final false
- ::bs_hook::Il2CppWrapperType GetReturnValue(::System::Collections::ArrayList args) ;
+ ::bs_hook::Il2CppWrapperType GetReturnValue(System::Collections::ArrayList args) ;
 
 /// @brief Method GetException addr 0x233e834 size 0xa4 virtual false final false
- ::System::Exception GetException(::System::Collections::ArrayList args) ;
+ System::Exception GetException(System::Collections::ArrayList args) ;
 
 /// @brief Method get_PropertiesCount addr 0x233e8d8 size 0x8 virtual false final false
  int32_t get_PropertiesCount() ;
@@ -123,6 +122,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Messaging
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Messaging::CADMethodReturnMessage);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::CADMethodReturnMessage, "System.Runtime.Remoting.Messaging", "CADMethodReturnMessage");
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::CADMethodReturnMessage);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CADMethodReturnMessage, "System.Runtime.Remoting.Messaging", "CADMethodReturnMessage");

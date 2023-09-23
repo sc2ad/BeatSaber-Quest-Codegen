@@ -6,28 +6,27 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
-class Camera;
+struct Ray;
+}
+namespace UnityEngine::EventSystems {
+struct RaycastResult;
 }
 namespace UnityEngine {
 struct LayerMask;
+}
+namespace UnityEngine {
+struct RaycastHit;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine::EventSystems {
-struct RaycastResult;
-}
-namespace UnityEngine {
-struct RaycastHit;
-}
-namespace UnityEngine {
-struct Ray;
-}
-namespace UnityEngine::EventSystems {
 class PointerEventData;
+}
+namespace UnityEngine {
+class Camera;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -38,7 +37,7 @@ namespace UnityEngine::EventSystems {
 class PhysicsRaycaster;
 }
 namespace UnityEngine::EventSystems {
-class ____UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer;
+class UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer;
 }
 // Type: ::RaycastHitComparer
 namespace UnityEngine::EventSystems {
@@ -46,59 +45,59 @@ namespace UnityEngine::EventSystems {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13150))
 // CS Name: UnityEngine.EventSystems.PhysicsRaycaster::RaycastHitComparer
-class CORDL_TYPE ____UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IComparer_1<::UnityEngine::RaycastHit>
-constexpr operator  ::System::Collections::Generic::IComparer_1<::UnityEngine::RaycastHit>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IComparer_1<UnityEngine::RaycastHit>
+constexpr operator  System::Collections::Generic::IComparer_1<UnityEngine::RaycastHit>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer() = default;
+virtual ~UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer(____UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer(UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer(____UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer(UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer& operator=(void* o) noexcept {
+  constexpr UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer& operator=(____UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer&& o) noexcept = default;
-  constexpr ____UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer& operator=(____UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer const& o) noexcept = default;
+  constexpr UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer& operator=(UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer&& o) noexcept = default;
+  constexpr UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer& operator=(UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer const& o) noexcept = default;
                 
 
 
 // Fields
 
-static ::UnityEngine::EventSystems::____UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer __declspec(property(get=__get_instance, put=__set_instance))  instance;
+static UnityEngine::EventSystems::UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer __declspec(property(get=__get_instance, put=__set_instance))  instance;
 
-static void __set_instance(::UnityEngine::EventSystems::____UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer value) ;
+static void __set_instance(UnityEngine::EventSystems::UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer value) ;
 
-static ::UnityEngine::EventSystems::____UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer __get_instance() ;
+static UnityEngine::EventSystems::UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer __get_instance() ;
 
 
 // Methods
 
 /// @brief Method Compare addr 0x2c28190 size 0x40 virtual true final true
- int32_t Compare(::UnityEngine::RaycastHit x, ::UnityEngine::RaycastHit y) ;
+ int32_t Compare(UnityEngine::RaycastHit x, UnityEngine::RaycastHit y) ;
 
 // Ctor Parameters []
-explicit ____UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer() ;
+explicit UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer() ;
 
 /// @brief Method .ctor addr 0x2c281d0 size 0x8 virtual false final false
  void _ctor() ;
@@ -113,10 +112,10 @@ namespace UnityEngine::EventSystems {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13148))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13151))
 // CS Name: UnityEngine.EventSystems.PhysicsRaycaster
-class CORDL_TYPE PhysicsRaycaster : public ::UnityEngine::EventSystems::BaseRaycaster {
+class CORDL_TYPE PhysicsRaycaster : public UnityEngine::EventSystems::BaseRaycaster {
 public:
 // Declarations
-using RaycastHitComparer = ::UnityEngine::EventSystems::____UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer;
+using RaycastHitComparer = UnityEngine::EventSystems::UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -130,7 +129,7 @@ constexpr PhysicsRaycaster(PhysicsRaycaster const& ) noexcept = default;
 constexpr PhysicsRaycaster(PhysicsRaycaster&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PhysicsRaycaster(void* ptr) noexcept : ::UnityEngine::EventSystems::BaseRaycaster(ptr) {
+constexpr explicit PhysicsRaycaster(void* ptr) noexcept : UnityEngine::EventSystems::BaseRaycaster(ptr) {
 }
 
 
@@ -154,17 +153,17 @@ constexpr explicit PhysicsRaycaster(void* ptr) noexcept : ::UnityEngine::EventSy
 /// @brief Field kNoEventMaskSet offset 0
 static constexpr int32_t  kNoEventMaskSet{-1};
 
- ::UnityEngine::Camera __declspec(property(get=__get_m_EventCamera, put=__set_m_EventCamera))  m_EventCamera;
+ UnityEngine::Camera __declspec(property(get=__get_m_EventCamera, put=__set_m_EventCamera))  m_EventCamera;
 
-constexpr void __set_m_EventCamera(::UnityEngine::Camera value) ;
+constexpr void __set_m_EventCamera(UnityEngine::Camera value) ;
 
-constexpr ::UnityEngine::Camera __get_m_EventCamera() const;
+constexpr UnityEngine::Camera __get_m_EventCamera() const;
 
- ::UnityEngine::LayerMask __declspec(property(get=__get_m_EventMask, put=__set_m_EventMask))  m_EventMask;
+ UnityEngine::LayerMask __declspec(property(get=__get_m_EventMask, put=__set_m_EventMask))  m_EventMask;
 
-constexpr void __set_m_EventMask(::UnityEngine::LayerMask value) ;
+constexpr void __set_m_EventMask(UnityEngine::LayerMask value) ;
 
-constexpr ::UnityEngine::LayerMask __get_m_EventMask() const;
+constexpr UnityEngine::LayerMask __get_m_EventMask() const;
 
  int32_t __declspec(property(get=__get_m_MaxRayIntersections, put=__set_m_MaxRayIntersections))  m_MaxRayIntersections;
 
@@ -178,22 +177,22 @@ constexpr void __set_m_LastMaxRayIntersections(int32_t value) ;
 
 constexpr int32_t __get_m_LastMaxRayIntersections() const;
 
- ::ArrayW<::UnityEngine::RaycastHit> __declspec(property(get=__get_m_Hits, put=__set_m_Hits))  m_Hits;
+ ::ArrayW<UnityEngine::RaycastHit> __declspec(property(get=__get_m_Hits, put=__set_m_Hits))  m_Hits;
 
-constexpr void __set_m_Hits(::ArrayW<::UnityEngine::RaycastHit> value) ;
+constexpr void __set_m_Hits(::ArrayW<UnityEngine::RaycastHit> value) ;
 
-constexpr ::ArrayW<::UnityEngine::RaycastHit> __get_m_Hits() const;
+constexpr ::ArrayW<UnityEngine::RaycastHit> __get_m_Hits() const;
 
 
 // Properties
 
- ::UnityEngine::Camera __declspec(property(get=get_eventCamera))  eventCamera;
+ UnityEngine::Camera __declspec(property(get=get_eventCamera))  eventCamera;
 
  int32_t __declspec(property(get=get_depth))  depth;
 
  int32_t __declspec(property(get=get_finalEventMask))  finalEventMask;
 
- ::UnityEngine::LayerMask __declspec(property(get=get_eventMask, put=set_eventMask))  eventMask;
+ UnityEngine::LayerMask __declspec(property(get=get_eventMask, put=set_eventMask))  eventMask;
 
  int32_t __declspec(property(get=get_maxRayIntersections, put=set_maxRayIntersections))  maxRayIntersections;
 
@@ -207,7 +206,7 @@ explicit PhysicsRaycaster() ;
  void _ctor() ;
 
 /// @brief Method get_eventCamera addr 0x2c27c34 size 0xa4 virtual true final false
- ::UnityEngine::Camera get_eventCamera() ;
+ UnityEngine::Camera get_eventCamera() ;
 
 /// @brief Method get_depth addr 0x2c27cd8 size 0xc4 virtual true final false
  int32_t get_depth() ;
@@ -216,10 +215,10 @@ explicit PhysicsRaycaster() ;
  int32_t get_finalEventMask() ;
 
 /// @brief Method get_eventMask addr 0x2c27d9c size 0x8 virtual false final false
- ::UnityEngine::LayerMask get_eventMask() ;
+ UnityEngine::LayerMask get_eventMask() ;
 
 /// @brief Method set_eventMask addr 0x2c27da4 size 0x8 virtual false final false
- void set_eventMask(::UnityEngine::LayerMask value) ;
+ void set_eventMask(UnityEngine::LayerMask value) ;
 
 /// @brief Method get_maxRayIntersections addr 0x2c27dac size 0x8 virtual false final false
  int32_t get_maxRayIntersections() ;
@@ -228,17 +227,16 @@ explicit PhysicsRaycaster() ;
  void set_maxRayIntersections(int32_t value) ;
 
 /// @brief Method ComputeRayAndDistance addr 0x2c27878 size 0x2f8 virtual false final false
- bool ComputeRayAndDistance(::UnityEngine::EventSystems::PointerEventData eventData, ByRef<::UnityEngine::Ray> ray, ByRef<int32_t> eventDisplayIndex, ByRef<float_t> distanceToClipPlane) ;
+ bool ComputeRayAndDistance(UnityEngine::EventSystems::PointerEventData eventData, ByRef<UnityEngine::Ray> ray, ByRef<int32_t> eventDisplayIndex, ByRef<float_t> distanceToClipPlane) ;
 
 /// @brief Method Raycast addr 0x2c27dbc size 0x3d4 virtual true final false
- void Raycast(::UnityEngine::EventSystems::PointerEventData eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult> resultAppendList) ;
+ void Raycast(UnityEngine::EventSystems::PointerEventData eventData, System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult> resultAppendList) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::EventSystems
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::EventSystems::PhysicsRaycaster);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::PhysicsRaycaster, "UnityEngine.EventSystems", "PhysicsRaycaster");
-NEED_NO_BOX(::UnityEngine::EventSystems::____UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::____UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer, "UnityEngine.EventSystems", "PhysicsRaycaster/RaycastHitComparer");
+NEED_NO_BOX(UnityEngine::EventSystems::PhysicsRaycaster);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PhysicsRaycaster, "UnityEngine.EventSystems", "PhysicsRaycaster");
+NEED_NO_BOX(UnityEngine::EventSystems::UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer, "UnityEngine.EventSystems", "PhysicsRaycaster/RaycastHitComparer");

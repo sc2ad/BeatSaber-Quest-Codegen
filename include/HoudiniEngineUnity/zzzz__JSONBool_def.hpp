@@ -4,18 +4,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__JSONNode__Enumerator;
+}
 namespace System::Text {
 class StringBuilder;
 }
 namespace HoudiniEngineUnity {
-struct ____HoudiniEngineUnity__JSONNode__Enumerator;
+struct JSONTextMode;
 }
 namespace HoudiniEngineUnity {
 struct JSONNodeType;
-}
-namespace HoudiniEngineUnity {
-struct JSONTextMode;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -27,7 +26,7 @@ namespace HoudiniEngineUnity {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9810))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9818))
 // CS Name: HoudiniEngineUnity.JSONBool
-class CORDL_TYPE JSONBool : public ::HoudiniEngineUnity::JSONNode {
+class CORDL_TYPE JSONBool : public HoudiniEngineUnity::JSONNode {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -42,7 +41,7 @@ constexpr JSONBool(JSONBool const& ) noexcept = default;
 constexpr JSONBool(JSONBool&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit JSONBool(void* ptr) noexcept : ::HoudiniEngineUnity::JSONNode(ptr) {
+constexpr explicit JSONBool(void* ptr) noexcept : HoudiniEngineUnity::JSONNode(ptr) {
 }
 
 
@@ -72,7 +71,7 @@ constexpr bool __get_m_Data() const;
 
 // Properties
 
- ::HoudiniEngineUnity::JSONNodeType __declspec(property(get=get_Tag))  Tag;
+ HoudiniEngineUnity::JSONNodeType __declspec(property(get=get_Tag))  Tag;
 
  bool __declspec(property(get=get_IsBoolean))  IsBoolean;
 
@@ -84,13 +83,13 @@ constexpr bool __get_m_Data() const;
 // Methods
 
 /// @brief Method get_Tag addr 0x2069638 size 0x8 virtual true final false
- ::HoudiniEngineUnity::JSONNodeType get_Tag() ;
+ HoudiniEngineUnity::JSONNodeType get_Tag() ;
 
 /// @brief Method get_IsBoolean addr 0x2069640 size 0x8 virtual true final false
  bool get_IsBoolean() ;
 
 /// @brief Method GetEnumerator addr 0x2069648 size 0x14 virtual true final false
- ::HoudiniEngineUnity::____HoudiniEngineUnity__JSONNode__Enumerator GetEnumerator() ;
+ HoudiniEngineUnity::HoudiniEngineUnity__JSONNode__Enumerator GetEnumerator() ;
 
 /// @brief Method get_Value addr 0x206965c size 0xc virtual true final false
  ::StringW get_Value() ;
@@ -117,7 +116,7 @@ explicit JSONBool(::StringW aData) ;
  void _ctor(::StringW aData) ;
 
 /// @brief Method WriteToStringBuilder addr 0x206972c size 0x78 virtual true final false
- void WriteToStringBuilder(::System::Text::StringBuilder aSB, int32_t aIndent, int32_t aIndentInc, ::HoudiniEngineUnity::JSONTextMode aMode) ;
+ void WriteToStringBuilder(System::Text::StringBuilder aSB, int32_t aIndent, int32_t aIndentInc, HoudiniEngineUnity::JSONTextMode aMode) ;
 
 /// @brief Method Equals addr 0x20697a4 size 0x78 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -129,6 +128,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::JSONBool);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::JSONBool, "HoudiniEngineUnity", "JSONBool");
+NEED_NO_BOX(HoudiniEngineUnity::JSONBool);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSONBool, "HoudiniEngineUnity", "JSONBool");

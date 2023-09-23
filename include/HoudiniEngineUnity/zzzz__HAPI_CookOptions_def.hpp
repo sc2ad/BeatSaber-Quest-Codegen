@@ -3,7 +3,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace HoudiniEngineUnity {
 struct HAPI_PackedPrimInstancingMode;
 }
@@ -20,8 +19,8 @@ namespace HoudiniEngineUnity {
 struct CORDL_TYPE HAPI_CookOptions : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "splitGeosByGroup", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "splitGeosByAttribute", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "splitAttrSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxVerticesPerPrimitive", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "refineCurveToLinear", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "curveRefineLOD", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "clearErrorsAndWarnings", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "cookTemplatedGeos", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "splitPointsByVertexAttributes", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "packedPrimInstancingMode", ty: "::HoudiniEngineUnity::HAPI_PackedPrimInstancingMode", modifiers: "", def_value: None }, CppParam { name: "handleBoxPartTypes", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "handleSpherePartTypes", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "checkPartChanges", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "cacheMeshTopology", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "extraFlags", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr HAPI_CookOptions(bool splitGeosByGroup, bool splitGeosByAttribute, int32_t splitAttrSH, int32_t maxVerticesPerPrimitive, bool refineCurveToLinear, float_t curveRefineLOD, bool clearErrorsAndWarnings, bool cookTemplatedGeos, bool splitPointsByVertexAttributes, ::HoudiniEngineUnity::HAPI_PackedPrimInstancingMode packedPrimInstancingMode, bool handleBoxPartTypes, bool handleSpherePartTypes, bool checkPartChanges, bool cacheMeshTopology, int32_t extraFlags) noexcept;
+// Ctor Parameters [CppParam { name: "splitGeosByGroup", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "splitGeosByAttribute", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "splitAttrSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxVerticesPerPrimitive", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "refineCurveToLinear", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "curveRefineLOD", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "clearErrorsAndWarnings", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "cookTemplatedGeos", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "splitPointsByVertexAttributes", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "packedPrimInstancingMode", ty: "HoudiniEngineUnity::HAPI_PackedPrimInstancingMode", modifiers: "", def_value: None }, CppParam { name: "handleBoxPartTypes", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "handleSpherePartTypes", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "checkPartChanges", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "cacheMeshTopology", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "extraFlags", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr HAPI_CookOptions(bool splitGeosByGroup, bool splitGeosByAttribute, int32_t splitAttrSH, int32_t maxVerticesPerPrimitive, bool refineCurveToLinear, float_t curveRefineLOD, bool clearErrorsAndWarnings, bool cookTemplatedGeos, bool splitPointsByVertexAttributes, HoudiniEngineUnity::HAPI_PackedPrimInstancingMode packedPrimInstancingMode, bool handleBoxPartTypes, bool handleSpherePartTypes, bool checkPartChanges, bool cacheMeshTopology, int32_t extraFlags) noexcept;
 
 
                     constexpr HAPI_CookOptions(HAPI_CookOptions const&) = default;
@@ -108,11 +107,11 @@ constexpr void __set_splitPointsByVertexAttributes(bool value) ;
 
 constexpr bool __get_splitPointsByVertexAttributes() const;
 
- ::HoudiniEngineUnity::HAPI_PackedPrimInstancingMode __declspec(property(get=__get_packedPrimInstancingMode, put=__set_packedPrimInstancingMode))  packedPrimInstancingMode;
+ HoudiniEngineUnity::HAPI_PackedPrimInstancingMode __declspec(property(get=__get_packedPrimInstancingMode, put=__set_packedPrimInstancingMode))  packedPrimInstancingMode;
 
-constexpr void __set_packedPrimInstancingMode(::HoudiniEngineUnity::HAPI_PackedPrimInstancingMode value) ;
+constexpr void __set_packedPrimInstancingMode(HoudiniEngineUnity::HAPI_PackedPrimInstancingMode value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_PackedPrimInstancingMode __get_packedPrimInstancingMode() const;
+constexpr HoudiniEngineUnity::HAPI_PackedPrimInstancingMode __get_packedPrimInstancingMode() const;
 
  bool __declspec(property(get=__get_handleBoxPartTypes, put=__set_handleBoxPartTypes))  handleBoxPartTypes;
 
@@ -148,5 +147,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_CookOptions, "HoudiniEngineUnity", "HAPI_CookOptions");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_CookOptions, "HoudiniEngineUnity", "HAPI_CookOptions");

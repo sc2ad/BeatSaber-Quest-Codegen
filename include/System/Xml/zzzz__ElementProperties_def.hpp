@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Xml {
 struct ElementProperties;
@@ -74,35 +73,34 @@ constexpr void __set_value__(uint32_t value) ;
 constexpr uint32_t __get_value__() const;
 
 /// @brief Field DEFAULT offset 0
-static ::System::Xml::ElementProperties const DEFAULT;
+static System::Xml::ElementProperties const DEFAULT;
 
 /// @brief Field URI_PARENT offset 0
-static ::System::Xml::ElementProperties const URI_PARENT;
+static System::Xml::ElementProperties const URI_PARENT;
 
 /// @brief Field BOOL_PARENT offset 0
-static ::System::Xml::ElementProperties const BOOL_PARENT;
+static System::Xml::ElementProperties const BOOL_PARENT;
 
 /// @brief Field NAME_PARENT offset 0
-static ::System::Xml::ElementProperties const NAME_PARENT;
+static System::Xml::ElementProperties const NAME_PARENT;
 
 /// @brief Field EMPTY offset 0
-static ::System::Xml::ElementProperties const EMPTY;
+static System::Xml::ElementProperties const EMPTY;
 
 /// @brief Field NO_ENTITIES offset 0
-static ::System::Xml::ElementProperties const NO_ENTITIES;
+static System::Xml::ElementProperties const NO_ENTITIES;
 
 /// @brief Field HEAD offset 0
-static ::System::Xml::ElementProperties const HEAD;
+static System::Xml::ElementProperties const HEAD;
 
 /// @brief Field BLOCK_WS offset 0
-static ::System::Xml::ElementProperties const BLOCK_WS;
+static System::Xml::ElementProperties const BLOCK_WS;
 
 /// @brief Field HAS_NS offset 0
-static ::System::Xml::ElementProperties const HAS_NS;
+static System::Xml::ElementProperties const HAS_NS;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::ElementProperties, "System.Xml", "ElementProperties");
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::ElementProperties, "System.Xml", "ElementProperties");

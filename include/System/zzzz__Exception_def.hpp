@@ -5,21 +5,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Collections {
 class IDictionary;
-}
-namespace System::Diagnostics {
-class StackTrace;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System::Runtime::ExceptionServices {
-class ExceptionDispatchInfo;
 }
 namespace System {
 class Type;
@@ -30,9 +20,18 @@ struct StreamingContext;
 namespace System::Runtime::Serialization {
 class SafeSerializationManager;
 }
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Runtime::ExceptionServices {
+class ExceptionDispatchInfo;
+}
+namespace System::Diagnostics {
+class StackTrace;
+}
 // Forward declare root types
 namespace System {
-struct ____System__Exception__ExceptionMessageKind;
+struct System__Exception__ExceptionMessageKind;
 }
 namespace System {
 class Exception;
@@ -43,20 +42,20 @@ namespace System {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2559))
 // CS Name: System.Exception::ExceptionMessageKind
-struct CORDL_TYPE ____System__Exception__ExceptionMessageKind : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE System__Exception__ExceptionMessageKind : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____System__Exception__ExceptionMessageKind(int32_t value__) noexcept;
+constexpr System__Exception__ExceptionMessageKind(int32_t value__) noexcept;
 
 
-                    constexpr ____System__Exception__ExceptionMessageKind(____System__Exception__ExceptionMessageKind const&) = default;
-                    constexpr ____System__Exception__ExceptionMessageKind(____System__Exception__ExceptionMessageKind&&) = default;
-                    constexpr ____System__Exception__ExceptionMessageKind& operator=(____System__Exception__ExceptionMessageKind const& o) {
+                    constexpr System__Exception__ExceptionMessageKind(System__Exception__ExceptionMessageKind const&) = default;
+                    constexpr System__Exception__ExceptionMessageKind(System__Exception__ExceptionMessageKind&&) = default;
+                    constexpr System__Exception__ExceptionMessageKind& operator=(System__Exception__ExceptionMessageKind const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Exception__ExceptionMessageKind& operator=(____System__Exception__ExceptionMessageKind&& o) noexcept {
+                    constexpr System__Exception__ExceptionMessageKind& operator=(System__Exception__ExceptionMessageKind&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -69,7 +68,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Exception__ExceptionMessageKind(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Exception__ExceptionMessageKind(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -77,15 +76,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______System__Exception__ExceptionMessageKind_Unwrapped : int32_t {
+enum class __System__Exception__ExceptionMessageKind_Unwrapped : int32_t {
 __ThreadAbort = 1,
 __ThreadInterrupted = 2,
 __OutOfMemory = 3,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______System__Exception__ExceptionMessageKind_Unwrapped () const noexcept {
-return std::bit_cast<______System__Exception__ExceptionMessageKind_Unwrapped>(__instance);
+constexpr operator __System__Exception__ExceptionMessageKind_Unwrapped () const noexcept {
+return std::bit_cast<__System__Exception__ExceptionMessageKind_Unwrapped>(__instance);
 }
 
 
@@ -98,13 +97,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field ThreadAbort offset 0
-static ::System::____System__Exception__ExceptionMessageKind const ThreadAbort;
+static System::System__Exception__ExceptionMessageKind const ThreadAbort;
 
 /// @brief Field ThreadInterrupted offset 0
-static ::System::____System__Exception__ExceptionMessageKind const ThreadInterrupted;
+static System::System__Exception__ExceptionMessageKind const ThreadInterrupted;
 
 /// @brief Field OutOfMemory offset 0
-static ::System::____System__Exception__ExceptionMessageKind const OutOfMemory;
+static System::System__Exception__ExceptionMessageKind const OutOfMemory;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -119,10 +118,10 @@ namespace System {
 class CORDL_TYPE Exception : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using ExceptionMessageKind = ::System::____System__Exception__ExceptionMessageKind;
+using ExceptionMessageKind = System::System__Exception__ExceptionMessageKind;
 
-/// @brief Convert operator to ::System::Runtime::Serialization::ISerializable
-constexpr operator  ::System::Runtime::Serialization::ISerializable() const noexcept;
+/// @brief Convert operator to System::Runtime::Serialization::ISerializable
+constexpr operator  System::Runtime::Serialization::ISerializable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x90};
@@ -175,17 +174,17 @@ constexpr void __set__message(::StringW value) ;
 
 constexpr ::StringW __get__message() const;
 
- ::System::Collections::IDictionary __declspec(property(get=__get__data, put=__set__data))  _data;
+ System::Collections::IDictionary __declspec(property(get=__get__data, put=__set__data))  _data;
 
-constexpr void __set__data(::System::Collections::IDictionary value) ;
+constexpr void __set__data(System::Collections::IDictionary value) ;
 
-constexpr ::System::Collections::IDictionary __get__data() const;
+constexpr System::Collections::IDictionary __get__data() const;
 
- ::System::Exception __declspec(property(get=__get__innerException, put=__set__innerException))  _innerException;
+ System::Exception __declspec(property(get=__get__innerException, put=__set__innerException))  _innerException;
 
-constexpr void __set__innerException(::System::Exception value) ;
+constexpr void __set__innerException(System::Exception value) ;
 
-constexpr ::System::Exception __get__innerException() const;
+constexpr System::Exception __get__innerException() const;
 
  ::StringW __declspec(property(get=__get__helpURL, put=__set__helpURL))  _helpURL;
 
@@ -235,17 +234,17 @@ constexpr void __set__source(::StringW value) ;
 
 constexpr ::StringW __get__source() const;
 
- ::System::Runtime::Serialization::SafeSerializationManager __declspec(property(get=__get__safeSerializationManager, put=__set__safeSerializationManager))  _safeSerializationManager;
+ System::Runtime::Serialization::SafeSerializationManager __declspec(property(get=__get__safeSerializationManager, put=__set__safeSerializationManager))  _safeSerializationManager;
 
-constexpr void __set__safeSerializationManager(::System::Runtime::Serialization::SafeSerializationManager value) ;
+constexpr void __set__safeSerializationManager(System::Runtime::Serialization::SafeSerializationManager value) ;
 
-constexpr ::System::Runtime::Serialization::SafeSerializationManager __get__safeSerializationManager() const;
+constexpr System::Runtime::Serialization::SafeSerializationManager __get__safeSerializationManager() const;
 
- ::ArrayW<::System::Diagnostics::StackTrace> __declspec(property(get=__get_captured_traces, put=__set_captured_traces))  captured_traces;
+ ::ArrayW<System::Diagnostics::StackTrace> __declspec(property(get=__get_captured_traces, put=__set_captured_traces))  captured_traces;
 
-constexpr void __set_captured_traces(::ArrayW<::System::Diagnostics::StackTrace> value) ;
+constexpr void __set_captured_traces(::ArrayW<System::Diagnostics::StackTrace> value) ;
 
-constexpr ::ArrayW<::System::Diagnostics::StackTrace> __get_captured_traces() const;
+constexpr ::ArrayW<System::Diagnostics::StackTrace> __get_captured_traces() const;
 
  ::ArrayW<::cordl_internals::intptr_t> __declspec(property(get=__get_native_trace_ips, put=__set_native_trace_ips))  native_trace_ips;
 
@@ -267,9 +266,9 @@ static constexpr int32_t  _COMPlusExceptionCode{-532462766};
 
  ::StringW __declspec(property(get=get_Message))  Message;
 
- ::System::Collections::IDictionary __declspec(property(get=get_Data))  Data;
+ System::Collections::IDictionary __declspec(property(get=get_Data))  Data;
 
- ::System::Exception __declspec(property(get=get_InnerException))  InnerException;
+ System::Exception __declspec(property(get=get_InnerException))  InnerException;
 
  ::StringW __declspec(property(get=get_StackTrace))  StackTrace;
 
@@ -295,29 +294,29 @@ explicit Exception(::StringW message) ;
 /// @brief Method .ctor addr 0x2478588 size 0x30 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "::System::Exception", modifiers: "", def_value: None }]
-explicit Exception(::StringW message, ::System::Exception innerException) ;
+// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
+explicit Exception(::StringW message, System::Exception innerException) ;
 
 /// @brief Method .ctor addr 0x24785b8 size 0x38 virtual false final false
- void _ctor(::StringW message, ::System::Exception innerException) ;
+ void _ctor(::StringW message, System::Exception innerException) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit Exception(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit Exception(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x24785f0 size 0x468 virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method get_Message addr 0x2478a58 size 0xd8 virtual true final false
  ::StringW get_Message() ;
 
 /// @brief Method get_Data addr 0x2478b6c size 0x6c virtual true final false
- ::System::Collections::IDictionary get_Data() ;
+ System::Collections::IDictionary get_Data() ;
 
 /// @brief Method GetClassName addr 0x2478b30 size 0x3c virtual false final false
  ::StringW GetClassName() ;
 
 /// @brief Method get_InnerException addr 0x2478be0 size 0x8 virtual true final true
- ::System::Exception get_InnerException() ;
+ System::Exception get_InnerException() ;
 
 /// @brief Method get_StackTrace addr 0x2478be8 size 0x8 virtual true final false
  ::StringW get_StackTrace() ;
@@ -338,16 +337,16 @@ explicit Exception(::System::Runtime::Serialization::SerializationInfo info, ::S
  ::StringW ToString(bool needFileLineInfo, bool needMessage) ;
 
 /// @brief Method GetObjectData addr 0x2479008 size 0x4ac virtual true final false
- void GetObjectData(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void GetObjectData(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method OnDeserialized addr 0x24794b4 size 0x80 virtual false final false
- void OnDeserialized(::System::Runtime::Serialization::StreamingContext context) ;
+ void OnDeserialized(System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method StripFileInfo addr 0x2478c3c size 0x8 virtual false final false
  ::StringW StripFileInfo(::StringW stackTrace, bool isRemoteStackTrace) ;
 
 /// @brief Method RestoreExceptionDispatchInfo addr 0x2479534 size 0x9c virtual false final false
- void RestoreExceptionDispatchInfo(::System::Runtime::ExceptionServices::ExceptionDispatchInfo exceptionDispatchInfo) ;
+ void RestoreExceptionDispatchInfo(System::Runtime::ExceptionServices::ExceptionDispatchInfo exceptionDispatchInfo) ;
 
 /// @brief Method get_HResult addr 0x24795d0 size 0x8 virtual false final false
  int32_t get_HResult() ;
@@ -356,22 +355,21 @@ explicit Exception(::System::Runtime::Serialization::SerializationInfo info, ::S
  void set_HResult(int32_t value) ;
 
 /// @brief Method GetType addr 0x2478bd8 size 0x8 virtual true final true
- ::System::Type GetType() ;
+ System::Type GetType() ;
 
 /// @brief Method GetMessageFromNativeResources addr 0x24795e0 size 0x84 virtual false final false
-static ::StringW GetMessageFromNativeResources(::System::____System__Exception__ExceptionMessageKind kind) ;
+static ::StringW GetMessageFromNativeResources(System::System__Exception__ExceptionMessageKind kind) ;
 
 /// @brief Method FixRemotingException addr 0x2479664 size 0xe8 virtual false final false
- ::System::Exception FixRemotingException() ;
+ System::Exception FixRemotingException() ;
 
 /// @brief Method ReportUnhandledException addr 0x247974c size 0x4 virtual false final false
-static void ReportUnhandledException(::System::Exception exception) ;
+static void ReportUnhandledException(System::Exception exception) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::____System__Exception__ExceptionMessageKind, "System", "Exception/ExceptionMessageKind");
-NEED_NO_BOX(::System::Exception);
-DEFINE_IL2CPP_ARG_TYPE(::System::Exception, "System", "Exception");
+DEFINE_IL2CPP_ARG_TYPE(System::System__Exception__ExceptionMessageKind, "System", "Exception/ExceptionMessageKind");
+NEED_NO_BOX(System::Exception);
+DEFINE_IL2CPP_ARG_TYPE(System::Exception, "System", "Exception");

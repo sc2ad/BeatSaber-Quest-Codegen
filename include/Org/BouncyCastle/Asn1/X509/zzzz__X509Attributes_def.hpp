@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
@@ -51,11 +50,11 @@ constexpr explicit X509Attributes(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_RoleSyntax, put=__set_RoleSyntax))  RoleSyntax;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_RoleSyntax, put=__set_RoleSyntax))  RoleSyntax;
 
-static void __set_RoleSyntax(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_RoleSyntax(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_RoleSyntax() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_RoleSyntax() ;
 
 
 // Methods
@@ -70,6 +69,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::X509
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::X509Attributes);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X509::X509Attributes, "Org.BouncyCastle.Asn1.X509", "X509Attributes");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::X509Attributes);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::X509Attributes, "Org.BouncyCastle.Asn1.X509", "X509Attributes");

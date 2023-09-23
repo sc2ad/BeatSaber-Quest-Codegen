@@ -4,7 +4,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace System {
+class IFormatProvider;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
 namespace System::Globalization {
 class CultureData;
 }
@@ -16,12 +21,6 @@ class ICloneable;
 }
 namespace System::Globalization {
 struct NumberStyles;
-}
-namespace System {
-class IFormatProvider;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -36,11 +35,11 @@ namespace System::Globalization {
 class CORDL_TYPE NumberFormatInfo : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::ICloneable
-constexpr operator  ::System::ICloneable() const noexcept;
+/// @brief Convert operator to System::ICloneable
+constexpr operator  System::ICloneable() const noexcept;
 
-/// @brief Convert operator to ::System::IFormatProvider
-constexpr operator  ::System::IFormatProvider() const noexcept;
+/// @brief Convert operator to System::IFormatProvider
+constexpr operator  System::IFormatProvider() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xd8};
@@ -75,11 +74,11 @@ constexpr explicit NumberFormatInfo(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
-static ::System::Globalization::NumberFormatInfo __declspec(property(get=__get_invariantInfo, put=__set_invariantInfo))  invariantInfo;
+static System::Globalization::NumberFormatInfo __declspec(property(get=__get_invariantInfo, put=__set_invariantInfo))  invariantInfo;
 
-static void __set_invariantInfo(::System::Globalization::NumberFormatInfo value) ;
+static void __set_invariantInfo(System::Globalization::NumberFormatInfo value) ;
 
-static ::System::Globalization::NumberFormatInfo __get_invariantInfo() ;
+static System::Globalization::NumberFormatInfo __get_invariantInfo() ;
 
  ::ArrayW<int32_t> __declspec(property(get=__get_numberGroupSizes, put=__set_numberGroupSizes))  numberGroupSizes;
 
@@ -286,12 +285,12 @@ constexpr void __set_validForParseAsCurrency(bool value) ;
 constexpr bool __get_validForParseAsCurrency() const;
 
 /// @brief Field InvalidNumberStyles offset 0
-static ::System::Globalization::NumberStyles const InvalidNumberStyles;
+static System::Globalization::NumberStyles const InvalidNumberStyles;
 
 
 // Properties
 
-static ::System::Globalization::NumberFormatInfo __declspec(property(get=get_InvariantInfo))  InvariantInfo;
+static System::Globalization::NumberFormatInfo __declspec(property(get=get_InvariantInfo))  InvariantInfo;
 
  int32_t __declspec(property(get=get_CurrencyDecimalDigits))  CurrencyDecimalDigits;
 
@@ -309,7 +308,7 @@ static ::System::Globalization::NumberFormatInfo __declspec(property(get=get_Inv
 
  ::StringW __declspec(property(get=get_CurrencySymbol))  CurrencySymbol;
 
-static ::System::Globalization::NumberFormatInfo __declspec(property(get=get_CurrentInfo))  CurrentInfo;
+static System::Globalization::NumberFormatInfo __declspec(property(get=get_CurrentInfo))  CurrentInfo;
 
  ::StringW __declspec(property(get=get_NaNSymbol, put=set_NaNSymbol))  NaNSymbol;
 
@@ -357,31 +356,31 @@ explicit NumberFormatInfo() ;
  void _ctor() ;
 
 /// @brief Method OnSerializing addr 0x23f77b4 size 0x84 virtual false final false
- void OnSerializing(::System::Runtime::Serialization::StreamingContext ctx) ;
+ void OnSerializing(System::Runtime::Serialization::StreamingContext ctx) ;
 
 /// @brief Method OnDeserializing addr 0x23f7838 size 0x4 virtual false final false
- void OnDeserializing(::System::Runtime::Serialization::StreamingContext ctx) ;
+ void OnDeserializing(System::Runtime::Serialization::StreamingContext ctx) ;
 
 /// @brief Method OnDeserialized addr 0x23f783c size 0x4 virtual false final false
- void OnDeserialized(::System::Runtime::Serialization::StreamingContext ctx) ;
+ void OnDeserialized(System::Runtime::Serialization::StreamingContext ctx) ;
 
 /// @brief Method VerifyGroupSeparator addr 0x23f7840 size 0x70 virtual false final false
 static void VerifyGroupSeparator(::StringW groupSep, ::StringW propertyName) ;
 
-// Ctor Parameters [CppParam { name: "cultureData", ty: "::System::Globalization::CultureData", modifiers: "", def_value: None }]
-explicit NumberFormatInfo(::System::Globalization::CultureData cultureData) ;
+// Ctor Parameters [CppParam { name: "cultureData", ty: "System::Globalization::CultureData", modifiers: "", def_value: None }]
+explicit NumberFormatInfo(System::Globalization::CultureData cultureData) ;
 
 /// @brief Method .ctor addr 0x23f7260 size 0x554 virtual false final false
- void _ctor(::System::Globalization::CultureData cultureData) ;
+ void _ctor(System::Globalization::CultureData cultureData) ;
 
 /// @brief Method VerifyWritable addr 0x23f7a54 size 0x74 virtual false final false
  void VerifyWritable() ;
 
 /// @brief Method get_InvariantInfo addr 0x23f7ac8 size 0xa4 virtual false final false
-static ::System::Globalization::NumberFormatInfo get_InvariantInfo() ;
+static System::Globalization::NumberFormatInfo get_InvariantInfo() ;
 
 /// @brief Method GetInstance addr 0x23f7c40 size 0x1bc virtual false final false
-static ::System::Globalization::NumberFormatInfo GetInstance(::System::IFormatProvider formatProvider) ;
+static System::Globalization::NumberFormatInfo GetInstance(System::IFormatProvider formatProvider) ;
 
 /// @brief Method Clone addr 0x23f7ef0 size 0x6c virtual true final true
  ::bs_hook::Il2CppWrapperType Clone() ;
@@ -411,7 +410,7 @@ static ::System::Globalization::NumberFormatInfo GetInstance(::System::IFormatPr
  ::StringW get_CurrencySymbol() ;
 
 /// @brief Method get_CurrentInfo addr 0x23f7dfc size 0xf4 virtual false final false
-static ::System::Globalization::NumberFormatInfo get_CurrentInfo() ;
+static System::Globalization::NumberFormatInfo get_CurrentInfo() ;
 
 /// @brief Method get_NaNSymbol addr 0x23f80ec size 0x8 virtual false final false
  ::StringW get_NaNSymbol() ;
@@ -474,21 +473,20 @@ static ::System::Globalization::NumberFormatInfo get_CurrentInfo() ;
  ::StringW get_PerMilleSymbol() ;
 
 /// @brief Method GetFormat addr 0x23f8270 size 0x98 virtual true final true
- ::bs_hook::Il2CppWrapperType GetFormat(::System::Type formatType) ;
+ ::bs_hook::Il2CppWrapperType GetFormat(System::Type formatType) ;
 
 /// @brief Method ReadOnly addr 0x23f7b6c size 0xd4 virtual false final false
-static ::System::Globalization::NumberFormatInfo ReadOnly(::System::Globalization::NumberFormatInfo nfi) ;
+static System::Globalization::NumberFormatInfo ReadOnly(System::Globalization::NumberFormatInfo nfi) ;
 
 /// @brief Method ValidateParseStyleInteger addr 0x23f8308 size 0xd8 virtual false final false
-static void ValidateParseStyleInteger(::System::Globalization::NumberStyles style) ;
+static void ValidateParseStyleInteger(System::Globalization::NumberStyles style) ;
 
 /// @brief Method ValidateParseStyleFloatingPoint addr 0x23f83e0 size 0xcc virtual false final false
-static void ValidateParseStyleFloatingPoint(::System::Globalization::NumberStyles style) ;
+static void ValidateParseStyleFloatingPoint(System::Globalization::NumberStyles style) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Globalization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Globalization::NumberFormatInfo);
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::NumberFormatInfo, "System.Globalization", "NumberFormatInfo");
+NEED_NO_BOX(System::Globalization::NumberFormatInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::NumberFormatInfo, "System.Globalization", "NumberFormatInfo");

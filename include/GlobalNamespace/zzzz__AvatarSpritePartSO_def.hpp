@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__AvatarPartSO_1_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
-namespace {
 namespace UnityEngine {
 class Sprite;
 }
@@ -13,10 +12,10 @@ class AvatarSpritePartSO;
 // Type: ::AvatarSpritePartSO
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4773), inst: 752 }), TypeDefinitionIndex(TypeDefinitionIndex(4773)), TypeDefinitionIndex(TypeDefinitionIndex(10227))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4773)), TypeDefinitionIndex(TypeDefinitionIndex(10227)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4773), inst: 752 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4775))
 // CS Name: AvatarSpritePartSO
-class CORDL_TYPE AvatarSpritePartSO : public ::GlobalNamespace::AvatarPartSO_1<::UnityEngine::Sprite> {
+class CORDL_TYPE AvatarSpritePartSO : public GlobalNamespace::AvatarPartSO_1<UnityEngine::Sprite> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr AvatarSpritePartSO(AvatarSpritePartSO const& ) noexcept = default;
 constexpr AvatarSpritePartSO(AvatarSpritePartSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AvatarSpritePartSO(void* ptr) noexcept : ::GlobalNamespace::AvatarPartSO_1<::UnityEngine::Sprite>(ptr) {
+constexpr explicit AvatarSpritePartSO(void* ptr) noexcept : GlobalNamespace::AvatarPartSO_1<UnityEngine::Sprite>(ptr) {
 }
 
 
@@ -52,13 +51,13 @@ constexpr explicit AvatarSpritePartSO(void* ptr) noexcept : ::GlobalNamespace::A
 
 // Properties
 
- ::UnityEngine::Sprite __declspec(property(get=get_sprite))  sprite;
+ UnityEngine::Sprite __declspec(property(get=get_sprite))  sprite;
 
 
 // Methods
 
 /// @brief Method get_sprite addr 0x2229974 size 0x3c virtual false final false
- ::UnityEngine::Sprite get_sprite() ;
+ UnityEngine::Sprite get_sprite() ;
 
 // Ctor Parameters []
 explicit AvatarSpritePartSO() ;
@@ -70,6 +69,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::AvatarSpritePartSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AvatarSpritePartSO, "", "AvatarSpritePartSO");
+NEED_NO_BOX(GlobalNamespace::AvatarSpritePartSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarSpritePartSO, "", "AvatarSpritePartSO");

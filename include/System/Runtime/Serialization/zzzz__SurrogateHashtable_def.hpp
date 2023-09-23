@@ -3,7 +3,6 @@
 #include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Runtime::Serialization {
 class SurrogateHashtable;
@@ -14,7 +13,7 @@ namespace System::Runtime::Serialization {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3783))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3235))
 // CS Name: System.Runtime.Serialization.SurrogateHashtable
-class CORDL_TYPE SurrogateHashtable : public ::System::Collections::Hashtable {
+class CORDL_TYPE SurrogateHashtable : public System::Collections::Hashtable {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr SurrogateHashtable(SurrogateHashtable const& ) noexcept = default;
 constexpr SurrogateHashtable(SurrogateHashtable&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SurrogateHashtable(void* ptr) noexcept : ::System::Collections::Hashtable(ptr) {
+constexpr explicit SurrogateHashtable(void* ptr) noexcept : System::Collections::Hashtable(ptr) {
 }
 
 
@@ -63,6 +62,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::SurrogateHashtable);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::SurrogateHashtable, "System.Runtime.Serialization", "SurrogateHashtable");
+NEED_NO_BOX(System::Runtime::Serialization::SurrogateHashtable);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SurrogateHashtable, "System.Runtime.Serialization", "SurrogateHashtable");

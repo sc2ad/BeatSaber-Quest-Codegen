@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Org::BouncyCastle::Asn1::Cmp {
 class RevDetails;
 }
@@ -57,46 +56,45 @@ constexpr explicit RevocationDetails(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 
 // Fields
 
- ::Org::BouncyCastle::Asn1::Cmp::RevDetails __declspec(property(get=__get_revDetails, put=__set_revDetails))  revDetails;
+ Org::BouncyCastle::Asn1::Cmp::RevDetails __declspec(property(get=__get_revDetails, put=__set_revDetails))  revDetails;
 
-constexpr void __set_revDetails(::Org::BouncyCastle::Asn1::Cmp::RevDetails value) ;
+constexpr void __set_revDetails(Org::BouncyCastle::Asn1::Cmp::RevDetails value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::Cmp::RevDetails __get_revDetails() const;
+constexpr Org::BouncyCastle::Asn1::Cmp::RevDetails __get_revDetails() const;
 
 
 // Properties
 
- ::Org::BouncyCastle::Asn1::X509::X509Name __declspec(property(get=get_Subject))  Subject;
+ Org::BouncyCastle::Asn1::X509::X509Name __declspec(property(get=get_Subject))  Subject;
 
- ::Org::BouncyCastle::Asn1::X509::X509Name __declspec(property(get=get_Issuer))  Issuer;
+ Org::BouncyCastle::Asn1::X509::X509Name __declspec(property(get=get_Issuer))  Issuer;
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_SerialNumber))  SerialNumber;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_SerialNumber))  SerialNumber;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "revDetails", ty: "::Org::BouncyCastle::Asn1::Cmp::RevDetails", modifiers: "", def_value: None }]
-explicit RevocationDetails(::Org::BouncyCastle::Asn1::Cmp::RevDetails revDetails) ;
+// Ctor Parameters [CppParam { name: "revDetails", ty: "Org::BouncyCastle::Asn1::Cmp::RevDetails", modifiers: "", def_value: None }]
+explicit RevocationDetails(Org::BouncyCastle::Asn1::Cmp::RevDetails revDetails) ;
 
 /// @brief Method .ctor addr 0x114dcf0 size 0x28 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::Cmp::RevDetails revDetails) ;
+ void _ctor(Org::BouncyCastle::Asn1::Cmp::RevDetails revDetails) ;
 
 /// @brief Method get_Subject addr 0x114dd18 size 0x30 virtual false final false
- ::Org::BouncyCastle::Asn1::X509::X509Name get_Subject() ;
+ Org::BouncyCastle::Asn1::X509::X509Name get_Subject() ;
 
 /// @brief Method get_Issuer addr 0x114dd48 size 0x30 virtual false final false
- ::Org::BouncyCastle::Asn1::X509::X509Name get_Issuer() ;
+ Org::BouncyCastle::Asn1::X509::X509Name get_Issuer() ;
 
 /// @brief Method get_SerialNumber addr 0x114dd78 size 0x3c virtual false final false
- ::Org::BouncyCastle::Math::BigInteger get_SerialNumber() ;
+ Org::BouncyCastle::Math::BigInteger get_SerialNumber() ;
 
 /// @brief Method ToASN1Structure addr 0x114ddb4 size 0x8 virtual false final false
- ::Org::BouncyCastle::Asn1::Cmp::RevDetails ToASN1Structure() ;
+ Org::BouncyCastle::Asn1::Cmp::RevDetails ToASN1Structure() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Cmp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Cmp::RevocationDetails);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cmp::RevocationDetails, "Org.BouncyCastle.Cmp", "RevocationDetails");
+NEED_NO_BOX(Org::BouncyCastle::Cmp::RevocationDetails);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Cmp::RevocationDetails, "Org.BouncyCastle.Cmp", "RevocationDetails");

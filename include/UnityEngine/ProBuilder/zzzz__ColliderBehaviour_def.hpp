@@ -1,12 +1,11 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/ProBuilder/zzzz__EntityBehaviour_def.hpp"
-namespace {
-namespace UnityEngine::SceneManagement {
-struct Scene;
-}
 namespace UnityEngine::SceneManagement {
 struct LoadSceneMode;
+}
+namespace UnityEngine::SceneManagement {
+struct Scene;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -18,7 +17,7 @@ namespace UnityEngine::ProBuilder {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12065))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12053))
 // CS Name: UnityEngine.ProBuilder.ColliderBehaviour
-class CORDL_TYPE ColliderBehaviour : public ::UnityEngine::ProBuilder::EntityBehaviour {
+class CORDL_TYPE ColliderBehaviour : public UnityEngine::ProBuilder::EntityBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr ColliderBehaviour(ColliderBehaviour const& ) noexcept = default;
 constexpr ColliderBehaviour(ColliderBehaviour&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ColliderBehaviour(void* ptr) noexcept : ::UnityEngine::ProBuilder::EntityBehaviour(ptr) {
+constexpr explicit ColliderBehaviour(void* ptr) noexcept : UnityEngine::ProBuilder::EntityBehaviour(ptr) {
 }
 
 
@@ -61,7 +60,7 @@ constexpr explicit ColliderBehaviour(void* ptr) noexcept : ::UnityEngine::ProBui
  void OnEnterPlayMode() ;
 
 /// @brief Method OnSceneLoaded addr 0x29a8d9c size 0xb8 virtual true final false
- void OnSceneLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode mode) ;
+ void OnSceneLoaded(UnityEngine::SceneManagement::Scene scene, UnityEngine::SceneManagement::LoadSceneMode mode) ;
 
 // Ctor Parameters []
 explicit ColliderBehaviour() ;
@@ -73,6 +72,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::ColliderBehaviour);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::ColliderBehaviour, "UnityEngine.ProBuilder", "ColliderBehaviour");
+NEED_NO_BOX(UnityEngine::ProBuilder::ColliderBehaviour);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ColliderBehaviour, "UnityEngine.ProBuilder", "ColliderBehaviour");

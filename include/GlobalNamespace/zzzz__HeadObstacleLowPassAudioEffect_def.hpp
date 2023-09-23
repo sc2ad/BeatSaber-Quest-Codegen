@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class PlayerHeadAndObstacleInteraction;
-}
 namespace GlobalNamespace {
 class MainAudioEffects;
+}
+namespace GlobalNamespace {
+class PlayerHeadAndObstacleInteraction;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5014))
 // CS Name: HeadObstacleLowPassAudioEffect
-class CORDL_TYPE HeadObstacleLowPassAudioEffect : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE HeadObstacleLowPassAudioEffect : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr HeadObstacleLowPassAudioEffect(HeadObstacleLowPassAudioEffect const& )
 constexpr HeadObstacleLowPassAudioEffect(HeadObstacleLowPassAudioEffect&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HeadObstacleLowPassAudioEffect(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit HeadObstacleLowPassAudioEffect(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -54,17 +53,17 @@ constexpr explicit HeadObstacleLowPassAudioEffect(void* ptr) noexcept : ::UnityE
 
 // Fields
 
- ::GlobalNamespace::PlayerHeadAndObstacleInteraction __declspec(property(get=__get__playerHeadAndObstacleInteraction, put=__set__playerHeadAndObstacleInteraction))  _playerHeadAndObstacleInteraction;
+ GlobalNamespace::PlayerHeadAndObstacleInteraction __declspec(property(get=__get__playerHeadAndObstacleInteraction, put=__set__playerHeadAndObstacleInteraction))  _playerHeadAndObstacleInteraction;
 
-constexpr void __set__playerHeadAndObstacleInteraction(::GlobalNamespace::PlayerHeadAndObstacleInteraction value) ;
+constexpr void __set__playerHeadAndObstacleInteraction(GlobalNamespace::PlayerHeadAndObstacleInteraction value) ;
 
-constexpr ::GlobalNamespace::PlayerHeadAndObstacleInteraction __get__playerHeadAndObstacleInteraction() const;
+constexpr GlobalNamespace::PlayerHeadAndObstacleInteraction __get__playerHeadAndObstacleInteraction() const;
 
- ::GlobalNamespace::MainAudioEffects __declspec(property(get=__get__mainAudioEffects, put=__set__mainAudioEffects))  _mainAudioEffects;
+ GlobalNamespace::MainAudioEffects __declspec(property(get=__get__mainAudioEffects, put=__set__mainAudioEffects))  _mainAudioEffects;
 
-constexpr void __set__mainAudioEffects(::GlobalNamespace::MainAudioEffects value) ;
+constexpr void __set__mainAudioEffects(GlobalNamespace::MainAudioEffects value) ;
 
-constexpr ::GlobalNamespace::MainAudioEffects __get__mainAudioEffects() const;
+constexpr GlobalNamespace::MainAudioEffects __get__mainAudioEffects() const;
 
  bool __declspec(property(get=__get__headWasInObstacle, put=__set__headWasInObstacle))  _headWasInObstacle;
 
@@ -88,6 +87,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::HeadObstacleLowPassAudioEffect);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::HeadObstacleLowPassAudioEffect, "", "HeadObstacleLowPassAudioEffect");
+NEED_NO_BOX(GlobalNamespace::HeadObstacleLowPassAudioEffect);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HeadObstacleLowPassAudioEffect, "", "HeadObstacleLowPassAudioEffect");

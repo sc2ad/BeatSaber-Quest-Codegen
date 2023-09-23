@@ -2,12 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace System::Runtime::Serialization {
-class ObjectHolderList;
-}
 namespace System::Runtime::Serialization {
 class ObjectHolder;
+}
+namespace System::Runtime::Serialization {
+class ObjectHolderList;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -61,11 +60,11 @@ constexpr void __set_m_isFixupEnumerator(bool value) ;
 
 constexpr bool __get_m_isFixupEnumerator() const;
 
- ::System::Runtime::Serialization::ObjectHolderList __declspec(property(get=__get_m_list, put=__set_m_list))  m_list;
+ System::Runtime::Serialization::ObjectHolderList __declspec(property(get=__get_m_list, put=__set_m_list))  m_list;
 
-constexpr void __set_m_list(::System::Runtime::Serialization::ObjectHolderList value) ;
+constexpr void __set_m_list(System::Runtime::Serialization::ObjectHolderList value) ;
 
-constexpr ::System::Runtime::Serialization::ObjectHolderList __get_m_list() const;
+constexpr System::Runtime::Serialization::ObjectHolderList __get_m_list() const;
 
  int32_t __declspec(property(get=__get_m_startingVersion, put=__set_m_startingVersion))  m_startingVersion;
 
@@ -82,27 +81,26 @@ constexpr int32_t __get_m_currPos() const;
 
 // Properties
 
- ::System::Runtime::Serialization::ObjectHolder __declspec(property(get=get_Current))  Current;
+ System::Runtime::Serialization::ObjectHolder __declspec(property(get=get_Current))  Current;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "list", ty: "::System::Runtime::Serialization::ObjectHolderList", modifiers: "", def_value: None }, CppParam { name: "isFixupEnumerator", ty: "bool", modifiers: "", def_value: None }]
-explicit ObjectHolderListEnumerator(::System::Runtime::Serialization::ObjectHolderList list, bool isFixupEnumerator) ;
+// Ctor Parameters [CppParam { name: "list", ty: "System::Runtime::Serialization::ObjectHolderList", modifiers: "", def_value: None }, CppParam { name: "isFixupEnumerator", ty: "bool", modifiers: "", def_value: None }]
+explicit ObjectHolderListEnumerator(System::Runtime::Serialization::ObjectHolderList list, bool isFixupEnumerator) ;
 
 /// @brief Method .ctor addr 0x2350ad0 size 0x48 virtual false final false
- void _ctor(::System::Runtime::Serialization::ObjectHolderList list, bool isFixupEnumerator) ;
+ void _ctor(System::Runtime::Serialization::ObjectHolderList list, bool isFixupEnumerator) ;
 
 /// @brief Method MoveNext addr 0x234f9b4 size 0xbc virtual false final false
  bool MoveNext() ;
 
 /// @brief Method get_Current addr 0x234f95c size 0x3c virtual false final false
- ::System::Runtime::Serialization::ObjectHolder get_Current() ;
+ System::Runtime::Serialization::ObjectHolder get_Current() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::ObjectHolderListEnumerator);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::ObjectHolderListEnumerator, "System.Runtime.Serialization", "ObjectHolderListEnumerator");
+NEED_NO_BOX(System::Runtime::Serialization::ObjectHolderListEnumerator);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ObjectHolderListEnumerator, "System.Runtime.Serialization", "ObjectHolderListEnumerator");

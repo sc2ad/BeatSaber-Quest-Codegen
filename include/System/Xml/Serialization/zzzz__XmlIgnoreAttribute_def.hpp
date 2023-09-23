@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 // Forward declare root types
 namespace System::Xml::Serialization {
 class XmlIgnoreAttribute;
@@ -12,7 +11,7 @@ namespace System::Xml::Serialization {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11531))
 // CS Name: System.Xml.Serialization.XmlIgnoreAttribute
-class CORDL_TYPE XmlIgnoreAttribute : public ::System::Attribute {
+class CORDL_TYPE XmlIgnoreAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr XmlIgnoreAttribute(XmlIgnoreAttribute const& ) noexcept = default;
 constexpr XmlIgnoreAttribute(XmlIgnoreAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XmlIgnoreAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit XmlIgnoreAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Serialization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Serialization::XmlIgnoreAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::XmlIgnoreAttribute, "System.Xml.Serialization", "XmlIgnoreAttribute");
+NEED_NO_BOX(System::Xml::Serialization::XmlIgnoreAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Serialization::XmlIgnoreAttribute, "System.Xml.Serialization", "XmlIgnoreAttribute");

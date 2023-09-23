@@ -2,35 +2,34 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
 namespace GlobalNamespace {
-class MultiplayerPlayersManager;
-}
-namespace GlobalNamespace {
-class MultiplayerLayoutProvider;
+class MultiplayerController;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
-class MultiplayerScoreProvider;
+struct GlobalNamespace__MultiplayerController__State;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerScoreProvider__RankedPlayer;
 }
 namespace GlobalNamespace {
 class MultiplayerConnectedPlayerFacade;
 }
 namespace GlobalNamespace {
-class MultiplayerController;
+class MultiplayerScoreProvider;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__MultiplayerController__State;
+class MultiplayerLayoutProvider;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__MultiplayerScoreProvider__RankedPlayer;
+class MultiplayerPlayersManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -42,7 +41,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5346))
 // CS Name: MultiplayerVerticalPlayerMovementManager
-class CORDL_TYPE MultiplayerVerticalPlayerMovementManager : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerVerticalPlayerMovementManager : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -57,7 +56,7 @@ constexpr MultiplayerVerticalPlayerMovementManager(MultiplayerVerticalPlayerMove
 constexpr MultiplayerVerticalPlayerMovementManager(MultiplayerVerticalPlayerMovementManager&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerVerticalPlayerMovementManager(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerVerticalPlayerMovementManager(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -114,41 +113,41 @@ constexpr void __set__minScoreDifference(float_t value) ;
 
 constexpr float_t __get__minScoreDifference() const;
 
- ::GlobalNamespace::MultiplayerPlayersManager __declspec(property(get=__get__multiplayerPlayersManager, put=__set__multiplayerPlayersManager))  _multiplayerPlayersManager;
+ GlobalNamespace::MultiplayerPlayersManager __declspec(property(get=__get__multiplayerPlayersManager, put=__set__multiplayerPlayersManager))  _multiplayerPlayersManager;
 
-constexpr void __set__multiplayerPlayersManager(::GlobalNamespace::MultiplayerPlayersManager value) ;
+constexpr void __set__multiplayerPlayersManager(GlobalNamespace::MultiplayerPlayersManager value) ;
 
-constexpr ::GlobalNamespace::MultiplayerPlayersManager __get__multiplayerPlayersManager() const;
+constexpr GlobalNamespace::MultiplayerPlayersManager __get__multiplayerPlayersManager() const;
 
- ::GlobalNamespace::MultiplayerScoreProvider __declspec(property(get=__get__scoreProvider, put=__set__scoreProvider))  _scoreProvider;
+ GlobalNamespace::MultiplayerScoreProvider __declspec(property(get=__get__scoreProvider, put=__set__scoreProvider))  _scoreProvider;
 
-constexpr void __set__scoreProvider(::GlobalNamespace::MultiplayerScoreProvider value) ;
+constexpr void __set__scoreProvider(GlobalNamespace::MultiplayerScoreProvider value) ;
 
-constexpr ::GlobalNamespace::MultiplayerScoreProvider __get__scoreProvider() const;
+constexpr GlobalNamespace::MultiplayerScoreProvider __get__scoreProvider() const;
 
- ::GlobalNamespace::MultiplayerLayoutProvider __declspec(property(get=__get__layoutProvider, put=__set__layoutProvider))  _layoutProvider;
+ GlobalNamespace::MultiplayerLayoutProvider __declspec(property(get=__get__layoutProvider, put=__set__layoutProvider))  _layoutProvider;
 
-constexpr void __set__layoutProvider(::GlobalNamespace::MultiplayerLayoutProvider value) ;
+constexpr void __set__layoutProvider(GlobalNamespace::MultiplayerLayoutProvider value) ;
 
-constexpr ::GlobalNamespace::MultiplayerLayoutProvider __get__layoutProvider() const;
+constexpr GlobalNamespace::MultiplayerLayoutProvider __get__layoutProvider() const;
 
- ::GlobalNamespace::MultiplayerController __declspec(property(get=__get__multiplayerController, put=__set__multiplayerController))  _multiplayerController;
+ GlobalNamespace::MultiplayerController __declspec(property(get=__get__multiplayerController, put=__set__multiplayerController))  _multiplayerController;
 
-constexpr void __set__multiplayerController(::GlobalNamespace::MultiplayerController value) ;
+constexpr void __set__multiplayerController(GlobalNamespace::MultiplayerController value) ;
 
-constexpr ::GlobalNamespace::MultiplayerController __get__multiplayerController() const;
+constexpr GlobalNamespace::MultiplayerController __get__multiplayerController() const;
 
- ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__MultiplayerScoreProvider__RankedPlayer> __declspec(property(get=__get__reusablePlayersList, put=__set__reusablePlayersList))  _reusablePlayersList;
+ System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider__RankedPlayer> __declspec(property(get=__get__reusablePlayersList, put=__set__reusablePlayersList))  _reusablePlayersList;
 
-constexpr void __set__reusablePlayersList(::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__MultiplayerScoreProvider__RankedPlayer> value) ;
+constexpr void __set__reusablePlayersList(System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider__RankedPlayer> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__MultiplayerScoreProvider__RankedPlayer> __get__reusablePlayersList() const;
+constexpr System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider__RankedPlayer> __get__reusablePlayersList() const;
 
- ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::MultiplayerConnectedPlayerFacade,float_t> __declspec(property(get=__get__currentSpeedsDictionary, put=__set__currentSpeedsDictionary))  _currentSpeedsDictionary;
+ System::Collections::Generic::Dictionary_2<GlobalNamespace::MultiplayerConnectedPlayerFacade,float_t> __declspec(property(get=__get__currentSpeedsDictionary, put=__set__currentSpeedsDictionary))  _currentSpeedsDictionary;
 
-constexpr void __set__currentSpeedsDictionary(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::MultiplayerConnectedPlayerFacade,float_t> value) ;
+constexpr void __set__currentSpeedsDictionary(System::Collections::Generic::Dictionary_2<GlobalNamespace::MultiplayerConnectedPlayerFacade,float_t> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::MultiplayerConnectedPlayerFacade,float_t> __get__currentSpeedsDictionary() const;
+constexpr System::Collections::Generic::Dictionary_2<GlobalNamespace::MultiplayerConnectedPlayerFacade,float_t> __get__currentSpeedsDictionary() const;
 
  float_t __declspec(property(get=__get__lastFrameBaseScore, put=__set__lastFrameBaseScore))  _lastFrameBaseScore;
 
@@ -169,7 +168,7 @@ constexpr float_t __get__lastFrameBaseScore() const;
  void Update() ;
 
 /// @brief Method HandleStateChanged addr 0x21045d4 size 0x10 virtual false final false
- void HandleStateChanged(::GlobalNamespace::____GlobalNamespace__MultiplayerController__State state) ;
+ void HandleStateChanged(GlobalNamespace::GlobalNamespace__MultiplayerController__State state) ;
 
 // Ctor Parameters []
 explicit MultiplayerVerticalPlayerMovementManager() ;
@@ -181,6 +180,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerVerticalPlayerMovementManager);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerVerticalPlayerMovementManager, "", "MultiplayerVerticalPlayerMovementManager");
+NEED_NO_BOX(GlobalNamespace::MultiplayerVerticalPlayerMovementManager);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerVerticalPlayerMovementManager, "", "MultiplayerVerticalPlayerMovementManager");

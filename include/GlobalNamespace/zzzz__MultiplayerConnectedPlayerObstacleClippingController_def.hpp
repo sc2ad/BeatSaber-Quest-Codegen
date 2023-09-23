@@ -3,12 +3,11 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct Vector3;
-}
 namespace GlobalNamespace {
 class MaterialPropertyBlockController;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,7 +19,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5240))
 // CS Name: MultiplayerConnectedPlayerObstacleClippingController
-class CORDL_TYPE MultiplayerConnectedPlayerObstacleClippingController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerConnectedPlayerObstacleClippingController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr MultiplayerConnectedPlayerObstacleClippingController(MultiplayerConnec
 constexpr MultiplayerConnectedPlayerObstacleClippingController(MultiplayerConnectedPlayerObstacleClippingController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerConnectedPlayerObstacleClippingController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerConnectedPlayerObstacleClippingController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -56,11 +55,11 @@ constexpr explicit MultiplayerConnectedPlayerObstacleClippingController(void* pt
 
 // Fields
 
- ::ArrayW<::GlobalNamespace::MaterialPropertyBlockController> __declspec(property(get=__get__materialPropertyBlockControllers, put=__set__materialPropertyBlockControllers))  _materialPropertyBlockControllers;
+ ::ArrayW<GlobalNamespace::MaterialPropertyBlockController> __declspec(property(get=__get__materialPropertyBlockControllers, put=__set__materialPropertyBlockControllers))  _materialPropertyBlockControllers;
 
-constexpr void __set__materialPropertyBlockControllers(::ArrayW<::GlobalNamespace::MaterialPropertyBlockController> value) ;
+constexpr void __set__materialPropertyBlockControllers(::ArrayW<GlobalNamespace::MaterialPropertyBlockController> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::MaterialPropertyBlockController> __get__materialPropertyBlockControllers() const;
+constexpr ::ArrayW<GlobalNamespace::MaterialPropertyBlockController> __get__materialPropertyBlockControllers() const;
 
 static int32_t __declspec(property(get=__get__clippingPlanePositionID, put=__set__clippingPlanePositionID))  _clippingPlanePositionID;
 
@@ -78,7 +77,7 @@ static int32_t __get__clippingPlaneNormalID() ;
 // Methods
 
 /// @brief Method SetClippingParams addr 0x20e23cc size 0x14c virtual false final false
- void SetClippingParams(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 normal) ;
+ void SetClippingParams(UnityEngine::Vector3 position, UnityEngine::Vector3 normal) ;
 
 // Ctor Parameters []
 explicit MultiplayerConnectedPlayerObstacleClippingController() ;
@@ -90,6 +89,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController, "", "MultiplayerConnectedPlayerObstacleClippingController");
+NEED_NO_BOX(GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController, "", "MultiplayerConnectedPlayerObstacleClippingController");

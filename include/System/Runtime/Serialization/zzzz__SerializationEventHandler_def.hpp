@@ -3,7 +3,6 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
@@ -17,7 +16,7 @@ namespace System::Runtime::Serialization {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3197))
 // CS Name: System.Runtime.Serialization.SerializationEventHandler
-class CORDL_TYPE SerializationEventHandler : public ::System::MulticastDelegate {
+class CORDL_TYPE SerializationEventHandler : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr SerializationEventHandler(SerializationEventHandler const& ) noexcept 
 constexpr SerializationEventHandler(SerializationEventHandler&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SerializationEventHandler(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit SerializationEventHandler(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -60,12 +59,11 @@ explicit SerializationEventHandler(::bs_hook::Il2CppWrapperType object, ::cordl_
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x2348840 size 0x14 virtual true final false
- void Invoke(::System::Runtime::Serialization::StreamingContext context) ;
+ void Invoke(System::Runtime::Serialization::StreamingContext context) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::SerializationEventHandler);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::SerializationEventHandler, "System.Runtime.Serialization", "SerializationEventHandler");
+NEED_NO_BOX(System::Runtime::Serialization::SerializationEventHandler);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationEventHandler, "System.Runtime.Serialization", "SerializationEventHandler");

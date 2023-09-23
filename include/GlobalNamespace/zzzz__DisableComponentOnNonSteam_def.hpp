@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace UnityEngine {
 class MonoBehaviour;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5451))
 // CS Name: DisableComponentOnNonSteam
-class CORDL_TYPE DisableComponentOnNonSteam : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE DisableComponentOnNonSteam : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr DisableComponentOnNonSteam(DisableComponentOnNonSteam const& ) noexcep
 constexpr DisableComponentOnNonSteam(DisableComponentOnNonSteam&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DisableComponentOnNonSteam(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit DisableComponentOnNonSteam(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit DisableComponentOnNonSteam(void* ptr) noexcept : ::UnityEngin
 
 // Fields
 
- ::UnityEngine::MonoBehaviour __declspec(property(get=__get__component, put=__set__component))  _component;
+ UnityEngine::MonoBehaviour __declspec(property(get=__get__component, put=__set__component))  _component;
 
-constexpr void __set__component(::UnityEngine::MonoBehaviour value) ;
+constexpr void __set__component(UnityEngine::MonoBehaviour value) ;
 
-constexpr ::UnityEngine::MonoBehaviour __get__component() const;
+constexpr UnityEngine::MonoBehaviour __get__component() const;
 
 
 // Methods
@@ -73,6 +72,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::DisableComponentOnNonSteam);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DisableComponentOnNonSteam, "", "DisableComponentOnNonSteam");
+NEED_NO_BOX(GlobalNamespace::DisableComponentOnNonSteam);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisableComponentOnNonSteam, "", "DisableComponentOnNonSteam");

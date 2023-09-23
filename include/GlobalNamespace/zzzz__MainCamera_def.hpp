@@ -1,18 +1,17 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace UnityEngine {
-class Transform;
+class Camera;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-class Camera;
+struct Quaternion;
 }
 namespace UnityEngine {
-struct Quaternion;
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,7 +23,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5970))
 // CS Name: MainCamera
-class CORDL_TYPE MainCamera : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MainCamera : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr MainCamera(MainCamera const& ) noexcept = default;
 constexpr MainCamera(MainCamera&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MainCamera(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MainCamera(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -60,43 +59,43 @@ constexpr explicit MainCamera(void* ptr) noexcept : ::UnityEngine::MonoBehaviour
 
 // Fields
 
- ::UnityEngine::Camera __declspec(property(get=__get__camera, put=__set__camera))  _camera;
+ UnityEngine::Camera __declspec(property(get=__get__camera, put=__set__camera))  _camera;
 
-constexpr void __set__camera(::UnityEngine::Camera value) ;
+constexpr void __set__camera(UnityEngine::Camera value) ;
 
-constexpr ::UnityEngine::Camera __get__camera() const;
+constexpr UnityEngine::Camera __get__camera() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
+ UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
 
-constexpr void __set__transform(::UnityEngine::Transform value) ;
+constexpr void __set__transform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__transform() const;
+constexpr UnityEngine::Transform __get__transform() const;
 
 
 // Properties
 
- ::UnityEngine::Camera __declspec(property(get=get_camera))  camera;
+ UnityEngine::Camera __declspec(property(get=get_camera))  camera;
 
  bool __declspec(property(put=set_enableCamera))  enableCamera;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_position))  position;
+ UnityEngine::Vector3 __declspec(property(get=get_position))  position;
 
- ::UnityEngine::Quaternion __declspec(property(get=get_rotation))  rotation;
+ UnityEngine::Quaternion __declspec(property(get=get_rotation))  rotation;
 
 
 // Methods
 
 /// @brief Method get_camera addr 0x219eecc size 0x8 virtual false final false
- ::UnityEngine::Camera get_camera() ;
+ UnityEngine::Camera get_camera() ;
 
 /// @brief Method set_enableCamera addr 0x219eed4 size 0x28 virtual false final false
  void set_enableCamera(bool value) ;
 
 /// @brief Method get_position addr 0x219eefc size 0x1c virtual false final false
- ::UnityEngine::Vector3 get_position() ;
+ UnityEngine::Vector3 get_position() ;
 
 /// @brief Method get_rotation addr 0x219ef18 size 0x1c virtual false final false
- ::UnityEngine::Quaternion get_rotation() ;
+ UnityEngine::Quaternion get_rotation() ;
 
 /// @brief Method Awake addr 0x219ef34 size 0x60 virtual false final false
  void Awake() ;
@@ -111,6 +110,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MainCamera);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MainCamera, "", "MainCamera");
+NEED_NO_BOX(GlobalNamespace::MainCamera);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainCamera, "", "MainCamera");

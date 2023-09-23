@@ -2,18 +2,17 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Runtime::Remoting::Proxies {
 class RealProxy;
 }
 namespace System {
 class RuntimeType;
 }
-namespace System::Runtime::Remoting::Contexts {
-class Context;
-}
 namespace Mono {
 struct RuntimeRemoteClassHandle;
+}
+namespace System::Runtime::Remoting::Contexts {
+class Context;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Proxies {
@@ -61,17 +60,17 @@ constexpr explicit TransparentProxy(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
- ::System::Runtime::Remoting::Proxies::RealProxy __declspec(property(get=__get__rp, put=__set__rp))  _rp;
+ System::Runtime::Remoting::Proxies::RealProxy __declspec(property(get=__get__rp, put=__set__rp))  _rp;
 
-constexpr void __set__rp(::System::Runtime::Remoting::Proxies::RealProxy value) ;
+constexpr void __set__rp(System::Runtime::Remoting::Proxies::RealProxy value) ;
 
-constexpr ::System::Runtime::Remoting::Proxies::RealProxy __get__rp() const;
+constexpr System::Runtime::Remoting::Proxies::RealProxy __get__rp() const;
 
- ::Mono::RuntimeRemoteClassHandle __declspec(property(get=__get__class, put=__set__class))  _class;
+ Mono::RuntimeRemoteClassHandle __declspec(property(get=__get__class, put=__set__class))  _class;
 
-constexpr void __set__class(::Mono::RuntimeRemoteClassHandle value) ;
+constexpr void __set__class(Mono::RuntimeRemoteClassHandle value) ;
 
-constexpr ::Mono::RuntimeRemoteClassHandle __get__class() const;
+constexpr Mono::RuntimeRemoteClassHandle __get__class() const;
 
  bool __declspec(property(get=__get__custom_type_info, put=__set__custom_type_info))  _custom_type_info;
 
@@ -84,19 +83,19 @@ constexpr bool __get__custom_type_info() const;
 
  bool __declspec(property(get=get_IsContextBoundObject))  IsContextBoundObject;
 
- ::System::Runtime::Remoting::Contexts::Context __declspec(property(get=get_TargetContext))  TargetContext;
+ System::Runtime::Remoting::Contexts::Context __declspec(property(get=get_TargetContext))  TargetContext;
 
 
 // Methods
 
 /// @brief Method GetProxyType addr 0x232a324 size 0xd0 virtual false final false
- ::System::RuntimeType GetProxyType() ;
+ System::RuntimeType GetProxyType() ;
 
 /// @brief Method get_IsContextBoundObject addr 0x232a3f4 size 0x1c virtual false final false
  bool get_IsContextBoundObject() ;
 
 /// @brief Method get_TargetContext addr 0x232a410 size 0x1c virtual false final false
- ::System::Runtime::Remoting::Contexts::Context get_TargetContext() ;
+ System::Runtime::Remoting::Contexts::Context get_TargetContext() ;
 
 /// @brief Method InCurrentContext addr 0x232a42c size 0x40 virtual false final false
  bool InCurrentContext() ;
@@ -117,6 +116,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Proxies
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Proxies::TransparentProxy);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Proxies::TransparentProxy, "System.Runtime.Remoting.Proxies", "TransparentProxy");
+NEED_NO_BOX(System::Runtime::Remoting::Proxies::TransparentProxy);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Proxies::TransparentProxy, "System.Runtime.Remoting.Proxies", "TransparentProxy");

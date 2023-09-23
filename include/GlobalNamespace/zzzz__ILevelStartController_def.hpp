@@ -1,6 +1,5 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace System {
 class Action;
 }
@@ -27,21 +26,20 @@ constexpr explicit ILevelStartController(void* ptr) noexcept : ::cordl_internals
 // Methods
 
 /// @brief Method add_levelWillStartIntroEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void add_levelWillStartIntroEvent(::System::Action value) ;
+ void add_levelWillStartIntroEvent(System::Action value) ;
 
 /// @brief Method remove_levelWillStartIntroEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void remove_levelWillStartIntroEvent(::System::Action value) ;
+ void remove_levelWillStartIntroEvent(System::Action value) ;
 
 /// @brief Method add_levelDidStartEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void add_levelDidStartEvent(::System::Action value) ;
+ void add_levelDidStartEvent(System::Action value) ;
 
 /// @brief Method remove_levelDidStartEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void remove_levelDidStartEvent(::System::Action value) ;
+ void remove_levelDidStartEvent(System::Action value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ILevelStartController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ILevelStartController, "", "ILevelStartController");
+NEED_NO_BOX(GlobalNamespace::ILevelStartController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ILevelStartController, "", "ILevelStartController");

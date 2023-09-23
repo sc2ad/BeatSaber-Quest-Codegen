@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Mono::Security::Interface {
 struct TlsProtocols;
@@ -77,44 +76,43 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Zero offset 0
-static ::Mono::Security::Interface::TlsProtocols const Zero;
+static Mono::Security::Interface::TlsProtocols const Zero;
 
 /// @brief Field Tls10Client offset 0
-static ::Mono::Security::Interface::TlsProtocols const Tls10Client;
+static Mono::Security::Interface::TlsProtocols const Tls10Client;
 
 /// @brief Field Tls10Server offset 0
-static ::Mono::Security::Interface::TlsProtocols const Tls10Server;
+static Mono::Security::Interface::TlsProtocols const Tls10Server;
 
 /// @brief Field Tls10 offset 0
-static ::Mono::Security::Interface::TlsProtocols const Tls10;
+static Mono::Security::Interface::TlsProtocols const Tls10;
 
 /// @brief Field Tls11Client offset 0
-static ::Mono::Security::Interface::TlsProtocols const Tls11Client;
+static Mono::Security::Interface::TlsProtocols const Tls11Client;
 
 /// @brief Field Tls11Server offset 0
-static ::Mono::Security::Interface::TlsProtocols const Tls11Server;
+static Mono::Security::Interface::TlsProtocols const Tls11Server;
 
 /// @brief Field Tls11 offset 0
-static ::Mono::Security::Interface::TlsProtocols const Tls11;
+static Mono::Security::Interface::TlsProtocols const Tls11;
 
 /// @brief Field Tls12Client offset 0
-static ::Mono::Security::Interface::TlsProtocols const Tls12Client;
+static Mono::Security::Interface::TlsProtocols const Tls12Client;
 
 /// @brief Field Tls12Server offset 0
-static ::Mono::Security::Interface::TlsProtocols const Tls12Server;
+static Mono::Security::Interface::TlsProtocols const Tls12Server;
 
 /// @brief Field Tls12 offset 0
-static ::Mono::Security::Interface::TlsProtocols const Tls12;
+static Mono::Security::Interface::TlsProtocols const Tls12;
 
 /// @brief Field ClientMask offset 0
-static ::Mono::Security::Interface::TlsProtocols const ClientMask;
+static Mono::Security::Interface::TlsProtocols const ClientMask;
 
 /// @brief Field ServerMask offset 0
-static ::Mono::Security::Interface::TlsProtocols const ServerMask;
+static Mono::Security::Interface::TlsProtocols const ServerMask;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Mono::Security::Interface
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Interface::TlsProtocols, "Mono.Security.Interface", "TlsProtocols");
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::TlsProtocols, "Mono.Security.Interface", "TlsProtocols");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct AudioDataLoadState;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unloaded offset 0
-static ::UnityEngine::AudioDataLoadState const Unloaded;
+static UnityEngine::AudioDataLoadState const Unloaded;
 
 /// @brief Field Loading offset 0
-static ::UnityEngine::AudioDataLoadState const Loading;
+static UnityEngine::AudioDataLoadState const Loading;
 
 /// @brief Field Loaded offset 0
-static ::UnityEngine::AudioDataLoadState const Loaded;
+static UnityEngine::AudioDataLoadState const Loaded;
 
 /// @brief Field Failed offset 0
-static ::UnityEngine::AudioDataLoadState const Failed;
+static UnityEngine::AudioDataLoadState const Failed;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AudioDataLoadState, "UnityEngine", "AudioDataLoadState");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioDataLoadState, "UnityEngine", "AudioDataLoadState");

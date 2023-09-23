@@ -4,7 +4,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
 struct FontAssetCreationEditorSettings;
@@ -152,5 +151,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::Text
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings, "UnityEngine.TextCore.Text", "FontAssetCreationEditorSettings");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Text::FontAssetCreationEditorSettings, "UnityEngine.TextCore.Text", "FontAssetCreationEditorSettings");

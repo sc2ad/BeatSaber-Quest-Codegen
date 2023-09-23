@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace UnityEngine::ProBuilder {
 struct EntityType;
 }
@@ -15,7 +14,7 @@ namespace UnityEngine::ProBuilder {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12064))
 // CS Name: UnityEngine.ProBuilder.Entity
-class CORDL_TYPE Entity : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE Entity : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr Entity(Entity const& ) noexcept = default;
 constexpr Entity(Entity&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Entity(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit Entity(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -51,28 +50,28 @@ constexpr explicit Entity(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr
 
 // Fields
 
- ::UnityEngine::ProBuilder::EntityType __declspec(property(get=__get_m_EntityType, put=__set_m_EntityType))  m_EntityType;
+ UnityEngine::ProBuilder::EntityType __declspec(property(get=__get_m_EntityType, put=__set_m_EntityType))  m_EntityType;
 
-constexpr void __set_m_EntityType(::UnityEngine::ProBuilder::EntityType value) ;
+constexpr void __set_m_EntityType(UnityEngine::ProBuilder::EntityType value) ;
 
-constexpr ::UnityEngine::ProBuilder::EntityType __get_m_EntityType() const;
+constexpr UnityEngine::ProBuilder::EntityType __get_m_EntityType() const;
 
 
 // Properties
 
- ::UnityEngine::ProBuilder::EntityType __declspec(property(get=get_entityType))  entityType;
+ UnityEngine::ProBuilder::EntityType __declspec(property(get=get_entityType))  entityType;
 
 
 // Methods
 
 /// @brief Method get_entityType addr 0x29ac63c size 0x8 virtual false final false
- ::UnityEngine::ProBuilder::EntityType get_entityType() ;
+ UnityEngine::ProBuilder::EntityType get_entityType() ;
 
 /// @brief Method Awake addr 0x29ac644 size 0xc8 virtual false final false
  void Awake() ;
 
 /// @brief Method SetEntity addr 0x29ac70c size 0x8 virtual false final false
- void SetEntity(::UnityEngine::ProBuilder::EntityType t) ;
+ void SetEntity(UnityEngine::ProBuilder::EntityType t) ;
 
 // Ctor Parameters []
 explicit Entity() ;
@@ -84,6 +83,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::Entity);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Entity, "UnityEngine.ProBuilder", "Entity");
+NEED_NO_BOX(UnityEngine::ProBuilder::Entity);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Entity, "UnityEngine.ProBuilder", "Entity");

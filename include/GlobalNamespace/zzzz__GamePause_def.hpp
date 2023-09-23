@@ -1,33 +1,32 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
+namespace GlobalNamespace {
+class IGamePause;
+}
+namespace GlobalNamespace {
+class BeatmapObjectExecutionRatingsRecorder;
+}
 namespace GlobalNamespace {
 class SaberManager;
+}
+namespace GlobalNamespace {
+class PlayerHeadAndObstacleInteraction;
+}
+namespace GlobalNamespace {
+class GameEnergyCounter;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class IScoreController;
 }
 namespace GlobalNamespace {
 class AudioListenerController;
 }
 namespace GlobalNamespace {
 class SongController;
-}
-namespace GlobalNamespace {
-class PlayerHeadAndObstacleInteraction;
-}
-namespace GlobalNamespace {
-class IGamePause;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class GameEnergyCounter;
-}
-namespace GlobalNamespace {
-class BeatmapObjectExecutionRatingsRecorder;
-}
-namespace GlobalNamespace {
-class IScoreController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -42,8 +41,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE GamePause : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IGamePause
-constexpr operator  ::GlobalNamespace::IGamePause() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IGamePause
+constexpr operator  GlobalNamespace::IGamePause() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x68};
@@ -78,65 +77,65 @@ constexpr explicit GamePause(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 
 // Fields
 
- ::System::Action __declspec(property(get=__get_didPauseEvent, put=__set_didPauseEvent))  didPauseEvent;
+ System::Action __declspec(property(get=__get_didPauseEvent, put=__set_didPauseEvent))  didPauseEvent;
 
-constexpr void __set_didPauseEvent(::System::Action value) ;
+constexpr void __set_didPauseEvent(System::Action value) ;
 
-constexpr ::System::Action __get_didPauseEvent() const;
+constexpr System::Action __get_didPauseEvent() const;
 
- ::System::Action __declspec(property(get=__get_willResumeEvent, put=__set_willResumeEvent))  willResumeEvent;
+ System::Action __declspec(property(get=__get_willResumeEvent, put=__set_willResumeEvent))  willResumeEvent;
 
-constexpr void __set_willResumeEvent(::System::Action value) ;
+constexpr void __set_willResumeEvent(System::Action value) ;
 
-constexpr ::System::Action __get_willResumeEvent() const;
+constexpr System::Action __get_willResumeEvent() const;
 
- ::System::Action __declspec(property(get=__get_didResumeEvent, put=__set_didResumeEvent))  didResumeEvent;
+ System::Action __declspec(property(get=__get_didResumeEvent, put=__set_didResumeEvent))  didResumeEvent;
 
-constexpr void __set_didResumeEvent(::System::Action value) ;
+constexpr void __set_didResumeEvent(System::Action value) ;
 
-constexpr ::System::Action __get_didResumeEvent() const;
+constexpr System::Action __get_didResumeEvent() const;
 
- ::GlobalNamespace::GameEnergyCounter __declspec(property(get=__get__gameEnergyCounter, put=__set__gameEnergyCounter))  _gameEnergyCounter;
+ GlobalNamespace::GameEnergyCounter __declspec(property(get=__get__gameEnergyCounter, put=__set__gameEnergyCounter))  _gameEnergyCounter;
 
-constexpr void __set__gameEnergyCounter(::GlobalNamespace::GameEnergyCounter value) ;
+constexpr void __set__gameEnergyCounter(GlobalNamespace::GameEnergyCounter value) ;
 
-constexpr ::GlobalNamespace::GameEnergyCounter __get__gameEnergyCounter() const;
+constexpr GlobalNamespace::GameEnergyCounter __get__gameEnergyCounter() const;
 
- ::GlobalNamespace::PlayerHeadAndObstacleInteraction __declspec(property(get=__get__playerHeadAndObstacleInteraction, put=__set__playerHeadAndObstacleInteraction))  _playerHeadAndObstacleInteraction;
+ GlobalNamespace::PlayerHeadAndObstacleInteraction __declspec(property(get=__get__playerHeadAndObstacleInteraction, put=__set__playerHeadAndObstacleInteraction))  _playerHeadAndObstacleInteraction;
 
-constexpr void __set__playerHeadAndObstacleInteraction(::GlobalNamespace::PlayerHeadAndObstacleInteraction value) ;
+constexpr void __set__playerHeadAndObstacleInteraction(GlobalNamespace::PlayerHeadAndObstacleInteraction value) ;
 
-constexpr ::GlobalNamespace::PlayerHeadAndObstacleInteraction __get__playerHeadAndObstacleInteraction() const;
+constexpr GlobalNamespace::PlayerHeadAndObstacleInteraction __get__playerHeadAndObstacleInteraction() const;
 
- ::GlobalNamespace::IScoreController __declspec(property(get=__get__scoreController, put=__set__scoreController))  _scoreController;
+ GlobalNamespace::IScoreController __declspec(property(get=__get__scoreController, put=__set__scoreController))  _scoreController;
 
-constexpr void __set__scoreController(::GlobalNamespace::IScoreController value) ;
+constexpr void __set__scoreController(GlobalNamespace::IScoreController value) ;
 
-constexpr ::GlobalNamespace::IScoreController __get__scoreController() const;
+constexpr GlobalNamespace::IScoreController __get__scoreController() const;
 
- ::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder __declspec(property(get=__get__beatmapObjectExecutionRatingsRecorder, put=__set__beatmapObjectExecutionRatingsRecorder))  _beatmapObjectExecutionRatingsRecorder;
+ GlobalNamespace::BeatmapObjectExecutionRatingsRecorder __declspec(property(get=__get__beatmapObjectExecutionRatingsRecorder, put=__set__beatmapObjectExecutionRatingsRecorder))  _beatmapObjectExecutionRatingsRecorder;
 
-constexpr void __set__beatmapObjectExecutionRatingsRecorder(::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder value) ;
+constexpr void __set__beatmapObjectExecutionRatingsRecorder(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder value) ;
 
-constexpr ::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder __get__beatmapObjectExecutionRatingsRecorder() const;
+constexpr GlobalNamespace::BeatmapObjectExecutionRatingsRecorder __get__beatmapObjectExecutionRatingsRecorder() const;
 
- ::GlobalNamespace::SongController __declspec(property(get=__get__songController, put=__set__songController))  _songController;
+ GlobalNamespace::SongController __declspec(property(get=__get__songController, put=__set__songController))  _songController;
 
-constexpr void __set__songController(::GlobalNamespace::SongController value) ;
+constexpr void __set__songController(GlobalNamespace::SongController value) ;
 
-constexpr ::GlobalNamespace::SongController __get__songController() const;
+constexpr GlobalNamespace::SongController __get__songController() const;
 
- ::GlobalNamespace::SaberManager __declspec(property(get=__get__saberManager, put=__set__saberManager))  _saberManager;
+ GlobalNamespace::SaberManager __declspec(property(get=__get__saberManager, put=__set__saberManager))  _saberManager;
 
-constexpr void __set__saberManager(::GlobalNamespace::SaberManager value) ;
+constexpr void __set__saberManager(GlobalNamespace::SaberManager value) ;
 
-constexpr ::GlobalNamespace::SaberManager __get__saberManager() const;
+constexpr GlobalNamespace::SaberManager __get__saberManager() const;
 
- ::GlobalNamespace::AudioListenerController __declspec(property(get=__get__audioListenerController, put=__set__audioListenerController))  _audioListenerController;
+ GlobalNamespace::AudioListenerController __declspec(property(get=__get__audioListenerController, put=__set__audioListenerController))  _audioListenerController;
 
-constexpr void __set__audioListenerController(::GlobalNamespace::AudioListenerController value) ;
+constexpr void __set__audioListenerController(GlobalNamespace::AudioListenerController value) ;
 
-constexpr ::GlobalNamespace::AudioListenerController __get__audioListenerController() const;
+constexpr GlobalNamespace::AudioListenerController __get__audioListenerController() const;
 
  bool __declspec(property(get=__get__pause, put=__set__pause))  _pause;
 
@@ -156,22 +155,22 @@ constexpr bool __get__pause() const;
  bool get_isPaused() ;
 
 /// @brief Method add_didPauseEvent addr 0x20cdddc size 0x9c virtual true final true
- void add_didPauseEvent(::System::Action value) ;
+ void add_didPauseEvent(System::Action value) ;
 
 /// @brief Method remove_didPauseEvent addr 0x20cde78 size 0x9c virtual true final true
- void remove_didPauseEvent(::System::Action value) ;
+ void remove_didPauseEvent(System::Action value) ;
 
 /// @brief Method add_willResumeEvent addr 0x20cdf14 size 0x9c virtual true final true
- void add_willResumeEvent(::System::Action value) ;
+ void add_willResumeEvent(System::Action value) ;
 
 /// @brief Method remove_willResumeEvent addr 0x20cdfb0 size 0x9c virtual true final true
- void remove_willResumeEvent(::System::Action value) ;
+ void remove_willResumeEvent(System::Action value) ;
 
 /// @brief Method add_didResumeEvent addr 0x20ce04c size 0x9c virtual true final true
- void add_didResumeEvent(::System::Action value) ;
+ void add_didResumeEvent(System::Action value) ;
 
 /// @brief Method remove_didResumeEvent addr 0x20ce0e8 size 0x9c virtual true final true
- void remove_didResumeEvent(::System::Action value) ;
+ void remove_didResumeEvent(System::Action value) ;
 
 /// @brief Method Pause addr 0x20ce184 size 0x150 virtual true final true
  void Pause() ;
@@ -192,6 +191,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::GamePause);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GamePause, "", "GamePause");
+NEED_NO_BOX(GlobalNamespace::GamePause);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GamePause, "", "GamePause");

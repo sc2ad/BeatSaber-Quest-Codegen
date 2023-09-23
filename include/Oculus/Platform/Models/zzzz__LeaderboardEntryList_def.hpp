@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_def.hpp"
 #include "Oculus/Platform/Models/zzzz__LeaderboardEntry_def.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class LeaderboardEntryList;
@@ -11,10 +10,10 @@ class LeaderboardEntryList;
 // Type: Oculus.Platform.Models::LeaderboardEntryList
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13429)), TypeDefinitionIndex(TypeDefinitionIndex(13410)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1139 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13410)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1139 }), TypeDefinitionIndex(TypeDefinitionIndex(13429))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13430))
 // CS Name: Oculus.Platform.Models.LeaderboardEntryList
-class CORDL_TYPE LeaderboardEntryList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::LeaderboardEntry> {
+class CORDL_TYPE LeaderboardEntryList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::LeaderboardEntry> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr LeaderboardEntryList(LeaderboardEntryList const& ) noexcept = default;
 constexpr LeaderboardEntryList(LeaderboardEntryList&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LeaderboardEntryList(void* ptr) noexcept : ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::LeaderboardEntry>(ptr) {
+constexpr explicit LeaderboardEntryList(void* ptr) noexcept : Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::LeaderboardEntry>(ptr) {
 }
 
 
@@ -69,6 +68,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::LeaderboardEntryList);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::LeaderboardEntryList, "Oculus.Platform.Models", "LeaderboardEntryList");
+NEED_NO_BOX(Oculus::Platform::Models::LeaderboardEntryList);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LeaderboardEntryList, "Oculus.Platform.Models", "LeaderboardEntryList");

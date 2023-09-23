@@ -1,19 +1,29 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace GlobalNamespace {
-class ILobbyPlayerData;
-}
-namespace GlobalNamespace {
-class PreviewDifficultyBeatmap;
+namespace System {
+template<typename T>
+class Action_1;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System {
+namespace System::Collections::Generic {
 template<typename T>
-class Action_1;
+class IEnumerable_1;
+}
+namespace GlobalNamespace {
+class ILobbyPlayerData;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class PreviewDifficultyBeatmap;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyCollection_1;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -22,17 +32,6 @@ class IReadOnlyDictionary_2;
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 struct KeyValuePair_2;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyCollection_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -47,17 +46,17 @@ namespace GlobalNamespace {
 class CORDL_TYPE ILobbyPlayersDataModel : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IReadOnlyDictionary_2<::StringW,::GlobalNamespace::ILobbyPlayerData>
-constexpr operator  ::System::Collections::Generic::IReadOnlyDictionary_2<::StringW,::GlobalNamespace::ILobbyPlayerData>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IReadOnlyDictionary_2<::StringW,GlobalNamespace::ILobbyPlayerData>
+constexpr operator  System::Collections::Generic::IReadOnlyDictionary_2<::StringW,GlobalNamespace::ILobbyPlayerData>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::GlobalNamespace::ILobbyPlayerData>>
-constexpr operator  ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::GlobalNamespace::ILobbyPlayerData>>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<::StringW,GlobalNamespace::ILobbyPlayerData>>
+constexpr operator  System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<::StringW,GlobalNamespace::ILobbyPlayerData>>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::GlobalNamespace::ILobbyPlayerData>>
-constexpr operator  ::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::GlobalNamespace::ILobbyPlayerData>>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IReadOnlyCollection_1<System::Collections::Generic::KeyValuePair_2<::StringW,GlobalNamespace::ILobbyPlayerData>>
+constexpr operator  System::Collections::Generic::IReadOnlyCollection_1<System::Collections::Generic::KeyValuePair_2<::StringW,GlobalNamespace::ILobbyPlayerData>>() const noexcept;
 
 ~ILobbyPlayersDataModel() = default;
 
@@ -76,10 +75,10 @@ constexpr explicit ILobbyPlayersDataModel(void* ptr) noexcept : ::cordl_internal
 // Methods
 
 /// @brief Method add_didChangeEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void add_didChangeEvent(::System::Action_1<::StringW> value) ;
+ void add_didChangeEvent(System::Action_1<::StringW> value) ;
 
 /// @brief Method remove_didChangeEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void remove_didChangeEvent(::System::Action_1<::StringW> value) ;
+ void remove_didChangeEvent(System::Action_1<::StringW> value) ;
 
 /// @brief Method get_localUserId addr 0x0 size 0xffffffffffffffff virtual true final false
  ::StringW get_localUserId() ;
@@ -88,13 +87,13 @@ constexpr explicit ILobbyPlayersDataModel(void* ptr) noexcept : ::cordl_internal
  ::StringW get_partyOwnerId() ;
 
 /// @brief Method SetLocalPlayerBeatmapLevel addr 0x0 size 0xffffffffffffffff virtual true final false
- void SetLocalPlayerBeatmapLevel(::GlobalNamespace::PreviewDifficultyBeatmap beatmapLevel) ;
+ void SetLocalPlayerBeatmapLevel(GlobalNamespace::PreviewDifficultyBeatmap beatmapLevel) ;
 
 /// @brief Method ClearLocalPlayerBeatmapLevel addr 0x0 size 0xffffffffffffffff virtual true final false
  void ClearLocalPlayerBeatmapLevel() ;
 
 /// @brief Method SetLocalPlayerGameplayModifiers addr 0x0 size 0xffffffffffffffff virtual true final false
- void SetLocalPlayerGameplayModifiers(::GlobalNamespace::GameplayModifiers modifiers) ;
+ void SetLocalPlayerGameplayModifiers(GlobalNamespace::GameplayModifiers modifiers) ;
 
 /// @brief Method ClearLocalPlayerGameplayModifiers addr 0x0 size 0xffffffffffffffff virtual true final false
  void ClearLocalPlayerGameplayModifiers() ;
@@ -127,6 +126,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ILobbyPlayersDataModel);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ILobbyPlayersDataModel, "", "ILobbyPlayersDataModel");
+NEED_NO_BOX(GlobalNamespace::ILobbyPlayersDataModel);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ILobbyPlayersDataModel, "", "ILobbyPlayersDataModel");

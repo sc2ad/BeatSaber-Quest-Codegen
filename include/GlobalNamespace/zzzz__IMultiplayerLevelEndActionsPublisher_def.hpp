@@ -1,6 +1,5 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace System {
 template<typename T>
 class Action_1;
@@ -31,21 +30,20 @@ constexpr explicit IMultiplayerLevelEndActionsPublisher(void* ptr) noexcept : ::
 // Methods
 
 /// @brief Method add_playerDidFinishEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void add_playerDidFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults> value) ;
+ void add_playerDidFinishEvent(System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults> value) ;
 
 /// @brief Method remove_playerDidFinishEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void remove_playerDidFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults> value) ;
+ void remove_playerDidFinishEvent(System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults> value) ;
 
 /// @brief Method add_playerNetworkDidFailedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void add_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults> value) ;
+ void add_playerNetworkDidFailedEvent(System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults> value) ;
 
 /// @brief Method remove_playerNetworkDidFailedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void remove_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults> value) ;
+ void remove_playerNetworkDidFailedEvent(System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults> value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IMultiplayerLevelEndActionsPublisher);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IMultiplayerLevelEndActionsPublisher, "", "IMultiplayerLevelEndActionsPublisher");
+NEED_NO_BOX(GlobalNamespace::IMultiplayerLevelEndActionsPublisher);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IMultiplayerLevelEndActionsPublisher, "", "IMultiplayerLevelEndActionsPublisher");

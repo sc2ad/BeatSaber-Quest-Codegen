@@ -1,13 +1,12 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
-}
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template<typename TObject>
 struct AsyncOperationHandle_1;
+}
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {
@@ -35,12 +34,11 @@ constexpr explicit IInitializableObject(void* ptr) noexcept : ::cordl_internals:
  bool Initialize(::StringW id, ::StringW data) ;
 
 /// @brief Method InitializeAsync addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> InitializeAsync(::UnityEngine::ResourceManagement::ResourceManager rm, ::StringW id, ::StringW data) ;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> InitializeAsync(UnityEngine::ResourceManagement::ResourceManager rm, ::StringW id, ::StringW data) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ResourceManagement::Util
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ResourceManagement::Util::IInitializableObject);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::Util::IInitializableObject, "UnityEngine.ResourceManagement.Util", "IInitializableObject");
+NEED_NO_BOX(UnityEngine::ResourceManagement::Util::IInitializableObject);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::IInitializableObject, "UnityEngine.ResourceManagement.Util", "IInitializableObject");

@@ -5,7 +5,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace ENet {
 struct PeerState;
 }
@@ -86,7 +85,7 @@ constexpr uint32_t __get_nativeID() const;
 
  uint32_t __declspec(property(get=get_MTU))  MTU;
 
- ::ENet::PeerState __declspec(property(get=get_State))  State;
+ ENet::PeerState __declspec(property(get=get_State))  State;
 
  uint32_t __declspec(property(get=get_RoundTripTime))  RoundTripTime;
 
@@ -136,7 +135,7 @@ constexpr uint32_t __get_nativeID() const;
  uint32_t get_MTU() ;
 
 /// @brief Method get_State addr 0x20803f4 size 0x70 virtual false final false
- ::ENet::PeerState get_State() ;
+ ENet::PeerState get_State() ;
 
 /// @brief Method get_RoundTripTime addr 0x20804e0 size 0x18 virtual false final false
  uint32_t get_RoundTripTime() ;
@@ -178,10 +177,10 @@ constexpr uint32_t __get_nativeID() const;
  void ConfigureThrottle(uint32_t interval, uint32_t acceleration, uint32_t deceleration, uint32_t threshold) ;
 
 /// @brief Method Send addr 0x2080c48 size 0x38 virtual false final false
- int32_t Send(uint8_t channelID, ByRef<::ENet::Packet> packet) ;
+ int32_t Send(uint8_t channelID, ByRef<ENet::Packet> packet) ;
 
 /// @brief Method Receive addr 0x2080d14 size 0x94 virtual false final false
- bool Receive(ByRef<uint8_t> channelID, ByRef<::ENet::Packet> packet) ;
+ bool Receive(ByRef<uint8_t> channelID, ByRef<ENet::Packet> packet) ;
 
 /// @brief Method Ping addr 0x2080e2c size 0x18 virtual false final false
  void Ping() ;
@@ -208,5 +207,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def ENet
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::ENet::Peer, "ENet", "Peer");
+DEFINE_IL2CPP_ARG_TYPE(ENet::Peer, "ENet", "Peer");

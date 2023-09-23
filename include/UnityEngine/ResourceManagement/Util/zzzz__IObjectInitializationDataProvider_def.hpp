@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace UnityEngine::ResourceManagement::Util {
 struct ObjectInitializationData;
 }
@@ -36,12 +35,11 @@ constexpr explicit IObjectInitializationDataProvider(void* ptr) noexcept : ::cor
  ::StringW get_Name() ;
 
 /// @brief Method CreateObjectInitializationData addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::ResourceManagement::Util::ObjectInitializationData CreateObjectInitializationData() ;
+ UnityEngine::ResourceManagement::Util::ObjectInitializationData CreateObjectInitializationData() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ResourceManagement::Util
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ResourceManagement::Util::IObjectInitializationDataProvider);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::Util::IObjectInitializationDataProvider, "UnityEngine.ResourceManagement.Util", "IObjectInitializationDataProvider");
+NEED_NO_BOX(UnityEngine::ResourceManagement::Util::IObjectInitializationDataProvider);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::IObjectInitializationDataProvider, "UnityEngine.ResourceManagement.Util", "IObjectInitializationDataProvider");

@@ -3,7 +3,6 @@
 #include "UnityEngine/TextCore/Text/zzzz__TextElement_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
 class SpriteCharacter;
@@ -14,7 +13,7 @@ namespace UnityEngine::TextCore::Text {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13519))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13538))
 // CS Name: UnityEngine.TextCore.Text.SpriteCharacter
-class CORDL_TYPE SpriteCharacter : public ::UnityEngine::TextCore::Text::TextElement {
+class CORDL_TYPE SpriteCharacter : public UnityEngine::TextCore::Text::TextElement {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr SpriteCharacter(SpriteCharacter const& ) noexcept = default;
 constexpr SpriteCharacter(SpriteCharacter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SpriteCharacter(void* ptr) noexcept : ::UnityEngine::TextCore::Text::TextElement(ptr) {
+constexpr explicit SpriteCharacter(void* ptr) noexcept : UnityEngine::TextCore::Text::TextElement(ptr) {
 }
 
 
@@ -83,6 +82,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::Text
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::TextCore::Text::SpriteCharacter);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::SpriteCharacter, "UnityEngine.TextCore.Text", "SpriteCharacter");
+NEED_NO_BOX(UnityEngine::TextCore::Text::SpriteCharacter);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Text::SpriteCharacter, "UnityEngine.TextCore.Text", "SpriteCharacter");

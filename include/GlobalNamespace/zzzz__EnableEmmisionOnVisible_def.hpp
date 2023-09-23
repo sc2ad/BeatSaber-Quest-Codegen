@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
-namespace UnityEngine {
-struct ____UnityEngine__ParticleSystem__EmissionModule;
-}
 namespace UnityEngine {
 class ParticleSystem;
+}
+namespace UnityEngine {
+struct UnityEngine__ParticleSystem__EmissionModule;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13792))
 // CS Name: EnableEmmisionOnVisible
-class CORDL_TYPE EnableEmmisionOnVisible : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE EnableEmmisionOnVisible : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr EnableEmmisionOnVisible(EnableEmmisionOnVisible const& ) noexcept = de
 constexpr EnableEmmisionOnVisible(EnableEmmisionOnVisible&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EnableEmmisionOnVisible(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit EnableEmmisionOnVisible(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -55,17 +54,17 @@ constexpr explicit EnableEmmisionOnVisible(void* ptr) noexcept : ::UnityEngine::
 
 // Fields
 
- ::ArrayW<::UnityEngine::ParticleSystem> __declspec(property(get=__get__particleSystems, put=__set__particleSystems))  _particleSystems;
+ ::ArrayW<UnityEngine::ParticleSystem> __declspec(property(get=__get__particleSystems, put=__set__particleSystems))  _particleSystems;
 
-constexpr void __set__particleSystems(::ArrayW<::UnityEngine::ParticleSystem> value) ;
+constexpr void __set__particleSystems(::ArrayW<UnityEngine::ParticleSystem> value) ;
 
-constexpr ::ArrayW<::UnityEngine::ParticleSystem> __get__particleSystems() const;
+constexpr ::ArrayW<UnityEngine::ParticleSystem> __get__particleSystems() const;
 
- ::ArrayW<::UnityEngine::____UnityEngine__ParticleSystem__EmissionModule> __declspec(property(get=__get__emmisionModules, put=__set__emmisionModules))  _emmisionModules;
+ ::ArrayW<UnityEngine::UnityEngine__ParticleSystem__EmissionModule> __declspec(property(get=__get__emmisionModules, put=__set__emmisionModules))  _emmisionModules;
 
-constexpr void __set__emmisionModules(::ArrayW<::UnityEngine::____UnityEngine__ParticleSystem__EmissionModule> value) ;
+constexpr void __set__emmisionModules(::ArrayW<UnityEngine::UnityEngine__ParticleSystem__EmissionModule> value) ;
 
-constexpr ::ArrayW<::UnityEngine::____UnityEngine__ParticleSystem__EmissionModule> __get__emmisionModules() const;
+constexpr ::ArrayW<UnityEngine::UnityEngine__ParticleSystem__EmissionModule> __get__emmisionModules() const;
 
 
 // Methods
@@ -89,6 +88,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::EnableEmmisionOnVisible);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EnableEmmisionOnVisible, "", "EnableEmmisionOnVisible");
+NEED_NO_BOX(GlobalNamespace::EnableEmmisionOnVisible);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnableEmmisionOnVisible, "", "EnableEmmisionOnVisible");

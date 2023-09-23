@@ -4,33 +4,32 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Security {
-class ISecurityEncodable;
-}
-namespace System {
-class Array;
-}
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Security {
-class SecurityElement;
-}
-namespace System::Collections {
-class ArrayList;
+namespace System {
+class Array;
 }
 namespace System::Security {
 class IPermission;
 }
 namespace System::Collections {
 class ICollection;
+}
+namespace System::Runtime::Serialization {
+class IDeserializationCallback;
+}
+namespace System::Collections {
+class ArrayList;
+}
+namespace System::Security {
+class ISecurityEncodable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Security {
+class SecurityElement;
 }
 namespace System::Security::Permissions {
 struct PermissionState;
@@ -48,17 +47,17 @@ namespace System::Security {
 class CORDL_TYPE PermissionSet : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Security::ISecurityEncodable
-constexpr operator  ::System::Security::ISecurityEncodable() const noexcept;
+/// @brief Convert operator to System::Security::ISecurityEncodable
+constexpr operator  System::Security::ISecurityEncodable() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::ICollection
-constexpr operator  ::System::Collections::ICollection() const noexcept;
+/// @brief Convert operator to System::Collections::ICollection
+constexpr operator  System::Collections::ICollection() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
-/// @brief Convert operator to ::System::Runtime::Serialization::IDeserializationCallback
-constexpr operator  ::System::Runtime::Serialization::IDeserializationCallback() const noexcept;
+/// @brief Convert operator to System::Runtime::Serialization::IDeserializationCallback
+constexpr operator  System::Runtime::Serialization::IDeserializationCallback() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -99,17 +98,17 @@ static void __set_psUnrestricted(::ArrayW<::bs_hook::Il2CppWrapperType> value) ;
 
 static ::ArrayW<::bs_hook::Il2CppWrapperType> __get_psUnrestricted() ;
 
- ::System::Security::Permissions::PermissionState __declspec(property(get=__get_state, put=__set_state))  state;
+ System::Security::Permissions::PermissionState __declspec(property(get=__get_state, put=__set_state))  state;
 
-constexpr void __set_state(::System::Security::Permissions::PermissionState value) ;
+constexpr void __set_state(System::Security::Permissions::PermissionState value) ;
 
-constexpr ::System::Security::Permissions::PermissionState __get_state() const;
+constexpr System::Security::Permissions::PermissionState __get_state() const;
 
- ::System::Collections::ArrayList __declspec(property(get=__get_list, put=__set_list))  list;
+ System::Collections::ArrayList __declspec(property(get=__get_list, put=__set_list))  list;
 
-constexpr void __set_list(::System::Collections::ArrayList value) ;
+constexpr void __set_list(System::Collections::ArrayList value) ;
 
-constexpr ::System::Collections::ArrayList __get_list() const;
+constexpr System::Collections::ArrayList __get_list() const;
 
  bool __declspec(property(get=__get__declsec, put=__set__declsec))  _declsec;
 
@@ -147,20 +146,20 @@ explicit PermissionSet() ;
 /// @brief Method .ctor addr 0x22e5450 size 0x6c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "state", ty: "::System::Security::Permissions::PermissionState", modifiers: "", def_value: None }]
-explicit PermissionSet(::System::Security::Permissions::PermissionState state) ;
+// Ctor Parameters [CppParam { name: "state", ty: "System::Security::Permissions::PermissionState", modifiers: "", def_value: None }]
+explicit PermissionSet(System::Security::Permissions::PermissionState state) ;
 
 /// @brief Method .ctor addr 0x22e553c size 0x30 virtual false final false
- void _ctor(::System::Security::Permissions::PermissionState state) ;
+ void _ctor(System::Security::Permissions::PermissionState state) ;
 
-// Ctor Parameters [CppParam { name: "perm", ty: "::System::Security::IPermission", modifiers: "", def_value: None }]
-explicit PermissionSet(::System::Security::IPermission perm) ;
+// Ctor Parameters [CppParam { name: "perm", ty: "System::Security::IPermission", modifiers: "", def_value: None }]
+explicit PermissionSet(System::Security::IPermission perm) ;
 
 /// @brief Method .ctor addr 0x22e4f24 size 0x4c virtual false final false
- void _ctor(::System::Security::IPermission perm) ;
+ void _ctor(System::Security::IPermission perm) ;
 
 /// @brief Method CopyTo addr 0x22e5dd8 size 0x178 virtual true final false
- void CopyTo(::System::Array array, int32_t index) ;
+ void CopyTo(System::Array array, int32_t index) ;
 
 /// @brief Method Demand addr 0x22e5f50 size 0x228 virtual true final true
  void Demand() ;
@@ -169,7 +168,7 @@ explicit PermissionSet(::System::Security::IPermission perm) ;
  void CasOnlyDemand(int32_t skip) ;
 
 /// @brief Method GetEnumerator addr 0x22e6528 size 0x24 virtual true final true
- ::System::Collections::IEnumerator GetEnumerator() ;
+ System::Collections::IEnumerator GetEnumerator() ;
 
 /// @brief Method IsEmpty addr 0x22e6178 size 0x3a0 virtual false final false
  bool IsEmpty() ;
@@ -181,7 +180,7 @@ explicit PermissionSet(::System::Security::IPermission perm) ;
  ::StringW ToString() ;
 
 /// @brief Method ToXml addr 0x22e56d4 size 0x45c virtual true final false
- ::System::Security::SecurityElement ToXml() ;
+ System::Security::SecurityElement ToXml() ;
 
 /// @brief Method get_Count addr 0x22e6578 size 0x24 virtual true final false
  int32_t get_Count() ;
@@ -205,6 +204,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::PermissionSet);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::PermissionSet, "System.Security", "PermissionSet");
+NEED_NO_BOX(System::Security::PermissionSet);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::PermissionSet, "System.Security", "PermissionSet");

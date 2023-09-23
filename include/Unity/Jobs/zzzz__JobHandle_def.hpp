@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Unity::Jobs {
 struct JobHandle;
@@ -81,23 +80,22 @@ constexpr int32_t __get_version() const;
 static void ScheduleBatchedJobs() ;
 
 /// @brief Method ScheduleBatchedJobsAndComplete addr 0x2b27e8c size 0x3c virtual false final false
-static void ScheduleBatchedJobsAndComplete(ByRef<::Unity::Jobs::JobHandle> job) ;
+static void ScheduleBatchedJobsAndComplete(ByRef<Unity::Jobs::JobHandle> job) ;
 
 /// @brief Method ScheduleBatchedJobsAndIsCompleted addr 0x2b27f04 size 0x3c virtual false final false
-static bool ScheduleBatchedJobsAndIsCompleted(ByRef<::Unity::Jobs::JobHandle> job) ;
+static bool ScheduleBatchedJobsAndIsCompleted(ByRef<Unity::Jobs::JobHandle> job) ;
 
 /// @brief Method CombineDependencies addr 0x2b27f68 size 0x28 virtual false final false
-static ::Unity::Jobs::JobHandle CombineDependencies(::Unity::Jobs::JobHandle job0, ::Unity::Jobs::JobHandle job1) ;
+static Unity::Jobs::JobHandle CombineDependencies(Unity::Jobs::JobHandle job0, Unity::Jobs::JobHandle job1) ;
 
 /// @brief Method CombineDependenciesInternal2 addr 0x2b27f90 size 0x5c virtual false final false
-static ::Unity::Jobs::JobHandle CombineDependenciesInternal2(ByRef<::Unity::Jobs::JobHandle> job0, ByRef<::Unity::Jobs::JobHandle> job1) ;
+static Unity::Jobs::JobHandle CombineDependenciesInternal2(ByRef<Unity::Jobs::JobHandle> job0, ByRef<Unity::Jobs::JobHandle> job1) ;
 
 /// @brief Method CombineDependenciesInternal2_Injected addr 0x2b27fec size 0x54 virtual false final false
-static void CombineDependenciesInternal2_Injected(ByRef<::Unity::Jobs::JobHandle> job0, ByRef<::Unity::Jobs::JobHandle> job1, ByRef<::Unity::Jobs::JobHandle> ret) ;
+static void CombineDependenciesInternal2_Injected(ByRef<Unity::Jobs::JobHandle> job0, ByRef<Unity::Jobs::JobHandle> job1, ByRef<Unity::Jobs::JobHandle> ret) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Unity::Jobs
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Unity::Jobs::JobHandle, "Unity.Jobs", "JobHandle");
+DEFINE_IL2CPP_ARG_TYPE(Unity::Jobs::JobHandle, "Unity.Jobs", "JobHandle");

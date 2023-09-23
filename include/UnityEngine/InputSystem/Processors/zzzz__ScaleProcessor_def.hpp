@@ -3,7 +3,6 @@
 #include "UnityEngine/InputSystem/zzzz__InputProcessor_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine::InputSystem {
 class InputControl;
 }
@@ -14,10 +13,10 @@ class ScaleProcessor;
 // Type: UnityEngine.InputSystem.Processors::ScaleProcessor
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6319), inst: 374 }), TypeDefinitionIndex(TypeDefinitionIndex(6319))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6319)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6319), inst: 374 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6673))
 // CS Name: UnityEngine.InputSystem.Processors.ScaleProcessor
-class CORDL_TYPE ScaleProcessor : public ::UnityEngine::InputSystem::InputProcessor_1<float_t> {
+class CORDL_TYPE ScaleProcessor : public UnityEngine::InputSystem::InputProcessor_1<float_t> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr ScaleProcessor(ScaleProcessor const& ) noexcept = default;
 constexpr ScaleProcessor(ScaleProcessor&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ScaleProcessor(void* ptr) noexcept : ::UnityEngine::InputSystem::InputProcessor_1<float_t>(ptr) {
+constexpr explicit ScaleProcessor(void* ptr) noexcept : UnityEngine::InputSystem::InputProcessor_1<float_t>(ptr) {
 }
 
 
@@ -63,7 +62,7 @@ constexpr float_t __get_factor() const;
 // Methods
 
 /// @brief Method Process addr 0x2967190 size 0xc virtual true final false
- float_t Process(float_t value, ::UnityEngine::InputSystem::InputControl control) ;
+ float_t Process(float_t value, UnityEngine::InputSystem::InputControl control) ;
 
 /// @brief Method ToString addr 0x296719c size 0x84 virtual true final false
  ::StringW ToString() ;
@@ -78,6 +77,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Processors
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Processors::ScaleProcessor);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Processors::ScaleProcessor, "UnityEngine.InputSystem.Processors", "ScaleProcessor");
+NEED_NO_BOX(UnityEngine::InputSystem::Processors::ScaleProcessor);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Processors::ScaleProcessor, "UnityEngine.InputSystem.Processors", "ScaleProcessor");

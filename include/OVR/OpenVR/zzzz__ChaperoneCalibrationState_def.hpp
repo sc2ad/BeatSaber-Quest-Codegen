@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct ChaperoneCalibrationState;
@@ -75,38 +74,37 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field OK offset 0
-static ::OVR::OpenVR::ChaperoneCalibrationState const OK;
+static OVR::OpenVR::ChaperoneCalibrationState const OK;
 
 /// @brief Field Warning offset 0
-static ::OVR::OpenVR::ChaperoneCalibrationState const Warning;
+static OVR::OpenVR::ChaperoneCalibrationState const Warning;
 
 /// @brief Field Warning_BaseStationMayHaveMoved offset 0
-static ::OVR::OpenVR::ChaperoneCalibrationState const Warning_BaseStationMayHaveMoved;
+static OVR::OpenVR::ChaperoneCalibrationState const Warning_BaseStationMayHaveMoved;
 
 /// @brief Field Warning_BaseStationRemoved offset 0
-static ::OVR::OpenVR::ChaperoneCalibrationState const Warning_BaseStationRemoved;
+static OVR::OpenVR::ChaperoneCalibrationState const Warning_BaseStationRemoved;
 
 /// @brief Field Warning_SeatedBoundsInvalid offset 0
-static ::OVR::OpenVR::ChaperoneCalibrationState const Warning_SeatedBoundsInvalid;
+static OVR::OpenVR::ChaperoneCalibrationState const Warning_SeatedBoundsInvalid;
 
 /// @brief Field Error offset 0
-static ::OVR::OpenVR::ChaperoneCalibrationState const Error;
+static OVR::OpenVR::ChaperoneCalibrationState const Error;
 
 /// @brief Field Error_BaseStationUninitialized offset 0
-static ::OVR::OpenVR::ChaperoneCalibrationState const Error_BaseStationUninitialized;
+static OVR::OpenVR::ChaperoneCalibrationState const Error_BaseStationUninitialized;
 
 /// @brief Field Error_BaseStationConflict offset 0
-static ::OVR::OpenVR::ChaperoneCalibrationState const Error_BaseStationConflict;
+static OVR::OpenVR::ChaperoneCalibrationState const Error_BaseStationConflict;
 
 /// @brief Field Error_PlayAreaInvalid offset 0
-static ::OVR::OpenVR::ChaperoneCalibrationState const Error_PlayAreaInvalid;
+static OVR::OpenVR::ChaperoneCalibrationState const Error_PlayAreaInvalid;
 
 /// @brief Field Error_CollisionBoundsInvalid offset 0
-static ::OVR::OpenVR::ChaperoneCalibrationState const Error_CollisionBoundsInvalid;
+static OVR::OpenVR::ChaperoneCalibrationState const Error_CollisionBoundsInvalid;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::ChaperoneCalibrationState, "OVR.OpenVR", "ChaperoneCalibrationState");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::ChaperoneCalibrationState, "OVR.OpenVR", "ChaperoneCalibrationState");

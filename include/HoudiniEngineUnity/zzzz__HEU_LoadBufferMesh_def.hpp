@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_LoadBufferBase_def.hpp"
 #include <cstdint>
-namespace {
 namespace HoudiniEngineUnity {
 class HEU_GenerateGeoCache;
 }
@@ -23,7 +22,7 @@ namespace HoudiniEngineUnity {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9745))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9746))
 // CS Name: HoudiniEngineUnity.HEU_LoadBufferMesh
-class CORDL_TYPE HEU_LoadBufferMesh : public ::HoudiniEngineUnity::HEU_LoadBufferBase {
+class CORDL_TYPE HEU_LoadBufferMesh : public HoudiniEngineUnity::HEU_LoadBufferBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr HEU_LoadBufferMesh(HEU_LoadBufferMesh const& ) noexcept = default;
 constexpr HEU_LoadBufferMesh(HEU_LoadBufferMesh&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HEU_LoadBufferMesh(void* ptr) noexcept : ::HoudiniEngineUnity::HEU_LoadBufferBase(ptr) {
+constexpr explicit HEU_LoadBufferMesh(void* ptr) noexcept : HoudiniEngineUnity::HEU_LoadBufferBase(ptr) {
 }
 
 
@@ -59,17 +58,17 @@ constexpr explicit HEU_LoadBufferMesh(void* ptr) noexcept : ::HoudiniEngineUnity
 
 // Fields
 
- ::HoudiniEngineUnity::HEU_GenerateGeoCache __declspec(property(get=__get__geoCache, put=__set__geoCache))  _geoCache;
+ HoudiniEngineUnity::HEU_GenerateGeoCache __declspec(property(get=__get__geoCache, put=__set__geoCache))  _geoCache;
 
-constexpr void __set__geoCache(::HoudiniEngineUnity::HEU_GenerateGeoCache value) ;
+constexpr void __set__geoCache(HoudiniEngineUnity::HEU_GenerateGeoCache value) ;
 
-constexpr ::HoudiniEngineUnity::HEU_GenerateGeoCache __get__geoCache() const;
+constexpr HoudiniEngineUnity::HEU_GenerateGeoCache __get__geoCache() const;
 
- ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup> __declspec(property(get=__get__LODGroupMeshes, put=__set__LODGroupMeshes))  _LODGroupMeshes;
+ System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_GeoGroup> __declspec(property(get=__get__LODGroupMeshes, put=__set__LODGroupMeshes))  _LODGroupMeshes;
 
-constexpr void __set__LODGroupMeshes(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup> value) ;
+constexpr void __set__LODGroupMeshes(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_GeoGroup> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup> __get__LODGroupMeshes() const;
+constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_GeoGroup> __get__LODGroupMeshes() const;
 
  int32_t __declspec(property(get=__get__defaultMaterialKey, put=__set__defaultMaterialKey))  _defaultMaterialKey;
 
@@ -114,6 +113,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_LoadBufferMesh);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_LoadBufferMesh, "HoudiniEngineUnity", "HEU_LoadBufferMesh");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_LoadBufferMesh);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_LoadBufferMesh, "HoudiniEngineUnity", "HEU_LoadBufferMesh");

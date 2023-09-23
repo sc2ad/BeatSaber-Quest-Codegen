@@ -3,21 +3,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
-namespace LiteNetLib::Utils {
-class INetSerializable;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace UnityEngine {
-struct Color;
-}
 namespace GlobalNamespace {
 struct ColorSchemeNetSerializable;
 }
 namespace LiteNetLib::Utils {
+class INetSerializable;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace LiteNetLib::Utils {
 class NetDataWriter;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,8 +31,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE PlayerSpecificSettingsNetSerializable : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::LiteNetLib::Utils::INetSerializable
-constexpr operator  ::LiteNetLib::Utils::INetSerializable() const noexcept;
+/// @brief Convert operator to LiteNetLib::Utils::INetSerializable
+constexpr operator  LiteNetLib::Utils::INetSerializable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xa0};
@@ -104,11 +103,11 @@ constexpr void __set_headPosToPlayerHeightOffset(float_t value) ;
 
 constexpr float_t __get_headPosToPlayerHeightOffset() const;
 
- ::GlobalNamespace::ColorSchemeNetSerializable __declspec(property(get=__get_colorScheme, put=__set_colorScheme))  colorScheme;
+ GlobalNamespace::ColorSchemeNetSerializable __declspec(property(get=__get_colorScheme, put=__set_colorScheme))  colorScheme;
 
-constexpr void __set_colorScheme(::GlobalNamespace::ColorSchemeNetSerializable value) ;
+constexpr void __set_colorScheme(GlobalNamespace::ColorSchemeNetSerializable value) ;
 
-constexpr ::GlobalNamespace::ColorSchemeNetSerializable __get_colorScheme() const;
+constexpr GlobalNamespace::ColorSchemeNetSerializable __get_colorScheme() const;
 
 
 // Methods
@@ -119,22 +118,21 @@ explicit PlayerSpecificSettingsNetSerializable() ;
 /// @brief Method .ctor addr 0xdc5474 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "userId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "leftHanded", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "automaticPlayerHeight", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "playerHeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "headPosToPlayerHeightOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "saberAColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "saberBColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "obstaclesColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "environmentColor0", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "environmentColor1", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "environmentColor0Boost", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "environmentColor1Boost", ty: "::UnityEngine::Color", modifiers: "", def_value: None }]
-explicit PlayerSpecificSettingsNetSerializable(::StringW userId, ::StringW userName, bool leftHanded, bool automaticPlayerHeight, float_t playerHeight, float_t headPosToPlayerHeightOffset, ::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color obstaclesColor, ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1, ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost) ;
+// Ctor Parameters [CppParam { name: "userId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "leftHanded", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "automaticPlayerHeight", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "playerHeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "headPosToPlayerHeightOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "saberAColor", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "saberBColor", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "obstaclesColor", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "environmentColor0", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "environmentColor1", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "environmentColor0Boost", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "environmentColor1Boost", ty: "UnityEngine::Color", modifiers: "", def_value: None }]
+explicit PlayerSpecificSettingsNetSerializable(::StringW userId, ::StringW userName, bool leftHanded, bool automaticPlayerHeight, float_t playerHeight, float_t headPosToPlayerHeightOffset, UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color obstaclesColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost) ;
 
 /// @brief Method .ctor addr 0xdc5514 size 0x140 virtual false final false
- void _ctor(::StringW userId, ::StringW userName, bool leftHanded, bool automaticPlayerHeight, float_t playerHeight, float_t headPosToPlayerHeightOffset, ::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color obstaclesColor, ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1, ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost) ;
+ void _ctor(::StringW userId, ::StringW userName, bool leftHanded, bool automaticPlayerHeight, float_t playerHeight, float_t headPosToPlayerHeightOffset, UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color obstaclesColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost) ;
 
 /// @brief Method Serialize addr 0xdc528c size 0x90 virtual true final true
- void Serialize(::LiteNetLib::Utils::NetDataWriter writer) ;
+ void Serialize(LiteNetLib::Utils::NetDataWriter writer) ;
 
 /// @brief Method Deserialize addr 0xdc547c size 0x98 virtual true final true
- void Deserialize(::LiteNetLib::Utils::NetDataReader reader) ;
+ void Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PlayerSpecificSettingsNetSerializable);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerSpecificSettingsNetSerializable, "", "PlayerSpecificSettingsNetSerializable");
+NEED_NO_BOX(GlobalNamespace::PlayerSpecificSettingsNetSerializable);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSpecificSettingsNetSerializable, "", "PlayerSpecificSettingsNetSerializable");

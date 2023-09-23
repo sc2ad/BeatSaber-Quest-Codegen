@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace System::Net {
-class ResponseDescription;
-}
 namespace System::Net {
 class CommandStream;
+}
+namespace System::Net {
+class ResponseDescription;
 }
 // Forward declare root types
 namespace System::Net {
@@ -56,11 +55,11 @@ constexpr explicit ReceiveState(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 
 // Fields
 
- ::System::Net::ResponseDescription __declspec(property(get=__get_Resp, put=__set_Resp))  Resp;
+ System::Net::ResponseDescription __declspec(property(get=__get_Resp, put=__set_Resp))  Resp;
 
-constexpr void __set_Resp(::System::Net::ResponseDescription value) ;
+constexpr void __set_Resp(System::Net::ResponseDescription value) ;
 
-constexpr ::System::Net::ResponseDescription __get_Resp() const;
+constexpr System::Net::ResponseDescription __get_Resp() const;
 
  int32_t __declspec(property(get=__get_ValidThrough, put=__set_ValidThrough))  ValidThrough;
 
@@ -74,25 +73,24 @@ constexpr void __set_Buffer(::ArrayW<uint8_t> value) ;
 
 constexpr ::ArrayW<uint8_t> __get_Buffer() const;
 
- ::System::Net::CommandStream __declspec(property(get=__get_Connection, put=__set_Connection))  Connection;
+ System::Net::CommandStream __declspec(property(get=__get_Connection, put=__set_Connection))  Connection;
 
-constexpr void __set_Connection(::System::Net::CommandStream value) ;
+constexpr void __set_Connection(System::Net::CommandStream value) ;
 
-constexpr ::System::Net::CommandStream __get_Connection() const;
+constexpr System::Net::CommandStream __get_Connection() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "connection", ty: "::System::Net::CommandStream", modifiers: "", def_value: None }]
-explicit ReceiveState(::System::Net::CommandStream connection) ;
+// Ctor Parameters [CppParam { name: "connection", ty: "System::Net::CommandStream", modifiers: "", def_value: None }]
+explicit ReceiveState(System::Net::CommandStream connection) ;
 
 /// @brief Method .ctor addr 0x27fd37c size 0xa0 virtual false final false
- void _ctor(::System::Net::CommandStream connection) ;
+ void _ctor(System::Net::CommandStream connection) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::ReceiveState);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::ReceiveState, "System.Net", "ReceiveState");
+NEED_NO_BOX(System::Net::ReceiveState);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::ReceiveState, "System.Net", "ReceiveState");

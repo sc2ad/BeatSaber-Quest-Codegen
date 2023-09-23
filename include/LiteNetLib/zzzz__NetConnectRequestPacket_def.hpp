@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+class NetDataReader;
 }
 namespace LiteNetLib {
 class NetPacket;
 }
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class NetDataWriter;
 }
 namespace System::Net {
 class SocketAddress;
@@ -83,34 +82,33 @@ constexpr void __set_TargetAddress(::ArrayW<uint8_t> value) ;
 
 constexpr ::ArrayW<uint8_t> __get_TargetAddress() const;
 
- ::LiteNetLib::Utils::NetDataReader __declspec(property(get=__get_Data, put=__set_Data))  Data;
+ LiteNetLib::Utils::NetDataReader __declspec(property(get=__get_Data, put=__set_Data))  Data;
 
-constexpr void __set_Data(::LiteNetLib::Utils::NetDataReader value) ;
+constexpr void __set_Data(LiteNetLib::Utils::NetDataReader value) ;
 
-constexpr ::LiteNetLib::Utils::NetDataReader __get_Data() const;
+constexpr LiteNetLib::Utils::NetDataReader __get_Data() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "connectionTime", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "connectionNumber", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "targetAddress", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::LiteNetLib::Utils::NetDataReader", modifiers: "", def_value: None }]
-explicit NetConnectRequestPacket(int64_t connectionTime, uint8_t connectionNumber, ::ArrayW<uint8_t> targetAddress, ::LiteNetLib::Utils::NetDataReader data) ;
+// Ctor Parameters [CppParam { name: "connectionTime", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "connectionNumber", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "targetAddress", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "data", ty: "LiteNetLib::Utils::NetDataReader", modifiers: "", def_value: None }]
+explicit NetConnectRequestPacket(int64_t connectionTime, uint8_t connectionNumber, ::ArrayW<uint8_t> targetAddress, LiteNetLib::Utils::NetDataReader data) ;
 
 /// @brief Method .ctor addr 0x208f880 size 0x44 virtual false final false
- void _ctor(int64_t connectionTime, uint8_t connectionNumber, ::ArrayW<uint8_t> targetAddress, ::LiteNetLib::Utils::NetDataReader data) ;
+ void _ctor(int64_t connectionTime, uint8_t connectionNumber, ::ArrayW<uint8_t> targetAddress, LiteNetLib::Utils::NetDataReader data) ;
 
 /// @brief Method GetProtocolId addr 0x208c454 size 0x68 virtual false final false
-static int32_t GetProtocolId(::LiteNetLib::NetPacket packet) ;
+static int32_t GetProtocolId(LiteNetLib::NetPacket packet) ;
 
 /// @brief Method FromData addr 0x208c560 size 0x1ac virtual false final false
-static ::LiteNetLib::NetConnectRequestPacket FromData(::LiteNetLib::NetPacket packet) ;
+static LiteNetLib::NetConnectRequestPacket FromData(LiteNetLib::NetPacket packet) ;
 
 /// @brief Method Make addr 0x208f904 size 0x144 virtual false final false
-static ::LiteNetLib::NetPacket Make(::LiteNetLib::Utils::NetDataWriter connectData, ::System::Net::SocketAddress addressBytes, int64_t connectId) ;
+static LiteNetLib::NetPacket Make(LiteNetLib::Utils::NetDataWriter connectData, System::Net::SocketAddress addressBytes, int64_t connectId) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib
-} // end anonymous namespace
-NEED_NO_BOX(::LiteNetLib::NetConnectRequestPacket);
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::NetConnectRequestPacket, "LiteNetLib", "NetConnectRequestPacket");
+NEED_NO_BOX(LiteNetLib::NetConnectRequestPacket);
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetConnectRequestPacket, "LiteNetLib", "NetConnectRequestPacket");

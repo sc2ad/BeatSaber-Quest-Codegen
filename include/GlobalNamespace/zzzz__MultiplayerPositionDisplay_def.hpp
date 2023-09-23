@@ -2,21 +2,20 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class MultiplayerScoreProvider;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__MultiplayerScoreProvider__RankedPlayer;
+class IConnectedPlayer;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerScoreProvider__RankedPlayer;
 }
 namespace TMPro {
 class TextMeshPro;
-}
-namespace GlobalNamespace {
-class MultiplayerScoreProvider;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,7 +27,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5329))
 // CS Name: MultiplayerPositionDisplay
-class CORDL_TYPE MultiplayerPositionDisplay : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerPositionDisplay : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -43,7 +42,7 @@ constexpr MultiplayerPositionDisplay(MultiplayerPositionDisplay const& ) noexcep
 constexpr MultiplayerPositionDisplay(MultiplayerPositionDisplay&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerPositionDisplay(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerPositionDisplay(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -64,29 +63,29 @@ constexpr explicit MultiplayerPositionDisplay(void* ptr) noexcept : ::UnityEngin
 
 // Fields
 
- ::TMPro::TextMeshPro __declspec(property(get=__get__text, put=__set__text))  _text;
+ TMPro::TextMeshPro __declspec(property(get=__get__text, put=__set__text))  _text;
 
-constexpr void __set__text(::TMPro::TextMeshPro value) ;
+constexpr void __set__text(TMPro::TextMeshPro value) ;
 
-constexpr ::TMPro::TextMeshPro __get__text() const;
+constexpr TMPro::TextMeshPro __get__text() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__normalColor, put=__set__normalColor))  _normalColor;
+ UnityEngine::Color __declspec(property(get=__get__normalColor, put=__set__normalColor))  _normalColor;
 
-constexpr void __set__normalColor(::UnityEngine::Color value) ;
+constexpr void __set__normalColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__normalColor() const;
+constexpr UnityEngine::Color __get__normalColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__leadingColor, put=__set__leadingColor))  _leadingColor;
+ UnityEngine::Color __declspec(property(get=__get__leadingColor, put=__set__leadingColor))  _leadingColor;
 
-constexpr void __set__leadingColor(::UnityEngine::Color value) ;
+constexpr void __set__leadingColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__leadingColor() const;
+constexpr UnityEngine::Color __get__leadingColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__failedColor, put=__set__failedColor))  _failedColor;
+ UnityEngine::Color __declspec(property(get=__get__failedColor, put=__set__failedColor))  _failedColor;
 
-constexpr void __set__failedColor(::UnityEngine::Color value) ;
+constexpr void __set__failedColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__failedColor() const;
+constexpr UnityEngine::Color __get__failedColor() const;
 
  float_t __declspec(property(get=__get__fadeInDuration, put=__set__fadeInDuration))  _fadeInDuration;
 
@@ -106,17 +105,17 @@ constexpr void __set__fadeOutDuration(float_t value) ;
 
 constexpr float_t __get__fadeOutDuration() const;
 
- ::GlobalNamespace::MultiplayerScoreProvider __declspec(property(get=__get__scoreProvider, put=__set__scoreProvider))  _scoreProvider;
+ GlobalNamespace::MultiplayerScoreProvider __declspec(property(get=__get__scoreProvider, put=__set__scoreProvider))  _scoreProvider;
 
-constexpr void __set__scoreProvider(::GlobalNamespace::MultiplayerScoreProvider value) ;
+constexpr void __set__scoreProvider(GlobalNamespace::MultiplayerScoreProvider value) ;
 
-constexpr ::GlobalNamespace::MultiplayerScoreProvider __get__scoreProvider() const;
+constexpr GlobalNamespace::MultiplayerScoreProvider __get__scoreProvider() const;
 
- ::GlobalNamespace::IConnectedPlayer __declspec(property(get=__get__connectedPlayer, put=__set__connectedPlayer))  _connectedPlayer;
+ GlobalNamespace::IConnectedPlayer __declspec(property(get=__get__connectedPlayer, put=__set__connectedPlayer))  _connectedPlayer;
 
-constexpr void __set__connectedPlayer(::GlobalNamespace::IConnectedPlayer value) ;
+constexpr void __set__connectedPlayer(GlobalNamespace::IConnectedPlayer value) ;
 
-constexpr ::GlobalNamespace::IConnectedPlayer __get__connectedPlayer() const;
+constexpr GlobalNamespace::IConnectedPlayer __get__connectedPlayer() const;
 
  bool __declspec(property(get=__get__wasFirst, put=__set__wasFirst))  _wasFirst;
 
@@ -136,17 +135,17 @@ constexpr void __set__updatingColor(bool value) ;
 
 constexpr bool __get__updatingColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__startColor, put=__set__startColor))  _startColor;
+ UnityEngine::Color __declspec(property(get=__get__startColor, put=__set__startColor))  _startColor;
 
-constexpr void __set__startColor(::UnityEngine::Color value) ;
+constexpr void __set__startColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__startColor() const;
+constexpr UnityEngine::Color __get__startColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__targetColor, put=__set__targetColor))  _targetColor;
+ UnityEngine::Color __declspec(property(get=__get__targetColor, put=__set__targetColor))  _targetColor;
 
-constexpr void __set__targetColor(::UnityEngine::Color value) ;
+constexpr void __set__targetColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__targetColor() const;
+constexpr UnityEngine::Color __get__targetColor() const;
 
  float_t __declspec(property(get=__get__colorAnimationStartTime, put=__set__colorAnimationStartTime))  _colorAnimationStartTime;
 
@@ -182,10 +181,10 @@ constexpr float_t __get__colorAnimationStartDuration() const;
  void HandlePlayerFailed() ;
 
 /// @brief Method HandleFirstPlayerDidChange addr 0x2100cdc size 0xb0 virtual false final false
- void HandleFirstPlayerDidChange(::GlobalNamespace::____GlobalNamespace__MultiplayerScoreProvider__RankedPlayer obj) ;
+ void HandleFirstPlayerDidChange(GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider__RankedPlayer obj) ;
 
 /// @brief Method ChangeColor addr 0x21009fc size 0x7c virtual false final false
- void ChangeColor(::UnityEngine::Color toColor, float_t duration) ;
+ void ChangeColor(UnityEngine::Color toColor, float_t duration) ;
 
 // Ctor Parameters []
 explicit MultiplayerPositionDisplay() ;
@@ -197,6 +196,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerPositionDisplay);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerPositionDisplay, "", "MultiplayerPositionDisplay");
+NEED_NO_BOX(GlobalNamespace::MultiplayerPositionDisplay);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerPositionDisplay, "", "MultiplayerPositionDisplay");

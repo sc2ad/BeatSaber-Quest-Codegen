@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Collections::Generic {
 class InternalStringComparer;
@@ -15,7 +14,7 @@ namespace System::Collections::Generic {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3854)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3854), inst: 380 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3863))
 // CS Name: System.Collections.Generic.InternalStringComparer
-class CORDL_TYPE InternalStringComparer : public ::System::Collections::Generic::EqualityComparer_1<::StringW> {
+class CORDL_TYPE InternalStringComparer : public System::Collections::Generic::EqualityComparer_1<::StringW> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr InternalStringComparer(InternalStringComparer const& ) noexcept = defa
 constexpr InternalStringComparer(InternalStringComparer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit InternalStringComparer(void* ptr) noexcept : ::System::Collections::Generic::EqualityComparer_1<::StringW>(ptr) {
+constexpr explicit InternalStringComparer(void* ptr) noexcept : System::Collections::Generic::EqualityComparer_1<::StringW>(ptr) {
 }
 
 
@@ -70,6 +69,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Collections::Generic
-} // end anonymous namespace
-NEED_NO_BOX(::System::Collections::Generic::InternalStringComparer);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Generic::InternalStringComparer, "System.Collections.Generic", "InternalStringComparer");
+NEED_NO_BOX(System::Collections::Generic::InternalStringComparer);
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::InternalStringComparer, "System.Collections.Generic", "InternalStringComparer");

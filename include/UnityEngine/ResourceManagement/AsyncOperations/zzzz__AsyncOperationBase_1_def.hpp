@@ -4,27 +4,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationStatus;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
 }
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template<typename TObject>
-struct AsyncOperationHandle_1;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-class IAsyncOperation;
-}
-namespace System {
-class Exception;
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
@@ -33,6 +25,23 @@ class Task_1;
 namespace System {
 class Type;
 }
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+class IAsyncOperation;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace System {
+class Exception;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationHandle;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template<typename TObject>
+struct AsyncOperationHandle_1;
+}
 namespace System::Threading::Tasks {
 template<typename TResult>
 class TaskCompletionSource_1;
@@ -40,16 +49,6 @@ class TaskCompletionSource_1;
 namespace GlobalNamespace {
 template<typename T>
 class DelegateList_1;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationStatus;
-}
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct DownloadStatus;
@@ -64,11 +63,11 @@ class AsyncOperationBase_1;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template<typename TObject>
-class ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0;
+class UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template<typename TObject>
-class ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0;
+class UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template<::cordl_internals::il2cpp_reference_type TObject>
@@ -76,7 +75,7 @@ class AsyncOperationBase_1<TObject>;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template<>
-class AsyncOperationBase_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>;
+class AsyncOperationBase_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template<>
@@ -88,35 +87,35 @@ class AsyncOperationBase_1<int64_t>;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template<::cordl_internals::il2cpp_reference_type TObject>
-class ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0<TObject>;
+class UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0<TObject>;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template<>
-class ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>;
+class UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template<>
-class ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0<bool>;
+class UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0<bool>;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template<>
-class ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0<int64_t>;
+class UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0<int64_t>;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template<::cordl_internals::il2cpp_reference_type TObject>
-class ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0<TObject>;
+class UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0<TObject>;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template<>
-class ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>;
+class UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template<>
-class ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0<bool>;
+class UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0<bool>;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template<>
-class ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0<int64_t>;
+class UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0<int64_t>;
 }
 // Type: ::<>c__DisplayClass57_0
 // Type: ::<>c__DisplayClass58_0
@@ -129,59 +128,59 @@ template<::cordl_internals::il2cpp_reference_type TObject>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14311))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14311), inst: 2 })
 // CS Name: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1::<>c__DisplayClass57_0
-class CORDL_TYPE ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0<TObject> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0<TObject> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0() = default;
+virtual ~UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0(____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0(UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0(____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0(UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0& operator=(void* o) noexcept {
+  constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0& operator=(____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0&& o) noexcept = default;
-  constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0& operator=(____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0 const& o) noexcept = default;
+  constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0& operator=(UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0&& o) noexcept = default;
+  constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0& operator=(UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __declspec(property(get=__get_value, put=__set_value))  value;
+ System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+constexpr void __set_value(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
-constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __get_value() const;
+constexpr System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __get_value() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0() ;
+explicit UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
 /// @brief Method <add_CompletedTypeless>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
- void _add_CompletedTypeless_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> s) ;
+ void _add_CompletedTypeless_b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> s) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -195,59 +194,59 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14311))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14311), inst: 99 })
 // CS Name: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1::<>c__DisplayClass57_0
-class CORDL_TYPE ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0<bool> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0<bool> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0() = default;
+virtual ~UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0(____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0(UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0(____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0(UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0& operator=(void* o) noexcept {
+  constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0& operator=(____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0&& o) noexcept = default;
-  constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0& operator=(____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0 const& o) noexcept = default;
+  constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0& operator=(UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0&& o) noexcept = default;
+  constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0& operator=(UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __declspec(property(get=__get_value, put=__set_value))  value;
+ System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+constexpr void __set_value(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
-constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __get_value() const;
+constexpr System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __get_value() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0() ;
+explicit UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
 /// @brief Method <add_CompletedTypeless>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
- void _add_CompletedTypeless_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> s) ;
+ void _add_CompletedTypeless_b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> s) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -261,59 +260,59 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14311))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14311), inst: 772 })
 // CS Name: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1::<>c__DisplayClass57_0
-class CORDL_TYPE ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0() = default;
+virtual ~UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0(____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0(UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0(____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0(UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0& operator=(void* o) noexcept {
+  constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0& operator=(____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0&& o) noexcept = default;
-  constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0& operator=(____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0 const& o) noexcept = default;
+  constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0& operator=(UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0&& o) noexcept = default;
+  constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0& operator=(UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __declspec(property(get=__get_value, put=__set_value))  value;
+ System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+constexpr void __set_value(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
-constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __get_value() const;
+constexpr System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __get_value() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0() ;
+explicit UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
 /// @brief Method <add_CompletedTypeless>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
- void _add_CompletedTypeless_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> s) ;
+ void _add_CompletedTypeless_b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> s) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -327,59 +326,59 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14311))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14311), inst: 830 })
 // CS Name: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1::<>c__DisplayClass57_0
-class CORDL_TYPE ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0<int64_t> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0<int64_t> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0() = default;
+virtual ~UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0(____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0(UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0(____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0(UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0& operator=(void* o) noexcept {
+  constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0& operator=(____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0&& o) noexcept = default;
-  constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0& operator=(____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0 const& o) noexcept = default;
+  constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0& operator=(UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0&& o) noexcept = default;
+  constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0& operator=(UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __declspec(property(get=__get_value, put=__set_value))  value;
+ System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+constexpr void __set_value(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
-constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __get_value() const;
+constexpr System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __get_value() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0() ;
+explicit UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
 /// @brief Method <add_CompletedTypeless>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
- void _add_CompletedTypeless_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t> s) ;
+ void _add_CompletedTypeless_b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t> s) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -393,59 +392,59 @@ template<::cordl_internals::il2cpp_reference_type TObject>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14312))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14312), inst: 2 })
 // CS Name: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1::<>c__DisplayClass58_0
-class CORDL_TYPE ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0<TObject> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0<TObject> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0() = default;
+virtual ~UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0(____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0(UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0(____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0(UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0& operator=(void* o) noexcept {
+  constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0& operator=(____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0&& o) noexcept = default;
-  constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0& operator=(____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0 const& o) noexcept = default;
+  constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0& operator=(UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0&& o) noexcept = default;
+  constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0& operator=(UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __declspec(property(get=__get_value, put=__set_value))  value;
+ System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+constexpr void __set_value(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
-constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __get_value() const;
+constexpr System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __get_value() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0() ;
+explicit UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
 /// @brief Method <remove_CompletedTypeless>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
- void _remove_CompletedTypeless_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> s) ;
+ void _remove_CompletedTypeless_b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> s) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -459,59 +458,59 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14312))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14312), inst: 99 })
 // CS Name: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1::<>c__DisplayClass58_0
-class CORDL_TYPE ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0<bool> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0<bool> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0() = default;
+virtual ~UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0(____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0(UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0(____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0(UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0& operator=(void* o) noexcept {
+  constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0& operator=(____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0&& o) noexcept = default;
-  constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0& operator=(____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0 const& o) noexcept = default;
+  constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0& operator=(UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0&& o) noexcept = default;
+  constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0& operator=(UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __declspec(property(get=__get_value, put=__set_value))  value;
+ System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+constexpr void __set_value(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
-constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __get_value() const;
+constexpr System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __get_value() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0() ;
+explicit UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
 /// @brief Method <remove_CompletedTypeless>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
- void _remove_CompletedTypeless_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> s) ;
+ void _remove_CompletedTypeless_b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> s) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -525,59 +524,59 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14312))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14312), inst: 772 })
 // CS Name: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1::<>c__DisplayClass58_0
-class CORDL_TYPE ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0() = default;
+virtual ~UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0(____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0(UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0(____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0(UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0& operator=(void* o) noexcept {
+  constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0& operator=(____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0&& o) noexcept = default;
-  constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0& operator=(____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0 const& o) noexcept = default;
+  constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0& operator=(UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0&& o) noexcept = default;
+  constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0& operator=(UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __declspec(property(get=__get_value, put=__set_value))  value;
+ System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+constexpr void __set_value(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
-constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __get_value() const;
+constexpr System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __get_value() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0() ;
+explicit UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
 /// @brief Method <remove_CompletedTypeless>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
- void _remove_CompletedTypeless_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> s) ;
+ void _remove_CompletedTypeless_b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> s) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -591,59 +590,59 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14312))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14312), inst: 830 })
 // CS Name: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1::<>c__DisplayClass58_0
-class CORDL_TYPE ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0<int64_t> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0<int64_t> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0() = default;
+virtual ~UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0(____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0(UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0(____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0(UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0& operator=(void* o) noexcept {
+  constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0& operator=(____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0&& o) noexcept = default;
-  constexpr ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0& operator=(____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0 const& o) noexcept = default;
+  constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0& operator=(UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0&& o) noexcept = default;
+  constexpr UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0& operator=(UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __declspec(property(get=__get_value, put=__set_value))  value;
+ System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+constexpr void __set_value(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
-constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __get_value() const;
+constexpr System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __get_value() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0() ;
+explicit UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
 /// @brief Method <remove_CompletedTypeless>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
- void _remove_CompletedTypeless_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t> s) ;
+ void _remove_CompletedTypeless_b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t> s) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -660,12 +659,12 @@ template<::cordl_internals::il2cpp_reference_type TObject>
 class CORDL_TYPE AsyncOperationBase_1<TObject> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using __c__DisplayClass58_0 = ::UnityEngine::ResourceManagement::AsyncOperations::____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0<TObject>;
+using __c__DisplayClass58_0 = UnityEngine::ResourceManagement::AsyncOperations::UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0<TObject>;
 
-using __c__DisplayClass57_0 = ::UnityEngine::ResourceManagement::AsyncOperations::____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0<TObject>;
+using __c__DisplayClass57_0 = UnityEngine::ResourceManagement::AsyncOperations::UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0<TObject>;
 
-/// @brief Convert operator to ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation
-constexpr operator  ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation() const noexcept;
+/// @brief Convert operator to UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation
+constexpr operator  UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xa0};
@@ -712,23 +711,23 @@ constexpr void __set_m_referenceCount(int32_t value) ;
 
 constexpr int32_t __get_m_referenceCount() const;
 
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus __declspec(property(get=__get_m_Status, put=__set_m_Status))  m_Status;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus __declspec(property(get=__get_m_Status, put=__set_m_Status))  m_Status;
 
-constexpr void __set_m_Status(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus value) ;
+constexpr void __set_m_Status(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus value) ;
 
-constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus __get_m_Status() const;
+constexpr UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus __get_m_Status() const;
 
- ::System::Exception __declspec(property(get=__get_m_Error, put=__set_m_Error))  m_Error;
+ System::Exception __declspec(property(get=__get_m_Error, put=__set_m_Error))  m_Error;
 
-constexpr void __set_m_Error(::System::Exception value) ;
+constexpr void __set_m_Error(System::Exception value) ;
 
-constexpr ::System::Exception __get_m_Error() const;
+constexpr System::Exception __get_m_Error() const;
 
- ::UnityEngine::ResourceManagement::ResourceManager __declspec(property(get=__get_m_RM, put=__set_m_RM))  m_RM;
+ UnityEngine::ResourceManagement::ResourceManager __declspec(property(get=__get_m_RM, put=__set_m_RM))  m_RM;
 
-constexpr void __set_m_RM(::UnityEngine::ResourceManagement::ResourceManager value) ;
+constexpr void __set_m_RM(UnityEngine::ResourceManagement::ResourceManager value) ;
 
-constexpr ::UnityEngine::ResourceManagement::ResourceManager __get_m_RM() const;
+constexpr UnityEngine::ResourceManagement::ResourceManager __get_m_RM() const;
 
  int32_t __declspec(property(get=__get_m_Version, put=__set_m_Version))  m_Version;
 
@@ -736,29 +735,29 @@ constexpr void __set_m_Version(int32_t value) ;
 
 constexpr int32_t __get_m_Version() const;
 
- ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __declspec(property(get=__get_m_DestroyedAction, put=__set_m_DestroyedAction))  m_DestroyedAction;
+ GlobalNamespace::DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __declspec(property(get=__get_m_DestroyedAction, put=__set_m_DestroyedAction))  m_DestroyedAction;
 
-constexpr void __set_m_DestroyedAction(::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+constexpr void __set_m_DestroyedAction(GlobalNamespace::DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
-constexpr ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __get_m_DestroyedAction() const;
+constexpr GlobalNamespace::DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __get_m_DestroyedAction() const;
 
- ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>> __declspec(property(get=__get_m_CompletedActionT, put=__set_m_CompletedActionT))  m_CompletedActionT;
+ GlobalNamespace::DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>> __declspec(property(get=__get_m_CompletedActionT, put=__set_m_CompletedActionT))  m_CompletedActionT;
 
-constexpr void __set_m_CompletedActionT(::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>> value) ;
+constexpr void __set_m_CompletedActionT(GlobalNamespace::DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>> value) ;
 
-constexpr ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>> __get_m_CompletedActionT() const;
+constexpr GlobalNamespace::DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>> __get_m_CompletedActionT() const;
 
- ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> __declspec(property(get=__get_m_OnDestroyAction, put=__set_m_OnDestroyAction))  m_OnDestroyAction;
+ System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> __declspec(property(get=__get_m_OnDestroyAction, put=__set_m_OnDestroyAction))  m_OnDestroyAction;
 
-constexpr void __set_m_OnDestroyAction(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> value) ;
+constexpr void __set_m_OnDestroyAction(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> value) ;
 
-constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> __get_m_OnDestroyAction() const;
+constexpr System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> __get_m_OnDestroyAction() const;
 
- ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __declspec(property(get=__get_m_dependencyCompleteAction, put=__set_m_dependencyCompleteAction))  m_dependencyCompleteAction;
+ System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __declspec(property(get=__get_m_dependencyCompleteAction, put=__set_m_dependencyCompleteAction))  m_dependencyCompleteAction;
 
-constexpr void __set_m_dependencyCompleteAction(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+constexpr void __set_m_dependencyCompleteAction(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
-constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __get_m_dependencyCompleteAction() const;
+constexpr System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __get_m_dependencyCompleteAction() const;
 
  bool __declspec(property(get=__get_HasExecuted, put=__set_HasExecuted))  HasExecuted;
 
@@ -772,17 +771,17 @@ constexpr void __set__IsRunning_k__BackingField(bool value) ;
 
 constexpr bool __get__IsRunning_k__BackingField() const;
 
- ::System::Threading::Tasks::TaskCompletionSource_1<TObject> __declspec(property(get=__get_m_taskCompletionSource, put=__set_m_taskCompletionSource))  m_taskCompletionSource;
+ System::Threading::Tasks::TaskCompletionSource_1<TObject> __declspec(property(get=__get_m_taskCompletionSource, put=__set_m_taskCompletionSource))  m_taskCompletionSource;
 
-constexpr void __set_m_taskCompletionSource(::System::Threading::Tasks::TaskCompletionSource_1<TObject> value) ;
+constexpr void __set_m_taskCompletionSource(System::Threading::Tasks::TaskCompletionSource_1<TObject> value) ;
 
-constexpr ::System::Threading::Tasks::TaskCompletionSource_1<TObject> __get_m_taskCompletionSource() const;
+constexpr System::Threading::Tasks::TaskCompletionSource_1<TObject> __get_m_taskCompletionSource() const;
 
- ::System::Threading::Tasks::TaskCompletionSource_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get_m_taskCompletionSourceTypeless, put=__set_m_taskCompletionSourceTypeless))  m_taskCompletionSourceTypeless;
+ System::Threading::Tasks::TaskCompletionSource_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get_m_taskCompletionSourceTypeless, put=__set_m_taskCompletionSourceTypeless))  m_taskCompletionSourceTypeless;
 
-constexpr void __set_m_taskCompletionSourceTypeless(::System::Threading::Tasks::TaskCompletionSource_1<::bs_hook::Il2CppWrapperType> value) ;
+constexpr void __set_m_taskCompletionSourceTypeless(System::Threading::Tasks::TaskCompletionSource_1<::bs_hook::Il2CppWrapperType> value) ;
 
-constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::bs_hook::Il2CppWrapperType> __get_m_taskCompletionSourceTypeless() const;
+constexpr System::Threading::Tasks::TaskCompletionSource_1<::bs_hook::Il2CppWrapperType> __get_m_taskCompletionSourceTypeless() const;
 
  bool __declspec(property(get=__get_m_InDeferredCallbackQueue, put=__set_m_InDeferredCallbackQueue))  m_InDeferredCallbackQueue;
 
@@ -790,17 +789,17 @@ constexpr void __set_m_InDeferredCallbackQueue(bool value) ;
 
 constexpr bool __get_m_InDeferredCallbackQueue() const;
 
- ::GlobalNamespace::DelegateList_1<float_t> __declspec(property(get=__get_m_UpdateCallbacks, put=__set_m_UpdateCallbacks))  m_UpdateCallbacks;
+ GlobalNamespace::DelegateList_1<float_t> __declspec(property(get=__get_m_UpdateCallbacks, put=__set_m_UpdateCallbacks))  m_UpdateCallbacks;
 
-constexpr void __set_m_UpdateCallbacks(::GlobalNamespace::DelegateList_1<float_t> value) ;
+constexpr void __set_m_UpdateCallbacks(GlobalNamespace::DelegateList_1<float_t> value) ;
 
-constexpr ::GlobalNamespace::DelegateList_1<float_t> __get_m_UpdateCallbacks() const;
+constexpr GlobalNamespace::DelegateList_1<float_t> __get_m_UpdateCallbacks() const;
 
- ::System::Action_1<float_t> __declspec(property(get=__get_m_UpdateCallback, put=__set_m_UpdateCallback))  m_UpdateCallback;
+ System::Action_1<float_t> __declspec(property(get=__get_m_UpdateCallback, put=__set_m_UpdateCallback))  m_UpdateCallback;
 
-constexpr void __set_m_UpdateCallback(::System::Action_1<float_t> value) ;
+constexpr void __set_m_UpdateCallback(System::Action_1<float_t> value) ;
 
-constexpr ::System::Action_1<float_t> __get_m_UpdateCallback() const;
+constexpr System::Action_1<float_t> __get_m_UpdateCallback() const;
 
 
 // Properties
@@ -817,19 +816,19 @@ constexpr ::System::Action_1<float_t> __get_m_UpdateCallback() const;
 
  bool __declspec(property(get=get_DestroyedEventHasListeners))  DestroyedEventHasListeners;
 
- ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> __declspec(property(put=set_OnDestroy))  OnDestroy;
+ System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> __declspec(property(put=set_OnDestroy))  OnDestroy;
 
  int32_t __declspec(property(get=get_ReferenceCount))  ReferenceCount;
 
  bool __declspec(property(get=get_IsRunning, put=set_IsRunning))  IsRunning;
 
- ::System::Threading::Tasks::Task_1<TObject> __declspec(property(get=get_Task))  Task;
+ System::Threading::Tasks::Task_1<TObject> __declspec(property(get=get_Task))  Task;
 
- ::System::Threading::Tasks::Task_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Task))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Task;
+ System::Threading::Tasks::Task_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Task))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Task;
 
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus __declspec(property(get=get_Status))  Status;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus __declspec(property(get=get_Status))  Status;
 
- ::System::Exception __declspec(property(get=get_OperationException, put=set_OperationException))  OperationException;
+ System::Exception __declspec(property(get=get_OperationException, put=set_OperationException))  OperationException;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_Current))  Current;
 
@@ -837,7 +836,7 @@ constexpr ::System::Action_1<float_t> __get_m_UpdateCallback() const;
 
  float_t __declspec(property(get=get_PercentComplete))  PercentComplete;
 
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> __declspec(property(get=get_Handle))  Handle;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> __declspec(property(get=get_Handle))  Handle;
 
  int32_t __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Version))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Version;
 
@@ -845,19 +844,19 @@ constexpr ::System::Action_1<float_t> __get_m_UpdateCallback() const;
 
  float_t __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_PercentComplete))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_PercentComplete;
 
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Status))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Status;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Status))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Status;
 
- ::System::Exception __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_OperationException))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_OperationException;
+ System::Exception __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_OperationException))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_OperationException;
 
  bool __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_IsDone))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_IsDone;
 
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Handle))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Handle;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Handle))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Handle;
 
- ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> __declspec(property(put=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_set_OnDestroy))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_OnDestroy;
+ System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> __declspec(property(put=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_set_OnDestroy))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_OnDestroy;
 
  ::StringW __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_DebugName))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_DebugName;
 
- ::System::Type __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_ResultType))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_ResultType;
+ System::Type __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_ResultType))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_ResultType;
 
 
 // Methods
@@ -875,7 +874,7 @@ constexpr ::System::Action_1<float_t> __get_m_UpdateCallback() const;
  ::StringW get_DebugName() ;
 
 /// @brief Method GetDependencies addr 0x0 size 0xffffffffffffffff virtual true final false
- void GetDependencies(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> dependencies) ;
+ void GetDependencies(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> dependencies) ;
 
 /// @brief Method get_Result addr 0x0 size 0xffffffffffffffff virtual false final false
  TObject get_Result() ;
@@ -893,7 +892,7 @@ constexpr ::System::Action_1<float_t> __get_m_UpdateCallback() const;
  bool get_DestroyedEventHasListeners() ;
 
 /// @brief Method set_OnDestroy addr 0x0 size 0xffffffffffffffff virtual false final false
- void set_OnDestroy(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> value) ;
+ void set_OnDestroy(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> value) ;
 
 /// @brief Method get_ReferenceCount addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t get_ReferenceCount() ;
@@ -926,10 +925,10 @@ static ::StringW ShortenPath(::StringW p, bool keepExtension) ;
  void DecrementReferenceCount() ;
 
 /// @brief Method get_Task addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Threading::Tasks::Task_1<TObject> get_Task() ;
+ System::Threading::Tasks::Task_1<TObject> get_Task() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_Task addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Threading::Tasks::Task_1<::bs_hook::Il2CppWrapperType> UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Task() ;
+ System::Threading::Tasks::Task_1<::bs_hook::Il2CppWrapperType> UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Task() ;
 
 /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
  ::StringW ToString() ;
@@ -938,31 +937,31 @@ static ::StringW ShortenPath(::StringW p, bool keepExtension) ;
  void RegisterForDeferredCallbackEvent(bool incrementReferenceCount) ;
 
 /// @brief Method add_Completed addr 0x0 size 0xffffffffffffffff virtual false final false
- void add_Completed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>> value) ;
+ void add_Completed(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>> value) ;
 
 /// @brief Method remove_Completed addr 0x0 size 0xffffffffffffffff virtual false final false
- void remove_Completed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>> value) ;
+ void remove_Completed(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>> value) ;
 
 /// @brief Method add_Destroyed addr 0x0 size 0xffffffffffffffff virtual false final false
- void add_Destroyed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+ void add_Destroyed(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
 /// @brief Method remove_Destroyed addr 0x0 size 0xffffffffffffffff virtual false final false
- void remove_Destroyed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+ void remove_Destroyed(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
 /// @brief Method add_CompletedTypeless addr 0x0 size 0xffffffffffffffff virtual false final false
- void add_CompletedTypeless(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+ void add_CompletedTypeless(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
 /// @brief Method remove_CompletedTypeless addr 0x0 size 0xffffffffffffffff virtual false final false
- void remove_CompletedTypeless(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+ void remove_CompletedTypeless(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
 /// @brief Method get_Status addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus get_Status() ;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus get_Status() ;
 
 /// @brief Method get_OperationException addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Exception get_OperationException() ;
+ System::Exception get_OperationException() ;
 
 /// @brief Method set_OperationException addr 0x0 size 0xffffffffffffffff virtual false final false
- void set_OperationException(::System::Exception value) ;
+ void set_OperationException(System::Exception value) ;
 
 /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual false final false
  bool MoveNext() ;
@@ -983,7 +982,7 @@ static ::StringW ShortenPath(::StringW p, bool keepExtension) ;
  void InvokeCompletionEvent() ;
 
 /// @brief Method get_Handle addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> get_Handle() ;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> get_Handle() ;
 
 /// @brief Method UpdateCallback addr 0x0 size 0xffffffffffffffff virtual false final false
  void UpdateCallback(float_t unscaledDeltaTime) ;
@@ -995,25 +994,25 @@ static ::StringW ShortenPath(::StringW p, bool keepExtension) ;
  void Complete(TObject result, bool success, ::StringW errorMsg, bool releaseDependenciesOnFailure) ;
 
 /// @brief Method Complete addr 0x0 size 0xffffffffffffffff virtual false final false
- void Complete(TObject result, bool success, ::System::Exception exception, bool releaseDependenciesOnFailure) ;
+ void Complete(TObject result, bool success, System::Exception exception, bool releaseDependenciesOnFailure) ;
 
 /// @brief Method Start addr 0x0 size 0xffffffffffffffff virtual false final false
- void Start(::UnityEngine::ResourceManagement::ResourceManager rm, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dependency, ::GlobalNamespace::DelegateList_1<float_t> updateCallbacks) ;
+ void Start(UnityEngine::ResourceManagement::ResourceManager rm, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dependency, GlobalNamespace::DelegateList_1<float_t> updateCallbacks) ;
 
 /// @brief Method InvokeExecute addr 0x0 size 0xffffffffffffffff virtual false final false
  void InvokeExecute() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.add_CompletedTypeless addr 0x0 size 0xffffffffffffffff virtual true final true
- void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_add_CompletedTypeless(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+ void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_add_CompletedTypeless(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.remove_CompletedTypeless addr 0x0 size 0xffffffffffffffff virtual true final true
- void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_remove_CompletedTypeless(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+ void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_remove_CompletedTypeless(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.add_Destroyed addr 0x0 size 0xffffffffffffffff virtual true final true
- void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_add_Destroyed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+ void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_add_Destroyed(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.remove_Destroyed addr 0x0 size 0xffffffffffffffff virtual true final true
- void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_remove_Destroyed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+ void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_remove_Destroyed(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_Version addr 0x0 size 0xffffffffffffffff virtual true final true
  int32_t UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Version() ;
@@ -1025,19 +1024,19 @@ static ::StringW ShortenPath(::StringW p, bool keepExtension) ;
  float_t UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_PercentComplete() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_Status addr 0x0 size 0xffffffffffffffff virtual true final true
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Status() ;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Status() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_OperationException addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Exception UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_OperationException() ;
+ System::Exception UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_OperationException() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_IsDone addr 0x0 size 0xffffffffffffffff virtual true final true
  bool UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_IsDone() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_Handle addr 0x0 size 0xffffffffffffffff virtual true final true
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Handle() ;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Handle() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.set_OnDestroy addr 0x0 size 0xffffffffffffffff virtual true final true
- void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_set_OnDestroy(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> value) ;
+ void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_set_OnDestroy(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> value) ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_DebugName addr 0x0 size 0xffffffffffffffff virtual true final true
  ::StringW UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_DebugName() ;
@@ -1046,10 +1045,10 @@ static ::StringW ShortenPath(::StringW p, bool keepExtension) ;
  ::bs_hook::Il2CppWrapperType UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_GetResultAsObject() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_ResultType addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Type UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_ResultType() ;
+ System::Type UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_ResultType() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.GetDependencies addr 0x0 size 0xffffffffffffffff virtual true final true
- void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_GetDependencies(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> deps) ;
+ void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_GetDependencies(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> deps) ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.DecrementReferenceCount addr 0x0 size 0xffffffffffffffff virtual true final true
  void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_DecrementReferenceCount() ;
@@ -1061,19 +1060,19 @@ static ::StringW ShortenPath(::StringW p, bool keepExtension) ;
  void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_InvokeCompletionEvent() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.Start addr 0x0 size 0xffffffffffffffff virtual true final true
- void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Start(::UnityEngine::ResourceManagement::ResourceManager rm, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dependency, ::GlobalNamespace::DelegateList_1<float_t> updateCallbacks) ;
+ void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Start(UnityEngine::ResourceManagement::ResourceManager rm, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dependency, GlobalNamespace::DelegateList_1<float_t> updateCallbacks) ;
 
 /// @brief Method ReleaseDependencies addr 0x0 size 0xffffffffffffffff virtual true final false
  void ReleaseDependencies() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.GetDownloadStatus addr 0x0 size 0xffffffffffffffff virtual true final true
- ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_GetDownloadStatus(::System::Collections::Generic::HashSet_1<::bs_hook::Il2CppWrapperType> visited) ;
+ UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_GetDownloadStatus(System::Collections::Generic::HashSet_1<::bs_hook::Il2CppWrapperType> visited) ;
 
 /// @brief Method GetDownloadStatus addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus(::System::Collections::Generic::HashSet_1<::bs_hook::Il2CppWrapperType> visited) ;
+ UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus(System::Collections::Generic::HashSet_1<::bs_hook::Il2CppWrapperType> visited) ;
 
 /// @brief Method <.ctor>b__35_0 addr 0x0 size 0xffffffffffffffff virtual false final false
- void __ctor_b__35_0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle o) ;
+ void __ctor_b__35_0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -1090,12 +1089,12 @@ template<>
 class CORDL_TYPE AsyncOperationBase_1<bool> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using __c__DisplayClass58_0 = ::UnityEngine::ResourceManagement::AsyncOperations::____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0<bool>;
+using __c__DisplayClass58_0 = UnityEngine::ResourceManagement::AsyncOperations::UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0<bool>;
 
-using __c__DisplayClass57_0 = ::UnityEngine::ResourceManagement::AsyncOperations::____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0<bool>;
+using __c__DisplayClass57_0 = UnityEngine::ResourceManagement::AsyncOperations::UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0<bool>;
 
-/// @brief Convert operator to ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation
-constexpr operator  ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation() const noexcept;
+/// @brief Convert operator to UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation
+constexpr operator  UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xa0};
@@ -1142,23 +1141,23 @@ constexpr void __set_m_referenceCount(int32_t value) ;
 
 constexpr int32_t __get_m_referenceCount() const;
 
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus __declspec(property(get=__get_m_Status, put=__set_m_Status))  m_Status;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus __declspec(property(get=__get_m_Status, put=__set_m_Status))  m_Status;
 
-constexpr void __set_m_Status(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus value) ;
+constexpr void __set_m_Status(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus value) ;
 
-constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus __get_m_Status() const;
+constexpr UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus __get_m_Status() const;
 
- ::System::Exception __declspec(property(get=__get_m_Error, put=__set_m_Error))  m_Error;
+ System::Exception __declspec(property(get=__get_m_Error, put=__set_m_Error))  m_Error;
 
-constexpr void __set_m_Error(::System::Exception value) ;
+constexpr void __set_m_Error(System::Exception value) ;
 
-constexpr ::System::Exception __get_m_Error() const;
+constexpr System::Exception __get_m_Error() const;
 
- ::UnityEngine::ResourceManagement::ResourceManager __declspec(property(get=__get_m_RM, put=__set_m_RM))  m_RM;
+ UnityEngine::ResourceManagement::ResourceManager __declspec(property(get=__get_m_RM, put=__set_m_RM))  m_RM;
 
-constexpr void __set_m_RM(::UnityEngine::ResourceManagement::ResourceManager value) ;
+constexpr void __set_m_RM(UnityEngine::ResourceManagement::ResourceManager value) ;
 
-constexpr ::UnityEngine::ResourceManagement::ResourceManager __get_m_RM() const;
+constexpr UnityEngine::ResourceManagement::ResourceManager __get_m_RM() const;
 
  int32_t __declspec(property(get=__get_m_Version, put=__set_m_Version))  m_Version;
 
@@ -1166,29 +1165,29 @@ constexpr void __set_m_Version(int32_t value) ;
 
 constexpr int32_t __get_m_Version() const;
 
- ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __declspec(property(get=__get_m_DestroyedAction, put=__set_m_DestroyedAction))  m_DestroyedAction;
+ GlobalNamespace::DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __declspec(property(get=__get_m_DestroyedAction, put=__set_m_DestroyedAction))  m_DestroyedAction;
 
-constexpr void __set_m_DestroyedAction(::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+constexpr void __set_m_DestroyedAction(GlobalNamespace::DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
-constexpr ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __get_m_DestroyedAction() const;
+constexpr GlobalNamespace::DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __get_m_DestroyedAction() const;
 
- ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>> __declspec(property(get=__get_m_CompletedActionT, put=__set_m_CompletedActionT))  m_CompletedActionT;
+ GlobalNamespace::DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>> __declspec(property(get=__get_m_CompletedActionT, put=__set_m_CompletedActionT))  m_CompletedActionT;
 
-constexpr void __set_m_CompletedActionT(::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>> value) ;
+constexpr void __set_m_CompletedActionT(GlobalNamespace::DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>> value) ;
 
-constexpr ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>> __get_m_CompletedActionT() const;
+constexpr GlobalNamespace::DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>> __get_m_CompletedActionT() const;
 
- ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> __declspec(property(get=__get_m_OnDestroyAction, put=__set_m_OnDestroyAction))  m_OnDestroyAction;
+ System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> __declspec(property(get=__get_m_OnDestroyAction, put=__set_m_OnDestroyAction))  m_OnDestroyAction;
 
-constexpr void __set_m_OnDestroyAction(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> value) ;
+constexpr void __set_m_OnDestroyAction(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> value) ;
 
-constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> __get_m_OnDestroyAction() const;
+constexpr System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> __get_m_OnDestroyAction() const;
 
- ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __declspec(property(get=__get_m_dependencyCompleteAction, put=__set_m_dependencyCompleteAction))  m_dependencyCompleteAction;
+ System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __declspec(property(get=__get_m_dependencyCompleteAction, put=__set_m_dependencyCompleteAction))  m_dependencyCompleteAction;
 
-constexpr void __set_m_dependencyCompleteAction(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+constexpr void __set_m_dependencyCompleteAction(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
-constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __get_m_dependencyCompleteAction() const;
+constexpr System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __get_m_dependencyCompleteAction() const;
 
  bool __declspec(property(get=__get_HasExecuted, put=__set_HasExecuted))  HasExecuted;
 
@@ -1202,17 +1201,17 @@ constexpr void __set__IsRunning_k__BackingField(bool value) ;
 
 constexpr bool __get__IsRunning_k__BackingField() const;
 
- ::System::Threading::Tasks::TaskCompletionSource_1<bool> __declspec(property(get=__get_m_taskCompletionSource, put=__set_m_taskCompletionSource))  m_taskCompletionSource;
+ System::Threading::Tasks::TaskCompletionSource_1<bool> __declspec(property(get=__get_m_taskCompletionSource, put=__set_m_taskCompletionSource))  m_taskCompletionSource;
 
-constexpr void __set_m_taskCompletionSource(::System::Threading::Tasks::TaskCompletionSource_1<bool> value) ;
+constexpr void __set_m_taskCompletionSource(System::Threading::Tasks::TaskCompletionSource_1<bool> value) ;
 
-constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool> __get_m_taskCompletionSource() const;
+constexpr System::Threading::Tasks::TaskCompletionSource_1<bool> __get_m_taskCompletionSource() const;
 
- ::System::Threading::Tasks::TaskCompletionSource_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get_m_taskCompletionSourceTypeless, put=__set_m_taskCompletionSourceTypeless))  m_taskCompletionSourceTypeless;
+ System::Threading::Tasks::TaskCompletionSource_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get_m_taskCompletionSourceTypeless, put=__set_m_taskCompletionSourceTypeless))  m_taskCompletionSourceTypeless;
 
-constexpr void __set_m_taskCompletionSourceTypeless(::System::Threading::Tasks::TaskCompletionSource_1<::bs_hook::Il2CppWrapperType> value) ;
+constexpr void __set_m_taskCompletionSourceTypeless(System::Threading::Tasks::TaskCompletionSource_1<::bs_hook::Il2CppWrapperType> value) ;
 
-constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::bs_hook::Il2CppWrapperType> __get_m_taskCompletionSourceTypeless() const;
+constexpr System::Threading::Tasks::TaskCompletionSource_1<::bs_hook::Il2CppWrapperType> __get_m_taskCompletionSourceTypeless() const;
 
  bool __declspec(property(get=__get_m_InDeferredCallbackQueue, put=__set_m_InDeferredCallbackQueue))  m_InDeferredCallbackQueue;
 
@@ -1220,17 +1219,17 @@ constexpr void __set_m_InDeferredCallbackQueue(bool value) ;
 
 constexpr bool __get_m_InDeferredCallbackQueue() const;
 
- ::GlobalNamespace::DelegateList_1<float_t> __declspec(property(get=__get_m_UpdateCallbacks, put=__set_m_UpdateCallbacks))  m_UpdateCallbacks;
+ GlobalNamespace::DelegateList_1<float_t> __declspec(property(get=__get_m_UpdateCallbacks, put=__set_m_UpdateCallbacks))  m_UpdateCallbacks;
 
-constexpr void __set_m_UpdateCallbacks(::GlobalNamespace::DelegateList_1<float_t> value) ;
+constexpr void __set_m_UpdateCallbacks(GlobalNamespace::DelegateList_1<float_t> value) ;
 
-constexpr ::GlobalNamespace::DelegateList_1<float_t> __get_m_UpdateCallbacks() const;
+constexpr GlobalNamespace::DelegateList_1<float_t> __get_m_UpdateCallbacks() const;
 
- ::System::Action_1<float_t> __declspec(property(get=__get_m_UpdateCallback, put=__set_m_UpdateCallback))  m_UpdateCallback;
+ System::Action_1<float_t> __declspec(property(get=__get_m_UpdateCallback, put=__set_m_UpdateCallback))  m_UpdateCallback;
 
-constexpr void __set_m_UpdateCallback(::System::Action_1<float_t> value) ;
+constexpr void __set_m_UpdateCallback(System::Action_1<float_t> value) ;
 
-constexpr ::System::Action_1<float_t> __get_m_UpdateCallback() const;
+constexpr System::Action_1<float_t> __get_m_UpdateCallback() const;
 
 
 // Properties
@@ -1247,19 +1246,19 @@ constexpr ::System::Action_1<float_t> __get_m_UpdateCallback() const;
 
  bool __declspec(property(get=get_DestroyedEventHasListeners))  DestroyedEventHasListeners;
 
- ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> __declspec(property(put=set_OnDestroy))  OnDestroy;
+ System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> __declspec(property(put=set_OnDestroy))  OnDestroy;
 
  int32_t __declspec(property(get=get_ReferenceCount))  ReferenceCount;
 
  bool __declspec(property(get=get_IsRunning, put=set_IsRunning))  IsRunning;
 
- ::System::Threading::Tasks::Task_1<bool> __declspec(property(get=get_Task))  Task;
+ System::Threading::Tasks::Task_1<bool> __declspec(property(get=get_Task))  Task;
 
- ::System::Threading::Tasks::Task_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Task))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Task;
+ System::Threading::Tasks::Task_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Task))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Task;
 
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus __declspec(property(get=get_Status))  Status;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus __declspec(property(get=get_Status))  Status;
 
- ::System::Exception __declspec(property(get=get_OperationException, put=set_OperationException))  OperationException;
+ System::Exception __declspec(property(get=get_OperationException, put=set_OperationException))  OperationException;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_Current))  Current;
 
@@ -1267,7 +1266,7 @@ constexpr ::System::Action_1<float_t> __get_m_UpdateCallback() const;
 
  float_t __declspec(property(get=get_PercentComplete))  PercentComplete;
 
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> __declspec(property(get=get_Handle))  Handle;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> __declspec(property(get=get_Handle))  Handle;
 
  int32_t __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Version))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Version;
 
@@ -1275,19 +1274,19 @@ constexpr ::System::Action_1<float_t> __get_m_UpdateCallback() const;
 
  float_t __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_PercentComplete))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_PercentComplete;
 
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Status))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Status;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Status))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Status;
 
- ::System::Exception __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_OperationException))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_OperationException;
+ System::Exception __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_OperationException))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_OperationException;
 
  bool __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_IsDone))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_IsDone;
 
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Handle))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Handle;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Handle))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Handle;
 
- ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> __declspec(property(put=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_set_OnDestroy))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_OnDestroy;
+ System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> __declspec(property(put=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_set_OnDestroy))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_OnDestroy;
 
  ::StringW __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_DebugName))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_DebugName;
 
- ::System::Type __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_ResultType))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_ResultType;
+ System::Type __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_ResultType))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_ResultType;
 
 
 // Methods
@@ -1305,7 +1304,7 @@ constexpr ::System::Action_1<float_t> __get_m_UpdateCallback() const;
  ::StringW get_DebugName() ;
 
 /// @brief Method GetDependencies addr 0x0 size 0xffffffffffffffff virtual true final false
- void GetDependencies(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> dependencies) ;
+ void GetDependencies(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> dependencies) ;
 
 /// @brief Method get_Result addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_Result() ;
@@ -1323,7 +1322,7 @@ constexpr ::System::Action_1<float_t> __get_m_UpdateCallback() const;
  bool get_DestroyedEventHasListeners() ;
 
 /// @brief Method set_OnDestroy addr 0x0 size 0xffffffffffffffff virtual false final false
- void set_OnDestroy(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> value) ;
+ void set_OnDestroy(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> value) ;
 
 /// @brief Method get_ReferenceCount addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t get_ReferenceCount() ;
@@ -1356,10 +1355,10 @@ static ::StringW ShortenPath(::StringW p, bool keepExtension) ;
  void DecrementReferenceCount() ;
 
 /// @brief Method get_Task addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Threading::Tasks::Task_1<bool> get_Task() ;
+ System::Threading::Tasks::Task_1<bool> get_Task() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_Task addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Threading::Tasks::Task_1<::bs_hook::Il2CppWrapperType> UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Task() ;
+ System::Threading::Tasks::Task_1<::bs_hook::Il2CppWrapperType> UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Task() ;
 
 /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
  ::StringW ToString() ;
@@ -1368,31 +1367,31 @@ static ::StringW ShortenPath(::StringW p, bool keepExtension) ;
  void RegisterForDeferredCallbackEvent(bool incrementReferenceCount) ;
 
 /// @brief Method add_Completed addr 0x0 size 0xffffffffffffffff virtual false final false
- void add_Completed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>> value) ;
+ void add_Completed(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>> value) ;
 
 /// @brief Method remove_Completed addr 0x0 size 0xffffffffffffffff virtual false final false
- void remove_Completed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>> value) ;
+ void remove_Completed(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>> value) ;
 
 /// @brief Method add_Destroyed addr 0x0 size 0xffffffffffffffff virtual false final false
- void add_Destroyed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+ void add_Destroyed(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
 /// @brief Method remove_Destroyed addr 0x0 size 0xffffffffffffffff virtual false final false
- void remove_Destroyed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+ void remove_Destroyed(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
 /// @brief Method add_CompletedTypeless addr 0x0 size 0xffffffffffffffff virtual false final false
- void add_CompletedTypeless(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+ void add_CompletedTypeless(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
 /// @brief Method remove_CompletedTypeless addr 0x0 size 0xffffffffffffffff virtual false final false
- void remove_CompletedTypeless(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+ void remove_CompletedTypeless(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
 /// @brief Method get_Status addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus get_Status() ;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus get_Status() ;
 
 /// @brief Method get_OperationException addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Exception get_OperationException() ;
+ System::Exception get_OperationException() ;
 
 /// @brief Method set_OperationException addr 0x0 size 0xffffffffffffffff virtual false final false
- void set_OperationException(::System::Exception value) ;
+ void set_OperationException(System::Exception value) ;
 
 /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual false final false
  bool MoveNext() ;
@@ -1413,7 +1412,7 @@ static ::StringW ShortenPath(::StringW p, bool keepExtension) ;
  void InvokeCompletionEvent() ;
 
 /// @brief Method get_Handle addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> get_Handle() ;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> get_Handle() ;
 
 /// @brief Method UpdateCallback addr 0x0 size 0xffffffffffffffff virtual false final false
  void UpdateCallback(float_t unscaledDeltaTime) ;
@@ -1425,25 +1424,25 @@ static ::StringW ShortenPath(::StringW p, bool keepExtension) ;
  void Complete(bool result, bool success, ::StringW errorMsg, bool releaseDependenciesOnFailure) ;
 
 /// @brief Method Complete addr 0x0 size 0xffffffffffffffff virtual false final false
- void Complete(bool result, bool success, ::System::Exception exception, bool releaseDependenciesOnFailure) ;
+ void Complete(bool result, bool success, System::Exception exception, bool releaseDependenciesOnFailure) ;
 
 /// @brief Method Start addr 0x0 size 0xffffffffffffffff virtual false final false
- void Start(::UnityEngine::ResourceManagement::ResourceManager rm, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dependency, ::GlobalNamespace::DelegateList_1<float_t> updateCallbacks) ;
+ void Start(UnityEngine::ResourceManagement::ResourceManager rm, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dependency, GlobalNamespace::DelegateList_1<float_t> updateCallbacks) ;
 
 /// @brief Method InvokeExecute addr 0x0 size 0xffffffffffffffff virtual false final false
  void InvokeExecute() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.add_CompletedTypeless addr 0x0 size 0xffffffffffffffff virtual true final true
- void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_add_CompletedTypeless(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+ void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_add_CompletedTypeless(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.remove_CompletedTypeless addr 0x0 size 0xffffffffffffffff virtual true final true
- void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_remove_CompletedTypeless(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+ void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_remove_CompletedTypeless(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.add_Destroyed addr 0x0 size 0xffffffffffffffff virtual true final true
- void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_add_Destroyed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+ void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_add_Destroyed(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.remove_Destroyed addr 0x0 size 0xffffffffffffffff virtual true final true
- void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_remove_Destroyed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+ void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_remove_Destroyed(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_Version addr 0x0 size 0xffffffffffffffff virtual true final true
  int32_t UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Version() ;
@@ -1455,19 +1454,19 @@ static ::StringW ShortenPath(::StringW p, bool keepExtension) ;
  float_t UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_PercentComplete() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_Status addr 0x0 size 0xffffffffffffffff virtual true final true
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Status() ;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Status() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_OperationException addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Exception UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_OperationException() ;
+ System::Exception UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_OperationException() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_IsDone addr 0x0 size 0xffffffffffffffff virtual true final true
  bool UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_IsDone() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_Handle addr 0x0 size 0xffffffffffffffff virtual true final true
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Handle() ;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Handle() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.set_OnDestroy addr 0x0 size 0xffffffffffffffff virtual true final true
- void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_set_OnDestroy(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> value) ;
+ void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_set_OnDestroy(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> value) ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_DebugName addr 0x0 size 0xffffffffffffffff virtual true final true
  ::StringW UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_DebugName() ;
@@ -1476,10 +1475,10 @@ static ::StringW ShortenPath(::StringW p, bool keepExtension) ;
  ::bs_hook::Il2CppWrapperType UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_GetResultAsObject() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_ResultType addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Type UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_ResultType() ;
+ System::Type UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_ResultType() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.GetDependencies addr 0x0 size 0xffffffffffffffff virtual true final true
- void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_GetDependencies(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> deps) ;
+ void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_GetDependencies(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> deps) ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.DecrementReferenceCount addr 0x0 size 0xffffffffffffffff virtual true final true
  void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_DecrementReferenceCount() ;
@@ -1491,19 +1490,19 @@ static ::StringW ShortenPath(::StringW p, bool keepExtension) ;
  void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_InvokeCompletionEvent() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.Start addr 0x0 size 0xffffffffffffffff virtual true final true
- void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Start(::UnityEngine::ResourceManagement::ResourceManager rm, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dependency, ::GlobalNamespace::DelegateList_1<float_t> updateCallbacks) ;
+ void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Start(UnityEngine::ResourceManagement::ResourceManager rm, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dependency, GlobalNamespace::DelegateList_1<float_t> updateCallbacks) ;
 
 /// @brief Method ReleaseDependencies addr 0x0 size 0xffffffffffffffff virtual true final false
  void ReleaseDependencies() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.GetDownloadStatus addr 0x0 size 0xffffffffffffffff virtual true final true
- ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_GetDownloadStatus(::System::Collections::Generic::HashSet_1<::bs_hook::Il2CppWrapperType> visited) ;
+ UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_GetDownloadStatus(System::Collections::Generic::HashSet_1<::bs_hook::Il2CppWrapperType> visited) ;
 
 /// @brief Method GetDownloadStatus addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus(::System::Collections::Generic::HashSet_1<::bs_hook::Il2CppWrapperType> visited) ;
+ UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus(System::Collections::Generic::HashSet_1<::bs_hook::Il2CppWrapperType> visited) ;
 
 /// @brief Method <.ctor>b__35_0 addr 0x0 size 0xffffffffffffffff virtual false final false
- void __ctor_b__35_0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle o) ;
+ void __ctor_b__35_0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -1517,15 +1516,15 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14313))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14313), inst: 772 })
 // CS Name: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
-class CORDL_TYPE AsyncOperationBase_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE AsyncOperationBase_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using __c__DisplayClass58_0 = ::UnityEngine::ResourceManagement::AsyncOperations::____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>;
+using __c__DisplayClass58_0 = UnityEngine::ResourceManagement::AsyncOperations::UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>;
 
-using __c__DisplayClass57_0 = ::UnityEngine::ResourceManagement::AsyncOperations::____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>;
+using __c__DisplayClass57_0 = UnityEngine::ResourceManagement::AsyncOperations::UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>;
 
-/// @brief Convert operator to ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation
-constexpr operator  ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation() const noexcept;
+/// @brief Convert operator to UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation
+constexpr operator  UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xa0};
@@ -1560,11 +1559,11 @@ constexpr explicit AsyncOperationBase_1(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 // Fields
 
- ::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance __declspec(property(get=__get__Result_k__BackingField, put=__set__Result_k__BackingField))  _Result_k__BackingField;
+ UnityEngine::ResourceManagement::ResourceProviders::SceneInstance __declspec(property(get=__get__Result_k__BackingField, put=__set__Result_k__BackingField))  _Result_k__BackingField;
 
-constexpr void __set__Result_k__BackingField(::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance value) ;
+constexpr void __set__Result_k__BackingField(UnityEngine::ResourceManagement::ResourceProviders::SceneInstance value) ;
 
-constexpr ::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance __get__Result_k__BackingField() const;
+constexpr UnityEngine::ResourceManagement::ResourceProviders::SceneInstance __get__Result_k__BackingField() const;
 
  int32_t __declspec(property(get=__get_m_referenceCount, put=__set_m_referenceCount))  m_referenceCount;
 
@@ -1572,23 +1571,23 @@ constexpr void __set_m_referenceCount(int32_t value) ;
 
 constexpr int32_t __get_m_referenceCount() const;
 
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus __declspec(property(get=__get_m_Status, put=__set_m_Status))  m_Status;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus __declspec(property(get=__get_m_Status, put=__set_m_Status))  m_Status;
 
-constexpr void __set_m_Status(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus value) ;
+constexpr void __set_m_Status(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus value) ;
 
-constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus __get_m_Status() const;
+constexpr UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus __get_m_Status() const;
 
- ::System::Exception __declspec(property(get=__get_m_Error, put=__set_m_Error))  m_Error;
+ System::Exception __declspec(property(get=__get_m_Error, put=__set_m_Error))  m_Error;
 
-constexpr void __set_m_Error(::System::Exception value) ;
+constexpr void __set_m_Error(System::Exception value) ;
 
-constexpr ::System::Exception __get_m_Error() const;
+constexpr System::Exception __get_m_Error() const;
 
- ::UnityEngine::ResourceManagement::ResourceManager __declspec(property(get=__get_m_RM, put=__set_m_RM))  m_RM;
+ UnityEngine::ResourceManagement::ResourceManager __declspec(property(get=__get_m_RM, put=__set_m_RM))  m_RM;
 
-constexpr void __set_m_RM(::UnityEngine::ResourceManagement::ResourceManager value) ;
+constexpr void __set_m_RM(UnityEngine::ResourceManagement::ResourceManager value) ;
 
-constexpr ::UnityEngine::ResourceManagement::ResourceManager __get_m_RM() const;
+constexpr UnityEngine::ResourceManagement::ResourceManager __get_m_RM() const;
 
  int32_t __declspec(property(get=__get_m_Version, put=__set_m_Version))  m_Version;
 
@@ -1596,29 +1595,29 @@ constexpr void __set_m_Version(int32_t value) ;
 
 constexpr int32_t __get_m_Version() const;
 
- ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __declspec(property(get=__get_m_DestroyedAction, put=__set_m_DestroyedAction))  m_DestroyedAction;
+ GlobalNamespace::DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __declspec(property(get=__get_m_DestroyedAction, put=__set_m_DestroyedAction))  m_DestroyedAction;
 
-constexpr void __set_m_DestroyedAction(::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+constexpr void __set_m_DestroyedAction(GlobalNamespace::DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
-constexpr ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __get_m_DestroyedAction() const;
+constexpr GlobalNamespace::DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __get_m_DestroyedAction() const;
 
- ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>> __declspec(property(get=__get_m_CompletedActionT, put=__set_m_CompletedActionT))  m_CompletedActionT;
+ GlobalNamespace::DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>> __declspec(property(get=__get_m_CompletedActionT, put=__set_m_CompletedActionT))  m_CompletedActionT;
 
-constexpr void __set_m_CompletedActionT(::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>> value) ;
+constexpr void __set_m_CompletedActionT(GlobalNamespace::DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>> value) ;
 
-constexpr ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>> __get_m_CompletedActionT() const;
+constexpr GlobalNamespace::DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>> __get_m_CompletedActionT() const;
 
- ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> __declspec(property(get=__get_m_OnDestroyAction, put=__set_m_OnDestroyAction))  m_OnDestroyAction;
+ System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> __declspec(property(get=__get_m_OnDestroyAction, put=__set_m_OnDestroyAction))  m_OnDestroyAction;
 
-constexpr void __set_m_OnDestroyAction(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> value) ;
+constexpr void __set_m_OnDestroyAction(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> value) ;
 
-constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> __get_m_OnDestroyAction() const;
+constexpr System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> __get_m_OnDestroyAction() const;
 
- ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __declspec(property(get=__get_m_dependencyCompleteAction, put=__set_m_dependencyCompleteAction))  m_dependencyCompleteAction;
+ System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __declspec(property(get=__get_m_dependencyCompleteAction, put=__set_m_dependencyCompleteAction))  m_dependencyCompleteAction;
 
-constexpr void __set_m_dependencyCompleteAction(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+constexpr void __set_m_dependencyCompleteAction(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
-constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __get_m_dependencyCompleteAction() const;
+constexpr System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __get_m_dependencyCompleteAction() const;
 
  bool __declspec(property(get=__get_HasExecuted, put=__set_HasExecuted))  HasExecuted;
 
@@ -1632,17 +1631,17 @@ constexpr void __set__IsRunning_k__BackingField(bool value) ;
 
 constexpr bool __get__IsRunning_k__BackingField() const;
 
- ::System::Threading::Tasks::TaskCompletionSource_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> __declspec(property(get=__get_m_taskCompletionSource, put=__set_m_taskCompletionSource))  m_taskCompletionSource;
+ System::Threading::Tasks::TaskCompletionSource_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> __declspec(property(get=__get_m_taskCompletionSource, put=__set_m_taskCompletionSource))  m_taskCompletionSource;
 
-constexpr void __set_m_taskCompletionSource(::System::Threading::Tasks::TaskCompletionSource_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> value) ;
+constexpr void __set_m_taskCompletionSource(System::Threading::Tasks::TaskCompletionSource_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> value) ;
 
-constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> __get_m_taskCompletionSource() const;
+constexpr System::Threading::Tasks::TaskCompletionSource_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> __get_m_taskCompletionSource() const;
 
- ::System::Threading::Tasks::TaskCompletionSource_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get_m_taskCompletionSourceTypeless, put=__set_m_taskCompletionSourceTypeless))  m_taskCompletionSourceTypeless;
+ System::Threading::Tasks::TaskCompletionSource_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get_m_taskCompletionSourceTypeless, put=__set_m_taskCompletionSourceTypeless))  m_taskCompletionSourceTypeless;
 
-constexpr void __set_m_taskCompletionSourceTypeless(::System::Threading::Tasks::TaskCompletionSource_1<::bs_hook::Il2CppWrapperType> value) ;
+constexpr void __set_m_taskCompletionSourceTypeless(System::Threading::Tasks::TaskCompletionSource_1<::bs_hook::Il2CppWrapperType> value) ;
 
-constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::bs_hook::Il2CppWrapperType> __get_m_taskCompletionSourceTypeless() const;
+constexpr System::Threading::Tasks::TaskCompletionSource_1<::bs_hook::Il2CppWrapperType> __get_m_taskCompletionSourceTypeless() const;
 
  bool __declspec(property(get=__get_m_InDeferredCallbackQueue, put=__set_m_InDeferredCallbackQueue))  m_InDeferredCallbackQueue;
 
@@ -1650,17 +1649,17 @@ constexpr void __set_m_InDeferredCallbackQueue(bool value) ;
 
 constexpr bool __get_m_InDeferredCallbackQueue() const;
 
- ::GlobalNamespace::DelegateList_1<float_t> __declspec(property(get=__get_m_UpdateCallbacks, put=__set_m_UpdateCallbacks))  m_UpdateCallbacks;
+ GlobalNamespace::DelegateList_1<float_t> __declspec(property(get=__get_m_UpdateCallbacks, put=__set_m_UpdateCallbacks))  m_UpdateCallbacks;
 
-constexpr void __set_m_UpdateCallbacks(::GlobalNamespace::DelegateList_1<float_t> value) ;
+constexpr void __set_m_UpdateCallbacks(GlobalNamespace::DelegateList_1<float_t> value) ;
 
-constexpr ::GlobalNamespace::DelegateList_1<float_t> __get_m_UpdateCallbacks() const;
+constexpr GlobalNamespace::DelegateList_1<float_t> __get_m_UpdateCallbacks() const;
 
- ::System::Action_1<float_t> __declspec(property(get=__get_m_UpdateCallback, put=__set_m_UpdateCallback))  m_UpdateCallback;
+ System::Action_1<float_t> __declspec(property(get=__get_m_UpdateCallback, put=__set_m_UpdateCallback))  m_UpdateCallback;
 
-constexpr void __set_m_UpdateCallback(::System::Action_1<float_t> value) ;
+constexpr void __set_m_UpdateCallback(System::Action_1<float_t> value) ;
 
-constexpr ::System::Action_1<float_t> __get_m_UpdateCallback() const;
+constexpr System::Action_1<float_t> __get_m_UpdateCallback() const;
 
 
 // Properties
@@ -1669,7 +1668,7 @@ constexpr ::System::Action_1<float_t> __get_m_UpdateCallback() const;
 
  ::StringW __declspec(property(get=get_DebugName))  DebugName;
 
- ::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance __declspec(property(get=get_Result, put=set_Result))  Result;
+ UnityEngine::ResourceManagement::ResourceProviders::SceneInstance __declspec(property(get=get_Result, put=set_Result))  Result;
 
  int32_t __declspec(property(get=get_Version))  Version;
 
@@ -1677,19 +1676,19 @@ constexpr ::System::Action_1<float_t> __get_m_UpdateCallback() const;
 
  bool __declspec(property(get=get_DestroyedEventHasListeners))  DestroyedEventHasListeners;
 
- ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> __declspec(property(put=set_OnDestroy))  OnDestroy;
+ System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> __declspec(property(put=set_OnDestroy))  OnDestroy;
 
  int32_t __declspec(property(get=get_ReferenceCount))  ReferenceCount;
 
  bool __declspec(property(get=get_IsRunning, put=set_IsRunning))  IsRunning;
 
- ::System::Threading::Tasks::Task_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> __declspec(property(get=get_Task))  Task;
+ System::Threading::Tasks::Task_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> __declspec(property(get=get_Task))  Task;
 
- ::System::Threading::Tasks::Task_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Task))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Task;
+ System::Threading::Tasks::Task_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Task))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Task;
 
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus __declspec(property(get=get_Status))  Status;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus __declspec(property(get=get_Status))  Status;
 
- ::System::Exception __declspec(property(get=get_OperationException, put=set_OperationException))  OperationException;
+ System::Exception __declspec(property(get=get_OperationException, put=set_OperationException))  OperationException;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_Current))  Current;
 
@@ -1697,7 +1696,7 @@ constexpr ::System::Action_1<float_t> __get_m_UpdateCallback() const;
 
  float_t __declspec(property(get=get_PercentComplete))  PercentComplete;
 
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> __declspec(property(get=get_Handle))  Handle;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> __declspec(property(get=get_Handle))  Handle;
 
  int32_t __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Version))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Version;
 
@@ -1705,19 +1704,19 @@ constexpr ::System::Action_1<float_t> __get_m_UpdateCallback() const;
 
  float_t __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_PercentComplete))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_PercentComplete;
 
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Status))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Status;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Status))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Status;
 
- ::System::Exception __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_OperationException))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_OperationException;
+ System::Exception __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_OperationException))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_OperationException;
 
  bool __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_IsDone))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_IsDone;
 
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Handle))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Handle;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Handle))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Handle;
 
- ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> __declspec(property(put=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_set_OnDestroy))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_OnDestroy;
+ System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> __declspec(property(put=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_set_OnDestroy))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_OnDestroy;
 
  ::StringW __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_DebugName))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_DebugName;
 
- ::System::Type __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_ResultType))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_ResultType;
+ System::Type __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_ResultType))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_ResultType;
 
 
 // Methods
@@ -1735,13 +1734,13 @@ constexpr ::System::Action_1<float_t> __get_m_UpdateCallback() const;
  ::StringW get_DebugName() ;
 
 /// @brief Method GetDependencies addr 0x0 size 0xffffffffffffffff virtual true final false
- void GetDependencies(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> dependencies) ;
+ void GetDependencies(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> dependencies) ;
 
 /// @brief Method get_Result addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance get_Result() ;
+ UnityEngine::ResourceManagement::ResourceProviders::SceneInstance get_Result() ;
 
 /// @brief Method set_Result addr 0x0 size 0xffffffffffffffff virtual false final false
- void set_Result(::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance value) ;
+ void set_Result(UnityEngine::ResourceManagement::ResourceProviders::SceneInstance value) ;
 
 /// @brief Method get_Version addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t get_Version() ;
@@ -1753,7 +1752,7 @@ constexpr ::System::Action_1<float_t> __get_m_UpdateCallback() const;
  bool get_DestroyedEventHasListeners() ;
 
 /// @brief Method set_OnDestroy addr 0x0 size 0xffffffffffffffff virtual false final false
- void set_OnDestroy(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> value) ;
+ void set_OnDestroy(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> value) ;
 
 /// @brief Method get_ReferenceCount addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t get_ReferenceCount() ;
@@ -1786,10 +1785,10 @@ static ::StringW ShortenPath(::StringW p, bool keepExtension) ;
  void DecrementReferenceCount() ;
 
 /// @brief Method get_Task addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Threading::Tasks::Task_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> get_Task() ;
+ System::Threading::Tasks::Task_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> get_Task() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_Task addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Threading::Tasks::Task_1<::bs_hook::Il2CppWrapperType> UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Task() ;
+ System::Threading::Tasks::Task_1<::bs_hook::Il2CppWrapperType> UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Task() ;
 
 /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
  ::StringW ToString() ;
@@ -1798,31 +1797,31 @@ static ::StringW ShortenPath(::StringW p, bool keepExtension) ;
  void RegisterForDeferredCallbackEvent(bool incrementReferenceCount) ;
 
 /// @brief Method add_Completed addr 0x0 size 0xffffffffffffffff virtual false final false
- void add_Completed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>> value) ;
+ void add_Completed(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>> value) ;
 
 /// @brief Method remove_Completed addr 0x0 size 0xffffffffffffffff virtual false final false
- void remove_Completed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>> value) ;
+ void remove_Completed(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>> value) ;
 
 /// @brief Method add_Destroyed addr 0x0 size 0xffffffffffffffff virtual false final false
- void add_Destroyed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+ void add_Destroyed(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
 /// @brief Method remove_Destroyed addr 0x0 size 0xffffffffffffffff virtual false final false
- void remove_Destroyed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+ void remove_Destroyed(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
 /// @brief Method add_CompletedTypeless addr 0x0 size 0xffffffffffffffff virtual false final false
- void add_CompletedTypeless(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+ void add_CompletedTypeless(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
 /// @brief Method remove_CompletedTypeless addr 0x0 size 0xffffffffffffffff virtual false final false
- void remove_CompletedTypeless(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+ void remove_CompletedTypeless(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
 /// @brief Method get_Status addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus get_Status() ;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus get_Status() ;
 
 /// @brief Method get_OperationException addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Exception get_OperationException() ;
+ System::Exception get_OperationException() ;
 
 /// @brief Method set_OperationException addr 0x0 size 0xffffffffffffffff virtual false final false
- void set_OperationException(::System::Exception value) ;
+ void set_OperationException(System::Exception value) ;
 
 /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual false final false
  bool MoveNext() ;
@@ -1843,37 +1842,37 @@ static ::StringW ShortenPath(::StringW p, bool keepExtension) ;
  void InvokeCompletionEvent() ;
 
 /// @brief Method get_Handle addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> get_Handle() ;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> get_Handle() ;
 
 /// @brief Method UpdateCallback addr 0x0 size 0xffffffffffffffff virtual false final false
  void UpdateCallback(float_t unscaledDeltaTime) ;
 
 /// @brief Method Complete addr 0x0 size 0xffffffffffffffff virtual false final false
- void Complete(::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance result, bool success, ::StringW errorMsg) ;
+ void Complete(UnityEngine::ResourceManagement::ResourceProviders::SceneInstance result, bool success, ::StringW errorMsg) ;
 
 /// @brief Method Complete addr 0x0 size 0xffffffffffffffff virtual false final false
- void Complete(::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance result, bool success, ::StringW errorMsg, bool releaseDependenciesOnFailure) ;
+ void Complete(UnityEngine::ResourceManagement::ResourceProviders::SceneInstance result, bool success, ::StringW errorMsg, bool releaseDependenciesOnFailure) ;
 
 /// @brief Method Complete addr 0x0 size 0xffffffffffffffff virtual false final false
- void Complete(::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance result, bool success, ::System::Exception exception, bool releaseDependenciesOnFailure) ;
+ void Complete(UnityEngine::ResourceManagement::ResourceProviders::SceneInstance result, bool success, System::Exception exception, bool releaseDependenciesOnFailure) ;
 
 /// @brief Method Start addr 0x0 size 0xffffffffffffffff virtual false final false
- void Start(::UnityEngine::ResourceManagement::ResourceManager rm, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dependency, ::GlobalNamespace::DelegateList_1<float_t> updateCallbacks) ;
+ void Start(UnityEngine::ResourceManagement::ResourceManager rm, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dependency, GlobalNamespace::DelegateList_1<float_t> updateCallbacks) ;
 
 /// @brief Method InvokeExecute addr 0x0 size 0xffffffffffffffff virtual false final false
  void InvokeExecute() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.add_CompletedTypeless addr 0x0 size 0xffffffffffffffff virtual true final true
- void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_add_CompletedTypeless(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+ void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_add_CompletedTypeless(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.remove_CompletedTypeless addr 0x0 size 0xffffffffffffffff virtual true final true
- void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_remove_CompletedTypeless(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+ void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_remove_CompletedTypeless(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.add_Destroyed addr 0x0 size 0xffffffffffffffff virtual true final true
- void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_add_Destroyed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+ void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_add_Destroyed(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.remove_Destroyed addr 0x0 size 0xffffffffffffffff virtual true final true
- void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_remove_Destroyed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+ void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_remove_Destroyed(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_Version addr 0x0 size 0xffffffffffffffff virtual true final true
  int32_t UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Version() ;
@@ -1885,19 +1884,19 @@ static ::StringW ShortenPath(::StringW p, bool keepExtension) ;
  float_t UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_PercentComplete() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_Status addr 0x0 size 0xffffffffffffffff virtual true final true
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Status() ;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Status() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_OperationException addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Exception UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_OperationException() ;
+ System::Exception UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_OperationException() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_IsDone addr 0x0 size 0xffffffffffffffff virtual true final true
  bool UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_IsDone() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_Handle addr 0x0 size 0xffffffffffffffff virtual true final true
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Handle() ;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Handle() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.set_OnDestroy addr 0x0 size 0xffffffffffffffff virtual true final true
- void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_set_OnDestroy(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> value) ;
+ void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_set_OnDestroy(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> value) ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_DebugName addr 0x0 size 0xffffffffffffffff virtual true final true
  ::StringW UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_DebugName() ;
@@ -1906,10 +1905,10 @@ static ::StringW ShortenPath(::StringW p, bool keepExtension) ;
  ::bs_hook::Il2CppWrapperType UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_GetResultAsObject() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_ResultType addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Type UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_ResultType() ;
+ System::Type UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_ResultType() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.GetDependencies addr 0x0 size 0xffffffffffffffff virtual true final true
- void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_GetDependencies(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> deps) ;
+ void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_GetDependencies(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> deps) ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.DecrementReferenceCount addr 0x0 size 0xffffffffffffffff virtual true final true
  void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_DecrementReferenceCount() ;
@@ -1921,19 +1920,19 @@ static ::StringW ShortenPath(::StringW p, bool keepExtension) ;
  void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_InvokeCompletionEvent() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.Start addr 0x0 size 0xffffffffffffffff virtual true final true
- void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Start(::UnityEngine::ResourceManagement::ResourceManager rm, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dependency, ::GlobalNamespace::DelegateList_1<float_t> updateCallbacks) ;
+ void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Start(UnityEngine::ResourceManagement::ResourceManager rm, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dependency, GlobalNamespace::DelegateList_1<float_t> updateCallbacks) ;
 
 /// @brief Method ReleaseDependencies addr 0x0 size 0xffffffffffffffff virtual true final false
  void ReleaseDependencies() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.GetDownloadStatus addr 0x0 size 0xffffffffffffffff virtual true final true
- ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_GetDownloadStatus(::System::Collections::Generic::HashSet_1<::bs_hook::Il2CppWrapperType> visited) ;
+ UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_GetDownloadStatus(System::Collections::Generic::HashSet_1<::bs_hook::Il2CppWrapperType> visited) ;
 
 /// @brief Method GetDownloadStatus addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus(::System::Collections::Generic::HashSet_1<::bs_hook::Il2CppWrapperType> visited) ;
+ UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus(System::Collections::Generic::HashSet_1<::bs_hook::Il2CppWrapperType> visited) ;
 
 /// @brief Method <.ctor>b__35_0 addr 0x0 size 0xffffffffffffffff virtual false final false
- void __ctor_b__35_0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle o) ;
+ void __ctor_b__35_0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -1950,12 +1949,12 @@ template<>
 class CORDL_TYPE AsyncOperationBase_1<int64_t> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using __c__DisplayClass58_0 = ::UnityEngine::ResourceManagement::AsyncOperations::____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0<int64_t>;
+using __c__DisplayClass58_0 = UnityEngine::ResourceManagement::AsyncOperations::UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0<int64_t>;
 
-using __c__DisplayClass57_0 = ::UnityEngine::ResourceManagement::AsyncOperations::____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0<int64_t>;
+using __c__DisplayClass57_0 = UnityEngine::ResourceManagement::AsyncOperations::UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0<int64_t>;
 
-/// @brief Convert operator to ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation
-constexpr operator  ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation() const noexcept;
+/// @brief Convert operator to UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation
+constexpr operator  UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xa0};
@@ -2002,23 +2001,23 @@ constexpr void __set_m_referenceCount(int32_t value) ;
 
 constexpr int32_t __get_m_referenceCount() const;
 
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus __declspec(property(get=__get_m_Status, put=__set_m_Status))  m_Status;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus __declspec(property(get=__get_m_Status, put=__set_m_Status))  m_Status;
 
-constexpr void __set_m_Status(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus value) ;
+constexpr void __set_m_Status(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus value) ;
 
-constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus __get_m_Status() const;
+constexpr UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus __get_m_Status() const;
 
- ::System::Exception __declspec(property(get=__get_m_Error, put=__set_m_Error))  m_Error;
+ System::Exception __declspec(property(get=__get_m_Error, put=__set_m_Error))  m_Error;
 
-constexpr void __set_m_Error(::System::Exception value) ;
+constexpr void __set_m_Error(System::Exception value) ;
 
-constexpr ::System::Exception __get_m_Error() const;
+constexpr System::Exception __get_m_Error() const;
 
- ::UnityEngine::ResourceManagement::ResourceManager __declspec(property(get=__get_m_RM, put=__set_m_RM))  m_RM;
+ UnityEngine::ResourceManagement::ResourceManager __declspec(property(get=__get_m_RM, put=__set_m_RM))  m_RM;
 
-constexpr void __set_m_RM(::UnityEngine::ResourceManagement::ResourceManager value) ;
+constexpr void __set_m_RM(UnityEngine::ResourceManagement::ResourceManager value) ;
 
-constexpr ::UnityEngine::ResourceManagement::ResourceManager __get_m_RM() const;
+constexpr UnityEngine::ResourceManagement::ResourceManager __get_m_RM() const;
 
  int32_t __declspec(property(get=__get_m_Version, put=__set_m_Version))  m_Version;
 
@@ -2026,29 +2025,29 @@ constexpr void __set_m_Version(int32_t value) ;
 
 constexpr int32_t __get_m_Version() const;
 
- ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __declspec(property(get=__get_m_DestroyedAction, put=__set_m_DestroyedAction))  m_DestroyedAction;
+ GlobalNamespace::DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __declspec(property(get=__get_m_DestroyedAction, put=__set_m_DestroyedAction))  m_DestroyedAction;
 
-constexpr void __set_m_DestroyedAction(::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+constexpr void __set_m_DestroyedAction(GlobalNamespace::DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
-constexpr ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __get_m_DestroyedAction() const;
+constexpr GlobalNamespace::DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __get_m_DestroyedAction() const;
 
- ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>> __declspec(property(get=__get_m_CompletedActionT, put=__set_m_CompletedActionT))  m_CompletedActionT;
+ GlobalNamespace::DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>> __declspec(property(get=__get_m_CompletedActionT, put=__set_m_CompletedActionT))  m_CompletedActionT;
 
-constexpr void __set_m_CompletedActionT(::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>> value) ;
+constexpr void __set_m_CompletedActionT(GlobalNamespace::DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>> value) ;
 
-constexpr ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>> __get_m_CompletedActionT() const;
+constexpr GlobalNamespace::DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>> __get_m_CompletedActionT() const;
 
- ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> __declspec(property(get=__get_m_OnDestroyAction, put=__set_m_OnDestroyAction))  m_OnDestroyAction;
+ System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> __declspec(property(get=__get_m_OnDestroyAction, put=__set_m_OnDestroyAction))  m_OnDestroyAction;
 
-constexpr void __set_m_OnDestroyAction(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> value) ;
+constexpr void __set_m_OnDestroyAction(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> value) ;
 
-constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> __get_m_OnDestroyAction() const;
+constexpr System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> __get_m_OnDestroyAction() const;
 
- ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __declspec(property(get=__get_m_dependencyCompleteAction, put=__set_m_dependencyCompleteAction))  m_dependencyCompleteAction;
+ System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __declspec(property(get=__get_m_dependencyCompleteAction, put=__set_m_dependencyCompleteAction))  m_dependencyCompleteAction;
 
-constexpr void __set_m_dependencyCompleteAction(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+constexpr void __set_m_dependencyCompleteAction(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
-constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __get_m_dependencyCompleteAction() const;
+constexpr System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __get_m_dependencyCompleteAction() const;
 
  bool __declspec(property(get=__get_HasExecuted, put=__set_HasExecuted))  HasExecuted;
 
@@ -2062,17 +2061,17 @@ constexpr void __set__IsRunning_k__BackingField(bool value) ;
 
 constexpr bool __get__IsRunning_k__BackingField() const;
 
- ::System::Threading::Tasks::TaskCompletionSource_1<int64_t> __declspec(property(get=__get_m_taskCompletionSource, put=__set_m_taskCompletionSource))  m_taskCompletionSource;
+ System::Threading::Tasks::TaskCompletionSource_1<int64_t> __declspec(property(get=__get_m_taskCompletionSource, put=__set_m_taskCompletionSource))  m_taskCompletionSource;
 
-constexpr void __set_m_taskCompletionSource(::System::Threading::Tasks::TaskCompletionSource_1<int64_t> value) ;
+constexpr void __set_m_taskCompletionSource(System::Threading::Tasks::TaskCompletionSource_1<int64_t> value) ;
 
-constexpr ::System::Threading::Tasks::TaskCompletionSource_1<int64_t> __get_m_taskCompletionSource() const;
+constexpr System::Threading::Tasks::TaskCompletionSource_1<int64_t> __get_m_taskCompletionSource() const;
 
- ::System::Threading::Tasks::TaskCompletionSource_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get_m_taskCompletionSourceTypeless, put=__set_m_taskCompletionSourceTypeless))  m_taskCompletionSourceTypeless;
+ System::Threading::Tasks::TaskCompletionSource_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get_m_taskCompletionSourceTypeless, put=__set_m_taskCompletionSourceTypeless))  m_taskCompletionSourceTypeless;
 
-constexpr void __set_m_taskCompletionSourceTypeless(::System::Threading::Tasks::TaskCompletionSource_1<::bs_hook::Il2CppWrapperType> value) ;
+constexpr void __set_m_taskCompletionSourceTypeless(System::Threading::Tasks::TaskCompletionSource_1<::bs_hook::Il2CppWrapperType> value) ;
 
-constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::bs_hook::Il2CppWrapperType> __get_m_taskCompletionSourceTypeless() const;
+constexpr System::Threading::Tasks::TaskCompletionSource_1<::bs_hook::Il2CppWrapperType> __get_m_taskCompletionSourceTypeless() const;
 
  bool __declspec(property(get=__get_m_InDeferredCallbackQueue, put=__set_m_InDeferredCallbackQueue))  m_InDeferredCallbackQueue;
 
@@ -2080,17 +2079,17 @@ constexpr void __set_m_InDeferredCallbackQueue(bool value) ;
 
 constexpr bool __get_m_InDeferredCallbackQueue() const;
 
- ::GlobalNamespace::DelegateList_1<float_t> __declspec(property(get=__get_m_UpdateCallbacks, put=__set_m_UpdateCallbacks))  m_UpdateCallbacks;
+ GlobalNamespace::DelegateList_1<float_t> __declspec(property(get=__get_m_UpdateCallbacks, put=__set_m_UpdateCallbacks))  m_UpdateCallbacks;
 
-constexpr void __set_m_UpdateCallbacks(::GlobalNamespace::DelegateList_1<float_t> value) ;
+constexpr void __set_m_UpdateCallbacks(GlobalNamespace::DelegateList_1<float_t> value) ;
 
-constexpr ::GlobalNamespace::DelegateList_1<float_t> __get_m_UpdateCallbacks() const;
+constexpr GlobalNamespace::DelegateList_1<float_t> __get_m_UpdateCallbacks() const;
 
- ::System::Action_1<float_t> __declspec(property(get=__get_m_UpdateCallback, put=__set_m_UpdateCallback))  m_UpdateCallback;
+ System::Action_1<float_t> __declspec(property(get=__get_m_UpdateCallback, put=__set_m_UpdateCallback))  m_UpdateCallback;
 
-constexpr void __set_m_UpdateCallback(::System::Action_1<float_t> value) ;
+constexpr void __set_m_UpdateCallback(System::Action_1<float_t> value) ;
 
-constexpr ::System::Action_1<float_t> __get_m_UpdateCallback() const;
+constexpr System::Action_1<float_t> __get_m_UpdateCallback() const;
 
 
 // Properties
@@ -2107,19 +2106,19 @@ constexpr ::System::Action_1<float_t> __get_m_UpdateCallback() const;
 
  bool __declspec(property(get=get_DestroyedEventHasListeners))  DestroyedEventHasListeners;
 
- ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> __declspec(property(put=set_OnDestroy))  OnDestroy;
+ System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> __declspec(property(put=set_OnDestroy))  OnDestroy;
 
  int32_t __declspec(property(get=get_ReferenceCount))  ReferenceCount;
 
  bool __declspec(property(get=get_IsRunning, put=set_IsRunning))  IsRunning;
 
- ::System::Threading::Tasks::Task_1<int64_t> __declspec(property(get=get_Task))  Task;
+ System::Threading::Tasks::Task_1<int64_t> __declspec(property(get=get_Task))  Task;
 
- ::System::Threading::Tasks::Task_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Task))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Task;
+ System::Threading::Tasks::Task_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Task))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Task;
 
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus __declspec(property(get=get_Status))  Status;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus __declspec(property(get=get_Status))  Status;
 
- ::System::Exception __declspec(property(get=get_OperationException, put=set_OperationException))  OperationException;
+ System::Exception __declspec(property(get=get_OperationException, put=set_OperationException))  OperationException;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_Current))  Current;
 
@@ -2127,7 +2126,7 @@ constexpr ::System::Action_1<float_t> __get_m_UpdateCallback() const;
 
  float_t __declspec(property(get=get_PercentComplete))  PercentComplete;
 
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t> __declspec(property(get=get_Handle))  Handle;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t> __declspec(property(get=get_Handle))  Handle;
 
  int32_t __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Version))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Version;
 
@@ -2135,19 +2134,19 @@ constexpr ::System::Action_1<float_t> __get_m_UpdateCallback() const;
 
  float_t __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_PercentComplete))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_PercentComplete;
 
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Status))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Status;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Status))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Status;
 
- ::System::Exception __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_OperationException))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_OperationException;
+ System::Exception __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_OperationException))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_OperationException;
 
  bool __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_IsDone))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_IsDone;
 
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Handle))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Handle;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Handle))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Handle;
 
- ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> __declspec(property(put=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_set_OnDestroy))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_OnDestroy;
+ System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> __declspec(property(put=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_set_OnDestroy))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_OnDestroy;
 
  ::StringW __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_DebugName))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_DebugName;
 
- ::System::Type __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_ResultType))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_ResultType;
+ System::Type __declspec(property(get=UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_ResultType))  UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_ResultType;
 
 
 // Methods
@@ -2165,7 +2164,7 @@ constexpr ::System::Action_1<float_t> __get_m_UpdateCallback() const;
  ::StringW get_DebugName() ;
 
 /// @brief Method GetDependencies addr 0x0 size 0xffffffffffffffff virtual true final false
- void GetDependencies(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> dependencies) ;
+ void GetDependencies(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> dependencies) ;
 
 /// @brief Method get_Result addr 0x0 size 0xffffffffffffffff virtual false final false
  int64_t get_Result() ;
@@ -2183,7 +2182,7 @@ constexpr ::System::Action_1<float_t> __get_m_UpdateCallback() const;
  bool get_DestroyedEventHasListeners() ;
 
 /// @brief Method set_OnDestroy addr 0x0 size 0xffffffffffffffff virtual false final false
- void set_OnDestroy(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> value) ;
+ void set_OnDestroy(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> value) ;
 
 /// @brief Method get_ReferenceCount addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t get_ReferenceCount() ;
@@ -2216,10 +2215,10 @@ static ::StringW ShortenPath(::StringW p, bool keepExtension) ;
  void DecrementReferenceCount() ;
 
 /// @brief Method get_Task addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Threading::Tasks::Task_1<int64_t> get_Task() ;
+ System::Threading::Tasks::Task_1<int64_t> get_Task() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_Task addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Threading::Tasks::Task_1<::bs_hook::Il2CppWrapperType> UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Task() ;
+ System::Threading::Tasks::Task_1<::bs_hook::Il2CppWrapperType> UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Task() ;
 
 /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
  ::StringW ToString() ;
@@ -2228,31 +2227,31 @@ static ::StringW ShortenPath(::StringW p, bool keepExtension) ;
  void RegisterForDeferredCallbackEvent(bool incrementReferenceCount) ;
 
 /// @brief Method add_Completed addr 0x0 size 0xffffffffffffffff virtual false final false
- void add_Completed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>> value) ;
+ void add_Completed(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>> value) ;
 
 /// @brief Method remove_Completed addr 0x0 size 0xffffffffffffffff virtual false final false
- void remove_Completed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>> value) ;
+ void remove_Completed(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>> value) ;
 
 /// @brief Method add_Destroyed addr 0x0 size 0xffffffffffffffff virtual false final false
- void add_Destroyed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+ void add_Destroyed(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
 /// @brief Method remove_Destroyed addr 0x0 size 0xffffffffffffffff virtual false final false
- void remove_Destroyed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+ void remove_Destroyed(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
 /// @brief Method add_CompletedTypeless addr 0x0 size 0xffffffffffffffff virtual false final false
- void add_CompletedTypeless(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+ void add_CompletedTypeless(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
 /// @brief Method remove_CompletedTypeless addr 0x0 size 0xffffffffffffffff virtual false final false
- void remove_CompletedTypeless(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+ void remove_CompletedTypeless(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
 /// @brief Method get_Status addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus get_Status() ;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus get_Status() ;
 
 /// @brief Method get_OperationException addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Exception get_OperationException() ;
+ System::Exception get_OperationException() ;
 
 /// @brief Method set_OperationException addr 0x0 size 0xffffffffffffffff virtual false final false
- void set_OperationException(::System::Exception value) ;
+ void set_OperationException(System::Exception value) ;
 
 /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual false final false
  bool MoveNext() ;
@@ -2273,7 +2272,7 @@ static ::StringW ShortenPath(::StringW p, bool keepExtension) ;
  void InvokeCompletionEvent() ;
 
 /// @brief Method get_Handle addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t> get_Handle() ;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t> get_Handle() ;
 
 /// @brief Method UpdateCallback addr 0x0 size 0xffffffffffffffff virtual false final false
  void UpdateCallback(float_t unscaledDeltaTime) ;
@@ -2285,25 +2284,25 @@ static ::StringW ShortenPath(::StringW p, bool keepExtension) ;
  void Complete(int64_t result, bool success, ::StringW errorMsg, bool releaseDependenciesOnFailure) ;
 
 /// @brief Method Complete addr 0x0 size 0xffffffffffffffff virtual false final false
- void Complete(int64_t result, bool success, ::System::Exception exception, bool releaseDependenciesOnFailure) ;
+ void Complete(int64_t result, bool success, System::Exception exception, bool releaseDependenciesOnFailure) ;
 
 /// @brief Method Start addr 0x0 size 0xffffffffffffffff virtual false final false
- void Start(::UnityEngine::ResourceManagement::ResourceManager rm, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dependency, ::GlobalNamespace::DelegateList_1<float_t> updateCallbacks) ;
+ void Start(UnityEngine::ResourceManagement::ResourceManager rm, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dependency, GlobalNamespace::DelegateList_1<float_t> updateCallbacks) ;
 
 /// @brief Method InvokeExecute addr 0x0 size 0xffffffffffffffff virtual false final false
  void InvokeExecute() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.add_CompletedTypeless addr 0x0 size 0xffffffffffffffff virtual true final true
- void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_add_CompletedTypeless(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+ void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_add_CompletedTypeless(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.remove_CompletedTypeless addr 0x0 size 0xffffffffffffffff virtual true final true
- void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_remove_CompletedTypeless(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+ void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_remove_CompletedTypeless(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.add_Destroyed addr 0x0 size 0xffffffffffffffff virtual true final true
- void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_add_Destroyed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+ void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_add_Destroyed(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.remove_Destroyed addr 0x0 size 0xffffffffffffffff virtual true final true
- void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_remove_Destroyed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+ void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_remove_Destroyed(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_Version addr 0x0 size 0xffffffffffffffff virtual true final true
  int32_t UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Version() ;
@@ -2315,19 +2314,19 @@ static ::StringW ShortenPath(::StringW p, bool keepExtension) ;
  float_t UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_PercentComplete() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_Status addr 0x0 size 0xffffffffffffffff virtual true final true
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Status() ;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Status() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_OperationException addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Exception UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_OperationException() ;
+ System::Exception UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_OperationException() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_IsDone addr 0x0 size 0xffffffffffffffff virtual true final true
  bool UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_IsDone() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_Handle addr 0x0 size 0xffffffffffffffff virtual true final true
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Handle() ;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Handle() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.set_OnDestroy addr 0x0 size 0xffffffffffffffff virtual true final true
- void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_set_OnDestroy(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> value) ;
+ void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_set_OnDestroy(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation> value) ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_DebugName addr 0x0 size 0xffffffffffffffff virtual true final true
  ::StringW UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_DebugName() ;
@@ -2336,10 +2335,10 @@ static ::StringW ShortenPath(::StringW p, bool keepExtension) ;
  ::bs_hook::Il2CppWrapperType UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_GetResultAsObject() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_ResultType addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Type UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_ResultType() ;
+ System::Type UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_ResultType() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.GetDependencies addr 0x0 size 0xffffffffffffffff virtual true final true
- void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_GetDependencies(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> deps) ;
+ void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_GetDependencies(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> deps) ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.DecrementReferenceCount addr 0x0 size 0xffffffffffffffff virtual true final true
  void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_DecrementReferenceCount() ;
@@ -2351,25 +2350,24 @@ static ::StringW ShortenPath(::StringW p, bool keepExtension) ;
  void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_InvokeCompletionEvent() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.Start addr 0x0 size 0xffffffffffffffff virtual true final true
- void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Start(::UnityEngine::ResourceManagement::ResourceManager rm, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dependency, ::GlobalNamespace::DelegateList_1<float_t> updateCallbacks) ;
+ void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Start(UnityEngine::ResourceManagement::ResourceManager rm, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dependency, GlobalNamespace::DelegateList_1<float_t> updateCallbacks) ;
 
 /// @brief Method ReleaseDependencies addr 0x0 size 0xffffffffffffffff virtual true final false
  void ReleaseDependencies() ;
 
 /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.GetDownloadStatus addr 0x0 size 0xffffffffffffffff virtual true final true
- ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_GetDownloadStatus(::System::Collections::Generic::HashSet_1<::bs_hook::Il2CppWrapperType> visited) ;
+ UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_GetDownloadStatus(System::Collections::Generic::HashSet_1<::bs_hook::Il2CppWrapperType> visited) ;
 
 /// @brief Method GetDownloadStatus addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus(::System::Collections::Generic::HashSet_1<::bs_hook::Il2CppWrapperType> visited) ;
+ UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus(System::Collections::Generic::HashSet_1<::bs_hook::Il2CppWrapperType> visited) ;
 
 /// @brief Method <.ctor>b__35_0 addr 0x0 size 0xffffffffffffffff virtual false final false
- void __ctor_b__35_0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle o) ;
+ void __ctor_b__35_0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ResourceManagement::AsyncOperations
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1, "UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationBase`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::ResourceManagement::AsyncOperations::____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0, "UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationBase`1/<>c__DisplayClass57_0");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::ResourceManagement::AsyncOperations::____UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0, "UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationBase`1/<>c__DisplayClass58_0");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1, "UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationBase`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::ResourceManagement::AsyncOperations::UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass57_0, "UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationBase`1/<>c__DisplayClass57_0");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::ResourceManagement::AsyncOperations::UnityEngine__ResourceManagement__AsyncOperations__AsyncOperationBase_1____c__DisplayClass58_0, "UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationBase`1/<>c__DisplayClass58_0");

@@ -1,15 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class ISaveData;
 }
 namespace GlobalNamespace {
-class LocalLeaderboardsModel;
+class MainSettingsModelSO;
 }
 namespace GlobalNamespace {
-class MainSettingsModelSO;
+class LocalLeaderboardsModel;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;
@@ -24,7 +23,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4680))
 // CS Name: SonyOnGoingToBackgroundSaveHandler
-class CORDL_TYPE SonyOnGoingToBackgroundSaveHandler : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SonyOnGoingToBackgroundSaveHandler : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr SonyOnGoingToBackgroundSaveHandler(SonyOnGoingToBackgroundSaveHandler 
 constexpr SonyOnGoingToBackgroundSaveHandler(SonyOnGoingToBackgroundSaveHandler&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SonyOnGoingToBackgroundSaveHandler(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SonyOnGoingToBackgroundSaveHandler(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -60,29 +59,29 @@ constexpr explicit SonyOnGoingToBackgroundSaveHandler(void* ptr) noexcept : ::Un
 
 // Fields
 
- ::GlobalNamespace::LocalLeaderboardsModel __declspec(property(get=__get__localLeaderboardModel, put=__set__localLeaderboardModel))  _localLeaderboardModel;
+ GlobalNamespace::LocalLeaderboardsModel __declspec(property(get=__get__localLeaderboardModel, put=__set__localLeaderboardModel))  _localLeaderboardModel;
 
-constexpr void __set__localLeaderboardModel(::GlobalNamespace::LocalLeaderboardsModel value) ;
+constexpr void __set__localLeaderboardModel(GlobalNamespace::LocalLeaderboardsModel value) ;
 
-constexpr ::GlobalNamespace::LocalLeaderboardsModel __get__localLeaderboardModel() const;
+constexpr GlobalNamespace::LocalLeaderboardsModel __get__localLeaderboardModel() const;
 
- ::GlobalNamespace::MainSettingsModelSO __declspec(property(get=__get__mainSettingsModel, put=__set__mainSettingsModel))  _mainSettingsModel;
+ GlobalNamespace::MainSettingsModelSO __declspec(property(get=__get__mainSettingsModel, put=__set__mainSettingsModel))  _mainSettingsModel;
 
-constexpr void __set__mainSettingsModel(::GlobalNamespace::MainSettingsModelSO value) ;
+constexpr void __set__mainSettingsModel(GlobalNamespace::MainSettingsModelSO value) ;
 
-constexpr ::GlobalNamespace::MainSettingsModelSO __get__mainSettingsModel() const;
+constexpr GlobalNamespace::MainSettingsModelSO __get__mainSettingsModel() const;
 
- ::GlobalNamespace::PlayerDataModel __declspec(property(get=__get__playerDataModel, put=__set__playerDataModel))  _playerDataModel;
+ GlobalNamespace::PlayerDataModel __declspec(property(get=__get__playerDataModel, put=__set__playerDataModel))  _playerDataModel;
 
-constexpr void __set__playerDataModel(::GlobalNamespace::PlayerDataModel value) ;
+constexpr void __set__playerDataModel(GlobalNamespace::PlayerDataModel value) ;
 
-constexpr ::GlobalNamespace::PlayerDataModel __get__playerDataModel() const;
+constexpr GlobalNamespace::PlayerDataModel __get__playerDataModel() const;
 
- ::GlobalNamespace::ISaveData __declspec(property(get=__get__saveData, put=__set__saveData))  _saveData;
+ GlobalNamespace::ISaveData __declspec(property(get=__get__saveData, put=__set__saveData))  _saveData;
 
-constexpr void __set__saveData(::GlobalNamespace::ISaveData value) ;
+constexpr void __set__saveData(GlobalNamespace::ISaveData value) ;
 
-constexpr ::GlobalNamespace::ISaveData __get__saveData() const;
+constexpr GlobalNamespace::ISaveData __get__saveData() const;
 
 
 // Methods
@@ -112,6 +111,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler, "", "SonyOnGoingToBackgroundSaveHandler");
+NEED_NO_BOX(GlobalNamespace::SonyOnGoingToBackgroundSaveHandler);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SonyOnGoingToBackgroundSaveHandler, "", "SonyOnGoingToBackgroundSaveHandler");

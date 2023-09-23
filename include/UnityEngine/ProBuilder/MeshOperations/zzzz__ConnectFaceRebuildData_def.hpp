@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine::ProBuilder {
 class FaceRebuildData;
 }
@@ -56,31 +55,30 @@ constexpr explicit ConnectFaceRebuildData(void* ptr) noexcept : ::bs_hook::Il2Cp
 
 // Fields
 
- ::UnityEngine::ProBuilder::FaceRebuildData __declspec(property(get=__get_faceRebuildData, put=__set_faceRebuildData))  faceRebuildData;
+ UnityEngine::ProBuilder::FaceRebuildData __declspec(property(get=__get_faceRebuildData, put=__set_faceRebuildData))  faceRebuildData;
 
-constexpr void __set_faceRebuildData(::UnityEngine::ProBuilder::FaceRebuildData value) ;
+constexpr void __set_faceRebuildData(UnityEngine::ProBuilder::FaceRebuildData value) ;
 
-constexpr ::UnityEngine::ProBuilder::FaceRebuildData __get_faceRebuildData() const;
+constexpr UnityEngine::ProBuilder::FaceRebuildData __get_faceRebuildData() const;
 
- ::System::Collections::Generic::List_1<int32_t> __declspec(property(get=__get_newVertexIndexes, put=__set_newVertexIndexes))  newVertexIndexes;
+ System::Collections::Generic::List_1<int32_t> __declspec(property(get=__get_newVertexIndexes, put=__set_newVertexIndexes))  newVertexIndexes;
 
-constexpr void __set_newVertexIndexes(::System::Collections::Generic::List_1<int32_t> value) ;
+constexpr void __set_newVertexIndexes(System::Collections::Generic::List_1<int32_t> value) ;
 
-constexpr ::System::Collections::Generic::List_1<int32_t> __get_newVertexIndexes() const;
+constexpr System::Collections::Generic::List_1<int32_t> __get_newVertexIndexes() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "faceRebuildData", ty: "::UnityEngine::ProBuilder::FaceRebuildData", modifiers: "", def_value: None }, CppParam { name: "newVertexIndexes", ty: "::System::Collections::Generic::List_1<int32_t>", modifiers: "", def_value: None }]
-explicit ConnectFaceRebuildData(::UnityEngine::ProBuilder::FaceRebuildData faceRebuildData, ::System::Collections::Generic::List_1<int32_t> newVertexIndexes) ;
+// Ctor Parameters [CppParam { name: "faceRebuildData", ty: "UnityEngine::ProBuilder::FaceRebuildData", modifiers: "", def_value: None }, CppParam { name: "newVertexIndexes", ty: "System::Collections::Generic::List_1<int32_t>", modifiers: "", def_value: None }]
+explicit ConnectFaceRebuildData(UnityEngine::ProBuilder::FaceRebuildData faceRebuildData, System::Collections::Generic::List_1<int32_t> newVertexIndexes) ;
 
 /// @brief Method .ctor addr 0x2a0da64 size 0x2c virtual false final false
- void _ctor(::UnityEngine::ProBuilder::FaceRebuildData faceRebuildData, ::System::Collections::Generic::List_1<int32_t> newVertexIndexes) ;
+ void _ctor(UnityEngine::ProBuilder::FaceRebuildData faceRebuildData, System::Collections::Generic::List_1<int32_t> newVertexIndexes) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder::MeshOperations
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData, "UnityEngine.ProBuilder.MeshOperations", "ConnectFaceRebuildData");
+NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData, "UnityEngine.ProBuilder.MeshOperations", "ConnectFaceRebuildData");

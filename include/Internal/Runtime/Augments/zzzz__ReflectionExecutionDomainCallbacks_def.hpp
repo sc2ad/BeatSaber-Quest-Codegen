@@ -1,12 +1,11 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace System {
-class Type;
-}
 namespace System {
 class Exception;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Internal::Runtime::Augments {
@@ -55,7 +54,7 @@ constexpr explicit ReflectionExecutionDomainCallbacks(void* ptr) noexcept : ::bs
 // Methods
 
 /// @brief Method CreateMissingMetadataException addr 0x22bf0a4 size 0x5c virtual false final false
- ::System::Exception CreateMissingMetadataException(::System::Type attributeType) ;
+ System::Exception CreateMissingMetadataException(System::Type attributeType) ;
 
 // Ctor Parameters []
 explicit ReflectionExecutionDomainCallbacks() ;
@@ -67,6 +66,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Internal::Runtime::Augments
-} // end anonymous namespace
-NEED_NO_BOX(::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks);
-DEFINE_IL2CPP_ARG_TYPE(::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks, "Internal.Runtime.Augments", "ReflectionExecutionDomainCallbacks");
+NEED_NO_BOX(Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks);
+DEFINE_IL2CPP_ARG_TYPE(Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks, "Internal.Runtime.Augments", "ReflectionExecutionDomainCallbacks");

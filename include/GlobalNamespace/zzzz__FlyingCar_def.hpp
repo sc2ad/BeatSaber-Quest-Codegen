@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5086))
 // CS Name: FlyingCar
-class CORDL_TYPE FlyingCar : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE FlyingCar : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr FlyingCar(FlyingCar const& ) noexcept = default;
 constexpr FlyingCar(FlyingCar&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FlyingCar(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit FlyingCar(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -76,11 +75,11 @@ constexpr void __set__progress(float_t value) ;
 
 constexpr float_t __get__progress() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__pos, put=__set__pos))  _pos;
+ UnityEngine::Vector3 __declspec(property(get=__get__pos, put=__set__pos))  _pos;
 
-constexpr void __set__pos(::UnityEngine::Vector3 value) ;
+constexpr void __set__pos(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__pos() const;
+constexpr UnityEngine::Vector3 __get__pos() const;
 
 
 // Methods
@@ -104,6 +103,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::FlyingCar);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FlyingCar, "", "FlyingCar");
+NEED_NO_BOX(GlobalNamespace::FlyingCar);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingCar, "", "FlyingCar");

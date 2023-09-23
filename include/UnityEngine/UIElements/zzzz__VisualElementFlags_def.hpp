@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 struct VisualElementFlags;
@@ -79,50 +78,49 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field WorldTransformDirty offset 0
-static ::UnityEngine::UIElements::VisualElementFlags const WorldTransformDirty;
+static UnityEngine::UIElements::VisualElementFlags const WorldTransformDirty;
 
 /// @brief Field WorldTransformInverseDirty offset 0
-static ::UnityEngine::UIElements::VisualElementFlags const WorldTransformInverseDirty;
+static UnityEngine::UIElements::VisualElementFlags const WorldTransformInverseDirty;
 
 /// @brief Field WorldClipDirty offset 0
-static ::UnityEngine::UIElements::VisualElementFlags const WorldClipDirty;
+static UnityEngine::UIElements::VisualElementFlags const WorldClipDirty;
 
 /// @brief Field BoundingBoxDirty offset 0
-static ::UnityEngine::UIElements::VisualElementFlags const BoundingBoxDirty;
+static UnityEngine::UIElements::VisualElementFlags const BoundingBoxDirty;
 
 /// @brief Field WorldBoundingBoxDirty offset 0
-static ::UnityEngine::UIElements::VisualElementFlags const WorldBoundingBoxDirty;
+static UnityEngine::UIElements::VisualElementFlags const WorldBoundingBoxDirty;
 
 /// @brief Field LayoutManual offset 0
-static ::UnityEngine::UIElements::VisualElementFlags const LayoutManual;
+static UnityEngine::UIElements::VisualElementFlags const LayoutManual;
 
 /// @brief Field CompositeRoot offset 0
-static ::UnityEngine::UIElements::VisualElementFlags const CompositeRoot;
+static UnityEngine::UIElements::VisualElementFlags const CompositeRoot;
 
 /// @brief Field RequireMeasureFunction offset 0
-static ::UnityEngine::UIElements::VisualElementFlags const RequireMeasureFunction;
+static UnityEngine::UIElements::VisualElementFlags const RequireMeasureFunction;
 
 /// @brief Field EnableViewDataPersistence offset 0
-static ::UnityEngine::UIElements::VisualElementFlags const EnableViewDataPersistence;
+static UnityEngine::UIElements::VisualElementFlags const EnableViewDataPersistence;
 
 /// @brief Field DisableClipping offset 0
-static ::UnityEngine::UIElements::VisualElementFlags const DisableClipping;
+static UnityEngine::UIElements::VisualElementFlags const DisableClipping;
 
 /// @brief Field NeedsAttachToPanelEvent offset 0
-static ::UnityEngine::UIElements::VisualElementFlags const NeedsAttachToPanelEvent;
+static UnityEngine::UIElements::VisualElementFlags const NeedsAttachToPanelEvent;
 
 /// @brief Field HierarchyDisplayed offset 0
-static ::UnityEngine::UIElements::VisualElementFlags const HierarchyDisplayed;
+static UnityEngine::UIElements::VisualElementFlags const HierarchyDisplayed;
 
 /// @brief Field StyleInitialized offset 0
-static ::UnityEngine::UIElements::VisualElementFlags const StyleInitialized;
+static UnityEngine::UIElements::VisualElementFlags const StyleInitialized;
 
 /// @brief Field Init offset 0
-static ::UnityEngine::UIElements::VisualElementFlags const Init;
+static UnityEngine::UIElements::VisualElementFlags const Init;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::VisualElementFlags, "UnityEngine.UIElements", "VisualElementFlags");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::VisualElementFlags, "UnityEngine.UIElements", "VisualElementFlags");

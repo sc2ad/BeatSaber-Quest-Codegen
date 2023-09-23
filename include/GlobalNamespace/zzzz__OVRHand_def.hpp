@@ -4,55 +4,54 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
-class ____GlobalNamespace__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider;
+struct GlobalNamespace__OVRSkeleton__SkeletonPoseData;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__OVRSkeleton__IOVRSkeletonDataProvider;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRSkeleton__SkeletonPoseData;
+class GlobalNamespace__OVRMesh__IOVRMeshDataProvider;
 }
 namespace UnityEngine {
 class Transform;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__OVRMesh__IOVRMeshDataProvider;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__OVRMeshRenderer__IOVRMeshRendererDataProvider;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRSkeleton__SkeletonType;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRPlugin__Step;
+struct GlobalNamespace__OVRSkeleton__SkeletonType;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRSkeletonRenderer__SkeletonRendererData;
+struct GlobalNamespace__OVRSkeletonRenderer__SkeletonRendererData;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRPlugin__HandState;
+struct GlobalNamespace__OVRMesh__MeshType;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRMesh__MeshType;
+class GlobalNamespace__OVRSkeleton__IOVRSkeletonDataProvider;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRMeshRenderer__MeshRendererData;
+class GlobalNamespace__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__HandState;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Step;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRMeshRenderer__MeshRendererData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRMeshRenderer__IOVRMeshRendererDataProvider;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRHand__Hand;
+struct GlobalNamespace__OVRHand__Hand;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRHand__HandFinger;
+struct GlobalNamespace__OVRHand__HandFinger;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRHand__TrackingConfidence;
+struct GlobalNamespace__OVRHand__TrackingConfidence;
 }
 namespace GlobalNamespace {
 class OVRHand;
@@ -63,20 +62,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8909))
 // CS Name: OVRHand::Hand
-struct CORDL_TYPE ____GlobalNamespace__OVRHand__Hand : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__OVRHand__Hand : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__OVRHand__Hand(int32_t value__) noexcept;
+constexpr GlobalNamespace__OVRHand__Hand(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__OVRHand__Hand(____GlobalNamespace__OVRHand__Hand const&) = default;
-                    constexpr ____GlobalNamespace__OVRHand__Hand(____GlobalNamespace__OVRHand__Hand&&) = default;
-                    constexpr ____GlobalNamespace__OVRHand__Hand& operator=(____GlobalNamespace__OVRHand__Hand const& o) {
+                    constexpr GlobalNamespace__OVRHand__Hand(GlobalNamespace__OVRHand__Hand const&) = default;
+                    constexpr GlobalNamespace__OVRHand__Hand(GlobalNamespace__OVRHand__Hand&&) = default;
+                    constexpr GlobalNamespace__OVRHand__Hand& operator=(GlobalNamespace__OVRHand__Hand const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__OVRHand__Hand& operator=(____GlobalNamespace__OVRHand__Hand&& o) noexcept {
+                    constexpr GlobalNamespace__OVRHand__Hand& operator=(GlobalNamespace__OVRHand__Hand&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -89,7 +88,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVRHand__Hand(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__OVRHand__Hand(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -97,15 +96,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__OVRHand__Hand_Unwrapped : int32_t {
+enum class __GlobalNamespace__OVRHand__Hand_Unwrapped : int32_t {
 __None = -1,
 __HandLeft = 0,
 __HandRight = 1,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__OVRHand__Hand_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__OVRHand__Hand_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__OVRHand__Hand_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__OVRHand__Hand_Unwrapped>(__instance);
 }
 
 
@@ -118,13 +117,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRHand__Hand const None;
+static GlobalNamespace::GlobalNamespace__OVRHand__Hand const None;
 
 /// @brief Field HandLeft offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRHand__Hand const HandLeft;
+static GlobalNamespace::GlobalNamespace__OVRHand__Hand const HandLeft;
 
 /// @brief Field HandRight offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRHand__Hand const HandRight;
+static GlobalNamespace::GlobalNamespace__OVRHand__Hand const HandRight;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -136,20 +135,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8910))
 // CS Name: OVRHand::HandFinger
-struct CORDL_TYPE ____GlobalNamespace__OVRHand__HandFinger : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__OVRHand__HandFinger : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__OVRHand__HandFinger(int32_t value__) noexcept;
+constexpr GlobalNamespace__OVRHand__HandFinger(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__OVRHand__HandFinger(____GlobalNamespace__OVRHand__HandFinger const&) = default;
-                    constexpr ____GlobalNamespace__OVRHand__HandFinger(____GlobalNamespace__OVRHand__HandFinger&&) = default;
-                    constexpr ____GlobalNamespace__OVRHand__HandFinger& operator=(____GlobalNamespace__OVRHand__HandFinger const& o) {
+                    constexpr GlobalNamespace__OVRHand__HandFinger(GlobalNamespace__OVRHand__HandFinger const&) = default;
+                    constexpr GlobalNamespace__OVRHand__HandFinger(GlobalNamespace__OVRHand__HandFinger&&) = default;
+                    constexpr GlobalNamespace__OVRHand__HandFinger& operator=(GlobalNamespace__OVRHand__HandFinger const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__OVRHand__HandFinger& operator=(____GlobalNamespace__OVRHand__HandFinger&& o) noexcept {
+                    constexpr GlobalNamespace__OVRHand__HandFinger& operator=(GlobalNamespace__OVRHand__HandFinger&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -162,7 +161,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVRHand__HandFinger(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__OVRHand__HandFinger(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -170,7 +169,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__OVRHand__HandFinger_Unwrapped : int32_t {
+enum class __GlobalNamespace__OVRHand__HandFinger_Unwrapped : int32_t {
 __Thumb = 0,
 __Index = 1,
 __Middle = 2,
@@ -180,8 +179,8 @@ __Max = 5,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__OVRHand__HandFinger_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__OVRHand__HandFinger_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__OVRHand__HandFinger_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__OVRHand__HandFinger_Unwrapped>(__instance);
 }
 
 
@@ -194,22 +193,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Thumb offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRHand__HandFinger const Thumb;
+static GlobalNamespace::GlobalNamespace__OVRHand__HandFinger const Thumb;
 
 /// @brief Field Index offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRHand__HandFinger const Index;
+static GlobalNamespace::GlobalNamespace__OVRHand__HandFinger const Index;
 
 /// @brief Field Middle offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRHand__HandFinger const Middle;
+static GlobalNamespace::GlobalNamespace__OVRHand__HandFinger const Middle;
 
 /// @brief Field Ring offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRHand__HandFinger const Ring;
+static GlobalNamespace::GlobalNamespace__OVRHand__HandFinger const Ring;
 
 /// @brief Field Pinky offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRHand__HandFinger const Pinky;
+static GlobalNamespace::GlobalNamespace__OVRHand__HandFinger const Pinky;
 
 /// @brief Field Max offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRHand__HandFinger const Max;
+static GlobalNamespace::GlobalNamespace__OVRHand__HandFinger const Max;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -221,20 +220,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8911))
 // CS Name: OVRHand::TrackingConfidence
-struct CORDL_TYPE ____GlobalNamespace__OVRHand__TrackingConfidence : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__OVRHand__TrackingConfidence : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__OVRHand__TrackingConfidence(int32_t value__) noexcept;
+constexpr GlobalNamespace__OVRHand__TrackingConfidence(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__OVRHand__TrackingConfidence(____GlobalNamespace__OVRHand__TrackingConfidence const&) = default;
-                    constexpr ____GlobalNamespace__OVRHand__TrackingConfidence(____GlobalNamespace__OVRHand__TrackingConfidence&&) = default;
-                    constexpr ____GlobalNamespace__OVRHand__TrackingConfidence& operator=(____GlobalNamespace__OVRHand__TrackingConfidence const& o) {
+                    constexpr GlobalNamespace__OVRHand__TrackingConfidence(GlobalNamespace__OVRHand__TrackingConfidence const&) = default;
+                    constexpr GlobalNamespace__OVRHand__TrackingConfidence(GlobalNamespace__OVRHand__TrackingConfidence&&) = default;
+                    constexpr GlobalNamespace__OVRHand__TrackingConfidence& operator=(GlobalNamespace__OVRHand__TrackingConfidence const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__OVRHand__TrackingConfidence& operator=(____GlobalNamespace__OVRHand__TrackingConfidence&& o) noexcept {
+                    constexpr GlobalNamespace__OVRHand__TrackingConfidence& operator=(GlobalNamespace__OVRHand__TrackingConfidence&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -247,7 +246,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVRHand__TrackingConfidence(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__OVRHand__TrackingConfidence(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -255,14 +254,14 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__OVRHand__TrackingConfidence_Unwrapped : int32_t {
+enum class __GlobalNamespace__OVRHand__TrackingConfidence_Unwrapped : int32_t {
 __Low = 0,
 __High = 1065353216,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__OVRHand__TrackingConfidence_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__OVRHand__TrackingConfidence_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__OVRHand__TrackingConfidence_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__OVRHand__TrackingConfidence_Unwrapped>(__instance);
 }
 
 
@@ -275,10 +274,10 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Low offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRHand__TrackingConfidence const Low;
+static GlobalNamespace::GlobalNamespace__OVRHand__TrackingConfidence const Low;
 
 /// @brief Field High offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRHand__TrackingConfidence const High;
+static GlobalNamespace::GlobalNamespace__OVRHand__TrackingConfidence const High;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -290,26 +289,26 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8912))
 // CS Name: OVRHand
-class CORDL_TYPE OVRHand : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OVRHand : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using TrackingConfidence = ::GlobalNamespace::____GlobalNamespace__OVRHand__TrackingConfidence;
+using TrackingConfidence = GlobalNamespace::GlobalNamespace__OVRHand__TrackingConfidence;
 
-using HandFinger = ::GlobalNamespace::____GlobalNamespace__OVRHand__HandFinger;
+using HandFinger = GlobalNamespace::GlobalNamespace__OVRHand__HandFinger;
 
-using Hand = ::GlobalNamespace::____GlobalNamespace__OVRHand__Hand;
+using Hand = GlobalNamespace::GlobalNamespace__OVRHand__Hand;
 
-/// @brief Convert operator to ::GlobalNamespace::____GlobalNamespace__OVRSkeleton__IOVRSkeletonDataProvider
-constexpr operator  ::GlobalNamespace::____GlobalNamespace__OVRSkeleton__IOVRSkeletonDataProvider() const noexcept;
+/// @brief Convert operator to GlobalNamespace::GlobalNamespace__OVRSkeleton__IOVRSkeletonDataProvider
+constexpr operator  GlobalNamespace::GlobalNamespace__OVRSkeleton__IOVRSkeletonDataProvider() const noexcept;
 
-/// @brief Convert operator to ::GlobalNamespace::____GlobalNamespace__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider
-constexpr operator  ::GlobalNamespace::____GlobalNamespace__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider() const noexcept;
+/// @brief Convert operator to GlobalNamespace::GlobalNamespace__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider
+constexpr operator  GlobalNamespace::GlobalNamespace__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider() const noexcept;
 
-/// @brief Convert operator to ::GlobalNamespace::____GlobalNamespace__OVRMesh__IOVRMeshDataProvider
-constexpr operator  ::GlobalNamespace::____GlobalNamespace__OVRMesh__IOVRMeshDataProvider() const noexcept;
+/// @brief Convert operator to GlobalNamespace::GlobalNamespace__OVRMesh__IOVRMeshDataProvider
+constexpr operator  GlobalNamespace::GlobalNamespace__OVRMesh__IOVRMeshDataProvider() const noexcept;
 
-/// @brief Convert operator to ::GlobalNamespace::____GlobalNamespace__OVRMeshRenderer__IOVRMeshRendererDataProvider
-constexpr operator  ::GlobalNamespace::____GlobalNamespace__OVRMeshRenderer__IOVRMeshRendererDataProvider() const noexcept;
+/// @brief Convert operator to GlobalNamespace::GlobalNamespace__OVRMeshRenderer__IOVRMeshRendererDataProvider
+constexpr operator  GlobalNamespace::GlobalNamespace__OVRMeshRenderer__IOVRMeshRendererDataProvider() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xc8};
@@ -323,7 +322,7 @@ constexpr OVRHand(OVRHand const& ) noexcept = default;
 constexpr OVRHand(OVRHand&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OVRHand(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OVRHand(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -344,29 +343,29 @@ constexpr explicit OVRHand(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(pt
 
 // Fields
 
- ::GlobalNamespace::____GlobalNamespace__OVRHand__Hand __declspec(property(get=__get_HandType, put=__set_HandType))  HandType;
+ GlobalNamespace::GlobalNamespace__OVRHand__Hand __declspec(property(get=__get_HandType, put=__set_HandType))  HandType;
 
-constexpr void __set_HandType(::GlobalNamespace::____GlobalNamespace__OVRHand__Hand value) ;
+constexpr void __set_HandType(GlobalNamespace::GlobalNamespace__OVRHand__Hand value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVRHand__Hand __get_HandType() const;
+constexpr GlobalNamespace::GlobalNamespace__OVRHand__Hand __get_HandType() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__pointerPoseRoot, put=__set__pointerPoseRoot))  _pointerPoseRoot;
+ UnityEngine::Transform __declspec(property(get=__get__pointerPoseRoot, put=__set__pointerPoseRoot))  _pointerPoseRoot;
 
-constexpr void __set__pointerPoseRoot(::UnityEngine::Transform value) ;
+constexpr void __set__pointerPoseRoot(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__pointerPoseRoot() const;
+constexpr UnityEngine::Transform __get__pointerPoseRoot() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get__pointerPoseGO, put=__set__pointerPoseGO))  _pointerPoseGO;
+ UnityEngine::GameObject __declspec(property(get=__get__pointerPoseGO, put=__set__pointerPoseGO))  _pointerPoseGO;
 
-constexpr void __set__pointerPoseGO(::UnityEngine::GameObject value) ;
+constexpr void __set__pointerPoseGO(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__pointerPoseGO() const;
+constexpr UnityEngine::GameObject __get__pointerPoseGO() const;
 
- ::GlobalNamespace::____GlobalNamespace__OVRPlugin__HandState __declspec(property(get=__get__handState, put=__set__handState))  _handState;
+ GlobalNamespace::GlobalNamespace__OVRPlugin__HandState __declspec(property(get=__get__handState, put=__set__handState))  _handState;
 
-constexpr void __set__handState(::GlobalNamespace::____GlobalNamespace__OVRPlugin__HandState value) ;
+constexpr void __set__handState(GlobalNamespace::GlobalNamespace__OVRPlugin__HandState value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVRPlugin__HandState __get__handState() const;
+constexpr GlobalNamespace::GlobalNamespace__OVRPlugin__HandState __get__handState() const;
 
  bool __declspec(property(get=__get__IsDataValid_k__BackingField, put=__set__IsDataValid_k__BackingField))  _IsDataValid_k__BackingField;
 
@@ -398,11 +397,11 @@ constexpr void __set__IsPointerPoseValid_k__BackingField(bool value) ;
 
 constexpr bool __get__IsPointerPoseValid_k__BackingField() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__PointerPose_k__BackingField, put=__set__PointerPose_k__BackingField))  _PointerPose_k__BackingField;
+ UnityEngine::Transform __declspec(property(get=__get__PointerPose_k__BackingField, put=__set__PointerPose_k__BackingField))  _PointerPose_k__BackingField;
 
-constexpr void __set__PointerPose_k__BackingField(::UnityEngine::Transform value) ;
+constexpr void __set__PointerPose_k__BackingField(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__PointerPose_k__BackingField() const;
+constexpr UnityEngine::Transform __get__PointerPose_k__BackingField() const;
 
  float_t __declspec(property(get=__get__HandScale_k__BackingField, put=__set__HandScale_k__BackingField))  _HandScale_k__BackingField;
 
@@ -410,11 +409,11 @@ constexpr void __set__HandScale_k__BackingField(float_t value) ;
 
 constexpr float_t __get__HandScale_k__BackingField() const;
 
- ::GlobalNamespace::____GlobalNamespace__OVRHand__TrackingConfidence __declspec(property(get=__get__HandConfidence_k__BackingField, put=__set__HandConfidence_k__BackingField))  _HandConfidence_k__BackingField;
+ GlobalNamespace::GlobalNamespace__OVRHand__TrackingConfidence __declspec(property(get=__get__HandConfidence_k__BackingField, put=__set__HandConfidence_k__BackingField))  _HandConfidence_k__BackingField;
 
-constexpr void __set__HandConfidence_k__BackingField(::GlobalNamespace::____GlobalNamespace__OVRHand__TrackingConfidence value) ;
+constexpr void __set__HandConfidence_k__BackingField(GlobalNamespace::GlobalNamespace__OVRHand__TrackingConfidence value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVRHand__TrackingConfidence __get__HandConfidence_k__BackingField() const;
+constexpr GlobalNamespace::GlobalNamespace__OVRHand__TrackingConfidence __get__HandConfidence_k__BackingField() const;
 
  bool __declspec(property(get=__get__IsDominantHand_k__BackingField, put=__set__IsDominantHand_k__BackingField))  _IsDominantHand_k__BackingField;
 
@@ -435,11 +434,11 @@ constexpr bool __get__IsDominantHand_k__BackingField() const;
 
  bool __declspec(property(get=get_IsPointerPoseValid, put=set_IsPointerPoseValid))  IsPointerPoseValid;
 
- ::UnityEngine::Transform __declspec(property(get=get_PointerPose, put=set_PointerPose))  PointerPose;
+ UnityEngine::Transform __declspec(property(get=get_PointerPose, put=set_PointerPose))  PointerPose;
 
  float_t __declspec(property(get=get_HandScale, put=set_HandScale))  HandScale;
 
- ::GlobalNamespace::____GlobalNamespace__OVRHand__TrackingConfidence __declspec(property(get=get_HandConfidence, put=set_HandConfidence))  HandConfidence;
+ GlobalNamespace::GlobalNamespace__OVRHand__TrackingConfidence __declspec(property(get=get_HandConfidence, put=set_HandConfidence))  HandConfidence;
 
  bool __declspec(property(get=get_IsDominantHand, put=set_IsDominantHand))  IsDominantHand;
 
@@ -477,10 +476,10 @@ constexpr bool __get__IsDominantHand_k__BackingField() const;
  void set_IsPointerPoseValid(bool value) ;
 
 /// @brief Method get_PointerPose addr 0x2623608 size 0x8 virtual false final false
- ::UnityEngine::Transform get_PointerPose() ;
+ UnityEngine::Transform get_PointerPose() ;
 
 /// @brief Method set_PointerPose addr 0x2623610 size 0x8 virtual false final false
- void set_PointerPose(::UnityEngine::Transform value) ;
+ void set_PointerPose(UnityEngine::Transform value) ;
 
 /// @brief Method get_HandScale addr 0x2623618 size 0x8 virtual false final false
  float_t get_HandScale() ;
@@ -489,10 +488,10 @@ constexpr bool __get__IsDominantHand_k__BackingField() const;
  void set_HandScale(float_t value) ;
 
 /// @brief Method get_HandConfidence addr 0x2623628 size 0x8 virtual false final false
- ::GlobalNamespace::____GlobalNamespace__OVRHand__TrackingConfidence get_HandConfidence() ;
+ GlobalNamespace::GlobalNamespace__OVRHand__TrackingConfidence get_HandConfidence() ;
 
 /// @brief Method set_HandConfidence addr 0x2623630 size 0x8 virtual false final false
- void set_HandConfidence(::GlobalNamespace::____GlobalNamespace__OVRHand__TrackingConfidence value) ;
+ void set_HandConfidence(GlobalNamespace::GlobalNamespace__OVRHand__TrackingConfidence value) ;
 
 /// @brief Method get_IsDominantHand addr 0x2623638 size 0x8 virtual false final false
  bool get_IsDominantHand() ;
@@ -510,31 +509,31 @@ constexpr bool __get__IsDominantHand_k__BackingField() const;
  void FixedUpdate() ;
 
 /// @brief Method GetHandState addr 0x2623718 size 0x1d0 virtual false final false
- void GetHandState(::GlobalNamespace::____GlobalNamespace__OVRPlugin__Step step) ;
+ void GetHandState(GlobalNamespace::GlobalNamespace__OVRPlugin__Step step) ;
 
 /// @brief Method GetFingerIsPinching addr 0x2623964 size 0x28 virtual false final false
- bool GetFingerIsPinching(::GlobalNamespace::____GlobalNamespace__OVRHand__HandFinger finger) ;
+ bool GetFingerIsPinching(GlobalNamespace::GlobalNamespace__OVRHand__HandFinger finger) ;
 
 /// @brief Method GetFingerPinchStrength addr 0x262398c size 0x40 virtual false final false
- float_t GetFingerPinchStrength(::GlobalNamespace::____GlobalNamespace__OVRHand__HandFinger finger) ;
+ float_t GetFingerPinchStrength(GlobalNamespace::GlobalNamespace__OVRHand__HandFinger finger) ;
 
 /// @brief Method GetFingerConfidence addr 0x26239cc size 0x44 virtual false final false
- ::GlobalNamespace::____GlobalNamespace__OVRHand__TrackingConfidence GetFingerConfidence(::GlobalNamespace::____GlobalNamespace__OVRHand__HandFinger finger) ;
+ GlobalNamespace::GlobalNamespace__OVRHand__TrackingConfidence GetFingerConfidence(GlobalNamespace::GlobalNamespace__OVRHand__HandFinger finger) ;
 
 /// @brief Method OVRSkeleton.IOVRSkeletonDataProvider.GetSkeletonType addr 0x2623a10 size 0x18 virtual true final true
- ::GlobalNamespace::____GlobalNamespace__OVRSkeleton__SkeletonType OVRSkeleton_IOVRSkeletonDataProvider_GetSkeletonType() ;
+ GlobalNamespace::GlobalNamespace__OVRSkeleton__SkeletonType OVRSkeleton_IOVRSkeletonDataProvider_GetSkeletonType() ;
 
 /// @brief Method OVRSkeleton.IOVRSkeletonDataProvider.GetSkeletonPoseData addr 0x2623a28 size 0x6c virtual true final true
- ::GlobalNamespace::____GlobalNamespace__OVRSkeleton__SkeletonPoseData OVRSkeleton_IOVRSkeletonDataProvider_GetSkeletonPoseData() ;
+ GlobalNamespace::GlobalNamespace__OVRSkeleton__SkeletonPoseData OVRSkeleton_IOVRSkeletonDataProvider_GetSkeletonPoseData() ;
 
 /// @brief Method OVRSkeletonRenderer.IOVRSkeletonRendererDataProvider.GetSkeletonRendererData addr 0x2623a94 size 0x4c virtual true final true
- ::GlobalNamespace::____GlobalNamespace__OVRSkeletonRenderer__SkeletonRendererData OVRSkeletonRenderer_IOVRSkeletonRendererDataProvider_GetSkeletonRendererData() ;
+ GlobalNamespace::GlobalNamespace__OVRSkeletonRenderer__SkeletonRendererData OVRSkeletonRenderer_IOVRSkeletonRendererDataProvider_GetSkeletonRendererData() ;
 
 /// @brief Method OVRMesh.IOVRMeshDataProvider.GetMeshType addr 0x2623ae0 size 0x18 virtual true final true
- ::GlobalNamespace::____GlobalNamespace__OVRMesh__MeshType OVRMesh_IOVRMeshDataProvider_GetMeshType() ;
+ GlobalNamespace::GlobalNamespace__OVRMesh__MeshType OVRMesh_IOVRMeshDataProvider_GetMeshType() ;
 
 /// @brief Method OVRMeshRenderer.IOVRMeshRendererDataProvider.GetMeshRendererData addr 0x2623af8 size 0x50 virtual true final true
- ::GlobalNamespace::____GlobalNamespace__OVRMeshRenderer__MeshRendererData OVRMeshRenderer_IOVRMeshRendererDataProvider_GetMeshRendererData() ;
+ GlobalNamespace::GlobalNamespace__OVRMeshRenderer__MeshRendererData OVRMeshRenderer_IOVRMeshRendererDataProvider_GetMeshRendererData() ;
 
 // Ctor Parameters []
 explicit OVRHand() ;
@@ -549,9 +548,8 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVRHand__Hand, "", "OVRHand/Hand");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVRHand__HandFinger, "", "OVRHand/HandFinger");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVRHand__TrackingConfidence, "", "OVRHand/TrackingConfidence");
-NEED_NO_BOX(::GlobalNamespace::OVRHand);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRHand, "", "OVRHand");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRHand__Hand, "", "OVRHand/Hand");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRHand__HandFinger, "", "OVRHand/HandFinger");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRHand__TrackingConfidence, "", "OVRHand/TrackingConfidence");
+NEED_NO_BOX(GlobalNamespace::OVRHand);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHand, "", "OVRHand");

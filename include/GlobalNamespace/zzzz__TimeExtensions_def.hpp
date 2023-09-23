@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace System {
 struct DateTime;
 }
@@ -112,15 +111,14 @@ static int32_t TotalMinutes(float_t time) ;
 static int32_t TotalSeconds(float_t time) ;
 
 /// @brief Method ToUnixTime addr 0x1f7c3a0 size 0xcc virtual false final false
-static int64_t ToUnixTime(::System::DateTime dateTime) ;
+static int64_t ToUnixTime(System::DateTime dateTime) ;
 
 /// @brief Method AsUnixTime addr 0x1f7c46c size 0xc8 virtual false final false
-static ::System::DateTime AsUnixTime(int64_t unixTime) ;
+static System::DateTime AsUnixTime(int64_t unixTime) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::TimeExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TimeExtensions, "", "TimeExtensions");
+NEED_NO_BOX(GlobalNamespace::TimeExtensions);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TimeExtensions, "", "TimeExtensions");

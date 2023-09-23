@@ -4,9 +4,9 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Globalization {
-struct UnicodeCategory;
+namespace System {
+template<typename T>
+struct Nullable_1;
 }
 namespace System::Globalization {
 class CultureData;
@@ -14,26 +14,25 @@ class CultureData;
 namespace System {
 class ICloneable;
 }
+namespace System::Runtime::Serialization {
+class IDeserializationCallback;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace System::Globalization {
+struct UnicodeCategory;
+}
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
 }
 namespace System::Runtime::Serialization {
-class IDeserializationCallback;
-}
-namespace System {
-template<typename T>
-struct Nullable_1;
+struct StreamingContext;
 }
 namespace System {
 template<typename T>
 struct Span_1;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Text {
-class StringBuilder;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -48,11 +47,11 @@ namespace System::Globalization {
 class CORDL_TYPE TextInfo : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::ICloneable
-constexpr operator  ::System::ICloneable() const noexcept;
+/// @brief Convert operator to System::ICloneable
+constexpr operator  System::ICloneable() const noexcept;
 
-/// @brief Convert operator to ::System::Runtime::Serialization::IDeserializationCallback
-constexpr operator  ::System::Runtime::Serialization::IDeserializationCallback() const noexcept;
+/// @brief Convert operator to System::Runtime::Serialization::IDeserializationCallback
+constexpr operator  System::Runtime::Serialization::IDeserializationCallback() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x58};
@@ -105,11 +104,11 @@ constexpr void __set_m_cultureName(::StringW value) ;
 
 constexpr ::StringW __get_m_cultureName() const;
 
- ::System::Globalization::CultureData __declspec(property(get=__get_m_cultureData, put=__set_m_cultureData))  m_cultureData;
+ System::Globalization::CultureData __declspec(property(get=__get_m_cultureData, put=__set_m_cultureData))  m_cultureData;
 
-constexpr void __set_m_cultureData(::System::Globalization::CultureData value) ;
+constexpr void __set_m_cultureData(System::Globalization::CultureData value) ;
 
-constexpr ::System::Globalization::CultureData __get_m_cultureData() const;
+constexpr System::Globalization::CultureData __get_m_cultureData() const;
 
  ::StringW __declspec(property(get=__get_m_textInfoName, put=__set_m_textInfoName))  m_textInfoName;
 
@@ -117,17 +116,17 @@ constexpr void __set_m_textInfoName(::StringW value) ;
 
 constexpr ::StringW __get_m_textInfoName() const;
 
- ::System::Nullable_1<bool> __declspec(property(get=__get_m_IsAsciiCasingSameAsInvariant, put=__set_m_IsAsciiCasingSameAsInvariant))  m_IsAsciiCasingSameAsInvariant;
+ System::Nullable_1<bool> __declspec(property(get=__get_m_IsAsciiCasingSameAsInvariant, put=__set_m_IsAsciiCasingSameAsInvariant))  m_IsAsciiCasingSameAsInvariant;
 
-constexpr void __set_m_IsAsciiCasingSameAsInvariant(::System::Nullable_1<bool> value) ;
+constexpr void __set_m_IsAsciiCasingSameAsInvariant(System::Nullable_1<bool> value) ;
 
-constexpr ::System::Nullable_1<bool> __get_m_IsAsciiCasingSameAsInvariant() const;
+constexpr System::Nullable_1<bool> __get_m_IsAsciiCasingSameAsInvariant() const;
 
-static ::System::Globalization::TextInfo __declspec(property(get=__get_s_Invariant, put=__set_s_Invariant))  s_Invariant;
+static System::Globalization::TextInfo __declspec(property(get=__get_s_Invariant, put=__set_s_Invariant))  s_Invariant;
 
-static void __set_s_Invariant(::System::Globalization::TextInfo value) ;
+static void __set_s_Invariant(System::Globalization::TextInfo value) ;
 
-static ::System::Globalization::TextInfo __get_s_Invariant() ;
+static System::Globalization::TextInfo __get_s_Invariant() ;
 
  ::StringW __declspec(property(get=__get_customCultureName, put=__set_customCultureName))  customCultureName;
 
@@ -159,7 +158,7 @@ static constexpr int32_t  wordSeparatorMask{536672256};
 
 // Properties
 
-static ::System::Globalization::TextInfo __declspec(property(get=get_Invariant))  Invariant;
+static System::Globalization::TextInfo __declspec(property(get=get_Invariant))  Invariant;
 
  ::StringW __declspec(property(get=get_CultureName))  CultureName;
 
@@ -169,25 +168,25 @@ static ::System::Globalization::TextInfo __declspec(property(get=get_Invariant))
 // Methods
 
 /// @brief Method get_Invariant addr 0x23f8d0c size 0x9c virtual false final false
-static ::System::Globalization::TextInfo get_Invariant() ;
+static System::Globalization::TextInfo get_Invariant() ;
 
-// Ctor Parameters [CppParam { name: "cultureData", ty: "::System::Globalization::CultureData", modifiers: "", def_value: None }]
-explicit TextInfo(::System::Globalization::CultureData cultureData) ;
+// Ctor Parameters [CppParam { name: "cultureData", ty: "System::Globalization::CultureData", modifiers: "", def_value: None }]
+explicit TextInfo(System::Globalization::CultureData cultureData) ;
 
 /// @brief Method .ctor addr 0x23f914c size 0x3c virtual false final false
- void _ctor(::System::Globalization::CultureData cultureData) ;
+ void _ctor(System::Globalization::CultureData cultureData) ;
 
 /// @brief Method OnDeserializing addr 0x23f9188 size 0x8 virtual false final false
- void OnDeserializing(::System::Runtime::Serialization::StreamingContext ctx) ;
+ void OnDeserializing(System::Runtime::Serialization::StreamingContext ctx) ;
 
 /// @brief Method OnDeserialized addr 0x23f9190 size 0xdc virtual false final false
  void OnDeserialized() ;
 
 /// @brief Method OnDeserialized addr 0x23f96dc size 0x4 virtual false final false
- void OnDeserialized(::System::Runtime::Serialization::StreamingContext ctx) ;
+ void OnDeserialized(System::Runtime::Serialization::StreamingContext ctx) ;
 
 /// @brief Method OnSerializing addr 0x23f96e0 size 0x7c virtual false final false
- void OnSerializing(::System::Runtime::Serialization::StreamingContext ctx) ;
+ void OnSerializing(System::Runtime::Serialization::StreamingContext ctx) ;
 
 /// @brief Method get_CultureName addr 0x23f975c size 0x8 virtual false final false
  ::StringW get_CultureName() ;
@@ -235,16 +234,16 @@ static bool IsAscii(char16_t c) ;
  ::StringW ToTitleCase(::StringW str) ;
 
 /// @brief Method AddNonLetter addr 0x23fab04 size 0x9c virtual false final false
-static int32_t AddNonLetter(ByRef<::System::Text::StringBuilder> result, ByRef<::StringW> input, int32_t inputIndex, int32_t charLen) ;
+static int32_t AddNonLetter(ByRef<System::Text::StringBuilder> result, ByRef<::StringW> input, int32_t inputIndex, int32_t charLen) ;
 
 /// @brief Method AddTitlecaseLetter addr 0x23fa980 size 0x14c virtual false final false
- int32_t AddTitlecaseLetter(ByRef<::System::Text::StringBuilder> result, ByRef<::StringW> input, int32_t inputIndex, int32_t charLen) ;
+ int32_t AddTitlecaseLetter(ByRef<System::Text::StringBuilder> result, ByRef<::StringW> input, int32_t inputIndex, int32_t charLen) ;
 
 /// @brief Method IsWordSeparator addr 0x23faae8 size 0x1c virtual false final false
-static bool IsWordSeparator(::System::Globalization::UnicodeCategory category) ;
+static bool IsWordSeparator(System::Globalization::UnicodeCategory category) ;
 
 /// @brief Method IsLetterCategory addr 0x23faacc size 0x1c virtual false final false
-static bool IsLetterCategory(::System::Globalization::UnicodeCategory uc) ;
+static bool IsLetterCategory(System::Globalization::UnicodeCategory uc) ;
 
 /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization addr 0x23faba0 size 0x4 virtual true final true
  void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::bs_hook::Il2CppWrapperType sender) ;
@@ -262,10 +261,10 @@ static bool IsLetterCategory(::System::Globalization::UnicodeCategory uc) ;
  char16_t ToLowerInternal(char16_t c) ;
 
 /// @brief Method ToUpperAsciiInvariant addr 0x23faba4 size 0x90 virtual false final false
- void ToUpperAsciiInvariant(::System::ReadOnlySpan_1<char16_t> source, ::System::Span_1<char16_t> destination) ;
+ void ToUpperAsciiInvariant(System::ReadOnlySpan_1<char16_t> source, System::Span_1<char16_t> destination) ;
 
 /// @brief Method ChangeCase addr 0x23fac34 size 0x140 virtual false final false
- void ChangeCase(::System::ReadOnlySpan_1<char16_t> source, ::System::Span_1<char16_t> destination, bool toUpper) ;
+ void ChangeCase(System::ReadOnlySpan_1<char16_t> source, System::Span_1<char16_t> destination, bool toUpper) ;
 
 // Ctor Parameters []
 explicit TextInfo() ;
@@ -277,6 +276,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Globalization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Globalization::TextInfo);
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::TextInfo, "System.Globalization", "TextInfo");
+NEED_NO_BOX(System::Globalization::TextInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::TextInfo, "System.Globalization", "TextInfo");

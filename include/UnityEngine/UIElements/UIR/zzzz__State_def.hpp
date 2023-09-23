@@ -3,12 +3,11 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine::UIElements {
-struct TextureId;
-}
 namespace UnityEngine {
 class Material;
+}
+namespace UnityEngine::UIElements {
+struct TextureId;
 }
 namespace UnityEngine {
 class Texture;
@@ -26,8 +25,8 @@ namespace UnityEngine::UIElements::UIR {
 struct CORDL_TYPE State : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "material", ty: "::UnityEngine::Material", modifiers: "", def_value: None }, CppParam { name: "font", ty: "::UnityEngine::Texture", modifiers: "", def_value: None }, CppParam { name: "fontTexSDFScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "texture", ty: "::UnityEngine::UIElements::TextureId", modifiers: "", def_value: None }, CppParam { name: "stencilRef", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr State(::UnityEngine::Material material, ::UnityEngine::Texture font, float_t fontTexSDFScale, ::UnityEngine::UIElements::TextureId texture, int32_t stencilRef) noexcept;
+// Ctor Parameters [CppParam { name: "material", ty: "UnityEngine::Material", modifiers: "", def_value: None }, CppParam { name: "font", ty: "UnityEngine::Texture", modifiers: "", def_value: None }, CppParam { name: "fontTexSDFScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "texture", ty: "UnityEngine::UIElements::TextureId", modifiers: "", def_value: None }, CppParam { name: "stencilRef", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr State(UnityEngine::Material material, UnityEngine::Texture font, float_t fontTexSDFScale, UnityEngine::UIElements::TextureId texture, int32_t stencilRef) noexcept;
 
 
                     constexpr State(State const&) = default;
@@ -60,17 +59,17 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Material __declspec(property(get=__get_material, put=__set_material))  material;
+ UnityEngine::Material __declspec(property(get=__get_material, put=__set_material))  material;
 
-constexpr void __set_material(::UnityEngine::Material value) ;
+constexpr void __set_material(UnityEngine::Material value) ;
 
-constexpr ::UnityEngine::Material __get_material() const;
+constexpr UnityEngine::Material __get_material() const;
 
- ::UnityEngine::Texture __declspec(property(get=__get_font, put=__set_font))  font;
+ UnityEngine::Texture __declspec(property(get=__get_font, put=__set_font))  font;
 
-constexpr void __set_font(::UnityEngine::Texture value) ;
+constexpr void __set_font(UnityEngine::Texture value) ;
 
-constexpr ::UnityEngine::Texture __get_font() const;
+constexpr UnityEngine::Texture __get_font() const;
 
  float_t __declspec(property(get=__get_fontTexSDFScale, put=__set_fontTexSDFScale))  fontTexSDFScale;
 
@@ -78,11 +77,11 @@ constexpr void __set_fontTexSDFScale(float_t value) ;
 
 constexpr float_t __get_fontTexSDFScale() const;
 
- ::UnityEngine::UIElements::TextureId __declspec(property(get=__get_texture, put=__set_texture))  texture;
+ UnityEngine::UIElements::TextureId __declspec(property(get=__get_texture, put=__set_texture))  texture;
 
-constexpr void __set_texture(::UnityEngine::UIElements::TextureId value) ;
+constexpr void __set_texture(UnityEngine::UIElements::TextureId value) ;
 
-constexpr ::UnityEngine::UIElements::TextureId __get_texture() const;
+constexpr UnityEngine::UIElements::TextureId __get_texture() const;
 
  int32_t __declspec(property(get=__get_stencilRef, put=__set_stencilRef))  stencilRef;
 
@@ -94,5 +93,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::UIR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::State, "UnityEngine.UIElements.UIR", "State");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::State, "UnityEngine.UIElements.UIR", "State");

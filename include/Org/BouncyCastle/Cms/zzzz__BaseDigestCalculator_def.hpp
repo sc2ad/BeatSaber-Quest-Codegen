@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Cms {
 class IDigestCalculator;
 }
@@ -20,8 +19,8 @@ namespace Org::BouncyCastle::Cms {
 class CORDL_TYPE BaseDigestCalculator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Cms::IDigestCalculator
-constexpr operator  ::Org::BouncyCastle::Cms::IDigestCalculator() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Cms::IDigestCalculator
+constexpr operator  Org::BouncyCastle::Cms::IDigestCalculator() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -78,6 +77,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Cms
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Cms::BaseDigestCalculator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::BaseDigestCalculator, "Org.BouncyCastle.Cms", "BaseDigestCalculator");
+NEED_NO_BOX(Org::BouncyCastle::Cms::BaseDigestCalculator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Cms::BaseDigestCalculator, "Org.BouncyCastle.Cms", "BaseDigestCalculator");

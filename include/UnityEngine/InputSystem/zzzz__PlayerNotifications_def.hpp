@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem {
 struct PlayerNotifications;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field SendMessages offset 0
-static ::UnityEngine::InputSystem::PlayerNotifications const SendMessages;
+static UnityEngine::InputSystem::PlayerNotifications const SendMessages;
 
 /// @brief Field BroadcastMessages offset 0
-static ::UnityEngine::InputSystem::PlayerNotifications const BroadcastMessages;
+static UnityEngine::InputSystem::PlayerNotifications const BroadcastMessages;
 
 /// @brief Field InvokeUnityEvents offset 0
-static ::UnityEngine::InputSystem::PlayerNotifications const InvokeUnityEvents;
+static UnityEngine::InputSystem::PlayerNotifications const InvokeUnityEvents;
 
 /// @brief Field InvokeCSharpEvents offset 0
-static ::UnityEngine::InputSystem::PlayerNotifications const InvokeCSharpEvents;
+static UnityEngine::InputSystem::PlayerNotifications const InvokeCSharpEvents;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::PlayerNotifications, "UnityEngine.InputSystem", "PlayerNotifications");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::PlayerNotifications, "UnityEngine.InputSystem", "PlayerNotifications");

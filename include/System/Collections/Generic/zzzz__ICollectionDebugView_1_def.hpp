@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 // Forward declare root types
 namespace System::Collections::Generic {
 template<typename T>
@@ -13,7 +12,7 @@ namespace System::Collections::Generic {
 template<typename T>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8383))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3811))
 // CS Name: System.Collections.Generic.ICollectionDebugView`1
 class CORDL_TYPE ICollectionDebugView_1 : public ::bs_hook::Il2CppWrapperType {
 public:
@@ -52,5 +51,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Collections::Generic
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Generic::ICollectionDebugView_1, "System.Collections.Generic", "ICollectionDebugView`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::ICollectionDebugView_1, "System.Collections.Generic", "ICollectionDebugView`1");

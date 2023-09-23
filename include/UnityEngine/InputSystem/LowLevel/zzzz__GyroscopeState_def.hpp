@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateTypeInfo;
 }
@@ -24,11 +23,11 @@ namespace UnityEngine::InputSystem::LowLevel {
 struct CORDL_TYPE GyroscopeState : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo
-constexpr operator  ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo() const;
+/// @brief Convert operator to UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo
+constexpr operator  UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo() const;
 
-// Ctor Parameters [CppParam { name: "angularVelocity", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
-constexpr GyroscopeState(::UnityEngine::Vector3 angularVelocity) noexcept;
+// Ctor Parameters [CppParam { name: "angularVelocity", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }]
+constexpr GyroscopeState(UnityEngine::Vector3 angularVelocity) noexcept;
 
 
                     constexpr GyroscopeState(GyroscopeState const&) = default;
@@ -61,31 +60,30 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_angularVelocity, put=__set_angularVelocity))  angularVelocity;
+ UnityEngine::Vector3 __declspec(property(get=__get_angularVelocity, put=__set_angularVelocity))  angularVelocity;
 
-constexpr void __set_angularVelocity(::UnityEngine::Vector3 value) ;
+constexpr void __set_angularVelocity(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_angularVelocity() const;
+constexpr UnityEngine::Vector3 __get_angularVelocity() const;
 
 
 // Properties
 
-static ::UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_kFormat))  kFormat;
+static UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_kFormat))  kFormat;
 
- ::UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_format))  format;
+ UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_format))  format;
 
 
 // Methods
 
 /// @brief Method get_kFormat addr 0x295626c size 0x30 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::FourCC get_kFormat() ;
+static UnityEngine::InputSystem::Utilities::FourCC get_kFormat() ;
 
 /// @brief Method get_format addr 0x295629c size 0x30 virtual true final true
- ::UnityEngine::InputSystem::Utilities::FourCC get_format() ;
+ UnityEngine::InputSystem::Utilities::FourCC get_format() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::LowLevel
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::GyroscopeState, "UnityEngine.InputSystem.LowLevel", "GyroscopeState");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::LowLevel::GyroscopeState, "UnityEngine.InputSystem.LowLevel", "GyroscopeState");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Android {
 struct AndroidAssetPackError;
@@ -78,47 +77,46 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field NoError offset 0
-static ::UnityEngine::Android::AndroidAssetPackError const NoError;
+static UnityEngine::Android::AndroidAssetPackError const NoError;
 
 /// @brief Field AppUnavailable offset 0
-static ::UnityEngine::Android::AndroidAssetPackError const AppUnavailable;
+static UnityEngine::Android::AndroidAssetPackError const AppUnavailable;
 
 /// @brief Field PackUnavailable offset 0
-static ::UnityEngine::Android::AndroidAssetPackError const PackUnavailable;
+static UnityEngine::Android::AndroidAssetPackError const PackUnavailable;
 
 /// @brief Field InvalidRequest offset 0
-static ::UnityEngine::Android::AndroidAssetPackError const InvalidRequest;
+static UnityEngine::Android::AndroidAssetPackError const InvalidRequest;
 
 /// @brief Field DownloadNotFound offset 0
-static ::UnityEngine::Android::AndroidAssetPackError const DownloadNotFound;
+static UnityEngine::Android::AndroidAssetPackError const DownloadNotFound;
 
 /// @brief Field ApiNotAvailable offset 0
-static ::UnityEngine::Android::AndroidAssetPackError const ApiNotAvailable;
+static UnityEngine::Android::AndroidAssetPackError const ApiNotAvailable;
 
 /// @brief Field NetworkError offset 0
-static ::UnityEngine::Android::AndroidAssetPackError const NetworkError;
+static UnityEngine::Android::AndroidAssetPackError const NetworkError;
 
 /// @brief Field AccessDenied offset 0
-static ::UnityEngine::Android::AndroidAssetPackError const AccessDenied;
+static UnityEngine::Android::AndroidAssetPackError const AccessDenied;
 
 /// @brief Field InsufficientStorage offset 0
-static ::UnityEngine::Android::AndroidAssetPackError const InsufficientStorage;
+static UnityEngine::Android::AndroidAssetPackError const InsufficientStorage;
 
 /// @brief Field PlayStoreNotFound offset 0
-static ::UnityEngine::Android::AndroidAssetPackError const PlayStoreNotFound;
+static UnityEngine::Android::AndroidAssetPackError const PlayStoreNotFound;
 
 /// @brief Field NetworkUnrestricted offset 0
-static ::UnityEngine::Android::AndroidAssetPackError const NetworkUnrestricted;
+static UnityEngine::Android::AndroidAssetPackError const NetworkUnrestricted;
 
 /// @brief Field AppNotOwned offset 0
-static ::UnityEngine::Android::AndroidAssetPackError const AppNotOwned;
+static UnityEngine::Android::AndroidAssetPackError const AppNotOwned;
 
 /// @brief Field InternalError offset 0
-static ::UnityEngine::Android::AndroidAssetPackError const InternalError;
+static UnityEngine::Android::AndroidAssetPackError const InternalError;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Android
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Android::AndroidAssetPackError, "UnityEngine.Android", "AndroidAssetPackError");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Android::AndroidAssetPackError, "UnityEngine.Android", "AndroidAssetPackError");

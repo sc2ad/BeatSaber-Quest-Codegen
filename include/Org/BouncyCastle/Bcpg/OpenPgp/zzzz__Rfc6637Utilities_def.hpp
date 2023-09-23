@@ -4,21 +4,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace Org::BouncyCastle::Bcpg {
+struct HashAlgorithmTag;
+}
 namespace Org::BouncyCastle::Bcpg {
 struct SymmetricKeyAlgorithmTag;
 }
 namespace Org::BouncyCastle::Bcpg {
 class PublicKeyPacket;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
-namespace Org::BouncyCastle::Bcpg {
-struct HashAlgorithmTag;
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -82,27 +81,26 @@ explicit Rfc6637Utilities() ;
  void _ctor() ;
 
 /// @brief Method GetAgreementAlgorithm addr 0x104313c size 0x174 virtual false final false
-static ::StringW GetAgreementAlgorithm(::Org::BouncyCastle::Bcpg::PublicKeyPacket pubKeyData) ;
+static ::StringW GetAgreementAlgorithm(Org::BouncyCastle::Bcpg::PublicKeyPacket pubKeyData) ;
 
 /// @brief Method GetKeyEncryptionOID addr 0x10432b0 size 0x128 virtual false final false
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier GetKeyEncryptionOID(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag algID) ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier GetKeyEncryptionOID(Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag algID) ;
 
 /// @brief Method GetKeyLength addr 0x10433d8 size 0x98 virtual false final false
-static int32_t GetKeyLength(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag algID) ;
+static int32_t GetKeyLength(Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag algID) ;
 
 /// @brief Method CreateKey addr 0x102d984 size 0x108 virtual false final false
-static ::ArrayW<uint8_t> CreateKey(::Org::BouncyCastle::Bcpg::PublicKeyPacket pubKeyData, ::Org::BouncyCastle::Math::EC::ECPoint s) ;
+static ::ArrayW<uint8_t> CreateKey(Org::BouncyCastle::Bcpg::PublicKeyPacket pubKeyData, Org::BouncyCastle::Math::EC::ECPoint s) ;
 
 /// @brief Method CreateUserKeyingMaterial addr 0x1043470 size 0x268 virtual false final false
-static ::ArrayW<uint8_t> CreateUserKeyingMaterial(::Org::BouncyCastle::Bcpg::PublicKeyPacket pubKeyData) ;
+static ::ArrayW<uint8_t> CreateUserKeyingMaterial(Org::BouncyCastle::Bcpg::PublicKeyPacket pubKeyData) ;
 
 /// @brief Method Kdf addr 0x10436d8 size 0x37c virtual false final false
-static ::ArrayW<uint8_t> Kdf(::Org::BouncyCastle::Bcpg::HashAlgorithmTag digestAlg, ::Org::BouncyCastle::Math::EC::ECPoint s, int32_t keyLen, ::ArrayW<uint8_t> parameters) ;
+static ::ArrayW<uint8_t> Kdf(Org::BouncyCastle::Bcpg::HashAlgorithmTag digestAlg, Org::BouncyCastle::Math::EC::ECPoint s, int32_t keyLen, ::ArrayW<uint8_t> parameters) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg::OpenPgp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::OpenPgp::Rfc6637Utilities);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::OpenPgp::Rfc6637Utilities, "Org.BouncyCastle.Bcpg.OpenPgp", "Rfc6637Utilities");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::OpenPgp::Rfc6637Utilities);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::OpenPgp::Rfc6637Utilities, "Org.BouncyCastle.Bcpg.OpenPgp", "Rfc6637Utilities");

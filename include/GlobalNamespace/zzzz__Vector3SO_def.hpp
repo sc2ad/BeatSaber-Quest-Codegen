@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__ObservableVariableSO_1_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class Vector3SO;
@@ -10,10 +9,10 @@ class Vector3SO;
 // Type: ::Vector3SO
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10190)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13904), inst: 394 }), TypeDefinitionIndex(TypeDefinitionIndex(13904))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13904), inst: 394 }), TypeDefinitionIndex(TypeDefinitionIndex(10190)), TypeDefinitionIndex(TypeDefinitionIndex(13904))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13909))
 // CS Name: Vector3SO
-class CORDL_TYPE Vector3SO : public ::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3> {
+class CORDL_TYPE Vector3SO : public GlobalNamespace::ObservableVariableSO_1<UnityEngine::Vector3> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr Vector3SO(Vector3SO const& ) noexcept = default;
 constexpr Vector3SO(Vector3SO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Vector3SO(void* ptr) noexcept : ::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>(ptr) {
+constexpr explicit Vector3SO(void* ptr) noexcept : GlobalNamespace::ObservableVariableSO_1<UnityEngine::Vector3>(ptr) {
 }
 
 
@@ -59,6 +58,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::Vector3SO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::Vector3SO, "", "Vector3SO");
+NEED_NO_BOX(GlobalNamespace::Vector3SO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Vector3SO, "", "Vector3SO");

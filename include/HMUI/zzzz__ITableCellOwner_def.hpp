@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
-namespace {
 namespace HMUI {
 struct TableViewSelectionType;
 }
@@ -27,7 +26,7 @@ constexpr explicit ITableCellOwner(void* ptr) noexcept : ::cordl_internals::Inte
 
 // Properties
 
- ::HMUI::TableViewSelectionType __declspec(property(get=get_selectionType))  selectionType;
+ HMUI::TableViewSelectionType __declspec(property(get=get_selectionType))  selectionType;
 
  bool __declspec(property(get=get_canSelectSelectedCell))  canSelectSelectedCell;
 
@@ -37,7 +36,7 @@ constexpr explicit ITableCellOwner(void* ptr) noexcept : ::cordl_internals::Inte
 // Methods
 
 /// @brief Method get_selectionType addr 0x0 size 0xffffffffffffffff virtual true final false
- ::HMUI::TableViewSelectionType get_selectionType() ;
+ HMUI::TableViewSelectionType get_selectionType() ;
 
 /// @brief Method get_canSelectSelectedCell addr 0x0 size 0xffffffffffffffff virtual true final false
  bool get_canSelectSelectedCell() ;
@@ -49,6 +48,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HMUI
-} // end anonymous namespace
-NEED_NO_BOX(::HMUI::ITableCellOwner);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::ITableCellOwner, "HMUI", "ITableCellOwner");
+NEED_NO_BOX(HMUI::ITableCellOwner);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::ITableCellOwner, "HMUI", "ITableCellOwner");

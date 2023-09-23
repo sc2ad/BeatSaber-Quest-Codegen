@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 struct HelpBoxMessageType;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::UIElements::HelpBoxMessageType const None;
+static UnityEngine::UIElements::HelpBoxMessageType const None;
 
 /// @brief Field Info offset 0
-static ::UnityEngine::UIElements::HelpBoxMessageType const Info;
+static UnityEngine::UIElements::HelpBoxMessageType const Info;
 
 /// @brief Field Warning offset 0
-static ::UnityEngine::UIElements::HelpBoxMessageType const Warning;
+static UnityEngine::UIElements::HelpBoxMessageType const Warning;
 
 /// @brief Field Error offset 0
-static ::UnityEngine::UIElements::HelpBoxMessageType const Error;
+static UnityEngine::UIElements::HelpBoxMessageType const Error;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::HelpBoxMessageType, "UnityEngine.UIElements", "HelpBoxMessageType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::HelpBoxMessageType, "UnityEngine.UIElements", "HelpBoxMessageType");

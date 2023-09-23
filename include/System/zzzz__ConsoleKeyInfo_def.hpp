@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System {
-struct ConsoleModifiers;
-}
 namespace System {
 struct ConsoleKey;
+}
+namespace System {
+struct ConsoleModifiers;
 }
 // Forward declare root types
 namespace System {
@@ -23,8 +22,8 @@ namespace System {
 struct CORDL_TYPE ConsoleKeyInfo : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "_keyChar", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "_key", ty: "::System::ConsoleKey", modifiers: "", def_value: None }, CppParam { name: "_mods", ty: "::System::ConsoleModifiers", modifiers: "", def_value: None }]
-constexpr ConsoleKeyInfo(char16_t _keyChar, ::System::ConsoleKey _key, ::System::ConsoleModifiers _mods) noexcept;
+// Ctor Parameters [CppParam { name: "_keyChar", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "_key", ty: "System::ConsoleKey", modifiers: "", def_value: None }, CppParam { name: "_mods", ty: "System::ConsoleModifiers", modifiers: "", def_value: None }]
+constexpr ConsoleKeyInfo(char16_t _keyChar, System::ConsoleKey _key, System::ConsoleModifiers _mods) noexcept;
 
 
                     constexpr ConsoleKeyInfo(ConsoleKeyInfo const&) = default;
@@ -63,42 +62,42 @@ constexpr void __set__keyChar(char16_t value) ;
 
 constexpr char16_t __get__keyChar() const;
 
- ::System::ConsoleKey __declspec(property(get=__get__key, put=__set__key))  _key;
+ System::ConsoleKey __declspec(property(get=__get__key, put=__set__key))  _key;
 
-constexpr void __set__key(::System::ConsoleKey value) ;
+constexpr void __set__key(System::ConsoleKey value) ;
 
-constexpr ::System::ConsoleKey __get__key() const;
+constexpr System::ConsoleKey __get__key() const;
 
- ::System::ConsoleModifiers __declspec(property(get=__get__mods, put=__set__mods))  _mods;
+ System::ConsoleModifiers __declspec(property(get=__get__mods, put=__set__mods))  _mods;
 
-constexpr void __set__mods(::System::ConsoleModifiers value) ;
+constexpr void __set__mods(System::ConsoleModifiers value) ;
 
-constexpr ::System::ConsoleModifiers __get__mods() const;
+constexpr System::ConsoleModifiers __get__mods() const;
 
 
 // Properties
 
  char16_t __declspec(property(get=get_KeyChar))  KeyChar;
 
- ::System::ConsoleKey __declspec(property(get=get_Key))  Key;
+ System::ConsoleKey __declspec(property(get=get_Key))  Key;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x2461920 size 0xa8 virtual false final false
- void _ctor(char16_t keyChar, ::System::ConsoleKey key, bool shift, bool alt, bool control) ;
+ void _ctor(char16_t keyChar, System::ConsoleKey key, bool shift, bool alt, bool control) ;
 
 /// @brief Method get_KeyChar addr 0x24619c8 size 0x8 virtual false final false
  char16_t get_KeyChar() ;
 
 /// @brief Method get_Key addr 0x24619d0 size 0x8 virtual false final false
- ::System::ConsoleKey get_Key() ;
+ System::ConsoleKey get_Key() ;
 
 /// @brief Method Equals addr 0x24619d8 size 0x98 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method Equals addr 0x2461a70 size 0x34 virtual false final false
- bool Equals(::System::ConsoleKeyInfo obj) ;
+ bool Equals(System::ConsoleKeyInfo obj) ;
 
 /// @brief Method GetHashCode addr 0x2461aa4 size 0x14 virtual true final false
  int32_t GetHashCode() ;
@@ -107,5 +106,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::ConsoleKeyInfo, "System", "ConsoleKeyInfo");
+DEFINE_IL2CPP_ARG_TYPE(System::ConsoleKeyInfo, "System", "ConsoleKeyInfo");

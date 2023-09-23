@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class IEqualityComparer_1;
@@ -15,11 +14,15 @@ class LowLevelDictionary_2;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue,typename T>
-class ____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1;
+class System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
-class ____System__Collections__Generic__LowLevelDictionary_2__Entry;
+class System__Collections__Generic__LowLevelDictionary_2__Entry;
+}
+namespace System::Collections::Generic {
+template<::cordl_internals::il2cpp_reference_type TValue>
+class LowLevelDictionary_2<int32_t,TValue>;
 }
 namespace System::Collections::Generic {
 template<::cordl_internals::il2cpp_reference_type TKey,::cordl_internals::il2cpp_reference_type TValue>
@@ -27,23 +30,19 @@ class LowLevelDictionary_2<TKey,TValue>;
 }
 namespace System::Collections::Generic {
 template<::cordl_internals::il2cpp_reference_type TValue>
-class LowLevelDictionary_2<int32_t,TValue>;
-}
-namespace System::Collections::Generic {
-template<::cordl_internals::il2cpp_reference_type TValue>
-class ____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1<int32_t,TValue,int32_t>;
+class System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1<int32_t,TValue,int32_t>;
 }
 namespace System::Collections::Generic {
 template<::cordl_internals::il2cpp_reference_type TKey,::cordl_internals::il2cpp_reference_type TValue,::cordl_internals::il2cpp_reference_type T>
-class ____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1<TKey,TValue,T>;
-}
-namespace System::Collections::Generic {
-template<::cordl_internals::il2cpp_reference_type TValue>
-class ____System__Collections__Generic__LowLevelDictionary_2__Entry<int32_t,TValue>;
+class System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1<TKey,TValue,T>;
 }
 namespace System::Collections::Generic {
 template<::cordl_internals::il2cpp_reference_type TKey,::cordl_internals::il2cpp_reference_type TValue>
-class ____System__Collections__Generic__LowLevelDictionary_2__Entry<TKey,TValue>;
+class System__Collections__Generic__LowLevelDictionary_2__Entry<TKey,TValue>;
+}
+namespace System::Collections::Generic {
+template<::cordl_internals::il2cpp_reference_type TValue>
+class System__Collections__Generic__LowLevelDictionary_2__Entry<int32_t,TValue>;
 }
 // Type: ::Entry
 // Type: ::DefaultComparer`1
@@ -56,37 +55,37 @@ template<::cordl_internals::il2cpp_reference_type TKey,::cordl_internals::il2cpp
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3833))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3833), inst: 80 })
 // CS Name: System.Collections.Generic.LowLevelDictionary`2::Entry
-class CORDL_TYPE ____System__Collections__Generic__LowLevelDictionary_2__Entry<TKey,TValue> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Collections__Generic__LowLevelDictionary_2__Entry<TKey,TValue> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____System__Collections__Generic__LowLevelDictionary_2__Entry() = default;
+virtual ~System__Collections__Generic__LowLevelDictionary_2__Entry() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__Generic__LowLevelDictionary_2__Entry", modifiers: " const&", def_value: None }]
-constexpr ____System__Collections__Generic__LowLevelDictionary_2__Entry(____System__Collections__Generic__LowLevelDictionary_2__Entry const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__Generic__LowLevelDictionary_2__Entry", modifiers: " const&", def_value: None }]
+constexpr System__Collections__Generic__LowLevelDictionary_2__Entry(System__Collections__Generic__LowLevelDictionary_2__Entry const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__Generic__LowLevelDictionary_2__Entry", modifiers: "&&", def_value: None }]
-constexpr ____System__Collections__Generic__LowLevelDictionary_2__Entry(____System__Collections__Generic__LowLevelDictionary_2__Entry&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__Generic__LowLevelDictionary_2__Entry", modifiers: "&&", def_value: None }]
+constexpr System__Collections__Generic__LowLevelDictionary_2__Entry(System__Collections__Generic__LowLevelDictionary_2__Entry&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Collections__Generic__LowLevelDictionary_2__Entry(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Collections__Generic__LowLevelDictionary_2__Entry(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Collections__Generic__LowLevelDictionary_2__Entry& operator=(std::nullptr_t) noexcept {
+  constexpr System__Collections__Generic__LowLevelDictionary_2__Entry& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Collections__Generic__LowLevelDictionary_2__Entry& operator=(void* o) noexcept {
+  constexpr System__Collections__Generic__LowLevelDictionary_2__Entry& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Collections__Generic__LowLevelDictionary_2__Entry& operator=(____System__Collections__Generic__LowLevelDictionary_2__Entry&& o) noexcept = default;
-  constexpr ____System__Collections__Generic__LowLevelDictionary_2__Entry& operator=(____System__Collections__Generic__LowLevelDictionary_2__Entry const& o) noexcept = default;
+  constexpr System__Collections__Generic__LowLevelDictionary_2__Entry& operator=(System__Collections__Generic__LowLevelDictionary_2__Entry&& o) noexcept = default;
+  constexpr System__Collections__Generic__LowLevelDictionary_2__Entry& operator=(System__Collections__Generic__LowLevelDictionary_2__Entry const& o) noexcept = default;
                 
 
 
@@ -104,17 +103,17 @@ constexpr void __set__value(TValue value) ;
 
 constexpr TValue __get__value() const;
 
- ::System::Collections::Generic::____System__Collections__Generic__LowLevelDictionary_2__Entry<TKey,TValue> __declspec(property(get=__get__next, put=__set__next))  _next;
+ System::Collections::Generic::System__Collections__Generic__LowLevelDictionary_2__Entry<TKey,TValue> __declspec(property(get=__get__next, put=__set__next))  _next;
 
-constexpr void __set__next(::System::Collections::Generic::____System__Collections__Generic__LowLevelDictionary_2__Entry<TKey,TValue> value) ;
+constexpr void __set__next(System::Collections::Generic::System__Collections__Generic__LowLevelDictionary_2__Entry<TKey,TValue> value) ;
 
-constexpr ::System::Collections::Generic::____System__Collections__Generic__LowLevelDictionary_2__Entry<TKey,TValue> __get__next() const;
+constexpr System::Collections::Generic::System__Collections__Generic__LowLevelDictionary_2__Entry<TKey,TValue> __get__next() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____System__Collections__Generic__LowLevelDictionary_2__Entry() ;
+explicit System__Collections__Generic__LowLevelDictionary_2__Entry() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -131,37 +130,37 @@ template<::cordl_internals::il2cpp_reference_type TValue>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3833))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3833), inst: 1532 })
 // CS Name: System.Collections.Generic.LowLevelDictionary`2::Entry
-class CORDL_TYPE ____System__Collections__Generic__LowLevelDictionary_2__Entry<int32_t,TValue> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Collections__Generic__LowLevelDictionary_2__Entry<int32_t,TValue> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____System__Collections__Generic__LowLevelDictionary_2__Entry() = default;
+virtual ~System__Collections__Generic__LowLevelDictionary_2__Entry() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__Generic__LowLevelDictionary_2__Entry", modifiers: " const&", def_value: None }]
-constexpr ____System__Collections__Generic__LowLevelDictionary_2__Entry(____System__Collections__Generic__LowLevelDictionary_2__Entry const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__Generic__LowLevelDictionary_2__Entry", modifiers: " const&", def_value: None }]
+constexpr System__Collections__Generic__LowLevelDictionary_2__Entry(System__Collections__Generic__LowLevelDictionary_2__Entry const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__Generic__LowLevelDictionary_2__Entry", modifiers: "&&", def_value: None }]
-constexpr ____System__Collections__Generic__LowLevelDictionary_2__Entry(____System__Collections__Generic__LowLevelDictionary_2__Entry&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__Generic__LowLevelDictionary_2__Entry", modifiers: "&&", def_value: None }]
+constexpr System__Collections__Generic__LowLevelDictionary_2__Entry(System__Collections__Generic__LowLevelDictionary_2__Entry&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Collections__Generic__LowLevelDictionary_2__Entry(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Collections__Generic__LowLevelDictionary_2__Entry(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Collections__Generic__LowLevelDictionary_2__Entry& operator=(std::nullptr_t) noexcept {
+  constexpr System__Collections__Generic__LowLevelDictionary_2__Entry& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Collections__Generic__LowLevelDictionary_2__Entry& operator=(void* o) noexcept {
+  constexpr System__Collections__Generic__LowLevelDictionary_2__Entry& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Collections__Generic__LowLevelDictionary_2__Entry& operator=(____System__Collections__Generic__LowLevelDictionary_2__Entry&& o) noexcept = default;
-  constexpr ____System__Collections__Generic__LowLevelDictionary_2__Entry& operator=(____System__Collections__Generic__LowLevelDictionary_2__Entry const& o) noexcept = default;
+  constexpr System__Collections__Generic__LowLevelDictionary_2__Entry& operator=(System__Collections__Generic__LowLevelDictionary_2__Entry&& o) noexcept = default;
+  constexpr System__Collections__Generic__LowLevelDictionary_2__Entry& operator=(System__Collections__Generic__LowLevelDictionary_2__Entry const& o) noexcept = default;
                 
 
 
@@ -179,17 +178,17 @@ constexpr void __set__value(TValue value) ;
 
 constexpr TValue __get__value() const;
 
- ::System::Collections::Generic::____System__Collections__Generic__LowLevelDictionary_2__Entry<int32_t,TValue> __declspec(property(get=__get__next, put=__set__next))  _next;
+ System::Collections::Generic::System__Collections__Generic__LowLevelDictionary_2__Entry<int32_t,TValue> __declspec(property(get=__get__next, put=__set__next))  _next;
 
-constexpr void __set__next(::System::Collections::Generic::____System__Collections__Generic__LowLevelDictionary_2__Entry<int32_t,TValue> value) ;
+constexpr void __set__next(System::Collections::Generic::System__Collections__Generic__LowLevelDictionary_2__Entry<int32_t,TValue> value) ;
 
-constexpr ::System::Collections::Generic::____System__Collections__Generic__LowLevelDictionary_2__Entry<int32_t,TValue> __get__next() const;
+constexpr System::Collections::Generic::System__Collections__Generic__LowLevelDictionary_2__Entry<int32_t,TValue> __get__next() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____System__Collections__Generic__LowLevelDictionary_2__Entry() ;
+explicit System__Collections__Generic__LowLevelDictionary_2__Entry() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -206,40 +205,40 @@ template<::cordl_internals::il2cpp_reference_type TValue>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3834))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3834), inst: 5150 })
 // CS Name: System.Collections.Generic.LowLevelDictionary`2::DefaultComparer`1
-class CORDL_TYPE ____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1<int32_t,TValue,int32_t> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1<int32_t,TValue,int32_t> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEqualityComparer_1<int32_t>
-constexpr operator  ::System::Collections::Generic::IEqualityComparer_1<int32_t>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEqualityComparer_1<int32_t>
+constexpr operator  System::Collections::Generic::IEqualityComparer_1<int32_t>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1() = default;
+virtual ~System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1", modifiers: " const&", def_value: None }]
-constexpr ____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1(____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1", modifiers: " const&", def_value: None }]
+constexpr System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1(System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1", modifiers: "&&", def_value: None }]
-constexpr ____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1(____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1", modifiers: "&&", def_value: None }]
+constexpr System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1(System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1& operator=(std::nullptr_t) noexcept {
+  constexpr System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1& operator=(void* o) noexcept {
+  constexpr System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1& operator=(____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1&& o) noexcept = default;
-  constexpr ____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1& operator=(____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1 const& o) noexcept = default;
+  constexpr System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1& operator=(System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1&& o) noexcept = default;
+  constexpr System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1& operator=(System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1 const& o) noexcept = default;
                 
 
 
@@ -252,7 +251,7 @@ constexpr explicit ____System__Collections__Generic__LowLevelDictionary_2__Defau
  int32_t GetHashCode(int32_t obj) ;
 
 // Ctor Parameters []
-explicit ____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1() ;
+explicit System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -269,40 +268,40 @@ template<::cordl_internals::il2cpp_reference_type TKey,::cordl_internals::il2cpp
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3834))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3834), inst: 5155 })
 // CS Name: System.Collections.Generic.LowLevelDictionary`2::DefaultComparer`1
-class CORDL_TYPE ____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1<TKey,TValue,T> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1<TKey,TValue,T> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEqualityComparer_1<T>
-constexpr operator  ::System::Collections::Generic::IEqualityComparer_1<T>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEqualityComparer_1<T>
+constexpr operator  System::Collections::Generic::IEqualityComparer_1<T>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1() = default;
+virtual ~System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1", modifiers: " const&", def_value: None }]
-constexpr ____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1(____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1", modifiers: " const&", def_value: None }]
+constexpr System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1(System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1", modifiers: "&&", def_value: None }]
-constexpr ____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1(____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1", modifiers: "&&", def_value: None }]
+constexpr System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1(System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1& operator=(std::nullptr_t) noexcept {
+  constexpr System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1& operator=(void* o) noexcept {
+  constexpr System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1& operator=(____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1&& o) noexcept = default;
-  constexpr ____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1& operator=(____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1 const& o) noexcept = default;
+  constexpr System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1& operator=(System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1&& o) noexcept = default;
+  constexpr System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1& operator=(System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1 const& o) noexcept = default;
                 
 
 
@@ -315,7 +314,7 @@ constexpr explicit ____System__Collections__Generic__LowLevelDictionary_2__Defau
  int32_t GetHashCode(T obj) ;
 
 // Ctor Parameters []
-explicit ____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1() ;
+explicit System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -336,9 +335,9 @@ class CORDL_TYPE LowLevelDictionary_2<TKey,TValue> : public ::bs_hook::Il2CppWra
 public:
 // Declarations
 template<typename T>
-using DefaultComparer_1 = ::System::Collections::Generic::____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1<TKey, TValue, TKey, TValue, T>;
+using DefaultComparer_1 = System::Collections::Generic::System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1<TKey, TValue, TKey, TValue, T>;
 
-using Entry = ::System::Collections::Generic::____System__Collections__Generic__LowLevelDictionary_2__Entry<TKey, TValue>;
+using Entry = System::Collections::Generic::System__Collections__Generic__LowLevelDictionary_2__Entry<TKey, TValue>;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -373,11 +372,11 @@ constexpr explicit LowLevelDictionary_2(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 // Fields
 
- ::ArrayW<::System::Collections::Generic::____System__Collections__Generic__LowLevelDictionary_2__Entry<TKey,TValue>> __declspec(property(get=__get__buckets, put=__set__buckets))  _buckets;
+ ::ArrayW<System::Collections::Generic::System__Collections__Generic__LowLevelDictionary_2__Entry<TKey,TValue>> __declspec(property(get=__get__buckets, put=__set__buckets))  _buckets;
 
-constexpr void __set__buckets(::ArrayW<::System::Collections::Generic::____System__Collections__Generic__LowLevelDictionary_2__Entry<TKey,TValue>> value) ;
+constexpr void __set__buckets(::ArrayW<System::Collections::Generic::System__Collections__Generic__LowLevelDictionary_2__Entry<TKey,TValue>> value) ;
 
-constexpr ::ArrayW<::System::Collections::Generic::____System__Collections__Generic__LowLevelDictionary_2__Entry<TKey,TValue>> __get__buckets() const;
+constexpr ::ArrayW<System::Collections::Generic::System__Collections__Generic__LowLevelDictionary_2__Entry<TKey,TValue>> __get__buckets() const;
 
  int32_t __declspec(property(get=__get__numEntries, put=__set__numEntries))  _numEntries;
 
@@ -391,11 +390,11 @@ constexpr void __set__version(int32_t value) ;
 
 constexpr int32_t __get__version() const;
 
- ::System::Collections::Generic::IEqualityComparer_1<TKey> __declspec(property(get=__get__comparer, put=__set__comparer))  _comparer;
+ System::Collections::Generic::IEqualityComparer_1<TKey> __declspec(property(get=__get__comparer, put=__set__comparer))  _comparer;
 
-constexpr void __set__comparer(::System::Collections::Generic::IEqualityComparer_1<TKey> value) ;
+constexpr void __set__comparer(System::Collections::Generic::IEqualityComparer_1<TKey> value) ;
 
-constexpr ::System::Collections::Generic::IEqualityComparer_1<TKey> __get__comparer() const;
+constexpr System::Collections::Generic::IEqualityComparer_1<TKey> __get__comparer() const;
 
 
 // Properties
@@ -411,11 +410,11 @@ explicit LowLevelDictionary_2() ;
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "comparer", ty: "::System::Collections::Generic::IEqualityComparer_1<TKey>", modifiers: "", def_value: None }]
-explicit LowLevelDictionary_2(int32_t capacity, ::System::Collections::Generic::IEqualityComparer_1<TKey> comparer) ;
+// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "comparer", ty: "System::Collections::Generic::IEqualityComparer_1<TKey>", modifiers: "", def_value: None }]
+explicit LowLevelDictionary_2(int32_t capacity, System::Collections::Generic::IEqualityComparer_1<TKey> comparer) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(int32_t capacity, ::System::Collections::Generic::IEqualityComparer_1<TKey> comparer) ;
+ void _ctor(int32_t capacity, System::Collections::Generic::IEqualityComparer_1<TKey> comparer) ;
 
 /// @brief Method set_Item addr 0x0 size 0xffffffffffffffff virtual false final false
  void set_Item(TKey key, TValue value) ;
@@ -427,10 +426,10 @@ explicit LowLevelDictionary_2(int32_t capacity, ::System::Collections::Generic::
  bool Remove(TKey key) ;
 
 /// @brief Method Find addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Collections::Generic::____System__Collections__Generic__LowLevelDictionary_2__Entry<TKey,TValue> Find(TKey key) ;
+ System::Collections::Generic::System__Collections__Generic__LowLevelDictionary_2__Entry<TKey,TValue> Find(TKey key) ;
 
 /// @brief Method UncheckedAdd addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Collections::Generic::____System__Collections__Generic__LowLevelDictionary_2__Entry<TKey,TValue> UncheckedAdd(TKey key, TValue value) ;
+ System::Collections::Generic::System__Collections__Generic__LowLevelDictionary_2__Entry<TKey,TValue> UncheckedAdd(TKey key, TValue value) ;
 
 /// @brief Method ExpandBuckets addr 0x0 size 0xffffffffffffffff virtual false final false
  void ExpandBuckets() ;
@@ -454,9 +453,9 @@ class CORDL_TYPE LowLevelDictionary_2<int32_t,TValue> : public ::bs_hook::Il2Cpp
 public:
 // Declarations
 template<typename T>
-using DefaultComparer_1 = ::System::Collections::Generic::____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1<int32_t, TValue, TKey, TValue, T>;
+using DefaultComparer_1 = System::Collections::Generic::System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1<int32_t, TValue, TKey, TValue, T>;
 
-using Entry = ::System::Collections::Generic::____System__Collections__Generic__LowLevelDictionary_2__Entry<int32_t, TValue>;
+using Entry = System::Collections::Generic::System__Collections__Generic__LowLevelDictionary_2__Entry<int32_t, TValue>;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -491,11 +490,11 @@ constexpr explicit LowLevelDictionary_2(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 // Fields
 
- ::ArrayW<::System::Collections::Generic::____System__Collections__Generic__LowLevelDictionary_2__Entry<int32_t,TValue>> __declspec(property(get=__get__buckets, put=__set__buckets))  _buckets;
+ ::ArrayW<System::Collections::Generic::System__Collections__Generic__LowLevelDictionary_2__Entry<int32_t,TValue>> __declspec(property(get=__get__buckets, put=__set__buckets))  _buckets;
 
-constexpr void __set__buckets(::ArrayW<::System::Collections::Generic::____System__Collections__Generic__LowLevelDictionary_2__Entry<int32_t,TValue>> value) ;
+constexpr void __set__buckets(::ArrayW<System::Collections::Generic::System__Collections__Generic__LowLevelDictionary_2__Entry<int32_t,TValue>> value) ;
 
-constexpr ::ArrayW<::System::Collections::Generic::____System__Collections__Generic__LowLevelDictionary_2__Entry<int32_t,TValue>> __get__buckets() const;
+constexpr ::ArrayW<System::Collections::Generic::System__Collections__Generic__LowLevelDictionary_2__Entry<int32_t,TValue>> __get__buckets() const;
 
  int32_t __declspec(property(get=__get__numEntries, put=__set__numEntries))  _numEntries;
 
@@ -509,11 +508,11 @@ constexpr void __set__version(int32_t value) ;
 
 constexpr int32_t __get__version() const;
 
- ::System::Collections::Generic::IEqualityComparer_1<int32_t> __declspec(property(get=__get__comparer, put=__set__comparer))  _comparer;
+ System::Collections::Generic::IEqualityComparer_1<int32_t> __declspec(property(get=__get__comparer, put=__set__comparer))  _comparer;
 
-constexpr void __set__comparer(::System::Collections::Generic::IEqualityComparer_1<int32_t> value) ;
+constexpr void __set__comparer(System::Collections::Generic::IEqualityComparer_1<int32_t> value) ;
 
-constexpr ::System::Collections::Generic::IEqualityComparer_1<int32_t> __get__comparer() const;
+constexpr System::Collections::Generic::IEqualityComparer_1<int32_t> __get__comparer() const;
 
 
 // Properties
@@ -529,11 +528,11 @@ explicit LowLevelDictionary_2() ;
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "comparer", ty: "::System::Collections::Generic::IEqualityComparer_1<int32_t>", modifiers: "", def_value: None }]
-explicit LowLevelDictionary_2(int32_t capacity, ::System::Collections::Generic::IEqualityComparer_1<int32_t> comparer) ;
+// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "comparer", ty: "System::Collections::Generic::IEqualityComparer_1<int32_t>", modifiers: "", def_value: None }]
+explicit LowLevelDictionary_2(int32_t capacity, System::Collections::Generic::IEqualityComparer_1<int32_t> comparer) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(int32_t capacity, ::System::Collections::Generic::IEqualityComparer_1<int32_t> comparer) ;
+ void _ctor(int32_t capacity, System::Collections::Generic::IEqualityComparer_1<int32_t> comparer) ;
 
 /// @brief Method set_Item addr 0x0 size 0xffffffffffffffff virtual false final false
  void set_Item(int32_t key, TValue value) ;
@@ -545,10 +544,10 @@ explicit LowLevelDictionary_2(int32_t capacity, ::System::Collections::Generic::
  bool Remove(int32_t key) ;
 
 /// @brief Method Find addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Collections::Generic::____System__Collections__Generic__LowLevelDictionary_2__Entry<int32_t,TValue> Find(int32_t key) ;
+ System::Collections::Generic::System__Collections__Generic__LowLevelDictionary_2__Entry<int32_t,TValue> Find(int32_t key) ;
 
 /// @brief Method UncheckedAdd addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Collections::Generic::____System__Collections__Generic__LowLevelDictionary_2__Entry<int32_t,TValue> UncheckedAdd(int32_t key, TValue value) ;
+ System::Collections::Generic::System__Collections__Generic__LowLevelDictionary_2__Entry<int32_t,TValue> UncheckedAdd(int32_t key, TValue value) ;
 
 /// @brief Method ExpandBuckets addr 0x0 size 0xffffffffffffffff virtual false final false
  void ExpandBuckets() ;
@@ -560,7 +559,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Collections::Generic
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Generic::LowLevelDictionary_2, "System.Collections.Generic", "LowLevelDictionary`2");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Generic::____System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1, "System.Collections.Generic", "LowLevelDictionary`2/DefaultComparer`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Generic::____System__Collections__Generic__LowLevelDictionary_2__Entry, "System.Collections.Generic", "LowLevelDictionary`2/Entry");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::LowLevelDictionary_2, "System.Collections.Generic", "LowLevelDictionary`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::System__Collections__Generic__LowLevelDictionary_2__DefaultComparer_1, "System.Collections.Generic", "LowLevelDictionary`2/DefaultComparer`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::System__Collections__Generic__LowLevelDictionary_2__Entry, "System.Collections.Generic", "LowLevelDictionary`2/Entry");

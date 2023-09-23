@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__BoolSO_def.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class BoolWithDefaultValueSO;
@@ -12,7 +11,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13896))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13897))
 // CS Name: BoolWithDefaultValueSO
-class CORDL_TYPE BoolWithDefaultValueSO : public ::GlobalNamespace::BoolSO {
+class CORDL_TYPE BoolWithDefaultValueSO : public GlobalNamespace::BoolSO {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr BoolWithDefaultValueSO(BoolWithDefaultValueSO const& ) noexcept = defa
 constexpr BoolWithDefaultValueSO(BoolWithDefaultValueSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BoolWithDefaultValueSO(void* ptr) noexcept : ::GlobalNamespace::BoolSO(ptr) {
+constexpr explicit BoolWithDefaultValueSO(void* ptr) noexcept : GlobalNamespace::BoolSO(ptr) {
 }
 
 
@@ -70,6 +69,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BoolWithDefaultValueSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BoolWithDefaultValueSO, "", "BoolWithDefaultValueSO");
+NEED_NO_BOX(GlobalNamespace::BoolWithDefaultValueSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BoolWithDefaultValueSO, "", "BoolWithDefaultValueSO");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__DropdownMenuItem_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class DropdownMenuSeparator;
@@ -13,7 +12,7 @@ namespace UnityEngine::UIElements {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7032))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7033))
 // CS Name: UnityEngine.UIElements.DropdownMenuSeparator
-class CORDL_TYPE DropdownMenuSeparator : public ::UnityEngine::UIElements::DropdownMenuItem {
+class CORDL_TYPE DropdownMenuSeparator : public UnityEngine::UIElements::DropdownMenuItem {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr DropdownMenuSeparator(DropdownMenuSeparator const& ) noexcept = defaul
 constexpr DropdownMenuSeparator(DropdownMenuSeparator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DropdownMenuSeparator(void* ptr) noexcept : ::UnityEngine::UIElements::DropdownMenuItem(ptr) {
+constexpr explicit DropdownMenuSeparator(void* ptr) noexcept : UnityEngine::UIElements::DropdownMenuItem(ptr) {
 }
 
 
@@ -68,6 +67,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::DropdownMenuSeparator);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::DropdownMenuSeparator, "UnityEngine.UIElements", "DropdownMenuSeparator");
+NEED_NO_BOX(UnityEngine::UIElements::DropdownMenuSeparator);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::DropdownMenuSeparator, "UnityEngine.UIElements", "DropdownMenuSeparator");

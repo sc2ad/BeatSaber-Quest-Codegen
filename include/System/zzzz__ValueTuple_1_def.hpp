@@ -4,18 +4,24 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
+namespace System::Collections {
+class IStructuralEquatable;
+}
 namespace System::Collections {
 class IEqualityComparer;
 }
-namespace System::Collections {
-class IComparer;
+namespace System {
+template<typename T>
+class IComparable_1;
+}
+namespace System::Runtime::CompilerServices {
+class ITuple;
 }
 namespace System::Collections {
 class IStructuralComparable;
 }
-namespace System::Collections {
-class IStructuralEquatable;
+namespace System {
+class IValueTupleInternal;
 }
 namespace System {
 template<typename T>
@@ -24,15 +30,8 @@ class IEquatable_1;
 namespace System {
 class IComparable;
 }
-namespace System::Runtime::CompilerServices {
-class ITuple;
-}
-namespace System {
-template<typename T>
-class IComparable_1;
-}
-namespace System {
-class IValueTupleInternal;
+namespace System::Collections {
+class IComparer;
 }
 // Forward declare root types
 namespace System {
@@ -53,32 +52,32 @@ namespace System {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T1>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2505))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2505)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2505), inst: 2 })
 // CS Name: System.ValueTuple`1
 struct CORDL_TYPE ValueTuple_1<T1> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::System::ValueTuple_1<T1>>
-constexpr operator  ::System::IEquatable_1<::System::ValueTuple_1<T1>>() const;
+/// @brief Convert operator to System::IEquatable_1<System::ValueTuple_1<T1>>
+constexpr operator  System::IEquatable_1<System::ValueTuple_1<T1>>() const;
 
-/// @brief Convert operator to ::System::Collections::IStructuralEquatable
-constexpr operator  ::System::Collections::IStructuralEquatable() const;
+/// @brief Convert operator to System::Collections::IStructuralEquatable
+constexpr operator  System::Collections::IStructuralEquatable() const;
 
-/// @brief Convert operator to ::System::Collections::IStructuralComparable
-constexpr operator  ::System::Collections::IStructuralComparable() const;
+/// @brief Convert operator to System::Collections::IStructuralComparable
+constexpr operator  System::Collections::IStructuralComparable() const;
 
-/// @brief Convert operator to ::System::IComparable
-constexpr operator  ::System::IComparable() const;
+/// @brief Convert operator to System::IComparable
+constexpr operator  System::IComparable() const;
 
-/// @brief Convert operator to ::System::IComparable_1<::System::ValueTuple_1<T1>>
-constexpr operator  ::System::IComparable_1<::System::ValueTuple_1<T1>>() const;
+/// @brief Convert operator to System::IComparable_1<System::ValueTuple_1<T1>>
+constexpr operator  System::IComparable_1<System::ValueTuple_1<T1>>() const;
 
-/// @brief Convert operator to ::System::IValueTupleInternal
-constexpr operator  ::System::IValueTupleInternal() const;
+/// @brief Convert operator to System::IValueTupleInternal
+constexpr operator  System::IValueTupleInternal() const;
 
-/// @brief Convert operator to ::System::Runtime::CompilerServices::ITuple
-constexpr operator  ::System::Runtime::CompilerServices::ITuple() const;
+/// @brief Convert operator to System::Runtime::CompilerServices::ITuple
+constexpr operator  System::Runtime::CompilerServices::ITuple() const;
 
 // Ctor Parameters [CppParam { name: "Item1", ty: "T1", modifiers: "", def_value: None }]
 constexpr ValueTuple_1(T1 Item1) noexcept;
@@ -135,28 +134,28 @@ constexpr T1 __get_Item1() const;
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final true
- bool Equals(::System::ValueTuple_1<T1> other) ;
+ bool Equals(System::ValueTuple_1<T1> other) ;
 
 /// @brief Method System.Collections.IStructuralEquatable.Equals addr 0x0 size 0xffffffffffffffff virtual true final true
- bool System_Collections_IStructuralEquatable_Equals(::bs_hook::Il2CppWrapperType other, ::System::Collections::IEqualityComparer comparer) ;
+ bool System_Collections_IStructuralEquatable_Equals(::bs_hook::Il2CppWrapperType other, System::Collections::IEqualityComparer comparer) ;
 
 /// @brief Method System.IComparable.CompareTo addr 0x0 size 0xffffffffffffffff virtual true final true
  int32_t System_IComparable_CompareTo(::bs_hook::Il2CppWrapperType other) ;
 
 /// @brief Method CompareTo addr 0x0 size 0xffffffffffffffff virtual true final true
- int32_t CompareTo(::System::ValueTuple_1<T1> other) ;
+ int32_t CompareTo(System::ValueTuple_1<T1> other) ;
 
 /// @brief Method System.Collections.IStructuralComparable.CompareTo addr 0x0 size 0xffffffffffffffff virtual true final true
- int32_t System_Collections_IStructuralComparable_CompareTo(::bs_hook::Il2CppWrapperType other, ::System::Collections::IComparer comparer) ;
+ int32_t System_Collections_IStructuralComparable_CompareTo(::bs_hook::Il2CppWrapperType other, System::Collections::IComparer comparer) ;
 
 /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t GetHashCode() ;
 
 /// @brief Method System.Collections.IStructuralEquatable.GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final true
- int32_t System_Collections_IStructuralEquatable_GetHashCode(::System::Collections::IEqualityComparer comparer) ;
+ int32_t System_Collections_IStructuralEquatable_GetHashCode(System::Collections::IEqualityComparer comparer) ;
 
 /// @brief Method System.IValueTupleInternal.GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final true
- int32_t System_IValueTupleInternal_GetHashCode(::System::Collections::IEqualityComparer comparer) ;
+ int32_t System_IValueTupleInternal_GetHashCode(System::Collections::IEqualityComparer comparer) ;
 
 /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
  ::StringW ToString() ;
@@ -176,32 +175,32 @@ namespace System {
 // cpp template
 template<>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2505))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2505)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2505), inst: 99 })
 // CS Name: System.ValueTuple`1
 struct CORDL_TYPE ValueTuple_1<bool> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::System::ValueTuple_1<bool>>
-constexpr operator  ::System::IEquatable_1<::System::ValueTuple_1<bool>>() const;
+/// @brief Convert operator to System::IEquatable_1<System::ValueTuple_1<bool>>
+constexpr operator  System::IEquatable_1<System::ValueTuple_1<bool>>() const;
 
-/// @brief Convert operator to ::System::Collections::IStructuralEquatable
-constexpr operator  ::System::Collections::IStructuralEquatable() const;
+/// @brief Convert operator to System::Collections::IStructuralEquatable
+constexpr operator  System::Collections::IStructuralEquatable() const;
 
-/// @brief Convert operator to ::System::Collections::IStructuralComparable
-constexpr operator  ::System::Collections::IStructuralComparable() const;
+/// @brief Convert operator to System::Collections::IStructuralComparable
+constexpr operator  System::Collections::IStructuralComparable() const;
 
-/// @brief Convert operator to ::System::IComparable
-constexpr operator  ::System::IComparable() const;
+/// @brief Convert operator to System::IComparable
+constexpr operator  System::IComparable() const;
 
-/// @brief Convert operator to ::System::IComparable_1<::System::ValueTuple_1<bool>>
-constexpr operator  ::System::IComparable_1<::System::ValueTuple_1<bool>>() const;
+/// @brief Convert operator to System::IComparable_1<System::ValueTuple_1<bool>>
+constexpr operator  System::IComparable_1<System::ValueTuple_1<bool>>() const;
 
-/// @brief Convert operator to ::System::IValueTupleInternal
-constexpr operator  ::System::IValueTupleInternal() const;
+/// @brief Convert operator to System::IValueTupleInternal
+constexpr operator  System::IValueTupleInternal() const;
 
-/// @brief Convert operator to ::System::Runtime::CompilerServices::ITuple
-constexpr operator  ::System::Runtime::CompilerServices::ITuple() const;
+/// @brief Convert operator to System::Runtime::CompilerServices::ITuple
+constexpr operator  System::Runtime::CompilerServices::ITuple() const;
 
 // Ctor Parameters [CppParam { name: "Item1", ty: "bool", modifiers: "", def_value: None }]
 constexpr ValueTuple_1(bool Item1) noexcept;
@@ -258,28 +257,28 @@ constexpr bool __get_Item1() const;
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final true
- bool Equals(::System::ValueTuple_1<bool> other) ;
+ bool Equals(System::ValueTuple_1<bool> other) ;
 
 /// @brief Method System.Collections.IStructuralEquatable.Equals addr 0x0 size 0xffffffffffffffff virtual true final true
- bool System_Collections_IStructuralEquatable_Equals(::bs_hook::Il2CppWrapperType other, ::System::Collections::IEqualityComparer comparer) ;
+ bool System_Collections_IStructuralEquatable_Equals(::bs_hook::Il2CppWrapperType other, System::Collections::IEqualityComparer comparer) ;
 
 /// @brief Method System.IComparable.CompareTo addr 0x0 size 0xffffffffffffffff virtual true final true
  int32_t System_IComparable_CompareTo(::bs_hook::Il2CppWrapperType other) ;
 
 /// @brief Method CompareTo addr 0x0 size 0xffffffffffffffff virtual true final true
- int32_t CompareTo(::System::ValueTuple_1<bool> other) ;
+ int32_t CompareTo(System::ValueTuple_1<bool> other) ;
 
 /// @brief Method System.Collections.IStructuralComparable.CompareTo addr 0x0 size 0xffffffffffffffff virtual true final true
- int32_t System_Collections_IStructuralComparable_CompareTo(::bs_hook::Il2CppWrapperType other, ::System::Collections::IComparer comparer) ;
+ int32_t System_Collections_IStructuralComparable_CompareTo(::bs_hook::Il2CppWrapperType other, System::Collections::IComparer comparer) ;
 
 /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t GetHashCode() ;
 
 /// @brief Method System.Collections.IStructuralEquatable.GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final true
- int32_t System_Collections_IStructuralEquatable_GetHashCode(::System::Collections::IEqualityComparer comparer) ;
+ int32_t System_Collections_IStructuralEquatable_GetHashCode(System::Collections::IEqualityComparer comparer) ;
 
 /// @brief Method System.IValueTupleInternal.GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final true
- int32_t System_IValueTupleInternal_GetHashCode(::System::Collections::IEqualityComparer comparer) ;
+ int32_t System_IValueTupleInternal_GetHashCode(System::Collections::IEqualityComparer comparer) ;
 
 /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
  ::StringW ToString() ;
@@ -294,5 +293,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::ValueTuple_1, "System", "ValueTuple`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::ValueTuple_1, "System", "ValueTuple`1");

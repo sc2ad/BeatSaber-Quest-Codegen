@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__UserProof_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
 class UserProof;
 }
@@ -14,10 +13,10 @@ class MessageWithUserProof;
 // Type: Oculus.Platform::MessageWithUserProof
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4479 }), TypeDefinitionIndex(TypeDefinitionIndex(13487)), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(13487)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4479 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13288))
 // CS Name: Oculus.Platform.MessageWithUserProof
-class CORDL_TYPE MessageWithUserProof : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserProof> {
+class CORDL_TYPE MessageWithUserProof : public Oculus::Platform::Message_1<Oculus::Platform::Models::UserProof> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr MessageWithUserProof(MessageWithUserProof const& ) noexcept = default;
 constexpr MessageWithUserProof(MessageWithUserProof&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MessageWithUserProof(void* ptr) noexcept : ::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserProof>(ptr) {
+constexpr explicit MessageWithUserProof(void* ptr) noexcept : Oculus::Platform::Message_1<Oculus::Platform::Models::UserProof>(ptr) {
 }
 
 
@@ -60,15 +59,14 @@ explicit MessageWithUserProof(::cordl_internals::intptr_t c_message) ;
  void _ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method GetUserProof addr 0x2584230 size 0x3c virtual true final false
- ::Oculus::Platform::Models::UserProof GetUserProof() ;
+ Oculus::Platform::Models::UserProof GetUserProof() ;
 
 /// @brief Method GetDataFromMessage addr 0x258426c size 0x9c virtual true final false
- ::Oculus::Platform::Models::UserProof GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
+ Oculus::Platform::Models::UserProof GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::MessageWithUserProof);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithUserProof, "Oculus.Platform", "MessageWithUserProof");
+NEED_NO_BOX(Oculus::Platform::MessageWithUserProof);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithUserProof, "Oculus.Platform", "MessageWithUserProof");

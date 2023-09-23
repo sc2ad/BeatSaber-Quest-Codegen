@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace GlobalNamespace {
 class IAvatarPart;
 }
@@ -24,11 +23,11 @@ template<::cordl_internals::il2cpp_reference_type T>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4773)), TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4773), inst: 2 })
 // CS Name: AvatarPartSO`1
-class CORDL_TYPE AvatarPartSO_1<T> : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE AvatarPartSO_1<T> : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IAvatarPart
-constexpr operator  ::GlobalNamespace::IAvatarPart() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IAvatarPart
+constexpr operator  GlobalNamespace::IAvatarPart() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -42,7 +41,7 @@ constexpr AvatarPartSO_1(AvatarPartSO_1 const& ) noexcept = default;
 constexpr AvatarPartSO_1(AvatarPartSO_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AvatarPartSO_1(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit AvatarPartSO_1(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -117,5 +116,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::AvatarPartSO_1, "", "AvatarPartSO`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::AvatarPartSO_1, "", "AvatarPartSO`1");

@@ -4,13 +4,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace IgnoranceThirdparty {
 class Volatile;
 }
 namespace IgnoranceThirdparty {
-struct ____IgnoranceThirdparty__Volatile__PaddedLong;
+struct IgnoranceThirdparty__Volatile__PaddedLong;
 }
 // Type: ::PaddedLong
 namespace IgnoranceThirdparty {
@@ -18,20 +17,20 @@ namespace IgnoranceThirdparty {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15251))
 // CS Name: IgnoranceThirdparty.Volatile::PaddedLong
-struct CORDL_TYPE ____IgnoranceThirdparty__Volatile__PaddedLong : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE IgnoranceThirdparty__Volatile__PaddedLong : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "_value", ty: "int64_t", modifiers: "", def_value: None }]
-constexpr ____IgnoranceThirdparty__Volatile__PaddedLong(int64_t _value) noexcept;
+constexpr IgnoranceThirdparty__Volatile__PaddedLong(int64_t _value) noexcept;
 
 
-                    constexpr ____IgnoranceThirdparty__Volatile__PaddedLong(____IgnoranceThirdparty__Volatile__PaddedLong const&) = default;
-                    constexpr ____IgnoranceThirdparty__Volatile__PaddedLong(____IgnoranceThirdparty__Volatile__PaddedLong&&) = default;
-                    constexpr ____IgnoranceThirdparty__Volatile__PaddedLong& operator=(____IgnoranceThirdparty__Volatile__PaddedLong const& o) {
+                    constexpr IgnoranceThirdparty__Volatile__PaddedLong(IgnoranceThirdparty__Volatile__PaddedLong const&) = default;
+                    constexpr IgnoranceThirdparty__Volatile__PaddedLong(IgnoranceThirdparty__Volatile__PaddedLong&&) = default;
+                    constexpr IgnoranceThirdparty__Volatile__PaddedLong& operator=(IgnoranceThirdparty__Volatile__PaddedLong const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____IgnoranceThirdparty__Volatile__PaddedLong& operator=(____IgnoranceThirdparty__Volatile__PaddedLong&& o) noexcept {
+                    constexpr IgnoranceThirdparty__Volatile__PaddedLong& operator=(IgnoranceThirdparty__Volatile__PaddedLong&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -44,7 +43,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x80};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____IgnoranceThirdparty__Volatile__PaddedLong(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit IgnoranceThirdparty__Volatile__PaddedLong(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -122,7 +121,7 @@ namespace IgnoranceThirdparty {
 class CORDL_TYPE Volatile : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using PaddedLong = ::IgnoranceThirdparty::____IgnoranceThirdparty__Volatile__PaddedLong;
+using PaddedLong = IgnoranceThirdparty::IgnoranceThirdparty__Volatile__PaddedLong;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -164,7 +163,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def IgnoranceThirdparty
-} // end anonymous namespace
-NEED_NO_BOX(::IgnoranceThirdparty::Volatile);
-DEFINE_IL2CPP_ARG_TYPE(::IgnoranceThirdparty::Volatile, "IgnoranceThirdparty", "Volatile");
-DEFINE_IL2CPP_ARG_TYPE(::IgnoranceThirdparty::____IgnoranceThirdparty__Volatile__PaddedLong, "IgnoranceThirdparty", "Volatile/PaddedLong");
+NEED_NO_BOX(IgnoranceThirdparty::Volatile);
+DEFINE_IL2CPP_ARG_TYPE(IgnoranceThirdparty::Volatile, "IgnoranceThirdparty", "Volatile");
+DEFINE_IL2CPP_ARG_TYPE(IgnoranceThirdparty::IgnoranceThirdparty__Volatile__PaddedLong, "IgnoranceThirdparty", "Volatile/PaddedLong");

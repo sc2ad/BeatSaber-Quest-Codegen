@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/Timeline/zzzz__TrackAsset_def.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class TubeLightIntensityTrack;
@@ -12,7 +11,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14073))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6078))
 // CS Name: TubeLightIntensityTrack
-class CORDL_TYPE TubeLightIntensityTrack : public ::UnityEngine::Timeline::TrackAsset {
+class CORDL_TYPE TubeLightIntensityTrack : public UnityEngine::Timeline::TrackAsset {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr TubeLightIntensityTrack(TubeLightIntensityTrack const& ) noexcept = de
 constexpr TubeLightIntensityTrack(TubeLightIntensityTrack&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TubeLightIntensityTrack(void* ptr) noexcept : ::UnityEngine::Timeline::TrackAsset(ptr) {
+constexpr explicit TubeLightIntensityTrack(void* ptr) noexcept : UnityEngine::Timeline::TrackAsset(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::TubeLightIntensityTrack);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TubeLightIntensityTrack, "", "TubeLightIntensityTrack");
+NEED_NO_BOX(GlobalNamespace::TubeLightIntensityTrack);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TubeLightIntensityTrack, "", "TubeLightIntensityTrack");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Reflection {
 class RuntimeConstructorInfo;
 }
@@ -58,11 +57,11 @@ constexpr void __set_full_name(::StringW value) ;
 
 constexpr ::StringW __get_full_name() const;
 
- ::System::Reflection::RuntimeConstructorInfo __declspec(property(get=__get_default_ctor, put=__set_default_ctor))  default_ctor;
+ System::Reflection::RuntimeConstructorInfo __declspec(property(get=__get_default_ctor, put=__set_default_ctor))  default_ctor;
 
-constexpr void __set_default_ctor(::System::Reflection::RuntimeConstructorInfo value) ;
+constexpr void __set_default_ctor(System::Reflection::RuntimeConstructorInfo value) ;
 
-constexpr ::System::Reflection::RuntimeConstructorInfo __get_default_ctor() const;
+constexpr System::Reflection::RuntimeConstructorInfo __get_default_ctor() const;
 
 
 // Methods
@@ -77,6 +76,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::MonoTypeInfo);
-DEFINE_IL2CPP_ARG_TYPE(::System::MonoTypeInfo, "System", "MonoTypeInfo");
+NEED_NO_BOX(System::MonoTypeInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::MonoTypeInfo, "System", "MonoTypeInfo");

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class IDictionary_2;
@@ -66,17 +65,17 @@ constexpr explicit BidirectionalDictionary_2(void* ptr) noexcept : ::bs_hook::Il
 
 // Fields
 
- ::System::Collections::Generic::IDictionary_2<TFirst,TSecond> __declspec(property(get=__get__firstToSecond, put=__set__firstToSecond))  _firstToSecond;
+ System::Collections::Generic::IDictionary_2<TFirst,TSecond> __declspec(property(get=__get__firstToSecond, put=__set__firstToSecond))  _firstToSecond;
 
-constexpr void __set__firstToSecond(::System::Collections::Generic::IDictionary_2<TFirst,TSecond> value) ;
+constexpr void __set__firstToSecond(System::Collections::Generic::IDictionary_2<TFirst,TSecond> value) ;
 
-constexpr ::System::Collections::Generic::IDictionary_2<TFirst,TSecond> __get__firstToSecond() const;
+constexpr System::Collections::Generic::IDictionary_2<TFirst,TSecond> __get__firstToSecond() const;
 
- ::System::Collections::Generic::IDictionary_2<TSecond,TFirst> __declspec(property(get=__get__secondToFirst, put=__set__secondToFirst))  _secondToFirst;
+ System::Collections::Generic::IDictionary_2<TSecond,TFirst> __declspec(property(get=__get__secondToFirst, put=__set__secondToFirst))  _secondToFirst;
 
-constexpr void __set__secondToFirst(::System::Collections::Generic::IDictionary_2<TSecond,TFirst> value) ;
+constexpr void __set__secondToFirst(System::Collections::Generic::IDictionary_2<TSecond,TFirst> value) ;
 
-constexpr ::System::Collections::Generic::IDictionary_2<TSecond,TFirst> __get__secondToFirst() const;
+constexpr System::Collections::Generic::IDictionary_2<TSecond,TFirst> __get__secondToFirst() const;
 
  ::StringW __declspec(property(get=__get__duplicateFirstErrorMessage, put=__set__duplicateFirstErrorMessage))  _duplicateFirstErrorMessage;
 
@@ -99,17 +98,17 @@ explicit BidirectionalDictionary_2() ;
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "firstEqualityComparer", ty: "::System::Collections::Generic::IEqualityComparer_1<TFirst>", modifiers: "", def_value: None }, CppParam { name: "secondEqualityComparer", ty: "::System::Collections::Generic::IEqualityComparer_1<TSecond>", modifiers: "", def_value: None }]
-explicit BidirectionalDictionary_2(::System::Collections::Generic::IEqualityComparer_1<TFirst> firstEqualityComparer, ::System::Collections::Generic::IEqualityComparer_1<TSecond> secondEqualityComparer) ;
+// Ctor Parameters [CppParam { name: "firstEqualityComparer", ty: "System::Collections::Generic::IEqualityComparer_1<TFirst>", modifiers: "", def_value: None }, CppParam { name: "secondEqualityComparer", ty: "System::Collections::Generic::IEqualityComparer_1<TSecond>", modifiers: "", def_value: None }]
+explicit BidirectionalDictionary_2(System::Collections::Generic::IEqualityComparer_1<TFirst> firstEqualityComparer, System::Collections::Generic::IEqualityComparer_1<TSecond> secondEqualityComparer) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Collections::Generic::IEqualityComparer_1<TFirst> firstEqualityComparer, ::System::Collections::Generic::IEqualityComparer_1<TSecond> secondEqualityComparer) ;
+ void _ctor(System::Collections::Generic::IEqualityComparer_1<TFirst> firstEqualityComparer, System::Collections::Generic::IEqualityComparer_1<TSecond> secondEqualityComparer) ;
 
-// Ctor Parameters [CppParam { name: "firstEqualityComparer", ty: "::System::Collections::Generic::IEqualityComparer_1<TFirst>", modifiers: "", def_value: None }, CppParam { name: "secondEqualityComparer", ty: "::System::Collections::Generic::IEqualityComparer_1<TSecond>", modifiers: "", def_value: None }, CppParam { name: "duplicateFirstErrorMessage", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "duplicateSecondErrorMessage", ty: "::StringW", modifiers: "", def_value: None }]
-explicit BidirectionalDictionary_2(::System::Collections::Generic::IEqualityComparer_1<TFirst> firstEqualityComparer, ::System::Collections::Generic::IEqualityComparer_1<TSecond> secondEqualityComparer, ::StringW duplicateFirstErrorMessage, ::StringW duplicateSecondErrorMessage) ;
+// Ctor Parameters [CppParam { name: "firstEqualityComparer", ty: "System::Collections::Generic::IEqualityComparer_1<TFirst>", modifiers: "", def_value: None }, CppParam { name: "secondEqualityComparer", ty: "System::Collections::Generic::IEqualityComparer_1<TSecond>", modifiers: "", def_value: None }, CppParam { name: "duplicateFirstErrorMessage", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "duplicateSecondErrorMessage", ty: "::StringW", modifiers: "", def_value: None }]
+explicit BidirectionalDictionary_2(System::Collections::Generic::IEqualityComparer_1<TFirst> firstEqualityComparer, System::Collections::Generic::IEqualityComparer_1<TSecond> secondEqualityComparer, ::StringW duplicateFirstErrorMessage, ::StringW duplicateSecondErrorMessage) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Collections::Generic::IEqualityComparer_1<TFirst> firstEqualityComparer, ::System::Collections::Generic::IEqualityComparer_1<TSecond> secondEqualityComparer, ::StringW duplicateFirstErrorMessage, ::StringW duplicateSecondErrorMessage) ;
+ void _ctor(System::Collections::Generic::IEqualityComparer_1<TFirst> firstEqualityComparer, System::Collections::Generic::IEqualityComparer_1<TSecond> secondEqualityComparer, ::StringW duplicateFirstErrorMessage, ::StringW duplicateSecondErrorMessage) ;
 
 /// @brief Method Set addr 0x0 size 0xffffffffffffffff virtual false final false
  void Set(TFirst first, TSecond second) ;
@@ -124,5 +123,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Utilities
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Newtonsoft::Json::Utilities::BidirectionalDictionary_2, "Newtonsoft.Json.Utilities", "BidirectionalDictionary`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Newtonsoft::Json::Utilities::BidirectionalDictionary_2, "Newtonsoft.Json.Utilities", "BidirectionalDictionary`2");

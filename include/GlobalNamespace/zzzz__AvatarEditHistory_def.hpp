@@ -2,19 +2,18 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__EditAvatarViewController__AvatarEditPart;
 }
 namespace GlobalNamespace {
 class AvatarData;
 }
 namespace Menu::ViewControllers {
 class EditAvatarHistorySnapshot;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__EditAvatarViewController__AvatarEditPart;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -68,11 +67,11 @@ constexpr void __set_disableNextSnapshotOverride(bool value) ;
 
 constexpr bool __get_disableNextSnapshotOverride() const;
 
- ::System::Collections::Generic::List_1<::Menu::ViewControllers::EditAvatarHistorySnapshot> __declspec(property(get=__get__snapShots, put=__set__snapShots))  _snapShots;
+ System::Collections::Generic::List_1<Menu::ViewControllers::EditAvatarHistorySnapshot> __declspec(property(get=__get__snapShots, put=__set__snapShots))  _snapShots;
 
-constexpr void __set__snapShots(::System::Collections::Generic::List_1<::Menu::ViewControllers::EditAvatarHistorySnapshot> value) ;
+constexpr void __set__snapShots(System::Collections::Generic::List_1<Menu::ViewControllers::EditAvatarHistorySnapshot> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::Menu::ViewControllers::EditAvatarHistorySnapshot> __get__snapShots() const;
+constexpr System::Collections::Generic::List_1<Menu::ViewControllers::EditAvatarHistorySnapshot> __get__snapShots() const;
 
  int32_t __declspec(property(get=__get__currentDataId, put=__set__currentDataId))  _currentDataId;
 
@@ -87,9 +86,9 @@ constexpr int32_t __get__currentDataId() const;
 
  bool __declspec(property(get=get_redoAvailable))  redoAvailable;
 
- ::Menu::ViewControllers::EditAvatarHistorySnapshot __declspec(property(get=get_currentSnapShot))  currentSnapShot;
+ Menu::ViewControllers::EditAvatarHistorySnapshot __declspec(property(get=get_currentSnapShot))  currentSnapShot;
 
- ::GlobalNamespace::____GlobalNamespace__EditAvatarViewController__AvatarEditPart __declspec(property(get=get_lastEditedPart))  lastEditedPart;
+ GlobalNamespace::GlobalNamespace__EditAvatarViewController__AvatarEditPart __declspec(property(get=get_lastEditedPart))  lastEditedPart;
 
 
 // Methods
@@ -101,10 +100,10 @@ constexpr int32_t __get__currentDataId() const;
  bool get_redoAvailable() ;
 
 /// @brief Method get_currentSnapShot addr 0x2155444 size 0x54 virtual false final false
- ::Menu::ViewControllers::EditAvatarHistorySnapshot get_currentSnapShot() ;
+ Menu::ViewControllers::EditAvatarHistorySnapshot get_currentSnapShot() ;
 
 /// @brief Method get_lastEditedPart addr 0x2155498 size 0x1c virtual false final false
- ::GlobalNamespace::____GlobalNamespace__EditAvatarViewController__AvatarEditPart get_lastEditedPart() ;
+ GlobalNamespace::GlobalNamespace__EditAvatarViewController__AvatarEditPart get_lastEditedPart() ;
 
 /// @brief Method Clear addr 0x21554b4 size 0x6c virtual false final false
  void Clear() ;
@@ -116,7 +115,7 @@ constexpr int32_t __get__currentDataId() const;
  void Redo() ;
 
 /// @brief Method UpdateEditHistory addr 0x21555a4 size 0x1c4 virtual false final false
- void UpdateEditHistory(::GlobalNamespace::AvatarData avatarData, ::GlobalNamespace::____GlobalNamespace__EditAvatarViewController__AvatarEditPart avatarEditPart) ;
+ void UpdateEditHistory(GlobalNamespace::AvatarData avatarData, GlobalNamespace::GlobalNamespace__EditAvatarViewController__AvatarEditPart avatarEditPart) ;
 
 // Ctor Parameters []
 explicit AvatarEditHistory() ;
@@ -128,6 +127,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::AvatarEditHistory);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AvatarEditHistory, "", "AvatarEditHistory");
+NEED_NO_BOX(GlobalNamespace::AvatarEditHistory);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarEditHistory, "", "AvatarEditHistory");

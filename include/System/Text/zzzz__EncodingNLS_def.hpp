@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Text {
 class Encoder;
 }
@@ -21,7 +20,7 @@ namespace System::Text {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2870))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2845))
 // CS Name: System.Text.EncodingNLS
-class CORDL_TYPE EncodingNLS : public ::System::Text::Encoding {
+class CORDL_TYPE EncodingNLS : public System::Text::Encoding {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr EncodingNLS(EncodingNLS const& ) noexcept = default;
 constexpr EncodingNLS(EncodingNLS&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EncodingNLS(void* ptr) noexcept : ::System::Text::Encoding(ptr) {
+constexpr explicit EncodingNLS(void* ptr) noexcept : System::Text::Encoding(ptr) {
 }
 
 
@@ -97,15 +96,14 @@ explicit EncodingNLS(int32_t codePage) ;
  ::StringW GetString(::ArrayW<uint8_t> bytes, int32_t index, int32_t count) ;
 
 /// @brief Method GetDecoder addr 0x22cb0f0 size 0x64 virtual true final false
- ::System::Text::Decoder GetDecoder() ;
+ System::Text::Decoder GetDecoder() ;
 
 /// @brief Method GetEncoder addr 0x22cb154 size 0x64 virtual true final false
- ::System::Text::Encoder GetEncoder() ;
+ System::Text::Encoder GetEncoder() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Text
-} // end anonymous namespace
-NEED_NO_BOX(::System::Text::EncodingNLS);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::EncodingNLS, "System.Text", "EncodingNLS");
+NEED_NO_BOX(System::Text::EncodingNLS);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::EncodingNLS, "System.Text", "EncodingNLS");

@@ -3,7 +3,6 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 template<typename TEventArgs>
@@ -19,10 +18,10 @@ namespace System {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TEventArgs>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2378)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610)), TypeDefinitionIndex(TypeDefinitionIndex(2378))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2378), inst: 2 })
 // CS Name: System.EventHandler`1
-class CORDL_TYPE EventHandler_1<TEventArgs> : public ::System::MulticastDelegate {
+class CORDL_TYPE EventHandler_1<TEventArgs> : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr EventHandler_1(EventHandler_1 const& ) noexcept = default;
 constexpr EventHandler_1(EventHandler_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EventHandler_1(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit EventHandler_1(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -71,5 +70,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::EventHandler_1, "System", "EventHandler`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::EventHandler_1, "System", "EventHandler`1");

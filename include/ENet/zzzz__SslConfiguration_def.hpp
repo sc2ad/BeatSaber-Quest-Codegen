@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
-namespace {
 namespace System {
 class IDisposable;
 }
@@ -25,11 +24,11 @@ namespace ENet {
 struct CORDL_TYPE SslConfiguration : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const;
 
-// Ctor Parameters [CppParam { name: "nativeSslConfiguration", ty: "::ENet::ENetSslConfiguration", modifiers: "", def_value: None }]
-constexpr SslConfiguration(::ENet::ENetSslConfiguration nativeSslConfiguration) noexcept;
+// Ctor Parameters [CppParam { name: "nativeSslConfiguration", ty: "ENet::ENetSslConfiguration", modifiers: "", def_value: None }]
+constexpr SslConfiguration(ENet::ENetSslConfiguration nativeSslConfiguration) noexcept;
 
 
                     constexpr SslConfiguration(SslConfiguration const&) = default;
@@ -62,18 +61,18 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::ENet::ENetSslConfiguration __declspec(property(get=__get_nativeSslConfiguration, put=__set_nativeSslConfiguration))  nativeSslConfiguration;
+ ENet::ENetSslConfiguration __declspec(property(get=__get_nativeSslConfiguration, put=__set_nativeSslConfiguration))  nativeSslConfiguration;
 
-constexpr void __set_nativeSslConfiguration(::ENet::ENetSslConfiguration value) ;
+constexpr void __set_nativeSslConfiguration(ENet::ENetSslConfiguration value) ;
 
-constexpr ::ENet::ENetSslConfiguration __get_nativeSslConfiguration() const;
+constexpr ENet::ENetSslConfiguration __get_nativeSslConfiguration() const;
 
 
 // Properties
 
- ::ENet::ENetSslConfiguration __declspec(property(get=get_NativeSslConfiguration, put=set_NativeSslConfiguration))  NativeSslConfiguration;
+ ENet::ENetSslConfiguration __declspec(property(get=get_NativeSslConfiguration, put=set_NativeSslConfiguration))  NativeSslConfiguration;
 
- ::ENet::SslMode __declspec(property(get=get_Mode, put=set_Mode))  Mode;
+ ENet::SslMode __declspec(property(get=get_Mode, put=set_Mode))  Mode;
 
  ::StringW __declspec(property(get=get_CertificatePath, put=set_CertificatePath))  CertificatePath;
 
@@ -95,22 +94,22 @@ constexpr ::ENet::ENetSslConfiguration __get_nativeSslConfiguration() const;
 // Methods
 
 /// @brief Method get_NativeSslConfiguration addr 0x207d3f0 size 0x10 virtual false final false
- ::ENet::ENetSslConfiguration get_NativeSslConfiguration() ;
+ ENet::ENetSslConfiguration get_NativeSslConfiguration() ;
 
 /// @brief Method set_NativeSslConfiguration addr 0x207d400 size 0x14 virtual false final false
- void set_NativeSslConfiguration(::ENet::ENetSslConfiguration value) ;
+ void set_NativeSslConfiguration(ENet::ENetSslConfiguration value) ;
 
 /// @brief Method .ctor addr 0x207d414 size 0x14 virtual false final false
- void _ctor(::ENet::ENetSslConfiguration sslConfiguration) ;
+ void _ctor(ENet::ENetSslConfiguration sslConfiguration) ;
 
 /// @brief Method Dispose addr 0x207d428 size 0x18 virtual true final true
  void Dispose() ;
 
 /// @brief Method get_Mode addr 0x207d478 size 0x8 virtual false final false
- ::ENet::SslMode get_Mode() ;
+ ENet::SslMode get_Mode() ;
 
 /// @brief Method set_Mode addr 0x207d480 size 0x8 virtual false final false
- void set_Mode(::ENet::SslMode value) ;
+ void set_Mode(ENet::SslMode value) ;
 
 /// @brief Method get_CertificatePath addr 0x207d488 size 0x8 virtual false final false
  ::StringW get_CertificatePath() ;
@@ -164,5 +163,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def ENet
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::ENet::SslConfiguration, "ENet", "SslConfiguration");
+DEFINE_IL2CPP_ARG_TYPE(ENet::SslConfiguration, "ENet", "SslConfiguration");

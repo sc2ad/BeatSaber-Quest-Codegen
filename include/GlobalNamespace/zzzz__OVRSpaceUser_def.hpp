@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
 class IDisposable;
 }
@@ -19,8 +18,8 @@ namespace GlobalNamespace {
 struct CORDL_TYPE OVRSpaceUser : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const;
 
 // Ctor Parameters [CppParam { name: "_handle", ty: "uint64_t", modifiers: "", def_value: None }]
 constexpr OVRSpaceUser(uint64_t _handle) noexcept;
@@ -88,5 +87,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRSpaceUser, "", "OVRSpaceUser");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSpaceUser, "", "OVRSpaceUser");

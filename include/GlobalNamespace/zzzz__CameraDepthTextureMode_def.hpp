@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace UnityEngine {
 struct DepthTextureMode;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13776))
 // CS Name: CameraDepthTextureMode
-class CORDL_TYPE CameraDepthTextureMode : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE CameraDepthTextureMode : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr CameraDepthTextureMode(CameraDepthTextureMode const& ) noexcept = defa
 constexpr CameraDepthTextureMode(CameraDepthTextureMode&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CameraDepthTextureMode(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit CameraDepthTextureMode(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit CameraDepthTextureMode(void* ptr) noexcept : ::UnityEngine::M
 
 // Fields
 
- ::UnityEngine::DepthTextureMode __declspec(property(get=__get__depthTextureMode, put=__set__depthTextureMode))  _depthTextureMode;
+ UnityEngine::DepthTextureMode __declspec(property(get=__get__depthTextureMode, put=__set__depthTextureMode))  _depthTextureMode;
 
-constexpr void __set__depthTextureMode(::UnityEngine::DepthTextureMode value) ;
+constexpr void __set__depthTextureMode(UnityEngine::DepthTextureMode value) ;
 
-constexpr ::UnityEngine::DepthTextureMode __get__depthTextureMode() const;
+constexpr UnityEngine::DepthTextureMode __get__depthTextureMode() const;
 
 
 // Methods
@@ -73,6 +72,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::CameraDepthTextureMode);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CameraDepthTextureMode, "", "CameraDepthTextureMode");
+NEED_NO_BOX(GlobalNamespace::CameraDepthTextureMode);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CameraDepthTextureMode, "", "CameraDepthTextureMode");

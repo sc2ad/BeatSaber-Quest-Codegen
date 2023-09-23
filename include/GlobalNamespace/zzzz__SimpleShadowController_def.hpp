@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
-namespace UnityEngine {
-class SpriteRenderer;
-}
 namespace UnityEngine {
 class Transform;
+}
+namespace UnityEngine {
+class SpriteRenderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13833))
 // CS Name: SimpleShadowController
-class CORDL_TYPE SimpleShadowController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SimpleShadowController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr SimpleShadowController(SimpleShadowController const& ) noexcept = defa
 constexpr SimpleShadowController(SimpleShadowController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SimpleShadowController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SimpleShadowController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -55,17 +54,17 @@ constexpr explicit SimpleShadowController(void* ptr) noexcept : ::UnityEngine::M
 
 // Fields
 
- ::UnityEngine::Transform __declspec(property(get=__get__followTransform, put=__set__followTransform))  _followTransform;
+ UnityEngine::Transform __declspec(property(get=__get__followTransform, put=__set__followTransform))  _followTransform;
 
-constexpr void __set__followTransform(::UnityEngine::Transform value) ;
+constexpr void __set__followTransform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__followTransform() const;
+constexpr UnityEngine::Transform __get__followTransform() const;
 
- ::UnityEngine::SpriteRenderer __declspec(property(get=__get__spriteRenderer, put=__set__spriteRenderer))  _spriteRenderer;
+ UnityEngine::SpriteRenderer __declspec(property(get=__get__spriteRenderer, put=__set__spriteRenderer))  _spriteRenderer;
 
-constexpr void __set__spriteRenderer(::UnityEngine::SpriteRenderer value) ;
+constexpr void __set__spriteRenderer(UnityEngine::SpriteRenderer value) ;
 
-constexpr ::UnityEngine::SpriteRenderer __get__spriteRenderer() const;
+constexpr UnityEngine::SpriteRenderer __get__spriteRenderer() const;
 
  float_t __declspec(property(get=__get__distanceScale, put=__set__distanceScale))  _distanceScale;
 
@@ -97,11 +96,11 @@ constexpr void __set__floorYPosLocal(bool value) ;
 
 constexpr bool __get__floorYPosLocal() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
+ UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
 
-constexpr void __set__transform(::UnityEngine::Transform value) ;
+constexpr void __set__transform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__transform() const;
+constexpr UnityEngine::Transform __get__transform() const;
 
 
 // Methods
@@ -122,6 +121,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SimpleShadowController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SimpleShadowController, "", "SimpleShadowController");
+NEED_NO_BOX(GlobalNamespace::SimpleShadowController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleShadowController, "", "SimpleShadowController");

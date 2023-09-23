@@ -1,6 +1,5 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace System::Runtime::Remoting::Contexts {
 class IDynamicMessageSink;
 }
@@ -27,12 +26,11 @@ constexpr explicit IContributeDynamicSink(void* ptr) noexcept : ::cordl_internal
 // Methods
 
 /// @brief Method GetDynamicSink addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Runtime::Remoting::Contexts::IDynamicMessageSink GetDynamicSink() ;
+ System::Runtime::Remoting::Contexts::IDynamicMessageSink GetDynamicSink() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Contexts
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Contexts::IContributeDynamicSink);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Contexts::IContributeDynamicSink, "System.Runtime.Remoting.Contexts", "IContributeDynamicSink");
+NEED_NO_BOX(System::Runtime::Remoting::Contexts::IContributeDynamicSink);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::IContributeDynamicSink, "System.Runtime.Remoting.Contexts", "IContributeDynamicSink");

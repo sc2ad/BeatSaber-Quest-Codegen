@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
@@ -64,11 +63,11 @@ static void __set_lockObject(::bs_hook::Il2CppWrapperType value) ;
 
 static ::bs_hook::Il2CppWrapperType __get_lockObject() ;
 
-static ::System::Collections::Generic::Dictionary_2<::StringW,::System::Type> __declspec(property(get=__get_algorithms, put=__set_algorithms))  algorithms;
+static System::Collections::Generic::Dictionary_2<::StringW,System::Type> __declspec(property(get=__get_algorithms, put=__set_algorithms))  algorithms;
 
-static void __set_algorithms(::System::Collections::Generic::Dictionary_2<::StringW,::System::Type> value) ;
+static void __set_algorithms(System::Collections::Generic::Dictionary_2<::StringW,System::Type> value) ;
 
-static ::System::Collections::Generic::Dictionary_2<::StringW,::System::Type> __get_algorithms() ;
+static System::Collections::Generic::Dictionary_2<::StringW,System::Type> __get_algorithms() ;
 
 
 // Properties
@@ -100,6 +99,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::CryptoConfig);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::CryptoConfig, "System.Security.Cryptography", "CryptoConfig");
+NEED_NO_BOX(System::Security::Cryptography::CryptoConfig);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CryptoConfig, "System.Security.Cryptography", "CryptoConfig");

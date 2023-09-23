@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace LiteNetLib {
 class NetPeer;
 }
@@ -28,12 +27,11 @@ constexpr explicit IDeliveryEventListener(void* ptr) noexcept : ::cordl_internal
 // Methods
 
 /// @brief Method OnMessageDelivered addr 0x0 size 0xffffffffffffffff virtual true final false
- void OnMessageDelivered(::LiteNetLib::NetPeer peer, ::bs_hook::Il2CppWrapperType userData) ;
+ void OnMessageDelivered(LiteNetLib::NetPeer peer, ::bs_hook::Il2CppWrapperType userData) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib
-} // end anonymous namespace
-NEED_NO_BOX(::LiteNetLib::IDeliveryEventListener);
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::IDeliveryEventListener, "LiteNetLib", "IDeliveryEventListener");
+NEED_NO_BOX(LiteNetLib::IDeliveryEventListener);
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::IDeliveryEventListener, "LiteNetLib", "IDeliveryEventListener");

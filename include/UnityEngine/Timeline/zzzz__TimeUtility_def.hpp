@@ -5,26 +5,25 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine::Timeline {
 struct StandardFrameRates;
 }
 namespace UnityEngine {
 class AnimationClip;
 }
+namespace UnityEngine::Playables {
+struct FrameRate;
+}
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
-}
-namespace UnityEngine::Playables {
-struct FrameRate;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
 class TimeUtility;
 }
 namespace UnityEngine::Timeline {
-class ____UnityEngine__Timeline__TimeUtility____c;
+class UnityEngine__Timeline__TimeUtility____c;
 }
 // Type: ::<>c
 namespace UnityEngine::Timeline {
@@ -32,71 +31,71 @@ namespace UnityEngine::Timeline {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14153))
 // CS Name: UnityEngine.Timeline.TimeUtility::<>c
-class CORDL_TYPE ____UnityEngine__Timeline__TimeUtility____c : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__Timeline__TimeUtility____c : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____UnityEngine__Timeline__TimeUtility____c() = default;
+virtual ~UnityEngine__Timeline__TimeUtility____c() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__Timeline__TimeUtility____c", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__Timeline__TimeUtility____c(____UnityEngine__Timeline__TimeUtility____c const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__Timeline__TimeUtility____c", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__Timeline__TimeUtility____c(UnityEngine__Timeline__TimeUtility____c const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__Timeline__TimeUtility____c", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__Timeline__TimeUtility____c(____UnityEngine__Timeline__TimeUtility____c&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__Timeline__TimeUtility____c", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__Timeline__TimeUtility____c(UnityEngine__Timeline__TimeUtility____c&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__Timeline__TimeUtility____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__Timeline__TimeUtility____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__Timeline__TimeUtility____c& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__Timeline__TimeUtility____c& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__Timeline__TimeUtility____c& operator=(void* o) noexcept {
+  constexpr UnityEngine__Timeline__TimeUtility____c& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__Timeline__TimeUtility____c& operator=(____UnityEngine__Timeline__TimeUtility____c&& o) noexcept = default;
-  constexpr ____UnityEngine__Timeline__TimeUtility____c& operator=(____UnityEngine__Timeline__TimeUtility____c const& o) noexcept = default;
+  constexpr UnityEngine__Timeline__TimeUtility____c& operator=(UnityEngine__Timeline__TimeUtility____c&& o) noexcept = default;
+  constexpr UnityEngine__Timeline__TimeUtility____c& operator=(UnityEngine__Timeline__TimeUtility____c const& o) noexcept = default;
                 
 
 
 // Fields
 
-static ::UnityEngine::Timeline::____UnityEngine__Timeline__TimeUtility____c __declspec(property(get=__get___9, put=__set___9))  __9;
+static UnityEngine::Timeline::UnityEngine__Timeline__TimeUtility____c __declspec(property(get=__get___9, put=__set___9))  __9;
 
-static void __set___9(::UnityEngine::Timeline::____UnityEngine__Timeline__TimeUtility____c value) ;
+static void __set___9(UnityEngine::Timeline::UnityEngine__Timeline__TimeUtility____c value) ;
 
-static ::UnityEngine::Timeline::____UnityEngine__Timeline__TimeUtility____c __get___9() ;
+static UnityEngine::Timeline::UnityEngine__Timeline__TimeUtility____c __get___9() ;
 
-static ::System::Func_2<char16_t,bool> __declspec(property(get=__get___9__15_0, put=__set___9__15_0))  __9__15_0;
+static System::Func_2<char16_t,bool> __declspec(property(get=__get___9__15_0, put=__set___9__15_0))  __9__15_0;
 
-static void __set___9__15_0(::System::Func_2<char16_t,bool> value) ;
+static void __set___9__15_0(System::Func_2<char16_t,bool> value) ;
 
-static ::System::Func_2<char16_t,bool> __get___9__15_0() ;
+static System::Func_2<char16_t,bool> __get___9__15_0() ;
 
-static ::System::Func_2<char16_t,bool> __declspec(property(get=__get___9__15_1, put=__set___9__15_1))  __9__15_1;
+static System::Func_2<char16_t,bool> __declspec(property(get=__get___9__15_1, put=__set___9__15_1))  __9__15_1;
 
-static void __set___9__15_1(::System::Func_2<char16_t,bool> value) ;
+static void __set___9__15_1(System::Func_2<char16_t,bool> value) ;
 
-static ::System::Func_2<char16_t,bool> __get___9__15_1() ;
+static System::Func_2<char16_t,bool> __get___9__15_1() ;
 
-static ::System::Func_2<char16_t,bool> __declspec(property(get=__get___9__16_0, put=__set___9__16_0))  __9__16_0;
+static System::Func_2<char16_t,bool> __declspec(property(get=__get___9__16_0, put=__set___9__16_0))  __9__16_0;
 
-static void __set___9__16_0(::System::Func_2<char16_t,bool> value) ;
+static void __set___9__16_0(System::Func_2<char16_t,bool> value) ;
 
-static ::System::Func_2<char16_t,bool> __get___9__16_0() ;
+static System::Func_2<char16_t,bool> __get___9__16_0() ;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__Timeline__TimeUtility____c() ;
+explicit UnityEngine__Timeline__TimeUtility____c() ;
 
 /// @brief Method .ctor addr 0x2adba24 size 0x8 virtual false final false
  void _ctor() ;
@@ -123,7 +122,7 @@ namespace UnityEngine::Timeline {
 class CORDL_TYPE TimeUtility : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using __c = ::UnityEngine::Timeline::____UnityEngine__Timeline__TimeUtility____c;
+using __c = UnityEngine::Timeline::UnityEngine__Timeline__TimeUtility____c;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -225,26 +224,25 @@ static double_t ParseTimeCode(::StringW timeCode, double_t frameRate, double_t d
 static double_t ParseTimeSeconds(::StringW timeCode, double_t frameRate, double_t defaultValue) ;
 
 /// @brief Method GetAnimationClipLength addr 0x2adb304 size 0x164 virtual false final false
-static double_t GetAnimationClipLength(::UnityEngine::AnimationClip clip) ;
+static double_t GetAnimationClipLength(UnityEngine::AnimationClip clip) ;
 
 /// @brief Method RemoveChar addr 0x2adaebc size 0xd0 virtual false final false
-static ::StringW RemoveChar(::StringW str, ::System::Func_2<char16_t,bool> charToRemoveFunc) ;
+static ::StringW RemoveChar(::StringW str, System::Func_2<char16_t,bool> charToRemoveFunc) ;
 
 /// @brief Method GetClosestFrameRate addr 0x2adb468 size 0xf0 virtual false final false
-static ::UnityEngine::Playables::FrameRate GetClosestFrameRate(double_t frameRate) ;
+static UnityEngine::Playables::FrameRate GetClosestFrameRate(double_t frameRate) ;
 
 /// @brief Method ToFrameRate addr 0x2adb558 size 0x168 virtual false final false
-static ::UnityEngine::Playables::FrameRate ToFrameRate(::UnityEngine::Timeline::StandardFrameRates enumValue) ;
+static UnityEngine::Playables::FrameRate ToFrameRate(UnityEngine::Timeline::StandardFrameRates enumValue) ;
 
 /// @brief Method ToStandardFrameRate addr 0x2adb6c0 size 0x2a8 virtual false final false
-static bool ToStandardFrameRate(::UnityEngine::Playables::FrameRate rate, ByRef<::UnityEngine::Timeline::StandardFrameRates> standard) ;
+static bool ToStandardFrameRate(UnityEngine::Playables::FrameRate rate, ByRef<UnityEngine::Timeline::StandardFrameRates> standard) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Timeline::TimeUtility);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::TimeUtility, "UnityEngine.Timeline", "TimeUtility");
-NEED_NO_BOX(::UnityEngine::Timeline::____UnityEngine__Timeline__TimeUtility____c);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::____UnityEngine__Timeline__TimeUtility____c, "UnityEngine.Timeline", "TimeUtility/<>c");
+NEED_NO_BOX(UnityEngine::Timeline::TimeUtility);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeUtility, "UnityEngine.Timeline", "TimeUtility");
+NEED_NO_BOX(UnityEngine::Timeline::UnityEngine__Timeline__TimeUtility____c);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::UnityEngine__Timeline__TimeUtility____c, "UnityEngine.Timeline", "TimeUtility/<>c");

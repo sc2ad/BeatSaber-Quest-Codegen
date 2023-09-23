@@ -2,18 +2,17 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Esf {
@@ -25,7 +24,7 @@ namespace Org::BouncyCastle::Asn1::Esf {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(137))
 // CS Name: Org.BouncyCastle.Asn1.Esf.CommitmentTypeQualifier
-class CORDL_TYPE CommitmentTypeQualifier : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
+class CORDL_TYPE CommitmentTypeQualifier : public Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr CommitmentTypeQualifier(CommitmentTypeQualifier const& ) noexcept = de
 constexpr CommitmentTypeQualifier(CommitmentTypeQualifier&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CommitmentTypeQualifier(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
+constexpr explicit CommitmentTypeQualifier(void* ptr) noexcept : Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
 }
 
 
@@ -61,62 +60,61 @@ constexpr explicit CommitmentTypeQualifier(void* ptr) noexcept : ::Org::BouncyCa
 
 // Fields
 
- ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_commitmentTypeIdentifier, put=__set_commitmentTypeIdentifier))  commitmentTypeIdentifier;
+ Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_commitmentTypeIdentifier, put=__set_commitmentTypeIdentifier))  commitmentTypeIdentifier;
 
-constexpr void __set_commitmentTypeIdentifier(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+constexpr void __set_commitmentTypeIdentifier(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_commitmentTypeIdentifier() const;
+constexpr Org::BouncyCastle::Asn1::DerObjectIdentifier __get_commitmentTypeIdentifier() const;
 
- ::Org::BouncyCastle::Asn1::Asn1Object __declspec(property(get=__get_qualifier, put=__set_qualifier))  qualifier;
+ Org::BouncyCastle::Asn1::Asn1Object __declspec(property(get=__get_qualifier, put=__set_qualifier))  qualifier;
 
-constexpr void __set_qualifier(::Org::BouncyCastle::Asn1::Asn1Object value) ;
+constexpr void __set_qualifier(Org::BouncyCastle::Asn1::Asn1Object value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::Asn1Object __get_qualifier() const;
+constexpr Org::BouncyCastle::Asn1::Asn1Object __get_qualifier() const;
 
 
 // Properties
 
- ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=get_CommitmentTypeIdentifier))  CommitmentTypeIdentifier;
+ Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=get_CommitmentTypeIdentifier))  CommitmentTypeIdentifier;
 
- ::Org::BouncyCastle::Asn1::Asn1Object __declspec(property(get=get_Qualifier))  Qualifier;
+ Org::BouncyCastle::Asn1::Asn1Object __declspec(property(get=get_Qualifier))  Qualifier;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "commitmentTypeIdentifier", ty: "::Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
-explicit CommitmentTypeQualifier(::Org::BouncyCastle::Asn1::DerObjectIdentifier commitmentTypeIdentifier) ;
+// Ctor Parameters [CppParam { name: "commitmentTypeIdentifier", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
+explicit CommitmentTypeQualifier(Org::BouncyCastle::Asn1::DerObjectIdentifier commitmentTypeIdentifier) ;
 
 /// @brief Method .ctor addr 0xe018c0 size 0x8 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier commitmentTypeIdentifier) ;
+ void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier commitmentTypeIdentifier) ;
 
-// Ctor Parameters [CppParam { name: "commitmentTypeIdentifier", ty: "::Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "qualifier", ty: "::Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit CommitmentTypeQualifier(::Org::BouncyCastle::Asn1::DerObjectIdentifier commitmentTypeIdentifier, ::Org::BouncyCastle::Asn1::Asn1Encodable qualifier) ;
+// Ctor Parameters [CppParam { name: "commitmentTypeIdentifier", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "qualifier", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
+explicit CommitmentTypeQualifier(Org::BouncyCastle::Asn1::DerObjectIdentifier commitmentTypeIdentifier, Org::BouncyCastle::Asn1::Asn1Encodable qualifier) ;
 
 /// @brief Method .ctor addr 0xe018c8 size 0x94 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier commitmentTypeIdentifier, ::Org::BouncyCastle::Asn1::Asn1Encodable qualifier) ;
+ void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier commitmentTypeIdentifier, Org::BouncyCastle::Asn1::Asn1Encodable qualifier) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "::Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit CommitmentTypeQualifier(::Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
+explicit CommitmentTypeQualifier(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xe0195c size 0x24c virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+ void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method GetInstance addr 0xe01ba8 size 0x188 virtual false final false
-static ::Org::BouncyCastle::Asn1::Esf::CommitmentTypeQualifier GetInstance(::bs_hook::Il2CppWrapperType obj) ;
+static Org::BouncyCastle::Asn1::Esf::CommitmentTypeQualifier GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method get_CommitmentTypeIdentifier addr 0xe01d30 size 0x8 virtual false final false
- ::Org::BouncyCastle::Asn1::DerObjectIdentifier get_CommitmentTypeIdentifier() ;
+ Org::BouncyCastle::Asn1::DerObjectIdentifier get_CommitmentTypeIdentifier() ;
 
 /// @brief Method get_Qualifier addr 0xe01d38 size 0x8 virtual false final false
- ::Org::BouncyCastle::Asn1::Asn1Object get_Qualifier() ;
+ Org::BouncyCastle::Asn1::Asn1Object get_Qualifier() ;
 
 /// @brief Method ToAsn1Object addr 0xe01d40 size 0x148 virtual true final false
- ::Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
+ Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::Esf
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::Esf::CommitmentTypeQualifier);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Esf::CommitmentTypeQualifier, "Org.BouncyCastle.Asn1.Esf", "CommitmentTypeQualifier");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Esf::CommitmentTypeQualifier);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Esf::CommitmentTypeQualifier, "Org.BouncyCastle.Asn1.Esf", "CommitmentTypeQualifier");

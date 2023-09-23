@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__SceneSetupData_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class BeatmapEditorSceneSetupData;
@@ -13,7 +12,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13869))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6100))
 // CS Name: BeatmapEditorSceneSetupData
-class CORDL_TYPE BeatmapEditorSceneSetupData : public ::GlobalNamespace::SceneSetupData {
+class CORDL_TYPE BeatmapEditorSceneSetupData : public GlobalNamespace::SceneSetupData {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr BeatmapEditorSceneSetupData(BeatmapEditorSceneSetupData const& ) noexc
 constexpr BeatmapEditorSceneSetupData(BeatmapEditorSceneSetupData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BeatmapEditorSceneSetupData(void* ptr) noexcept : ::GlobalNamespace::SceneSetupData(ptr) {
+constexpr explicit BeatmapEditorSceneSetupData(void* ptr) noexcept : GlobalNamespace::SceneSetupData(ptr) {
 }
 
 
@@ -87,6 +86,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BeatmapEditorSceneSetupData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapEditorSceneSetupData, "", "BeatmapEditorSceneSetupData");
+NEED_NO_BOX(GlobalNamespace::BeatmapEditorSceneSetupData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEditorSceneSetupData, "", "BeatmapEditorSceneSetupData");

@@ -3,7 +3,6 @@
 #include "GlobalNamespace/zzzz__DynamicBoneColliderBase_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -17,7 +16,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15905))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15906))
 // CS Name: DynamicBonePlaneCollider
-class CORDL_TYPE DynamicBonePlaneCollider : public ::GlobalNamespace::DynamicBoneColliderBase {
+class CORDL_TYPE DynamicBonePlaneCollider : public GlobalNamespace::DynamicBoneColliderBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr DynamicBonePlaneCollider(DynamicBonePlaneCollider const& ) noexcept = 
 constexpr DynamicBonePlaneCollider(DynamicBonePlaneCollider&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DynamicBonePlaneCollider(void* ptr) noexcept : ::GlobalNamespace::DynamicBoneColliderBase(ptr) {
+constexpr explicit DynamicBonePlaneCollider(void* ptr) noexcept : GlobalNamespace::DynamicBoneColliderBase(ptr) {
 }
 
 
@@ -57,7 +56,7 @@ constexpr explicit DynamicBonePlaneCollider(void* ptr) noexcept : ::GlobalNamesp
  void OnValidate() ;
 
 /// @brief Method Collide addr 0x11a665c size 0x188 virtual true final false
- void Collide(ByRef<::UnityEngine::Vector3> particlePosition, float_t particleRadius) ;
+ void Collide(ByRef<UnityEngine::Vector3> particlePosition, float_t particleRadius) ;
 
 /// @brief Method OnDrawGizmosSelected addr 0x11a67e4 size 0x160 virtual false final false
  void OnDrawGizmosSelected() ;
@@ -72,6 +71,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::DynamicBonePlaneCollider);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DynamicBonePlaneCollider, "", "DynamicBonePlaneCollider");
+NEED_NO_BOX(GlobalNamespace::DynamicBonePlaneCollider);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBonePlaneCollider, "", "DynamicBonePlaneCollider");

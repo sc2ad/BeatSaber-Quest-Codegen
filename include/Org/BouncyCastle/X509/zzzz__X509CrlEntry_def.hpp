@@ -5,21 +5,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
+namespace System {
+struct DateTime;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
 }
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
 class CrlEntry;
 }
-namespace System {
-struct DateTime;
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {
@@ -31,7 +30,7 @@ namespace Org::BouncyCastle::X509 {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1606))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1865))
 // CS Name: Org.BouncyCastle.X509.X509CrlEntry
-class CORDL_TYPE X509CrlEntry : public ::Org::BouncyCastle::X509::X509ExtensionBase {
+class CORDL_TYPE X509CrlEntry : public Org::BouncyCastle::X509::X509ExtensionBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -46,7 +45,7 @@ constexpr X509CrlEntry(X509CrlEntry const& ) noexcept = default;
 constexpr X509CrlEntry(X509CrlEntry&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit X509CrlEntry(void* ptr) noexcept : ::Org::BouncyCastle::X509::X509ExtensionBase(ptr) {
+constexpr explicit X509CrlEntry(void* ptr) noexcept : Org::BouncyCastle::X509::X509ExtensionBase(ptr) {
 }
 
 
@@ -67,11 +66,11 @@ constexpr explicit X509CrlEntry(void* ptr) noexcept : ::Org::BouncyCastle::X509:
 
 // Fields
 
- ::Org::BouncyCastle::Asn1::X509::CrlEntry __declspec(property(get=__get_c, put=__set_c))  c;
+ Org::BouncyCastle::Asn1::X509::CrlEntry __declspec(property(get=__get_c, put=__set_c))  c;
 
-constexpr void __set_c(::Org::BouncyCastle::Asn1::X509::CrlEntry value) ;
+constexpr void __set_c(Org::BouncyCastle::Asn1::X509::CrlEntry value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::X509::CrlEntry __get_c() const;
+constexpr Org::BouncyCastle::Asn1::X509::CrlEntry __get_c() const;
 
  bool __declspec(property(get=__get_isIndirect, put=__set_isIndirect))  isIndirect;
 
@@ -79,17 +78,17 @@ constexpr void __set_isIndirect(bool value) ;
 
 constexpr bool __get_isIndirect() const;
 
- ::Org::BouncyCastle::Asn1::X509::X509Name __declspec(property(get=__get_previousCertificateIssuer, put=__set_previousCertificateIssuer))  previousCertificateIssuer;
+ Org::BouncyCastle::Asn1::X509::X509Name __declspec(property(get=__get_previousCertificateIssuer, put=__set_previousCertificateIssuer))  previousCertificateIssuer;
 
-constexpr void __set_previousCertificateIssuer(::Org::BouncyCastle::Asn1::X509::X509Name value) ;
+constexpr void __set_previousCertificateIssuer(Org::BouncyCastle::Asn1::X509::X509Name value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::X509::X509Name __get_previousCertificateIssuer() const;
+constexpr Org::BouncyCastle::Asn1::X509::X509Name __get_previousCertificateIssuer() const;
 
- ::Org::BouncyCastle::Asn1::X509::X509Name __declspec(property(get=__get_certificateIssuer, put=__set_certificateIssuer))  certificateIssuer;
+ Org::BouncyCastle::Asn1::X509::X509Name __declspec(property(get=__get_certificateIssuer, put=__set_certificateIssuer))  certificateIssuer;
 
-constexpr void __set_certificateIssuer(::Org::BouncyCastle::Asn1::X509::X509Name value) ;
+constexpr void __set_certificateIssuer(Org::BouncyCastle::Asn1::X509::X509Name value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::X509::X509Name __get_certificateIssuer() const;
+constexpr Org::BouncyCastle::Asn1::X509::X509Name __get_certificateIssuer() const;
 
  bool __declspec(property(get=__get_hashValueSet, put=__set_hashValueSet))  hashValueSet;
 
@@ -106,44 +105,44 @@ constexpr int32_t __get_hashValue() const;
 
 // Properties
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_SerialNumber))  SerialNumber;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_SerialNumber))  SerialNumber;
 
- ::System::DateTime __declspec(property(get=get_RevocationDate))  RevocationDate;
+ System::DateTime __declspec(property(get=get_RevocationDate))  RevocationDate;
 
  bool __declspec(property(get=get_HasExtensions))  HasExtensions;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c", ty: "::Org::BouncyCastle::Asn1::X509::CrlEntry", modifiers: "", def_value: None }]
-explicit X509CrlEntry(::Org::BouncyCastle::Asn1::X509::CrlEntry c) ;
+// Ctor Parameters [CppParam { name: "c", ty: "Org::BouncyCastle::Asn1::X509::CrlEntry", modifiers: "", def_value: None }]
+explicit X509CrlEntry(Org::BouncyCastle::Asn1::X509::CrlEntry c) ;
 
 /// @brief Method .ctor addr 0x10f368c size 0x34 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::X509::CrlEntry c) ;
+ void _ctor(Org::BouncyCastle::Asn1::X509::CrlEntry c) ;
 
-// Ctor Parameters [CppParam { name: "c", ty: "::Org::BouncyCastle::Asn1::X509::CrlEntry", modifiers: "", def_value: None }, CppParam { name: "isIndirect", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "previousCertificateIssuer", ty: "::Org::BouncyCastle::Asn1::X509::X509Name", modifiers: "", def_value: None }]
-explicit X509CrlEntry(::Org::BouncyCastle::Asn1::X509::CrlEntry c, bool isIndirect, ::Org::BouncyCastle::Asn1::X509::X509Name previousCertificateIssuer) ;
+// Ctor Parameters [CppParam { name: "c", ty: "Org::BouncyCastle::Asn1::X509::CrlEntry", modifiers: "", def_value: None }, CppParam { name: "isIndirect", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "previousCertificateIssuer", ty: "Org::BouncyCastle::Asn1::X509::X509Name", modifiers: "", def_value: None }]
+explicit X509CrlEntry(Org::BouncyCastle::Asn1::X509::CrlEntry c, bool isIndirect, Org::BouncyCastle::Asn1::X509::X509Name previousCertificateIssuer) ;
 
 /// @brief Method .ctor addr 0x10f1c18 size 0x4c virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::X509::CrlEntry c, bool isIndirect, ::Org::BouncyCastle::Asn1::X509::X509Name previousCertificateIssuer) ;
+ void _ctor(Org::BouncyCastle::Asn1::X509::CrlEntry c, bool isIndirect, Org::BouncyCastle::Asn1::X509::X509Name previousCertificateIssuer) ;
 
 /// @brief Method loadCertificateIssuer addr 0x10f36c0 size 0x1a4 virtual false final false
- ::Org::BouncyCastle::Asn1::X509::X509Name loadCertificateIssuer() ;
+ Org::BouncyCastle::Asn1::X509::X509Name loadCertificateIssuer() ;
 
 /// @brief Method GetCertificateIssuer addr 0x10f3864 size 0x8 virtual false final false
- ::Org::BouncyCastle::Asn1::X509::X509Name GetCertificateIssuer() ;
+ Org::BouncyCastle::Asn1::X509::X509Name GetCertificateIssuer() ;
 
 /// @brief Method GetX509Extensions addr 0x10f386c size 0x1c virtual true final false
- ::Org::BouncyCastle::Asn1::X509::X509Extensions GetX509Extensions() ;
+ Org::BouncyCastle::Asn1::X509::X509Extensions GetX509Extensions() ;
 
 /// @brief Method GetEncoded addr 0x10f3888 size 0xf8 virtual false final false
  ::ArrayW<uint8_t> GetEncoded() ;
 
 /// @brief Method get_SerialNumber addr 0x10f3980 size 0x24 virtual false final false
- ::Org::BouncyCastle::Math::BigInteger get_SerialNumber() ;
+ Org::BouncyCastle::Math::BigInteger get_SerialNumber() ;
 
 /// @brief Method get_RevocationDate addr 0x10f39a4 size 0x24 virtual false final false
- ::System::DateTime get_RevocationDate() ;
+ System::DateTime get_RevocationDate() ;
 
 /// @brief Method get_HasExtensions addr 0x10f39c8 size 0x28 virtual false final false
  bool get_HasExtensions() ;
@@ -161,6 +160,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::X509
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::X509::X509CrlEntry);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::X509::X509CrlEntry, "Org.BouncyCastle.X509", "X509CrlEntry");
+NEED_NO_BOX(Org::BouncyCastle::X509::X509CrlEntry);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509CrlEntry, "Org.BouncyCastle.X509", "X509CrlEntry");

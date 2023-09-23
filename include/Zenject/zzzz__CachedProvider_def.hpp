@@ -3,25 +3,24 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-class Action;
-}
 namespace Zenject {
-class IProvider;
+class InjectContext;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace Zenject {
+struct TypeValuePair;
+}
+namespace Zenject {
+class IProvider;
+}
 namespace System {
 class Type;
 }
-namespace Zenject {
-class InjectContext;
-}
-namespace Zenject {
-struct TypeValuePair;
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace Zenject {
@@ -36,8 +35,8 @@ namespace Zenject {
 class CORDL_TYPE CachedProvider : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Zenject::IProvider
-constexpr operator  ::Zenject::IProvider() const noexcept;
+/// @brief Convert operator to Zenject::IProvider
+constexpr operator  Zenject::IProvider() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -72,17 +71,17 @@ constexpr explicit CachedProvider(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
- ::Zenject::IProvider __declspec(property(get=__get__creator, put=__set__creator))  _creator;
+ Zenject::IProvider __declspec(property(get=__get__creator, put=__set__creator))  _creator;
 
-constexpr void __set__creator(::Zenject::IProvider value) ;
+constexpr void __set__creator(Zenject::IProvider value) ;
 
-constexpr ::Zenject::IProvider __get__creator() const;
+constexpr Zenject::IProvider __get__creator() const;
 
- ::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get__instances, put=__set__instances))  _instances;
+ System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get__instances, put=__set__instances))  _instances;
 
-constexpr void __set__instances(::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> value) ;
+constexpr void __set__instances(System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> __get__instances() const;
+constexpr System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> __get__instances() const;
 
  bool __declspec(property(get=__get__isCreatingInstance, put=__set__isCreatingInstance))  _isCreatingInstance;
 
@@ -102,11 +101,11 @@ constexpr bool __get__isCreatingInstance() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "creator", ty: "::Zenject::IProvider", modifiers: "", def_value: None }]
-explicit CachedProvider(::Zenject::IProvider creator) ;
+// Ctor Parameters [CppParam { name: "creator", ty: "Zenject::IProvider", modifiers: "", def_value: None }]
+explicit CachedProvider(Zenject::IProvider creator) ;
 
 /// @brief Method .ctor addr 0x2d8bd98 size 0x28 virtual false final false
- void _ctor(::Zenject::IProvider creator) ;
+ void _ctor(Zenject::IProvider creator) ;
 
 /// @brief Method get_IsCached addr 0x2d8c370 size 0x8 virtual true final true
  bool get_IsCached() ;
@@ -121,15 +120,14 @@ explicit CachedProvider(::Zenject::IProvider creator) ;
  void ClearCache() ;
 
 /// @brief Method GetInstanceType addr 0x2d8c3a8 size 0xac virtual true final true
- ::System::Type GetInstanceType(::Zenject::InjectContext context) ;
+ System::Type GetInstanceType(Zenject::InjectContext context) ;
 
 /// @brief Method GetAllInstancesWithInjectSplit addr 0x2d8bdc0 size 0x288 virtual true final true
- void GetAllInstancesWithInjectSplit(::Zenject::InjectContext context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair> args, ByRef<::System::Action> injectAction, ::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> buffer) ;
+ void GetAllInstancesWithInjectSplit(Zenject::InjectContext context, System::Collections::Generic::List_1<Zenject::TypeValuePair> args, ByRef<System::Action> injectAction, System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> buffer) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::CachedProvider);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::CachedProvider, "Zenject", "CachedProvider");
+NEED_NO_BOX(Zenject::CachedProvider);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::CachedProvider, "Zenject", "CachedProvider");

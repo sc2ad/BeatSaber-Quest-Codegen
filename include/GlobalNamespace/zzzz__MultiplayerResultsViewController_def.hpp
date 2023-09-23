@@ -1,34 +1,33 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
-namespace {
-namespace UnityEngine {
-class GameObject;
+namespace GlobalNamespace {
+struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
 class LevelBar;
 }
 namespace GlobalNamespace {
-class ResultsTableView;
+class BeatmapCharacteristicSO;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace GlobalNamespace {
-struct BeatmapDifficulty;
-}
-namespace UnityEngine::UI {
-class Button;
-}
-namespace GlobalNamespace {
 class MultiplayerResultsData;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+class ResultsTableView;
 }
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+namespace UnityEngine::UI {
+class Button;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -40,7 +39,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13656))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5815))
 // CS Name: MultiplayerResultsViewController
-class CORDL_TYPE MultiplayerResultsViewController : public ::HMUI::ViewController {
+class CORDL_TYPE MultiplayerResultsViewController : public HMUI::ViewController {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -55,7 +54,7 @@ constexpr MultiplayerResultsViewController(MultiplayerResultsViewController cons
 constexpr MultiplayerResultsViewController(MultiplayerResultsViewController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerResultsViewController(void* ptr) noexcept : ::HMUI::ViewController(ptr) {
+constexpr explicit MultiplayerResultsViewController(void* ptr) noexcept : HMUI::ViewController(ptr) {
 }
 
 
@@ -76,77 +75,77 @@ constexpr explicit MultiplayerResultsViewController(void* ptr) noexcept : ::HMUI
 
 // Fields
 
- ::UnityEngine::GameObject __declspec(property(get=__get__levelClearedGO, put=__set__levelClearedGO))  _levelClearedGO;
+ UnityEngine::GameObject __declspec(property(get=__get__levelClearedGO, put=__set__levelClearedGO))  _levelClearedGO;
 
-constexpr void __set__levelClearedGO(::UnityEngine::GameObject value) ;
+constexpr void __set__levelClearedGO(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__levelClearedGO() const;
+constexpr UnityEngine::GameObject __get__levelClearedGO() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get__levelFailedGO, put=__set__levelFailedGO))  _levelFailedGO;
+ UnityEngine::GameObject __declspec(property(get=__get__levelFailedGO, put=__set__levelFailedGO))  _levelFailedGO;
 
-constexpr void __set__levelFailedGO(::UnityEngine::GameObject value) ;
+constexpr void __set__levelFailedGO(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__levelFailedGO() const;
+constexpr UnityEngine::GameObject __get__levelFailedGO() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get__levelResultsGO, put=__set__levelResultsGO))  _levelResultsGO;
+ UnityEngine::GameObject __declspec(property(get=__get__levelResultsGO, put=__set__levelResultsGO))  _levelResultsGO;
 
-constexpr void __set__levelResultsGO(::UnityEngine::GameObject value) ;
+constexpr void __set__levelResultsGO(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__levelResultsGO() const;
+constexpr UnityEngine::GameObject __get__levelResultsGO() const;
 
- ::GlobalNamespace::LevelBar __declspec(property(get=__get__levelBar, put=__set__levelBar))  _levelBar;
+ GlobalNamespace::LevelBar __declspec(property(get=__get__levelBar, put=__set__levelBar))  _levelBar;
 
-constexpr void __set__levelBar(::GlobalNamespace::LevelBar value) ;
+constexpr void __set__levelBar(GlobalNamespace::LevelBar value) ;
 
-constexpr ::GlobalNamespace::LevelBar __get__levelBar() const;
+constexpr GlobalNamespace::LevelBar __get__levelBar() const;
 
- ::GlobalNamespace::ResultsTableView __declspec(property(get=__get__resultsTableView, put=__set__resultsTableView))  _resultsTableView;
+ GlobalNamespace::ResultsTableView __declspec(property(get=__get__resultsTableView, put=__set__resultsTableView))  _resultsTableView;
 
-constexpr void __set__resultsTableView(::GlobalNamespace::ResultsTableView value) ;
+constexpr void __set__resultsTableView(GlobalNamespace::ResultsTableView value) ;
 
-constexpr ::GlobalNamespace::ResultsTableView __get__resultsTableView() const;
+constexpr GlobalNamespace::ResultsTableView __get__resultsTableView() const;
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__backToLobbyButton, put=__set__backToLobbyButton))  _backToLobbyButton;
+ UnityEngine::UI::Button __declspec(property(get=__get__backToLobbyButton, put=__set__backToLobbyButton))  _backToLobbyButton;
 
-constexpr void __set__backToLobbyButton(::UnityEngine::UI::Button value) ;
+constexpr void __set__backToLobbyButton(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__backToLobbyButton() const;
+constexpr UnityEngine::UI::Button __get__backToLobbyButton() const;
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__backToMenuButton, put=__set__backToMenuButton))  _backToMenuButton;
+ UnityEngine::UI::Button __declspec(property(get=__get__backToMenuButton, put=__set__backToMenuButton))  _backToMenuButton;
 
-constexpr void __set__backToMenuButton(::UnityEngine::UI::Button value) ;
+constexpr void __set__backToMenuButton(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__backToMenuButton() const;
+constexpr UnityEngine::UI::Button __get__backToMenuButton() const;
 
- ::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController> __declspec(property(get=__get_backToLobbyPressedEvent, put=__set_backToLobbyPressedEvent))  backToLobbyPressedEvent;
+ System::Action_1<GlobalNamespace::MultiplayerResultsViewController> __declspec(property(get=__get_backToLobbyPressedEvent, put=__set_backToLobbyPressedEvent))  backToLobbyPressedEvent;
 
-constexpr void __set_backToLobbyPressedEvent(::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController> value) ;
+constexpr void __set_backToLobbyPressedEvent(System::Action_1<GlobalNamespace::MultiplayerResultsViewController> value) ;
 
-constexpr ::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController> __get_backToLobbyPressedEvent() const;
+constexpr System::Action_1<GlobalNamespace::MultiplayerResultsViewController> __get_backToLobbyPressedEvent() const;
 
- ::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController> __declspec(property(get=__get_backToMenuPressedEvent, put=__set_backToMenuPressedEvent))  backToMenuPressedEvent;
+ System::Action_1<GlobalNamespace::MultiplayerResultsViewController> __declspec(property(get=__get_backToMenuPressedEvent, put=__set_backToMenuPressedEvent))  backToMenuPressedEvent;
 
-constexpr void __set_backToMenuPressedEvent(::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController> value) ;
+constexpr void __set_backToMenuPressedEvent(System::Action_1<GlobalNamespace::MultiplayerResultsViewController> value) ;
 
-constexpr ::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController> __get_backToMenuPressedEvent() const;
+constexpr System::Action_1<GlobalNamespace::MultiplayerResultsViewController> __get_backToMenuPressedEvent() const;
 
 
 // Methods
 
 /// @brief Method add_backToLobbyPressedEvent addr 0x2178b94 size 0xb0 virtual false final false
- void add_backToLobbyPressedEvent(::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController> value) ;
+ void add_backToLobbyPressedEvent(System::Action_1<GlobalNamespace::MultiplayerResultsViewController> value) ;
 
 /// @brief Method remove_backToLobbyPressedEvent addr 0x2178c44 size 0xb0 virtual false final false
- void remove_backToLobbyPressedEvent(::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController> value) ;
+ void remove_backToLobbyPressedEvent(System::Action_1<GlobalNamespace::MultiplayerResultsViewController> value) ;
 
 /// @brief Method add_backToMenuPressedEvent addr 0x2178cf4 size 0xb0 virtual false final false
- void add_backToMenuPressedEvent(::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController> value) ;
+ void add_backToMenuPressedEvent(System::Action_1<GlobalNamespace::MultiplayerResultsViewController> value) ;
 
 /// @brief Method remove_backToMenuPressedEvent addr 0x2178da4 size 0xb0 virtual false final false
- void remove_backToMenuPressedEvent(::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController> value) ;
+ void remove_backToMenuPressedEvent(System::Action_1<GlobalNamespace::MultiplayerResultsViewController> value) ;
 
 /// @brief Method Init addr 0x2178e54 size 0x180 virtual false final false
- void Init(::GlobalNamespace::MultiplayerResultsData multiplayerResultsData, ::GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, bool showBackToLobbyButton, bool showBackToMenuButton) ;
+ void Init(GlobalNamespace::MultiplayerResultsData multiplayerResultsData, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, bool showBackToLobbyButton, bool showBackToMenuButton) ;
 
 /// @brief Method DidActivate addr 0x2178fd4 size 0x108 virtual true final false
  void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) ;
@@ -167,6 +166,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerResultsViewController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerResultsViewController, "", "MultiplayerResultsViewController");
+NEED_NO_BOX(GlobalNamespace::MultiplayerResultsViewController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsViewController, "", "MultiplayerResultsViewController");

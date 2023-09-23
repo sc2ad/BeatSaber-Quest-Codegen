@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Math::Field {
 class IPolynomial;
 }
@@ -20,8 +19,8 @@ namespace Org::BouncyCastle::Math::Field {
 class CORDL_TYPE GF2Polynomial : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Math::Field::IPolynomial
-constexpr operator  ::Org::BouncyCastle::Math::Field::IPolynomial() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Math::Field::IPolynomial
+constexpr operator  Org::BouncyCastle::Math::Field::IPolynomial() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -92,6 +91,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Math::Field
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Math::Field::GF2Polynomial);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::Field::GF2Polynomial, "Org.BouncyCastle.Math.Field", "GF2Polynomial");
+NEED_NO_BOX(Org::BouncyCastle::Math::Field::GF2Polynomial);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Field::GF2Polynomial, "Org.BouncyCastle.Math.Field", "GF2Polynomial");

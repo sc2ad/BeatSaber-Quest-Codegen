@@ -2,18 +2,17 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace UnityEngine::UIElements {
-class IUxmlFactory;
-}
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class IUxmlFactory;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
+}
+namespace UnityEngine::UIElements {
+struct CreationContext;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -36,8 +35,8 @@ template<::cordl_internals::il2cpp_reference_type TCreatedType,::cordl_internals
 class CORDL_TYPE UxmlFactory_2<TCreatedType,TTraits> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::UIElements::IUxmlFactory
-constexpr operator  ::UnityEngine::UIElements::IUxmlFactory() const noexcept;
+/// @brief Convert operator to UnityEngine::UIElements::IUxmlFactory
+constexpr operator  UnityEngine::UIElements::IUxmlFactory() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -106,14 +105,13 @@ explicit UxmlFactory_2() ;
  ::StringW get_uxmlQualifiedName() ;
 
 /// @brief Method AcceptsAttributeBag addr 0x0 size 0xffffffffffffffff virtual true final false
- bool AcceptsAttributeBag(::UnityEngine::UIElements::IUxmlAttributes bag, ::UnityEngine::UIElements::CreationContext cc) ;
+ bool AcceptsAttributeBag(UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
 /// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::UIElements::VisualElement Create(::UnityEngine::UIElements::IUxmlAttributes bag, ::UnityEngine::UIElements::CreationContext cc) ;
+ UnityEngine::UIElements::VisualElement Create(UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::UxmlFactory_2, "UnityEngine.UIElements", "UxmlFactory`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::UIElements::UxmlFactory_2, "UnityEngine.UIElements", "UxmlFactory`2");

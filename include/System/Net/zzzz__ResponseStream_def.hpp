@@ -5,24 +5,23 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace System::IO {
-class MemoryStream;
-}
-namespace System::Net {
-class HttpListenerResponse;
-}
 namespace System::IO {
 class Stream;
 }
 namespace System {
 class AsyncCallback;
 }
+namespace System::Net {
+class HttpListenerResponse;
+}
+namespace System::IO {
+struct SeekOrigin;
+}
 namespace System {
 class IAsyncResult;
 }
 namespace System::IO {
-struct SeekOrigin;
+class MemoryStream;
 }
 // Forward declare root types
 namespace System::Net {
@@ -34,7 +33,7 @@ namespace System::Net {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3604))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8050))
 // CS Name: System.Net.ResponseStream
-class CORDL_TYPE ResponseStream : public ::System::IO::Stream {
+class CORDL_TYPE ResponseStream : public System::IO::Stream {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -49,7 +48,7 @@ constexpr ResponseStream(ResponseStream const& ) noexcept = default;
 constexpr ResponseStream(ResponseStream&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ResponseStream(void* ptr) noexcept : ::System::IO::Stream(ptr) {
+constexpr explicit ResponseStream(void* ptr) noexcept : System::IO::Stream(ptr) {
 }
 
 
@@ -70,11 +69,11 @@ constexpr explicit ResponseStream(void* ptr) noexcept : ::System::IO::Stream(ptr
 
 // Fields
 
- ::System::Net::HttpListenerResponse __declspec(property(get=__get_response, put=__set_response))  response;
+ System::Net::HttpListenerResponse __declspec(property(get=__get_response, put=__set_response))  response;
 
-constexpr void __set_response(::System::Net::HttpListenerResponse value) ;
+constexpr void __set_response(System::Net::HttpListenerResponse value) ;
 
-constexpr ::System::Net::HttpListenerResponse __get_response() const;
+constexpr System::Net::HttpListenerResponse __get_response() const;
 
  bool __declspec(property(get=__get_ignore_errors, put=__set_ignore_errors))  ignore_errors;
 
@@ -94,11 +93,11 @@ constexpr void __set_trailer_sent(bool value) ;
 
 constexpr bool __get_trailer_sent() const;
 
- ::System::IO::Stream __declspec(property(get=__get_stream, put=__set_stream))  stream;
+ System::IO::Stream __declspec(property(get=__get_stream, put=__set_stream))  stream;
 
-constexpr void __set_stream(::System::IO::Stream value) ;
+constexpr void __set_stream(System::IO::Stream value) ;
 
-constexpr ::System::IO::Stream __get_stream() const;
+constexpr System::IO::Stream __get_stream() const;
 
 static ::ArrayW<uint8_t> __declspec(property(get=__get_crlf, put=__set_crlf))  crlf;
 
@@ -122,11 +121,11 @@ static ::ArrayW<uint8_t> __get_crlf() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "response", ty: "::System::Net::HttpListenerResponse", modifiers: "", def_value: None }, CppParam { name: "ignore_errors", ty: "bool", modifiers: "", def_value: None }]
-explicit ResponseStream(::System::IO::Stream stream, ::System::Net::HttpListenerResponse response, bool ignore_errors) ;
+// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "response", ty: "System::Net::HttpListenerResponse", modifiers: "", def_value: None }, CppParam { name: "ignore_errors", ty: "bool", modifiers: "", def_value: None }]
+explicit ResponseStream(System::IO::Stream stream, System::Net::HttpListenerResponse response, bool ignore_errors) ;
 
 /// @brief Method .ctor addr 0x2843b78 size 0x84 virtual false final false
- void _ctor(::System::IO::Stream stream, ::System::Net::HttpListenerResponse response, bool ignore_errors) ;
+ void _ctor(System::IO::Stream stream, System::Net::HttpListenerResponse response, bool ignore_errors) ;
 
 /// @brief Method get_CanRead addr 0x2843bfc size 0x8 virtual true final false
  bool get_CanRead() ;
@@ -150,7 +149,7 @@ explicit ResponseStream(::System::IO::Stream stream, ::System::Net::HttpListener
  void Close() ;
 
 /// @brief Method GetHeaders addr 0x2843f34 size 0x15c virtual false final false
- ::System::IO::MemoryStream GetHeaders(bool closing) ;
+ System::IO::MemoryStream GetHeaders(bool closing) ;
 
 /// @brief Method Flush addr 0x284423c size 0x4 virtual true final false
  void Flush() ;
@@ -165,22 +164,22 @@ static ::ArrayW<uint8_t> GetChunkSizeBytes(int32_t size, bool final) ;
  void Write(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count) ;
 
 /// @brief Method BeginWrite addr 0x2844540 size 0x23c virtual true final false
- ::System::IAsyncResult BeginWrite(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, ::System::AsyncCallback cback, ::bs_hook::Il2CppWrapperType state) ;
+ System::IAsyncResult BeginWrite(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, System::AsyncCallback cback, ::bs_hook::Il2CppWrapperType state) ;
 
 /// @brief Method EndWrite addr 0x284477c size 0x22c virtual true final false
- void EndWrite(::System::IAsyncResult ares) ;
+ void EndWrite(System::IAsyncResult ares) ;
 
 /// @brief Method Read addr 0x28449a8 size 0x40 virtual true final false
  int32_t Read(ByRef<::ArrayW<uint8_t>> buffer, int32_t offset, int32_t count) ;
 
 /// @brief Method BeginRead addr 0x28449e8 size 0x40 virtual true final false
- ::System::IAsyncResult BeginRead(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, ::System::AsyncCallback cback, ::bs_hook::Il2CppWrapperType state) ;
+ System::IAsyncResult BeginRead(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, System::AsyncCallback cback, ::bs_hook::Il2CppWrapperType state) ;
 
 /// @brief Method EndRead addr 0x2844a28 size 0x40 virtual true final false
- int32_t EndRead(::System::IAsyncResult ares) ;
+ int32_t EndRead(System::IAsyncResult ares) ;
 
 /// @brief Method Seek addr 0x2844a68 size 0x40 virtual true final false
- int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin) ;
+ int64_t Seek(int64_t offset, System::IO::SeekOrigin origin) ;
 
 /// @brief Method SetLength addr 0x2844aa8 size 0x40 virtual true final false
  void SetLength(int64_t value) ;
@@ -189,6 +188,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::ResponseStream);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::ResponseStream, "System.Net", "ResponseStream");
+NEED_NO_BOX(System::Net::ResponseStream);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::ResponseStream, "System.Net", "ResponseStream");

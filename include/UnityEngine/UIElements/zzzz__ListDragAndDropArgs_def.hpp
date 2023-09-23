@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine::UIElements {
 struct DragAndDropPosition;
 }
 namespace UnityEngine::UIElements {
-class IListDragAndDropArgs;
+class IDragAndDropData;
 }
 namespace UnityEngine::UIElements {
-class IDragAndDropData;
+class IListDragAndDropArgs;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -26,11 +25,11 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE ListDragAndDropArgs : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::UIElements::IListDragAndDropArgs
-constexpr operator  ::UnityEngine::UIElements::IListDragAndDropArgs() const;
+/// @brief Convert operator to UnityEngine::UIElements::IListDragAndDropArgs
+constexpr operator  UnityEngine::UIElements::IListDragAndDropArgs() const;
 
-// Ctor Parameters [CppParam { name: "_target_k__BackingField", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "_insertAtIndex_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_dragAndDropPosition_k__BackingField", ty: "::UnityEngine::UIElements::DragAndDropPosition", modifiers: "", def_value: None }, CppParam { name: "_dragAndDropData_k__BackingField", ty: "::UnityEngine::UIElements::IDragAndDropData", modifiers: "", def_value: None }]
-constexpr ListDragAndDropArgs(::bs_hook::Il2CppWrapperType _target_k__BackingField, int32_t _insertAtIndex_k__BackingField, ::UnityEngine::UIElements::DragAndDropPosition _dragAndDropPosition_k__BackingField, ::UnityEngine::UIElements::IDragAndDropData _dragAndDropData_k__BackingField) noexcept;
+// Ctor Parameters [CppParam { name: "_target_k__BackingField", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "_insertAtIndex_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_dragAndDropPosition_k__BackingField", ty: "UnityEngine::UIElements::DragAndDropPosition", modifiers: "", def_value: None }, CppParam { name: "_dragAndDropData_k__BackingField", ty: "UnityEngine::UIElements::IDragAndDropData", modifiers: "", def_value: None }]
+constexpr ListDragAndDropArgs(::bs_hook::Il2CppWrapperType _target_k__BackingField, int32_t _insertAtIndex_k__BackingField, UnityEngine::UIElements::DragAndDropPosition _dragAndDropPosition_k__BackingField, UnityEngine::UIElements::IDragAndDropData _dragAndDropData_k__BackingField) noexcept;
 
 
                     constexpr ListDragAndDropArgs(ListDragAndDropArgs const&) = default;
@@ -75,17 +74,17 @@ constexpr void __set__insertAtIndex_k__BackingField(int32_t value) ;
 
 constexpr int32_t __get__insertAtIndex_k__BackingField() const;
 
- ::UnityEngine::UIElements::DragAndDropPosition __declspec(property(get=__get__dragAndDropPosition_k__BackingField, put=__set__dragAndDropPosition_k__BackingField))  _dragAndDropPosition_k__BackingField;
+ UnityEngine::UIElements::DragAndDropPosition __declspec(property(get=__get__dragAndDropPosition_k__BackingField, put=__set__dragAndDropPosition_k__BackingField))  _dragAndDropPosition_k__BackingField;
 
-constexpr void __set__dragAndDropPosition_k__BackingField(::UnityEngine::UIElements::DragAndDropPosition value) ;
+constexpr void __set__dragAndDropPosition_k__BackingField(UnityEngine::UIElements::DragAndDropPosition value) ;
 
-constexpr ::UnityEngine::UIElements::DragAndDropPosition __get__dragAndDropPosition_k__BackingField() const;
+constexpr UnityEngine::UIElements::DragAndDropPosition __get__dragAndDropPosition_k__BackingField() const;
 
- ::UnityEngine::UIElements::IDragAndDropData __declspec(property(get=__get__dragAndDropData_k__BackingField, put=__set__dragAndDropData_k__BackingField))  _dragAndDropData_k__BackingField;
+ UnityEngine::UIElements::IDragAndDropData __declspec(property(get=__get__dragAndDropData_k__BackingField, put=__set__dragAndDropData_k__BackingField))  _dragAndDropData_k__BackingField;
 
-constexpr void __set__dragAndDropData_k__BackingField(::UnityEngine::UIElements::IDragAndDropData value) ;
+constexpr void __set__dragAndDropData_k__BackingField(UnityEngine::UIElements::IDragAndDropData value) ;
 
-constexpr ::UnityEngine::UIElements::IDragAndDropData __get__dragAndDropData_k__BackingField() const;
+constexpr UnityEngine::UIElements::IDragAndDropData __get__dragAndDropData_k__BackingField() const;
 
 
 // Properties
@@ -94,9 +93,9 @@ constexpr ::UnityEngine::UIElements::IDragAndDropData __get__dragAndDropData_k__
 
  int32_t __declspec(property(get=get_insertAtIndex, put=set_insertAtIndex))  insertAtIndex;
 
- ::UnityEngine::UIElements::DragAndDropPosition __declspec(property(get=get_dragAndDropPosition, put=set_dragAndDropPosition))  dragAndDropPosition;
+ UnityEngine::UIElements::DragAndDropPosition __declspec(property(get=get_dragAndDropPosition, put=set_dragAndDropPosition))  dragAndDropPosition;
 
- ::UnityEngine::UIElements::IDragAndDropData __declspec(property(get=get_dragAndDropData, put=set_dragAndDropData))  dragAndDropData;
+ UnityEngine::UIElements::IDragAndDropData __declspec(property(get=get_dragAndDropData, put=set_dragAndDropData))  dragAndDropData;
 
 
 // Methods
@@ -111,20 +110,19 @@ constexpr ::UnityEngine::UIElements::IDragAndDropData __get__dragAndDropData_k__
  void set_insertAtIndex(int32_t value) ;
 
 /// @brief Method get_dragAndDropPosition addr 0x2c91080 size 0x8 virtual true final true
- ::UnityEngine::UIElements::DragAndDropPosition get_dragAndDropPosition() ;
+ UnityEngine::UIElements::DragAndDropPosition get_dragAndDropPosition() ;
 
 /// @brief Method set_dragAndDropPosition addr 0x2c91088 size 0x8 virtual false final false
- void set_dragAndDropPosition(::UnityEngine::UIElements::DragAndDropPosition value) ;
+ void set_dragAndDropPosition(UnityEngine::UIElements::DragAndDropPosition value) ;
 
 /// @brief Method get_dragAndDropData addr 0x2c91090 size 0x8 virtual true final true
- ::UnityEngine::UIElements::IDragAndDropData get_dragAndDropData() ;
+ UnityEngine::UIElements::IDragAndDropData get_dragAndDropData() ;
 
 /// @brief Method set_dragAndDropData addr 0x2c91098 size 0x8 virtual false final false
- void set_dragAndDropData(::UnityEngine::UIElements::IDragAndDropData value) ;
+ void set_dragAndDropData(UnityEngine::UIElements::IDragAndDropData value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ListDragAndDropArgs, "UnityEngine.UIElements", "ListDragAndDropArgs");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::ListDragAndDropArgs, "UnityEngine.UIElements", "ListDragAndDropArgs");

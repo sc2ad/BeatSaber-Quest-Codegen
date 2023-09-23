@@ -2,27 +2,26 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
+namespace System::Collections {
+class IList;
+}
 namespace System::Collections {
 class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class Array;
 }
 namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections {
 class IDictionary;
 }
 namespace System::Collections {
-class IList;
-}
-namespace System::Collections {
 class IDictionaryEnumerator;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
-class ICollection;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Collections {
@@ -37,14 +36,14 @@ namespace Org::BouncyCastle::Utilities::Collections {
 class CORDL_TYPE LinkedDictionary : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::IDictionary
-constexpr operator  ::System::Collections::IDictionary() const noexcept;
+/// @brief Convert operator to System::Collections::IDictionary
+constexpr operator  System::Collections::IDictionary() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::ICollection
-constexpr operator  ::System::Collections::ICollection() const noexcept;
+/// @brief Convert operator to System::Collections::ICollection
+constexpr operator  System::Collections::ICollection() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -79,17 +78,17 @@ constexpr explicit LinkedDictionary(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
- ::System::Collections::IDictionary __declspec(property(get=__get_hash, put=__set_hash))  hash;
+ System::Collections::IDictionary __declspec(property(get=__get_hash, put=__set_hash))  hash;
 
-constexpr void __set_hash(::System::Collections::IDictionary value) ;
+constexpr void __set_hash(System::Collections::IDictionary value) ;
 
-constexpr ::System::Collections::IDictionary __get_hash() const;
+constexpr System::Collections::IDictionary __get_hash() const;
 
- ::System::Collections::IList __declspec(property(get=__get_keys, put=__set_keys))  keys;
+ System::Collections::IList __declspec(property(get=__get_keys, put=__set_keys))  keys;
 
-constexpr void __set_keys(::System::Collections::IList value) ;
+constexpr void __set_keys(System::Collections::IList value) ;
 
-constexpr ::System::Collections::IList __get_keys() const;
+constexpr System::Collections::IList __get_keys() const;
 
 
 // Properties
@@ -104,9 +103,9 @@ constexpr ::System::Collections::IList __get_keys() const;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_SyncRoot))  SyncRoot;
 
- ::System::Collections::ICollection __declspec(property(get=get_Keys))  Keys;
+ System::Collections::ICollection __declspec(property(get=get_Keys))  Keys;
 
- ::System::Collections::ICollection __declspec(property(get=get_Values))  Values;
+ System::Collections::ICollection __declspec(property(get=get_Values))  Values;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_Item, put=set_Item))  Item;
 
@@ -129,16 +128,16 @@ explicit LinkedDictionary() ;
  bool Contains(::bs_hook::Il2CppWrapperType k) ;
 
 /// @brief Method CopyTo addr 0x10ccd00 size 0x39c virtual true final false
- void CopyTo(::System::Array array, int32_t index) ;
+ void CopyTo(System::Array array, int32_t index) ;
 
 /// @brief Method get_Count addr 0x10cd09c size 0xa4 virtual true final false
  int32_t get_Count() ;
 
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x10cd140 size 0x10 virtual true final true
- ::System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
+ System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
 /// @brief Method GetEnumerator addr 0x10cd150 size 0x6c virtual true final false
- ::System::Collections::IDictionaryEnumerator GetEnumerator() ;
+ System::Collections::IDictionaryEnumerator GetEnumerator() ;
 
 /// @brief Method Remove addr 0x10cd1ec size 0x128 virtual true final false
  void Remove(::bs_hook::Il2CppWrapperType k) ;
@@ -156,10 +155,10 @@ explicit LinkedDictionary() ;
  ::bs_hook::Il2CppWrapperType get_SyncRoot() ;
 
 /// @brief Method get_Keys addr 0x10cd378 size 0x5c virtual true final false
- ::System::Collections::ICollection get_Keys() ;
+ System::Collections::ICollection get_Keys() ;
 
 /// @brief Method get_Values addr 0x10cd3d4 size 0x4a4 virtual true final false
- ::System::Collections::ICollection get_Values() ;
+ System::Collections::ICollection get_Values() ;
 
 /// @brief Method get_Item addr 0x10cd878 size 0xa8 virtual true final false
  ::bs_hook::Il2CppWrapperType get_Item(::bs_hook::Il2CppWrapperType k) ;
@@ -171,6 +170,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities::Collections
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::Collections::LinkedDictionary);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Collections::LinkedDictionary, "Org.BouncyCastle.Utilities.Collections", "LinkedDictionary");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Collections::LinkedDictionary);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::LinkedDictionary, "Org.BouncyCastle.Utilities.Collections", "LinkedDictionary");

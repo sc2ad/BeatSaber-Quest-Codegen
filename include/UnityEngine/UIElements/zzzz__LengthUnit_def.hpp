@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 struct LengthUnit;
@@ -67,14 +66,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Pixel offset 0
-static ::UnityEngine::UIElements::LengthUnit const Pixel;
+static UnityEngine::UIElements::LengthUnit const Pixel;
 
 /// @brief Field Percent offset 0
-static ::UnityEngine::UIElements::LengthUnit const Percent;
+static UnityEngine::UIElements::LengthUnit const Percent;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::LengthUnit, "UnityEngine.UIElements", "LengthUnit");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::LengthUnit, "UnityEngine.UIElements", "LengthUnit");

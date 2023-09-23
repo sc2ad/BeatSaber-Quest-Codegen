@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct AvatarMaskBodyPart;
 }
@@ -18,7 +17,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10142))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15030))
 // CS Name: UnityEngine.AvatarMask
-class CORDL_TYPE AvatarMask : public ::UnityEngine::Object {
+class CORDL_TYPE AvatarMask : public UnityEngine::Object {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr AvatarMask(AvatarMask const& ) noexcept = default;
 constexpr AvatarMask(AvatarMask&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AvatarMask(void* ptr) noexcept : ::UnityEngine::Object(ptr) {
+constexpr explicit AvatarMask(void* ptr) noexcept : UnityEngine::Object(ptr) {
 }
 
 
@@ -60,7 +59,7 @@ constexpr explicit AvatarMask(void* ptr) noexcept : ::UnityEngine::Object(ptr) {
 // Methods
 
 /// @brief Method GetHumanoidBodyPartActive addr 0x2b1a124 size 0x44 virtual false final false
- bool GetHumanoidBodyPartActive(::UnityEngine::AvatarMaskBodyPart index) ;
+ bool GetHumanoidBodyPartActive(UnityEngine::AvatarMaskBodyPart index) ;
 
 /// @brief Method get_transformCount addr 0x2b1a168 size 0x3c virtual false final false
  int32_t get_transformCount() ;
@@ -78,6 +77,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AvatarMask);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AvatarMask, "UnityEngine", "AvatarMask");
+NEED_NO_BOX(UnityEngine::AvatarMask);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AvatarMask, "UnityEngine", "AvatarMask");

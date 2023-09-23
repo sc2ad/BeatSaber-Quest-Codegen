@@ -2,15 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
+namespace System {
+struct DateTime;
+}
 namespace System::Globalization {
 class DaylightTime;
 }
 namespace System {
 struct TimeSpan;
-}
-namespace System {
-struct DateTime;
 }
 // Forward declare root types
 namespace System {
@@ -58,11 +57,11 @@ constexpr explicit TimeZone(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(p
 
 // Fields
 
-static ::System::TimeZone __declspec(property(get=__get_currentTimeZone, put=__set_currentTimeZone))  currentTimeZone;
+static System::TimeZone __declspec(property(get=__get_currentTimeZone, put=__set_currentTimeZone))  currentTimeZone;
 
-static void __set_currentTimeZone(::System::TimeZone value) ;
+static void __set_currentTimeZone(System::TimeZone value) ;
 
-static ::System::TimeZone __get_currentTimeZone() ;
+static System::TimeZone __get_currentTimeZone() ;
 
 static ::bs_hook::Il2CppWrapperType __declspec(property(get=__get_s_InternalSyncObject, put=__set_s_InternalSyncObject))  s_InternalSyncObject;
 
@@ -75,7 +74,7 @@ static ::bs_hook::Il2CppWrapperType __get_s_InternalSyncObject() ;
 
 static ::bs_hook::Il2CppWrapperType __declspec(property(get=get_InternalSyncObject))  InternalSyncObject;
 
-static ::System::TimeZone __declspec(property(get=get_CurrentTimeZone))  CurrentTimeZone;
+static System::TimeZone __declspec(property(get=get_CurrentTimeZone))  CurrentTimeZone;
 
 
 // Methods
@@ -90,21 +89,20 @@ explicit TimeZone() ;
  void _ctor() ;
 
 /// @brief Method get_CurrentTimeZone addr 0x2458b88 size 0x16c virtual false final false
-static ::System::TimeZone get_CurrentTimeZone() ;
+static System::TimeZone get_CurrentTimeZone() ;
 
 /// @brief Method GetUtcOffset addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::TimeSpan GetUtcOffset(::System::DateTime time) ;
+ System::TimeSpan GetUtcOffset(System::DateTime time) ;
 
 /// @brief Method GetDaylightChanges addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Globalization::DaylightTime GetDaylightChanges(int32_t year) ;
+ System::Globalization::DaylightTime GetDaylightChanges(int32_t year) ;
 
 /// @brief Method CalculateUtcOffset addr 0x2458cf4 size 0x21c virtual false final false
-static ::System::TimeSpan CalculateUtcOffset(::System::DateTime time, ::System::Globalization::DaylightTime daylightTimes) ;
+static System::TimeSpan CalculateUtcOffset(System::DateTime time, System::Globalization::DaylightTime daylightTimes) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::TimeZone);
-DEFINE_IL2CPP_ARG_TYPE(::System::TimeZone, "System", "TimeZone");
+NEED_NO_BOX(System::TimeZone);
+DEFINE_IL2CPP_ARG_TYPE(System::TimeZone, "System", "TimeZone");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class IConnectedPlayer;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11080))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4088))
 // CS Name: LobbyAvatarInstaller
-class CORDL_TYPE LobbyAvatarInstaller : public ::Zenject::MonoInstaller {
+class CORDL_TYPE LobbyAvatarInstaller : public Zenject::MonoInstaller {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr LobbyAvatarInstaller(LobbyAvatarInstaller const& ) noexcept = default;
 constexpr LobbyAvatarInstaller(LobbyAvatarInstaller&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LobbyAvatarInstaller(void* ptr) noexcept : ::Zenject::MonoInstaller(ptr) {
+constexpr explicit LobbyAvatarInstaller(void* ptr) noexcept : Zenject::MonoInstaller(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit LobbyAvatarInstaller(void* ptr) noexcept : ::Zenject::MonoIns
 
 // Fields
 
- ::GlobalNamespace::IConnectedPlayer __declspec(property(get=__get__connectedPlayer, put=__set__connectedPlayer))  _connectedPlayer;
+ GlobalNamespace::IConnectedPlayer __declspec(property(get=__get__connectedPlayer, put=__set__connectedPlayer))  _connectedPlayer;
 
-constexpr void __set__connectedPlayer(::GlobalNamespace::IConnectedPlayer value) ;
+constexpr void __set__connectedPlayer(GlobalNamespace::IConnectedPlayer value) ;
 
-constexpr ::GlobalNamespace::IConnectedPlayer __get__connectedPlayer() const;
+constexpr GlobalNamespace::IConnectedPlayer __get__connectedPlayer() const;
 
 
 // Methods
@@ -73,6 +72,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LobbyAvatarInstaller);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LobbyAvatarInstaller, "", "LobbyAvatarInstaller");
+NEED_NO_BOX(GlobalNamespace::LobbyAvatarInstaller);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyAvatarInstaller, "", "LobbyAvatarInstaller");

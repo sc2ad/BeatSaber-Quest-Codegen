@@ -5,22 +5,21 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System::Text {
-class StringBuilder;
+namespace System {
+class IAsyncResult;
 }
 namespace System {
 class AsyncCallback;
 }
-namespace System {
-class IAsyncResult;
+namespace System::Text {
+class StringBuilder;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
-class ____OVR__OpenVR__IVRResources___GetResourceFullPath;
+class OVR__OpenVR__IVRResources___GetResourceFullPath;
 }
 namespace OVR::OpenVR {
-class ____OVR__OpenVR__IVRResources___LoadSharedResource;
+class OVR__OpenVR__IVRResources___LoadSharedResource;
 }
 namespace OVR::OpenVR {
 struct IVRResources;
@@ -31,44 +30,44 @@ namespace OVR::OpenVR {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9298))
 // CS Name: OVR.OpenVR.IVRResources::_LoadSharedResource
-class CORDL_TYPE ____OVR__OpenVR__IVRResources___LoadSharedResource : public ::System::MulticastDelegate {
+class CORDL_TYPE OVR__OpenVR__IVRResources___LoadSharedResource : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x80};
 
-virtual ~____OVR__OpenVR__IVRResources___LoadSharedResource() = default;
+virtual ~OVR__OpenVR__IVRResources___LoadSharedResource() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____OVR__OpenVR__IVRResources___LoadSharedResource", modifiers: " const&", def_value: None }]
-constexpr ____OVR__OpenVR__IVRResources___LoadSharedResource(____OVR__OpenVR__IVRResources___LoadSharedResource const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "OVR__OpenVR__IVRResources___LoadSharedResource", modifiers: " const&", def_value: None }]
+constexpr OVR__OpenVR__IVRResources___LoadSharedResource(OVR__OpenVR__IVRResources___LoadSharedResource const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____OVR__OpenVR__IVRResources___LoadSharedResource", modifiers: "&&", def_value: None }]
-constexpr ____OVR__OpenVR__IVRResources___LoadSharedResource(____OVR__OpenVR__IVRResources___LoadSharedResource&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "OVR__OpenVR__IVRResources___LoadSharedResource", modifiers: "&&", def_value: None }]
+constexpr OVR__OpenVR__IVRResources___LoadSharedResource(OVR__OpenVR__IVRResources___LoadSharedResource&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____OVR__OpenVR__IVRResources___LoadSharedResource(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit OVR__OpenVR__IVRResources___LoadSharedResource(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
-  constexpr ____OVR__OpenVR__IVRResources___LoadSharedResource& operator=(std::nullptr_t) noexcept {
+  constexpr OVR__OpenVR__IVRResources___LoadSharedResource& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____OVR__OpenVR__IVRResources___LoadSharedResource& operator=(void* o) noexcept {
+  constexpr OVR__OpenVR__IVRResources___LoadSharedResource& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____OVR__OpenVR__IVRResources___LoadSharedResource& operator=(____OVR__OpenVR__IVRResources___LoadSharedResource&& o) noexcept = default;
-  constexpr ____OVR__OpenVR__IVRResources___LoadSharedResource& operator=(____OVR__OpenVR__IVRResources___LoadSharedResource const& o) noexcept = default;
+  constexpr OVR__OpenVR__IVRResources___LoadSharedResource& operator=(OVR__OpenVR__IVRResources___LoadSharedResource&& o) noexcept = default;
+  constexpr OVR__OpenVR__IVRResources___LoadSharedResource& operator=(OVR__OpenVR__IVRResources___LoadSharedResource const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit ____OVR__OpenVR__IVRResources___LoadSharedResource(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+explicit OVR__OpenVR__IVRResources___LoadSharedResource(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265f678 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -77,10 +76,10 @@ explicit ____OVR__OpenVR__IVRResources___LoadSharedResource(::bs_hook::Il2CppWra
  uint32_t Invoke(::StringW pchResourceName, ::StringW pchBuffer, uint32_t unBufferLen) ;
 
 /// @brief Method BeginInvoke addr 0x265f764 size 0x98 virtual true final false
- ::System::IAsyncResult BeginInvoke(::StringW pchResourceName, ::StringW pchBuffer, uint32_t unBufferLen, ::System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
+ System::IAsyncResult BeginInvoke(::StringW pchResourceName, ::StringW pchBuffer, uint32_t unBufferLen, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
 
 /// @brief Method EndInvoke addr 0x265f7fc size 0x28 virtual true final false
- uint32_t EndInvoke(::System::IAsyncResult result) ;
+ uint32_t EndInvoke(System::IAsyncResult result) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -92,56 +91,56 @@ namespace OVR::OpenVR {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9299))
 // CS Name: OVR.OpenVR.IVRResources::_GetResourceFullPath
-class CORDL_TYPE ____OVR__OpenVR__IVRResources___GetResourceFullPath : public ::System::MulticastDelegate {
+class CORDL_TYPE OVR__OpenVR__IVRResources___GetResourceFullPath : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x80};
 
-virtual ~____OVR__OpenVR__IVRResources___GetResourceFullPath() = default;
+virtual ~OVR__OpenVR__IVRResources___GetResourceFullPath() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____OVR__OpenVR__IVRResources___GetResourceFullPath", modifiers: " const&", def_value: None }]
-constexpr ____OVR__OpenVR__IVRResources___GetResourceFullPath(____OVR__OpenVR__IVRResources___GetResourceFullPath const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "OVR__OpenVR__IVRResources___GetResourceFullPath", modifiers: " const&", def_value: None }]
+constexpr OVR__OpenVR__IVRResources___GetResourceFullPath(OVR__OpenVR__IVRResources___GetResourceFullPath const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____OVR__OpenVR__IVRResources___GetResourceFullPath", modifiers: "&&", def_value: None }]
-constexpr ____OVR__OpenVR__IVRResources___GetResourceFullPath(____OVR__OpenVR__IVRResources___GetResourceFullPath&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "OVR__OpenVR__IVRResources___GetResourceFullPath", modifiers: "&&", def_value: None }]
+constexpr OVR__OpenVR__IVRResources___GetResourceFullPath(OVR__OpenVR__IVRResources___GetResourceFullPath&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____OVR__OpenVR__IVRResources___GetResourceFullPath(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit OVR__OpenVR__IVRResources___GetResourceFullPath(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
-  constexpr ____OVR__OpenVR__IVRResources___GetResourceFullPath& operator=(std::nullptr_t) noexcept {
+  constexpr OVR__OpenVR__IVRResources___GetResourceFullPath& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____OVR__OpenVR__IVRResources___GetResourceFullPath& operator=(void* o) noexcept {
+  constexpr OVR__OpenVR__IVRResources___GetResourceFullPath& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____OVR__OpenVR__IVRResources___GetResourceFullPath& operator=(____OVR__OpenVR__IVRResources___GetResourceFullPath&& o) noexcept = default;
-  constexpr ____OVR__OpenVR__IVRResources___GetResourceFullPath& operator=(____OVR__OpenVR__IVRResources___GetResourceFullPath const& o) noexcept = default;
+  constexpr OVR__OpenVR__IVRResources___GetResourceFullPath& operator=(OVR__OpenVR__IVRResources___GetResourceFullPath&& o) noexcept = default;
+  constexpr OVR__OpenVR__IVRResources___GetResourceFullPath& operator=(OVR__OpenVR__IVRResources___GetResourceFullPath const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit ____OVR__OpenVR__IVRResources___GetResourceFullPath(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+explicit OVR__OpenVR__IVRResources___GetResourceFullPath(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265f824 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x265f8fc size 0x14 virtual true final false
- uint32_t Invoke(::StringW pchResourceName, ::StringW pchResourceTypeDirectory, ::System::Text::StringBuilder pchPathBuffer, uint32_t unBufferLen) ;
+ uint32_t Invoke(::StringW pchResourceName, ::StringW pchResourceTypeDirectory, System::Text::StringBuilder pchPathBuffer, uint32_t unBufferLen) ;
 
 /// @brief Method BeginInvoke addr 0x265f910 size 0xa8 virtual true final false
- ::System::IAsyncResult BeginInvoke(::StringW pchResourceName, ::StringW pchResourceTypeDirectory, ::System::Text::StringBuilder pchPathBuffer, uint32_t unBufferLen, ::System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
+ System::IAsyncResult BeginInvoke(::StringW pchResourceName, ::StringW pchResourceTypeDirectory, System::Text::StringBuilder pchPathBuffer, uint32_t unBufferLen, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
 
 /// @brief Method EndInvoke addr 0x265f9b8 size 0x28 virtual true final false
- uint32_t EndInvoke(::System::IAsyncResult result) ;
+ uint32_t EndInvoke(System::IAsyncResult result) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -156,12 +155,12 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE IVRResources : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-using _GetResourceFullPath = ::OVR::OpenVR::____OVR__OpenVR__IVRResources___GetResourceFullPath;
+using _GetResourceFullPath = OVR::OpenVR::OVR__OpenVR__IVRResources___GetResourceFullPath;
 
-using _LoadSharedResource = ::OVR::OpenVR::____OVR__OpenVR__IVRResources___LoadSharedResource;
+using _LoadSharedResource = OVR::OpenVR::OVR__OpenVR__IVRResources___LoadSharedResource;
 
-// Ctor Parameters [CppParam { name: "LoadSharedResource", ty: "::OVR::OpenVR::____OVR__OpenVR__IVRResources___LoadSharedResource", modifiers: "", def_value: None }, CppParam { name: "GetResourceFullPath", ty: "::OVR::OpenVR::____OVR__OpenVR__IVRResources___GetResourceFullPath", modifiers: "", def_value: None }]
-constexpr IVRResources(::OVR::OpenVR::____OVR__OpenVR__IVRResources___LoadSharedResource LoadSharedResource, ::OVR::OpenVR::____OVR__OpenVR__IVRResources___GetResourceFullPath GetResourceFullPath) noexcept;
+// Ctor Parameters [CppParam { name: "LoadSharedResource", ty: "OVR::OpenVR::OVR__OpenVR__IVRResources___LoadSharedResource", modifiers: "", def_value: None }, CppParam { name: "GetResourceFullPath", ty: "OVR::OpenVR::OVR__OpenVR__IVRResources___GetResourceFullPath", modifiers: "", def_value: None }]
+constexpr IVRResources(OVR::OpenVR::OVR__OpenVR__IVRResources___LoadSharedResource LoadSharedResource, OVR::OpenVR::OVR__OpenVR__IVRResources___GetResourceFullPath GetResourceFullPath) noexcept;
 
 
                     constexpr IVRResources(IVRResources const&) = default;
@@ -194,25 +193,24 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::OVR::OpenVR::____OVR__OpenVR__IVRResources___LoadSharedResource __declspec(property(get=__get_LoadSharedResource, put=__set_LoadSharedResource))  LoadSharedResource;
+ OVR::OpenVR::OVR__OpenVR__IVRResources___LoadSharedResource __declspec(property(get=__get_LoadSharedResource, put=__set_LoadSharedResource))  LoadSharedResource;
 
-constexpr void __set_LoadSharedResource(::OVR::OpenVR::____OVR__OpenVR__IVRResources___LoadSharedResource value) ;
+constexpr void __set_LoadSharedResource(OVR::OpenVR::OVR__OpenVR__IVRResources___LoadSharedResource value) ;
 
-constexpr ::OVR::OpenVR::____OVR__OpenVR__IVRResources___LoadSharedResource __get_LoadSharedResource() const;
+constexpr OVR::OpenVR::OVR__OpenVR__IVRResources___LoadSharedResource __get_LoadSharedResource() const;
 
- ::OVR::OpenVR::____OVR__OpenVR__IVRResources___GetResourceFullPath __declspec(property(get=__get_GetResourceFullPath, put=__set_GetResourceFullPath))  GetResourceFullPath;
+ OVR::OpenVR::OVR__OpenVR__IVRResources___GetResourceFullPath __declspec(property(get=__get_GetResourceFullPath, put=__set_GetResourceFullPath))  GetResourceFullPath;
 
-constexpr void __set_GetResourceFullPath(::OVR::OpenVR::____OVR__OpenVR__IVRResources___GetResourceFullPath value) ;
+constexpr void __set_GetResourceFullPath(OVR::OpenVR::OVR__OpenVR__IVRResources___GetResourceFullPath value) ;
 
-constexpr ::OVR::OpenVR::____OVR__OpenVR__IVRResources___GetResourceFullPath __get_GetResourceFullPath() const;
+constexpr OVR::OpenVR::OVR__OpenVR__IVRResources___GetResourceFullPath __get_GetResourceFullPath() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-NEED_NO_BOX(::OVR::OpenVR::____OVR__OpenVR__IVRResources___GetResourceFullPath);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::____OVR__OpenVR__IVRResources___GetResourceFullPath, "OVR.OpenVR", "IVRResources/_GetResourceFullPath");
-NEED_NO_BOX(::OVR::OpenVR::____OVR__OpenVR__IVRResources___LoadSharedResource);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::____OVR__OpenVR__IVRResources___LoadSharedResource, "OVR.OpenVR", "IVRResources/_LoadSharedResource");
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRResources, "OVR.OpenVR", "IVRResources");
+NEED_NO_BOX(OVR::OpenVR::OVR__OpenVR__IVRResources___GetResourceFullPath);
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::OVR__OpenVR__IVRResources___GetResourceFullPath, "OVR.OpenVR", "IVRResources/_GetResourceFullPath");
+NEED_NO_BOX(OVR::OpenVR::OVR__OpenVR__IVRResources___LoadSharedResource);
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::OVR__OpenVR__IVRResources___LoadSharedResource, "OVR.OpenVR", "IVRResources/_LoadSharedResource");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRResources, "OVR.OpenVR", "IVRResources");

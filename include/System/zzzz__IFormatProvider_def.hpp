@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System {
 class Type;
 }
@@ -28,12 +27,11 @@ constexpr explicit IFormatProvider(void* ptr) noexcept : ::cordl_internals::Inte
 // Methods
 
 /// @brief Method GetFormat addr 0x0 size 0xffffffffffffffff virtual true final false
- ::bs_hook::Il2CppWrapperType GetFormat(::System::Type formatType) ;
+ ::bs_hook::Il2CppWrapperType GetFormat(System::Type formatType) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::IFormatProvider);
-DEFINE_IL2CPP_ARG_TYPE(::System::IFormatProvider, "System", "IFormatProvider");
+NEED_NO_BOX(System::IFormatProvider);
+DEFINE_IL2CPP_ARG_TYPE(System::IFormatProvider, "System", "IFormatProvider");

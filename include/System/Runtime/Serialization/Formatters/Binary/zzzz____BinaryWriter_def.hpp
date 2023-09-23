@@ -5,7 +5,24 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryMethodReturn;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryObjectWithMap;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class MemberPrimitiveUnTyped;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class MemberPrimitiveTyped;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class WriteObjectInfo;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryMethodCall;
+}
 namespace System::Collections {
 class Hashtable;
 }
@@ -13,73 +30,55 @@ namespace System::IO {
 class Stream;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryObjectString;
+class BinaryObjectWithMapTyped;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class ObjectWriter;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryObjectWithMap;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class ObjectNull;
+class MemberReference;
 }
 namespace System {
 struct Decimal;
 }
 namespace System {
-class Array;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryMethodCall;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-struct InternalPrimitiveTypeE;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class MemberReference;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryMethodReturn;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryAssembly;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryObject;
+struct TimeSpan;
 }
 namespace System {
 struct DateTime;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class NameInfo;
+}
+namespace System {
+class Type;
 }
 namespace System::IO {
 class BinaryWriter;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class NameInfo;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryObjectWithMapTyped;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class WriteObjectInfo;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class MemberPrimitiveUnTyped;
-}
-namespace System {
-class Type;
+class BinaryAssembly;
 }
 namespace System::Runtime::Serialization::Formatters {
 struct FormatterTypeStyle;
 }
-namespace System::Runtime::Serialization::Formatters::Binary {
-class MemberPrimitiveTyped;
-}
 namespace System {
-struct TimeSpan;
+class Array;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class ObjectWriter;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryObject;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryObjectString;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class BinaryArray;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+struct InternalPrimitiveTypeE;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class ObjectNull;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -127,35 +126,35 @@ constexpr explicit __BinaryWriter(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
- ::System::IO::Stream __declspec(property(get=__get_sout, put=__set_sout))  sout;
+ System::IO::Stream __declspec(property(get=__get_sout, put=__set_sout))  sout;
 
-constexpr void __set_sout(::System::IO::Stream value) ;
+constexpr void __set_sout(System::IO::Stream value) ;
 
-constexpr ::System::IO::Stream __get_sout() const;
+constexpr System::IO::Stream __get_sout() const;
 
- ::System::Runtime::Serialization::Formatters::FormatterTypeStyle __declspec(property(get=__get_formatterTypeStyle, put=__set_formatterTypeStyle))  formatterTypeStyle;
+ System::Runtime::Serialization::Formatters::FormatterTypeStyle __declspec(property(get=__get_formatterTypeStyle, put=__set_formatterTypeStyle))  formatterTypeStyle;
 
-constexpr void __set_formatterTypeStyle(::System::Runtime::Serialization::Formatters::FormatterTypeStyle value) ;
+constexpr void __set_formatterTypeStyle(System::Runtime::Serialization::Formatters::FormatterTypeStyle value) ;
 
-constexpr ::System::Runtime::Serialization::Formatters::FormatterTypeStyle __get_formatterTypeStyle() const;
+constexpr System::Runtime::Serialization::Formatters::FormatterTypeStyle __get_formatterTypeStyle() const;
 
- ::System::Collections::Hashtable __declspec(property(get=__get_objectMapTable, put=__set_objectMapTable))  objectMapTable;
+ System::Collections::Hashtable __declspec(property(get=__get_objectMapTable, put=__set_objectMapTable))  objectMapTable;
 
-constexpr void __set_objectMapTable(::System::Collections::Hashtable value) ;
+constexpr void __set_objectMapTable(System::Collections::Hashtable value) ;
 
-constexpr ::System::Collections::Hashtable __get_objectMapTable() const;
+constexpr System::Collections::Hashtable __get_objectMapTable() const;
 
- ::System::Runtime::Serialization::Formatters::Binary::ObjectWriter __declspec(property(get=__get_objectWriter, put=__set_objectWriter))  objectWriter;
+ System::Runtime::Serialization::Formatters::Binary::ObjectWriter __declspec(property(get=__get_objectWriter, put=__set_objectWriter))  objectWriter;
 
-constexpr void __set_objectWriter(::System::Runtime::Serialization::Formatters::Binary::ObjectWriter value) ;
+constexpr void __set_objectWriter(System::Runtime::Serialization::Formatters::Binary::ObjectWriter value) ;
 
-constexpr ::System::Runtime::Serialization::Formatters::Binary::ObjectWriter __get_objectWriter() const;
+constexpr System::Runtime::Serialization::Formatters::Binary::ObjectWriter __get_objectWriter() const;
 
- ::System::IO::BinaryWriter __declspec(property(get=__get_dataWriter, put=__set_dataWriter))  dataWriter;
+ System::IO::BinaryWriter __declspec(property(get=__get_dataWriter, put=__set_dataWriter))  dataWriter;
 
-constexpr void __set_dataWriter(::System::IO::BinaryWriter value) ;
+constexpr void __set_dataWriter(System::IO::BinaryWriter value) ;
 
-constexpr ::System::IO::BinaryWriter __get_dataWriter() const;
+constexpr System::IO::BinaryWriter __get_dataWriter() const;
 
  int32_t __declspec(property(get=__get_m_nestedObjectCount, put=__set_m_nestedObjectCount))  m_nestedObjectCount;
 
@@ -169,47 +168,47 @@ constexpr void __set_nullCount(int32_t value) ;
 
 constexpr int32_t __get_nullCount() const;
 
- ::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall __declspec(property(get=__get_binaryMethodCall, put=__set_binaryMethodCall))  binaryMethodCall;
+ System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall __declspec(property(get=__get_binaryMethodCall, put=__set_binaryMethodCall))  binaryMethodCall;
 
-constexpr void __set_binaryMethodCall(::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall value) ;
+constexpr void __set_binaryMethodCall(System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall value) ;
 
-constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall __get_binaryMethodCall() const;
+constexpr System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall __get_binaryMethodCall() const;
 
- ::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn __declspec(property(get=__get_binaryMethodReturn, put=__set_binaryMethodReturn))  binaryMethodReturn;
+ System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn __declspec(property(get=__get_binaryMethodReturn, put=__set_binaryMethodReturn))  binaryMethodReturn;
 
-constexpr void __set_binaryMethodReturn(::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn value) ;
+constexpr void __set_binaryMethodReturn(System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn value) ;
 
-constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn __get_binaryMethodReturn() const;
+constexpr System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn __get_binaryMethodReturn() const;
 
- ::System::Runtime::Serialization::Formatters::Binary::BinaryObject __declspec(property(get=__get_binaryObject, put=__set_binaryObject))  binaryObject;
+ System::Runtime::Serialization::Formatters::Binary::BinaryObject __declspec(property(get=__get_binaryObject, put=__set_binaryObject))  binaryObject;
 
-constexpr void __set_binaryObject(::System::Runtime::Serialization::Formatters::Binary::BinaryObject value) ;
+constexpr void __set_binaryObject(System::Runtime::Serialization::Formatters::Binary::BinaryObject value) ;
 
-constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryObject __get_binaryObject() const;
+constexpr System::Runtime::Serialization::Formatters::Binary::BinaryObject __get_binaryObject() const;
 
- ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap __declspec(property(get=__get_binaryObjectWithMap, put=__set_binaryObjectWithMap))  binaryObjectWithMap;
+ System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap __declspec(property(get=__get_binaryObjectWithMap, put=__set_binaryObjectWithMap))  binaryObjectWithMap;
 
-constexpr void __set_binaryObjectWithMap(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap value) ;
+constexpr void __set_binaryObjectWithMap(System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap value) ;
 
-constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap __get_binaryObjectWithMap() const;
+constexpr System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap __get_binaryObjectWithMap() const;
 
- ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped __declspec(property(get=__get_binaryObjectWithMapTyped, put=__set_binaryObjectWithMapTyped))  binaryObjectWithMapTyped;
+ System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped __declspec(property(get=__get_binaryObjectWithMapTyped, put=__set_binaryObjectWithMapTyped))  binaryObjectWithMapTyped;
 
-constexpr void __set_binaryObjectWithMapTyped(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped value) ;
+constexpr void __set_binaryObjectWithMapTyped(System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped value) ;
 
-constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped __get_binaryObjectWithMapTyped() const;
+constexpr System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped __get_binaryObjectWithMapTyped() const;
 
- ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectString __declspec(property(get=__get_binaryObjectString, put=__set_binaryObjectString))  binaryObjectString;
+ System::Runtime::Serialization::Formatters::Binary::BinaryObjectString __declspec(property(get=__get_binaryObjectString, put=__set_binaryObjectString))  binaryObjectString;
 
-constexpr void __set_binaryObjectString(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectString value) ;
+constexpr void __set_binaryObjectString(System::Runtime::Serialization::Formatters::Binary::BinaryObjectString value) ;
 
-constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectString __get_binaryObjectString() const;
+constexpr System::Runtime::Serialization::Formatters::Binary::BinaryObjectString __get_binaryObjectString() const;
 
- ::System::Runtime::Serialization::Formatters::Binary::BinaryArray __declspec(property(get=__get_binaryArray, put=__set_binaryArray))  binaryArray;
+ System::Runtime::Serialization::Formatters::Binary::BinaryArray __declspec(property(get=__get_binaryArray, put=__set_binaryArray))  binaryArray;
 
-constexpr void __set_binaryArray(::System::Runtime::Serialization::Formatters::Binary::BinaryArray value) ;
+constexpr void __set_binaryArray(System::Runtime::Serialization::Formatters::Binary::BinaryArray value) ;
 
-constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryArray __get_binaryArray() const;
+constexpr System::Runtime::Serialization::Formatters::Binary::BinaryArray __get_binaryArray() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get_byteBuffer, put=__set_byteBuffer))  byteBuffer;
 
@@ -223,44 +222,44 @@ constexpr void __set_chunkSize(int32_t value) ;
 
 constexpr int32_t __get_chunkSize() const;
 
- ::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped __declspec(property(get=__get_memberPrimitiveUnTyped, put=__set_memberPrimitiveUnTyped))  memberPrimitiveUnTyped;
+ System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped __declspec(property(get=__get_memberPrimitiveUnTyped, put=__set_memberPrimitiveUnTyped))  memberPrimitiveUnTyped;
 
-constexpr void __set_memberPrimitiveUnTyped(::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped value) ;
+constexpr void __set_memberPrimitiveUnTyped(System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped value) ;
 
-constexpr ::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped __get_memberPrimitiveUnTyped() const;
+constexpr System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped __get_memberPrimitiveUnTyped() const;
 
- ::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped __declspec(property(get=__get_memberPrimitiveTyped, put=__set_memberPrimitiveTyped))  memberPrimitiveTyped;
+ System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped __declspec(property(get=__get_memberPrimitiveTyped, put=__set_memberPrimitiveTyped))  memberPrimitiveTyped;
 
-constexpr void __set_memberPrimitiveTyped(::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped value) ;
+constexpr void __set_memberPrimitiveTyped(System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped value) ;
 
-constexpr ::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped __get_memberPrimitiveTyped() const;
+constexpr System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped __get_memberPrimitiveTyped() const;
 
- ::System::Runtime::Serialization::Formatters::Binary::ObjectNull __declspec(property(get=__get_objectNull, put=__set_objectNull))  objectNull;
+ System::Runtime::Serialization::Formatters::Binary::ObjectNull __declspec(property(get=__get_objectNull, put=__set_objectNull))  objectNull;
 
-constexpr void __set_objectNull(::System::Runtime::Serialization::Formatters::Binary::ObjectNull value) ;
+constexpr void __set_objectNull(System::Runtime::Serialization::Formatters::Binary::ObjectNull value) ;
 
-constexpr ::System::Runtime::Serialization::Formatters::Binary::ObjectNull __get_objectNull() const;
+constexpr System::Runtime::Serialization::Formatters::Binary::ObjectNull __get_objectNull() const;
 
- ::System::Runtime::Serialization::Formatters::Binary::MemberReference __declspec(property(get=__get_memberReference, put=__set_memberReference))  memberReference;
+ System::Runtime::Serialization::Formatters::Binary::MemberReference __declspec(property(get=__get_memberReference, put=__set_memberReference))  memberReference;
 
-constexpr void __set_memberReference(::System::Runtime::Serialization::Formatters::Binary::MemberReference value) ;
+constexpr void __set_memberReference(System::Runtime::Serialization::Formatters::Binary::MemberReference value) ;
 
-constexpr ::System::Runtime::Serialization::Formatters::Binary::MemberReference __get_memberReference() const;
+constexpr System::Runtime::Serialization::Formatters::Binary::MemberReference __get_memberReference() const;
 
- ::System::Runtime::Serialization::Formatters::Binary::BinaryAssembly __declspec(property(get=__get_binaryAssembly, put=__set_binaryAssembly))  binaryAssembly;
+ System::Runtime::Serialization::Formatters::Binary::BinaryAssembly __declspec(property(get=__get_binaryAssembly, put=__set_binaryAssembly))  binaryAssembly;
 
-constexpr void __set_binaryAssembly(::System::Runtime::Serialization::Formatters::Binary::BinaryAssembly value) ;
+constexpr void __set_binaryAssembly(System::Runtime::Serialization::Formatters::Binary::BinaryAssembly value) ;
 
-constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryAssembly __get_binaryAssembly() const;
+constexpr System::Runtime::Serialization::Formatters::Binary::BinaryAssembly __get_binaryAssembly() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "sout", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "objectWriter", ty: "::System::Runtime::Serialization::Formatters::Binary::ObjectWriter", modifiers: "", def_value: None }, CppParam { name: "formatterTypeStyle", ty: "::System::Runtime::Serialization::Formatters::FormatterTypeStyle", modifiers: "", def_value: None }]
-explicit __BinaryWriter(::System::IO::Stream sout, ::System::Runtime::Serialization::Formatters::Binary::ObjectWriter objectWriter, ::System::Runtime::Serialization::Formatters::FormatterTypeStyle formatterTypeStyle) ;
+// Ctor Parameters [CppParam { name: "sout", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "objectWriter", ty: "System::Runtime::Serialization::Formatters::Binary::ObjectWriter", modifiers: "", def_value: None }, CppParam { name: "formatterTypeStyle", ty: "System::Runtime::Serialization::Formatters::FormatterTypeStyle", modifiers: "", def_value: None }]
+explicit __BinaryWriter(System::IO::Stream sout, System::Runtime::Serialization::Formatters::Binary::ObjectWriter objectWriter, System::Runtime::Serialization::Formatters::FormatterTypeStyle formatterTypeStyle) ;
 
 /// @brief Method .ctor addr 0x235a098 size 0xb8 virtual false final false
- void _ctor(::System::IO::Stream sout, ::System::Runtime::Serialization::Formatters::Binary::ObjectWriter objectWriter, ::System::Runtime::Serialization::Formatters::FormatterTypeStyle formatterTypeStyle) ;
+ void _ctor(System::IO::Stream sout, System::Runtime::Serialization::Formatters::Binary::ObjectWriter objectWriter, System::Runtime::Serialization::Formatters::FormatterTypeStyle formatterTypeStyle) ;
 
 /// @brief Method WriteBegin addr 0x235a438 size 0x4 virtual false final false
  void WriteBegin() ;
@@ -287,7 +286,7 @@ explicit __BinaryWriter(::System::IO::Stream sout, ::System::Runtime::Serializat
  void WriteChars(::ArrayW<char16_t> value) ;
 
 /// @brief Method WriteDecimal addr 0x235a508 size 0xc0 virtual false final false
- void WriteDecimal(::System::Decimal value) ;
+ void WriteDecimal(System::Decimal value) ;
 
 /// @brief Method WriteSingle addr 0x235a5c8 size 0x24 virtual false final false
  void WriteSingle(float_t value) ;
@@ -311,10 +310,10 @@ explicit __BinaryWriter(::System::IO::Stream sout, ::System::Runtime::Serializat
  void WriteString(::StringW value) ;
 
 /// @brief Method WriteTimeSpan addr 0x235a678 size 0x24 virtual false final false
- void WriteTimeSpan(::System::TimeSpan value) ;
+ void WriteTimeSpan(System::TimeSpan value) ;
 
 /// @brief Method WriteDateTime addr 0x235a69c size 0x24 virtual false final false
- void WriteDateTime(::System::DateTime value) ;
+ void WriteDateTime(System::DateTime value) ;
 
 /// @brief Method WriteUInt16 addr 0x235a6c0 size 0x24 virtual false final false
  void WriteUInt16(uint16_t value) ;
@@ -326,7 +325,7 @@ explicit __BinaryWriter(::System::IO::Stream sout, ::System::Runtime::Serializat
  void WriteUInt64(uint64_t value) ;
 
 /// @brief Method WriteObjectEnd addr 0x235a72c size 0x4 virtual false final false
- void WriteObjectEnd(::System::Runtime::Serialization::Formatters::Binary::NameInfo memberNameInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo typeNameInfo) ;
+ void WriteObjectEnd(System::Runtime::Serialization::Formatters::Binary::NameInfo memberNameInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo typeNameInfo) ;
 
 /// @brief Method WriteSerializationHeaderEnd addr 0x235a730 size 0x5c virtual false final false
  void WriteSerializationHeaderEnd() ;
@@ -341,46 +340,46 @@ explicit __BinaryWriter(::System::IO::Stream sout, ::System::Runtime::Serializat
  void WriteMethodReturn() ;
 
 /// @brief Method WriteObject addr 0x235a924 size 0x4a8 virtual false final false
- void WriteObject(::System::Runtime::Serialization::Formatters::Binary::NameInfo nameInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo typeNameInfo, int32_t numMembers, ::ArrayW<::StringW> memberNames, ::ArrayW<::System::Type> memberTypes, ::ArrayW<::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo> memberObjectInfos) ;
+ void WriteObject(System::Runtime::Serialization::Formatters::Binary::NameInfo nameInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo typeNameInfo, int32_t numMembers, ::ArrayW<::StringW> memberNames, ::ArrayW<System::Type> memberTypes, ::ArrayW<System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo> memberObjectInfos) ;
 
 /// @brief Method WriteObjectString addr 0x235afd8 size 0x90 virtual false final false
  void WriteObjectString(int32_t objectId, ::StringW value) ;
 
 /// @brief Method WriteSingleArray addr 0x235b068 size 0x2fc virtual false final false
- void WriteSingleArray(::System::Runtime::Serialization::Formatters::Binary::NameInfo memberNameInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo arrayNameInfo, ::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo objectInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo arrayElemTypeNameInfo, int32_t length, int32_t lowerBound, ::System::Array array) ;
+ void WriteSingleArray(System::Runtime::Serialization::Formatters::Binary::NameInfo memberNameInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo arrayNameInfo, System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo objectInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo arrayElemTypeNameInfo, int32_t length, int32_t lowerBound, System::Array array) ;
 
 /// @brief Method WriteArrayAsBytes addr 0x235b364 size 0x22c virtual false final false
- void WriteArrayAsBytes(::System::Array array, int32_t typeLength) ;
+ void WriteArrayAsBytes(System::Array array, int32_t typeLength) ;
 
 /// @brief Method WriteJaggedArray addr 0x235b590 size 0x190 virtual false final false
- void WriteJaggedArray(::System::Runtime::Serialization::Formatters::Binary::NameInfo memberNameInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo arrayNameInfo, ::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo objectInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo arrayElemTypeNameInfo, int32_t length, int32_t lowerBound) ;
+ void WriteJaggedArray(System::Runtime::Serialization::Formatters::Binary::NameInfo memberNameInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo arrayNameInfo, System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo objectInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo arrayElemTypeNameInfo, int32_t length, int32_t lowerBound) ;
 
 /// @brief Method WriteRectangleArray addr 0x235b720 size 0x158 virtual false final false
- void WriteRectangleArray(::System::Runtime::Serialization::Formatters::Binary::NameInfo memberNameInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo arrayNameInfo, ::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo objectInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo arrayElemTypeNameInfo, int32_t rank, ::ArrayW<int32_t> lengthA, ::ArrayW<int32_t> lowerBoundA) ;
+ void WriteRectangleArray(System::Runtime::Serialization::Formatters::Binary::NameInfo memberNameInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo arrayNameInfo, System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo objectInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo arrayElemTypeNameInfo, int32_t rank, ::ArrayW<int32_t> lengthA, ::ArrayW<int32_t> lowerBoundA) ;
 
 /// @brief Method WriteObjectByteArray addr 0x235b878 size 0x60 virtual false final false
- void WriteObjectByteArray(::System::Runtime::Serialization::Formatters::Binary::NameInfo memberNameInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo arrayNameInfo, ::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo objectInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo arrayElemTypeNameInfo, int32_t length, int32_t lowerBound, ::ArrayW<uint8_t> byteA) ;
+ void WriteObjectByteArray(System::Runtime::Serialization::Formatters::Binary::NameInfo memberNameInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo arrayNameInfo, System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo objectInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo arrayElemTypeNameInfo, int32_t length, int32_t lowerBound, ::ArrayW<uint8_t> byteA) ;
 
 /// @brief Method WriteMember addr 0x235b8d8 size 0x108 virtual false final false
- void WriteMember(::System::Runtime::Serialization::Formatters::Binary::NameInfo memberNameInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo typeNameInfo, ::bs_hook::Il2CppWrapperType value) ;
+ void WriteMember(System::Runtime::Serialization::Formatters::Binary::NameInfo memberNameInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo typeNameInfo, ::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method WriteNullMember addr 0x235b9e0 size 0xa0 virtual false final false
- void WriteNullMember(::System::Runtime::Serialization::Formatters::Binary::NameInfo memberNameInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo typeNameInfo) ;
+ void WriteNullMember(System::Runtime::Serialization::Formatters::Binary::NameInfo memberNameInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo typeNameInfo) ;
 
 /// @brief Method WriteMemberObjectRef addr 0x235ba80 size 0x94 virtual false final false
- void WriteMemberObjectRef(::System::Runtime::Serialization::Formatters::Binary::NameInfo memberNameInfo, int32_t idRef) ;
+ void WriteMemberObjectRef(System::Runtime::Serialization::Formatters::Binary::NameInfo memberNameInfo, int32_t idRef) ;
 
 /// @brief Method WriteMemberNested addr 0x235bb14 size 0x1c virtual false final false
- void WriteMemberNested(::System::Runtime::Serialization::Formatters::Binary::NameInfo memberNameInfo) ;
+ void WriteMemberNested(System::Runtime::Serialization::Formatters::Binary::NameInfo memberNameInfo) ;
 
 /// @brief Method WriteMemberString addr 0x235bb30 size 0x48 virtual false final false
- void WriteMemberString(::System::Runtime::Serialization::Formatters::Binary::NameInfo memberNameInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo typeNameInfo, ::StringW value) ;
+ void WriteMemberString(System::Runtime::Serialization::Formatters::Binary::NameInfo memberNameInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo typeNameInfo, ::StringW value) ;
 
 /// @brief Method WriteItem addr 0x235bb78 size 0x40 virtual false final false
- void WriteItem(::System::Runtime::Serialization::Formatters::Binary::NameInfo itemNameInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo typeNameInfo, ::bs_hook::Il2CppWrapperType value) ;
+ void WriteItem(System::Runtime::Serialization::Formatters::Binary::NameInfo itemNameInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo typeNameInfo, ::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method WriteNullItem addr 0x235bbb8 size 0x10 virtual false final false
- void WriteNullItem(::System::Runtime::Serialization::Formatters::Binary::NameInfo itemNameInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo typeNameInfo) ;
+ void WriteNullItem(System::Runtime::Serialization::Formatters::Binary::NameInfo itemNameInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo typeNameInfo) ;
 
 /// @brief Method WriteDelayedNullItem addr 0x235bbc8 size 0x10 virtual false final false
  void WriteDelayedNullItem() ;
@@ -392,18 +391,17 @@ explicit __BinaryWriter(::System::IO::Stream sout, ::System::Runtime::Serializat
  void InternalWriteItemNull() ;
 
 /// @brief Method WriteItemObjectRef addr 0x235bbdc size 0x30 virtual false final false
- void WriteItemObjectRef(::System::Runtime::Serialization::Formatters::Binary::NameInfo nameInfo, int32_t idRef) ;
+ void WriteItemObjectRef(System::Runtime::Serialization::Formatters::Binary::NameInfo nameInfo, int32_t idRef) ;
 
 /// @brief Method WriteAssembly addr 0x235bc0c size 0xd4 virtual false final false
- void WriteAssembly(::System::Type type, ::StringW assemblyString, int32_t assemId, bool isNew) ;
+ void WriteAssembly(System::Type type, ::StringW assemblyString, int32_t assemId, bool isNew) ;
 
 /// @brief Method WriteValue addr 0x23550c4 size 0x664 virtual false final false
- void WriteValue(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, ::bs_hook::Il2CppWrapperType value) ;
+ void WriteValue(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, ::bs_hook::Il2CppWrapperType value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization::Formatters::Binary
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter, "System.Runtime.Serialization.Formatters.Binary", "__BinaryWriter");
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter, "System.Runtime.Serialization.Formatters.Binary", "__BinaryWriter");

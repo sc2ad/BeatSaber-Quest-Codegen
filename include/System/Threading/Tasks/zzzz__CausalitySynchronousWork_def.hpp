@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Threading::Tasks {
 struct CausalitySynchronousWork;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field CompletionNotification offset 0
-static ::System::Threading::Tasks::CausalitySynchronousWork const CompletionNotification;
+static System::Threading::Tasks::CausalitySynchronousWork const CompletionNotification;
 
 /// @brief Field ProgressNotification offset 0
-static ::System::Threading::Tasks::CausalitySynchronousWork const ProgressNotification;
+static System::Threading::Tasks::CausalitySynchronousWork const ProgressNotification;
 
 /// @brief Field Execution offset 0
-static ::System::Threading::Tasks::CausalitySynchronousWork const Execution;
+static System::Threading::Tasks::CausalitySynchronousWork const Execution;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Threading::Tasks
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::CausalitySynchronousWork, "System.Threading.Tasks", "CausalitySynchronousWork");
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::CausalitySynchronousWork, "System.Threading.Tasks", "CausalitySynchronousWork");

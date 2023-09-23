@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "System/Collections/zzzz__ReadOnlyCollectionBase_def.hpp"
-namespace {
 // Forward declare root types
 namespace System::Security::Authentication::ExtendedProtection {
 class ServiceNameCollection;
@@ -12,7 +11,7 @@ namespace System::Security::Authentication::ExtendedProtection {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3762))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7816))
 // CS Name: System.Security.Authentication.ExtendedProtection.ServiceNameCollection
-class CORDL_TYPE ServiceNameCollection : public ::System::Collections::ReadOnlyCollectionBase {
+class CORDL_TYPE ServiceNameCollection : public System::Collections::ReadOnlyCollectionBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr ServiceNameCollection(ServiceNameCollection const& ) noexcept = defaul
 constexpr ServiceNameCollection(ServiceNameCollection&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ServiceNameCollection(void* ptr) noexcept : ::System::Collections::ReadOnlyCollectionBase(ptr) {
+constexpr explicit ServiceNameCollection(void* ptr) noexcept : System::Collections::ReadOnlyCollectionBase(ptr) {
 }
 
 
@@ -49,6 +48,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Authentication::ExtendedProtection
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Authentication::ExtendedProtection::ServiceNameCollection);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Authentication::ExtendedProtection::ServiceNameCollection, "System.Security.Authentication.ExtendedProtection", "ServiceNameCollection");
+NEED_NO_BOX(System::Security::Authentication::ExtendedProtection::ServiceNameCollection);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Authentication::ExtendedProtection::ServiceNameCollection, "System.Security.Authentication.ExtendedProtection", "ServiceNameCollection");

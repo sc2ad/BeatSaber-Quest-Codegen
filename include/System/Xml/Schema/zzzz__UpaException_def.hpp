@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 // Forward declare root types
 namespace System::Xml::Schema {
 class UpaException;
@@ -13,7 +12,7 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2560))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11537))
 // CS Name: System.Xml.Schema.UpaException
-class CORDL_TYPE UpaException : public ::System::Exception {
+class CORDL_TYPE UpaException : public System::Exception {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr UpaException(UpaException const& ) noexcept = default;
 constexpr UpaException(UpaException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UpaException(void* ptr) noexcept : ::System::Exception(ptr) {
+constexpr explicit UpaException(void* ptr) noexcept : System::Exception(ptr) {
 }
 
 
@@ -74,6 +73,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::UpaException);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::UpaException, "System.Xml.Schema", "UpaException");
+NEED_NO_BOX(System::Xml::Schema::UpaException);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::UpaException, "System.Xml.Schema", "UpaException");

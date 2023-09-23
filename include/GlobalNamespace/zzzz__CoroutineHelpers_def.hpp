@@ -4,32 +4,31 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-class Action;
-}
 namespace GlobalNamespace {
 class ICoroutineStarter;
 }
 namespace UnityEngine {
 class Coroutine;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
+namespace System {
+class Action;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class IDisposable;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
 class CoroutineHelpers;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0;
+class GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0;
 }
 // Type: ::<ExecuteAfterDelayCoroutine>d__0
 namespace GlobalNamespace {
@@ -37,46 +36,46 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13783))
 // CS Name: CoroutineHelpers::<ExecuteAfterDelayCoroutine>d__0
-class CORDL_TYPE ____GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0() = default;
+virtual ~GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0(____GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0(GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0(____GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0(GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0& operator=(____GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0&& o) noexcept = default;
-  constexpr ____GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0& operator=(____GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0 const& o) noexcept = default;
+  constexpr GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0& operator=(GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0&& o) noexcept = default;
+  constexpr GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0& operator=(GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0 const& o) noexcept = default;
                 
 
 
@@ -100,11 +99,11 @@ constexpr void __set_time(float_t value) ;
 
 constexpr float_t __get_time() const;
 
- ::System::Action __declspec(property(get=__get_action, put=__set_action))  action;
+ System::Action __declspec(property(get=__get_action, put=__set_action))  action;
 
-constexpr void __set_action(::System::Action value) ;
+constexpr void __set_action(System::Action value) ;
 
-constexpr ::System::Action __get_action() const;
+constexpr System::Action __get_action() const;
 
 
 // Properties
@@ -117,7 +116,7 @@ constexpr ::System::Action __get_action() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0(int32_t __1__state) ;
+explicit GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1f76300 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -150,7 +149,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE CoroutineHelpers : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using _ExecuteAfterDelayCoroutine_d__0 = ::GlobalNamespace::____GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0;
+using _ExecuteAfterDelayCoroutine_d__0 = GlobalNamespace::GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -186,20 +185,19 @@ constexpr explicit CoroutineHelpers(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 // Methods
 
 /// @brief Method ExecuteAfterDelayCoroutine addr 0x1f76288 size 0x78 virtual false final false
-static ::System::Collections::IEnumerator ExecuteAfterDelayCoroutine(::System::Action action, float_t time) ;
+static System::Collections::IEnumerator ExecuteAfterDelayCoroutine(System::Action action, float_t time) ;
 
 /// @brief Method StartSingleCoroutine addr 0x1f76328 size 0xc4 virtual false final false
-static void StartSingleCoroutine(::GlobalNamespace::ICoroutineStarter coroutineStarter, ByRef<::UnityEngine::Coroutine> handle, ::System::Collections::IEnumerator routine) ;
+static void StartSingleCoroutine(GlobalNamespace::ICoroutineStarter coroutineStarter, ByRef<UnityEngine::Coroutine> handle, System::Collections::IEnumerator routine) ;
 
 /// @brief Method StopSingleCoroutine addr 0x1f763ec size 0xb8 virtual false final false
-static void StopSingleCoroutine(::GlobalNamespace::ICoroutineStarter coroutineStarter, ByRef<::UnityEngine::Coroutine> handle) ;
+static void StopSingleCoroutine(GlobalNamespace::ICoroutineStarter coroutineStarter, ByRef<UnityEngine::Coroutine> handle) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::CoroutineHelpers);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CoroutineHelpers, "", "CoroutineHelpers");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0, "", "CoroutineHelpers/<ExecuteAfterDelayCoroutine>d__0");
+NEED_NO_BOX(GlobalNamespace::CoroutineHelpers);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CoroutineHelpers, "", "CoroutineHelpers");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0, "", "CoroutineHelpers/<ExecuteAfterDelayCoroutine>d__0");

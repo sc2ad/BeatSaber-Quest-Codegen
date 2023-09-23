@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 class Renderer;
 }
@@ -22,7 +21,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14730))
 // CS Name: MaterialPropertyBlockRandomValueSetter
-class CORDL_TYPE MaterialPropertyBlockRandomValueSetter : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MaterialPropertyBlockRandomValueSetter : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr MaterialPropertyBlockRandomValueSetter(MaterialPropertyBlockRandomValu
 constexpr MaterialPropertyBlockRandomValueSetter(MaterialPropertyBlockRandomValueSetter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MaterialPropertyBlockRandomValueSetter(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MaterialPropertyBlockRandomValueSetter(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -58,11 +57,11 @@ constexpr explicit MaterialPropertyBlockRandomValueSetter(void* ptr) noexcept : 
 
 // Fields
 
- ::ArrayW<::UnityEngine::Renderer> __declspec(property(get=__get__renderers, put=__set__renderers))  _renderers;
+ ::ArrayW<UnityEngine::Renderer> __declspec(property(get=__get__renderers, put=__set__renderers))  _renderers;
 
-constexpr void __set__renderers(::ArrayW<::UnityEngine::Renderer> value) ;
+constexpr void __set__renderers(::ArrayW<UnityEngine::Renderer> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Renderer> __get__renderers() const;
+constexpr ::ArrayW<UnityEngine::Renderer> __get__renderers() const;
 
  ::StringW __declspec(property(get=__get__propertyName, put=__set__propertyName))  _propertyName;
 
@@ -82,11 +81,11 @@ constexpr void __set__maxValue(float_t value) ;
 
 constexpr float_t __get__maxValue() const;
 
- ::ArrayW<::UnityEngine::MaterialPropertyBlock> __declspec(property(get=__get__materialPropertyBlocks, put=__set__materialPropertyBlocks))  _materialPropertyBlocks;
+ ::ArrayW<UnityEngine::MaterialPropertyBlock> __declspec(property(get=__get__materialPropertyBlocks, put=__set__materialPropertyBlocks))  _materialPropertyBlocks;
 
-constexpr void __set__materialPropertyBlocks(::ArrayW<::UnityEngine::MaterialPropertyBlock> value) ;
+constexpr void __set__materialPropertyBlocks(::ArrayW<UnityEngine::MaterialPropertyBlock> value) ;
 
-constexpr ::ArrayW<::UnityEngine::MaterialPropertyBlock> __get__materialPropertyBlocks() const;
+constexpr ::ArrayW<UnityEngine::MaterialPropertyBlock> __get__materialPropertyBlocks() const;
 
  int32_t __declspec(property(get=__get__propertyId, put=__set__propertyId))  _propertyId;
 
@@ -119,6 +118,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MaterialPropertyBlockRandomValueSetter);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MaterialPropertyBlockRandomValueSetter, "", "MaterialPropertyBlockRandomValueSetter");
+NEED_NO_BOX(GlobalNamespace::MaterialPropertyBlockRandomValueSetter);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyBlockRandomValueSetter, "", "MaterialPropertyBlockRandomValueSetter");

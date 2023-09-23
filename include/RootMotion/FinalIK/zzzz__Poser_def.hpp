@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "RootMotion/zzzz__SolverManager_def.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 class Transform;
 }
@@ -16,7 +15,7 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12441))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12559))
 // CS Name: RootMotion.FinalIK.Poser
-class CORDL_TYPE Poser : public ::RootMotion::SolverManager {
+class CORDL_TYPE Poser : public RootMotion::SolverManager {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr Poser(Poser const& ) noexcept = default;
 constexpr Poser(Poser&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Poser(void* ptr) noexcept : ::RootMotion::SolverManager(ptr) {
+constexpr explicit Poser(void* ptr) noexcept : RootMotion::SolverManager(ptr) {
 }
 
 
@@ -52,11 +51,11 @@ constexpr explicit Poser(void* ptr) noexcept : ::RootMotion::SolverManager(ptr) 
 
 // Fields
 
- ::UnityEngine::Transform __declspec(property(get=__get_poseRoot, put=__set_poseRoot))  poseRoot;
+ UnityEngine::Transform __declspec(property(get=__get_poseRoot, put=__set_poseRoot))  poseRoot;
 
-constexpr void __set_poseRoot(::UnityEngine::Transform value) ;
+constexpr void __set_poseRoot(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_poseRoot() const;
+constexpr UnityEngine::Transform __get_poseRoot() const;
 
  float_t __declspec(property(get=__get_weight, put=__set_weight))  weight;
 
@@ -119,6 +118,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::Poser);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::Poser, "RootMotion.FinalIK", "Poser");
+NEED_NO_BOX(RootMotion::FinalIK::Poser);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Poser, "RootMotion.FinalIK", "Poser");

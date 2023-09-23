@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
 class ApplicationInviteList;
 }
@@ -52,11 +51,11 @@ constexpr explicit SendInvitesResult(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 
 // Fields
 
- ::Oculus::Platform::Models::ApplicationInviteList __declspec(property(get=__get_Invites, put=__set_Invites))  Invites;
+ Oculus::Platform::Models::ApplicationInviteList __declspec(property(get=__get_Invites, put=__set_Invites))  Invites;
 
-constexpr void __set_Invites(::Oculus::Platform::Models::ApplicationInviteList value) ;
+constexpr void __set_Invites(Oculus::Platform::Models::ApplicationInviteList value) ;
 
-constexpr ::Oculus::Platform::Models::ApplicationInviteList __get_Invites() const;
+constexpr Oculus::Platform::Models::ApplicationInviteList __get_Invites() const;
 
 
 // Methods
@@ -71,6 +70,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::SendInvitesResult);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::SendInvitesResult, "Oculus.Platform.Models", "SendInvitesResult");
+NEED_NO_BOX(Oculus::Platform::Models::SendInvitesResult);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::SendInvitesResult, "Oculus.Platform.Models", "SendInvitesResult");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
 struct JsonContractType;
@@ -74,35 +73,34 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::Newtonsoft::Json::Serialization::JsonContractType const None;
+static Newtonsoft::Json::Serialization::JsonContractType const None;
 
 /// @brief Field Object offset 0
-static ::Newtonsoft::Json::Serialization::JsonContractType const Object;
+static Newtonsoft::Json::Serialization::JsonContractType const Object;
 
 /// @brief Field Array offset 0
-static ::Newtonsoft::Json::Serialization::JsonContractType const Array;
+static Newtonsoft::Json::Serialization::JsonContractType const Array;
 
 /// @brief Field Primitive offset 0
-static ::Newtonsoft::Json::Serialization::JsonContractType const Primitive;
+static Newtonsoft::Json::Serialization::JsonContractType const Primitive;
 
 /// @brief Field String offset 0
-static ::Newtonsoft::Json::Serialization::JsonContractType const String;
+static Newtonsoft::Json::Serialization::JsonContractType const String;
 
 /// @brief Field Dictionary offset 0
-static ::Newtonsoft::Json::Serialization::JsonContractType const Dictionary;
+static Newtonsoft::Json::Serialization::JsonContractType const Dictionary;
 
 /// @brief Field Dynamic offset 0
-static ::Newtonsoft::Json::Serialization::JsonContractType const Dynamic;
+static Newtonsoft::Json::Serialization::JsonContractType const Dynamic;
 
 /// @brief Field Serializable offset 0
-static ::Newtonsoft::Json::Serialization::JsonContractType const Serializable;
+static Newtonsoft::Json::Serialization::JsonContractType const Serializable;
 
 /// @brief Field Linq offset 0
-static ::Newtonsoft::Json::Serialization::JsonContractType const Linq;
+static Newtonsoft::Json::Serialization::JsonContractType const Linq;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Serialization
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::JsonContractType, "Newtonsoft.Json.Serialization", "JsonContractType");
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Serialization::JsonContractType, "Newtonsoft.Json.Serialization", "JsonContractType");

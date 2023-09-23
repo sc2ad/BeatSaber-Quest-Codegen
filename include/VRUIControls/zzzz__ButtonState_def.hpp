@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
 namespace VRUIControls {
 class MouseButtonEventData;
 }
 namespace UnityEngine::EventSystems {
-struct ____UnityEngine__EventSystems__PointerEventData__InputButton;
+struct UnityEngine__EventSystems__PointerEventData__InputButton;
 }
 // Forward declare root types
 namespace VRUIControls {
@@ -55,17 +54,17 @@ constexpr explicit ButtonState(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 
 // Fields
 
- ::UnityEngine::EventSystems::____UnityEngine__EventSystems__PointerEventData__InputButton __declspec(property(get=__get__button, put=__set__button))  _button;
+ UnityEngine::EventSystems::UnityEngine__EventSystems__PointerEventData__InputButton __declspec(property(get=__get__button, put=__set__button))  _button;
 
-constexpr void __set__button(::UnityEngine::EventSystems::____UnityEngine__EventSystems__PointerEventData__InputButton value) ;
+constexpr void __set__button(UnityEngine::EventSystems::UnityEngine__EventSystems__PointerEventData__InputButton value) ;
 
-constexpr ::UnityEngine::EventSystems::____UnityEngine__EventSystems__PointerEventData__InputButton __get__button() const;
+constexpr UnityEngine::EventSystems::UnityEngine__EventSystems__PointerEventData__InputButton __get__button() const;
 
- ::VRUIControls::MouseButtonEventData __declspec(property(get=__get__eventData, put=__set__eventData))  _eventData;
+ VRUIControls::MouseButtonEventData __declspec(property(get=__get__eventData, put=__set__eventData))  _eventData;
 
-constexpr void __set__eventData(::VRUIControls::MouseButtonEventData value) ;
+constexpr void __set__eventData(VRUIControls::MouseButtonEventData value) ;
 
-constexpr ::VRUIControls::MouseButtonEventData __get__eventData() const;
+constexpr VRUIControls::MouseButtonEventData __get__eventData() const;
 
  float_t __declspec(property(get=__get__pressedValue, put=__set__pressedValue))  _pressedValue;
 
@@ -76,9 +75,9 @@ constexpr float_t __get__pressedValue() const;
 
 // Properties
 
- ::VRUIControls::MouseButtonEventData __declspec(property(get=get_eventData, put=set_eventData))  eventData;
+ VRUIControls::MouseButtonEventData __declspec(property(get=get_eventData, put=set_eventData))  eventData;
 
- ::UnityEngine::EventSystems::____UnityEngine__EventSystems__PointerEventData__InputButton __declspec(property(get=get_button, put=set_button))  button;
+ UnityEngine::EventSystems::UnityEngine__EventSystems__PointerEventData__InputButton __declspec(property(get=get_button, put=set_button))  button;
 
  float_t __declspec(property(get=get_pressedValue, put=set_pressedValue))  pressedValue;
 
@@ -86,16 +85,16 @@ constexpr float_t __get__pressedValue() const;
 // Methods
 
 /// @brief Method get_eventData addr 0x2d3ac7c size 0x8 virtual false final false
- ::VRUIControls::MouseButtonEventData get_eventData() ;
+ VRUIControls::MouseButtonEventData get_eventData() ;
 
 /// @brief Method set_eventData addr 0x2d3ac84 size 0x8 virtual false final false
- void set_eventData(::VRUIControls::MouseButtonEventData value) ;
+ void set_eventData(VRUIControls::MouseButtonEventData value) ;
 
 /// @brief Method get_button addr 0x2d3ac8c size 0x8 virtual false final false
- ::UnityEngine::EventSystems::____UnityEngine__EventSystems__PointerEventData__InputButton get_button() ;
+ UnityEngine::EventSystems::UnityEngine__EventSystems__PointerEventData__InputButton get_button() ;
 
 /// @brief Method set_button addr 0x2d3ac94 size 0x8 virtual false final false
- void set_button(::UnityEngine::EventSystems::____UnityEngine__EventSystems__PointerEventData__InputButton value) ;
+ void set_button(UnityEngine::EventSystems::UnityEngine__EventSystems__PointerEventData__InputButton value) ;
 
 /// @brief Method get_pressedValue addr 0x2d3ac9c size 0x8 virtual false final false
  float_t get_pressedValue() ;
@@ -113,6 +112,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def VRUIControls
-} // end anonymous namespace
-NEED_NO_BOX(::VRUIControls::ButtonState);
-DEFINE_IL2CPP_ARG_TYPE(::VRUIControls::ButtonState, "VRUIControls", "ButtonState");
+NEED_NO_BOX(VRUIControls::ButtonState);
+DEFINE_IL2CPP_ARG_TYPE(VRUIControls::ButtonState, "VRUIControls", "ButtonState");

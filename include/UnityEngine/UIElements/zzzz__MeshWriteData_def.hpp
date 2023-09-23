@@ -3,16 +3,15 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
+namespace UnityEngine {
+struct Rect;
+}
 namespace UnityEngine::UIElements {
 struct Vertex;
 }
 namespace Unity::Collections {
 template<typename T>
 struct NativeSlice_1;
-}
-namespace UnityEngine {
-struct Rect;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -60,23 +59,23 @@ constexpr explicit MeshWriteData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 
 // Fields
 
- ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> __declspec(property(get=__get_m_Vertices, put=__set_m_Vertices))  m_Vertices;
+ Unity::Collections::NativeSlice_1<UnityEngine::UIElements::Vertex> __declspec(property(get=__get_m_Vertices, put=__set_m_Vertices))  m_Vertices;
 
-constexpr void __set_m_Vertices(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> value) ;
+constexpr void __set_m_Vertices(Unity::Collections::NativeSlice_1<UnityEngine::UIElements::Vertex> value) ;
 
-constexpr ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> __get_m_Vertices() const;
+constexpr Unity::Collections::NativeSlice_1<UnityEngine::UIElements::Vertex> __get_m_Vertices() const;
 
- ::Unity::Collections::NativeSlice_1<uint16_t> __declspec(property(get=__get_m_Indices, put=__set_m_Indices))  m_Indices;
+ Unity::Collections::NativeSlice_1<uint16_t> __declspec(property(get=__get_m_Indices, put=__set_m_Indices))  m_Indices;
 
-constexpr void __set_m_Indices(::Unity::Collections::NativeSlice_1<uint16_t> value) ;
+constexpr void __set_m_Indices(Unity::Collections::NativeSlice_1<uint16_t> value) ;
 
-constexpr ::Unity::Collections::NativeSlice_1<uint16_t> __get_m_Indices() const;
+constexpr Unity::Collections::NativeSlice_1<uint16_t> __get_m_Indices() const;
 
- ::UnityEngine::Rect __declspec(property(get=__get_m_UVRegion, put=__set_m_UVRegion))  m_UVRegion;
+ UnityEngine::Rect __declspec(property(get=__get_m_UVRegion, put=__set_m_UVRegion))  m_UVRegion;
 
-constexpr void __set_m_UVRegion(::UnityEngine::Rect value) ;
+constexpr void __set_m_UVRegion(UnityEngine::Rect value) ;
 
-constexpr ::UnityEngine::Rect __get_m_UVRegion() const;
+constexpr UnityEngine::Rect __get_m_UVRegion() const;
 
  int32_t __declspec(property(get=__get_currentIndex, put=__set_currentIndex))  currentIndex;
 
@@ -97,7 +96,7 @@ constexpr int32_t __get_currentVertex() const;
 
  int32_t __declspec(property(get=get_indexCount))  indexCount;
 
- ::UnityEngine::Rect __declspec(property(get=get_uvRegion))  uvRegion;
+ UnityEngine::Rect __declspec(property(get=get_uvRegion))  uvRegion;
 
 
 // Methods
@@ -115,30 +114,29 @@ explicit MeshWriteData() ;
  int32_t get_indexCount() ;
 
 /// @brief Method get_uvRegion addr 0x2d023a0 size 0xc virtual false final false
- ::UnityEngine::Rect get_uvRegion() ;
+ UnityEngine::Rect get_uvRegion() ;
 
 /// @brief Method SetNextVertex addr 0x2d023ac size 0x9c virtual false final false
- void SetNextVertex(::UnityEngine::UIElements::Vertex vertex) ;
+ void SetNextVertex(UnityEngine::UIElements::Vertex vertex) ;
 
 /// @brief Method SetNextIndex addr 0x2d02448 size 0x64 virtual false final false
  void SetNextIndex(uint16_t index) ;
 
 /// @brief Method SetAllVertices addr 0x2d024ac size 0xd8 virtual false final false
- void SetAllVertices(::ArrayW<::UnityEngine::UIElements::Vertex> vertices) ;
+ void SetAllVertices(::ArrayW<UnityEngine::UIElements::Vertex> vertices) ;
 
 /// @brief Method SetAllIndices addr 0x2d02584 size 0xd8 virtual false final false
  void SetAllIndices(::ArrayW<uint16_t> indices) ;
 
 /// @brief Method Reset addr 0x2d0265c size 0x4c virtual false final false
- void Reset(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices, ::Unity::Collections::NativeSlice_1<uint16_t> indices) ;
+ void Reset(Unity::Collections::NativeSlice_1<UnityEngine::UIElements::Vertex> vertices, Unity::Collections::NativeSlice_1<uint16_t> indices) ;
 
 /// @brief Method Reset addr 0x2d026a8 size 0x18 virtual false final false
- void Reset(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices, ::Unity::Collections::NativeSlice_1<uint16_t> indices, ::UnityEngine::Rect uvRegion) ;
+ void Reset(Unity::Collections::NativeSlice_1<UnityEngine::UIElements::Vertex> vertices, Unity::Collections::NativeSlice_1<uint16_t> indices, UnityEngine::Rect uvRegion) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::MeshWriteData);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::MeshWriteData, "UnityEngine.UIElements", "MeshWriteData");
+NEED_NO_BOX(UnityEngine::UIElements::MeshWriteData);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::MeshWriteData, "UnityEngine.UIElements", "MeshWriteData");

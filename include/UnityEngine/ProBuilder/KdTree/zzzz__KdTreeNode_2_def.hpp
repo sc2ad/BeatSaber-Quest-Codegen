@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -80,28 +79,28 @@ constexpr void __set_Value(TValue value) ;
 
 constexpr TValue __get_Value() const;
 
- ::System::Collections::Generic::List_1<TValue> __declspec(property(get=__get_Duplicates, put=__set_Duplicates))  Duplicates;
+ System::Collections::Generic::List_1<TValue> __declspec(property(get=__get_Duplicates, put=__set_Duplicates))  Duplicates;
 
-constexpr void __set_Duplicates(::System::Collections::Generic::List_1<TValue> value) ;
+constexpr void __set_Duplicates(System::Collections::Generic::List_1<TValue> value) ;
 
-constexpr ::System::Collections::Generic::List_1<TValue> __get_Duplicates() const;
+constexpr System::Collections::Generic::List_1<TValue> __get_Duplicates() const;
 
- ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey,TValue> __declspec(property(get=__get_LeftChild, put=__set_LeftChild))  LeftChild;
+ UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey,TValue> __declspec(property(get=__get_LeftChild, put=__set_LeftChild))  LeftChild;
 
-constexpr void __set_LeftChild(::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey,TValue> value) ;
+constexpr void __set_LeftChild(UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey,TValue> value) ;
 
-constexpr ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey,TValue> __get_LeftChild() const;
+constexpr UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey,TValue> __get_LeftChild() const;
 
- ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey,TValue> __declspec(property(get=__get_RightChild, put=__set_RightChild))  RightChild;
+ UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey,TValue> __declspec(property(get=__get_RightChild, put=__set_RightChild))  RightChild;
 
-constexpr void __set_RightChild(::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey,TValue> value) ;
+constexpr void __set_RightChild(UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey,TValue> value) ;
 
-constexpr ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey,TValue> __get_RightChild() const;
+constexpr UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey,TValue> __get_RightChild() const;
 
 
 // Properties
 
- ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey,TValue> __declspec(property(get=get_Item, put=set_Item))  Item;
+ UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey,TValue> __declspec(property(get=get_Item, put=set_Item))  Item;
 
  bool __declspec(property(get=get_IsLeaf))  IsLeaf;
 
@@ -121,10 +120,10 @@ explicit KdTreeNode_2(::ArrayW<TKey> point, TValue value) ;
  void _ctor(::ArrayW<TKey> point, TValue value) ;
 
 /// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey,TValue> get_Item(int32_t compare) ;
+ UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey,TValue> get_Item(int32_t compare) ;
 
 /// @brief Method set_Item addr 0x0 size 0xffffffffffffffff virtual false final false
- void set_Item(int32_t compare, ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey,TValue> value) ;
+ void set_Item(int32_t compare, UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey,TValue> value) ;
 
 /// @brief Method get_IsLeaf addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_IsLeaf() ;
@@ -195,28 +194,28 @@ constexpr void __set_Value(int32_t value) ;
 
 constexpr int32_t __get_Value() const;
 
- ::System::Collections::Generic::List_1<int32_t> __declspec(property(get=__get_Duplicates, put=__set_Duplicates))  Duplicates;
+ System::Collections::Generic::List_1<int32_t> __declspec(property(get=__get_Duplicates, put=__set_Duplicates))  Duplicates;
 
-constexpr void __set_Duplicates(::System::Collections::Generic::List_1<int32_t> value) ;
+constexpr void __set_Duplicates(System::Collections::Generic::List_1<int32_t> value) ;
 
-constexpr ::System::Collections::Generic::List_1<int32_t> __get_Duplicates() const;
+constexpr System::Collections::Generic::List_1<int32_t> __get_Duplicates() const;
 
- ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<float_t,int32_t> __declspec(property(get=__get_LeftChild, put=__set_LeftChild))  LeftChild;
+ UnityEngine::ProBuilder::KdTree::KdTreeNode_2<float_t,int32_t> __declspec(property(get=__get_LeftChild, put=__set_LeftChild))  LeftChild;
 
-constexpr void __set_LeftChild(::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<float_t,int32_t> value) ;
+constexpr void __set_LeftChild(UnityEngine::ProBuilder::KdTree::KdTreeNode_2<float_t,int32_t> value) ;
 
-constexpr ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<float_t,int32_t> __get_LeftChild() const;
+constexpr UnityEngine::ProBuilder::KdTree::KdTreeNode_2<float_t,int32_t> __get_LeftChild() const;
 
- ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<float_t,int32_t> __declspec(property(get=__get_RightChild, put=__set_RightChild))  RightChild;
+ UnityEngine::ProBuilder::KdTree::KdTreeNode_2<float_t,int32_t> __declspec(property(get=__get_RightChild, put=__set_RightChild))  RightChild;
 
-constexpr void __set_RightChild(::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<float_t,int32_t> value) ;
+constexpr void __set_RightChild(UnityEngine::ProBuilder::KdTree::KdTreeNode_2<float_t,int32_t> value) ;
 
-constexpr ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<float_t,int32_t> __get_RightChild() const;
+constexpr UnityEngine::ProBuilder::KdTree::KdTreeNode_2<float_t,int32_t> __get_RightChild() const;
 
 
 // Properties
 
- ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<float_t,int32_t> __declspec(property(get=get_Item, put=set_Item))  Item;
+ UnityEngine::ProBuilder::KdTree::KdTreeNode_2<float_t,int32_t> __declspec(property(get=get_Item, put=set_Item))  Item;
 
  bool __declspec(property(get=get_IsLeaf))  IsLeaf;
 
@@ -236,10 +235,10 @@ explicit KdTreeNode_2(::ArrayW<float_t> point, int32_t value) ;
  void _ctor(::ArrayW<float_t> point, int32_t value) ;
 
 /// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<float_t,int32_t> get_Item(int32_t compare) ;
+ UnityEngine::ProBuilder::KdTree::KdTreeNode_2<float_t,int32_t> get_Item(int32_t compare) ;
 
 /// @brief Method set_Item addr 0x0 size 0xffffffffffffffff virtual false final false
- void set_Item(int32_t compare, ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<float_t,int32_t> value) ;
+ void set_Item(int32_t compare, UnityEngine::ProBuilder::KdTree::KdTreeNode_2<float_t,int32_t> value) ;
 
 /// @brief Method get_IsLeaf addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_IsLeaf() ;
@@ -254,5 +253,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder::KdTree
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::ProBuilder::KdTree::KdTreeNode_2, "UnityEngine.ProBuilder.KdTree", "KdTreeNode`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::ProBuilder::KdTree::KdTreeNode_2, "UnityEngine.ProBuilder.KdTree", "KdTreeNode`2");

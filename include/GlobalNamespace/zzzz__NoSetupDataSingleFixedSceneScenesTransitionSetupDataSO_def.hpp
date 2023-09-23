@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__SingleFixedSceneScenesTransitionSetupDataSO_def.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO;
@@ -12,7 +11,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13875))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13871))
 // CS Name: NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO
-class CORDL_TYPE NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO : public ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
+class CORDL_TYPE NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO : public GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO(NoSetupDataSing
 constexpr NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO(NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO(void* ptr) noexcept : ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO(ptr) {
+constexpr explicit NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO(void* ptr) noexcept : GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO(ptr) {
 }
 
 
@@ -61,6 +60,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO, "", "NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO");
+NEED_NO_BOX(GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO, "", "NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO");

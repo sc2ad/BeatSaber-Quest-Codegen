@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine::InputSystem::Utilities {
 template<typename TValue>
 struct InlinedArray_1;
@@ -55,20 +54,19 @@ constexpr explicit InputArrayExtensions(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 /// @brief Method IndexOfReference addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TValue>
-static int32_t IndexOfReference(::UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue> array, TValue value) ;
+static int32_t IndexOfReference(UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue> array, TValue value) ;
 
 /// @brief Method Contains addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TValue>
-static bool Contains(::UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue> array, TValue value) ;
+static bool Contains(UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue> array, TValue value) ;
 
 /// @brief Method ContainsReference addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TValue>
-static bool ContainsReference(::UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue> array, TValue value) ;
+static bool ContainsReference(UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue> array, TValue value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Utilities
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Utilities::InputArrayExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Utilities::InputArrayExtensions, "UnityEngine.InputSystem.Utilities", "InputArrayExtensions");
+NEED_NO_BOX(UnityEngine::InputSystem::Utilities::InputArrayExtensions);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Utilities::InputArrayExtensions, "UnityEngine.InputSystem.Utilities", "InputArrayExtensions");

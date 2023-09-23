@@ -5,17 +5,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-class PerceivedLoudnessPerLevelSO;
+class GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair;
+class PerceivedLoudnessPerLevelSO;
 }
 // Type: ::PerceivedLevelLoudnessPair
 namespace GlobalNamespace {
@@ -23,37 +22,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4614))
 // CS Name: PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair
-class CORDL_TYPE ____GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair() = default;
+virtual ~GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair(____GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair(GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair(____GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair(GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair& operator=(____GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair&& o) noexcept = default;
-  constexpr ____GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair& operator=(____GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair const& o) noexcept = default;
+  constexpr GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair& operator=(GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair&& o) noexcept = default;
+  constexpr GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair& operator=(GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair const& o) noexcept = default;
                 
 
 
@@ -99,7 +98,7 @@ constexpr ::StringW __get__checkSum() const;
  ::StringW get_checksum() ;
 
 // Ctor Parameters [CppParam { name: "levelId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "perceivedLoudness", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "checkSum", ty: "::StringW", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair(::StringW levelId, float_t perceivedLoudness, ::StringW checkSum) ;
+explicit GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair(::StringW levelId, float_t perceivedLoudness, ::StringW checkSum) ;
 
 /// @brief Method .ctor addr 0x2216190 size 0x40 virtual false final false
  void _ctor(::StringW levelId, float_t perceivedLoudness, ::StringW checkSum) ;
@@ -114,10 +113,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10151))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4615))
 // CS Name: PerceivedLoudnessPerLevelSO
-class CORDL_TYPE PerceivedLoudnessPerLevelSO : public ::UnityEngine::ScriptableObject {
+class CORDL_TYPE PerceivedLoudnessPerLevelSO : public UnityEngine::ScriptableObject {
 public:
 // Declarations
-using PerceivedLevelLoudnessPair = ::GlobalNamespace::____GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair;
+using PerceivedLevelLoudnessPair = GlobalNamespace::GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -131,7 +130,7 @@ constexpr PerceivedLoudnessPerLevelSO(PerceivedLoudnessPerLevelSO const& ) noexc
 constexpr PerceivedLoudnessPerLevelSO(PerceivedLoudnessPerLevelSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PerceivedLoudnessPerLevelSO(void* ptr) noexcept : ::UnityEngine::ScriptableObject(ptr) {
+constexpr explicit PerceivedLoudnessPerLevelSO(void* ptr) noexcept : UnityEngine::ScriptableObject(ptr) {
 }
 
 
@@ -152,20 +151,20 @@ constexpr explicit PerceivedLoudnessPerLevelSO(void* ptr) noexcept : ::UnityEngi
 
 // Fields
 
- ::ArrayW<::GlobalNamespace::____GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair> __declspec(property(get=__get_perceivedLoudnessPerLevel, put=__set_perceivedLoudnessPerLevel))  perceivedLoudnessPerLevel;
+ ::ArrayW<GlobalNamespace::GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair> __declspec(property(get=__get_perceivedLoudnessPerLevel, put=__set_perceivedLoudnessPerLevel))  perceivedLoudnessPerLevel;
 
-constexpr void __set_perceivedLoudnessPerLevel(::ArrayW<::GlobalNamespace::____GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair> value) ;
+constexpr void __set_perceivedLoudnessPerLevel(::ArrayW<GlobalNamespace::GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::____GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair> __get_perceivedLoudnessPerLevel() const;
+constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair> __get_perceivedLoudnessPerLevel() const;
 
 
 // Methods
 
 /// @brief Method ToDictionary addr 0x2216018 size 0xe0 virtual false final false
- ::System::Collections::Generic::Dictionary_2<::StringW,::GlobalNamespace::____GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair> ToDictionary() ;
+ System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair> ToDictionary() ;
 
 /// @brief Method SetLoudnessData addr 0x22160f8 size 0x78 virtual false final false
- void SetLoudnessData(::System::Collections::Generic::Dictionary_2<::StringW,::GlobalNamespace::____GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair> loudnessDictionary) ;
+ void SetLoudnessData(System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair> loudnessDictionary) ;
 
 // Ctor Parameters []
 explicit PerceivedLoudnessPerLevelSO() ;
@@ -177,8 +176,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PerceivedLoudnessPerLevelSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PerceivedLoudnessPerLevelSO, "", "PerceivedLoudnessPerLevelSO");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair, "", "PerceivedLoudnessPerLevelSO/PerceivedLevelLoudnessPair");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair, "", "PerceivedLoudnessPerLevelSO/PerceivedLevelLoudnessPair");
+NEED_NO_BOX(GlobalNamespace::PerceivedLoudnessPerLevelSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PerceivedLoudnessPerLevelSO, "", "PerceivedLoudnessPerLevelSO");

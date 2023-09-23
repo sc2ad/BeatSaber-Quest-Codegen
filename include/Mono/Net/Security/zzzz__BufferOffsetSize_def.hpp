@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Mono::Net::Security {
 class BufferOffsetSize;
@@ -110,6 +109,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Net::Security
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Net::Security::BufferOffsetSize);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Net::Security::BufferOffsetSize, "Mono.Net.Security", "BufferOffsetSize");
+NEED_NO_BOX(Mono::Net::Security::BufferOffsetSize);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::BufferOffsetSize, "Mono.Net.Security", "BufferOffsetSize");

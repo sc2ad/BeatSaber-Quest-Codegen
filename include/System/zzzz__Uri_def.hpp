@@ -6,30 +6,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
-struct UriComponents;
-}
-namespace System {
-struct ParsingError;
-}
-namespace System {
-struct UriKind;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System {
-class UriFormatException;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+struct UriIdnScope;
 }
 namespace System {
 struct UriHostNameType;
 }
 namespace System {
-struct UriIdnScope;
+class UriParser;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System {
+struct UriKind;
 }
 namespace System {
 struct UriFormat;
@@ -38,26 +28,35 @@ namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System {
-class UriParser;
+class UriFormatException;
+}
+namespace System {
+struct ParsingError;
+}
+namespace System {
+struct UriComponents;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System {
-struct ____System__Uri__Check;
+struct System__Uri__Check;
 }
 namespace System {
-struct ____System__Uri__Flags;
+struct System__Uri__Flags;
+}
+namespace System {
+class System__Uri__MoreInfo;
+}
+namespace System {
+class System__Uri__UriInfo;
 }
 namespace System {
 class Uri;
 }
 namespace System {
-class ____System__Uri__MoreInfo;
-}
-namespace System {
-class ____System__Uri__UriInfo;
-}
-namespace System {
-struct ____System__Uri__Offset;
+struct System__Uri__Offset;
 }
 // Type: ::Flags
 namespace System {
@@ -65,20 +64,20 @@ namespace System {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7721))
 // CS Name: System.Uri::Flags
-struct CORDL_TYPE ____System__Uri__Flags : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE System__Uri__Flags : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "uint64_t", modifiers: "", def_value: None }]
-constexpr ____System__Uri__Flags(uint64_t value__) noexcept;
+constexpr System__Uri__Flags(uint64_t value__) noexcept;
 
 
-                    constexpr ____System__Uri__Flags(____System__Uri__Flags const&) = default;
-                    constexpr ____System__Uri__Flags(____System__Uri__Flags&&) = default;
-                    constexpr ____System__Uri__Flags& operator=(____System__Uri__Flags const& o) {
+                    constexpr System__Uri__Flags(System__Uri__Flags const&) = default;
+                    constexpr System__Uri__Flags(System__Uri__Flags&&) = default;
+                    constexpr System__Uri__Flags& operator=(System__Uri__Flags const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Uri__Flags& operator=(____System__Uri__Flags&& o) noexcept {
+                    constexpr System__Uri__Flags& operator=(System__Uri__Flags&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -91,7 +90,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x8};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Uri__Flags(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Uri__Flags(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -99,7 +98,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______System__Uri__Flags_Unwrapped : uint64_t {
+enum class __System__Uri__Flags_Unwrapped : uint64_t {
 __Zero = 0u,
 __SchemeNotCanonical = 1u,
 __UserNotCanonical = 2u,
@@ -158,8 +157,8 @@ __CompressedSlashes = 17592186044416u,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______System__Uri__Flags_Unwrapped () const noexcept {
-return std::bit_cast<______System__Uri__Flags_Unwrapped>(__instance);
+constexpr operator __System__Uri__Flags_Unwrapped () const noexcept {
+return std::bit_cast<__System__Uri__Flags_Unwrapped>(__instance);
 }
 
 
@@ -172,169 +171,169 @@ constexpr void __set_value__(uint64_t value) ;
 constexpr uint64_t __get_value__() const;
 
 /// @brief Field Zero offset 0
-static ::System::____System__Uri__Flags const Zero;
+static System::System__Uri__Flags const Zero;
 
 /// @brief Field SchemeNotCanonical offset 0
-static ::System::____System__Uri__Flags const SchemeNotCanonical;
+static System::System__Uri__Flags const SchemeNotCanonical;
 
 /// @brief Field UserNotCanonical offset 0
-static ::System::____System__Uri__Flags const UserNotCanonical;
+static System::System__Uri__Flags const UserNotCanonical;
 
 /// @brief Field HostNotCanonical offset 0
-static ::System::____System__Uri__Flags const HostNotCanonical;
+static System::System__Uri__Flags const HostNotCanonical;
 
 /// @brief Field PortNotCanonical offset 0
-static ::System::____System__Uri__Flags const PortNotCanonical;
+static System::System__Uri__Flags const PortNotCanonical;
 
 /// @brief Field PathNotCanonical offset 0
-static ::System::____System__Uri__Flags const PathNotCanonical;
+static System::System__Uri__Flags const PathNotCanonical;
 
 /// @brief Field QueryNotCanonical offset 0
-static ::System::____System__Uri__Flags const QueryNotCanonical;
+static System::System__Uri__Flags const QueryNotCanonical;
 
 /// @brief Field FragmentNotCanonical offset 0
-static ::System::____System__Uri__Flags const FragmentNotCanonical;
+static System::System__Uri__Flags const FragmentNotCanonical;
 
 /// @brief Field CannotDisplayCanonical offset 0
-static ::System::____System__Uri__Flags const CannotDisplayCanonical;
+static System::System__Uri__Flags const CannotDisplayCanonical;
 
 /// @brief Field E_UserNotCanonical offset 0
-static ::System::____System__Uri__Flags const E_UserNotCanonical;
+static System::System__Uri__Flags const E_UserNotCanonical;
 
 /// @brief Field E_HostNotCanonical offset 0
-static ::System::____System__Uri__Flags const E_HostNotCanonical;
+static System::System__Uri__Flags const E_HostNotCanonical;
 
 /// @brief Field E_PortNotCanonical offset 0
-static ::System::____System__Uri__Flags const E_PortNotCanonical;
+static System::System__Uri__Flags const E_PortNotCanonical;
 
 /// @brief Field E_PathNotCanonical offset 0
-static ::System::____System__Uri__Flags const E_PathNotCanonical;
+static System::System__Uri__Flags const E_PathNotCanonical;
 
 /// @brief Field E_QueryNotCanonical offset 0
-static ::System::____System__Uri__Flags const E_QueryNotCanonical;
+static System::System__Uri__Flags const E_QueryNotCanonical;
 
 /// @brief Field E_FragmentNotCanonical offset 0
-static ::System::____System__Uri__Flags const E_FragmentNotCanonical;
+static System::System__Uri__Flags const E_FragmentNotCanonical;
 
 /// @brief Field E_CannotDisplayCanonical offset 0
-static ::System::____System__Uri__Flags const E_CannotDisplayCanonical;
+static System::System__Uri__Flags const E_CannotDisplayCanonical;
 
 /// @brief Field ShouldBeCompressed offset 0
-static ::System::____System__Uri__Flags const ShouldBeCompressed;
+static System::System__Uri__Flags const ShouldBeCompressed;
 
 /// @brief Field FirstSlashAbsent offset 0
-static ::System::____System__Uri__Flags const FirstSlashAbsent;
+static System::System__Uri__Flags const FirstSlashAbsent;
 
 /// @brief Field BackslashInPath offset 0
-static ::System::____System__Uri__Flags const BackslashInPath;
+static System::System__Uri__Flags const BackslashInPath;
 
 /// @brief Field IndexMask offset 0
-static ::System::____System__Uri__Flags const IndexMask;
+static System::System__Uri__Flags const IndexMask;
 
 /// @brief Field HostTypeMask offset 0
-static ::System::____System__Uri__Flags const HostTypeMask;
+static System::System__Uri__Flags const HostTypeMask;
 
 /// @brief Field HostNotParsed offset 0
-static ::System::____System__Uri__Flags const HostNotParsed;
+static System::System__Uri__Flags const HostNotParsed;
 
 /// @brief Field IPv6HostType offset 0
-static ::System::____System__Uri__Flags const IPv6HostType;
+static System::System__Uri__Flags const IPv6HostType;
 
 /// @brief Field IPv4HostType offset 0
-static ::System::____System__Uri__Flags const IPv4HostType;
+static System::System__Uri__Flags const IPv4HostType;
 
 /// @brief Field DnsHostType offset 0
-static ::System::____System__Uri__Flags const DnsHostType;
+static System::System__Uri__Flags const DnsHostType;
 
 /// @brief Field UncHostType offset 0
-static ::System::____System__Uri__Flags const UncHostType;
+static System::System__Uri__Flags const UncHostType;
 
 /// @brief Field BasicHostType offset 0
-static ::System::____System__Uri__Flags const BasicHostType;
+static System::System__Uri__Flags const BasicHostType;
 
 /// @brief Field UnusedHostType offset 0
-static ::System::____System__Uri__Flags const UnusedHostType;
+static System::System__Uri__Flags const UnusedHostType;
 
 /// @brief Field UnknownHostType offset 0
-static ::System::____System__Uri__Flags const UnknownHostType;
+static System::System__Uri__Flags const UnknownHostType;
 
 /// @brief Field UserEscaped offset 0
-static ::System::____System__Uri__Flags const UserEscaped;
+static System::System__Uri__Flags const UserEscaped;
 
 /// @brief Field AuthorityFound offset 0
-static ::System::____System__Uri__Flags const AuthorityFound;
+static System::System__Uri__Flags const AuthorityFound;
 
 /// @brief Field HasUserInfo offset 0
-static ::System::____System__Uri__Flags const HasUserInfo;
+static System::System__Uri__Flags const HasUserInfo;
 
 /// @brief Field LoopbackHost offset 0
-static ::System::____System__Uri__Flags const LoopbackHost;
+static System::System__Uri__Flags const LoopbackHost;
 
 /// @brief Field NotDefaultPort offset 0
-static ::System::____System__Uri__Flags const NotDefaultPort;
+static System::System__Uri__Flags const NotDefaultPort;
 
 /// @brief Field UserDrivenParsing offset 0
-static ::System::____System__Uri__Flags const UserDrivenParsing;
+static System::System__Uri__Flags const UserDrivenParsing;
 
 /// @brief Field CanonicalDnsHost offset 0
-static ::System::____System__Uri__Flags const CanonicalDnsHost;
+static System::System__Uri__Flags const CanonicalDnsHost;
 
 /// @brief Field ErrorOrParsingRecursion offset 0
-static ::System::____System__Uri__Flags const ErrorOrParsingRecursion;
+static System::System__Uri__Flags const ErrorOrParsingRecursion;
 
 /// @brief Field DosPath offset 0
-static ::System::____System__Uri__Flags const DosPath;
+static System::System__Uri__Flags const DosPath;
 
 /// @brief Field UncPath offset 0
-static ::System::____System__Uri__Flags const UncPath;
+static System::System__Uri__Flags const UncPath;
 
 /// @brief Field ImplicitFile offset 0
-static ::System::____System__Uri__Flags const ImplicitFile;
+static System::System__Uri__Flags const ImplicitFile;
 
 /// @brief Field MinimalUriInfoSet offset 0
-static ::System::____System__Uri__Flags const MinimalUriInfoSet;
+static System::System__Uri__Flags const MinimalUriInfoSet;
 
 /// @brief Field AllUriInfoSet offset 0
-static ::System::____System__Uri__Flags const AllUriInfoSet;
+static System::System__Uri__Flags const AllUriInfoSet;
 
 /// @brief Field IdnHost offset 0
-static ::System::____System__Uri__Flags const IdnHost;
+static System::System__Uri__Flags const IdnHost;
 
 /// @brief Field HasUnicode offset 0
-static ::System::____System__Uri__Flags const HasUnicode;
+static System::System__Uri__Flags const HasUnicode;
 
 /// @brief Field HostUnicodeNormalized offset 0
-static ::System::____System__Uri__Flags const HostUnicodeNormalized;
+static System::System__Uri__Flags const HostUnicodeNormalized;
 
 /// @brief Field RestUnicodeNormalized offset 0
-static ::System::____System__Uri__Flags const RestUnicodeNormalized;
+static System::System__Uri__Flags const RestUnicodeNormalized;
 
 /// @brief Field UnicodeHost offset 0
-static ::System::____System__Uri__Flags const UnicodeHost;
+static System::System__Uri__Flags const UnicodeHost;
 
 /// @brief Field IntranetUri offset 0
-static ::System::____System__Uri__Flags const IntranetUri;
+static System::System__Uri__Flags const IntranetUri;
 
 /// @brief Field UseOrigUncdStrOffset offset 0
-static ::System::____System__Uri__Flags const UseOrigUncdStrOffset;
+static System::System__Uri__Flags const UseOrigUncdStrOffset;
 
 /// @brief Field UserIriCanonical offset 0
-static ::System::____System__Uri__Flags const UserIriCanonical;
+static System::System__Uri__Flags const UserIriCanonical;
 
 /// @brief Field PathIriCanonical offset 0
-static ::System::____System__Uri__Flags const PathIriCanonical;
+static System::System__Uri__Flags const PathIriCanonical;
 
 /// @brief Field QueryIriCanonical offset 0
-static ::System::____System__Uri__Flags const QueryIriCanonical;
+static System::System__Uri__Flags const QueryIriCanonical;
 
 /// @brief Field FragmentIriCanonical offset 0
-static ::System::____System__Uri__Flags const FragmentIriCanonical;
+static System::System__Uri__Flags const FragmentIriCanonical;
 
 /// @brief Field IriCanonical offset 0
-static ::System::____System__Uri__Flags const IriCanonical;
+static System::System__Uri__Flags const IriCanonical;
 
 /// @brief Field CompressedSlashes offset 0
-static ::System::____System__Uri__Flags const CompressedSlashes;
+static System::System__Uri__Flags const CompressedSlashes;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -346,37 +345,37 @@ namespace System {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7722))
 // CS Name: System.Uri::UriInfo
-class CORDL_TYPE ____System__Uri__UriInfo : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Uri__UriInfo : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
 
-virtual ~____System__Uri__UriInfo() = default;
+virtual ~System__Uri__UriInfo() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Uri__UriInfo", modifiers: " const&", def_value: None }]
-constexpr ____System__Uri__UriInfo(____System__Uri__UriInfo const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Uri__UriInfo", modifiers: " const&", def_value: None }]
+constexpr System__Uri__UriInfo(System__Uri__UriInfo const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Uri__UriInfo", modifiers: "&&", def_value: None }]
-constexpr ____System__Uri__UriInfo(____System__Uri__UriInfo&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Uri__UriInfo", modifiers: "&&", def_value: None }]
+constexpr System__Uri__UriInfo(System__Uri__UriInfo&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Uri__UriInfo(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Uri__UriInfo(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Uri__UriInfo& operator=(std::nullptr_t) noexcept {
+  constexpr System__Uri__UriInfo& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Uri__UriInfo& operator=(void* o) noexcept {
+  constexpr System__Uri__UriInfo& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Uri__UriInfo& operator=(____System__Uri__UriInfo&& o) noexcept = default;
-  constexpr ____System__Uri__UriInfo& operator=(____System__Uri__UriInfo const& o) noexcept = default;
+  constexpr System__Uri__UriInfo& operator=(System__Uri__UriInfo&& o) noexcept = default;
+  constexpr System__Uri__UriInfo& operator=(System__Uri__UriInfo const& o) noexcept = default;
                 
 
 
@@ -400,11 +399,11 @@ constexpr void __set_String(::StringW value) ;
 
 constexpr ::StringW __get_String() const;
 
- ::System::____System__Uri__Offset __declspec(property(get=__get_Offset, put=__set_Offset))  Offset;
+ System::System__Uri__Offset __declspec(property(get=__get_Offset, put=__set_Offset))  Offset;
 
-constexpr void __set_Offset(::System::____System__Uri__Offset value) ;
+constexpr void __set_Offset(System::System__Uri__Offset value) ;
 
-constexpr ::System::____System__Uri__Offset __get_Offset() const;
+constexpr System::System__Uri__Offset __get_Offset() const;
 
  ::StringW __declspec(property(get=__get_DnsSafeHost, put=__set_DnsSafeHost))  DnsSafeHost;
 
@@ -412,17 +411,17 @@ constexpr void __set_DnsSafeHost(::StringW value) ;
 
 constexpr ::StringW __get_DnsSafeHost() const;
 
- ::System::____System__Uri__MoreInfo __declspec(property(get=__get_MoreInfo, put=__set_MoreInfo))  MoreInfo;
+ System::System__Uri__MoreInfo __declspec(property(get=__get_MoreInfo, put=__set_MoreInfo))  MoreInfo;
 
-constexpr void __set_MoreInfo(::System::____System__Uri__MoreInfo value) ;
+constexpr void __set_MoreInfo(System::System__Uri__MoreInfo value) ;
 
-constexpr ::System::____System__Uri__MoreInfo __get_MoreInfo() const;
+constexpr System::System__Uri__MoreInfo __get_MoreInfo() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____System__Uri__UriInfo() ;
+explicit System__Uri__UriInfo() ;
 
 /// @brief Method .ctor addr 0x27b8014 size 0x8 virtual false final false
  void _ctor() ;
@@ -437,20 +436,20 @@ namespace System {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7723))
 // CS Name: System.Uri::Offset
-struct CORDL_TYPE ____System__Uri__Offset : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE System__Uri__Offset : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "Scheme", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "User", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "Host", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "PortValue", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "Path", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "Query", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "Fragment", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "End", ty: "uint16_t", modifiers: "", def_value: None }]
-constexpr ____System__Uri__Offset(uint16_t Scheme, uint16_t User, uint16_t Host, uint16_t PortValue, uint16_t Path, uint16_t Query, uint16_t Fragment, uint16_t End) noexcept;
+constexpr System__Uri__Offset(uint16_t Scheme, uint16_t User, uint16_t Host, uint16_t PortValue, uint16_t Path, uint16_t Query, uint16_t Fragment, uint16_t End) noexcept;
 
 
-                    constexpr ____System__Uri__Offset(____System__Uri__Offset const&) = default;
-                    constexpr ____System__Uri__Offset(____System__Uri__Offset&&) = default;
-                    constexpr ____System__Uri__Offset& operator=(____System__Uri__Offset const& o) {
+                    constexpr System__Uri__Offset(System__Uri__Offset const&) = default;
+                    constexpr System__Uri__Offset(System__Uri__Offset&&) = default;
+                    constexpr System__Uri__Offset& operator=(System__Uri__Offset const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Uri__Offset& operator=(____System__Uri__Offset&& o) noexcept {
+                    constexpr System__Uri__Offset& operator=(System__Uri__Offset&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -463,7 +462,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x10};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Uri__Offset(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Uri__Offset(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -532,37 +531,37 @@ namespace System {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7724))
 // CS Name: System.Uri::MoreInfo
-class CORDL_TYPE ____System__Uri__MoreInfo : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Uri__MoreInfo : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
 
-virtual ~____System__Uri__MoreInfo() = default;
+virtual ~System__Uri__MoreInfo() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Uri__MoreInfo", modifiers: " const&", def_value: None }]
-constexpr ____System__Uri__MoreInfo(____System__Uri__MoreInfo const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Uri__MoreInfo", modifiers: " const&", def_value: None }]
+constexpr System__Uri__MoreInfo(System__Uri__MoreInfo const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Uri__MoreInfo", modifiers: "&&", def_value: None }]
-constexpr ____System__Uri__MoreInfo(____System__Uri__MoreInfo&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Uri__MoreInfo", modifiers: "&&", def_value: None }]
+constexpr System__Uri__MoreInfo(System__Uri__MoreInfo&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Uri__MoreInfo(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Uri__MoreInfo(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Uri__MoreInfo& operator=(std::nullptr_t) noexcept {
+  constexpr System__Uri__MoreInfo& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Uri__MoreInfo& operator=(void* o) noexcept {
+  constexpr System__Uri__MoreInfo& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Uri__MoreInfo& operator=(____System__Uri__MoreInfo&& o) noexcept = default;
-  constexpr ____System__Uri__MoreInfo& operator=(____System__Uri__MoreInfo const& o) noexcept = default;
+  constexpr System__Uri__MoreInfo& operator=(System__Uri__MoreInfo&& o) noexcept = default;
+  constexpr System__Uri__MoreInfo& operator=(System__Uri__MoreInfo const& o) noexcept = default;
                 
 
 
@@ -608,7 +607,7 @@ constexpr ::StringW __get_RemoteUrl() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____System__Uri__MoreInfo() ;
+explicit System__Uri__MoreInfo() ;
 
 /// @brief Method .ctor addr 0x27b801c size 0x8 virtual false final false
  void _ctor() ;
@@ -623,20 +622,20 @@ namespace System {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7725))
 // CS Name: System.Uri::Check
-struct CORDL_TYPE ____System__Uri__Check : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE System__Uri__Check : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____System__Uri__Check(int32_t value__) noexcept;
+constexpr System__Uri__Check(int32_t value__) noexcept;
 
 
-                    constexpr ____System__Uri__Check(____System__Uri__Check const&) = default;
-                    constexpr ____System__Uri__Check(____System__Uri__Check&&) = default;
-                    constexpr ____System__Uri__Check& operator=(____System__Uri__Check const& o) {
+                    constexpr System__Uri__Check(System__Uri__Check const&) = default;
+                    constexpr System__Uri__Check(System__Uri__Check&&) = default;
+                    constexpr System__Uri__Check& operator=(System__Uri__Check const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Uri__Check& operator=(____System__Uri__Check&& o) noexcept {
+                    constexpr System__Uri__Check& operator=(System__Uri__Check&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -649,7 +648,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Uri__Check(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Uri__Check(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -657,7 +656,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______System__Uri__Check_Unwrapped : int32_t {
+enum class __System__Uri__Check_Unwrapped : int32_t {
 __None = 0,
 __EscapedCanonical = 1,
 __DisplayCanonical = 2,
@@ -670,8 +669,8 @@ __FoundNonAscii = 8,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______System__Uri__Check_Unwrapped () const noexcept {
-return std::bit_cast<______System__Uri__Check_Unwrapped>(__instance);
+constexpr operator __System__Uri__Check_Unwrapped () const noexcept {
+return std::bit_cast<__System__Uri__Check_Unwrapped>(__instance);
 }
 
 
@@ -684,31 +683,31 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::____System__Uri__Check const None;
+static System::System__Uri__Check const None;
 
 /// @brief Field EscapedCanonical offset 0
-static ::System::____System__Uri__Check const EscapedCanonical;
+static System::System__Uri__Check const EscapedCanonical;
 
 /// @brief Field DisplayCanonical offset 0
-static ::System::____System__Uri__Check const DisplayCanonical;
+static System::System__Uri__Check const DisplayCanonical;
 
 /// @brief Field DotSlashAttn offset 0
-static ::System::____System__Uri__Check const DotSlashAttn;
+static System::System__Uri__Check const DotSlashAttn;
 
 /// @brief Field DotSlashEscaped offset 0
-static ::System::____System__Uri__Check const DotSlashEscaped;
+static System::System__Uri__Check const DotSlashEscaped;
 
 /// @brief Field BackslashInPath offset 0
-static ::System::____System__Uri__Check const BackslashInPath;
+static System::System__Uri__Check const BackslashInPath;
 
 /// @brief Field ReservedFound offset 0
-static ::System::____System__Uri__Check const ReservedFound;
+static System::System__Uri__Check const ReservedFound;
 
 /// @brief Field NotIriCanonical offset 0
-static ::System::____System__Uri__Check const NotIriCanonical;
+static System::System__Uri__Check const NotIriCanonical;
 
 /// @brief Field FoundNonAscii offset 0
-static ::System::____System__Uri__Check const FoundNonAscii;
+static System::System__Uri__Check const FoundNonAscii;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -723,18 +722,18 @@ namespace System {
 class CORDL_TYPE Uri : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using Check = ::System::____System__Uri__Check;
+using Check = System::System__Uri__Check;
 
-using MoreInfo = ::System::____System__Uri__MoreInfo;
+using MoreInfo = System::System__Uri__MoreInfo;
 
-using Offset = ::System::____System__Uri__Offset;
+using Offset = System::System__Uri__Offset;
 
-using UriInfo = ::System::____System__Uri__UriInfo;
+using UriInfo = System::System__Uri__UriInfo;
 
-using Flags = ::System::____System__Uri__Flags;
+using Flags = System::System__Uri__Flags;
 
-/// @brief Convert operator to ::System::Runtime::Serialization::ISerializable
-constexpr operator  ::System::Runtime::Serialization::ISerializable() const noexcept;
+/// @brief Convert operator to System::Runtime::Serialization::ISerializable
+constexpr operator  System::Runtime::Serialization::ISerializable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
@@ -868,11 +867,11 @@ constexpr void __set_m_originalUnicodeString(::StringW value) ;
 
 constexpr ::StringW __get_m_originalUnicodeString() const;
 
- ::System::UriParser __declspec(property(get=__get_m_Syntax, put=__set_m_Syntax))  m_Syntax;
+ System::UriParser __declspec(property(get=__get_m_Syntax, put=__set_m_Syntax))  m_Syntax;
 
-constexpr void __set_m_Syntax(::System::UriParser value) ;
+constexpr void __set_m_Syntax(System::UriParser value) ;
 
-constexpr ::System::UriParser __get_m_Syntax() const;
+constexpr System::UriParser __get_m_Syntax() const;
 
  ::StringW __declspec(property(get=__get_m_DnsSafeHost, put=__set_m_DnsSafeHost))  m_DnsSafeHost;
 
@@ -880,17 +879,17 @@ constexpr void __set_m_DnsSafeHost(::StringW value) ;
 
 constexpr ::StringW __get_m_DnsSafeHost() const;
 
- ::System::____System__Uri__Flags __declspec(property(get=__get_m_Flags, put=__set_m_Flags))  m_Flags;
+ System::System__Uri__Flags __declspec(property(get=__get_m_Flags, put=__set_m_Flags))  m_Flags;
 
-constexpr void __set_m_Flags(::System::____System__Uri__Flags value) ;
+constexpr void __set_m_Flags(System::System__Uri__Flags value) ;
 
-constexpr ::System::____System__Uri__Flags __get_m_Flags() const;
+constexpr System::System__Uri__Flags __get_m_Flags() const;
 
- ::System::____System__Uri__UriInfo __declspec(property(get=__get_m_Info, put=__set_m_Info))  m_Info;
+ System::System__Uri__UriInfo __declspec(property(get=__get_m_Info, put=__set_m_Info))  m_Info;
 
-constexpr void __set_m_Info(::System::____System__Uri__UriInfo value) ;
+constexpr void __set_m_Info(System::System__Uri__UriInfo value) ;
 
-constexpr ::System::____System__Uri__UriInfo __get_m_Info() const;
+constexpr System::System__Uri__UriInfo __get_m_Info() const;
 
  bool __declspec(property(get=__get_m_iriParsing, put=__set_m_iriParsing))  m_iriParsing;
 
@@ -910,11 +909,11 @@ static void __set_s_ConfigInitializing(bool value) ;
 
 static bool __get_s_ConfigInitializing() ;
 
-static ::System::UriIdnScope __declspec(property(get=__get_s_IdnScope, put=__set_s_IdnScope))  s_IdnScope;
+static System::UriIdnScope __declspec(property(get=__get_s_IdnScope, put=__set_s_IdnScope))  s_IdnScope;
 
-static void __set_s_IdnScope(::System::UriIdnScope value) ;
+static void __set_s_IdnScope(System::UriIdnScope value) ;
 
-static ::System::UriIdnScope __get_s_IdnScope() ;
+static System::UriIdnScope __get_s_IdnScope() ;
 
 static bool __declspec(property(get=__get_s_IriParsing, put=__set_s_IriParsing))  s_IriParsing;
 
@@ -929,7 +928,7 @@ static void __set_useDotNetRelativeOrAbsolute(bool value) ;
 static bool __get_useDotNetRelativeOrAbsolute() ;
 
 /// @brief Field DotNetRelativeOrAbsolute offset 0
-static ::System::UriKind const DotNetRelativeOrAbsolute;
+static System::UriKind const DotNetRelativeOrAbsolute;
 
 static bool __declspec(property(get=__get_IsWindowsFileSystem, put=__set_IsWindowsFileSystem))  IsWindowsFileSystem;
 
@@ -944,7 +943,7 @@ static void __set_s_initLock(::bs_hook::Il2CppWrapperType value) ;
 static ::bs_hook::Il2CppWrapperType __get_s_initLock() ;
 
 /// @brief Field V1ToStringUnescape offset 0
-static ::System::UriFormat const V1ToStringUnescape;
+static System::UriFormat const V1ToStringUnescape;
 
 /// @brief Field c_DummyChar offset 0
 static constexpr char16_t  c_DummyChar{￿};
@@ -975,9 +974,9 @@ static ::ArrayW<char16_t> __get__WSchars() ;
 
  bool __declspec(property(get=get_IsUncPath))  IsUncPath;
 
- ::System::____System__Uri__Flags __declspec(property(get=get_HostType))  HostType;
+ System::System__Uri__Flags __declspec(property(get=get_HostType))  HostType;
 
- ::System::UriParser __declspec(property(get=get_Syntax))  Syntax;
+ System::UriParser __declspec(property(get=get_Syntax))  Syntax;
 
  bool __declspec(property(get=get_IsNotAbsoluteUri))  IsNotAbsoluteUri;
 
@@ -997,7 +996,7 @@ static ::ArrayW<char16_t> __get__WSchars() ;
 
  ::StringW __declspec(property(get=get_Authority))  Authority;
 
- ::System::UriHostNameType __declspec(property(get=get_HostNameType))  HostNameType;
+ System::UriHostNameType __declspec(property(get=get_HostNameType))  HostNameType;
 
  bool __declspec(property(get=get_IsDefaultPort))  IsDefaultPort;
 
@@ -1053,22 +1052,22 @@ static ::bs_hook::Il2CppWrapperType __declspec(property(get=get_InitializeLock))
  bool get_IsUncPath() ;
 
 /// @brief Method get_HostType addr 0x2757f20 size 0xc virtual false final false
- ::System::____System__Uri__Flags get_HostType() ;
+ System::System__Uri__Flags get_HostType() ;
 
 /// @brief Method get_Syntax addr 0x2757f2c size 0x8 virtual false final false
- ::System::UriParser get_Syntax() ;
+ System::UriParser get_Syntax() ;
 
 /// @brief Method get_IsNotAbsoluteUri addr 0x2757f34 size 0x10 virtual false final false
  bool get_IsNotAbsoluteUri() ;
 
 /// @brief Method IriParsingStatic addr 0x2757f44 size 0x8c virtual false final false
-static bool IriParsingStatic(::System::UriParser syntax) ;
+static bool IriParsingStatic(System::UriParser syntax) ;
 
 /// @brief Method get_AllowIdn addr 0x2757fd0 size 0xbc virtual false final false
  bool get_AllowIdn() ;
 
 /// @brief Method AllowIdnStatic addr 0x275809c size 0xc8 virtual false final false
- bool AllowIdnStatic(::System::UriParser syntax, ::System::____System__Uri__Flags flags) ;
+ bool AllowIdnStatic(System::UriParser syntax, System::System__Uri__Flags flags) ;
 
 /// @brief Method IsIntranet addr 0x2758170 size 0x8 virtual false final false
  bool IsIntranet(::StringW schemeHost) ;
@@ -1083,19 +1082,19 @@ static bool IriParsingStatic(::System::UriParser syntax) ;
  uint16_t get_SecuredPathIndex() ;
 
 /// @brief Method NotAny addr 0x275808c size 0x10 virtual false final false
- bool NotAny(::System::____System__Uri__Flags flags) ;
+ bool NotAny(System::System__Uri__Flags flags) ;
 
 /// @brief Method InFact addr 0x27581f4 size 0x10 virtual false final false
- bool InFact(::System::____System__Uri__Flags flags) ;
+ bool InFact(System::System__Uri__Flags flags) ;
 
 /// @brief Method StaticNotAny addr 0x2758164 size 0xc virtual false final false
-static bool StaticNotAny(::System::____System__Uri__Flags allFlags, ::System::____System__Uri__Flags checkFlags) ;
+static bool StaticNotAny(System::System__Uri__Flags allFlags, System::System__Uri__Flags checkFlags) ;
 
 /// @brief Method StaticInFact addr 0x2758204 size 0xc virtual false final false
-static bool StaticInFact(::System::____System__Uri__Flags allFlags, ::System::____System__Uri__Flags checkFlags) ;
+static bool StaticInFact(System::System__Uri__Flags allFlags, System::System__Uri__Flags checkFlags) ;
 
 /// @brief Method EnsureUriInfo addr 0x2758210 size 0x24 virtual false final false
- ::System::____System__Uri__UriInfo EnsureUriInfo() ;
+ System::System__Uri__UriInfo EnsureUriInfo() ;
 
 /// @brief Method EnsureParseRemaining addr 0x27587c8 size 0x10 virtual false final false
  void EnsureParseRemaining() ;
@@ -1109,44 +1108,44 @@ explicit Uri(::StringW uriString) ;
 /// @brief Method .ctor addr 0x27597ec size 0x84 virtual false final false
  void _ctor(::StringW uriString) ;
 
-// Ctor Parameters [CppParam { name: "uriString", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "uriKind", ty: "::System::UriKind", modifiers: "", def_value: None }]
-explicit Uri(::StringW uriString, ::System::UriKind uriKind) ;
+// Ctor Parameters [CppParam { name: "uriString", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "uriKind", ty: "System::UriKind", modifiers: "", def_value: None }]
+explicit Uri(::StringW uriString, System::UriKind uriKind) ;
 
 /// @brief Method .ctor addr 0x2759a30 size 0x88 virtual false final false
- void _ctor(::StringW uriString, ::System::UriKind uriKind) ;
+ void _ctor(::StringW uriString, System::UriKind uriKind) ;
 
-// Ctor Parameters [CppParam { name: "baseUri", ty: "::System::Uri", modifiers: "", def_value: None }, CppParam { name: "relativeUri", ty: "::StringW", modifiers: "", def_value: None }]
-explicit Uri(::System::Uri baseUri, ::StringW relativeUri) ;
+// Ctor Parameters [CppParam { name: "baseUri", ty: "System::Uri", modifiers: "", def_value: None }, CppParam { name: "relativeUri", ty: "::StringW", modifiers: "", def_value: None }]
+explicit Uri(System::Uri baseUri, ::StringW relativeUri) ;
 
 /// @brief Method .ctor addr 0x2759ab8 size 0xc8 virtual false final false
- void _ctor(::System::Uri baseUri, ::StringW relativeUri) ;
+ void _ctor(System::Uri baseUri, ::StringW relativeUri) ;
 
 /// @brief Method CreateUri addr 0x2759b90 size 0x188 virtual false final false
- void CreateUri(::System::Uri baseUri, ::StringW relativeUri, bool dontEscape) ;
+ void CreateUri(System::Uri baseUri, ::StringW relativeUri, bool dontEscape) ;
 
-// Ctor Parameters [CppParam { name: "baseUri", ty: "::System::Uri", modifiers: "", def_value: None }, CppParam { name: "relativeUri", ty: "::System::Uri", modifiers: "", def_value: None }]
-explicit Uri(::System::Uri baseUri, ::System::Uri relativeUri) ;
+// Ctor Parameters [CppParam { name: "baseUri", ty: "System::Uri", modifiers: "", def_value: None }, CppParam { name: "relativeUri", ty: "System::Uri", modifiers: "", def_value: None }]
+explicit Uri(System::Uri baseUri, System::Uri relativeUri) ;
 
 /// @brief Method .ctor addr 0x275a33c size 0x224 virtual false final false
- void _ctor(::System::Uri baseUri, ::System::Uri relativeUri) ;
+ void _ctor(System::Uri baseUri, System::Uri relativeUri) ;
 
 /// @brief Method GetCombinedString addr 0x275a560 size 0x250 virtual false final false
-static ::System::ParsingError GetCombinedString(::System::Uri baseUri, ::StringW relativeStr, bool dontEscape, ByRef<::StringW> result) ;
+static System::ParsingError GetCombinedString(System::Uri baseUri, ::StringW relativeStr, bool dontEscape, ByRef<::StringW> result) ;
 
 /// @brief Method GetException addr 0x275b380 size 0x1a0 virtual false final false
-static ::System::UriFormatException GetException(::System::ParsingError err) ;
+static System::UriFormatException GetException(System::ParsingError err) ;
 
-// Ctor Parameters [CppParam { name: "serializationInfo", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit Uri(::System::Runtime::Serialization::SerializationInfo serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext) ;
+// Ctor Parameters [CppParam { name: "serializationInfo", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit Uri(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
 
 /// @brief Method .ctor addr 0x275b520 size 0x104 virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
 
 /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData addr 0x275b624 size 0x4 virtual true final true
- void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext) ;
+ void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
 
 /// @brief Method GetObjectData addr 0x275b628 size 0xd8 virtual false final false
- void GetObjectData(::System::Runtime::Serialization::SerializationInfo serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext) ;
+ void GetObjectData(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
 
 /// @brief Method get_AbsolutePath addr 0x275b704 size 0xc8 virtual false final false
  ::StringW get_AbsolutePath() ;
@@ -1164,7 +1163,7 @@ explicit Uri(::System::Runtime::Serialization::SerializationInfo serializationIn
  ::StringW get_Authority() ;
 
 /// @brief Method get_HostNameType addr 0x275c05c size 0x100 virtual false final false
- ::System::UriHostNameType get_HostNameType() ;
+ System::UriHostNameType get_HostNameType() ;
 
 /// @brief Method get_IsDefaultPort addr 0x275c15c size 0xb0 virtual false final false
  bool get_IsDefaultPort() ;
@@ -1188,7 +1187,7 @@ explicit Uri(::System::Runtime::Serialization::SerializationInfo serializationIn
  ::StringW get_Host() ;
 
 /// @brief Method StaticIsFile addr 0x275c734 size 0x18 virtual false final false
-static bool StaticIsFile(::System::UriParser syntax) ;
+static bool StaticIsFile(System::UriParser syntax) ;
 
 /// @brief Method get_InitializeLock addr 0x275c74c size 0xd4 virtual false final false
 static ::bs_hook::Il2CppWrapperType get_InitializeLock() ;
@@ -1248,10 +1247,10 @@ static int32_t FromHex(char16_t digit) ;
  ::StringW ToString() ;
 
 /// @brief Method op_Equality addr 0x275ddbc size 0x34 virtual false final false
-static bool op_Equality(::System::Uri uri1, ::System::Uri uri2) ;
+static bool op_Equality(System::Uri uri1, System::Uri uri2) ;
 
 /// @brief Method op_Inequality addr 0x275a1d4 size 0x48 virtual false final false
-static bool op_Inequality(::System::Uri uri1, ::System::Uri uri2) ;
+static bool op_Inequality(System::Uri uri1, System::Uri uri2) ;
 
 /// @brief Method Equals addr 0x275ddf0 size 0x588 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType comparand) ;
@@ -1263,64 +1262,64 @@ static bool CheckForColonInFirstPathSegment(::StringW uriString) ;
 static ::StringW InternalEscapeString(::StringW rawString) ;
 
 /// @brief Method ParseScheme addr 0x275e5c8 size 0xe0 virtual false final false
-static ::System::ParsingError ParseScheme(::StringW uriString, ByRef<::System::____System__Uri__Flags> flags, ByRef<::System::UriParser> syntax) ;
+static System::ParsingError ParseScheme(::StringW uriString, ByRef<System::System__Uri__Flags> flags, ByRef<System::UriParser> syntax) ;
 
 /// @brief Method ParseMinimal addr 0x275ebf0 size 0x80 virtual false final false
- ::System::UriFormatException ParseMinimal() ;
+ System::UriFormatException ParseMinimal() ;
 
 /// @brief Method PrivateParseMinimal addr 0x275ec70 size 0x668 virtual false final false
- ::System::ParsingError PrivateParseMinimal() ;
+ System::ParsingError PrivateParseMinimal() ;
 
 /// @brief Method PrivateParseMinimalIri addr 0x276011c size 0xd4 virtual false final false
  void PrivateParseMinimalIri(::StringW newHost, uint16_t idx) ;
 
 /// @brief Method CreateUriInfo addr 0x2758234 size 0x594 virtual false final false
- void CreateUriInfo(::System::____System__Uri__Flags cF) ;
+ void CreateUriInfo(System::System__Uri__Flags cF) ;
 
 /// @brief Method CreateHostString addr 0x27593f0 size 0x3fc virtual false final false
  void CreateHostString() ;
 
 /// @brief Method CreateHostStringHelper addr 0x2760630 size 0x1e4 virtual false final false
-static ::StringW CreateHostStringHelper(::StringW str, uint16_t idx, uint16_t end, ByRef<::System::____System__Uri__Flags> flags, ByRef<::StringW> scopeId) ;
+static ::StringW CreateHostStringHelper(::StringW str, uint16_t idx, uint16_t end, ByRef<System::System__Uri__Flags> flags, ByRef<::StringW> scopeId) ;
 
 /// @brief Method GetHostViaCustomSyntax addr 0x27601f0 size 0x440 virtual false final false
  void GetHostViaCustomSyntax() ;
 
 /// @brief Method GetParts addr 0x275b700 size 0x4 virtual false final false
- ::StringW GetParts(::System::UriComponents uriParts, ::System::UriFormat formatAs) ;
+ ::StringW GetParts(System::UriComponents uriParts, System::UriFormat formatAs) ;
 
 /// @brief Method GetEscapedParts addr 0x2760de8 size 0xc8 virtual false final false
- ::StringW GetEscapedParts(::System::UriComponents uriParts) ;
+ ::StringW GetEscapedParts(System::UriComponents uriParts) ;
 
 /// @brief Method GetUnescapedParts addr 0x275ce98 size 0xd0 virtual false final false
- ::StringW GetUnescapedParts(::System::UriComponents uriParts, ::System::UriFormat formatAs) ;
+ ::StringW GetUnescapedParts(System::UriComponents uriParts, System::UriFormat formatAs) ;
 
 /// @brief Method ReCreateParts addr 0x2761460 size 0xc8c virtual false final false
- ::StringW ReCreateParts(::System::UriComponents parts, uint16_t nonCanonical, ::System::UriFormat formatAs) ;
+ ::StringW ReCreateParts(System::UriComponents parts, uint16_t nonCanonical, System::UriFormat formatAs) ;
 
 /// @brief Method GetUriPartsFromUserString addr 0x2760eb0 size 0x5b0 virtual false final false
- ::StringW GetUriPartsFromUserString(::System::UriComponents uriParts) ;
+ ::StringW GetUriPartsFromUserString(System::UriComponents uriParts) ;
 
 /// @brief Method ParseRemaining addr 0x27587d8 size 0xbb8 virtual false final false
  void ParseRemaining() ;
 
 /// @brief Method ParseSchemeCheckImplicitFile addr 0x275e6a8 size 0x548 virtual false final false
-static uint16_t ParseSchemeCheckImplicitFile(void* uriString, uint16_t length, ByRef<::System::ParsingError> err, ByRef<::System::____System__Uri__Flags> flags, ByRef<::System::UriParser> syntax) ;
+static uint16_t ParseSchemeCheckImplicitFile(void* uriString, uint16_t length, ByRef<System::ParsingError> err, ByRef<System::System__Uri__Flags> flags, ByRef<System::UriParser> syntax) ;
 
 /// @brief Method CheckKnownSchemes addr 0x27627f8 size 0x500 virtual false final false
-static bool CheckKnownSchemes(void* lptr, uint16_t nChars, ByRef<::System::UriParser> syntax) ;
+static bool CheckKnownSchemes(void* lptr, uint16_t nChars, ByRef<System::UriParser> syntax) ;
 
 /// @brief Method CheckSchemeSyntax addr 0x275a7b0 size 0x134 virtual false final false
-static ::System::ParsingError CheckSchemeSyntax(void* ptr, uint16_t length, ByRef<::System::UriParser> syntax) ;
+static System::ParsingError CheckSchemeSyntax(void* ptr, uint16_t length, ByRef<System::UriParser> syntax) ;
 
 /// @brief Method CheckAuthorityHelper addr 0x275f318 size 0xe04 virtual false final false
- uint16_t CheckAuthorityHelper(void* pString, uint16_t idx, uint16_t length, ByRef<::System::ParsingError> err, ByRef<::System::____System__Uri__Flags> flags, ::System::UriParser syntax, ByRef<::StringW> newHost) ;
+ uint16_t CheckAuthorityHelper(void* pString, uint16_t idx, uint16_t length, ByRef<System::ParsingError> err, ByRef<System::System__Uri__Flags> flags, System::UriParser syntax, ByRef<::StringW> newHost) ;
 
 /// @brief Method CheckAuthorityHelperHandleDnsIri addr 0x2762cf8 size 0x350 virtual false final false
- void CheckAuthorityHelperHandleDnsIri(void* pString, uint16_t start, int32_t end, int32_t startInput, bool iriParsing, bool hasUnicode, ::System::UriParser syntax, ::StringW userInfoString, ByRef<::System::____System__Uri__Flags> flags, ByRef<bool> justNormalized, ByRef<::StringW> newHost, ByRef<::System::ParsingError> err) ;
+ void CheckAuthorityHelperHandleDnsIri(void* pString, uint16_t start, int32_t end, int32_t startInput, bool iriParsing, bool hasUnicode, System::UriParser syntax, ::StringW userInfoString, ByRef<System::System__Uri__Flags> flags, ByRef<bool> justNormalized, ByRef<::StringW> newHost, ByRef<System::ParsingError> err) ;
 
 /// @brief Method CheckAuthorityHelperHandleAnyHostIri addr 0x2763048 size 0x2c4 virtual false final false
- void CheckAuthorityHelperHandleAnyHostIri(void* pString, int32_t startInput, int32_t end, bool iriParsing, bool hasUnicode, ::System::UriParser syntax, ByRef<::System::____System__Uri__Flags> flags, ByRef<::StringW> newHost, ByRef<::System::ParsingError> err) ;
+ void CheckAuthorityHelperHandleAnyHostIri(void* pString, int32_t startInput, int32_t end, bool iriParsing, bool hasUnicode, System::UriParser syntax, ByRef<System::System__Uri__Flags> flags, ByRef<::StringW> newHost, ByRef<System::ParsingError> err) ;
 
 /// @brief Method FindEndOfComponent addr 0x2762754 size 0x54 virtual false final false
  void FindEndOfComponent(::StringW input, ByRef<uint16_t> idx, uint16_t end, char16_t delim) ;
@@ -1329,22 +1328,22 @@ static ::System::ParsingError CheckSchemeSyntax(void* ptr, uint16_t length, ByRe
  void FindEndOfComponent(void* str, ByRef<uint16_t> idx, uint16_t end, char16_t delim) ;
 
 /// @brief Method CheckCanonical addr 0x2760814 size 0x3f8 virtual false final false
- ::System::____System__Uri__Check CheckCanonical(void* str, ByRef<uint16_t> idx, uint16_t end, char16_t delim) ;
+ System::System__Uri__Check CheckCanonical(void* str, ByRef<uint16_t> idx, uint16_t end, char16_t delim) ;
 
 /// @brief Method GetCanonicalPath addr 0x27620ec size 0x668 virtual false final false
- ::ArrayW<char16_t> GetCanonicalPath(::ArrayW<char16_t> dest, ByRef<int32_t> pos, ::System::UriFormat formatAs) ;
+ ::ArrayW<char16_t> GetCanonicalPath(::ArrayW<char16_t> dest, ByRef<int32_t> pos, System::UriFormat formatAs) ;
 
 /// @brief Method UnescapeOnly addr 0x2763518 size 0x21c virtual false final false
 static void UnescapeOnly(void* pch, int32_t start, ByRef<int32_t> end, char16_t ch1, char16_t ch2, char16_t ch3) ;
 
 /// @brief Method Compress addr 0x275c9c0 size 0x4d8 virtual false final false
-static ::ArrayW<char16_t> Compress(::ArrayW<char16_t> dest, uint16_t start, ByRef<int32_t> destLength, ::System::UriParser syntax) ;
+static ::ArrayW<char16_t> Compress(::ArrayW<char16_t> dest, uint16_t start, ByRef<int32_t> destLength, System::UriParser syntax) ;
 
 /// @brief Method CalculateCaseInsensitiveHashCode addr 0x275da38 size 0xa0 virtual false final false
 static int32_t CalculateCaseInsensitiveHashCode(::StringW text) ;
 
 /// @brief Method CombineUri addr 0x275a90c size 0xa74 virtual false final false
-static ::StringW CombineUri(::System::Uri basePart, ::StringW relativePart, ::System::UriFormat uriFormat) ;
+static ::StringW CombineUri(System::Uri basePart, ::StringW relativePart, System::UriFormat uriFormat) ;
 
 /// @brief Method get_HasAuthority addr 0x2763734 size 0xc virtual false final false
  bool get_HasAuthority() ;
@@ -1365,10 +1364,10 @@ static bool IsBidiControlCharacter(char16_t ch) ;
 static ::StringW StripBidiControlCharacter(void* strToClean, int32_t start, int32_t length) ;
 
 /// @brief Method CreateThis addr 0x2759870 size 0x1c0 virtual false final false
- void CreateThis(::StringW uri, bool dontEscape, ::System::UriKind uriKind) ;
+ void CreateThis(::StringW uri, bool dontEscape, System::UriKind uriKind) ;
 
 /// @brief Method InitializeUri addr 0x2763788 size 0x4d4 virtual false final false
- void InitializeUri(::System::ParsingError err, ::System::UriKind uriKind, ByRef<::System::UriFormatException> e) ;
+ void InitializeUri(System::ParsingError err, System::UriKind uriKind, ByRef<System::UriFormatException> e) ;
 
 /// @brief Method CheckForConfigLoad addr 0x2763c5c size 0xac virtual false final false
  bool CheckForConfigLoad(::StringW data) ;
@@ -1380,22 +1379,22 @@ static ::StringW StripBidiControlCharacter(void* strToClean, int32_t start, int3
  bool CheckForEscapedUnreserved(::StringW data) ;
 
 /// @brief Method TryCreate addr 0x275e378 size 0xb8 virtual false final false
-static bool TryCreate(::StringW uriString, ::System::UriKind uriKind, ByRef<::System::Uri> result) ;
+static bool TryCreate(::StringW uriString, System::UriKind uriKind, ByRef<System::Uri> result) ;
 
 /// @brief Method TryCreate addr 0x2764240 size 0xd0 virtual false final false
-static bool TryCreate(::System::Uri baseUri, ::StringW relativeUri, ByRef<::System::Uri> result) ;
+static bool TryCreate(System::Uri baseUri, ::StringW relativeUri, ByRef<System::Uri> result) ;
 
 /// @brief Method TryCreate addr 0x2764310 size 0x174 virtual false final false
-static bool TryCreate(::System::Uri baseUri, ::System::Uri relativeUri, ByRef<::System::Uri> result) ;
+static bool TryCreate(System::Uri baseUri, System::Uri relativeUri, ByRef<System::Uri> result) ;
 
 /// @brief Method GetComponents addr 0x2760c0c size 0x1dc virtual false final false
- ::StringW GetComponents(::System::UriComponents components, ::System::UriFormat format) ;
+ ::StringW GetComponents(System::UriComponents components, System::UriFormat format) ;
 
 /// @brief Method IsWellFormedOriginalString addr 0x27646a4 size 0x44 virtual false final false
  bool IsWellFormedOriginalString() ;
 
 /// @brief Method IsWellFormedUriString addr 0x2764b6c size 0x9c virtual false final false
-static bool IsWellFormedUriString(::StringW uriString, ::System::UriKind uriKind) ;
+static bool IsWellFormedUriString(::StringW uriString, System::UriKind uriKind) ;
 
 /// @brief Method InternalIsWellFormedOriginalString addr 0x27646e8 size 0x484 virtual false final false
  bool InternalIsWellFormedOriginalString() ;
@@ -1404,46 +1403,45 @@ static bool IsWellFormedUriString(::StringW uriString, ::System::UriKind uriKind
 static ::StringW UnescapeDataString(::StringW stringToUnescape) ;
 
 /// @brief Method EscapeUnescapeIri addr 0x27627a8 size 0x50 virtual false final false
- ::StringW EscapeUnescapeIri(::StringW input, int32_t start, int32_t end, ::System::UriComponents component) ;
+ ::StringW EscapeUnescapeIri(::StringW input, int32_t start, int32_t end, System::UriComponents component) ;
 
-// Ctor Parameters [CppParam { name: "flags", ty: "::System::____System__Uri__Flags", modifiers: "", def_value: None }, CppParam { name: "uriParser", ty: "::System::UriParser", modifiers: "", def_value: None }, CppParam { name: "uri", ty: "::StringW", modifiers: "", def_value: None }]
-explicit Uri(::System::____System__Uri__Flags flags, ::System::UriParser uriParser, ::StringW uri) ;
+// Ctor Parameters [CppParam { name: "flags", ty: "System::System__Uri__Flags", modifiers: "", def_value: None }, CppParam { name: "uriParser", ty: "System::UriParser", modifiers: "", def_value: None }, CppParam { name: "uri", ty: "::StringW", modifiers: "", def_value: None }]
+explicit Uri(System::System__Uri__Flags flags, System::UriParser uriParser, ::StringW uri) ;
 
 /// @brief Method .ctor addr 0x2764db0 size 0x40 virtual false final false
- void _ctor(::System::____System__Uri__Flags flags, ::System::UriParser uriParser, ::StringW uri) ;
+ void _ctor(System::System__Uri__Flags flags, System::UriParser uriParser, ::StringW uri) ;
 
 /// @brief Method CreateHelper addr 0x2763fcc size 0x274 virtual false final false
-static ::System::Uri CreateHelper(::StringW uriString, bool dontEscape, ::System::UriKind uriKind, ByRef<::System::UriFormatException> e) ;
+static System::Uri CreateHelper(::StringW uriString, bool dontEscape, System::UriKind uriKind, ByRef<System::UriFormatException> e) ;
 
 /// @brief Method ResolveHelper addr 0x2759d18 size 0x4bc virtual false final false
-static ::System::Uri ResolveHelper(::System::Uri baseUri, ::System::Uri relativeUri, ByRef<::StringW> newUriString, ByRef<bool> userEscaped, ByRef<::System::UriFormatException> e) ;
+static System::Uri ResolveHelper(System::Uri baseUri, System::Uri relativeUri, ByRef<::StringW> newUriString, ByRef<bool> userEscaped, ByRef<System::UriFormatException> e) ;
 
 /// @brief Method GetRelativeSerializationString addr 0x2764484 size 0x220 virtual false final false
- ::StringW GetRelativeSerializationString(::System::UriFormat format) ;
+ ::StringW GetRelativeSerializationString(System::UriFormat format) ;
 
 /// @brief Method GetComponentsHelper addr 0x275dba4 size 0x218 virtual false final false
- ::StringW GetComponentsHelper(::System::UriComponents uriComponents, ::System::UriFormat uriFormat) ;
+ ::StringW GetComponentsHelper(System::UriComponents uriComponents, System::UriFormat uriFormat) ;
 
 /// @brief Method IsBaseOf addr 0x2764df0 size 0xb8 virtual false final false
- bool IsBaseOf(::System::Uri uri) ;
+ bool IsBaseOf(System::Uri uri) ;
 
 /// @brief Method IsBaseOfHelper addr 0x2764ea8 size 0x204 virtual false final false
- bool IsBaseOfHelper(::System::Uri uriLink) ;
+ bool IsBaseOfHelper(System::Uri uriLink) ;
 
 /// @brief Method CreateThisFromUri addr 0x275a21c size 0x120 virtual false final false
- void CreateThisFromUri(::System::Uri otherUri) ;
+ void CreateThisFromUri(System::Uri otherUri) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::____System__Uri__Check, "System", "Uri/Check");
-DEFINE_IL2CPP_ARG_TYPE(::System::____System__Uri__Flags, "System", "Uri/Flags");
-NEED_NO_BOX(::System::Uri);
-DEFINE_IL2CPP_ARG_TYPE(::System::Uri, "System", "Uri");
-NEED_NO_BOX(::System::____System__Uri__MoreInfo);
-DEFINE_IL2CPP_ARG_TYPE(::System::____System__Uri__MoreInfo, "System", "Uri/MoreInfo");
-NEED_NO_BOX(::System::____System__Uri__UriInfo);
-DEFINE_IL2CPP_ARG_TYPE(::System::____System__Uri__UriInfo, "System", "Uri/UriInfo");
-DEFINE_IL2CPP_ARG_TYPE(::System::____System__Uri__Offset, "System", "Uri/Offset");
+DEFINE_IL2CPP_ARG_TYPE(System::System__Uri__Check, "System", "Uri/Check");
+DEFINE_IL2CPP_ARG_TYPE(System::System__Uri__Flags, "System", "Uri/Flags");
+NEED_NO_BOX(System::System__Uri__MoreInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::System__Uri__MoreInfo, "System", "Uri/MoreInfo");
+NEED_NO_BOX(System::System__Uri__UriInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::System__Uri__UriInfo, "System", "Uri/UriInfo");
+NEED_NO_BOX(System::Uri);
+DEFINE_IL2CPP_ARG_TYPE(System::Uri, "System", "Uri");
+DEFINE_IL2CPP_ARG_TYPE(System::System__Uri__Offset, "System", "Uri/Offset");

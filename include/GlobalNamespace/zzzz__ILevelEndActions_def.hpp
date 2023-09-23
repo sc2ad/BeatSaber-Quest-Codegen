@@ -1,6 +1,5 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace System {
 class Action;
 }
@@ -27,21 +26,20 @@ constexpr explicit ILevelEndActions(void* ptr) noexcept : ::cordl_internals::Int
 // Methods
 
 /// @brief Method add_levelFailedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void add_levelFailedEvent(::System::Action value) ;
+ void add_levelFailedEvent(System::Action value) ;
 
 /// @brief Method remove_levelFailedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void remove_levelFailedEvent(::System::Action value) ;
+ void remove_levelFailedEvent(System::Action value) ;
 
 /// @brief Method add_levelFinishedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void add_levelFinishedEvent(::System::Action value) ;
+ void add_levelFinishedEvent(System::Action value) ;
 
 /// @brief Method remove_levelFinishedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void remove_levelFinishedEvent(::System::Action value) ;
+ void remove_levelFinishedEvent(System::Action value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ILevelEndActions);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ILevelEndActions, "", "ILevelEndActions");
+NEED_NO_BOX(GlobalNamespace::ILevelEndActions);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ILevelEndActions, "", "ILevelEndActions");

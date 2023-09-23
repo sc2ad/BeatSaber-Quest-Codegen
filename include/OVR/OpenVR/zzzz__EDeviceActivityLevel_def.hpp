@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct EDeviceActivityLevel;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field k_EDeviceActivityLevel_Unknown offset 0
-static ::OVR::OpenVR::EDeviceActivityLevel const k_EDeviceActivityLevel_Unknown;
+static OVR::OpenVR::EDeviceActivityLevel const k_EDeviceActivityLevel_Unknown;
 
 /// @brief Field k_EDeviceActivityLevel_Idle offset 0
-static ::OVR::OpenVR::EDeviceActivityLevel const k_EDeviceActivityLevel_Idle;
+static OVR::OpenVR::EDeviceActivityLevel const k_EDeviceActivityLevel_Idle;
 
 /// @brief Field k_EDeviceActivityLevel_UserInteraction offset 0
-static ::OVR::OpenVR::EDeviceActivityLevel const k_EDeviceActivityLevel_UserInteraction;
+static OVR::OpenVR::EDeviceActivityLevel const k_EDeviceActivityLevel_UserInteraction;
 
 /// @brief Field k_EDeviceActivityLevel_UserInteraction_Timeout offset 0
-static ::OVR::OpenVR::EDeviceActivityLevel const k_EDeviceActivityLevel_UserInteraction_Timeout;
+static OVR::OpenVR::EDeviceActivityLevel const k_EDeviceActivityLevel_UserInteraction_Timeout;
 
 /// @brief Field k_EDeviceActivityLevel_Standby offset 0
-static ::OVR::OpenVR::EDeviceActivityLevel const k_EDeviceActivityLevel_Standby;
+static OVR::OpenVR::EDeviceActivityLevel const k_EDeviceActivityLevel_Standby;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EDeviceActivityLevel, "OVR.OpenVR", "EDeviceActivityLevel");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EDeviceActivityLevel, "OVR.OpenVR", "EDeviceActivityLevel");

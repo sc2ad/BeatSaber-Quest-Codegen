@@ -5,22 +5,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
 }
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+namespace System {
+class IDisposable;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace GlobalNamespace {
 class MultiplayerLevelCompletionResults;
-}
-namespace GlobalNamespace {
-class IMultiplayerLevelEndActionsPublisher;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -30,18 +26,21 @@ namespace GlobalNamespace {
 class IGameplayRpcManager;
 }
 namespace System {
-class IDisposable;
+template<typename T1,typename T2>
+class Action_2;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+class IMultiplayerLevelEndActionsPublisher;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-class MultiplayerLevelFinishedController;
+class GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19;
+class MultiplayerLevelFinishedController;
 }
 // Type: ::<StartLevelFinished>d__19
 namespace GlobalNamespace {
@@ -49,46 +48,46 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5176))
 // CS Name: MultiplayerLevelFinishedController::<StartLevelFinished>d__19
-class CORDL_TYPE ____GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
 
-virtual ~____GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19() = default;
+virtual ~GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19(____GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19(GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19(____GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19(GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19& operator=(____GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19&& o) noexcept = default;
-  constexpr ____GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19& operator=(____GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19 const& o) noexcept = default;
+  constexpr GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19& operator=(GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19&& o) noexcept = default;
+  constexpr GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19& operator=(GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19 const& o) noexcept = default;
                 
 
 
@@ -106,17 +105,17 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::GlobalNamespace::MultiplayerLevelCompletionResults __declspec(property(get=__get_localPlayerResults, put=__set_localPlayerResults))  localPlayerResults;
+ GlobalNamespace::MultiplayerLevelCompletionResults __declspec(property(get=__get_localPlayerResults, put=__set_localPlayerResults))  localPlayerResults;
 
-constexpr void __set_localPlayerResults(::GlobalNamespace::MultiplayerLevelCompletionResults value) ;
+constexpr void __set_localPlayerResults(GlobalNamespace::MultiplayerLevelCompletionResults value) ;
 
-constexpr ::GlobalNamespace::MultiplayerLevelCompletionResults __get_localPlayerResults() const;
+constexpr GlobalNamespace::MultiplayerLevelCompletionResults __get_localPlayerResults() const;
 
- ::GlobalNamespace::MultiplayerLevelFinishedController __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::MultiplayerLevelFinishedController __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::MultiplayerLevelFinishedController value) ;
+constexpr void __set___4__this(GlobalNamespace::MultiplayerLevelFinishedController value) ;
 
-constexpr ::GlobalNamespace::MultiplayerLevelFinishedController __get___4__this() const;
+constexpr GlobalNamespace::MultiplayerLevelFinishedController __get___4__this() const;
 
  float_t __declspec(property(get=__get__waitStartTime_5__2, put=__set__waitStartTime_5__2))  _waitStartTime_5__2;
 
@@ -147,7 +146,7 @@ constexpr float_t __get__resultsTimeoutLength_5__4() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19(int32_t __1__state) ;
+explicit GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x20d4c58 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -177,10 +176,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5177))
 // CS Name: MultiplayerLevelFinishedController
-class CORDL_TYPE MultiplayerLevelFinishedController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerLevelFinishedController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using _StartLevelFinished_d__19 = ::GlobalNamespace::____GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19;
+using _StartLevelFinished_d__19 = GlobalNamespace::GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x50};
@@ -194,7 +193,7 @@ constexpr MultiplayerLevelFinishedController(MultiplayerLevelFinishedController 
 constexpr MultiplayerLevelFinishedController(MultiplayerLevelFinishedController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerLevelFinishedController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerLevelFinishedController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -215,41 +214,41 @@ constexpr explicit MultiplayerLevelFinishedController(void* ptr) noexcept : ::Un
 
 // Fields
 
- ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher __declspec(property(get=__get__levelEndActionsPublisher, put=__set__levelEndActionsPublisher))  _levelEndActionsPublisher;
+ GlobalNamespace::IMultiplayerLevelEndActionsPublisher __declspec(property(get=__get__levelEndActionsPublisher, put=__set__levelEndActionsPublisher))  _levelEndActionsPublisher;
 
-constexpr void __set__levelEndActionsPublisher(::GlobalNamespace::IMultiplayerLevelEndActionsPublisher value) ;
+constexpr void __set__levelEndActionsPublisher(GlobalNamespace::IMultiplayerLevelEndActionsPublisher value) ;
 
-constexpr ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher __get__levelEndActionsPublisher() const;
+constexpr GlobalNamespace::IMultiplayerLevelEndActionsPublisher __get__levelEndActionsPublisher() const;
 
- ::GlobalNamespace::IGameplayRpcManager __declspec(property(get=__get__rpcManager, put=__set__rpcManager))  _rpcManager;
+ GlobalNamespace::IGameplayRpcManager __declspec(property(get=__get__rpcManager, put=__set__rpcManager))  _rpcManager;
 
-constexpr void __set__rpcManager(::GlobalNamespace::IGameplayRpcManager value) ;
+constexpr void __set__rpcManager(GlobalNamespace::IGameplayRpcManager value) ;
 
-constexpr ::GlobalNamespace::IGameplayRpcManager __get__rpcManager() const;
+constexpr GlobalNamespace::IGameplayRpcManager __get__rpcManager() const;
 
- ::GlobalNamespace::IMultiplayerSessionManager __declspec(property(get=__get__multiplayerSessionManager, put=__set__multiplayerSessionManager))  _multiplayerSessionManager;
+ GlobalNamespace::IMultiplayerSessionManager __declspec(property(get=__get__multiplayerSessionManager, put=__set__multiplayerSessionManager))  _multiplayerSessionManager;
 
-constexpr void __set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager value) ;
+constexpr void __set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager value) ;
 
-constexpr ::GlobalNamespace::IMultiplayerSessionManager __get__multiplayerSessionManager() const;
+constexpr GlobalNamespace::IMultiplayerSessionManager __get__multiplayerSessionManager() const;
 
- ::System::Action_2<::GlobalNamespace::MultiplayerLevelCompletionResults,::System::Collections::Generic::Dictionary_2<::StringW,::GlobalNamespace::MultiplayerLevelCompletionResults>> __declspec(property(get=__get_allResultsCollectedEvent, put=__set_allResultsCollectedEvent))  allResultsCollectedEvent;
+ System::Action_2<GlobalNamespace::MultiplayerLevelCompletionResults,System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::MultiplayerLevelCompletionResults>> __declspec(property(get=__get_allResultsCollectedEvent, put=__set_allResultsCollectedEvent))  allResultsCollectedEvent;
 
-constexpr void __set_allResultsCollectedEvent(::System::Action_2<::GlobalNamespace::MultiplayerLevelCompletionResults,::System::Collections::Generic::Dictionary_2<::StringW,::GlobalNamespace::MultiplayerLevelCompletionResults>> value) ;
+constexpr void __set_allResultsCollectedEvent(System::Action_2<GlobalNamespace::MultiplayerLevelCompletionResults,System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::MultiplayerLevelCompletionResults>> value) ;
 
-constexpr ::System::Action_2<::GlobalNamespace::MultiplayerLevelCompletionResults,::System::Collections::Generic::Dictionary_2<::StringW,::GlobalNamespace::MultiplayerLevelCompletionResults>> __get_allResultsCollectedEvent() const;
+constexpr System::Action_2<GlobalNamespace::MultiplayerLevelCompletionResults,System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::MultiplayerLevelCompletionResults>> __get_allResultsCollectedEvent() const;
 
- ::System::Collections::Generic::Dictionary_2<::StringW,::GlobalNamespace::MultiplayerLevelCompletionResults> __declspec(property(get=__get__otherPlayersCompletionResults, put=__set__otherPlayersCompletionResults))  _otherPlayersCompletionResults;
+ System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::MultiplayerLevelCompletionResults> __declspec(property(get=__get__otherPlayersCompletionResults, put=__set__otherPlayersCompletionResults))  _otherPlayersCompletionResults;
 
-constexpr void __set__otherPlayersCompletionResults(::System::Collections::Generic::Dictionary_2<::StringW,::GlobalNamespace::MultiplayerLevelCompletionResults> value) ;
+constexpr void __set__otherPlayersCompletionResults(System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::MultiplayerLevelCompletionResults> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::StringW,::GlobalNamespace::MultiplayerLevelCompletionResults> __get__otherPlayersCompletionResults() const;
+constexpr System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::MultiplayerLevelCompletionResults> __get__otherPlayersCompletionResults() const;
 
- ::GlobalNamespace::MultiplayerLevelCompletionResults __declspec(property(get=__get__localPlayerResults, put=__set__localPlayerResults))  _localPlayerResults;
+ GlobalNamespace::MultiplayerLevelCompletionResults __declspec(property(get=__get__localPlayerResults, put=__set__localPlayerResults))  _localPlayerResults;
 
-constexpr void __set__localPlayerResults(::GlobalNamespace::MultiplayerLevelCompletionResults value) ;
+constexpr void __set__localPlayerResults(GlobalNamespace::MultiplayerLevelCompletionResults value) ;
 
-constexpr ::GlobalNamespace::MultiplayerLevelCompletionResults __get__localPlayerResults() const;
+constexpr GlobalNamespace::MultiplayerLevelCompletionResults __get__localPlayerResults() const;
 
  bool __declspec(property(get=__get__gameFinishReported, put=__set__gameFinishReported))  _gameFinishReported;
 
@@ -271,27 +270,27 @@ static constexpr float_t  kMinSceneDuration{2};
 
  bool __declspec(property(get=get_gameResultsReady))  gameResultsReady;
 
- ::System::Collections::Generic::Dictionary_2<::StringW,::GlobalNamespace::MultiplayerLevelCompletionResults> __declspec(property(get=get_otherPlayersCompletionResults))  otherPlayersCompletionResults;
+ System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::MultiplayerLevelCompletionResults> __declspec(property(get=get_otherPlayersCompletionResults))  otherPlayersCompletionResults;
 
- ::GlobalNamespace::MultiplayerLevelCompletionResults __declspec(property(get=get_localPlayerResults))  localPlayerResults;
+ GlobalNamespace::MultiplayerLevelCompletionResults __declspec(property(get=get_localPlayerResults))  localPlayerResults;
 
 
 // Methods
 
 /// @brief Method add_allResultsCollectedEvent addr 0x20d45a4 size 0xb0 virtual false final false
- void add_allResultsCollectedEvent(::System::Action_2<::GlobalNamespace::MultiplayerLevelCompletionResults,::System::Collections::Generic::Dictionary_2<::StringW,::GlobalNamespace::MultiplayerLevelCompletionResults>> value) ;
+ void add_allResultsCollectedEvent(System::Action_2<GlobalNamespace::MultiplayerLevelCompletionResults,System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::MultiplayerLevelCompletionResults>> value) ;
 
 /// @brief Method remove_allResultsCollectedEvent addr 0x20d4654 size 0xb0 virtual false final false
- void remove_allResultsCollectedEvent(::System::Action_2<::GlobalNamespace::MultiplayerLevelCompletionResults,::System::Collections::Generic::Dictionary_2<::StringW,::GlobalNamespace::MultiplayerLevelCompletionResults>> value) ;
+ void remove_allResultsCollectedEvent(System::Action_2<GlobalNamespace::MultiplayerLevelCompletionResults,System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::MultiplayerLevelCompletionResults>> value) ;
 
 /// @brief Method get_gameResultsReady addr 0x20d4704 size 0x8 virtual false final false
  bool get_gameResultsReady() ;
 
 /// @brief Method get_otherPlayersCompletionResults addr 0x20d470c size 0x8 virtual false final false
- ::System::Collections::Generic::Dictionary_2<::StringW,::GlobalNamespace::MultiplayerLevelCompletionResults> get_otherPlayersCompletionResults() ;
+ System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::MultiplayerLevelCompletionResults> get_otherPlayersCompletionResults() ;
 
 /// @brief Method get_localPlayerResults addr 0x20d4714 size 0x8 virtual false final false
- ::GlobalNamespace::MultiplayerLevelCompletionResults get_localPlayerResults() ;
+ GlobalNamespace::MultiplayerLevelCompletionResults get_localPlayerResults() ;
 
 /// @brief Method Start addr 0x20d471c size 0x260 virtual false final false
  void Start() ;
@@ -300,16 +299,16 @@ static constexpr float_t  kMinSceneDuration{2};
  void OnDestroy() ;
 
 /// @brief Method StartLevelFinished addr 0x20d4be4 size 0x74 virtual false final false
- ::System::Collections::IEnumerator StartLevelFinished(::GlobalNamespace::MultiplayerLevelCompletionResults localPlayerResults) ;
+ System::Collections::IEnumerator StartLevelFinished(GlobalNamespace::MultiplayerLevelCompletionResults localPlayerResults) ;
 
 /// @brief Method HandlePlayerDidFinish addr 0x20d4c80 size 0x20 virtual false final false
- void HandlePlayerDidFinish(::GlobalNamespace::MultiplayerLevelCompletionResults levelCompletionResults) ;
+ void HandlePlayerDidFinish(GlobalNamespace::MultiplayerLevelCompletionResults levelCompletionResults) ;
 
 /// @brief Method HandlePlayerNetworkDidFailed addr 0x20d4ca0 size 0x34 virtual false final false
- void HandlePlayerNetworkDidFailed(::GlobalNamespace::MultiplayerLevelCompletionResults levelCompletionResults) ;
+ void HandlePlayerNetworkDidFailed(GlobalNamespace::MultiplayerLevelCompletionResults levelCompletionResults) ;
 
 /// @brief Method HandleRpcLevelFinished addr 0x20d4cd4 size 0x68 virtual false final false
- void HandleRpcLevelFinished(::StringW userId, ::GlobalNamespace::MultiplayerLevelCompletionResults results) ;
+ void HandleRpcLevelFinished(::StringW userId, GlobalNamespace::MultiplayerLevelCompletionResults results) ;
 
 // Ctor Parameters []
 explicit MultiplayerLevelFinishedController() ;
@@ -321,8 +320,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerLevelFinishedController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerLevelFinishedController, "", "MultiplayerLevelFinishedController");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19, "", "MultiplayerLevelFinishedController/<StartLevelFinished>d__19");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19, "", "MultiplayerLevelFinishedController/<StartLevelFinished>d__19");
+NEED_NO_BOX(GlobalNamespace::MultiplayerLevelFinishedController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelFinishedController, "", "MultiplayerLevelFinishedController");

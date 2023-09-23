@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine::Yoga {
 struct YogaSize;
 }
@@ -53,12 +52,11 @@ constexpr explicit MeasureOutput(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 // Methods
 
 /// @brief Method Make addr 0x2d2dc14 size 0x4 virtual false final false
-static ::UnityEngine::Yoga::YogaSize Make(float_t width, float_t height) ;
+static UnityEngine::Yoga::YogaSize Make(float_t width, float_t height) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Yoga
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Yoga::MeasureOutput);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Yoga::MeasureOutput, "UnityEngine.Yoga", "MeasureOutput");
+NEED_NO_BOX(UnityEngine::Yoga::MeasureOutput);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Yoga::MeasureOutput, "UnityEngine.Yoga", "MeasureOutput");

@@ -3,7 +3,6 @@
 #include "System/IO/zzzz__IOException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
@@ -20,7 +19,7 @@ namespace System::IO {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3557))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3552))
 // CS Name: System.IO.FileLoadException
-class CORDL_TYPE FileLoadException : public ::System::IO::IOException {
+class CORDL_TYPE FileLoadException : public System::IO::IOException {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr FileLoadException(FileLoadException const& ) noexcept = default;
 constexpr FileLoadException(FileLoadException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FileLoadException(void* ptr) noexcept : ::System::IO::IOException(ptr) {
+constexpr explicit FileLoadException(void* ptr) noexcept : System::IO::IOException(ptr) {
 }
 
 
@@ -104,14 +103,14 @@ explicit FileLoadException(::StringW message) ;
 /// @brief Method ToString addr 0x238f118 size 0x1e4 virtual true final false
  ::StringW ToString() ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit FileLoadException(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit FileLoadException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x238f2fc size 0xb0 virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method GetObjectData addr 0x238f3ac size 0x118 virtual true final false
- void GetObjectData(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void GetObjectData(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method FormatFileLoadExceptionMessage addr 0x238f094 size 0x74 virtual false final false
 static ::StringW FormatFileLoadExceptionMessage(::StringW fileName, int32_t hResult) ;
@@ -120,6 +119,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::IO
-} // end anonymous namespace
-NEED_NO_BOX(::System::IO::FileLoadException);
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::FileLoadException, "System.IO", "FileLoadException");
+NEED_NO_BOX(System::IO::FileLoadException);
+DEFINE_IL2CPP_ARG_TYPE(System::IO::FileLoadException, "System.IO", "FileLoadException");

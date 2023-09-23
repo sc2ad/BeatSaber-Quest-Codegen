@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__ApplicationInviteList_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
 class ApplicationInviteList;
 }
@@ -14,10 +13,10 @@ class MessageWithApplicationInviteList;
 // Type: Oculus.Platform::MessageWithApplicationInviteList
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13386)), TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4427 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13386)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4427 }), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13212))
 // CS Name: Oculus.Platform.MessageWithApplicationInviteList
-class CORDL_TYPE MessageWithApplicationInviteList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::ApplicationInviteList> {
+class CORDL_TYPE MessageWithApplicationInviteList : public Oculus::Platform::Message_1<Oculus::Platform::Models::ApplicationInviteList> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr MessageWithApplicationInviteList(MessageWithApplicationInviteList cons
 constexpr MessageWithApplicationInviteList(MessageWithApplicationInviteList&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MessageWithApplicationInviteList(void* ptr) noexcept : ::Oculus::Platform::Message_1<::Oculus::Platform::Models::ApplicationInviteList>(ptr) {
+constexpr explicit MessageWithApplicationInviteList(void* ptr) noexcept : Oculus::Platform::Message_1<Oculus::Platform::Models::ApplicationInviteList>(ptr) {
 }
 
 
@@ -60,15 +59,14 @@ explicit MessageWithApplicationInviteList(::cordl_internals::intptr_t c_message)
  void _ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method GetApplicationInviteList addr 0x257feb8 size 0x3c virtual true final false
- ::Oculus::Platform::Models::ApplicationInviteList GetApplicationInviteList() ;
+ Oculus::Platform::Models::ApplicationInviteList GetApplicationInviteList() ;
 
 /// @brief Method GetDataFromMessage addr 0x257fef4 size 0x9c virtual true final false
- ::Oculus::Platform::Models::ApplicationInviteList GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
+ Oculus::Platform::Models::ApplicationInviteList GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::MessageWithApplicationInviteList);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithApplicationInviteList, "Oculus.Platform", "MessageWithApplicationInviteList");
+NEED_NO_BOX(Oculus::Platform::MessageWithApplicationInviteList);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithApplicationInviteList, "Oculus.Platform", "MessageWithApplicationInviteList");

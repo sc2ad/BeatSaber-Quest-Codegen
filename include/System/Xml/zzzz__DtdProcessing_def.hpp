@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Xml {
 struct DtdProcessing;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Prohibit offset 0
-static ::System::Xml::DtdProcessing const Prohibit;
+static System::Xml::DtdProcessing const Prohibit;
 
 /// @brief Field Ignore offset 0
-static ::System::Xml::DtdProcessing const Ignore;
+static System::Xml::DtdProcessing const Ignore;
 
 /// @brief Field Parse offset 0
-static ::System::Xml::DtdProcessing const Parse;
+static System::Xml::DtdProcessing const Parse;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::DtdProcessing, "System.Xml", "DtdProcessing");
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::DtdProcessing, "System.Xml", "DtdProcessing");

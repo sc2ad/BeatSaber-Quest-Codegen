@@ -8,23 +8,22 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System {
-template<typename T>
-class Predicate_1;
-}
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
-namespace UnityEngine::InputSystem::Layouts {
-struct ____UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem;
+namespace System {
+template<typename T>
+class Predicate_1;
 }
 namespace UnityEngine::InputSystem::Layouts {
-struct InputDeviceDescription;
+struct UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class InputDeviceExecuteCommandDelegate;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct InputDeviceDescription;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
@@ -44,59 +43,59 @@ template<typename T>
 struct Nullable_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
-struct InternedString;
-}
-namespace UnityEngine::InputSystem::Utilities {
 struct PrimitiveValue;
 }
 namespace UnityEngine::InputSystem::Layouts {
-class ____UnityEngine__InputSystem__Layouts__InputControlLayout__Builder;
+class UnityEngine__InputSystem__Layouts__InputControlLayout__Builder;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct InternedString;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::HID {
-struct ____UnityEngine__InputSystem__HID__HID__Button;
+struct UnityEngine__InputSystem__HID__HID__Button;
 }
 namespace UnityEngine::InputSystem::HID {
-struct ____UnityEngine__InputSystem__HID__HID__GenericDesktop;
+struct UnityEngine__InputSystem__HID__HID__GenericDesktop;
 }
 namespace UnityEngine::InputSystem::HID {
-struct ____UnityEngine__InputSystem__HID__HID__HIDCollectionType;
+struct UnityEngine__InputSystem__HID__HID__HIDCollectionType;
 }
 namespace UnityEngine::InputSystem::HID {
-struct ____UnityEngine__InputSystem__HID__HID__HIDElementFlags;
+struct UnityEngine__InputSystem__HID__HID__HIDElementFlags;
 }
 namespace UnityEngine::InputSystem::HID {
-struct ____UnityEngine__InputSystem__HID__HID__HIDReportType;
+struct UnityEngine__InputSystem__HID__HID__HIDReportType;
 }
 namespace UnityEngine::InputSystem::HID {
-struct ____UnityEngine__InputSystem__HID__HID__Simulation;
+struct UnityEngine__InputSystem__HID__HID__Simulation;
 }
 namespace UnityEngine::InputSystem::HID {
-struct ____UnityEngine__InputSystem__HID__HID__UsagePage;
+struct UnityEngine__InputSystem__HID__HID__UsagePage;
 }
 namespace GlobalNamespace {
-class ______UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c;
+class UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c;
 }
 namespace UnityEngine::InputSystem::HID {
 class HID;
 }
 namespace UnityEngine::InputSystem::HID {
-class ____UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder;
+class UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder;
 }
 namespace UnityEngine::InputSystem::HID {
-class ____UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0;
+class UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0;
 }
 namespace UnityEngine::InputSystem::HID {
-struct ____UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor;
+struct UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor;
 }
 namespace UnityEngine::InputSystem::HID {
-struct ____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor;
+struct UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor;
 }
 namespace UnityEngine::InputSystem::HID {
-struct ____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder;
+struct UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder;
 }
 namespace UnityEngine::InputSystem::HID {
-struct ____UnityEngine__InputSystem__HID__HID__HIDElementDescriptor;
+struct UnityEngine__InputSystem__HID__HID__HIDElementDescriptor;
 }
 // Type: ::<>c
 namespace GlobalNamespace {
@@ -104,83 +103,83 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6474))
 // CS Name: UnityEngine.InputSystem.HID.HID::HIDLayoutBuilder::<>c
-class CORDL_TYPE ______UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~______UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c() = default;
+virtual ~UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "______UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c", modifiers: " const&", def_value: None }]
-constexpr ______UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c(______UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c(UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "______UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c", modifiers: "&&", def_value: None }]
-constexpr ______UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c(______UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c(UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ______UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ______UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ______UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c& operator=(void* o) noexcept {
+  constexpr UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ______UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c& operator=(______UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c&& o) noexcept = default;
-  constexpr ______UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c& operator=(______UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c const& o) noexcept = default;
+  constexpr UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c& operator=(UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c&& o) noexcept = default;
+  constexpr UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c& operator=(UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c const& o) noexcept = default;
                 
 
 
 // Fields
 
-static ::GlobalNamespace::______UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c __declspec(property(get=__get___9, put=__set___9))  __9;
+static GlobalNamespace::UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c __declspec(property(get=__get___9, put=__set___9))  __9;
 
-static void __set___9(::GlobalNamespace::______UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c value) ;
+static void __set___9(GlobalNamespace::UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c value) ;
 
-static ::GlobalNamespace::______UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c __get___9() ;
+static GlobalNamespace::UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c __get___9() ;
 
-static ::System::Predicate_1<::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementDescriptor> __declspec(property(get=__get___9__4_0, put=__set___9__4_0))  __9__4_0;
+static System::Predicate_1<UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor> __declspec(property(get=__get___9__4_0, put=__set___9__4_0))  __9__4_0;
 
-static void __set___9__4_0(::System::Predicate_1<::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementDescriptor> value) ;
+static void __set___9__4_0(System::Predicate_1<UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor> value) ;
 
-static ::System::Predicate_1<::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementDescriptor> __get___9__4_0() ;
+static System::Predicate_1<UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor> __get___9__4_0() ;
 
-static ::System::Predicate_1<::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementDescriptor> __declspec(property(get=__get___9__4_1, put=__set___9__4_1))  __9__4_1;
+static System::Predicate_1<UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor> __declspec(property(get=__get___9__4_1, put=__set___9__4_1))  __9__4_1;
 
-static void __set___9__4_1(::System::Predicate_1<::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementDescriptor> value) ;
+static void __set___9__4_1(System::Predicate_1<UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor> value) ;
 
-static ::System::Predicate_1<::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementDescriptor> __get___9__4_1() ;
+static System::Predicate_1<UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor> __get___9__4_1() ;
 
-static ::System::Func_2<::UnityEngine::InputSystem::Layouts::____UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem,::StringW> __declspec(property(get=__get___9__4_2, put=__set___9__4_2))  __9__4_2;
+static System::Func_2<UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem,::StringW> __declspec(property(get=__get___9__4_2, put=__set___9__4_2))  __9__4_2;
 
-static void __set___9__4_2(::System::Func_2<::UnityEngine::InputSystem::Layouts::____UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem,::StringW> value) ;
+static void __set___9__4_2(System::Func_2<UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem,::StringW> value) ;
 
-static ::System::Func_2<::UnityEngine::InputSystem::Layouts::____UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem,::StringW> __get___9__4_2() ;
+static System::Func_2<UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem,::StringW> __get___9__4_2() ;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ______UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c() ;
+explicit UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c() ;
 
 /// @brief Method .ctor addr 0x294b144 size 0x8 virtual false final false
  void _ctor() ;
 
 /// @brief Method <Build>b__4_0 addr 0x294b14c size 0x24 virtual false final false
- bool _Build_b__4_0(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementDescriptor element) ;
+ bool _Build_b__4_0(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor element) ;
 
 /// @brief Method <Build>b__4_1 addr 0x294b170 size 0x24 virtual false final false
- bool _Build_b__4_1(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementDescriptor element) ;
+ bool _Build_b__4_1(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor element) ;
 
 /// @brief Method <Build>b__4_2 addr 0x294b194 size 0xc virtual false final false
- ::StringW _Build_b__4_2(::UnityEngine::InputSystem::Layouts::____UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem x) ;
+ ::StringW _Build_b__4_2(UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem x) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -192,39 +191,39 @@ namespace UnityEngine::InputSystem::HID {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6475))
 // CS Name: UnityEngine.InputSystem.HID.HID::HIDLayoutBuilder
-class CORDL_TYPE ____UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using __c = ::GlobalNamespace::______UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c;
+using __c = GlobalNamespace::UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x58};
 
-virtual ~____UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder() = default;
+virtual ~UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder(____UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder(UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder(____UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder(UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder& operator=(void* o) noexcept {
+  constexpr UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder& operator=(____UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder&& o) noexcept = default;
-  constexpr ____UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder& operator=(____UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder const& o) noexcept = default;
+  constexpr UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder& operator=(UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder&& o) noexcept = default;
+  constexpr UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder& operator=(UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder const& o) noexcept = default;
                 
 
 
@@ -236,11 +235,11 @@ constexpr void __set_displayName(::StringW value) ;
 
 constexpr ::StringW __get_displayName() const;
 
- ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor __declspec(property(get=__get_hidDescriptor, put=__set_hidDescriptor))  hidDescriptor;
+ UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor __declspec(property(get=__get_hidDescriptor, put=__set_hidDescriptor))  hidDescriptor;
 
-constexpr void __set_hidDescriptor(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor value) ;
+constexpr void __set_hidDescriptor(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor value) ;
 
-constexpr ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor __get_hidDescriptor() const;
+constexpr UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor __get_hidDescriptor() const;
 
  ::StringW __declspec(property(get=__get_parentLayout, put=__set_parentLayout))  parentLayout;
 
@@ -248,20 +247,20 @@ constexpr void __set_parentLayout(::StringW value) ;
 
 constexpr ::StringW __get_parentLayout() const;
 
- ::System::Type __declspec(property(get=__get_deviceType, put=__set_deviceType))  deviceType;
+ System::Type __declspec(property(get=__get_deviceType, put=__set_deviceType))  deviceType;
 
-constexpr void __set_deviceType(::System::Type value) ;
+constexpr void __set_deviceType(System::Type value) ;
 
-constexpr ::System::Type __get_deviceType() const;
+constexpr System::Type __get_deviceType() const;
 
 
 // Methods
 
 /// @brief Method Build addr 0x2949470 size 0xcac virtual false final false
- ::UnityEngine::InputSystem::Layouts::InputControlLayout Build() ;
+ UnityEngine::InputSystem::Layouts::InputControlLayout Build() ;
 
 // Ctor Parameters []
-explicit ____UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder() ;
+explicit UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder() ;
 
 /// @brief Method .ctor addr 0x294775c size 0x8 virtual false final false
  void _ctor() ;
@@ -276,20 +275,20 @@ namespace UnityEngine::InputSystem::HID {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6476))
 // CS Name: UnityEngine.InputSystem.HID.HID::HIDReportType
-struct CORDL_TYPE ____UnityEngine__InputSystem__HID__HID__HIDReportType : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__InputSystem__HID__HID__HIDReportType : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__InputSystem__HID__HID__HIDReportType(int32_t value__) noexcept;
+constexpr UnityEngine__InputSystem__HID__HID__HIDReportType(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__InputSystem__HID__HID__HIDReportType(____UnityEngine__InputSystem__HID__HID__HIDReportType const&) = default;
-                    constexpr ____UnityEngine__InputSystem__HID__HID__HIDReportType(____UnityEngine__InputSystem__HID__HID__HIDReportType&&) = default;
-                    constexpr ____UnityEngine__InputSystem__HID__HID__HIDReportType& operator=(____UnityEngine__InputSystem__HID__HID__HIDReportType const& o) {
+                    constexpr UnityEngine__InputSystem__HID__HID__HIDReportType(UnityEngine__InputSystem__HID__HID__HIDReportType const&) = default;
+                    constexpr UnityEngine__InputSystem__HID__HID__HIDReportType(UnityEngine__InputSystem__HID__HID__HIDReportType&&) = default;
+                    constexpr UnityEngine__InputSystem__HID__HID__HIDReportType& operator=(UnityEngine__InputSystem__HID__HID__HIDReportType const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__InputSystem__HID__HID__HIDReportType& operator=(____UnityEngine__InputSystem__HID__HID__HIDReportType&& o) noexcept {
+                    constexpr UnityEngine__InputSystem__HID__HID__HIDReportType& operator=(UnityEngine__InputSystem__HID__HID__HIDReportType&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -302,7 +301,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__InputSystem__HID__HID__HIDReportType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__InputSystem__HID__HID__HIDReportType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -310,7 +309,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__InputSystem__HID__HID__HIDReportType_Unwrapped : int32_t {
+enum class __UnityEngine__InputSystem__HID__HID__HIDReportType_Unwrapped : int32_t {
 __Unknown = 0,
 __Input = 1,
 __Output = 2,
@@ -318,8 +317,8 @@ __Feature = 3,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__InputSystem__HID__HID__HIDReportType_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__InputSystem__HID__HID__HIDReportType_Unwrapped>(__instance);
+constexpr operator __UnityEngine__InputSystem__HID__HID__HIDReportType_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__InputSystem__HID__HID__HIDReportType_Unwrapped>(__instance);
 }
 
 
@@ -332,16 +331,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDReportType const Unknown;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDReportType const Unknown;
 
 /// @brief Field Input offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDReportType const Input;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDReportType const Input;
 
 /// @brief Field Output offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDReportType const Output;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDReportType const Output;
 
 /// @brief Field Feature offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDReportType const Feature;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDReportType const Feature;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -353,20 +352,20 @@ namespace UnityEngine::InputSystem::HID {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6477))
 // CS Name: UnityEngine.InputSystem.HID.HID::HIDCollectionType
-struct CORDL_TYPE ____UnityEngine__InputSystem__HID__HID__HIDCollectionType : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__InputSystem__HID__HID__HIDCollectionType : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__InputSystem__HID__HID__HIDCollectionType(int32_t value__) noexcept;
+constexpr UnityEngine__InputSystem__HID__HID__HIDCollectionType(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__InputSystem__HID__HID__HIDCollectionType(____UnityEngine__InputSystem__HID__HID__HIDCollectionType const&) = default;
-                    constexpr ____UnityEngine__InputSystem__HID__HID__HIDCollectionType(____UnityEngine__InputSystem__HID__HID__HIDCollectionType&&) = default;
-                    constexpr ____UnityEngine__InputSystem__HID__HID__HIDCollectionType& operator=(____UnityEngine__InputSystem__HID__HID__HIDCollectionType const& o) {
+                    constexpr UnityEngine__InputSystem__HID__HID__HIDCollectionType(UnityEngine__InputSystem__HID__HID__HIDCollectionType const&) = default;
+                    constexpr UnityEngine__InputSystem__HID__HID__HIDCollectionType(UnityEngine__InputSystem__HID__HID__HIDCollectionType&&) = default;
+                    constexpr UnityEngine__InputSystem__HID__HID__HIDCollectionType& operator=(UnityEngine__InputSystem__HID__HID__HIDCollectionType const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__InputSystem__HID__HID__HIDCollectionType& operator=(____UnityEngine__InputSystem__HID__HID__HIDCollectionType&& o) noexcept {
+                    constexpr UnityEngine__InputSystem__HID__HID__HIDCollectionType& operator=(UnityEngine__InputSystem__HID__HID__HIDCollectionType&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -379,7 +378,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__InputSystem__HID__HID__HIDCollectionType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__InputSystem__HID__HID__HIDCollectionType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -387,7 +386,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__InputSystem__HID__HID__HIDCollectionType_Unwrapped : int32_t {
+enum class __UnityEngine__InputSystem__HID__HID__HIDCollectionType_Unwrapped : int32_t {
 __Physical = 0,
 __Application = 1,
 __Logical = 2,
@@ -398,8 +397,8 @@ __UsageModifier = 6,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__InputSystem__HID__HID__HIDCollectionType_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__InputSystem__HID__HID__HIDCollectionType_Unwrapped>(__instance);
+constexpr operator __UnityEngine__InputSystem__HID__HID__HIDCollectionType_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__InputSystem__HID__HID__HIDCollectionType_Unwrapped>(__instance);
 }
 
 
@@ -412,25 +411,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Physical offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDCollectionType const Physical;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDCollectionType const Physical;
 
 /// @brief Field Application offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDCollectionType const Application;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDCollectionType const Application;
 
 /// @brief Field Logical offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDCollectionType const Logical;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDCollectionType const Logical;
 
 /// @brief Field Report offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDCollectionType const Report;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDCollectionType const Report;
 
 /// @brief Field NamedArray offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDCollectionType const NamedArray;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDCollectionType const NamedArray;
 
 /// @brief Field UsageSwitch offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDCollectionType const UsageSwitch;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDCollectionType const UsageSwitch;
 
 /// @brief Field UsageModifier offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDCollectionType const UsageModifier;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDCollectionType const UsageModifier;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -442,20 +441,20 @@ namespace UnityEngine::InputSystem::HID {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6478))
 // CS Name: UnityEngine.InputSystem.HID.HID::HIDElementFlags
-struct CORDL_TYPE ____UnityEngine__InputSystem__HID__HID__HIDElementFlags : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__InputSystem__HID__HID__HIDElementFlags : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__InputSystem__HID__HID__HIDElementFlags(int32_t value__) noexcept;
+constexpr UnityEngine__InputSystem__HID__HID__HIDElementFlags(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__InputSystem__HID__HID__HIDElementFlags(____UnityEngine__InputSystem__HID__HID__HIDElementFlags const&) = default;
-                    constexpr ____UnityEngine__InputSystem__HID__HID__HIDElementFlags(____UnityEngine__InputSystem__HID__HID__HIDElementFlags&&) = default;
-                    constexpr ____UnityEngine__InputSystem__HID__HID__HIDElementFlags& operator=(____UnityEngine__InputSystem__HID__HID__HIDElementFlags const& o) {
+                    constexpr UnityEngine__InputSystem__HID__HID__HIDElementFlags(UnityEngine__InputSystem__HID__HID__HIDElementFlags const&) = default;
+                    constexpr UnityEngine__InputSystem__HID__HID__HIDElementFlags(UnityEngine__InputSystem__HID__HID__HIDElementFlags&&) = default;
+                    constexpr UnityEngine__InputSystem__HID__HID__HIDElementFlags& operator=(UnityEngine__InputSystem__HID__HID__HIDElementFlags const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__InputSystem__HID__HID__HIDElementFlags& operator=(____UnityEngine__InputSystem__HID__HID__HIDElementFlags&& o) noexcept {
+                    constexpr UnityEngine__InputSystem__HID__HID__HIDElementFlags& operator=(UnityEngine__InputSystem__HID__HID__HIDElementFlags&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -468,7 +467,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__InputSystem__HID__HID__HIDElementFlags(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__InputSystem__HID__HID__HIDElementFlags(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -476,7 +475,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__InputSystem__HID__HID__HIDElementFlags_Unwrapped : int32_t {
+enum class __UnityEngine__InputSystem__HID__HID__HIDElementFlags_Unwrapped : int32_t {
 __Constant = 1,
 __Variable = 2,
 __Relative = 4,
@@ -489,8 +488,8 @@ __BufferedBytes = 256,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__InputSystem__HID__HID__HIDElementFlags_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__InputSystem__HID__HID__HIDElementFlags_Unwrapped>(__instance);
+constexpr operator __UnityEngine__InputSystem__HID__HID__HIDElementFlags_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__InputSystem__HID__HID__HIDElementFlags_Unwrapped>(__instance);
 }
 
 
@@ -503,31 +502,31 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Constant offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementFlags const Constant;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementFlags const Constant;
 
 /// @brief Field Variable offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementFlags const Variable;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementFlags const Variable;
 
 /// @brief Field Relative offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementFlags const Relative;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementFlags const Relative;
 
 /// @brief Field Wrap offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementFlags const Wrap;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementFlags const Wrap;
 
 /// @brief Field NonLinear offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementFlags const NonLinear;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementFlags const NonLinear;
 
 /// @brief Field NoPreferred offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementFlags const NoPreferred;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementFlags const NoPreferred;
 
 /// @brief Field NullState offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementFlags const NullState;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementFlags const NullState;
 
 /// @brief Field Volatile offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementFlags const Volatile;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementFlags const Volatile;
 
 /// @brief Field BufferedBytes offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementFlags const BufferedBytes;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementFlags const BufferedBytes;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -539,20 +538,20 @@ namespace UnityEngine::InputSystem::HID {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6479))
 // CS Name: UnityEngine.InputSystem.HID.HID::HIDElementDescriptor
-struct CORDL_TYPE ____UnityEngine__InputSystem__HID__HID__HIDElementDescriptor : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__InputSystem__HID__HID__HIDElementDescriptor : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "usage", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "usagePage", ty: "::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage", modifiers: "", def_value: None }, CppParam { name: "unit", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "unitExponent", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "logicalMin", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "logicalMax", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "physicalMin", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "physicalMax", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "reportType", ty: "::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDReportType", modifiers: "", def_value: None }, CppParam { name: "collectionIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "reportId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "reportSizeInBits", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "reportOffsetInBits", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementFlags", modifiers: "", def_value: None }, CppParam { name: "usageMin", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "usageMax", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__InputSystem__HID__HID__HIDElementDescriptor(int32_t usage, ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage usagePage, int32_t unit, int32_t unitExponent, int32_t logicalMin, int32_t logicalMax, int32_t physicalMin, int32_t physicalMax, ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDReportType reportType, int32_t collectionIndex, int32_t reportId, int32_t reportSizeInBits, int32_t reportOffsetInBits, ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementFlags flags, ::System::Nullable_1<int32_t> usageMin, ::System::Nullable_1<int32_t> usageMax) noexcept;
+// Ctor Parameters [CppParam { name: "usage", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "usagePage", ty: "UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage", modifiers: "", def_value: None }, CppParam { name: "unit", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "unitExponent", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "logicalMin", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "logicalMax", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "physicalMin", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "physicalMax", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "reportType", ty: "UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDReportType", modifiers: "", def_value: None }, CppParam { name: "collectionIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "reportId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "reportSizeInBits", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "reportOffsetInBits", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementFlags", modifiers: "", def_value: None }, CppParam { name: "usageMin", ty: "System::Nullable_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "usageMax", ty: "System::Nullable_1<int32_t>", modifiers: "", def_value: None }]
+constexpr UnityEngine__InputSystem__HID__HID__HIDElementDescriptor(int32_t usage, UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage usagePage, int32_t unit, int32_t unitExponent, int32_t logicalMin, int32_t logicalMax, int32_t physicalMin, int32_t physicalMax, UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDReportType reportType, int32_t collectionIndex, int32_t reportId, int32_t reportSizeInBits, int32_t reportOffsetInBits, UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementFlags flags, System::Nullable_1<int32_t> usageMin, System::Nullable_1<int32_t> usageMax) noexcept;
 
 
-                    constexpr ____UnityEngine__InputSystem__HID__HID__HIDElementDescriptor(____UnityEngine__InputSystem__HID__HID__HIDElementDescriptor const&) = default;
-                    constexpr ____UnityEngine__InputSystem__HID__HID__HIDElementDescriptor(____UnityEngine__InputSystem__HID__HID__HIDElementDescriptor&&) = default;
-                    constexpr ____UnityEngine__InputSystem__HID__HID__HIDElementDescriptor& operator=(____UnityEngine__InputSystem__HID__HID__HIDElementDescriptor const& o) {
+                    constexpr UnityEngine__InputSystem__HID__HID__HIDElementDescriptor(UnityEngine__InputSystem__HID__HID__HIDElementDescriptor const&) = default;
+                    constexpr UnityEngine__InputSystem__HID__HID__HIDElementDescriptor(UnityEngine__InputSystem__HID__HID__HIDElementDescriptor&&) = default;
+                    constexpr UnityEngine__InputSystem__HID__HID__HIDElementDescriptor& operator=(UnityEngine__InputSystem__HID__HID__HIDElementDescriptor const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__InputSystem__HID__HID__HIDElementDescriptor& operator=(____UnityEngine__InputSystem__HID__HID__HIDElementDescriptor&& o) noexcept {
+                    constexpr UnityEngine__InputSystem__HID__HID__HIDElementDescriptor& operator=(UnityEngine__InputSystem__HID__HID__HIDElementDescriptor&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -565,7 +564,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x48};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__InputSystem__HID__HID__HIDElementDescriptor(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__InputSystem__HID__HID__HIDElementDescriptor(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -582,11 +581,11 @@ constexpr void __set_usage(int32_t value) ;
 
 constexpr int32_t __get_usage() const;
 
- ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage __declspec(property(get=__get_usagePage, put=__set_usagePage))  usagePage;
+ UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage __declspec(property(get=__get_usagePage, put=__set_usagePage))  usagePage;
 
-constexpr void __set_usagePage(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage value) ;
+constexpr void __set_usagePage(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage value) ;
 
-constexpr ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage __get_usagePage() const;
+constexpr UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage __get_usagePage() const;
 
  int32_t __declspec(property(get=__get_unit, put=__set_unit))  unit;
 
@@ -624,11 +623,11 @@ constexpr void __set_physicalMax(int32_t value) ;
 
 constexpr int32_t __get_physicalMax() const;
 
- ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDReportType __declspec(property(get=__get_reportType, put=__set_reportType))  reportType;
+ UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDReportType __declspec(property(get=__get_reportType, put=__set_reportType))  reportType;
 
-constexpr void __set_reportType(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDReportType value) ;
+constexpr void __set_reportType(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDReportType value) ;
 
-constexpr ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDReportType __get_reportType() const;
+constexpr UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDReportType __get_reportType() const;
 
  int32_t __declspec(property(get=__get_collectionIndex, put=__set_collectionIndex))  collectionIndex;
 
@@ -654,23 +653,23 @@ constexpr void __set_reportOffsetInBits(int32_t value) ;
 
 constexpr int32_t __get_reportOffsetInBits() const;
 
- ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementFlags __declspec(property(get=__get_flags, put=__set_flags))  flags;
+ UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementFlags __declspec(property(get=__get_flags, put=__set_flags))  flags;
 
-constexpr void __set_flags(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementFlags value) ;
+constexpr void __set_flags(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementFlags value) ;
 
-constexpr ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementFlags __get_flags() const;
+constexpr UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementFlags __get_flags() const;
 
- ::System::Nullable_1<int32_t> __declspec(property(get=__get_usageMin, put=__set_usageMin))  usageMin;
+ System::Nullable_1<int32_t> __declspec(property(get=__get_usageMin, put=__set_usageMin))  usageMin;
 
-constexpr void __set_usageMin(::System::Nullable_1<int32_t> value) ;
+constexpr void __set_usageMin(System::Nullable_1<int32_t> value) ;
 
-constexpr ::System::Nullable_1<int32_t> __get_usageMin() const;
+constexpr System::Nullable_1<int32_t> __get_usageMin() const;
 
- ::System::Nullable_1<int32_t> __declspec(property(get=__get_usageMax, put=__set_usageMax))  usageMax;
+ System::Nullable_1<int32_t> __declspec(property(get=__get_usageMax, put=__set_usageMax))  usageMax;
 
-constexpr void __set_usageMax(::System::Nullable_1<int32_t> value) ;
+constexpr void __set_usageMax(System::Nullable_1<int32_t> value) ;
 
-constexpr ::System::Nullable_1<int32_t> __get_usageMax() const;
+constexpr System::Nullable_1<int32_t> __get_usageMax() const;
 
 
 // Properties
@@ -729,7 +728,7 @@ constexpr ::System::Nullable_1<int32_t> __get_usageMax() const;
  float_t get_maxFloatValue() ;
 
 /// @brief Method Is addr 0x294a3d0 size 0x24 virtual false final false
- bool Is(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage usagePage, int32_t usage) ;
+ bool Is(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage usagePage, int32_t usage) ;
 
 /// @brief Method DetermineName addr 0x294a4e0 size 0x210 virtual false final false
  ::StringW DetermineName() ;
@@ -744,10 +743,10 @@ constexpr ::System::Nullable_1<int32_t> __get_usageMax() const;
  ::StringW DetermineLayout() ;
 
 /// @brief Method DetermineFormat addr 0x294a7ec size 0x108 virtual false final false
- ::UnityEngine::InputSystem::Utilities::FourCC DetermineFormat() ;
+ UnityEngine::InputSystem::Utilities::FourCC DetermineFormat() ;
 
 /// @brief Method DetermineUsages addr 0x294a8f4 size 0x190 virtual false final false
- ::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString> DetermineUsages() ;
+ ::ArrayW<UnityEngine::InputSystem::Utilities::InternedString> DetermineUsages() ;
 
 /// @brief Method DetermineParameters addr 0x294a11c size 0x170 virtual false final false
  ::StringW DetermineParameters() ;
@@ -759,10 +758,10 @@ constexpr ::System::Nullable_1<int32_t> __get_usageMax() const;
  ::StringW DetermineProcessors() ;
 
 /// @brief Method DetermineDefaultState addr 0x294a298 size 0xc8 virtual false final false
- ::UnityEngine::InputSystem::Utilities::PrimitiveValue DetermineDefaultState() ;
+ UnityEngine::InputSystem::Utilities::PrimitiveValue DetermineDefaultState() ;
 
 /// @brief Method AddChildControls addr 0x294aa84 size 0x65c virtual false final false
- void AddChildControls(ByRef<::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementDescriptor> element, ::StringW controlName, ByRef<::UnityEngine::InputSystem::Layouts::____UnityEngine__InputSystem__Layouts__InputControlLayout__Builder> builder) ;
+ void AddChildControls(ByRef<UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor> element, ::StringW controlName, ByRef<UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__Builder> builder) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -774,20 +773,20 @@ namespace UnityEngine::InputSystem::HID {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6480))
 // CS Name: UnityEngine.InputSystem.HID.HID::HIDCollectionDescriptor
-struct CORDL_TYPE ____UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDCollectionType", modifiers: "", def_value: None }, CppParam { name: "usage", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "usagePage", ty: "::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage", modifiers: "", def_value: None }, CppParam { name: "parent", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "childCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstChild", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDCollectionType type, int32_t usage, ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage usagePage, int32_t parent, int32_t childCount, int32_t firstChild) noexcept;
+// Ctor Parameters [CppParam { name: "type", ty: "UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDCollectionType", modifiers: "", def_value: None }, CppParam { name: "usage", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "usagePage", ty: "UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage", modifiers: "", def_value: None }, CppParam { name: "parent", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "childCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstChild", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDCollectionType type, int32_t usage, UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage usagePage, int32_t parent, int32_t childCount, int32_t firstChild) noexcept;
 
 
-                    constexpr ____UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor(____UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor const&) = default;
-                    constexpr ____UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor(____UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor&&) = default;
-                    constexpr ____UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor& operator=(____UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor const& o) {
+                    constexpr UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor(UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor const&) = default;
+                    constexpr UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor(UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor&&) = default;
+                    constexpr UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor& operator=(UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor& operator=(____UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor&& o) noexcept {
+                    constexpr UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor& operator=(UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -800,7 +799,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x18};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -811,11 +810,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDCollectionType __declspec(property(get=__get_type, put=__set_type))  type;
+ UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDCollectionType __declspec(property(get=__get_type, put=__set_type))  type;
 
-constexpr void __set_type(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDCollectionType value) ;
+constexpr void __set_type(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDCollectionType value) ;
 
-constexpr ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDCollectionType __get_type() const;
+constexpr UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDCollectionType __get_type() const;
 
  int32_t __declspec(property(get=__get_usage, put=__set_usage))  usage;
 
@@ -823,11 +822,11 @@ constexpr void __set_usage(int32_t value) ;
 
 constexpr int32_t __get_usage() const;
 
- ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage __declspec(property(get=__get_usagePage, put=__set_usagePage))  usagePage;
+ UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage __declspec(property(get=__get_usagePage, put=__set_usagePage))  usagePage;
 
-constexpr void __set_usagePage(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage value) ;
+constexpr void __set_usagePage(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage value) ;
 
-constexpr ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage __get_usagePage() const;
+constexpr UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage __get_usagePage() const;
 
  int32_t __declspec(property(get=__get_parent, put=__set_parent))  parent;
 
@@ -857,20 +856,20 @@ namespace UnityEngine::InputSystem::HID {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6481))
 // CS Name: UnityEngine.InputSystem.HID.HID::HIDDeviceDescriptor
-struct CORDL_TYPE ____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "vendorId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "productId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "usage", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "usagePage", ty: "::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage", modifiers: "", def_value: None }, CppParam { name: "inputReportSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "outputReportSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "featureReportSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "elements", ty: "::ArrayW<::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementDescriptor>", modifiers: "", def_value: None }, CppParam { name: "collections", ty: "::ArrayW<::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor>", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor(int32_t vendorId, int32_t productId, int32_t usage, ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage usagePage, int32_t inputReportSize, int32_t outputReportSize, int32_t featureReportSize, ::ArrayW<::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementDescriptor> elements, ::ArrayW<::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor> collections) noexcept;
+// Ctor Parameters [CppParam { name: "vendorId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "productId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "usage", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "usagePage", ty: "UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage", modifiers: "", def_value: None }, CppParam { name: "inputReportSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "outputReportSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "featureReportSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "elements", ty: "::ArrayW<UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor>", modifiers: "", def_value: None }, CppParam { name: "collections", ty: "::ArrayW<UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor>", modifiers: "", def_value: None }]
+constexpr UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor(int32_t vendorId, int32_t productId, int32_t usage, UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage usagePage, int32_t inputReportSize, int32_t outputReportSize, int32_t featureReportSize, ::ArrayW<UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor> elements, ::ArrayW<UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor> collections) noexcept;
 
 
-                    constexpr ____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor(____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor const&) = default;
-                    constexpr ____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor(____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor&&) = default;
-                    constexpr ____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor& operator=(____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor const& o) {
+                    constexpr UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor(UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor const&) = default;
+                    constexpr UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor(UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor&&) = default;
+                    constexpr UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor& operator=(UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor& operator=(____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor&& o) noexcept {
+                    constexpr UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor& operator=(UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -883,7 +882,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x30};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -912,11 +911,11 @@ constexpr void __set_usage(int32_t value) ;
 
 constexpr int32_t __get_usage() const;
 
- ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage __declspec(property(get=__get_usagePage, put=__set_usagePage))  usagePage;
+ UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage __declspec(property(get=__get_usagePage, put=__set_usagePage))  usagePage;
 
-constexpr void __set_usagePage(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage value) ;
+constexpr void __set_usagePage(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage value) ;
 
-constexpr ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage __get_usagePage() const;
+constexpr UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage __get_usagePage() const;
 
  int32_t __declspec(property(get=__get_inputReportSize, put=__set_inputReportSize))  inputReportSize;
 
@@ -936,17 +935,17 @@ constexpr void __set_featureReportSize(int32_t value) ;
 
 constexpr int32_t __get_featureReportSize() const;
 
- ::ArrayW<::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementDescriptor> __declspec(property(get=__get_elements, put=__set_elements))  elements;
+ ::ArrayW<UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor> __declspec(property(get=__get_elements, put=__set_elements))  elements;
 
-constexpr void __set_elements(::ArrayW<::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementDescriptor> value) ;
+constexpr void __set_elements(::ArrayW<UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor> value) ;
 
-constexpr ::ArrayW<::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementDescriptor> __get_elements() const;
+constexpr ::ArrayW<UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor> __get_elements() const;
 
- ::ArrayW<::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor> __declspec(property(get=__get_collections, put=__set_collections))  collections;
+ ::ArrayW<UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor> __declspec(property(get=__get_collections, put=__set_collections))  collections;
 
-constexpr void __set_collections(::ArrayW<::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor> value) ;
+constexpr void __set_collections(::ArrayW<UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor> value) ;
 
-constexpr ::ArrayW<::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor> __get_collections() const;
+constexpr ::ArrayW<UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor> __get_collections() const;
 
 
 // Methods
@@ -955,7 +954,7 @@ constexpr ::ArrayW<::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem
  ::StringW ToJson() ;
 
 /// @brief Method FromJson addr 0x2947764 size 0xf28 virtual false final false
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor FromJson(::StringW json) ;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor FromJson(::StringW json) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -967,20 +966,20 @@ namespace UnityEngine::InputSystem::HID {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6482))
 // CS Name: UnityEngine.InputSystem.HID.HID::HIDDeviceDescriptorBuilder
-struct CORDL_TYPE ____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "usagePage", ty: "::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage", modifiers: "", def_value: None }, CppParam { name: "usage", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_CurrentReportId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_CurrentReportType", ty: "::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDReportType", modifiers: "", def_value: None }, CppParam { name: "m_CurrentReportOffsetInBits", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Elements", ty: "::System::Collections::Generic::List_1<::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementDescriptor>", modifiers: "", def_value: None }, CppParam { name: "m_Collections", ty: "::System::Collections::Generic::List_1<::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor>", modifiers: "", def_value: None }, CppParam { name: "m_InputReportSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_OutputReportSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_FeatureReportSize", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage usagePage, int32_t usage, int32_t m_CurrentReportId, ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDReportType m_CurrentReportType, int32_t m_CurrentReportOffsetInBits, ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementDescriptor> m_Elements, ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor> m_Collections, int32_t m_InputReportSize, int32_t m_OutputReportSize, int32_t m_FeatureReportSize) noexcept;
+// Ctor Parameters [CppParam { name: "usagePage", ty: "UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage", modifiers: "", def_value: None }, CppParam { name: "usage", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_CurrentReportId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_CurrentReportType", ty: "UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDReportType", modifiers: "", def_value: None }, CppParam { name: "m_CurrentReportOffsetInBits", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Elements", ty: "System::Collections::Generic::List_1<UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor>", modifiers: "", def_value: None }, CppParam { name: "m_Collections", ty: "System::Collections::Generic::List_1<UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor>", modifiers: "", def_value: None }, CppParam { name: "m_InputReportSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_OutputReportSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_FeatureReportSize", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage usagePage, int32_t usage, int32_t m_CurrentReportId, UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDReportType m_CurrentReportType, int32_t m_CurrentReportOffsetInBits, System::Collections::Generic::List_1<UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor> m_Elements, System::Collections::Generic::List_1<UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor> m_Collections, int32_t m_InputReportSize, int32_t m_OutputReportSize, int32_t m_FeatureReportSize) noexcept;
 
 
-                    constexpr ____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder(____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder const&) = default;
-                    constexpr ____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder(____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder&&) = default;
-                    constexpr ____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder& operator=(____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder const& o) {
+                    constexpr UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder(UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder const&) = default;
+                    constexpr UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder(UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder&&) = default;
+                    constexpr UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder& operator=(UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder& operator=(____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder&& o) noexcept {
+                    constexpr UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder& operator=(UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -993,7 +992,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x38};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -1004,11 +1003,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage __declspec(property(get=__get_usagePage, put=__set_usagePage))  usagePage;
+ UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage __declspec(property(get=__get_usagePage, put=__set_usagePage))  usagePage;
 
-constexpr void __set_usagePage(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage value) ;
+constexpr void __set_usagePage(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage value) ;
 
-constexpr ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage __get_usagePage() const;
+constexpr UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage __get_usagePage() const;
 
  int32_t __declspec(property(get=__get_usage, put=__set_usage))  usage;
 
@@ -1022,11 +1021,11 @@ constexpr void __set_m_CurrentReportId(int32_t value) ;
 
 constexpr int32_t __get_m_CurrentReportId() const;
 
- ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDReportType __declspec(property(get=__get_m_CurrentReportType, put=__set_m_CurrentReportType))  m_CurrentReportType;
+ UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDReportType __declspec(property(get=__get_m_CurrentReportType, put=__set_m_CurrentReportType))  m_CurrentReportType;
 
-constexpr void __set_m_CurrentReportType(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDReportType value) ;
+constexpr void __set_m_CurrentReportType(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDReportType value) ;
 
-constexpr ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDReportType __get_m_CurrentReportType() const;
+constexpr UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDReportType __get_m_CurrentReportType() const;
 
  int32_t __declspec(property(get=__get_m_CurrentReportOffsetInBits, put=__set_m_CurrentReportOffsetInBits))  m_CurrentReportOffsetInBits;
 
@@ -1034,17 +1033,17 @@ constexpr void __set_m_CurrentReportOffsetInBits(int32_t value) ;
 
 constexpr int32_t __get_m_CurrentReportOffsetInBits() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementDescriptor> __declspec(property(get=__get_m_Elements, put=__set_m_Elements))  m_Elements;
+ System::Collections::Generic::List_1<UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor> __declspec(property(get=__get_m_Elements, put=__set_m_Elements))  m_Elements;
 
-constexpr void __set_m_Elements(::System::Collections::Generic::List_1<::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementDescriptor> value) ;
+constexpr void __set_m_Elements(System::Collections::Generic::List_1<UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementDescriptor> __get_m_Elements() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor> __get_m_Elements() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor> __declspec(property(get=__get_m_Collections, put=__set_m_Collections))  m_Collections;
+ System::Collections::Generic::List_1<UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor> __declspec(property(get=__get_m_Collections, put=__set_m_Collections))  m_Collections;
 
-constexpr void __set_m_Collections(::System::Collections::Generic::List_1<::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor> value) ;
+constexpr void __set_m_Collections(System::Collections::Generic::List_1<UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor> __get_m_Collections() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor> __get_m_Collections() const;
 
  int32_t __declspec(property(get=__get_m_InputReportSize, put=__set_m_InputReportSize))  m_InputReportSize;
 
@@ -1068,28 +1067,28 @@ constexpr int32_t __get_m_FeatureReportSize() const;
 // Methods
 
 /// @brief Method .ctor addr 0x294b504 size 0x18 virtual false final false
- void _ctor(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage usagePage, int32_t usage) ;
+ void _ctor(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage usagePage, int32_t usage) ;
 
 /// @brief Method .ctor addr 0x294b51c size 0x1c virtual false final false
- void _ctor(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop usage) ;
+ void _ctor(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop usage) ;
 
 /// @brief Method StartReport addr 0x294b538 size 0x28 virtual false final false
- ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder StartReport(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDReportType reportType, int32_t reportId) ;
+ UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder StartReport(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDReportType reportType, int32_t reportId) ;
 
 /// @brief Method AddElement addr 0x294b560 size 0x3d4 virtual false final false
- ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder AddElement(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage usagePage, int32_t usage, int32_t sizeInBits) ;
+ UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder AddElement(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage usagePage, int32_t usage, int32_t sizeInBits) ;
 
 /// @brief Method AddElement addr 0x294b934 size 0x48 virtual false final false
- ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder AddElement(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop usage, int32_t sizeInBits) ;
+ UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder AddElement(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop usage, int32_t sizeInBits) ;
 
 /// @brief Method WithPhysicalMinMax addr 0x294b97c size 0x194 virtual false final false
- ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder WithPhysicalMinMax(int32_t min, int32_t max) ;
+ UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder WithPhysicalMinMax(int32_t min, int32_t max) ;
 
 /// @brief Method WithLogicalMinMax addr 0x294bb10 size 0x178 virtual false final false
- ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder WithLogicalMinMax(int32_t min, int32_t max) ;
+ UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder WithLogicalMinMax(int32_t min, int32_t max) ;
 
 /// @brief Method Finish addr 0x294bc88 size 0xb0 virtual false final false
- ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor Finish() ;
+ UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor Finish() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -1101,20 +1100,20 @@ namespace UnityEngine::InputSystem::HID {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6483))
 // CS Name: UnityEngine.InputSystem.HID.HID::UsagePage
-struct CORDL_TYPE ____UnityEngine__InputSystem__HID__HID__UsagePage : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__InputSystem__HID__HID__UsagePage : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__InputSystem__HID__HID__UsagePage(int32_t value__) noexcept;
+constexpr UnityEngine__InputSystem__HID__HID__UsagePage(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__InputSystem__HID__HID__UsagePage(____UnityEngine__InputSystem__HID__HID__UsagePage const&) = default;
-                    constexpr ____UnityEngine__InputSystem__HID__HID__UsagePage(____UnityEngine__InputSystem__HID__HID__UsagePage&&) = default;
-                    constexpr ____UnityEngine__InputSystem__HID__HID__UsagePage& operator=(____UnityEngine__InputSystem__HID__HID__UsagePage const& o) {
+                    constexpr UnityEngine__InputSystem__HID__HID__UsagePage(UnityEngine__InputSystem__HID__HID__UsagePage const&) = default;
+                    constexpr UnityEngine__InputSystem__HID__HID__UsagePage(UnityEngine__InputSystem__HID__HID__UsagePage&&) = default;
+                    constexpr UnityEngine__InputSystem__HID__HID__UsagePage& operator=(UnityEngine__InputSystem__HID__HID__UsagePage const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__InputSystem__HID__HID__UsagePage& operator=(____UnityEngine__InputSystem__HID__HID__UsagePage&& o) noexcept {
+                    constexpr UnityEngine__InputSystem__HID__HID__UsagePage& operator=(UnityEngine__InputSystem__HID__HID__UsagePage&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -1127,7 +1126,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__InputSystem__HID__HID__UsagePage(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__InputSystem__HID__HID__UsagePage(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -1135,7 +1134,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__InputSystem__HID__HID__UsagePage_Unwrapped : int32_t {
+enum class __UnityEngine__InputSystem__HID__HID__UsagePage_Unwrapped : int32_t {
 __Undefined = 0,
 __GenericDesktop = 1,
 __Simulation = 2,
@@ -1164,8 +1163,8 @@ __VendorDefined = 65280,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__InputSystem__HID__HID__UsagePage_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__InputSystem__HID__HID__UsagePage_Unwrapped>(__instance);
+constexpr operator __UnityEngine__InputSystem__HID__HID__UsagePage_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__InputSystem__HID__HID__UsagePage_Unwrapped>(__instance);
 }
 
 
@@ -1178,79 +1177,79 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Undefined offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage const Undefined;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage const Undefined;
 
 /// @brief Field GenericDesktop offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage const GenericDesktop;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage const GenericDesktop;
 
 /// @brief Field Simulation offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage const Simulation;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage const Simulation;
 
 /// @brief Field VRControls offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage const VRControls;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage const VRControls;
 
 /// @brief Field SportControls offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage const SportControls;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage const SportControls;
 
 /// @brief Field GameControls offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage const GameControls;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage const GameControls;
 
 /// @brief Field GenericDeviceControls offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage const GenericDeviceControls;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage const GenericDeviceControls;
 
 /// @brief Field Keyboard offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage const Keyboard;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage const Keyboard;
 
 /// @brief Field LEDs offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage const LEDs;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage const LEDs;
 
 /// @brief Field Button offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage const Button;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage const Button;
 
 /// @brief Field Ordinal offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage const Ordinal;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage const Ordinal;
 
 /// @brief Field Telephony offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage const Telephony;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage const Telephony;
 
 /// @brief Field Consumer offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage const Consumer;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage const Consumer;
 
 /// @brief Field Digitizer offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage const Digitizer;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage const Digitizer;
 
 /// @brief Field PID offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage const PID;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage const PID;
 
 /// @brief Field Unicode offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage const Unicode;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage const Unicode;
 
 /// @brief Field AlphanumericDisplay offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage const AlphanumericDisplay;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage const AlphanumericDisplay;
 
 /// @brief Field MedicalInstruments offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage const MedicalInstruments;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage const MedicalInstruments;
 
 /// @brief Field Monitor offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage const Monitor;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage const Monitor;
 
 /// @brief Field Power offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage const Power;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage const Power;
 
 /// @brief Field BarCodeScanner offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage const BarCodeScanner;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage const BarCodeScanner;
 
 /// @brief Field MagneticStripeReader offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage const MagneticStripeReader;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage const MagneticStripeReader;
 
 /// @brief Field Camera offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage const Camera;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage const Camera;
 
 /// @brief Field Arcade offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage const Arcade;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage const Arcade;
 
 /// @brief Field VendorDefined offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage const VendorDefined;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage const VendorDefined;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -1262,20 +1261,20 @@ namespace UnityEngine::InputSystem::HID {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6484))
 // CS Name: UnityEngine.InputSystem.HID.HID::GenericDesktop
-struct CORDL_TYPE ____UnityEngine__InputSystem__HID__HID__GenericDesktop : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__InputSystem__HID__HID__GenericDesktop : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__InputSystem__HID__HID__GenericDesktop(int32_t value__) noexcept;
+constexpr UnityEngine__InputSystem__HID__HID__GenericDesktop(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__InputSystem__HID__HID__GenericDesktop(____UnityEngine__InputSystem__HID__HID__GenericDesktop const&) = default;
-                    constexpr ____UnityEngine__InputSystem__HID__HID__GenericDesktop(____UnityEngine__InputSystem__HID__HID__GenericDesktop&&) = default;
-                    constexpr ____UnityEngine__InputSystem__HID__HID__GenericDesktop& operator=(____UnityEngine__InputSystem__HID__HID__GenericDesktop const& o) {
+                    constexpr UnityEngine__InputSystem__HID__HID__GenericDesktop(UnityEngine__InputSystem__HID__HID__GenericDesktop const&) = default;
+                    constexpr UnityEngine__InputSystem__HID__HID__GenericDesktop(UnityEngine__InputSystem__HID__HID__GenericDesktop&&) = default;
+                    constexpr UnityEngine__InputSystem__HID__HID__GenericDesktop& operator=(UnityEngine__InputSystem__HID__HID__GenericDesktop const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__InputSystem__HID__HID__GenericDesktop& operator=(____UnityEngine__InputSystem__HID__HID__GenericDesktop&& o) noexcept {
+                    constexpr UnityEngine__InputSystem__HID__HID__GenericDesktop& operator=(UnityEngine__InputSystem__HID__HID__GenericDesktop&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -1288,7 +1287,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__InputSystem__HID__HID__GenericDesktop(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__InputSystem__HID__HID__GenericDesktop(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -1296,7 +1295,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__InputSystem__HID__HID__GenericDesktop_Unwrapped : int32_t {
+enum class __UnityEngine__InputSystem__HID__HID__GenericDesktop_Unwrapped : int32_t {
 __Undefined = 0,
 __Pointer = 1,
 __Mouse = 2,
@@ -1371,8 +1370,8 @@ __SystemDisplayLCDAutoScale = 183,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__InputSystem__HID__HID__GenericDesktop_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__InputSystem__HID__HID__GenericDesktop_Unwrapped>(__instance);
+constexpr operator __UnityEngine__InputSystem__HID__HID__GenericDesktop_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__InputSystem__HID__HID__GenericDesktop_Unwrapped>(__instance);
 }
 
 
@@ -1385,217 +1384,217 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Undefined offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const Undefined;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const Undefined;
 
 /// @brief Field Pointer offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const Pointer;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const Pointer;
 
 /// @brief Field Mouse offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const Mouse;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const Mouse;
 
 /// @brief Field Joystick offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const Joystick;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const Joystick;
 
 /// @brief Field Gamepad offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const Gamepad;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const Gamepad;
 
 /// @brief Field Keyboard offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const Keyboard;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const Keyboard;
 
 /// @brief Field Keypad offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const Keypad;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const Keypad;
 
 /// @brief Field MultiAxisController offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const MultiAxisController;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const MultiAxisController;
 
 /// @brief Field TabletPCControls offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const TabletPCControls;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const TabletPCControls;
 
 /// @brief Field AssistiveControl offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const AssistiveControl;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const AssistiveControl;
 
 /// @brief Field X offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const X;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const X;
 
 /// @brief Field Y offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const Y;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const Y;
 
 /// @brief Field Z offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const Z;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const Z;
 
 /// @brief Field Rx offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const Rx;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const Rx;
 
 /// @brief Field Ry offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const Ry;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const Ry;
 
 /// @brief Field Rz offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const Rz;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const Rz;
 
 /// @brief Field Slider offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const Slider;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const Slider;
 
 /// @brief Field Dial offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const Dial;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const Dial;
 
 /// @brief Field Wheel offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const Wheel;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const Wheel;
 
 /// @brief Field HatSwitch offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const HatSwitch;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const HatSwitch;
 
 /// @brief Field CountedBuffer offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const CountedBuffer;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const CountedBuffer;
 
 /// @brief Field ByteCount offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const ByteCount;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const ByteCount;
 
 /// @brief Field MotionWakeup offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const MotionWakeup;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const MotionWakeup;
 
 /// @brief Field Start offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const Start;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const Start;
 
 /// @brief Field Select offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const Select;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const Select;
 
 /// @brief Field Vx offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const Vx;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const Vx;
 
 /// @brief Field Vy offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const Vy;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const Vy;
 
 /// @brief Field Vz offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const Vz;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const Vz;
 
 /// @brief Field Vbrx offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const Vbrx;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const Vbrx;
 
 /// @brief Field Vbry offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const Vbry;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const Vbry;
 
 /// @brief Field Vbrz offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const Vbrz;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const Vbrz;
 
 /// @brief Field Vno offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const Vno;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const Vno;
 
 /// @brief Field FeatureNotification offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const FeatureNotification;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const FeatureNotification;
 
 /// @brief Field ResolutionMultiplier offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const ResolutionMultiplier;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const ResolutionMultiplier;
 
 /// @brief Field SystemControl offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemControl;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemControl;
 
 /// @brief Field SystemPowerDown offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemPowerDown;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemPowerDown;
 
 /// @brief Field SystemSleep offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemSleep;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemSleep;
 
 /// @brief Field SystemWakeUp offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemWakeUp;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemWakeUp;
 
 /// @brief Field SystemContextMenu offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemContextMenu;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemContextMenu;
 
 /// @brief Field SystemMainMenu offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemMainMenu;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemMainMenu;
 
 /// @brief Field SystemAppMenu offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemAppMenu;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemAppMenu;
 
 /// @brief Field SystemMenuHelp offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemMenuHelp;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemMenuHelp;
 
 /// @brief Field SystemMenuExit offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemMenuExit;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemMenuExit;
 
 /// @brief Field SystemMenuSelect offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemMenuSelect;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemMenuSelect;
 
 /// @brief Field SystemMenuRight offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemMenuRight;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemMenuRight;
 
 /// @brief Field SystemMenuLeft offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemMenuLeft;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemMenuLeft;
 
 /// @brief Field SystemMenuUp offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemMenuUp;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemMenuUp;
 
 /// @brief Field SystemMenuDown offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemMenuDown;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemMenuDown;
 
 /// @brief Field SystemColdRestart offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemColdRestart;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemColdRestart;
 
 /// @brief Field SystemWarmRestart offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemWarmRestart;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemWarmRestart;
 
 /// @brief Field DpadUp offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const DpadUp;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const DpadUp;
 
 /// @brief Field DpadDown offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const DpadDown;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const DpadDown;
 
 /// @brief Field DpadRight offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const DpadRight;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const DpadRight;
 
 /// @brief Field DpadLeft offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const DpadLeft;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const DpadLeft;
 
 /// @brief Field SystemDock offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemDock;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemDock;
 
 /// @brief Field SystemUndock offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemUndock;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemUndock;
 
 /// @brief Field SystemSetup offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemSetup;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemSetup;
 
 /// @brief Field SystemBreak offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemBreak;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemBreak;
 
 /// @brief Field SystemDebuggerBreak offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemDebuggerBreak;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemDebuggerBreak;
 
 /// @brief Field ApplicationBreak offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const ApplicationBreak;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const ApplicationBreak;
 
 /// @brief Field ApplicationDebuggerBreak offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const ApplicationDebuggerBreak;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const ApplicationDebuggerBreak;
 
 /// @brief Field SystemSpeakerMute offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemSpeakerMute;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemSpeakerMute;
 
 /// @brief Field SystemHibernate offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemHibernate;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemHibernate;
 
 /// @brief Field SystemDisplayInvert offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemDisplayInvert;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemDisplayInvert;
 
 /// @brief Field SystemDisplayInternal offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemDisplayInternal;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemDisplayInternal;
 
 /// @brief Field SystemDisplayExternal offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemDisplayExternal;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemDisplayExternal;
 
 /// @brief Field SystemDisplayBoth offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemDisplayBoth;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemDisplayBoth;
 
 /// @brief Field SystemDisplayDual offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemDisplayDual;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemDisplayDual;
 
 /// @brief Field SystemDisplayToggleIntExt offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemDisplayToggleIntExt;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemDisplayToggleIntExt;
 
 /// @brief Field SystemDisplaySwapPrimarySecondary offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemDisplaySwapPrimarySecondary;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemDisplaySwapPrimarySecondary;
 
 /// @brief Field SystemDisplayLCDAutoScale offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemDisplayLCDAutoScale;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop const SystemDisplayLCDAutoScale;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -1607,20 +1606,20 @@ namespace UnityEngine::InputSystem::HID {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6485))
 // CS Name: UnityEngine.InputSystem.HID.HID::Simulation
-struct CORDL_TYPE ____UnityEngine__InputSystem__HID__HID__Simulation : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__InputSystem__HID__HID__Simulation : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__InputSystem__HID__HID__Simulation(int32_t value__) noexcept;
+constexpr UnityEngine__InputSystem__HID__HID__Simulation(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__InputSystem__HID__HID__Simulation(____UnityEngine__InputSystem__HID__HID__Simulation const&) = default;
-                    constexpr ____UnityEngine__InputSystem__HID__HID__Simulation(____UnityEngine__InputSystem__HID__HID__Simulation&&) = default;
-                    constexpr ____UnityEngine__InputSystem__HID__HID__Simulation& operator=(____UnityEngine__InputSystem__HID__HID__Simulation const& o) {
+                    constexpr UnityEngine__InputSystem__HID__HID__Simulation(UnityEngine__InputSystem__HID__HID__Simulation const&) = default;
+                    constexpr UnityEngine__InputSystem__HID__HID__Simulation(UnityEngine__InputSystem__HID__HID__Simulation&&) = default;
+                    constexpr UnityEngine__InputSystem__HID__HID__Simulation& operator=(UnityEngine__InputSystem__HID__HID__Simulation const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__InputSystem__HID__HID__Simulation& operator=(____UnityEngine__InputSystem__HID__HID__Simulation&& o) noexcept {
+                    constexpr UnityEngine__InputSystem__HID__HID__Simulation& operator=(UnityEngine__InputSystem__HID__HID__Simulation&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -1633,7 +1632,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__InputSystem__HID__HID__Simulation(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__InputSystem__HID__HID__Simulation(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -1641,7 +1640,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__InputSystem__HID__HID__Simulation_Unwrapped : int32_t {
+enum class __UnityEngine__InputSystem__HID__HID__Simulation_Unwrapped : int32_t {
 __Undefined = 0,
 __FlightSimulationDevice = 1,
 __AutomobileSimulationDevice = 2,
@@ -1697,8 +1696,8 @@ __RearBrake = 208,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__InputSystem__HID__HID__Simulation_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__InputSystem__HID__HID__Simulation_Unwrapped>(__instance);
+constexpr operator __UnityEngine__InputSystem__HID__HID__Simulation_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__InputSystem__HID__HID__Simulation_Unwrapped>(__instance);
 }
 
 
@@ -1711,160 +1710,160 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Undefined offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const Undefined;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const Undefined;
 
 /// @brief Field FlightSimulationDevice offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const FlightSimulationDevice;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const FlightSimulationDevice;
 
 /// @brief Field AutomobileSimulationDevice offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const AutomobileSimulationDevice;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const AutomobileSimulationDevice;
 
 /// @brief Field TankSimulationDevice offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const TankSimulationDevice;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const TankSimulationDevice;
 
 /// @brief Field SpaceshipSimulationDevice offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const SpaceshipSimulationDevice;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const SpaceshipSimulationDevice;
 
 /// @brief Field SubmarineSimulationDevice offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const SubmarineSimulationDevice;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const SubmarineSimulationDevice;
 
 /// @brief Field SailingSimulationDevice offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const SailingSimulationDevice;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const SailingSimulationDevice;
 
 /// @brief Field MotorcycleSimulationDevice offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const MotorcycleSimulationDevice;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const MotorcycleSimulationDevice;
 
 /// @brief Field SportsSimulationDevice offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const SportsSimulationDevice;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const SportsSimulationDevice;
 
 /// @brief Field AirplaneSimulationDevice offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const AirplaneSimulationDevice;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const AirplaneSimulationDevice;
 
 /// @brief Field HelicopterSimulationDevice offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const HelicopterSimulationDevice;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const HelicopterSimulationDevice;
 
 /// @brief Field MagicCarpetSimulationDevice offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const MagicCarpetSimulationDevice;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const MagicCarpetSimulationDevice;
 
 /// @brief Field BicylcleSimulationDevice offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const BicylcleSimulationDevice;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const BicylcleSimulationDevice;
 
 /// @brief Field FlightControlStick offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const FlightControlStick;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const FlightControlStick;
 
 /// @brief Field FlightStick offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const FlightStick;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const FlightStick;
 
 /// @brief Field CyclicControl offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const CyclicControl;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const CyclicControl;
 
 /// @brief Field CyclicTrim offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const CyclicTrim;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const CyclicTrim;
 
 /// @brief Field FlightYoke offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const FlightYoke;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const FlightYoke;
 
 /// @brief Field TrackControl offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const TrackControl;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const TrackControl;
 
 /// @brief Field Aileron offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const Aileron;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const Aileron;
 
 /// @brief Field AileronTrim offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const AileronTrim;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const AileronTrim;
 
 /// @brief Field AntiTorqueControl offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const AntiTorqueControl;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const AntiTorqueControl;
 
 /// @brief Field AutopilotEnable offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const AutopilotEnable;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const AutopilotEnable;
 
 /// @brief Field ChaffRelease offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const ChaffRelease;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const ChaffRelease;
 
 /// @brief Field CollectiveControl offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const CollectiveControl;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const CollectiveControl;
 
 /// @brief Field DiveBreak offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const DiveBreak;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const DiveBreak;
 
 /// @brief Field ElectronicCountermeasures offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const ElectronicCountermeasures;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const ElectronicCountermeasures;
 
 /// @brief Field Elevator offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const Elevator;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const Elevator;
 
 /// @brief Field ElevatorTrim offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const ElevatorTrim;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const ElevatorTrim;
 
 /// @brief Field Rudder offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const Rudder;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const Rudder;
 
 /// @brief Field Throttle offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const Throttle;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const Throttle;
 
 /// @brief Field FlightCommunications offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const FlightCommunications;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const FlightCommunications;
 
 /// @brief Field FlareRelease offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const FlareRelease;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const FlareRelease;
 
 /// @brief Field LandingGear offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const LandingGear;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const LandingGear;
 
 /// @brief Field ToeBreak offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const ToeBreak;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const ToeBreak;
 
 /// @brief Field Trigger offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const Trigger;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const Trigger;
 
 /// @brief Field WeaponsArm offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const WeaponsArm;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const WeaponsArm;
 
 /// @brief Field WeaponsSelect offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const WeaponsSelect;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const WeaponsSelect;
 
 /// @brief Field WingFlaps offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const WingFlaps;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const WingFlaps;
 
 /// @brief Field Accelerator offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const Accelerator;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const Accelerator;
 
 /// @brief Field Brake offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const Brake;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const Brake;
 
 /// @brief Field Clutch offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const Clutch;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const Clutch;
 
 /// @brief Field Shifter offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const Shifter;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const Shifter;
 
 /// @brief Field Steering offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const Steering;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const Steering;
 
 /// @brief Field TurretDirection offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const TurretDirection;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const TurretDirection;
 
 /// @brief Field BarrelElevation offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const BarrelElevation;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const BarrelElevation;
 
 /// @brief Field DivePlane offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const DivePlane;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const DivePlane;
 
 /// @brief Field Ballast offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const Ballast;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const Ballast;
 
 /// @brief Field BicycleCrank offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const BicycleCrank;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const BicycleCrank;
 
 /// @brief Field HandleBars offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const HandleBars;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const HandleBars;
 
 /// @brief Field FrontBrake offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const FrontBrake;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const FrontBrake;
 
 /// @brief Field RearBrake offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation const RearBrake;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation const RearBrake;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -1876,20 +1875,20 @@ namespace UnityEngine::InputSystem::HID {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6486))
 // CS Name: UnityEngine.InputSystem.HID.HID::Button
-struct CORDL_TYPE ____UnityEngine__InputSystem__HID__HID__Button : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__InputSystem__HID__HID__Button : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__InputSystem__HID__HID__Button(int32_t value__) noexcept;
+constexpr UnityEngine__InputSystem__HID__HID__Button(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__InputSystem__HID__HID__Button(____UnityEngine__InputSystem__HID__HID__Button const&) = default;
-                    constexpr ____UnityEngine__InputSystem__HID__HID__Button(____UnityEngine__InputSystem__HID__HID__Button&&) = default;
-                    constexpr ____UnityEngine__InputSystem__HID__HID__Button& operator=(____UnityEngine__InputSystem__HID__HID__Button const& o) {
+                    constexpr UnityEngine__InputSystem__HID__HID__Button(UnityEngine__InputSystem__HID__HID__Button const&) = default;
+                    constexpr UnityEngine__InputSystem__HID__HID__Button(UnityEngine__InputSystem__HID__HID__Button&&) = default;
+                    constexpr UnityEngine__InputSystem__HID__HID__Button& operator=(UnityEngine__InputSystem__HID__HID__Button const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__InputSystem__HID__HID__Button& operator=(____UnityEngine__InputSystem__HID__HID__Button&& o) noexcept {
+                    constexpr UnityEngine__InputSystem__HID__HID__Button& operator=(UnityEngine__InputSystem__HID__HID__Button&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -1902,7 +1901,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__InputSystem__HID__HID__Button(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__InputSystem__HID__HID__Button(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -1910,7 +1909,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__InputSystem__HID__HID__Button_Unwrapped : int32_t {
+enum class __UnityEngine__InputSystem__HID__HID__Button_Unwrapped : int32_t {
 __Undefined = 0,
 __Primary = 1,
 __Secondary = 2,
@@ -1918,8 +1917,8 @@ __Tertiary = 3,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__InputSystem__HID__HID__Button_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__InputSystem__HID__HID__Button_Unwrapped>(__instance);
+constexpr operator __UnityEngine__InputSystem__HID__HID__Button_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__InputSystem__HID__HID__Button_Unwrapped>(__instance);
 }
 
 
@@ -1932,16 +1931,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Undefined offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Button const Undefined;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Button const Undefined;
 
 /// @brief Field Primary offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Button const Primary;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Button const Primary;
 
 /// @brief Field Secondary offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Button const Secondary;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Button const Secondary;
 
 /// @brief Field Tertiary offset 0
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Button const Tertiary;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Button const Tertiary;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -1953,59 +1952,59 @@ namespace UnityEngine::InputSystem::HID {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6487))
 // CS Name: UnityEngine.InputSystem.HID.HID::<>c__DisplayClass12_0
-class CORDL_TYPE ____UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0() = default;
+virtual ~UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0(____UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0(UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0(____UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0(UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0& operator=(void* o) noexcept {
+  constexpr UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0& operator=(____UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0&& o) noexcept = default;
-  constexpr ____UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0& operator=(____UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0 const& o) noexcept = default;
+  constexpr UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0& operator=(UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0&& o) noexcept = default;
+  constexpr UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0& operator=(UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder __declspec(property(get=__get_layout, put=__set_layout))  layout;
+ UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder __declspec(property(get=__get_layout, put=__set_layout))  layout;
 
-constexpr void __set_layout(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder value) ;
+constexpr void __set_layout(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder value) ;
 
-constexpr ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder __get_layout() const;
+constexpr UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder __get_layout() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0() ;
+explicit UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0() ;
 
 /// @brief Method .ctor addr 0x2946fbc size 0x8 virtual false final false
  void _ctor() ;
 
 /// @brief Method <OnFindLayoutForDevice>b__0 addr 0x294bd38 size 0x18 virtual false final false
- ::UnityEngine::InputSystem::Layouts::InputControlLayout _OnFindLayoutForDevice_b__0() ;
+ UnityEngine::InputSystem::Layouts::InputControlLayout _OnFindLayoutForDevice_b__0() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -2017,34 +2016,34 @@ namespace UnityEngine::InputSystem::HID {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6322))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6488))
 // CS Name: UnityEngine.InputSystem.HID.HID
-class CORDL_TYPE HID : public ::UnityEngine::InputSystem::InputDevice {
+class CORDL_TYPE HID : public UnityEngine::InputSystem::InputDevice {
 public:
 // Declarations
-using __c__DisplayClass12_0 = ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0;
+using __c__DisplayClass12_0 = UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0;
 
-using Button = ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Button;
+using Button = UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Button;
 
-using Simulation = ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation;
+using Simulation = UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation;
 
-using GenericDesktop = ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop;
+using GenericDesktop = UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop;
 
-using UsagePage = ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage;
+using UsagePage = UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage;
 
-using HIDDeviceDescriptorBuilder = ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder;
+using HIDDeviceDescriptorBuilder = UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder;
 
-using HIDDeviceDescriptor = ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor;
+using HIDDeviceDescriptor = UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor;
 
-using HIDCollectionDescriptor = ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor;
+using HIDCollectionDescriptor = UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor;
 
-using HIDElementDescriptor = ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementDescriptor;
+using HIDElementDescriptor = UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor;
 
-using HIDElementFlags = ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementFlags;
+using HIDElementFlags = UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementFlags;
 
-using HIDCollectionType = ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDCollectionType;
+using HIDCollectionType = UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDCollectionType;
 
-using HIDReportType = ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDReportType;
+using HIDReportType = UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDReportType;
 
-using HIDLayoutBuilder = ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder;
+using HIDLayoutBuilder = UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x190};
@@ -2058,7 +2057,7 @@ constexpr HID(HID const& ) noexcept = default;
 constexpr HID(HID&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HID(void* ptr) noexcept : ::UnityEngine::InputSystem::InputDevice(ptr) {
+constexpr explicit HID(void* ptr) noexcept : UnityEngine::InputSystem::InputDevice(ptr) {
 }
 
 
@@ -2091,49 +2090,49 @@ constexpr void __set_m_HaveParsedHIDDescriptor(bool value) ;
 
 constexpr bool __get_m_HaveParsedHIDDescriptor() const;
 
- ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor __declspec(property(get=__get_m_HIDDescriptor, put=__set_m_HIDDescriptor))  m_HIDDescriptor;
+ UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor __declspec(property(get=__get_m_HIDDescriptor, put=__set_m_HIDDescriptor))  m_HIDDescriptor;
 
-constexpr void __set_m_HIDDescriptor(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor value) ;
+constexpr void __set_m_HIDDescriptor(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor value) ;
 
-constexpr ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor __get_m_HIDDescriptor() const;
+constexpr UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor __get_m_HIDDescriptor() const;
 
 
 // Properties
 
-static ::UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_QueryHIDReportDescriptorDeviceCommandType))  QueryHIDReportDescriptorDeviceCommandType;
+static UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_QueryHIDReportDescriptorDeviceCommandType))  QueryHIDReportDescriptorDeviceCommandType;
 
-static ::UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_QueryHIDReportDescriptorSizeDeviceCommandType))  QueryHIDReportDescriptorSizeDeviceCommandType;
+static UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_QueryHIDReportDescriptorSizeDeviceCommandType))  QueryHIDReportDescriptorSizeDeviceCommandType;
 
-static ::UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_QueryHIDParsedReportDescriptorDeviceCommandType))  QueryHIDParsedReportDescriptorDeviceCommandType;
+static UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_QueryHIDParsedReportDescriptorDeviceCommandType))  QueryHIDParsedReportDescriptorDeviceCommandType;
 
- ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor __declspec(property(get=get_hidDescriptor))  hidDescriptor;
+ UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor __declspec(property(get=get_hidDescriptor))  hidDescriptor;
 
 
 // Methods
 
 /// @brief Method get_QueryHIDReportDescriptorDeviceCommandType addr 0x2946540 size 0x30 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::FourCC get_QueryHIDReportDescriptorDeviceCommandType() ;
+static UnityEngine::InputSystem::Utilities::FourCC get_QueryHIDReportDescriptorDeviceCommandType() ;
 
 /// @brief Method get_QueryHIDReportDescriptorSizeDeviceCommandType addr 0x2946570 size 0x30 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::FourCC get_QueryHIDReportDescriptorSizeDeviceCommandType() ;
+static UnityEngine::InputSystem::Utilities::FourCC get_QueryHIDReportDescriptorSizeDeviceCommandType() ;
 
 /// @brief Method get_QueryHIDParsedReportDescriptorDeviceCommandType addr 0x29465a0 size 0x30 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::FourCC get_QueryHIDParsedReportDescriptorDeviceCommandType() ;
+static UnityEngine::InputSystem::Utilities::FourCC get_QueryHIDParsedReportDescriptorDeviceCommandType() ;
 
 /// @brief Method get_hidDescriptor addr 0x29465d0 size 0xa4 virtual false final false
- ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor get_hidDescriptor() ;
+ UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor get_hidDescriptor() ;
 
 /// @brief Method OnFindLayoutForDevice addr 0x2946674 size 0x948 virtual false final false
-static ::StringW OnFindLayoutForDevice(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::StringW matchedLayout, ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate executeDeviceCommand) ;
+static ::StringW OnFindLayoutForDevice(ByRef<UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::StringW matchedLayout, UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate executeDeviceCommand) ;
 
 /// @brief Method ReadHIDDeviceDescriptor addr 0x2946fc4 size 0x6f8 virtual false final false
-static ::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor ReadHIDDeviceDescriptor(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> deviceDescription, ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate executeCommandDelegate) ;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor ReadHIDDeviceDescriptor(ByRef<UnityEngine::InputSystem::Layouts::InputDeviceDescription> deviceDescription, UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate executeCommandDelegate) ;
 
 /// @brief Method UsagePageToString addr 0x2949340 size 0x8c virtual false final false
-static ::StringW UsagePageToString(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage usagePage) ;
+static ::StringW UsagePageToString(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage usagePage) ;
 
 /// @brief Method UsageToString addr 0x29493cc size 0x9c virtual false final false
-static ::StringW UsageToString(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage usagePage, int32_t usage) ;
+static ::StringW UsageToString(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage usagePage, int32_t usage) ;
 
 // Ctor Parameters []
 explicit HID() ;
@@ -2145,23 +2144,22 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::HID
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Button, "UnityEngine.InputSystem.HID", "HID/Button");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__GenericDesktop, "UnityEngine.InputSystem.HID", "HID/GenericDesktop");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDCollectionType, "UnityEngine.InputSystem.HID", "HID/HIDCollectionType");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementFlags, "UnityEngine.InputSystem.HID", "HID/HIDElementFlags");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDReportType, "UnityEngine.InputSystem.HID", "HID/HIDReportType");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__Simulation, "UnityEngine.InputSystem.HID", "HID/Simulation");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__UsagePage, "UnityEngine.InputSystem.HID", "HID/UsagePage");
-NEED_NO_BOX(::GlobalNamespace::______UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::______UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c, "UnityEngine.InputSystem.HID", "HID/HIDLayoutBuilder/<>c");
-NEED_NO_BOX(::UnityEngine::InputSystem::HID::HID);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::HID::HID, "UnityEngine.InputSystem.HID", "HID");
-NEED_NO_BOX(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder, "UnityEngine.InputSystem.HID", "HID/HIDLayoutBuilder");
-NEED_NO_BOX(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0, "UnityEngine.InputSystem.HID", "HID/<>c__DisplayClass12_0");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor, "UnityEngine.InputSystem.HID", "HID/HIDCollectionDescriptor");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor, "UnityEngine.InputSystem.HID", "HID/HIDDeviceDescriptor");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder, "UnityEngine.InputSystem.HID", "HID/HIDDeviceDescriptorBuilder");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::HID::____UnityEngine__InputSystem__HID__HID__HIDElementDescriptor, "UnityEngine.InputSystem.HID", "HID/HIDElementDescriptor");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Button, "UnityEngine.InputSystem.HID", "HID/Button");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__GenericDesktop, "UnityEngine.InputSystem.HID", "HID/GenericDesktop");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDCollectionType, "UnityEngine.InputSystem.HID", "HID/HIDCollectionType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementFlags, "UnityEngine.InputSystem.HID", "HID/HIDElementFlags");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDReportType, "UnityEngine.InputSystem.HID", "HID/HIDReportType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__Simulation, "UnityEngine.InputSystem.HID", "HID/Simulation");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage, "UnityEngine.InputSystem.HID", "HID/UsagePage");
+NEED_NO_BOX(GlobalNamespace::UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c, "UnityEngine.InputSystem.HID", "HID/HIDLayoutBuilder/<>c");
+NEED_NO_BOX(UnityEngine::InputSystem::HID::HID);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::HID::HID, "UnityEngine.InputSystem.HID", "HID");
+NEED_NO_BOX(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder, "UnityEngine.InputSystem.HID", "HID/HIDLayoutBuilder");
+NEED_NO_BOX(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0, "UnityEngine.InputSystem.HID", "HID/<>c__DisplayClass12_0");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor, "UnityEngine.InputSystem.HID", "HID/HIDCollectionDescriptor");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor, "UnityEngine.InputSystem.HID", "HID/HIDDeviceDescriptor");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder, "UnityEngine.InputSystem.HID", "HID/HIDDeviceDescriptorBuilder");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor, "UnityEngine.InputSystem.HID", "HID/HIDElementDescriptor");

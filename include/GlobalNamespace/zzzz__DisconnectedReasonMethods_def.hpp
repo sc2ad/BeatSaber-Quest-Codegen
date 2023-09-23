@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace GlobalNamespace {
 struct DisconnectedReason;
 }
@@ -80,15 +79,14 @@ static constexpr ::ConstString  kDisconnectedServerTerminated{u"DISCONNECTED_SER
 // Methods
 
 /// @brief Method LocalizedKey addr 0x21f2e70 size 0xa8 virtual false final false
-static ::StringW LocalizedKey(::GlobalNamespace::DisconnectedReason connectionFailedReason) ;
+static ::StringW LocalizedKey(GlobalNamespace::DisconnectedReason connectionFailedReason) ;
 
 /// @brief Method ErrorCode addr 0x21f2f18 size 0x80 virtual false final false
-static ::StringW ErrorCode(::GlobalNamespace::DisconnectedReason disconnectedReason) ;
+static ::StringW ErrorCode(GlobalNamespace::DisconnectedReason disconnectedReason) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::DisconnectedReasonMethods);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DisconnectedReasonMethods, "", "DisconnectedReasonMethods");
+NEED_NO_BOX(GlobalNamespace::DisconnectedReasonMethods);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisconnectedReasonMethods, "", "DisconnectedReasonMethods");

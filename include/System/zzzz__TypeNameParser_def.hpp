@@ -3,26 +3,25 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
+}
+namespace System::Reflection {
+class Assembly;
 }
 namespace System {
 template<typename T1,typename T2,typename T3,typename TResult>
 class Func_4;
 }
-namespace System {
-class Type;
-}
 namespace System::Threading {
 struct StackCrawlMark;
 }
-namespace System::Reflection {
-class AssemblyName;
+namespace System {
+class Type;
 }
 namespace System::Reflection {
-class Assembly;
+class AssemblyName;
 }
 // Forward declare root types
 namespace System {
@@ -71,12 +70,11 @@ constexpr explicit TypeNameParser(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 // Methods
 
 /// @brief Method GetType addr 0x2487e34 size 0x58 virtual false final false
-static ::System::Type GetType(::StringW typeName, ::System::Func_2<::System::Reflection::AssemblyName,::System::Reflection::Assembly> assemblyResolver, ::System::Func_4<::System::Reflection::Assembly,::StringW,bool,::System::Type> typeResolver, bool throwOnError, bool ignoreCase, ByRef<::System::Threading::StackCrawlMark> stackMark) ;
+static System::Type GetType(::StringW typeName, System::Func_2<System::Reflection::AssemblyName,System::Reflection::Assembly> assemblyResolver, System::Func_4<System::Reflection::Assembly,::StringW,bool,System::Type> typeResolver, bool throwOnError, bool ignoreCase, ByRef<System::Threading::StackCrawlMark> stackMark) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::TypeNameParser);
-DEFINE_IL2CPP_ARG_TYPE(::System::TypeNameParser, "System", "TypeNameParser");
+NEED_NO_BOX(System::TypeNameParser);
+DEFINE_IL2CPP_ARG_TYPE(System::TypeNameParser, "System", "TypeNameParser");

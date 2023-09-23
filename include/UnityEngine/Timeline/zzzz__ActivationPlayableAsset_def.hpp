@@ -1,7 +1,9 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_def.hpp"
-namespace {
+namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
 namespace UnityEngine::Timeline {
 class ITimelineClipAsset;
 }
@@ -10,9 +12,6 @@ class GameObject;
 }
 namespace UnityEngine::Playables {
 struct Playable;
-}
-namespace UnityEngine::Playables {
-struct PlayableGraph;
 }
 namespace UnityEngine::Timeline {
 struct ClipCaps;
@@ -27,11 +26,11 @@ namespace UnityEngine::Timeline {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10358))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14037))
 // CS Name: UnityEngine.Timeline.ActivationPlayableAsset
-class CORDL_TYPE ActivationPlayableAsset : public ::UnityEngine::Playables::PlayableAsset {
+class CORDL_TYPE ActivationPlayableAsset : public UnityEngine::Playables::PlayableAsset {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::Timeline::ITimelineClipAsset
-constexpr operator  ::UnityEngine::Timeline::ITimelineClipAsset() const noexcept;
+/// @brief Convert operator to UnityEngine::Timeline::ITimelineClipAsset
+constexpr operator  UnityEngine::Timeline::ITimelineClipAsset() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -45,7 +44,7 @@ constexpr ActivationPlayableAsset(ActivationPlayableAsset const& ) noexcept = de
 constexpr ActivationPlayableAsset(ActivationPlayableAsset&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ActivationPlayableAsset(void* ptr) noexcept : ::UnityEngine::Playables::PlayableAsset(ptr) {
+constexpr explicit ActivationPlayableAsset(void* ptr) noexcept : UnityEngine::Playables::PlayableAsset(ptr) {
 }
 
 
@@ -66,16 +65,16 @@ constexpr explicit ActivationPlayableAsset(void* ptr) noexcept : ::UnityEngine::
 
 // Properties
 
- ::UnityEngine::Timeline::ClipCaps __declspec(property(get=get_clipCaps))  clipCaps;
+ UnityEngine::Timeline::ClipCaps __declspec(property(get=get_clipCaps))  clipCaps;
 
 
 // Methods
 
 /// @brief Method get_clipCaps addr 0x2ab631c size 0x8 virtual true final true
- ::UnityEngine::Timeline::ClipCaps get_clipCaps() ;
+ UnityEngine::Timeline::ClipCaps get_clipCaps() ;
 
 /// @brief Method CreatePlayable addr 0x2ab6324 size 0x6c virtual true final false
- ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject go) ;
+ UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject go) ;
 
 // Ctor Parameters []
 explicit ActivationPlayableAsset() ;
@@ -87,6 +86,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Timeline::ActivationPlayableAsset);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::ActivationPlayableAsset, "UnityEngine.Timeline", "ActivationPlayableAsset");
+NEED_NO_BOX(UnityEngine::Timeline::ActivationPlayableAsset);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ActivationPlayableAsset, "UnityEngine.Timeline", "ActivationPlayableAsset");

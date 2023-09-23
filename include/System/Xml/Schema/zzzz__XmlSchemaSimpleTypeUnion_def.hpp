@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaSimpleTypeContent_def.hpp"
-namespace {
 // Forward declare root types
 namespace System::Xml::Schema {
 class XmlSchemaSimpleTypeUnion;
@@ -12,7 +11,7 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11680))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11683))
 // CS Name: System.Xml.Schema.XmlSchemaSimpleTypeUnion
-class CORDL_TYPE XmlSchemaSimpleTypeUnion : public ::System::Xml::Schema::XmlSchemaSimpleTypeContent {
+class CORDL_TYPE XmlSchemaSimpleTypeUnion : public System::Xml::Schema::XmlSchemaSimpleTypeContent {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr XmlSchemaSimpleTypeUnion(XmlSchemaSimpleTypeUnion const& ) noexcept = 
 constexpr XmlSchemaSimpleTypeUnion(XmlSchemaSimpleTypeUnion&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XmlSchemaSimpleTypeUnion(void* ptr) noexcept : ::System::Xml::Schema::XmlSchemaSimpleTypeContent(ptr) {
+constexpr explicit XmlSchemaSimpleTypeUnion(void* ptr) noexcept : System::Xml::Schema::XmlSchemaSimpleTypeContent(ptr) {
 }
 
 
@@ -49,6 +48,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::XmlSchemaSimpleTypeUnion);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlSchemaSimpleTypeUnion, "System.Xml.Schema", "XmlSchemaSimpleTypeUnion");
+NEED_NO_BOX(System::Xml::Schema::XmlSchemaSimpleTypeUnion);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::XmlSchemaSimpleTypeUnion, "System.Xml.Schema", "XmlSchemaSimpleTypeUnion");

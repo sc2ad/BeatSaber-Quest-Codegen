@@ -7,19 +7,15 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
 namespace UnityEngine::UIElements {
-class EventBase;
+class IGenericMenu;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
-}
-namespace UnityEngine::UIElements {
-class IGenericMenu;
 }
 namespace UnityEngine::UIElements {
 class TextElement;
@@ -33,10 +29,19 @@ template<typename TResult>
 class Func_1;
 }
 namespace UnityEngine::UIElements {
-struct ____UnityEngine__UIElements__VisualElement__MeasureMode;
+class EventBase;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__VisualElement__MeasureMode;
 }
 namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine::UIElements {
+class UxmlIntAttributeDescription;
+}
+namespace UnityEngine::UIElements {
+class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;
@@ -44,27 +49,21 @@ struct CreationContext;
 namespace UnityEngine::UIElements {
 class UxmlStringAttributeDescription;
 }
-namespace UnityEngine::UIElements {
-class IUxmlAttributes;
-}
-namespace UnityEngine::UIElements {
-class UxmlIntAttributeDescription;
-}
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class DropdownField;
 }
 namespace UnityEngine::UIElements {
-class ____UnityEngine__UIElements__DropdownField__PopupTextElement;
+class UnityEngine__UIElements__DropdownField__PopupTextElement;
 }
 namespace UnityEngine::UIElements {
-class ____UnityEngine__UIElements__DropdownField__UxmlFactory;
+class UnityEngine__UIElements__DropdownField__UxmlFactory;
 }
 namespace UnityEngine::UIElements {
-class ____UnityEngine__UIElements__DropdownField__UxmlTraits;
+class UnityEngine__UIElements__DropdownField__UxmlTraits;
 }
 namespace UnityEngine::UIElements {
-class ____UnityEngine__UIElements__DropdownField____c__DisplayClass38_0;
+class UnityEngine__UIElements__DropdownField____c__DisplayClass38_0;
 }
 // Type: ::UxmlTraits
 namespace UnityEngine::UIElements {
@@ -72,62 +71,62 @@ namespace UnityEngine::UIElements {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7227)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7227), inst: 380 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7149))
 // CS Name: UnityEngine.UIElements.DropdownField::UxmlTraits
-class CORDL_TYPE ____UnityEngine__UIElements__DropdownField__UxmlTraits : public ::UnityEngine::UIElements::____UnityEngine__UIElements__BaseField_1__UxmlTraits<::StringW> {
+class CORDL_TYPE UnityEngine__UIElements__DropdownField__UxmlTraits : public UnityEngine::UIElements::UnityEngine__UIElements__BaseField_1__UxmlTraits<::StringW> {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x90};
 
-virtual ~____UnityEngine__UIElements__DropdownField__UxmlTraits() = default;
+virtual ~UnityEngine__UIElements__DropdownField__UxmlTraits() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__DropdownField__UxmlTraits", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__UIElements__DropdownField__UxmlTraits(____UnityEngine__UIElements__DropdownField__UxmlTraits const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__DropdownField__UxmlTraits", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__UIElements__DropdownField__UxmlTraits(UnityEngine__UIElements__DropdownField__UxmlTraits const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__DropdownField__UxmlTraits", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__UIElements__DropdownField__UxmlTraits(____UnityEngine__UIElements__DropdownField__UxmlTraits&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__DropdownField__UxmlTraits", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__UIElements__DropdownField__UxmlTraits(UnityEngine__UIElements__DropdownField__UxmlTraits&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UIElements__DropdownField__UxmlTraits(void* ptr) noexcept : ::UnityEngine::UIElements::____UnityEngine__UIElements__BaseField_1__UxmlTraits<::StringW>(ptr) {
+constexpr explicit UnityEngine__UIElements__DropdownField__UxmlTraits(void* ptr) noexcept : UnityEngine::UIElements::UnityEngine__UIElements__BaseField_1__UxmlTraits<::StringW>(ptr) {
 }
 
 
-  constexpr ____UnityEngine__UIElements__DropdownField__UxmlTraits& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__UIElements__DropdownField__UxmlTraits& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__DropdownField__UxmlTraits& operator=(void* o) noexcept {
+  constexpr UnityEngine__UIElements__DropdownField__UxmlTraits& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__DropdownField__UxmlTraits& operator=(____UnityEngine__UIElements__DropdownField__UxmlTraits&& o) noexcept = default;
-  constexpr ____UnityEngine__UIElements__DropdownField__UxmlTraits& operator=(____UnityEngine__UIElements__DropdownField__UxmlTraits const& o) noexcept = default;
+  constexpr UnityEngine__UIElements__DropdownField__UxmlTraits& operator=(UnityEngine__UIElements__DropdownField__UxmlTraits&& o) noexcept = default;
+  constexpr UnityEngine__UIElements__DropdownField__UxmlTraits& operator=(UnityEngine__UIElements__DropdownField__UxmlTraits const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::UnityEngine::UIElements::UxmlIntAttributeDescription __declspec(property(get=__get_m_Index, put=__set_m_Index))  m_Index;
+ UnityEngine::UIElements::UxmlIntAttributeDescription __declspec(property(get=__get_m_Index, put=__set_m_Index))  m_Index;
 
-constexpr void __set_m_Index(::UnityEngine::UIElements::UxmlIntAttributeDescription value) ;
+constexpr void __set_m_Index(UnityEngine::UIElements::UxmlIntAttributeDescription value) ;
 
-constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription __get_m_Index() const;
+constexpr UnityEngine::UIElements::UxmlIntAttributeDescription __get_m_Index() const;
 
- ::UnityEngine::UIElements::UxmlStringAttributeDescription __declspec(property(get=__get_m_Choices, put=__set_m_Choices))  m_Choices;
+ UnityEngine::UIElements::UxmlStringAttributeDescription __declspec(property(get=__get_m_Choices, put=__set_m_Choices))  m_Choices;
 
-constexpr void __set_m_Choices(::UnityEngine::UIElements::UxmlStringAttributeDescription value) ;
+constexpr void __set_m_Choices(UnityEngine::UIElements::UxmlStringAttributeDescription value) ;
 
-constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription __get_m_Choices() const;
+constexpr UnityEngine::UIElements::UxmlStringAttributeDescription __get_m_Choices() const;
 
 
 // Methods
 
 /// @brief Method Init addr 0x2cb1e5c size 0x17c virtual true final false
- void Init(::UnityEngine::UIElements::VisualElement ve, ::UnityEngine::UIElements::IUxmlAttributes bag, ::UnityEngine::UIElements::CreationContext cc) ;
+ void Init(UnityEngine::UIElements::VisualElement ve, UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
 // Ctor Parameters []
-explicit ____UnityEngine__UIElements__DropdownField__UxmlTraits() ;
+explicit UnityEngine__UIElements__DropdownField__UxmlTraits() ;
 
 /// @brief Method .ctor addr 0x2cb1fd8 size 0xec virtual false final false
  void _ctor() ;
@@ -142,16 +141,16 @@ namespace UnityEngine::UIElements {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7228)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7228), inst: 380 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7152))
 // CS Name: UnityEngine.UIElements.DropdownField
-class CORDL_TYPE DropdownField : public ::UnityEngine::UIElements::BaseField_1<::StringW> {
+class CORDL_TYPE DropdownField : public UnityEngine::UIElements::BaseField_1<::StringW> {
 public:
 // Declarations
-using __c__DisplayClass38_0 = ::UnityEngine::UIElements::____UnityEngine__UIElements__DropdownField____c__DisplayClass38_0;
+using __c__DisplayClass38_0 = UnityEngine::UIElements::UnityEngine__UIElements__DropdownField____c__DisplayClass38_0;
 
-using PopupTextElement = ::UnityEngine::UIElements::____UnityEngine__UIElements__DropdownField__PopupTextElement;
+using PopupTextElement = UnityEngine::UIElements::UnityEngine__UIElements__DropdownField__PopupTextElement;
 
-using UxmlTraits = ::UnityEngine::UIElements::____UnityEngine__UIElements__DropdownField__UxmlTraits;
+using UxmlTraits = UnityEngine::UIElements::UnityEngine__UIElements__DropdownField__UxmlTraits;
 
-using UxmlFactory = ::UnityEngine::UIElements::____UnityEngine__UIElements__DropdownField__UxmlFactory;
+using UxmlFactory = UnityEngine::UIElements::UnityEngine__UIElements__DropdownField__UxmlFactory;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x440};
@@ -165,7 +164,7 @@ constexpr DropdownField(DropdownField const& ) noexcept = default;
 constexpr DropdownField(DropdownField&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DropdownField(void* ptr) noexcept : ::UnityEngine::UIElements::BaseField_1<::StringW>(ptr) {
+constexpr explicit DropdownField(void* ptr) noexcept : UnityEngine::UIElements::BaseField_1<::StringW>(ptr) {
 }
 
 
@@ -186,41 +185,41 @@ constexpr explicit DropdownField(void* ptr) noexcept : ::UnityEngine::UIElements
 
 // Fields
 
- ::System::Collections::Generic::List_1<::StringW> __declspec(property(get=__get_m_Choices, put=__set_m_Choices))  m_Choices;
+ System::Collections::Generic::List_1<::StringW> __declspec(property(get=__get_m_Choices, put=__set_m_Choices))  m_Choices;
 
-constexpr void __set_m_Choices(::System::Collections::Generic::List_1<::StringW> value) ;
+constexpr void __set_m_Choices(System::Collections::Generic::List_1<::StringW> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::StringW> __get_m_Choices() const;
+constexpr System::Collections::Generic::List_1<::StringW> __get_m_Choices() const;
 
- ::UnityEngine::UIElements::TextElement __declspec(property(get=__get_m_TextElement, put=__set_m_TextElement))  m_TextElement;
+ UnityEngine::UIElements::TextElement __declspec(property(get=__get_m_TextElement, put=__set_m_TextElement))  m_TextElement;
 
-constexpr void __set_m_TextElement(::UnityEngine::UIElements::TextElement value) ;
+constexpr void __set_m_TextElement(UnityEngine::UIElements::TextElement value) ;
 
-constexpr ::UnityEngine::UIElements::TextElement __get_m_TextElement() const;
+constexpr UnityEngine::UIElements::TextElement __get_m_TextElement() const;
 
- ::UnityEngine::UIElements::VisualElement __declspec(property(get=__get_m_ArrowElement, put=__set_m_ArrowElement))  m_ArrowElement;
+ UnityEngine::UIElements::VisualElement __declspec(property(get=__get_m_ArrowElement, put=__set_m_ArrowElement))  m_ArrowElement;
 
-constexpr void __set_m_ArrowElement(::UnityEngine::UIElements::VisualElement value) ;
+constexpr void __set_m_ArrowElement(UnityEngine::UIElements::VisualElement value) ;
 
-constexpr ::UnityEngine::UIElements::VisualElement __get_m_ArrowElement() const;
+constexpr UnityEngine::UIElements::VisualElement __get_m_ArrowElement() const;
 
- ::System::Func_2<::StringW,::StringW> __declspec(property(get=__get_m_FormatSelectedValueCallback, put=__set_m_FormatSelectedValueCallback))  m_FormatSelectedValueCallback;
+ System::Func_2<::StringW,::StringW> __declspec(property(get=__get_m_FormatSelectedValueCallback, put=__set_m_FormatSelectedValueCallback))  m_FormatSelectedValueCallback;
 
-constexpr void __set_m_FormatSelectedValueCallback(::System::Func_2<::StringW,::StringW> value) ;
+constexpr void __set_m_FormatSelectedValueCallback(System::Func_2<::StringW,::StringW> value) ;
 
-constexpr ::System::Func_2<::StringW,::StringW> __get_m_FormatSelectedValueCallback() const;
+constexpr System::Func_2<::StringW,::StringW> __get_m_FormatSelectedValueCallback() const;
 
- ::System::Func_2<::StringW,::StringW> __declspec(property(get=__get_m_FormatListItemCallback, put=__set_m_FormatListItemCallback))  m_FormatListItemCallback;
+ System::Func_2<::StringW,::StringW> __declspec(property(get=__get_m_FormatListItemCallback, put=__set_m_FormatListItemCallback))  m_FormatListItemCallback;
 
-constexpr void __set_m_FormatListItemCallback(::System::Func_2<::StringW,::StringW> value) ;
+constexpr void __set_m_FormatListItemCallback(System::Func_2<::StringW,::StringW> value) ;
 
-constexpr ::System::Func_2<::StringW,::StringW> __get_m_FormatListItemCallback() const;
+constexpr System::Func_2<::StringW,::StringW> __get_m_FormatListItemCallback() const;
 
- ::System::Func_1<::UnityEngine::UIElements::IGenericMenu> __declspec(property(get=__get_createMenuCallback, put=__set_createMenuCallback))  createMenuCallback;
+ System::Func_1<UnityEngine::UIElements::IGenericMenu> __declspec(property(get=__get_createMenuCallback, put=__set_createMenuCallback))  createMenuCallback;
 
-constexpr void __set_createMenuCallback(::System::Func_1<::UnityEngine::UIElements::IGenericMenu> value) ;
+constexpr void __set_createMenuCallback(System::Func_1<UnityEngine::UIElements::IGenericMenu> value) ;
 
-constexpr ::System::Func_1<::UnityEngine::UIElements::IGenericMenu> __get_createMenuCallback() const;
+constexpr System::Func_1<UnityEngine::UIElements::IGenericMenu> __get_createMenuCallback() const;
 
  int32_t __declspec(property(get=__get_m_Index, put=__set_m_Index))  m_Index;
 
@@ -279,11 +278,11 @@ static ::StringW __get_inputUssClassNamePopupField() ;
 
 // Properties
 
- ::UnityEngine::UIElements::TextElement __declspec(property(get=get_textElement))  textElement;
+ UnityEngine::UIElements::TextElement __declspec(property(get=get_textElement))  textElement;
 
  int32_t __declspec(property(put=set_index))  index;
 
- ::System::Collections::Generic::List_1<::StringW> __declspec(property(put=set_choices))  choices;
+ System::Collections::Generic::List_1<::StringW> __declspec(property(put=set_choices))  choices;
 
  ::StringW __declspec(property(get=get_value, put=set_value))  value;
 
@@ -291,7 +290,7 @@ static ::StringW __get_inputUssClassNamePopupField() ;
 // Methods
 
 /// @brief Method get_textElement addr 0x2cb0b90 size 0x8 virtual false final false
- ::UnityEngine::UIElements::TextElement get_textElement() ;
+ UnityEngine::UIElements::TextElement get_textElement() ;
 
 /// @brief Method GetValueToDisplay addr 0x2cb0b98 size 0x8c virtual false final false
  ::StringW GetValueToDisplay() ;
@@ -315,13 +314,13 @@ explicit DropdownField(::StringW label) ;
  void _ctor(::StringW label) ;
 
 /// @brief Method AddMenuItems addr 0x2cb1084 size 0x308 virtual false final false
- void AddMenuItems(::UnityEngine::UIElements::IGenericMenu menu) ;
+ void AddMenuItems(UnityEngine::UIElements::IGenericMenu menu) ;
 
 /// @brief Method ChangeValueFromMenu addr 0x2cb1394 size 0x10 virtual false final false
  void ChangeValueFromMenu(::StringW menuItem) ;
 
 /// @brief Method set_choices addr 0x2cb13a4 size 0x70 virtual true final false
- void set_choices(::System::Collections::Generic::List_1<::StringW> value) ;
+ void set_choices(System::Collections::Generic::List_1<::StringW> value) ;
 
 /// @brief Method get_value addr 0x2cb1414 size 0x48 virtual true final false
  ::StringW get_value() ;
@@ -333,7 +332,7 @@ explicit DropdownField(::StringW label) ;
  void SetValueWithoutNotify(::StringW newValue) ;
 
 /// @brief Method ExecuteDefaultActionAtTarget addr 0x2cb15f0 size 0x180 virtual true final false
- void ExecuteDefaultActionAtTarget(::UnityEngine::UIElements::EventBase evt) ;
+ void ExecuteDefaultActionAtTarget(UnityEngine::UIElements::EventBase evt) ;
 
 /// @brief Method ShowMenu addr 0x2cb1770 size 0x180 virtual false final false
  void ShowMenu() ;
@@ -348,47 +347,47 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::UxmlFactory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7149)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5086 }), TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(7152))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7149)), TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(7152)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5086 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7148))
 // CS Name: UnityEngine.UIElements.DropdownField::UxmlFactory
-class CORDL_TYPE ____UnityEngine__UIElements__DropdownField__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::DropdownField,::UnityEngine::UIElements::____UnityEngine__UIElements__DropdownField__UxmlTraits> {
+class CORDL_TYPE UnityEngine__UIElements__DropdownField__UxmlFactory : public UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::DropdownField,UnityEngine::UIElements::UnityEngine__UIElements__DropdownField__UxmlTraits> {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____UnityEngine__UIElements__DropdownField__UxmlFactory() = default;
+virtual ~UnityEngine__UIElements__DropdownField__UxmlFactory() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__DropdownField__UxmlFactory", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__UIElements__DropdownField__UxmlFactory(____UnityEngine__UIElements__DropdownField__UxmlFactory const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__DropdownField__UxmlFactory", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__UIElements__DropdownField__UxmlFactory(UnityEngine__UIElements__DropdownField__UxmlFactory const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__DropdownField__UxmlFactory", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__UIElements__DropdownField__UxmlFactory(____UnityEngine__UIElements__DropdownField__UxmlFactory&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__DropdownField__UxmlFactory", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__UIElements__DropdownField__UxmlFactory(UnityEngine__UIElements__DropdownField__UxmlFactory&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UIElements__DropdownField__UxmlFactory(void* ptr) noexcept : ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::DropdownField,::UnityEngine::UIElements::____UnityEngine__UIElements__DropdownField__UxmlTraits>(ptr) {
+constexpr explicit UnityEngine__UIElements__DropdownField__UxmlFactory(void* ptr) noexcept : UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::DropdownField,UnityEngine::UIElements::UnityEngine__UIElements__DropdownField__UxmlTraits>(ptr) {
 }
 
 
-  constexpr ____UnityEngine__UIElements__DropdownField__UxmlFactory& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__UIElements__DropdownField__UxmlFactory& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__DropdownField__UxmlFactory& operator=(void* o) noexcept {
+  constexpr UnityEngine__UIElements__DropdownField__UxmlFactory& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__DropdownField__UxmlFactory& operator=(____UnityEngine__UIElements__DropdownField__UxmlFactory&& o) noexcept = default;
-  constexpr ____UnityEngine__UIElements__DropdownField__UxmlFactory& operator=(____UnityEngine__UIElements__DropdownField__UxmlFactory const& o) noexcept = default;
+  constexpr UnityEngine__UIElements__DropdownField__UxmlFactory& operator=(UnityEngine__UIElements__DropdownField__UxmlFactory&& o) noexcept = default;
+  constexpr UnityEngine__UIElements__DropdownField__UxmlFactory& operator=(UnityEngine__UIElements__DropdownField__UxmlFactory const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__UIElements__DropdownField__UxmlFactory() ;
+explicit UnityEngine__UIElements__DropdownField__UxmlFactory() ;
 
 /// @brief Method .ctor addr 0x2cb1e14 size 0x48 virtual false final false
  void _ctor() ;
@@ -403,47 +402,47 @@ namespace UnityEngine::UIElements {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6900))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7150))
 // CS Name: UnityEngine.UIElements.DropdownField::PopupTextElement
-class CORDL_TYPE ____UnityEngine__UIElements__DropdownField__PopupTextElement : public ::UnityEngine::UIElements::TextElement {
+class CORDL_TYPE UnityEngine__UIElements__DropdownField__PopupTextElement : public UnityEngine::UIElements::TextElement {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x478};
 
-virtual ~____UnityEngine__UIElements__DropdownField__PopupTextElement() = default;
+virtual ~UnityEngine__UIElements__DropdownField__PopupTextElement() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__DropdownField__PopupTextElement", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__UIElements__DropdownField__PopupTextElement(____UnityEngine__UIElements__DropdownField__PopupTextElement const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__DropdownField__PopupTextElement", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__UIElements__DropdownField__PopupTextElement(UnityEngine__UIElements__DropdownField__PopupTextElement const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__DropdownField__PopupTextElement", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__UIElements__DropdownField__PopupTextElement(____UnityEngine__UIElements__DropdownField__PopupTextElement&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__DropdownField__PopupTextElement", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__UIElements__DropdownField__PopupTextElement(UnityEngine__UIElements__DropdownField__PopupTextElement&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UIElements__DropdownField__PopupTextElement(void* ptr) noexcept : ::UnityEngine::UIElements::TextElement(ptr) {
+constexpr explicit UnityEngine__UIElements__DropdownField__PopupTextElement(void* ptr) noexcept : UnityEngine::UIElements::TextElement(ptr) {
 }
 
 
-  constexpr ____UnityEngine__UIElements__DropdownField__PopupTextElement& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__UIElements__DropdownField__PopupTextElement& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__DropdownField__PopupTextElement& operator=(void* o) noexcept {
+  constexpr UnityEngine__UIElements__DropdownField__PopupTextElement& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__DropdownField__PopupTextElement& operator=(____UnityEngine__UIElements__DropdownField__PopupTextElement&& o) noexcept = default;
-  constexpr ____UnityEngine__UIElements__DropdownField__PopupTextElement& operator=(____UnityEngine__UIElements__DropdownField__PopupTextElement const& o) noexcept = default;
+  constexpr UnityEngine__UIElements__DropdownField__PopupTextElement& operator=(UnityEngine__UIElements__DropdownField__PopupTextElement&& o) noexcept = default;
+  constexpr UnityEngine__UIElements__DropdownField__PopupTextElement& operator=(UnityEngine__UIElements__DropdownField__PopupTextElement const& o) noexcept = default;
                 
 
 
 // Methods
 
 /// @brief Method DoMeasure addr 0x2cb20c4 size 0xa4 virtual true final false
- ::UnityEngine::Vector2 DoMeasure(float_t desiredWidth, ::UnityEngine::UIElements::____UnityEngine__UIElements__VisualElement__MeasureMode widthMode, float_t desiredHeight, ::UnityEngine::UIElements::____UnityEngine__UIElements__VisualElement__MeasureMode heightMode) ;
+ UnityEngine::Vector2 DoMeasure(float_t desiredWidth, UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__MeasureMode widthMode, float_t desiredHeight, UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__MeasureMode heightMode) ;
 
 // Ctor Parameters []
-explicit ____UnityEngine__UIElements__DropdownField__PopupTextElement() ;
+explicit UnityEngine__UIElements__DropdownField__PopupTextElement() ;
 
 /// @brief Method .ctor addr 0x2cb102c size 0x58 virtual false final false
  void _ctor() ;
@@ -458,37 +457,37 @@ namespace UnityEngine::UIElements {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7151))
 // CS Name: UnityEngine.UIElements.DropdownField::<>c__DisplayClass38_0
-class CORDL_TYPE ____UnityEngine__UIElements__DropdownField____c__DisplayClass38_0 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__UIElements__DropdownField____c__DisplayClass38_0 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____UnityEngine__UIElements__DropdownField____c__DisplayClass38_0() = default;
+virtual ~UnityEngine__UIElements__DropdownField____c__DisplayClass38_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__DropdownField____c__DisplayClass38_0", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__UIElements__DropdownField____c__DisplayClass38_0(____UnityEngine__UIElements__DropdownField____c__DisplayClass38_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__DropdownField____c__DisplayClass38_0", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__UIElements__DropdownField____c__DisplayClass38_0(UnityEngine__UIElements__DropdownField____c__DisplayClass38_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__DropdownField____c__DisplayClass38_0", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__UIElements__DropdownField____c__DisplayClass38_0(____UnityEngine__UIElements__DropdownField____c__DisplayClass38_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__DropdownField____c__DisplayClass38_0", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__UIElements__DropdownField____c__DisplayClass38_0(UnityEngine__UIElements__DropdownField____c__DisplayClass38_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UIElements__DropdownField____c__DisplayClass38_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__UIElements__DropdownField____c__DisplayClass38_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__UIElements__DropdownField____c__DisplayClass38_0& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__UIElements__DropdownField____c__DisplayClass38_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__DropdownField____c__DisplayClass38_0& operator=(void* o) noexcept {
+  constexpr UnityEngine__UIElements__DropdownField____c__DisplayClass38_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__DropdownField____c__DisplayClass38_0& operator=(____UnityEngine__UIElements__DropdownField____c__DisplayClass38_0&& o) noexcept = default;
-  constexpr ____UnityEngine__UIElements__DropdownField____c__DisplayClass38_0& operator=(____UnityEngine__UIElements__DropdownField____c__DisplayClass38_0 const& o) noexcept = default;
+  constexpr UnityEngine__UIElements__DropdownField____c__DisplayClass38_0& operator=(UnityEngine__UIElements__DropdownField____c__DisplayClass38_0&& o) noexcept = default;
+  constexpr UnityEngine__UIElements__DropdownField____c__DisplayClass38_0& operator=(UnityEngine__UIElements__DropdownField____c__DisplayClass38_0 const& o) noexcept = default;
                 
 
 
@@ -500,17 +499,17 @@ constexpr void __set_item(::StringW value) ;
 
 constexpr ::StringW __get_item() const;
 
- ::UnityEngine::UIElements::DropdownField __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ UnityEngine::UIElements::DropdownField __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::UnityEngine::UIElements::DropdownField value) ;
+constexpr void __set___4__this(UnityEngine::UIElements::DropdownField value) ;
 
-constexpr ::UnityEngine::UIElements::DropdownField __get___4__this() const;
+constexpr UnityEngine::UIElements::DropdownField __get___4__this() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__UIElements__DropdownField____c__DisplayClass38_0() ;
+explicit UnityEngine__UIElements__DropdownField____c__DisplayClass38_0() ;
 
 /// @brief Method .ctor addr 0x2cb138c size 0x8 virtual false final false
  void _ctor() ;
@@ -522,14 +521,13 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::DropdownField);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::DropdownField, "UnityEngine.UIElements", "DropdownField");
-NEED_NO_BOX(::UnityEngine::UIElements::____UnityEngine__UIElements__DropdownField__PopupTextElement);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::____UnityEngine__UIElements__DropdownField__PopupTextElement, "UnityEngine.UIElements", "DropdownField/PopupTextElement");
-NEED_NO_BOX(::UnityEngine::UIElements::____UnityEngine__UIElements__DropdownField__UxmlFactory);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::____UnityEngine__UIElements__DropdownField__UxmlFactory, "UnityEngine.UIElements", "DropdownField/UxmlFactory");
-NEED_NO_BOX(::UnityEngine::UIElements::____UnityEngine__UIElements__DropdownField__UxmlTraits);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::____UnityEngine__UIElements__DropdownField__UxmlTraits, "UnityEngine.UIElements", "DropdownField/UxmlTraits");
-NEED_NO_BOX(::UnityEngine::UIElements::____UnityEngine__UIElements__DropdownField____c__DisplayClass38_0);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::____UnityEngine__UIElements__DropdownField____c__DisplayClass38_0, "UnityEngine.UIElements", "DropdownField/<>c__DisplayClass38_0");
+NEED_NO_BOX(UnityEngine::UIElements::DropdownField);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::DropdownField, "UnityEngine.UIElements", "DropdownField");
+NEED_NO_BOX(UnityEngine::UIElements::UnityEngine__UIElements__DropdownField__PopupTextElement);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UnityEngine__UIElements__DropdownField__PopupTextElement, "UnityEngine.UIElements", "DropdownField/PopupTextElement");
+NEED_NO_BOX(UnityEngine::UIElements::UnityEngine__UIElements__DropdownField__UxmlFactory);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UnityEngine__UIElements__DropdownField__UxmlFactory, "UnityEngine.UIElements", "DropdownField/UxmlFactory");
+NEED_NO_BOX(UnityEngine::UIElements::UnityEngine__UIElements__DropdownField__UxmlTraits);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UnityEngine__UIElements__DropdownField__UxmlTraits, "UnityEngine.UIElements", "DropdownField/UxmlTraits");
+NEED_NO_BOX(UnityEngine::UIElements::UnityEngine__UIElements__DropdownField____c__DisplayClass38_0);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UnityEngine__UIElements__DropdownField____c__DisplayClass38_0, "UnityEngine.UIElements", "DropdownField/<>c__DisplayClass38_0");

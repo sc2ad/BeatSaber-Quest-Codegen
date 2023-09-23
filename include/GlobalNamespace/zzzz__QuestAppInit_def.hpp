@@ -1,18 +1,17 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__AppInit_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class DefaultScenesTransitionsFromInit;
-}
-namespace GlobalNamespace {
-class MainSettingsModelSO;
 }
 namespace GlobalNamespace {
 class OculusInit;
 }
 namespace GlobalNamespace {
 class FileSaveData;
+}
+namespace GlobalNamespace {
+class MainSettingsModelSO;
 }
 namespace GlobalNamespace {
 class MainSystemInit;
@@ -27,7 +26,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4013))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4027))
 // CS Name: QuestAppInit
-class CORDL_TYPE QuestAppInit : public ::GlobalNamespace::AppInit {
+class CORDL_TYPE QuestAppInit : public GlobalNamespace::AppInit {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -42,7 +41,7 @@ constexpr QuestAppInit(QuestAppInit const& ) noexcept = default;
 constexpr QuestAppInit(QuestAppInit&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit QuestAppInit(void* ptr) noexcept : ::GlobalNamespace::AppInit(ptr) {
+constexpr explicit QuestAppInit(void* ptr) noexcept : GlobalNamespace::AppInit(ptr) {
 }
 
 
@@ -63,35 +62,35 @@ constexpr explicit QuestAppInit(void* ptr) noexcept : ::GlobalNamespace::AppInit
 
 // Fields
 
- ::GlobalNamespace::MainSystemInit __declspec(property(get=__get__mainSystemInit, put=__set__mainSystemInit))  _mainSystemInit;
+ GlobalNamespace::MainSystemInit __declspec(property(get=__get__mainSystemInit, put=__set__mainSystemInit))  _mainSystemInit;
 
-constexpr void __set__mainSystemInit(::GlobalNamespace::MainSystemInit value) ;
+constexpr void __set__mainSystemInit(GlobalNamespace::MainSystemInit value) ;
 
-constexpr ::GlobalNamespace::MainSystemInit __get__mainSystemInit() const;
+constexpr GlobalNamespace::MainSystemInit __get__mainSystemInit() const;
 
- ::GlobalNamespace::OculusInit __declspec(property(get=__get__oculusInit, put=__set__oculusInit))  _oculusInit;
+ GlobalNamespace::OculusInit __declspec(property(get=__get__oculusInit, put=__set__oculusInit))  _oculusInit;
 
-constexpr void __set__oculusInit(::GlobalNamespace::OculusInit value) ;
+constexpr void __set__oculusInit(GlobalNamespace::OculusInit value) ;
 
-constexpr ::GlobalNamespace::OculusInit __get__oculusInit() const;
+constexpr GlobalNamespace::OculusInit __get__oculusInit() const;
 
- ::GlobalNamespace::DefaultScenesTransitionsFromInit __declspec(property(get=__get__defaultScenesTransitionsFromInit, put=__set__defaultScenesTransitionsFromInit))  _defaultScenesTransitionsFromInit;
+ GlobalNamespace::DefaultScenesTransitionsFromInit __declspec(property(get=__get__defaultScenesTransitionsFromInit, put=__set__defaultScenesTransitionsFromInit))  _defaultScenesTransitionsFromInit;
 
-constexpr void __set__defaultScenesTransitionsFromInit(::GlobalNamespace::DefaultScenesTransitionsFromInit value) ;
+constexpr void __set__defaultScenesTransitionsFromInit(GlobalNamespace::DefaultScenesTransitionsFromInit value) ;
 
-constexpr ::GlobalNamespace::DefaultScenesTransitionsFromInit __get__defaultScenesTransitionsFromInit() const;
+constexpr GlobalNamespace::DefaultScenesTransitionsFromInit __get__defaultScenesTransitionsFromInit() const;
 
- ::GlobalNamespace::MainSettingsModelSO __declspec(property(get=__get__mainSettingsModel, put=__set__mainSettingsModel))  _mainSettingsModel;
+ GlobalNamespace::MainSettingsModelSO __declspec(property(get=__get__mainSettingsModel, put=__set__mainSettingsModel))  _mainSettingsModel;
 
-constexpr void __set__mainSettingsModel(::GlobalNamespace::MainSettingsModelSO value) ;
+constexpr void __set__mainSettingsModel(GlobalNamespace::MainSettingsModelSO value) ;
 
-constexpr ::GlobalNamespace::MainSettingsModelSO __get__mainSettingsModel() const;
+constexpr GlobalNamespace::MainSettingsModelSO __get__mainSettingsModel() const;
 
- ::GlobalNamespace::FileSaveData __declspec(property(get=__get__saveData, put=__set__saveData))  _saveData;
+ GlobalNamespace::FileSaveData __declspec(property(get=__get__saveData, put=__set__saveData))  _saveData;
 
-constexpr void __set__saveData(::GlobalNamespace::FileSaveData value) ;
+constexpr void __set__saveData(GlobalNamespace::FileSaveData value) ;
 
-constexpr ::GlobalNamespace::FileSaveData __get__saveData() const;
+constexpr GlobalNamespace::FileSaveData __get__saveData() const;
 
 
 // Methods
@@ -118,6 +117,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::QuestAppInit);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::QuestAppInit, "", "QuestAppInit");
+NEED_NO_BOX(GlobalNamespace::QuestAppInit);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuestAppInit, "", "QuestAppInit");

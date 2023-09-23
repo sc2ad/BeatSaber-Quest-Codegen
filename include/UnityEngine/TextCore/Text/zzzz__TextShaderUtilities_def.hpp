@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 class Shader;
 }
@@ -441,50 +440,49 @@ static void __set_isInitialized(bool value) ;
 
 static bool __get_isInitialized() ;
 
-static ::UnityEngine::Shader __declspec(property(get=__get_k_ShaderRef_MobileSDF, put=__set_k_ShaderRef_MobileSDF))  k_ShaderRef_MobileSDF;
+static UnityEngine::Shader __declspec(property(get=__get_k_ShaderRef_MobileSDF, put=__set_k_ShaderRef_MobileSDF))  k_ShaderRef_MobileSDF;
 
-static void __set_k_ShaderRef_MobileSDF(::UnityEngine::Shader value) ;
+static void __set_k_ShaderRef_MobileSDF(UnityEngine::Shader value) ;
 
-static ::UnityEngine::Shader __get_k_ShaderRef_MobileSDF() ;
+static UnityEngine::Shader __get_k_ShaderRef_MobileSDF() ;
 
-static ::UnityEngine::Shader __declspec(property(get=__get_k_ShaderRef_MobileBitmap, put=__set_k_ShaderRef_MobileBitmap))  k_ShaderRef_MobileBitmap;
+static UnityEngine::Shader __declspec(property(get=__get_k_ShaderRef_MobileBitmap, put=__set_k_ShaderRef_MobileBitmap))  k_ShaderRef_MobileBitmap;
 
-static void __set_k_ShaderRef_MobileBitmap(::UnityEngine::Shader value) ;
+static void __set_k_ShaderRef_MobileBitmap(UnityEngine::Shader value) ;
 
-static ::UnityEngine::Shader __get_k_ShaderRef_MobileBitmap() ;
+static UnityEngine::Shader __get_k_ShaderRef_MobileBitmap() ;
 
 
 // Properties
 
-static ::UnityEngine::Shader __declspec(property(get=get_ShaderRef_MobileSDF))  ShaderRef_MobileSDF;
+static UnityEngine::Shader __declspec(property(get=get_ShaderRef_MobileSDF))  ShaderRef_MobileSDF;
 
-static ::UnityEngine::Shader __declspec(property(get=get_ShaderRef_MobileBitmap))  ShaderRef_MobileBitmap;
+static UnityEngine::Shader __declspec(property(get=get_ShaderRef_MobileBitmap))  ShaderRef_MobileBitmap;
 
 
 // Methods
 
 /// @brief Method get_ShaderRef_MobileSDF addr 0x2bd01fc size 0x15c virtual false final false
-static ::UnityEngine::Shader get_ShaderRef_MobileSDF() ;
+static UnityEngine::Shader get_ShaderRef_MobileSDF() ;
 
 /// @brief Method get_ShaderRef_MobileBitmap addr 0x2bd0358 size 0x15c virtual false final false
-static ::UnityEngine::Shader get_ShaderRef_MobileBitmap() ;
+static UnityEngine::Shader get_ShaderRef_MobileBitmap() ;
 
 /// @brief Method GetShaderPropertyIDs addr 0x2bd0644 size 0x988 virtual false final false
 static void GetShaderPropertyIDs() ;
 
 /// @brief Method UpdateShaderRatios addr 0x2bd0fcc size 0x45c virtual false final false
-static void UpdateShaderRatios(::UnityEngine::Material mat) ;
+static void UpdateShaderRatios(UnityEngine::Material mat) ;
 
 /// @brief Method IsMaskingEnabled addr 0x2bd1428 size 0x19c virtual false final false
-static bool IsMaskingEnabled(::UnityEngine::Material material) ;
+static bool IsMaskingEnabled(UnityEngine::Material material) ;
 
 /// @brief Method GetPadding addr 0x2bd15c4 size 0x6a8 virtual false final false
-static float_t GetPadding(::UnityEngine::Material material, bool enableExtraPadding, bool isBold) ;
+static float_t GetPadding(UnityEngine::Material material, bool enableExtraPadding, bool isBold) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::Text
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::TextCore::Text::TextShaderUtilities);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::TextShaderUtilities, "UnityEngine.TextCore.Text", "TextShaderUtilities");
+NEED_NO_BOX(UnityEngine::TextCore::Text::TextShaderUtilities);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Text::TextShaderUtilities, "UnityEngine.TextCore.Text", "TextShaderUtilities");

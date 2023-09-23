@@ -2,12 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XObjectWrapper_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace Newtonsoft::Json::Converters {
-class IXmlNode;
-}
 namespace System::Xml::Linq {
 class XText;
+}
+namespace Newtonsoft::Json::Converters {
+class IXmlNode;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -19,7 +18,7 @@ namespace Newtonsoft::Json::Converters {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12007))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12003))
 // CS Name: Newtonsoft.Json.Converters.XTextWrapper
-class CORDL_TYPE XTextWrapper : public ::Newtonsoft::Json::Converters::XObjectWrapper {
+class CORDL_TYPE XTextWrapper : public Newtonsoft::Json::Converters::XObjectWrapper {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr XTextWrapper(XTextWrapper const& ) noexcept = default;
 constexpr XTextWrapper(XTextWrapper&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XTextWrapper(void* ptr) noexcept : ::Newtonsoft::Json::Converters::XObjectWrapper(ptr) {
+constexpr explicit XTextWrapper(void* ptr) noexcept : Newtonsoft::Json::Converters::XObjectWrapper(ptr) {
 }
 
 
@@ -55,23 +54,23 @@ constexpr explicit XTextWrapper(void* ptr) noexcept : ::Newtonsoft::Json::Conver
 
 // Properties
 
- ::System::Xml::Linq::XText __declspec(property(get=get_Text))  Text;
+ System::Xml::Linq::XText __declspec(property(get=get_Text))  Text;
 
  ::StringW __declspec(property(get=get_Value, put=set_Value))  Value;
 
- ::Newtonsoft::Json::Converters::IXmlNode __declspec(property(get=get_ParentNode))  ParentNode;
+ Newtonsoft::Json::Converters::IXmlNode __declspec(property(get=get_ParentNode))  ParentNode;
 
 
 // Methods
 
 /// @brief Method get_Text addr 0x254410c size 0x78 virtual false final false
- ::System::Xml::Linq::XText get_Text() ;
+ System::Xml::Linq::XText get_Text() ;
 
-// Ctor Parameters [CppParam { name: "text", ty: "::System::Xml::Linq::XText", modifiers: "", def_value: None }]
-explicit XTextWrapper(::System::Xml::Linq::XText text) ;
+// Ctor Parameters [CppParam { name: "text", ty: "System::Xml::Linq::XText", modifiers: "", def_value: None }]
+explicit XTextWrapper(System::Xml::Linq::XText text) ;
 
 /// @brief Method .ctor addr 0x2544184 size 0x6c virtual false final false
- void _ctor(::System::Xml::Linq::XText text) ;
+ void _ctor(System::Xml::Linq::XText text) ;
 
 /// @brief Method get_Value addr 0x25441f0 size 0x1c virtual true final false
  ::StringW get_Value() ;
@@ -80,12 +79,11 @@ explicit XTextWrapper(::System::Xml::Linq::XText text) ;
  void set_Value(::StringW value) ;
 
 /// @brief Method get_ParentNode addr 0x2544230 size 0x44 virtual true final false
- ::Newtonsoft::Json::Converters::IXmlNode get_ParentNode() ;
+ Newtonsoft::Json::Converters::IXmlNode get_ParentNode() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Converters
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Converters::XTextWrapper);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Converters::XTextWrapper, "Newtonsoft.Json.Converters", "XTextWrapper");
+NEED_NO_BOX(Newtonsoft::Json::Converters::XTextWrapper);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Converters::XTextWrapper, "Newtonsoft.Json.Converters", "XTextWrapper");

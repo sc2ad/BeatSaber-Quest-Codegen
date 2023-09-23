@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HAPI_AttributeTypeInfo;
@@ -81,56 +80,55 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field HAPI_ATTRIBUTE_TYPE_INVALID offset 0
-static ::HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_INVALID;
+static HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_INVALID;
 
 /// @brief Field HAPI_ATTRIBUTE_TYPE_NONE offset 0
-static ::HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_NONE;
+static HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_NONE;
 
 /// @brief Field HAPI_ATTRIBUTE_TYPE_POINT offset 0
-static ::HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_POINT;
+static HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_POINT;
 
 /// @brief Field HAPI_ATTRIBUTE_TYPE_HPOINT offset 0
-static ::HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_HPOINT;
+static HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_HPOINT;
 
 /// @brief Field HAPI_ATTRIBUTE_TYPE_VECTOR offset 0
-static ::HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_VECTOR;
+static HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_VECTOR;
 
 /// @brief Field HAPI_ATTRIBUTE_TYPE_NORMAL offset 0
-static ::HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_NORMAL;
+static HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_NORMAL;
 
 /// @brief Field HAPI_ATTRIBUTE_TYPE_COLOR offset 0
-static ::HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_COLOR;
+static HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_COLOR;
 
 /// @brief Field HAPI_ATTRIBUTE_TYPE_QUATERNION offset 0
-static ::HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_QUATERNION;
+static HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_QUATERNION;
 
 /// @brief Field HAPI_ATTRIBUTE_TYPE_MATRIX3 offset 0
-static ::HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_MATRIX3;
+static HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_MATRIX3;
 
 /// @brief Field HAPI_ATTRIBUTE_TYPE_MATRIX offset 0
-static ::HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_MATRIX;
+static HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_MATRIX;
 
 /// @brief Field HAPI_ATTRIBUTE_TYPE_ST offset 0
-static ::HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_ST;
+static HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_ST;
 
 /// @brief Field HAPI_ATTRIBUTE_TYPE_HIDDEN offset 0
-static ::HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_HIDDEN;
+static HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_HIDDEN;
 
 /// @brief Field HAPI_ATTRIBUTE_TYPE_BOX2 offset 0
-static ::HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_BOX2;
+static HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_BOX2;
 
 /// @brief Field HAPI_ATTRIBUTE_TYPE_BOX offset 0
-static ::HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_BOX;
+static HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_BOX;
 
 /// @brief Field HAPI_ATTRIBUTE_TYPE_TEXTURE offset 0
-static ::HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_TEXTURE;
+static HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_TEXTURE;
 
 /// @brief Field HAPI_ATTRIBUTE_TYPE_MAX offset 0
-static ::HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_MAX;
+static HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_MAX;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_AttributeTypeInfo, "HoudiniEngineUnity", "HAPI_AttributeTypeInfo");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_AttributeTypeInfo, "HoudiniEngineUnity", "HAPI_AttributeTypeInfo");

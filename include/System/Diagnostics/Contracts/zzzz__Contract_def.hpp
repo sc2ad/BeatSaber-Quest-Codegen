@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
@@ -58,12 +57,11 @@ constexpr explicit Contract(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(p
 
 /// @brief Method ForAll addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static bool ForAll(::System::Collections::Generic::IEnumerable_1<T> collection, ::System::Predicate_1<T> predicate) ;
+static bool ForAll(System::Collections::Generic::IEnumerable_1<T> collection, System::Predicate_1<T> predicate) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Diagnostics::Contracts
-} // end anonymous namespace
-NEED_NO_BOX(::System::Diagnostics::Contracts::Contract);
-DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::Contracts::Contract, "System.Diagnostics.Contracts", "Contract");
+NEED_NO_BOX(System::Diagnostics::Contracts::Contract);
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Contracts::Contract, "System.Diagnostics.Contracts", "Contract");

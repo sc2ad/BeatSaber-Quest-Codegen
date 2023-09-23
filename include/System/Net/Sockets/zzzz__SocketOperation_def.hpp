@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net::Sockets {
 struct SocketOperation;
@@ -77,44 +76,43 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Accept offset 0
-static ::System::Net::Sockets::SocketOperation const Accept;
+static System::Net::Sockets::SocketOperation const Accept;
 
 /// @brief Field Connect offset 0
-static ::System::Net::Sockets::SocketOperation const Connect;
+static System::Net::Sockets::SocketOperation const Connect;
 
 /// @brief Field Receive offset 0
-static ::System::Net::Sockets::SocketOperation const Receive;
+static System::Net::Sockets::SocketOperation const Receive;
 
 /// @brief Field ReceiveFrom offset 0
-static ::System::Net::Sockets::SocketOperation const ReceiveFrom;
+static System::Net::Sockets::SocketOperation const ReceiveFrom;
 
 /// @brief Field Send offset 0
-static ::System::Net::Sockets::SocketOperation const Send;
+static System::Net::Sockets::SocketOperation const Send;
 
 /// @brief Field SendTo offset 0
-static ::System::Net::Sockets::SocketOperation const SendTo;
+static System::Net::Sockets::SocketOperation const SendTo;
 
 /// @brief Field RecvJustCallback offset 0
-static ::System::Net::Sockets::SocketOperation const RecvJustCallback;
+static System::Net::Sockets::SocketOperation const RecvJustCallback;
 
 /// @brief Field SendJustCallback offset 0
-static ::System::Net::Sockets::SocketOperation const SendJustCallback;
+static System::Net::Sockets::SocketOperation const SendJustCallback;
 
 /// @brief Field Disconnect offset 0
-static ::System::Net::Sockets::SocketOperation const Disconnect;
+static System::Net::Sockets::SocketOperation const Disconnect;
 
 /// @brief Field AcceptReceive offset 0
-static ::System::Net::Sockets::SocketOperation const AcceptReceive;
+static System::Net::Sockets::SocketOperation const AcceptReceive;
 
 /// @brief Field ReceiveGeneric offset 0
-static ::System::Net::Sockets::SocketOperation const ReceiveGeneric;
+static System::Net::Sockets::SocketOperation const ReceiveGeneric;
 
 /// @brief Field SendGeneric offset 0
-static ::System::Net::Sockets::SocketOperation const SendGeneric;
+static System::Net::Sockets::SocketOperation const SendGeneric;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net::Sockets
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Sockets::SocketOperation, "System.Net.Sockets", "SocketOperation");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketOperation, "System.Net.Sockets", "SocketOperation");

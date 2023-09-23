@@ -3,15 +3,30 @@
 #include "GlobalNamespace/zzzz__SceneSetupData_def.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
+namespace GlobalNamespace {
+class MainSettingsModelSO;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
 namespace GlobalNamespace {
 class PracticeSettings;
 }
 namespace GlobalNamespace {
-class EnvironmentInfoSO;
+class BeatmapDataCache;
 }
 namespace GlobalNamespace {
-class BeatmapDataCache;
+class IReadonlyBeatmapData;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
 }
 namespace GlobalNamespace {
 class PlayerSpecificSettings;
@@ -20,30 +35,10 @@ namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
 class ColorScheme;
 }
 namespace GlobalNamespace {
-class IReadonlyBeatmapData;
-}
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace GlobalNamespace {
-class MainSettingsModelSO;
-}
-namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct AsyncTaskMethodBuilder_1;
+class EnvironmentInfoSO;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
@@ -53,6 +48,10 @@ namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
+template<typename TResult>
+struct AsyncTaskMethodBuilder_1;
+}
+namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
 }
 // Forward declare root types
@@ -60,10 +59,10 @@ namespace GlobalNamespace {
 class GameplayCoreSceneSetupData;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__GameplayCoreSceneSetupData___GetTransformedBeatmapDataAsync_d__15;
+struct GlobalNamespace__GameplayCoreSceneSetupData___GetTransformedBeatmapDataAsync_d__15;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__14;
+struct GlobalNamespace__GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__14;
 }
 // Type: ::<LoadTransformedBeatmapDataAsync>d__14
 namespace GlobalNamespace {
@@ -71,23 +70,23 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6103))
 // CS Name: GameplayCoreSceneSetupData::<LoadTransformedBeatmapDataAsync>d__14
-struct CORDL_TYPE ____GlobalNamespace__GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__14 : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__14 : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::CompilerServices::IAsyncStateMachine
-constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine() const;
+/// @brief Convert operator to System::Runtime::CompilerServices::IAsyncStateMachine
+constexpr operator  System::Runtime::CompilerServices::IAsyncStateMachine() const;
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::GameplayCoreSceneSetupData", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData>", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__14(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::GameplayCoreSceneSetupData __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData> __u__1) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "GlobalNamespace::GameplayCoreSceneSetupData", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IReadonlyBeatmapData>", modifiers: "", def_value: None }]
+constexpr GlobalNamespace__GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__14(int32_t __1__state, System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, GlobalNamespace::GameplayCoreSceneSetupData __4__this, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IReadonlyBeatmapData> __u__1) noexcept;
 
 
-                    constexpr ____GlobalNamespace__GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__14(____GlobalNamespace__GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__14 const&) = default;
-                    constexpr ____GlobalNamespace__GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__14(____GlobalNamespace__GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__14&&) = default;
-                    constexpr ____GlobalNamespace__GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__14& operator=(____GlobalNamespace__GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__14 const& o) {
+                    constexpr GlobalNamespace__GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__14(GlobalNamespace__GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__14 const&) = default;
+                    constexpr GlobalNamespace__GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__14(GlobalNamespace__GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__14&&) = default;
+                    constexpr GlobalNamespace__GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__14& operator=(GlobalNamespace__GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__14 const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__14& operator=(____GlobalNamespace__GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__14&& o) noexcept {
+                    constexpr GlobalNamespace__GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__14& operator=(GlobalNamespace__GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__14&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -100,7 +99,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x30};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__14(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__14(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -117,23 +116,23 @@ constexpr void __set___1__state(int32_t value) ;
 
 constexpr int32_t __get___1__state() const;
 
- ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
+ System::Runtime::CompilerServices::AsyncTaskMethodBuilder __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
 
-constexpr void __set___t__builder(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder value) ;
+constexpr void __set___t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder value) ;
 
-constexpr ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __get___t__builder() const;
+constexpr System::Runtime::CompilerServices::AsyncTaskMethodBuilder __get___t__builder() const;
 
- ::GlobalNamespace::GameplayCoreSceneSetupData __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::GameplayCoreSceneSetupData __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::GameplayCoreSceneSetupData value) ;
+constexpr void __set___4__this(GlobalNamespace::GameplayCoreSceneSetupData value) ;
 
-constexpr ::GlobalNamespace::GameplayCoreSceneSetupData __get___4__this() const;
+constexpr GlobalNamespace::GameplayCoreSceneSetupData __get___4__this() const;
 
- ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData> __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
+ System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IReadonlyBeatmapData> __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
 
-constexpr void __set___u__1(::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData> value) ;
+constexpr void __set___u__1(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IReadonlyBeatmapData> value) ;
 
-constexpr ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData> __get___u__1() const;
+constexpr System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IReadonlyBeatmapData> __get___u__1() const;
 
 
 // Methods
@@ -142,7 +141,7 @@ constexpr ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::
  void MoveNext() ;
 
 /// @brief Method SetStateMachine addr 0x21b6f04 size 0xc virtual true final true
- void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
+ void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -154,23 +153,23 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6104))
 // CS Name: GameplayCoreSceneSetupData::<GetTransformedBeatmapDataAsync>d__15
-struct CORDL_TYPE ____GlobalNamespace__GameplayCoreSceneSetupData___GetTransformedBeatmapDataAsync_d__15 : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__GameplayCoreSceneSetupData___GetTransformedBeatmapDataAsync_d__15 : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::CompilerServices::IAsyncStateMachine
-constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine() const;
+/// @brief Convert operator to System::Runtime::CompilerServices::IAsyncStateMachine
+constexpr operator  System::Runtime::CompilerServices::IAsyncStateMachine() const;
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::GameplayCoreSceneSetupData", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData>", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__GameplayCoreSceneSetupData___GetTransformedBeatmapDataAsync_d__15(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData> __t__builder, ::GlobalNamespace::GameplayCoreSceneSetupData __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData> __u__1) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::IReadonlyBeatmapData>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "GlobalNamespace::GameplayCoreSceneSetupData", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IReadonlyBeatmapData>", modifiers: "", def_value: None }]
+constexpr GlobalNamespace__GameplayCoreSceneSetupData___GetTransformedBeatmapDataAsync_d__15(int32_t __1__state, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::IReadonlyBeatmapData> __t__builder, GlobalNamespace::GameplayCoreSceneSetupData __4__this, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IReadonlyBeatmapData> __u__1) noexcept;
 
 
-                    constexpr ____GlobalNamespace__GameplayCoreSceneSetupData___GetTransformedBeatmapDataAsync_d__15(____GlobalNamespace__GameplayCoreSceneSetupData___GetTransformedBeatmapDataAsync_d__15 const&) = default;
-                    constexpr ____GlobalNamespace__GameplayCoreSceneSetupData___GetTransformedBeatmapDataAsync_d__15(____GlobalNamespace__GameplayCoreSceneSetupData___GetTransformedBeatmapDataAsync_d__15&&) = default;
-                    constexpr ____GlobalNamespace__GameplayCoreSceneSetupData___GetTransformedBeatmapDataAsync_d__15& operator=(____GlobalNamespace__GameplayCoreSceneSetupData___GetTransformedBeatmapDataAsync_d__15 const& o) {
+                    constexpr GlobalNamespace__GameplayCoreSceneSetupData___GetTransformedBeatmapDataAsync_d__15(GlobalNamespace__GameplayCoreSceneSetupData___GetTransformedBeatmapDataAsync_d__15 const&) = default;
+                    constexpr GlobalNamespace__GameplayCoreSceneSetupData___GetTransformedBeatmapDataAsync_d__15(GlobalNamespace__GameplayCoreSceneSetupData___GetTransformedBeatmapDataAsync_d__15&&) = default;
+                    constexpr GlobalNamespace__GameplayCoreSceneSetupData___GetTransformedBeatmapDataAsync_d__15& operator=(GlobalNamespace__GameplayCoreSceneSetupData___GetTransformedBeatmapDataAsync_d__15 const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__GameplayCoreSceneSetupData___GetTransformedBeatmapDataAsync_d__15& operator=(____GlobalNamespace__GameplayCoreSceneSetupData___GetTransformedBeatmapDataAsync_d__15&& o) noexcept {
+                    constexpr GlobalNamespace__GameplayCoreSceneSetupData___GetTransformedBeatmapDataAsync_d__15& operator=(GlobalNamespace__GameplayCoreSceneSetupData___GetTransformedBeatmapDataAsync_d__15&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -183,7 +182,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x30};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__GameplayCoreSceneSetupData___GetTransformedBeatmapDataAsync_d__15(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__GameplayCoreSceneSetupData___GetTransformedBeatmapDataAsync_d__15(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -200,23 +199,23 @@ constexpr void __set___1__state(int32_t value) ;
 
 constexpr int32_t __get___1__state() const;
 
- ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData> __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
+ System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::IReadonlyBeatmapData> __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
 
-constexpr void __set___t__builder(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData> value) ;
+constexpr void __set___t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::IReadonlyBeatmapData> value) ;
 
-constexpr ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData> __get___t__builder() const;
+constexpr System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::IReadonlyBeatmapData> __get___t__builder() const;
 
- ::GlobalNamespace::GameplayCoreSceneSetupData __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::GameplayCoreSceneSetupData __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::GameplayCoreSceneSetupData value) ;
+constexpr void __set___4__this(GlobalNamespace::GameplayCoreSceneSetupData value) ;
 
-constexpr ::GlobalNamespace::GameplayCoreSceneSetupData __get___4__this() const;
+constexpr GlobalNamespace::GameplayCoreSceneSetupData __get___4__this() const;
 
- ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData> __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
+ System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IReadonlyBeatmapData> __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
 
-constexpr void __set___u__1(::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData> value) ;
+constexpr void __set___u__1(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IReadonlyBeatmapData> value) ;
 
-constexpr ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData> __get___u__1() const;
+constexpr System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IReadonlyBeatmapData> __get___u__1() const;
 
 
 // Methods
@@ -225,7 +224,7 @@ constexpr ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::
  void MoveNext() ;
 
 /// @brief Method SetStateMachine addr 0x21b7320 size 0x1058 virtual true final true
- void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
+ void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -237,12 +236,12 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13869))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6105))
 // CS Name: GameplayCoreSceneSetupData
-class CORDL_TYPE GameplayCoreSceneSetupData : public ::GlobalNamespace::SceneSetupData {
+class CORDL_TYPE GameplayCoreSceneSetupData : public GlobalNamespace::SceneSetupData {
 public:
 // Declarations
-using _GetTransformedBeatmapDataAsync_d__15 = ::GlobalNamespace::____GlobalNamespace__GameplayCoreSceneSetupData___GetTransformedBeatmapDataAsync_d__15;
+using _GetTransformedBeatmapDataAsync_d__15 = GlobalNamespace::GlobalNamespace__GameplayCoreSceneSetupData___GetTransformedBeatmapDataAsync_d__15;
 
-using _LoadTransformedBeatmapDataAsync_d__14 = ::GlobalNamespace::____GlobalNamespace__GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__14;
+using _LoadTransformedBeatmapDataAsync_d__14 = GlobalNamespace::GlobalNamespace__GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__14;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x68};
@@ -256,7 +255,7 @@ constexpr GameplayCoreSceneSetupData(GameplayCoreSceneSetupData const& ) noexcep
 constexpr GameplayCoreSceneSetupData(GameplayCoreSceneSetupData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GameplayCoreSceneSetupData(void* ptr) noexcept : ::GlobalNamespace::SceneSetupData(ptr) {
+constexpr explicit GameplayCoreSceneSetupData(void* ptr) noexcept : GlobalNamespace::SceneSetupData(ptr) {
 }
 
 
@@ -277,35 +276,35 @@ constexpr explicit GameplayCoreSceneSetupData(void* ptr) noexcept : ::GlobalName
 
 // Fields
 
- ::GlobalNamespace::IDifficultyBeatmap __declspec(property(get=__get_difficultyBeatmap, put=__set_difficultyBeatmap))  difficultyBeatmap;
+ GlobalNamespace::IDifficultyBeatmap __declspec(property(get=__get_difficultyBeatmap, put=__set_difficultyBeatmap))  difficultyBeatmap;
 
-constexpr void __set_difficultyBeatmap(::GlobalNamespace::IDifficultyBeatmap value) ;
+constexpr void __set_difficultyBeatmap(GlobalNamespace::IDifficultyBeatmap value) ;
 
-constexpr ::GlobalNamespace::IDifficultyBeatmap __get_difficultyBeatmap() const;
+constexpr GlobalNamespace::IDifficultyBeatmap __get_difficultyBeatmap() const;
 
- ::GlobalNamespace::IPreviewBeatmapLevel __declspec(property(get=__get_previewBeatmapLevel, put=__set_previewBeatmapLevel))  previewBeatmapLevel;
+ GlobalNamespace::IPreviewBeatmapLevel __declspec(property(get=__get_previewBeatmapLevel, put=__set_previewBeatmapLevel))  previewBeatmapLevel;
 
-constexpr void __set_previewBeatmapLevel(::GlobalNamespace::IPreviewBeatmapLevel value) ;
+constexpr void __set_previewBeatmapLevel(GlobalNamespace::IPreviewBeatmapLevel value) ;
 
-constexpr ::GlobalNamespace::IPreviewBeatmapLevel __get_previewBeatmapLevel() const;
+constexpr GlobalNamespace::IPreviewBeatmapLevel __get_previewBeatmapLevel() const;
 
- ::GlobalNamespace::GameplayModifiers __declspec(property(get=__get_gameplayModifiers, put=__set_gameplayModifiers))  gameplayModifiers;
+ GlobalNamespace::GameplayModifiers __declspec(property(get=__get_gameplayModifiers, put=__set_gameplayModifiers))  gameplayModifiers;
 
-constexpr void __set_gameplayModifiers(::GlobalNamespace::GameplayModifiers value) ;
+constexpr void __set_gameplayModifiers(GlobalNamespace::GameplayModifiers value) ;
 
-constexpr ::GlobalNamespace::GameplayModifiers __get_gameplayModifiers() const;
+constexpr GlobalNamespace::GameplayModifiers __get_gameplayModifiers() const;
 
- ::GlobalNamespace::PlayerSpecificSettings __declspec(property(get=__get_playerSpecificSettings, put=__set_playerSpecificSettings))  playerSpecificSettings;
+ GlobalNamespace::PlayerSpecificSettings __declspec(property(get=__get_playerSpecificSettings, put=__set_playerSpecificSettings))  playerSpecificSettings;
 
-constexpr void __set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings value) ;
+constexpr void __set_playerSpecificSettings(GlobalNamespace::PlayerSpecificSettings value) ;
 
-constexpr ::GlobalNamespace::PlayerSpecificSettings __get_playerSpecificSettings() const;
+constexpr GlobalNamespace::PlayerSpecificSettings __get_playerSpecificSettings() const;
 
- ::GlobalNamespace::PracticeSettings __declspec(property(get=__get_practiceSettings, put=__set_practiceSettings))  practiceSettings;
+ GlobalNamespace::PracticeSettings __declspec(property(get=__get_practiceSettings, put=__set_practiceSettings))  practiceSettings;
 
-constexpr void __set_practiceSettings(::GlobalNamespace::PracticeSettings value) ;
+constexpr void __set_practiceSettings(GlobalNamespace::PracticeSettings value) ;
 
-constexpr ::GlobalNamespace::PracticeSettings __get_practiceSettings() const;
+constexpr GlobalNamespace::PracticeSettings __get_practiceSettings() const;
 
  bool __declspec(property(get=__get_useTestNoteCutSoundEffects, put=__set_useTestNoteCutSoundEffects))  useTestNoteCutSoundEffects;
 
@@ -313,65 +312,64 @@ constexpr void __set_useTestNoteCutSoundEffects(bool value) ;
 
 constexpr bool __get_useTestNoteCutSoundEffects() const;
 
- ::GlobalNamespace::EnvironmentInfoSO __declspec(property(get=__get_environmentInfo, put=__set_environmentInfo))  environmentInfo;
+ GlobalNamespace::EnvironmentInfoSO __declspec(property(get=__get_environmentInfo, put=__set_environmentInfo))  environmentInfo;
 
-constexpr void __set_environmentInfo(::GlobalNamespace::EnvironmentInfoSO value) ;
+constexpr void __set_environmentInfo(GlobalNamespace::EnvironmentInfoSO value) ;
 
-constexpr ::GlobalNamespace::EnvironmentInfoSO __get_environmentInfo() const;
+constexpr GlobalNamespace::EnvironmentInfoSO __get_environmentInfo() const;
 
- ::GlobalNamespace::ColorScheme __declspec(property(get=__get_colorScheme, put=__set_colorScheme))  colorScheme;
+ GlobalNamespace::ColorScheme __declspec(property(get=__get_colorScheme, put=__set_colorScheme))  colorScheme;
 
-constexpr void __set_colorScheme(::GlobalNamespace::ColorScheme value) ;
+constexpr void __set_colorScheme(GlobalNamespace::ColorScheme value) ;
 
-constexpr ::GlobalNamespace::ColorScheme __get_colorScheme() const;
+constexpr GlobalNamespace::ColorScheme __get_colorScheme() const;
 
- ::GlobalNamespace::MainSettingsModelSO __declspec(property(get=__get_mainSettingsModel, put=__set_mainSettingsModel))  mainSettingsModel;
+ GlobalNamespace::MainSettingsModelSO __declspec(property(get=__get_mainSettingsModel, put=__set_mainSettingsModel))  mainSettingsModel;
 
-constexpr void __set_mainSettingsModel(::GlobalNamespace::MainSettingsModelSO value) ;
+constexpr void __set_mainSettingsModel(GlobalNamespace::MainSettingsModelSO value) ;
 
-constexpr ::GlobalNamespace::MainSettingsModelSO __get_mainSettingsModel() const;
+constexpr GlobalNamespace::MainSettingsModelSO __get_mainSettingsModel() const;
 
- ::GlobalNamespace::BeatmapDataCache __declspec(property(get=__get_beatmapDataCache, put=__set_beatmapDataCache))  beatmapDataCache;
+ GlobalNamespace::BeatmapDataCache __declspec(property(get=__get_beatmapDataCache, put=__set_beatmapDataCache))  beatmapDataCache;
 
-constexpr void __set_beatmapDataCache(::GlobalNamespace::BeatmapDataCache value) ;
+constexpr void __set_beatmapDataCache(GlobalNamespace::BeatmapDataCache value) ;
 
-constexpr ::GlobalNamespace::BeatmapDataCache __get_beatmapDataCache() const;
+constexpr GlobalNamespace::BeatmapDataCache __get_beatmapDataCache() const;
 
- ::GlobalNamespace::IReadonlyBeatmapData __declspec(property(get=__get__transformedBeatmapData, put=__set__transformedBeatmapData))  _transformedBeatmapData;
+ GlobalNamespace::IReadonlyBeatmapData __declspec(property(get=__get__transformedBeatmapData, put=__set__transformedBeatmapData))  _transformedBeatmapData;
 
-constexpr void __set__transformedBeatmapData(::GlobalNamespace::IReadonlyBeatmapData value) ;
+constexpr void __set__transformedBeatmapData(GlobalNamespace::IReadonlyBeatmapData value) ;
 
-constexpr ::GlobalNamespace::IReadonlyBeatmapData __get__transformedBeatmapData() const;
+constexpr GlobalNamespace::IReadonlyBeatmapData __get__transformedBeatmapData() const;
 
 
 // Properties
 
- ::GlobalNamespace::IReadonlyBeatmapData __declspec(property(get=get_transformedBeatmapData))  transformedBeatmapData;
+ GlobalNamespace::IReadonlyBeatmapData __declspec(property(get=get_transformedBeatmapData))  transformedBeatmapData;
 
 
 // Methods
 
 /// @brief Method get_transformedBeatmapData addr 0x21b6af4 size 0x8 virtual false final false
- ::GlobalNamespace::IReadonlyBeatmapData get_transformedBeatmapData() ;
+ GlobalNamespace::IReadonlyBeatmapData get_transformedBeatmapData() ;
 
-// Ctor Parameters [CppParam { name: "difficultyBeatmap", ty: "::GlobalNamespace::IDifficultyBeatmap", modifiers: "", def_value: None }, CppParam { name: "previewBeatmapLevel", ty: "::GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "gameplayModifiers", ty: "::GlobalNamespace::GameplayModifiers", modifiers: "", def_value: None }, CppParam { name: "playerSpecificSettings", ty: "::GlobalNamespace::PlayerSpecificSettings", modifiers: "", def_value: None }, CppParam { name: "practiceSettings", ty: "::GlobalNamespace::PracticeSettings", modifiers: "", def_value: None }, CppParam { name: "useTestNoteCutSoundEffects", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "environmentInfo", ty: "::GlobalNamespace::EnvironmentInfoSO", modifiers: "", def_value: None }, CppParam { name: "colorScheme", ty: "::GlobalNamespace::ColorScheme", modifiers: "", def_value: None }, CppParam { name: "mainSettingsModel", ty: "::GlobalNamespace::MainSettingsModelSO", modifiers: "", def_value: None }, CppParam { name: "beatmapDataCache", ty: "::GlobalNamespace::BeatmapDataCache", modifiers: "", def_value: None }]
-explicit GameplayCoreSceneSetupData(::GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, ::GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, ::GlobalNamespace::GameplayModifiers gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings playerSpecificSettings, ::GlobalNamespace::PracticeSettings practiceSettings, bool useTestNoteCutSoundEffects, ::GlobalNamespace::EnvironmentInfoSO environmentInfo, ::GlobalNamespace::ColorScheme colorScheme, ::GlobalNamespace::MainSettingsModelSO mainSettingsModel, ::GlobalNamespace::BeatmapDataCache beatmapDataCache) ;
+// Ctor Parameters [CppParam { name: "difficultyBeatmap", ty: "GlobalNamespace::IDifficultyBeatmap", modifiers: "", def_value: None }, CppParam { name: "previewBeatmapLevel", ty: "GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "gameplayModifiers", ty: "GlobalNamespace::GameplayModifiers", modifiers: "", def_value: None }, CppParam { name: "playerSpecificSettings", ty: "GlobalNamespace::PlayerSpecificSettings", modifiers: "", def_value: None }, CppParam { name: "practiceSettings", ty: "GlobalNamespace::PracticeSettings", modifiers: "", def_value: None }, CppParam { name: "useTestNoteCutSoundEffects", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "environmentInfo", ty: "GlobalNamespace::EnvironmentInfoSO", modifiers: "", def_value: None }, CppParam { name: "colorScheme", ty: "GlobalNamespace::ColorScheme", modifiers: "", def_value: None }, CppParam { name: "mainSettingsModel", ty: "GlobalNamespace::MainSettingsModelSO", modifiers: "", def_value: None }, CppParam { name: "beatmapDataCache", ty: "GlobalNamespace::BeatmapDataCache", modifiers: "", def_value: None }]
+explicit GameplayCoreSceneSetupData(GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::GameplayModifiers gameplayModifiers, GlobalNamespace::PlayerSpecificSettings playerSpecificSettings, GlobalNamespace::PracticeSettings practiceSettings, bool useTestNoteCutSoundEffects, GlobalNamespace::EnvironmentInfoSO environmentInfo, GlobalNamespace::ColorScheme colorScheme, GlobalNamespace::MainSettingsModelSO mainSettingsModel, GlobalNamespace::BeatmapDataCache beatmapDataCache) ;
 
 /// @brief Method .ctor addr 0x21b6afc size 0x88 virtual false final false
- void _ctor(::GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, ::GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, ::GlobalNamespace::GameplayModifiers gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings playerSpecificSettings, ::GlobalNamespace::PracticeSettings practiceSettings, bool useTestNoteCutSoundEffects, ::GlobalNamespace::EnvironmentInfoSO environmentInfo, ::GlobalNamespace::ColorScheme colorScheme, ::GlobalNamespace::MainSettingsModelSO mainSettingsModel, ::GlobalNamespace::BeatmapDataCache beatmapDataCache) ;
+ void _ctor(GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::GameplayModifiers gameplayModifiers, GlobalNamespace::PlayerSpecificSettings playerSpecificSettings, GlobalNamespace::PracticeSettings practiceSettings, bool useTestNoteCutSoundEffects, GlobalNamespace::EnvironmentInfoSO environmentInfo, GlobalNamespace::ColorScheme colorScheme, GlobalNamespace::MainSettingsModelSO mainSettingsModel, GlobalNamespace::BeatmapDataCache beatmapDataCache) ;
 
 /// @brief Method LoadTransformedBeatmapDataAsync addr 0x21b6b84 size 0xc8 virtual false final false
- ::System::Threading::Tasks::Task LoadTransformedBeatmapDataAsync() ;
+ System::Threading::Tasks::Task LoadTransformedBeatmapDataAsync() ;
 
 /// @brief Method GetTransformedBeatmapDataAsync addr 0x21b6c4c size 0xf0 virtual false final false
- ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData> GetTransformedBeatmapDataAsync() ;
+ System::Threading::Tasks::Task_1<GlobalNamespace::IReadonlyBeatmapData> GetTransformedBeatmapDataAsync() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::GameplayCoreSceneSetupData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameplayCoreSceneSetupData, "", "GameplayCoreSceneSetupData");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__GameplayCoreSceneSetupData___GetTransformedBeatmapDataAsync_d__15, "", "GameplayCoreSceneSetupData/<GetTransformedBeatmapDataAsync>d__15");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__14, "", "GameplayCoreSceneSetupData/<LoadTransformedBeatmapDataAsync>d__14");
+NEED_NO_BOX(GlobalNamespace::GameplayCoreSceneSetupData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayCoreSceneSetupData, "", "GameplayCoreSceneSetupData");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__GameplayCoreSceneSetupData___GetTransformedBeatmapDataAsync_d__15, "", "GameplayCoreSceneSetupData/<GetTransformedBeatmapDataAsync>d__15");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__14, "", "GameplayCoreSceneSetupData/<LoadTransformedBeatmapDataAsync>d__14");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__StaticMemoryPool_8_def.hpp"
-namespace {
 // Forward declare root types
 namespace Zenject {
 template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TParam6,typename TParam7,typename TValue>
@@ -17,10 +16,10 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TParam2,::cordl_internals::il2cpp_reference_type TParam3,::cordl_internals::il2cpp_reference_type TParam4,::cordl_internals::il2cpp_reference_type TParam5,::cordl_internals::il2cpp_reference_type TParam6,::cordl_internals::il2cpp_reference_type TParam7,::cordl_internals::il2cpp_reference_type TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11025)), TypeDefinitionIndex(TypeDefinitionIndex(11035)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11035), inst: 3511 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11035)), TypeDefinitionIndex(TypeDefinitionIndex(11025)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11035), inst: 3511 })}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11025), inst: 5941 })
 // CS Name: Zenject.PoolableStaticMemoryPool`8
-class CORDL_TYPE PoolableStaticMemoryPool_8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TValue> : public ::Zenject::StaticMemoryPool_8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TValue> {
+class CORDL_TYPE PoolableStaticMemoryPool_8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TValue> : public Zenject::StaticMemoryPool_8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TValue> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr PoolableStaticMemoryPool_8(PoolableStaticMemoryPool_8 const& ) noexcep
 constexpr PoolableStaticMemoryPool_8(PoolableStaticMemoryPool_8&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PoolableStaticMemoryPool_8(void* ptr) noexcept : ::Zenject::StaticMemoryPool_8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TValue>(ptr) {
+constexpr explicit PoolableStaticMemoryPool_8(void* ptr) noexcept : Zenject::StaticMemoryPool_8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TValue>(ptr) {
 }
 
 
@@ -72,5 +71,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::PoolableStaticMemoryPool_8, "Zenject", "PoolableStaticMemoryPool`8");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::PoolableStaticMemoryPool_8, "Zenject", "PoolableStaticMemoryPool`8");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 class PhysicMaterial;
@@ -12,7 +11,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10142))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15462))
 // CS Name: UnityEngine.PhysicMaterial
-class CORDL_TYPE PhysicMaterial : public ::UnityEngine::Object {
+class CORDL_TYPE PhysicMaterial : public UnityEngine::Object {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr PhysicMaterial(PhysicMaterial const& ) noexcept = default;
 constexpr PhysicMaterial(PhysicMaterial&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PhysicMaterial(void* ptr) noexcept : ::UnityEngine::Object(ptr) {
+constexpr explicit PhysicMaterial(void* ptr) noexcept : UnityEngine::Object(ptr) {
 }
 
 
@@ -49,6 +48,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::PhysicMaterial);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PhysicMaterial, "UnityEngine", "PhysicMaterial");
+NEED_NO_BOX(UnityEngine::PhysicMaterial);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PhysicMaterial, "UnityEngine", "PhysicMaterial");

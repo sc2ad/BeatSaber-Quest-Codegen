@@ -1,13 +1,12 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace UnityEngine {
-class GameObject;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace UnityEngine {
 class Object;
@@ -41,16 +40,16 @@ constexpr explicit IPropertyCollector(void* ptr) noexcept : ::cordl_internals::I
 // Methods
 
 /// @brief Method PushActiveGameObject addr 0x0 size 0xffffffffffffffff virtual true final false
- void PushActiveGameObject(::UnityEngine::GameObject gameObject) ;
+ void PushActiveGameObject(UnityEngine::GameObject gameObject) ;
 
 /// @brief Method PopActiveGameObject addr 0x0 size 0xffffffffffffffff virtual true final false
  void PopActiveGameObject() ;
 
 /// @brief Method AddFromClip addr 0x0 size 0xffffffffffffffff virtual true final false
- void AddFromClip(::UnityEngine::AnimationClip clip) ;
+ void AddFromClip(UnityEngine::AnimationClip clip) ;
 
 /// @brief Method AddFromClips addr 0x0 size 0xffffffffffffffff virtual true final false
- void AddFromClips(::System::Collections::Generic::IEnumerable_1<::UnityEngine::AnimationClip> clips) ;
+ void AddFromClips(System::Collections::Generic::IEnumerable_1<UnityEngine::AnimationClip> clips) ;
 
 /// @brief Method AddFromName addr 0x0 size 0xffffffffffffffff virtual true final false
 template<typename T>
@@ -60,31 +59,30 @@ template<typename T>
  void AddFromName(::StringW name) ;
 
 /// @brief Method AddFromClip addr 0x0 size 0xffffffffffffffff virtual true final false
- void AddFromClip(::UnityEngine::GameObject obj, ::UnityEngine::AnimationClip clip) ;
+ void AddFromClip(UnityEngine::GameObject obj, UnityEngine::AnimationClip clip) ;
 
 /// @brief Method AddFromClips addr 0x0 size 0xffffffffffffffff virtual true final false
- void AddFromClips(::UnityEngine::GameObject obj, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::AnimationClip> clips) ;
+ void AddFromClips(UnityEngine::GameObject obj, System::Collections::Generic::IEnumerable_1<UnityEngine::AnimationClip> clips) ;
 
 /// @brief Method AddFromName addr 0x0 size 0xffffffffffffffff virtual true final false
 template<typename T>
- void AddFromName(::UnityEngine::GameObject obj, ::StringW name) ;
+ void AddFromName(UnityEngine::GameObject obj, ::StringW name) ;
 
 /// @brief Method AddFromName addr 0x0 size 0xffffffffffffffff virtual true final false
- void AddFromName(::UnityEngine::GameObject obj, ::StringW name) ;
+ void AddFromName(UnityEngine::GameObject obj, ::StringW name) ;
 
 /// @brief Method AddFromName addr 0x0 size 0xffffffffffffffff virtual true final false
- void AddFromName(::UnityEngine::Component component, ::StringW name) ;
+ void AddFromName(UnityEngine::Component component, ::StringW name) ;
 
 /// @brief Method AddFromComponent addr 0x0 size 0xffffffffffffffff virtual true final false
- void AddFromComponent(::UnityEngine::GameObject obj, ::UnityEngine::Component component) ;
+ void AddFromComponent(UnityEngine::GameObject obj, UnityEngine::Component component) ;
 
 /// @brief Method AddObjectProperties addr 0x0 size 0xffffffffffffffff virtual true final false
- void AddObjectProperties(::UnityEngine::Object obj, ::UnityEngine::AnimationClip clip) ;
+ void AddObjectProperties(UnityEngine::Object obj, UnityEngine::AnimationClip clip) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Timeline::IPropertyCollector);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::IPropertyCollector, "UnityEngine.Timeline", "IPropertyCollector");
+NEED_NO_BOX(UnityEngine::Timeline::IPropertyCollector);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::IPropertyCollector, "UnityEngine.Timeline", "IPropertyCollector");

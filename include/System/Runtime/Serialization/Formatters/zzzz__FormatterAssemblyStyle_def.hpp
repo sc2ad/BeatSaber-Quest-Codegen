@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters {
 struct FormatterAssemblyStyle;
@@ -67,14 +66,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Simple offset 0
-static ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle const Simple;
+static System::Runtime::Serialization::Formatters::FormatterAssemblyStyle const Simple;
 
 /// @brief Field Full offset 0
-static ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle const Full;
+static System::Runtime::Serialization::Formatters::FormatterAssemblyStyle const Full;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization::Formatters
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle, "System.Runtime.Serialization.Formatters", "FormatterAssemblyStyle");
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::FormatterAssemblyStyle, "System.Runtime.Serialization.Formatters", "FormatterAssemblyStyle");

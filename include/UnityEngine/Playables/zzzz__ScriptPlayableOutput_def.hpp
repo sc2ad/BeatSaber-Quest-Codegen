@@ -2,18 +2,17 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
-namespace {
-namespace UnityEngine::Playables {
-class IPlayableOutput;
-}
 namespace UnityEngine::Playables {
 struct PlayableOutputHandle;
+}
+namespace UnityEngine::Playables {
+struct PlayableOutput;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
-struct PlayableOutput;
+class IPlayableOutput;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {
@@ -28,11 +27,11 @@ namespace UnityEngine::Playables {
 struct CORDL_TYPE ScriptPlayableOutput : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::Playables::IPlayableOutput
-constexpr operator  ::UnityEngine::Playables::IPlayableOutput() const;
+/// @brief Convert operator to UnityEngine::Playables::IPlayableOutput
+constexpr operator  UnityEngine::Playables::IPlayableOutput() const;
 
-// Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableOutputHandle", modifiers: "", def_value: None }]
-constexpr ScriptPlayableOutput(::UnityEngine::Playables::PlayableOutputHandle m_Handle) noexcept;
+// Ctor Parameters [CppParam { name: "m_Handle", ty: "UnityEngine::Playables::PlayableOutputHandle", modifiers: "", def_value: None }]
+constexpr ScriptPlayableOutput(UnityEngine::Playables::PlayableOutputHandle m_Handle) noexcept;
 
 
                     constexpr ScriptPlayableOutput(ScriptPlayableOutput const&) = default;
@@ -65,38 +64,37 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Playables::PlayableOutputHandle __declspec(property(get=__get_m_Handle, put=__set_m_Handle))  m_Handle;
+ UnityEngine::Playables::PlayableOutputHandle __declspec(property(get=__get_m_Handle, put=__set_m_Handle))  m_Handle;
 
-constexpr void __set_m_Handle(::UnityEngine::Playables::PlayableOutputHandle value) ;
+constexpr void __set_m_Handle(UnityEngine::Playables::PlayableOutputHandle value) ;
 
-constexpr ::UnityEngine::Playables::PlayableOutputHandle __get_m_Handle() const;
+constexpr UnityEngine::Playables::PlayableOutputHandle __get_m_Handle() const;
 
 
 // Properties
 
-static ::UnityEngine::Playables::ScriptPlayableOutput __declspec(property(get=get_Null))  Null;
+static UnityEngine::Playables::ScriptPlayableOutput __declspec(property(get=get_Null))  Null;
 
 
 // Methods
 
 /// @brief Method Create addr 0x2b7c8a8 size 0x78 virtual false final false
-static ::UnityEngine::Playables::ScriptPlayableOutput Create(::UnityEngine::Playables::PlayableGraph graph, ::StringW name) ;
+static UnityEngine::Playables::ScriptPlayableOutput Create(UnityEngine::Playables::PlayableGraph graph, ::StringW name) ;
 
 /// @brief Method .ctor addr 0x2b7c9ec size 0xbc virtual false final false
- void _ctor(::UnityEngine::Playables::PlayableOutputHandle handle) ;
+ void _ctor(UnityEngine::Playables::PlayableOutputHandle handle) ;
 
 /// @brief Method get_Null addr 0x2b7c974 size 0x78 virtual false final false
-static ::UnityEngine::Playables::ScriptPlayableOutput get_Null() ;
+static UnityEngine::Playables::ScriptPlayableOutput get_Null() ;
 
 /// @brief Method GetHandle addr 0x2b7caa8 size 0xc virtual true final true
- ::UnityEngine::Playables::PlayableOutputHandle GetHandle() ;
+ UnityEngine::Playables::PlayableOutputHandle GetHandle() ;
 
 /// @brief Method op_Implicit addr 0x2b7cab4 size 0x4 virtual false final false
-static ::UnityEngine::Playables::PlayableOutput op_Implicit___UnityEngine__Playables__PlayableOutput(::UnityEngine::Playables::ScriptPlayableOutput output) ;
+static UnityEngine::Playables::PlayableOutput op_Implicit_UnityEngine__Playables__PlayableOutput(UnityEngine::Playables::ScriptPlayableOutput output) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Playables
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Playables::ScriptPlayableOutput, "UnityEngine.Playables", "ScriptPlayableOutput");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::ScriptPlayableOutput, "UnityEngine.Playables", "ScriptPlayableOutput");

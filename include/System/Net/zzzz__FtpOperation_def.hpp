@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net {
 struct FtpOperation;
@@ -79,50 +78,49 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field DownloadFile offset 0
-static ::System::Net::FtpOperation const DownloadFile;
+static System::Net::FtpOperation const DownloadFile;
 
 /// @brief Field ListDirectory offset 0
-static ::System::Net::FtpOperation const ListDirectory;
+static System::Net::FtpOperation const ListDirectory;
 
 /// @brief Field ListDirectoryDetails offset 0
-static ::System::Net::FtpOperation const ListDirectoryDetails;
+static System::Net::FtpOperation const ListDirectoryDetails;
 
 /// @brief Field UploadFile offset 0
-static ::System::Net::FtpOperation const UploadFile;
+static System::Net::FtpOperation const UploadFile;
 
 /// @brief Field UploadFileUnique offset 0
-static ::System::Net::FtpOperation const UploadFileUnique;
+static System::Net::FtpOperation const UploadFileUnique;
 
 /// @brief Field AppendFile offset 0
-static ::System::Net::FtpOperation const AppendFile;
+static System::Net::FtpOperation const AppendFile;
 
 /// @brief Field DeleteFile offset 0
-static ::System::Net::FtpOperation const DeleteFile;
+static System::Net::FtpOperation const DeleteFile;
 
 /// @brief Field GetDateTimestamp offset 0
-static ::System::Net::FtpOperation const GetDateTimestamp;
+static System::Net::FtpOperation const GetDateTimestamp;
 
 /// @brief Field GetFileSize offset 0
-static ::System::Net::FtpOperation const GetFileSize;
+static System::Net::FtpOperation const GetFileSize;
 
 /// @brief Field Rename offset 0
-static ::System::Net::FtpOperation const Rename;
+static System::Net::FtpOperation const Rename;
 
 /// @brief Field MakeDirectory offset 0
-static ::System::Net::FtpOperation const MakeDirectory;
+static System::Net::FtpOperation const MakeDirectory;
 
 /// @brief Field RemoveDirectory offset 0
-static ::System::Net::FtpOperation const RemoveDirectory;
+static System::Net::FtpOperation const RemoveDirectory;
 
 /// @brief Field PrintWorkingDirectory offset 0
-static ::System::Net::FtpOperation const PrintWorkingDirectory;
+static System::Net::FtpOperation const PrintWorkingDirectory;
 
 /// @brief Field Other offset 0
-static ::System::Net::FtpOperation const Other;
+static System::Net::FtpOperation const Other;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::FtpOperation, "System.Net", "FtpOperation");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpOperation, "System.Net", "FtpOperation");

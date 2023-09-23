@@ -4,18 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto {
-class IDsa;
-}
 namespace Org::BouncyCastle::Crypto {
 class ISigner;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IDigest;
 }
 namespace Org::BouncyCastle::Crypto {
-class IDigest;
+class IDsa;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
@@ -30,8 +29,8 @@ namespace Org::BouncyCastle::Crypto::Signers {
 class CORDL_TYPE Gost3410DigestSigner : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::ISigner
-constexpr operator  ::Org::BouncyCastle::Crypto::ISigner() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::ISigner
+constexpr operator  Org::BouncyCastle::Crypto::ISigner() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -66,17 +65,17 @@ constexpr explicit Gost3410DigestSigner(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 // Fields
 
- ::Org::BouncyCastle::Crypto::IDigest __declspec(property(get=__get_digest, put=__set_digest))  digest;
+ Org::BouncyCastle::Crypto::IDigest __declspec(property(get=__get_digest, put=__set_digest))  digest;
 
-constexpr void __set_digest(::Org::BouncyCastle::Crypto::IDigest value) ;
+constexpr void __set_digest(Org::BouncyCastle::Crypto::IDigest value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IDigest __get_digest() const;
+constexpr Org::BouncyCastle::Crypto::IDigest __get_digest() const;
 
- ::Org::BouncyCastle::Crypto::IDsa __declspec(property(get=__get_dsaSigner, put=__set_dsaSigner))  dsaSigner;
+ Org::BouncyCastle::Crypto::IDsa __declspec(property(get=__get_dsaSigner, put=__set_dsaSigner))  dsaSigner;
 
-constexpr void __set_dsaSigner(::Org::BouncyCastle::Crypto::IDsa value) ;
+constexpr void __set_dsaSigner(Org::BouncyCastle::Crypto::IDsa value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IDsa __get_dsaSigner() const;
+constexpr Org::BouncyCastle::Crypto::IDsa __get_dsaSigner() const;
 
  int32_t __declspec(property(get=__get_size, put=__set_size))  size;
 
@@ -104,17 +103,17 @@ constexpr bool __get_forSigning() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "signer", ty: "::Org::BouncyCastle::Crypto::IDsa", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "::Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
-explicit Gost3410DigestSigner(::Org::BouncyCastle::Crypto::IDsa signer, ::Org::BouncyCastle::Crypto::IDigest digest) ;
+// Ctor Parameters [CppParam { name: "signer", ty: "Org::BouncyCastle::Crypto::IDsa", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
+explicit Gost3410DigestSigner(Org::BouncyCastle::Crypto::IDsa signer, Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method .ctor addr 0xebee74 size 0xcc virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IDsa signer, ::Org::BouncyCastle::Crypto::IDigest digest) ;
+ void _ctor(Org::BouncyCastle::Crypto::IDsa signer, Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method get_AlgorithmName addr 0xebef40 size 0x140 virtual true final false
  ::StringW get_AlgorithmName() ;
 
 /// @brief Method Init addr 0xebf080 size 0x228 virtual true final false
- void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method Update addr 0xebf2a8 size 0xac virtual true final false
  void Update(uint8_t input) ;
@@ -135,6 +134,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Signers
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner, "Org.BouncyCastle.Crypto.Signers", "Gost3410DigestSigner");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner, "Org.BouncyCastle.Crypto.Signers", "Gost3410DigestSigner");

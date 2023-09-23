@@ -1,6 +1,5 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace System::Collections {
 class IDictionary;
 }
@@ -26,18 +25,17 @@ constexpr explicit IMessage(void* ptr) noexcept : ::cordl_internals::InterfaceW(
 
 // Properties
 
- ::System::Collections::IDictionary __declspec(property(get=get_Properties))  Properties;
+ System::Collections::IDictionary __declspec(property(get=get_Properties))  Properties;
 
 
 // Methods
 
 /// @brief Method get_Properties addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Collections::IDictionary get_Properties() ;
+ System::Collections::IDictionary get_Properties() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Messaging
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Messaging::IMessage);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::IMessage, "System.Runtime.Remoting.Messaging", "IMessage");
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::IMessage);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::IMessage, "System.Runtime.Remoting.Messaging", "IMessage");

@@ -1,6 +1,5 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
@@ -24,11 +23,11 @@ template<typename TKey,typename TElement>
 class CORDL_TYPE IGrouping_2 : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerable_1<TElement>
-constexpr operator  ::System::Collections::Generic::IEnumerable_1<TElement>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerable_1<TElement>
+constexpr operator  System::Collections::Generic::IEnumerable_1<TElement>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
 ~IGrouping_2() = default;
 
@@ -51,5 +50,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Linq
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Linq::IGrouping_2, "System.Linq", "IGrouping`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Linq::IGrouping_2, "System.Linq", "IGrouping`2");

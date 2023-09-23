@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/Threading/zzzz__EventWaitHandle_def.hpp"
-namespace {
 // Forward declare root types
 namespace System::Threading {
 class ManualResetEvent;
@@ -12,7 +11,7 @@ namespace System::Threading {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2707))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2664))
 // CS Name: System.Threading.ManualResetEvent
-class CORDL_TYPE ManualResetEvent : public ::System::Threading::EventWaitHandle {
+class CORDL_TYPE ManualResetEvent : public System::Threading::EventWaitHandle {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr ManualResetEvent(ManualResetEvent const& ) noexcept = default;
 constexpr ManualResetEvent(ManualResetEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ManualResetEvent(void* ptr) noexcept : ::System::Threading::EventWaitHandle(ptr) {
+constexpr explicit ManualResetEvent(void* ptr) noexcept : System::Threading::EventWaitHandle(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Threading
-} // end anonymous namespace
-NEED_NO_BOX(::System::Threading::ManualResetEvent);
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::ManualResetEvent, "System.Threading", "ManualResetEvent");
+NEED_NO_BOX(System::Threading::ManualResetEvent);
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::ManualResetEvent, "System.Threading", "ManualResetEvent");

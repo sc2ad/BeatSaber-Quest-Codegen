@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Runtime::InteropServices {
 struct CharSet;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::Runtime::InteropServices::CharSet const None;
+static System::Runtime::InteropServices::CharSet const None;
 
 /// @brief Field Ansi offset 0
-static ::System::Runtime::InteropServices::CharSet const Ansi;
+static System::Runtime::InteropServices::CharSet const Ansi;
 
 /// @brief Field Unicode offset 0
-static ::System::Runtime::InteropServices::CharSet const Unicode;
+static System::Runtime::InteropServices::CharSet const Unicode;
 
 /// @brief Field Auto offset 0
-static ::System::Runtime::InteropServices::CharSet const Auto;
+static System::Runtime::InteropServices::CharSet const Auto;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::InteropServices
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::CharSet, "System.Runtime.InteropServices", "CharSet");
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::CharSet, "System.Runtime.InteropServices", "CharSet");

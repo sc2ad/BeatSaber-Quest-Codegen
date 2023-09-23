@@ -4,34 +4,33 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+class ColorScheme;
+}
 namespace HMUI {
-class TableView;
+class DropdownWithTableView;
+}
+namespace HMUI {
+class HMUI__TableView__IDataSource;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace HMUI {
+class TableCell;
 }
 namespace GlobalNamespace {
 class ColorSchemeTableCell;
 }
 namespace GlobalNamespace {
-class ColorScheme;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
-}
-namespace HMUI {
-class ____HMUI__TableView__IDataSource;
-}
-namespace HMUI {
-class TableCell;
-}
-namespace HMUI {
-class DropdownWithTableView;
-}
-namespace GlobalNamespace {
 class ColorSchemeView;
 }
-namespace TMPro {
-class TextMeshProUGUI;
+namespace HMUI {
+class TableView;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -43,11 +42,11 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13675))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5498))
 // CS Name: ColorSchemeDropdown
-class CORDL_TYPE ColorSchemeDropdown : public ::HMUI::DropdownWithTableView {
+class CORDL_TYPE ColorSchemeDropdown : public HMUI::DropdownWithTableView {
 public:
 // Declarations
-/// @brief Convert operator to ::HMUI::____HMUI__TableView__IDataSource
-constexpr operator  ::HMUI::____HMUI__TableView__IDataSource() const noexcept;
+/// @brief Convert operator to HMUI::HMUI__TableView__IDataSource
+constexpr operator  HMUI::HMUI__TableView__IDataSource() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x80};
@@ -61,7 +60,7 @@ constexpr ColorSchemeDropdown(ColorSchemeDropdown const& ) noexcept = default;
 constexpr ColorSchemeDropdown(ColorSchemeDropdown&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ColorSchemeDropdown(void* ptr) noexcept : ::HMUI::DropdownWithTableView(ptr) {
+constexpr explicit ColorSchemeDropdown(void* ptr) noexcept : HMUI::DropdownWithTableView(ptr) {
 }
 
 
@@ -82,23 +81,23 @@ constexpr explicit ColorSchemeDropdown(void* ptr) noexcept : ::HMUI::DropdownWit
 
 // Fields
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__text, put=__set__text))  _text;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__text, put=__set__text))  _text;
 
-constexpr void __set__text(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__text(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__text() const;
+constexpr TMPro::TextMeshProUGUI __get__text() const;
 
- ::GlobalNamespace::ColorSchemeView __declspec(property(get=__get__colorSchemeView, put=__set__colorSchemeView))  _colorSchemeView;
+ GlobalNamespace::ColorSchemeView __declspec(property(get=__get__colorSchemeView, put=__set__colorSchemeView))  _colorSchemeView;
 
-constexpr void __set__colorSchemeView(::GlobalNamespace::ColorSchemeView value) ;
+constexpr void __set__colorSchemeView(GlobalNamespace::ColorSchemeView value) ;
 
-constexpr ::GlobalNamespace::ColorSchemeView __get__colorSchemeView() const;
+constexpr GlobalNamespace::ColorSchemeView __get__colorSchemeView() const;
 
- ::GlobalNamespace::ColorSchemeTableCell __declspec(property(get=__get__cellPrefab, put=__set__cellPrefab))  _cellPrefab;
+ GlobalNamespace::ColorSchemeTableCell __declspec(property(get=__get__cellPrefab, put=__set__cellPrefab))  _cellPrefab;
 
-constexpr void __set__cellPrefab(::GlobalNamespace::ColorSchemeTableCell value) ;
+constexpr void __set__cellPrefab(GlobalNamespace::ColorSchemeTableCell value) ;
 
-constexpr ::GlobalNamespace::ColorSchemeTableCell __get__cellPrefab() const;
+constexpr GlobalNamespace::ColorSchemeTableCell __get__cellPrefab() const;
 
  ::StringW __declspec(property(get=__get__cellReuseIdentifier, put=__set__cellReuseIdentifier))  _cellReuseIdentifier;
 
@@ -112,11 +111,11 @@ constexpr void __set__cellSize(float_t value) ;
 
 constexpr float_t __get__cellSize() const;
 
- ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::ColorScheme> __declspec(property(get=__get__colorSchemes, put=__set__colorSchemes))  _colorSchemes;
+ System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::ColorScheme> __declspec(property(get=__get__colorSchemes, put=__set__colorSchemes))  _colorSchemes;
 
-constexpr void __set__colorSchemes(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::ColorScheme> value) ;
+constexpr void __set__colorSchemes(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::ColorScheme> value) ;
 
-constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::ColorScheme> __get__colorSchemes() const;
+constexpr System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::ColorScheme> __get__colorSchemes() const;
 
  bool __declspec(property(get=__get__initialized, put=__set__initialized))  _initialized;
 
@@ -134,10 +133,10 @@ constexpr bool __get__initialized() const;
  void OnDestroy() ;
 
 /// @brief Method Init addr 0x211dd30 size 0x40 virtual false final false
- void Init(::HMUI::____HMUI__TableView__IDataSource initTableViewDataSource) ;
+ void Init(HMUI::HMUI__TableView__IDataSource initTableViewDataSource) ;
 
 /// @brief Method SetData addr 0x211dd70 size 0x158 virtual false final false
- void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::ColorScheme> colorSchemes) ;
+ void SetData(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::ColorScheme> colorSchemes) ;
 
 /// @brief Method CellSize addr 0x211dfbc size 0x8 virtual true final true
  float_t CellSize() ;
@@ -146,16 +145,16 @@ constexpr bool __get__initialized() const;
  int32_t NumberOfCells() ;
 
 /// @brief Method CellForIdx addr 0x211e070 size 0x294 virtual true final true
- ::HMUI::TableCell CellForIdx(::HMUI::TableView tableView, int32_t idx) ;
+ HMUI::TableCell CellForIdx(HMUI::TableView tableView, int32_t idx) ;
 
 /// @brief Method SelectCellWithIdx addr 0x211e3c0 size 0xc4 virtual true final false
  void SelectCellWithIdx(int32_t idx) ;
 
 /// @brief Method HandleDidSelectCellWithIdx addr 0x211e484 size 0x138 virtual false final false
- void HandleDidSelectCellWithIdx(::HMUI::DropdownWithTableView dropdownWithTableView, int32_t idx) ;
+ void HandleDidSelectCellWithIdx(HMUI::DropdownWithTableView dropdownWithTableView, int32_t idx) ;
 
 /// @brief Method RefreshUI addr 0x211dec8 size 0xf4 virtual false final false
- void RefreshUI(::GlobalNamespace::ColorScheme colorScheme) ;
+ void RefreshUI(GlobalNamespace::ColorScheme colorScheme) ;
 
 // Ctor Parameters []
 explicit ColorSchemeDropdown() ;
@@ -167,6 +166,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ColorSchemeDropdown);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ColorSchemeDropdown, "", "ColorSchemeDropdown");
+NEED_NO_BOX(GlobalNamespace::ColorSchemeDropdown);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeDropdown, "", "ColorSchemeDropdown");

@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-class AsyncCallback;
-}
 namespace System {
 class IAsyncResult;
+}
+namespace System {
+class AsyncCallback;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
@@ -26,10 +25,10 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T,::cordl_internals::il2cpp_reference_type TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11802)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610)), TypeDefinitionIndex(TypeDefinitionIndex(11802))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11802), inst: 80 })
 // CS Name: Newtonsoft.Json.Utilities.MethodCall`2
-class CORDL_TYPE MethodCall_2<T,TResult> : public ::System::MulticastDelegate {
+class CORDL_TYPE MethodCall_2<T,TResult> : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -44,7 +43,7 @@ constexpr MethodCall_2(MethodCall_2 const& ) noexcept = default;
 constexpr MethodCall_2(MethodCall_2&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MethodCall_2(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit MethodCall_2(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -75,14 +74,13 @@ explicit MethodCall_2(::bs_hook::Il2CppWrapperType object, ::cordl_internals::in
  TResult Invoke(T target, ::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
 
 /// @brief Method BeginInvoke addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::IAsyncResult BeginInvoke(T target, ::ArrayW<::bs_hook::Il2CppWrapperType> args, ::System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
+ System::IAsyncResult BeginInvoke(T target, ::ArrayW<::bs_hook::Il2CppWrapperType> args, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
 
 /// @brief Method EndInvoke addr 0x0 size 0xffffffffffffffff virtual true final false
- TResult EndInvoke(::System::IAsyncResult result) ;
+ TResult EndInvoke(System::IAsyncResult result) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Utilities
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Newtonsoft::Json::Utilities::MethodCall_2, "Newtonsoft.Json.Utilities", "MethodCall`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Newtonsoft::Json::Utilities::MethodCall_2, "Newtonsoft.Json.Utilities", "MethodCall`2");

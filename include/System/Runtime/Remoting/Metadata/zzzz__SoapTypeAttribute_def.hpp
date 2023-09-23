@@ -3,7 +3,6 @@
 #include "System/Runtime/Remoting/Metadata/zzzz__SoapAttribute_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace System::Runtime::Remoting::Metadata {
 class SoapTypeAttribute;
@@ -14,7 +13,7 @@ namespace System::Runtime::Remoting::Metadata {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3134))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3138))
 // CS Name: System.Runtime.Remoting.Metadata.SoapTypeAttribute
-class CORDL_TYPE SoapTypeAttribute : public ::System::Runtime::Remoting::Metadata::SoapAttribute {
+class CORDL_TYPE SoapTypeAttribute : public System::Runtime::Remoting::Metadata::SoapAttribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr SoapTypeAttribute(SoapTypeAttribute const& ) noexcept = default;
 constexpr SoapTypeAttribute(SoapTypeAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SoapTypeAttribute(void* ptr) noexcept : ::System::Runtime::Remoting::Metadata::SoapAttribute(ptr) {
+constexpr explicit SoapTypeAttribute(void* ptr) noexcept : System::Runtime::Remoting::Metadata::SoapAttribute(ptr) {
 }
 
 
@@ -146,6 +145,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Metadata
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Metadata::SoapTypeAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Metadata::SoapTypeAttribute, "System.Runtime.Remoting.Metadata", "SoapTypeAttribute");
+NEED_NO_BOX(System::Runtime::Remoting::Metadata::SoapTypeAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Metadata::SoapTypeAttribute, "System.Runtime.Remoting.Metadata", "SoapTypeAttribute");

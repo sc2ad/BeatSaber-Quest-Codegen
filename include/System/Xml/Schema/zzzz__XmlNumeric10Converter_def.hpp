@@ -4,7 +4,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace System {
+struct Decimal;
+}
 namespace System::Xml {
 class IXmlNamespaceResolver;
 }
@@ -17,9 +19,6 @@ class XmlValueConverter;
 namespace System {
 class Type;
 }
-namespace System {
-struct Decimal;
-}
 // Forward declare root types
 namespace System::Xml::Schema {
 class XmlNumeric10Converter;
@@ -30,7 +29,7 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11690))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11691))
 // CS Name: System.Xml.Schema.XmlNumeric10Converter
-class CORDL_TYPE XmlNumeric10Converter : public ::System::Xml::Schema::XmlBaseConverter {
+class CORDL_TYPE XmlNumeric10Converter : public System::Xml::Schema::XmlBaseConverter {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -45,7 +44,7 @@ constexpr XmlNumeric10Converter(XmlNumeric10Converter const& ) noexcept = defaul
 constexpr XmlNumeric10Converter(XmlNumeric10Converter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XmlNumeric10Converter(void* ptr) noexcept : ::System::Xml::Schema::XmlBaseConverter(ptr) {
+constexpr explicit XmlNumeric10Converter(void* ptr) noexcept : System::Xml::Schema::XmlBaseConverter(ptr) {
 }
 
 
@@ -66,20 +65,20 @@ constexpr explicit XmlNumeric10Converter(void* ptr) noexcept : ::System::Xml::Sc
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "schemaType", ty: "::System::Xml::Schema::XmlSchemaType", modifiers: "", def_value: None }]
-explicit XmlNumeric10Converter(::System::Xml::Schema::XmlSchemaType schemaType) ;
+// Ctor Parameters [CppParam { name: "schemaType", ty: "System::Xml::Schema::XmlSchemaType", modifiers: "", def_value: None }]
+explicit XmlNumeric10Converter(System::Xml::Schema::XmlSchemaType schemaType) ;
 
 /// @brief Method .ctor addr 0x273b8d8 size 0x64 virtual false final false
- void _ctor(::System::Xml::Schema::XmlSchemaType schemaType) ;
+ void _ctor(System::Xml::Schema::XmlSchemaType schemaType) ;
 
 /// @brief Method Create addr 0x2724e44 size 0x60 virtual false final false
-static ::System::Xml::Schema::XmlValueConverter Create(::System::Xml::Schema::XmlSchemaType schemaType) ;
+static System::Xml::Schema::XmlValueConverter Create(System::Xml::Schema::XmlSchemaType schemaType) ;
 
 /// @brief Method ToDecimal addr 0x273b93c size 0xc8 virtual true final false
- ::System::Decimal ToDecimal(::StringW value) ;
+ System::Decimal ToDecimal(::StringW value) ;
 
 /// @brief Method ToDecimal addr 0x273ba04 size 0x3e4 virtual true final false
- ::System::Decimal ToDecimal(::bs_hook::Il2CppWrapperType value) ;
+ System::Decimal ToDecimal(::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method ToInt32 addr 0x273c248 size 0x54 virtual true final false
  int32_t ToInt32(int64_t value) ;
@@ -100,7 +99,7 @@ static ::System::Xml::Schema::XmlValueConverter Create(::System::Xml::Schema::Xm
  int64_t ToInt64(::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method ToString addr 0x273cc5c size 0xbc virtual true final false
- ::StringW ToString(::System::Decimal value) ;
+ ::StringW ToString(System::Decimal value) ;
 
 /// @brief Method ToString addr 0x273cd18 size 0x58 virtual true final false
  ::StringW ToString(int32_t value) ;
@@ -109,33 +108,32 @@ static ::System::Xml::Schema::XmlValueConverter Create(::System::Xml::Schema::Xm
  ::StringW ToString(int64_t value) ;
 
 /// @brief Method ToString addr 0x273cdc8 size 0x40c virtual true final false
- ::StringW ToString(::bs_hook::Il2CppWrapperType value, ::System::Xml::IXmlNamespaceResolver nsResolver) ;
+ ::StringW ToString(::bs_hook::Il2CppWrapperType value, System::Xml::IXmlNamespaceResolver nsResolver) ;
 
 /// @brief Method ChangeType addr 0x273d1d4 size 0x43c virtual true final false
- ::bs_hook::Il2CppWrapperType ChangeType(::System::Decimal value, ::System::Type destinationType) ;
+ ::bs_hook::Il2CppWrapperType ChangeType(System::Decimal value, System::Type destinationType) ;
 
 /// @brief Method ChangeType addr 0x273da5c size 0x424 virtual true final false
- ::bs_hook::Il2CppWrapperType ChangeType(int32_t value, ::System::Type destinationType) ;
+ ::bs_hook::Il2CppWrapperType ChangeType(int32_t value, System::Type destinationType) ;
 
 /// @brief Method ChangeType addr 0x273de80 size 0x430 virtual true final false
- ::bs_hook::Il2CppWrapperType ChangeType(int64_t value, ::System::Type destinationType) ;
+ ::bs_hook::Il2CppWrapperType ChangeType(int64_t value, System::Type destinationType) ;
 
 /// @brief Method ChangeType addr 0x273e2b0 size 0x434 virtual true final false
- ::bs_hook::Il2CppWrapperType ChangeType(::StringW value, ::System::Type destinationType, ::System::Xml::IXmlNamespaceResolver nsResolver) ;
+ ::bs_hook::Il2CppWrapperType ChangeType(::StringW value, System::Type destinationType, System::Xml::IXmlNamespaceResolver nsResolver) ;
 
 /// @brief Method ChangeType addr 0x273e6e4 size 0xefc virtual true final false
- ::bs_hook::Il2CppWrapperType ChangeType(::bs_hook::Il2CppWrapperType value, ::System::Type destinationType, ::System::Xml::IXmlNamespaceResolver nsResolver) ;
+ ::bs_hook::Il2CppWrapperType ChangeType(::bs_hook::Il2CppWrapperType value, System::Type destinationType, System::Xml::IXmlNamespaceResolver nsResolver) ;
 
 /// @brief Method ChangeTypeWildcardDestination addr 0x273bde8 size 0x460 virtual false final false
- ::bs_hook::Il2CppWrapperType ChangeTypeWildcardDestination(::bs_hook::Il2CppWrapperType value, ::System::Type destinationType, ::System::Xml::IXmlNamespaceResolver nsResolver) ;
+ ::bs_hook::Il2CppWrapperType ChangeTypeWildcardDestination(::bs_hook::Il2CppWrapperType value, System::Type destinationType, System::Xml::IXmlNamespaceResolver nsResolver) ;
 
 /// @brief Method ChangeTypeWildcardSource addr 0x273d610 size 0x44c virtual false final false
- ::bs_hook::Il2CppWrapperType ChangeTypeWildcardSource(::bs_hook::Il2CppWrapperType value, ::System::Type destinationType, ::System::Xml::IXmlNamespaceResolver nsResolver) ;
+ ::bs_hook::Il2CppWrapperType ChangeTypeWildcardSource(::bs_hook::Il2CppWrapperType value, System::Type destinationType, System::Xml::IXmlNamespaceResolver nsResolver) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::XmlNumeric10Converter);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlNumeric10Converter, "System.Xml.Schema", "XmlNumeric10Converter");
+NEED_NO_BOX(System::Xml::Schema::XmlNumeric10Converter);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::XmlNumeric10Converter, "System.Xml.Schema", "XmlNumeric10Converter");

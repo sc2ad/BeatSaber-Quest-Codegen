@@ -1,15 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__NoTransitionInstaller_def.hpp"
-namespace {
 namespace GlobalNamespace {
-class TutorialScenesTransitionSetupDataSO;
+class PlayerSpecificSettings;
 }
 namespace Zenject {
 class DiContainer;
 }
 namespace GlobalNamespace {
-class PlayerSpecificSettings;
+class TutorialScenesTransitionSetupDataSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11118))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6097))
 // CS Name: TutorialNoTransitionInstaller
-class CORDL_TYPE TutorialNoTransitionInstaller : public ::Zenject::NoTransitionInstaller {
+class CORDL_TYPE TutorialNoTransitionInstaller : public Zenject::NoTransitionInstaller {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr TutorialNoTransitionInstaller(TutorialNoTransitionInstaller const& ) n
 constexpr TutorialNoTransitionInstaller(TutorialNoTransitionInstaller&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TutorialNoTransitionInstaller(void* ptr) noexcept : ::Zenject::NoTransitionInstaller(ptr) {
+constexpr explicit TutorialNoTransitionInstaller(void* ptr) noexcept : Zenject::NoTransitionInstaller(ptr) {
 }
 
 
@@ -57,23 +56,23 @@ constexpr explicit TutorialNoTransitionInstaller(void* ptr) noexcept : ::Zenject
 
 // Fields
 
- ::GlobalNamespace::TutorialScenesTransitionSetupDataSO __declspec(property(get=__get__scenesTransitionSetupData, put=__set__scenesTransitionSetupData))  _scenesTransitionSetupData;
+ GlobalNamespace::TutorialScenesTransitionSetupDataSO __declspec(property(get=__get__scenesTransitionSetupData, put=__set__scenesTransitionSetupData))  _scenesTransitionSetupData;
 
-constexpr void __set__scenesTransitionSetupData(::GlobalNamespace::TutorialScenesTransitionSetupDataSO value) ;
+constexpr void __set__scenesTransitionSetupData(GlobalNamespace::TutorialScenesTransitionSetupDataSO value) ;
 
-constexpr ::GlobalNamespace::TutorialScenesTransitionSetupDataSO __get__scenesTransitionSetupData() const;
+constexpr GlobalNamespace::TutorialScenesTransitionSetupDataSO __get__scenesTransitionSetupData() const;
 
- ::GlobalNamespace::PlayerSpecificSettings __declspec(property(get=__get__playerSpecificSettings, put=__set__playerSpecificSettings))  _playerSpecificSettings;
+ GlobalNamespace::PlayerSpecificSettings __declspec(property(get=__get__playerSpecificSettings, put=__set__playerSpecificSettings))  _playerSpecificSettings;
 
-constexpr void __set__playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings value) ;
+constexpr void __set__playerSpecificSettings(GlobalNamespace::PlayerSpecificSettings value) ;
 
-constexpr ::GlobalNamespace::PlayerSpecificSettings __get__playerSpecificSettings() const;
+constexpr GlobalNamespace::PlayerSpecificSettings __get__playerSpecificSettings() const;
 
 
 // Methods
 
 /// @brief Method InstallBindings addr 0x21b691c size 0x44 virtual true final false
- void InstallBindings(::Zenject::DiContainer container) ;
+ void InstallBindings(Zenject::DiContainer container) ;
 
 // Ctor Parameters []
 explicit TutorialNoTransitionInstaller() ;
@@ -85,6 +84,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::TutorialNoTransitionInstaller);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TutorialNoTransitionInstaller, "", "TutorialNoTransitionInstaller");
+NEED_NO_BOX(GlobalNamespace::TutorialNoTransitionInstaller);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialNoTransitionInstaller, "", "TutorialNoTransitionInstaller");

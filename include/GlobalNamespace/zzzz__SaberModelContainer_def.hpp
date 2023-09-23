@@ -1,15 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace GlobalNamespace {
-class SaberModelController;
+class Saber;
 }
 namespace Zenject {
 class DiContainer;
 }
 namespace GlobalNamespace {
-class Saber;
+class SaberModelController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5387))
 // CS Name: SaberModelContainer
-class CORDL_TYPE SaberModelContainer : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SaberModelContainer : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr SaberModelContainer(SaberModelContainer const& ) noexcept = default;
 constexpr SaberModelContainer(SaberModelContainer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SaberModelContainer(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SaberModelContainer(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -57,23 +56,23 @@ constexpr explicit SaberModelContainer(void* ptr) noexcept : ::UnityEngine::Mono
 
 // Fields
 
- ::GlobalNamespace::Saber __declspec(property(get=__get__saber, put=__set__saber))  _saber;
+ GlobalNamespace::Saber __declspec(property(get=__get__saber, put=__set__saber))  _saber;
 
-constexpr void __set__saber(::GlobalNamespace::Saber value) ;
+constexpr void __set__saber(GlobalNamespace::Saber value) ;
 
-constexpr ::GlobalNamespace::Saber __get__saber() const;
+constexpr GlobalNamespace::Saber __get__saber() const;
 
- ::GlobalNamespace::SaberModelController __declspec(property(get=__get__saberModelControllerPrefab, put=__set__saberModelControllerPrefab))  _saberModelControllerPrefab;
+ GlobalNamespace::SaberModelController __declspec(property(get=__get__saberModelControllerPrefab, put=__set__saberModelControllerPrefab))  _saberModelControllerPrefab;
 
-constexpr void __set__saberModelControllerPrefab(::GlobalNamespace::SaberModelController value) ;
+constexpr void __set__saberModelControllerPrefab(GlobalNamespace::SaberModelController value) ;
 
-constexpr ::GlobalNamespace::SaberModelController __get__saberModelControllerPrefab() const;
+constexpr GlobalNamespace::SaberModelController __get__saberModelControllerPrefab() const;
 
- ::Zenject::DiContainer __declspec(property(get=__get__container, put=__set__container))  _container;
+ Zenject::DiContainer __declspec(property(get=__get__container, put=__set__container))  _container;
 
-constexpr void __set__container(::Zenject::DiContainer value) ;
+constexpr void __set__container(Zenject::DiContainer value) ;
 
-constexpr ::Zenject::DiContainer __get__container() const;
+constexpr Zenject::DiContainer __get__container() const;
 
 
 // Methods
@@ -91,6 +90,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SaberModelContainer);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SaberModelContainer, "", "SaberModelContainer");
+NEED_NO_BOX(GlobalNamespace::SaberModelContainer);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberModelContainer, "", "SaberModelContainer");

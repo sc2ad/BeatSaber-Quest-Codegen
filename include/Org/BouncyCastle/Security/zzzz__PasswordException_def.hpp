@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/IO/zzzz__IOException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class Exception;
 }
@@ -16,7 +15,7 @@ namespace Org::BouncyCastle::Security {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3557))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1683))
 // CS Name: Org.BouncyCastle.Security.PasswordException
-class CORDL_TYPE PasswordException : public ::System::IO::IOException {
+class CORDL_TYPE PasswordException : public System::IO::IOException {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr PasswordException(PasswordException const& ) noexcept = default;
 constexpr PasswordException(PasswordException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PasswordException(void* ptr) noexcept : ::System::IO::IOException(ptr) {
+constexpr explicit PasswordException(void* ptr) noexcept : System::IO::IOException(ptr) {
 }
 
 
@@ -58,16 +57,15 @@ explicit PasswordException(::StringW message) ;
 /// @brief Method .ctor addr 0x10453d8 size 0x8 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "exception", ty: "::System::Exception", modifiers: "", def_value: None }]
-explicit PasswordException(::StringW message, ::System::Exception exception) ;
+// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "exception", ty: "System::Exception", modifiers: "", def_value: None }]
+explicit PasswordException(::StringW message, System::Exception exception) ;
 
 /// @brief Method .ctor addr 0x10453e0 size 0x8 virtual false final false
- void _ctor(::StringW message, ::System::Exception exception) ;
+ void _ctor(::StringW message, System::Exception exception) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Security
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Security::PasswordException);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Security::PasswordException, "Org.BouncyCastle.Security", "PasswordException");
+NEED_NO_BOX(Org::BouncyCastle::Security::PasswordException);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::PasswordException, "Org.BouncyCastle.Security", "PasswordException");

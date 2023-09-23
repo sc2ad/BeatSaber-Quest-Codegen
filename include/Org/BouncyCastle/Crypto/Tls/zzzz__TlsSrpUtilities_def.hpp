@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace System::Collections {
-class IDictionary;
-}
 namespace System::IO {
 class Stream;
+}
+namespace System::Collections {
+class IDictionary;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
@@ -60,10 +59,10 @@ constexpr explicit TlsSrpUtilities(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 // Methods
 
 /// @brief Method AddSrpExtension addr 0xf2b8d8 size 0xf0 virtual false final false
-static void AddSrpExtension(::System::Collections::IDictionary extensions, ::ArrayW<uint8_t> identity) ;
+static void AddSrpExtension(System::Collections::IDictionary extensions, ::ArrayW<uint8_t> identity) ;
 
 /// @brief Method GetSrpExtension addr 0xf2ba5c size 0x6c virtual false final false
-static ::ArrayW<uint8_t> GetSrpExtension(::System::Collections::IDictionary extensions) ;
+static ::ArrayW<uint8_t> GetSrpExtension(System::Collections::IDictionary extensions) ;
 
 /// @brief Method CreateSrpExtension addr 0xf2b9c8 size 0x94 virtual false final false
 static ::ArrayW<uint8_t> CreateSrpExtension(::ArrayW<uint8_t> identity) ;
@@ -72,10 +71,10 @@ static ::ArrayW<uint8_t> CreateSrpExtension(::ArrayW<uint8_t> identity) ;
 static ::ArrayW<uint8_t> ReadSrpExtension(::ArrayW<uint8_t> extensionData) ;
 
 /// @brief Method ReadSrpParameter addr 0xf2b500 size 0x9c virtual false final false
-static ::Org::BouncyCastle::Math::BigInteger ReadSrpParameter(::System::IO::Stream input) ;
+static Org::BouncyCastle::Math::BigInteger ReadSrpParameter(System::IO::Stream input) ;
 
 /// @brief Method WriteSrpParameter addr 0xf2b2b4 size 0x78 virtual false final false
-static void WriteSrpParameter(::Org::BouncyCastle::Math::BigInteger x, ::System::IO::Stream output) ;
+static void WriteSrpParameter(Org::BouncyCastle::Math::BigInteger x, System::IO::Stream output) ;
 
 /// @brief Method IsSrpCipherSuite addr 0xf2bc4c size 0x14 virtual false final false
 static bool IsSrpCipherSuite(int32_t cipherSuite) ;
@@ -90,6 +89,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsSrpUtilities);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::TlsSrpUtilities, "Org.BouncyCastle.Crypto.Tls", "TlsSrpUtilities");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::TlsSrpUtilities);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::TlsSrpUtilities, "Org.BouncyCastle.Crypto.Tls", "TlsSrpUtilities");

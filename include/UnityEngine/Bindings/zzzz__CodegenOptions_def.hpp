@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Bindings {
 struct CodegenOptions;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Auto offset 0
-static ::UnityEngine::Bindings::CodegenOptions const Auto;
+static UnityEngine::Bindings::CodegenOptions const Auto;
 
 /// @brief Field Custom offset 0
-static ::UnityEngine::Bindings::CodegenOptions const Custom;
+static UnityEngine::Bindings::CodegenOptions const Custom;
 
 /// @brief Field Force offset 0
-static ::UnityEngine::Bindings::CodegenOptions const Force;
+static UnityEngine::Bindings::CodegenOptions const Force;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Bindings
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Bindings::CodegenOptions, "UnityEngine.Bindings", "CodegenOptions");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::CodegenOptions, "UnityEngine.Bindings", "CodegenOptions");

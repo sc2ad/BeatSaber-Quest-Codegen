@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__SwitchSettingsController_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class BoolSO;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5691))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5678))
 // CS Name: BoolSettingsController
-class CORDL_TYPE BoolSettingsController : public ::GlobalNamespace::SwitchSettingsController {
+class CORDL_TYPE BoolSettingsController : public GlobalNamespace::SwitchSettingsController {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr BoolSettingsController(BoolSettingsController const& ) noexcept = defa
 constexpr BoolSettingsController(BoolSettingsController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BoolSettingsController(void* ptr) noexcept : ::GlobalNamespace::SwitchSettingsController(ptr) {
+constexpr explicit BoolSettingsController(void* ptr) noexcept : GlobalNamespace::SwitchSettingsController(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit BoolSettingsController(void* ptr) noexcept : ::GlobalNamespac
 
 // Fields
 
- ::GlobalNamespace::BoolSO __declspec(property(get=__get__settingsValue, put=__set__settingsValue))  _settingsValue;
+ GlobalNamespace::BoolSO __declspec(property(get=__get__settingsValue, put=__set__settingsValue))  _settingsValue;
 
-constexpr void __set__settingsValue(::GlobalNamespace::BoolSO value) ;
+constexpr void __set__settingsValue(GlobalNamespace::BoolSO value) ;
 
-constexpr ::GlobalNamespace::BoolSO __get__settingsValue() const;
+constexpr GlobalNamespace::BoolSO __get__settingsValue() const;
 
 
 // Methods
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BoolSettingsController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BoolSettingsController, "", "BoolSettingsController");
+NEED_NO_BOX(GlobalNamespace::BoolSettingsController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BoolSettingsController, "", "BoolSettingsController");

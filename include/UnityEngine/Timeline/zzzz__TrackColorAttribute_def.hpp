@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 struct Color;
 }
@@ -16,7 +15,7 @@ namespace UnityEngine::Timeline {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14075))
 // CS Name: UnityEngine.Timeline.TrackColorAttribute
-class CORDL_TYPE TrackColorAttribute : public ::System::Attribute {
+class CORDL_TYPE TrackColorAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr TrackColorAttribute(TrackColorAttribute const& ) noexcept = default;
 constexpr TrackColorAttribute(TrackColorAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TrackColorAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit TrackColorAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -52,22 +51,22 @@ constexpr explicit TrackColorAttribute(void* ptr) noexcept : ::System::Attribute
 
 // Fields
 
- ::UnityEngine::Color __declspec(property(get=__get_m_Color, put=__set_m_Color))  m_Color;
+ UnityEngine::Color __declspec(property(get=__get_m_Color, put=__set_m_Color))  m_Color;
 
-constexpr void __set_m_Color(::UnityEngine::Color value) ;
+constexpr void __set_m_Color(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_m_Color() const;
+constexpr UnityEngine::Color __get_m_Color() const;
 
 
 // Properties
 
- ::UnityEngine::Color __declspec(property(get=get_color))  color;
+ UnityEngine::Color __declspec(property(get=get_color))  color;
 
 
 // Methods
 
 /// @brief Method get_color addr 0x2ac90f4 size 0xc virtual false final false
- ::UnityEngine::Color get_color() ;
+ UnityEngine::Color get_color() ;
 
 // Ctor Parameters [CppParam { name: "r", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "g", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "b", ty: "float_t", modifiers: "", def_value: None }]
 explicit TrackColorAttribute(float_t r, float_t g, float_t b) ;
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Timeline::TrackColorAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::TrackColorAttribute, "UnityEngine.Timeline", "TrackColorAttribute");
+NEED_NO_BOX(UnityEngine::Timeline::TrackColorAttribute);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackColorAttribute, "UnityEngine.Timeline", "TrackColorAttribute");

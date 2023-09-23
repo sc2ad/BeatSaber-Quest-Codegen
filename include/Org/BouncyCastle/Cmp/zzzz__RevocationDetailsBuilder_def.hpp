@@ -1,21 +1,20 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Org::BouncyCastle::Asn1::Crmf {
 class CertTemplateBuilder;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
-}
-namespace Org::BouncyCastle::Cmp {
-class RevocationDetails;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class SubjectPublicKeyInfo;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
+}
+namespace Org::BouncyCastle::Cmp {
+class RevocationDetails;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cmp {
@@ -63,29 +62,29 @@ constexpr explicit RevocationDetailsBuilder(void* ptr) noexcept : ::bs_hook::Il2
 
 // Fields
 
- ::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder __declspec(property(get=__get__templateBuilder, put=__set__templateBuilder))  _templateBuilder;
+ Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder __declspec(property(get=__get__templateBuilder, put=__set__templateBuilder))  _templateBuilder;
 
-constexpr void __set__templateBuilder(::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder value) ;
+constexpr void __set__templateBuilder(Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder __get__templateBuilder() const;
+constexpr Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder __get__templateBuilder() const;
 
 
 // Methods
 
 /// @brief Method SetPublicKey addr 0x114ddbc size 0x30 virtual false final false
- ::Org::BouncyCastle::Cmp::RevocationDetailsBuilder SetPublicKey(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo publicKey) ;
+ Org::BouncyCastle::Cmp::RevocationDetailsBuilder SetPublicKey(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo publicKey) ;
 
 /// @brief Method SetIssuer addr 0x114ddec size 0x30 virtual false final false
- ::Org::BouncyCastle::Cmp::RevocationDetailsBuilder SetIssuer(::Org::BouncyCastle::Asn1::X509::X509Name issuer) ;
+ Org::BouncyCastle::Cmp::RevocationDetailsBuilder SetIssuer(Org::BouncyCastle::Asn1::X509::X509Name issuer) ;
 
 /// @brief Method SetSerialNumber addr 0x114de1c size 0x90 virtual false final false
- ::Org::BouncyCastle::Cmp::RevocationDetailsBuilder SetSerialNumber(::Org::BouncyCastle::Math::BigInteger serialNumber) ;
+ Org::BouncyCastle::Cmp::RevocationDetailsBuilder SetSerialNumber(Org::BouncyCastle::Math::BigInteger serialNumber) ;
 
 /// @brief Method SetSubject addr 0x114deac size 0x30 virtual false final false
- ::Org::BouncyCastle::Cmp::RevocationDetailsBuilder SetSubject(::Org::BouncyCastle::Asn1::X509::X509Name subject) ;
+ Org::BouncyCastle::Cmp::RevocationDetailsBuilder SetSubject(Org::BouncyCastle::Asn1::X509::X509Name subject) ;
 
 /// @brief Method Build addr 0x114dedc size 0xb4 virtual false final false
- ::Org::BouncyCastle::Cmp::RevocationDetails Build() ;
+ Org::BouncyCastle::Cmp::RevocationDetails Build() ;
 
 // Ctor Parameters []
 explicit RevocationDetailsBuilder() ;
@@ -97,6 +96,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Cmp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Cmp::RevocationDetailsBuilder);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cmp::RevocationDetailsBuilder, "Org.BouncyCastle.Cmp", "RevocationDetailsBuilder");
+NEED_NO_BOX(Org::BouncyCastle::Cmp::RevocationDetailsBuilder);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Cmp::RevocationDetailsBuilder, "Org.BouncyCastle.Cmp", "RevocationDetailsBuilder");

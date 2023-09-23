@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
-namespace {
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
 namespace UnityEngine {
 class GameObject;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -86,15 +85,14 @@ explicit HEU_InputInterface(int32_t priority) ;
  void RegisterInterface() ;
 
 /// @brief Method IsThisInputObjectSupported addr 0x0 size 0xffffffffffffffff virtual true final false
- bool IsThisInputObjectSupported(::UnityEngine::GameObject inputObject) ;
+ bool IsThisInputObjectSupported(UnityEngine::GameObject inputObject) ;
 
 /// @brief Method CreateInputNodeWithDataUpload addr 0x0 size 0xffffffffffffffff virtual true final false
- bool CreateInputNodeWithDataUpload(::HoudiniEngineUnity::HEU_SessionBase session, int32_t connectNodeID, ::UnityEngine::GameObject inputObject, ByRef<int32_t> inputNodeID) ;
+ bool CreateInputNodeWithDataUpload(HoudiniEngineUnity::HEU_SessionBase session, int32_t connectNodeID, UnityEngine::GameObject inputObject, ByRef<int32_t> inputNodeID) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_InputInterface);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_InputInterface, "HoudiniEngineUnity", "HEU_InputInterface");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_InputInterface);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputInterface, "HoudiniEngineUnity", "HEU_InputInterface");

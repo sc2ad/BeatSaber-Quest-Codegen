@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Globalization {
 class CultureInfo;
 }
@@ -53,11 +52,11 @@ constexpr explicit RegionInfo(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType
 
 // Fields
 
-static ::System::Globalization::RegionInfo __declspec(property(get=__get_currentRegion, put=__set_currentRegion))  currentRegion;
+static System::Globalization::RegionInfo __declspec(property(get=__get_currentRegion, put=__set_currentRegion))  currentRegion;
 
-static void __set_currentRegion(::System::Globalization::RegionInfo value) ;
+static void __set_currentRegion(System::Globalization::RegionInfo value) ;
 
-static ::System::Globalization::RegionInfo __get_currentRegion() ;
+static System::Globalization::RegionInfo __get_currentRegion() ;
 
  int32_t __declspec(property(get=__get_regionId, put=__set_regionId))  regionId;
 
@@ -122,7 +121,7 @@ constexpr ::StringW __get_currencyNativeName() const;
 
 // Properties
 
-static ::System::Globalization::RegionInfo __declspec(property(get=get_CurrentRegion))  CurrentRegion;
+static System::Globalization::RegionInfo __declspec(property(get=get_CurrentRegion))  CurrentRegion;
 
  ::StringW __declspec(property(get=get_CurrencyEnglishName))  CurrencyEnglishName;
 
@@ -154,7 +153,7 @@ static ::System::Globalization::RegionInfo __declspec(property(get=get_CurrentRe
 // Methods
 
 /// @brief Method get_CurrentRegion addr 0x240b76c size 0xcc virtual false final false
-static ::System::Globalization::RegionInfo get_CurrentRegion() ;
+static System::Globalization::RegionInfo get_CurrentRegion() ;
 
 // Ctor Parameters [CppParam { name: "culture", ty: "int32_t", modifiers: "", def_value: None }]
 explicit RegionInfo(int32_t culture) ;
@@ -168,14 +167,14 @@ explicit RegionInfo(::StringW name) ;
 /// @brief Method .ctor addr 0x240bb88 size 0x144 virtual false final false
  void _ctor(::StringW name) ;
 
-// Ctor Parameters [CppParam { name: "ci", ty: "::System::Globalization::CultureInfo", modifiers: "", def_value: None }]
-explicit RegionInfo(::System::Globalization::CultureInfo ci) ;
+// Ctor Parameters [CppParam { name: "ci", ty: "System::Globalization::CultureInfo", modifiers: "", def_value: None }]
+explicit RegionInfo(System::Globalization::CultureInfo ci) ;
 
 /// @brief Method .ctor addr 0x240b838 size 0x198 virtual false final false
- void _ctor(::System::Globalization::CultureInfo ci) ;
+ void _ctor(System::Globalization::CultureInfo ci) ;
 
 /// @brief Method GetByTerritory addr 0x240badc size 0xac virtual false final false
- bool GetByTerritory(::System::Globalization::CultureInfo ci) ;
+ bool GetByTerritory(System::Globalization::CultureInfo ci) ;
 
 /// @brief Method construct_internal_region_from_name addr 0x240bccc size 0x4 virtual false final false
  bool construct_internal_region_from_name(::StringW name) ;
@@ -235,6 +234,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Globalization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Globalization::RegionInfo);
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::RegionInfo, "System.Globalization", "RegionInfo");
+NEED_NO_BOX(System::Globalization::RegionInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::RegionInfo, "System.Globalization", "RegionInfo");

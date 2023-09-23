@@ -5,7 +5,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
+}
 namespace System {
 template<typename T1,typename T2>
 class Tuple_2;
@@ -14,21 +17,17 @@ namespace HMUI {
 class ScrollViewItemForVisibilityController;
 }
 namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine {
 struct Vector3;
 }
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
+namespace UnityEngine {
+class RectTransform;
 }
 // Forward declare root types
 namespace HMUI {
-class ScrollViewItemsVisibilityController;
+class HMUI__ScrollViewItemsVisibilityController____c;
 }
 namespace HMUI {
-class ____HMUI__ScrollViewItemsVisibilityController____c;
+class ScrollViewItemsVisibilityController;
 }
 // Type: ::<>c
 namespace HMUI {
@@ -36,74 +35,74 @@ namespace HMUI {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13701))
 // CS Name: HMUI.ScrollViewItemsVisibilityController::<>c
-class CORDL_TYPE ____HMUI__ScrollViewItemsVisibilityController____c : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE HMUI__ScrollViewItemsVisibilityController____c : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____HMUI__ScrollViewItemsVisibilityController____c() = default;
+virtual ~HMUI__ScrollViewItemsVisibilityController____c() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____HMUI__ScrollViewItemsVisibilityController____c", modifiers: " const&", def_value: None }]
-constexpr ____HMUI__ScrollViewItemsVisibilityController____c(____HMUI__ScrollViewItemsVisibilityController____c const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "HMUI__ScrollViewItemsVisibilityController____c", modifiers: " const&", def_value: None }]
+constexpr HMUI__ScrollViewItemsVisibilityController____c(HMUI__ScrollViewItemsVisibilityController____c const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____HMUI__ScrollViewItemsVisibilityController____c", modifiers: "&&", def_value: None }]
-constexpr ____HMUI__ScrollViewItemsVisibilityController____c(____HMUI__ScrollViewItemsVisibilityController____c&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "HMUI__ScrollViewItemsVisibilityController____c", modifiers: "&&", def_value: None }]
+constexpr HMUI__ScrollViewItemsVisibilityController____c(HMUI__ScrollViewItemsVisibilityController____c&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____HMUI__ScrollViewItemsVisibilityController____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit HMUI__ScrollViewItemsVisibilityController____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____HMUI__ScrollViewItemsVisibilityController____c& operator=(std::nullptr_t) noexcept {
+  constexpr HMUI__ScrollViewItemsVisibilityController____c& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____HMUI__ScrollViewItemsVisibilityController____c& operator=(void* o) noexcept {
+  constexpr HMUI__ScrollViewItemsVisibilityController____c& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____HMUI__ScrollViewItemsVisibilityController____c& operator=(____HMUI__ScrollViewItemsVisibilityController____c&& o) noexcept = default;
-  constexpr ____HMUI__ScrollViewItemsVisibilityController____c& operator=(____HMUI__ScrollViewItemsVisibilityController____c const& o) noexcept = default;
+  constexpr HMUI__ScrollViewItemsVisibilityController____c& operator=(HMUI__ScrollViewItemsVisibilityController____c&& o) noexcept = default;
+  constexpr HMUI__ScrollViewItemsVisibilityController____c& operator=(HMUI__ScrollViewItemsVisibilityController____c const& o) noexcept = default;
                 
 
 
 // Fields
 
-static ::HMUI::____HMUI__ScrollViewItemsVisibilityController____c __declspec(property(get=__get___9, put=__set___9))  __9;
+static HMUI::HMUI__ScrollViewItemsVisibilityController____c __declspec(property(get=__get___9, put=__set___9))  __9;
 
-static void __set___9(::HMUI::____HMUI__ScrollViewItemsVisibilityController____c value) ;
+static void __set___9(HMUI::HMUI__ScrollViewItemsVisibilityController____c value) ;
 
-static ::HMUI::____HMUI__ScrollViewItemsVisibilityController____c __get___9() ;
+static HMUI::HMUI__ScrollViewItemsVisibilityController____c __get___9() ;
 
-static ::System::Func_2<::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController,float_t>,float_t> __declspec(property(get=__get___9__11_0, put=__set___9__11_0))  __9__11_0;
+static System::Func_2<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController,float_t>,float_t> __declspec(property(get=__get___9__11_0, put=__set___9__11_0))  __9__11_0;
 
-static void __set___9__11_0(::System::Func_2<::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController,float_t>,float_t> value) ;
+static void __set___9__11_0(System::Func_2<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController,float_t>,float_t> value) ;
 
-static ::System::Func_2<::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController,float_t>,float_t> __get___9__11_0() ;
+static System::Func_2<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController,float_t>,float_t> __get___9__11_0() ;
 
-static ::System::Func_2<::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController,float_t>,float_t> __declspec(property(get=__get___9__11_1, put=__set___9__11_1))  __9__11_1;
+static System::Func_2<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController,float_t>,float_t> __declspec(property(get=__get___9__11_1, put=__set___9__11_1))  __9__11_1;
 
-static void __set___9__11_1(::System::Func_2<::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController,float_t>,float_t> value) ;
+static void __set___9__11_1(System::Func_2<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController,float_t>,float_t> value) ;
 
-static ::System::Func_2<::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController,float_t>,float_t> __get___9__11_1() ;
+static System::Func_2<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController,float_t>,float_t> __get___9__11_1() ;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____HMUI__ScrollViewItemsVisibilityController____c() ;
+explicit HMUI__ScrollViewItemsVisibilityController____c() ;
 
 /// @brief Method .ctor addr 0x1fd1f6c size 0x8 virtual false final false
  void _ctor() ;
 
 /// @brief Method <Start>b__11_0 addr 0x1fd1f74 size 0x44 virtual false final false
- float_t _Start_b__11_0(::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController,float_t> item) ;
+ float_t _Start_b__11_0(System::Tuple_2<HMUI::ScrollViewItemForVisibilityController,float_t> item) ;
 
 /// @brief Method <Start>b__11_1 addr 0x1fd1fb8 size 0x44 virtual false final false
- float_t _Start_b__11_1(::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController,float_t> item) ;
+ float_t _Start_b__11_1(System::Tuple_2<HMUI::ScrollViewItemForVisibilityController,float_t> item) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -115,10 +114,10 @@ namespace HMUI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13702))
 // CS Name: HMUI.ScrollViewItemsVisibilityController
-class CORDL_TYPE ScrollViewItemsVisibilityController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ScrollViewItemsVisibilityController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using __c = ::HMUI::____HMUI__ScrollViewItemsVisibilityController____c;
+using __c = HMUI::HMUI__ScrollViewItemsVisibilityController____c;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x60};
@@ -132,7 +131,7 @@ constexpr ScrollViewItemsVisibilityController(ScrollViewItemsVisibilityControlle
 constexpr ScrollViewItemsVisibilityController(ScrollViewItemsVisibilityController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ScrollViewItemsVisibilityController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ScrollViewItemsVisibilityController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -153,23 +152,23 @@ constexpr explicit ScrollViewItemsVisibilityController(void* ptr) noexcept : ::U
 
 // Fields
 
- ::UnityEngine::RectTransform __declspec(property(get=__get__viewport, put=__set__viewport))  _viewport;
+ UnityEngine::RectTransform __declspec(property(get=__get__viewport, put=__set__viewport))  _viewport;
 
-constexpr void __set__viewport(::UnityEngine::RectTransform value) ;
+constexpr void __set__viewport(UnityEngine::RectTransform value) ;
 
-constexpr ::UnityEngine::RectTransform __get__viewport() const;
+constexpr UnityEngine::RectTransform __get__viewport() const;
 
- ::UnityEngine::RectTransform __declspec(property(get=__get__contentRectTransform, put=__set__contentRectTransform))  _contentRectTransform;
+ UnityEngine::RectTransform __declspec(property(get=__get__contentRectTransform, put=__set__contentRectTransform))  _contentRectTransform;
 
-constexpr void __set__contentRectTransform(::UnityEngine::RectTransform value) ;
+constexpr void __set__contentRectTransform(UnityEngine::RectTransform value) ;
 
-constexpr ::UnityEngine::RectTransform __get__contentRectTransform() const;
+constexpr UnityEngine::RectTransform __get__contentRectTransform() const;
 
- ::ArrayW<::HMUI::ScrollViewItemForVisibilityController> __declspec(property(get=__get__items, put=__set__items))  _items;
+ ::ArrayW<HMUI::ScrollViewItemForVisibilityController> __declspec(property(get=__get__items, put=__set__items))  _items;
 
-constexpr void __set__items(::ArrayW<::HMUI::ScrollViewItemForVisibilityController> value) ;
+constexpr void __set__items(::ArrayW<HMUI::ScrollViewItemForVisibilityController> value) ;
 
-constexpr ::ArrayW<::HMUI::ScrollViewItemForVisibilityController> __get__items() const;
+constexpr ::ArrayW<HMUI::ScrollViewItemForVisibilityController> __get__items() const;
 
  float_t __declspec(property(get=__get__lastContentAnchoredPositionY, put=__set__lastContentAnchoredPositionY))  _lastContentAnchoredPositionY;
 
@@ -177,23 +176,23 @@ constexpr void __set__lastContentAnchoredPositionY(float_t value) ;
 
 constexpr float_t __get__lastContentAnchoredPositionY() const;
 
- ::ArrayW<::UnityEngine::Vector3> __declspec(property(get=__get__viewportWorldCorners, put=__set__viewportWorldCorners))  _viewportWorldCorners;
+ ::ArrayW<UnityEngine::Vector3> __declspec(property(get=__get__viewportWorldCorners, put=__set__viewportWorldCorners))  _viewportWorldCorners;
 
-constexpr void __set__viewportWorldCorners(::ArrayW<::UnityEngine::Vector3> value) ;
+constexpr void __set__viewportWorldCorners(::ArrayW<UnityEngine::Vector3> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector3> __get__viewportWorldCorners() const;
+constexpr ::ArrayW<UnityEngine::Vector3> __get__viewportWorldCorners() const;
 
- ::ArrayW<::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController,float_t>> __declspec(property(get=__get__upperItemsCornes, put=__set__upperItemsCornes))  _upperItemsCornes;
+ ::ArrayW<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController,float_t>> __declspec(property(get=__get__upperItemsCornes, put=__set__upperItemsCornes))  _upperItemsCornes;
 
-constexpr void __set__upperItemsCornes(::ArrayW<::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController,float_t>> value) ;
+constexpr void __set__upperItemsCornes(::ArrayW<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController,float_t>> value) ;
 
-constexpr ::ArrayW<::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController,float_t>> __get__upperItemsCornes() const;
+constexpr ::ArrayW<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController,float_t>> __get__upperItemsCornes() const;
 
- ::ArrayW<::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController,float_t>> __declspec(property(get=__get__lowerItemsCornes, put=__set__lowerItemsCornes))  _lowerItemsCornes;
+ ::ArrayW<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController,float_t>> __declspec(property(get=__get__lowerItemsCornes, put=__set__lowerItemsCornes))  _lowerItemsCornes;
 
-constexpr void __set__lowerItemsCornes(::ArrayW<::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController,float_t>> value) ;
+constexpr void __set__lowerItemsCornes(::ArrayW<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController,float_t>> value) ;
 
-constexpr ::ArrayW<::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController,float_t>> __get__lowerItemsCornes() const;
+constexpr ::ArrayW<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController,float_t>> __get__lowerItemsCornes() const;
 
  int32_t __declspec(property(get=__get__lowerLastVisibleIndex, put=__set__lowerLastVisibleIndex))  _lowerLastVisibleIndex;
 
@@ -244,8 +243,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HMUI
-} // end anonymous namespace
-NEED_NO_BOX(::HMUI::ScrollViewItemsVisibilityController);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::ScrollViewItemsVisibilityController, "HMUI", "ScrollViewItemsVisibilityController");
-NEED_NO_BOX(::HMUI::____HMUI__ScrollViewItemsVisibilityController____c);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::____HMUI__ScrollViewItemsVisibilityController____c, "HMUI", "ScrollViewItemsVisibilityController/<>c");
+NEED_NO_BOX(HMUI::HMUI__ScrollViewItemsVisibilityController____c);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::HMUI__ScrollViewItemsVisibilityController____c, "HMUI", "ScrollViewItemsVisibilityController/<>c");
+NEED_NO_BOX(HMUI::ScrollViewItemsVisibilityController);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollViewItemsVisibilityController, "HMUI", "ScrollViewItemsVisibilityController");

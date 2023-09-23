@@ -2,15 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
+namespace TMPro {
+class TMP_Text;
+}
 namespace UnityEngine {
 class RectTransform;
 }
 namespace UnityEngine {
 class Object;
-}
-namespace TMPro {
-class TMP_Text;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,7 +21,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6044))
 // CS Name: ResizableTextMeshPro
-class CORDL_TYPE ResizableTextMeshPro : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ResizableTextMeshPro : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr ResizableTextMeshPro(ResizableTextMeshPro const& ) noexcept = default;
 constexpr ResizableTextMeshPro(ResizableTextMeshPro&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ResizableTextMeshPro(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ResizableTextMeshPro(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -58,17 +57,17 @@ constexpr explicit ResizableTextMeshPro(void* ptr) noexcept : ::UnityEngine::Mon
 
 // Fields
 
- ::TMPro::TMP_Text __declspec(property(get=__get__textMeshPro, put=__set__textMeshPro))  _textMeshPro;
+ TMPro::TMP_Text __declspec(property(get=__get__textMeshPro, put=__set__textMeshPro))  _textMeshPro;
 
-constexpr void __set__textMeshPro(::TMPro::TMP_Text value) ;
+constexpr void __set__textMeshPro(TMPro::TMP_Text value) ;
 
-constexpr ::TMPro::TMP_Text __get__textMeshPro() const;
+constexpr TMPro::TMP_Text __get__textMeshPro() const;
 
- ::UnityEngine::RectTransform __declspec(property(get=__get__rectTransform, put=__set__rectTransform))  _rectTransform;
+ UnityEngine::RectTransform __declspec(property(get=__get__rectTransform, put=__set__rectTransform))  _rectTransform;
 
-constexpr void __set__rectTransform(::UnityEngine::RectTransform value) ;
+constexpr void __set__rectTransform(UnityEngine::RectTransform value) ;
 
-constexpr ::UnityEngine::RectTransform __get__rectTransform() const;
+constexpr UnityEngine::RectTransform __get__rectTransform() const;
 
  float_t __declspec(property(get=__get__textExtraSpace, put=__set__textExtraSpace))  _textExtraSpace;
 
@@ -89,7 +88,7 @@ constexpr float_t __get__textExtraSpace() const;
  void OnDestroy() ;
 
 /// @brief Method HandleTextDidChange addr 0x21acde8 size 0x90 virtual false final false
- void HandleTextDidChange(::UnityEngine::Object textMeshPro) ;
+ void HandleTextDidChange(UnityEngine::Object textMeshPro) ;
 
 // Ctor Parameters []
 explicit ResizableTextMeshPro() ;
@@ -101,6 +100,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ResizableTextMeshPro);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ResizableTextMeshPro, "", "ResizableTextMeshPro");
+NEED_NO_BOX(GlobalNamespace::ResizableTextMeshPro);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResizableTextMeshPro, "", "ResizableTextMeshPro");

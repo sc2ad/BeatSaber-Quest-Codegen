@@ -1,12 +1,11 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "RootMotion/FinalIK/zzzz__IK_def.hpp"
-namespace {
-namespace RootMotion::FinalIK {
-class IKSolverFABRIK;
-}
 namespace RootMotion::FinalIK {
 class IKSolver;
+}
+namespace RootMotion::FinalIK {
+class IKSolverFABRIK;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -18,7 +17,7 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12478))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12475))
 // CS Name: RootMotion.FinalIK.FABRIK
-class CORDL_TYPE FABRIK : public ::RootMotion::FinalIK::IK {
+class CORDL_TYPE FABRIK : public RootMotion::FinalIK::IK {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr FABRIK(FABRIK const& ) noexcept = default;
 constexpr FABRIK(FABRIK&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FABRIK(void* ptr) noexcept : ::RootMotion::FinalIK::IK(ptr) {
+constexpr explicit FABRIK(void* ptr) noexcept : RootMotion::FinalIK::IK(ptr) {
 }
 
 
@@ -54,11 +53,11 @@ constexpr explicit FABRIK(void* ptr) noexcept : ::RootMotion::FinalIK::IK(ptr) {
 
 // Fields
 
- ::RootMotion::FinalIK::IKSolverFABRIK __declspec(property(get=__get_solver, put=__set_solver))  solver;
+ RootMotion::FinalIK::IKSolverFABRIK __declspec(property(get=__get_solver, put=__set_solver))  solver;
 
-constexpr void __set_solver(::RootMotion::FinalIK::IKSolverFABRIK value) ;
+constexpr void __set_solver(RootMotion::FinalIK::IKSolverFABRIK value) ;
 
-constexpr ::RootMotion::FinalIK::IKSolverFABRIK __get_solver() const;
+constexpr RootMotion::FinalIK::IKSolverFABRIK __get_solver() const;
 
 
 // Methods
@@ -76,7 +75,7 @@ constexpr ::RootMotion::FinalIK::IKSolverFABRIK __get_solver() const;
  void ASThread() ;
 
 /// @brief Method GetIKSolver addr 0x11c42d4 size 0x8 virtual true final false
- ::RootMotion::FinalIK::IKSolver GetIKSolver() ;
+ RootMotion::FinalIK::IKSolver GetIKSolver() ;
 
 // Ctor Parameters []
 explicit FABRIK() ;
@@ -88,6 +87,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::FABRIK);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::FABRIK, "RootMotion.FinalIK", "FABRIK");
+NEED_NO_BOX(RootMotion::FinalIK::FABRIK);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FABRIK, "RootMotion.FinalIK", "FABRIK");

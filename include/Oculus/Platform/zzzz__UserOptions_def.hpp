@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform {
 struct TimeWindow;
 }
@@ -74,16 +73,16 @@ explicit UserOptions() ;
  void SetMaxUsers(uint32_t value) ;
 
 /// @brief Method AddServiceProvider addr 0x2598e6c size 0x6c virtual false final false
- void AddServiceProvider(::Oculus::Platform::ServiceProvider value) ;
+ void AddServiceProvider(Oculus::Platform::ServiceProvider value) ;
 
 /// @brief Method ClearServiceProviders addr 0x259a4c8 size 0x5c virtual false final false
  void ClearServiceProviders() ;
 
 /// @brief Method SetTimeWindow addr 0x259a524 size 0x6c virtual false final false
- void SetTimeWindow(::Oculus::Platform::TimeWindow value) ;
+ void SetTimeWindow(Oculus::Platform::TimeWindow value) ;
 
 /// @brief Method op_Explicit addr 0x2598ed8 size 0x58 virtual false final false
-static ::cordl_internals::intptr_t op_Explicit___cordl_internals__intptr_t(::Oculus::Platform::UserOptions options) ;
+static ::cordl_internals::intptr_t op_Explicit___cordl_internals__intptr_t(Oculus::Platform::UserOptions options) ;
 
 /// @brief Method Finalize addr 0x259a590 size 0xd8 virtual true final false
  void Finalize() ;
@@ -92,6 +91,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::UserOptions);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::UserOptions, "Oculus.Platform", "UserOptions");
+NEED_NO_BOX(Oculus::Platform::UserOptions);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::UserOptions, "Oculus.Platform", "UserOptions");

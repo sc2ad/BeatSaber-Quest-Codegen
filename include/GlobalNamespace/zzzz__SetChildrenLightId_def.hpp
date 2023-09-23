@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class SetChildrenLightId;
@@ -13,7 +12,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14716))
 // CS Name: SetChildrenLightId
-class CORDL_TYPE SetChildrenLightId : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SetChildrenLightId : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr SetChildrenLightId(SetChildrenLightId const& ) noexcept = default;
 constexpr SetChildrenLightId(SetChildrenLightId&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SetChildrenLightId(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SetChildrenLightId(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -68,6 +67,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SetChildrenLightId);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SetChildrenLightId, "", "SetChildrenLightId");
+NEED_NO_BOX(GlobalNamespace::SetChildrenLightId);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetChildrenLightId, "", "SetChildrenLightId");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 // Forward declare root types
 namespace System {
 class MonoListItem;
@@ -48,11 +47,11 @@ constexpr explicit MonoListItem(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 
 // Fields
 
- ::System::MonoListItem __declspec(property(get=__get_next, put=__set_next))  next;
+ System::MonoListItem __declspec(property(get=__get_next, put=__set_next))  next;
 
-constexpr void __set_next(::System::MonoListItem value) ;
+constexpr void __set_next(System::MonoListItem value) ;
 
-constexpr ::System::MonoListItem __get_next() const;
+constexpr System::MonoListItem __get_next() const;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=__get_data, put=__set_data))  data;
 
@@ -73,6 +72,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::MonoListItem);
-DEFINE_IL2CPP_ARG_TYPE(::System::MonoListItem, "System", "MonoListItem");
+NEED_NO_BOX(System::MonoListItem);
+DEFINE_IL2CPP_ARG_TYPE(System::MonoListItem, "System", "MonoListItem");

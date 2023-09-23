@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
 class Shaders;
@@ -86,6 +85,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::UIR
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::UIR::Shaders);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::Shaders, "UnityEngine.UIElements.UIR", "Shaders");
+NEED_NO_BOX(UnityEngine::UIElements::UIR::Shaders);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::Shaders, "UnityEngine.UIElements.UIR", "Shaders");

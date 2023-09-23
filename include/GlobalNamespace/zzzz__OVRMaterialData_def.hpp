@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class Shader;
-}
 namespace GlobalNamespace {
 struct OVRTextureData;
+}
+namespace UnityEngine {
+class Shader;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,8 +21,8 @@ namespace GlobalNamespace {
 struct CORDL_TYPE OVRMaterialData : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "shader", ty: "::UnityEngine::Shader", modifiers: "", def_value: None }, CppParam { name: "textureId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "texture", ty: "::GlobalNamespace::OVRTextureData", modifiers: "", def_value: None }]
-constexpr OVRMaterialData(::UnityEngine::Shader shader, int32_t textureId, ::GlobalNamespace::OVRTextureData texture) noexcept;
+// Ctor Parameters [CppParam { name: "shader", ty: "UnityEngine::Shader", modifiers: "", def_value: None }, CppParam { name: "textureId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "texture", ty: "GlobalNamespace::OVRTextureData", modifiers: "", def_value: None }]
+constexpr OVRMaterialData(UnityEngine::Shader shader, int32_t textureId, GlobalNamespace::OVRTextureData texture) noexcept;
 
 
                     constexpr OVRMaterialData(OVRMaterialData const&) = default;
@@ -56,11 +55,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Shader __declspec(property(get=__get_shader, put=__set_shader))  shader;
+ UnityEngine::Shader __declspec(property(get=__get_shader, put=__set_shader))  shader;
 
-constexpr void __set_shader(::UnityEngine::Shader value) ;
+constexpr void __set_shader(UnityEngine::Shader value) ;
 
-constexpr ::UnityEngine::Shader __get_shader() const;
+constexpr UnityEngine::Shader __get_shader() const;
 
  int32_t __declspec(property(get=__get_textureId, put=__set_textureId))  textureId;
 
@@ -68,15 +67,14 @@ constexpr void __set_textureId(int32_t value) ;
 
 constexpr int32_t __get_textureId() const;
 
- ::GlobalNamespace::OVRTextureData __declspec(property(get=__get_texture, put=__set_texture))  texture;
+ GlobalNamespace::OVRTextureData __declspec(property(get=__get_texture, put=__set_texture))  texture;
 
-constexpr void __set_texture(::GlobalNamespace::OVRTextureData value) ;
+constexpr void __set_texture(GlobalNamespace::OVRTextureData value) ;
 
-constexpr ::GlobalNamespace::OVRTextureData __get_texture() const;
+constexpr GlobalNamespace::OVRTextureData __get_texture() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRMaterialData, "", "OVRMaterialData");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMaterialData, "", "OVRMaterialData");

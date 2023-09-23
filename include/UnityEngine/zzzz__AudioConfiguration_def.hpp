@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct AudioSpeakerMode;
 }
@@ -19,8 +18,8 @@ namespace UnityEngine {
 struct CORDL_TYPE AudioConfiguration : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "speakerMode", ty: "::UnityEngine::AudioSpeakerMode", modifiers: "", def_value: None }, CppParam { name: "dspBufferSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sampleRate", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "numRealVoices", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "numVirtualVoices", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr AudioConfiguration(::UnityEngine::AudioSpeakerMode speakerMode, int32_t dspBufferSize, int32_t sampleRate, int32_t numRealVoices, int32_t numVirtualVoices) noexcept;
+// Ctor Parameters [CppParam { name: "speakerMode", ty: "UnityEngine::AudioSpeakerMode", modifiers: "", def_value: None }, CppParam { name: "dspBufferSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sampleRate", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "numRealVoices", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "numVirtualVoices", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr AudioConfiguration(UnityEngine::AudioSpeakerMode speakerMode, int32_t dspBufferSize, int32_t sampleRate, int32_t numRealVoices, int32_t numVirtualVoices) noexcept;
 
 
                     constexpr AudioConfiguration(AudioConfiguration const&) = default;
@@ -53,11 +52,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::AudioSpeakerMode __declspec(property(get=__get_speakerMode, put=__set_speakerMode))  speakerMode;
+ UnityEngine::AudioSpeakerMode __declspec(property(get=__get_speakerMode, put=__set_speakerMode))  speakerMode;
 
-constexpr void __set_speakerMode(::UnityEngine::AudioSpeakerMode value) ;
+constexpr void __set_speakerMode(UnityEngine::AudioSpeakerMode value) ;
 
-constexpr ::UnityEngine::AudioSpeakerMode __get_speakerMode() const;
+constexpr UnityEngine::AudioSpeakerMode __get_speakerMode() const;
 
  int32_t __declspec(property(get=__get_dspBufferSize, put=__set_dspBufferSize))  dspBufferSize;
 
@@ -87,5 +86,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AudioConfiguration, "UnityEngine", "AudioConfiguration");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioConfiguration, "UnityEngine", "AudioConfiguration");

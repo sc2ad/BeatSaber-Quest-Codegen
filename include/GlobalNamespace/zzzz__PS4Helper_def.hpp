@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System {
 class Action;
 }
@@ -21,8 +20,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE PS4Helper : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Zenject::ITickable
-constexpr operator  ::Zenject::ITickable() const noexcept;
+/// @brief Convert operator to Zenject::ITickable
+constexpr operator  Zenject::ITickable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -57,17 +56,17 @@ constexpr explicit PS4Helper(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 
 // Fields
 
- ::System::Action __declspec(property(get=__get_didGoToBackgroundExecutionEvent, put=__set_didGoToBackgroundExecutionEvent))  didGoToBackgroundExecutionEvent;
+ System::Action __declspec(property(get=__get_didGoToBackgroundExecutionEvent, put=__set_didGoToBackgroundExecutionEvent))  didGoToBackgroundExecutionEvent;
 
-constexpr void __set_didGoToBackgroundExecutionEvent(::System::Action value) ;
+constexpr void __set_didGoToBackgroundExecutionEvent(System::Action value) ;
 
-constexpr ::System::Action __get_didGoToBackgroundExecutionEvent() const;
+constexpr System::Action __get_didGoToBackgroundExecutionEvent() const;
 
- ::System::Action __declspec(property(get=__get_didGoToForegroundExecutionEvent, put=__set_didGoToForegroundExecutionEvent))  didGoToForegroundExecutionEvent;
+ System::Action __declspec(property(get=__get_didGoToForegroundExecutionEvent, put=__set_didGoToForegroundExecutionEvent))  didGoToForegroundExecutionEvent;
 
-constexpr void __set_didGoToForegroundExecutionEvent(::System::Action value) ;
+constexpr void __set_didGoToForegroundExecutionEvent(System::Action value) ;
 
-constexpr ::System::Action __get_didGoToForegroundExecutionEvent() const;
+constexpr System::Action __get_didGoToForegroundExecutionEvent() const;
 
  bool __declspec(property(get=__get__backgroundExecution, put=__set__backgroundExecution))  _backgroundExecution;
 
@@ -79,16 +78,16 @@ constexpr bool __get__backgroundExecution() const;
 // Methods
 
 /// @brief Method add_didGoToBackgroundExecutionEvent addr 0x221a16c size 0x9c virtual false final false
- void add_didGoToBackgroundExecutionEvent(::System::Action value) ;
+ void add_didGoToBackgroundExecutionEvent(System::Action value) ;
 
 /// @brief Method remove_didGoToBackgroundExecutionEvent addr 0x221a208 size 0x9c virtual false final false
- void remove_didGoToBackgroundExecutionEvent(::System::Action value) ;
+ void remove_didGoToBackgroundExecutionEvent(System::Action value) ;
 
 /// @brief Method add_didGoToForegroundExecutionEvent addr 0x221a2a4 size 0x9c virtual false final false
- void add_didGoToForegroundExecutionEvent(::System::Action value) ;
+ void add_didGoToForegroundExecutionEvent(System::Action value) ;
 
 /// @brief Method remove_didGoToForegroundExecutionEvent addr 0x221a340 size 0x9c virtual false final false
- void remove_didGoToForegroundExecutionEvent(::System::Action value) ;
+ void remove_didGoToForegroundExecutionEvent(System::Action value) ;
 
 /// @brief Method Tick addr 0x221a3dc size 0x28 virtual true final true
  void Tick() ;
@@ -103,6 +102,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PS4Helper);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PS4Helper, "", "PS4Helper");
+NEED_NO_BOX(GlobalNamespace::PS4Helper);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4Helper, "", "PS4Helper");

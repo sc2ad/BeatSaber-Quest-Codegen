@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace Zenject {
 class DiContainer;
 }
@@ -18,7 +17,7 @@ namespace Zenject {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11118))
 // CS Name: Zenject.NoTransitionInstaller
-class CORDL_TYPE NoTransitionInstaller : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE NoTransitionInstaller : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr NoTransitionInstaller(NoTransitionInstaller const& ) noexcept = defaul
 constexpr NoTransitionInstaller(NoTransitionInstaller&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NoTransitionInstaller(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit NoTransitionInstaller(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -55,10 +54,10 @@ constexpr explicit NoTransitionInstaller(void* ptr) noexcept : ::UnityEngine::Mo
 // Methods
 
 /// @brief Method InstallBindings addr 0x2d8b76c size 0x4 virtual true final false
- void InstallBindings(::Zenject::DiContainer container) ;
+ void InstallBindings(Zenject::DiContainer container) ;
 
 /// @brief Method PostInstall addr 0x2d8b770 size 0x4 virtual true final false
- void PostInstall(::Zenject::DiContainer container) ;
+ void PostInstall(Zenject::DiContainer container) ;
 
 // Ctor Parameters []
 explicit NoTransitionInstaller() ;
@@ -67,12 +66,11 @@ explicit NoTransitionInstaller() ;
  void _ctor() ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x2d8b77c size 0x178 virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::NoTransitionInstaller);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::NoTransitionInstaller, "Zenject", "NoTransitionInstaller");
+NEED_NO_BOX(Zenject::NoTransitionInstaller);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::NoTransitionInstaller, "Zenject", "NoTransitionInstaller");

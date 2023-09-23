@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace TMPro {
 struct FontStyles;
 }
@@ -120,14 +119,13 @@ constexpr uint8_t __get_smallcaps() const;
  void Clear() ;
 
 /// @brief Method Add addr 0x2ab14e8 size 0xfc virtual false final false
- uint8_t Add(::TMPro::FontStyles style) ;
+ uint8_t Add(TMPro::FontStyles style) ;
 
 /// @brief Method Remove addr 0x2ab15e4 size 0x120 virtual false final false
- uint8_t Remove(::TMPro::FontStyles style) ;
+ uint8_t Remove(TMPro::FontStyles style) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_FontStyleStack, "TMPro", "TMP_FontStyleStack");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontStyleStack, "TMPro", "TMP_FontStyleStack");

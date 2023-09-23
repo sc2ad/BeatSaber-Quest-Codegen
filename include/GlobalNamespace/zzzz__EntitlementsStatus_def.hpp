@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 struct EntitlementsStatus;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::GlobalNamespace::EntitlementsStatus const Unknown;
+static GlobalNamespace::EntitlementsStatus const Unknown;
 
 /// @brief Field NotOwned offset 0
-static ::GlobalNamespace::EntitlementsStatus const NotOwned;
+static GlobalNamespace::EntitlementsStatus const NotOwned;
 
 /// @brief Field NotDownloaded offset 0
-static ::GlobalNamespace::EntitlementsStatus const NotDownloaded;
+static GlobalNamespace::EntitlementsStatus const NotDownloaded;
 
 /// @brief Field Ok offset 0
-static ::GlobalNamespace::EntitlementsStatus const Ok;
+static GlobalNamespace::EntitlementsStatus const Ok;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EntitlementsStatus, "", "EntitlementsStatus");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EntitlementsStatus, "", "EntitlementsStatus");

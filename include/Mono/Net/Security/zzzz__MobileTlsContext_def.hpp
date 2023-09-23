@@ -4,40 +4,39 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Security::Authentication {
 struct SslProtocols;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
-}
-namespace Mono::Security::Interface {
-class MonoTlsSettings;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateCollection;
-}
-namespace Mono::Net::Security {
-class MonoSslAuthenticationOptions;
-}
-namespace System {
-class IDisposable;
+class X509Certificate2;
 }
 namespace System {
 template<typename T1,typename T2>
 struct ValueTuple_2;
 }
-namespace Mono::Net::Security {
-class ChainValidationHelper;
-}
 namespace System::Security::Cryptography::X509Certificates {
 class X509Chain;
 }
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
+}
 namespace Mono::Net::Security {
-class MobileAuthenticatedStream;
+class ChainValidationHelper;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2;
+class X509CertificateCollection;
+}
+namespace Mono::Security::Interface {
+class MonoTlsSettings;
+}
+namespace Mono::Net::Security {
+class MonoSslAuthenticationOptions;
+}
+namespace Mono::Net::Security {
+class MobileAuthenticatedStream;
 }
 // Forward declare root types
 namespace Mono::Net::Security {
@@ -52,8 +51,8 @@ namespace Mono::Net::Security {
 class CORDL_TYPE MobileTlsContext : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x58};
@@ -88,23 +87,23 @@ constexpr explicit MobileTlsContext(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
- ::Mono::Net::Security::ChainValidationHelper __declspec(property(get=__get_certificateValidator, put=__set_certificateValidator))  certificateValidator;
+ Mono::Net::Security::ChainValidationHelper __declspec(property(get=__get_certificateValidator, put=__set_certificateValidator))  certificateValidator;
 
-constexpr void __set_certificateValidator(::Mono::Net::Security::ChainValidationHelper value) ;
+constexpr void __set_certificateValidator(Mono::Net::Security::ChainValidationHelper value) ;
 
-constexpr ::Mono::Net::Security::ChainValidationHelper __get_certificateValidator() const;
+constexpr Mono::Net::Security::ChainValidationHelper __get_certificateValidator() const;
 
- ::Mono::Net::Security::MonoSslAuthenticationOptions __declspec(property(get=__get__Options_k__BackingField, put=__set__Options_k__BackingField))  _Options_k__BackingField;
+ Mono::Net::Security::MonoSslAuthenticationOptions __declspec(property(get=__get__Options_k__BackingField, put=__set__Options_k__BackingField))  _Options_k__BackingField;
 
-constexpr void __set__Options_k__BackingField(::Mono::Net::Security::MonoSslAuthenticationOptions value) ;
+constexpr void __set__Options_k__BackingField(Mono::Net::Security::MonoSslAuthenticationOptions value) ;
 
-constexpr ::Mono::Net::Security::MonoSslAuthenticationOptions __get__Options_k__BackingField() const;
+constexpr Mono::Net::Security::MonoSslAuthenticationOptions __get__Options_k__BackingField() const;
 
- ::Mono::Net::Security::MobileAuthenticatedStream __declspec(property(get=__get__Parent_k__BackingField, put=__set__Parent_k__BackingField))  _Parent_k__BackingField;
+ Mono::Net::Security::MobileAuthenticatedStream __declspec(property(get=__get__Parent_k__BackingField, put=__set__Parent_k__BackingField))  _Parent_k__BackingField;
 
-constexpr void __set__Parent_k__BackingField(::Mono::Net::Security::MobileAuthenticatedStream value) ;
+constexpr void __set__Parent_k__BackingField(Mono::Net::Security::MobileAuthenticatedStream value) ;
 
-constexpr ::Mono::Net::Security::MobileAuthenticatedStream __get__Parent_k__BackingField() const;
+constexpr Mono::Net::Security::MobileAuthenticatedStream __get__Parent_k__BackingField() const;
 
  bool __declspec(property(get=__get__IsServer_k__BackingField, put=__set__IsServer_k__BackingField))  _IsServer_k__BackingField;
 
@@ -130,30 +129,30 @@ constexpr void __set__AskForClientCertificate_k__BackingField(bool value) ;
 
 constexpr bool __get__AskForClientCertificate_k__BackingField() const;
 
- ::System::Security::Authentication::SslProtocols __declspec(property(get=__get__EnabledProtocols_k__BackingField, put=__set__EnabledProtocols_k__BackingField))  _EnabledProtocols_k__BackingField;
+ System::Security::Authentication::SslProtocols __declspec(property(get=__get__EnabledProtocols_k__BackingField, put=__set__EnabledProtocols_k__BackingField))  _EnabledProtocols_k__BackingField;
 
-constexpr void __set__EnabledProtocols_k__BackingField(::System::Security::Authentication::SslProtocols value) ;
+constexpr void __set__EnabledProtocols_k__BackingField(System::Security::Authentication::SslProtocols value) ;
 
-constexpr ::System::Security::Authentication::SslProtocols __get__EnabledProtocols_k__BackingField() const;
+constexpr System::Security::Authentication::SslProtocols __get__EnabledProtocols_k__BackingField() const;
 
- ::System::Security::Cryptography::X509Certificates::X509CertificateCollection __declspec(property(get=__get__ClientCertificates_k__BackingField, put=__set__ClientCertificates_k__BackingField))  _ClientCertificates_k__BackingField;
+ System::Security::Cryptography::X509Certificates::X509CertificateCollection __declspec(property(get=__get__ClientCertificates_k__BackingField, put=__set__ClientCertificates_k__BackingField))  _ClientCertificates_k__BackingField;
 
-constexpr void __set__ClientCertificates_k__BackingField(::System::Security::Cryptography::X509Certificates::X509CertificateCollection value) ;
+constexpr void __set__ClientCertificates_k__BackingField(System::Security::Cryptography::X509Certificates::X509CertificateCollection value) ;
 
-constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateCollection __get__ClientCertificates_k__BackingField() const;
+constexpr System::Security::Cryptography::X509Certificates::X509CertificateCollection __get__ClientCertificates_k__BackingField() const;
 
- ::System::Security::Cryptography::X509Certificates::X509Certificate __declspec(property(get=__get__LocalServerCertificate_k__BackingField, put=__set__LocalServerCertificate_k__BackingField))  _LocalServerCertificate_k__BackingField;
+ System::Security::Cryptography::X509Certificates::X509Certificate __declspec(property(get=__get__LocalServerCertificate_k__BackingField, put=__set__LocalServerCertificate_k__BackingField))  _LocalServerCertificate_k__BackingField;
 
-constexpr void __set__LocalServerCertificate_k__BackingField(::System::Security::Cryptography::X509Certificates::X509Certificate value) ;
+constexpr void __set__LocalServerCertificate_k__BackingField(System::Security::Cryptography::X509Certificates::X509Certificate value) ;
 
-constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate __get__LocalServerCertificate_k__BackingField() const;
+constexpr System::Security::Cryptography::X509Certificates::X509Certificate __get__LocalServerCertificate_k__BackingField() const;
 
 
 // Properties
 
- ::Mono::Net::Security::MobileAuthenticatedStream __declspec(property(get=get_Parent))  Parent;
+ Mono::Net::Security::MobileAuthenticatedStream __declspec(property(get=get_Parent))  Parent;
 
- ::Mono::Security::Interface::MonoTlsSettings __declspec(property(get=get_Settings))  Settings;
+ Mono::Security::Interface::MonoTlsSettings __declspec(property(get=get_Settings))  Settings;
 
  bool __declspec(property(get=get_IsAuthenticated))  IsAuthenticated;
 
@@ -165,28 +164,28 @@ constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate __
 
  bool __declspec(property(get=get_AskForClientCertificate))  AskForClientCertificate;
 
- ::System::Security::Cryptography::X509Certificates::X509CertificateCollection __declspec(property(get=get_ClientCertificates))  ClientCertificates;
+ System::Security::Cryptography::X509Certificates::X509CertificateCollection __declspec(property(get=get_ClientCertificates))  ClientCertificates;
 
- ::System::Security::Cryptography::X509Certificates::X509Certificate __declspec(property(get=get_LocalServerCertificate, put=set_LocalServerCertificate))  LocalServerCertificate;
+ System::Security::Cryptography::X509Certificates::X509Certificate __declspec(property(get=get_LocalServerCertificate, put=set_LocalServerCertificate))  LocalServerCertificate;
 
- ::System::Security::Cryptography::X509Certificates::X509Certificate __declspec(property(get=get_LocalClientCertificate))  LocalClientCertificate;
+ System::Security::Cryptography::X509Certificates::X509Certificate __declspec(property(get=get_LocalClientCertificate))  LocalClientCertificate;
 
- ::System::Security::Cryptography::X509Certificates::X509Certificate2 __declspec(property(get=get_RemoteCertificate))  RemoteCertificate;
+ System::Security::Cryptography::X509Certificates::X509Certificate2 __declspec(property(get=get_RemoteCertificate))  RemoteCertificate;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "parent", ty: "::Mono::Net::Security::MobileAuthenticatedStream", modifiers: "", def_value: None }, CppParam { name: "options", ty: "::Mono::Net::Security::MonoSslAuthenticationOptions", modifiers: "", def_value: None }]
-explicit MobileTlsContext(::Mono::Net::Security::MobileAuthenticatedStream parent, ::Mono::Net::Security::MonoSslAuthenticationOptions options) ;
+// Ctor Parameters [CppParam { name: "parent", ty: "Mono::Net::Security::MobileAuthenticatedStream", modifiers: "", def_value: None }, CppParam { name: "options", ty: "Mono::Net::Security::MonoSslAuthenticationOptions", modifiers: "", def_value: None }]
+explicit MobileTlsContext(Mono::Net::Security::MobileAuthenticatedStream parent, Mono::Net::Security::MonoSslAuthenticationOptions options) ;
 
 /// @brief Method .ctor addr 0x2688df0 size 0x140 virtual false final false
- void _ctor(::Mono::Net::Security::MobileAuthenticatedStream parent, ::Mono::Net::Security::MonoSslAuthenticationOptions options) ;
+ void _ctor(Mono::Net::Security::MobileAuthenticatedStream parent, Mono::Net::Security::MonoSslAuthenticationOptions options) ;
 
 /// @brief Method get_Parent addr 0x2692544 size 0x8 virtual false final false
- ::Mono::Net::Security::MobileAuthenticatedStream get_Parent() ;
+ Mono::Net::Security::MobileAuthenticatedStream get_Parent() ;
 
 /// @brief Method get_Settings addr 0x2689780 size 0x1c virtual false final false
- ::Mono::Security::Interface::MonoTlsSettings get_Settings() ;
+ Mono::Security::Interface::MonoTlsSettings get_Settings() ;
 
 /// @brief Method get_IsAuthenticated addr 0x0 size 0xffffffffffffffff virtual true final false
  bool get_IsAuthenticated() ;
@@ -204,7 +203,7 @@ explicit MobileTlsContext(::Mono::Net::Security::MobileAuthenticatedStream paren
  bool get_AskForClientCertificate() ;
 
 /// @brief Method get_ClientCertificates addr 0x269256c size 0x8 virtual false final false
- ::System::Security::Cryptography::X509Certificates::X509CertificateCollection get_ClientCertificates() ;
+ System::Security::Cryptography::X509Certificates::X509CertificateCollection get_ClientCertificates() ;
 
 /// @brief Method StartHandshake addr 0x0 size 0xffffffffffffffff virtual true final false
  void StartHandshake() ;
@@ -216,22 +215,22 @@ explicit MobileTlsContext(::Mono::Net::Security::MobileAuthenticatedStream paren
  void FinishHandshake() ;
 
 /// @brief Method get_LocalServerCertificate addr 0x2692574 size 0x8 virtual false final false
- ::System::Security::Cryptography::X509Certificates::X509Certificate get_LocalServerCertificate() ;
+ System::Security::Cryptography::X509Certificates::X509Certificate get_LocalServerCertificate() ;
 
 /// @brief Method set_LocalServerCertificate addr 0x269257c size 0x8 virtual false final false
- void set_LocalServerCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate value) ;
+ void set_LocalServerCertificate(System::Security::Cryptography::X509Certificates::X509Certificate value) ;
 
 /// @brief Method get_LocalClientCertificate addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Security::Cryptography::X509Certificates::X509Certificate get_LocalClientCertificate() ;
+ System::Security::Cryptography::X509Certificates::X509Certificate get_LocalClientCertificate() ;
 
 /// @brief Method get_RemoteCertificate addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Security::Cryptography::X509Certificates::X509Certificate2 get_RemoteCertificate() ;
+ System::Security::Cryptography::X509Certificates::X509Certificate2 get_RemoteCertificate() ;
 
 /// @brief Method Read addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::ValueTuple_2<int32_t,bool> Read(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count) ;
+ System::ValueTuple_2<int32_t,bool> Read(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count) ;
 
 /// @brief Method Write addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::ValueTuple_2<int32_t,bool> Write(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count) ;
+ System::ValueTuple_2<int32_t,bool> Write(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count) ;
 
 /// @brief Method Shutdown addr 0x0 size 0xffffffffffffffff virtual true final false
  void Shutdown() ;
@@ -240,10 +239,10 @@ explicit MobileTlsContext(::Mono::Net::Security::MobileAuthenticatedStream paren
  bool PendingRenegotiation() ;
 
 /// @brief Method ValidateCertificate addr 0x2689b08 size 0x50 virtual false final false
- bool ValidateCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2 leaf, ::System::Security::Cryptography::X509Certificates::X509Chain chain) ;
+ bool ValidateCertificate(System::Security::Cryptography::X509Certificates::X509Certificate2 leaf, System::Security::Cryptography::X509Certificates::X509Chain chain) ;
 
 /// @brief Method SelectClientCertificate addr 0x268ac50 size 0x504 virtual false final false
- ::System::Security::Cryptography::X509Certificates::X509Certificate SelectClientCertificate(::ArrayW<::StringW> acceptableIssuers) ;
+ System::Security::Cryptography::X509Certificates::X509Certificate SelectClientCertificate(::ArrayW<::StringW> acceptableIssuers) ;
 
 /// @brief Method Renegotiate addr 0x0 size 0xffffffffffffffff virtual true final false
  void Renegotiate() ;
@@ -261,6 +260,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Net::Security
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Net::Security::MobileTlsContext);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Net::Security::MobileTlsContext, "Mono.Net.Security", "MobileTlsContext");
+NEED_NO_BOX(Mono::Net::Security::MobileTlsContext);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MobileTlsContext, "Mono.Net.Security", "MobileTlsContext");

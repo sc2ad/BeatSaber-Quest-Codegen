@@ -2,12 +2,11 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
-namespace System::Runtime::Remoting::Messaging {
-class IMethodMessage;
-}
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMethodMessage;
 }
 namespace System {
 class Exception;
@@ -25,11 +24,11 @@ namespace System::Runtime::Remoting::Messaging {
 class CORDL_TYPE IMethodReturnMessage : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::Remoting::Messaging::IMethodMessage
-constexpr operator  ::System::Runtime::Remoting::Messaging::IMethodMessage() const noexcept;
+/// @brief Convert operator to System::Runtime::Remoting::Messaging::IMethodMessage
+constexpr operator  System::Runtime::Remoting::Messaging::IMethodMessage() const noexcept;
 
-/// @brief Convert operator to ::System::Runtime::Remoting::Messaging::IMessage
-constexpr operator  ::System::Runtime::Remoting::Messaging::IMessage() const noexcept;
+/// @brief Convert operator to System::Runtime::Remoting::Messaging::IMessage
+constexpr operator  System::Runtime::Remoting::Messaging::IMessage() const noexcept;
 
 ~IMethodReturnMessage() = default;
 
@@ -40,7 +39,7 @@ constexpr explicit IMethodReturnMessage(void* ptr) noexcept : ::cordl_internals:
 
 // Properties
 
- ::System::Exception __declspec(property(get=get_Exception))  Exception;
+ System::Exception __declspec(property(get=get_Exception))  Exception;
 
  ::ArrayW<::bs_hook::Il2CppWrapperType> __declspec(property(get=get_OutArgs))  OutArgs;
 
@@ -50,7 +49,7 @@ constexpr explicit IMethodReturnMessage(void* ptr) noexcept : ::cordl_internals:
 // Methods
 
 /// @brief Method get_Exception addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Exception get_Exception() ;
+ System::Exception get_Exception() ;
 
 /// @brief Method get_OutArgs addr 0x0 size 0xffffffffffffffff virtual true final false
  ::ArrayW<::bs_hook::Il2CppWrapperType> get_OutArgs() ;
@@ -62,6 +61,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Messaging
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Messaging::IMethodReturnMessage);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::IMethodReturnMessage, "System.Runtime.Remoting.Messaging", "IMethodReturnMessage");
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::IMethodReturnMessage);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::IMethodReturnMessage, "System.Runtime.Remoting.Messaging", "IMethodReturnMessage");

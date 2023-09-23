@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Utilities::Encoders {
-class IEncoder;
-}
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Utilities::Encoders {
+class IEncoder;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Encoders {
@@ -57,11 +56,11 @@ constexpr explicit UrlBase64(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 
 // Fields
 
-static ::Org::BouncyCastle::Utilities::Encoders::IEncoder __declspec(property(get=__get_encoder, put=__set_encoder))  encoder;
+static Org::BouncyCastle::Utilities::Encoders::IEncoder __declspec(property(get=__get_encoder, put=__set_encoder))  encoder;
 
-static void __set_encoder(::Org::BouncyCastle::Utilities::Encoders::IEncoder value) ;
+static void __set_encoder(Org::BouncyCastle::Utilities::Encoders::IEncoder value) ;
 
-static ::Org::BouncyCastle::Utilities::Encoders::IEncoder __get_encoder() ;
+static Org::BouncyCastle::Utilities::Encoders::IEncoder __get_encoder() ;
 
 
 // Methods
@@ -70,19 +69,19 @@ static ::Org::BouncyCastle::Utilities::Encoders::IEncoder __get_encoder() ;
 static ::ArrayW<uint8_t> Encode(::ArrayW<uint8_t> data) ;
 
 /// @brief Method Encode addr 0x10d2e28 size 0xf0 virtual false final false
-static int32_t Encode(::ArrayW<uint8_t> data, ::System::IO::Stream outStr) ;
+static int32_t Encode(::ArrayW<uint8_t> data, System::IO::Stream outStr) ;
 
 /// @brief Method Decode addr 0x10d2f18 size 0x230 virtual false final false
 static ::ArrayW<uint8_t> Decode(::ArrayW<uint8_t> data) ;
 
 /// @brief Method Decode addr 0x10d3148 size 0xf4 virtual false final false
-static int32_t Decode(::ArrayW<uint8_t> data, ::System::IO::Stream outStr) ;
+static int32_t Decode(::ArrayW<uint8_t> data, System::IO::Stream outStr) ;
 
 /// @brief Method Decode addr 0x10d323c size 0x210 virtual false final false
 static ::ArrayW<uint8_t> Decode(::StringW data) ;
 
 /// @brief Method Decode addr 0x10d344c size 0xe4 virtual false final false
-static int32_t Decode(::StringW data, ::System::IO::Stream outStr) ;
+static int32_t Decode(::StringW data, System::IO::Stream outStr) ;
 
 // Ctor Parameters []
 explicit UrlBase64() ;
@@ -94,6 +93,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities::Encoders
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::Encoders::UrlBase64);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Encoders::UrlBase64, "Org.BouncyCastle.Utilities.Encoders", "UrlBase64");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Encoders::UrlBase64);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Encoders::UrlBase64, "Org.BouncyCastle.Utilities.Encoders", "UrlBase64");

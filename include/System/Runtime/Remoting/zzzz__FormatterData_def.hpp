@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Runtime/Remoting/zzzz__ProviderData_def.hpp"
-namespace {
 // Forward declare root types
 namespace System::Runtime::Remoting {
 class FormatterData;
@@ -12,7 +11,7 @@ namespace System::Runtime::Remoting {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3063))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3064))
 // CS Name: System.Runtime.Remoting.FormatterData
-class CORDL_TYPE FormatterData : public ::System::Runtime::Remoting::ProviderData {
+class CORDL_TYPE FormatterData : public System::Runtime::Remoting::ProviderData {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr FormatterData(FormatterData const& ) noexcept = default;
 constexpr FormatterData(FormatterData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FormatterData(void* ptr) noexcept : ::System::Runtime::Remoting::ProviderData(ptr) {
+constexpr explicit FormatterData(void* ptr) noexcept : System::Runtime::Remoting::ProviderData(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::FormatterData);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::FormatterData, "System.Runtime.Remoting", "FormatterData");
+NEED_NO_BOX(System::Runtime::Remoting::FormatterData);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::FormatterData, "System.Runtime.Remoting", "FormatterData");

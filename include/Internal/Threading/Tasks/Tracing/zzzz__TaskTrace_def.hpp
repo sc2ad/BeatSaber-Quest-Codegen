@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace Internal::Runtime::Augments {
 class TaskTraceCallbacks;
 }
@@ -52,11 +51,11 @@ constexpr explicit TaskTrace(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 
 // Fields
 
-static ::Internal::Runtime::Augments::TaskTraceCallbacks __declspec(property(get=__get_s_callbacks, put=__set_s_callbacks))  s_callbacks;
+static Internal::Runtime::Augments::TaskTraceCallbacks __declspec(property(get=__get_s_callbacks, put=__set_s_callbacks))  s_callbacks;
 
-static void __set_s_callbacks(::Internal::Runtime::Augments::TaskTraceCallbacks value) ;
+static void __set_s_callbacks(Internal::Runtime::Augments::TaskTraceCallbacks value) ;
 
-static ::Internal::Runtime::Augments::TaskTraceCallbacks __get_s_callbacks() ;
+static Internal::Runtime::Augments::TaskTraceCallbacks __get_s_callbacks() ;
 
 
 // Properties
@@ -85,6 +84,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Internal::Threading::Tasks::Tracing
-} // end anonymous namespace
-NEED_NO_BOX(::Internal::Threading::Tasks::Tracing::TaskTrace);
-DEFINE_IL2CPP_ARG_TYPE(::Internal::Threading::Tasks::Tracing::TaskTrace, "Internal.Threading.Tasks.Tracing", "TaskTrace");
+NEED_NO_BOX(Internal::Threading::Tasks::Tracing::TaskTrace);
+DEFINE_IL2CPP_ARG_TYPE(Internal::Threading::Tasks::Tracing::TaskTrace, "Internal.Threading.Tasks.Tracing", "TaskTrace");

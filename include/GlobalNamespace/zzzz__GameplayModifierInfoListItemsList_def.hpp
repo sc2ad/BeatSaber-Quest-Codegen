@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierInfoListItem_def.hpp"
 #include "HMUI/zzzz__UIItemsList_1_def.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class GameplayModifierInfoListItemsList;
@@ -10,10 +9,10 @@ class GameplayModifierInfoListItemsList;
 // Type: ::GameplayModifierInfoListItemsList
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13725)), TypeDefinitionIndex(TypeDefinitionIndex(5514)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13725), inst: 5043 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13725)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13725), inst: 5043 }), TypeDefinitionIndex(TypeDefinitionIndex(5514))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5515))
 // CS Name: GameplayModifierInfoListItemsList
-class CORDL_TYPE GameplayModifierInfoListItemsList : public ::HMUI::UIItemsList_1<::GlobalNamespace::GameplayModifierInfoListItem> {
+class CORDL_TYPE GameplayModifierInfoListItemsList : public HMUI::UIItemsList_1<GlobalNamespace::GameplayModifierInfoListItem> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr GameplayModifierInfoListItemsList(GameplayModifierInfoListItemsList co
 constexpr GameplayModifierInfoListItemsList(GameplayModifierInfoListItemsList&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GameplayModifierInfoListItemsList(void* ptr) noexcept : ::HMUI::UIItemsList_1<::GlobalNamespace::GameplayModifierInfoListItem>(ptr) {
+constexpr explicit GameplayModifierInfoListItemsList(void* ptr) noexcept : HMUI::UIItemsList_1<GlobalNamespace::GameplayModifierInfoListItem>(ptr) {
 }
 
 
@@ -59,6 +58,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::GameplayModifierInfoListItemsList);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameplayModifierInfoListItemsList, "", "GameplayModifierInfoListItemsList");
+NEED_NO_BOX(GlobalNamespace::GameplayModifierInfoListItemsList);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifierInfoListItemsList, "", "GameplayModifierInfoListItemsList");

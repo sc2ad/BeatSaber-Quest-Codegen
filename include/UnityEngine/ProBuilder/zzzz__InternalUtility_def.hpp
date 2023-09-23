@@ -4,13 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
-struct Color;
-}
 namespace UnityEngine {
 class Component;
 }
@@ -18,14 +11,20 @@ namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
-class Material;
+class Mesh;
 }
 namespace UnityEngine {
-class Mesh;
+class GameObject;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -35,7 +34,7 @@ namespace UnityEngine::ProBuilder {
 class InternalUtility;
 }
 namespace UnityEngine::ProBuilder {
-class ____UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0;
+class UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0;
 }
 // Type: ::<>c__DisplayClass7_0
 namespace UnityEngine::ProBuilder {
@@ -43,37 +42,37 @@ namespace UnityEngine::ProBuilder {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12072))
 // CS Name: UnityEngine.ProBuilder.InternalUtility::<>c__DisplayClass7_0
-class CORDL_TYPE ____UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0() = default;
+virtual ~UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0(____UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0(UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0(____UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0(UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0& operator=(void* o) noexcept {
+  constexpr UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0& operator=(____UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0&& o) noexcept = default;
-  constexpr ____UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0& operator=(____UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0 const& o) noexcept = default;
+  constexpr UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0& operator=(UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0&& o) noexcept = default;
+  constexpr UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0& operator=(UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0 const& o) noexcept = default;
                 
 
 
@@ -89,7 +88,7 @@ constexpr ::StringW __get_valid() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0() ;
+explicit UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0() ;
 
 /// @brief Method .ctor addr 0x29b2ac4 size 0x8 virtual false final false
  void _ctor() ;
@@ -110,7 +109,7 @@ namespace UnityEngine::ProBuilder {
 class CORDL_TYPE InternalUtility : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using __c__DisplayClass7_0 = ::UnityEngine::ProBuilder::____UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0;
+using __c__DisplayClass7_0 = UnityEngine::ProBuilder::UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -147,21 +146,21 @@ constexpr explicit InternalUtility(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 /// @brief Method GetComponents addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static ::ArrayW<T> GetComponents(::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject> gameObjects) ;
+static ::ArrayW<T> GetComponents(System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject> gameObjects) ;
 
 /// @brief Method GetComponents addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static ::ArrayW<T> GetComponents(::UnityEngine::GameObject go) ;
+static ::ArrayW<T> GetComponents(UnityEngine::GameObject go) ;
 
 /// @brief Method GetComponents addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static ::ArrayW<T> GetComponents(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform> transforms) ;
+static ::ArrayW<T> GetComponents(System::Collections::Generic::IEnumerable_1<UnityEngine::Transform> transforms) ;
 
 /// @brief Method EmptyGameObjectWithTransform addr 0x29b2570 size 0xe8 virtual false final false
-static ::UnityEngine::GameObject EmptyGameObjectWithTransform(::UnityEngine::Transform t) ;
+static UnityEngine::GameObject EmptyGameObjectWithTransform(UnityEngine::Transform t) ;
 
 /// @brief Method MeshGameObjectWithTransform addr 0x29b2658 size 0x11c virtual false final false
-static ::UnityEngine::GameObject MeshGameObjectWithTransform(::StringW name, ::UnityEngine::Transform t, ::UnityEngine::Mesh mesh, ::UnityEngine::Material mat, bool inheritParent) ;
+static UnityEngine::GameObject MeshGameObjectWithTransform(::StringW name, UnityEngine::Transform t, UnityEngine::Mesh mesh, UnityEngine::Material mat, bool inheritParent) ;
 
 /// @brief Method NextEnumValue addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
@@ -171,25 +170,24 @@ static T NextEnumValue(T current) ;
 static ::StringW ControlKeyString(char16_t character) ;
 
 /// @brief Method TryParseColor addr 0x29b2864 size 0x260 virtual false final false
-static bool TryParseColor(::StringW value, ByRef<::UnityEngine::Color> col) ;
+static bool TryParseColor(::StringW value, ByRef<UnityEngine::Color> col) ;
 
 /// @brief Method StringToVector3Array addr 0x29b2acc size 0x2e8 virtual false final false
-static ::ArrayW<::UnityEngine::Vector3> StringToVector3Array(::StringW str) ;
+static ::ArrayW<UnityEngine::Vector3> StringToVector3Array(::StringW str) ;
 
 /// @brief Method DemandComponent addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static T DemandComponent(::UnityEngine::Component component) ;
+static T DemandComponent(UnityEngine::Component component) ;
 
 /// @brief Method DemandComponent addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static T DemandComponent(::UnityEngine::GameObject gameObject) ;
+static T DemandComponent(UnityEngine::GameObject gameObject) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::InternalUtility);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::InternalUtility, "UnityEngine.ProBuilder", "InternalUtility");
-NEED_NO_BOX(::UnityEngine::ProBuilder::____UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::____UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0, "UnityEngine.ProBuilder", "InternalUtility/<>c__DisplayClass7_0");
+NEED_NO_BOX(UnityEngine::ProBuilder::InternalUtility);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::InternalUtility, "UnityEngine.ProBuilder", "InternalUtility");
+NEED_NO_BOX(UnityEngine::ProBuilder::UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0, "UnityEngine.ProBuilder", "InternalUtility/<>c__DisplayClass7_0");

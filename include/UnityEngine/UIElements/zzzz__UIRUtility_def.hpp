@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
 namespace UnityEngine {
 class Object;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -75,16 +74,16 @@ static ::StringW __get_k_DefaultWorldSpaceShaderName() ;
 static bool ShapeWindingIsClockwise(int32_t maskDepth, int32_t stencilRef) ;
 
 /// @brief Method IsRoundRect addr 0x2d011cc size 0x204 virtual false final false
-static bool IsRoundRect(::UnityEngine::UIElements::VisualElement ve) ;
+static bool IsRoundRect(UnityEngine::UIElements::VisualElement ve) ;
 
 /// @brief Method IsVectorImageBackground addr 0x2d013d0 size 0x90 virtual false final false
-static bool IsVectorImageBackground(::UnityEngine::UIElements::VisualElement ve) ;
+static bool IsVectorImageBackground(UnityEngine::UIElements::VisualElement ve) ;
 
 /// @brief Method IsElementSelfHidden addr 0x2d01460 size 0xc0 virtual false final false
-static bool IsElementSelfHidden(::UnityEngine::UIElements::VisualElement ve) ;
+static bool IsElementSelfHidden(UnityEngine::UIElements::VisualElement ve) ;
 
 /// @brief Method Destroy addr 0x2d01520 size 0xa8 virtual false final false
-static void Destroy(::UnityEngine::Object obj) ;
+static void Destroy(UnityEngine::Object obj) ;
 
 /// @brief Method GetPrevPow2 addr 0x2d015c8 size 0x34 virtual false final false
 static int32_t GetPrevPow2(int32_t n) ;
@@ -99,6 +98,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::UIRUtility);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIRUtility, "UnityEngine.UIElements", "UIRUtility");
+NEED_NO_BOX(UnityEngine::UIElements::UIRUtility);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIRUtility, "UnityEngine.UIElements", "UIRUtility");

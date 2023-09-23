@@ -1,26 +1,25 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template<typename TObject>
-struct AsyncOperationHandle_1;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct InstantiationParameters;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class IInstanceProvider;
-}
 namespace UnityEngine::ResourceManagement {
 class ResourceManager;
-}
-namespace UnityEngine {
-class GameObject;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class IInstanceProvider;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct InstantiationParameters;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template<typename TObject>
+struct AsyncOperationHandle_1;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {
@@ -35,8 +34,8 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
 class CORDL_TYPE InstanceProvider : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider
-constexpr operator  ::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider() const noexcept;
+/// @brief Convert operator to UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider
+constexpr operator  UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -71,20 +70,20 @@ constexpr explicit InstanceProvider(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
- ::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject,::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject>> __declspec(property(get=__get_m_InstanceObjectToPrefabHandle, put=__set_m_InstanceObjectToPrefabHandle))  m_InstanceObjectToPrefabHandle;
+ System::Collections::Generic::Dictionary_2<UnityEngine::GameObject,UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject>> __declspec(property(get=__get_m_InstanceObjectToPrefabHandle, put=__set_m_InstanceObjectToPrefabHandle))  m_InstanceObjectToPrefabHandle;
 
-constexpr void __set_m_InstanceObjectToPrefabHandle(::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject,::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject>> value) ;
+constexpr void __set_m_InstanceObjectToPrefabHandle(System::Collections::Generic::Dictionary_2<UnityEngine::GameObject,UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject>> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject,::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject>> __get_m_InstanceObjectToPrefabHandle() const;
+constexpr System::Collections::Generic::Dictionary_2<UnityEngine::GameObject,UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject>> __get_m_InstanceObjectToPrefabHandle() const;
 
 
 // Methods
 
 /// @brief Method ProvideInstance addr 0x2a3f4ac size 0xd8 virtual true final true
- ::UnityEngine::GameObject ProvideInstance(::UnityEngine::ResourceManagement::ResourceManager resourceManager, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject> prefabHandle, ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters) ;
+ UnityEngine::GameObject ProvideInstance(UnityEngine::ResourceManagement::ResourceManager resourceManager, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject> prefabHandle, UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters) ;
 
 /// @brief Method ReleaseInstance addr 0x2a3f584 size 0x218 virtual true final true
- void ReleaseInstance(::UnityEngine::ResourceManagement::ResourceManager resourceManager, ::UnityEngine::GameObject instance) ;
+ void ReleaseInstance(UnityEngine::ResourceManagement::ResourceManager resourceManager, UnityEngine::GameObject instance) ;
 
 // Ctor Parameters []
 explicit InstanceProvider() ;
@@ -96,6 +95,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ResourceManagement::ResourceProviders
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceProviders::InstanceProvider);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceProviders::InstanceProvider, "UnityEngine.ResourceManagement.ResourceProviders", "InstanceProvider");
+NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::InstanceProvider);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::InstanceProvider, "UnityEngine.ResourceManagement.ResourceProviders", "InstanceProvider");

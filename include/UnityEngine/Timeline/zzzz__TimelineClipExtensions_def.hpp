@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace UnityEngine {
 class Object;
 }
@@ -68,18 +67,17 @@ static ::StringW __get_k_UndoSetParentTrackText() ;
 // Methods
 
 /// @brief Method MoveToTrack addr 0x2ad8ca0 size 0x3c0 virtual false final false
-static void MoveToTrack(::UnityEngine::Timeline::TimelineClip clip, ::UnityEngine::Timeline::TrackAsset destinationTrack) ;
+static void MoveToTrack(UnityEngine::Timeline::TimelineClip clip, UnityEngine::Timeline::TrackAsset destinationTrack) ;
 
 /// @brief Method TryMoveToTrack addr 0x2ad9180 size 0x1a4 virtual false final false
-static bool TryMoveToTrack(::UnityEngine::Timeline::TimelineClip clip, ::UnityEngine::Timeline::TrackAsset destinationTrack) ;
+static bool TryMoveToTrack(UnityEngine::Timeline::TimelineClip clip, UnityEngine::Timeline::TrackAsset destinationTrack) ;
 
 /// @brief Method MoveToTrack_Impl addr 0x2ad9060 size 0x120 virtual false final false
-static void MoveToTrack_Impl(::UnityEngine::Timeline::TimelineClip clip, ::UnityEngine::Timeline::TrackAsset destinationTrack, ::UnityEngine::Object asset, ::UnityEngine::Timeline::TrackAsset parentTrack) ;
+static void MoveToTrack_Impl(UnityEngine::Timeline::TimelineClip clip, UnityEngine::Timeline::TrackAsset destinationTrack, UnityEngine::Object asset, UnityEngine::Timeline::TrackAsset parentTrack) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Timeline::TimelineClipExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::TimelineClipExtensions, "UnityEngine.Timeline", "TimelineClipExtensions");
+NEED_NO_BOX(UnityEngine::Timeline::TimelineClipExtensions);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineClipExtensions, "UnityEngine.Timeline", "TimelineClipExtensions");

@@ -5,19 +5,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Net::NetworkInformation {
-class GatewayIPAddressInformationCollection;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace System::Net {
-class IPAddress;
+namespace System::Net::NetworkInformation {
+class GatewayIPAddressInformationCollection;
 }
 namespace System::Net::NetworkInformation {
 class AixNetworkInterface;
+}
+namespace System::Net {
+class IPAddress;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {
@@ -29,7 +28,7 @@ namespace System::Net::NetworkInformation {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8141))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8110))
 // CS Name: System.Net.NetworkInformation.AixIPInterfaceProperties
-class CORDL_TYPE AixIPInterfaceProperties : public ::System::Net::NetworkInformation::UnixIPInterfaceProperties {
+class CORDL_TYPE AixIPInterfaceProperties : public System::Net::NetworkInformation::UnixIPInterfaceProperties {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -44,7 +43,7 @@ constexpr AixIPInterfaceProperties(AixIPInterfaceProperties const& ) noexcept = 
 constexpr AixIPInterfaceProperties(AixIPInterfaceProperties&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AixIPInterfaceProperties(void* ptr) noexcept : ::System::Net::NetworkInformation::UnixIPInterfaceProperties(ptr) {
+constexpr explicit AixIPInterfaceProperties(void* ptr) noexcept : System::Net::NetworkInformation::UnixIPInterfaceProperties(ptr) {
 }
 
 
@@ -74,27 +73,26 @@ constexpr int32_t __get__mtu() const;
 
 // Properties
 
- ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection __declspec(property(get=get_GatewayAddresses))  GatewayAddresses;
+ System::Net::NetworkInformation::GatewayIPAddressInformationCollection __declspec(property(get=get_GatewayAddresses))  GatewayAddresses;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "iface", ty: "::System::Net::NetworkInformation::AixNetworkInterface", modifiers: "", def_value: None }, CppParam { name: "addresses", ty: "::System::Collections::Generic::List_1<::System::Net::IPAddress>", modifiers: "", def_value: None }, CppParam { name: "mtu", ty: "int32_t", modifiers: "", def_value: None }]
-explicit AixIPInterfaceProperties(::System::Net::NetworkInformation::AixNetworkInterface iface, ::System::Collections::Generic::List_1<::System::Net::IPAddress> addresses, int32_t mtu) ;
+// Ctor Parameters [CppParam { name: "iface", ty: "System::Net::NetworkInformation::AixNetworkInterface", modifiers: "", def_value: None }, CppParam { name: "addresses", ty: "System::Collections::Generic::List_1<System::Net::IPAddress>", modifiers: "", def_value: None }, CppParam { name: "mtu", ty: "int32_t", modifiers: "", def_value: None }]
+explicit AixIPInterfaceProperties(System::Net::NetworkInformation::AixNetworkInterface iface, System::Collections::Generic::List_1<System::Net::IPAddress> addresses, int32_t mtu) ;
 
 /// @brief Method .ctor addr 0x2859984 size 0x80 virtual false final false
- void _ctor(::System::Net::NetworkInformation::AixNetworkInterface iface, ::System::Collections::Generic::List_1<::System::Net::IPAddress> addresses, int32_t mtu) ;
+ void _ctor(System::Net::NetworkInformation::AixNetworkInterface iface, System::Collections::Generic::List_1<System::Net::IPAddress> addresses, int32_t mtu) ;
 
 /// @brief Method ParseRouteInfo_icall addr 0x2859a30 size 0x44 virtual false final false
 static bool ParseRouteInfo_icall(::StringW iface, ByRef<::ArrayW<::StringW>> gw_addr_list) ;
 
 /// @brief Method get_GatewayAddresses addr 0x2859a74 size 0x254 virtual true final false
- ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection get_GatewayAddresses() ;
+ System::Net::NetworkInformation::GatewayIPAddressInformationCollection get_GatewayAddresses() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::NetworkInformation
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::NetworkInformation::AixIPInterfaceProperties);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::AixIPInterfaceProperties, "System.Net.NetworkInformation", "AixIPInterfaceProperties");
+NEED_NO_BOX(System::Net::NetworkInformation::AixIPInterfaceProperties);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::AixIPInterfaceProperties, "System.Net.NetworkInformation", "AixIPInterfaceProperties");

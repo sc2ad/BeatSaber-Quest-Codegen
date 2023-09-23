@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/zzzz__Sensor_def.hpp"
-namespace {
 namespace UnityEngine::InputSystem::Controls {
 class Vector3Control;
 }
@@ -15,7 +14,7 @@ namespace UnityEngine::InputSystem {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6357))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6358))
 // CS Name: UnityEngine.InputSystem.Accelerometer
-class CORDL_TYPE Accelerometer : public ::UnityEngine::InputSystem::Sensor {
+class CORDL_TYPE Accelerometer : public UnityEngine::InputSystem::Sensor {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr Accelerometer(Accelerometer const& ) noexcept = default;
 constexpr Accelerometer(Accelerometer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Accelerometer(void* ptr) noexcept : ::UnityEngine::InputSystem::Sensor(ptr) {
+constexpr explicit Accelerometer(void* ptr) noexcept : UnityEngine::InputSystem::Sensor(ptr) {
 }
 
 
@@ -51,39 +50,39 @@ constexpr explicit Accelerometer(void* ptr) noexcept : ::UnityEngine::InputSyste
 
 // Fields
 
- ::UnityEngine::InputSystem::Controls::Vector3Control __declspec(property(get=__get__acceleration_k__BackingField, put=__set__acceleration_k__BackingField))  _acceleration_k__BackingField;
+ UnityEngine::InputSystem::Controls::Vector3Control __declspec(property(get=__get__acceleration_k__BackingField, put=__set__acceleration_k__BackingField))  _acceleration_k__BackingField;
 
-constexpr void __set__acceleration_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control value) ;
+constexpr void __set__acceleration_k__BackingField(UnityEngine::InputSystem::Controls::Vector3Control value) ;
 
-constexpr ::UnityEngine::InputSystem::Controls::Vector3Control __get__acceleration_k__BackingField() const;
+constexpr UnityEngine::InputSystem::Controls::Vector3Control __get__acceleration_k__BackingField() const;
 
-static ::UnityEngine::InputSystem::Accelerometer __declspec(property(get=__get__current_k__BackingField, put=__set__current_k__BackingField))  _current_k__BackingField;
+static UnityEngine::InputSystem::Accelerometer __declspec(property(get=__get__current_k__BackingField, put=__set__current_k__BackingField))  _current_k__BackingField;
 
-static void __set__current_k__BackingField(::UnityEngine::InputSystem::Accelerometer value) ;
+static void __set__current_k__BackingField(UnityEngine::InputSystem::Accelerometer value) ;
 
-static ::UnityEngine::InputSystem::Accelerometer __get__current_k__BackingField() ;
+static UnityEngine::InputSystem::Accelerometer __get__current_k__BackingField() ;
 
 
 // Properties
 
- ::UnityEngine::InputSystem::Controls::Vector3Control __declspec(property(get=get_acceleration, put=set_acceleration))  acceleration;
+ UnityEngine::InputSystem::Controls::Vector3Control __declspec(property(get=get_acceleration, put=set_acceleration))  acceleration;
 
-static ::UnityEngine::InputSystem::Accelerometer __declspec(property(get=get_current, put=set_current))  current;
+static UnityEngine::InputSystem::Accelerometer __declspec(property(get=get_current, put=set_current))  current;
 
 
 // Methods
 
 /// @brief Method get_acceleration addr 0x2915264 size 0x8 virtual false final false
- ::UnityEngine::InputSystem::Controls::Vector3Control get_acceleration() ;
+ UnityEngine::InputSystem::Controls::Vector3Control get_acceleration() ;
 
 /// @brief Method set_acceleration addr 0x291526c size 0x8 virtual false final false
- void set_acceleration(::UnityEngine::InputSystem::Controls::Vector3Control value) ;
+ void set_acceleration(UnityEngine::InputSystem::Controls::Vector3Control value) ;
 
 /// @brief Method get_current addr 0x2915274 size 0x48 virtual false final false
-static ::UnityEngine::InputSystem::Accelerometer get_current() ;
+static UnityEngine::InputSystem::Accelerometer get_current() ;
 
 /// @brief Method set_current addr 0x29152bc size 0x4c virtual false final false
-static void set_current(::UnityEngine::InputSystem::Accelerometer value) ;
+static void set_current(UnityEngine::InputSystem::Accelerometer value) ;
 
 /// @brief Method MakeCurrent addr 0x2915308 size 0x54 virtual true final false
  void MakeCurrent() ;
@@ -104,6 +103,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Accelerometer);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Accelerometer, "UnityEngine.InputSystem", "Accelerometer");
+NEED_NO_BOX(UnityEngine::InputSystem::Accelerometer);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Accelerometer, "UnityEngine.InputSystem", "Accelerometer");

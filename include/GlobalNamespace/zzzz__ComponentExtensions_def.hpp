@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace UnityEngine {
 class Component;
 }
@@ -53,12 +52,11 @@ constexpr explicit ComponentExtensions(void* ptr) noexcept : ::bs_hook::Il2CppWr
 
 /// @brief Method GetComponentInParentOnly addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static T GetComponentInParentOnly(::UnityEngine::Component c) ;
+static T GetComponentInParentOnly(UnityEngine::Component c) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ComponentExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ComponentExtensions, "", "ComponentExtensions");
+NEED_NO_BOX(GlobalNamespace::ComponentExtensions);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ComponentExtensions, "", "ComponentExtensions");

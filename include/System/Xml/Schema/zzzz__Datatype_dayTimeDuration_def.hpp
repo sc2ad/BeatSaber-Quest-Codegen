@@ -4,18 +4,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace System {
+class Exception;
+}
+namespace System::Xml::Schema {
+struct XmlTypeCode;
+}
 namespace System::Xml {
 class IXmlNamespaceResolver;
 }
 namespace System::Xml {
 class XmlNameTable;
-}
-namespace System::Xml::Schema {
-struct XmlTypeCode;
-}
-namespace System {
-class Exception;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -27,7 +26,7 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11574))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11576))
 // CS Name: System.Xml.Schema.Datatype_dayTimeDuration
-class CORDL_TYPE Datatype_dayTimeDuration : public ::System::Xml::Schema::Datatype_duration {
+class CORDL_TYPE Datatype_dayTimeDuration : public System::Xml::Schema::Datatype_duration {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -42,7 +41,7 @@ constexpr Datatype_dayTimeDuration(Datatype_dayTimeDuration const& ) noexcept = 
 constexpr Datatype_dayTimeDuration(Datatype_dayTimeDuration&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Datatype_dayTimeDuration(void* ptr) noexcept : ::System::Xml::Schema::Datatype_duration(ptr) {
+constexpr explicit Datatype_dayTimeDuration(void* ptr) noexcept : System::Xml::Schema::Datatype_duration(ptr) {
 }
 
 
@@ -63,16 +62,16 @@ constexpr explicit Datatype_dayTimeDuration(void* ptr) noexcept : ::System::Xml:
 
 // Properties
 
- ::System::Xml::Schema::XmlTypeCode __declspec(property(get=get_TypeCode))  TypeCode;
+ System::Xml::Schema::XmlTypeCode __declspec(property(get=get_TypeCode))  TypeCode;
 
 
 // Methods
 
 /// @brief Method TryParseValue addr 0x2725b78 size 0x1c4 virtual true final false
- ::System::Exception TryParseValue(::StringW s, ::System::Xml::XmlNameTable nameTable, ::System::Xml::IXmlNamespaceResolver nsmgr, ByRef<::bs_hook::Il2CppWrapperType> typedValue) ;
+ System::Exception TryParseValue(::StringW s, System::Xml::XmlNameTable nameTable, System::Xml::IXmlNamespaceResolver nsmgr, ByRef<::bs_hook::Il2CppWrapperType> typedValue) ;
 
 /// @brief Method get_TypeCode addr 0x2725d3c size 0x8 virtual true final false
- ::System::Xml::Schema::XmlTypeCode get_TypeCode() ;
+ System::Xml::Schema::XmlTypeCode get_TypeCode() ;
 
 // Ctor Parameters []
 explicit Datatype_dayTimeDuration() ;
@@ -84,6 +83,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::Datatype_dayTimeDuration);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::Datatype_dayTimeDuration, "System.Xml.Schema", "Datatype_dayTimeDuration");
+NEED_NO_BOX(System::Xml::Schema::Datatype_dayTimeDuration);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::Datatype_dayTimeDuration, "System.Xml.Schema", "Datatype_dayTimeDuration");

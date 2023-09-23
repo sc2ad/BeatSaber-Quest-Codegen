@@ -1,11 +1,10 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
-namespace UnityEngine {
-class Mesh;
-}
 namespace UnityEngine::UI {
 class VertexHelper;
+}
+namespace UnityEngine {
+class Mesh;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -30,15 +29,14 @@ constexpr explicit IMeshModifier(void* ptr) noexcept : ::cordl_internals::Interf
 // Methods
 
 /// @brief Method ModifyMesh addr 0x0 size 0xffffffffffffffff virtual true final false
- void ModifyMesh(::UnityEngine::Mesh mesh) ;
+ void ModifyMesh(UnityEngine::Mesh mesh) ;
 
 /// @brief Method ModifyMesh addr 0x0 size 0xffffffffffffffff virtual true final false
- void ModifyMesh(::UnityEngine::UI::VertexHelper verts) ;
+ void ModifyMesh(UnityEngine::UI::VertexHelper verts) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UI
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UI::IMeshModifier);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::IMeshModifier, "UnityEngine.UI", "IMeshModifier");
+NEED_NO_BOX(UnityEngine::UI::IMeshModifier);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::IMeshModifier, "UnityEngine.UI", "IMeshModifier");

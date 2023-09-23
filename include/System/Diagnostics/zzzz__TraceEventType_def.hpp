@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Diagnostics {
 struct TraceEventType;
@@ -75,38 +74,37 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Critical offset 0
-static ::System::Diagnostics::TraceEventType const Critical;
+static System::Diagnostics::TraceEventType const Critical;
 
 /// @brief Field Error offset 0
-static ::System::Diagnostics::TraceEventType const Error;
+static System::Diagnostics::TraceEventType const Error;
 
 /// @brief Field Warning offset 0
-static ::System::Diagnostics::TraceEventType const Warning;
+static System::Diagnostics::TraceEventType const Warning;
 
 /// @brief Field Information offset 0
-static ::System::Diagnostics::TraceEventType const Information;
+static System::Diagnostics::TraceEventType const Information;
 
 /// @brief Field Verbose offset 0
-static ::System::Diagnostics::TraceEventType const Verbose;
+static System::Diagnostics::TraceEventType const Verbose;
 
 /// @brief Field Start offset 0
-static ::System::Diagnostics::TraceEventType const Start;
+static System::Diagnostics::TraceEventType const Start;
 
 /// @brief Field Stop offset 0
-static ::System::Diagnostics::TraceEventType const Stop;
+static System::Diagnostics::TraceEventType const Stop;
 
 /// @brief Field Suspend offset 0
-static ::System::Diagnostics::TraceEventType const Suspend;
+static System::Diagnostics::TraceEventType const Suspend;
 
 /// @brief Field Resume offset 0
-static ::System::Diagnostics::TraceEventType const Resume;
+static System::Diagnostics::TraceEventType const Resume;
 
 /// @brief Field Transfer offset 0
-static ::System::Diagnostics::TraceEventType const Transfer;
+static System::Diagnostics::TraceEventType const Transfer;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Diagnostics
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::TraceEventType, "System.Diagnostics", "TraceEventType");
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::TraceEventType, "System.Diagnostics", "TraceEventType");

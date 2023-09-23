@@ -1,32 +1,31 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
+namespace UnityEngine::InputSystem {
+struct InputBinding;
+}
+namespace UnityEngine::InputSystem {
+class InputDevice;
+}
 namespace UnityEngine::InputSystem {
 class InputAction;
 }
 namespace UnityEngine::InputSystem {
-class InputDevice;
+struct InputControlScheme;
 }
 namespace System {
 template<typename T>
 struct Nullable_1;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace UnityEngine::InputSystem::Utilities {
+template<typename TValue>
+struct ReadOnlyArray_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace UnityEngine::InputSystem::Utilities {
-template<typename TValue>
-struct ReadOnlyArray_1;
-}
-namespace UnityEngine::InputSystem {
-struct InputControlScheme;
-}
-namespace UnityEngine::InputSystem {
-struct InputBinding;
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -41,11 +40,11 @@ namespace UnityEngine::InputSystem {
 class CORDL_TYPE IInputActionCollection : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputAction>
-constexpr operator  ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputAction>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerable_1<UnityEngine::InputSystem::InputAction>
+constexpr operator  System::Collections::Generic::IEnumerable_1<UnityEngine::InputSystem::InputAction>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
 ~IInputActionCollection() = default;
 
@@ -56,32 +55,32 @@ constexpr explicit IInputActionCollection(void* ptr) noexcept : ::cordl_internal
 
 // Properties
 
- ::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> __declspec(property(get=get_bindingMask, put=set_bindingMask))  bindingMask;
+ System::Nullable_1<UnityEngine::InputSystem::InputBinding> __declspec(property(get=get_bindingMask, put=set_bindingMask))  bindingMask;
 
- ::System::Nullable_1<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice>> __declspec(property(get=get_devices, put=set_devices))  devices;
+ System::Nullable_1<UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<UnityEngine::InputSystem::InputDevice>> __declspec(property(get=get_devices, put=set_devices))  devices;
 
- ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputControlScheme> __declspec(property(get=get_controlSchemes))  controlSchemes;
+ UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<UnityEngine::InputSystem::InputControlScheme> __declspec(property(get=get_controlSchemes))  controlSchemes;
 
 
 // Methods
 
 /// @brief Method get_bindingMask addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> get_bindingMask() ;
+ System::Nullable_1<UnityEngine::InputSystem::InputBinding> get_bindingMask() ;
 
 /// @brief Method set_bindingMask addr 0x0 size 0xffffffffffffffff virtual true final false
- void set_bindingMask(::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> value) ;
+ void set_bindingMask(System::Nullable_1<UnityEngine::InputSystem::InputBinding> value) ;
 
 /// @brief Method get_devices addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Nullable_1<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice>> get_devices() ;
+ System::Nullable_1<UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<UnityEngine::InputSystem::InputDevice>> get_devices() ;
 
 /// @brief Method set_devices addr 0x0 size 0xffffffffffffffff virtual true final false
- void set_devices(::System::Nullable_1<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice>> value) ;
+ void set_devices(System::Nullable_1<UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<UnityEngine::InputSystem::InputDevice>> value) ;
 
 /// @brief Method get_controlSchemes addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputControlScheme> get_controlSchemes() ;
+ UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<UnityEngine::InputSystem::InputControlScheme> get_controlSchemes() ;
 
 /// @brief Method Contains addr 0x0 size 0xffffffffffffffff virtual true final false
- bool Contains(::UnityEngine::InputSystem::InputAction action) ;
+ bool Contains(UnityEngine::InputSystem::InputAction action) ;
 
 /// @brief Method Enable addr 0x0 size 0xffffffffffffffff virtual true final false
  void Enable() ;
@@ -93,6 +92,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::IInputActionCollection);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::IInputActionCollection, "UnityEngine.InputSystem", "IInputActionCollection");
+NEED_NO_BOX(UnityEngine::InputSystem::IInputActionCollection);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::IInputActionCollection, "UnityEngine.InputSystem", "IInputActionCollection");

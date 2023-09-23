@@ -1,6 +1,5 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace GlobalNamespace {
 class ISaberSwingRatingCounter;
 }
@@ -27,12 +26,11 @@ constexpr explicit ISaberSwingRatingCounterDidFinishReceiver(void* ptr) noexcept
 // Methods
 
 /// @brief Method HandleSaberSwingRatingCounterDidFinish addr 0x0 size 0xffffffffffffffff virtual true final false
- void HandleSaberSwingRatingCounterDidFinish(::GlobalNamespace::ISaberSwingRatingCounter saberSwingRatingCounter) ;
+ void HandleSaberSwingRatingCounterDidFinish(GlobalNamespace::ISaberSwingRatingCounter saberSwingRatingCounter) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver, "", "ISaberSwingRatingCounterDidFinishReceiver");
+NEED_NO_BOX(GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver, "", "ISaberSwingRatingCounterDidFinishReceiver");

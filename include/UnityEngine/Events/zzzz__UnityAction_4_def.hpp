@@ -3,7 +3,6 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Events {
 template<typename T0,typename T1,typename T2,typename T3>
@@ -19,10 +18,10 @@ namespace UnityEngine::Events {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T0,::cordl_internals::il2cpp_reference_type T1,::cordl_internals::il2cpp_reference_type T2,::cordl_internals::il2cpp_reference_type T3>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10404)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610)), TypeDefinitionIndex(TypeDefinitionIndex(10404))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10404), inst: 5937 })
 // CS Name: UnityEngine.Events.UnityAction`4
-class CORDL_TYPE UnityAction_4<T0,T1,T2,T3> : public ::System::MulticastDelegate {
+class CORDL_TYPE UnityAction_4<T0,T1,T2,T3> : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr UnityAction_4(UnityAction_4 const& ) noexcept = default;
 constexpr UnityAction_4(UnityAction_4&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UnityAction_4(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit UnityAction_4(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -71,5 +70,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Events
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::Events::UnityAction_4, "UnityEngine.Events", "UnityAction`4");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::Events::UnityAction_4, "UnityEngine.Events", "UnityAction`4");

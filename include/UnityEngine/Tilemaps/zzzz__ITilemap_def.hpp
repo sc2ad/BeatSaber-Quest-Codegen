@@ -2,16 +2,15 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace Unity::Collections {
 template<typename T>
 struct NativeArray_1;
 }
-namespace UnityEngine {
-struct Vector3Int;
-}
 namespace UnityEngine::Tilemaps {
 class Tilemap;
+}
+namespace UnityEngine {
+struct Vector3Int;
 }
 // Forward declare root types
 namespace UnityEngine::Tilemaps {
@@ -59,17 +58,17 @@ constexpr explicit ITilemap(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(p
 
 // Fields
 
-static ::UnityEngine::Tilemaps::ITilemap __declspec(property(get=__get_s_Instance, put=__set_s_Instance))  s_Instance;
+static UnityEngine::Tilemaps::ITilemap __declspec(property(get=__get_s_Instance, put=__set_s_Instance))  s_Instance;
 
-static void __set_s_Instance(::UnityEngine::Tilemaps::ITilemap value) ;
+static void __set_s_Instance(UnityEngine::Tilemaps::ITilemap value) ;
 
-static ::UnityEngine::Tilemaps::ITilemap __get_s_Instance() ;
+static UnityEngine::Tilemaps::ITilemap __get_s_Instance() ;
 
- ::UnityEngine::Tilemaps::Tilemap __declspec(property(get=__get_m_Tilemap, put=__set_m_Tilemap))  m_Tilemap;
+ UnityEngine::Tilemaps::Tilemap __declspec(property(get=__get_m_Tilemap, put=__set_m_Tilemap))  m_Tilemap;
 
-constexpr void __set_m_Tilemap(::UnityEngine::Tilemaps::Tilemap value) ;
+constexpr void __set_m_Tilemap(UnityEngine::Tilemaps::Tilemap value) ;
 
-constexpr ::UnityEngine::Tilemaps::Tilemap __get_m_Tilemap() const;
+constexpr UnityEngine::Tilemaps::Tilemap __get_m_Tilemap() const;
 
  bool __declspec(property(get=__get_m_AddToList, put=__set_m_AddToList))  m_AddToList;
 
@@ -83,11 +82,11 @@ constexpr void __set_m_RefreshCount(int32_t value) ;
 
 constexpr int32_t __get_m_RefreshCount() const;
 
- ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int> __declspec(property(get=__get_m_RefreshPos, put=__set_m_RefreshPos))  m_RefreshPos;
+ Unity::Collections::NativeArray_1<UnityEngine::Vector3Int> __declspec(property(get=__get_m_RefreshPos, put=__set_m_RefreshPos))  m_RefreshPos;
 
-constexpr void __set_m_RefreshPos(::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int> value) ;
+constexpr void __set_m_RefreshPos(Unity::Collections::NativeArray_1<UnityEngine::Vector3Int> value) ;
 
-constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int> __get_m_RefreshPos() const;
+constexpr Unity::Collections::NativeArray_1<UnityEngine::Vector3Int> __get_m_RefreshPos() const;
 
 
 // Methods
@@ -99,21 +98,20 @@ explicit ITilemap() ;
  void _ctor() ;
 
 /// @brief Method RefreshTile addr 0x2bd74ac size 0x164 virtual false final false
- void RefreshTile(::UnityEngine::Vector3Int position) ;
+ void RefreshTile(UnityEngine::Vector3Int position) ;
 
 /// @brief Method CreateInstance addr 0x2bd76f8 size 0x70 virtual false final false
-static ::UnityEngine::Tilemaps::ITilemap CreateInstance() ;
+static UnityEngine::Tilemaps::ITilemap CreateInstance() ;
 
 /// @brief Method FindAllRefreshPositions addr 0x2bd7768 size 0x318 virtual false final false
-static void FindAllRefreshPositions(::UnityEngine::Tilemaps::ITilemap tilemap, int32_t count, ::cordl_internals::intptr_t oldTilesIntPtr, ::cordl_internals::intptr_t newTilesIntPtr, ::cordl_internals::intptr_t positionsIntPtr) ;
+static void FindAllRefreshPositions(UnityEngine::Tilemaps::ITilemap tilemap, int32_t count, ::cordl_internals::intptr_t oldTilesIntPtr, ::cordl_internals::intptr_t newTilesIntPtr, ::cordl_internals::intptr_t positionsIntPtr) ;
 
 /// @brief Method GetAllTileData addr 0x2bd7a80 size 0x1f8 virtual false final false
-static void GetAllTileData(::UnityEngine::Tilemaps::ITilemap tilemap, int32_t count, ::cordl_internals::intptr_t tilesIntPtr, ::cordl_internals::intptr_t positionsIntPtr, ::cordl_internals::intptr_t outTileDataIntPtr) ;
+static void GetAllTileData(UnityEngine::Tilemaps::ITilemap tilemap, int32_t count, ::cordl_internals::intptr_t tilesIntPtr, ::cordl_internals::intptr_t positionsIntPtr, ::cordl_internals::intptr_t outTileDataIntPtr) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Tilemaps
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Tilemaps::ITilemap);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Tilemaps::ITilemap, "UnityEngine.Tilemaps", "ITilemap");
+NEED_NO_BOX(UnityEngine::Tilemaps::ITilemap);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Tilemaps::ITilemap, "UnityEngine.Tilemaps", "ITilemap");

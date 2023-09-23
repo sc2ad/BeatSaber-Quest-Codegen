@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 struct UriComponents;
 }
@@ -61,15 +60,14 @@ static bool CheckIriUnicodeRange(char16_t unicode, bool isQuery) ;
 static bool CheckIriUnicodeRange(char16_t highSurr, char16_t lowSurr, ByRef<bool> surrogatePair, bool isQuery) ;
 
 /// @brief Method CheckIsReserved addr 0x27b6f98 size 0x144 virtual false final false
-static bool CheckIsReserved(char16_t ch, ::System::UriComponents component) ;
+static bool CheckIsReserved(char16_t ch, System::UriComponents component) ;
 
 /// @brief Method EscapeUnescapeIri addr 0x27b70dc size 0x7fc virtual false final false
-static ::StringW EscapeUnescapeIri(void* pInput, int32_t start, int32_t end, ::System::UriComponents component) ;
+static ::StringW EscapeUnescapeIri(void* pInput, int32_t start, int32_t end, System::UriComponents component) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::IriHelper);
-DEFINE_IL2CPP_ARG_TYPE(::System::IriHelper, "System", "IriHelper");
+NEED_NO_BOX(System::IriHelper);
+DEFINE_IL2CPP_ARG_TYPE(System::IriHelper, "System", "IriHelper");

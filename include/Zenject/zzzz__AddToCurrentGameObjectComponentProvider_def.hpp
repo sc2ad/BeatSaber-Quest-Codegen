@@ -3,9 +3,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
 namespace Zenject {
-class DiContainer;
+struct TypeValuePair;
 }
 namespace System {
 class Action;
@@ -13,26 +24,14 @@ class Action;
 namespace System {
 class Type;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace Zenject {
-class InjectContext;
-}
-namespace Zenject {
-struct TypeValuePair;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 namespace Zenject {
 class IProvider;
 }
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class InjectContext;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -42,7 +41,7 @@ namespace Zenject {
 class AddToCurrentGameObjectComponentProvider;
 }
 namespace Zenject {
-class ____Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0;
+class Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0;
 }
 // Type: ::<>c__DisplayClass15_0
 namespace Zenject {
@@ -50,53 +49,53 @@ namespace Zenject {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11122))
 // CS Name: Zenject.AddToCurrentGameObjectComponentProvider::<>c__DisplayClass15_0
-class CORDL_TYPE ____Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0() = default;
+virtual ~Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0", modifiers: " const&", def_value: None }]
-constexpr ____Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0(____Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0", modifiers: " const&", def_value: None }]
+constexpr Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0(Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0", modifiers: "&&", def_value: None }]
-constexpr ____Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0(____Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0", modifiers: "&&", def_value: None }]
+constexpr Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0(Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0& operator=(std::nullptr_t) noexcept {
+  constexpr Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0& operator=(void* o) noexcept {
+  constexpr Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0& operator=(____Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0&& o) noexcept = default;
-  constexpr ____Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0& operator=(____Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0 const& o) noexcept = default;
+  constexpr Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0& operator=(Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0&& o) noexcept = default;
+  constexpr Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0& operator=(Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::Zenject::AddToCurrentGameObjectComponentProvider __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ Zenject::AddToCurrentGameObjectComponentProvider __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::Zenject::AddToCurrentGameObjectComponentProvider value) ;
+constexpr void __set___4__this(Zenject::AddToCurrentGameObjectComponentProvider value) ;
 
-constexpr ::Zenject::AddToCurrentGameObjectComponentProvider __get___4__this() const;
+constexpr Zenject::AddToCurrentGameObjectComponentProvider __get___4__this() const;
 
- ::System::Collections::Generic::List_1<::Zenject::TypeValuePair> __declspec(property(get=__get_args, put=__set_args))  args;
+ System::Collections::Generic::List_1<Zenject::TypeValuePair> __declspec(property(get=__get_args, put=__set_args))  args;
 
-constexpr void __set_args(::System::Collections::Generic::List_1<::Zenject::TypeValuePair> value) ;
+constexpr void __set_args(System::Collections::Generic::List_1<Zenject::TypeValuePair> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair> __get_args() const;
+constexpr System::Collections::Generic::List_1<Zenject::TypeValuePair> __get_args() const;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=__get_instance, put=__set_instance))  instance;
 
@@ -104,17 +103,17 @@ constexpr void __set_instance(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get_instance() const;
 
- ::Zenject::InjectContext __declspec(property(get=__get_context, put=__set_context))  context;
+ Zenject::InjectContext __declspec(property(get=__get_context, put=__set_context))  context;
 
-constexpr void __set_context(::Zenject::InjectContext value) ;
+constexpr void __set_context(Zenject::InjectContext value) ;
 
-constexpr ::Zenject::InjectContext __get_context() const;
+constexpr Zenject::InjectContext __get_context() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0() ;
+explicit Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0() ;
 
 /// @brief Method .ctor addr 0x2d8c8b0 size 0x8 virtual false final false
  void _ctor() ;
@@ -126,7 +125,7 @@ explicit ____Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass
 static ::bs_hook::Il2CppWrapperType __zenCreate(::ArrayW<::bs_hook::Il2CppWrapperType> P_0) ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x2d8cb84 size 0x1c0 virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -141,10 +140,10 @@ namespace Zenject {
 class CORDL_TYPE AddToCurrentGameObjectComponentProvider : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using __c__DisplayClass15_0 = ::Zenject::____Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0;
+using __c__DisplayClass15_0 = Zenject::Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0;
 
-/// @brief Convert operator to ::Zenject::IProvider
-constexpr operator  ::Zenject::IProvider() const noexcept;
+/// @brief Convert operator to Zenject::IProvider
+constexpr operator  Zenject::IProvider() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -179,23 +178,23 @@ constexpr explicit AddToCurrentGameObjectComponentProvider(void* ptr) noexcept :
 
 // Fields
 
- ::System::Type __declspec(property(get=__get__componentType, put=__set__componentType))  _componentType;
+ System::Type __declspec(property(get=__get__componentType, put=__set__componentType))  _componentType;
 
-constexpr void __set__componentType(::System::Type value) ;
+constexpr void __set__componentType(System::Type value) ;
 
-constexpr ::System::Type __get__componentType() const;
+constexpr System::Type __get__componentType() const;
 
- ::Zenject::DiContainer __declspec(property(get=__get__container, put=__set__container))  _container;
+ Zenject::DiContainer __declspec(property(get=__get__container, put=__set__container))  _container;
 
-constexpr void __set__container(::Zenject::DiContainer value) ;
+constexpr void __set__container(Zenject::DiContainer value) ;
 
-constexpr ::Zenject::DiContainer __get__container() const;
+constexpr Zenject::DiContainer __get__container() const;
 
- ::System::Collections::Generic::List_1<::Zenject::TypeValuePair> __declspec(property(get=__get__extraArguments, put=__set__extraArguments))  _extraArguments;
+ System::Collections::Generic::List_1<Zenject::TypeValuePair> __declspec(property(get=__get__extraArguments, put=__set__extraArguments))  _extraArguments;
 
-constexpr void __set__extraArguments(::System::Collections::Generic::List_1<::Zenject::TypeValuePair> value) ;
+constexpr void __set__extraArguments(System::Collections::Generic::List_1<Zenject::TypeValuePair> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair> __get__extraArguments() const;
+constexpr System::Collections::Generic::List_1<Zenject::TypeValuePair> __get__extraArguments() const;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=__get__concreteIdentifier, put=__set__concreteIdentifier))  _concreteIdentifier;
 
@@ -203,11 +202,11 @@ constexpr void __set__concreteIdentifier(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get__concreteIdentifier() const;
 
- ::System::Action_2<::Zenject::InjectContext,::bs_hook::Il2CppWrapperType> __declspec(property(get=__get__instantiateCallback, put=__set__instantiateCallback))  _instantiateCallback;
+ System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> __declspec(property(get=__get__instantiateCallback, put=__set__instantiateCallback))  _instantiateCallback;
 
-constexpr void __set__instantiateCallback(::System::Action_2<::Zenject::InjectContext,::bs_hook::Il2CppWrapperType> value) ;
+constexpr void __set__instantiateCallback(System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> value) ;
 
-constexpr ::System::Action_2<::Zenject::InjectContext,::bs_hook::Il2CppWrapperType> __get__instantiateCallback() const;
+constexpr System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> __get__instantiateCallback() const;
 
 
 // Properties
@@ -216,18 +215,18 @@ constexpr ::System::Action_2<::Zenject::InjectContext,::bs_hook::Il2CppWrapperTy
 
  bool __declspec(property(get=get_TypeVariesBasedOnMemberType))  TypeVariesBasedOnMemberType;
 
- ::Zenject::DiContainer __declspec(property(get=get_Container))  Container;
+ Zenject::DiContainer __declspec(property(get=get_Container))  Container;
 
- ::System::Type __declspec(property(get=get_ComponentType))  ComponentType;
+ System::Type __declspec(property(get=get_ComponentType))  ComponentType;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "::Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "componentType", ty: "::System::Type", modifiers: "", def_value: None }, CppParam { name: "extraArguments", ty: "::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>", modifiers: "", def_value: None }, CppParam { name: "concreteIdentifier", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "instantiateCallback", ty: "::System::Action_2<::Zenject::InjectContext,::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
-explicit AddToCurrentGameObjectComponentProvider(::Zenject::DiContainer container, ::System::Type componentType, ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair> extraArguments, ::bs_hook::Il2CppWrapperType concreteIdentifier, ::System::Action_2<::Zenject::InjectContext,::bs_hook::Il2CppWrapperType> instantiateCallback) ;
+// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "componentType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "extraArguments", ty: "System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>", modifiers: "", def_value: None }, CppParam { name: "concreteIdentifier", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "instantiateCallback", ty: "System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
+explicit AddToCurrentGameObjectComponentProvider(Zenject::DiContainer container, System::Type componentType, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair> extraArguments, ::bs_hook::Il2CppWrapperType concreteIdentifier, System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> instantiateCallback) ;
 
 /// @brief Method .ctor addr 0x2d8c454 size 0xe0 virtual false final false
- void _ctor(::Zenject::DiContainer container, ::System::Type componentType, ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair> extraArguments, ::bs_hook::Il2CppWrapperType concreteIdentifier, ::System::Action_2<::Zenject::InjectContext,::bs_hook::Il2CppWrapperType> instantiateCallback) ;
+ void _ctor(Zenject::DiContainer container, System::Type componentType, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair> extraArguments, ::bs_hook::Il2CppWrapperType concreteIdentifier, System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> instantiateCallback) ;
 
 /// @brief Method get_IsCached addr 0x2d8c534 size 0x8 virtual true final true
  bool get_IsCached() ;
@@ -236,23 +235,22 @@ explicit AddToCurrentGameObjectComponentProvider(::Zenject::DiContainer containe
  bool get_TypeVariesBasedOnMemberType() ;
 
 /// @brief Method get_Container addr 0x2d8c544 size 0x8 virtual false final false
- ::Zenject::DiContainer get_Container() ;
+ Zenject::DiContainer get_Container() ;
 
 /// @brief Method get_ComponentType addr 0x2d8c54c size 0x8 virtual false final false
- ::System::Type get_ComponentType() ;
+ System::Type get_ComponentType() ;
 
 /// @brief Method GetInstanceType addr 0x2d8c554 size 0x8 virtual true final true
- ::System::Type GetInstanceType(::Zenject::InjectContext context) ;
+ System::Type GetInstanceType(Zenject::InjectContext context) ;
 
 /// @brief Method GetAllInstancesWithInjectSplit addr 0x2d8c55c size 0x354 virtual true final true
- void GetAllInstancesWithInjectSplit(::Zenject::InjectContext context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair> args, ByRef<::System::Action> injectAction, ::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> buffer) ;
+ void GetAllInstancesWithInjectSplit(Zenject::InjectContext context, System::Collections::Generic::List_1<Zenject::TypeValuePair> args, ByRef<System::Action> injectAction, System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> buffer) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::AddToCurrentGameObjectComponentProvider);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::AddToCurrentGameObjectComponentProvider, "Zenject", "AddToCurrentGameObjectComponentProvider");
-NEED_NO_BOX(::Zenject::____Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::____Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0, "Zenject", "AddToCurrentGameObjectComponentProvider/<>c__DisplayClass15_0");
+NEED_NO_BOX(Zenject::AddToCurrentGameObjectComponentProvider);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::AddToCurrentGameObjectComponentProvider, "Zenject", "AddToCurrentGameObjectComponentProvider");
+NEED_NO_BOX(Zenject::Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0, "Zenject", "AddToCurrentGameObjectComponentProvider/<>c__DisplayClass15_0");

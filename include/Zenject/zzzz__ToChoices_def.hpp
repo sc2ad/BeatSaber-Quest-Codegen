@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Zenject {
 struct ToChoices;
@@ -67,14 +66,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Self offset 0
-static ::Zenject::ToChoices const Self;
+static Zenject::ToChoices const Self;
 
 /// @brief Field Concrete offset 0
-static ::Zenject::ToChoices const Concrete;
+static Zenject::ToChoices const Concrete;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::ToChoices, "Zenject", "ToChoices");
+DEFINE_IL2CPP_ARG_TYPE(Zenject::ToChoices, "Zenject", "ToChoices");

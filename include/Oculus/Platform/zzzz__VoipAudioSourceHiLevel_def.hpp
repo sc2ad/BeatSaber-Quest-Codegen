@@ -4,22 +4,21 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace Oculus::Platform {
+class IVoipPCMSource;
+}
 namespace UnityEngine {
 class AudioSource;
 }
 namespace Oculus::Platform {
 struct VoipSampleRate;
 }
-namespace Oculus::Platform {
-class IVoipPCMSource;
-}
 // Forward declare root types
 namespace Oculus::Platform {
-class VoipAudioSourceHiLevel;
+class Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate;
 }
 namespace Oculus::Platform {
-class ____Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate;
+class VoipAudioSourceHiLevel;
 }
 // Type: ::FilterReadDelegate
 namespace Oculus::Platform {
@@ -27,47 +26,47 @@ namespace Oculus::Platform {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13369))
 // CS Name: Oculus.Platform.VoipAudioSourceHiLevel::FilterReadDelegate
-class CORDL_TYPE ____Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate() = default;
+virtual ~Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate", modifiers: " const&", def_value: None }]
-constexpr ____Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate(____Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate", modifiers: " const&", def_value: None }]
+constexpr Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate(Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate", modifiers: "&&", def_value: None }]
-constexpr ____Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate(____Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate", modifiers: "&&", def_value: None }]
+constexpr Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate(Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
-  constexpr ____Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate& operator=(std::nullptr_t) noexcept {
+  constexpr Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate& operator=(void* o) noexcept {
+  constexpr Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate& operator=(____Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate&& o) noexcept = default;
-  constexpr ____Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate& operator=(____Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate const& o) noexcept = default;
+  constexpr Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate& operator=(Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate&& o) noexcept = default;
+  constexpr Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate& operator=(Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::Oculus::Platform::VoipAudioSourceHiLevel __declspec(property(get=__get_parent, put=__set_parent))  parent;
+ Oculus::Platform::VoipAudioSourceHiLevel __declspec(property(get=__get_parent, put=__set_parent))  parent;
 
-constexpr void __set_parent(::Oculus::Platform::VoipAudioSourceHiLevel value) ;
+constexpr void __set_parent(Oculus::Platform::VoipAudioSourceHiLevel value) ;
 
-constexpr ::Oculus::Platform::VoipAudioSourceHiLevel __get_parent() const;
+constexpr Oculus::Platform::VoipAudioSourceHiLevel __get_parent() const;
 
  ::ArrayW<float_t> __declspec(property(get=__get_scratchBuffer, put=__set_scratchBuffer))  scratchBuffer;
 
@@ -85,7 +84,7 @@ constexpr ::ArrayW<float_t> __get_scratchBuffer() const;
  void OnAudioFilterRead(::ArrayW<float_t> data, int32_t channels) ;
 
 // Ctor Parameters []
-explicit ____Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate() ;
+explicit Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate() ;
 
 /// @brief Method .ctor addr 0x259b358 size 0x8 virtual false final false
  void _ctor() ;
@@ -100,10 +99,10 @@ namespace Oculus::Platform {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13370))
 // CS Name: Oculus.Platform.VoipAudioSourceHiLevel
-class CORDL_TYPE VoipAudioSourceHiLevel : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE VoipAudioSourceHiLevel : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using FilterReadDelegate = ::Oculus::Platform::____Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate;
+using FilterReadDelegate = Oculus::Platform::Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -117,7 +116,7 @@ constexpr VoipAudioSourceHiLevel(VoipAudioSourceHiLevel const& ) noexcept = defa
 constexpr VoipAudioSourceHiLevel(VoipAudioSourceHiLevel&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit VoipAudioSourceHiLevel(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit VoipAudioSourceHiLevel(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -144,11 +143,11 @@ constexpr void __set_initialPlaybackDelayMS(int32_t value) ;
 
 constexpr int32_t __get_initialPlaybackDelayMS() const;
 
- ::UnityEngine::AudioSource __declspec(property(get=__get_audioSource, put=__set_audioSource))  audioSource;
+ UnityEngine::AudioSource __declspec(property(get=__get_audioSource, put=__set_audioSource))  audioSource;
 
-constexpr void __set_audioSource(::UnityEngine::AudioSource value) ;
+constexpr void __set_audioSource(UnityEngine::AudioSource value) ;
 
-constexpr ::UnityEngine::AudioSource __get_audioSource() const;
+constexpr UnityEngine::AudioSource __get_audioSource() const;
 
  float_t __declspec(property(get=__get_peakAmplitude, put=__set_peakAmplitude))  peakAmplitude;
 
@@ -156,11 +155,11 @@ constexpr void __set_peakAmplitude(float_t value) ;
 
 constexpr float_t __get_peakAmplitude() const;
 
- ::Oculus::Platform::IVoipPCMSource __declspec(property(get=__get_pcmSource, put=__set_pcmSource))  pcmSource;
+ Oculus::Platform::IVoipPCMSource __declspec(property(get=__get_pcmSource, put=__set_pcmSource))  pcmSource;
 
-constexpr void __set_pcmSource(::Oculus::Platform::IVoipPCMSource value) ;
+constexpr void __set_pcmSource(Oculus::Platform::IVoipPCMSource value) ;
 
-constexpr ::Oculus::Platform::IVoipPCMSource __get_pcmSource() const;
+constexpr Oculus::Platform::IVoipPCMSource __get_pcmSource() const;
 
 static int32_t __declspec(property(get=__get_audioSystemPlaybackFrequency, put=__set_audioSystemPlaybackFrequency))  audioSystemPlaybackFrequency;
 
@@ -189,7 +188,7 @@ static bool __get_verboseLogging() ;
  void Stop() ;
 
 /// @brief Method SampleRateToEnum addr 0x259a718 size 0x3c virtual false final false
- ::Oculus::Platform::VoipSampleRate SampleRateToEnum(int32_t rate) ;
+ Oculus::Platform::VoipSampleRate SampleRateToEnum(int32_t rate) ;
 
 /// @brief Method Awake addr 0x259a754 size 0x2a4 virtual false final false
  void Awake() ;
@@ -216,8 +215,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::VoipAudioSourceHiLevel);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::VoipAudioSourceHiLevel, "Oculus.Platform", "VoipAudioSourceHiLevel");
-NEED_NO_BOX(::Oculus::Platform::____Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::____Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate, "Oculus.Platform", "VoipAudioSourceHiLevel/FilterReadDelegate");
+NEED_NO_BOX(Oculus::Platform::Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate, "Oculus.Platform", "VoipAudioSourceHiLevel/FilterReadDelegate");
+NEED_NO_BOX(Oculus::Platform::VoipAudioSourceHiLevel);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipAudioSourceHiLevel, "Oculus.Platform", "VoipAudioSourceHiLevel");

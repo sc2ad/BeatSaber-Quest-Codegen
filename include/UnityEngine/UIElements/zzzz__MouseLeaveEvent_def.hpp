@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseEventBase_1_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class MouseLeaveEvent;
@@ -12,7 +11,7 @@ namespace UnityEngine::UIElements {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7314)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7314), inst: 4508 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7321))
 // CS Name: UnityEngine.UIElements.MouseLeaveEvent
-class CORDL_TYPE MouseLeaveEvent : public ::UnityEngine::UIElements::MouseEventBase_1<::UnityEngine::UIElements::MouseLeaveEvent> {
+class CORDL_TYPE MouseLeaveEvent : public UnityEngine::UIElements::MouseEventBase_1<UnityEngine::UIElements::MouseLeaveEvent> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr MouseLeaveEvent(MouseLeaveEvent const& ) noexcept = default;
 constexpr MouseLeaveEvent(MouseLeaveEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MouseLeaveEvent(void* ptr) noexcept : ::UnityEngine::UIElements::MouseEventBase_1<::UnityEngine::UIElements::MouseLeaveEvent>(ptr) {
+constexpr explicit MouseLeaveEvent(void* ptr) noexcept : UnityEngine::UIElements::MouseEventBase_1<UnityEngine::UIElements::MouseLeaveEvent>(ptr) {
 }
 
 
@@ -64,6 +63,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::MouseLeaveEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::MouseLeaveEvent, "UnityEngine.UIElements", "MouseLeaveEvent");
+NEED_NO_BOX(UnityEngine::UIElements::MouseLeaveEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::MouseLeaveEvent, "UnityEngine.UIElements", "MouseLeaveEvent");

@@ -2,15 +2,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine::InputSystem {
 class InputDevice;
 }
 namespace UnityEngine::InputSystem {
-struct ____UnityEngine__InputSystem__InputSettings__UpdateMode;
+struct InputDeviceChange;
 }
 namespace UnityEngine::InputSystem {
-struct InputDeviceChange;
+struct UnityEngine__InputSystem__InputSettings__UpdateMode;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::EnhancedTouch {
@@ -64,11 +63,11 @@ static void __set_s_Enabled(int32_t value) ;
 
 static int32_t __get_s_Enabled() ;
 
-static ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputSettings__UpdateMode __declspec(property(get=__get_s_UpdateMode, put=__set_s_UpdateMode))  s_UpdateMode;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputSettings__UpdateMode __declspec(property(get=__get_s_UpdateMode, put=__set_s_UpdateMode))  s_UpdateMode;
 
-static void __set_s_UpdateMode(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputSettings__UpdateMode value) ;
+static void __set_s_UpdateMode(UnityEngine::InputSystem::UnityEngine__InputSystem__InputSettings__UpdateMode value) ;
 
-static ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputSettings__UpdateMode __get_s_UpdateMode() ;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputSettings__UpdateMode __get_s_UpdateMode() ;
 
 
 // Properties
@@ -97,7 +96,7 @@ static void SetUpState() ;
 static void TearDownState() ;
 
 /// @brief Method OnDeviceChange addr 0x294cfb8 size 0x114 virtual false final false
-static void OnDeviceChange(::UnityEngine::InputSystem::InputDevice device, ::UnityEngine::InputSystem::InputDeviceChange change) ;
+static void OnDeviceChange(UnityEngine::InputSystem::InputDevice device, UnityEngine::InputSystem::InputDeviceChange change) ;
 
 /// @brief Method OnSettingsChange addr 0x294d0cc size 0x98 virtual false final false
 static void OnSettingsChange() ;
@@ -109,6 +108,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::EnhancedTouch
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport, "UnityEngine.InputSystem.EnhancedTouch", "EnhancedTouchSupport");
+NEED_NO_BOX(UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport, "UnityEngine.InputSystem.EnhancedTouch", "EnhancedTouchSupport");

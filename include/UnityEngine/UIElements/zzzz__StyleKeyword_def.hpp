@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 struct StyleKeyword;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Undefined offset 0
-static ::UnityEngine::UIElements::StyleKeyword const Undefined;
+static UnityEngine::UIElements::StyleKeyword const Undefined;
 
 /// @brief Field Null offset 0
-static ::UnityEngine::UIElements::StyleKeyword const Null;
+static UnityEngine::UIElements::StyleKeyword const Null;
 
 /// @brief Field Auto offset 0
-static ::UnityEngine::UIElements::StyleKeyword const Auto;
+static UnityEngine::UIElements::StyleKeyword const Auto;
 
 /// @brief Field None offset 0
-static ::UnityEngine::UIElements::StyleKeyword const None;
+static UnityEngine::UIElements::StyleKeyword const None;
 
 /// @brief Field Initial offset 0
-static ::UnityEngine::UIElements::StyleKeyword const Initial;
+static UnityEngine::UIElements::StyleKeyword const Initial;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleKeyword, "UnityEngine.UIElements", "StyleKeyword");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::StyleKeyword, "UnityEngine.UIElements", "StyleKeyword");

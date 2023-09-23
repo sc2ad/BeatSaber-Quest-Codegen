@@ -1,6 +1,5 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 template<typename T>
@@ -44,5 +43,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::INotifyValueChanged_1, "UnityEngine.UIElements", "INotifyValueChanged`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::UIElements::INotifyValueChanged_1, "UnityEngine.UIElements", "INotifyValueChanged`1");

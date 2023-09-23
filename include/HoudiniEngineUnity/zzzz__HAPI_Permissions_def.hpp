@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HAPI_Permissions;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field HAPI_PERMISSIONS_NON_APPLICABLE offset 0
-static ::HoudiniEngineUnity::HAPI_Permissions const HAPI_PERMISSIONS_NON_APPLICABLE;
+static HoudiniEngineUnity::HAPI_Permissions const HAPI_PERMISSIONS_NON_APPLICABLE;
 
 /// @brief Field HAPI_PERMISSIONS_READ_WRITE offset 0
-static ::HoudiniEngineUnity::HAPI_Permissions const HAPI_PERMISSIONS_READ_WRITE;
+static HoudiniEngineUnity::HAPI_Permissions const HAPI_PERMISSIONS_READ_WRITE;
 
 /// @brief Field HAPI_PERMISSIONS_READ_ONLY offset 0
-static ::HoudiniEngineUnity::HAPI_Permissions const HAPI_PERMISSIONS_READ_ONLY;
+static HoudiniEngineUnity::HAPI_Permissions const HAPI_PERMISSIONS_READ_ONLY;
 
 /// @brief Field HAPI_PERMISSIONS_WRITE_ONLY offset 0
-static ::HoudiniEngineUnity::HAPI_Permissions const HAPI_PERMISSIONS_WRITE_ONLY;
+static HoudiniEngineUnity::HAPI_Permissions const HAPI_PERMISSIONS_WRITE_ONLY;
 
 /// @brief Field HAPI_PERMISSIONS_MAX offset 0
-static ::HoudiniEngineUnity::HAPI_Permissions const HAPI_PERMISSIONS_MAX;
+static HoudiniEngineUnity::HAPI_Permissions const HAPI_PERMISSIONS_MAX;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_Permissions, "HoudiniEngineUnity", "HAPI_Permissions");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_Permissions, "HoudiniEngineUnity", "HAPI_Permissions");

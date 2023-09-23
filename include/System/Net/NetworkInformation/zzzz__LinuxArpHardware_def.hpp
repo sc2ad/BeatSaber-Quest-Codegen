@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net::NetworkInformation {
 struct LinuxArpHardware;
@@ -82,59 +81,58 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field ETHER offset 0
-static ::System::Net::NetworkInformation::LinuxArpHardware const ETHER;
+static System::Net::NetworkInformation::LinuxArpHardware const ETHER;
 
 /// @brief Field EETHER offset 0
-static ::System::Net::NetworkInformation::LinuxArpHardware const EETHER;
+static System::Net::NetworkInformation::LinuxArpHardware const EETHER;
 
 /// @brief Field PRONET offset 0
-static ::System::Net::NetworkInformation::LinuxArpHardware const PRONET;
+static System::Net::NetworkInformation::LinuxArpHardware const PRONET;
 
 /// @brief Field ATM offset 0
-static ::System::Net::NetworkInformation::LinuxArpHardware const ATM;
+static System::Net::NetworkInformation::LinuxArpHardware const ATM;
 
 /// @brief Field SLIP offset 0
-static ::System::Net::NetworkInformation::LinuxArpHardware const SLIP;
+static System::Net::NetworkInformation::LinuxArpHardware const SLIP;
 
 /// @brief Field CSLIP offset 0
-static ::System::Net::NetworkInformation::LinuxArpHardware const CSLIP;
+static System::Net::NetworkInformation::LinuxArpHardware const CSLIP;
 
 /// @brief Field SLIP6 offset 0
-static ::System::Net::NetworkInformation::LinuxArpHardware const SLIP6;
+static System::Net::NetworkInformation::LinuxArpHardware const SLIP6;
 
 /// @brief Field CSLIP6 offset 0
-static ::System::Net::NetworkInformation::LinuxArpHardware const CSLIP6;
+static System::Net::NetworkInformation::LinuxArpHardware const CSLIP6;
 
 /// @brief Field PPP offset 0
-static ::System::Net::NetworkInformation::LinuxArpHardware const PPP;
+static System::Net::NetworkInformation::LinuxArpHardware const PPP;
 
 /// @brief Field LOOPBACK offset 0
-static ::System::Net::NetworkInformation::LinuxArpHardware const LOOPBACK;
+static System::Net::NetworkInformation::LinuxArpHardware const LOOPBACK;
 
 /// @brief Field FDDI offset 0
-static ::System::Net::NetworkInformation::LinuxArpHardware const FDDI;
+static System::Net::NetworkInformation::LinuxArpHardware const FDDI;
 
 /// @brief Field TUNNEL offset 0
-static ::System::Net::NetworkInformation::LinuxArpHardware const TUNNEL;
+static System::Net::NetworkInformation::LinuxArpHardware const TUNNEL;
 
 /// @brief Field TUNNEL6 offset 0
-static ::System::Net::NetworkInformation::LinuxArpHardware const TUNNEL6;
+static System::Net::NetworkInformation::LinuxArpHardware const TUNNEL6;
 
 /// @brief Field SIT offset 0
-static ::System::Net::NetworkInformation::LinuxArpHardware const SIT;
+static System::Net::NetworkInformation::LinuxArpHardware const SIT;
 
 /// @brief Field IPDDP offset 0
-static ::System::Net::NetworkInformation::LinuxArpHardware const IPDDP;
+static System::Net::NetworkInformation::LinuxArpHardware const IPDDP;
 
 /// @brief Field IPGRE offset 0
-static ::System::Net::NetworkInformation::LinuxArpHardware const IPGRE;
+static System::Net::NetworkInformation::LinuxArpHardware const IPGRE;
 
 /// @brief Field IP6GRE offset 0
-static ::System::Net::NetworkInformation::LinuxArpHardware const IP6GRE;
+static System::Net::NetworkInformation::LinuxArpHardware const IP6GRE;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net::NetworkInformation
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::LinuxArpHardware, "System.Net.NetworkInformation", "LinuxArpHardware");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::LinuxArpHardware, "System.Net.NetworkInformation", "LinuxArpHardware");

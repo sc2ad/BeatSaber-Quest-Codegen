@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
-namespace GlobalNamespace {
-class MaterialPropertyBlockController;
-}
 namespace GlobalNamespace {
 class CutoutAnimateEffect;
+}
+namespace GlobalNamespace {
+class MaterialPropertyBlockController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4927))
 // CS Name: SliderControllerBase
-class CORDL_TYPE SliderControllerBase : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SliderControllerBase : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr SliderControllerBase(SliderControllerBase const& ) noexcept = default;
 constexpr SliderControllerBase(SliderControllerBase&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SliderControllerBase(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SliderControllerBase(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -55,17 +54,17 @@ constexpr explicit SliderControllerBase(void* ptr) noexcept : ::UnityEngine::Mon
 
 // Fields
 
- ::GlobalNamespace::MaterialPropertyBlockController __declspec(property(get=__get__materialPropertyBlockController, put=__set__materialPropertyBlockController))  _materialPropertyBlockController;
+ GlobalNamespace::MaterialPropertyBlockController __declspec(property(get=__get__materialPropertyBlockController, put=__set__materialPropertyBlockController))  _materialPropertyBlockController;
 
-constexpr void __set__materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController value) ;
+constexpr void __set__materialPropertyBlockController(GlobalNamespace::MaterialPropertyBlockController value) ;
 
-constexpr ::GlobalNamespace::MaterialPropertyBlockController __get__materialPropertyBlockController() const;
+constexpr GlobalNamespace::MaterialPropertyBlockController __get__materialPropertyBlockController() const;
 
- ::GlobalNamespace::CutoutAnimateEffect __declspec(property(get=__get__cutoutAnimateEffect, put=__set__cutoutAnimateEffect))  _cutoutAnimateEffect;
+ GlobalNamespace::CutoutAnimateEffect __declspec(property(get=__get__cutoutAnimateEffect, put=__set__cutoutAnimateEffect))  _cutoutAnimateEffect;
 
-constexpr void __set__cutoutAnimateEffect(::GlobalNamespace::CutoutAnimateEffect value) ;
+constexpr void __set__cutoutAnimateEffect(GlobalNamespace::CutoutAnimateEffect value) ;
 
-constexpr ::GlobalNamespace::CutoutAnimateEffect __get__cutoutAnimateEffect() const;
+constexpr GlobalNamespace::CutoutAnimateEffect __get__cutoutAnimateEffect() const;
 
  bool __declspec(property(get=__get__dissolving, put=__set__dissolving))  _dissolving;
 
@@ -89,6 +88,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SliderControllerBase);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SliderControllerBase, "", "SliderControllerBase");
+NEED_NO_BOX(GlobalNamespace::SliderControllerBase);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SliderControllerBase, "", "SliderControllerBase");

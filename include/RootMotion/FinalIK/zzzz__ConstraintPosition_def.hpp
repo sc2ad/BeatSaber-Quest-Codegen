@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "RootMotion/FinalIK/zzzz__Constraint_def.hpp"
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -18,7 +17,7 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12450))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12451))
 // CS Name: RootMotion.FinalIK.ConstraintPosition
-class CORDL_TYPE ConstraintPosition : public ::RootMotion::FinalIK::Constraint {
+class CORDL_TYPE ConstraintPosition : public RootMotion::FinalIK::Constraint {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr ConstraintPosition(ConstraintPosition const& ) noexcept = default;
 constexpr ConstraintPosition(ConstraintPosition&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ConstraintPosition(void* ptr) noexcept : ::RootMotion::FinalIK::Constraint(ptr) {
+constexpr explicit ConstraintPosition(void* ptr) noexcept : RootMotion::FinalIK::Constraint(ptr) {
 }
 
 
@@ -54,11 +53,11 @@ constexpr explicit ConstraintPosition(void* ptr) noexcept : ::RootMotion::FinalI
 
 // Fields
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_position, put=__set_position))  position;
+ UnityEngine::Vector3 __declspec(property(get=__get_position, put=__set_position))  position;
 
-constexpr void __set_position(::UnityEngine::Vector3 value) ;
+constexpr void __set_position(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_position() const;
+constexpr UnityEngine::Vector3 __get_position() const;
 
 
 // Methods
@@ -72,16 +71,15 @@ explicit ConstraintPosition() ;
 /// @brief Method .ctor addr 0x11b84fc size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "transform", ty: "::UnityEngine::Transform", modifiers: "", def_value: None }]
-explicit ConstraintPosition(::UnityEngine::Transform transform) ;
+// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
+explicit ConstraintPosition(UnityEngine::Transform transform) ;
 
 /// @brief Method .ctor addr 0x11b8504 size 0x28 virtual false final false
- void _ctor(::UnityEngine::Transform transform) ;
+ void _ctor(UnityEngine::Transform transform) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::ConstraintPosition);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::ConstraintPosition, "RootMotion.FinalIK", "ConstraintPosition");
+NEED_NO_BOX(RootMotion::FinalIK::ConstraintPosition);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::ConstraintPosition, "RootMotion.FinalIK", "ConstraintPosition");

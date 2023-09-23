@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct jvalue;
 }
@@ -137,7 +136,7 @@ static int32_t EnsureLocalCapacity(int32_t capacity) ;
 static ::cordl_internals::intptr_t AllocObject(::cordl_internals::intptr_t clazz) ;
 
 /// @brief Method NewObject addr 0x2b08eec size 0x54 virtual false final false
-static ::cordl_internals::intptr_t NewObject(::cordl_internals::intptr_t clazz, ::cordl_internals::intptr_t methodID, ::ArrayW<::UnityEngine::jvalue> args) ;
+static ::cordl_internals::intptr_t NewObject(::cordl_internals::intptr_t clazz, ::cordl_internals::intptr_t methodID, ::ArrayW<UnityEngine::jvalue> args) ;
 
 /// @brief Method GetObjectClass addr 0x2b088f4 size 0x3c virtual false final false
 static ::cordl_internals::intptr_t GetObjectClass(::cordl_internals::intptr_t obj) ;
@@ -182,40 +181,40 @@ static int32_t GetStringUTFLength(::cordl_internals::intptr_t str) ;
 static ::StringW GetStringUTFChars(::cordl_internals::intptr_t str) ;
 
 /// @brief Method CallStringMethod addr 0x2b08328 size 0x54 virtual false final false
-static ::StringW CallStringMethod(::cordl_internals::intptr_t obj, ::cordl_internals::intptr_t methodID, ::ArrayW<::UnityEngine::jvalue> args) ;
+static ::StringW CallStringMethod(::cordl_internals::intptr_t obj, ::cordl_internals::intptr_t methodID, ::ArrayW<UnityEngine::jvalue> args) ;
 
 /// @brief Method CallObjectMethod addr 0x2b0c434 size 0x54 virtual false final false
-static ::cordl_internals::intptr_t CallObjectMethod(::cordl_internals::intptr_t obj, ::cordl_internals::intptr_t methodID, ::ArrayW<::UnityEngine::jvalue> args) ;
+static ::cordl_internals::intptr_t CallObjectMethod(::cordl_internals::intptr_t obj, ::cordl_internals::intptr_t methodID, ::ArrayW<UnityEngine::jvalue> args) ;
 
 /// @brief Method CallIntMethod addr 0x2b0cd64 size 0x54 virtual false final false
-static int32_t CallIntMethod(::cordl_internals::intptr_t obj, ::cordl_internals::intptr_t methodID, ::ArrayW<::UnityEngine::jvalue> args) ;
+static int32_t CallIntMethod(::cordl_internals::intptr_t obj, ::cordl_internals::intptr_t methodID, ::ArrayW<UnityEngine::jvalue> args) ;
 
 /// @brief Method CallBooleanMethod addr 0x2b0cc58 size 0x54 virtual false final false
-static bool CallBooleanMethod(::cordl_internals::intptr_t obj, ::cordl_internals::intptr_t methodID, ::ArrayW<::UnityEngine::jvalue> args) ;
+static bool CallBooleanMethod(::cordl_internals::intptr_t obj, ::cordl_internals::intptr_t methodID, ::ArrayW<UnityEngine::jvalue> args) ;
 
 /// @brief Method CallShortMethod addr 0x2b0ca40 size 0x54 virtual false final false
-static int16_t CallShortMethod(::cordl_internals::intptr_t obj, ::cordl_internals::intptr_t methodID, ::ArrayW<::UnityEngine::jvalue> args) ;
+static int16_t CallShortMethod(::cordl_internals::intptr_t obj, ::cordl_internals::intptr_t methodID, ::ArrayW<UnityEngine::jvalue> args) ;
 
 /// @brief Method CallByteMethod addr 0x2b16350 size 0x54 virtual false final false
-static uint8_t CallByteMethod(::cordl_internals::intptr_t obj, ::cordl_internals::intptr_t methodID, ::ArrayW<::UnityEngine::jvalue> args) ;
+static uint8_t CallByteMethod(::cordl_internals::intptr_t obj, ::cordl_internals::intptr_t methodID, ::ArrayW<UnityEngine::jvalue> args) ;
 
 /// @brief Method CallSByteMethod addr 0x2b0cb4c size 0x54 virtual false final false
-static int8_t CallSByteMethod(::cordl_internals::intptr_t obj, ::cordl_internals::intptr_t methodID, ::ArrayW<::UnityEngine::jvalue> args) ;
+static int8_t CallSByteMethod(::cordl_internals::intptr_t obj, ::cordl_internals::intptr_t methodID, ::ArrayW<UnityEngine::jvalue> args) ;
 
 /// @brief Method CallCharMethod addr 0x2b0c5f8 size 0x54 virtual false final false
-static char16_t CallCharMethod(::cordl_internals::intptr_t obj, ::cordl_internals::intptr_t methodID, ::ArrayW<::UnityEngine::jvalue> args) ;
+static char16_t CallCharMethod(::cordl_internals::intptr_t obj, ::cordl_internals::intptr_t methodID, ::ArrayW<UnityEngine::jvalue> args) ;
 
 /// @brief Method CallFloatMethod addr 0x2b0c828 size 0x54 virtual false final false
-static float_t CallFloatMethod(::cordl_internals::intptr_t obj, ::cordl_internals::intptr_t methodID, ::ArrayW<::UnityEngine::jvalue> args) ;
+static float_t CallFloatMethod(::cordl_internals::intptr_t obj, ::cordl_internals::intptr_t methodID, ::ArrayW<UnityEngine::jvalue> args) ;
 
 /// @brief Method CallDoubleMethod addr 0x2b0c710 size 0x54 virtual false final false
-static double_t CallDoubleMethod(::cordl_internals::intptr_t obj, ::cordl_internals::intptr_t methodID, ::ArrayW<::UnityEngine::jvalue> args) ;
+static double_t CallDoubleMethod(::cordl_internals::intptr_t obj, ::cordl_internals::intptr_t methodID, ::ArrayW<UnityEngine::jvalue> args) ;
 
 /// @brief Method CallLongMethod addr 0x2b0c934 size 0x54 virtual false final false
-static int64_t CallLongMethod(::cordl_internals::intptr_t obj, ::cordl_internals::intptr_t methodID, ::ArrayW<::UnityEngine::jvalue> args) ;
+static int64_t CallLongMethod(::cordl_internals::intptr_t obj, ::cordl_internals::intptr_t methodID, ::ArrayW<UnityEngine::jvalue> args) ;
 
 /// @brief Method CallVoidMethod addr 0x2b0c328 size 0x54 virtual false final false
-static void CallVoidMethod(::cordl_internals::intptr_t obj, ::cordl_internals::intptr_t methodID, ::ArrayW<::UnityEngine::jvalue> args) ;
+static void CallVoidMethod(::cordl_internals::intptr_t obj, ::cordl_internals::intptr_t methodID, ::ArrayW<UnityEngine::jvalue> args) ;
 
 /// @brief Method GetStringField addr 0x2b0bab0 size 0x44 virtual false final false
 static ::StringW GetStringField(::cordl_internals::intptr_t obj, ::cordl_internals::intptr_t fieldID) ;
@@ -284,40 +283,40 @@ static void SetFloatField(::cordl_internals::intptr_t obj, ::cordl_internals::in
 static void SetDoubleField(::cordl_internals::intptr_t obj, ::cordl_internals::intptr_t fieldID, double_t val) ;
 
 /// @brief Method CallStaticStringMethod addr 0x2b0837c size 0x54 virtual false final false
-static ::StringW CallStaticStringMethod(::cordl_internals::intptr_t clazz, ::cordl_internals::intptr_t methodID, ::ArrayW<::UnityEngine::jvalue> args) ;
+static ::StringW CallStaticStringMethod(::cordl_internals::intptr_t clazz, ::cordl_internals::intptr_t methodID, ::ArrayW<UnityEngine::jvalue> args) ;
 
 /// @brief Method CallStaticObjectMethod addr 0x2b0a4f8 size 0x54 virtual false final false
-static ::cordl_internals::intptr_t CallStaticObjectMethod(::cordl_internals::intptr_t clazz, ::cordl_internals::intptr_t methodID, ::ArrayW<::UnityEngine::jvalue> args) ;
+static ::cordl_internals::intptr_t CallStaticObjectMethod(::cordl_internals::intptr_t clazz, ::cordl_internals::intptr_t methodID, ::ArrayW<UnityEngine::jvalue> args) ;
 
 /// @brief Method CallStaticIntMethod addr 0x2b0ae28 size 0x54 virtual false final false
-static int32_t CallStaticIntMethod(::cordl_internals::intptr_t clazz, ::cordl_internals::intptr_t methodID, ::ArrayW<::UnityEngine::jvalue> args) ;
+static int32_t CallStaticIntMethod(::cordl_internals::intptr_t clazz, ::cordl_internals::intptr_t methodID, ::ArrayW<UnityEngine::jvalue> args) ;
 
 /// @brief Method CallStaticBooleanMethod addr 0x2b0ad1c size 0x54 virtual false final false
-static bool CallStaticBooleanMethod(::cordl_internals::intptr_t clazz, ::cordl_internals::intptr_t methodID, ::ArrayW<::UnityEngine::jvalue> args) ;
+static bool CallStaticBooleanMethod(::cordl_internals::intptr_t clazz, ::cordl_internals::intptr_t methodID, ::ArrayW<UnityEngine::jvalue> args) ;
 
 /// @brief Method CallStaticShortMethod addr 0x2b0ab04 size 0x54 virtual false final false
-static int16_t CallStaticShortMethod(::cordl_internals::intptr_t clazz, ::cordl_internals::intptr_t methodID, ::ArrayW<::UnityEngine::jvalue> args) ;
+static int16_t CallStaticShortMethod(::cordl_internals::intptr_t clazz, ::cordl_internals::intptr_t methodID, ::ArrayW<UnityEngine::jvalue> args) ;
 
 /// @brief Method CallStaticByteMethod addr 0x2b1643c size 0x54 virtual false final false
-static uint8_t CallStaticByteMethod(::cordl_internals::intptr_t clazz, ::cordl_internals::intptr_t methodID, ::ArrayW<::UnityEngine::jvalue> args) ;
+static uint8_t CallStaticByteMethod(::cordl_internals::intptr_t clazz, ::cordl_internals::intptr_t methodID, ::ArrayW<UnityEngine::jvalue> args) ;
 
 /// @brief Method CallStaticSByteMethod addr 0x2b0ac10 size 0x54 virtual false final false
-static int8_t CallStaticSByteMethod(::cordl_internals::intptr_t clazz, ::cordl_internals::intptr_t methodID, ::ArrayW<::UnityEngine::jvalue> args) ;
+static int8_t CallStaticSByteMethod(::cordl_internals::intptr_t clazz, ::cordl_internals::intptr_t methodID, ::ArrayW<UnityEngine::jvalue> args) ;
 
 /// @brief Method CallStaticCharMethod addr 0x2b0a6bc size 0x54 virtual false final false
-static char16_t CallStaticCharMethod(::cordl_internals::intptr_t clazz, ::cordl_internals::intptr_t methodID, ::ArrayW<::UnityEngine::jvalue> args) ;
+static char16_t CallStaticCharMethod(::cordl_internals::intptr_t clazz, ::cordl_internals::intptr_t methodID, ::ArrayW<UnityEngine::jvalue> args) ;
 
 /// @brief Method CallStaticFloatMethod addr 0x2b0a8ec size 0x54 virtual false final false
-static float_t CallStaticFloatMethod(::cordl_internals::intptr_t clazz, ::cordl_internals::intptr_t methodID, ::ArrayW<::UnityEngine::jvalue> args) ;
+static float_t CallStaticFloatMethod(::cordl_internals::intptr_t clazz, ::cordl_internals::intptr_t methodID, ::ArrayW<UnityEngine::jvalue> args) ;
 
 /// @brief Method CallStaticDoubleMethod addr 0x2b0a7d4 size 0x54 virtual false final false
-static double_t CallStaticDoubleMethod(::cordl_internals::intptr_t clazz, ::cordl_internals::intptr_t methodID, ::ArrayW<::UnityEngine::jvalue> args) ;
+static double_t CallStaticDoubleMethod(::cordl_internals::intptr_t clazz, ::cordl_internals::intptr_t methodID, ::ArrayW<UnityEngine::jvalue> args) ;
 
 /// @brief Method CallStaticLongMethod addr 0x2b0a9f8 size 0x54 virtual false final false
-static int64_t CallStaticLongMethod(::cordl_internals::intptr_t clazz, ::cordl_internals::intptr_t methodID, ::ArrayW<::UnityEngine::jvalue> args) ;
+static int64_t CallStaticLongMethod(::cordl_internals::intptr_t clazz, ::cordl_internals::intptr_t methodID, ::ArrayW<UnityEngine::jvalue> args) ;
 
 /// @brief Method CallStaticVoidMethod addr 0x2b0a3ec size 0x54 virtual false final false
-static void CallStaticVoidMethod(::cordl_internals::intptr_t clazz, ::cordl_internals::intptr_t methodID, ::ArrayW<::UnityEngine::jvalue> args) ;
+static void CallStaticVoidMethod(::cordl_internals::intptr_t clazz, ::cordl_internals::intptr_t methodID, ::ArrayW<UnityEngine::jvalue> args) ;
 
 /// @brief Method GetStaticStringField addr 0x2b09b74 size 0x44 virtual false final false
 static ::StringW GetStaticStringField(::cordl_internals::intptr_t clazz, ::cordl_internals::intptr_t fieldID) ;
@@ -548,6 +547,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AndroidJNI);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AndroidJNI, "UnityEngine", "AndroidJNI");
+NEED_NO_BOX(UnityEngine::AndroidJNI);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AndroidJNI, "UnityEngine", "AndroidJNI");

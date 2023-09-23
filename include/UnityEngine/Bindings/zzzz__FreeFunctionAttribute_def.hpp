@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/Bindings/zzzz__NativeMethodAttribute_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::Bindings {
 class FreeFunctionAttribute;
@@ -13,7 +12,7 @@ namespace UnityEngine::Bindings {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15873))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15881))
 // CS Name: UnityEngine.Bindings.FreeFunctionAttribute
-class CORDL_TYPE FreeFunctionAttribute : public ::UnityEngine::Bindings::NativeMethodAttribute {
+class CORDL_TYPE FreeFunctionAttribute : public UnityEngine::Bindings::NativeMethodAttribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr FreeFunctionAttribute(FreeFunctionAttribute const& ) noexcept = defaul
 constexpr FreeFunctionAttribute(FreeFunctionAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FreeFunctionAttribute(void* ptr) noexcept : ::UnityEngine::Bindings::NativeMethodAttribute(ptr) {
+constexpr explicit FreeFunctionAttribute(void* ptr) noexcept : UnityEngine::Bindings::NativeMethodAttribute(ptr) {
 }
 
 
@@ -71,6 +70,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Bindings
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Bindings::FreeFunctionAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Bindings::FreeFunctionAttribute, "UnityEngine.Bindings", "FreeFunctionAttribute");
+NEED_NO_BOX(UnityEngine::Bindings::FreeFunctionAttribute);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::FreeFunctionAttribute, "UnityEngine.Bindings", "FreeFunctionAttribute");

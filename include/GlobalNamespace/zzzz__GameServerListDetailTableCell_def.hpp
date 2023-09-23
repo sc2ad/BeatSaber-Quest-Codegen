@@ -1,15 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__TableCell_def.hpp"
-namespace {
-namespace System {
-class Action;
+namespace HMUI {
+class ButtonBinder;
 }
 namespace UnityEngine::UI {
 class Button;
 }
-namespace HMUI {
-class ButtonBinder;
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13715))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5516))
 // CS Name: GameServerListDetailTableCell
-class CORDL_TYPE GameServerListDetailTableCell : public ::HMUI::TableCell {
+class CORDL_TYPE GameServerListDetailTableCell : public HMUI::TableCell {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr GameServerListDetailTableCell(GameServerListDetailTableCell const& ) n
 constexpr GameServerListDetailTableCell(GameServerListDetailTableCell&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GameServerListDetailTableCell(void* ptr) noexcept : ::HMUI::TableCell(ptr) {
+constexpr explicit GameServerListDetailTableCell(void* ptr) noexcept : HMUI::TableCell(ptr) {
 }
 
 
@@ -57,32 +56,32 @@ constexpr explicit GameServerListDetailTableCell(void* ptr) noexcept : ::HMUI::T
 
 // Fields
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__joinServerButton, put=__set__joinServerButton))  _joinServerButton;
+ UnityEngine::UI::Button __declspec(property(get=__get__joinServerButton, put=__set__joinServerButton))  _joinServerButton;
 
-constexpr void __set__joinServerButton(::UnityEngine::UI::Button value) ;
+constexpr void __set__joinServerButton(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__joinServerButton() const;
+constexpr UnityEngine::UI::Button __get__joinServerButton() const;
 
- ::System::Action __declspec(property(get=__get_joinServerButtonWasPressedEvent, put=__set_joinServerButtonWasPressedEvent))  joinServerButtonWasPressedEvent;
+ System::Action __declspec(property(get=__get_joinServerButtonWasPressedEvent, put=__set_joinServerButtonWasPressedEvent))  joinServerButtonWasPressedEvent;
 
-constexpr void __set_joinServerButtonWasPressedEvent(::System::Action value) ;
+constexpr void __set_joinServerButtonWasPressedEvent(System::Action value) ;
 
-constexpr ::System::Action __get_joinServerButtonWasPressedEvent() const;
+constexpr System::Action __get_joinServerButtonWasPressedEvent() const;
 
- ::HMUI::ButtonBinder __declspec(property(get=__get__buttonBinder, put=__set__buttonBinder))  _buttonBinder;
+ HMUI::ButtonBinder __declspec(property(get=__get__buttonBinder, put=__set__buttonBinder))  _buttonBinder;
 
-constexpr void __set__buttonBinder(::HMUI::ButtonBinder value) ;
+constexpr void __set__buttonBinder(HMUI::ButtonBinder value) ;
 
-constexpr ::HMUI::ButtonBinder __get__buttonBinder() const;
+constexpr HMUI::ButtonBinder __get__buttonBinder() const;
 
 
 // Methods
 
 /// @brief Method add_joinServerButtonWasPressedEvent addr 0x21231a0 size 0x9c virtual false final false
- void add_joinServerButtonWasPressedEvent(::System::Action value) ;
+ void add_joinServerButtonWasPressedEvent(System::Action value) ;
 
 /// @brief Method remove_joinServerButtonWasPressedEvent addr 0x212323c size 0x9c virtual false final false
- void remove_joinServerButtonWasPressedEvent(::System::Action value) ;
+ void remove_joinServerButtonWasPressedEvent(System::Action value) ;
 
 /// @brief Method Start addr 0x21232d8 size 0xa8 virtual true final false
  void Start() ;
@@ -100,6 +99,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::GameServerListDetailTableCell);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameServerListDetailTableCell, "", "GameServerListDetailTableCell");
+NEED_NO_BOX(GlobalNamespace::GameServerListDetailTableCell);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerListDetailTableCell, "", "GameServerListDetailTableCell");

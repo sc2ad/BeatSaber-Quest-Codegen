@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/Processors/zzzz__CompensateRotationProcessor_def.hpp"
-namespace {
 namespace UnityEngine::InputSystem {
 class InputControl;
 }
@@ -18,7 +17,7 @@ namespace UnityEngine::InputSystem::Android::LowLevel {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6666))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6542))
 // CS Name: UnityEngine.InputSystem.Android.LowLevel.AndroidCompensateRotationProcessor
-class CORDL_TYPE AndroidCompensateRotationProcessor : public ::UnityEngine::InputSystem::Processors::CompensateRotationProcessor {
+class CORDL_TYPE AndroidCompensateRotationProcessor : public UnityEngine::InputSystem::Processors::CompensateRotationProcessor {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr AndroidCompensateRotationProcessor(AndroidCompensateRotationProcessor 
 constexpr AndroidCompensateRotationProcessor(AndroidCompensateRotationProcessor&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AndroidCompensateRotationProcessor(void* ptr) noexcept : ::UnityEngine::InputSystem::Processors::CompensateRotationProcessor(ptr) {
+constexpr explicit AndroidCompensateRotationProcessor(void* ptr) noexcept : UnityEngine::InputSystem::Processors::CompensateRotationProcessor(ptr) {
 }
 
 
@@ -55,7 +54,7 @@ constexpr explicit AndroidCompensateRotationProcessor(void* ptr) noexcept : ::Un
 // Methods
 
 /// @brief Method Process addr 0x29545f4 size 0x34 virtual true final false
- ::UnityEngine::Quaternion Process(::UnityEngine::Quaternion value, ::UnityEngine::InputSystem::InputControl control) ;
+ UnityEngine::Quaternion Process(UnityEngine::Quaternion value, UnityEngine::InputSystem::InputControl control) ;
 
 // Ctor Parameters []
 explicit AndroidCompensateRotationProcessor() ;
@@ -67,6 +66,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Android::LowLevel
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateRotationProcessor);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateRotationProcessor, "UnityEngine.InputSystem.Android.LowLevel", "AndroidCompensateRotationProcessor");
+NEED_NO_BOX(UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateRotationProcessor);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateRotationProcessor, "UnityEngine.InputSystem.Android.LowLevel", "AndroidCompensateRotationProcessor");

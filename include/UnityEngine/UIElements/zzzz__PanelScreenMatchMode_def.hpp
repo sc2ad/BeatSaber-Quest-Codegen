@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 struct PanelScreenMatchMode;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field MatchWidthOrHeight offset 0
-static ::UnityEngine::UIElements::PanelScreenMatchMode const MatchWidthOrHeight;
+static UnityEngine::UIElements::PanelScreenMatchMode const MatchWidthOrHeight;
 
 /// @brief Field Shrink offset 0
-static ::UnityEngine::UIElements::PanelScreenMatchMode const Shrink;
+static UnityEngine::UIElements::PanelScreenMatchMode const Shrink;
 
 /// @brief Field Expand offset 0
-static ::UnityEngine::UIElements::PanelScreenMatchMode const Expand;
+static UnityEngine::UIElements::PanelScreenMatchMode const Expand;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::PanelScreenMatchMode, "UnityEngine.UIElements", "PanelScreenMatchMode");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::PanelScreenMatchMode, "UnityEngine.UIElements", "PanelScreenMatchMode");

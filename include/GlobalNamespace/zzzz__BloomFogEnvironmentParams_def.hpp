@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include <cmath>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class BloomFogEnvironmentParams;
@@ -13,7 +12,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14612))
 // CS Name: BloomFogEnvironmentParams
-class CORDL_TYPE BloomFogEnvironmentParams : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE BloomFogEnvironmentParams : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr BloomFogEnvironmentParams(BloomFogEnvironmentParams const& ) noexcept 
 constexpr BloomFogEnvironmentParams(BloomFogEnvironmentParams&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BloomFogEnvironmentParams(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit BloomFogEnvironmentParams(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -98,6 +97,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BloomFogEnvironmentParams);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BloomFogEnvironmentParams, "", "BloomFogEnvironmentParams");
+NEED_NO_BOX(GlobalNamespace::BloomFogEnvironmentParams);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomFogEnvironmentParams, "", "BloomFogEnvironmentParams");

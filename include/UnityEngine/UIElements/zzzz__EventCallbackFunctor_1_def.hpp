@@ -2,22 +2,21 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__EventCallbackFunctorBase_def.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-class Delegate;
-}
 namespace UnityEngine::UIElements {
-template<typename TEventType>
-class EventCallback_1;
+struct CallbackPhase;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
-struct CallbackPhase;
+struct InvokePolicy;
 }
 namespace UnityEngine::UIElements {
-struct InvokePolicy;
+template<typename TEventType>
+class EventCallback_1;
+}
+namespace System {
+class Delegate;
 }
 namespace UnityEngine::UIElements {
 struct PropagationPhase;
@@ -40,7 +39,7 @@ template<::cordl_internals::il2cpp_reference_type TEventType>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7283)), TypeDefinitionIndex(TypeDefinitionIndex(7282))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7283), inst: 2 })
 // CS Name: UnityEngine.UIElements.EventCallbackFunctor`1
-class CORDL_TYPE EventCallbackFunctor_1<TEventType> : public ::UnityEngine::UIElements::EventCallbackFunctorBase {
+class CORDL_TYPE EventCallbackFunctor_1<TEventType> : public UnityEngine::UIElements::EventCallbackFunctorBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -55,7 +54,7 @@ constexpr EventCallbackFunctor_1(EventCallbackFunctor_1 const& ) noexcept = defa
 constexpr EventCallbackFunctor_1(EventCallbackFunctor_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EventCallbackFunctor_1(void* ptr) noexcept : ::UnityEngine::UIElements::EventCallbackFunctorBase(ptr) {
+constexpr explicit EventCallbackFunctor_1(void* ptr) noexcept : UnityEngine::UIElements::EventCallbackFunctorBase(ptr) {
 }
 
 
@@ -76,11 +75,11 @@ constexpr explicit EventCallbackFunctor_1(void* ptr) noexcept : ::UnityEngine::U
 
 // Fields
 
- ::UnityEngine::UIElements::EventCallback_1<TEventType> __declspec(property(get=__get_m_Callback, put=__set_m_Callback))  m_Callback;
+ UnityEngine::UIElements::EventCallback_1<TEventType> __declspec(property(get=__get_m_Callback, put=__set_m_Callback))  m_Callback;
 
-constexpr void __set_m_Callback(::UnityEngine::UIElements::EventCallback_1<TEventType> value) ;
+constexpr void __set_m_Callback(UnityEngine::UIElements::EventCallback_1<TEventType> value) ;
 
-constexpr ::UnityEngine::UIElements::EventCallback_1<TEventType> __get_m_Callback() const;
+constexpr UnityEngine::UIElements::EventCallback_1<TEventType> __get_m_Callback() const;
 
  int64_t __declspec(property(get=__get_m_EventTypeId, put=__set_m_EventTypeId))  m_EventTypeId;
 
@@ -91,21 +90,20 @@ constexpr int64_t __get_m_EventTypeId() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "callback", ty: "::UnityEngine::UIElements::EventCallback_1<TEventType>", modifiers: "", def_value: None }, CppParam { name: "phase", ty: "::UnityEngine::UIElements::CallbackPhase", modifiers: "", def_value: None }, CppParam { name: "invokePolicy", ty: "::UnityEngine::UIElements::InvokePolicy", modifiers: "", def_value: None }]
-explicit EventCallbackFunctor_1(::UnityEngine::UIElements::EventCallback_1<TEventType> callback, ::UnityEngine::UIElements::CallbackPhase phase, ::UnityEngine::UIElements::InvokePolicy invokePolicy) ;
+// Ctor Parameters [CppParam { name: "callback", ty: "UnityEngine::UIElements::EventCallback_1<TEventType>", modifiers: "", def_value: None }, CppParam { name: "phase", ty: "UnityEngine::UIElements::CallbackPhase", modifiers: "", def_value: None }, CppParam { name: "invokePolicy", ty: "UnityEngine::UIElements::InvokePolicy", modifiers: "", def_value: None }]
+explicit EventCallbackFunctor_1(UnityEngine::UIElements::EventCallback_1<TEventType> callback, UnityEngine::UIElements::CallbackPhase phase, UnityEngine::UIElements::InvokePolicy invokePolicy) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::UnityEngine::UIElements::EventCallback_1<TEventType> callback, ::UnityEngine::UIElements::CallbackPhase phase, ::UnityEngine::UIElements::InvokePolicy invokePolicy) ;
+ void _ctor(UnityEngine::UIElements::EventCallback_1<TEventType> callback, UnityEngine::UIElements::CallbackPhase phase, UnityEngine::UIElements::InvokePolicy invokePolicy) ;
 
 /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
- void Invoke(::UnityEngine::UIElements::EventBase evt, ::UnityEngine::UIElements::PropagationPhase propagationPhase) ;
+ void Invoke(UnityEngine::UIElements::EventBase evt, UnityEngine::UIElements::PropagationPhase propagationPhase) ;
 
 /// @brief Method IsEquivalentTo addr 0x0 size 0xffffffffffffffff virtual true final false
- bool IsEquivalentTo(int64_t eventTypeId, ::System::Delegate callback, ::UnityEngine::UIElements::CallbackPhase phase) ;
+ bool IsEquivalentTo(int64_t eventTypeId, System::Delegate callback, UnityEngine::UIElements::CallbackPhase phase) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::EventCallbackFunctor_1, "UnityEngine.UIElements", "EventCallbackFunctor`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::UIElements::EventCallbackFunctor_1, "UnityEngine.UIElements", "EventCallbackFunctor`1");

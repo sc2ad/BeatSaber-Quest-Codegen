@@ -3,7 +3,6 @@
 #include "Org/BouncyCastle/Asn1/zzzz__LimitedInputStream_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::IO {
 class Stream;
 }
@@ -17,7 +16,7 @@ namespace Org::BouncyCastle::Asn1 {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(500))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(523))
 // CS Name: Org.BouncyCastle.Asn1.IndefiniteLengthInputStream
-class CORDL_TYPE IndefiniteLengthInputStream : public ::Org::BouncyCastle::Asn1::LimitedInputStream {
+class CORDL_TYPE IndefiniteLengthInputStream : public Org::BouncyCastle::Asn1::LimitedInputStream {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr IndefiniteLengthInputStream(IndefiniteLengthInputStream const& ) noexc
 constexpr IndefiniteLengthInputStream(IndefiniteLengthInputStream&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit IndefiniteLengthInputStream(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::LimitedInputStream(ptr) {
+constexpr explicit IndefiniteLengthInputStream(void* ptr) noexcept : Org::BouncyCastle::Asn1::LimitedInputStream(ptr) {
 }
 
 
@@ -68,11 +67,11 @@ constexpr bool __get__eofOn00() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "inStream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "limit", ty: "int32_t", modifiers: "", def_value: None }]
-explicit IndefiniteLengthInputStream(::System::IO::Stream inStream, int32_t limit) ;
+// Ctor Parameters [CppParam { name: "inStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "limit", ty: "int32_t", modifiers: "", def_value: None }]
+explicit IndefiniteLengthInputStream(System::IO::Stream inStream, int32_t limit) ;
 
 /// @brief Method .ctor addr 0x112b134 size 0x44 virtual false final false
- void _ctor(::System::IO::Stream inStream, int32_t limit) ;
+ void _ctor(System::IO::Stream inStream, int32_t limit) ;
 
 /// @brief Method SetEofOn00 addr 0x112fa94 size 0x14 virtual false final false
  void SetEofOn00(bool eofOn00) ;
@@ -93,6 +92,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::IndefiniteLengthInputStream);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::IndefiniteLengthInputStream, "Org.BouncyCastle.Asn1", "IndefiniteLengthInputStream");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::IndefiniteLengthInputStream);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::IndefiniteLengthInputStream, "Org.BouncyCastle.Asn1", "IndefiniteLengthInputStream");

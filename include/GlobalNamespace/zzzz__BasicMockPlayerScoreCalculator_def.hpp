@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace System {
 class Random;
 }
@@ -26,8 +25,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE BasicMockPlayerScoreCalculator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IMockPlayerScoreCalculator
-constexpr operator  ::GlobalNamespace::IMockPlayerScoreCalculator() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IMockPlayerScoreCalculator
+constexpr operator  GlobalNamespace::IMockPlayerScoreCalculator() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -80,11 +79,11 @@ constexpr void __set__maxScore(int32_t value) ;
 
 constexpr int32_t __get__maxScore() const;
 
- ::System::Random __declspec(property(get=__get__random, put=__set__random))  _random;
+ System::Random __declspec(property(get=__get__random, put=__set__random))  _random;
 
-constexpr void __set__random(::System::Random value) ;
+constexpr void __set__random(System::Random value) ;
 
-constexpr ::System::Random __get__random() const;
+constexpr System::Random __get__random() const;
 
 
 // Methods
@@ -96,12 +95,11 @@ explicit BasicMockPlayerScoreCalculator(float_t hitFrequency, int32_t minScore, 
  void _ctor(float_t hitFrequency, int32_t minScore, int32_t maxScore) ;
 
 /// @brief Method GetScoreForNote addr 0x22790f0 size 0x74 virtual true final true
- int32_t GetScoreForNote(::GlobalNamespace::MockNoteData noteData) ;
+ int32_t GetScoreForNote(GlobalNamespace::MockNoteData noteData) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BasicMockPlayerScoreCalculator);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BasicMockPlayerScoreCalculator, "", "BasicMockPlayerScoreCalculator");
+NEED_NO_BOX(GlobalNamespace::BasicMockPlayerScoreCalculator);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BasicMockPlayerScoreCalculator, "", "BasicMockPlayerScoreCalculator");

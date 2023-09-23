@@ -2,15 +2,14 @@
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__AbstractECMultiplier_def.hpp"
 #include <cstdint>
-namespace {
+namespace Org::BouncyCastle::Math::EC {
+class ECPoint;
+}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECCurve;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Multiplier {
@@ -22,7 +21,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1527))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1534))
 // CS Name: Org.BouncyCastle.Math.EC.Multiplier.MixedNafR2LMultiplier
-class CORDL_TYPE MixedNafR2LMultiplier : public ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier {
+class CORDL_TYPE MixedNafR2LMultiplier : public Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr MixedNafR2LMultiplier(MixedNafR2LMultiplier const& ) noexcept = defaul
 constexpr MixedNafR2LMultiplier(MixedNafR2LMultiplier&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MixedNafR2LMultiplier(void* ptr) noexcept : ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier(ptr) {
+constexpr explicit MixedNafR2LMultiplier(void* ptr) noexcept : Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier(ptr) {
 }
 
 
@@ -86,15 +85,14 @@ explicit MixedNafR2LMultiplier(int32_t additionCoord, int32_t doublingCoord) ;
  void _ctor(int32_t additionCoord, int32_t doublingCoord) ;
 
 /// @brief Method MultiplyPositive addr 0xfa9a98 size 0x1e8 virtual true final false
- ::Org::BouncyCastle::Math::EC::ECPoint MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint p, ::Org::BouncyCastle::Math::BigInteger k) ;
+ Org::BouncyCastle::Math::EC::ECPoint MultiplyPositive(Org::BouncyCastle::Math::EC::ECPoint p, Org::BouncyCastle::Math::BigInteger k) ;
 
 /// @brief Method ConfigureCurve addr 0xfa9ef4 size 0x134 virtual true final false
- ::Org::BouncyCastle::Math::EC::ECCurve ConfigureCurve(::Org::BouncyCastle::Math::EC::ECCurve c, int32_t coord) ;
+ Org::BouncyCastle::Math::EC::ECCurve ConfigureCurve(Org::BouncyCastle::Math::EC::ECCurve c, int32_t coord) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Math::EC::Multiplier
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier, "Org.BouncyCastle.Math.EC.Multiplier", "MixedNafR2LMultiplier");
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier, "Org.BouncyCastle.Math.EC.Multiplier", "MixedNafR2LMultiplier");

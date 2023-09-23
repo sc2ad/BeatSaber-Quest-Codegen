@@ -4,7 +4,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace LIV::SDK::Unity {
 struct SDKMatrix4x4;
 }
@@ -21,8 +20,8 @@ namespace LIV::SDK::Unity {
 struct CORDL_TYPE SDKClipPlane : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "transform", ty: "::LIV::SDK::Unity::SDKMatrix4x4", modifiers: "", def_value: None }, CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "tesselation", ty: "float_t", modifiers: "", def_value: None }]
-constexpr SDKClipPlane(::LIV::SDK::Unity::SDKMatrix4x4 transform, int32_t width, int32_t height, float_t tesselation) noexcept;
+// Ctor Parameters [CppParam { name: "transform", ty: "LIV::SDK::Unity::SDKMatrix4x4", modifiers: "", def_value: None }, CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "tesselation", ty: "float_t", modifiers: "", def_value: None }]
+constexpr SDKClipPlane(LIV::SDK::Unity::SDKMatrix4x4 transform, int32_t width, int32_t height, float_t tesselation) noexcept;
 
 
                     constexpr SDKClipPlane(SDKClipPlane const&) = default;
@@ -55,11 +54,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::LIV::SDK::Unity::SDKMatrix4x4 __declspec(property(get=__get_transform, put=__set_transform))  transform;
+ LIV::SDK::Unity::SDKMatrix4x4 __declspec(property(get=__get_transform, put=__set_transform))  transform;
 
-constexpr void __set_transform(::LIV::SDK::Unity::SDKMatrix4x4 value) ;
+constexpr void __set_transform(LIV::SDK::Unity::SDKMatrix4x4 value) ;
 
-constexpr ::LIV::SDK::Unity::SDKMatrix4x4 __get_transform() const;
+constexpr LIV::SDK::Unity::SDKMatrix4x4 __get_transform() const;
 
  int32_t __declspec(property(get=__get_width, put=__set_width))  width;
 
@@ -82,13 +81,13 @@ constexpr float_t __get_tesselation() const;
 
 // Properties
 
-static ::LIV::SDK::Unity::SDKClipPlane __declspec(property(get=get_empty))  empty;
+static LIV::SDK::Unity::SDKClipPlane __declspec(property(get=get_empty))  empty;
 
 
 // Methods
 
 /// @brief Method get_empty addr 0x20a29b4 size 0x34 virtual false final false
-static ::LIV::SDK::Unity::SDKClipPlane get_empty() ;
+static LIV::SDK::Unity::SDKClipPlane get_empty() ;
 
 /// @brief Method ToString addr 0x20a3528 size 0x1dc virtual true final false
  ::StringW ToString() ;
@@ -97,5 +96,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def LIV::SDK::Unity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::SDKClipPlane, "LIV.SDK.Unity", "SDKClipPlane");
+DEFINE_IL2CPP_ARG_TYPE(LIV::SDK::Unity::SDKClipPlane, "LIV.SDK.Unity", "SDKClipPlane");

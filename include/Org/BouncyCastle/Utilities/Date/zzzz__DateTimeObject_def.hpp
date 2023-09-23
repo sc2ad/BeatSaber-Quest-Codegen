@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 struct DateTime;
 }
@@ -52,28 +51,28 @@ constexpr explicit DateTimeObject(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
- ::System::DateTime __declspec(property(get=__get_dt, put=__set_dt))  dt;
+ System::DateTime __declspec(property(get=__get_dt, put=__set_dt))  dt;
 
-constexpr void __set_dt(::System::DateTime value) ;
+constexpr void __set_dt(System::DateTime value) ;
 
-constexpr ::System::DateTime __get_dt() const;
+constexpr System::DateTime __get_dt() const;
 
 
 // Properties
 
- ::System::DateTime __declspec(property(get=get_Value))  Value;
+ System::DateTime __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "dt", ty: "::System::DateTime", modifiers: "", def_value: None }]
-explicit DateTimeObject(::System::DateTime dt) ;
+// Ctor Parameters [CppParam { name: "dt", ty: "System::DateTime", modifiers: "", def_value: None }]
+explicit DateTimeObject(System::DateTime dt) ;
 
 /// @brief Method .ctor addr 0x10c534c size 0x28 virtual false final false
- void _ctor(::System::DateTime dt) ;
+ void _ctor(System::DateTime dt) ;
 
 /// @brief Method get_Value addr 0x10cf568 size 0x8 virtual false final false
- ::System::DateTime get_Value() ;
+ System::DateTime get_Value() ;
 
 /// @brief Method ToString addr 0x10cf570 size 0x20 virtual true final false
  ::StringW ToString() ;
@@ -82,6 +81,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities::Date
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::Date::DateTimeObject);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Date::DateTimeObject, "Org.BouncyCastle.Utilities.Date", "DateTimeObject");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Date::DateTimeObject);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Date::DateTimeObject, "Org.BouncyCastle.Utilities.Date", "DateTimeObject");

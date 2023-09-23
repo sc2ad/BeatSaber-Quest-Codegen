@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__InjectAttributeBase_def.hpp"
-namespace {
 // Forward declare root types
 namespace Zenject {
 class InjectAttribute;
@@ -12,7 +11,7 @@ namespace Zenject {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15650))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15651))
 // CS Name: Zenject.InjectAttribute
-class CORDL_TYPE InjectAttribute : public ::Zenject::InjectAttributeBase {
+class CORDL_TYPE InjectAttribute : public Zenject::InjectAttributeBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr InjectAttribute(InjectAttribute const& ) noexcept = default;
 constexpr InjectAttribute(InjectAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit InjectAttribute(void* ptr) noexcept : ::Zenject::InjectAttributeBase(ptr) {
+constexpr explicit InjectAttribute(void* ptr) noexcept : Zenject::InjectAttributeBase(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::InjectAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::InjectAttribute, "Zenject", "InjectAttribute");
+NEED_NO_BOX(Zenject::InjectAttribute);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectAttribute, "Zenject", "InjectAttribute");

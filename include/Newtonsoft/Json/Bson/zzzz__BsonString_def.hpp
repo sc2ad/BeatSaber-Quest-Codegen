@@ -3,7 +3,6 @@
 #include "Newtonsoft/Json/Bson/zzzz__BsonValue_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Newtonsoft::Json::Bson {
 class BsonString;
@@ -14,7 +13,7 @@ namespace Newtonsoft::Json::Bson {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12019))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12020))
 // CS Name: Newtonsoft.Json.Bson.BsonString
-class CORDL_TYPE BsonString : public ::Newtonsoft::Json::Bson::BsonValue {
+class CORDL_TYPE BsonString : public Newtonsoft::Json::Bson::BsonValue {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr BsonString(BsonString const& ) noexcept = default;
 constexpr BsonString(BsonString&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BsonString(void* ptr) noexcept : ::Newtonsoft::Json::Bson::BsonValue(ptr) {
+constexpr explicit BsonString(void* ptr) noexcept : Newtonsoft::Json::Bson::BsonValue(ptr) {
 }
 
 
@@ -94,6 +93,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Bson
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Bson::BsonString);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Bson::BsonString, "Newtonsoft.Json.Bson", "BsonString");
+NEED_NO_BOX(Newtonsoft::Json::Bson::BsonString);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Bson::BsonString, "Newtonsoft.Json.Bson", "BsonString");

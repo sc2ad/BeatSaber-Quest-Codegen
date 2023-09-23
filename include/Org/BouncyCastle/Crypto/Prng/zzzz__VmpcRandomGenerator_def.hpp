@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto::Prng {
 class IRandomGenerator;
 }
@@ -20,8 +19,8 @@ namespace Org::BouncyCastle::Crypto::Prng {
 class CORDL_TYPE VmpcRandomGenerator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator
-constexpr operator  ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Prng::IRandomGenerator
+constexpr operator  Org::BouncyCastle::Crypto::Prng::IRandomGenerator() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -99,6 +98,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Prng
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator, "Org.BouncyCastle.Crypto.Prng", "VmpcRandomGenerator");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator, "Org.BouncyCastle.Crypto.Prng", "VmpcRandomGenerator");

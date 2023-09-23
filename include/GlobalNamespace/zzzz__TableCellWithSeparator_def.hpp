@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__TableCell_def.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class GameObject;
-}
 namespace HMUI {
 class ITableCellOwner;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13715))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13556))
 // CS Name: TableCellWithSeparator
-class CORDL_TYPE TableCellWithSeparator : public ::HMUI::TableCell {
+class CORDL_TYPE TableCellWithSeparator : public HMUI::TableCell {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr TableCellWithSeparator(TableCellWithSeparator const& ) noexcept = defa
 constexpr TableCellWithSeparator(TableCellWithSeparator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TableCellWithSeparator(void* ptr) noexcept : ::HMUI::TableCell(ptr) {
+constexpr explicit TableCellWithSeparator(void* ptr) noexcept : HMUI::TableCell(ptr) {
 }
 
 
@@ -55,17 +54,17 @@ constexpr explicit TableCellWithSeparator(void* ptr) noexcept : ::HMUI::TableCel
 
 // Fields
 
- ::UnityEngine::GameObject __declspec(property(get=__get__separator, put=__set__separator))  _separator;
+ UnityEngine::GameObject __declspec(property(get=__get__separator, put=__set__separator))  _separator;
 
-constexpr void __set__separator(::UnityEngine::GameObject value) ;
+constexpr void __set__separator(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__separator() const;
+constexpr UnityEngine::GameObject __get__separator() const;
 
 
 // Methods
 
 /// @brief Method TableViewSetup addr 0x1fa3804 size 0xe4 virtual true final false
- void TableViewSetup(::HMUI::ITableCellOwner tableCellOwner, int32_t idx) ;
+ void TableViewSetup(HMUI::ITableCellOwner tableCellOwner, int32_t idx) ;
 
 // Ctor Parameters []
 explicit TableCellWithSeparator() ;
@@ -77,6 +76,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::TableCellWithSeparator);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TableCellWithSeparator, "", "TableCellWithSeparator");
+NEED_NO_BOX(GlobalNamespace::TableCellWithSeparator);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TableCellWithSeparator, "", "TableCellWithSeparator");

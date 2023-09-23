@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__ObservableVariableSO_1_def.hpp"
 #include <cmath>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class FloatSO;
@@ -10,10 +9,10 @@ class FloatSO;
 // Type: ::FloatSO
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13904)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13904), inst: 374 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13904), inst: 374 }), TypeDefinitionIndex(TypeDefinitionIndex(13904))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13899))
 // CS Name: FloatSO
-class CORDL_TYPE FloatSO : public ::GlobalNamespace::ObservableVariableSO_1<float_t> {
+class CORDL_TYPE FloatSO : public GlobalNamespace::ObservableVariableSO_1<float_t> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr FloatSO(FloatSO const& ) noexcept = default;
 constexpr FloatSO(FloatSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FloatSO(void* ptr) noexcept : ::GlobalNamespace::ObservableVariableSO_1<float_t>(ptr) {
+constexpr explicit FloatSO(void* ptr) noexcept : GlobalNamespace::ObservableVariableSO_1<float_t>(ptr) {
 }
 
 
@@ -59,6 +58,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::FloatSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FloatSO, "", "FloatSO");
+NEED_NO_BOX(GlobalNamespace::FloatSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FloatSO, "", "FloatSO");

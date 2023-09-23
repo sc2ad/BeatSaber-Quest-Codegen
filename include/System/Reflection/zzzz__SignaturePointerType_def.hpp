@@ -3,7 +3,6 @@
 #include "System/Reflection/zzzz__SignatureHasElementType_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Reflection {
 class SignatureType;
 }
@@ -17,7 +16,7 @@ namespace System::Reflection {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3485))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3486))
 // CS Name: System.Reflection.SignaturePointerType
-class CORDL_TYPE SignaturePointerType : public ::System::Reflection::SignatureHasElementType {
+class CORDL_TYPE SignaturePointerType : public System::Reflection::SignatureHasElementType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr SignaturePointerType(SignaturePointerType const& ) noexcept = default;
 constexpr SignaturePointerType(SignaturePointerType&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SignaturePointerType(void* ptr) noexcept : ::System::Reflection::SignatureHasElementType(ptr) {
+constexpr explicit SignaturePointerType(void* ptr) noexcept : System::Reflection::SignatureHasElementType(ptr) {
 }
 
 
@@ -62,11 +61,11 @@ constexpr explicit SignaturePointerType(void* ptr) noexcept : ::System::Reflecti
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "elementType", ty: "::System::Reflection::SignatureType", modifiers: "", def_value: None }]
-explicit SignaturePointerType(::System::Reflection::SignatureType elementType) ;
+// Ctor Parameters [CppParam { name: "elementType", ty: "System::Reflection::SignatureType", modifiers: "", def_value: None }]
+explicit SignaturePointerType(System::Reflection::SignatureType elementType) ;
 
 /// @brief Method .ctor addr 0x237d6dc size 0x24 virtual false final false
- void _ctor(::System::Reflection::SignatureType elementType) ;
+ void _ctor(System::Reflection::SignatureType elementType) ;
 
 /// @brief Method IsArrayImpl addr 0x237d700 size 0x8 virtual true final true
  bool IsArrayImpl() ;
@@ -93,6 +92,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Reflection
-} // end anonymous namespace
-NEED_NO_BOX(::System::Reflection::SignaturePointerType);
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::SignaturePointerType, "System.Reflection", "SignaturePointerType");
+NEED_NO_BOX(System::Reflection::SignaturePointerType);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::SignaturePointerType, "System.Reflection", "SignaturePointerType");

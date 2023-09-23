@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace UnityEngine {
-struct Vector3;
-}
 namespace GlobalNamespace {
 class AvatarPoseController;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4072))
 // CS Name: AvatarHeadOffset
-class CORDL_TYPE AvatarHeadOffset : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE AvatarHeadOffset : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr AvatarHeadOffset(AvatarHeadOffset const& ) noexcept = default;
 constexpr AvatarHeadOffset(AvatarHeadOffset&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AvatarHeadOffset(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit AvatarHeadOffset(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -54,17 +53,17 @@ constexpr explicit AvatarHeadOffset(void* ptr) noexcept : ::UnityEngine::MonoBeh
 
 // Fields
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__positionOffset, put=__set__positionOffset))  _positionOffset;
+ UnityEngine::Vector3 __declspec(property(get=__get__positionOffset, put=__set__positionOffset))  _positionOffset;
 
-constexpr void __set__positionOffset(::UnityEngine::Vector3 value) ;
+constexpr void __set__positionOffset(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__positionOffset() const;
+constexpr UnityEngine::Vector3 __get__positionOffset() const;
 
- ::GlobalNamespace::AvatarPoseController __declspec(property(get=__get__avatarPoseController, put=__set__avatarPoseController))  _avatarPoseController;
+ GlobalNamespace::AvatarPoseController __declspec(property(get=__get__avatarPoseController, put=__set__avatarPoseController))  _avatarPoseController;
 
-constexpr void __set__avatarPoseController(::GlobalNamespace::AvatarPoseController value) ;
+constexpr void __set__avatarPoseController(GlobalNamespace::AvatarPoseController value) ;
 
-constexpr ::GlobalNamespace::AvatarPoseController __get__avatarPoseController() const;
+constexpr GlobalNamespace::AvatarPoseController __get__avatarPoseController() const;
 
 
 // Methods
@@ -76,7 +75,7 @@ constexpr ::GlobalNamespace::AvatarPoseController __get__avatarPoseController() 
  void OnDestroy() ;
 
 /// @brief Method HandleMultiplayerAvatarPoseControllerDidUpdatePose addr 0x20bfa70 size 0x54 virtual false final false
- void HandleMultiplayerAvatarPoseControllerDidUpdatePose(::UnityEngine::Vector3 headLocalPosition) ;
+ void HandleMultiplayerAvatarPoseControllerDidUpdatePose(UnityEngine::Vector3 headLocalPosition) ;
 
 // Ctor Parameters []
 explicit AvatarHeadOffset() ;
@@ -88,6 +87,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::AvatarHeadOffset);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AvatarHeadOffset, "", "AvatarHeadOffset");
+NEED_NO_BOX(GlobalNamespace::AvatarHeadOffset);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarHeadOffset, "", "AvatarHeadOffset");

@@ -2,15 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
+namespace GlobalNamespace {
+struct GlobalNamespace__RankModel__Rank;
+}
 namespace GlobalNamespace {
 class GameplayModifiersModelSO;
 }
 namespace GlobalNamespace {
 class GameplayModifiers;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__RankModel__Rank;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -59,12 +58,11 @@ constexpr explicit RankModelHelper(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 // Methods
 
 /// @brief Method MaxRankForGameplayModifiers addr 0x2229b24 size 0x68 virtual false final false
-static ::GlobalNamespace::____GlobalNamespace__RankModel__Rank MaxRankForGameplayModifiers(::GlobalNamespace::GameplayModifiers gameplayModifiers, ::GlobalNamespace::GameplayModifiersModelSO gameplayModifiersModel, float_t energy) ;
+static GlobalNamespace::GlobalNamespace__RankModel__Rank MaxRankForGameplayModifiers(GlobalNamespace::GameplayModifiers gameplayModifiers, GlobalNamespace::GameplayModifiersModelSO gameplayModifiersModel, float_t energy) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::RankModelHelper);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RankModelHelper, "", "RankModelHelper");
+NEED_NO_BOX(GlobalNamespace::RankModelHelper);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RankModelHelper, "", "RankModelHelper");

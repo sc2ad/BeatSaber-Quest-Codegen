@@ -3,7 +3,6 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class Type;
 }
@@ -17,7 +16,7 @@ namespace System::Reflection {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3493))
 // CS Name: System.Reflection.TypeFilter
-class CORDL_TYPE TypeFilter : public ::System::MulticastDelegate {
+class CORDL_TYPE TypeFilter : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr TypeFilter(TypeFilter const& ) noexcept = default;
 constexpr TypeFilter(TypeFilter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TypeFilter(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit TypeFilter(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -60,12 +59,11 @@ explicit TypeFilter(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intp
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x237f608 size 0x14 virtual true final false
- bool Invoke(::System::Type m, ::bs_hook::Il2CppWrapperType filterCriteria) ;
+ bool Invoke(System::Type m, ::bs_hook::Il2CppWrapperType filterCriteria) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Reflection
-} // end anonymous namespace
-NEED_NO_BOX(::System::Reflection::TypeFilter);
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::TypeFilter, "System.Reflection", "TypeFilter");
+NEED_NO_BOX(System::Reflection::TypeFilter);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::TypeFilter, "System.Reflection", "TypeFilter");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct CollisionDetectionMode;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Discrete offset 0
-static ::UnityEngine::CollisionDetectionMode const Discrete;
+static UnityEngine::CollisionDetectionMode const Discrete;
 
 /// @brief Field Continuous offset 0
-static ::UnityEngine::CollisionDetectionMode const Continuous;
+static UnityEngine::CollisionDetectionMode const Continuous;
 
 /// @brief Field ContinuousDynamic offset 0
-static ::UnityEngine::CollisionDetectionMode const ContinuousDynamic;
+static UnityEngine::CollisionDetectionMode const ContinuousDynamic;
 
 /// @brief Field ContinuousSpeculative offset 0
-static ::UnityEngine::CollisionDetectionMode const ContinuousSpeculative;
+static UnityEngine::CollisionDetectionMode const ContinuousSpeculative;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::CollisionDetectionMode, "UnityEngine", "CollisionDetectionMode");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CollisionDetectionMode, "UnityEngine", "CollisionDetectionMode");

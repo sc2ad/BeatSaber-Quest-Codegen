@@ -1,15 +1,14 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
-namespace {
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
+namespace System {
+class Type;
 }
 namespace System {
 class Attribute;
 }
-namespace System {
-class Type;
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -34,15 +33,14 @@ constexpr explicit IAttributeProvider(void* ptr) noexcept : ::cordl_internals::I
 // Methods
 
 /// @brief Method GetAttributes addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Collections::Generic::IList_1<::System::Attribute> GetAttributes(bool inherit) ;
+ System::Collections::Generic::IList_1<System::Attribute> GetAttributes(bool inherit) ;
 
 /// @brief Method GetAttributes addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Collections::Generic::IList_1<::System::Attribute> GetAttributes(::System::Type attributeType, bool inherit) ;
+ System::Collections::Generic::IList_1<System::Attribute> GetAttributes(System::Type attributeType, bool inherit) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Serialization
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Serialization::IAttributeProvider);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::IAttributeProvider, "Newtonsoft.Json.Serialization", "IAttributeProvider");
+NEED_NO_BOX(Newtonsoft::Json::Serialization::IAttributeProvider);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Serialization::IAttributeProvider, "Newtonsoft.Json.Serialization", "IAttributeProvider");

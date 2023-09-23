@@ -3,13 +3,12 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace UnityEngine {
+struct Color;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace UnityEngine {
-struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14657))
 // CS Name: DirectionalLight
-class CORDL_TYPE DirectionalLight : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE DirectionalLight : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr DirectionalLight(DirectionalLight const& ) noexcept = default;
 constexpr DirectionalLight(DirectionalLight&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DirectionalLight(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit DirectionalLight(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -60,11 +59,11 @@ constexpr explicit DirectionalLight(void* ptr) noexcept : ::UnityEngine::MonoBeh
 /// @brief Field kMaxLights offset 0
 static constexpr int32_t  kMaxLights{5};
 
- ::UnityEngine::Color __declspec(property(get=__get_color, put=__set_color))  color;
+ UnityEngine::Color __declspec(property(get=__get_color, put=__set_color))  color;
 
-constexpr void __set_color(::UnityEngine::Color value) ;
+constexpr void __set_color(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_color() const;
+constexpr UnityEngine::Color __get_color() const;
 
  float_t __declspec(property(get=__get_intensity, put=__set_intensity))  intensity;
 
@@ -78,28 +77,28 @@ constexpr void __set_radius(float_t value) ;
 
 constexpr float_t __get_radius() const;
 
-static ::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLight> __declspec(property(get=__get__lights, put=__set__lights))  _lights;
+static System::Collections::Generic::List_1<GlobalNamespace::DirectionalLight> __declspec(property(get=__get__lights, put=__set__lights))  _lights;
 
-static void __set__lights(::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLight> value) ;
+static void __set__lights(System::Collections::Generic::List_1<GlobalNamespace::DirectionalLight> value) ;
 
-static ::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLight> __get__lights() ;
+static System::Collections::Generic::List_1<GlobalNamespace::DirectionalLight> __get__lights() ;
 
-static ::GlobalNamespace::DirectionalLight __declspec(property(get=__get__mainLight, put=__set__mainLight))  _mainLight;
+static GlobalNamespace::DirectionalLight __declspec(property(get=__get__mainLight, put=__set__mainLight))  _mainLight;
 
-static void __set__mainLight(::GlobalNamespace::DirectionalLight value) ;
+static void __set__mainLight(GlobalNamespace::DirectionalLight value) ;
 
-static ::GlobalNamespace::DirectionalLight __get__mainLight() ;
+static GlobalNamespace::DirectionalLight __get__mainLight() ;
 
 
 // Properties
 
-static ::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLight> __declspec(property(get=get_lights))  lights;
+static System::Collections::Generic::List_1<GlobalNamespace::DirectionalLight> __declspec(property(get=get_lights))  lights;
 
 
 // Methods
 
 /// @brief Method get_lights addr 0x1f98ec8 size 0x58 virtual false final false
-static ::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLight> get_lights() ;
+static System::Collections::Generic::List_1<GlobalNamespace::DirectionalLight> get_lights() ;
 
 /// @brief Method OnEnable addr 0x1f98f20 size 0xd0 virtual false final false
  void OnEnable() ;
@@ -117,6 +116,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::DirectionalLight);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DirectionalLight, "", "DirectionalLight");
+NEED_NO_BOX(GlobalNamespace::DirectionalLight);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DirectionalLight, "", "DirectionalLight");

@@ -5,15 +5,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Text {
-struct NormalizationForm;
+class StringBuilder;
 }
 namespace System::Text {
 struct NormalizationCheck;
 }
 namespace System::Text {
-class StringBuilder;
+struct NormalizationForm;
 }
 // Forward declare root types
 namespace System::Text {
@@ -131,19 +130,19 @@ static int32_t GetPrimaryCompositeHelperIndex(int32_t cp) ;
 static ::StringW Compose(::StringW source, int32_t checkType) ;
 
 /// @brief Method Combine addr 0x22e2b2c size 0x13c virtual false final false
-static ::System::Text::StringBuilder Combine(::StringW source, int32_t start, int32_t checkType) ;
+static System::Text::StringBuilder Combine(::StringW source, int32_t start, int32_t checkType) ;
 
 /// @brief Method Combine addr 0x22e2c68 size 0x110 virtual false final false
-static void Combine(::System::Text::StringBuilder sb, int32_t i, int32_t checkType) ;
+static void Combine(System::Text::StringBuilder sb, int32_t i, int32_t checkType) ;
 
 /// @brief Method CombineHangul addr 0x22e2e94 size 0x1c4 virtual false final false
-static int32_t CombineHangul(::System::Text::StringBuilder sb, ::StringW s, int32_t current) ;
+static int32_t CombineHangul(System::Text::StringBuilder sb, ::StringW s, int32_t current) ;
 
 /// @brief Method Fetch addr 0x22e328c size 0x3c virtual false final false
-static int32_t Fetch(::System::Text::StringBuilder sb, ::StringW s, int32_t i) ;
+static int32_t Fetch(System::Text::StringBuilder sb, ::StringW s, int32_t i) ;
 
 /// @brief Method TryComposeWithPreviousStarter addr 0x22e3058 size 0x234 virtual false final false
-static int32_t TryComposeWithPreviousStarter(::System::Text::StringBuilder sb, ::StringW s, int32_t current) ;
+static int32_t TryComposeWithPreviousStarter(System::Text::StringBuilder sb, ::StringW s, int32_t current) ;
 
 /// @brief Method TryCompose addr 0x22e32c8 size 0x118 virtual false final false
 static int32_t TryCompose(int32_t i, int32_t starter, int32_t candidate) ;
@@ -152,16 +151,16 @@ static int32_t TryCompose(int32_t i, int32_t starter, int32_t candidate) ;
 static ::StringW Decompose(::StringW source, int32_t checkType) ;
 
 /// @brief Method Decompose addr 0x22e29fc size 0x130 virtual false final false
-static void Decompose(::StringW source, ByRef<::System::Text::StringBuilder> sb, int32_t checkType) ;
+static void Decompose(::StringW source, ByRef<System::Text::StringBuilder> sb, int32_t checkType) ;
 
 /// @brief Method ReorderCanonical addr 0x22e3644 size 0x270 virtual false final false
-static void ReorderCanonical(::StringW src, ByRef<::System::Text::StringBuilder> sb, int32_t start) ;
+static void ReorderCanonical(::StringW src, ByRef<System::Text::StringBuilder> sb, int32_t start) ;
 
 /// @brief Method DecomposeChar addr 0x22e346c size 0x1d8 virtual false final false
-static void DecomposeChar(ByRef<::System::Text::StringBuilder> sb, ByRef<::ArrayW<int32_t>> buf, ::StringW s, int32_t i, int32_t checkType, ByRef<int32_t> start) ;
+static void DecomposeChar(ByRef<System::Text::StringBuilder> sb, ByRef<::ArrayW<int32_t>> buf, ::StringW s, int32_t i, int32_t checkType, ByRef<int32_t> start) ;
 
 /// @brief Method QuickCheck addr 0x22e2d78 size 0x11c virtual false final false
-static ::System::Text::NormalizationCheck QuickCheck(char16_t c, int32_t type) ;
+static System::Text::NormalizationCheck QuickCheck(char16_t c, int32_t type) ;
 
 /// @brief Method GetCanonicalHangul addr 0x22e3a6c size 0xec virtual false final false
 static int32_t GetCanonicalHangul(int32_t s, ::ArrayW<int32_t> buf, int32_t bufIdx) ;
@@ -170,7 +169,7 @@ static int32_t GetCanonicalHangul(int32_t s, ::ArrayW<int32_t> buf, int32_t bufI
 static int32_t GetCanonical(int32_t c, ::ArrayW<int32_t> buf, int32_t bufIdx, int32_t checkType) ;
 
 /// @brief Method Normalize addr 0x22e3b58 size 0xbc virtual false final false
-static ::StringW Normalize(::StringW source, ::System::Text::NormalizationForm normalizationForm) ;
+static ::StringW Normalize(::StringW source, System::Text::NormalizationForm normalizationForm) ;
 
 /// @brief Method Normalize addr 0x22e3c14 size 0x98 virtual false final false
 static ::StringW Normalize(::StringW source, int32_t type) ;
@@ -182,6 +181,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Text
-} // end anonymous namespace
-NEED_NO_BOX(::System::Text::Normalization);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::Normalization, "System.Text", "Normalization");
+NEED_NO_BOX(System::Text::Normalization);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::Normalization, "System.Text", "Normalization");

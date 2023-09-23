@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T1,typename T2>
 class Tuple_2;
@@ -63,15 +62,15 @@ constexpr explicit Tuple(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr)
 
 /// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T1,typename T2>
-static ::System::Tuple_2<T1,T2> Create(T1 item1, T2 item2) ;
+static System::Tuple_2<T1,T2> Create(T1 item1, T2 item2) ;
 
 /// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T1,typename T2,typename T3>
-static ::System::Tuple_3<T1,T2,T3> Create(T1 item1, T2 item2, T3 item3) ;
+static System::Tuple_3<T1,T2,T3> Create(T1 item1, T2 item2, T3 item3) ;
 
 /// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T1,typename T2,typename T3,typename T4>
-static ::System::Tuple_4<T1,T2,T3,T4> Create(T1 item1, T2 item2, T3 item3, T4 item4) ;
+static System::Tuple_4<T1,T2,T3,T4> Create(T1 item1, T2 item2, T3 item3, T4 item4) ;
 
 /// @brief Method CombineHashCodes addr 0x2458f8c size 0xc virtual false final false
 static int32_t CombineHashCodes(int32_t h1, int32_t h2) ;
@@ -86,6 +85,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::Tuple);
-DEFINE_IL2CPP_ARG_TYPE(::System::Tuple, "System", "Tuple");
+NEED_NO_BOX(System::Tuple);
+DEFINE_IL2CPP_ARG_TYPE(System::Tuple, "System", "Tuple");

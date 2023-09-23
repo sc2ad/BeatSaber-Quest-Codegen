@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 class GameObject;
 }
@@ -53,11 +52,11 @@ constexpr explicit TreePrototype(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 
 // Fields
 
- ::UnityEngine::GameObject __declspec(property(get=__get_m_Prefab, put=__set_m_Prefab))  m_Prefab;
+ UnityEngine::GameObject __declspec(property(get=__get_m_Prefab, put=__set_m_Prefab))  m_Prefab;
 
-constexpr void __set_m_Prefab(::UnityEngine::GameObject value) ;
+constexpr void __set_m_Prefab(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get_m_Prefab() const;
+constexpr UnityEngine::GameObject __get_m_Prefab() const;
 
  float_t __declspec(property(get=__get_m_BendFactor, put=__set_m_BendFactor))  m_BendFactor;
 
@@ -74,7 +73,7 @@ constexpr int32_t __get_m_NavMeshLod() const;
 
 // Properties
 
- ::UnityEngine::GameObject __declspec(property(get=get_prefab, put=set_prefab))  prefab;
+ UnityEngine::GameObject __declspec(property(get=get_prefab, put=set_prefab))  prefab;
 
  float_t __declspec(property(get=get_bendFactor, put=set_bendFactor))  bendFactor;
 
@@ -84,10 +83,10 @@ constexpr int32_t __get_m_NavMeshLod() const;
 // Methods
 
 /// @brief Method get_prefab addr 0x2ba50ec size 0x8 virtual false final false
- ::UnityEngine::GameObject get_prefab() ;
+ UnityEngine::GameObject get_prefab() ;
 
 /// @brief Method set_prefab addr 0x2ba50f4 size 0x8 virtual false final false
- void set_prefab(::UnityEngine::GameObject value) ;
+ void set_prefab(UnityEngine::GameObject value) ;
 
 /// @brief Method get_bendFactor addr 0x2ba50fc size 0x8 virtual false final false
  float_t get_bendFactor() ;
@@ -111,12 +110,11 @@ explicit TreePrototype() ;
  int32_t GetHashCode() ;
 
 /// @brief Method Equals addr 0x2ba5180 size 0xd8 virtual false final false
- bool Equals(::UnityEngine::TreePrototype other) ;
+ bool Equals(UnityEngine::TreePrototype other) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::TreePrototype);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TreePrototype, "UnityEngine", "TreePrototype");
+NEED_NO_BOX(UnityEngine::TreePrototype);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TreePrototype, "UnityEngine", "TreePrototype");

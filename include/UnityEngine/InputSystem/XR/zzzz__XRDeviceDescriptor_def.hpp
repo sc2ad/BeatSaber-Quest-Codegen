@@ -3,16 +3,15 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 namespace UnityEngine::InputSystem::XR {
 struct XRFeatureDescriptor;
 }
 namespace UnityEngine::XR {
 struct InputDeviceCharacteristics;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XR {
@@ -78,11 +77,11 @@ constexpr void __set_serialNumber(::StringW value) ;
 
 constexpr ::StringW __get_serialNumber() const;
 
- ::UnityEngine::XR::InputDeviceCharacteristics __declspec(property(get=__get_characteristics, put=__set_characteristics))  characteristics;
+ UnityEngine::XR::InputDeviceCharacteristics __declspec(property(get=__get_characteristics, put=__set_characteristics))  characteristics;
 
-constexpr void __set_characteristics(::UnityEngine::XR::InputDeviceCharacteristics value) ;
+constexpr void __set_characteristics(UnityEngine::XR::InputDeviceCharacteristics value) ;
 
-constexpr ::UnityEngine::XR::InputDeviceCharacteristics __get_characteristics() const;
+constexpr UnityEngine::XR::InputDeviceCharacteristics __get_characteristics() const;
 
  int32_t __declspec(property(get=__get_deviceId, put=__set_deviceId))  deviceId;
 
@@ -90,11 +89,11 @@ constexpr void __set_deviceId(int32_t value) ;
 
 constexpr int32_t __get_deviceId() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::XRFeatureDescriptor> __declspec(property(get=__get_inputFeatures, put=__set_inputFeatures))  inputFeatures;
+ System::Collections::Generic::List_1<UnityEngine::InputSystem::XR::XRFeatureDescriptor> __declspec(property(get=__get_inputFeatures, put=__set_inputFeatures))  inputFeatures;
 
-constexpr void __set_inputFeatures(::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::XRFeatureDescriptor> value) ;
+constexpr void __set_inputFeatures(System::Collections::Generic::List_1<UnityEngine::InputSystem::XR::XRFeatureDescriptor> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::XRFeatureDescriptor> __get_inputFeatures() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::InputSystem::XR::XRFeatureDescriptor> __get_inputFeatures() const;
 
 
 // Methods
@@ -103,7 +102,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR:
  ::StringW ToJson() ;
 
 /// @brief Method FromJson addr 0x2933278 size 0x48 virtual false final false
-static ::UnityEngine::InputSystem::XR::XRDeviceDescriptor FromJson(::StringW json) ;
+static UnityEngine::InputSystem::XR::XRDeviceDescriptor FromJson(::StringW json) ;
 
 // Ctor Parameters []
 explicit XRDeviceDescriptor() ;
@@ -115,6 +114,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::XR
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::XR::XRDeviceDescriptor);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::XR::XRDeviceDescriptor, "UnityEngine.InputSystem.XR", "XRDeviceDescriptor");
+NEED_NO_BOX(UnityEngine::InputSystem::XR::XRDeviceDescriptor);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::XR::XRDeviceDescriptor, "UnityEngine.InputSystem.XR", "XRDeviceDescriptor");

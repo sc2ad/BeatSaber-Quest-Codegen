@@ -3,18 +3,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::Globalization {
 class EraInfo;
+}
+namespace System {
+struct DateTime;
 }
 namespace System::Globalization {
 class Calendar;
 }
 namespace System {
 struct DayOfWeek;
-}
-namespace System {
-struct DateTime;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -86,17 +85,17 @@ constexpr void __set_m_minYear(int32_t value) ;
 
 constexpr int32_t __get_m_minYear() const;
 
- ::System::Globalization::Calendar __declspec(property(get=__get_m_Cal, put=__set_m_Cal))  m_Cal;
+ System::Globalization::Calendar __declspec(property(get=__get_m_Cal, put=__set_m_Cal))  m_Cal;
 
-constexpr void __set_m_Cal(::System::Globalization::Calendar value) ;
+constexpr void __set_m_Cal(System::Globalization::Calendar value) ;
 
-constexpr ::System::Globalization::Calendar __get_m_Cal() const;
+constexpr System::Globalization::Calendar __get_m_Cal() const;
 
- ::ArrayW<::System::Globalization::EraInfo> __declspec(property(get=__get_m_EraInfo, put=__set_m_EraInfo))  m_EraInfo;
+ ::ArrayW<System::Globalization::EraInfo> __declspec(property(get=__get_m_EraInfo, put=__set_m_EraInfo))  m_EraInfo;
 
-constexpr void __set_m_EraInfo(::ArrayW<::System::Globalization::EraInfo> value) ;
+constexpr void __set_m_EraInfo(::ArrayW<System::Globalization::EraInfo> value) ;
 
-constexpr ::ArrayW<::System::Globalization::EraInfo> __get_m_EraInfo() const;
+constexpr ::ArrayW<System::Globalization::EraInfo> __get_m_EraInfo() const;
 
  ::ArrayW<int32_t> __declspec(property(get=__get_m_eras, put=__set_m_eras))  m_eras;
 
@@ -104,11 +103,11 @@ constexpr void __set_m_eras(::ArrayW<int32_t> value) ;
 
 constexpr ::ArrayW<int32_t> __get_m_eras() const;
 
- ::System::DateTime __declspec(property(get=__get_m_minDate, put=__set_m_minDate))  m_minDate;
+ System::DateTime __declspec(property(get=__get_m_minDate, put=__set_m_minDate))  m_minDate;
 
-constexpr void __set_m_minDate(::System::DateTime value) ;
+constexpr void __set_m_minDate(System::DateTime value) ;
 
-constexpr ::System::DateTime __get_m_minDate() const;
+constexpr System::DateTime __get_m_minDate() const;
 
 
 // Properties
@@ -123,11 +122,11 @@ constexpr ::System::DateTime __get_m_minDate() const;
 /// @brief Method get_MaxYear addr 0x23f29bc size 0x8 virtual false final false
  int32_t get_MaxYear() ;
 
-// Ctor Parameters [CppParam { name: "cal", ty: "::System::Globalization::Calendar", modifiers: "", def_value: None }, CppParam { name: "eraInfo", ty: "::ArrayW<::System::Globalization::EraInfo>", modifiers: "", def_value: None }]
-explicit GregorianCalendarHelper(::System::Globalization::Calendar cal, ::ArrayW<::System::Globalization::EraInfo> eraInfo) ;
+// Ctor Parameters [CppParam { name: "cal", ty: "System::Globalization::Calendar", modifiers: "", def_value: None }, CppParam { name: "eraInfo", ty: "::ArrayW<System::Globalization::EraInfo>", modifiers: "", def_value: None }]
+explicit GregorianCalendarHelper(System::Globalization::Calendar cal, ::ArrayW<System::Globalization::EraInfo> eraInfo) ;
 
 /// @brief Method .ctor addr 0x23f29c4 size 0x78 virtual false final false
- void _ctor(::System::Globalization::Calendar cal, ::ArrayW<::System::Globalization::EraInfo> eraInfo) ;
+ void _ctor(System::Globalization::Calendar cal, ::ArrayW<System::Globalization::EraInfo> eraInfo) ;
 
 /// @brief Method GetYearOffset addr 0x23f2a3c size 0x2f4 virtual false final false
  int32_t GetYearOffset(int32_t year, int32_t era, bool throwOnError) ;
@@ -154,10 +153,10 @@ static int64_t TimeToTicks(int32_t hour, int32_t minute, int32_t second, int32_t
  void CheckTicksRange(int64_t ticks) ;
 
 /// @brief Method GetDayOfMonth addr 0x23f3530 size 0x40 virtual false final false
- int32_t GetDayOfMonth(::System::DateTime time) ;
+ int32_t GetDayOfMonth(System::DateTime time) ;
 
 /// @brief Method GetDayOfWeek addr 0x23f3570 size 0x8c virtual false final false
- ::System::DayOfWeek GetDayOfWeek(::System::DateTime time) ;
+ System::DayOfWeek GetDayOfWeek(System::DateTime time) ;
 
 /// @brief Method GetDaysInMonth addr 0x23f35fc size 0x18c virtual false final false
  int32_t GetDaysInMonth(int32_t year, int32_t month, int32_t era) ;
@@ -166,25 +165,25 @@ static int64_t TimeToTicks(int32_t hour, int32_t minute, int32_t second, int32_t
  int32_t GetDaysInYear(int32_t year, int32_t era) ;
 
 /// @brief Method GetEra addr 0x23f37f8 size 0xd0 virtual false final false
- int32_t GetEra(::System::DateTime time) ;
+ int32_t GetEra(System::DateTime time) ;
 
 /// @brief Method get_Eras addr 0x23f38c8 size 0xf0 virtual false final false
  ::ArrayW<int32_t> get_Eras() ;
 
 /// @brief Method GetMonth addr 0x23f39b8 size 0x40 virtual false final false
- int32_t GetMonth(::System::DateTime time) ;
+ int32_t GetMonth(System::DateTime time) ;
 
 /// @brief Method GetMonthsInYear addr 0x23f39f8 size 0x18 virtual false final false
  int32_t GetMonthsInYear(int32_t year, int32_t era) ;
 
 /// @brief Method GetYear addr 0x23f3a10 size 0xf0 virtual false final false
- int32_t GetYear(::System::DateTime time) ;
+ int32_t GetYear(System::DateTime time) ;
 
 /// @brief Method IsLeapYear addr 0x23f3b00 size 0x70 virtual false final false
  bool IsLeapYear(int32_t year, int32_t era) ;
 
 /// @brief Method ToDateTime addr 0x23f3b70 size 0x104 virtual false final false
- ::System::DateTime ToDateTime(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond, int32_t era) ;
+ System::DateTime ToDateTime(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond, int32_t era) ;
 
 /// @brief Method ToFourDigitYear addr 0x23f3c74 size 0x188 virtual false final false
  int32_t ToFourDigitYear(int32_t year, int32_t twoDigitYearMax) ;
@@ -193,6 +192,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Globalization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Globalization::GregorianCalendarHelper);
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::GregorianCalendarHelper, "System.Globalization", "GregorianCalendarHelper");
+NEED_NO_BOX(System::Globalization::GregorianCalendarHelper);
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::GregorianCalendarHelper, "System.Globalization", "GregorianCalendarHelper");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct EVRButtonId;
@@ -86,71 +85,70 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field k_EButton_System offset 0
-static ::OVR::OpenVR::EVRButtonId const k_EButton_System;
+static OVR::OpenVR::EVRButtonId const k_EButton_System;
 
 /// @brief Field k_EButton_ApplicationMenu offset 0
-static ::OVR::OpenVR::EVRButtonId const k_EButton_ApplicationMenu;
+static OVR::OpenVR::EVRButtonId const k_EButton_ApplicationMenu;
 
 /// @brief Field k_EButton_Grip offset 0
-static ::OVR::OpenVR::EVRButtonId const k_EButton_Grip;
+static OVR::OpenVR::EVRButtonId const k_EButton_Grip;
 
 /// @brief Field k_EButton_DPad_Left offset 0
-static ::OVR::OpenVR::EVRButtonId const k_EButton_DPad_Left;
+static OVR::OpenVR::EVRButtonId const k_EButton_DPad_Left;
 
 /// @brief Field k_EButton_DPad_Up offset 0
-static ::OVR::OpenVR::EVRButtonId const k_EButton_DPad_Up;
+static OVR::OpenVR::EVRButtonId const k_EButton_DPad_Up;
 
 /// @brief Field k_EButton_DPad_Right offset 0
-static ::OVR::OpenVR::EVRButtonId const k_EButton_DPad_Right;
+static OVR::OpenVR::EVRButtonId const k_EButton_DPad_Right;
 
 /// @brief Field k_EButton_DPad_Down offset 0
-static ::OVR::OpenVR::EVRButtonId const k_EButton_DPad_Down;
+static OVR::OpenVR::EVRButtonId const k_EButton_DPad_Down;
 
 /// @brief Field k_EButton_A offset 0
-static ::OVR::OpenVR::EVRButtonId const k_EButton_A;
+static OVR::OpenVR::EVRButtonId const k_EButton_A;
 
 /// @brief Field k_EButton_ProximitySensor offset 0
-static ::OVR::OpenVR::EVRButtonId const k_EButton_ProximitySensor;
+static OVR::OpenVR::EVRButtonId const k_EButton_ProximitySensor;
 
 /// @brief Field k_EButton_Axis0 offset 0
-static ::OVR::OpenVR::EVRButtonId const k_EButton_Axis0;
+static OVR::OpenVR::EVRButtonId const k_EButton_Axis0;
 
 /// @brief Field k_EButton_Axis1 offset 0
-static ::OVR::OpenVR::EVRButtonId const k_EButton_Axis1;
+static OVR::OpenVR::EVRButtonId const k_EButton_Axis1;
 
 /// @brief Field k_EButton_Axis2 offset 0
-static ::OVR::OpenVR::EVRButtonId const k_EButton_Axis2;
+static OVR::OpenVR::EVRButtonId const k_EButton_Axis2;
 
 /// @brief Field k_EButton_Axis3 offset 0
-static ::OVR::OpenVR::EVRButtonId const k_EButton_Axis3;
+static OVR::OpenVR::EVRButtonId const k_EButton_Axis3;
 
 /// @brief Field k_EButton_Axis4 offset 0
-static ::OVR::OpenVR::EVRButtonId const k_EButton_Axis4;
+static OVR::OpenVR::EVRButtonId const k_EButton_Axis4;
 
 /// @brief Field k_EButton_SteamVR_Touchpad offset 0
-static ::OVR::OpenVR::EVRButtonId const k_EButton_SteamVR_Touchpad;
+static OVR::OpenVR::EVRButtonId const k_EButton_SteamVR_Touchpad;
 
 /// @brief Field k_EButton_SteamVR_Trigger offset 0
-static ::OVR::OpenVR::EVRButtonId const k_EButton_SteamVR_Trigger;
+static OVR::OpenVR::EVRButtonId const k_EButton_SteamVR_Trigger;
 
 /// @brief Field k_EButton_Dashboard_Back offset 0
-static ::OVR::OpenVR::EVRButtonId const k_EButton_Dashboard_Back;
+static OVR::OpenVR::EVRButtonId const k_EButton_Dashboard_Back;
 
 /// @brief Field k_EButton_Knuckles_A offset 0
-static ::OVR::OpenVR::EVRButtonId const k_EButton_Knuckles_A;
+static OVR::OpenVR::EVRButtonId const k_EButton_Knuckles_A;
 
 /// @brief Field k_EButton_Knuckles_B offset 0
-static ::OVR::OpenVR::EVRButtonId const k_EButton_Knuckles_B;
+static OVR::OpenVR::EVRButtonId const k_EButton_Knuckles_B;
 
 /// @brief Field k_EButton_Knuckles_JoyStick offset 0
-static ::OVR::OpenVR::EVRButtonId const k_EButton_Knuckles_JoyStick;
+static OVR::OpenVR::EVRButtonId const k_EButton_Knuckles_JoyStick;
 
 /// @brief Field k_EButton_Max offset 0
-static ::OVR::OpenVR::EVRButtonId const k_EButton_Max;
+static OVR::OpenVR::EVRButtonId const k_EButton_Max;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRButtonId, "OVR.OpenVR", "EVRButtonId");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRButtonId, "OVR.OpenVR", "EVRButtonId");

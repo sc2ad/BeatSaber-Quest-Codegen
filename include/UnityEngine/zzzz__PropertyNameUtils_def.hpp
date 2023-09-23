@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace UnityEngine {
 struct PropertyName;
 }
@@ -54,15 +53,14 @@ constexpr explicit PropertyNameUtils(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 // Methods
 
 /// @brief Method PropertyNameFromString addr 0x2b5149c size 0x4c virtual false final false
-static ::UnityEngine::PropertyName PropertyNameFromString(::StringW name) ;
+static UnityEngine::PropertyName PropertyNameFromString(::StringW name) ;
 
 /// @brief Method PropertyNameFromString_Injected addr 0x2b51668 size 0x44 virtual false final false
-static void PropertyNameFromString_Injected(::StringW name, ByRef<::UnityEngine::PropertyName> ret) ;
+static void PropertyNameFromString_Injected(::StringW name, ByRef<UnityEngine::PropertyName> ret) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::PropertyNameUtils);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PropertyNameUtils, "UnityEngine", "PropertyNameUtils");
+NEED_NO_BOX(UnityEngine::PropertyNameUtils);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PropertyNameUtils, "UnityEngine", "PropertyNameUtils");

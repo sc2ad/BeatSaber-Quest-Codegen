@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Org::BouncyCastle::Asn1::X9 {
 class X9ECParameters;
 }
@@ -51,25 +50,25 @@ constexpr explicit X9ECParametersHolder(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 // Fields
 
- ::Org::BouncyCastle::Asn1::X9::X9ECParameters __declspec(property(get=__get_parameters, put=__set_parameters))  parameters;
+ Org::BouncyCastle::Asn1::X9::X9ECParameters __declspec(property(get=__get_parameters, put=__set_parameters))  parameters;
 
-constexpr void __set_parameters(::Org::BouncyCastle::Asn1::X9::X9ECParameters value) ;
+constexpr void __set_parameters(Org::BouncyCastle::Asn1::X9::X9ECParameters value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::X9::X9ECParameters __get_parameters() const;
+constexpr Org::BouncyCastle::Asn1::X9::X9ECParameters __get_parameters() const;
 
 
 // Properties
 
- ::Org::BouncyCastle::Asn1::X9::X9ECParameters __declspec(property(get=get_Parameters))  Parameters;
+ Org::BouncyCastle::Asn1::X9::X9ECParameters __declspec(property(get=get_Parameters))  Parameters;
 
 
 // Methods
 
 /// @brief Method get_Parameters addr 0xdd5430 size 0xb8 virtual false final false
- ::Org::BouncyCastle::Asn1::X9::X9ECParameters get_Parameters() ;
+ Org::BouncyCastle::Asn1::X9::X9ECParameters get_Parameters() ;
 
 /// @brief Method CreateParameters addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Asn1::X9::X9ECParameters CreateParameters() ;
+ Org::BouncyCastle::Asn1::X9::X9ECParameters CreateParameters() ;
 
 // Ctor Parameters []
 explicit X9ECParametersHolder() ;
@@ -81,6 +80,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::X9
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Org.BouncyCastle.Asn1.X9", "X9ECParametersHolder");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X9::X9ECParametersHolder);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Org.BouncyCastle.Asn1.X9", "X9ECParametersHolder");

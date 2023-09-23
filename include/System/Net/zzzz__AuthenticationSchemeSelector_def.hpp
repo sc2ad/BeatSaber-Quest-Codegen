@@ -3,12 +3,11 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace System::Net {
-struct AuthenticationSchemes;
-}
 namespace System::Net {
 class HttpListenerRequest;
+}
+namespace System::Net {
+struct AuthenticationSchemes;
 }
 // Forward declare root types
 namespace System::Net {
@@ -20,7 +19,7 @@ namespace System::Net {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7908))
 // CS Name: System.Net.AuthenticationSchemeSelector
-class CORDL_TYPE AuthenticationSchemeSelector : public ::System::MulticastDelegate {
+class CORDL_TYPE AuthenticationSchemeSelector : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr AuthenticationSchemeSelector(AuthenticationSchemeSelector const& ) noe
 constexpr AuthenticationSchemeSelector(AuthenticationSchemeSelector&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AuthenticationSchemeSelector(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit AuthenticationSchemeSelector(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -63,12 +62,11 @@ explicit AuthenticationSchemeSelector(::bs_hook::Il2CppWrapperType object, ::cor
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x2809d7c size 0x14 virtual true final false
- ::System::Net::AuthenticationSchemes Invoke(::System::Net::HttpListenerRequest httpRequest) ;
+ System::Net::AuthenticationSchemes Invoke(System::Net::HttpListenerRequest httpRequest) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::AuthenticationSchemeSelector);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::AuthenticationSchemeSelector, "System.Net", "AuthenticationSchemeSelector");
+NEED_NO_BOX(System::Net::AuthenticationSchemeSelector);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::AuthenticationSchemeSelector, "System.Net", "AuthenticationSchemeSelector");

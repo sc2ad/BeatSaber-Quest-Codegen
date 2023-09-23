@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace GlobalNamespace {
-class AvatarData;
-}
 namespace GlobalNamespace {
 struct MultiplayerAvatarData;
+}
+namespace GlobalNamespace {
+class AvatarData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -55,15 +54,14 @@ constexpr explicit AvatarDataMultiplayerAvatarDataConverter(void* ptr) noexcept 
 // Methods
 
 /// @brief Method CreateMultiplayerAvatarData addr 0x2227b48 size 0x1710 virtual false final false
-static ::GlobalNamespace::MultiplayerAvatarData CreateMultiplayerAvatarData(::GlobalNamespace::AvatarData avatarData) ;
+static GlobalNamespace::MultiplayerAvatarData CreateMultiplayerAvatarData(GlobalNamespace::AvatarData avatarData) ;
 
 /// @brief Method CreateAvatarData addr 0x2229258 size 0x300 virtual false final false
-static ::GlobalNamespace::AvatarData CreateAvatarData(::GlobalNamespace::MultiplayerAvatarData multiplayerAvatarData) ;
+static GlobalNamespace::AvatarData CreateAvatarData(GlobalNamespace::MultiplayerAvatarData multiplayerAvatarData) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::AvatarDataMultiplayerAvatarDataConverter);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AvatarDataMultiplayerAvatarDataConverter, "", "AvatarDataMultiplayerAvatarDataConverter");
+NEED_NO_BOX(GlobalNamespace::AvatarDataMultiplayerAvatarDataConverter);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarDataMultiplayerAvatarDataConverter, "", "AvatarDataMultiplayerAvatarDataConverter");

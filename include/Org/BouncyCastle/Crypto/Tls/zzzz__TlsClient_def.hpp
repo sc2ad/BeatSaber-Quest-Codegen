@@ -2,33 +2,32 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto::Tls {
 class ProtocolVersion;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsClientContext;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSession;
-}
-namespace System::Collections {
-class IList;
+class TlsKeyExchange;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class NewSessionTicket;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsAuthentication;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsPeer;
 }
 namespace System::Collections {
 class IDictionary;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsKeyExchange;
+class TlsAuthentication;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsSession;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsClientContext;
+}
+namespace System::Collections {
+class IList;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsPeer;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -43,8 +42,8 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE TlsClient : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Tls::TlsPeer
-constexpr operator  ::Org::BouncyCastle::Crypto::Tls::TlsPeer() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Tls::TlsPeer
+constexpr operator  Org::BouncyCastle::Crypto::Tls::TlsPeer() const noexcept;
 
 ~TlsClient() = default;
 
@@ -55,9 +54,9 @@ constexpr explicit TlsClient(void* ptr) noexcept : ::cordl_internals::InterfaceW
 
 // Properties
 
- ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion __declspec(property(get=get_ClientHelloRecordLayerVersion))  ClientHelloRecordLayerVersion;
+ Org::BouncyCastle::Crypto::Tls::ProtocolVersion __declspec(property(get=get_ClientHelloRecordLayerVersion))  ClientHelloRecordLayerVersion;
 
- ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion __declspec(property(get=get_ClientVersion))  ClientVersion;
+ Org::BouncyCastle::Crypto::Tls::ProtocolVersion __declspec(property(get=get_ClientVersion))  ClientVersion;
 
  bool __declspec(property(get=get_IsFallback))  IsFallback;
 
@@ -65,16 +64,16 @@ constexpr explicit TlsClient(void* ptr) noexcept : ::cordl_internals::InterfaceW
 // Methods
 
 /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
- void Init(::Org::BouncyCastle::Crypto::Tls::TlsClientContext context) ;
+ void Init(Org::BouncyCastle::Crypto::Tls::TlsClientContext context) ;
 
 /// @brief Method GetSessionToResume addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Crypto::Tls::TlsSession GetSessionToResume() ;
+ Org::BouncyCastle::Crypto::Tls::TlsSession GetSessionToResume() ;
 
 /// @brief Method get_ClientHelloRecordLayerVersion addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion get_ClientHelloRecordLayerVersion() ;
+ Org::BouncyCastle::Crypto::Tls::ProtocolVersion get_ClientHelloRecordLayerVersion() ;
 
 /// @brief Method get_ClientVersion addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion get_ClientVersion() ;
+ Org::BouncyCastle::Crypto::Tls::ProtocolVersion get_ClientVersion() ;
 
 /// @brief Method get_IsFallback addr 0x0 size 0xffffffffffffffff virtual true final false
  bool get_IsFallback() ;
@@ -86,10 +85,10 @@ constexpr explicit TlsClient(void* ptr) noexcept : ::cordl_internals::InterfaceW
  ::ArrayW<uint8_t> GetCompressionMethods() ;
 
 /// @brief Method GetClientExtensions addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Collections::IDictionary GetClientExtensions() ;
+ System::Collections::IDictionary GetClientExtensions() ;
 
 /// @brief Method NotifyServerVersion addr 0x0 size 0xffffffffffffffff virtual true final false
- void NotifyServerVersion(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion selectedVersion) ;
+ void NotifyServerVersion(Org::BouncyCastle::Crypto::Tls::ProtocolVersion selectedVersion) ;
 
 /// @brief Method NotifySessionID addr 0x0 size 0xffffffffffffffff virtual true final false
  void NotifySessionID(::ArrayW<uint8_t> sessionID) ;
@@ -101,27 +100,26 @@ constexpr explicit TlsClient(void* ptr) noexcept : ::cordl_internals::InterfaceW
  void NotifySelectedCompressionMethod(uint8_t selectedCompressionMethod) ;
 
 /// @brief Method ProcessServerExtensions addr 0x0 size 0xffffffffffffffff virtual true final false
- void ProcessServerExtensions(::System::Collections::IDictionary serverExtensions) ;
+ void ProcessServerExtensions(System::Collections::IDictionary serverExtensions) ;
 
 /// @brief Method ProcessServerSupplementalData addr 0x0 size 0xffffffffffffffff virtual true final false
- void ProcessServerSupplementalData(::System::Collections::IList serverSupplementalData) ;
+ void ProcessServerSupplementalData(System::Collections::IList serverSupplementalData) ;
 
 /// @brief Method GetKeyExchange addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange GetKeyExchange() ;
+ Org::BouncyCastle::Crypto::Tls::TlsKeyExchange GetKeyExchange() ;
 
 /// @brief Method GetAuthentication addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Crypto::Tls::TlsAuthentication GetAuthentication() ;
+ Org::BouncyCastle::Crypto::Tls::TlsAuthentication GetAuthentication() ;
 
 /// @brief Method GetClientSupplementalData addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Collections::IList GetClientSupplementalData() ;
+ System::Collections::IList GetClientSupplementalData() ;
 
 /// @brief Method NotifyNewSessionTicket addr 0x0 size 0xffffffffffffffff virtual true final false
- void NotifyNewSessionTicket(::Org::BouncyCastle::Crypto::Tls::NewSessionTicket newSessionTicket) ;
+ void NotifyNewSessionTicket(Org::BouncyCastle::Crypto::Tls::NewSessionTicket newSessionTicket) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsClient);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::TlsClient, "Org.BouncyCastle.Crypto.Tls", "TlsClient");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::TlsClient);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::TlsClient, "Org.BouncyCastle.Crypto.Tls", "TlsClient");

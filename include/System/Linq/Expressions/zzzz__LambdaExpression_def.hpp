@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Linq/Expressions/zzzz__Expression_def.hpp"
-namespace {
 namespace System::Linq::Expressions {
 class Expression;
 }
@@ -15,7 +14,7 @@ namespace System::Linq::Expressions {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14581))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14584))
 // CS Name: System.Linq.Expressions.LambdaExpression
-class CORDL_TYPE LambdaExpression : public ::System::Linq::Expressions::Expression {
+class CORDL_TYPE LambdaExpression : public System::Linq::Expressions::Expression {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr LambdaExpression(LambdaExpression const& ) noexcept = default;
 constexpr LambdaExpression(LambdaExpression&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LambdaExpression(void* ptr) noexcept : ::System::Linq::Expressions::Expression(ptr) {
+constexpr explicit LambdaExpression(void* ptr) noexcept : System::Linq::Expressions::Expression(ptr) {
 }
 
 
@@ -51,27 +50,26 @@ constexpr explicit LambdaExpression(void* ptr) noexcept : ::System::Linq::Expres
 
 // Fields
 
- ::System::Linq::Expressions::Expression __declspec(property(get=__get__body, put=__set__body))  _body;
+ System::Linq::Expressions::Expression __declspec(property(get=__get__body, put=__set__body))  _body;
 
-constexpr void __set__body(::System::Linq::Expressions::Expression value) ;
+constexpr void __set__body(System::Linq::Expressions::Expression value) ;
 
-constexpr ::System::Linq::Expressions::Expression __get__body() const;
+constexpr System::Linq::Expressions::Expression __get__body() const;
 
 
 // Properties
 
- ::System::Linq::Expressions::Expression __declspec(property(get=get_Body))  Body;
+ System::Linq::Expressions::Expression __declspec(property(get=get_Body))  Body;
 
 
 // Methods
 
 /// @brief Method get_Body addr 0x2682404 size 0x8 virtual false final false
- ::System::Linq::Expressions::Expression get_Body() ;
+ System::Linq::Expressions::Expression get_Body() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Linq::Expressions
-} // end anonymous namespace
-NEED_NO_BOX(::System::Linq::Expressions::LambdaExpression);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::LambdaExpression, "System.Linq.Expressions", "LambdaExpression");
+NEED_NO_BOX(System::Linq::Expressions::LambdaExpression);
+DEFINE_IL2CPP_ARG_TYPE(System::Linq::Expressions::LambdaExpression, "System.Linq.Expressions", "LambdaExpression");

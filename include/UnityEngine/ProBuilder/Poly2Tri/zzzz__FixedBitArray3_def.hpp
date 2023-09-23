@@ -3,27 +3,26 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace System {
-class IDisposable;
-}
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
+namespace System::Collections {
+class IEnumerable;
+}
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class ____UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10;
+class UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 struct FixedBitArray3;
@@ -34,52 +33,52 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15372))
 // CS Name: UnityEngine.ProBuilder.Poly2Tri.FixedBitArray3::<Enumerate>d__10
-class CORDL_TYPE ____UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerable_1<bool>
-constexpr operator  ::System::Collections::Generic::IEnumerable_1<bool>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerable_1<bool>
+constexpr operator  System::Collections::Generic::IEnumerable_1<bool>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<bool>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<bool>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<bool>
+constexpr operator  System::Collections::Generic::IEnumerator_1<bool>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10() = default;
+virtual ~UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10(____UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10(UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10(____UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10(UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10& operator=(void* o) noexcept {
+  constexpr UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10& operator=(____UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10&& o) noexcept = default;
-  constexpr ____UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10& operator=(____UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10 const& o) noexcept = default;
+  constexpr UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10& operator=(UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10&& o) noexcept = default;
+  constexpr UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10& operator=(UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10 const& o) noexcept = default;
                 
 
 
@@ -103,17 +102,17 @@ constexpr void __set___l__initialThreadId(int32_t value) ;
 
 constexpr int32_t __get___l__initialThreadId() const;
 
- ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 value) ;
+constexpr void __set___4__this(UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 value) ;
 
-constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 __get___4__this() const;
+constexpr UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 __get___4__this() const;
 
- ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 __declspec(property(get=__get___3____4__this, put=__set___3____4__this))  __3____4__this;
+ UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 __declspec(property(get=__get___3____4__this, put=__set___3____4__this))  __3____4__this;
 
-constexpr void __set___3____4__this(::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 value) ;
+constexpr void __set___3____4__this(UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 value) ;
 
-constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 __get___3____4__this() const;
+constexpr UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 __get___3____4__this() const;
 
  int32_t __declspec(property(get=__get__i_5__2, put=__set__i_5__2))  _i_5__2;
 
@@ -132,7 +131,7 @@ constexpr int32_t __get__i_5__2() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10(int32_t __1__state) ;
+explicit UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x29a2ac4 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -153,10 +152,10 @@ explicit ____UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10
  ::bs_hook::Il2CppWrapperType System_Collections_IEnumerator_get_Current() ;
 
 /// @brief Method System.Collections.Generic.IEnumerable<System.Boolean>.GetEnumerator addr 0x29a2cbc size 0xc0 virtual true final true
- ::System::Collections::Generic::IEnumerator_1<bool> System_Collections_Generic_IEnumerable_System_Boolean__GetEnumerator() ;
+ System::Collections::Generic::IEnumerator_1<bool> System_Collections_Generic_IEnumerable_System_Boolean__GetEnumerator() ;
 
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x29a2d7c size 0x4 virtual true final true
- ::System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
+ System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -171,13 +170,13 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
 struct CORDL_TYPE FixedBitArray3 : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-using _Enumerate_d__10 = ::UnityEngine::ProBuilder::Poly2Tri::____UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10;
+using _Enumerate_d__10 = UnityEngine::ProBuilder::Poly2Tri::UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10;
 
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerable_1<bool>
-constexpr operator  ::System::Collections::Generic::IEnumerable_1<bool>() const;
+/// @brief Convert operator to System::Collections::Generic::IEnumerable_1<bool>
+constexpr operator  System::Collections::Generic::IEnumerable_1<bool>() const;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const;
 
 // Ctor Parameters [CppParam { name: "_0", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_1", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_2", ty: "bool", modifiers: "", def_value: None }]
 constexpr FixedBitArray3(bool _0, bool _1, bool _2) noexcept;
@@ -258,19 +257,18 @@ constexpr bool __get__2() const;
  void Clear(bool value) ;
 
 /// @brief Method Enumerate addr 0x29a2a40 size 0x84 virtual false final false
- ::System::Collections::Generic::IEnumerable_1<bool> Enumerate() ;
+ System::Collections::Generic::IEnumerable_1<bool> Enumerate() ;
 
 /// @brief Method GetEnumerator addr 0x29a2af8 size 0xa8 virtual true final true
- ::System::Collections::Generic::IEnumerator_1<bool> GetEnumerator() ;
+ System::Collections::Generic::IEnumerator_1<bool> GetEnumerator() ;
 
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x29a2ba0 size 0x4 virtual true final true
- ::System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
+ System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder::Poly2Tri
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::Poly2Tri::____UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Poly2Tri::____UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10, "UnityEngine.ProBuilder.Poly2Tri", "FixedBitArray3/<Enumerate>d__10");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3, "UnityEngine.ProBuilder.Poly2Tri", "FixedBitArray3");
+NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10, "UnityEngine.ProBuilder.Poly2Tri", "FixedBitArray3/<Enumerate>d__10");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3, "UnityEngine.ProBuilder.Poly2Tri", "FixedBitArray3");

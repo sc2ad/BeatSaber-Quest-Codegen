@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System {
 class Exception;
 }
@@ -52,12 +51,11 @@ constexpr explicit Error(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr)
 // Methods
 
 /// @brief Method ExtensionNodeMustOverrideProperty addr 0x26822b8 size 0x74 virtual false final false
-static ::System::Exception ExtensionNodeMustOverrideProperty(::bs_hook::Il2CppWrapperType p0) ;
+static System::Exception ExtensionNodeMustOverrideProperty(::bs_hook::Il2CppWrapperType p0) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Linq::Expressions
-} // end anonymous namespace
-NEED_NO_BOX(::System::Linq::Expressions::Error);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Error, "System.Linq.Expressions", "Error");
+NEED_NO_BOX(System::Linq::Expressions::Error);
+DEFINE_IL2CPP_ARG_TYPE(System::Linq::Expressions::Error, "System.Linq.Expressions", "Error");

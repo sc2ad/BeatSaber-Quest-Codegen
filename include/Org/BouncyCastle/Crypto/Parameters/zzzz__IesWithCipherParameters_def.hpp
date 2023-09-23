@@ -3,7 +3,6 @@
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__IesParameters_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
 class IesWithCipherParameters;
@@ -14,7 +13,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1058))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1059))
 // CS Name: Org.BouncyCastle.Crypto.Parameters.IesWithCipherParameters
-class CORDL_TYPE IesWithCipherParameters : public ::Org::BouncyCastle::Crypto::Parameters::IesParameters {
+class CORDL_TYPE IesWithCipherParameters : public Org::BouncyCastle::Crypto::Parameters::IesParameters {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr IesWithCipherParameters(IesWithCipherParameters const& ) noexcept = de
 constexpr IesWithCipherParameters(IesWithCipherParameters&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit IesWithCipherParameters(void* ptr) noexcept : ::Org::BouncyCastle::Crypto::Parameters::IesParameters(ptr) {
+constexpr explicit IesWithCipherParameters(void* ptr) noexcept : Org::BouncyCastle::Crypto::Parameters::IesParameters(ptr) {
 }
 
 
@@ -77,6 +76,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Parameters
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::IesWithCipherParameters);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Parameters::IesWithCipherParameters, "Org.BouncyCastle.Crypto.Parameters", "IesWithCipherParameters");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::IesWithCipherParameters);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::IesWithCipherParameters, "Org.BouncyCastle.Crypto.Parameters", "IesWithCipherParameters");

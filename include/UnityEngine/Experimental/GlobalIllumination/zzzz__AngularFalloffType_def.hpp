@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Experimental::GlobalIllumination {
 struct AngularFalloffType;
@@ -67,14 +66,13 @@ constexpr void __set_value__(uint8_t value) ;
 constexpr uint8_t __get_value__() const;
 
 /// @brief Field LUT offset 0
-static ::UnityEngine::Experimental::GlobalIllumination::AngularFalloffType const LUT;
+static UnityEngine::Experimental::GlobalIllumination::AngularFalloffType const LUT;
 
 /// @brief Field AnalyticAndInnerAngle offset 0
-static ::UnityEngine::Experimental::GlobalIllumination::AngularFalloffType const AnalyticAndInnerAngle;
+static UnityEngine::Experimental::GlobalIllumination::AngularFalloffType const AnalyticAndInnerAngle;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Experimental::GlobalIllumination
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::GlobalIllumination::AngularFalloffType, "UnityEngine.Experimental.GlobalIllumination", "AngularFalloffType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::AngularFalloffType, "UnityEngine.Experimental.GlobalIllumination", "AngularFalloffType");

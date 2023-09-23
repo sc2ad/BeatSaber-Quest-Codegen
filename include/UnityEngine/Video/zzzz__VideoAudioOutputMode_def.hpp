@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Video {
 struct VideoAudioOutputMode;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::Video::VideoAudioOutputMode const None;
+static UnityEngine::Video::VideoAudioOutputMode const None;
 
 /// @brief Field AudioSource offset 0
-static ::UnityEngine::Video::VideoAudioOutputMode const AudioSource;
+static UnityEngine::Video::VideoAudioOutputMode const AudioSource;
 
 /// @brief Field Direct offset 0
-static ::UnityEngine::Video::VideoAudioOutputMode const Direct;
+static UnityEngine::Video::VideoAudioOutputMode const Direct;
 
 /// @brief Field APIOnly offset 0
-static ::UnityEngine::Video::VideoAudioOutputMode const APIOnly;
+static UnityEngine::Video::VideoAudioOutputMode const APIOnly;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Video
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Video::VideoAudioOutputMode, "UnityEngine.Video", "VideoAudioOutputMode");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Video::VideoAudioOutputMode, "UnityEngine.Video", "VideoAudioOutputMode");

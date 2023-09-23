@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net {
 struct FtpMethodFlags;
@@ -75,38 +74,37 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::Net::FtpMethodFlags const None;
+static System::Net::FtpMethodFlags const None;
 
 /// @brief Field IsDownload offset 0
-static ::System::Net::FtpMethodFlags const IsDownload;
+static System::Net::FtpMethodFlags const IsDownload;
 
 /// @brief Field IsUpload offset 0
-static ::System::Net::FtpMethodFlags const IsUpload;
+static System::Net::FtpMethodFlags const IsUpload;
 
 /// @brief Field TakesParameter offset 0
-static ::System::Net::FtpMethodFlags const TakesParameter;
+static System::Net::FtpMethodFlags const TakesParameter;
 
 /// @brief Field MayTakeParameter offset 0
-static ::System::Net::FtpMethodFlags const MayTakeParameter;
+static System::Net::FtpMethodFlags const MayTakeParameter;
 
 /// @brief Field DoesNotTakeParameter offset 0
-static ::System::Net::FtpMethodFlags const DoesNotTakeParameter;
+static System::Net::FtpMethodFlags const DoesNotTakeParameter;
 
 /// @brief Field ParameterIsDirectory offset 0
-static ::System::Net::FtpMethodFlags const ParameterIsDirectory;
+static System::Net::FtpMethodFlags const ParameterIsDirectory;
 
 /// @brief Field ShouldParseForResponseUri offset 0
-static ::System::Net::FtpMethodFlags const ShouldParseForResponseUri;
+static System::Net::FtpMethodFlags const ShouldParseForResponseUri;
 
 /// @brief Field HasHttpCommand offset 0
-static ::System::Net::FtpMethodFlags const HasHttpCommand;
+static System::Net::FtpMethodFlags const HasHttpCommand;
 
 /// @brief Field MustChangeWorkingDirectoryToPath offset 0
-static ::System::Net::FtpMethodFlags const MustChangeWorkingDirectoryToPath;
+static System::Net::FtpMethodFlags const MustChangeWorkingDirectoryToPath;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::FtpMethodFlags, "System.Net", "FtpMethodFlags");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpMethodFlags, "System.Net", "FtpMethodFlags");

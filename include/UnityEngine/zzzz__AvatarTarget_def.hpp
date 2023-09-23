@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct AvatarTarget;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Root offset 0
-static ::UnityEngine::AvatarTarget const Root;
+static UnityEngine::AvatarTarget const Root;
 
 /// @brief Field Body offset 0
-static ::UnityEngine::AvatarTarget const Body;
+static UnityEngine::AvatarTarget const Body;
 
 /// @brief Field LeftFoot offset 0
-static ::UnityEngine::AvatarTarget const LeftFoot;
+static UnityEngine::AvatarTarget const LeftFoot;
 
 /// @brief Field RightFoot offset 0
-static ::UnityEngine::AvatarTarget const RightFoot;
+static UnityEngine::AvatarTarget const RightFoot;
 
 /// @brief Field LeftHand offset 0
-static ::UnityEngine::AvatarTarget const LeftHand;
+static UnityEngine::AvatarTarget const LeftHand;
 
 /// @brief Field RightHand offset 0
-static ::UnityEngine::AvatarTarget const RightHand;
+static UnityEngine::AvatarTarget const RightHand;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AvatarTarget, "UnityEngine", "AvatarTarget");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AvatarTarget, "UnityEngine", "AvatarTarget");

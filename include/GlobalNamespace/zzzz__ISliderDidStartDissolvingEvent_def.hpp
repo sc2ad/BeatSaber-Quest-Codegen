@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
 class SliderController;
 }
@@ -28,12 +27,11 @@ constexpr explicit ISliderDidStartDissolvingEvent(void* ptr) noexcept : ::cordl_
 // Methods
 
 /// @brief Method HandleSliderDidStartDissolving addr 0x0 size 0xffffffffffffffff virtual true final false
- void HandleSliderDidStartDissolving(::GlobalNamespace::SliderController sliderController, float_t duration) ;
+ void HandleSliderDidStartDissolving(GlobalNamespace::SliderController sliderController, float_t duration) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ISliderDidStartDissolvingEvent);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ISliderDidStartDissolvingEvent, "", "ISliderDidStartDissolvingEvent");
+NEED_NO_BOX(GlobalNamespace::ISliderDidStartDissolvingEvent);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ISliderDidStartDissolvingEvent, "", "ISliderDidStartDissolvingEvent");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace RootMotion::FinalIK {
 class IK;
 }
@@ -15,7 +14,7 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12579))
 // CS Name: RootMotion.FinalIK.EditorIK
-class CORDL_TYPE EditorIK : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE EditorIK : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr EditorIK(EditorIK const& ) noexcept = default;
 constexpr EditorIK(EditorIK&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EditorIK(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit EditorIK(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit EditorIK(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(p
 
 // Fields
 
- ::RootMotion::FinalIK::IK __declspec(property(get=__get_ik, put=__set_ik))  ik;
+ RootMotion::FinalIK::IK __declspec(property(get=__get_ik, put=__set_ik))  ik;
 
-constexpr void __set_ik(::RootMotion::FinalIK::IK value) ;
+constexpr void __set_ik(RootMotion::FinalIK::IK value) ;
 
-constexpr ::RootMotion::FinalIK::IK __get_ik() const;
+constexpr RootMotion::FinalIK::IK __get_ik() const;
 
 
 // Methods
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::EditorIK);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::EditorIK, "RootMotion.FinalIK", "EditorIK");
+NEED_NO_BOX(RootMotion::FinalIK::EditorIK);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::EditorIK, "RootMotion.FinalIK", "EditorIK");

@@ -4,26 +4,25 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine::UIElements {
-struct Rotate;
-}
 namespace UnityEngine::UIElements {
 template<typename T>
 class IStyleDataGroup_1;
 }
-namespace UnityEngine::UIElements {
-struct TransformOrigin;
+namespace System {
+template<typename T>
+class IEquatable_1;
 }
 namespace UnityEngine::UIElements {
 struct Scale;
 }
 namespace UnityEngine::UIElements {
+struct TransformOrigin;
+}
+namespace UnityEngine::UIElements {
 struct Translate;
 }
-namespace System {
-template<typename T>
-class IEquatable_1;
+namespace UnityEngine::UIElements {
+struct Rotate;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -38,14 +37,14 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE TransformData : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransformData>
-constexpr operator  ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransformData>() const;
+/// @brief Convert operator to UnityEngine::UIElements::IStyleDataGroup_1<UnityEngine::UIElements::TransformData>
+constexpr operator  UnityEngine::UIElements::IStyleDataGroup_1<UnityEngine::UIElements::TransformData>() const;
 
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::UIElements::TransformData>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::UIElements::TransformData>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::UIElements::TransformData>
+constexpr operator  System::IEquatable_1<UnityEngine::UIElements::TransformData>() const;
 
-// Ctor Parameters [CppParam { name: "rotate", ty: "::UnityEngine::UIElements::Rotate", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "::UnityEngine::UIElements::Scale", modifiers: "", def_value: None }, CppParam { name: "transformOrigin", ty: "::UnityEngine::UIElements::TransformOrigin", modifiers: "", def_value: None }, CppParam { name: "translate", ty: "::UnityEngine::UIElements::Translate", modifiers: "", def_value: None }]
-constexpr TransformData(::UnityEngine::UIElements::Rotate rotate, ::UnityEngine::UIElements::Scale scale, ::UnityEngine::UIElements::TransformOrigin transformOrigin, ::UnityEngine::UIElements::Translate translate) noexcept;
+// Ctor Parameters [CppParam { name: "rotate", ty: "UnityEngine::UIElements::Rotate", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "UnityEngine::UIElements::Scale", modifiers: "", def_value: None }, CppParam { name: "transformOrigin", ty: "UnityEngine::UIElements::TransformOrigin", modifiers: "", def_value: None }, CppParam { name: "translate", ty: "UnityEngine::UIElements::Translate", modifiers: "", def_value: None }]
+constexpr TransformData(UnityEngine::UIElements::Rotate rotate, UnityEngine::UIElements::Scale scale, UnityEngine::UIElements::TransformOrigin transformOrigin, UnityEngine::UIElements::Translate translate) noexcept;
 
 
                     constexpr TransformData(TransformData const&) = default;
@@ -78,44 +77,44 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::UIElements::Rotate __declspec(property(get=__get_rotate, put=__set_rotate))  rotate;
+ UnityEngine::UIElements::Rotate __declspec(property(get=__get_rotate, put=__set_rotate))  rotate;
 
-constexpr void __set_rotate(::UnityEngine::UIElements::Rotate value) ;
+constexpr void __set_rotate(UnityEngine::UIElements::Rotate value) ;
 
-constexpr ::UnityEngine::UIElements::Rotate __get_rotate() const;
+constexpr UnityEngine::UIElements::Rotate __get_rotate() const;
 
- ::UnityEngine::UIElements::Scale __declspec(property(get=__get_scale, put=__set_scale))  scale;
+ UnityEngine::UIElements::Scale __declspec(property(get=__get_scale, put=__set_scale))  scale;
 
-constexpr void __set_scale(::UnityEngine::UIElements::Scale value) ;
+constexpr void __set_scale(UnityEngine::UIElements::Scale value) ;
 
-constexpr ::UnityEngine::UIElements::Scale __get_scale() const;
+constexpr UnityEngine::UIElements::Scale __get_scale() const;
 
- ::UnityEngine::UIElements::TransformOrigin __declspec(property(get=__get_transformOrigin, put=__set_transformOrigin))  transformOrigin;
+ UnityEngine::UIElements::TransformOrigin __declspec(property(get=__get_transformOrigin, put=__set_transformOrigin))  transformOrigin;
 
-constexpr void __set_transformOrigin(::UnityEngine::UIElements::TransformOrigin value) ;
+constexpr void __set_transformOrigin(UnityEngine::UIElements::TransformOrigin value) ;
 
-constexpr ::UnityEngine::UIElements::TransformOrigin __get_transformOrigin() const;
+constexpr UnityEngine::UIElements::TransformOrigin __get_transformOrigin() const;
 
- ::UnityEngine::UIElements::Translate __declspec(property(get=__get_translate, put=__set_translate))  translate;
+ UnityEngine::UIElements::Translate __declspec(property(get=__get_translate, put=__set_translate))  translate;
 
-constexpr void __set_translate(::UnityEngine::UIElements::Translate value) ;
+constexpr void __set_translate(UnityEngine::UIElements::Translate value) ;
 
-constexpr ::UnityEngine::UIElements::Translate __get_translate() const;
+constexpr UnityEngine::UIElements::Translate __get_translate() const;
 
 
 // Methods
 
 /// @brief Method Copy addr 0x2d0e1b8 size 0x1c virtual true final true
- ::UnityEngine::UIElements::TransformData Copy() ;
+ UnityEngine::UIElements::TransformData Copy() ;
 
 /// @brief Method CopyFrom addr 0x2d0e1d4 size 0x14 virtual true final true
- void CopyFrom(ByRef<::UnityEngine::UIElements::TransformData> other) ;
+ void CopyFrom(ByRef<UnityEngine::UIElements::TransformData> other) ;
 
 /// @brief Method op_Equality addr 0x2d0e1e8 size 0x128 virtual false final false
-static bool op_Equality(::UnityEngine::UIElements::TransformData lhs, ::UnityEngine::UIElements::TransformData rhs) ;
+static bool op_Equality(UnityEngine::UIElements::TransformData lhs, UnityEngine::UIElements::TransformData rhs) ;
 
 /// @brief Method Equals addr 0x2d0e310 size 0x44 virtual true final true
- bool Equals(::UnityEngine::UIElements::TransformData other) ;
+ bool Equals(UnityEngine::UIElements::TransformData other) ;
 
 /// @brief Method Equals addr 0x2d0e354 size 0xa0 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -127,5 +126,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::TransformData, "UnityEngine.UIElements", "TransformData");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::TransformData, "UnityEngine.UIElements", "TransformData");

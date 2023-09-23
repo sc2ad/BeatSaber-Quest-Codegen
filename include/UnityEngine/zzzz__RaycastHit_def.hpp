@@ -3,15 +3,14 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
-struct Vector3;
+struct Vector2;
 }
 namespace UnityEngine {
 class Collider;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -26,8 +25,8 @@ namespace UnityEngine {
 struct CORDL_TYPE RaycastHit : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "m_Point", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Normal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_FaceID", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_Distance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_UV", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_Collider", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr RaycastHit(::UnityEngine::Vector3 m_Point, ::UnityEngine::Vector3 m_Normal, uint32_t m_FaceID, float_t m_Distance, ::UnityEngine::Vector2 m_UV, int32_t m_Collider) noexcept;
+// Ctor Parameters [CppParam { name: "m_Point", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Normal", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_FaceID", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_Distance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_UV", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_Collider", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr RaycastHit(UnityEngine::Vector3 m_Point, UnityEngine::Vector3 m_Normal, uint32_t m_FaceID, float_t m_Distance, UnityEngine::Vector2 m_UV, int32_t m_Collider) noexcept;
 
 
                     constexpr RaycastHit(RaycastHit const&) = default;
@@ -60,17 +59,17 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_m_Point, put=__set_m_Point))  m_Point;
+ UnityEngine::Vector3 __declspec(property(get=__get_m_Point, put=__set_m_Point))  m_Point;
 
-constexpr void __set_m_Point(::UnityEngine::Vector3 value) ;
+constexpr void __set_m_Point(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_m_Point() const;
+constexpr UnityEngine::Vector3 __get_m_Point() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_m_Normal, put=__set_m_Normal))  m_Normal;
+ UnityEngine::Vector3 __declspec(property(get=__get_m_Normal, put=__set_m_Normal))  m_Normal;
 
-constexpr void __set_m_Normal(::UnityEngine::Vector3 value) ;
+constexpr void __set_m_Normal(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_m_Normal() const;
+constexpr UnityEngine::Vector3 __get_m_Normal() const;
 
  uint32_t __declspec(property(get=__get_m_FaceID, put=__set_m_FaceID))  m_FaceID;
 
@@ -84,11 +83,11 @@ constexpr void __set_m_Distance(float_t value) ;
 
 constexpr float_t __get_m_Distance() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_m_UV, put=__set_m_UV))  m_UV;
+ UnityEngine::Vector2 __declspec(property(get=__get_m_UV, put=__set_m_UV))  m_UV;
 
-constexpr void __set_m_UV(::UnityEngine::Vector2 value) ;
+constexpr void __set_m_UV(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_m_UV() const;
+constexpr UnityEngine::Vector2 __get_m_UV() const;
 
  int32_t __declspec(property(get=__get_m_Collider, put=__set_m_Collider))  m_Collider;
 
@@ -99,11 +98,11 @@ constexpr int32_t __get_m_Collider() const;
 
 // Properties
 
- ::UnityEngine::Collider __declspec(property(get=get_collider))  collider;
+ UnityEngine::Collider __declspec(property(get=get_collider))  collider;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_point, put=set_point))  point;
+ UnityEngine::Vector3 __declspec(property(get=get_point, put=set_point))  point;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_normal, put=set_normal))  normal;
+ UnityEngine::Vector3 __declspec(property(get=get_normal, put=set_normal))  normal;
 
  float_t __declspec(property(get=get_distance, put=set_distance))  distance;
 
@@ -111,19 +110,19 @@ constexpr int32_t __get_m_Collider() const;
 // Methods
 
 /// @brief Method get_collider addr 0x2b9eb3c size 0xac virtual false final false
- ::UnityEngine::Collider get_collider() ;
+ UnityEngine::Collider get_collider() ;
 
 /// @brief Method get_point addr 0x2b9ebe8 size 0xc virtual false final false
- ::UnityEngine::Vector3 get_point() ;
+ UnityEngine::Vector3 get_point() ;
 
 /// @brief Method set_point addr 0x2b9ebf4 size 0xc virtual false final false
- void set_point(::UnityEngine::Vector3 value) ;
+ void set_point(UnityEngine::Vector3 value) ;
 
 /// @brief Method get_normal addr 0x2b9ec00 size 0xc virtual false final false
- ::UnityEngine::Vector3 get_normal() ;
+ UnityEngine::Vector3 get_normal() ;
 
 /// @brief Method set_normal addr 0x2b9ec0c size 0xc virtual false final false
- void set_normal(::UnityEngine::Vector3 value) ;
+ void set_normal(UnityEngine::Vector3 value) ;
 
 /// @brief Method get_distance addr 0x2b9ec18 size 0x8 virtual false final false
  float_t get_distance() ;
@@ -135,5 +134,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::RaycastHit, "UnityEngine", "RaycastHit");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RaycastHit, "UnityEngine", "RaycastHit");

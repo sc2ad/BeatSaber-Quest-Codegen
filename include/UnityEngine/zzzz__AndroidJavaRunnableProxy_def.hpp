@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__AndroidJavaProxy_def.hpp"
-namespace {
 namespace UnityEngine {
 class AndroidJavaRunnable;
 }
@@ -15,7 +14,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14880))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14879))
 // CS Name: UnityEngine.AndroidJavaRunnableProxy
-class CORDL_TYPE AndroidJavaRunnableProxy : public ::UnityEngine::AndroidJavaProxy {
+class CORDL_TYPE AndroidJavaRunnableProxy : public UnityEngine::AndroidJavaProxy {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr AndroidJavaRunnableProxy(AndroidJavaRunnableProxy const& ) noexcept = 
 constexpr AndroidJavaRunnableProxy(AndroidJavaRunnableProxy&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AndroidJavaRunnableProxy(void* ptr) noexcept : ::UnityEngine::AndroidJavaProxy(ptr) {
+constexpr explicit AndroidJavaRunnableProxy(void* ptr) noexcept : UnityEngine::AndroidJavaProxy(ptr) {
 }
 
 
@@ -51,20 +50,20 @@ constexpr explicit AndroidJavaRunnableProxy(void* ptr) noexcept : ::UnityEngine:
 
 // Fields
 
- ::UnityEngine::AndroidJavaRunnable __declspec(property(get=__get_mRunnable, put=__set_mRunnable))  mRunnable;
+ UnityEngine::AndroidJavaRunnable __declspec(property(get=__get_mRunnable, put=__set_mRunnable))  mRunnable;
 
-constexpr void __set_mRunnable(::UnityEngine::AndroidJavaRunnable value) ;
+constexpr void __set_mRunnable(UnityEngine::AndroidJavaRunnable value) ;
 
-constexpr ::UnityEngine::AndroidJavaRunnable __get_mRunnable() const;
+constexpr UnityEngine::AndroidJavaRunnable __get_mRunnable() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "runnable", ty: "::UnityEngine::AndroidJavaRunnable", modifiers: "", def_value: None }]
-explicit AndroidJavaRunnableProxy(::UnityEngine::AndroidJavaRunnable runnable) ;
+// Ctor Parameters [CppParam { name: "runnable", ty: "UnityEngine::AndroidJavaRunnable", modifiers: "", def_value: None }]
+explicit AndroidJavaRunnableProxy(UnityEngine::AndroidJavaRunnable runnable) ;
 
 /// @brief Method .ctor addr 0x2b0e2f0 size 0x80 virtual false final false
- void _ctor(::UnityEngine::AndroidJavaRunnable runnable) ;
+ void _ctor(UnityEngine::AndroidJavaRunnable runnable) ;
 
 /// @brief Method run addr 0x2b0e3ec size 0x24 virtual false final false
  void run() ;
@@ -73,6 +72,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AndroidJavaRunnableProxy);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AndroidJavaRunnableProxy, "UnityEngine", "AndroidJavaRunnableProxy");
+NEED_NO_BOX(UnityEngine::AndroidJavaRunnableProxy);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AndroidJavaRunnableProxy, "UnityEngine", "AndroidJavaRunnableProxy");

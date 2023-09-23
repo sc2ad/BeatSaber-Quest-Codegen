@@ -3,7 +3,6 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 class BloomFogEnvironmentParams;
 }
@@ -17,7 +16,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14615))
 // CS Name: BloomFogSO
-class CORDL_TYPE BloomFogSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE BloomFogSO : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr BloomFogSO(BloomFogSO const& ) noexcept = default;
 constexpr BloomFogSO(BloomFogSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BloomFogSO(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit BloomFogSO(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -104,26 +103,26 @@ static void __set__customFogHeightFogHeightID(int32_t value) ;
 
 static int32_t __get__customFogHeightFogHeightID() ;
 
- ::GlobalNamespace::BloomFogEnvironmentParams __declspec(property(get=__get__defaultFogParams, put=__set__defaultFogParams))  _defaultFogParams;
+ GlobalNamespace::BloomFogEnvironmentParams __declspec(property(get=__get__defaultFogParams, put=__set__defaultFogParams))  _defaultFogParams;
 
-constexpr void __set__defaultFogParams(::GlobalNamespace::BloomFogEnvironmentParams value) ;
+constexpr void __set__defaultFogParams(GlobalNamespace::BloomFogEnvironmentParams value) ;
 
-constexpr ::GlobalNamespace::BloomFogEnvironmentParams __get__defaultFogParams() const;
+constexpr GlobalNamespace::BloomFogEnvironmentParams __get__defaultFogParams() const;
 
- ::GlobalNamespace::BloomFogEnvironmentParams __declspec(property(get=__get__transitionFogParams, put=__set__transitionFogParams))  _transitionFogParams;
+ GlobalNamespace::BloomFogEnvironmentParams __declspec(property(get=__get__transitionFogParams, put=__set__transitionFogParams))  _transitionFogParams;
 
-constexpr void __set__transitionFogParams(::GlobalNamespace::BloomFogEnvironmentParams value) ;
+constexpr void __set__transitionFogParams(GlobalNamespace::BloomFogEnvironmentParams value) ;
 
-constexpr ::GlobalNamespace::BloomFogEnvironmentParams __get__transitionFogParams() const;
+constexpr GlobalNamespace::BloomFogEnvironmentParams __get__transitionFogParams() const;
 
 
 // Properties
 
  float_t __declspec(property(get=get_transition, put=set_transition))  transition;
 
- ::GlobalNamespace::BloomFogEnvironmentParams __declspec(property(get=get_defaultForParams, put=set_defaultForParams))  defaultForParams;
+ GlobalNamespace::BloomFogEnvironmentParams __declspec(property(get=get_defaultForParams, put=set_defaultForParams))  defaultForParams;
 
- ::GlobalNamespace::BloomFogEnvironmentParams __declspec(property(get=get_transitionFogParams, put=set_transitionFogParams))  transitionFogParams;
+ GlobalNamespace::BloomFogEnvironmentParams __declspec(property(get=get_transitionFogParams, put=set_transitionFogParams))  transitionFogParams;
 
  bool __declspec(property(get=get_bloomFogEnabled, put=set_bloomFogEnabled))  bloomFogEnabled;
 
@@ -141,16 +140,16 @@ constexpr ::GlobalNamespace::BloomFogEnvironmentParams __get__transitionFogParam
  float_t get_transition() ;
 
 /// @brief Method get_defaultForParams addr 0x1f90658 size 0x8 virtual false final false
- ::GlobalNamespace::BloomFogEnvironmentParams get_defaultForParams() ;
+ GlobalNamespace::BloomFogEnvironmentParams get_defaultForParams() ;
 
 /// @brief Method set_defaultForParams addr 0x1f90478 size 0x9c virtual false final false
- void set_defaultForParams(::GlobalNamespace::BloomFogEnvironmentParams value) ;
+ void set_defaultForParams(GlobalNamespace::BloomFogEnvironmentParams value) ;
 
 /// @brief Method get_transitionFogParams addr 0x1f90660 size 0x8 virtual false final false
- ::GlobalNamespace::BloomFogEnvironmentParams get_transitionFogParams() ;
+ GlobalNamespace::BloomFogEnvironmentParams get_transitionFogParams() ;
 
 /// @brief Method set_transitionFogParams addr 0x1f902b8 size 0x98 virtual false final false
- void set_transitionFogParams(::GlobalNamespace::BloomFogEnvironmentParams value) ;
+ void set_transitionFogParams(GlobalNamespace::BloomFogEnvironmentParams value) ;
 
 /// @brief Method set_bloomFogEnabled addr 0x1f90004 size 0x78 virtual false final false
  void set_bloomFogEnabled(bool value) ;
@@ -165,7 +164,7 @@ constexpr ::GlobalNamespace::BloomFogEnvironmentParams __get__transitionFogParam
  float_t get_noteSpawnIntensity() ;
 
 /// @brief Method Setup addr 0x1f8ffb4 size 0x8 virtual false final false
- void Setup(::GlobalNamespace::BloomFogEnvironmentParams defaultFogParams) ;
+ void Setup(GlobalNamespace::BloomFogEnvironmentParams defaultFogParams) ;
 
 /// @brief Method OnEnable addr 0x1f90680 size 0x1c virtual true final false
  void OnEnable() ;
@@ -186,6 +185,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BloomFogSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BloomFogSO, "", "BloomFogSO");
+NEED_NO_BOX(GlobalNamespace::BloomFogSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomFogSO, "", "BloomFogSO");

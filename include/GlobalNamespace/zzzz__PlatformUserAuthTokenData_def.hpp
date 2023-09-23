@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace GlobalNamespace {
 struct PlatformEnvironment;
 }
@@ -58,18 +57,18 @@ constexpr void __set__token_k__BackingField(::StringW value) ;
 
 constexpr ::StringW __get__token_k__BackingField() const;
 
- ::GlobalNamespace::PlatformEnvironment __declspec(property(get=__get__validPlatformEnvironment_k__BackingField, put=__set__validPlatformEnvironment_k__BackingField))  _validPlatformEnvironment_k__BackingField;
+ GlobalNamespace::PlatformEnvironment __declspec(property(get=__get__validPlatformEnvironment_k__BackingField, put=__set__validPlatformEnvironment_k__BackingField))  _validPlatformEnvironment_k__BackingField;
 
-constexpr void __set__validPlatformEnvironment_k__BackingField(::GlobalNamespace::PlatformEnvironment value) ;
+constexpr void __set__validPlatformEnvironment_k__BackingField(GlobalNamespace::PlatformEnvironment value) ;
 
-constexpr ::GlobalNamespace::PlatformEnvironment __get__validPlatformEnvironment_k__BackingField() const;
+constexpr GlobalNamespace::PlatformEnvironment __get__validPlatformEnvironment_k__BackingField() const;
 
 
 // Properties
 
  ::StringW __declspec(property(get=get_token, put=set_token))  token;
 
- ::GlobalNamespace::PlatformEnvironment __declspec(property(get=get_validPlatformEnvironment, put=set_validPlatformEnvironment))  validPlatformEnvironment;
+ GlobalNamespace::PlatformEnvironment __declspec(property(get=get_validPlatformEnvironment, put=set_validPlatformEnvironment))  validPlatformEnvironment;
 
 
 // Methods
@@ -81,21 +80,20 @@ constexpr ::GlobalNamespace::PlatformEnvironment __get__validPlatformEnvironment
  void set_token(::StringW value) ;
 
 /// @brief Method get_validPlatformEnvironment addr 0x221cd1c size 0x8 virtual false final false
- ::GlobalNamespace::PlatformEnvironment get_validPlatformEnvironment() ;
+ GlobalNamespace::PlatformEnvironment get_validPlatformEnvironment() ;
 
 /// @brief Method set_validPlatformEnvironment addr 0x221cd24 size 0x8 virtual false final false
- void set_validPlatformEnvironment(::GlobalNamespace::PlatformEnvironment value) ;
+ void set_validPlatformEnvironment(GlobalNamespace::PlatformEnvironment value) ;
 
-// Ctor Parameters [CppParam { name: "token", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "validPlatformEnvironment", ty: "::GlobalNamespace::PlatformEnvironment", modifiers: "", def_value: None }]
-explicit PlatformUserAuthTokenData(::StringW token, ::GlobalNamespace::PlatformEnvironment validPlatformEnvironment) ;
+// Ctor Parameters [CppParam { name: "token", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "validPlatformEnvironment", ty: "GlobalNamespace::PlatformEnvironment", modifiers: "", def_value: None }]
+explicit PlatformUserAuthTokenData(::StringW token, GlobalNamespace::PlatformEnvironment validPlatformEnvironment) ;
 
 /// @brief Method .ctor addr 0x221cd2c size 0x30 virtual false final false
- void _ctor(::StringW token, ::GlobalNamespace::PlatformEnvironment validPlatformEnvironment) ;
+ void _ctor(::StringW token, GlobalNamespace::PlatformEnvironment validPlatformEnvironment) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PlatformUserAuthTokenData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlatformUserAuthTokenData, "", "PlatformUserAuthTokenData");
+NEED_NO_BOX(GlobalNamespace::PlatformUserAuthTokenData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformUserAuthTokenData, "", "PlatformUserAuthTokenData");

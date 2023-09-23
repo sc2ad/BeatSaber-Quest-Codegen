@@ -1,19 +1,18 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
-namespace {
 #include "GlobalNamespace/zzzz__SimpleFileLogger_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::____GlobalNamespace__SimpleFileLogger__MonoLogger.OnDestroy
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+//  Writing Method size for method: GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger.OnDestroy
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::____GlobalNamespace__SimpleFileLogger__MonoLogger::*)()>(&::GlobalNamespace::____GlobalNamespace__SimpleFileLogger__MonoLogger::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger::*)()>(&GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger::OnDestroy)> {
   constexpr static std::size_t size = 0x4c;
   constexpr static std::size_t addrs = 0x1f7b504;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::____GlobalNamespace__SimpleFileLogger__MonoLogger>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger>::get(),
                             "OnDestroy",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -21,16 +20,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Glo
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::____GlobalNamespace__SimpleFileLogger__MonoLogger.Log
+//  Writing Method size for method: GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger.Log
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::____GlobalNamespace__SimpleFileLogger__MonoLogger::*)(::StringW)>(&::GlobalNamespace::____GlobalNamespace__SimpleFileLogger__MonoLogger::Log)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger::*)(::StringW)>(&GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger::Log)> {
   constexpr static std::size_t size = 0xa8;
   constexpr static std::size_t addrs = 0x1f7b1c8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::____GlobalNamespace__SimpleFileLogger__MonoLogger>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger>::get(),
                             "Log",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
@@ -38,16 +37,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Glo
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::____GlobalNamespace__SimpleFileLogger__MonoLogger.Clear
+//  Writing Method size for method: GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger.Clear
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::____GlobalNamespace__SimpleFileLogger__MonoLogger::*)()>(&::GlobalNamespace::____GlobalNamespace__SimpleFileLogger__MonoLogger::Clear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger::*)()>(&GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger::Clear)> {
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x1f7b124;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::____GlobalNamespace__SimpleFileLogger__MonoLogger>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger>::get(),
                             "Clear",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -55,16 +54,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Glo
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::____GlobalNamespace__SimpleFileLogger__MonoLogger._ctor
+//  Writing Method size for method: GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger._ctor
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::____GlobalNamespace__SimpleFileLogger__MonoLogger::*)()>(&::GlobalNamespace::____GlobalNamespace__SimpleFileLogger__MonoLogger::_ctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger::*)()>(&GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger::_ctor)> {
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x1f7b550;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::____GlobalNamespace__SimpleFileLogger__MonoLogger>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -72,33 +71,33 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Glo
     return ___internal_method;
   }
 };
-constexpr void ::GlobalNamespace::____GlobalNamespace__SimpleFileLogger__MonoLogger::__set__lines(::System::Collections::Generic::List_1<::StringW> value)  {
-::cordl_internals::setInstanceField<::System::Collections::Generic::List_1<::StringW>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<::System::Collections::Generic::List_1<::StringW>>(value));
+constexpr void GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger::__set__lines(System::Collections::Generic::List_1<::StringW> value)  {
+::cordl_internals::setInstanceField<System::Collections::Generic::List_1<::StringW>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Collections::Generic::List_1<::StringW>>(value));
 }
-constexpr ::System::Collections::Generic::List_1<::StringW> ::GlobalNamespace::____GlobalNamespace__SimpleFileLogger__MonoLogger::__get__lines() const {
-return ::cordl_internals::getInstanceField<::System::Collections::Generic::List_1<::StringW>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
+constexpr System::Collections::Generic::List_1<::StringW> GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger::__get__lines() const {
+return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<::StringW>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
- void ::GlobalNamespace::____GlobalNamespace__SimpleFileLogger__MonoLogger::OnDestroy()  {
+ void GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger::OnDestroy()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::____GlobalNamespace__SimpleFileLogger__MonoLogger>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger>::get(),
                             "OnDestroy",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- void ::GlobalNamespace::____GlobalNamespace__SimpleFileLogger__MonoLogger::Log(::StringW text)  {
+ void GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger::Log(::StringW text)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::____GlobalNamespace__SimpleFileLogger__MonoLogger>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger>::get(),
                             "Log",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, text);
 }
- void ::GlobalNamespace::____GlobalNamespace__SimpleFileLogger__MonoLogger::Clear()  {
+ void GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger::Clear()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::____GlobalNamespace__SimpleFileLogger__MonoLogger>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger>::get(),
                             "Clear",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -106,26 +105,26 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
 // Ctor Parameters []
- ::GlobalNamespace::____GlobalNamespace__SimpleFileLogger__MonoLogger::____GlobalNamespace__SimpleFileLogger__MonoLogger()  : ::UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<____GlobalNamespace__SimpleFileLogger__MonoLogger>())) {}
- void ::GlobalNamespace::____GlobalNamespace__SimpleFileLogger__MonoLogger::_ctor()  {
+ GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger::GlobalNamespace__SimpleFileLogger__MonoLogger()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SimpleFileLogger__MonoLogger>())) {}
+ void GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::____GlobalNamespace__SimpleFileLogger__MonoLogger>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-//  Writing Method size for method: ::GlobalNamespace::SimpleFileLogger.get_monoLogger
+//  Writing Method size for method: GlobalNamespace::SimpleFileLogger.get_monoLogger
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::____GlobalNamespace__SimpleFileLogger__MonoLogger (*)()>(&::GlobalNamespace::SimpleFileLogger::get_monoLogger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger (*)()>(&GlobalNamespace::SimpleFileLogger::get_monoLogger)> {
   constexpr static std::size_t size = 0x114;
   constexpr static std::size_t addrs = 0x1f7b010;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleFileLogger>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SimpleFileLogger>::get(),
                             "get_monoLogger",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -133,16 +132,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::SimpleFileLogger.Log
+//  Writing Method size for method: GlobalNamespace::SimpleFileLogger.Log
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::GlobalNamespace::SimpleFileLogger::Log)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&GlobalNamespace::SimpleFileLogger::Log)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x1f7b1a8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleFileLogger>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SimpleFileLogger>::get(),
                             "Log",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
@@ -150,33 +149,33 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::SimpleFileLogger.LogVector
+//  Writing Method size for method: GlobalNamespace::SimpleFileLogger.LogVector
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::UnityEngine::Vector3)>(&::GlobalNamespace::SimpleFileLogger::LogVector)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, UnityEngine::Vector3)>(&GlobalNamespace::SimpleFileLogger::LogVector)> {
   constexpr static std::size_t size = 0x274;
   constexpr static std::size_t addrs = 0x1f7b270;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleFileLogger>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SimpleFileLogger>::get(),
                             "LogVector",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Vector3>::get()}
                         )));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::SimpleFileLogger.Clear
+//  Writing Method size for method: GlobalNamespace::SimpleFileLogger.Clear
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::GlobalNamespace::SimpleFileLogger::Clear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::SimpleFileLogger::Clear)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x1f7b4e4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleFileLogger>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SimpleFileLogger>::get(),
                             "Clear",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -184,16 +183,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::SimpleFileLogger._ctor
+//  Writing Method size for method: GlobalNamespace::SimpleFileLogger._ctor
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleFileLogger::*)()>(&::GlobalNamespace::SimpleFileLogger::_ctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleFileLogger::*)()>(&GlobalNamespace::SimpleFileLogger::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x1f7b4fc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleFileLogger>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SimpleFileLogger>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -201,42 +200,42 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Glo
     return ___internal_method;
   }
 };
- void ::GlobalNamespace::SimpleFileLogger::__set__monoLogger(::GlobalNamespace::____GlobalNamespace__SimpleFileLogger__MonoLogger value)  {
-::cordl_internals::setStaticField<::GlobalNamespace::____GlobalNamespace__SimpleFileLogger__MonoLogger, "_monoLogger", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleFileLogger>::get>(std::forward<::GlobalNamespace::____GlobalNamespace__SimpleFileLogger__MonoLogger>(value));
+ void GlobalNamespace::SimpleFileLogger::__set__monoLogger(GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger value)  {
+::cordl_internals::setStaticField<GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger, "_monoLogger", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SimpleFileLogger>::get>(std::forward<GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger>(value));
 }
- ::GlobalNamespace::____GlobalNamespace__SimpleFileLogger__MonoLogger ::GlobalNamespace::SimpleFileLogger::__get__monoLogger()  {
-return ::cordl_internals::getStaticField<::GlobalNamespace::____GlobalNamespace__SimpleFileLogger__MonoLogger, "_monoLogger", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleFileLogger>::get>();
+ GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger GlobalNamespace::SimpleFileLogger::__get__monoLogger()  {
+return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger, "_monoLogger", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SimpleFileLogger>::get>();
 }
- ::GlobalNamespace::____GlobalNamespace__SimpleFileLogger__MonoLogger ::GlobalNamespace::SimpleFileLogger::get_monoLogger()  {
+ GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger GlobalNamespace::SimpleFileLogger::get_monoLogger()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleFileLogger>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SimpleFileLogger>::get(),
                             "get_monoLogger",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::____GlobalNamespace__SimpleFileLogger__MonoLogger, false>(nullptr, ___internal_method);
+return ::cordl_internals::RunMethodRethrow<GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger, false>(nullptr, ___internal_method);
 }
- void ::GlobalNamespace::SimpleFileLogger::Log(::StringW text)  {
+ void GlobalNamespace::SimpleFileLogger::Log(::StringW text)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleFileLogger>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SimpleFileLogger>::get(),
                             "Log",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, text);
 }
- void ::GlobalNamespace::SimpleFileLogger::LogVector(::StringW description, ::UnityEngine::Vector3 vec)  {
+ void GlobalNamespace::SimpleFileLogger::LogVector(::StringW description, UnityEngine::Vector3 vec)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleFileLogger>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SimpleFileLogger>::get(),
                             "LogVector",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::Vector3>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, description, vec);
 }
- void ::GlobalNamespace::SimpleFileLogger::Clear()  {
+ void GlobalNamespace::SimpleFileLogger::Clear()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleFileLogger>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SimpleFileLogger>::get(),
                             "Clear",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -244,14 +243,13 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
 }
 // Ctor Parameters []
- ::GlobalNamespace::SimpleFileLogger::SimpleFileLogger()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SimpleFileLogger>())) {}
- void ::GlobalNamespace::SimpleFileLogger::_ctor()  {
+ GlobalNamespace::SimpleFileLogger::SimpleFileLogger()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SimpleFileLogger>())) {}
+ void GlobalNamespace::SimpleFileLogger::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleFileLogger>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SimpleFileLogger>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-} // end anonymous namespace

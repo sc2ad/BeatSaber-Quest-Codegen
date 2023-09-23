@@ -4,20 +4,19 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace GlobalNamespace {
+class TrackLaneRingsManager;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace GlobalNamespace {
-class TrackLaneRingsManager;
-}
 // Forward declare root types
 namespace GlobalNamespace {
-class TrackLaneRingsRotationEffect;
+class GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect;
+class TrackLaneRingsRotationEffect;
 }
 // Type: ::RingRotationEffect
 namespace GlobalNamespace {
@@ -25,37 +24,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5106))
 // CS Name: TrackLaneRingsRotationEffect::RingRotationEffect
-class CORDL_TYPE ____GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect() = default;
+virtual ~GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect(____GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect(GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect(____GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect(GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect& operator=(____GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect&& o) noexcept = default;
-  constexpr ____GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect& operator=(____GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect const& o) noexcept = default;
+  constexpr GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect& operator=(GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect&& o) noexcept = default;
+  constexpr GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect& operator=(GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect const& o) noexcept = default;
                 
 
 
@@ -95,7 +94,7 @@ constexpr int32_t __get_progressPos() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect() ;
+explicit GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect() ;
 
 /// @brief Method .ctor addr 0x226d2d0 size 0x8 virtual false final false
  void _ctor() ;
@@ -110,10 +109,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5107))
 // CS Name: TrackLaneRingsRotationEffect
-class CORDL_TYPE TrackLaneRingsRotationEffect : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE TrackLaneRingsRotationEffect : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using RingRotationEffect = ::GlobalNamespace::____GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect;
+using RingRotationEffect = GlobalNamespace::GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
@@ -127,7 +126,7 @@ constexpr TrackLaneRingsRotationEffect(TrackLaneRingsRotationEffect const& ) noe
 constexpr TrackLaneRingsRotationEffect(TrackLaneRingsRotationEffect&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TrackLaneRingsRotationEffect(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit TrackLaneRingsRotationEffect(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -148,11 +147,11 @@ constexpr explicit TrackLaneRingsRotationEffect(void* ptr) noexcept : ::UnityEng
 
 // Fields
 
- ::GlobalNamespace::TrackLaneRingsManager __declspec(property(get=__get__trackLaneRingsManager, put=__set__trackLaneRingsManager))  _trackLaneRingsManager;
+ GlobalNamespace::TrackLaneRingsManager __declspec(property(get=__get__trackLaneRingsManager, put=__set__trackLaneRingsManager))  _trackLaneRingsManager;
 
-constexpr void __set__trackLaneRingsManager(::GlobalNamespace::TrackLaneRingsManager value) ;
+constexpr void __set__trackLaneRingsManager(GlobalNamespace::TrackLaneRingsManager value) ;
 
-constexpr ::GlobalNamespace::TrackLaneRingsManager __get__trackLaneRingsManager() const;
+constexpr GlobalNamespace::TrackLaneRingsManager __get__trackLaneRingsManager() const;
 
  float_t __declspec(property(get=__get__startupRotationAngle, put=__set__startupRotationAngle))  _startupRotationAngle;
 
@@ -178,23 +177,23 @@ constexpr void __set__startupRotationFlexySpeed(float_t value) ;
 
 constexpr float_t __get__startupRotationFlexySpeed() const;
 
- ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect> __declspec(property(get=__get__activeRingRotationEffects, put=__set__activeRingRotationEffects))  _activeRingRotationEffects;
+ System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect> __declspec(property(get=__get__activeRingRotationEffects, put=__set__activeRingRotationEffects))  _activeRingRotationEffects;
 
-constexpr void __set__activeRingRotationEffects(::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect> value) ;
+constexpr void __set__activeRingRotationEffects(System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect> __get__activeRingRotationEffects() const;
+constexpr System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect> __get__activeRingRotationEffects() const;
 
- ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect> __declspec(property(get=__get__ringRotationEffectsPool, put=__set__ringRotationEffectsPool))  _ringRotationEffectsPool;
+ System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect> __declspec(property(get=__get__ringRotationEffectsPool, put=__set__ringRotationEffectsPool))  _ringRotationEffectsPool;
 
-constexpr void __set__ringRotationEffectsPool(::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect> value) ;
+constexpr void __set__ringRotationEffectsPool(System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect> __get__ringRotationEffectsPool() const;
+constexpr System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect> __get__ringRotationEffectsPool() const;
 
- ::System::Collections::Generic::List_1<int32_t> __declspec(property(get=__get_ringRotationEffectsToDelete, put=__set_ringRotationEffectsToDelete))  ringRotationEffectsToDelete;
+ System::Collections::Generic::List_1<int32_t> __declspec(property(get=__get_ringRotationEffectsToDelete, put=__set_ringRotationEffectsToDelete))  ringRotationEffectsToDelete;
 
-constexpr void __set_ringRotationEffectsToDelete(::System::Collections::Generic::List_1<int32_t> value) ;
+constexpr void __set_ringRotationEffectsToDelete(System::Collections::Generic::List_1<int32_t> value) ;
 
-constexpr ::System::Collections::Generic::List_1<int32_t> __get_ringRotationEffectsToDelete() const;
+constexpr System::Collections::Generic::List_1<int32_t> __get_ringRotationEffectsToDelete() const;
 
 
 // Methods
@@ -218,10 +217,10 @@ constexpr ::System::Collections::Generic::List_1<int32_t> __get_ringRotationEffe
  float_t GetFirstRingDestinationRotationAngle() ;
 
 /// @brief Method SpawnRingRotationEffect addr 0x226d5d8 size 0xd4 virtual false final false
- ::GlobalNamespace::____GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect SpawnRingRotationEffect() ;
+ GlobalNamespace::GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect SpawnRingRotationEffect() ;
 
 /// @brief Method RecycleRingRotationEffect addr 0x226d530 size 0xa8 virtual false final false
- void RecycleRingRotationEffect(::GlobalNamespace::____GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect ringRotationEffect) ;
+ void RecycleRingRotationEffect(GlobalNamespace::GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect ringRotationEffect) ;
 
 // Ctor Parameters []
 explicit TrackLaneRingsRotationEffect() ;
@@ -233,8 +232,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::TrackLaneRingsRotationEffect);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TrackLaneRingsRotationEffect, "", "TrackLaneRingsRotationEffect");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect, "", "TrackLaneRingsRotationEffect/RingRotationEffect");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect, "", "TrackLaneRingsRotationEffect/RingRotationEffect");
+NEED_NO_BOX(GlobalNamespace::TrackLaneRingsRotationEffect);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsRotationEffect, "", "TrackLaneRingsRotationEffect");

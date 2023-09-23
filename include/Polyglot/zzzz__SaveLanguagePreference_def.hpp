@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace Polyglot {
 class ILocalize;
 }
@@ -16,11 +15,11 @@ namespace Polyglot {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15545))
 // CS Name: Polyglot.SaveLanguagePreference
-class CORDL_TYPE SaveLanguagePreference : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SaveLanguagePreference : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-/// @brief Convert operator to ::Polyglot::ILocalize
-constexpr operator  ::Polyglot::ILocalize() const noexcept;
+/// @brief Convert operator to Polyglot::ILocalize
+constexpr operator  Polyglot::ILocalize() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -34,7 +33,7 @@ constexpr SaveLanguagePreference(SaveLanguagePreference const& ) noexcept = defa
 constexpr SaveLanguagePreference(SaveLanguagePreference&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SaveLanguagePreference(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SaveLanguagePreference(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -80,6 +79,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Polyglot
-} // end anonymous namespace
-NEED_NO_BOX(::Polyglot::SaveLanguagePreference);
-DEFINE_IL2CPP_ARG_TYPE(::Polyglot::SaveLanguagePreference, "Polyglot", "SaveLanguagePreference");
+NEED_NO_BOX(Polyglot::SaveLanguagePreference);
+DEFINE_IL2CPP_ARG_TYPE(Polyglot::SaveLanguagePreference, "Polyglot", "SaveLanguagePreference");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__YieldInstruction_def.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 class Coroutine;
@@ -13,7 +12,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10133))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10174))
 // CS Name: UnityEngine.Coroutine
-class CORDL_TYPE Coroutine : public ::UnityEngine::YieldInstruction {
+class CORDL_TYPE Coroutine : public UnityEngine::YieldInstruction {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr Coroutine(Coroutine const& ) noexcept = default;
 constexpr Coroutine(Coroutine&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Coroutine(void* ptr) noexcept : ::UnityEngine::YieldInstruction(ptr) {
+constexpr explicit Coroutine(void* ptr) noexcept : UnityEngine::YieldInstruction(ptr) {
 }
 
 
@@ -74,6 +73,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Coroutine);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Coroutine, "UnityEngine", "Coroutine");
+NEED_NO_BOX(UnityEngine::Coroutine);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Coroutine, "UnityEngine", "Coroutine");

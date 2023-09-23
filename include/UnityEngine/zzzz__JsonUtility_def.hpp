@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class Type;
 }
@@ -56,7 +55,7 @@ constexpr explicit JsonUtility(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 static ::StringW ToJsonInternal(::bs_hook::Il2CppWrapperType obj, bool prettyPrint) ;
 
 /// @brief Method FromJsonInternal addr 0x2b980a8 size 0x54 virtual false final false
-static ::bs_hook::Il2CppWrapperType FromJsonInternal(::StringW json, ::bs_hook::Il2CppWrapperType objectToOverwrite, ::System::Type type) ;
+static ::bs_hook::Il2CppWrapperType FromJsonInternal(::StringW json, ::bs_hook::Il2CppWrapperType objectToOverwrite, System::Type type) ;
 
 /// @brief Method ToJson addr 0x2b980fc size 0x8 virtual false final false
 static ::StringW ToJson(::bs_hook::Il2CppWrapperType obj) ;
@@ -69,12 +68,11 @@ template<typename T>
 static T FromJson(::StringW json) ;
 
 /// @brief Method FromJson addr 0x2b98278 size 0x1d0 virtual false final false
-static ::bs_hook::Il2CppWrapperType FromJson(::StringW json, ::System::Type type) ;
+static ::bs_hook::Il2CppWrapperType FromJson(::StringW json, System::Type type) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::JsonUtility);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::JsonUtility, "UnityEngine", "JsonUtility");
+NEED_NO_BOX(UnityEngine::JsonUtility);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::JsonUtility, "UnityEngine", "JsonUtility");

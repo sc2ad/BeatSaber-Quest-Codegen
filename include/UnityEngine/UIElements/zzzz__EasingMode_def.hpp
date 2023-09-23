@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 struct EasingMode;
@@ -88,77 +87,76 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Ease offset 0
-static ::UnityEngine::UIElements::EasingMode const Ease;
+static UnityEngine::UIElements::EasingMode const Ease;
 
 /// @brief Field EaseIn offset 0
-static ::UnityEngine::UIElements::EasingMode const EaseIn;
+static UnityEngine::UIElements::EasingMode const EaseIn;
 
 /// @brief Field EaseOut offset 0
-static ::UnityEngine::UIElements::EasingMode const EaseOut;
+static UnityEngine::UIElements::EasingMode const EaseOut;
 
 /// @brief Field EaseInOut offset 0
-static ::UnityEngine::UIElements::EasingMode const EaseInOut;
+static UnityEngine::UIElements::EasingMode const EaseInOut;
 
 /// @brief Field Linear offset 0
-static ::UnityEngine::UIElements::EasingMode const Linear;
+static UnityEngine::UIElements::EasingMode const Linear;
 
 /// @brief Field EaseInSine offset 0
-static ::UnityEngine::UIElements::EasingMode const EaseInSine;
+static UnityEngine::UIElements::EasingMode const EaseInSine;
 
 /// @brief Field EaseOutSine offset 0
-static ::UnityEngine::UIElements::EasingMode const EaseOutSine;
+static UnityEngine::UIElements::EasingMode const EaseOutSine;
 
 /// @brief Field EaseInOutSine offset 0
-static ::UnityEngine::UIElements::EasingMode const EaseInOutSine;
+static UnityEngine::UIElements::EasingMode const EaseInOutSine;
 
 /// @brief Field EaseInCubic offset 0
-static ::UnityEngine::UIElements::EasingMode const EaseInCubic;
+static UnityEngine::UIElements::EasingMode const EaseInCubic;
 
 /// @brief Field EaseOutCubic offset 0
-static ::UnityEngine::UIElements::EasingMode const EaseOutCubic;
+static UnityEngine::UIElements::EasingMode const EaseOutCubic;
 
 /// @brief Field EaseInOutCubic offset 0
-static ::UnityEngine::UIElements::EasingMode const EaseInOutCubic;
+static UnityEngine::UIElements::EasingMode const EaseInOutCubic;
 
 /// @brief Field EaseInCirc offset 0
-static ::UnityEngine::UIElements::EasingMode const EaseInCirc;
+static UnityEngine::UIElements::EasingMode const EaseInCirc;
 
 /// @brief Field EaseOutCirc offset 0
-static ::UnityEngine::UIElements::EasingMode const EaseOutCirc;
+static UnityEngine::UIElements::EasingMode const EaseOutCirc;
 
 /// @brief Field EaseInOutCirc offset 0
-static ::UnityEngine::UIElements::EasingMode const EaseInOutCirc;
+static UnityEngine::UIElements::EasingMode const EaseInOutCirc;
 
 /// @brief Field EaseInElastic offset 0
-static ::UnityEngine::UIElements::EasingMode const EaseInElastic;
+static UnityEngine::UIElements::EasingMode const EaseInElastic;
 
 /// @brief Field EaseOutElastic offset 0
-static ::UnityEngine::UIElements::EasingMode const EaseOutElastic;
+static UnityEngine::UIElements::EasingMode const EaseOutElastic;
 
 /// @brief Field EaseInOutElastic offset 0
-static ::UnityEngine::UIElements::EasingMode const EaseInOutElastic;
+static UnityEngine::UIElements::EasingMode const EaseInOutElastic;
 
 /// @brief Field EaseInBack offset 0
-static ::UnityEngine::UIElements::EasingMode const EaseInBack;
+static UnityEngine::UIElements::EasingMode const EaseInBack;
 
 /// @brief Field EaseOutBack offset 0
-static ::UnityEngine::UIElements::EasingMode const EaseOutBack;
+static UnityEngine::UIElements::EasingMode const EaseOutBack;
 
 /// @brief Field EaseInOutBack offset 0
-static ::UnityEngine::UIElements::EasingMode const EaseInOutBack;
+static UnityEngine::UIElements::EasingMode const EaseInOutBack;
 
 /// @brief Field EaseInBounce offset 0
-static ::UnityEngine::UIElements::EasingMode const EaseInBounce;
+static UnityEngine::UIElements::EasingMode const EaseInBounce;
 
 /// @brief Field EaseOutBounce offset 0
-static ::UnityEngine::UIElements::EasingMode const EaseOutBounce;
+static UnityEngine::UIElements::EasingMode const EaseOutBounce;
 
 /// @brief Field EaseInOutBounce offset 0
-static ::UnityEngine::UIElements::EasingMode const EaseInOutBounce;
+static UnityEngine::UIElements::EasingMode const EaseInOutBounce;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::EasingMode, "UnityEngine.UIElements", "EasingMode");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::EasingMode, "UnityEngine.UIElements", "EasingMode");

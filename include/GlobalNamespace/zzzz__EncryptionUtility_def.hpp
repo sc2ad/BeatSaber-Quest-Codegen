@@ -5,16 +5,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace BGNet::Core {
 class ITaskUtility;
+}
+namespace System::Security::Cryptography {
+class AesCryptoServiceProvider;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
-namespace System::Security::Cryptography {
-class AesCryptoServiceProvider;
+namespace System {
+class IDisposable;
 }
 namespace Org::BouncyCastle::Crypto::Macs {
 class HMac;
@@ -23,21 +25,18 @@ namespace System::Collections::Concurrent {
 template<typename T>
 class ConcurrentQueue_1;
 }
-namespace System {
-class IDisposable;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 class EncryptionUtility;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__EncryptionUtility__EncryptionState;
+class GlobalNamespace__EncryptionUtility__EncryptionState;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__EncryptionUtility__IEncryptionState;
+class GlobalNamespace__EncryptionUtility__IEncryptionState;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__EncryptionUtility____c__DisplayClass18_0;
+class GlobalNamespace__EncryptionUtility____c__DisplayClass18_0;
 }
 // Type: ::IEncryptionState
 namespace GlobalNamespace {
@@ -45,16 +44,16 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12665))
 // CS Name: EncryptionUtility::IEncryptionState
-class CORDL_TYPE ____GlobalNamespace__EncryptionUtility__IEncryptionState : public ::cordl_internals::InterfaceW {
+class CORDL_TYPE GlobalNamespace__EncryptionUtility__IEncryptionState : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
-~____GlobalNamespace__EncryptionUtility__IEncryptionState() = default;
+~GlobalNamespace__EncryptionUtility__IEncryptionState() = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__EncryptionUtility__IEncryptionState(void* ptr) noexcept : ::cordl_internals::InterfaceW(ptr) {
+constexpr explicit GlobalNamespace__EncryptionUtility__IEncryptionState(void* ptr) noexcept : ::cordl_internals::InterfaceW(ptr) {
 }
 
 
@@ -84,43 +83,43 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12666))
 // CS Name: EncryptionUtility::EncryptionState
-class CORDL_TYPE ____GlobalNamespace__EncryptionUtility__EncryptionState : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__EncryptionUtility__EncryptionState : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::____GlobalNamespace__EncryptionUtility__IEncryptionState
-constexpr operator  ::GlobalNamespace::____GlobalNamespace__EncryptionUtility__IEncryptionState() const noexcept;
+/// @brief Convert operator to GlobalNamespace::GlobalNamespace__EncryptionUtility__IEncryptionState
+constexpr operator  GlobalNamespace::GlobalNamespace__EncryptionUtility__IEncryptionState() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x58};
 
-virtual ~____GlobalNamespace__EncryptionUtility__EncryptionState() = default;
+virtual ~GlobalNamespace__EncryptionUtility__EncryptionState() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__EncryptionUtility__EncryptionState", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__EncryptionUtility__EncryptionState(____GlobalNamespace__EncryptionUtility__EncryptionState const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__EncryptionUtility__EncryptionState", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__EncryptionUtility__EncryptionState(GlobalNamespace__EncryptionUtility__EncryptionState const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__EncryptionUtility__EncryptionState", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__EncryptionUtility__EncryptionState(____GlobalNamespace__EncryptionUtility__EncryptionState&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__EncryptionUtility__EncryptionState", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__EncryptionUtility__EncryptionState(GlobalNamespace__EncryptionUtility__EncryptionState&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__EncryptionUtility__EncryptionState(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__EncryptionUtility__EncryptionState(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__EncryptionUtility__EncryptionState& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__EncryptionUtility__EncryptionState& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__EncryptionUtility__EncryptionState& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__EncryptionUtility__EncryptionState& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__EncryptionUtility__EncryptionState& operator=(____GlobalNamespace__EncryptionUtility__EncryptionState&& o) noexcept = default;
-  constexpr ____GlobalNamespace__EncryptionUtility__EncryptionState& operator=(____GlobalNamespace__EncryptionUtility__EncryptionState const& o) noexcept = default;
+  constexpr GlobalNamespace__EncryptionUtility__EncryptionState& operator=(GlobalNamespace__EncryptionUtility__EncryptionState&& o) noexcept = default;
+  constexpr GlobalNamespace__EncryptionUtility__EncryptionState& operator=(GlobalNamespace__EncryptionUtility__EncryptionState const& o) noexcept = default;
                 
 
 
@@ -183,17 +182,17 @@ constexpr void __set__receiveMacKey(::ArrayW<uint8_t> value) ;
 
 constexpr ::ArrayW<uint8_t> __get__receiveMacKey() const;
 
- ::System::Collections::Concurrent::ConcurrentQueue_1<::Org::BouncyCastle::Crypto::Macs::HMac> __declspec(property(get=__get__sendMacQueue, put=__set__sendMacQueue))  _sendMacQueue;
+ System::Collections::Concurrent::ConcurrentQueue_1<Org::BouncyCastle::Crypto::Macs::HMac> __declspec(property(get=__get__sendMacQueue, put=__set__sendMacQueue))  _sendMacQueue;
 
-constexpr void __set__sendMacQueue(::System::Collections::Concurrent::ConcurrentQueue_1<::Org::BouncyCastle::Crypto::Macs::HMac> value) ;
+constexpr void __set__sendMacQueue(System::Collections::Concurrent::ConcurrentQueue_1<Org::BouncyCastle::Crypto::Macs::HMac> value) ;
 
-constexpr ::System::Collections::Concurrent::ConcurrentQueue_1<::Org::BouncyCastle::Crypto::Macs::HMac> __get__sendMacQueue() const;
+constexpr System::Collections::Concurrent::ConcurrentQueue_1<Org::BouncyCastle::Crypto::Macs::HMac> __get__sendMacQueue() const;
 
- ::System::Collections::Concurrent::ConcurrentQueue_1<::Org::BouncyCastle::Crypto::Macs::HMac> __declspec(property(get=__get__receiveMacQueue, put=__set__receiveMacQueue))  _receiveMacQueue;
+ System::Collections::Concurrent::ConcurrentQueue_1<Org::BouncyCastle::Crypto::Macs::HMac> __declspec(property(get=__get__receiveMacQueue, put=__set__receiveMacQueue))  _receiveMacQueue;
 
-constexpr void __set__receiveMacQueue(::System::Collections::Concurrent::ConcurrentQueue_1<::Org::BouncyCastle::Crypto::Macs::HMac> value) ;
+constexpr void __set__receiveMacQueue(System::Collections::Concurrent::ConcurrentQueue_1<Org::BouncyCastle::Crypto::Macs::HMac> value) ;
 
-constexpr ::System::Collections::Concurrent::ConcurrentQueue_1<::Org::BouncyCastle::Crypto::Macs::HMac> __get__receiveMacQueue() const;
+constexpr System::Collections::Concurrent::ConcurrentQueue_1<Org::BouncyCastle::Crypto::Macs::HMac> __get__receiveMacQueue() const;
 
 
 // Properties
@@ -228,7 +227,7 @@ constexpr ::System::Collections::Concurrent::ConcurrentQueue_1<::Org::BouncyCast
  uint32_t GetNextSentSequenceNum() ;
 
 // Ctor Parameters [CppParam { name: "preMasterSecret", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "serverSeed", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "clientSeed", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "isClient", ty: "bool", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__EncryptionUtility__EncryptionState(::ArrayW<uint8_t> preMasterSecret, ::ArrayW<uint8_t> serverSeed, ::ArrayW<uint8_t> clientSeed, bool isClient) ;
+explicit GlobalNamespace__EncryptionUtility__EncryptionState(::ArrayW<uint8_t> preMasterSecret, ::ArrayW<uint8_t> serverSeed, ::ArrayW<uint8_t> clientSeed, bool isClient) ;
 
 /// @brief Method .ctor addr 0xda7220 size 0x260 virtual false final false
  void _ctor(::ArrayW<uint8_t> preMasterSecret, ::ArrayW<uint8_t> serverSeed, ::ArrayW<uint8_t> clientSeed, bool isClient) ;
@@ -255,37 +254,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12667))
 // CS Name: EncryptionUtility::<>c__DisplayClass18_0
-class CORDL_TYPE ____GlobalNamespace__EncryptionUtility____c__DisplayClass18_0 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__EncryptionUtility____c__DisplayClass18_0 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____GlobalNamespace__EncryptionUtility____c__DisplayClass18_0() = default;
+virtual ~GlobalNamespace__EncryptionUtility____c__DisplayClass18_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__EncryptionUtility____c__DisplayClass18_0", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__EncryptionUtility____c__DisplayClass18_0(____GlobalNamespace__EncryptionUtility____c__DisplayClass18_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__EncryptionUtility____c__DisplayClass18_0", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__EncryptionUtility____c__DisplayClass18_0(GlobalNamespace__EncryptionUtility____c__DisplayClass18_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__EncryptionUtility____c__DisplayClass18_0", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__EncryptionUtility____c__DisplayClass18_0(____GlobalNamespace__EncryptionUtility____c__DisplayClass18_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__EncryptionUtility____c__DisplayClass18_0", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__EncryptionUtility____c__DisplayClass18_0(GlobalNamespace__EncryptionUtility____c__DisplayClass18_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__EncryptionUtility____c__DisplayClass18_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__EncryptionUtility____c__DisplayClass18_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__EncryptionUtility____c__DisplayClass18_0& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__EncryptionUtility____c__DisplayClass18_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__EncryptionUtility____c__DisplayClass18_0& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__EncryptionUtility____c__DisplayClass18_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__EncryptionUtility____c__DisplayClass18_0& operator=(____GlobalNamespace__EncryptionUtility____c__DisplayClass18_0&& o) noexcept = default;
-  constexpr ____GlobalNamespace__EncryptionUtility____c__DisplayClass18_0& operator=(____GlobalNamespace__EncryptionUtility____c__DisplayClass18_0 const& o) noexcept = default;
+  constexpr GlobalNamespace__EncryptionUtility____c__DisplayClass18_0& operator=(GlobalNamespace__EncryptionUtility____c__DisplayClass18_0&& o) noexcept = default;
+  constexpr GlobalNamespace__EncryptionUtility____c__DisplayClass18_0& operator=(GlobalNamespace__EncryptionUtility____c__DisplayClass18_0 const& o) noexcept = default;
                 
 
 
@@ -319,13 +318,13 @@ constexpr bool __get_isClient() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__EncryptionUtility____c__DisplayClass18_0() ;
+explicit GlobalNamespace__EncryptionUtility____c__DisplayClass18_0() ;
 
 /// @brief Method .ctor addr 0xda7480 size 0x8 virtual false final false
  void _ctor() ;
 
 /// @brief Method <CreateEncryptionStateAsync>b__0 addr 0xda9be8 size 0x8c virtual false final false
- ::GlobalNamespace::____GlobalNamespace__EncryptionUtility__IEncryptionState _CreateEncryptionStateAsync_b__0() ;
+ GlobalNamespace::GlobalNamespace__EncryptionUtility__IEncryptionState _CreateEncryptionStateAsync_b__0() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -340,11 +339,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE EncryptionUtility : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using __c__DisplayClass18_0 = ::GlobalNamespace::____GlobalNamespace__EncryptionUtility____c__DisplayClass18_0;
+using __c__DisplayClass18_0 = GlobalNamespace::GlobalNamespace__EncryptionUtility____c__DisplayClass18_0;
 
-using EncryptionState = ::GlobalNamespace::____GlobalNamespace__EncryptionUtility__EncryptionState;
+using EncryptionState = GlobalNamespace::GlobalNamespace__EncryptionUtility__EncryptionState;
 
-using IEncryptionState = ::GlobalNamespace::____GlobalNamespace__EncryptionUtility__IEncryptionState;
+using IEncryptionState = GlobalNamespace::GlobalNamespace__EncryptionUtility__IEncryptionState;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -433,29 +432,29 @@ static void __set__tempHash(::ArrayW<uint8_t> value) ;
 
 static ::ArrayW<uint8_t> __get__tempHash() ;
 
-static ::System::Security::Cryptography::AesCryptoServiceProvider __declspec(property(get=__get__aes, put=__set__aes))  _aes;
+static System::Security::Cryptography::AesCryptoServiceProvider __declspec(property(get=__get__aes, put=__set__aes))  _aes;
 
-static void __set__aes(::System::Security::Cryptography::AesCryptoServiceProvider value) ;
+static void __set__aes(System::Security::Cryptography::AesCryptoServiceProvider value) ;
 
-static ::System::Security::Cryptography::AesCryptoServiceProvider __get__aes() ;
+static System::Security::Cryptography::AesCryptoServiceProvider __get__aes() ;
 
 
 // Methods
 
 /// @brief Method CreateEncryptionState addr 0xda7198 size 0x88 virtual false final false
-static ::GlobalNamespace::____GlobalNamespace__EncryptionUtility__IEncryptionState CreateEncryptionState(::ArrayW<uint8_t> preMasterSecret, ::ArrayW<uint8_t> serverSeed, ::ArrayW<uint8_t> clientSeed, bool isClient) ;
+static GlobalNamespace::GlobalNamespace__EncryptionUtility__IEncryptionState CreateEncryptionState(::ArrayW<uint8_t> preMasterSecret, ::ArrayW<uint8_t> serverSeed, ::ArrayW<uint8_t> clientSeed, bool isClient) ;
 
 /// @brief Method CreateEncryptionStateAsync addr 0xda4dd4 size 0x16c virtual false final false
-static ::System::Threading::Tasks::Task_1<::GlobalNamespace::____GlobalNamespace__EncryptionUtility__IEncryptionState> CreateEncryptionStateAsync(::BGNet::Core::ITaskUtility taskUtility, ::ArrayW<uint8_t> preMasterSecret, ::ArrayW<uint8_t> serverSeed, ::ArrayW<uint8_t> clientSeed, bool isClient) ;
+static System::Threading::Tasks::Task_1<GlobalNamespace::GlobalNamespace__EncryptionUtility__IEncryptionState> CreateEncryptionStateAsync(BGNet::Core::ITaskUtility taskUtility, ::ArrayW<uint8_t> preMasterSecret, ::ArrayW<uint8_t> serverSeed, ::ArrayW<uint8_t> clientSeed, bool isClient) ;
 
 /// @brief Method IsValidLength addr 0xda7488 size 0x20 virtual false final false
 static bool IsValidLength(int32_t length) ;
 
 /// @brief Method EncryptData addr 0xda74a8 size 0xa40 virtual false final false
-static void EncryptData(::GlobalNamespace::____GlobalNamespace__EncryptionUtility__EncryptionState state, ::ArrayW<uint8_t> data, ByRef<int32_t> offset, ByRef<int32_t> length, int32_t extraPrefixedData) ;
+static void EncryptData(GlobalNamespace::GlobalNamespace__EncryptionUtility__EncryptionState state, ::ArrayW<uint8_t> data, ByRef<int32_t> offset, ByRef<int32_t> length, int32_t extraPrefixedData) ;
 
 /// @brief Method TryDecryptData addr 0xda813c size 0x908 virtual false final false
-static bool TryDecryptData(::GlobalNamespace::____GlobalNamespace__EncryptionUtility__EncryptionState state, ::ArrayW<uint8_t> data, ByRef<int32_t> offset, ByRef<int32_t> length) ;
+static bool TryDecryptData(GlobalNamespace::GlobalNamespace__EncryptionUtility__EncryptionState state, ::ArrayW<uint8_t> data, ByRef<int32_t> offset, ByRef<int32_t> length) ;
 
 /// @brief Method FastCopyBlock addr 0xda8fbc size 0x314 virtual false final false
 static void FastCopyBlock(::ArrayW<uint8_t> inArr, int32_t inOff, ::ArrayW<uint8_t> outArr, int32_t outOff) ;
@@ -473,12 +472,11 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::EncryptionUtility);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EncryptionUtility, "", "EncryptionUtility");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__EncryptionUtility__EncryptionState);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__EncryptionUtility__EncryptionState, "", "EncryptionUtility/EncryptionState");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__EncryptionUtility__IEncryptionState);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__EncryptionUtility__IEncryptionState, "", "EncryptionUtility/IEncryptionState");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__EncryptionUtility____c__DisplayClass18_0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__EncryptionUtility____c__DisplayClass18_0, "", "EncryptionUtility/<>c__DisplayClass18_0");
+NEED_NO_BOX(GlobalNamespace::EncryptionUtility);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EncryptionUtility, "", "EncryptionUtility");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__EncryptionUtility__EncryptionState);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__EncryptionUtility__EncryptionState, "", "EncryptionUtility/EncryptionState");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__EncryptionUtility__IEncryptionState);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__EncryptionUtility__IEncryptionState, "", "EncryptionUtility/IEncryptionState");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__EncryptionUtility____c__DisplayClass18_0);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__EncryptionUtility____c__DisplayClass18_0, "", "EncryptionUtility/<>c__DisplayClass18_0");

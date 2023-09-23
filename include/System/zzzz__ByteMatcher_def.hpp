@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace System::Collections {
-class Hashtable;
-}
 namespace System {
 struct TermInfoStrings;
+}
+namespace System::Collections {
+class Hashtable;
 }
 // Forward declare root types
 namespace System {
@@ -57,23 +56,23 @@ constexpr explicit ByteMatcher(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 
 // Fields
 
- ::System::Collections::Hashtable __declspec(property(get=__get_map, put=__set_map))  map;
+ System::Collections::Hashtable __declspec(property(get=__get_map, put=__set_map))  map;
 
-constexpr void __set_map(::System::Collections::Hashtable value) ;
+constexpr void __set_map(System::Collections::Hashtable value) ;
 
-constexpr ::System::Collections::Hashtable __get_map() const;
+constexpr System::Collections::Hashtable __get_map() const;
 
- ::System::Collections::Hashtable __declspec(property(get=__get_starts, put=__set_starts))  starts;
+ System::Collections::Hashtable __declspec(property(get=__get_starts, put=__set_starts))  starts;
 
-constexpr void __set_starts(::System::Collections::Hashtable value) ;
+constexpr void __set_starts(System::Collections::Hashtable value) ;
 
-constexpr ::System::Collections::Hashtable __get_starts() const;
+constexpr System::Collections::Hashtable __get_starts() const;
 
 
 // Methods
 
 /// @brief Method AddMapping addr 0x2496b20 size 0x120 virtual false final false
- void AddMapping(::System::TermInfoStrings key, ::ArrayW<uint8_t> val) ;
+ void AddMapping(System::TermInfoStrings key, ::ArrayW<uint8_t> val) ;
 
 /// @brief Method Sort addr 0x2496c40 size 0x4 virtual false final false
  void Sort() ;
@@ -82,7 +81,7 @@ constexpr ::System::Collections::Hashtable __get_starts() const;
  bool StartsWith(int32_t c) ;
 
 /// @brief Method Match addr 0x2493bcc size 0x48c virtual false final false
- ::System::TermInfoStrings Match(::ArrayW<char16_t> buffer, int32_t offset, int32_t length, ByRef<int32_t> used) ;
+ System::TermInfoStrings Match(::ArrayW<char16_t> buffer, int32_t offset, int32_t length, ByRef<int32_t> used) ;
 
 // Ctor Parameters []
 explicit ByteMatcher() ;
@@ -94,6 +93,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::ByteMatcher);
-DEFINE_IL2CPP_ARG_TYPE(::System::ByteMatcher, "System", "ByteMatcher");
+NEED_NO_BOX(System::ByteMatcher);
+DEFINE_IL2CPP_ARG_TYPE(System::ByteMatcher, "System", "ByteMatcher");

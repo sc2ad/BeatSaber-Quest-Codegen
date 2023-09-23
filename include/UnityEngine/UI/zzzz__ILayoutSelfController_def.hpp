@@ -1,6 +1,5 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace UnityEngine::UI {
 class ILayoutController;
 }
@@ -17,8 +16,8 @@ namespace UnityEngine::UI {
 class CORDL_TYPE ILayoutSelfController : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::UI::ILayoutController
-constexpr operator  ::UnityEngine::UI::ILayoutController() const noexcept;
+/// @brief Convert operator to UnityEngine::UI::ILayoutController
+constexpr operator  UnityEngine::UI::ILayoutController() const noexcept;
 
 ~ILayoutSelfController() = default;
 
@@ -30,6 +29,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UI
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UI::ILayoutSelfController);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::ILayoutSelfController, "UnityEngine.UI", "ILayoutSelfController");
+NEED_NO_BOX(UnityEngine::UI::ILayoutSelfController);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ILayoutSelfController, "UnityEngine.UI", "ILayoutSelfController");

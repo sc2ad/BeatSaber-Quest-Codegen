@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/zzzz__AmbientTemperatureSensor_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem::Android {
 class AndroidAmbientTemperature;
@@ -12,7 +11,7 @@ namespace UnityEngine::InputSystem::Android {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6368))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6525))
 // CS Name: UnityEngine.InputSystem.Android.AndroidAmbientTemperature
-class CORDL_TYPE AndroidAmbientTemperature : public ::UnityEngine::InputSystem::AmbientTemperatureSensor {
+class CORDL_TYPE AndroidAmbientTemperature : public UnityEngine::InputSystem::AmbientTemperatureSensor {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr AndroidAmbientTemperature(AndroidAmbientTemperature const& ) noexcept 
 constexpr AndroidAmbientTemperature(AndroidAmbientTemperature&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AndroidAmbientTemperature(void* ptr) noexcept : ::UnityEngine::InputSystem::AmbientTemperatureSensor(ptr) {
+constexpr explicit AndroidAmbientTemperature(void* ptr) noexcept : UnityEngine::InputSystem::AmbientTemperatureSensor(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Android
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Android::AndroidAmbientTemperature);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Android::AndroidAmbientTemperature, "UnityEngine.InputSystem.Android", "AndroidAmbientTemperature");
+NEED_NO_BOX(UnityEngine::InputSystem::Android::AndroidAmbientTemperature);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Android::AndroidAmbientTemperature, "UnityEngine.InputSystem.Android", "AndroidAmbientTemperature");

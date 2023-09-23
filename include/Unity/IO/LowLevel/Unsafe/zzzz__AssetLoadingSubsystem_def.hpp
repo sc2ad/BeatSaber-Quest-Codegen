@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Unity::IO::LowLevel::Unsafe {
 struct AssetLoadingSubsystem;
@@ -74,35 +73,34 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Other offset 0
-static ::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem const Other;
+static Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem const Other;
 
 /// @brief Field Texture offset 0
-static ::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem const Texture;
+static Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem const Texture;
 
 /// @brief Field VirtualTexture offset 0
-static ::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem const VirtualTexture;
+static Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem const VirtualTexture;
 
 /// @brief Field Mesh offset 0
-static ::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem const Mesh;
+static Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem const Mesh;
 
 /// @brief Field Audio offset 0
-static ::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem const Audio;
+static Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem const Audio;
 
 /// @brief Field Scripts offset 0
-static ::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem const Scripts;
+static Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem const Scripts;
 
 /// @brief Field EntitiesScene offset 0
-static ::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem const EntitiesScene;
+static Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem const EntitiesScene;
 
 /// @brief Field EntitiesStreamBinaryReader offset 0
-static ::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem const EntitiesStreamBinaryReader;
+static Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem const EntitiesStreamBinaryReader;
 
 /// @brief Field FileInfo offset 0
-static ::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem const FileInfo;
+static Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem const FileInfo;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Unity::IO::LowLevel::Unsafe
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem, "Unity.IO.LowLevel.Unsafe", "AssetLoadingSubsystem");
+DEFINE_IL2CPP_ARG_TYPE(Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem, "Unity.IO.LowLevel.Unsafe", "AssetLoadingSubsystem");

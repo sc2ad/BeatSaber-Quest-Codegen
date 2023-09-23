@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockAnimator_def.hpp"
-namespace {
 namespace UnityEngine {
 struct Color;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14723))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14724))
 // CS Name: MaterialPropertyBlockColorAnimator
-class CORDL_TYPE MaterialPropertyBlockColorAnimator : public ::GlobalNamespace::MaterialPropertyBlockAnimator {
+class CORDL_TYPE MaterialPropertyBlockColorAnimator : public GlobalNamespace::MaterialPropertyBlockAnimator {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr MaterialPropertyBlockColorAnimator(MaterialPropertyBlockColorAnimator 
 constexpr MaterialPropertyBlockColorAnimator(MaterialPropertyBlockColorAnimator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MaterialPropertyBlockColorAnimator(void* ptr) noexcept : ::GlobalNamespace::MaterialPropertyBlockAnimator(ptr) {
+constexpr explicit MaterialPropertyBlockColorAnimator(void* ptr) noexcept : GlobalNamespace::MaterialPropertyBlockAnimator(ptr) {
 }
 
 
@@ -51,25 +50,25 @@ constexpr explicit MaterialPropertyBlockColorAnimator(void* ptr) noexcept : ::Gl
 
 // Fields
 
- ::UnityEngine::Color __declspec(property(get=__get__color, put=__set__color))  _color;
+ UnityEngine::Color __declspec(property(get=__get__color, put=__set__color))  _color;
 
-constexpr void __set__color(::UnityEngine::Color value) ;
+constexpr void __set__color(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__color() const;
+constexpr UnityEngine::Color __get__color() const;
 
 
 // Properties
 
- ::UnityEngine::Color __declspec(property(get=get_color, put=set_color))  color;
+ UnityEngine::Color __declspec(property(get=get_color, put=set_color))  color;
 
 
 // Methods
 
 /// @brief Method get_color addr 0x1fa238c size 0xc virtual false final false
- ::UnityEngine::Color get_color() ;
+ UnityEngine::Color get_color() ;
 
 /// @brief Method set_color addr 0x1fa2398 size 0xc virtual false final false
- void set_color(::UnityEngine::Color value) ;
+ void set_color(UnityEngine::Color value) ;
 
 /// @brief Method SetProperty addr 0x1fa23a4 size 0x34 virtual true final false
  void SetProperty() ;
@@ -84,6 +83,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MaterialPropertyBlockColorAnimator);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MaterialPropertyBlockColorAnimator, "", "MaterialPropertyBlockColorAnimator");
+NEED_NO_BOX(GlobalNamespace::MaterialPropertyBlockColorAnimator);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyBlockColorAnimator, "", "MaterialPropertyBlockColorAnimator");

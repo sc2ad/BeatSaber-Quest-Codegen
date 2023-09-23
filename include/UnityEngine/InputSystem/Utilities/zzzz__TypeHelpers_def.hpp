@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace System::Reflection {
+class MemberInfo;
+}
 namespace System {
 class Type;
 }
 namespace System {
 struct TypeCode;
-}
-namespace System::Reflection {
-class MemberInfo;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -64,21 +63,20 @@ template<typename TObject>
 static TObject As(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method IsInt addr 0x28c7044 size 0x10 virtual false final false
-static bool IsInt(::System::TypeCode type) ;
+static bool IsInt(System::TypeCode type) ;
 
 /// @brief Method GetValueType addr 0x28c7054 size 0x1a0 virtual false final false
-static ::System::Type GetValueType(::System::Reflection::MemberInfo member) ;
+static System::Type GetValueType(System::Reflection::MemberInfo member) ;
 
 /// @brief Method GetNiceTypeName addr 0x28c71f4 size 0x490 virtual false final false
-static ::StringW GetNiceTypeName(::System::Type type) ;
+static ::StringW GetNiceTypeName(System::Type type) ;
 
 /// @brief Method GetGenericTypeArgumentFromHierarchy addr 0x28c7684 size 0x3cc virtual false final false
-static ::System::Type GetGenericTypeArgumentFromHierarchy(::System::Type type, ::System::Type genericTypeDefinition, int32_t argumentIndex) ;
+static System::Type GetGenericTypeArgumentFromHierarchy(System::Type type, System::Type genericTypeDefinition, int32_t argumentIndex) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Utilities
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Utilities::TypeHelpers);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Utilities::TypeHelpers, "UnityEngine.InputSystem.Utilities", "TypeHelpers");
+NEED_NO_BOX(UnityEngine::InputSystem::Utilities::TypeHelpers);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Utilities::TypeHelpers, "UnityEngine.InputSystem.Utilities", "TypeHelpers");

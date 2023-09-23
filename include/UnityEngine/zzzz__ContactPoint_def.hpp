@@ -3,7 +3,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -20,8 +19,8 @@ namespace UnityEngine {
 struct CORDL_TYPE ContactPoint : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "m_Point", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Normal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_ThisColliderInstanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_OtherColliderInstanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Separation", ty: "float_t", modifiers: "", def_value: None }]
-constexpr ContactPoint(::UnityEngine::Vector3 m_Point, ::UnityEngine::Vector3 m_Normal, int32_t m_ThisColliderInstanceID, int32_t m_OtherColliderInstanceID, float_t m_Separation) noexcept;
+// Ctor Parameters [CppParam { name: "m_Point", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Normal", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_ThisColliderInstanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_OtherColliderInstanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Separation", ty: "float_t", modifiers: "", def_value: None }]
+constexpr ContactPoint(UnityEngine::Vector3 m_Point, UnityEngine::Vector3 m_Normal, int32_t m_ThisColliderInstanceID, int32_t m_OtherColliderInstanceID, float_t m_Separation) noexcept;
 
 
                     constexpr ContactPoint(ContactPoint const&) = default;
@@ -54,17 +53,17 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_m_Point, put=__set_m_Point))  m_Point;
+ UnityEngine::Vector3 __declspec(property(get=__get_m_Point, put=__set_m_Point))  m_Point;
 
-constexpr void __set_m_Point(::UnityEngine::Vector3 value) ;
+constexpr void __set_m_Point(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_m_Point() const;
+constexpr UnityEngine::Vector3 __get_m_Point() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_m_Normal, put=__set_m_Normal))  m_Normal;
+ UnityEngine::Vector3 __declspec(property(get=__get_m_Normal, put=__set_m_Normal))  m_Normal;
 
-constexpr void __set_m_Normal(::UnityEngine::Vector3 value) ;
+constexpr void __set_m_Normal(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_m_Normal() const;
+constexpr UnityEngine::Vector3 __get_m_Normal() const;
 
  int32_t __declspec(property(get=__get_m_ThisColliderInstanceID, put=__set_m_ThisColliderInstanceID))  m_ThisColliderInstanceID;
 
@@ -88,5 +87,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ContactPoint, "UnityEngine", "ContactPoint");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ContactPoint, "UnityEngine", "ContactPoint");

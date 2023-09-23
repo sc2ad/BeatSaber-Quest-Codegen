@@ -3,24 +3,8 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System {
-class DBNull;
-}
 namespace System::Collections {
 class ICollection;
-}
-namespace System::Collections {
-class Hashtable;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -28,17 +12,32 @@ class IEnumerable;
 namespace System::Runtime::Serialization {
 class IDeserializationCallback;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
 namespace System::Collections {
 class ArrayList;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System {
 class Array;
 }
 namespace System {
 class StringComparer;
+}
+namespace System {
+class DBNull;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Collections {
+class Hashtable;
 }
 namespace System::Collections {
 class IEqualityComparer;
@@ -48,10 +47,10 @@ namespace System::Collections::Specialized {
 class NameObjectCollectionBase;
 }
 namespace System::Collections::Specialized {
-class ____System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry;
+class System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry;
 }
 namespace System::Collections::Specialized {
-class ____System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator;
+class System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator;
 }
 // Type: ::NameObjectEntry
 namespace System::Collections::Specialized {
@@ -59,37 +58,37 @@ namespace System::Collections::Specialized {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8371))
 // CS Name: System.Collections.Specialized.NameObjectCollectionBase::NameObjectEntry
-class CORDL_TYPE ____System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry() = default;
+virtual ~System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry", modifiers: " const&", def_value: None }]
-constexpr ____System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry(____System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry", modifiers: " const&", def_value: None }]
+constexpr System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry(System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry", modifiers: "&&", def_value: None }]
-constexpr ____System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry(____System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry", modifiers: "&&", def_value: None }]
+constexpr System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry(System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry& operator=(std::nullptr_t) noexcept {
+  constexpr System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry& operator=(void* o) noexcept {
+  constexpr System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry& operator=(____System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry&& o) noexcept = default;
-  constexpr ____System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry& operator=(____System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry const& o) noexcept = default;
+  constexpr System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry& operator=(System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry&& o) noexcept = default;
+  constexpr System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry& operator=(System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry const& o) noexcept = default;
                 
 
 
@@ -111,7 +110,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_Value() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit ____System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry(::StringW name, ::bs_hook::Il2CppWrapperType value) ;
+explicit System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry(::StringW name, ::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method .ctor addr 0x27ae670 size 0x2c virtual false final false
  void _ctor(::StringW name, ::bs_hook::Il2CppWrapperType value) ;
@@ -126,40 +125,40 @@ namespace System::Collections::Specialized {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8372))
 // CS Name: System.Collections.Specialized.NameObjectCollectionBase::NameObjectKeysEnumerator
-class CORDL_TYPE ____System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator() = default;
+virtual ~System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator", modifiers: " const&", def_value: None }]
-constexpr ____System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator(____System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator", modifiers: " const&", def_value: None }]
+constexpr System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator(System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator", modifiers: "&&", def_value: None }]
-constexpr ____System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator(____System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator", modifiers: "&&", def_value: None }]
+constexpr System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator(System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator& operator=(std::nullptr_t) noexcept {
+  constexpr System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator& operator=(void* o) noexcept {
+  constexpr System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator& operator=(____System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator&& o) noexcept = default;
-  constexpr ____System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator& operator=(____System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator const& o) noexcept = default;
+  constexpr System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator& operator=(System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator&& o) noexcept = default;
+  constexpr System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator& operator=(System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator const& o) noexcept = default;
                 
 
 
@@ -171,11 +170,11 @@ constexpr void __set__pos(int32_t value) ;
 
 constexpr int32_t __get__pos() const;
 
- ::System::Collections::Specialized::NameObjectCollectionBase __declspec(property(get=__get__coll, put=__set__coll))  _coll;
+ System::Collections::Specialized::NameObjectCollectionBase __declspec(property(get=__get__coll, put=__set__coll))  _coll;
 
-constexpr void __set__coll(::System::Collections::Specialized::NameObjectCollectionBase value) ;
+constexpr void __set__coll(System::Collections::Specialized::NameObjectCollectionBase value) ;
 
-constexpr ::System::Collections::Specialized::NameObjectCollectionBase __get__coll() const;
+constexpr System::Collections::Specialized::NameObjectCollectionBase __get__coll() const;
 
  int32_t __declspec(property(get=__get__version, put=__set__version))  _version;
 
@@ -191,11 +190,11 @@ constexpr int32_t __get__version() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "coll", ty: "::System::Collections::Specialized::NameObjectCollectionBase", modifiers: "", def_value: None }]
-explicit ____System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator(::System::Collections::Specialized::NameObjectCollectionBase coll) ;
+// Ctor Parameters [CppParam { name: "coll", ty: "System::Collections::Specialized::NameObjectCollectionBase", modifiers: "", def_value: None }]
+explicit System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator(System::Collections::Specialized::NameObjectCollectionBase coll) ;
 
 /// @brief Method .ctor addr 0x27ae6fc size 0x40 virtual false final false
- void _ctor(::System::Collections::Specialized::NameObjectCollectionBase coll) ;
+ void _ctor(System::Collections::Specialized::NameObjectCollectionBase coll) ;
 
 /// @brief Method MoveNext addr 0x27aeba8 size 0xe0 virtual true final true
  bool MoveNext() ;
@@ -219,21 +218,21 @@ namespace System::Collections::Specialized {
 class CORDL_TYPE NameObjectCollectionBase : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using NameObjectKeysEnumerator = ::System::Collections::Specialized::____System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator;
+using NameObjectKeysEnumerator = System::Collections::Specialized::System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator;
 
-using NameObjectEntry = ::System::Collections::Specialized::____System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry;
+using NameObjectEntry = System::Collections::Specialized::System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry;
 
-/// @brief Convert operator to ::System::Collections::ICollection
-constexpr operator  ::System::Collections::ICollection() const noexcept;
+/// @brief Convert operator to System::Collections::ICollection
+constexpr operator  System::Collections::ICollection() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
-/// @brief Convert operator to ::System::Runtime::Serialization::ISerializable
-constexpr operator  ::System::Runtime::Serialization::ISerializable() const noexcept;
+/// @brief Convert operator to System::Runtime::Serialization::ISerializable
+constexpr operator  System::Runtime::Serialization::ISerializable() const noexcept;
 
-/// @brief Convert operator to ::System::Runtime::Serialization::IDeserializationCallback
-constexpr operator  ::System::Runtime::Serialization::IDeserializationCallback() const noexcept;
+/// @brief Convert operator to System::Runtime::Serialization::IDeserializationCallback
+constexpr operator  System::Runtime::Serialization::IDeserializationCallback() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x50};
@@ -274,35 +273,35 @@ constexpr void __set__readOnly(bool value) ;
 
 constexpr bool __get__readOnly() const;
 
- ::System::Collections::ArrayList __declspec(property(get=__get__entriesArray, put=__set__entriesArray))  _entriesArray;
+ System::Collections::ArrayList __declspec(property(get=__get__entriesArray, put=__set__entriesArray))  _entriesArray;
 
-constexpr void __set__entriesArray(::System::Collections::ArrayList value) ;
+constexpr void __set__entriesArray(System::Collections::ArrayList value) ;
 
-constexpr ::System::Collections::ArrayList __get__entriesArray() const;
+constexpr System::Collections::ArrayList __get__entriesArray() const;
 
- ::System::Collections::IEqualityComparer __declspec(property(get=__get__keyComparer, put=__set__keyComparer))  _keyComparer;
+ System::Collections::IEqualityComparer __declspec(property(get=__get__keyComparer, put=__set__keyComparer))  _keyComparer;
 
-constexpr void __set__keyComparer(::System::Collections::IEqualityComparer value) ;
+constexpr void __set__keyComparer(System::Collections::IEqualityComparer value) ;
 
-constexpr ::System::Collections::IEqualityComparer __get__keyComparer() const;
+constexpr System::Collections::IEqualityComparer __get__keyComparer() const;
 
- ::System::Collections::Hashtable __declspec(property(get=__get__entriesTable, put=__set__entriesTable))  _entriesTable;
+ System::Collections::Hashtable __declspec(property(get=__get__entriesTable, put=__set__entriesTable))  _entriesTable;
 
-constexpr void __set__entriesTable(::System::Collections::Hashtable value) ;
+constexpr void __set__entriesTable(System::Collections::Hashtable value) ;
 
-constexpr ::System::Collections::Hashtable __get__entriesTable() const;
+constexpr System::Collections::Hashtable __get__entriesTable() const;
 
- ::System::Collections::Specialized::____System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry __declspec(property(get=__get__nullKeyEntry, put=__set__nullKeyEntry))  _nullKeyEntry;
+ System::Collections::Specialized::System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry __declspec(property(get=__get__nullKeyEntry, put=__set__nullKeyEntry))  _nullKeyEntry;
 
-constexpr void __set__nullKeyEntry(::System::Collections::Specialized::____System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry value) ;
+constexpr void __set__nullKeyEntry(System::Collections::Specialized::System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry value) ;
 
-constexpr ::System::Collections::Specialized::____System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry __get__nullKeyEntry() const;
+constexpr System::Collections::Specialized::System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry __get__nullKeyEntry() const;
 
- ::System::Runtime::Serialization::SerializationInfo __declspec(property(get=__get__serializationInfo, put=__set__serializationInfo))  _serializationInfo;
+ System::Runtime::Serialization::SerializationInfo __declspec(property(get=__get__serializationInfo, put=__set__serializationInfo))  _serializationInfo;
 
-constexpr void __set__serializationInfo(::System::Runtime::Serialization::SerializationInfo value) ;
+constexpr void __set__serializationInfo(System::Runtime::Serialization::SerializationInfo value) ;
 
-constexpr ::System::Runtime::Serialization::SerializationInfo __get__serializationInfo() const;
+constexpr System::Runtime::Serialization::SerializationInfo __get__serializationInfo() const;
 
  int32_t __declspec(property(get=__get__version, put=__set__version))  _version;
 
@@ -316,11 +315,11 @@ constexpr void __set__syncRoot(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get__syncRoot() const;
 
-static ::System::StringComparer __declspec(property(get=__get_defaultComparer, put=__set_defaultComparer))  defaultComparer;
+static System::StringComparer __declspec(property(get=__get_defaultComparer, put=__set_defaultComparer))  defaultComparer;
 
-static void __set_defaultComparer(::System::StringComparer value) ;
+static void __set_defaultComparer(System::StringComparer value) ;
 
-static ::System::StringComparer __get_defaultComparer() ;
+static System::StringComparer __get_defaultComparer() ;
 
 
 // Properties
@@ -342,17 +341,17 @@ explicit NameObjectCollectionBase() ;
 /// @brief Method .ctor addr 0x27aa1d0 size 0x60 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "equalityComparer", ty: "::System::Collections::IEqualityComparer", modifiers: "", def_value: None }]
-explicit NameObjectCollectionBase(::System::Collections::IEqualityComparer equalityComparer) ;
+// Ctor Parameters [CppParam { name: "equalityComparer", ty: "System::Collections::IEqualityComparer", modifiers: "", def_value: None }]
+explicit NameObjectCollectionBase(System::Collections::IEqualityComparer equalityComparer) ;
 
 /// @brief Method .ctor addr 0x27ad468 size 0x80 virtual false final false
- void _ctor(::System::Collections::IEqualityComparer equalityComparer) ;
+ void _ctor(System::Collections::IEqualityComparer equalityComparer) ;
 
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "equalityComparer", ty: "::System::Collections::IEqualityComparer", modifiers: "", def_value: None }]
-explicit NameObjectCollectionBase(int32_t capacity, ::System::Collections::IEqualityComparer equalityComparer) ;
+// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "equalityComparer", ty: "System::Collections::IEqualityComparer", modifiers: "", def_value: None }]
+explicit NameObjectCollectionBase(int32_t capacity, System::Collections::IEqualityComparer equalityComparer) ;
 
 /// @brief Method .ctor addr 0x27aa3b8 size 0x2c virtual false final false
- void _ctor(int32_t capacity, ::System::Collections::IEqualityComparer equalityComparer) ;
+ void _ctor(int32_t capacity, System::Collections::IEqualityComparer equalityComparer) ;
 
 // Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
 explicit NameObjectCollectionBase(int32_t capacity) ;
@@ -360,20 +359,20 @@ explicit NameObjectCollectionBase(int32_t capacity) ;
 /// @brief Method .ctor addr 0x27aa294 size 0xb0 virtual false final false
  void _ctor(int32_t capacity) ;
 
-// Ctor Parameters [CppParam { name: "dummy", ty: "::System::DBNull", modifiers: "", def_value: None }]
-explicit NameObjectCollectionBase(::System::DBNull dummy) ;
+// Ctor Parameters [CppParam { name: "dummy", ty: "System::DBNull", modifiers: "", def_value: None }]
+explicit NameObjectCollectionBase(System::DBNull dummy) ;
 
 /// @brief Method .ctor addr 0x27ab12c size 0x8 virtual false final false
- void _ctor(::System::DBNull dummy) ;
+ void _ctor(System::DBNull dummy) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit NameObjectCollectionBase(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit NameObjectCollectionBase(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x27aa450 size 0x28 virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method GetObjectData addr 0x27ad664 size 0x580 virtual true final false
- void GetObjectData(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void GetObjectData(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method OnDeserialization addr 0x27adda0 size 0x768 virtual true final false
  void OnDeserialization(::bs_hook::Il2CppWrapperType sender) ;
@@ -385,7 +384,7 @@ explicit NameObjectCollectionBase(::System::Runtime::Serialization::Serializatio
  void Reset(int32_t capacity) ;
 
 /// @brief Method FindEntry addr 0x27ae5b0 size 0xb8 virtual false final false
- ::System::Collections::Specialized::____System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry FindEntry(::StringW key) ;
+ System::Collections::Specialized::System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry FindEntry(::StringW key) ;
 
 /// @brief Method get_IsReadOnly addr 0x27ae668 size 0x8 virtual false final false
  bool get_IsReadOnly() ;
@@ -409,13 +408,13 @@ explicit NameObjectCollectionBase(::System::Runtime::Serialization::Serializatio
  ::StringW BaseGetKey(int32_t index) ;
 
 /// @brief Method GetEnumerator addr 0x27ae69c size 0x60 virtual true final false
- ::System::Collections::IEnumerator GetEnumerator() ;
+ System::Collections::IEnumerator GetEnumerator() ;
 
 /// @brief Method get_Count addr 0x27ae73c size 0x24 virtual true final false
  int32_t get_Count() ;
 
 /// @brief Method System.Collections.ICollection.CopyTo addr 0x27ae760 size 0x31c virtual true final true
- void System_Collections_ICollection_CopyTo(::System::Array array, int32_t index) ;
+ void System_Collections_ICollection_CopyTo(System::Array array, int32_t index) ;
 
 /// @brief Method System.Collections.ICollection.get_SyncRoot addr 0x27aea7c size 0x7c virtual true final true
  ::bs_hook::Il2CppWrapperType System_Collections_ICollection_get_SyncRoot() ;
@@ -427,10 +426,9 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Collections::Specialized
-} // end anonymous namespace
-NEED_NO_BOX(::System::Collections::Specialized::NameObjectCollectionBase);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Specialized::NameObjectCollectionBase, "System.Collections.Specialized", "NameObjectCollectionBase");
-NEED_NO_BOX(::System::Collections::Specialized::____System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Specialized::____System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry, "System.Collections.Specialized", "NameObjectCollectionBase/NameObjectEntry");
-NEED_NO_BOX(::System::Collections::Specialized::____System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Specialized::____System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator, "System.Collections.Specialized", "NameObjectCollectionBase/NameObjectKeysEnumerator");
+NEED_NO_BOX(System::Collections::Specialized::NameObjectCollectionBase);
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::NameObjectCollectionBase, "System.Collections.Specialized", "NameObjectCollectionBase");
+NEED_NO_BOX(System::Collections::Specialized::System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry);
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry, "System.Collections.Specialized", "NameObjectCollectionBase/NameObjectEntry");
+NEED_NO_BOX(System::Collections::Specialized::System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator);
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator, "System.Collections.Specialized", "NameObjectCollectionBase/NameObjectKeysEnumerator");

@@ -4,7 +4,6 @@
 #include "Org/BouncyCastle/Utilities/IO/zzzz__BaseOutputStream_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::IO {
 class Stream;
 }
@@ -16,7 +15,7 @@ namespace Org::BouncyCastle::Asn1 {
 class BerOctetStringGenerator;
 }
 namespace Org::BouncyCastle::Asn1 {
-class ____Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream;
+class Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream;
 }
 // Type: ::BufferedBerOctetStream
 namespace Org::BouncyCastle::Asn1 {
@@ -24,37 +23,37 @@ namespace Org::BouncyCastle::Asn1 {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(484))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(482))
 // CS Name: Org.BouncyCastle.Asn1.BerOctetStringGenerator::BufferedBerOctetStream
-class CORDL_TYPE ____Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream : public ::Org::BouncyCastle::Utilities::IO::BaseOutputStream {
+class CORDL_TYPE Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream : public Org::BouncyCastle::Utilities::IO::BaseOutputStream {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x50};
 
-virtual ~____Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream() = default;
+virtual ~Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream", modifiers: " const&", def_value: None }]
-constexpr ____Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream(____Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream", modifiers: " const&", def_value: None }]
+constexpr Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream(Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream", modifiers: "&&", def_value: None }]
-constexpr ____Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream(____Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream", modifiers: "&&", def_value: None }]
+constexpr Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream(Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream(void* ptr) noexcept : ::Org::BouncyCastle::Utilities::IO::BaseOutputStream(ptr) {
+constexpr explicit Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream(void* ptr) noexcept : Org::BouncyCastle::Utilities::IO::BaseOutputStream(ptr) {
 }
 
 
-  constexpr ____Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream& operator=(std::nullptr_t) noexcept {
+  constexpr Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream& operator=(void* o) noexcept {
+  constexpr Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream& operator=(____Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream&& o) noexcept = default;
-  constexpr ____Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream& operator=(____Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream const& o) noexcept = default;
+  constexpr Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream& operator=(Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream&& o) noexcept = default;
+  constexpr Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream& operator=(Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream const& o) noexcept = default;
                 
 
 
@@ -72,26 +71,26 @@ constexpr void __set__off(int32_t value) ;
 
 constexpr int32_t __get__off() const;
 
- ::Org::BouncyCastle::Asn1::BerOctetStringGenerator __declspec(property(get=__get__gen, put=__set__gen))  _gen;
+ Org::BouncyCastle::Asn1::BerOctetStringGenerator __declspec(property(get=__get__gen, put=__set__gen))  _gen;
 
-constexpr void __set__gen(::Org::BouncyCastle::Asn1::BerOctetStringGenerator value) ;
+constexpr void __set__gen(Org::BouncyCastle::Asn1::BerOctetStringGenerator value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::BerOctetStringGenerator __get__gen() const;
+constexpr Org::BouncyCastle::Asn1::BerOctetStringGenerator __get__gen() const;
 
- ::Org::BouncyCastle::Asn1::DerOutputStream __declspec(property(get=__get__derOut, put=__set__derOut))  _derOut;
+ Org::BouncyCastle::Asn1::DerOutputStream __declspec(property(get=__get__derOut, put=__set__derOut))  _derOut;
 
-constexpr void __set__derOut(::Org::BouncyCastle::Asn1::DerOutputStream value) ;
+constexpr void __set__derOut(Org::BouncyCastle::Asn1::DerOutputStream value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::DerOutputStream __get__derOut() const;
+constexpr Org::BouncyCastle::Asn1::DerOutputStream __get__derOut() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "gen", ty: "::Org::BouncyCastle::Asn1::BerOctetStringGenerator", modifiers: "", def_value: None }, CppParam { name: "buf", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit ____Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream(::Org::BouncyCastle::Asn1::BerOctetStringGenerator gen, ::ArrayW<uint8_t> buf) ;
+// Ctor Parameters [CppParam { name: "gen", ty: "Org::BouncyCastle::Asn1::BerOctetStringGenerator", modifiers: "", def_value: None }, CppParam { name: "buf", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
+explicit Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream(Org::BouncyCastle::Asn1::BerOctetStringGenerator gen, ::ArrayW<uint8_t> buf) ;
 
 /// @brief Method .ctor addr 0x11320bc size 0x8c virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::BerOctetStringGenerator gen, ::ArrayW<uint8_t> buf) ;
+ void _ctor(Org::BouncyCastle::Asn1::BerOctetStringGenerator gen, ::ArrayW<uint8_t> buf) ;
 
 /// @brief Method WriteByte addr 0x11321a0 size 0x68 virtual true final false
  void WriteByte(uint8_t b) ;
@@ -112,10 +111,10 @@ namespace Org::BouncyCastle::Asn1 {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(476))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(483))
 // CS Name: Org.BouncyCastle.Asn1.BerOctetStringGenerator
-class CORDL_TYPE BerOctetStringGenerator : public ::Org::BouncyCastle::Asn1::BerGenerator {
+class CORDL_TYPE BerOctetStringGenerator : public Org::BouncyCastle::Asn1::BerGenerator {
 public:
 // Declarations
-using BufferedBerOctetStream = ::Org::BouncyCastle::Asn1::____Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream;
+using BufferedBerOctetStream = Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -129,7 +128,7 @@ constexpr BerOctetStringGenerator(BerOctetStringGenerator const& ) noexcept = de
 constexpr BerOctetStringGenerator(BerOctetStringGenerator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BerOctetStringGenerator(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::BerGenerator(ptr) {
+constexpr explicit BerOctetStringGenerator(void* ptr) noexcept : Org::BouncyCastle::Asn1::BerGenerator(ptr) {
 }
 
 
@@ -150,33 +149,32 @@ constexpr explicit BerOctetStringGenerator(void* ptr) noexcept : ::Org::BouncyCa
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "outStream", ty: "::System::IO::Stream", modifiers: "", def_value: None }]
-explicit BerOctetStringGenerator(::System::IO::Stream outStream) ;
+// Ctor Parameters [CppParam { name: "outStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
+explicit BerOctetStringGenerator(System::IO::Stream outStream) ;
 
 /// @brief Method .ctor addr 0x1131f00 size 0x34 virtual false final false
- void _ctor(::System::IO::Stream outStream) ;
+ void _ctor(System::IO::Stream outStream) ;
 
-// Ctor Parameters [CppParam { name: "outStream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "tagNo", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "isExplicit", ty: "bool", modifiers: "", def_value: None }]
-explicit BerOctetStringGenerator(::System::IO::Stream outStream, int32_t tagNo, bool isExplicit) ;
+// Ctor Parameters [CppParam { name: "outStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "tagNo", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "isExplicit", ty: "bool", modifiers: "", def_value: None }]
+explicit BerOctetStringGenerator(System::IO::Stream outStream, int32_t tagNo, bool isExplicit) ;
 
 /// @brief Method .ctor addr 0x1131f34 size 0x54 virtual false final false
- void _ctor(::System::IO::Stream outStream, int32_t tagNo, bool isExplicit) ;
+ void _ctor(System::IO::Stream outStream, int32_t tagNo, bool isExplicit) ;
 
 /// @brief Method GetOctetOutputStream addr 0x1131f88 size 0x54 virtual false final false
- ::System::IO::Stream GetOctetOutputStream() ;
+ System::IO::Stream GetOctetOutputStream() ;
 
 /// @brief Method GetOctetOutputStream addr 0x113204c size 0x70 virtual false final false
- ::System::IO::Stream GetOctetOutputStream(int32_t bufSize) ;
+ System::IO::Stream GetOctetOutputStream(int32_t bufSize) ;
 
 /// @brief Method GetOctetOutputStream addr 0x1131fdc size 0x70 virtual false final false
- ::System::IO::Stream GetOctetOutputStream(::ArrayW<uint8_t> buf) ;
+ System::IO::Stream GetOctetOutputStream(::ArrayW<uint8_t> buf) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::BerOctetStringGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::BerOctetStringGenerator, "Org.BouncyCastle.Asn1", "BerOctetStringGenerator");
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::____Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::____Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream, "Org.BouncyCastle.Asn1", "BerOctetStringGenerator/BufferedBerOctetStream");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::BerOctetStringGenerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::BerOctetStringGenerator, "Org.BouncyCastle.Asn1", "BerOctetStringGenerator");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream, "Org.BouncyCastle.Asn1", "BerOctetStringGenerator/BufferedBerOctetStream");

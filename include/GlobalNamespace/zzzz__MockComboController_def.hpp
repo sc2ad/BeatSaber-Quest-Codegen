@@ -2,16 +2,15 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System {
-template<typename T>
-class Action_1;
+class Action;
 }
 namespace GlobalNamespace {
 class IComboController;
 }
 namespace System {
-class Action;
+template<typename T>
+class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,8 +25,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE MockComboController : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IComboController
-constexpr operator  ::GlobalNamespace::IComboController() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IComboController
+constexpr operator  GlobalNamespace::IComboController() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -62,32 +61,32 @@ constexpr explicit MockComboController(void* ptr) noexcept : ::bs_hook::Il2CppWr
 
 // Fields
 
- ::System::Action_1<int32_t> __declspec(property(get=__get_comboDidChangeEvent, put=__set_comboDidChangeEvent))  comboDidChangeEvent;
+ System::Action_1<int32_t> __declspec(property(get=__get_comboDidChangeEvent, put=__set_comboDidChangeEvent))  comboDidChangeEvent;
 
-constexpr void __set_comboDidChangeEvent(::System::Action_1<int32_t> value) ;
+constexpr void __set_comboDidChangeEvent(System::Action_1<int32_t> value) ;
 
-constexpr ::System::Action_1<int32_t> __get_comboDidChangeEvent() const;
+constexpr System::Action_1<int32_t> __get_comboDidChangeEvent() const;
 
- ::System::Action __declspec(property(get=__get_comboBreakingEventHappenedEvent, put=__set_comboBreakingEventHappenedEvent))  comboBreakingEventHappenedEvent;
+ System::Action __declspec(property(get=__get_comboBreakingEventHappenedEvent, put=__set_comboBreakingEventHappenedEvent))  comboBreakingEventHappenedEvent;
 
-constexpr void __set_comboBreakingEventHappenedEvent(::System::Action value) ;
+constexpr void __set_comboBreakingEventHappenedEvent(System::Action value) ;
 
-constexpr ::System::Action __get_comboBreakingEventHappenedEvent() const;
+constexpr System::Action __get_comboBreakingEventHappenedEvent() const;
 
 
 // Methods
 
 /// @brief Method add_comboDidChangeEvent addr 0x210e2c4 size 0xb0 virtual true final true
- void add_comboDidChangeEvent(::System::Action_1<int32_t> value) ;
+ void add_comboDidChangeEvent(System::Action_1<int32_t> value) ;
 
 /// @brief Method remove_comboDidChangeEvent addr 0x210e374 size 0xb0 virtual true final true
- void remove_comboDidChangeEvent(::System::Action_1<int32_t> value) ;
+ void remove_comboDidChangeEvent(System::Action_1<int32_t> value) ;
 
 /// @brief Method add_comboBreakingEventHappenedEvent addr 0x210e424 size 0x9c virtual true final true
- void add_comboBreakingEventHappenedEvent(::System::Action value) ;
+ void add_comboBreakingEventHappenedEvent(System::Action value) ;
 
 /// @brief Method remove_comboBreakingEventHappenedEvent addr 0x210e4c0 size 0x9c virtual true final true
- void remove_comboBreakingEventHappenedEvent(::System::Action value) ;
+ void remove_comboBreakingEventHappenedEvent(System::Action value) ;
 
 // Ctor Parameters []
 explicit MockComboController() ;
@@ -99,6 +98,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MockComboController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MockComboController, "", "MockComboController");
+NEED_NO_BOX(GlobalNamespace::MockComboController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockComboController, "", "MockComboController");

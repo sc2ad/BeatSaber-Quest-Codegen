@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class Mesh;
-}
 namespace UnityEngine::Rendering {
 struct IndexFormat;
+}
+namespace UnityEngine {
+class Mesh;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -55,11 +54,11 @@ constexpr explicit HEU_MeshIndexFormat(void* ptr) noexcept : ::bs_hook::Il2CppWr
 
 // Fields
 
- ::UnityEngine::Rendering::IndexFormat __declspec(property(get=__get__indexFormat, put=__set__indexFormat))  _indexFormat;
+ UnityEngine::Rendering::IndexFormat __declspec(property(get=__get__indexFormat, put=__set__indexFormat))  _indexFormat;
 
-constexpr void __set__indexFormat(::UnityEngine::Rendering::IndexFormat value) ;
+constexpr void __set__indexFormat(UnityEngine::Rendering::IndexFormat value) ;
 
-constexpr ::UnityEngine::Rendering::IndexFormat __get__indexFormat() const;
+constexpr UnityEngine::Rendering::IndexFormat __get__indexFormat() const;
 
 
 // Methods
@@ -68,7 +67,7 @@ constexpr ::UnityEngine::Rendering::IndexFormat __get__indexFormat() const;
  void CalculateIndexFormat(int32_t numVertices) ;
 
 /// @brief Method SetFormatForMesh addr 0x205e99c size 0x24 virtual false final false
- void SetFormatForMesh(::UnityEngine::Mesh mesh) ;
+ void SetFormatForMesh(UnityEngine::Mesh mesh) ;
 
 // Ctor Parameters []
 explicit HEU_MeshIndexFormat() ;
@@ -80,6 +79,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_MeshIndexFormat);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_MeshIndexFormat, "HoudiniEngineUnity", "HEU_MeshIndexFormat");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_MeshIndexFormat);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_MeshIndexFormat, "HoudiniEngineUnity", "HEU_MeshIndexFormat");

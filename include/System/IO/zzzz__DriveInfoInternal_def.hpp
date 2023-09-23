@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace System::IO {
 class DriveInfoInternal;
@@ -57,6 +56,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::IO
-} // end anonymous namespace
-NEED_NO_BOX(::System::IO::DriveInfoInternal);
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::DriveInfoInternal, "System.IO", "DriveInfoInternal");
+NEED_NO_BOX(System::IO::DriveInfoInternal);
+DEFINE_IL2CPP_ARG_TYPE(System::IO::DriveInfoInternal, "System.IO", "DriveInfoInternal");

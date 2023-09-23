@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class LinkedList_1;
@@ -13,22 +12,22 @@ template<typename T>
 class LinkedListNode_1;
 }
 namespace System {
-template<typename T,typename TResult>
-class Func_2;
-}
-namespace System {
 template<typename T>
 class Action_1;
+}
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct AsyncOperationHandle;
 }
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct SceneInstance;
-}
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template<typename TObject>
 struct AsyncOperationHandle_1;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct SceneInstance;
 }
 namespace UnityEngine::ResourceManagement::Diagnostics {
 struct DiagnosticEvent;
@@ -44,27 +43,27 @@ class DelegateList_1<T>;
 }
 namespace GlobalNamespace {
 template<>
-class DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>;
+class DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>;
 }
 namespace GlobalNamespace {
 template<>
-class DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>;
+class DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>;
 }
 namespace GlobalNamespace {
 template<>
-class DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>;
+class DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>;
 }
 namespace GlobalNamespace {
 template<>
-class DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>;
+class DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>;
 }
 namespace GlobalNamespace {
 template<>
-class DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>;
+class DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>;
 }
 namespace GlobalNamespace {
 template<>
-class DelegateList_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>;
+class DelegateList_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>;
 }
 namespace GlobalNamespace {
 template<>
@@ -115,23 +114,23 @@ constexpr explicit DelegateList_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
- ::System::Func_2<::System::Action_1<T>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>>> __declspec(property(get=__get_m_acquireFunc, put=__set_m_acquireFunc))  m_acquireFunc;
+ System::Func_2<System::Action_1<T>,System::Collections::Generic::LinkedListNode_1<System::Action_1<T>>> __declspec(property(get=__get_m_acquireFunc, put=__set_m_acquireFunc))  m_acquireFunc;
 
-constexpr void __set_m_acquireFunc(::System::Func_2<::System::Action_1<T>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>>> value) ;
+constexpr void __set_m_acquireFunc(System::Func_2<System::Action_1<T>,System::Collections::Generic::LinkedListNode_1<System::Action_1<T>>> value) ;
 
-constexpr ::System::Func_2<::System::Action_1<T>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>>> __get_m_acquireFunc() const;
+constexpr System::Func_2<System::Action_1<T>,System::Collections::Generic::LinkedListNode_1<System::Action_1<T>>> __get_m_acquireFunc() const;
 
- ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>>> __declspec(property(get=__get_m_releaseFunc, put=__set_m_releaseFunc))  m_releaseFunc;
+ System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<T>>> __declspec(property(get=__get_m_releaseFunc, put=__set_m_releaseFunc))  m_releaseFunc;
 
-constexpr void __set_m_releaseFunc(::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>>> value) ;
+constexpr void __set_m_releaseFunc(System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<T>>> value) ;
 
-constexpr ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>>> __get_m_releaseFunc() const;
+constexpr System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<T>>> __get_m_releaseFunc() const;
 
- ::System::Collections::Generic::LinkedList_1<::System::Action_1<T>> __declspec(property(get=__get_m_callbacks, put=__set_m_callbacks))  m_callbacks;
+ System::Collections::Generic::LinkedList_1<System::Action_1<T>> __declspec(property(get=__get_m_callbacks, put=__set_m_callbacks))  m_callbacks;
 
-constexpr void __set_m_callbacks(::System::Collections::Generic::LinkedList_1<::System::Action_1<T>> value) ;
+constexpr void __set_m_callbacks(System::Collections::Generic::LinkedList_1<System::Action_1<T>> value) ;
 
-constexpr ::System::Collections::Generic::LinkedList_1<::System::Action_1<T>> __get_m_callbacks() const;
+constexpr System::Collections::Generic::LinkedList_1<System::Action_1<T>> __get_m_callbacks() const;
 
  bool __declspec(property(get=__get_m_invoking, put=__set_m_invoking))  m_invoking;
 
@@ -147,20 +146,20 @@ constexpr bool __get_m_invoking() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "acquireFunc", ty: "::System::Func_2<::System::Action_1<T>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>>>", modifiers: "", def_value: None }, CppParam { name: "releaseFunc", ty: "::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>>>", modifiers: "", def_value: None }]
-explicit DelegateList_1(::System::Func_2<::System::Action_1<T>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>>> acquireFunc, ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>>> releaseFunc) ;
+// Ctor Parameters [CppParam { name: "acquireFunc", ty: "System::Func_2<System::Action_1<T>,System::Collections::Generic::LinkedListNode_1<System::Action_1<T>>>", modifiers: "", def_value: None }, CppParam { name: "releaseFunc", ty: "System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<T>>>", modifiers: "", def_value: None }]
+explicit DelegateList_1(System::Func_2<System::Action_1<T>,System::Collections::Generic::LinkedListNode_1<System::Action_1<T>>> acquireFunc, System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<T>>> releaseFunc) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Func_2<::System::Action_1<T>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>>> acquireFunc, ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>>> releaseFunc) ;
+ void _ctor(System::Func_2<System::Action_1<T>,System::Collections::Generic::LinkedListNode_1<System::Action_1<T>>> acquireFunc, System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<T>>> releaseFunc) ;
 
 /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t get_Count() ;
 
 /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
- void Add(::System::Action_1<T> action) ;
+ void Add(System::Action_1<T> action) ;
 
 /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual false final false
- void Remove(::System::Action_1<T> action) ;
+ void Remove(System::Action_1<T> action) ;
 
 /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual false final false
  void Invoke(T res) ;
@@ -169,7 +168,7 @@ explicit DelegateList_1(::System::Func_2<::System::Action_1<T>,::System::Collect
  void Clear() ;
 
 /// @brief Method CreateWithGlobalCache addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::GlobalNamespace::DelegateList_1<T> CreateWithGlobalCache() ;
+static GlobalNamespace::DelegateList_1<T> CreateWithGlobalCache() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -183,7 +182,7 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14227))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14227), inst: 265 })
 // CS Name: DelegateList`1
-class CORDL_TYPE DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -219,23 +218,23 @@ constexpr explicit DelegateList_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
- ::System::Func_2<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>>> __declspec(property(get=__get_m_acquireFunc, put=__set_m_acquireFunc))  m_acquireFunc;
+ System::Func_2<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>,System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>>> __declspec(property(get=__get_m_acquireFunc, put=__set_m_acquireFunc))  m_acquireFunc;
 
-constexpr void __set_m_acquireFunc(::System::Func_2<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>>> value) ;
+constexpr void __set_m_acquireFunc(System::Func_2<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>,System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>>> value) ;
 
-constexpr ::System::Func_2<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>>> __get_m_acquireFunc() const;
+constexpr System::Func_2<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>,System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>>> __get_m_acquireFunc() const;
 
- ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>>> __declspec(property(get=__get_m_releaseFunc, put=__set_m_releaseFunc))  m_releaseFunc;
+ System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>>> __declspec(property(get=__get_m_releaseFunc, put=__set_m_releaseFunc))  m_releaseFunc;
 
-constexpr void __set_m_releaseFunc(::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>>> value) ;
+constexpr void __set_m_releaseFunc(System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>>> value) ;
 
-constexpr ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>>> __get_m_releaseFunc() const;
+constexpr System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>>> __get_m_releaseFunc() const;
 
- ::System::Collections::Generic::LinkedList_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>> __declspec(property(get=__get_m_callbacks, put=__set_m_callbacks))  m_callbacks;
+ System::Collections::Generic::LinkedList_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>> __declspec(property(get=__get_m_callbacks, put=__set_m_callbacks))  m_callbacks;
 
-constexpr void __set_m_callbacks(::System::Collections::Generic::LinkedList_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>> value) ;
+constexpr void __set_m_callbacks(System::Collections::Generic::LinkedList_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>> value) ;
 
-constexpr ::System::Collections::Generic::LinkedList_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>> __get_m_callbacks() const;
+constexpr System::Collections::Generic::LinkedList_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>> __get_m_callbacks() const;
 
  bool __declspec(property(get=__get_m_invoking, put=__set_m_invoking))  m_invoking;
 
@@ -251,29 +250,29 @@ constexpr bool __get_m_invoking() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "acquireFunc", ty: "::System::Func_2<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>>>", modifiers: "", def_value: None }, CppParam { name: "releaseFunc", ty: "::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>>>", modifiers: "", def_value: None }]
-explicit DelegateList_1(::System::Func_2<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>>> acquireFunc, ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>>> releaseFunc) ;
+// Ctor Parameters [CppParam { name: "acquireFunc", ty: "System::Func_2<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>,System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>>>", modifiers: "", def_value: None }, CppParam { name: "releaseFunc", ty: "System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>>>", modifiers: "", def_value: None }]
+explicit DelegateList_1(System::Func_2<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>,System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>>> acquireFunc, System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>>> releaseFunc) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Func_2<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>>> acquireFunc, ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>>> releaseFunc) ;
+ void _ctor(System::Func_2<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>,System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>>> acquireFunc, System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>>> releaseFunc) ;
 
 /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t get_Count() ;
 
 /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
- void Add(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> action) ;
+ void Add(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> action) ;
 
 /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual false final false
- void Remove(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> action) ;
+ void Remove(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> action) ;
 
 /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual false final false
- void Invoke(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle res) ;
+ void Invoke(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle res) ;
 
 /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
  void Clear() ;
 
 /// @brief Method CreateWithGlobalCache addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> CreateWithGlobalCache() ;
+static GlobalNamespace::DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> CreateWithGlobalCache() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -287,7 +286,7 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14227))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14227), inst: 289 })
 // CS Name: DelegateList`1
-class CORDL_TYPE DelegateList_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE DelegateList_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -323,23 +322,23 @@ constexpr explicit DelegateList_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
- ::System::Func_2<::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>>> __declspec(property(get=__get_m_acquireFunc, put=__set_m_acquireFunc))  m_acquireFunc;
+ System::Func_2<System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>,System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>>> __declspec(property(get=__get_m_acquireFunc, put=__set_m_acquireFunc))  m_acquireFunc;
 
-constexpr void __set_m_acquireFunc(::System::Func_2<::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>>> value) ;
+constexpr void __set_m_acquireFunc(System::Func_2<System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>,System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>>> value) ;
 
-constexpr ::System::Func_2<::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>>> __get_m_acquireFunc() const;
+constexpr System::Func_2<System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>,System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>>> __get_m_acquireFunc() const;
 
- ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>>> __declspec(property(get=__get_m_releaseFunc, put=__set_m_releaseFunc))  m_releaseFunc;
+ System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>>> __declspec(property(get=__get_m_releaseFunc, put=__set_m_releaseFunc))  m_releaseFunc;
 
-constexpr void __set_m_releaseFunc(::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>>> value) ;
+constexpr void __set_m_releaseFunc(System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>>> value) ;
 
-constexpr ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>>> __get_m_releaseFunc() const;
+constexpr System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>>> __get_m_releaseFunc() const;
 
- ::System::Collections::Generic::LinkedList_1<::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>> __declspec(property(get=__get_m_callbacks, put=__set_m_callbacks))  m_callbacks;
+ System::Collections::Generic::LinkedList_1<System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>> __declspec(property(get=__get_m_callbacks, put=__set_m_callbacks))  m_callbacks;
 
-constexpr void __set_m_callbacks(::System::Collections::Generic::LinkedList_1<::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>> value) ;
+constexpr void __set_m_callbacks(System::Collections::Generic::LinkedList_1<System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>> value) ;
 
-constexpr ::System::Collections::Generic::LinkedList_1<::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>> __get_m_callbacks() const;
+constexpr System::Collections::Generic::LinkedList_1<System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>> __get_m_callbacks() const;
 
  bool __declspec(property(get=__get_m_invoking, put=__set_m_invoking))  m_invoking;
 
@@ -355,29 +354,29 @@ constexpr bool __get_m_invoking() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "acquireFunc", ty: "::System::Func_2<::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>>>", modifiers: "", def_value: None }, CppParam { name: "releaseFunc", ty: "::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>>>", modifiers: "", def_value: None }]
-explicit DelegateList_1(::System::Func_2<::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>>> acquireFunc, ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>>> releaseFunc) ;
+// Ctor Parameters [CppParam { name: "acquireFunc", ty: "System::Func_2<System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>,System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>>>", modifiers: "", def_value: None }, CppParam { name: "releaseFunc", ty: "System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>>>", modifiers: "", def_value: None }]
+explicit DelegateList_1(System::Func_2<System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>,System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>>> acquireFunc, System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>>> releaseFunc) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Func_2<::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>>> acquireFunc, ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>>> releaseFunc) ;
+ void _ctor(System::Func_2<System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>,System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>>> acquireFunc, System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>>> releaseFunc) ;
 
 /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t get_Count() ;
 
 /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
- void Add(::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent> action) ;
+ void Add(System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent> action) ;
 
 /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual false final false
- void Remove(::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent> action) ;
+ void Remove(System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent> action) ;
 
 /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual false final false
- void Invoke(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent res) ;
+ void Invoke(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent res) ;
 
 /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
  void Clear() ;
 
 /// @brief Method CreateWithGlobalCache addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent> CreateWithGlobalCache() ;
+static GlobalNamespace::DelegateList_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent> CreateWithGlobalCache() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -427,23 +426,23 @@ constexpr explicit DelegateList_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
- ::System::Func_2<::System::Action_1<float_t>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<float_t>>> __declspec(property(get=__get_m_acquireFunc, put=__set_m_acquireFunc))  m_acquireFunc;
+ System::Func_2<System::Action_1<float_t>,System::Collections::Generic::LinkedListNode_1<System::Action_1<float_t>>> __declspec(property(get=__get_m_acquireFunc, put=__set_m_acquireFunc))  m_acquireFunc;
 
-constexpr void __set_m_acquireFunc(::System::Func_2<::System::Action_1<float_t>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<float_t>>> value) ;
+constexpr void __set_m_acquireFunc(System::Func_2<System::Action_1<float_t>,System::Collections::Generic::LinkedListNode_1<System::Action_1<float_t>>> value) ;
 
-constexpr ::System::Func_2<::System::Action_1<float_t>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<float_t>>> __get_m_acquireFunc() const;
+constexpr System::Func_2<System::Action_1<float_t>,System::Collections::Generic::LinkedListNode_1<System::Action_1<float_t>>> __get_m_acquireFunc() const;
 
- ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<float_t>>> __declspec(property(get=__get_m_releaseFunc, put=__set_m_releaseFunc))  m_releaseFunc;
+ System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<float_t>>> __declspec(property(get=__get_m_releaseFunc, put=__set_m_releaseFunc))  m_releaseFunc;
 
-constexpr void __set_m_releaseFunc(::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<float_t>>> value) ;
+constexpr void __set_m_releaseFunc(System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<float_t>>> value) ;
 
-constexpr ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<float_t>>> __get_m_releaseFunc() const;
+constexpr System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<float_t>>> __get_m_releaseFunc() const;
 
- ::System::Collections::Generic::LinkedList_1<::System::Action_1<float_t>> __declspec(property(get=__get_m_callbacks, put=__set_m_callbacks))  m_callbacks;
+ System::Collections::Generic::LinkedList_1<System::Action_1<float_t>> __declspec(property(get=__get_m_callbacks, put=__set_m_callbacks))  m_callbacks;
 
-constexpr void __set_m_callbacks(::System::Collections::Generic::LinkedList_1<::System::Action_1<float_t>> value) ;
+constexpr void __set_m_callbacks(System::Collections::Generic::LinkedList_1<System::Action_1<float_t>> value) ;
 
-constexpr ::System::Collections::Generic::LinkedList_1<::System::Action_1<float_t>> __get_m_callbacks() const;
+constexpr System::Collections::Generic::LinkedList_1<System::Action_1<float_t>> __get_m_callbacks() const;
 
  bool __declspec(property(get=__get_m_invoking, put=__set_m_invoking))  m_invoking;
 
@@ -459,20 +458,20 @@ constexpr bool __get_m_invoking() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "acquireFunc", ty: "::System::Func_2<::System::Action_1<float_t>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<float_t>>>", modifiers: "", def_value: None }, CppParam { name: "releaseFunc", ty: "::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<float_t>>>", modifiers: "", def_value: None }]
-explicit DelegateList_1(::System::Func_2<::System::Action_1<float_t>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<float_t>>> acquireFunc, ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<float_t>>> releaseFunc) ;
+// Ctor Parameters [CppParam { name: "acquireFunc", ty: "System::Func_2<System::Action_1<float_t>,System::Collections::Generic::LinkedListNode_1<System::Action_1<float_t>>>", modifiers: "", def_value: None }, CppParam { name: "releaseFunc", ty: "System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<float_t>>>", modifiers: "", def_value: None }]
+explicit DelegateList_1(System::Func_2<System::Action_1<float_t>,System::Collections::Generic::LinkedListNode_1<System::Action_1<float_t>>> acquireFunc, System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<float_t>>> releaseFunc) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Func_2<::System::Action_1<float_t>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<float_t>>> acquireFunc, ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<float_t>>> releaseFunc) ;
+ void _ctor(System::Func_2<System::Action_1<float_t>,System::Collections::Generic::LinkedListNode_1<System::Action_1<float_t>>> acquireFunc, System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<float_t>>> releaseFunc) ;
 
 /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t get_Count() ;
 
 /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
- void Add(::System::Action_1<float_t> action) ;
+ void Add(System::Action_1<float_t> action) ;
 
 /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual false final false
- void Remove(::System::Action_1<float_t> action) ;
+ void Remove(System::Action_1<float_t> action) ;
 
 /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual false final false
  void Invoke(float_t res) ;
@@ -481,7 +480,7 @@ explicit DelegateList_1(::System::Func_2<::System::Action_1<float_t>,::System::C
  void Clear() ;
 
 /// @brief Method CreateWithGlobalCache addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::GlobalNamespace::DelegateList_1<float_t> CreateWithGlobalCache() ;
+static GlobalNamespace::DelegateList_1<float_t> CreateWithGlobalCache() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -495,7 +494,7 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14227))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14227), inst: 5329 })
 // CS Name: DelegateList`1
-class CORDL_TYPE DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -531,23 +530,23 @@ constexpr explicit DelegateList_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
- ::System::Func_2<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>>> __declspec(property(get=__get_m_acquireFunc, put=__set_m_acquireFunc))  m_acquireFunc;
+ System::Func_2<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>,System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>>> __declspec(property(get=__get_m_acquireFunc, put=__set_m_acquireFunc))  m_acquireFunc;
 
-constexpr void __set_m_acquireFunc(::System::Func_2<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>>> value) ;
+constexpr void __set_m_acquireFunc(System::Func_2<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>,System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>>> value) ;
 
-constexpr ::System::Func_2<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>>> __get_m_acquireFunc() const;
+constexpr System::Func_2<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>,System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>>> __get_m_acquireFunc() const;
 
- ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>>> __declspec(property(get=__get_m_releaseFunc, put=__set_m_releaseFunc))  m_releaseFunc;
+ System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>>> __declspec(property(get=__get_m_releaseFunc, put=__set_m_releaseFunc))  m_releaseFunc;
 
-constexpr void __set_m_releaseFunc(::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>>> value) ;
+constexpr void __set_m_releaseFunc(System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>>> value) ;
 
-constexpr ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>>> __get_m_releaseFunc() const;
+constexpr System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>>> __get_m_releaseFunc() const;
 
- ::System::Collections::Generic::LinkedList_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>> __declspec(property(get=__get_m_callbacks, put=__set_m_callbacks))  m_callbacks;
+ System::Collections::Generic::LinkedList_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>> __declspec(property(get=__get_m_callbacks, put=__set_m_callbacks))  m_callbacks;
 
-constexpr void __set_m_callbacks(::System::Collections::Generic::LinkedList_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>> value) ;
+constexpr void __set_m_callbacks(System::Collections::Generic::LinkedList_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>> value) ;
 
-constexpr ::System::Collections::Generic::LinkedList_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>> __get_m_callbacks() const;
+constexpr System::Collections::Generic::LinkedList_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>> __get_m_callbacks() const;
 
  bool __declspec(property(get=__get_m_invoking, put=__set_m_invoking))  m_invoking;
 
@@ -563,29 +562,29 @@ constexpr bool __get_m_invoking() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "acquireFunc", ty: "::System::Func_2<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>>>", modifiers: "", def_value: None }, CppParam { name: "releaseFunc", ty: "::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>>>", modifiers: "", def_value: None }]
-explicit DelegateList_1(::System::Func_2<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>>> acquireFunc, ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>>> releaseFunc) ;
+// Ctor Parameters [CppParam { name: "acquireFunc", ty: "System::Func_2<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>,System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>>>", modifiers: "", def_value: None }, CppParam { name: "releaseFunc", ty: "System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>>>", modifiers: "", def_value: None }]
+explicit DelegateList_1(System::Func_2<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>,System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>>> acquireFunc, System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>>> releaseFunc) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Func_2<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>>> acquireFunc, ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>>> releaseFunc) ;
+ void _ctor(System::Func_2<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>,System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>>> acquireFunc, System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>>> releaseFunc) ;
 
 /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t get_Count() ;
 
 /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
- void Add(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>> action) ;
+ void Add(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>> action) ;
 
 /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual false final false
- void Remove(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>> action) ;
+ void Remove(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>> action) ;
 
 /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual false final false
- void Invoke(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> res) ;
+ void Invoke(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> res) ;
 
 /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
  void Clear() ;
 
 /// @brief Method CreateWithGlobalCache addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>> CreateWithGlobalCache() ;
+static GlobalNamespace::DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>> CreateWithGlobalCache() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -599,7 +598,7 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14227))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14227), inst: 5332 })
 // CS Name: DelegateList`1
-class CORDL_TYPE DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -635,23 +634,23 @@ constexpr explicit DelegateList_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
- ::System::Func_2<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>>> __declspec(property(get=__get_m_acquireFunc, put=__set_m_acquireFunc))  m_acquireFunc;
+ System::Func_2<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>,System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>>> __declspec(property(get=__get_m_acquireFunc, put=__set_m_acquireFunc))  m_acquireFunc;
 
-constexpr void __set_m_acquireFunc(::System::Func_2<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>>> value) ;
+constexpr void __set_m_acquireFunc(System::Func_2<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>,System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>>> value) ;
 
-constexpr ::System::Func_2<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>>> __get_m_acquireFunc() const;
+constexpr System::Func_2<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>,System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>>> __get_m_acquireFunc() const;
 
- ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>>> __declspec(property(get=__get_m_releaseFunc, put=__set_m_releaseFunc))  m_releaseFunc;
+ System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>>> __declspec(property(get=__get_m_releaseFunc, put=__set_m_releaseFunc))  m_releaseFunc;
 
-constexpr void __set_m_releaseFunc(::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>>> value) ;
+constexpr void __set_m_releaseFunc(System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>>> value) ;
 
-constexpr ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>>> __get_m_releaseFunc() const;
+constexpr System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>>> __get_m_releaseFunc() const;
 
- ::System::Collections::Generic::LinkedList_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>> __declspec(property(get=__get_m_callbacks, put=__set_m_callbacks))  m_callbacks;
+ System::Collections::Generic::LinkedList_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>> __declspec(property(get=__get_m_callbacks, put=__set_m_callbacks))  m_callbacks;
 
-constexpr void __set_m_callbacks(::System::Collections::Generic::LinkedList_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>> value) ;
+constexpr void __set_m_callbacks(System::Collections::Generic::LinkedList_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>> value) ;
 
-constexpr ::System::Collections::Generic::LinkedList_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>> __get_m_callbacks() const;
+constexpr System::Collections::Generic::LinkedList_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>> __get_m_callbacks() const;
 
  bool __declspec(property(get=__get_m_invoking, put=__set_m_invoking))  m_invoking;
 
@@ -667,29 +666,29 @@ constexpr bool __get_m_invoking() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "acquireFunc", ty: "::System::Func_2<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>>>", modifiers: "", def_value: None }, CppParam { name: "releaseFunc", ty: "::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>>>", modifiers: "", def_value: None }]
-explicit DelegateList_1(::System::Func_2<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>>> acquireFunc, ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>>> releaseFunc) ;
+// Ctor Parameters [CppParam { name: "acquireFunc", ty: "System::Func_2<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>,System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>>>", modifiers: "", def_value: None }, CppParam { name: "releaseFunc", ty: "System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>>>", modifiers: "", def_value: None }]
+explicit DelegateList_1(System::Func_2<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>,System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>>> acquireFunc, System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>>> releaseFunc) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Func_2<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>>> acquireFunc, ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>>> releaseFunc) ;
+ void _ctor(System::Func_2<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>,System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>>> acquireFunc, System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>>> releaseFunc) ;
 
 /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t get_Count() ;
 
 /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
- void Add(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>> action) ;
+ void Add(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>> action) ;
 
 /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual false final false
- void Remove(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>> action) ;
+ void Remove(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>> action) ;
 
 /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual false final false
- void Invoke(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> res) ;
+ void Invoke(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> res) ;
 
 /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
  void Clear() ;
 
 /// @brief Method CreateWithGlobalCache addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>> CreateWithGlobalCache() ;
+static GlobalNamespace::DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>> CreateWithGlobalCache() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -703,7 +702,7 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14227))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14227), inst: 6240 })
 // CS Name: DelegateList`1
-class CORDL_TYPE DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -739,23 +738,23 @@ constexpr explicit DelegateList_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
- ::System::Func_2<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>>> __declspec(property(get=__get_m_acquireFunc, put=__set_m_acquireFunc))  m_acquireFunc;
+ System::Func_2<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>,System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>>> __declspec(property(get=__get_m_acquireFunc, put=__set_m_acquireFunc))  m_acquireFunc;
 
-constexpr void __set_m_acquireFunc(::System::Func_2<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>>> value) ;
+constexpr void __set_m_acquireFunc(System::Func_2<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>,System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>>> value) ;
 
-constexpr ::System::Func_2<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>>> __get_m_acquireFunc() const;
+constexpr System::Func_2<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>,System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>>> __get_m_acquireFunc() const;
 
- ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>>> __declspec(property(get=__get_m_releaseFunc, put=__set_m_releaseFunc))  m_releaseFunc;
+ System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>>> __declspec(property(get=__get_m_releaseFunc, put=__set_m_releaseFunc))  m_releaseFunc;
 
-constexpr void __set_m_releaseFunc(::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>>> value) ;
+constexpr void __set_m_releaseFunc(System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>>> value) ;
 
-constexpr ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>>> __get_m_releaseFunc() const;
+constexpr System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>>> __get_m_releaseFunc() const;
 
- ::System::Collections::Generic::LinkedList_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>> __declspec(property(get=__get_m_callbacks, put=__set_m_callbacks))  m_callbacks;
+ System::Collections::Generic::LinkedList_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>> __declspec(property(get=__get_m_callbacks, put=__set_m_callbacks))  m_callbacks;
 
-constexpr void __set_m_callbacks(::System::Collections::Generic::LinkedList_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>> value) ;
+constexpr void __set_m_callbacks(System::Collections::Generic::LinkedList_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>> value) ;
 
-constexpr ::System::Collections::Generic::LinkedList_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>> __get_m_callbacks() const;
+constexpr System::Collections::Generic::LinkedList_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>> __get_m_callbacks() const;
 
  bool __declspec(property(get=__get_m_invoking, put=__set_m_invoking))  m_invoking;
 
@@ -771,29 +770,29 @@ constexpr bool __get_m_invoking() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "acquireFunc", ty: "::System::Func_2<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>>>", modifiers: "", def_value: None }, CppParam { name: "releaseFunc", ty: "::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>>>", modifiers: "", def_value: None }]
-explicit DelegateList_1(::System::Func_2<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>>> acquireFunc, ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>>> releaseFunc) ;
+// Ctor Parameters [CppParam { name: "acquireFunc", ty: "System::Func_2<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>,System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>>>", modifiers: "", def_value: None }, CppParam { name: "releaseFunc", ty: "System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>>>", modifiers: "", def_value: None }]
+explicit DelegateList_1(System::Func_2<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>,System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>>> acquireFunc, System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>>> releaseFunc) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Func_2<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>>> acquireFunc, ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>>> releaseFunc) ;
+ void _ctor(System::Func_2<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>,System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>>> acquireFunc, System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>>>> releaseFunc) ;
 
 /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t get_Count() ;
 
 /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
- void Add(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>> action) ;
+ void Add(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>> action) ;
 
 /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual false final false
- void Remove(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>> action) ;
+ void Remove(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>> action) ;
 
 /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual false final false
- void Invoke(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t> res) ;
+ void Invoke(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t> res) ;
 
 /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
  void Clear() ;
 
 /// @brief Method CreateWithGlobalCache addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>> CreateWithGlobalCache() ;
+static GlobalNamespace::DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>> CreateWithGlobalCache() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -807,7 +806,7 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14227))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14227), inst: 6241 })
 // CS Name: DelegateList`1
-class CORDL_TYPE DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -843,23 +842,23 @@ constexpr explicit DelegateList_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
- ::System::Func_2<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>>> __declspec(property(get=__get_m_acquireFunc, put=__set_m_acquireFunc))  m_acquireFunc;
+ System::Func_2<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>,System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>>> __declspec(property(get=__get_m_acquireFunc, put=__set_m_acquireFunc))  m_acquireFunc;
 
-constexpr void __set_m_acquireFunc(::System::Func_2<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>>> value) ;
+constexpr void __set_m_acquireFunc(System::Func_2<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>,System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>>> value) ;
 
-constexpr ::System::Func_2<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>>> __get_m_acquireFunc() const;
+constexpr System::Func_2<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>,System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>>> __get_m_acquireFunc() const;
 
- ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>>> __declspec(property(get=__get_m_releaseFunc, put=__set_m_releaseFunc))  m_releaseFunc;
+ System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>>> __declspec(property(get=__get_m_releaseFunc, put=__set_m_releaseFunc))  m_releaseFunc;
 
-constexpr void __set_m_releaseFunc(::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>>> value) ;
+constexpr void __set_m_releaseFunc(System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>>> value) ;
 
-constexpr ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>>> __get_m_releaseFunc() const;
+constexpr System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>>> __get_m_releaseFunc() const;
 
- ::System::Collections::Generic::LinkedList_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>> __declspec(property(get=__get_m_callbacks, put=__set_m_callbacks))  m_callbacks;
+ System::Collections::Generic::LinkedList_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>> __declspec(property(get=__get_m_callbacks, put=__set_m_callbacks))  m_callbacks;
 
-constexpr void __set_m_callbacks(::System::Collections::Generic::LinkedList_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>> value) ;
+constexpr void __set_m_callbacks(System::Collections::Generic::LinkedList_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>> value) ;
 
-constexpr ::System::Collections::Generic::LinkedList_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>> __get_m_callbacks() const;
+constexpr System::Collections::Generic::LinkedList_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>> __get_m_callbacks() const;
 
  bool __declspec(property(get=__get_m_invoking, put=__set_m_invoking))  m_invoking;
 
@@ -875,33 +874,32 @@ constexpr bool __get_m_invoking() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "acquireFunc", ty: "::System::Func_2<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>>>", modifiers: "", def_value: None }, CppParam { name: "releaseFunc", ty: "::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>>>", modifiers: "", def_value: None }]
-explicit DelegateList_1(::System::Func_2<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>>> acquireFunc, ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>>> releaseFunc) ;
+// Ctor Parameters [CppParam { name: "acquireFunc", ty: "System::Func_2<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>,System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>>>", modifiers: "", def_value: None }, CppParam { name: "releaseFunc", ty: "System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>>>", modifiers: "", def_value: None }]
+explicit DelegateList_1(System::Func_2<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>,System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>>> acquireFunc, System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>>> releaseFunc) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Func_2<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>,::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>>> acquireFunc, ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>>> releaseFunc) ;
+ void _ctor(System::Func_2<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>,System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>>> acquireFunc, System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>>>> releaseFunc) ;
 
 /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t get_Count() ;
 
 /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
- void Add(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>> action) ;
+ void Add(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>> action) ;
 
 /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual false final false
- void Remove(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>> action) ;
+ void Remove(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>> action) ;
 
 /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual false final false
- void Invoke(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType> res) ;
+ void Invoke(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType> res) ;
 
 /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
  void Clear() ;
 
 /// @brief Method CreateWithGlobalCache addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>> CreateWithGlobalCache() ;
+static GlobalNamespace::DelegateList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::bs_hook::Il2CppWrapperType>> CreateWithGlobalCache() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::DelegateList_1, "", "DelegateList`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::DelegateList_1, "", "DelegateList`1");

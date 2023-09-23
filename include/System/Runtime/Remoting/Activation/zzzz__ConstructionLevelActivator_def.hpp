@@ -1,12 +1,11 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace System::Runtime::Remoting::Activation {
-class IConstructionReturnMessage;
-}
 namespace System::Runtime::Remoting::Activation {
 class IConstructionCallMessage;
+}
+namespace System::Runtime::Remoting::Activation {
+class IConstructionReturnMessage;
 }
 namespace System::Runtime::Remoting::Activation {
 class IActivator;
@@ -24,8 +23,8 @@ namespace System::Runtime::Remoting::Activation {
 class CORDL_TYPE ConstructionLevelActivator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::Remoting::Activation::IActivator
-constexpr operator  ::System::Runtime::Remoting::Activation::IActivator() const noexcept;
+/// @brief Convert operator to System::Runtime::Remoting::Activation::IActivator
+constexpr operator  System::Runtime::Remoting::Activation::IActivator() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -60,16 +59,16 @@ constexpr explicit ConstructionLevelActivator(void* ptr) noexcept : ::bs_hook::I
 
 // Properties
 
- ::System::Runtime::Remoting::Activation::IActivator __declspec(property(get=get_NextActivator))  NextActivator;
+ System::Runtime::Remoting::Activation::IActivator __declspec(property(get=get_NextActivator))  NextActivator;
 
 
 // Methods
 
 /// @brief Method get_NextActivator addr 0x2338d48 size 0x8 virtual true final true
- ::System::Runtime::Remoting::Activation::IActivator get_NextActivator() ;
+ System::Runtime::Remoting::Activation::IActivator get_NextActivator() ;
 
 /// @brief Method Activate addr 0x2338d50 size 0xf0 virtual true final true
- ::System::Runtime::Remoting::Activation::IConstructionReturnMessage Activate(::System::Runtime::Remoting::Activation::IConstructionCallMessage msg) ;
+ System::Runtime::Remoting::Activation::IConstructionReturnMessage Activate(System::Runtime::Remoting::Activation::IConstructionCallMessage msg) ;
 
 // Ctor Parameters []
 explicit ConstructionLevelActivator() ;
@@ -81,6 +80,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Activation
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Activation::ConstructionLevelActivator);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Activation::ConstructionLevelActivator, "System.Runtime.Remoting.Activation", "ConstructionLevelActivator");
+NEED_NO_BOX(System::Runtime::Remoting::Activation::ConstructionLevelActivator);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Activation::ConstructionLevelActivator, "System.Runtime.Remoting.Activation", "ConstructionLevelActivator");

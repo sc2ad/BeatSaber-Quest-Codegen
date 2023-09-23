@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
@@ -40,24 +39,23 @@ constexpr explicit IAnalyticsModel(void* ptr) noexcept : ::cordl_internals::Inte
  void OpenDataPrivacyPage() ;
 
 /// @brief Method LogEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void LogEvent(::StringW eventType, ::System::Collections::Generic::Dictionary_2<::StringW,::StringW> eventData) ;
+ void LogEvent(::StringW eventType, System::Collections::Generic::Dictionary_2<::StringW,::StringW> eventData) ;
 
 /// @brief Method LogEditAvatarEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void LogEditAvatarEvent(::StringW eventType, ::System::Collections::Generic::Dictionary_2<::StringW,::StringW> eventData) ;
+ void LogEditAvatarEvent(::StringW eventType, System::Collections::Generic::Dictionary_2<::StringW,::StringW> eventData) ;
 
 /// @brief Method LogClick addr 0x0 size 0xffffffffffffffff virtual true final false
- void LogClick(::StringW clickType, ::System::Collections::Generic::Dictionary_2<::StringW,::StringW> clickData) ;
+ void LogClick(::StringW clickType, System::Collections::Generic::Dictionary_2<::StringW,::StringW> clickData) ;
 
 /// @brief Method LogImpression addr 0x0 size 0xffffffffffffffff virtual true final false
- void LogImpression(::StringW impressionType, ::System::Collections::Generic::Dictionary_2<::StringW,::StringW> impressionData) ;
+ void LogImpression(::StringW impressionType, System::Collections::Generic::Dictionary_2<::StringW,::StringW> impressionData) ;
 
 /// @brief Method LogExposure addr 0x0 size 0xffffffffffffffff virtual true final false
- void LogExposure(::StringW exposureType, ::System::Collections::Generic::Dictionary_2<::StringW,::StringW> exposureData) ;
+ void LogExposure(::StringW exposureType, System::Collections::Generic::Dictionary_2<::StringW,::StringW> exposureData) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IAnalyticsModel);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IAnalyticsModel, "", "IAnalyticsModel");
+NEED_NO_BOX(GlobalNamespace::IAnalyticsModel);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IAnalyticsModel, "", "IAnalyticsModel");

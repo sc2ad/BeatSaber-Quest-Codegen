@@ -5,21 +5,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Globalization {
-class CultureData;
+namespace System {
+class IFormatProvider;
 }
 namespace System::Globalization {
 struct CalendarId;
 }
-namespace System {
-struct __DTString;
-}
 namespace System::Globalization {
-class CompareInfo;
-}
-namespace System::Globalization {
-class CultureInfo;
+class CultureData;
 }
 namespace System {
 class Type;
@@ -30,30 +23,36 @@ struct MonthNameStyles;
 namespace System {
 struct TokenType;
 }
+namespace System {
+struct __DTString;
+}
 namespace System::Globalization {
 struct DateTimeFormatFlags;
-}
-namespace System {
-class ICloneable;
-}
-namespace System {
-struct DayOfWeek;
 }
 namespace System::Globalization {
 class Calendar;
 }
 namespace System {
-class IFormatProvider;
+class ICloneable;
 }
 namespace System::Globalization {
 struct DateTimeStyles;
+}
+namespace System::Globalization {
+class CompareInfo;
+}
+namespace System {
+struct DayOfWeek;
+}
+namespace System::Globalization {
+class CultureInfo;
 }
 // Forward declare root types
 namespace System::Globalization {
 class DateTimeFormatInfo;
 }
 namespace System::Globalization {
-class ____System__Globalization__DateTimeFormatInfo__TokenHashValue;
+class System__Globalization__DateTimeFormatInfo__TokenHashValue;
 }
 // Type: ::TokenHashValue
 namespace System::Globalization {
@@ -61,37 +60,37 @@ namespace System::Globalization {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3649))
 // CS Name: System.Globalization.DateTimeFormatInfo::TokenHashValue
-class CORDL_TYPE ____System__Globalization__DateTimeFormatInfo__TokenHashValue : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Globalization__DateTimeFormatInfo__TokenHashValue : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____System__Globalization__DateTimeFormatInfo__TokenHashValue() = default;
+virtual ~System__Globalization__DateTimeFormatInfo__TokenHashValue() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Globalization__DateTimeFormatInfo__TokenHashValue", modifiers: " const&", def_value: None }]
-constexpr ____System__Globalization__DateTimeFormatInfo__TokenHashValue(____System__Globalization__DateTimeFormatInfo__TokenHashValue const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Globalization__DateTimeFormatInfo__TokenHashValue", modifiers: " const&", def_value: None }]
+constexpr System__Globalization__DateTimeFormatInfo__TokenHashValue(System__Globalization__DateTimeFormatInfo__TokenHashValue const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Globalization__DateTimeFormatInfo__TokenHashValue", modifiers: "&&", def_value: None }]
-constexpr ____System__Globalization__DateTimeFormatInfo__TokenHashValue(____System__Globalization__DateTimeFormatInfo__TokenHashValue&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Globalization__DateTimeFormatInfo__TokenHashValue", modifiers: "&&", def_value: None }]
+constexpr System__Globalization__DateTimeFormatInfo__TokenHashValue(System__Globalization__DateTimeFormatInfo__TokenHashValue&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Globalization__DateTimeFormatInfo__TokenHashValue(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Globalization__DateTimeFormatInfo__TokenHashValue(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Globalization__DateTimeFormatInfo__TokenHashValue& operator=(std::nullptr_t) noexcept {
+  constexpr System__Globalization__DateTimeFormatInfo__TokenHashValue& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Globalization__DateTimeFormatInfo__TokenHashValue& operator=(void* o) noexcept {
+  constexpr System__Globalization__DateTimeFormatInfo__TokenHashValue& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Globalization__DateTimeFormatInfo__TokenHashValue& operator=(____System__Globalization__DateTimeFormatInfo__TokenHashValue&& o) noexcept = default;
-  constexpr ____System__Globalization__DateTimeFormatInfo__TokenHashValue& operator=(____System__Globalization__DateTimeFormatInfo__TokenHashValue const& o) noexcept = default;
+  constexpr System__Globalization__DateTimeFormatInfo__TokenHashValue& operator=(System__Globalization__DateTimeFormatInfo__TokenHashValue&& o) noexcept = default;
+  constexpr System__Globalization__DateTimeFormatInfo__TokenHashValue& operator=(System__Globalization__DateTimeFormatInfo__TokenHashValue const& o) noexcept = default;
                 
 
 
@@ -103,11 +102,11 @@ constexpr void __set_tokenString(::StringW value) ;
 
 constexpr ::StringW __get_tokenString() const;
 
- ::System::TokenType __declspec(property(get=__get_tokenType, put=__set_tokenType))  tokenType;
+ System::TokenType __declspec(property(get=__get_tokenType, put=__set_tokenType))  tokenType;
 
-constexpr void __set_tokenType(::System::TokenType value) ;
+constexpr void __set_tokenType(System::TokenType value) ;
 
-constexpr ::System::TokenType __get_tokenType() const;
+constexpr System::TokenType __get_tokenType() const;
 
  int32_t __declspec(property(get=__get_tokenValue, put=__set_tokenValue))  tokenValue;
 
@@ -118,11 +117,11 @@ constexpr int32_t __get_tokenValue() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "tokenString", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "tokenType", ty: "::System::TokenType", modifiers: "", def_value: None }, CppParam { name: "tokenValue", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____System__Globalization__DateTimeFormatInfo__TokenHashValue(::StringW tokenString, ::System::TokenType tokenType, int32_t tokenValue) ;
+// Ctor Parameters [CppParam { name: "tokenString", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "tokenType", ty: "System::TokenType", modifiers: "", def_value: None }, CppParam { name: "tokenValue", ty: "int32_t", modifiers: "", def_value: None }]
+explicit System__Globalization__DateTimeFormatInfo__TokenHashValue(::StringW tokenString, System::TokenType tokenType, int32_t tokenValue) ;
 
 /// @brief Method .ctor addr 0x23e3e58 size 0x3c virtual false final false
- void _ctor(::StringW tokenString, ::System::TokenType tokenType, int32_t tokenValue) ;
+ void _ctor(::StringW tokenString, System::TokenType tokenType, int32_t tokenValue) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -137,13 +136,13 @@ namespace System::Globalization {
 class CORDL_TYPE DateTimeFormatInfo : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using TokenHashValue = ::System::Globalization::____System__Globalization__DateTimeFormatInfo__TokenHashValue;
+using TokenHashValue = System::Globalization::System__Globalization__DateTimeFormatInfo__TokenHashValue;
 
-/// @brief Convert operator to ::System::IFormatProvider
-constexpr operator  ::System::IFormatProvider() const noexcept;
+/// @brief Convert operator to System::IFormatProvider
+constexpr operator  System::IFormatProvider() const noexcept;
 
-/// @brief Convert operator to ::System::ICloneable
-constexpr operator  ::System::ICloneable() const noexcept;
+/// @brief Convert operator to System::ICloneable
+constexpr operator  System::ICloneable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x160};
@@ -178,17 +177,17 @@ constexpr explicit DateTimeFormatInfo(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Fields
 
-static ::System::Globalization::DateTimeFormatInfo __declspec(property(get=__get_s_invariantInfo, put=__set_s_invariantInfo))  s_invariantInfo;
+static System::Globalization::DateTimeFormatInfo __declspec(property(get=__get_s_invariantInfo, put=__set_s_invariantInfo))  s_invariantInfo;
 
-static void __set_s_invariantInfo(::System::Globalization::DateTimeFormatInfo value) ;
+static void __set_s_invariantInfo(System::Globalization::DateTimeFormatInfo value) ;
 
-static ::System::Globalization::DateTimeFormatInfo __get_s_invariantInfo() ;
+static System::Globalization::DateTimeFormatInfo __get_s_invariantInfo() ;
 
- ::System::Globalization::CultureData __declspec(property(get=__get__cultureData, put=__set__cultureData))  _cultureData;
+ System::Globalization::CultureData __declspec(property(get=__get__cultureData, put=__set__cultureData))  _cultureData;
 
-constexpr void __set__cultureData(::System::Globalization::CultureData value) ;
+constexpr void __set__cultureData(System::Globalization::CultureData value) ;
 
-constexpr ::System::Globalization::CultureData __get__cultureData() const;
+constexpr System::Globalization::CultureData __get__cultureData() const;
 
  ::StringW __declspec(property(get=__get__name, put=__set__name))  _name;
 
@@ -202,17 +201,17 @@ constexpr void __set__langName(::StringW value) ;
 
 constexpr ::StringW __get__langName() const;
 
- ::System::Globalization::CompareInfo __declspec(property(get=__get__compareInfo, put=__set__compareInfo))  _compareInfo;
+ System::Globalization::CompareInfo __declspec(property(get=__get__compareInfo, put=__set__compareInfo))  _compareInfo;
 
-constexpr void __set__compareInfo(::System::Globalization::CompareInfo value) ;
+constexpr void __set__compareInfo(System::Globalization::CompareInfo value) ;
 
-constexpr ::System::Globalization::CompareInfo __get__compareInfo() const;
+constexpr System::Globalization::CompareInfo __get__compareInfo() const;
 
- ::System::Globalization::CultureInfo __declspec(property(get=__get__cultureInfo, put=__set__cultureInfo))  _cultureInfo;
+ System::Globalization::CultureInfo __declspec(property(get=__get__cultureInfo, put=__set__cultureInfo))  _cultureInfo;
 
-constexpr void __set__cultureInfo(::System::Globalization::CultureInfo value) ;
+constexpr void __set__cultureInfo(System::Globalization::CultureInfo value) ;
 
-constexpr ::System::Globalization::CultureInfo __get__cultureInfo() const;
+constexpr System::Globalization::CultureInfo __get__cultureInfo() const;
 
  ::StringW __declspec(property(get=__get_amDesignator, put=__set_amDesignator))  amDesignator;
 
@@ -271,11 +270,11 @@ static constexpr ::ConstString  sortableDateTimePattern{u"yyyy\'-\'MM\'-\'dd\'T\
 /// @brief Field universalSortableDateTimePattern offset 0
 static constexpr ::ConstString  universalSortableDateTimePattern{u"yyyy\'-\'MM\'-\'dd HH\':\'mm\':\'ss\'Z\'"};
 
- ::System::Globalization::Calendar __declspec(property(get=__get_calendar, put=__set_calendar))  calendar;
+ System::Globalization::Calendar __declspec(property(get=__get_calendar, put=__set_calendar))  calendar;
 
-constexpr void __set_calendar(::System::Globalization::Calendar value) ;
+constexpr void __set_calendar(System::Globalization::Calendar value) ;
 
-constexpr ::System::Globalization::Calendar __get_calendar() const;
+constexpr System::Globalization::Calendar __get_calendar() const;
 
  int32_t __declspec(property(get=__get_firstDayOfWeek, put=__set_firstDayOfWeek))  firstDayOfWeek;
 
@@ -421,11 +420,11 @@ constexpr void __set_m_abbrevEnglishEraNames(::ArrayW<::StringW> value) ;
 
 constexpr ::ArrayW<::StringW> __get_m_abbrevEnglishEraNames() const;
 
- ::ArrayW<::System::Globalization::CalendarId> __declspec(property(get=__get_optionalCalendars, put=__set_optionalCalendars))  optionalCalendars;
+ ::ArrayW<System::Globalization::CalendarId> __declspec(property(get=__get_optionalCalendars, put=__set_optionalCalendars))  optionalCalendars;
 
-constexpr void __set_optionalCalendars(::ArrayW<::System::Globalization::CalendarId> value) ;
+constexpr void __set_optionalCalendars(::ArrayW<System::Globalization::CalendarId> value) ;
 
-constexpr ::ArrayW<::System::Globalization::CalendarId> __get_optionalCalendars() const;
+constexpr ::ArrayW<System::Globalization::CalendarId> __get_optionalCalendars() const;
 
 /// @brief Field DEFAULT_ALL_DATETIMES_SIZE offset 0
 static constexpr int32_t  DEFAULT_ALL_DATETIMES_SIZE{132};
@@ -436,11 +435,11 @@ constexpr void __set__isReadOnly(bool value) ;
 
 constexpr bool __get__isReadOnly() const;
 
- ::System::Globalization::DateTimeFormatFlags __declspec(property(get=__get_formatFlags, put=__set_formatFlags))  formatFlags;
+ System::Globalization::DateTimeFormatFlags __declspec(property(get=__get_formatFlags, put=__set_formatFlags))  formatFlags;
 
-constexpr void __set_formatFlags(::System::Globalization::DateTimeFormatFlags value) ;
+constexpr void __set_formatFlags(System::Globalization::DateTimeFormatFlags value) ;
 
-constexpr ::System::Globalization::DateTimeFormatFlags __get_formatFlags() const;
+constexpr System::Globalization::DateTimeFormatFlags __get_formatFlags() const;
 
 static ::ArrayW<char16_t> __declspec(property(get=__get_s_monthSpaces, put=__set_s_monthSpaces))  s_monthSpaces;
 
@@ -467,13 +466,13 @@ constexpr void __set__fullTimeSpanNegativePattern(::StringW value) ;
 constexpr ::StringW __get__fullTimeSpanNegativePattern() const;
 
 /// @brief Field InvalidDateTimeStyles offset 0
-static ::System::Globalization::DateTimeStyles const InvalidDateTimeStyles;
+static System::Globalization::DateTimeStyles const InvalidDateTimeStyles;
 
- ::ArrayW<::System::Globalization::____System__Globalization__DateTimeFormatInfo__TokenHashValue> __declspec(property(get=__get__dtfiTokenHash, put=__set__dtfiTokenHash))  _dtfiTokenHash;
+ ::ArrayW<System::Globalization::System__Globalization__DateTimeFormatInfo__TokenHashValue> __declspec(property(get=__get__dtfiTokenHash, put=__set__dtfiTokenHash))  _dtfiTokenHash;
 
-constexpr void __set__dtfiTokenHash(::ArrayW<::System::Globalization::____System__Globalization__DateTimeFormatInfo__TokenHashValue> value) ;
+constexpr void __set__dtfiTokenHash(::ArrayW<System::Globalization::System__Globalization__DateTimeFormatInfo__TokenHashValue> value) ;
 
-constexpr ::ArrayW<::System::Globalization::____System__Globalization__DateTimeFormatInfo__TokenHashValue> __get__dtfiTokenHash() const;
+constexpr ::ArrayW<System::Globalization::System__Globalization__DateTimeFormatInfo__TokenHashValue> __get__dtfiTokenHash() const;
 
 /// @brief Field TOKEN_HASH_SIZE offset 0
 static constexpr int32_t  TOKEN_HASH_SIZE{199};
@@ -556,36 +555,36 @@ static constexpr ::ConstString  JapaneseLangName{u"ja"};
 /// @brief Field EnglishLangName offset 0
 static constexpr ::ConstString  EnglishLangName{u"en"};
 
-static ::System::Globalization::DateTimeFormatInfo __declspec(property(get=__get_s_jajpDTFI, put=__set_s_jajpDTFI))  s_jajpDTFI;
+static System::Globalization::DateTimeFormatInfo __declspec(property(get=__get_s_jajpDTFI, put=__set_s_jajpDTFI))  s_jajpDTFI;
 
-static void __set_s_jajpDTFI(::System::Globalization::DateTimeFormatInfo value) ;
+static void __set_s_jajpDTFI(System::Globalization::DateTimeFormatInfo value) ;
 
-static ::System::Globalization::DateTimeFormatInfo __get_s_jajpDTFI() ;
+static System::Globalization::DateTimeFormatInfo __get_s_jajpDTFI() ;
 
-static ::System::Globalization::DateTimeFormatInfo __declspec(property(get=__get_s_zhtwDTFI, put=__set_s_zhtwDTFI))  s_zhtwDTFI;
+static System::Globalization::DateTimeFormatInfo __declspec(property(get=__get_s_zhtwDTFI, put=__set_s_zhtwDTFI))  s_zhtwDTFI;
 
-static void __set_s_zhtwDTFI(::System::Globalization::DateTimeFormatInfo value) ;
+static void __set_s_zhtwDTFI(System::Globalization::DateTimeFormatInfo value) ;
 
-static ::System::Globalization::DateTimeFormatInfo __get_s_zhtwDTFI() ;
+static System::Globalization::DateTimeFormatInfo __get_s_zhtwDTFI() ;
 
 
 // Properties
 
  ::StringW __declspec(property(get=get_CultureName))  CultureName;
 
- ::System::Globalization::CultureInfo __declspec(property(get=get_Culture))  Culture;
+ System::Globalization::CultureInfo __declspec(property(get=get_Culture))  Culture;
 
  ::StringW __declspec(property(get=get_LanguageName))  LanguageName;
 
-static ::System::Globalization::DateTimeFormatInfo __declspec(property(get=get_InvariantInfo))  InvariantInfo;
+static System::Globalization::DateTimeFormatInfo __declspec(property(get=get_InvariantInfo))  InvariantInfo;
 
-static ::System::Globalization::DateTimeFormatInfo __declspec(property(get=get_CurrentInfo))  CurrentInfo;
+static System::Globalization::DateTimeFormatInfo __declspec(property(get=get_CurrentInfo))  CurrentInfo;
 
  ::StringW __declspec(property(get=get_AMDesignator))  AMDesignator;
 
- ::System::Globalization::Calendar __declspec(property(get=get_Calendar, put=set_Calendar))  Calendar;
+ System::Globalization::Calendar __declspec(property(get=get_Calendar, put=set_Calendar))  Calendar;
 
- ::ArrayW<::System::Globalization::CalendarId> __declspec(property(get=get_OptionalCalendars))  OptionalCalendars;
+ ::ArrayW<System::Globalization::CalendarId> __declspec(property(get=get_OptionalCalendars))  OptionalCalendars;
 
  ::ArrayW<::StringW> __declspec(property(get=get_EraNames))  EraNames;
 
@@ -665,9 +664,9 @@ static ::System::Globalization::DateTimeFormatInfo __declspec(property(get=get_C
 
  ::StringW __declspec(property(get=get_FullTimeSpanNegativePattern))  FullTimeSpanNegativePattern;
 
- ::System::Globalization::CompareInfo __declspec(property(get=get_CompareInfo))  CompareInfo;
+ System::Globalization::CompareInfo __declspec(property(get=get_CompareInfo))  CompareInfo;
 
- ::System::Globalization::DateTimeFormatFlags __declspec(property(get=get_FormatFlags))  FormatFlags;
+ System::Globalization::DateTimeFormatFlags __declspec(property(get=get_FormatFlags))  FormatFlags;
 
  bool __declspec(property(get=get_HasForceTwoDigitYears))  HasForceTwoDigitYears;
 
@@ -680,7 +679,7 @@ static ::System::Globalization::DateTimeFormatInfo __declspec(property(get=get_C
  ::StringW get_CultureName() ;
 
 /// @brief Method get_Culture addr 0x23de3e4 size 0x84 virtual false final false
- ::System::Globalization::CultureInfo get_Culture() ;
+ System::Globalization::CultureInfo get_Culture() ;
 
 /// @brief Method get_LanguageName addr 0x23de468 size 0x2c virtual false final false
  ::StringW get_LanguageName() ;
@@ -715,26 +714,26 @@ explicit DateTimeFormatInfo() ;
 /// @brief Method .ctor addr 0x23de614 size 0xd0 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "cultureData", ty: "::System::Globalization::CultureData", modifiers: "", def_value: None }, CppParam { name: "cal", ty: "::System::Globalization::Calendar", modifiers: "", def_value: None }]
-explicit DateTimeFormatInfo(::System::Globalization::CultureData cultureData, ::System::Globalization::Calendar cal) ;
+// Ctor Parameters [CppParam { name: "cultureData", ty: "System::Globalization::CultureData", modifiers: "", def_value: None }, CppParam { name: "cal", ty: "System::Globalization::Calendar", modifiers: "", def_value: None }]
+explicit DateTimeFormatInfo(System::Globalization::CultureData cultureData, System::Globalization::Calendar cal) ;
 
 /// @brief Method .ctor addr 0x23de8d0 size 0x44 virtual false final false
- void _ctor(::System::Globalization::CultureData cultureData, ::System::Globalization::Calendar cal) ;
+ void _ctor(System::Globalization::CultureData cultureData, System::Globalization::Calendar cal) ;
 
 /// @brief Method InitializeOverridableProperties addr 0x23de7b4 size 0x11c virtual false final false
- void InitializeOverridableProperties(::System::Globalization::CultureData cultureData, int32_t calendarId) ;
+ void InitializeOverridableProperties(System::Globalization::CultureData cultureData, int32_t calendarId) ;
 
 /// @brief Method get_InvariantInfo addr 0x23debc0 size 0xd0 virtual false final false
-static ::System::Globalization::DateTimeFormatInfo get_InvariantInfo() ;
+static System::Globalization::DateTimeFormatInfo get_InvariantInfo() ;
 
 /// @brief Method get_CurrentInfo addr 0x23dec90 size 0x10c virtual false final false
-static ::System::Globalization::DateTimeFormatInfo get_CurrentInfo() ;
+static System::Globalization::DateTimeFormatInfo get_CurrentInfo() ;
 
 /// @brief Method GetInstance addr 0x23ded9c size 0x1c0 virtual false final false
-static ::System::Globalization::DateTimeFormatInfo GetInstance(::System::IFormatProvider provider) ;
+static System::Globalization::DateTimeFormatInfo GetInstance(System::IFormatProvider provider) ;
 
 /// @brief Method GetFormat addr 0x23def5c size 0x98 virtual true final true
- ::bs_hook::Il2CppWrapperType GetFormat(::System::Type formatType) ;
+ ::bs_hook::Il2CppWrapperType GetFormat(System::Type formatType) ;
 
 /// @brief Method Clone addr 0x23deff4 size 0x100 virtual true final true
  ::bs_hook::Il2CppWrapperType Clone() ;
@@ -743,13 +742,13 @@ static ::System::Globalization::DateTimeFormatInfo GetInstance(::System::IFormat
  ::StringW get_AMDesignator() ;
 
 /// @brief Method get_Calendar addr 0x23df120 size 0x8 virtual false final false
- ::System::Globalization::Calendar get_Calendar() ;
+ System::Globalization::Calendar get_Calendar() ;
 
 /// @brief Method set_Calendar addr 0x23de914 size 0x2ac virtual false final false
- void set_Calendar(::System::Globalization::Calendar value) ;
+ void set_Calendar(System::Globalization::Calendar value) ;
 
 /// @brief Method get_OptionalCalendars addr 0x23df1cc size 0x30 virtual false final false
- ::ArrayW<::System::Globalization::CalendarId> get_OptionalCalendars() ;
+ ::ArrayW<System::Globalization::CalendarId> get_OptionalCalendars() ;
 
 /// @brief Method get_EraNames addr 0x23df20c size 0x54 virtual false final false
  ::ArrayW<::StringW> get_EraNames() ;
@@ -833,7 +832,7 @@ static ::System::Globalization::DateTimeFormatInfo GetInstance(::System::IFormat
  bool get_HasSpacesInDayNames() ;
 
 /// @brief Method internalGetMonthName addr 0x23dfe88 size 0x16c virtual false final false
- ::StringW internalGetMonthName(int32_t month, ::System::Globalization::MonthNameStyles style, bool abbreviated) ;
+ ::StringW internalGetMonthName(int32_t month, System::Globalization::MonthNameStyles style, bool abbreviated) ;
 
 /// @brief Method internalGetGenitiveMonthNames addr 0x23dfff4 size 0x94 virtual false final false
  ::ArrayW<::StringW> internalGetGenitiveMonthNames(bool abbreviated) ;
@@ -842,7 +841,7 @@ static ::System::Globalization::DateTimeFormatInfo GetInstance(::System::IFormat
  ::ArrayW<::StringW> internalGetLeapYearMonthNames() ;
 
 /// @brief Method GetAbbreviatedDayName addr 0x23e00dc size 0x100 virtual false final false
- ::StringW GetAbbreviatedDayName(::System::DayOfWeek dayofweek) ;
+ ::StringW GetAbbreviatedDayName(System::DayOfWeek dayofweek) ;
 
 /// @brief Method GetCombinedPatterns addr 0x23e01dc size 0x16c virtual false final false
 static ::ArrayW<::StringW> GetCombinedPatterns(::ArrayW<::StringW> patterns1, ::ArrayW<::StringW> patterns2, ::StringW connectString) ;
@@ -851,7 +850,7 @@ static ::ArrayW<::StringW> GetCombinedPatterns(::ArrayW<::StringW> patterns1, ::
  ::ArrayW<::StringW> GetAllDateTimePatterns(char16_t format) ;
 
 /// @brief Method GetDayName addr 0x23e0908 size 0x100 virtual false final false
- ::StringW GetDayName(::System::DayOfWeek dayofweek) ;
+ ::StringW GetDayName(System::DayOfWeek dayofweek) ;
 
 /// @brief Method GetAbbreviatedMonthName addr 0x23e0a08 size 0x104 virtual false final false
  ::StringW GetAbbreviatedMonthName(int32_t month) ;
@@ -905,16 +904,16 @@ static ::ArrayW<::StringW> GetMergedPatterns(::ArrayW<::StringW> patterns, ::Str
  ::StringW get_FullTimeSpanNegativePattern() ;
 
 /// @brief Method get_CompareInfo addr 0x23e0fb0 size 0x84 virtual false final false
- ::System::Globalization::CompareInfo get_CompareInfo() ;
+ System::Globalization::CompareInfo get_CompareInfo() ;
 
 /// @brief Method ValidateStyles addr 0x23e1034 size 0xd8 virtual false final false
-static void ValidateStyles(::System::Globalization::DateTimeStyles style, ::StringW parameterName) ;
+static void ValidateStyles(System::Globalization::DateTimeStyles style, ::StringW parameterName) ;
 
 /// @brief Method get_FormatFlags addr 0x23dfe48 size 0x18 virtual false final false
- ::System::Globalization::DateTimeFormatFlags get_FormatFlags() ;
+ System::Globalization::DateTimeFormatFlags get_FormatFlags() ;
 
 /// @brief Method InitializeFormatFlags addr 0x23e110c size 0x13c virtual false final false
- ::System::Globalization::DateTimeFormatFlags InitializeFormatFlags() ;
+ System::Globalization::DateTimeFormatFlags InitializeFormatFlags() ;
 
 /// @brief Method get_HasForceTwoDigitYears addr 0x23e136c size 0x34 virtual false final false
  bool get_HasForceTwoDigitYears() ;
@@ -926,28 +925,28 @@ static void ValidateStyles(::System::Globalization::DateTimeStyles style, ::Stri
  bool YearMonthAdjustment(ByRef<int32_t> year, ByRef<int32_t> month, bool parsedMonthName) ;
 
 /// @brief Method GetJapaneseCalendarDTFI addr 0x23e14fc size 0x194 virtual false final false
-static ::System::Globalization::DateTimeFormatInfo GetJapaneseCalendarDTFI() ;
+static System::Globalization::DateTimeFormatInfo GetJapaneseCalendarDTFI() ;
 
 /// @brief Method GetTaiwanCalendarDTFI addr 0x23e1690 size 0x194 virtual false final false
-static ::System::Globalization::DateTimeFormatInfo GetTaiwanCalendarDTFI() ;
+static System::Globalization::DateTimeFormatInfo GetTaiwanCalendarDTFI() ;
 
 /// @brief Method ClearTokenHashTable addr 0x23df1fc size 0x10 virtual false final false
  void ClearTokenHashTable() ;
 
 /// @brief Method CreateTokenHashTable addr 0x23e1824 size 0x8f0 virtual false final false
- ::ArrayW<::System::Globalization::____System__Globalization__DateTimeFormatInfo__TokenHashValue> CreateTokenHashTable() ;
+ ::ArrayW<System::Globalization::System__Globalization__DateTimeFormatInfo__TokenHashValue> CreateTokenHashTable() ;
 
 /// @brief Method PopulateSpecialTokenHashTable addr 0x23e2410 size 0x8dc virtual false final false
- void PopulateSpecialTokenHashTable(::ArrayW<::System::Globalization::____System__Globalization__DateTimeFormatInfo__TokenHashValue> temp, ByRef<bool> useDateSepAsIgnorableSymbol) ;
+ void PopulateSpecialTokenHashTable(::ArrayW<System::Globalization::System__Globalization__DateTimeFormatInfo__TokenHashValue> temp, ByRef<bool> useDateSepAsIgnorableSymbol) ;
 
 /// @brief Method IsJapaneseCalendar addr 0x23e30d4 size 0x13c virtual false final false
-static bool IsJapaneseCalendar(::System::Globalization::Calendar calendar) ;
+static bool IsJapaneseCalendar(System::Globalization::Calendar calendar) ;
 
 /// @brief Method AddMonthNames addr 0x23e2cec size 0xac virtual false final false
- void AddMonthNames(::ArrayW<::System::Globalization::____System__Globalization__DateTimeFormatInfo__TokenHashValue> temp, ::StringW monthPostfix) ;
+ void AddMonthNames(::ArrayW<System::Globalization::System__Globalization__DateTimeFormatInfo__TokenHashValue> temp, ::StringW monthPostfix) ;
 
 /// @brief Method TryParseHebrewNumber addr 0x23e3210 size 0x134 virtual false final false
-static bool TryParseHebrewNumber(ByRef<::System::__DTString> str, ByRef<bool> badFormat, ByRef<int32_t> number) ;
+static bool TryParseHebrewNumber(ByRef<System::__DTString> str, ByRef<bool> badFormat, ByRef<int32_t> number) ;
 
 /// @brief Method IsHebrewChar addr 0x23e35b0 size 0x14 virtual false final false
 static bool IsHebrewChar(char16_t ch) ;
@@ -956,13 +955,13 @@ static bool IsHebrewChar(char16_t ch) ;
  bool IsAllowedJapaneseTokenFollowedByNonSpaceLetter(::StringW tokenString, char16_t nextCh) ;
 
 /// @brief Method Tokenize addr 0x23e36cc size 0x5cc virtual false final false
- bool Tokenize(::System::TokenType TokenMask, ByRef<::System::TokenType> tokenType, ByRef<int32_t> tokenValue, ByRef<::System::__DTString> str) ;
+ bool Tokenize(System::TokenType TokenMask, ByRef<System::TokenType> tokenType, ByRef<int32_t> tokenValue, ByRef<System::__DTString> str) ;
 
 /// @brief Method InsertAtCurrentHashNode addr 0x23e3c98 size 0x1c0 virtual false final false
- void InsertAtCurrentHashNode(::ArrayW<::System::Globalization::____System__Globalization__DateTimeFormatInfo__TokenHashValue> hashTable, ::StringW str, char16_t ch, ::System::TokenType tokenType, int32_t tokenValue, int32_t pos, int32_t hashcode, int32_t hashProbe) ;
+ void InsertAtCurrentHashNode(::ArrayW<System::Globalization::System__Globalization__DateTimeFormatInfo__TokenHashValue> hashTable, ::StringW str, char16_t ch, System::TokenType tokenType, int32_t tokenValue, int32_t pos, int32_t hashcode, int32_t hashProbe) ;
 
 /// @brief Method InsertHash addr 0x23e2114 size 0x2fc virtual false final false
- void InsertHash(::ArrayW<::System::Globalization::____System__Globalization__DateTimeFormatInfo__TokenHashValue> hashTable, ::StringW str, ::System::TokenType tokenType, int32_t tokenValue) ;
+ void InsertHash(::ArrayW<System::Globalization::System__Globalization__DateTimeFormatInfo__TokenHashValue> hashTable, ::StringW str, System::TokenType tokenType, int32_t tokenValue) ;
 
 /// @brief Method CompareStringIgnoreCaseOptimized addr 0x23e3e94 size 0xf4 virtual false final false
  bool CompareStringIgnoreCaseOptimized(::StringW string1, int32_t offset1, int32_t length1, ::StringW string2, int32_t offset2, int32_t length2) ;
@@ -971,8 +970,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Globalization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Globalization::DateTimeFormatInfo);
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::DateTimeFormatInfo, "System.Globalization", "DateTimeFormatInfo");
-NEED_NO_BOX(::System::Globalization::____System__Globalization__DateTimeFormatInfo__TokenHashValue);
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::____System__Globalization__DateTimeFormatInfo__TokenHashValue, "System.Globalization", "DateTimeFormatInfo/TokenHashValue");
+NEED_NO_BOX(System::Globalization::DateTimeFormatInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::DateTimeFormatInfo, "System.Globalization", "DateTimeFormatInfo");
+NEED_NO_BOX(System::Globalization::System__Globalization__DateTimeFormatInfo__TokenHashValue);
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::System__Globalization__DateTimeFormatInfo__TokenHashValue, "System.Globalization", "DateTimeFormatInfo/TokenHashValue");

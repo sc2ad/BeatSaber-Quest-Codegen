@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 struct Span_1;
@@ -66,21 +65,20 @@ constexpr explicit BigNumber(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 // Methods
 
 /// @brief Method ParseFormatSpecifier addr 0x26b51e0 size 0xf0 virtual false final false
-static char16_t ParseFormatSpecifier(::System::ReadOnlySpan_1<char16_t> format, ByRef<int32_t> digits) ;
+static char16_t ParseFormatSpecifier(System::ReadOnlySpan_1<char16_t> format, ByRef<int32_t> digits) ;
 
 /// @brief Method FormatBigIntegerToHex addr 0x26b52d0 size 0x5e4 virtual false final false
-static ::StringW FormatBigIntegerToHex(bool targetSpan, ::System::Numerics::BigInteger value, char16_t format, int32_t digits, ::System::Globalization::NumberFormatInfo info, ::System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten, ByRef<bool> spanSuccess) ;
+static ::StringW FormatBigIntegerToHex(bool targetSpan, System::Numerics::BigInteger value, char16_t format, int32_t digits, System::Globalization::NumberFormatInfo info, System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten, ByRef<bool> spanSuccess) ;
 
 /// @brief Method FormatBigInteger addr 0x26b3f7c size 0xac virtual false final false
-static ::StringW FormatBigInteger(::System::Numerics::BigInteger value, ::StringW format, ::System::Globalization::NumberFormatInfo info) ;
+static ::StringW FormatBigInteger(System::Numerics::BigInteger value, ::StringW format, System::Globalization::NumberFormatInfo info) ;
 
 /// @brief Method FormatBigInteger addr 0x26b5eb8 size 0xa00 virtual false final false
-static ::StringW FormatBigInteger(bool targetSpan, ::System::Numerics::BigInteger value, ::StringW formatString, ::System::ReadOnlySpan_1<char16_t> formatSpan, ::System::Globalization::NumberFormatInfo info, ::System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten, ByRef<bool> spanSuccess) ;
+static ::StringW FormatBigInteger(bool targetSpan, System::Numerics::BigInteger value, ::StringW formatString, System::ReadOnlySpan_1<char16_t> formatSpan, System::Globalization::NumberFormatInfo info, System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten, ByRef<bool> spanSuccess) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Numerics
-} // end anonymous namespace
-NEED_NO_BOX(::System::Numerics::BigNumber);
-DEFINE_IL2CPP_ARG_TYPE(::System::Numerics::BigNumber, "System.Numerics", "BigNumber");
+NEED_NO_BOX(System::Numerics::BigNumber);
+DEFINE_IL2CPP_ARG_TYPE(System::Numerics::BigNumber, "System.Numerics", "BigNumber");

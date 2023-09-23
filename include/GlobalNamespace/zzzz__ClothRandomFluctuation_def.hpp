@@ -3,10 +3,6 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
-namespace UnityEngine {
-class Cloth;
-}
 namespace UnityEngine {
 struct Vector3;
 }
@@ -14,12 +10,15 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace UnityEngine {
+class Cloth;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class ClothRandomFluctuation;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__ClothRandomFluctuation__SineLayer;
+class GlobalNamespace__ClothRandomFluctuation__SineLayer;
 }
 // Type: ::SineLayer
 namespace GlobalNamespace {
@@ -27,37 +26,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3992))
 // CS Name: ClothRandomFluctuation::SineLayer
-class CORDL_TYPE ____GlobalNamespace__ClothRandomFluctuation__SineLayer : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__ClothRandomFluctuation__SineLayer : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____GlobalNamespace__ClothRandomFluctuation__SineLayer() = default;
+virtual ~GlobalNamespace__ClothRandomFluctuation__SineLayer() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__ClothRandomFluctuation__SineLayer", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__ClothRandomFluctuation__SineLayer(____GlobalNamespace__ClothRandomFluctuation__SineLayer const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__ClothRandomFluctuation__SineLayer", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__ClothRandomFluctuation__SineLayer(GlobalNamespace__ClothRandomFluctuation__SineLayer const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__ClothRandomFluctuation__SineLayer", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__ClothRandomFluctuation__SineLayer(____GlobalNamespace__ClothRandomFluctuation__SineLayer&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__ClothRandomFluctuation__SineLayer", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__ClothRandomFluctuation__SineLayer(GlobalNamespace__ClothRandomFluctuation__SineLayer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__ClothRandomFluctuation__SineLayer(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__ClothRandomFluctuation__SineLayer(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__ClothRandomFluctuation__SineLayer& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__ClothRandomFluctuation__SineLayer& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__ClothRandomFluctuation__SineLayer& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__ClothRandomFluctuation__SineLayer& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__ClothRandomFluctuation__SineLayer& operator=(____GlobalNamespace__ClothRandomFluctuation__SineLayer&& o) noexcept = default;
-  constexpr ____GlobalNamespace__ClothRandomFluctuation__SineLayer& operator=(____GlobalNamespace__ClothRandomFluctuation__SineLayer const& o) noexcept = default;
+  constexpr GlobalNamespace__ClothRandomFluctuation__SineLayer& operator=(GlobalNamespace__ClothRandomFluctuation__SineLayer&& o) noexcept = default;
+  constexpr GlobalNamespace__ClothRandomFluctuation__SineLayer& operator=(GlobalNamespace__ClothRandomFluctuation__SineLayer const& o) noexcept = default;
                 
 
 
@@ -79,7 +78,7 @@ constexpr float_t __get_offset() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__ClothRandomFluctuation__SineLayer() ;
+explicit GlobalNamespace__ClothRandomFluctuation__SineLayer() ;
 
 /// @brief Method .ctor addr 0x20af67c size 0x8 virtual false final false
  void _ctor() ;
@@ -94,10 +93,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3993))
 // CS Name: ClothRandomFluctuation
-class CORDL_TYPE ClothRandomFluctuation : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ClothRandomFluctuation : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using SineLayer = ::GlobalNamespace::____GlobalNamespace__ClothRandomFluctuation__SineLayer;
+using SineLayer = GlobalNamespace::GlobalNamespace__ClothRandomFluctuation__SineLayer;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x60};
@@ -111,7 +110,7 @@ constexpr ClothRandomFluctuation(ClothRandomFluctuation const& ) noexcept = defa
 constexpr ClothRandomFluctuation(ClothRandomFluctuation&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ClothRandomFluctuation(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ClothRandomFluctuation(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -132,11 +131,11 @@ constexpr explicit ClothRandomFluctuation(void* ptr) noexcept : ::UnityEngine::M
 
 // Fields
 
- ::UnityEngine::Cloth __declspec(property(get=__get__cloth, put=__set__cloth))  _cloth;
+ UnityEngine::Cloth __declspec(property(get=__get__cloth, put=__set__cloth))  _cloth;
 
-constexpr void __set__cloth(::UnityEngine::Cloth value) ;
+constexpr void __set__cloth(UnityEngine::Cloth value) ;
 
-constexpr ::UnityEngine::Cloth __get__cloth() const;
+constexpr UnityEngine::Cloth __get__cloth() const;
 
  bool __declspec(property(get=__get__useLocalExternalFluctuations, put=__set__useLocalExternalFluctuations))  _useLocalExternalFluctuations;
 
@@ -144,11 +143,11 @@ constexpr void __set__useLocalExternalFluctuations(bool value) ;
 
 constexpr bool __get__useLocalExternalFluctuations() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__externalFluctuations, put=__set__externalFluctuations))  _externalFluctuations;
+ UnityEngine::Vector3 __declspec(property(get=__get__externalFluctuations, put=__set__externalFluctuations))  _externalFluctuations;
 
-constexpr void __set__externalFluctuations(::UnityEngine::Vector3 value) ;
+constexpr void __set__externalFluctuations(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__externalFluctuations() const;
+constexpr UnityEngine::Vector3 __get__externalFluctuations() const;
 
  bool __declspec(property(get=__get__useLocalRandomFluctuations, put=__set__useLocalRandomFluctuations))  _useLocalRandomFluctuations;
 
@@ -156,23 +155,23 @@ constexpr void __set__useLocalRandomFluctuations(bool value) ;
 
 constexpr bool __get__useLocalRandomFluctuations() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__minFluctuations, put=__set__minFluctuations))  _minFluctuations;
+ UnityEngine::Vector3 __declspec(property(get=__get__minFluctuations, put=__set__minFluctuations))  _minFluctuations;
 
-constexpr void __set__minFluctuations(::UnityEngine::Vector3 value) ;
+constexpr void __set__minFluctuations(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__minFluctuations() const;
+constexpr UnityEngine::Vector3 __get__minFluctuations() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__maxFluctuations, put=__set__maxFluctuations))  _maxFluctuations;
+ UnityEngine::Vector3 __declspec(property(get=__get__maxFluctuations, put=__set__maxFluctuations))  _maxFluctuations;
 
-constexpr void __set__maxFluctuations(::UnityEngine::Vector3 value) ;
+constexpr void __set__maxFluctuations(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__maxFluctuations() const;
+constexpr UnityEngine::Vector3 __get__maxFluctuations() const;
 
- ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__ClothRandomFluctuation__SineLayer> __declspec(property(get=__get__compoundSins, put=__set__compoundSins))  _compoundSins;
+ System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__ClothRandomFluctuation__SineLayer> __declspec(property(get=__get__compoundSins, put=__set__compoundSins))  _compoundSins;
 
-constexpr void __set__compoundSins(::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__ClothRandomFluctuation__SineLayer> value) ;
+constexpr void __set__compoundSins(System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__ClothRandomFluctuation__SineLayer> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__ClothRandomFluctuation__SineLayer> __get__compoundSins() const;
+constexpr System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__ClothRandomFluctuation__SineLayer> __get__compoundSins() const;
 
  float_t __declspec(property(get=__get__speed, put=__set__speed))  _speed;
 
@@ -187,7 +186,7 @@ constexpr float_t __get__speed() const;
  void Update() ;
 
 /// @brief Method FluctuateCloth addr 0x20af400 size 0x170 virtual false final false
- void FluctuateCloth(::UnityEngine::Cloth cloth) ;
+ void FluctuateCloth(UnityEngine::Cloth cloth) ;
 
 /// @brief Method GetNoise addr 0x20af570 size 0x104 virtual false final false
  float_t GetNoise(float_t time, float_t offset) ;
@@ -202,8 +201,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ClothRandomFluctuation);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ClothRandomFluctuation, "", "ClothRandomFluctuation");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__ClothRandomFluctuation__SineLayer);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__ClothRandomFluctuation__SineLayer, "", "ClothRandomFluctuation/SineLayer");
+NEED_NO_BOX(GlobalNamespace::ClothRandomFluctuation);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ClothRandomFluctuation, "", "ClothRandomFluctuation");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__ClothRandomFluctuation__SineLayer);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__ClothRandomFluctuation__SineLayer, "", "ClothRandomFluctuation/SineLayer");

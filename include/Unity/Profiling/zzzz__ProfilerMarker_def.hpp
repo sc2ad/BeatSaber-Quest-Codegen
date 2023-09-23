@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
 class IDisposable;
 }
@@ -12,7 +11,7 @@ namespace Unity::Profiling {
 struct ProfilerMarker;
 }
 namespace Unity::Profiling {
-struct ____Unity__Profiling__ProfilerMarker__AutoScope;
+struct Unity__Profiling__ProfilerMarker__AutoScope;
 }
 // Type: ::AutoScope
 namespace Unity::Profiling {
@@ -20,23 +19,23 @@ namespace Unity::Profiling {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9907))
 // CS Name: Unity.Profiling.ProfilerMarker::AutoScope
-struct CORDL_TYPE ____Unity__Profiling__ProfilerMarker__AutoScope : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Unity__Profiling__ProfilerMarker__AutoScope : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const;
 
 // Ctor Parameters [CppParam { name: "m_Ptr", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-constexpr ____Unity__Profiling__ProfilerMarker__AutoScope(::cordl_internals::intptr_t m_Ptr) noexcept;
+constexpr Unity__Profiling__ProfilerMarker__AutoScope(::cordl_internals::intptr_t m_Ptr) noexcept;
 
 
-                    constexpr ____Unity__Profiling__ProfilerMarker__AutoScope(____Unity__Profiling__ProfilerMarker__AutoScope const&) = default;
-                    constexpr ____Unity__Profiling__ProfilerMarker__AutoScope(____Unity__Profiling__ProfilerMarker__AutoScope&&) = default;
-                    constexpr ____Unity__Profiling__ProfilerMarker__AutoScope& operator=(____Unity__Profiling__ProfilerMarker__AutoScope const& o) {
+                    constexpr Unity__Profiling__ProfilerMarker__AutoScope(Unity__Profiling__ProfilerMarker__AutoScope const&) = default;
+                    constexpr Unity__Profiling__ProfilerMarker__AutoScope(Unity__Profiling__ProfilerMarker__AutoScope&&) = default;
+                    constexpr Unity__Profiling__ProfilerMarker__AutoScope& operator=(Unity__Profiling__ProfilerMarker__AutoScope const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____Unity__Profiling__ProfilerMarker__AutoScope& operator=(____Unity__Profiling__ProfilerMarker__AutoScope&& o) noexcept {
+                    constexpr Unity__Profiling__ProfilerMarker__AutoScope& operator=(Unity__Profiling__ProfilerMarker__AutoScope&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -49,7 +48,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x8};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____Unity__Profiling__ProfilerMarker__AutoScope(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit Unity__Profiling__ProfilerMarker__AutoScope(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -88,7 +87,7 @@ namespace Unity::Profiling {
 struct CORDL_TYPE ProfilerMarker : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-using AutoScope = ::Unity::Profiling::____Unity__Profiling__ProfilerMarker__AutoScope;
+using AutoScope = Unity::Profiling::Unity__Profiling__ProfilerMarker__AutoScope;
 
 // Ctor Parameters [CppParam { name: "m_Ptr", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
 constexpr ProfilerMarker(::cordl_internals::intptr_t m_Ptr) noexcept;
@@ -137,12 +136,11 @@ constexpr ::cordl_internals::intptr_t __get_m_Ptr() const;
  void _ctor(::StringW name) ;
 
 /// @brief Method Auto addr 0x2b27bd0 size 0x88 virtual false final false
- ::Unity::Profiling::____Unity__Profiling__ProfilerMarker__AutoScope Auto() ;
+ Unity::Profiling::Unity__Profiling__ProfilerMarker__AutoScope Auto() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Unity::Profiling
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Unity::Profiling::ProfilerMarker, "Unity.Profiling", "ProfilerMarker");
-DEFINE_IL2CPP_ARG_TYPE(::Unity::Profiling::____Unity__Profiling__ProfilerMarker__AutoScope, "Unity.Profiling", "ProfilerMarker/AutoScope");
+DEFINE_IL2CPP_ARG_TYPE(Unity::Profiling::ProfilerMarker, "Unity.Profiling", "ProfilerMarker");
+DEFINE_IL2CPP_ARG_TYPE(Unity::Profiling::Unity__Profiling__ProfilerMarker__AutoScope, "Unity.Profiling", "ProfilerMarker/AutoScope");

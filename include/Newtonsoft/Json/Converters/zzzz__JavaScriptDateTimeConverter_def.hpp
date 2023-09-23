@@ -2,18 +2,17 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__DateTimeConverterBase_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace Newtonsoft::Json {
-class JsonSerializer;
-}
-namespace Newtonsoft::Json {
-class JsonWriter;
-}
 namespace System {
 class Type;
 }
 namespace Newtonsoft::Json {
 class JsonReader;
+}
+namespace Newtonsoft::Json {
+class JsonWriter;
+}
+namespace Newtonsoft::Json {
+class JsonSerializer;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -25,7 +24,7 @@ namespace Newtonsoft::Json::Converters {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11974))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11989))
 // CS Name: Newtonsoft.Json.Converters.JavaScriptDateTimeConverter
-class CORDL_TYPE JavaScriptDateTimeConverter : public ::Newtonsoft::Json::Converters::DateTimeConverterBase {
+class CORDL_TYPE JavaScriptDateTimeConverter : public Newtonsoft::Json::Converters::DateTimeConverterBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr JavaScriptDateTimeConverter(JavaScriptDateTimeConverter const& ) noexc
 constexpr JavaScriptDateTimeConverter(JavaScriptDateTimeConverter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit JavaScriptDateTimeConverter(void* ptr) noexcept : ::Newtonsoft::Json::Converters::DateTimeConverterBase(ptr) {
+constexpr explicit JavaScriptDateTimeConverter(void* ptr) noexcept : Newtonsoft::Json::Converters::DateTimeConverterBase(ptr) {
 }
 
 
@@ -62,10 +61,10 @@ constexpr explicit JavaScriptDateTimeConverter(void* ptr) noexcept : ::Newtonsof
 // Methods
 
 /// @brief Method WriteJson addr 0x2541164 size 0x1bc virtual true final false
- void WriteJson(::Newtonsoft::Json::JsonWriter writer, ::bs_hook::Il2CppWrapperType value, ::Newtonsoft::Json::JsonSerializer serializer) ;
+ void WriteJson(Newtonsoft::Json::JsonWriter writer, ::bs_hook::Il2CppWrapperType value, Newtonsoft::Json::JsonSerializer serializer) ;
 
 /// @brief Method ReadJson addr 0x2541320 size 0x46c virtual true final false
- ::bs_hook::Il2CppWrapperType ReadJson(::Newtonsoft::Json::JsonReader reader, ::System::Type objectType, ::bs_hook::Il2CppWrapperType existingValue, ::Newtonsoft::Json::JsonSerializer serializer) ;
+ ::bs_hook::Il2CppWrapperType ReadJson(Newtonsoft::Json::JsonReader reader, System::Type objectType, ::bs_hook::Il2CppWrapperType existingValue, Newtonsoft::Json::JsonSerializer serializer) ;
 
 // Ctor Parameters []
 explicit JavaScriptDateTimeConverter() ;
@@ -77,6 +76,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Converters
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Converters::JavaScriptDateTimeConverter);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Converters::JavaScriptDateTimeConverter, "Newtonsoft.Json.Converters", "JavaScriptDateTimeConverter");
+NEED_NO_BOX(Newtonsoft::Json::Converters::JavaScriptDateTimeConverter);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Converters::JavaScriptDateTimeConverter, "Newtonsoft.Json.Converters", "JavaScriptDateTimeConverter");

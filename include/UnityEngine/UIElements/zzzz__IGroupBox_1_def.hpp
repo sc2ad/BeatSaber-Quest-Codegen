@@ -1,6 +1,5 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace UnityEngine::UIElements {
 class IGroupBox;
 }
@@ -20,8 +19,8 @@ template<typename T>
 class CORDL_TYPE IGroupBox_1 : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::UIElements::IGroupBox
-constexpr operator  ::UnityEngine::UIElements::IGroupBox() const noexcept;
+/// @brief Convert operator to UnityEngine::UIElements::IGroupBox
+constexpr operator  UnityEngine::UIElements::IGroupBox() const noexcept;
 
 ~IGroupBox_1() = default;
 
@@ -33,5 +32,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::IGroupBox_1, "UnityEngine.UIElements", "IGroupBox`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::UIElements::IGroupBox_1, "UnityEngine.UIElements", "IGroupBox`1");

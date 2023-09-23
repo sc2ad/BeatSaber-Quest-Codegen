@@ -3,7 +3,6 @@
 #include "GlobalNamespace/zzzz__IncDecColorController_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Color;
 }
@@ -17,7 +16,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5522))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5528))
 // CS Name: ListColorController
-class CORDL_TYPE ListColorController : public ::GlobalNamespace::IncDecColorController {
+class CORDL_TYPE ListColorController : public GlobalNamespace::IncDecColorController {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr ListColorController(ListColorController const& ) noexcept = default;
 constexpr ListColorController(ListColorController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ListColorController(void* ptr) noexcept : ::GlobalNamespace::IncDecColorController(ptr) {
+constexpr explicit ListColorController(void* ptr) noexcept : GlobalNamespace::IncDecColorController(ptr) {
 }
 
 
@@ -75,7 +74,7 @@ constexpr int32_t __get__numberOfElements() const;
  void ApplyValue(int32_t idx) ;
 
 /// @brief Method ColorForValue addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Color ColorForValue(int32_t idx) ;
+ UnityEngine::Color ColorForValue(int32_t idx) ;
 
 /// @brief Method OnEnable addr 0x21264dc size 0x34 virtual false final false
  void OnEnable() ;
@@ -102,6 +101,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ListColorController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ListColorController, "", "ListColorController");
+NEED_NO_BOX(GlobalNamespace::ListColorController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ListColorController, "", "ListColorController");

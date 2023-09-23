@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {
 struct MergeArrayHandling;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Concat offset 0
-static ::Newtonsoft::Json::Linq::MergeArrayHandling const Concat;
+static Newtonsoft::Json::Linq::MergeArrayHandling const Concat;
 
 /// @brief Field Union offset 0
-static ::Newtonsoft::Json::Linq::MergeArrayHandling const Union;
+static Newtonsoft::Json::Linq::MergeArrayHandling const Union;
 
 /// @brief Field Replace offset 0
-static ::Newtonsoft::Json::Linq::MergeArrayHandling const Replace;
+static Newtonsoft::Json::Linq::MergeArrayHandling const Replace;
 
 /// @brief Field Merge offset 0
-static ::Newtonsoft::Json::Linq::MergeArrayHandling const Merge;
+static Newtonsoft::Json::Linq::MergeArrayHandling const Merge;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Linq
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Linq::MergeArrayHandling, "Newtonsoft.Json.Linq", "MergeArrayHandling");
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Linq::MergeArrayHandling, "Newtonsoft.Json.Linq", "MergeArrayHandling");

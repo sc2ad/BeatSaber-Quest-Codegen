@@ -1,28 +1,27 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace GlobalNamespace {
-struct BeatmapLevelSelectionMask;
-}
-namespace BGNet::Core::GameLift {
-class PlayerSessionInfo;
-}
-namespace GlobalNamespace {
-struct GameplayServerConfiguration;
-}
-namespace GlobalNamespace {
-class IAuthenticationTokenProvider;
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace GlobalNamespace {
 class IPollable;
+}
+namespace GlobalNamespace {
+class IAuthenticationTokenProvider;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace GlobalNamespace {
+struct GameplayServerConfiguration;
+}
+namespace BGNet::Core::GameLift {
+class PlayerSessionInfo;
+}
+namespace GlobalNamespace {
+struct BeatmapLevelSelectionMask;
 }
 // Forward declare root types
 namespace BGNet::Core::GameLift {
@@ -37,8 +36,8 @@ namespace BGNet::Core::GameLift {
 class CORDL_TYPE IGameLiftPlayerSessionProvider : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IPollable
-constexpr operator  ::GlobalNamespace::IPollable() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IPollable
+constexpr operator  GlobalNamespace::IPollable() const noexcept;
 
 ~IGameLiftPlayerSessionProvider() = default;
 
@@ -50,12 +49,11 @@ constexpr explicit IGameLiftPlayerSessionProvider(void* ptr) noexcept : ::cordl_
 // Methods
 
 /// @brief Method GetGameLiftPlayerSessionInfo addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Threading::Tasks::Task_1<::BGNet::Core::GameLift::PlayerSessionInfo> GetGameLiftPlayerSessionInfo(::GlobalNamespace::IAuthenticationTokenProvider authenticationTokenProvider, ::StringW userId, ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask, ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration, ::StringW secret, ::StringW code, ::System::Threading::CancellationToken cancellationToken) ;
+ System::Threading::Tasks::Task_1<BGNet::Core::GameLift::PlayerSessionInfo> GetGameLiftPlayerSessionInfo(GlobalNamespace::IAuthenticationTokenProvider authenticationTokenProvider, ::StringW userId, GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration, ::StringW secret, ::StringW code, System::Threading::CancellationToken cancellationToken) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def BGNet::Core::GameLift
-} // end anonymous namespace
-NEED_NO_BOX(::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider);
-DEFINE_IL2CPP_ARG_TYPE(::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider, "BGNet.Core.GameLift", "IGameLiftPlayerSessionProvider");
+NEED_NO_BOX(BGNet::Core::GameLift::IGameLiftPlayerSessionProvider);
+DEFINE_IL2CPP_ARG_TYPE(BGNet::Core::GameLift::IGameLiftPlayerSessionProvider, "BGNet.Core.GameLift", "IGameLiftPlayerSessionProvider");

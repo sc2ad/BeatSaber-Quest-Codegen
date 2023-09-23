@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Threading {
 struct StackCrawlMark;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field LookForMe offset 0
-static ::System::Threading::StackCrawlMark const LookForMe;
+static System::Threading::StackCrawlMark const LookForMe;
 
 /// @brief Field LookForMyCaller offset 0
-static ::System::Threading::StackCrawlMark const LookForMyCaller;
+static System::Threading::StackCrawlMark const LookForMyCaller;
 
 /// @brief Field LookForMyCallersCaller offset 0
-static ::System::Threading::StackCrawlMark const LookForMyCallersCaller;
+static System::Threading::StackCrawlMark const LookForMyCallersCaller;
 
 /// @brief Field LookForThread offset 0
-static ::System::Threading::StackCrawlMark const LookForThread;
+static System::Threading::StackCrawlMark const LookForThread;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Threading
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::StackCrawlMark, "System.Threading", "StackCrawlMark");
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::StackCrawlMark, "System.Threading", "StackCrawlMark");

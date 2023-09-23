@@ -2,16 +2,15 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System::Net::Http::Headers {
-class NameValueHeaderValue;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace System::Text {
 class StringBuilder;
+}
+namespace System::Net::Http::Headers {
+class NameValueHeaderValue;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -61,23 +60,22 @@ constexpr explicit CollectionExtensions(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 /// @brief Method SequenceEqual addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TSource>
-static bool SequenceEqual(::System::Collections::Generic::List_1<TSource> first, ::System::Collections::Generic::List_1<TSource> second) ;
+static bool SequenceEqual(System::Collections::Generic::List_1<TSource> first, System::Collections::Generic::List_1<TSource> second) ;
 
 /// @brief Method SetValue addr 0x26a5750 size 0x1d4 virtual false final false
-static void SetValue(::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue> parameters, ::StringW key, ::StringW value) ;
+static void SetValue(System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue> parameters, ::StringW key, ::StringW value) ;
 
 /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static ::StringW ToString(::System::Collections::Generic::List_1<T> list) ;
+static ::StringW ToString(System::Collections::Generic::List_1<T> list) ;
 
 /// @brief Method ToStringBuilder addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static void ToStringBuilder(::System::Collections::Generic::List_1<T> list, ::System::Text::StringBuilder sb) ;
+static void ToStringBuilder(System::Collections::Generic::List_1<T> list, System::Text::StringBuilder sb) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Http::Headers
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Http::Headers::CollectionExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::CollectionExtensions, "System.Net.Http.Headers", "CollectionExtensions");
+NEED_NO_BOX(System::Net::Http::Headers::CollectionExtensions);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::CollectionExtensions, "System.Net.Http.Headers", "CollectionExtensions");

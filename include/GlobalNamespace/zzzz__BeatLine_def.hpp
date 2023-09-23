@@ -4,32 +4,31 @@
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include <cmath>
 #include <cstddef>
-namespace {
+namespace UnityEngine {
+class AnimationCurve;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace UnityEngine {
+struct Vector3;
+}
 namespace GlobalNamespace {
 class TubeBloomPrePassLight;
 }
 namespace UnityEngine {
 struct Color;
 }
-namespace UnityEngine {
-class AnimationCurve;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 class BeatLine;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__BeatLine__Pool;
+class GlobalNamespace__BeatLine__Pool;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__BeatLine__HighlightData;
+struct GlobalNamespace__BeatLine__HighlightData;
 }
 // Type: ::BeatLine
 namespace GlobalNamespace {
@@ -37,12 +36,12 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14703))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4816))
 // CS Name: BeatLine
-class CORDL_TYPE BeatLine : public ::GlobalNamespace::LightWithIdMonoBehaviour {
+class CORDL_TYPE BeatLine : public GlobalNamespace::LightWithIdMonoBehaviour {
 public:
 // Declarations
-using HighlightData = ::GlobalNamespace::____GlobalNamespace__BeatLine__HighlightData;
+using HighlightData = GlobalNamespace::GlobalNamespace__BeatLine__HighlightData;
 
-using Pool = ::GlobalNamespace::____GlobalNamespace__BeatLine__Pool;
+using Pool = GlobalNamespace::GlobalNamespace__BeatLine__Pool;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x70};
@@ -56,7 +55,7 @@ constexpr BeatLine(BeatLine const& ) noexcept = default;
 constexpr BeatLine(BeatLine&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BeatLine(void* ptr) noexcept : ::GlobalNamespace::LightWithIdMonoBehaviour(ptr) {
+constexpr explicit BeatLine(void* ptr) noexcept : GlobalNamespace::LightWithIdMonoBehaviour(ptr) {
 }
 
 
@@ -77,23 +76,23 @@ constexpr explicit BeatLine(void* ptr) noexcept : ::GlobalNamespace::LightWithId
 
 // Fields
 
- ::GlobalNamespace::TubeBloomPrePassLight __declspec(property(get=__get__tubeBloomPrePassLight, put=__set__tubeBloomPrePassLight))  _tubeBloomPrePassLight;
+ GlobalNamespace::TubeBloomPrePassLight __declspec(property(get=__get__tubeBloomPrePassLight, put=__set__tubeBloomPrePassLight))  _tubeBloomPrePassLight;
 
-constexpr void __set__tubeBloomPrePassLight(::GlobalNamespace::TubeBloomPrePassLight value) ;
+constexpr void __set__tubeBloomPrePassLight(GlobalNamespace::TubeBloomPrePassLight value) ;
 
-constexpr ::GlobalNamespace::TubeBloomPrePassLight __get__tubeBloomPrePassLight() const;
+constexpr GlobalNamespace::TubeBloomPrePassLight __get__tubeBloomPrePassLight() const;
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get__arriveFadeCurve, put=__set__arriveFadeCurve))  _arriveFadeCurve;
+ UnityEngine::AnimationCurve __declspec(property(get=__get__arriveFadeCurve, put=__set__arriveFadeCurve))  _arriveFadeCurve;
 
-constexpr void __set__arriveFadeCurve(::UnityEngine::AnimationCurve value) ;
+constexpr void __set__arriveFadeCurve(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get__arriveFadeCurve() const;
+constexpr UnityEngine::AnimationCurve __get__arriveFadeCurve() const;
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get__jumpFadeCurve, put=__set__jumpFadeCurve))  _jumpFadeCurve;
+ UnityEngine::AnimationCurve __declspec(property(get=__get__jumpFadeCurve, put=__set__jumpFadeCurve))  _jumpFadeCurve;
 
-constexpr void __set__jumpFadeCurve(::UnityEngine::AnimationCurve value) ;
+constexpr void __set__jumpFadeCurve(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get__jumpFadeCurve() const;
+constexpr UnityEngine::AnimationCurve __get__jumpFadeCurve() const;
 
  float_t __declspec(property(get=__get__alphaMul, put=__set__alphaMul))  _alphaMul;
 
@@ -107,17 +106,17 @@ constexpr void __set__maxAlpha(float_t value) ;
 
 constexpr float_t __get__maxAlpha() const;
 
- ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__BeatLine__HighlightData> __declspec(property(get=__get__highlights, put=__set__highlights))  _highlights;
+ System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__BeatLine__HighlightData> __declspec(property(get=__get__highlights, put=__set__highlights))  _highlights;
 
-constexpr void __set__highlights(::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__BeatLine__HighlightData> value) ;
+constexpr void __set__highlights(System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__BeatLine__HighlightData> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__BeatLine__HighlightData> __get__highlights() const;
+constexpr System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__BeatLine__HighlightData> __get__highlights() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__color, put=__set__color))  _color;
+ UnityEngine::Color __declspec(property(get=__get__color, put=__set__color))  _color;
 
-constexpr void __set__color(::UnityEngine::Color value) ;
+constexpr void __set__color(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__color() const;
+constexpr UnityEngine::Color __get__color() const;
 
  float_t __declspec(property(get=__get__rotation, put=__set__rotation))  _rotation;
 
@@ -142,10 +141,10 @@ constexpr float_t __get__rotation() const;
  float_t get_rotation() ;
 
 /// @brief Method Init addr 0x222d108 size 0xcc virtual false final false
- void Init(::UnityEngine::Vector3 position, float_t rotation) ;
+ void Init(UnityEngine::Vector3 position, float_t rotation) ;
 
 /// @brief Method ColorWasSet addr 0x222d1d4 size 0xc virtual true final false
- void ColorWasSet(::UnityEngine::Color color) ;
+ void ColorWasSet(UnityEngine::Color color) ;
 
 /// @brief Method AddHighlight addr 0x222d1e0 size 0xdc virtual false final false
  void AddHighlight(float_t startTime, float_t arriveDuration, float_t jumpDuration) ;
@@ -166,47 +165,47 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Pool
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4816)), TypeDefinitionIndex(TypeDefinitionIndex(10992)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2705 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10992)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2705 }), TypeDefinitionIndex(TypeDefinitionIndex(4816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4814))
 // CS Name: BeatLine::Pool
-class CORDL_TYPE ____GlobalNamespace__BeatLine__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::BeatLine> {
+class CORDL_TYPE GlobalNamespace__BeatLine__Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::BeatLine> {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
 
-virtual ~____GlobalNamespace__BeatLine__Pool() = default;
+virtual ~GlobalNamespace__BeatLine__Pool() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__BeatLine__Pool", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__BeatLine__Pool(____GlobalNamespace__BeatLine__Pool const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__BeatLine__Pool", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__BeatLine__Pool(GlobalNamespace__BeatLine__Pool const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__BeatLine__Pool", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__BeatLine__Pool(____GlobalNamespace__BeatLine__Pool&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__BeatLine__Pool", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__BeatLine__Pool(GlobalNamespace__BeatLine__Pool&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__BeatLine__Pool(void* ptr) noexcept : ::Zenject::MonoMemoryPool_1<::GlobalNamespace::BeatLine>(ptr) {
+constexpr explicit GlobalNamespace__BeatLine__Pool(void* ptr) noexcept : Zenject::MonoMemoryPool_1<GlobalNamespace::BeatLine>(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__BeatLine__Pool& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__BeatLine__Pool& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__BeatLine__Pool& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__BeatLine__Pool& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__BeatLine__Pool& operator=(____GlobalNamespace__BeatLine__Pool&& o) noexcept = default;
-  constexpr ____GlobalNamespace__BeatLine__Pool& operator=(____GlobalNamespace__BeatLine__Pool const& o) noexcept = default;
+  constexpr GlobalNamespace__BeatLine__Pool& operator=(GlobalNamespace__BeatLine__Pool&& o) noexcept = default;
+  constexpr GlobalNamespace__BeatLine__Pool& operator=(GlobalNamespace__BeatLine__Pool const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__BeatLine__Pool() ;
+explicit GlobalNamespace__BeatLine__Pool() ;
 
 /// @brief Method .ctor addr 0x222d4d4 size 0x48 virtual false final false
  void _ctor() ;
@@ -221,20 +220,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4815))
 // CS Name: BeatLine::HighlightData
-struct CORDL_TYPE ____GlobalNamespace__BeatLine__HighlightData : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__BeatLine__HighlightData : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "startTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "arriveDuration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "halfJumpDuration", ty: "float_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__BeatLine__HighlightData(float_t startTime, float_t arriveDuration, float_t halfJumpDuration) noexcept;
+constexpr GlobalNamespace__BeatLine__HighlightData(float_t startTime, float_t arriveDuration, float_t halfJumpDuration) noexcept;
 
 
-                    constexpr ____GlobalNamespace__BeatLine__HighlightData(____GlobalNamespace__BeatLine__HighlightData const&) = default;
-                    constexpr ____GlobalNamespace__BeatLine__HighlightData(____GlobalNamespace__BeatLine__HighlightData&&) = default;
-                    constexpr ____GlobalNamespace__BeatLine__HighlightData& operator=(____GlobalNamespace__BeatLine__HighlightData const& o) {
+                    constexpr GlobalNamespace__BeatLine__HighlightData(GlobalNamespace__BeatLine__HighlightData const&) = default;
+                    constexpr GlobalNamespace__BeatLine__HighlightData(GlobalNamespace__BeatLine__HighlightData&&) = default;
+                    constexpr GlobalNamespace__BeatLine__HighlightData& operator=(GlobalNamespace__BeatLine__HighlightData const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__BeatLine__HighlightData& operator=(____GlobalNamespace__BeatLine__HighlightData&& o) noexcept {
+                    constexpr GlobalNamespace__BeatLine__HighlightData& operator=(GlobalNamespace__BeatLine__HighlightData&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -247,7 +246,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0xc};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__BeatLine__HighlightData(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__BeatLine__HighlightData(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -280,9 +279,8 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BeatLine);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatLine, "", "BeatLine");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__BeatLine__Pool);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__BeatLine__Pool, "", "BeatLine/Pool");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__BeatLine__HighlightData, "", "BeatLine/HighlightData");
+NEED_NO_BOX(GlobalNamespace::BeatLine);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatLine, "", "BeatLine");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__BeatLine__Pool);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__BeatLine__Pool, "", "BeatLine/Pool");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__BeatLine__HighlightData, "", "BeatLine/HighlightData");

@@ -1,16 +1,15 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_def.hpp"
-namespace {
-namespace HMUI {
-struct UISelectionState;
+namespace UnityEngine::UI {
+struct UnityEngine__UI__Selectable__SelectionState;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace UnityEngine::UI {
-struct ____UnityEngine__UI__Selectable__SelectionState;
+namespace HMUI {
+struct UISelectionState;
 }
 // Forward declare root types
 namespace HMUI {
@@ -22,7 +21,7 @@ namespace HMUI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13070))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13688))
 // CS Name: HMUI.NoTransitionsToggle
-class CORDL_TYPE NoTransitionsToggle : public ::UnityEngine::UI::Toggle {
+class CORDL_TYPE NoTransitionsToggle : public UnityEngine::UI::Toggle {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr NoTransitionsToggle(NoTransitionsToggle const& ) noexcept = default;
 constexpr NoTransitionsToggle(NoTransitionsToggle&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NoTransitionsToggle(void* ptr) noexcept : ::UnityEngine::UI::Toggle(ptr) {
+constexpr explicit NoTransitionsToggle(void* ptr) noexcept : UnityEngine::UI::Toggle(ptr) {
 }
 
 
@@ -58,40 +57,40 @@ constexpr explicit NoTransitionsToggle(void* ptr) noexcept : ::UnityEngine::UI::
 
 // Fields
 
- ::System::Action_1<::HMUI::UISelectionState> __declspec(property(get=__get_selectionStateDidChangeEvent, put=__set_selectionStateDidChangeEvent))  selectionStateDidChangeEvent;
+ System::Action_1<HMUI::UISelectionState> __declspec(property(get=__get_selectionStateDidChangeEvent, put=__set_selectionStateDidChangeEvent))  selectionStateDidChangeEvent;
 
-constexpr void __set_selectionStateDidChangeEvent(::System::Action_1<::HMUI::UISelectionState> value) ;
+constexpr void __set_selectionStateDidChangeEvent(System::Action_1<HMUI::UISelectionState> value) ;
 
-constexpr ::System::Action_1<::HMUI::UISelectionState> __get_selectionStateDidChangeEvent() const;
+constexpr System::Action_1<HMUI::UISelectionState> __get_selectionStateDidChangeEvent() const;
 
- ::HMUI::UISelectionState __declspec(property(get=__get__selectionState, put=__set__selectionState))  _selectionState;
+ HMUI::UISelectionState __declspec(property(get=__get__selectionState, put=__set__selectionState))  _selectionState;
 
-constexpr void __set__selectionState(::HMUI::UISelectionState value) ;
+constexpr void __set__selectionState(HMUI::UISelectionState value) ;
 
-constexpr ::HMUI::UISelectionState __get__selectionState() const;
+constexpr HMUI::UISelectionState __get__selectionState() const;
 
 
 // Properties
 
- ::HMUI::UISelectionState __declspec(property(get=get_selectionState))  selectionState;
+ HMUI::UISelectionState __declspec(property(get=get_selectionState))  selectionState;
 
 
 // Methods
 
 /// @brief Method get_selectionState addr 0x1fcf2bc size 0x8 virtual false final false
- ::HMUI::UISelectionState get_selectionState() ;
+ HMUI::UISelectionState get_selectionState() ;
 
 /// @brief Method add_selectionStateDidChangeEvent addr 0x1fcf2c4 size 0xb4 virtual false final false
- void add_selectionStateDidChangeEvent(::System::Action_1<::HMUI::UISelectionState> value) ;
+ void add_selectionStateDidChangeEvent(System::Action_1<HMUI::UISelectionState> value) ;
 
 /// @brief Method remove_selectionStateDidChangeEvent addr 0x1fcf378 size 0xb4 virtual false final false
- void remove_selectionStateDidChangeEvent(::System::Action_1<::HMUI::UISelectionState> value) ;
+ void remove_selectionStateDidChangeEvent(System::Action_1<HMUI::UISelectionState> value) ;
 
 /// @brief Method Start addr 0x1fcf42c size 0xac virtual true final false
  void Start() ;
 
 /// @brief Method DoStateTransition addr 0x1fcf4d8 size 0x54 virtual true final false
- void DoStateTransition(::UnityEngine::UI::____UnityEngine__UI__Selectable__SelectionState state, bool instant) ;
+ void DoStateTransition(UnityEngine::UI::UnityEngine__UI__Selectable__SelectionState state, bool instant) ;
 
 // Ctor Parameters []
 explicit NoTransitionsToggle() ;
@@ -106,6 +105,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HMUI
-} // end anonymous namespace
-NEED_NO_BOX(::HMUI::NoTransitionsToggle);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::NoTransitionsToggle, "HMUI", "NoTransitionsToggle");
+NEED_NO_BOX(HMUI::NoTransitionsToggle);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::NoTransitionsToggle, "HMUI", "NoTransitionsToggle");

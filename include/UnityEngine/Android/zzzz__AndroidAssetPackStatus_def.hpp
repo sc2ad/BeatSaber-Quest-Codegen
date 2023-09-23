@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Android {
 struct AndroidAssetPackStatus;
@@ -74,35 +73,34 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::UnityEngine::Android::AndroidAssetPackStatus const Unknown;
+static UnityEngine::Android::AndroidAssetPackStatus const Unknown;
 
 /// @brief Field Pending offset 0
-static ::UnityEngine::Android::AndroidAssetPackStatus const Pending;
+static UnityEngine::Android::AndroidAssetPackStatus const Pending;
 
 /// @brief Field Downloading offset 0
-static ::UnityEngine::Android::AndroidAssetPackStatus const Downloading;
+static UnityEngine::Android::AndroidAssetPackStatus const Downloading;
 
 /// @brief Field Transferring offset 0
-static ::UnityEngine::Android::AndroidAssetPackStatus const Transferring;
+static UnityEngine::Android::AndroidAssetPackStatus const Transferring;
 
 /// @brief Field Completed offset 0
-static ::UnityEngine::Android::AndroidAssetPackStatus const Completed;
+static UnityEngine::Android::AndroidAssetPackStatus const Completed;
 
 /// @brief Field Failed offset 0
-static ::UnityEngine::Android::AndroidAssetPackStatus const Failed;
+static UnityEngine::Android::AndroidAssetPackStatus const Failed;
 
 /// @brief Field Canceled offset 0
-static ::UnityEngine::Android::AndroidAssetPackStatus const Canceled;
+static UnityEngine::Android::AndroidAssetPackStatus const Canceled;
 
 /// @brief Field WaitingForWifi offset 0
-static ::UnityEngine::Android::AndroidAssetPackStatus const WaitingForWifi;
+static UnityEngine::Android::AndroidAssetPackStatus const WaitingForWifi;
 
 /// @brief Field NotInstalled offset 0
-static ::UnityEngine::Android::AndroidAssetPackStatus const NotInstalled;
+static UnityEngine::Android::AndroidAssetPackStatus const NotInstalled;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Android
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Android::AndroidAssetPackStatus, "UnityEngine.Android", "AndroidAssetPackStatus");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Android::AndroidAssetPackStatus, "UnityEngine.Android", "AndroidAssetPackStatus");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace TMPro {
 class TextMeshProUGUI;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5860))
 // CS Name: BetaBuildInfoText
-class CORDL_TYPE BetaBuildInfoText : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE BetaBuildInfoText : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr BetaBuildInfoText(BetaBuildInfoText const& ) noexcept = default;
 constexpr BetaBuildInfoText(BetaBuildInfoText&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BetaBuildInfoText(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit BetaBuildInfoText(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit BetaBuildInfoText(void* ptr) noexcept : ::UnityEngine::MonoBe
 
 // Fields
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__text, put=__set__text))  _text;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__text, put=__set__text))  _text;
 
-constexpr void __set__text(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__text(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__text() const;
+constexpr TMPro::TextMeshProUGUI __get__text() const;
 
 
 // Methods
@@ -73,6 +72,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BetaBuildInfoText);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BetaBuildInfoText, "", "BetaBuildInfoText");
+NEED_NO_BOX(GlobalNamespace::BetaBuildInfoText);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BetaBuildInfoText, "", "BetaBuildInfoText");

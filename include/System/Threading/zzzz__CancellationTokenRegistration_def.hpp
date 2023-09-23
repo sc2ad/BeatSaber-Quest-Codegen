@@ -3,20 +3,19 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System::Threading {
 class CancellationCallbackInfo;
 }
-namespace System {
-class IDisposable;
+namespace System::Threading {
+template<typename T>
+struct SparselyPopulatedArrayAddInfo_1;
 }
 namespace System {
 template<typename T>
 class IEquatable_1;
 }
-namespace System::Threading {
-template<typename T>
-struct SparselyPopulatedArrayAddInfo_1;
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -31,14 +30,14 @@ namespace System::Threading {
 struct CORDL_TYPE CancellationTokenRegistration : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>
-constexpr operator  ::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>() const;
+/// @brief Convert operator to System::IEquatable_1<System::Threading::CancellationTokenRegistration>
+constexpr operator  System::IEquatable_1<System::Threading::CancellationTokenRegistration>() const;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const;
 
-// Ctor Parameters [CppParam { name: "m_callbackInfo", ty: "::System::Threading::CancellationCallbackInfo", modifiers: "", def_value: None }, CppParam { name: "m_registrationInfo", ty: "::System::Threading::SparselyPopulatedArrayAddInfo_1<::System::Threading::CancellationCallbackInfo>", modifiers: "", def_value: None }]
-constexpr CancellationTokenRegistration(::System::Threading::CancellationCallbackInfo m_callbackInfo, ::System::Threading::SparselyPopulatedArrayAddInfo_1<::System::Threading::CancellationCallbackInfo> m_registrationInfo) noexcept;
+// Ctor Parameters [CppParam { name: "m_callbackInfo", ty: "System::Threading::CancellationCallbackInfo", modifiers: "", def_value: None }, CppParam { name: "m_registrationInfo", ty: "System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo>", modifiers: "", def_value: None }]
+constexpr CancellationTokenRegistration(System::Threading::CancellationCallbackInfo m_callbackInfo, System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo> m_registrationInfo) noexcept;
 
 
                     constexpr CancellationTokenRegistration(CancellationTokenRegistration const&) = default;
@@ -71,23 +70,23 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::Threading::CancellationCallbackInfo __declspec(property(get=__get_m_callbackInfo, put=__set_m_callbackInfo))  m_callbackInfo;
+ System::Threading::CancellationCallbackInfo __declspec(property(get=__get_m_callbackInfo, put=__set_m_callbackInfo))  m_callbackInfo;
 
-constexpr void __set_m_callbackInfo(::System::Threading::CancellationCallbackInfo value) ;
+constexpr void __set_m_callbackInfo(System::Threading::CancellationCallbackInfo value) ;
 
-constexpr ::System::Threading::CancellationCallbackInfo __get_m_callbackInfo() const;
+constexpr System::Threading::CancellationCallbackInfo __get_m_callbackInfo() const;
 
- ::System::Threading::SparselyPopulatedArrayAddInfo_1<::System::Threading::CancellationCallbackInfo> __declspec(property(get=__get_m_registrationInfo, put=__set_m_registrationInfo))  m_registrationInfo;
+ System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo> __declspec(property(get=__get_m_registrationInfo, put=__set_m_registrationInfo))  m_registrationInfo;
 
-constexpr void __set_m_registrationInfo(::System::Threading::SparselyPopulatedArrayAddInfo_1<::System::Threading::CancellationCallbackInfo> value) ;
+constexpr void __set_m_registrationInfo(System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo> value) ;
 
-constexpr ::System::Threading::SparselyPopulatedArrayAddInfo_1<::System::Threading::CancellationCallbackInfo> __get_m_registrationInfo() const;
+constexpr System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo> __get_m_registrationInfo() const;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x24a4f94 size 0xc virtual false final false
- void _ctor(::System::Threading::CancellationCallbackInfo callbackInfo, ::System::Threading::SparselyPopulatedArrayAddInfo_1<::System::Threading::CancellationCallbackInfo> registrationInfo) ;
+ void _ctor(System::Threading::CancellationCallbackInfo callbackInfo, System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo> registrationInfo) ;
 
 /// @brief Method Unregister addr 0x24a4fa0 size 0x7c virtual false final false
  bool Unregister() ;
@@ -99,7 +98,7 @@ constexpr ::System::Threading::SparselyPopulatedArrayAddInfo_1<::System::Threadi
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x24a51c0 size 0x80 virtual true final true
- bool Equals(::System::Threading::CancellationTokenRegistration other) ;
+ bool Equals(System::Threading::CancellationTokenRegistration other) ;
 
 /// @brief Method GetHashCode addr 0x24a5240 size 0x90 virtual true final false
  int32_t GetHashCode() ;
@@ -108,5 +107,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Threading
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::CancellationTokenRegistration, "System.Threading", "CancellationTokenRegistration");
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationTokenRegistration, "System.Threading", "CancellationTokenRegistration");

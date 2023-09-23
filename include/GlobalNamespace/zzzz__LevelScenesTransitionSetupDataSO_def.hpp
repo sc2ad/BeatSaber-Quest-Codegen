@@ -3,18 +3,14 @@
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_def.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
+namespace GlobalNamespace {
+class GameplayCoreSceneSetupData;
+}
 namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
 namespace System::Threading::Tasks {
 class Task;
-}
-namespace GlobalNamespace {
-class GameplayCoreSceneSetupData;
-}
-namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -22,12 +18,15 @@ class IAsyncStateMachine;
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
 }
+namespace System::Runtime::CompilerServices {
+struct AsyncTaskMethodBuilder;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class LevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6;
+struct GlobalNamespace__LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6;
 }
 // Type: ::<BeforeScenesWillBeActivatedAsync>d__6
 namespace GlobalNamespace {
@@ -35,23 +34,23 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6122))
 // CS Name: LevelScenesTransitionSetupDataSO::<BeforeScenesWillBeActivatedAsync>d__6
-struct CORDL_TYPE ____GlobalNamespace__LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6 : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6 : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::CompilerServices::IAsyncStateMachine
-constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine() const;
+/// @brief Convert operator to System::Runtime::CompilerServices::IAsyncStateMachine
+constexpr operator  System::Runtime::CompilerServices::IAsyncStateMachine() const;
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::LevelScenesTransitionSetupDataSO", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::LevelScenesTransitionSetupDataSO __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "GlobalNamespace::LevelScenesTransitionSetupDataSO", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+constexpr GlobalNamespace__LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6(int32_t __1__state, System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, GlobalNamespace::LevelScenesTransitionSetupDataSO __4__this, System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
 
-                    constexpr ____GlobalNamespace__LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6(____GlobalNamespace__LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6 const&) = default;
-                    constexpr ____GlobalNamespace__LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6(____GlobalNamespace__LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6&&) = default;
-                    constexpr ____GlobalNamespace__LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6& operator=(____GlobalNamespace__LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6 const& o) {
+                    constexpr GlobalNamespace__LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6(GlobalNamespace__LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6 const&) = default;
+                    constexpr GlobalNamespace__LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6(GlobalNamespace__LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6&&) = default;
+                    constexpr GlobalNamespace__LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6& operator=(GlobalNamespace__LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6 const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6& operator=(____GlobalNamespace__LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6&& o) noexcept {
+                    constexpr GlobalNamespace__LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6& operator=(GlobalNamespace__LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -64,7 +63,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x30};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -81,23 +80,23 @@ constexpr void __set___1__state(int32_t value) ;
 
 constexpr int32_t __get___1__state() const;
 
- ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
+ System::Runtime::CompilerServices::AsyncTaskMethodBuilder __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
 
-constexpr void __set___t__builder(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder value) ;
+constexpr void __set___t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder value) ;
 
-constexpr ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __get___t__builder() const;
+constexpr System::Runtime::CompilerServices::AsyncTaskMethodBuilder __get___t__builder() const;
 
- ::GlobalNamespace::LevelScenesTransitionSetupDataSO __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::LevelScenesTransitionSetupDataSO __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::LevelScenesTransitionSetupDataSO value) ;
+constexpr void __set___4__this(GlobalNamespace::LevelScenesTransitionSetupDataSO value) ;
 
-constexpr ::GlobalNamespace::LevelScenesTransitionSetupDataSO __get___4__this() const;
+constexpr GlobalNamespace::LevelScenesTransitionSetupDataSO __get___4__this() const;
 
- ::System::Runtime::CompilerServices::TaskAwaiter __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
+ System::Runtime::CompilerServices::TaskAwaiter __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
 
-constexpr void __set___u__1(::System::Runtime::CompilerServices::TaskAwaiter value) ;
+constexpr void __set___u__1(System::Runtime::CompilerServices::TaskAwaiter value) ;
 
-constexpr ::System::Runtime::CompilerServices::TaskAwaiter __get___u__1() const;
+constexpr System::Runtime::CompilerServices::TaskAwaiter __get___u__1() const;
 
 
 // Methods
@@ -106,7 +105,7 @@ constexpr ::System::Runtime::CompilerServices::TaskAwaiter __get___u__1() const;
  void MoveNext() ;
 
 /// @brief Method SetStateMachine addr 0x21d0dfc size 0xc virtual true final true
- void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
+ void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -118,10 +117,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13874))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6123))
 // CS Name: LevelScenesTransitionSetupDataSO
-class CORDL_TYPE LevelScenesTransitionSetupDataSO : public ::GlobalNamespace::ScenesTransitionSetupDataSO {
+class CORDL_TYPE LevelScenesTransitionSetupDataSO : public GlobalNamespace::ScenesTransitionSetupDataSO {
 public:
 // Declarations
-using _BeforeScenesWillBeActivatedAsync_d__6 = ::GlobalNamespace::____GlobalNamespace__LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6;
+using _BeforeScenesWillBeActivatedAsync_d__6 = GlobalNamespace::GlobalNamespace__LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -135,7 +134,7 @@ constexpr LevelScenesTransitionSetupDataSO(LevelScenesTransitionSetupDataSO cons
 constexpr LevelScenesTransitionSetupDataSO(LevelScenesTransitionSetupDataSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LevelScenesTransitionSetupDataSO(void* ptr) noexcept : ::GlobalNamespace::ScenesTransitionSetupDataSO(ptr) {
+constexpr explicit LevelScenesTransitionSetupDataSO(void* ptr) noexcept : GlobalNamespace::ScenesTransitionSetupDataSO(ptr) {
 }
 
 
@@ -156,33 +155,33 @@ constexpr explicit LevelScenesTransitionSetupDataSO(void* ptr) noexcept : ::Glob
 
 // Fields
 
- ::GlobalNamespace::GameplayCoreSceneSetupData __declspec(property(get=__get__gameplayCoreSceneSetupData_k__BackingField, put=__set__gameplayCoreSceneSetupData_k__BackingField))  _gameplayCoreSceneSetupData_k__BackingField;
+ GlobalNamespace::GameplayCoreSceneSetupData __declspec(property(get=__get__gameplayCoreSceneSetupData_k__BackingField, put=__set__gameplayCoreSceneSetupData_k__BackingField))  _gameplayCoreSceneSetupData_k__BackingField;
 
-constexpr void __set__gameplayCoreSceneSetupData_k__BackingField(::GlobalNamespace::GameplayCoreSceneSetupData value) ;
+constexpr void __set__gameplayCoreSceneSetupData_k__BackingField(GlobalNamespace::GameplayCoreSceneSetupData value) ;
 
-constexpr ::GlobalNamespace::GameplayCoreSceneSetupData __get__gameplayCoreSceneSetupData_k__BackingField() const;
+constexpr GlobalNamespace::GameplayCoreSceneSetupData __get__gameplayCoreSceneSetupData_k__BackingField() const;
 
 
 // Properties
 
- ::GlobalNamespace::IReadonlyBeatmapData __declspec(property(get=get_transformedBeatmapData))  transformedBeatmapData;
+ GlobalNamespace::IReadonlyBeatmapData __declspec(property(get=get_transformedBeatmapData))  transformedBeatmapData;
 
- ::GlobalNamespace::GameplayCoreSceneSetupData __declspec(property(get=get_gameplayCoreSceneSetupData, put=set_gameplayCoreSceneSetupData))  gameplayCoreSceneSetupData;
+ GlobalNamespace::GameplayCoreSceneSetupData __declspec(property(get=get_gameplayCoreSceneSetupData, put=set_gameplayCoreSceneSetupData))  gameplayCoreSceneSetupData;
 
 
 // Methods
 
 /// @brief Method get_transformedBeatmapData addr 0x21d0b74 size 0x1c virtual false final false
- ::GlobalNamespace::IReadonlyBeatmapData get_transformedBeatmapData() ;
+ GlobalNamespace::IReadonlyBeatmapData get_transformedBeatmapData() ;
 
 /// @brief Method get_gameplayCoreSceneSetupData addr 0x21d0b90 size 0x8 virtual false final false
- ::GlobalNamespace::GameplayCoreSceneSetupData get_gameplayCoreSceneSetupData() ;
+ GlobalNamespace::GameplayCoreSceneSetupData get_gameplayCoreSceneSetupData() ;
 
 /// @brief Method set_gameplayCoreSceneSetupData addr 0x21d0b98 size 0x8 virtual false final false
- void set_gameplayCoreSceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData value) ;
+ void set_gameplayCoreSceneSetupData(GlobalNamespace::GameplayCoreSceneSetupData value) ;
 
 /// @brief Method BeforeScenesWillBeActivatedAsync addr 0x21d0ba0 size 0xc8 virtual true final false
- ::System::Threading::Tasks::Task BeforeScenesWillBeActivatedAsync() ;
+ System::Threading::Tasks::Task BeforeScenesWillBeActivatedAsync() ;
 
 // Ctor Parameters []
 explicit LevelScenesTransitionSetupDataSO() ;
@@ -194,7 +193,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LevelScenesTransitionSetupDataSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelScenesTransitionSetupDataSO, "", "LevelScenesTransitionSetupDataSO");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6, "", "LevelScenesTransitionSetupDataSO/<BeforeScenesWillBeActivatedAsync>d__6");
+NEED_NO_BOX(GlobalNamespace::LevelScenesTransitionSetupDataSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelScenesTransitionSetupDataSO, "", "LevelScenesTransitionSetupDataSO");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6, "", "LevelScenesTransitionSetupDataSO/<BeforeScenesWillBeActivatedAsync>d__6");

@@ -1,18 +1,17 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace ModestTree::Util {
 template<typename T1,typename T2,typename T3>
 class ValuePair_3;
 }
 namespace ModestTree::Util {
-template<typename T1,typename T2,typename T3,typename T4>
-class ValuePair_4;
-}
-namespace ModestTree::Util {
 template<typename T1,typename T2>
 class ValuePair_2;
+}
+namespace ModestTree::Util {
+template<typename T1,typename T2,typename T3,typename T4>
+class ValuePair_4;
 }
 // Forward declare root types
 namespace ModestTree::Util {
@@ -62,20 +61,19 @@ constexpr explicit ValuePair(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 
 /// @brief Method New addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T1,typename T2>
-static ::ModestTree::Util::ValuePair_2<T1,T2> New(T1 first, T2 second) ;
+static ModestTree::Util::ValuePair_2<T1,T2> New(T1 first, T2 second) ;
 
 /// @brief Method New addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T1,typename T2,typename T3>
-static ::ModestTree::Util::ValuePair_3<T1,T2,T3> New(T1 first, T2 second, T3 third) ;
+static ModestTree::Util::ValuePair_3<T1,T2,T3> New(T1 first, T2 second, T3 third) ;
 
 /// @brief Method New addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T1,typename T2,typename T3,typename T4>
-static ::ModestTree::Util::ValuePair_4<T1,T2,T3,T4> New(T1 first, T2 second, T3 third, T4 fourth) ;
+static ModestTree::Util::ValuePair_4<T1,T2,T3,T4> New(T1 first, T2 second, T3 third, T4 fourth) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def ModestTree::Util
-} // end anonymous namespace
-NEED_NO_BOX(::ModestTree::Util::ValuePair);
-DEFINE_IL2CPP_ARG_TYPE(::ModestTree::Util::ValuePair, "ModestTree.Util", "ValuePair");
+NEED_NO_BOX(ModestTree::Util::ValuePair);
+DEFINE_IL2CPP_ARG_TYPE(ModestTree::Util::ValuePair, "ModestTree.Util", "ValuePair");

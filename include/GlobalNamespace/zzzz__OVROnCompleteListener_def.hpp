@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__AndroidJavaProxy_def.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class OVROnCompleteListener;
@@ -12,7 +11,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14880))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8556))
 // CS Name: OVROnCompleteListener
-class CORDL_TYPE OVROnCompleteListener : public ::UnityEngine::AndroidJavaProxy {
+class CORDL_TYPE OVROnCompleteListener : public UnityEngine::AndroidJavaProxy {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr OVROnCompleteListener(OVROnCompleteListener const& ) noexcept = defaul
 constexpr OVROnCompleteListener(OVROnCompleteListener&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OVROnCompleteListener(void* ptr) noexcept : ::UnityEngine::AndroidJavaProxy(ptr) {
+constexpr explicit OVROnCompleteListener(void* ptr) noexcept : UnityEngine::AndroidJavaProxy(ptr) {
 }
 
 
@@ -64,6 +63,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OVROnCompleteListener);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVROnCompleteListener, "", "OVROnCompleteListener");
+NEED_NO_BOX(GlobalNamespace::OVROnCompleteListener);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVROnCompleteListener, "", "OVROnCompleteListener");

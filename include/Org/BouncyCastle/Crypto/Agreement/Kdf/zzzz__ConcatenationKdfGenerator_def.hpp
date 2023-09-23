@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
+namespace Org::BouncyCastle::Crypto {
+class IDerivationParameters;
+}
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDerivationFunction;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDerivationParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Agreement::Kdf {
@@ -26,8 +25,8 @@ namespace Org::BouncyCastle::Crypto::Agreement::Kdf {
 class CORDL_TYPE ConcatenationKdfGenerator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IDerivationFunction
-constexpr operator  ::Org::BouncyCastle::Crypto::IDerivationFunction() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IDerivationFunction
+constexpr operator  Org::BouncyCastle::Crypto::IDerivationFunction() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -62,11 +61,11 @@ constexpr explicit ConcatenationKdfGenerator(void* ptr) noexcept : ::bs_hook::Il
 
 // Fields
 
- ::Org::BouncyCastle::Crypto::IDigest __declspec(property(get=__get_mDigest, put=__set_mDigest))  mDigest;
+ Org::BouncyCastle::Crypto::IDigest __declspec(property(get=__get_mDigest, put=__set_mDigest))  mDigest;
 
-constexpr void __set_mDigest(::Org::BouncyCastle::Crypto::IDigest value) ;
+constexpr void __set_mDigest(Org::BouncyCastle::Crypto::IDigest value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IDigest __get_mDigest() const;
+constexpr Org::BouncyCastle::Crypto::IDigest __get_mDigest() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get_mShared, put=__set_mShared))  mShared;
 
@@ -89,22 +88,22 @@ constexpr int32_t __get_mHLen() const;
 
 // Properties
 
- ::Org::BouncyCastle::Crypto::IDigest __declspec(property(get=get_Digest))  Digest;
+ Org::BouncyCastle::Crypto::IDigest __declspec(property(get=get_Digest))  Digest;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "digest", ty: "::Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
-explicit ConcatenationKdfGenerator(::Org::BouncyCastle::Crypto::IDigest digest) ;
+// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
+explicit ConcatenationKdfGenerator(Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method .ctor addr 0x118b43c size 0xbc virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IDigest digest) ;
+ void _ctor(Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method Init addr 0x118b4f8 size 0xcc virtual true final false
- void Init(::Org::BouncyCastle::Crypto::IDerivationParameters param) ;
+ void Init(Org::BouncyCastle::Crypto::IDerivationParameters param) ;
 
 /// @brief Method get_Digest addr 0x118b5c4 size 0x8 virtual true final false
- ::Org::BouncyCastle::Crypto::IDigest get_Digest() ;
+ Org::BouncyCastle::Crypto::IDigest get_Digest() ;
 
 /// @brief Method GenerateBytes addr 0x118b5cc size 0x5d8 virtual true final false
  int32_t GenerateBytes(::ArrayW<uint8_t> outBytes, int32_t outOff, int32_t len) ;
@@ -113,6 +112,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Agreement::Kdf
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Agreement::Kdf::ConcatenationKdfGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Agreement::Kdf::ConcatenationKdfGenerator, "Org.BouncyCastle.Crypto.Agreement.Kdf", "ConcatenationKdfGenerator");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Agreement::Kdf::ConcatenationKdfGenerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Agreement::Kdf::ConcatenationKdfGenerator, "Org.BouncyCastle.Crypto.Agreement.Kdf", "ConcatenationKdfGenerator");

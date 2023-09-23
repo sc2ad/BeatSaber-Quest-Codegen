@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform {
 struct ChallengeVisibility;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::Oculus::Platform::ChallengeVisibility const Unknown;
+static Oculus::Platform::ChallengeVisibility const Unknown;
 
 /// @brief Field InviteOnly offset 0
-static ::Oculus::Platform::ChallengeVisibility const InviteOnly;
+static Oculus::Platform::ChallengeVisibility const InviteOnly;
 
 /// @brief Field Public offset 0
-static ::Oculus::Platform::ChallengeVisibility const Public;
+static Oculus::Platform::ChallengeVisibility const Public;
 
 /// @brief Field Private offset 0
-static ::Oculus::Platform::ChallengeVisibility const Private;
+static Oculus::Platform::ChallengeVisibility const Private;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::ChallengeVisibility, "Oculus.Platform", "ChallengeVisibility");
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::ChallengeVisibility, "Oculus.Platform", "ChallengeVisibility");

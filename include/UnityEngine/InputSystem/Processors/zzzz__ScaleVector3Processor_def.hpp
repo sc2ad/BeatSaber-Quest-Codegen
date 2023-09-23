@@ -4,7 +4,6 @@
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -21,7 +20,7 @@ namespace UnityEngine::InputSystem::Processors {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10190)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6319), inst: 394 }), TypeDefinitionIndex(TypeDefinitionIndex(6319))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6675))
 // CS Name: UnityEngine.InputSystem.Processors.ScaleVector3Processor
-class CORDL_TYPE ScaleVector3Processor : public ::UnityEngine::InputSystem::InputProcessor_1<::UnityEngine::Vector3> {
+class CORDL_TYPE ScaleVector3Processor : public UnityEngine::InputSystem::InputProcessor_1<UnityEngine::Vector3> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr ScaleVector3Processor(ScaleVector3Processor const& ) noexcept = defaul
 constexpr ScaleVector3Processor(ScaleVector3Processor&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ScaleVector3Processor(void* ptr) noexcept : ::UnityEngine::InputSystem::InputProcessor_1<::UnityEngine::Vector3>(ptr) {
+constexpr explicit ScaleVector3Processor(void* ptr) noexcept : UnityEngine::InputSystem::InputProcessor_1<UnityEngine::Vector3>(ptr) {
 }
 
 
@@ -79,7 +78,7 @@ constexpr float_t __get_z() const;
 // Methods
 
 /// @brief Method Process addr 0x2967370 size 0x18 virtual true final false
- ::UnityEngine::Vector3 Process(::UnityEngine::Vector3 value, ::UnityEngine::InputSystem::InputControl control) ;
+ UnityEngine::Vector3 Process(UnityEngine::Vector3 value, UnityEngine::InputSystem::InputControl control) ;
 
 /// @brief Method ToString addr 0x2967388 size 0xc4 virtual true final false
  ::StringW ToString() ;
@@ -94,6 +93,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Processors
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Processors::ScaleVector3Processor);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Processors::ScaleVector3Processor, "UnityEngine.InputSystem.Processors", "ScaleVector3Processor");
+NEED_NO_BOX(UnityEngine::InputSystem::Processors::ScaleVector3Processor);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Processors::ScaleVector3Processor, "UnityEngine.InputSystem.Processors", "ScaleVector3Processor");

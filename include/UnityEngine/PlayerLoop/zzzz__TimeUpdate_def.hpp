@@ -1,13 +1,12 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
 // Forward declare root types
 namespace UnityEngine::PlayerLoop {
 struct TimeUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct ____UnityEngine__PlayerLoop__TimeUpdate__WaitForLastPresentationAndUpdateTime;
+struct UnityEngine__PlayerLoop__TimeUpdate__WaitForLastPresentationAndUpdateTime;
 }
 // Type: ::WaitForLastPresentationAndUpdateTime
 namespace UnityEngine::PlayerLoop {
@@ -15,17 +14,17 @@ namespace UnityEngine::PlayerLoop {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10411))
 // CS Name: UnityEngine.PlayerLoop.TimeUpdate::WaitForLastPresentationAndUpdateTime
-struct CORDL_TYPE ____UnityEngine__PlayerLoop__TimeUpdate__WaitForLastPresentationAndUpdateTime : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__PlayerLoop__TimeUpdate__WaitForLastPresentationAndUpdateTime : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 
-                    constexpr ____UnityEngine__PlayerLoop__TimeUpdate__WaitForLastPresentationAndUpdateTime(____UnityEngine__PlayerLoop__TimeUpdate__WaitForLastPresentationAndUpdateTime const&) = default;
-                    constexpr ____UnityEngine__PlayerLoop__TimeUpdate__WaitForLastPresentationAndUpdateTime(____UnityEngine__PlayerLoop__TimeUpdate__WaitForLastPresentationAndUpdateTime&&) = default;
-                    constexpr ____UnityEngine__PlayerLoop__TimeUpdate__WaitForLastPresentationAndUpdateTime& operator=(____UnityEngine__PlayerLoop__TimeUpdate__WaitForLastPresentationAndUpdateTime const& o) {
+                    constexpr UnityEngine__PlayerLoop__TimeUpdate__WaitForLastPresentationAndUpdateTime(UnityEngine__PlayerLoop__TimeUpdate__WaitForLastPresentationAndUpdateTime const&) = default;
+                    constexpr UnityEngine__PlayerLoop__TimeUpdate__WaitForLastPresentationAndUpdateTime(UnityEngine__PlayerLoop__TimeUpdate__WaitForLastPresentationAndUpdateTime&&) = default;
+                    constexpr UnityEngine__PlayerLoop__TimeUpdate__WaitForLastPresentationAndUpdateTime& operator=(UnityEngine__PlayerLoop__TimeUpdate__WaitForLastPresentationAndUpdateTime const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__PlayerLoop__TimeUpdate__WaitForLastPresentationAndUpdateTime& operator=(____UnityEngine__PlayerLoop__TimeUpdate__WaitForLastPresentationAndUpdateTime&& o) noexcept {
+                    constexpr UnityEngine__PlayerLoop__TimeUpdate__WaitForLastPresentationAndUpdateTime& operator=(UnityEngine__PlayerLoop__TimeUpdate__WaitForLastPresentationAndUpdateTime&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -38,7 +37,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x1};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__PlayerLoop__TimeUpdate__WaitForLastPresentationAndUpdateTime(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__PlayerLoop__TimeUpdate__WaitForLastPresentationAndUpdateTime(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -59,7 +58,7 @@ namespace UnityEngine::PlayerLoop {
 struct CORDL_TYPE TimeUpdate : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-using WaitForLastPresentationAndUpdateTime = ::UnityEngine::PlayerLoop::____UnityEngine__PlayerLoop__TimeUpdate__WaitForLastPresentationAndUpdateTime;
+using WaitForLastPresentationAndUpdateTime = UnityEngine::PlayerLoop::UnityEngine__PlayerLoop__TimeUpdate__WaitForLastPresentationAndUpdateTime;
 
 
                     constexpr TimeUpdate(TimeUpdate const&) = default;
@@ -93,6 +92,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::PlayerLoop
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::TimeUpdate, "UnityEngine.PlayerLoop", "TimeUpdate");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::____UnityEngine__PlayerLoop__TimeUpdate__WaitForLastPresentationAndUpdateTime, "UnityEngine.PlayerLoop", "TimeUpdate/WaitForLastPresentationAndUpdateTime");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerLoop::TimeUpdate, "UnityEngine.PlayerLoop", "TimeUpdate");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerLoop::UnityEngine__PlayerLoop__TimeUpdate__WaitForLastPresentationAndUpdateTime, "UnityEngine.PlayerLoop", "TimeUpdate/WaitForLastPresentationAndUpdateTime");

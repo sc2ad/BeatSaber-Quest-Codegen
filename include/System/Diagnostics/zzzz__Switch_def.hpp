@@ -3,13 +3,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace System {
+class WeakReference;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace System {
-class WeakReference;
 }
 // Forward declare root types
 namespace System::Diagnostics {
@@ -81,11 +80,11 @@ constexpr void __set_defaultValue(::StringW value) ;
 
 constexpr ::StringW __get_defaultValue() const;
 
-static ::System::Collections::Generic::List_1<::System::WeakReference> __declspec(property(get=__get_switches, put=__set_switches))  switches;
+static System::Collections::Generic::List_1<System::WeakReference> __declspec(property(get=__get_switches, put=__set_switches))  switches;
 
-static void __set_switches(::System::Collections::Generic::List_1<::System::WeakReference> value) ;
+static void __set_switches(System::Collections::Generic::List_1<System::WeakReference> value) ;
 
-static ::System::Collections::Generic::List_1<::System::WeakReference> __get_switches() ;
+static System::Collections::Generic::List_1<System::WeakReference> __get_switches() ;
 
 static int32_t __declspec(property(get=__get_s_LastCollectionCount, put=__set_s_LastCollectionCount))  s_LastCollectionCount;
 
@@ -115,6 +114,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Diagnostics
-} // end anonymous namespace
-NEED_NO_BOX(::System::Diagnostics::Switch);
-DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::Switch, "System.Diagnostics", "Switch");
+NEED_NO_BOX(System::Diagnostics::Switch);
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Switch, "System.Diagnostics", "Switch");

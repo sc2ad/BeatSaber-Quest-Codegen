@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 // Forward declare root types
 namespace System::Diagnostics::CodeAnalysis {
 class ExcludeFromCodeCoverageAttribute;
@@ -12,7 +11,7 @@ namespace System::Diagnostics::CodeAnalysis {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7813))
 // CS Name: System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute
-class CORDL_TYPE ExcludeFromCodeCoverageAttribute : public ::System::Attribute {
+class CORDL_TYPE ExcludeFromCodeCoverageAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr ExcludeFromCodeCoverageAttribute(ExcludeFromCodeCoverageAttribute cons
 constexpr ExcludeFromCodeCoverageAttribute(ExcludeFromCodeCoverageAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ExcludeFromCodeCoverageAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit ExcludeFromCodeCoverageAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Diagnostics::CodeAnalysis
-} // end anonymous namespace
-NEED_NO_BOX(::System::Diagnostics::CodeAnalysis::ExcludeFromCodeCoverageAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::CodeAnalysis::ExcludeFromCodeCoverageAttribute, "System.Diagnostics.CodeAnalysis", "ExcludeFromCodeCoverageAttribute");
+NEED_NO_BOX(System::Diagnostics::CodeAnalysis::ExcludeFromCodeCoverageAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::CodeAnalysis::ExcludeFromCodeCoverageAttribute, "System.Diagnostics.CodeAnalysis", "ExcludeFromCodeCoverageAttribute");

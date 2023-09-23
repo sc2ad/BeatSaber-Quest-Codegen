@@ -2,7 +2,9 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
+namespace Zenject {
+class InjectContext;
+}
 namespace Zenject {
 class IValidatable;
 }
@@ -10,27 +12,24 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace Zenject {
+class IProvider;
+}
+namespace Zenject {
+struct TypeValuePair;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
+}
+namespace Zenject {
+class IPlaceholderFactory;
 }
 namespace System {
 class Type;
 }
 namespace Zenject {
-class IPlaceholderFactory;
-}
-namespace Zenject {
-class IProvider;
-}
-namespace Zenject {
-class InjectContext;
-}
-namespace Zenject {
 class InjectTypeInfo;
-}
-namespace Zenject {
-struct TypeValuePair;
 }
 // Forward declare root types
 namespace Zenject {
@@ -53,11 +52,11 @@ template<::cordl_internals::il2cpp_reference_type TValue>
 class CORDL_TYPE PlaceholderFactoryBase_1<TValue> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Zenject::IPlaceholderFactory
-constexpr operator  ::Zenject::IPlaceholderFactory() const noexcept;
+/// @brief Convert operator to Zenject::IPlaceholderFactory
+constexpr operator  Zenject::IPlaceholderFactory() const noexcept;
 
-/// @brief Convert operator to ::Zenject::IValidatable
-constexpr operator  ::Zenject::IValidatable() const noexcept;
+/// @brief Convert operator to Zenject::IValidatable
+constexpr operator  Zenject::IValidatable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -92,37 +91,37 @@ constexpr explicit PlaceholderFactoryBase_1(void* ptr) noexcept : ::bs_hook::Il2
 
 // Fields
 
- ::Zenject::IProvider __declspec(property(get=__get__provider, put=__set__provider))  _provider;
+ Zenject::IProvider __declspec(property(get=__get__provider, put=__set__provider))  _provider;
 
-constexpr void __set__provider(::Zenject::IProvider value) ;
+constexpr void __set__provider(Zenject::IProvider value) ;
 
-constexpr ::Zenject::IProvider __get__provider() const;
+constexpr Zenject::IProvider __get__provider() const;
 
- ::Zenject::InjectContext __declspec(property(get=__get__injectContext, put=__set__injectContext))  _injectContext;
+ Zenject::InjectContext __declspec(property(get=__get__injectContext, put=__set__injectContext))  _injectContext;
 
-constexpr void __set__injectContext(::Zenject::InjectContext value) ;
+constexpr void __set__injectContext(Zenject::InjectContext value) ;
 
-constexpr ::Zenject::InjectContext __get__injectContext() const;
+constexpr Zenject::InjectContext __get__injectContext() const;
 
 
 // Properties
 
- ::System::Collections::Generic::IEnumerable_1<::System::Type> __declspec(property(get=get_ParamTypes))  ParamTypes;
+ System::Collections::Generic::IEnumerable_1<System::Type> __declspec(property(get=get_ParamTypes))  ParamTypes;
 
 
 // Methods
 
 /// @brief Method Construct addr 0x0 size 0xffffffffffffffff virtual false final false
- void Construct(::Zenject::IProvider provider, ::Zenject::InjectContext injectContext) ;
+ void Construct(Zenject::IProvider provider, Zenject::InjectContext injectContext) ;
 
 /// @brief Method CreateInternal addr 0x0 size 0xffffffffffffffff virtual false final false
- TValue CreateInternal(::System::Collections::Generic::List_1<::Zenject::TypeValuePair> extraArgs) ;
+ TValue CreateInternal(System::Collections::Generic::List_1<Zenject::TypeValuePair> extraArgs) ;
 
 /// @brief Method Validate addr 0x0 size 0xffffffffffffffff virtual true final false
  void Validate() ;
 
 /// @brief Method get_ParamTypes addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Collections::Generic::IEnumerable_1<::System::Type> get_ParamTypes() ;
+ System::Collections::Generic::IEnumerable_1<System::Type> get_ParamTypes() ;
 
 // Ctor Parameters []
 explicit PlaceholderFactoryBase_1() ;
@@ -134,11 +133,10 @@ explicit PlaceholderFactoryBase_1() ;
 static void __zenInjectMethod0(::bs_hook::Il2CppWrapperType P_0, ::ArrayW<::bs_hook::Il2CppWrapperType> P_1) ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::PlaceholderFactoryBase_1, "Zenject", "PlaceholderFactoryBase`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::PlaceholderFactoryBase_1, "Zenject", "PlaceholderFactoryBase`1");

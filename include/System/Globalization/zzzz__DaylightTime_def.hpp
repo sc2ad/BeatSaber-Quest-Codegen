@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System {
 struct DateTime;
 }
@@ -54,55 +53,54 @@ constexpr explicit DaylightTime(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 
 // Fields
 
- ::System::DateTime __declspec(property(get=__get__start, put=__set__start))  _start;
+ System::DateTime __declspec(property(get=__get__start, put=__set__start))  _start;
 
-constexpr void __set__start(::System::DateTime value) ;
+constexpr void __set__start(System::DateTime value) ;
 
-constexpr ::System::DateTime __get__start() const;
+constexpr System::DateTime __get__start() const;
 
- ::System::DateTime __declspec(property(get=__get__end, put=__set__end))  _end;
+ System::DateTime __declspec(property(get=__get__end, put=__set__end))  _end;
 
-constexpr void __set__end(::System::DateTime value) ;
+constexpr void __set__end(System::DateTime value) ;
 
-constexpr ::System::DateTime __get__end() const;
+constexpr System::DateTime __get__end() const;
 
- ::System::TimeSpan __declspec(property(get=__get__delta, put=__set__delta))  _delta;
+ System::TimeSpan __declspec(property(get=__get__delta, put=__set__delta))  _delta;
 
-constexpr void __set__delta(::System::TimeSpan value) ;
+constexpr void __set__delta(System::TimeSpan value) ;
 
-constexpr ::System::TimeSpan __get__delta() const;
+constexpr System::TimeSpan __get__delta() const;
 
 
 // Properties
 
- ::System::DateTime __declspec(property(get=get_Start))  Start;
+ System::DateTime __declspec(property(get=get_Start))  Start;
 
- ::System::DateTime __declspec(property(get=get_End))  End;
+ System::DateTime __declspec(property(get=get_End))  End;
 
- ::System::TimeSpan __declspec(property(get=get_Delta))  Delta;
+ System::TimeSpan __declspec(property(get=get_Delta))  Delta;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "start", ty: "::System::DateTime", modifiers: "", def_value: None }, CppParam { name: "end", ty: "::System::DateTime", modifiers: "", def_value: None }, CppParam { name: "delta", ty: "::System::TimeSpan", modifiers: "", def_value: None }]
-explicit DaylightTime(::System::DateTime start, ::System::DateTime end, ::System::TimeSpan delta) ;
+// Ctor Parameters [CppParam { name: "start", ty: "System::DateTime", modifiers: "", def_value: None }, CppParam { name: "end", ty: "System::DateTime", modifiers: "", def_value: None }, CppParam { name: "delta", ty: "System::TimeSpan", modifiers: "", def_value: None }]
+explicit DaylightTime(System::DateTime start, System::DateTime end, System::TimeSpan delta) ;
 
 /// @brief Method .ctor addr 0x23e51a4 size 0x3c virtual false final false
- void _ctor(::System::DateTime start, ::System::DateTime end, ::System::TimeSpan delta) ;
+ void _ctor(System::DateTime start, System::DateTime end, System::TimeSpan delta) ;
 
 /// @brief Method get_Start addr 0x23e51e0 size 0x8 virtual false final false
- ::System::DateTime get_Start() ;
+ System::DateTime get_Start() ;
 
 /// @brief Method get_End addr 0x23e51e8 size 0x8 virtual false final false
- ::System::DateTime get_End() ;
+ System::DateTime get_End() ;
 
 /// @brief Method get_Delta addr 0x23e51f0 size 0x8 virtual false final false
- ::System::TimeSpan get_Delta() ;
+ System::TimeSpan get_Delta() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Globalization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Globalization::DaylightTime);
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::DaylightTime, "System.Globalization", "DaylightTime");
+NEED_NO_BOX(System::Globalization::DaylightTime);
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::DaylightTime, "System.Globalization", "DaylightTime");

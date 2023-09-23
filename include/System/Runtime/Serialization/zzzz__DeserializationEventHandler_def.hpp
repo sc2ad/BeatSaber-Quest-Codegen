@@ -3,7 +3,6 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Runtime::Serialization {
 class DeserializationEventHandler;
@@ -14,7 +13,7 @@ namespace System::Runtime::Serialization {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3196))
 // CS Name: System.Runtime.Serialization.DeserializationEventHandler
-class CORDL_TYPE DeserializationEventHandler : public ::System::MulticastDelegate {
+class CORDL_TYPE DeserializationEventHandler : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr DeserializationEventHandler(DeserializationEventHandler const& ) noexc
 constexpr DeserializationEventHandler(DeserializationEventHandler&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DeserializationEventHandler(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit DeserializationEventHandler(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -63,6 +62,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::DeserializationEventHandler);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::DeserializationEventHandler, "System.Runtime.Serialization", "DeserializationEventHandler");
+NEED_NO_BOX(System::Runtime::Serialization::DeserializationEventHandler);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::DeserializationEventHandler, "System.Runtime.Serialization", "DeserializationEventHandler");

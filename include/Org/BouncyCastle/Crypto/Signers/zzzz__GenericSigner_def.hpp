@@ -4,18 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
-class IDigest;
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class ISigner;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IAsymmetricBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
-class IAsymmetricBlockCipher;
+class IDigest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
@@ -30,8 +29,8 @@ namespace Org::BouncyCastle::Crypto::Signers {
 class CORDL_TYPE GenericSigner : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::ISigner
-constexpr operator  ::Org::BouncyCastle::Crypto::ISigner() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::ISigner
+constexpr operator  Org::BouncyCastle::Crypto::ISigner() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -66,17 +65,17 @@ constexpr explicit GenericSigner(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 
 // Fields
 
- ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher __declspec(property(get=__get_engine, put=__set_engine))  engine;
+ Org::BouncyCastle::Crypto::IAsymmetricBlockCipher __declspec(property(get=__get_engine, put=__set_engine))  engine;
 
-constexpr void __set_engine(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher value) ;
+constexpr void __set_engine(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher __get_engine() const;
+constexpr Org::BouncyCastle::Crypto::IAsymmetricBlockCipher __get_engine() const;
 
- ::Org::BouncyCastle::Crypto::IDigest __declspec(property(get=__get_digest, put=__set_digest))  digest;
+ Org::BouncyCastle::Crypto::IDigest __declspec(property(get=__get_digest, put=__set_digest))  digest;
 
-constexpr void __set_digest(::Org::BouncyCastle::Crypto::IDigest value) ;
+constexpr void __set_digest(Org::BouncyCastle::Crypto::IDigest value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IDigest __get_digest() const;
+constexpr Org::BouncyCastle::Crypto::IDigest __get_digest() const;
 
  bool __declspec(property(get=__get_forSigning, put=__set_forSigning))  forSigning;
 
@@ -92,17 +91,17 @@ constexpr bool __get_forSigning() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "engine", ty: "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "::Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
-explicit GenericSigner(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher engine, ::Org::BouncyCastle::Crypto::IDigest digest) ;
+// Ctor Parameters [CppParam { name: "engine", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
+explicit GenericSigner(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher engine, Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method .ctor addr 0xebe218 size 0x2c virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher engine, ::Org::BouncyCastle::Crypto::IDigest digest) ;
+ void _ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher engine, Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method get_AlgorithmName addr 0xebe244 size 0x274 virtual true final false
  ::StringW get_AlgorithmName() ;
 
 /// @brief Method Init addr 0xebe4b8 size 0x228 virtual true final false
- void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method Update addr 0xebe6e0 size 0xac virtual true final false
  void Update(uint8_t input) ;
@@ -123,6 +122,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Signers
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Signers::GenericSigner);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Signers::GenericSigner, "Org.BouncyCastle.Crypto.Signers", "GenericSigner");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Signers::GenericSigner);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::GenericSigner, "Org.BouncyCastle.Crypto.Signers", "GenericSigner");

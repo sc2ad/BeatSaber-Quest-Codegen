@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Reflection {
 struct GenericParameterAttributes;
@@ -73,32 +72,31 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::Reflection::GenericParameterAttributes const None;
+static System::Reflection::GenericParameterAttributes const None;
 
 /// @brief Field VarianceMask offset 0
-static ::System::Reflection::GenericParameterAttributes const VarianceMask;
+static System::Reflection::GenericParameterAttributes const VarianceMask;
 
 /// @brief Field Covariant offset 0
-static ::System::Reflection::GenericParameterAttributes const Covariant;
+static System::Reflection::GenericParameterAttributes const Covariant;
 
 /// @brief Field Contravariant offset 0
-static ::System::Reflection::GenericParameterAttributes const Contravariant;
+static System::Reflection::GenericParameterAttributes const Contravariant;
 
 /// @brief Field SpecialConstraintMask offset 0
-static ::System::Reflection::GenericParameterAttributes const SpecialConstraintMask;
+static System::Reflection::GenericParameterAttributes const SpecialConstraintMask;
 
 /// @brief Field ReferenceTypeConstraint offset 0
-static ::System::Reflection::GenericParameterAttributes const ReferenceTypeConstraint;
+static System::Reflection::GenericParameterAttributes const ReferenceTypeConstraint;
 
 /// @brief Field NotNullableValueTypeConstraint offset 0
-static ::System::Reflection::GenericParameterAttributes const NotNullableValueTypeConstraint;
+static System::Reflection::GenericParameterAttributes const NotNullableValueTypeConstraint;
 
 /// @brief Field DefaultConstructorConstraint offset 0
-static ::System::Reflection::GenericParameterAttributes const DefaultConstructorConstraint;
+static System::Reflection::GenericParameterAttributes const DefaultConstructorConstraint;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Reflection
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::GenericParameterAttributes, "System.Reflection", "GenericParameterAttributes");
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::GenericParameterAttributes, "System.Reflection", "GenericParameterAttributes");

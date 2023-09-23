@@ -3,7 +3,6 @@
 #include "System/Text/zzzz__DecoderFallback_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Text {
 class DecoderFallbackBuffer;
 }
@@ -17,7 +16,7 @@ namespace System::Text {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2829))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2826))
 // CS Name: System.Text.DecoderExceptionFallback
-class CORDL_TYPE DecoderExceptionFallback : public ::System::Text::DecoderFallback {
+class CORDL_TYPE DecoderExceptionFallback : public System::Text::DecoderFallback {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr DecoderExceptionFallback(DecoderExceptionFallback const& ) noexcept = 
 constexpr DecoderExceptionFallback(DecoderExceptionFallback&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DecoderExceptionFallback(void* ptr) noexcept : ::System::Text::DecoderFallback(ptr) {
+constexpr explicit DecoderExceptionFallback(void* ptr) noexcept : System::Text::DecoderFallback(ptr) {
 }
 
 
@@ -65,7 +64,7 @@ explicit DecoderExceptionFallback() ;
  void _ctor() ;
 
 /// @brief Method CreateFallbackBuffer addr 0x24c2ae8 size 0x5c virtual true final false
- ::System::Text::DecoderFallbackBuffer CreateFallbackBuffer() ;
+ System::Text::DecoderFallbackBuffer CreateFallbackBuffer() ;
 
 /// @brief Method get_MaxCharCount addr 0x24c2b4c size 0x8 virtual true final false
  int32_t get_MaxCharCount() ;
@@ -80,6 +79,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Text
-} // end anonymous namespace
-NEED_NO_BOX(::System::Text::DecoderExceptionFallback);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::DecoderExceptionFallback, "System.Text", "DecoderExceptionFallback");
+NEED_NO_BOX(System::Text::DecoderExceptionFallback);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::DecoderExceptionFallback, "System.Text", "DecoderExceptionFallback");

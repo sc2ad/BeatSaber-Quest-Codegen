@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
-}
 namespace Org::BouncyCastle::Utilities {
 class IMemoable;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Digests {
@@ -24,11 +23,11 @@ namespace Org::BouncyCastle::Crypto::Digests {
 class CORDL_TYPE KeccakDigest : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IDigest
-constexpr operator  ::Org::BouncyCastle::Crypto::IDigest() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IDigest
+constexpr operator  Org::BouncyCastle::Crypto::IDigest() const noexcept;
 
-/// @brief Convert operator to ::Org::BouncyCastle::Utilities::IMemoable
-constexpr operator  ::Org::BouncyCastle::Utilities::IMemoable() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Utilities::IMemoable
+constexpr operator  Org::BouncyCastle::Utilities::IMemoable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -125,14 +124,14 @@ explicit KeccakDigest(int32_t bitLength) ;
 /// @brief Method .ctor addr 0x119a1f4 size 0x94 virtual false final false
  void _ctor(int32_t bitLength) ;
 
-// Ctor Parameters [CppParam { name: "source", ty: "::Org::BouncyCastle::Crypto::Digests::KeccakDigest", modifiers: "", def_value: None }]
-explicit KeccakDigest(::Org::BouncyCastle::Crypto::Digests::KeccakDigest source) ;
+// Ctor Parameters [CppParam { name: "source", ty: "Org::BouncyCastle::Crypto::Digests::KeccakDigest", modifiers: "", def_value: None }]
+explicit KeccakDigest(Org::BouncyCastle::Crypto::Digests::KeccakDigest source) ;
 
 /// @brief Method .ctor addr 0x119a338 size 0x94 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::Digests::KeccakDigest source) ;
+ void _ctor(Org::BouncyCastle::Crypto::Digests::KeccakDigest source) ;
 
 /// @brief Method CopyIn addr 0x119a3cc size 0x7c virtual false final false
- void CopyIn(::Org::BouncyCastle::Crypto::Digests::KeccakDigest source) ;
+ void CopyIn(Org::BouncyCastle::Crypto::Digests::KeccakDigest source) ;
 
 /// @brief Method get_AlgorithmName addr 0x119a448 size 0x84 virtual true final false
  ::StringW get_AlgorithmName() ;
@@ -189,15 +188,14 @@ explicit KeccakDigest(::Org::BouncyCastle::Crypto::Digests::KeccakDigest source)
  void KeccakPermutation() ;
 
 /// @brief Method Copy addr 0x119b400 size 0x60 virtual true final false
- ::Org::BouncyCastle::Utilities::IMemoable Copy() ;
+ Org::BouncyCastle::Utilities::IMemoable Copy() ;
 
 /// @brief Method Reset addr 0x119b460 size 0x84 virtual true final false
- void Reset(::Org::BouncyCastle::Utilities::IMemoable other) ;
+ void Reset(Org::BouncyCastle::Utilities::IMemoable other) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Digests
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::KeccakDigest);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Digests::KeccakDigest, "Org.BouncyCastle.Crypto.Digests", "KeccakDigest");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Digests::KeccakDigest);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::KeccakDigest, "Org.BouncyCastle.Crypto.Digests", "KeccakDigest");

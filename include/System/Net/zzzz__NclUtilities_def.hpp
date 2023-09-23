@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class Exception;
 }
 namespace System::Net {
-class IPHostEntry;
+class IPAddress;
 }
 namespace System::Net {
-class IPAddress;
+class IPHostEntry;
 }
 // Forward declare root types
 namespace System::Net {
@@ -59,11 +58,11 @@ constexpr explicit NclUtilities(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 
 // Fields
 
-static ::ArrayW<::System::Net::IPAddress> __declspec(property(get=__get__LocalAddresses, put=__set__LocalAddresses))  _LocalAddresses;
+static ::ArrayW<System::Net::IPAddress> __declspec(property(get=__get__LocalAddresses, put=__set__LocalAddresses))  _LocalAddresses;
 
-static void __set__LocalAddresses(::ArrayW<::System::Net::IPAddress> value) ;
+static void __set__LocalAddresses(::ArrayW<System::Net::IPAddress> value) ;
 
-static ::ArrayW<::System::Net::IPAddress> __get__LocalAddresses() ;
+static ::ArrayW<System::Net::IPAddress> __get__LocalAddresses() ;
 
 static ::bs_hook::Il2CppWrapperType __declspec(property(get=__get__LocalAddressesLock, put=__set__LocalAddressesLock))  _LocalAddressesLock;
 
@@ -80,7 +79,7 @@ static ::StringW __get__LocalDomainName() ;
 
 // Properties
 
-static ::ArrayW<::System::Net::IPAddress> __declspec(property(get=get_LocalAddresses))  LocalAddresses;
+static ::ArrayW<System::Net::IPAddress> __declspec(property(get=get_LocalAddresses))  LocalAddresses;
 
 static ::bs_hook::Il2CppWrapperType __declspec(property(get=get_LocalAddressesLock))  LocalAddressesLock;
 
@@ -88,16 +87,16 @@ static ::bs_hook::Il2CppWrapperType __declspec(property(get=get_LocalAddressesLo
 // Methods
 
 /// @brief Method IsFatal addr 0x280c05c size 0xc0 virtual false final false
-static bool IsFatal(::System::Exception exception) ;
+static bool IsFatal(System::Exception exception) ;
 
 /// @brief Method IsAddressLocal addr 0x280c11c size 0x8c virtual false final false
-static bool IsAddressLocal(::System::Net::IPAddress ipAddress) ;
+static bool IsAddressLocal(System::Net::IPAddress ipAddress) ;
 
 /// @brief Method GetLocalHost addr 0x280c664 size 0x18 virtual false final false
-static ::System::Net::IPHostEntry GetLocalHost() ;
+static System::Net::IPHostEntry GetLocalHost() ;
 
 /// @brief Method get_LocalAddresses addr 0x280c1a8 size 0x4bc virtual false final false
-static ::ArrayW<::System::Net::IPAddress> get_LocalAddresses() ;
+static ::ArrayW<System::Net::IPAddress> get_LocalAddresses() ;
 
 /// @brief Method get_LocalAddressesLock addr 0x280c67c size 0xa4 virtual false final false
 static ::bs_hook::Il2CppWrapperType get_LocalAddressesLock() ;
@@ -106,6 +105,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::NclUtilities);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::NclUtilities, "System.Net", "NclUtilities");
+NEED_NO_BOX(System::Net::NclUtilities);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NclUtilities, "System.Net", "NclUtilities");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System {
 class UnhandledExceptionEventArgs;
 }
@@ -13,7 +12,7 @@ namespace UnityEngine {
 class UnhandledExceptionHandler;
 }
 namespace UnityEngine {
-class ____UnityEngine__UnhandledExceptionHandler____c;
+class UnityEngine__UnhandledExceptionHandler____c;
 }
 // Type: ::<>c
 namespace UnityEngine {
@@ -21,65 +20,65 @@ namespace UnityEngine {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10167))
 // CS Name: UnityEngine.UnhandledExceptionHandler::<>c
-class CORDL_TYPE ____UnityEngine__UnhandledExceptionHandler____c : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__UnhandledExceptionHandler____c : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____UnityEngine__UnhandledExceptionHandler____c() = default;
+virtual ~UnityEngine__UnhandledExceptionHandler____c() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UnhandledExceptionHandler____c", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__UnhandledExceptionHandler____c(____UnityEngine__UnhandledExceptionHandler____c const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UnhandledExceptionHandler____c", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__UnhandledExceptionHandler____c(UnityEngine__UnhandledExceptionHandler____c const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UnhandledExceptionHandler____c", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__UnhandledExceptionHandler____c(____UnityEngine__UnhandledExceptionHandler____c&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UnhandledExceptionHandler____c", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__UnhandledExceptionHandler____c(UnityEngine__UnhandledExceptionHandler____c&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UnhandledExceptionHandler____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__UnhandledExceptionHandler____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__UnhandledExceptionHandler____c& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__UnhandledExceptionHandler____c& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__UnhandledExceptionHandler____c& operator=(void* o) noexcept {
+  constexpr UnityEngine__UnhandledExceptionHandler____c& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__UnhandledExceptionHandler____c& operator=(____UnityEngine__UnhandledExceptionHandler____c&& o) noexcept = default;
-  constexpr ____UnityEngine__UnhandledExceptionHandler____c& operator=(____UnityEngine__UnhandledExceptionHandler____c const& o) noexcept = default;
+  constexpr UnityEngine__UnhandledExceptionHandler____c& operator=(UnityEngine__UnhandledExceptionHandler____c&& o) noexcept = default;
+  constexpr UnityEngine__UnhandledExceptionHandler____c& operator=(UnityEngine__UnhandledExceptionHandler____c const& o) noexcept = default;
                 
 
 
 // Fields
 
-static ::UnityEngine::____UnityEngine__UnhandledExceptionHandler____c __declspec(property(get=__get___9, put=__set___9))  __9;
+static UnityEngine::UnityEngine__UnhandledExceptionHandler____c __declspec(property(get=__get___9, put=__set___9))  __9;
 
-static void __set___9(::UnityEngine::____UnityEngine__UnhandledExceptionHandler____c value) ;
+static void __set___9(UnityEngine::UnityEngine__UnhandledExceptionHandler____c value) ;
 
-static ::UnityEngine::____UnityEngine__UnhandledExceptionHandler____c __get___9() ;
+static UnityEngine::UnityEngine__UnhandledExceptionHandler____c __get___9() ;
 
-static ::System::UnhandledExceptionEventHandler __declspec(property(get=__get___9__0_0, put=__set___9__0_0))  __9__0_0;
+static System::UnhandledExceptionEventHandler __declspec(property(get=__get___9__0_0, put=__set___9__0_0))  __9__0_0;
 
-static void __set___9__0_0(::System::UnhandledExceptionEventHandler value) ;
+static void __set___9__0_0(System::UnhandledExceptionEventHandler value) ;
 
-static ::System::UnhandledExceptionEventHandler __get___9__0_0() ;
+static System::UnhandledExceptionEventHandler __get___9__0_0() ;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__UnhandledExceptionHandler____c() ;
+explicit UnityEngine__UnhandledExceptionHandler____c() ;
 
 /// @brief Method .ctor addr 0x2b5bfd0 size 0x8 virtual false final false
  void _ctor() ;
 
 /// @brief Method <RegisterUECatcher>b__0_0 addr 0x2b5bfd8 size 0xb4 virtual false final false
- void _RegisterUECatcher_b__0_0(::bs_hook::Il2CppWrapperType sender, ::System::UnhandledExceptionEventArgs e) ;
+ void _RegisterUECatcher_b__0_0(::bs_hook::Il2CppWrapperType sender, System::UnhandledExceptionEventArgs e) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -94,7 +93,7 @@ namespace UnityEngine {
 class CORDL_TYPE UnhandledExceptionHandler : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using __c = ::UnityEngine::____UnityEngine__UnhandledExceptionHandler____c;
+using __c = UnityEngine::UnityEngine__UnhandledExceptionHandler____c;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -136,8 +135,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UnhandledExceptionHandler);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UnhandledExceptionHandler, "UnityEngine", "UnhandledExceptionHandler");
-NEED_NO_BOX(::UnityEngine::____UnityEngine__UnhandledExceptionHandler____c);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::____UnityEngine__UnhandledExceptionHandler____c, "UnityEngine", "UnhandledExceptionHandler/<>c");
+NEED_NO_BOX(UnityEngine::UnhandledExceptionHandler);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnhandledExceptionHandler, "UnityEngine", "UnhandledExceptionHandler");
+NEED_NO_BOX(UnityEngine::UnityEngine__UnhandledExceptionHandler____c);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnityEngine__UnhandledExceptionHandler____c, "UnityEngine", "UnhandledExceptionHandler/<>c");

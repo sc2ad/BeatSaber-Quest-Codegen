@@ -4,10 +4,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
-struct ____GlobalNamespace__UserInfo__Platform;
+struct GlobalNamespace__UserInfo__Platform;
 }
 namespace GlobalNamespace {
 class UserInfo;
@@ -18,20 +17,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4711))
 // CS Name: UserInfo::Platform
-struct CORDL_TYPE ____GlobalNamespace__UserInfo__Platform : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__UserInfo__Platform : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__UserInfo__Platform(int32_t value__) noexcept;
+constexpr GlobalNamespace__UserInfo__Platform(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__UserInfo__Platform(____GlobalNamespace__UserInfo__Platform const&) = default;
-                    constexpr ____GlobalNamespace__UserInfo__Platform(____GlobalNamespace__UserInfo__Platform&&) = default;
-                    constexpr ____GlobalNamespace__UserInfo__Platform& operator=(____GlobalNamespace__UserInfo__Platform const& o) {
+                    constexpr GlobalNamespace__UserInfo__Platform(GlobalNamespace__UserInfo__Platform const&) = default;
+                    constexpr GlobalNamespace__UserInfo__Platform(GlobalNamespace__UserInfo__Platform&&) = default;
+                    constexpr GlobalNamespace__UserInfo__Platform& operator=(GlobalNamespace__UserInfo__Platform const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__UserInfo__Platform& operator=(____GlobalNamespace__UserInfo__Platform&& o) noexcept {
+                    constexpr GlobalNamespace__UserInfo__Platform& operator=(GlobalNamespace__UserInfo__Platform&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -44,7 +43,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__UserInfo__Platform(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__UserInfo__Platform(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -52,7 +51,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__UserInfo__Platform_Unwrapped : int32_t {
+enum class __GlobalNamespace__UserInfo__Platform_Unwrapped : int32_t {
 __Test = 0,
 __Steam = 1,
 __Oculus = 2,
@@ -61,8 +60,8 @@ __PS5 = 4,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__UserInfo__Platform_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__UserInfo__Platform_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__UserInfo__Platform_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__UserInfo__Platform_Unwrapped>(__instance);
 }
 
 
@@ -75,19 +74,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Test offset 0
-static ::GlobalNamespace::____GlobalNamespace__UserInfo__Platform const Test;
+static GlobalNamespace::GlobalNamespace__UserInfo__Platform const Test;
 
 /// @brief Field Steam offset 0
-static ::GlobalNamespace::____GlobalNamespace__UserInfo__Platform const Steam;
+static GlobalNamespace::GlobalNamespace__UserInfo__Platform const Steam;
 
 /// @brief Field Oculus offset 0
-static ::GlobalNamespace::____GlobalNamespace__UserInfo__Platform const Oculus;
+static GlobalNamespace::GlobalNamespace__UserInfo__Platform const Oculus;
 
 /// @brief Field PS4 offset 0
-static ::GlobalNamespace::____GlobalNamespace__UserInfo__Platform const PS4;
+static GlobalNamespace::GlobalNamespace__UserInfo__Platform const PS4;
 
 /// @brief Field PS5 offset 0
-static ::GlobalNamespace::____GlobalNamespace__UserInfo__Platform const PS5;
+static GlobalNamespace::GlobalNamespace__UserInfo__Platform const PS5;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -102,7 +101,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE UserInfo : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using Platform = ::GlobalNamespace::____GlobalNamespace__UserInfo__Platform;
+using Platform = GlobalNamespace::GlobalNamespace__UserInfo__Platform;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -137,11 +136,11 @@ constexpr explicit UserInfo(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(p
 
 // Fields
 
- ::GlobalNamespace::____GlobalNamespace__UserInfo__Platform __declspec(property(get=__get_platform, put=__set_platform))  platform;
+ GlobalNamespace::GlobalNamespace__UserInfo__Platform __declspec(property(get=__get_platform, put=__set_platform))  platform;
 
-constexpr void __set_platform(::GlobalNamespace::____GlobalNamespace__UserInfo__Platform value) ;
+constexpr void __set_platform(GlobalNamespace::GlobalNamespace__UserInfo__Platform value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__UserInfo__Platform __get_platform() const;
+constexpr GlobalNamespace::GlobalNamespace__UserInfo__Platform __get_platform() const;
 
  ::StringW __declspec(property(get=__get_platformUserId, put=__set_platformUserId))  platformUserId;
 
@@ -158,17 +157,16 @@ constexpr ::StringW __get_userName() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "platform", ty: "::GlobalNamespace::____GlobalNamespace__UserInfo__Platform", modifiers: "", def_value: None }, CppParam { name: "platformUserId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit UserInfo(::GlobalNamespace::____GlobalNamespace__UserInfo__Platform platform, ::StringW platformUserId, ::StringW userName) ;
+// Ctor Parameters [CppParam { name: "platform", ty: "GlobalNamespace::GlobalNamespace__UserInfo__Platform", modifiers: "", def_value: None }, CppParam { name: "platformUserId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: None }]
+explicit UserInfo(GlobalNamespace::GlobalNamespace__UserInfo__Platform platform, ::StringW platformUserId, ::StringW userName) ;
 
 /// @brief Method .ctor addr 0x221da98 size 0x3c virtual false final false
- void _ctor(::GlobalNamespace::____GlobalNamespace__UserInfo__Platform platform, ::StringW platformUserId, ::StringW userName) ;
+ void _ctor(GlobalNamespace::GlobalNamespace__UserInfo__Platform platform, ::StringW platformUserId, ::StringW userName) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__UserInfo__Platform, "", "UserInfo/Platform");
-NEED_NO_BOX(::GlobalNamespace::UserInfo);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::UserInfo, "", "UserInfo");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__UserInfo__Platform, "", "UserInfo/Platform");
+NEED_NO_BOX(GlobalNamespace::UserInfo);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UserInfo, "", "UserInfo");

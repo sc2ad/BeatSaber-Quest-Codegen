@@ -1,16 +1,15 @@
 #pragma once
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine::XR {
 template<typename T>
 struct InputFeatureUsage_1;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::XR::OpenXR::Features::Interactions {
@@ -58,17 +57,17 @@ constexpr explicit EyeTrackingUsages(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 
 // Fields
 
-static ::UnityEngine::XR::InputFeatureUsage_1<::UnityEngine::Vector3> __declspec(property(get=__get_gazePosition, put=__set_gazePosition))  gazePosition;
+static UnityEngine::XR::InputFeatureUsage_1<UnityEngine::Vector3> __declspec(property(get=__get_gazePosition, put=__set_gazePosition))  gazePosition;
 
-static void __set_gazePosition(::UnityEngine::XR::InputFeatureUsage_1<::UnityEngine::Vector3> value) ;
+static void __set_gazePosition(UnityEngine::XR::InputFeatureUsage_1<UnityEngine::Vector3> value) ;
 
-static ::UnityEngine::XR::InputFeatureUsage_1<::UnityEngine::Vector3> __get_gazePosition() ;
+static UnityEngine::XR::InputFeatureUsage_1<UnityEngine::Vector3> __get_gazePosition() ;
 
-static ::UnityEngine::XR::InputFeatureUsage_1<::UnityEngine::Quaternion> __declspec(property(get=__get_gazeRotation, put=__set_gazeRotation))  gazeRotation;
+static UnityEngine::XR::InputFeatureUsage_1<UnityEngine::Quaternion> __declspec(property(get=__get_gazeRotation, put=__set_gazeRotation))  gazeRotation;
 
-static void __set_gazeRotation(::UnityEngine::XR::InputFeatureUsage_1<::UnityEngine::Quaternion> value) ;
+static void __set_gazeRotation(UnityEngine::XR::InputFeatureUsage_1<UnityEngine::Quaternion> value) ;
 
-static ::UnityEngine::XR::InputFeatureUsage_1<::UnityEngine::Quaternion> __get_gazeRotation() ;
+static UnityEngine::XR::InputFeatureUsage_1<UnityEngine::Quaternion> __get_gazeRotation() ;
 
 
 // Methods
@@ -77,6 +76,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR::OpenXR::Features::Interactions
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::XR::OpenXR::Features::Interactions::EyeTrackingUsages);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::Features::Interactions::EyeTrackingUsages, "UnityEngine.XR.OpenXR.Features.Interactions", "EyeTrackingUsages");
+NEED_NO_BOX(UnityEngine::XR::OpenXR::Features::Interactions::EyeTrackingUsages);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::OpenXR::Features::Interactions::EyeTrackingUsages, "UnityEngine.XR.OpenXR.Features.Interactions", "EyeTrackingUsages");

@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
+class ECFieldElement;
 }
 namespace Org::BouncyCastle::Math::EC {
-class ECFieldElement;
+class ECCurve;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X9 {
@@ -60,13 +59,13 @@ constexpr explicit X9IntegerConverter(void* ptr) noexcept : ::bs_hook::Il2CppWra
 // Methods
 
 /// @brief Method GetByteLength addr 0x11270fc size 0x34 virtual false final false
-static int32_t GetByteLength(::Org::BouncyCastle::Math::EC::ECFieldElement fe) ;
+static int32_t GetByteLength(Org::BouncyCastle::Math::EC::ECFieldElement fe) ;
 
 /// @brief Method GetByteLength addr 0x1127430 size 0x34 virtual false final false
-static int32_t GetByteLength(::Org::BouncyCastle::Math::EC::ECCurve c) ;
+static int32_t GetByteLength(Org::BouncyCastle::Math::EC::ECCurve c) ;
 
 /// @brief Method IntegerToBytes addr 0x1127130 size 0xdc virtual false final false
-static ::ArrayW<uint8_t> IntegerToBytes(::Org::BouncyCastle::Math::BigInteger s, int32_t qLength) ;
+static ::ArrayW<uint8_t> IntegerToBytes(Org::BouncyCastle::Math::BigInteger s, int32_t qLength) ;
 
 // Ctor Parameters []
 explicit X9IntegerConverter() ;
@@ -78,6 +77,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::X9
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::X9::X9IntegerConverter);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X9::X9IntegerConverter, "Org.BouncyCastle.Asn1.X9", "X9IntegerConverter");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X9::X9IntegerConverter);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::X9IntegerConverter, "Org.BouncyCastle.Asn1.X9", "X9IntegerConverter");

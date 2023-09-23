@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 // Forward declare root types
 namespace System::Runtime::ConstrainedExecution {
 class PrePrepareMethodAttribute;
@@ -12,7 +11,7 @@ namespace System::Runtime::ConstrainedExecution {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3346))
 // CS Name: System.Runtime.ConstrainedExecution.PrePrepareMethodAttribute
-class CORDL_TYPE PrePrepareMethodAttribute : public ::System::Attribute {
+class CORDL_TYPE PrePrepareMethodAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr PrePrepareMethodAttribute(PrePrepareMethodAttribute const& ) noexcept 
 constexpr PrePrepareMethodAttribute(PrePrepareMethodAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PrePrepareMethodAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit PrePrepareMethodAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::ConstrainedExecution
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::ConstrainedExecution::PrePrepareMethodAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::ConstrainedExecution::PrePrepareMethodAttribute, "System.Runtime.ConstrainedExecution", "PrePrepareMethodAttribute");
+NEED_NO_BOX(System::Runtime::ConstrainedExecution::PrePrepareMethodAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ConstrainedExecution::PrePrepareMethodAttribute, "System.Runtime.ConstrainedExecution", "PrePrepareMethodAttribute");

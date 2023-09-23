@@ -3,22 +3,21 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace System {
+template<typename T>
+class IEquatable_1;
+}
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class INetSerializable;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
 namespace LiteNetLib::Utils {
-class INetSerializable;
+class NetDataReader;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
-}
-namespace System {
-template<typename T>
-class IEquatable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -33,11 +32,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapIdentifierNetSerializable : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::LiteNetLib::Utils::INetSerializable
-constexpr operator  ::LiteNetLib::Utils::INetSerializable() const noexcept;
+/// @brief Convert operator to LiteNetLib::Utils::INetSerializable
+constexpr operator  LiteNetLib::Utils::INetSerializable() const noexcept;
 
-/// @brief Convert operator to ::System::IEquatable_1<::GlobalNamespace::BeatmapIdentifierNetSerializable>
-constexpr operator  ::System::IEquatable_1<::GlobalNamespace::BeatmapIdentifierNetSerializable>() const noexcept;
+/// @brief Convert operator to System::IEquatable_1<GlobalNamespace::BeatmapIdentifierNetSerializable>
+constexpr operator  System::IEquatable_1<GlobalNamespace::BeatmapIdentifierNetSerializable>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -84,11 +83,11 @@ constexpr void __set__beatmapCharacteristicSerializedName_k__BackingField(::Stri
 
 constexpr ::StringW __get__beatmapCharacteristicSerializedName_k__BackingField() const;
 
- ::GlobalNamespace::BeatmapDifficulty __declspec(property(get=__get__difficulty_k__BackingField, put=__set__difficulty_k__BackingField))  _difficulty_k__BackingField;
+ GlobalNamespace::BeatmapDifficulty __declspec(property(get=__get__difficulty_k__BackingField, put=__set__difficulty_k__BackingField))  _difficulty_k__BackingField;
 
-constexpr void __set__difficulty_k__BackingField(::GlobalNamespace::BeatmapDifficulty value) ;
+constexpr void __set__difficulty_k__BackingField(GlobalNamespace::BeatmapDifficulty value) ;
 
-constexpr ::GlobalNamespace::BeatmapDifficulty __get__difficulty_k__BackingField() const;
+constexpr GlobalNamespace::BeatmapDifficulty __get__difficulty_k__BackingField() const;
 
 
 // Properties
@@ -97,7 +96,7 @@ constexpr ::GlobalNamespace::BeatmapDifficulty __get__difficulty_k__BackingField
 
  ::StringW __declspec(property(get=get_beatmapCharacteristicSerializedName, put=set_beatmapCharacteristicSerializedName))  beatmapCharacteristicSerializedName;
 
- ::GlobalNamespace::BeatmapDifficulty __declspec(property(get=get_difficulty, put=set_difficulty))  difficulty;
+ GlobalNamespace::BeatmapDifficulty __declspec(property(get=get_difficulty, put=set_difficulty))  difficulty;
 
 
 // Methods
@@ -115,10 +114,10 @@ constexpr ::GlobalNamespace::BeatmapDifficulty __get__difficulty_k__BackingField
  void set_beatmapCharacteristicSerializedName(::StringW value) ;
 
 /// @brief Method get_difficulty addr 0x1212e0c size 0x8 virtual false final false
- ::GlobalNamespace::BeatmapDifficulty get_difficulty() ;
+ GlobalNamespace::BeatmapDifficulty get_difficulty() ;
 
 /// @brief Method set_difficulty addr 0x1212e14 size 0x8 virtual false final false
- void set_difficulty(::GlobalNamespace::BeatmapDifficulty value) ;
+ void set_difficulty(GlobalNamespace::BeatmapDifficulty value) ;
 
 // Ctor Parameters []
 explicit BeatmapIdentifierNetSerializable() ;
@@ -126,20 +125,20 @@ explicit BeatmapIdentifierNetSerializable() ;
 /// @brief Method .ctor addr 0x1212e1c size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "levelID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristicSerializedName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "difficulty", ty: "::GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }]
-explicit BeatmapIdentifierNetSerializable(::StringW levelID, ::StringW beatmapCharacteristicSerializedName, ::GlobalNamespace::BeatmapDifficulty difficulty) ;
+// Ctor Parameters [CppParam { name: "levelID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristicSerializedName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "difficulty", ty: "GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }]
+explicit BeatmapIdentifierNetSerializable(::StringW levelID, ::StringW beatmapCharacteristicSerializedName, GlobalNamespace::BeatmapDifficulty difficulty) ;
 
 /// @brief Method .ctor addr 0x1212e24 size 0x3c virtual false final false
- void _ctor(::StringW levelID, ::StringW beatmapCharacteristicSerializedName, ::GlobalNamespace::BeatmapDifficulty difficulty) ;
+ void _ctor(::StringW levelID, ::StringW beatmapCharacteristicSerializedName, GlobalNamespace::BeatmapDifficulty difficulty) ;
 
 /// @brief Method LiteNetLib.Utils.INetSerializable.Deserialize addr 0x1212e60 size 0x50 virtual true final true
- void LiteNetLib_Utils_INetSerializable_Deserialize(::LiteNetLib::Utils::NetDataReader reader) ;
+ void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
 
 /// @brief Method LiteNetLib.Utils.INetSerializable.Serialize addr 0x1212ec0 size 0x4c virtual true final true
- void LiteNetLib_Utils_INetSerializable_Serialize(::LiteNetLib::Utils::NetDataWriter writer) ;
+ void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter writer) ;
 
 /// @brief Method Equals addr 0x1212f14 size 0x70 virtual true final true
- bool Equals(::GlobalNamespace::BeatmapIdentifierNetSerializable other) ;
+ bool Equals(GlobalNamespace::BeatmapIdentifierNetSerializable other) ;
 
 /// @brief Method Equals addr 0x1212f84 size 0x10c virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -154,6 +153,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BeatmapIdentifierNetSerializable);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapIdentifierNetSerializable, "", "BeatmapIdentifierNetSerializable");
+NEED_NO_BOX(GlobalNamespace::BeatmapIdentifierNetSerializable);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapIdentifierNetSerializable, "", "BeatmapIdentifierNetSerializable");

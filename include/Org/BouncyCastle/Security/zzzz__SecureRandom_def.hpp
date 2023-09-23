@@ -5,12 +5,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto::Prng {
-class DigestRandomGenerator;
-}
 namespace Org::BouncyCastle::Crypto::Prng {
 class IRandomGenerator;
+}
+namespace Org::BouncyCastle::Crypto::Prng {
+class DigestRandomGenerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Security {
@@ -22,7 +21,7 @@ namespace Org::BouncyCastle::Security {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2460))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1111))
 // CS Name: Org.BouncyCastle.Security.SecureRandom
-class CORDL_TYPE SecureRandom : public ::System::Random {
+class CORDL_TYPE SecureRandom : public System::Random {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr SecureRandom(SecureRandom const& ) noexcept = default;
 constexpr SecureRandom(SecureRandom&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SecureRandom(void* ptr) noexcept : ::System::Random(ptr) {
+constexpr explicit SecureRandom(void* ptr) noexcept : System::Random(ptr) {
 }
 
 
@@ -64,17 +63,17 @@ static void __set_counter(int64_t value) ;
 
 static int64_t __get_counter() ;
 
-static ::Org::BouncyCastle::Security::SecureRandom __declspec(property(get=__get_master, put=__set_master))  master;
+static Org::BouncyCastle::Security::SecureRandom __declspec(property(get=__get_master, put=__set_master))  master;
 
-static void __set_master(::Org::BouncyCastle::Security::SecureRandom value) ;
+static void __set_master(Org::BouncyCastle::Security::SecureRandom value) ;
 
-static ::Org::BouncyCastle::Security::SecureRandom __get_master() ;
+static Org::BouncyCastle::Security::SecureRandom __get_master() ;
 
- ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator __declspec(property(get=__get_generator, put=__set_generator))  generator;
+ Org::BouncyCastle::Crypto::Prng::IRandomGenerator __declspec(property(get=__get_generator, put=__set_generator))  generator;
 
-constexpr void __set_generator(::Org::BouncyCastle::Crypto::Prng::IRandomGenerator value) ;
+constexpr void __set_generator(Org::BouncyCastle::Crypto::Prng::IRandomGenerator value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator __get_generator() const;
+constexpr Org::BouncyCastle::Crypto::Prng::IRandomGenerator __get_generator() const;
 
 static double_t __declspec(property(get=__get_DoubleScale, put=__set_DoubleScale))  DoubleScale;
 
@@ -85,7 +84,7 @@ static double_t __get_DoubleScale() ;
 
 // Properties
 
-static ::Org::BouncyCastle::Security::SecureRandom __declspec(property(get=get_Master))  Master;
+static Org::BouncyCastle::Security::SecureRandom __declspec(property(get=get_Master))  Master;
 
 
 // Methods
@@ -94,19 +93,19 @@ static ::Org::BouncyCastle::Security::SecureRandom __declspec(property(get=get_M
 static int64_t NextCounterValue() ;
 
 /// @brief Method get_Master addr 0xeb4df4 size 0x58 virtual false final false
-static ::Org::BouncyCastle::Security::SecureRandom get_Master() ;
+static Org::BouncyCastle::Security::SecureRandom get_Master() ;
 
 /// @brief Method CreatePrng addr 0xeb4e4c size 0x1a8 virtual false final false
-static ::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator CreatePrng(::StringW digestName, bool autoSeed) ;
+static Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator CreatePrng(::StringW digestName, bool autoSeed) ;
 
 /// @brief Method GetNextBytes addr 0xeb3a78 size 0x7c virtual false final false
-static ::ArrayW<uint8_t> GetNextBytes(::Org::BouncyCastle::Security::SecureRandom secureRandom, int32_t length) ;
+static ::ArrayW<uint8_t> GetNextBytes(Org::BouncyCastle::Security::SecureRandom secureRandom, int32_t length) ;
 
 /// @brief Method GetInstance addr 0xeb4ff4 size 0x58 virtual false final false
-static ::Org::BouncyCastle::Security::SecureRandom GetInstance(::StringW algorithm) ;
+static Org::BouncyCastle::Security::SecureRandom GetInstance(::StringW algorithm) ;
 
 /// @brief Method GetInstance addr 0xeb504c size 0x184 virtual false final false
-static ::Org::BouncyCastle::Security::SecureRandom GetInstance(::StringW algorithm, bool autoSeed) ;
+static Org::BouncyCastle::Security::SecureRandom GetInstance(::StringW algorithm, bool autoSeed) ;
 
 /// @brief Method GetSeed addr 0xeb5240 size 0x90 virtual false final false
 static ::ArrayW<uint8_t> GetSeed(int32_t length) ;
@@ -123,11 +122,11 @@ explicit SecureRandom(::ArrayW<uint8_t> seed) ;
 /// @brief Method .ctor addr 0xeb52d0 size 0x98 virtual false final false
  void _ctor(::ArrayW<uint8_t> seed) ;
 
-// Ctor Parameters [CppParam { name: "generator", ty: "::Org::BouncyCastle::Crypto::Prng::IRandomGenerator", modifiers: "", def_value: None }]
-explicit SecureRandom(::Org::BouncyCastle::Crypto::Prng::IRandomGenerator generator) ;
+// Ctor Parameters [CppParam { name: "generator", ty: "Org::BouncyCastle::Crypto::Prng::IRandomGenerator", modifiers: "", def_value: None }]
+explicit SecureRandom(Org::BouncyCastle::Crypto::Prng::IRandomGenerator generator) ;
 
 /// @brief Method .ctor addr 0xeb51d0 size 0x70 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::Prng::IRandomGenerator generator) ;
+ void _ctor(Org::BouncyCastle::Crypto::Prng::IRandomGenerator generator) ;
 
 /// @brief Method GenerateSeed addr 0xeb5368 size 0x90 virtual true final false
  ::ArrayW<uint8_t> GenerateSeed(int32_t length) ;
@@ -166,6 +165,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Security
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Security::SecureRandom);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Security::SecureRandom, "Org.BouncyCastle.Security", "SecureRandom");
+NEED_NO_BOX(Org::BouncyCastle::Security::SecureRandom);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::SecureRandom, "Org.BouncyCastle.Security", "SecureRandom");

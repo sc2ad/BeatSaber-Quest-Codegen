@@ -3,18 +3,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto::Macs {
-class HMac;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDerivationFunction;
-}
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
+namespace Org::BouncyCastle::Crypto::Macs {
+class HMac;
+}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDerivationFunction;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDerivationParameters;
@@ -32,8 +31,8 @@ namespace Org::BouncyCastle::Crypto::Generators {
 class CORDL_TYPE HkdfBytesGenerator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IDerivationFunction
-constexpr operator  ::Org::BouncyCastle::Crypto::IDerivationFunction() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IDerivationFunction
+constexpr operator  Org::BouncyCastle::Crypto::IDerivationFunction() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -68,11 +67,11 @@ constexpr explicit HkdfBytesGenerator(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Fields
 
- ::Org::BouncyCastle::Crypto::Macs::HMac __declspec(property(get=__get_hMacHash, put=__set_hMacHash))  hMacHash;
+ Org::BouncyCastle::Crypto::Macs::HMac __declspec(property(get=__get_hMacHash, put=__set_hMacHash))  hMacHash;
 
-constexpr void __set_hMacHash(::Org::BouncyCastle::Crypto::Macs::HMac value) ;
+constexpr void __set_hMacHash(Org::BouncyCastle::Crypto::Macs::HMac value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Macs::HMac __get_hMacHash() const;
+constexpr Org::BouncyCastle::Crypto::Macs::HMac __get_hMacHash() const;
 
  int32_t __declspec(property(get=__get_hashLen, put=__set_hashLen))  hashLen;
 
@@ -101,28 +100,28 @@ constexpr int32_t __get_generatedBytes() const;
 
 // Properties
 
- ::Org::BouncyCastle::Crypto::IDigest __declspec(property(get=get_Digest))  Digest;
+ Org::BouncyCastle::Crypto::IDigest __declspec(property(get=get_Digest))  Digest;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "hash", ty: "::Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
-explicit HkdfBytesGenerator(::Org::BouncyCastle::Crypto::IDigest hash) ;
+// Ctor Parameters [CppParam { name: "hash", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
+explicit HkdfBytesGenerator(Org::BouncyCastle::Crypto::IDigest hash) ;
 
 /// @brief Method .ctor addr 0xe70aa0 size 0xf4 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IDigest hash) ;
+ void _ctor(Org::BouncyCastle::Crypto::IDigest hash) ;
 
 /// @brief Method Init addr 0xe70b94 size 0x1d8 virtual true final false
- void Init(::Org::BouncyCastle::Crypto::IDerivationParameters parameters) ;
+ void Init(Org::BouncyCastle::Crypto::IDerivationParameters parameters) ;
 
 /// @brief Method Extract addr 0xe70d6c size 0x170 virtual false final false
- ::Org::BouncyCastle::Crypto::Parameters::KeyParameter Extract(::ArrayW<uint8_t> salt, ::ArrayW<uint8_t> ikm) ;
+ Org::BouncyCastle::Crypto::Parameters::KeyParameter Extract(::ArrayW<uint8_t> salt, ::ArrayW<uint8_t> ikm) ;
 
 /// @brief Method ExpandNext addr 0xe70edc size 0x104 virtual false final false
  void ExpandNext() ;
 
 /// @brief Method get_Digest addr 0xe70fe0 size 0x20 virtual true final false
- ::Org::BouncyCastle::Crypto::IDigest get_Digest() ;
+ Org::BouncyCastle::Crypto::IDigest get_Digest() ;
 
 /// @brief Method GenerateBytes addr 0xe71000 size 0x1bc virtual true final false
  int32_t GenerateBytes(::ArrayW<uint8_t> output, int32_t outOff, int32_t len) ;
@@ -131,6 +130,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Generators
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator, "Org.BouncyCastle.Crypto.Generators", "HkdfBytesGenerator");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator, "Org.BouncyCastle.Crypto.Generators", "HkdfBytesGenerator");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
 struct TextFontWeight;
@@ -74,35 +73,34 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Thin offset 0
-static ::UnityEngine::TextCore::Text::TextFontWeight const Thin;
+static UnityEngine::TextCore::Text::TextFontWeight const Thin;
 
 /// @brief Field ExtraLight offset 0
-static ::UnityEngine::TextCore::Text::TextFontWeight const ExtraLight;
+static UnityEngine::TextCore::Text::TextFontWeight const ExtraLight;
 
 /// @brief Field Light offset 0
-static ::UnityEngine::TextCore::Text::TextFontWeight const Light;
+static UnityEngine::TextCore::Text::TextFontWeight const Light;
 
 /// @brief Field Regular offset 0
-static ::UnityEngine::TextCore::Text::TextFontWeight const Regular;
+static UnityEngine::TextCore::Text::TextFontWeight const Regular;
 
 /// @brief Field Medium offset 0
-static ::UnityEngine::TextCore::Text::TextFontWeight const Medium;
+static UnityEngine::TextCore::Text::TextFontWeight const Medium;
 
 /// @brief Field SemiBold offset 0
-static ::UnityEngine::TextCore::Text::TextFontWeight const SemiBold;
+static UnityEngine::TextCore::Text::TextFontWeight const SemiBold;
 
 /// @brief Field Bold offset 0
-static ::UnityEngine::TextCore::Text::TextFontWeight const Bold;
+static UnityEngine::TextCore::Text::TextFontWeight const Bold;
 
 /// @brief Field Heavy offset 0
-static ::UnityEngine::TextCore::Text::TextFontWeight const Heavy;
+static UnityEngine::TextCore::Text::TextFontWeight const Heavy;
 
 /// @brief Field Black offset 0
-static ::UnityEngine::TextCore::Text::TextFontWeight const Black;
+static UnityEngine::TextCore::Text::TextFontWeight const Black;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::Text
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::TextFontWeight, "UnityEngine.TextCore.Text", "TextFontWeight");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Text::TextFontWeight, "UnityEngine.TextCore.Text", "TextFontWeight");

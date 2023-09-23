@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngineInternal::Input {
 struct NativeInputEventType;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field DeviceRemoved offset 0
-static ::UnityEngineInternal::Input::NativeInputEventType const DeviceRemoved;
+static UnityEngineInternal::Input::NativeInputEventType const DeviceRemoved;
 
 /// @brief Field DeviceConfigChanged offset 0
-static ::UnityEngineInternal::Input::NativeInputEventType const DeviceConfigChanged;
+static UnityEngineInternal::Input::NativeInputEventType const DeviceConfigChanged;
 
 /// @brief Field Text offset 0
-static ::UnityEngineInternal::Input::NativeInputEventType const Text;
+static UnityEngineInternal::Input::NativeInputEventType const Text;
 
 /// @brief Field State offset 0
-static ::UnityEngineInternal::Input::NativeInputEventType const State;
+static UnityEngineInternal::Input::NativeInputEventType const State;
 
 /// @brief Field Delta offset 0
-static ::UnityEngineInternal::Input::NativeInputEventType const Delta;
+static UnityEngineInternal::Input::NativeInputEventType const Delta;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngineInternal::Input
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngineInternal::Input::NativeInputEventType, "UnityEngineInternal.Input", "NativeInputEventType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::Input::NativeInputEventType, "UnityEngineInternal.Input", "NativeInputEventType");

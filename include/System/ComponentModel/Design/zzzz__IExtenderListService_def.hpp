@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace System::ComponentModel {
 class IExtenderProvider;
 }
@@ -28,12 +27,11 @@ constexpr explicit IExtenderListService(void* ptr) noexcept : ::cordl_internals:
 // Methods
 
 /// @brief Method GetExtenderProviders addr 0x0 size 0xffffffffffffffff virtual true final false
- ::ArrayW<::System::ComponentModel::IExtenderProvider> GetExtenderProviders() ;
+ ::ArrayW<System::ComponentModel::IExtenderProvider> GetExtenderProviders() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel::Design
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::Design::IExtenderListService);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::Design::IExtenderListService, "System.ComponentModel.Design", "IExtenderListService");
+NEED_NO_BOX(System::ComponentModel::Design::IExtenderListService);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::Design::IExtenderListService, "System.ComponentModel.Design", "IExtenderListService");

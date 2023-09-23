@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace BeatSaberAPI::DataTransferObjects {
 class LeaderboardEntry;
 }
@@ -52,11 +51,11 @@ constexpr explicit LeaderboardEntries(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Fields
 
- ::ArrayW<::BeatSaberAPI::DataTransferObjects::LeaderboardEntry> __declspec(property(get=__get_entries, put=__set_entries))  entries;
+ ::ArrayW<BeatSaberAPI::DataTransferObjects::LeaderboardEntry> __declspec(property(get=__get_entries, put=__set_entries))  entries;
 
-constexpr void __set_entries(::ArrayW<::BeatSaberAPI::DataTransferObjects::LeaderboardEntry> value) ;
+constexpr void __set_entries(::ArrayW<BeatSaberAPI::DataTransferObjects::LeaderboardEntry> value) ;
 
-constexpr ::ArrayW<::BeatSaberAPI::DataTransferObjects::LeaderboardEntry> __get_entries() const;
+constexpr ::ArrayW<BeatSaberAPI::DataTransferObjects::LeaderboardEntry> __get_entries() const;
 
 
 // Methods
@@ -71,6 +70,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def BeatSaberAPI::DataTransferObjects
-} // end anonymous namespace
-NEED_NO_BOX(::BeatSaberAPI::DataTransferObjects::LeaderboardEntries);
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaberAPI::DataTransferObjects::LeaderboardEntries, "BeatSaberAPI.DataTransferObjects", "LeaderboardEntries");
+NEED_NO_BOX(BeatSaberAPI::DataTransferObjects::LeaderboardEntries);
+DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::LeaderboardEntries, "BeatSaberAPI.DataTransferObjects", "LeaderboardEntries");

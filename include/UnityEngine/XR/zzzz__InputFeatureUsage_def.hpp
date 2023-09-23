@@ -4,13 +4,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine::XR {
-struct InputFeatureType;
-}
 namespace System {
 template<typename T>
 class IEquatable_1;
+}
+namespace UnityEngine::XR {
+struct InputFeatureType;
 }
 // Forward declare root types
 namespace UnityEngine::XR {
@@ -25,11 +24,11 @@ namespace UnityEngine::XR {
 struct CORDL_TYPE InputFeatureUsage : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::XR::InputFeatureUsage>
+constexpr operator  System::IEquatable_1<UnityEngine::XR::InputFeatureUsage>() const;
 
-// Ctor Parameters [CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_InternalType", ty: "::UnityEngine::XR::InputFeatureType", modifiers: "", def_value: None }]
-constexpr InputFeatureUsage(::StringW m_Name, ::UnityEngine::XR::InputFeatureType m_InternalType) noexcept;
+// Ctor Parameters [CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_InternalType", ty: "UnityEngine::XR::InputFeatureType", modifiers: "", def_value: None }]
+constexpr InputFeatureUsage(::StringW m_Name, UnityEngine::XR::InputFeatureType m_InternalType) noexcept;
 
 
                     constexpr InputFeatureUsage(InputFeatureUsage const&) = default;
@@ -68,18 +67,18 @@ constexpr void __set_m_Name(::StringW value) ;
 
 constexpr ::StringW __get_m_Name() const;
 
- ::UnityEngine::XR::InputFeatureType __declspec(property(get=__get_m_InternalType, put=__set_m_InternalType))  m_InternalType;
+ UnityEngine::XR::InputFeatureType __declspec(property(get=__get_m_InternalType, put=__set_m_InternalType))  m_InternalType;
 
-constexpr void __set_m_InternalType(::UnityEngine::XR::InputFeatureType value) ;
+constexpr void __set_m_InternalType(UnityEngine::XR::InputFeatureType value) ;
 
-constexpr ::UnityEngine::XR::InputFeatureType __get_m_InternalType() const;
+constexpr UnityEngine::XR::InputFeatureType __get_m_InternalType() const;
 
 
 // Properties
 
  ::StringW __declspec(property(get=get_name))  name;
 
- ::UnityEngine::XR::InputFeatureType __declspec(property(get=get_internalType))  internalType;
+ UnityEngine::XR::InputFeatureType __declspec(property(get=get_internalType))  internalType;
 
 
 // Methods
@@ -88,13 +87,13 @@ constexpr ::UnityEngine::XR::InputFeatureType __get_m_InternalType() const;
  ::StringW get_name() ;
 
 /// @brief Method get_internalType addr 0x2d38b00 size 0x8 virtual false final false
- ::UnityEngine::XR::InputFeatureType get_internalType() ;
+ UnityEngine::XR::InputFeatureType get_internalType() ;
 
 /// @brief Method Equals addr 0x2d38b08 size 0x88 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x2d38b90 size 0x40 virtual true final true
- bool Equals(::UnityEngine::XR::InputFeatureUsage other) ;
+ bool Equals(UnityEngine::XR::InputFeatureUsage other) ;
 
 /// @brief Method GetHashCode addr 0x2d38bd0 size 0x50 virtual true final false
  int32_t GetHashCode() ;
@@ -103,5 +102,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::InputFeatureUsage, "UnityEngine.XR", "InputFeatureUsage");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::InputFeatureUsage, "UnityEngine.XR", "InputFeatureUsage");

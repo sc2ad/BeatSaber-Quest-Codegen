@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Globalization {
 class Punycode;
 }
@@ -65,11 +64,11 @@ constexpr void __set_use_std3(bool value) ;
 
 constexpr bool __get_use_std3() const;
 
- ::System::Globalization::Punycode __declspec(property(get=__get_puny, put=__set_puny))  puny;
+ System::Globalization::Punycode __declspec(property(get=__get_puny, put=__set_puny))  puny;
 
-constexpr void __set_puny(::System::Globalization::Punycode value) ;
+constexpr void __set_puny(System::Globalization::Punycode value) ;
 
-constexpr ::System::Globalization::Punycode __get_puny() const;
+constexpr System::Globalization::Punycode __get_puny() const;
 
 
 // Methods
@@ -123,6 +122,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Globalization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Globalization::IdnMapping);
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::IdnMapping, "System.Globalization", "IdnMapping");
+NEED_NO_BOX(System::Globalization::IdnMapping);
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::IdnMapping, "System.Globalization", "IdnMapping");

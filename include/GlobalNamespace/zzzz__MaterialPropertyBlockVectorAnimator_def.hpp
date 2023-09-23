@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockAnimator_def.hpp"
-namespace {
 namespace UnityEngine {
 struct Vector4;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14723))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14731))
 // CS Name: MaterialPropertyBlockVectorAnimator
-class CORDL_TYPE MaterialPropertyBlockVectorAnimator : public ::GlobalNamespace::MaterialPropertyBlockAnimator {
+class CORDL_TYPE MaterialPropertyBlockVectorAnimator : public GlobalNamespace::MaterialPropertyBlockAnimator {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr MaterialPropertyBlockVectorAnimator(MaterialPropertyBlockVectorAnimato
 constexpr MaterialPropertyBlockVectorAnimator(MaterialPropertyBlockVectorAnimator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MaterialPropertyBlockVectorAnimator(void* ptr) noexcept : ::GlobalNamespace::MaterialPropertyBlockAnimator(ptr) {
+constexpr explicit MaterialPropertyBlockVectorAnimator(void* ptr) noexcept : GlobalNamespace::MaterialPropertyBlockAnimator(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit MaterialPropertyBlockVectorAnimator(void* ptr) noexcept : ::G
 
 // Fields
 
- ::UnityEngine::Vector4 __declspec(property(get=__get__vector, put=__set__vector))  _vector;
+ UnityEngine::Vector4 __declspec(property(get=__get__vector, put=__set__vector))  _vector;
 
-constexpr void __set__vector(::UnityEngine::Vector4 value) ;
+constexpr void __set__vector(UnityEngine::Vector4 value) ;
 
-constexpr ::UnityEngine::Vector4 __get__vector() const;
+constexpr UnityEngine::Vector4 __get__vector() const;
 
 
 // Methods
@@ -73,6 +72,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MaterialPropertyBlockVectorAnimator);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MaterialPropertyBlockVectorAnimator, "", "MaterialPropertyBlockVectorAnimator");
+NEED_NO_BOX(GlobalNamespace::MaterialPropertyBlockVectorAnimator);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyBlockVectorAnimator, "", "MaterialPropertyBlockVectorAnimator");

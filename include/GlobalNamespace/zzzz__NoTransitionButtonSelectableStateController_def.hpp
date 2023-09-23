@@ -2,9 +2,8 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__SelectableStateController_1_def.hpp"
 #include "HMUI/zzzz__NoTransitionsButton_def.hpp"
-namespace {
 namespace HMUI {
-struct ____HMUI__NoTransitionsButton__SelectionState;
+struct HMUI__NoTransitionsButton__SelectionState;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13674)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5559), inst: 4808 }), TypeDefinitionIndex(TypeDefinitionIndex(5559))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5560))
 // CS Name: NoTransitionButtonSelectableStateController
-class CORDL_TYPE NoTransitionButtonSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::HMUI::NoTransitionsButton> {
+class CORDL_TYPE NoTransitionButtonSelectableStateController : public GlobalNamespace::SelectableStateController_1<HMUI::NoTransitionsButton> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr NoTransitionButtonSelectableStateController(NoTransitionButtonSelectab
 constexpr NoTransitionButtonSelectableStateController(NoTransitionButtonSelectableStateController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NoTransitionButtonSelectableStateController(void* ptr) noexcept : ::GlobalNamespace::SelectableStateController_1<::HMUI::NoTransitionsButton>(ptr) {
+constexpr explicit NoTransitionButtonSelectableStateController(void* ptr) noexcept : GlobalNamespace::SelectableStateController_1<HMUI::NoTransitionsButton>(ptr) {
 }
 
 
@@ -59,10 +58,10 @@ constexpr explicit NoTransitionButtonSelectableStateController(void* ptr) noexce
  void OnDisable() ;
 
 /// @brief Method HandleNoTransitionButtonSelectionStateDidChange addr 0x212ba0c size 0x8 virtual false final false
- void HandleNoTransitionButtonSelectionStateDidChange(::HMUI::____HMUI__NoTransitionsButton__SelectionState state) ;
+ void HandleNoTransitionButtonSelectionStateDidChange(HMUI::HMUI__NoTransitionsButton__SelectionState state) ;
 
 /// @brief Method ResolveSelectionState addr 0x212b8c8 size 0xb8 virtual false final false
- void ResolveSelectionState(::HMUI::____HMUI__NoTransitionsButton__SelectionState state, bool animated) ;
+ void ResolveSelectionState(HMUI::HMUI__NoTransitionsButton__SelectionState state, bool animated) ;
 
 // Ctor Parameters []
 explicit NoTransitionButtonSelectableStateController() ;
@@ -74,6 +73,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::NoTransitionButtonSelectableStateController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoTransitionButtonSelectableStateController, "", "NoTransitionButtonSelectableStateController");
+NEED_NO_BOX(GlobalNamespace::NoTransitionButtonSelectableStateController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoTransitionButtonSelectableStateController, "", "NoTransitionButtonSelectableStateController");

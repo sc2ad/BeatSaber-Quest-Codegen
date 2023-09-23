@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System {
 class Action;
 }
@@ -51,17 +50,17 @@ constexpr explicit InputFocus(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType
 
 // Fields
 
-static ::System::Action __declspec(property(get=__get_InputFocusAcquired, put=__set_InputFocusAcquired))  InputFocusAcquired;
+static System::Action __declspec(property(get=__get_InputFocusAcquired, put=__set_InputFocusAcquired))  InputFocusAcquired;
 
-static void __set_InputFocusAcquired(::System::Action value) ;
+static void __set_InputFocusAcquired(System::Action value) ;
 
-static ::System::Action __get_InputFocusAcquired() ;
+static System::Action __get_InputFocusAcquired() ;
 
-static ::System::Action __declspec(property(get=__get_InputFocusLost, put=__set_InputFocusLost))  InputFocusLost;
+static System::Action __declspec(property(get=__get_InputFocusLost, put=__set_InputFocusLost))  InputFocusLost;
 
-static void __set_InputFocusLost(::System::Action value) ;
+static void __set_InputFocusLost(System::Action value) ;
 
-static ::System::Action __get_InputFocusLost() ;
+static System::Action __get_InputFocusLost() ;
 
 static bool __declspec(property(get=__get_hadInputFocus, put=__set_hadInputFocus))  hadInputFocus;
 
@@ -78,16 +77,16 @@ static bool __declspec(property(get=get_hasInputFocus))  hasInputFocus;
 // Methods
 
 /// @brief Method add_InputFocusAcquired addr 0x2ade92c size 0xb8 virtual false final false
-static void add_InputFocusAcquired(::System::Action value) ;
+static void add_InputFocusAcquired(System::Action value) ;
 
 /// @brief Method remove_InputFocusAcquired addr 0x2ade9e4 size 0xb8 virtual false final false
-static void remove_InputFocusAcquired(::System::Action value) ;
+static void remove_InputFocusAcquired(System::Action value) ;
 
 /// @brief Method add_InputFocusLost addr 0x2adea9c size 0xbc virtual false final false
-static void add_InputFocusLost(::System::Action value) ;
+static void add_InputFocusLost(System::Action value) ;
 
 /// @brief Method remove_InputFocusLost addr 0x2adeb58 size 0xbc virtual false final false
-static void remove_InputFocusLost(::System::Action value) ;
+static void remove_InputFocusLost(System::Action value) ;
 
 /// @brief Method get_hasInputFocus addr 0x2adec14 size 0x4 virtual false final false
 static bool get_hasInputFocus() ;
@@ -105,6 +104,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Unity::XR::Oculus
-} // end anonymous namespace
-NEED_NO_BOX(::Unity::XR::Oculus::InputFocus);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::XR::Oculus::InputFocus, "Unity.XR.Oculus", "InputFocus");
+NEED_NO_BOX(Unity::XR::Oculus::InputFocus);
+DEFINE_IL2CPP_ARG_TYPE(Unity::XR::Oculus::InputFocus, "Unity.XR.Oculus", "InputFocus");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__MockPlayerLobbyPoseGenerator_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15498))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5282))
 // CS Name: MockPlayerLobbyPoseGeneratorRecording
-class CORDL_TYPE MockPlayerLobbyPoseGeneratorRecording : public ::GlobalNamespace::MockPlayerLobbyPoseGenerator {
+class CORDL_TYPE MockPlayerLobbyPoseGeneratorRecording : public GlobalNamespace::MockPlayerLobbyPoseGenerator {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr MockPlayerLobbyPoseGeneratorRecording(MockPlayerLobbyPoseGeneratorReco
 constexpr MockPlayerLobbyPoseGeneratorRecording(MockPlayerLobbyPoseGeneratorRecording&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MockPlayerLobbyPoseGeneratorRecording(void* ptr) noexcept : ::GlobalNamespace::MockPlayerLobbyPoseGenerator(ptr) {
+constexpr explicit MockPlayerLobbyPoseGeneratorRecording(void* ptr) noexcept : GlobalNamespace::MockPlayerLobbyPoseGenerator(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit MockPlayerLobbyPoseGeneratorRecording(void* ptr) noexcept : :
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "multiplayerSessionManager", ty: "::GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }]
-explicit MockPlayerLobbyPoseGeneratorRecording(::GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager) ;
+// Ctor Parameters [CppParam { name: "multiplayerSessionManager", ty: "GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }]
+explicit MockPlayerLobbyPoseGeneratorRecording(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager) ;
 
 /// @brief Method .ctor addr 0x20edf24 size 0x8 virtual false final false
- void _ctor(::GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager) ;
+ void _ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager) ;
 
 /// @brief Method Init addr 0x20ef838 size 0x68 virtual true final false
  void Init() ;
@@ -67,6 +66,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording, "", "MockPlayerLobbyPoseGeneratorRecording");
+NEED_NO_BOX(GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording, "", "MockPlayerLobbyPoseGeneratorRecording");

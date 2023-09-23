@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace UnityEngine::XR {
+struct XRNode;
+}
 namespace UnityEngine::XR {
 struct ConnectionChangeType;
 }
 namespace UnityEngine::XR {
 struct InputDevice;
-}
-namespace UnityEngine::XR {
-struct XRNode;
 }
 namespace System {
 template<typename T>
@@ -64,32 +63,32 @@ constexpr explicit InputDevices(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 
 // Fields
 
-static ::System::Action_1<::UnityEngine::XR::InputDevice> __declspec(property(get=__get_deviceConnected, put=__set_deviceConnected))  deviceConnected;
+static System::Action_1<UnityEngine::XR::InputDevice> __declspec(property(get=__get_deviceConnected, put=__set_deviceConnected))  deviceConnected;
 
-static void __set_deviceConnected(::System::Action_1<::UnityEngine::XR::InputDevice> value) ;
+static void __set_deviceConnected(System::Action_1<UnityEngine::XR::InputDevice> value) ;
 
-static ::System::Action_1<::UnityEngine::XR::InputDevice> __get_deviceConnected() ;
+static System::Action_1<UnityEngine::XR::InputDevice> __get_deviceConnected() ;
 
-static ::System::Action_1<::UnityEngine::XR::InputDevice> __declspec(property(get=__get_deviceDisconnected, put=__set_deviceDisconnected))  deviceDisconnected;
+static System::Action_1<UnityEngine::XR::InputDevice> __declspec(property(get=__get_deviceDisconnected, put=__set_deviceDisconnected))  deviceDisconnected;
 
-static void __set_deviceDisconnected(::System::Action_1<::UnityEngine::XR::InputDevice> value) ;
+static void __set_deviceDisconnected(System::Action_1<UnityEngine::XR::InputDevice> value) ;
 
-static ::System::Action_1<::UnityEngine::XR::InputDevice> __get_deviceDisconnected() ;
+static System::Action_1<UnityEngine::XR::InputDevice> __get_deviceDisconnected() ;
 
-static ::System::Action_1<::UnityEngine::XR::InputDevice> __declspec(property(get=__get_deviceConfigChanged, put=__set_deviceConfigChanged))  deviceConfigChanged;
+static System::Action_1<UnityEngine::XR::InputDevice> __declspec(property(get=__get_deviceConfigChanged, put=__set_deviceConfigChanged))  deviceConfigChanged;
 
-static void __set_deviceConfigChanged(::System::Action_1<::UnityEngine::XR::InputDevice> value) ;
+static void __set_deviceConfigChanged(System::Action_1<UnityEngine::XR::InputDevice> value) ;
 
-static ::System::Action_1<::UnityEngine::XR::InputDevice> __get_deviceConfigChanged() ;
+static System::Action_1<UnityEngine::XR::InputDevice> __get_deviceConfigChanged() ;
 
 
 // Methods
 
 /// @brief Method GetDeviceAtXRNode addr 0x2d39390 size 0x44 virtual false final false
-static ::UnityEngine::XR::InputDevice GetDeviceAtXRNode(::UnityEngine::XR::XRNode node) ;
+static UnityEngine::XR::InputDevice GetDeviceAtXRNode(UnityEngine::XR::XRNode node) ;
 
 /// @brief Method InvokeConnectionEvent addr 0x2d39410 size 0xac virtual false final false
-static void InvokeConnectionEvent(uint64_t deviceId, ::UnityEngine::XR::ConnectionChangeType change) ;
+static void InvokeConnectionEvent(uint64_t deviceId, UnityEngine::XR::ConnectionChangeType change) ;
 
 /// @brief Method SendHapticImpulse addr 0x2d38e98 size 0x5c virtual false final false
 static bool SendHapticImpulse(uint64_t deviceId, uint32_t channel, float_t amplitude, float_t duration) ;
@@ -107,6 +106,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::XR::InputDevices);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::InputDevices, "UnityEngine.XR", "InputDevices");
+NEED_NO_BOX(UnityEngine::XR::InputDevices);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::InputDevices, "UnityEngine.XR", "InputDevices");

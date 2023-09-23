@@ -3,18 +3,17 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
+namespace Org::BouncyCastle::Asn1::Cms {
+class TimeStampAndCrl;
+}
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class TimeStampAndCrl;
+class Asn1TaggedObject;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -26,7 +25,7 @@ namespace Org::BouncyCastle::Asn1::Cms {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(101))
 // CS Name: Org.BouncyCastle.Asn1.Cms.TimeStampTokenEvidence
-class CORDL_TYPE TimeStampTokenEvidence : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
+class CORDL_TYPE TimeStampTokenEvidence : public Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -41,7 +40,7 @@ constexpr TimeStampTokenEvidence(TimeStampTokenEvidence const& ) noexcept = defa
 constexpr TimeStampTokenEvidence(TimeStampTokenEvidence&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TimeStampTokenEvidence(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
+constexpr explicit TimeStampTokenEvidence(void* ptr) noexcept : Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
 }
 
 
@@ -62,49 +61,48 @@ constexpr explicit TimeStampTokenEvidence(void* ptr) noexcept : ::Org::BouncyCas
 
 // Fields
 
- ::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl> __declspec(property(get=__get_timeStampAndCrls, put=__set_timeStampAndCrls))  timeStampAndCrls;
+ ::ArrayW<Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl> __declspec(property(get=__get_timeStampAndCrls, put=__set_timeStampAndCrls))  timeStampAndCrls;
 
-constexpr void __set_timeStampAndCrls(::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl> value) ;
+constexpr void __set_timeStampAndCrls(::ArrayW<Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl> value) ;
 
-constexpr ::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl> __get_timeStampAndCrls() const;
+constexpr ::ArrayW<Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl> __get_timeStampAndCrls() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "timeStampAndCrls", ty: "::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl>", modifiers: "", def_value: None }]
-explicit TimeStampTokenEvidence(::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl> timeStampAndCrls) ;
+// Ctor Parameters [CppParam { name: "timeStampAndCrls", ty: "::ArrayW<Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl>", modifiers: "", def_value: None }]
+explicit TimeStampTokenEvidence(::ArrayW<Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl> timeStampAndCrls) ;
 
 /// @brief Method .ctor addr 0xdf4e88 size 0x28 virtual false final false
- void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl> timeStampAndCrls) ;
+ void _ctor(::ArrayW<Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl> timeStampAndCrls) ;
 
-// Ctor Parameters [CppParam { name: "timeStampAndCrl", ty: "::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl", modifiers: "", def_value: None }]
-explicit TimeStampTokenEvidence(::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl timeStampAndCrl) ;
+// Ctor Parameters [CppParam { name: "timeStampAndCrl", ty: "Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl", modifiers: "", def_value: None }]
+explicit TimeStampTokenEvidence(Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl timeStampAndCrl) ;
 
 /// @brief Method .ctor addr 0xdf4eb0 size 0xa8 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl timeStampAndCrl) ;
+ void _ctor(Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl timeStampAndCrl) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "::Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit TimeStampTokenEvidence(::Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
+explicit TimeStampTokenEvidence(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xdf4f58 size 0x38c virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+ void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method GetInstance addr 0xdf52e4 size 0x18 virtual false final false
-static ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject tagged, bool isExplicit) ;
+static Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject tagged, bool isExplicit) ;
 
 /// @brief Method GetInstance addr 0xdf52fc size 0xa4 virtual false final false
-static ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence GetInstance(::bs_hook::Il2CppWrapperType obj) ;
+static Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method ToTimeStampAndCrlArray addr 0xdf53a0 size 0x78 virtual true final false
- ::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl> ToTimeStampAndCrlArray() ;
+ ::ArrayW<Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl> ToTimeStampAndCrlArray() ;
 
 /// @brief Method ToAsn1Object addr 0xdf5418 size 0x68 virtual true final false
- ::Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
+ Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::Cms
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence, "Org.BouncyCastle.Asn1.Cms", "TimeStampTokenEvidence");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence, "Org.BouncyCastle.Asn1.Cms", "TimeStampTokenEvidence");

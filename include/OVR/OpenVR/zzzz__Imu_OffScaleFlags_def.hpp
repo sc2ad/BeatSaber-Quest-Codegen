@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct Imu_OffScaleFlags;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field OffScale_AccelX offset 0
-static ::OVR::OpenVR::Imu_OffScaleFlags const OffScale_AccelX;
+static OVR::OpenVR::Imu_OffScaleFlags const OffScale_AccelX;
 
 /// @brief Field OffScale_AccelY offset 0
-static ::OVR::OpenVR::Imu_OffScaleFlags const OffScale_AccelY;
+static OVR::OpenVR::Imu_OffScaleFlags const OffScale_AccelY;
 
 /// @brief Field OffScale_AccelZ offset 0
-static ::OVR::OpenVR::Imu_OffScaleFlags const OffScale_AccelZ;
+static OVR::OpenVR::Imu_OffScaleFlags const OffScale_AccelZ;
 
 /// @brief Field OffScale_GyroX offset 0
-static ::OVR::OpenVR::Imu_OffScaleFlags const OffScale_GyroX;
+static OVR::OpenVR::Imu_OffScaleFlags const OffScale_GyroX;
 
 /// @brief Field OffScale_GyroY offset 0
-static ::OVR::OpenVR::Imu_OffScaleFlags const OffScale_GyroY;
+static OVR::OpenVR::Imu_OffScaleFlags const OffScale_GyroY;
 
 /// @brief Field OffScale_GyroZ offset 0
-static ::OVR::OpenVR::Imu_OffScaleFlags const OffScale_GyroZ;
+static OVR::OpenVR::Imu_OffScaleFlags const OffScale_GyroZ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::Imu_OffScaleFlags, "OVR.OpenVR", "Imu_OffScaleFlags");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::Imu_OffScaleFlags, "OVR.OpenVR", "Imu_OffScaleFlags");

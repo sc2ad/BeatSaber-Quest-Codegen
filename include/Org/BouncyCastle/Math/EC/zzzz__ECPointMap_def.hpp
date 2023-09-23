@@ -1,6 +1,5 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
@@ -27,12 +26,11 @@ constexpr explicit ECPointMap(void* ptr) noexcept : ::cordl_internals::Interface
 // Methods
 
 /// @brief Method Map addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Math::EC::ECPoint Map(::Org::BouncyCastle::Math::EC::ECPoint p) ;
+ Org::BouncyCastle::Math::EC::ECPoint Map(Org::BouncyCastle::Math::EC::ECPoint p) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Math::EC
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Math::EC::ECPointMap);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::ECPointMap, "Org.BouncyCastle.Math.EC", "ECPointMap");
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::ECPointMap);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ECPointMap, "Org.BouncyCastle.Math.EC", "ECPointMap");

@@ -1,16 +1,15 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Xml {
-class IDtdAttributeInfo;
+class IDtdDefaultAttributeInfo;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace System::Xml {
-class IDtdDefaultAttributeInfo;
+class IDtdAttributeInfo;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -43,15 +42,14 @@ constexpr explicit IDtdAttributeListInfo(void* ptr) noexcept : ::cordl_internals
  bool get_HasNonCDataAttributes() ;
 
 /// @brief Method LookupAttribute addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Xml::IDtdAttributeInfo LookupAttribute(::StringW prefix, ::StringW localName) ;
+ System::Xml::IDtdAttributeInfo LookupAttribute(::StringW prefix, ::StringW localName) ;
 
 /// @brief Method LookupDefaultAttributes addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Collections::Generic::IEnumerable_1<::System::Xml::IDtdDefaultAttributeInfo> LookupDefaultAttributes() ;
+ System::Collections::Generic::IEnumerable_1<System::Xml::IDtdDefaultAttributeInfo> LookupDefaultAttributes() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::IDtdAttributeListInfo);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::IDtdAttributeListInfo, "System.Xml", "IDtdAttributeListInfo");
+NEED_NO_BOX(System::Xml::IDtdAttributeListInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::IDtdAttributeListInfo, "System.Xml", "IDtdAttributeListInfo");

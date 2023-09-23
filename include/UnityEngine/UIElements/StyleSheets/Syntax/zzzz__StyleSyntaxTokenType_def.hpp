@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 struct StyleSyntaxTokenType;
@@ -86,71 +85,70 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const Unknown;
+static UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const Unknown;
 
 /// @brief Field String offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const String;
+static UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const String;
 
 /// @brief Field Number offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const Number;
+static UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const Number;
 
 /// @brief Field Space offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const Space;
+static UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const Space;
 
 /// @brief Field SingleBar offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const SingleBar;
+static UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const SingleBar;
 
 /// @brief Field DoubleBar offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const DoubleBar;
+static UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const DoubleBar;
 
 /// @brief Field DoubleAmpersand offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const DoubleAmpersand;
+static UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const DoubleAmpersand;
 
 /// @brief Field Comma offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const Comma;
+static UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const Comma;
 
 /// @brief Field SingleQuote offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const SingleQuote;
+static UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const SingleQuote;
 
 /// @brief Field Asterisk offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const Asterisk;
+static UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const Asterisk;
 
 /// @brief Field Plus offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const Plus;
+static UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const Plus;
 
 /// @brief Field QuestionMark offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const QuestionMark;
+static UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const QuestionMark;
 
 /// @brief Field HashMark offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const HashMark;
+static UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const HashMark;
 
 /// @brief Field ExclamationPoint offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const ExclamationPoint;
+static UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const ExclamationPoint;
 
 /// @brief Field OpenBracket offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const OpenBracket;
+static UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const OpenBracket;
 
 /// @brief Field CloseBracket offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const CloseBracket;
+static UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const CloseBracket;
 
 /// @brief Field OpenBrace offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const OpenBrace;
+static UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const OpenBrace;
 
 /// @brief Field CloseBrace offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const CloseBrace;
+static UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const CloseBrace;
 
 /// @brief Field LessThan offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const LessThan;
+static UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const LessThan;
 
 /// @brief Field GreaterThan offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const GreaterThan;
+static UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const GreaterThan;
 
 /// @brief Field End offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const End;
+static UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const End;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::StyleSheets::Syntax
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType, "UnityEngine.UIElements.StyleSheets.Syntax", "StyleSyntaxTokenType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType, "UnityEngine.UIElements.StyleSheets.Syntax", "StyleSyntaxTokenType");

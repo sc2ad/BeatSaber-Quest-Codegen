@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Xml {
 struct XmlTokenizedType;
@@ -78,47 +77,46 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field CDATA offset 0
-static ::System::Xml::XmlTokenizedType const CDATA;
+static System::Xml::XmlTokenizedType const CDATA;
 
 /// @brief Field ID offset 0
-static ::System::Xml::XmlTokenizedType const ID;
+static System::Xml::XmlTokenizedType const ID;
 
 /// @brief Field IDREF offset 0
-static ::System::Xml::XmlTokenizedType const IDREF;
+static System::Xml::XmlTokenizedType const IDREF;
 
 /// @brief Field IDREFS offset 0
-static ::System::Xml::XmlTokenizedType const IDREFS;
+static System::Xml::XmlTokenizedType const IDREFS;
 
 /// @brief Field ENTITY offset 0
-static ::System::Xml::XmlTokenizedType const ENTITY;
+static System::Xml::XmlTokenizedType const ENTITY;
 
 /// @brief Field ENTITIES offset 0
-static ::System::Xml::XmlTokenizedType const ENTITIES;
+static System::Xml::XmlTokenizedType const ENTITIES;
 
 /// @brief Field NMTOKEN offset 0
-static ::System::Xml::XmlTokenizedType const NMTOKEN;
+static System::Xml::XmlTokenizedType const NMTOKEN;
 
 /// @brief Field NMTOKENS offset 0
-static ::System::Xml::XmlTokenizedType const NMTOKENS;
+static System::Xml::XmlTokenizedType const NMTOKENS;
 
 /// @brief Field NOTATION offset 0
-static ::System::Xml::XmlTokenizedType const NOTATION;
+static System::Xml::XmlTokenizedType const NOTATION;
 
 /// @brief Field ENUMERATION offset 0
-static ::System::Xml::XmlTokenizedType const ENUMERATION;
+static System::Xml::XmlTokenizedType const ENUMERATION;
 
 /// @brief Field QName offset 0
-static ::System::Xml::XmlTokenizedType const QName;
+static System::Xml::XmlTokenizedType const QName;
 
 /// @brief Field NCName offset 0
-static ::System::Xml::XmlTokenizedType const NCName;
+static System::Xml::XmlTokenizedType const NCName;
 
 /// @brief Field None offset 0
-static ::System::Xml::XmlTokenizedType const None;
+static System::Xml::XmlTokenizedType const None;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlTokenizedType, "System.Xml", "XmlTokenizedType");
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlTokenizedType, "System.Xml", "XmlTokenizedType");

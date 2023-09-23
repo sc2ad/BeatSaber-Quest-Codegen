@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__Behaviour_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 class Collider2D;
@@ -12,7 +11,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10129))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15820))
 // CS Name: UnityEngine.Collider2D
-class CORDL_TYPE Collider2D : public ::UnityEngine::Behaviour {
+class CORDL_TYPE Collider2D : public UnityEngine::Behaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr Collider2D(Collider2D const& ) noexcept = default;
 constexpr Collider2D(Collider2D&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Collider2D(void* ptr) noexcept : ::UnityEngine::Behaviour(ptr) {
+constexpr explicit Collider2D(void* ptr) noexcept : UnityEngine::Behaviour(ptr) {
 }
 
 
@@ -49,6 +48,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Collider2D);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Collider2D, "UnityEngine", "Collider2D");
+NEED_NO_BOX(UnityEngine::Collider2D);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Collider2D, "UnityEngine", "Collider2D");

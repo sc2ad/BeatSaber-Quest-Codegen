@@ -3,18 +3,17 @@
 #include "GlobalNamespace/zzzz__MainEffectSO_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 class Shader;
+}
+namespace UnityEngine {
+class RenderTexture;
 }
 namespace GlobalNamespace {
 class KawaseBlurRendererSO;
 }
 namespace UnityEngine {
 class Material;
-}
-namespace UnityEngine {
-class RenderTexture;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,7 +25,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15314))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15310))
 // CS Name: KawaseBloomMainEffectSO
-class CORDL_TYPE KawaseBloomMainEffectSO : public ::GlobalNamespace::MainEffectSO {
+class CORDL_TYPE KawaseBloomMainEffectSO : public GlobalNamespace::MainEffectSO {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -41,7 +40,7 @@ constexpr KawaseBloomMainEffectSO(KawaseBloomMainEffectSO const& ) noexcept = de
 constexpr KawaseBloomMainEffectSO(KawaseBloomMainEffectSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit KawaseBloomMainEffectSO(void* ptr) noexcept : ::GlobalNamespace::MainEffectSO(ptr) {
+constexpr explicit KawaseBloomMainEffectSO(void* ptr) noexcept : GlobalNamespace::MainEffectSO(ptr) {
 }
 
 
@@ -62,17 +61,17 @@ constexpr explicit KawaseBloomMainEffectSO(void* ptr) noexcept : ::GlobalNamespa
 
 // Fields
 
- ::GlobalNamespace::KawaseBlurRendererSO __declspec(property(get=__get__kawaseBlurRenderer, put=__set__kawaseBlurRenderer))  _kawaseBlurRenderer;
+ GlobalNamespace::KawaseBlurRendererSO __declspec(property(get=__get__kawaseBlurRenderer, put=__set__kawaseBlurRenderer))  _kawaseBlurRenderer;
 
-constexpr void __set__kawaseBlurRenderer(::GlobalNamespace::KawaseBlurRendererSO value) ;
+constexpr void __set__kawaseBlurRenderer(GlobalNamespace::KawaseBlurRendererSO value) ;
 
-constexpr ::GlobalNamespace::KawaseBlurRendererSO __get__kawaseBlurRenderer() const;
+constexpr GlobalNamespace::KawaseBlurRendererSO __get__kawaseBlurRenderer() const;
 
- ::UnityEngine::Shader __declspec(property(get=__get__mainEffectShader, put=__set__mainEffectShader))  _mainEffectShader;
+ UnityEngine::Shader __declspec(property(get=__get__mainEffectShader, put=__set__mainEffectShader))  _mainEffectShader;
 
-constexpr void __set__mainEffectShader(::UnityEngine::Shader value) ;
+constexpr void __set__mainEffectShader(UnityEngine::Shader value) ;
 
-constexpr ::UnityEngine::Shader __get__mainEffectShader() const;
+constexpr UnityEngine::Shader __get__mainEffectShader() const;
 
  float_t __declspec(property(get=__get__bloomIntensity, put=__set__bloomIntensity))  _bloomIntensity;
 
@@ -134,11 +133,11 @@ static void __set__fadeID(int32_t value) ;
 
 static int32_t __get__fadeID() ;
 
- ::UnityEngine::Material __declspec(property(get=__get__mainEffectMaterial, put=__set__mainEffectMaterial))  _mainEffectMaterial;
+ UnityEngine::Material __declspec(property(get=__get__mainEffectMaterial, put=__set__mainEffectMaterial))  _mainEffectMaterial;
 
-constexpr void __set__mainEffectMaterial(::UnityEngine::Material value) ;
+constexpr void __set__mainEffectMaterial(UnityEngine::Material value) ;
 
-constexpr ::UnityEngine::Material __get__mainEffectMaterial() const;
+constexpr UnityEngine::Material __get__mainEffectMaterial() const;
 
 
 // Properties
@@ -164,7 +163,7 @@ constexpr ::UnityEngine::Material __get__mainEffectMaterial() const;
  void PreRender() ;
 
 /// @brief Method Render addr 0x2676a78 size 0x210 virtual true final false
- void Render(::UnityEngine::RenderTexture src, ::UnityEngine::RenderTexture dest, float_t fade) ;
+ void Render(UnityEngine::RenderTexture src, UnityEngine::RenderTexture dest, float_t fade) ;
 
 // Ctor Parameters []
 explicit KawaseBloomMainEffectSO() ;
@@ -176,6 +175,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::KawaseBloomMainEffectSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::KawaseBloomMainEffectSO, "", "KawaseBloomMainEffectSO");
+NEED_NO_BOX(GlobalNamespace::KawaseBloomMainEffectSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::KawaseBloomMainEffectSO, "", "KawaseBloomMainEffectSO");

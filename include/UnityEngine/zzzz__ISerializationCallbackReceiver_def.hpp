@@ -1,6 +1,5 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 class ISerializationCallbackReceiver;
@@ -33,6 +32,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ISerializationCallbackReceiver);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ISerializationCallbackReceiver, "UnityEngine", "ISerializationCallbackReceiver");
+NEED_NO_BOX(UnityEngine::ISerializationCallbackReceiver);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ISerializationCallbackReceiver, "UnityEngine", "ISerializationCallbackReceiver");

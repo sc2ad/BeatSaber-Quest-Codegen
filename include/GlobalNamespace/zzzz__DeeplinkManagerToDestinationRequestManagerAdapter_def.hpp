@@ -1,28 +1,27 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace GlobalNamespace {
-class IDestinationRequestManager;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace GlobalNamespace {
-class MenuDestination;
-}
-namespace GlobalNamespace {
-class Deeplink;
+class BeatmapCharacteristicCollection;
 }
 namespace GlobalNamespace {
 class BeatmapLevelsModel;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicCollection;
+class IDestinationRequestManager;
+}
+namespace GlobalNamespace {
+class MenuDestination;
 }
 namespace GlobalNamespace {
 class IDeeplinkManager;
+}
+namespace GlobalNamespace {
+class Deeplink;
+}
+namespace System {
+template<typename T>
+class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -37,8 +36,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE DeeplinkManagerToDestinationRequestManagerAdapter : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IDestinationRequestManager
-constexpr operator  ::GlobalNamespace::IDestinationRequestManager() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IDestinationRequestManager
+constexpr operator  GlobalNamespace::IDestinationRequestManager() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -73,58 +72,58 @@ constexpr explicit DeeplinkManagerToDestinationRequestManagerAdapter(void* ptr) 
 
 // Fields
 
- ::GlobalNamespace::BeatmapLevelsModel __declspec(property(get=__get__beatmapLevelsModel, put=__set__beatmapLevelsModel))  _beatmapLevelsModel;
+ GlobalNamespace::BeatmapLevelsModel __declspec(property(get=__get__beatmapLevelsModel, put=__set__beatmapLevelsModel))  _beatmapLevelsModel;
 
-constexpr void __set__beatmapLevelsModel(::GlobalNamespace::BeatmapLevelsModel value) ;
+constexpr void __set__beatmapLevelsModel(GlobalNamespace::BeatmapLevelsModel value) ;
 
-constexpr ::GlobalNamespace::BeatmapLevelsModel __get__beatmapLevelsModel() const;
+constexpr GlobalNamespace::BeatmapLevelsModel __get__beatmapLevelsModel() const;
 
- ::GlobalNamespace::BeatmapCharacteristicCollection __declspec(property(get=__get__beatmapCharacteristicCollection, put=__set__beatmapCharacteristicCollection))  _beatmapCharacteristicCollection;
+ GlobalNamespace::BeatmapCharacteristicCollection __declspec(property(get=__get__beatmapCharacteristicCollection, put=__set__beatmapCharacteristicCollection))  _beatmapCharacteristicCollection;
 
-constexpr void __set__beatmapCharacteristicCollection(::GlobalNamespace::BeatmapCharacteristicCollection value) ;
+constexpr void __set__beatmapCharacteristicCollection(GlobalNamespace::BeatmapCharacteristicCollection value) ;
 
-constexpr ::GlobalNamespace::BeatmapCharacteristicCollection __get__beatmapCharacteristicCollection() const;
+constexpr GlobalNamespace::BeatmapCharacteristicCollection __get__beatmapCharacteristicCollection() const;
 
- ::System::Action_1<::GlobalNamespace::MenuDestination> __declspec(property(get=__get_didSendMenuDestinationRequestEvent, put=__set_didSendMenuDestinationRequestEvent))  didSendMenuDestinationRequestEvent;
+ System::Action_1<GlobalNamespace::MenuDestination> __declspec(property(get=__get_didSendMenuDestinationRequestEvent, put=__set_didSendMenuDestinationRequestEvent))  didSendMenuDestinationRequestEvent;
 
-constexpr void __set_didSendMenuDestinationRequestEvent(::System::Action_1<::GlobalNamespace::MenuDestination> value) ;
+constexpr void __set_didSendMenuDestinationRequestEvent(System::Action_1<GlobalNamespace::MenuDestination> value) ;
 
-constexpr ::System::Action_1<::GlobalNamespace::MenuDestination> __get_didSendMenuDestinationRequestEvent() const;
+constexpr System::Action_1<GlobalNamespace::MenuDestination> __get_didSendMenuDestinationRequestEvent() const;
 
- ::GlobalNamespace::MenuDestination __declspec(property(get=__get__currentMenuDestinationRequest, put=__set__currentMenuDestinationRequest))  _currentMenuDestinationRequest;
+ GlobalNamespace::MenuDestination __declspec(property(get=__get__currentMenuDestinationRequest, put=__set__currentMenuDestinationRequest))  _currentMenuDestinationRequest;
 
-constexpr void __set__currentMenuDestinationRequest(::GlobalNamespace::MenuDestination value) ;
+constexpr void __set__currentMenuDestinationRequest(GlobalNamespace::MenuDestination value) ;
 
-constexpr ::GlobalNamespace::MenuDestination __get__currentMenuDestinationRequest() const;
+constexpr GlobalNamespace::MenuDestination __get__currentMenuDestinationRequest() const;
 
 
 // Properties
 
- ::GlobalNamespace::MenuDestination __declspec(property(get=get_currentMenuDestinationRequest, put=set_currentMenuDestinationRequest))  currentMenuDestinationRequest;
+ GlobalNamespace::MenuDestination __declspec(property(get=get_currentMenuDestinationRequest, put=set_currentMenuDestinationRequest))  currentMenuDestinationRequest;
 
 
 // Methods
 
 /// @brief Method add_didSendMenuDestinationRequestEvent addr 0x21bbbfc size 0xb0 virtual true final true
- void add_didSendMenuDestinationRequestEvent(::System::Action_1<::GlobalNamespace::MenuDestination> value) ;
+ void add_didSendMenuDestinationRequestEvent(System::Action_1<GlobalNamespace::MenuDestination> value) ;
 
 /// @brief Method remove_didSendMenuDestinationRequestEvent addr 0x21bbcac size 0xb0 virtual true final true
- void remove_didSendMenuDestinationRequestEvent(::System::Action_1<::GlobalNamespace::MenuDestination> value) ;
+ void remove_didSendMenuDestinationRequestEvent(System::Action_1<GlobalNamespace::MenuDestination> value) ;
 
 /// @brief Method get_currentMenuDestinationRequest addr 0x21bbd5c size 0x8 virtual true final true
- ::GlobalNamespace::MenuDestination get_currentMenuDestinationRequest() ;
+ GlobalNamespace::MenuDestination get_currentMenuDestinationRequest() ;
 
 /// @brief Method set_currentMenuDestinationRequest addr 0x21bbd64 size 0x20 virtual true final true
- void set_currentMenuDestinationRequest(::GlobalNamespace::MenuDestination value) ;
+ void set_currentMenuDestinationRequest(GlobalNamespace::MenuDestination value) ;
 
 /// @brief Method Init addr 0x21bbd84 size 0x1cc virtual false final false
- void Init(::GlobalNamespace::IDeeplinkManager deeplinkManager) ;
+ void Init(GlobalNamespace::IDeeplinkManager deeplinkManager) ;
 
 /// @brief Method Clear addr 0x21bc514 size 0x8 virtual true final true
  void Clear() ;
 
 /// @brief Method HandleDeeplinkManagerDidReceiveDeeplink addr 0x21bbf50 size 0x5c4 virtual false final false
- void HandleDeeplinkManagerDidReceiveDeeplink(::GlobalNamespace::Deeplink deeplink) ;
+ void HandleDeeplinkManagerDidReceiveDeeplink(GlobalNamespace::Deeplink deeplink) ;
 
 // Ctor Parameters []
 explicit DeeplinkManagerToDestinationRequestManagerAdapter() ;
@@ -136,6 +135,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter, "", "DeeplinkManagerToDestinationRequestManagerAdapter");
+NEED_NO_BOX(GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter, "", "DeeplinkManagerToDestinationRequestManagerAdapter");

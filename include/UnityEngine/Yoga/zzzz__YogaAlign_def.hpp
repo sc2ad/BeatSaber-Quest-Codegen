@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Yoga {
 struct YogaAlign;
@@ -73,32 +72,31 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Auto offset 0
-static ::UnityEngine::Yoga::YogaAlign const Auto;
+static UnityEngine::Yoga::YogaAlign const Auto;
 
 /// @brief Field FlexStart offset 0
-static ::UnityEngine::Yoga::YogaAlign const FlexStart;
+static UnityEngine::Yoga::YogaAlign const FlexStart;
 
 /// @brief Field Center offset 0
-static ::UnityEngine::Yoga::YogaAlign const Center;
+static UnityEngine::Yoga::YogaAlign const Center;
 
 /// @brief Field FlexEnd offset 0
-static ::UnityEngine::Yoga::YogaAlign const FlexEnd;
+static UnityEngine::Yoga::YogaAlign const FlexEnd;
 
 /// @brief Field Stretch offset 0
-static ::UnityEngine::Yoga::YogaAlign const Stretch;
+static UnityEngine::Yoga::YogaAlign const Stretch;
 
 /// @brief Field Baseline offset 0
-static ::UnityEngine::Yoga::YogaAlign const Baseline;
+static UnityEngine::Yoga::YogaAlign const Baseline;
 
 /// @brief Field SpaceBetween offset 0
-static ::UnityEngine::Yoga::YogaAlign const SpaceBetween;
+static UnityEngine::Yoga::YogaAlign const SpaceBetween;
 
 /// @brief Field SpaceAround offset 0
-static ::UnityEngine::Yoga::YogaAlign const SpaceAround;
+static UnityEngine::Yoga::YogaAlign const SpaceAround;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Yoga
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Yoga::YogaAlign, "UnityEngine.Yoga", "YogaAlign");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Yoga::YogaAlign, "UnityEngine.Yoga", "YogaAlign");

@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Security::Cryptography {
 class AsnEncodedData;
 }
@@ -18,7 +17,7 @@ namespace System::Security::Cryptography::X509Certificates {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7828))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7862))
 // CS Name: System.Security.Cryptography.X509Certificates.X509Extension
-class CORDL_TYPE X509Extension : public ::System::Security::Cryptography::AsnEncodedData {
+class CORDL_TYPE X509Extension : public System::Security::Cryptography::AsnEncodedData {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr X509Extension(X509Extension const& ) noexcept = default;
 constexpr X509Extension(X509Extension&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit X509Extension(void* ptr) noexcept : ::System::Security::Cryptography::AsnEncodedData(ptr) {
+constexpr explicit X509Extension(void* ptr) noexcept : System::Security::Cryptography::AsnEncodedData(ptr) {
 }
 
 
@@ -87,7 +86,7 @@ explicit X509Extension(::StringW oid, ::ArrayW<uint8_t> rawData, bool critical) 
  void set_Critical(bool value) ;
 
 /// @brief Method CopyFrom addr 0x27f2f34 size 0x130 virtual true final false
- void CopyFrom(::System::Security::Cryptography::AsnEncodedData asnEncodedData) ;
+ void CopyFrom(System::Security::Cryptography::AsnEncodedData asnEncodedData) ;
 
 /// @brief Method FormatUnkownData addr 0x27f3064 size 0x114 virtual false final false
  ::StringW FormatUnkownData(::ArrayW<uint8_t> data) ;
@@ -96,6 +95,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography::X509Certificates
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::X509Certificates::X509Extension);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::X509Certificates::X509Extension, "System.Security.Cryptography.X509Certificates", "X509Extension");
+NEED_NO_BOX(System::Security::Cryptography::X509Certificates::X509Extension);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509Extension, "System.Security.Cryptography.X509Certificates", "X509Extension");

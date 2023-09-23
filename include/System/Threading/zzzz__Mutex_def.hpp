@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/Threading/zzzz__WaitHandle_def.hpp"
-namespace {
 // Forward declare root types
 namespace System::Threading {
 class Mutex;
@@ -12,7 +11,7 @@ namespace System::Threading {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2739))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2742))
 // CS Name: System.Threading.Mutex
-class CORDL_TYPE Mutex : public ::System::Threading::WaitHandle {
+class CORDL_TYPE Mutex : public System::Threading::WaitHandle {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr Mutex(Mutex const& ) noexcept = default;
 constexpr Mutex(Mutex&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Mutex(void* ptr) noexcept : ::System::Threading::WaitHandle(ptr) {
+constexpr explicit Mutex(void* ptr) noexcept : System::Threading::WaitHandle(ptr) {
 }
 
 
@@ -49,6 +48,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Threading
-} // end anonymous namespace
-NEED_NO_BOX(::System::Threading::Mutex);
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Mutex, "System.Threading", "Mutex");
+NEED_NO_BOX(System::Threading::Mutex);
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::Mutex, "System.Threading", "Mutex");

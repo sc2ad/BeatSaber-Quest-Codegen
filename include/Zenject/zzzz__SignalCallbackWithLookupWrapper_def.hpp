@@ -2,26 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace System {
-template<typename T>
-class Action_1;
-}
-namespace Zenject {
-class SignalBus;
+struct Guid;
 }
 namespace System {
-template<typename T,typename TResult>
-class Func_2;
+class Type;
 }
 namespace Zenject {
 class DiContainer;
 }
-namespace System {
-struct Guid;
-}
 namespace Zenject {
-class InjectTypeInfo;
+class SignalBus;
 }
 namespace System {
 class IDisposable;
@@ -29,8 +20,16 @@ class IDisposable;
 namespace Zenject {
 class SignalBindingBindInfo;
 }
+namespace Zenject {
+class InjectTypeInfo;
+}
 namespace System {
-class Type;
+template<typename T,typename TResult>
+class Func_2;
+}
+namespace System {
+template<typename T>
+class Action_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -45,8 +44,8 @@ namespace Zenject {
 class CORDL_TYPE SignalCallbackWithLookupWrapper : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x50};
@@ -81,41 +80,41 @@ constexpr explicit SignalCallbackWithLookupWrapper(void* ptr) noexcept : ::bs_ho
 
 // Fields
 
- ::Zenject::DiContainer __declspec(property(get=__get__container, put=__set__container))  _container;
+ Zenject::DiContainer __declspec(property(get=__get__container, put=__set__container))  _container;
 
-constexpr void __set__container(::Zenject::DiContainer value) ;
+constexpr void __set__container(Zenject::DiContainer value) ;
 
-constexpr ::Zenject::DiContainer __get__container() const;
+constexpr Zenject::DiContainer __get__container() const;
 
- ::Zenject::SignalBus __declspec(property(get=__get__signalBus, put=__set__signalBus))  _signalBus;
+ Zenject::SignalBus __declspec(property(get=__get__signalBus, put=__set__signalBus))  _signalBus;
 
-constexpr void __set__signalBus(::Zenject::SignalBus value) ;
+constexpr void __set__signalBus(Zenject::SignalBus value) ;
 
-constexpr ::Zenject::SignalBus __get__signalBus() const;
+constexpr Zenject::SignalBus __get__signalBus() const;
 
- ::System::Guid __declspec(property(get=__get__lookupId, put=__set__lookupId))  _lookupId;
+ System::Guid __declspec(property(get=__get__lookupId, put=__set__lookupId))  _lookupId;
 
-constexpr void __set__lookupId(::System::Guid value) ;
+constexpr void __set__lookupId(System::Guid value) ;
 
-constexpr ::System::Guid __get__lookupId() const;
+constexpr System::Guid __get__lookupId() const;
 
- ::System::Func_2<::bs_hook::Il2CppWrapperType,::System::Action_1<::bs_hook::Il2CppWrapperType>> __declspec(property(get=__get__methodGetter, put=__set__methodGetter))  _methodGetter;
+ System::Func_2<::bs_hook::Il2CppWrapperType,System::Action_1<::bs_hook::Il2CppWrapperType>> __declspec(property(get=__get__methodGetter, put=__set__methodGetter))  _methodGetter;
 
-constexpr void __set__methodGetter(::System::Func_2<::bs_hook::Il2CppWrapperType,::System::Action_1<::bs_hook::Il2CppWrapperType>> value) ;
+constexpr void __set__methodGetter(System::Func_2<::bs_hook::Il2CppWrapperType,System::Action_1<::bs_hook::Il2CppWrapperType>> value) ;
 
-constexpr ::System::Func_2<::bs_hook::Il2CppWrapperType,::System::Action_1<::bs_hook::Il2CppWrapperType>> __get__methodGetter() const;
+constexpr System::Func_2<::bs_hook::Il2CppWrapperType,System::Action_1<::bs_hook::Il2CppWrapperType>> __get__methodGetter() const;
 
- ::System::Type __declspec(property(get=__get__objectType, put=__set__objectType))  _objectType;
+ System::Type __declspec(property(get=__get__objectType, put=__set__objectType))  _objectType;
 
-constexpr void __set__objectType(::System::Type value) ;
+constexpr void __set__objectType(System::Type value) ;
 
-constexpr ::System::Type __get__objectType() const;
+constexpr System::Type __get__objectType() const;
 
- ::System::Type __declspec(property(get=__get__signalType, put=__set__signalType))  _signalType;
+ System::Type __declspec(property(get=__get__signalType, put=__set__signalType))  _signalType;
 
-constexpr void __set__signalType(::System::Type value) ;
+constexpr void __set__signalType(System::Type value) ;
 
-constexpr ::System::Type __get__signalType() const;
+constexpr System::Type __get__signalType() const;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=__get__identifier, put=__set__identifier))  _identifier;
 
@@ -126,11 +125,11 @@ constexpr ::bs_hook::Il2CppWrapperType __get__identifier() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "signalBindInfo", ty: "::Zenject::SignalBindingBindInfo", modifiers: "", def_value: None }, CppParam { name: "objectType", ty: "::System::Type", modifiers: "", def_value: None }, CppParam { name: "lookupId", ty: "::System::Guid", modifiers: "", def_value: None }, CppParam { name: "methodGetter", ty: "::System::Func_2<::bs_hook::Il2CppWrapperType,::System::Action_1<::bs_hook::Il2CppWrapperType>>", modifiers: "", def_value: None }, CppParam { name: "signalBus", ty: "::Zenject::SignalBus", modifiers: "", def_value: None }, CppParam { name: "container", ty: "::Zenject::DiContainer", modifiers: "", def_value: None }]
-explicit SignalCallbackWithLookupWrapper(::Zenject::SignalBindingBindInfo signalBindInfo, ::System::Type objectType, ::System::Guid lookupId, ::System::Func_2<::bs_hook::Il2CppWrapperType,::System::Action_1<::bs_hook::Il2CppWrapperType>> methodGetter, ::Zenject::SignalBus signalBus, ::Zenject::DiContainer container) ;
+// Ctor Parameters [CppParam { name: "signalBindInfo", ty: "Zenject::SignalBindingBindInfo", modifiers: "", def_value: None }, CppParam { name: "objectType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "lookupId", ty: "System::Guid", modifiers: "", def_value: None }, CppParam { name: "methodGetter", ty: "System::Func_2<::bs_hook::Il2CppWrapperType,System::Action_1<::bs_hook::Il2CppWrapperType>>", modifiers: "", def_value: None }, CppParam { name: "signalBus", ty: "Zenject::SignalBus", modifiers: "", def_value: None }, CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }]
+explicit SignalCallbackWithLookupWrapper(Zenject::SignalBindingBindInfo signalBindInfo, System::Type objectType, System::Guid lookupId, System::Func_2<::bs_hook::Il2CppWrapperType,System::Action_1<::bs_hook::Il2CppWrapperType>> methodGetter, Zenject::SignalBus signalBus, Zenject::DiContainer container) ;
 
 /// @brief Method .ctor addr 0x2d47bf0 size 0xf8 virtual false final false
- void _ctor(::Zenject::SignalBindingBindInfo signalBindInfo, ::System::Type objectType, ::System::Guid lookupId, ::System::Func_2<::bs_hook::Il2CppWrapperType,::System::Action_1<::bs_hook::Il2CppWrapperType>> methodGetter, ::Zenject::SignalBus signalBus, ::Zenject::DiContainer container) ;
+ void _ctor(Zenject::SignalBindingBindInfo signalBindInfo, System::Type objectType, System::Guid lookupId, System::Func_2<::bs_hook::Il2CppWrapperType,System::Action_1<::bs_hook::Il2CppWrapperType>> methodGetter, Zenject::SignalBus signalBus, Zenject::DiContainer container) ;
 
 /// @brief Method OnSignalFired addr 0x2d47cf0 size 0x1c8 virtual false final false
  void OnSignalFired(::bs_hook::Il2CppWrapperType signal) ;
@@ -142,12 +141,11 @@ explicit SignalCallbackWithLookupWrapper(::Zenject::SignalBindingBindInfo signal
 static ::bs_hook::Il2CppWrapperType __zenCreate(::ArrayW<::bs_hook::Il2CppWrapperType> P_0) ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x2d481f0 size 0x544 virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::SignalCallbackWithLookupWrapper);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::SignalCallbackWithLookupWrapper, "Zenject", "SignalCallbackWithLookupWrapper");
+NEED_NO_BOX(Zenject::SignalCallbackWithLookupWrapper);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::SignalCallbackWithLookupWrapper, "Zenject", "SignalCallbackWithLookupWrapper");

@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace RootMotion::FinalIK {
-class VRIK;
-}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace RootMotion::FinalIK {
+class VRIK;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -23,7 +22,7 @@ namespace RootMotion::FinalIK {
 class OffsetModifierVRIK;
 }
 namespace RootMotion::FinalIK {
-class ____RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7;
+class RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7;
 }
 // Type: ::<Initiate>d__7
 namespace RootMotion::FinalIK {
@@ -31,46 +30,46 @@ namespace RootMotion::FinalIK {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12599))
 // CS Name: RootMotion.FinalIK.OffsetModifierVRIK::<Initiate>d__7
-class CORDL_TYPE ____RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7() = default;
+virtual ~RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7", modifiers: " const&", def_value: None }]
-constexpr ____RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7(____RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7", modifiers: " const&", def_value: None }]
+constexpr RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7(RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7", modifiers: "&&", def_value: None }]
-constexpr ____RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7(____RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7", modifiers: "&&", def_value: None }]
+constexpr RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7(RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7& operator=(std::nullptr_t) noexcept {
+  constexpr RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7& operator=(void* o) noexcept {
+  constexpr RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7& operator=(____RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7&& o) noexcept = default;
-  constexpr ____RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7& operator=(____RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7 const& o) noexcept = default;
+  constexpr RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7& operator=(RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7&& o) noexcept = default;
+  constexpr RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7& operator=(RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7 const& o) noexcept = default;
                 
 
 
@@ -88,11 +87,11 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::RootMotion::FinalIK::OffsetModifierVRIK __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ RootMotion::FinalIK::OffsetModifierVRIK __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::RootMotion::FinalIK::OffsetModifierVRIK value) ;
+constexpr void __set___4__this(RootMotion::FinalIK::OffsetModifierVRIK value) ;
 
-constexpr ::RootMotion::FinalIK::OffsetModifierVRIK __get___4__this() const;
+constexpr RootMotion::FinalIK::OffsetModifierVRIK __get___4__this() const;
 
 
 // Properties
@@ -105,7 +104,7 @@ constexpr ::RootMotion::FinalIK::OffsetModifierVRIK __get___4__this() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7(int32_t __1__state) ;
+explicit RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x120b044 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -135,10 +134,10 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12600))
 // CS Name: RootMotion.FinalIK.OffsetModifierVRIK
-class CORDL_TYPE OffsetModifierVRIK : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OffsetModifierVRIK : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using _Initiate_d__7 = ::RootMotion::FinalIK::____RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7;
+using _Initiate_d__7 = RootMotion::FinalIK::RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -152,7 +151,7 @@ constexpr OffsetModifierVRIK(OffsetModifierVRIK const& ) noexcept = default;
 constexpr OffsetModifierVRIK(OffsetModifierVRIK&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OffsetModifierVRIK(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OffsetModifierVRIK(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -179,11 +178,11 @@ constexpr void __set_weight(float_t value) ;
 
 constexpr float_t __get_weight() const;
 
- ::RootMotion::FinalIK::VRIK __declspec(property(get=__get_ik, put=__set_ik))  ik;
+ RootMotion::FinalIK::VRIK __declspec(property(get=__get_ik, put=__set_ik))  ik;
 
-constexpr void __set_ik(::RootMotion::FinalIK::VRIK value) ;
+constexpr void __set_ik(RootMotion::FinalIK::VRIK value) ;
 
-constexpr ::RootMotion::FinalIK::VRIK __get_ik() const;
+constexpr RootMotion::FinalIK::VRIK __get_ik() const;
 
  float_t __declspec(property(get=__get_lastTime, put=__set_lastTime))  lastTime;
 
@@ -209,7 +208,7 @@ constexpr float_t __get_lastTime() const;
  void Start() ;
 
 /// @brief Method Initiate addr 0x120afdc size 0x68 virtual false final false
- ::System::Collections::IEnumerator Initiate() ;
+ System::Collections::IEnumerator Initiate() ;
 
 /// @brief Method ModifyOffset addr 0x120b06c size 0xd4 virtual false final false
  void ModifyOffset() ;
@@ -227,8 +226,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::OffsetModifierVRIK);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::OffsetModifierVRIK, "RootMotion.FinalIK", "OffsetModifierVRIK");
-NEED_NO_BOX(::RootMotion::FinalIK::____RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::____RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7, "RootMotion.FinalIK", "OffsetModifierVRIK/<Initiate>d__7");
+NEED_NO_BOX(RootMotion::FinalIK::OffsetModifierVRIK);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetModifierVRIK, "RootMotion.FinalIK", "OffsetModifierVRIK");
+NEED_NO_BOX(RootMotion::FinalIK::RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7, "RootMotion.FinalIK", "OffsetModifierVRIK/<Initiate>d__7");

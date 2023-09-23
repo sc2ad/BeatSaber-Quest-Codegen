@@ -2,14 +2,13 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace Unity::Collections {
-template<typename T>
-struct NativeSlice_1;
-}
 namespace Unity::Collections {
 template<typename T>
 struct NativeArray_1;
+}
+namespace Unity::Collections {
+template<typename T>
+struct NativeSlice_1;
 }
 // Forward declare root types
 namespace Unity::Collections {
@@ -59,16 +58,15 @@ constexpr explicit NativeSliceExtensions(void* ptr) noexcept : ::bs_hook::Il2Cpp
 
 /// @brief Method Slice addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static ::Unity::Collections::NativeSlice_1<T> Slice(::Unity::Collections::NativeArray_1<T> thisArray, int32_t start, int32_t length) ;
+static Unity::Collections::NativeSlice_1<T> Slice(Unity::Collections::NativeArray_1<T> thisArray, int32_t start, int32_t length) ;
 
 /// @brief Method Slice addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static ::Unity::Collections::NativeSlice_1<T> Slice(::Unity::Collections::NativeSlice_1<T> thisSlice, int32_t start, int32_t length) ;
+static Unity::Collections::NativeSlice_1<T> Slice(Unity::Collections::NativeSlice_1<T> thisSlice, int32_t start, int32_t length) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Unity::Collections
-} // end anonymous namespace
-NEED_NO_BOX(::Unity::Collections::NativeSliceExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::NativeSliceExtensions, "Unity.Collections", "NativeSliceExtensions");
+NEED_NO_BOX(Unity::Collections::NativeSliceExtensions);
+DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::NativeSliceExtensions, "Unity.Collections", "NativeSliceExtensions");

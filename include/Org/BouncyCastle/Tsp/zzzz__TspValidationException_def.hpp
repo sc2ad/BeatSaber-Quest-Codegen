@@ -3,7 +3,6 @@
 #include "Org/BouncyCastle/Tsp/zzzz__TspException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Tsp {
 class TspValidationException;
@@ -14,7 +13,7 @@ namespace Org::BouncyCastle::Tsp {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1774))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1776))
 // CS Name: Org.BouncyCastle.Tsp.TspValidationException
-class CORDL_TYPE TspValidationException : public ::Org::BouncyCastle::Tsp::TspException {
+class CORDL_TYPE TspValidationException : public Org::BouncyCastle::Tsp::TspException {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr TspValidationException(TspValidationException const& ) noexcept = defa
 constexpr TspValidationException(TspValidationException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TspValidationException(void* ptr) noexcept : ::Org::BouncyCastle::Tsp::TspException(ptr) {
+constexpr explicit TspValidationException(void* ptr) noexcept : Org::BouncyCastle::Tsp::TspException(ptr) {
 }
 
 
@@ -83,6 +82,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Tsp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Tsp::TspValidationException);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Tsp::TspValidationException, "Org.BouncyCastle.Tsp", "TspValidationException");
+NEED_NO_BOX(Org::BouncyCastle::Tsp::TspValidationException);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Tsp::TspValidationException, "Org.BouncyCastle.Tsp", "TspValidationException");

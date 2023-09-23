@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net::NetworkInformation {
 struct AixIoctlRequest;
@@ -70,23 +69,22 @@ constexpr void __set_value__(uint32_t value) ;
 constexpr uint32_t __get_value__() const;
 
 /// @brief Field SIOCGSIZIFCONF offset 0
-static ::System::Net::NetworkInformation::AixIoctlRequest const SIOCGSIZIFCONF;
+static System::Net::NetworkInformation::AixIoctlRequest const SIOCGSIZIFCONF;
 
 /// @brief Field SIOCGIFCONF offset 0
-static ::System::Net::NetworkInformation::AixIoctlRequest const SIOCGIFCONF;
+static System::Net::NetworkInformation::AixIoctlRequest const SIOCGIFCONF;
 
 /// @brief Field SIOCGIFFLAGS offset 0
-static ::System::Net::NetworkInformation::AixIoctlRequest const SIOCGIFFLAGS;
+static System::Net::NetworkInformation::AixIoctlRequest const SIOCGIFFLAGS;
 
 /// @brief Field SIOCGIFNETMASK offset 0
-static ::System::Net::NetworkInformation::AixIoctlRequest const SIOCGIFNETMASK;
+static System::Net::NetworkInformation::AixIoctlRequest const SIOCGIFNETMASK;
 
 /// @brief Field SIOCGIFMTU offset 0
-static ::System::Net::NetworkInformation::AixIoctlRequest const SIOCGIFMTU;
+static System::Net::NetworkInformation::AixIoctlRequest const SIOCGIFMTU;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net::NetworkInformation
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::AixIoctlRequest, "System.Net.NetworkInformation", "AixIoctlRequest");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::AixIoctlRequest, "System.Net.NetworkInformation", "AixIoctlRequest");

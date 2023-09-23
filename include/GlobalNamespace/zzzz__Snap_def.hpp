@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13835))
 // CS Name: Snap
-class CORDL_TYPE Snap : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE Snap : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr Snap(Snap const& ) noexcept = default;
 constexpr Snap(Snap&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Snap(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit Snap(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -51,17 +50,17 @@ constexpr explicit Snap(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) 
 
 // Fields
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_snap, put=__set_snap))  snap;
+ UnityEngine::Vector3 __declspec(property(get=__get_snap, put=__set_snap))  snap;
 
-constexpr void __set_snap(::UnityEngine::Vector3 value) ;
+constexpr void __set_snap(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_snap() const;
+constexpr UnityEngine::Vector3 __get_snap() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_offset, put=__set_offset))  offset;
+ UnityEngine::Vector3 __declspec(property(get=__get_offset, put=__set_offset))  offset;
 
-constexpr void __set_offset(::UnityEngine::Vector3 value) ;
+constexpr void __set_offset(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_offset() const;
+constexpr UnityEngine::Vector3 __get_offset() const;
 
 
 // Methods
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::Snap);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::Snap, "", "Snap");
+NEED_NO_BOX(GlobalNamespace::Snap);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Snap, "", "Snap");

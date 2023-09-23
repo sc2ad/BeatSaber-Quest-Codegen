@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Threading::Tasks {
 class Task;
 }
@@ -34,7 +33,7 @@ constexpr explicit ISonyPlatformManager(void* ptr) noexcept : ::cordl_internals:
 
  ::StringW __declspec(property(get=get_userName))  userName;
 
- ::System::Threading::Tasks::Task __declspec(property(get=get_initializationTask))  initializationTask;
+ System::Threading::Tasks::Task __declspec(property(get=get_initializationTask))  initializationTask;
 
 
 // Methods
@@ -49,12 +48,11 @@ constexpr explicit ISonyPlatformManager(void* ptr) noexcept : ::cordl_internals:
  ::StringW get_userName() ;
 
 /// @brief Method get_initializationTask addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Threading::Tasks::Task get_initializationTask() ;
+ System::Threading::Tasks::Task get_initializationTask() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ISonyPlatformManager);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ISonyPlatformManager, "", "ISonyPlatformManager");
+NEED_NO_BOX(GlobalNamespace::ISonyPlatformManager);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ISonyPlatformManager, "", "ISonyPlatformManager");

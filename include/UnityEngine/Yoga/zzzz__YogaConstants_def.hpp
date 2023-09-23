@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Yoga {
 class YogaConstants;
@@ -56,6 +55,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Yoga
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Yoga::YogaConstants);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Yoga::YogaConstants, "UnityEngine.Yoga", "YogaConstants");
+NEED_NO_BOX(UnityEngine::Yoga::YogaConstants);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Yoga::YogaConstants, "UnityEngine.Yoga", "YogaConstants");

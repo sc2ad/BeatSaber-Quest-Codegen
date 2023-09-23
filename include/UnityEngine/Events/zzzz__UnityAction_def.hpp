@@ -3,7 +3,6 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Events {
 class UnityAction;
@@ -14,7 +13,7 @@ namespace UnityEngine::Events {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10406))
 // CS Name: UnityEngine.Events.UnityAction
-class CORDL_TYPE UnityAction : public ::System::MulticastDelegate {
+class CORDL_TYPE UnityAction : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr UnityAction(UnityAction const& ) noexcept = default;
 constexpr UnityAction(UnityAction&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UnityAction(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit UnityAction(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -63,6 +62,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Events
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Events::UnityAction);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Events::UnityAction, "UnityEngine.Events", "UnityAction");
+NEED_NO_BOX(UnityEngine::Events::UnityAction);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::UnityAction, "UnityEngine.Events", "UnityAction");

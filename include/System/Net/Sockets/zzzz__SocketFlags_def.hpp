@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net::Sockets {
 struct SocketFlags;
@@ -75,38 +74,37 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::Net::Sockets::SocketFlags const None;
+static System::Net::Sockets::SocketFlags const None;
 
 /// @brief Field OutOfBand offset 0
-static ::System::Net::Sockets::SocketFlags const OutOfBand;
+static System::Net::Sockets::SocketFlags const OutOfBand;
 
 /// @brief Field Peek offset 0
-static ::System::Net::Sockets::SocketFlags const Peek;
+static System::Net::Sockets::SocketFlags const Peek;
 
 /// @brief Field DontRoute offset 0
-static ::System::Net::Sockets::SocketFlags const DontRoute;
+static System::Net::Sockets::SocketFlags const DontRoute;
 
 /// @brief Field MaxIOVectorLength offset 0
-static ::System::Net::Sockets::SocketFlags const MaxIOVectorLength;
+static System::Net::Sockets::SocketFlags const MaxIOVectorLength;
 
 /// @brief Field Truncated offset 0
-static ::System::Net::Sockets::SocketFlags const Truncated;
+static System::Net::Sockets::SocketFlags const Truncated;
 
 /// @brief Field ControlDataTruncated offset 0
-static ::System::Net::Sockets::SocketFlags const ControlDataTruncated;
+static System::Net::Sockets::SocketFlags const ControlDataTruncated;
 
 /// @brief Field Broadcast offset 0
-static ::System::Net::Sockets::SocketFlags const Broadcast;
+static System::Net::Sockets::SocketFlags const Broadcast;
 
 /// @brief Field Multicast offset 0
-static ::System::Net::Sockets::SocketFlags const Multicast;
+static System::Net::Sockets::SocketFlags const Multicast;
 
 /// @brief Field Partial offset 0
-static ::System::Net::Sockets::SocketFlags const Partial;
+static System::Net::Sockets::SocketFlags const Partial;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net::Sockets
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Sockets::SocketFlags, "System.Net.Sockets", "SocketFlags");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketFlags, "System.Net.Sockets", "SocketFlags");

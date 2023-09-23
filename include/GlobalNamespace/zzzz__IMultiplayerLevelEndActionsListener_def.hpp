@@ -1,6 +1,5 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace GlobalNamespace {
 class MultiplayerLevelCompletionResults;
 }
@@ -27,15 +26,14 @@ constexpr explicit IMultiplayerLevelEndActionsListener(void* ptr) noexcept : ::c
 // Methods
 
 /// @brief Method ReportPlayerDidFinish addr 0x0 size 0xffffffffffffffff virtual true final false
- void ReportPlayerDidFinish(::GlobalNamespace::MultiplayerLevelCompletionResults results) ;
+ void ReportPlayerDidFinish(GlobalNamespace::MultiplayerLevelCompletionResults results) ;
 
 /// @brief Method ReportPlayerNetworkDidFailed addr 0x0 size 0xffffffffffffffff virtual true final false
- void ReportPlayerNetworkDidFailed(::GlobalNamespace::MultiplayerLevelCompletionResults results) ;
+ void ReportPlayerNetworkDidFailed(GlobalNamespace::MultiplayerLevelCompletionResults results) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IMultiplayerLevelEndActionsListener);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IMultiplayerLevelEndActionsListener, "", "IMultiplayerLevelEndActionsListener");
+NEED_NO_BOX(GlobalNamespace::IMultiplayerLevelEndActionsListener);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IMultiplayerLevelEndActionsListener, "", "IMultiplayerLevelEndActionsListener");

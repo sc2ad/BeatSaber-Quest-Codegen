@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 
+namespace {
 namespace cordl_internals {
 #pragma region extract values
 template<typename T>
@@ -176,7 +177,8 @@ template<typename T>
         Il2CppException* exp = nullptr;
         std::array<void*, sizeof...(params)> invokeParams{ExtractTypeValue(params)...};
         il2cpp_functions::Init();
-        auto* ret = il2cpp_functions::runtime_invoke(method, instance, invokeParams.data(), &exp);
+        auto* ret = il2cpp_functions::runtime_invoke(method, inst,
+                                                     invokeParams.data(), &exp);
 
         // an exception was thrown, rethrow it!
         if (exp) throw il2cpp_utils::RunMethodException(exp, method);
@@ -186,3 +188,4 @@ template<typename T>
         }
     }
 }
+} // end anonymous namespace

@@ -3,15 +3,14 @@
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Runtime::InteropServices {
-struct VarEnum;
+namespace System {
+class Type;
 }
 namespace System::Runtime::InteropServices {
 struct UnmanagedType;
 }
-namespace System {
-class Type;
+namespace System::Runtime::InteropServices {
+struct VarEnum;
 }
 // Forward declare root types
 namespace System::Runtime::InteropServices {
@@ -23,7 +22,7 @@ namespace System::Runtime::InteropServices {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3334))
 // CS Name: System.Runtime.InteropServices.MarshalAsAttribute
-class CORDL_TYPE MarshalAsAttribute : public ::System::Attribute {
+class CORDL_TYPE MarshalAsAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr MarshalAsAttribute(MarshalAsAttribute const& ) noexcept = default;
 constexpr MarshalAsAttribute(MarshalAsAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MarshalAsAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit MarshalAsAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -71,35 +70,35 @@ constexpr void __set_MarshalType(::StringW value) ;
 
 constexpr ::StringW __get_MarshalType() const;
 
- ::System::Type __declspec(property(get=__get_MarshalTypeRef, put=__set_MarshalTypeRef))  MarshalTypeRef;
+ System::Type __declspec(property(get=__get_MarshalTypeRef, put=__set_MarshalTypeRef))  MarshalTypeRef;
 
-constexpr void __set_MarshalTypeRef(::System::Type value) ;
+constexpr void __set_MarshalTypeRef(System::Type value) ;
 
-constexpr ::System::Type __get_MarshalTypeRef() const;
+constexpr System::Type __get_MarshalTypeRef() const;
 
- ::System::Type __declspec(property(get=__get_SafeArrayUserDefinedSubType, put=__set_SafeArrayUserDefinedSubType))  SafeArrayUserDefinedSubType;
+ System::Type __declspec(property(get=__get_SafeArrayUserDefinedSubType, put=__set_SafeArrayUserDefinedSubType))  SafeArrayUserDefinedSubType;
 
-constexpr void __set_SafeArrayUserDefinedSubType(::System::Type value) ;
+constexpr void __set_SafeArrayUserDefinedSubType(System::Type value) ;
 
-constexpr ::System::Type __get_SafeArrayUserDefinedSubType() const;
+constexpr System::Type __get_SafeArrayUserDefinedSubType() const;
 
- ::System::Runtime::InteropServices::UnmanagedType __declspec(property(get=__get_utype, put=__set_utype))  utype;
+ System::Runtime::InteropServices::UnmanagedType __declspec(property(get=__get_utype, put=__set_utype))  utype;
 
-constexpr void __set_utype(::System::Runtime::InteropServices::UnmanagedType value) ;
+constexpr void __set_utype(System::Runtime::InteropServices::UnmanagedType value) ;
 
-constexpr ::System::Runtime::InteropServices::UnmanagedType __get_utype() const;
+constexpr System::Runtime::InteropServices::UnmanagedType __get_utype() const;
 
- ::System::Runtime::InteropServices::UnmanagedType __declspec(property(get=__get_ArraySubType, put=__set_ArraySubType))  ArraySubType;
+ System::Runtime::InteropServices::UnmanagedType __declspec(property(get=__get_ArraySubType, put=__set_ArraySubType))  ArraySubType;
 
-constexpr void __set_ArraySubType(::System::Runtime::InteropServices::UnmanagedType value) ;
+constexpr void __set_ArraySubType(System::Runtime::InteropServices::UnmanagedType value) ;
 
-constexpr ::System::Runtime::InteropServices::UnmanagedType __get_ArraySubType() const;
+constexpr System::Runtime::InteropServices::UnmanagedType __get_ArraySubType() const;
 
- ::System::Runtime::InteropServices::VarEnum __declspec(property(get=__get_SafeArraySubType, put=__set_SafeArraySubType))  SafeArraySubType;
+ System::Runtime::InteropServices::VarEnum __declspec(property(get=__get_SafeArraySubType, put=__set_SafeArraySubType))  SafeArraySubType;
 
-constexpr void __set_SafeArraySubType(::System::Runtime::InteropServices::VarEnum value) ;
+constexpr void __set_SafeArraySubType(System::Runtime::InteropServices::VarEnum value) ;
 
-constexpr ::System::Runtime::InteropServices::VarEnum __get_SafeArraySubType() const;
+constexpr System::Runtime::InteropServices::VarEnum __get_SafeArraySubType() const;
 
  int32_t __declspec(property(get=__get_SizeConst, put=__set_SizeConst))  SizeConst;
 
@@ -122,27 +121,26 @@ constexpr int16_t __get_SizeParamIndex() const;
 
 // Properties
 
- ::System::Runtime::InteropServices::UnmanagedType __declspec(property(get=get_Value))  Value;
+ System::Runtime::InteropServices::UnmanagedType __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "unmanagedType", ty: "::System::Runtime::InteropServices::UnmanagedType", modifiers: "", def_value: None }]
-explicit MarshalAsAttribute(::System::Runtime::InteropServices::UnmanagedType unmanagedType) ;
+// Ctor Parameters [CppParam { name: "unmanagedType", ty: "System::Runtime::InteropServices::UnmanagedType", modifiers: "", def_value: None }]
+explicit MarshalAsAttribute(System::Runtime::InteropServices::UnmanagedType unmanagedType) ;
 
 /// @brief Method .ctor addr 0x236d764 size 0x28 virtual false final false
- void _ctor(::System::Runtime::InteropServices::UnmanagedType unmanagedType) ;
+ void _ctor(System::Runtime::InteropServices::UnmanagedType unmanagedType) ;
 
 /// @brief Method get_Value addr 0x236d78c size 0x8 virtual false final false
- ::System::Runtime::InteropServices::UnmanagedType get_Value() ;
+ System::Runtime::InteropServices::UnmanagedType get_Value() ;
 
 /// @brief Method Copy addr 0x236d794 size 0x64 virtual false final false
- ::System::Runtime::InteropServices::MarshalAsAttribute Copy() ;
+ System::Runtime::InteropServices::MarshalAsAttribute Copy() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::InteropServices
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::InteropServices::MarshalAsAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::MarshalAsAttribute, "System.Runtime.InteropServices", "MarshalAsAttribute");
+NEED_NO_BOX(System::Runtime::InteropServices::MarshalAsAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::MarshalAsAttribute, "System.Runtime.InteropServices", "MarshalAsAttribute");

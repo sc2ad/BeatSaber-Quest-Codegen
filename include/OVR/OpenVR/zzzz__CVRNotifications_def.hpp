@@ -4,21 +4,20 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace OVR::OpenVR {
 struct EVRNotificationStyle;
 }
 namespace OVR::OpenVR {
-struct IVRNotifications;
+struct EVRNotificationError;
 }
 namespace OVR::OpenVR {
 struct EVRNotificationType;
 }
 namespace OVR::OpenVR {
-struct NotificationBitmap_t;
+struct IVRNotifications;
 }
 namespace OVR::OpenVR {
-struct EVRNotificationError;
+struct NotificationBitmap_t;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -66,11 +65,11 @@ constexpr explicit CVRNotifications(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
- ::OVR::OpenVR::IVRNotifications __declspec(property(get=__get_FnTable, put=__set_FnTable))  FnTable;
+ OVR::OpenVR::IVRNotifications __declspec(property(get=__get_FnTable, put=__set_FnTable))  FnTable;
 
-constexpr void __set_FnTable(::OVR::OpenVR::IVRNotifications value) ;
+constexpr void __set_FnTable(OVR::OpenVR::IVRNotifications value) ;
 
-constexpr ::OVR::OpenVR::IVRNotifications __get_FnTable() const;
+constexpr OVR::OpenVR::IVRNotifications __get_FnTable() const;
 
 
 // Methods
@@ -82,15 +81,14 @@ explicit CVRNotifications(::cordl_internals::intptr_t pInterface) ;
  void _ctor(::cordl_internals::intptr_t pInterface) ;
 
 /// @brief Method CreateNotification addr 0x2667980 size 0x2c virtual false final false
- ::OVR::OpenVR::EVRNotificationError CreateNotification(uint64_t ulOverlayHandle, uint64_t ulUserValue, ::OVR::OpenVR::EVRNotificationType type, ::StringW pchText, ::OVR::OpenVR::EVRNotificationStyle style, ByRef<::OVR::OpenVR::NotificationBitmap_t> pImage, ByRef<uint32_t> pNotificationId) ;
+ OVR::OpenVR::EVRNotificationError CreateNotification(uint64_t ulOverlayHandle, uint64_t ulUserValue, OVR::OpenVR::EVRNotificationType type, ::StringW pchText, OVR::OpenVR::EVRNotificationStyle style, ByRef<OVR::OpenVR::NotificationBitmap_t> pImage, ByRef<uint32_t> pNotificationId) ;
 
 /// @brief Method RemoveNotification addr 0x26679ac size 0x24 virtual false final false
- ::OVR::OpenVR::EVRNotificationError RemoveNotification(uint32_t notificationId) ;
+ OVR::OpenVR::EVRNotificationError RemoveNotification(uint32_t notificationId) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-NEED_NO_BOX(::OVR::OpenVR::CVRNotifications);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::CVRNotifications, "OVR.OpenVR", "CVRNotifications");
+NEED_NO_BOX(OVR::OpenVR::CVRNotifications);
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRNotifications, "OVR.OpenVR", "CVRNotifications");

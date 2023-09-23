@@ -3,7 +3,6 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Xml::Schema {
 class ValidationEventArgs;
 }
@@ -17,7 +16,7 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11652))
 // CS Name: System.Xml.Schema.ValidationEventHandler
-class CORDL_TYPE ValidationEventHandler : public ::System::MulticastDelegate {
+class CORDL_TYPE ValidationEventHandler : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr ValidationEventHandler(ValidationEventHandler const& ) noexcept = defa
 constexpr ValidationEventHandler(ValidationEventHandler&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ValidationEventHandler(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit ValidationEventHandler(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -60,12 +59,11 @@ explicit ValidationEventHandler(::bs_hook::Il2CppWrapperType object, ::cordl_int
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x27323c4 size 0x14 virtual true final false
- void Invoke(::bs_hook::Il2CppWrapperType sender, ::System::Xml::Schema::ValidationEventArgs e) ;
+ void Invoke(::bs_hook::Il2CppWrapperType sender, System::Xml::Schema::ValidationEventArgs e) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::ValidationEventHandler);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::ValidationEventHandler, "System.Xml.Schema", "ValidationEventHandler");
+NEED_NO_BOX(System::Xml::Schema::ValidationEventHandler);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::ValidationEventHandler, "System.Xml.Schema", "ValidationEventHandler");

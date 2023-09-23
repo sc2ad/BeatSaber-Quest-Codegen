@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Security::Cryptography {
 struct CspProviderFlags;
 }
@@ -86,16 +85,16 @@ constexpr int32_t __get_m_flags() const;
 
 // Properties
 
- ::System::Security::Cryptography::CspProviderFlags __declspec(property(get=get_Flags, put=set_Flags))  Flags;
+ System::Security::Cryptography::CspProviderFlags __declspec(property(get=get_Flags, put=set_Flags))  Flags;
 
 
 // Methods
 
 /// @brief Method get_Flags addr 0x22f0008 size 0x8 virtual false final false
- ::System::Security::Cryptography::CspProviderFlags get_Flags() ;
+ System::Security::Cryptography::CspProviderFlags get_Flags() ;
 
 /// @brief Method set_Flags addr 0x22f0010 size 0xe8 virtual false final false
- void set_Flags(::System::Security::Cryptography::CspProviderFlags value) ;
+ void set_Flags(System::Security::Cryptography::CspProviderFlags value) ;
 
 // Ctor Parameters []
 explicit CspParameters() ;
@@ -115,16 +114,15 @@ explicit CspParameters(int32_t dwTypeIn, ::StringW strProviderNameIn, ::StringW 
 /// @brief Method .ctor addr 0x22f0124 size 0x44 virtual false final false
  void _ctor(int32_t dwTypeIn, ::StringW strProviderNameIn, ::StringW strContainerNameIn) ;
 
-// Ctor Parameters [CppParam { name: "providerType", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "providerName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "keyContainerName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "::System::Security::Cryptography::CspProviderFlags", modifiers: "", def_value: None }]
-explicit CspParameters(int32_t providerType, ::StringW providerName, ::StringW keyContainerName, ::System::Security::Cryptography::CspProviderFlags flags) ;
+// Ctor Parameters [CppParam { name: "providerType", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "providerName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "keyContainerName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "System::Security::Cryptography::CspProviderFlags", modifiers: "", def_value: None }]
+explicit CspParameters(int32_t providerType, ::StringW providerName, ::StringW keyContainerName, System::Security::Cryptography::CspProviderFlags flags) ;
 
 /// @brief Method .ctor addr 0x22f019c size 0x50 virtual false final false
- void _ctor(int32_t providerType, ::StringW providerName, ::StringW keyContainerName, ::System::Security::Cryptography::CspProviderFlags flags) ;
+ void _ctor(int32_t providerType, ::StringW providerName, ::StringW keyContainerName, System::Security::Cryptography::CspProviderFlags flags) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::CspParameters);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::CspParameters, "System.Security.Cryptography", "CspParameters");
+NEED_NO_BOX(System::Security::Cryptography::CspParameters);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CspParameters, "System.Security.Cryptography", "CspParameters");

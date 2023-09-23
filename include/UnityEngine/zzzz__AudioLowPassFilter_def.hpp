@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__Behaviour_def.hpp"
 #include <cmath>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 class AudioLowPassFilter;
@@ -13,7 +12,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10129))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15611))
 // CS Name: UnityEngine.AudioLowPassFilter
-class CORDL_TYPE AudioLowPassFilter : public ::UnityEngine::Behaviour {
+class CORDL_TYPE AudioLowPassFilter : public UnityEngine::Behaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr AudioLowPassFilter(AudioLowPassFilter const& ) noexcept = default;
 constexpr AudioLowPassFilter(AudioLowPassFilter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AudioLowPassFilter(void* ptr) noexcept : ::UnityEngine::Behaviour(ptr) {
+constexpr explicit AudioLowPassFilter(void* ptr) noexcept : UnityEngine::Behaviour(ptr) {
 }
 
 
@@ -64,6 +63,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AudioLowPassFilter);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AudioLowPassFilter, "UnityEngine", "AudioLowPassFilter");
+NEED_NO_BOX(UnityEngine::AudioLowPassFilter);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioLowPassFilter, "UnityEngine", "AudioLowPassFilter");

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Vector2;
 }
@@ -71,17 +70,17 @@ static constexpr float_t  FLOAT_UNSET{-32767};
 /// @brief Field INT_UNSET offset 0
 static constexpr int32_t  INT_UNSET{-32767};
 
-static ::UnityEngine::Vector2 __declspec(property(get=__get_MAX_16BIT, put=__set_MAX_16BIT))  MAX_16BIT;
+static UnityEngine::Vector2 __declspec(property(get=__get_MAX_16BIT, put=__set_MAX_16BIT))  MAX_16BIT;
 
-static void __set_MAX_16BIT(::UnityEngine::Vector2 value) ;
+static void __set_MAX_16BIT(UnityEngine::Vector2 value) ;
 
-static ::UnityEngine::Vector2 __get_MAX_16BIT() ;
+static UnityEngine::Vector2 __get_MAX_16BIT() ;
 
-static ::UnityEngine::Vector2 __declspec(property(get=__get_MIN_16BIT, put=__set_MIN_16BIT))  MIN_16BIT;
+static UnityEngine::Vector2 __declspec(property(get=__get_MIN_16BIT, put=__set_MIN_16BIT))  MIN_16BIT;
 
-static void __set_MIN_16BIT(::UnityEngine::Vector2 value) ;
+static void __set_MIN_16BIT(UnityEngine::Vector2 value) ;
 
-static ::UnityEngine::Vector2 __get_MIN_16BIT() ;
+static UnityEngine::Vector2 __get_MIN_16BIT() ;
 
 
 // Methods
@@ -96,6 +95,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-NEED_NO_BOX(::TMPro::TMP_Math);
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_Math, "TMPro", "TMP_Math");
+NEED_NO_BOX(TMPro::TMP_Math);
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Math, "TMPro", "TMP_Math");

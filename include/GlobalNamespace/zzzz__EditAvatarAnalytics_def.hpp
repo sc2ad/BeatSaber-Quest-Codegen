@@ -2,28 +2,27 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace GlobalNamespace {
-struct ____GlobalNamespace__EditAvatarFlowCoordinator__EditAvatarType;
-}
 namespace GlobalNamespace {
 class EditAvatarViewController;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__EditAvatarViewController__FinishAction;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+class IAnalyticsModel;
 }
 namespace GlobalNamespace {
-class EditAvatarFlowCoordinator;
+struct GlobalNamespace__EditAvatarViewController__FinishAction;
 }
 namespace GlobalNamespace {
 class AvatarDataModel;
 }
 namespace GlobalNamespace {
-class IAnalyticsModel;
+struct GlobalNamespace__EditAvatarFlowCoordinator__EditAvatarType;
+}
+namespace GlobalNamespace {
+class EditAvatarFlowCoordinator;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,7 +34,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3999))
 // CS Name: EditAvatarAnalytics
-class CORDL_TYPE EditAvatarAnalytics : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE EditAvatarAnalytics : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -50,7 +49,7 @@ constexpr EditAvatarAnalytics(EditAvatarAnalytics const& ) noexcept = default;
 constexpr EditAvatarAnalytics(EditAvatarAnalytics&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EditAvatarAnalytics(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit EditAvatarAnalytics(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -71,35 +70,35 @@ constexpr explicit EditAvatarAnalytics(void* ptr) noexcept : ::UnityEngine::Mono
 
 // Fields
 
- ::GlobalNamespace::EditAvatarFlowCoordinator __declspec(property(get=__get__editAvatarFlowCoordinator, put=__set__editAvatarFlowCoordinator))  _editAvatarFlowCoordinator;
+ GlobalNamespace::EditAvatarFlowCoordinator __declspec(property(get=__get__editAvatarFlowCoordinator, put=__set__editAvatarFlowCoordinator))  _editAvatarFlowCoordinator;
 
-constexpr void __set__editAvatarFlowCoordinator(::GlobalNamespace::EditAvatarFlowCoordinator value) ;
+constexpr void __set__editAvatarFlowCoordinator(GlobalNamespace::EditAvatarFlowCoordinator value) ;
 
-constexpr ::GlobalNamespace::EditAvatarFlowCoordinator __get__editAvatarFlowCoordinator() const;
+constexpr GlobalNamespace::EditAvatarFlowCoordinator __get__editAvatarFlowCoordinator() const;
 
- ::GlobalNamespace::EditAvatarViewController __declspec(property(get=__get__editAvatarViewController, put=__set__editAvatarViewController))  _editAvatarViewController;
+ GlobalNamespace::EditAvatarViewController __declspec(property(get=__get__editAvatarViewController, put=__set__editAvatarViewController))  _editAvatarViewController;
 
-constexpr void __set__editAvatarViewController(::GlobalNamespace::EditAvatarViewController value) ;
+constexpr void __set__editAvatarViewController(GlobalNamespace::EditAvatarViewController value) ;
 
-constexpr ::GlobalNamespace::EditAvatarViewController __get__editAvatarViewController() const;
+constexpr GlobalNamespace::EditAvatarViewController __get__editAvatarViewController() const;
 
- ::GlobalNamespace::IAnalyticsModel __declspec(property(get=__get__analyticsModel, put=__set__analyticsModel))  _analyticsModel;
+ GlobalNamespace::IAnalyticsModel __declspec(property(get=__get__analyticsModel, put=__set__analyticsModel))  _analyticsModel;
 
-constexpr void __set__analyticsModel(::GlobalNamespace::IAnalyticsModel value) ;
+constexpr void __set__analyticsModel(GlobalNamespace::IAnalyticsModel value) ;
 
-constexpr ::GlobalNamespace::IAnalyticsModel __get__analyticsModel() const;
+constexpr GlobalNamespace::IAnalyticsModel __get__analyticsModel() const;
 
- ::GlobalNamespace::AvatarDataModel __declspec(property(get=__get__avatarDataModel, put=__set__avatarDataModel))  _avatarDataModel;
+ GlobalNamespace::AvatarDataModel __declspec(property(get=__get__avatarDataModel, put=__set__avatarDataModel))  _avatarDataModel;
 
-constexpr void __set__avatarDataModel(::GlobalNamespace::AvatarDataModel value) ;
+constexpr void __set__avatarDataModel(GlobalNamespace::AvatarDataModel value) ;
 
-constexpr ::GlobalNamespace::AvatarDataModel __get__avatarDataModel() const;
+constexpr GlobalNamespace::AvatarDataModel __get__avatarDataModel() const;
 
- ::GlobalNamespace::____GlobalNamespace__EditAvatarFlowCoordinator__EditAvatarType __declspec(property(get=__get__lastEditAvatarType, put=__set__lastEditAvatarType))  _lastEditAvatarType;
+ GlobalNamespace::GlobalNamespace__EditAvatarFlowCoordinator__EditAvatarType __declspec(property(get=__get__lastEditAvatarType, put=__set__lastEditAvatarType))  _lastEditAvatarType;
 
-constexpr void __set__lastEditAvatarType(::GlobalNamespace::____GlobalNamespace__EditAvatarFlowCoordinator__EditAvatarType value) ;
+constexpr void __set__lastEditAvatarType(GlobalNamespace::GlobalNamespace__EditAvatarFlowCoordinator__EditAvatarType value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__EditAvatarFlowCoordinator__EditAvatarType __get__lastEditAvatarType() const;
+constexpr GlobalNamespace::GlobalNamespace__EditAvatarFlowCoordinator__EditAvatarType __get__lastEditAvatarType() const;
 
 
 // Methods
@@ -111,16 +110,16 @@ constexpr ::GlobalNamespace::____GlobalNamespace__EditAvatarFlowCoordinator__Edi
  void OnDestroy() ;
 
 /// @brief Method HandleEditAvatarFlowCoordinatorWasSetup addr 0x20b0d1c size 0xd8 virtual false final false
- void HandleEditAvatarFlowCoordinatorWasSetup(::GlobalNamespace::____GlobalNamespace__EditAvatarFlowCoordinator__EditAvatarType editAvatarType) ;
+ void HandleEditAvatarFlowCoordinatorWasSetup(GlobalNamespace::GlobalNamespace__EditAvatarFlowCoordinator__EditAvatarType editAvatarType) ;
 
 /// @brief Method HandleEditAvatarViewControllerDidFinish addr 0x20b106c size 0xf8 virtual false final false
- void HandleEditAvatarViewControllerDidFinish(::GlobalNamespace::____GlobalNamespace__EditAvatarViewController__FinishAction finishAction) ;
+ void HandleEditAvatarViewControllerDidFinish(GlobalNamespace::GlobalNamespace__EditAvatarViewController__FinishAction finishAction) ;
 
 /// @brief Method HandleEditAvatarViewControllerRandomizeAllButtonWasPressed addr 0x20b1164 size 0xd0 virtual false final false
  void HandleEditAvatarViewControllerRandomizeAllButtonWasPressed() ;
 
 /// @brief Method CreateEditAvatarEventData addr 0x20b0df4 size 0x278 virtual false final false
- ::System::Collections::Generic::Dictionary_2<::StringW,::StringW> CreateEditAvatarEventData() ;
+ System::Collections::Generic::Dictionary_2<::StringW,::StringW> CreateEditAvatarEventData() ;
 
 // Ctor Parameters []
 explicit EditAvatarAnalytics() ;
@@ -132,6 +131,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::EditAvatarAnalytics);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EditAvatarAnalytics, "", "EditAvatarAnalytics");
+NEED_NO_BOX(GlobalNamespace::EditAvatarAnalytics);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarAnalytics, "", "EditAvatarAnalytics");

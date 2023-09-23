@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -53,12 +52,11 @@ constexpr explicit SplineUtils(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 // Methods
 
 /// @brief Method Interpolate addr 0x2257574 size 0x110 virtual false final false
-static ::UnityEngine::Vector3 Interpolate(::UnityEngine::Vector3 t0, ::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 t1, float_t f) ;
+static UnityEngine::Vector3 Interpolate(UnityEngine::Vector3 t0, UnityEngine::Vector3 p0, UnityEngine::Vector3 p1, UnityEngine::Vector3 t1, float_t f) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SplineUtils);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SplineUtils, "", "SplineUtils");
+NEED_NO_BOX(GlobalNamespace::SplineUtils);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SplineUtils, "", "SplineUtils");

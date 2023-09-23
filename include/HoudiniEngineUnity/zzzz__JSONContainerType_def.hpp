@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct JSONContainerType;
@@ -67,14 +66,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Array offset 0
-static ::HoudiniEngineUnity::JSONContainerType const Array;
+static HoudiniEngineUnity::JSONContainerType const Array;
 
 /// @brief Field Object offset 0
-static ::HoudiniEngineUnity::JSONContainerType const Object;
+static HoudiniEngineUnity::JSONContainerType const Object;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::JSONContainerType, "HoudiniEngineUnity", "JSONContainerType");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSONContainerType, "HoudiniEngineUnity", "JSONContainerType");

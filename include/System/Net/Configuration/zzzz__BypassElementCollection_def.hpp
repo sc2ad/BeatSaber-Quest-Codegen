@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Configuration/zzzz__ConfigurationElementCollection_def.hpp"
-namespace {
 // Forward declare root types
 namespace System::Net::Configuration {
 class BypassElementCollection;
@@ -12,7 +11,7 @@ namespace System::Net::Configuration {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16076))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8416))
 // CS Name: System.Net.Configuration.BypassElementCollection
-class CORDL_TYPE BypassElementCollection : public ::System::Configuration::ConfigurationElementCollection {
+class CORDL_TYPE BypassElementCollection : public System::Configuration::ConfigurationElementCollection {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr BypassElementCollection(BypassElementCollection const& ) noexcept = de
 constexpr BypassElementCollection(BypassElementCollection&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BypassElementCollection(void* ptr) noexcept : ::System::Configuration::ConfigurationElementCollection(ptr) {
+constexpr explicit BypassElementCollection(void* ptr) noexcept : System::Configuration::ConfigurationElementCollection(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Configuration
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Configuration::BypassElementCollection);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Configuration::BypassElementCollection, "System.Net.Configuration", "BypassElementCollection");
+NEED_NO_BOX(System::Net::Configuration::BypassElementCollection);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::BypassElementCollection, "System.Net.Configuration", "BypassElementCollection");

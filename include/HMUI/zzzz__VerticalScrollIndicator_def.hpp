@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 class RectTransform;
 }
@@ -19,7 +18,7 @@ namespace HMUI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13726))
 // CS Name: HMUI.VerticalScrollIndicator
-class CORDL_TYPE VerticalScrollIndicator : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE VerticalScrollIndicator : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr VerticalScrollIndicator(VerticalScrollIndicator const& ) noexcept = de
 constexpr VerticalScrollIndicator(VerticalScrollIndicator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit VerticalScrollIndicator(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit VerticalScrollIndicator(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -55,23 +54,23 @@ constexpr explicit VerticalScrollIndicator(void* ptr) noexcept : ::UnityEngine::
 
 // Fields
 
- ::UnityEngine::RectTransform __declspec(property(get=__get__handle, put=__set__handle))  _handle;
+ UnityEngine::RectTransform __declspec(property(get=__get__handle, put=__set__handle))  _handle;
 
-constexpr void __set__handle(::UnityEngine::RectTransform value) ;
+constexpr void __set__handle(UnityEngine::RectTransform value) ;
 
-constexpr ::UnityEngine::RectTransform __get__handle() const;
+constexpr UnityEngine::RectTransform __get__handle() const;
 
- ::UnityEngine::AnimationClip __declspec(property(get=__get__normalAnimationClip, put=__set__normalAnimationClip))  _normalAnimationClip;
+ UnityEngine::AnimationClip __declspec(property(get=__get__normalAnimationClip, put=__set__normalAnimationClip))  _normalAnimationClip;
 
-constexpr void __set__normalAnimationClip(::UnityEngine::AnimationClip value) ;
+constexpr void __set__normalAnimationClip(UnityEngine::AnimationClip value) ;
 
-constexpr ::UnityEngine::AnimationClip __get__normalAnimationClip() const;
+constexpr UnityEngine::AnimationClip __get__normalAnimationClip() const;
 
- ::UnityEngine::AnimationClip __declspec(property(get=__get__disabledAnimationClip, put=__set__disabledAnimationClip))  _disabledAnimationClip;
+ UnityEngine::AnimationClip __declspec(property(get=__get__disabledAnimationClip, put=__set__disabledAnimationClip))  _disabledAnimationClip;
 
-constexpr void __set__disabledAnimationClip(::UnityEngine::AnimationClip value) ;
+constexpr void __set__disabledAnimationClip(UnityEngine::AnimationClip value) ;
 
-constexpr ::UnityEngine::AnimationClip __get__disabledAnimationClip() const;
+constexpr UnityEngine::AnimationClip __get__disabledAnimationClip() const;
 
  float_t __declspec(property(get=__get__padding, put=__set__padding))  _padding;
 
@@ -134,6 +133,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HMUI
-} // end anonymous namespace
-NEED_NO_BOX(::HMUI::VerticalScrollIndicator);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::VerticalScrollIndicator, "HMUI", "VerticalScrollIndicator");
+NEED_NO_BOX(HMUI::VerticalScrollIndicator);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::VerticalScrollIndicator, "HMUI", "VerticalScrollIndicator");

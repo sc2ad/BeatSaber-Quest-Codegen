@@ -4,19 +4,21 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace IgnoranceCore {
-struct IgnoranceIncomingPacket;
+namespace System::Threading {
+class Thread;
 }
 namespace IgnoranceThirdparty {
 template<typename T>
 class RingBuffer_1;
 }
 namespace IgnoranceCore {
-struct IgnoranceCommandPacket;
+struct IgnoranceIncomingPacket;
 }
 namespace IgnoranceCore {
 struct IgnoranceOutgoingPacket;
+}
+namespace IgnoranceCore {
+struct IgnoranceCommandPacket;
 }
 namespace IgnoranceCore {
 struct IgnoranceConnectionEvent;
@@ -24,15 +26,12 @@ struct IgnoranceConnectionEvent;
 namespace IgnoranceCore {
 struct IgnoranceClientStats;
 }
-namespace System::Threading {
-class Thread;
-}
 // Forward declare root types
 namespace IgnoranceCore {
 class IgnoranceClient;
 }
 namespace IgnoranceCore {
-struct ____IgnoranceCore__IgnoranceClient__ThreadParamInfo;
+struct IgnoranceCore__IgnoranceClient__ThreadParamInfo;
 }
 // Type: ::ThreadParamInfo
 namespace IgnoranceCore {
@@ -40,20 +39,20 @@ namespace IgnoranceCore {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15278))
 // CS Name: IgnoranceCore.IgnoranceClient::ThreadParamInfo
-struct CORDL_TYPE ____IgnoranceCore__IgnoranceClient__ThreadParamInfo : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE IgnoranceCore__IgnoranceClient__ThreadParamInfo : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "Channels", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "PollTime", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Port", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "PacketSizeLimit", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Verbosity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Address", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "UseSsl", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "ValidateCertificate", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "RootCertificatePath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "RootCertificate", ty: "::StringW", modifiers: "", def_value: None }]
-constexpr ____IgnoranceCore__IgnoranceClient__ThreadParamInfo(int32_t Channels, int32_t PollTime, int32_t Port, int32_t PacketSizeLimit, int32_t Verbosity, ::StringW Address, bool UseSsl, bool ValidateCertificate, ::StringW RootCertificatePath, ::StringW RootCertificate) noexcept;
+constexpr IgnoranceCore__IgnoranceClient__ThreadParamInfo(int32_t Channels, int32_t PollTime, int32_t Port, int32_t PacketSizeLimit, int32_t Verbosity, ::StringW Address, bool UseSsl, bool ValidateCertificate, ::StringW RootCertificatePath, ::StringW RootCertificate) noexcept;
 
 
-                    constexpr ____IgnoranceCore__IgnoranceClient__ThreadParamInfo(____IgnoranceCore__IgnoranceClient__ThreadParamInfo const&) = default;
-                    constexpr ____IgnoranceCore__IgnoranceClient__ThreadParamInfo(____IgnoranceCore__IgnoranceClient__ThreadParamInfo&&) = default;
-                    constexpr ____IgnoranceCore__IgnoranceClient__ThreadParamInfo& operator=(____IgnoranceCore__IgnoranceClient__ThreadParamInfo const& o) {
+                    constexpr IgnoranceCore__IgnoranceClient__ThreadParamInfo(IgnoranceCore__IgnoranceClient__ThreadParamInfo const&) = default;
+                    constexpr IgnoranceCore__IgnoranceClient__ThreadParamInfo(IgnoranceCore__IgnoranceClient__ThreadParamInfo&&) = default;
+                    constexpr IgnoranceCore__IgnoranceClient__ThreadParamInfo& operator=(IgnoranceCore__IgnoranceClient__ThreadParamInfo const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____IgnoranceCore__IgnoranceClient__ThreadParamInfo& operator=(____IgnoranceCore__IgnoranceClient__ThreadParamInfo&& o) noexcept {
+                    constexpr IgnoranceCore__IgnoranceClient__ThreadParamInfo& operator=(IgnoranceCore__IgnoranceClient__ThreadParamInfo&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -66,7 +65,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x38};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____IgnoranceCore__IgnoranceClient__ThreadParamInfo(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit IgnoranceCore__IgnoranceClient__ThreadParamInfo(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -150,7 +149,7 @@ namespace IgnoranceCore {
 class CORDL_TYPE IgnoranceClient : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using ThreadParamInfo = ::IgnoranceCore::____IgnoranceCore__IgnoranceClient__ThreadParamInfo;
+using ThreadParamInfo = IgnoranceCore::IgnoranceCore__IgnoranceClient__ThreadParamInfo;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x88};
@@ -257,41 +256,41 @@ constexpr void __set_RootCertificate(::StringW value) ;
 
 constexpr ::StringW __get_RootCertificate() const;
 
- ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceIncomingPacket> __declspec(property(get=__get_Incoming, put=__set_Incoming))  Incoming;
+ IgnoranceThirdparty::RingBuffer_1<IgnoranceCore::IgnoranceIncomingPacket> __declspec(property(get=__get_Incoming, put=__set_Incoming))  Incoming;
 
-constexpr void __set_Incoming(::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceIncomingPacket> value) ;
+constexpr void __set_Incoming(IgnoranceThirdparty::RingBuffer_1<IgnoranceCore::IgnoranceIncomingPacket> value) ;
 
-constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceIncomingPacket> __get_Incoming() const;
+constexpr IgnoranceThirdparty::RingBuffer_1<IgnoranceCore::IgnoranceIncomingPacket> __get_Incoming() const;
 
- ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceOutgoingPacket> __declspec(property(get=__get_Outgoing, put=__set_Outgoing))  Outgoing;
+ IgnoranceThirdparty::RingBuffer_1<IgnoranceCore::IgnoranceOutgoingPacket> __declspec(property(get=__get_Outgoing, put=__set_Outgoing))  Outgoing;
 
-constexpr void __set_Outgoing(::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceOutgoingPacket> value) ;
+constexpr void __set_Outgoing(IgnoranceThirdparty::RingBuffer_1<IgnoranceCore::IgnoranceOutgoingPacket> value) ;
 
-constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceOutgoingPacket> __get_Outgoing() const;
+constexpr IgnoranceThirdparty::RingBuffer_1<IgnoranceCore::IgnoranceOutgoingPacket> __get_Outgoing() const;
 
- ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceCommandPacket> __declspec(property(get=__get_Commands, put=__set_Commands))  Commands;
+ IgnoranceThirdparty::RingBuffer_1<IgnoranceCore::IgnoranceCommandPacket> __declspec(property(get=__get_Commands, put=__set_Commands))  Commands;
 
-constexpr void __set_Commands(::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceCommandPacket> value) ;
+constexpr void __set_Commands(IgnoranceThirdparty::RingBuffer_1<IgnoranceCore::IgnoranceCommandPacket> value) ;
 
-constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceCommandPacket> __get_Commands() const;
+constexpr IgnoranceThirdparty::RingBuffer_1<IgnoranceCore::IgnoranceCommandPacket> __get_Commands() const;
 
- ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent> __declspec(property(get=__get_ConnectionEvents, put=__set_ConnectionEvents))  ConnectionEvents;
+ IgnoranceThirdparty::RingBuffer_1<IgnoranceCore::IgnoranceConnectionEvent> __declspec(property(get=__get_ConnectionEvents, put=__set_ConnectionEvents))  ConnectionEvents;
 
-constexpr void __set_ConnectionEvents(::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent> value) ;
+constexpr void __set_ConnectionEvents(IgnoranceThirdparty::RingBuffer_1<IgnoranceCore::IgnoranceConnectionEvent> value) ;
 
-constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent> __get_ConnectionEvents() const;
+constexpr IgnoranceThirdparty::RingBuffer_1<IgnoranceCore::IgnoranceConnectionEvent> __get_ConnectionEvents() const;
 
- ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent> __declspec(property(get=__get_DisconnectionEvents, put=__set_DisconnectionEvents))  DisconnectionEvents;
+ IgnoranceThirdparty::RingBuffer_1<IgnoranceCore::IgnoranceConnectionEvent> __declspec(property(get=__get_DisconnectionEvents, put=__set_DisconnectionEvents))  DisconnectionEvents;
 
-constexpr void __set_DisconnectionEvents(::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent> value) ;
+constexpr void __set_DisconnectionEvents(IgnoranceThirdparty::RingBuffer_1<IgnoranceCore::IgnoranceConnectionEvent> value) ;
 
-constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent> __get_DisconnectionEvents() const;
+constexpr IgnoranceThirdparty::RingBuffer_1<IgnoranceCore::IgnoranceConnectionEvent> __get_DisconnectionEvents() const;
 
- ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceClientStats> __declspec(property(get=__get_StatusUpdates, put=__set_StatusUpdates))  StatusUpdates;
+ IgnoranceThirdparty::RingBuffer_1<IgnoranceCore::IgnoranceClientStats> __declspec(property(get=__get_StatusUpdates, put=__set_StatusUpdates))  StatusUpdates;
 
-constexpr void __set_StatusUpdates(::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceClientStats> value) ;
+constexpr void __set_StatusUpdates(IgnoranceThirdparty::RingBuffer_1<IgnoranceCore::IgnoranceClientStats> value) ;
 
-constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceClientStats> __get_StatusUpdates() const;
+constexpr IgnoranceThirdparty::RingBuffer_1<IgnoranceCore::IgnoranceClientStats> __get_StatusUpdates() const;
 
  bool __declspec(property(get=__get_CeaseOperation, put=__set_CeaseOperation))  CeaseOperation;
 
@@ -299,11 +298,11 @@ constexpr void __set_CeaseOperation(bool value) ;
 
 constexpr bool __get_CeaseOperation() const;
 
- ::System::Threading::Thread __declspec(property(get=__get_WorkerThread, put=__set_WorkerThread))  WorkerThread;
+ System::Threading::Thread __declspec(property(get=__get_WorkerThread, put=__set_WorkerThread))  WorkerThread;
 
-constexpr void __set_WorkerThread(::System::Threading::Thread value) ;
+constexpr void __set_WorkerThread(System::Threading::Thread value) ;
 
-constexpr ::System::Threading::Thread __get_WorkerThread() const;
+constexpr System::Threading::Thread __get_WorkerThread() const;
 
 
 // Properties
@@ -338,7 +337,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def IgnoranceCore
-} // end anonymous namespace
-NEED_NO_BOX(::IgnoranceCore::IgnoranceClient);
-DEFINE_IL2CPP_ARG_TYPE(::IgnoranceCore::IgnoranceClient, "IgnoranceCore", "IgnoranceClient");
-DEFINE_IL2CPP_ARG_TYPE(::IgnoranceCore::____IgnoranceCore__IgnoranceClient__ThreadParamInfo, "IgnoranceCore", "IgnoranceClient/ThreadParamInfo");
+NEED_NO_BOX(IgnoranceCore::IgnoranceClient);
+DEFINE_IL2CPP_ARG_TYPE(IgnoranceCore::IgnoranceClient, "IgnoranceCore", "IgnoranceClient");
+DEFINE_IL2CPP_ARG_TYPE(IgnoranceCore::IgnoranceCore__IgnoranceClient__ThreadParamInfo, "IgnoranceCore", "IgnoranceClient/ThreadParamInfo");

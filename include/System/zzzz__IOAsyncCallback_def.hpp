@@ -3,7 +3,6 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class IOAsyncResult;
 }
@@ -17,7 +16,7 @@ namespace System {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7745))
 // CS Name: System.IOAsyncCallback
-class CORDL_TYPE IOAsyncCallback : public ::System::MulticastDelegate {
+class CORDL_TYPE IOAsyncCallback : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr IOAsyncCallback(IOAsyncCallback const& ) noexcept = default;
 constexpr IOAsyncCallback(IOAsyncCallback&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit IOAsyncCallback(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit IOAsyncCallback(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -60,12 +59,11 @@ explicit IOAsyncCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals:
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x27bbb7c size 0x14 virtual true final false
- void Invoke(::System::IOAsyncResult ioares) ;
+ void Invoke(System::IOAsyncResult ioares) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::IOAsyncCallback);
-DEFINE_IL2CPP_ARG_TYPE(::System::IOAsyncCallback, "System", "IOAsyncCallback");
+NEED_NO_BOX(System::IOAsyncCallback);
+DEFINE_IL2CPP_ARG_TYPE(System::IOAsyncCallback, "System", "IOAsyncCallback");

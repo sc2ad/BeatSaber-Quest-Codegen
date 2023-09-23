@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class IStreamCipher;
 }
@@ -24,8 +23,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
 class CORDL_TYPE HC128Engine : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IStreamCipher
-constexpr operator  ::Org::BouncyCastle::Crypto::IStreamCipher() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IStreamCipher
+constexpr operator  Org::BouncyCastle::Crypto::IStreamCipher() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x50};
@@ -159,7 +158,7 @@ static uint32_t Dim(uint32_t x, uint32_t y) ;
  ::StringW get_AlgorithmName() ;
 
 /// @brief Method Init addr 0xe46564 size 0x1d4 virtual true final false
- void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method GetByte addr 0xe46738 size 0x60 virtual false final false
  uint8_t GetByte() ;
@@ -183,6 +182,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Engines
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::HC128Engine);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Engines::HC128Engine, "Org.BouncyCastle.Crypto.Engines", "HC128Engine");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Engines::HC128Engine);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::HC128Engine, "Org.BouncyCastle.Crypto.Engines", "HC128Engine");

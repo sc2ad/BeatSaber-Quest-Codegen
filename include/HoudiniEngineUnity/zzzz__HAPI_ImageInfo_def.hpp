@@ -3,7 +3,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace HoudiniEngineUnity {
 struct HAPI_ImagePacking;
 }
@@ -23,8 +22,8 @@ namespace HoudiniEngineUnity {
 struct CORDL_TYPE HAPI_ImageInfo : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "imageFileFormatNameSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "xRes", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "yRes", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "dataFormat", ty: "::HoudiniEngineUnity::HAPI_ImageDataFormat", modifiers: "", def_value: None }, CppParam { name: "interleaved", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "packing", ty: "::HoudiniEngineUnity::HAPI_ImagePacking", modifiers: "", def_value: None }, CppParam { name: "gamma", ty: "double_t", modifiers: "", def_value: None }]
-constexpr HAPI_ImageInfo(int32_t imageFileFormatNameSH, int32_t xRes, int32_t yRes, ::HoudiniEngineUnity::HAPI_ImageDataFormat dataFormat, bool interleaved, ::HoudiniEngineUnity::HAPI_ImagePacking packing, double_t gamma) noexcept;
+// Ctor Parameters [CppParam { name: "imageFileFormatNameSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "xRes", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "yRes", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "dataFormat", ty: "HoudiniEngineUnity::HAPI_ImageDataFormat", modifiers: "", def_value: None }, CppParam { name: "interleaved", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "packing", ty: "HoudiniEngineUnity::HAPI_ImagePacking", modifiers: "", def_value: None }, CppParam { name: "gamma", ty: "double_t", modifiers: "", def_value: None }]
+constexpr HAPI_ImageInfo(int32_t imageFileFormatNameSH, int32_t xRes, int32_t yRes, HoudiniEngineUnity::HAPI_ImageDataFormat dataFormat, bool interleaved, HoudiniEngineUnity::HAPI_ImagePacking packing, double_t gamma) noexcept;
 
 
                     constexpr HAPI_ImageInfo(HAPI_ImageInfo const&) = default;
@@ -75,11 +74,11 @@ constexpr void __set_yRes(int32_t value) ;
 
 constexpr int32_t __get_yRes() const;
 
- ::HoudiniEngineUnity::HAPI_ImageDataFormat __declspec(property(get=__get_dataFormat, put=__set_dataFormat))  dataFormat;
+ HoudiniEngineUnity::HAPI_ImageDataFormat __declspec(property(get=__get_dataFormat, put=__set_dataFormat))  dataFormat;
 
-constexpr void __set_dataFormat(::HoudiniEngineUnity::HAPI_ImageDataFormat value) ;
+constexpr void __set_dataFormat(HoudiniEngineUnity::HAPI_ImageDataFormat value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_ImageDataFormat __get_dataFormat() const;
+constexpr HoudiniEngineUnity::HAPI_ImageDataFormat __get_dataFormat() const;
 
  bool __declspec(property(get=__get_interleaved, put=__set_interleaved))  interleaved;
 
@@ -87,11 +86,11 @@ constexpr void __set_interleaved(bool value) ;
 
 constexpr bool __get_interleaved() const;
 
- ::HoudiniEngineUnity::HAPI_ImagePacking __declspec(property(get=__get_packing, put=__set_packing))  packing;
+ HoudiniEngineUnity::HAPI_ImagePacking __declspec(property(get=__get_packing, put=__set_packing))  packing;
 
-constexpr void __set_packing(::HoudiniEngineUnity::HAPI_ImagePacking value) ;
+constexpr void __set_packing(HoudiniEngineUnity::HAPI_ImagePacking value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_ImagePacking __get_packing() const;
+constexpr HoudiniEngineUnity::HAPI_ImagePacking __get_packing() const;
 
  double_t __declspec(property(get=__get_gamma, put=__set_gamma))  gamma;
 
@@ -103,5 +102,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_ImageInfo, "HoudiniEngineUnity", "HAPI_ImageInfo");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_ImageInfo, "HoudiniEngineUnity", "HAPI_ImageInfo");

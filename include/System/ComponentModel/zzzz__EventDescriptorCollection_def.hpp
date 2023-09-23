@@ -4,34 +4,33 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections {
 class IComparer;
 }
 namespace System::Collections {
 class ICollection;
 }
+namespace System {
+class Array;
+}
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections {
-class IList;
+class IEnumerator;
 }
 namespace System::ComponentModel {
 class EventDescriptor;
 }
 namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-class Array;
+class IList;
 }
 // Forward declare root types
 namespace System::ComponentModel {
 class EventDescriptorCollection;
 }
 namespace System::ComponentModel {
-class ____System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator;
+class System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator;
 }
 // Type: ::ArraySubsetEnumerator
 namespace System::ComponentModel {
@@ -39,50 +38,50 @@ namespace System::ComponentModel {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8275))
 // CS Name: System.ComponentModel.EventDescriptorCollection::ArraySubsetEnumerator
-class CORDL_TYPE ____System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator() = default;
+virtual ~System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator", modifiers: " const&", def_value: None }]
-constexpr ____System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator(____System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator", modifiers: " const&", def_value: None }]
+constexpr System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator(System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator", modifiers: "&&", def_value: None }]
-constexpr ____System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator(____System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator", modifiers: "&&", def_value: None }]
+constexpr System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator(System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator& operator=(std::nullptr_t) noexcept {
+  constexpr System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator& operator=(void* o) noexcept {
+  constexpr System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator& operator=(____System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator&& o) noexcept = default;
-  constexpr ____System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator& operator=(____System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator const& o) noexcept = default;
+  constexpr System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator& operator=(System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator&& o) noexcept = default;
+  constexpr System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator& operator=(System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Array __declspec(property(get=__get__array, put=__set__array))  _array;
+ System::Array __declspec(property(get=__get__array, put=__set__array))  _array;
 
-constexpr void __set__array(::System::Array value) ;
+constexpr void __set__array(System::Array value) ;
 
-constexpr ::System::Array __get__array() const;
+constexpr System::Array __get__array() const;
 
  int32_t __declspec(property(get=__get__total, put=__set__total))  _total;
 
@@ -104,11 +103,11 @@ constexpr int32_t __get__current() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "array", ty: "::System::Array", modifiers: "", def_value: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator(::System::Array array, int32_t count) ;
+// Ctor Parameters [CppParam { name: "array", ty: "System::Array", modifiers: "", def_value: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }]
+explicit System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator(System::Array array, int32_t count) ;
 
 /// @brief Method .ctor addr 0x277d078 size 0x34 virtual false final false
- void _ctor(::System::Array array, int32_t count) ;
+ void _ctor(System::Array array, int32_t count) ;
 
 /// @brief Method MoveNext addr 0x277d5fc size 0x28 virtual true final true
  bool MoveNext() ;
@@ -132,16 +131,16 @@ namespace System::ComponentModel {
 class CORDL_TYPE EventDescriptorCollection : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using ArraySubsetEnumerator = ::System::ComponentModel::____System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator;
+using ArraySubsetEnumerator = System::ComponentModel::System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator;
 
-/// @brief Convert operator to ::System::Collections::ICollection
-constexpr operator  ::System::Collections::ICollection() const noexcept;
+/// @brief Convert operator to System::Collections::ICollection
+constexpr operator  System::Collections::ICollection() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IList
-constexpr operator  ::System::Collections::IList() const noexcept;
+/// @brief Convert operator to System::Collections::IList
+constexpr operator  System::Collections::IList() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -176,11 +175,11 @@ constexpr explicit EventDescriptorCollection(void* ptr) noexcept : ::bs_hook::Il
 
 // Fields
 
- ::ArrayW<::System::ComponentModel::EventDescriptor> __declspec(property(get=__get__events, put=__set__events))  _events;
+ ::ArrayW<System::ComponentModel::EventDescriptor> __declspec(property(get=__get__events, put=__set__events))  _events;
 
-constexpr void __set__events(::ArrayW<::System::ComponentModel::EventDescriptor> value) ;
+constexpr void __set__events(::ArrayW<System::ComponentModel::EventDescriptor> value) ;
 
-constexpr ::ArrayW<::System::ComponentModel::EventDescriptor> __get__events() const;
+constexpr ::ArrayW<System::ComponentModel::EventDescriptor> __get__events() const;
 
  ::ArrayW<::StringW> __declspec(property(get=__get__namedSort, put=__set__namedSort))  _namedSort;
 
@@ -188,11 +187,11 @@ constexpr void __set__namedSort(::ArrayW<::StringW> value) ;
 
 constexpr ::ArrayW<::StringW> __get__namedSort() const;
 
- ::System::Collections::IComparer __declspec(property(get=__get__comparer, put=__set__comparer))  _comparer;
+ System::Collections::IComparer __declspec(property(get=__get__comparer, put=__set__comparer))  _comparer;
 
-constexpr void __set__comparer(::System::Collections::IComparer value) ;
+constexpr void __set__comparer(System::Collections::IComparer value) ;
 
-constexpr ::System::Collections::IComparer __get__comparer() const;
+constexpr System::Collections::IComparer __get__comparer() const;
 
  bool __declspec(property(get=__get__eventsOwned, put=__set__eventsOwned))  _eventsOwned;
 
@@ -212,11 +211,11 @@ constexpr void __set__readOnly(bool value) ;
 
 constexpr bool __get__readOnly() const;
 
-static ::System::ComponentModel::EventDescriptorCollection __declspec(property(get=__get_Empty, put=__set_Empty))  Empty;
+static System::ComponentModel::EventDescriptorCollection __declspec(property(get=__get_Empty, put=__set_Empty))  Empty;
 
-static void __set_Empty(::System::ComponentModel::EventDescriptorCollection value) ;
+static void __set_Empty(System::ComponentModel::EventDescriptorCollection value) ;
 
-static ::System::ComponentModel::EventDescriptorCollection __get_Empty() ;
+static System::ComponentModel::EventDescriptorCollection __get_Empty() ;
 
  int32_t __declspec(property(get=__get__Count_k__BackingField, put=__set__Count_k__BackingField))  _Count_k__BackingField;
 
@@ -229,9 +228,9 @@ constexpr int32_t __get__Count_k__BackingField() const;
 
  int32_t __declspec(property(get=get_Count, put=set_Count))  Count;
 
- ::System::ComponentModel::EventDescriptor __declspec(property(get=get_Item))  Item;
+ System::ComponentModel::EventDescriptor __declspec(property(get=get_Item))  Item;
 
- ::System::ComponentModel::EventDescriptor __declspec(property(get=get_Item))  Item;
+ System::ComponentModel::EventDescriptor __declspec(property(get=get_Item))  Item;
 
  bool __declspec(property(get=System_Collections_ICollection_get_IsSynchronized))  System_Collections_ICollection_IsSynchronized;
 
@@ -248,17 +247,17 @@ constexpr int32_t __get__Count_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "events", ty: "::ArrayW<::System::ComponentModel::EventDescriptor>", modifiers: "", def_value: None }]
-explicit EventDescriptorCollection(::ArrayW<::System::ComponentModel::EventDescriptor> events) ;
+// Ctor Parameters [CppParam { name: "events", ty: "::ArrayW<System::ComponentModel::EventDescriptor>", modifiers: "", def_value: None }]
+explicit EventDescriptorCollection(::ArrayW<System::ComponentModel::EventDescriptor> events) ;
 
 /// @brief Method .ctor addr 0x277c554 size 0xb0 virtual false final false
- void _ctor(::ArrayW<::System::ComponentModel::EventDescriptor> events) ;
+ void _ctor(::ArrayW<System::ComponentModel::EventDescriptor> events) ;
 
-// Ctor Parameters [CppParam { name: "events", ty: "::ArrayW<::System::ComponentModel::EventDescriptor>", modifiers: "", def_value: None }, CppParam { name: "readOnly", ty: "bool", modifiers: "", def_value: None }]
-explicit EventDescriptorCollection(::ArrayW<::System::ComponentModel::EventDescriptor> events, bool readOnly) ;
+// Ctor Parameters [CppParam { name: "events", ty: "::ArrayW<System::ComponentModel::EventDescriptor>", modifiers: "", def_value: None }, CppParam { name: "readOnly", ty: "bool", modifiers: "", def_value: None }]
+explicit EventDescriptorCollection(::ArrayW<System::ComponentModel::EventDescriptor> events, bool readOnly) ;
 
 /// @brief Method .ctor addr 0x277c604 size 0x24 virtual false final false
- void _ctor(::ArrayW<::System::ComponentModel::EventDescriptor> events, bool readOnly) ;
+ void _ctor(::ArrayW<System::ComponentModel::EventDescriptor> events, bool readOnly) ;
 
 /// @brief Method get_Count addr 0x277c628 size 0x8 virtual false final false
  int32_t get_Count() ;
@@ -267,22 +266,22 @@ explicit EventDescriptorCollection(::ArrayW<::System::ComponentModel::EventDescr
  void set_Count(int32_t value) ;
 
 /// @brief Method get_Item addr 0x277c638 size 0x8c virtual true final false
- ::System::ComponentModel::EventDescriptor get_Item(int32_t index) ;
+ System::ComponentModel::EventDescriptor get_Item(int32_t index) ;
 
 /// @brief Method get_Item addr 0x277c770 size 0x14 virtual true final false
- ::System::ComponentModel::EventDescriptor get_Item(::StringW name) ;
+ System::ComponentModel::EventDescriptor get_Item(::StringW name) ;
 
 /// @brief Method Add addr 0x277c784 size 0xd0 virtual false final false
- int32_t Add(::System::ComponentModel::EventDescriptor value) ;
+ int32_t Add(System::ComponentModel::EventDescriptor value) ;
 
 /// @brief Method Clear addr 0x277c954 size 0x54 virtual false final false
  void Clear() ;
 
 /// @brief Method Contains addr 0x277c9a8 size 0x18 virtual false final false
- bool Contains(::System::ComponentModel::EventDescriptor value) ;
+ bool Contains(System::ComponentModel::EventDescriptor value) ;
 
 /// @brief Method System.Collections.ICollection.CopyTo addr 0x277ca20 size 0x3c virtual true final true
- void System_Collections_ICollection_CopyTo(::System::Array array, int32_t index) ;
+ void System_Collections_ICollection_CopyTo(System::Array array, int32_t index) ;
 
 /// @brief Method EnsureEventsOwned addr 0x277c6c4 size 0xac virtual false final false
  void EnsureEventsOwned() ;
@@ -291,28 +290,28 @@ explicit EventDescriptorCollection(::ArrayW<::System::ComponentModel::EventDescr
  void EnsureSize(int32_t sizeNeeded) ;
 
 /// @brief Method Find addr 0x277ccb8 size 0x114 virtual true final false
- ::System::ComponentModel::EventDescriptor Find(::StringW name, bool ignoreCase) ;
+ System::ComponentModel::EventDescriptor Find(::StringW name, bool ignoreCase) ;
 
 /// @brief Method IndexOf addr 0x277c9c0 size 0x60 virtual false final false
- int32_t IndexOf(::System::ComponentModel::EventDescriptor value) ;
+ int32_t IndexOf(System::ComponentModel::EventDescriptor value) ;
 
 /// @brief Method Insert addr 0x277cdcc size 0xf0 virtual false final false
- void Insert(int32_t index, ::System::ComponentModel::EventDescriptor value) ;
+ void Insert(int32_t index, System::ComponentModel::EventDescriptor value) ;
 
 /// @brief Method Remove addr 0x277cebc size 0x70 virtual false final false
- void Remove(::System::ComponentModel::EventDescriptor value) ;
+ void Remove(System::ComponentModel::EventDescriptor value) ;
 
 /// @brief Method RemoveAt addr 0x277cf2c size 0xb4 virtual false final false
  void RemoveAt(int32_t index) ;
 
 /// @brief Method GetEnumerator addr 0x277cfe0 size 0x98 virtual false final false
- ::System::Collections::IEnumerator GetEnumerator() ;
+ System::Collections::IEnumerator GetEnumerator() ;
 
 /// @brief Method InternalSort addr 0x277ca5c size 0x25c virtual false final false
  void InternalSort(::ArrayW<::StringW> names) ;
 
 /// @brief Method InternalSort addr 0x277d0ac size 0x78 virtual false final false
- void InternalSort(::System::Collections::IComparer sorter) ;
+ void InternalSort(System::Collections::IComparer sorter) ;
 
 /// @brief Method System.Collections.ICollection.get_IsSynchronized addr 0x277d124 size 0x8 virtual true final true
  bool System_Collections_ICollection_get_IsSynchronized() ;
@@ -324,7 +323,7 @@ explicit EventDescriptorCollection(::ArrayW<::System::ComponentModel::EventDescr
  int32_t System_Collections_ICollection_get_Count() ;
 
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x277d13c size 0x4 virtual true final true
- ::System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
+ System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
 /// @brief Method System.Collections.IList.get_Item addr 0x277d140 size 0x10 virtual true final true
  ::bs_hook::Il2CppWrapperType System_Collections_IList_get_Item(int32_t index) ;
@@ -363,8 +362,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::EventDescriptorCollection);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::EventDescriptorCollection, "System.ComponentModel", "EventDescriptorCollection");
-NEED_NO_BOX(::System::ComponentModel::____System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::____System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator, "System.ComponentModel", "EventDescriptorCollection/ArraySubsetEnumerator");
+NEED_NO_BOX(System::ComponentModel::EventDescriptorCollection);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::EventDescriptorCollection, "System.ComponentModel", "EventDescriptorCollection");
+NEED_NO_BOX(System::ComponentModel::System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator, "System.ComponentModel", "EventDescriptorCollection/ArraySubsetEnumerator");

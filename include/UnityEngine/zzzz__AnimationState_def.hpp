@@ -3,7 +3,6 @@
 #include "UnityEngine/zzzz__TrackedReference_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 class AnimationState;
@@ -14,7 +13,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10150))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15037))
 // CS Name: UnityEngine.AnimationState
-class CORDL_TYPE AnimationState : public ::UnityEngine::TrackedReference {
+class CORDL_TYPE AnimationState : public UnityEngine::TrackedReference {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr AnimationState(AnimationState const& ) noexcept = default;
 constexpr AnimationState(AnimationState&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AnimationState(void* ptr) noexcept : ::UnityEngine::TrackedReference(ptr) {
+constexpr explicit AnimationState(void* ptr) noexcept : UnityEngine::TrackedReference(ptr) {
 }
 
 
@@ -83,6 +82,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AnimationState);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AnimationState, "UnityEngine", "AnimationState");
+NEED_NO_BOX(UnityEngine::AnimationState);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimationState, "UnityEngine", "AnimationState");

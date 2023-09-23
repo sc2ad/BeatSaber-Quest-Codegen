@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-class Type;
-}
 namespace System::Globalization {
 class NumberFormatInfo;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -21,7 +20,7 @@ namespace System::ComponentModel {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8258))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8313))
 // CS Name: System.ComponentModel.UInt16Converter
-class CORDL_TYPE UInt16Converter : public ::System::ComponentModel::BaseNumberConverter {
+class CORDL_TYPE UInt16Converter : public System::ComponentModel::BaseNumberConverter {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr UInt16Converter(UInt16Converter const& ) noexcept = default;
 constexpr UInt16Converter(UInt16Converter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UInt16Converter(void* ptr) noexcept : ::System::ComponentModel::BaseNumberConverter(ptr) {
+constexpr explicit UInt16Converter(void* ptr) noexcept : System::ComponentModel::BaseNumberConverter(ptr) {
 }
 
 
@@ -57,22 +56,22 @@ constexpr explicit UInt16Converter(void* ptr) noexcept : ::System::ComponentMode
 
 // Properties
 
- ::System::Type __declspec(property(get=get_TargetType))  TargetType;
+ System::Type __declspec(property(get=get_TargetType))  TargetType;
 
 
 // Methods
 
 /// @brief Method get_TargetType addr 0x27869c4 size 0x6c virtual true final false
- ::System::Type get_TargetType() ;
+ System::Type get_TargetType() ;
 
 /// @brief Method FromString addr 0x2786a30 size 0x94 virtual true final false
  ::bs_hook::Il2CppWrapperType FromString(::StringW value, int32_t radix) ;
 
 /// @brief Method FromString addr 0x2786ac4 size 0x74 virtual true final false
- ::bs_hook::Il2CppWrapperType FromString(::StringW value, ::System::Globalization::NumberFormatInfo formatInfo) ;
+ ::bs_hook::Il2CppWrapperType FromString(::StringW value, System::Globalization::NumberFormatInfo formatInfo) ;
 
 /// @brief Method ToString addr 0x2786b38 size 0xb0 virtual true final false
- ::StringW ToString(::bs_hook::Il2CppWrapperType value, ::System::Globalization::NumberFormatInfo formatInfo) ;
+ ::StringW ToString(::bs_hook::Il2CppWrapperType value, System::Globalization::NumberFormatInfo formatInfo) ;
 
 // Ctor Parameters []
 explicit UInt16Converter() ;
@@ -84,6 +83,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::UInt16Converter);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::UInt16Converter, "System.ComponentModel", "UInt16Converter");
+NEED_NO_BOX(System::ComponentModel::UInt16Converter);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::UInt16Converter, "System.ComponentModel", "UInt16Converter");

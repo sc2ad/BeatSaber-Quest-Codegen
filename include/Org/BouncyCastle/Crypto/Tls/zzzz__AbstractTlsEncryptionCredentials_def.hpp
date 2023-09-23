@@ -3,12 +3,11 @@
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsCredentials_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCredentials;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsEncryptionCredentials;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCredentials;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -20,14 +19,14 @@ namespace Org::BouncyCastle::Crypto::Tls {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1157))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1169))
 // CS Name: Org.BouncyCastle.Crypto.Tls.AbstractTlsEncryptionCredentials
-class CORDL_TYPE AbstractTlsEncryptionCredentials : public ::Org::BouncyCastle::Crypto::Tls::AbstractTlsCredentials {
+class CORDL_TYPE AbstractTlsEncryptionCredentials : public Org::BouncyCastle::Crypto::Tls::AbstractTlsCredentials {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials
-constexpr operator  ::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials
+constexpr operator  Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials() const noexcept;
 
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Tls::TlsCredentials
-constexpr operator  ::Org::BouncyCastle::Crypto::Tls::TlsCredentials() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Tls::TlsCredentials
+constexpr operator  Org::BouncyCastle::Crypto::Tls::TlsCredentials() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -41,7 +40,7 @@ constexpr AbstractTlsEncryptionCredentials(AbstractTlsEncryptionCredentials cons
 constexpr AbstractTlsEncryptionCredentials(AbstractTlsEncryptionCredentials&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AbstractTlsEncryptionCredentials(void* ptr) noexcept : ::Org::BouncyCastle::Crypto::Tls::AbstractTlsCredentials(ptr) {
+constexpr explicit AbstractTlsEncryptionCredentials(void* ptr) noexcept : Org::BouncyCastle::Crypto::Tls::AbstractTlsCredentials(ptr) {
 }
 
 
@@ -75,6 +74,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::AbstractTlsEncryptionCredentials);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::AbstractTlsEncryptionCredentials, "Org.BouncyCastle.Crypto.Tls", "AbstractTlsEncryptionCredentials");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::AbstractTlsEncryptionCredentials);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::AbstractTlsEncryptionCredentials, "Org.BouncyCastle.Crypto.Tls", "AbstractTlsEncryptionCredentials");

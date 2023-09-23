@@ -3,14 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System {
-template<typename T>
-struct Span_1;
-}
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
+}
+namespace System {
+template<typename T>
+struct Span_1;
 }
 // Forward declare root types
 namespace System::Text {
@@ -25,8 +24,8 @@ namespace System::Text {
 struct CORDL_TYPE ValueUtf8Converter : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "_arrayToReturnToPool", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "_bytes", ty: "::System::Span_1<uint8_t>", modifiers: "", def_value: None }]
-constexpr ValueUtf8Converter(::ArrayW<uint8_t> _arrayToReturnToPool, ::System::Span_1<uint8_t> _bytes) noexcept;
+// Ctor Parameters [CppParam { name: "_arrayToReturnToPool", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "_bytes", ty: "System::Span_1<uint8_t>", modifiers: "", def_value: None }]
+constexpr ValueUtf8Converter(::ArrayW<uint8_t> _arrayToReturnToPool, System::Span_1<uint8_t> _bytes) noexcept;
 
 
                     constexpr ValueUtf8Converter(ValueUtf8Converter const&) = default;
@@ -65,20 +64,20 @@ constexpr void __set__arrayToReturnToPool(::ArrayW<uint8_t> value) ;
 
 constexpr ::ArrayW<uint8_t> __get__arrayToReturnToPool() const;
 
- ::System::Span_1<uint8_t> __declspec(property(get=__get__bytes, put=__set__bytes))  _bytes;
+ System::Span_1<uint8_t> __declspec(property(get=__get__bytes, put=__set__bytes))  _bytes;
 
-constexpr void __set__bytes(::System::Span_1<uint8_t> value) ;
+constexpr void __set__bytes(System::Span_1<uint8_t> value) ;
 
-constexpr ::System::Span_1<uint8_t> __get__bytes() const;
+constexpr System::Span_1<uint8_t> __get__bytes() const;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x22dd81c size 0xc virtual false final false
- void _ctor(::System::Span_1<uint8_t> initialBuffer) ;
+ void _ctor(System::Span_1<uint8_t> initialBuffer) ;
 
 /// @brief Method ConvertAndTerminateString addr 0x22dd828 size 0x224 virtual false final false
- ::System::Span_1<uint8_t> ConvertAndTerminateString(::System::ReadOnlySpan_1<char16_t> value) ;
+ System::Span_1<uint8_t> ConvertAndTerminateString(System::ReadOnlySpan_1<char16_t> value) ;
 
 /// @brief Method Dispose addr 0x22ddaf8 size 0xf4 virtual false final false
  void Dispose() ;
@@ -87,5 +86,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Text
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::ValueUtf8Converter, "System.Text", "ValueUtf8Converter");
+DEFINE_IL2CPP_ARG_TYPE(System::Text::ValueUtf8Converter, "System.Text", "ValueUtf8Converter");

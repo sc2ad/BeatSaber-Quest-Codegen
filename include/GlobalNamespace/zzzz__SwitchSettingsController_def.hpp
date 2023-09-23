@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace UnityEngine::UI {
 class Toggle;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5691))
 // CS Name: SwitchSettingsController
-class CORDL_TYPE SwitchSettingsController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SwitchSettingsController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr SwitchSettingsController(SwitchSettingsController const& ) noexcept = 
 constexpr SwitchSettingsController(SwitchSettingsController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SwitchSettingsController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SwitchSettingsController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit SwitchSettingsController(void* ptr) noexcept : ::UnityEngine:
 
 // Fields
 
- ::UnityEngine::UI::Toggle __declspec(property(get=__get__toggle, put=__set__toggle))  _toggle;
+ UnityEngine::UI::Toggle __declspec(property(get=__get__toggle, put=__set__toggle))  _toggle;
 
-constexpr void __set__toggle(::UnityEngine::UI::Toggle value) ;
+constexpr void __set__toggle(UnityEngine::UI::Toggle value) ;
 
-constexpr ::UnityEngine::UI::Toggle __get__toggle() const;
+constexpr UnityEngine::UI::Toggle __get__toggle() const;
 
  bool __declspec(property(get=__get__on, put=__set__on))  _on;
 
@@ -97,6 +96,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SwitchSettingsController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SwitchSettingsController, "", "SwitchSettingsController");
+NEED_NO_BOX(GlobalNamespace::SwitchSettingsController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SwitchSettingsController, "", "SwitchSettingsController");

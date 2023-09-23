@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Newtonsoft::Json {
 struct Required;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Default offset 0
-static ::Newtonsoft::Json::Required const Default;
+static Newtonsoft::Json::Required const Default;
 
 /// @brief Field AllowNull offset 0
-static ::Newtonsoft::Json::Required const AllowNull;
+static Newtonsoft::Json::Required const AllowNull;
 
 /// @brief Field Always offset 0
-static ::Newtonsoft::Json::Required const Always;
+static Newtonsoft::Json::Required const Always;
 
 /// @brief Field DisallowNull offset 0
-static ::Newtonsoft::Json::Required const DisallowNull;
+static Newtonsoft::Json::Required const DisallowNull;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Required, "Newtonsoft.Json", "Required");
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Required, "Newtonsoft.Json", "Required");

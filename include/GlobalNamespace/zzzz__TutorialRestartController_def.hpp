@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class ILevelRestartController;
 }
@@ -18,11 +17,11 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5184))
 // CS Name: TutorialRestartController
-class CORDL_TYPE TutorialRestartController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE TutorialRestartController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::ILevelRestartController
-constexpr operator  ::GlobalNamespace::ILevelRestartController() const noexcept;
+/// @brief Convert operator to GlobalNamespace::ILevelRestartController
+constexpr operator  GlobalNamespace::ILevelRestartController() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -36,7 +35,7 @@ constexpr TutorialRestartController(TutorialRestartController const& ) noexcept 
 constexpr TutorialRestartController(TutorialRestartController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TutorialRestartController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit TutorialRestartController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -57,11 +56,11 @@ constexpr explicit TutorialRestartController(void* ptr) noexcept : ::UnityEngine
 
 // Fields
 
- ::GlobalNamespace::TutorialScenesTransitionSetupDataSO __declspec(property(get=__get__tutorialSceneSetupData, put=__set__tutorialSceneSetupData))  _tutorialSceneSetupData;
+ GlobalNamespace::TutorialScenesTransitionSetupDataSO __declspec(property(get=__get__tutorialSceneSetupData, put=__set__tutorialSceneSetupData))  _tutorialSceneSetupData;
 
-constexpr void __set__tutorialSceneSetupData(::GlobalNamespace::TutorialScenesTransitionSetupDataSO value) ;
+constexpr void __set__tutorialSceneSetupData(GlobalNamespace::TutorialScenesTransitionSetupDataSO value) ;
 
-constexpr ::GlobalNamespace::TutorialScenesTransitionSetupDataSO __get__tutorialSceneSetupData() const;
+constexpr GlobalNamespace::TutorialScenesTransitionSetupDataSO __get__tutorialSceneSetupData() const;
 
 
 // Methods
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::TutorialRestartController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TutorialRestartController, "", "TutorialRestartController");
+NEED_NO_BOX(GlobalNamespace::TutorialRestartController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialRestartController, "", "TutorialRestartController");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform {
 struct LaunchType;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::Oculus::Platform::LaunchType const Unknown;
+static Oculus::Platform::LaunchType const Unknown;
 
 /// @brief Field Normal offset 0
-static ::Oculus::Platform::LaunchType const Normal;
+static Oculus::Platform::LaunchType const Normal;
 
 /// @brief Field Invite offset 0
-static ::Oculus::Platform::LaunchType const Invite;
+static Oculus::Platform::LaunchType const Invite;
 
 /// @brief Field Coordinated offset 0
-static ::Oculus::Platform::LaunchType const Coordinated;
+static Oculus::Platform::LaunchType const Coordinated;
 
 /// @brief Field Deeplink offset 0
-static ::Oculus::Platform::LaunchType const Deeplink;
+static Oculus::Platform::LaunchType const Deeplink;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::LaunchType, "Oculus.Platform", "LaunchType");
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::LaunchType, "Oculus.Platform", "LaunchType");

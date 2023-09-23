@@ -2,9 +2,8 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
-struct ____GlobalNamespace__GameplayModifiers__EnergyType;
+struct GlobalNamespace__GameplayModifiers__EnergyType;
 }
 namespace System {
 class Action;
@@ -43,7 +42,7 @@ constexpr explicit IGameEnergyCounter(void* ptr) noexcept : ::cordl_internals::I
 
  int32_t __declspec(property(get=get_batteryLives))  batteryLives;
 
- ::GlobalNamespace::____GlobalNamespace__GameplayModifiers__EnergyType __declspec(property(get=get_energyType))  energyType;
+ GlobalNamespace::GlobalNamespace__GameplayModifiers__EnergyType __declspec(property(get=get_energyType))  energyType;
 
  bool __declspec(property(get=get_noFail))  noFail;
 
@@ -55,22 +54,22 @@ constexpr explicit IGameEnergyCounter(void* ptr) noexcept : ::cordl_internals::I
 // Methods
 
 /// @brief Method add_didInitEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void add_didInitEvent(::System::Action value) ;
+ void add_didInitEvent(System::Action value) ;
 
 /// @brief Method remove_didInitEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void remove_didInitEvent(::System::Action value) ;
+ void remove_didInitEvent(System::Action value) ;
 
 /// @brief Method add_gameEnergyDidReach0Event addr 0x0 size 0xffffffffffffffff virtual true final false
- void add_gameEnergyDidReach0Event(::System::Action value) ;
+ void add_gameEnergyDidReach0Event(System::Action value) ;
 
 /// @brief Method remove_gameEnergyDidReach0Event addr 0x0 size 0xffffffffffffffff virtual true final false
- void remove_gameEnergyDidReach0Event(::System::Action value) ;
+ void remove_gameEnergyDidReach0Event(System::Action value) ;
 
 /// @brief Method add_gameEnergyDidChangeEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void add_gameEnergyDidChangeEvent(::System::Action_1<float_t> value) ;
+ void add_gameEnergyDidChangeEvent(System::Action_1<float_t> value) ;
 
 /// @brief Method remove_gameEnergyDidChangeEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void remove_gameEnergyDidChangeEvent(::System::Action_1<float_t> value) ;
+ void remove_gameEnergyDidChangeEvent(System::Action_1<float_t> value) ;
 
 /// @brief Method get_isInitialized addr 0x0 size 0xffffffffffffffff virtual true final false
  bool get_isInitialized() ;
@@ -85,7 +84,7 @@ constexpr explicit IGameEnergyCounter(void* ptr) noexcept : ::cordl_internals::I
  int32_t get_batteryLives() ;
 
 /// @brief Method get_energyType addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::____GlobalNamespace__GameplayModifiers__EnergyType get_energyType() ;
+ GlobalNamespace::GlobalNamespace__GameplayModifiers__EnergyType get_energyType() ;
 
 /// @brief Method get_noFail addr 0x0 size 0xffffffffffffffff virtual true final false
  bool get_noFail() ;
@@ -100,6 +99,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IGameEnergyCounter);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IGameEnergyCounter, "", "IGameEnergyCounter");
+NEED_NO_BOX(GlobalNamespace::IGameEnergyCounter);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IGameEnergyCounter, "", "IGameEnergyCounter");

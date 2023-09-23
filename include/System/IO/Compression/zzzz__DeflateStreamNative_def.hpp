@@ -6,28 +6,27 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Runtime::InteropServices {
-struct GCHandle;
-}
 namespace System {
 class Exception;
 }
-namespace System::IO {
-class Stream;
-}
 namespace System::IO::Compression {
 struct CompressionMode;
+}
+namespace System::Runtime::InteropServices {
+struct GCHandle;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace System::IO::Compression {
 class DeflateStreamNative;
 }
 namespace System::IO::Compression {
-class ____System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle;
+class System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle;
 }
 namespace System::IO::Compression {
-class ____System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite;
+class System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite;
 }
 // Type: ::UnmanagedReadOrWrite
 namespace System::IO::Compression {
@@ -35,44 +34,44 @@ namespace System::IO::Compression {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8401))
 // CS Name: System.IO.Compression.DeflateStreamNative::UnmanagedReadOrWrite
-class CORDL_TYPE ____System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite : public ::System::MulticastDelegate {
+class CORDL_TYPE System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x80};
 
-virtual ~____System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite() = default;
+virtual ~System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite", modifiers: " const&", def_value: None }]
-constexpr ____System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite(____System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite", modifiers: " const&", def_value: None }]
+constexpr System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite(System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite", modifiers: "&&", def_value: None }]
-constexpr ____System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite(____System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite", modifiers: "&&", def_value: None }]
+constexpr System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite(System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
-  constexpr ____System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite& operator=(std::nullptr_t) noexcept {
+  constexpr System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite& operator=(void* o) noexcept {
+  constexpr System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite& operator=(____System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite&& o) noexcept = default;
-  constexpr ____System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite& operator=(____System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite const& o) noexcept = default;
+  constexpr System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite& operator=(System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite&& o) noexcept = default;
+  constexpr System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite& operator=(System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit ____System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+explicit System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x27b18c4 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -90,37 +89,37 @@ namespace System::IO::Compression {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3328))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8402))
 // CS Name: System.IO.Compression.DeflateStreamNative::SafeDeflateStreamHandle
-class CORDL_TYPE ____System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle : public ::System::Runtime::InteropServices::SafeHandle {
+class CORDL_TYPE System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle : public System::Runtime::InteropServices::SafeHandle {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle() = default;
+virtual ~System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle", modifiers: " const&", def_value: None }]
-constexpr ____System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle(____System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle", modifiers: " const&", def_value: None }]
+constexpr System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle(System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle", modifiers: "&&", def_value: None }]
-constexpr ____System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle(____System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle", modifiers: "&&", def_value: None }]
+constexpr System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle(System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle(void* ptr) noexcept : ::System::Runtime::InteropServices::SafeHandle(ptr) {
+constexpr explicit System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle(void* ptr) noexcept : System::Runtime::InteropServices::SafeHandle(ptr) {
 }
 
 
-  constexpr ____System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle& operator=(std::nullptr_t) noexcept {
+  constexpr System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle& operator=(void* o) noexcept {
+  constexpr System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle& operator=(____System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle&& o) noexcept = default;
-  constexpr ____System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle& operator=(____System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle const& o) noexcept = default;
+  constexpr System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle& operator=(System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle&& o) noexcept = default;
+  constexpr System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle& operator=(System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle const& o) noexcept = default;
                 
 
 
@@ -135,7 +134,7 @@ constexpr explicit ____System__IO__Compression__DeflateStreamNative__SafeDeflate
  bool get_IsInvalid() ;
 
 // Ctor Parameters []
-explicit ____System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle() ;
+explicit System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle() ;
 
 /// @brief Method .ctor addr 0x27b20c0 size 0x58 virtual false final false
  void _ctor() ;
@@ -156,9 +155,9 @@ namespace System::IO::Compression {
 class CORDL_TYPE DeflateStreamNative : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using SafeDeflateStreamHandle = ::System::IO::Compression::____System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle;
+using SafeDeflateStreamHandle = System::IO::Compression::System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle;
 
-using UnmanagedReadOrWrite = ::System::IO::Compression::____System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite;
+using UnmanagedReadOrWrite = System::IO::Compression::System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
@@ -193,29 +192,29 @@ constexpr explicit DeflateStreamNative(void* ptr) noexcept : ::bs_hook::Il2CppWr
 
 // Fields
 
- ::System::IO::Compression::____System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite __declspec(property(get=__get_feeder, put=__set_feeder))  feeder;
+ System::IO::Compression::System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite __declspec(property(get=__get_feeder, put=__set_feeder))  feeder;
 
-constexpr void __set_feeder(::System::IO::Compression::____System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite value) ;
+constexpr void __set_feeder(System::IO::Compression::System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite value) ;
 
-constexpr ::System::IO::Compression::____System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite __get_feeder() const;
+constexpr System::IO::Compression::System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite __get_feeder() const;
 
- ::System::IO::Stream __declspec(property(get=__get_base_stream, put=__set_base_stream))  base_stream;
+ System::IO::Stream __declspec(property(get=__get_base_stream, put=__set_base_stream))  base_stream;
 
-constexpr void __set_base_stream(::System::IO::Stream value) ;
+constexpr void __set_base_stream(System::IO::Stream value) ;
 
-constexpr ::System::IO::Stream __get_base_stream() const;
+constexpr System::IO::Stream __get_base_stream() const;
 
- ::System::IO::Compression::____System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle __declspec(property(get=__get_z_stream, put=__set_z_stream))  z_stream;
+ System::IO::Compression::System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle __declspec(property(get=__get_z_stream, put=__set_z_stream))  z_stream;
 
-constexpr void __set_z_stream(::System::IO::Compression::____System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle value) ;
+constexpr void __set_z_stream(System::IO::Compression::System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle value) ;
 
-constexpr ::System::IO::Compression::____System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle __get_z_stream() const;
+constexpr System::IO::Compression::System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle __get_z_stream() const;
 
- ::System::Runtime::InteropServices::GCHandle __declspec(property(get=__get_data, put=__set_data))  data;
+ System::Runtime::InteropServices::GCHandle __declspec(property(get=__get_data, put=__set_data))  data;
 
-constexpr void __set_data(::System::Runtime::InteropServices::GCHandle value) ;
+constexpr void __set_data(System::Runtime::InteropServices::GCHandle value) ;
 
-constexpr ::System::Runtime::InteropServices::GCHandle __get_data() const;
+constexpr System::Runtime::InteropServices::GCHandle __get_data() const;
 
  bool __declspec(property(get=__get_disposed, put=__set_disposed))  disposed;
 
@@ -229,11 +228,11 @@ constexpr void __set_io_buffer(::ArrayW<uint8_t> value) ;
 
 constexpr ::ArrayW<uint8_t> __get_io_buffer() const;
 
- ::System::Exception __declspec(property(get=__get_last_error, put=__set_last_error))  last_error;
+ System::Exception __declspec(property(get=__get_last_error, put=__set_last_error))  last_error;
 
-constexpr void __set_last_error(::System::Exception value) ;
+constexpr void __set_last_error(System::Exception value) ;
 
-constexpr ::System::Exception __get_last_error() const;
+constexpr System::Exception __get_last_error() const;
 
 
 // Methods
@@ -245,7 +244,7 @@ explicit DeflateStreamNative() ;
  void _ctor() ;
 
 /// @brief Method Create addr 0x27b00a4 size 0x134 virtual false final false
-static ::System::IO::Compression::DeflateStreamNative Create(::System::IO::Stream compressedStream, ::System::IO::Compression::CompressionMode mode, bool gzip) ;
+static System::IO::Compression::DeflateStreamNative Create(System::IO::Stream compressedStream, System::IO::Compression::CompressionMode mode, bool gzip) ;
 
 /// @brief Method Finalize addr 0x27b1a20 size 0x98 virtual true final false
  void Finalize() ;
@@ -278,28 +277,27 @@ static int32_t UnmanagedWrite(::cordl_internals::intptr_t buffer, int32_t length
  void CheckResult(int32_t result, ::StringW where) ;
 
 /// @brief Method CreateZStream addr 0x27b1988 size 0x98 virtual false final false
-static ::System::IO::Compression::____System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle CreateZStream(::System::IO::Compression::CompressionMode compress, bool gzip, ::System::IO::Compression::____System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite feeder, ::cordl_internals::intptr_t data) ;
+static System::IO::Compression::System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle CreateZStream(System::IO::Compression::CompressionMode compress, bool gzip, System::IO::Compression::System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite feeder, ::cordl_internals::intptr_t data) ;
 
 /// @brief Method CloseZStream addr 0x27b2118 size 0x4 virtual false final false
 static int32_t CloseZStream(::cordl_internals::intptr_t stream) ;
 
 /// @brief Method Flush addr 0x27b1ab8 size 0x64 virtual false final false
-static int32_t Flush(::System::IO::Compression::____System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle stream) ;
+static int32_t Flush(System::IO::Compression::System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle stream) ;
 
 /// @brief Method ReadZStream addr 0x27b1c50 size 0x7c virtual false final false
-static int32_t ReadZStream(::System::IO::Compression::____System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle stream, ::cordl_internals::intptr_t buffer, int32_t length) ;
+static int32_t ReadZStream(System::IO::Compression::System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle stream, ::cordl_internals::intptr_t buffer, int32_t length) ;
 
 /// @brief Method WriteZStream addr 0x27b1ccc size 0x7c virtual false final false
-static int32_t WriteZStream(::System::IO::Compression::____System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle stream, ::cordl_internals::intptr_t buffer, int32_t length) ;
+static int32_t WriteZStream(System::IO::Compression::System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle stream, ::cordl_internals::intptr_t buffer, int32_t length) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::IO::Compression
-} // end anonymous namespace
-NEED_NO_BOX(::System::IO::Compression::DeflateStreamNative);
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::Compression::DeflateStreamNative, "System.IO.Compression", "DeflateStreamNative");
-NEED_NO_BOX(::System::IO::Compression::____System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle);
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::Compression::____System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle, "System.IO.Compression", "DeflateStreamNative/SafeDeflateStreamHandle");
-NEED_NO_BOX(::System::IO::Compression::____System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite);
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::Compression::____System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite, "System.IO.Compression", "DeflateStreamNative/UnmanagedReadOrWrite");
+NEED_NO_BOX(System::IO::Compression::DeflateStreamNative);
+DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::DeflateStreamNative, "System.IO.Compression", "DeflateStreamNative");
+NEED_NO_BOX(System::IO::Compression::System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle);
+DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle, "System.IO.Compression", "DeflateStreamNative/SafeDeflateStreamHandle");
+NEED_NO_BOX(System::IO::Compression::System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite);
+DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite, "System.IO.Compression", "DeflateStreamNative/UnmanagedReadOrWrite");

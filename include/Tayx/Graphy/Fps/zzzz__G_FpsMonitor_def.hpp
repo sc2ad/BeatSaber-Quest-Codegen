@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 class Comparison_1;
@@ -15,7 +14,7 @@ namespace Tayx::Graphy::Fps {
 class G_FpsMonitor;
 }
 namespace Tayx::Graphy::Fps {
-class ____Tayx__Graphy__Fps__G_FpsMonitor____c;
+class Tayx__Graphy__Fps__G_FpsMonitor____c;
 }
 // Type: ::<>c
 namespace Tayx::Graphy::Fps {
@@ -23,59 +22,59 @@ namespace Tayx::Graphy::Fps {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15205))
 // CS Name: Tayx.Graphy.Fps.G_FpsMonitor::<>c
-class CORDL_TYPE ____Tayx__Graphy__Fps__G_FpsMonitor____c : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Tayx__Graphy__Fps__G_FpsMonitor____c : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____Tayx__Graphy__Fps__G_FpsMonitor____c() = default;
+virtual ~Tayx__Graphy__Fps__G_FpsMonitor____c() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Tayx__Graphy__Fps__G_FpsMonitor____c", modifiers: " const&", def_value: None }]
-constexpr ____Tayx__Graphy__Fps__G_FpsMonitor____c(____Tayx__Graphy__Fps__G_FpsMonitor____c const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Tayx__Graphy__Fps__G_FpsMonitor____c", modifiers: " const&", def_value: None }]
+constexpr Tayx__Graphy__Fps__G_FpsMonitor____c(Tayx__Graphy__Fps__G_FpsMonitor____c const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Tayx__Graphy__Fps__G_FpsMonitor____c", modifiers: "&&", def_value: None }]
-constexpr ____Tayx__Graphy__Fps__G_FpsMonitor____c(____Tayx__Graphy__Fps__G_FpsMonitor____c&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Tayx__Graphy__Fps__G_FpsMonitor____c", modifiers: "&&", def_value: None }]
+constexpr Tayx__Graphy__Fps__G_FpsMonitor____c(Tayx__Graphy__Fps__G_FpsMonitor____c&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Tayx__Graphy__Fps__G_FpsMonitor____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Tayx__Graphy__Fps__G_FpsMonitor____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Tayx__Graphy__Fps__G_FpsMonitor____c& operator=(std::nullptr_t) noexcept {
+  constexpr Tayx__Graphy__Fps__G_FpsMonitor____c& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Tayx__Graphy__Fps__G_FpsMonitor____c& operator=(void* o) noexcept {
+  constexpr Tayx__Graphy__Fps__G_FpsMonitor____c& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Tayx__Graphy__Fps__G_FpsMonitor____c& operator=(____Tayx__Graphy__Fps__G_FpsMonitor____c&& o) noexcept = default;
-  constexpr ____Tayx__Graphy__Fps__G_FpsMonitor____c& operator=(____Tayx__Graphy__Fps__G_FpsMonitor____c const& o) noexcept = default;
+  constexpr Tayx__Graphy__Fps__G_FpsMonitor____c& operator=(Tayx__Graphy__Fps__G_FpsMonitor____c&& o) noexcept = default;
+  constexpr Tayx__Graphy__Fps__G_FpsMonitor____c& operator=(Tayx__Graphy__Fps__G_FpsMonitor____c const& o) noexcept = default;
                 
 
 
 // Fields
 
-static ::Tayx::Graphy::Fps::____Tayx__Graphy__Fps__G_FpsMonitor____c __declspec(property(get=__get___9, put=__set___9))  __9;
+static Tayx::Graphy::Fps::Tayx__Graphy__Fps__G_FpsMonitor____c __declspec(property(get=__get___9, put=__set___9))  __9;
 
-static void __set___9(::Tayx::Graphy::Fps::____Tayx__Graphy__Fps__G_FpsMonitor____c value) ;
+static void __set___9(Tayx::Graphy::Fps::Tayx__Graphy__Fps__G_FpsMonitor____c value) ;
 
-static ::Tayx::Graphy::Fps::____Tayx__Graphy__Fps__G_FpsMonitor____c __get___9() ;
+static Tayx::Graphy::Fps::Tayx__Graphy__Fps__G_FpsMonitor____c __get___9() ;
 
-static ::System::Comparison_1<int16_t> __declspec(property(get=__get___9__25_0, put=__set___9__25_0))  __9__25_0;
+static System::Comparison_1<int16_t> __declspec(property(get=__get___9__25_0, put=__set___9__25_0))  __9__25_0;
 
-static void __set___9__25_0(::System::Comparison_1<int16_t> value) ;
+static void __set___9__25_0(System::Comparison_1<int16_t> value) ;
 
-static ::System::Comparison_1<int16_t> __get___9__25_0() ;
+static System::Comparison_1<int16_t> __get___9__25_0() ;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____Tayx__Graphy__Fps__G_FpsMonitor____c() ;
+explicit Tayx__Graphy__Fps__G_FpsMonitor____c() ;
 
 /// @brief Method .ctor addr 0x28762a4 size 0x8 virtual false final false
  void _ctor() ;
@@ -93,10 +92,10 @@ namespace Tayx::Graphy::Fps {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15206))
 // CS Name: Tayx.Graphy.Fps.G_FpsMonitor
-class CORDL_TYPE G_FpsMonitor : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE G_FpsMonitor : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using __c = ::Tayx::Graphy::Fps::____Tayx__Graphy__Fps__G_FpsMonitor____c;
+using __c = Tayx::Graphy::Fps::Tayx__Graphy__Fps__G_FpsMonitor____c;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -110,7 +109,7 @@ constexpr G_FpsMonitor(G_FpsMonitor const& ) noexcept = default;
 constexpr G_FpsMonitor(G_FpsMonitor&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit G_FpsMonitor(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit G_FpsMonitor(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -263,8 +262,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Tayx::Graphy::Fps
-} // end anonymous namespace
-NEED_NO_BOX(::Tayx::Graphy::Fps::G_FpsMonitor);
-DEFINE_IL2CPP_ARG_TYPE(::Tayx::Graphy::Fps::G_FpsMonitor, "Tayx.Graphy.Fps", "G_FpsMonitor");
-NEED_NO_BOX(::Tayx::Graphy::Fps::____Tayx__Graphy__Fps__G_FpsMonitor____c);
-DEFINE_IL2CPP_ARG_TYPE(::Tayx::Graphy::Fps::____Tayx__Graphy__Fps__G_FpsMonitor____c, "Tayx.Graphy.Fps", "G_FpsMonitor/<>c");
+NEED_NO_BOX(Tayx::Graphy::Fps::G_FpsMonitor);
+DEFINE_IL2CPP_ARG_TYPE(Tayx::Graphy::Fps::G_FpsMonitor, "Tayx.Graphy.Fps", "G_FpsMonitor");
+NEED_NO_BOX(Tayx::Graphy::Fps::Tayx__Graphy__Fps__G_FpsMonitor____c);
+DEFINE_IL2CPP_ARG_TYPE(Tayx::Graphy::Fps::Tayx__Graphy__Fps__G_FpsMonitor____c, "Tayx.Graphy.Fps", "G_FpsMonitor/<>c");

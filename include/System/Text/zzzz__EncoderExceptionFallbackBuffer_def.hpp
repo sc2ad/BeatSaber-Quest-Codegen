@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/Text/zzzz__EncoderFallbackBuffer_def.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Text {
 class EncoderExceptionFallbackBuffer;
@@ -13,7 +12,7 @@ namespace System::Text {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2841))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2838))
 // CS Name: System.Text.EncoderExceptionFallbackBuffer
-class CORDL_TYPE EncoderExceptionFallbackBuffer : public ::System::Text::EncoderFallbackBuffer {
+class CORDL_TYPE EncoderExceptionFallbackBuffer : public System::Text::EncoderFallbackBuffer {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr EncoderExceptionFallbackBuffer(EncoderExceptionFallbackBuffer const& )
 constexpr EncoderExceptionFallbackBuffer(EncoderExceptionFallbackBuffer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EncoderExceptionFallbackBuffer(void* ptr) noexcept : ::System::Text::EncoderFallbackBuffer(ptr) {
+constexpr explicit EncoderExceptionFallbackBuffer(void* ptr) noexcept : System::Text::EncoderFallbackBuffer(ptr) {
 }
 
 
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Text
-} // end anonymous namespace
-NEED_NO_BOX(::System::Text::EncoderExceptionFallbackBuffer);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::EncoderExceptionFallbackBuffer, "System.Text", "EncoderExceptionFallbackBuffer");
+NEED_NO_BOX(System::Text::EncoderExceptionFallbackBuffer);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::EncoderExceptionFallbackBuffer, "System.Text", "EncoderExceptionFallbackBuffer");

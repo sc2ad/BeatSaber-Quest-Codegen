@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Collections {
-class IList;
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::Bcpg {
 class Crc24;
 }
-namespace System::IO {
-class Stream;
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -24,7 +23,7 @@ namespace Org::BouncyCastle::Bcpg {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(498))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(550))
 // CS Name: Org.BouncyCastle.Bcpg.ArmoredInputStream
-class CORDL_TYPE ArmoredInputStream : public ::Org::BouncyCastle::Utilities::IO::BaseInputStream {
+class CORDL_TYPE ArmoredInputStream : public Org::BouncyCastle::Utilities::IO::BaseInputStream {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr ArmoredInputStream(ArmoredInputStream const& ) noexcept = default;
 constexpr ArmoredInputStream(ArmoredInputStream&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ArmoredInputStream(void* ptr) noexcept : ::Org::BouncyCastle::Utilities::IO::BaseInputStream(ptr) {
+constexpr explicit ArmoredInputStream(void* ptr) noexcept : Org::BouncyCastle::Utilities::IO::BaseInputStream(ptr) {
 }
 
 
@@ -66,11 +65,11 @@ static void __set_decodingTable(::ArrayW<uint8_t> value) ;
 
 static ::ArrayW<uint8_t> __get_decodingTable() ;
 
- ::System::IO::Stream __declspec(property(get=__get_input, put=__set_input))  input;
+ System::IO::Stream __declspec(property(get=__get_input, put=__set_input))  input;
 
-constexpr void __set_input(::System::IO::Stream value) ;
+constexpr void __set_input(System::IO::Stream value) ;
 
-constexpr ::System::IO::Stream __get_input() const;
+constexpr System::IO::Stream __get_input() const;
 
  bool __declspec(property(get=__get_start, put=__set_start))  start;
 
@@ -90,11 +89,11 @@ constexpr void __set_bufPtr(int32_t value) ;
 
 constexpr int32_t __get_bufPtr() const;
 
- ::Org::BouncyCastle::Bcpg::Crc24 __declspec(property(get=__get_crc, put=__set_crc))  crc;
+ Org::BouncyCastle::Bcpg::Crc24 __declspec(property(get=__get_crc, put=__set_crc))  crc;
 
-constexpr void __set_crc(::Org::BouncyCastle::Bcpg::Crc24 value) ;
+constexpr void __set_crc(Org::BouncyCastle::Bcpg::Crc24 value) ;
 
-constexpr ::Org::BouncyCastle::Bcpg::Crc24 __get_crc() const;
+constexpr Org::BouncyCastle::Bcpg::Crc24 __get_crc() const;
 
  bool __declspec(property(get=__get_crcFound, put=__set_crcFound))  crcFound;
 
@@ -132,11 +131,11 @@ constexpr void __set_restart(bool value) ;
 
 constexpr bool __get_restart() const;
 
- ::System::Collections::IList __declspec(property(get=__get_headerList, put=__set_headerList))  headerList;
+ System::Collections::IList __declspec(property(get=__get_headerList, put=__set_headerList))  headerList;
 
-constexpr void __set_headerList(::System::Collections::IList value) ;
+constexpr void __set_headerList(System::Collections::IList value) ;
 
-constexpr ::System::Collections::IList __get_headerList() const;
+constexpr System::Collections::IList __get_headerList() const;
 
  int32_t __declspec(property(get=__get_lastC, put=__set_lastC))  lastC;
 
@@ -156,17 +155,17 @@ constexpr bool __get_isEndOfStream() const;
 /// @brief Method Decode addr 0x113f2d8 size 0x208 virtual false final false
  int32_t Decode(int32_t in0, int32_t in1, int32_t in2, int32_t in3, ::ArrayW<int32_t> result) ;
 
-// Ctor Parameters [CppParam { name: "input", ty: "::System::IO::Stream", modifiers: "", def_value: None }]
-explicit ArmoredInputStream(::System::IO::Stream input) ;
+// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }]
+explicit ArmoredInputStream(System::IO::Stream input) ;
 
 /// @brief Method .ctor addr 0x113f4e0 size 0x8 virtual false final false
- void _ctor(::System::IO::Stream input) ;
+ void _ctor(System::IO::Stream input) ;
 
-// Ctor Parameters [CppParam { name: "input", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "hasHeaders", ty: "bool", modifiers: "", def_value: None }]
-explicit ArmoredInputStream(::System::IO::Stream input, bool hasHeaders) ;
+// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "hasHeaders", ty: "bool", modifiers: "", def_value: None }]
+explicit ArmoredInputStream(System::IO::Stream input, bool hasHeaders) ;
 
 /// @brief Method .ctor addr 0x113f4e8 size 0x124 virtual false final false
- void _ctor(::System::IO::Stream input, bool hasHeaders) ;
+ void _ctor(System::IO::Stream input, bool hasHeaders) ;
 
 /// @brief Method ParseHeaders addr 0x113f620 size 0x434 virtual false final false
  bool ParseHeaders() ;
@@ -211,6 +210,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::ArmoredInputStream);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::ArmoredInputStream, "Org.BouncyCastle.Bcpg", "ArmoredInputStream");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::ArmoredInputStream);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::ArmoredInputStream, "Org.BouncyCastle.Bcpg", "ArmoredInputStream");

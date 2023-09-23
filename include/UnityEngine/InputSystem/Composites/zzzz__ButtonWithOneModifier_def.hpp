@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine::InputSystem {
 struct InputBindingCompositeContext;
 }
@@ -15,10 +14,10 @@ class ButtonWithOneModifier;
 // Type: UnityEngine.InputSystem.Composites::ButtonWithOneModifier
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6273), inst: 374 }), TypeDefinitionIndex(TypeDefinitionIndex(6273))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6273)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6273), inst: 374 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6798))
 // CS Name: UnityEngine.InputSystem.Composites.ButtonWithOneModifier
-class CORDL_TYPE ButtonWithOneModifier : public ::UnityEngine::InputSystem::InputBindingComposite_1<float_t> {
+class CORDL_TYPE ButtonWithOneModifier : public UnityEngine::InputSystem::InputBindingComposite_1<float_t> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr ButtonWithOneModifier(ButtonWithOneModifier const& ) noexcept = defaul
 constexpr ButtonWithOneModifier(ButtonWithOneModifier&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ButtonWithOneModifier(void* ptr) noexcept : ::UnityEngine::InputSystem::InputBindingComposite_1<float_t>(ptr) {
+constexpr explicit ButtonWithOneModifier(void* ptr) noexcept : UnityEngine::InputSystem::InputBindingComposite_1<float_t>(ptr) {
 }
 
 
@@ -76,16 +75,16 @@ constexpr bool __get_overrideModifiersNeedToBePressedFirst() const;
 // Methods
 
 /// @brief Method ReadValue addr 0x28c8320 size 0x70 virtual true final false
- float_t ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context) ;
+ float_t ReadValue(ByRef<UnityEngine::InputSystem::InputBindingCompositeContext> context) ;
 
 /// @brief Method ModifierIsPressed addr 0x28c8390 size 0x80 virtual false final false
- bool ModifierIsPressed(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context) ;
+ bool ModifierIsPressed(ByRef<UnityEngine::InputSystem::InputBindingCompositeContext> context) ;
 
 /// @brief Method EvaluateMagnitude addr 0x28c8410 size 0xc virtual true final false
- float_t EvaluateMagnitude(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context) ;
+ float_t EvaluateMagnitude(ByRef<UnityEngine::InputSystem::InputBindingCompositeContext> context) ;
 
 /// @brief Method FinishSetup addr 0x28c841c size 0x90 virtual true final false
- void FinishSetup(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context) ;
+ void FinishSetup(ByRef<UnityEngine::InputSystem::InputBindingCompositeContext> context) ;
 
 // Ctor Parameters []
 explicit ButtonWithOneModifier() ;
@@ -97,6 +96,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Composites
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Composites::ButtonWithOneModifier);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Composites::ButtonWithOneModifier, "UnityEngine.InputSystem.Composites", "ButtonWithOneModifier");
+NEED_NO_BOX(UnityEngine::InputSystem::Composites::ButtonWithOneModifier);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Composites::ButtonWithOneModifier, "UnityEngine.InputSystem.Composites", "ButtonWithOneModifier");

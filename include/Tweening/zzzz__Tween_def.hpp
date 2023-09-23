@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
-namespace GlobalNamespace {
-struct EaseType;
-}
 namespace System {
 class Action;
+}
+namespace GlobalNamespace {
+struct EaseType;
 }
 // Forward declare root types
 namespace Tweening {
@@ -55,23 +54,23 @@ constexpr explicit Tween(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr)
 
 // Fields
 
- ::System::Action __declspec(property(get=__get_onStart, put=__set_onStart))  onStart;
+ System::Action __declspec(property(get=__get_onStart, put=__set_onStart))  onStart;
 
-constexpr void __set_onStart(::System::Action value) ;
+constexpr void __set_onStart(System::Action value) ;
 
-constexpr ::System::Action __get_onStart() const;
+constexpr System::Action __get_onStart() const;
 
- ::System::Action __declspec(property(get=__get_onCompleted, put=__set_onCompleted))  onCompleted;
+ System::Action __declspec(property(get=__get_onCompleted, put=__set_onCompleted))  onCompleted;
 
-constexpr void __set_onCompleted(::System::Action value) ;
+constexpr void __set_onCompleted(System::Action value) ;
 
-constexpr ::System::Action __get_onCompleted() const;
+constexpr System::Action __get_onCompleted() const;
 
- ::System::Action __declspec(property(get=__get_onKilled, put=__set_onKilled))  onKilled;
+ System::Action __declspec(property(get=__get_onKilled, put=__set_onKilled))  onKilled;
 
-constexpr void __set_onKilled(::System::Action value) ;
+constexpr void __set_onKilled(System::Action value) ;
 
-constexpr ::System::Action __get_onKilled() const;
+constexpr System::Action __get_onKilled() const;
 
  float_t __declspec(property(get=__get__progress, put=__set__progress))  _progress;
 
@@ -115,11 +114,11 @@ constexpr void __set__isKilled(bool value) ;
 
 constexpr bool __get__isKilled() const;
 
- ::GlobalNamespace::EaseType __declspec(property(get=__get__easeType, put=__set__easeType))  _easeType;
+ GlobalNamespace::EaseType __declspec(property(get=__get__easeType, put=__set__easeType))  _easeType;
 
-constexpr void __set__easeType(::GlobalNamespace::EaseType value) ;
+constexpr void __set__easeType(GlobalNamespace::EaseType value) ;
 
-constexpr ::GlobalNamespace::EaseType __get__easeType() const;
+constexpr GlobalNamespace::EaseType __get__easeType() const;
 
 /// @brief Field kEpsilon offset 0
 static constexpr float_t  kEpsilon{0.001};
@@ -145,7 +144,7 @@ static constexpr float_t  kEpsilon{0.001};
 
  float_t __declspec(property(get=get_delay, put=set_delay))  delay;
 
- ::GlobalNamespace::EaseType __declspec(property(get=get_easeType, put=set_easeType))  easeType;
+ GlobalNamespace::EaseType __declspec(property(get=get_easeType, put=set_easeType))  easeType;
 
 
 // Methods
@@ -187,10 +186,10 @@ static constexpr float_t  kEpsilon{0.001};
  void set_delay(float_t value) ;
 
 /// @brief Method get_easeType addr 0x287aa54 size 0x8 virtual false final false
- ::GlobalNamespace::EaseType get_easeType() ;
+ GlobalNamespace::EaseType get_easeType() ;
 
 /// @brief Method set_easeType addr 0x287aa5c size 0x8 virtual false final false
- void set_easeType(::GlobalNamespace::EaseType value) ;
+ void set_easeType(GlobalNamespace::EaseType value) ;
 
 /// @brief Method Kill addr 0x287aa64 size 0xc virtual false final false
  void Kill() ;
@@ -220,6 +219,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Tweening
-} // end anonymous namespace
-NEED_NO_BOX(::Tweening::Tween);
-DEFINE_IL2CPP_ARG_TYPE(::Tweening::Tween, "Tweening", "Tween");
+NEED_NO_BOX(Tweening::Tween);
+DEFINE_IL2CPP_ARG_TYPE(Tweening::Tween, "Tweening", "Tween");

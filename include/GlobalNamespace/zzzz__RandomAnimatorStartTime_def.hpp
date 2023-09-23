@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace UnityEngine {
 class Animator;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13820))
 // CS Name: RandomAnimatorStartTime
-class CORDL_TYPE RandomAnimatorStartTime : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE RandomAnimatorStartTime : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr RandomAnimatorStartTime(RandomAnimatorStartTime const& ) noexcept = de
 constexpr RandomAnimatorStartTime(RandomAnimatorStartTime&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RandomAnimatorStartTime(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit RandomAnimatorStartTime(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -52,11 +51,11 @@ constexpr explicit RandomAnimatorStartTime(void* ptr) noexcept : ::UnityEngine::
 
 // Fields
 
- ::UnityEngine::Animator __declspec(property(get=__get__animator, put=__set__animator))  _animator;
+ UnityEngine::Animator __declspec(property(get=__get__animator, put=__set__animator))  _animator;
 
-constexpr void __set__animator(::UnityEngine::Animator value) ;
+constexpr void __set__animator(UnityEngine::Animator value) ;
 
-constexpr ::UnityEngine::Animator __get__animator() const;
+constexpr UnityEngine::Animator __get__animator() const;
 
  ::StringW __declspec(property(get=__get__stateName, put=__set__stateName))  _stateName;
 
@@ -80,6 +79,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::RandomAnimatorStartTime);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RandomAnimatorStartTime, "", "RandomAnimatorStartTime");
+NEED_NO_BOX(GlobalNamespace::RandomAnimatorStartTime);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RandomAnimatorStartTime, "", "RandomAnimatorStartTime");

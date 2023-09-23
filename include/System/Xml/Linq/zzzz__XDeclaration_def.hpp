@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace System::Xml::Linq {
 class XDeclaration;
@@ -85,11 +84,11 @@ explicit XDeclaration(::StringW version, ::StringW encoding, ::StringW standalon
 /// @brief Method .ctor addr 0x26cb59c size 0x3c virtual false final false
  void _ctor(::StringW version, ::StringW encoding, ::StringW standalone) ;
 
-// Ctor Parameters [CppParam { name: "other", ty: "::System::Xml::Linq::XDeclaration", modifiers: "", def_value: None }]
-explicit XDeclaration(::System::Xml::Linq::XDeclaration other) ;
+// Ctor Parameters [CppParam { name: "other", ty: "System::Xml::Linq::XDeclaration", modifiers: "", def_value: None }]
+explicit XDeclaration(System::Xml::Linq::XDeclaration other) ;
 
 /// @brief Method .ctor addr 0x26cb5d8 size 0x84 virtual false final false
- void _ctor(::System::Xml::Linq::XDeclaration other) ;
+ void _ctor(System::Xml::Linq::XDeclaration other) ;
 
 /// @brief Method get_Encoding addr 0x26cb65c size 0x8 virtual false final false
  ::StringW get_Encoding() ;
@@ -113,6 +112,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Linq
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Linq::XDeclaration);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Linq::XDeclaration, "System.Xml.Linq", "XDeclaration");
+NEED_NO_BOX(System::Xml::Linq::XDeclaration);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Linq::XDeclaration, "System.Xml.Linq", "XDeclaration");

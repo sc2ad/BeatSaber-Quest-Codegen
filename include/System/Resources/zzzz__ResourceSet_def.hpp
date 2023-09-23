@@ -2,21 +2,20 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
-class IDictionaryEnumerator;
-}
 namespace System {
 class IDisposable;
 }
 namespace System::Collections {
 class Hashtable;
+}
+namespace System::Collections {
+class IDictionaryEnumerator;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Resources {
 class IResourceReader;
@@ -34,11 +33,11 @@ namespace System::Resources {
 class CORDL_TYPE ResourceSet : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -73,23 +72,23 @@ constexpr explicit ResourceSet(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 
 // Fields
 
- ::System::Resources::IResourceReader __declspec(property(get=__get_Reader, put=__set_Reader))  Reader;
+ System::Resources::IResourceReader __declspec(property(get=__get_Reader, put=__set_Reader))  Reader;
 
-constexpr void __set_Reader(::System::Resources::IResourceReader value) ;
+constexpr void __set_Reader(System::Resources::IResourceReader value) ;
 
-constexpr ::System::Resources::IResourceReader __get_Reader() const;
+constexpr System::Resources::IResourceReader __get_Reader() const;
 
- ::System::Collections::Hashtable __declspec(property(get=__get_Table, put=__set_Table))  Table;
+ System::Collections::Hashtable __declspec(property(get=__get_Table, put=__set_Table))  Table;
 
-constexpr void __set_Table(::System::Collections::Hashtable value) ;
+constexpr void __set_Table(System::Collections::Hashtable value) ;
 
-constexpr ::System::Collections::Hashtable __get_Table() const;
+constexpr System::Collections::Hashtable __get_Table() const;
 
- ::System::Collections::Hashtable __declspec(property(get=__get__caseInsensitiveTable, put=__set__caseInsensitiveTable))  _caseInsensitiveTable;
+ System::Collections::Hashtable __declspec(property(get=__get__caseInsensitiveTable, put=__set__caseInsensitiveTable))  _caseInsensitiveTable;
 
-constexpr void __set__caseInsensitiveTable(::System::Collections::Hashtable value) ;
+constexpr void __set__caseInsensitiveTable(System::Collections::Hashtable value) ;
 
-constexpr ::System::Collections::Hashtable __get__caseInsensitiveTable() const;
+constexpr System::Collections::Hashtable __get__caseInsensitiveTable() const;
 
 
 // Methods
@@ -116,13 +115,13 @@ explicit ResourceSet(bool junk) ;
  void Dispose() ;
 
 /// @brief Method GetEnumerator addr 0x2378418 size 0x4 virtual true final false
- ::System::Collections::IDictionaryEnumerator GetEnumerator() ;
+ System::Collections::IDictionaryEnumerator GetEnumerator() ;
 
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x23784a0 size 0x4 virtual true final true
- ::System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
+ System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
 /// @brief Method GetEnumeratorHelper addr 0x237841c size 0x84 virtual false final false
- ::System::Collections::IDictionaryEnumerator GetEnumeratorHelper() ;
+ System::Collections::IDictionaryEnumerator GetEnumeratorHelper() ;
 
 /// @brief Method GetString addr 0x23784a4 size 0x168 virtual true final false
  ::StringW GetString(::StringW name) ;
@@ -146,6 +145,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Resources
-} // end anonymous namespace
-NEED_NO_BOX(::System::Resources::ResourceSet);
-DEFINE_IL2CPP_ARG_TYPE(::System::Resources::ResourceSet, "System.Resources", "ResourceSet");
+NEED_NO_BOX(System::Resources::ResourceSet);
+DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceSet, "System.Resources", "ResourceSet");

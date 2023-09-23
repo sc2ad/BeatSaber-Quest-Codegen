@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem {
 struct PlayerJoinBehavior;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field JoinPlayersWhenButtonIsPressed offset 0
-static ::UnityEngine::InputSystem::PlayerJoinBehavior const JoinPlayersWhenButtonIsPressed;
+static UnityEngine::InputSystem::PlayerJoinBehavior const JoinPlayersWhenButtonIsPressed;
 
 /// @brief Field JoinPlayersWhenJoinActionIsTriggered offset 0
-static ::UnityEngine::InputSystem::PlayerJoinBehavior const JoinPlayersWhenJoinActionIsTriggered;
+static UnityEngine::InputSystem::PlayerJoinBehavior const JoinPlayersWhenJoinActionIsTriggered;
 
 /// @brief Field JoinPlayersManually offset 0
-static ::UnityEngine::InputSystem::PlayerJoinBehavior const JoinPlayersManually;
+static UnityEngine::InputSystem::PlayerJoinBehavior const JoinPlayersManually;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::PlayerJoinBehavior, "UnityEngine.InputSystem", "PlayerJoinBehavior");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::PlayerJoinBehavior, "UnityEngine.InputSystem", "PlayerJoinBehavior");

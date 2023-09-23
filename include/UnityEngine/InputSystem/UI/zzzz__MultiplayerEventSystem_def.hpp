@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/EventSystems/zzzz__EventSystem_def.hpp"
-namespace {
 namespace UnityEngine {
 class GameObject;
 }
@@ -15,7 +14,7 @@ namespace UnityEngine::InputSystem::UI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13130))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6460))
 // CS Name: UnityEngine.InputSystem.UI.MultiplayerEventSystem
-class CORDL_TYPE MultiplayerEventSystem : public ::UnityEngine::EventSystems::EventSystem {
+class CORDL_TYPE MultiplayerEventSystem : public UnityEngine::EventSystems::EventSystem {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr MultiplayerEventSystem(MultiplayerEventSystem const& ) noexcept = defa
 constexpr MultiplayerEventSystem(MultiplayerEventSystem&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerEventSystem(void* ptr) noexcept : ::UnityEngine::EventSystems::EventSystem(ptr) {
+constexpr explicit MultiplayerEventSystem(void* ptr) noexcept : UnityEngine::EventSystems::EventSystem(ptr) {
 }
 
 
@@ -51,25 +50,25 @@ constexpr explicit MultiplayerEventSystem(void* ptr) noexcept : ::UnityEngine::E
 
 // Fields
 
- ::UnityEngine::GameObject __declspec(property(get=__get_m_PlayerRoot, put=__set_m_PlayerRoot))  m_PlayerRoot;
+ UnityEngine::GameObject __declspec(property(get=__get_m_PlayerRoot, put=__set_m_PlayerRoot))  m_PlayerRoot;
 
-constexpr void __set_m_PlayerRoot(::UnityEngine::GameObject value) ;
+constexpr void __set_m_PlayerRoot(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get_m_PlayerRoot() const;
+constexpr UnityEngine::GameObject __get_m_PlayerRoot() const;
 
 
 // Properties
 
- ::UnityEngine::GameObject __declspec(property(get=get_playerRoot, put=set_playerRoot))  playerRoot;
+ UnityEngine::GameObject __declspec(property(get=get_playerRoot, put=set_playerRoot))  playerRoot;
 
 
 // Methods
 
 /// @brief Method get_playerRoot addr 0x2942ba0 size 0x8 virtual false final false
- ::UnityEngine::GameObject get_playerRoot() ;
+ UnityEngine::GameObject get_playerRoot() ;
 
 /// @brief Method set_playerRoot addr 0x2942ba8 size 0x8 virtual false final false
- void set_playerRoot(::UnityEngine::GameObject value) ;
+ void set_playerRoot(UnityEngine::GameObject value) ;
 
 /// @brief Method OnEnable addr 0x2942c74 size 0x1c virtual true final false
  void OnEnable() ;
@@ -93,6 +92,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::UI
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::UI::MultiplayerEventSystem);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::UI::MultiplayerEventSystem, "UnityEngine.InputSystem.UI", "MultiplayerEventSystem");
+NEED_NO_BOX(UnityEngine::InputSystem::UI::MultiplayerEventSystem);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::UI::MultiplayerEventSystem, "UnityEngine.InputSystem.UI", "MultiplayerEventSystem");

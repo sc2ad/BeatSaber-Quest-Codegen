@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Utilities/Encoders/zzzz__Base64Encoder_def.hpp"
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Encoders {
 class UrlBase64Encoder;
@@ -12,7 +11,7 @@ namespace Org::BouncyCastle::Utilities::Encoders {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1795))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1803))
 // CS Name: Org.BouncyCastle.Utilities.Encoders.UrlBase64Encoder
-class CORDL_TYPE UrlBase64Encoder : public ::Org::BouncyCastle::Utilities::Encoders::Base64Encoder {
+class CORDL_TYPE UrlBase64Encoder : public Org::BouncyCastle::Utilities::Encoders::Base64Encoder {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr UrlBase64Encoder(UrlBase64Encoder const& ) noexcept = default;
 constexpr UrlBase64Encoder(UrlBase64Encoder&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UrlBase64Encoder(void* ptr) noexcept : ::Org::BouncyCastle::Utilities::Encoders::Base64Encoder(ptr) {
+constexpr explicit UrlBase64Encoder(void* ptr) noexcept : Org::BouncyCastle::Utilities::Encoders::Base64Encoder(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities::Encoders
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::Encoders::UrlBase64Encoder);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Encoders::UrlBase64Encoder, "Org.BouncyCastle.Utilities.Encoders", "UrlBase64Encoder");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Encoders::UrlBase64Encoder);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Encoders::UrlBase64Encoder, "Org.BouncyCastle.Utilities.Encoders", "UrlBase64Encoder");

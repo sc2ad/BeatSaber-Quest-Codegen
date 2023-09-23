@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "Zenject/zzzz__StaticMemoryPool_1_def.hpp"
-namespace {
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
@@ -22,10 +21,10 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TKey,::cordl_internals::il2cpp_reference_type TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11037)), TypeDefinitionIndex(TypeDefinitionIndex(11028)), TypeDefinitionIndex(TypeDefinitionIndex(3809)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11028), inst: 2698 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3809), inst: 1153 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3809)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11028), inst: 2698 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3809), inst: 1153 }), TypeDefinitionIndex(TypeDefinitionIndex(11028)), TypeDefinitionIndex(TypeDefinitionIndex(11037))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11037), inst: 80 })
 // CS Name: Zenject.DictionaryPool`2
-class CORDL_TYPE DictionaryPool_2<TKey,TValue> : public ::Zenject::StaticMemoryPool_1<::System::Collections::Generic::Dictionary_2<TKey,TValue>> {
+class CORDL_TYPE DictionaryPool_2<TKey,TValue> : public Zenject::StaticMemoryPool_1<System::Collections::Generic::Dictionary_2<TKey,TValue>> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr DictionaryPool_2(DictionaryPool_2 const& ) noexcept = default;
 constexpr DictionaryPool_2(DictionaryPool_2&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DictionaryPool_2(void* ptr) noexcept : ::Zenject::StaticMemoryPool_1<::System::Collections::Generic::Dictionary_2<TKey,TValue>>(ptr) {
+constexpr explicit DictionaryPool_2(void* ptr) noexcept : Zenject::StaticMemoryPool_1<System::Collections::Generic::Dictionary_2<TKey,TValue>>(ptr) {
 }
 
 
@@ -61,16 +60,16 @@ constexpr explicit DictionaryPool_2(void* ptr) noexcept : ::Zenject::StaticMemor
 
 // Fields
 
-static ::Zenject::DictionaryPool_2<TKey,TValue> __declspec(property(get=__get__instance, put=__set__instance))  _instance;
+static Zenject::DictionaryPool_2<TKey,TValue> __declspec(property(get=__get__instance, put=__set__instance))  _instance;
 
-static void __set__instance(::Zenject::DictionaryPool_2<TKey,TValue> value) ;
+static void __set__instance(Zenject::DictionaryPool_2<TKey,TValue> value) ;
 
-static ::Zenject::DictionaryPool_2<TKey,TValue> __get__instance() ;
+static Zenject::DictionaryPool_2<TKey,TValue> __get__instance() ;
 
 
 // Properties
 
-static ::Zenject::DictionaryPool_2<TKey,TValue> __declspec(property(get=get_Instance))  Instance;
+static Zenject::DictionaryPool_2<TKey,TValue> __declspec(property(get=get_Instance))  Instance;
 
 
 // Methods
@@ -82,17 +81,16 @@ explicit DictionaryPool_2() ;
  void _ctor() ;
 
 /// @brief Method get_Instance addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::Zenject::DictionaryPool_2<TKey,TValue> get_Instance() ;
+static Zenject::DictionaryPool_2<TKey,TValue> get_Instance() ;
 
 /// @brief Method OnSpawned addr 0x0 size 0xffffffffffffffff virtual false final false
-static void OnSpawned(::System::Collections::Generic::Dictionary_2<TKey,TValue> items) ;
+static void OnSpawned(System::Collections::Generic::Dictionary_2<TKey,TValue> items) ;
 
 /// @brief Method OnDespawned addr 0x0 size 0xffffffffffffffff virtual false final false
-static void OnDespawned(::System::Collections::Generic::Dictionary_2<TKey,TValue> items) ;
+static void OnDespawned(System::Collections::Generic::Dictionary_2<TKey,TValue> items) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::DictionaryPool_2, "Zenject", "DictionaryPool`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::DictionaryPool_2, "Zenject", "DictionaryPool`2");

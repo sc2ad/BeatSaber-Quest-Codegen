@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__TransitionEventBase_1_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class TransitionCancelEvent;
@@ -9,10 +8,10 @@ class TransitionCancelEvent;
 // Type: UnityEngine.UIElements::TransitionCancelEvent
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7287), inst: 4983 }), TypeDefinitionIndex(TypeDefinitionIndex(7287))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7287)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7287), inst: 4983 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7291))
 // CS Name: UnityEngine.UIElements.TransitionCancelEvent
-class CORDL_TYPE TransitionCancelEvent : public ::UnityEngine::UIElements::TransitionEventBase_1<::UnityEngine::UIElements::TransitionCancelEvent> {
+class CORDL_TYPE TransitionCancelEvent : public UnityEngine::UIElements::TransitionEventBase_1<UnityEngine::UIElements::TransitionCancelEvent> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr TransitionCancelEvent(TransitionCancelEvent const& ) noexcept = defaul
 constexpr TransitionCancelEvent(TransitionCancelEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TransitionCancelEvent(void* ptr) noexcept : ::UnityEngine::UIElements::TransitionEventBase_1<::UnityEngine::UIElements::TransitionCancelEvent>(ptr) {
+constexpr explicit TransitionCancelEvent(void* ptr) noexcept : UnityEngine::UIElements::TransitionEventBase_1<UnityEngine::UIElements::TransitionCancelEvent>(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::TransitionCancelEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::TransitionCancelEvent, "UnityEngine.UIElements", "TransitionCancelEvent");
+NEED_NO_BOX(UnityEngine::UIElements::TransitionCancelEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::TransitionCancelEvent, "UnityEngine.UIElements", "TransitionCancelEvent");

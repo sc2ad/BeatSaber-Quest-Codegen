@@ -2,20 +2,19 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace System::Collections::Concurrent {
-template<typename T>
-class ConcurrentBag_1;
-}
-namespace GlobalNamespace {
-class IPacketPool;
-}
 namespace GlobalNamespace {
 template<typename T>
 class IPacketPool_1;
 }
 namespace GlobalNamespace {
 class IPoolablePacket;
+}
+namespace System::Collections::Concurrent {
+template<typename T>
+class ConcurrentBag_1;
+}
+namespace GlobalNamespace {
+class IPacketPool;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -38,11 +37,11 @@ template<::cordl_internals::il2cpp_reference_type T>
 class CORDL_TYPE PacketPool_1<T> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IPacketPool_1<T>
-constexpr operator  ::GlobalNamespace::IPacketPool_1<T>() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IPacketPool_1<T>
+constexpr operator  GlobalNamespace::IPacketPool_1<T>() const noexcept;
 
-/// @brief Convert operator to ::GlobalNamespace::IPacketPool
-constexpr operator  ::GlobalNamespace::IPacketPool() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IPacketPool
+constexpr operator  GlobalNamespace::IPacketPool() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -80,11 +79,11 @@ constexpr explicit PacketPool_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 /// @brief Field kMaxPoolSize offset 0
 static constexpr int32_t  kMaxPoolSize{16};
 
- ::System::Collections::Concurrent::ConcurrentBag_1<T> __declspec(property(get=__get__bag, put=__set__bag))  _bag;
+ System::Collections::Concurrent::ConcurrentBag_1<T> __declspec(property(get=__get__bag, put=__set__bag))  _bag;
 
-constexpr void __set__bag(::System::Collections::Concurrent::ConcurrentBag_1<T> value) ;
+constexpr void __set__bag(System::Collections::Concurrent::ConcurrentBag_1<T> value) ;
 
-constexpr ::System::Collections::Concurrent::ConcurrentBag_1<T> __get__bag() const;
+constexpr System::Collections::Concurrent::ConcurrentBag_1<T> __get__bag() const;
 
 
 // Methods
@@ -102,7 +101,7 @@ constexpr ::System::Collections::Concurrent::ConcurrentBag_1<T> __get__bag() con
  void Clear() ;
 
 /// @brief Method IPacketPool.Release addr 0x0 size 0xffffffffffffffff virtual true final true
- void IPacketPool_Release(::GlobalNamespace::IPoolablePacket o) ;
+ void IPacketPool_Release(GlobalNamespace::IPoolablePacket o) ;
 
 // Ctor Parameters []
 explicit PacketPool_1() ;
@@ -114,5 +113,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::PacketPool_1, "", "PacketPool`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::PacketPool_1, "", "PacketPool`1");

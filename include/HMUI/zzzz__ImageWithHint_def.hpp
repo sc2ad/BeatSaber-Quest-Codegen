@@ -2,15 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace UnityEngine::UI {
+class Image;
+}
 namespace HMUI {
 class HoverHint;
 }
 namespace UnityEngine {
 class Sprite;
-}
-namespace UnityEngine::UI {
-class Image;
 }
 // Forward declare root types
 namespace HMUI {
@@ -22,7 +21,7 @@ namespace HMUI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13679))
 // CS Name: HMUI.ImageWithHint
-class CORDL_TYPE ImageWithHint : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ImageWithHint : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr ImageWithHint(ImageWithHint const& ) noexcept = default;
 constexpr ImageWithHint(ImageWithHint&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ImageWithHint(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ImageWithHint(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -58,22 +57,22 @@ constexpr explicit ImageWithHint(void* ptr) noexcept : ::UnityEngine::MonoBehavi
 
 // Fields
 
- ::UnityEngine::UI::Image __declspec(property(get=__get__image, put=__set__image))  _image;
+ UnityEngine::UI::Image __declspec(property(get=__get__image, put=__set__image))  _image;
 
-constexpr void __set__image(::UnityEngine::UI::Image value) ;
+constexpr void __set__image(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get__image() const;
+constexpr UnityEngine::UI::Image __get__image() const;
 
- ::HMUI::HoverHint __declspec(property(get=__get__hoverHint, put=__set__hoverHint))  _hoverHint;
+ HMUI::HoverHint __declspec(property(get=__get__hoverHint, put=__set__hoverHint))  _hoverHint;
 
-constexpr void __set__hoverHint(::HMUI::HoverHint value) ;
+constexpr void __set__hoverHint(HMUI::HoverHint value) ;
 
-constexpr ::HMUI::HoverHint __get__hoverHint() const;
+constexpr HMUI::HoverHint __get__hoverHint() const;
 
 
 // Properties
 
- ::UnityEngine::Sprite __declspec(property(get=get_sprite, put=set_sprite))  sprite;
+ UnityEngine::Sprite __declspec(property(get=get_sprite, put=set_sprite))  sprite;
 
  ::StringW __declspec(property(put=set_hintText))  hintText;
 
@@ -81,10 +80,10 @@ constexpr ::HMUI::HoverHint __get__hoverHint() const;
 // Methods
 
 /// @brief Method set_sprite addr 0x1fcd074 size 0x1c virtual false final false
- void set_sprite(::UnityEngine::Sprite value) ;
+ void set_sprite(UnityEngine::Sprite value) ;
 
 /// @brief Method get_sprite addr 0x1fcd090 size 0x1c virtual false final false
- ::UnityEngine::Sprite get_sprite() ;
+ UnityEngine::Sprite get_sprite() ;
 
 /// @brief Method set_hintText addr 0x1fcd0ac size 0x1c virtual false final false
  void set_hintText(::StringW value) ;
@@ -99,6 +98,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HMUI
-} // end anonymous namespace
-NEED_NO_BOX(::HMUI::ImageWithHint);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::ImageWithHint, "HMUI", "ImageWithHint");
+NEED_NO_BOX(HMUI::ImageWithHint);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::ImageWithHint, "HMUI", "ImageWithHint");

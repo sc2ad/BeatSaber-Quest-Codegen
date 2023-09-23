@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__ResultObjectiveListItem_def.hpp"
 #include "HMUI/zzzz__UIItemsList_1_def.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class ResultObjectiveListItemsList;
@@ -10,10 +9,10 @@ class ResultObjectiveListItemsList;
 // Type: ::ResultObjectiveListItemsList
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13725), inst: 5047 }), TypeDefinitionIndex(TypeDefinitionIndex(13725)), TypeDefinitionIndex(TypeDefinitionIndex(5896))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5896)), TypeDefinitionIndex(TypeDefinitionIndex(13725)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13725), inst: 5047 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5897))
 // CS Name: ResultObjectiveListItemsList
-class CORDL_TYPE ResultObjectiveListItemsList : public ::HMUI::UIItemsList_1<::GlobalNamespace::ResultObjectiveListItem> {
+class CORDL_TYPE ResultObjectiveListItemsList : public HMUI::UIItemsList_1<GlobalNamespace::ResultObjectiveListItem> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr ResultObjectiveListItemsList(ResultObjectiveListItemsList const& ) noe
 constexpr ResultObjectiveListItemsList(ResultObjectiveListItemsList&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ResultObjectiveListItemsList(void* ptr) noexcept : ::HMUI::UIItemsList_1<::GlobalNamespace::ResultObjectiveListItem>(ptr) {
+constexpr explicit ResultObjectiveListItemsList(void* ptr) noexcept : HMUI::UIItemsList_1<GlobalNamespace::ResultObjectiveListItem>(ptr) {
 }
 
 
@@ -59,6 +58,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ResultObjectiveListItemsList);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ResultObjectiveListItemsList, "", "ResultObjectiveListItemsList");
+NEED_NO_BOX(GlobalNamespace::ResultObjectiveListItemsList);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultObjectiveListItemsList, "", "ResultObjectiveListItemsList");

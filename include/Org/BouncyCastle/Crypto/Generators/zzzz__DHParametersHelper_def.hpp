@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
@@ -56,11 +55,11 @@ constexpr explicit DHParametersHelper(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Fields
 
-static ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_Six, put=__set_Six))  Six;
+static Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_Six, put=__set_Six))  Six;
 
-static void __set_Six(::Org::BouncyCastle::Math::BigInteger value) ;
+static void __set_Six(Org::BouncyCastle::Math::BigInteger value) ;
 
-static ::Org::BouncyCastle::Math::BigInteger __get_Six() ;
+static Org::BouncyCastle::Math::BigInteger __get_Six() ;
 
 static ::ArrayW<::ArrayW<int32_t>> __declspec(property(get=__get_primeLists, put=__set_primeLists))  primeLists;
 
@@ -74,23 +73,23 @@ static void __set_primeProducts(::ArrayW<int32_t> value) ;
 
 static ::ArrayW<int32_t> __get_primeProducts() ;
 
-static ::ArrayW<::Org::BouncyCastle::Math::BigInteger> __declspec(property(get=__get_BigPrimeProducts, put=__set_BigPrimeProducts))  BigPrimeProducts;
+static ::ArrayW<Org::BouncyCastle::Math::BigInteger> __declspec(property(get=__get_BigPrimeProducts, put=__set_BigPrimeProducts))  BigPrimeProducts;
 
-static void __set_BigPrimeProducts(::ArrayW<::Org::BouncyCastle::Math::BigInteger> value) ;
+static void __set_BigPrimeProducts(::ArrayW<Org::BouncyCastle::Math::BigInteger> value) ;
 
-static ::ArrayW<::Org::BouncyCastle::Math::BigInteger> __get_BigPrimeProducts() ;
+static ::ArrayW<Org::BouncyCastle::Math::BigInteger> __get_BigPrimeProducts() ;
 
 
 // Methods
 
 /// @brief Method ConstructBigPrimeProducts addr 0xe6be4c size 0x110 virtual false final false
-static ::ArrayW<::Org::BouncyCastle::Math::BigInteger> ConstructBigPrimeProducts(::ArrayW<int32_t> primeProducts) ;
+static ::ArrayW<Org::BouncyCastle::Math::BigInteger> ConstructBigPrimeProducts(::ArrayW<int32_t> primeProducts) ;
 
 /// @brief Method GenerateSafePrimes addr 0xe6b878 size 0x4dc virtual false final false
-static ::ArrayW<::Org::BouncyCastle::Math::BigInteger> GenerateSafePrimes(int32_t size, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom random) ;
+static ::ArrayW<Org::BouncyCastle::Math::BigInteger> GenerateSafePrimes(int32_t size, int32_t certainty, Org::BouncyCastle::Security::SecureRandom random) ;
 
 /// @brief Method SelectGenerator addr 0xe6bd54 size 0xf0 virtual false final false
-static ::Org::BouncyCastle::Math::BigInteger SelectGenerator(::Org::BouncyCastle::Math::BigInteger p, ::Org::BouncyCastle::Math::BigInteger q, ::Org::BouncyCastle::Security::SecureRandom random) ;
+static Org::BouncyCastle::Math::BigInteger SelectGenerator(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Security::SecureRandom random) ;
 
 // Ctor Parameters []
 explicit DHParametersHelper() ;
@@ -102,6 +101,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Generators
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Generators::DHParametersHelper);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Generators::DHParametersHelper, "Org.BouncyCastle.Crypto.Generators", "DHParametersHelper");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Generators::DHParametersHelper);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::DHParametersHelper, "Org.BouncyCastle.Crypto.Generators", "DHParametersHelper");

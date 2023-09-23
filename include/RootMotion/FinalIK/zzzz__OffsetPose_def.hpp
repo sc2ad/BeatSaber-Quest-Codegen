@@ -4,25 +4,24 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
-namespace {
 namespace RootMotion::FinalIK {
 class IKSolverFullBodyBiped;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace RootMotion::FinalIK {
-struct FullBodyBipedEffector;
-}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace RootMotion::FinalIK {
+struct FullBodyBipedEffector;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
 class OffsetPose;
 }
 namespace RootMotion::FinalIK {
-class ____RootMotion__FinalIK__OffsetPose__EffectorLink;
+class RootMotion__FinalIK__OffsetPose__EffectorLink;
 }
 // Type: ::EffectorLink
 namespace RootMotion::FinalIK {
@@ -30,74 +29,74 @@ namespace RootMotion::FinalIK {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12601))
 // CS Name: RootMotion.FinalIK.OffsetPose::EffectorLink
-class CORDL_TYPE ____RootMotion__FinalIK__OffsetPose__EffectorLink : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE RootMotion__FinalIK__OffsetPose__EffectorLink : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
 
-virtual ~____RootMotion__FinalIK__OffsetPose__EffectorLink() = default;
+virtual ~RootMotion__FinalIK__OffsetPose__EffectorLink() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____RootMotion__FinalIK__OffsetPose__EffectorLink", modifiers: " const&", def_value: None }]
-constexpr ____RootMotion__FinalIK__OffsetPose__EffectorLink(____RootMotion__FinalIK__OffsetPose__EffectorLink const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "RootMotion__FinalIK__OffsetPose__EffectorLink", modifiers: " const&", def_value: None }]
+constexpr RootMotion__FinalIK__OffsetPose__EffectorLink(RootMotion__FinalIK__OffsetPose__EffectorLink const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____RootMotion__FinalIK__OffsetPose__EffectorLink", modifiers: "&&", def_value: None }]
-constexpr ____RootMotion__FinalIK__OffsetPose__EffectorLink(____RootMotion__FinalIK__OffsetPose__EffectorLink&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "RootMotion__FinalIK__OffsetPose__EffectorLink", modifiers: "&&", def_value: None }]
+constexpr RootMotion__FinalIK__OffsetPose__EffectorLink(RootMotion__FinalIK__OffsetPose__EffectorLink&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____RootMotion__FinalIK__OffsetPose__EffectorLink(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit RootMotion__FinalIK__OffsetPose__EffectorLink(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____RootMotion__FinalIK__OffsetPose__EffectorLink& operator=(std::nullptr_t) noexcept {
+  constexpr RootMotion__FinalIK__OffsetPose__EffectorLink& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____RootMotion__FinalIK__OffsetPose__EffectorLink& operator=(void* o) noexcept {
+  constexpr RootMotion__FinalIK__OffsetPose__EffectorLink& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____RootMotion__FinalIK__OffsetPose__EffectorLink& operator=(____RootMotion__FinalIK__OffsetPose__EffectorLink&& o) noexcept = default;
-  constexpr ____RootMotion__FinalIK__OffsetPose__EffectorLink& operator=(____RootMotion__FinalIK__OffsetPose__EffectorLink const& o) noexcept = default;
+  constexpr RootMotion__FinalIK__OffsetPose__EffectorLink& operator=(RootMotion__FinalIK__OffsetPose__EffectorLink&& o) noexcept = default;
+  constexpr RootMotion__FinalIK__OffsetPose__EffectorLink& operator=(RootMotion__FinalIK__OffsetPose__EffectorLink const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::RootMotion::FinalIK::FullBodyBipedEffector __declspec(property(get=__get_effector, put=__set_effector))  effector;
+ RootMotion::FinalIK::FullBodyBipedEffector __declspec(property(get=__get_effector, put=__set_effector))  effector;
 
-constexpr void __set_effector(::RootMotion::FinalIK::FullBodyBipedEffector value) ;
+constexpr void __set_effector(RootMotion::FinalIK::FullBodyBipedEffector value) ;
 
-constexpr ::RootMotion::FinalIK::FullBodyBipedEffector __get_effector() const;
+constexpr RootMotion::FinalIK::FullBodyBipedEffector __get_effector() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_offset, put=__set_offset))  offset;
+ UnityEngine::Vector3 __declspec(property(get=__get_offset, put=__set_offset))  offset;
 
-constexpr void __set_offset(::UnityEngine::Vector3 value) ;
+constexpr void __set_offset(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_offset() const;
+constexpr UnityEngine::Vector3 __get_offset() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_pin, put=__set_pin))  pin;
+ UnityEngine::Vector3 __declspec(property(get=__get_pin, put=__set_pin))  pin;
 
-constexpr void __set_pin(::UnityEngine::Vector3 value) ;
+constexpr void __set_pin(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_pin() const;
+constexpr UnityEngine::Vector3 __get_pin() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_pinWeight, put=__set_pinWeight))  pinWeight;
+ UnityEngine::Vector3 __declspec(property(get=__get_pinWeight, put=__set_pinWeight))  pinWeight;
 
-constexpr void __set_pinWeight(::UnityEngine::Vector3 value) ;
+constexpr void __set_pinWeight(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_pinWeight() const;
+constexpr UnityEngine::Vector3 __get_pinWeight() const;
 
 
 // Methods
 
 /// @brief Method Apply addr 0x120b3f0 size 0x250 virtual false final false
- void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped solver, float_t weight, ::UnityEngine::Quaternion rotation) ;
+ void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped solver, float_t weight, UnityEngine::Quaternion rotation) ;
 
 // Ctor Parameters []
-explicit ____RootMotion__FinalIK__OffsetPose__EffectorLink() ;
+explicit RootMotion__FinalIK__OffsetPose__EffectorLink() ;
 
 /// @brief Method .ctor addr 0x120b73c size 0x8 virtual false final false
  void _ctor() ;
@@ -112,10 +111,10 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12602))
 // CS Name: RootMotion.FinalIK.OffsetPose
-class CORDL_TYPE OffsetPose : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OffsetPose : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using EffectorLink = ::RootMotion::FinalIK::____RootMotion__FinalIK__OffsetPose__EffectorLink;
+using EffectorLink = RootMotion::FinalIK::RootMotion__FinalIK__OffsetPose__EffectorLink;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -129,7 +128,7 @@ constexpr OffsetPose(OffsetPose const& ) noexcept = default;
 constexpr OffsetPose(OffsetPose&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OffsetPose(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OffsetPose(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -150,20 +149,20 @@ constexpr explicit OffsetPose(void* ptr) noexcept : ::UnityEngine::MonoBehaviour
 
 // Fields
 
- ::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__OffsetPose__EffectorLink> __declspec(property(get=__get_effectorLinks, put=__set_effectorLinks))  effectorLinks;
+ ::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__OffsetPose__EffectorLink> __declspec(property(get=__get_effectorLinks, put=__set_effectorLinks))  effectorLinks;
 
-constexpr void __set_effectorLinks(::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__OffsetPose__EffectorLink> value) ;
+constexpr void __set_effectorLinks(::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__OffsetPose__EffectorLink> value) ;
 
-constexpr ::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__OffsetPose__EffectorLink> __get_effectorLinks() const;
+constexpr ::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__OffsetPose__EffectorLink> __get_effectorLinks() const;
 
 
 // Methods
 
 /// @brief Method Apply addr 0x12079f0 size 0xb4 virtual false final false
- void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped solver, float_t weight) ;
+ void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped solver, float_t weight) ;
 
 /// @brief Method Apply addr 0x120b640 size 0xa4 virtual false final false
- void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped solver, float_t weight, ::UnityEngine::Quaternion rotation) ;
+ void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped solver, float_t weight, UnityEngine::Quaternion rotation) ;
 
 // Ctor Parameters []
 explicit OffsetPose() ;
@@ -175,8 +174,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::OffsetPose);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::OffsetPose, "RootMotion.FinalIK", "OffsetPose");
-NEED_NO_BOX(::RootMotion::FinalIK::____RootMotion__FinalIK__OffsetPose__EffectorLink);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::____RootMotion__FinalIK__OffsetPose__EffectorLink, "RootMotion.FinalIK", "OffsetPose/EffectorLink");
+NEED_NO_BOX(RootMotion::FinalIK::OffsetPose);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetPose, "RootMotion.FinalIK", "OffsetPose");
+NEED_NO_BOX(RootMotion::FinalIK::RootMotion__FinalIK__OffsetPose__EffectorLink);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RootMotion__FinalIK__OffsetPose__EffectorLink, "RootMotion.FinalIK", "OffsetPose/EffectorLink");

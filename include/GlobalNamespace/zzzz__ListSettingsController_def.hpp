@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class ListSettingsController;
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5684))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5687))
 // CS Name: ListSettingsController
-class CORDL_TYPE ListSettingsController : public ::GlobalNamespace::IncDecSettingsController {
+class CORDL_TYPE ListSettingsController : public GlobalNamespace::IncDecSettingsController {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr ListSettingsController(ListSettingsController const& ) noexcept = defa
 constexpr ListSettingsController(ListSettingsController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ListSettingsController(void* ptr) noexcept : ::GlobalNamespace::IncDecSettingsController(ptr) {
+constexpr explicit ListSettingsController(void* ptr) noexcept : GlobalNamespace::IncDecSettingsController(ptr) {
 }
 
 
@@ -100,6 +99,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ListSettingsController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ListSettingsController, "", "ListSettingsController");
+NEED_NO_BOX(GlobalNamespace::ListSettingsController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ListSettingsController, "", "ListSettingsController");

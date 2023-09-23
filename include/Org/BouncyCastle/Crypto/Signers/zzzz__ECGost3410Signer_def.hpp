@@ -4,24 +4,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDsaExt;
+}
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class ECMultiplier;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDsa;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECKeyParameters;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
-}
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class ECMultiplier;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDsaExt;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDsa;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
@@ -39,11 +38,11 @@ namespace Org::BouncyCastle::Crypto::Signers {
 class CORDL_TYPE ECGost3410Signer : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IDsaExt
-constexpr operator  ::Org::BouncyCastle::Crypto::IDsaExt() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IDsaExt
+constexpr operator  Org::BouncyCastle::Crypto::IDsaExt() const noexcept;
 
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IDsa
-constexpr operator  ::Org::BouncyCastle::Crypto::IDsa() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IDsa
+constexpr operator  Org::BouncyCastle::Crypto::IDsa() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -78,17 +77,17 @@ constexpr explicit ECGost3410Signer(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
- ::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters __declspec(property(get=__get_key, put=__set_key))  key;
+ Org::BouncyCastle::Crypto::Parameters::ECKeyParameters __declspec(property(get=__get_key, put=__set_key))  key;
 
-constexpr void __set_key(::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters value) ;
+constexpr void __set_key(Org::BouncyCastle::Crypto::Parameters::ECKeyParameters value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters __get_key() const;
+constexpr Org::BouncyCastle::Crypto::Parameters::ECKeyParameters __get_key() const;
 
- ::Org::BouncyCastle::Security::SecureRandom __declspec(property(get=__get_random, put=__set_random))  random;
+ Org::BouncyCastle::Security::SecureRandom __declspec(property(get=__get_random, put=__set_random))  random;
 
-constexpr void __set_random(::Org::BouncyCastle::Security::SecureRandom value) ;
+constexpr void __set_random(Org::BouncyCastle::Security::SecureRandom value) ;
 
-constexpr ::Org::BouncyCastle::Security::SecureRandom __get_random() const;
+constexpr Org::BouncyCastle::Security::SecureRandom __get_random() const;
 
  bool __declspec(property(get=__get_forSigning, put=__set_forSigning))  forSigning;
 
@@ -101,7 +100,7 @@ constexpr bool __get_forSigning() const;
 
  ::StringW __declspec(property(get=get_AlgorithmName))  AlgorithmName;
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_Order))  Order;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_Order))  Order;
 
 
 // Methods
@@ -110,19 +109,19 @@ constexpr bool __get_forSigning() const;
  ::StringW get_AlgorithmName() ;
 
 /// @brief Method Init addr 0xebaa9c size 0x1f4 virtual true final false
- void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method get_Order addr 0xebac90 size 0x24 virtual true final false
- ::Org::BouncyCastle::Math::BigInteger get_Order() ;
+ Org::BouncyCastle::Math::BigInteger get_Order() ;
 
 /// @brief Method GenerateSignature addr 0xebacb4 size 0x3a4 virtual true final false
- ::ArrayW<::Org::BouncyCastle::Math::BigInteger> GenerateSignature(::ArrayW<uint8_t> message) ;
+ ::ArrayW<Org::BouncyCastle::Math::BigInteger> GenerateSignature(::ArrayW<uint8_t> message) ;
 
 /// @brief Method VerifySignature addr 0xebb058 size 0x304 virtual true final false
- bool VerifySignature(::ArrayW<uint8_t> message, ::Org::BouncyCastle::Math::BigInteger r, ::Org::BouncyCastle::Math::BigInteger s) ;
+ bool VerifySignature(::ArrayW<uint8_t> message, Org::BouncyCastle::Math::BigInteger r, Org::BouncyCastle::Math::BigInteger s) ;
 
 /// @brief Method CreateBasePointMultiplier addr 0xebb35c size 0x5c virtual true final false
- ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier CreateBasePointMultiplier() ;
+ Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier CreateBasePointMultiplier() ;
 
 // Ctor Parameters []
 explicit ECGost3410Signer() ;
@@ -134,6 +133,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Signers
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Signers::ECGost3410Signer);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Signers::ECGost3410Signer, "Org.BouncyCastle.Crypto.Signers", "ECGost3410Signer");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Signers::ECGost3410Signer);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::ECGost3410Signer, "Org.BouncyCastle.Crypto.Signers", "ECGost3410Signer");

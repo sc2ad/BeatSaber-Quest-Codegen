@@ -1,6 +1,5 @@
 #pragma once
 #include "../../../../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
@@ -30,12 +29,11 @@ constexpr explicit ECMultiplier(void* ptr) noexcept : ::cordl_internals::Interfa
 // Methods
 
 /// @brief Method Multiply addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Math::EC::ECPoint Multiply(::Org::BouncyCastle::Math::EC::ECPoint p, ::Org::BouncyCastle::Math::BigInteger k) ;
+ Org::BouncyCastle::Math::EC::ECPoint Multiply(Org::BouncyCastle::Math::EC::ECPoint p, Org::BouncyCastle::Math::BigInteger k) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Math::EC::Multiplier
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier, "Org.BouncyCastle.Math.EC.Multiplier", "ECMultiplier");
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier, "Org.BouncyCastle.Math.EC.Multiplier", "ECMultiplier");

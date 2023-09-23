@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace LiteNetLib::Utils {
 class CRC32C;
@@ -72,6 +71,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib::Utils
-} // end anonymous namespace
-NEED_NO_BOX(::LiteNetLib::Utils::CRC32C);
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::Utils::CRC32C, "LiteNetLib.Utils", "CRC32C");
+NEED_NO_BOX(LiteNetLib::Utils::CRC32C);
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::CRC32C, "LiteNetLib.Utils", "CRC32C");

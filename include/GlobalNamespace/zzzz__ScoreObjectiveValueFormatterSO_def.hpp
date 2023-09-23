@@ -3,7 +3,6 @@
 #include "GlobalNamespace/zzzz__ObjectiveValueFormatterSO_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class ScoreObjectiveValueFormatterSO;
@@ -14,7 +13,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4474))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4475))
 // CS Name: ScoreObjectiveValueFormatterSO
-class CORDL_TYPE ScoreObjectiveValueFormatterSO : public ::GlobalNamespace::ObjectiveValueFormatterSO {
+class CORDL_TYPE ScoreObjectiveValueFormatterSO : public GlobalNamespace::ObjectiveValueFormatterSO {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr ScoreObjectiveValueFormatterSO(ScoreObjectiveValueFormatterSO const& )
 constexpr ScoreObjectiveValueFormatterSO(ScoreObjectiveValueFormatterSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ScoreObjectiveValueFormatterSO(void* ptr) noexcept : ::GlobalNamespace::ObjectiveValueFormatterSO(ptr) {
+constexpr explicit ScoreObjectiveValueFormatterSO(void* ptr) noexcept : GlobalNamespace::ObjectiveValueFormatterSO(ptr) {
 }
 
 
@@ -63,6 +62,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ScoreObjectiveValueFormatterSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ScoreObjectiveValueFormatterSO, "", "ScoreObjectiveValueFormatterSO");
+NEED_NO_BOX(GlobalNamespace::ScoreObjectiveValueFormatterSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreObjectiveValueFormatterSO, "", "ScoreObjectiveValueFormatterSO");

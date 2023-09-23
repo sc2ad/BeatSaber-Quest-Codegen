@@ -4,25 +4,24 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace Internal::Cryptography::Pal {
+struct CertificateData;
+}
 namespace System::Security::Cryptography::X509Certificates {
 class X500DistinguishedName;
 }
-namespace System::Security::Cryptography::X509Certificates {
-class X509Extension;
+namespace System {
+struct DateTime;
 }
 namespace System::Security::Cryptography::X509Certificates {
-struct X509NameType;
+class X509Extension;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace Internal::Cryptography::Pal {
-struct CertificateData;
-}
-namespace System {
-struct DateTime;
+namespace System::Security::Cryptography::X509Certificates {
+struct X509NameType;
 }
 namespace System::Text {
 class StringBuilder;
@@ -37,7 +36,7 @@ namespace System::Security::Cryptography::X509Certificates {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7847))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7849))
 // CS Name: System.Security.Cryptography.X509Certificates.X509Certificate2ImplUnix
-class CORDL_TYPE X509Certificate2ImplUnix : public ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl {
+class CORDL_TYPE X509Certificate2ImplUnix : public System::Security::Cryptography::X509Certificates::X509Certificate2Impl {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -52,7 +51,7 @@ constexpr X509Certificate2ImplUnix(X509Certificate2ImplUnix const& ) noexcept = 
 constexpr X509Certificate2ImplUnix(X509Certificate2ImplUnix&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit X509Certificate2ImplUnix(void* ptr) noexcept : ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl(ptr) {
+constexpr explicit X509Certificate2ImplUnix(void* ptr) noexcept : System::Security::Cryptography::X509Certificates::X509Certificate2Impl(ptr) {
 }
 
 
@@ -79,11 +78,11 @@ constexpr void __set_readCertData(bool value) ;
 
 constexpr bool __get_readCertData() const;
 
- ::Internal::Cryptography::Pal::CertificateData __declspec(property(get=__get_certData, put=__set_certData))  certData;
+ Internal::Cryptography::Pal::CertificateData __declspec(property(get=__get_certData, put=__set_certData))  certData;
 
-constexpr void __set_certData(::Internal::Cryptography::Pal::CertificateData value) ;
+constexpr void __set_certData(Internal::Cryptography::Pal::CertificateData value) ;
 
-constexpr ::Internal::Cryptography::Pal::CertificateData __get_certData() const;
+constexpr Internal::Cryptography::Pal::CertificateData __get_certData() const;
 
 
 // Properties
@@ -100,9 +99,9 @@ constexpr ::Internal::Cryptography::Pal::CertificateData __get_certData() const;
 
  int32_t __declspec(property(get=get_Version))  Version;
 
- ::System::Security::Cryptography::X509Certificates::X500DistinguishedName __declspec(property(get=get_SubjectName))  SubjectName;
+ System::Security::Cryptography::X509Certificates::X500DistinguishedName __declspec(property(get=get_SubjectName))  SubjectName;
 
- ::System::Security::Cryptography::X509Certificates::X500DistinguishedName __declspec(property(get=get_IssuerName))  IssuerName;
+ System::Security::Cryptography::X509Certificates::X500DistinguishedName __declspec(property(get=get_IssuerName))  IssuerName;
 
  ::StringW __declspec(property(get=get_Subject))  Subject;
 
@@ -112,11 +111,11 @@ constexpr ::Internal::Cryptography::Pal::CertificateData __get_certData() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=get_Thumbprint))  Thumbprint;
 
- ::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Extension> __declspec(property(get=get_Extensions))  Extensions;
+ System::Collections::Generic::IEnumerable_1<System::Security::Cryptography::X509Certificates::X509Extension> __declspec(property(get=get_Extensions))  Extensions;
 
- ::System::DateTime __declspec(property(get=get_NotAfter))  NotAfter;
+ System::DateTime __declspec(property(get=get_NotAfter))  NotAfter;
 
- ::System::DateTime __declspec(property(get=get_NotBefore))  NotBefore;
+ System::DateTime __declspec(property(get=get_NotBefore))  NotBefore;
 
 
 // Methods
@@ -146,10 +145,10 @@ constexpr ::Internal::Cryptography::Pal::CertificateData __get_certData() const;
  int32_t get_Version() ;
 
 /// @brief Method get_SubjectName addr 0x27ec2ac size 0x18 virtual true final true
- ::System::Security::Cryptography::X509Certificates::X500DistinguishedName get_SubjectName() ;
+ System::Security::Cryptography::X509Certificates::X500DistinguishedName get_SubjectName() ;
 
 /// @brief Method get_IssuerName addr 0x27ec2c4 size 0x18 virtual true final true
- ::System::Security::Cryptography::X509Certificates::X500DistinguishedName get_IssuerName() ;
+ System::Security::Cryptography::X509Certificates::X500DistinguishedName get_IssuerName() ;
 
 /// @brief Method get_Subject addr 0x27ec2dc size 0x28 virtual true final true
  ::StringW get_Subject() ;
@@ -164,19 +163,19 @@ constexpr ::Internal::Cryptography::Pal::CertificateData __get_certData() const;
  ::ArrayW<uint8_t> get_Thumbprint() ;
 
 /// @brief Method GetNameInfo addr 0x27ec4d8 size 0x34 virtual true final true
- ::StringW GetNameInfo(::System::Security::Cryptography::X509Certificates::X509NameType nameType, bool forIssuer) ;
+ ::StringW GetNameInfo(System::Security::Cryptography::X509Certificates::X509NameType nameType, bool forIssuer) ;
 
 /// @brief Method get_Extensions addr 0x27ec50c size 0x18 virtual true final true
- ::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Extension> get_Extensions() ;
+ System::Collections::Generic::IEnumerable_1<System::Security::Cryptography::X509Certificates::X509Extension> get_Extensions() ;
 
 /// @brief Method get_NotAfter addr 0x27ec524 size 0x1c virtual true final true
- ::System::DateTime get_NotAfter() ;
+ System::DateTime get_NotAfter() ;
 
 /// @brief Method get_NotBefore addr 0x27ec540 size 0x1c virtual true final true
- ::System::DateTime get_NotBefore() ;
+ System::DateTime get_NotBefore() ;
 
 /// @brief Method AppendPrivateKeyInfo addr 0x27ec55c size 0x94 virtual true final true
- void AppendPrivateKeyInfo(::System::Text::StringBuilder sb) ;
+ void AppendPrivateKeyInfo(System::Text::StringBuilder sb) ;
 
 // Ctor Parameters []
 explicit X509Certificate2ImplUnix() ;
@@ -188,6 +187,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography::X509Certificates
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::X509Certificates::X509Certificate2ImplUnix);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::X509Certificates::X509Certificate2ImplUnix, "System.Security.Cryptography.X509Certificates", "X509Certificate2ImplUnix");
+NEED_NO_BOX(System::Security::Cryptography::X509Certificates::X509Certificate2ImplUnix);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509Certificate2ImplUnix, "System.Security.Cryptography.X509Certificates", "X509Certificate2ImplUnix");

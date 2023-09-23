@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
 struct StoreName;
@@ -73,32 +72,31 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field AddressBook offset 0
-static ::System::Security::Cryptography::X509Certificates::StoreName const AddressBook;
+static System::Security::Cryptography::X509Certificates::StoreName const AddressBook;
 
 /// @brief Field AuthRoot offset 0
-static ::System::Security::Cryptography::X509Certificates::StoreName const AuthRoot;
+static System::Security::Cryptography::X509Certificates::StoreName const AuthRoot;
 
 /// @brief Field CertificateAuthority offset 0
-static ::System::Security::Cryptography::X509Certificates::StoreName const CertificateAuthority;
+static System::Security::Cryptography::X509Certificates::StoreName const CertificateAuthority;
 
 /// @brief Field Disallowed offset 0
-static ::System::Security::Cryptography::X509Certificates::StoreName const Disallowed;
+static System::Security::Cryptography::X509Certificates::StoreName const Disallowed;
 
 /// @brief Field My offset 0
-static ::System::Security::Cryptography::X509Certificates::StoreName const My;
+static System::Security::Cryptography::X509Certificates::StoreName const My;
 
 /// @brief Field Root offset 0
-static ::System::Security::Cryptography::X509Certificates::StoreName const Root;
+static System::Security::Cryptography::X509Certificates::StoreName const Root;
 
 /// @brief Field TrustedPeople offset 0
-static ::System::Security::Cryptography::X509Certificates::StoreName const TrustedPeople;
+static System::Security::Cryptography::X509Certificates::StoreName const TrustedPeople;
 
 /// @brief Field TrustedPublisher offset 0
-static ::System::Security::Cryptography::X509Certificates::StoreName const TrustedPublisher;
+static System::Security::Cryptography::X509Certificates::StoreName const TrustedPublisher;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography::X509Certificates
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::X509Certificates::StoreName, "System.Security.Cryptography.X509Certificates", "StoreName");
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::StoreName, "System.Security.Cryptography.X509Certificates", "StoreName");

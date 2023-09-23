@@ -3,12 +3,11 @@
 #include "System/Net/NetworkInformation/zzzz__UnixNetworkInterface_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Net::NetworkInformation {
-class IPInterfaceProperties;
-}
 namespace System::Net::NetworkInformation {
 struct OperationalStatus;
+}
+namespace System::Net::NetworkInformation {
+class IPInterfaceProperties;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {
@@ -20,7 +19,7 @@ namespace System::Net::NetworkInformation {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8143))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8131))
 // CS Name: System.Net.NetworkInformation.MacOsNetworkInterface
-class CORDL_TYPE MacOsNetworkInterface : public ::System::Net::NetworkInformation::UnixNetworkInterface {
+class CORDL_TYPE MacOsNetworkInterface : public System::Net::NetworkInformation::UnixNetworkInterface {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr MacOsNetworkInterface(MacOsNetworkInterface const& ) noexcept = defaul
 constexpr MacOsNetworkInterface(MacOsNetworkInterface&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MacOsNetworkInterface(void* ptr) noexcept : ::System::Net::NetworkInformation::UnixNetworkInterface(ptr) {
+constexpr explicit MacOsNetworkInterface(void* ptr) noexcept : System::Net::NetworkInformation::UnixNetworkInterface(ptr) {
 }
 
 
@@ -65,7 +64,7 @@ constexpr uint32_t __get__ifa_flags() const;
 
 // Properties
 
- ::System::Net::NetworkInformation::OperationalStatus __declspec(property(get=get_OperationalStatus))  OperationalStatus;
+ System::Net::NetworkInformation::OperationalStatus __declspec(property(get=get_OperationalStatus))  OperationalStatus;
 
 
 // Methods
@@ -77,15 +76,14 @@ explicit MacOsNetworkInterface(::StringW name, uint32_t ifa_flags) ;
  void _ctor(::StringW name, uint32_t ifa_flags) ;
 
 /// @brief Method GetIPProperties addr 0x285dadc size 0x74 virtual true final false
- ::System::Net::NetworkInformation::IPInterfaceProperties GetIPProperties() ;
+ System::Net::NetworkInformation::IPInterfaceProperties GetIPProperties() ;
 
 /// @brief Method get_OperationalStatus addr 0x285db50 size 0x14 virtual true final false
- ::System::Net::NetworkInformation::OperationalStatus get_OperationalStatus() ;
+ System::Net::NetworkInformation::OperationalStatus get_OperationalStatus() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::NetworkInformation
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::NetworkInformation::MacOsNetworkInterface);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::MacOsNetworkInterface, "System.Net.NetworkInformation", "MacOsNetworkInterface");
+NEED_NO_BOX(System::Net::NetworkInformation::MacOsNetworkInterface);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MacOsNetworkInterface, "System.Net.NetworkInformation", "MacOsNetworkInterface");

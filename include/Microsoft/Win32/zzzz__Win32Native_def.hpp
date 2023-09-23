@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Microsoft::Win32 {
 class Win32Native;
@@ -60,6 +59,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Microsoft::Win32
-} // end anonymous namespace
-NEED_NO_BOX(::Microsoft::Win32::Win32Native);
-DEFINE_IL2CPP_ARG_TYPE(::Microsoft::Win32::Win32Native, "Microsoft.Win32", "Win32Native");
+NEED_NO_BOX(Microsoft::Win32::Win32Native);
+DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::Win32Native, "Microsoft.Win32", "Win32Native");

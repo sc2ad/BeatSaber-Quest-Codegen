@@ -2,10 +2,13 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
 struct GameplayServerConfiguration;
@@ -14,7 +17,17 @@ namespace GlobalNamespace {
 class IUnifiedNetworkPlayerModel;
 }
 namespace GlobalNamespace {
+class ILobbyStateDataModel;
+}
+namespace GlobalNamespace {
 class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
+}
+namespace System {
+template<typename T>
+class Action_1;
 }
 namespace System {
 class IDisposable;
@@ -22,20 +35,6 @@ class IDisposable;
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace GlobalNamespace {
-class ILobbyStateDataModel;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -50,11 +49,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE LobbyStateDataModel : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::ILobbyStateDataModel
-constexpr operator  ::GlobalNamespace::ILobbyStateDataModel() const noexcept;
+/// @brief Convert operator to GlobalNamespace::ILobbyStateDataModel
+constexpr operator  GlobalNamespace::ILobbyStateDataModel() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x58};
@@ -89,90 +88,90 @@ constexpr explicit LobbyStateDataModel(void* ptr) noexcept : ::bs_hook::Il2CppWr
 
 // Fields
 
- ::GlobalNamespace::IMultiplayerSessionManager __declspec(property(get=__get__multiplayerSessionManager, put=__set__multiplayerSessionManager))  _multiplayerSessionManager;
+ GlobalNamespace::IMultiplayerSessionManager __declspec(property(get=__get__multiplayerSessionManager, put=__set__multiplayerSessionManager))  _multiplayerSessionManager;
 
-constexpr void __set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager value) ;
+constexpr void __set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager value) ;
 
-constexpr ::GlobalNamespace::IMultiplayerSessionManager __get__multiplayerSessionManager() const;
+constexpr GlobalNamespace::IMultiplayerSessionManager __get__multiplayerSessionManager() const;
 
- ::GlobalNamespace::IUnifiedNetworkPlayerModel __declspec(property(get=__get__unifiedNetworkPlayerModel, put=__set__unifiedNetworkPlayerModel))  _unifiedNetworkPlayerModel;
+ GlobalNamespace::IUnifiedNetworkPlayerModel __declspec(property(get=__get__unifiedNetworkPlayerModel, put=__set__unifiedNetworkPlayerModel))  _unifiedNetworkPlayerModel;
 
-constexpr void __set__unifiedNetworkPlayerModel(::GlobalNamespace::IUnifiedNetworkPlayerModel value) ;
+constexpr void __set__unifiedNetworkPlayerModel(GlobalNamespace::IUnifiedNetworkPlayerModel value) ;
 
-constexpr ::GlobalNamespace::IUnifiedNetworkPlayerModel __get__unifiedNetworkPlayerModel() const;
+constexpr GlobalNamespace::IUnifiedNetworkPlayerModel __get__unifiedNetworkPlayerModel() const;
 
- ::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer> __declspec(property(get=__get__connectedPlayers, put=__set__connectedPlayers))  _connectedPlayers;
+ System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer> __declspec(property(get=__get__connectedPlayers, put=__set__connectedPlayers))  _connectedPlayers;
 
-constexpr void __set__connectedPlayers(::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer> value) ;
+constexpr void __set__connectedPlayers(System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer> __get__connectedPlayers() const;
+constexpr System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer> __get__connectedPlayers() const;
 
- ::System::Collections::Generic::Dictionary_2<::StringW,::GlobalNamespace::IConnectedPlayer> __declspec(property(get=__get__connectedPlayersById, put=__set__connectedPlayersById))  _connectedPlayersById;
+ System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::IConnectedPlayer> __declspec(property(get=__get__connectedPlayersById, put=__set__connectedPlayersById))  _connectedPlayersById;
 
-constexpr void __set__connectedPlayersById(::System::Collections::Generic::Dictionary_2<::StringW,::GlobalNamespace::IConnectedPlayer> value) ;
+constexpr void __set__connectedPlayersById(System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::IConnectedPlayer> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::StringW,::GlobalNamespace::IConnectedPlayer> __get__connectedPlayersById() const;
+constexpr System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::IConnectedPlayer> __get__connectedPlayersById() const;
 
- ::GlobalNamespace::GameplayServerConfiguration __declspec(property(get=__get__configuration, put=__set__configuration))  _configuration;
+ GlobalNamespace::GameplayServerConfiguration __declspec(property(get=__get__configuration, put=__set__configuration))  _configuration;
 
-constexpr void __set__configuration(::GlobalNamespace::GameplayServerConfiguration value) ;
+constexpr void __set__configuration(GlobalNamespace::GameplayServerConfiguration value) ;
 
-constexpr ::GlobalNamespace::GameplayServerConfiguration __get__configuration() const;
+constexpr GlobalNamespace::GameplayServerConfiguration __get__configuration() const;
 
- ::System::Action_1<::GlobalNamespace::IConnectedPlayer> __declspec(property(get=__get_playerConnectedEvent, put=__set_playerConnectedEvent))  playerConnectedEvent;
+ System::Action_1<GlobalNamespace::IConnectedPlayer> __declspec(property(get=__get_playerConnectedEvent, put=__set_playerConnectedEvent))  playerConnectedEvent;
 
-constexpr void __set_playerConnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer> value) ;
+constexpr void __set_playerConnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer> value) ;
 
-constexpr ::System::Action_1<::GlobalNamespace::IConnectedPlayer> __get_playerConnectedEvent() const;
+constexpr System::Action_1<GlobalNamespace::IConnectedPlayer> __get_playerConnectedEvent() const;
 
- ::System::Action_1<::GlobalNamespace::IConnectedPlayer> __declspec(property(get=__get_playerDisconnectedEvent, put=__set_playerDisconnectedEvent))  playerDisconnectedEvent;
+ System::Action_1<GlobalNamespace::IConnectedPlayer> __declspec(property(get=__get_playerDisconnectedEvent, put=__set_playerDisconnectedEvent))  playerDisconnectedEvent;
 
-constexpr void __set_playerDisconnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer> value) ;
+constexpr void __set_playerDisconnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer> value) ;
 
-constexpr ::System::Action_1<::GlobalNamespace::IConnectedPlayer> __get_playerDisconnectedEvent() const;
+constexpr System::Action_1<GlobalNamespace::IConnectedPlayer> __get_playerDisconnectedEvent() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_isConnected))  isConnected;
 
- ::GlobalNamespace::IConnectedPlayer __declspec(property(get=get_localPlayer))  localPlayer;
+ GlobalNamespace::IConnectedPlayer __declspec(property(get=get_localPlayer))  localPlayer;
 
- ::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer> __declspec(property(get=get_connectedPlayers))  connectedPlayers;
+ System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer> __declspec(property(get=get_connectedPlayers))  connectedPlayers;
 
- ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer> __declspec(property(get=get_rawConnectedPlayers))  rawConnectedPlayers;
+ System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer> __declspec(property(get=get_rawConnectedPlayers))  rawConnectedPlayers;
 
- ::GlobalNamespace::GameplayServerConfiguration __declspec(property(get=get_configuration))  configuration;
+ GlobalNamespace::GameplayServerConfiguration __declspec(property(get=get_configuration))  configuration;
 
 
 // Methods
 
 /// @brief Method add_playerConnectedEvent addr 0x21fd684 size 0xb0 virtual true final true
- void add_playerConnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer> value) ;
+ void add_playerConnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer> value) ;
 
 /// @brief Method remove_playerConnectedEvent addr 0x21fd734 size 0xb0 virtual true final true
- void remove_playerConnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer> value) ;
+ void remove_playerConnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer> value) ;
 
 /// @brief Method add_playerDisconnectedEvent addr 0x21fd7e4 size 0xb0 virtual true final true
- void add_playerDisconnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer> value) ;
+ void add_playerDisconnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer> value) ;
 
 /// @brief Method remove_playerDisconnectedEvent addr 0x21fd894 size 0xb0 virtual true final true
- void remove_playerDisconnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer> value) ;
+ void remove_playerDisconnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer> value) ;
 
 /// @brief Method get_isConnected addr 0x21fd944 size 0xa4 virtual true final true
  bool get_isConnected() ;
 
 /// @brief Method get_localPlayer addr 0x21fd9e8 size 0xa0 virtual true final true
- ::GlobalNamespace::IConnectedPlayer get_localPlayer() ;
+ GlobalNamespace::IConnectedPlayer get_localPlayer() ;
 
 /// @brief Method get_connectedPlayers addr 0x21fda88 size 0x8 virtual true final true
- ::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer> get_connectedPlayers() ;
+ System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer> get_connectedPlayers() ;
 
 /// @brief Method get_rawConnectedPlayers addr 0x21fda90 size 0xa4 virtual true final true
- ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer> get_rawConnectedPlayers() ;
+ System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer> get_rawConnectedPlayers() ;
 
 /// @brief Method get_configuration addr 0x21fdb34 size 0x14 virtual true final true
- ::GlobalNamespace::GameplayServerConfiguration get_configuration() ;
+ GlobalNamespace::GameplayServerConfiguration get_configuration() ;
 
 /// @brief Method Activate addr 0x21fdb48 size 0x7f0 virtual true final true
  void Activate() ;
@@ -184,13 +183,13 @@ constexpr ::System::Action_1<::GlobalNamespace::IConnectedPlayer> __get_playerDi
  void Dispose() ;
 
 /// @brief Method GetPlayerById addr 0x21fe4d0 size 0x94 virtual true final true
- ::GlobalNamespace::IConnectedPlayer GetPlayerById(::StringW userId) ;
+ GlobalNamespace::IConnectedPlayer GetPlayerById(::StringW userId) ;
 
 /// @brief Method HandleMultiplayerSessionManagerPlayerConnected addr 0x21fe564 size 0x170 virtual false final false
- void HandleMultiplayerSessionManagerPlayerConnected(::GlobalNamespace::IConnectedPlayer player) ;
+ void HandleMultiplayerSessionManagerPlayerConnected(GlobalNamespace::IConnectedPlayer player) ;
 
 /// @brief Method HandleMultiplayerSessionManagerPlayerDisconnected addr 0x21fe6d4 size 0x120 virtual false final false
- void HandleMultiplayerSessionManagerPlayerDisconnected(::GlobalNamespace::IConnectedPlayer player) ;
+ void HandleMultiplayerSessionManagerPlayerDisconnected(GlobalNamespace::IConnectedPlayer player) ;
 
 // Ctor Parameters []
 explicit LobbyStateDataModel() ;
@@ -202,6 +201,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LobbyStateDataModel);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LobbyStateDataModel, "", "LobbyStateDataModel");
+NEED_NO_BOX(GlobalNamespace::LobbyStateDataModel);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyStateDataModel, "", "LobbyStateDataModel");

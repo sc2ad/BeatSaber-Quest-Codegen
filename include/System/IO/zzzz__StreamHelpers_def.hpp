@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::IO {
 class Stream;
 }
@@ -53,12 +52,11 @@ constexpr explicit StreamHelpers(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 // Methods
 
 /// @brief Method ValidateCopyToArgs addr 0x2391358 size 0x240 virtual false final false
-static void ValidateCopyToArgs(::System::IO::Stream source, ::System::IO::Stream destination, int32_t bufferSize) ;
+static void ValidateCopyToArgs(System::IO::Stream source, System::IO::Stream destination, int32_t bufferSize) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::IO
-} // end anonymous namespace
-NEED_NO_BOX(::System::IO::StreamHelpers);
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::StreamHelpers, "System.IO", "StreamHelpers");
+NEED_NO_BOX(System::IO::StreamHelpers);
+DEFINE_IL2CPP_ARG_TYPE(System::IO::StreamHelpers, "System.IO", "StreamHelpers");

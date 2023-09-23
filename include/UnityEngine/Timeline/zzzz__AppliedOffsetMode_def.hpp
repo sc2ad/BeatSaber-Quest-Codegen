@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Timeline {
 struct AppliedOffsetMode;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field NoRootTransform offset 0
-static ::UnityEngine::Timeline::AppliedOffsetMode const NoRootTransform;
+static UnityEngine::Timeline::AppliedOffsetMode const NoRootTransform;
 
 /// @brief Field TransformOffset offset 0
-static ::UnityEngine::Timeline::AppliedOffsetMode const TransformOffset;
+static UnityEngine::Timeline::AppliedOffsetMode const TransformOffset;
 
 /// @brief Field SceneOffset offset 0
-static ::UnityEngine::Timeline::AppliedOffsetMode const SceneOffset;
+static UnityEngine::Timeline::AppliedOffsetMode const SceneOffset;
 
 /// @brief Field TransformOffsetLegacy offset 0
-static ::UnityEngine::Timeline::AppliedOffsetMode const TransformOffsetLegacy;
+static UnityEngine::Timeline::AppliedOffsetMode const TransformOffsetLegacy;
 
 /// @brief Field SceneOffsetLegacy offset 0
-static ::UnityEngine::Timeline::AppliedOffsetMode const SceneOffsetLegacy;
+static UnityEngine::Timeline::AppliedOffsetMode const SceneOffsetLegacy;
 
 /// @brief Field SceneOffsetEditor offset 0
-static ::UnityEngine::Timeline::AppliedOffsetMode const SceneOffsetEditor;
+static UnityEngine::Timeline::AppliedOffsetMode const SceneOffsetEditor;
 
 /// @brief Field SceneOffsetLegacyEditor offset 0
-static ::UnityEngine::Timeline::AppliedOffsetMode const SceneOffsetLegacyEditor;
+static UnityEngine::Timeline::AppliedOffsetMode const SceneOffsetLegacyEditor;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::AppliedOffsetMode, "UnityEngine.Timeline", "AppliedOffsetMode");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AppliedOffsetMode, "UnityEngine.Timeline", "AppliedOffsetMode");

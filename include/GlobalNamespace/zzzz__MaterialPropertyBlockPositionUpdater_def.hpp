@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockAnimator_def.hpp"
-namespace {
 namespace UnityEngine {
 class Transform;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14723))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14729))
 // CS Name: MaterialPropertyBlockPositionUpdater
-class CORDL_TYPE MaterialPropertyBlockPositionUpdater : public ::GlobalNamespace::MaterialPropertyBlockAnimator {
+class CORDL_TYPE MaterialPropertyBlockPositionUpdater : public GlobalNamespace::MaterialPropertyBlockAnimator {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr MaterialPropertyBlockPositionUpdater(MaterialPropertyBlockPositionUpda
 constexpr MaterialPropertyBlockPositionUpdater(MaterialPropertyBlockPositionUpdater&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MaterialPropertyBlockPositionUpdater(void* ptr) noexcept : ::GlobalNamespace::MaterialPropertyBlockAnimator(ptr) {
+constexpr explicit MaterialPropertyBlockPositionUpdater(void* ptr) noexcept : GlobalNamespace::MaterialPropertyBlockAnimator(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit MaterialPropertyBlockPositionUpdater(void* ptr) noexcept : ::
 
 // Fields
 
- ::UnityEngine::Transform __declspec(property(get=__get__targetTransform, put=__set__targetTransform))  _targetTransform;
+ UnityEngine::Transform __declspec(property(get=__get__targetTransform, put=__set__targetTransform))  _targetTransform;
 
-constexpr void __set__targetTransform(::UnityEngine::Transform value) ;
+constexpr void __set__targetTransform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__targetTransform() const;
+constexpr UnityEngine::Transform __get__targetTransform() const;
 
 
 // Methods
@@ -73,6 +72,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MaterialPropertyBlockPositionUpdater);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MaterialPropertyBlockPositionUpdater, "", "MaterialPropertyBlockPositionUpdater");
+NEED_NO_BOX(GlobalNamespace::MaterialPropertyBlockPositionUpdater);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyBlockPositionUpdater, "", "MaterialPropertyBlockPositionUpdater");

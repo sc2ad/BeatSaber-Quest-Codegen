@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Newtonsoft::Json {
 struct FloatFormatHandling;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field String offset 0
-static ::Newtonsoft::Json::FloatFormatHandling const String;
+static Newtonsoft::Json::FloatFormatHandling const String;
 
 /// @brief Field Symbol offset 0
-static ::Newtonsoft::Json::FloatFormatHandling const Symbol;
+static Newtonsoft::Json::FloatFormatHandling const Symbol;
 
 /// @brief Field DefaultValue offset 0
-static ::Newtonsoft::Json::FloatFormatHandling const DefaultValue;
+static Newtonsoft::Json::FloatFormatHandling const DefaultValue;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::FloatFormatHandling, "Newtonsoft.Json", "FloatFormatHandling");
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::FloatFormatHandling, "Newtonsoft.Json", "FloatFormatHandling");

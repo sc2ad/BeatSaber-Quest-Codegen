@@ -3,7 +3,6 @@
 #include "System/Net/NetworkInformation/zzzz__UnixNetworkInterfaceAPI_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::Net::NetworkInformation {
 class NetworkInterface;
 }
@@ -17,7 +16,7 @@ namespace System::Net::NetworkInformation {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8142))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8130))
 // CS Name: System.Net.NetworkInformation.MacOsNetworkInterfaceAPI
-class CORDL_TYPE MacOsNetworkInterfaceAPI : public ::System::Net::NetworkInformation::UnixNetworkInterfaceAPI {
+class CORDL_TYPE MacOsNetworkInterfaceAPI : public System::Net::NetworkInformation::UnixNetworkInterfaceAPI {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr MacOsNetworkInterfaceAPI(MacOsNetworkInterfaceAPI const& ) noexcept = 
 constexpr MacOsNetworkInterfaceAPI(MacOsNetworkInterfaceAPI&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MacOsNetworkInterfaceAPI(void* ptr) noexcept : ::System::Net::NetworkInformation::UnixNetworkInterfaceAPI(ptr) {
+constexpr explicit MacOsNetworkInterfaceAPI(void* ptr) noexcept : System::Net::NetworkInformation::UnixNetworkInterfaceAPI(ptr) {
 }
 
 
@@ -75,12 +74,11 @@ explicit MacOsNetworkInterfaceAPI(int32_t AF_INET6) ;
  void _ctor(int32_t AF_INET6) ;
 
 /// @brief Method GetAllNetworkInterfaces addr 0x285cebc size 0xa6c virtual true final false
- ::ArrayW<::System::Net::NetworkInformation::NetworkInterface> GetAllNetworkInterfaces() ;
+ ::ArrayW<System::Net::NetworkInformation::NetworkInterface> GetAllNetworkInterfaces() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::NetworkInformation
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI, "System.Net.NetworkInformation", "MacOsNetworkInterfaceAPI");
+NEED_NO_BOX(System::Net::NetworkInformation::MacOsNetworkInterfaceAPI);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MacOsNetworkInterfaceAPI, "System.Net.NetworkInformation", "MacOsNetworkInterfaceAPI");

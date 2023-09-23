@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Unity::XR::Oculus {
 struct SystemHeadset;
@@ -85,68 +84,67 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::Unity::XR::Oculus::SystemHeadset const None;
+static Unity::XR::Oculus::SystemHeadset const None;
 
 /// @brief Field Oculus_Quest offset 0
-static ::Unity::XR::Oculus::SystemHeadset const Oculus_Quest;
+static Unity::XR::Oculus::SystemHeadset const Oculus_Quest;
 
 /// @brief Field Oculus_Quest_2 offset 0
-static ::Unity::XR::Oculus::SystemHeadset const Oculus_Quest_2;
+static Unity::XR::Oculus::SystemHeadset const Oculus_Quest_2;
 
 /// @brief Field Placeholder_10 offset 0
-static ::Unity::XR::Oculus::SystemHeadset const Placeholder_10;
+static Unity::XR::Oculus::SystemHeadset const Placeholder_10;
 
 /// @brief Field Placeholder_11 offset 0
-static ::Unity::XR::Oculus::SystemHeadset const Placeholder_11;
+static Unity::XR::Oculus::SystemHeadset const Placeholder_11;
 
 /// @brief Field Placeholder_12 offset 0
-static ::Unity::XR::Oculus::SystemHeadset const Placeholder_12;
+static Unity::XR::Oculus::SystemHeadset const Placeholder_12;
 
 /// @brief Field Placeholder_13 offset 0
-static ::Unity::XR::Oculus::SystemHeadset const Placeholder_13;
+static Unity::XR::Oculus::SystemHeadset const Placeholder_13;
 
 /// @brief Field Placeholder_14 offset 0
-static ::Unity::XR::Oculus::SystemHeadset const Placeholder_14;
+static Unity::XR::Oculus::SystemHeadset const Placeholder_14;
 
 /// @brief Field Rift_DK1 offset 0
-static ::Unity::XR::Oculus::SystemHeadset const Rift_DK1;
+static Unity::XR::Oculus::SystemHeadset const Rift_DK1;
 
 /// @brief Field Rift_DK2 offset 0
-static ::Unity::XR::Oculus::SystemHeadset const Rift_DK2;
+static Unity::XR::Oculus::SystemHeadset const Rift_DK2;
 
 /// @brief Field Rift_CV1 offset 0
-static ::Unity::XR::Oculus::SystemHeadset const Rift_CV1;
+static Unity::XR::Oculus::SystemHeadset const Rift_CV1;
 
 /// @brief Field Rift_CB offset 0
-static ::Unity::XR::Oculus::SystemHeadset const Rift_CB;
+static Unity::XR::Oculus::SystemHeadset const Rift_CB;
 
 /// @brief Field Rift_S offset 0
-static ::Unity::XR::Oculus::SystemHeadset const Rift_S;
+static Unity::XR::Oculus::SystemHeadset const Rift_S;
 
 /// @brief Field Oculus_Link_Quest offset 0
-static ::Unity::XR::Oculus::SystemHeadset const Oculus_Link_Quest;
+static Unity::XR::Oculus::SystemHeadset const Oculus_Link_Quest;
 
 /// @brief Field Oculus_Link_Quest_2 offset 0
-static ::Unity::XR::Oculus::SystemHeadset const Oculus_Link_Quest_2;
+static Unity::XR::Oculus::SystemHeadset const Oculus_Link_Quest_2;
 
 /// @brief Field PC_Placeholder_4103 offset 0
-static ::Unity::XR::Oculus::SystemHeadset const PC_Placeholder_4103;
+static Unity::XR::Oculus::SystemHeadset const PC_Placeholder_4103;
 
 /// @brief Field PC_Placeholder_4104 offset 0
-static ::Unity::XR::Oculus::SystemHeadset const PC_Placeholder_4104;
+static Unity::XR::Oculus::SystemHeadset const PC_Placeholder_4104;
 
 /// @brief Field PC_Placeholder_4105 offset 0
-static ::Unity::XR::Oculus::SystemHeadset const PC_Placeholder_4105;
+static Unity::XR::Oculus::SystemHeadset const PC_Placeholder_4105;
 
 /// @brief Field PC_Placeholder_4106 offset 0
-static ::Unity::XR::Oculus::SystemHeadset const PC_Placeholder_4106;
+static Unity::XR::Oculus::SystemHeadset const PC_Placeholder_4106;
 
 /// @brief Field PC_Placeholder_4107 offset 0
-static ::Unity::XR::Oculus::SystemHeadset const PC_Placeholder_4107;
+static Unity::XR::Oculus::SystemHeadset const PC_Placeholder_4107;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Unity::XR::Oculus
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Unity::XR::Oculus::SystemHeadset, "Unity.XR.Oculus", "SystemHeadset");
+DEFINE_IL2CPP_ARG_TYPE(Unity::XR::Oculus::SystemHeadset, "Unity.XR.Oculus", "SystemHeadset");

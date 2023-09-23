@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Networking {
 class UploadHandler;
@@ -68,6 +67,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Networking
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Networking::UploadHandler);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Networking::UploadHandler, "UnityEngine.Networking", "UploadHandler");
+NEED_NO_BOX(UnityEngine::Networking::UploadHandler);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UploadHandler, "UnityEngine.Networking", "UploadHandler");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 struct UriComponents;
@@ -82,59 +81,58 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Scheme offset 0
-static ::System::UriComponents const Scheme;
+static System::UriComponents const Scheme;
 
 /// @brief Field UserInfo offset 0
-static ::System::UriComponents const UserInfo;
+static System::UriComponents const UserInfo;
 
 /// @brief Field Host offset 0
-static ::System::UriComponents const Host;
+static System::UriComponents const Host;
 
 /// @brief Field Port offset 0
-static ::System::UriComponents const Port;
+static System::UriComponents const Port;
 
 /// @brief Field Path offset 0
-static ::System::UriComponents const Path;
+static System::UriComponents const Path;
 
 /// @brief Field Query offset 0
-static ::System::UriComponents const Query;
+static System::UriComponents const Query;
 
 /// @brief Field Fragment offset 0
-static ::System::UriComponents const Fragment;
+static System::UriComponents const Fragment;
 
 /// @brief Field StrongPort offset 0
-static ::System::UriComponents const StrongPort;
+static System::UriComponents const StrongPort;
 
 /// @brief Field NormalizedHost offset 0
-static ::System::UriComponents const NormalizedHost;
+static System::UriComponents const NormalizedHost;
 
 /// @brief Field KeepDelimiter offset 0
-static ::System::UriComponents const KeepDelimiter;
+static System::UriComponents const KeepDelimiter;
 
 /// @brief Field SerializationInfoString offset 0
-static ::System::UriComponents const SerializationInfoString;
+static System::UriComponents const SerializationInfoString;
 
 /// @brief Field AbsoluteUri offset 0
-static ::System::UriComponents const AbsoluteUri;
+static System::UriComponents const AbsoluteUri;
 
 /// @brief Field HostAndPort offset 0
-static ::System::UriComponents const HostAndPort;
+static System::UriComponents const HostAndPort;
 
 /// @brief Field StrongAuthority offset 0
-static ::System::UriComponents const StrongAuthority;
+static System::UriComponents const StrongAuthority;
 
 /// @brief Field SchemeAndServer offset 0
-static ::System::UriComponents const SchemeAndServer;
+static System::UriComponents const SchemeAndServer;
 
 /// @brief Field HttpRequestUrl offset 0
-static ::System::UriComponents const HttpRequestUrl;
+static System::UriComponents const HttpRequestUrl;
 
 /// @brief Field PathAndQuery offset 0
-static ::System::UriComponents const PathAndQuery;
+static System::UriComponents const PathAndQuery;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::UriComponents, "System", "UriComponents");
+DEFINE_IL2CPP_ARG_TYPE(System::UriComponents, "System", "UriComponents");

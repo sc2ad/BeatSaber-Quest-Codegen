@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct FontStyle;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Normal offset 0
-static ::UnityEngine::FontStyle const Normal;
+static UnityEngine::FontStyle const Normal;
 
 /// @brief Field Bold offset 0
-static ::UnityEngine::FontStyle const Bold;
+static UnityEngine::FontStyle const Bold;
 
 /// @brief Field Italic offset 0
-static ::UnityEngine::FontStyle const Italic;
+static UnityEngine::FontStyle const Italic;
 
 /// @brief Field BoldAndItalic offset 0
-static ::UnityEngine::FontStyle const BoldAndItalic;
+static UnityEngine::FontStyle const BoldAndItalic;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::FontStyle, "UnityEngine", "FontStyle");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::FontStyle, "UnityEngine", "FontStyle");

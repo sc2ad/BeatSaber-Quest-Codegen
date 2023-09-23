@@ -3,9 +3,14 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace HoudiniEngineUnity {
-struct HAPI_PrmScriptType;
+struct HAPI_Permissions;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_ParmType;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_ChoiceListType;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_RampType;
@@ -14,16 +19,10 @@ namespace HoudiniEngineUnity {
 struct HAPI_NodeType;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_ParmType;
-}
-namespace HoudiniEngineUnity {
 struct HAPI_NodeFlags;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_Permissions;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_ChoiceListType;
+struct HAPI_PrmScriptType;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -38,8 +37,8 @@ namespace HoudiniEngineUnity {
 struct CORDL_TYPE HAPI_ParmInfo : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "id", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "parentId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "childIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "type", ty: "::HoudiniEngineUnity::HAPI_ParmType", modifiers: "", def_value: None }, CppParam { name: "scriptType", ty: "::HoudiniEngineUnity::HAPI_PrmScriptType", modifiers: "", def_value: None }, CppParam { name: "typeInfoSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "permissions", ty: "::HoudiniEngineUnity::HAPI_Permissions", modifiers: "", def_value: None }, CppParam { name: "tagCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "choiceListType", ty: "::HoudiniEngineUnity::HAPI_ChoiceListType", modifiers: "", def_value: None }, CppParam { name: "choiceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nameSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "labelSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "templateNameSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "helpSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "hasMin", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "hasMax", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "hasUIMin", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "hasUIMax", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "min", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "max", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "UIMin", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "UIMax", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "invisible", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "disabled", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "spare", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "joinNext", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "labelNone", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "intValuesIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "floatValuesIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "stringValuesIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "choiceIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "inputNodeType", ty: "::HoudiniEngineUnity::HAPI_NodeType", modifiers: "", def_value: None }, CppParam { name: "inputNodeFlag", ty: "::HoudiniEngineUnity::HAPI_NodeFlags", modifiers: "", def_value: None }, CppParam { name: "isChildOfMultiParm", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "instanceNum", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "instanceLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "instanceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "instanceStartOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "rampType", ty: "::HoudiniEngineUnity::HAPI_RampType", modifiers: "", def_value: None }, CppParam { name: "visibilityConditionSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "disabledConditionSH", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr HAPI_ParmInfo(int32_t id, int32_t parentId, int32_t childIndex, ::HoudiniEngineUnity::HAPI_ParmType type, ::HoudiniEngineUnity::HAPI_PrmScriptType scriptType, int32_t typeInfoSH, ::HoudiniEngineUnity::HAPI_Permissions permissions, int32_t tagCount, int32_t size, ::HoudiniEngineUnity::HAPI_ChoiceListType choiceListType, int32_t choiceCount, int32_t nameSH, int32_t labelSH, int32_t templateNameSH, int32_t helpSH, bool hasMin, bool hasMax, bool hasUIMin, bool hasUIMax, float_t min, float_t max, float_t UIMin, float_t UIMax, bool invisible, bool disabled, bool spare, bool joinNext, bool labelNone, int32_t intValuesIndex, int32_t floatValuesIndex, int32_t stringValuesIndex, int32_t choiceIndex, ::HoudiniEngineUnity::HAPI_NodeType inputNodeType, ::HoudiniEngineUnity::HAPI_NodeFlags inputNodeFlag, bool isChildOfMultiParm, int32_t instanceNum, int32_t instanceLength, int32_t instanceCount, int32_t instanceStartOffset, ::HoudiniEngineUnity::HAPI_RampType rampType, int32_t visibilityConditionSH, int32_t disabledConditionSH) noexcept;
+// Ctor Parameters [CppParam { name: "id", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "parentId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "childIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "type", ty: "HoudiniEngineUnity::HAPI_ParmType", modifiers: "", def_value: None }, CppParam { name: "scriptType", ty: "HoudiniEngineUnity::HAPI_PrmScriptType", modifiers: "", def_value: None }, CppParam { name: "typeInfoSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "permissions", ty: "HoudiniEngineUnity::HAPI_Permissions", modifiers: "", def_value: None }, CppParam { name: "tagCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "choiceListType", ty: "HoudiniEngineUnity::HAPI_ChoiceListType", modifiers: "", def_value: None }, CppParam { name: "choiceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nameSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "labelSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "templateNameSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "helpSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "hasMin", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "hasMax", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "hasUIMin", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "hasUIMax", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "min", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "max", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "UIMin", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "UIMax", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "invisible", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "disabled", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "spare", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "joinNext", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "labelNone", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "intValuesIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "floatValuesIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "stringValuesIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "choiceIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "inputNodeType", ty: "HoudiniEngineUnity::HAPI_NodeType", modifiers: "", def_value: None }, CppParam { name: "inputNodeFlag", ty: "HoudiniEngineUnity::HAPI_NodeFlags", modifiers: "", def_value: None }, CppParam { name: "isChildOfMultiParm", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "instanceNum", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "instanceLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "instanceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "instanceStartOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "rampType", ty: "HoudiniEngineUnity::HAPI_RampType", modifiers: "", def_value: None }, CppParam { name: "visibilityConditionSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "disabledConditionSH", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr HAPI_ParmInfo(int32_t id, int32_t parentId, int32_t childIndex, HoudiniEngineUnity::HAPI_ParmType type, HoudiniEngineUnity::HAPI_PrmScriptType scriptType, int32_t typeInfoSH, HoudiniEngineUnity::HAPI_Permissions permissions, int32_t tagCount, int32_t size, HoudiniEngineUnity::HAPI_ChoiceListType choiceListType, int32_t choiceCount, int32_t nameSH, int32_t labelSH, int32_t templateNameSH, int32_t helpSH, bool hasMin, bool hasMax, bool hasUIMin, bool hasUIMax, float_t min, float_t max, float_t UIMin, float_t UIMax, bool invisible, bool disabled, bool spare, bool joinNext, bool labelNone, int32_t intValuesIndex, int32_t floatValuesIndex, int32_t stringValuesIndex, int32_t choiceIndex, HoudiniEngineUnity::HAPI_NodeType inputNodeType, HoudiniEngineUnity::HAPI_NodeFlags inputNodeFlag, bool isChildOfMultiParm, int32_t instanceNum, int32_t instanceLength, int32_t instanceCount, int32_t instanceStartOffset, HoudiniEngineUnity::HAPI_RampType rampType, int32_t visibilityConditionSH, int32_t disabledConditionSH) noexcept;
 
 
                     constexpr HAPI_ParmInfo(HAPI_ParmInfo const&) = default;
@@ -90,17 +89,17 @@ constexpr void __set_childIndex(int32_t value) ;
 
 constexpr int32_t __get_childIndex() const;
 
- ::HoudiniEngineUnity::HAPI_ParmType __declspec(property(get=__get_type, put=__set_type))  type;
+ HoudiniEngineUnity::HAPI_ParmType __declspec(property(get=__get_type, put=__set_type))  type;
 
-constexpr void __set_type(::HoudiniEngineUnity::HAPI_ParmType value) ;
+constexpr void __set_type(HoudiniEngineUnity::HAPI_ParmType value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_ParmType __get_type() const;
+constexpr HoudiniEngineUnity::HAPI_ParmType __get_type() const;
 
- ::HoudiniEngineUnity::HAPI_PrmScriptType __declspec(property(get=__get_scriptType, put=__set_scriptType))  scriptType;
+ HoudiniEngineUnity::HAPI_PrmScriptType __declspec(property(get=__get_scriptType, put=__set_scriptType))  scriptType;
 
-constexpr void __set_scriptType(::HoudiniEngineUnity::HAPI_PrmScriptType value) ;
+constexpr void __set_scriptType(HoudiniEngineUnity::HAPI_PrmScriptType value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_PrmScriptType __get_scriptType() const;
+constexpr HoudiniEngineUnity::HAPI_PrmScriptType __get_scriptType() const;
 
  int32_t __declspec(property(get=__get_typeInfoSH, put=__set_typeInfoSH))  typeInfoSH;
 
@@ -108,11 +107,11 @@ constexpr void __set_typeInfoSH(int32_t value) ;
 
 constexpr int32_t __get_typeInfoSH() const;
 
- ::HoudiniEngineUnity::HAPI_Permissions __declspec(property(get=__get_permissions, put=__set_permissions))  permissions;
+ HoudiniEngineUnity::HAPI_Permissions __declspec(property(get=__get_permissions, put=__set_permissions))  permissions;
 
-constexpr void __set_permissions(::HoudiniEngineUnity::HAPI_Permissions value) ;
+constexpr void __set_permissions(HoudiniEngineUnity::HAPI_Permissions value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_Permissions __get_permissions() const;
+constexpr HoudiniEngineUnity::HAPI_Permissions __get_permissions() const;
 
  int32_t __declspec(property(get=__get_tagCount, put=__set_tagCount))  tagCount;
 
@@ -126,11 +125,11 @@ constexpr void __set_size(int32_t value) ;
 
 constexpr int32_t __get_size() const;
 
- ::HoudiniEngineUnity::HAPI_ChoiceListType __declspec(property(get=__get_choiceListType, put=__set_choiceListType))  choiceListType;
+ HoudiniEngineUnity::HAPI_ChoiceListType __declspec(property(get=__get_choiceListType, put=__set_choiceListType))  choiceListType;
 
-constexpr void __set_choiceListType(::HoudiniEngineUnity::HAPI_ChoiceListType value) ;
+constexpr void __set_choiceListType(HoudiniEngineUnity::HAPI_ChoiceListType value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_ChoiceListType __get_choiceListType() const;
+constexpr HoudiniEngineUnity::HAPI_ChoiceListType __get_choiceListType() const;
 
  int32_t __declspec(property(get=__get_choiceCount, put=__set_choiceCount))  choiceCount;
 
@@ -264,17 +263,17 @@ constexpr void __set_choiceIndex(int32_t value) ;
 
 constexpr int32_t __get_choiceIndex() const;
 
- ::HoudiniEngineUnity::HAPI_NodeType __declspec(property(get=__get_inputNodeType, put=__set_inputNodeType))  inputNodeType;
+ HoudiniEngineUnity::HAPI_NodeType __declspec(property(get=__get_inputNodeType, put=__set_inputNodeType))  inputNodeType;
 
-constexpr void __set_inputNodeType(::HoudiniEngineUnity::HAPI_NodeType value) ;
+constexpr void __set_inputNodeType(HoudiniEngineUnity::HAPI_NodeType value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_NodeType __get_inputNodeType() const;
+constexpr HoudiniEngineUnity::HAPI_NodeType __get_inputNodeType() const;
 
- ::HoudiniEngineUnity::HAPI_NodeFlags __declspec(property(get=__get_inputNodeFlag, put=__set_inputNodeFlag))  inputNodeFlag;
+ HoudiniEngineUnity::HAPI_NodeFlags __declspec(property(get=__get_inputNodeFlag, put=__set_inputNodeFlag))  inputNodeFlag;
 
-constexpr void __set_inputNodeFlag(::HoudiniEngineUnity::HAPI_NodeFlags value) ;
+constexpr void __set_inputNodeFlag(HoudiniEngineUnity::HAPI_NodeFlags value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_NodeFlags __get_inputNodeFlag() const;
+constexpr HoudiniEngineUnity::HAPI_NodeFlags __get_inputNodeFlag() const;
 
  bool __declspec(property(get=__get_isChildOfMultiParm, put=__set_isChildOfMultiParm))  isChildOfMultiParm;
 
@@ -306,11 +305,11 @@ constexpr void __set_instanceStartOffset(int32_t value) ;
 
 constexpr int32_t __get_instanceStartOffset() const;
 
- ::HoudiniEngineUnity::HAPI_RampType __declspec(property(get=__get_rampType, put=__set_rampType))  rampType;
+ HoudiniEngineUnity::HAPI_RampType __declspec(property(get=__get_rampType, put=__set_rampType))  rampType;
 
-constexpr void __set_rampType(::HoudiniEngineUnity::HAPI_RampType value) ;
+constexpr void __set_rampType(HoudiniEngineUnity::HAPI_RampType value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_RampType __get_rampType() const;
+constexpr HoudiniEngineUnity::HAPI_RampType __get_rampType() const;
 
  int32_t __declspec(property(get=__get_visibilityConditionSH, put=__set_visibilityConditionSH))  visibilityConditionSH;
 
@@ -349,5 +348,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_ParmInfo, "HoudiniEngineUnity", "HAPI_ParmInfo");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_ParmInfo, "HoudiniEngineUnity", "HAPI_ParmInfo");

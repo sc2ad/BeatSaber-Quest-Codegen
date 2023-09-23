@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Type_def.hpp"
-namespace {
 namespace System::Reflection {
 struct BindingFlags;
 }
@@ -15,7 +14,7 @@ namespace System::Reflection {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2493))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3494))
 // CS Name: System.Reflection.TypeInfo
-class CORDL_TYPE TypeInfo : public ::System::Type {
+class CORDL_TYPE TypeInfo : public System::Type {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr TypeInfo(TypeInfo const& ) noexcept = default;
 constexpr TypeInfo(TypeInfo&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TypeInfo(void* ptr) noexcept : ::System::Type(ptr) {
+constexpr explicit TypeInfo(void* ptr) noexcept : System::Type(ptr) {
 }
 
 
@@ -52,7 +51,7 @@ constexpr explicit TypeInfo(void* ptr) noexcept : ::System::Type(ptr) {
 // Fields
 
 /// @brief Field DeclaredOnlyLookup offset 0
-static ::System::Reflection::BindingFlags const DeclaredOnlyLookup;
+static System::Reflection::BindingFlags const DeclaredOnlyLookup;
 
 
 // Methods
@@ -67,6 +66,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Reflection
-} // end anonymous namespace
-NEED_NO_BOX(::System::Reflection::TypeInfo);
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::TypeInfo, "System.Reflection", "TypeInfo");
+NEED_NO_BOX(System::Reflection::TypeInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::TypeInfo, "System.Reflection", "TypeInfo");

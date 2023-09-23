@@ -3,15 +3,14 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
-class DnsEndPoint;
+class INetworkConfig;
 }
 namespace GlobalNamespace {
 struct ServiceEnvironment;
 }
 namespace GlobalNamespace {
-class INetworkConfig;
+class DnsEndPoint;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,11 +22,11 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4563))
 // CS Name: NetworkConfigSO
-class CORDL_TYPE NetworkConfigSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE NetworkConfigSO : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::INetworkConfig
-constexpr operator  ::GlobalNamespace::INetworkConfig() const noexcept;
+/// @brief Convert operator to GlobalNamespace::INetworkConfig
+constexpr operator  GlobalNamespace::INetworkConfig() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x60};
@@ -41,7 +40,7 @@ constexpr NetworkConfigSO(NetworkConfigSO const& ) noexcept = default;
 constexpr NetworkConfigSO(NetworkConfigSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NetworkConfigSO(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit NetworkConfigSO(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -128,11 +127,11 @@ constexpr void __set__forceGameLift(bool value) ;
 
 constexpr bool __get__forceGameLift() const;
 
- ::GlobalNamespace::ServiceEnvironment __declspec(property(get=__get__serviceEnvironment, put=__set__serviceEnvironment))  _serviceEnvironment;
+ GlobalNamespace::ServiceEnvironment __declspec(property(get=__get__serviceEnvironment, put=__set__serviceEnvironment))  _serviceEnvironment;
 
-constexpr void __set__serviceEnvironment(::GlobalNamespace::ServiceEnvironment value) ;
+constexpr void __set__serviceEnvironment(GlobalNamespace::ServiceEnvironment value) ;
 
-constexpr ::GlobalNamespace::ServiceEnvironment __get__serviceEnvironment() const;
+constexpr GlobalNamespace::ServiceEnvironment __get__serviceEnvironment() const;
 
 
 // Properties
@@ -145,7 +144,7 @@ constexpr ::GlobalNamespace::ServiceEnvironment __get__serviceEnvironment() cons
 
  int32_t __declspec(property(get=get_multiplayerPort))  multiplayerPort;
 
- ::GlobalNamespace::DnsEndPoint __declspec(property(get=get_masterServerEndPoint))  masterServerEndPoint;
+ GlobalNamespace::DnsEndPoint __declspec(property(get=get_masterServerEndPoint))  masterServerEndPoint;
 
  ::StringW __declspec(property(get=get_multiplayerStatusUrl))  multiplayerStatusUrl;
 
@@ -157,7 +156,7 @@ constexpr ::GlobalNamespace::ServiceEnvironment __get__serviceEnvironment() cons
 
  bool __declspec(property(get=get_forceGameLift))  forceGameLift;
 
- ::GlobalNamespace::ServiceEnvironment __declspec(property(get=get_serviceEnvironment))  serviceEnvironment;
+ GlobalNamespace::ServiceEnvironment __declspec(property(get=get_serviceEnvironment))  serviceEnvironment;
 
 
 // Methods
@@ -175,7 +174,7 @@ constexpr ::GlobalNamespace::ServiceEnvironment __get__serviceEnvironment() cons
  int32_t get_multiplayerPort() ;
 
 /// @brief Method get_masterServerEndPoint addr 0x2208c14 size 0x70 virtual true final true
- ::GlobalNamespace::DnsEndPoint get_masterServerEndPoint() ;
+ GlobalNamespace::DnsEndPoint get_masterServerEndPoint() ;
 
 /// @brief Method get_multiplayerStatusUrl addr 0x2208c84 size 0x8 virtual true final true
  ::StringW get_multiplayerStatusUrl() ;
@@ -193,7 +192,7 @@ constexpr ::GlobalNamespace::ServiceEnvironment __get__serviceEnvironment() cons
  bool get_forceGameLift() ;
 
 /// @brief Method get_serviceEnvironment addr 0x2208d38 size 0x8 virtual true final true
- ::GlobalNamespace::ServiceEnvironment get_serviceEnvironment() ;
+ GlobalNamespace::ServiceEnvironment get_serviceEnvironment() ;
 
 /// @brief Method GetAppId addr 0x2208d04 size 0x2c virtual false final false
  ::StringW GetAppId() ;
@@ -208,6 +207,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::NetworkConfigSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NetworkConfigSO, "", "NetworkConfigSO");
+NEED_NO_BOX(GlobalNamespace::NetworkConfigSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkConfigSO, "", "NetworkConfigSO");

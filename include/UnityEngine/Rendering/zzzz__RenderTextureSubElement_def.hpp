@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Rendering {
 struct RenderTextureSubElement;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Color offset 0
-static ::UnityEngine::Rendering::RenderTextureSubElement const Color;
+static UnityEngine::Rendering::RenderTextureSubElement const Color;
 
 /// @brief Field Depth offset 0
-static ::UnityEngine::Rendering::RenderTextureSubElement const Depth;
+static UnityEngine::Rendering::RenderTextureSubElement const Depth;
 
 /// @brief Field Stencil offset 0
-static ::UnityEngine::Rendering::RenderTextureSubElement const Stencil;
+static UnityEngine::Rendering::RenderTextureSubElement const Stencil;
 
 /// @brief Field Default offset 0
-static ::UnityEngine::Rendering::RenderTextureSubElement const Default;
+static UnityEngine::Rendering::RenderTextureSubElement const Default;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Rendering
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::RenderTextureSubElement, "UnityEngine.Rendering", "RenderTextureSubElement");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::RenderTextureSubElement, "UnityEngine.Rendering", "RenderTextureSubElement");

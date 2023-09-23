@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace HoudiniEngineUnity {
 class HEU_GeneratedOutput;
 }
@@ -77,11 +76,11 @@ constexpr void __set__bInstancer(bool value) ;
 
 constexpr bool __get__bInstancer() const;
 
- ::HoudiniEngineUnity::HEU_GeneratedOutput __declspec(property(get=__get__generatedOutput, put=__set__generatedOutput))  _generatedOutput;
+ HoudiniEngineUnity::HEU_GeneratedOutput __declspec(property(get=__get__generatedOutput, put=__set__generatedOutput))  _generatedOutput;
 
-constexpr void __set__generatedOutput(::HoudiniEngineUnity::HEU_GeneratedOutput value) ;
+constexpr void __set__generatedOutput(HoudiniEngineUnity::HEU_GeneratedOutput value) ;
 
-constexpr ::HoudiniEngineUnity::HEU_GeneratedOutput __get__generatedOutput() const;
+constexpr HoudiniEngineUnity::HEU_GeneratedOutput __get__generatedOutput() const;
 
 
 // Methods
@@ -99,6 +98,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_LoadBufferBase);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_LoadBufferBase, "HoudiniEngineUnity", "HEU_LoadBufferBase");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_LoadBufferBase);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_LoadBufferBase, "HoudiniEngineUnity", "HEU_LoadBufferBase");

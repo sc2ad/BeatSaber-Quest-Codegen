@@ -2,18 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace UnityEngine {
 class Sprite;
+}
+namespace HMUI {
+class NoTransitionsButton;
 }
 namespace UnityEngine::UI {
 class Image;
 }
 namespace HMUI {
-class NoTransitionsButton;
-}
-namespace HMUI {
-struct ____HMUI__NoTransitionsButton__SelectionState;
+struct HMUI__NoTransitionsButton__SelectionState;
 }
 // Forward declare root types
 namespace HMUI {
@@ -25,7 +24,7 @@ namespace HMUI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13670))
 // CS Name: HMUI.ButtonSpriteSwap
-class CORDL_TYPE ButtonSpriteSwap : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ButtonSpriteSwap : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr ButtonSpriteSwap(ButtonSpriteSwap const& ) noexcept = default;
 constexpr ButtonSpriteSwap(ButtonSpriteSwap&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ButtonSpriteSwap(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ButtonSpriteSwap(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -61,41 +60,41 @@ constexpr explicit ButtonSpriteSwap(void* ptr) noexcept : ::UnityEngine::MonoBeh
 
 // Fields
 
- ::UnityEngine::Sprite __declspec(property(get=__get__normalStateSprite, put=__set__normalStateSprite))  _normalStateSprite;
+ UnityEngine::Sprite __declspec(property(get=__get__normalStateSprite, put=__set__normalStateSprite))  _normalStateSprite;
 
-constexpr void __set__normalStateSprite(::UnityEngine::Sprite value) ;
+constexpr void __set__normalStateSprite(UnityEngine::Sprite value) ;
 
-constexpr ::UnityEngine::Sprite __get__normalStateSprite() const;
+constexpr UnityEngine::Sprite __get__normalStateSprite() const;
 
- ::UnityEngine::Sprite __declspec(property(get=__get__highlightStateSprite, put=__set__highlightStateSprite))  _highlightStateSprite;
+ UnityEngine::Sprite __declspec(property(get=__get__highlightStateSprite, put=__set__highlightStateSprite))  _highlightStateSprite;
 
-constexpr void __set__highlightStateSprite(::UnityEngine::Sprite value) ;
+constexpr void __set__highlightStateSprite(UnityEngine::Sprite value) ;
 
-constexpr ::UnityEngine::Sprite __get__highlightStateSprite() const;
+constexpr UnityEngine::Sprite __get__highlightStateSprite() const;
 
- ::UnityEngine::Sprite __declspec(property(get=__get__pressedStateSprite, put=__set__pressedStateSprite))  _pressedStateSprite;
+ UnityEngine::Sprite __declspec(property(get=__get__pressedStateSprite, put=__set__pressedStateSprite))  _pressedStateSprite;
 
-constexpr void __set__pressedStateSprite(::UnityEngine::Sprite value) ;
+constexpr void __set__pressedStateSprite(UnityEngine::Sprite value) ;
 
-constexpr ::UnityEngine::Sprite __get__pressedStateSprite() const;
+constexpr UnityEngine::Sprite __get__pressedStateSprite() const;
 
- ::UnityEngine::Sprite __declspec(property(get=__get__disabledStateSprite, put=__set__disabledStateSprite))  _disabledStateSprite;
+ UnityEngine::Sprite __declspec(property(get=__get__disabledStateSprite, put=__set__disabledStateSprite))  _disabledStateSprite;
 
-constexpr void __set__disabledStateSprite(::UnityEngine::Sprite value) ;
+constexpr void __set__disabledStateSprite(UnityEngine::Sprite value) ;
 
-constexpr ::UnityEngine::Sprite __get__disabledStateSprite() const;
+constexpr UnityEngine::Sprite __get__disabledStateSprite() const;
 
- ::HMUI::NoTransitionsButton __declspec(property(get=__get__button, put=__set__button))  _button;
+ HMUI::NoTransitionsButton __declspec(property(get=__get__button, put=__set__button))  _button;
 
-constexpr void __set__button(::HMUI::NoTransitionsButton value) ;
+constexpr void __set__button(HMUI::NoTransitionsButton value) ;
 
-constexpr ::HMUI::NoTransitionsButton __get__button() const;
+constexpr HMUI::NoTransitionsButton __get__button() const;
 
- ::ArrayW<::UnityEngine::UI::Image> __declspec(property(get=__get__images, put=__set__images))  _images;
+ ::ArrayW<UnityEngine::UI::Image> __declspec(property(get=__get__images, put=__set__images))  _images;
 
-constexpr void __set__images(::ArrayW<::UnityEngine::UI::Image> value) ;
+constexpr void __set__images(::ArrayW<UnityEngine::UI::Image> value) ;
 
-constexpr ::ArrayW<::UnityEngine::UI::Image> __get__images() const;
+constexpr ::ArrayW<UnityEngine::UI::Image> __get__images() const;
 
  bool __declspec(property(get=__get__didStart, put=__set__didStart))  _didStart;
 
@@ -119,7 +118,7 @@ constexpr bool __get__didStart() const;
  void OnDestroy() ;
 
 /// @brief Method HandleButtonSelectionStateDidChange addr 0x1fbcd1c size 0xcc virtual true final false
- void HandleButtonSelectionStateDidChange(::HMUI::____HMUI__NoTransitionsButton__SelectionState state) ;
+ void HandleButtonSelectionStateDidChange(HMUI::HMUI__NoTransitionsButton__SelectionState state) ;
 
 /// @brief Method RefreshVisualState addr 0x1fbcb60 size 0x24 virtual false final false
  void RefreshVisualState() ;
@@ -134,6 +133,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HMUI
-} // end anonymous namespace
-NEED_NO_BOX(::HMUI::ButtonSpriteSwap);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::ButtonSpriteSwap, "HMUI", "ButtonSpriteSwap");
+NEED_NO_BOX(HMUI::ButtonSpriteSwap);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::ButtonSpriteSwap, "HMUI", "ButtonSpriteSwap");

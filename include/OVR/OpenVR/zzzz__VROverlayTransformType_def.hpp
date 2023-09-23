@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct VROverlayTransformType;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field VROverlayTransform_Absolute offset 0
-static ::OVR::OpenVR::VROverlayTransformType const VROverlayTransform_Absolute;
+static OVR::OpenVR::VROverlayTransformType const VROverlayTransform_Absolute;
 
 /// @brief Field VROverlayTransform_TrackedDeviceRelative offset 0
-static ::OVR::OpenVR::VROverlayTransformType const VROverlayTransform_TrackedDeviceRelative;
+static OVR::OpenVR::VROverlayTransformType const VROverlayTransform_TrackedDeviceRelative;
 
 /// @brief Field VROverlayTransform_SystemOverlay offset 0
-static ::OVR::OpenVR::VROverlayTransformType const VROverlayTransform_SystemOverlay;
+static OVR::OpenVR::VROverlayTransformType const VROverlayTransform_SystemOverlay;
 
 /// @brief Field VROverlayTransform_TrackedComponent offset 0
-static ::OVR::OpenVR::VROverlayTransformType const VROverlayTransform_TrackedComponent;
+static OVR::OpenVR::VROverlayTransformType const VROverlayTransform_TrackedComponent;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::VROverlayTransformType, "OVR.OpenVR", "VROverlayTransformType");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VROverlayTransformType, "OVR.OpenVR", "VROverlayTransformType");

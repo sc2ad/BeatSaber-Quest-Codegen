@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto::Prng {
 class IRandomGenerator;
 }
@@ -23,8 +22,8 @@ namespace Org::BouncyCastle::Crypto::Prng {
 class CORDL_TYPE CryptoApiRandomGenerator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator
-constexpr operator  ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Prng::IRandomGenerator
+constexpr operator  Org::BouncyCastle::Crypto::Prng::IRandomGenerator() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -59,11 +58,11 @@ constexpr explicit CryptoApiRandomGenerator(void* ptr) noexcept : ::bs_hook::Il2
 
 // Fields
 
- ::System::Security::Cryptography::RandomNumberGenerator __declspec(property(get=__get_rndProv, put=__set_rndProv))  rndProv;
+ System::Security::Cryptography::RandomNumberGenerator __declspec(property(get=__get_rndProv, put=__set_rndProv))  rndProv;
 
-constexpr void __set_rndProv(::System::Security::Cryptography::RandomNumberGenerator value) ;
+constexpr void __set_rndProv(System::Security::Cryptography::RandomNumberGenerator value) ;
 
-constexpr ::System::Security::Cryptography::RandomNumberGenerator __get_rndProv() const;
+constexpr System::Security::Cryptography::RandomNumberGenerator __get_rndProv() const;
 
 
 // Methods
@@ -74,11 +73,11 @@ explicit CryptoApiRandomGenerator() ;
 /// @brief Method .ctor addr 0xeb3cfc size 0x34 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "rng", ty: "::System::Security::Cryptography::RandomNumberGenerator", modifiers: "", def_value: None }]
-explicit CryptoApiRandomGenerator(::System::Security::Cryptography::RandomNumberGenerator rng) ;
+// Ctor Parameters [CppParam { name: "rng", ty: "System::Security::Cryptography::RandomNumberGenerator", modifiers: "", def_value: None }]
+explicit CryptoApiRandomGenerator(System::Security::Cryptography::RandomNumberGenerator rng) ;
 
 /// @brief Method .ctor addr 0xeb3d30 size 0x28 virtual false final false
- void _ctor(::System::Security::Cryptography::RandomNumberGenerator rng) ;
+ void _ctor(System::Security::Cryptography::RandomNumberGenerator rng) ;
 
 /// @brief Method AddSeedMaterial addr 0xeb3d58 size 0x4 virtual true final false
  void AddSeedMaterial(::ArrayW<uint8_t> seed) ;
@@ -96,6 +95,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Prng
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator, "Org.BouncyCastle.Crypto.Prng", "CryptoApiRandomGenerator");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator, "Org.BouncyCastle.Crypto.Prng", "CryptoApiRandomGenerator");

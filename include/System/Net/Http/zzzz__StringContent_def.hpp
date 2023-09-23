@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Text {
 class Encoding;
 }
@@ -18,7 +17,7 @@ namespace System::Net::Http {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14800))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14817))
 // CS Name: System.Net.Http.StringContent
-class CORDL_TYPE StringContent : public ::System::Net::Http::ByteArrayContent {
+class CORDL_TYPE StringContent : public System::Net::Http::ByteArrayContent {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr StringContent(StringContent const& ) noexcept = default;
 constexpr StringContent(StringContent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit StringContent(void* ptr) noexcept : ::System::Net::Http::ByteArrayContent(ptr) {
+constexpr explicit StringContent(void* ptr) noexcept : System::Net::Http::ByteArrayContent(ptr) {
 }
 
 
@@ -60,19 +59,18 @@ explicit StringContent(::StringW content) ;
 /// @brief Method .ctor addr 0x26a2d10 size 0xc virtual false final false
  void _ctor(::StringW content) ;
 
-// Ctor Parameters [CppParam { name: "content", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "::System::Text::Encoding", modifiers: "", def_value: None }, CppParam { name: "mediaType", ty: "::StringW", modifiers: "", def_value: None }]
-explicit StringContent(::StringW content, ::System::Text::Encoding encoding, ::StringW mediaType) ;
+// Ctor Parameters [CppParam { name: "content", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }, CppParam { name: "mediaType", ty: "::StringW", modifiers: "", def_value: None }]
+explicit StringContent(::StringW content, System::Text::Encoding encoding, ::StringW mediaType) ;
 
 /// @brief Method .ctor addr 0x26a2d1c size 0x108 virtual false final false
- void _ctor(::StringW content, ::System::Text::Encoding encoding, ::StringW mediaType) ;
+ void _ctor(::StringW content, System::Text::Encoding encoding, ::StringW mediaType) ;
 
 /// @brief Method GetByteArray addr 0x26a2e24 size 0x3c virtual false final false
-static ::ArrayW<uint8_t> GetByteArray(::StringW content, ::System::Text::Encoding encoding) ;
+static ::ArrayW<uint8_t> GetByteArray(::StringW content, System::Text::Encoding encoding) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Http
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Http::StringContent);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::StringContent, "System.Net.Http", "StringContent");
+NEED_NO_BOX(System::Net::Http::StringContent);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::StringContent, "System.Net.Http", "StringContent");

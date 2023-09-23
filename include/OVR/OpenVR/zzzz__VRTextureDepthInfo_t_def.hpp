@@ -2,12 +2,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace OVR::OpenVR {
-struct HmdMatrix44_t;
-}
 namespace OVR::OpenVR {
 struct HmdVector2_t;
+}
+namespace OVR::OpenVR {
+struct HmdMatrix44_t;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -22,8 +21,8 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE VRTextureDepthInfo_t : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "handle", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "mProjection", ty: "::OVR::OpenVR::HmdMatrix44_t", modifiers: "", def_value: None }, CppParam { name: "vRange", ty: "::OVR::OpenVR::HmdVector2_t", modifiers: "", def_value: None }]
-constexpr VRTextureDepthInfo_t(::cordl_internals::intptr_t handle, ::OVR::OpenVR::HmdMatrix44_t mProjection, ::OVR::OpenVR::HmdVector2_t vRange) noexcept;
+// Ctor Parameters [CppParam { name: "handle", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "mProjection", ty: "OVR::OpenVR::HmdMatrix44_t", modifiers: "", def_value: None }, CppParam { name: "vRange", ty: "OVR::OpenVR::HmdVector2_t", modifiers: "", def_value: None }]
+constexpr VRTextureDepthInfo_t(::cordl_internals::intptr_t handle, OVR::OpenVR::HmdMatrix44_t mProjection, OVR::OpenVR::HmdVector2_t vRange) noexcept;
 
 
                     constexpr VRTextureDepthInfo_t(VRTextureDepthInfo_t const&) = default;
@@ -62,21 +61,20 @@ constexpr void __set_handle(::cordl_internals::intptr_t value) ;
 
 constexpr ::cordl_internals::intptr_t __get_handle() const;
 
- ::OVR::OpenVR::HmdMatrix44_t __declspec(property(get=__get_mProjection, put=__set_mProjection))  mProjection;
+ OVR::OpenVR::HmdMatrix44_t __declspec(property(get=__get_mProjection, put=__set_mProjection))  mProjection;
 
-constexpr void __set_mProjection(::OVR::OpenVR::HmdMatrix44_t value) ;
+constexpr void __set_mProjection(OVR::OpenVR::HmdMatrix44_t value) ;
 
-constexpr ::OVR::OpenVR::HmdMatrix44_t __get_mProjection() const;
+constexpr OVR::OpenVR::HmdMatrix44_t __get_mProjection() const;
 
- ::OVR::OpenVR::HmdVector2_t __declspec(property(get=__get_vRange, put=__set_vRange))  vRange;
+ OVR::OpenVR::HmdVector2_t __declspec(property(get=__get_vRange, put=__set_vRange))  vRange;
 
-constexpr void __set_vRange(::OVR::OpenVR::HmdVector2_t value) ;
+constexpr void __set_vRange(OVR::OpenVR::HmdVector2_t value) ;
 
-constexpr ::OVR::OpenVR::HmdVector2_t __get_vRange() const;
+constexpr OVR::OpenVR::HmdVector2_t __get_vRange() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::VRTextureDepthInfo_t, "OVR.OpenVR", "VRTextureDepthInfo_t");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRTextureDepthInfo_t, "OVR.OpenVR", "VRTextureDepthInfo_t");

@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Crmf {
 class SubsequentMessage;
@@ -13,7 +12,7 @@ namespace Org::BouncyCastle::Asn1::Crmf {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(123))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(124))
 // CS Name: Org.BouncyCastle.Asn1.Crmf.SubsequentMessage
-class CORDL_TYPE SubsequentMessage : public ::Org::BouncyCastle::Asn1::DerInteger {
+class CORDL_TYPE SubsequentMessage : public Org::BouncyCastle::Asn1::DerInteger {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr SubsequentMessage(SubsequentMessage const& ) noexcept = default;
 constexpr SubsequentMessage(SubsequentMessage&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SubsequentMessage(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::DerInteger(ptr) {
+constexpr explicit SubsequentMessage(void* ptr) noexcept : Org::BouncyCastle::Asn1::DerInteger(ptr) {
 }
 
 
@@ -49,17 +48,17 @@ constexpr explicit SubsequentMessage(void* ptr) noexcept : ::Org::BouncyCastle::
 
 // Fields
 
-static ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage __declspec(property(get=__get_encrCert, put=__set_encrCert))  encrCert;
+static Org::BouncyCastle::Asn1::Crmf::SubsequentMessage __declspec(property(get=__get_encrCert, put=__set_encrCert))  encrCert;
 
-static void __set_encrCert(::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage value) ;
+static void __set_encrCert(Org::BouncyCastle::Asn1::Crmf::SubsequentMessage value) ;
 
-static ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage __get_encrCert() ;
+static Org::BouncyCastle::Asn1::Crmf::SubsequentMessage __get_encrCert() ;
 
-static ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage __declspec(property(get=__get_challengeResp, put=__set_challengeResp))  challengeResp;
+static Org::BouncyCastle::Asn1::Crmf::SubsequentMessage __declspec(property(get=__get_challengeResp, put=__set_challengeResp))  challengeResp;
 
-static void __set_challengeResp(::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage value) ;
+static void __set_challengeResp(Org::BouncyCastle::Asn1::Crmf::SubsequentMessage value) ;
 
-static ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage __get_challengeResp() ;
+static Org::BouncyCastle::Asn1::Crmf::SubsequentMessage __get_challengeResp() ;
 
 
 // Methods
@@ -71,12 +70,11 @@ explicit SubsequentMessage(int32_t value) ;
  void _ctor(int32_t value) ;
 
 /// @brief Method ValueOf addr 0xdf9a0c size 0x110 virtual false final false
-static ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage ValueOf(int32_t value) ;
+static Org::BouncyCastle::Asn1::Crmf::SubsequentMessage ValueOf(int32_t value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::Crmf
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage, "Org.BouncyCastle.Asn1.Crmf", "SubsequentMessage");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Crmf::SubsequentMessage);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Crmf::SubsequentMessage, "Org.BouncyCastle.Asn1.Crmf", "SubsequentMessage");

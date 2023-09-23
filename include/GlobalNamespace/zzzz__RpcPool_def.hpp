@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace GlobalNamespace {
 class IRemoteProcedureCall;
 }
@@ -60,12 +59,11 @@ template<typename T>
 static void Fill() ;
 
 /// @brief Method Release addr 0xdc7384 size 0xfc virtual false final false
-static void Release(::GlobalNamespace::IRemoteProcedureCall t) ;
+static void Release(GlobalNamespace::IRemoteProcedureCall t) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::RpcPool);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RpcPool, "", "RpcPool");
+NEED_NO_BOX(GlobalNamespace::RpcPool);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RpcPool, "", "RpcPool");

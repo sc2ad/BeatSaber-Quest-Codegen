@@ -4,30 +4,29 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Security::Cryptography::X509Certificates {
-class X509Chain;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateCollection;
+namespace Mono::Security::Interface {
+class MonoTlsSettings;
 }
 namespace System::Net::Security {
 class SslStream;
 }
-namespace Mono::Security::Interface {
-class MonoTlsSettings;
-}
-namespace Mono::Net::Security {
-class MobileAuthenticatedStream;
-}
-namespace System::Net::Security {
-struct SslPolicyErrors;
+namespace System::Security::Cryptography::X509Certificates {
+class X509CertificateCollection;
 }
 namespace Mono::Net::Security {
 class ChainValidationHelper;
 }
 namespace System::IO {
 class Stream;
+}
+namespace Mono::Net::Security {
+class MobileAuthenticatedStream;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Chain;
+}
+namespace System::Net::Security {
+struct SslPolicyErrors;
 }
 // Forward declare root types
 namespace Mono::Net::Security {
@@ -39,7 +38,7 @@ namespace Mono::Net::Security {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13993))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7689))
 // CS Name: Mono.Net.Security.MobileTlsProvider
-class CORDL_TYPE MobileTlsProvider : public ::Mono::Security::Interface::MonoTlsProvider {
+class CORDL_TYPE MobileTlsProvider : public Mono::Security::Interface::MonoTlsProvider {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -54,7 +53,7 @@ constexpr MobileTlsProvider(MobileTlsProvider const& ) noexcept = default;
 constexpr MobileTlsProvider(MobileTlsProvider&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MobileTlsProvider(void* ptr) noexcept : ::Mono::Security::Interface::MonoTlsProvider(ptr) {
+constexpr explicit MobileTlsProvider(void* ptr) noexcept : Mono::Security::Interface::MonoTlsProvider(ptr) {
 }
 
 
@@ -76,10 +75,10 @@ constexpr explicit MobileTlsProvider(void* ptr) noexcept : ::Mono::Security::Int
 // Methods
 
 /// @brief Method CreateSslStream addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Mono::Net::Security::MobileAuthenticatedStream CreateSslStream(::System::Net::Security::SslStream sslStream, ::System::IO::Stream innerStream, bool leaveInnerStreamOpen, ::Mono::Security::Interface::MonoTlsSettings settings) ;
+ Mono::Net::Security::MobileAuthenticatedStream CreateSslStream(System::Net::Security::SslStream sslStream, System::IO::Stream innerStream, bool leaveInnerStreamOpen, Mono::Security::Interface::MonoTlsSettings settings) ;
 
 /// @brief Method ValidateCertificate addr 0x0 size 0xffffffffffffffff virtual true final false
- bool ValidateCertificate(::Mono::Net::Security::ChainValidationHelper validator, ::StringW targetHost, bool serverMode, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection certificates, bool wantsChain, ByRef<::System::Security::Cryptography::X509Certificates::X509Chain> chain, ByRef<::System::Net::Security::SslPolicyErrors> errors, ByRef<int32_t> status11) ;
+ bool ValidateCertificate(Mono::Net::Security::ChainValidationHelper validator, ::StringW targetHost, bool serverMode, System::Security::Cryptography::X509Certificates::X509CertificateCollection certificates, bool wantsChain, ByRef<System::Security::Cryptography::X509Certificates::X509Chain> chain, ByRef<System::Net::Security::SslPolicyErrors> errors, ByRef<int32_t> status11) ;
 
 // Ctor Parameters []
 explicit MobileTlsProvider() ;
@@ -91,6 +90,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Net::Security
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Net::Security::MobileTlsProvider);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Net::Security::MobileTlsProvider, "Mono.Net.Security", "MobileTlsProvider");
+NEED_NO_BOX(Mono::Net::Security::MobileTlsProvider);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MobileTlsProvider, "Mono.Net.Security", "MobileTlsProvider");

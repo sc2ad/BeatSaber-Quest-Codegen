@@ -3,12 +3,11 @@
 #include "System/Net/NetworkInformation/zzzz__UnixNetworkInterface_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Net::NetworkInformation {
-struct OperationalStatus;
-}
 namespace System::Net::NetworkInformation {
 class IPInterfaceProperties;
+}
+namespace System::Net::NetworkInformation {
+struct OperationalStatus;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {
@@ -20,7 +19,7 @@ namespace System::Net::NetworkInformation {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8143))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8112))
 // CS Name: System.Net.NetworkInformation.AixNetworkInterface
-class CORDL_TYPE AixNetworkInterface : public ::System::Net::NetworkInformation::UnixNetworkInterface {
+class CORDL_TYPE AixNetworkInterface : public System::Net::NetworkInformation::UnixNetworkInterface {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr AixNetworkInterface(AixNetworkInterface const& ) noexcept = default;
 constexpr AixNetworkInterface(AixNetworkInterface&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AixNetworkInterface(void* ptr) noexcept : ::System::Net::NetworkInformation::UnixNetworkInterface(ptr) {
+constexpr explicit AixNetworkInterface(void* ptr) noexcept : System::Net::NetworkInformation::UnixNetworkInterface(ptr) {
 }
 
 
@@ -71,7 +70,7 @@ constexpr int32_t __get__ifru_mtu() const;
 
 // Properties
 
- ::System::Net::NetworkInformation::OperationalStatus __declspec(property(get=get_OperationalStatus))  OperationalStatus;
+ System::Net::NetworkInformation::OperationalStatus __declspec(property(get=get_OperationalStatus))  OperationalStatus;
 
 
 // Methods
@@ -83,15 +82,14 @@ explicit AixNetworkInterface(::StringW name, uint32_t ifa_flags, int32_t ifru_mt
  void _ctor(::StringW name, uint32_t ifa_flags, int32_t ifru_mtu) ;
 
 /// @brief Method GetIPProperties addr 0x285b214 size 0x84 virtual true final false
- ::System::Net::NetworkInformation::IPInterfaceProperties GetIPProperties() ;
+ System::Net::NetworkInformation::IPInterfaceProperties GetIPProperties() ;
 
 /// @brief Method get_OperationalStatus addr 0x285b298 size 0x14 virtual true final false
- ::System::Net::NetworkInformation::OperationalStatus get_OperationalStatus() ;
+ System::Net::NetworkInformation::OperationalStatus get_OperationalStatus() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::NetworkInformation
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::NetworkInformation::AixNetworkInterface);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::AixNetworkInterface, "System.Net.NetworkInformation", "AixNetworkInterface");
+NEED_NO_BOX(System::Net::NetworkInformation::AixNetworkInterface);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::AixNetworkInterface, "System.Net.NetworkInformation", "AixNetworkInterface");

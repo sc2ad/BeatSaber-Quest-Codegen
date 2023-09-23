@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 struct DateTime;
 }
@@ -59,17 +58,17 @@ constexpr void __set_DeveloperPayload(::StringW value) ;
 
 constexpr ::StringW __get_DeveloperPayload() const;
 
- ::System::DateTime __declspec(property(get=__get_ExpirationTime, put=__set_ExpirationTime))  ExpirationTime;
+ System::DateTime __declspec(property(get=__get_ExpirationTime, put=__set_ExpirationTime))  ExpirationTime;
 
-constexpr void __set_ExpirationTime(::System::DateTime value) ;
+constexpr void __set_ExpirationTime(System::DateTime value) ;
 
-constexpr ::System::DateTime __get_ExpirationTime() const;
+constexpr System::DateTime __get_ExpirationTime() const;
 
- ::System::DateTime __declspec(property(get=__get_GrantTime, put=__set_GrantTime))  GrantTime;
+ System::DateTime __declspec(property(get=__get_GrantTime, put=__set_GrantTime))  GrantTime;
 
-constexpr void __set_GrantTime(::System::DateTime value) ;
+constexpr void __set_GrantTime(System::DateTime value) ;
 
-constexpr ::System::DateTime __get_GrantTime() const;
+constexpr System::DateTime __get_GrantTime() const;
 
  ::StringW __declspec(property(get=__get_ID, put=__set_ID))  ID;
 
@@ -102,6 +101,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::Purchase);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::Purchase, "Oculus.Platform.Models", "Purchase");
+NEED_NO_BOX(Oculus::Platform::Models::Purchase);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Purchase, "Oculus.Platform.Models", "Purchase");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Rendering {
 struct GraphicsTier;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Tier1 offset 0
-static ::UnityEngine::Rendering::GraphicsTier const Tier1;
+static UnityEngine::Rendering::GraphicsTier const Tier1;
 
 /// @brief Field Tier2 offset 0
-static ::UnityEngine::Rendering::GraphicsTier const Tier2;
+static UnityEngine::Rendering::GraphicsTier const Tier2;
 
 /// @brief Field Tier3 offset 0
-static ::UnityEngine::Rendering::GraphicsTier const Tier3;
+static UnityEngine::Rendering::GraphicsTier const Tier3;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Rendering
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::GraphicsTier, "UnityEngine.Rendering", "GraphicsTier");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::GraphicsTier, "UnityEngine.Rendering", "GraphicsTier");

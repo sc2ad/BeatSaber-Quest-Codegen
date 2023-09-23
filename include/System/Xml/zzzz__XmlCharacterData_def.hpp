@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/zzzz__XmlLinkedNode_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Xml {
 class XmlDocument;
 }
@@ -16,7 +15,7 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11455))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11442))
 // CS Name: System.Xml.XmlCharacterData
-class CORDL_TYPE XmlCharacterData : public ::System::Xml::XmlLinkedNode {
+class CORDL_TYPE XmlCharacterData : public System::Xml::XmlLinkedNode {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr XmlCharacterData(XmlCharacterData const& ) noexcept = default;
 constexpr XmlCharacterData(XmlCharacterData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XmlCharacterData(void* ptr) noexcept : ::System::Xml::XmlLinkedNode(ptr) {
+constexpr explicit XmlCharacterData(void* ptr) noexcept : System::Xml::XmlLinkedNode(ptr) {
 }
 
 
@@ -70,11 +69,11 @@ constexpr ::StringW __get_data() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "data", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "::System::Xml::XmlDocument", modifiers: "", def_value: None }]
-explicit XmlCharacterData(::StringW data, ::System::Xml::XmlDocument doc) ;
+// Ctor Parameters [CppParam { name: "data", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
+explicit XmlCharacterData(::StringW data, System::Xml::XmlDocument doc) ;
 
 /// @brief Method .ctor addr 0x26f0138 size 0x2c virtual false final false
- void _ctor(::StringW data, ::System::Xml::XmlDocument doc) ;
+ void _ctor(::StringW data, System::Xml::XmlDocument doc) ;
 
 /// @brief Method get_Value addr 0x26f02a4 size 0x10 virtual true final false
  ::StringW get_Value() ;
@@ -101,6 +100,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::XmlCharacterData);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlCharacterData, "System.Xml", "XmlCharacterData");
+NEED_NO_BOX(System::Xml::XmlCharacterData);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlCharacterData, "System.Xml", "XmlCharacterData");

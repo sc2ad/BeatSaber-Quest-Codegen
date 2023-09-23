@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 struct VersionChangeType;
@@ -81,56 +80,55 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Bindings offset 0
-static ::UnityEngine::UIElements::VersionChangeType const Bindings;
+static UnityEngine::UIElements::VersionChangeType const Bindings;
 
 /// @brief Field ViewData offset 0
-static ::UnityEngine::UIElements::VersionChangeType const ViewData;
+static UnityEngine::UIElements::VersionChangeType const ViewData;
 
 /// @brief Field Hierarchy offset 0
-static ::UnityEngine::UIElements::VersionChangeType const Hierarchy;
+static UnityEngine::UIElements::VersionChangeType const Hierarchy;
 
 /// @brief Field Layout offset 0
-static ::UnityEngine::UIElements::VersionChangeType const Layout;
+static UnityEngine::UIElements::VersionChangeType const Layout;
 
 /// @brief Field StyleSheet offset 0
-static ::UnityEngine::UIElements::VersionChangeType const StyleSheet;
+static UnityEngine::UIElements::VersionChangeType const StyleSheet;
 
 /// @brief Field Styles offset 0
-static ::UnityEngine::UIElements::VersionChangeType const Styles;
+static UnityEngine::UIElements::VersionChangeType const Styles;
 
 /// @brief Field Overflow offset 0
-static ::UnityEngine::UIElements::VersionChangeType const Overflow;
+static UnityEngine::UIElements::VersionChangeType const Overflow;
 
 /// @brief Field BorderRadius offset 0
-static ::UnityEngine::UIElements::VersionChangeType const BorderRadius;
+static UnityEngine::UIElements::VersionChangeType const BorderRadius;
 
 /// @brief Field BorderWidth offset 0
-static ::UnityEngine::UIElements::VersionChangeType const BorderWidth;
+static UnityEngine::UIElements::VersionChangeType const BorderWidth;
 
 /// @brief Field Transform offset 0
-static ::UnityEngine::UIElements::VersionChangeType const Transform;
+static UnityEngine::UIElements::VersionChangeType const Transform;
 
 /// @brief Field Size offset 0
-static ::UnityEngine::UIElements::VersionChangeType const Size;
+static UnityEngine::UIElements::VersionChangeType const Size;
 
 /// @brief Field Repaint offset 0
-static ::UnityEngine::UIElements::VersionChangeType const Repaint;
+static UnityEngine::UIElements::VersionChangeType const Repaint;
 
 /// @brief Field Opacity offset 0
-static ::UnityEngine::UIElements::VersionChangeType const Opacity;
+static UnityEngine::UIElements::VersionChangeType const Opacity;
 
 /// @brief Field Color offset 0
-static ::UnityEngine::UIElements::VersionChangeType const Color;
+static UnityEngine::UIElements::VersionChangeType const Color;
 
 /// @brief Field RenderHints offset 0
-static ::UnityEngine::UIElements::VersionChangeType const RenderHints;
+static UnityEngine::UIElements::VersionChangeType const RenderHints;
 
 /// @brief Field TransitionProperty offset 0
-static ::UnityEngine::UIElements::VersionChangeType const TransitionProperty;
+static UnityEngine::UIElements::VersionChangeType const TransitionProperty;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::VersionChangeType, "UnityEngine.UIElements", "VersionChangeType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::VersionChangeType, "UnityEngine.UIElements", "VersionChangeType");

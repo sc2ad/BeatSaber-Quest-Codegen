@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -75,51 +74,51 @@ constexpr float_t __get_z() const;
 
 // Properties
 
-static ::LIV::SDK::Unity::SDKVector3 __declspec(property(get=get_zero))  zero;
+static LIV::SDK::Unity::SDKVector3 __declspec(property(get=get_zero))  zero;
 
-static ::LIV::SDK::Unity::SDKVector3 __declspec(property(get=get_one))  one;
+static LIV::SDK::Unity::SDKVector3 __declspec(property(get=get_one))  one;
 
-static ::LIV::SDK::Unity::SDKVector3 __declspec(property(get=get_forward))  forward;
+static LIV::SDK::Unity::SDKVector3 __declspec(property(get=get_forward))  forward;
 
-static ::LIV::SDK::Unity::SDKVector3 __declspec(property(get=get_up))  up;
+static LIV::SDK::Unity::SDKVector3 __declspec(property(get=get_up))  up;
 
-static ::LIV::SDK::Unity::SDKVector3 __declspec(property(get=get_right))  right;
+static LIV::SDK::Unity::SDKVector3 __declspec(property(get=get_right))  right;
 
 
 // Methods
 
 /// @brief Method get_zero addr 0x20a1614 size 0x10 virtual false final false
-static ::LIV::SDK::Unity::SDKVector3 get_zero() ;
+static LIV::SDK::Unity::SDKVector3 get_zero() ;
 
 /// @brief Method get_one addr 0x20a1624 size 0x10 virtual false final false
-static ::LIV::SDK::Unity::SDKVector3 get_one() ;
+static LIV::SDK::Unity::SDKVector3 get_one() ;
 
 /// @brief Method get_forward addr 0x20a1634 size 0x10 virtual false final false
-static ::LIV::SDK::Unity::SDKVector3 get_forward() ;
+static LIV::SDK::Unity::SDKVector3 get_forward() ;
 
 /// @brief Method get_up addr 0x20a1644 size 0x10 virtual false final false
-static ::LIV::SDK::Unity::SDKVector3 get_up() ;
+static LIV::SDK::Unity::SDKVector3 get_up() ;
 
 /// @brief Method get_right addr 0x20a1654 size 0x10 virtual false final false
-static ::LIV::SDK::Unity::SDKVector3 get_right() ;
+static LIV::SDK::Unity::SDKVector3 get_right() ;
 
 /// @brief Method op_Implicit addr 0x20a1664 size 0x4 virtual false final false
-static ::UnityEngine::Vector3 op_Implicit___UnityEngine__Vector3(::LIV::SDK::Unity::SDKVector3 v) ;
+static UnityEngine::Vector3 op_Implicit_UnityEngine__Vector3(LIV::SDK::Unity::SDKVector3 v) ;
 
 /// @brief Method op_Implicit addr 0x20a0be0 size 0x4 virtual false final false
-static ::LIV::SDK::Unity::SDKVector3 op_Implicit___LIV__SDK__Unity__SDKVector3(::UnityEngine::Vector3 v) ;
+static LIV::SDK::Unity::SDKVector3 op_Implicit_LIV__SDK__Unity__SDKVector3(UnityEngine::Vector3 v) ;
 
 /// @brief Method op_Addition addr 0x20a1668 size 0x10 virtual false final false
-static ::LIV::SDK::Unity::SDKVector3 op_Addition(::LIV::SDK::Unity::SDKVector3 lhs, ::LIV::SDK::Unity::SDKVector3 rhs) ;
+static LIV::SDK::Unity::SDKVector3 op_Addition(LIV::SDK::Unity::SDKVector3 lhs, LIV::SDK::Unity::SDKVector3 rhs) ;
 
 /// @brief Method op_Subtraction addr 0x20a1678 size 0x10 virtual false final false
-static ::LIV::SDK::Unity::SDKVector3 op_Subtraction(::LIV::SDK::Unity::SDKVector3 lhs, ::LIV::SDK::Unity::SDKVector3 rhs) ;
+static LIV::SDK::Unity::SDKVector3 op_Subtraction(LIV::SDK::Unity::SDKVector3 lhs, LIV::SDK::Unity::SDKVector3 rhs) ;
 
 /// @brief Method op_Multiply addr 0x20a1688 size 0x10 virtual false final false
-static ::LIV::SDK::Unity::SDKVector3 op_Multiply(::LIV::SDK::Unity::SDKVector3 lhs, ::LIV::SDK::Unity::SDKVector3 rhs) ;
+static LIV::SDK::Unity::SDKVector3 op_Multiply(LIV::SDK::Unity::SDKVector3 lhs, LIV::SDK::Unity::SDKVector3 rhs) ;
 
 /// @brief Method op_Multiply addr 0x20a1698 size 0x10 virtual false final false
-static ::LIV::SDK::Unity::SDKVector3 op_Multiply(::LIV::SDK::Unity::SDKVector3 lhs, float_t rhs) ;
+static LIV::SDK::Unity::SDKVector3 op_Multiply(LIV::SDK::Unity::SDKVector3 lhs, float_t rhs) ;
 
 /// @brief Method ToString addr 0x20a16a8 size 0xc4 virtual true final false
  ::StringW ToString() ;
@@ -128,5 +127,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def LIV::SDK::Unity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::SDKVector3, "LIV.SDK.Unity", "SDKVector3");
+DEFINE_IL2CPP_ARG_TYPE(LIV::SDK::Unity::SDKVector3, "LIV.SDK.Unity", "SDKVector3");

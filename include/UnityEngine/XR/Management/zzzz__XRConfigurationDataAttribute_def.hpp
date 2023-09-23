@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::XR::Management {
 class XRConfigurationDataAttribute;
@@ -13,7 +12,7 @@ namespace UnityEngine::XR::Management {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15889))
 // CS Name: UnityEngine.XR.Management.XRConfigurationDataAttribute
-class CORDL_TYPE XRConfigurationDataAttribute : public ::System::Attribute {
+class CORDL_TYPE XRConfigurationDataAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr XRConfigurationDataAttribute(XRConfigurationDataAttribute const& ) noe
 constexpr XRConfigurationDataAttribute(XRConfigurationDataAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XRConfigurationDataAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit XRConfigurationDataAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -99,6 +98,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR::Management
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::XR::Management::XRConfigurationDataAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::Management::XRConfigurationDataAttribute, "UnityEngine.XR.Management", "XRConfigurationDataAttribute");
+NEED_NO_BOX(UnityEngine::XR::Management::XRConfigurationDataAttribute);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::Management::XRConfigurationDataAttribute, "UnityEngine.XR.Management", "XRConfigurationDataAttribute");

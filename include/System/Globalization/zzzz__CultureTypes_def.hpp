@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Globalization {
 struct CultureTypes;
@@ -73,32 +72,31 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field NeutralCultures offset 0
-static ::System::Globalization::CultureTypes const NeutralCultures;
+static System::Globalization::CultureTypes const NeutralCultures;
 
 /// @brief Field SpecificCultures offset 0
-static ::System::Globalization::CultureTypes const SpecificCultures;
+static System::Globalization::CultureTypes const SpecificCultures;
 
 /// @brief Field InstalledWin32Cultures offset 0
-static ::System::Globalization::CultureTypes const InstalledWin32Cultures;
+static System::Globalization::CultureTypes const InstalledWin32Cultures;
 
 /// @brief Field AllCultures offset 0
-static ::System::Globalization::CultureTypes const AllCultures;
+static System::Globalization::CultureTypes const AllCultures;
 
 /// @brief Field UserCustomCulture offset 0
-static ::System::Globalization::CultureTypes const UserCustomCulture;
+static System::Globalization::CultureTypes const UserCustomCulture;
 
 /// @brief Field ReplacementCultures offset 0
-static ::System::Globalization::CultureTypes const ReplacementCultures;
+static System::Globalization::CultureTypes const ReplacementCultures;
 
 /// @brief Field WindowsOnlyCultures offset 0
-static ::System::Globalization::CultureTypes const WindowsOnlyCultures;
+static System::Globalization::CultureTypes const WindowsOnlyCultures;
 
 /// @brief Field FrameworkCultures offset 0
-static ::System::Globalization::CultureTypes const FrameworkCultures;
+static System::Globalization::CultureTypes const FrameworkCultures;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Globalization
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::CultureTypes, "System.Globalization", "CultureTypes");
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CultureTypes, "System.Globalization", "CultureTypes");

@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
@@ -16,7 +15,7 @@ namespace Org::BouncyCastle::Asn1::Cmp {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(30))
 // CS Name: Org.BouncyCastle.Asn1.Cmp.PkiConfirmContent
-class CORDL_TYPE PkiConfirmContent : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
+class CORDL_TYPE PkiConfirmContent : public Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr PkiConfirmContent(PkiConfirmContent const& ) noexcept = default;
 constexpr PkiConfirmContent(PkiConfirmContent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PkiConfirmContent(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
+constexpr explicit PkiConfirmContent(void* ptr) noexcept : Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
 }
 
 
@@ -53,7 +52,7 @@ constexpr explicit PkiConfirmContent(void* ptr) noexcept : ::Org::BouncyCastle::
 // Methods
 
 /// @brief Method GetInstance addr 0xddcaa0 size 0x150 virtual false final false
-static ::Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent GetInstance(::bs_hook::Il2CppWrapperType obj) ;
+static Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
 // Ctor Parameters []
 explicit PkiConfirmContent() ;
@@ -62,12 +61,11 @@ explicit PkiConfirmContent() ;
  void _ctor() ;
 
 /// @brief Method ToAsn1Object addr 0xddd11c size 0x58 virtual true final false
- ::Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
+ Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::Cmp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent, "Org.BouncyCastle.Asn1.Cmp", "PkiConfirmContent");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent, "Org.BouncyCastle.Asn1.Cmp", "PkiConfirmContent");

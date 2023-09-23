@@ -3,39 +3,38 @@
 #include "GlobalNamespace/zzzz__LeaderboardViewController_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class Sprite;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
+namespace HMUI {
+class SegmentedControl;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace HMUI {
-class NoTransitionsButton;
-}
-namespace HMUI {
-class SegmentedControl;
-}
-namespace HMUI {
 class IconSegmentedControl;
 }
 namespace GlobalNamespace {
+class PlayerDataModel;
+}
+namespace GlobalNamespace {
 class LocalLeaderboardTableView;
+}
+namespace HMUI {
+class NoTransitionsButton;
+}
+namespace UnityEngine {
+class Sprite;
 }
 namespace GlobalNamespace {
 class ISaveData;
 }
 namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
 class LocalLeaderboardsModel;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__LocalLeaderboardsModel__LeaderboardType;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
+struct GlobalNamespace__LocalLeaderboardsModel__LeaderboardType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -47,7 +46,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5745))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5783))
 // CS Name: LocalLeaderboardViewController
-class CORDL_TYPE LocalLeaderboardViewController : public ::GlobalNamespace::LeaderboardViewController {
+class CORDL_TYPE LocalLeaderboardViewController : public GlobalNamespace::LeaderboardViewController {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -62,7 +61,7 @@ constexpr LocalLeaderboardViewController(LocalLeaderboardViewController const& )
 constexpr LocalLeaderboardViewController(LocalLeaderboardViewController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LocalLeaderboardViewController(void* ptr) noexcept : ::GlobalNamespace::LeaderboardViewController(ptr) {
+constexpr explicit LocalLeaderboardViewController(void* ptr) noexcept : GlobalNamespace::LeaderboardViewController(ptr) {
 }
 
 
@@ -89,77 +88,77 @@ constexpr void __set__maxNumberOfCells(int32_t value) ;
 
 constexpr int32_t __get__maxNumberOfCells() const;
 
- ::GlobalNamespace::LocalLeaderboardsModel __declspec(property(get=__get__localLeaderboardsModel, put=__set__localLeaderboardsModel))  _localLeaderboardsModel;
+ GlobalNamespace::LocalLeaderboardsModel __declspec(property(get=__get__localLeaderboardsModel, put=__set__localLeaderboardsModel))  _localLeaderboardsModel;
 
-constexpr void __set__localLeaderboardsModel(::GlobalNamespace::LocalLeaderboardsModel value) ;
+constexpr void __set__localLeaderboardsModel(GlobalNamespace::LocalLeaderboardsModel value) ;
 
-constexpr ::GlobalNamespace::LocalLeaderboardsModel __get__localLeaderboardsModel() const;
+constexpr GlobalNamespace::LocalLeaderboardsModel __get__localLeaderboardsModel() const;
 
- ::GlobalNamespace::LocalLeaderboardTableView __declspec(property(get=__get__leaderboardTableView, put=__set__leaderboardTableView))  _leaderboardTableView;
+ GlobalNamespace::LocalLeaderboardTableView __declspec(property(get=__get__leaderboardTableView, put=__set__leaderboardTableView))  _leaderboardTableView;
 
-constexpr void __set__leaderboardTableView(::GlobalNamespace::LocalLeaderboardTableView value) ;
+constexpr void __set__leaderboardTableView(GlobalNamespace::LocalLeaderboardTableView value) ;
 
-constexpr ::GlobalNamespace::LocalLeaderboardTableView __get__leaderboardTableView() const;
+constexpr GlobalNamespace::LocalLeaderboardTableView __get__leaderboardTableView() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get__clearLeaderboardsWrapper, put=__set__clearLeaderboardsWrapper))  _clearLeaderboardsWrapper;
+ UnityEngine::GameObject __declspec(property(get=__get__clearLeaderboardsWrapper, put=__set__clearLeaderboardsWrapper))  _clearLeaderboardsWrapper;
 
-constexpr void __set__clearLeaderboardsWrapper(::UnityEngine::GameObject value) ;
+constexpr void __set__clearLeaderboardsWrapper(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__clearLeaderboardsWrapper() const;
+constexpr UnityEngine::GameObject __get__clearLeaderboardsWrapper() const;
 
- ::HMUI::NoTransitionsButton __declspec(property(get=__get__clearLeaderboardsButton, put=__set__clearLeaderboardsButton))  _clearLeaderboardsButton;
+ HMUI::NoTransitionsButton __declspec(property(get=__get__clearLeaderboardsButton, put=__set__clearLeaderboardsButton))  _clearLeaderboardsButton;
 
-constexpr void __set__clearLeaderboardsButton(::HMUI::NoTransitionsButton value) ;
+constexpr void __set__clearLeaderboardsButton(HMUI::NoTransitionsButton value) ;
 
-constexpr ::HMUI::NoTransitionsButton __get__clearLeaderboardsButton() const;
+constexpr HMUI::NoTransitionsButton __get__clearLeaderboardsButton() const;
 
- ::HMUI::IconSegmentedControl __declspec(property(get=__get__scopeSegmentedControl, put=__set__scopeSegmentedControl))  _scopeSegmentedControl;
+ HMUI::IconSegmentedControl __declspec(property(get=__get__scopeSegmentedControl, put=__set__scopeSegmentedControl))  _scopeSegmentedControl;
 
-constexpr void __set__scopeSegmentedControl(::HMUI::IconSegmentedControl value) ;
+constexpr void __set__scopeSegmentedControl(HMUI::IconSegmentedControl value) ;
 
-constexpr ::HMUI::IconSegmentedControl __get__scopeSegmentedControl() const;
+constexpr HMUI::IconSegmentedControl __get__scopeSegmentedControl() const;
 
- ::UnityEngine::Sprite __declspec(property(get=__get__allTimeLeaderboardIcon, put=__set__allTimeLeaderboardIcon))  _allTimeLeaderboardIcon;
+ UnityEngine::Sprite __declspec(property(get=__get__allTimeLeaderboardIcon, put=__set__allTimeLeaderboardIcon))  _allTimeLeaderboardIcon;
 
-constexpr void __set__allTimeLeaderboardIcon(::UnityEngine::Sprite value) ;
+constexpr void __set__allTimeLeaderboardIcon(UnityEngine::Sprite value) ;
 
-constexpr ::UnityEngine::Sprite __get__allTimeLeaderboardIcon() const;
+constexpr UnityEngine::Sprite __get__allTimeLeaderboardIcon() const;
 
- ::UnityEngine::Sprite __declspec(property(get=__get__todayLeaderboardIcon, put=__set__todayLeaderboardIcon))  _todayLeaderboardIcon;
+ UnityEngine::Sprite __declspec(property(get=__get__todayLeaderboardIcon, put=__set__todayLeaderboardIcon))  _todayLeaderboardIcon;
 
-constexpr void __set__todayLeaderboardIcon(::UnityEngine::Sprite value) ;
+constexpr void __set__todayLeaderboardIcon(UnityEngine::Sprite value) ;
 
-constexpr ::UnityEngine::Sprite __get__todayLeaderboardIcon() const;
+constexpr UnityEngine::Sprite __get__todayLeaderboardIcon() const;
 
- ::UnityEngine::Sprite __declspec(property(get=__get__clearLeaderboardIcon, put=__set__clearLeaderboardIcon))  _clearLeaderboardIcon;
+ UnityEngine::Sprite __declspec(property(get=__get__clearLeaderboardIcon, put=__set__clearLeaderboardIcon))  _clearLeaderboardIcon;
 
-constexpr void __set__clearLeaderboardIcon(::UnityEngine::Sprite value) ;
+constexpr void __set__clearLeaderboardIcon(UnityEngine::Sprite value) ;
 
-constexpr ::UnityEngine::Sprite __get__clearLeaderboardIcon() const;
+constexpr UnityEngine::Sprite __get__clearLeaderboardIcon() const;
 
- ::GlobalNamespace::PlayerDataModel __declspec(property(get=__get__playerDataModel, put=__set__playerDataModel))  _playerDataModel;
+ GlobalNamespace::PlayerDataModel __declspec(property(get=__get__playerDataModel, put=__set__playerDataModel))  _playerDataModel;
 
-constexpr void __set__playerDataModel(::GlobalNamespace::PlayerDataModel value) ;
+constexpr void __set__playerDataModel(GlobalNamespace::PlayerDataModel value) ;
 
-constexpr ::GlobalNamespace::PlayerDataModel __get__playerDataModel() const;
+constexpr GlobalNamespace::PlayerDataModel __get__playerDataModel() const;
 
- ::GlobalNamespace::ISaveData __declspec(property(get=__get__saveData, put=__set__saveData))  _saveData;
+ GlobalNamespace::ISaveData __declspec(property(get=__get__saveData, put=__set__saveData))  _saveData;
 
-constexpr void __set__saveData(::GlobalNamespace::ISaveData value) ;
+constexpr void __set__saveData(GlobalNamespace::ISaveData value) ;
 
-constexpr ::GlobalNamespace::ISaveData __get__saveData() const;
+constexpr GlobalNamespace::ISaveData __get__saveData() const;
 
-static ::GlobalNamespace::____GlobalNamespace__LocalLeaderboardsModel__LeaderboardType __declspec(property(get=__get__leaderboardType, put=__set__leaderboardType))  _leaderboardType;
+static GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__LeaderboardType __declspec(property(get=__get__leaderboardType, put=__set__leaderboardType))  _leaderboardType;
 
-static void __set__leaderboardType(::GlobalNamespace::____GlobalNamespace__LocalLeaderboardsModel__LeaderboardType value) ;
+static void __set__leaderboardType(GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__LeaderboardType value) ;
 
-static ::GlobalNamespace::____GlobalNamespace__LocalLeaderboardsModel__LeaderboardType __get__leaderboardType() ;
+static GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__LeaderboardType __get__leaderboardType() ;
 
- ::GlobalNamespace::IDifficultyBeatmap __declspec(property(get=__get__difficultyBeatmap, put=__set__difficultyBeatmap))  _difficultyBeatmap;
+ GlobalNamespace::IDifficultyBeatmap __declspec(property(get=__get__difficultyBeatmap, put=__set__difficultyBeatmap))  _difficultyBeatmap;
 
-constexpr void __set__difficultyBeatmap(::GlobalNamespace::IDifficultyBeatmap value) ;
+constexpr void __set__difficultyBeatmap(GlobalNamespace::IDifficultyBeatmap value) ;
 
-constexpr ::GlobalNamespace::IDifficultyBeatmap __get__difficultyBeatmap() const;
+constexpr GlobalNamespace::IDifficultyBeatmap __get__difficultyBeatmap() const;
 
  bool __declspec(property(get=__get__refreshIsNeeded, put=__set__refreshIsNeeded))  _refreshIsNeeded;
 
@@ -176,13 +175,13 @@ constexpr bool __get__enableClear() const;
 
 // Properties
 
- ::GlobalNamespace::LocalLeaderboardsModel __declspec(property(get=get_leaderboardsModel))  leaderboardsModel;
+ GlobalNamespace::LocalLeaderboardsModel __declspec(property(get=get_leaderboardsModel))  leaderboardsModel;
 
 
 // Methods
 
 /// @brief Method get_leaderboardsModel addr 0x2170f50 size 0x8 virtual false final false
- ::GlobalNamespace::LocalLeaderboardsModel get_leaderboardsModel() ;
+ GlobalNamespace::LocalLeaderboardsModel get_leaderboardsModel() ;
 
 /// @brief Method OnEnable addr 0x2170f58 size 0x24 virtual false final false
  void OnEnable() ;
@@ -194,7 +193,7 @@ constexpr bool __get__enableClear() const;
  void Setup(bool enableClear) ;
 
 /// @brief Method SetData addr 0x2170fac size 0x2c virtual true final false
- void SetData(::GlobalNamespace::IDifficultyBeatmap difficultyBeatmap) ;
+ void SetData(GlobalNamespace::IDifficultyBeatmap difficultyBeatmap) ;
 
 /// @brief Method DidActivate addr 0x217103c size 0x1e0 virtual true final false
  void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) ;
@@ -209,16 +208,16 @@ constexpr bool __get__enableClear() const;
  void RefreshScopeSegmentedControl() ;
 
 /// @brief Method HandleScopeSegmentedControlDidSelectCell addr 0x21714f0 size 0x130 virtual false final false
- void HandleScopeSegmentedControlDidSelectCell(::HMUI::SegmentedControl segmentedControl, int32_t cellNumber) ;
+ void HandleScopeSegmentedControlDidSelectCell(HMUI::SegmentedControl segmentedControl, int32_t cellNumber) ;
 
 /// @brief Method ClearLeaderboards addr 0x21717c4 size 0x60 virtual false final false
  void ClearLeaderboards() ;
 
 /// @brief Method SetContent addr 0x2171824 size 0x78 virtual false final false
- void SetContent(::StringW leaderboardID, ::GlobalNamespace::____GlobalNamespace__LocalLeaderboardsModel__LeaderboardType leaderboardType) ;
+ void SetContent(::StringW leaderboardID, GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__LeaderboardType leaderboardType) ;
 
 /// @brief Method HandleNewScoreWasAddedToLeaderboard addr 0x217189c size 0xa8 virtual false final false
- void HandleNewScoreWasAddedToLeaderboard(::StringW leaderboardID, ::GlobalNamespace::____GlobalNamespace__LocalLeaderboardsModel__LeaderboardType leaderboardType) ;
+ void HandleNewScoreWasAddedToLeaderboard(::StringW leaderboardID, GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__LeaderboardType leaderboardType) ;
 
 /// @brief Method Refresh addr 0x2170fd8 size 0x64 virtual false final false
  void Refresh() ;
@@ -236,6 +235,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LocalLeaderboardViewController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LocalLeaderboardViewController, "", "LocalLeaderboardViewController");
+NEED_NO_BOX(GlobalNamespace::LocalLeaderboardViewController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalLeaderboardViewController, "", "LocalLeaderboardViewController");

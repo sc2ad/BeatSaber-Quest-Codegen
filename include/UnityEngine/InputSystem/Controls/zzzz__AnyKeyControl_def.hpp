@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
 #include <cmath>
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem::Controls {
 class AnyKeyControl;
@@ -13,7 +12,7 @@ namespace UnityEngine::InputSystem::Controls {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6712))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6709))
 // CS Name: UnityEngine.InputSystem.Controls.AnyKeyControl
-class CORDL_TYPE AnyKeyControl : public ::UnityEngine::InputSystem::Controls::ButtonControl {
+class CORDL_TYPE AnyKeyControl : public UnityEngine::InputSystem::Controls::ButtonControl {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr AnyKeyControl(AnyKeyControl const& ) noexcept = default;
 constexpr AnyKeyControl(AnyKeyControl&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AnyKeyControl(void* ptr) noexcept : ::UnityEngine::InputSystem::Controls::ButtonControl(ptr) {
+constexpr explicit AnyKeyControl(void* ptr) noexcept : UnityEngine::InputSystem::Controls::ButtonControl(ptr) {
 }
 
 
@@ -62,6 +61,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Controls
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Controls::AnyKeyControl);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Controls::AnyKeyControl, "UnityEngine.InputSystem.Controls", "AnyKeyControl");
+NEED_NO_BOX(UnityEngine::InputSystem::Controls::AnyKeyControl);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Controls::AnyKeyControl, "UnityEngine.InputSystem.Controls", "AnyKeyControl");

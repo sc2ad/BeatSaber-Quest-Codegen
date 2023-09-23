@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::IO {
 class Stream;
 }
@@ -54,26 +53,26 @@ constexpr explicit CmsContentInfoParser(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 // Fields
 
- ::Org::BouncyCastle::Asn1::Cms::ContentInfoParser __declspec(property(get=__get_contentInfo, put=__set_contentInfo))  contentInfo;
+ Org::BouncyCastle::Asn1::Cms::ContentInfoParser __declspec(property(get=__get_contentInfo, put=__set_contentInfo))  contentInfo;
 
-constexpr void __set_contentInfo(::Org::BouncyCastle::Asn1::Cms::ContentInfoParser value) ;
+constexpr void __set_contentInfo(Org::BouncyCastle::Asn1::Cms::ContentInfoParser value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfoParser __get_contentInfo() const;
+constexpr Org::BouncyCastle::Asn1::Cms::ContentInfoParser __get_contentInfo() const;
 
- ::System::IO::Stream __declspec(property(get=__get_data, put=__set_data))  data;
+ System::IO::Stream __declspec(property(get=__get_data, put=__set_data))  data;
 
-constexpr void __set_data(::System::IO::Stream value) ;
+constexpr void __set_data(System::IO::Stream value) ;
 
-constexpr ::System::IO::Stream __get_data() const;
+constexpr System::IO::Stream __get_data() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "data", ty: "::System::IO::Stream", modifiers: "", def_value: None }]
-explicit CmsContentInfoParser(::System::IO::Stream data) ;
+// Ctor Parameters [CppParam { name: "data", ty: "System::IO::Stream", modifiers: "", def_value: None }]
+explicit CmsContentInfoParser(System::IO::Stream data) ;
 
 /// @brief Method .ctor addr 0x1150394 size 0x248 virtual false final false
- void _ctor(::System::IO::Stream data) ;
+ void _ctor(System::IO::Stream data) ;
 
 /// @brief Method Close addr 0x11505dc size 0x5c virtual false final false
  void Close() ;
@@ -82,6 +81,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Cms
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Cms::CmsContentInfoParser);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::CmsContentInfoParser, "Org.BouncyCastle.Cms", "CmsContentInfoParser");
+NEED_NO_BOX(Org::BouncyCastle::Cms::CmsContentInfoParser);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Cms::CmsContentInfoParser, "Org.BouncyCastle.Cms", "CmsContentInfoParser");

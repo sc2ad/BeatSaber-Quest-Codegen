@@ -3,18 +3,17 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputStateTypeInfo;
+}
 namespace UnityEngine {
 struct Vector2;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
 }
 namespace UnityEngine::InputSystem {
 struct PenButton;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputStateTypeInfo;
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -29,11 +28,11 @@ namespace UnityEngine::InputSystem::LowLevel {
 struct CORDL_TYPE PenState : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo
-constexpr operator  ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo() const;
+/// @brief Convert operator to UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo
+constexpr operator  UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo() const;
 
-// Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "delta", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "tilt", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "pressure", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "twist", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "buttons", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "displayIndex", ty: "uint16_t", modifiers: "", def_value: None }]
-constexpr PenState(::UnityEngine::Vector2 position, ::UnityEngine::Vector2 delta, ::UnityEngine::Vector2 tilt, float_t pressure, float_t twist, uint16_t buttons, uint16_t displayIndex) noexcept;
+// Ctor Parameters [CppParam { name: "position", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "delta", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "tilt", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "pressure", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "twist", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "buttons", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "displayIndex", ty: "uint16_t", modifiers: "", def_value: None }]
+constexpr PenState(UnityEngine::Vector2 position, UnityEngine::Vector2 delta, UnityEngine::Vector2 tilt, float_t pressure, float_t twist, uint16_t buttons, uint16_t displayIndex) noexcept;
 
 
                     constexpr PenState(PenState const&) = default;
@@ -66,23 +65,23 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_position, put=__set_position))  position;
+ UnityEngine::Vector2 __declspec(property(get=__get_position, put=__set_position))  position;
 
-constexpr void __set_position(::UnityEngine::Vector2 value) ;
+constexpr void __set_position(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_position() const;
+constexpr UnityEngine::Vector2 __get_position() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_delta, put=__set_delta))  delta;
+ UnityEngine::Vector2 __declspec(property(get=__get_delta, put=__set_delta))  delta;
 
-constexpr void __set_delta(::UnityEngine::Vector2 value) ;
+constexpr void __set_delta(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_delta() const;
+constexpr UnityEngine::Vector2 __get_delta() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_tilt, put=__set_tilt))  tilt;
+ UnityEngine::Vector2 __declspec(property(get=__get_tilt, put=__set_tilt))  tilt;
 
-constexpr void __set_tilt(::UnityEngine::Vector2 value) ;
+constexpr void __set_tilt(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_tilt() const;
+constexpr UnityEngine::Vector2 __get_tilt() const;
 
  float_t __declspec(property(get=__get_pressure, put=__set_pressure))  pressure;
 
@@ -111,25 +110,24 @@ constexpr uint16_t __get_displayIndex() const;
 
 // Properties
 
-static ::UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_Format))  Format;
+static UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_Format))  Format;
 
- ::UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_format))  format;
+ UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_format))  format;
 
 
 // Methods
 
 /// @brief Method get_Format addr 0x2956118 size 0x30 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::FourCC get_Format() ;
+static UnityEngine::InputSystem::Utilities::FourCC get_Format() ;
 
 /// @brief Method WithButton addr 0x2956148 size 0x34 virtual false final false
- ::UnityEngine::InputSystem::LowLevel::PenState WithButton(::UnityEngine::InputSystem::PenButton button, bool state) ;
+ UnityEngine::InputSystem::LowLevel::PenState WithButton(UnityEngine::InputSystem::PenButton button, bool state) ;
 
 /// @brief Method get_format addr 0x295617c size 0x30 virtual true final true
- ::UnityEngine::InputSystem::Utilities::FourCC get_format() ;
+ UnityEngine::InputSystem::Utilities::FourCC get_format() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::LowLevel
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::PenState, "UnityEngine.InputSystem.LowLevel", "PenState");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::LowLevel::PenState, "UnityEngine.InputSystem.LowLevel", "PenState");

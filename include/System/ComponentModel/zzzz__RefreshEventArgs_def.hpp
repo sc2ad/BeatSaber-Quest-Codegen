@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__EventArgs_def.hpp"
-namespace {
 namespace System {
 class Type;
 }
@@ -15,7 +14,7 @@ namespace System::ComponentModel {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2376))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8302))
 // CS Name: System.ComponentModel.RefreshEventArgs
-class CORDL_TYPE RefreshEventArgs : public ::System::EventArgs {
+class CORDL_TYPE RefreshEventArgs : public System::EventArgs {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr RefreshEventArgs(RefreshEventArgs const& ) noexcept = default;
 constexpr RefreshEventArgs(RefreshEventArgs&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RefreshEventArgs(void* ptr) noexcept : ::System::EventArgs(ptr) {
+constexpr explicit RefreshEventArgs(void* ptr) noexcept : System::EventArgs(ptr) {
 }
 
 
@@ -51,25 +50,24 @@ constexpr explicit RefreshEventArgs(void* ptr) noexcept : ::System::EventArgs(pt
 
 // Fields
 
- ::System::Type __declspec(property(get=__get__TypeChanged_k__BackingField, put=__set__TypeChanged_k__BackingField))  _TypeChanged_k__BackingField;
+ System::Type __declspec(property(get=__get__TypeChanged_k__BackingField, put=__set__TypeChanged_k__BackingField))  _TypeChanged_k__BackingField;
 
-constexpr void __set__TypeChanged_k__BackingField(::System::Type value) ;
+constexpr void __set__TypeChanged_k__BackingField(System::Type value) ;
 
-constexpr ::System::Type __get__TypeChanged_k__BackingField() const;
+constexpr System::Type __get__TypeChanged_k__BackingField() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "typeChanged", ty: "::System::Type", modifiers: "", def_value: None }]
-explicit RefreshEventArgs(::System::Type typeChanged) ;
+// Ctor Parameters [CppParam { name: "typeChanged", ty: "System::Type", modifiers: "", def_value: None }]
+explicit RefreshEventArgs(System::Type typeChanged) ;
 
 /// @brief Method .ctor addr 0x27854c4 size 0x6c virtual false final false
- void _ctor(::System::Type typeChanged) ;
+ void _ctor(System::Type typeChanged) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::RefreshEventArgs);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::RefreshEventArgs, "System.ComponentModel", "RefreshEventArgs");
+NEED_NO_BOX(System::ComponentModel::RefreshEventArgs);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::RefreshEventArgs, "System.ComponentModel", "RefreshEventArgs");

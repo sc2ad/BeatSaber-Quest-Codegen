@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECDomainParameters;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -24,7 +23,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1037))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1039))
 // CS Name: Org.BouncyCastle.Crypto.Parameters.ECPublicKeyParameters
-class CORDL_TYPE ECPublicKeyParameters : public ::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters {
+class CORDL_TYPE ECPublicKeyParameters : public Org::BouncyCastle::Crypto::Parameters::ECKeyParameters {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr ECPublicKeyParameters(ECPublicKeyParameters const& ) noexcept = defaul
 constexpr ECPublicKeyParameters(ECPublicKeyParameters&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ECPublicKeyParameters(void* ptr) noexcept : ::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters(ptr) {
+constexpr explicit ECPublicKeyParameters(void* ptr) noexcept : Org::BouncyCastle::Crypto::Parameters::ECKeyParameters(ptr) {
 }
 
 
@@ -60,52 +59,52 @@ constexpr explicit ECPublicKeyParameters(void* ptr) noexcept : ::Org::BouncyCast
 
 // Fields
 
- ::Org::BouncyCastle::Math::EC::ECPoint __declspec(property(get=__get_q, put=__set_q))  q;
+ Org::BouncyCastle::Math::EC::ECPoint __declspec(property(get=__get_q, put=__set_q))  q;
 
-constexpr void __set_q(::Org::BouncyCastle::Math::EC::ECPoint value) ;
+constexpr void __set_q(Org::BouncyCastle::Math::EC::ECPoint value) ;
 
-constexpr ::Org::BouncyCastle::Math::EC::ECPoint __get_q() const;
+constexpr Org::BouncyCastle::Math::EC::ECPoint __get_q() const;
 
 
 // Properties
 
- ::Org::BouncyCastle::Math::EC::ECPoint __declspec(property(get=get_Q))  Q;
+ Org::BouncyCastle::Math::EC::ECPoint __declspec(property(get=get_Q))  Q;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "q", ty: "::Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters", modifiers: "", def_value: None }]
-explicit ECPublicKeyParameters(::Org::BouncyCastle::Math::EC::ECPoint q, ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters parameters) ;
+// Ctor Parameters [CppParam { name: "q", ty: "Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::ECDomainParameters", modifiers: "", def_value: None }]
+explicit ECPublicKeyParameters(Org::BouncyCastle::Math::EC::ECPoint q, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters parameters) ;
 
 /// @brief Method .ctor addr 0xea6b18 size 0x60 virtual false final false
- void _ctor(::Org::BouncyCastle::Math::EC::ECPoint q, ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters parameters) ;
+ void _ctor(Org::BouncyCastle::Math::EC::ECPoint q, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters parameters) ;
 
-// Ctor Parameters [CppParam { name: "q", ty: "::Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }, CppParam { name: "publicKeyParamSet", ty: "::Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
-explicit ECPublicKeyParameters(::Org::BouncyCastle::Math::EC::ECPoint q, ::Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet) ;
+// Ctor Parameters [CppParam { name: "q", ty: "Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }, CppParam { name: "publicKeyParamSet", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
+explicit ECPublicKeyParameters(Org::BouncyCastle::Math::EC::ECPoint q, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet) ;
 
 /// @brief Method .ctor addr 0xea6c14 size 0xa4 virtual false final false
- void _ctor(::Org::BouncyCastle::Math::EC::ECPoint q, ::Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet) ;
+ void _ctor(Org::BouncyCastle::Math::EC::ECPoint q, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet) ;
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "q", ty: "::Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters", modifiers: "", def_value: None }]
-explicit ECPublicKeyParameters(::StringW algorithm, ::Org::BouncyCastle::Math::EC::ECPoint q, ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters parameters) ;
+// Ctor Parameters [CppParam { name: "algorithm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "q", ty: "Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::ECDomainParameters", modifiers: "", def_value: None }]
+explicit ECPublicKeyParameters(::StringW algorithm, Org::BouncyCastle::Math::EC::ECPoint q, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters parameters) ;
 
 /// @brief Method .ctor addr 0xea6b78 size 0x9c virtual false final false
- void _ctor(::StringW algorithm, ::Org::BouncyCastle::Math::EC::ECPoint q, ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters parameters) ;
+ void _ctor(::StringW algorithm, Org::BouncyCastle::Math::EC::ECPoint q, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters parameters) ;
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "q", ty: "::Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }, CppParam { name: "publicKeyParamSet", ty: "::Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
-explicit ECPublicKeyParameters(::StringW algorithm, ::Org::BouncyCastle::Math::EC::ECPoint q, ::Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet) ;
+// Ctor Parameters [CppParam { name: "algorithm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "q", ty: "Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }, CppParam { name: "publicKeyParamSet", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
+explicit ECPublicKeyParameters(::StringW algorithm, Org::BouncyCastle::Math::EC::ECPoint q, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet) ;
 
 /// @brief Method .ctor addr 0xea6cb8 size 0x9c virtual false final false
- void _ctor(::StringW algorithm, ::Org::BouncyCastle::Math::EC::ECPoint q, ::Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet) ;
+ void _ctor(::StringW algorithm, Org::BouncyCastle::Math::EC::ECPoint q, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet) ;
 
 /// @brief Method get_Q addr 0xea6d54 size 0x8 virtual false final false
- ::Org::BouncyCastle::Math::EC::ECPoint get_Q() ;
+ Org::BouncyCastle::Math::EC::ECPoint get_Q() ;
 
 /// @brief Method Equals addr 0xea6d5c size 0x9c virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0xea6df8 size 0x5c virtual false final false
- bool Equals(::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters other) ;
+ bool Equals(Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters other) ;
 
 /// @brief Method GetHashCode addr 0xea6e54 size 0x40 virtual true final false
  int32_t GetHashCode() ;
@@ -114,6 +113,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Parameters
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters, "Org.BouncyCastle.Crypto.Parameters", "ECPublicKeyParameters");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters, "Org.BouncyCastle.Crypto.Parameters", "ECPublicKeyParameters");

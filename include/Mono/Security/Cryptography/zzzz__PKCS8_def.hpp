@@ -4,31 +4,30 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Security::Cryptography {
-class DSA;
-}
-namespace System::Security::Cryptography {
-struct DSAParameters;
-}
 namespace System::Security::Cryptography {
 class AsymmetricAlgorithm;
 }
 namespace System::Security::Cryptography {
 class RSA;
 }
+namespace System::Security::Cryptography {
+struct DSAParameters;
+}
+namespace System::Security::Cryptography {
+class DSA;
+}
 namespace System::Collections {
 class ArrayList;
 }
 // Forward declare root types
 namespace Mono::Security::Cryptography {
+class Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo;
+}
+namespace Mono::Security::Cryptography {
+class Mono__Security__Cryptography__PKCS8__PrivateKeyInfo;
+}
+namespace Mono::Security::Cryptography {
 class PKCS8;
-}
-namespace Mono::Security::Cryptography {
-class ____Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo;
-}
-namespace Mono::Security::Cryptography {
-class ____Mono__Security__Cryptography__PKCS8__PrivateKeyInfo;
 }
 // Type: ::PrivateKeyInfo
 namespace Mono::Security::Cryptography {
@@ -36,37 +35,37 @@ namespace Mono::Security::Cryptography {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14006))
 // CS Name: Mono.Security.Cryptography.PKCS8::PrivateKeyInfo
-class CORDL_TYPE ____Mono__Security__Cryptography__PKCS8__PrivateKeyInfo : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Mono__Security__Cryptography__PKCS8__PrivateKeyInfo : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____Mono__Security__Cryptography__PKCS8__PrivateKeyInfo() = default;
+virtual ~Mono__Security__Cryptography__PKCS8__PrivateKeyInfo() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Mono__Security__Cryptography__PKCS8__PrivateKeyInfo", modifiers: " const&", def_value: None }]
-constexpr ____Mono__Security__Cryptography__PKCS8__PrivateKeyInfo(____Mono__Security__Cryptography__PKCS8__PrivateKeyInfo const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Mono__Security__Cryptography__PKCS8__PrivateKeyInfo", modifiers: " const&", def_value: None }]
+constexpr Mono__Security__Cryptography__PKCS8__PrivateKeyInfo(Mono__Security__Cryptography__PKCS8__PrivateKeyInfo const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Mono__Security__Cryptography__PKCS8__PrivateKeyInfo", modifiers: "&&", def_value: None }]
-constexpr ____Mono__Security__Cryptography__PKCS8__PrivateKeyInfo(____Mono__Security__Cryptography__PKCS8__PrivateKeyInfo&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Mono__Security__Cryptography__PKCS8__PrivateKeyInfo", modifiers: "&&", def_value: None }]
+constexpr Mono__Security__Cryptography__PKCS8__PrivateKeyInfo(Mono__Security__Cryptography__PKCS8__PrivateKeyInfo&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Mono__Security__Cryptography__PKCS8__PrivateKeyInfo(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Mono__Security__Cryptography__PKCS8__PrivateKeyInfo(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Mono__Security__Cryptography__PKCS8__PrivateKeyInfo& operator=(std::nullptr_t) noexcept {
+  constexpr Mono__Security__Cryptography__PKCS8__PrivateKeyInfo& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Mono__Security__Cryptography__PKCS8__PrivateKeyInfo& operator=(void* o) noexcept {
+  constexpr Mono__Security__Cryptography__PKCS8__PrivateKeyInfo& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Mono__Security__Cryptography__PKCS8__PrivateKeyInfo& operator=(____Mono__Security__Cryptography__PKCS8__PrivateKeyInfo&& o) noexcept = default;
-  constexpr ____Mono__Security__Cryptography__PKCS8__PrivateKeyInfo& operator=(____Mono__Security__Cryptography__PKCS8__PrivateKeyInfo const& o) noexcept = default;
+  constexpr Mono__Security__Cryptography__PKCS8__PrivateKeyInfo& operator=(Mono__Security__Cryptography__PKCS8__PrivateKeyInfo&& o) noexcept = default;
+  constexpr Mono__Security__Cryptography__PKCS8__PrivateKeyInfo& operator=(Mono__Security__Cryptography__PKCS8__PrivateKeyInfo const& o) noexcept = default;
                 
 
 
@@ -90,11 +89,11 @@ constexpr void __set__key(::ArrayW<uint8_t> value) ;
 
 constexpr ::ArrayW<uint8_t> __get__key() const;
 
- ::System::Collections::ArrayList __declspec(property(get=__get__list, put=__set__list))  _list;
+ System::Collections::ArrayList __declspec(property(get=__get__list, put=__set__list))  _list;
 
-constexpr void __set__list(::System::Collections::ArrayList value) ;
+constexpr void __set__list(System::Collections::ArrayList value) ;
 
-constexpr ::System::Collections::ArrayList __get__list() const;
+constexpr System::Collections::ArrayList __get__list() const;
 
 
 // Properties
@@ -107,13 +106,13 @@ constexpr ::System::Collections::ArrayList __get__list() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____Mono__Security__Cryptography__PKCS8__PrivateKeyInfo() ;
+explicit Mono__Security__Cryptography__PKCS8__PrivateKeyInfo() ;
 
 /// @brief Method .ctor addr 0x2299724 size 0x70 virtual false final false
  void _ctor() ;
 
 // Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit ____Mono__Security__Cryptography__PKCS8__PrivateKeyInfo(::ArrayW<uint8_t> data) ;
+explicit Mono__Security__Cryptography__PKCS8__PrivateKeyInfo(::ArrayW<uint8_t> data) ;
 
 /// @brief Method .ctor addr 0x2299794 size 0x28 virtual false final false
  void _ctor(::ArrayW<uint8_t> data) ;
@@ -134,19 +133,19 @@ static ::ArrayW<uint8_t> RemoveLeadingZero(::ArrayW<uint8_t> bigInt) ;
 static ::ArrayW<uint8_t> Normalize(::ArrayW<uint8_t> bigInt, int32_t length) ;
 
 /// @brief Method DecodeRSA addr 0x2299bdc size 0x3d0 virtual false final false
-static ::System::Security::Cryptography::RSA DecodeRSA(::ArrayW<uint8_t> keypair) ;
+static System::Security::Cryptography::RSA DecodeRSA(::ArrayW<uint8_t> keypair) ;
 
 /// @brief Method Encode addr 0x2299fac size 0x1fc virtual false final false
-static ::ArrayW<uint8_t> Encode(::System::Security::Cryptography::RSA rsa) ;
+static ::ArrayW<uint8_t> Encode(System::Security::Cryptography::RSA rsa) ;
 
 /// @brief Method DecodeDSA addr 0x229a1a8 size 0x12c virtual false final false
-static ::System::Security::Cryptography::DSA DecodeDSA(::ArrayW<uint8_t> privateKey, ::System::Security::Cryptography::DSAParameters dsaParameters) ;
+static System::Security::Cryptography::DSA DecodeDSA(::ArrayW<uint8_t> privateKey, System::Security::Cryptography::DSAParameters dsaParameters) ;
 
 /// @brief Method Encode addr 0x229a2d4 size 0x4c virtual false final false
-static ::ArrayW<uint8_t> Encode(::System::Security::Cryptography::DSA dsa) ;
+static ::ArrayW<uint8_t> Encode(System::Security::Cryptography::DSA dsa) ;
 
 /// @brief Method Encode addr 0x229a320 size 0x128 virtual false final false
-static ::ArrayW<uint8_t> Encode(::System::Security::Cryptography::AsymmetricAlgorithm aa) ;
+static ::ArrayW<uint8_t> Encode(System::Security::Cryptography::AsymmetricAlgorithm aa) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -158,37 +157,37 @@ namespace Mono::Security::Cryptography {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14007))
 // CS Name: Mono.Security.Cryptography.PKCS8::EncryptedPrivateKeyInfo
-class CORDL_TYPE ____Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo() = default;
+virtual ~Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo", modifiers: " const&", def_value: None }]
-constexpr ____Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo(____Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo", modifiers: " const&", def_value: None }]
+constexpr Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo(Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo", modifiers: "&&", def_value: None }]
-constexpr ____Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo(____Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo", modifiers: "&&", def_value: None }]
+constexpr Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo(Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo& operator=(std::nullptr_t) noexcept {
+  constexpr Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo& operator=(void* o) noexcept {
+  constexpr Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo& operator=(____Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo&& o) noexcept = default;
-  constexpr ____Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo& operator=(____Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo const& o) noexcept = default;
+  constexpr Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo& operator=(Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo&& o) noexcept = default;
+  constexpr Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo& operator=(Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo const& o) noexcept = default;
                 
 
 
@@ -233,13 +232,13 @@ constexpr ::ArrayW<uint8_t> __get__data() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo() ;
+explicit Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo() ;
 
 /// @brief Method .ctor addr 0x229a448 size 0x8 virtual false final false
  void _ctor() ;
 
 // Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit ____Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo(::ArrayW<uint8_t> data) ;
+explicit Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo(::ArrayW<uint8_t> data) ;
 
 /// @brief Method .ctor addr 0x229a450 size 0x2c virtual false final false
  void _ctor(::ArrayW<uint8_t> data) ;
@@ -272,9 +271,9 @@ namespace Mono::Security::Cryptography {
 class CORDL_TYPE PKCS8 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using EncryptedPrivateKeyInfo = ::Mono::Security::Cryptography::____Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo;
+using EncryptedPrivateKeyInfo = Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo;
 
-using PrivateKeyInfo = ::Mono::Security::Cryptography::____Mono__Security__Cryptography__PKCS8__PrivateKeyInfo;
+using PrivateKeyInfo = Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__PrivateKeyInfo;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -310,10 +309,9 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Security::Cryptography::PKCS8);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Cryptography::PKCS8, "Mono.Security.Cryptography", "PKCS8");
-NEED_NO_BOX(::Mono::Security::Cryptography::____Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Cryptography::____Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo, "Mono.Security.Cryptography", "PKCS8/EncryptedPrivateKeyInfo");
-NEED_NO_BOX(::Mono::Security::Cryptography::____Mono__Security__Cryptography__PKCS8__PrivateKeyInfo);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Cryptography::____Mono__Security__Cryptography__PKCS8__PrivateKeyInfo, "Mono.Security.Cryptography", "PKCS8/PrivateKeyInfo");
+NEED_NO_BOX(Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo, "Mono.Security.Cryptography", "PKCS8/EncryptedPrivateKeyInfo");
+NEED_NO_BOX(Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__PrivateKeyInfo);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__PrivateKeyInfo, "Mono.Security.Cryptography", "PKCS8/PrivateKeyInfo");
+NEED_NO_BOX(Mono::Security::Cryptography::PKCS8);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::PKCS8, "Mono.Security.Cryptography", "PKCS8");

@@ -1,6 +1,5 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
 class IHasDefault;
@@ -30,6 +29,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::IHasDefault);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::IHasDefault, "UnityEngine.ProBuilder", "IHasDefault");
+NEED_NO_BOX(UnityEngine::ProBuilder::IHasDefault);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::IHasDefault, "UnityEngine.ProBuilder", "IHasDefault");

@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class ArgumentOutOfRangeException;
 }
@@ -59,7 +58,7 @@ constexpr explicit MiscellaneousUtils(void* ptr) noexcept : ::bs_hook::Il2CppWra
 static bool ValueEquals(::bs_hook::Il2CppWrapperType objA, ::bs_hook::Il2CppWrapperType objB) ;
 
 /// @brief Method CreateArgumentOutOfRangeException addr 0x24dde08 size 0x100 virtual false final false
-static ::System::ArgumentOutOfRangeException CreateArgumentOutOfRangeException(::StringW paramName, ::bs_hook::Il2CppWrapperType actualValue, ::StringW message) ;
+static System::ArgumentOutOfRangeException CreateArgumentOutOfRangeException(::StringW paramName, ::bs_hook::Il2CppWrapperType actualValue, ::StringW message) ;
 
 /// @brief Method ToString addr 0x24ed9e8 size 0xac virtual false final false
 static ::StringW ToString(::bs_hook::Il2CppWrapperType value) ;
@@ -83,6 +82,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Utilities
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Utilities::MiscellaneousUtils);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::MiscellaneousUtils, "Newtonsoft.Json.Utilities", "MiscellaneousUtils");
+NEED_NO_BOX(Newtonsoft::Json::Utilities::MiscellaneousUtils);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::MiscellaneousUtils, "Newtonsoft.Json.Utilities", "MiscellaneousUtils");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 struct TermInfoStrings;
@@ -460,1193 +459,1192 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field BackTab offset 0
-static ::System::TermInfoStrings const BackTab;
+static System::TermInfoStrings const BackTab;
 
 /// @brief Field Bell offset 0
-static ::System::TermInfoStrings const Bell;
+static System::TermInfoStrings const Bell;
 
 /// @brief Field CarriageReturn offset 0
-static ::System::TermInfoStrings const CarriageReturn;
+static System::TermInfoStrings const CarriageReturn;
 
 /// @brief Field ChangeScrollRegion offset 0
-static ::System::TermInfoStrings const ChangeScrollRegion;
+static System::TermInfoStrings const ChangeScrollRegion;
 
 /// @brief Field ClearAllTabs offset 0
-static ::System::TermInfoStrings const ClearAllTabs;
+static System::TermInfoStrings const ClearAllTabs;
 
 /// @brief Field ClearScreen offset 0
-static ::System::TermInfoStrings const ClearScreen;
+static System::TermInfoStrings const ClearScreen;
 
 /// @brief Field ClrEol offset 0
-static ::System::TermInfoStrings const ClrEol;
+static System::TermInfoStrings const ClrEol;
 
 /// @brief Field ClrEos offset 0
-static ::System::TermInfoStrings const ClrEos;
+static System::TermInfoStrings const ClrEos;
 
 /// @brief Field ColumnAddress offset 0
-static ::System::TermInfoStrings const ColumnAddress;
+static System::TermInfoStrings const ColumnAddress;
 
 /// @brief Field CommandCharacter offset 0
-static ::System::TermInfoStrings const CommandCharacter;
+static System::TermInfoStrings const CommandCharacter;
 
 /// @brief Field CursorAddress offset 0
-static ::System::TermInfoStrings const CursorAddress;
+static System::TermInfoStrings const CursorAddress;
 
 /// @brief Field CursorDown offset 0
-static ::System::TermInfoStrings const CursorDown;
+static System::TermInfoStrings const CursorDown;
 
 /// @brief Field CursorHome offset 0
-static ::System::TermInfoStrings const CursorHome;
+static System::TermInfoStrings const CursorHome;
 
 /// @brief Field CursorInvisible offset 0
-static ::System::TermInfoStrings const CursorInvisible;
+static System::TermInfoStrings const CursorInvisible;
 
 /// @brief Field CursorLeft offset 0
-static ::System::TermInfoStrings const CursorLeft;
+static System::TermInfoStrings const CursorLeft;
 
 /// @brief Field CursorMemAddress offset 0
-static ::System::TermInfoStrings const CursorMemAddress;
+static System::TermInfoStrings const CursorMemAddress;
 
 /// @brief Field CursorNormal offset 0
-static ::System::TermInfoStrings const CursorNormal;
+static System::TermInfoStrings const CursorNormal;
 
 /// @brief Field CursorRight offset 0
-static ::System::TermInfoStrings const CursorRight;
+static System::TermInfoStrings const CursorRight;
 
 /// @brief Field CursorToLl offset 0
-static ::System::TermInfoStrings const CursorToLl;
+static System::TermInfoStrings const CursorToLl;
 
 /// @brief Field CursorUp offset 0
-static ::System::TermInfoStrings const CursorUp;
+static System::TermInfoStrings const CursorUp;
 
 /// @brief Field CursorVisible offset 0
-static ::System::TermInfoStrings const CursorVisible;
+static System::TermInfoStrings const CursorVisible;
 
 /// @brief Field DeleteCharacter offset 0
-static ::System::TermInfoStrings const DeleteCharacter;
+static System::TermInfoStrings const DeleteCharacter;
 
 /// @brief Field DeleteLine offset 0
-static ::System::TermInfoStrings const DeleteLine;
+static System::TermInfoStrings const DeleteLine;
 
 /// @brief Field DisStatusLine offset 0
-static ::System::TermInfoStrings const DisStatusLine;
+static System::TermInfoStrings const DisStatusLine;
 
 /// @brief Field DownHalfLine offset 0
-static ::System::TermInfoStrings const DownHalfLine;
+static System::TermInfoStrings const DownHalfLine;
 
 /// @brief Field EnterAltCharsetMode offset 0
-static ::System::TermInfoStrings const EnterAltCharsetMode;
+static System::TermInfoStrings const EnterAltCharsetMode;
 
 /// @brief Field EnterBlinkMode offset 0
-static ::System::TermInfoStrings const EnterBlinkMode;
+static System::TermInfoStrings const EnterBlinkMode;
 
 /// @brief Field EnterBoldMode offset 0
-static ::System::TermInfoStrings const EnterBoldMode;
+static System::TermInfoStrings const EnterBoldMode;
 
 /// @brief Field EnterCaMode offset 0
-static ::System::TermInfoStrings const EnterCaMode;
+static System::TermInfoStrings const EnterCaMode;
 
 /// @brief Field EnterDeleteMode offset 0
-static ::System::TermInfoStrings const EnterDeleteMode;
+static System::TermInfoStrings const EnterDeleteMode;
 
 /// @brief Field EnterDimMode offset 0
-static ::System::TermInfoStrings const EnterDimMode;
+static System::TermInfoStrings const EnterDimMode;
 
 /// @brief Field EnterInsertMode offset 0
-static ::System::TermInfoStrings const EnterInsertMode;
+static System::TermInfoStrings const EnterInsertMode;
 
 /// @brief Field EnterSecureMode offset 0
-static ::System::TermInfoStrings const EnterSecureMode;
+static System::TermInfoStrings const EnterSecureMode;
 
 /// @brief Field EnterProtectedMode offset 0
-static ::System::TermInfoStrings const EnterProtectedMode;
+static System::TermInfoStrings const EnterProtectedMode;
 
 /// @brief Field EnterReverseMode offset 0
-static ::System::TermInfoStrings const EnterReverseMode;
+static System::TermInfoStrings const EnterReverseMode;
 
 /// @brief Field EnterStandoutMode offset 0
-static ::System::TermInfoStrings const EnterStandoutMode;
+static System::TermInfoStrings const EnterStandoutMode;
 
 /// @brief Field EnterUnderlineMode offset 0
-static ::System::TermInfoStrings const EnterUnderlineMode;
+static System::TermInfoStrings const EnterUnderlineMode;
 
 /// @brief Field EraseChars offset 0
-static ::System::TermInfoStrings const EraseChars;
+static System::TermInfoStrings const EraseChars;
 
 /// @brief Field ExitAltCharsetMode offset 0
-static ::System::TermInfoStrings const ExitAltCharsetMode;
+static System::TermInfoStrings const ExitAltCharsetMode;
 
 /// @brief Field ExitAttributeMode offset 0
-static ::System::TermInfoStrings const ExitAttributeMode;
+static System::TermInfoStrings const ExitAttributeMode;
 
 /// @brief Field ExitCaMode offset 0
-static ::System::TermInfoStrings const ExitCaMode;
+static System::TermInfoStrings const ExitCaMode;
 
 /// @brief Field ExitDeleteMode offset 0
-static ::System::TermInfoStrings const ExitDeleteMode;
+static System::TermInfoStrings const ExitDeleteMode;
 
 /// @brief Field ExitInsertMode offset 0
-static ::System::TermInfoStrings const ExitInsertMode;
+static System::TermInfoStrings const ExitInsertMode;
 
 /// @brief Field ExitStandoutMode offset 0
-static ::System::TermInfoStrings const ExitStandoutMode;
+static System::TermInfoStrings const ExitStandoutMode;
 
 /// @brief Field ExitUnderlineMode offset 0
-static ::System::TermInfoStrings const ExitUnderlineMode;
+static System::TermInfoStrings const ExitUnderlineMode;
 
 /// @brief Field FlashScreen offset 0
-static ::System::TermInfoStrings const FlashScreen;
+static System::TermInfoStrings const FlashScreen;
 
 /// @brief Field FormFeed offset 0
-static ::System::TermInfoStrings const FormFeed;
+static System::TermInfoStrings const FormFeed;
 
 /// @brief Field FromStatusLine offset 0
-static ::System::TermInfoStrings const FromStatusLine;
+static System::TermInfoStrings const FromStatusLine;
 
 /// @brief Field Init1string offset 0
-static ::System::TermInfoStrings const Init1string;
+static System::TermInfoStrings const Init1string;
 
 /// @brief Field Init2string offset 0
-static ::System::TermInfoStrings const Init2string;
+static System::TermInfoStrings const Init2string;
 
 /// @brief Field Init3string offset 0
-static ::System::TermInfoStrings const Init3string;
+static System::TermInfoStrings const Init3string;
 
 /// @brief Field InitFile offset 0
-static ::System::TermInfoStrings const InitFile;
+static System::TermInfoStrings const InitFile;
 
 /// @brief Field InsertCharacter offset 0
-static ::System::TermInfoStrings const InsertCharacter;
+static System::TermInfoStrings const InsertCharacter;
 
 /// @brief Field InsertLine offset 0
-static ::System::TermInfoStrings const InsertLine;
+static System::TermInfoStrings const InsertLine;
 
 /// @brief Field InsertPadding offset 0
-static ::System::TermInfoStrings const InsertPadding;
+static System::TermInfoStrings const InsertPadding;
 
 /// @brief Field KeyBackspace offset 0
-static ::System::TermInfoStrings const KeyBackspace;
+static System::TermInfoStrings const KeyBackspace;
 
 /// @brief Field KeyCatab offset 0
-static ::System::TermInfoStrings const KeyCatab;
+static System::TermInfoStrings const KeyCatab;
 
 /// @brief Field KeyClear offset 0
-static ::System::TermInfoStrings const KeyClear;
+static System::TermInfoStrings const KeyClear;
 
 /// @brief Field KeyCtab offset 0
-static ::System::TermInfoStrings const KeyCtab;
+static System::TermInfoStrings const KeyCtab;
 
 /// @brief Field KeyDc offset 0
-static ::System::TermInfoStrings const KeyDc;
+static System::TermInfoStrings const KeyDc;
 
 /// @brief Field KeyDl offset 0
-static ::System::TermInfoStrings const KeyDl;
+static System::TermInfoStrings const KeyDl;
 
 /// @brief Field KeyDown offset 0
-static ::System::TermInfoStrings const KeyDown;
+static System::TermInfoStrings const KeyDown;
 
 /// @brief Field KeyEic offset 0
-static ::System::TermInfoStrings const KeyEic;
+static System::TermInfoStrings const KeyEic;
 
 /// @brief Field KeyEol offset 0
-static ::System::TermInfoStrings const KeyEol;
+static System::TermInfoStrings const KeyEol;
 
 /// @brief Field KeyEos offset 0
-static ::System::TermInfoStrings const KeyEos;
+static System::TermInfoStrings const KeyEos;
 
 /// @brief Field KeyF0 offset 0
-static ::System::TermInfoStrings const KeyF0;
+static System::TermInfoStrings const KeyF0;
 
 /// @brief Field KeyF1 offset 0
-static ::System::TermInfoStrings const KeyF1;
+static System::TermInfoStrings const KeyF1;
 
 /// @brief Field KeyF10 offset 0
-static ::System::TermInfoStrings const KeyF10;
+static System::TermInfoStrings const KeyF10;
 
 /// @brief Field KeyF2 offset 0
-static ::System::TermInfoStrings const KeyF2;
+static System::TermInfoStrings const KeyF2;
 
 /// @brief Field KeyF3 offset 0
-static ::System::TermInfoStrings const KeyF3;
+static System::TermInfoStrings const KeyF3;
 
 /// @brief Field KeyF4 offset 0
-static ::System::TermInfoStrings const KeyF4;
+static System::TermInfoStrings const KeyF4;
 
 /// @brief Field KeyF5 offset 0
-static ::System::TermInfoStrings const KeyF5;
+static System::TermInfoStrings const KeyF5;
 
 /// @brief Field KeyF6 offset 0
-static ::System::TermInfoStrings const KeyF6;
+static System::TermInfoStrings const KeyF6;
 
 /// @brief Field KeyF7 offset 0
-static ::System::TermInfoStrings const KeyF7;
+static System::TermInfoStrings const KeyF7;
 
 /// @brief Field KeyF8 offset 0
-static ::System::TermInfoStrings const KeyF8;
+static System::TermInfoStrings const KeyF8;
 
 /// @brief Field KeyF9 offset 0
-static ::System::TermInfoStrings const KeyF9;
+static System::TermInfoStrings const KeyF9;
 
 /// @brief Field KeyHome offset 0
-static ::System::TermInfoStrings const KeyHome;
+static System::TermInfoStrings const KeyHome;
 
 /// @brief Field KeyIc offset 0
-static ::System::TermInfoStrings const KeyIc;
+static System::TermInfoStrings const KeyIc;
 
 /// @brief Field KeyIl offset 0
-static ::System::TermInfoStrings const KeyIl;
+static System::TermInfoStrings const KeyIl;
 
 /// @brief Field KeyLeft offset 0
-static ::System::TermInfoStrings const KeyLeft;
+static System::TermInfoStrings const KeyLeft;
 
 /// @brief Field KeyLl offset 0
-static ::System::TermInfoStrings const KeyLl;
+static System::TermInfoStrings const KeyLl;
 
 /// @brief Field KeyNpage offset 0
-static ::System::TermInfoStrings const KeyNpage;
+static System::TermInfoStrings const KeyNpage;
 
 /// @brief Field KeyPpage offset 0
-static ::System::TermInfoStrings const KeyPpage;
+static System::TermInfoStrings const KeyPpage;
 
 /// @brief Field KeyRight offset 0
-static ::System::TermInfoStrings const KeyRight;
+static System::TermInfoStrings const KeyRight;
 
 /// @brief Field KeySf offset 0
-static ::System::TermInfoStrings const KeySf;
+static System::TermInfoStrings const KeySf;
 
 /// @brief Field KeySr offset 0
-static ::System::TermInfoStrings const KeySr;
+static System::TermInfoStrings const KeySr;
 
 /// @brief Field KeyStab offset 0
-static ::System::TermInfoStrings const KeyStab;
+static System::TermInfoStrings const KeyStab;
 
 /// @brief Field KeyUp offset 0
-static ::System::TermInfoStrings const KeyUp;
+static System::TermInfoStrings const KeyUp;
 
 /// @brief Field KeypadLocal offset 0
-static ::System::TermInfoStrings const KeypadLocal;
+static System::TermInfoStrings const KeypadLocal;
 
 /// @brief Field KeypadXmit offset 0
-static ::System::TermInfoStrings const KeypadXmit;
+static System::TermInfoStrings const KeypadXmit;
 
 /// @brief Field LabF0 offset 0
-static ::System::TermInfoStrings const LabF0;
+static System::TermInfoStrings const LabF0;
 
 /// @brief Field LabF1 offset 0
-static ::System::TermInfoStrings const LabF1;
+static System::TermInfoStrings const LabF1;
 
 /// @brief Field LabF10 offset 0
-static ::System::TermInfoStrings const LabF10;
+static System::TermInfoStrings const LabF10;
 
 /// @brief Field LabF2 offset 0
-static ::System::TermInfoStrings const LabF2;
+static System::TermInfoStrings const LabF2;
 
 /// @brief Field LabF3 offset 0
-static ::System::TermInfoStrings const LabF3;
+static System::TermInfoStrings const LabF3;
 
 /// @brief Field LabF4 offset 0
-static ::System::TermInfoStrings const LabF4;
+static System::TermInfoStrings const LabF4;
 
 /// @brief Field LabF5 offset 0
-static ::System::TermInfoStrings const LabF5;
+static System::TermInfoStrings const LabF5;
 
 /// @brief Field LabF6 offset 0
-static ::System::TermInfoStrings const LabF6;
+static System::TermInfoStrings const LabF6;
 
 /// @brief Field LabF7 offset 0
-static ::System::TermInfoStrings const LabF7;
+static System::TermInfoStrings const LabF7;
 
 /// @brief Field LabF8 offset 0
-static ::System::TermInfoStrings const LabF8;
+static System::TermInfoStrings const LabF8;
 
 /// @brief Field LabF9 offset 0
-static ::System::TermInfoStrings const LabF9;
+static System::TermInfoStrings const LabF9;
 
 /// @brief Field MetaOff offset 0
-static ::System::TermInfoStrings const MetaOff;
+static System::TermInfoStrings const MetaOff;
 
 /// @brief Field MetaOn offset 0
-static ::System::TermInfoStrings const MetaOn;
+static System::TermInfoStrings const MetaOn;
 
 /// @brief Field Newline offset 0
-static ::System::TermInfoStrings const Newline;
+static System::TermInfoStrings const Newline;
 
 /// @brief Field PadChar offset 0
-static ::System::TermInfoStrings const PadChar;
+static System::TermInfoStrings const PadChar;
 
 /// @brief Field ParmDch offset 0
-static ::System::TermInfoStrings const ParmDch;
+static System::TermInfoStrings const ParmDch;
 
 /// @brief Field ParmDeleteLine offset 0
-static ::System::TermInfoStrings const ParmDeleteLine;
+static System::TermInfoStrings const ParmDeleteLine;
 
 /// @brief Field ParmDownCursor offset 0
-static ::System::TermInfoStrings const ParmDownCursor;
+static System::TermInfoStrings const ParmDownCursor;
 
 /// @brief Field ParmIch offset 0
-static ::System::TermInfoStrings const ParmIch;
+static System::TermInfoStrings const ParmIch;
 
 /// @brief Field ParmIndex offset 0
-static ::System::TermInfoStrings const ParmIndex;
+static System::TermInfoStrings const ParmIndex;
 
 /// @brief Field ParmInsertLine offset 0
-static ::System::TermInfoStrings const ParmInsertLine;
+static System::TermInfoStrings const ParmInsertLine;
 
 /// @brief Field ParmLeftCursor offset 0
-static ::System::TermInfoStrings const ParmLeftCursor;
+static System::TermInfoStrings const ParmLeftCursor;
 
 /// @brief Field ParmRightCursor offset 0
-static ::System::TermInfoStrings const ParmRightCursor;
+static System::TermInfoStrings const ParmRightCursor;
 
 /// @brief Field ParmRindex offset 0
-static ::System::TermInfoStrings const ParmRindex;
+static System::TermInfoStrings const ParmRindex;
 
 /// @brief Field ParmUpCursor offset 0
-static ::System::TermInfoStrings const ParmUpCursor;
+static System::TermInfoStrings const ParmUpCursor;
 
 /// @brief Field PkeyKey offset 0
-static ::System::TermInfoStrings const PkeyKey;
+static System::TermInfoStrings const PkeyKey;
 
 /// @brief Field PkeyLocal offset 0
-static ::System::TermInfoStrings const PkeyLocal;
+static System::TermInfoStrings const PkeyLocal;
 
 /// @brief Field PkeyXmit offset 0
-static ::System::TermInfoStrings const PkeyXmit;
+static System::TermInfoStrings const PkeyXmit;
 
 /// @brief Field PrintScreen offset 0
-static ::System::TermInfoStrings const PrintScreen;
+static System::TermInfoStrings const PrintScreen;
 
 /// @brief Field PrtrOff offset 0
-static ::System::TermInfoStrings const PrtrOff;
+static System::TermInfoStrings const PrtrOff;
 
 /// @brief Field PrtrOn offset 0
-static ::System::TermInfoStrings const PrtrOn;
+static System::TermInfoStrings const PrtrOn;
 
 /// @brief Field RepeatChar offset 0
-static ::System::TermInfoStrings const RepeatChar;
+static System::TermInfoStrings const RepeatChar;
 
 /// @brief Field Reset1string offset 0
-static ::System::TermInfoStrings const Reset1string;
+static System::TermInfoStrings const Reset1string;
 
 /// @brief Field Reset2string offset 0
-static ::System::TermInfoStrings const Reset2string;
+static System::TermInfoStrings const Reset2string;
 
 /// @brief Field Reset3string offset 0
-static ::System::TermInfoStrings const Reset3string;
+static System::TermInfoStrings const Reset3string;
 
 /// @brief Field ResetFile offset 0
-static ::System::TermInfoStrings const ResetFile;
+static System::TermInfoStrings const ResetFile;
 
 /// @brief Field RestoreCursor offset 0
-static ::System::TermInfoStrings const RestoreCursor;
+static System::TermInfoStrings const RestoreCursor;
 
 /// @brief Field RowAddress offset 0
-static ::System::TermInfoStrings const RowAddress;
+static System::TermInfoStrings const RowAddress;
 
 /// @brief Field SaveCursor offset 0
-static ::System::TermInfoStrings const SaveCursor;
+static System::TermInfoStrings const SaveCursor;
 
 /// @brief Field ScrollForward offset 0
-static ::System::TermInfoStrings const ScrollForward;
+static System::TermInfoStrings const ScrollForward;
 
 /// @brief Field ScrollReverse offset 0
-static ::System::TermInfoStrings const ScrollReverse;
+static System::TermInfoStrings const ScrollReverse;
 
 /// @brief Field SetAttributes offset 0
-static ::System::TermInfoStrings const SetAttributes;
+static System::TermInfoStrings const SetAttributes;
 
 /// @brief Field SetTab offset 0
-static ::System::TermInfoStrings const SetTab;
+static System::TermInfoStrings const SetTab;
 
 /// @brief Field SetWindow offset 0
-static ::System::TermInfoStrings const SetWindow;
+static System::TermInfoStrings const SetWindow;
 
 /// @brief Field Tab offset 0
-static ::System::TermInfoStrings const Tab;
+static System::TermInfoStrings const Tab;
 
 /// @brief Field ToStatusLine offset 0
-static ::System::TermInfoStrings const ToStatusLine;
+static System::TermInfoStrings const ToStatusLine;
 
 /// @brief Field UnderlineChar offset 0
-static ::System::TermInfoStrings const UnderlineChar;
+static System::TermInfoStrings const UnderlineChar;
 
 /// @brief Field UpHalfLine offset 0
-static ::System::TermInfoStrings const UpHalfLine;
+static System::TermInfoStrings const UpHalfLine;
 
 /// @brief Field InitProg offset 0
-static ::System::TermInfoStrings const InitProg;
+static System::TermInfoStrings const InitProg;
 
 /// @brief Field KeyA1 offset 0
-static ::System::TermInfoStrings const KeyA1;
+static System::TermInfoStrings const KeyA1;
 
 /// @brief Field KeyA3 offset 0
-static ::System::TermInfoStrings const KeyA3;
+static System::TermInfoStrings const KeyA3;
 
 /// @brief Field KeyB2 offset 0
-static ::System::TermInfoStrings const KeyB2;
+static System::TermInfoStrings const KeyB2;
 
 /// @brief Field KeyC1 offset 0
-static ::System::TermInfoStrings const KeyC1;
+static System::TermInfoStrings const KeyC1;
 
 /// @brief Field KeyC3 offset 0
-static ::System::TermInfoStrings const KeyC3;
+static System::TermInfoStrings const KeyC3;
 
 /// @brief Field PrtrNon offset 0
-static ::System::TermInfoStrings const PrtrNon;
+static System::TermInfoStrings const PrtrNon;
 
 /// @brief Field CharPadding offset 0
-static ::System::TermInfoStrings const CharPadding;
+static System::TermInfoStrings const CharPadding;
 
 /// @brief Field AcsChars offset 0
-static ::System::TermInfoStrings const AcsChars;
+static System::TermInfoStrings const AcsChars;
 
 /// @brief Field PlabNorm offset 0
-static ::System::TermInfoStrings const PlabNorm;
+static System::TermInfoStrings const PlabNorm;
 
 /// @brief Field KeyBtab offset 0
-static ::System::TermInfoStrings const KeyBtab;
+static System::TermInfoStrings const KeyBtab;
 
 /// @brief Field EnterXonMode offset 0
-static ::System::TermInfoStrings const EnterXonMode;
+static System::TermInfoStrings const EnterXonMode;
 
 /// @brief Field ExitXonMode offset 0
-static ::System::TermInfoStrings const ExitXonMode;
+static System::TermInfoStrings const ExitXonMode;
 
 /// @brief Field EnterAmMode offset 0
-static ::System::TermInfoStrings const EnterAmMode;
+static System::TermInfoStrings const EnterAmMode;
 
 /// @brief Field ExitAmMode offset 0
-static ::System::TermInfoStrings const ExitAmMode;
+static System::TermInfoStrings const ExitAmMode;
 
 /// @brief Field XonCharacter offset 0
-static ::System::TermInfoStrings const XonCharacter;
+static System::TermInfoStrings const XonCharacter;
 
 /// @brief Field XoffCharacter offset 0
-static ::System::TermInfoStrings const XoffCharacter;
+static System::TermInfoStrings const XoffCharacter;
 
 /// @brief Field EnaAcs offset 0
-static ::System::TermInfoStrings const EnaAcs;
+static System::TermInfoStrings const EnaAcs;
 
 /// @brief Field LabelOn offset 0
-static ::System::TermInfoStrings const LabelOn;
+static System::TermInfoStrings const LabelOn;
 
 /// @brief Field LabelOff offset 0
-static ::System::TermInfoStrings const LabelOff;
+static System::TermInfoStrings const LabelOff;
 
 /// @brief Field KeyBeg offset 0
-static ::System::TermInfoStrings const KeyBeg;
+static System::TermInfoStrings const KeyBeg;
 
 /// @brief Field KeyCancel offset 0
-static ::System::TermInfoStrings const KeyCancel;
+static System::TermInfoStrings const KeyCancel;
 
 /// @brief Field KeyClose offset 0
-static ::System::TermInfoStrings const KeyClose;
+static System::TermInfoStrings const KeyClose;
 
 /// @brief Field KeyCommand offset 0
-static ::System::TermInfoStrings const KeyCommand;
+static System::TermInfoStrings const KeyCommand;
 
 /// @brief Field KeyCopy offset 0
-static ::System::TermInfoStrings const KeyCopy;
+static System::TermInfoStrings const KeyCopy;
 
 /// @brief Field KeyCreate offset 0
-static ::System::TermInfoStrings const KeyCreate;
+static System::TermInfoStrings const KeyCreate;
 
 /// @brief Field KeyEnd offset 0
-static ::System::TermInfoStrings const KeyEnd;
+static System::TermInfoStrings const KeyEnd;
 
 /// @brief Field KeyEnter offset 0
-static ::System::TermInfoStrings const KeyEnter;
+static System::TermInfoStrings const KeyEnter;
 
 /// @brief Field KeyExit offset 0
-static ::System::TermInfoStrings const KeyExit;
+static System::TermInfoStrings const KeyExit;
 
 /// @brief Field KeyFind offset 0
-static ::System::TermInfoStrings const KeyFind;
+static System::TermInfoStrings const KeyFind;
 
 /// @brief Field KeyHelp offset 0
-static ::System::TermInfoStrings const KeyHelp;
+static System::TermInfoStrings const KeyHelp;
 
 /// @brief Field KeyMark offset 0
-static ::System::TermInfoStrings const KeyMark;
+static System::TermInfoStrings const KeyMark;
 
 /// @brief Field KeyMessage offset 0
-static ::System::TermInfoStrings const KeyMessage;
+static System::TermInfoStrings const KeyMessage;
 
 /// @brief Field KeyMove offset 0
-static ::System::TermInfoStrings const KeyMove;
+static System::TermInfoStrings const KeyMove;
 
 /// @brief Field KeyNext offset 0
-static ::System::TermInfoStrings const KeyNext;
+static System::TermInfoStrings const KeyNext;
 
 /// @brief Field KeyOpen offset 0
-static ::System::TermInfoStrings const KeyOpen;
+static System::TermInfoStrings const KeyOpen;
 
 /// @brief Field KeyOptions offset 0
-static ::System::TermInfoStrings const KeyOptions;
+static System::TermInfoStrings const KeyOptions;
 
 /// @brief Field KeyPrevious offset 0
-static ::System::TermInfoStrings const KeyPrevious;
+static System::TermInfoStrings const KeyPrevious;
 
 /// @brief Field KeyPrint offset 0
-static ::System::TermInfoStrings const KeyPrint;
+static System::TermInfoStrings const KeyPrint;
 
 /// @brief Field KeyRedo offset 0
-static ::System::TermInfoStrings const KeyRedo;
+static System::TermInfoStrings const KeyRedo;
 
 /// @brief Field KeyReference offset 0
-static ::System::TermInfoStrings const KeyReference;
+static System::TermInfoStrings const KeyReference;
 
 /// @brief Field KeyRefresh offset 0
-static ::System::TermInfoStrings const KeyRefresh;
+static System::TermInfoStrings const KeyRefresh;
 
 /// @brief Field KeyReplace offset 0
-static ::System::TermInfoStrings const KeyReplace;
+static System::TermInfoStrings const KeyReplace;
 
 /// @brief Field KeyRestart offset 0
-static ::System::TermInfoStrings const KeyRestart;
+static System::TermInfoStrings const KeyRestart;
 
 /// @brief Field KeyResume offset 0
-static ::System::TermInfoStrings const KeyResume;
+static System::TermInfoStrings const KeyResume;
 
 /// @brief Field KeySave offset 0
-static ::System::TermInfoStrings const KeySave;
+static System::TermInfoStrings const KeySave;
 
 /// @brief Field KeySuspend offset 0
-static ::System::TermInfoStrings const KeySuspend;
+static System::TermInfoStrings const KeySuspend;
 
 /// @brief Field KeyUndo offset 0
-static ::System::TermInfoStrings const KeyUndo;
+static System::TermInfoStrings const KeyUndo;
 
 /// @brief Field KeySbeg offset 0
-static ::System::TermInfoStrings const KeySbeg;
+static System::TermInfoStrings const KeySbeg;
 
 /// @brief Field KeyScancel offset 0
-static ::System::TermInfoStrings const KeyScancel;
+static System::TermInfoStrings const KeyScancel;
 
 /// @brief Field KeyScommand offset 0
-static ::System::TermInfoStrings const KeyScommand;
+static System::TermInfoStrings const KeyScommand;
 
 /// @brief Field KeyScopy offset 0
-static ::System::TermInfoStrings const KeyScopy;
+static System::TermInfoStrings const KeyScopy;
 
 /// @brief Field KeyScreate offset 0
-static ::System::TermInfoStrings const KeyScreate;
+static System::TermInfoStrings const KeyScreate;
 
 /// @brief Field KeySdc offset 0
-static ::System::TermInfoStrings const KeySdc;
+static System::TermInfoStrings const KeySdc;
 
 /// @brief Field KeySdl offset 0
-static ::System::TermInfoStrings const KeySdl;
+static System::TermInfoStrings const KeySdl;
 
 /// @brief Field KeySelect offset 0
-static ::System::TermInfoStrings const KeySelect;
+static System::TermInfoStrings const KeySelect;
 
 /// @brief Field KeySend offset 0
-static ::System::TermInfoStrings const KeySend;
+static System::TermInfoStrings const KeySend;
 
 /// @brief Field KeySeol offset 0
-static ::System::TermInfoStrings const KeySeol;
+static System::TermInfoStrings const KeySeol;
 
 /// @brief Field KeySexit offset 0
-static ::System::TermInfoStrings const KeySexit;
+static System::TermInfoStrings const KeySexit;
 
 /// @brief Field KeySfind offset 0
-static ::System::TermInfoStrings const KeySfind;
+static System::TermInfoStrings const KeySfind;
 
 /// @brief Field KeyShelp offset 0
-static ::System::TermInfoStrings const KeyShelp;
+static System::TermInfoStrings const KeyShelp;
 
 /// @brief Field KeyShome offset 0
-static ::System::TermInfoStrings const KeyShome;
+static System::TermInfoStrings const KeyShome;
 
 /// @brief Field KeySic offset 0
-static ::System::TermInfoStrings const KeySic;
+static System::TermInfoStrings const KeySic;
 
 /// @brief Field KeySleft offset 0
-static ::System::TermInfoStrings const KeySleft;
+static System::TermInfoStrings const KeySleft;
 
 /// @brief Field KeySmessage offset 0
-static ::System::TermInfoStrings const KeySmessage;
+static System::TermInfoStrings const KeySmessage;
 
 /// @brief Field KeySmove offset 0
-static ::System::TermInfoStrings const KeySmove;
+static System::TermInfoStrings const KeySmove;
 
 /// @brief Field KeySnext offset 0
-static ::System::TermInfoStrings const KeySnext;
+static System::TermInfoStrings const KeySnext;
 
 /// @brief Field KeySoptions offset 0
-static ::System::TermInfoStrings const KeySoptions;
+static System::TermInfoStrings const KeySoptions;
 
 /// @brief Field KeySprevious offset 0
-static ::System::TermInfoStrings const KeySprevious;
+static System::TermInfoStrings const KeySprevious;
 
 /// @brief Field KeySprint offset 0
-static ::System::TermInfoStrings const KeySprint;
+static System::TermInfoStrings const KeySprint;
 
 /// @brief Field KeySredo offset 0
-static ::System::TermInfoStrings const KeySredo;
+static System::TermInfoStrings const KeySredo;
 
 /// @brief Field KeySreplace offset 0
-static ::System::TermInfoStrings const KeySreplace;
+static System::TermInfoStrings const KeySreplace;
 
 /// @brief Field KeySright offset 0
-static ::System::TermInfoStrings const KeySright;
+static System::TermInfoStrings const KeySright;
 
 /// @brief Field KeySrsume offset 0
-static ::System::TermInfoStrings const KeySrsume;
+static System::TermInfoStrings const KeySrsume;
 
 /// @brief Field KeySsave offset 0
-static ::System::TermInfoStrings const KeySsave;
+static System::TermInfoStrings const KeySsave;
 
 /// @brief Field KeySsuspend offset 0
-static ::System::TermInfoStrings const KeySsuspend;
+static System::TermInfoStrings const KeySsuspend;
 
 /// @brief Field KeySundo offset 0
-static ::System::TermInfoStrings const KeySundo;
+static System::TermInfoStrings const KeySundo;
 
 /// @brief Field ReqForInput offset 0
-static ::System::TermInfoStrings const ReqForInput;
+static System::TermInfoStrings const ReqForInput;
 
 /// @brief Field KeyF11 offset 0
-static ::System::TermInfoStrings const KeyF11;
+static System::TermInfoStrings const KeyF11;
 
 /// @brief Field KeyF12 offset 0
-static ::System::TermInfoStrings const KeyF12;
+static System::TermInfoStrings const KeyF12;
 
 /// @brief Field KeyF13 offset 0
-static ::System::TermInfoStrings const KeyF13;
+static System::TermInfoStrings const KeyF13;
 
 /// @brief Field KeyF14 offset 0
-static ::System::TermInfoStrings const KeyF14;
+static System::TermInfoStrings const KeyF14;
 
 /// @brief Field KeyF15 offset 0
-static ::System::TermInfoStrings const KeyF15;
+static System::TermInfoStrings const KeyF15;
 
 /// @brief Field KeyF16 offset 0
-static ::System::TermInfoStrings const KeyF16;
+static System::TermInfoStrings const KeyF16;
 
 /// @brief Field KeyF17 offset 0
-static ::System::TermInfoStrings const KeyF17;
+static System::TermInfoStrings const KeyF17;
 
 /// @brief Field KeyF18 offset 0
-static ::System::TermInfoStrings const KeyF18;
+static System::TermInfoStrings const KeyF18;
 
 /// @brief Field KeyF19 offset 0
-static ::System::TermInfoStrings const KeyF19;
+static System::TermInfoStrings const KeyF19;
 
 /// @brief Field KeyF20 offset 0
-static ::System::TermInfoStrings const KeyF20;
+static System::TermInfoStrings const KeyF20;
 
 /// @brief Field KeyF21 offset 0
-static ::System::TermInfoStrings const KeyF21;
+static System::TermInfoStrings const KeyF21;
 
 /// @brief Field KeyF22 offset 0
-static ::System::TermInfoStrings const KeyF22;
+static System::TermInfoStrings const KeyF22;
 
 /// @brief Field KeyF23 offset 0
-static ::System::TermInfoStrings const KeyF23;
+static System::TermInfoStrings const KeyF23;
 
 /// @brief Field KeyF24 offset 0
-static ::System::TermInfoStrings const KeyF24;
+static System::TermInfoStrings const KeyF24;
 
 /// @brief Field KeyF25 offset 0
-static ::System::TermInfoStrings const KeyF25;
+static System::TermInfoStrings const KeyF25;
 
 /// @brief Field KeyF26 offset 0
-static ::System::TermInfoStrings const KeyF26;
+static System::TermInfoStrings const KeyF26;
 
 /// @brief Field KeyF27 offset 0
-static ::System::TermInfoStrings const KeyF27;
+static System::TermInfoStrings const KeyF27;
 
 /// @brief Field KeyF28 offset 0
-static ::System::TermInfoStrings const KeyF28;
+static System::TermInfoStrings const KeyF28;
 
 /// @brief Field KeyF29 offset 0
-static ::System::TermInfoStrings const KeyF29;
+static System::TermInfoStrings const KeyF29;
 
 /// @brief Field KeyF30 offset 0
-static ::System::TermInfoStrings const KeyF30;
+static System::TermInfoStrings const KeyF30;
 
 /// @brief Field KeyF31 offset 0
-static ::System::TermInfoStrings const KeyF31;
+static System::TermInfoStrings const KeyF31;
 
 /// @brief Field KeyF32 offset 0
-static ::System::TermInfoStrings const KeyF32;
+static System::TermInfoStrings const KeyF32;
 
 /// @brief Field KeyF33 offset 0
-static ::System::TermInfoStrings const KeyF33;
+static System::TermInfoStrings const KeyF33;
 
 /// @brief Field KeyF34 offset 0
-static ::System::TermInfoStrings const KeyF34;
+static System::TermInfoStrings const KeyF34;
 
 /// @brief Field KeyF35 offset 0
-static ::System::TermInfoStrings const KeyF35;
+static System::TermInfoStrings const KeyF35;
 
 /// @brief Field KeyF36 offset 0
-static ::System::TermInfoStrings const KeyF36;
+static System::TermInfoStrings const KeyF36;
 
 /// @brief Field KeyF37 offset 0
-static ::System::TermInfoStrings const KeyF37;
+static System::TermInfoStrings const KeyF37;
 
 /// @brief Field KeyF38 offset 0
-static ::System::TermInfoStrings const KeyF38;
+static System::TermInfoStrings const KeyF38;
 
 /// @brief Field KeyF39 offset 0
-static ::System::TermInfoStrings const KeyF39;
+static System::TermInfoStrings const KeyF39;
 
 /// @brief Field KeyF40 offset 0
-static ::System::TermInfoStrings const KeyF40;
+static System::TermInfoStrings const KeyF40;
 
 /// @brief Field KeyF41 offset 0
-static ::System::TermInfoStrings const KeyF41;
+static System::TermInfoStrings const KeyF41;
 
 /// @brief Field KeyF42 offset 0
-static ::System::TermInfoStrings const KeyF42;
+static System::TermInfoStrings const KeyF42;
 
 /// @brief Field KeyF43 offset 0
-static ::System::TermInfoStrings const KeyF43;
+static System::TermInfoStrings const KeyF43;
 
 /// @brief Field KeyF44 offset 0
-static ::System::TermInfoStrings const KeyF44;
+static System::TermInfoStrings const KeyF44;
 
 /// @brief Field KeyF45 offset 0
-static ::System::TermInfoStrings const KeyF45;
+static System::TermInfoStrings const KeyF45;
 
 /// @brief Field KeyF46 offset 0
-static ::System::TermInfoStrings const KeyF46;
+static System::TermInfoStrings const KeyF46;
 
 /// @brief Field KeyF47 offset 0
-static ::System::TermInfoStrings const KeyF47;
+static System::TermInfoStrings const KeyF47;
 
 /// @brief Field KeyF48 offset 0
-static ::System::TermInfoStrings const KeyF48;
+static System::TermInfoStrings const KeyF48;
 
 /// @brief Field KeyF49 offset 0
-static ::System::TermInfoStrings const KeyF49;
+static System::TermInfoStrings const KeyF49;
 
 /// @brief Field KeyF50 offset 0
-static ::System::TermInfoStrings const KeyF50;
+static System::TermInfoStrings const KeyF50;
 
 /// @brief Field KeyF51 offset 0
-static ::System::TermInfoStrings const KeyF51;
+static System::TermInfoStrings const KeyF51;
 
 /// @brief Field KeyF52 offset 0
-static ::System::TermInfoStrings const KeyF52;
+static System::TermInfoStrings const KeyF52;
 
 /// @brief Field KeyF53 offset 0
-static ::System::TermInfoStrings const KeyF53;
+static System::TermInfoStrings const KeyF53;
 
 /// @brief Field KeyF54 offset 0
-static ::System::TermInfoStrings const KeyF54;
+static System::TermInfoStrings const KeyF54;
 
 /// @brief Field KeyF55 offset 0
-static ::System::TermInfoStrings const KeyF55;
+static System::TermInfoStrings const KeyF55;
 
 /// @brief Field KeyF56 offset 0
-static ::System::TermInfoStrings const KeyF56;
+static System::TermInfoStrings const KeyF56;
 
 /// @brief Field KeyF57 offset 0
-static ::System::TermInfoStrings const KeyF57;
+static System::TermInfoStrings const KeyF57;
 
 /// @brief Field KeyF58 offset 0
-static ::System::TermInfoStrings const KeyF58;
+static System::TermInfoStrings const KeyF58;
 
 /// @brief Field KeyF59 offset 0
-static ::System::TermInfoStrings const KeyF59;
+static System::TermInfoStrings const KeyF59;
 
 /// @brief Field KeyF60 offset 0
-static ::System::TermInfoStrings const KeyF60;
+static System::TermInfoStrings const KeyF60;
 
 /// @brief Field KeyF61 offset 0
-static ::System::TermInfoStrings const KeyF61;
+static System::TermInfoStrings const KeyF61;
 
 /// @brief Field KeyF62 offset 0
-static ::System::TermInfoStrings const KeyF62;
+static System::TermInfoStrings const KeyF62;
 
 /// @brief Field KeyF63 offset 0
-static ::System::TermInfoStrings const KeyF63;
+static System::TermInfoStrings const KeyF63;
 
 /// @brief Field ClrBol offset 0
-static ::System::TermInfoStrings const ClrBol;
+static System::TermInfoStrings const ClrBol;
 
 /// @brief Field ClearMargins offset 0
-static ::System::TermInfoStrings const ClearMargins;
+static System::TermInfoStrings const ClearMargins;
 
 /// @brief Field SetLeftMargin offset 0
-static ::System::TermInfoStrings const SetLeftMargin;
+static System::TermInfoStrings const SetLeftMargin;
 
 /// @brief Field SetRightMargin offset 0
-static ::System::TermInfoStrings const SetRightMargin;
+static System::TermInfoStrings const SetRightMargin;
 
 /// @brief Field LabelFormat offset 0
-static ::System::TermInfoStrings const LabelFormat;
+static System::TermInfoStrings const LabelFormat;
 
 /// @brief Field SetClock offset 0
-static ::System::TermInfoStrings const SetClock;
+static System::TermInfoStrings const SetClock;
 
 /// @brief Field DisplayClock offset 0
-static ::System::TermInfoStrings const DisplayClock;
+static System::TermInfoStrings const DisplayClock;
 
 /// @brief Field RemoveClock offset 0
-static ::System::TermInfoStrings const RemoveClock;
+static System::TermInfoStrings const RemoveClock;
 
 /// @brief Field CreateWindow offset 0
-static ::System::TermInfoStrings const CreateWindow;
+static System::TermInfoStrings const CreateWindow;
 
 /// @brief Field GotoWindow offset 0
-static ::System::TermInfoStrings const GotoWindow;
+static System::TermInfoStrings const GotoWindow;
 
 /// @brief Field Hangup offset 0
-static ::System::TermInfoStrings const Hangup;
+static System::TermInfoStrings const Hangup;
 
 /// @brief Field DialPhone offset 0
-static ::System::TermInfoStrings const DialPhone;
+static System::TermInfoStrings const DialPhone;
 
 /// @brief Field QuickDial offset 0
-static ::System::TermInfoStrings const QuickDial;
+static System::TermInfoStrings const QuickDial;
 
 /// @brief Field Tone offset 0
-static ::System::TermInfoStrings const Tone;
+static System::TermInfoStrings const Tone;
 
 /// @brief Field Pulse offset 0
-static ::System::TermInfoStrings const Pulse;
+static System::TermInfoStrings const Pulse;
 
 /// @brief Field FlashHook offset 0
-static ::System::TermInfoStrings const FlashHook;
+static System::TermInfoStrings const FlashHook;
 
 /// @brief Field FixedPause offset 0
-static ::System::TermInfoStrings const FixedPause;
+static System::TermInfoStrings const FixedPause;
 
 /// @brief Field WaitTone offset 0
-static ::System::TermInfoStrings const WaitTone;
+static System::TermInfoStrings const WaitTone;
 
 /// @brief Field User0 offset 0
-static ::System::TermInfoStrings const User0;
+static System::TermInfoStrings const User0;
 
 /// @brief Field User1 offset 0
-static ::System::TermInfoStrings const User1;
+static System::TermInfoStrings const User1;
 
 /// @brief Field User2 offset 0
-static ::System::TermInfoStrings const User2;
+static System::TermInfoStrings const User2;
 
 /// @brief Field User3 offset 0
-static ::System::TermInfoStrings const User3;
+static System::TermInfoStrings const User3;
 
 /// @brief Field User4 offset 0
-static ::System::TermInfoStrings const User4;
+static System::TermInfoStrings const User4;
 
 /// @brief Field User5 offset 0
-static ::System::TermInfoStrings const User5;
+static System::TermInfoStrings const User5;
 
 /// @brief Field User6 offset 0
-static ::System::TermInfoStrings const User6;
+static System::TermInfoStrings const User6;
 
 /// @brief Field User7 offset 0
-static ::System::TermInfoStrings const User7;
+static System::TermInfoStrings const User7;
 
 /// @brief Field User8 offset 0
-static ::System::TermInfoStrings const User8;
+static System::TermInfoStrings const User8;
 
 /// @brief Field User9 offset 0
-static ::System::TermInfoStrings const User9;
+static System::TermInfoStrings const User9;
 
 /// @brief Field OrigPair offset 0
-static ::System::TermInfoStrings const OrigPair;
+static System::TermInfoStrings const OrigPair;
 
 /// @brief Field OrigColors offset 0
-static ::System::TermInfoStrings const OrigColors;
+static System::TermInfoStrings const OrigColors;
 
 /// @brief Field InitializeColor offset 0
-static ::System::TermInfoStrings const InitializeColor;
+static System::TermInfoStrings const InitializeColor;
 
 /// @brief Field InitializePair offset 0
-static ::System::TermInfoStrings const InitializePair;
+static System::TermInfoStrings const InitializePair;
 
 /// @brief Field SetColorPair offset 0
-static ::System::TermInfoStrings const SetColorPair;
+static System::TermInfoStrings const SetColorPair;
 
 /// @brief Field SetForeground offset 0
-static ::System::TermInfoStrings const SetForeground;
+static System::TermInfoStrings const SetForeground;
 
 /// @brief Field SetBackground offset 0
-static ::System::TermInfoStrings const SetBackground;
+static System::TermInfoStrings const SetBackground;
 
 /// @brief Field ChangeCharPitch offset 0
-static ::System::TermInfoStrings const ChangeCharPitch;
+static System::TermInfoStrings const ChangeCharPitch;
 
 /// @brief Field ChangeLinePitch offset 0
-static ::System::TermInfoStrings const ChangeLinePitch;
+static System::TermInfoStrings const ChangeLinePitch;
 
 /// @brief Field ChangeResHorz offset 0
-static ::System::TermInfoStrings const ChangeResHorz;
+static System::TermInfoStrings const ChangeResHorz;
 
 /// @brief Field ChangeResVert offset 0
-static ::System::TermInfoStrings const ChangeResVert;
+static System::TermInfoStrings const ChangeResVert;
 
 /// @brief Field DefineChar offset 0
-static ::System::TermInfoStrings const DefineChar;
+static System::TermInfoStrings const DefineChar;
 
 /// @brief Field EnterDoublewideMode offset 0
-static ::System::TermInfoStrings const EnterDoublewideMode;
+static System::TermInfoStrings const EnterDoublewideMode;
 
 /// @brief Field EnterDraftQuality offset 0
-static ::System::TermInfoStrings const EnterDraftQuality;
+static System::TermInfoStrings const EnterDraftQuality;
 
 /// @brief Field EnterItalicsMode offset 0
-static ::System::TermInfoStrings const EnterItalicsMode;
+static System::TermInfoStrings const EnterItalicsMode;
 
 /// @brief Field EnterLeftwardMode offset 0
-static ::System::TermInfoStrings const EnterLeftwardMode;
+static System::TermInfoStrings const EnterLeftwardMode;
 
 /// @brief Field EnterMicroMode offset 0
-static ::System::TermInfoStrings const EnterMicroMode;
+static System::TermInfoStrings const EnterMicroMode;
 
 /// @brief Field EnterNearLetterQuality offset 0
-static ::System::TermInfoStrings const EnterNearLetterQuality;
+static System::TermInfoStrings const EnterNearLetterQuality;
 
 /// @brief Field EnterNormalQuality offset 0
-static ::System::TermInfoStrings const EnterNormalQuality;
+static System::TermInfoStrings const EnterNormalQuality;
 
 /// @brief Field EnterShadowMode offset 0
-static ::System::TermInfoStrings const EnterShadowMode;
+static System::TermInfoStrings const EnterShadowMode;
 
 /// @brief Field EnterSubscriptMode offset 0
-static ::System::TermInfoStrings const EnterSubscriptMode;
+static System::TermInfoStrings const EnterSubscriptMode;
 
 /// @brief Field EnterSuperscriptMode offset 0
-static ::System::TermInfoStrings const EnterSuperscriptMode;
+static System::TermInfoStrings const EnterSuperscriptMode;
 
 /// @brief Field EnterUpwardMode offset 0
-static ::System::TermInfoStrings const EnterUpwardMode;
+static System::TermInfoStrings const EnterUpwardMode;
 
 /// @brief Field ExitDoublewideMode offset 0
-static ::System::TermInfoStrings const ExitDoublewideMode;
+static System::TermInfoStrings const ExitDoublewideMode;
 
 /// @brief Field ExitItalicsMode offset 0
-static ::System::TermInfoStrings const ExitItalicsMode;
+static System::TermInfoStrings const ExitItalicsMode;
 
 /// @brief Field ExitLeftwardMode offset 0
-static ::System::TermInfoStrings const ExitLeftwardMode;
+static System::TermInfoStrings const ExitLeftwardMode;
 
 /// @brief Field ExitMicroMode offset 0
-static ::System::TermInfoStrings const ExitMicroMode;
+static System::TermInfoStrings const ExitMicroMode;
 
 /// @brief Field ExitShadowMode offset 0
-static ::System::TermInfoStrings const ExitShadowMode;
+static System::TermInfoStrings const ExitShadowMode;
 
 /// @brief Field ExitSubscriptMode offset 0
-static ::System::TermInfoStrings const ExitSubscriptMode;
+static System::TermInfoStrings const ExitSubscriptMode;
 
 /// @brief Field ExitSuperscriptMode offset 0
-static ::System::TermInfoStrings const ExitSuperscriptMode;
+static System::TermInfoStrings const ExitSuperscriptMode;
 
 /// @brief Field ExitUpwardMode offset 0
-static ::System::TermInfoStrings const ExitUpwardMode;
+static System::TermInfoStrings const ExitUpwardMode;
 
 /// @brief Field MicroColumnAddress offset 0
-static ::System::TermInfoStrings const MicroColumnAddress;
+static System::TermInfoStrings const MicroColumnAddress;
 
 /// @brief Field MicroDown offset 0
-static ::System::TermInfoStrings const MicroDown;
+static System::TermInfoStrings const MicroDown;
 
 /// @brief Field MicroLeft offset 0
-static ::System::TermInfoStrings const MicroLeft;
+static System::TermInfoStrings const MicroLeft;
 
 /// @brief Field MicroRight offset 0
-static ::System::TermInfoStrings const MicroRight;
+static System::TermInfoStrings const MicroRight;
 
 /// @brief Field MicroRowAddress offset 0
-static ::System::TermInfoStrings const MicroRowAddress;
+static System::TermInfoStrings const MicroRowAddress;
 
 /// @brief Field MicroUp offset 0
-static ::System::TermInfoStrings const MicroUp;
+static System::TermInfoStrings const MicroUp;
 
 /// @brief Field OrderOfPins offset 0
-static ::System::TermInfoStrings const OrderOfPins;
+static System::TermInfoStrings const OrderOfPins;
 
 /// @brief Field ParmDownMicro offset 0
-static ::System::TermInfoStrings const ParmDownMicro;
+static System::TermInfoStrings const ParmDownMicro;
 
 /// @brief Field ParmLeftMicro offset 0
-static ::System::TermInfoStrings const ParmLeftMicro;
+static System::TermInfoStrings const ParmLeftMicro;
 
 /// @brief Field ParmRightMicro offset 0
-static ::System::TermInfoStrings const ParmRightMicro;
+static System::TermInfoStrings const ParmRightMicro;
 
 /// @brief Field ParmUpMicro offset 0
-static ::System::TermInfoStrings const ParmUpMicro;
+static System::TermInfoStrings const ParmUpMicro;
 
 /// @brief Field SelectCharSet offset 0
-static ::System::TermInfoStrings const SelectCharSet;
+static System::TermInfoStrings const SelectCharSet;
 
 /// @brief Field SetBottomMargin offset 0
-static ::System::TermInfoStrings const SetBottomMargin;
+static System::TermInfoStrings const SetBottomMargin;
 
 /// @brief Field SetBottomMarginParm offset 0
-static ::System::TermInfoStrings const SetBottomMarginParm;
+static System::TermInfoStrings const SetBottomMarginParm;
 
 /// @brief Field SetLeftMarginParm offset 0
-static ::System::TermInfoStrings const SetLeftMarginParm;
+static System::TermInfoStrings const SetLeftMarginParm;
 
 /// @brief Field SetRightMarginParm offset 0
-static ::System::TermInfoStrings const SetRightMarginParm;
+static System::TermInfoStrings const SetRightMarginParm;
 
 /// @brief Field SetTopMargin offset 0
-static ::System::TermInfoStrings const SetTopMargin;
+static System::TermInfoStrings const SetTopMargin;
 
 /// @brief Field SetTopMarginParm offset 0
-static ::System::TermInfoStrings const SetTopMarginParm;
+static System::TermInfoStrings const SetTopMarginParm;
 
 /// @brief Field StartBitImage offset 0
-static ::System::TermInfoStrings const StartBitImage;
+static System::TermInfoStrings const StartBitImage;
 
 /// @brief Field StartCharSetDef offset 0
-static ::System::TermInfoStrings const StartCharSetDef;
+static System::TermInfoStrings const StartCharSetDef;
 
 /// @brief Field StopBitImage offset 0
-static ::System::TermInfoStrings const StopBitImage;
+static System::TermInfoStrings const StopBitImage;
 
 /// @brief Field StopCharSetDef offset 0
-static ::System::TermInfoStrings const StopCharSetDef;
+static System::TermInfoStrings const StopCharSetDef;
 
 /// @brief Field SubscriptCharacters offset 0
-static ::System::TermInfoStrings const SubscriptCharacters;
+static System::TermInfoStrings const SubscriptCharacters;
 
 /// @brief Field SuperscriptCharacters offset 0
-static ::System::TermInfoStrings const SuperscriptCharacters;
+static System::TermInfoStrings const SuperscriptCharacters;
 
 /// @brief Field TheseCauseCr offset 0
-static ::System::TermInfoStrings const TheseCauseCr;
+static System::TermInfoStrings const TheseCauseCr;
 
 /// @brief Field ZeroMotion offset 0
-static ::System::TermInfoStrings const ZeroMotion;
+static System::TermInfoStrings const ZeroMotion;
 
 /// @brief Field CharSetNames offset 0
-static ::System::TermInfoStrings const CharSetNames;
+static System::TermInfoStrings const CharSetNames;
 
 /// @brief Field KeyMouse offset 0
-static ::System::TermInfoStrings const KeyMouse;
+static System::TermInfoStrings const KeyMouse;
 
 /// @brief Field MouseInfo offset 0
-static ::System::TermInfoStrings const MouseInfo;
+static System::TermInfoStrings const MouseInfo;
 
 /// @brief Field ReqMousePos offset 0
-static ::System::TermInfoStrings const ReqMousePos;
+static System::TermInfoStrings const ReqMousePos;
 
 /// @brief Field GetMouse offset 0
-static ::System::TermInfoStrings const GetMouse;
+static System::TermInfoStrings const GetMouse;
 
 /// @brief Field SetAForeground offset 0
-static ::System::TermInfoStrings const SetAForeground;
+static System::TermInfoStrings const SetAForeground;
 
 /// @brief Field SetABackground offset 0
-static ::System::TermInfoStrings const SetABackground;
+static System::TermInfoStrings const SetABackground;
 
 /// @brief Field PkeyPlab offset 0
-static ::System::TermInfoStrings const PkeyPlab;
+static System::TermInfoStrings const PkeyPlab;
 
 /// @brief Field DeviceType offset 0
-static ::System::TermInfoStrings const DeviceType;
+static System::TermInfoStrings const DeviceType;
 
 /// @brief Field CodeSetInit offset 0
-static ::System::TermInfoStrings const CodeSetInit;
+static System::TermInfoStrings const CodeSetInit;
 
 /// @brief Field Set0DesSeq offset 0
-static ::System::TermInfoStrings const Set0DesSeq;
+static System::TermInfoStrings const Set0DesSeq;
 
 /// @brief Field Set1DesSeq offset 0
-static ::System::TermInfoStrings const Set1DesSeq;
+static System::TermInfoStrings const Set1DesSeq;
 
 /// @brief Field Set2DesSeq offset 0
-static ::System::TermInfoStrings const Set2DesSeq;
+static System::TermInfoStrings const Set2DesSeq;
 
 /// @brief Field Set3DesSeq offset 0
-static ::System::TermInfoStrings const Set3DesSeq;
+static System::TermInfoStrings const Set3DesSeq;
 
 /// @brief Field SetLrMargin offset 0
-static ::System::TermInfoStrings const SetLrMargin;
+static System::TermInfoStrings const SetLrMargin;
 
 /// @brief Field SetTbMargin offset 0
-static ::System::TermInfoStrings const SetTbMargin;
+static System::TermInfoStrings const SetTbMargin;
 
 /// @brief Field BitImageRepeat offset 0
-static ::System::TermInfoStrings const BitImageRepeat;
+static System::TermInfoStrings const BitImageRepeat;
 
 /// @brief Field BitImageNewline offset 0
-static ::System::TermInfoStrings const BitImageNewline;
+static System::TermInfoStrings const BitImageNewline;
 
 /// @brief Field BitImageCarriageReturn offset 0
-static ::System::TermInfoStrings const BitImageCarriageReturn;
+static System::TermInfoStrings const BitImageCarriageReturn;
 
 /// @brief Field ColorNames offset 0
-static ::System::TermInfoStrings const ColorNames;
+static System::TermInfoStrings const ColorNames;
 
 /// @brief Field DefineBitImageRegion offset 0
-static ::System::TermInfoStrings const DefineBitImageRegion;
+static System::TermInfoStrings const DefineBitImageRegion;
 
 /// @brief Field EndBitImageRegion offset 0
-static ::System::TermInfoStrings const EndBitImageRegion;
+static System::TermInfoStrings const EndBitImageRegion;
 
 /// @brief Field SetColorBand offset 0
-static ::System::TermInfoStrings const SetColorBand;
+static System::TermInfoStrings const SetColorBand;
 
 /// @brief Field SetPageLength offset 0
-static ::System::TermInfoStrings const SetPageLength;
+static System::TermInfoStrings const SetPageLength;
 
 /// @brief Field DisplayPcChar offset 0
-static ::System::TermInfoStrings const DisplayPcChar;
+static System::TermInfoStrings const DisplayPcChar;
 
 /// @brief Field EnterPcCharsetMode offset 0
-static ::System::TermInfoStrings const EnterPcCharsetMode;
+static System::TermInfoStrings const EnterPcCharsetMode;
 
 /// @brief Field ExitPcCharsetMode offset 0
-static ::System::TermInfoStrings const ExitPcCharsetMode;
+static System::TermInfoStrings const ExitPcCharsetMode;
 
 /// @brief Field EnterScancodeMode offset 0
-static ::System::TermInfoStrings const EnterScancodeMode;
+static System::TermInfoStrings const EnterScancodeMode;
 
 /// @brief Field ExitScancodeMode offset 0
-static ::System::TermInfoStrings const ExitScancodeMode;
+static System::TermInfoStrings const ExitScancodeMode;
 
 /// @brief Field PcTermOptions offset 0
-static ::System::TermInfoStrings const PcTermOptions;
+static System::TermInfoStrings const PcTermOptions;
 
 /// @brief Field ScancodeEscape offset 0
-static ::System::TermInfoStrings const ScancodeEscape;
+static System::TermInfoStrings const ScancodeEscape;
 
 /// @brief Field AltScancodeEsc offset 0
-static ::System::TermInfoStrings const AltScancodeEsc;
+static System::TermInfoStrings const AltScancodeEsc;
 
 /// @brief Field EnterHorizontalHlMode offset 0
-static ::System::TermInfoStrings const EnterHorizontalHlMode;
+static System::TermInfoStrings const EnterHorizontalHlMode;
 
 /// @brief Field EnterLeftHlMode offset 0
-static ::System::TermInfoStrings const EnterLeftHlMode;
+static System::TermInfoStrings const EnterLeftHlMode;
 
 /// @brief Field EnterLowHlMode offset 0
-static ::System::TermInfoStrings const EnterLowHlMode;
+static System::TermInfoStrings const EnterLowHlMode;
 
 /// @brief Field EnterRightHlMode offset 0
-static ::System::TermInfoStrings const EnterRightHlMode;
+static System::TermInfoStrings const EnterRightHlMode;
 
 /// @brief Field EnterTopHlMode offset 0
-static ::System::TermInfoStrings const EnterTopHlMode;
+static System::TermInfoStrings const EnterTopHlMode;
 
 /// @brief Field EnterVerticalHlMode offset 0
-static ::System::TermInfoStrings const EnterVerticalHlMode;
+static System::TermInfoStrings const EnterVerticalHlMode;
 
 /// @brief Field SetAAttributes offset 0
-static ::System::TermInfoStrings const SetAAttributes;
+static System::TermInfoStrings const SetAAttributes;
 
 /// @brief Field SetPglenInch offset 0
-static ::System::TermInfoStrings const SetPglenInch;
+static System::TermInfoStrings const SetPglenInch;
 
 /// @brief Field Last offset 0
-static ::System::TermInfoStrings const Last;
+static System::TermInfoStrings const Last;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::TermInfoStrings, "System", "TermInfoStrings");
+DEFINE_IL2CPP_ARG_TYPE(System::TermInfoStrings, "System", "TermInfoStrings");

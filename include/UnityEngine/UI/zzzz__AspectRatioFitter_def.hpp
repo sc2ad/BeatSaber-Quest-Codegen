@@ -4,25 +4,24 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-struct DrivenRectTransformTracker;
-}
-namespace UnityEngine::UI {
-class ILayoutSelfController;
+class RectTransform;
 }
 namespace UnityEngine::UI {
 class ILayoutController;
 }
+namespace UnityEngine::UI {
+class ILayoutSelfController;
+}
 namespace UnityEngine {
-class RectTransform;
+struct DrivenRectTransformTracker;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
-struct ____UnityEngine__UI__AspectRatioFitter__AspectMode;
+struct UnityEngine__UI__AspectRatioFitter__AspectMode;
 }
 namespace UnityEngine::UI {
 class AspectRatioFitter;
@@ -33,20 +32,20 @@ namespace UnityEngine::UI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13009))
 // CS Name: UnityEngine.UI.AspectRatioFitter::AspectMode
-struct CORDL_TYPE ____UnityEngine__UI__AspectRatioFitter__AspectMode : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__UI__AspectRatioFitter__AspectMode : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__UI__AspectRatioFitter__AspectMode(int32_t value__) noexcept;
+constexpr UnityEngine__UI__AspectRatioFitter__AspectMode(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__UI__AspectRatioFitter__AspectMode(____UnityEngine__UI__AspectRatioFitter__AspectMode const&) = default;
-                    constexpr ____UnityEngine__UI__AspectRatioFitter__AspectMode(____UnityEngine__UI__AspectRatioFitter__AspectMode&&) = default;
-                    constexpr ____UnityEngine__UI__AspectRatioFitter__AspectMode& operator=(____UnityEngine__UI__AspectRatioFitter__AspectMode const& o) {
+                    constexpr UnityEngine__UI__AspectRatioFitter__AspectMode(UnityEngine__UI__AspectRatioFitter__AspectMode const&) = default;
+                    constexpr UnityEngine__UI__AspectRatioFitter__AspectMode(UnityEngine__UI__AspectRatioFitter__AspectMode&&) = default;
+                    constexpr UnityEngine__UI__AspectRatioFitter__AspectMode& operator=(UnityEngine__UI__AspectRatioFitter__AspectMode const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__UI__AspectRatioFitter__AspectMode& operator=(____UnityEngine__UI__AspectRatioFitter__AspectMode&& o) noexcept {
+                    constexpr UnityEngine__UI__AspectRatioFitter__AspectMode& operator=(UnityEngine__UI__AspectRatioFitter__AspectMode&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -59,7 +58,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UI__AspectRatioFitter__AspectMode(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__UI__AspectRatioFitter__AspectMode(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -67,7 +66,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__UI__AspectRatioFitter__AspectMode_Unwrapped : int32_t {
+enum class __UnityEngine__UI__AspectRatioFitter__AspectMode_Unwrapped : int32_t {
 __None = 0,
 __WidthControlsHeight = 1,
 __HeightControlsWidth = 2,
@@ -76,8 +75,8 @@ __EnvelopeParent = 4,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__UI__AspectRatioFitter__AspectMode_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__UI__AspectRatioFitter__AspectMode_Unwrapped>(__instance);
+constexpr operator __UnityEngine__UI__AspectRatioFitter__AspectMode_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__UI__AspectRatioFitter__AspectMode_Unwrapped>(__instance);
 }
 
 
@@ -90,19 +89,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__AspectRatioFitter__AspectMode const None;
+static UnityEngine::UI::UnityEngine__UI__AspectRatioFitter__AspectMode const None;
 
 /// @brief Field WidthControlsHeight offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__AspectRatioFitter__AspectMode const WidthControlsHeight;
+static UnityEngine::UI::UnityEngine__UI__AspectRatioFitter__AspectMode const WidthControlsHeight;
 
 /// @brief Field HeightControlsWidth offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__AspectRatioFitter__AspectMode const HeightControlsWidth;
+static UnityEngine::UI::UnityEngine__UI__AspectRatioFitter__AspectMode const HeightControlsWidth;
 
 /// @brief Field FitInParent offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__AspectRatioFitter__AspectMode const FitInParent;
+static UnityEngine::UI::UnityEngine__UI__AspectRatioFitter__AspectMode const FitInParent;
 
 /// @brief Field EnvelopeParent offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__AspectRatioFitter__AspectMode const EnvelopeParent;
+static UnityEngine::UI::UnityEngine__UI__AspectRatioFitter__AspectMode const EnvelopeParent;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -114,16 +113,16 @@ namespace UnityEngine::UI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13153))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13010))
 // CS Name: UnityEngine.UI.AspectRatioFitter
-class CORDL_TYPE AspectRatioFitter : public ::UnityEngine::EventSystems::UIBehaviour {
+class CORDL_TYPE AspectRatioFitter : public UnityEngine::EventSystems::UIBehaviour {
 public:
 // Declarations
-using AspectMode = ::UnityEngine::UI::____UnityEngine__UI__AspectRatioFitter__AspectMode;
+using AspectMode = UnityEngine::UI::UnityEngine__UI__AspectRatioFitter__AspectMode;
 
-/// @brief Convert operator to ::UnityEngine::UI::ILayoutSelfController
-constexpr operator  ::UnityEngine::UI::ILayoutSelfController() const noexcept;
+/// @brief Convert operator to UnityEngine::UI::ILayoutSelfController
+constexpr operator  UnityEngine::UI::ILayoutSelfController() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::UI::ILayoutController
-constexpr operator  ::UnityEngine::UI::ILayoutController() const noexcept;
+/// @brief Convert operator to UnityEngine::UI::ILayoutController
+constexpr operator  UnityEngine::UI::ILayoutController() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -137,7 +136,7 @@ constexpr AspectRatioFitter(AspectRatioFitter const& ) noexcept = default;
 constexpr AspectRatioFitter(AspectRatioFitter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AspectRatioFitter(void* ptr) noexcept : ::UnityEngine::EventSystems::UIBehaviour(ptr) {
+constexpr explicit AspectRatioFitter(void* ptr) noexcept : UnityEngine::EventSystems::UIBehaviour(ptr) {
 }
 
 
@@ -158,11 +157,11 @@ constexpr explicit AspectRatioFitter(void* ptr) noexcept : ::UnityEngine::EventS
 
 // Fields
 
- ::UnityEngine::UI::____UnityEngine__UI__AspectRatioFitter__AspectMode __declspec(property(get=__get_m_AspectMode, put=__set_m_AspectMode))  m_AspectMode;
+ UnityEngine::UI::UnityEngine__UI__AspectRatioFitter__AspectMode __declspec(property(get=__get_m_AspectMode, put=__set_m_AspectMode))  m_AspectMode;
 
-constexpr void __set_m_AspectMode(::UnityEngine::UI::____UnityEngine__UI__AspectRatioFitter__AspectMode value) ;
+constexpr void __set_m_AspectMode(UnityEngine::UI::UnityEngine__UI__AspectRatioFitter__AspectMode value) ;
 
-constexpr ::UnityEngine::UI::____UnityEngine__UI__AspectRatioFitter__AspectMode __get_m_AspectMode() const;
+constexpr UnityEngine::UI::UnityEngine__UI__AspectRatioFitter__AspectMode __get_m_AspectMode() const;
 
  float_t __declspec(property(get=__get_m_AspectRatio, put=__set_m_AspectRatio))  m_AspectRatio;
 
@@ -170,11 +169,11 @@ constexpr void __set_m_AspectRatio(float_t value) ;
 
 constexpr float_t __get_m_AspectRatio() const;
 
- ::UnityEngine::RectTransform __declspec(property(get=__get_m_Rect, put=__set_m_Rect))  m_Rect;
+ UnityEngine::RectTransform __declspec(property(get=__get_m_Rect, put=__set_m_Rect))  m_Rect;
 
-constexpr void __set_m_Rect(::UnityEngine::RectTransform value) ;
+constexpr void __set_m_Rect(UnityEngine::RectTransform value) ;
 
-constexpr ::UnityEngine::RectTransform __get_m_Rect() const;
+constexpr UnityEngine::RectTransform __get_m_Rect() const;
 
  bool __declspec(property(get=__get_m_DelayedSetDirty, put=__set_m_DelayedSetDirty))  m_DelayedSetDirty;
 
@@ -188,29 +187,29 @@ constexpr void __set_m_DoesParentExist(bool value) ;
 
 constexpr bool __get_m_DoesParentExist() const;
 
- ::UnityEngine::DrivenRectTransformTracker __declspec(property(get=__get_m_Tracker, put=__set_m_Tracker))  m_Tracker;
+ UnityEngine::DrivenRectTransformTracker __declspec(property(get=__get_m_Tracker, put=__set_m_Tracker))  m_Tracker;
 
-constexpr void __set_m_Tracker(::UnityEngine::DrivenRectTransformTracker value) ;
+constexpr void __set_m_Tracker(UnityEngine::DrivenRectTransformTracker value) ;
 
-constexpr ::UnityEngine::DrivenRectTransformTracker __get_m_Tracker() const;
+constexpr UnityEngine::DrivenRectTransformTracker __get_m_Tracker() const;
 
 
 // Properties
 
- ::UnityEngine::UI::____UnityEngine__UI__AspectRatioFitter__AspectMode __declspec(property(get=get_aspectMode, put=set_aspectMode))  aspectMode;
+ UnityEngine::UI::UnityEngine__UI__AspectRatioFitter__AspectMode __declspec(property(get=get_aspectMode, put=set_aspectMode))  aspectMode;
 
  float_t __declspec(property(get=get_aspectRatio, put=set_aspectRatio))  aspectRatio;
 
- ::UnityEngine::RectTransform __declspec(property(get=get_rectTransform))  rectTransform;
+ UnityEngine::RectTransform __declspec(property(get=get_rectTransform))  rectTransform;
 
 
 // Methods
 
 /// @brief Method get_aspectMode addr 0x2bfa078 size 0x8 virtual false final false
- ::UnityEngine::UI::____UnityEngine__UI__AspectRatioFitter__AspectMode get_aspectMode() ;
+ UnityEngine::UI::UnityEngine__UI__AspectRatioFitter__AspectMode get_aspectMode() ;
 
 /// @brief Method set_aspectMode addr 0x2bfa080 size 0x74 virtual false final false
- void set_aspectMode(::UnityEngine::UI::____UnityEngine__UI__AspectRatioFitter__AspectMode value) ;
+ void set_aspectMode(UnityEngine::UI::UnityEngine__UI__AspectRatioFitter__AspectMode value) ;
 
 /// @brief Method get_aspectRatio addr 0x2bfa0f8 size 0x8 virtual false final false
  float_t get_aspectRatio() ;
@@ -219,7 +218,7 @@ constexpr ::UnityEngine::DrivenRectTransformTracker __get_m_Tracker() const;
  void set_aspectRatio(float_t value) ;
 
 /// @brief Method get_rectTransform addr 0x2bfa174 size 0x94 virtual false final false
- ::UnityEngine::RectTransform get_rectTransform() ;
+ UnityEngine::RectTransform get_rectTransform() ;
 
 // Ctor Parameters []
 explicit AspectRatioFitter() ;
@@ -252,7 +251,7 @@ explicit AspectRatioFitter() ;
  float_t GetSizeDeltaToProduceSize(float_t size, int32_t axis) ;
 
 /// @brief Method GetParentSize addr 0x2bfac10 size 0x110 virtual false final false
- ::UnityEngine::Vector2 GetParentSize() ;
+ UnityEngine::Vector2 GetParentSize() ;
 
 /// @brief Method SetLayoutHorizontal addr 0x2bfae18 size 0x4 virtual true final false
  void SetLayoutHorizontal() ;
@@ -276,7 +275,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UI
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::____UnityEngine__UI__AspectRatioFitter__AspectMode, "UnityEngine.UI", "AspectRatioFitter/AspectMode");
-NEED_NO_BOX(::UnityEngine::UI::AspectRatioFitter);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::AspectRatioFitter, "UnityEngine.UI", "AspectRatioFitter");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::UnityEngine__UI__AspectRatioFitter__AspectMode, "UnityEngine.UI", "AspectRatioFitter/AspectMode");
+NEED_NO_BOX(UnityEngine::UI::AspectRatioFitter);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::AspectRatioFitter, "UnityEngine.UI", "AspectRatioFitter");

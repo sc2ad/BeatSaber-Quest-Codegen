@@ -3,7 +3,6 @@
 #include "UnityEngine/AddressableAssets/zzzz__AssetReferenceT_1_def.hpp"
 #include "UnityEngine/zzzz__Texture3D_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::AddressableAssets {
 class AssetReferenceTexture3D;
@@ -11,10 +10,10 @@ class AssetReferenceTexture3D;
 // Type: UnityEngine.AddressableAssets::AssetReferenceTexture3D
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14363), inst: 753 }), TypeDefinitionIndex(TypeDefinitionIndex(10017)), TypeDefinitionIndex(TypeDefinitionIndex(14363))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14363)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14363), inst: 753 }), TypeDefinitionIndex(TypeDefinitionIndex(10017))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14367))
 // CS Name: UnityEngine.AddressableAssets.AssetReferenceTexture3D
-class CORDL_TYPE AssetReferenceTexture3D : public ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityEngine::Texture3D> {
+class CORDL_TYPE AssetReferenceTexture3D : public UnityEngine::AddressableAssets::AssetReferenceT_1<UnityEngine::Texture3D> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr AssetReferenceTexture3D(AssetReferenceTexture3D const& ) noexcept = de
 constexpr AssetReferenceTexture3D(AssetReferenceTexture3D&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AssetReferenceTexture3D(void* ptr) noexcept : ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityEngine::Texture3D>(ptr) {
+constexpr explicit AssetReferenceTexture3D(void* ptr) noexcept : UnityEngine::AddressableAssets::AssetReferenceT_1<UnityEngine::Texture3D>(ptr) {
 }
 
 
@@ -60,6 +59,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::AddressableAssets
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AddressableAssets::AssetReferenceTexture3D);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::AssetReferenceTexture3D, "UnityEngine.AddressableAssets", "AssetReferenceTexture3D");
+NEED_NO_BOX(UnityEngine::AddressableAssets::AssetReferenceTexture3D);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AssetReferenceTexture3D, "UnityEngine.AddressableAssets", "AssetReferenceTexture3D");

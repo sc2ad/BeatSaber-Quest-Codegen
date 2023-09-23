@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UI/zzzz__HorizontalOrVerticalLayoutGroup_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::UI {
 class VerticalLayoutGroup;
@@ -12,7 +11,7 @@ namespace UnityEngine::UI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13022))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13035))
 // CS Name: UnityEngine.UI.VerticalLayoutGroup
-class CORDL_TYPE VerticalLayoutGroup : public ::UnityEngine::UI::HorizontalOrVerticalLayoutGroup {
+class CORDL_TYPE VerticalLayoutGroup : public UnityEngine::UI::HorizontalOrVerticalLayoutGroup {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr VerticalLayoutGroup(VerticalLayoutGroup const& ) noexcept = default;
 constexpr VerticalLayoutGroup(VerticalLayoutGroup&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit VerticalLayoutGroup(void* ptr) noexcept : ::UnityEngine::UI::HorizontalOrVerticalLayoutGroup(ptr) {
+constexpr explicit VerticalLayoutGroup(void* ptr) noexcept : UnityEngine::UI::HorizontalOrVerticalLayoutGroup(ptr) {
 }
 
 
@@ -70,6 +69,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UI
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UI::VerticalLayoutGroup);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::VerticalLayoutGroup, "UnityEngine.UI", "VerticalLayoutGroup");
+NEED_NO_BOX(UnityEngine::UI::VerticalLayoutGroup);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::VerticalLayoutGroup, "UnityEngine.UI", "VerticalLayoutGroup");

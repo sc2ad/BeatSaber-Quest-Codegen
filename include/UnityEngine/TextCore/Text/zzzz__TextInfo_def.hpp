@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine::TextCore::Text {
-struct PageInfo;
-}
 namespace UnityEngine::TextCore::Text {
 struct MeshInfo;
+}
+namespace UnityEngine::TextCore::Text {
+struct LinkInfo;
 }
 namespace UnityEngine::TextCore::Text {
 struct TextElementInfo;
@@ -21,10 +20,10 @@ namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine::TextCore::Text {
-struct LineInfo;
+struct PageInfo;
 }
 namespace UnityEngine::TextCore::Text {
-struct LinkInfo;
+struct LineInfo;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -72,17 +71,17 @@ constexpr explicit TextInfo(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(p
 
 // Fields
 
-static ::UnityEngine::Vector2 __declspec(property(get=__get_s_InfinityVectorPositive, put=__set_s_InfinityVectorPositive))  s_InfinityVectorPositive;
+static UnityEngine::Vector2 __declspec(property(get=__get_s_InfinityVectorPositive, put=__set_s_InfinityVectorPositive))  s_InfinityVectorPositive;
 
-static void __set_s_InfinityVectorPositive(::UnityEngine::Vector2 value) ;
+static void __set_s_InfinityVectorPositive(UnityEngine::Vector2 value) ;
 
-static ::UnityEngine::Vector2 __get_s_InfinityVectorPositive() ;
+static UnityEngine::Vector2 __get_s_InfinityVectorPositive() ;
 
-static ::UnityEngine::Vector2 __declspec(property(get=__get_s_InfinityVectorNegative, put=__set_s_InfinityVectorNegative))  s_InfinityVectorNegative;
+static UnityEngine::Vector2 __declspec(property(get=__get_s_InfinityVectorNegative, put=__set_s_InfinityVectorNegative))  s_InfinityVectorNegative;
 
-static void __set_s_InfinityVectorNegative(::UnityEngine::Vector2 value) ;
+static void __set_s_InfinityVectorNegative(UnityEngine::Vector2 value) ;
 
-static ::UnityEngine::Vector2 __get_s_InfinityVectorNegative() ;
+static UnityEngine::Vector2 __get_s_InfinityVectorNegative() ;
 
  int32_t __declspec(property(get=__get_characterCount, put=__set_characterCount))  characterCount;
 
@@ -132,41 +131,41 @@ constexpr void __set_materialCount(int32_t value) ;
 
 constexpr int32_t __get_materialCount() const;
 
- ::ArrayW<::UnityEngine::TextCore::Text::TextElementInfo> __declspec(property(get=__get_textElementInfo, put=__set_textElementInfo))  textElementInfo;
+ ::ArrayW<UnityEngine::TextCore::Text::TextElementInfo> __declspec(property(get=__get_textElementInfo, put=__set_textElementInfo))  textElementInfo;
 
-constexpr void __set_textElementInfo(::ArrayW<::UnityEngine::TextCore::Text::TextElementInfo> value) ;
+constexpr void __set_textElementInfo(::ArrayW<UnityEngine::TextCore::Text::TextElementInfo> value) ;
 
-constexpr ::ArrayW<::UnityEngine::TextCore::Text::TextElementInfo> __get_textElementInfo() const;
+constexpr ::ArrayW<UnityEngine::TextCore::Text::TextElementInfo> __get_textElementInfo() const;
 
- ::ArrayW<::UnityEngine::TextCore::Text::WordInfo> __declspec(property(get=__get_wordInfo, put=__set_wordInfo))  wordInfo;
+ ::ArrayW<UnityEngine::TextCore::Text::WordInfo> __declspec(property(get=__get_wordInfo, put=__set_wordInfo))  wordInfo;
 
-constexpr void __set_wordInfo(::ArrayW<::UnityEngine::TextCore::Text::WordInfo> value) ;
+constexpr void __set_wordInfo(::ArrayW<UnityEngine::TextCore::Text::WordInfo> value) ;
 
-constexpr ::ArrayW<::UnityEngine::TextCore::Text::WordInfo> __get_wordInfo() const;
+constexpr ::ArrayW<UnityEngine::TextCore::Text::WordInfo> __get_wordInfo() const;
 
- ::ArrayW<::UnityEngine::TextCore::Text::LinkInfo> __declspec(property(get=__get_linkInfo, put=__set_linkInfo))  linkInfo;
+ ::ArrayW<UnityEngine::TextCore::Text::LinkInfo> __declspec(property(get=__get_linkInfo, put=__set_linkInfo))  linkInfo;
 
-constexpr void __set_linkInfo(::ArrayW<::UnityEngine::TextCore::Text::LinkInfo> value) ;
+constexpr void __set_linkInfo(::ArrayW<UnityEngine::TextCore::Text::LinkInfo> value) ;
 
-constexpr ::ArrayW<::UnityEngine::TextCore::Text::LinkInfo> __get_linkInfo() const;
+constexpr ::ArrayW<UnityEngine::TextCore::Text::LinkInfo> __get_linkInfo() const;
 
- ::ArrayW<::UnityEngine::TextCore::Text::LineInfo> __declspec(property(get=__get_lineInfo, put=__set_lineInfo))  lineInfo;
+ ::ArrayW<UnityEngine::TextCore::Text::LineInfo> __declspec(property(get=__get_lineInfo, put=__set_lineInfo))  lineInfo;
 
-constexpr void __set_lineInfo(::ArrayW<::UnityEngine::TextCore::Text::LineInfo> value) ;
+constexpr void __set_lineInfo(::ArrayW<UnityEngine::TextCore::Text::LineInfo> value) ;
 
-constexpr ::ArrayW<::UnityEngine::TextCore::Text::LineInfo> __get_lineInfo() const;
+constexpr ::ArrayW<UnityEngine::TextCore::Text::LineInfo> __get_lineInfo() const;
 
- ::ArrayW<::UnityEngine::TextCore::Text::PageInfo> __declspec(property(get=__get_pageInfo, put=__set_pageInfo))  pageInfo;
+ ::ArrayW<UnityEngine::TextCore::Text::PageInfo> __declspec(property(get=__get_pageInfo, put=__set_pageInfo))  pageInfo;
 
-constexpr void __set_pageInfo(::ArrayW<::UnityEngine::TextCore::Text::PageInfo> value) ;
+constexpr void __set_pageInfo(::ArrayW<UnityEngine::TextCore::Text::PageInfo> value) ;
 
-constexpr ::ArrayW<::UnityEngine::TextCore::Text::PageInfo> __get_pageInfo() const;
+constexpr ::ArrayW<UnityEngine::TextCore::Text::PageInfo> __get_pageInfo() const;
 
- ::ArrayW<::UnityEngine::TextCore::Text::MeshInfo> __declspec(property(get=__get_meshInfo, put=__set_meshInfo))  meshInfo;
+ ::ArrayW<UnityEngine::TextCore::Text::MeshInfo> __declspec(property(get=__get_meshInfo, put=__set_meshInfo))  meshInfo;
 
-constexpr void __set_meshInfo(::ArrayW<::UnityEngine::TextCore::Text::MeshInfo> value) ;
+constexpr void __set_meshInfo(::ArrayW<UnityEngine::TextCore::Text::MeshInfo> value) ;
 
-constexpr ::ArrayW<::UnityEngine::TextCore::Text::MeshInfo> __get_meshInfo() const;
+constexpr ::ArrayW<UnityEngine::TextCore::Text::MeshInfo> __get_meshInfo() const;
 
  bool __declspec(property(get=__get_isDirty, put=__set_isDirty))  isDirty;
 
@@ -204,6 +203,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::Text
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::TextCore::Text::TextInfo);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::TextInfo, "UnityEngine.TextCore.Text", "TextInfo");
+NEED_NO_BOX(UnityEngine::TextCore::Text::TextInfo);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Text::TextInfo, "UnityEngine.TextCore.Text", "TextInfo");

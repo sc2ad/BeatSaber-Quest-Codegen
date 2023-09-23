@@ -3,13 +3,12 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace GlobalNamespace {
+class PlayerDataModel;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4464))
 // CS Name: CampaignProgressModel
-class CORDL_TYPE CampaignProgressModel : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE CampaignProgressModel : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr CampaignProgressModel(CampaignProgressModel const& ) noexcept = defaul
 constexpr CampaignProgressModel(CampaignProgressModel&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CampaignProgressModel(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit CampaignProgressModel(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -57,17 +56,17 @@ constexpr explicit CampaignProgressModel(void* ptr) noexcept : ::UnityEngine::Mo
 
 // Fields
 
- ::GlobalNamespace::PlayerDataModel __declspec(property(get=__get__playerDataModel, put=__set__playerDataModel))  _playerDataModel;
+ GlobalNamespace::PlayerDataModel __declspec(property(get=__get__playerDataModel, put=__set__playerDataModel))  _playerDataModel;
 
-constexpr void __set__playerDataModel(::GlobalNamespace::PlayerDataModel value) ;
+constexpr void __set__playerDataModel(GlobalNamespace::PlayerDataModel value) ;
 
-constexpr ::GlobalNamespace::PlayerDataModel __get__playerDataModel() const;
+constexpr GlobalNamespace::PlayerDataModel __get__playerDataModel() const;
 
- ::System::Collections::Generic::HashSet_1<::StringW> __declspec(property(get=__get__missionIds, put=__set__missionIds))  _missionIds;
+ System::Collections::Generic::HashSet_1<::StringW> __declspec(property(get=__get__missionIds, put=__set__missionIds))  _missionIds;
 
-constexpr void __set__missionIds(::System::Collections::Generic::HashSet_1<::StringW> value) ;
+constexpr void __set__missionIds(System::Collections::Generic::HashSet_1<::StringW> value) ;
 
-constexpr ::System::Collections::Generic::HashSet_1<::StringW> __get__missionIds() const;
+constexpr System::Collections::Generic::HashSet_1<::StringW> __get__missionIds() const;
 
  ::StringW __declspec(property(get=__get__finalMissionId, put=__set__finalMissionId))  _finalMissionId;
 
@@ -138,6 +137,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::CampaignProgressModel);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CampaignProgressModel, "", "CampaignProgressModel");
+NEED_NO_BOX(GlobalNamespace::CampaignProgressModel);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CampaignProgressModel, "", "CampaignProgressModel");

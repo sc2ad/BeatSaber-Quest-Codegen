@@ -1,21 +1,20 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class IBeatmapLevelPack;
-}
 namespace GlobalNamespace {
 class MainMenuViewController;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__MainMenuViewController__MenuButton;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+struct GlobalNamespace__MainMenuViewController__MenuButton;
 }
 namespace GlobalNamespace {
 class FireworksController;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelPack;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,7 +26,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3991))
 // CS Name: AnniversaryManager
-class CORDL_TYPE AnniversaryManager : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE AnniversaryManager : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -42,7 +41,7 @@ constexpr AnniversaryManager(AnniversaryManager const& ) noexcept = default;
 constexpr AnniversaryManager(AnniversaryManager&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AnniversaryManager(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit AnniversaryManager(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -63,17 +62,17 @@ constexpr explicit AnniversaryManager(void* ptr) noexcept : ::UnityEngine::MonoB
 
 // Fields
 
- ::GlobalNamespace::FireworksController __declspec(property(get=__get__fireworksController, put=__set__fireworksController))  _fireworksController;
+ GlobalNamespace::FireworksController __declspec(property(get=__get__fireworksController, put=__set__fireworksController))  _fireworksController;
 
-constexpr void __set__fireworksController(::GlobalNamespace::FireworksController value) ;
+constexpr void __set__fireworksController(GlobalNamespace::FireworksController value) ;
 
-constexpr ::GlobalNamespace::FireworksController __get__fireworksController() const;
+constexpr GlobalNamespace::FireworksController __get__fireworksController() const;
 
- ::GlobalNamespace::MainMenuViewController __declspec(property(get=__get__mainMenuViewController, put=__set__mainMenuViewController))  _mainMenuViewController;
+ GlobalNamespace::MainMenuViewController __declspec(property(get=__get__mainMenuViewController, put=__set__mainMenuViewController))  _mainMenuViewController;
 
-constexpr void __set__mainMenuViewController(::GlobalNamespace::MainMenuViewController value) ;
+constexpr void __set__mainMenuViewController(GlobalNamespace::MainMenuViewController value) ;
 
-constexpr ::GlobalNamespace::MainMenuViewController __get__mainMenuViewController() const;
+constexpr GlobalNamespace::MainMenuViewController __get__mainMenuViewController() const;
 
 
 // Methods
@@ -85,10 +84,10 @@ constexpr ::GlobalNamespace::MainMenuViewController __get__mainMenuViewControlle
  void OnDestroy() ;
 
 /// @brief Method HandleMainMenuViewControllerDidFinish addr 0x20af3c8 size 0x4 virtual false final false
- void HandleMainMenuViewControllerDidFinish(::GlobalNamespace::MainMenuViewController mainMenuViewController, ::GlobalNamespace::____GlobalNamespace__MainMenuViewController__MenuButton menuButton) ;
+ void HandleMainMenuViewControllerDidFinish(GlobalNamespace::MainMenuViewController mainMenuViewController, GlobalNamespace::GlobalNamespace__MainMenuViewController__MenuButton menuButton) ;
 
 /// @brief Method HandleMainMenuViewControllerMusicPackPromoButtonWasPressed addr 0x20af3ec size 0x4 virtual false final false
- void HandleMainMenuViewControllerMusicPackPromoButtonWasPressed(::GlobalNamespace::IBeatmapLevelPack musicPack, ::GlobalNamespace::IPreviewBeatmapLevel beatmap) ;
+ void HandleMainMenuViewControllerMusicPackPromoButtonWasPressed(GlobalNamespace::IBeatmapLevelPack musicPack, GlobalNamespace::IPreviewBeatmapLevel beatmap) ;
 
 /// @brief Method StartFireworks addr 0x20af268 size 0x20 virtual false final false
  void StartFireworks() ;
@@ -106,6 +105,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::AnniversaryManager);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AnniversaryManager, "", "AnniversaryManager");
+NEED_NO_BOX(GlobalNamespace::AnniversaryManager);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnniversaryManager, "", "AnniversaryManager");

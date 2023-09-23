@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 template<typename T>
@@ -34,5 +33,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::IComparable_1, "System", "IComparable`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::IComparable_1, "System", "IComparable`1");

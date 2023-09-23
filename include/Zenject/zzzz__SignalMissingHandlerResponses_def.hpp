@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Zenject {
 struct SignalMissingHandlerResponses;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Ignore offset 0
-static ::Zenject::SignalMissingHandlerResponses const Ignore;
+static Zenject::SignalMissingHandlerResponses const Ignore;
 
 /// @brief Field Throw offset 0
-static ::Zenject::SignalMissingHandlerResponses const Throw;
+static Zenject::SignalMissingHandlerResponses const Throw;
 
 /// @brief Field Warn offset 0
-static ::Zenject::SignalMissingHandlerResponses const Warn;
+static Zenject::SignalMissingHandlerResponses const Warn;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::SignalMissingHandlerResponses, "Zenject", "SignalMissingHandlerResponses");
+DEFINE_IL2CPP_ARG_TYPE(Zenject::SignalMissingHandlerResponses, "Zenject", "SignalMissingHandlerResponses");

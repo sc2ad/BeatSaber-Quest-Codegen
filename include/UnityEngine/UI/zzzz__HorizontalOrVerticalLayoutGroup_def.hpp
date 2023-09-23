@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 class RectTransform;
 }
@@ -18,7 +17,7 @@ namespace UnityEngine::UI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13030))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13022))
 // CS Name: UnityEngine.UI.HorizontalOrVerticalLayoutGroup
-class CORDL_TYPE HorizontalOrVerticalLayoutGroup : public ::UnityEngine::UI::LayoutGroup {
+class CORDL_TYPE HorizontalOrVerticalLayoutGroup : public UnityEngine::UI::LayoutGroup {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr HorizontalOrVerticalLayoutGroup(HorizontalOrVerticalLayoutGroup const&
 constexpr HorizontalOrVerticalLayoutGroup(HorizontalOrVerticalLayoutGroup&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HorizontalOrVerticalLayoutGroup(void* ptr) noexcept : ::UnityEngine::UI::LayoutGroup(ptr) {
+constexpr explicit HorizontalOrVerticalLayoutGroup(void* ptr) noexcept : UnityEngine::UI::LayoutGroup(ptr) {
 }
 
 
@@ -179,7 +178,7 @@ constexpr bool __get_m_ReverseArrangement() const;
  void SetChildrenAlongAxis(int32_t axis, bool isVertical) ;
 
 /// @brief Method GetChildSizes addr 0x2bfda8c size 0x118 virtual false final false
- void GetChildSizes(::UnityEngine::RectTransform child, int32_t axis, bool controlSize, bool childForceExpand, ByRef<float_t> min, ByRef<float_t> preferred, ByRef<float_t> flexible) ;
+ void GetChildSizes(UnityEngine::RectTransform child, int32_t axis, bool controlSize, bool childForceExpand, ByRef<float_t> min, ByRef<float_t> preferred, ByRef<float_t> flexible) ;
 
 // Ctor Parameters []
 explicit HorizontalOrVerticalLayoutGroup() ;
@@ -191,6 +190,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UI
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UI::HorizontalOrVerticalLayoutGroup);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::HorizontalOrVerticalLayoutGroup, "UnityEngine.UI", "HorizontalOrVerticalLayoutGroup");
+NEED_NO_BOX(UnityEngine::UI::HorizontalOrVerticalLayoutGroup);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::HorizontalOrVerticalLayoutGroup, "UnityEngine.UI", "HorizontalOrVerticalLayoutGroup");

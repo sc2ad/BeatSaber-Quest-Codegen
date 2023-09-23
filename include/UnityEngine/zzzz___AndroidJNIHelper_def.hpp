@@ -4,10 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-class Array;
-}
 namespace UnityEngine {
 class AndroidJavaRunnable;
 }
@@ -19,6 +15,9 @@ struct jvalue;
 }
 namespace UnityEngine {
 class AndroidJavaProxy;
+}
+namespace System {
+class Array;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -67,31 +66,31 @@ constexpr explicit _AndroidJNIHelper(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 // Methods
 
 /// @brief Method CreateJavaProxy addr 0x2b126a4 size 0x78 virtual false final false
-static ::cordl_internals::intptr_t CreateJavaProxy(::cordl_internals::intptr_t delegateHandle, ::UnityEngine::AndroidJavaProxy proxy) ;
+static ::cordl_internals::intptr_t CreateJavaProxy(::cordl_internals::intptr_t delegateHandle, UnityEngine::AndroidJavaProxy proxy) ;
 
 /// @brief Method CreateJavaRunnable addr 0x2b1271c size 0x60 virtual false final false
-static ::cordl_internals::intptr_t CreateJavaRunnable(::UnityEngine::AndroidJavaRunnable jrunnable) ;
+static ::cordl_internals::intptr_t CreateJavaRunnable(UnityEngine::AndroidJavaRunnable jrunnable) ;
 
 /// @brief Method InvokeJavaProxyMethod addr 0x2b1277c size 0x498 virtual false final false
-static ::cordl_internals::intptr_t InvokeJavaProxyMethod(::UnityEngine::AndroidJavaProxy proxy, ::cordl_internals::intptr_t jmethodName, ::cordl_internals::intptr_t jargs) ;
+static ::cordl_internals::intptr_t InvokeJavaProxyMethod(UnityEngine::AndroidJavaProxy proxy, ::cordl_internals::intptr_t jmethodName, ::cordl_internals::intptr_t jargs) ;
 
 /// @brief Method CreateJNIArgArray addr 0x2b12c14 size 0x60c virtual false final false
-static ::ArrayW<::UnityEngine::jvalue> CreateJNIArgArray(::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
+static ::ArrayW<UnityEngine::jvalue> CreateJNIArgArray(::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
 
 /// @brief Method UnboxArray addr 0x2b13bd8 size 0x698 virtual false final false
-static ::bs_hook::Il2CppWrapperType UnboxArray(::UnityEngine::AndroidJavaObject obj) ;
+static ::bs_hook::Il2CppWrapperType UnboxArray(UnityEngine::AndroidJavaObject obj) ;
 
 /// @brief Method Unbox addr 0x2b0f974 size 0x8f8 virtual false final false
-static ::bs_hook::Il2CppWrapperType Unbox(::UnityEngine::AndroidJavaObject obj) ;
+static ::bs_hook::Il2CppWrapperType Unbox(UnityEngine::AndroidJavaObject obj) ;
 
 /// @brief Method Box addr 0x2b0ec68 size 0x958 virtual false final false
-static ::UnityEngine::AndroidJavaObject Box(::bs_hook::Il2CppWrapperType obj) ;
+static UnityEngine::AndroidJavaObject Box(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method DeleteJNIArgArray addr 0x2b14270 size 0x160 virtual false final false
-static void DeleteJNIArgArray(::ArrayW<::bs_hook::Il2CppWrapperType> args, ::ArrayW<::UnityEngine::jvalue> jniArgs) ;
+static void DeleteJNIArgArray(::ArrayW<::bs_hook::Il2CppWrapperType> args, ::ArrayW<UnityEngine::jvalue> jniArgs) ;
 
 /// @brief Method ConvertToJNIArray addr 0x2b13220 size 0x9b4 virtual false final false
-static ::cordl_internals::intptr_t ConvertToJNIArray(::System::Array array) ;
+static ::cordl_internals::intptr_t ConvertToJNIArray(System::Array array) ;
 
 /// @brief Method ConvertFromJNIArray addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename ArrayType>
@@ -143,6 +142,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::_AndroidJNIHelper);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::_AndroidJNIHelper, "UnityEngine", "_AndroidJNIHelper");
+NEED_NO_BOX(UnityEngine::_AndroidJNIHelper);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::_AndroidJNIHelper, "UnityEngine", "_AndroidJNIHelper");

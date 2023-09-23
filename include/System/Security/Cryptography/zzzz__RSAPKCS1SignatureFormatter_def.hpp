@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Security/Cryptography/zzzz__AsymmetricSignatureFormatter_def.hpp"
-namespace {
 // Forward declare root types
 namespace System::Security::Cryptography {
 class RSAPKCS1SignatureFormatter;
@@ -12,7 +11,7 @@ namespace System::Security::Cryptography {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2916))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2980))
 // CS Name: System.Security.Cryptography.RSAPKCS1SignatureFormatter
-class CORDL_TYPE RSAPKCS1SignatureFormatter : public ::System::Security::Cryptography::AsymmetricSignatureFormatter {
+class CORDL_TYPE RSAPKCS1SignatureFormatter : public System::Security::Cryptography::AsymmetricSignatureFormatter {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr RSAPKCS1SignatureFormatter(RSAPKCS1SignatureFormatter const& ) noexcep
 constexpr RSAPKCS1SignatureFormatter(RSAPKCS1SignatureFormatter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RSAPKCS1SignatureFormatter(void* ptr) noexcept : ::System::Security::Cryptography::AsymmetricSignatureFormatter(ptr) {
+constexpr explicit RSAPKCS1SignatureFormatter(void* ptr) noexcept : System::Security::Cryptography::AsymmetricSignatureFormatter(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::RSAPKCS1SignatureFormatter);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::RSAPKCS1SignatureFormatter, "System.Security.Cryptography", "RSAPKCS1SignatureFormatter");
+NEED_NO_BOX(System::Security::Cryptography::RSAPKCS1SignatureFormatter);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSAPKCS1SignatureFormatter, "System.Security.Cryptography", "RSAPKCS1SignatureFormatter");

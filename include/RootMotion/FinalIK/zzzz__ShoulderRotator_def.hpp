@@ -2,12 +2,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
 namespace RootMotion::FinalIK {
-class FullBodyBipedIK;
+class RootMotion__FinalIK__IKMapping__BoneMap;
 }
 namespace RootMotion::FinalIK {
-class ____RootMotion__FinalIK__IKMapping__BoneMap;
+class FullBodyBipedIK;
 }
 namespace RootMotion::FinalIK {
 struct FullBodyBipedChain;
@@ -22,7 +21,7 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12610))
 // CS Name: RootMotion.FinalIK.ShoulderRotator
-class CORDL_TYPE ShoulderRotator : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ShoulderRotator : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr ShoulderRotator(ShoulderRotator const& ) noexcept = default;
 constexpr ShoulderRotator(ShoulderRotator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ShoulderRotator(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ShoulderRotator(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -70,11 +69,11 @@ constexpr void __set_offset(float_t value) ;
 
 constexpr float_t __get_offset() const;
 
- ::RootMotion::FinalIK::FullBodyBipedIK __declspec(property(get=__get_ik, put=__set_ik))  ik;
+ RootMotion::FinalIK::FullBodyBipedIK __declspec(property(get=__get_ik, put=__set_ik))  ik;
 
-constexpr void __set_ik(::RootMotion::FinalIK::FullBodyBipedIK value) ;
+constexpr void __set_ik(RootMotion::FinalIK::FullBodyBipedIK value) ;
 
-constexpr ::RootMotion::FinalIK::FullBodyBipedIK __get_ik() const;
+constexpr RootMotion::FinalIK::FullBodyBipedIK __get_ik() const;
 
  bool __declspec(property(get=__get_skip, put=__set_skip))  skip;
 
@@ -92,10 +91,10 @@ constexpr bool __get_skip() const;
  void RotateShoulders() ;
 
 /// @brief Method RotateShoulder addr 0x120d2b8 size 0x404 virtual false final false
- void RotateShoulder(::RootMotion::FinalIK::FullBodyBipedChain chain, float_t weight, float_t offset) ;
+ void RotateShoulder(RootMotion::FinalIK::FullBodyBipedChain chain, float_t weight, float_t offset) ;
 
 /// @brief Method GetParentBoneMap addr 0x120d6bc size 0x34 virtual false final false
- ::RootMotion::FinalIK::____RootMotion__FinalIK__IKMapping__BoneMap GetParentBoneMap(::RootMotion::FinalIK::FullBodyBipedChain chain) ;
+ RootMotion::FinalIK::RootMotion__FinalIK__IKMapping__BoneMap GetParentBoneMap(RootMotion::FinalIK::FullBodyBipedChain chain) ;
 
 /// @brief Method OnDestroy addr 0x120d6f0 size 0x10c virtual false final false
  void OnDestroy() ;
@@ -110,6 +109,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::ShoulderRotator);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::ShoulderRotator, "RootMotion.FinalIK", "ShoulderRotator");
+NEED_NO_BOX(RootMotion::FinalIK::ShoulderRotator);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::ShoulderRotator, "RootMotion.FinalIK", "ShoulderRotator");

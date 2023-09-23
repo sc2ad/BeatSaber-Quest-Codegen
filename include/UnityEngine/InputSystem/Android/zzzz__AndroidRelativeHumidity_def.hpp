@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/zzzz__HumiditySensor_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem::Android {
 class AndroidRelativeHumidity;
@@ -12,7 +11,7 @@ namespace UnityEngine::InputSystem::Android {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6367))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6524))
 // CS Name: UnityEngine.InputSystem.Android.AndroidRelativeHumidity
-class CORDL_TYPE AndroidRelativeHumidity : public ::UnityEngine::InputSystem::HumiditySensor {
+class CORDL_TYPE AndroidRelativeHumidity : public UnityEngine::InputSystem::HumiditySensor {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr AndroidRelativeHumidity(AndroidRelativeHumidity const& ) noexcept = de
 constexpr AndroidRelativeHumidity(AndroidRelativeHumidity&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AndroidRelativeHumidity(void* ptr) noexcept : ::UnityEngine::InputSystem::HumiditySensor(ptr) {
+constexpr explicit AndroidRelativeHumidity(void* ptr) noexcept : UnityEngine::InputSystem::HumiditySensor(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Android
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Android::AndroidRelativeHumidity);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Android::AndroidRelativeHumidity, "UnityEngine.InputSystem.Android", "AndroidRelativeHumidity");
+NEED_NO_BOX(UnityEngine::InputSystem::Android::AndroidRelativeHumidity);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Android::AndroidRelativeHumidity, "UnityEngine.InputSystem.Android", "AndroidRelativeHumidity");

@@ -3,7 +3,6 @@
 #include "UnityEngine/InputSystem/zzzz__InputProcessor_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine::InputSystem {
 class InputControl;
 }
@@ -14,10 +13,10 @@ class NormalizeProcessor;
 // Type: UnityEngine.InputSystem.Processors::NormalizeProcessor
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6319), inst: 374 }), TypeDefinitionIndex(TypeDefinitionIndex(6319))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6319)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6319), inst: 374 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6670))
 // CS Name: UnityEngine.InputSystem.Processors.NormalizeProcessor
-class CORDL_TYPE NormalizeProcessor : public ::UnityEngine::InputSystem::InputProcessor_1<float_t> {
+class CORDL_TYPE NormalizeProcessor : public UnityEngine::InputSystem::InputProcessor_1<float_t> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr NormalizeProcessor(NormalizeProcessor const& ) noexcept = default;
 constexpr NormalizeProcessor(NormalizeProcessor&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NormalizeProcessor(void* ptr) noexcept : ::UnityEngine::InputSystem::InputProcessor_1<float_t>(ptr) {
+constexpr explicit NormalizeProcessor(void* ptr) noexcept : UnityEngine::InputSystem::InputProcessor_1<float_t>(ptr) {
 }
 
 
@@ -75,7 +74,7 @@ constexpr float_t __get_zero() const;
 // Methods
 
 /// @brief Method Process addr 0x2966ccc size 0xc virtual true final false
- float_t Process(float_t value, ::UnityEngine::InputSystem::InputControl control) ;
+ float_t Process(float_t value, UnityEngine::InputSystem::InputControl control) ;
 
 /// @brief Method Normalize addr 0x2966cd8 size 0xd0 virtual false final false
 static float_t Normalize(float_t value, float_t min, float_t max, float_t zero) ;
@@ -96,6 +95,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Processors
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Processors::NormalizeProcessor);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Processors::NormalizeProcessor, "UnityEngine.InputSystem.Processors", "NormalizeProcessor");
+NEED_NO_BOX(UnityEngine::InputSystem::Processors::NormalizeProcessor);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Processors::NormalizeProcessor, "UnityEngine.InputSystem.Processors", "NormalizeProcessor");

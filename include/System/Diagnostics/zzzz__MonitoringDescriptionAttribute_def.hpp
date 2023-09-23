@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/ComponentModel/zzzz__DescriptionAttribute_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace System::Diagnostics {
 class MonitoringDescriptionAttribute;
@@ -13,7 +12,7 @@ namespace System::Diagnostics {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8239))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7810))
 // CS Name: System.Diagnostics.MonitoringDescriptionAttribute
-class CORDL_TYPE MonitoringDescriptionAttribute : public ::System::ComponentModel::DescriptionAttribute {
+class CORDL_TYPE MonitoringDescriptionAttribute : public System::ComponentModel::DescriptionAttribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr MonitoringDescriptionAttribute(MonitoringDescriptionAttribute const& )
 constexpr MonitoringDescriptionAttribute(MonitoringDescriptionAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MonitoringDescriptionAttribute(void* ptr) noexcept : ::System::ComponentModel::DescriptionAttribute(ptr) {
+constexpr explicit MonitoringDescriptionAttribute(void* ptr) noexcept : System::ComponentModel::DescriptionAttribute(ptr) {
 }
 
 
@@ -67,6 +66,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Diagnostics
-} // end anonymous namespace
-NEED_NO_BOX(::System::Diagnostics::MonitoringDescriptionAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::MonitoringDescriptionAttribute, "System.Diagnostics", "MonitoringDescriptionAttribute");
+NEED_NO_BOX(System::Diagnostics::MonitoringDescriptionAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::MonitoringDescriptionAttribute, "System.Diagnostics", "MonitoringDescriptionAttribute");

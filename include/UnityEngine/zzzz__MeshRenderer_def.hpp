@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__Renderer_def.hpp"
-namespace {
 namespace UnityEngine {
 class Mesh;
 }
@@ -15,7 +14,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10006))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10009))
 // CS Name: UnityEngine.MeshRenderer
-class CORDL_TYPE MeshRenderer : public ::UnityEngine::Renderer {
+class CORDL_TYPE MeshRenderer : public UnityEngine::Renderer {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr MeshRenderer(MeshRenderer const& ) noexcept = default;
 constexpr MeshRenderer(MeshRenderer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MeshRenderer(void* ptr) noexcept : ::UnityEngine::Renderer(ptr) {
+constexpr explicit MeshRenderer(void* ptr) noexcept : UnityEngine::Renderer(ptr) {
 }
 
 
@@ -51,7 +50,7 @@ constexpr explicit MeshRenderer(void* ptr) noexcept : ::UnityEngine::Renderer(pt
 
 // Properties
 
- ::UnityEngine::Mesh __declspec(property(get=get_additionalVertexStreams))  additionalVertexStreams;
+ UnityEngine::Mesh __declspec(property(get=get_additionalVertexStreams))  additionalVertexStreams;
 
 
 // Methods
@@ -60,7 +59,7 @@ constexpr explicit MeshRenderer(void* ptr) noexcept : ::UnityEngine::Renderer(pt
  void DontStripMeshRenderer() ;
 
 /// @brief Method get_additionalVertexStreams addr 0x2b2e554 size 0x3c virtual false final false
- ::UnityEngine::Mesh get_additionalVertexStreams() ;
+ UnityEngine::Mesh get_additionalVertexStreams() ;
 
 // Ctor Parameters []
 explicit MeshRenderer() ;
@@ -72,6 +71,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::MeshRenderer);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::MeshRenderer, "UnityEngine", "MeshRenderer");
+NEED_NO_BOX(UnityEngine::MeshRenderer);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MeshRenderer, "UnityEngine", "MeshRenderer");

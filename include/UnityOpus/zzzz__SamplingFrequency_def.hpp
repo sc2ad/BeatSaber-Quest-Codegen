@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityOpus {
 struct SamplingFrequency;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Frequency_8000 offset 0
-static ::UnityOpus::SamplingFrequency const Frequency_8000;
+static UnityOpus::SamplingFrequency const Frequency_8000;
 
 /// @brief Field Frequency_12000 offset 0
-static ::UnityOpus::SamplingFrequency const Frequency_12000;
+static UnityOpus::SamplingFrequency const Frequency_12000;
 
 /// @brief Field Frequency_16000 offset 0
-static ::UnityOpus::SamplingFrequency const Frequency_16000;
+static UnityOpus::SamplingFrequency const Frequency_16000;
 
 /// @brief Field Frequency_24000 offset 0
-static ::UnityOpus::SamplingFrequency const Frequency_24000;
+static UnityOpus::SamplingFrequency const Frequency_24000;
 
 /// @brief Field Frequency_48000 offset 0
-static ::UnityOpus::SamplingFrequency const Frequency_48000;
+static UnityOpus::SamplingFrequency const Frequency_48000;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityOpus
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityOpus::SamplingFrequency, "UnityOpus", "SamplingFrequency");
+DEFINE_IL2CPP_ARG_TYPE(UnityOpus::SamplingFrequency, "UnityOpus", "SamplingFrequency");

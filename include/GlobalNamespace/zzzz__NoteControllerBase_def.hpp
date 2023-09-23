@@ -1,13 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class INoteControllerDidInitEvent;
-}
-namespace GlobalNamespace {
-class INoteControllerNoteDidPassJumpThreeQuartersEvent;
-}
 namespace GlobalNamespace {
 class INoteControllerNoteDidStartDissolvingEvent;
 }
@@ -17,6 +10,12 @@ class NoteData;
 namespace GlobalNamespace {
 template<typename T>
 class ILazyCopyHashSet_1;
+}
+namespace GlobalNamespace {
+class INoteControllerDidInitEvent;
+}
+namespace GlobalNamespace {
+class INoteControllerNoteDidPassJumpThreeQuartersEvent;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,7 +27,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4886))
 // CS Name: NoteControllerBase
-class CORDL_TYPE NoteControllerBase : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE NoteControllerBase : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -43,7 +42,7 @@ constexpr NoteControllerBase(NoteControllerBase const& ) noexcept = default;
 constexpr NoteControllerBase(NoteControllerBase&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NoteControllerBase(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit NoteControllerBase(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -64,28 +63,28 @@ constexpr explicit NoteControllerBase(void* ptr) noexcept : ::UnityEngine::MonoB
 
 // Properties
 
- ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent> __declspec(property(get=get_didInitEvent))  didInitEvent;
+ GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerDidInitEvent> __declspec(property(get=get_didInitEvent))  didInitEvent;
 
- ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent> __declspec(property(get=get_noteDidPassJumpThreeQuartersEvent))  noteDidPassJumpThreeQuartersEvent;
+ GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent> __declspec(property(get=get_noteDidPassJumpThreeQuartersEvent))  noteDidPassJumpThreeQuartersEvent;
 
- ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent> __declspec(property(get=get_noteDidStartDissolvingEvent))  noteDidStartDissolvingEvent;
+ GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent> __declspec(property(get=get_noteDidStartDissolvingEvent))  noteDidStartDissolvingEvent;
 
- ::GlobalNamespace::NoteData __declspec(property(get=get_noteData))  noteData;
+ GlobalNamespace::NoteData __declspec(property(get=get_noteData))  noteData;
 
 
 // Methods
 
 /// @brief Method get_didInitEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent> get_didInitEvent() ;
+ GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerDidInitEvent> get_didInitEvent() ;
 
 /// @brief Method get_noteDidPassJumpThreeQuartersEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent> get_noteDidPassJumpThreeQuartersEvent() ;
+ GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent> get_noteDidPassJumpThreeQuartersEvent() ;
 
 /// @brief Method get_noteDidStartDissolvingEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent> get_noteDidStartDissolvingEvent() ;
+ GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent> get_noteDidStartDissolvingEvent() ;
 
 /// @brief Method get_noteData addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::NoteData get_noteData() ;
+ GlobalNamespace::NoteData get_noteData() ;
 
 // Ctor Parameters []
 explicit NoteControllerBase() ;
@@ -97,6 +96,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::NoteControllerBase);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoteControllerBase, "", "NoteControllerBase");
+NEED_NO_BOX(GlobalNamespace::NoteControllerBase);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteControllerBase, "", "NoteControllerBase");

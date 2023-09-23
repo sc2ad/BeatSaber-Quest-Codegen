@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 struct StyleSyntaxTokenType;
 }
@@ -20,8 +19,8 @@ namespace UnityEngine::UIElements::StyleSheets::Syntax {
 struct CORDL_TYPE StyleSyntaxToken : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType", modifiers: "", def_value: None }, CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "number", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr StyleSyntaxToken(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType type, ::StringW text, int32_t number) noexcept;
+// Ctor Parameters [CppParam { name: "type", ty: "UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType", modifiers: "", def_value: None }, CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "number", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr StyleSyntaxToken(UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType type, ::StringW text, int32_t number) noexcept;
 
 
                     constexpr StyleSyntaxToken(StyleSyntaxToken const&) = default;
@@ -54,11 +53,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType __declspec(property(get=__get_type, put=__set_type))  type;
+ UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType __declspec(property(get=__get_type, put=__set_type))  type;
 
-constexpr void __set_type(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType value) ;
+constexpr void __set_type(UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType value) ;
 
-constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType __get_type() const;
+constexpr UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType __get_type() const;
 
  ::StringW __declspec(property(get=__get_text, put=__set_text))  text;
 
@@ -76,17 +75,16 @@ constexpr int32_t __get_number() const;
 // Methods
 
 /// @brief Method .ctor addr 0x2c7c25c size 0x10 virtual false final false
- void _ctor(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType t) ;
+ void _ctor(UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType t) ;
 
 /// @brief Method .ctor addr 0x2c7c26c size 0x10 virtual false final false
- void _ctor(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType type, ::StringW text) ;
+ void _ctor(UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType type, ::StringW text) ;
 
 /// @brief Method .ctor addr 0x2c7c27c size 0x10 virtual false final false
- void _ctor(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType type, int32_t number) ;
+ void _ctor(UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType type, int32_t number) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::StyleSheets::Syntax
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken, "UnityEngine.UIElements.StyleSheets.Syntax", "StyleSyntaxToken");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken, "UnityEngine.UIElements.StyleSheets.Syntax", "StyleSyntaxToken");

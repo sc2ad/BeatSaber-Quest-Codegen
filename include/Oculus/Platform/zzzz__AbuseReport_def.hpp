@@ -2,16 +2,15 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace Oculus::Platform {
-template<typename T>
-class ____Oculus__Platform__Message_1__Callback;
-}
 namespace Oculus::Platform {
 struct ReportRequestResponse;
 }
 namespace Oculus::Platform {
 class Request;
+}
+namespace Oculus::Platform {
+template<typename T>
+class Oculus__Platform__Message_1__Callback;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -60,15 +59,14 @@ constexpr explicit AbuseReport(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 // Methods
 
 /// @brief Method ReportRequestHandled addr 0x258f5e8 size 0x14c virtual false final false
-static ::Oculus::Platform::Request ReportRequestHandled(::Oculus::Platform::ReportRequestResponse response) ;
+static Oculus::Platform::Request ReportRequestHandled(Oculus::Platform::ReportRequestResponse response) ;
 
 /// @brief Method SetReportButtonPressedNotificationCallback addr 0x258f734 size 0x74 virtual false final false
-static void SetReportButtonPressedNotificationCallback(::Oculus::Platform::____Oculus__Platform__Message_1__Callback<::StringW> callback) ;
+static void SetReportButtonPressedNotificationCallback(Oculus::Platform::Oculus__Platform__Message_1__Callback<::StringW> callback) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::AbuseReport);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::AbuseReport, "Oculus.Platform", "AbuseReport");
+NEED_NO_BOX(Oculus::Platform::AbuseReport);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::AbuseReport, "Oculus.Platform", "AbuseReport");

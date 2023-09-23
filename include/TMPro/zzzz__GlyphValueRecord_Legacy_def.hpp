@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 #include <cstddef>
-namespace {
 namespace UnityEngine::TextCore::LowLevel {
 struct GlyphValueRecord;
 }
@@ -81,14 +80,13 @@ constexpr float_t __get_yAdvance() const;
 // Methods
 
 /// @brief Method .ctor addr 0x2a7897c size 0x60 virtual false final false
- void _ctor(::UnityEngine::TextCore::LowLevel::GlyphValueRecord valueRecord) ;
+ void _ctor(UnityEngine::TextCore::LowLevel::GlyphValueRecord valueRecord) ;
 
 /// @brief Method op_Addition addr 0x2a789dc size 0x14 virtual false final false
-static ::TMPro::GlyphValueRecord_Legacy op_Addition(::TMPro::GlyphValueRecord_Legacy a, ::TMPro::GlyphValueRecord_Legacy b) ;
+static TMPro::GlyphValueRecord_Legacy op_Addition(TMPro::GlyphValueRecord_Legacy a, TMPro::GlyphValueRecord_Legacy b) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::GlyphValueRecord_Legacy, "TMPro", "GlyphValueRecord_Legacy");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::GlyphValueRecord_Legacy, "TMPro", "GlyphValueRecord_Legacy");

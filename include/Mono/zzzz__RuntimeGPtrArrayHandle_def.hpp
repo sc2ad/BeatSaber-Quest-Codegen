@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Mono {
 struct RuntimeGPtrArrayHandle;
@@ -83,11 +82,10 @@ constexpr void* __get_value() const;
 static void GPtrArrayFree(void* value) ;
 
 /// @brief Method DestroyAndFree addr 0x22a54f4 size 0x1c virtual false final false
-static void DestroyAndFree(ByRef<::Mono::RuntimeGPtrArrayHandle> h) ;
+static void DestroyAndFree(ByRef<Mono::RuntimeGPtrArrayHandle> h) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Mono
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Mono::RuntimeGPtrArrayHandle, "Mono", "RuntimeGPtrArrayHandle");
+DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeGPtrArrayHandle, "Mono", "RuntimeGPtrArrayHandle");

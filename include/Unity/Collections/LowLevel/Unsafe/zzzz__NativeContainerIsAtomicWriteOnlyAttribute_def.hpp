@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 // Forward declare root types
 namespace Unity::Collections::LowLevel::Unsafe {
 class NativeContainerIsAtomicWriteOnlyAttribute;
@@ -12,7 +11,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9958))
 // CS Name: Unity.Collections.LowLevel.Unsafe.NativeContainerIsAtomicWriteOnlyAttribute
-class CORDL_TYPE NativeContainerIsAtomicWriteOnlyAttribute : public ::System::Attribute {
+class CORDL_TYPE NativeContainerIsAtomicWriteOnlyAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr NativeContainerIsAtomicWriteOnlyAttribute(NativeContainerIsAtomicWrite
 constexpr NativeContainerIsAtomicWriteOnlyAttribute(NativeContainerIsAtomicWriteOnlyAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NativeContainerIsAtomicWriteOnlyAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit NativeContainerIsAtomicWriteOnlyAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -49,6 +48,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Unity::Collections::LowLevel::Unsafe
-} // end anonymous namespace
-NEED_NO_BOX(::Unity::Collections::LowLevel::Unsafe::NativeContainerIsAtomicWriteOnlyAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::LowLevel::Unsafe::NativeContainerIsAtomicWriteOnlyAttribute, "Unity.Collections.LowLevel.Unsafe", "NativeContainerIsAtomicWriteOnlyAttribute");
+NEED_NO_BOX(Unity::Collections::LowLevel::Unsafe::NativeContainerIsAtomicWriteOnlyAttribute);
+DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::LowLevel::Unsafe::NativeContainerIsAtomicWriteOnlyAttribute, "Unity.Collections.LowLevel.Unsafe", "NativeContainerIsAtomicWriteOnlyAttribute");

@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace UnityEngine::Events {
 class BaseInvokableCall;
 }
@@ -32,7 +31,7 @@ template<::cordl_internals::il2cpp_reference_type T0,::cordl_internals::il2cpp_r
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10399)), TypeDefinitionIndex(TypeDefinitionIndex(10397))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10399), inst: 80 })
 // CS Name: UnityEngine.Events.UnityEvent`2
-class CORDL_TYPE UnityEvent_2<T0,T1> : public ::UnityEngine::Events::UnityEventBase {
+class CORDL_TYPE UnityEvent_2<T0,T1> : public UnityEngine::Events::UnityEventBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -47,7 +46,7 @@ constexpr UnityEvent_2(UnityEvent_2 const& ) noexcept = default;
 constexpr UnityEvent_2(UnityEvent_2&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UnityEvent_2(void* ptr) noexcept : ::UnityEngine::Events::UnityEventBase(ptr) {
+constexpr explicit UnityEvent_2(void* ptr) noexcept : UnityEngine::Events::UnityEventBase(ptr) {
 }
 
 
@@ -84,14 +83,13 @@ explicit UnityEvent_2() ;
  void _ctor() ;
 
 /// @brief Method FindMethod_Impl addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Reflection::MethodInfo FindMethod_Impl(::StringW name, ::System::Type targetObjType) ;
+ System::Reflection::MethodInfo FindMethod_Impl(::StringW name, System::Type targetObjType) ;
 
 /// @brief Method GetDelegate addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Events::BaseInvokableCall GetDelegate(::bs_hook::Il2CppWrapperType target, ::System::Reflection::MethodInfo theFunction) ;
+ UnityEngine::Events::BaseInvokableCall GetDelegate(::bs_hook::Il2CppWrapperType target, System::Reflection::MethodInfo theFunction) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Events
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::Events::UnityEvent_2, "UnityEngine.Events", "UnityEvent`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::Events::UnityEvent_2, "UnityEngine.Events", "UnityEvent`2");

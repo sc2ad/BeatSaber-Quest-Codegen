@@ -4,7 +4,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace System::Security::Cryptography::X509Certificates {
+struct X509KeyStorageFlags;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
+}
 namespace Microsoft::Win32::SafeHandles {
 class SafePasswordHandle;
 }
@@ -12,16 +17,10 @@ namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate2Impl;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
-}
-namespace System::Security::Cryptography::X509Certificates {
 struct X509ContentType;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateImpl;
-}
-namespace System::Security::Cryptography::X509Certificates {
-struct X509KeyStorageFlags;
 }
 // Forward declare root types
 namespace Mono {
@@ -84,13 +83,13 @@ static ::ArrayW<uint8_t> __get_signedData() ;
 // Methods
 
 /// @brief Method Import addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Security::Cryptography::X509Certificates::X509CertificateImpl Import(::ArrayW<uint8_t> data) ;
+ System::Security::Cryptography::X509Certificates::X509CertificateImpl Import(::ArrayW<uint8_t> data) ;
 
 /// @brief Method Import addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl Import(::ArrayW<uint8_t> data, ::Microsoft::Win32::SafeHandles::SafePasswordHandle password, ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags) ;
+ System::Security::Cryptography::X509Certificates::X509Certificate2Impl Import(::ArrayW<uint8_t> data, Microsoft::Win32::SafeHandles::SafePasswordHandle password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags) ;
 
 /// @brief Method Import addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl Import(::System::Security::Cryptography::X509Certificates::X509Certificate cert) ;
+ System::Security::Cryptography::X509Certificates::X509Certificate2Impl Import(System::Security::Cryptography::X509Certificates::X509Certificate cert) ;
 
 /// @brief Method PEM addr 0x268559c size 0x134 virtual false final false
 static ::ArrayW<uint8_t> PEM(::StringW type, ::ArrayW<uint8_t> data) ;
@@ -99,16 +98,16 @@ static ::ArrayW<uint8_t> PEM(::StringW type, ::ArrayW<uint8_t> data) ;
 static ::ArrayW<uint8_t> ConvertData(::ArrayW<uint8_t> data) ;
 
 /// @brief Method ImportFallback addr 0x2684d98 size 0x1fc virtual false final false
- ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl ImportFallback(::ArrayW<uint8_t> data) ;
+ System::Security::Cryptography::X509Certificates::X509Certificate2Impl ImportFallback(::ArrayW<uint8_t> data) ;
 
 /// @brief Method ImportFallback addr 0x2685028 size 0x7c virtual false final false
- ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl ImportFallback(::ArrayW<uint8_t> data, ::Microsoft::Win32::SafeHandles::SafePasswordHandle password, ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags) ;
+ System::Security::Cryptography::X509Certificates::X509Certificate2Impl ImportFallback(::ArrayW<uint8_t> data, Microsoft::Win32::SafeHandles::SafePasswordHandle password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags) ;
 
 /// @brief Method get_SupportsLegacyBasicConstraintsExtension addr 0x26857dc size 0x8 virtual false final false
  bool get_SupportsLegacyBasicConstraintsExtension() ;
 
 /// @brief Method GetCertContentType addr 0x26857e4 size 0x40c virtual false final false
- ::System::Security::Cryptography::X509Certificates::X509ContentType GetCertContentType(::ArrayW<uint8_t> rawData) ;
+ System::Security::Cryptography::X509Certificates::X509ContentType GetCertContentType(::ArrayW<uint8_t> rawData) ;
 
 // Ctor Parameters []
 explicit X509PalImpl() ;
@@ -120,6 +119,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::X509PalImpl);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::X509PalImpl, "Mono", "X509PalImpl");
+NEED_NO_BOX(Mono::X509PalImpl);
+DEFINE_IL2CPP_ARG_TYPE(Mono::X509PalImpl, "Mono", "X509PalImpl");

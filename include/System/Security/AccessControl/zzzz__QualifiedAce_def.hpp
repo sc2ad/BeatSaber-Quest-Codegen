@@ -3,15 +3,14 @@
 #include "System/Security/AccessControl/zzzz__KnownAce_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace System::Security::AccessControl {
-struct AceType;
-}
 namespace System::Security::AccessControl {
 struct AceFlags;
 }
 namespace System::Security::AccessControl {
 struct AceQualifier;
+}
+namespace System::Security::AccessControl {
+struct AceType;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {
@@ -23,7 +22,7 @@ namespace System::Security::AccessControl {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3035))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3042))
 // CS Name: System.Security.AccessControl.QualifiedAce
-class CORDL_TYPE QualifiedAce : public ::System::Security::AccessControl::KnownAce {
+class CORDL_TYPE QualifiedAce : public System::Security::AccessControl::KnownAce {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr QualifiedAce(QualifiedAce const& ) noexcept = default;
 constexpr QualifiedAce(QualifiedAce&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit QualifiedAce(void* ptr) noexcept : ::System::Security::AccessControl::KnownAce(ptr) {
+constexpr explicit QualifiedAce(void* ptr) noexcept : System::Security::AccessControl::KnownAce(ptr) {
 }
 
 
@@ -68,7 +67,7 @@ constexpr ::ArrayW<uint8_t> __get_opaque() const;
 
 // Properties
 
- ::System::Security::AccessControl::AceQualifier __declspec(property(get=get_AceQualifier))  AceQualifier;
+ System::Security::AccessControl::AceQualifier __declspec(property(get=get_AceQualifier))  AceQualifier;
 
  bool __declspec(property(get=get_IsCallback))  IsCallback;
 
@@ -77,11 +76,11 @@ constexpr ::ArrayW<uint8_t> __get_opaque() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "::System::Security::AccessControl::AceType", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "::System::Security::AccessControl::AceFlags", modifiers: "", def_value: None }, CppParam { name: "opaque", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit QualifiedAce(::System::Security::AccessControl::AceType type, ::System::Security::AccessControl::AceFlags flags, ::ArrayW<uint8_t> opaque) ;
+// Ctor Parameters [CppParam { name: "type", ty: "System::Security::AccessControl::AceType", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "System::Security::AccessControl::AceFlags", modifiers: "", def_value: None }, CppParam { name: "opaque", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
+explicit QualifiedAce(System::Security::AccessControl::AceType type, System::Security::AccessControl::AceFlags flags, ::ArrayW<uint8_t> opaque) ;
 
 /// @brief Method .ctor addr 0x2315964 size 0x28 virtual false final false
- void _ctor(::System::Security::AccessControl::AceType type, ::System::Security::AccessControl::AceFlags flags, ::ArrayW<uint8_t> opaque) ;
+ void _ctor(System::Security::AccessControl::AceType type, System::Security::AccessControl::AceFlags flags, ::ArrayW<uint8_t> opaque) ;
 
 // Ctor Parameters [CppParam { name: "binaryForm", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }]
 explicit QualifiedAce(::ArrayW<uint8_t> binaryForm, int32_t offset) ;
@@ -90,7 +89,7 @@ explicit QualifiedAce(::ArrayW<uint8_t> binaryForm, int32_t offset) ;
  void _ctor(::ArrayW<uint8_t> binaryForm, int32_t offset) ;
 
 /// @brief Method get_AceQualifier addr 0x2316978 size 0xbc virtual false final false
- ::System::Security::AccessControl::AceQualifier get_AceQualifier() ;
+ System::Security::AccessControl::AceQualifier get_AceQualifier() ;
 
 /// @brief Method get_IsCallback addr 0x231719c size 0x3c virtual false final false
  bool get_IsCallback() ;
@@ -108,6 +107,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::AccessControl
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::AccessControl::QualifiedAce);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::AccessControl::QualifiedAce, "System.Security.AccessControl", "QualifiedAce");
+NEED_NO_BOX(System::Security::AccessControl::QualifiedAce);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::AccessControl::QualifiedAce, "System.Security.AccessControl", "QualifiedAce");

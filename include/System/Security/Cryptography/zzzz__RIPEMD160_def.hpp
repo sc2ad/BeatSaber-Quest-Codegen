@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Security/Cryptography/zzzz__HashAlgorithm_def.hpp"
-namespace {
 // Forward declare root types
 namespace System::Security::Cryptography {
 class RIPEMD160;
@@ -12,7 +11,7 @@ namespace System::Security::Cryptography {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2912))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2949))
 // CS Name: System.Security.Cryptography.RIPEMD160
-class CORDL_TYPE RIPEMD160 : public ::System::Security::Cryptography::HashAlgorithm {
+class CORDL_TYPE RIPEMD160 : public System::Security::Cryptography::HashAlgorithm {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr RIPEMD160(RIPEMD160 const& ) noexcept = default;
 constexpr RIPEMD160(RIPEMD160&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RIPEMD160(void* ptr) noexcept : ::System::Security::Cryptography::HashAlgorithm(ptr) {
+constexpr explicit RIPEMD160(void* ptr) noexcept : System::Security::Cryptography::HashAlgorithm(ptr) {
 }
 
 
@@ -55,12 +54,11 @@ explicit RIPEMD160() ;
  void _ctor() ;
 
 /// @brief Method Create addr 0x22f88b8 size 0x58 virtual false final false
-static ::System::Security::Cryptography::RIPEMD160 Create() ;
+static System::Security::Cryptography::RIPEMD160 Create() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::RIPEMD160);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::RIPEMD160, "System.Security.Cryptography", "RIPEMD160");
+NEED_NO_BOX(System::Security::Cryptography::RIPEMD160);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RIPEMD160, "System.Security.Cryptography", "RIPEMD160");

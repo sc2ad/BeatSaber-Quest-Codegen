@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCredentials;
 }
@@ -22,8 +21,8 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE TlsSignerCredentials : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Tls::TlsCredentials
-constexpr operator  ::Org::BouncyCastle::Crypto::Tls::TlsCredentials() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Tls::TlsCredentials
+constexpr operator  Org::BouncyCastle::Crypto::Tls::TlsCredentials() const noexcept;
 
 ~TlsSignerCredentials() = default;
 
@@ -34,7 +33,7 @@ constexpr explicit TlsSignerCredentials(void* ptr) noexcept : ::cordl_internals:
 
 // Properties
 
- ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm __declspec(property(get=get_SignatureAndHashAlgorithm))  SignatureAndHashAlgorithm;
+ Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm __declspec(property(get=get_SignatureAndHashAlgorithm))  SignatureAndHashAlgorithm;
 
 
 // Methods
@@ -43,12 +42,11 @@ constexpr explicit TlsSignerCredentials(void* ptr) noexcept : ::cordl_internals:
  ::ArrayW<uint8_t> GenerateCertificateSignature(::ArrayW<uint8_t> hash) ;
 
 /// @brief Method get_SignatureAndHashAlgorithm addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm get_SignatureAndHashAlgorithm() ;
+ Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm get_SignatureAndHashAlgorithm() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials, "Org.BouncyCastle.Crypto.Tls", "TlsSignerCredentials");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials, "Org.BouncyCastle.Crypto.Tls", "TlsSignerCredentials");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
 struct EaseType;
 }
@@ -64,11 +63,11 @@ constexpr void __set_usePreviousEventTranslationValue(bool value) ;
 
 constexpr bool __get_usePreviousEventTranslationValue() const;
 
- ::GlobalNamespace::EaseType __declspec(property(get=__get_easeType, put=__set_easeType))  easeType;
+ GlobalNamespace::EaseType __declspec(property(get=__get_easeType, put=__set_easeType))  easeType;
 
-constexpr void __set_easeType(::GlobalNamespace::EaseType value) ;
+constexpr void __set_easeType(GlobalNamespace::EaseType value) ;
 
-constexpr ::GlobalNamespace::EaseType __get_easeType() const;
+constexpr GlobalNamespace::EaseType __get_easeType() const;
 
  float_t __declspec(property(get=__get_translation, put=__set_translation))  translation;
 
@@ -79,16 +78,15 @@ constexpr float_t __get_translation() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "beat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "usePreviousEventTranslationValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "easeType", ty: "::GlobalNamespace::EaseType", modifiers: "", def_value: None }, CppParam { name: "translation", ty: "float_t", modifiers: "", def_value: None }]
-explicit LightTranslationBaseData(float_t beat, bool usePreviousEventTranslationValue, ::GlobalNamespace::EaseType easeType, float_t translation) ;
+// Ctor Parameters [CppParam { name: "beat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "usePreviousEventTranslationValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "easeType", ty: "GlobalNamespace::EaseType", modifiers: "", def_value: None }, CppParam { name: "translation", ty: "float_t", modifiers: "", def_value: None }]
+explicit LightTranslationBaseData(float_t beat, bool usePreviousEventTranslationValue, GlobalNamespace::EaseType easeType, float_t translation) ;
 
 /// @brief Method .ctor addr 0x21d8cbc size 0x48 virtual false final false
- void _ctor(float_t beat, bool usePreviousEventTranslationValue, ::GlobalNamespace::EaseType easeType, float_t translation) ;
+ void _ctor(float_t beat, bool usePreviousEventTranslationValue, GlobalNamespace::EaseType easeType, float_t translation) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LightTranslationBaseData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightTranslationBaseData, "", "LightTranslationBaseData");
+NEED_NO_BOX(GlobalNamespace::LightTranslationBaseData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightTranslationBaseData, "", "LightTranslationBaseData");

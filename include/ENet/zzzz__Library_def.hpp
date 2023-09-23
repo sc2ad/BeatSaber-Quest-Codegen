@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace ENet {
 class Callbacks;
 }
@@ -106,7 +105,7 @@ static void InitOpenSSL() ;
 static bool Initialize() ;
 
 /// @brief Method Initialize addr 0x2081600 size 0xf0 virtual false final false
-static bool Initialize(::ENet::Callbacks callbacks) ;
+static bool Initialize(ENet::Callbacks callbacks) ;
 
 /// @brief Method Deinitialize addr 0x20817b4 size 0x4 virtual false final false
 static void Deinitialize() ;
@@ -118,6 +117,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def ENet
-} // end anonymous namespace
-NEED_NO_BOX(::ENet::Library);
-DEFINE_IL2CPP_ARG_TYPE(::ENet::Library, "ENet", "Library");
+NEED_NO_BOX(ENet::Library);
+DEFINE_IL2CPP_ARG_TYPE(ENet::Library, "ENet", "Library");

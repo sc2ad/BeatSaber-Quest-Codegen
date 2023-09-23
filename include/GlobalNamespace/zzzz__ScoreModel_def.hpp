@@ -3,14 +3,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace System::Collections::Generic {
+namespace GlobalNamespace {
+struct GlobalNamespace__NoteData__ScoringType;
+}
+namespace System {
 template<typename T>
-class HashSet_1;
+class IComparable_1;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
 }
 namespace GlobalNamespace {
 class ScoreMultiplierCounter;
@@ -18,22 +24,15 @@ class ScoreMultiplierCounter;
 namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
-namespace GlobalNamespace {
-struct ____GlobalNamespace__NoteData__ScoringType;
-}
-namespace System {
-template<typename T>
-class IComparable_1;
-}
 // Forward declare root types
 namespace GlobalNamespace {
+class GlobalNamespace__ScoreModel__MaxScoreCounterElement;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__ScoreModel__NoteScoreDefinition;
+}
+namespace GlobalNamespace {
 class ScoreModel;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__ScoreModel__MaxScoreCounterElement;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__ScoreModel__NoteScoreDefinition;
 }
 // Type: ::NoteScoreDefinition
 namespace GlobalNamespace {
@@ -41,37 +40,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4796))
 // CS Name: ScoreModel::NoteScoreDefinition
-class CORDL_TYPE ____GlobalNamespace__ScoreModel__NoteScoreDefinition : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__ScoreModel__NoteScoreDefinition : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____GlobalNamespace__ScoreModel__NoteScoreDefinition() = default;
+virtual ~GlobalNamespace__ScoreModel__NoteScoreDefinition() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__ScoreModel__NoteScoreDefinition", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__ScoreModel__NoteScoreDefinition(____GlobalNamespace__ScoreModel__NoteScoreDefinition const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__ScoreModel__NoteScoreDefinition", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__ScoreModel__NoteScoreDefinition(GlobalNamespace__ScoreModel__NoteScoreDefinition const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__ScoreModel__NoteScoreDefinition", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__ScoreModel__NoteScoreDefinition(____GlobalNamespace__ScoreModel__NoteScoreDefinition&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__ScoreModel__NoteScoreDefinition", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__ScoreModel__NoteScoreDefinition(GlobalNamespace__ScoreModel__NoteScoreDefinition&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__ScoreModel__NoteScoreDefinition(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__ScoreModel__NoteScoreDefinition(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__ScoreModel__NoteScoreDefinition& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__ScoreModel__NoteScoreDefinition& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__ScoreModel__NoteScoreDefinition& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__ScoreModel__NoteScoreDefinition& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__ScoreModel__NoteScoreDefinition& operator=(____GlobalNamespace__ScoreModel__NoteScoreDefinition&& o) noexcept = default;
-  constexpr ____GlobalNamespace__ScoreModel__NoteScoreDefinition& operator=(____GlobalNamespace__ScoreModel__NoteScoreDefinition const& o) noexcept = default;
+  constexpr GlobalNamespace__ScoreModel__NoteScoreDefinition& operator=(GlobalNamespace__ScoreModel__NoteScoreDefinition&& o) noexcept = default;
+  constexpr GlobalNamespace__ScoreModel__NoteScoreDefinition& operator=(GlobalNamespace__ScoreModel__NoteScoreDefinition const& o) noexcept = default;
                 
 
 
@@ -130,7 +129,7 @@ constexpr int32_t __get_fixedCutScore() const;
  int32_t get_executionOrder() ;
 
 // Ctor Parameters [CppParam { name: "maxCenterDistanceCutScore", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "minBeforeCutScore", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxBeforeCutScore", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "minAfterCutScore", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxAfterCutScore", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fixedCutScore", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__ScoreModel__NoteScoreDefinition(int32_t maxCenterDistanceCutScore, int32_t minBeforeCutScore, int32_t maxBeforeCutScore, int32_t minAfterCutScore, int32_t maxAfterCutScore, int32_t fixedCutScore) ;
+explicit GlobalNamespace__ScoreModel__NoteScoreDefinition(int32_t maxCenterDistanceCutScore, int32_t minBeforeCutScore, int32_t maxBeforeCutScore, int32_t minAfterCutScore, int32_t maxAfterCutScore, int32_t fixedCutScore) ;
 
 /// @brief Method .ctor addr 0x222c7ac size 0x54 virtual false final false
  void _ctor(int32_t maxCenterDistanceCutScore, int32_t minBeforeCutScore, int32_t maxBeforeCutScore, int32_t minAfterCutScore, int32_t maxAfterCutScore, int32_t fixedCutScore) ;
@@ -145,50 +144,50 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4797))
 // CS Name: ScoreModel::MaxScoreCounterElement
-class CORDL_TYPE ____GlobalNamespace__ScoreModel__MaxScoreCounterElement : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__ScoreModel__MaxScoreCounterElement : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IComparable_1<::GlobalNamespace::____GlobalNamespace__ScoreModel__MaxScoreCounterElement>
-constexpr operator  ::System::IComparable_1<::GlobalNamespace::____GlobalNamespace__ScoreModel__MaxScoreCounterElement>() const noexcept;
+/// @brief Convert operator to System::IComparable_1<GlobalNamespace::GlobalNamespace__ScoreModel__MaxScoreCounterElement>
+constexpr operator  System::IComparable_1<GlobalNamespace::GlobalNamespace__ScoreModel__MaxScoreCounterElement>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____GlobalNamespace__ScoreModel__MaxScoreCounterElement() = default;
+virtual ~GlobalNamespace__ScoreModel__MaxScoreCounterElement() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__ScoreModel__MaxScoreCounterElement", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__ScoreModel__MaxScoreCounterElement(____GlobalNamespace__ScoreModel__MaxScoreCounterElement const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__ScoreModel__MaxScoreCounterElement", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__ScoreModel__MaxScoreCounterElement(GlobalNamespace__ScoreModel__MaxScoreCounterElement const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__ScoreModel__MaxScoreCounterElement", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__ScoreModel__MaxScoreCounterElement(____GlobalNamespace__ScoreModel__MaxScoreCounterElement&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__ScoreModel__MaxScoreCounterElement", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__ScoreModel__MaxScoreCounterElement(GlobalNamespace__ScoreModel__MaxScoreCounterElement&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__ScoreModel__MaxScoreCounterElement(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__ScoreModel__MaxScoreCounterElement(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__ScoreModel__MaxScoreCounterElement& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__ScoreModel__MaxScoreCounterElement& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__ScoreModel__MaxScoreCounterElement& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__ScoreModel__MaxScoreCounterElement& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__ScoreModel__MaxScoreCounterElement& operator=(____GlobalNamespace__ScoreModel__MaxScoreCounterElement&& o) noexcept = default;
-  constexpr ____GlobalNamespace__ScoreModel__MaxScoreCounterElement& operator=(____GlobalNamespace__ScoreModel__MaxScoreCounterElement const& o) noexcept = default;
+  constexpr GlobalNamespace__ScoreModel__MaxScoreCounterElement& operator=(GlobalNamespace__ScoreModel__MaxScoreCounterElement&& o) noexcept = default;
+  constexpr GlobalNamespace__ScoreModel__MaxScoreCounterElement& operator=(GlobalNamespace__ScoreModel__MaxScoreCounterElement const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::GlobalNamespace::____GlobalNamespace__ScoreModel__NoteScoreDefinition __declspec(property(get=__get_noteScoreDefinition, put=__set_noteScoreDefinition))  noteScoreDefinition;
+ GlobalNamespace::GlobalNamespace__ScoreModel__NoteScoreDefinition __declspec(property(get=__get_noteScoreDefinition, put=__set_noteScoreDefinition))  noteScoreDefinition;
 
-constexpr void __set_noteScoreDefinition(::GlobalNamespace::____GlobalNamespace__ScoreModel__NoteScoreDefinition value) ;
+constexpr void __set_noteScoreDefinition(GlobalNamespace::GlobalNamespace__ScoreModel__NoteScoreDefinition value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__ScoreModel__NoteScoreDefinition __get_noteScoreDefinition() const;
+constexpr GlobalNamespace::GlobalNamespace__ScoreModel__NoteScoreDefinition __get_noteScoreDefinition() const;
 
  float_t __declspec(property(get=__get_time, put=__set_time))  time;
 
@@ -199,14 +198,14 @@ constexpr float_t __get_time() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "scoringType", ty: "::GlobalNamespace::____GlobalNamespace__NoteData__ScoringType", modifiers: "", def_value: None }, CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__ScoreModel__MaxScoreCounterElement(::GlobalNamespace::____GlobalNamespace__NoteData__ScoringType scoringType, float_t time) ;
+// Ctor Parameters [CppParam { name: "scoringType", ty: "GlobalNamespace::GlobalNamespace__NoteData__ScoringType", modifiers: "", def_value: None }, CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }]
+explicit GlobalNamespace__ScoreModel__MaxScoreCounterElement(GlobalNamespace::GlobalNamespace__NoteData__ScoringType scoringType, float_t time) ;
 
 /// @brief Method .ctor addr 0x222c388 size 0x84 virtual false final false
- void _ctor(::GlobalNamespace::____GlobalNamespace__NoteData__ScoringType scoringType, float_t time) ;
+ void _ctor(GlobalNamespace::GlobalNamespace__NoteData__ScoringType scoringType, float_t time) ;
 
 /// @brief Method CompareTo addr 0x222c81c size 0x90 virtual true final true
- int32_t CompareTo(::GlobalNamespace::____GlobalNamespace__ScoreModel__MaxScoreCounterElement other) ;
+ int32_t CompareTo(GlobalNamespace::GlobalNamespace__ScoreModel__MaxScoreCounterElement other) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -221,9 +220,9 @@ namespace GlobalNamespace {
 class CORDL_TYPE ScoreModel : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using MaxScoreCounterElement = ::GlobalNamespace::____GlobalNamespace__ScoreModel__MaxScoreCounterElement;
+using MaxScoreCounterElement = GlobalNamespace::GlobalNamespace__ScoreModel__MaxScoreCounterElement;
 
-using NoteScoreDefinition = ::GlobalNamespace::____GlobalNamespace__ScoreModel__NoteScoreDefinition;
+using NoteScoreDefinition = GlobalNamespace::GlobalNamespace__ScoreModel__NoteScoreDefinition;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -264,17 +263,17 @@ static constexpr int32_t  kMaxMultiplier{8};
 /// @brief Field kMaxDistanceForDistanceToCenterScore offset 0
 static constexpr float_t  kMaxDistanceForDistanceToCenterScore{0.3};
 
-static ::System::Collections::Generic::HashSet_1<::GlobalNamespace::____GlobalNamespace__NoteData__ScoringType> __declspec(property(get=__get_fullScoreScoringTypes, put=__set_fullScoreScoringTypes))  fullScoreScoringTypes;
+static System::Collections::Generic::HashSet_1<GlobalNamespace::GlobalNamespace__NoteData__ScoringType> __declspec(property(get=__get_fullScoreScoringTypes, put=__set_fullScoreScoringTypes))  fullScoreScoringTypes;
 
-static void __set_fullScoreScoringTypes(::System::Collections::Generic::HashSet_1<::GlobalNamespace::____GlobalNamespace__NoteData__ScoringType> value) ;
+static void __set_fullScoreScoringTypes(System::Collections::Generic::HashSet_1<GlobalNamespace::GlobalNamespace__NoteData__ScoringType> value) ;
 
-static ::System::Collections::Generic::HashSet_1<::GlobalNamespace::____GlobalNamespace__NoteData__ScoringType> __get_fullScoreScoringTypes() ;
+static System::Collections::Generic::HashSet_1<GlobalNamespace::GlobalNamespace__NoteData__ScoringType> __get_fullScoreScoringTypes() ;
 
-static ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::____GlobalNamespace__NoteData__ScoringType,::GlobalNamespace::____GlobalNamespace__ScoreModel__NoteScoreDefinition> __declspec(property(get=__get__scoreDefinitions, put=__set__scoreDefinitions))  _scoreDefinitions;
+static System::Collections::Generic::Dictionary_2<GlobalNamespace::GlobalNamespace__NoteData__ScoringType,GlobalNamespace::GlobalNamespace__ScoreModel__NoteScoreDefinition> __declspec(property(get=__get__scoreDefinitions, put=__set__scoreDefinitions))  _scoreDefinitions;
 
-static void __set__scoreDefinitions(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::____GlobalNamespace__NoteData__ScoringType,::GlobalNamespace::____GlobalNamespace__ScoreModel__NoteScoreDefinition> value) ;
+static void __set__scoreDefinitions(System::Collections::Generic::Dictionary_2<GlobalNamespace::GlobalNamespace__NoteData__ScoringType,GlobalNamespace::GlobalNamespace__ScoreModel__NoteScoreDefinition> value) ;
 
-static ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::____GlobalNamespace__NoteData__ScoringType,::GlobalNamespace::____GlobalNamespace__ScoreModel__NoteScoreDefinition> __get__scoreDefinitions() ;
+static System::Collections::Generic::Dictionary_2<GlobalNamespace::GlobalNamespace__NoteData__ScoringType,GlobalNamespace::GlobalNamespace__ScoreModel__NoteScoreDefinition> __get__scoreDefinitions() ;
 
 /// @brief Field kMaxBeforeCutScore offset 0
 static constexpr int32_t  kMaxBeforeCutScore{70};
@@ -285,20 +284,20 @@ static constexpr int32_t  kMaxCenterDistanceCutScore{15};
 /// @brief Field kMaxAfterCutScore offset 0
 static constexpr int32_t  kMaxAfterCutScore{30};
 
-static ::GlobalNamespace::ScoreMultiplierCounter __declspec(property(get=__get__scoreMultiplierCounter, put=__set__scoreMultiplierCounter))  _scoreMultiplierCounter;
+static GlobalNamespace::ScoreMultiplierCounter __declspec(property(get=__get__scoreMultiplierCounter, put=__set__scoreMultiplierCounter))  _scoreMultiplierCounter;
 
-static void __set__scoreMultiplierCounter(::GlobalNamespace::ScoreMultiplierCounter value) ;
+static void __set__scoreMultiplierCounter(GlobalNamespace::ScoreMultiplierCounter value) ;
 
-static ::GlobalNamespace::ScoreMultiplierCounter __get__scoreMultiplierCounter() ;
+static GlobalNamespace::ScoreMultiplierCounter __get__scoreMultiplierCounter() ;
 
 
 // Methods
 
 /// @brief Method GetNoteScoreDefinition addr 0x222b8a0 size 0x80 virtual false final false
-static ::GlobalNamespace::____GlobalNamespace__ScoreModel__NoteScoreDefinition GetNoteScoreDefinition(::GlobalNamespace::____GlobalNamespace__NoteData__ScoringType scoringType) ;
+static GlobalNamespace::GlobalNamespace__ScoreModel__NoteScoreDefinition GetNoteScoreDefinition(GlobalNamespace::GlobalNamespace__NoteData__ScoringType scoringType) ;
 
 /// @brief Method ComputeMaxMultipliedScoreForBeatmap addr 0x222b920 size 0xa68 virtual false final false
-static int32_t ComputeMaxMultipliedScoreForBeatmap(::GlobalNamespace::IReadonlyBeatmapData beatmapData) ;
+static int32_t ComputeMaxMultipliedScoreForBeatmap(GlobalNamespace::IReadonlyBeatmapData beatmapData) ;
 
 /// @brief Method GetModifiedScoreForGameplayModifiersScoreMultiplier addr 0x222c428 size 0x74 virtual false final false
 static int32_t GetModifiedScoreForGameplayModifiersScoreMultiplier(int32_t multipliedScore, float_t gameplayModifiersScoreMultiplier) ;
@@ -313,10 +312,9 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ScoreModel);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ScoreModel, "", "ScoreModel");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__ScoreModel__MaxScoreCounterElement);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__ScoreModel__MaxScoreCounterElement, "", "ScoreModel/MaxScoreCounterElement");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__ScoreModel__NoteScoreDefinition);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__ScoreModel__NoteScoreDefinition, "", "ScoreModel/NoteScoreDefinition");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__ScoreModel__MaxScoreCounterElement);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__ScoreModel__MaxScoreCounterElement, "", "ScoreModel/MaxScoreCounterElement");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__ScoreModel__NoteScoreDefinition);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__ScoreModel__NoteScoreDefinition, "", "ScoreModel/NoteScoreDefinition");
+NEED_NO_BOX(GlobalNamespace::ScoreModel);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreModel, "", "ScoreModel");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Security/Cryptography/zzzz__SymmetricAlgorithm_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace System::Security::Cryptography {
 class KeySizes;
 }
@@ -16,7 +15,7 @@ namespace System::Security::Cryptography {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2969))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2913))
 // CS Name: System.Security.Cryptography.Aes
-class CORDL_TYPE Aes : public ::System::Security::Cryptography::SymmetricAlgorithm {
+class CORDL_TYPE Aes : public System::Security::Cryptography::SymmetricAlgorithm {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr Aes(Aes const& ) noexcept = default;
 constexpr Aes(Aes&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Aes(void* ptr) noexcept : ::System::Security::Cryptography::SymmetricAlgorithm(ptr) {
+constexpr explicit Aes(void* ptr) noexcept : System::Security::Cryptography::SymmetricAlgorithm(ptr) {
 }
 
 
@@ -52,17 +51,17 @@ constexpr explicit Aes(void* ptr) noexcept : ::System::Security::Cryptography::S
 
 // Fields
 
-static ::ArrayW<::System::Security::Cryptography::KeySizes> __declspec(property(get=__get_s_legalBlockSizes, put=__set_s_legalBlockSizes))  s_legalBlockSizes;
+static ::ArrayW<System::Security::Cryptography::KeySizes> __declspec(property(get=__get_s_legalBlockSizes, put=__set_s_legalBlockSizes))  s_legalBlockSizes;
 
-static void __set_s_legalBlockSizes(::ArrayW<::System::Security::Cryptography::KeySizes> value) ;
+static void __set_s_legalBlockSizes(::ArrayW<System::Security::Cryptography::KeySizes> value) ;
 
-static ::ArrayW<::System::Security::Cryptography::KeySizes> __get_s_legalBlockSizes() ;
+static ::ArrayW<System::Security::Cryptography::KeySizes> __get_s_legalBlockSizes() ;
 
-static ::ArrayW<::System::Security::Cryptography::KeySizes> __declspec(property(get=__get_s_legalKeySizes, put=__set_s_legalKeySizes))  s_legalKeySizes;
+static ::ArrayW<System::Security::Cryptography::KeySizes> __declspec(property(get=__get_s_legalKeySizes, put=__set_s_legalKeySizes))  s_legalKeySizes;
 
-static void __set_s_legalKeySizes(::ArrayW<::System::Security::Cryptography::KeySizes> value) ;
+static void __set_s_legalKeySizes(::ArrayW<System::Security::Cryptography::KeySizes> value) ;
 
-static ::ArrayW<::System::Security::Cryptography::KeySizes> __get_s_legalKeySizes() ;
+static ::ArrayW<System::Security::Cryptography::KeySizes> __get_s_legalKeySizes() ;
 
 
 // Methods
@@ -77,6 +76,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::Aes);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::Aes, "System.Security.Cryptography", "Aes");
+NEED_NO_BOX(System::Security::Cryptography::Aes);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::Aes, "System.Security.Cryptography", "Aes");

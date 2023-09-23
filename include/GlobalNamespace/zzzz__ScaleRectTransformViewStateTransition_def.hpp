@@ -2,18 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__BaseStateTransition_1_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class Vector3TransitionSO;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace GlobalNamespace {
-class BaseTransitionSO;
+class Vector3TransitionSO;
 }
 namespace Tweening {
 class Vector3Tween;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace GlobalNamespace {
+class BaseTransitionSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,10 +21,10 @@ class ScaleRectTransformViewStateTransition;
 // Type: ::ScaleRectTransformViewStateTransition
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10222)), TypeDefinitionIndex(TypeDefinitionIndex(5544)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5544), inst: 896 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5544)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5544), inst: 896 }), TypeDefinitionIndex(TypeDefinitionIndex(10222))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5556))
 // CS Name: ScaleRectTransformViewStateTransition
-class CORDL_TYPE ScaleRectTransformViewStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityEngine::RectTransform> {
+class CORDL_TYPE ScaleRectTransformViewStateTransition : public GlobalNamespace::BaseStateTransition_1<UnityEngine::RectTransform> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr ScaleRectTransformViewStateTransition(ScaleRectTransformViewStateTrans
 constexpr ScaleRectTransformViewStateTransition(ScaleRectTransformViewStateTransition&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ScaleRectTransformViewStateTransition(void* ptr) noexcept : ::GlobalNamespace::BaseStateTransition_1<::UnityEngine::RectTransform>(ptr) {
+constexpr explicit ScaleRectTransformViewStateTransition(void* ptr) noexcept : GlobalNamespace::BaseStateTransition_1<UnityEngine::RectTransform>(ptr) {
 }
 
 
@@ -61,28 +60,28 @@ constexpr explicit ScaleRectTransformViewStateTransition(void* ptr) noexcept : :
 
 // Fields
 
- ::GlobalNamespace::Vector3TransitionSO __declspec(property(get=__get__transition, put=__set__transition))  _transition;
+ GlobalNamespace::Vector3TransitionSO __declspec(property(get=__get__transition, put=__set__transition))  _transition;
 
-constexpr void __set__transition(::GlobalNamespace::Vector3TransitionSO value) ;
+constexpr void __set__transition(GlobalNamespace::Vector3TransitionSO value) ;
 
-constexpr ::GlobalNamespace::Vector3TransitionSO __get__transition() const;
+constexpr GlobalNamespace::Vector3TransitionSO __get__transition() const;
 
- ::Tweening::Vector3Tween __declspec(property(get=__get__vectorTween, put=__set__vectorTween))  _vectorTween;
+ Tweening::Vector3Tween __declspec(property(get=__get__vectorTween, put=__set__vectorTween))  _vectorTween;
 
-constexpr void __set__vectorTween(::Tweening::Vector3Tween value) ;
+constexpr void __set__vectorTween(Tweening::Vector3Tween value) ;
 
-constexpr ::Tweening::Vector3Tween __get__vectorTween() const;
+constexpr Tweening::Vector3Tween __get__vectorTween() const;
 
 
 // Properties
 
- ::GlobalNamespace::BaseTransitionSO __declspec(property(get=get_transition))  transition;
+ GlobalNamespace::BaseTransitionSO __declspec(property(get=get_transition))  transition;
 
 
 // Methods
 
 /// @brief Method get_transition addr 0x212b194 size 0x8 virtual true final false
- ::GlobalNamespace::BaseTransitionSO get_transition() ;
+ GlobalNamespace::BaseTransitionSO get_transition() ;
 
 /// @brief Method TransitionToNormalState addr 0x212b19c size 0x20 virtual true final false
  void TransitionToNormalState() ;
@@ -121,7 +120,7 @@ constexpr ::Tweening::Vector3Tween __get__vectorTween() const;
  void SetSelectedAndHighlightedState() ;
 
 /// @brief Method StartTween addr 0x212b1bc size 0x228 virtual false final false
- void StartTween(::UnityEngine::Vector3 endScale) ;
+ void StartTween(UnityEngine::Vector3 endScale) ;
 
 // Ctor Parameters []
 explicit ScaleRectTransformViewStateTransition() ;
@@ -130,7 +129,7 @@ explicit ScaleRectTransformViewStateTransition() ;
  void _ctor() ;
 
 /// @brief Method <StartTween>b__16_0 addr 0x212b5d4 size 0x1c virtual false final false
- void _StartTween_b__16_0(::UnityEngine::Vector3 pos) ;
+ void _StartTween_b__16_0(UnityEngine::Vector3 pos) ;
 
 /// @brief Method <StartTween>b__16_1 addr 0x212b5f0 size 0x88 virtual false final false
  void _StartTween_b__16_1() ;
@@ -139,6 +138,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ScaleRectTransformViewStateTransition);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ScaleRectTransformViewStateTransition, "", "ScaleRectTransformViewStateTransition");
+NEED_NO_BOX(GlobalNamespace::ScaleRectTransformViewStateTransition);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScaleRectTransformViewStateTransition, "", "ScaleRectTransformViewStateTransition");

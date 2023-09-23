@@ -2,25 +2,24 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
+namespace UnityEngine::UIElements {
+class ReusableCollectionItem;
 }
 namespace UnityEngine::UIElements {
 class BaseVerticalCollectionView;
 }
-namespace System::Collections {
-class IList;
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 namespace System {
 class Action;
 }
-namespace UnityEngine::UIElements {
-class VisualElement;
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
 }
-namespace UnityEngine::UIElements {
-class ReusableCollectionItem;
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -68,63 +67,63 @@ constexpr explicit CollectionViewController(void* ptr) noexcept : ::bs_hook::Il2
 
 // Fields
 
- ::UnityEngine::UIElements::BaseVerticalCollectionView __declspec(property(get=__get_m_View, put=__set_m_View))  m_View;
+ UnityEngine::UIElements::BaseVerticalCollectionView __declspec(property(get=__get_m_View, put=__set_m_View))  m_View;
 
-constexpr void __set_m_View(::UnityEngine::UIElements::BaseVerticalCollectionView value) ;
+constexpr void __set_m_View(UnityEngine::UIElements::BaseVerticalCollectionView value) ;
 
-constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView __get_m_View() const;
+constexpr UnityEngine::UIElements::BaseVerticalCollectionView __get_m_View() const;
 
- ::System::Collections::IList __declspec(property(get=__get_m_ItemsSource, put=__set_m_ItemsSource))  m_ItemsSource;
+ System::Collections::IList __declspec(property(get=__get_m_ItemsSource, put=__set_m_ItemsSource))  m_ItemsSource;
 
-constexpr void __set_m_ItemsSource(::System::Collections::IList value) ;
+constexpr void __set_m_ItemsSource(System::Collections::IList value) ;
 
-constexpr ::System::Collections::IList __get_m_ItemsSource() const;
+constexpr System::Collections::IList __get_m_ItemsSource() const;
 
- ::System::Action __declspec(property(get=__get_itemsSourceChanged, put=__set_itemsSourceChanged))  itemsSourceChanged;
+ System::Action __declspec(property(get=__get_itemsSourceChanged, put=__set_itemsSourceChanged))  itemsSourceChanged;
 
-constexpr void __set_itemsSourceChanged(::System::Action value) ;
+constexpr void __set_itemsSourceChanged(System::Action value) ;
 
-constexpr ::System::Action __get_itemsSourceChanged() const;
+constexpr System::Action __get_itemsSourceChanged() const;
 
- ::System::Action_2<int32_t,int32_t> __declspec(property(get=__get_itemIndexChanged, put=__set_itemIndexChanged))  itemIndexChanged;
+ System::Action_2<int32_t,int32_t> __declspec(property(get=__get_itemIndexChanged, put=__set_itemIndexChanged))  itemIndexChanged;
 
-constexpr void __set_itemIndexChanged(::System::Action_2<int32_t,int32_t> value) ;
+constexpr void __set_itemIndexChanged(System::Action_2<int32_t,int32_t> value) ;
 
-constexpr ::System::Action_2<int32_t,int32_t> __get_itemIndexChanged() const;
+constexpr System::Action_2<int32_t,int32_t> __get_itemIndexChanged() const;
 
 
 // Properties
 
- ::System::Collections::IList __declspec(property(get=get_itemsSource, put=set_itemsSource))  itemsSource;
+ System::Collections::IList __declspec(property(get=get_itemsSource, put=set_itemsSource))  itemsSource;
 
- ::UnityEngine::UIElements::BaseVerticalCollectionView __declspec(property(get=get_view))  view;
+ UnityEngine::UIElements::BaseVerticalCollectionView __declspec(property(get=get_view))  view;
 
 
 // Methods
 
 /// @brief Method add_itemsSourceChanged addr 0x2d10aa0 size 0x9c virtual false final false
- void add_itemsSourceChanged(::System::Action value) ;
+ void add_itemsSourceChanged(System::Action value) ;
 
 /// @brief Method remove_itemsSourceChanged addr 0x2d10b3c size 0x9c virtual false final false
- void remove_itemsSourceChanged(::System::Action value) ;
+ void remove_itemsSourceChanged(System::Action value) ;
 
 /// @brief Method add_itemIndexChanged addr 0x2d10bd8 size 0xb0 virtual false final false
- void add_itemIndexChanged(::System::Action_2<int32_t,int32_t> value) ;
+ void add_itemIndexChanged(System::Action_2<int32_t,int32_t> value) ;
 
 /// @brief Method remove_itemIndexChanged addr 0x2d10c88 size 0xb0 virtual false final false
- void remove_itemIndexChanged(::System::Action_2<int32_t,int32_t> value) ;
+ void remove_itemIndexChanged(System::Action_2<int32_t,int32_t> value) ;
 
 /// @brief Method get_itemsSource addr 0x2d10d38 size 0x8 virtual false final false
- ::System::Collections::IList get_itemsSource() ;
+ System::Collections::IList get_itemsSource() ;
 
 /// @brief Method set_itemsSource addr 0x2d1019c size 0x2c virtual false final false
- void set_itemsSource(::System::Collections::IList value) ;
+ void set_itemsSource(System::Collections::IList value) ;
 
 /// @brief Method get_view addr 0x2d10d5c size 0x8 virtual false final false
- ::UnityEngine::UIElements::BaseVerticalCollectionView get_view() ;
+ UnityEngine::UIElements::BaseVerticalCollectionView get_view() ;
 
 /// @brief Method SetView addr 0x2d10d64 size 0x94 virtual false final false
- void SetView(::UnityEngine::UIElements::BaseVerticalCollectionView view) ;
+ void SetView(UnityEngine::UIElements::BaseVerticalCollectionView view) ;
 
 /// @brief Method GetItemCount addr 0x2d10df8 size 0xb0 virtual true final false
  int32_t GetItemCount() ;
@@ -136,28 +135,28 @@ constexpr ::System::Action_2<int32_t,int32_t> __get_itemIndexChanged() const;
  ::bs_hook::Il2CppWrapperType GetItemForIndex(int32_t index) ;
 
 /// @brief Method InvokeMakeItem addr 0x2d1101c size 0x38 virtual true final false
- void InvokeMakeItem(::UnityEngine::UIElements::ReusableCollectionItem reusableItem) ;
+ void InvokeMakeItem(UnityEngine::UIElements::ReusableCollectionItem reusableItem) ;
 
 /// @brief Method InvokeBindItem addr 0x2d0f988 size 0xc8 virtual true final false
- void InvokeBindItem(::UnityEngine::UIElements::ReusableCollectionItem reusableItem, int32_t index) ;
+ void InvokeBindItem(UnityEngine::UIElements::ReusableCollectionItem reusableItem, int32_t index) ;
 
 /// @brief Method InvokeUnbindItem addr 0x2d11054 size 0x24 virtual true final false
- void InvokeUnbindItem(::UnityEngine::UIElements::ReusableCollectionItem reusableItem, int32_t index) ;
+ void InvokeUnbindItem(UnityEngine::UIElements::ReusableCollectionItem reusableItem, int32_t index) ;
 
 /// @brief Method InvokeDestroyItem addr 0x2d11078 size 0x24 virtual true final false
- void InvokeDestroyItem(::UnityEngine::UIElements::ReusableCollectionItem reusableItem) ;
+ void InvokeDestroyItem(UnityEngine::UIElements::ReusableCollectionItem reusableItem) ;
 
 /// @brief Method MakeItem addr 0x2d1109c size 0xdc virtual true final false
- ::UnityEngine::UIElements::VisualElement MakeItem() ;
+ UnityEngine::UIElements::VisualElement MakeItem() ;
 
 /// @brief Method BindItem addr 0x2d11178 size 0x1d0 virtual true final false
- void BindItem(::UnityEngine::UIElements::VisualElement element, int32_t index) ;
+ void BindItem(UnityEngine::UIElements::VisualElement element, int32_t index) ;
 
 /// @brief Method UnbindItem addr 0x2d11348 size 0x34 virtual true final false
- void UnbindItem(::UnityEngine::UIElements::VisualElement element, int32_t index) ;
+ void UnbindItem(UnityEngine::UIElements::VisualElement element, int32_t index) ;
 
 /// @brief Method DestroyItem addr 0x2d1137c size 0x34 virtual true final false
- void DestroyItem(::UnityEngine::UIElements::VisualElement element) ;
+ void DestroyItem(UnityEngine::UIElements::VisualElement element) ;
 
 /// @brief Method RaiseItemsSourceChanged addr 0x2d10d40 size 0x1c virtual false final false
  void RaiseItemsSourceChanged() ;
@@ -175,6 +174,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::CollectionViewController);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::CollectionViewController, "UnityEngine.UIElements", "CollectionViewController");
+NEED_NO_BOX(UnityEngine::UIElements::CollectionViewController);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::CollectionViewController, "UnityEngine.UIElements", "CollectionViewController");

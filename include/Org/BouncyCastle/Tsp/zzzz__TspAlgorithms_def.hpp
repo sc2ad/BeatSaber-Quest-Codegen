@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Collections {
 class IList;
 }
@@ -130,11 +129,11 @@ static void __set_SM3(::StringW value) ;
 
 static ::StringW __get_SM3() ;
 
-static ::System::Collections::IList __declspec(property(get=__get_Allowed, put=__set_Allowed))  Allowed;
+static System::Collections::IList __declspec(property(get=__get_Allowed, put=__set_Allowed))  Allowed;
 
-static void __set_Allowed(::System::Collections::IList value) ;
+static void __set_Allowed(System::Collections::IList value) ;
 
-static ::System::Collections::IList __get_Allowed() ;
+static System::Collections::IList __get_Allowed() ;
 
 
 // Methods
@@ -149,6 +148,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Tsp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Tsp::TspAlgorithms);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Tsp::TspAlgorithms, "Org.BouncyCastle.Tsp", "TspAlgorithms");
+NEED_NO_BOX(Org::BouncyCastle::Tsp::TspAlgorithms);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Tsp::TspAlgorithms, "Org.BouncyCastle.Tsp", "TspAlgorithms");

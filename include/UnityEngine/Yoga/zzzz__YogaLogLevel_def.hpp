@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Yoga {
 struct YogaLogLevel;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Error offset 0
-static ::UnityEngine::Yoga::YogaLogLevel const Error;
+static UnityEngine::Yoga::YogaLogLevel const Error;
 
 /// @brief Field Warn offset 0
-static ::UnityEngine::Yoga::YogaLogLevel const Warn;
+static UnityEngine::Yoga::YogaLogLevel const Warn;
 
 /// @brief Field Info offset 0
-static ::UnityEngine::Yoga::YogaLogLevel const Info;
+static UnityEngine::Yoga::YogaLogLevel const Info;
 
 /// @brief Field Debug offset 0
-static ::UnityEngine::Yoga::YogaLogLevel const Debug;
+static UnityEngine::Yoga::YogaLogLevel const Debug;
 
 /// @brief Field Verbose offset 0
-static ::UnityEngine::Yoga::YogaLogLevel const Verbose;
+static UnityEngine::Yoga::YogaLogLevel const Verbose;
 
 /// @brief Field Fatal offset 0
-static ::UnityEngine::Yoga::YogaLogLevel const Fatal;
+static UnityEngine::Yoga::YogaLogLevel const Fatal;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Yoga
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Yoga::YogaLogLevel, "UnityEngine.Yoga", "YogaLogLevel");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Yoga::YogaLogLevel, "UnityEngine.Yoga", "YogaLogLevel");

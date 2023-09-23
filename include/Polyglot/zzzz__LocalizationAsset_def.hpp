@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace Polyglot {
-struct GoogleDriveDownloadFormat;
-}
 namespace UnityEngine {
 class TextAsset;
+}
+namespace Polyglot {
+struct GoogleDriveDownloadFormat;
 }
 // Forward declare root types
 namespace Polyglot {
@@ -54,39 +53,39 @@ constexpr explicit LocalizationAsset(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 
 // Fields
 
- ::UnityEngine::TextAsset __declspec(property(get=__get_textAsset, put=__set_textAsset))  textAsset;
+ UnityEngine::TextAsset __declspec(property(get=__get_textAsset, put=__set_textAsset))  textAsset;
 
-constexpr void __set_textAsset(::UnityEngine::TextAsset value) ;
+constexpr void __set_textAsset(UnityEngine::TextAsset value) ;
 
-constexpr ::UnityEngine::TextAsset __get_textAsset() const;
+constexpr UnityEngine::TextAsset __get_textAsset() const;
 
- ::Polyglot::GoogleDriveDownloadFormat __declspec(property(get=__get_format, put=__set_format))  format;
+ Polyglot::GoogleDriveDownloadFormat __declspec(property(get=__get_format, put=__set_format))  format;
 
-constexpr void __set_format(::Polyglot::GoogleDriveDownloadFormat value) ;
+constexpr void __set_format(Polyglot::GoogleDriveDownloadFormat value) ;
 
-constexpr ::Polyglot::GoogleDriveDownloadFormat __get_format() const;
+constexpr Polyglot::GoogleDriveDownloadFormat __get_format() const;
 
 
 // Properties
 
- ::UnityEngine::TextAsset __declspec(property(get=get_TextAsset, put=set_TextAsset))  TextAsset;
+ UnityEngine::TextAsset __declspec(property(get=get_TextAsset, put=set_TextAsset))  TextAsset;
 
- ::Polyglot::GoogleDriveDownloadFormat __declspec(property(get=get_Format, put=set_Format))  Format;
+ Polyglot::GoogleDriveDownloadFormat __declspec(property(get=get_Format, put=set_Format))  Format;
 
 
 // Methods
 
 /// @brief Method get_TextAsset addr 0x2672c20 size 0x8 virtual false final false
- ::UnityEngine::TextAsset get_TextAsset() ;
+ UnityEngine::TextAsset get_TextAsset() ;
 
 /// @brief Method set_TextAsset addr 0x2672c28 size 0x8 virtual false final false
- void set_TextAsset(::UnityEngine::TextAsset value) ;
+ void set_TextAsset(UnityEngine::TextAsset value) ;
 
 /// @brief Method get_Format addr 0x2672c30 size 0x8 virtual false final false
- ::Polyglot::GoogleDriveDownloadFormat get_Format() ;
+ Polyglot::GoogleDriveDownloadFormat get_Format() ;
 
 /// @brief Method set_Format addr 0x2672c38 size 0x8 virtual false final false
- void set_Format(::Polyglot::GoogleDriveDownloadFormat value) ;
+ void set_Format(Polyglot::GoogleDriveDownloadFormat value) ;
 
 // Ctor Parameters []
 explicit LocalizationAsset() ;
@@ -98,6 +97,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Polyglot
-} // end anonymous namespace
-NEED_NO_BOX(::Polyglot::LocalizationAsset);
-DEFINE_IL2CPP_ARG_TYPE(::Polyglot::LocalizationAsset, "Polyglot", "LocalizationAsset");
+NEED_NO_BOX(Polyglot::LocalizationAsset);
+DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizationAsset, "Polyglot", "LocalizationAsset");

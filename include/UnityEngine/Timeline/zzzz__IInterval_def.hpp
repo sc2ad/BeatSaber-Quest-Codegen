@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Timeline {
 class IInterval;
@@ -41,6 +40,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Timeline::IInterval);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::IInterval, "UnityEngine.Timeline", "IInterval");
+NEED_NO_BOX(UnityEngine::Timeline::IInterval);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::IInterval, "UnityEngine.Timeline", "IInterval");

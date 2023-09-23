@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace ENet {
 struct EventType;
 }
@@ -19,8 +18,8 @@ namespace ENet {
 struct CORDL_TYPE ENetEvent : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "type", ty: "::ENet::EventType", modifiers: "", def_value: None }, CppParam { name: "peer", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "channelID", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "data", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "packet", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-constexpr ENetEvent(::ENet::EventType type, ::cordl_internals::intptr_t peer, uint8_t channelID, uint32_t data, ::cordl_internals::intptr_t packet) noexcept;
+// Ctor Parameters [CppParam { name: "type", ty: "ENet::EventType", modifiers: "", def_value: None }, CppParam { name: "peer", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "channelID", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "data", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "packet", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
+constexpr ENetEvent(ENet::EventType type, ::cordl_internals::intptr_t peer, uint8_t channelID, uint32_t data, ::cordl_internals::intptr_t packet) noexcept;
 
 
                     constexpr ENetEvent(ENetEvent const&) = default;
@@ -53,11 +52,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::ENet::EventType __declspec(property(get=__get_type, put=__set_type))  type;
+ ENet::EventType __declspec(property(get=__get_type, put=__set_type))  type;
 
-constexpr void __set_type(::ENet::EventType value) ;
+constexpr void __set_type(ENet::EventType value) ;
 
-constexpr ::ENet::EventType __get_type() const;
+constexpr ENet::EventType __get_type() const;
 
  ::cordl_internals::intptr_t __declspec(property(get=__get_peer, put=__set_peer))  peer;
 
@@ -87,5 +86,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def ENet
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::ENet::ENetEvent, "ENet", "ENetEvent");
+DEFINE_IL2CPP_ARG_TYPE(ENet::ENetEvent, "ENet", "ENetEvent");

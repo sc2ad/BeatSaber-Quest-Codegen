@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace TMPro {
 struct TagUnitType;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Pixels offset 0
-static ::TMPro::TagUnitType const Pixels;
+static TMPro::TagUnitType const Pixels;
 
 /// @brief Field FontUnits offset 0
-static ::TMPro::TagUnitType const FontUnits;
+static TMPro::TagUnitType const FontUnits;
 
 /// @brief Field Percentage offset 0
-static ::TMPro::TagUnitType const Percentage;
+static TMPro::TagUnitType const Percentage;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::TagUnitType, "TMPro", "TagUnitType");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TagUnitType, "TMPro", "TagUnitType");

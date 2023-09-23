@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
 namespace System {
 class Type;
 }
@@ -27,7 +26,7 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11690))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11692))
 // CS Name: System.Xml.Schema.XmlNumeric2Converter
-class CORDL_TYPE XmlNumeric2Converter : public ::System::Xml::Schema::XmlBaseConverter {
+class CORDL_TYPE XmlNumeric2Converter : public System::Xml::Schema::XmlBaseConverter {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -42,7 +41,7 @@ constexpr XmlNumeric2Converter(XmlNumeric2Converter const& ) noexcept = default;
 constexpr XmlNumeric2Converter(XmlNumeric2Converter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XmlNumeric2Converter(void* ptr) noexcept : ::System::Xml::Schema::XmlBaseConverter(ptr) {
+constexpr explicit XmlNumeric2Converter(void* ptr) noexcept : System::Xml::Schema::XmlBaseConverter(ptr) {
 }
 
 
@@ -63,14 +62,14 @@ constexpr explicit XmlNumeric2Converter(void* ptr) noexcept : ::System::Xml::Sch
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "schemaType", ty: "::System::Xml::Schema::XmlSchemaType", modifiers: "", def_value: None }]
-explicit XmlNumeric2Converter(::System::Xml::Schema::XmlSchemaType schemaType) ;
+// Ctor Parameters [CppParam { name: "schemaType", ty: "System::Xml::Schema::XmlSchemaType", modifiers: "", def_value: None }]
+explicit XmlNumeric2Converter(System::Xml::Schema::XmlSchemaType schemaType) ;
 
 /// @brief Method .ctor addr 0x273f5e0 size 0x64 virtual false final false
- void _ctor(::System::Xml::Schema::XmlSchemaType schemaType) ;
+ void _ctor(System::Xml::Schema::XmlSchemaType schemaType) ;
 
 /// @brief Method Create addr 0x27245dc size 0x60 virtual false final false
-static ::System::Xml::Schema::XmlValueConverter Create(::System::Xml::Schema::XmlSchemaType schemaType) ;
+static System::Xml::Schema::XmlValueConverter Create(System::Xml::Schema::XmlSchemaType schemaType) ;
 
 /// @brief Method ToDouble addr 0x273f644 size 0xd0 virtual true final false
  double_t ToDouble(::StringW value) ;
@@ -94,21 +93,20 @@ static ::System::Xml::Schema::XmlValueConverter Create(::System::Xml::Schema::Xm
  ::StringW ToString(float_t value) ;
 
 /// @brief Method ToString addr 0x273ffb0 size 0x358 virtual true final false
- ::StringW ToString(::bs_hook::Il2CppWrapperType value, ::System::Xml::IXmlNamespaceResolver nsResolver) ;
+ ::StringW ToString(::bs_hook::Il2CppWrapperType value, System::Xml::IXmlNamespaceResolver nsResolver) ;
 
 /// @brief Method ChangeType addr 0x2740308 size 0x36c virtual true final false
- ::bs_hook::Il2CppWrapperType ChangeType(double_t value, ::System::Type destinationType) ;
+ ::bs_hook::Il2CppWrapperType ChangeType(double_t value, System::Type destinationType) ;
 
 /// @brief Method ChangeType addr 0x2740674 size 0x3ac virtual true final false
- ::bs_hook::Il2CppWrapperType ChangeType(::StringW value, ::System::Type destinationType, ::System::Xml::IXmlNamespaceResolver nsResolver) ;
+ ::bs_hook::Il2CppWrapperType ChangeType(::StringW value, System::Type destinationType, System::Xml::IXmlNamespaceResolver nsResolver) ;
 
 /// @brief Method ChangeType addr 0x2740a20 size 0x6c8 virtual true final false
- ::bs_hook::Il2CppWrapperType ChangeType(::bs_hook::Il2CppWrapperType value, ::System::Type destinationType, ::System::Xml::IXmlNamespaceResolver nsResolver) ;
+ ::bs_hook::Il2CppWrapperType ChangeType(::bs_hook::Il2CppWrapperType value, System::Type destinationType, System::Xml::IXmlNamespaceResolver nsResolver) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::XmlNumeric2Converter);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlNumeric2Converter, "System.Xml.Schema", "XmlNumeric2Converter");
+NEED_NO_BOX(System::Xml::Schema::XmlNumeric2Converter);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::XmlNumeric2Converter, "System.Xml.Schema", "XmlNumeric2Converter");

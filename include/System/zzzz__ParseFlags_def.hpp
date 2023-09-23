@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 struct ParseFlags;
@@ -80,53 +79,52 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field HaveYear offset 0
-static ::System::ParseFlags const HaveYear;
+static System::ParseFlags const HaveYear;
 
 /// @brief Field HaveMonth offset 0
-static ::System::ParseFlags const HaveMonth;
+static System::ParseFlags const HaveMonth;
 
 /// @brief Field HaveDay offset 0
-static ::System::ParseFlags const HaveDay;
+static System::ParseFlags const HaveDay;
 
 /// @brief Field HaveHour offset 0
-static ::System::ParseFlags const HaveHour;
+static System::ParseFlags const HaveHour;
 
 /// @brief Field HaveMinute offset 0
-static ::System::ParseFlags const HaveMinute;
+static System::ParseFlags const HaveMinute;
 
 /// @brief Field HaveSecond offset 0
-static ::System::ParseFlags const HaveSecond;
+static System::ParseFlags const HaveSecond;
 
 /// @brief Field HaveTime offset 0
-static ::System::ParseFlags const HaveTime;
+static System::ParseFlags const HaveTime;
 
 /// @brief Field HaveDate offset 0
-static ::System::ParseFlags const HaveDate;
+static System::ParseFlags const HaveDate;
 
 /// @brief Field TimeZoneUsed offset 0
-static ::System::ParseFlags const TimeZoneUsed;
+static System::ParseFlags const TimeZoneUsed;
 
 /// @brief Field TimeZoneUtc offset 0
-static ::System::ParseFlags const TimeZoneUtc;
+static System::ParseFlags const TimeZoneUtc;
 
 /// @brief Field ParsedMonthName offset 0
-static ::System::ParseFlags const ParsedMonthName;
+static System::ParseFlags const ParsedMonthName;
 
 /// @brief Field CaptureOffset offset 0
-static ::System::ParseFlags const CaptureOffset;
+static System::ParseFlags const CaptureOffset;
 
 /// @brief Field YearDefault offset 0
-static ::System::ParseFlags const YearDefault;
+static System::ParseFlags const YearDefault;
 
 /// @brief Field Rfc1123Pattern offset 0
-static ::System::ParseFlags const Rfc1123Pattern;
+static System::ParseFlags const Rfc1123Pattern;
 
 /// @brief Field UtcSortPattern offset 0
-static ::System::ParseFlags const UtcSortPattern;
+static System::ParseFlags const UtcSortPattern;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::ParseFlags, "System", "ParseFlags");
+DEFINE_IL2CPP_ARG_TYPE(System::ParseFlags, "System", "ParseFlags");

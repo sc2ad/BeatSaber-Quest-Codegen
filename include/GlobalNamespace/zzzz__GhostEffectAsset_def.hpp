@@ -1,34 +1,33 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_def.hpp"
-namespace {
+namespace UnityEngine::Timeline {
+struct ClipCaps;
+}
 namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
-namespace UnityEngine::Timeline {
-class ITimelineClipAsset;
-}
-namespace GlobalNamespace {
-class TimelineArrayReference;
-}
-namespace UnityEngine::Playables {
-struct Playable;
+namespace UnityEngine {
+class GameObject;
 }
 namespace GlobalNamespace {
 class GhostEffectBehaviour;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__GhostEffectBehaviour__GhostEffectType;
+struct GlobalNamespace__GhostEffectBehaviour__GhostEffectType;
 }
-namespace UnityEngine {
-class GameObject;
+namespace UnityEngine::Timeline {
+class ITimelineClipAsset;
+}
+namespace UnityEngine::Playables {
+struct Playable;
 }
 namespace UnityEngine {
 template<typename T>
 struct ExposedReference_1;
 }
-namespace UnityEngine::Timeline {
-struct ClipCaps;
+namespace GlobalNamespace {
+class TimelineArrayReference;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -40,11 +39,11 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10358))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6066))
 // CS Name: GhostEffectAsset
-class CORDL_TYPE GhostEffectAsset : public ::UnityEngine::Playables::PlayableAsset {
+class CORDL_TYPE GhostEffectAsset : public UnityEngine::Playables::PlayableAsset {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::Timeline::ITimelineClipAsset
-constexpr operator  ::UnityEngine::Timeline::ITimelineClipAsset() const noexcept;
+/// @brief Convert operator to UnityEngine::Timeline::ITimelineClipAsset
+constexpr operator  UnityEngine::Timeline::ITimelineClipAsset() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -58,7 +57,7 @@ constexpr GhostEffectAsset(GhostEffectAsset const& ) noexcept = default;
 constexpr GhostEffectAsset(GhostEffectAsset&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GhostEffectAsset(void* ptr) noexcept : ::UnityEngine::Playables::PlayableAsset(ptr) {
+constexpr explicit GhostEffectAsset(void* ptr) noexcept : UnityEngine::Playables::PlayableAsset(ptr) {
 }
 
 
@@ -79,37 +78,37 @@ constexpr explicit GhostEffectAsset(void* ptr) noexcept : ::UnityEngine::Playabl
 
 // Fields
 
- ::GlobalNamespace::____GlobalNamespace__GhostEffectBehaviour__GhostEffectType __declspec(property(get=__get__ghostEffectType, put=__set__ghostEffectType))  _ghostEffectType;
+ GlobalNamespace::GlobalNamespace__GhostEffectBehaviour__GhostEffectType __declspec(property(get=__get__ghostEffectType, put=__set__ghostEffectType))  _ghostEffectType;
 
-constexpr void __set__ghostEffectType(::GlobalNamespace::____GlobalNamespace__GhostEffectBehaviour__GhostEffectType value) ;
+constexpr void __set__ghostEffectType(GlobalNamespace::GlobalNamespace__GhostEffectBehaviour__GhostEffectType value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__GhostEffectBehaviour__GhostEffectType __get__ghostEffectType() const;
+constexpr GlobalNamespace::GlobalNamespace__GhostEffectBehaviour__GhostEffectType __get__ghostEffectType() const;
 
- ::UnityEngine::ExposedReference_1<::GlobalNamespace::TimelineArrayReference> __declspec(property(get=__get_arrayReference, put=__set_arrayReference))  arrayReference;
+ UnityEngine::ExposedReference_1<GlobalNamespace::TimelineArrayReference> __declspec(property(get=__get_arrayReference, put=__set_arrayReference))  arrayReference;
 
-constexpr void __set_arrayReference(::UnityEngine::ExposedReference_1<::GlobalNamespace::TimelineArrayReference> value) ;
+constexpr void __set_arrayReference(UnityEngine::ExposedReference_1<GlobalNamespace::TimelineArrayReference> value) ;
 
-constexpr ::UnityEngine::ExposedReference_1<::GlobalNamespace::TimelineArrayReference> __get_arrayReference() const;
+constexpr UnityEngine::ExposedReference_1<GlobalNamespace::TimelineArrayReference> __get_arrayReference() const;
 
- ::GlobalNamespace::GhostEffectBehaviour __declspec(property(get=__get_template, put=__set_template))  template;
+ GlobalNamespace::GhostEffectBehaviour __declspec(property(get=__get_template, put=__set_template))  template;
 
-constexpr void __set_template(::GlobalNamespace::GhostEffectBehaviour value) ;
+constexpr void __set_template(GlobalNamespace::GhostEffectBehaviour value) ;
 
-constexpr ::GlobalNamespace::GhostEffectBehaviour __get_template() const;
+constexpr GlobalNamespace::GhostEffectBehaviour __get_template() const;
 
 
 // Properties
 
- ::UnityEngine::Timeline::ClipCaps __declspec(property(get=get_clipCaps))  clipCaps;
+ UnityEngine::Timeline::ClipCaps __declspec(property(get=get_clipCaps))  clipCaps;
 
 
 // Methods
 
 /// @brief Method get_clipCaps addr 0x21b273c size 0x8 virtual true final true
- ::UnityEngine::Timeline::ClipCaps get_clipCaps() ;
+ UnityEngine::Timeline::ClipCaps get_clipCaps() ;
 
 /// @brief Method CreatePlayable addr 0x21b2744 size 0x13c virtual true final false
- ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject go) ;
+ UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject go) ;
 
 // Ctor Parameters []
 explicit GhostEffectAsset() ;
@@ -121,6 +120,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::GhostEffectAsset);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GhostEffectAsset, "", "GhostEffectAsset");
+NEED_NO_BOX(GlobalNamespace::GhostEffectAsset);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GhostEffectAsset, "", "GhostEffectAsset");

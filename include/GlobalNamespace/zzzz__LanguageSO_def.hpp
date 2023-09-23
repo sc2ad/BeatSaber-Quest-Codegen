@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__ObservableVariableSO_1_def.hpp"
 #include "Polyglot/zzzz__Language_def.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class LanguageSO;
@@ -10,10 +9,10 @@ class LanguageSO;
 // Type: ::LanguageSO
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15530)), TypeDefinitionIndex(TypeDefinitionIndex(13904)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13904), inst: 3717 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13904), inst: 3717 }), TypeDefinitionIndex(TypeDefinitionIndex(13904)), TypeDefinitionIndex(TypeDefinitionIndex(15530))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5935))
 // CS Name: LanguageSO
-class CORDL_TYPE LanguageSO : public ::GlobalNamespace::ObservableVariableSO_1<::Polyglot::Language> {
+class CORDL_TYPE LanguageSO : public GlobalNamespace::ObservableVariableSO_1<Polyglot::Language> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr LanguageSO(LanguageSO const& ) noexcept = default;
 constexpr LanguageSO(LanguageSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LanguageSO(void* ptr) noexcept : ::GlobalNamespace::ObservableVariableSO_1<::Polyglot::Language>(ptr) {
+constexpr explicit LanguageSO(void* ptr) noexcept : GlobalNamespace::ObservableVariableSO_1<Polyglot::Language>(ptr) {
 }
 
 
@@ -59,6 +58,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LanguageSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LanguageSO, "", "LanguageSO");
+NEED_NO_BOX(GlobalNamespace::LanguageSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LanguageSO, "", "LanguageSO");

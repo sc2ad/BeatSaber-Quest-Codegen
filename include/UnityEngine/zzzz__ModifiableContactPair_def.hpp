@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine {
 struct Quaternion;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -22,8 +21,8 @@ namespace UnityEngine {
 struct CORDL_TYPE ModifiableContactPair : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "actor", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "otherActor", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "shape", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "otherShape", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "otherRotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "otherPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "numContacts", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "contacts", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-constexpr ModifiableContactPair(::cordl_internals::intptr_t actor, ::cordl_internals::intptr_t otherActor, ::cordl_internals::intptr_t shape, ::cordl_internals::intptr_t otherShape, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion otherRotation, ::UnityEngine::Vector3 otherPosition, int32_t numContacts, ::cordl_internals::intptr_t contacts) noexcept;
+// Ctor Parameters [CppParam { name: "actor", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "otherActor", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "shape", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "otherShape", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "position", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "otherRotation", ty: "UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "otherPosition", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "numContacts", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "contacts", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
+constexpr ModifiableContactPair(::cordl_internals::intptr_t actor, ::cordl_internals::intptr_t otherActor, ::cordl_internals::intptr_t shape, ::cordl_internals::intptr_t otherShape, UnityEngine::Quaternion rotation, UnityEngine::Vector3 position, UnityEngine::Quaternion otherRotation, UnityEngine::Vector3 otherPosition, int32_t numContacts, ::cordl_internals::intptr_t contacts) noexcept;
 
 
                     constexpr ModifiableContactPair(ModifiableContactPair const&) = default;
@@ -80,29 +79,29 @@ constexpr void __set_otherShape(::cordl_internals::intptr_t value) ;
 
 constexpr ::cordl_internals::intptr_t __get_otherShape() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get_rotation, put=__set_rotation))  rotation;
+ UnityEngine::Quaternion __declspec(property(get=__get_rotation, put=__set_rotation))  rotation;
 
-constexpr void __set_rotation(::UnityEngine::Quaternion value) ;
+constexpr void __set_rotation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get_rotation() const;
+constexpr UnityEngine::Quaternion __get_rotation() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_position, put=__set_position))  position;
+ UnityEngine::Vector3 __declspec(property(get=__get_position, put=__set_position))  position;
 
-constexpr void __set_position(::UnityEngine::Vector3 value) ;
+constexpr void __set_position(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_position() const;
+constexpr UnityEngine::Vector3 __get_position() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get_otherRotation, put=__set_otherRotation))  otherRotation;
+ UnityEngine::Quaternion __declspec(property(get=__get_otherRotation, put=__set_otherRotation))  otherRotation;
 
-constexpr void __set_otherRotation(::UnityEngine::Quaternion value) ;
+constexpr void __set_otherRotation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get_otherRotation() const;
+constexpr UnityEngine::Quaternion __get_otherRotation() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_otherPosition, put=__set_otherPosition))  otherPosition;
+ UnityEngine::Vector3 __declspec(property(get=__get_otherPosition, put=__set_otherPosition))  otherPosition;
 
-constexpr void __set_otherPosition(::UnityEngine::Vector3 value) ;
+constexpr void __set_otherPosition(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_otherPosition() const;
+constexpr UnityEngine::Vector3 __get_otherPosition() const;
 
  int32_t __declspec(property(get=__get_numContacts, put=__set_numContacts))  numContacts;
 
@@ -120,5 +119,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ModifiableContactPair, "UnityEngine", "ModifiableContactPair");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ModifiableContactPair, "UnityEngine", "ModifiableContactPair");

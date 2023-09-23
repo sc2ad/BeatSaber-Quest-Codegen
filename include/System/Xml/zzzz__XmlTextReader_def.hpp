@@ -2,33 +2,32 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/zzzz__XmlReader_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace System::Xml {
+struct XmlNodeType;
+}
 namespace System::Xml {
 class XmlNameTable;
 }
-namespace System::Xml {
-class XmlTextReaderImpl;
-}
-namespace System::Xml {
-struct XmlNodeType;
+namespace System::IO {
+class TextReader;
 }
 namespace System::Xml {
 class IDtdInfo;
 }
 namespace System::Xml {
-struct ReadState;
+class IXmlNamespaceResolver;
 }
 namespace System::Xml {
 struct EntityHandling;
 }
 namespace System::Xml {
-class IXmlNamespaceResolver;
-}
-namespace System::Xml {
 class XmlResolver;
 }
-namespace System::IO {
-class TextReader;
+namespace System::Xml {
+struct ReadState;
+}
+namespace System::Xml {
+class XmlTextReaderImpl;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -40,11 +39,11 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11398))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11401))
 // CS Name: System.Xml.XmlTextReader
-class CORDL_TYPE XmlTextReader : public ::System::Xml::XmlReader {
+class CORDL_TYPE XmlTextReader : public System::Xml::XmlReader {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Xml::IXmlNamespaceResolver
-constexpr operator  ::System::Xml::IXmlNamespaceResolver() const noexcept;
+/// @brief Convert operator to System::Xml::IXmlNamespaceResolver
+constexpr operator  System::Xml::IXmlNamespaceResolver() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -58,7 +57,7 @@ constexpr XmlTextReader(XmlTextReader const& ) noexcept = default;
 constexpr XmlTextReader(XmlTextReader&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XmlTextReader(void* ptr) noexcept : ::System::Xml::XmlReader(ptr) {
+constexpr explicit XmlTextReader(void* ptr) noexcept : System::Xml::XmlReader(ptr) {
 }
 
 
@@ -79,16 +78,16 @@ constexpr explicit XmlTextReader(void* ptr) noexcept : ::System::Xml::XmlReader(
 
 // Fields
 
- ::System::Xml::XmlTextReaderImpl __declspec(property(get=__get_impl, put=__set_impl))  impl;
+ System::Xml::XmlTextReaderImpl __declspec(property(get=__get_impl, put=__set_impl))  impl;
 
-constexpr void __set_impl(::System::Xml::XmlTextReaderImpl value) ;
+constexpr void __set_impl(System::Xml::XmlTextReaderImpl value) ;
 
-constexpr ::System::Xml::XmlTextReaderImpl __get_impl() const;
+constexpr System::Xml::XmlTextReaderImpl __get_impl() const;
 
 
 // Properties
 
- ::System::Xml::XmlNodeType __declspec(property(get=get_NodeType))  NodeType;
+ System::Xml::XmlNodeType __declspec(property(get=get_NodeType))  NodeType;
 
  ::StringW __declspec(property(get=get_Name))  Name;
 
@@ -106,33 +105,33 @@ constexpr ::System::Xml::XmlTextReaderImpl __get_impl() const;
 
  bool __declspec(property(get=get_IsDefault))  IsDefault;
 
- ::System::Xml::ReadState __declspec(property(get=get_ReadState))  ReadState;
+ System::Xml::ReadState __declspec(property(get=get_ReadState))  ReadState;
 
- ::System::Xml::XmlNameTable __declspec(property(get=get_NameTable))  NameTable;
+ System::Xml::XmlNameTable __declspec(property(get=get_NameTable))  NameTable;
 
  bool __declspec(property(get=get_CanResolveEntity))  CanResolveEntity;
 
- ::System::Xml::EntityHandling __declspec(property(put=set_EntityHandling))  EntityHandling;
+ System::Xml::EntityHandling __declspec(property(put=set_EntityHandling))  EntityHandling;
 
- ::System::Xml::XmlResolver __declspec(property(put=set_XmlResolver))  XmlResolver;
+ System::Xml::XmlResolver __declspec(property(put=set_XmlResolver))  XmlResolver;
 
- ::System::Xml::XmlTextReaderImpl __declspec(property(get=get_Impl))  Impl;
+ System::Xml::XmlTextReaderImpl __declspec(property(get=get_Impl))  Impl;
 
  bool __declspec(property(put=set_XmlValidatingReaderCompatibilityMode))  XmlValidatingReaderCompatibilityMode;
 
- ::System::Xml::IDtdInfo __declspec(property(get=get_DtdInfo))  DtdInfo;
+ System::Xml::IDtdInfo __declspec(property(get=get_DtdInfo))  DtdInfo;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "input", ty: "::System::IO::TextReader", modifiers: "", def_value: None }, CppParam { name: "nt", ty: "::System::Xml::XmlNameTable", modifiers: "", def_value: None }]
-explicit XmlTextReader(::System::IO::TextReader input, ::System::Xml::XmlNameTable nt) ;
+// Ctor Parameters [CppParam { name: "input", ty: "System::IO::TextReader", modifiers: "", def_value: None }, CppParam { name: "nt", ty: "System::Xml::XmlNameTable", modifiers: "", def_value: None }]
+explicit XmlTextReader(System::IO::TextReader input, System::Xml::XmlNameTable nt) ;
 
 /// @brief Method .ctor addr 0x26e0444 size 0xac virtual false final false
- void _ctor(::System::IO::TextReader input, ::System::Xml::XmlNameTable nt) ;
+ void _ctor(System::IO::TextReader input, System::Xml::XmlNameTable nt) ;
 
 /// @brief Method get_NodeType addr 0x26e04f0 size 0x20 virtual true final false
- ::System::Xml::XmlNodeType get_NodeType() ;
+ System::Xml::XmlNodeType get_NodeType() ;
 
 /// @brief Method get_Name addr 0x26e0510 size 0x20 virtual true final false
  ::StringW get_Name() ;
@@ -180,10 +179,10 @@ explicit XmlTextReader(::System::IO::TextReader input, ::System::Xml::XmlNameTab
  void Close() ;
 
 /// @brief Method get_ReadState addr 0x26e0714 size 0x24 virtual true final false
- ::System::Xml::ReadState get_ReadState() ;
+ System::Xml::ReadState get_ReadState() ;
 
 /// @brief Method get_NameTable addr 0x26e0738 size 0x24 virtual true final false
- ::System::Xml::XmlNameTable get_NameTable() ;
+ System::Xml::XmlNameTable get_NameTable() ;
 
 /// @brief Method LookupNamespace addr 0x26e075c size 0x38 virtual true final false
  ::StringW LookupNamespace(::StringW prefix) ;
@@ -201,24 +200,23 @@ explicit XmlTextReader(::System::IO::TextReader input, ::System::Xml::XmlNameTab
  ::StringW System_Xml_IXmlNamespaceResolver_LookupPrefix(::StringW namespaceName) ;
 
 /// @brief Method set_EntityHandling addr 0x26e0800 size 0x1c virtual false final false
- void set_EntityHandling(::System::Xml::EntityHandling value) ;
+ void set_EntityHandling(System::Xml::EntityHandling value) ;
 
 /// @brief Method set_XmlResolver addr 0x26e081c size 0x1c virtual false final false
- void set_XmlResolver(::System::Xml::XmlResolver value) ;
+ void set_XmlResolver(System::Xml::XmlResolver value) ;
 
 /// @brief Method get_Impl addr 0x26e0838 size 0x8 virtual false final false
- ::System::Xml::XmlTextReaderImpl get_Impl() ;
+ System::Xml::XmlTextReaderImpl get_Impl() ;
 
 /// @brief Method set_XmlValidatingReaderCompatibilityMode addr 0x26e0840 size 0x20 virtual false final false
  void set_XmlValidatingReaderCompatibilityMode(bool value) ;
 
 /// @brief Method get_DtdInfo addr 0x26e0860 size 0x24 virtual true final false
- ::System::Xml::IDtdInfo get_DtdInfo() ;
+ System::Xml::IDtdInfo get_DtdInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::XmlTextReader);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlTextReader, "System.Xml", "XmlTextReader");
+NEED_NO_BOX(System::Xml::XmlTextReader);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlTextReader, "System.Xml", "XmlTextReader");

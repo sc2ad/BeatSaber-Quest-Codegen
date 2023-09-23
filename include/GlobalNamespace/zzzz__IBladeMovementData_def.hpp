@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
 struct BladeMovementDataElement;
 }
@@ -29,9 +28,9 @@ constexpr explicit IBladeMovementData(void* ptr) noexcept : ::cordl_internals::I
 
  float_t __declspec(property(get=get_bladeSpeed))  bladeSpeed;
 
- ::GlobalNamespace::BladeMovementDataElement __declspec(property(get=get_lastAddedData))  lastAddedData;
+ GlobalNamespace::BladeMovementDataElement __declspec(property(get=get_lastAddedData))  lastAddedData;
 
- ::GlobalNamespace::BladeMovementDataElement __declspec(property(get=get_prevAddedData))  prevAddedData;
+ GlobalNamespace::BladeMovementDataElement __declspec(property(get=get_prevAddedData))  prevAddedData;
 
 
 // Methods
@@ -40,15 +39,14 @@ constexpr explicit IBladeMovementData(void* ptr) noexcept : ::cordl_internals::I
  float_t get_bladeSpeed() ;
 
 /// @brief Method get_lastAddedData addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::BladeMovementDataElement get_lastAddedData() ;
+ GlobalNamespace::BladeMovementDataElement get_lastAddedData() ;
 
 /// @brief Method get_prevAddedData addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::BladeMovementDataElement get_prevAddedData() ;
+ GlobalNamespace::BladeMovementDataElement get_prevAddedData() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IBladeMovementData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IBladeMovementData, "", "IBladeMovementData");
+NEED_NO_BOX(GlobalNamespace::IBladeMovementData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IBladeMovementData, "", "IBladeMovementData");

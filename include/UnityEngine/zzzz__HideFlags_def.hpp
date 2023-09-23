@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct HideFlags;
@@ -74,35 +73,34 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::HideFlags const None;
+static UnityEngine::HideFlags const None;
 
 /// @brief Field HideInHierarchy offset 0
-static ::UnityEngine::HideFlags const HideInHierarchy;
+static UnityEngine::HideFlags const HideInHierarchy;
 
 /// @brief Field HideInInspector offset 0
-static ::UnityEngine::HideFlags const HideInInspector;
+static UnityEngine::HideFlags const HideInInspector;
 
 /// @brief Field DontSaveInEditor offset 0
-static ::UnityEngine::HideFlags const DontSaveInEditor;
+static UnityEngine::HideFlags const DontSaveInEditor;
 
 /// @brief Field NotEditable offset 0
-static ::UnityEngine::HideFlags const NotEditable;
+static UnityEngine::HideFlags const NotEditable;
 
 /// @brief Field DontSaveInBuild offset 0
-static ::UnityEngine::HideFlags const DontSaveInBuild;
+static UnityEngine::HideFlags const DontSaveInBuild;
 
 /// @brief Field DontUnloadUnusedAsset offset 0
-static ::UnityEngine::HideFlags const DontUnloadUnusedAsset;
+static UnityEngine::HideFlags const DontUnloadUnusedAsset;
 
 /// @brief Field DontSave offset 0
-static ::UnityEngine::HideFlags const DontSave;
+static UnityEngine::HideFlags const DontSave;
 
 /// @brief Field HideAndDontSave offset 0
-static ::UnityEngine::HideFlags const HideAndDontSave;
+static UnityEngine::HideFlags const HideAndDontSave;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::HideFlags, "UnityEngine", "HideFlags");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HideFlags, "UnityEngine", "HideFlags");

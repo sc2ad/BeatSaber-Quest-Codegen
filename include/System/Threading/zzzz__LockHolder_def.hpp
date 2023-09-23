@@ -1,12 +1,11 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
-namespace System::Threading {
-class Lock;
-}
 namespace System {
 class IDisposable;
+}
+namespace System::Threading {
+class Lock;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -21,11 +20,11 @@ namespace System::Threading {
 struct CORDL_TYPE LockHolder : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const;
 
-// Ctor Parameters [CppParam { name: "_lock", ty: "::System::Threading::Lock", modifiers: "", def_value: None }]
-constexpr LockHolder(::System::Threading::Lock _lock) noexcept;
+// Ctor Parameters [CppParam { name: "_lock", ty: "System::Threading::Lock", modifiers: "", def_value: None }]
+constexpr LockHolder(System::Threading::Lock _lock) noexcept;
 
 
                     constexpr LockHolder(LockHolder const&) = default;
@@ -58,17 +57,17 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::Threading::Lock __declspec(property(get=__get__lock, put=__set__lock))  _lock;
+ System::Threading::Lock __declspec(property(get=__get__lock, put=__set__lock))  _lock;
 
-constexpr void __set__lock(::System::Threading::Lock value) ;
+constexpr void __set__lock(System::Threading::Lock value) ;
 
-constexpr ::System::Threading::Lock __get__lock() const;
+constexpr System::Threading::Lock __get__lock() const;
 
 
 // Methods
 
 /// @brief Method Hold addr 0x24a6c64 size 0x24 virtual false final false
-static ::System::Threading::LockHolder Hold(::System::Threading::Lock l) ;
+static System::Threading::LockHolder Hold(System::Threading::Lock l) ;
 
 /// @brief Method Dispose addr 0x24a6c90 size 0x1c virtual true final true
  void Dispose() ;
@@ -77,5 +76,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Threading
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::LockHolder, "System.Threading", "LockHolder");
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::LockHolder, "System.Threading", "LockHolder");

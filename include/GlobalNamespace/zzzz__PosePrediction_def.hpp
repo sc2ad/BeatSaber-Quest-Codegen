@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
-namespace GlobalNamespace {
-struct PoseSerializable;
-}
 namespace UnityEngine {
 struct Pose;
+}
+namespace GlobalNamespace {
+struct PoseSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -56,16 +55,16 @@ constexpr explicit PosePrediction(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 // Methods
 
 /// @brief Method PredictPose addr 0xdccf04 size 0xb4 virtual false final false
-static ::UnityEngine::Pose PredictPose(::UnityEngine::Pose prev, float_t prevTime, ::UnityEngine::Pose curr, float_t currTime, float_t time) ;
+static UnityEngine::Pose PredictPose(UnityEngine::Pose prev, float_t prevTime, UnityEngine::Pose curr, float_t currTime, float_t time) ;
 
 /// @brief Method InterpolatePose addr 0xdccfb8 size 0x2cc virtual false final false
-static ::UnityEngine::Pose InterpolatePose(::UnityEngine::Pose prev, ::UnityEngine::Pose curr, float_t t) ;
+static UnityEngine::Pose InterpolatePose(UnityEngine::Pose prev, UnityEngine::Pose curr, float_t t) ;
 
 /// @brief Method PredictPoseSerializable addr 0xdcd284 size 0xe0 virtual false final false
-static ::GlobalNamespace::PoseSerializable PredictPoseSerializable(::GlobalNamespace::PoseSerializable prev, float_t prevTime, ::GlobalNamespace::PoseSerializable curr, float_t currTime, float_t time) ;
+static GlobalNamespace::PoseSerializable PredictPoseSerializable(GlobalNamespace::PoseSerializable prev, float_t prevTime, GlobalNamespace::PoseSerializable curr, float_t currTime, float_t time) ;
 
 /// @brief Method InterpolatePoseSerializable addr 0xdcd364 size 0xf0 virtual false final false
-static ::GlobalNamespace::PoseSerializable InterpolatePoseSerializable(::GlobalNamespace::PoseSerializable a, ::GlobalNamespace::PoseSerializable b, float_t t) ;
+static GlobalNamespace::PoseSerializable InterpolatePoseSerializable(GlobalNamespace::PoseSerializable a, GlobalNamespace::PoseSerializable b, float_t t) ;
 
 // Ctor Parameters []
 explicit PosePrediction() ;
@@ -77,6 +76,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PosePrediction);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PosePrediction, "", "PosePrediction");
+NEED_NO_BOX(GlobalNamespace::PosePrediction);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PosePrediction, "", "PosePrediction");

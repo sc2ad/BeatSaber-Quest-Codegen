@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
 namespace Unity::Collections {
 struct Allocator;
 }
@@ -18,8 +17,8 @@ namespace Unity::Collections {
 struct CORDL_TYPE NativeArrayDispose : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "m_Buffer", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_AllocatorLabel", ty: "::Unity::Collections::Allocator", modifiers: "", def_value: None }]
-constexpr NativeArrayDispose(void* m_Buffer, ::Unity::Collections::Allocator m_AllocatorLabel) noexcept;
+// Ctor Parameters [CppParam { name: "m_Buffer", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_AllocatorLabel", ty: "Unity::Collections::Allocator", modifiers: "", def_value: None }]
+constexpr NativeArrayDispose(void* m_Buffer, Unity::Collections::Allocator m_AllocatorLabel) noexcept;
 
 
                     constexpr NativeArrayDispose(NativeArrayDispose const&) = default;
@@ -58,11 +57,11 @@ constexpr void __set_m_Buffer(void* value) ;
 
 constexpr void* __get_m_Buffer() const;
 
- ::Unity::Collections::Allocator __declspec(property(get=__get_m_AllocatorLabel, put=__set_m_AllocatorLabel))  m_AllocatorLabel;
+ Unity::Collections::Allocator __declspec(property(get=__get_m_AllocatorLabel, put=__set_m_AllocatorLabel))  m_AllocatorLabel;
 
-constexpr void __set_m_AllocatorLabel(::Unity::Collections::Allocator value) ;
+constexpr void __set_m_AllocatorLabel(Unity::Collections::Allocator value) ;
 
-constexpr ::Unity::Collections::Allocator __get_m_AllocatorLabel() const;
+constexpr Unity::Collections::Allocator __get_m_AllocatorLabel() const;
 
 
 // Methods
@@ -74,5 +73,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Unity::Collections
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::NativeArrayDispose, "Unity.Collections", "NativeArrayDispose");
+DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::NativeArrayDispose, "Unity.Collections", "NativeArrayDispose");

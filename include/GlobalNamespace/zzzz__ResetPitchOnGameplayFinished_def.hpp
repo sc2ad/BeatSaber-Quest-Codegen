@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace GlobalNamespace {
-class GameplayLevelSceneTransitionEvents;
-}
 namespace GlobalNamespace {
 class AudioManagerSO;
+}
+namespace GlobalNamespace {
+class GameplayLevelSceneTransitionEvents;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -54,26 +53,26 @@ constexpr explicit ResetPitchOnGameplayFinished(void* ptr) noexcept : ::bs_hook:
 
 // Fields
 
- ::GlobalNamespace::GameplayLevelSceneTransitionEvents __declspec(property(get=__get__gameplayLevelSceneTransitionEvents, put=__set__gameplayLevelSceneTransitionEvents))  _gameplayLevelSceneTransitionEvents;
+ GlobalNamespace::GameplayLevelSceneTransitionEvents __declspec(property(get=__get__gameplayLevelSceneTransitionEvents, put=__set__gameplayLevelSceneTransitionEvents))  _gameplayLevelSceneTransitionEvents;
 
-constexpr void __set__gameplayLevelSceneTransitionEvents(::GlobalNamespace::GameplayLevelSceneTransitionEvents value) ;
+constexpr void __set__gameplayLevelSceneTransitionEvents(GlobalNamespace::GameplayLevelSceneTransitionEvents value) ;
 
-constexpr ::GlobalNamespace::GameplayLevelSceneTransitionEvents __get__gameplayLevelSceneTransitionEvents() const;
+constexpr GlobalNamespace::GameplayLevelSceneTransitionEvents __get__gameplayLevelSceneTransitionEvents() const;
 
- ::GlobalNamespace::AudioManagerSO __declspec(property(get=__get__audioManager, put=__set__audioManager))  _audioManager;
+ GlobalNamespace::AudioManagerSO __declspec(property(get=__get__audioManager, put=__set__audioManager))  _audioManager;
 
-constexpr void __set__audioManager(::GlobalNamespace::AudioManagerSO value) ;
+constexpr void __set__audioManager(GlobalNamespace::AudioManagerSO value) ;
 
-constexpr ::GlobalNamespace::AudioManagerSO __get__audioManager() const;
+constexpr GlobalNamespace::AudioManagerSO __get__audioManager() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "gameplayLevelSceneTransitionEvents", ty: "::GlobalNamespace::GameplayLevelSceneTransitionEvents", modifiers: "", def_value: None }, CppParam { name: "audioManager", ty: "::GlobalNamespace::AudioManagerSO", modifiers: "", def_value: None }]
-explicit ResetPitchOnGameplayFinished(::GlobalNamespace::GameplayLevelSceneTransitionEvents gameplayLevelSceneTransitionEvents, ::GlobalNamespace::AudioManagerSO audioManager) ;
+// Ctor Parameters [CppParam { name: "gameplayLevelSceneTransitionEvents", ty: "GlobalNamespace::GameplayLevelSceneTransitionEvents", modifiers: "", def_value: None }, CppParam { name: "audioManager", ty: "GlobalNamespace::AudioManagerSO", modifiers: "", def_value: None }]
+explicit ResetPitchOnGameplayFinished(GlobalNamespace::GameplayLevelSceneTransitionEvents gameplayLevelSceneTransitionEvents, GlobalNamespace::AudioManagerSO audioManager) ;
 
 /// @brief Method .ctor addr 0x20bd958 size 0xa8 virtual false final false
- void _ctor(::GlobalNamespace::GameplayLevelSceneTransitionEvents gameplayLevelSceneTransitionEvents, ::GlobalNamespace::AudioManagerSO audioManager) ;
+ void _ctor(GlobalNamespace::GameplayLevelSceneTransitionEvents gameplayLevelSceneTransitionEvents, GlobalNamespace::AudioManagerSO audioManager) ;
 
 /// @brief Method Finalize addr 0x20bda00 size 0x110 virtual true final false
  void Finalize() ;
@@ -85,6 +84,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ResetPitchOnGameplayFinished);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ResetPitchOnGameplayFinished, "", "ResetPitchOnGameplayFinished");
+NEED_NO_BOX(GlobalNamespace::ResetPitchOnGameplayFinished);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResetPitchOnGameplayFinished, "", "ResetPitchOnGameplayFinished");

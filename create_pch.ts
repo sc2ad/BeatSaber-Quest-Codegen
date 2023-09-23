@@ -57,11 +57,15 @@ for await (const dirEntry of fs.walk(codegenHeaders, { includeFiles: false })) {
   await buildHeader(namespaceHeader);
 }
 
-async function buildHeader(path: string) {
+async function buildHeader(headerPath: string) {
+  const compileCommandsPath = path.join(Deno.cwd(), 'build', path.basename(headerPath)) + '.json.tmp';
+
   // "clang -cc1 test.h -emit-pch -o test.h.pch"
   const args = [
     // "-cc1", // C
     "-c", // C++
+    "-MJ",
+    compileCommandsPath,
     `--sysroot=${sysroot}`,
     `--target=${archTarget}-linux-android${apiLevel}`,
     // clang build args
@@ -79,10 +83,10 @@ async function buildHeader(path: string) {
     `-fdeclspec`,
 
     // PCH
-    path,
+    headerPath,
     "-emit-pch",
     "-o",
-    `${path}.pch`,
+    `${headerPath}.pch`,
   ];
 
   const command = new Deno.Command(clangPath, {
@@ -93,10 +97,35 @@ async function buildHeader(path: string) {
 
   const output = await command.output();
 
+  // fixupCompileCommands(compileCommandsPath);
+
   if (!output.success) {
-    console.error(`Failed to compile ${path}`);
+    console.error(`Failed to compile ${headerPath}`);
     console.error(`Command invocation:\n${clangPath} ${args.join(" ")}`);
     console.error("======================");
     Deno.exit(1);
   }
+}
+
+async function fixupCompileCommands(path: string) {
+  const tempFile = await Deno.readTextFile(path)
+  const tempJson = JSON.parse(tempFile.trim())
+
+
+  const filePath = "./build/compile_commands.json";
+
+  // create file if needed
+  await fs.ensureFile(filePath)
+
+  const defaultFileContents: string = await Deno.readTextFile(filePath);
+
+  let fileJson: unknown[];
+  if (defaultFileContents.trim() === "") {
+    fileJson = []
+  } else {
+    fileJson = JSON.parse(defaultFileContents.trim())
+  }
+
+  const final = fileJson.concat(...tempJson)
+  await Deno.writeTextFile(filePath, JSON.stringify(final));
 }

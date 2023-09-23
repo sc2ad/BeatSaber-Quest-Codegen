@@ -5,24 +5,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System {
-class Type;
-}
 namespace System::Reflection {
 class RuntimeAssembly;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
 }
 namespace System {
 struct Guid;
 }
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
 namespace System::Reflection {
 class Assembly;
+}
+namespace System {
+class Type;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -34,7 +33,7 @@ namespace System::Reflection {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3473))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3517))
 // CS Name: System.Reflection.RuntimeModule
-class CORDL_TYPE RuntimeModule : public ::System::Reflection::Module {
+class CORDL_TYPE RuntimeModule : public System::Reflection::Module {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -49,7 +48,7 @@ constexpr RuntimeModule(RuntimeModule const& ) noexcept = default;
 constexpr RuntimeModule(RuntimeModule&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RuntimeModule(void* ptr) noexcept : ::System::Reflection::Module(ptr) {
+constexpr explicit RuntimeModule(void* ptr) noexcept : System::Reflection::Module(ptr) {
 }
 
 
@@ -76,11 +75,11 @@ constexpr void __set__impl(::cordl_internals::intptr_t value) ;
 
 constexpr ::cordl_internals::intptr_t __get__impl() const;
 
- ::System::Reflection::Assembly __declspec(property(get=__get_assembly, put=__set_assembly))  assembly;
+ System::Reflection::Assembly __declspec(property(get=__get_assembly, put=__set_assembly))  assembly;
 
-constexpr void __set_assembly(::System::Reflection::Assembly value) ;
+constexpr void __set_assembly(System::Reflection::Assembly value) ;
 
-constexpr ::System::Reflection::Assembly __get_assembly() const;
+constexpr System::Reflection::Assembly __get_assembly() const;
 
  ::StringW __declspec(property(get=__get_fqname, put=__set_fqname))  fqname;
 
@@ -115,23 +114,23 @@ constexpr int32_t __get_token() const;
 
 // Properties
 
- ::System::Reflection::Assembly __declspec(property(get=get_Assembly))  Assembly;
+ System::Reflection::Assembly __declspec(property(get=get_Assembly))  Assembly;
 
  ::StringW __declspec(property(get=get_ScopeName))  ScopeName;
 
- ::System::Guid __declspec(property(get=get_ModuleVersionId))  ModuleVersionId;
+ System::Guid __declspec(property(get=get_ModuleVersionId))  ModuleVersionId;
 
 
 // Methods
 
 /// @brief Method get_Assembly addr 0x23891f4 size 0x8 virtual true final false
- ::System::Reflection::Assembly get_Assembly() ;
+ System::Reflection::Assembly get_Assembly() ;
 
 /// @brief Method get_ScopeName addr 0x23891fc size 0x8 virtual true final false
  ::StringW get_ScopeName() ;
 
 /// @brief Method get_ModuleVersionId addr 0x2389204 size 0x10 virtual true final false
- ::System::Guid get_ModuleVersionId() ;
+ System::Guid get_ModuleVersionId() ;
 
 /// @brief Method IsResource addr 0x2389214 size 0x8 virtual true final false
  bool IsResource() ;
@@ -140,19 +139,19 @@ constexpr int32_t __get_token() const;
  ::ArrayW<::bs_hook::Il2CppWrapperType> GetCustomAttributes(bool inherit) ;
 
 /// @brief Method GetCustomAttributes addr 0x2389284 size 0x70 virtual true final false
- ::ArrayW<::bs_hook::Il2CppWrapperType> GetCustomAttributes(::System::Type attributeType, bool inherit) ;
+ ::ArrayW<::bs_hook::Il2CppWrapperType> GetCustomAttributes(System::Type attributeType, bool inherit) ;
 
 /// @brief Method IsDefined addr 0x23892f4 size 0x70 virtual true final false
- bool IsDefined(::System::Type attributeType, bool inherit) ;
+ bool IsDefined(System::Type attributeType, bool inherit) ;
 
 /// @brief Method GetObjectData addr 0x2389364 size 0x98 virtual true final false
- void GetObjectData(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void GetObjectData(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method GetRuntimeAssembly addr 0x23893fc size 0x78 virtual false final false
- ::System::Reflection::RuntimeAssembly GetRuntimeAssembly() ;
+ System::Reflection::RuntimeAssembly GetRuntimeAssembly() ;
 
 /// @brief Method GetModuleVersionId addr 0x2389474 size 0x80 virtual true final false
- ::System::Guid GetModuleVersionId() ;
+ System::Guid GetModuleVersionId() ;
 
 /// @brief Method GetGuidInternal addr 0x23894f4 size 0x4 virtual false final false
 static void GetGuidInternal(::cordl_internals::intptr_t module, ::ArrayW<uint8_t> guid) ;
@@ -167,6 +166,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Reflection
-} // end anonymous namespace
-NEED_NO_BOX(::System::Reflection::RuntimeModule);
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::RuntimeModule, "System.Reflection", "RuntimeModule");
+NEED_NO_BOX(System::Reflection::RuntimeModule);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::RuntimeModule, "System.Reflection", "RuntimeModule");

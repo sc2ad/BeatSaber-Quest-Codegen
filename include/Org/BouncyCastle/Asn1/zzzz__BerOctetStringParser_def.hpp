@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetStringParser;
 }
@@ -30,11 +29,11 @@ namespace Org::BouncyCastle::Asn1 {
 class CORDL_TYPE BerOctetStringParser : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Asn1::Asn1OctetStringParser
-constexpr operator  ::Org::BouncyCastle::Asn1::Asn1OctetStringParser() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Asn1::Asn1OctetStringParser
+constexpr operator  Org::BouncyCastle::Asn1::Asn1OctetStringParser() const noexcept;
 
-/// @brief Convert operator to ::Org::BouncyCastle::Asn1::IAsn1Convertible
-constexpr operator  ::Org::BouncyCastle::Asn1::IAsn1Convertible() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Asn1::IAsn1Convertible
+constexpr operator  Org::BouncyCastle::Asn1::IAsn1Convertible() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -69,31 +68,30 @@ constexpr explicit BerOctetStringParser(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 // Fields
 
- ::Org::BouncyCastle::Asn1::Asn1StreamParser __declspec(property(get=__get__parser, put=__set__parser))  _parser;
+ Org::BouncyCastle::Asn1::Asn1StreamParser __declspec(property(get=__get__parser, put=__set__parser))  _parser;
 
-constexpr void __set__parser(::Org::BouncyCastle::Asn1::Asn1StreamParser value) ;
+constexpr void __set__parser(Org::BouncyCastle::Asn1::Asn1StreamParser value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::Asn1StreamParser __get__parser() const;
+constexpr Org::BouncyCastle::Asn1::Asn1StreamParser __get__parser() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "parser", ty: "::Org::BouncyCastle::Asn1::Asn1StreamParser", modifiers: "", def_value: None }]
-explicit BerOctetStringParser(::Org::BouncyCastle::Asn1::Asn1StreamParser parser) ;
+// Ctor Parameters [CppParam { name: "parser", ty: "Org::BouncyCastle::Asn1::Asn1StreamParser", modifiers: "", def_value: None }]
+explicit BerOctetStringParser(Org::BouncyCastle::Asn1::Asn1StreamParser parser) ;
 
 /// @brief Method .ctor addr 0x112b450 size 0x28 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::Asn1StreamParser parser) ;
+ void _ctor(Org::BouncyCastle::Asn1::Asn1StreamParser parser) ;
 
 /// @brief Method GetOctetStream addr 0x1132658 size 0x6c virtual true final true
- ::System::IO::Stream GetOctetStream() ;
+ System::IO::Stream GetOctetStream() ;
 
 /// @brief Method ToAsn1Object addr 0x112b478 size 0x168 virtual true final true
- ::Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
+ Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::BerOctetStringParser);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::BerOctetStringParser, "Org.BouncyCastle.Asn1", "BerOctetStringParser");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::BerOctetStringParser);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::BerOctetStringParser, "Org.BouncyCastle.Asn1", "BerOctetStringParser");

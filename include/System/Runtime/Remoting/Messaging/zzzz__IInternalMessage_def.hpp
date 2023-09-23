@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Runtime::Remoting {
 class Identity;
 }
@@ -27,7 +26,7 @@ constexpr explicit IInternalMessage(void* ptr) noexcept : ::cordl_internals::Int
 
 // Properties
 
- ::System::Runtime::Remoting::Identity __declspec(property(get=get_TargetIdentity, put=set_TargetIdentity))  TargetIdentity;
+ System::Runtime::Remoting::Identity __declspec(property(get=get_TargetIdentity, put=set_TargetIdentity))  TargetIdentity;
 
  ::StringW __declspec(property(get=get_Uri, put=set_Uri))  Uri;
 
@@ -35,10 +34,10 @@ constexpr explicit IInternalMessage(void* ptr) noexcept : ::cordl_internals::Int
 // Methods
 
 /// @brief Method get_TargetIdentity addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Runtime::Remoting::Identity get_TargetIdentity() ;
+ System::Runtime::Remoting::Identity get_TargetIdentity() ;
 
 /// @brief Method set_TargetIdentity addr 0x0 size 0xffffffffffffffff virtual true final false
- void set_TargetIdentity(::System::Runtime::Remoting::Identity value) ;
+ void set_TargetIdentity(System::Runtime::Remoting::Identity value) ;
 
 /// @brief Method get_Uri addr 0x0 size 0xffffffffffffffff virtual true final false
  ::StringW get_Uri() ;
@@ -50,6 +49,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Messaging
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Messaging::IInternalMessage);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::IInternalMessage, "System.Runtime.Remoting.Messaging", "IInternalMessage");
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::IInternalMessage);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::IInternalMessage, "System.Runtime.Remoting.Messaging", "IInternalMessage");

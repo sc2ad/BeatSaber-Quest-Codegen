@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
 namespace GlobalNamespace {
 class AvatarVisualController;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4095))
 // CS Name: MultiplayerAvatarVisualProvider
-class CORDL_TYPE MultiplayerAvatarVisualProvider : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerAvatarVisualProvider : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr MultiplayerAvatarVisualProvider(MultiplayerAvatarVisualProvider const&
 constexpr MultiplayerAvatarVisualProvider(MultiplayerAvatarVisualProvider&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerAvatarVisualProvider(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerAvatarVisualProvider(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -54,17 +53,17 @@ constexpr explicit MultiplayerAvatarVisualProvider(void* ptr) noexcept : ::Unity
 
 // Fields
 
- ::GlobalNamespace::AvatarVisualController __declspec(property(get=__get__avatarVisualController, put=__set__avatarVisualController))  _avatarVisualController;
+ GlobalNamespace::AvatarVisualController __declspec(property(get=__get__avatarVisualController, put=__set__avatarVisualController))  _avatarVisualController;
 
-constexpr void __set__avatarVisualController(::GlobalNamespace::AvatarVisualController value) ;
+constexpr void __set__avatarVisualController(GlobalNamespace::AvatarVisualController value) ;
 
-constexpr ::GlobalNamespace::AvatarVisualController __get__avatarVisualController() const;
+constexpr GlobalNamespace::AvatarVisualController __get__avatarVisualController() const;
 
- ::GlobalNamespace::IConnectedPlayer __declspec(property(get=__get__connectedPlayer, put=__set__connectedPlayer))  _connectedPlayer;
+ GlobalNamespace::IConnectedPlayer __declspec(property(get=__get__connectedPlayer, put=__set__connectedPlayer))  _connectedPlayer;
 
-constexpr void __set__connectedPlayer(::GlobalNamespace::IConnectedPlayer value) ;
+constexpr void __set__connectedPlayer(GlobalNamespace::IConnectedPlayer value) ;
 
-constexpr ::GlobalNamespace::IConnectedPlayer __get__connectedPlayer() const;
+constexpr GlobalNamespace::IConnectedPlayer __get__connectedPlayer() const;
 
 
 // Methods
@@ -82,6 +81,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerAvatarVisualProvider);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerAvatarVisualProvider, "", "MultiplayerAvatarVisualProvider");
+NEED_NO_BOX(GlobalNamespace::MultiplayerAvatarVisualProvider);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerAvatarVisualProvider, "", "MultiplayerAvatarVisualProvider");

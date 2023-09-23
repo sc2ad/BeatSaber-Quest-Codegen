@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace GlobalNamespace {
 struct CannotStartGameReason;
 }
@@ -68,12 +67,11 @@ static constexpr ::ConstString  kDoNotOwnSong{u"LABEL_CANT_START_GAME_DO_NOT_OWN
 // Methods
 
 /// @brief Method LocalizedKey addr 0x21f2c64 size 0xd8 virtual false final false
-static ::StringW LocalizedKey(::GlobalNamespace::CannotStartGameReason cannotStartGameReason) ;
+static ::StringW LocalizedKey(GlobalNamespace::CannotStartGameReason cannotStartGameReason) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::CannotStartGameReasonMethods);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CannotStartGameReasonMethods, "", "CannotStartGameReasonMethods");
+NEED_NO_BOX(GlobalNamespace::CannotStartGameReasonMethods);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CannotStartGameReasonMethods, "", "CannotStartGameReasonMethods");

@@ -7,76 +7,75 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class RuntimeAnimatorController;
-}
-namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
-namespace UnityEngine {
-struct HumanBodyBones;
-}
-namespace UnityEngine {
-struct AnimatorStateInfo;
-}
-namespace UnityEngine {
-struct AvatarTarget;
-}
-namespace UnityEngine {
-struct AnimatorClipInfo;
-}
-namespace System {
-class Type;
-}
-namespace UnityEngine {
-class ScriptableObject;
-}
-namespace UnityEngine {
-struct AnimatorRecorderMode;
-}
-namespace UnityEngine {
-struct MatchTargetWeightMask;
-}
-namespace UnityEngine {
-struct AnimatorUpdateMode;
-}
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine {
-struct AnimatorTransitionInfo;
-}
-namespace UnityEngine {
-struct AnimatorCullingMode;
-}
-namespace UnityEngine {
-struct AvatarIKHint;
 }
 namespace UnityEngine {
 class StateMachineBehaviour;
 }
 namespace UnityEngine {
-class Avatar;
+struct AnimatorCullingMode;
 }
 namespace UnityEngine {
-class AnimatorControllerParameter;
+struct AnimatorRecorderMode;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct AvatarIKGoal;
+}
+namespace UnityEngine {
+struct AvatarIKHint;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine {
+struct StateInfoIndex;
+}
+namespace System {
+class Type;
+}
+namespace UnityEngine {
+class AnimatorControllerParameter;
+}
+namespace UnityEngine {
+class Avatar;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+class ScriptableObject;
+}
+namespace UnityEngine {
+struct AnimatorClipInfo;
+}
+namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
-struct AvatarIKGoal;
+struct AnimatorStateInfo;
 }
 namespace UnityEngine {
-struct StateInfoIndex;
+struct MatchTargetWeightMask;
+}
+namespace UnityEngine {
+struct AnimatorTransitionInfo;
+}
+namespace UnityEngine {
+class RuntimeAnimatorController;
+}
+namespace UnityEngine {
+struct AvatarTarget;
+}
+namespace UnityEngine {
+struct AnimatorUpdateMode;
+}
+namespace UnityEngine {
+struct HumanBodyBones;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -88,7 +87,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10129))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15053))
 // CS Name: UnityEngine.Animator
-class CORDL_TYPE Animator : public ::UnityEngine::Behaviour {
+class CORDL_TYPE Animator : public UnityEngine::Behaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -103,7 +102,7 @@ constexpr Animator(Animator const& ) noexcept = default;
 constexpr Animator(Animator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Animator(void* ptr) noexcept : ::UnityEngine::Behaviour(ptr) {
+constexpr explicit Animator(void* ptr) noexcept : UnityEngine::Behaviour(ptr) {
 }
 
 
@@ -136,17 +135,17 @@ constexpr explicit Animator(void* ptr) noexcept : ::UnityEngine::Behaviour(ptr) 
 
  bool __declspec(property(get=get_isInitialized))  isInitialized;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_deltaPosition))  deltaPosition;
+ UnityEngine::Vector3 __declspec(property(get=get_deltaPosition))  deltaPosition;
 
- ::UnityEngine::Quaternion __declspec(property(get=get_deltaRotation))  deltaRotation;
+ UnityEngine::Quaternion __declspec(property(get=get_deltaRotation))  deltaRotation;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_velocity))  velocity;
+ UnityEngine::Vector3 __declspec(property(get=get_velocity))  velocity;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_angularVelocity))  angularVelocity;
+ UnityEngine::Vector3 __declspec(property(get=get_angularVelocity))  angularVelocity;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_rootPosition, put=set_rootPosition))  rootPosition;
+ UnityEngine::Vector3 __declspec(property(get=get_rootPosition, put=set_rootPosition))  rootPosition;
 
- ::UnityEngine::Quaternion __declspec(property(get=get_rootRotation, put=set_rootRotation))  rootRotation;
+ UnityEngine::Quaternion __declspec(property(get=get_rootRotation, put=set_rootRotation))  rootRotation;
 
  bool __declspec(property(get=get_applyRootMotion, put=set_applyRootMotion))  applyRootMotion;
 
@@ -154,7 +153,7 @@ constexpr explicit Animator(void* ptr) noexcept : ::UnityEngine::Behaviour(ptr) 
 
  bool __declspec(property(get=get_animatePhysics, put=set_animatePhysics))  animatePhysics;
 
- ::UnityEngine::AnimatorUpdateMode __declspec(property(get=get_updateMode, put=set_updateMode))  updateMode;
+ UnityEngine::AnimatorUpdateMode __declspec(property(get=get_updateMode, put=set_updateMode))  updateMode;
 
  bool __declspec(property(get=get_hasTransformHierarchy))  hasTransformHierarchy;
 
@@ -162,19 +161,19 @@ constexpr explicit Animator(void* ptr) noexcept : ::UnityEngine::Behaviour(ptr) 
 
  float_t __declspec(property(get=get_gravityWeight))  gravityWeight;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_bodyPosition, put=set_bodyPosition))  bodyPosition;
+ UnityEngine::Vector3 __declspec(property(get=get_bodyPosition, put=set_bodyPosition))  bodyPosition;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_bodyPositionInternal, put=set_bodyPositionInternal))  bodyPositionInternal;
+ UnityEngine::Vector3 __declspec(property(get=get_bodyPositionInternal, put=set_bodyPositionInternal))  bodyPositionInternal;
 
- ::UnityEngine::Quaternion __declspec(property(get=get_bodyRotation, put=set_bodyRotation))  bodyRotation;
+ UnityEngine::Quaternion __declspec(property(get=get_bodyRotation, put=set_bodyRotation))  bodyRotation;
 
- ::UnityEngine::Quaternion __declspec(property(get=get_bodyRotationInternal, put=set_bodyRotationInternal))  bodyRotationInternal;
+ UnityEngine::Quaternion __declspec(property(get=get_bodyRotationInternal, put=set_bodyRotationInternal))  bodyRotationInternal;
 
  bool __declspec(property(get=get_stabilizeFeet, put=set_stabilizeFeet))  stabilizeFeet;
 
  int32_t __declspec(property(get=get_layerCount))  layerCount;
 
- ::ArrayW<::UnityEngine::AnimatorControllerParameter> __declspec(property(get=get_parameters))  parameters;
+ ::ArrayW<UnityEngine::AnimatorControllerParameter> __declspec(property(get=get_parameters))  parameters;
 
  int32_t __declspec(property(get=get_parameterCount))  parameterCount;
 
@@ -182,19 +181,19 @@ constexpr explicit Animator(void* ptr) noexcept : ::UnityEngine::Behaviour(ptr) 
 
  float_t __declspec(property(get=get_pivotWeight))  pivotWeight;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_pivotPosition))  pivotPosition;
+ UnityEngine::Vector3 __declspec(property(get=get_pivotPosition))  pivotPosition;
 
  bool __declspec(property(get=get_isMatchingTarget))  isMatchingTarget;
 
  float_t __declspec(property(get=get_speed, put=set_speed))  speed;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_targetPosition))  targetPosition;
+ UnityEngine::Vector3 __declspec(property(get=get_targetPosition))  targetPosition;
 
- ::UnityEngine::Quaternion __declspec(property(get=get_targetRotation))  targetRotation;
+ UnityEngine::Quaternion __declspec(property(get=get_targetRotation))  targetRotation;
 
- ::UnityEngine::Transform __declspec(property(get=get_avatarRoot))  avatarRoot;
+ UnityEngine::Transform __declspec(property(get=get_avatarRoot))  avatarRoot;
 
- ::UnityEngine::AnimatorCullingMode __declspec(property(get=get_cullingMode, put=set_cullingMode))  cullingMode;
+ UnityEngine::AnimatorCullingMode __declspec(property(get=get_cullingMode, put=set_cullingMode))  cullingMode;
 
  float_t __declspec(property(get=get_playbackTime, put=set_playbackTime))  playbackTime;
 
@@ -202,15 +201,15 @@ constexpr explicit Animator(void* ptr) noexcept : ::UnityEngine::Behaviour(ptr) 
 
  float_t __declspec(property(get=get_recorderStopTime, put=set_recorderStopTime))  recorderStopTime;
 
- ::UnityEngine::AnimatorRecorderMode __declspec(property(get=get_recorderMode))  recorderMode;
+ UnityEngine::AnimatorRecorderMode __declspec(property(get=get_recorderMode))  recorderMode;
 
- ::UnityEngine::RuntimeAnimatorController __declspec(property(get=get_runtimeAnimatorController, put=set_runtimeAnimatorController))  runtimeAnimatorController;
+ UnityEngine::RuntimeAnimatorController __declspec(property(get=get_runtimeAnimatorController, put=set_runtimeAnimatorController))  runtimeAnimatorController;
 
  bool __declspec(property(get=get_hasBoundPlayables))  hasBoundPlayables;
 
- ::UnityEngine::Avatar __declspec(property(get=get_avatar, put=set_avatar))  avatar;
+ UnityEngine::Avatar __declspec(property(get=get_avatar, put=set_avatar))  avatar;
 
- ::UnityEngine::Playables::PlayableGraph __declspec(property(get=get_playableGraph))  playableGraph;
+ UnityEngine::Playables::PlayableGraph __declspec(property(get=get_playableGraph))  playableGraph;
 
  bool __declspec(property(get=get_layersAffectMassCenter, put=set_layersAffectMassCenter))  layersAffectMassCenter;
 
@@ -310,28 +309,28 @@ constexpr explicit Animator(void* ptr) noexcept : ::UnityEngine::Behaviour(ptr) 
  bool IsParameterControlledByCurve(int32_t id) ;
 
 /// @brief Method get_deltaPosition addr 0x2b1b950 size 0x5c virtual false final false
- ::UnityEngine::Vector3 get_deltaPosition() ;
+ UnityEngine::Vector3 get_deltaPosition() ;
 
 /// @brief Method get_deltaRotation addr 0x2b1b9f0 size 0x58 virtual false final false
- ::UnityEngine::Quaternion get_deltaRotation() ;
+ UnityEngine::Quaternion get_deltaRotation() ;
 
 /// @brief Method get_velocity addr 0x2b1ba8c size 0x5c virtual false final false
- ::UnityEngine::Vector3 get_velocity() ;
+ UnityEngine::Vector3 get_velocity() ;
 
 /// @brief Method get_angularVelocity addr 0x2b1bb2c size 0x5c virtual false final false
- ::UnityEngine::Vector3 get_angularVelocity() ;
+ UnityEngine::Vector3 get_angularVelocity() ;
 
 /// @brief Method get_rootPosition addr 0x2b1bbcc size 0x5c virtual false final false
- ::UnityEngine::Vector3 get_rootPosition() ;
+ UnityEngine::Vector3 get_rootPosition() ;
 
 /// @brief Method set_rootPosition addr 0x2b1bc6c size 0x54 virtual false final false
- void set_rootPosition(::UnityEngine::Vector3 value) ;
+ void set_rootPosition(UnityEngine::Vector3 value) ;
 
 /// @brief Method get_rootRotation addr 0x2b1bd04 size 0x58 virtual false final false
- ::UnityEngine::Quaternion get_rootRotation() ;
+ UnityEngine::Quaternion get_rootRotation() ;
 
 /// @brief Method set_rootRotation addr 0x2b1bda0 size 0x54 virtual false final false
- void set_rootRotation(::UnityEngine::Quaternion value) ;
+ void set_rootRotation(UnityEngine::Quaternion value) ;
 
 /// @brief Method get_applyRootMotion addr 0x2b1be38 size 0x3c virtual false final false
  bool get_applyRootMotion() ;
@@ -352,10 +351,10 @@ constexpr explicit Animator(void* ptr) noexcept : ::UnityEngine::Behaviour(ptr) 
  void set_animatePhysics(bool value) ;
 
 /// @brief Method get_updateMode addr 0x2b1bf80 size 0x3c virtual false final false
- ::UnityEngine::AnimatorUpdateMode get_updateMode() ;
+ UnityEngine::AnimatorUpdateMode get_updateMode() ;
 
 /// @brief Method set_updateMode addr 0x2b1c008 size 0x44 virtual false final false
- void set_updateMode(::UnityEngine::AnimatorUpdateMode value) ;
+ void set_updateMode(UnityEngine::AnimatorUpdateMode value) ;
 
 /// @brief Method get_hasTransformHierarchy addr 0x2b1c04c size 0x3c virtual false final false
  bool get_hasTransformHierarchy() ;
@@ -370,106 +369,106 @@ constexpr explicit Animator(void* ptr) noexcept : ::UnityEngine::Behaviour(ptr) 
  float_t get_gravityWeight() ;
 
 /// @brief Method get_bodyPosition addr 0x2b1c144 size 0x18 virtual false final false
- ::UnityEngine::Vector3 get_bodyPosition() ;
+ UnityEngine::Vector3 get_bodyPosition() ;
 
 /// @brief Method set_bodyPosition addr 0x2b1c288 size 0x40 virtual false final false
- void set_bodyPosition(::UnityEngine::Vector3 value) ;
+ void set_bodyPosition(UnityEngine::Vector3 value) ;
 
 /// @brief Method get_bodyPositionInternal addr 0x2b1c22c size 0x5c virtual false final false
- ::UnityEngine::Vector3 get_bodyPositionInternal() ;
+ UnityEngine::Vector3 get_bodyPositionInternal() ;
 
 /// @brief Method set_bodyPositionInternal addr 0x2b1c2c8 size 0x54 virtual false final false
- void set_bodyPositionInternal(::UnityEngine::Vector3 value) ;
+ void set_bodyPositionInternal(UnityEngine::Vector3 value) ;
 
 /// @brief Method get_bodyRotation addr 0x2b1c3a4 size 0x18 virtual false final false
- ::UnityEngine::Quaternion get_bodyRotation() ;
+ UnityEngine::Quaternion get_bodyRotation() ;
 
 /// @brief Method set_bodyRotation addr 0x2b1c414 size 0x48 virtual false final false
- void set_bodyRotation(::UnityEngine::Quaternion value) ;
+ void set_bodyRotation(UnityEngine::Quaternion value) ;
 
 /// @brief Method get_bodyRotationInternal addr 0x2b1c3bc size 0x58 virtual false final false
- ::UnityEngine::Quaternion get_bodyRotationInternal() ;
+ UnityEngine::Quaternion get_bodyRotationInternal() ;
 
 /// @brief Method set_bodyRotationInternal addr 0x2b1c45c size 0x54 virtual false final false
- void set_bodyRotationInternal(::UnityEngine::Quaternion value) ;
+ void set_bodyRotationInternal(UnityEngine::Quaternion value) ;
 
 /// @brief Method GetIKPosition addr 0x2b1c538 size 0x28 virtual false final false
- ::UnityEngine::Vector3 GetIKPosition(::UnityEngine::AvatarIKGoal goal) ;
+ UnityEngine::Vector3 GetIKPosition(UnityEngine::AvatarIKGoal goal) ;
 
 /// @brief Method GetGoalPosition addr 0x2b1c560 size 0x64 virtual false final false
- ::UnityEngine::Vector3 GetGoalPosition(::UnityEngine::AvatarIKGoal goal) ;
+ UnityEngine::Vector3 GetGoalPosition(UnityEngine::AvatarIKGoal goal) ;
 
 /// @brief Method SetIKPosition addr 0x2b1c618 size 0x50 virtual false final false
- void SetIKPosition(::UnityEngine::AvatarIKGoal goal, ::UnityEngine::Vector3 goalPosition) ;
+ void SetIKPosition(UnityEngine::AvatarIKGoal goal, UnityEngine::Vector3 goalPosition) ;
 
 /// @brief Method SetGoalPosition addr 0x2b1c668 size 0x5c virtual false final false
- void SetGoalPosition(::UnityEngine::AvatarIKGoal goal, ::UnityEngine::Vector3 goalPosition) ;
+ void SetGoalPosition(UnityEngine::AvatarIKGoal goal, UnityEngine::Vector3 goalPosition) ;
 
 /// @brief Method GetIKRotation addr 0x2b1c718 size 0x28 virtual false final false
- ::UnityEngine::Quaternion GetIKRotation(::UnityEngine::AvatarIKGoal goal) ;
+ UnityEngine::Quaternion GetIKRotation(UnityEngine::AvatarIKGoal goal) ;
 
 /// @brief Method GetGoalRotation addr 0x2b1c740 size 0x60 virtual false final false
- ::UnityEngine::Quaternion GetGoalRotation(::UnityEngine::AvatarIKGoal goal) ;
+ UnityEngine::Quaternion GetGoalRotation(UnityEngine::AvatarIKGoal goal) ;
 
 /// @brief Method SetIKRotation addr 0x2b1c7f4 size 0x58 virtual false final false
- void SetIKRotation(::UnityEngine::AvatarIKGoal goal, ::UnityEngine::Quaternion goalRotation) ;
+ void SetIKRotation(UnityEngine::AvatarIKGoal goal, UnityEngine::Quaternion goalRotation) ;
 
 /// @brief Method SetGoalRotation addr 0x2b1c84c size 0x5c virtual false final false
- void SetGoalRotation(::UnityEngine::AvatarIKGoal goal, ::UnityEngine::Quaternion goalRotation) ;
+ void SetGoalRotation(UnityEngine::AvatarIKGoal goal, UnityEngine::Quaternion goalRotation) ;
 
 /// @brief Method GetIKPositionWeight addr 0x2b1c8fc size 0x48 virtual false final false
- float_t GetIKPositionWeight(::UnityEngine::AvatarIKGoal goal) ;
+ float_t GetIKPositionWeight(UnityEngine::AvatarIKGoal goal) ;
 
 /// @brief Method GetGoalWeightPosition addr 0x2b1c944 size 0x44 virtual false final false
- float_t GetGoalWeightPosition(::UnityEngine::AvatarIKGoal goal) ;
+ float_t GetGoalWeightPosition(UnityEngine::AvatarIKGoal goal) ;
 
 /// @brief Method SetIKPositionWeight addr 0x2b1c988 size 0x58 virtual false final false
- void SetIKPositionWeight(::UnityEngine::AvatarIKGoal goal, float_t value) ;
+ void SetIKPositionWeight(UnityEngine::AvatarIKGoal goal, float_t value) ;
 
 /// @brief Method SetGoalWeightPosition addr 0x2b1c9e0 size 0x54 virtual false final false
- void SetGoalWeightPosition(::UnityEngine::AvatarIKGoal goal, float_t value) ;
+ void SetGoalWeightPosition(UnityEngine::AvatarIKGoal goal, float_t value) ;
 
 /// @brief Method GetIKRotationWeight addr 0x2b1ca34 size 0x48 virtual false final false
- float_t GetIKRotationWeight(::UnityEngine::AvatarIKGoal goal) ;
+ float_t GetIKRotationWeight(UnityEngine::AvatarIKGoal goal) ;
 
 /// @brief Method GetGoalWeightRotation addr 0x2b1ca7c size 0x44 virtual false final false
- float_t GetGoalWeightRotation(::UnityEngine::AvatarIKGoal goal) ;
+ float_t GetGoalWeightRotation(UnityEngine::AvatarIKGoal goal) ;
 
 /// @brief Method SetIKRotationWeight addr 0x2b1cac0 size 0x58 virtual false final false
- void SetIKRotationWeight(::UnityEngine::AvatarIKGoal goal, float_t value) ;
+ void SetIKRotationWeight(UnityEngine::AvatarIKGoal goal, float_t value) ;
 
 /// @brief Method SetGoalWeightRotation addr 0x2b1cb18 size 0x54 virtual false final false
- void SetGoalWeightRotation(::UnityEngine::AvatarIKGoal goal, float_t value) ;
+ void SetGoalWeightRotation(UnityEngine::AvatarIKGoal goal, float_t value) ;
 
 /// @brief Method GetIKHintPosition addr 0x2b1cb6c size 0x28 virtual false final false
- ::UnityEngine::Vector3 GetIKHintPosition(::UnityEngine::AvatarIKHint hint) ;
+ UnityEngine::Vector3 GetIKHintPosition(UnityEngine::AvatarIKHint hint) ;
 
 /// @brief Method GetHintPosition addr 0x2b1cb94 size 0x64 virtual false final false
- ::UnityEngine::Vector3 GetHintPosition(::UnityEngine::AvatarIKHint hint) ;
+ UnityEngine::Vector3 GetHintPosition(UnityEngine::AvatarIKHint hint) ;
 
 /// @brief Method SetIKHintPosition addr 0x2b1cc4c size 0x50 virtual false final false
- void SetIKHintPosition(::UnityEngine::AvatarIKHint hint, ::UnityEngine::Vector3 hintPosition) ;
+ void SetIKHintPosition(UnityEngine::AvatarIKHint hint, UnityEngine::Vector3 hintPosition) ;
 
 /// @brief Method SetHintPosition addr 0x2b1cc9c size 0x5c virtual false final false
- void SetHintPosition(::UnityEngine::AvatarIKHint hint, ::UnityEngine::Vector3 hintPosition) ;
+ void SetHintPosition(UnityEngine::AvatarIKHint hint, UnityEngine::Vector3 hintPosition) ;
 
 /// @brief Method GetIKHintPositionWeight addr 0x2b1cd4c size 0x48 virtual false final false
- float_t GetIKHintPositionWeight(::UnityEngine::AvatarIKHint hint) ;
+ float_t GetIKHintPositionWeight(UnityEngine::AvatarIKHint hint) ;
 
 /// @brief Method GetHintWeightPosition addr 0x2b1cd94 size 0x44 virtual false final false
- float_t GetHintWeightPosition(::UnityEngine::AvatarIKHint hint) ;
+ float_t GetHintWeightPosition(UnityEngine::AvatarIKHint hint) ;
 
 /// @brief Method SetIKHintPositionWeight addr 0x2b1cdd8 size 0x58 virtual false final false
- void SetIKHintPositionWeight(::UnityEngine::AvatarIKHint hint, float_t value) ;
+ void SetIKHintPositionWeight(UnityEngine::AvatarIKHint hint, float_t value) ;
 
 /// @brief Method SetHintWeightPosition addr 0x2b1ce30 size 0x54 virtual false final false
- void SetHintWeightPosition(::UnityEngine::AvatarIKHint hint, float_t value) ;
+ void SetHintWeightPosition(UnityEngine::AvatarIKHint hint, float_t value) ;
 
 /// @brief Method SetLookAtPosition addr 0x2b1ce84 size 0x40 virtual false final false
- void SetLookAtPosition(::UnityEngine::Vector3 lookAtPosition) ;
+ void SetLookAtPosition(UnityEngine::Vector3 lookAtPosition) ;
 
 /// @brief Method SetLookAtPositionInternal addr 0x2b1cec4 size 0x54 virtual false final false
- void SetLookAtPositionInternal(::UnityEngine::Vector3 lookAtPosition) ;
+ void SetLookAtPositionInternal(UnityEngine::Vector3 lookAtPosition) ;
 
 /// @brief Method SetLookAtWeight addr 0x2b1cf5c size 0x60 virtual false final false
  void SetLookAtWeight(float_t weight) ;
@@ -490,13 +489,13 @@ constexpr explicit Animator(void* ptr) noexcept : ::UnityEngine::Behaviour(ptr) 
  void SetLookAtWeightInternal(float_t weight, float_t bodyWeight, float_t headWeight, float_t eyesWeight, float_t clampWeight) ;
 
 /// @brief Method SetBoneLocalRotation addr 0x2b1d200 size 0x80 virtual false final false
- void SetBoneLocalRotation(::UnityEngine::HumanBodyBones humanBoneId, ::UnityEngine::Quaternion rotation) ;
+ void SetBoneLocalRotation(UnityEngine::HumanBodyBones humanBoneId, UnityEngine::Quaternion rotation) ;
 
 /// @brief Method SetBoneLocalRotationInternal addr 0x2b1d280 size 0x5c virtual false final false
- void SetBoneLocalRotationInternal(int32_t humanBoneId, ::UnityEngine::Quaternion rotation) ;
+ void SetBoneLocalRotationInternal(int32_t humanBoneId, UnityEngine::Quaternion rotation) ;
 
 /// @brief Method GetBehaviour addr 0x2b1d330 size 0x44 virtual false final false
- ::UnityEngine::ScriptableObject GetBehaviour(::System::Type type) ;
+ UnityEngine::ScriptableObject GetBehaviour(System::Type type) ;
 
 /// @brief Method GetBehaviour addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
@@ -504,20 +503,20 @@ template<typename T>
 
 /// @brief Method ConvertStateMachineBehaviour addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static ::ArrayW<T> ConvertStateMachineBehaviour(::ArrayW<::UnityEngine::ScriptableObject> rawObjects) ;
+static ::ArrayW<T> ConvertStateMachineBehaviour(::ArrayW<UnityEngine::ScriptableObject> rawObjects) ;
 
 /// @brief Method GetBehaviours addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
  ::ArrayW<T> GetBehaviours() ;
 
 /// @brief Method InternalGetBehaviours addr 0x2b1d374 size 0x44 virtual false final false
- ::ArrayW<::UnityEngine::ScriptableObject> InternalGetBehaviours(::System::Type type) ;
+ ::ArrayW<UnityEngine::ScriptableObject> InternalGetBehaviours(System::Type type) ;
 
 /// @brief Method GetBehaviours addr 0x2b1d3b8 size 0xdc virtual false final false
- ::ArrayW<::UnityEngine::StateMachineBehaviour> GetBehaviours(int32_t fullPathHash, int32_t layerIndex) ;
+ ::ArrayW<UnityEngine::StateMachineBehaviour> GetBehaviours(int32_t fullPathHash, int32_t layerIndex) ;
 
 /// @brief Method InternalGetBehavioursByKey addr 0x2b1d494 size 0x5c virtual false final false
- ::ArrayW<::UnityEngine::ScriptableObject> InternalGetBehavioursByKey(int32_t fullPathHash, int32_t layerIndex, ::System::Type type) ;
+ ::ArrayW<UnityEngine::ScriptableObject> InternalGetBehavioursByKey(int32_t fullPathHash, int32_t layerIndex, System::Type type) ;
 
 /// @brief Method get_stabilizeFeet addr 0x2b1d4f0 size 0x3c virtual false final false
  bool get_stabilizeFeet() ;
@@ -541,19 +540,19 @@ template<typename T>
  void SetLayerWeight(int32_t layerIndex, float_t weight) ;
 
 /// @brief Method GetAnimatorStateInfo addr 0x2b1d6cc size 0x5c virtual false final false
- void GetAnimatorStateInfo(int32_t layerIndex, ::UnityEngine::StateInfoIndex stateInfoIndex, ByRef<::UnityEngine::AnimatorStateInfo> info) ;
+ void GetAnimatorStateInfo(int32_t layerIndex, UnityEngine::StateInfoIndex stateInfoIndex, ByRef<UnityEngine::AnimatorStateInfo> info) ;
 
 /// @brief Method GetCurrentAnimatorStateInfo addr 0x2b1d728 size 0x80 virtual false final false
- ::UnityEngine::AnimatorStateInfo GetCurrentAnimatorStateInfo(int32_t layerIndex) ;
+ UnityEngine::AnimatorStateInfo GetCurrentAnimatorStateInfo(int32_t layerIndex) ;
 
 /// @brief Method GetNextAnimatorStateInfo addr 0x2b1d7a8 size 0x80 virtual false final false
- ::UnityEngine::AnimatorStateInfo GetNextAnimatorStateInfo(int32_t layerIndex) ;
+ UnityEngine::AnimatorStateInfo GetNextAnimatorStateInfo(int32_t layerIndex) ;
 
 /// @brief Method GetAnimatorTransitionInfo addr 0x2b1d828 size 0x54 virtual false final false
- void GetAnimatorTransitionInfo(int32_t layerIndex, ByRef<::UnityEngine::AnimatorTransitionInfo> info) ;
+ void GetAnimatorTransitionInfo(int32_t layerIndex, ByRef<UnityEngine::AnimatorTransitionInfo> info) ;
 
 /// @brief Method GetAnimatorTransitionInfo addr 0x2b1d87c size 0x70 virtual false final false
- ::UnityEngine::AnimatorTransitionInfo GetAnimatorTransitionInfo(int32_t layerIndex) ;
+ UnityEngine::AnimatorTransitionInfo GetAnimatorTransitionInfo(int32_t layerIndex) ;
 
 /// @brief Method GetAnimatorClipInfoCount addr 0x2b1d8ec size 0x54 virtual false final false
  int32_t GetAnimatorClipInfoCount(int32_t layerIndex, bool current) ;
@@ -565,31 +564,31 @@ template<typename T>
  int32_t GetNextAnimatorClipInfoCount(int32_t layerIndex) ;
 
 /// @brief Method GetCurrentAnimatorClipInfo addr 0x2b1d9d0 size 0x44 virtual false final false
- ::ArrayW<::UnityEngine::AnimatorClipInfo> GetCurrentAnimatorClipInfo(int32_t layerIndex) ;
+ ::ArrayW<UnityEngine::AnimatorClipInfo> GetCurrentAnimatorClipInfo(int32_t layerIndex) ;
 
 /// @brief Method GetNextAnimatorClipInfo addr 0x2b1da14 size 0x44 virtual false final false
- ::ArrayW<::UnityEngine::AnimatorClipInfo> GetNextAnimatorClipInfo(int32_t layerIndex) ;
+ ::ArrayW<UnityEngine::AnimatorClipInfo> GetNextAnimatorClipInfo(int32_t layerIndex) ;
 
 /// @brief Method GetCurrentAnimatorClipInfo addr 0x2b1da58 size 0xa8 virtual false final false
- void GetCurrentAnimatorClipInfo(int32_t layerIndex, ::System::Collections::Generic::List_1<::UnityEngine::AnimatorClipInfo> clips) ;
+ void GetCurrentAnimatorClipInfo(int32_t layerIndex, System::Collections::Generic::List_1<UnityEngine::AnimatorClipInfo> clips) ;
 
 /// @brief Method GetAnimatorClipInfoInternal addr 0x2b1db00 size 0x5c virtual false final false
  void GetAnimatorClipInfoInternal(int32_t layerIndex, bool isCurrent, ::bs_hook::Il2CppWrapperType clips) ;
 
 /// @brief Method GetNextAnimatorClipInfo addr 0x2b1db5c size 0xa8 virtual false final false
- void GetNextAnimatorClipInfo(int32_t layerIndex, ::System::Collections::Generic::List_1<::UnityEngine::AnimatorClipInfo> clips) ;
+ void GetNextAnimatorClipInfo(int32_t layerIndex, System::Collections::Generic::List_1<UnityEngine::AnimatorClipInfo> clips) ;
 
 /// @brief Method IsInTransition addr 0x2b1dc04 size 0x44 virtual false final false
  bool IsInTransition(int32_t layerIndex) ;
 
 /// @brief Method get_parameters addr 0x2b1dc48 size 0x3c virtual false final false
- ::ArrayW<::UnityEngine::AnimatorControllerParameter> get_parameters() ;
+ ::ArrayW<UnityEngine::AnimatorControllerParameter> get_parameters() ;
 
 /// @brief Method get_parameterCount addr 0x2b1dc84 size 0x3c virtual false final false
  int32_t get_parameterCount() ;
 
 /// @brief Method GetParameter addr 0x2b1dcc0 size 0x130 virtual false final false
- ::UnityEngine::AnimatorControllerParameter GetParameter(int32_t index) ;
+ UnityEngine::AnimatorControllerParameter GetParameter(int32_t index) ;
 
 /// @brief Method get_feetPivotActive addr 0x2b1ddf0 size 0x3c virtual false final false
  float_t get_feetPivotActive() ;
@@ -601,19 +600,19 @@ template<typename T>
  float_t get_pivotWeight() ;
 
 /// @brief Method get_pivotPosition addr 0x2b1deb4 size 0x5c virtual false final false
- ::UnityEngine::Vector3 get_pivotPosition() ;
+ UnityEngine::Vector3 get_pivotPosition() ;
 
 /// @brief Method MatchTarget addr 0x2b1df54 size 0x9c virtual false final false
- void MatchTarget(::UnityEngine::Vector3 matchPosition, ::UnityEngine::Quaternion matchRotation, int32_t targetBodyPart, ::UnityEngine::MatchTargetWeightMask weightMask, float_t startNormalizedTime, float_t targetNormalizedTime, bool completeMatch) ;
+ void MatchTarget(UnityEngine::Vector3 matchPosition, UnityEngine::Quaternion matchRotation, int32_t targetBodyPart, UnityEngine::MatchTargetWeightMask weightMask, float_t startNormalizedTime, float_t targetNormalizedTime, bool completeMatch) ;
 
 /// @brief Method MatchTarget addr 0x2b1e07c size 0x34 virtual false final false
- void MatchTarget(::UnityEngine::Vector3 matchPosition, ::UnityEngine::Quaternion matchRotation, ::UnityEngine::AvatarTarget targetBodyPart, ::UnityEngine::MatchTargetWeightMask weightMask, float_t startNormalizedTime) ;
+ void MatchTarget(UnityEngine::Vector3 matchPosition, UnityEngine::Quaternion matchRotation, UnityEngine::AvatarTarget targetBodyPart, UnityEngine::MatchTargetWeightMask weightMask, float_t startNormalizedTime) ;
 
 /// @brief Method MatchTarget addr 0x2b1e0b0 size 0x20 virtual false final false
- void MatchTarget(::UnityEngine::Vector3 matchPosition, ::UnityEngine::Quaternion matchRotation, ::UnityEngine::AvatarTarget targetBodyPart, ::UnityEngine::MatchTargetWeightMask weightMask, float_t startNormalizedTime, float_t targetNormalizedTime) ;
+ void MatchTarget(UnityEngine::Vector3 matchPosition, UnityEngine::Quaternion matchRotation, UnityEngine::AvatarTarget targetBodyPart, UnityEngine::MatchTargetWeightMask weightMask, float_t startNormalizedTime, float_t targetNormalizedTime) ;
 
 /// @brief Method MatchTarget addr 0x2b1e0d0 size 0x20 virtual false final false
- void MatchTarget(::UnityEngine::Vector3 matchPosition, ::UnityEngine::Quaternion matchRotation, ::UnityEngine::AvatarTarget targetBodyPart, ::UnityEngine::MatchTargetWeightMask weightMask, float_t startNormalizedTime, float_t targetNormalizedTime, bool completeMatch) ;
+ void MatchTarget(UnityEngine::Vector3 matchPosition, UnityEngine::Quaternion matchRotation, UnityEngine::AvatarTarget targetBodyPart, UnityEngine::MatchTargetWeightMask weightMask, float_t startNormalizedTime, float_t targetNormalizedTime, bool completeMatch) ;
 
 /// @brief Method InterruptMatchTarget addr 0x2b1e0f0 size 0x40 virtual false final false
  void InterruptMatchTarget() ;
@@ -721,34 +720,34 @@ template<typename T>
  void Play(int32_t stateNameHash) ;
 
 /// @brief Method SetTarget addr 0x2b1ed30 size 0x54 virtual false final false
- void SetTarget(::UnityEngine::AvatarTarget targetIndex, float_t targetNormalizedTime) ;
+ void SetTarget(UnityEngine::AvatarTarget targetIndex, float_t targetNormalizedTime) ;
 
 /// @brief Method get_targetPosition addr 0x2b1ed84 size 0x5c virtual false final false
- ::UnityEngine::Vector3 get_targetPosition() ;
+ UnityEngine::Vector3 get_targetPosition() ;
 
 /// @brief Method get_targetRotation addr 0x2b1ee24 size 0x58 virtual false final false
- ::UnityEngine::Quaternion get_targetRotation() ;
+ UnityEngine::Quaternion get_targetRotation() ;
 
 /// @brief Method IsControlled addr 0x2b1eec0 size 0x8 virtual false final false
- bool IsControlled(::UnityEngine::Transform transform) ;
+ bool IsControlled(UnityEngine::Transform transform) ;
 
 /// @brief Method IsBoneTransform addr 0x2b1eec8 size 0x44 virtual false final false
- bool IsBoneTransform(::UnityEngine::Transform transform) ;
+ bool IsBoneTransform(UnityEngine::Transform transform) ;
 
 /// @brief Method get_avatarRoot addr 0x2b1ef0c size 0x3c virtual false final false
- ::UnityEngine::Transform get_avatarRoot() ;
+ UnityEngine::Transform get_avatarRoot() ;
 
 /// @brief Method GetBoneTransform addr 0x2b1ef48 size 0x108 virtual false final false
- ::UnityEngine::Transform GetBoneTransform(::UnityEngine::HumanBodyBones humanBoneId) ;
+ UnityEngine::Transform GetBoneTransform(UnityEngine::HumanBodyBones humanBoneId) ;
 
 /// @brief Method GetBoneTransformInternal addr 0x2b1f050 size 0x44 virtual false final false
- ::UnityEngine::Transform GetBoneTransformInternal(int32_t humanBoneId) ;
+ UnityEngine::Transform GetBoneTransformInternal(int32_t humanBoneId) ;
 
 /// @brief Method get_cullingMode addr 0x2b1f094 size 0x3c virtual false final false
- ::UnityEngine::AnimatorCullingMode get_cullingMode() ;
+ UnityEngine::AnimatorCullingMode get_cullingMode() ;
 
 /// @brief Method set_cullingMode addr 0x2b1f0d0 size 0x44 virtual false final false
- void set_cullingMode(::UnityEngine::AnimatorCullingMode value) ;
+ void set_cullingMode(UnityEngine::AnimatorCullingMode value) ;
 
 /// @brief Method StartPlayback addr 0x2b1f114 size 0x3c virtual false final false
  void StartPlayback() ;
@@ -787,13 +786,13 @@ template<typename T>
  float_t GetRecorderStopTime() ;
 
 /// @brief Method get_recorderMode addr 0x2b1f38c size 0x3c virtual false final false
- ::UnityEngine::AnimatorRecorderMode get_recorderMode() ;
+ UnityEngine::AnimatorRecorderMode get_recorderMode() ;
 
 /// @brief Method get_runtimeAnimatorController addr 0x2b1f3c8 size 0x3c virtual false final false
- ::UnityEngine::RuntimeAnimatorController get_runtimeAnimatorController() ;
+ UnityEngine::RuntimeAnimatorController get_runtimeAnimatorController() ;
 
 /// @brief Method set_runtimeAnimatorController addr 0x2b1f404 size 0x44 virtual false final false
- void set_runtimeAnimatorController(::UnityEngine::RuntimeAnimatorController value) ;
+ void set_runtimeAnimatorController(UnityEngine::RuntimeAnimatorController value) ;
 
 /// @brief Method get_hasBoundPlayables addr 0x2b1f448 size 0x3c virtual false final false
  bool get_hasBoundPlayables() ;
@@ -808,19 +807,19 @@ template<typename T>
 static int32_t StringToHash(::StringW name) ;
 
 /// @brief Method get_avatar addr 0x2b1f514 size 0x3c virtual false final false
- ::UnityEngine::Avatar get_avatar() ;
+ UnityEngine::Avatar get_avatar() ;
 
 /// @brief Method set_avatar addr 0x2b1f550 size 0x44 virtual false final false
- void set_avatar(::UnityEngine::Avatar value) ;
+ void set_avatar(UnityEngine::Avatar value) ;
 
 /// @brief Method GetStats addr 0x2b1f594 size 0x3c virtual false final false
  ::StringW GetStats() ;
 
 /// @brief Method get_playableGraph addr 0x2b1f5d0 size 0x54 virtual false final false
- ::UnityEngine::Playables::PlayableGraph get_playableGraph() ;
+ UnityEngine::Playables::PlayableGraph get_playableGraph() ;
 
 /// @brief Method GetCurrentGraph addr 0x2b1f624 size 0x44 virtual false final false
- void GetCurrentGraph(ByRef<::UnityEngine::Playables::PlayableGraph> graph) ;
+ void GetCurrentGraph(ByRef<UnityEngine::Playables::PlayableGraph> graph) ;
 
 /// @brief Method CheckIfInIKPass addr 0x2b1c15c size 0xd0 virtual false final false
  void CheckIfInIKPass() ;
@@ -967,28 +966,28 @@ static int32_t StringToHash(::StringW name) ;
  void set_keepAnimatorStateOnDisable(bool value) ;
 
 /// @brief Method GetVector addr 0x2b1fd4c size 0x44 virtual false final false
- ::UnityEngine::Vector3 GetVector(::StringW name) ;
+ UnityEngine::Vector3 GetVector(::StringW name) ;
 
 /// @brief Method GetVector addr 0x2b1fd90 size 0x44 virtual false final false
- ::UnityEngine::Vector3 GetVector(int32_t id) ;
+ UnityEngine::Vector3 GetVector(int32_t id) ;
 
 /// @brief Method SetVector addr 0x2b1fdd4 size 0x4 virtual false final false
- void SetVector(::StringW name, ::UnityEngine::Vector3 value) ;
+ void SetVector(::StringW name, UnityEngine::Vector3 value) ;
 
 /// @brief Method SetVector addr 0x2b1fdd8 size 0x4 virtual false final false
- void SetVector(int32_t id, ::UnityEngine::Vector3 value) ;
+ void SetVector(int32_t id, UnityEngine::Vector3 value) ;
 
 /// @brief Method GetQuaternion addr 0x2b1fddc size 0x44 virtual false final false
- ::UnityEngine::Quaternion GetQuaternion(::StringW name) ;
+ UnityEngine::Quaternion GetQuaternion(::StringW name) ;
 
 /// @brief Method GetQuaternion addr 0x2b1fe20 size 0x44 virtual false final false
- ::UnityEngine::Quaternion GetQuaternion(int32_t id) ;
+ UnityEngine::Quaternion GetQuaternion(int32_t id) ;
 
 /// @brief Method SetQuaternion addr 0x2b1fe64 size 0x4 virtual false final false
- void SetQuaternion(::StringW name, ::UnityEngine::Quaternion value) ;
+ void SetQuaternion(::StringW name, UnityEngine::Quaternion value) ;
 
 /// @brief Method SetQuaternion addr 0x2b1fe68 size 0x4 virtual false final false
- void SetQuaternion(int32_t id, ::UnityEngine::Quaternion value) ;
+ void SetQuaternion(int32_t id, UnityEngine::Quaternion value) ;
 
 // Ctor Parameters []
 explicit Animator() ;
@@ -997,81 +996,80 @@ explicit Animator() ;
  void _ctor() ;
 
 /// @brief Method get_deltaPosition_Injected addr 0x2b1b9ac size 0x44 virtual false final false
- void get_deltaPosition_Injected(ByRef<::UnityEngine::Vector3> ret) ;
+ void get_deltaPosition_Injected(ByRef<UnityEngine::Vector3> ret) ;
 
 /// @brief Method get_deltaRotation_Injected addr 0x2b1ba48 size 0x44 virtual false final false
- void get_deltaRotation_Injected(ByRef<::UnityEngine::Quaternion> ret) ;
+ void get_deltaRotation_Injected(ByRef<UnityEngine::Quaternion> ret) ;
 
 /// @brief Method get_velocity_Injected addr 0x2b1bae8 size 0x44 virtual false final false
- void get_velocity_Injected(ByRef<::UnityEngine::Vector3> ret) ;
+ void get_velocity_Injected(ByRef<UnityEngine::Vector3> ret) ;
 
 /// @brief Method get_angularVelocity_Injected addr 0x2b1bb88 size 0x44 virtual false final false
- void get_angularVelocity_Injected(ByRef<::UnityEngine::Vector3> ret) ;
+ void get_angularVelocity_Injected(ByRef<UnityEngine::Vector3> ret) ;
 
 /// @brief Method get_rootPosition_Injected addr 0x2b1bc28 size 0x44 virtual false final false
- void get_rootPosition_Injected(ByRef<::UnityEngine::Vector3> ret) ;
+ void get_rootPosition_Injected(ByRef<UnityEngine::Vector3> ret) ;
 
 /// @brief Method set_rootPosition_Injected addr 0x2b1bcc0 size 0x44 virtual false final false
- void set_rootPosition_Injected(ByRef<::UnityEngine::Vector3> value) ;
+ void set_rootPosition_Injected(ByRef<UnityEngine::Vector3> value) ;
 
 /// @brief Method get_rootRotation_Injected addr 0x2b1bd5c size 0x44 virtual false final false
- void get_rootRotation_Injected(ByRef<::UnityEngine::Quaternion> ret) ;
+ void get_rootRotation_Injected(ByRef<UnityEngine::Quaternion> ret) ;
 
 /// @brief Method set_rootRotation_Injected addr 0x2b1bdf4 size 0x44 virtual false final false
- void set_rootRotation_Injected(ByRef<::UnityEngine::Quaternion> value) ;
+ void set_rootRotation_Injected(ByRef<UnityEngine::Quaternion> value) ;
 
 /// @brief Method get_bodyPositionInternal_Injected addr 0x2b1c31c size 0x44 virtual false final false
- void get_bodyPositionInternal_Injected(ByRef<::UnityEngine::Vector3> ret) ;
+ void get_bodyPositionInternal_Injected(ByRef<UnityEngine::Vector3> ret) ;
 
 /// @brief Method set_bodyPositionInternal_Injected addr 0x2b1c360 size 0x44 virtual false final false
- void set_bodyPositionInternal_Injected(ByRef<::UnityEngine::Vector3> value) ;
+ void set_bodyPositionInternal_Injected(ByRef<UnityEngine::Vector3> value) ;
 
 /// @brief Method get_bodyRotationInternal_Injected addr 0x2b1c4b0 size 0x44 virtual false final false
- void get_bodyRotationInternal_Injected(ByRef<::UnityEngine::Quaternion> ret) ;
+ void get_bodyRotationInternal_Injected(ByRef<UnityEngine::Quaternion> ret) ;
 
 /// @brief Method set_bodyRotationInternal_Injected addr 0x2b1c4f4 size 0x44 virtual false final false
- void set_bodyRotationInternal_Injected(ByRef<::UnityEngine::Quaternion> value) ;
+ void set_bodyRotationInternal_Injected(ByRef<UnityEngine::Quaternion> value) ;
 
 /// @brief Method GetGoalPosition_Injected addr 0x2b1c5c4 size 0x54 virtual false final false
- void GetGoalPosition_Injected(::UnityEngine::AvatarIKGoal goal, ByRef<::UnityEngine::Vector3> ret) ;
+ void GetGoalPosition_Injected(UnityEngine::AvatarIKGoal goal, ByRef<UnityEngine::Vector3> ret) ;
 
 /// @brief Method SetGoalPosition_Injected addr 0x2b1c6c4 size 0x54 virtual false final false
- void SetGoalPosition_Injected(::UnityEngine::AvatarIKGoal goal, ByRef<::UnityEngine::Vector3> goalPosition) ;
+ void SetGoalPosition_Injected(UnityEngine::AvatarIKGoal goal, ByRef<UnityEngine::Vector3> goalPosition) ;
 
 /// @brief Method GetGoalRotation_Injected addr 0x2b1c7a0 size 0x54 virtual false final false
- void GetGoalRotation_Injected(::UnityEngine::AvatarIKGoal goal, ByRef<::UnityEngine::Quaternion> ret) ;
+ void GetGoalRotation_Injected(UnityEngine::AvatarIKGoal goal, ByRef<UnityEngine::Quaternion> ret) ;
 
 /// @brief Method SetGoalRotation_Injected addr 0x2b1c8a8 size 0x54 virtual false final false
- void SetGoalRotation_Injected(::UnityEngine::AvatarIKGoal goal, ByRef<::UnityEngine::Quaternion> goalRotation) ;
+ void SetGoalRotation_Injected(UnityEngine::AvatarIKGoal goal, ByRef<UnityEngine::Quaternion> goalRotation) ;
 
 /// @brief Method GetHintPosition_Injected addr 0x2b1cbf8 size 0x54 virtual false final false
- void GetHintPosition_Injected(::UnityEngine::AvatarIKHint hint, ByRef<::UnityEngine::Vector3> ret) ;
+ void GetHintPosition_Injected(UnityEngine::AvatarIKHint hint, ByRef<UnityEngine::Vector3> ret) ;
 
 /// @brief Method SetHintPosition_Injected addr 0x2b1ccf8 size 0x54 virtual false final false
- void SetHintPosition_Injected(::UnityEngine::AvatarIKHint hint, ByRef<::UnityEngine::Vector3> hintPosition) ;
+ void SetHintPosition_Injected(UnityEngine::AvatarIKHint hint, ByRef<UnityEngine::Vector3> hintPosition) ;
 
 /// @brief Method SetLookAtPositionInternal_Injected addr 0x2b1cf18 size 0x44 virtual false final false
- void SetLookAtPositionInternal_Injected(ByRef<::UnityEngine::Vector3> lookAtPosition) ;
+ void SetLookAtPositionInternal_Injected(ByRef<UnityEngine::Vector3> lookAtPosition) ;
 
 /// @brief Method SetBoneLocalRotationInternal_Injected addr 0x2b1d2dc size 0x54 virtual false final false
- void SetBoneLocalRotationInternal_Injected(int32_t humanBoneId, ByRef<::UnityEngine::Quaternion> rotation) ;
+ void SetBoneLocalRotationInternal_Injected(int32_t humanBoneId, ByRef<UnityEngine::Quaternion> rotation) ;
 
 /// @brief Method get_pivotPosition_Injected addr 0x2b1df10 size 0x44 virtual false final false
- void get_pivotPosition_Injected(ByRef<::UnityEngine::Vector3> ret) ;
+ void get_pivotPosition_Injected(ByRef<UnityEngine::Vector3> ret) ;
 
 /// @brief Method MatchTarget_Injected addr 0x2b1dff0 size 0x8c virtual false final false
- void MatchTarget_Injected(ByRef<::UnityEngine::Vector3> matchPosition, ByRef<::UnityEngine::Quaternion> matchRotation, int32_t targetBodyPart, ByRef<::UnityEngine::MatchTargetWeightMask> weightMask, float_t startNormalizedTime, float_t targetNormalizedTime, bool completeMatch) ;
+ void MatchTarget_Injected(ByRef<UnityEngine::Vector3> matchPosition, ByRef<UnityEngine::Quaternion> matchRotation, int32_t targetBodyPart, ByRef<UnityEngine::MatchTargetWeightMask> weightMask, float_t startNormalizedTime, float_t targetNormalizedTime, bool completeMatch) ;
 
 /// @brief Method get_targetPosition_Injected addr 0x2b1ede0 size 0x44 virtual false final false
- void get_targetPosition_Injected(ByRef<::UnityEngine::Vector3> ret) ;
+ void get_targetPosition_Injected(ByRef<UnityEngine::Vector3> ret) ;
 
 /// @brief Method get_targetRotation_Injected addr 0x2b1ee7c size 0x44 virtual false final false
- void get_targetRotation_Injected(ByRef<::UnityEngine::Quaternion> ret) ;
+ void get_targetRotation_Injected(ByRef<UnityEngine::Quaternion> ret) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Animator);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Animator, "UnityEngine", "Animator");
+NEED_NO_BOX(UnityEngine::Animator);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animator, "UnityEngine", "Animator");

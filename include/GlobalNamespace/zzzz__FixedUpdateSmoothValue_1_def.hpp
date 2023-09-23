@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -17,7 +16,7 @@ class FixedUpdateSmoothValue_1<T>;
 }
 namespace GlobalNamespace {
 template<>
-class FixedUpdateSmoothValue_1<::UnityEngine::Vector3>;
+class FixedUpdateSmoothValue_1<UnityEngine::Vector3>;
 }
 // Type: ::FixedUpdateSmoothValue`1
 // Type: ::FixedUpdateSmoothValue`1
@@ -115,7 +114,7 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13738))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13738), inst: 394 })
 // CS Name: FixedUpdateSmoothValue`1
-class CORDL_TYPE FixedUpdateSmoothValue_1<::UnityEngine::Vector3> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE FixedUpdateSmoothValue_1<UnityEngine::Vector3> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -151,17 +150,17 @@ constexpr explicit FixedUpdateSmoothValue_1(void* ptr) noexcept : ::bs_hook::Il2
 
 // Fields
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__currentSmoothedValue, put=__set__currentSmoothedValue))  _currentSmoothedValue;
+ UnityEngine::Vector3 __declspec(property(get=__get__currentSmoothedValue, put=__set__currentSmoothedValue))  _currentSmoothedValue;
 
-constexpr void __set__currentSmoothedValue(::UnityEngine::Vector3 value) ;
+constexpr void __set__currentSmoothedValue(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__currentSmoothedValue() const;
+constexpr UnityEngine::Vector3 __get__currentSmoothedValue() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__prevSmoothedValue, put=__set__prevSmoothedValue))  _prevSmoothedValue;
+ UnityEngine::Vector3 __declspec(property(get=__get__prevSmoothedValue, put=__set__prevSmoothedValue))  _prevSmoothedValue;
 
-constexpr void __set__prevSmoothedValue(::UnityEngine::Vector3 value) ;
+constexpr void __set__prevSmoothedValue(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__prevSmoothedValue() const;
+constexpr UnityEngine::Vector3 __get__prevSmoothedValue() const;
 
  float_t __declspec(property(get=__get__smooth, put=__set__smooth))  _smooth;
 
@@ -179,20 +178,19 @@ explicit FixedUpdateSmoothValue_1(float_t smooth) ;
  void _ctor(float_t smooth) ;
 
 /// @brief Method SetStartValue addr 0x0 size 0xffffffffffffffff virtual false final false
- void SetStartValue(::UnityEngine::Vector3 value) ;
+ void SetStartValue(UnityEngine::Vector3 value) ;
 
 /// @brief Method FixedUpdate addr 0x0 size 0xffffffffffffffff virtual false final false
- void FixedUpdate(::UnityEngine::Vector3 value) ;
+ void FixedUpdate(UnityEngine::Vector3 value) ;
 
 /// @brief Method GetValue addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::Vector3 GetValue(float_t interpolationFactor) ;
+ UnityEngine::Vector3 GetValue(float_t interpolationFactor) ;
 
 /// @brief Method Interpolate addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Vector3 Interpolate(::UnityEngine::Vector3 value0, ::UnityEngine::Vector3 value1, float_t t) ;
+ UnityEngine::Vector3 Interpolate(UnityEngine::Vector3 value0, UnityEngine::Vector3 value1, float_t t) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::FixedUpdateSmoothValue_1, "", "FixedUpdateSmoothValue`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::FixedUpdateSmoothValue_1, "", "FixedUpdateSmoothValue`1");

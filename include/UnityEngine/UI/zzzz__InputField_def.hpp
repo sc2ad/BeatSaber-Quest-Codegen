@@ -10,81 +10,71 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class CanvasRenderer;
-}
-namespace UnityEngine::UI {
-class ICanvasElement;
-}
-namespace UnityEngine {
-class TouchScreenKeyboard;
-}
-namespace UnityEngine::EventSystems {
-class BaseEventData;
-}
-namespace UnityEngine::UI {
-class VertexHelper;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerClickHandler;
-}
-namespace UnityEngine::EventSystems {
-class IUpdateSelectedHandler;
-}
-namespace UnityEngine::UI {
-class Graphic;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::UI {
-class ILayoutElement;
-}
-namespace UnityEngine {
-class WaitForSecondsRealtime;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine::EventSystems {
-class IEndDragHandler;
-}
-namespace UnityEngine {
-struct TouchScreenKeyboardType;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine::UI {
-struct CanvasUpdate;
-}
-namespace UnityEngine {
-class Mesh;
-}
-namespace UnityEngine::EventSystems {
-class IBeginDragHandler;
-}
 namespace UnityEngine {
 class TextGenerator;
-}
-namespace UnityEngine::UI {
-class Text;
-}
-namespace UnityEngine {
-class Coroutine;
 }
 namespace UnityEngine::EventSystems {
 class BaseInput;
 }
 namespace UnityEngine::UI {
-struct ____UnityEngine__UI__Selectable__SelectionState;
+class Graphic;
+}
+namespace UnityEngine::UI {
+class Text;
+}
+namespace UnityEngine::UI {
+class ILayoutElement;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine::EventSystems {
+class IBeginDragHandler;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
+namespace UnityEngine::EventSystems {
+class IPointerClickHandler;
+}
+namespace UnityEngine {
+struct TouchScreenKeyboardType;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine {
+class WaitForSecondsRealtime;
+}
+namespace UnityEngine {
+class TouchScreenKeyboard;
 }
 namespace UnityEngine {
 class RectTransform;
+}
+namespace UnityEngine::EventSystems {
+class IUpdateSelectedHandler;
+}
+namespace UnityEngine::EventSystems {
+class BaseEventData;
+}
+namespace UnityEngine::UI {
+struct CanvasUpdate;
+}
+namespace UnityEngine::UI {
+struct UnityEngine__UI__Selectable__SelectionState;
+}
+namespace UnityEngine::EventSystems {
+class IDragHandler;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace UnityEngine::EventSystems {
+class ISubmitHandler;
+}
+namespace UnityEngine::UI {
+class ICanvasElement;
 }
 namespace UnityEngine {
 struct UIVertex;
@@ -93,16 +83,25 @@ namespace UnityEngine {
 class Event;
 }
 namespace UnityEngine {
-class Transform;
+class Coroutine;
 }
 namespace UnityEngine::EventSystems {
-class ISubmitHandler;
+class IEndDragHandler;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+class CanvasRenderer;
 }
 namespace UnityEngine {
 struct Color;
 }
-namespace UnityEngine::EventSystems {
-class IDragHandler;
+namespace UnityEngine::UI {
+class VertexHelper;
+}
+namespace UnityEngine {
+class Mesh;
 }
 namespace System {
 class IAsyncResult;
@@ -110,49 +109,49 @@ class IAsyncResult;
 namespace System {
 class AsyncCallback;
 }
-namespace System {
-class IDisposable;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
+namespace System {
+class IDisposable;
+}
 // Forward declare root types
 namespace UnityEngine::UI {
-struct ____UnityEngine__UI__InputField__CharacterValidation;
+struct UnityEngine__UI__InputField__CharacterValidation;
 }
 namespace UnityEngine::UI {
-struct ____UnityEngine__UI__InputField__ContentType;
+struct UnityEngine__UI__InputField__ContentType;
 }
 namespace UnityEngine::UI {
-struct ____UnityEngine__UI__InputField__EditState;
+struct UnityEngine__UI__InputField__EditState;
 }
 namespace UnityEngine::UI {
-struct ____UnityEngine__UI__InputField__InputType;
+struct UnityEngine__UI__InputField__InputType;
 }
 namespace UnityEngine::UI {
-struct ____UnityEngine__UI__InputField__LineType;
+struct UnityEngine__UI__InputField__LineType;
 }
 namespace UnityEngine::UI {
 class InputField;
 }
 namespace UnityEngine::UI {
-class ____UnityEngine__UI__InputField__EndEditEvent;
+class UnityEngine__UI__InputField__EndEditEvent;
 }
 namespace UnityEngine::UI {
-class ____UnityEngine__UI__InputField__OnChangeEvent;
+class UnityEngine__UI__InputField__OnChangeEvent;
 }
 namespace UnityEngine::UI {
-class ____UnityEngine__UI__InputField__OnValidateInput;
+class UnityEngine__UI__InputField__OnValidateInput;
 }
 namespace UnityEngine::UI {
-class ____UnityEngine__UI__InputField__SubmitEvent;
+class UnityEngine__UI__InputField__SubmitEvent;
 }
 namespace UnityEngine::UI {
-class ____UnityEngine__UI__InputField___CaretBlink_d__172;
+class UnityEngine__UI__InputField___CaretBlink_d__172;
 }
 namespace UnityEngine::UI {
-class ____UnityEngine__UI__InputField___MouseDragOutsideRect_d__194;
+class UnityEngine__UI__InputField___MouseDragOutsideRect_d__194;
 }
 // Type: ::ContentType
 namespace UnityEngine::UI {
@@ -160,20 +159,20 @@ namespace UnityEngine::UI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12997))
 // CS Name: UnityEngine.UI.InputField::ContentType
-struct CORDL_TYPE ____UnityEngine__UI__InputField__ContentType : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__UI__InputField__ContentType : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__UI__InputField__ContentType(int32_t value__) noexcept;
+constexpr UnityEngine__UI__InputField__ContentType(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__UI__InputField__ContentType(____UnityEngine__UI__InputField__ContentType const&) = default;
-                    constexpr ____UnityEngine__UI__InputField__ContentType(____UnityEngine__UI__InputField__ContentType&&) = default;
-                    constexpr ____UnityEngine__UI__InputField__ContentType& operator=(____UnityEngine__UI__InputField__ContentType const& o) {
+                    constexpr UnityEngine__UI__InputField__ContentType(UnityEngine__UI__InputField__ContentType const&) = default;
+                    constexpr UnityEngine__UI__InputField__ContentType(UnityEngine__UI__InputField__ContentType&&) = default;
+                    constexpr UnityEngine__UI__InputField__ContentType& operator=(UnityEngine__UI__InputField__ContentType const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__UI__InputField__ContentType& operator=(____UnityEngine__UI__InputField__ContentType&& o) noexcept {
+                    constexpr UnityEngine__UI__InputField__ContentType& operator=(UnityEngine__UI__InputField__ContentType&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -186,7 +185,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UI__InputField__ContentType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__UI__InputField__ContentType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -194,7 +193,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__UI__InputField__ContentType_Unwrapped : int32_t {
+enum class __UnityEngine__UI__InputField__ContentType_Unwrapped : int32_t {
 __Standard = 0,
 __Autocorrected = 1,
 __IntegerNumber = 2,
@@ -208,8 +207,8 @@ __Custom = 9,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__UI__InputField__ContentType_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__UI__InputField__ContentType_Unwrapped>(__instance);
+constexpr operator __UnityEngine__UI__InputField__ContentType_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__UI__InputField__ContentType_Unwrapped>(__instance);
 }
 
 
@@ -222,34 +221,34 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Standard offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__InputField__ContentType const Standard;
+static UnityEngine::UI::UnityEngine__UI__InputField__ContentType const Standard;
 
 /// @brief Field Autocorrected offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__InputField__ContentType const Autocorrected;
+static UnityEngine::UI::UnityEngine__UI__InputField__ContentType const Autocorrected;
 
 /// @brief Field IntegerNumber offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__InputField__ContentType const IntegerNumber;
+static UnityEngine::UI::UnityEngine__UI__InputField__ContentType const IntegerNumber;
 
 /// @brief Field DecimalNumber offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__InputField__ContentType const DecimalNumber;
+static UnityEngine::UI::UnityEngine__UI__InputField__ContentType const DecimalNumber;
 
 /// @brief Field Alphanumeric offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__InputField__ContentType const Alphanumeric;
+static UnityEngine::UI::UnityEngine__UI__InputField__ContentType const Alphanumeric;
 
 /// @brief Field Name offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__InputField__ContentType const Name;
+static UnityEngine::UI::UnityEngine__UI__InputField__ContentType const Name;
 
 /// @brief Field EmailAddress offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__InputField__ContentType const EmailAddress;
+static UnityEngine::UI::UnityEngine__UI__InputField__ContentType const EmailAddress;
 
 /// @brief Field Password offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__InputField__ContentType const Password;
+static UnityEngine::UI::UnityEngine__UI__InputField__ContentType const Password;
 
 /// @brief Field Pin offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__InputField__ContentType const Pin;
+static UnityEngine::UI::UnityEngine__UI__InputField__ContentType const Pin;
 
 /// @brief Field Custom offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__InputField__ContentType const Custom;
+static UnityEngine::UI::UnityEngine__UI__InputField__ContentType const Custom;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -261,20 +260,20 @@ namespace UnityEngine::UI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12998))
 // CS Name: UnityEngine.UI.InputField::InputType
-struct CORDL_TYPE ____UnityEngine__UI__InputField__InputType : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__UI__InputField__InputType : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__UI__InputField__InputType(int32_t value__) noexcept;
+constexpr UnityEngine__UI__InputField__InputType(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__UI__InputField__InputType(____UnityEngine__UI__InputField__InputType const&) = default;
-                    constexpr ____UnityEngine__UI__InputField__InputType(____UnityEngine__UI__InputField__InputType&&) = default;
-                    constexpr ____UnityEngine__UI__InputField__InputType& operator=(____UnityEngine__UI__InputField__InputType const& o) {
+                    constexpr UnityEngine__UI__InputField__InputType(UnityEngine__UI__InputField__InputType const&) = default;
+                    constexpr UnityEngine__UI__InputField__InputType(UnityEngine__UI__InputField__InputType&&) = default;
+                    constexpr UnityEngine__UI__InputField__InputType& operator=(UnityEngine__UI__InputField__InputType const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__UI__InputField__InputType& operator=(____UnityEngine__UI__InputField__InputType&& o) noexcept {
+                    constexpr UnityEngine__UI__InputField__InputType& operator=(UnityEngine__UI__InputField__InputType&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -287,7 +286,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UI__InputField__InputType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__UI__InputField__InputType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -295,15 +294,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__UI__InputField__InputType_Unwrapped : int32_t {
+enum class __UnityEngine__UI__InputField__InputType_Unwrapped : int32_t {
 __Standard = 0,
 __AutoCorrect = 1,
 __Password = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__UI__InputField__InputType_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__UI__InputField__InputType_Unwrapped>(__instance);
+constexpr operator __UnityEngine__UI__InputField__InputType_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__UI__InputField__InputType_Unwrapped>(__instance);
 }
 
 
@@ -316,13 +315,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Standard offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__InputField__InputType const Standard;
+static UnityEngine::UI::UnityEngine__UI__InputField__InputType const Standard;
 
 /// @brief Field AutoCorrect offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__InputField__InputType const AutoCorrect;
+static UnityEngine::UI::UnityEngine__UI__InputField__InputType const AutoCorrect;
 
 /// @brief Field Password offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__InputField__InputType const Password;
+static UnityEngine::UI::UnityEngine__UI__InputField__InputType const Password;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -334,20 +333,20 @@ namespace UnityEngine::UI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12999))
 // CS Name: UnityEngine.UI.InputField::CharacterValidation
-struct CORDL_TYPE ____UnityEngine__UI__InputField__CharacterValidation : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__UI__InputField__CharacterValidation : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__UI__InputField__CharacterValidation(int32_t value__) noexcept;
+constexpr UnityEngine__UI__InputField__CharacterValidation(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__UI__InputField__CharacterValidation(____UnityEngine__UI__InputField__CharacterValidation const&) = default;
-                    constexpr ____UnityEngine__UI__InputField__CharacterValidation(____UnityEngine__UI__InputField__CharacterValidation&&) = default;
-                    constexpr ____UnityEngine__UI__InputField__CharacterValidation& operator=(____UnityEngine__UI__InputField__CharacterValidation const& o) {
+                    constexpr UnityEngine__UI__InputField__CharacterValidation(UnityEngine__UI__InputField__CharacterValidation const&) = default;
+                    constexpr UnityEngine__UI__InputField__CharacterValidation(UnityEngine__UI__InputField__CharacterValidation&&) = default;
+                    constexpr UnityEngine__UI__InputField__CharacterValidation& operator=(UnityEngine__UI__InputField__CharacterValidation const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__UI__InputField__CharacterValidation& operator=(____UnityEngine__UI__InputField__CharacterValidation&& o) noexcept {
+                    constexpr UnityEngine__UI__InputField__CharacterValidation& operator=(UnityEngine__UI__InputField__CharacterValidation&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -360,7 +359,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UI__InputField__CharacterValidation(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__UI__InputField__CharacterValidation(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -368,7 +367,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__UI__InputField__CharacterValidation_Unwrapped : int32_t {
+enum class __UnityEngine__UI__InputField__CharacterValidation_Unwrapped : int32_t {
 __None = 0,
 __Integer = 1,
 __Decimal = 2,
@@ -378,8 +377,8 @@ __EmailAddress = 5,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__UI__InputField__CharacterValidation_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__UI__InputField__CharacterValidation_Unwrapped>(__instance);
+constexpr operator __UnityEngine__UI__InputField__CharacterValidation_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__UI__InputField__CharacterValidation_Unwrapped>(__instance);
 }
 
 
@@ -392,22 +391,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__InputField__CharacterValidation const None;
+static UnityEngine::UI::UnityEngine__UI__InputField__CharacterValidation const None;
 
 /// @brief Field Integer offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__InputField__CharacterValidation const Integer;
+static UnityEngine::UI::UnityEngine__UI__InputField__CharacterValidation const Integer;
 
 /// @brief Field Decimal offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__InputField__CharacterValidation const Decimal;
+static UnityEngine::UI::UnityEngine__UI__InputField__CharacterValidation const Decimal;
 
 /// @brief Field Alphanumeric offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__InputField__CharacterValidation const Alphanumeric;
+static UnityEngine::UI::UnityEngine__UI__InputField__CharacterValidation const Alphanumeric;
 
 /// @brief Field Name offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__InputField__CharacterValidation const Name;
+static UnityEngine::UI::UnityEngine__UI__InputField__CharacterValidation const Name;
 
 /// @brief Field EmailAddress offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__InputField__CharacterValidation const EmailAddress;
+static UnityEngine::UI::UnityEngine__UI__InputField__CharacterValidation const EmailAddress;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -419,20 +418,20 @@ namespace UnityEngine::UI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13000))
 // CS Name: UnityEngine.UI.InputField::LineType
-struct CORDL_TYPE ____UnityEngine__UI__InputField__LineType : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__UI__InputField__LineType : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__UI__InputField__LineType(int32_t value__) noexcept;
+constexpr UnityEngine__UI__InputField__LineType(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__UI__InputField__LineType(____UnityEngine__UI__InputField__LineType const&) = default;
-                    constexpr ____UnityEngine__UI__InputField__LineType(____UnityEngine__UI__InputField__LineType&&) = default;
-                    constexpr ____UnityEngine__UI__InputField__LineType& operator=(____UnityEngine__UI__InputField__LineType const& o) {
+                    constexpr UnityEngine__UI__InputField__LineType(UnityEngine__UI__InputField__LineType const&) = default;
+                    constexpr UnityEngine__UI__InputField__LineType(UnityEngine__UI__InputField__LineType&&) = default;
+                    constexpr UnityEngine__UI__InputField__LineType& operator=(UnityEngine__UI__InputField__LineType const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__UI__InputField__LineType& operator=(____UnityEngine__UI__InputField__LineType&& o) noexcept {
+                    constexpr UnityEngine__UI__InputField__LineType& operator=(UnityEngine__UI__InputField__LineType&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -445,7 +444,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UI__InputField__LineType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__UI__InputField__LineType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -453,15 +452,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__UI__InputField__LineType_Unwrapped : int32_t {
+enum class __UnityEngine__UI__InputField__LineType_Unwrapped : int32_t {
 __SingleLine = 0,
 __MultiLineSubmit = 1,
 __MultiLineNewline = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__UI__InputField__LineType_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__UI__InputField__LineType_Unwrapped>(__instance);
+constexpr operator __UnityEngine__UI__InputField__LineType_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__UI__InputField__LineType_Unwrapped>(__instance);
 }
 
 
@@ -474,13 +473,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field SingleLine offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__InputField__LineType const SingleLine;
+static UnityEngine::UI::UnityEngine__UI__InputField__LineType const SingleLine;
 
 /// @brief Field MultiLineSubmit offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__InputField__LineType const MultiLineSubmit;
+static UnityEngine::UI::UnityEngine__UI__InputField__LineType const MultiLineSubmit;
 
 /// @brief Field MultiLineNewline offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__InputField__LineType const MultiLineNewline;
+static UnityEngine::UI::UnityEngine__UI__InputField__LineType const MultiLineNewline;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -492,44 +491,44 @@ namespace UnityEngine::UI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13001))
 // CS Name: UnityEngine.UI.InputField::OnValidateInput
-class CORDL_TYPE ____UnityEngine__UI__InputField__OnValidateInput : public ::System::MulticastDelegate {
+class CORDL_TYPE UnityEngine__UI__InputField__OnValidateInput : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x80};
 
-virtual ~____UnityEngine__UI__InputField__OnValidateInput() = default;
+virtual ~UnityEngine__UI__InputField__OnValidateInput() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UI__InputField__OnValidateInput", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__UI__InputField__OnValidateInput(____UnityEngine__UI__InputField__OnValidateInput const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UI__InputField__OnValidateInput", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__UI__InputField__OnValidateInput(UnityEngine__UI__InputField__OnValidateInput const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UI__InputField__OnValidateInput", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__UI__InputField__OnValidateInput(____UnityEngine__UI__InputField__OnValidateInput&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UI__InputField__OnValidateInput", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__UI__InputField__OnValidateInput(UnityEngine__UI__InputField__OnValidateInput&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UI__InputField__OnValidateInput(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit UnityEngine__UI__InputField__OnValidateInput(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
-  constexpr ____UnityEngine__UI__InputField__OnValidateInput& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__UI__InputField__OnValidateInput& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__UI__InputField__OnValidateInput& operator=(void* o) noexcept {
+  constexpr UnityEngine__UI__InputField__OnValidateInput& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__UI__InputField__OnValidateInput& operator=(____UnityEngine__UI__InputField__OnValidateInput&& o) noexcept = default;
-  constexpr ____UnityEngine__UI__InputField__OnValidateInput& operator=(____UnityEngine__UI__InputField__OnValidateInput const& o) noexcept = default;
+  constexpr UnityEngine__UI__InputField__OnValidateInput& operator=(UnityEngine__UI__InputField__OnValidateInput&& o) noexcept = default;
+  constexpr UnityEngine__UI__InputField__OnValidateInput& operator=(UnityEngine__UI__InputField__OnValidateInput const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit ____UnityEngine__UI__InputField__OnValidateInput(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+explicit UnityEngine__UI__InputField__OnValidateInput(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2bf0b60 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -538,10 +537,10 @@ explicit ____UnityEngine__UI__InputField__OnValidateInput(::bs_hook::Il2CppWrapp
  char16_t Invoke(::StringW text, int32_t charIndex, char16_t addedChar) ;
 
 /// @brief Method BeginInvoke addr 0x2bf9b34 size 0xc0 virtual true final false
- ::System::IAsyncResult BeginInvoke(::StringW text, int32_t charIndex, char16_t addedChar, ::System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
+ System::IAsyncResult BeginInvoke(::StringW text, int32_t charIndex, char16_t addedChar, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
 
 /// @brief Method EndInvoke addr 0x2bf9bf4 size 0x28 virtual true final false
- char16_t EndInvoke(::System::IAsyncResult result) ;
+ char16_t EndInvoke(System::IAsyncResult result) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -550,47 +549,47 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::SubmitEvent
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 380 }), TypeDefinitionIndex(TypeDefinitionIndex(10401))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 380 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13002))
 // CS Name: UnityEngine.UI.InputField::SubmitEvent
-class CORDL_TYPE ____UnityEngine__UI__InputField__SubmitEvent : public ::UnityEngine::Events::UnityEvent_1<::StringW> {
+class CORDL_TYPE UnityEngine__UI__InputField__SubmitEvent : public UnityEngine::Events::UnityEvent_1<::StringW> {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____UnityEngine__UI__InputField__SubmitEvent() = default;
+virtual ~UnityEngine__UI__InputField__SubmitEvent() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UI__InputField__SubmitEvent", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__UI__InputField__SubmitEvent(____UnityEngine__UI__InputField__SubmitEvent const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UI__InputField__SubmitEvent", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__UI__InputField__SubmitEvent(UnityEngine__UI__InputField__SubmitEvent const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UI__InputField__SubmitEvent", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__UI__InputField__SubmitEvent(____UnityEngine__UI__InputField__SubmitEvent&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UI__InputField__SubmitEvent", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__UI__InputField__SubmitEvent(UnityEngine__UI__InputField__SubmitEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UI__InputField__SubmitEvent(void* ptr) noexcept : ::UnityEngine::Events::UnityEvent_1<::StringW>(ptr) {
+constexpr explicit UnityEngine__UI__InputField__SubmitEvent(void* ptr) noexcept : UnityEngine::Events::UnityEvent_1<::StringW>(ptr) {
 }
 
 
-  constexpr ____UnityEngine__UI__InputField__SubmitEvent& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__UI__InputField__SubmitEvent& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__UI__InputField__SubmitEvent& operator=(void* o) noexcept {
+  constexpr UnityEngine__UI__InputField__SubmitEvent& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__UI__InputField__SubmitEvent& operator=(____UnityEngine__UI__InputField__SubmitEvent&& o) noexcept = default;
-  constexpr ____UnityEngine__UI__InputField__SubmitEvent& operator=(____UnityEngine__UI__InputField__SubmitEvent const& o) noexcept = default;
+  constexpr UnityEngine__UI__InputField__SubmitEvent& operator=(UnityEngine__UI__InputField__SubmitEvent&& o) noexcept = default;
+  constexpr UnityEngine__UI__InputField__SubmitEvent& operator=(UnityEngine__UI__InputField__SubmitEvent const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__UI__InputField__SubmitEvent() ;
+explicit UnityEngine__UI__InputField__SubmitEvent() ;
 
 /// @brief Method .ctor addr 0x2bf04e4 size 0x48 virtual false final false
  void _ctor() ;
@@ -605,44 +604,44 @@ namespace UnityEngine::UI {
 // Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 380 }), TypeDefinitionIndex(TypeDefinitionIndex(10401))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13003))
 // CS Name: UnityEngine.UI.InputField::EndEditEvent
-class CORDL_TYPE ____UnityEngine__UI__InputField__EndEditEvent : public ::UnityEngine::Events::UnityEvent_1<::StringW> {
+class CORDL_TYPE UnityEngine__UI__InputField__EndEditEvent : public UnityEngine::Events::UnityEvent_1<::StringW> {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____UnityEngine__UI__InputField__EndEditEvent() = default;
+virtual ~UnityEngine__UI__InputField__EndEditEvent() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UI__InputField__EndEditEvent", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__UI__InputField__EndEditEvent(____UnityEngine__UI__InputField__EndEditEvent const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UI__InputField__EndEditEvent", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__UI__InputField__EndEditEvent(UnityEngine__UI__InputField__EndEditEvent const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UI__InputField__EndEditEvent", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__UI__InputField__EndEditEvent(____UnityEngine__UI__InputField__EndEditEvent&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UI__InputField__EndEditEvent", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__UI__InputField__EndEditEvent(UnityEngine__UI__InputField__EndEditEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UI__InputField__EndEditEvent(void* ptr) noexcept : ::UnityEngine::Events::UnityEvent_1<::StringW>(ptr) {
+constexpr explicit UnityEngine__UI__InputField__EndEditEvent(void* ptr) noexcept : UnityEngine::Events::UnityEvent_1<::StringW>(ptr) {
 }
 
 
-  constexpr ____UnityEngine__UI__InputField__EndEditEvent& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__UI__InputField__EndEditEvent& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__UI__InputField__EndEditEvent& operator=(void* o) noexcept {
+  constexpr UnityEngine__UI__InputField__EndEditEvent& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__UI__InputField__EndEditEvent& operator=(____UnityEngine__UI__InputField__EndEditEvent&& o) noexcept = default;
-  constexpr ____UnityEngine__UI__InputField__EndEditEvent& operator=(____UnityEngine__UI__InputField__EndEditEvent const& o) noexcept = default;
+  constexpr UnityEngine__UI__InputField__EndEditEvent& operator=(UnityEngine__UI__InputField__EndEditEvent&& o) noexcept = default;
+  constexpr UnityEngine__UI__InputField__EndEditEvent& operator=(UnityEngine__UI__InputField__EndEditEvent const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__UI__InputField__EndEditEvent() ;
+explicit UnityEngine__UI__InputField__EndEditEvent() ;
 
 /// @brief Method .ctor addr 0x2bf052c size 0x48 virtual false final false
  void _ctor() ;
@@ -657,44 +656,44 @@ namespace UnityEngine::UI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 380 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13004))
 // CS Name: UnityEngine.UI.InputField::OnChangeEvent
-class CORDL_TYPE ____UnityEngine__UI__InputField__OnChangeEvent : public ::UnityEngine::Events::UnityEvent_1<::StringW> {
+class CORDL_TYPE UnityEngine__UI__InputField__OnChangeEvent : public UnityEngine::Events::UnityEvent_1<::StringW> {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____UnityEngine__UI__InputField__OnChangeEvent() = default;
+virtual ~UnityEngine__UI__InputField__OnChangeEvent() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UI__InputField__OnChangeEvent", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__UI__InputField__OnChangeEvent(____UnityEngine__UI__InputField__OnChangeEvent const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UI__InputField__OnChangeEvent", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__UI__InputField__OnChangeEvent(UnityEngine__UI__InputField__OnChangeEvent const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UI__InputField__OnChangeEvent", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__UI__InputField__OnChangeEvent(____UnityEngine__UI__InputField__OnChangeEvent&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UI__InputField__OnChangeEvent", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__UI__InputField__OnChangeEvent(UnityEngine__UI__InputField__OnChangeEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UI__InputField__OnChangeEvent(void* ptr) noexcept : ::UnityEngine::Events::UnityEvent_1<::StringW>(ptr) {
+constexpr explicit UnityEngine__UI__InputField__OnChangeEvent(void* ptr) noexcept : UnityEngine::Events::UnityEvent_1<::StringW>(ptr) {
 }
 
 
-  constexpr ____UnityEngine__UI__InputField__OnChangeEvent& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__UI__InputField__OnChangeEvent& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__UI__InputField__OnChangeEvent& operator=(void* o) noexcept {
+  constexpr UnityEngine__UI__InputField__OnChangeEvent& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__UI__InputField__OnChangeEvent& operator=(____UnityEngine__UI__InputField__OnChangeEvent&& o) noexcept = default;
-  constexpr ____UnityEngine__UI__InputField__OnChangeEvent& operator=(____UnityEngine__UI__InputField__OnChangeEvent const& o) noexcept = default;
+  constexpr UnityEngine__UI__InputField__OnChangeEvent& operator=(UnityEngine__UI__InputField__OnChangeEvent&& o) noexcept = default;
+  constexpr UnityEngine__UI__InputField__OnChangeEvent& operator=(UnityEngine__UI__InputField__OnChangeEvent const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__UI__InputField__OnChangeEvent() ;
+explicit UnityEngine__UI__InputField__OnChangeEvent() ;
 
 /// @brief Method .ctor addr 0x2bf0574 size 0x48 virtual false final false
  void _ctor() ;
@@ -709,20 +708,20 @@ namespace UnityEngine::UI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13005))
 // CS Name: UnityEngine.UI.InputField::EditState
-struct CORDL_TYPE ____UnityEngine__UI__InputField__EditState : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__UI__InputField__EditState : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__UI__InputField__EditState(int32_t value__) noexcept;
+constexpr UnityEngine__UI__InputField__EditState(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__UI__InputField__EditState(____UnityEngine__UI__InputField__EditState const&) = default;
-                    constexpr ____UnityEngine__UI__InputField__EditState(____UnityEngine__UI__InputField__EditState&&) = default;
-                    constexpr ____UnityEngine__UI__InputField__EditState& operator=(____UnityEngine__UI__InputField__EditState const& o) {
+                    constexpr UnityEngine__UI__InputField__EditState(UnityEngine__UI__InputField__EditState const&) = default;
+                    constexpr UnityEngine__UI__InputField__EditState(UnityEngine__UI__InputField__EditState&&) = default;
+                    constexpr UnityEngine__UI__InputField__EditState& operator=(UnityEngine__UI__InputField__EditState const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__UI__InputField__EditState& operator=(____UnityEngine__UI__InputField__EditState&& o) noexcept {
+                    constexpr UnityEngine__UI__InputField__EditState& operator=(UnityEngine__UI__InputField__EditState&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -735,7 +734,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UI__InputField__EditState(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__UI__InputField__EditState(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -743,14 +742,14 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__UI__InputField__EditState_Unwrapped : int32_t {
+enum class __UnityEngine__UI__InputField__EditState_Unwrapped : int32_t {
 __Continue = 0,
 __Finish = 1,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__UI__InputField__EditState_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__UI__InputField__EditState_Unwrapped>(__instance);
+constexpr operator __UnityEngine__UI__InputField__EditState_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__UI__InputField__EditState_Unwrapped>(__instance);
 }
 
 
@@ -763,10 +762,10 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Continue offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__InputField__EditState const Continue;
+static UnityEngine::UI::UnityEngine__UI__InputField__EditState const Continue;
 
 /// @brief Field Finish offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__InputField__EditState const Finish;
+static UnityEngine::UI::UnityEngine__UI__InputField__EditState const Finish;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -778,46 +777,46 @@ namespace UnityEngine::UI {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13006))
 // CS Name: UnityEngine.UI.InputField::<CaretBlink>d__172
-class CORDL_TYPE ____UnityEngine__UI__InputField___CaretBlink_d__172 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__UI__InputField___CaretBlink_d__172 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____UnityEngine__UI__InputField___CaretBlink_d__172() = default;
+virtual ~UnityEngine__UI__InputField___CaretBlink_d__172() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UI__InputField___CaretBlink_d__172", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__UI__InputField___CaretBlink_d__172(____UnityEngine__UI__InputField___CaretBlink_d__172 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UI__InputField___CaretBlink_d__172", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__UI__InputField___CaretBlink_d__172(UnityEngine__UI__InputField___CaretBlink_d__172 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UI__InputField___CaretBlink_d__172", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__UI__InputField___CaretBlink_d__172(____UnityEngine__UI__InputField___CaretBlink_d__172&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UI__InputField___CaretBlink_d__172", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__UI__InputField___CaretBlink_d__172(UnityEngine__UI__InputField___CaretBlink_d__172&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UI__InputField___CaretBlink_d__172(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__UI__InputField___CaretBlink_d__172(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__UI__InputField___CaretBlink_d__172& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__UI__InputField___CaretBlink_d__172& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__UI__InputField___CaretBlink_d__172& operator=(void* o) noexcept {
+  constexpr UnityEngine__UI__InputField___CaretBlink_d__172& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__UI__InputField___CaretBlink_d__172& operator=(____UnityEngine__UI__InputField___CaretBlink_d__172&& o) noexcept = default;
-  constexpr ____UnityEngine__UI__InputField___CaretBlink_d__172& operator=(____UnityEngine__UI__InputField___CaretBlink_d__172 const& o) noexcept = default;
+  constexpr UnityEngine__UI__InputField___CaretBlink_d__172& operator=(UnityEngine__UI__InputField___CaretBlink_d__172&& o) noexcept = default;
+  constexpr UnityEngine__UI__InputField___CaretBlink_d__172& operator=(UnityEngine__UI__InputField___CaretBlink_d__172 const& o) noexcept = default;
                 
 
 
@@ -835,11 +834,11 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::UnityEngine::UI::InputField __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ UnityEngine::UI::InputField __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::UnityEngine::UI::InputField value) ;
+constexpr void __set___4__this(UnityEngine::UI::InputField value) ;
 
-constexpr ::UnityEngine::UI::InputField __get___4__this() const;
+constexpr UnityEngine::UI::InputField __get___4__this() const;
 
 
 // Properties
@@ -852,7 +851,7 @@ constexpr ::UnityEngine::UI::InputField __get___4__this() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____UnityEngine__UI__InputField___CaretBlink_d__172(int32_t __1__state) ;
+explicit UnityEngine__UI__InputField___CaretBlink_d__172(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2bf2798 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -882,46 +881,46 @@ namespace UnityEngine::UI {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13007))
 // CS Name: UnityEngine.UI.InputField::<MouseDragOutsideRect>d__194
-class CORDL_TYPE ____UnityEngine__UI__InputField___MouseDragOutsideRect_d__194 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__UI__InputField___MouseDragOutsideRect_d__194 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____UnityEngine__UI__InputField___MouseDragOutsideRect_d__194() = default;
+virtual ~UnityEngine__UI__InputField___MouseDragOutsideRect_d__194() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UI__InputField___MouseDragOutsideRect_d__194", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__UI__InputField___MouseDragOutsideRect_d__194(____UnityEngine__UI__InputField___MouseDragOutsideRect_d__194 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UI__InputField___MouseDragOutsideRect_d__194", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__UI__InputField___MouseDragOutsideRect_d__194(UnityEngine__UI__InputField___MouseDragOutsideRect_d__194 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UI__InputField___MouseDragOutsideRect_d__194", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__UI__InputField___MouseDragOutsideRect_d__194(____UnityEngine__UI__InputField___MouseDragOutsideRect_d__194&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UI__InputField___MouseDragOutsideRect_d__194", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__UI__InputField___MouseDragOutsideRect_d__194(UnityEngine__UI__InputField___MouseDragOutsideRect_d__194&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UI__InputField___MouseDragOutsideRect_d__194(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__UI__InputField___MouseDragOutsideRect_d__194(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__UI__InputField___MouseDragOutsideRect_d__194& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__UI__InputField___MouseDragOutsideRect_d__194& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__UI__InputField___MouseDragOutsideRect_d__194& operator=(void* o) noexcept {
+  constexpr UnityEngine__UI__InputField___MouseDragOutsideRect_d__194& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__UI__InputField___MouseDragOutsideRect_d__194& operator=(____UnityEngine__UI__InputField___MouseDragOutsideRect_d__194&& o) noexcept = default;
-  constexpr ____UnityEngine__UI__InputField___MouseDragOutsideRect_d__194& operator=(____UnityEngine__UI__InputField___MouseDragOutsideRect_d__194 const& o) noexcept = default;
+  constexpr UnityEngine__UI__InputField___MouseDragOutsideRect_d__194& operator=(UnityEngine__UI__InputField___MouseDragOutsideRect_d__194&& o) noexcept = default;
+  constexpr UnityEngine__UI__InputField___MouseDragOutsideRect_d__194& operator=(UnityEngine__UI__InputField___MouseDragOutsideRect_d__194 const& o) noexcept = default;
                 
 
 
@@ -939,17 +938,17 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::UnityEngine::EventSystems::PointerEventData __declspec(property(get=__get_eventData, put=__set_eventData))  eventData;
+ UnityEngine::EventSystems::PointerEventData __declspec(property(get=__get_eventData, put=__set_eventData))  eventData;
 
-constexpr void __set_eventData(::UnityEngine::EventSystems::PointerEventData value) ;
+constexpr void __set_eventData(UnityEngine::EventSystems::PointerEventData value) ;
 
-constexpr ::UnityEngine::EventSystems::PointerEventData __get_eventData() const;
+constexpr UnityEngine::EventSystems::PointerEventData __get_eventData() const;
 
- ::UnityEngine::UI::InputField __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ UnityEngine::UI::InputField __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::UnityEngine::UI::InputField value) ;
+constexpr void __set___4__this(UnityEngine::UI::InputField value) ;
 
-constexpr ::UnityEngine::UI::InputField __get___4__this() const;
+constexpr UnityEngine::UI::InputField __get___4__this() const;
 
 
 // Properties
@@ -962,7 +961,7 @@ constexpr ::UnityEngine::UI::InputField __get___4__this() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____UnityEngine__UI__InputField___MouseDragOutsideRect_d__194(int32_t __1__state) ;
+explicit UnityEngine__UI__InputField___MouseDragOutsideRect_d__194(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2bf4df8 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -992,57 +991,57 @@ namespace UnityEngine::UI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13058))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13008))
 // CS Name: UnityEngine.UI.InputField
-class CORDL_TYPE InputField : public ::UnityEngine::UI::Selectable {
+class CORDL_TYPE InputField : public UnityEngine::UI::Selectable {
 public:
 // Declarations
-using _MouseDragOutsideRect_d__194 = ::UnityEngine::UI::____UnityEngine__UI__InputField___MouseDragOutsideRect_d__194;
+using _MouseDragOutsideRect_d__194 = UnityEngine::UI::UnityEngine__UI__InputField___MouseDragOutsideRect_d__194;
 
-using _CaretBlink_d__172 = ::UnityEngine::UI::____UnityEngine__UI__InputField___CaretBlink_d__172;
+using _CaretBlink_d__172 = UnityEngine::UI::UnityEngine__UI__InputField___CaretBlink_d__172;
 
-using EditState = ::UnityEngine::UI::____UnityEngine__UI__InputField__EditState;
+using EditState = UnityEngine::UI::UnityEngine__UI__InputField__EditState;
 
-using OnChangeEvent = ::UnityEngine::UI::____UnityEngine__UI__InputField__OnChangeEvent;
+using OnChangeEvent = UnityEngine::UI::UnityEngine__UI__InputField__OnChangeEvent;
 
-using EndEditEvent = ::UnityEngine::UI::____UnityEngine__UI__InputField__EndEditEvent;
+using EndEditEvent = UnityEngine::UI::UnityEngine__UI__InputField__EndEditEvent;
 
-using SubmitEvent = ::UnityEngine::UI::____UnityEngine__UI__InputField__SubmitEvent;
+using SubmitEvent = UnityEngine::UI::UnityEngine__UI__InputField__SubmitEvent;
 
-using OnValidateInput = ::UnityEngine::UI::____UnityEngine__UI__InputField__OnValidateInput;
+using OnValidateInput = UnityEngine::UI::UnityEngine__UI__InputField__OnValidateInput;
 
-using LineType = ::UnityEngine::UI::____UnityEngine__UI__InputField__LineType;
+using LineType = UnityEngine::UI::UnityEngine__UI__InputField__LineType;
 
-using CharacterValidation = ::UnityEngine::UI::____UnityEngine__UI__InputField__CharacterValidation;
+using CharacterValidation = UnityEngine::UI::UnityEngine__UI__InputField__CharacterValidation;
 
-using InputType = ::UnityEngine::UI::____UnityEngine__UI__InputField__InputType;
+using InputType = UnityEngine::UI::UnityEngine__UI__InputField__InputType;
 
-using ContentType = ::UnityEngine::UI::____UnityEngine__UI__InputField__ContentType;
+using ContentType = UnityEngine::UI::UnityEngine__UI__InputField__ContentType;
 
-/// @brief Convert operator to ::UnityEngine::EventSystems::IUpdateSelectedHandler
-constexpr operator  ::UnityEngine::EventSystems::IUpdateSelectedHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IUpdateSelectedHandler
+constexpr operator  UnityEngine::EventSystems::IUpdateSelectedHandler() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::EventSystems::IEventSystemHandler
-constexpr operator  ::UnityEngine::EventSystems::IEventSystemHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IEventSystemHandler
+constexpr operator  UnityEngine::EventSystems::IEventSystemHandler() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::EventSystems::IBeginDragHandler
-constexpr operator  ::UnityEngine::EventSystems::IBeginDragHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IBeginDragHandler
+constexpr operator  UnityEngine::EventSystems::IBeginDragHandler() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::EventSystems::IDragHandler
-constexpr operator  ::UnityEngine::EventSystems::IDragHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IDragHandler
+constexpr operator  UnityEngine::EventSystems::IDragHandler() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::EventSystems::IEndDragHandler
-constexpr operator  ::UnityEngine::EventSystems::IEndDragHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IEndDragHandler
+constexpr operator  UnityEngine::EventSystems::IEndDragHandler() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::EventSystems::IPointerClickHandler
-constexpr operator  ::UnityEngine::EventSystems::IPointerClickHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IPointerClickHandler
+constexpr operator  UnityEngine::EventSystems::IPointerClickHandler() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::EventSystems::ISubmitHandler
-constexpr operator  ::UnityEngine::EventSystems::ISubmitHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::ISubmitHandler
+constexpr operator  UnityEngine::EventSystems::ISubmitHandler() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::UI::ICanvasElement
-constexpr operator  ::UnityEngine::UI::ICanvasElement() const noexcept;
+/// @brief Convert operator to UnityEngine::UI::ICanvasElement
+constexpr operator  UnityEngine::UI::ICanvasElement() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::UI::ILayoutElement
-constexpr operator  ::UnityEngine::UI::ILayoutElement() const noexcept;
+/// @brief Convert operator to UnityEngine::UI::ILayoutElement
+constexpr operator  UnityEngine::UI::ILayoutElement() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x218};
@@ -1056,7 +1055,7 @@ constexpr InputField(InputField const& ) noexcept = default;
 constexpr InputField(InputField&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit InputField(void* ptr) noexcept : ::UnityEngine::UI::Selectable(ptr) {
+constexpr explicit InputField(void* ptr) noexcept : UnityEngine::UI::Selectable(ptr) {
 }
 
 
@@ -1077,11 +1076,11 @@ constexpr explicit InputField(void* ptr) noexcept : ::UnityEngine::UI::Selectabl
 
 // Fields
 
- ::UnityEngine::TouchScreenKeyboard __declspec(property(get=__get_m_Keyboard, put=__set_m_Keyboard))  m_Keyboard;
+ UnityEngine::TouchScreenKeyboard __declspec(property(get=__get_m_Keyboard, put=__set_m_Keyboard))  m_Keyboard;
 
-constexpr void __set_m_Keyboard(::UnityEngine::TouchScreenKeyboard value) ;
+constexpr void __set_m_Keyboard(UnityEngine::TouchScreenKeyboard value) ;
 
-constexpr ::UnityEngine::TouchScreenKeyboard __get_m_Keyboard() const;
+constexpr UnityEngine::TouchScreenKeyboard __get_m_Keyboard() const;
 
 static ::ArrayW<char16_t> __declspec(property(get=__get_kSeparators, put=__set_kSeparators))  kSeparators;
 
@@ -1101,29 +1100,29 @@ static void __set_s_IsQuestDevice(bool value) ;
 
 static bool __get_s_IsQuestDevice() ;
 
- ::UnityEngine::UI::Text __declspec(property(get=__get_m_TextComponent, put=__set_m_TextComponent))  m_TextComponent;
+ UnityEngine::UI::Text __declspec(property(get=__get_m_TextComponent, put=__set_m_TextComponent))  m_TextComponent;
 
-constexpr void __set_m_TextComponent(::UnityEngine::UI::Text value) ;
+constexpr void __set_m_TextComponent(UnityEngine::UI::Text value) ;
 
-constexpr ::UnityEngine::UI::Text __get_m_TextComponent() const;
+constexpr UnityEngine::UI::Text __get_m_TextComponent() const;
 
- ::UnityEngine::UI::Graphic __declspec(property(get=__get_m_Placeholder, put=__set_m_Placeholder))  m_Placeholder;
+ UnityEngine::UI::Graphic __declspec(property(get=__get_m_Placeholder, put=__set_m_Placeholder))  m_Placeholder;
 
-constexpr void __set_m_Placeholder(::UnityEngine::UI::Graphic value) ;
+constexpr void __set_m_Placeholder(UnityEngine::UI::Graphic value) ;
 
-constexpr ::UnityEngine::UI::Graphic __get_m_Placeholder() const;
+constexpr UnityEngine::UI::Graphic __get_m_Placeholder() const;
 
- ::UnityEngine::UI::____UnityEngine__UI__InputField__ContentType __declspec(property(get=__get_m_ContentType, put=__set_m_ContentType))  m_ContentType;
+ UnityEngine::UI::UnityEngine__UI__InputField__ContentType __declspec(property(get=__get_m_ContentType, put=__set_m_ContentType))  m_ContentType;
 
-constexpr void __set_m_ContentType(::UnityEngine::UI::____UnityEngine__UI__InputField__ContentType value) ;
+constexpr void __set_m_ContentType(UnityEngine::UI::UnityEngine__UI__InputField__ContentType value) ;
 
-constexpr ::UnityEngine::UI::____UnityEngine__UI__InputField__ContentType __get_m_ContentType() const;
+constexpr UnityEngine::UI::UnityEngine__UI__InputField__ContentType __get_m_ContentType() const;
 
- ::UnityEngine::UI::____UnityEngine__UI__InputField__InputType __declspec(property(get=__get_m_InputType, put=__set_m_InputType))  m_InputType;
+ UnityEngine::UI::UnityEngine__UI__InputField__InputType __declspec(property(get=__get_m_InputType, put=__set_m_InputType))  m_InputType;
 
-constexpr void __set_m_InputType(::UnityEngine::UI::____UnityEngine__UI__InputField__InputType value) ;
+constexpr void __set_m_InputType(UnityEngine::UI::UnityEngine__UI__InputField__InputType value) ;
 
-constexpr ::UnityEngine::UI::____UnityEngine__UI__InputField__InputType __get_m_InputType() const;
+constexpr UnityEngine::UI::UnityEngine__UI__InputField__InputType __get_m_InputType() const;
 
  char16_t __declspec(property(get=__get_m_AsteriskChar, put=__set_m_AsteriskChar))  m_AsteriskChar;
 
@@ -1131,17 +1130,17 @@ constexpr void __set_m_AsteriskChar(char16_t value) ;
 
 constexpr char16_t __get_m_AsteriskChar() const;
 
- ::UnityEngine::TouchScreenKeyboardType __declspec(property(get=__get_m_KeyboardType, put=__set_m_KeyboardType))  m_KeyboardType;
+ UnityEngine::TouchScreenKeyboardType __declspec(property(get=__get_m_KeyboardType, put=__set_m_KeyboardType))  m_KeyboardType;
 
-constexpr void __set_m_KeyboardType(::UnityEngine::TouchScreenKeyboardType value) ;
+constexpr void __set_m_KeyboardType(UnityEngine::TouchScreenKeyboardType value) ;
 
-constexpr ::UnityEngine::TouchScreenKeyboardType __get_m_KeyboardType() const;
+constexpr UnityEngine::TouchScreenKeyboardType __get_m_KeyboardType() const;
 
- ::UnityEngine::UI::____UnityEngine__UI__InputField__LineType __declspec(property(get=__get_m_LineType, put=__set_m_LineType))  m_LineType;
+ UnityEngine::UI::UnityEngine__UI__InputField__LineType __declspec(property(get=__get_m_LineType, put=__set_m_LineType))  m_LineType;
 
-constexpr void __set_m_LineType(::UnityEngine::UI::____UnityEngine__UI__InputField__LineType value) ;
+constexpr void __set_m_LineType(UnityEngine::UI::UnityEngine__UI__InputField__LineType value) ;
 
-constexpr ::UnityEngine::UI::____UnityEngine__UI__InputField__LineType __get_m_LineType() const;
+constexpr UnityEngine::UI::UnityEngine__UI__InputField__LineType __get_m_LineType() const;
 
  bool __declspec(property(get=__get_m_HideMobileInput, put=__set_m_HideMobileInput))  m_HideMobileInput;
 
@@ -1149,11 +1148,11 @@ constexpr void __set_m_HideMobileInput(bool value) ;
 
 constexpr bool __get_m_HideMobileInput() const;
 
- ::UnityEngine::UI::____UnityEngine__UI__InputField__CharacterValidation __declspec(property(get=__get_m_CharacterValidation, put=__set_m_CharacterValidation))  m_CharacterValidation;
+ UnityEngine::UI::UnityEngine__UI__InputField__CharacterValidation __declspec(property(get=__get_m_CharacterValidation, put=__set_m_CharacterValidation))  m_CharacterValidation;
 
-constexpr void __set_m_CharacterValidation(::UnityEngine::UI::____UnityEngine__UI__InputField__CharacterValidation value) ;
+constexpr void __set_m_CharacterValidation(UnityEngine::UI::UnityEngine__UI__InputField__CharacterValidation value) ;
 
-constexpr ::UnityEngine::UI::____UnityEngine__UI__InputField__CharacterValidation __get_m_CharacterValidation() const;
+constexpr UnityEngine::UI::UnityEngine__UI__InputField__CharacterValidation __get_m_CharacterValidation() const;
 
  int32_t __declspec(property(get=__get_m_CharacterLimit, put=__set_m_CharacterLimit))  m_CharacterLimit;
 
@@ -1161,35 +1160,35 @@ constexpr void __set_m_CharacterLimit(int32_t value) ;
 
 constexpr int32_t __get_m_CharacterLimit() const;
 
- ::UnityEngine::UI::____UnityEngine__UI__InputField__SubmitEvent __declspec(property(get=__get_m_OnSubmit, put=__set_m_OnSubmit))  m_OnSubmit;
+ UnityEngine::UI::UnityEngine__UI__InputField__SubmitEvent __declspec(property(get=__get_m_OnSubmit, put=__set_m_OnSubmit))  m_OnSubmit;
 
-constexpr void __set_m_OnSubmit(::UnityEngine::UI::____UnityEngine__UI__InputField__SubmitEvent value) ;
+constexpr void __set_m_OnSubmit(UnityEngine::UI::UnityEngine__UI__InputField__SubmitEvent value) ;
 
-constexpr ::UnityEngine::UI::____UnityEngine__UI__InputField__SubmitEvent __get_m_OnSubmit() const;
+constexpr UnityEngine::UI::UnityEngine__UI__InputField__SubmitEvent __get_m_OnSubmit() const;
 
- ::UnityEngine::UI::____UnityEngine__UI__InputField__EndEditEvent __declspec(property(get=__get_m_OnDidEndEdit, put=__set_m_OnDidEndEdit))  m_OnDidEndEdit;
+ UnityEngine::UI::UnityEngine__UI__InputField__EndEditEvent __declspec(property(get=__get_m_OnDidEndEdit, put=__set_m_OnDidEndEdit))  m_OnDidEndEdit;
 
-constexpr void __set_m_OnDidEndEdit(::UnityEngine::UI::____UnityEngine__UI__InputField__EndEditEvent value) ;
+constexpr void __set_m_OnDidEndEdit(UnityEngine::UI::UnityEngine__UI__InputField__EndEditEvent value) ;
 
-constexpr ::UnityEngine::UI::____UnityEngine__UI__InputField__EndEditEvent __get_m_OnDidEndEdit() const;
+constexpr UnityEngine::UI::UnityEngine__UI__InputField__EndEditEvent __get_m_OnDidEndEdit() const;
 
- ::UnityEngine::UI::____UnityEngine__UI__InputField__OnChangeEvent __declspec(property(get=__get_m_OnValueChanged, put=__set_m_OnValueChanged))  m_OnValueChanged;
+ UnityEngine::UI::UnityEngine__UI__InputField__OnChangeEvent __declspec(property(get=__get_m_OnValueChanged, put=__set_m_OnValueChanged))  m_OnValueChanged;
 
-constexpr void __set_m_OnValueChanged(::UnityEngine::UI::____UnityEngine__UI__InputField__OnChangeEvent value) ;
+constexpr void __set_m_OnValueChanged(UnityEngine::UI::UnityEngine__UI__InputField__OnChangeEvent value) ;
 
-constexpr ::UnityEngine::UI::____UnityEngine__UI__InputField__OnChangeEvent __get_m_OnValueChanged() const;
+constexpr UnityEngine::UI::UnityEngine__UI__InputField__OnChangeEvent __get_m_OnValueChanged() const;
 
- ::UnityEngine::UI::____UnityEngine__UI__InputField__OnValidateInput __declspec(property(get=__get_m_OnValidateInput, put=__set_m_OnValidateInput))  m_OnValidateInput;
+ UnityEngine::UI::UnityEngine__UI__InputField__OnValidateInput __declspec(property(get=__get_m_OnValidateInput, put=__set_m_OnValidateInput))  m_OnValidateInput;
 
-constexpr void __set_m_OnValidateInput(::UnityEngine::UI::____UnityEngine__UI__InputField__OnValidateInput value) ;
+constexpr void __set_m_OnValidateInput(UnityEngine::UI::UnityEngine__UI__InputField__OnValidateInput value) ;
 
-constexpr ::UnityEngine::UI::____UnityEngine__UI__InputField__OnValidateInput __get_m_OnValidateInput() const;
+constexpr UnityEngine::UI::UnityEngine__UI__InputField__OnValidateInput __get_m_OnValidateInput() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_m_CaretColor, put=__set_m_CaretColor))  m_CaretColor;
+ UnityEngine::Color __declspec(property(get=__get_m_CaretColor, put=__set_m_CaretColor))  m_CaretColor;
 
-constexpr void __set_m_CaretColor(::UnityEngine::Color value) ;
+constexpr void __set_m_CaretColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_m_CaretColor() const;
+constexpr UnityEngine::Color __get_m_CaretColor() const;
 
  bool __declspec(property(get=__get_m_CustomCaretColor, put=__set_m_CustomCaretColor))  m_CustomCaretColor;
 
@@ -1197,11 +1196,11 @@ constexpr void __set_m_CustomCaretColor(bool value) ;
 
 constexpr bool __get_m_CustomCaretColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_m_SelectionColor, put=__set_m_SelectionColor))  m_SelectionColor;
+ UnityEngine::Color __declspec(property(get=__get_m_SelectionColor, put=__set_m_SelectionColor))  m_SelectionColor;
 
-constexpr void __set_m_SelectionColor(::UnityEngine::Color value) ;
+constexpr void __set_m_SelectionColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_m_SelectionColor() const;
+constexpr UnityEngine::Color __get_m_SelectionColor() const;
 
  ::StringW __declspec(property(get=__get_m_Text, put=__set_m_Text))  m_Text;
 
@@ -1245,29 +1244,29 @@ constexpr void __set_m_CaretSelectPosition(int32_t value) ;
 
 constexpr int32_t __get_m_CaretSelectPosition() const;
 
- ::UnityEngine::RectTransform __declspec(property(get=__get_caretRectTrans, put=__set_caretRectTrans))  caretRectTrans;
+ UnityEngine::RectTransform __declspec(property(get=__get_caretRectTrans, put=__set_caretRectTrans))  caretRectTrans;
 
-constexpr void __set_caretRectTrans(::UnityEngine::RectTransform value) ;
+constexpr void __set_caretRectTrans(UnityEngine::RectTransform value) ;
 
-constexpr ::UnityEngine::RectTransform __get_caretRectTrans() const;
+constexpr UnityEngine::RectTransform __get_caretRectTrans() const;
 
- ::ArrayW<::UnityEngine::UIVertex> __declspec(property(get=__get_m_CursorVerts, put=__set_m_CursorVerts))  m_CursorVerts;
+ ::ArrayW<UnityEngine::UIVertex> __declspec(property(get=__get_m_CursorVerts, put=__set_m_CursorVerts))  m_CursorVerts;
 
-constexpr void __set_m_CursorVerts(::ArrayW<::UnityEngine::UIVertex> value) ;
+constexpr void __set_m_CursorVerts(::ArrayW<UnityEngine::UIVertex> value) ;
 
-constexpr ::ArrayW<::UnityEngine::UIVertex> __get_m_CursorVerts() const;
+constexpr ::ArrayW<UnityEngine::UIVertex> __get_m_CursorVerts() const;
 
- ::UnityEngine::TextGenerator __declspec(property(get=__get_m_InputTextCache, put=__set_m_InputTextCache))  m_InputTextCache;
+ UnityEngine::TextGenerator __declspec(property(get=__get_m_InputTextCache, put=__set_m_InputTextCache))  m_InputTextCache;
 
-constexpr void __set_m_InputTextCache(::UnityEngine::TextGenerator value) ;
+constexpr void __set_m_InputTextCache(UnityEngine::TextGenerator value) ;
 
-constexpr ::UnityEngine::TextGenerator __get_m_InputTextCache() const;
+constexpr UnityEngine::TextGenerator __get_m_InputTextCache() const;
 
- ::UnityEngine::CanvasRenderer __declspec(property(get=__get_m_CachedInputRenderer, put=__set_m_CachedInputRenderer))  m_CachedInputRenderer;
+ UnityEngine::CanvasRenderer __declspec(property(get=__get_m_CachedInputRenderer, put=__set_m_CachedInputRenderer))  m_CachedInputRenderer;
 
-constexpr void __set_m_CachedInputRenderer(::UnityEngine::CanvasRenderer value) ;
+constexpr void __set_m_CachedInputRenderer(UnityEngine::CanvasRenderer value) ;
 
-constexpr ::UnityEngine::CanvasRenderer __get_m_CachedInputRenderer() const;
+constexpr UnityEngine::CanvasRenderer __get_m_CachedInputRenderer() const;
 
  bool __declspec(property(get=__get_m_PreventFontCallback, put=__set_m_PreventFontCallback))  m_PreventFontCallback;
 
@@ -1275,11 +1274,11 @@ constexpr void __set_m_PreventFontCallback(bool value) ;
 
 constexpr bool __get_m_PreventFontCallback() const;
 
- ::UnityEngine::Mesh __declspec(property(get=__get_m_Mesh, put=__set_m_Mesh))  m_Mesh;
+ UnityEngine::Mesh __declspec(property(get=__get_m_Mesh, put=__set_m_Mesh))  m_Mesh;
 
-constexpr void __set_m_Mesh(::UnityEngine::Mesh value) ;
+constexpr void __set_m_Mesh(UnityEngine::Mesh value) ;
 
-constexpr ::UnityEngine::Mesh __get_m_Mesh() const;
+constexpr UnityEngine::Mesh __get_m_Mesh() const;
 
  bool __declspec(property(get=__get_m_AllowInput, put=__set_m_AllowInput))  m_AllowInput;
 
@@ -1317,11 +1316,11 @@ constexpr void __set_m_CaretVisible(bool value) ;
 
 constexpr bool __get_m_CaretVisible() const;
 
- ::UnityEngine::Coroutine __declspec(property(get=__get_m_BlinkCoroutine, put=__set_m_BlinkCoroutine))  m_BlinkCoroutine;
+ UnityEngine::Coroutine __declspec(property(get=__get_m_BlinkCoroutine, put=__set_m_BlinkCoroutine))  m_BlinkCoroutine;
 
-constexpr void __set_m_BlinkCoroutine(::UnityEngine::Coroutine value) ;
+constexpr void __set_m_BlinkCoroutine(UnityEngine::Coroutine value) ;
 
-constexpr ::UnityEngine::Coroutine __get_m_BlinkCoroutine() const;
+constexpr UnityEngine::Coroutine __get_m_BlinkCoroutine() const;
 
  float_t __declspec(property(get=__get_m_BlinkStartTime, put=__set_m_BlinkStartTime))  m_BlinkStartTime;
 
@@ -1341,11 +1340,11 @@ constexpr void __set_m_DrawEnd(int32_t value) ;
 
 constexpr int32_t __get_m_DrawEnd() const;
 
- ::UnityEngine::Coroutine __declspec(property(get=__get_m_DragCoroutine, put=__set_m_DragCoroutine))  m_DragCoroutine;
+ UnityEngine::Coroutine __declspec(property(get=__get_m_DragCoroutine, put=__set_m_DragCoroutine))  m_DragCoroutine;
 
-constexpr void __set_m_DragCoroutine(::UnityEngine::Coroutine value) ;
+constexpr void __set_m_DragCoroutine(UnityEngine::Coroutine value) ;
 
-constexpr ::UnityEngine::Coroutine __get_m_DragCoroutine() const;
+constexpr UnityEngine::Coroutine __get_m_DragCoroutine() const;
 
  ::StringW __declspec(property(get=__get_m_OriginalText, put=__set_m_OriginalText))  m_OriginalText;
 
@@ -1365,11 +1364,11 @@ constexpr void __set_m_HasDoneFocusTransition(bool value) ;
 
 constexpr bool __get_m_HasDoneFocusTransition() const;
 
- ::UnityEngine::WaitForSecondsRealtime __declspec(property(get=__get_m_WaitForSecondsRealtime, put=__set_m_WaitForSecondsRealtime))  m_WaitForSecondsRealtime;
+ UnityEngine::WaitForSecondsRealtime __declspec(property(get=__get_m_WaitForSecondsRealtime, put=__set_m_WaitForSecondsRealtime))  m_WaitForSecondsRealtime;
 
-constexpr void __set_m_WaitForSecondsRealtime(::UnityEngine::WaitForSecondsRealtime value) ;
+constexpr void __set_m_WaitForSecondsRealtime(UnityEngine::WaitForSecondsRealtime value) ;
 
-constexpr ::UnityEngine::WaitForSecondsRealtime __get_m_WaitForSecondsRealtime() const;
+constexpr UnityEngine::WaitForSecondsRealtime __get_m_WaitForSecondsRealtime() const;
 
  bool __declspec(property(get=__get_m_TouchKeyboardAllowsInPlaceEditing, put=__set_m_TouchKeyboardAllowsInPlaceEditing))  m_TouchKeyboardAllowsInPlaceEditing;
 
@@ -1389,11 +1388,11 @@ static constexpr ::ConstString  kEmailSpecialCharacters{u"!#$%&\'*+-/=?^_`{|}~"}
 /// @brief Field kOculusQuestDeviceModel offset 0
 static constexpr ::ConstString  kOculusQuestDeviceModel{u"Oculus Quest"};
 
- ::UnityEngine::Event __declspec(property(get=__get_m_ProcessingEvent, put=__set_m_ProcessingEvent))  m_ProcessingEvent;
+ UnityEngine::Event __declspec(property(get=__get_m_ProcessingEvent, put=__set_m_ProcessingEvent))  m_ProcessingEvent;
 
-constexpr void __set_m_ProcessingEvent(::UnityEngine::Event value) ;
+constexpr void __set_m_ProcessingEvent(UnityEngine::Event value) ;
 
-constexpr ::UnityEngine::Event __get_m_ProcessingEvent() const;
+constexpr UnityEngine::Event __get_m_ProcessingEvent() const;
 
 /// @brief Field k_MaxTextLength offset 0
 static constexpr int32_t  k_MaxTextLength{16382};
@@ -1401,13 +1400,13 @@ static constexpr int32_t  k_MaxTextLength{16382};
 
 // Properties
 
- ::UnityEngine::EventSystems::BaseInput __declspec(property(get=get_input))  input;
+ UnityEngine::EventSystems::BaseInput __declspec(property(get=get_input))  input;
 
  ::StringW __declspec(property(get=get_compositionString))  compositionString;
 
- ::UnityEngine::Mesh __declspec(property(get=get_mesh))  mesh;
+ UnityEngine::Mesh __declspec(property(get=get_mesh))  mesh;
 
- ::UnityEngine::TextGenerator __declspec(property(get=get_cachedInputTextGenerator))  cachedInputTextGenerator;
+ UnityEngine::TextGenerator __declspec(property(get=get_cachedInputTextGenerator))  cachedInputTextGenerator;
 
  bool __declspec(property(get=get_shouldHideMobileInput, put=set_shouldHideMobileInput))  shouldHideMobileInput;
 
@@ -1421,39 +1420,39 @@ static constexpr int32_t  k_MaxTextLength{16382};
 
  int32_t __declspec(property(get=get_caretWidth, put=set_caretWidth))  caretWidth;
 
- ::UnityEngine::UI::Text __declspec(property(get=get_textComponent, put=set_textComponent))  textComponent;
+ UnityEngine::UI::Text __declspec(property(get=get_textComponent, put=set_textComponent))  textComponent;
 
- ::UnityEngine::UI::Graphic __declspec(property(get=get_placeholder, put=set_placeholder))  placeholder;
+ UnityEngine::UI::Graphic __declspec(property(get=get_placeholder, put=set_placeholder))  placeholder;
 
- ::UnityEngine::Color __declspec(property(get=get_caretColor, put=set_caretColor))  caretColor;
+ UnityEngine::Color __declspec(property(get=get_caretColor, put=set_caretColor))  caretColor;
 
  bool __declspec(property(get=get_customCaretColor, put=set_customCaretColor))  customCaretColor;
 
- ::UnityEngine::Color __declspec(property(get=get_selectionColor, put=set_selectionColor))  selectionColor;
+ UnityEngine::Color __declspec(property(get=get_selectionColor, put=set_selectionColor))  selectionColor;
 
- ::UnityEngine::UI::____UnityEngine__UI__InputField__EndEditEvent __declspec(property(get=get_onEndEdit, put=set_onEndEdit))  onEndEdit;
+ UnityEngine::UI::UnityEngine__UI__InputField__EndEditEvent __declspec(property(get=get_onEndEdit, put=set_onEndEdit))  onEndEdit;
 
- ::UnityEngine::UI::____UnityEngine__UI__InputField__SubmitEvent __declspec(property(get=get_onSubmit, put=set_onSubmit))  onSubmit;
+ UnityEngine::UI::UnityEngine__UI__InputField__SubmitEvent __declspec(property(get=get_onSubmit, put=set_onSubmit))  onSubmit;
 
- ::UnityEngine::UI::____UnityEngine__UI__InputField__OnChangeEvent __declspec(property(get=get_onValueChange, put=set_onValueChange))  onValueChange;
+ UnityEngine::UI::UnityEngine__UI__InputField__OnChangeEvent __declspec(property(get=get_onValueChange, put=set_onValueChange))  onValueChange;
 
- ::UnityEngine::UI::____UnityEngine__UI__InputField__OnChangeEvent __declspec(property(get=get_onValueChanged, put=set_onValueChanged))  onValueChanged;
+ UnityEngine::UI::UnityEngine__UI__InputField__OnChangeEvent __declspec(property(get=get_onValueChanged, put=set_onValueChanged))  onValueChanged;
 
- ::UnityEngine::UI::____UnityEngine__UI__InputField__OnValidateInput __declspec(property(get=get_onValidateInput, put=set_onValidateInput))  onValidateInput;
+ UnityEngine::UI::UnityEngine__UI__InputField__OnValidateInput __declspec(property(get=get_onValidateInput, put=set_onValidateInput))  onValidateInput;
 
  int32_t __declspec(property(get=get_characterLimit, put=set_characterLimit))  characterLimit;
 
- ::UnityEngine::UI::____UnityEngine__UI__InputField__ContentType __declspec(property(get=get_contentType, put=set_contentType))  contentType;
+ UnityEngine::UI::UnityEngine__UI__InputField__ContentType __declspec(property(get=get_contentType, put=set_contentType))  contentType;
 
- ::UnityEngine::UI::____UnityEngine__UI__InputField__LineType __declspec(property(get=get_lineType, put=set_lineType))  lineType;
+ UnityEngine::UI::UnityEngine__UI__InputField__LineType __declspec(property(get=get_lineType, put=set_lineType))  lineType;
 
- ::UnityEngine::UI::____UnityEngine__UI__InputField__InputType __declspec(property(get=get_inputType, put=set_inputType))  inputType;
+ UnityEngine::UI::UnityEngine__UI__InputField__InputType __declspec(property(get=get_inputType, put=set_inputType))  inputType;
 
- ::UnityEngine::TouchScreenKeyboard __declspec(property(get=get_touchScreenKeyboard))  touchScreenKeyboard;
+ UnityEngine::TouchScreenKeyboard __declspec(property(get=get_touchScreenKeyboard))  touchScreenKeyboard;
 
- ::UnityEngine::TouchScreenKeyboardType __declspec(property(get=get_keyboardType, put=set_keyboardType))  keyboardType;
+ UnityEngine::TouchScreenKeyboardType __declspec(property(get=get_keyboardType, put=set_keyboardType))  keyboardType;
 
- ::UnityEngine::UI::____UnityEngine__UI__InputField__CharacterValidation __declspec(property(get=get_characterValidation, put=set_characterValidation))  characterValidation;
+ UnityEngine::UI::UnityEngine__UI__InputField__CharacterValidation __declspec(property(get=get_characterValidation, put=set_characterValidation))  characterValidation;
 
  bool __declspec(property(get=get_readOnly, put=set_readOnly))  readOnly;
 
@@ -1495,7 +1494,7 @@ static ::StringW __declspec(property(get=get_clipboard, put=set_clipboard))  cli
 // Methods
 
 /// @brief Method get_input addr 0x2bf01a8 size 0x110 virtual false final false
- ::UnityEngine::EventSystems::BaseInput get_input() ;
+ UnityEngine::EventSystems::BaseInput get_input() ;
 
 /// @brief Method get_compositionString addr 0x2bf02b8 size 0x94 virtual false final false
  ::StringW get_compositionString() ;
@@ -1507,10 +1506,10 @@ explicit InputField() ;
  void _ctor() ;
 
 /// @brief Method get_mesh addr 0x2bf0650 size 0xa8 virtual false final false
- ::UnityEngine::Mesh get_mesh() ;
+ UnityEngine::Mesh get_mesh() ;
 
 /// @brief Method get_cachedInputTextGenerator addr 0x2bf06f8 size 0x6c virtual false final false
- ::UnityEngine::TextGenerator get_cachedInputTextGenerator() ;
+ UnityEngine::TextGenerator get_cachedInputTextGenerator() ;
 
 /// @brief Method set_shouldHideMobileInput addr 0x2bf0764 size 0x58 virtual false final false
  void set_shouldHideMobileInput(bool value) ;
@@ -1552,22 +1551,22 @@ explicit InputField() ;
  void set_caretWidth(int32_t value) ;
 
 /// @brief Method get_textComponent addr 0x2bf1288 size 0x8 virtual false final false
- ::UnityEngine::UI::Text get_textComponent() ;
+ UnityEngine::UI::Text get_textComponent() ;
 
 /// @brief Method set_textComponent addr 0x2bf1290 size 0x2a4 virtual false final false
- void set_textComponent(::UnityEngine::UI::Text value) ;
+ void set_textComponent(UnityEngine::UI::Text value) ;
 
 /// @brief Method get_placeholder addr 0x2bf1534 size 0x8 virtual false final false
- ::UnityEngine::UI::Graphic get_placeholder() ;
+ UnityEngine::UI::Graphic get_placeholder() ;
 
 /// @brief Method set_placeholder addr 0x2bf153c size 0x58 virtual false final false
- void set_placeholder(::UnityEngine::UI::Graphic value) ;
+ void set_placeholder(UnityEngine::UI::Graphic value) ;
 
 /// @brief Method get_caretColor addr 0x2bf1594 size 0x44 virtual false final false
- ::UnityEngine::Color get_caretColor() ;
+ UnityEngine::Color get_caretColor() ;
 
 /// @brief Method set_caretColor addr 0x2bf15d8 size 0x2c virtual false final false
- void set_caretColor(::UnityEngine::Color value) ;
+ void set_caretColor(UnityEngine::Color value) ;
 
 /// @brief Method get_customCaretColor addr 0x2bf1604 size 0x8 virtual false final false
  bool get_customCaretColor() ;
@@ -1576,40 +1575,40 @@ explicit InputField() ;
  void set_customCaretColor(bool value) ;
 
 /// @brief Method get_selectionColor addr 0x2bf1628 size 0x14 virtual false final false
- ::UnityEngine::Color get_selectionColor() ;
+ UnityEngine::Color get_selectionColor() ;
 
 /// @brief Method set_selectionColor addr 0x2bf163c size 0x2c virtual false final false
- void set_selectionColor(::UnityEngine::Color value) ;
+ void set_selectionColor(UnityEngine::Color value) ;
 
 /// @brief Method get_onEndEdit addr 0x2bf1668 size 0x8 virtual false final false
- ::UnityEngine::UI::____UnityEngine__UI__InputField__EndEditEvent get_onEndEdit() ;
+ UnityEngine::UI::UnityEngine__UI__InputField__EndEditEvent get_onEndEdit() ;
 
 /// @brief Method set_onEndEdit addr 0x2bf1670 size 0x58 virtual false final false
- void set_onEndEdit(::UnityEngine::UI::____UnityEngine__UI__InputField__EndEditEvent value) ;
+ void set_onEndEdit(UnityEngine::UI::UnityEngine__UI__InputField__EndEditEvent value) ;
 
 /// @brief Method get_onSubmit addr 0x2bf16c8 size 0x8 virtual false final false
- ::UnityEngine::UI::____UnityEngine__UI__InputField__SubmitEvent get_onSubmit() ;
+ UnityEngine::UI::UnityEngine__UI__InputField__SubmitEvent get_onSubmit() ;
 
 /// @brief Method set_onSubmit addr 0x2bf16d0 size 0x58 virtual false final false
- void set_onSubmit(::UnityEngine::UI::____UnityEngine__UI__InputField__SubmitEvent value) ;
+ void set_onSubmit(UnityEngine::UI::UnityEngine__UI__InputField__SubmitEvent value) ;
 
 /// @brief Method get_onValueChange addr 0x2bf1728 size 0x8 virtual false final false
- ::UnityEngine::UI::____UnityEngine__UI__InputField__OnChangeEvent get_onValueChange() ;
+ UnityEngine::UI::UnityEngine__UI__InputField__OnChangeEvent get_onValueChange() ;
 
 /// @brief Method set_onValueChange addr 0x2bf1730 size 0x4 virtual false final false
- void set_onValueChange(::UnityEngine::UI::____UnityEngine__UI__InputField__OnChangeEvent value) ;
+ void set_onValueChange(UnityEngine::UI::UnityEngine__UI__InputField__OnChangeEvent value) ;
 
 /// @brief Method get_onValueChanged addr 0x2bf178c size 0x8 virtual false final false
- ::UnityEngine::UI::____UnityEngine__UI__InputField__OnChangeEvent get_onValueChanged() ;
+ UnityEngine::UI::UnityEngine__UI__InputField__OnChangeEvent get_onValueChanged() ;
 
 /// @brief Method set_onValueChanged addr 0x2bf1734 size 0x58 virtual false final false
- void set_onValueChanged(::UnityEngine::UI::____UnityEngine__UI__InputField__OnChangeEvent value) ;
+ void set_onValueChanged(UnityEngine::UI::UnityEngine__UI__InputField__OnChangeEvent value) ;
 
 /// @brief Method get_onValidateInput addr 0x2bf1794 size 0x8 virtual false final false
- ::UnityEngine::UI::____UnityEngine__UI__InputField__OnValidateInput get_onValidateInput() ;
+ UnityEngine::UI::UnityEngine__UI__InputField__OnValidateInput get_onValidateInput() ;
 
 /// @brief Method set_onValidateInput addr 0x2bf179c size 0x58 virtual false final false
- void set_onValidateInput(::UnityEngine::UI::____UnityEngine__UI__InputField__OnValidateInput value) ;
+ void set_onValidateInput(UnityEngine::UI::UnityEngine__UI__InputField__OnValidateInput value) ;
 
 /// @brief Method get_characterLimit addr 0x2bf17f4 size 0x8 virtual false final false
  int32_t get_characterLimit() ;
@@ -1618,37 +1617,37 @@ explicit InputField() ;
  void set_characterLimit(int32_t value) ;
 
 /// @brief Method get_contentType addr 0x2bf18bc size 0x8 virtual false final false
- ::UnityEngine::UI::____UnityEngine__UI__InputField__ContentType get_contentType() ;
+ UnityEngine::UI::UnityEngine__UI__InputField__ContentType get_contentType() ;
 
 /// @brief Method set_contentType addr 0x2bf18c4 size 0x74 virtual false final false
- void set_contentType(::UnityEngine::UI::____UnityEngine__UI__InputField__ContentType value) ;
+ void set_contentType(UnityEngine::UI::UnityEngine__UI__InputField__ContentType value) ;
 
 /// @brief Method get_lineType addr 0x2bf19f4 size 0x8 virtual false final false
- ::UnityEngine::UI::____UnityEngine__UI__InputField__LineType get_lineType() ;
+ UnityEngine::UI::UnityEngine__UI__InputField__LineType get_lineType() ;
 
 /// @brief Method set_lineType addr 0x2bf19fc size 0xc0 virtual false final false
- void set_lineType(::UnityEngine::UI::____UnityEngine__UI__InputField__LineType value) ;
+ void set_lineType(UnityEngine::UI::UnityEngine__UI__InputField__LineType value) ;
 
 /// @brief Method get_inputType addr 0x2bf1b14 size 0x8 virtual false final false
- ::UnityEngine::UI::____UnityEngine__UI__InputField__InputType get_inputType() ;
+ UnityEngine::UI::UnityEngine__UI__InputField__InputType get_inputType() ;
 
 /// @brief Method set_inputType addr 0x2bf1b1c size 0x84 virtual false final false
- void set_inputType(::UnityEngine::UI::____UnityEngine__UI__InputField__InputType value) ;
+ void set_inputType(UnityEngine::UI::UnityEngine__UI__InputField__InputType value) ;
 
 /// @brief Method get_touchScreenKeyboard addr 0x2bf1bb8 size 0x8 virtual false final false
- ::UnityEngine::TouchScreenKeyboard get_touchScreenKeyboard() ;
+ UnityEngine::TouchScreenKeyboard get_touchScreenKeyboard() ;
 
 /// @brief Method get_keyboardType addr 0x2bf1bc0 size 0x8 virtual false final false
- ::UnityEngine::TouchScreenKeyboardType get_keyboardType() ;
+ UnityEngine::TouchScreenKeyboardType get_keyboardType() ;
 
 /// @brief Method set_keyboardType addr 0x2bf1bc8 size 0x84 virtual false final false
- void set_keyboardType(::UnityEngine::TouchScreenKeyboardType value) ;
+ void set_keyboardType(UnityEngine::TouchScreenKeyboardType value) ;
 
 /// @brief Method get_characterValidation addr 0x2bf1c4c size 0x8 virtual false final false
- ::UnityEngine::UI::____UnityEngine__UI__InputField__CharacterValidation get_characterValidation() ;
+ UnityEngine::UI::UnityEngine__UI__InputField__CharacterValidation get_characterValidation() ;
 
 /// @brief Method set_characterValidation addr 0x2bf1c54 size 0x84 virtual false final false
- void set_characterValidation(::UnityEngine::UI::____UnityEngine__UI__InputField__CharacterValidation value) ;
+ void set_characterValidation(UnityEngine::UI::UnityEngine__UI__InputField__CharacterValidation value) ;
 
 /// @brief Method get_readOnly addr 0x2bf1cd8 size 0x8 virtual false final false
  bool get_readOnly() ;
@@ -1717,7 +1716,7 @@ explicit InputField() ;
  void OnDestroy() ;
 
 /// @brief Method CaretBlink addr 0x2bf2730 size 0x68 virtual false final false
- ::System::Collections::IEnumerator CaretBlink() ;
+ System::Collections::IEnumerator CaretBlink() ;
 
 /// @brief Method SetCaretVisible addr 0x2bf27c0 size 0x38 virtual false final false
  void SetCaretVisible() ;
@@ -1762,43 +1761,43 @@ static void set_clipboard(::StringW value) ;
  void LateUpdate() ;
 
 /// @brief Method ScreenToLocal addr 0x2bf422c size 0x270 virtual false final false
- ::UnityEngine::Vector2 ScreenToLocal(::UnityEngine::Vector2 screen) ;
+ UnityEngine::Vector2 ScreenToLocal(UnityEngine::Vector2 screen) ;
 
 /// @brief Method GetUnclampedCharacterLineFromPosition addr 0x2bf449c size 0x210 virtual false final false
- int32_t GetUnclampedCharacterLineFromPosition(::UnityEngine::Vector2 pos, ::UnityEngine::TextGenerator generator) ;
+ int32_t GetUnclampedCharacterLineFromPosition(UnityEngine::Vector2 pos, UnityEngine::TextGenerator generator) ;
 
 /// @brief Method GetCharacterIndexFromPosition addr 0x2bf46ac size 0x294 virtual false final false
- int32_t GetCharacterIndexFromPosition(::UnityEngine::Vector2 pos) ;
+ int32_t GetCharacterIndexFromPosition(UnityEngine::Vector2 pos) ;
 
 /// @brief Method MayDrag addr 0x2bf4aa4 size 0xd8 virtual false final false
- bool MayDrag(::UnityEngine::EventSystems::PointerEventData eventData) ;
+ bool MayDrag(UnityEngine::EventSystems::PointerEventData eventData) ;
 
 /// @brief Method OnBeginDrag addr 0x2bf4b7c size 0x20 virtual true final false
- void OnBeginDrag(::UnityEngine::EventSystems::PointerEventData eventData) ;
+ void OnBeginDrag(UnityEngine::EventSystems::PointerEventData eventData) ;
 
 /// @brief Method OnDrag addr 0x2bf4b9c size 0x1e8 virtual true final false
- void OnDrag(::UnityEngine::EventSystems::PointerEventData eventData) ;
+ void OnDrag(UnityEngine::EventSystems::PointerEventData eventData) ;
 
 /// @brief Method MouseDragOutsideRect addr 0x2bf4d84 size 0x74 virtual false final false
- ::System::Collections::IEnumerator MouseDragOutsideRect(::UnityEngine::EventSystems::PointerEventData eventData) ;
+ System::Collections::IEnumerator MouseDragOutsideRect(UnityEngine::EventSystems::PointerEventData eventData) ;
 
 /// @brief Method OnEndDrag addr 0x2bf4e20 size 0x1c virtual true final false
- void OnEndDrag(::UnityEngine::EventSystems::PointerEventData eventData) ;
+ void OnEndDrag(UnityEngine::EventSystems::PointerEventData eventData) ;
 
 /// @brief Method OnPointerDown addr 0x2bf4e3c size 0x1f0 virtual true final false
- void OnPointerDown(::UnityEngine::EventSystems::PointerEventData eventData) ;
+ void OnPointerDown(UnityEngine::EventSystems::PointerEventData eventData) ;
 
 /// @brief Method KeyPressed addr 0x2bf502c size 0x3d8 virtual false final false
- ::UnityEngine::UI::____UnityEngine__UI__InputField__EditState KeyPressed(::UnityEngine::Event evt) ;
+ UnityEngine::UI::UnityEngine__UI__InputField__EditState KeyPressed(UnityEngine::Event evt) ;
 
 /// @brief Method IsValidChar addr 0x2bf5ac0 size 0x70 virtual false final false
  bool IsValidChar(char16_t c) ;
 
 /// @brief Method ProcessEvent addr 0x2bf5b30 size 0x4 virtual false final false
- void ProcessEvent(::UnityEngine::Event e) ;
+ void ProcessEvent(UnityEngine::Event e) ;
 
 /// @brief Method OnUpdateSelected addr 0x2bf5b34 size 0x188 virtual true final false
- void OnUpdateSelected(::UnityEngine::EventSystems::BaseEventData eventData) ;
+ void OnUpdateSelected(UnityEngine::EventSystems::BaseEventData eventData) ;
 
 /// @brief Method GetSelectedString addr 0x2bf55ac size 0xa8 virtual false final false
  ::StringW GetSelectedString() ;
@@ -1816,7 +1815,7 @@ static void set_clipboard(::StringW value) ;
  void MoveLeft(bool shift, bool ctrl) ;
 
 /// @brief Method DetermineCharacterLine addr 0x2bf5e18 size 0x110 virtual false final false
- int32_t DetermineCharacterLine(int32_t charPos, ::UnityEngine::TextGenerator generator) ;
+ int32_t DetermineCharacterLine(int32_t charPos, UnityEngine::TextGenerator generator) ;
 
 /// @brief Method LineUpCharacterPosition addr 0x2bf5f28 size 0x358 virtual false final false
  int32_t LineUpCharacterPosition(int32_t originalPos, bool goToFirstChar) ;
@@ -1876,10 +1875,10 @@ static void set_clipboard(::StringW value) ;
  bool IsSelectionVisible() ;
 
 /// @brief Method GetLineStartPosition addr 0x2bf77bc size 0x150 virtual false final false
-static int32_t GetLineStartPosition(::UnityEngine::TextGenerator gen, int32_t line) ;
+static int32_t GetLineStartPosition(UnityEngine::TextGenerator gen, int32_t line) ;
 
 /// @brief Method GetLineEndPosition addr 0x2bf4940 size 0x164 virtual false final false
-static int32_t GetLineEndPosition(::UnityEngine::TextGenerator gen, int32_t line) ;
+static int32_t GetLineEndPosition(UnityEngine::TextGenerator gen, int32_t line) ;
 
 /// @brief Method SetDrawRangeToContainCaretPosition addr 0x2bf6c34 size 0xb1c virtual false final false
  void SetDrawRangeToContainCaretPosition(int32_t caretPos) ;
@@ -1891,7 +1890,7 @@ static int32_t GetLineEndPosition(::UnityEngine::TextGenerator gen, int32_t line
  void MarkGeometryAsDirty() ;
 
 /// @brief Method Rebuild addr 0x2bf7910 size 0x10 virtual true final false
- void Rebuild(::UnityEngine::UI::CanvasUpdate update) ;
+ void Rebuild(UnityEngine::UI::CanvasUpdate update) ;
 
 /// @brief Method LayoutComplete addr 0x2bf7d70 size 0x4 virtual true final false
  void LayoutComplete() ;
@@ -1906,16 +1905,16 @@ static int32_t GetLineEndPosition(::UnityEngine::TextGenerator gen, int32_t line
  void AssignPositioningIfNeeded() ;
 
 /// @brief Method OnFillVBO addr 0x2bf7d78 size 0x278 virtual false final false
- void OnFillVBO(::UnityEngine::Mesh vbo) ;
+ void OnFillVBO(UnityEngine::Mesh vbo) ;
 
 /// @brief Method GenerateCaret addr 0x2bf7ff0 size 0x9d4 virtual false final false
- void GenerateCaret(::UnityEngine::UI::VertexHelper vbo, ::UnityEngine::Vector2 roundingOffset) ;
+ void GenerateCaret(UnityEngine::UI::VertexHelper vbo, UnityEngine::Vector2 roundingOffset) ;
 
 /// @brief Method CreateCursorVerts addr 0x2bf9420 size 0x150 virtual false final false
  void CreateCursorVerts() ;
 
 /// @brief Method GenerateHighlight addr 0x2bf89c4 size 0xa5c virtual false final false
- void GenerateHighlight(::UnityEngine::UI::VertexHelper vbo, ::UnityEngine::Vector2 roundingOffset) ;
+ void GenerateHighlight(UnityEngine::UI::VertexHelper vbo, UnityEngine::Vector2 roundingOffset) ;
 
 /// @brief Method Validate addr 0x2bf3b40 size 0x6d4 virtual false final false
  char16_t Validate(::StringW text, int32_t pos, char16_t ch) ;
@@ -1927,19 +1926,19 @@ static int32_t GetLineEndPosition(::UnityEngine::TextGenerator gen, int32_t line
  void ActivateInputFieldInternal() ;
 
 /// @brief Method OnSelect addr 0x2bf9690 size 0x3c virtual true final false
- void OnSelect(::UnityEngine::EventSystems::BaseEventData eventData) ;
+ void OnSelect(UnityEngine::EventSystems::BaseEventData eventData) ;
 
 /// @brief Method OnPointerClick addr 0x2bf96cc size 0x24 virtual true final false
- void OnPointerClick(::UnityEngine::EventSystems::PointerEventData eventData) ;
+ void OnPointerClick(UnityEngine::EventSystems::PointerEventData eventData) ;
 
 /// @brief Method DeactivateInputField addr 0x2bf2550 size 0x17c virtual false final false
  void DeactivateInputField() ;
 
 /// @brief Method OnDeselect addr 0x2bf96f0 size 0x2c virtual true final false
- void OnDeselect(::UnityEngine::EventSystems::BaseEventData eventData) ;
+ void OnDeselect(UnityEngine::EventSystems::BaseEventData eventData) ;
 
 /// @brief Method OnSubmit addr 0x2bf971c size 0x48 virtual true final false
- void OnSubmit(::UnityEngine::EventSystems::BaseEventData eventData) ;
+ void OnSubmit(UnityEngine::EventSystems::BaseEventData eventData) ;
 
 /// @brief Method EnforceContentType addr 0x2bf1938 size 0xbc virtual false final false
  void EnforceContentType() ;
@@ -1948,13 +1947,13 @@ static int32_t GetLineEndPosition(::UnityEngine::TextGenerator gen, int32_t line
  void EnforceTextHOverflow() ;
 
 /// @brief Method SetToCustomIfContentTypeIsNot addr 0x2bf1abc size 0x58 virtual false final false
- void SetToCustomIfContentTypeIsNot(::ArrayW<::UnityEngine::UI::____UnityEngine__UI__InputField__ContentType> allowedContentTypes) ;
+ void SetToCustomIfContentTypeIsNot(::ArrayW<UnityEngine::UI::UnityEngine__UI__InputField__ContentType> allowedContentTypes) ;
 
 /// @brief Method SetToCustom addr 0x2bf1ba0 size 0x18 virtual false final false
  void SetToCustom() ;
 
 /// @brief Method DoStateTransition addr 0x2bf9764 size 0x2c virtual true final false
- void DoStateTransition(::UnityEngine::UI::____UnityEngine__UI__Selectable__SelectionState state, bool instant) ;
+ void DoStateTransition(UnityEngine::UI::UnityEngine__UI__Selectable__SelectionState state, bool instant) ;
 
 /// @brief Method CalculateLayoutInputHorizontal addr 0x2bf9790 size 0x4 virtual true final false
  void CalculateLayoutInputHorizontal() ;
@@ -1984,29 +1983,28 @@ static int32_t GetLineEndPosition(::UnityEngine::TextGenerator gen, int32_t line
  int32_t get_layoutPriority() ;
 
 /// @brief Method UnityEngine.UI.ICanvasElement.get_transform addr 0x2bf9b18 size 0x8 virtual true final true
- ::UnityEngine::Transform UnityEngine_UI_ICanvasElement_get_transform() ;
+ UnityEngine::Transform UnityEngine_UI_ICanvasElement_get_transform() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UI
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::____UnityEngine__UI__InputField__CharacterValidation, "UnityEngine.UI", "InputField/CharacterValidation");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::____UnityEngine__UI__InputField__ContentType, "UnityEngine.UI", "InputField/ContentType");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::____UnityEngine__UI__InputField__EditState, "UnityEngine.UI", "InputField/EditState");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::____UnityEngine__UI__InputField__InputType, "UnityEngine.UI", "InputField/InputType");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::____UnityEngine__UI__InputField__LineType, "UnityEngine.UI", "InputField/LineType");
-NEED_NO_BOX(::UnityEngine::UI::InputField);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::InputField, "UnityEngine.UI", "InputField");
-NEED_NO_BOX(::UnityEngine::UI::____UnityEngine__UI__InputField__EndEditEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::____UnityEngine__UI__InputField__EndEditEvent, "UnityEngine.UI", "InputField/EndEditEvent");
-NEED_NO_BOX(::UnityEngine::UI::____UnityEngine__UI__InputField__OnChangeEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::____UnityEngine__UI__InputField__OnChangeEvent, "UnityEngine.UI", "InputField/OnChangeEvent");
-NEED_NO_BOX(::UnityEngine::UI::____UnityEngine__UI__InputField__OnValidateInput);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::____UnityEngine__UI__InputField__OnValidateInput, "UnityEngine.UI", "InputField/OnValidateInput");
-NEED_NO_BOX(::UnityEngine::UI::____UnityEngine__UI__InputField__SubmitEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::____UnityEngine__UI__InputField__SubmitEvent, "UnityEngine.UI", "InputField/SubmitEvent");
-NEED_NO_BOX(::UnityEngine::UI::____UnityEngine__UI__InputField___CaretBlink_d__172);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::____UnityEngine__UI__InputField___CaretBlink_d__172, "UnityEngine.UI", "InputField/<CaretBlink>d__172");
-NEED_NO_BOX(::UnityEngine::UI::____UnityEngine__UI__InputField___MouseDragOutsideRect_d__194);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::____UnityEngine__UI__InputField___MouseDragOutsideRect_d__194, "UnityEngine.UI", "InputField/<MouseDragOutsideRect>d__194");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::UnityEngine__UI__InputField__CharacterValidation, "UnityEngine.UI", "InputField/CharacterValidation");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::UnityEngine__UI__InputField__ContentType, "UnityEngine.UI", "InputField/ContentType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::UnityEngine__UI__InputField__EditState, "UnityEngine.UI", "InputField/EditState");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::UnityEngine__UI__InputField__InputType, "UnityEngine.UI", "InputField/InputType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::UnityEngine__UI__InputField__LineType, "UnityEngine.UI", "InputField/LineType");
+NEED_NO_BOX(UnityEngine::UI::InputField);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField, "UnityEngine.UI", "InputField");
+NEED_NO_BOX(UnityEngine::UI::UnityEngine__UI__InputField__EndEditEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::UnityEngine__UI__InputField__EndEditEvent, "UnityEngine.UI", "InputField/EndEditEvent");
+NEED_NO_BOX(UnityEngine::UI::UnityEngine__UI__InputField__OnChangeEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::UnityEngine__UI__InputField__OnChangeEvent, "UnityEngine.UI", "InputField/OnChangeEvent");
+NEED_NO_BOX(UnityEngine::UI::UnityEngine__UI__InputField__OnValidateInput);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::UnityEngine__UI__InputField__OnValidateInput, "UnityEngine.UI", "InputField/OnValidateInput");
+NEED_NO_BOX(UnityEngine::UI::UnityEngine__UI__InputField__SubmitEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::UnityEngine__UI__InputField__SubmitEvent, "UnityEngine.UI", "InputField/SubmitEvent");
+NEED_NO_BOX(UnityEngine::UI::UnityEngine__UI__InputField___CaretBlink_d__172);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::UnityEngine__UI__InputField___CaretBlink_d__172, "UnityEngine.UI", "InputField/<CaretBlink>d__172");
+NEED_NO_BOX(UnityEngine::UI::UnityEngine__UI__InputField___MouseDragOutsideRect_d__194);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::UnityEngine__UI__InputField___MouseDragOutsideRect_d__194, "UnityEngine.UI", "InputField/<MouseDragOutsideRect>d__194");

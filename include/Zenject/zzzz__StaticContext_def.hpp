@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Zenject {
 class DiContainer;
 }
@@ -51,18 +50,18 @@ constexpr explicit StaticContext(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 
 // Fields
 
-static ::Zenject::DiContainer __declspec(property(get=__get__container, put=__set__container))  _container;
+static Zenject::DiContainer __declspec(property(get=__get__container, put=__set__container))  _container;
 
-static void __set__container(::Zenject::DiContainer value) ;
+static void __set__container(Zenject::DiContainer value) ;
 
-static ::Zenject::DiContainer __get__container() ;
+static Zenject::DiContainer __get__container() ;
 
 
 // Properties
 
 static bool __declspec(property(get=get_HasContainer))  HasContainer;
 
-static ::Zenject::DiContainer __declspec(property(get=get_Container))  Container;
+static Zenject::DiContainer __declspec(property(get=get_Container))  Container;
 
 
 // Methods
@@ -74,12 +73,11 @@ static void Clear() ;
 static bool get_HasContainer() ;
 
 /// @brief Method get_Container addr 0x2d76e50 size 0x90 virtual false final false
-static ::Zenject::DiContainer get_Container() ;
+static Zenject::DiContainer get_Container() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::StaticContext);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::StaticContext, "Zenject", "StaticContext");
+NEED_NO_BOX(Zenject::StaticContext);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::StaticContext, "Zenject", "StaticContext");

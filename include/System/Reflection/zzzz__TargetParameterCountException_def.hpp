@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__ApplicationException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
@@ -19,7 +18,7 @@ namespace System::Reflection {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2343))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3491))
 // CS Name: System.Reflection.TargetParameterCountException
-class CORDL_TYPE TargetParameterCountException : public ::System::ApplicationException {
+class CORDL_TYPE TargetParameterCountException : public System::ApplicationException {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr TargetParameterCountException(TargetParameterCountException const& ) n
 constexpr TargetParameterCountException(TargetParameterCountException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TargetParameterCountException(void* ptr) noexcept : ::System::ApplicationException(ptr) {
+constexpr explicit TargetParameterCountException(void* ptr) noexcept : System::ApplicationException(ptr) {
 }
 
 
@@ -67,16 +66,15 @@ explicit TargetParameterCountException(::StringW message) ;
 /// @brief Method .ctor addr 0x237f5dc size 0x24 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit TargetParameterCountException(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit TargetParameterCountException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x237f600 size 0x8 virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Reflection
-} // end anonymous namespace
-NEED_NO_BOX(::System::Reflection::TargetParameterCountException);
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::TargetParameterCountException, "System.Reflection", "TargetParameterCountException");
+NEED_NO_BOX(System::Reflection::TargetParameterCountException);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::TargetParameterCountException, "System.Reflection", "TargetParameterCountException");

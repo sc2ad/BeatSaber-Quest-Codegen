@@ -3,18 +3,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
+namespace UnityEngine {
+struct Vector4;
+}
+namespace UnityEngine {
+class MaterialPropertyBlock;
+}
 namespace UnityEngine::UIElements {
 struct TextureId;
 }
 namespace UnityEngine::UIElements {
 class TextureRegistry;
-}
-namespace UnityEngine {
-class MaterialPropertyBlock;
-}
-namespace UnityEngine {
-struct Vector4;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -80,11 +79,11 @@ static void __set_textureTableId(int32_t value) ;
 
 static int32_t __get_textureTableId() ;
 
- ::ArrayW<::UnityEngine::UIElements::TextureId> __declspec(property(get=__get_m_Textures, put=__set_m_Textures))  m_Textures;
+ ::ArrayW<UnityEngine::UIElements::TextureId> __declspec(property(get=__get_m_Textures, put=__set_m_Textures))  m_Textures;
 
-constexpr void __set_m_Textures(::ArrayW<::UnityEngine::UIElements::TextureId> value) ;
+constexpr void __set_m_Textures(::ArrayW<UnityEngine::UIElements::TextureId> value) ;
 
-constexpr ::ArrayW<::UnityEngine::UIElements::TextureId> __get_m_Textures() const;
+constexpr ::ArrayW<UnityEngine::UIElements::TextureId> __get_m_Textures() const;
 
  ::ArrayW<int32_t> __declspec(property(get=__get_m_Tickets, put=__set_m_Tickets))  m_Tickets;
 
@@ -104,11 +103,11 @@ constexpr void __set_m_FirstUsedTicket(int32_t value) ;
 
 constexpr int32_t __get_m_FirstUsedTicket() const;
 
- ::ArrayW<::UnityEngine::Vector4> __declspec(property(get=__get_m_GpuTextures, put=__set_m_GpuTextures))  m_GpuTextures;
+ ::ArrayW<UnityEngine::Vector4> __declspec(property(get=__get_m_GpuTextures, put=__set_m_GpuTextures))  m_GpuTextures;
 
-constexpr void __set_m_GpuTextures(::ArrayW<::UnityEngine::Vector4> value) ;
+constexpr void __set_m_GpuTextures(::ArrayW<UnityEngine::Vector4> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector4> __get_m_GpuTextures() const;
+constexpr ::ArrayW<UnityEngine::Vector4> __get_m_GpuTextures() const;
 
  int32_t __declspec(property(get=__get__FreeSlots_k__BackingField, put=__set__FreeSlots_k__BackingField))  _FreeSlots_k__BackingField;
 
@@ -116,11 +115,11 @@ constexpr void __set__FreeSlots_k__BackingField(int32_t value) ;
 
 constexpr int32_t __get__FreeSlots_k__BackingField() const;
 
- ::UnityEngine::UIElements::TextureRegistry __declspec(property(get=__get_textureRegistry, put=__set_textureRegistry))  textureRegistry;
+ UnityEngine::UIElements::TextureRegistry __declspec(property(get=__get_textureRegistry, put=__set_textureRegistry))  textureRegistry;
 
-constexpr void __set_textureRegistry(::UnityEngine::UIElements::TextureRegistry value) ;
+constexpr void __set_textureRegistry(UnityEngine::UIElements::TextureRegistry value) ;
 
-constexpr ::UnityEngine::UIElements::TextureRegistry __get_textureRegistry() const;
+constexpr UnityEngine::UIElements::TextureRegistry __get_textureRegistry() const;
 
 
 // Properties
@@ -143,7 +142,7 @@ explicit TextureSlotManager() ;
  void StartNewBatch() ;
 
 /// @brief Method IndexOf addr 0x2d23140 size 0xd4 virtual false final false
- int32_t IndexOf(::UnityEngine::UIElements::TextureId id) ;
+ int32_t IndexOf(UnityEngine::UIElements::TextureId id) ;
 
 /// @brief Method MarkUsed addr 0x2d23214 size 0x58 virtual false final false
  void MarkUsed(int32_t slotIndex) ;
@@ -158,12 +157,11 @@ explicit TextureSlotManager() ;
  int32_t FindOldestSlot() ;
 
 /// @brief Method Bind addr 0x2d2334c size 0x218 virtual false final false
- void Bind(::UnityEngine::UIElements::TextureId id, int32_t slot, ::UnityEngine::MaterialPropertyBlock mat) ;
+ void Bind(UnityEngine::UIElements::TextureId id, int32_t slot, UnityEngine::MaterialPropertyBlock mat) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::UIR
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::UIR::TextureSlotManager);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::TextureSlotManager, "UnityEngine.UIElements.UIR", "TextureSlotManager");
+NEED_NO_BOX(UnityEngine::UIElements::UIR::TextureSlotManager);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::TextureSlotManager, "UnityEngine.UIElements.UIR", "TextureSlotManager");

@@ -3,30 +3,29 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-class MaterialPropertyBlockController;
-}
-namespace GlobalNamespace {
-class ColorSO;
-}
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
-}
-namespace GlobalNamespace {
-class BloomPrePassBackgroundNonLightRenderer;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace GlobalNamespace {
-class LightColorBeatmapEventData;
 }
 namespace GlobalNamespace {
 class LightWithIdManager;
 }
 namespace GlobalNamespace {
+class MaterialPropertyBlockController;
+}
+namespace GlobalNamespace {
+class LightColorBeatmapEventData;
+}
+namespace GlobalNamespace {
+class ColorSO;
+}
+namespace GlobalNamespace {
+class BloomPrePassBackgroundNonLightRenderer;
+}
+namespace GlobalNamespace {
 class BeatmapCallbacksController;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -38,7 +37,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3989))
 // CS Name: FireEffect
-class CORDL_TYPE FireEffect : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE FireEffect : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -53,7 +52,7 @@ constexpr FireEffect(FireEffect const& ) noexcept = default;
 constexpr FireEffect(FireEffect&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FireEffect(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit FireEffect(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -92,29 +91,29 @@ constexpr void __set__lightId(int32_t value) ;
 
 constexpr int32_t __get__lightId() const;
 
- ::GlobalNamespace::MaterialPropertyBlockController __declspec(property(get=__get__flipBookPropertyBlockController, put=__set__flipBookPropertyBlockController))  _flipBookPropertyBlockController;
+ GlobalNamespace::MaterialPropertyBlockController __declspec(property(get=__get__flipBookPropertyBlockController, put=__set__flipBookPropertyBlockController))  _flipBookPropertyBlockController;
 
-constexpr void __set__flipBookPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController value) ;
+constexpr void __set__flipBookPropertyBlockController(GlobalNamespace::MaterialPropertyBlockController value) ;
 
-constexpr ::GlobalNamespace::MaterialPropertyBlockController __get__flipBookPropertyBlockController() const;
+constexpr GlobalNamespace::MaterialPropertyBlockController __get__flipBookPropertyBlockController() const;
 
- ::GlobalNamespace::MaterialPropertyBlockController __declspec(property(get=__get__bloomPropertyBlockController, put=__set__bloomPropertyBlockController))  _bloomPropertyBlockController;
+ GlobalNamespace::MaterialPropertyBlockController __declspec(property(get=__get__bloomPropertyBlockController, put=__set__bloomPropertyBlockController))  _bloomPropertyBlockController;
 
-constexpr void __set__bloomPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController value) ;
+constexpr void __set__bloomPropertyBlockController(GlobalNamespace::MaterialPropertyBlockController value) ;
 
-constexpr ::GlobalNamespace::MaterialPropertyBlockController __get__bloomPropertyBlockController() const;
+constexpr GlobalNamespace::MaterialPropertyBlockController __get__bloomPropertyBlockController() const;
 
- ::GlobalNamespace::MaterialPropertyBlockController __declspec(property(get=__get__privatePointLightPropertyBlockController, put=__set__privatePointLightPropertyBlockController))  _privatePointLightPropertyBlockController;
+ GlobalNamespace::MaterialPropertyBlockController __declspec(property(get=__get__privatePointLightPropertyBlockController, put=__set__privatePointLightPropertyBlockController))  _privatePointLightPropertyBlockController;
 
-constexpr void __set__privatePointLightPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController value) ;
+constexpr void __set__privatePointLightPropertyBlockController(GlobalNamespace::MaterialPropertyBlockController value) ;
 
-constexpr ::GlobalNamespace::MaterialPropertyBlockController __get__privatePointLightPropertyBlockController() const;
+constexpr GlobalNamespace::MaterialPropertyBlockController __get__privatePointLightPropertyBlockController() const;
 
- ::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer __declspec(property(get=__get__bloomPrePassRenderer, put=__set__bloomPrePassRenderer))  _bloomPrePassRenderer;
+ GlobalNamespace::BloomPrePassBackgroundNonLightRenderer __declspec(property(get=__get__bloomPrePassRenderer, put=__set__bloomPrePassRenderer))  _bloomPrePassRenderer;
 
-constexpr void __set__bloomPrePassRenderer(::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer value) ;
+constexpr void __set__bloomPrePassRenderer(GlobalNamespace::BloomPrePassBackgroundNonLightRenderer value) ;
 
-constexpr ::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer __get__bloomPrePassRenderer() const;
+constexpr GlobalNamespace::BloomPrePassBackgroundNonLightRenderer __get__bloomPrePassRenderer() const;
 
  float_t __declspec(property(get=__get__bloomIntensityMultiplier, put=__set__bloomIntensityMultiplier))  _bloomIntensityMultiplier;
 
@@ -122,11 +121,11 @@ constexpr void __set__bloomIntensityMultiplier(float_t value) ;
 
 constexpr float_t __get__bloomIntensityMultiplier() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__pointLightColor, put=__set__pointLightColor))  _pointLightColor;
+ UnityEngine::Color __declspec(property(get=__get__pointLightColor, put=__set__pointLightColor))  _pointLightColor;
 
-constexpr void __set__pointLightColor(::UnityEngine::Color value) ;
+constexpr void __set__pointLightColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__pointLightColor() const;
+constexpr UnityEngine::Color __get__pointLightColor() const;
 
  bool __declspec(property(get=__get__contributeCustomLightColor, put=__set__contributeCustomLightColor))  _contributeCustomLightColor;
 
@@ -134,29 +133,29 @@ constexpr void __set__contributeCustomLightColor(bool value) ;
 
 constexpr bool __get__contributeCustomLightColor() const;
 
- ::GlobalNamespace::ColorSO __declspec(property(get=__get__customLightColorContribution, put=__set__customLightColorContribution))  _customLightColorContribution;
+ GlobalNamespace::ColorSO __declspec(property(get=__get__customLightColorContribution, put=__set__customLightColorContribution))  _customLightColorContribution;
 
-constexpr void __set__customLightColorContribution(::GlobalNamespace::ColorSO value) ;
+constexpr void __set__customLightColorContribution(GlobalNamespace::ColorSO value) ;
 
-constexpr ::GlobalNamespace::ColorSO __get__customLightColorContribution() const;
+constexpr GlobalNamespace::ColorSO __get__customLightColorContribution() const;
 
- ::GlobalNamespace::BeatmapCallbacksController __declspec(property(get=__get__beatmapCallbacksController, put=__set__beatmapCallbacksController))  _beatmapCallbacksController;
+ GlobalNamespace::BeatmapCallbacksController __declspec(property(get=__get__beatmapCallbacksController, put=__set__beatmapCallbacksController))  _beatmapCallbacksController;
 
-constexpr void __set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController value) ;
+constexpr void __set__beatmapCallbacksController(GlobalNamespace::BeatmapCallbacksController value) ;
 
-constexpr ::GlobalNamespace::BeatmapCallbacksController __get__beatmapCallbacksController() const;
+constexpr GlobalNamespace::BeatmapCallbacksController __get__beatmapCallbacksController() const;
 
- ::GlobalNamespace::LightWithIdManager __declspec(property(get=__get__lightWithIdManager, put=__set__lightWithIdManager))  _lightWithIdManager;
+ GlobalNamespace::LightWithIdManager __declspec(property(get=__get__lightWithIdManager, put=__set__lightWithIdManager))  _lightWithIdManager;
 
-constexpr void __set__lightWithIdManager(::GlobalNamespace::LightWithIdManager value) ;
+constexpr void __set__lightWithIdManager(GlobalNamespace::LightWithIdManager value) ;
 
-constexpr ::GlobalNamespace::LightWithIdManager __get__lightWithIdManager() const;
+constexpr GlobalNamespace::LightWithIdManager __get__lightWithIdManager() const;
 
- ::GlobalNamespace::BeatmapDataCallbackWrapper __declspec(property(get=__get__lightColorBeatmapEventCallbackWrapper, put=__set__lightColorBeatmapEventCallbackWrapper))  _lightColorBeatmapEventCallbackWrapper;
+ GlobalNamespace::BeatmapDataCallbackWrapper __declspec(property(get=__get__lightColorBeatmapEventCallbackWrapper, put=__set__lightColorBeatmapEventCallbackWrapper))  _lightColorBeatmapEventCallbackWrapper;
 
-constexpr void __set__lightColorBeatmapEventCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper value) ;
+constexpr void __set__lightColorBeatmapEventCallbackWrapper(GlobalNamespace::BeatmapDataCallbackWrapper value) ;
 
-constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper __get__lightColorBeatmapEventCallbackWrapper() const;
+constexpr GlobalNamespace::BeatmapDataCallbackWrapper __get__lightColorBeatmapEventCallbackWrapper() const;
 
 
 // Methods
@@ -168,7 +167,7 @@ constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper __get__lightColorBeatmap
  void OnDestroy() ;
 
 /// @brief Method HandleColorChangeBeatmapEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData e) ;
+ void HandleColorChangeBeatmapEvent(GlobalNamespace::LightColorBeatmapEventData e) ;
 
 /// @brief Method SetRenderersEnabled addr 0x20ae6c8 size 0x8c virtual false final false
  void SetRenderersEnabled(bool enabled) ;
@@ -186,6 +185,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::FireEffect);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FireEffect, "", "FireEffect");
+NEED_NO_BOX(GlobalNamespace::FireEffect);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FireEffect, "", "FireEffect");

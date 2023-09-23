@@ -1,6 +1,5 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::UI {
 class ILayoutController;
@@ -33,6 +32,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UI
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UI::ILayoutController);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::ILayoutController, "UnityEngine.UI", "ILayoutController");
+NEED_NO_BOX(UnityEngine::UI::ILayoutController);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ILayoutController, "UnityEngine.UI", "ILayoutController");

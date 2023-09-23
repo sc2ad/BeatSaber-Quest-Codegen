@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Reflection {
 struct PropertyAttributes;
@@ -73,32 +72,31 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::Reflection::PropertyAttributes const None;
+static System::Reflection::PropertyAttributes const None;
 
 /// @brief Field SpecialName offset 0
-static ::System::Reflection::PropertyAttributes const SpecialName;
+static System::Reflection::PropertyAttributes const SpecialName;
 
 /// @brief Field RTSpecialName offset 0
-static ::System::Reflection::PropertyAttributes const RTSpecialName;
+static System::Reflection::PropertyAttributes const RTSpecialName;
 
 /// @brief Field HasDefault offset 0
-static ::System::Reflection::PropertyAttributes const HasDefault;
+static System::Reflection::PropertyAttributes const HasDefault;
 
 /// @brief Field Reserved2 offset 0
-static ::System::Reflection::PropertyAttributes const Reserved2;
+static System::Reflection::PropertyAttributes const Reserved2;
 
 /// @brief Field Reserved3 offset 0
-static ::System::Reflection::PropertyAttributes const Reserved3;
+static System::Reflection::PropertyAttributes const Reserved3;
 
 /// @brief Field Reserved4 offset 0
-static ::System::Reflection::PropertyAttributes const Reserved4;
+static System::Reflection::PropertyAttributes const Reserved4;
 
 /// @brief Field ReservedMask offset 0
-static ::System::Reflection::PropertyAttributes const ReservedMask;
+static System::Reflection::PropertyAttributes const ReservedMask;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Reflection
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::PropertyAttributes, "System.Reflection", "PropertyAttributes");
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::PropertyAttributes, "System.Reflection", "PropertyAttributes");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class ISigner;
 }
@@ -19,8 +18,8 @@ namespace Org::BouncyCastle::Crypto {
 class CORDL_TYPE ISignerWithRecovery : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::ISigner
-constexpr operator  ::Org::BouncyCastle::Crypto::ISigner() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::ISigner
+constexpr operator  Org::BouncyCastle::Crypto::ISigner() const noexcept;
 
 ~ISignerWithRecovery() = default;
 
@@ -44,6 +43,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::ISignerWithRecovery);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::ISignerWithRecovery, "Org.BouncyCastle.Crypto", "ISignerWithRecovery");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::ISignerWithRecovery);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::ISignerWithRecovery, "Org.BouncyCastle.Crypto", "ISignerWithRecovery");

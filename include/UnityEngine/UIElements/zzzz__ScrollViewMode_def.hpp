@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 struct ScrollViewMode;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Vertical offset 0
-static ::UnityEngine::UIElements::ScrollViewMode const Vertical;
+static UnityEngine::UIElements::ScrollViewMode const Vertical;
 
 /// @brief Field Horizontal offset 0
-static ::UnityEngine::UIElements::ScrollViewMode const Horizontal;
+static UnityEngine::UIElements::ScrollViewMode const Horizontal;
 
 /// @brief Field VerticalAndHorizontal offset 0
-static ::UnityEngine::UIElements::ScrollViewMode const VerticalAndHorizontal;
+static UnityEngine::UIElements::ScrollViewMode const VerticalAndHorizontal;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ScrollViewMode, "UnityEngine.UIElements", "ScrollViewMode");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::ScrollViewMode, "UnityEngine.UIElements", "ScrollViewMode");

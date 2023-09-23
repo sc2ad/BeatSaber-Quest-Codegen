@@ -2,21 +2,20 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
-}
 namespace System::Collections {
 class IDictionary;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Collections {
 class IEnumerable;
-}
-namespace System::Collections {
-class ICollection;
 }
 namespace System {
 class Array;
@@ -34,14 +33,14 @@ namespace Org::BouncyCastle::Utilities::Collections {
 class CORDL_TYPE HashSet : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Utilities::Collections::ISet
-constexpr operator  ::Org::BouncyCastle::Utilities::Collections::ISet() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Utilities::Collections::ISet
+constexpr operator  Org::BouncyCastle::Utilities::Collections::ISet() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::ICollection
-constexpr operator  ::System::Collections::ICollection() const noexcept;
+/// @brief Convert operator to System::Collections::ICollection
+constexpr operator  System::Collections::ICollection() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -76,11 +75,11 @@ constexpr explicit HashSet(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(pt
 
 // Fields
 
- ::System::Collections::IDictionary __declspec(property(get=__get_impl, put=__set_impl))  impl;
+ System::Collections::IDictionary __declspec(property(get=__get_impl, put=__set_impl))  impl;
 
-constexpr void __set_impl(::System::Collections::IDictionary value) ;
+constexpr void __set_impl(System::Collections::IDictionary value) ;
 
-constexpr ::System::Collections::IDictionary __get_impl() const;
+constexpr System::Collections::IDictionary __get_impl() const;
 
 
 // Properties
@@ -106,17 +105,17 @@ explicit HashSet() ;
 /// @brief Method .ctor addr 0x10c9b88 size 0x64 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "s", ty: "::System::Collections::IEnumerable", modifiers: "", def_value: None }]
-explicit HashSet(::System::Collections::IEnumerable s) ;
+// Ctor Parameters [CppParam { name: "s", ty: "System::Collections::IEnumerable", modifiers: "", def_value: None }]
+explicit HashSet(System::Collections::IEnumerable s) ;
 
 /// @brief Method .ctor addr 0x10ca8c4 size 0x324 virtual false final false
- void _ctor(::System::Collections::IEnumerable s) ;
+ void _ctor(System::Collections::IEnumerable s) ;
 
 /// @brief Method Add addr 0x10cbae8 size 0xb0 virtual true final false
  void Add(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method AddAll addr 0x10cbb98 size 0x2e8 virtual true final false
- void AddAll(::System::Collections::IEnumerable e) ;
+ void AddAll(System::Collections::IEnumerable e) ;
 
 /// @brief Method Clear addr 0x10cbe80 size 0xa4 virtual true final false
  void Clear() ;
@@ -125,13 +124,13 @@ explicit HashSet(::System::Collections::IEnumerable s) ;
  bool Contains(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method CopyTo addr 0x10cbfd0 size 0x130 virtual true final false
- void CopyTo(::System::Array array, int32_t index) ;
+ void CopyTo(System::Array array, int32_t index) ;
 
 /// @brief Method get_Count addr 0x10cc100 size 0xa4 virtual true final false
  int32_t get_Count() ;
 
 /// @brief Method GetEnumerator addr 0x10cc1a4 size 0x118 virtual true final false
- ::System::Collections::IEnumerator GetEnumerator() ;
+ System::Collections::IEnumerator GetEnumerator() ;
 
 /// @brief Method get_IsEmpty addr 0x10cc2bc size 0xb0 virtual true final false
  bool get_IsEmpty() ;
@@ -149,7 +148,7 @@ explicit HashSet(::System::Collections::IEnumerable s) ;
  void Remove(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method RemoveAll addr 0x10cc604 size 0x2e8 virtual true final false
- void RemoveAll(::System::Collections::IEnumerable e) ;
+ void RemoveAll(System::Collections::IEnumerable e) ;
 
 /// @brief Method get_SyncRoot addr 0x10cc8ec size 0xa4 virtual true final false
  ::bs_hook::Il2CppWrapperType get_SyncRoot() ;
@@ -158,6 +157,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities::Collections
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::Collections::HashSet);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Collections::HashSet, "Org.BouncyCastle.Utilities.Collections", "HashSet");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Collections::HashSet);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::HashSet, "Org.BouncyCastle.Utilities.Collections", "HashSet");

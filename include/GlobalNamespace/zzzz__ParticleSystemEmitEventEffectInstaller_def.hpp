@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 class ParticleSystemEventController;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11080))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5064))
 // CS Name: ParticleSystemEmitEventEffectInstaller
-class CORDL_TYPE ParticleSystemEmitEventEffectInstaller : public ::Zenject::MonoInstaller {
+class CORDL_TYPE ParticleSystemEmitEventEffectInstaller : public Zenject::MonoInstaller {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr ParticleSystemEmitEventEffectInstaller(ParticleSystemEmitEventEffectIn
 constexpr ParticleSystemEmitEventEffectInstaller(ParticleSystemEmitEventEffectInstaller&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ParticleSystemEmitEventEffectInstaller(void* ptr) noexcept : ::Zenject::MonoInstaller(ptr) {
+constexpr explicit ParticleSystemEmitEventEffectInstaller(void* ptr) noexcept : Zenject::MonoInstaller(ptr) {
 }
 
 
@@ -52,11 +51,11 @@ constexpr explicit ParticleSystemEmitEventEffectInstaller(void* ptr) noexcept : 
 
 // Fields
 
- ::GlobalNamespace::ParticleSystemEventController __declspec(property(get=__get__particleSystemEventControllerPrefab, put=__set__particleSystemEventControllerPrefab))  _particleSystemEventControllerPrefab;
+ GlobalNamespace::ParticleSystemEventController __declspec(property(get=__get__particleSystemEventControllerPrefab, put=__set__particleSystemEventControllerPrefab))  _particleSystemEventControllerPrefab;
 
-constexpr void __set__particleSystemEventControllerPrefab(::GlobalNamespace::ParticleSystemEventController value) ;
+constexpr void __set__particleSystemEventControllerPrefab(GlobalNamespace::ParticleSystemEventController value) ;
 
-constexpr ::GlobalNamespace::ParticleSystemEventController __get__particleSystemEventControllerPrefab() const;
+constexpr GlobalNamespace::ParticleSystemEventController __get__particleSystemEventControllerPrefab() const;
 
  int32_t __declspec(property(get=__get__particleSystemEventControllerInitialSize, put=__set__particleSystemEventControllerInitialSize))  _particleSystemEventControllerInitialSize;
 
@@ -80,6 +79,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ParticleSystemEmitEventEffectInstaller);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ParticleSystemEmitEventEffectInstaller, "", "ParticleSystemEmitEventEffectInstaller");
+NEED_NO_BOX(GlobalNamespace::ParticleSystemEmitEventEffectInstaller);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ParticleSystemEmitEventEffectInstaller, "", "ParticleSystemEmitEventEffectInstaller");

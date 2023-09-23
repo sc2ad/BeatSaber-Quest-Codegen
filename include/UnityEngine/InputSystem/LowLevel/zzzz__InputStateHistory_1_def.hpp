@@ -6,39 +6,38 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System::Collections::Generic {
 template<typename T>
-class IReadOnlyCollection_1;
+class IEnumerable_1;
+}
+namespace UnityEngine::InputSystem {
+template<typename TValue>
+class InputControl_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct TouchState;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerable_1;
+class IReadOnlyList_1;
 }
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine::InputSystem {
-template<typename TValue>
-class InputControl_1;
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyCollection_1;
 }
 namespace System {
 template<typename T>
 struct Nullable_1;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
 class IDisposable;
@@ -54,23 +53,23 @@ class InputStateHistory_1;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 template<>
-class InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState>;
+class InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState>;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 template<typename TValue>
-struct ____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Enumerator;
+struct UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Enumerator;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 template<typename TValue>
-struct ____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record;
+struct UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 template<>
-struct ____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Enumerator<::UnityEngine::InputSystem::LowLevel::TouchState>;
+struct UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Enumerator<UnityEngine::InputSystem::LowLevel::TouchState>;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 template<>
-struct ____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<::UnityEngine::InputSystem::LowLevel::TouchState>;
+struct UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<UnityEngine::InputSystem::LowLevel::TouchState>;
 }
 // Type: ::Enumerator
 // Type: ::Record
@@ -83,29 +82,29 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6658)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6658), inst: 3759 })
 // CS Name: UnityEngine.InputSystem.LowLevel.InputStateHistory`1::Enumerator
-struct CORDL_TYPE ____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Enumerator<::UnityEngine::InputSystem::LowLevel::TouchState> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Enumerator<UnityEngine::InputSystem::LowLevel::TouchState> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<::UnityEngine::InputSystem::LowLevel::TouchState>>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<::UnityEngine::InputSystem::LowLevel::TouchState>>() const;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<UnityEngine::InputSystem::LowLevel::TouchState>>
+constexpr operator  System::Collections::Generic::IEnumerator_1<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<UnityEngine::InputSystem::LowLevel::TouchState>>() const;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const;
 
-// Ctor Parameters [CppParam { name: "m_History", ty: "::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState>", modifiers: "", def_value: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Enumerator(::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState> m_History, int32_t m_Index) noexcept;
+// Ctor Parameters [CppParam { name: "m_History", ty: "UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState>", modifiers: "", def_value: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Enumerator(UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState> m_History, int32_t m_Index) noexcept;
 
 
-                    constexpr ____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Enumerator(____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Enumerator const&) = default;
-                    constexpr ____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Enumerator(____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Enumerator&&) = default;
-                    constexpr ____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Enumerator& operator=(____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Enumerator const& o) {
+                    constexpr UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Enumerator(UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Enumerator const&) = default;
+                    constexpr UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Enumerator(UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Enumerator&&) = default;
+                    constexpr UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Enumerator& operator=(UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Enumerator const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Enumerator& operator=(____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Enumerator&& o) noexcept {
+                    constexpr UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Enumerator& operator=(UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Enumerator&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -118,7 +117,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x10};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Enumerator(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Enumerator(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -129,11 +128,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState> __declspec(property(get=__get_m_History, put=__set_m_History))  m_History;
+ UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState> __declspec(property(get=__get_m_History, put=__set_m_History))  m_History;
 
-constexpr void __set_m_History(::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState> value) ;
+constexpr void __set_m_History(UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState> value) ;
 
-constexpr ::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState> __get_m_History() const;
+constexpr UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState> __get_m_History() const;
 
  int32_t __declspec(property(get=__get_m_Index, put=__set_m_Index))  m_Index;
 
@@ -144,7 +143,7 @@ constexpr int32_t __get_m_Index() const;
 
 // Properties
 
- ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<::UnityEngine::InputSystem::LowLevel::TouchState> __declspec(property(get=get_Current))  Current;
+ UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<UnityEngine::InputSystem::LowLevel::TouchState> __declspec(property(get=get_Current))  Current;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=System_Collections_IEnumerator_get_Current))  System_Collections_IEnumerator_Current;
 
@@ -152,7 +151,7 @@ constexpr int32_t __get_m_Index() const;
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState> history) ;
+ void _ctor(UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState> history) ;
 
 /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
  bool MoveNext() ;
@@ -161,7 +160,7 @@ constexpr int32_t __get_m_Index() const;
  void Reset() ;
 
 /// @brief Method get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
- ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<::UnityEngine::InputSystem::LowLevel::TouchState> get_Current() ;
+ UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<UnityEngine::InputSystem::LowLevel::TouchState> get_Current() ;
 
 /// @brief Method System.Collections.IEnumerator.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
  ::bs_hook::Il2CppWrapperType System_Collections_IEnumerator_get_Current() ;
@@ -181,23 +180,23 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6659)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6659), inst: 3759 })
 // CS Name: UnityEngine.InputSystem.LowLevel.InputStateHistory`1::Record
-struct CORDL_TYPE ____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<::UnityEngine::InputSystem::LowLevel::TouchState> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<UnityEngine::InputSystem::LowLevel::TouchState> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<::UnityEngine::InputSystem::LowLevel::TouchState>>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<::UnityEngine::InputSystem::LowLevel::TouchState>>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<UnityEngine::InputSystem::LowLevel::TouchState>>
+constexpr operator  System::IEquatable_1<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<UnityEngine::InputSystem::LowLevel::TouchState>>() const;
 
-// Ctor Parameters [CppParam { name: "m_Owner", ty: "::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState>", modifiers: "", def_value: None }, CppParam { name: "m_IndexPlusOne", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Version", ty: "uint32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record(::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState> m_Owner, int32_t m_IndexPlusOne, uint32_t m_Version) noexcept;
+// Ctor Parameters [CppParam { name: "m_Owner", ty: "UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState>", modifiers: "", def_value: None }, CppParam { name: "m_IndexPlusOne", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Version", ty: "uint32_t", modifiers: "", def_value: None }]
+constexpr UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record(UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState> m_Owner, int32_t m_IndexPlusOne, uint32_t m_Version) noexcept;
 
 
-                    constexpr ____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record(____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record const&) = default;
-                    constexpr ____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record(____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record&&) = default;
-                    constexpr ____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record& operator=(____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record const& o) {
+                    constexpr UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record(UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record const&) = default;
+                    constexpr UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record(UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record&&) = default;
+                    constexpr UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record& operator=(UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record& operator=(____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record&& o) noexcept {
+                    constexpr UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record& operator=(UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -210,7 +209,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x18};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -221,11 +220,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState> __declspec(property(get=__get_m_Owner, put=__set_m_Owner))  m_Owner;
+ UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState> __declspec(property(get=__get_m_Owner, put=__set_m_Owner))  m_Owner;
 
-constexpr void __set_m_Owner(::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState> value) ;
+constexpr void __set_m_Owner(UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState> value) ;
 
-constexpr ::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState> __get_m_Owner() const;
+constexpr UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState> __get_m_Owner() const;
 
  int32_t __declspec(property(get=__get_m_IndexPlusOne, put=__set_m_IndexPlusOne))  m_IndexPlusOne;
 
@@ -248,17 +247,17 @@ constexpr uint32_t __get_m_Version() const;
 
  bool __declspec(property(get=get_valid))  valid;
 
- ::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState> __declspec(property(get=get_owner))  owner;
+ UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState> __declspec(property(get=get_owner))  owner;
 
  int32_t __declspec(property(get=get_index))  index;
 
  double_t __declspec(property(get=get_time))  time;
 
- ::UnityEngine::InputSystem::InputControl_1<::UnityEngine::InputSystem::LowLevel::TouchState> __declspec(property(get=get_control))  control;
+ UnityEngine::InputSystem::InputControl_1<UnityEngine::InputSystem::LowLevel::TouchState> __declspec(property(get=get_control))  control;
 
- ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<::UnityEngine::InputSystem::LowLevel::TouchState> __declspec(property(get=get_next))  next;
+ UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<UnityEngine::InputSystem::LowLevel::TouchState> __declspec(property(get=get_next))  next;
 
- ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<::UnityEngine::InputSystem::LowLevel::TouchState> __declspec(property(get=get_previous))  previous;
+ UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<UnityEngine::InputSystem::LowLevel::TouchState> __declspec(property(get=get_previous))  previous;
 
 
 // Methods
@@ -273,7 +272,7 @@ constexpr uint32_t __get_m_Version() const;
  bool get_valid() ;
 
 /// @brief Method get_owner addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState> get_owner() ;
+ UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState> get_owner() ;
 
 /// @brief Method get_index addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t get_index() ;
@@ -282,22 +281,22 @@ constexpr uint32_t __get_m_Version() const;
  double_t get_time() ;
 
 /// @brief Method get_control addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::InputControl_1<::UnityEngine::InputSystem::LowLevel::TouchState> get_control() ;
+ UnityEngine::InputSystem::InputControl_1<UnityEngine::InputSystem::LowLevel::TouchState> get_control() ;
 
 /// @brief Method get_next addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<::UnityEngine::InputSystem::LowLevel::TouchState> get_next() ;
+ UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<UnityEngine::InputSystem::LowLevel::TouchState> get_next() ;
 
 /// @brief Method get_previous addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<::UnityEngine::InputSystem::LowLevel::TouchState> get_previous() ;
+ UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<UnityEngine::InputSystem::LowLevel::TouchState> get_previous() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState> owner, int32_t index, void* header) ;
+ void _ctor(UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState> owner, int32_t index, void* header) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState> owner, int32_t index) ;
+ void _ctor(UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState> owner, int32_t index) ;
 
 /// @brief Method ReadValue addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::LowLevel::TouchState ReadValue() ;
+ UnityEngine::InputSystem::LowLevel::TouchState ReadValue() ;
 
 /// @brief Method GetUnsafeMemoryPtr addr 0x0 size 0xffffffffffffffff virtual false final false
  void* GetUnsafeMemoryPtr() ;
@@ -312,13 +311,13 @@ constexpr uint32_t __get_m_Version() const;
  void* GetUnsafeExtraMemoryPtrUnchecked() ;
 
 /// @brief Method CopyFrom addr 0x0 size 0xffffffffffffffff virtual false final false
- void CopyFrom(::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<::UnityEngine::InputSystem::LowLevel::TouchState> record) ;
+ void CopyFrom(UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<UnityEngine::InputSystem::LowLevel::TouchState> record) ;
 
 /// @brief Method CheckValid addr 0x0 size 0xffffffffffffffff virtual false final false
  void CheckValid() ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final true
- bool Equals(::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<::UnityEngine::InputSystem::LowLevel::TouchState> other) ;
+ bool Equals(UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<UnityEngine::InputSystem::LowLevel::TouchState> other) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -341,24 +340,24 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6660)), TypeDefinitionIndex(TypeDefinitionIndex(6657))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 3759 })
 // CS Name: UnityEngine.InputSystem.LowLevel.InputStateHistory`1
-class CORDL_TYPE InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState> : public ::UnityEngine::InputSystem::LowLevel::InputStateHistory {
+class CORDL_TYPE InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState> : public UnityEngine::InputSystem::LowLevel::InputStateHistory {
 public:
 // Declarations
-using Record = ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<::UnityEngine::InputSystem::LowLevel::TouchState>;
+using Record = UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<UnityEngine::InputSystem::LowLevel::TouchState>;
 
-using Enumerator = ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Enumerator<::UnityEngine::InputSystem::LowLevel::TouchState>;
+using Enumerator = UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Enumerator<UnityEngine::InputSystem::LowLevel::TouchState>;
 
-/// @brief Convert operator to ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<::UnityEngine::InputSystem::LowLevel::TouchState>>
-constexpr operator  ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<::UnityEngine::InputSystem::LowLevel::TouchState>>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IReadOnlyList_1<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<UnityEngine::InputSystem::LowLevel::TouchState>>
+constexpr operator  System::Collections::Generic::IReadOnlyList_1<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<UnityEngine::InputSystem::LowLevel::TouchState>>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<::UnityEngine::InputSystem::LowLevel::TouchState>>
-constexpr operator  ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<::UnityEngine::InputSystem::LowLevel::TouchState>>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerable_1<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<UnityEngine::InputSystem::LowLevel::TouchState>>
+constexpr operator  System::Collections::Generic::IEnumerable_1<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<UnityEngine::InputSystem::LowLevel::TouchState>>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::Generic::IReadOnlyCollection_1<::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<::UnityEngine::InputSystem::LowLevel::TouchState>>
-constexpr operator  ::System::Collections::Generic::IReadOnlyCollection_1<::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<::UnityEngine::InputSystem::LowLevel::TouchState>>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IReadOnlyCollection_1<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<UnityEngine::InputSystem::LowLevel::TouchState>>
+constexpr operator  System::Collections::Generic::IReadOnlyCollection_1<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<UnityEngine::InputSystem::LowLevel::TouchState>>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x80};
@@ -372,7 +371,7 @@ constexpr InputStateHistory_1(InputStateHistory_1 const& ) noexcept = default;
 constexpr InputStateHistory_1(InputStateHistory_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit InputStateHistory_1(void* ptr) noexcept : ::UnityEngine::InputSystem::LowLevel::InputStateHistory(ptr) {
+constexpr explicit InputStateHistory_1(void* ptr) noexcept : UnityEngine::InputSystem::LowLevel::InputStateHistory(ptr) {
 }
 
 
@@ -393,22 +392,22 @@ constexpr explicit InputStateHistory_1(void* ptr) noexcept : ::UnityEngine::Inpu
 
 // Properties
 
- ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<::UnityEngine::InputSystem::LowLevel::TouchState> __declspec(property(get=get_Item, put=set_Item))  Item;
+ UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<UnityEngine::InputSystem::LowLevel::TouchState> __declspec(property(get=get_Item, put=set_Item))  Item;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "maxStateSizeInBytes", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None }]
-explicit InputStateHistory_1(::System::Nullable_1<int32_t> maxStateSizeInBytes) ;
+// Ctor Parameters [CppParam { name: "maxStateSizeInBytes", ty: "System::Nullable_1<int32_t>", modifiers: "", def_value: None }]
+explicit InputStateHistory_1(System::Nullable_1<int32_t> maxStateSizeInBytes) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Nullable_1<int32_t> maxStateSizeInBytes) ;
+ void _ctor(System::Nullable_1<int32_t> maxStateSizeInBytes) ;
 
-// Ctor Parameters [CppParam { name: "control", ty: "::UnityEngine::InputSystem::InputControl_1<::UnityEngine::InputSystem::LowLevel::TouchState>", modifiers: "", def_value: None }]
-explicit InputStateHistory_1(::UnityEngine::InputSystem::InputControl_1<::UnityEngine::InputSystem::LowLevel::TouchState> control) ;
+// Ctor Parameters [CppParam { name: "control", ty: "UnityEngine::InputSystem::InputControl_1<UnityEngine::InputSystem::LowLevel::TouchState>", modifiers: "", def_value: None }]
+explicit InputStateHistory_1(UnityEngine::InputSystem::InputControl_1<UnityEngine::InputSystem::LowLevel::TouchState> control) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::UnityEngine::InputSystem::InputControl_1<::UnityEngine::InputSystem::LowLevel::TouchState> control) ;
+ void _ctor(UnityEngine::InputSystem::InputControl_1<UnityEngine::InputSystem::LowLevel::TouchState> control) ;
 
 // Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }]
 explicit InputStateHistory_1(::StringW path) ;
@@ -420,28 +419,27 @@ explicit InputStateHistory_1(::StringW path) ;
  void Finalize() ;
 
 /// @brief Method AddRecord addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<::UnityEngine::InputSystem::LowLevel::TouchState> AddRecord(::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<::UnityEngine::InputSystem::LowLevel::TouchState> record) ;
+ UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<UnityEngine::InputSystem::LowLevel::TouchState> AddRecord(UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<UnityEngine::InputSystem::LowLevel::TouchState> record) ;
 
 /// @brief Method RecordStateChange addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<::UnityEngine::InputSystem::LowLevel::TouchState> RecordStateChange(::UnityEngine::InputSystem::InputControl_1<::UnityEngine::InputSystem::LowLevel::TouchState> control, ::UnityEngine::InputSystem::LowLevel::TouchState value, double_t time) ;
+ UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<UnityEngine::InputSystem::LowLevel::TouchState> RecordStateChange(UnityEngine::InputSystem::InputControl_1<UnityEngine::InputSystem::LowLevel::TouchState> control, UnityEngine::InputSystem::LowLevel::TouchState value, double_t time) ;
 
 /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<::UnityEngine::InputSystem::LowLevel::TouchState>> GetEnumerator() ;
+ System::Collections::Generic::IEnumerator_1<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<UnityEngine::InputSystem::LowLevel::TouchState>> GetEnumerator() ;
 
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
+ System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
 /// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual true final true
- ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<::UnityEngine::InputSystem::LowLevel::TouchState> get_Item(int32_t index) ;
+ UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<UnityEngine::InputSystem::LowLevel::TouchState> get_Item(int32_t index) ;
 
 /// @brief Method set_Item addr 0x0 size 0xffffffffffffffff virtual false final false
- void set_Item(int32_t index, ::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<::UnityEngine::InputSystem::LowLevel::TouchState> value) ;
+ void set_Item(int32_t index, UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<UnityEngine::InputSystem::LowLevel::TouchState> value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::LowLevel
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::InputSystem::LowLevel::InputStateHistory_1, "UnityEngine.InputSystem.LowLevel", "InputStateHistory`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Enumerator, "UnityEngine.InputSystem.LowLevel", "InputStateHistory`1/Enumerator");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::UnityEngine::InputSystem::LowLevel::____UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record, "UnityEngine.InputSystem.LowLevel", "InputStateHistory`1/Record");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::InputSystem::LowLevel::InputStateHistory_1, "UnityEngine.InputSystem.LowLevel", "InputStateHistory`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Enumerator, "UnityEngine.InputSystem.LowLevel", "InputStateHistory`1/Enumerator");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record, "UnityEngine.InputSystem.LowLevel", "InputStateHistory`1/Record");

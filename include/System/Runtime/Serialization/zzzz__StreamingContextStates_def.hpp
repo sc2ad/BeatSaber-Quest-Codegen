@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Runtime::Serialization {
 struct StreamingContextStates;
@@ -74,35 +73,34 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field CrossProcess offset 0
-static ::System::Runtime::Serialization::StreamingContextStates const CrossProcess;
+static System::Runtime::Serialization::StreamingContextStates const CrossProcess;
 
 /// @brief Field CrossMachine offset 0
-static ::System::Runtime::Serialization::StreamingContextStates const CrossMachine;
+static System::Runtime::Serialization::StreamingContextStates const CrossMachine;
 
 /// @brief Field File offset 0
-static ::System::Runtime::Serialization::StreamingContextStates const File;
+static System::Runtime::Serialization::StreamingContextStates const File;
 
 /// @brief Field Persistence offset 0
-static ::System::Runtime::Serialization::StreamingContextStates const Persistence;
+static System::Runtime::Serialization::StreamingContextStates const Persistence;
 
 /// @brief Field Remoting offset 0
-static ::System::Runtime::Serialization::StreamingContextStates const Remoting;
+static System::Runtime::Serialization::StreamingContextStates const Remoting;
 
 /// @brief Field Other offset 0
-static ::System::Runtime::Serialization::StreamingContextStates const Other;
+static System::Runtime::Serialization::StreamingContextStates const Other;
 
 /// @brief Field Clone offset 0
-static ::System::Runtime::Serialization::StreamingContextStates const Clone;
+static System::Runtime::Serialization::StreamingContextStates const Clone;
 
 /// @brief Field CrossAppDomain offset 0
-static ::System::Runtime::Serialization::StreamingContextStates const CrossAppDomain;
+static System::Runtime::Serialization::StreamingContextStates const CrossAppDomain;
 
 /// @brief Field All offset 0
-static ::System::Runtime::Serialization::StreamingContextStates const All;
+static System::Runtime::Serialization::StreamingContextStates const All;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::StreamingContextStates, "System.Runtime.Serialization", "StreamingContextStates");
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::StreamingContextStates, "System.Runtime.Serialization", "StreamingContextStates");

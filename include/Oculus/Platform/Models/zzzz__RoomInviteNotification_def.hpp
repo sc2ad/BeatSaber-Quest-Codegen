@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 struct DateTime;
 }
@@ -70,11 +69,11 @@ constexpr void __set_SenderID(uint64_t value) ;
 
 constexpr uint64_t __get_SenderID() const;
 
- ::System::DateTime __declspec(property(get=__get_SentTime, put=__set_SentTime))  SentTime;
+ System::DateTime __declspec(property(get=__get_SentTime, put=__set_SentTime))  SentTime;
 
-constexpr void __set_SentTime(::System::DateTime value) ;
+constexpr void __set_SentTime(System::DateTime value) ;
 
-constexpr ::System::DateTime __get_SentTime() const;
+constexpr System::DateTime __get_SentTime() const;
 
 
 // Methods
@@ -89,6 +88,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::RoomInviteNotification);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::RoomInviteNotification, "Oculus.Platform.Models", "RoomInviteNotification");
+NEED_NO_BOX(Oculus::Platform::Models::RoomInviteNotification);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::RoomInviteNotification, "Oculus.Platform.Models", "RoomInviteNotification");

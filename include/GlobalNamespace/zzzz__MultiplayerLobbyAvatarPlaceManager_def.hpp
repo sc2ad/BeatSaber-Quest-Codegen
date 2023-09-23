@@ -2,19 +2,18 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
-class MultiplayerLobbyAvatarPlace;
+class ILobbyStateDataModel;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__MultiplayerLobbyAvatarPlace__Pool;
+class GlobalNamespace__MultiplayerLobbyAvatarPlace__Pool;
 }
 namespace GlobalNamespace {
-class ILobbyStateDataModel;
+class MultiplayerLobbyAvatarPlace;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,7 +25,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4105))
 // CS Name: MultiplayerLobbyAvatarPlaceManager
-class CORDL_TYPE MultiplayerLobbyAvatarPlaceManager : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerLobbyAvatarPlaceManager : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -41,7 +40,7 @@ constexpr MultiplayerLobbyAvatarPlaceManager(MultiplayerLobbyAvatarPlaceManager 
 constexpr MultiplayerLobbyAvatarPlaceManager(MultiplayerLobbyAvatarPlaceManager&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerLobbyAvatarPlaceManager(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerLobbyAvatarPlaceManager(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -62,23 +61,23 @@ constexpr explicit MultiplayerLobbyAvatarPlaceManager(void* ptr) noexcept : ::Un
 
 // Fields
 
- ::GlobalNamespace::ILobbyStateDataModel __declspec(property(get=__get__lobbyStateDataModel, put=__set__lobbyStateDataModel))  _lobbyStateDataModel;
+ GlobalNamespace::ILobbyStateDataModel __declspec(property(get=__get__lobbyStateDataModel, put=__set__lobbyStateDataModel))  _lobbyStateDataModel;
 
-constexpr void __set__lobbyStateDataModel(::GlobalNamespace::ILobbyStateDataModel value) ;
+constexpr void __set__lobbyStateDataModel(GlobalNamespace::ILobbyStateDataModel value) ;
 
-constexpr ::GlobalNamespace::ILobbyStateDataModel __get__lobbyStateDataModel() const;
+constexpr GlobalNamespace::ILobbyStateDataModel __get__lobbyStateDataModel() const;
 
- ::GlobalNamespace::____GlobalNamespace__MultiplayerLobbyAvatarPlace__Pool __declspec(property(get=__get__avatarPlacesPool, put=__set__avatarPlacesPool))  _avatarPlacesPool;
+ GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarPlace__Pool __declspec(property(get=__get__avatarPlacesPool, put=__set__avatarPlacesPool))  _avatarPlacesPool;
 
-constexpr void __set__avatarPlacesPool(::GlobalNamespace::____GlobalNamespace__MultiplayerLobbyAvatarPlace__Pool value) ;
+constexpr void __set__avatarPlacesPool(GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarPlace__Pool value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__MultiplayerLobbyAvatarPlace__Pool __get__avatarPlacesPool() const;
+constexpr GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarPlace__Pool __get__avatarPlacesPool() const;
 
- ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerLobbyAvatarPlace> __declspec(property(get=__get__allPlaces, put=__set__allPlaces))  _allPlaces;
+ System::Collections::Generic::List_1<GlobalNamespace::MultiplayerLobbyAvatarPlace> __declspec(property(get=__get__allPlaces, put=__set__allPlaces))  _allPlaces;
 
-constexpr void __set__allPlaces(::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerLobbyAvatarPlace> value) ;
+constexpr void __set__allPlaces(System::Collections::Generic::List_1<GlobalNamespace::MultiplayerLobbyAvatarPlace> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerLobbyAvatarPlace> __get__allPlaces() const;
+constexpr System::Collections::Generic::List_1<GlobalNamespace::MultiplayerLobbyAvatarPlace> __get__allPlaces() const;
 
  float_t __declspec(property(get=__get__innerCircleRadius, put=__set__innerCircleRadius))  _innerCircleRadius;
 
@@ -120,6 +119,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager, "", "MultiplayerLobbyAvatarPlaceManager");
+NEED_NO_BOX(GlobalNamespace::MultiplayerLobbyAvatarPlaceManager);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyAvatarPlaceManager, "", "MultiplayerLobbyAvatarPlaceManager");

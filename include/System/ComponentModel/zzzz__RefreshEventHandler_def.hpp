@@ -3,7 +3,6 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::ComponentModel {
 class RefreshEventArgs;
 }
@@ -17,7 +16,7 @@ namespace System::ComponentModel {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8303))
 // CS Name: System.ComponentModel.RefreshEventHandler
-class CORDL_TYPE RefreshEventHandler : public ::System::MulticastDelegate {
+class CORDL_TYPE RefreshEventHandler : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr RefreshEventHandler(RefreshEventHandler const& ) noexcept = default;
 constexpr RefreshEventHandler(RefreshEventHandler&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RefreshEventHandler(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit RefreshEventHandler(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -60,12 +59,11 @@ explicit RefreshEventHandler(::bs_hook::Il2CppWrapperType object, ::cordl_intern
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x278565c size 0x14 virtual true final false
- void Invoke(::System::ComponentModel::RefreshEventArgs e) ;
+ void Invoke(System::ComponentModel::RefreshEventArgs e) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::RefreshEventHandler);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::RefreshEventHandler, "System.ComponentModel", "RefreshEventHandler");
+NEED_NO_BOX(System::ComponentModel::RefreshEventHandler);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::RefreshEventHandler, "System.ComponentModel", "RefreshEventHandler");

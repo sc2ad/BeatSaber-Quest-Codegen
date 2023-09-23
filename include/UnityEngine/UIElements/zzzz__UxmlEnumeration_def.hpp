@@ -2,7 +2,9 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlTypeRestriction_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace UnityEngine::UIElements {
+class UxmlTypeRestriction;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -10,9 +12,6 @@ class List_1;
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
-}
-namespace UnityEngine::UIElements {
-class UxmlTypeRestriction;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -24,7 +23,7 @@ namespace UnityEngine::UIElements {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7069))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7070))
 // CS Name: UnityEngine.UIElements.UxmlEnumeration
-class CORDL_TYPE UxmlEnumeration : public ::UnityEngine::UIElements::UxmlTypeRestriction {
+class CORDL_TYPE UxmlEnumeration : public UnityEngine::UIElements::UxmlTypeRestriction {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr UxmlEnumeration(UxmlEnumeration const& ) noexcept = default;
 constexpr UxmlEnumeration(UxmlEnumeration&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UxmlEnumeration(void* ptr) noexcept : ::UnityEngine::UIElements::UxmlTypeRestriction(ptr) {
+constexpr explicit UxmlEnumeration(void* ptr) noexcept : UnityEngine::UIElements::UxmlTypeRestriction(ptr) {
 }
 
 
@@ -60,28 +59,28 @@ constexpr explicit UxmlEnumeration(void* ptr) noexcept : ::UnityEngine::UIElemen
 
 // Fields
 
- ::System::Collections::Generic::List_1<::StringW> __declspec(property(get=__get_m_Values, put=__set_m_Values))  m_Values;
+ System::Collections::Generic::List_1<::StringW> __declspec(property(get=__get_m_Values, put=__set_m_Values))  m_Values;
 
-constexpr void __set_m_Values(::System::Collections::Generic::List_1<::StringW> value) ;
+constexpr void __set_m_Values(System::Collections::Generic::List_1<::StringW> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::StringW> __get_m_Values() const;
+constexpr System::Collections::Generic::List_1<::StringW> __get_m_Values() const;
 
 
 // Properties
 
- ::System::Collections::Generic::IEnumerable_1<::StringW> __declspec(property(get=get_values, put=set_values))  values;
+ System::Collections::Generic::IEnumerable_1<::StringW> __declspec(property(get=get_values, put=set_values))  values;
 
 
 // Methods
 
 /// @brief Method get_values addr 0x2c964cc size 0x8 virtual false final false
- ::System::Collections::Generic::IEnumerable_1<::StringW> get_values() ;
+ System::Collections::Generic::IEnumerable_1<::StringW> get_values() ;
 
 /// @brief Method set_values addr 0x2c964d4 size 0x5c virtual false final false
- void set_values(::System::Collections::Generic::IEnumerable_1<::StringW> value) ;
+ void set_values(System::Collections::Generic::IEnumerable_1<::StringW> value) ;
 
 /// @brief Method Equals addr 0x2c96530 size 0x14c virtual true final false
- bool Equals(::UnityEngine::UIElements::UxmlTypeRestriction other) ;
+ bool Equals(UnityEngine::UIElements::UxmlTypeRestriction other) ;
 
 // Ctor Parameters []
 explicit UxmlEnumeration() ;
@@ -93,6 +92,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::UxmlEnumeration);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UxmlEnumeration, "UnityEngine.UIElements", "UxmlEnumeration");
+NEED_NO_BOX(UnityEngine::UIElements::UxmlEnumeration);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UxmlEnumeration, "UnityEngine.UIElements", "UxmlEnumeration");

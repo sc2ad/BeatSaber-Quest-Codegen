@@ -6,27 +6,26 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine::UIElements {
-class IUxmlAttributes;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace UnityEngine::UIElements {
-class UxmlTypeRestriction;
-}
 namespace System {
 template<typename T1,typename T2,typename TResult>
 class Func_3;
 }
 namespace UnityEngine::UIElements {
+class IUxmlAttributes;
+}
+namespace UnityEngine::UIElements {
+class UxmlTypeRestriction;
+}
+namespace UnityEngine::UIElements {
 struct CreationContext;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-struct ____UnityEngine__UIElements__UxmlAttributeDescription__Use;
+struct UnityEngine__UIElements__UxmlAttributeDescription__Use;
 }
 namespace UnityEngine::UIElements {
 class UxmlAttributeDescription;
@@ -37,20 +36,20 @@ namespace UnityEngine::UIElements {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7071))
 // CS Name: UnityEngine.UIElements.UxmlAttributeDescription::Use
-struct CORDL_TYPE ____UnityEngine__UIElements__UxmlAttributeDescription__Use : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__UIElements__UxmlAttributeDescription__Use : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__UIElements__UxmlAttributeDescription__Use(int32_t value__) noexcept;
+constexpr UnityEngine__UIElements__UxmlAttributeDescription__Use(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__UIElements__UxmlAttributeDescription__Use(____UnityEngine__UIElements__UxmlAttributeDescription__Use const&) = default;
-                    constexpr ____UnityEngine__UIElements__UxmlAttributeDescription__Use(____UnityEngine__UIElements__UxmlAttributeDescription__Use&&) = default;
-                    constexpr ____UnityEngine__UIElements__UxmlAttributeDescription__Use& operator=(____UnityEngine__UIElements__UxmlAttributeDescription__Use const& o) {
+                    constexpr UnityEngine__UIElements__UxmlAttributeDescription__Use(UnityEngine__UIElements__UxmlAttributeDescription__Use const&) = default;
+                    constexpr UnityEngine__UIElements__UxmlAttributeDescription__Use(UnityEngine__UIElements__UxmlAttributeDescription__Use&&) = default;
+                    constexpr UnityEngine__UIElements__UxmlAttributeDescription__Use& operator=(UnityEngine__UIElements__UxmlAttributeDescription__Use const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__UIElements__UxmlAttributeDescription__Use& operator=(____UnityEngine__UIElements__UxmlAttributeDescription__Use&& o) noexcept {
+                    constexpr UnityEngine__UIElements__UxmlAttributeDescription__Use& operator=(UnityEngine__UIElements__UxmlAttributeDescription__Use&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -63,7 +62,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UIElements__UxmlAttributeDescription__Use(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__UIElements__UxmlAttributeDescription__Use(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -71,7 +70,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__UIElements__UxmlAttributeDescription__Use_Unwrapped : int32_t {
+enum class __UnityEngine__UIElements__UxmlAttributeDescription__Use_Unwrapped : int32_t {
 __None = 0,
 __Optional = 1,
 __Prohibited = 2,
@@ -79,8 +78,8 @@ __Required = 3,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__UIElements__UxmlAttributeDescription__Use_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__UIElements__UxmlAttributeDescription__Use_Unwrapped>(__instance);
+constexpr operator __UnityEngine__UIElements__UxmlAttributeDescription__Use_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__UIElements__UxmlAttributeDescription__Use_Unwrapped>(__instance);
 }
 
 
@@ -93,16 +92,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::UIElements::____UnityEngine__UIElements__UxmlAttributeDescription__Use const None;
+static UnityEngine::UIElements::UnityEngine__UIElements__UxmlAttributeDescription__Use const None;
 
 /// @brief Field Optional offset 0
-static ::UnityEngine::UIElements::____UnityEngine__UIElements__UxmlAttributeDescription__Use const Optional;
+static UnityEngine::UIElements::UnityEngine__UIElements__UxmlAttributeDescription__Use const Optional;
 
 /// @brief Field Prohibited offset 0
-static ::UnityEngine::UIElements::____UnityEngine__UIElements__UxmlAttributeDescription__Use const Prohibited;
+static UnityEngine::UIElements::UnityEngine__UIElements__UxmlAttributeDescription__Use const Prohibited;
 
 /// @brief Field Required offset 0
-static ::UnityEngine::UIElements::____UnityEngine__UIElements__UxmlAttributeDescription__Use const Required;
+static UnityEngine::UIElements::UnityEngine__UIElements__UxmlAttributeDescription__Use const Required;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -117,7 +116,7 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE UxmlAttributeDescription : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using Use = ::UnityEngine::UIElements::____UnityEngine__UIElements__UxmlAttributeDescription__Use;
+using Use = UnityEngine::UIElements::UnityEngine__UIElements__UxmlAttributeDescription__Use;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -176,32 +175,32 @@ constexpr void __set__typeNamespace_k__BackingField(::StringW value) ;
 
 constexpr ::StringW __get__typeNamespace_k__BackingField() const;
 
- ::UnityEngine::UIElements::____UnityEngine__UIElements__UxmlAttributeDescription__Use __declspec(property(get=__get__use_k__BackingField, put=__set__use_k__BackingField))  _use_k__BackingField;
+ UnityEngine::UIElements::UnityEngine__UIElements__UxmlAttributeDescription__Use __declspec(property(get=__get__use_k__BackingField, put=__set__use_k__BackingField))  _use_k__BackingField;
 
-constexpr void __set__use_k__BackingField(::UnityEngine::UIElements::____UnityEngine__UIElements__UxmlAttributeDescription__Use value) ;
+constexpr void __set__use_k__BackingField(UnityEngine::UIElements::UnityEngine__UIElements__UxmlAttributeDescription__Use value) ;
 
-constexpr ::UnityEngine::UIElements::____UnityEngine__UIElements__UxmlAttributeDescription__Use __get__use_k__BackingField() const;
+constexpr UnityEngine::UIElements::UnityEngine__UIElements__UxmlAttributeDescription__Use __get__use_k__BackingField() const;
 
- ::UnityEngine::UIElements::UxmlTypeRestriction __declspec(property(get=__get__restriction_k__BackingField, put=__set__restriction_k__BackingField))  _restriction_k__BackingField;
+ UnityEngine::UIElements::UxmlTypeRestriction __declspec(property(get=__get__restriction_k__BackingField, put=__set__restriction_k__BackingField))  _restriction_k__BackingField;
 
-constexpr void __set__restriction_k__BackingField(::UnityEngine::UIElements::UxmlTypeRestriction value) ;
+constexpr void __set__restriction_k__BackingField(UnityEngine::UIElements::UxmlTypeRestriction value) ;
 
-constexpr ::UnityEngine::UIElements::UxmlTypeRestriction __get__restriction_k__BackingField() const;
+constexpr UnityEngine::UIElements::UxmlTypeRestriction __get__restriction_k__BackingField() const;
 
 
 // Properties
 
  ::StringW __declspec(property(get=get_name, put=set_name))  name;
 
- ::System::Collections::Generic::IEnumerable_1<::StringW> __declspec(property(put=set_obsoleteNames))  obsoleteNames;
+ System::Collections::Generic::IEnumerable_1<::StringW> __declspec(property(put=set_obsoleteNames))  obsoleteNames;
 
  ::StringW __declspec(property(put=set_type))  type;
 
  ::StringW __declspec(property(put=set_typeNamespace))  typeNamespace;
 
- ::UnityEngine::UIElements::____UnityEngine__UIElements__UxmlAttributeDescription__Use __declspec(property(put=set_use))  use;
+ UnityEngine::UIElements::UnityEngine__UIElements__UxmlAttributeDescription__Use __declspec(property(put=set_use))  use;
 
- ::UnityEngine::UIElements::UxmlTypeRestriction __declspec(property(put=set_restriction))  restriction;
+ UnityEngine::UIElements::UxmlTypeRestriction __declspec(property(put=set_restriction))  restriction;
 
 
 // Methods
@@ -219,7 +218,7 @@ explicit UxmlAttributeDescription() ;
  void set_name(::StringW value) ;
 
 /// @brief Method set_obsoleteNames addr 0x2c9672c size 0x5c virtual false final false
- void set_obsoleteNames(::System::Collections::Generic::IEnumerable_1<::StringW> value) ;
+ void set_obsoleteNames(System::Collections::Generic::IEnumerable_1<::StringW> value) ;
 
 /// @brief Method set_type addr 0x2c96788 size 0x8 virtual false final false
  void set_type(::StringW value) ;
@@ -228,27 +227,26 @@ explicit UxmlAttributeDescription() ;
  void set_typeNamespace(::StringW value) ;
 
 /// @brief Method set_use addr 0x2c96798 size 0x8 virtual false final false
- void set_use(::UnityEngine::UIElements::____UnityEngine__UIElements__UxmlAttributeDescription__Use value) ;
+ void set_use(UnityEngine::UIElements::UnityEngine__UIElements__UxmlAttributeDescription__Use value) ;
 
 /// @brief Method set_restriction addr 0x2c967a0 size 0x8 virtual false final false
- void set_restriction(::UnityEngine::UIElements::UxmlTypeRestriction value) ;
+ void set_restriction(UnityEngine::UIElements::UxmlTypeRestriction value) ;
 
 /// @brief Method TryGetValueFromBagAsString addr 0x2c967a8 size 0x1474 virtual false final false
- bool TryGetValueFromBagAsString(::UnityEngine::UIElements::IUxmlAttributes bag, ::UnityEngine::UIElements::CreationContext cc, ByRef<::StringW> value) ;
+ bool TryGetValueFromBagAsString(UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc, ByRef<::StringW> value) ;
 
 /// @brief Method TryGetValueFromBag addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
- bool TryGetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes bag, ::UnityEngine::UIElements::CreationContext cc, ::System::Func_3<::StringW,T,T> converterFunc, T defaultValue, ByRef<T> value) ;
+ bool TryGetValueFromBag(UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc, System::Func_3<::StringW,T,T> converterFunc, T defaultValue, ByRef<T> value) ;
 
 /// @brief Method GetValueFromBag addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
- T GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes bag, ::UnityEngine::UIElements::CreationContext cc, ::System::Func_3<::StringW,T,T> converterFunc, T defaultValue) ;
+ T GetValueFromBag(UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc, System::Func_3<::StringW,T,T> converterFunc, T defaultValue) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::____UnityEngine__UIElements__UxmlAttributeDescription__Use, "UnityEngine.UIElements", "UxmlAttributeDescription/Use");
-NEED_NO_BOX(::UnityEngine::UIElements::UxmlAttributeDescription);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UxmlAttributeDescription, "UnityEngine.UIElements", "UxmlAttributeDescription");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UnityEngine__UIElements__UxmlAttributeDescription__Use, "UnityEngine.UIElements", "UxmlAttributeDescription/Use");
+NEED_NO_BOX(UnityEngine::UIElements::UxmlAttributeDescription);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UxmlAttributeDescription, "UnityEngine.UIElements", "UxmlAttributeDescription");

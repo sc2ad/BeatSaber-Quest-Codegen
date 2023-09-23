@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 struct MultiplayerUnavailableReason;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field NetworkUnreachable offset 0
-static ::GlobalNamespace::MultiplayerUnavailableReason const NetworkUnreachable;
+static GlobalNamespace::MultiplayerUnavailableReason const NetworkUnreachable;
 
 /// @brief Field UpdateRequired offset 0
-static ::GlobalNamespace::MultiplayerUnavailableReason const UpdateRequired;
+static GlobalNamespace::MultiplayerUnavailableReason const UpdateRequired;
 
 /// @brief Field ServerOffline offset 0
-static ::GlobalNamespace::MultiplayerUnavailableReason const ServerOffline;
+static GlobalNamespace::MultiplayerUnavailableReason const ServerOffline;
 
 /// @brief Field MaintenanceMode offset 0
-static ::GlobalNamespace::MultiplayerUnavailableReason const MaintenanceMode;
+static GlobalNamespace::MultiplayerUnavailableReason const MaintenanceMode;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerUnavailableReason, "", "MultiplayerUnavailableReason");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerUnavailableReason, "", "MultiplayerUnavailableReason");

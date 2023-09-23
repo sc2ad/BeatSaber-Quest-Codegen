@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Reflection {
 struct PInfo;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Attributes offset 0
-static ::System::Reflection::PInfo const Attributes;
+static System::Reflection::PInfo const Attributes;
 
 /// @brief Field GetMethod offset 0
-static ::System::Reflection::PInfo const GetMethod;
+static System::Reflection::PInfo const GetMethod;
 
 /// @brief Field SetMethod offset 0
-static ::System::Reflection::PInfo const SetMethod;
+static System::Reflection::PInfo const SetMethod;
 
 /// @brief Field ReflectedType offset 0
-static ::System::Reflection::PInfo const ReflectedType;
+static System::Reflection::PInfo const ReflectedType;
 
 /// @brief Field DeclaringType offset 0
-static ::System::Reflection::PInfo const DeclaringType;
+static System::Reflection::PInfo const DeclaringType;
 
 /// @brief Field Name offset 0
-static ::System::Reflection::PInfo const Name;
+static System::Reflection::PInfo const Name;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Reflection
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::PInfo, "System.Reflection", "PInfo");
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::PInfo, "System.Reflection", "PInfo");

@@ -1,6 +1,5 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
@@ -27,12 +26,11 @@ constexpr explicit IBindingRequest(void* ptr) noexcept : ::cordl_internals::Inte
 // Methods
 
 /// @brief Method Bind addr 0x0 size 0xffffffffffffffff virtual true final false
- void Bind(::UnityEngine::UIElements::VisualElement element) ;
+ void Bind(UnityEngine::UIElements::VisualElement element) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::IBindingRequest);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::IBindingRequest, "UnityEngine.UIElements", "IBindingRequest");
+NEED_NO_BOX(UnityEngine::UIElements::IBindingRequest);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::IBindingRequest, "UnityEngine.UIElements", "IBindingRequest");

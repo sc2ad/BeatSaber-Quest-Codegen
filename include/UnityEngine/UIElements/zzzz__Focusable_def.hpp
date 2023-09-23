@@ -2,12 +2,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__CallbackEventHandler_def.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine::UIElements {
-class FocusController;
-}
 namespace UnityEngine::UIElements {
 class VisualElement;
+}
+namespace UnityEngine::UIElements {
+class FocusController;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
@@ -22,7 +21,7 @@ namespace UnityEngine::UIElements {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7310))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6966))
 // CS Name: UnityEngine.UIElements.Focusable
-class CORDL_TYPE Focusable : public ::UnityEngine::UIElements::CallbackEventHandler {
+class CORDL_TYPE Focusable : public UnityEngine::UIElements::CallbackEventHandler {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr Focusable(Focusable const& ) noexcept = default;
 constexpr Focusable(Focusable&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Focusable(void* ptr) noexcept : ::UnityEngine::UIElements::CallbackEventHandler(ptr) {
+constexpr explicit Focusable(void* ptr) noexcept : UnityEngine::UIElements::CallbackEventHandler(ptr) {
 }
 
 
@@ -91,7 +90,7 @@ constexpr bool __get_isIMGUIContainer() const;
 
 // Properties
 
- ::UnityEngine::UIElements::FocusController __declspec(property(get=get_focusController))  focusController;
+ UnityEngine::UIElements::FocusController __declspec(property(get=get_focusController))  focusController;
 
  bool __declspec(property(get=get_focusable, put=set_focusable))  focusable;
 
@@ -113,7 +112,7 @@ explicit Focusable() ;
  void _ctor() ;
 
 /// @brief Method get_focusController addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::UIElements::FocusController get_focusController() ;
+ UnityEngine::UIElements::FocusController get_focusController() ;
 
 /// @brief Method get_focusable addr 0x2c80f2c size 0x8 virtual false final false
  bool get_focusable() ;
@@ -152,24 +151,23 @@ explicit Focusable() ;
  void BlurImmediately() ;
 
 /// @brief Method GetFocusDelegate addr 0x2c811e0 size 0x90 virtual false final false
- ::UnityEngine::UIElements::Focusable GetFocusDelegate() ;
+ UnityEngine::UIElements::Focusable GetFocusDelegate() ;
 
 /// @brief Method GetFirstFocusableChild addr 0x2c813f0 size 0x120 virtual false final false
-static ::UnityEngine::UIElements::Focusable GetFirstFocusableChild(::UnityEngine::UIElements::VisualElement ve) ;
+static UnityEngine::UIElements::Focusable GetFirstFocusableChild(UnityEngine::UIElements::VisualElement ve) ;
 
 /// @brief Method ExecuteDefaultAction addr 0x2c81510 size 0x2c virtual true final false
- void ExecuteDefaultAction(::UnityEngine::UIElements::EventBase evt) ;
+ void ExecuteDefaultAction(UnityEngine::UIElements::EventBase evt) ;
 
 /// @brief Method ExecuteDefaultActionDisabled addr 0x2c8159c size 0x2c virtual true final false
- void ExecuteDefaultActionDisabled(::UnityEngine::UIElements::EventBase evt) ;
+ void ExecuteDefaultActionDisabled(UnityEngine::UIElements::EventBase evt) ;
 
 /// @brief Method ProcessEvent addr 0x2c8153c size 0x60 virtual false final false
- void ProcessEvent(::UnityEngine::UIElements::EventBase evt) ;
+ void ProcessEvent(UnityEngine::UIElements::EventBase evt) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::Focusable);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Focusable, "UnityEngine.UIElements", "Focusable");
+NEED_NO_BOX(UnityEngine::UIElements::Focusable);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::Focusable, "UnityEngine.UIElements", "Focusable");

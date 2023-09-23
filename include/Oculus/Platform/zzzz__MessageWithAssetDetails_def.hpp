@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__AssetDetails_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
 class AssetDetails;
 }
@@ -17,7 +16,7 @@ namespace Oculus::Platform {
 // Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 1130 }), TypeDefinitionIndex(TypeDefinitionIndex(13388)), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13214))
 // CS Name: Oculus.Platform.MessageWithAssetDetails
-class CORDL_TYPE MessageWithAssetDetails : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetDetails> {
+class CORDL_TYPE MessageWithAssetDetails : public Oculus::Platform::Message_1<Oculus::Platform::Models::AssetDetails> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr MessageWithAssetDetails(MessageWithAssetDetails const& ) noexcept = de
 constexpr MessageWithAssetDetails(MessageWithAssetDetails&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MessageWithAssetDetails(void* ptr) noexcept : ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetDetails>(ptr) {
+constexpr explicit MessageWithAssetDetails(void* ptr) noexcept : Oculus::Platform::Message_1<Oculus::Platform::Models::AssetDetails>(ptr) {
 }
 
 
@@ -60,15 +59,14 @@ explicit MessageWithAssetDetails(::cordl_internals::intptr_t c_message) ;
  void _ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method GetAssetDetails addr 0x2580068 size 0x3c virtual true final false
- ::Oculus::Platform::Models::AssetDetails GetAssetDetails() ;
+ Oculus::Platform::Models::AssetDetails GetAssetDetails() ;
 
 /// @brief Method GetDataFromMessage addr 0x25800a4 size 0x9c virtual true final false
- ::Oculus::Platform::Models::AssetDetails GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
+ Oculus::Platform::Models::AssetDetails GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::MessageWithAssetDetails);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithAssetDetails, "Oculus.Platform", "MessageWithAssetDetails");
+NEED_NO_BOX(Oculus::Platform::MessageWithAssetDetails);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithAssetDetails, "Oculus.Platform", "MessageWithAssetDetails");

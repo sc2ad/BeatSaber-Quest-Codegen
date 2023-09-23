@@ -2,7 +2,6 @@
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
 struct InternalPrimitiveTypeE;
@@ -84,65 +83,64 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Invalid offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const Invalid;
+static System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const Invalid;
 
 /// @brief Field Boolean offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const Boolean;
+static System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const Boolean;
 
 /// @brief Field Byte offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const Byte;
+static System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const Byte;
 
 /// @brief Field Char offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const Char;
+static System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const Char;
 
 /// @brief Field Currency offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const Currency;
+static System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const Currency;
 
 /// @brief Field Decimal offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const Decimal;
+static System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const Decimal;
 
 /// @brief Field Double offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const Double;
+static System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const Double;
 
 /// @brief Field Int16 offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const Int16;
+static System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const Int16;
 
 /// @brief Field Int32 offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const Int32;
+static System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const Int32;
 
 /// @brief Field Int64 offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const Int64;
+static System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const Int64;
 
 /// @brief Field SByte offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const SByte;
+static System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const SByte;
 
 /// @brief Field Single offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const Single;
+static System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const Single;
 
 /// @brief Field TimeSpan offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const TimeSpan;
+static System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const TimeSpan;
 
 /// @brief Field DateTime offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const DateTime;
+static System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const DateTime;
 
 /// @brief Field UInt16 offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const UInt16;
+static System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const UInt16;
 
 /// @brief Field UInt32 offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const UInt32;
+static System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const UInt32;
 
 /// @brief Field UInt64 offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const UInt64;
+static System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const UInt64;
 
 /// @brief Field Null offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const Null;
+static System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const Null;
 
 /// @brief Field String offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const String;
+static System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const String;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization::Formatters::Binary
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE, "System.Runtime.Serialization.Formatters.Binary", "InternalPrimitiveTypeE");
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE, "System.Runtime.Serialization.Formatters.Binary", "InternalPrimitiveTypeE");

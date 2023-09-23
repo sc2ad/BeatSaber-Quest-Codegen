@@ -1,6 +1,5 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace System {
 template<typename T>
 class Action_1;
@@ -31,14 +30,13 @@ constexpr explicit IValueChanger_1(void* ptr) noexcept : ::cordl_internals::Inte
 // Methods
 
 /// @brief Method add_valueChangedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void add_valueChangedEvent(::System::Action_1<T> value) ;
+ void add_valueChangedEvent(System::Action_1<T> value) ;
 
 /// @brief Method remove_valueChangedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void remove_valueChangedEvent(::System::Action_1<T> value) ;
+ void remove_valueChangedEvent(System::Action_1<T> value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HMUI
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::HMUI::IValueChanger_1, "HMUI", "IValueChanger`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(HMUI::IValueChanger_1, "HMUI", "IValueChanger`1");

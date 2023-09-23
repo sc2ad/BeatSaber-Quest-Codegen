@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Diagnostics {
-class TraceEventCache;
-}
 namespace System::Diagnostics {
 struct TraceEventType;
+}
+namespace System::Diagnostics {
+class TraceEventCache;
 }
 // Forward declare root types
 namespace System::Diagnostics {
@@ -58,15 +57,14 @@ constexpr explicit TraceFilter(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 // Methods
 
 /// @brief Method ShouldTrace addr 0x0 size 0xffffffffffffffff virtual true final false
- bool ShouldTrace(::System::Diagnostics::TraceEventCache cache, ::StringW source, ::System::Diagnostics::TraceEventType eventType, int32_t id, ::StringW formatOrMessage, ::ArrayW<::bs_hook::Il2CppWrapperType> args, ::bs_hook::Il2CppWrapperType data1, ::ArrayW<::bs_hook::Il2CppWrapperType> data) ;
+ bool ShouldTrace(System::Diagnostics::TraceEventCache cache, ::StringW source, System::Diagnostics::TraceEventType eventType, int32_t id, ::StringW formatOrMessage, ::ArrayW<::bs_hook::Il2CppWrapperType> args, ::bs_hook::Il2CppWrapperType data1, ::ArrayW<::bs_hook::Il2CppWrapperType> data) ;
 
 /// @brief Method ShouldTrace addr 0x27dae44 size 0x2c virtual false final false
- bool ShouldTrace(::System::Diagnostics::TraceEventCache cache, ::StringW source, ::System::Diagnostics::TraceEventType eventType, int32_t id, ::StringW formatOrMessage) ;
+ bool ShouldTrace(System::Diagnostics::TraceEventCache cache, ::StringW source, System::Diagnostics::TraceEventType eventType, int32_t id, ::StringW formatOrMessage) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Diagnostics
-} // end anonymous namespace
-NEED_NO_BOX(::System::Diagnostics::TraceFilter);
-DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::TraceFilter, "System.Diagnostics", "TraceFilter");
+NEED_NO_BOX(System::Diagnostics::TraceFilter);
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::TraceFilter, "System.Diagnostics", "TraceFilter");

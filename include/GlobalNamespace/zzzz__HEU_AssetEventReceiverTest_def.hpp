@@ -1,16 +1,15 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
+namespace UnityEngine {
+class GameObject;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine {
-class GameObject;
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAsset;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,7 +21,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9534))
 // CS Name: HEU_AssetEventReceiverTest
-class CORDL_TYPE HEU_AssetEventReceiverTest : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE HEU_AssetEventReceiverTest : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr HEU_AssetEventReceiverTest(HEU_AssetEventReceiverTest const& ) noexcep
 constexpr HEU_AssetEventReceiverTest(HEU_AssetEventReceiverTest&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HEU_AssetEventReceiverTest(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit HEU_AssetEventReceiverTest(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -59,13 +58,13 @@ constexpr explicit HEU_AssetEventReceiverTest(void* ptr) noexcept : ::UnityEngin
 // Methods
 
 /// @brief Method ReloadCallback addr 0x1fda4bc size 0x1ac virtual false final false
- void ReloadCallback(::HoudiniEngineUnity::HEU_HoudiniAsset asset, bool success, ::System::Collections::Generic::List_1<::UnityEngine::GameObject> outputList) ;
+ void ReloadCallback(HoudiniEngineUnity::HEU_HoudiniAsset asset, bool success, System::Collections::Generic::List_1<UnityEngine::GameObject> outputList) ;
 
 /// @brief Method CookedCallback addr 0x1fda668 size 0x1ac virtual false final false
- void CookedCallback(::HoudiniEngineUnity::HEU_HoudiniAsset asset, bool success, ::System::Collections::Generic::List_1<::UnityEngine::GameObject> outputList) ;
+ void CookedCallback(HoudiniEngineUnity::HEU_HoudiniAsset asset, bool success, System::Collections::Generic::List_1<UnityEngine::GameObject> outputList) ;
 
 /// @brief Method BakedCallback addr 0x1fda814 size 0x1ac virtual false final false
- void BakedCallback(::HoudiniEngineUnity::HEU_HoudiniAsset asset, bool success, ::System::Collections::Generic::List_1<::UnityEngine::GameObject> outputList) ;
+ void BakedCallback(HoudiniEngineUnity::HEU_HoudiniAsset asset, bool success, System::Collections::Generic::List_1<UnityEngine::GameObject> outputList) ;
 
 // Ctor Parameters []
 explicit HEU_AssetEventReceiverTest() ;
@@ -77,6 +76,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::HEU_AssetEventReceiverTest);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::HEU_AssetEventReceiverTest, "", "HEU_AssetEventReceiverTest");
+NEED_NO_BOX(GlobalNamespace::HEU_AssetEventReceiverTest);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HEU_AssetEventReceiverTest, "", "HEU_AssetEventReceiverTest");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System {
 class Type;
 }
@@ -59,7 +58,7 @@ constexpr explicit DataItemConvertor_1(void* ptr) noexcept : ::bs_hook::Il2CppWr
 
 // Properties
 
- ::System::Type __declspec(property(get=get_inputDataType))  inputDataType;
+ System::Type __declspec(property(get=get_inputDataType))  inputDataType;
 
 
 // Methods
@@ -68,7 +67,7 @@ constexpr explicit DataItemConvertor_1(void* ptr) noexcept : ::bs_hook::Il2CppWr
  TOut Convert(::bs_hook::Il2CppWrapperType item) ;
 
 /// @brief Method get_inputDataType addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Type get_inputDataType() ;
+ System::Type get_inputDataType() ;
 
 // Ctor Parameters []
 explicit DataItemConvertor_1() ;
@@ -80,5 +79,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::DataItemConvertor_1, "", "DataItemConvertor`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::DataItemConvertor_1, "", "DataItemConvertor`1");

@@ -2,12 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
+namespace Zenject {
+class DiContainer;
+}
 namespace GlobalNamespace {
 class LightColorGroupEffect;
 }
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
+class LightGroup;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -17,17 +19,14 @@ namespace GlobalNamespace {
 class ColorBoostBeatmapEventData;
 }
 namespace GlobalNamespace {
-class LightGroup;
+class BeatmapDataCallbackWrapper;
+}
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyCollection_1;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -39,7 +38,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5022))
 // CS Name: LightColorGroupEffectManager
-class CORDL_TYPE LightColorGroupEffectManager : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE LightColorGroupEffectManager : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -54,7 +53,7 @@ constexpr LightColorGroupEffectManager(LightColorGroupEffectManager const& ) noe
 constexpr LightColorGroupEffectManager(LightColorGroupEffectManager&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LightColorGroupEffectManager(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit LightColorGroupEffectManager(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -75,46 +74,46 @@ constexpr explicit LightColorGroupEffectManager(void* ptr) noexcept : ::UnityEng
 
 // Fields
 
- ::ArrayW<::GlobalNamespace::LightGroup> __declspec(property(get=__get__lightGroups, put=__set__lightGroups))  _lightGroups;
+ ::ArrayW<GlobalNamespace::LightGroup> __declspec(property(get=__get__lightGroups, put=__set__lightGroups))  _lightGroups;
 
-constexpr void __set__lightGroups(::ArrayW<::GlobalNamespace::LightGroup> value) ;
+constexpr void __set__lightGroups(::ArrayW<GlobalNamespace::LightGroup> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::LightGroup> __get__lightGroups() const;
+constexpr ::ArrayW<GlobalNamespace::LightGroup> __get__lightGroups() const;
 
- ::GlobalNamespace::BeatmapCallbacksController __declspec(property(get=__get__beatmapCallbacksController, put=__set__beatmapCallbacksController))  _beatmapCallbacksController;
+ GlobalNamespace::BeatmapCallbacksController __declspec(property(get=__get__beatmapCallbacksController, put=__set__beatmapCallbacksController))  _beatmapCallbacksController;
 
-constexpr void __set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController value) ;
+constexpr void __set__beatmapCallbacksController(GlobalNamespace::BeatmapCallbacksController value) ;
 
-constexpr ::GlobalNamespace::BeatmapCallbacksController __get__beatmapCallbacksController() const;
+constexpr GlobalNamespace::BeatmapCallbacksController __get__beatmapCallbacksController() const;
 
- ::Zenject::DiContainer __declspec(property(get=__get__container, put=__set__container))  _container;
+ Zenject::DiContainer __declspec(property(get=__get__container, put=__set__container))  _container;
 
-constexpr void __set__container(::Zenject::DiContainer value) ;
+constexpr void __set__container(Zenject::DiContainer value) ;
 
-constexpr ::Zenject::DiContainer __get__container() const;
+constexpr Zenject::DiContainer __get__container() const;
 
- ::GlobalNamespace::BeatmapDataCallbackWrapper __declspec(property(get=__get__colorBoostBeatmapDataCallbackWrapper, put=__set__colorBoostBeatmapDataCallbackWrapper))  _colorBoostBeatmapDataCallbackWrapper;
+ GlobalNamespace::BeatmapDataCallbackWrapper __declspec(property(get=__get__colorBoostBeatmapDataCallbackWrapper, put=__set__colorBoostBeatmapDataCallbackWrapper))  _colorBoostBeatmapDataCallbackWrapper;
 
-constexpr void __set__colorBoostBeatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper value) ;
+constexpr void __set__colorBoostBeatmapDataCallbackWrapper(GlobalNamespace::BeatmapDataCallbackWrapper value) ;
 
-constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper __get__colorBoostBeatmapDataCallbackWrapper() const;
+constexpr GlobalNamespace::BeatmapDataCallbackWrapper __get__colorBoostBeatmapDataCallbackWrapper() const;
 
- ::System::Collections::Generic::List_1<::GlobalNamespace::LightColorGroupEffect> __declspec(property(get=__get__lightColorGroupEffects, put=__set__lightColorGroupEffects))  _lightColorGroupEffects;
+ System::Collections::Generic::List_1<GlobalNamespace::LightColorGroupEffect> __declspec(property(get=__get__lightColorGroupEffects, put=__set__lightColorGroupEffects))  _lightColorGroupEffects;
 
-constexpr void __set__lightColorGroupEffects(::System::Collections::Generic::List_1<::GlobalNamespace::LightColorGroupEffect> value) ;
+constexpr void __set__lightColorGroupEffects(System::Collections::Generic::List_1<GlobalNamespace::LightColorGroupEffect> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::LightColorGroupEffect> __get__lightColorGroupEffects() const;
+constexpr System::Collections::Generic::List_1<GlobalNamespace::LightColorGroupEffect> __get__lightColorGroupEffects() const;
 
 
 // Properties
 
- ::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::LightGroup> __declspec(property(get=get_lightGroups))  lightGroups;
+ System::Collections::Generic::IReadOnlyCollection_1<GlobalNamespace::LightGroup> __declspec(property(get=get_lightGroups))  lightGroups;
 
 
 // Methods
 
 /// @brief Method get_lightGroups addr 0x225d98c size 0x8 virtual false final false
- ::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::LightGroup> get_lightGroups() ;
+ System::Collections::Generic::IReadOnlyCollection_1<GlobalNamespace::LightGroup> get_lightGroups() ;
 
 /// @brief Method Start addr 0x225d994 size 0x2a0 virtual false final false
  void Start() ;
@@ -123,7 +122,7 @@ constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::LightColorGr
  void OnDestroy() ;
 
 /// @brief Method HandleColorBoostBeatmapEvent addr 0x225dd90 size 0x15c virtual false final false
- void HandleColorBoostBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData eventData) ;
+ void HandleColorBoostBeatmapEvent(GlobalNamespace::ColorBoostBeatmapEventData eventData) ;
 
 // Ctor Parameters []
 explicit LightColorGroupEffectManager() ;
@@ -135,6 +134,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LightColorGroupEffectManager);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightColorGroupEffectManager, "", "LightColorGroupEffectManager");
+NEED_NO_BOX(GlobalNamespace::LightColorGroupEffectManager);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightColorGroupEffectManager, "", "LightColorGroupEffectManager");

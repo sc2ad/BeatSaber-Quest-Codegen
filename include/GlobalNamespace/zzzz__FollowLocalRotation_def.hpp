@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace UnityEngine {
 class Transform;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13801))
 // CS Name: FollowLocalRotation
-class CORDL_TYPE FollowLocalRotation : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE FollowLocalRotation : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr FollowLocalRotation(FollowLocalRotation const& ) noexcept = default;
 constexpr FollowLocalRotation(FollowLocalRotation&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FollowLocalRotation(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit FollowLocalRotation(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -51,17 +50,17 @@ constexpr explicit FollowLocalRotation(void* ptr) noexcept : ::UnityEngine::Mono
 
 // Fields
 
- ::UnityEngine::Transform __declspec(property(get=__get__target, put=__set__target))  _target;
+ UnityEngine::Transform __declspec(property(get=__get__target, put=__set__target))  _target;
 
-constexpr void __set__target(::UnityEngine::Transform value) ;
+constexpr void __set__target(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__target() const;
+constexpr UnityEngine::Transform __get__target() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
+ UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
 
-constexpr void __set__transform(::UnityEngine::Transform value) ;
+constexpr void __set__transform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__transform() const;
+constexpr UnityEngine::Transform __get__transform() const;
 
 
 // Methods
@@ -82,6 +81,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::FollowLocalRotation);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FollowLocalRotation, "", "FollowLocalRotation");
+NEED_NO_BOX(GlobalNamespace::FollowLocalRotation);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FollowLocalRotation, "", "FollowLocalRotation");

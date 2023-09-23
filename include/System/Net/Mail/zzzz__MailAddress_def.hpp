@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Net::Mime {
-class EncodedStreamFactory;
-}
 namespace System::Text {
 class Encoding;
+}
+namespace System::Net::Mime {
+class EncodedStreamFactory;
 }
 // Forward declare root types
 namespace System::Net::Mail {
@@ -56,11 +55,11 @@ constexpr explicit MailAddress(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 
 // Fields
 
- ::System::Text::Encoding __declspec(property(get=__get__displayNameEncoding, put=__set__displayNameEncoding))  _displayNameEncoding;
+ System::Text::Encoding __declspec(property(get=__get__displayNameEncoding, put=__set__displayNameEncoding))  _displayNameEncoding;
 
-constexpr void __set__displayNameEncoding(::System::Text::Encoding value) ;
+constexpr void __set__displayNameEncoding(System::Text::Encoding value) ;
 
-constexpr ::System::Text::Encoding __get__displayNameEncoding() const;
+constexpr System::Text::Encoding __get__displayNameEncoding() const;
 
  ::StringW __declspec(property(get=__get__displayName, put=__set__displayName))  _displayName;
 
@@ -80,11 +79,11 @@ constexpr void __set__host(::StringW value) ;
 
 constexpr ::StringW __get__host() const;
 
-static ::System::Net::Mime::EncodedStreamFactory __declspec(property(get=__get_s_encoderFactory, put=__set_s_encoderFactory))  s_encoderFactory;
+static System::Net::Mime::EncodedStreamFactory __declspec(property(get=__get_s_encoderFactory, put=__set_s_encoderFactory))  s_encoderFactory;
 
-static void __set_s_encoderFactory(::System::Net::Mime::EncodedStreamFactory value) ;
+static void __set_s_encoderFactory(System::Net::Mime::EncodedStreamFactory value) ;
 
-static ::System::Net::Mime::EncodedStreamFactory __get_s_encoderFactory() ;
+static System::Net::Mime::EncodedStreamFactory __get_s_encoderFactory() ;
 
 
 // Properties
@@ -110,11 +109,11 @@ explicit MailAddress(::StringW address) ;
 /// @brief Method .ctor addr 0x2770900 size 0xc virtual false final false
  void _ctor(::StringW address) ;
 
-// Ctor Parameters [CppParam { name: "address", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "displayName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "displayNameEncoding", ty: "::System::Text::Encoding", modifiers: "", def_value: None }]
-explicit MailAddress(::StringW address, ::StringW displayName, ::System::Text::Encoding displayNameEncoding) ;
+// Ctor Parameters [CppParam { name: "address", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "displayName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "displayNameEncoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
+explicit MailAddress(::StringW address, ::StringW displayName, System::Text::Encoding displayNameEncoding) ;
 
 /// @brief Method .ctor addr 0x277090c size 0x24c virtual false final false
- void _ctor(::StringW address, ::StringW displayName, ::System::Text::Encoding displayNameEncoding) ;
+ void _ctor(::StringW address, ::StringW displayName, System::Text::Encoding displayNameEncoding) ;
 
 /// @brief Method get_DisplayName addr 0x2770b58 size 0x8 virtual false final false
  ::StringW get_DisplayName() ;
@@ -138,6 +137,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Mail
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Mail::MailAddress);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Mail::MailAddress, "System.Net.Mail", "MailAddress");
+NEED_NO_BOX(System::Net::Mail::MailAddress);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Mail::MailAddress, "System.Net.Mail", "MailAddress");

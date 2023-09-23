@@ -3,12 +3,11 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-class IAsyncResult;
-}
 namespace System {
 class AsyncCallback;
+}
+namespace System {
+class IAsyncResult;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,10 +24,10 @@ namespace GlobalNamespace {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4826)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610)), TypeDefinitionIndex(TypeDefinitionIndex(4826))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4826), inst: 2 })
 // CS Name: BeatmapDataCallback`1
-class CORDL_TYPE BeatmapDataCallback_1<T> : public ::System::MulticastDelegate {
+class CORDL_TYPE BeatmapDataCallback_1<T> : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -43,7 +42,7 @@ constexpr BeatmapDataCallback_1(BeatmapDataCallback_1 const& ) noexcept = defaul
 constexpr BeatmapDataCallback_1(BeatmapDataCallback_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BeatmapDataCallback_1(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit BeatmapDataCallback_1(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -74,14 +73,13 @@ explicit BeatmapDataCallback_1(::bs_hook::Il2CppWrapperType object, ::cordl_inte
  void Invoke(T data) ;
 
 /// @brief Method BeginInvoke addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::IAsyncResult BeginInvoke(T data, ::System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
+ System::IAsyncResult BeginInvoke(T data, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
 
 /// @brief Method EndInvoke addr 0x0 size 0xffffffffffffffff virtual true final false
- void EndInvoke(::System::IAsyncResult result) ;
+ void EndInvoke(System::IAsyncResult result) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::BeatmapDataCallback_1, "", "BeatmapDataCallback`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::BeatmapDataCallback_1, "", "BeatmapDataCallback`1");

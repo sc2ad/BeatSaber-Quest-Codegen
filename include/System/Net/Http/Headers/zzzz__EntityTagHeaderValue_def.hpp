@@ -4,7 +4,9 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace System::Net::Http::Headers {
+struct Token;
+}
 namespace System {
 class ICloneable;
 }
@@ -14,9 +16,6 @@ class Lexer;
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace System::Net::Http::Headers {
-struct Token;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -31,8 +30,8 @@ namespace System::Net::Http::Headers {
 class CORDL_TYPE EntityTagHeaderValue : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::ICloneable
-constexpr operator  ::System::ICloneable() const noexcept;
+/// @brief Convert operator to System::ICloneable
+constexpr operator  System::ICloneable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -67,11 +66,11 @@ constexpr explicit EntityTagHeaderValue(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 // Fields
 
-static ::System::Net::Http::Headers::EntityTagHeaderValue __declspec(property(get=__get_any, put=__set_any))  any;
+static System::Net::Http::Headers::EntityTagHeaderValue __declspec(property(get=__get_any, put=__set_any))  any;
 
-static void __set_any(::System::Net::Http::Headers::EntityTagHeaderValue value) ;
+static void __set_any(System::Net::Http::Headers::EntityTagHeaderValue value) ;
 
-static ::System::Net::Http::Headers::EntityTagHeaderValue __get_any() ;
+static System::Net::Http::Headers::EntityTagHeaderValue __get_any() ;
 
  bool __declspec(property(get=__get__IsWeak_k__BackingField, put=__set__IsWeak_k__BackingField))  _IsWeak_k__BackingField;
 
@@ -123,13 +122,13 @@ explicit EntityTagHeaderValue() ;
  int32_t GetHashCode() ;
 
 /// @brief Method TryParse addr 0x26a70c0 size 0xf4 virtual false final false
-static bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::EntityTagHeaderValue> parsedValue) ;
+static bool TryParse(::StringW input, ByRef<System::Net::Http::Headers::EntityTagHeaderValue> parsedValue) ;
 
 /// @brief Method TryParseElement addr 0x26a71b4 size 0x1e4 virtual false final false
-static bool TryParseElement(::System::Net::Http::Headers::Lexer lexer, ByRef<::System::Net::Http::Headers::EntityTagHeaderValue> parsedValue, ByRef<::System::Net::Http::Headers::Token> t) ;
+static bool TryParseElement(System::Net::Http::Headers::Lexer lexer, ByRef<System::Net::Http::Headers::EntityTagHeaderValue> parsedValue, ByRef<System::Net::Http::Headers::Token> t) ;
 
 /// @brief Method TryParse addr 0x26a73e8 size 0xb0 virtual false final false
-static bool TryParse(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::EntityTagHeaderValue>> result) ;
+static bool TryParse(::StringW input, int32_t minimalCount, ByRef<System::Collections::Generic::List_1<System::Net::Http::Headers::EntityTagHeaderValue>> result) ;
 
 /// @brief Method ToString addr 0x26a7498 size 0x64 virtual true final false
  ::StringW ToString() ;
@@ -138,6 +137,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Http::Headers
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Http::Headers::EntityTagHeaderValue);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::EntityTagHeaderValue, "System.Net.Http.Headers", "EntityTagHeaderValue");
+NEED_NO_BOX(System::Net::Http::Headers::EntityTagHeaderValue);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::EntityTagHeaderValue, "System.Net.Http.Headers", "EntityTagHeaderValue");

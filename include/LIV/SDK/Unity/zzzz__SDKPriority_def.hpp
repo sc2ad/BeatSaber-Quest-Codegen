@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace LIV::SDK::Unity {
 struct SDKPriority;
@@ -102,13 +101,13 @@ constexpr int8_t __get_reserved2() const;
 
 // Properties
 
-static ::LIV::SDK::Unity::SDKPriority __declspec(property(get=get_empty))  empty;
+static LIV::SDK::Unity::SDKPriority __declspec(property(get=get_empty))  empty;
 
 
 // Methods
 
 /// @brief Method get_empty addr 0x20a24f8 size 0xc virtual false final false
-static ::LIV::SDK::Unity::SDKPriority get_empty() ;
+static LIV::SDK::Unity::SDKPriority get_empty() ;
 
 /// @brief Method ToString addr 0x20a2504 size 0x26c virtual true final false
  ::StringW ToString() ;
@@ -117,5 +116,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def LIV::SDK::Unity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::SDKPriority, "LIV.SDK.Unity", "SDKPriority");
+DEFINE_IL2CPP_ARG_TYPE(LIV::SDK::Unity::SDKPriority, "LIV.SDK.Unity", "SDKPriority");

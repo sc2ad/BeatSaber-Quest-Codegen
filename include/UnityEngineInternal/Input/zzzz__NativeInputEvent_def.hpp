@@ -3,7 +3,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngineInternal::Input {
 struct NativeInputEventType;
 }
@@ -20,8 +19,8 @@ namespace UnityEngineInternal::Input {
 struct CORDL_TYPE NativeInputEvent : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "type", ty: "::UnityEngineInternal::Input::NativeInputEventType", modifiers: "", def_value: None }, CppParam { name: "sizeInBytes", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "deviceId", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "time", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "eventId", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr NativeInputEvent(::UnityEngineInternal::Input::NativeInputEventType type, uint16_t sizeInBytes, uint16_t deviceId, double_t time, int32_t eventId) noexcept;
+// Ctor Parameters [CppParam { name: "type", ty: "UnityEngineInternal::Input::NativeInputEventType", modifiers: "", def_value: None }, CppParam { name: "sizeInBytes", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "deviceId", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "time", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "eventId", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr NativeInputEvent(UnityEngineInternal::Input::NativeInputEventType type, uint16_t sizeInBytes, uint16_t deviceId, double_t time, int32_t eventId) noexcept;
 
 
                     constexpr NativeInputEvent(NativeInputEvent const&) = default;
@@ -57,11 +56,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 /// @brief Field structSize offset 0
 static constexpr int32_t  structSize{20};
 
- ::UnityEngineInternal::Input::NativeInputEventType __declspec(property(get=__get_type, put=__set_type))  type;
+ UnityEngineInternal::Input::NativeInputEventType __declspec(property(get=__get_type, put=__set_type))  type;
 
-constexpr void __set_type(::UnityEngineInternal::Input::NativeInputEventType value) ;
+constexpr void __set_type(UnityEngineInternal::Input::NativeInputEventType value) ;
 
-constexpr ::UnityEngineInternal::Input::NativeInputEventType __get_type() const;
+constexpr UnityEngineInternal::Input::NativeInputEventType __get_type() const;
 
  uint16_t __declspec(property(get=__get_sizeInBytes, put=__set_sizeInBytes))  sizeInBytes;
 
@@ -91,5 +90,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngineInternal::Input
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngineInternal::Input::NativeInputEvent, "UnityEngineInternal.Input", "NativeInputEvent");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::Input::NativeInputEvent, "UnityEngineInternal.Input", "NativeInputEvent");

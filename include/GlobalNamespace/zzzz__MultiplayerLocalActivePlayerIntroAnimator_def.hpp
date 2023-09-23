@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace UnityEngine::Playables {
 class PlayableDirector;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5256))
 // CS Name: MultiplayerLocalActivePlayerIntroAnimator
-class CORDL_TYPE MultiplayerLocalActivePlayerIntroAnimator : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerLocalActivePlayerIntroAnimator : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr MultiplayerLocalActivePlayerIntroAnimator(MultiplayerLocalActivePlayer
 constexpr MultiplayerLocalActivePlayerIntroAnimator(MultiplayerLocalActivePlayerIntroAnimator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerLocalActivePlayerIntroAnimator(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerLocalActivePlayerIntroAnimator(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit MultiplayerLocalActivePlayerIntroAnimator(void* ptr) noexcept
 
 // Fields
 
- ::UnityEngine::Playables::PlayableDirector __declspec(property(get=__get__introPlayableDirector, put=__set__introPlayableDirector))  _introPlayableDirector;
+ UnityEngine::Playables::PlayableDirector __declspec(property(get=__get__introPlayableDirector, put=__set__introPlayableDirector))  _introPlayableDirector;
 
-constexpr void __set__introPlayableDirector(::UnityEngine::Playables::PlayableDirector value) ;
+constexpr void __set__introPlayableDirector(UnityEngine::Playables::PlayableDirector value) ;
 
-constexpr ::UnityEngine::Playables::PlayableDirector __get__introPlayableDirector() const;
+constexpr UnityEngine::Playables::PlayableDirector __get__introPlayableDirector() const;
 
 
 // Methods
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator, "", "MultiplayerLocalActivePlayerIntroAnimator");
+NEED_NO_BOX(GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator, "", "MultiplayerLocalActivePlayerIntroAnimator");

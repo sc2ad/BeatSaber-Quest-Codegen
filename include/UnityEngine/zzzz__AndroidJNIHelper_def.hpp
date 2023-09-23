@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace System {
+class Array;
+}
 namespace UnityEngine {
 struct jvalue;
 }
 namespace UnityEngine {
 class AndroidJavaRunnable;
-}
-namespace System {
-class Array;
 }
 namespace UnityEngine {
 class AndroidJavaProxy;
@@ -99,19 +98,19 @@ static ::cordl_internals::intptr_t GetFieldID(::cordl_internals::intptr_t javaCl
 static ::cordl_internals::intptr_t GetFieldID(::cordl_internals::intptr_t javaClass, ::StringW fieldName, ::StringW signature, bool isStatic) ;
 
 /// @brief Method CreateJavaRunnable addr 0x2b13bd4 size 0x4 virtual false final false
-static ::cordl_internals::intptr_t CreateJavaRunnable(::UnityEngine::AndroidJavaRunnable jrunnable) ;
+static ::cordl_internals::intptr_t CreateJavaRunnable(UnityEngine::AndroidJavaRunnable jrunnable) ;
 
 /// @brief Method CreateJavaProxy addr 0x2b10658 size 0xbc virtual false final false
-static ::cordl_internals::intptr_t CreateJavaProxy(::UnityEngine::AndroidJavaProxy proxy) ;
+static ::cordl_internals::intptr_t CreateJavaProxy(UnityEngine::AndroidJavaProxy proxy) ;
 
 /// @brief Method ConvertToJNIArray addr 0x2b15e20 size 0x4 virtual false final false
-static ::cordl_internals::intptr_t ConvertToJNIArray(::System::Array array) ;
+static ::cordl_internals::intptr_t ConvertToJNIArray(System::Array array) ;
 
 /// @brief Method CreateJNIArgArray addr 0x2b1174c size 0x4 virtual false final false
-static ::ArrayW<::UnityEngine::jvalue> CreateJNIArgArray(::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
+static ::ArrayW<UnityEngine::jvalue> CreateJNIArgArray(::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
 
 /// @brief Method DeleteJNIArgArray addr 0x2b15e24 size 0x4 virtual false final false
-static void DeleteJNIArgArray(::ArrayW<::bs_hook::Il2CppWrapperType> args, ::ArrayW<::UnityEngine::jvalue> jniArgs) ;
+static void DeleteJNIArgArray(::ArrayW<::bs_hook::Il2CppWrapperType> args, ::ArrayW<UnityEngine::jvalue> jniArgs) ;
 
 /// @brief Method GetConstructorID addr 0x2b11750 size 0x20 virtual false final false
 static ::cordl_internals::intptr_t GetConstructorID(::cordl_internals::intptr_t jclass, ::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
@@ -145,6 +144,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AndroidJNIHelper);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AndroidJNIHelper, "UnityEngine", "AndroidJNIHelper");
+NEED_NO_BOX(UnityEngine::AndroidJNIHelper);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AndroidJNIHelper, "UnityEngine", "AndroidJNIHelper");

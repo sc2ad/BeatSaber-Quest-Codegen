@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
 namespace OVR::OpenVR {
 struct HmdVector2_t;
 }
@@ -18,8 +17,8 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE HmdRect2_t : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "vTopLeft", ty: "::OVR::OpenVR::HmdVector2_t", modifiers: "", def_value: None }, CppParam { name: "vBottomRight", ty: "::OVR::OpenVR::HmdVector2_t", modifiers: "", def_value: None }]
-constexpr HmdRect2_t(::OVR::OpenVR::HmdVector2_t vTopLeft, ::OVR::OpenVR::HmdVector2_t vBottomRight) noexcept;
+// Ctor Parameters [CppParam { name: "vTopLeft", ty: "OVR::OpenVR::HmdVector2_t", modifiers: "", def_value: None }, CppParam { name: "vBottomRight", ty: "OVR::OpenVR::HmdVector2_t", modifiers: "", def_value: None }]
+constexpr HmdRect2_t(OVR::OpenVR::HmdVector2_t vTopLeft, OVR::OpenVR::HmdVector2_t vBottomRight) noexcept;
 
 
                     constexpr HmdRect2_t(HmdRect2_t const&) = default;
@@ -52,21 +51,20 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::OVR::OpenVR::HmdVector2_t __declspec(property(get=__get_vTopLeft, put=__set_vTopLeft))  vTopLeft;
+ OVR::OpenVR::HmdVector2_t __declspec(property(get=__get_vTopLeft, put=__set_vTopLeft))  vTopLeft;
 
-constexpr void __set_vTopLeft(::OVR::OpenVR::HmdVector2_t value) ;
+constexpr void __set_vTopLeft(OVR::OpenVR::HmdVector2_t value) ;
 
-constexpr ::OVR::OpenVR::HmdVector2_t __get_vTopLeft() const;
+constexpr OVR::OpenVR::HmdVector2_t __get_vTopLeft() const;
 
- ::OVR::OpenVR::HmdVector2_t __declspec(property(get=__get_vBottomRight, put=__set_vBottomRight))  vBottomRight;
+ OVR::OpenVR::HmdVector2_t __declspec(property(get=__get_vBottomRight, put=__set_vBottomRight))  vBottomRight;
 
-constexpr void __set_vBottomRight(::OVR::OpenVR::HmdVector2_t value) ;
+constexpr void __set_vBottomRight(OVR::OpenVR::HmdVector2_t value) ;
 
-constexpr ::OVR::OpenVR::HmdVector2_t __get_vBottomRight() const;
+constexpr OVR::OpenVR::HmdVector2_t __get_vBottomRight() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::HmdRect2_t, "OVR.OpenVR", "HmdRect2_t");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::HmdRect2_t, "OVR.OpenVR", "HmdRect2_t");

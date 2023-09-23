@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace GlobalNamespace {
+class Saber;
+}
 namespace GlobalNamespace {
 class SaberManager;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace GlobalNamespace {
-class Saber;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -72,23 +71,23 @@ constexpr void __set__sabersAreClashing(bool value) ;
 
 constexpr bool __get__sabersAreClashing() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__clashingPoint, put=__set__clashingPoint))  _clashingPoint;
+ UnityEngine::Vector3 __declspec(property(get=__get__clashingPoint, put=__set__clashingPoint))  _clashingPoint;
 
-constexpr void __set__clashingPoint(::UnityEngine::Vector3 value) ;
+constexpr void __set__clashingPoint(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__clashingPoint() const;
+constexpr UnityEngine::Vector3 __get__clashingPoint() const;
 
- ::GlobalNamespace::Saber __declspec(property(get=__get__leftSaber, put=__set__leftSaber))  _leftSaber;
+ GlobalNamespace::Saber __declspec(property(get=__get__leftSaber, put=__set__leftSaber))  _leftSaber;
 
-constexpr void __set__leftSaber(::GlobalNamespace::Saber value) ;
+constexpr void __set__leftSaber(GlobalNamespace::Saber value) ;
 
-constexpr ::GlobalNamespace::Saber __get__leftSaber() const;
+constexpr GlobalNamespace::Saber __get__leftSaber() const;
 
- ::GlobalNamespace::Saber __declspec(property(get=__get__rightSaber, put=__set__rightSaber))  _rightSaber;
+ GlobalNamespace::Saber __declspec(property(get=__get__rightSaber, put=__set__rightSaber))  _rightSaber;
 
-constexpr void __set__rightSaber(::GlobalNamespace::Saber value) ;
+constexpr void __set__rightSaber(GlobalNamespace::Saber value) ;
 
-constexpr ::GlobalNamespace::Saber __get__rightSaber() const;
+constexpr GlobalNamespace::Saber __get__rightSaber() const;
 
  int32_t __declspec(property(get=__get__prevGetFrameNum, put=__set__prevGetFrameNum))  _prevGetFrameNum;
 
@@ -100,13 +99,13 @@ constexpr int32_t __get__prevGetFrameNum() const;
 // Methods
 
 /// @brief Method Init addr 0x210be44 size 0x1c virtual false final false
- void Init(::GlobalNamespace::SaberManager saberManager) ;
+ void Init(GlobalNamespace::SaberManager saberManager) ;
 
 /// @brief Method AreSabersClashing addr 0x2107bd4 size 0x164 virtual false final false
- bool AreSabersClashing(ByRef<::UnityEngine::Vector3> clashingPoint) ;
+ bool AreSabersClashing(ByRef<UnityEngine::Vector3> clashingPoint) ;
 
 /// @brief Method SegmentToSegmentDist addr 0x210be60 size 0x268 virtual false final false
- float_t SegmentToSegmentDist(::UnityEngine::Vector3 fromA, ::UnityEngine::Vector3 toA, ::UnityEngine::Vector3 fromB, ::UnityEngine::Vector3 toB, ByRef<::UnityEngine::Vector3> inbetweenPoint) ;
+ float_t SegmentToSegmentDist(UnityEngine::Vector3 fromA, UnityEngine::Vector3 toA, UnityEngine::Vector3 fromB, UnityEngine::Vector3 toB, ByRef<UnityEngine::Vector3> inbetweenPoint) ;
 
 // Ctor Parameters []
 explicit SaberClashChecker() ;
@@ -118,6 +117,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SaberClashChecker);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SaberClashChecker, "", "SaberClashChecker");
+NEED_NO_BOX(GlobalNamespace::SaberClashChecker);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberClashChecker, "", "SaberClashChecker");

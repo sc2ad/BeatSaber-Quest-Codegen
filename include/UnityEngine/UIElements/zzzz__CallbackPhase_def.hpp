@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 struct CallbackPhase;
@@ -67,14 +66,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field TargetAndBubbleUp offset 0
-static ::UnityEngine::UIElements::CallbackPhase const TargetAndBubbleUp;
+static UnityEngine::UIElements::CallbackPhase const TargetAndBubbleUp;
 
 /// @brief Field TrickleDownAndTarget offset 0
-static ::UnityEngine::UIElements::CallbackPhase const TrickleDownAndTarget;
+static UnityEngine::UIElements::CallbackPhase const TrickleDownAndTarget;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::CallbackPhase, "UnityEngine.UIElements", "CallbackPhase");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::CallbackPhase, "UnityEngine.UIElements", "CallbackPhase");

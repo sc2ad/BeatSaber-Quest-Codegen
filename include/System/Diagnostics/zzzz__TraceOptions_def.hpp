@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Diagnostics {
 struct TraceOptions;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::Diagnostics::TraceOptions const None;
+static System::Diagnostics::TraceOptions const None;
 
 /// @brief Field LogicalOperationStack offset 0
-static ::System::Diagnostics::TraceOptions const LogicalOperationStack;
+static System::Diagnostics::TraceOptions const LogicalOperationStack;
 
 /// @brief Field DateTime offset 0
-static ::System::Diagnostics::TraceOptions const DateTime;
+static System::Diagnostics::TraceOptions const DateTime;
 
 /// @brief Field Timestamp offset 0
-static ::System::Diagnostics::TraceOptions const Timestamp;
+static System::Diagnostics::TraceOptions const Timestamp;
 
 /// @brief Field ProcessId offset 0
-static ::System::Diagnostics::TraceOptions const ProcessId;
+static System::Diagnostics::TraceOptions const ProcessId;
 
 /// @brief Field ThreadId offset 0
-static ::System::Diagnostics::TraceOptions const ThreadId;
+static System::Diagnostics::TraceOptions const ThreadId;
 
 /// @brief Field Callstack offset 0
-static ::System::Diagnostics::TraceOptions const Callstack;
+static System::Diagnostics::TraceOptions const Callstack;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Diagnostics
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::TraceOptions, "System.Diagnostics", "TraceOptions");
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::TraceOptions, "System.Diagnostics", "TraceOptions");

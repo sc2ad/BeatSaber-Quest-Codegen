@@ -1,15 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
-}
 namespace HoudiniEngineUnity {
 class HEU_BaseSync;
 }
 namespace UnityEngine {
 class GameObject;
+}
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAsset;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -64,19 +63,19 @@ static void OnBeforeAssemblyReload() ;
 static void Update() ;
 
 /// @brief Method AddAssetForUpdate addr 0x1fdd240 size 0x4 virtual false final false
-static void AddAssetForUpdate(::HoudiniEngineUnity::HEU_HoudiniAsset asset) ;
+static void AddAssetForUpdate(HoudiniEngineUnity::HEU_HoudiniAsset asset) ;
 
 /// @brief Method RemoveAsset addr 0x1fdd244 size 0x4 virtual false final false
-static void RemoveAsset(::HoudiniEngineUnity::HEU_HoudiniAsset asset) ;
+static void RemoveAsset(HoudiniEngineUnity::HEU_HoudiniAsset asset) ;
 
 /// @brief Method AddNodeSyncForUpdate addr 0x1fdd248 size 0x4 virtual false final false
-static void AddNodeSyncForUpdate(::HoudiniEngineUnity::HEU_BaseSync nodeSync) ;
+static void AddNodeSyncForUpdate(HoudiniEngineUnity::HEU_BaseSync nodeSync) ;
 
 /// @brief Method RemoveNodeSync addr 0x1fdd24c size 0x4 virtual false final false
-static void RemoveNodeSync(::HoudiniEngineUnity::HEU_BaseSync nodeSync) ;
+static void RemoveNodeSync(HoudiniEngineUnity::HEU_BaseSync nodeSync) ;
 
 /// @brief Method OnPrefabInstanceUpdate addr 0x1fdd250 size 0x4 virtual false final false
-static void OnPrefabInstanceUpdate(::UnityEngine::GameObject instance) ;
+static void OnPrefabInstanceUpdate(UnityEngine::GameObject instance) ;
 
 // Ctor Parameters []
 explicit HEU_AssetUpdater() ;
@@ -88,6 +87,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_AssetUpdater);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_AssetUpdater, "HoudiniEngineUnity", "HEU_AssetUpdater");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_AssetUpdater);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_AssetUpdater, "HoudiniEngineUnity", "HEU_AssetUpdater");

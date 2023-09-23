@@ -1,30 +1,29 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
-namespace {
-namespace System::Net::Sockets {
-struct SocketError;
-}
 namespace LiteNetLib {
-class NetPacketReader;
-}
-namespace LiteNetLib {
-struct UnconnectedMessageType;
+struct DisconnectInfo;
 }
 namespace LiteNetLib {
 class ConnectionRequest;
-}
-namespace LiteNetLib {
-class NetPeer;
 }
 namespace System::Net {
 class IPEndPoint;
 }
 namespace LiteNetLib {
+class NetPacketReader;
+}
+namespace System::Net::Sockets {
+struct SocketError;
+}
+namespace LiteNetLib {
+class NetPeer;
+}
+namespace LiteNetLib {
 struct DeliveryMethod;
 }
 namespace LiteNetLib {
-struct DisconnectInfo;
+struct UnconnectedMessageType;
 }
 // Forward declare root types
 namespace LiteNetLib {
@@ -49,30 +48,29 @@ constexpr explicit INetEventListener(void* ptr) noexcept : ::cordl_internals::In
 // Methods
 
 /// @brief Method OnPeerConnected addr 0x0 size 0xffffffffffffffff virtual true final false
- void OnPeerConnected(::LiteNetLib::NetPeer peer) ;
+ void OnPeerConnected(LiteNetLib::NetPeer peer) ;
 
 /// @brief Method OnPeerDisconnected addr 0x0 size 0xffffffffffffffff virtual true final false
- void OnPeerDisconnected(::LiteNetLib::NetPeer peer, ::LiteNetLib::DisconnectInfo disconnectInfo) ;
+ void OnPeerDisconnected(LiteNetLib::NetPeer peer, LiteNetLib::DisconnectInfo disconnectInfo) ;
 
 /// @brief Method OnNetworkError addr 0x0 size 0xffffffffffffffff virtual true final false
- void OnNetworkError(::System::Net::IPEndPoint endPoint, ::System::Net::Sockets::SocketError socketError) ;
+ void OnNetworkError(System::Net::IPEndPoint endPoint, System::Net::Sockets::SocketError socketError) ;
 
 /// @brief Method OnNetworkReceive addr 0x0 size 0xffffffffffffffff virtual true final false
- void OnNetworkReceive(::LiteNetLib::NetPeer peer, ::LiteNetLib::NetPacketReader reader, ::LiteNetLib::DeliveryMethod deliveryMethod) ;
+ void OnNetworkReceive(LiteNetLib::NetPeer peer, LiteNetLib::NetPacketReader reader, LiteNetLib::DeliveryMethod deliveryMethod) ;
 
 /// @brief Method OnNetworkReceiveUnconnected addr 0x0 size 0xffffffffffffffff virtual true final false
- void OnNetworkReceiveUnconnected(::System::Net::IPEndPoint remoteEndPoint, ::LiteNetLib::NetPacketReader reader, ::LiteNetLib::UnconnectedMessageType messageType) ;
+ void OnNetworkReceiveUnconnected(System::Net::IPEndPoint remoteEndPoint, LiteNetLib::NetPacketReader reader, LiteNetLib::UnconnectedMessageType messageType) ;
 
 /// @brief Method OnNetworkLatencyUpdate addr 0x0 size 0xffffffffffffffff virtual true final false
- void OnNetworkLatencyUpdate(::LiteNetLib::NetPeer peer, int32_t latency) ;
+ void OnNetworkLatencyUpdate(LiteNetLib::NetPeer peer, int32_t latency) ;
 
 /// @brief Method OnConnectionRequest addr 0x0 size 0xffffffffffffffff virtual true final false
- void OnConnectionRequest(::LiteNetLib::ConnectionRequest request) ;
+ void OnConnectionRequest(LiteNetLib::ConnectionRequest request) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib
-} // end anonymous namespace
-NEED_NO_BOX(::LiteNetLib::INetEventListener);
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::INetEventListener, "LiteNetLib", "INetEventListener");
+NEED_NO_BOX(LiteNetLib::INetEventListener);
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::INetEventListener, "LiteNetLib", "INetEventListener");

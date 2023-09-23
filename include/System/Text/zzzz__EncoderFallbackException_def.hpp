@@ -3,7 +3,6 @@
 #include "System/zzzz__ArgumentException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
@@ -20,7 +19,7 @@ namespace System::Text {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2344))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2839))
 // CS Name: System.Text.EncoderFallbackException
-class CORDL_TYPE EncoderFallbackException : public ::System::ArgumentException {
+class CORDL_TYPE EncoderFallbackException : public System::ArgumentException {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr EncoderFallbackException(EncoderFallbackException const& ) noexcept = 
 constexpr EncoderFallbackException(EncoderFallbackException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EncoderFallbackException(void* ptr) noexcept : ::System::ArgumentException(ptr) {
+constexpr explicit EncoderFallbackException(void* ptr) noexcept : System::ArgumentException(ptr) {
 }
 
 
@@ -101,16 +100,15 @@ explicit EncoderFallbackException(::StringW message, char16_t charUnknownHigh, c
 /// @brief Method .ctor addr 0x24c5944 size 0x1f8 virtual false final false
  void _ctor(::StringW message, char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index) ;
 
-// Ctor Parameters [CppParam { name: "serializationInfo", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit EncoderFallbackException(::System::Runtime::Serialization::SerializationInfo serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext) ;
+// Ctor Parameters [CppParam { name: "serializationInfo", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit EncoderFallbackException(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
 
 /// @brief Method .ctor addr 0x24c5bb0 size 0x8 virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Text
-} // end anonymous namespace
-NEED_NO_BOX(::System::Text::EncoderFallbackException);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::EncoderFallbackException, "System.Text", "EncoderFallbackException");
+NEED_NO_BOX(System::Text::EncoderFallbackException);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::EncoderFallbackException, "System.Text", "EncoderFallbackException");

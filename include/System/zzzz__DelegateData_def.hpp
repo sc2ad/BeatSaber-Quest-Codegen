@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class Type;
 }
@@ -52,11 +51,11 @@ constexpr explicit DelegateData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 
 // Fields
 
- ::System::Type __declspec(property(get=__get_target_type, put=__set_target_type))  target_type;
+ System::Type __declspec(property(get=__get_target_type, put=__set_target_type))  target_type;
 
-constexpr void __set_target_type(::System::Type value) ;
+constexpr void __set_target_type(System::Type value) ;
 
-constexpr ::System::Type __get_target_type() const;
+constexpr System::Type __get_target_type() const;
 
  ::StringW __declspec(property(get=__get_method_name, put=__set_method_name))  method_name;
 
@@ -83,6 +82,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::DelegateData);
-DEFINE_IL2CPP_ARG_TYPE(::System::DelegateData, "System", "DelegateData");
+NEED_NO_BOX(System::DelegateData);
+DEFINE_IL2CPP_ARG_TYPE(System::DelegateData, "System", "DelegateData");

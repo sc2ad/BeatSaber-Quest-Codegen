@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
@@ -54,17 +53,17 @@ constexpr explicit StylePropertyCache(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Fields
 
-static ::System::Collections::Generic::Dictionary_2<::StringW,::StringW> __declspec(property(get=__get_s_PropertySyntaxCache, put=__set_s_PropertySyntaxCache))  s_PropertySyntaxCache;
+static System::Collections::Generic::Dictionary_2<::StringW,::StringW> __declspec(property(get=__get_s_PropertySyntaxCache, put=__set_s_PropertySyntaxCache))  s_PropertySyntaxCache;
 
-static void __set_s_PropertySyntaxCache(::System::Collections::Generic::Dictionary_2<::StringW,::StringW> value) ;
+static void __set_s_PropertySyntaxCache(System::Collections::Generic::Dictionary_2<::StringW,::StringW> value) ;
 
-static ::System::Collections::Generic::Dictionary_2<::StringW,::StringW> __get_s_PropertySyntaxCache() ;
+static System::Collections::Generic::Dictionary_2<::StringW,::StringW> __get_s_PropertySyntaxCache() ;
 
-static ::System::Collections::Generic::Dictionary_2<::StringW,::StringW> __declspec(property(get=__get_s_NonTerminalValues, put=__set_s_NonTerminalValues))  s_NonTerminalValues;
+static System::Collections::Generic::Dictionary_2<::StringW,::StringW> __declspec(property(get=__get_s_NonTerminalValues, put=__set_s_NonTerminalValues))  s_NonTerminalValues;
 
-static void __set_s_NonTerminalValues(::System::Collections::Generic::Dictionary_2<::StringW,::StringW> value) ;
+static void __set_s_NonTerminalValues(System::Collections::Generic::Dictionary_2<::StringW,::StringW> value) ;
 
-static ::System::Collections::Generic::Dictionary_2<::StringW,::StringW> __get_s_NonTerminalValues() ;
+static System::Collections::Generic::Dictionary_2<::StringW,::StringW> __get_s_NonTerminalValues() ;
 
 
 // Methods
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::StyleSheets
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::StyleSheets::StylePropertyCache);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::StylePropertyCache, "UnityEngine.UIElements.StyleSheets", "StylePropertyCache");
+NEED_NO_BOX(UnityEngine::UIElements::StyleSheets::StylePropertyCache);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::StyleSheets::StylePropertyCache, "UnityEngine.UIElements.StyleSheets", "StylePropertyCache");

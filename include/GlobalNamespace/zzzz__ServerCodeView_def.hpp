@@ -2,15 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace HMUI {
-class ButtonBinder;
-}
 namespace TMPro {
 class TextMeshProUGUI;
 }
 namespace UnityEngine::UI {
 class Button;
+}
+namespace HMUI {
+class ButtonBinder;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,7 +21,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5900))
 // CS Name: ServerCodeView
-class CORDL_TYPE ServerCodeView : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ServerCodeView : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr ServerCodeView(ServerCodeView const& ) noexcept = default;
 constexpr ServerCodeView(ServerCodeView&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ServerCodeView(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ServerCodeView(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -58,23 +57,23 @@ constexpr explicit ServerCodeView(void* ptr) noexcept : ::UnityEngine::MonoBehav
 
 // Fields
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__serverCodeText, put=__set__serverCodeText))  _serverCodeText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__serverCodeText, put=__set__serverCodeText))  _serverCodeText;
 
-constexpr void __set__serverCodeText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__serverCodeText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__serverCodeText() const;
+constexpr TMPro::TextMeshProUGUI __get__serverCodeText() const;
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__button, put=__set__button))  _button;
+ UnityEngine::UI::Button __declspec(property(get=__get__button, put=__set__button))  _button;
 
-constexpr void __set__button(::UnityEngine::UI::Button value) ;
+constexpr void __set__button(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__button() const;
+constexpr UnityEngine::UI::Button __get__button() const;
 
- ::HMUI::ButtonBinder __declspec(property(get=__get__buttonBinder, put=__set__buttonBinder))  _buttonBinder;
+ HMUI::ButtonBinder __declspec(property(get=__get__buttonBinder, put=__set__buttonBinder))  _buttonBinder;
 
-constexpr void __set__buttonBinder(::HMUI::ButtonBinder value) ;
+constexpr void __set__buttonBinder(HMUI::ButtonBinder value) ;
 
-constexpr ::HMUI::ButtonBinder __get__buttonBinder() const;
+constexpr HMUI::ButtonBinder __get__buttonBinder() const;
 
  ::StringW __declspec(property(get=__get__serverCode, put=__set__serverCode))  _serverCode;
 
@@ -116,6 +115,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ServerCodeView);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ServerCodeView, "", "ServerCodeView");
+NEED_NO_BOX(GlobalNamespace::ServerCodeView);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ServerCodeView, "", "ServerCodeView");

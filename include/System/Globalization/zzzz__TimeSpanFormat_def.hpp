@@ -6,15 +6,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System {
-class IFormatProvider;
+namespace System::Globalization {
+class DateTimeFormatInfo;
+}
+namespace System::Text {
+class StringBuilder;
 }
 namespace System {
 struct TimeSpan;
-}
-namespace System::Globalization {
-class DateTimeFormatInfo;
 }
 namespace System {
 template<typename T>
@@ -24,18 +23,18 @@ namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
 }
-namespace System::Text {
-class StringBuilder;
+namespace System {
+class IFormatProvider;
 }
 // Forward declare root types
 namespace System::Globalization {
-struct ____System__Globalization__TimeSpanFormat__Pattern;
+struct System__Globalization__TimeSpanFormat__Pattern;
 }
 namespace System::Globalization {
 class TimeSpanFormat;
 }
 namespace System::Globalization {
-struct ____System__Globalization__TimeSpanFormat__FormatLiterals;
+struct System__Globalization__TimeSpanFormat__FormatLiterals;
 }
 // Type: ::Pattern
 namespace System::Globalization {
@@ -43,20 +42,20 @@ namespace System::Globalization {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3666))
 // CS Name: System.Globalization.TimeSpanFormat::Pattern
-struct CORDL_TYPE ____System__Globalization__TimeSpanFormat__Pattern : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE System__Globalization__TimeSpanFormat__Pattern : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____System__Globalization__TimeSpanFormat__Pattern(int32_t value__) noexcept;
+constexpr System__Globalization__TimeSpanFormat__Pattern(int32_t value__) noexcept;
 
 
-                    constexpr ____System__Globalization__TimeSpanFormat__Pattern(____System__Globalization__TimeSpanFormat__Pattern const&) = default;
-                    constexpr ____System__Globalization__TimeSpanFormat__Pattern(____System__Globalization__TimeSpanFormat__Pattern&&) = default;
-                    constexpr ____System__Globalization__TimeSpanFormat__Pattern& operator=(____System__Globalization__TimeSpanFormat__Pattern const& o) {
+                    constexpr System__Globalization__TimeSpanFormat__Pattern(System__Globalization__TimeSpanFormat__Pattern const&) = default;
+                    constexpr System__Globalization__TimeSpanFormat__Pattern(System__Globalization__TimeSpanFormat__Pattern&&) = default;
+                    constexpr System__Globalization__TimeSpanFormat__Pattern& operator=(System__Globalization__TimeSpanFormat__Pattern const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Globalization__TimeSpanFormat__Pattern& operator=(____System__Globalization__TimeSpanFormat__Pattern&& o) noexcept {
+                    constexpr System__Globalization__TimeSpanFormat__Pattern& operator=(System__Globalization__TimeSpanFormat__Pattern&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -69,7 +68,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Globalization__TimeSpanFormat__Pattern(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Globalization__TimeSpanFormat__Pattern(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -77,15 +76,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______System__Globalization__TimeSpanFormat__Pattern_Unwrapped : int32_t {
+enum class __System__Globalization__TimeSpanFormat__Pattern_Unwrapped : int32_t {
 __None = 0,
 __Minimum = 1,
 __Full = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______System__Globalization__TimeSpanFormat__Pattern_Unwrapped () const noexcept {
-return std::bit_cast<______System__Globalization__TimeSpanFormat__Pattern_Unwrapped>(__instance);
+constexpr operator __System__Globalization__TimeSpanFormat__Pattern_Unwrapped () const noexcept {
+return std::bit_cast<__System__Globalization__TimeSpanFormat__Pattern_Unwrapped>(__instance);
 }
 
 
@@ -98,13 +97,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::Globalization::____System__Globalization__TimeSpanFormat__Pattern const None;
+static System::Globalization::System__Globalization__TimeSpanFormat__Pattern const None;
 
 /// @brief Field Minimum offset 0
-static ::System::Globalization::____System__Globalization__TimeSpanFormat__Pattern const Minimum;
+static System::Globalization::System__Globalization__TimeSpanFormat__Pattern const Minimum;
 
 /// @brief Field Full offset 0
-static ::System::Globalization::____System__Globalization__TimeSpanFormat__Pattern const Full;
+static System::Globalization::System__Globalization__TimeSpanFormat__Pattern const Full;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -116,20 +115,20 @@ namespace System::Globalization {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3667))
 // CS Name: System.Globalization.TimeSpanFormat::FormatLiterals
-struct CORDL_TYPE ____System__Globalization__TimeSpanFormat__FormatLiterals : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE System__Globalization__TimeSpanFormat__FormatLiterals : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "AppCompatLiteral", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "dd", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "hh", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "mm", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ss", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ff", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_literals", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }]
-constexpr ____System__Globalization__TimeSpanFormat__FormatLiterals(::StringW AppCompatLiteral, int32_t dd, int32_t hh, int32_t mm, int32_t ss, int32_t ff, ::ArrayW<::StringW> _literals) noexcept;
+constexpr System__Globalization__TimeSpanFormat__FormatLiterals(::StringW AppCompatLiteral, int32_t dd, int32_t hh, int32_t mm, int32_t ss, int32_t ff, ::ArrayW<::StringW> _literals) noexcept;
 
 
-                    constexpr ____System__Globalization__TimeSpanFormat__FormatLiterals(____System__Globalization__TimeSpanFormat__FormatLiterals const&) = default;
-                    constexpr ____System__Globalization__TimeSpanFormat__FormatLiterals(____System__Globalization__TimeSpanFormat__FormatLiterals&&) = default;
-                    constexpr ____System__Globalization__TimeSpanFormat__FormatLiterals& operator=(____System__Globalization__TimeSpanFormat__FormatLiterals const& o) {
+                    constexpr System__Globalization__TimeSpanFormat__FormatLiterals(System__Globalization__TimeSpanFormat__FormatLiterals const&) = default;
+                    constexpr System__Globalization__TimeSpanFormat__FormatLiterals(System__Globalization__TimeSpanFormat__FormatLiterals&&) = default;
+                    constexpr System__Globalization__TimeSpanFormat__FormatLiterals& operator=(System__Globalization__TimeSpanFormat__FormatLiterals const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Globalization__TimeSpanFormat__FormatLiterals& operator=(____System__Globalization__TimeSpanFormat__FormatLiterals&& o) noexcept {
+                    constexpr System__Globalization__TimeSpanFormat__FormatLiterals& operator=(System__Globalization__TimeSpanFormat__FormatLiterals&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -142,7 +141,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x28};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Globalization__TimeSpanFormat__FormatLiterals(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Globalization__TimeSpanFormat__FormatLiterals(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -232,10 +231,10 @@ constexpr ::ArrayW<::StringW> __get__literals() const;
  ::StringW get_End() ;
 
 /// @brief Method InitInvariant addr 0x23e6e30 size 0x210 virtual false final false
-static ::System::Globalization::____System__Globalization__TimeSpanFormat__FormatLiterals InitInvariant(bool isNegative) ;
+static System::Globalization::System__Globalization__TimeSpanFormat__FormatLiterals InitInvariant(bool isNegative) ;
 
 /// @brief Method Init addr 0x23e6810 size 0x3f8 virtual false final false
- void Init(::System::ReadOnlySpan_1<char16_t> format, bool useInvariantFieldLengths) ;
+ void Init(System::ReadOnlySpan_1<char16_t> format, bool useInvariantFieldLengths) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -250,9 +249,9 @@ namespace System::Globalization {
 class CORDL_TYPE TimeSpanFormat : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using FormatLiterals = ::System::Globalization::____System__Globalization__TimeSpanFormat__FormatLiterals;
+using FormatLiterals = System::Globalization::System__Globalization__TimeSpanFormat__FormatLiterals;
 
-using Pattern = ::System::Globalization::____System__Globalization__TimeSpanFormat__Pattern;
+using Pattern = System::Globalization::System__Globalization__TimeSpanFormat__Pattern;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -287,45 +286,44 @@ constexpr explicit TimeSpanFormat(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
-static ::System::Globalization::____System__Globalization__TimeSpanFormat__FormatLiterals __declspec(property(get=__get_PositiveInvariantFormatLiterals, put=__set_PositiveInvariantFormatLiterals))  PositiveInvariantFormatLiterals;
+static System::Globalization::System__Globalization__TimeSpanFormat__FormatLiterals __declspec(property(get=__get_PositiveInvariantFormatLiterals, put=__set_PositiveInvariantFormatLiterals))  PositiveInvariantFormatLiterals;
 
-static void __set_PositiveInvariantFormatLiterals(::System::Globalization::____System__Globalization__TimeSpanFormat__FormatLiterals value) ;
+static void __set_PositiveInvariantFormatLiterals(System::Globalization::System__Globalization__TimeSpanFormat__FormatLiterals value) ;
 
-static ::System::Globalization::____System__Globalization__TimeSpanFormat__FormatLiterals __get_PositiveInvariantFormatLiterals() ;
+static System::Globalization::System__Globalization__TimeSpanFormat__FormatLiterals __get_PositiveInvariantFormatLiterals() ;
 
-static ::System::Globalization::____System__Globalization__TimeSpanFormat__FormatLiterals __declspec(property(get=__get_NegativeInvariantFormatLiterals, put=__set_NegativeInvariantFormatLiterals))  NegativeInvariantFormatLiterals;
+static System::Globalization::System__Globalization__TimeSpanFormat__FormatLiterals __declspec(property(get=__get_NegativeInvariantFormatLiterals, put=__set_NegativeInvariantFormatLiterals))  NegativeInvariantFormatLiterals;
 
-static void __set_NegativeInvariantFormatLiterals(::System::Globalization::____System__Globalization__TimeSpanFormat__FormatLiterals value) ;
+static void __set_NegativeInvariantFormatLiterals(System::Globalization::System__Globalization__TimeSpanFormat__FormatLiterals value) ;
 
-static ::System::Globalization::____System__Globalization__TimeSpanFormat__FormatLiterals __get_NegativeInvariantFormatLiterals() ;
+static System::Globalization::System__Globalization__TimeSpanFormat__FormatLiterals __get_NegativeInvariantFormatLiterals() ;
 
 
 // Methods
 
 /// @brief Method AppendNonNegativeInt32 addr 0x23e5718 size 0xf8 virtual false final false
-static void AppendNonNegativeInt32(::System::Text::StringBuilder sb, int32_t n, int32_t digits) ;
+static void AppendNonNegativeInt32(System::Text::StringBuilder sb, int32_t n, int32_t digits) ;
 
 /// @brief Method Format addr 0x23e5810 size 0xb8 virtual false final false
-static ::StringW Format(::System::TimeSpan value, ::StringW format, ::System::IFormatProvider formatProvider) ;
+static ::StringW Format(System::TimeSpan value, ::StringW format, System::IFormatProvider formatProvider) ;
 
 /// @brief Method TryFormat addr 0x23e5b70 size 0x11c virtual false final false
-static bool TryFormat(::System::TimeSpan value, ::System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten, ::System::ReadOnlySpan_1<char16_t> format, ::System::IFormatProvider formatProvider) ;
+static bool TryFormat(System::TimeSpan value, System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten, System::ReadOnlySpan_1<char16_t> format, System::IFormatProvider formatProvider) ;
 
 /// @brief Method FormatToBuilder addr 0x23e58c8 size 0x2a8 virtual false final false
-static ::System::Text::StringBuilder FormatToBuilder(::System::TimeSpan value, ::System::ReadOnlySpan_1<char16_t> format, ::System::IFormatProvider formatProvider) ;
+static System::Text::StringBuilder FormatToBuilder(System::TimeSpan value, System::ReadOnlySpan_1<char16_t> format, System::IFormatProvider formatProvider) ;
 
 /// @brief Method FormatStandard addr 0x23e5c8c size 0x48c virtual false final false
-static ::System::Text::StringBuilder FormatStandard(::System::TimeSpan value, bool isInvariant, ::System::ReadOnlySpan_1<char16_t> format, ::System::Globalization::____System__Globalization__TimeSpanFormat__Pattern pattern) ;
+static System::Text::StringBuilder FormatStandard(System::TimeSpan value, bool isInvariant, System::ReadOnlySpan_1<char16_t> format, System::Globalization::System__Globalization__TimeSpanFormat__Pattern pattern) ;
 
 /// @brief Method FormatCustomized addr 0x23e6118 size 0x6f8 virtual false final false
-static ::System::Text::StringBuilder FormatCustomized(::System::TimeSpan value, ::System::ReadOnlySpan_1<char16_t> format, ::System::Globalization::DateTimeFormatInfo dtfi, ::System::Text::StringBuilder result) ;
+static System::Text::StringBuilder FormatCustomized(System::TimeSpan value, System::ReadOnlySpan_1<char16_t> format, System::Globalization::DateTimeFormatInfo dtfi, System::Text::StringBuilder result) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Globalization
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::____System__Globalization__TimeSpanFormat__Pattern, "System.Globalization", "TimeSpanFormat/Pattern");
-NEED_NO_BOX(::System::Globalization::TimeSpanFormat);
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::TimeSpanFormat, "System.Globalization", "TimeSpanFormat");
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::____System__Globalization__TimeSpanFormat__FormatLiterals, "System.Globalization", "TimeSpanFormat/FormatLiterals");
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::System__Globalization__TimeSpanFormat__Pattern, "System.Globalization", "TimeSpanFormat/Pattern");
+NEED_NO_BOX(System::Globalization::TimeSpanFormat);
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::TimeSpanFormat, "System.Globalization", "TimeSpanFormat");
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::System__Globalization__TimeSpanFormat__FormatLiterals, "System.Globalization", "TimeSpanFormat/FormatLiterals");

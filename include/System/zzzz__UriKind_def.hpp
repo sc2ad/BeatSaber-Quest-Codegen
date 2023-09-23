@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 struct UriKind;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field RelativeOrAbsolute offset 0
-static ::System::UriKind const RelativeOrAbsolute;
+static System::UriKind const RelativeOrAbsolute;
 
 /// @brief Field Absolute offset 0
-static ::System::UriKind const Absolute;
+static System::UriKind const Absolute;
 
 /// @brief Field Relative offset 0
-static ::System::UriKind const Relative;
+static System::UriKind const Relative;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::UriKind, "System", "UriKind");
+DEFINE_IL2CPP_ARG_TYPE(System::UriKind, "System", "UriKind");

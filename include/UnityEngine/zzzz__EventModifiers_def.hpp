@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct EventModifiers;
@@ -73,32 +72,31 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::EventModifiers const None;
+static UnityEngine::EventModifiers const None;
 
 /// @brief Field Shift offset 0
-static ::UnityEngine::EventModifiers const Shift;
+static UnityEngine::EventModifiers const Shift;
 
 /// @brief Field Control offset 0
-static ::UnityEngine::EventModifiers const Control;
+static UnityEngine::EventModifiers const Control;
 
 /// @brief Field Alt offset 0
-static ::UnityEngine::EventModifiers const Alt;
+static UnityEngine::EventModifiers const Alt;
 
 /// @brief Field Command offset 0
-static ::UnityEngine::EventModifiers const Command;
+static UnityEngine::EventModifiers const Command;
 
 /// @brief Field Numeric offset 0
-static ::UnityEngine::EventModifiers const Numeric;
+static UnityEngine::EventModifiers const Numeric;
 
 /// @brief Field CapsLock offset 0
-static ::UnityEngine::EventModifiers const CapsLock;
+static UnityEngine::EventModifiers const CapsLock;
 
 /// @brief Field FunctionKey offset 0
-static ::UnityEngine::EventModifiers const FunctionKey;
+static UnityEngine::EventModifiers const FunctionKey;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventModifiers, "UnityEngine", "EventModifiers");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventModifiers, "UnityEngine", "EventModifiers");

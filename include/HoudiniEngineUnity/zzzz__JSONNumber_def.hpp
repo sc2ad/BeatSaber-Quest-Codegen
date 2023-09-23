@@ -5,18 +5,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__JSONNode__Enumerator;
+}
 namespace System::Text {
 class StringBuilder;
-}
-namespace HoudiniEngineUnity {
-struct JSONNodeType;
 }
 namespace HoudiniEngineUnity {
 struct JSONTextMode;
 }
 namespace HoudiniEngineUnity {
-struct ____HoudiniEngineUnity__JSONNode__Enumerator;
+struct JSONNodeType;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -28,7 +27,7 @@ namespace HoudiniEngineUnity {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9810))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9817))
 // CS Name: HoudiniEngineUnity.JSONNumber
-class CORDL_TYPE JSONNumber : public ::HoudiniEngineUnity::JSONNode {
+class CORDL_TYPE JSONNumber : public HoudiniEngineUnity::JSONNode {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -43,7 +42,7 @@ constexpr JSONNumber(JSONNumber const& ) noexcept = default;
 constexpr JSONNumber(JSONNumber&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit JSONNumber(void* ptr) noexcept : ::HoudiniEngineUnity::JSONNode(ptr) {
+constexpr explicit JSONNumber(void* ptr) noexcept : HoudiniEngineUnity::JSONNode(ptr) {
 }
 
 
@@ -73,7 +72,7 @@ constexpr double_t __get_m_Data() const;
 
 // Properties
 
- ::HoudiniEngineUnity::JSONNodeType __declspec(property(get=get_Tag))  Tag;
+ HoudiniEngineUnity::JSONNodeType __declspec(property(get=get_Tag))  Tag;
 
  bool __declspec(property(get=get_IsNumber))  IsNumber;
 
@@ -87,13 +86,13 @@ constexpr double_t __get_m_Data() const;
 // Methods
 
 /// @brief Method get_Tag addr 0x206916c size 0x8 virtual true final false
- ::HoudiniEngineUnity::JSONNodeType get_Tag() ;
+ HoudiniEngineUnity::JSONNodeType get_Tag() ;
 
 /// @brief Method get_IsNumber addr 0x2069174 size 0x8 virtual true final false
  bool get_IsNumber() ;
 
 /// @brief Method GetEnumerator addr 0x206917c size 0x14 virtual true final false
- ::HoudiniEngineUnity::____HoudiniEngineUnity__JSONNode__Enumerator GetEnumerator() ;
+ HoudiniEngineUnity::HoudiniEngineUnity__JSONNode__Enumerator GetEnumerator() ;
 
 /// @brief Method get_Value addr 0x2069190 size 0x68 virtual true final false
  ::StringW get_Value() ;
@@ -126,7 +125,7 @@ explicit JSONNumber(::StringW aData) ;
  void _ctor(::StringW aData) ;
 
 /// @brief Method WriteToStringBuilder addr 0x20692f4 size 0x34 virtual true final false
- void WriteToStringBuilder(::System::Text::StringBuilder aSB, int32_t aIndent, int32_t aIndentInc, ::HoudiniEngineUnity::JSONTextMode aMode) ;
+ void WriteToStringBuilder(System::Text::StringBuilder aSB, int32_t aIndent, int32_t aIndentInc, HoudiniEngineUnity::JSONTextMode aMode) ;
 
 /// @brief Method IsNumeric addr 0x2069328 size 0x1a0 virtual false final false
 static bool IsNumeric(::bs_hook::Il2CppWrapperType value) ;
@@ -141,6 +140,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::JSONNumber);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::JSONNumber, "HoudiniEngineUnity", "JSONNumber");
+NEED_NO_BOX(HoudiniEngineUnity::JSONNumber);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSONNumber, "HoudiniEngineUnity", "JSONNumber");

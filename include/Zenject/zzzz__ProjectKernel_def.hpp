@@ -4,36 +4,35 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Zenject {
-class InjectTypeInfo;
+class ZenjectSettings;
 }
 namespace Zenject {
 class SceneContextRegistry;
 }
 namespace Zenject {
-class ZenjectSettings;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace Zenject {
-class SceneContext;
+class InjectTypeInfo;
 }
 namespace UnityEngine::SceneManagement {
 struct Scene;
 }
+namespace Zenject {
+class SceneContext;
+}
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace Zenject {
 class ProjectKernel;
 }
 namespace Zenject {
-class ____Zenject__ProjectKernel____c__DisplayClass4_0;
+class Zenject__ProjectKernel____c__DisplayClass4_0;
 }
 // Type: ::<>c__DisplayClass4_0
 namespace Zenject {
@@ -41,71 +40,71 @@ namespace Zenject {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11266))
 // CS Name: Zenject.ProjectKernel::<>c__DisplayClass4_0
-class CORDL_TYPE ____Zenject__ProjectKernel____c__DisplayClass4_0 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Zenject__ProjectKernel____c__DisplayClass4_0 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____Zenject__ProjectKernel____c__DisplayClass4_0() = default;
+virtual ~Zenject__ProjectKernel____c__DisplayClass4_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Zenject__ProjectKernel____c__DisplayClass4_0", modifiers: " const&", def_value: None }]
-constexpr ____Zenject__ProjectKernel____c__DisplayClass4_0(____Zenject__ProjectKernel____c__DisplayClass4_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Zenject__ProjectKernel____c__DisplayClass4_0", modifiers: " const&", def_value: None }]
+constexpr Zenject__ProjectKernel____c__DisplayClass4_0(Zenject__ProjectKernel____c__DisplayClass4_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Zenject__ProjectKernel____c__DisplayClass4_0", modifiers: "&&", def_value: None }]
-constexpr ____Zenject__ProjectKernel____c__DisplayClass4_0(____Zenject__ProjectKernel____c__DisplayClass4_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Zenject__ProjectKernel____c__DisplayClass4_0", modifiers: "&&", def_value: None }]
+constexpr Zenject__ProjectKernel____c__DisplayClass4_0(Zenject__ProjectKernel____c__DisplayClass4_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Zenject__ProjectKernel____c__DisplayClass4_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Zenject__ProjectKernel____c__DisplayClass4_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Zenject__ProjectKernel____c__DisplayClass4_0& operator=(std::nullptr_t) noexcept {
+  constexpr Zenject__ProjectKernel____c__DisplayClass4_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Zenject__ProjectKernel____c__DisplayClass4_0& operator=(void* o) noexcept {
+  constexpr Zenject__ProjectKernel____c__DisplayClass4_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Zenject__ProjectKernel____c__DisplayClass4_0& operator=(____Zenject__ProjectKernel____c__DisplayClass4_0&& o) noexcept = default;
-  constexpr ____Zenject__ProjectKernel____c__DisplayClass4_0& operator=(____Zenject__ProjectKernel____c__DisplayClass4_0 const& o) noexcept = default;
+  constexpr Zenject__ProjectKernel____c__DisplayClass4_0& operator=(Zenject__ProjectKernel____c__DisplayClass4_0&& o) noexcept = default;
+  constexpr Zenject__ProjectKernel____c__DisplayClass4_0& operator=(Zenject__ProjectKernel____c__DisplayClass4_0 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Collections::Generic::List_1<::UnityEngine::SceneManagement::Scene> __declspec(property(get=__get_sceneOrder, put=__set_sceneOrder))  sceneOrder;
+ System::Collections::Generic::List_1<UnityEngine::SceneManagement::Scene> __declspec(property(get=__get_sceneOrder, put=__set_sceneOrder))  sceneOrder;
 
-constexpr void __set_sceneOrder(::System::Collections::Generic::List_1<::UnityEngine::SceneManagement::Scene> value) ;
+constexpr void __set_sceneOrder(System::Collections::Generic::List_1<UnityEngine::SceneManagement::Scene> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::SceneManagement::Scene> __get_sceneOrder() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::SceneManagement::Scene> __get_sceneOrder() const;
 
- ::System::Func_2<::Zenject::SceneContext,int32_t> __declspec(property(get=__get___9__0, put=__set___9__0))  __9__0;
+ System::Func_2<Zenject::SceneContext,int32_t> __declspec(property(get=__get___9__0, put=__set___9__0))  __9__0;
 
-constexpr void __set___9__0(::System::Func_2<::Zenject::SceneContext,int32_t> value) ;
+constexpr void __set___9__0(System::Func_2<Zenject::SceneContext,int32_t> value) ;
 
-constexpr ::System::Func_2<::Zenject::SceneContext,int32_t> __get___9__0() const;
+constexpr System::Func_2<Zenject::SceneContext,int32_t> __get___9__0() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____Zenject__ProjectKernel____c__DisplayClass4_0() ;
+explicit Zenject__ProjectKernel____c__DisplayClass4_0() ;
 
 /// @brief Method .ctor addr 0x2d9ced0 size 0x8 virtual false final false
  void _ctor() ;
 
 /// @brief Method <ForceUnloadAllScenes>b__0 addr 0x2d9d534 size 0x78 virtual false final false
- int32_t _ForceUnloadAllScenes_b__0(::Zenject::SceneContext x) ;
+ int32_t _ForceUnloadAllScenes_b__0(Zenject::SceneContext x) ;
 
 /// @brief Method __zenCreate addr 0x2d9d5ac size 0x5c virtual false final false
 static ::bs_hook::Il2CppWrapperType __zenCreate(::ArrayW<::bs_hook::Il2CppWrapperType> P_0) ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x2d9d608 size 0x1c0 virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -117,10 +116,10 @@ namespace Zenject {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11265))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11267))
 // CS Name: Zenject.ProjectKernel
-class CORDL_TYPE ProjectKernel : public ::Zenject::MonoKernel {
+class CORDL_TYPE ProjectKernel : public Zenject::MonoKernel {
 public:
 // Declarations
-using __c__DisplayClass4_0 = ::Zenject::____Zenject__ProjectKernel____c__DisplayClass4_0;
+using __c__DisplayClass4_0 = Zenject::Zenject__ProjectKernel____c__DisplayClass4_0;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
@@ -134,7 +133,7 @@ constexpr ProjectKernel(ProjectKernel const& ) noexcept = default;
 constexpr ProjectKernel(ProjectKernel&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ProjectKernel(void* ptr) noexcept : ::Zenject::MonoKernel(ptr) {
+constexpr explicit ProjectKernel(void* ptr) noexcept : Zenject::MonoKernel(ptr) {
 }
 
 
@@ -155,17 +154,17 @@ constexpr explicit ProjectKernel(void* ptr) noexcept : ::Zenject::MonoKernel(ptr
 
 // Fields
 
- ::Zenject::ZenjectSettings __declspec(property(get=__get__settings, put=__set__settings))  _settings;
+ Zenject::ZenjectSettings __declspec(property(get=__get__settings, put=__set__settings))  _settings;
 
-constexpr void __set__settings(::Zenject::ZenjectSettings value) ;
+constexpr void __set__settings(Zenject::ZenjectSettings value) ;
 
-constexpr ::Zenject::ZenjectSettings __get__settings() const;
+constexpr Zenject::ZenjectSettings __get__settings() const;
 
- ::Zenject::SceneContextRegistry __declspec(property(get=__get__contextRegistry, put=__set__contextRegistry))  _contextRegistry;
+ Zenject::SceneContextRegistry __declspec(property(get=__get__contextRegistry, put=__set__contextRegistry))  _contextRegistry;
 
-constexpr void __set__contextRegistry(::Zenject::SceneContextRegistry value) ;
+constexpr void __set__contextRegistry(Zenject::SceneContextRegistry value) ;
 
-constexpr ::Zenject::SceneContextRegistry __get__contextRegistry() const;
+constexpr Zenject::SceneContextRegistry __get__contextRegistry() const;
 
 
 // Methods
@@ -192,14 +191,13 @@ static void __zenFieldSetter0(::bs_hook::Il2CppWrapperType P_0, ::bs_hook::Il2Cp
 static void __zenFieldSetter1(::bs_hook::Il2CppWrapperType P_0, ::bs_hook::Il2CppWrapperType P_1) ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x2d9d198 size 0x39c virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::ProjectKernel);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::ProjectKernel, "Zenject", "ProjectKernel");
-NEED_NO_BOX(::Zenject::____Zenject__ProjectKernel____c__DisplayClass4_0);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::____Zenject__ProjectKernel____c__DisplayClass4_0, "Zenject", "ProjectKernel/<>c__DisplayClass4_0");
+NEED_NO_BOX(Zenject::ProjectKernel);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::ProjectKernel, "Zenject", "ProjectKernel");
+NEED_NO_BOX(Zenject::Zenject__ProjectKernel____c__DisplayClass4_0);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::Zenject__ProjectKernel____c__DisplayClass4_0, "Zenject", "ProjectKernel/<>c__DisplayClass4_0");

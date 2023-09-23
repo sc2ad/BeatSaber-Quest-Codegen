@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4890))
 // CS Name: NoteDebrisPhysics
-class CORDL_TYPE NoteDebrisPhysics : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE NoteDebrisPhysics : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr NoteDebrisPhysics(NoteDebrisPhysics const& ) noexcept = default;
 constexpr NoteDebrisPhysics(NoteDebrisPhysics&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NoteDebrisPhysics(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit NoteDebrisPhysics(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -51,19 +50,19 @@ constexpr explicit NoteDebrisPhysics(void* ptr) noexcept : ::UnityEngine::MonoBe
 
 // Properties
 
- ::UnityEngine::Vector3 __declspec(property(get=get_position))  position;
+ UnityEngine::Vector3 __declspec(property(get=get_position))  position;
 
 
 // Methods
 
 /// @brief Method get_position addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Vector3 get_position() ;
+ UnityEngine::Vector3 get_position() ;
 
 /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
- void Init(::UnityEngine::Vector3 force, ::UnityEngine::Vector3 torque) ;
+ void Init(UnityEngine::Vector3 force, UnityEngine::Vector3 torque) ;
 
 /// @brief Method AddVelocity addr 0x0 size 0xffffffffffffffff virtual true final false
- void AddVelocity(::UnityEngine::Vector3 force) ;
+ void AddVelocity(UnityEngine::Vector3 force) ;
 
 // Ctor Parameters []
 explicit NoteDebrisPhysics() ;
@@ -75,6 +74,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::NoteDebrisPhysics);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoteDebrisPhysics, "", "NoteDebrisPhysics");
+NEED_NO_BOX(GlobalNamespace::NoteDebrisPhysics);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteDebrisPhysics, "", "NoteDebrisPhysics");

@@ -5,36 +5,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Security::Cryptography {
-class SymmetricAlgorithm;
-}
-namespace Mono::Security {
-class ____Mono__Security__PKCS7__EncryptedData;
-}
-namespace System::Security::Cryptography {
-struct DSAParameters;
-}
 namespace Mono::Security::X509 {
 class X509CertificateCollection;
-}
-namespace Mono::Security::Cryptography {
-class ____Mono__Security__Cryptography__PKCS8__PrivateKeyInfo;
-}
-namespace System::Collections {
-class ArrayList;
-}
-namespace Mono::Security::X509 {
-class X509Certificate;
-}
-namespace Mono::Security {
-class ASN1;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace Mono::Security {
-class ____Mono__Security__PKCS7__ContentInfo;
 }
 namespace System {
 class ICloneable;
@@ -42,12 +14,39 @@ class ICloneable;
 namespace System::Security::Cryptography {
 class RandomNumberGenerator;
 }
-// Forward declare root types
-namespace Mono::Security::X509 {
-class PKCS12;
+namespace Mono::Security {
+class Mono__Security__PKCS7__EncryptedData;
 }
 namespace Mono::Security::X509 {
-class ____Mono__Security__X509__PKCS12__DeriveBytes;
+class X509Certificate;
+}
+namespace Mono::Security {
+class Mono__Security__PKCS7__ContentInfo;
+}
+namespace Mono::Security {
+class ASN1;
+}
+namespace System::Security::Cryptography {
+class SymmetricAlgorithm;
+}
+namespace System::Collections {
+class ArrayList;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace Mono::Security::Cryptography {
+class Mono__Security__Cryptography__PKCS8__PrivateKeyInfo;
+}
+namespace System::Security::Cryptography {
+struct DSAParameters;
+}
+// Forward declare root types
+namespace Mono::Security::X509 {
+class Mono__Security__X509__PKCS12__DeriveBytes;
+}
+namespace Mono::Security::X509 {
+class PKCS12;
 }
 // Type: ::DeriveBytes
 namespace Mono::Security::X509 {
@@ -55,37 +54,37 @@ namespace Mono::Security::X509 {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13957))
 // CS Name: Mono.Security.X509.PKCS12::DeriveBytes
-class CORDL_TYPE ____Mono__Security__X509__PKCS12__DeriveBytes : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Mono__Security__X509__PKCS12__DeriveBytes : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____Mono__Security__X509__PKCS12__DeriveBytes() = default;
+virtual ~Mono__Security__X509__PKCS12__DeriveBytes() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Mono__Security__X509__PKCS12__DeriveBytes", modifiers: " const&", def_value: None }]
-constexpr ____Mono__Security__X509__PKCS12__DeriveBytes(____Mono__Security__X509__PKCS12__DeriveBytes const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Mono__Security__X509__PKCS12__DeriveBytes", modifiers: " const&", def_value: None }]
+constexpr Mono__Security__X509__PKCS12__DeriveBytes(Mono__Security__X509__PKCS12__DeriveBytes const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Mono__Security__X509__PKCS12__DeriveBytes", modifiers: "&&", def_value: None }]
-constexpr ____Mono__Security__X509__PKCS12__DeriveBytes(____Mono__Security__X509__PKCS12__DeriveBytes&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Mono__Security__X509__PKCS12__DeriveBytes", modifiers: "&&", def_value: None }]
+constexpr Mono__Security__X509__PKCS12__DeriveBytes(Mono__Security__X509__PKCS12__DeriveBytes&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Mono__Security__X509__PKCS12__DeriveBytes(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Mono__Security__X509__PKCS12__DeriveBytes(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Mono__Security__X509__PKCS12__DeriveBytes& operator=(std::nullptr_t) noexcept {
+  constexpr Mono__Security__X509__PKCS12__DeriveBytes& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Mono__Security__X509__PKCS12__DeriveBytes& operator=(void* o) noexcept {
+  constexpr Mono__Security__X509__PKCS12__DeriveBytes& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Mono__Security__X509__PKCS12__DeriveBytes& operator=(____Mono__Security__X509__PKCS12__DeriveBytes&& o) noexcept = default;
-  constexpr ____Mono__Security__X509__PKCS12__DeriveBytes& operator=(____Mono__Security__X509__PKCS12__DeriveBytes const& o) noexcept = default;
+  constexpr Mono__Security__X509__PKCS12__DeriveBytes& operator=(Mono__Security__X509__PKCS12__DeriveBytes&& o) noexcept = default;
+  constexpr Mono__Security__X509__PKCS12__DeriveBytes& operator=(Mono__Security__X509__PKCS12__DeriveBytes const& o) noexcept = default;
                 
 
 
@@ -148,7 +147,7 @@ constexpr ::ArrayW<uint8_t> __get__salt() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____Mono__Security__X509__PKCS12__DeriveBytes() ;
+explicit Mono__Security__X509__PKCS12__DeriveBytes() ;
 
 /// @brief Method .ctor addr 0x22855e4 size 0x8 virtual false final false
  void _ctor() ;
@@ -193,10 +192,10 @@ namespace Mono::Security::X509 {
 class CORDL_TYPE PKCS12 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using DeriveBytes = ::Mono::Security::X509::____Mono__Security__X509__PKCS12__DeriveBytes;
+using DeriveBytes = Mono::Security::X509::Mono__Security__X509__PKCS12__DeriveBytes;
 
-/// @brief Convert operator to ::System::ICloneable
-constexpr operator  ::System::ICloneable() const noexcept;
+/// @brief Convert operator to System::ICloneable
+constexpr operator  System::ICloneable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
@@ -237,23 +236,23 @@ constexpr void __set__password(::ArrayW<uint8_t> value) ;
 
 constexpr ::ArrayW<uint8_t> __get__password() const;
 
- ::System::Collections::ArrayList __declspec(property(get=__get__keyBags, put=__set__keyBags))  _keyBags;
+ System::Collections::ArrayList __declspec(property(get=__get__keyBags, put=__set__keyBags))  _keyBags;
 
-constexpr void __set__keyBags(::System::Collections::ArrayList value) ;
+constexpr void __set__keyBags(System::Collections::ArrayList value) ;
 
-constexpr ::System::Collections::ArrayList __get__keyBags() const;
+constexpr System::Collections::ArrayList __get__keyBags() const;
 
- ::System::Collections::ArrayList __declspec(property(get=__get__secretBags, put=__set__secretBags))  _secretBags;
+ System::Collections::ArrayList __declspec(property(get=__get__secretBags, put=__set__secretBags))  _secretBags;
 
-constexpr void __set__secretBags(::System::Collections::ArrayList value) ;
+constexpr void __set__secretBags(System::Collections::ArrayList value) ;
 
-constexpr ::System::Collections::ArrayList __get__secretBags() const;
+constexpr System::Collections::ArrayList __get__secretBags() const;
 
- ::Mono::Security::X509::X509CertificateCollection __declspec(property(get=__get__certs, put=__set__certs))  _certs;
+ Mono::Security::X509::X509CertificateCollection __declspec(property(get=__get__certs, put=__set__certs))  _certs;
 
-constexpr void __set__certs(::Mono::Security::X509::X509CertificateCollection value) ;
+constexpr void __set__certs(Mono::Security::X509::X509CertificateCollection value) ;
 
-constexpr ::Mono::Security::X509::X509CertificateCollection __get__certs() const;
+constexpr Mono::Security::X509::X509CertificateCollection __get__certs() const;
 
  bool __declspec(property(get=__get__keyBagsChanged, put=__set__keyBagsChanged))  _keyBagsChanged;
 
@@ -279,17 +278,17 @@ constexpr void __set__iterations(int32_t value) ;
 
 constexpr int32_t __get__iterations() const;
 
- ::System::Collections::ArrayList __declspec(property(get=__get__safeBags, put=__set__safeBags))  _safeBags;
+ System::Collections::ArrayList __declspec(property(get=__get__safeBags, put=__set__safeBags))  _safeBags;
 
-constexpr void __set__safeBags(::System::Collections::ArrayList value) ;
+constexpr void __set__safeBags(System::Collections::ArrayList value) ;
 
-constexpr ::System::Collections::ArrayList __get__safeBags() const;
+constexpr System::Collections::ArrayList __get__safeBags() const;
 
- ::System::Security::Cryptography::RandomNumberGenerator __declspec(property(get=__get__rng, put=__set__rng))  _rng;
+ System::Security::Cryptography::RandomNumberGenerator __declspec(property(get=__get__rng, put=__set__rng))  _rng;
 
-constexpr void __set__rng(::System::Security::Cryptography::RandomNumberGenerator value) ;
+constexpr void __set__rng(System::Security::Cryptography::RandomNumberGenerator value) ;
 
-constexpr ::System::Security::Cryptography::RandomNumberGenerator __get__rng() const;
+constexpr System::Security::Cryptography::RandomNumberGenerator __get__rng() const;
 
 static int32_t __declspec(property(get=__get_password_max_length, put=__set_password_max_length))  password_max_length;
 
@@ -304,11 +303,11 @@ static int32_t __get_password_max_length() ;
 
  int32_t __declspec(property(get=get_IterationCount, put=set_IterationCount))  IterationCount;
 
- ::System::Collections::ArrayList __declspec(property(get=get_Keys))  Keys;
+ System::Collections::ArrayList __declspec(property(get=get_Keys))  Keys;
 
- ::Mono::Security::X509::X509CertificateCollection __declspec(property(get=get_Certificates))  Certificates;
+ Mono::Security::X509::X509CertificateCollection __declspec(property(get=get_Certificates))  Certificates;
 
- ::System::Security::Cryptography::RandomNumberGenerator __declspec(property(get=get_RNG))  RNG;
+ System::Security::Cryptography::RandomNumberGenerator __declspec(property(get=get_RNG))  RNG;
 
 static int32_t __declspec(property(get=get_MaximumPasswordLength))  MaximumPasswordLength;
 
@@ -349,40 +348,40 @@ explicit PKCS12(::ArrayW<uint8_t> data, ::StringW password) ;
  void set_IterationCount(int32_t value) ;
 
 /// @brief Method get_Keys addr 0x2284334 size 0x700 virtual false final false
- ::System::Collections::ArrayList get_Keys() ;
+ System::Collections::ArrayList get_Keys() ;
 
 /// @brief Method get_Certificates addr 0x2284be8 size 0x450 virtual false final false
- ::Mono::Security::X509::X509CertificateCollection get_Certificates() ;
+ Mono::Security::X509::X509CertificateCollection get_Certificates() ;
 
 /// @brief Method get_RNG addr 0x2285038 size 0x20 virtual false final false
- ::System::Security::Cryptography::RandomNumberGenerator get_RNG() ;
+ System::Security::Cryptography::RandomNumberGenerator get_RNG() ;
 
 /// @brief Method Compare addr 0x2283a74 size 0x74 virtual false final false
  bool Compare(::ArrayW<uint8_t> expected, ::ArrayW<uint8_t> actual) ;
 
 /// @brief Method GetSymmetricAlgorithm addr 0x2285058 size 0x58c virtual false final false
- ::System::Security::Cryptography::SymmetricAlgorithm GetSymmetricAlgorithm(::StringW algorithmOid, ::ArrayW<uint8_t> salt, int32_t iterationCount) ;
+ System::Security::Cryptography::SymmetricAlgorithm GetSymmetricAlgorithm(::StringW algorithmOid, ::ArrayW<uint8_t> salt, int32_t iterationCount) ;
 
 /// @brief Method Decrypt addr 0x2284a34 size 0x1b4 virtual false final false
  ::ArrayW<uint8_t> Decrypt(::StringW algorithmOid, ::ArrayW<uint8_t> salt, int32_t iterationCount, ::ArrayW<uint8_t> encryptedData) ;
 
 /// @brief Method Decrypt addr 0x22841e8 size 0x90 virtual false final false
- ::ArrayW<uint8_t> Decrypt(::Mono::Security::____Mono__Security__PKCS7__EncryptedData ed) ;
+ ::ArrayW<uint8_t> Decrypt(Mono::Security::Mono__Security__PKCS7__EncryptedData ed) ;
 
 /// @brief Method Encrypt addr 0x2285830 size 0x254 virtual false final false
  ::ArrayW<uint8_t> Encrypt(::StringW algorithmOid, ::ArrayW<uint8_t> salt, int32_t iterationCount, ::ArrayW<uint8_t> data) ;
 
 /// @brief Method GetExistingParameters addr 0x2285a84 size 0x290 virtual false final false
- ::System::Security::Cryptography::DSAParameters GetExistingParameters(ByRef<bool> found) ;
+ System::Security::Cryptography::DSAParameters GetExistingParameters(ByRef<bool> found) ;
 
 /// @brief Method AddPrivateKey addr 0x22861a0 size 0x27c virtual false final false
- void AddPrivateKey(::Mono::Security::Cryptography::____Mono__Security__Cryptography__PKCS8__PrivateKeyInfo pki) ;
+ void AddPrivateKey(Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__PrivateKeyInfo pki) ;
 
 /// @brief Method ReadSafeBag addr 0x2283ae8 size 0x700 virtual false final false
- void ReadSafeBag(::Mono::Security::ASN1 safeBag) ;
+ void ReadSafeBag(Mono::Security::ASN1 safeBag) ;
 
 /// @brief Method CertificateSafeBag addr 0x228641c size 0xbf8 virtual false final false
- ::Mono::Security::ASN1 CertificateSafeBag(::Mono::Security::X509::X509Certificate x509, ::System::Collections::IDictionary attributes) ;
+ Mono::Security::ASN1 CertificateSafeBag(Mono::Security::X509::X509Certificate x509, System::Collections::IDictionary attributes) ;
 
 /// @brief Method MAC addr 0x2283920 size 0x154 virtual false final false
  ::ArrayW<uint8_t> MAC(::ArrayW<uint8_t> password, ::ArrayW<uint8_t> salt, int32_t iterations, ::ArrayW<uint8_t> data) ;
@@ -391,19 +390,19 @@ explicit PKCS12(::ArrayW<uint8_t> data, ::StringW password) ;
  ::ArrayW<uint8_t> GetBytes() ;
 
 /// @brief Method EncryptedContentInfo addr 0x22892d4 size 0x310 virtual false final false
- ::Mono::Security::____Mono__Security__PKCS7__ContentInfo EncryptedContentInfo(::Mono::Security::ASN1 safeBags, ::StringW algorithmOid) ;
+ Mono::Security::Mono__Security__PKCS7__ContentInfo EncryptedContentInfo(Mono::Security::ASN1 safeBags, ::StringW algorithmOid) ;
 
 /// @brief Method AddCertificate addr 0x22892cc size 0x8 virtual false final false
- void AddCertificate(::Mono::Security::X509::X509Certificate cert) ;
+ void AddCertificate(Mono::Security::X509::X509Certificate cert) ;
 
 /// @brief Method AddCertificate addr 0x22895e4 size 0x250 virtual false final false
- void AddCertificate(::Mono::Security::X509::X509Certificate cert, ::System::Collections::IDictionary attributes) ;
+ void AddCertificate(Mono::Security::X509::X509Certificate cert, System::Collections::IDictionary attributes) ;
 
 /// @brief Method RemoveCertificate addr 0x22892c4 size 0x8 virtual false final false
- void RemoveCertificate(::Mono::Security::X509::X509Certificate cert) ;
+ void RemoveCertificate(Mono::Security::X509::X509Certificate cert) ;
 
 /// @brief Method RemoveCertificate addr 0x2289834 size 0x50c virtual false final false
- void RemoveCertificate(::Mono::Security::X509::X509Certificate cert, ::System::Collections::IDictionary attrs) ;
+ void RemoveCertificate(Mono::Security::X509::X509Certificate cert, System::Collections::IDictionary attrs) ;
 
 /// @brief Method Clone addr 0x2289d40 size 0xd4 virtual true final true
  ::bs_hook::Il2CppWrapperType Clone() ;
@@ -415,8 +414,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Security::X509
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Security::X509::PKCS12);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::X509::PKCS12, "Mono.Security.X509", "PKCS12");
-NEED_NO_BOX(::Mono::Security::X509::____Mono__Security__X509__PKCS12__DeriveBytes);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::X509::____Mono__Security__X509__PKCS12__DeriveBytes, "Mono.Security.X509", "PKCS12/DeriveBytes");
+NEED_NO_BOX(Mono::Security::X509::Mono__Security__X509__PKCS12__DeriveBytes);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::Mono__Security__X509__PKCS12__DeriveBytes, "Mono.Security.X509", "PKCS12/DeriveBytes");
+NEED_NO_BOX(Mono::Security::X509::PKCS12);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::PKCS12, "Mono.Security.X509", "PKCS12");

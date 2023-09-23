@@ -3,7 +3,19 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
+namespace Tweening {
+template<typename T>
+class Tween_1;
+}
+namespace TMPro {
+class TextMeshPro;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Color;
+}
 namespace GlobalNamespace {
 struct EaseType;
 }
@@ -12,19 +24,6 @@ class TimeTweeningManager;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace Tweening {
-template<typename T>
-class Tween_1;
-}
-namespace TMPro {
-class TextMeshPro;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -36,7 +35,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5293))
 // CS Name: MultiplayerCenterTextAnimator
-class CORDL_TYPE MultiplayerCenterTextAnimator : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerCenterTextAnimator : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -51,7 +50,7 @@ constexpr MultiplayerCenterTextAnimator(MultiplayerCenterTextAnimator const& ) n
 constexpr MultiplayerCenterTextAnimator(MultiplayerCenterTextAnimator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerCenterTextAnimator(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerCenterTextAnimator(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -72,53 +71,53 @@ constexpr explicit MultiplayerCenterTextAnimator(void* ptr) noexcept : ::UnityEn
 
 // Fields
 
- ::TMPro::TextMeshPro __declspec(property(get=__get__text, put=__set__text))  _text;
+ TMPro::TextMeshPro __declspec(property(get=__get__text, put=__set__text))  _text;
 
-constexpr void __set__text(::TMPro::TextMeshPro value) ;
+constexpr void __set__text(TMPro::TextMeshPro value) ;
 
-constexpr ::TMPro::TextMeshPro __get__text() const;
+constexpr TMPro::TextMeshPro __get__text() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__scalingTarget, put=__set__scalingTarget))  _scalingTarget;
+ UnityEngine::Transform __declspec(property(get=__get__scalingTarget, put=__set__scalingTarget))  _scalingTarget;
 
-constexpr void __set__scalingTarget(::UnityEngine::Transform value) ;
+constexpr void __set__scalingTarget(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__scalingTarget() const;
+constexpr UnityEngine::Transform __get__scalingTarget() const;
 
- ::Tweening::TimeTweeningManager __declspec(property(get=__get__tweeningManager, put=__set__tweeningManager))  _tweeningManager;
+ Tweening::TimeTweeningManager __declspec(property(get=__get__tweeningManager, put=__set__tweeningManager))  _tweeningManager;
 
-constexpr void __set__tweeningManager(::Tweening::TimeTweeningManager value) ;
+constexpr void __set__tweeningManager(Tweening::TimeTweeningManager value) ;
 
-constexpr ::Tweening::TimeTweeningManager __get__tweeningManager() const;
+constexpr Tweening::TimeTweeningManager __get__tweeningManager() const;
 
- ::Tweening::Tween_1<float_t> __declspec(property(get=__get__fadeInTween, put=__set__fadeInTween))  _fadeInTween;
+ Tweening::Tween_1<float_t> __declspec(property(get=__get__fadeInTween, put=__set__fadeInTween))  _fadeInTween;
 
-constexpr void __set__fadeInTween(::Tweening::Tween_1<float_t> value) ;
+constexpr void __set__fadeInTween(Tweening::Tween_1<float_t> value) ;
 
-constexpr ::Tweening::Tween_1<float_t> __get__fadeInTween() const;
+constexpr Tweening::Tween_1<float_t> __get__fadeInTween() const;
 
- ::Tweening::Tween_1<float_t> __declspec(property(get=__get__fadeOutTween, put=__set__fadeOutTween))  _fadeOutTween;
+ Tweening::Tween_1<float_t> __declspec(property(get=__get__fadeOutTween, put=__set__fadeOutTween))  _fadeOutTween;
 
-constexpr void __set__fadeOutTween(::Tweening::Tween_1<float_t> value) ;
+constexpr void __set__fadeOutTween(Tweening::Tween_1<float_t> value) ;
 
-constexpr ::Tweening::Tween_1<float_t> __get__fadeOutTween() const;
+constexpr Tweening::Tween_1<float_t> __get__fadeOutTween() const;
 
- ::Tweening::Tween_1<float_t> __declspec(property(get=__get__fontSizeTween, put=__set__fontSizeTween))  _fontSizeTween;
+ Tweening::Tween_1<float_t> __declspec(property(get=__get__fontSizeTween, put=__set__fontSizeTween))  _fontSizeTween;
 
-constexpr void __set__fontSizeTween(::Tweening::Tween_1<float_t> value) ;
+constexpr void __set__fontSizeTween(Tweening::Tween_1<float_t> value) ;
 
-constexpr ::Tweening::Tween_1<float_t> __get__fontSizeTween() const;
+constexpr Tweening::Tween_1<float_t> __get__fontSizeTween() const;
 
- ::Tweening::Tween_1<::UnityEngine::Color> __declspec(property(get=__get__colorTween, put=__set__colorTween))  _colorTween;
+ Tweening::Tween_1<UnityEngine::Color> __declspec(property(get=__get__colorTween, put=__set__colorTween))  _colorTween;
 
-constexpr void __set__colorTween(::Tweening::Tween_1<::UnityEngine::Color> value) ;
+constexpr void __set__colorTween(Tweening::Tween_1<UnityEngine::Color> value) ;
 
-constexpr ::Tweening::Tween_1<::UnityEngine::Color> __get__colorTween() const;
+constexpr Tweening::Tween_1<UnityEngine::Color> __get__colorTween() const;
 
- ::Tweening::Tween_1<::UnityEngine::Vector3> __declspec(property(get=__get__offsetTween, put=__set__offsetTween))  _offsetTween;
+ Tweening::Tween_1<UnityEngine::Vector3> __declspec(property(get=__get__offsetTween, put=__set__offsetTween))  _offsetTween;
 
-constexpr void __set__offsetTween(::Tweening::Tween_1<::UnityEngine::Vector3> value) ;
+constexpr void __set__offsetTween(Tweening::Tween_1<UnityEngine::Vector3> value) ;
 
-constexpr ::Tweening::Tween_1<::UnityEngine::Vector3> __get__offsetTween() const;
+constexpr Tweening::Tween_1<UnityEngine::Vector3> __get__offsetTween() const;
 
 
 // Methods
@@ -130,16 +129,16 @@ constexpr ::Tweening::Tween_1<::UnityEngine::Vector3> __get__offsetTween() const
  void OnDestroy() ;
 
 /// @brief Method AnimateTextColor addr 0x20f113c size 0x98 virtual false final false
- void AnimateTextColor(::UnityEngine::Color color, float_t duration, ::GlobalNamespace::EaseType easeType) ;
+ void AnimateTextColor(UnityEngine::Color color, float_t duration, GlobalNamespace::EaseType easeType) ;
 
 /// @brief Method AnimateFontSize addr 0x20f11d4 size 0x44 virtual false final false
- void AnimateFontSize(float_t fontSize, float_t duration, ::GlobalNamespace::EaseType easeType) ;
+ void AnimateFontSize(float_t fontSize, float_t duration, GlobalNamespace::EaseType easeType) ;
 
 /// @brief Method AnimatePositionOffsetSize addr 0x20f1218 size 0x8c virtual false final false
- void AnimatePositionOffsetSize(::UnityEngine::Vector3 offset, float_t duration, ::GlobalNamespace::EaseType easeType) ;
+ void AnimatePositionOffsetSize(UnityEngine::Vector3 offset, float_t duration, GlobalNamespace::EaseType easeType) ;
 
 /// @brief Method AnimateEnabled addr 0x20f12a4 size 0x148 virtual false final false
- void AnimateEnabled(bool isEnabled, float_t duration, ::GlobalNamespace::EaseType easeType) ;
+ void AnimateEnabled(bool isEnabled, float_t duration, GlobalNamespace::EaseType easeType) ;
 
 /// @brief Method SetText addr 0x20f13ec size 0x24 virtual false final false
  void SetText(::StringW text) ;
@@ -163,15 +162,14 @@ explicit MultiplayerCenterTextAnimator() ;
  void _Awake_b__8_2(float_t val) ;
 
 /// @brief Method <Awake>b__8_3 addr 0x20f1550 size 0x24 virtual false final false
- void _Awake_b__8_3(::UnityEngine::Color val) ;
+ void _Awake_b__8_3(UnityEngine::Color val) ;
 
 /// @brief Method <Awake>b__8_4 addr 0x20f1574 size 0x1c virtual false final false
- void _Awake_b__8_4(::UnityEngine::Vector3 val) ;
+ void _Awake_b__8_4(UnityEngine::Vector3 val) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerCenterTextAnimator);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerCenterTextAnimator, "", "MultiplayerCenterTextAnimator");
+NEED_NO_BOX(GlobalNamespace::MultiplayerCenterTextAnimator);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerCenterTextAnimator, "", "MultiplayerCenterTextAnimator");

@@ -2,15 +2,14 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class ISerializable;
 }
 namespace System::Security::Authentication::ExtendedProtection {
 struct PolicyEnforcement;
 }
 namespace System::Runtime::Serialization {
-class ISerializable;
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
@@ -28,8 +27,8 @@ namespace System::Security::Authentication::ExtendedProtection {
 class CORDL_TYPE ExtendedProtectionPolicy : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::Serialization::ISerializable
-constexpr operator  ::System::Runtime::Serialization::ISerializable() const noexcept;
+/// @brief Convert operator to System::Runtime::Serialization::ISerializable
+constexpr operator  System::Runtime::Serialization::ISerializable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -64,28 +63,27 @@ constexpr explicit ExtendedProtectionPolicy(void* ptr) noexcept : ::bs_hook::Il2
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "policyEnforcement", ty: "::System::Security::Authentication::ExtendedProtection::PolicyEnforcement", modifiers: "", def_value: None }]
-explicit ExtendedProtectionPolicy(::System::Security::Authentication::ExtendedProtection::PolicyEnforcement policyEnforcement) ;
+// Ctor Parameters [CppParam { name: "policyEnforcement", ty: "System::Security::Authentication::ExtendedProtection::PolicyEnforcement", modifiers: "", def_value: None }]
+explicit ExtendedProtectionPolicy(System::Security::Authentication::ExtendedProtection::PolicyEnforcement policyEnforcement) ;
 
 /// @brief Method .ctor addr 0x27e1c24 size 0x8 virtual false final false
- void _ctor(::System::Security::Authentication::ExtendedProtection::PolicyEnforcement policyEnforcement) ;
+ void _ctor(System::Security::Authentication::ExtendedProtection::PolicyEnforcement policyEnforcement) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit ExtendedProtectionPolicy(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit ExtendedProtectionPolicy(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x27e1c2c size 0x48 virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method ToString addr 0x27e1c74 size 0x8 virtual true final false
  ::StringW ToString() ;
 
 /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData addr 0x27e1c7c size 0x40 virtual true final true
- void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Authentication::ExtendedProtection
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy, "System.Security.Authentication.ExtendedProtection", "ExtendedProtectionPolicy");
+NEED_NO_BOX(System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy, "System.Security.Authentication.ExtendedProtection", "ExtendedProtectionPolicy");

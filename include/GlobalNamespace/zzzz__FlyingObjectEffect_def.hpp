@@ -2,18 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
-namespace GlobalNamespace {
-class IFlyingObjectEffectDidFinishEvent;
-}
-namespace UnityEngine {
-class AnimationCurve;
-}
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+class AnimationCurve;
+}
+namespace GlobalNamespace {
+class IFlyingObjectEffectDidFinishEvent;
 }
 namespace GlobalNamespace {
 template<typename T>
@@ -33,7 +32,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4967))
 // CS Name: FlyingObjectEffect
-class CORDL_TYPE FlyingObjectEffect : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE FlyingObjectEffect : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -48,7 +47,7 @@ constexpr FlyingObjectEffect(FlyingObjectEffect const& ) noexcept = default;
 constexpr FlyingObjectEffect(FlyingObjectEffect&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FlyingObjectEffect(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit FlyingObjectEffect(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -69,11 +68,11 @@ constexpr explicit FlyingObjectEffect(void* ptr) noexcept : ::UnityEngine::MonoB
 
 // Fields
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get__moveAnimationCurve, put=__set__moveAnimationCurve))  _moveAnimationCurve;
+ UnityEngine::AnimationCurve __declspec(property(get=__get__moveAnimationCurve, put=__set__moveAnimationCurve))  _moveAnimationCurve;
 
-constexpr void __set__moveAnimationCurve(::UnityEngine::AnimationCurve value) ;
+constexpr void __set__moveAnimationCurve(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get__moveAnimationCurve() const;
+constexpr UnityEngine::AnimationCurve __get__moveAnimationCurve() const;
 
  float_t __declspec(property(get=__get__shakeFrequency, put=__set__shakeFrequency))  _shakeFrequency;
 
@@ -87,11 +86,11 @@ constexpr void __set__shakeStrength(float_t value) ;
 
 constexpr float_t __get__shakeStrength() const;
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get__shakeStrengthAnimationCurve, put=__set__shakeStrengthAnimationCurve))  _shakeStrengthAnimationCurve;
+ UnityEngine::AnimationCurve __declspec(property(get=__get__shakeStrengthAnimationCurve, put=__set__shakeStrengthAnimationCurve))  _shakeStrengthAnimationCurve;
 
-constexpr void __set__shakeStrengthAnimationCurve(::UnityEngine::AnimationCurve value) ;
+constexpr void __set__shakeStrengthAnimationCurve(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get__shakeStrengthAnimationCurve() const;
+constexpr UnityEngine::AnimationCurve __get__shakeStrengthAnimationCurve() const;
 
  bool __declspec(property(get=__get__initialized, put=__set__initialized))  _initialized;
 
@@ -99,17 +98,17 @@ constexpr void __set__initialized(bool value) ;
 
 constexpr bool __get__initialized() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get__shakeRotation, put=__set__shakeRotation))  _shakeRotation;
+ UnityEngine::Quaternion __declspec(property(get=__get__shakeRotation, put=__set__shakeRotation))  _shakeRotation;
 
-constexpr void __set__shakeRotation(::UnityEngine::Quaternion value) ;
+constexpr void __set__shakeRotation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get__shakeRotation() const;
+constexpr UnityEngine::Quaternion __get__shakeRotation() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get__rotation, put=__set__rotation))  _rotation;
+ UnityEngine::Quaternion __declspec(property(get=__get__rotation, put=__set__rotation))  _rotation;
 
-constexpr void __set__rotation(::UnityEngine::Quaternion value) ;
+constexpr void __set__rotation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get__rotation() const;
+constexpr UnityEngine::Quaternion __get__rotation() const;
 
  float_t __declspec(property(get=__get__elapsedTime, put=__set__elapsedTime))  _elapsedTime;
 
@@ -117,17 +116,17 @@ constexpr void __set__elapsedTime(float_t value) ;
 
 constexpr float_t __get__elapsedTime() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__startPos, put=__set__startPos))  _startPos;
+ UnityEngine::Vector3 __declspec(property(get=__get__startPos, put=__set__startPos))  _startPos;
 
-constexpr void __set__startPos(::UnityEngine::Vector3 value) ;
+constexpr void __set__startPos(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__startPos() const;
+constexpr UnityEngine::Vector3 __get__startPos() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__targetPos, put=__set__targetPos))  _targetPos;
+ UnityEngine::Vector3 __declspec(property(get=__get__targetPos, put=__set__targetPos))  _targetPos;
 
-constexpr void __set__targetPos(::UnityEngine::Vector3 value) ;
+constexpr void __set__targetPos(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__targetPos() const;
+constexpr UnityEngine::Vector3 __get__targetPos() const;
 
  float_t __declspec(property(get=__get__duration, put=__set__duration))  _duration;
 
@@ -141,25 +140,25 @@ constexpr void __set__shake(bool value) ;
 
 constexpr bool __get__shake() const;
 
- ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent> __declspec(property(get=__get__didFinishEvent, put=__set__didFinishEvent))  _didFinishEvent;
+ GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::IFlyingObjectEffectDidFinishEvent> __declspec(property(get=__get__didFinishEvent, put=__set__didFinishEvent))  _didFinishEvent;
 
-constexpr void __set__didFinishEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent> value) ;
+constexpr void __set__didFinishEvent(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::IFlyingObjectEffectDidFinishEvent> value) ;
 
-constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent> __get__didFinishEvent() const;
+constexpr GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::IFlyingObjectEffectDidFinishEvent> __get__didFinishEvent() const;
 
 
 // Properties
 
- ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent> __declspec(property(get=get_didFinishEvent))  didFinishEvent;
+ GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::IFlyingObjectEffectDidFinishEvent> __declspec(property(get=get_didFinishEvent))  didFinishEvent;
 
 
 // Methods
 
 /// @brief Method get_didFinishEvent addr 0x2250594 size 0x8 virtual false final false
- ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent> get_didFinishEvent() ;
+ GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::IFlyingObjectEffectDidFinishEvent> get_didFinishEvent() ;
 
 /// @brief Method InitAndPresent addr 0x225059c size 0xe8 virtual false final false
- void InitAndPresent(float_t duration, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Quaternion rotation, bool shake) ;
+ void InitAndPresent(float_t duration, UnityEngine::Vector3 targetPos, UnityEngine::Quaternion rotation, bool shake) ;
 
 /// @brief Method Update addr 0x2250684 size 0x3b8 virtual false final false
  void Update() ;
@@ -177,6 +176,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::FlyingObjectEffect);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FlyingObjectEffect, "", "FlyingObjectEffect");
+NEED_NO_BOX(GlobalNamespace::FlyingObjectEffect);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingObjectEffect, "", "FlyingObjectEffect");

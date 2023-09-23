@@ -3,7 +3,6 @@
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform {
 class MessageWithString;
@@ -11,10 +10,10 @@ class MessageWithString;
 // Type: Oculus.Platform::MessageWithString
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 380 }), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 380 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13281))
 // CS Name: Oculus.Platform.MessageWithString
-class CORDL_TYPE MessageWithString : public ::Oculus::Platform::Message_1<::StringW> {
+class CORDL_TYPE MessageWithString : public Oculus::Platform::Message_1<::StringW> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr MessageWithString(MessageWithString const& ) noexcept = default;
 constexpr MessageWithString(MessageWithString&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MessageWithString(void* ptr) noexcept : ::Oculus::Platform::Message_1<::StringW>(ptr) {
+constexpr explicit MessageWithString(void* ptr) noexcept : Oculus::Platform::Message_1<::StringW>(ptr) {
 }
 
 
@@ -66,6 +65,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::MessageWithString);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithString, "Oculus.Platform", "MessageWithString");
+NEED_NO_BOX(Oculus::Platform::MessageWithString);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithString, "Oculus.Platform", "MessageWithString");

@@ -2,15 +2,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XmlNodeWrapper_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace Newtonsoft::Json::Converters {
 class IXmlNode;
 }
-namespace System::Xml {
-class XmlDeclaration;
-}
 namespace Newtonsoft::Json::Converters {
 class IXmlDeclaration;
+}
+namespace System::Xml {
+class XmlDeclaration;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -22,14 +21,14 @@ namespace Newtonsoft::Json::Converters {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11994))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11992))
 // CS Name: Newtonsoft.Json.Converters.XmlDeclarationWrapper
-class CORDL_TYPE XmlDeclarationWrapper : public ::Newtonsoft::Json::Converters::XmlNodeWrapper {
+class CORDL_TYPE XmlDeclarationWrapper : public Newtonsoft::Json::Converters::XmlNodeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::Newtonsoft::Json::Converters::IXmlDeclaration
-constexpr operator  ::Newtonsoft::Json::Converters::IXmlDeclaration() const noexcept;
+/// @brief Convert operator to Newtonsoft::Json::Converters::IXmlDeclaration
+constexpr operator  Newtonsoft::Json::Converters::IXmlDeclaration() const noexcept;
 
-/// @brief Convert operator to ::Newtonsoft::Json::Converters::IXmlNode
-constexpr operator  ::Newtonsoft::Json::Converters::IXmlNode() const noexcept;
+/// @brief Convert operator to Newtonsoft::Json::Converters::IXmlNode
+constexpr operator  Newtonsoft::Json::Converters::IXmlNode() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -43,7 +42,7 @@ constexpr XmlDeclarationWrapper(XmlDeclarationWrapper const& ) noexcept = defaul
 constexpr XmlDeclarationWrapper(XmlDeclarationWrapper&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XmlDeclarationWrapper(void* ptr) noexcept : ::Newtonsoft::Json::Converters::XmlNodeWrapper(ptr) {
+constexpr explicit XmlDeclarationWrapper(void* ptr) noexcept : Newtonsoft::Json::Converters::XmlNodeWrapper(ptr) {
 }
 
 
@@ -64,11 +63,11 @@ constexpr explicit XmlDeclarationWrapper(void* ptr) noexcept : ::Newtonsoft::Jso
 
 // Fields
 
- ::System::Xml::XmlDeclaration __declspec(property(get=__get__declaration, put=__set__declaration))  _declaration;
+ System::Xml::XmlDeclaration __declspec(property(get=__get__declaration, put=__set__declaration))  _declaration;
 
-constexpr void __set__declaration(::System::Xml::XmlDeclaration value) ;
+constexpr void __set__declaration(System::Xml::XmlDeclaration value) ;
 
-constexpr ::System::Xml::XmlDeclaration __get__declaration() const;
+constexpr System::Xml::XmlDeclaration __get__declaration() const;
 
 
 // Properties
@@ -82,11 +81,11 @@ constexpr ::System::Xml::XmlDeclaration __get__declaration() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "declaration", ty: "::System::Xml::XmlDeclaration", modifiers: "", def_value: None }]
-explicit XmlDeclarationWrapper(::System::Xml::XmlDeclaration declaration) ;
+// Ctor Parameters [CppParam { name: "declaration", ty: "System::Xml::XmlDeclaration", modifiers: "", def_value: None }]
+explicit XmlDeclarationWrapper(System::Xml::XmlDeclaration declaration) ;
 
 /// @brief Method .ctor addr 0x2541b4c size 0x2c virtual false final false
- void _ctor(::System::Xml::XmlDeclaration declaration) ;
+ void _ctor(System::Xml::XmlDeclaration declaration) ;
 
 /// @brief Method get_Version addr 0x2542174 size 0x1c virtual true final true
  ::StringW get_Version() ;
@@ -107,6 +106,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Converters
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Converters::XmlDeclarationWrapper);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Converters::XmlDeclarationWrapper, "Newtonsoft.Json.Converters", "XmlDeclarationWrapper");
+NEED_NO_BOX(Newtonsoft::Json::Converters::XmlDeclarationWrapper);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Converters::XmlDeclarationWrapper, "Newtonsoft.Json.Converters", "XmlDeclarationWrapper");

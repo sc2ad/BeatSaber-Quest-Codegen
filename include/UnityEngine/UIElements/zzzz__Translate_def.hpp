@@ -5,13 +5,12 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
+namespace UnityEngine::UIElements {
+struct Length;
+}
 namespace System {
 template<typename T>
 class IEquatable_1;
-}
-namespace UnityEngine::UIElements {
-struct Length;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -26,11 +25,11 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE Translate : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::UIElements::Translate>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::UIElements::Translate>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::UIElements::Translate>
+constexpr operator  System::IEquatable_1<UnityEngine::UIElements::Translate>() const;
 
-// Ctor Parameters [CppParam { name: "m_X", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "m_Y", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "m_Z", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_isNone", ty: "bool", modifiers: "", def_value: None }]
-constexpr Translate(::UnityEngine::UIElements::Length m_X, ::UnityEngine::UIElements::Length m_Y, float_t m_Z, bool m_isNone) noexcept;
+// Ctor Parameters [CppParam { name: "m_X", ty: "UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "m_Y", ty: "UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "m_Z", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_isNone", ty: "bool", modifiers: "", def_value: None }]
+constexpr Translate(UnityEngine::UIElements::Length m_X, UnityEngine::UIElements::Length m_Y, float_t m_Z, bool m_isNone) noexcept;
 
 
                     constexpr Translate(Translate const&) = default;
@@ -63,17 +62,17 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::UIElements::Length __declspec(property(get=__get_m_X, put=__set_m_X))  m_X;
+ UnityEngine::UIElements::Length __declspec(property(get=__get_m_X, put=__set_m_X))  m_X;
 
-constexpr void __set_m_X(::UnityEngine::UIElements::Length value) ;
+constexpr void __set_m_X(UnityEngine::UIElements::Length value) ;
 
-constexpr ::UnityEngine::UIElements::Length __get_m_X() const;
+constexpr UnityEngine::UIElements::Length __get_m_X() const;
 
- ::UnityEngine::UIElements::Length __declspec(property(get=__get_m_Y, put=__set_m_Y))  m_Y;
+ UnityEngine::UIElements::Length __declspec(property(get=__get_m_Y, put=__set_m_Y))  m_Y;
 
-constexpr void __set_m_Y(::UnityEngine::UIElements::Length value) ;
+constexpr void __set_m_Y(UnityEngine::UIElements::Length value) ;
 
-constexpr ::UnityEngine::UIElements::Length __get_m_Y() const;
+constexpr UnityEngine::UIElements::Length __get_m_Y() const;
 
  float_t __declspec(property(get=__get_m_Z, put=__set_m_Z))  m_Z;
 
@@ -90,9 +89,9 @@ constexpr bool __get_m_isNone() const;
 
 // Properties
 
- ::UnityEngine::UIElements::Length __declspec(property(get=get_x))  x;
+ UnityEngine::UIElements::Length __declspec(property(get=get_x))  x;
 
- ::UnityEngine::UIElements::Length __declspec(property(get=get_y))  y;
+ UnityEngine::UIElements::Length __declspec(property(get=get_y))  y;
 
  float_t __declspec(property(get=get_z))  z;
 
@@ -100,28 +99,28 @@ constexpr bool __get_m_isNone() const;
 // Methods
 
 /// @brief Method .ctor addr 0x2cfa010 size 0x10 virtual false final false
- void _ctor(::UnityEngine::UIElements::Length x, ::UnityEngine::UIElements::Length y, float_t z) ;
+ void _ctor(UnityEngine::UIElements::Length x, UnityEngine::UIElements::Length y, float_t z) ;
 
 /// @brief Method None addr 0x2cf9fd4 size 0x1c virtual false final false
-static ::UnityEngine::UIElements::Translate None() ;
+static UnityEngine::UIElements::Translate None() ;
 
 /// @brief Method get_x addr 0x2cfa020 size 0x8 virtual false final false
- ::UnityEngine::UIElements::Length get_x() ;
+ UnityEngine::UIElements::Length get_x() ;
 
 /// @brief Method get_y addr 0x2cfa028 size 0x8 virtual false final false
- ::UnityEngine::UIElements::Length get_y() ;
+ UnityEngine::UIElements::Length get_y() ;
 
 /// @brief Method get_z addr 0x2cfa030 size 0x8 virtual false final false
  float_t get_z() ;
 
 /// @brief Method op_Equality addr 0x2cf7f6c size 0x7c virtual false final false
-static bool op_Equality(::UnityEngine::UIElements::Translate lhs, ::UnityEngine::UIElements::Translate rhs) ;
+static bool op_Equality(UnityEngine::UIElements::Translate lhs, UnityEngine::UIElements::Translate rhs) ;
 
 /// @brief Method op_Inequality addr 0x2cfa038 size 0x78 virtual false final false
-static bool op_Inequality(::UnityEngine::UIElements::Translate lhs, ::UnityEngine::UIElements::Translate rhs) ;
+static bool op_Inequality(UnityEngine::UIElements::Translate lhs, UnityEngine::UIElements::Translate rhs) ;
 
 /// @brief Method Equals addr 0x2cfa0b0 size 0x7c virtual true final true
- bool Equals(::UnityEngine::UIElements::Translate other) ;
+ bool Equals(UnityEngine::UIElements::Translate other) ;
 
 /// @brief Method Equals addr 0x2cfa12c size 0x90 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -136,5 +135,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Translate, "UnityEngine.UIElements", "Translate");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::Translate, "UnityEngine.UIElements", "Translate");

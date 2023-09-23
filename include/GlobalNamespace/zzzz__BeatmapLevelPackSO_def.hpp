@@ -2,18 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace GlobalNamespace {
 class BeatmapLevelCollectionSO;
 }
-namespace UnityEngine {
-class Sprite;
+namespace GlobalNamespace {
+class IBeatmapLevelCollection;
 }
 namespace GlobalNamespace {
 class IBeatmapLevelPack;
 }
-namespace GlobalNamespace {
-class IBeatmapLevelCollection;
+namespace UnityEngine {
+class Sprite;
 }
 namespace GlobalNamespace {
 class IAnnotatedBeatmapLevelCollection;
@@ -28,14 +27,14 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4376))
 // CS Name: BeatmapLevelPackSO
-class CORDL_TYPE BeatmapLevelPackSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE BeatmapLevelPackSO : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IBeatmapLevelPack
-constexpr operator  ::GlobalNamespace::IBeatmapLevelPack() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IBeatmapLevelPack
+constexpr operator  GlobalNamespace::IBeatmapLevelPack() const noexcept;
 
-/// @brief Convert operator to ::GlobalNamespace::IAnnotatedBeatmapLevelCollection
-constexpr operator  ::GlobalNamespace::IAnnotatedBeatmapLevelCollection() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IAnnotatedBeatmapLevelCollection
+constexpr operator  GlobalNamespace::IAnnotatedBeatmapLevelCollection() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
@@ -49,7 +48,7 @@ constexpr BeatmapLevelPackSO(BeatmapLevelPackSO const& ) noexcept = default;
 constexpr BeatmapLevelPackSO(BeatmapLevelPackSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BeatmapLevelPackSO(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit BeatmapLevelPackSO(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -88,23 +87,23 @@ constexpr void __set__shortPackName(::StringW value) ;
 
 constexpr ::StringW __get__shortPackName() const;
 
- ::UnityEngine::Sprite __declspec(property(get=__get__coverImage, put=__set__coverImage))  _coverImage;
+ UnityEngine::Sprite __declspec(property(get=__get__coverImage, put=__set__coverImage))  _coverImage;
 
-constexpr void __set__coverImage(::UnityEngine::Sprite value) ;
+constexpr void __set__coverImage(UnityEngine::Sprite value) ;
 
-constexpr ::UnityEngine::Sprite __get__coverImage() const;
+constexpr UnityEngine::Sprite __get__coverImage() const;
 
- ::UnityEngine::Sprite __declspec(property(get=__get__smallCoverImage, put=__set__smallCoverImage))  _smallCoverImage;
+ UnityEngine::Sprite __declspec(property(get=__get__smallCoverImage, put=__set__smallCoverImage))  _smallCoverImage;
 
-constexpr void __set__smallCoverImage(::UnityEngine::Sprite value) ;
+constexpr void __set__smallCoverImage(UnityEngine::Sprite value) ;
 
-constexpr ::UnityEngine::Sprite __get__smallCoverImage() const;
+constexpr UnityEngine::Sprite __get__smallCoverImage() const;
 
- ::GlobalNamespace::BeatmapLevelCollectionSO __declspec(property(get=__get__beatmapLevelCollection, put=__set__beatmapLevelCollection))  _beatmapLevelCollection;
+ GlobalNamespace::BeatmapLevelCollectionSO __declspec(property(get=__get__beatmapLevelCollection, put=__set__beatmapLevelCollection))  _beatmapLevelCollection;
 
-constexpr void __set__beatmapLevelCollection(::GlobalNamespace::BeatmapLevelCollectionSO value) ;
+constexpr void __set__beatmapLevelCollection(GlobalNamespace::BeatmapLevelCollectionSO value) ;
 
-constexpr ::GlobalNamespace::BeatmapLevelCollectionSO __get__beatmapLevelCollection() const;
+constexpr GlobalNamespace::BeatmapLevelCollectionSO __get__beatmapLevelCollection() const;
 
 
 // Properties
@@ -117,11 +116,11 @@ constexpr ::GlobalNamespace::BeatmapLevelCollectionSO __get__beatmapLevelCollect
 
  ::StringW __declspec(property(get=get_collectionName))  collectionName;
 
- ::UnityEngine::Sprite __declspec(property(get=get_coverImage))  coverImage;
+ UnityEngine::Sprite __declspec(property(get=get_coverImage))  coverImage;
 
- ::UnityEngine::Sprite __declspec(property(get=get_smallCoverImage))  smallCoverImage;
+ UnityEngine::Sprite __declspec(property(get=get_smallCoverImage))  smallCoverImage;
 
- ::GlobalNamespace::IBeatmapLevelCollection __declspec(property(get=get_beatmapLevelCollection))  beatmapLevelCollection;
+ GlobalNamespace::IBeatmapLevelCollection __declspec(property(get=get_beatmapLevelCollection))  beatmapLevelCollection;
 
 
 // Methods
@@ -139,13 +138,13 @@ constexpr ::GlobalNamespace::BeatmapLevelCollectionSO __get__beatmapLevelCollect
  ::StringW get_collectionName() ;
 
 /// @brief Method get_coverImage addr 0x21e53f8 size 0x8 virtual true final true
- ::UnityEngine::Sprite get_coverImage() ;
+ UnityEngine::Sprite get_coverImage() ;
 
 /// @brief Method get_smallCoverImage addr 0x21e5400 size 0x8 virtual true final true
- ::UnityEngine::Sprite get_smallCoverImage() ;
+ UnityEngine::Sprite get_smallCoverImage() ;
 
 /// @brief Method get_beatmapLevelCollection addr 0x21e5408 size 0x8 virtual true final true
- ::GlobalNamespace::IBeatmapLevelCollection get_beatmapLevelCollection() ;
+ GlobalNamespace::IBeatmapLevelCollection get_beatmapLevelCollection() ;
 
 // Ctor Parameters []
 explicit BeatmapLevelPackSO() ;
@@ -157,6 +156,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BeatmapLevelPackSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapLevelPackSO, "", "BeatmapLevelPackSO");
+NEED_NO_BOX(GlobalNamespace::BeatmapLevelPackSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelPackSO, "", "BeatmapLevelPackSO");

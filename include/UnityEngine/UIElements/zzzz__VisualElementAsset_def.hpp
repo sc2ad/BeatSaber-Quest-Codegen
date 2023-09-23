@@ -5,22 +5,21 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace UnityEngine::UIElements {
+class StyleSheet;
+}
+namespace UnityEngine {
+class ISerializationCallbackReceiver;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
 struct PickingMode;
-}
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
-}
-namespace UnityEngine::UIElements {
-class StyleSheet;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -35,11 +34,11 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE VisualElementAsset : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::UIElements::IUxmlAttributes
-constexpr operator  ::UnityEngine::UIElements::IUxmlAttributes() const noexcept;
+/// @brief Convert operator to UnityEngine::UIElements::IUxmlAttributes
+constexpr operator  UnityEngine::UIElements::IUxmlAttributes() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::ISerializationCallbackReceiver
-constexpr operator  ::UnityEngine::ISerializationCallbackReceiver() const noexcept;
+/// @brief Convert operator to UnityEngine::ISerializationCallbackReceiver
+constexpr operator  UnityEngine::ISerializationCallbackReceiver() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x60};
@@ -110,11 +109,11 @@ constexpr void __set_m_Text(::StringW value) ;
 
 constexpr ::StringW __get_m_Text() const;
 
- ::UnityEngine::UIElements::PickingMode __declspec(property(get=__get_m_PickingMode, put=__set_m_PickingMode))  m_PickingMode;
+ UnityEngine::UIElements::PickingMode __declspec(property(get=__get_m_PickingMode, put=__set_m_PickingMode))  m_PickingMode;
 
-constexpr void __set_m_PickingMode(::UnityEngine::UIElements::PickingMode value) ;
+constexpr void __set_m_PickingMode(UnityEngine::UIElements::PickingMode value) ;
 
-constexpr ::UnityEngine::UIElements::PickingMode __get_m_PickingMode() const;
+constexpr UnityEngine::UIElements::PickingMode __get_m_PickingMode() const;
 
  ::StringW __declspec(property(get=__get_m_FullTypeName, put=__set_m_FullTypeName))  m_FullTypeName;
 
@@ -128,23 +127,23 @@ constexpr void __set_m_Classes(::ArrayW<::StringW> value) ;
 
 constexpr ::ArrayW<::StringW> __get_m_Classes() const;
 
- ::System::Collections::Generic::List_1<::StringW> __declspec(property(get=__get_m_StylesheetPaths, put=__set_m_StylesheetPaths))  m_StylesheetPaths;
+ System::Collections::Generic::List_1<::StringW> __declspec(property(get=__get_m_StylesheetPaths, put=__set_m_StylesheetPaths))  m_StylesheetPaths;
 
-constexpr void __set_m_StylesheetPaths(::System::Collections::Generic::List_1<::StringW> value) ;
+constexpr void __set_m_StylesheetPaths(System::Collections::Generic::List_1<::StringW> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::StringW> __get_m_StylesheetPaths() const;
+constexpr System::Collections::Generic::List_1<::StringW> __get_m_StylesheetPaths() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheet> __declspec(property(get=__get_m_Stylesheets, put=__set_m_Stylesheets))  m_Stylesheets;
+ System::Collections::Generic::List_1<UnityEngine::UIElements::StyleSheet> __declspec(property(get=__get_m_Stylesheets, put=__set_m_Stylesheets))  m_Stylesheets;
 
-constexpr void __set_m_Stylesheets(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheet> value) ;
+constexpr void __set_m_Stylesheets(System::Collections::Generic::List_1<UnityEngine::UIElements::StyleSheet> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheet> __get_m_Stylesheets() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::UIElements::StyleSheet> __get_m_Stylesheets() const;
 
- ::System::Collections::Generic::List_1<::StringW> __declspec(property(get=__get_m_Properties, put=__set_m_Properties))  m_Properties;
+ System::Collections::Generic::List_1<::StringW> __declspec(property(get=__get_m_Properties, put=__set_m_Properties))  m_Properties;
 
-constexpr void __set_m_Properties(::System::Collections::Generic::List_1<::StringW> value) ;
+constexpr void __set_m_Properties(System::Collections::Generic::List_1<::StringW> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::StringW> __get_m_Properties() const;
+constexpr System::Collections::Generic::List_1<::StringW> __get_m_Properties() const;
 
 
 // Properties
@@ -161,11 +160,11 @@ constexpr ::System::Collections::Generic::List_1<::StringW> __get_m_Properties()
 
  ::ArrayW<::StringW> __declspec(property(get=get_classes))  classes;
 
- ::System::Collections::Generic::List_1<::StringW> __declspec(property(get=get_stylesheetPaths))  stylesheetPaths;
+ System::Collections::Generic::List_1<::StringW> __declspec(property(get=get_stylesheetPaths))  stylesheetPaths;
 
  bool __declspec(property(get=get_hasStylesheetPaths))  hasStylesheetPaths;
 
- ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheet> __declspec(property(get=get_stylesheets))  stylesheets;
+ System::Collections::Generic::List_1<UnityEngine::UIElements::StyleSheet> __declspec(property(get=get_stylesheets))  stylesheets;
 
  bool __declspec(property(get=get_hasStylesheets))  hasStylesheets;
 
@@ -191,13 +190,13 @@ constexpr ::System::Collections::Generic::List_1<::StringW> __get_m_Properties()
  ::ArrayW<::StringW> get_classes() ;
 
 /// @brief Method get_stylesheetPaths addr 0x2c9c714 size 0x80 virtual false final false
- ::System::Collections::Generic::List_1<::StringW> get_stylesheetPaths() ;
+ System::Collections::Generic::List_1<::StringW> get_stylesheetPaths() ;
 
 /// @brief Method get_hasStylesheetPaths addr 0x2c9c704 size 0x10 virtual false final false
  bool get_hasStylesheetPaths() ;
 
 /// @brief Method get_stylesheets addr 0x2c9c7a4 size 0x80 virtual false final false
- ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheet> get_stylesheets() ;
+ System::Collections::Generic::List_1<UnityEngine::UIElements::StyleSheet> get_stylesheets() ;
 
 /// @brief Method get_hasStylesheets addr 0x2c9c794 size 0x10 virtual false final false
  bool get_hasStylesheets() ;
@@ -221,6 +220,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::VisualElementAsset);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::VisualElementAsset, "UnityEngine.UIElements", "VisualElementAsset");
+NEED_NO_BOX(UnityEngine::UIElements::VisualElementAsset);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::VisualElementAsset, "UnityEngine.UIElements", "VisualElementAsset");

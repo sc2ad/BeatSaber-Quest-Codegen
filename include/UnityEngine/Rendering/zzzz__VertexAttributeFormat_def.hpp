@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Rendering {
 struct VertexAttributeFormat;
@@ -77,44 +76,43 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Float32 offset 0
-static ::UnityEngine::Rendering::VertexAttributeFormat const Float32;
+static UnityEngine::Rendering::VertexAttributeFormat const Float32;
 
 /// @brief Field Float16 offset 0
-static ::UnityEngine::Rendering::VertexAttributeFormat const Float16;
+static UnityEngine::Rendering::VertexAttributeFormat const Float16;
 
 /// @brief Field UNorm8 offset 0
-static ::UnityEngine::Rendering::VertexAttributeFormat const UNorm8;
+static UnityEngine::Rendering::VertexAttributeFormat const UNorm8;
 
 /// @brief Field SNorm8 offset 0
-static ::UnityEngine::Rendering::VertexAttributeFormat const SNorm8;
+static UnityEngine::Rendering::VertexAttributeFormat const SNorm8;
 
 /// @brief Field UNorm16 offset 0
-static ::UnityEngine::Rendering::VertexAttributeFormat const UNorm16;
+static UnityEngine::Rendering::VertexAttributeFormat const UNorm16;
 
 /// @brief Field SNorm16 offset 0
-static ::UnityEngine::Rendering::VertexAttributeFormat const SNorm16;
+static UnityEngine::Rendering::VertexAttributeFormat const SNorm16;
 
 /// @brief Field UInt8 offset 0
-static ::UnityEngine::Rendering::VertexAttributeFormat const UInt8;
+static UnityEngine::Rendering::VertexAttributeFormat const UInt8;
 
 /// @brief Field SInt8 offset 0
-static ::UnityEngine::Rendering::VertexAttributeFormat const SInt8;
+static UnityEngine::Rendering::VertexAttributeFormat const SInt8;
 
 /// @brief Field UInt16 offset 0
-static ::UnityEngine::Rendering::VertexAttributeFormat const UInt16;
+static UnityEngine::Rendering::VertexAttributeFormat const UInt16;
 
 /// @brief Field SInt16 offset 0
-static ::UnityEngine::Rendering::VertexAttributeFormat const SInt16;
+static UnityEngine::Rendering::VertexAttributeFormat const SInt16;
 
 /// @brief Field UInt32 offset 0
-static ::UnityEngine::Rendering::VertexAttributeFormat const UInt32;
+static UnityEngine::Rendering::VertexAttributeFormat const UInt32;
 
 /// @brief Field SInt32 offset 0
-static ::UnityEngine::Rendering::VertexAttributeFormat const SInt32;
+static UnityEngine::Rendering::VertexAttributeFormat const SInt32;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Rendering
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::VertexAttributeFormat, "UnityEngine.Rendering", "VertexAttributeFormat");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::VertexAttributeFormat, "UnityEngine.Rendering", "VertexAttributeFormat");

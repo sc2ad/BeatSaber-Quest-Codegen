@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
 struct OwnedState;
@@ -67,14 +66,13 @@ constexpr void __set_value__(uint8_t value) ;
 constexpr uint8_t __get_value__() const;
 
 /// @brief Field Inherited offset 0
-static ::UnityEngine::UIElements::UIR::OwnedState const Inherited;
+static UnityEngine::UIElements::UIR::OwnedState const Inherited;
 
 /// @brief Field Owned offset 0
-static ::UnityEngine::UIElements::UIR::OwnedState const Owned;
+static UnityEngine::UIElements::UIR::OwnedState const Owned;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::UIR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::OwnedState, "UnityEngine.UIElements.UIR", "OwnedState");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::OwnedState, "UnityEngine.UIElements.UIR", "OwnedState");

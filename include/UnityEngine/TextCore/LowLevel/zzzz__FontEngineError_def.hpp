@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::TextCore::LowLevel {
 struct FontEngineError;
@@ -80,53 +79,52 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Success offset 0
-static ::UnityEngine::TextCore::LowLevel::FontEngineError const Success;
+static UnityEngine::TextCore::LowLevel::FontEngineError const Success;
 
 /// @brief Field Invalid_File_Path offset 0
-static ::UnityEngine::TextCore::LowLevel::FontEngineError const Invalid_File_Path;
+static UnityEngine::TextCore::LowLevel::FontEngineError const Invalid_File_Path;
 
 /// @brief Field Invalid_File_Format offset 0
-static ::UnityEngine::TextCore::LowLevel::FontEngineError const Invalid_File_Format;
+static UnityEngine::TextCore::LowLevel::FontEngineError const Invalid_File_Format;
 
 /// @brief Field Invalid_File_Structure offset 0
-static ::UnityEngine::TextCore::LowLevel::FontEngineError const Invalid_File_Structure;
+static UnityEngine::TextCore::LowLevel::FontEngineError const Invalid_File_Structure;
 
 /// @brief Field Invalid_File offset 0
-static ::UnityEngine::TextCore::LowLevel::FontEngineError const Invalid_File;
+static UnityEngine::TextCore::LowLevel::FontEngineError const Invalid_File;
 
 /// @brief Field Invalid_Table offset 0
-static ::UnityEngine::TextCore::LowLevel::FontEngineError const Invalid_Table;
+static UnityEngine::TextCore::LowLevel::FontEngineError const Invalid_Table;
 
 /// @brief Field Invalid_Glyph_Index offset 0
-static ::UnityEngine::TextCore::LowLevel::FontEngineError const Invalid_Glyph_Index;
+static UnityEngine::TextCore::LowLevel::FontEngineError const Invalid_Glyph_Index;
 
 /// @brief Field Invalid_Character_Code offset 0
-static ::UnityEngine::TextCore::LowLevel::FontEngineError const Invalid_Character_Code;
+static UnityEngine::TextCore::LowLevel::FontEngineError const Invalid_Character_Code;
 
 /// @brief Field Invalid_Pixel_Size offset 0
-static ::UnityEngine::TextCore::LowLevel::FontEngineError const Invalid_Pixel_Size;
+static UnityEngine::TextCore::LowLevel::FontEngineError const Invalid_Pixel_Size;
 
 /// @brief Field Invalid_Library offset 0
-static ::UnityEngine::TextCore::LowLevel::FontEngineError const Invalid_Library;
+static UnityEngine::TextCore::LowLevel::FontEngineError const Invalid_Library;
 
 /// @brief Field Invalid_Face offset 0
-static ::UnityEngine::TextCore::LowLevel::FontEngineError const Invalid_Face;
+static UnityEngine::TextCore::LowLevel::FontEngineError const Invalid_Face;
 
 /// @brief Field Invalid_Library_or_Face offset 0
-static ::UnityEngine::TextCore::LowLevel::FontEngineError const Invalid_Library_or_Face;
+static UnityEngine::TextCore::LowLevel::FontEngineError const Invalid_Library_or_Face;
 
 /// @brief Field Atlas_Generation_Cancelled offset 0
-static ::UnityEngine::TextCore::LowLevel::FontEngineError const Atlas_Generation_Cancelled;
+static UnityEngine::TextCore::LowLevel::FontEngineError const Atlas_Generation_Cancelled;
 
 /// @brief Field Invalid_SharedTextureData offset 0
-static ::UnityEngine::TextCore::LowLevel::FontEngineError const Invalid_SharedTextureData;
+static UnityEngine::TextCore::LowLevel::FontEngineError const Invalid_SharedTextureData;
 
 /// @brief Field OpenTypeLayoutLookup_Mismatch offset 0
-static ::UnityEngine::TextCore::LowLevel::FontEngineError const OpenTypeLayoutLookup_Mismatch;
+static UnityEngine::TextCore::LowLevel::FontEngineError const OpenTypeLayoutLookup_Mismatch;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::LowLevel
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::LowLevel::FontEngineError, "UnityEngine.TextCore.LowLevel", "FontEngineError");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::FontEngineError, "UnityEngine.TextCore.LowLevel", "FontEngineError");

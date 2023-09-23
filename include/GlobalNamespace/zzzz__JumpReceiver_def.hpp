@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace UnityEngine::Playables {
-struct Playable;
-}
 namespace UnityEngine::Playables {
 class INotification;
+}
+namespace UnityEngine::Playables {
+struct Playable;
 }
 namespace UnityEngine::Playables {
 class INotificationReceiver;
@@ -22,11 +21,11 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13892))
 // CS Name: JumpReceiver
-class CORDL_TYPE JumpReceiver : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE JumpReceiver : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::Playables::INotificationReceiver
-constexpr operator  ::UnityEngine::Playables::INotificationReceiver() const noexcept;
+/// @brief Convert operator to UnityEngine::Playables::INotificationReceiver
+constexpr operator  UnityEngine::Playables::INotificationReceiver() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -40,7 +39,7 @@ constexpr JumpReceiver(JumpReceiver const& ) noexcept = default;
 constexpr JumpReceiver(JumpReceiver&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit JumpReceiver(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit JumpReceiver(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -82,7 +81,7 @@ constexpr bool __get__jumpToDestinationValid_k__BackingField() const;
  void set_jumpToDestinationValid(bool value) ;
 
 /// @brief Method OnNotify addr 0x1f838f4 size 0x140 virtual true final true
- void OnNotify(::UnityEngine::Playables::Playable origin, ::UnityEngine::Playables::INotification notification, ::bs_hook::Il2CppWrapperType context) ;
+ void OnNotify(UnityEngine::Playables::Playable origin, UnityEngine::Playables::INotification notification, ::bs_hook::Il2CppWrapperType context) ;
 
 // Ctor Parameters []
 explicit JumpReceiver() ;
@@ -94,6 +93,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::JumpReceiver);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::JumpReceiver, "", "JumpReceiver");
+NEED_NO_BOX(GlobalNamespace::JumpReceiver);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::JumpReceiver, "", "JumpReceiver");

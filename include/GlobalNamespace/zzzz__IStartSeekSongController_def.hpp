@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 class WaitUntil;
 }
@@ -27,13 +26,13 @@ constexpr explicit IStartSeekSongController(void* ptr) noexcept : ::cordl_intern
 
 // Properties
 
- ::UnityEngine::WaitUntil __declspec(property(get=get_waitUntilIsReadyToStartTheSong))  waitUntilIsReadyToStartTheSong;
+ UnityEngine::WaitUntil __declspec(property(get=get_waitUntilIsReadyToStartTheSong))  waitUntilIsReadyToStartTheSong;
 
 
 // Methods
 
 /// @brief Method get_waitUntilIsReadyToStartTheSong addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::WaitUntil get_waitUntilIsReadyToStartTheSong() ;
+ UnityEngine::WaitUntil get_waitUntilIsReadyToStartTheSong() ;
 
 /// @brief Method StartSong addr 0x0 size 0xffffffffffffffff virtual true final false
  void StartSong(float_t offsetTime) ;
@@ -45,6 +44,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IStartSeekSongController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IStartSeekSongController, "", "IStartSeekSongController");
+NEED_NO_BOX(GlobalNamespace::IStartSeekSongController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IStartSeekSongController, "", "IStartSeekSongController");

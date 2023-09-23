@@ -3,15 +3,14 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 class MaterialPropertyBlock;
 }
 namespace UnityEngine {
-struct Color;
+class MeshRenderer;
 }
 namespace UnityEngine {
-class MeshRenderer;
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,7 +22,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14647))
 // CS Name: ParametricBoxController
-class CORDL_TYPE ParametricBoxController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ParametricBoxController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr ParametricBoxController(ParametricBoxController const& ) noexcept = de
 constexpr ParametricBoxController(ParametricBoxController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ParametricBoxController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ParametricBoxController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -83,11 +82,11 @@ constexpr void __set_heightCenter(float_t value) ;
 
 constexpr float_t __get_heightCenter() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_color, put=__set_color))  color;
+ UnityEngine::Color __declspec(property(get=__get_color, put=__set_color))  color;
 
-constexpr void __set_color(::UnityEngine::Color value) ;
+constexpr void __set_color(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_color() const;
+constexpr UnityEngine::Color __get_color() const;
 
  float_t __declspec(property(get=__get_alphaMultiplier, put=__set_alphaMultiplier))  alphaMultiplier;
 
@@ -125,17 +124,17 @@ constexpr void __set_widthEnd(float_t value) ;
 
 constexpr float_t __get_widthEnd() const;
 
- ::UnityEngine::MeshRenderer __declspec(property(get=__get__meshRenderer, put=__set__meshRenderer))  _meshRenderer;
+ UnityEngine::MeshRenderer __declspec(property(get=__get__meshRenderer, put=__set__meshRenderer))  _meshRenderer;
 
-constexpr void __set__meshRenderer(::UnityEngine::MeshRenderer value) ;
+constexpr void __set__meshRenderer(UnityEngine::MeshRenderer value) ;
 
-constexpr ::UnityEngine::MeshRenderer __get__meshRenderer() const;
+constexpr UnityEngine::MeshRenderer __get__meshRenderer() const;
 
-static ::UnityEngine::MaterialPropertyBlock __declspec(property(get=__get__materialPropertyBlock, put=__set__materialPropertyBlock))  _materialPropertyBlock;
+static UnityEngine::MaterialPropertyBlock __declspec(property(get=__get__materialPropertyBlock, put=__set__materialPropertyBlock))  _materialPropertyBlock;
 
-static void __set__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock value) ;
+static void __set__materialPropertyBlock(UnityEngine::MaterialPropertyBlock value) ;
 
-static ::UnityEngine::MaterialPropertyBlock __get__materialPropertyBlock() ;
+static UnityEngine::MaterialPropertyBlock __get__materialPropertyBlock() ;
 
 static int32_t __declspec(property(get=__get__colorID, put=__set__colorID))  _colorID;
 
@@ -192,6 +191,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ParametricBoxController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ParametricBoxController, "", "ParametricBoxController");
+NEED_NO_BOX(GlobalNamespace::ParametricBoxController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ParametricBoxController, "", "ParametricBoxController");

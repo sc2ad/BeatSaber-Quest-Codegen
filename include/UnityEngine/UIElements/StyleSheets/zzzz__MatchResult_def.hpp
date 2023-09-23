@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
-namespace {
 namespace UnityEngine::UIElements::StyleSheets {
 struct MatchResultErrorCode;
 }
@@ -19,8 +18,8 @@ namespace UnityEngine::UIElements::StyleSheets {
 struct CORDL_TYPE MatchResult : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "errorCode", ty: "::UnityEngine::UIElements::StyleSheets::MatchResultErrorCode", modifiers: "", def_value: None }, CppParam { name: "errorValue", ty: "::StringW", modifiers: "", def_value: None }]
-constexpr MatchResult(::UnityEngine::UIElements::StyleSheets::MatchResultErrorCode errorCode, ::StringW errorValue) noexcept;
+// Ctor Parameters [CppParam { name: "errorCode", ty: "UnityEngine::UIElements::StyleSheets::MatchResultErrorCode", modifiers: "", def_value: None }, CppParam { name: "errorValue", ty: "::StringW", modifiers: "", def_value: None }]
+constexpr MatchResult(UnityEngine::UIElements::StyleSheets::MatchResultErrorCode errorCode, ::StringW errorValue) noexcept;
 
 
                     constexpr MatchResult(MatchResult const&) = default;
@@ -53,11 +52,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::UIElements::StyleSheets::MatchResultErrorCode __declspec(property(get=__get_errorCode, put=__set_errorCode))  errorCode;
+ UnityEngine::UIElements::StyleSheets::MatchResultErrorCode __declspec(property(get=__get_errorCode, put=__set_errorCode))  errorCode;
 
-constexpr void __set_errorCode(::UnityEngine::UIElements::StyleSheets::MatchResultErrorCode value) ;
+constexpr void __set_errorCode(UnityEngine::UIElements::StyleSheets::MatchResultErrorCode value) ;
 
-constexpr ::UnityEngine::UIElements::StyleSheets::MatchResultErrorCode __get_errorCode() const;
+constexpr UnityEngine::UIElements::StyleSheets::MatchResultErrorCode __get_errorCode() const;
 
  ::StringW __declspec(property(get=__get_errorValue, put=__set_errorValue))  errorValue;
 
@@ -80,5 +79,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::StyleSheets
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::MatchResult, "UnityEngine.UIElements.StyleSheets", "MatchResult");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::StyleSheets::MatchResult, "UnityEngine.UIElements.StyleSheets", "MatchResult");

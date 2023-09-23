@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class Exception;
 }
@@ -53,30 +52,29 @@ constexpr explicit Error(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr)
 // Methods
 
 /// @brief Method ArgumentNull addr 0x2680b34 size 0x64 virtual false final false
-static ::System::Exception ArgumentNull(::StringW s) ;
+static System::Exception ArgumentNull(::StringW s) ;
 
 /// @brief Method ArgumentOutOfRange addr 0x2680b98 size 0x64 virtual false final false
-static ::System::Exception ArgumentOutOfRange(::StringW s) ;
+static System::Exception ArgumentOutOfRange(::StringW s) ;
 
 /// @brief Method MoreThanOneElement addr 0x2680bfc size 0x74 virtual false final false
-static ::System::Exception MoreThanOneElement() ;
+static System::Exception MoreThanOneElement() ;
 
 /// @brief Method MoreThanOneMatch addr 0x2680c70 size 0x74 virtual false final false
-static ::System::Exception MoreThanOneMatch() ;
+static System::Exception MoreThanOneMatch() ;
 
 /// @brief Method NoElements addr 0x2680ce4 size 0x74 virtual false final false
-static ::System::Exception NoElements() ;
+static System::Exception NoElements() ;
 
 /// @brief Method NoMatch addr 0x2680d58 size 0x74 virtual false final false
-static ::System::Exception NoMatch() ;
+static System::Exception NoMatch() ;
 
 /// @brief Method NotSupported addr 0x2680dcc size 0x5c virtual false final false
-static ::System::Exception NotSupported() ;
+static System::Exception NotSupported() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Linq
-} // end anonymous namespace
-NEED_NO_BOX(::System::Linq::Error);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Error, "System.Linq", "Error");
+NEED_NO_BOX(System::Linq::Error);
+DEFINE_IL2CPP_ARG_TYPE(System::Linq::Error, "System.Linq", "Error");

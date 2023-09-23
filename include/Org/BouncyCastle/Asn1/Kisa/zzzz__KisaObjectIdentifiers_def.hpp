@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
@@ -51,17 +50,17 @@ constexpr explicit KisaObjectIdentifiers(void* ptr) noexcept : ::bs_hook::Il2Cpp
 
 // Fields
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_IdSeedCbc, put=__set_IdSeedCbc))  IdSeedCbc;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_IdSeedCbc, put=__set_IdSeedCbc))  IdSeedCbc;
 
-static void __set_IdSeedCbc(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_IdSeedCbc(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_IdSeedCbc() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_IdSeedCbc() ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_IdNpkiAppCmsSeedWrap, put=__set_IdNpkiAppCmsSeedWrap))  IdNpkiAppCmsSeedWrap;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_IdNpkiAppCmsSeedWrap, put=__set_IdNpkiAppCmsSeedWrap))  IdNpkiAppCmsSeedWrap;
 
-static void __set_IdNpkiAppCmsSeedWrap(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_IdNpkiAppCmsSeedWrap(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_IdNpkiAppCmsSeedWrap() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_IdNpkiAppCmsSeedWrap() ;
 
 
 // Methods
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::Kisa
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers, "Org.BouncyCastle.Asn1.Kisa", "KisaObjectIdentifiers");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers, "Org.BouncyCastle.Asn1.Kisa", "KisaObjectIdentifiers");

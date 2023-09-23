@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Bcpg {
-class BcpgOutputStream;
-}
 namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
+}
+namespace Org::BouncyCastle::Bcpg {
+class BcpgOutputStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -21,7 +20,7 @@ namespace Org::BouncyCastle::Bcpg {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(560))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(600))
 // CS Name: Org.BouncyCastle.Bcpg.UserIdPacket
-class CORDL_TYPE UserIdPacket : public ::Org::BouncyCastle::Bcpg::ContainedPacket {
+class CORDL_TYPE UserIdPacket : public Org::BouncyCastle::Bcpg::ContainedPacket {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr UserIdPacket(UserIdPacket const& ) noexcept = default;
 constexpr UserIdPacket(UserIdPacket&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UserIdPacket(void* ptr) noexcept : ::Org::BouncyCastle::Bcpg::ContainedPacket(ptr) {
+constexpr explicit UserIdPacket(void* ptr) noexcept : Org::BouncyCastle::Bcpg::ContainedPacket(ptr) {
 }
 
 
@@ -66,11 +65,11 @@ constexpr ::ArrayW<uint8_t> __get_idData() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "::Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
-explicit UserIdPacket(::Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
+explicit UserIdPacket(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
 /// @brief Method .ctor addr 0x1144c80 size 0x3c virtual false final false
- void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+ void _ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
 // Ctor Parameters [CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }]
 explicit UserIdPacket(::StringW id) ;
@@ -82,12 +81,11 @@ explicit UserIdPacket(::StringW id) ;
  ::StringW GetId() ;
 
 /// @brief Method Encode addr 0x114b1ac size 0x28 virtual true final false
- void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream bcpgOut) ;
+ void Encode(Org::BouncyCastle::Bcpg::BcpgOutputStream bcpgOut) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::UserIdPacket);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::UserIdPacket, "Org.BouncyCastle.Bcpg", "UserIdPacket");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::UserIdPacket);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::UserIdPacket, "Org.BouncyCastle.Bcpg", "UserIdPacket");

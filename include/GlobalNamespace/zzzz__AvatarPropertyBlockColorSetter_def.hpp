@@ -3,12 +3,11 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct Color;
-}
 namespace UnityEngine {
 class Renderer;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine {
 class MaterialPropertyBlock;
@@ -23,7 +22,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4079))
 // CS Name: AvatarPropertyBlockColorSetter
-class CORDL_TYPE AvatarPropertyBlockColorSetter : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE AvatarPropertyBlockColorSetter : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr AvatarPropertyBlockColorSetter(AvatarPropertyBlockColorSetter const& )
 constexpr AvatarPropertyBlockColorSetter(AvatarPropertyBlockColorSetter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AvatarPropertyBlockColorSetter(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit AvatarPropertyBlockColorSetter(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -59,11 +58,11 @@ constexpr explicit AvatarPropertyBlockColorSetter(void* ptr) noexcept : ::UnityE
 
 // Fields
 
- ::UnityEngine::Color __declspec(property(get=__get__defaultColor, put=__set__defaultColor))  _defaultColor;
+ UnityEngine::Color __declspec(property(get=__get__defaultColor, put=__set__defaultColor))  _defaultColor;
 
-constexpr void __set__defaultColor(::UnityEngine::Color value) ;
+constexpr void __set__defaultColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__defaultColor() const;
+constexpr UnityEngine::Color __get__defaultColor() const;
 
  float_t __declspec(property(get=__get__darkerColorMultiplier, put=__set__darkerColorMultiplier))  _darkerColorMultiplier;
 
@@ -83,35 +82,35 @@ constexpr void __set__editInPlayMode(bool value) ;
 
 constexpr bool __get__editInPlayMode() const;
 
- ::UnityEngine::Renderer __declspec(property(get=__get__renderer, put=__set__renderer))  _renderer;
+ UnityEngine::Renderer __declspec(property(get=__get__renderer, put=__set__renderer))  _renderer;
 
-constexpr void __set__renderer(::UnityEngine::Renderer value) ;
+constexpr void __set__renderer(UnityEngine::Renderer value) ;
 
-constexpr ::UnityEngine::Renderer __get__renderer() const;
+constexpr UnityEngine::Renderer __get__renderer() const;
 
-static ::UnityEngine::MaterialPropertyBlock __declspec(property(get=__get__materialPropertyBlock, put=__set__materialPropertyBlock))  _materialPropertyBlock;
+static UnityEngine::MaterialPropertyBlock __declspec(property(get=__get__materialPropertyBlock, put=__set__materialPropertyBlock))  _materialPropertyBlock;
 
-static void __set__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock value) ;
+static void __set__materialPropertyBlock(UnityEngine::MaterialPropertyBlock value) ;
 
-static ::UnityEngine::MaterialPropertyBlock __get__materialPropertyBlock() ;
+static UnityEngine::MaterialPropertyBlock __get__materialPropertyBlock() ;
 
- ::UnityEngine::Color __declspec(property(get=__get__rimLightColor, put=__set__rimLightColor))  _rimLightColor;
+ UnityEngine::Color __declspec(property(get=__get__rimLightColor, put=__set__rimLightColor))  _rimLightColor;
 
-constexpr void __set__rimLightColor(::UnityEngine::Color value) ;
+constexpr void __set__rimLightColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__rimLightColor() const;
+constexpr UnityEngine::Color __get__rimLightColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__mainColor, put=__set__mainColor))  _mainColor;
+ UnityEngine::Color __declspec(property(get=__get__mainColor, put=__set__mainColor))  _mainColor;
 
-constexpr void __set__mainColor(::UnityEngine::Color value) ;
+constexpr void __set__mainColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__mainColor() const;
+constexpr UnityEngine::Color __get__mainColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__boostColor, put=__set__boostColor))  _boostColor;
+ UnityEngine::Color __declspec(property(get=__get__boostColor, put=__set__boostColor))  _boostColor;
 
-constexpr void __set__boostColor(::UnityEngine::Color value) ;
+constexpr void __set__boostColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__boostColor() const;
+constexpr UnityEngine::Color __get__boostColor() const;
 
  bool __declspec(property(get=__get__highlighted, put=__set__highlighted))  _highlighted;
 
@@ -129,10 +128,10 @@ constexpr bool __get__highlighted() const;
  void OnValidate() ;
 
 /// @brief Method SetColor addr 0x20c08ac size 0x38 virtual false final false
- void SetColor(::UnityEngine::Color color) ;
+ void SetColor(UnityEngine::Color color) ;
 
 /// @brief Method SetColors addr 0x20c08e4 size 0x14 virtual false final false
- void SetColors(::UnityEngine::Color mainColor, ::UnityEngine::Color rimLightColor) ;
+ void SetColors(UnityEngine::Color mainColor, UnityEngine::Color rimLightColor) ;
 
 /// @brief Method SetHighlight addr 0x20c0a68 size 0xc virtual false final false
  void SetHighlight(bool highlighted, int32_t uvSegment) ;
@@ -150,6 +149,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::AvatarPropertyBlockColorSetter);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AvatarPropertyBlockColorSetter, "", "AvatarPropertyBlockColorSetter");
+NEED_NO_BOX(GlobalNamespace::AvatarPropertyBlockColorSetter);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPropertyBlockColorSetter, "", "AvatarPropertyBlockColorSetter");

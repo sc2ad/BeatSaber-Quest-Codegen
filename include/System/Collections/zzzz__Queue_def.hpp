@@ -4,18 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-class ICloneable;
-}
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections {
 class ICollection;
+}
+namespace System {
+class ICloneable;
 }
 namespace System {
 class Array;
@@ -25,10 +24,10 @@ namespace System::Collections {
 class Queue;
 }
 namespace System::Collections {
-class ____System__Collections__Queue__QueueDebugView;
+class System__Collections__Queue__QueueDebugView;
 }
 namespace System::Collections {
-class ____System__Collections__Queue__QueueEnumerator;
+class System__Collections__Queue__QueueEnumerator;
 }
 // Type: ::QueueEnumerator
 namespace System::Collections {
@@ -36,53 +35,53 @@ namespace System::Collections {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3759))
 // CS Name: System.Collections.Queue::QueueEnumerator
-class CORDL_TYPE ____System__Collections__Queue__QueueEnumerator : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Collections__Queue__QueueEnumerator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::ICloneable
-constexpr operator  ::System::ICloneable() const noexcept;
+/// @brief Convert operator to System::ICloneable
+constexpr operator  System::ICloneable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____System__Collections__Queue__QueueEnumerator() = default;
+virtual ~System__Collections__Queue__QueueEnumerator() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__Queue__QueueEnumerator", modifiers: " const&", def_value: None }]
-constexpr ____System__Collections__Queue__QueueEnumerator(____System__Collections__Queue__QueueEnumerator const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__Queue__QueueEnumerator", modifiers: " const&", def_value: None }]
+constexpr System__Collections__Queue__QueueEnumerator(System__Collections__Queue__QueueEnumerator const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__Queue__QueueEnumerator", modifiers: "&&", def_value: None }]
-constexpr ____System__Collections__Queue__QueueEnumerator(____System__Collections__Queue__QueueEnumerator&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__Queue__QueueEnumerator", modifiers: "&&", def_value: None }]
+constexpr System__Collections__Queue__QueueEnumerator(System__Collections__Queue__QueueEnumerator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Collections__Queue__QueueEnumerator(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Collections__Queue__QueueEnumerator(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Collections__Queue__QueueEnumerator& operator=(std::nullptr_t) noexcept {
+  constexpr System__Collections__Queue__QueueEnumerator& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Collections__Queue__QueueEnumerator& operator=(void* o) noexcept {
+  constexpr System__Collections__Queue__QueueEnumerator& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Collections__Queue__QueueEnumerator& operator=(____System__Collections__Queue__QueueEnumerator&& o) noexcept = default;
-  constexpr ____System__Collections__Queue__QueueEnumerator& operator=(____System__Collections__Queue__QueueEnumerator const& o) noexcept = default;
+  constexpr System__Collections__Queue__QueueEnumerator& operator=(System__Collections__Queue__QueueEnumerator&& o) noexcept = default;
+  constexpr System__Collections__Queue__QueueEnumerator& operator=(System__Collections__Queue__QueueEnumerator const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Collections::Queue __declspec(property(get=__get__q, put=__set__q))  _q;
+ System::Collections::Queue __declspec(property(get=__get__q, put=__set__q))  _q;
 
-constexpr void __set__q(::System::Collections::Queue value) ;
+constexpr void __set__q(System::Collections::Queue value) ;
 
-constexpr ::System::Collections::Queue __get__q() const;
+constexpr System::Collections::Queue __get__q() const;
 
  int32_t __declspec(property(get=__get__index, put=__set__index))  _index;
 
@@ -110,11 +109,11 @@ constexpr ::bs_hook::Il2CppWrapperType __get__currentElement() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "q", ty: "::System::Collections::Queue", modifiers: "", def_value: None }]
-explicit ____System__Collections__Queue__QueueEnumerator(::System::Collections::Queue q) ;
+// Ctor Parameters [CppParam { name: "q", ty: "System::Collections::Queue", modifiers: "", def_value: None }]
+explicit System__Collections__Queue__QueueEnumerator(System::Collections::Queue q) ;
 
 /// @brief Method .ctor addr 0x2411a64 size 0x50 virtual false final false
- void _ctor(::System::Collections::Queue q) ;
+ void _ctor(System::Collections::Queue q) ;
 
 /// @brief Method Clone addr 0x2411c54 size 0x8 virtual true final true
  ::bs_hook::Il2CppWrapperType Clone() ;
@@ -138,37 +137,37 @@ namespace System::Collections {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3760))
 // CS Name: System.Collections.Queue::QueueDebugView
-class CORDL_TYPE ____System__Collections__Queue__QueueDebugView : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Collections__Queue__QueueDebugView : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____System__Collections__Queue__QueueDebugView() = default;
+virtual ~System__Collections__Queue__QueueDebugView() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__Queue__QueueDebugView", modifiers: " const&", def_value: None }]
-constexpr ____System__Collections__Queue__QueueDebugView(____System__Collections__Queue__QueueDebugView const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__Queue__QueueDebugView", modifiers: " const&", def_value: None }]
+constexpr System__Collections__Queue__QueueDebugView(System__Collections__Queue__QueueDebugView const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__Queue__QueueDebugView", modifiers: "&&", def_value: None }]
-constexpr ____System__Collections__Queue__QueueDebugView(____System__Collections__Queue__QueueDebugView&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__Queue__QueueDebugView", modifiers: "&&", def_value: None }]
+constexpr System__Collections__Queue__QueueDebugView(System__Collections__Queue__QueueDebugView&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Collections__Queue__QueueDebugView(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Collections__Queue__QueueDebugView(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Collections__Queue__QueueDebugView& operator=(std::nullptr_t) noexcept {
+  constexpr System__Collections__Queue__QueueDebugView& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Collections__Queue__QueueDebugView& operator=(void* o) noexcept {
+  constexpr System__Collections__Queue__QueueDebugView& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Collections__Queue__QueueDebugView& operator=(____System__Collections__Queue__QueueDebugView&& o) noexcept = default;
-  constexpr ____System__Collections__Queue__QueueDebugView& operator=(____System__Collections__Queue__QueueDebugView const& o) noexcept = default;
+  constexpr System__Collections__Queue__QueueDebugView& operator=(System__Collections__Queue__QueueDebugView&& o) noexcept = default;
+  constexpr System__Collections__Queue__QueueDebugView& operator=(System__Collections__Queue__QueueDebugView const& o) noexcept = default;
                 
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
@@ -184,18 +183,18 @@ namespace System::Collections {
 class CORDL_TYPE Queue : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using QueueDebugView = ::System::Collections::____System__Collections__Queue__QueueDebugView;
+using QueueDebugView = System::Collections::System__Collections__Queue__QueueDebugView;
 
-using QueueEnumerator = ::System::Collections::____System__Collections__Queue__QueueEnumerator;
+using QueueEnumerator = System::Collections::System__Collections__Queue__QueueEnumerator;
 
-/// @brief Convert operator to ::System::Collections::ICollection
-constexpr operator  ::System::Collections::ICollection() const noexcept;
+/// @brief Convert operator to System::Collections::ICollection
+constexpr operator  System::Collections::ICollection() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
-/// @brief Convert operator to ::System::ICloneable
-constexpr operator  ::System::ICloneable() const noexcept;
+/// @brief Convert operator to System::ICloneable
+constexpr operator  System::ICloneable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -302,11 +301,11 @@ explicit Queue(int32_t capacity, float_t growFactor) ;
 /// @brief Method .ctor addr 0x2411084 size 0x1c0 virtual false final false
  void _ctor(int32_t capacity, float_t growFactor) ;
 
-// Ctor Parameters [CppParam { name: "col", ty: "::System::Collections::ICollection", modifiers: "", def_value: None }]
-explicit Queue(::System::Collections::ICollection col) ;
+// Ctor Parameters [CppParam { name: "col", ty: "System::Collections::ICollection", modifiers: "", def_value: None }]
+explicit Queue(System::Collections::ICollection col) ;
 
 /// @brief Method .ctor addr 0x241124c size 0x26c virtual false final false
- void _ctor(::System::Collections::ICollection col) ;
+ void _ctor(System::Collections::ICollection col) ;
 
 /// @brief Method get_Count addr 0x24114b8 size 0x8 virtual true final false
  int32_t get_Count() ;
@@ -321,13 +320,13 @@ explicit Queue(::System::Collections::ICollection col) ;
  ::bs_hook::Il2CppWrapperType get_SyncRoot() ;
 
 /// @brief Method CopyTo addr 0x2411628 size 0x1f4 virtual true final false
- void CopyTo(::System::Array array, int32_t index) ;
+ void CopyTo(System::Array array, int32_t index) ;
 
 /// @brief Method Enqueue addr 0x241181c size 0xfc virtual true final false
  void Enqueue(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method GetEnumerator addr 0x2411a04 size 0x60 virtual true final false
- ::System::Collections::IEnumerator GetEnumerator() ;
+ System::Collections::IEnumerator GetEnumerator() ;
 
 /// @brief Method Dequeue addr 0x2411ab4 size 0xcc virtual true final false
  ::bs_hook::Il2CppWrapperType Dequeue() ;
@@ -345,10 +344,9 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Collections
-} // end anonymous namespace
-NEED_NO_BOX(::System::Collections::Queue);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Queue, "System.Collections", "Queue");
-NEED_NO_BOX(::System::Collections::____System__Collections__Queue__QueueDebugView);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::____System__Collections__Queue__QueueDebugView, "System.Collections", "Queue/QueueDebugView");
-NEED_NO_BOX(::System::Collections::____System__Collections__Queue__QueueEnumerator);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::____System__Collections__Queue__QueueEnumerator, "System.Collections", "Queue/QueueEnumerator");
+NEED_NO_BOX(System::Collections::Queue);
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::Queue, "System.Collections", "Queue");
+NEED_NO_BOX(System::Collections::System__Collections__Queue__QueueDebugView);
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::System__Collections__Queue__QueueDebugView, "System.Collections", "Queue/QueueDebugView");
+NEED_NO_BOX(System::Collections::System__Collections__Queue__QueueEnumerator);
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::System__Collections__Queue__QueueEnumerator, "System.Collections", "Queue/QueueEnumerator");

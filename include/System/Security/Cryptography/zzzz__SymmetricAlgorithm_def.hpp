@@ -4,12 +4,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Security::Cryptography {
-struct PaddingMode;
-}
-namespace System::Security::Cryptography {
-class ICryptoTransform;
+struct CipherMode;
 }
 namespace System {
 class IDisposable;
@@ -18,7 +14,10 @@ namespace System::Security::Cryptography {
 class KeySizes;
 }
 namespace System::Security::Cryptography {
-struct CipherMode;
+class ICryptoTransform;
+}
+namespace System::Security::Cryptography {
+struct PaddingMode;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {
@@ -33,8 +32,8 @@ namespace System::Security::Cryptography {
 class CORDL_TYPE SymmetricAlgorithm : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
@@ -93,17 +92,17 @@ constexpr void __set_KeyValue(::ArrayW<uint8_t> value) ;
 
 constexpr ::ArrayW<uint8_t> __get_KeyValue() const;
 
- ::ArrayW<::System::Security::Cryptography::KeySizes> __declspec(property(get=__get_LegalBlockSizesValue, put=__set_LegalBlockSizesValue))  LegalBlockSizesValue;
+ ::ArrayW<System::Security::Cryptography::KeySizes> __declspec(property(get=__get_LegalBlockSizesValue, put=__set_LegalBlockSizesValue))  LegalBlockSizesValue;
 
-constexpr void __set_LegalBlockSizesValue(::ArrayW<::System::Security::Cryptography::KeySizes> value) ;
+constexpr void __set_LegalBlockSizesValue(::ArrayW<System::Security::Cryptography::KeySizes> value) ;
 
-constexpr ::ArrayW<::System::Security::Cryptography::KeySizes> __get_LegalBlockSizesValue() const;
+constexpr ::ArrayW<System::Security::Cryptography::KeySizes> __get_LegalBlockSizesValue() const;
 
- ::ArrayW<::System::Security::Cryptography::KeySizes> __declspec(property(get=__get_LegalKeySizesValue, put=__set_LegalKeySizesValue))  LegalKeySizesValue;
+ ::ArrayW<System::Security::Cryptography::KeySizes> __declspec(property(get=__get_LegalKeySizesValue, put=__set_LegalKeySizesValue))  LegalKeySizesValue;
 
-constexpr void __set_LegalKeySizesValue(::ArrayW<::System::Security::Cryptography::KeySizes> value) ;
+constexpr void __set_LegalKeySizesValue(::ArrayW<System::Security::Cryptography::KeySizes> value) ;
 
-constexpr ::ArrayW<::System::Security::Cryptography::KeySizes> __get_LegalKeySizesValue() const;
+constexpr ::ArrayW<System::Security::Cryptography::KeySizes> __get_LegalKeySizesValue() const;
 
  int32_t __declspec(property(get=__get_KeySizeValue, put=__set_KeySizeValue))  KeySizeValue;
 
@@ -111,17 +110,17 @@ constexpr void __set_KeySizeValue(int32_t value) ;
 
 constexpr int32_t __get_KeySizeValue() const;
 
- ::System::Security::Cryptography::CipherMode __declspec(property(get=__get_ModeValue, put=__set_ModeValue))  ModeValue;
+ System::Security::Cryptography::CipherMode __declspec(property(get=__get_ModeValue, put=__set_ModeValue))  ModeValue;
 
-constexpr void __set_ModeValue(::System::Security::Cryptography::CipherMode value) ;
+constexpr void __set_ModeValue(System::Security::Cryptography::CipherMode value) ;
 
-constexpr ::System::Security::Cryptography::CipherMode __get_ModeValue() const;
+constexpr System::Security::Cryptography::CipherMode __get_ModeValue() const;
 
- ::System::Security::Cryptography::PaddingMode __declspec(property(get=__get_PaddingValue, put=__set_PaddingValue))  PaddingValue;
+ System::Security::Cryptography::PaddingMode __declspec(property(get=__get_PaddingValue, put=__set_PaddingValue))  PaddingValue;
 
-constexpr void __set_PaddingValue(::System::Security::Cryptography::PaddingMode value) ;
+constexpr void __set_PaddingValue(System::Security::Cryptography::PaddingMode value) ;
 
-constexpr ::System::Security::Cryptography::PaddingMode __get_PaddingValue() const;
+constexpr System::Security::Cryptography::PaddingMode __get_PaddingValue() const;
 
 
 // Properties
@@ -134,13 +133,13 @@ constexpr ::System::Security::Cryptography::PaddingMode __get_PaddingValue() con
 
  ::ArrayW<uint8_t> __declspec(property(get=get_Key, put=set_Key))  Key;
 
- ::ArrayW<::System::Security::Cryptography::KeySizes> __declspec(property(get=get_LegalKeySizes))  LegalKeySizes;
+ ::ArrayW<System::Security::Cryptography::KeySizes> __declspec(property(get=get_LegalKeySizes))  LegalKeySizes;
 
  int32_t __declspec(property(get=get_KeySize, put=set_KeySize))  KeySize;
 
- ::System::Security::Cryptography::CipherMode __declspec(property(get=get_Mode, put=set_Mode))  Mode;
+ System::Security::Cryptography::CipherMode __declspec(property(get=get_Mode, put=set_Mode))  Mode;
 
- ::System::Security::Cryptography::PaddingMode __declspec(property(get=get_Padding, put=set_Padding))  Padding;
+ System::Security::Cryptography::PaddingMode __declspec(property(get=get_Padding, put=set_Padding))  Padding;
 
 
 // Methods
@@ -182,7 +181,7 @@ explicit SymmetricAlgorithm() ;
  void set_Key(::ArrayW<uint8_t> value) ;
 
 /// @brief Method get_LegalKeySizes addr 0x22ff81c size 0x78 virtual true final false
- ::ArrayW<::System::Security::Cryptography::KeySizes> get_LegalKeySizes() ;
+ ::ArrayW<System::Security::Cryptography::KeySizes> get_LegalKeySizes() ;
 
 /// @brief Method get_KeySize addr 0x22ff894 size 0x8 virtual true final false
  int32_t get_KeySize() ;
@@ -191,34 +190,34 @@ explicit SymmetricAlgorithm() ;
  void set_KeySize(int32_t value) ;
 
 /// @brief Method get_Mode addr 0x22ff920 size 0x8 virtual true final false
- ::System::Security::Cryptography::CipherMode get_Mode() ;
+ System::Security::Cryptography::CipherMode get_Mode() ;
 
 /// @brief Method set_Mode addr 0x22ff928 size 0x7c virtual true final false
- void set_Mode(::System::Security::Cryptography::CipherMode value) ;
+ void set_Mode(System::Security::Cryptography::CipherMode value) ;
 
 /// @brief Method get_Padding addr 0x22ff9a4 size 0x8 virtual true final false
- ::System::Security::Cryptography::PaddingMode get_Padding() ;
+ System::Security::Cryptography::PaddingMode get_Padding() ;
 
 /// @brief Method set_Padding addr 0x22ff9ac size 0x7c virtual true final false
- void set_Padding(::System::Security::Cryptography::PaddingMode value) ;
+ void set_Padding(System::Security::Cryptography::PaddingMode value) ;
 
 /// @brief Method ValidKeySize addr 0x22ff780 size 0x9c virtual false final false
  bool ValidKeySize(int32_t bitLength) ;
 
 /// @brief Method Create addr 0x22ffa28 size 0xa0 virtual false final false
-static ::System::Security::Cryptography::SymmetricAlgorithm Create(::StringW algName) ;
+static System::Security::Cryptography::SymmetricAlgorithm Create(::StringW algName) ;
 
 /// @brief Method CreateEncryptor addr 0x22ffb20 size 0x50 virtual true final false
- ::System::Security::Cryptography::ICryptoTransform CreateEncryptor() ;
+ System::Security::Cryptography::ICryptoTransform CreateEncryptor() ;
 
 /// @brief Method CreateEncryptor addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Security::Cryptography::ICryptoTransform CreateEncryptor(::ArrayW<uint8_t> rgbKey, ::ArrayW<uint8_t> rgbIV) ;
+ System::Security::Cryptography::ICryptoTransform CreateEncryptor(::ArrayW<uint8_t> rgbKey, ::ArrayW<uint8_t> rgbIV) ;
 
 /// @brief Method CreateDecryptor addr 0x22ffb70 size 0x50 virtual true final false
- ::System::Security::Cryptography::ICryptoTransform CreateDecryptor() ;
+ System::Security::Cryptography::ICryptoTransform CreateDecryptor() ;
 
 /// @brief Method CreateDecryptor addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Security::Cryptography::ICryptoTransform CreateDecryptor(::ArrayW<uint8_t> rgbKey, ::ArrayW<uint8_t> rgbIV) ;
+ System::Security::Cryptography::ICryptoTransform CreateDecryptor(::ArrayW<uint8_t> rgbKey, ::ArrayW<uint8_t> rgbIV) ;
 
 /// @brief Method GenerateKey addr 0x0 size 0xffffffffffffffff virtual true final false
  void GenerateKey() ;
@@ -230,6 +229,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::SymmetricAlgorithm);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::SymmetricAlgorithm, "System.Security.Cryptography", "SymmetricAlgorithm");
+NEED_NO_BOX(System::Security::Cryptography::SymmetricAlgorithm);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SymmetricAlgorithm, "System.Security.Cryptography", "SymmetricAlgorithm");

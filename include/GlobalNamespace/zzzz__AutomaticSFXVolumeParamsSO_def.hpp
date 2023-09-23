@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include <cmath>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class AutomaticSFXVolumeParamsSO;
@@ -13,7 +12,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10151))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4041))
 // CS Name: AutomaticSFXVolumeParamsSO
-class CORDL_TYPE AutomaticSFXVolumeParamsSO : public ::UnityEngine::ScriptableObject {
+class CORDL_TYPE AutomaticSFXVolumeParamsSO : public UnityEngine::ScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr AutomaticSFXVolumeParamsSO(AutomaticSFXVolumeParamsSO const& ) noexcep
 constexpr AutomaticSFXVolumeParamsSO(AutomaticSFXVolumeParamsSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AutomaticSFXVolumeParamsSO(void* ptr) noexcept : ::UnityEngine::ScriptableObject(ptr) {
+constexpr explicit AutomaticSFXVolumeParamsSO(void* ptr) noexcept : UnityEngine::ScriptableObject(ptr) {
 }
 
 
@@ -153,6 +152,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::AutomaticSFXVolumeParamsSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AutomaticSFXVolumeParamsSO, "", "AutomaticSFXVolumeParamsSO");
+NEED_NO_BOX(GlobalNamespace::AutomaticSFXVolumeParamsSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AutomaticSFXVolumeParamsSO, "", "AutomaticSFXVolumeParamsSO");

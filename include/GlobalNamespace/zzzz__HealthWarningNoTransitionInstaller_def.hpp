@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__NoTransitionInstaller_def.hpp"
-namespace {
 namespace Zenject {
 class DiContainer;
 }
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11118))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6091))
 // CS Name: HealthWarningNoTransitionInstaller
-class CORDL_TYPE HealthWarningNoTransitionInstaller : public ::Zenject::NoTransitionInstaller {
+class CORDL_TYPE HealthWarningNoTransitionInstaller : public Zenject::NoTransitionInstaller {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr HealthWarningNoTransitionInstaller(HealthWarningNoTransitionInstaller 
 constexpr HealthWarningNoTransitionInstaller(HealthWarningNoTransitionInstaller&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HealthWarningNoTransitionInstaller(void* ptr) noexcept : ::Zenject::NoTransitionInstaller(ptr) {
+constexpr explicit HealthWarningNoTransitionInstaller(void* ptr) noexcept : Zenject::NoTransitionInstaller(ptr) {
 }
 
 
@@ -57,23 +56,23 @@ constexpr explicit HealthWarningNoTransitionInstaller(void* ptr) noexcept : ::Ze
 
 // Fields
 
- ::GlobalNamespace::HealthWarningSceneSetupData __declspec(property(get=__get__healthWarningSceneSetupData, put=__set__healthWarningSceneSetupData))  _healthWarningSceneSetupData;
+ GlobalNamespace::HealthWarningSceneSetupData __declspec(property(get=__get__healthWarningSceneSetupData, put=__set__healthWarningSceneSetupData))  _healthWarningSceneSetupData;
 
-constexpr void __set__healthWarningSceneSetupData(::GlobalNamespace::HealthWarningSceneSetupData value) ;
+constexpr void __set__healthWarningSceneSetupData(GlobalNamespace::HealthWarningSceneSetupData value) ;
 
-constexpr ::GlobalNamespace::HealthWarningSceneSetupData __get__healthWarningSceneSetupData() const;
+constexpr GlobalNamespace::HealthWarningSceneSetupData __get__healthWarningSceneSetupData() const;
 
- ::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO __declspec(property(get=__get__scenesTransitionSetupData, put=__set__scenesTransitionSetupData))  _scenesTransitionSetupData;
+ GlobalNamespace::HealthWarningScenesTransitionSetupDataSO __declspec(property(get=__get__scenesTransitionSetupData, put=__set__scenesTransitionSetupData))  _scenesTransitionSetupData;
 
-constexpr void __set__scenesTransitionSetupData(::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO value) ;
+constexpr void __set__scenesTransitionSetupData(GlobalNamespace::HealthWarningScenesTransitionSetupDataSO value) ;
 
-constexpr ::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO __get__scenesTransitionSetupData() const;
+constexpr GlobalNamespace::HealthWarningScenesTransitionSetupDataSO __get__scenesTransitionSetupData() const;
 
 
 // Methods
 
 /// @brief Method InstallBindings addr 0x21b65a4 size 0x44 virtual true final false
- void InstallBindings(::Zenject::DiContainer container) ;
+ void InstallBindings(Zenject::DiContainer container) ;
 
 // Ctor Parameters []
 explicit HealthWarningNoTransitionInstaller() ;
@@ -85,6 +84,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::HealthWarningNoTransitionInstaller);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::HealthWarningNoTransitionInstaller, "", "HealthWarningNoTransitionInstaller");
+NEED_NO_BOX(GlobalNamespace::HealthWarningNoTransitionInstaller);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningNoTransitionInstaller, "", "HealthWarningNoTransitionInstaller");

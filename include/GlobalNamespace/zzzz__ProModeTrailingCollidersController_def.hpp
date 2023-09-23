@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace GlobalNamespace {
 class NoteMovement;
 }
@@ -22,7 +21,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4900))
 // CS Name: ProModeTrailingCollidersController
-class CORDL_TYPE ProModeTrailingCollidersController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ProModeTrailingCollidersController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr ProModeTrailingCollidersController(ProModeTrailingCollidersController 
 constexpr ProModeTrailingCollidersController(ProModeTrailingCollidersController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ProModeTrailingCollidersController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ProModeTrailingCollidersController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -58,29 +57,29 @@ constexpr explicit ProModeTrailingCollidersController(void* ptr) noexcept : ::Un
 
 // Fields
 
- ::GlobalNamespace::BoxCuttableBySaber __declspec(property(get=__get__mainSmallCuttableBySaber, put=__set__mainSmallCuttableBySaber))  _mainSmallCuttableBySaber;
+ GlobalNamespace::BoxCuttableBySaber __declspec(property(get=__get__mainSmallCuttableBySaber, put=__set__mainSmallCuttableBySaber))  _mainSmallCuttableBySaber;
 
-constexpr void __set__mainSmallCuttableBySaber(::GlobalNamespace::BoxCuttableBySaber value) ;
+constexpr void __set__mainSmallCuttableBySaber(GlobalNamespace::BoxCuttableBySaber value) ;
 
-constexpr ::GlobalNamespace::BoxCuttableBySaber __get__mainSmallCuttableBySaber() const;
+constexpr GlobalNamespace::BoxCuttableBySaber __get__mainSmallCuttableBySaber() const;
 
- ::ArrayW<::GlobalNamespace::BoxCuttableBySaber> __declspec(property(get=__get__trailingSmallCuttableBySaberList, put=__set__trailingSmallCuttableBySaberList))  _trailingSmallCuttableBySaberList;
+ ::ArrayW<GlobalNamespace::BoxCuttableBySaber> __declspec(property(get=__get__trailingSmallCuttableBySaberList, put=__set__trailingSmallCuttableBySaberList))  _trailingSmallCuttableBySaberList;
 
-constexpr void __set__trailingSmallCuttableBySaberList(::ArrayW<::GlobalNamespace::BoxCuttableBySaber> value) ;
+constexpr void __set__trailingSmallCuttableBySaberList(::ArrayW<GlobalNamespace::BoxCuttableBySaber> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::BoxCuttableBySaber> __get__trailingSmallCuttableBySaberList() const;
+constexpr ::ArrayW<GlobalNamespace::BoxCuttableBySaber> __get__trailingSmallCuttableBySaberList() const;
 
- ::GlobalNamespace::NoteMovement __declspec(property(get=__get__noteMovement, put=__set__noteMovement))  _noteMovement;
+ GlobalNamespace::NoteMovement __declspec(property(get=__get__noteMovement, put=__set__noteMovement))  _noteMovement;
 
-constexpr void __set__noteMovement(::GlobalNamespace::NoteMovement value) ;
+constexpr void __set__noteMovement(GlobalNamespace::NoteMovement value) ;
 
-constexpr ::GlobalNamespace::NoteMovement __get__noteMovement() const;
+constexpr GlobalNamespace::NoteMovement __get__noteMovement() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
+ UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
 
-constexpr void __set__transform(::UnityEngine::Transform value) ;
+constexpr void __set__transform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__transform() const;
+constexpr UnityEngine::Transform __get__transform() const;
 
 
 // Methods
@@ -104,6 +103,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ProModeTrailingCollidersController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ProModeTrailingCollidersController, "", "ProModeTrailingCollidersController");
+NEED_NO_BOX(GlobalNamespace::ProModeTrailingCollidersController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ProModeTrailingCollidersController, "", "ProModeTrailingCollidersController");

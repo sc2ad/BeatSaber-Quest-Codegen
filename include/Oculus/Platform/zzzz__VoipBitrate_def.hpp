@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform {
 struct VoipBitrate;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::Oculus::Platform::VoipBitrate const Unknown;
+static Oculus::Platform::VoipBitrate const Unknown;
 
 /// @brief Field B16000 offset 0
-static ::Oculus::Platform::VoipBitrate const B16000;
+static Oculus::Platform::VoipBitrate const B16000;
 
 /// @brief Field B24000 offset 0
-static ::Oculus::Platform::VoipBitrate const B24000;
+static Oculus::Platform::VoipBitrate const B24000;
 
 /// @brief Field B32000 offset 0
-static ::Oculus::Platform::VoipBitrate const B32000;
+static Oculus::Platform::VoipBitrate const B32000;
 
 /// @brief Field B64000 offset 0
-static ::Oculus::Platform::VoipBitrate const B64000;
+static Oculus::Platform::VoipBitrate const B64000;
 
 /// @brief Field B96000 offset 0
-static ::Oculus::Platform::VoipBitrate const B96000;
+static Oculus::Platform::VoipBitrate const B96000;
 
 /// @brief Field B128000 offset 0
-static ::Oculus::Platform::VoipBitrate const B128000;
+static Oculus::Platform::VoipBitrate const B128000;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::VoipBitrate, "Oculus.Platform", "VoipBitrate");
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipBitrate, "Oculus.Platform", "VoipBitrate");

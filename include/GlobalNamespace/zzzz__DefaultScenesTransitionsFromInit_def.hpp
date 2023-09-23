@@ -1,7 +1,9 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
+namespace GlobalNamespace {
+class HealthWarningScenesTransitionSetupDataSO;
+}
 namespace GlobalNamespace {
 class RecordingToolScenesTransitionSetupDataSO;
 }
@@ -9,16 +11,13 @@ namespace GlobalNamespace {
 class MenuScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class BeatmapEditorScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
 class ShaderWarmupScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class GameScenesManager;
+class BeatmapEditorScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class HealthWarningScenesTransitionSetupDataSO;
+class GameScenesManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,7 +29,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4017))
 // CS Name: DefaultScenesTransitionsFromInit
-class CORDL_TYPE DefaultScenesTransitionsFromInit : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE DefaultScenesTransitionsFromInit : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -45,7 +44,7 @@ constexpr DefaultScenesTransitionsFromInit(DefaultScenesTransitionsFromInit cons
 constexpr DefaultScenesTransitionsFromInit(DefaultScenesTransitionsFromInit&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DefaultScenesTransitionsFromInit(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit DefaultScenesTransitionsFromInit(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -66,52 +65,52 @@ constexpr explicit DefaultScenesTransitionsFromInit(void* ptr) noexcept : ::Unit
 
 // Fields
 
- ::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO __declspec(property(get=__get__healthWarningScenesTransitionSetupData, put=__set__healthWarningScenesTransitionSetupData))  _healthWarningScenesTransitionSetupData;
+ GlobalNamespace::HealthWarningScenesTransitionSetupDataSO __declspec(property(get=__get__healthWarningScenesTransitionSetupData, put=__set__healthWarningScenesTransitionSetupData))  _healthWarningScenesTransitionSetupData;
 
-constexpr void __set__healthWarningScenesTransitionSetupData(::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO value) ;
+constexpr void __set__healthWarningScenesTransitionSetupData(GlobalNamespace::HealthWarningScenesTransitionSetupDataSO value) ;
 
-constexpr ::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO __get__healthWarningScenesTransitionSetupData() const;
+constexpr GlobalNamespace::HealthWarningScenesTransitionSetupDataSO __get__healthWarningScenesTransitionSetupData() const;
 
- ::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO __declspec(property(get=__get__recordingToolScenesTransitionSetupData, put=__set__recordingToolScenesTransitionSetupData))  _recordingToolScenesTransitionSetupData;
+ GlobalNamespace::RecordingToolScenesTransitionSetupDataSO __declspec(property(get=__get__recordingToolScenesTransitionSetupData, put=__set__recordingToolScenesTransitionSetupData))  _recordingToolScenesTransitionSetupData;
 
-constexpr void __set__recordingToolScenesTransitionSetupData(::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO value) ;
+constexpr void __set__recordingToolScenesTransitionSetupData(GlobalNamespace::RecordingToolScenesTransitionSetupDataSO value) ;
 
-constexpr ::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO __get__recordingToolScenesTransitionSetupData() const;
+constexpr GlobalNamespace::RecordingToolScenesTransitionSetupDataSO __get__recordingToolScenesTransitionSetupData() const;
 
- ::GlobalNamespace::MenuScenesTransitionSetupDataSO __declspec(property(get=__get__mainMenuScenesTransitionSetupData, put=__set__mainMenuScenesTransitionSetupData))  _mainMenuScenesTransitionSetupData;
+ GlobalNamespace::MenuScenesTransitionSetupDataSO __declspec(property(get=__get__mainMenuScenesTransitionSetupData, put=__set__mainMenuScenesTransitionSetupData))  _mainMenuScenesTransitionSetupData;
 
-constexpr void __set__mainMenuScenesTransitionSetupData(::GlobalNamespace::MenuScenesTransitionSetupDataSO value) ;
+constexpr void __set__mainMenuScenesTransitionSetupData(GlobalNamespace::MenuScenesTransitionSetupDataSO value) ;
 
-constexpr ::GlobalNamespace::MenuScenesTransitionSetupDataSO __get__mainMenuScenesTransitionSetupData() const;
+constexpr GlobalNamespace::MenuScenesTransitionSetupDataSO __get__mainMenuScenesTransitionSetupData() const;
 
- ::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO __declspec(property(get=__get__beatmapEditorScenesTransitionSetupData, put=__set__beatmapEditorScenesTransitionSetupData))  _beatmapEditorScenesTransitionSetupData;
+ GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO __declspec(property(get=__get__beatmapEditorScenesTransitionSetupData, put=__set__beatmapEditorScenesTransitionSetupData))  _beatmapEditorScenesTransitionSetupData;
 
-constexpr void __set__beatmapEditorScenesTransitionSetupData(::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO value) ;
+constexpr void __set__beatmapEditorScenesTransitionSetupData(GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO value) ;
 
-constexpr ::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO __get__beatmapEditorScenesTransitionSetupData() const;
+constexpr GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO __get__beatmapEditorScenesTransitionSetupData() const;
 
- ::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO __declspec(property(get=__get__shaderWarmupScenesTransitionSetupData, put=__set__shaderWarmupScenesTransitionSetupData))  _shaderWarmupScenesTransitionSetupData;
+ GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO __declspec(property(get=__get__shaderWarmupScenesTransitionSetupData, put=__set__shaderWarmupScenesTransitionSetupData))  _shaderWarmupScenesTransitionSetupData;
 
-constexpr void __set__shaderWarmupScenesTransitionSetupData(::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO value) ;
+constexpr void __set__shaderWarmupScenesTransitionSetupData(GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO value) ;
 
-constexpr ::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO __get__shaderWarmupScenesTransitionSetupData() const;
+constexpr GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO __get__shaderWarmupScenesTransitionSetupData() const;
 
- ::GlobalNamespace::GameScenesManager __declspec(property(get=__get__gameScenesManager, put=__set__gameScenesManager))  _gameScenesManager;
+ GlobalNamespace::GameScenesManager __declspec(property(get=__get__gameScenesManager, put=__set__gameScenesManager))  _gameScenesManager;
 
-constexpr void __set__gameScenesManager(::GlobalNamespace::GameScenesManager value) ;
+constexpr void __set__gameScenesManager(GlobalNamespace::GameScenesManager value) ;
 
-constexpr ::GlobalNamespace::GameScenesManager __get__gameScenesManager() const;
+constexpr GlobalNamespace::GameScenesManager __get__gameScenesManager() const;
 
 
 // Properties
 
- ::GlobalNamespace::MenuScenesTransitionSetupDataSO __declspec(property(get=get_mainMenuScenesTransitionSetupData))  mainMenuScenesTransitionSetupData;
+ GlobalNamespace::MenuScenesTransitionSetupDataSO __declspec(property(get=get_mainMenuScenesTransitionSetupData))  mainMenuScenesTransitionSetupData;
 
 
 // Methods
 
 /// @brief Method get_mainMenuScenesTransitionSetupData addr 0x20b4744 size 0x8 virtual false final false
- ::GlobalNamespace::MenuScenesTransitionSetupDataSO get_mainMenuScenesTransitionSetupData() ;
+ GlobalNamespace::MenuScenesTransitionSetupDataSO get_mainMenuScenesTransitionSetupData() ;
 
 /// @brief Method TransitionToNextScene addr 0x20b474c size 0x1d0 virtual false final false
  void TransitionToNextScene(bool goStraightToMenu, bool goStraightToEditor, bool goToRecordingToolScene) ;
@@ -126,6 +125,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::DefaultScenesTransitionsFromInit);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DefaultScenesTransitionsFromInit, "", "DefaultScenesTransitionsFromInit");
+NEED_NO_BOX(GlobalNamespace::DefaultScenesTransitionsFromInit);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DefaultScenesTransitionsFromInit, "", "DefaultScenesTransitionsFromInit");

@@ -2,18 +2,17 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "RootMotion/FinalIK/zzzz__Grounder_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace UnityEngine {
 class Transform;
 }
 namespace RootMotion::FinalIK {
-class ____RootMotion__FinalIK__Grounding__Leg;
-}
-namespace RootMotion::FinalIK {
-struct ____RootMotion__FinalIK__IKSolverVR__PositionOffset;
+struct RootMotion__FinalIK__IKSolverVR__PositionOffset;
 }
 namespace RootMotion::FinalIK {
 class VRIK;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__Grounding__Leg;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -25,7 +24,7 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12460))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12467))
 // CS Name: RootMotion.FinalIK.GrounderVRIK
-class CORDL_TYPE GrounderVRIK : public ::RootMotion::FinalIK::Grounder {
+class CORDL_TYPE GrounderVRIK : public RootMotion::FinalIK::Grounder {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr GrounderVRIK(GrounderVRIK const& ) noexcept = default;
 constexpr GrounderVRIK(GrounderVRIK&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GrounderVRIK(void* ptr) noexcept : ::RootMotion::FinalIK::Grounder(ptr) {
+constexpr explicit GrounderVRIK(void* ptr) noexcept : RootMotion::FinalIK::Grounder(ptr) {
 }
 
 
@@ -61,17 +60,17 @@ constexpr explicit GrounderVRIK(void* ptr) noexcept : ::RootMotion::FinalIK::Gro
 
 // Fields
 
- ::RootMotion::FinalIK::VRIK __declspec(property(get=__get_ik, put=__set_ik))  ik;
+ RootMotion::FinalIK::VRIK __declspec(property(get=__get_ik, put=__set_ik))  ik;
 
-constexpr void __set_ik(::RootMotion::FinalIK::VRIK value) ;
+constexpr void __set_ik(RootMotion::FinalIK::VRIK value) ;
 
-constexpr ::RootMotion::FinalIK::VRIK __get_ik() const;
+constexpr RootMotion::FinalIK::VRIK __get_ik() const;
 
- ::ArrayW<::UnityEngine::Transform> __declspec(property(get=__get_feet, put=__set_feet))  feet;
+ ::ArrayW<UnityEngine::Transform> __declspec(property(get=__get_feet, put=__set_feet))  feet;
 
-constexpr void __set_feet(::ArrayW<::UnityEngine::Transform> value) ;
+constexpr void __set_feet(::ArrayW<UnityEngine::Transform> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Transform> __get_feet() const;
+constexpr ::ArrayW<UnityEngine::Transform> __get_feet() const;
 
 
 // Methods
@@ -101,7 +100,7 @@ constexpr ::ArrayW<::UnityEngine::Transform> __get_feet() const;
  void OnSolverUpdate() ;
 
 /// @brief Method SetLegIK addr 0x11c150c size 0x84 virtual false final false
- void SetLegIK(::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolverVR__PositionOffset positionOffset, ::UnityEngine::Transform bone, ::RootMotion::FinalIK::____RootMotion__FinalIK__Grounding__Leg leg) ;
+ void SetLegIK(RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__PositionOffset positionOffset, UnityEngine::Transform bone, RootMotion::FinalIK::RootMotion__FinalIK__Grounding__Leg leg) ;
 
 /// @brief Method OnPostSolverUpdate addr 0x11c1590 size 0x29c virtual false final false
  void OnPostSolverUpdate() ;
@@ -122,6 +121,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::GrounderVRIK);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::GrounderVRIK, "RootMotion.FinalIK", "GrounderVRIK");
+NEED_NO_BOX(RootMotion::FinalIK::GrounderVRIK);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GrounderVRIK, "RootMotion.FinalIK", "GrounderVRIK");

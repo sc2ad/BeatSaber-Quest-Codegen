@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -14,22 +13,22 @@ struct Vector2;
 }
 // Forward declare root types
 namespace TMPro::SpriteAssetUtilities {
+class TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject;
+}
+namespace TMPro::SpriteAssetUtilities {
 class TexturePacker_JsonArray;
 }
 namespace TMPro::SpriteAssetUtilities {
-class ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject;
+struct TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Frame;
 }
 namespace TMPro::SpriteAssetUtilities {
-struct ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Frame;
+struct TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta;
 }
 namespace TMPro::SpriteAssetUtilities {
-struct ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta;
+struct TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame;
 }
 namespace TMPro::SpriteAssetUtilities {
-struct ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame;
-}
-namespace TMPro::SpriteAssetUtilities {
-struct ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize;
+struct TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize;
 }
 // Type: ::SpriteFrame
 namespace TMPro::SpriteAssetUtilities {
@@ -37,20 +36,20 @@ namespace TMPro::SpriteAssetUtilities {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12403))
 // CS Name: TMPro.SpriteAssetUtilities.TexturePacker_JsonArray::SpriteFrame
-struct CORDL_TYPE ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "w", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "h", ty: "float_t", modifiers: "", def_value: None }]
-constexpr ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame(float_t x, float_t y, float_t w, float_t h) noexcept;
+constexpr TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame(float_t x, float_t y, float_t w, float_t h) noexcept;
 
 
-                    constexpr ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame(____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame const&) = default;
-                    constexpr ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame(____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame&&) = default;
-                    constexpr ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame& operator=(____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame const& o) {
+                    constexpr TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame(TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame const&) = default;
+                    constexpr TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame(TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame&&) = default;
+                    constexpr TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame& operator=(TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame& operator=(____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame&& o) noexcept {
+                    constexpr TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame& operator=(TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -63,7 +62,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x10};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -114,20 +113,20 @@ namespace TMPro::SpriteAssetUtilities {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12404))
 // CS Name: TMPro.SpriteAssetUtilities.TexturePacker_JsonArray::SpriteSize
-struct CORDL_TYPE ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "w", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "h", ty: "float_t", modifiers: "", def_value: None }]
-constexpr ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize(float_t w, float_t h) noexcept;
+constexpr TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize(float_t w, float_t h) noexcept;
 
 
-                    constexpr ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize(____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize const&) = default;
-                    constexpr ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize(____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize&&) = default;
-                    constexpr ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize& operator=(____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize const& o) {
+                    constexpr TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize(TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize const&) = default;
+                    constexpr TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize(TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize&&) = default;
+                    constexpr TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize& operator=(TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize& operator=(____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize&& o) noexcept {
+                    constexpr TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize& operator=(TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -140,7 +139,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x8};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -179,20 +178,20 @@ namespace TMPro::SpriteAssetUtilities {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12405))
 // CS Name: TMPro.SpriteAssetUtilities.TexturePacker_JsonArray::Frame
-struct CORDL_TYPE ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Frame : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Frame : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "filename", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "frame", ty: "::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame", modifiers: "", def_value: None }, CppParam { name: "rotated", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "trimmed", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "spriteSourceSize", ty: "::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame", modifiers: "", def_value: None }, CppParam { name: "sourceSize", ty: "::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize", modifiers: "", def_value: None }, CppParam { name: "pivot", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }]
-constexpr ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Frame(::StringW filename, ::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame frame, bool rotated, bool trimmed, ::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame spriteSourceSize, ::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize sourceSize, ::UnityEngine::Vector2 pivot) noexcept;
+// Ctor Parameters [CppParam { name: "filename", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "frame", ty: "TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame", modifiers: "", def_value: None }, CppParam { name: "rotated", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "trimmed", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "spriteSourceSize", ty: "TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame", modifiers: "", def_value: None }, CppParam { name: "sourceSize", ty: "TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize", modifiers: "", def_value: None }, CppParam { name: "pivot", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }]
+constexpr TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Frame(::StringW filename, TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame frame, bool rotated, bool trimmed, TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame spriteSourceSize, TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize sourceSize, UnityEngine::Vector2 pivot) noexcept;
 
 
-                    constexpr ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Frame(____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Frame const&) = default;
-                    constexpr ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Frame(____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Frame&&) = default;
-                    constexpr ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Frame& operator=(____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Frame const& o) {
+                    constexpr TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Frame(TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Frame const&) = default;
+                    constexpr TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Frame(TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Frame&&) = default;
+                    constexpr TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Frame& operator=(TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Frame const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Frame& operator=(____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Frame&& o) noexcept {
+                    constexpr TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Frame& operator=(TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Frame&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -205,7 +204,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x40};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Frame(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Frame(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -222,11 +221,11 @@ constexpr void __set_filename(::StringW value) ;
 
 constexpr ::StringW __get_filename() const;
 
- ::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame __declspec(property(get=__get_frame, put=__set_frame))  frame;
+ TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame __declspec(property(get=__get_frame, put=__set_frame))  frame;
 
-constexpr void __set_frame(::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame value) ;
+constexpr void __set_frame(TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame value) ;
 
-constexpr ::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame __get_frame() const;
+constexpr TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame __get_frame() const;
 
  bool __declspec(property(get=__get_rotated, put=__set_rotated))  rotated;
 
@@ -240,23 +239,23 @@ constexpr void __set_trimmed(bool value) ;
 
 constexpr bool __get_trimmed() const;
 
- ::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame __declspec(property(get=__get_spriteSourceSize, put=__set_spriteSourceSize))  spriteSourceSize;
+ TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame __declspec(property(get=__get_spriteSourceSize, put=__set_spriteSourceSize))  spriteSourceSize;
 
-constexpr void __set_spriteSourceSize(::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame value) ;
+constexpr void __set_spriteSourceSize(TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame value) ;
 
-constexpr ::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame __get_spriteSourceSize() const;
+constexpr TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame __get_spriteSourceSize() const;
 
- ::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize __declspec(property(get=__get_sourceSize, put=__set_sourceSize))  sourceSize;
+ TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize __declspec(property(get=__get_sourceSize, put=__set_sourceSize))  sourceSize;
 
-constexpr void __set_sourceSize(::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize value) ;
+constexpr void __set_sourceSize(TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize value) ;
 
-constexpr ::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize __get_sourceSize() const;
+constexpr TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize __get_sourceSize() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_pivot, put=__set_pivot))  pivot;
+ UnityEngine::Vector2 __declspec(property(get=__get_pivot, put=__set_pivot))  pivot;
 
-constexpr void __set_pivot(::UnityEngine::Vector2 value) ;
+constexpr void __set_pivot(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_pivot() const;
+constexpr UnityEngine::Vector2 __get_pivot() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -268,20 +267,20 @@ namespace TMPro::SpriteAssetUtilities {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12406))
 // CS Name: TMPro.SpriteAssetUtilities.TexturePacker_JsonArray::Meta
-struct CORDL_TYPE ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "app", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "version", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "image", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "format", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "size", ty: "::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "smartupdate", ty: "::StringW", modifiers: "", def_value: None }]
-constexpr ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta(::StringW app, ::StringW version, ::StringW image, ::StringW format, ::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize size, float_t scale, ::StringW smartupdate) noexcept;
+// Ctor Parameters [CppParam { name: "app", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "version", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "image", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "format", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "size", ty: "TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "smartupdate", ty: "::StringW", modifiers: "", def_value: None }]
+constexpr TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta(::StringW app, ::StringW version, ::StringW image, ::StringW format, TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize size, float_t scale, ::StringW smartupdate) noexcept;
 
 
-                    constexpr ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta(____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta const&) = default;
-                    constexpr ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta(____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta&&) = default;
-                    constexpr ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta& operator=(____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta const& o) {
+                    constexpr TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta(TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta const&) = default;
+                    constexpr TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta(TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta&&) = default;
+                    constexpr TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta& operator=(TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta& operator=(____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta&& o) noexcept {
+                    constexpr TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta& operator=(TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -294,7 +293,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x38};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -329,11 +328,11 @@ constexpr void __set_format(::StringW value) ;
 
 constexpr ::StringW __get_format() const;
 
- ::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize __declspec(property(get=__get_size, put=__set_size))  size;
+ TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize __declspec(property(get=__get_size, put=__set_size))  size;
 
-constexpr void __set_size(::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize value) ;
+constexpr void __set_size(TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize value) ;
 
-constexpr ::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize __get_size() const;
+constexpr TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize __get_size() const;
 
  float_t __declspec(property(get=__get_scale, put=__set_scale))  scale;
 
@@ -357,59 +356,59 @@ namespace TMPro::SpriteAssetUtilities {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12407))
 // CS Name: TMPro.SpriteAssetUtilities.TexturePacker_JsonArray::SpriteDataObject
-class CORDL_TYPE ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x50};
 
-virtual ~____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject() = default;
+virtual ~TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject", modifiers: " const&", def_value: None }]
-constexpr ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject(____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject", modifiers: " const&", def_value: None }]
+constexpr TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject(TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject", modifiers: "&&", def_value: None }]
-constexpr ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject(____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject", modifiers: "&&", def_value: None }]
+constexpr TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject(TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject& operator=(std::nullptr_t) noexcept {
+  constexpr TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject& operator=(void* o) noexcept {
+  constexpr TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject& operator=(____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject&& o) noexcept = default;
-  constexpr ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject& operator=(____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject const& o) noexcept = default;
+  constexpr TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject& operator=(TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject&& o) noexcept = default;
+  constexpr TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject& operator=(TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Collections::Generic::List_1<::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Frame> __declspec(property(get=__get_frames, put=__set_frames))  frames;
+ System::Collections::Generic::List_1<TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Frame> __declspec(property(get=__get_frames, put=__set_frames))  frames;
 
-constexpr void __set_frames(::System::Collections::Generic::List_1<::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Frame> value) ;
+constexpr void __set_frames(System::Collections::Generic::List_1<TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Frame> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Frame> __get_frames() const;
+constexpr System::Collections::Generic::List_1<TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Frame> __get_frames() const;
 
- ::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta __declspec(property(get=__get_meta, put=__set_meta))  meta;
+ TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta __declspec(property(get=__get_meta, put=__set_meta))  meta;
 
-constexpr void __set_meta(::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta value) ;
+constexpr void __set_meta(TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta value) ;
 
-constexpr ::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta __get_meta() const;
+constexpr TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta __get_meta() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject() ;
+explicit TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject() ;
 
 /// @brief Method .ctor addr 0x2ab5ff4 size 0x8 virtual false final false
  void _ctor() ;
@@ -427,15 +426,15 @@ namespace TMPro::SpriteAssetUtilities {
 class CORDL_TYPE TexturePacker_JsonArray : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using SpriteDataObject = ::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject;
+using SpriteDataObject = TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject;
 
-using Meta = ::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta;
+using Meta = TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta;
 
-using Frame = ::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Frame;
+using Frame = TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Frame;
 
-using SpriteSize = ::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize;
+using SpriteSize = TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize;
 
-using SpriteFrame = ::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame;
+using SpriteFrame = TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -480,12 +479,11 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def TMPro::SpriteAssetUtilities
-} // end anonymous namespace
-NEED_NO_BOX(::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray);
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray, "TMPro.SpriteAssetUtilities", "TexturePacker_JsonArray");
-NEED_NO_BOX(::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject);
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject, "TMPro.SpriteAssetUtilities", "TexturePacker_JsonArray/SpriteDataObject");
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Frame, "TMPro.SpriteAssetUtilities", "TexturePacker_JsonArray/Frame");
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta, "TMPro.SpriteAssetUtilities", "TexturePacker_JsonArray/Meta");
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame, "TMPro.SpriteAssetUtilities", "TexturePacker_JsonArray/SpriteFrame");
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::SpriteAssetUtilities::____TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize, "TMPro.SpriteAssetUtilities", "TexturePacker_JsonArray/SpriteSize");
+NEED_NO_BOX(TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject);
+DEFINE_IL2CPP_ARG_TYPE(TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject, "TMPro.SpriteAssetUtilities", "TexturePacker_JsonArray/SpriteDataObject");
+NEED_NO_BOX(TMPro::SpriteAssetUtilities::TexturePacker_JsonArray);
+DEFINE_IL2CPP_ARG_TYPE(TMPro::SpriteAssetUtilities::TexturePacker_JsonArray, "TMPro.SpriteAssetUtilities", "TexturePacker_JsonArray");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Frame, "TMPro.SpriteAssetUtilities", "TexturePacker_JsonArray/Frame");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta, "TMPro.SpriteAssetUtilities", "TexturePacker_JsonArray/Meta");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame, "TMPro.SpriteAssetUtilities", "TexturePacker_JsonArray/SpriteFrame");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize, "TMPro.SpriteAssetUtilities", "TexturePacker_JsonArray/SpriteSize");

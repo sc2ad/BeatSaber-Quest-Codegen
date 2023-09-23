@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Threading {
 class WaitHandle;
 }
@@ -29,7 +28,7 @@ constexpr explicit IAsyncResult(void* ptr) noexcept : ::cordl_internals::Interfa
 
  bool __declspec(property(get=get_IsCompleted))  IsCompleted;
 
- ::System::Threading::WaitHandle __declspec(property(get=get_AsyncWaitHandle))  AsyncWaitHandle;
+ System::Threading::WaitHandle __declspec(property(get=get_AsyncWaitHandle))  AsyncWaitHandle;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_AsyncState))  AsyncState;
 
@@ -42,7 +41,7 @@ constexpr explicit IAsyncResult(void* ptr) noexcept : ::cordl_internals::Interfa
  bool get_IsCompleted() ;
 
 /// @brief Method get_AsyncWaitHandle addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Threading::WaitHandle get_AsyncWaitHandle() ;
+ System::Threading::WaitHandle get_AsyncWaitHandle() ;
 
 /// @brief Method get_AsyncState addr 0x0 size 0xffffffffffffffff virtual true final false
  ::bs_hook::Il2CppWrapperType get_AsyncState() ;
@@ -54,6 +53,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::IAsyncResult);
-DEFINE_IL2CPP_ARG_TYPE(::System::IAsyncResult, "System", "IAsyncResult");
+NEED_NO_BOX(System::IAsyncResult);
+DEFINE_IL2CPP_ARG_TYPE(System::IAsyncResult, "System", "IAsyncResult");

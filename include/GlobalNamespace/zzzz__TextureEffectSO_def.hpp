@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
-namespace {
 namespace UnityEngine {
 class RenderTexture;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14739))
 // CS Name: TextureEffectSO
-class CORDL_TYPE TextureEffectSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE TextureEffectSO : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr TextureEffectSO(TextureEffectSO const& ) noexcept = default;
 constexpr TextureEffectSO(TextureEffectSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TextureEffectSO(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit TextureEffectSO(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -52,7 +51,7 @@ constexpr explicit TextureEffectSO(void* ptr) noexcept : ::GlobalNamespace::Pers
 // Methods
 
 /// @brief Method Render addr 0x1fa3364 size 0x68 virtual true final false
- void Render(::UnityEngine::RenderTexture src, ::UnityEngine::RenderTexture dest) ;
+ void Render(UnityEngine::RenderTexture src, UnityEngine::RenderTexture dest) ;
 
 // Ctor Parameters []
 explicit TextureEffectSO() ;
@@ -64,6 +63,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::TextureEffectSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TextureEffectSO, "", "TextureEffectSO");
+NEED_NO_BOX(GlobalNamespace::TextureEffectSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextureEffectSO, "", "TextureEffectSO");

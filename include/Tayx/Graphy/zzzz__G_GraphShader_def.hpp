@@ -5,12 +5,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine::UI {
-class Image;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace UnityEngine::UI {
+class Image;
 }
 // Forward declare root types
 namespace Tayx::Graphy {
@@ -76,11 +75,11 @@ constexpr void __set_ShaderArrayValues(::ArrayW<float_t> value) ;
 
 constexpr ::ArrayW<float_t> __get_ShaderArrayValues() const;
 
- ::UnityEngine::UI::Image __declspec(property(get=__get_Image, put=__set_Image))  Image;
+ UnityEngine::UI::Image __declspec(property(get=__get_Image, put=__set_Image))  Image;
 
-constexpr void __set_Image(::UnityEngine::UI::Image value) ;
+constexpr void __set_Image(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get_Image() const;
+constexpr UnityEngine::UI::Image __get_Image() const;
 
  ::StringW __declspec(property(get=__get_Name, put=__set_Name))  Name;
 
@@ -130,23 +129,23 @@ constexpr void __set_m_cautionThresholdPropertyId(int32_t value) ;
 
 constexpr int32_t __get_m_cautionThresholdPropertyId() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_GoodColor, put=__set_GoodColor))  GoodColor;
+ UnityEngine::Color __declspec(property(get=__get_GoodColor, put=__set_GoodColor))  GoodColor;
 
-constexpr void __set_GoodColor(::UnityEngine::Color value) ;
+constexpr void __set_GoodColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_GoodColor() const;
+constexpr UnityEngine::Color __get_GoodColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_CautionColor, put=__set_CautionColor))  CautionColor;
+ UnityEngine::Color __declspec(property(get=__get_CautionColor, put=__set_CautionColor))  CautionColor;
 
-constexpr void __set_CautionColor(::UnityEngine::Color value) ;
+constexpr void __set_CautionColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_CautionColor() const;
+constexpr UnityEngine::Color __get_CautionColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_CriticalColor, put=__set_CriticalColor))  CriticalColor;
+ UnityEngine::Color __declspec(property(get=__get_CriticalColor, put=__set_CriticalColor))  CriticalColor;
 
-constexpr void __set_CriticalColor(::UnityEngine::Color value) ;
+constexpr void __set_CriticalColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_CriticalColor() const;
+constexpr UnityEngine::Color __get_CriticalColor() const;
 
  int32_t __declspec(property(get=__get_m_goodColorPropertyId, put=__set_m_goodColorPropertyId))  m_goodColorPropertyId;
 
@@ -197,6 +196,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Tayx::Graphy
-} // end anonymous namespace
-NEED_NO_BOX(::Tayx::Graphy::G_GraphShader);
-DEFINE_IL2CPP_ARG_TYPE(::Tayx::Graphy::G_GraphShader, "Tayx.Graphy", "G_GraphShader");
+NEED_NO_BOX(Tayx::Graphy::G_GraphShader);
+DEFINE_IL2CPP_ARG_TYPE(Tayx::Graphy::G_GraphShader, "Tayx.Graphy", "G_GraphShader");

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform {
 struct PartyUpdateAction;
 }
@@ -53,11 +52,11 @@ constexpr explicit PartyUpdateNotification(void* ptr) noexcept : ::bs_hook::Il2C
 
 // Fields
 
- ::Oculus::Platform::PartyUpdateAction __declspec(property(get=__get_Action, put=__set_Action))  Action;
+ Oculus::Platform::PartyUpdateAction __declspec(property(get=__get_Action, put=__set_Action))  Action;
 
-constexpr void __set_Action(::Oculus::Platform::PartyUpdateAction value) ;
+constexpr void __set_Action(Oculus::Platform::PartyUpdateAction value) ;
 
-constexpr ::Oculus::Platform::PartyUpdateAction __get_Action() const;
+constexpr Oculus::Platform::PartyUpdateAction __get_Action() const;
 
  uint64_t __declspec(property(get=__get_PartyId, put=__set_PartyId))  PartyId;
 
@@ -108,6 +107,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::PartyUpdateNotification);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::PartyUpdateNotification, "Oculus.Platform.Models", "PartyUpdateNotification");
+NEED_NO_BOX(Oculus::Platform::Models::PartyUpdateNotification);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::PartyUpdateNotification, "Oculus.Platform.Models", "PartyUpdateNotification");

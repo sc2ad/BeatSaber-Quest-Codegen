@@ -3,7 +3,6 @@
 #include "UnityEngine/AddressableAssets/zzzz__AssetReferenceT_1_def.hpp"
 #include "UnityEngine/zzzz__Texture_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::AddressableAssets {
 class AssetReferenceTexture;
@@ -14,7 +13,7 @@ namespace UnityEngine::AddressableAssets {
 // Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14363), inst: 384 }), TypeDefinitionIndex(TypeDefinitionIndex(10013)), TypeDefinitionIndex(TypeDefinitionIndex(14363))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14365))
 // CS Name: UnityEngine.AddressableAssets.AssetReferenceTexture
-class CORDL_TYPE AssetReferenceTexture : public ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityEngine::Texture> {
+class CORDL_TYPE AssetReferenceTexture : public UnityEngine::AddressableAssets::AssetReferenceT_1<UnityEngine::Texture> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr AssetReferenceTexture(AssetReferenceTexture const& ) noexcept = defaul
 constexpr AssetReferenceTexture(AssetReferenceTexture&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AssetReferenceTexture(void* ptr) noexcept : ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityEngine::Texture>(ptr) {
+constexpr explicit AssetReferenceTexture(void* ptr) noexcept : UnityEngine::AddressableAssets::AssetReferenceT_1<UnityEngine::Texture>(ptr) {
 }
 
 
@@ -60,6 +59,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::AddressableAssets
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AddressableAssets::AssetReferenceTexture);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::AssetReferenceTexture, "UnityEngine.AddressableAssets", "AssetReferenceTexture");
+NEED_NO_BOX(UnityEngine::AddressableAssets::AssetReferenceTexture);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AssetReferenceTexture, "UnityEngine.AddressableAssets", "AssetReferenceTexture");

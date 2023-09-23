@@ -2,12 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace Org::BouncyCastle::Cms {
-class CmsCompressedData;
-}
 namespace Org::BouncyCastle::Cms {
 class CmsProcessable;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsCompressedData;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -68,12 +67,11 @@ explicit CmsCompressedDataGenerator() ;
  void _ctor() ;
 
 /// @brief Method Generate addr 0x1152998 size 0x3ec virtual false final false
- ::Org::BouncyCastle::Cms::CmsCompressedData Generate(::Org::BouncyCastle::Cms::CmsProcessable content, ::StringW compressionOid) ;
+ Org::BouncyCastle::Cms::CmsCompressedData Generate(Org::BouncyCastle::Cms::CmsProcessable content, ::StringW compressionOid) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Cms
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Cms::CmsCompressedDataGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::CmsCompressedDataGenerator, "Org.BouncyCastle.Cms", "CmsCompressedDataGenerator");
+NEED_NO_BOX(Org::BouncyCastle::Cms::CmsCompressedDataGenerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Cms::CmsCompressedDataGenerator, "Org.BouncyCastle.Cms", "CmsCompressedDataGenerator");

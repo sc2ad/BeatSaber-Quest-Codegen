@@ -2,15 +2,14 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace System::Collections {
-class IEnumerable;
-}
 namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
 }
 namespace System::Collections {
 class ICollection;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
 class Array;
@@ -31,14 +30,14 @@ namespace Org::BouncyCastle::Utilities::Collections {
 class CORDL_TYPE UnmodifiableSet : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Utilities::Collections::ISet
-constexpr operator  ::Org::BouncyCastle::Utilities::Collections::ISet() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Utilities::Collections::ISet
+constexpr operator  Org::BouncyCastle::Utilities::Collections::ISet() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::ICollection
-constexpr operator  ::System::Collections::ICollection() const noexcept;
+/// @brief Convert operator to System::Collections::ICollection
+constexpr operator  System::Collections::ICollection() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -98,7 +97,7 @@ explicit UnmodifiableSet() ;
  void Add(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method AddAll addr 0x10cef28 size 0x40 virtual true final false
- void AddAll(::System::Collections::IEnumerable e) ;
+ void AddAll(System::Collections::IEnumerable e) ;
 
 /// @brief Method Clear addr 0x10cef68 size 0x40 virtual true final false
  void Clear() ;
@@ -107,13 +106,13 @@ explicit UnmodifiableSet() ;
  bool Contains(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method CopyTo addr 0x0 size 0xffffffffffffffff virtual true final false
- void CopyTo(::System::Array array, int32_t index) ;
+ void CopyTo(System::Array array, int32_t index) ;
 
 /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t get_Count() ;
 
 /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Collections::IEnumerator GetEnumerator() ;
+ System::Collections::IEnumerator GetEnumerator() ;
 
 /// @brief Method get_IsEmpty addr 0x0 size 0xffffffffffffffff virtual true final false
  bool get_IsEmpty() ;
@@ -134,12 +133,11 @@ explicit UnmodifiableSet() ;
  void Remove(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method RemoveAll addr 0x10ceff0 size 0x40 virtual true final false
- void RemoveAll(::System::Collections::IEnumerable e) ;
+ void RemoveAll(System::Collections::IEnumerable e) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities::Collections
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet, "Org.BouncyCastle.Utilities.Collections", "UnmodifiableSet");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Collections::UnmodifiableSet);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::UnmodifiableSet, "Org.BouncyCastle.Utilities.Collections", "UnmodifiableSet");

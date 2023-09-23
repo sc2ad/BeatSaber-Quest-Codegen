@@ -3,21 +3,20 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class MeshFilter;
-}
 namespace UnityEngine {
 struct Color;
-}
-namespace UnityEngine {
-class MaterialPropertyBlock;
 }
 namespace UnityEngine {
 class MeshRenderer;
 }
 namespace UnityEngine {
+class MeshFilter;
+}
+namespace UnityEngine {
 class Mesh;
+}
+namespace UnityEngine {
+class MaterialPropertyBlock;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,7 +28,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14646))
 // CS Name: Parametric3SliceSpriteController
-class CORDL_TYPE Parametric3SliceSpriteController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE Parametric3SliceSpriteController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -44,7 +43,7 @@ constexpr Parametric3SliceSpriteController(Parametric3SliceSpriteController cons
 constexpr Parametric3SliceSpriteController(Parametric3SliceSpriteController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Parametric3SliceSpriteController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit Parametric3SliceSpriteController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -89,11 +88,11 @@ constexpr void __set_center(float_t value) ;
 
 constexpr float_t __get_center() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_color, put=__set_color))  color;
+ UnityEngine::Color __declspec(property(get=__get_color, put=__set_color))  color;
 
-constexpr void __set_color(::UnityEngine::Color value) ;
+constexpr void __set_color(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_color() const;
+constexpr UnityEngine::Color __get_color() const;
 
  float_t __declspec(property(get=__get_alphaMultiplier, put=__set_alphaMultiplier))  alphaMultiplier;
 
@@ -131,17 +130,17 @@ constexpr void __set_widthEnd(float_t value) ;
 
 constexpr float_t __get_widthEnd() const;
 
- ::UnityEngine::MeshRenderer __declspec(property(get=__get__meshRenderer, put=__set__meshRenderer))  _meshRenderer;
+ UnityEngine::MeshRenderer __declspec(property(get=__get__meshRenderer, put=__set__meshRenderer))  _meshRenderer;
 
-constexpr void __set__meshRenderer(::UnityEngine::MeshRenderer value) ;
+constexpr void __set__meshRenderer(UnityEngine::MeshRenderer value) ;
 
-constexpr ::UnityEngine::MeshRenderer __get__meshRenderer() const;
+constexpr UnityEngine::MeshRenderer __get__meshRenderer() const;
 
- ::UnityEngine::MeshFilter __declspec(property(get=__get__meshFilter, put=__set__meshFilter))  _meshFilter;
+ UnityEngine::MeshFilter __declspec(property(get=__get__meshFilter, put=__set__meshFilter))  _meshFilter;
 
-constexpr void __set__meshFilter(::UnityEngine::MeshFilter value) ;
+constexpr void __set__meshFilter(UnityEngine::MeshFilter value) ;
 
-constexpr ::UnityEngine::MeshFilter __get__meshFilter() const;
+constexpr UnityEngine::MeshFilter __get__meshFilter() const;
 
  bool __declspec(property(get=__get__isInitialized, put=__set__isInitialized))  _isInitialized;
 
@@ -191,17 +190,17 @@ static void __set__widthEndID(int32_t value) ;
 
 static int32_t __get__widthEndID() ;
 
-static ::UnityEngine::MaterialPropertyBlock __declspec(property(get=__get__materialPropertyBlock, put=__set__materialPropertyBlock))  _materialPropertyBlock;
+static UnityEngine::MaterialPropertyBlock __declspec(property(get=__get__materialPropertyBlock, put=__set__materialPropertyBlock))  _materialPropertyBlock;
 
-static void __set__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock value) ;
+static void __set__materialPropertyBlock(UnityEngine::MaterialPropertyBlock value) ;
 
-static ::UnityEngine::MaterialPropertyBlock __get__materialPropertyBlock() ;
+static UnityEngine::MaterialPropertyBlock __get__materialPropertyBlock() ;
 
-static ::UnityEngine::Mesh __declspec(property(get=__get__mesh, put=__set__mesh))  _mesh;
+static UnityEngine::Mesh __declspec(property(get=__get__mesh, put=__set__mesh))  _mesh;
 
-static void __set__mesh(::UnityEngine::Mesh value) ;
+static void __set__mesh(UnityEngine::Mesh value) ;
 
-static ::UnityEngine::Mesh __get__mesh() ;
+static UnityEngine::Mesh __get__mesh() ;
 
 static int32_t __declspec(property(get=__get__instanceCount, put=__set__instanceCount))  _instanceCount;
 
@@ -231,7 +230,7 @@ static int32_t __get__instanceCount() ;
  void Init() ;
 
 /// @brief Method CreateMesh addr 0x1f96460 size 0x2e8 virtual false final false
- ::UnityEngine::Mesh CreateMesh() ;
+ UnityEngine::Mesh CreateMesh() ;
 
 /// @brief Method Refresh addr 0x1f967e4 size 0x224 virtual false final false
  void Refresh() ;
@@ -246,6 +245,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::Parametric3SliceSpriteController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::Parametric3SliceSpriteController, "", "Parametric3SliceSpriteController");
+NEED_NO_BOX(GlobalNamespace::Parametric3SliceSpriteController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Parametric3SliceSpriteController, "", "Parametric3SliceSpriteController");

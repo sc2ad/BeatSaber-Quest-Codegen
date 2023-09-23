@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Zenject {
 struct LoadSceneRelationship;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::Zenject::LoadSceneRelationship const None;
+static Zenject::LoadSceneRelationship const None;
 
 /// @brief Field Child offset 0
-static ::Zenject::LoadSceneRelationship const Child;
+static Zenject::LoadSceneRelationship const Child;
 
 /// @brief Field Sibling offset 0
-static ::Zenject::LoadSceneRelationship const Sibling;
+static Zenject::LoadSceneRelationship const Sibling;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::LoadSceneRelationship, "Zenject", "LoadSceneRelationship");
+DEFINE_IL2CPP_ARG_TYPE(Zenject::LoadSceneRelationship, "Zenject", "LoadSceneRelationship");

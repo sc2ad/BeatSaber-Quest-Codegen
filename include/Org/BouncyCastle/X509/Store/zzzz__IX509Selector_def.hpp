@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System {
 class ICloneable;
 }
@@ -18,8 +17,8 @@ namespace Org::BouncyCastle::X509::Store {
 class CORDL_TYPE IX509Selector : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::System::ICloneable
-constexpr operator  ::System::ICloneable() const noexcept;
+/// @brief Convert operator to System::ICloneable
+constexpr operator  System::ICloneable() const noexcept;
 
 ~IX509Selector() = default;
 
@@ -37,6 +36,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::X509::Store
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::X509::Store::IX509Selector);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::X509::Store::IX509Selector, "Org.BouncyCastle.X509.Store", "IX509Selector");
+NEED_NO_BOX(Org::BouncyCastle::X509::Store::IX509Selector);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::Store::IX509Selector, "Org.BouncyCastle.X509.Store", "IX509Selector");

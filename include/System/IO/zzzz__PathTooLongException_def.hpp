@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/IO/zzzz__IOException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
@@ -19,7 +18,7 @@ namespace System::IO {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3557))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3560))
 // CS Name: System.IO.PathTooLongException
-class CORDL_TYPE PathTooLongException : public ::System::IO::IOException {
+class CORDL_TYPE PathTooLongException : public System::IO::IOException {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr PathTooLongException(PathTooLongException const& ) noexcept = default;
 constexpr PathTooLongException(PathTooLongException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PathTooLongException(void* ptr) noexcept : ::System::IO::IOException(ptr) {
+constexpr explicit PathTooLongException(void* ptr) noexcept : System::IO::IOException(ptr) {
 }
 
 
@@ -67,16 +66,15 @@ explicit PathTooLongException(::StringW message) ;
 /// @brief Method .ctor addr 0x2392e54 size 0x24 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit PathTooLongException(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit PathTooLongException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x2392e78 size 0x8 virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::IO
-} // end anonymous namespace
-NEED_NO_BOX(::System::IO::PathTooLongException);
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::PathTooLongException, "System.IO", "PathTooLongException");
+NEED_NO_BOX(System::IO::PathTooLongException);
+DEFINE_IL2CPP_ARG_TYPE(System::IO::PathTooLongException, "System.IO", "PathTooLongException");

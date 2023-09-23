@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine::TextCore::Text {
 struct FontStyles;
 }
@@ -120,14 +119,13 @@ constexpr uint8_t __get_smallcaps() const;
  void Clear() ;
 
 /// @brief Method Add addr 0x2bd266c size 0xfc virtual false final false
- uint8_t Add(::UnityEngine::TextCore::Text::FontStyles style) ;
+ uint8_t Add(UnityEngine::TextCore::Text::FontStyles style) ;
 
 /// @brief Method Remove addr 0x2bd2768 size 0x120 virtual false final false
- uint8_t Remove(::UnityEngine::TextCore::Text::FontStyles style) ;
+ uint8_t Remove(UnityEngine::TextCore::Text::FontStyles style) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::Text
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::FontStyleStack, "UnityEngine.TextCore.Text", "FontStyleStack");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Text::FontStyleStack, "UnityEngine.TextCore.Text", "FontStyleStack");

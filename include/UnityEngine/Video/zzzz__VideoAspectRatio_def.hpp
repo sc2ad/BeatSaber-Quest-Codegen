@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Video {
 struct VideoAspectRatio;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field NoScaling offset 0
-static ::UnityEngine::Video::VideoAspectRatio const NoScaling;
+static UnityEngine::Video::VideoAspectRatio const NoScaling;
 
 /// @brief Field FitVertically offset 0
-static ::UnityEngine::Video::VideoAspectRatio const FitVertically;
+static UnityEngine::Video::VideoAspectRatio const FitVertically;
 
 /// @brief Field FitHorizontally offset 0
-static ::UnityEngine::Video::VideoAspectRatio const FitHorizontally;
+static UnityEngine::Video::VideoAspectRatio const FitHorizontally;
 
 /// @brief Field FitInside offset 0
-static ::UnityEngine::Video::VideoAspectRatio const FitInside;
+static UnityEngine::Video::VideoAspectRatio const FitInside;
 
 /// @brief Field FitOutside offset 0
-static ::UnityEngine::Video::VideoAspectRatio const FitOutside;
+static UnityEngine::Video::VideoAspectRatio const FitOutside;
 
 /// @brief Field Stretch offset 0
-static ::UnityEngine::Video::VideoAspectRatio const Stretch;
+static UnityEngine::Video::VideoAspectRatio const Stretch;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Video
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Video::VideoAspectRatio, "UnityEngine.Video", "VideoAspectRatio");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Video::VideoAspectRatio, "UnityEngine.Video", "VideoAspectRatio");

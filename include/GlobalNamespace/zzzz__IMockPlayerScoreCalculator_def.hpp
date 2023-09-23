@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 class MockNoteData;
 }
@@ -28,12 +27,11 @@ constexpr explicit IMockPlayerScoreCalculator(void* ptr) noexcept : ::cordl_inte
 // Methods
 
 /// @brief Method GetScoreForNote addr 0x0 size 0xffffffffffffffff virtual true final false
- int32_t GetScoreForNote(::GlobalNamespace::MockNoteData noteData) ;
+ int32_t GetScoreForNote(GlobalNamespace::MockNoteData noteData) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IMockPlayerScoreCalculator);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IMockPlayerScoreCalculator, "", "IMockPlayerScoreCalculator");
+NEED_NO_BOX(GlobalNamespace::IMockPlayerScoreCalculator);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IMockPlayerScoreCalculator, "", "IMockPlayerScoreCalculator");

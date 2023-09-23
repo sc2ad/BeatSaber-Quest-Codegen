@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class PlayerDataFileManagerSO;
 }
@@ -9,10 +8,10 @@ namespace GlobalNamespace {
 class BeatmapCharacteristicCollection;
 }
 namespace GlobalNamespace {
-class PlayerData;
+class ISaveData;
 }
 namespace GlobalNamespace {
-class ISaveData;
+class PlayerData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,7 +23,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4739))
 // CS Name: PlayerDataModel
-class CORDL_TYPE PlayerDataModel : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE PlayerDataModel : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr PlayerDataModel(PlayerDataModel const& ) noexcept = default;
 constexpr PlayerDataModel(PlayerDataModel&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PlayerDataModel(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit PlayerDataModel(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -60,45 +59,45 @@ constexpr explicit PlayerDataModel(void* ptr) noexcept : ::UnityEngine::MonoBeha
 
 // Fields
 
- ::GlobalNamespace::PlayerDataFileManagerSO __declspec(property(get=__get__playerDataFileManager, put=__set__playerDataFileManager))  _playerDataFileManager;
+ GlobalNamespace::PlayerDataFileManagerSO __declspec(property(get=__get__playerDataFileManager, put=__set__playerDataFileManager))  _playerDataFileManager;
 
-constexpr void __set__playerDataFileManager(::GlobalNamespace::PlayerDataFileManagerSO value) ;
+constexpr void __set__playerDataFileManager(GlobalNamespace::PlayerDataFileManagerSO value) ;
 
-constexpr ::GlobalNamespace::PlayerDataFileManagerSO __get__playerDataFileManager() const;
+constexpr GlobalNamespace::PlayerDataFileManagerSO __get__playerDataFileManager() const;
 
- ::GlobalNamespace::PlayerData __declspec(property(get=__get__playerData, put=__set__playerData))  _playerData;
+ GlobalNamespace::PlayerData __declspec(property(get=__get__playerData, put=__set__playerData))  _playerData;
 
-constexpr void __set__playerData(::GlobalNamespace::PlayerData value) ;
+constexpr void __set__playerData(GlobalNamespace::PlayerData value) ;
 
-constexpr ::GlobalNamespace::PlayerData __get__playerData() const;
+constexpr GlobalNamespace::PlayerData __get__playerData() const;
 
- ::GlobalNamespace::ISaveData __declspec(property(get=__get__saveData, put=__set__saveData))  _saveData;
+ GlobalNamespace::ISaveData __declspec(property(get=__get__saveData, put=__set__saveData))  _saveData;
 
-constexpr void __set__saveData(::GlobalNamespace::ISaveData value) ;
+constexpr void __set__saveData(GlobalNamespace::ISaveData value) ;
 
-constexpr ::GlobalNamespace::ISaveData __get__saveData() const;
+constexpr GlobalNamespace::ISaveData __get__saveData() const;
 
- ::GlobalNamespace::BeatmapCharacteristicCollection __declspec(property(get=__get__beatmapCharacteristicCollection, put=__set__beatmapCharacteristicCollection))  _beatmapCharacteristicCollection;
+ GlobalNamespace::BeatmapCharacteristicCollection __declspec(property(get=__get__beatmapCharacteristicCollection, put=__set__beatmapCharacteristicCollection))  _beatmapCharacteristicCollection;
 
-constexpr void __set__beatmapCharacteristicCollection(::GlobalNamespace::BeatmapCharacteristicCollection value) ;
+constexpr void __set__beatmapCharacteristicCollection(GlobalNamespace::BeatmapCharacteristicCollection value) ;
 
-constexpr ::GlobalNamespace::BeatmapCharacteristicCollection __get__beatmapCharacteristicCollection() const;
+constexpr GlobalNamespace::BeatmapCharacteristicCollection __get__beatmapCharacteristicCollection() const;
 
 
 // Properties
 
- ::GlobalNamespace::PlayerDataFileManagerSO __declspec(property(get=get_playerDataFileManager))  playerDataFileManager;
+ GlobalNamespace::PlayerDataFileManagerSO __declspec(property(get=get_playerDataFileManager))  playerDataFileManager;
 
- ::GlobalNamespace::PlayerData __declspec(property(get=get_playerData))  playerData;
+ GlobalNamespace::PlayerData __declspec(property(get=get_playerData))  playerData;
 
 
 // Methods
 
 /// @brief Method get_playerDataFileManager addr 0x2226938 size 0x8 virtual false final false
- ::GlobalNamespace::PlayerDataFileManagerSO get_playerDataFileManager() ;
+ GlobalNamespace::PlayerDataFileManagerSO get_playerDataFileManager() ;
 
 /// @brief Method get_playerData addr 0x2226940 size 0x8 virtual false final false
- ::GlobalNamespace::PlayerData get_playerData() ;
+ GlobalNamespace::PlayerData get_playerData() ;
 
 /// @brief Method OnEnable addr 0x2226948 size 0x4 virtual false final false
  void OnEnable() ;
@@ -128,6 +127,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PlayerDataModel);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerDataModel, "", "PlayerDataModel");
+NEED_NO_BOX(GlobalNamespace::PlayerDataModel);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerDataModel, "", "PlayerDataModel");

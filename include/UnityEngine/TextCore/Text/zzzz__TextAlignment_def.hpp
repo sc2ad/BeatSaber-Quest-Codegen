@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
 struct TextAlignment;
@@ -101,116 +100,115 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field TopLeft offset 0
-static ::UnityEngine::TextCore::Text::TextAlignment const TopLeft;
+static UnityEngine::TextCore::Text::TextAlignment const TopLeft;
 
 /// @brief Field TopCenter offset 0
-static ::UnityEngine::TextCore::Text::TextAlignment const TopCenter;
+static UnityEngine::TextCore::Text::TextAlignment const TopCenter;
 
 /// @brief Field TopRight offset 0
-static ::UnityEngine::TextCore::Text::TextAlignment const TopRight;
+static UnityEngine::TextCore::Text::TextAlignment const TopRight;
 
 /// @brief Field TopJustified offset 0
-static ::UnityEngine::TextCore::Text::TextAlignment const TopJustified;
+static UnityEngine::TextCore::Text::TextAlignment const TopJustified;
 
 /// @brief Field TopFlush offset 0
-static ::UnityEngine::TextCore::Text::TextAlignment const TopFlush;
+static UnityEngine::TextCore::Text::TextAlignment const TopFlush;
 
 /// @brief Field TopGeoAligned offset 0
-static ::UnityEngine::TextCore::Text::TextAlignment const TopGeoAligned;
+static UnityEngine::TextCore::Text::TextAlignment const TopGeoAligned;
 
 /// @brief Field MiddleLeft offset 0
-static ::UnityEngine::TextCore::Text::TextAlignment const MiddleLeft;
+static UnityEngine::TextCore::Text::TextAlignment const MiddleLeft;
 
 /// @brief Field MiddleCenter offset 0
-static ::UnityEngine::TextCore::Text::TextAlignment const MiddleCenter;
+static UnityEngine::TextCore::Text::TextAlignment const MiddleCenter;
 
 /// @brief Field MiddleRight offset 0
-static ::UnityEngine::TextCore::Text::TextAlignment const MiddleRight;
+static UnityEngine::TextCore::Text::TextAlignment const MiddleRight;
 
 /// @brief Field MiddleJustified offset 0
-static ::UnityEngine::TextCore::Text::TextAlignment const MiddleJustified;
+static UnityEngine::TextCore::Text::TextAlignment const MiddleJustified;
 
 /// @brief Field MiddleFlush offset 0
-static ::UnityEngine::TextCore::Text::TextAlignment const MiddleFlush;
+static UnityEngine::TextCore::Text::TextAlignment const MiddleFlush;
 
 /// @brief Field MiddleGeoAligned offset 0
-static ::UnityEngine::TextCore::Text::TextAlignment const MiddleGeoAligned;
+static UnityEngine::TextCore::Text::TextAlignment const MiddleGeoAligned;
 
 /// @brief Field BottomLeft offset 0
-static ::UnityEngine::TextCore::Text::TextAlignment const BottomLeft;
+static UnityEngine::TextCore::Text::TextAlignment const BottomLeft;
 
 /// @brief Field BottomCenter offset 0
-static ::UnityEngine::TextCore::Text::TextAlignment const BottomCenter;
+static UnityEngine::TextCore::Text::TextAlignment const BottomCenter;
 
 /// @brief Field BottomRight offset 0
-static ::UnityEngine::TextCore::Text::TextAlignment const BottomRight;
+static UnityEngine::TextCore::Text::TextAlignment const BottomRight;
 
 /// @brief Field BottomJustified offset 0
-static ::UnityEngine::TextCore::Text::TextAlignment const BottomJustified;
+static UnityEngine::TextCore::Text::TextAlignment const BottomJustified;
 
 /// @brief Field BottomFlush offset 0
-static ::UnityEngine::TextCore::Text::TextAlignment const BottomFlush;
+static UnityEngine::TextCore::Text::TextAlignment const BottomFlush;
 
 /// @brief Field BottomGeoAligned offset 0
-static ::UnityEngine::TextCore::Text::TextAlignment const BottomGeoAligned;
+static UnityEngine::TextCore::Text::TextAlignment const BottomGeoAligned;
 
 /// @brief Field BaselineLeft offset 0
-static ::UnityEngine::TextCore::Text::TextAlignment const BaselineLeft;
+static UnityEngine::TextCore::Text::TextAlignment const BaselineLeft;
 
 /// @brief Field BaselineCenter offset 0
-static ::UnityEngine::TextCore::Text::TextAlignment const BaselineCenter;
+static UnityEngine::TextCore::Text::TextAlignment const BaselineCenter;
 
 /// @brief Field BaselineRight offset 0
-static ::UnityEngine::TextCore::Text::TextAlignment const BaselineRight;
+static UnityEngine::TextCore::Text::TextAlignment const BaselineRight;
 
 /// @brief Field BaselineJustified offset 0
-static ::UnityEngine::TextCore::Text::TextAlignment const BaselineJustified;
+static UnityEngine::TextCore::Text::TextAlignment const BaselineJustified;
 
 /// @brief Field BaselineFlush offset 0
-static ::UnityEngine::TextCore::Text::TextAlignment const BaselineFlush;
+static UnityEngine::TextCore::Text::TextAlignment const BaselineFlush;
 
 /// @brief Field BaselineGeoAligned offset 0
-static ::UnityEngine::TextCore::Text::TextAlignment const BaselineGeoAligned;
+static UnityEngine::TextCore::Text::TextAlignment const BaselineGeoAligned;
 
 /// @brief Field MidlineLeft offset 0
-static ::UnityEngine::TextCore::Text::TextAlignment const MidlineLeft;
+static UnityEngine::TextCore::Text::TextAlignment const MidlineLeft;
 
 /// @brief Field MidlineCenter offset 0
-static ::UnityEngine::TextCore::Text::TextAlignment const MidlineCenter;
+static UnityEngine::TextCore::Text::TextAlignment const MidlineCenter;
 
 /// @brief Field MidlineRight offset 0
-static ::UnityEngine::TextCore::Text::TextAlignment const MidlineRight;
+static UnityEngine::TextCore::Text::TextAlignment const MidlineRight;
 
 /// @brief Field MidlineJustified offset 0
-static ::UnityEngine::TextCore::Text::TextAlignment const MidlineJustified;
+static UnityEngine::TextCore::Text::TextAlignment const MidlineJustified;
 
 /// @brief Field MidlineFlush offset 0
-static ::UnityEngine::TextCore::Text::TextAlignment const MidlineFlush;
+static UnityEngine::TextCore::Text::TextAlignment const MidlineFlush;
 
 /// @brief Field MidlineGeoAligned offset 0
-static ::UnityEngine::TextCore::Text::TextAlignment const MidlineGeoAligned;
+static UnityEngine::TextCore::Text::TextAlignment const MidlineGeoAligned;
 
 /// @brief Field CaplineLeft offset 0
-static ::UnityEngine::TextCore::Text::TextAlignment const CaplineLeft;
+static UnityEngine::TextCore::Text::TextAlignment const CaplineLeft;
 
 /// @brief Field CaplineCenter offset 0
-static ::UnityEngine::TextCore::Text::TextAlignment const CaplineCenter;
+static UnityEngine::TextCore::Text::TextAlignment const CaplineCenter;
 
 /// @brief Field CaplineRight offset 0
-static ::UnityEngine::TextCore::Text::TextAlignment const CaplineRight;
+static UnityEngine::TextCore::Text::TextAlignment const CaplineRight;
 
 /// @brief Field CaplineJustified offset 0
-static ::UnityEngine::TextCore::Text::TextAlignment const CaplineJustified;
+static UnityEngine::TextCore::Text::TextAlignment const CaplineJustified;
 
 /// @brief Field CaplineFlush offset 0
-static ::UnityEngine::TextCore::Text::TextAlignment const CaplineFlush;
+static UnityEngine::TextCore::Text::TextAlignment const CaplineFlush;
 
 /// @brief Field CaplineGeoAligned offset 0
-static ::UnityEngine::TextCore::Text::TextAlignment const CaplineGeoAligned;
+static UnityEngine::TextCore::Text::TextAlignment const CaplineGeoAligned;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::Text
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::TextAlignment, "UnityEngine.TextCore.Text", "TextAlignment");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Text::TextAlignment, "UnityEngine.TextCore.Text", "TextAlignment");

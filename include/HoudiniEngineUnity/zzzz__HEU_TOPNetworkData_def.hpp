@@ -4,16 +4,15 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 namespace HoudiniEngineUnity {
 class HEU_TOPNodeData;
 }
 namespace HoudiniEngineUnity {
 class TOPNodeTags;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -73,11 +72,11 @@ constexpr void __set__nodeName(::StringW value) ;
 
 constexpr ::StringW __get__nodeName() const;
 
- ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNodeData> __declspec(property(get=__get__topNodes, put=__set__topNodes))  _topNodes;
+ System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_TOPNodeData> __declspec(property(get=__get__topNodes, put=__set__topNodes))  _topNodes;
 
-constexpr void __set__topNodes(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNodeData> value) ;
+constexpr void __set__topNodes(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_TOPNodeData> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNodeData> __get__topNodes() const;
+constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_TOPNodeData> __get__topNodes() const;
 
  ::ArrayW<::StringW> __declspec(property(get=__get__topNodeNames, put=__set__topNodeNames))  _topNodeNames;
 
@@ -97,11 +96,11 @@ constexpr void __set__parentName(::StringW value) ;
 
 constexpr ::StringW __get__parentName() const;
 
- ::HoudiniEngineUnity::TOPNodeTags __declspec(property(get=__get__tags, put=__set__tags))  _tags;
+ HoudiniEngineUnity::TOPNodeTags __declspec(property(get=__get__tags, put=__set__tags))  _tags;
 
-constexpr void __set__tags(::HoudiniEngineUnity::TOPNodeTags value) ;
+constexpr void __set__tags(HoudiniEngineUnity::TOPNodeTags value) ;
 
-constexpr ::HoudiniEngineUnity::TOPNodeTags __get__tags() const;
+constexpr HoudiniEngineUnity::TOPNodeTags __get__tags() const;
 
 
 // Methods
@@ -116,6 +115,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_TOPNetworkData);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_TOPNetworkData, "HoudiniEngineUnity", "HEU_TOPNetworkData");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_TOPNetworkData);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_TOPNetworkData, "HoudiniEngineUnity", "HEU_TOPNetworkData");

@@ -3,7 +3,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace OVR::OpenVR {
 struct HmdVector3d_t;
 }
@@ -20,8 +19,8 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE ImuSample_t : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "fSampleTime", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "vAccel", ty: "::OVR::OpenVR::HmdVector3d_t", modifiers: "", def_value: None }, CppParam { name: "vGyro", ty: "::OVR::OpenVR::HmdVector3d_t", modifiers: "", def_value: None }, CppParam { name: "unOffScaleFlags", ty: "uint32_t", modifiers: "", def_value: None }]
-constexpr ImuSample_t(double_t fSampleTime, ::OVR::OpenVR::HmdVector3d_t vAccel, ::OVR::OpenVR::HmdVector3d_t vGyro, uint32_t unOffScaleFlags) noexcept;
+// Ctor Parameters [CppParam { name: "fSampleTime", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "vAccel", ty: "OVR::OpenVR::HmdVector3d_t", modifiers: "", def_value: None }, CppParam { name: "vGyro", ty: "OVR::OpenVR::HmdVector3d_t", modifiers: "", def_value: None }, CppParam { name: "unOffScaleFlags", ty: "uint32_t", modifiers: "", def_value: None }]
+constexpr ImuSample_t(double_t fSampleTime, OVR::OpenVR::HmdVector3d_t vAccel, OVR::OpenVR::HmdVector3d_t vGyro, uint32_t unOffScaleFlags) noexcept;
 
 
                     constexpr ImuSample_t(ImuSample_t const&) = default;
@@ -60,17 +59,17 @@ constexpr void __set_fSampleTime(double_t value) ;
 
 constexpr double_t __get_fSampleTime() const;
 
- ::OVR::OpenVR::HmdVector3d_t __declspec(property(get=__get_vAccel, put=__set_vAccel))  vAccel;
+ OVR::OpenVR::HmdVector3d_t __declspec(property(get=__get_vAccel, put=__set_vAccel))  vAccel;
 
-constexpr void __set_vAccel(::OVR::OpenVR::HmdVector3d_t value) ;
+constexpr void __set_vAccel(OVR::OpenVR::HmdVector3d_t value) ;
 
-constexpr ::OVR::OpenVR::HmdVector3d_t __get_vAccel() const;
+constexpr OVR::OpenVR::HmdVector3d_t __get_vAccel() const;
 
- ::OVR::OpenVR::HmdVector3d_t __declspec(property(get=__get_vGyro, put=__set_vGyro))  vGyro;
+ OVR::OpenVR::HmdVector3d_t __declspec(property(get=__get_vGyro, put=__set_vGyro))  vGyro;
 
-constexpr void __set_vGyro(::OVR::OpenVR::HmdVector3d_t value) ;
+constexpr void __set_vGyro(OVR::OpenVR::HmdVector3d_t value) ;
 
-constexpr ::OVR::OpenVR::HmdVector3d_t __get_vGyro() const;
+constexpr OVR::OpenVR::HmdVector3d_t __get_vGyro() const;
 
  uint32_t __declspec(property(get=__get_unOffScaleFlags, put=__set_unOffScaleFlags))  unOffScaleFlags;
 
@@ -82,5 +81,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::ImuSample_t, "OVR.OpenVR", "ImuSample_t");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::ImuSample_t, "OVR.OpenVR", "ImuSample_t");

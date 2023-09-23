@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Runtime::Remoting::Channels {
 class IChannel;
 }
@@ -30,14 +29,14 @@ namespace System::Runtime::Remoting::Channels {
 class CORDL_TYPE CrossAppDomainChannel : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::Remoting::Channels::IChannel
-constexpr operator  ::System::Runtime::Remoting::Channels::IChannel() const noexcept;
+/// @brief Convert operator to System::Runtime::Remoting::Channels::IChannel
+constexpr operator  System::Runtime::Remoting::Channels::IChannel() const noexcept;
 
-/// @brief Convert operator to ::System::Runtime::Remoting::Channels::IChannelSender
-constexpr operator  ::System::Runtime::Remoting::Channels::IChannelSender() const noexcept;
+/// @brief Convert operator to System::Runtime::Remoting::Channels::IChannelSender
+constexpr operator  System::Runtime::Remoting::Channels::IChannelSender() const noexcept;
 
-/// @brief Convert operator to ::System::Runtime::Remoting::Channels::IChannelReceiver
-constexpr operator  ::System::Runtime::Remoting::Channels::IChannelReceiver() const noexcept;
+/// @brief Convert operator to System::Runtime::Remoting::Channels::IChannelReceiver
+constexpr operator  System::Runtime::Remoting::Channels::IChannelReceiver() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -106,7 +105,7 @@ static void RegisterCrossAppDomainChannel() ;
  void StartListening(::bs_hook::Il2CppWrapperType data) ;
 
 /// @brief Method CreateMessageSink addr 0x2336b70 size 0x180 virtual true final false
- ::System::Runtime::Remoting::Messaging::IMessageSink CreateMessageSink(::StringW url, ::bs_hook::Il2CppWrapperType data, ByRef<::StringW> uri) ;
+ System::Runtime::Remoting::Messaging::IMessageSink CreateMessageSink(::StringW url, ::bs_hook::Il2CppWrapperType data, ByRef<::StringW> uri) ;
 
 // Ctor Parameters []
 explicit CrossAppDomainChannel() ;
@@ -118,6 +117,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Channels
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Channels::CrossAppDomainChannel);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Channels::CrossAppDomainChannel, "System.Runtime.Remoting.Channels", "CrossAppDomainChannel");
+NEED_NO_BOX(System::Runtime::Remoting::Channels::CrossAppDomainChannel);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::CrossAppDomainChannel, "System.Runtime.Remoting.Channels", "CrossAppDomainChannel");

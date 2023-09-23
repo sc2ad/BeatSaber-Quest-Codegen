@@ -1,17 +1,16 @@
 #pragma once
 #include "System/Collections/Specialized/zzzz__StringDictionary_impl.hpp"
-namespace {
 #include "System/Collections/Specialized/zzzz__CaseSensitiveStringDictionary_def.hpp"
-//  Writing Method size for method: ::System::Collections::Specialized::CaseSensitiveStringDictionary._ctor
+//  Writing Method size for method: System::Collections::Specialized::CaseSensitiveStringDictionary._ctor
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::CaseSensitiveStringDictionary::*)()>(&::System::Collections::Specialized::CaseSensitiveStringDictionary::_ctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Specialized::CaseSensitiveStringDictionary::*)()>(&System::Collections::Specialized::CaseSensitiveStringDictionary::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x27ad3f0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::CaseSensitiveStringDictionary>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Specialized::CaseSensitiveStringDictionary>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -19,41 +18,40 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Sys
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::Specialized::CaseSensitiveStringDictionary.Add
+//  Writing Method size for method: System::Collections::Specialized::CaseSensitiveStringDictionary.Add
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::CaseSensitiveStringDictionary::*)(::StringW, ::StringW)>(&::System::Collections::Specialized::CaseSensitiveStringDictionary::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Specialized::CaseSensitiveStringDictionary::*)(::StringW, ::StringW)>(&System::Collections::Specialized::CaseSensitiveStringDictionary::Add)> {
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x27ad3f4;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(::System::Collections::Specialized::CaseSensitiveStringDictionary),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::CaseSensitiveStringDictionary>::get(),
+                                classof(System::Collections::Specialized::CaseSensitiveStringDictionary),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Specialized::CaseSensitiveStringDictionary>::get(),
                                   5
                                 ));
     return ___internal_method;
   }
 };
 // Ctor Parameters []
- ::System::Collections::Specialized::CaseSensitiveStringDictionary::CaseSensitiveStringDictionary()  : ::System::Collections::Specialized::StringDictionary(THROW_UNLESS(::il2cpp_utils::New<CaseSensitiveStringDictionary>())) {}
- void ::System::Collections::Specialized::CaseSensitiveStringDictionary::_ctor()  {
+ System::Collections::Specialized::CaseSensitiveStringDictionary::CaseSensitiveStringDictionary()  : System::Collections::Specialized::StringDictionary(THROW_UNLESS(::il2cpp_utils::New<CaseSensitiveStringDictionary>())) {}
+ void System::Collections::Specialized::CaseSensitiveStringDictionary::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::CaseSensitiveStringDictionary>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Specialized::CaseSensitiveStringDictionary>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- void ::System::Collections::Specialized::CaseSensitiveStringDictionary::Add(::StringW key, ::StringW value)  {
+ void System::Collections::Specialized::CaseSensitiveStringDictionary::Add(::StringW key, ::StringW value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::CaseSensitiveStringDictionary>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Specialized::CaseSensitiveStringDictionary>::get(),
                             "Add",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, key, value);
 }
-} // end anonymous namespace

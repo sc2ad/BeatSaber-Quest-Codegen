@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System {
 class Type;
 }
@@ -52,12 +51,11 @@ constexpr explicit Nullable(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(p
 // Methods
 
 /// @brief Method GetUnderlyingType addr 0x2442c04 size 0x150 virtual false final false
-static ::System::Type GetUnderlyingType(::System::Type nullableType) ;
+static System::Type GetUnderlyingType(System::Type nullableType) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::Nullable);
-DEFINE_IL2CPP_ARG_TYPE(::System::Nullable, "System", "Nullable");
+NEED_NO_BOX(System::Nullable);
+DEFINE_IL2CPP_ARG_TYPE(System::Nullable, "System", "Nullable");

@@ -3,7 +3,6 @@
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine::UI {
 class Button;
 }
@@ -13,7 +12,7 @@ class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct ____GlobalNamespace__HowToPlayViewController__HowToPlayOptions;
+struct GlobalNamespace__HowToPlayViewController__HowToPlayOptions;
 }
 namespace GlobalNamespace {
 class HowToPlayViewController;
@@ -24,20 +23,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5743))
 // CS Name: HowToPlayViewController::HowToPlayOptions
-struct CORDL_TYPE ____GlobalNamespace__HowToPlayViewController__HowToPlayOptions : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__HowToPlayViewController__HowToPlayOptions : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__HowToPlayViewController__HowToPlayOptions(int32_t value__) noexcept;
+constexpr GlobalNamespace__HowToPlayViewController__HowToPlayOptions(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__HowToPlayViewController__HowToPlayOptions(____GlobalNamespace__HowToPlayViewController__HowToPlayOptions const&) = default;
-                    constexpr ____GlobalNamespace__HowToPlayViewController__HowToPlayOptions(____GlobalNamespace__HowToPlayViewController__HowToPlayOptions&&) = default;
-                    constexpr ____GlobalNamespace__HowToPlayViewController__HowToPlayOptions& operator=(____GlobalNamespace__HowToPlayViewController__HowToPlayOptions const& o) {
+                    constexpr GlobalNamespace__HowToPlayViewController__HowToPlayOptions(GlobalNamespace__HowToPlayViewController__HowToPlayOptions const&) = default;
+                    constexpr GlobalNamespace__HowToPlayViewController__HowToPlayOptions(GlobalNamespace__HowToPlayViewController__HowToPlayOptions&&) = default;
+                    constexpr GlobalNamespace__HowToPlayViewController__HowToPlayOptions& operator=(GlobalNamespace__HowToPlayViewController__HowToPlayOptions const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__HowToPlayViewController__HowToPlayOptions& operator=(____GlobalNamespace__HowToPlayViewController__HowToPlayOptions&& o) noexcept {
+                    constexpr GlobalNamespace__HowToPlayViewController__HowToPlayOptions& operator=(GlobalNamespace__HowToPlayViewController__HowToPlayOptions&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -50,7 +49,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__HowToPlayViewController__HowToPlayOptions(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__HowToPlayViewController__HowToPlayOptions(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -58,14 +57,14 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__HowToPlayViewController__HowToPlayOptions_Unwrapped : int32_t {
+enum class __GlobalNamespace__HowToPlayViewController__HowToPlayOptions_Unwrapped : int32_t {
 __HowToPlay = 0,
 __Credits = 1,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__HowToPlayViewController__HowToPlayOptions_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__HowToPlayViewController__HowToPlayOptions_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__HowToPlayViewController__HowToPlayOptions_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__HowToPlayViewController__HowToPlayOptions_Unwrapped>(__instance);
 }
 
 
@@ -78,10 +77,10 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field HowToPlay offset 0
-static ::GlobalNamespace::____GlobalNamespace__HowToPlayViewController__HowToPlayOptions const HowToPlay;
+static GlobalNamespace::GlobalNamespace__HowToPlayViewController__HowToPlayOptions const HowToPlay;
 
 /// @brief Field Credits offset 0
-static ::GlobalNamespace::____GlobalNamespace__HowToPlayViewController__HowToPlayOptions const Credits;
+static GlobalNamespace::GlobalNamespace__HowToPlayViewController__HowToPlayOptions const Credits;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -93,10 +92,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13656))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5744))
 // CS Name: HowToPlayViewController
-class CORDL_TYPE HowToPlayViewController : public ::HMUI::ViewController {
+class CORDL_TYPE HowToPlayViewController : public HMUI::ViewController {
 public:
 // Declarations
-using HowToPlayOptions = ::GlobalNamespace::____GlobalNamespace__HowToPlayViewController__HowToPlayOptions;
+using HowToPlayOptions = GlobalNamespace::GlobalNamespace__HowToPlayViewController__HowToPlayOptions;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x88};
@@ -110,7 +109,7 @@ constexpr HowToPlayViewController(HowToPlayViewController const& ) noexcept = de
 constexpr HowToPlayViewController(HowToPlayViewController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HowToPlayViewController(void* ptr) noexcept : ::HMUI::ViewController(ptr) {
+constexpr explicit HowToPlayViewController(void* ptr) noexcept : HMUI::ViewController(ptr) {
 }
 
 
@@ -131,32 +130,32 @@ constexpr explicit HowToPlayViewController(void* ptr) noexcept : ::HMUI::ViewCon
 
 // Fields
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__tutorialButton, put=__set__tutorialButton))  _tutorialButton;
+ UnityEngine::UI::Button __declspec(property(get=__get__tutorialButton, put=__set__tutorialButton))  _tutorialButton;
 
-constexpr void __set__tutorialButton(::UnityEngine::UI::Button value) ;
+constexpr void __set__tutorialButton(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__tutorialButton() const;
+constexpr UnityEngine::UI::Button __get__tutorialButton() const;
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__creditsButton, put=__set__creditsButton))  _creditsButton;
+ UnityEngine::UI::Button __declspec(property(get=__get__creditsButton, put=__set__creditsButton))  _creditsButton;
 
-constexpr void __set__creditsButton(::UnityEngine::UI::Button value) ;
+constexpr void __set__creditsButton(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__creditsButton() const;
+constexpr UnityEngine::UI::Button __get__creditsButton() const;
 
- ::System::Action_1<::GlobalNamespace::____GlobalNamespace__HowToPlayViewController__HowToPlayOptions> __declspec(property(get=__get_didFinishEvent, put=__set_didFinishEvent))  didFinishEvent;
+ System::Action_1<GlobalNamespace::GlobalNamespace__HowToPlayViewController__HowToPlayOptions> __declspec(property(get=__get_didFinishEvent, put=__set_didFinishEvent))  didFinishEvent;
 
-constexpr void __set_didFinishEvent(::System::Action_1<::GlobalNamespace::____GlobalNamespace__HowToPlayViewController__HowToPlayOptions> value) ;
+constexpr void __set_didFinishEvent(System::Action_1<GlobalNamespace::GlobalNamespace__HowToPlayViewController__HowToPlayOptions> value) ;
 
-constexpr ::System::Action_1<::GlobalNamespace::____GlobalNamespace__HowToPlayViewController__HowToPlayOptions> __get_didFinishEvent() const;
+constexpr System::Action_1<GlobalNamespace::GlobalNamespace__HowToPlayViewController__HowToPlayOptions> __get_didFinishEvent() const;
 
 
 // Methods
 
 /// @brief Method add_didFinishEvent addr 0x215fd40 size 0xb0 virtual false final false
- void add_didFinishEvent(::System::Action_1<::GlobalNamespace::____GlobalNamespace__HowToPlayViewController__HowToPlayOptions> value) ;
+ void add_didFinishEvent(System::Action_1<GlobalNamespace::GlobalNamespace__HowToPlayViewController__HowToPlayOptions> value) ;
 
 /// @brief Method remove_didFinishEvent addr 0x215fdf0 size 0xb0 virtual false final false
- void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::____GlobalNamespace__HowToPlayViewController__HowToPlayOptions> value) ;
+ void remove_didFinishEvent(System::Action_1<GlobalNamespace::GlobalNamespace__HowToPlayViewController__HowToPlayOptions> value) ;
 
 /// @brief Method Setup addr 0x215fea0 size 0x30 virtual false final false
  void Setup(bool showTutorialButton) ;
@@ -180,7 +179,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__HowToPlayViewController__HowToPlayOptions, "", "HowToPlayViewController/HowToPlayOptions");
-NEED_NO_BOX(::GlobalNamespace::HowToPlayViewController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::HowToPlayViewController, "", "HowToPlayViewController");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__HowToPlayViewController__HowToPlayOptions, "", "HowToPlayViewController/HowToPlayOptions");
+NEED_NO_BOX(GlobalNamespace::HowToPlayViewController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HowToPlayViewController, "", "HowToPlayViewController");

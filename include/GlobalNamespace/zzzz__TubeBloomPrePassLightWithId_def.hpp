@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class TubeBloomPrePassLight;
 }
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14703))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14719))
 // CS Name: TubeBloomPrePassLightWithId
-class CORDL_TYPE TubeBloomPrePassLightWithId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
+class CORDL_TYPE TubeBloomPrePassLightWithId : public GlobalNamespace::LightWithIdMonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr TubeBloomPrePassLightWithId(TubeBloomPrePassLightWithId const& ) noexc
 constexpr TubeBloomPrePassLightWithId(TubeBloomPrePassLightWithId&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TubeBloomPrePassLightWithId(void* ptr) noexcept : ::GlobalNamespace::LightWithIdMonoBehaviour(ptr) {
+constexpr explicit TubeBloomPrePassLightWithId(void* ptr) noexcept : GlobalNamespace::LightWithIdMonoBehaviour(ptr) {
 }
 
 
@@ -54,11 +53,11 @@ constexpr explicit TubeBloomPrePassLightWithId(void* ptr) noexcept : ::GlobalNam
 
 // Fields
 
- ::GlobalNamespace::TubeBloomPrePassLight __declspec(property(get=__get__tubeBloomPrePassLight, put=__set__tubeBloomPrePassLight))  _tubeBloomPrePassLight;
+ GlobalNamespace::TubeBloomPrePassLight __declspec(property(get=__get__tubeBloomPrePassLight, put=__set__tubeBloomPrePassLight))  _tubeBloomPrePassLight;
 
-constexpr void __set__tubeBloomPrePassLight(::GlobalNamespace::TubeBloomPrePassLight value) ;
+constexpr void __set__tubeBloomPrePassLight(GlobalNamespace::TubeBloomPrePassLight value) ;
 
-constexpr ::GlobalNamespace::TubeBloomPrePassLight __get__tubeBloomPrePassLight() const;
+constexpr GlobalNamespace::TubeBloomPrePassLight __get__tubeBloomPrePassLight() const;
 
  bool __declspec(property(get=__get__setOnlyOnce, put=__set__setOnlyOnce))  _setOnlyOnce;
 
@@ -75,16 +74,16 @@ constexpr bool __get__setColorOnly() const;
 
 // Properties
 
- ::UnityEngine::Color __declspec(property(get=get_color))  color;
+ UnityEngine::Color __declspec(property(get=get_color))  color;
 
 
 // Methods
 
 /// @brief Method get_color addr 0x1fa16e4 size 0x20 virtual false final false
- ::UnityEngine::Color get_color() ;
+ UnityEngine::Color get_color() ;
 
 /// @brief Method ColorWasSet addr 0x1fa1704 size 0x58 virtual true final false
- void ColorWasSet(::UnityEngine::Color color) ;
+ void ColorWasSet(UnityEngine::Color color) ;
 
 // Ctor Parameters []
 explicit TubeBloomPrePassLightWithId() ;
@@ -96,6 +95,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::TubeBloomPrePassLightWithId);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TubeBloomPrePassLightWithId, "", "TubeBloomPrePassLightWithId");
+NEED_NO_BOX(GlobalNamespace::TubeBloomPrePassLightWithId);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TubeBloomPrePassLightWithId, "", "TubeBloomPrePassLightWithId");

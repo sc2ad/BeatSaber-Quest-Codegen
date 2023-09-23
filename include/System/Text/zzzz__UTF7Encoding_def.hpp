@@ -9,37 +9,36 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Text {
-class DecoderNLS;
-}
-namespace System::Text {
-class Encoder;
-}
-namespace System::Text {
-class EncoderNLS;
+class DecoderFallbackBuffer;
 }
 namespace System::Text {
 class Decoder;
 }
 namespace System::Text {
-class DecoderFallbackBuffer;
+class EncoderNLS;
+}
+namespace System::Text {
+class Encoder;
+}
+namespace System::Text {
+class DecoderNLS;
 }
 // Forward declare root types
 namespace System::Text {
+class System__Text__UTF7Encoding__Decoder;
+}
+namespace System::Text {
+class System__Text__UTF7Encoding__DecoderUTF7Fallback;
+}
+namespace System::Text {
+class System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer;
+}
+namespace System::Text {
+class System__Text__UTF7Encoding__Encoder;
+}
+namespace System::Text {
 class UTF7Encoding;
-}
-namespace System::Text {
-class ____System__Text__UTF7Encoding__Decoder;
-}
-namespace System::Text {
-class ____System__Text__UTF7Encoding__DecoderUTF7Fallback;
-}
-namespace System::Text {
-class ____System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer;
-}
-namespace System::Text {
-class ____System__Text__UTF7Encoding__Encoder;
 }
 // Type: ::Decoder
 namespace System::Text {
@@ -47,37 +46,37 @@ namespace System::Text {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2831))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2853))
 // CS Name: System.Text.UTF7Encoding::Decoder
-class CORDL_TYPE ____System__Text__UTF7Encoding__Decoder : public ::System::Text::DecoderNLS {
+class CORDL_TYPE System__Text__UTF7Encoding__Decoder : public System::Text::DecoderNLS {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
 
-virtual ~____System__Text__UTF7Encoding__Decoder() = default;
+virtual ~System__Text__UTF7Encoding__Decoder() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Text__UTF7Encoding__Decoder", modifiers: " const&", def_value: None }]
-constexpr ____System__Text__UTF7Encoding__Decoder(____System__Text__UTF7Encoding__Decoder const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Text__UTF7Encoding__Decoder", modifiers: " const&", def_value: None }]
+constexpr System__Text__UTF7Encoding__Decoder(System__Text__UTF7Encoding__Decoder const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Text__UTF7Encoding__Decoder", modifiers: "&&", def_value: None }]
-constexpr ____System__Text__UTF7Encoding__Decoder(____System__Text__UTF7Encoding__Decoder&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Text__UTF7Encoding__Decoder", modifiers: "&&", def_value: None }]
+constexpr System__Text__UTF7Encoding__Decoder(System__Text__UTF7Encoding__Decoder&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Text__UTF7Encoding__Decoder(void* ptr) noexcept : ::System::Text::DecoderNLS(ptr) {
+constexpr explicit System__Text__UTF7Encoding__Decoder(void* ptr) noexcept : System::Text::DecoderNLS(ptr) {
 }
 
 
-  constexpr ____System__Text__UTF7Encoding__Decoder& operator=(std::nullptr_t) noexcept {
+  constexpr System__Text__UTF7Encoding__Decoder& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Text__UTF7Encoding__Decoder& operator=(void* o) noexcept {
+  constexpr System__Text__UTF7Encoding__Decoder& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Text__UTF7Encoding__Decoder& operator=(____System__Text__UTF7Encoding__Decoder&& o) noexcept = default;
-  constexpr ____System__Text__UTF7Encoding__Decoder& operator=(____System__Text__UTF7Encoding__Decoder const& o) noexcept = default;
+  constexpr System__Text__UTF7Encoding__Decoder& operator=(System__Text__UTF7Encoding__Decoder&& o) noexcept = default;
+  constexpr System__Text__UTF7Encoding__Decoder& operator=(System__Text__UTF7Encoding__Decoder const& o) noexcept = default;
                 
 
 
@@ -109,11 +108,11 @@ constexpr bool __get_firstByte() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "encoding", ty: "::System::Text::UTF7Encoding", modifiers: "", def_value: None }]
-explicit ____System__Text__UTF7Encoding__Decoder(::System::Text::UTF7Encoding encoding) ;
+// Ctor Parameters [CppParam { name: "encoding", ty: "System::Text::UTF7Encoding", modifiers: "", def_value: None }]
+explicit System__Text__UTF7Encoding__Decoder(System::Text::UTF7Encoding encoding) ;
 
 /// @brief Method .ctor addr 0x22d478c size 0x8 virtual false final false
- void _ctor(::System::Text::UTF7Encoding encoding) ;
+ void _ctor(System::Text::UTF7Encoding encoding) ;
 
 /// @brief Method Reset addr 0x22d49b0 size 0x28 virtual true final false
  void Reset() ;
@@ -131,37 +130,37 @@ namespace System::Text {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2842))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2854))
 // CS Name: System.Text.UTF7Encoding::Encoder
-class CORDL_TYPE ____System__Text__UTF7Encoding__Encoder : public ::System::Text::EncoderNLS {
+class CORDL_TYPE System__Text__UTF7Encoding__Encoder : public System::Text::EncoderNLS {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
 
-virtual ~____System__Text__UTF7Encoding__Encoder() = default;
+virtual ~System__Text__UTF7Encoding__Encoder() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Text__UTF7Encoding__Encoder", modifiers: " const&", def_value: None }]
-constexpr ____System__Text__UTF7Encoding__Encoder(____System__Text__UTF7Encoding__Encoder const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Text__UTF7Encoding__Encoder", modifiers: " const&", def_value: None }]
+constexpr System__Text__UTF7Encoding__Encoder(System__Text__UTF7Encoding__Encoder const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Text__UTF7Encoding__Encoder", modifiers: "&&", def_value: None }]
-constexpr ____System__Text__UTF7Encoding__Encoder(____System__Text__UTF7Encoding__Encoder&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Text__UTF7Encoding__Encoder", modifiers: "&&", def_value: None }]
+constexpr System__Text__UTF7Encoding__Encoder(System__Text__UTF7Encoding__Encoder&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Text__UTF7Encoding__Encoder(void* ptr) noexcept : ::System::Text::EncoderNLS(ptr) {
+constexpr explicit System__Text__UTF7Encoding__Encoder(void* ptr) noexcept : System::Text::EncoderNLS(ptr) {
 }
 
 
-  constexpr ____System__Text__UTF7Encoding__Encoder& operator=(std::nullptr_t) noexcept {
+  constexpr System__Text__UTF7Encoding__Encoder& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Text__UTF7Encoding__Encoder& operator=(void* o) noexcept {
+  constexpr System__Text__UTF7Encoding__Encoder& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Text__UTF7Encoding__Encoder& operator=(____System__Text__UTF7Encoding__Encoder&& o) noexcept = default;
-  constexpr ____System__Text__UTF7Encoding__Encoder& operator=(____System__Text__UTF7Encoding__Encoder const& o) noexcept = default;
+  constexpr System__Text__UTF7Encoding__Encoder& operator=(System__Text__UTF7Encoding__Encoder&& o) noexcept = default;
+  constexpr System__Text__UTF7Encoding__Encoder& operator=(System__Text__UTF7Encoding__Encoder const& o) noexcept = default;
                 
 
 
@@ -187,11 +186,11 @@ constexpr int32_t __get_bitCount() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "encoding", ty: "::System::Text::UTF7Encoding", modifiers: "", def_value: None }]
-explicit ____System__Text__UTF7Encoding__Encoder(::System::Text::UTF7Encoding encoding) ;
+// Ctor Parameters [CppParam { name: "encoding", ty: "System::Text::UTF7Encoding", modifiers: "", def_value: None }]
+explicit System__Text__UTF7Encoding__Encoder(System::Text::UTF7Encoding encoding) ;
 
 /// @brief Method .ctor addr 0x22d47f8 size 0x8 virtual false final false
- void _ctor(::System::Text::UTF7Encoding encoding) ;
+ void _ctor(System::Text::UTF7Encoding encoding) ;
 
 /// @brief Method Reset addr 0x22d49e8 size 0x24 virtual true final false
  void Reset() ;
@@ -209,37 +208,37 @@ namespace System::Text {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2829))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2855))
 // CS Name: System.Text.UTF7Encoding::DecoderUTF7Fallback
-class CORDL_TYPE ____System__Text__UTF7Encoding__DecoderUTF7Fallback : public ::System::Text::DecoderFallback {
+class CORDL_TYPE System__Text__UTF7Encoding__DecoderUTF7Fallback : public System::Text::DecoderFallback {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____System__Text__UTF7Encoding__DecoderUTF7Fallback() = default;
+virtual ~System__Text__UTF7Encoding__DecoderUTF7Fallback() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Text__UTF7Encoding__DecoderUTF7Fallback", modifiers: " const&", def_value: None }]
-constexpr ____System__Text__UTF7Encoding__DecoderUTF7Fallback(____System__Text__UTF7Encoding__DecoderUTF7Fallback const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Text__UTF7Encoding__DecoderUTF7Fallback", modifiers: " const&", def_value: None }]
+constexpr System__Text__UTF7Encoding__DecoderUTF7Fallback(System__Text__UTF7Encoding__DecoderUTF7Fallback const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Text__UTF7Encoding__DecoderUTF7Fallback", modifiers: "&&", def_value: None }]
-constexpr ____System__Text__UTF7Encoding__DecoderUTF7Fallback(____System__Text__UTF7Encoding__DecoderUTF7Fallback&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Text__UTF7Encoding__DecoderUTF7Fallback", modifiers: "&&", def_value: None }]
+constexpr System__Text__UTF7Encoding__DecoderUTF7Fallback(System__Text__UTF7Encoding__DecoderUTF7Fallback&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Text__UTF7Encoding__DecoderUTF7Fallback(void* ptr) noexcept : ::System::Text::DecoderFallback(ptr) {
+constexpr explicit System__Text__UTF7Encoding__DecoderUTF7Fallback(void* ptr) noexcept : System::Text::DecoderFallback(ptr) {
 }
 
 
-  constexpr ____System__Text__UTF7Encoding__DecoderUTF7Fallback& operator=(std::nullptr_t) noexcept {
+  constexpr System__Text__UTF7Encoding__DecoderUTF7Fallback& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Text__UTF7Encoding__DecoderUTF7Fallback& operator=(void* o) noexcept {
+  constexpr System__Text__UTF7Encoding__DecoderUTF7Fallback& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Text__UTF7Encoding__DecoderUTF7Fallback& operator=(____System__Text__UTF7Encoding__DecoderUTF7Fallback&& o) noexcept = default;
-  constexpr ____System__Text__UTF7Encoding__DecoderUTF7Fallback& operator=(____System__Text__UTF7Encoding__DecoderUTF7Fallback const& o) noexcept = default;
+  constexpr System__Text__UTF7Encoding__DecoderUTF7Fallback& operator=(System__Text__UTF7Encoding__DecoderUTF7Fallback&& o) noexcept = default;
+  constexpr System__Text__UTF7Encoding__DecoderUTF7Fallback& operator=(System__Text__UTF7Encoding__DecoderUTF7Fallback const& o) noexcept = default;
                 
 
 
@@ -251,13 +250,13 @@ constexpr explicit ____System__Text__UTF7Encoding__DecoderUTF7Fallback(void* ptr
 // Methods
 
 // Ctor Parameters []
-explicit ____System__Text__UTF7Encoding__DecoderUTF7Fallback() ;
+explicit System__Text__UTF7Encoding__DecoderUTF7Fallback() ;
 
 /// @brief Method .ctor addr 0x22d2f0c size 0x8 virtual false final false
  void _ctor() ;
 
 /// @brief Method CreateFallbackBuffer addr 0x22d4a2c size 0x64 virtual true final false
- ::System::Text::DecoderFallbackBuffer CreateFallbackBuffer() ;
+ System::Text::DecoderFallbackBuffer CreateFallbackBuffer() ;
 
 /// @brief Method get_MaxCharCount addr 0x22d4aa0 size 0x8 virtual true final false
  int32_t get_MaxCharCount() ;
@@ -278,37 +277,37 @@ namespace System::Text {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2830))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2856))
 // CS Name: System.Text.UTF7Encoding::DecoderUTF7FallbackBuffer
-class CORDL_TYPE ____System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer : public ::System::Text::DecoderFallbackBuffer {
+class CORDL_TYPE System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer : public System::Text::DecoderFallbackBuffer {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer() = default;
+virtual ~System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer", modifiers: " const&", def_value: None }]
-constexpr ____System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer(____System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer", modifiers: " const&", def_value: None }]
+constexpr System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer(System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer", modifiers: "&&", def_value: None }]
-constexpr ____System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer(____System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer", modifiers: "&&", def_value: None }]
+constexpr System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer(System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer(void* ptr) noexcept : ::System::Text::DecoderFallbackBuffer(ptr) {
+constexpr explicit System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer(void* ptr) noexcept : System::Text::DecoderFallbackBuffer(ptr) {
 }
 
 
-  constexpr ____System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer& operator=(std::nullptr_t) noexcept {
+  constexpr System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer& operator=(void* o) noexcept {
+  constexpr System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer& operator=(____System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer&& o) noexcept = default;
-  constexpr ____System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer& operator=(____System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer const& o) noexcept = default;
+  constexpr System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer& operator=(System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer&& o) noexcept = default;
+  constexpr System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer& operator=(System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer const& o) noexcept = default;
                 
 
 
@@ -340,11 +339,11 @@ constexpr int32_t __get_iSize() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "fallback", ty: "::System::Text::____System__Text__UTF7Encoding__DecoderUTF7Fallback", modifiers: "", def_value: None }]
-explicit ____System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer(::System::Text::____System__Text__UTF7Encoding__DecoderUTF7Fallback fallback) ;
+// Ctor Parameters [CppParam { name: "fallback", ty: "System::Text::System__Text__UTF7Encoding__DecoderUTF7Fallback", modifiers: "", def_value: None }]
+explicit System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer(System::Text::System__Text__UTF7Encoding__DecoderUTF7Fallback fallback) ;
 
 /// @brief Method .ctor addr 0x22d4a90 size 0x10 virtual false final false
- void _ctor(::System::Text::____System__Text__UTF7Encoding__DecoderUTF7Fallback fallback) ;
+ void _ctor(System::Text::System__Text__UTF7Encoding__DecoderUTF7Fallback fallback) ;
 
 /// @brief Method Fallback addr 0x22d4b0c size 0x40 virtual true final false
  bool Fallback(::ArrayW<uint8_t> bytesUnknown, int32_t index) ;
@@ -371,16 +370,16 @@ namespace System::Text {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2870))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2857))
 // CS Name: System.Text.UTF7Encoding
-class CORDL_TYPE UTF7Encoding : public ::System::Text::Encoding {
+class CORDL_TYPE UTF7Encoding : public System::Text::Encoding {
 public:
 // Declarations
-using DecoderUTF7FallbackBuffer = ::System::Text::____System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer;
+using DecoderUTF7FallbackBuffer = System::Text::System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer;
 
-using DecoderUTF7Fallback = ::System::Text::____System__Text__UTF7Encoding__DecoderUTF7Fallback;
+using DecoderUTF7Fallback = System::Text::System__Text__UTF7Encoding__DecoderUTF7Fallback;
 
-using Encoder = ::System::Text::____System__Text__UTF7Encoding__Encoder;
+using Encoder = System::Text::System__Text__UTF7Encoding__Encoder;
 
-using Decoder = ::System::Text::____System__Text__UTF7Encoding__Decoder;
+using Decoder = System::Text::System__Text__UTF7Encoding__Decoder;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x58};
@@ -394,7 +393,7 @@ constexpr UTF7Encoding(UTF7Encoding const& ) noexcept = default;
 constexpr UTF7Encoding(UTF7Encoding&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UTF7Encoding(void* ptr) noexcept : ::System::Text::Encoding(ptr) {
+constexpr explicit UTF7Encoding(void* ptr) noexcept : System::Text::Encoding(ptr) {
 }
 
 
@@ -415,11 +414,11 @@ constexpr explicit UTF7Encoding(void* ptr) noexcept : ::System::Text::Encoding(p
 
 // Fields
 
-static ::System::Text::UTF7Encoding __declspec(property(get=__get_s_default, put=__set_s_default))  s_default;
+static System::Text::UTF7Encoding __declspec(property(get=__get_s_default, put=__set_s_default))  s_default;
 
-static void __set_s_default(::System::Text::UTF7Encoding value) ;
+static void __set_s_default(System::Text::UTF7Encoding value) ;
 
-static ::System::Text::UTF7Encoding __get_s_default() ;
+static System::Text::UTF7Encoding __get_s_default() ;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get__base64Bytes, put=__set__base64Bytes))  _base64Bytes;
 
@@ -506,22 +505,22 @@ explicit UTF7Encoding(bool allowOptionals) ;
  ::StringW GetString(::ArrayW<uint8_t> bytes, int32_t index, int32_t count) ;
 
 /// @brief Method GetByteCount addr 0x22d40b8 size 0x1c virtual true final false
- int32_t GetByteCount(void* chars, int32_t count, ::System::Text::EncoderNLS baseEncoder) ;
+ int32_t GetByteCount(void* chars, int32_t count, System::Text::EncoderNLS baseEncoder) ;
 
 /// @brief Method GetBytes addr 0x22d40d4 size 0x39c virtual true final false
- int32_t GetBytes(void* chars, int32_t charCount, void* bytes, int32_t byteCount, ::System::Text::EncoderNLS baseEncoder) ;
+ int32_t GetBytes(void* chars, int32_t charCount, void* bytes, int32_t byteCount, System::Text::EncoderNLS baseEncoder) ;
 
 /// @brief Method GetCharCount addr 0x22d4470 size 0x1c virtual true final false
- int32_t GetCharCount(void* bytes, int32_t count, ::System::Text::DecoderNLS baseDecoder) ;
+ int32_t GetCharCount(void* bytes, int32_t count, System::Text::DecoderNLS baseDecoder) ;
 
 /// @brief Method GetChars addr 0x22d448c size 0x29c virtual true final false
- int32_t GetChars(void* bytes, int32_t byteCount, void* chars, int32_t charCount, ::System::Text::DecoderNLS baseDecoder) ;
+ int32_t GetChars(void* bytes, int32_t byteCount, void* chars, int32_t charCount, System::Text::DecoderNLS baseDecoder) ;
 
 /// @brief Method GetDecoder addr 0x22d4728 size 0x64 virtual true final false
- ::System::Text::Decoder GetDecoder() ;
+ System::Text::Decoder GetDecoder() ;
 
 /// @brief Method GetEncoder addr 0x22d4794 size 0x64 virtual true final false
- ::System::Text::Encoder GetEncoder() ;
+ System::Text::Encoder GetEncoder() ;
 
 /// @brief Method GetMaxByteCount addr 0x22d4800 size 0xc4 virtual true final false
  int32_t GetMaxByteCount(int32_t charCount) ;
@@ -533,14 +532,13 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Text
-} // end anonymous namespace
-NEED_NO_BOX(::System::Text::UTF7Encoding);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::UTF7Encoding, "System.Text", "UTF7Encoding");
-NEED_NO_BOX(::System::Text::____System__Text__UTF7Encoding__Decoder);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::____System__Text__UTF7Encoding__Decoder, "System.Text", "UTF7Encoding/Decoder");
-NEED_NO_BOX(::System::Text::____System__Text__UTF7Encoding__DecoderUTF7Fallback);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::____System__Text__UTF7Encoding__DecoderUTF7Fallback, "System.Text", "UTF7Encoding/DecoderUTF7Fallback");
-NEED_NO_BOX(::System::Text::____System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::____System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer, "System.Text", "UTF7Encoding/DecoderUTF7FallbackBuffer");
-NEED_NO_BOX(::System::Text::____System__Text__UTF7Encoding__Encoder);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::____System__Text__UTF7Encoding__Encoder, "System.Text", "UTF7Encoding/Encoder");
+NEED_NO_BOX(System::Text::System__Text__UTF7Encoding__Decoder);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::System__Text__UTF7Encoding__Decoder, "System.Text", "UTF7Encoding/Decoder");
+NEED_NO_BOX(System::Text::System__Text__UTF7Encoding__DecoderUTF7Fallback);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::System__Text__UTF7Encoding__DecoderUTF7Fallback, "System.Text", "UTF7Encoding/DecoderUTF7Fallback");
+NEED_NO_BOX(System::Text::System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer, "System.Text", "UTF7Encoding/DecoderUTF7FallbackBuffer");
+NEED_NO_BOX(System::Text::System__Text__UTF7Encoding__Encoder);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::System__Text__UTF7Encoding__Encoder, "System.Text", "UTF7Encoding/Encoder");
+NEED_NO_BOX(System::Text::UTF7Encoding);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::UTF7Encoding, "System.Text", "UTF7Encoding");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 struct Quaternion;
 }
@@ -103,17 +102,17 @@ constexpr void __set__lockCursor(bool value) ;
 
 constexpr bool __get__lockCursor() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get__characterTargetRot, put=__set__characterTargetRot))  _characterTargetRot;
+ UnityEngine::Quaternion __declspec(property(get=__get__characterTargetRot, put=__set__characterTargetRot))  _characterTargetRot;
 
-constexpr void __set__characterTargetRot(::UnityEngine::Quaternion value) ;
+constexpr void __set__characterTargetRot(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get__characterTargetRot() const;
+constexpr UnityEngine::Quaternion __get__characterTargetRot() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get__cameraTargetRot, put=__set__cameraTargetRot))  _cameraTargetRot;
+ UnityEngine::Quaternion __declspec(property(get=__get__cameraTargetRot, put=__set__cameraTargetRot))  _cameraTargetRot;
 
-constexpr void __set__cameraTargetRot(::UnityEngine::Quaternion value) ;
+constexpr void __set__cameraTargetRot(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get__cameraTargetRot() const;
+constexpr UnityEngine::Quaternion __get__cameraTargetRot() const;
 
  bool __declspec(property(get=__get__cursorIsLocked, put=__set__cursorIsLocked))  _cursorIsLocked;
 
@@ -125,13 +124,13 @@ constexpr bool __get__cursorIsLocked() const;
 // Methods
 
 /// @brief Method Init addr 0x2192b70 size 0x6c virtual false final false
- void Init(::UnityEngine::Transform character, ::UnityEngine::Transform camera) ;
+ void Init(UnityEngine::Transform character, UnityEngine::Transform camera) ;
 
 /// @brief Method SetRotations addr 0x21935c0 size 0x14 virtual false final false
- void SetRotations(::UnityEngine::Quaternion characterRotation, ::UnityEngine::Quaternion cameraRotation) ;
+ void SetRotations(UnityEngine::Quaternion characterRotation, UnityEngine::Quaternion cameraRotation) ;
 
 /// @brief Method LookRotation addr 0x219305c size 0x35c virtual false final false
- void LookRotation(::UnityEngine::Transform character, ::UnityEngine::Transform camera) ;
+ void LookRotation(UnityEngine::Transform character, UnityEngine::Transform camera) ;
 
 /// @brief Method SetCursorLock addr 0x2192c24 size 0x34 virtual false final false
  void SetCursorLock(bool value) ;
@@ -143,7 +142,7 @@ constexpr bool __get__cursorIsLocked() const;
  void InternalLockUpdate() ;
 
 /// @brief Method ClampRotationAroundXAxis addr 0x21935d4 size 0x64 virtual false final false
- ::UnityEngine::Quaternion ClampRotationAroundXAxis(::UnityEngine::Quaternion q) ;
+ UnityEngine::Quaternion ClampRotationAroundXAxis(UnityEngine::Quaternion q) ;
 
 // Ctor Parameters []
 explicit MouseLook() ;
@@ -155,6 +154,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MouseLook);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MouseLook, "", "MouseLook");
+NEED_NO_BOX(GlobalNamespace::MouseLook);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MouseLook, "", "MouseLook");

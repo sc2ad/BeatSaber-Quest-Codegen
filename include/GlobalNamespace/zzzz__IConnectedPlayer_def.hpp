@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-struct MultiplayerAvatarData;
-}
 namespace GlobalNamespace {
 struct DisconnectedReason;
+}
+namespace GlobalNamespace {
+struct MultiplayerAvatarData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -44,7 +43,7 @@ constexpr explicit IConnectedPlayer(void* ptr) noexcept : ::cordl_internals::Int
 
  bool __declspec(property(get=get_isConnected))  isConnected;
 
- ::GlobalNamespace::DisconnectedReason __declspec(property(get=get_disconnectedReason))  disconnectedReason;
+ GlobalNamespace::DisconnectedReason __declspec(property(get=get_disconnectedReason))  disconnectedReason;
 
  bool __declspec(property(get=get_isConnectionOwner))  isConnectionOwner;
 
@@ -54,7 +53,7 @@ constexpr explicit IConnectedPlayer(void* ptr) noexcept : ::cordl_internals::Int
 
  bool __declspec(property(get=get_isKicked))  isKicked;
 
- ::GlobalNamespace::MultiplayerAvatarData __declspec(property(get=get_multiplayerAvatarData))  multiplayerAvatarData;
+ GlobalNamespace::MultiplayerAvatarData __declspec(property(get=get_multiplayerAvatarData))  multiplayerAvatarData;
 
 
 // Methods
@@ -78,7 +77,7 @@ constexpr explicit IConnectedPlayer(void* ptr) noexcept : ::cordl_internals::Int
  bool get_isConnected() ;
 
 /// @brief Method get_disconnectedReason addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::DisconnectedReason get_disconnectedReason() ;
+ GlobalNamespace::DisconnectedReason get_disconnectedReason() ;
 
 /// @brief Method get_isConnectionOwner addr 0x0 size 0xffffffffffffffff virtual true final false
  bool get_isConnectionOwner() ;
@@ -93,7 +92,7 @@ constexpr explicit IConnectedPlayer(void* ptr) noexcept : ::cordl_internals::Int
  bool get_isKicked() ;
 
 /// @brief Method get_multiplayerAvatarData addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::MultiplayerAvatarData get_multiplayerAvatarData() ;
+ GlobalNamespace::MultiplayerAvatarData get_multiplayerAvatarData() ;
 
 /// @brief Method HasState addr 0x0 size 0xffffffffffffffff virtual true final false
  bool HasState(::StringW state) ;
@@ -102,6 +101,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IConnectedPlayer);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IConnectedPlayer, "", "IConnectedPlayer");
+NEED_NO_BOX(GlobalNamespace::IConnectedPlayer);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IConnectedPlayer, "", "IConnectedPlayer");

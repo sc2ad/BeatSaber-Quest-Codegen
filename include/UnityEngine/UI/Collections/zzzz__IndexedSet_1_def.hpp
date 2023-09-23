@@ -3,22 +3,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace System::Collections::Generic {
-template<typename T>
-class ICollection_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
 }
 namespace System {
 template<typename T>
@@ -26,21 +13,33 @@ class Predicate_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
+class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
 class List_1;
 }
-namespace System {
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections::Generic {
 template<typename T>
-class Comparison_1;
+class ICollection_1;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Collections::Generic {
+namespace System {
 template<typename T>
-class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerator;
+class Comparison_1;
 }
 // Forward declare root types
 namespace UnityEngine::UI::Collections {
@@ -63,17 +62,17 @@ template<::cordl_internals::il2cpp_reference_type T>
 class CORDL_TYPE IndexedSet_1<T> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IList_1<T>
-constexpr operator  ::System::Collections::Generic::IList_1<T>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IList_1<T>
+constexpr operator  System::Collections::Generic::IList_1<T>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::Generic::ICollection_1<T>
-constexpr operator  ::System::Collections::Generic::ICollection_1<T>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::ICollection_1<T>
+constexpr operator  System::Collections::Generic::ICollection_1<T>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerable_1<T>
-constexpr operator  ::System::Collections::Generic::IEnumerable_1<T>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerable_1<T>
+constexpr operator  System::Collections::Generic::IEnumerable_1<T>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -108,17 +107,17 @@ constexpr explicit IndexedSet_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 
 // Fields
 
- ::System::Collections::Generic::List_1<T> __declspec(property(get=__get_m_List, put=__set_m_List))  m_List;
+ System::Collections::Generic::List_1<T> __declspec(property(get=__get_m_List, put=__set_m_List))  m_List;
 
-constexpr void __set_m_List(::System::Collections::Generic::List_1<T> value) ;
+constexpr void __set_m_List(System::Collections::Generic::List_1<T> value) ;
 
-constexpr ::System::Collections::Generic::List_1<T> __get_m_List() const;
+constexpr System::Collections::Generic::List_1<T> __get_m_List() const;
 
- ::System::Collections::Generic::Dictionary_2<T,int32_t> __declspec(property(get=__get_m_Dictionary, put=__set_m_Dictionary))  m_Dictionary;
+ System::Collections::Generic::Dictionary_2<T,int32_t> __declspec(property(get=__get_m_Dictionary, put=__set_m_Dictionary))  m_Dictionary;
 
-constexpr void __set_m_Dictionary(::System::Collections::Generic::Dictionary_2<T,int32_t> value) ;
+constexpr void __set_m_Dictionary(System::Collections::Generic::Dictionary_2<T,int32_t> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<T,int32_t> __get_m_Dictionary() const;
+constexpr System::Collections::Generic::Dictionary_2<T,int32_t> __get_m_Dictionary() const;
 
  int32_t __declspec(property(get=__get_m_EnabledObjectCount, put=__set_m_EnabledObjectCount))  m_EnabledObjectCount;
 
@@ -159,10 +158,10 @@ constexpr int32_t __get_m_EnabledObjectCount() const;
  bool Remove(T item) ;
 
 /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Collections::Generic::IEnumerator_1<T> GetEnumerator() ;
+ System::Collections::Generic::IEnumerator_1<T> GetEnumerator() ;
 
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
+ System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
 /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual true final true
  void Clear() ;
@@ -201,10 +200,10 @@ constexpr int32_t __get_m_EnabledObjectCount() const;
  void set_Item(int32_t index, T value) ;
 
 /// @brief Method RemoveAll addr 0x0 size 0xffffffffffffffff virtual false final false
- void RemoveAll(::System::Predicate_1<T> match) ;
+ void RemoveAll(System::Predicate_1<T> match) ;
 
 /// @brief Method Sort addr 0x0 size 0xffffffffffffffff virtual false final false
- void Sort(::System::Comparison_1<T> sortLayoutFunction) ;
+ void Sort(System::Comparison_1<T> sortLayoutFunction) ;
 
 // Ctor Parameters []
 explicit IndexedSet_1() ;
@@ -216,5 +215,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UI::Collections
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UI::Collections::IndexedSet_1, "UnityEngine.UI.Collections", "IndexedSet`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::UI::Collections::IndexedSet_1, "UnityEngine.UI.Collections", "IndexedSet`1");

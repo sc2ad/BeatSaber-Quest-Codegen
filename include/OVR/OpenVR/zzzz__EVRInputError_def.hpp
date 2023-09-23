@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct EVRInputError;
@@ -82,59 +81,58 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::OVR::OpenVR::EVRInputError const None;
+static OVR::OpenVR::EVRInputError const None;
 
 /// @brief Field NameNotFound offset 0
-static ::OVR::OpenVR::EVRInputError const NameNotFound;
+static OVR::OpenVR::EVRInputError const NameNotFound;
 
 /// @brief Field WrongType offset 0
-static ::OVR::OpenVR::EVRInputError const WrongType;
+static OVR::OpenVR::EVRInputError const WrongType;
 
 /// @brief Field InvalidHandle offset 0
-static ::OVR::OpenVR::EVRInputError const InvalidHandle;
+static OVR::OpenVR::EVRInputError const InvalidHandle;
 
 /// @brief Field InvalidParam offset 0
-static ::OVR::OpenVR::EVRInputError const InvalidParam;
+static OVR::OpenVR::EVRInputError const InvalidParam;
 
 /// @brief Field NoSteam offset 0
-static ::OVR::OpenVR::EVRInputError const NoSteam;
+static OVR::OpenVR::EVRInputError const NoSteam;
 
 /// @brief Field MaxCapacityReached offset 0
-static ::OVR::OpenVR::EVRInputError const MaxCapacityReached;
+static OVR::OpenVR::EVRInputError const MaxCapacityReached;
 
 /// @brief Field IPCError offset 0
-static ::OVR::OpenVR::EVRInputError const IPCError;
+static OVR::OpenVR::EVRInputError const IPCError;
 
 /// @brief Field NoActiveActionSet offset 0
-static ::OVR::OpenVR::EVRInputError const NoActiveActionSet;
+static OVR::OpenVR::EVRInputError const NoActiveActionSet;
 
 /// @brief Field InvalidDevice offset 0
-static ::OVR::OpenVR::EVRInputError const InvalidDevice;
+static OVR::OpenVR::EVRInputError const InvalidDevice;
 
 /// @brief Field InvalidSkeleton offset 0
-static ::OVR::OpenVR::EVRInputError const InvalidSkeleton;
+static OVR::OpenVR::EVRInputError const InvalidSkeleton;
 
 /// @brief Field InvalidBoneCount offset 0
-static ::OVR::OpenVR::EVRInputError const InvalidBoneCount;
+static OVR::OpenVR::EVRInputError const InvalidBoneCount;
 
 /// @brief Field InvalidCompressedData offset 0
-static ::OVR::OpenVR::EVRInputError const InvalidCompressedData;
+static OVR::OpenVR::EVRInputError const InvalidCompressedData;
 
 /// @brief Field NoData offset 0
-static ::OVR::OpenVR::EVRInputError const NoData;
+static OVR::OpenVR::EVRInputError const NoData;
 
 /// @brief Field BufferTooSmall offset 0
-static ::OVR::OpenVR::EVRInputError const BufferTooSmall;
+static OVR::OpenVR::EVRInputError const BufferTooSmall;
 
 /// @brief Field MismatchedActionManifest offset 0
-static ::OVR::OpenVR::EVRInputError const MismatchedActionManifest;
+static OVR::OpenVR::EVRInputError const MismatchedActionManifest;
 
 /// @brief Field MissingSkeletonData offset 0
-static ::OVR::OpenVR::EVRInputError const MissingSkeletonData;
+static OVR::OpenVR::EVRInputError const MissingSkeletonData;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRInputError, "OVR.OpenVR", "EVRInputError");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRInputError, "OVR.OpenVR", "EVRInputError");

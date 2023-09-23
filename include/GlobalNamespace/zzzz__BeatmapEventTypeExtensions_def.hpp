@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace GlobalNamespace {
 struct BasicBeatmapEventType;
 }
@@ -52,45 +51,44 @@ constexpr explicit BeatmapEventTypeExtensions(void* ptr) noexcept : ::bs_hook::I
 // Fields
 
 /// @brief Field kLights1 offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const kLights1;
+static GlobalNamespace::BasicBeatmapEventType const kLights1;
 
 /// @brief Field kLights2 offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const kLights2;
+static GlobalNamespace::BasicBeatmapEventType const kLights2;
 
 /// @brief Field kLights3 offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const kLights3;
+static GlobalNamespace::BasicBeatmapEventType const kLights3;
 
 /// @brief Field kLights4 offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const kLights4;
+static GlobalNamespace::BasicBeatmapEventType const kLights4;
 
 /// @brief Field kLights5 offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const kLights5;
+static GlobalNamespace::BasicBeatmapEventType const kLights5;
 
 /// @brief Field kColorBoost offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const kColorBoost;
+static GlobalNamespace::BasicBeatmapEventType const kColorBoost;
 
 /// @brief Field kRotateRings offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const kRotateRings;
+static GlobalNamespace::BasicBeatmapEventType const kRotateRings;
 
 /// @brief Field kCompressExpand offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const kCompressExpand;
+static GlobalNamespace::BasicBeatmapEventType const kCompressExpand;
 
 /// @brief Field kLegacyEarlySpawnRotation offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const kLegacyEarlySpawnRotation;
+static GlobalNamespace::BasicBeatmapEventType const kLegacyEarlySpawnRotation;
 
 /// @brief Field kLegacyLateSpawnRotation offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const kLegacyLateSpawnRotation;
+static GlobalNamespace::BasicBeatmapEventType const kLegacyLateSpawnRotation;
 
 
 // Methods
 
 /// @brief Method IsCoreLightIntensityChangeEvent addr 0xd91994 size 0x1c virtual false final false
-static bool IsCoreLightIntensityChangeEvent(::GlobalNamespace::BasicBeatmapEventType basicBeatmapEventType) ;
+static bool IsCoreLightIntensityChangeEvent(GlobalNamespace::BasicBeatmapEventType basicBeatmapEventType) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BeatmapEventTypeExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapEventTypeExtensions, "", "BeatmapEventTypeExtensions");
+NEED_NO_BOX(GlobalNamespace::BeatmapEventTypeExtensions);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEventTypeExtensions, "", "BeatmapEventTypeExtensions");

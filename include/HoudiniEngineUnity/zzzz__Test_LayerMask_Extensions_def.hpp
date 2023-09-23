@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace UnityEngine {
 struct LayerMask;
 }
@@ -55,12 +54,11 @@ constexpr explicit Test_LayerMask_Extensions(void* ptr) noexcept : ::bs_hook::Il
 // Methods
 
 /// @brief Method ToTestObject addr 0x20741ec size 0x64 virtual false final false
-static ::HoudiniEngineUnity::Test_LayerMask ToTestObject(::UnityEngine::LayerMask self) ;
+static HoudiniEngineUnity::Test_LayerMask ToTestObject(UnityEngine::LayerMask self) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::Test_LayerMask_Extensions);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::Test_LayerMask_Extensions, "HoudiniEngineUnity", "Test_LayerMask_Extensions");
+NEED_NO_BOX(HoudiniEngineUnity::Test_LayerMask_Extensions);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_LayerMask_Extensions, "HoudiniEngineUnity", "Test_LayerMask_Extensions");

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine::UIElements {
 class StyleProperty;
 }
@@ -53,11 +52,11 @@ constexpr explicit StyleRule(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 
 // Fields
 
- ::ArrayW<::UnityEngine::UIElements::StyleProperty> __declspec(property(get=__get_m_Properties, put=__set_m_Properties))  m_Properties;
+ ::ArrayW<UnityEngine::UIElements::StyleProperty> __declspec(property(get=__get_m_Properties, put=__set_m_Properties))  m_Properties;
 
-constexpr void __set_m_Properties(::ArrayW<::UnityEngine::UIElements::StyleProperty> value) ;
+constexpr void __set_m_Properties(::ArrayW<UnityEngine::UIElements::StyleProperty> value) ;
 
-constexpr ::ArrayW<::UnityEngine::UIElements::StyleProperty> __get_m_Properties() const;
+constexpr ::ArrayW<UnityEngine::UIElements::StyleProperty> __get_m_Properties() const;
 
  int32_t __declspec(property(get=__get_line, put=__set_line))  line;
 
@@ -74,13 +73,13 @@ constexpr int32_t __get_customPropertiesCount() const;
 
 // Properties
 
- ::ArrayW<::UnityEngine::UIElements::StyleProperty> __declspec(property(get=get_properties))  properties;
+ ::ArrayW<UnityEngine::UIElements::StyleProperty> __declspec(property(get=get_properties))  properties;
 
 
 // Methods
 
 /// @brief Method get_properties addr 0x2cf4058 size 0x8 virtual false final false
- ::ArrayW<::UnityEngine::UIElements::StyleProperty> get_properties() ;
+ ::ArrayW<UnityEngine::UIElements::StyleProperty> get_properties() ;
 
 // Ctor Parameters []
 explicit StyleRule() ;
@@ -92,6 +91,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::StyleRule);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleRule, "UnityEngine.UIElements", "StyleRule");
+NEED_NO_BOX(UnityEngine::UIElements::StyleRule);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::StyleRule, "UnityEngine.UIElements", "StyleRule");

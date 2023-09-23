@@ -3,7 +3,6 @@
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
 class NullableAttribute;
@@ -14,7 +13,7 @@ namespace System::Runtime::CompilerServices {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3939))
 // CS Name: System.Runtime.CompilerServices.NullableAttribute
-class CORDL_TYPE NullableAttribute : public ::System::Attribute {
+class CORDL_TYPE NullableAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr NullableAttribute(NullableAttribute const& ) noexcept = default;
 constexpr NullableAttribute(NullableAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NullableAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit NullableAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -75,6 +74,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::CompilerServices
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::CompilerServices::NullableAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::NullableAttribute, "System.Runtime.CompilerServices", "NullableAttribute");
+NEED_NO_BOX(System::Runtime::CompilerServices::NullableAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::NullableAttribute, "System.Runtime.CompilerServices", "NullableAttribute");

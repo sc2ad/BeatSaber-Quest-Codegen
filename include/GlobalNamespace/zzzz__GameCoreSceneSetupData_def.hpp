@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__SceneSetupData_def.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class GameCoreSceneSetupData;
@@ -12,7 +11,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13869))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6102))
 // CS Name: GameCoreSceneSetupData
-class CORDL_TYPE GameCoreSceneSetupData : public ::GlobalNamespace::SceneSetupData {
+class CORDL_TYPE GameCoreSceneSetupData : public GlobalNamespace::SceneSetupData {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr GameCoreSceneSetupData(GameCoreSceneSetupData const& ) noexcept = defa
 constexpr GameCoreSceneSetupData(GameCoreSceneSetupData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GameCoreSceneSetupData(void* ptr) noexcept : ::GlobalNamespace::SceneSetupData(ptr) {
+constexpr explicit GameCoreSceneSetupData(void* ptr) noexcept : GlobalNamespace::SceneSetupData(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::GameCoreSceneSetupData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameCoreSceneSetupData, "", "GameCoreSceneSetupData");
+NEED_NO_BOX(GlobalNamespace::GameCoreSceneSetupData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameCoreSceneSetupData, "", "GameCoreSceneSetupData");

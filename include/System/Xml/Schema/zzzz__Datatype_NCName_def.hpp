@@ -4,9 +4,8 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System::Xml {
-class IXmlNamespaceResolver;
+namespace System::Xml::Schema {
+struct XmlTypeCode;
 }
 namespace System {
 class Exception;
@@ -14,8 +13,8 @@ class Exception;
 namespace System::Xml {
 class XmlNameTable;
 }
-namespace System::Xml::Schema {
-struct XmlTypeCode;
+namespace System::Xml {
+class IXmlNamespaceResolver;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -27,7 +26,7 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11600))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11601))
 // CS Name: System.Xml.Schema.Datatype_NCName
-class CORDL_TYPE Datatype_NCName : public ::System::Xml::Schema::Datatype_Name {
+class CORDL_TYPE Datatype_NCName : public System::Xml::Schema::Datatype_Name {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -42,7 +41,7 @@ constexpr Datatype_NCName(Datatype_NCName const& ) noexcept = default;
 constexpr Datatype_NCName(Datatype_NCName&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Datatype_NCName(void* ptr) noexcept : ::System::Xml::Schema::Datatype_Name(ptr) {
+constexpr explicit Datatype_NCName(void* ptr) noexcept : System::Xml::Schema::Datatype_Name(ptr) {
 }
 
 
@@ -63,16 +62,16 @@ constexpr explicit Datatype_NCName(void* ptr) noexcept : ::System::Xml::Schema::
 
 // Properties
 
- ::System::Xml::Schema::XmlTypeCode __declspec(property(get=get_TypeCode))  TypeCode;
+ System::Xml::Schema::XmlTypeCode __declspec(property(get=get_TypeCode))  TypeCode;
 
 
 // Methods
 
 /// @brief Method get_TypeCode addr 0x2727d50 size 0x8 virtual true final false
- ::System::Xml::Schema::XmlTypeCode get_TypeCode() ;
+ System::Xml::Schema::XmlTypeCode get_TypeCode() ;
 
 /// @brief Method TryParseValue addr 0x2727d58 size 0xfc virtual true final false
- ::System::Exception TryParseValue(::StringW s, ::System::Xml::XmlNameTable nameTable, ::System::Xml::IXmlNamespaceResolver nsmgr, ByRef<::bs_hook::Il2CppWrapperType> typedValue) ;
+ System::Exception TryParseValue(::StringW s, System::Xml::XmlNameTable nameTable, System::Xml::IXmlNamespaceResolver nsmgr, ByRef<::bs_hook::Il2CppWrapperType> typedValue) ;
 
 // Ctor Parameters []
 explicit Datatype_NCName() ;
@@ -84,6 +83,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::Datatype_NCName);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::Datatype_NCName, "System.Xml.Schema", "Datatype_NCName");
+NEED_NO_BOX(System::Xml::Schema::Datatype_NCName);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::Datatype_NCName, "System.Xml.Schema", "Datatype_NCName");

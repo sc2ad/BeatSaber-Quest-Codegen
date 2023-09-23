@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform {
 struct ChallengeViewerFilter;
 }
-namespace Oculus::Platform {
-struct ChallengeVisibility;
-}
 namespace System {
 struct DateTime;
+}
+namespace Oculus::Platform {
+struct ChallengeVisibility;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -78,7 +77,7 @@ explicit ChallengeOptions() ;
  void SetDescription(::StringW value) ;
 
 /// @brief Method SetEndDate addr 0x257a694 size 0x68 virtual false final false
- void SetEndDate(::System::DateTime value) ;
+ void SetEndDate(System::DateTime value) ;
 
 /// @brief Method SetIncludeActiveChallenges addr 0x257a6fc size 0x68 virtual false final false
  void SetIncludeActiveChallenges(bool value) ;
@@ -93,19 +92,19 @@ explicit ChallengeOptions() ;
  void SetLeaderboardName(::StringW value) ;
 
 /// @brief Method SetStartDate addr 0x257a89c size 0x68 virtual false final false
- void SetStartDate(::System::DateTime value) ;
+ void SetStartDate(System::DateTime value) ;
 
 /// @brief Method SetTitle addr 0x257a904 size 0x68 virtual false final false
  void SetTitle(::StringW value) ;
 
 /// @brief Method SetViewerFilter addr 0x257a96c size 0x68 virtual false final false
- void SetViewerFilter(::Oculus::Platform::ChallengeViewerFilter value) ;
+ void SetViewerFilter(Oculus::Platform::ChallengeViewerFilter value) ;
 
 /// @brief Method SetVisibility addr 0x257a9d4 size 0x68 virtual false final false
- void SetVisibility(::Oculus::Platform::ChallengeVisibility value) ;
+ void SetVisibility(Oculus::Platform::ChallengeVisibility value) ;
 
 /// @brief Method op_Explicit addr 0x257aa3c size 0x58 virtual false final false
-static ::cordl_internals::intptr_t op_Explicit___cordl_internals__intptr_t(::Oculus::Platform::ChallengeOptions options) ;
+static ::cordl_internals::intptr_t op_Explicit___cordl_internals__intptr_t(Oculus::Platform::ChallengeOptions options) ;
 
 /// @brief Method Finalize addr 0x257aa94 size 0xd4 virtual true final false
  void Finalize() ;
@@ -114,6 +113,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::ChallengeOptions);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::ChallengeOptions, "Oculus.Platform", "ChallengeOptions");
+NEED_NO_BOX(Oculus::Platform::ChallengeOptions);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::ChallengeOptions, "Oculus.Platform", "ChallengeOptions");

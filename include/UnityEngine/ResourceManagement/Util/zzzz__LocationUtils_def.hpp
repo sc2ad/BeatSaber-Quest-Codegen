@@ -1,13 +1,12 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
-}
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {
@@ -56,15 +55,14 @@ constexpr explicit LocationUtils(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 // Methods
 
 /// @brief Method LocationEquals addr 0x2a39e6c size 0x2f4 virtual false final false
-static bool LocationEquals(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation loc1, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation loc2) ;
+static bool LocationEquals(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation loc1, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation loc2) ;
 
 /// @brief Method DependenciesEqual addr 0x2a3a2a8 size 0x278 virtual false final false
-static bool DependenciesEqual(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> deps1, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> deps2) ;
+static bool DependenciesEqual(System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> deps1, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> deps2) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ResourceManagement::Util
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ResourceManagement::Util::LocationUtils);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::Util::LocationUtils, "UnityEngine.ResourceManagement.Util", "LocationUtils");
+NEED_NO_BOX(UnityEngine::ResourceManagement::Util::LocationUtils);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::LocationUtils, "UnityEngine.ResourceManagement.Util", "LocationUtils");

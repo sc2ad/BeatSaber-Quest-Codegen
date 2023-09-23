@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace IgnoranceCore {
 struct IgnoranceCommandType;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field ClientWantsToStop offset 0
-static ::IgnoranceCore::IgnoranceCommandType const ClientWantsToStop;
+static IgnoranceCore::IgnoranceCommandType const ClientWantsToStop;
 
 /// @brief Field ClientStatusRequest offset 0
-static ::IgnoranceCore::IgnoranceCommandType const ClientStatusRequest;
+static IgnoranceCore::IgnoranceCommandType const ClientStatusRequest;
 
 /// @brief Field ServerKickPeer offset 0
-static ::IgnoranceCore::IgnoranceCommandType const ServerKickPeer;
+static IgnoranceCore::IgnoranceCommandType const ServerKickPeer;
 
 /// @brief Field ServerStatusRequest offset 0
-static ::IgnoranceCore::IgnoranceCommandType const ServerStatusRequest;
+static IgnoranceCore::IgnoranceCommandType const ServerStatusRequest;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def IgnoranceCore
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::IgnoranceCore::IgnoranceCommandType, "IgnoranceCore", "IgnoranceCommandType");
+DEFINE_IL2CPP_ARG_TYPE(IgnoranceCore::IgnoranceCommandType, "IgnoranceCore", "IgnoranceCommandType");

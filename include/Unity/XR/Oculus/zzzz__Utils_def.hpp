@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Vector4;
 }
@@ -56,10 +55,10 @@ constexpr explicit Utils(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr)
 // Methods
 
 /// @brief Method SetColorScaleAndOffset addr 0x2ade738 size 0x40 virtual false final false
-static void SetColorScaleAndOffset(::UnityEngine::Vector4 colorScale, ::UnityEngine::Vector4 colorOffset) ;
+static void SetColorScaleAndOffset(UnityEngine::Vector4 colorScale, UnityEngine::Vector4 colorOffset) ;
 
 /// @brief Method GetSystemHeadsetType addr 0x2ade780 size 0x4 virtual false final false
-static ::Unity::XR::Oculus::SystemHeadset GetSystemHeadsetType() ;
+static Unity::XR::Oculus::SystemHeadset GetSystemHeadsetType() ;
 
 /// @brief Method SetFoveationLevel addr 0x2ade788 size 0x8c virtual false final false
 static bool SetFoveationLevel(int32_t level) ;
@@ -74,6 +73,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Unity::XR::Oculus
-} // end anonymous namespace
-NEED_NO_BOX(::Unity::XR::Oculus::Utils);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::XR::Oculus::Utils, "Unity.XR.Oculus", "Utils");
+NEED_NO_BOX(Unity::XR::Oculus::Utils);
+DEFINE_IL2CPP_ARG_TYPE(Unity::XR::Oculus::Utils, "Unity.XR.Oculus", "Utils");

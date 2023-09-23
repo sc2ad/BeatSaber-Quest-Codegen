@@ -3,7 +3,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -20,8 +19,8 @@ namespace UnityEngine::AI {
 struct CORDL_TYPE NavMeshHit : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "m_Position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Normal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Distance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Mask", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Hit", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr NavMeshHit(::UnityEngine::Vector3 m_Position, ::UnityEngine::Vector3 m_Normal, float_t m_Distance, int32_t m_Mask, int32_t m_Hit) noexcept;
+// Ctor Parameters [CppParam { name: "m_Position", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Normal", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Distance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Mask", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Hit", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr NavMeshHit(UnityEngine::Vector3 m_Position, UnityEngine::Vector3 m_Normal, float_t m_Distance, int32_t m_Mask, int32_t m_Hit) noexcept;
 
 
                     constexpr NavMeshHit(NavMeshHit const&) = default;
@@ -54,17 +53,17 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_m_Position, put=__set_m_Position))  m_Position;
+ UnityEngine::Vector3 __declspec(property(get=__get_m_Position, put=__set_m_Position))  m_Position;
 
-constexpr void __set_m_Position(::UnityEngine::Vector3 value) ;
+constexpr void __set_m_Position(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_m_Position() const;
+constexpr UnityEngine::Vector3 __get_m_Position() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_m_Normal, put=__set_m_Normal))  m_Normal;
+ UnityEngine::Vector3 __declspec(property(get=__get_m_Normal, put=__set_m_Normal))  m_Normal;
 
-constexpr void __set_m_Normal(::UnityEngine::Vector3 value) ;
+constexpr void __set_m_Normal(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_m_Normal() const;
+constexpr UnityEngine::Vector3 __get_m_Normal() const;
 
  float_t __declspec(property(get=__get_m_Distance, put=__set_m_Distance))  m_Distance;
 
@@ -87,17 +86,16 @@ constexpr int32_t __get_m_Hit() const;
 
 // Properties
 
- ::UnityEngine::Vector3 __declspec(property(get=get_position))  position;
+ UnityEngine::Vector3 __declspec(property(get=get_position))  position;
 
 
 // Methods
 
 /// @brief Method get_position addr 0x2b07b20 size 0xc virtual false final false
- ::UnityEngine::Vector3 get_position() ;
+ UnityEngine::Vector3 get_position() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::AI
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AI::NavMeshHit, "UnityEngine.AI", "NavMeshHit");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AI::NavMeshHit, "UnityEngine.AI", "NavMeshHit");

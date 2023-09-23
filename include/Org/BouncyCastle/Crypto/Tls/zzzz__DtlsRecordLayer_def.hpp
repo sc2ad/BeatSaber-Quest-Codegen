@@ -4,39 +4,38 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsPeer;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCloseable;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
 class Timeout;
-}
-namespace System {
-class Exception;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCipher;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class ByteQueue;
+class DtlsEpoch;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class ProtocolVersion;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
+class ByteQueue;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class DtlsEpoch;
+class TlsPeer;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class DatagramTransport;
+}
+namespace System {
+class Exception;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCloseable;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class DtlsHandshakeRetransmit;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class DatagramTransport;
+class TlsContext;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -51,11 +50,11 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE DtlsRecordLayer : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Tls::DatagramTransport
-constexpr operator  ::Org::BouncyCastle::Crypto::Tls::DatagramTransport() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Tls::DatagramTransport
+constexpr operator  Org::BouncyCastle::Crypto::Tls::DatagramTransport() const noexcept;
 
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Tls::TlsCloseable
-constexpr operator  ::Org::BouncyCastle::Crypto::Tls::TlsCloseable() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Tls::TlsCloseable
+constexpr operator  Org::BouncyCastle::Crypto::Tls::TlsCloseable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x88};
@@ -102,29 +101,29 @@ static constexpr int64_t  TCP_MSL{120000};
 /// @brief Field RETRANSMIT_TIMEOUT offset 0
 static constexpr int64_t  RETRANSMIT_TIMEOUT{240000};
 
- ::Org::BouncyCastle::Crypto::Tls::DatagramTransport __declspec(property(get=__get_mTransport, put=__set_mTransport))  mTransport;
+ Org::BouncyCastle::Crypto::Tls::DatagramTransport __declspec(property(get=__get_mTransport, put=__set_mTransport))  mTransport;
 
-constexpr void __set_mTransport(::Org::BouncyCastle::Crypto::Tls::DatagramTransport value) ;
+constexpr void __set_mTransport(Org::BouncyCastle::Crypto::Tls::DatagramTransport value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::DatagramTransport __get_mTransport() const;
+constexpr Org::BouncyCastle::Crypto::Tls::DatagramTransport __get_mTransport() const;
 
- ::Org::BouncyCastle::Crypto::Tls::TlsContext __declspec(property(get=__get_mContext, put=__set_mContext))  mContext;
+ Org::BouncyCastle::Crypto::Tls::TlsContext __declspec(property(get=__get_mContext, put=__set_mContext))  mContext;
 
-constexpr void __set_mContext(::Org::BouncyCastle::Crypto::Tls::TlsContext value) ;
+constexpr void __set_mContext(Org::BouncyCastle::Crypto::Tls::TlsContext value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext __get_mContext() const;
+constexpr Org::BouncyCastle::Crypto::Tls::TlsContext __get_mContext() const;
 
- ::Org::BouncyCastle::Crypto::Tls::TlsPeer __declspec(property(get=__get_mPeer, put=__set_mPeer))  mPeer;
+ Org::BouncyCastle::Crypto::Tls::TlsPeer __declspec(property(get=__get_mPeer, put=__set_mPeer))  mPeer;
 
-constexpr void __set_mPeer(::Org::BouncyCastle::Crypto::Tls::TlsPeer value) ;
+constexpr void __set_mPeer(Org::BouncyCastle::Crypto::Tls::TlsPeer value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::TlsPeer __get_mPeer() const;
+constexpr Org::BouncyCastle::Crypto::Tls::TlsPeer __get_mPeer() const;
 
- ::Org::BouncyCastle::Crypto::Tls::ByteQueue __declspec(property(get=__get_mRecordQueue, put=__set_mRecordQueue))  mRecordQueue;
+ Org::BouncyCastle::Crypto::Tls::ByteQueue __declspec(property(get=__get_mRecordQueue, put=__set_mRecordQueue))  mRecordQueue;
 
-constexpr void __set_mRecordQueue(::Org::BouncyCastle::Crypto::Tls::ByteQueue value) ;
+constexpr void __set_mRecordQueue(Org::BouncyCastle::Crypto::Tls::ByteQueue value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::ByteQueue __get_mRecordQueue() const;
+constexpr Org::BouncyCastle::Crypto::Tls::ByteQueue __get_mRecordQueue() const;
 
  bool __declspec(property(get=__get_mClosed, put=__set_mClosed))  mClosed;
 
@@ -138,17 +137,17 @@ constexpr void __set_mFailed(bool value) ;
 
 constexpr bool __get_mFailed() const;
 
- ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion __declspec(property(get=__get_mReadVersion, put=__set_mReadVersion))  mReadVersion;
+ Org::BouncyCastle::Crypto::Tls::ProtocolVersion __declspec(property(get=__get_mReadVersion, put=__set_mReadVersion))  mReadVersion;
 
-constexpr void __set_mReadVersion(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion value) ;
+constexpr void __set_mReadVersion(Org::BouncyCastle::Crypto::Tls::ProtocolVersion value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion __get_mReadVersion() const;
+constexpr Org::BouncyCastle::Crypto::Tls::ProtocolVersion __get_mReadVersion() const;
 
- ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion __declspec(property(get=__get_mWriteVersion, put=__set_mWriteVersion))  mWriteVersion;
+ Org::BouncyCastle::Crypto::Tls::ProtocolVersion __declspec(property(get=__get_mWriteVersion, put=__set_mWriteVersion))  mWriteVersion;
 
-constexpr void __set_mWriteVersion(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion value) ;
+constexpr void __set_mWriteVersion(Org::BouncyCastle::Crypto::Tls::ProtocolVersion value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion __get_mWriteVersion() const;
+constexpr Org::BouncyCastle::Crypto::Tls::ProtocolVersion __get_mWriteVersion() const;
 
  bool __declspec(property(get=__get_mInHandshake, put=__set_mInHandshake))  mInHandshake;
 
@@ -162,47 +161,47 @@ constexpr void __set_mPlaintextLimit(int32_t value) ;
 
 constexpr int32_t __get_mPlaintextLimit() const;
 
- ::Org::BouncyCastle::Crypto::Tls::DtlsEpoch __declspec(property(get=__get_mCurrentEpoch, put=__set_mCurrentEpoch))  mCurrentEpoch;
+ Org::BouncyCastle::Crypto::Tls::DtlsEpoch __declspec(property(get=__get_mCurrentEpoch, put=__set_mCurrentEpoch))  mCurrentEpoch;
 
-constexpr void __set_mCurrentEpoch(::Org::BouncyCastle::Crypto::Tls::DtlsEpoch value) ;
+constexpr void __set_mCurrentEpoch(Org::BouncyCastle::Crypto::Tls::DtlsEpoch value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::DtlsEpoch __get_mCurrentEpoch() const;
+constexpr Org::BouncyCastle::Crypto::Tls::DtlsEpoch __get_mCurrentEpoch() const;
 
- ::Org::BouncyCastle::Crypto::Tls::DtlsEpoch __declspec(property(get=__get_mPendingEpoch, put=__set_mPendingEpoch))  mPendingEpoch;
+ Org::BouncyCastle::Crypto::Tls::DtlsEpoch __declspec(property(get=__get_mPendingEpoch, put=__set_mPendingEpoch))  mPendingEpoch;
 
-constexpr void __set_mPendingEpoch(::Org::BouncyCastle::Crypto::Tls::DtlsEpoch value) ;
+constexpr void __set_mPendingEpoch(Org::BouncyCastle::Crypto::Tls::DtlsEpoch value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::DtlsEpoch __get_mPendingEpoch() const;
+constexpr Org::BouncyCastle::Crypto::Tls::DtlsEpoch __get_mPendingEpoch() const;
 
- ::Org::BouncyCastle::Crypto::Tls::DtlsEpoch __declspec(property(get=__get_mReadEpoch, put=__set_mReadEpoch))  mReadEpoch;
+ Org::BouncyCastle::Crypto::Tls::DtlsEpoch __declspec(property(get=__get_mReadEpoch, put=__set_mReadEpoch))  mReadEpoch;
 
-constexpr void __set_mReadEpoch(::Org::BouncyCastle::Crypto::Tls::DtlsEpoch value) ;
+constexpr void __set_mReadEpoch(Org::BouncyCastle::Crypto::Tls::DtlsEpoch value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::DtlsEpoch __get_mReadEpoch() const;
+constexpr Org::BouncyCastle::Crypto::Tls::DtlsEpoch __get_mReadEpoch() const;
 
- ::Org::BouncyCastle::Crypto::Tls::DtlsEpoch __declspec(property(get=__get_mWriteEpoch, put=__set_mWriteEpoch))  mWriteEpoch;
+ Org::BouncyCastle::Crypto::Tls::DtlsEpoch __declspec(property(get=__get_mWriteEpoch, put=__set_mWriteEpoch))  mWriteEpoch;
 
-constexpr void __set_mWriteEpoch(::Org::BouncyCastle::Crypto::Tls::DtlsEpoch value) ;
+constexpr void __set_mWriteEpoch(Org::BouncyCastle::Crypto::Tls::DtlsEpoch value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::DtlsEpoch __get_mWriteEpoch() const;
+constexpr Org::BouncyCastle::Crypto::Tls::DtlsEpoch __get_mWriteEpoch() const;
 
- ::Org::BouncyCastle::Crypto::Tls::DtlsHandshakeRetransmit __declspec(property(get=__get_mRetransmit, put=__set_mRetransmit))  mRetransmit;
+ Org::BouncyCastle::Crypto::Tls::DtlsHandshakeRetransmit __declspec(property(get=__get_mRetransmit, put=__set_mRetransmit))  mRetransmit;
 
-constexpr void __set_mRetransmit(::Org::BouncyCastle::Crypto::Tls::DtlsHandshakeRetransmit value) ;
+constexpr void __set_mRetransmit(Org::BouncyCastle::Crypto::Tls::DtlsHandshakeRetransmit value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::DtlsHandshakeRetransmit __get_mRetransmit() const;
+constexpr Org::BouncyCastle::Crypto::Tls::DtlsHandshakeRetransmit __get_mRetransmit() const;
 
- ::Org::BouncyCastle::Crypto::Tls::DtlsEpoch __declspec(property(get=__get_mRetransmitEpoch, put=__set_mRetransmitEpoch))  mRetransmitEpoch;
+ Org::BouncyCastle::Crypto::Tls::DtlsEpoch __declspec(property(get=__get_mRetransmitEpoch, put=__set_mRetransmitEpoch))  mRetransmitEpoch;
 
-constexpr void __set_mRetransmitEpoch(::Org::BouncyCastle::Crypto::Tls::DtlsEpoch value) ;
+constexpr void __set_mRetransmitEpoch(Org::BouncyCastle::Crypto::Tls::DtlsEpoch value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::DtlsEpoch __get_mRetransmitEpoch() const;
+constexpr Org::BouncyCastle::Crypto::Tls::DtlsEpoch __get_mRetransmitEpoch() const;
 
- ::Org::BouncyCastle::Crypto::Tls::Timeout __declspec(property(get=__get_mRetransmitTimeout, put=__set_mRetransmitTimeout))  mRetransmitTimeout;
+ Org::BouncyCastle::Crypto::Tls::Timeout __declspec(property(get=__get_mRetransmitTimeout, put=__set_mRetransmitTimeout))  mRetransmitTimeout;
 
-constexpr void __set_mRetransmitTimeout(::Org::BouncyCastle::Crypto::Tls::Timeout value) ;
+constexpr void __set_mRetransmitTimeout(Org::BouncyCastle::Crypto::Tls::Timeout value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::Timeout __get_mRetransmitTimeout() const;
+constexpr Org::BouncyCastle::Crypto::Tls::Timeout __get_mRetransmitTimeout() const;
 
 
 // Properties
@@ -211,19 +210,19 @@ constexpr ::Org::BouncyCastle::Crypto::Tls::Timeout __get_mRetransmitTimeout() c
 
  int32_t __declspec(property(get=get_ReadEpoch))  ReadEpoch;
 
- ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion __declspec(property(get=get_ReadVersion, put=set_ReadVersion))  ReadVersion;
+ Org::BouncyCastle::Crypto::Tls::ProtocolVersion __declspec(property(get=get_ReadVersion, put=set_ReadVersion))  ReadVersion;
 
 
 // Methods
 
 /// @brief Method SendDatagram addr 0xedee60 size 0xc0 virtual false final false
-static void SendDatagram(::Org::BouncyCastle::Crypto::Tls::DatagramTransport sender, ::ArrayW<uint8_t> buf, int32_t off, int32_t len) ;
+static void SendDatagram(Org::BouncyCastle::Crypto::Tls::DatagramTransport sender, ::ArrayW<uint8_t> buf, int32_t off, int32_t len) ;
 
-// Ctor Parameters [CppParam { name: "transport", ty: "::Org::BouncyCastle::Crypto::Tls::DatagramTransport", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::Org::BouncyCastle::Crypto::Tls::TlsContext", modifiers: "", def_value: None }, CppParam { name: "peer", ty: "::Org::BouncyCastle::Crypto::Tls::TlsPeer", modifiers: "", def_value: None }, CppParam { name: "contentType", ty: "uint8_t", modifiers: "", def_value: None }]
-explicit DtlsRecordLayer(::Org::BouncyCastle::Crypto::Tls::DatagramTransport transport, ::Org::BouncyCastle::Crypto::Tls::TlsContext context, ::Org::BouncyCastle::Crypto::Tls::TlsPeer peer, uint8_t contentType) ;
+// Ctor Parameters [CppParam { name: "transport", ty: "Org::BouncyCastle::Crypto::Tls::DatagramTransport", modifiers: "", def_value: None }, CppParam { name: "context", ty: "Org::BouncyCastle::Crypto::Tls::TlsContext", modifiers: "", def_value: None }, CppParam { name: "peer", ty: "Org::BouncyCastle::Crypto::Tls::TlsPeer", modifiers: "", def_value: None }, CppParam { name: "contentType", ty: "uint8_t", modifiers: "", def_value: None }]
+explicit DtlsRecordLayer(Org::BouncyCastle::Crypto::Tls::DatagramTransport transport, Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Tls::TlsPeer peer, uint8_t contentType) ;
 
 /// @brief Method .ctor addr 0xeda454 size 0x13c virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::Tls::DatagramTransport transport, ::Org::BouncyCastle::Crypto::Tls::TlsContext context, ::Org::BouncyCastle::Crypto::Tls::TlsPeer peer, uint8_t contentType) ;
+ void _ctor(Org::BouncyCastle::Crypto::Tls::DatagramTransport transport, Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Tls::TlsPeer peer, uint8_t contentType) ;
 
 /// @brief Method get_IsClosed addr 0xedef20 size 0x18 virtual false final false
  bool get_IsClosed() ;
@@ -235,19 +234,19 @@ explicit DtlsRecordLayer(::Org::BouncyCastle::Crypto::Tls::DatagramTransport tra
  int32_t get_ReadEpoch() ;
 
 /// @brief Method get_ReadVersion addr 0xedef78 size 0x18 virtual true final false
- ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion get_ReadVersion() ;
+ Org::BouncyCastle::Crypto::Tls::ProtocolVersion get_ReadVersion() ;
 
 /// @brief Method set_ReadVersion addr 0xedef90 size 0x24 virtual true final false
- void set_ReadVersion(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion value) ;
+ void set_ReadVersion(Org::BouncyCastle::Crypto::Tls::ProtocolVersion value) ;
 
 /// @brief Method SetWriteVersion addr 0xedefb4 size 0x24 virtual true final false
- void SetWriteVersion(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion writeVersion) ;
+ void SetWriteVersion(Org::BouncyCastle::Crypto::Tls::ProtocolVersion writeVersion) ;
 
 /// @brief Method InitPendingEpoch addr 0xedefd8 size 0xc0 virtual true final false
- void InitPendingEpoch(::Org::BouncyCastle::Crypto::Tls::TlsCipher pendingCipher) ;
+ void InitPendingEpoch(Org::BouncyCastle::Crypto::Tls::TlsCipher pendingCipher) ;
 
 /// @brief Method HandshakeSuccessful addr 0xedf098 size 0xdc virtual true final false
- void HandshakeSuccessful(::Org::BouncyCastle::Crypto::Tls::DtlsHandshakeRetransmit retransmit) ;
+ void HandshakeSuccessful(Org::BouncyCastle::Crypto::Tls::DtlsHandshakeRetransmit retransmit) ;
 
 /// @brief Method ResetWriteEpoch addr 0xedf174 size 0x14 virtual true final false
  void ResetWriteEpoch() ;
@@ -280,7 +279,7 @@ explicit DtlsRecordLayer(::Org::BouncyCastle::Crypto::Tls::DatagramTransport tra
  void CloseTransport() ;
 
 /// @brief Method RaiseAlert addr 0xee0444 size 0x12c virtual false final false
- void RaiseAlert(uint8_t alertLevel, uint8_t alertDescription, ::StringW message, ::System::Exception cause) ;
+ void RaiseAlert(uint8_t alertLevel, uint8_t alertDescription, ::StringW message, System::Exception cause) ;
 
 /// @brief Method ReceiveDatagram addr 0xee0584 size 0x194 virtual false final false
  int32_t ReceiveDatagram(::ArrayW<uint8_t> buf, int32_t off, int32_t len, int32_t waitMillis) ;
@@ -301,6 +300,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer, "Org.BouncyCastle.Crypto.Tls", "DtlsRecordLayer");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer, "Org.BouncyCastle.Crypto.Tls", "DtlsRecordLayer");

@@ -1,6 +1,5 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsContext;
 }
@@ -17,8 +16,8 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE TlsClientContext : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Tls::TlsContext
-constexpr operator  ::Org::BouncyCastle::Crypto::Tls::TlsContext() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Tls::TlsContext
+constexpr operator  Org::BouncyCastle::Crypto::Tls::TlsContext() const noexcept;
 
 ~TlsClientContext() = default;
 
@@ -30,6 +29,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsClientContext);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::TlsClientContext, "Org.BouncyCastle.Crypto.Tls", "TlsClientContext");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::TlsClientContext);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::TlsClientContext, "Org.BouncyCastle.Crypto.Tls", "TlsClientContext");

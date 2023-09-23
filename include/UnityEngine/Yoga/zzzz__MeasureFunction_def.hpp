@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace UnityEngine::Yoga {
+struct YogaSize;
+}
 namespace UnityEngine::Yoga {
 class YogaNode;
 }
 namespace UnityEngine::Yoga {
 struct YogaMeasureMode;
-}
-namespace UnityEngine::Yoga {
-struct YogaSize;
 }
 // Forward declare root types
 namespace UnityEngine::Yoga {
@@ -24,7 +23,7 @@ namespace UnityEngine::Yoga {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15389))
 // CS Name: UnityEngine.Yoga.MeasureFunction
-class CORDL_TYPE MeasureFunction : public ::System::MulticastDelegate {
+class CORDL_TYPE MeasureFunction : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr MeasureFunction(MeasureFunction const& ) noexcept = default;
 constexpr MeasureFunction(MeasureFunction&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MeasureFunction(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit MeasureFunction(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -67,12 +66,11 @@ explicit MeasureFunction(::bs_hook::Il2CppWrapperType object, ::cordl_internals:
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x2d2e24c size 0x14 virtual true final false
- ::UnityEngine::Yoga::YogaSize Invoke(::UnityEngine::Yoga::YogaNode node, float_t width, ::UnityEngine::Yoga::YogaMeasureMode widthMode, float_t height, ::UnityEngine::Yoga::YogaMeasureMode heightMode) ;
+ UnityEngine::Yoga::YogaSize Invoke(UnityEngine::Yoga::YogaNode node, float_t width, UnityEngine::Yoga::YogaMeasureMode widthMode, float_t height, UnityEngine::Yoga::YogaMeasureMode heightMode) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Yoga
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Yoga::MeasureFunction);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Yoga::MeasureFunction, "UnityEngine.Yoga", "MeasureFunction");
+NEED_NO_BOX(UnityEngine::Yoga::MeasureFunction);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Yoga::MeasureFunction, "UnityEngine.Yoga", "MeasureFunction");

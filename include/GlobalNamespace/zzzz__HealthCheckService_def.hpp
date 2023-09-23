@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 class IHealthCheckService;
 }
@@ -34,14 +33,14 @@ namespace GlobalNamespace {
 class CORDL_TYPE HealthCheckService : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IHealthCheckService
-constexpr operator  ::GlobalNamespace::IHealthCheckService() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IHealthCheckService
+constexpr operator  GlobalNamespace::IHealthCheckService() const noexcept;
 
-/// @brief Convert operator to ::GlobalNamespace::IPollable
-constexpr operator  ::GlobalNamespace::IPollable() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IPollable
+constexpr operator  GlobalNamespace::IPollable() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -85,11 +84,11 @@ constexpr void __set__port(int32_t value) ;
 
 constexpr int32_t __get__port() const;
 
- ::System::Threading::Thread __declspec(property(get=__get__runThread, put=__set__runThread))  _runThread;
+ System::Threading::Thread __declspec(property(get=__get__runThread, put=__set__runThread))  _runThread;
 
-constexpr void __set__runThread(::System::Threading::Thread value) ;
+constexpr void __set__runThread(System::Threading::Thread value) ;
 
-constexpr ::System::Threading::Thread __get__runThread() const;
+constexpr System::Threading::Thread __get__runThread() const;
 
  bool __declspec(property(get=__get__disposed, put=__set__disposed))  _disposed;
 
@@ -97,17 +96,17 @@ constexpr void __set__disposed(bool value) ;
 
 constexpr bool __get__disposed() const;
 
- ::System::Threading::ManualResetEvent __declspec(property(get=__get__manualResetEvent, put=__set__manualResetEvent))  _manualResetEvent;
+ System::Threading::ManualResetEvent __declspec(property(get=__get__manualResetEvent, put=__set__manualResetEvent))  _manualResetEvent;
 
-constexpr void __set__manualResetEvent(::System::Threading::ManualResetEvent value) ;
+constexpr void __set__manualResetEvent(System::Threading::ManualResetEvent value) ;
 
-constexpr ::System::Threading::ManualResetEvent __get__manualResetEvent() const;
+constexpr System::Threading::ManualResetEvent __get__manualResetEvent() const;
 
- ::System::Net::HttpListener __declspec(property(get=__get__listener, put=__set__listener))  _listener;
+ System::Net::HttpListener __declspec(property(get=__get__listener, put=__set__listener))  _listener;
 
-constexpr void __set__listener(::System::Net::HttpListener value) ;
+constexpr void __set__listener(System::Net::HttpListener value) ;
 
-constexpr ::System::Net::HttpListener __get__listener() const;
+constexpr System::Net::HttpListener __get__listener() const;
 
 
 // Methods
@@ -131,6 +130,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::HealthCheckService);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::HealthCheckService, "", "HealthCheckService");
+NEED_NO_BOX(GlobalNamespace::HealthCheckService);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthCheckService, "", "HealthCheckService");

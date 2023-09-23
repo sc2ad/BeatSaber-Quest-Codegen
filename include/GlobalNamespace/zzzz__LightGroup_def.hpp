@@ -2,16 +2,15 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-class LightGroupSO;
+namespace System {
+template<typename T>
+class Action_1;
 }
 namespace UnityEngine {
 class GameObject;
 }
-namespace System {
-template<typename T>
-class Action_1;
+namespace GlobalNamespace {
+class LightGroupSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,7 +22,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14669))
 // CS Name: LightGroup
-class CORDL_TYPE LightGroup : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE LightGroup : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr LightGroup(LightGroup const& ) noexcept = default;
 constexpr LightGroup(LightGroup&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LightGroup(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit LightGroup(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -59,28 +58,28 @@ constexpr explicit LightGroup(void* ptr) noexcept : ::UnityEngine::MonoBehaviour
 
 // Fields
 
- ::GlobalNamespace::LightGroupSO __declspec(property(get=__get__lightGroupSO, put=__set__lightGroupSO))  _lightGroupSO;
+ GlobalNamespace::LightGroupSO __declspec(property(get=__get__lightGroupSO, put=__set__lightGroupSO))  _lightGroupSO;
 
-constexpr void __set__lightGroupSO(::GlobalNamespace::LightGroupSO value) ;
+constexpr void __set__lightGroupSO(GlobalNamespace::LightGroupSO value) ;
 
-constexpr ::GlobalNamespace::LightGroupSO __get__lightGroupSO() const;
+constexpr GlobalNamespace::LightGroupSO __get__lightGroupSO() const;
 
- ::System::Action_1<::UnityEngine::GameObject> __declspec(property(get=__get_respawnEvent, put=__set_respawnEvent))  respawnEvent;
+ System::Action_1<UnityEngine::GameObject> __declspec(property(get=__get_respawnEvent, put=__set_respawnEvent))  respawnEvent;
 
-constexpr void __set_respawnEvent(::System::Action_1<::UnityEngine::GameObject> value) ;
+constexpr void __set_respawnEvent(System::Action_1<UnityEngine::GameObject> value) ;
 
-constexpr ::System::Action_1<::UnityEngine::GameObject> __get_respawnEvent() const;
+constexpr System::Action_1<UnityEngine::GameObject> __get_respawnEvent() const;
 
- ::System::Action_1<::UnityEngine::GameObject> __declspec(property(get=__get_didRefreshContentEvent, put=__set_didRefreshContentEvent))  didRefreshContentEvent;
+ System::Action_1<UnityEngine::GameObject> __declspec(property(get=__get_didRefreshContentEvent, put=__set_didRefreshContentEvent))  didRefreshContentEvent;
 
-constexpr void __set_didRefreshContentEvent(::System::Action_1<::UnityEngine::GameObject> value) ;
+constexpr void __set_didRefreshContentEvent(System::Action_1<UnityEngine::GameObject> value) ;
 
-constexpr ::System::Action_1<::UnityEngine::GameObject> __get_didRefreshContentEvent() const;
+constexpr System::Action_1<UnityEngine::GameObject> __get_didRefreshContentEvent() const;
 
 
 // Properties
 
- ::GlobalNamespace::LightGroupSO __declspec(property(get=get_lightGroupSO))  lightGroupSO;
+ GlobalNamespace::LightGroupSO __declspec(property(get=get_lightGroupSO))  lightGroupSO;
 
  int32_t __declspec(property(get=get_numberOfElements))  numberOfElements;
 
@@ -96,7 +95,7 @@ constexpr ::System::Action_1<::UnityEngine::GameObject> __get_didRefreshContentE
 // Methods
 
 /// @brief Method get_lightGroupSO addr 0x1f9ba2c size 0x8 virtual false final false
- ::GlobalNamespace::LightGroupSO get_lightGroupSO() ;
+ GlobalNamespace::LightGroupSO get_lightGroupSO() ;
 
 /// @brief Method get_numberOfElements addr 0x1f9ba34 size 0x7c virtual false final false
  int32_t get_numberOfElements() ;
@@ -114,16 +113,16 @@ constexpr ::System::Action_1<::UnityEngine::GameObject> __get_didRefreshContentE
  bool get_ignoreLightGroupEffectManager() ;
 
 /// @brief Method add_respawnEvent addr 0x1f9bca8 size 0xb0 virtual false final false
- void add_respawnEvent(::System::Action_1<::UnityEngine::GameObject> value) ;
+ void add_respawnEvent(System::Action_1<UnityEngine::GameObject> value) ;
 
 /// @brief Method remove_respawnEvent addr 0x1f9bd58 size 0xb0 virtual false final false
- void remove_respawnEvent(::System::Action_1<::UnityEngine::GameObject> value) ;
+ void remove_respawnEvent(System::Action_1<UnityEngine::GameObject> value) ;
 
 /// @brief Method add_didRefreshContentEvent addr 0x1f9be08 size 0xb0 virtual false final false
- void add_didRefreshContentEvent(::System::Action_1<::UnityEngine::GameObject> value) ;
+ void add_didRefreshContentEvent(System::Action_1<UnityEngine::GameObject> value) ;
 
 /// @brief Method remove_didRefreshContentEvent addr 0x1f9beb8 size 0xb0 virtual false final false
- void remove_didRefreshContentEvent(::System::Action_1<::UnityEngine::GameObject> value) ;
+ void remove_didRefreshContentEvent(System::Action_1<UnityEngine::GameObject> value) ;
 
 // Ctor Parameters []
 explicit LightGroup() ;
@@ -135,6 +134,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LightGroup);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightGroup, "", "LightGroup");
+NEED_NO_BOX(GlobalNamespace::LightGroup);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightGroup, "", "LightGroup");

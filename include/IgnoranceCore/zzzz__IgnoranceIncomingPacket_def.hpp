@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace ENet {
 struct Packet;
 }
@@ -19,8 +18,8 @@ namespace IgnoranceCore {
 struct CORDL_TYPE IgnoranceIncomingPacket : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "Channel", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "NativePeerId", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "Payload", ty: "::ENet::Packet", modifiers: "", def_value: None }]
-constexpr IgnoranceIncomingPacket(uint8_t Channel, uint32_t NativePeerId, ::ENet::Packet Payload) noexcept;
+// Ctor Parameters [CppParam { name: "Channel", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "NativePeerId", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "Payload", ty: "ENet::Packet", modifiers: "", def_value: None }]
+constexpr IgnoranceIncomingPacket(uint8_t Channel, uint32_t NativePeerId, ENet::Packet Payload) noexcept;
 
 
                     constexpr IgnoranceIncomingPacket(IgnoranceIncomingPacket const&) = default;
@@ -65,15 +64,14 @@ constexpr void __set_NativePeerId(uint32_t value) ;
 
 constexpr uint32_t __get_NativePeerId() const;
 
- ::ENet::Packet __declspec(property(get=__get_Payload, put=__set_Payload))  Payload;
+ ENet::Packet __declspec(property(get=__get_Payload, put=__set_Payload))  Payload;
 
-constexpr void __set_Payload(::ENet::Packet value) ;
+constexpr void __set_Payload(ENet::Packet value) ;
 
-constexpr ::ENet::Packet __get_Payload() const;
+constexpr ENet::Packet __get_Payload() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def IgnoranceCore
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::IgnoranceCore::IgnoranceIncomingPacket, "IgnoranceCore", "IgnoranceIncomingPacket");
+DEFINE_IL2CPP_ARG_TYPE(IgnoranceCore::IgnoranceIncomingPacket, "IgnoranceCore", "IgnoranceIncomingPacket");

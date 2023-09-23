@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace UnityEngine {
 class Object;
 }
@@ -71,17 +70,17 @@ constexpr void __set__userData_k__BackingField(::bs_hook::Il2CppWrapperType valu
 
 constexpr ::bs_hook::Il2CppWrapperType __get__userData_k__BackingField() const;
 
- ::System::Collections::Hashtable __declspec(property(get=__get_m_GenericData, put=__set_m_GenericData))  m_GenericData;
+ System::Collections::Hashtable __declspec(property(get=__get_m_GenericData, put=__set_m_GenericData))  m_GenericData;
 
-constexpr void __set_m_GenericData(::System::Collections::Hashtable value) ;
+constexpr void __set_m_GenericData(System::Collections::Hashtable value) ;
 
-constexpr ::System::Collections::Hashtable __get_m_GenericData() const;
+constexpr System::Collections::Hashtable __get_m_GenericData() const;
 
- ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Object> __declspec(property(get=__get__unityObjectReferences_k__BackingField, put=__set__unityObjectReferences_k__BackingField))  _unityObjectReferences_k__BackingField;
+ System::Collections::Generic::IEnumerable_1<UnityEngine::Object> __declspec(property(get=__get__unityObjectReferences_k__BackingField, put=__set__unityObjectReferences_k__BackingField))  _unityObjectReferences_k__BackingField;
 
-constexpr void __set__unityObjectReferences_k__BackingField(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Object> value) ;
+constexpr void __set__unityObjectReferences_k__BackingField(System::Collections::Generic::IEnumerable_1<UnityEngine::Object> value) ;
 
-constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Object> __get__unityObjectReferences_k__BackingField() const;
+constexpr System::Collections::Generic::IEnumerable_1<UnityEngine::Object> __get__unityObjectReferences_k__BackingField() const;
 
 
 // Properties
@@ -104,6 +103,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::StartDragArgs);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StartDragArgs, "UnityEngine.UIElements", "StartDragArgs");
+NEED_NO_BOX(UnityEngine::UIElements::StartDragArgs);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::StartDragArgs, "UnityEngine.UIElements", "StartDragArgs");

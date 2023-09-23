@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security::AccessControl {
 struct FileSystemRights;
@@ -88,77 +87,76 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field ListDirectory offset 0
-static ::System::Security::AccessControl::FileSystemRights const ListDirectory;
+static System::Security::AccessControl::FileSystemRights const ListDirectory;
 
 /// @brief Field ReadData offset 0
-static ::System::Security::AccessControl::FileSystemRights const ReadData;
+static System::Security::AccessControl::FileSystemRights const ReadData;
 
 /// @brief Field CreateFiles offset 0
-static ::System::Security::AccessControl::FileSystemRights const CreateFiles;
+static System::Security::AccessControl::FileSystemRights const CreateFiles;
 
 /// @brief Field WriteData offset 0
-static ::System::Security::AccessControl::FileSystemRights const WriteData;
+static System::Security::AccessControl::FileSystemRights const WriteData;
 
 /// @brief Field AppendData offset 0
-static ::System::Security::AccessControl::FileSystemRights const AppendData;
+static System::Security::AccessControl::FileSystemRights const AppendData;
 
 /// @brief Field CreateDirectories offset 0
-static ::System::Security::AccessControl::FileSystemRights const CreateDirectories;
+static System::Security::AccessControl::FileSystemRights const CreateDirectories;
 
 /// @brief Field ReadExtendedAttributes offset 0
-static ::System::Security::AccessControl::FileSystemRights const ReadExtendedAttributes;
+static System::Security::AccessControl::FileSystemRights const ReadExtendedAttributes;
 
 /// @brief Field WriteExtendedAttributes offset 0
-static ::System::Security::AccessControl::FileSystemRights const WriteExtendedAttributes;
+static System::Security::AccessControl::FileSystemRights const WriteExtendedAttributes;
 
 /// @brief Field ExecuteFile offset 0
-static ::System::Security::AccessControl::FileSystemRights const ExecuteFile;
+static System::Security::AccessControl::FileSystemRights const ExecuteFile;
 
 /// @brief Field Traverse offset 0
-static ::System::Security::AccessControl::FileSystemRights const Traverse;
+static System::Security::AccessControl::FileSystemRights const Traverse;
 
 /// @brief Field DeleteSubdirectoriesAndFiles offset 0
-static ::System::Security::AccessControl::FileSystemRights const DeleteSubdirectoriesAndFiles;
+static System::Security::AccessControl::FileSystemRights const DeleteSubdirectoriesAndFiles;
 
 /// @brief Field ReadAttributes offset 0
-static ::System::Security::AccessControl::FileSystemRights const ReadAttributes;
+static System::Security::AccessControl::FileSystemRights const ReadAttributes;
 
 /// @brief Field WriteAttributes offset 0
-static ::System::Security::AccessControl::FileSystemRights const WriteAttributes;
+static System::Security::AccessControl::FileSystemRights const WriteAttributes;
 
 /// @brief Field Write offset 0
-static ::System::Security::AccessControl::FileSystemRights const Write;
+static System::Security::AccessControl::FileSystemRights const Write;
 
 /// @brief Field Delete offset 0
-static ::System::Security::AccessControl::FileSystemRights const Delete;
+static System::Security::AccessControl::FileSystemRights const Delete;
 
 /// @brief Field ReadPermissions offset 0
-static ::System::Security::AccessControl::FileSystemRights const ReadPermissions;
+static System::Security::AccessControl::FileSystemRights const ReadPermissions;
 
 /// @brief Field Read offset 0
-static ::System::Security::AccessControl::FileSystemRights const Read;
+static System::Security::AccessControl::FileSystemRights const Read;
 
 /// @brief Field ReadAndExecute offset 0
-static ::System::Security::AccessControl::FileSystemRights const ReadAndExecute;
+static System::Security::AccessControl::FileSystemRights const ReadAndExecute;
 
 /// @brief Field Modify offset 0
-static ::System::Security::AccessControl::FileSystemRights const Modify;
+static System::Security::AccessControl::FileSystemRights const Modify;
 
 /// @brief Field ChangePermissions offset 0
-static ::System::Security::AccessControl::FileSystemRights const ChangePermissions;
+static System::Security::AccessControl::FileSystemRights const ChangePermissions;
 
 /// @brief Field TakeOwnership offset 0
-static ::System::Security::AccessControl::FileSystemRights const TakeOwnership;
+static System::Security::AccessControl::FileSystemRights const TakeOwnership;
 
 /// @brief Field Synchronize offset 0
-static ::System::Security::AccessControl::FileSystemRights const Synchronize;
+static System::Security::AccessControl::FileSystemRights const Synchronize;
 
 /// @brief Field FullControl offset 0
-static ::System::Security::AccessControl::FileSystemRights const FullControl;
+static System::Security::AccessControl::FileSystemRights const FullControl;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Security::AccessControl
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::AccessControl::FileSystemRights, "System.Security.AccessControl", "FileSystemRights");
+DEFINE_IL2CPP_ARG_TYPE(System::Security::AccessControl::FileSystemRights, "System.Security.AccessControl", "FileSystemRights");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 class CustomRenderTexture;
@@ -12,7 +11,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10020))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10021))
 // CS Name: UnityEngine.CustomRenderTexture
-class CORDL_TYPE CustomRenderTexture : public ::UnityEngine::RenderTexture {
+class CORDL_TYPE CustomRenderTexture : public UnityEngine::RenderTexture {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr CustomRenderTexture(CustomRenderTexture const& ) noexcept = default;
 constexpr CustomRenderTexture(CustomRenderTexture&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CustomRenderTexture(void* ptr) noexcept : ::UnityEngine::RenderTexture(ptr) {
+constexpr explicit CustomRenderTexture(void* ptr) noexcept : UnityEngine::RenderTexture(ptr) {
 }
 
 
@@ -49,6 +48,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::CustomRenderTexture);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::CustomRenderTexture, "UnityEngine", "CustomRenderTexture");
+NEED_NO_BOX(UnityEngine::CustomRenderTexture);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CustomRenderTexture, "UnityEngine", "CustomRenderTexture");

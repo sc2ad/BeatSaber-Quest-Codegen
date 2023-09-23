@@ -3,46 +3,45 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
-struct LayerMask;
+struct Color;
 }
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
-namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRManager__MrcActivationMode;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRManager__MrcCameraType;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRManager__VirtualGreenScreenType;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRManager__CompositionMethod;
-}
 namespace UnityEngine {
 class GameObject;
 }
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRManager__CompositionMethod;
+}
 namespace UnityEngine {
-struct Color;
+struct LayerMask;
+}
+namespace GlobalNamespace {
+class IVRPlatformHelper;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRManager__CameraDevice;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRManager__DepthQuality;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRManager__VirtualGreenScreenType;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRManager__MrcActivationMode;
 }
 namespace GlobalNamespace {
 class OVRMixedRealityCaptureConfiguration;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRManager__CameraDevice;
+class GlobalNamespace__OVRManager__InstantiateMrcCameraDelegate;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__OVRManager__InstantiateMrcCameraDelegate;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRManager__DepthQuality;
-}
-namespace GlobalNamespace {
-class IVRPlatformHelper;
+struct GlobalNamespace__OVRManager__MrcCameraType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -54,11 +53,11 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13920))
 // CS Name: OculusMRCManager
-class CORDL_TYPE OculusMRCManager : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OculusMRCManager : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::OVRMixedRealityCaptureConfiguration
-constexpr operator  ::GlobalNamespace::OVRMixedRealityCaptureConfiguration() const noexcept;
+/// @brief Convert operator to GlobalNamespace::OVRMixedRealityCaptureConfiguration
+constexpr operator  GlobalNamespace::OVRMixedRealityCaptureConfiguration() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xc8};
@@ -72,7 +71,7 @@ constexpr OculusMRCManager(OculusMRCManager const& ) noexcept = default;
 constexpr OculusMRCManager(OculusMRCManager&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OculusMRCManager(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OculusMRCManager(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -93,23 +92,23 @@ constexpr explicit OculusMRCManager(void* ptr) noexcept : ::UnityEngine::MonoBeh
 
 // Fields
 
- ::GlobalNamespace::IVRPlatformHelper __declspec(property(get=__get__vrPlatformHelper, put=__set__vrPlatformHelper))  _vrPlatformHelper;
+ GlobalNamespace::IVRPlatformHelper __declspec(property(get=__get__vrPlatformHelper, put=__set__vrPlatformHelper))  _vrPlatformHelper;
 
-constexpr void __set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper value) ;
+constexpr void __set__vrPlatformHelper(GlobalNamespace::IVRPlatformHelper value) ;
 
-constexpr ::GlobalNamespace::IVRPlatformHelper __get__vrPlatformHelper() const;
+constexpr GlobalNamespace::IVRPlatformHelper __get__vrPlatformHelper() const;
 
- ::System::Func_2<::UnityEngine::GameObject,::UnityEngine::GameObject> __declspec(property(get=__get__instantiateMixedRealityBackgroundCameraGameObject, put=__set__instantiateMixedRealityBackgroundCameraGameObject))  _instantiateMixedRealityBackgroundCameraGameObject;
+ System::Func_2<UnityEngine::GameObject,UnityEngine::GameObject> __declspec(property(get=__get__instantiateMixedRealityBackgroundCameraGameObject, put=__set__instantiateMixedRealityBackgroundCameraGameObject))  _instantiateMixedRealityBackgroundCameraGameObject;
 
-constexpr void __set__instantiateMixedRealityBackgroundCameraGameObject(::System::Func_2<::UnityEngine::GameObject,::UnityEngine::GameObject> value) ;
+constexpr void __set__instantiateMixedRealityBackgroundCameraGameObject(System::Func_2<UnityEngine::GameObject,UnityEngine::GameObject> value) ;
 
-constexpr ::System::Func_2<::UnityEngine::GameObject,::UnityEngine::GameObject> __get__instantiateMixedRealityBackgroundCameraGameObject() const;
+constexpr System::Func_2<UnityEngine::GameObject,UnityEngine::GameObject> __get__instantiateMixedRealityBackgroundCameraGameObject() const;
 
- ::System::Func_2<::UnityEngine::GameObject,::UnityEngine::GameObject> __declspec(property(get=__get__instantiateMixedRealityForegroundCameraGameObject, put=__set__instantiateMixedRealityForegroundCameraGameObject))  _instantiateMixedRealityForegroundCameraGameObject;
+ System::Func_2<UnityEngine::GameObject,UnityEngine::GameObject> __declspec(property(get=__get__instantiateMixedRealityForegroundCameraGameObject, put=__set__instantiateMixedRealityForegroundCameraGameObject))  _instantiateMixedRealityForegroundCameraGameObject;
 
-constexpr void __set__instantiateMixedRealityForegroundCameraGameObject(::System::Func_2<::UnityEngine::GameObject,::UnityEngine::GameObject> value) ;
+constexpr void __set__instantiateMixedRealityForegroundCameraGameObject(System::Func_2<UnityEngine::GameObject,UnityEngine::GameObject> value) ;
 
-constexpr ::System::Func_2<::UnityEngine::GameObject,::UnityEngine::GameObject> __get__instantiateMixedRealityForegroundCameraGameObject() const;
+constexpr System::Func_2<UnityEngine::GameObject,UnityEngine::GameObject> __get__instantiateMixedRealityForegroundCameraGameObject() const;
 
  bool __declspec(property(get=__get__enableMixedReality_k__BackingField, put=__set__enableMixedReality_k__BackingField))  _enableMixedReality_k__BackingField;
 
@@ -117,17 +116,17 @@ constexpr void __set__enableMixedReality_k__BackingField(bool value) ;
 
 constexpr bool __get__enableMixedReality_k__BackingField() const;
 
- ::UnityEngine::LayerMask __declspec(property(get=__get__extraHiddenLayers_k__BackingField, put=__set__extraHiddenLayers_k__BackingField))  _extraHiddenLayers_k__BackingField;
+ UnityEngine::LayerMask __declspec(property(get=__get__extraHiddenLayers_k__BackingField, put=__set__extraHiddenLayers_k__BackingField))  _extraHiddenLayers_k__BackingField;
 
-constexpr void __set__extraHiddenLayers_k__BackingField(::UnityEngine::LayerMask value) ;
+constexpr void __set__extraHiddenLayers_k__BackingField(UnityEngine::LayerMask value) ;
 
-constexpr ::UnityEngine::LayerMask __get__extraHiddenLayers_k__BackingField() const;
+constexpr UnityEngine::LayerMask __get__extraHiddenLayers_k__BackingField() const;
 
- ::UnityEngine::LayerMask __declspec(property(get=__get__extraVisibleLayers_k__BackingField, put=__set__extraVisibleLayers_k__BackingField))  _extraVisibleLayers_k__BackingField;
+ UnityEngine::LayerMask __declspec(property(get=__get__extraVisibleLayers_k__BackingField, put=__set__extraVisibleLayers_k__BackingField))  _extraVisibleLayers_k__BackingField;
 
-constexpr void __set__extraVisibleLayers_k__BackingField(::UnityEngine::LayerMask value) ;
+constexpr void __set__extraVisibleLayers_k__BackingField(UnityEngine::LayerMask value) ;
 
-constexpr ::UnityEngine::LayerMask __get__extraVisibleLayers_k__BackingField() const;
+constexpr UnityEngine::LayerMask __get__extraVisibleLayers_k__BackingField() const;
 
  bool __declspec(property(get=__get__dynamicCullingMask_k__BackingField, put=__set__dynamicCullingMask_k__BackingField))  _dynamicCullingMask_k__BackingField;
 
@@ -135,29 +134,29 @@ constexpr void __set__dynamicCullingMask_k__BackingField(bool value) ;
 
 constexpr bool __get__dynamicCullingMask_k__BackingField() const;
 
- ::GlobalNamespace::____GlobalNamespace__OVRManager__CompositionMethod __declspec(property(get=__get__compositionMethod_k__BackingField, put=__set__compositionMethod_k__BackingField))  _compositionMethod_k__BackingField;
+ GlobalNamespace::GlobalNamespace__OVRManager__CompositionMethod __declspec(property(get=__get__compositionMethod_k__BackingField, put=__set__compositionMethod_k__BackingField))  _compositionMethod_k__BackingField;
 
-constexpr void __set__compositionMethod_k__BackingField(::GlobalNamespace::____GlobalNamespace__OVRManager__CompositionMethod value) ;
+constexpr void __set__compositionMethod_k__BackingField(GlobalNamespace::GlobalNamespace__OVRManager__CompositionMethod value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVRManager__CompositionMethod __get__compositionMethod_k__BackingField() const;
+constexpr GlobalNamespace::GlobalNamespace__OVRManager__CompositionMethod __get__compositionMethod_k__BackingField() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__externalCompositionBackdropColorRift_k__BackingField, put=__set__externalCompositionBackdropColorRift_k__BackingField))  _externalCompositionBackdropColorRift_k__BackingField;
+ UnityEngine::Color __declspec(property(get=__get__externalCompositionBackdropColorRift_k__BackingField, put=__set__externalCompositionBackdropColorRift_k__BackingField))  _externalCompositionBackdropColorRift_k__BackingField;
 
-constexpr void __set__externalCompositionBackdropColorRift_k__BackingField(::UnityEngine::Color value) ;
+constexpr void __set__externalCompositionBackdropColorRift_k__BackingField(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__externalCompositionBackdropColorRift_k__BackingField() const;
+constexpr UnityEngine::Color __get__externalCompositionBackdropColorRift_k__BackingField() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__externalCompositionBackdropColorQuest_k__BackingField, put=__set__externalCompositionBackdropColorQuest_k__BackingField))  _externalCompositionBackdropColorQuest_k__BackingField;
+ UnityEngine::Color __declspec(property(get=__get__externalCompositionBackdropColorQuest_k__BackingField, put=__set__externalCompositionBackdropColorQuest_k__BackingField))  _externalCompositionBackdropColorQuest_k__BackingField;
 
-constexpr void __set__externalCompositionBackdropColorQuest_k__BackingField(::UnityEngine::Color value) ;
+constexpr void __set__externalCompositionBackdropColorQuest_k__BackingField(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__externalCompositionBackdropColorQuest_k__BackingField() const;
+constexpr UnityEngine::Color __get__externalCompositionBackdropColorQuest_k__BackingField() const;
 
- ::GlobalNamespace::____GlobalNamespace__OVRManager__CameraDevice __declspec(property(get=__get__capturingCameraDevice_k__BackingField, put=__set__capturingCameraDevice_k__BackingField))  _capturingCameraDevice_k__BackingField;
+ GlobalNamespace::GlobalNamespace__OVRManager__CameraDevice __declspec(property(get=__get__capturingCameraDevice_k__BackingField, put=__set__capturingCameraDevice_k__BackingField))  _capturingCameraDevice_k__BackingField;
 
-constexpr void __set__capturingCameraDevice_k__BackingField(::GlobalNamespace::____GlobalNamespace__OVRManager__CameraDevice value) ;
+constexpr void __set__capturingCameraDevice_k__BackingField(GlobalNamespace::GlobalNamespace__OVRManager__CameraDevice value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVRManager__CameraDevice __get__capturingCameraDevice_k__BackingField() const;
+constexpr GlobalNamespace::GlobalNamespace__OVRManager__CameraDevice __get__capturingCameraDevice_k__BackingField() const;
 
  bool __declspec(property(get=__get__flipCameraFrameHorizontally_k__BackingField, put=__set__flipCameraFrameHorizontally_k__BackingField))  _flipCameraFrameHorizontally_k__BackingField;
 
@@ -189,11 +188,11 @@ constexpr void __set__sandwichCompositionBufferedFrames_k__BackingField(int32_t 
 
 constexpr int32_t __get__sandwichCompositionBufferedFrames_k__BackingField() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__chromaKeyColor_k__BackingField, put=__set__chromaKeyColor_k__BackingField))  _chromaKeyColor_k__BackingField;
+ UnityEngine::Color __declspec(property(get=__get__chromaKeyColor_k__BackingField, put=__set__chromaKeyColor_k__BackingField))  _chromaKeyColor_k__BackingField;
 
-constexpr void __set__chromaKeyColor_k__BackingField(::UnityEngine::Color value) ;
+constexpr void __set__chromaKeyColor_k__BackingField(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__chromaKeyColor_k__BackingField() const;
+constexpr UnityEngine::Color __get__chromaKeyColor_k__BackingField() const;
 
  float_t __declspec(property(get=__get__chromaKeySimilarity_k__BackingField, put=__set__chromaKeySimilarity_k__BackingField))  _chromaKeySimilarity_k__BackingField;
 
@@ -219,11 +218,11 @@ constexpr void __set__useDynamicLighting_k__BackingField(bool value) ;
 
 constexpr bool __get__useDynamicLighting_k__BackingField() const;
 
- ::GlobalNamespace::____GlobalNamespace__OVRManager__DepthQuality __declspec(property(get=__get__depthQuality_k__BackingField, put=__set__depthQuality_k__BackingField))  _depthQuality_k__BackingField;
+ GlobalNamespace::GlobalNamespace__OVRManager__DepthQuality __declspec(property(get=__get__depthQuality_k__BackingField, put=__set__depthQuality_k__BackingField))  _depthQuality_k__BackingField;
 
-constexpr void __set__depthQuality_k__BackingField(::GlobalNamespace::____GlobalNamespace__OVRManager__DepthQuality value) ;
+constexpr void __set__depthQuality_k__BackingField(GlobalNamespace::GlobalNamespace__OVRManager__DepthQuality value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVRManager__DepthQuality __get__depthQuality_k__BackingField() const;
+constexpr GlobalNamespace::GlobalNamespace__OVRManager__DepthQuality __get__depthQuality_k__BackingField() const;
 
  float_t __declspec(property(get=__get__dynamicLightingSmoothFactor_k__BackingField, put=__set__dynamicLightingSmoothFactor_k__BackingField))  _dynamicLightingSmoothFactor_k__BackingField;
 
@@ -237,11 +236,11 @@ constexpr void __set__dynamicLightingDepthVariationClampingValue_k__BackingField
 
 constexpr float_t __get__dynamicLightingDepthVariationClampingValue_k__BackingField() const;
 
- ::GlobalNamespace::____GlobalNamespace__OVRManager__VirtualGreenScreenType __declspec(property(get=__get__virtualGreenScreenType_k__BackingField, put=__set__virtualGreenScreenType_k__BackingField))  _virtualGreenScreenType_k__BackingField;
+ GlobalNamespace::GlobalNamespace__OVRManager__VirtualGreenScreenType __declspec(property(get=__get__virtualGreenScreenType_k__BackingField, put=__set__virtualGreenScreenType_k__BackingField))  _virtualGreenScreenType_k__BackingField;
 
-constexpr void __set__virtualGreenScreenType_k__BackingField(::GlobalNamespace::____GlobalNamespace__OVRManager__VirtualGreenScreenType value) ;
+constexpr void __set__virtualGreenScreenType_k__BackingField(GlobalNamespace::GlobalNamespace__OVRManager__VirtualGreenScreenType value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVRManager__VirtualGreenScreenType __get__virtualGreenScreenType_k__BackingField() const;
+constexpr GlobalNamespace::GlobalNamespace__OVRManager__VirtualGreenScreenType __get__virtualGreenScreenType_k__BackingField() const;
 
  float_t __declspec(property(get=__get__virtualGreenScreenTopY_k__BackingField, put=__set__virtualGreenScreenTopY_k__BackingField))  _virtualGreenScreenTopY_k__BackingField;
 
@@ -267,36 +266,36 @@ constexpr void __set__virtualGreenScreenDepthTolerance_k__BackingField(float_t v
 
 constexpr float_t __get__virtualGreenScreenDepthTolerance_k__BackingField() const;
 
- ::GlobalNamespace::____GlobalNamespace__OVRManager__MrcActivationMode __declspec(property(get=__get__mrcActivationMode_k__BackingField, put=__set__mrcActivationMode_k__BackingField))  _mrcActivationMode_k__BackingField;
+ GlobalNamespace::GlobalNamespace__OVRManager__MrcActivationMode __declspec(property(get=__get__mrcActivationMode_k__BackingField, put=__set__mrcActivationMode_k__BackingField))  _mrcActivationMode_k__BackingField;
 
-constexpr void __set__mrcActivationMode_k__BackingField(::GlobalNamespace::____GlobalNamespace__OVRManager__MrcActivationMode value) ;
+constexpr void __set__mrcActivationMode_k__BackingField(GlobalNamespace::GlobalNamespace__OVRManager__MrcActivationMode value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVRManager__MrcActivationMode __get__mrcActivationMode_k__BackingField() const;
+constexpr GlobalNamespace::GlobalNamespace__OVRManager__MrcActivationMode __get__mrcActivationMode_k__BackingField() const;
 
- ::GlobalNamespace::____GlobalNamespace__OVRManager__InstantiateMrcCameraDelegate __declspec(property(get=__get__instantiateMixedRealityCameraGameObject, put=__set__instantiateMixedRealityCameraGameObject))  _instantiateMixedRealityCameraGameObject;
+ GlobalNamespace::GlobalNamespace__OVRManager__InstantiateMrcCameraDelegate __declspec(property(get=__get__instantiateMixedRealityCameraGameObject, put=__set__instantiateMixedRealityCameraGameObject))  _instantiateMixedRealityCameraGameObject;
 
-constexpr void __set__instantiateMixedRealityCameraGameObject(::GlobalNamespace::____GlobalNamespace__OVRManager__InstantiateMrcCameraDelegate value) ;
+constexpr void __set__instantiateMixedRealityCameraGameObject(GlobalNamespace::GlobalNamespace__OVRManager__InstantiateMrcCameraDelegate value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVRManager__InstantiateMrcCameraDelegate __get__instantiateMixedRealityCameraGameObject() const;
+constexpr GlobalNamespace::GlobalNamespace__OVRManager__InstantiateMrcCameraDelegate __get__instantiateMixedRealityCameraGameObject() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_enableMixedReality, put=set_enableMixedReality))  enableMixedReality;
 
- ::UnityEngine::LayerMask __declspec(property(get=get_extraHiddenLayers, put=set_extraHiddenLayers))  extraHiddenLayers;
+ UnityEngine::LayerMask __declspec(property(get=get_extraHiddenLayers, put=set_extraHiddenLayers))  extraHiddenLayers;
 
- ::UnityEngine::LayerMask __declspec(property(get=get_extraVisibleLayers, put=set_extraVisibleLayers))  extraVisibleLayers;
+ UnityEngine::LayerMask __declspec(property(get=get_extraVisibleLayers, put=set_extraVisibleLayers))  extraVisibleLayers;
 
  bool __declspec(property(get=get_dynamicCullingMask, put=set_dynamicCullingMask))  dynamicCullingMask;
 
- ::GlobalNamespace::____GlobalNamespace__OVRManager__CompositionMethod __declspec(property(get=get_compositionMethod, put=set_compositionMethod))  compositionMethod;
+ GlobalNamespace::GlobalNamespace__OVRManager__CompositionMethod __declspec(property(get=get_compositionMethod, put=set_compositionMethod))  compositionMethod;
 
- ::UnityEngine::Color __declspec(property(get=get_externalCompositionBackdropColorRift, put=set_externalCompositionBackdropColorRift))  externalCompositionBackdropColorRift;
+ UnityEngine::Color __declspec(property(get=get_externalCompositionBackdropColorRift, put=set_externalCompositionBackdropColorRift))  externalCompositionBackdropColorRift;
 
- ::UnityEngine::Color __declspec(property(get=get_externalCompositionBackdropColorQuest, put=set_externalCompositionBackdropColorQuest))  externalCompositionBackdropColorQuest;
+ UnityEngine::Color __declspec(property(get=get_externalCompositionBackdropColorQuest, put=set_externalCompositionBackdropColorQuest))  externalCompositionBackdropColorQuest;
 
- ::GlobalNamespace::____GlobalNamespace__OVRManager__CameraDevice __declspec(property(get=get_capturingCameraDevice, put=set_capturingCameraDevice))  capturingCameraDevice;
+ GlobalNamespace::GlobalNamespace__OVRManager__CameraDevice __declspec(property(get=get_capturingCameraDevice, put=set_capturingCameraDevice))  capturingCameraDevice;
 
  bool __declspec(property(get=get_flipCameraFrameHorizontally, put=set_flipCameraFrameHorizontally))  flipCameraFrameHorizontally;
 
@@ -308,7 +307,7 @@ constexpr ::GlobalNamespace::____GlobalNamespace__OVRManager__InstantiateMrcCame
 
  int32_t __declspec(property(get=get_sandwichCompositionBufferedFrames, put=set_sandwichCompositionBufferedFrames))  sandwichCompositionBufferedFrames;
 
- ::UnityEngine::Color __declspec(property(get=get_chromaKeyColor, put=set_chromaKeyColor))  chromaKeyColor;
+ UnityEngine::Color __declspec(property(get=get_chromaKeyColor, put=set_chromaKeyColor))  chromaKeyColor;
 
  float_t __declspec(property(get=get_chromaKeySimilarity, put=set_chromaKeySimilarity))  chromaKeySimilarity;
 
@@ -318,13 +317,13 @@ constexpr ::GlobalNamespace::____GlobalNamespace__OVRManager__InstantiateMrcCame
 
  bool __declspec(property(get=get_useDynamicLighting, put=set_useDynamicLighting))  useDynamicLighting;
 
- ::GlobalNamespace::____GlobalNamespace__OVRManager__DepthQuality __declspec(property(get=get_depthQuality, put=set_depthQuality))  depthQuality;
+ GlobalNamespace::GlobalNamespace__OVRManager__DepthQuality __declspec(property(get=get_depthQuality, put=set_depthQuality))  depthQuality;
 
  float_t __declspec(property(get=get_dynamicLightingSmoothFactor, put=set_dynamicLightingSmoothFactor))  dynamicLightingSmoothFactor;
 
  float_t __declspec(property(get=get_dynamicLightingDepthVariationClampingValue, put=set_dynamicLightingDepthVariationClampingValue))  dynamicLightingDepthVariationClampingValue;
 
- ::GlobalNamespace::____GlobalNamespace__OVRManager__VirtualGreenScreenType __declspec(property(get=get_virtualGreenScreenType, put=set_virtualGreenScreenType))  virtualGreenScreenType;
+ GlobalNamespace::GlobalNamespace__OVRManager__VirtualGreenScreenType __declspec(property(get=get_virtualGreenScreenType, put=set_virtualGreenScreenType))  virtualGreenScreenType;
 
  float_t __declspec(property(get=get_virtualGreenScreenTopY, put=set_virtualGreenScreenTopY))  virtualGreenScreenTopY;
 
@@ -334,9 +333,9 @@ constexpr ::GlobalNamespace::____GlobalNamespace__OVRManager__InstantiateMrcCame
 
  float_t __declspec(property(get=get_virtualGreenScreenDepthTolerance, put=set_virtualGreenScreenDepthTolerance))  virtualGreenScreenDepthTolerance;
 
- ::GlobalNamespace::____GlobalNamespace__OVRManager__MrcActivationMode __declspec(property(get=get_mrcActivationMode, put=set_mrcActivationMode))  mrcActivationMode;
+ GlobalNamespace::GlobalNamespace__OVRManager__MrcActivationMode __declspec(property(get=get_mrcActivationMode, put=set_mrcActivationMode))  mrcActivationMode;
 
- ::GlobalNamespace::____GlobalNamespace__OVRManager__InstantiateMrcCameraDelegate __declspec(property(get=get_instantiateMixedRealityCameraGameObject, put=set_instantiateMixedRealityCameraGameObject))  instantiateMixedRealityCameraGameObject;
+ GlobalNamespace::GlobalNamespace__OVRManager__InstantiateMrcCameraDelegate __declspec(property(get=get_instantiateMixedRealityCameraGameObject, put=set_instantiateMixedRealityCameraGameObject))  instantiateMixedRealityCameraGameObject;
 
 
 // Methods
@@ -348,16 +347,16 @@ constexpr ::GlobalNamespace::____GlobalNamespace__OVRManager__InstantiateMrcCame
  void set_enableMixedReality(bool value) ;
 
 /// @brief Method get_extraHiddenLayers addr 0x1f85470 size 0x8 virtual true final true
- ::UnityEngine::LayerMask get_extraHiddenLayers() ;
+ UnityEngine::LayerMask get_extraHiddenLayers() ;
 
 /// @brief Method set_extraHiddenLayers addr 0x1f85478 size 0x8 virtual true final true
- void set_extraHiddenLayers(::UnityEngine::LayerMask value) ;
+ void set_extraHiddenLayers(UnityEngine::LayerMask value) ;
 
 /// @brief Method get_extraVisibleLayers addr 0x1f85480 size 0x8 virtual true final true
- ::UnityEngine::LayerMask get_extraVisibleLayers() ;
+ UnityEngine::LayerMask get_extraVisibleLayers() ;
 
 /// @brief Method set_extraVisibleLayers addr 0x1f85488 size 0x8 virtual true final true
- void set_extraVisibleLayers(::UnityEngine::LayerMask value) ;
+ void set_extraVisibleLayers(UnityEngine::LayerMask value) ;
 
 /// @brief Method get_dynamicCullingMask addr 0x1f85490 size 0x8 virtual true final true
  bool get_dynamicCullingMask() ;
@@ -366,28 +365,28 @@ constexpr ::GlobalNamespace::____GlobalNamespace__OVRManager__InstantiateMrcCame
  void set_dynamicCullingMask(bool value) ;
 
 /// @brief Method get_compositionMethod addr 0x1f854a4 size 0x8 virtual true final true
- ::GlobalNamespace::____GlobalNamespace__OVRManager__CompositionMethod get_compositionMethod() ;
+ GlobalNamespace::GlobalNamespace__OVRManager__CompositionMethod get_compositionMethod() ;
 
 /// @brief Method set_compositionMethod addr 0x1f854ac size 0x8 virtual true final true
- void set_compositionMethod(::GlobalNamespace::____GlobalNamespace__OVRManager__CompositionMethod value) ;
+ void set_compositionMethod(GlobalNamespace::GlobalNamespace__OVRManager__CompositionMethod value) ;
 
 /// @brief Method get_externalCompositionBackdropColorRift addr 0x1f854b4 size 0xc virtual true final true
- ::UnityEngine::Color get_externalCompositionBackdropColorRift() ;
+ UnityEngine::Color get_externalCompositionBackdropColorRift() ;
 
 /// @brief Method set_externalCompositionBackdropColorRift addr 0x1f854c0 size 0xc virtual true final true
- void set_externalCompositionBackdropColorRift(::UnityEngine::Color value) ;
+ void set_externalCompositionBackdropColorRift(UnityEngine::Color value) ;
 
 /// @brief Method get_externalCompositionBackdropColorQuest addr 0x1f854cc size 0xc virtual true final true
- ::UnityEngine::Color get_externalCompositionBackdropColorQuest() ;
+ UnityEngine::Color get_externalCompositionBackdropColorQuest() ;
 
 /// @brief Method set_externalCompositionBackdropColorQuest addr 0x1f854d8 size 0xc virtual true final true
- void set_externalCompositionBackdropColorQuest(::UnityEngine::Color value) ;
+ void set_externalCompositionBackdropColorQuest(UnityEngine::Color value) ;
 
 /// @brief Method get_capturingCameraDevice addr 0x1f854e4 size 0x8 virtual true final true
- ::GlobalNamespace::____GlobalNamespace__OVRManager__CameraDevice get_capturingCameraDevice() ;
+ GlobalNamespace::GlobalNamespace__OVRManager__CameraDevice get_capturingCameraDevice() ;
 
 /// @brief Method set_capturingCameraDevice addr 0x1f854ec size 0x8 virtual true final true
- void set_capturingCameraDevice(::GlobalNamespace::____GlobalNamespace__OVRManager__CameraDevice value) ;
+ void set_capturingCameraDevice(GlobalNamespace::GlobalNamespace__OVRManager__CameraDevice value) ;
 
 /// @brief Method get_flipCameraFrameHorizontally addr 0x1f854f4 size 0x8 virtual true final true
  bool get_flipCameraFrameHorizontally() ;
@@ -420,10 +419,10 @@ constexpr ::GlobalNamespace::____GlobalNamespace__OVRManager__InstantiateMrcCame
  void set_sandwichCompositionBufferedFrames(int32_t value) ;
 
 /// @brief Method get_chromaKeyColor addr 0x1f8554c size 0xc virtual true final true
- ::UnityEngine::Color get_chromaKeyColor() ;
+ UnityEngine::Color get_chromaKeyColor() ;
 
 /// @brief Method set_chromaKeyColor addr 0x1f85558 size 0xc virtual true final true
- void set_chromaKeyColor(::UnityEngine::Color value) ;
+ void set_chromaKeyColor(UnityEngine::Color value) ;
 
 /// @brief Method get_chromaKeySimilarity addr 0x1f85564 size 0x8 virtual true final true
  float_t get_chromaKeySimilarity() ;
@@ -450,10 +449,10 @@ constexpr ::GlobalNamespace::____GlobalNamespace__OVRManager__InstantiateMrcCame
  void set_useDynamicLighting(bool value) ;
 
 /// @brief Method get_depthQuality addr 0x1f855a8 size 0x8 virtual true final true
- ::GlobalNamespace::____GlobalNamespace__OVRManager__DepthQuality get_depthQuality() ;
+ GlobalNamespace::GlobalNamespace__OVRManager__DepthQuality get_depthQuality() ;
 
 /// @brief Method set_depthQuality addr 0x1f855b0 size 0x8 virtual true final true
- void set_depthQuality(::GlobalNamespace::____GlobalNamespace__OVRManager__DepthQuality value) ;
+ void set_depthQuality(GlobalNamespace::GlobalNamespace__OVRManager__DepthQuality value) ;
 
 /// @brief Method get_dynamicLightingSmoothFactor addr 0x1f855b8 size 0x8 virtual true final true
  float_t get_dynamicLightingSmoothFactor() ;
@@ -468,10 +467,10 @@ constexpr ::GlobalNamespace::____GlobalNamespace__OVRManager__InstantiateMrcCame
  void set_dynamicLightingDepthVariationClampingValue(float_t value) ;
 
 /// @brief Method get_virtualGreenScreenType addr 0x1f855d8 size 0x8 virtual true final true
- ::GlobalNamespace::____GlobalNamespace__OVRManager__VirtualGreenScreenType get_virtualGreenScreenType() ;
+ GlobalNamespace::GlobalNamespace__OVRManager__VirtualGreenScreenType get_virtualGreenScreenType() ;
 
 /// @brief Method set_virtualGreenScreenType addr 0x1f855e0 size 0x8 virtual true final true
- void set_virtualGreenScreenType(::GlobalNamespace::____GlobalNamespace__OVRManager__VirtualGreenScreenType value) ;
+ void set_virtualGreenScreenType(GlobalNamespace::GlobalNamespace__OVRManager__VirtualGreenScreenType value) ;
 
 /// @brief Method get_virtualGreenScreenTopY addr 0x1f855e8 size 0x8 virtual true final true
  float_t get_virtualGreenScreenTopY() ;
@@ -498,16 +497,16 @@ constexpr ::GlobalNamespace::____GlobalNamespace__OVRManager__InstantiateMrcCame
  void set_virtualGreenScreenDepthTolerance(float_t value) ;
 
 /// @brief Method get_mrcActivationMode addr 0x1f8562c size 0x8 virtual true final true
- ::GlobalNamespace::____GlobalNamespace__OVRManager__MrcActivationMode get_mrcActivationMode() ;
+ GlobalNamespace::GlobalNamespace__OVRManager__MrcActivationMode get_mrcActivationMode() ;
 
 /// @brief Method set_mrcActivationMode addr 0x1f85634 size 0x8 virtual true final true
- void set_mrcActivationMode(::GlobalNamespace::____GlobalNamespace__OVRManager__MrcActivationMode value) ;
+ void set_mrcActivationMode(GlobalNamespace::GlobalNamespace__OVRManager__MrcActivationMode value) ;
 
 /// @brief Method get_instantiateMixedRealityCameraGameObject addr 0x1f8563c size 0x88 virtual true final true
- ::GlobalNamespace::____GlobalNamespace__OVRManager__InstantiateMrcCameraDelegate get_instantiateMixedRealityCameraGameObject() ;
+ GlobalNamespace::GlobalNamespace__OVRManager__InstantiateMrcCameraDelegate get_instantiateMixedRealityCameraGameObject() ;
 
 /// @brief Method set_instantiateMixedRealityCameraGameObject addr 0x1f856c4 size 0x4 virtual true final true
- void set_instantiateMixedRealityCameraGameObject(::GlobalNamespace::____GlobalNamespace__OVRManager__InstantiateMrcCameraDelegate value) ;
+ void set_instantiateMixedRealityCameraGameObject(GlobalNamespace::GlobalNamespace__OVRManager__InstantiateMrcCameraDelegate value) ;
 
 /// @brief Method Update addr 0x1f856c8 size 0xb0 virtual false final false
  void Update() ;
@@ -516,10 +515,10 @@ constexpr ::GlobalNamespace::____GlobalNamespace__OVRManager__InstantiateMrcCame
  void OnDestroy() ;
 
 /// @brief Method Init addr 0x1f857d0 size 0x16c virtual false final false
- void Init(::System::Func_2<::UnityEngine::GameObject,::UnityEngine::GameObject> instantiateMixedRealityBackgroundCameraGameObject, ::System::Func_2<::UnityEngine::GameObject,::UnityEngine::GameObject> instantiateMixedRealityForegroundCameraGameObject) ;
+ void Init(System::Func_2<UnityEngine::GameObject,UnityEngine::GameObject> instantiateMixedRealityBackgroundCameraGameObject, System::Func_2<UnityEngine::GameObject,UnityEngine::GameObject> instantiateMixedRealityForegroundCameraGameObject) ;
 
 /// @brief Method InstantiateMixedRealityCameraGameObject addr 0x1f8593c size 0x34 virtual false final false
- ::UnityEngine::GameObject InstantiateMixedRealityCameraGameObject(::UnityEngine::GameObject mainCameraGameObject, ::GlobalNamespace::____GlobalNamespace__OVRManager__MrcCameraType cameraType) ;
+ UnityEngine::GameObject InstantiateMixedRealityCameraGameObject(UnityEngine::GameObject mainCameraGameObject, GlobalNamespace::GlobalNamespace__OVRManager__MrcCameraType cameraType) ;
 
 // Ctor Parameters []
 explicit OculusMRCManager() ;
@@ -531,6 +530,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OculusMRCManager);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OculusMRCManager, "", "OculusMRCManager");
+NEED_NO_BOX(GlobalNamespace::OculusMRCManager);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusMRCManager, "", "OculusMRCManager");

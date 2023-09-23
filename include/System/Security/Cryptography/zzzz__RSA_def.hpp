@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Security::Cryptography {
 struct RSAParameters;
 }
@@ -18,7 +17,7 @@ namespace System::Security::Cryptography {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2914))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2952))
 // CS Name: System.Security.Cryptography.RSA
-class CORDL_TYPE RSA : public ::System::Security::Cryptography::AsymmetricAlgorithm {
+class CORDL_TYPE RSA : public System::Security::Cryptography::AsymmetricAlgorithm {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr RSA(RSA const& ) noexcept = default;
 constexpr RSA(RSA&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RSA(void* ptr) noexcept : ::System::Security::Cryptography::AsymmetricAlgorithm(ptr) {
+constexpr explicit RSA(void* ptr) noexcept : System::Security::Cryptography::AsymmetricAlgorithm(ptr) {
 }
 
 
@@ -61,7 +60,7 @@ explicit RSA() ;
  void _ctor() ;
 
 /// @brief Method Create addr 0x22fa44c size 0x74 virtual false final false
-static ::System::Security::Cryptography::RSA Create() ;
+static System::Security::Cryptography::RSA Create() ;
 
 /// @brief Method EncryptValue addr 0x22fa4ec size 0x60 virtual true final false
  ::ArrayW<uint8_t> EncryptValue(::ArrayW<uint8_t> rgb) ;
@@ -73,15 +72,14 @@ static ::System::Security::Cryptography::RSA Create() ;
  ::StringW ToXmlString(bool includePrivateParameters) ;
 
 /// @brief Method ExportParameters addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Security::Cryptography::RSAParameters ExportParameters(bool includePrivateParameters) ;
+ System::Security::Cryptography::RSAParameters ExportParameters(bool includePrivateParameters) ;
 
 /// @brief Method ImportParameters addr 0x0 size 0xffffffffffffffff virtual true final false
- void ImportParameters(::System::Security::Cryptography::RSAParameters parameters) ;
+ void ImportParameters(System::Security::Cryptography::RSAParameters parameters) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::RSA);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::RSA, "System.Security.Cryptography", "RSA");
+NEED_NO_BOX(System::Security::Cryptography::RSA);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSA, "System.Security.Cryptography", "RSA");

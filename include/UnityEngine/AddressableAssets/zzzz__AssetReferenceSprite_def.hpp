@@ -3,7 +3,6 @@
 #include "UnityEngine/AddressableAssets/zzzz__AssetReferenceT_1_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::AddressableAssets {
 class AssetReferenceSprite;
@@ -11,10 +10,10 @@ class AssetReferenceSprite;
 // Type: UnityEngine.AddressableAssets::AssetReferenceSprite
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14363)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14363), inst: 752 }), TypeDefinitionIndex(TypeDefinitionIndex(10227))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14363), inst: 752 }), TypeDefinitionIndex(TypeDefinitionIndex(14363)), TypeDefinitionIndex(TypeDefinitionIndex(10227))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14368))
 // CS Name: UnityEngine.AddressableAssets.AssetReferenceSprite
-class CORDL_TYPE AssetReferenceSprite : public ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityEngine::Sprite> {
+class CORDL_TYPE AssetReferenceSprite : public UnityEngine::AddressableAssets::AssetReferenceT_1<UnityEngine::Sprite> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr AssetReferenceSprite(AssetReferenceSprite const& ) noexcept = default;
 constexpr AssetReferenceSprite(AssetReferenceSprite&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AssetReferenceSprite(void* ptr) noexcept : ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityEngine::Sprite>(ptr) {
+constexpr explicit AssetReferenceSprite(void* ptr) noexcept : UnityEngine::AddressableAssets::AssetReferenceT_1<UnityEngine::Sprite>(ptr) {
 }
 
 
@@ -63,6 +62,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::AddressableAssets
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AddressableAssets::AssetReferenceSprite);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::AssetReferenceSprite, "UnityEngine.AddressableAssets", "AssetReferenceSprite");
+NEED_NO_BOX(UnityEngine::AddressableAssets::AssetReferenceSprite);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AssetReferenceSprite, "UnityEngine.AddressableAssets", "AssetReferenceSprite");

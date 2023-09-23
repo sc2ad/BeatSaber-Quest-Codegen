@@ -6,7 +6,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
@@ -17,13 +16,13 @@ struct ReadOnlyArray_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
-struct ____UnityEngine__InputSystem__InputSettings__BackgroundBehavior;
+struct UnityEngine__InputSystem__InputSettings__BackgroundBehavior;
 }
 namespace UnityEngine::InputSystem {
-struct ____UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode;
+struct UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode;
 }
 namespace UnityEngine::InputSystem {
-struct ____UnityEngine__InputSystem__InputSettings__UpdateMode;
+struct UnityEngine__InputSystem__InputSettings__UpdateMode;
 }
 namespace UnityEngine::InputSystem {
 class InputSettings;
@@ -34,20 +33,20 @@ namespace UnityEngine::InputSystem {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6384))
 // CS Name: UnityEngine.InputSystem.InputSettings::UpdateMode
-struct CORDL_TYPE ____UnityEngine__InputSystem__InputSettings__UpdateMode : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__InputSystem__InputSettings__UpdateMode : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__InputSystem__InputSettings__UpdateMode(int32_t value__) noexcept;
+constexpr UnityEngine__InputSystem__InputSettings__UpdateMode(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__InputSystem__InputSettings__UpdateMode(____UnityEngine__InputSystem__InputSettings__UpdateMode const&) = default;
-                    constexpr ____UnityEngine__InputSystem__InputSettings__UpdateMode(____UnityEngine__InputSystem__InputSettings__UpdateMode&&) = default;
-                    constexpr ____UnityEngine__InputSystem__InputSettings__UpdateMode& operator=(____UnityEngine__InputSystem__InputSettings__UpdateMode const& o) {
+                    constexpr UnityEngine__InputSystem__InputSettings__UpdateMode(UnityEngine__InputSystem__InputSettings__UpdateMode const&) = default;
+                    constexpr UnityEngine__InputSystem__InputSettings__UpdateMode(UnityEngine__InputSystem__InputSettings__UpdateMode&&) = default;
+                    constexpr UnityEngine__InputSystem__InputSettings__UpdateMode& operator=(UnityEngine__InputSystem__InputSettings__UpdateMode const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__InputSystem__InputSettings__UpdateMode& operator=(____UnityEngine__InputSystem__InputSettings__UpdateMode&& o) noexcept {
+                    constexpr UnityEngine__InputSystem__InputSettings__UpdateMode& operator=(UnityEngine__InputSystem__InputSettings__UpdateMode&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -60,7 +59,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__InputSystem__InputSettings__UpdateMode(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__InputSystem__InputSettings__UpdateMode(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -68,15 +67,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__InputSystem__InputSettings__UpdateMode_Unwrapped : int32_t {
+enum class __UnityEngine__InputSystem__InputSettings__UpdateMode_Unwrapped : int32_t {
 __ProcessEventsInDynamicUpdate = 1,
 __ProcessEventsInFixedUpdate = 2,
 __ProcessEventsManually = 3,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__InputSystem__InputSettings__UpdateMode_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__InputSystem__InputSettings__UpdateMode_Unwrapped>(__instance);
+constexpr operator __UnityEngine__InputSystem__InputSettings__UpdateMode_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__InputSystem__InputSettings__UpdateMode_Unwrapped>(__instance);
 }
 
 
@@ -89,13 +88,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field ProcessEventsInDynamicUpdate offset 0
-static ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputSettings__UpdateMode const ProcessEventsInDynamicUpdate;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputSettings__UpdateMode const ProcessEventsInDynamicUpdate;
 
 /// @brief Field ProcessEventsInFixedUpdate offset 0
-static ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputSettings__UpdateMode const ProcessEventsInFixedUpdate;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputSettings__UpdateMode const ProcessEventsInFixedUpdate;
 
 /// @brief Field ProcessEventsManually offset 0
-static ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputSettings__UpdateMode const ProcessEventsManually;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputSettings__UpdateMode const ProcessEventsManually;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -107,20 +106,20 @@ namespace UnityEngine::InputSystem {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6385))
 // CS Name: UnityEngine.InputSystem.InputSettings::BackgroundBehavior
-struct CORDL_TYPE ____UnityEngine__InputSystem__InputSettings__BackgroundBehavior : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__InputSystem__InputSettings__BackgroundBehavior : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__InputSystem__InputSettings__BackgroundBehavior(int32_t value__) noexcept;
+constexpr UnityEngine__InputSystem__InputSettings__BackgroundBehavior(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__InputSystem__InputSettings__BackgroundBehavior(____UnityEngine__InputSystem__InputSettings__BackgroundBehavior const&) = default;
-                    constexpr ____UnityEngine__InputSystem__InputSettings__BackgroundBehavior(____UnityEngine__InputSystem__InputSettings__BackgroundBehavior&&) = default;
-                    constexpr ____UnityEngine__InputSystem__InputSettings__BackgroundBehavior& operator=(____UnityEngine__InputSystem__InputSettings__BackgroundBehavior const& o) {
+                    constexpr UnityEngine__InputSystem__InputSettings__BackgroundBehavior(UnityEngine__InputSystem__InputSettings__BackgroundBehavior const&) = default;
+                    constexpr UnityEngine__InputSystem__InputSettings__BackgroundBehavior(UnityEngine__InputSystem__InputSettings__BackgroundBehavior&&) = default;
+                    constexpr UnityEngine__InputSystem__InputSettings__BackgroundBehavior& operator=(UnityEngine__InputSystem__InputSettings__BackgroundBehavior const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__InputSystem__InputSettings__BackgroundBehavior& operator=(____UnityEngine__InputSystem__InputSettings__BackgroundBehavior&& o) noexcept {
+                    constexpr UnityEngine__InputSystem__InputSettings__BackgroundBehavior& operator=(UnityEngine__InputSystem__InputSettings__BackgroundBehavior&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -133,7 +132,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__InputSystem__InputSettings__BackgroundBehavior(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__InputSystem__InputSettings__BackgroundBehavior(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -141,15 +140,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__InputSystem__InputSettings__BackgroundBehavior_Unwrapped : int32_t {
+enum class __UnityEngine__InputSystem__InputSettings__BackgroundBehavior_Unwrapped : int32_t {
 __ResetAndDisableNonBackgroundDevices = 0,
 __ResetAndDisableAllDevices = 1,
 __IgnoreFocus = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__InputSystem__InputSettings__BackgroundBehavior_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__InputSystem__InputSettings__BackgroundBehavior_Unwrapped>(__instance);
+constexpr operator __UnityEngine__InputSystem__InputSettings__BackgroundBehavior_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__InputSystem__InputSettings__BackgroundBehavior_Unwrapped>(__instance);
 }
 
 
@@ -162,13 +161,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field ResetAndDisableNonBackgroundDevices offset 0
-static ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputSettings__BackgroundBehavior const ResetAndDisableNonBackgroundDevices;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputSettings__BackgroundBehavior const ResetAndDisableNonBackgroundDevices;
 
 /// @brief Field ResetAndDisableAllDevices offset 0
-static ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputSettings__BackgroundBehavior const ResetAndDisableAllDevices;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputSettings__BackgroundBehavior const ResetAndDisableAllDevices;
 
 /// @brief Field IgnoreFocus offset 0
-static ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputSettings__BackgroundBehavior const IgnoreFocus;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputSettings__BackgroundBehavior const IgnoreFocus;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -180,20 +179,20 @@ namespace UnityEngine::InputSystem {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6386))
 // CS Name: UnityEngine.InputSystem.InputSettings::EditorInputBehaviorInPlayMode
-struct CORDL_TYPE ____UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode(int32_t value__) noexcept;
+constexpr UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode(____UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode const&) = default;
-                    constexpr ____UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode(____UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode&&) = default;
-                    constexpr ____UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode& operator=(____UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode const& o) {
+                    constexpr UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode(UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode const&) = default;
+                    constexpr UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode(UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode&&) = default;
+                    constexpr UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode& operator=(UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode& operator=(____UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode&& o) noexcept {
+                    constexpr UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode& operator=(UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -206,7 +205,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -214,15 +213,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode_Unwrapped : int32_t {
+enum class __UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode_Unwrapped : int32_t {
 __PointersAndKeyboardsRespectGameViewFocus = 0,
 __AllDevicesRespectGameViewFocus = 1,
 __AllDeviceInputAlwaysGoesToGameView = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode_Unwrapped>(__instance);
+constexpr operator __UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode_Unwrapped>(__instance);
 }
 
 
@@ -235,13 +234,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field PointersAndKeyboardsRespectGameViewFocus offset 0
-static ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode const PointersAndKeyboardsRespectGameViewFocus;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode const PointersAndKeyboardsRespectGameViewFocus;
 
 /// @brief Field AllDevicesRespectGameViewFocus offset 0
-static ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode const AllDevicesRespectGameViewFocus;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode const AllDevicesRespectGameViewFocus;
 
 /// @brief Field AllDeviceInputAlwaysGoesToGameView offset 0
-static ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode const AllDeviceInputAlwaysGoesToGameView;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode const AllDeviceInputAlwaysGoesToGameView;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -253,14 +252,14 @@ namespace UnityEngine::InputSystem {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10151))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6387))
 // CS Name: UnityEngine.InputSystem.InputSettings
-class CORDL_TYPE InputSettings : public ::UnityEngine::ScriptableObject {
+class CORDL_TYPE InputSettings : public UnityEngine::ScriptableObject {
 public:
 // Declarations
-using EditorInputBehaviorInPlayMode = ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode;
+using EditorInputBehaviorInPlayMode = UnityEngine::InputSystem::UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode;
 
-using BackgroundBehavior = ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputSettings__BackgroundBehavior;
+using BackgroundBehavior = UnityEngine::InputSystem::UnityEngine__InputSystem__InputSettings__BackgroundBehavior;
 
-using UpdateMode = ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputSettings__UpdateMode;
+using UpdateMode = UnityEngine::InputSystem::UnityEngine__InputSystem__InputSettings__UpdateMode;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x68};
@@ -274,7 +273,7 @@ constexpr InputSettings(InputSettings const& ) noexcept = default;
 constexpr InputSettings(InputSettings&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit InputSettings(void* ptr) noexcept : ::UnityEngine::ScriptableObject(ptr) {
+constexpr explicit InputSettings(void* ptr) noexcept : UnityEngine::ScriptableObject(ptr) {
 }
 
 
@@ -301,11 +300,11 @@ constexpr void __set_m_SupportedDevices(::ArrayW<::StringW> value) ;
 
 constexpr ::ArrayW<::StringW> __get_m_SupportedDevices() const;
 
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputSettings__UpdateMode __declspec(property(get=__get_m_UpdateMode, put=__set_m_UpdateMode))  m_UpdateMode;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputSettings__UpdateMode __declspec(property(get=__get_m_UpdateMode, put=__set_m_UpdateMode))  m_UpdateMode;
 
-constexpr void __set_m_UpdateMode(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputSettings__UpdateMode value) ;
+constexpr void __set_m_UpdateMode(UnityEngine::InputSystem::UnityEngine__InputSystem__InputSettings__UpdateMode value) ;
 
-constexpr ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputSettings__UpdateMode __get_m_UpdateMode() const;
+constexpr UnityEngine::InputSystem::UnityEngine__InputSystem__InputSettings__UpdateMode __get_m_UpdateMode() const;
 
  int32_t __declspec(property(get=__get_m_MaxEventBytesPerUpdate, put=__set_m_MaxEventBytesPerUpdate))  m_MaxEventBytesPerUpdate;
 
@@ -325,17 +324,17 @@ constexpr void __set_m_CompensateForScreenOrientation(bool value) ;
 
 constexpr bool __get_m_CompensateForScreenOrientation() const;
 
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputSettings__BackgroundBehavior __declspec(property(get=__get_m_BackgroundBehavior, put=__set_m_BackgroundBehavior))  m_BackgroundBehavior;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputSettings__BackgroundBehavior __declspec(property(get=__get_m_BackgroundBehavior, put=__set_m_BackgroundBehavior))  m_BackgroundBehavior;
 
-constexpr void __set_m_BackgroundBehavior(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputSettings__BackgroundBehavior value) ;
+constexpr void __set_m_BackgroundBehavior(UnityEngine::InputSystem::UnityEngine__InputSystem__InputSettings__BackgroundBehavior value) ;
 
-constexpr ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputSettings__BackgroundBehavior __get_m_BackgroundBehavior() const;
+constexpr UnityEngine::InputSystem::UnityEngine__InputSystem__InputSettings__BackgroundBehavior __get_m_BackgroundBehavior() const;
 
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode __declspec(property(get=__get_m_EditorInputBehaviorInPlayMode, put=__set_m_EditorInputBehaviorInPlayMode))  m_EditorInputBehaviorInPlayMode;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode __declspec(property(get=__get_m_EditorInputBehaviorInPlayMode, put=__set_m_EditorInputBehaviorInPlayMode))  m_EditorInputBehaviorInPlayMode;
 
-constexpr void __set_m_EditorInputBehaviorInPlayMode(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode value) ;
+constexpr void __set_m_EditorInputBehaviorInPlayMode(UnityEngine::InputSystem::UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode value) ;
 
-constexpr ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode __get_m_EditorInputBehaviorInPlayMode() const;
+constexpr UnityEngine::InputSystem::UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode __get_m_EditorInputBehaviorInPlayMode() const;
 
  float_t __declspec(property(get=__get_m_DefaultDeadzoneMin, put=__set_m_DefaultDeadzoneMin))  m_DefaultDeadzoneMin;
 
@@ -403,11 +402,11 @@ constexpr void __set_m_ShortcutKeysConsumeInputs(bool value) ;
 
 constexpr bool __get_m_ShortcutKeysConsumeInputs() const;
 
- ::System::Collections::Generic::HashSet_1<::StringW> __declspec(property(get=__get_m_FeatureFlags, put=__set_m_FeatureFlags))  m_FeatureFlags;
+ System::Collections::Generic::HashSet_1<::StringW> __declspec(property(get=__get_m_FeatureFlags, put=__set_m_FeatureFlags))  m_FeatureFlags;
 
-constexpr void __set_m_FeatureFlags(::System::Collections::Generic::HashSet_1<::StringW> value) ;
+constexpr void __set_m_FeatureFlags(System::Collections::Generic::HashSet_1<::StringW> value) ;
 
-constexpr ::System::Collections::Generic::HashSet_1<::StringW> __get_m_FeatureFlags() const;
+constexpr System::Collections::Generic::HashSet_1<::StringW> __get_m_FeatureFlags() const;
 
 /// @brief Field s_OldUnsupportedFixedAndDynamicUpdateSetting offset 0
 static constexpr int32_t  s_OldUnsupportedFixedAndDynamicUpdateSetting{0};
@@ -415,7 +414,7 @@ static constexpr int32_t  s_OldUnsupportedFixedAndDynamicUpdateSetting{0};
 
 // Properties
 
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputSettings__UpdateMode __declspec(property(get=get_updateMode, put=set_updateMode))  updateMode;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputSettings__UpdateMode __declspec(property(get=get_updateMode, put=set_updateMode))  updateMode;
 
  bool __declspec(property(get=get_compensateForScreenOrientation, put=set_compensateForScreenOrientation))  compensateForScreenOrientation;
 
@@ -439,15 +438,15 @@ static constexpr int32_t  s_OldUnsupportedFixedAndDynamicUpdateSetting{0};
 
  float_t __declspec(property(get=get_multiTapDelayTime, put=set_multiTapDelayTime))  multiTapDelayTime;
 
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputSettings__BackgroundBehavior __declspec(property(get=get_backgroundBehavior, put=set_backgroundBehavior))  backgroundBehavior;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputSettings__BackgroundBehavior __declspec(property(get=get_backgroundBehavior, put=set_backgroundBehavior))  backgroundBehavior;
 
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode __declspec(property(get=get_editorInputBehaviorInPlayMode, put=set_editorInputBehaviorInPlayMode))  editorInputBehaviorInPlayMode;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode __declspec(property(get=get_editorInputBehaviorInPlayMode, put=set_editorInputBehaviorInPlayMode))  editorInputBehaviorInPlayMode;
 
  int32_t __declspec(property(get=get_maxEventBytesPerUpdate, put=set_maxEventBytesPerUpdate))  maxEventBytesPerUpdate;
 
  int32_t __declspec(property(get=get_maxQueuedEventsPerUpdate, put=set_maxQueuedEventsPerUpdate))  maxQueuedEventsPerUpdate;
 
- ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::StringW> __declspec(property(get=get_supportedDevices, put=set_supportedDevices))  supportedDevices;
+ UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::StringW> __declspec(property(get=get_supportedDevices, put=set_supportedDevices))  supportedDevices;
 
  bool __declspec(property(get=get_disableRedundantEventsMerging, put=set_disableRedundantEventsMerging))  disableRedundantEventsMerging;
 
@@ -455,10 +454,10 @@ static constexpr int32_t  s_OldUnsupportedFixedAndDynamicUpdateSetting{0};
 // Methods
 
 /// @brief Method get_updateMode addr 0x29253e8 size 0x8 virtual false final false
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputSettings__UpdateMode get_updateMode() ;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputSettings__UpdateMode get_updateMode() ;
 
 /// @brief Method set_updateMode addr 0x29253f0 size 0x18 virtual false final false
- void set_updateMode(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputSettings__UpdateMode value) ;
+ void set_updateMode(UnityEngine::InputSystem::UnityEngine__InputSystem__InputSettings__UpdateMode value) ;
 
 /// @brief Method get_compensateForScreenOrientation addr 0x29254d4 size 0x8 virtual false final false
  bool get_compensateForScreenOrientation() ;
@@ -527,16 +526,16 @@ static constexpr int32_t  s_OldUnsupportedFixedAndDynamicUpdateSetting{0};
  void set_multiTapDelayTime(float_t value) ;
 
 /// @brief Method get_backgroundBehavior addr 0x2925640 size 0x8 virtual false final false
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputSettings__BackgroundBehavior get_backgroundBehavior() ;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputSettings__BackgroundBehavior get_backgroundBehavior() ;
 
 /// @brief Method set_backgroundBehavior addr 0x2925648 size 0x18 virtual false final false
- void set_backgroundBehavior(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputSettings__BackgroundBehavior value) ;
+ void set_backgroundBehavior(UnityEngine::InputSystem::UnityEngine__InputSystem__InputSettings__BackgroundBehavior value) ;
 
 /// @brief Method get_editorInputBehaviorInPlayMode addr 0x2925660 size 0x8 virtual false final false
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode get_editorInputBehaviorInPlayMode() ;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode get_editorInputBehaviorInPlayMode() ;
 
 /// @brief Method set_editorInputBehaviorInPlayMode addr 0x2925668 size 0x18 virtual false final false
- void set_editorInputBehaviorInPlayMode(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode value) ;
+ void set_editorInputBehaviorInPlayMode(UnityEngine::InputSystem::UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode value) ;
 
 /// @brief Method get_maxEventBytesPerUpdate addr 0x2925680 size 0x8 virtual false final false
  int32_t get_maxEventBytesPerUpdate() ;
@@ -551,10 +550,10 @@ static constexpr int32_t  s_OldUnsupportedFixedAndDynamicUpdateSetting{0};
  void set_maxQueuedEventsPerUpdate(int32_t value) ;
 
 /// @brief Method get_supportedDevices addr 0x29256c0 size 0x60 virtual false final false
- ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::StringW> get_supportedDevices() ;
+ UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::StringW> get_supportedDevices() ;
 
 /// @brief Method set_supportedDevices addr 0x2925720 size 0x124 virtual false final false
- void set_supportedDevices(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::StringW> value) ;
+ void set_supportedDevices(UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::StringW> value) ;
 
 /// @brief Method get_disableRedundantEventsMerging addr 0x2925844 size 0x8 virtual false final false
  bool get_disableRedundantEventsMerging() ;
@@ -581,9 +580,8 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputSettings__BackgroundBehavior, "UnityEngine.InputSystem", "InputSettings/BackgroundBehavior");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode, "UnityEngine.InputSystem", "InputSettings/EditorInputBehaviorInPlayMode");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputSettings__UpdateMode, "UnityEngine.InputSystem", "InputSettings/UpdateMode");
-NEED_NO_BOX(::UnityEngine::InputSystem::InputSettings);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::InputSettings, "UnityEngine.InputSystem", "InputSettings");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::UnityEngine__InputSystem__InputSettings__BackgroundBehavior, "UnityEngine.InputSystem", "InputSettings/BackgroundBehavior");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode, "UnityEngine.InputSystem", "InputSettings/EditorInputBehaviorInPlayMode");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::UnityEngine__InputSystem__InputSettings__UpdateMode, "UnityEngine.InputSystem", "InputSettings/UpdateMode");
+NEED_NO_BOX(UnityEngine::InputSystem::InputSettings);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::InputSettings, "UnityEngine.InputSystem", "InputSettings");

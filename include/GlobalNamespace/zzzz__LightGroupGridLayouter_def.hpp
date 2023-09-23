@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__LightGroupSubsystem_def.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5035))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5030))
 // CS Name: LightGroupGridLayouter
-class CORDL_TYPE LightGroupGridLayouter : public ::GlobalNamespace::LightGroupSubsystem {
+class CORDL_TYPE LightGroupGridLayouter : public GlobalNamespace::LightGroupSubsystem {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr LightGroupGridLayouter(LightGroupGridLayouter const& ) noexcept = defa
 constexpr LightGroupGridLayouter(LightGroupGridLayouter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LightGroupGridLayouter(void* ptr) noexcept : ::GlobalNamespace::LightGroupSubsystem(ptr) {
+constexpr explicit LightGroupGridLayouter(void* ptr) noexcept : GlobalNamespace::LightGroupSubsystem(ptr) {
 }
 
 
@@ -58,11 +57,11 @@ constexpr void __set__columns(int32_t value) ;
 
 constexpr int32_t __get__columns() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__columnStep, put=__set__columnStep))  _columnStep;
+ UnityEngine::Vector3 __declspec(property(get=__get__columnStep, put=__set__columnStep))  _columnStep;
 
-constexpr void __set__columnStep(::UnityEngine::Vector3 value) ;
+constexpr void __set__columnStep(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__columnStep() const;
+constexpr UnityEngine::Vector3 __get__columnStep() const;
 
  bool __declspec(property(get=__get__columnsFromCenter, put=__set__columnsFromCenter))  _columnsFromCenter;
 
@@ -70,11 +69,11 @@ constexpr void __set__columnsFromCenter(bool value) ;
 
 constexpr bool __get__columnsFromCenter() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__rowStep, put=__set__rowStep))  _rowStep;
+ UnityEngine::Vector3 __declspec(property(get=__get__rowStep, put=__set__rowStep))  _rowStep;
 
-constexpr void __set__rowStep(::UnityEngine::Vector3 value) ;
+constexpr void __set__rowStep(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__rowStep() const;
+constexpr UnityEngine::Vector3 __get__rowStep() const;
 
  bool __declspec(property(get=__get__rowsFromCenter, put=__set__rowsFromCenter))  _rowsFromCenter;
 
@@ -94,11 +93,11 @@ constexpr void __set__alternateOrder(bool value) ;
 
 constexpr bool __get__alternateOrder() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__defaultRotation, put=__set__defaultRotation))  _defaultRotation;
+ UnityEngine::Vector3 __declspec(property(get=__get__defaultRotation, put=__set__defaultRotation))  _defaultRotation;
 
-constexpr void __set__defaultRotation(::UnityEngine::Vector3 value) ;
+constexpr void __set__defaultRotation(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__defaultRotation() const;
+constexpr UnityEngine::Vector3 __get__defaultRotation() const;
 
 
 // Methods
@@ -113,6 +112,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LightGroupGridLayouter);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightGroupGridLayouter, "", "LightGroupGridLayouter");
+NEED_NO_BOX(GlobalNamespace::LightGroupGridLayouter);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightGroupGridLayouter, "", "LightGroupGridLayouter");

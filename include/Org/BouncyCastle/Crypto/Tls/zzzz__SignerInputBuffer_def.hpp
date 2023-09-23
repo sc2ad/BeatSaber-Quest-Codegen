@@ -4,16 +4,15 @@
 #include "System/IO/zzzz__MemoryStream_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class ISigner;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
-class SignerInputBuffer;
+class Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class ____Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream;
+class SignerInputBuffer;
 }
 // Type: ::SigStream
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -21,56 +20,56 @@ namespace Org::BouncyCastle::Crypto::Tls {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(484))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1276))
 // CS Name: Org.BouncyCastle.Crypto.Tls.SignerInputBuffer::SigStream
-class CORDL_TYPE ____Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream : public ::Org::BouncyCastle::Utilities::IO::BaseOutputStream {
+class CORDL_TYPE Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream : public Org::BouncyCastle::Utilities::IO::BaseOutputStream {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
 
-virtual ~____Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream() = default;
+virtual ~Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream", modifiers: " const&", def_value: None }]
-constexpr ____Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream(____Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream", modifiers: " const&", def_value: None }]
+constexpr Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream(Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream", modifiers: "&&", def_value: None }]
-constexpr ____Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream(____Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream", modifiers: "&&", def_value: None }]
+constexpr Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream(Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream(void* ptr) noexcept : ::Org::BouncyCastle::Utilities::IO::BaseOutputStream(ptr) {
+constexpr explicit Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream(void* ptr) noexcept : Org::BouncyCastle::Utilities::IO::BaseOutputStream(ptr) {
 }
 
 
-  constexpr ____Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream& operator=(std::nullptr_t) noexcept {
+  constexpr Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream& operator=(void* o) noexcept {
+  constexpr Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream& operator=(____Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream&& o) noexcept = default;
-  constexpr ____Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream& operator=(____Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream const& o) noexcept = default;
+  constexpr Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream& operator=(Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream&& o) noexcept = default;
+  constexpr Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream& operator=(Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::Org::BouncyCastle::Crypto::ISigner __declspec(property(get=__get_s, put=__set_s))  s;
+ Org::BouncyCastle::Crypto::ISigner __declspec(property(get=__get_s, put=__set_s))  s;
 
-constexpr void __set_s(::Org::BouncyCastle::Crypto::ISigner value) ;
+constexpr void __set_s(Org::BouncyCastle::Crypto::ISigner value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::ISigner __get_s() const;
+constexpr Org::BouncyCastle::Crypto::ISigner __get_s() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "s", ty: "::Org::BouncyCastle::Crypto::ISigner", modifiers: "", def_value: None }]
-explicit ____Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream(::Org::BouncyCastle::Crypto::ISigner s) ;
+// Ctor Parameters [CppParam { name: "s", ty: "Org::BouncyCastle::Crypto::ISigner", modifiers: "", def_value: None }]
+explicit Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream(Org::BouncyCastle::Crypto::ISigner s) ;
 
 /// @brief Method .ctor addr 0xf09900 size 0x28 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::ISigner s) ;
+ void _ctor(Org::BouncyCastle::Crypto::ISigner s) ;
 
 /// @brief Method WriteByte addr 0xf09930 size 0xac virtual true final false
  void WriteByte(uint8_t b) ;
@@ -88,10 +87,10 @@ namespace Org::BouncyCastle::Crypto::Tls {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1277))
 // CS Name: Org.BouncyCastle.Crypto.Tls.SignerInputBuffer
-class CORDL_TYPE SignerInputBuffer : public ::System::IO::MemoryStream {
+class CORDL_TYPE SignerInputBuffer : public System::IO::MemoryStream {
 public:
 // Declarations
-using SigStream = ::Org::BouncyCastle::Crypto::Tls::____Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream;
+using SigStream = Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x50};
@@ -105,7 +104,7 @@ constexpr SignerInputBuffer(SignerInputBuffer const& ) noexcept = default;
 constexpr SignerInputBuffer(SignerInputBuffer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SignerInputBuffer(void* ptr) noexcept : ::System::IO::MemoryStream(ptr) {
+constexpr explicit SignerInputBuffer(void* ptr) noexcept : System::IO::MemoryStream(ptr) {
 }
 
 
@@ -127,7 +126,7 @@ constexpr explicit SignerInputBuffer(void* ptr) noexcept : ::System::IO::MemoryS
 // Methods
 
 /// @brief Method UpdateSigner addr 0xf09888 size 0x78 virtual false final false
- void UpdateSigner(::Org::BouncyCastle::Crypto::ISigner s) ;
+ void UpdateSigner(Org::BouncyCastle::Crypto::ISigner s) ;
 
 // Ctor Parameters []
 explicit SignerInputBuffer() ;
@@ -139,8 +138,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::SignerInputBuffer);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::SignerInputBuffer, "Org.BouncyCastle.Crypto.Tls", "SignerInputBuffer");
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::____Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::____Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream, "Org.BouncyCastle.Crypto.Tls", "SignerInputBuffer/SigStream");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream, "Org.BouncyCastle.Crypto.Tls", "SignerInputBuffer/SigStream");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::SignerInputBuffer);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::SignerInputBuffer, "Org.BouncyCastle.Crypto.Tls", "SignerInputBuffer");

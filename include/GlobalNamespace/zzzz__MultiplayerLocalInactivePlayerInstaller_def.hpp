@@ -1,10 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class RelativeSfxVolumePerLevelModel;
-}
 namespace GlobalNamespace {
 class GameplayCoreSceneSetupData;
 }
@@ -13,6 +9,9 @@ class AudioManagerSO;
 }
 namespace GlobalNamespace {
 class PerceivedLoudnessPerLevelModel;
+}
+namespace GlobalNamespace {
+class RelativeSfxVolumePerLevelModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,7 +23,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11080))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5262))
 // CS Name: MultiplayerLocalInactivePlayerInstaller
-class CORDL_TYPE MultiplayerLocalInactivePlayerInstaller : public ::Zenject::MonoInstaller {
+class CORDL_TYPE MultiplayerLocalInactivePlayerInstaller : public Zenject::MonoInstaller {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr MultiplayerLocalInactivePlayerInstaller(MultiplayerLocalInactivePlayer
 constexpr MultiplayerLocalInactivePlayerInstaller(MultiplayerLocalInactivePlayerInstaller&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerLocalInactivePlayerInstaller(void* ptr) noexcept : ::Zenject::MonoInstaller(ptr) {
+constexpr explicit MultiplayerLocalInactivePlayerInstaller(void* ptr) noexcept : Zenject::MonoInstaller(ptr) {
 }
 
 
@@ -60,29 +59,29 @@ constexpr explicit MultiplayerLocalInactivePlayerInstaller(void* ptr) noexcept :
 
 // Fields
 
- ::GlobalNamespace::AudioManagerSO __declspec(property(get=__get__audioManager, put=__set__audioManager))  _audioManager;
+ GlobalNamespace::AudioManagerSO __declspec(property(get=__get__audioManager, put=__set__audioManager))  _audioManager;
 
-constexpr void __set__audioManager(::GlobalNamespace::AudioManagerSO value) ;
+constexpr void __set__audioManager(GlobalNamespace::AudioManagerSO value) ;
 
-constexpr ::GlobalNamespace::AudioManagerSO __get__audioManager() const;
+constexpr GlobalNamespace::AudioManagerSO __get__audioManager() const;
 
- ::GlobalNamespace::GameplayCoreSceneSetupData __declspec(property(get=__get__sceneSetupData, put=__set__sceneSetupData))  _sceneSetupData;
+ GlobalNamespace::GameplayCoreSceneSetupData __declspec(property(get=__get__sceneSetupData, put=__set__sceneSetupData))  _sceneSetupData;
 
-constexpr void __set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData value) ;
+constexpr void __set__sceneSetupData(GlobalNamespace::GameplayCoreSceneSetupData value) ;
 
-constexpr ::GlobalNamespace::GameplayCoreSceneSetupData __get__sceneSetupData() const;
+constexpr GlobalNamespace::GameplayCoreSceneSetupData __get__sceneSetupData() const;
 
- ::GlobalNamespace::PerceivedLoudnessPerLevelModel __declspec(property(get=__get__beatmapLoudnessModel, put=__set__beatmapLoudnessModel))  _beatmapLoudnessModel;
+ GlobalNamespace::PerceivedLoudnessPerLevelModel __declspec(property(get=__get__beatmapLoudnessModel, put=__set__beatmapLoudnessModel))  _beatmapLoudnessModel;
 
-constexpr void __set__beatmapLoudnessModel(::GlobalNamespace::PerceivedLoudnessPerLevelModel value) ;
+constexpr void __set__beatmapLoudnessModel(GlobalNamespace::PerceivedLoudnessPerLevelModel value) ;
 
-constexpr ::GlobalNamespace::PerceivedLoudnessPerLevelModel __get__beatmapLoudnessModel() const;
+constexpr GlobalNamespace::PerceivedLoudnessPerLevelModel __get__beatmapLoudnessModel() const;
 
- ::GlobalNamespace::RelativeSfxVolumePerLevelModel __declspec(property(get=__get__relativeSfxVolumePerLevelModel, put=__set__relativeSfxVolumePerLevelModel))  _relativeSfxVolumePerLevelModel;
+ GlobalNamespace::RelativeSfxVolumePerLevelModel __declspec(property(get=__get__relativeSfxVolumePerLevelModel, put=__set__relativeSfxVolumePerLevelModel))  _relativeSfxVolumePerLevelModel;
 
-constexpr void __set__relativeSfxVolumePerLevelModel(::GlobalNamespace::RelativeSfxVolumePerLevelModel value) ;
+constexpr void __set__relativeSfxVolumePerLevelModel(GlobalNamespace::RelativeSfxVolumePerLevelModel value) ;
 
-constexpr ::GlobalNamespace::RelativeSfxVolumePerLevelModel __get__relativeSfxVolumePerLevelModel() const;
+constexpr GlobalNamespace::RelativeSfxVolumePerLevelModel __get__relativeSfxVolumePerLevelModel() const;
 
 
 // Methods
@@ -100,6 +99,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller, "", "MultiplayerLocalInactivePlayerInstaller");
+NEED_NO_BOX(GlobalNamespace::MultiplayerLocalInactivePlayerInstaller);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalInactivePlayerInstaller, "", "MultiplayerLocalInactivePlayerInstaller");

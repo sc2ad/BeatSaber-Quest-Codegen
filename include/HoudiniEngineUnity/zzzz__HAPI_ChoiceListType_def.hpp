@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HAPI_ChoiceListType;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field HAPI_CHOICELISTTYPE_NONE offset 0
-static ::HoudiniEngineUnity::HAPI_ChoiceListType const HAPI_CHOICELISTTYPE_NONE;
+static HoudiniEngineUnity::HAPI_ChoiceListType const HAPI_CHOICELISTTYPE_NONE;
 
 /// @brief Field HAPI_CHOICELISTTYPE_NORMAL offset 0
-static ::HoudiniEngineUnity::HAPI_ChoiceListType const HAPI_CHOICELISTTYPE_NORMAL;
+static HoudiniEngineUnity::HAPI_ChoiceListType const HAPI_CHOICELISTTYPE_NORMAL;
 
 /// @brief Field HAPI_CHOICELISTTYPE_MINI offset 0
-static ::HoudiniEngineUnity::HAPI_ChoiceListType const HAPI_CHOICELISTTYPE_MINI;
+static HoudiniEngineUnity::HAPI_ChoiceListType const HAPI_CHOICELISTTYPE_MINI;
 
 /// @brief Field HAPI_CHOICELISTTYPE_REPLACE offset 0
-static ::HoudiniEngineUnity::HAPI_ChoiceListType const HAPI_CHOICELISTTYPE_REPLACE;
+static HoudiniEngineUnity::HAPI_ChoiceListType const HAPI_CHOICELISTTYPE_REPLACE;
 
 /// @brief Field HAPI_CHOICELISTTYPE_TOGGLE offset 0
-static ::HoudiniEngineUnity::HAPI_ChoiceListType const HAPI_CHOICELISTTYPE_TOGGLE;
+static HoudiniEngineUnity::HAPI_ChoiceListType const HAPI_CHOICELISTTYPE_TOGGLE;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_ChoiceListType, "HoudiniEngineUnity", "HAPI_ChoiceListType");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_ChoiceListType, "HoudiniEngineUnity", "HAPI_ChoiceListType");

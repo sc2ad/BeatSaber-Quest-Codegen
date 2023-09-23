@@ -5,16 +5,15 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Xml {
 class IXmlNamespaceResolver;
 }
 // Forward declare root types
 namespace System::Xml {
-class XmlQualifiedName;
+class System__Xml__XmlQualifiedName__HashCodeOfStringDelegate;
 }
 namespace System::Xml {
-class ____System__Xml__XmlQualifiedName__HashCodeOfStringDelegate;
+class XmlQualifiedName;
 }
 // Type: ::HashCodeOfStringDelegate
 namespace System::Xml {
@@ -22,44 +21,44 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11514))
 // CS Name: System.Xml.XmlQualifiedName::HashCodeOfStringDelegate
-class CORDL_TYPE ____System__Xml__XmlQualifiedName__HashCodeOfStringDelegate : public ::System::MulticastDelegate {
+class CORDL_TYPE System__Xml__XmlQualifiedName__HashCodeOfStringDelegate : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x80};
 
-virtual ~____System__Xml__XmlQualifiedName__HashCodeOfStringDelegate() = default;
+virtual ~System__Xml__XmlQualifiedName__HashCodeOfStringDelegate() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Xml__XmlQualifiedName__HashCodeOfStringDelegate", modifiers: " const&", def_value: None }]
-constexpr ____System__Xml__XmlQualifiedName__HashCodeOfStringDelegate(____System__Xml__XmlQualifiedName__HashCodeOfStringDelegate const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Xml__XmlQualifiedName__HashCodeOfStringDelegate", modifiers: " const&", def_value: None }]
+constexpr System__Xml__XmlQualifiedName__HashCodeOfStringDelegate(System__Xml__XmlQualifiedName__HashCodeOfStringDelegate const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Xml__XmlQualifiedName__HashCodeOfStringDelegate", modifiers: "&&", def_value: None }]
-constexpr ____System__Xml__XmlQualifiedName__HashCodeOfStringDelegate(____System__Xml__XmlQualifiedName__HashCodeOfStringDelegate&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Xml__XmlQualifiedName__HashCodeOfStringDelegate", modifiers: "&&", def_value: None }]
+constexpr System__Xml__XmlQualifiedName__HashCodeOfStringDelegate(System__Xml__XmlQualifiedName__HashCodeOfStringDelegate&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Xml__XmlQualifiedName__HashCodeOfStringDelegate(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit System__Xml__XmlQualifiedName__HashCodeOfStringDelegate(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
-  constexpr ____System__Xml__XmlQualifiedName__HashCodeOfStringDelegate& operator=(std::nullptr_t) noexcept {
+  constexpr System__Xml__XmlQualifiedName__HashCodeOfStringDelegate& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Xml__XmlQualifiedName__HashCodeOfStringDelegate& operator=(void* o) noexcept {
+  constexpr System__Xml__XmlQualifiedName__HashCodeOfStringDelegate& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Xml__XmlQualifiedName__HashCodeOfStringDelegate& operator=(____System__Xml__XmlQualifiedName__HashCodeOfStringDelegate&& o) noexcept = default;
-  constexpr ____System__Xml__XmlQualifiedName__HashCodeOfStringDelegate& operator=(____System__Xml__XmlQualifiedName__HashCodeOfStringDelegate const& o) noexcept = default;
+  constexpr System__Xml__XmlQualifiedName__HashCodeOfStringDelegate& operator=(System__Xml__XmlQualifiedName__HashCodeOfStringDelegate&& o) noexcept = default;
+  constexpr System__Xml__XmlQualifiedName__HashCodeOfStringDelegate& operator=(System__Xml__XmlQualifiedName__HashCodeOfStringDelegate const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit ____System__Xml__XmlQualifiedName__HashCodeOfStringDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+explicit System__Xml__XmlQualifiedName__HashCodeOfStringDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2715608 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -80,7 +79,7 @@ namespace System::Xml {
 class CORDL_TYPE XmlQualifiedName : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using HashCodeOfStringDelegate = ::System::Xml::____System__Xml__XmlQualifiedName__HashCodeOfStringDelegate;
+using HashCodeOfStringDelegate = System::Xml::System__Xml__XmlQualifiedName__HashCodeOfStringDelegate;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -115,11 +114,11 @@ constexpr explicit XmlQualifiedName(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
-static ::System::Xml::____System__Xml__XmlQualifiedName__HashCodeOfStringDelegate __declspec(property(get=__get_hashCodeDelegate, put=__set_hashCodeDelegate))  hashCodeDelegate;
+static System::Xml::System__Xml__XmlQualifiedName__HashCodeOfStringDelegate __declspec(property(get=__get_hashCodeDelegate, put=__set_hashCodeDelegate))  hashCodeDelegate;
 
-static void __set_hashCodeDelegate(::System::Xml::____System__Xml__XmlQualifiedName__HashCodeOfStringDelegate value) ;
+static void __set_hashCodeDelegate(System::Xml::System__Xml__XmlQualifiedName__HashCodeOfStringDelegate value) ;
 
-static ::System::Xml::____System__Xml__XmlQualifiedName__HashCodeOfStringDelegate __get_hashCodeDelegate() ;
+static System::Xml::System__Xml__XmlQualifiedName__HashCodeOfStringDelegate __get_hashCodeDelegate() ;
 
  ::StringW __declspec(property(get=__get_name, put=__set_name))  name;
 
@@ -139,11 +138,11 @@ constexpr void __set_hash(int32_t value) ;
 
 constexpr int32_t __get_hash() const;
 
-static ::System::Xml::XmlQualifiedName __declspec(property(get=__get_Empty, put=__set_Empty))  Empty;
+static System::Xml::XmlQualifiedName __declspec(property(get=__get_Empty, put=__set_Empty))  Empty;
 
-static void __set_Empty(::System::Xml::XmlQualifiedName value) ;
+static void __set_Empty(System::Xml::XmlQualifiedName value) ;
 
-static ::System::Xml::XmlQualifiedName __get_Empty() ;
+static System::Xml::XmlQualifiedName __get_Empty() ;
 
 
 // Properties
@@ -194,13 +193,13 @@ explicit XmlQualifiedName(::StringW name, ::StringW ns) ;
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
 
 /// @brief Method op_Equality addr 0x2715598 size 0x68 virtual false final false
-static bool op_Equality(::System::Xml::XmlQualifiedName a, ::System::Xml::XmlQualifiedName b) ;
+static bool op_Equality(System::Xml::XmlQualifiedName a, System::Xml::XmlQualifiedName b) ;
 
 /// @brief Method op_Inequality addr 0x2715528 size 0x70 virtual false final false
-static bool op_Inequality(::System::Xml::XmlQualifiedName a, ::System::Xml::XmlQualifiedName b) ;
+static bool op_Inequality(System::Xml::XmlQualifiedName a, System::Xml::XmlQualifiedName b) ;
 
 /// @brief Method GetHashCodeDelegate addr 0x2715220 size 0x17c virtual false final false
-static ::System::Xml::____System__Xml__XmlQualifiedName__HashCodeOfStringDelegate GetHashCodeDelegate() ;
+static System::Xml::System__Xml__XmlQualifiedName__HashCodeOfStringDelegate GetHashCodeDelegate() ;
 
 /// @brief Method IsRandomizedHashingDisabled addr 0x2715600 size 0x8 virtual false final false
 static bool IsRandomizedHashingDisabled() ;
@@ -212,14 +211,13 @@ static int32_t GetHashCodeOfString(::StringW s, int32_t length, int64_t addition
  void Init(::StringW name, ::StringW ns) ;
 
 /// @brief Method Parse addr 0x2715708 size 0x1b4 virtual false final false
-static ::System::Xml::XmlQualifiedName Parse(::StringW s, ::System::Xml::IXmlNamespaceResolver nsmgr, ByRef<::StringW> prefix) ;
+static System::Xml::XmlQualifiedName Parse(::StringW s, System::Xml::IXmlNamespaceResolver nsmgr, ByRef<::StringW> prefix) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::XmlQualifiedName);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlQualifiedName, "System.Xml", "XmlQualifiedName");
-NEED_NO_BOX(::System::Xml::____System__Xml__XmlQualifiedName__HashCodeOfStringDelegate);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::____System__Xml__XmlQualifiedName__HashCodeOfStringDelegate, "System.Xml", "XmlQualifiedName/HashCodeOfStringDelegate");
+NEED_NO_BOX(System::Xml::System__Xml__XmlQualifiedName__HashCodeOfStringDelegate);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::System__Xml__XmlQualifiedName__HashCodeOfStringDelegate, "System.Xml", "XmlQualifiedName/HashCodeOfStringDelegate");
+NEED_NO_BOX(System::Xml::XmlQualifiedName);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlQualifiedName, "System.Xml", "XmlQualifiedName");

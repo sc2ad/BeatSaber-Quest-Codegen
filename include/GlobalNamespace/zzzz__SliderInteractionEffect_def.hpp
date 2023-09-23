@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
 class SliderInteractionManager;
 }
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4934))
 // CS Name: SliderInteractionEffect
-class CORDL_TYPE SliderInteractionEffect : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SliderInteractionEffect : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr SliderInteractionEffect(SliderInteractionEffect const& ) noexcept = de
 constexpr SliderInteractionEffect(SliderInteractionEffect&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SliderInteractionEffect(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SliderInteractionEffect(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -55,18 +54,18 @@ constexpr explicit SliderInteractionEffect(void* ptr) noexcept : ::UnityEngine::
 
 // Fields
 
- ::GlobalNamespace::SliderInteractionManager __declspec(property(get=__get__sliderInteractionManager, put=__set__sliderInteractionManager))  _sliderInteractionManager;
+ GlobalNamespace::SliderInteractionManager __declspec(property(get=__get__sliderInteractionManager, put=__set__sliderInteractionManager))  _sliderInteractionManager;
 
-constexpr void __set__sliderInteractionManager(::GlobalNamespace::SliderInteractionManager value) ;
+constexpr void __set__sliderInteractionManager(GlobalNamespace::SliderInteractionManager value) ;
 
-constexpr ::GlobalNamespace::SliderInteractionManager __get__sliderInteractionManager() const;
+constexpr GlobalNamespace::SliderInteractionManager __get__sliderInteractionManager() const;
 
 
 // Properties
 
  float_t __declspec(property(get=get_saberInteractionParam))  saberInteractionParam;
 
- ::GlobalNamespace::ColorType __declspec(property(get=get_colorType))  colorType;
+ GlobalNamespace::ColorType __declspec(property(get=get_colorType))  colorType;
 
 
 // Methods
@@ -75,7 +74,7 @@ constexpr ::GlobalNamespace::SliderInteractionManager __get__sliderInteractionMa
  float_t get_saberInteractionParam() ;
 
 /// @brief Method get_colorType addr 0x224a104 size 0x1c virtual false final false
- ::GlobalNamespace::ColorType get_colorType() ;
+ GlobalNamespace::ColorType get_colorType() ;
 
 /// @brief Method Start addr 0x224a018 size 0xec virtual true final false
  void Start() ;
@@ -105,6 +104,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SliderInteractionEffect);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SliderInteractionEffect, "", "SliderInteractionEffect");
+NEED_NO_BOX(GlobalNamespace::SliderInteractionEffect);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SliderInteractionEffect, "", "SliderInteractionEffect");

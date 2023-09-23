@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Tweening/zzzz__TweeningManager_def.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
 class IAudioTimeSource;
 }
@@ -16,7 +15,7 @@ namespace Tweening {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15938))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6147))
 // CS Name: Tweening.SongTimeTweeningManager
-class CORDL_TYPE SongTimeTweeningManager : public ::Tweening::TweeningManager {
+class CORDL_TYPE SongTimeTweeningManager : public Tweening::TweeningManager {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr SongTimeTweeningManager(SongTimeTweeningManager const& ) noexcept = de
 constexpr SongTimeTweeningManager(SongTimeTweeningManager&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SongTimeTweeningManager(void* ptr) noexcept : ::Tweening::TweeningManager(ptr) {
+constexpr explicit SongTimeTweeningManager(void* ptr) noexcept : Tweening::TweeningManager(ptr) {
 }
 
 
@@ -52,11 +51,11 @@ constexpr explicit SongTimeTweeningManager(void* ptr) noexcept : ::Tweening::Twe
 
 // Fields
 
- ::GlobalNamespace::IAudioTimeSource __declspec(property(get=__get__audioTimeSource, put=__set__audioTimeSource))  _audioTimeSource;
+ GlobalNamespace::IAudioTimeSource __declspec(property(get=__get__audioTimeSource, put=__set__audioTimeSource))  _audioTimeSource;
 
-constexpr void __set__audioTimeSource(::GlobalNamespace::IAudioTimeSource value) ;
+constexpr void __set__audioTimeSource(GlobalNamespace::IAudioTimeSource value) ;
 
-constexpr ::GlobalNamespace::IAudioTimeSource __get__audioTimeSource() const;
+constexpr GlobalNamespace::IAudioTimeSource __get__audioTimeSource() const;
 
 
 // Methods
@@ -74,6 +73,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Tweening
-} // end anonymous namespace
-NEED_NO_BOX(::Tweening::SongTimeTweeningManager);
-DEFINE_IL2CPP_ARG_TYPE(::Tweening::SongTimeTweeningManager, "Tweening", "SongTimeTweeningManager");
+NEED_NO_BOX(Tweening::SongTimeTweeningManager);
+DEFINE_IL2CPP_ARG_TYPE(Tweening::SongTimeTweeningManager, "Tweening", "SongTimeTweeningManager");

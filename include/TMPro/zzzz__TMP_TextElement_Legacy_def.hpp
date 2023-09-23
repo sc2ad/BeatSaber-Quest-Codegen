@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace TMPro {
 class TMP_TextElement_Legacy;
@@ -117,6 +116,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-NEED_NO_BOX(::TMPro::TMP_TextElement_Legacy);
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_TextElement_Legacy, "TMPro", "TMP_TextElement_Legacy");
+NEED_NO_BOX(TMPro::TMP_TextElement_Legacy);
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextElement_Legacy, "TMPro", "TMP_TextElement_Legacy");

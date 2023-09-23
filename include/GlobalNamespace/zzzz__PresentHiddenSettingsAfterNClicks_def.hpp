@@ -2,10 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine::UI {
-class Button;
-}
 namespace HMUI {
 class ViewController;
 }
@@ -14,6 +10,9 @@ class SettingsFlowCoordinator;
 }
 namespace HMUI {
 class ButtonBinder;
+}
+namespace UnityEngine::UI {
+class Button;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,7 +24,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5700))
 // CS Name: PresentHiddenSettingsAfterNClicks
-class CORDL_TYPE PresentHiddenSettingsAfterNClicks : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE PresentHiddenSettingsAfterNClicks : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr PresentHiddenSettingsAfterNClicks(PresentHiddenSettingsAfterNClicks co
 constexpr PresentHiddenSettingsAfterNClicks(PresentHiddenSettingsAfterNClicks&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PresentHiddenSettingsAfterNClicks(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit PresentHiddenSettingsAfterNClicks(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -61,17 +60,17 @@ constexpr explicit PresentHiddenSettingsAfterNClicks(void* ptr) noexcept : ::Uni
 
 // Fields
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__hiddenSettingsButton, put=__set__hiddenSettingsButton))  _hiddenSettingsButton;
+ UnityEngine::UI::Button __declspec(property(get=__get__hiddenSettingsButton, put=__set__hiddenSettingsButton))  _hiddenSettingsButton;
 
-constexpr void __set__hiddenSettingsButton(::UnityEngine::UI::Button value) ;
+constexpr void __set__hiddenSettingsButton(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__hiddenSettingsButton() const;
+constexpr UnityEngine::UI::Button __get__hiddenSettingsButton() const;
 
- ::HMUI::ViewController __declspec(property(get=__get__hiddenSettingsViewController, put=__set__hiddenSettingsViewController))  _hiddenSettingsViewController;
+ HMUI::ViewController __declspec(property(get=__get__hiddenSettingsViewController, put=__set__hiddenSettingsViewController))  _hiddenSettingsViewController;
 
-constexpr void __set__hiddenSettingsViewController(::HMUI::ViewController value) ;
+constexpr void __set__hiddenSettingsViewController(HMUI::ViewController value) ;
 
-constexpr ::HMUI::ViewController __get__hiddenSettingsViewController() const;
+constexpr HMUI::ViewController __get__hiddenSettingsViewController() const;
 
  int32_t __declspec(property(get=__get__numberOfClicksRequired, put=__set__numberOfClicksRequired))  _numberOfClicksRequired;
 
@@ -79,11 +78,11 @@ constexpr void __set__numberOfClicksRequired(int32_t value) ;
 
 constexpr int32_t __get__numberOfClicksRequired() const;
 
- ::GlobalNamespace::SettingsFlowCoordinator __declspec(property(get=__get__settingsFlowCoordinator, put=__set__settingsFlowCoordinator))  _settingsFlowCoordinator;
+ GlobalNamespace::SettingsFlowCoordinator __declspec(property(get=__get__settingsFlowCoordinator, put=__set__settingsFlowCoordinator))  _settingsFlowCoordinator;
 
-constexpr void __set__settingsFlowCoordinator(::GlobalNamespace::SettingsFlowCoordinator value) ;
+constexpr void __set__settingsFlowCoordinator(GlobalNamespace::SettingsFlowCoordinator value) ;
 
-constexpr ::GlobalNamespace::SettingsFlowCoordinator __get__settingsFlowCoordinator() const;
+constexpr GlobalNamespace::SettingsFlowCoordinator __get__settingsFlowCoordinator() const;
 
  int32_t __declspec(property(get=__get__currentNumberOfClicks, put=__set__currentNumberOfClicks))  _currentNumberOfClicks;
 
@@ -91,11 +90,11 @@ constexpr void __set__currentNumberOfClicks(int32_t value) ;
 
 constexpr int32_t __get__currentNumberOfClicks() const;
 
- ::HMUI::ButtonBinder __declspec(property(get=__get__buttonBinder, put=__set__buttonBinder))  _buttonBinder;
+ HMUI::ButtonBinder __declspec(property(get=__get__buttonBinder, put=__set__buttonBinder))  _buttonBinder;
 
-constexpr void __set__buttonBinder(::HMUI::ButtonBinder value) ;
+constexpr void __set__buttonBinder(HMUI::ButtonBinder value) ;
 
-constexpr ::HMUI::ButtonBinder __get__buttonBinder() const;
+constexpr HMUI::ButtonBinder __get__buttonBinder() const;
 
 
 // Methods
@@ -119,6 +118,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PresentHiddenSettingsAfterNClicks);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PresentHiddenSettingsAfterNClicks, "", "PresentHiddenSettingsAfterNClicks");
+NEED_NO_BOX(GlobalNamespace::PresentHiddenSettingsAfterNClicks);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PresentHiddenSettingsAfterNClicks, "", "PresentHiddenSettingsAfterNClicks");

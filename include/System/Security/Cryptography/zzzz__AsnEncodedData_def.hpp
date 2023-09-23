@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Security::Cryptography {
 class Oid;
 }
@@ -54,11 +53,11 @@ constexpr explicit AsnEncodedData(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
- ::System::Security::Cryptography::Oid __declspec(property(get=__get__oid, put=__set__oid))  _oid;
+ System::Security::Cryptography::Oid __declspec(property(get=__get__oid, put=__set__oid))  _oid;
 
-constexpr void __set__oid(::System::Security::Cryptography::Oid value) ;
+constexpr void __set__oid(System::Security::Cryptography::Oid value) ;
 
-constexpr ::System::Security::Cryptography::Oid __get__oid() const;
+constexpr System::Security::Cryptography::Oid __get__oid() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get__raw, put=__set__raw))  _raw;
 
@@ -69,7 +68,7 @@ constexpr ::ArrayW<uint8_t> __get__raw() const;
 
 // Properties
 
- ::System::Security::Cryptography::Oid __declspec(property(get=get_Oid, put=set_Oid))  Oid;
+ System::Security::Cryptography::Oid __declspec(property(get=get_Oid, put=set_Oid))  Oid;
 
  ::ArrayW<uint8_t> __declspec(property(get=get_RawData, put=set_RawData))  RawData;
 
@@ -88,23 +87,23 @@ explicit AsnEncodedData(::StringW oid, ::ArrayW<uint8_t> rawData) ;
 /// @brief Method .ctor addr 0x27e3c94 size 0x84 virtual false final false
  void _ctor(::StringW oid, ::ArrayW<uint8_t> rawData) ;
 
-// Ctor Parameters [CppParam { name: "oid", ty: "::System::Security::Cryptography::Oid", modifiers: "", def_value: None }, CppParam { name: "rawData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit AsnEncodedData(::System::Security::Cryptography::Oid oid, ::ArrayW<uint8_t> rawData) ;
+// Ctor Parameters [CppParam { name: "oid", ty: "System::Security::Cryptography::Oid", modifiers: "", def_value: None }, CppParam { name: "rawData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
+explicit AsnEncodedData(System::Security::Cryptography::Oid oid, ::ArrayW<uint8_t> rawData) ;
 
 /// @brief Method .ctor addr 0x27e3e0c size 0x3c virtual false final false
- void _ctor(::System::Security::Cryptography::Oid oid, ::ArrayW<uint8_t> rawData) ;
+ void _ctor(System::Security::Cryptography::Oid oid, ::ArrayW<uint8_t> rawData) ;
 
-// Ctor Parameters [CppParam { name: "asnEncodedData", ty: "::System::Security::Cryptography::AsnEncodedData", modifiers: "", def_value: None }]
-explicit AsnEncodedData(::System::Security::Cryptography::AsnEncodedData asnEncodedData) ;
+// Ctor Parameters [CppParam { name: "asnEncodedData", ty: "System::Security::Cryptography::AsnEncodedData", modifiers: "", def_value: None }]
+explicit AsnEncodedData(System::Security::Cryptography::AsnEncodedData asnEncodedData) ;
 
 /// @brief Method .ctor addr 0x27e3eb8 size 0xe0 virtual false final false
- void _ctor(::System::Security::Cryptography::AsnEncodedData asnEncodedData) ;
+ void _ctor(System::Security::Cryptography::AsnEncodedData asnEncodedData) ;
 
 /// @brief Method get_Oid addr 0x27e3f98 size 0x8 virtual false final false
- ::System::Security::Cryptography::Oid get_Oid() ;
+ System::Security::Cryptography::Oid get_Oid() ;
 
 /// @brief Method set_Oid addr 0x27e3e48 size 0x70 virtual false final false
- void set_Oid(::System::Security::Cryptography::Oid value) ;
+ void set_Oid(System::Security::Cryptography::Oid value) ;
 
 /// @brief Method get_RawData addr 0x27e3fa0 size 0x8 virtual false final false
  ::ArrayW<uint8_t> get_RawData() ;
@@ -113,7 +112,7 @@ explicit AsnEncodedData(::System::Security::Cryptography::AsnEncodedData asnEnco
  void set_RawData(::ArrayW<uint8_t> value) ;
 
 /// @brief Method CopyFrom addr 0x27e3fa8 size 0xfc virtual true final false
- void CopyFrom(::System::Security::Cryptography::AsnEncodedData asnEncodedData) ;
+ void CopyFrom(System::Security::Cryptography::AsnEncodedData asnEncodedData) ;
 
 /// @brief Method Format addr 0x27e40a4 size 0x90 virtual true final false
  ::StringW Format(bool multiLine) ;
@@ -146,6 +145,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::AsnEncodedData);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::AsnEncodedData, "System.Security.Cryptography", "AsnEncodedData");
+NEED_NO_BOX(System::Security::Cryptography::AsnEncodedData);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::AsnEncodedData, "System.Security.Cryptography", "AsnEncodedData");

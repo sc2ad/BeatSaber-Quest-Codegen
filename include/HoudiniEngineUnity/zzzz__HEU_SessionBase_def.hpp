@@ -6,120 +6,119 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace HoudiniEngineUnity {
-struct HAPI_CacheProperty;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_HeightFieldSampling;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_PartInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_ImageInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_SessionEnvIntType;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_ParmChoiceInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_VolumeTileInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_AttributeOwner;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_VolumeInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_CurveInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_NodeInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_BoxInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_Transform;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_AssetInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_State;
-}
-namespace HoudiniEngineUnity {
-struct SessionConnectionState;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_StatusVerbosity;
-}
 namespace HoudiniEngineUnity {
 struct HAPI_EnvIntType;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_SessionSyncInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_GeoInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_ObjectInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_Result;
-}
-namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_Viewport;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_AttributeInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_XYZOrder;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_GroupType;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_StatusType;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_CookOptions;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_HandleBindingInfo;
-}
-namespace HoudiniEngineUnity {
-struct SessionMode;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_SphereInfo;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_ParmInfo;
 }
 namespace HoudiniEngineUnity {
+class HEU_HoudiniAsset;
+}
+namespace HoudiniEngineUnity {
 struct HAPI_MaterialInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_HandleInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_VolumeInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_ParmChoiceInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_SphereInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_StatusVerbosity;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_HandleBindingInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_SessionEnvIntType;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_ObjectInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_PartInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_VolumeTileInfo;
 }
 namespace HoudiniEngineUnity {
 class HEU_SessionData;
 }
 namespace HoudiniEngineUnity {
+struct HAPI_GroupType;
+}
+namespace HoudiniEngineUnity {
+struct SessionMode;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_CurveInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_State;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_NodeInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_StatusType;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_HeightFieldSampling;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_Result;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_CookOptions;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_Transform;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_AttributeOwner;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_BoxInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_GeoInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_AttributeInfo;
+}
+namespace HoudiniEngineUnity {
+struct SessionConnectionState;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_ImageInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_CacheProperty;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_SessionSyncInfo;
+}
+namespace HoudiniEngineUnity {
 struct HAPI_RSTOrder;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_TransformEuler;
+struct HAPI_XYZOrder;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_HandleInfo;
+struct HAPI_Viewport;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_AssetInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_TransformEuler;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -167,11 +166,11 @@ constexpr explicit HEU_SessionBase(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Fields
 
- ::HoudiniEngineUnity::HEU_SessionData __declspec(property(get=__get__sessionData, put=__set__sessionData))  _sessionData;
+ HoudiniEngineUnity::HEU_SessionData __declspec(property(get=__get__sessionData, put=__set__sessionData))  _sessionData;
 
-constexpr void __set__sessionData(::HoudiniEngineUnity::HEU_SessionData value) ;
+constexpr void __set__sessionData(HoudiniEngineUnity::HEU_SessionData value) ;
 
-constexpr ::HoudiniEngineUnity::HEU_SessionData __get__sessionData() const;
+constexpr HoudiniEngineUnity::HEU_SessionData __get__sessionData() const;
 
  bool __declspec(property(get=__get__UserNotifiedSessionInvalid_k__BackingField, put=__set__UserNotifiedSessionInvalid_k__BackingField))  _UserNotifiedSessionInvalid_k__BackingField;
 
@@ -197,26 +196,26 @@ constexpr void __set__ThrowErrorOverride_k__BackingField(bool value) ;
 
 constexpr bool __get__ThrowErrorOverride_k__BackingField() const;
 
- ::HoudiniEngineUnity::HAPI_Result __declspec(property(get=__get__LastCallResultCode_k__BackingField, put=__set__LastCallResultCode_k__BackingField))  _LastCallResultCode_k__BackingField;
+ HoudiniEngineUnity::HAPI_Result __declspec(property(get=__get__LastCallResultCode_k__BackingField, put=__set__LastCallResultCode_k__BackingField))  _LastCallResultCode_k__BackingField;
 
-constexpr void __set__LastCallResultCode_k__BackingField(::HoudiniEngineUnity::HAPI_Result value) ;
+constexpr void __set__LastCallResultCode_k__BackingField(HoudiniEngineUnity::HAPI_Result value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_Result __get__LastCallResultCode_k__BackingField() const;
+constexpr HoudiniEngineUnity::HAPI_Result __get__LastCallResultCode_k__BackingField() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_UserNotifiedSessionInvalid, put=set_UserNotifiedSessionInvalid))  UserNotifiedSessionInvalid;
 
- ::HoudiniEngineUnity::SessionConnectionState __declspec(property(get=get_ConnectionState, put=set_ConnectionState))  ConnectionState;
+ HoudiniEngineUnity::SessionConnectionState __declspec(property(get=get_ConnectionState, put=set_ConnectionState))  ConnectionState;
 
- ::HoudiniEngineUnity::SessionMode __declspec(property(get=get_ThisSessionMode, put=set_ThisSessionMode))  ThisSessionMode;
+ HoudiniEngineUnity::SessionMode __declspec(property(get=get_ThisSessionMode, put=set_ThisSessionMode))  ThisSessionMode;
 
  bool __declspec(property(get=get_LogErrorOverride, put=set_LogErrorOverride))  LogErrorOverride;
 
  bool __declspec(property(get=get_ThrowErrorOverride, put=set_ThrowErrorOverride))  ThrowErrorOverride;
 
- ::HoudiniEngineUnity::HAPI_Result __declspec(property(get=get_LastCallResultCode, put=set_LastCallResultCode))  LastCallResultCode;
+ HoudiniEngineUnity::HAPI_Result __declspec(property(get=get_LastCallResultCode, put=set_LastCallResultCode))  LastCallResultCode;
 
 
 // Methods
@@ -228,16 +227,16 @@ constexpr ::HoudiniEngineUnity::HAPI_Result __get__LastCallResultCode_k__Backing
  void set_UserNotifiedSessionInvalid(bool value) ;
 
 /// @brief Method get_ConnectionState addr 0x20301a0 size 0x18 virtual false final false
- ::HoudiniEngineUnity::SessionConnectionState get_ConnectionState() ;
+ HoudiniEngineUnity::SessionConnectionState get_ConnectionState() ;
 
 /// @brief Method set_ConnectionState addr 0x20301b8 size 0x10 virtual false final false
- void set_ConnectionState(::HoudiniEngineUnity::SessionConnectionState value) ;
+ void set_ConnectionState(HoudiniEngineUnity::SessionConnectionState value) ;
 
 /// @brief Method get_ThisSessionMode addr 0x20301c8 size 0x18 virtual false final false
- ::HoudiniEngineUnity::SessionMode get_ThisSessionMode() ;
+ HoudiniEngineUnity::SessionMode get_ThisSessionMode() ;
 
 /// @brief Method set_ThisSessionMode addr 0x20301e0 size 0x10 virtual false final false
- void set_ThisSessionMode(::HoudiniEngineUnity::SessionMode value) ;
+ void set_ThisSessionMode(HoudiniEngineUnity::SessionMode value) ;
 
 /// @brief Method GetSessionErrorMsg addr 0x20301f0 size 0x8 virtual false final false
  ::StringW GetSessionErrorMsg() ;
@@ -258,25 +257,25 @@ constexpr ::HoudiniEngineUnity::HAPI_Result __get__LastCallResultCode_k__Backing
  bool IsSessionSync() ;
 
 /// @brief Method get_LastCallResultCode addr 0x2030250 size 0x8 virtual false final false
- ::HoudiniEngineUnity::HAPI_Result get_LastCallResultCode() ;
+ HoudiniEngineUnity::HAPI_Result get_LastCallResultCode() ;
 
 /// @brief Method set_LastCallResultCode addr 0x2030258 size 0x8 virtual false final false
- void set_LastCallResultCode(::HoudiniEngineUnity::HAPI_Result value) ;
+ void set_LastCallResultCode(HoudiniEngineUnity::HAPI_Result value) ;
 
 /// @brief Method GetRegisteredAssetFromID addr 0x2030260 size 0x8 virtual true final false
- ::HoudiniEngineUnity::HEU_HoudiniAsset GetRegisteredAssetFromID(int32_t id) ;
+ HoudiniEngineUnity::HEU_HoudiniAsset GetRegisteredAssetFromID(int32_t id) ;
 
 /// @brief Method IsAssetRegistered addr 0x2030268 size 0x8 virtual true final false
- bool IsAssetRegistered(::HoudiniEngineUnity::HEU_HoudiniAsset asset) ;
+ bool IsAssetRegistered(HoudiniEngineUnity::HEU_HoudiniAsset asset) ;
 
 /// @brief Method RegisterAsset addr 0x2030270 size 0x4 virtual true final false
- void RegisterAsset(::HoudiniEngineUnity::HEU_HoudiniAsset asset) ;
+ void RegisterAsset(HoudiniEngineUnity::HEU_HoudiniAsset asset) ;
 
 /// @brief Method UnregisterAsset addr 0x2030274 size 0x4 virtual true final false
  void UnregisterAsset(int32_t id) ;
 
 /// @brief Method ReregisterOnAwake addr 0x2030278 size 0x4 virtual true final false
- void ReregisterOnAwake(::HoudiniEngineUnity::HEU_HoudiniAsset asset) ;
+ void ReregisterOnAwake(HoudiniEngineUnity::HEU_HoudiniAsset asset) ;
 
 // Ctor Parameters []
 explicit HEU_SessionBase() ;
@@ -288,7 +287,7 @@ explicit HEU_SessionBase() ;
  void SetSessionErrorMsg(::StringW msg, bool bLogError) ;
 
 /// @brief Method SetSessionConnectionErrorMsg addr 0x20302bc size 0x264 virtual true final false
- void SetSessionConnectionErrorMsg(::StringW introMsg, ::HoudiniEngineUnity::HAPI_Result result, bool bIsHARSRunning, bool bLogError) ;
+ void SetSessionConnectionErrorMsg(::StringW introMsg, HoudiniEngineUnity::HAPI_Result result, bool bIsHARSRunning, bool bLogError) ;
 
 /// @brief Method SetLibraryErrorMsg addr 0x2030560 size 0xb8 virtual true final false
  void SetLibraryErrorMsg(bool bLogError) ;
@@ -324,10 +323,10 @@ explicit HEU_SessionBase() ;
  void ClearSessionInfo() ;
 
 /// @brief Method SetSessionData addr 0x2030688 size 0x8 virtual false final false
- void SetSessionData(::HoudiniEngineUnity::HEU_SessionData sessionData) ;
+ void SetSessionData(HoudiniEngineUnity::HEU_SessionData sessionData) ;
 
 /// @brief Method GetSessionData addr 0x2030690 size 0x8 virtual false final false
- ::HoudiniEngineUnity::HEU_SessionData GetSessionData() ;
+ HoudiniEngineUnity::HEU_SessionData GetSessionData() ;
 
 /// @brief Method GetSessionInfo addr 0x2030698 size 0x40 virtual true final false
  ::StringW GetSessionInfo() ;
@@ -345,10 +344,10 @@ explicit HEU_SessionBase() ;
  bool CheckVersionMatch() ;
 
 /// @brief Method InitializeSession addr 0x20306f8 size 0x8 virtual true final false
- bool InitializeSession(::HoudiniEngineUnity::HEU_SessionData sessionData) ;
+ bool InitializeSession(HoudiniEngineUnity::HEU_SessionData sessionData) ;
 
 /// @brief Method HandleStatusResult addr 0x2030700 size 0x8 virtual true final false
- bool HandleStatusResult(::HoudiniEngineUnity::HAPI_Result result, ::StringW prependMsg, bool bThrowError, bool bLogError) ;
+ bool HandleStatusResult(HoudiniEngineUnity::HAPI_Result result, ::StringW prependMsg, bool bThrowError, bool bLogError) ;
 
 /// @brief Method SetServerEnvString addr 0x2030708 size 0x4 virtual true final false
  void SetServerEnvString(::StringW name, ::StringW value) ;
@@ -360,25 +359,25 @@ explicit HEU_SessionBase() ;
  bool GetServerEnvVarCount(ByRef<int32_t> env_count) ;
 
 /// @brief Method GetCallResult addr 0x2030724 size 0xc virtual true final false
- bool GetCallResult(ByRef<::HoudiniEngineUnity::HAPI_Result> result) ;
+ bool GetCallResult(ByRef<HoudiniEngineUnity::HAPI_Result> result) ;
 
 /// @brief Method GetCookResult addr 0x2030730 size 0xc virtual true final false
- bool GetCookResult(ByRef<::HoudiniEngineUnity::HAPI_Result> result) ;
+ bool GetCookResult(ByRef<HoudiniEngineUnity::HAPI_Result> result) ;
 
 /// @brief Method GetCookState addr 0x203073c size 0xc virtual true final false
- bool GetCookState(ByRef<::HoudiniEngineUnity::HAPI_State> state) ;
+ bool GetCookState(ByRef<HoudiniEngineUnity::HAPI_State> state) ;
 
 /// @brief Method GetStatusString addr 0x2030748 size 0x40 virtual true final false
- ::StringW GetStatusString(::HoudiniEngineUnity::HAPI_StatusType statusType, ::HoudiniEngineUnity::HAPI_StatusVerbosity verbosity) ;
+ ::StringW GetStatusString(HoudiniEngineUnity::HAPI_StatusType statusType, HoudiniEngineUnity::HAPI_StatusVerbosity verbosity) ;
 
 /// @brief Method ComposeNodeCookResult addr 0x2030788 size 0x40 virtual true final false
- ::StringW ComposeNodeCookResult(int32_t nodeId, ::HoudiniEngineUnity::HAPI_StatusVerbosity verbosity) ;
+ ::StringW ComposeNodeCookResult(int32_t nodeId, HoudiniEngineUnity::HAPI_StatusVerbosity verbosity) ;
 
 /// @brief Method GetEnvInt addr 0x20307c8 size 0x8 virtual true final false
- int32_t GetEnvInt(::HoudiniEngineUnity::HAPI_EnvIntType intType) ;
+ int32_t GetEnvInt(HoudiniEngineUnity::HAPI_EnvIntType intType) ;
 
 /// @brief Method GetSessionEnvInt addr 0x20307d0 size 0x8 virtual true final false
- int32_t GetSessionEnvInt(::HoudiniEngineUnity::HAPI_SessionEnvIntType intType, bool bLogError) ;
+ int32_t GetSessionEnvInt(HoudiniEngineUnity::HAPI_SessionEnvIntType intType, bool bLogError) ;
 
 /// @brief Method GetString addr 0x20307d8 size 0x8 virtual true final false
  bool GetString(int32_t stringHandle, ByRef<::StringW> resultString, int32_t bufferLength) ;
@@ -417,7 +416,7 @@ explicit HEU_SessionBase() ;
  bool CookNode(int32_t nodeID, bool bCookTemplatedGeos, bool bSplitGeosByGroup) ;
 
 /// @brief Method CookNodeWithOptions addr 0x2030844 size 0x8 virtual true final false
- bool CookNodeWithOptions(int32_t nodeID, ::HoudiniEngineUnity::HAPI_CookOptions cookOptions) ;
+ bool CookNodeWithOptions(int32_t nodeID, HoudiniEngineUnity::HAPI_CookOptions cookOptions) ;
 
 /// @brief Method RenameNode addr 0x203084c size 0x8 virtual true final false
  bool RenameNode(int32_t nodeID, ::StringW newName) ;
@@ -441,10 +440,10 @@ explicit HEU_SessionBase() ;
  bool GetAvailableAssets(int32_t libraryID, ByRef<::ArrayW<int32_t>> assetNames, int32_t assetCount) ;
 
 /// @brief Method GetAssetInfo addr 0x2030894 size 0x8 virtual true final false
- bool GetAssetInfo(int32_t nodeID, ByRef<::HoudiniEngineUnity::HAPI_AssetInfo> assetInfo) ;
+ bool GetAssetInfo(int32_t nodeID, ByRef<HoudiniEngineUnity::HAPI_AssetInfo> assetInfo) ;
 
 /// @brief Method GetNodeInfo addr 0x203089c size 0x8 virtual true final false
- bool GetNodeInfo(int32_t nodeID, ByRef<::HoudiniEngineUnity::HAPI_NodeInfo> nodeInfo, bool bLogError) ;
+ bool GetNodeInfo(int32_t nodeID, ByRef<HoudiniEngineUnity::HAPI_NodeInfo> nodeInfo, bool bLogError) ;
 
 /// @brief Method GetNodePath addr 0x20308a4 size 0xc virtual true final false
  bool GetNodePath(int32_t nodeID, int32_t relativeNodeID, ByRef<::StringW> path) ;
@@ -465,85 +464,85 @@ explicit HEU_SessionBase() ;
  bool SaveHIPFile(::StringW fileName, bool bLockNodes) ;
 
 /// @brief Method GetObjectInfo addr 0x20308d8 size 0x8 virtual true final false
- bool GetObjectInfo(int32_t nodeID, ByRef<::HoudiniEngineUnity::HAPI_ObjectInfo> objectInfo) ;
+ bool GetObjectInfo(int32_t nodeID, ByRef<HoudiniEngineUnity::HAPI_ObjectInfo> objectInfo) ;
 
 /// @brief Method GetObjectTransform addr 0x20308e0 size 0x8 virtual true final false
- bool GetObjectTransform(int32_t nodeID, int32_t relativeToNodeID, ::HoudiniEngineUnity::HAPI_RSTOrder rstOrder, ByRef<::HoudiniEngineUnity::HAPI_Transform> hapiTransform) ;
+ bool GetObjectTransform(int32_t nodeID, int32_t relativeToNodeID, HoudiniEngineUnity::HAPI_RSTOrder rstOrder, ByRef<HoudiniEngineUnity::HAPI_Transform> hapiTransform) ;
 
 /// @brief Method SetObjectTransform addr 0x20308e8 size 0x8 virtual true final false
- bool SetObjectTransform(int32_t nodeID, ByRef<::HoudiniEngineUnity::HAPI_TransformEuler> hapiTransform) ;
+ bool SetObjectTransform(int32_t nodeID, ByRef<HoudiniEngineUnity::HAPI_TransformEuler> hapiTransform) ;
 
 /// @brief Method ComposeObjectList addr 0x20308f0 size 0xc virtual true final false
  bool ComposeObjectList(int32_t nodeID, ByRef<int32_t> objectCount) ;
 
 /// @brief Method GetComposedObjectList addr 0x20308fc size 0x8 virtual true final false
- bool GetComposedObjectList(int32_t nodeID, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_ObjectInfo>> objectInfos, int32_t start, int32_t length) ;
+ bool GetComposedObjectList(int32_t nodeID, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>> objectInfos, int32_t start, int32_t length) ;
 
 /// @brief Method GetComposedObjectTransforms addr 0x2030904 size 0x8 virtual true final false
- bool GetComposedObjectTransforms(int32_t nodeID, ::HoudiniEngineUnity::HAPI_RSTOrder rstOrder, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_Transform>> transforms, int32_t start, int32_t length) ;
+ bool GetComposedObjectTransforms(int32_t nodeID, HoudiniEngineUnity::HAPI_RSTOrder rstOrder, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>> transforms, int32_t start, int32_t length) ;
 
 /// @brief Method GetDisplayGeoInfo addr 0x203090c size 0x8 virtual true final false
- bool GetDisplayGeoInfo(int32_t nodeID, ByRef<::HoudiniEngineUnity::HAPI_GeoInfo> geoInfo, bool bLogError) ;
+ bool GetDisplayGeoInfo(int32_t nodeID, ByRef<HoudiniEngineUnity::HAPI_GeoInfo> geoInfo, bool bLogError) ;
 
 /// @brief Method GetGeoInfo addr 0x2030914 size 0x8 virtual true final false
- bool GetGeoInfo(int32_t nodeID, ByRef<::HoudiniEngineUnity::HAPI_GeoInfo> geoInfo, bool bLogError) ;
+ bool GetGeoInfo(int32_t nodeID, ByRef<HoudiniEngineUnity::HAPI_GeoInfo> geoInfo, bool bLogError) ;
 
 /// @brief Method GetPartInfo addr 0x203091c size 0x8 virtual true final false
- bool GetPartInfo(int32_t nodeID, int32_t partID, ByRef<::HoudiniEngineUnity::HAPI_PartInfo> partInfo) ;
+ bool GetPartInfo(int32_t nodeID, int32_t partID, ByRef<HoudiniEngineUnity::HAPI_PartInfo> partInfo) ;
 
 /// @brief Method GetAttributeInfo addr 0x2030924 size 0x8 virtual true final false
- bool GetAttributeInfo(int32_t nodeID, int32_t partID, ::StringW name, ::HoudiniEngineUnity::HAPI_AttributeOwner owner, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo) ;
+ bool GetAttributeInfo(int32_t nodeID, int32_t partID, ::StringW name, HoudiniEngineUnity::HAPI_AttributeOwner owner, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo) ;
 
 /// @brief Method GetAttributeNames addr 0x203092c size 0x8 virtual true final false
- bool GetAttributeNames(int32_t nodeID, int32_t partID, ::HoudiniEngineUnity::HAPI_AttributeOwner owner, ByRef<::ArrayW<::StringW>> attributeNames, int32_t count) ;
+ bool GetAttributeNames(int32_t nodeID, int32_t partID, HoudiniEngineUnity::HAPI_AttributeOwner owner, ByRef<::ArrayW<::StringW>> attributeNames, int32_t count) ;
 
 /// @brief Method GetAttributeStringData addr 0x2030934 size 0x8 virtual true final false
- bool GetAttributeStringData(int32_t nodeID, int32_t partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<int32_t>> dataArray, int32_t start, int32_t length) ;
+ bool GetAttributeStringData(int32_t nodeID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<int32_t>> dataArray, int32_t start, int32_t length) ;
 
 /// @brief Method GetAttributeFloatData addr 0x203093c size 0x8 virtual true final false
- bool GetAttributeFloatData(int32_t nodeID, int32_t partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<float_t>> data, int32_t start, int32_t length) ;
+ bool GetAttributeFloatData(int32_t nodeID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<float_t>> data, int32_t start, int32_t length) ;
 
 /// @brief Method GetAttributeFloat64Data addr 0x2030944 size 0x8 virtual true final false
- bool GetAttributeFloat64Data(int32_t nodeID, int32_t partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<double_t>> data, int32_t start, int32_t length) ;
+ bool GetAttributeFloat64Data(int32_t nodeID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<double_t>> data, int32_t start, int32_t length) ;
 
 /// @brief Method GetAttributeIntData addr 0x203094c size 0x8 virtual true final false
- bool GetAttributeIntData(int32_t nodeID, int32_t partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<int32_t>> data, int32_t start, int32_t length) ;
+ bool GetAttributeIntData(int32_t nodeID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<int32_t>> data, int32_t start, int32_t length) ;
 
 /// @brief Method GetAttributeUInt8Data addr 0x2030954 size 0x8 virtual true final false
- bool GetAttributeUInt8Data(int32_t nodeID, int32_t partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<uint8_t>> data, int32_t start, int32_t length) ;
+ bool GetAttributeUInt8Data(int32_t nodeID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<uint8_t>> data, int32_t start, int32_t length) ;
 
 /// @brief Method GetAttributeInt8Data addr 0x203095c size 0x8 virtual true final false
- bool GetAttributeInt8Data(int32_t nodeID, int32_t partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<int8_t>> data, int32_t start, int32_t length) ;
+ bool GetAttributeInt8Data(int32_t nodeID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<int8_t>> data, int32_t start, int32_t length) ;
 
 /// @brief Method GetAttributeInt16Data addr 0x2030964 size 0x8 virtual true final false
- bool GetAttributeInt16Data(int32_t nodeID, int32_t partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<int16_t>> data, int32_t start, int32_t length) ;
+ bool GetAttributeInt16Data(int32_t nodeID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<int16_t>> data, int32_t start, int32_t length) ;
 
 /// @brief Method GetAttributeInt64Data addr 0x203096c size 0x8 virtual true final false
- bool GetAttributeInt64Data(int32_t nodeID, int32_t partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<int64_t>> data, int32_t start, int32_t length) ;
+ bool GetAttributeInt64Data(int32_t nodeID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<int64_t>> data, int32_t start, int32_t length) ;
 
 /// @brief Method GetGroupNames addr 0x2030974 size 0x8 virtual true final false
- bool GetGroupNames(int32_t nodeID, ::HoudiniEngineUnity::HAPI_GroupType groupType, ByRef<::ArrayW<int32_t>> names, int32_t count) ;
+ bool GetGroupNames(int32_t nodeID, HoudiniEngineUnity::HAPI_GroupType groupType, ByRef<::ArrayW<int32_t>> names, int32_t count) ;
 
 /// @brief Method GetGroupMembership addr 0x203097c size 0x8 virtual true final false
- bool GetGroupMembership(int32_t nodeID, int32_t partID, ::HoudiniEngineUnity::HAPI_GroupType groupType, ::StringW groupName, ByRef<bool> membershipArrayAllEqual, ByRef<::ArrayW<int32_t>> membershipArray, int32_t start, int32_t length) ;
+ bool GetGroupMembership(int32_t nodeID, int32_t partID, HoudiniEngineUnity::HAPI_GroupType groupType, ::StringW groupName, ByRef<bool> membershipArrayAllEqual, ByRef<::ArrayW<int32_t>> membershipArray, int32_t start, int32_t length) ;
 
 /// @brief Method GetGroupCountOnPackedInstancePart addr 0x2030984 size 0x10 virtual true final false
  bool GetGroupCountOnPackedInstancePart(int32_t nodeID, int32_t partID, ByRef<int32_t> pointGroupCount, ByRef<int32_t> primitiveGroupCount) ;
 
 /// @brief Method GetGroupNamesOnPackedInstancePart addr 0x2030994 size 0x8 virtual true final false
- bool GetGroupNamesOnPackedInstancePart(int32_t nodeID, int32_t partID, ::HoudiniEngineUnity::HAPI_GroupType groupType, ByRef<::ArrayW<int32_t>> groupNamesArray, int32_t groupCount) ;
+ bool GetGroupNamesOnPackedInstancePart(int32_t nodeID, int32_t partID, HoudiniEngineUnity::HAPI_GroupType groupType, ByRef<::ArrayW<int32_t>> groupNamesArray, int32_t groupCount) ;
 
 /// @brief Method GetGroupMembershipOnPackedInstancePart addr 0x203099c size 0x8 virtual true final false
- bool GetGroupMembershipOnPackedInstancePart(int32_t nodeID, int32_t partID, ::HoudiniEngineUnity::HAPI_GroupType groupType, ::StringW groupName, ByRef<bool> membershipArrayAllEqual, ByRef<::ArrayW<int32_t>> membershipArray, int32_t start, int32_t length) ;
+ bool GetGroupMembershipOnPackedInstancePart(int32_t nodeID, int32_t partID, HoudiniEngineUnity::HAPI_GroupType groupType, ::StringW groupName, ByRef<bool> membershipArrayAllEqual, ByRef<::ArrayW<int32_t>> membershipArray, int32_t start, int32_t length) ;
 
 /// @brief Method GetInstancedPartIds addr 0x20309a4 size 0x8 virtual true final false
  bool GetInstancedPartIds(int32_t nodeID, int32_t partID, ByRef<::ArrayW<int32_t>> instancedPartsArray, int32_t start, int32_t length) ;
 
 /// @brief Method GetInstancerPartTransforms addr 0x20309ac size 0x8 virtual true final false
- bool GetInstancerPartTransforms(int32_t nodeID, int32_t partID, ::HoudiniEngineUnity::HAPI_RSTOrder rstOrder, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_Transform>> transformsArray, int32_t start, int32_t length) ;
+ bool GetInstancerPartTransforms(int32_t nodeID, int32_t partID, HoudiniEngineUnity::HAPI_RSTOrder rstOrder, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>> transformsArray, int32_t start, int32_t length) ;
 
 /// @brief Method GetInstanceTransformsOnPart addr 0x20309b4 size 0x8 virtual true final false
- bool GetInstanceTransformsOnPart(int32_t nodeID, int32_t partID, ::HoudiniEngineUnity::HAPI_RSTOrder rstOrder, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_Transform>> transformsArray, int32_t start, int32_t length) ;
+ bool GetInstanceTransformsOnPart(int32_t nodeID, int32_t partID, HoudiniEngineUnity::HAPI_RSTOrder rstOrder, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>> transformsArray, int32_t start, int32_t length) ;
 
 /// @brief Method GetInstancedObjectIds addr 0x20309bc size 0x8 virtual true final false
  bool GetInstancedObjectIds(int32_t nodeID, ByRef<::ArrayW<int32_t>> instanced_node_id_array, int32_t start, int32_t length) ;
@@ -558,13 +557,13 @@ explicit HEU_SessionBase() ;
  bool GetVertexList(int32_t nodeID, int32_t partID, ByRef<::ArrayW<int32_t>> vertexList, int32_t start, int32_t length) ;
 
 /// @brief Method GetBoxInfo addr 0x20309dc size 0x8 virtual true final false
- bool GetBoxInfo(int32_t nodeID, int32_t partID, ByRef<::HoudiniEngineUnity::HAPI_BoxInfo> boxInfo) ;
+ bool GetBoxInfo(int32_t nodeID, int32_t partID, ByRef<HoudiniEngineUnity::HAPI_BoxInfo> boxInfo) ;
 
 /// @brief Method GetSphereInfo addr 0x20309e4 size 0x8 virtual true final false
- bool GetSphereInfo(int32_t nodeID, int32_t partID, ByRef<::HoudiniEngineUnity::HAPI_SphereInfo> sphereInfo) ;
+ bool GetSphereInfo(int32_t nodeID, int32_t partID, ByRef<HoudiniEngineUnity::HAPI_SphereInfo> sphereInfo) ;
 
 /// @brief Method GetCurveInfo addr 0x20309ec size 0x8 virtual true final false
- bool GetCurveInfo(int32_t nodeID, int32_t partID, ByRef<::HoudiniEngineUnity::HAPI_CurveInfo> curveInfo) ;
+ bool GetCurveInfo(int32_t nodeID, int32_t partID, ByRef<HoudiniEngineUnity::HAPI_CurveInfo> curveInfo) ;
 
 /// @brief Method GetCurveCounts addr 0x20309f4 size 0x8 virtual true final false
  bool GetCurveCounts(int32_t nodeID, int32_t partID, ByRef<::ArrayW<int32_t>> counts, int32_t start, int32_t length) ;
@@ -576,7 +575,7 @@ explicit HEU_SessionBase() ;
  bool GetCurveKnots(int32_t nodeID, int32_t partID, ByRef<::ArrayW<float_t>> knots, int32_t start, int32_t length) ;
 
 /// @brief Method SetPartInfo addr 0x2030a0c size 0x8 virtual true final false
- bool SetPartInfo(int32_t nodeID, int32_t partID, ByRef<::HoudiniEngineUnity::HAPI_PartInfo> partInfo) ;
+ bool SetPartInfo(int32_t nodeID, int32_t partID, ByRef<HoudiniEngineUnity::HAPI_PartInfo> partInfo) ;
 
 /// @brief Method SetFaceCount addr 0x2030a14 size 0x8 virtual true final false
  bool SetFaceCount(int32_t nodeID, int32_t partID, ::ArrayW<int32_t> faceCounts, int32_t start, int32_t length) ;
@@ -585,34 +584,34 @@ explicit HEU_SessionBase() ;
  bool SetVertexList(int32_t nodeID, int32_t partID, ::ArrayW<int32_t> vertexList, int32_t start, int32_t length) ;
 
 /// @brief Method SetAttributeIntData addr 0x2030a24 size 0x8 virtual true final false
- bool SetAttributeIntData(int32_t nodeID, int32_t partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<int32_t> data, int32_t start, int32_t length) ;
+ bool SetAttributeIntData(int32_t nodeID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<int32_t> data, int32_t start, int32_t length) ;
 
 /// @brief Method SetAttributeInt8Data addr 0x2030a2c size 0x8 virtual true final false
- bool SetAttributeInt8Data(int32_t nodeID, int32_t partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<int8_t> data, int32_t start, int32_t length) ;
+ bool SetAttributeInt8Data(int32_t nodeID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<int8_t> data, int32_t start, int32_t length) ;
 
 /// @brief Method SetAttributeInt16Data addr 0x2030a34 size 0x8 virtual true final false
- bool SetAttributeInt16Data(int32_t nodeID, int32_t partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<int16_t> data, int32_t start, int32_t length) ;
+ bool SetAttributeInt16Data(int32_t nodeID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<int16_t> data, int32_t start, int32_t length) ;
 
 /// @brief Method SetAttributeInt64Data addr 0x2030a3c size 0x8 virtual true final false
- bool SetAttributeInt64Data(int32_t nodeID, int32_t partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<int64_t> data, int32_t start, int32_t length) ;
+ bool SetAttributeInt64Data(int32_t nodeID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<int64_t> data, int32_t start, int32_t length) ;
 
 /// @brief Method SetAttributeFloatData addr 0x2030a44 size 0x8 virtual true final false
- bool SetAttributeFloatData(int32_t nodeID, int32_t partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<float_t> data, int32_t start, int32_t length) ;
+ bool SetAttributeFloatData(int32_t nodeID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<float_t> data, int32_t start, int32_t length) ;
 
 /// @brief Method SetAttributeStringData addr 0x2030a4c size 0x8 virtual true final false
- bool SetAttributeStringData(int32_t nodeID, int32_t partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<::StringW> data, int32_t start, int32_t length) ;
+ bool SetAttributeStringData(int32_t nodeID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<::StringW> data, int32_t start, int32_t length) ;
 
 /// @brief Method AddAttribute addr 0x2030a54 size 0x8 virtual true final false
- bool AddAttribute(int32_t nodeID, int32_t partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo) ;
+ bool AddAttribute(int32_t nodeID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo) ;
 
 /// @brief Method AddGroup addr 0x2030a5c size 0x8 virtual true final false
- bool AddGroup(int32_t nodeID, int32_t partID, ::HoudiniEngineUnity::HAPI_GroupType groupType, ::StringW groupName) ;
+ bool AddGroup(int32_t nodeID, int32_t partID, HoudiniEngineUnity::HAPI_GroupType groupType, ::StringW groupName) ;
 
 /// @brief Method DeleteGroup addr 0x2030a64 size 0x8 virtual true final false
- bool DeleteGroup(int32_t nodeID, int32_t partID, ::HoudiniEngineUnity::HAPI_GroupType groupType, ::StringW groupName) ;
+ bool DeleteGroup(int32_t nodeID, int32_t partID, HoudiniEngineUnity::HAPI_GroupType groupType, ::StringW groupName) ;
 
 /// @brief Method SetGroupMembership addr 0x2030a6c size 0x8 virtual true final false
- bool SetGroupMembership(int32_t nodeID, int32_t partID, ::HoudiniEngineUnity::HAPI_GroupType groupType, ::StringW groupName, ByRef<::ArrayW<int32_t>> membershipArray, int32_t start, int32_t length) ;
+ bool SetGroupMembership(int32_t nodeID, int32_t partID, HoudiniEngineUnity::HAPI_GroupType groupType, ::StringW groupName, ByRef<::ArrayW<int32_t>> membershipArray, int32_t start, int32_t length) ;
 
 /// @brief Method CommitGeo addr 0x2030a74 size 0x8 virtual true final false
  bool CommitGeo(int32_t nodeID) ;
@@ -621,7 +620,7 @@ explicit HEU_SessionBase() ;
  bool RevertGeo(int32_t nodeID) ;
 
 /// @brief Method SetCurveInfo addr 0x2030a84 size 0x8 virtual true final false
- bool SetCurveInfo(int32_t nodeID, int32_t partID, ByRef<::HoudiniEngineUnity::HAPI_CurveInfo> curveInfo) ;
+ bool SetCurveInfo(int32_t nodeID, int32_t partID, ByRef<HoudiniEngineUnity::HAPI_CurveInfo> curveInfo) ;
 
 /// @brief Method SetCurveCounts addr 0x2030a8c size 0x8 virtual true final false
  bool SetCurveCounts(int32_t nodeID, int32_t partID, ::ArrayW<int32_t> counts, int32_t start, int32_t length) ;
@@ -633,19 +632,19 @@ explicit HEU_SessionBase() ;
  bool SetCurveKnots(int32_t nodeID, int32_t partID, ::ArrayW<float_t> knots, int32_t start, int32_t length) ;
 
 /// @brief Method GetMaterialOnPart addr 0x2030aa4 size 0x8 virtual true final false
- bool GetMaterialOnPart(int32_t nodeID, int32_t partID, ByRef<::HoudiniEngineUnity::HAPI_MaterialInfo> materialInfo) ;
+ bool GetMaterialOnPart(int32_t nodeID, int32_t partID, ByRef<HoudiniEngineUnity::HAPI_MaterialInfo> materialInfo) ;
 
 /// @brief Method GetMaterialNodeIDsOnFaces addr 0x2030aac size 0x8 virtual true final false
  bool GetMaterialNodeIDsOnFaces(int32_t nodeID, int32_t partID, ByRef<bool> bSingleFaceMaterial, ByRef<::ArrayW<int32_t>> materialNodeIDs, int32_t faceCount) ;
 
 /// @brief Method GetMaterialInfo addr 0x2030ab4 size 0x8 virtual true final false
- bool GetMaterialInfo(int32_t materialNodeID, ByRef<::HoudiniEngineUnity::HAPI_MaterialInfo> materialInfo, bool bLogError) ;
+ bool GetMaterialInfo(int32_t materialNodeID, ByRef<HoudiniEngineUnity::HAPI_MaterialInfo> materialInfo, bool bLogError) ;
 
 /// @brief Method GetImageInfo addr 0x2030abc size 0x8 virtual true final false
- bool GetImageInfo(int32_t materialNodeID, ByRef<::HoudiniEngineUnity::HAPI_ImageInfo> imageInfo) ;
+ bool GetImageInfo(int32_t materialNodeID, ByRef<HoudiniEngineUnity::HAPI_ImageInfo> imageInfo) ;
 
 /// @brief Method SetImageInfo addr 0x2030ac4 size 0x8 virtual true final false
- bool SetImageInfo(int32_t materialNodeID, ByRef<::HoudiniEngineUnity::HAPI_ImageInfo> imageInfo) ;
+ bool SetImageInfo(int32_t materialNodeID, ByRef<HoudiniEngineUnity::HAPI_ImageInfo> imageInfo) ;
 
 /// @brief Method RenderTextureToImage addr 0x2030acc size 0x8 virtual true final false
  bool RenderTextureToImage(int32_t materialNodeID, int32_t parmID, bool bLogError) ;
@@ -663,7 +662,7 @@ explicit HEU_SessionBase() ;
  bool ExtractImageToFile(int32_t nodeID, ::StringW fileFormat, ::StringW imagePlanes, ::StringW destinationFolderPath, ByRef<::StringW> destinationFilePath) ;
 
 /// @brief Method GetParams addr 0x2030b88 size 0x8 virtual true final false
- bool GetParams(int32_t nodeID, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_ParmInfo>> parmInfos, int32_t start, int32_t length) ;
+ bool GetParams(int32_t nodeID, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>> parmInfos, int32_t start, int32_t length) ;
 
 /// @brief Method GetParmTagName addr 0x2030b90 size 0xc virtual true final false
  bool GetParmTagName(int32_t nodeID, int32_t parmID, int32_t tagIndex, ByRef<int32_t> tagName) ;
@@ -696,7 +695,7 @@ explicit HEU_SessionBase() ;
  bool GetParamNodeValue(int32_t nodeID, ::StringW paramName, ByRef<int32_t> nodeValue) ;
 
 /// @brief Method GetParamChoiceValues addr 0x2030bfc size 0x8 virtual true final false
- bool GetParamChoiceValues(int32_t nodeID, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_ParmChoiceInfo>> values, int32_t start, int32_t length) ;
+ bool GetParamChoiceValues(int32_t nodeID, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmChoiceInfo>> values, int32_t start, int32_t length) ;
 
 /// @brief Method SetParamIntValues addr 0x2030c04 size 0x8 virtual true final false
  bool SetParamIntValues(int32_t nodeID, ByRef<::ArrayW<int32_t>> values, int32_t start, int32_t length) ;
@@ -744,7 +743,7 @@ explicit HEU_SessionBase() ;
  bool CreateInputNode(ByRef<int32_t> nodeID, ::StringW name) ;
 
 /// @brief Method CreateHeightFieldInput addr 0x2030c90 size 0x20 virtual true final false
- bool CreateHeightFieldInput(int32_t parentNodeID, ::StringW name, int32_t xSize, int32_t ySize, float_t voxelSize, ::HoudiniEngineUnity::HAPI_HeightFieldSampling sampling, ByRef<int32_t> heightfieldNodeID, ByRef<int32_t> heightNodeID, ByRef<int32_t> maskNodeID, ByRef<int32_t> mergeNodeID) ;
+ bool CreateHeightFieldInput(int32_t parentNodeID, ::StringW name, int32_t xSize, int32_t ySize, float_t voxelSize, HoudiniEngineUnity::HAPI_HeightFieldSampling sampling, ByRef<int32_t> heightfieldNodeID, ByRef<int32_t> heightNodeID, ByRef<int32_t> maskNodeID, ByRef<int32_t> mergeNodeID) ;
 
 /// @brief Method CreateHeightfieldInputVolumeNode addr 0x2030cb0 size 0x10 virtual true final false
  bool CreateHeightfieldInputVolumeNode(int32_t parentNodeID, ByRef<int32_t> newNodeID, ::StringW name, int32_t xSize, int32_t ySize, float_t voxelSize) ;
@@ -756,16 +755,16 @@ explicit HEU_SessionBase() ;
  bool SetPreset(int32_t nodeID, ::ArrayW<uint8_t> presetData) ;
 
 /// @brief Method GetVolumeInfo addr 0x2030d1c size 0x8 virtual true final false
- bool GetVolumeInfo(int32_t nodeID, int32_t partID, ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo> volumeInfo) ;
+ bool GetVolumeInfo(int32_t nodeID, int32_t partID, ByRef<HoudiniEngineUnity::HAPI_VolumeInfo> volumeInfo) ;
 
 /// @brief Method GetHeightFieldData addr 0x2030d24 size 0x8 virtual true final false
  bool GetHeightFieldData(int32_t nodeID, int32_t partID, ::ArrayW<float_t> valuesArray, int32_t start, int32_t length) ;
 
 /// @brief Method SetVolumeInfo addr 0x2030d2c size 0x8 virtual true final false
- bool SetVolumeInfo(int32_t nodeID, int32_t partID, ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo> volumeInfo) ;
+ bool SetVolumeInfo(int32_t nodeID, int32_t partID, ByRef<HoudiniEngineUnity::HAPI_VolumeInfo> volumeInfo) ;
 
 /// @brief Method SetVolumeTileFloatData addr 0x2030d34 size 0x4c virtual true final false
- bool SetVolumeTileFloatData(int32_t nodeID, int32_t partID, ByRef<::HoudiniEngineUnity::HAPI_VolumeTileInfo> tileInfo, ::ArrayW<float_t> valuesArray, int32_t length) ;
+ bool SetVolumeTileFloatData(int32_t nodeID, int32_t partID, ByRef<HoudiniEngineUnity::HAPI_VolumeTileInfo> tileInfo, ::ArrayW<float_t> valuesArray, int32_t length) ;
 
 /// @brief Method GetVolumeBounds addr 0x2030d80 size 0x34 virtual true final false
  bool GetVolumeBounds(int32_t nodeID, int32_t partID, ByRef<float_t> x_min, ByRef<float_t> y_min, ByRef<float_t> z_min, ByRef<float_t> x_max, ByRef<float_t> y_max, ByRef<float_t> z_max, ByRef<float_t> x_center, ByRef<float_t> y_center, ByRef<float_t> z_center) ;
@@ -780,10 +779,10 @@ explicit HEU_SessionBase() ;
  bool GetActiveCacheNames(ByRef<::ArrayW<int32_t>> cacheNamesArray, int32_t activeCacheCount) ;
 
 /// @brief Method GetCacheProperty addr 0x2030dd0 size 0xc virtual true final false
- bool GetCacheProperty(::StringW cacheName, ::HoudiniEngineUnity::HAPI_CacheProperty cacheProperty, ByRef<int32_t> propertyValue) ;
+ bool GetCacheProperty(::StringW cacheName, HoudiniEngineUnity::HAPI_CacheProperty cacheProperty, ByRef<int32_t> propertyValue) ;
 
 /// @brief Method SetCacheProperty addr 0x2030ddc size 0x8 virtual true final false
- bool SetCacheProperty(::StringW cacheName, ::HoudiniEngineUnity::HAPI_CacheProperty cacheProperty, int32_t propertyValue) ;
+ bool SetCacheProperty(::StringW cacheName, HoudiniEngineUnity::HAPI_CacheProperty cacheProperty, int32_t propertyValue) ;
 
 /// @brief Method SaveGeoToFile addr 0x2030de4 size 0x8 virtual true final false
  bool SaveGeoToFile(int32_t nodeID, ::StringW fileName) ;
@@ -801,13 +800,13 @@ explicit HEU_SessionBase() ;
  bool GetGeoSize(int32_t nodeID, ::StringW format, ByRef<int32_t> size) ;
 
 /// @brief Method GetHandleInfo addr 0x2030e18 size 0x8 virtual true final false
- bool GetHandleInfo(int32_t nodeID, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_HandleInfo>> handleInfos, int32_t start, int32_t length) ;
+ bool GetHandleInfo(int32_t nodeID, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleInfo>> handleInfos, int32_t start, int32_t length) ;
 
 /// @brief Method GetHandleBindingInfo addr 0x2030e20 size 0x8 virtual true final false
- bool GetHandleBindingInfo(int32_t nodeID, int32_t handleIndex, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_HandleBindingInfo>> handleBindingInfos, int32_t start, int32_t length) ;
+ bool GetHandleBindingInfo(int32_t nodeID, int32_t handleIndex, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleBindingInfo>> handleBindingInfos, int32_t start, int32_t length) ;
 
 /// @brief Method ConvertTransform addr 0x2030e28 size 0x14 virtual true final false
- bool ConvertTransform(ByRef<::HoudiniEngineUnity::HAPI_TransformEuler> inTransform, ::HoudiniEngineUnity::HAPI_RSTOrder RSTOrder, ::HoudiniEngineUnity::HAPI_XYZOrder ROTOrder, ByRef<::HoudiniEngineUnity::HAPI_TransformEuler> outTransform) ;
+ bool ConvertTransform(ByRef<HoudiniEngineUnity::HAPI_TransformEuler> inTransform, HoudiniEngineUnity::HAPI_RSTOrder RSTOrder, HoudiniEngineUnity::HAPI_XYZOrder ROTOrder, ByRef<HoudiniEngineUnity::HAPI_TransformEuler> outTransform) ;
 
 /// @brief Method GetTotalCookCount addr 0x2030e3c size 0xc virtual true final false
  bool GetTotalCookCount(int32_t nodeID, int32_t nodeTypeFilter, int32_t nodeFlagFilter, bool includeChildren, ByRef<int32_t> count) ;
@@ -816,16 +815,16 @@ explicit HEU_SessionBase() ;
  bool SetSessionSync(bool enable) ;
 
 /// @brief Method GetViewport addr 0x2030e50 size 0x8 virtual true final false
- bool GetViewport(ByRef<::HoudiniEngineUnity::HAPI_Viewport> viewport) ;
+ bool GetViewport(ByRef<HoudiniEngineUnity::HAPI_Viewport> viewport) ;
 
 /// @brief Method SetViewport addr 0x2030e58 size 0x8 virtual true final false
- bool SetViewport(ByRef<::HoudiniEngineUnity::HAPI_Viewport> viewport) ;
+ bool SetViewport(ByRef<HoudiniEngineUnity::HAPI_Viewport> viewport) ;
 
 /// @brief Method GetSessionSyncInfo addr 0x2030e60 size 0x8 virtual true final false
- bool GetSessionSyncInfo(ByRef<::HoudiniEngineUnity::HAPI_SessionSyncInfo> syncInfo) ;
+ bool GetSessionSyncInfo(ByRef<HoudiniEngineUnity::HAPI_SessionSyncInfo> syncInfo) ;
 
 /// @brief Method SetSessionSyncInfo addr 0x2030e68 size 0x8 virtual true final false
- bool SetSessionSyncInfo(ByRef<::HoudiniEngineUnity::HAPI_SessionSyncInfo> syncInfo) ;
+ bool SetSessionSyncInfo(ByRef<HoudiniEngineUnity::HAPI_SessionSyncInfo> syncInfo) ;
 
 /// @brief Method SetNodeDisplay addr 0x2030e70 size 0x8 virtual true final false
  bool SetNodeDisplay(int32_t node_id, int32_t onOff) ;
@@ -834,6 +833,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_SessionBase);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_SessionBase, "HoudiniEngineUnity", "HEU_SessionBase");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_SessionBase);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_SessionBase, "HoudiniEngineUnity", "HEU_SessionBase");

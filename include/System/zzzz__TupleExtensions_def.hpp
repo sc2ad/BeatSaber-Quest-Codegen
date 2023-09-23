@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace {
 namespace System {
 template<typename T1,typename T2>
 class Tuple_2;
@@ -55,12 +54,11 @@ constexpr explicit TupleExtensions(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 /// @brief Method Deconstruct addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T1,typename T2>
-static void Deconstruct(::System::Tuple_2<T1,T2> value, ByRef<T1> item1, ByRef<T2> item2) ;
+static void Deconstruct(System::Tuple_2<T1,T2> value, ByRef<T1> item1, ByRef<T2> item2) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::TupleExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::System::TupleExtensions, "System", "TupleExtensions");
+NEED_NO_BOX(System::TupleExtensions);
+DEFINE_IL2CPP_ARG_TYPE(System::TupleExtensions, "System", "TupleExtensions");

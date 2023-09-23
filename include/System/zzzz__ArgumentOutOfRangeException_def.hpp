@@ -3,7 +3,6 @@
 #include "System/zzzz__ArgumentException_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
@@ -20,7 +19,7 @@ namespace System {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2344))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2346))
 // CS Name: System.ArgumentOutOfRangeException
-class CORDL_TYPE ArgumentOutOfRangeException : public ::System::ArgumentException {
+class CORDL_TYPE ArgumentOutOfRangeException : public System::ArgumentException {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr ArgumentOutOfRangeException(ArgumentOutOfRangeException const& ) noexc
 constexpr ArgumentOutOfRangeException(ArgumentOutOfRangeException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ArgumentOutOfRangeException(void* ptr) noexcept : ::System::ArgumentException(ptr) {
+constexpr explicit ArgumentOutOfRangeException(void* ptr) noexcept : System::ArgumentException(ptr) {
 }
 
 
@@ -94,14 +93,14 @@ explicit ArgumentOutOfRangeException(::StringW paramName, ::bs_hook::Il2CppWrapp
 /// @brief Method .ctor addr 0x23b0f0c size 0x3c virtual false final false
  void _ctor(::StringW paramName, ::bs_hook::Il2CppWrapperType actualValue, ::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit ArgumentOutOfRangeException(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit ArgumentOutOfRangeException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x23b42d0 size 0xd8 virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method GetObjectData addr 0x23b43a8 size 0xd8 virtual true final false
- void GetObjectData(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void GetObjectData(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method get_Message addr 0x23b4480 size 0xac virtual true final false
  ::StringW get_Message() ;
@@ -110,6 +109,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::ArgumentOutOfRangeException);
-DEFINE_IL2CPP_ARG_TYPE(::System::ArgumentOutOfRangeException, "System", "ArgumentOutOfRangeException");
+NEED_NO_BOX(System::ArgumentOutOfRangeException);
+DEFINE_IL2CPP_ARG_TYPE(System::ArgumentOutOfRangeException, "System", "ArgumentOutOfRangeException");

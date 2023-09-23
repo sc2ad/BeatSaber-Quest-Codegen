@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::TextCore::LowLevel {
 struct FontReference;
@@ -79,5 +78,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::LowLevel
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::LowLevel::FontReference, "UnityEngine.TextCore.LowLevel", "FontReference");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::FontReference, "UnityEngine.TextCore.LowLevel", "FontReference");

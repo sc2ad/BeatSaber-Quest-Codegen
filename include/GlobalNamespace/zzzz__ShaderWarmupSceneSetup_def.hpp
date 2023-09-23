@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class ColorSchemeSO;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11080))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6139))
 // CS Name: ShaderWarmupSceneSetup
-class CORDL_TYPE ShaderWarmupSceneSetup : public ::Zenject::MonoInstaller {
+class CORDL_TYPE ShaderWarmupSceneSetup : public Zenject::MonoInstaller {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr ShaderWarmupSceneSetup(ShaderWarmupSceneSetup const& ) noexcept = defa
 constexpr ShaderWarmupSceneSetup(ShaderWarmupSceneSetup&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ShaderWarmupSceneSetup(void* ptr) noexcept : ::Zenject::MonoInstaller(ptr) {
+constexpr explicit ShaderWarmupSceneSetup(void* ptr) noexcept : Zenject::MonoInstaller(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit ShaderWarmupSceneSetup(void* ptr) noexcept : ::Zenject::MonoI
 
 // Fields
 
- ::GlobalNamespace::ColorSchemeSO __declspec(property(get=__get__sharedWarmupColorScheme, put=__set__sharedWarmupColorScheme))  _sharedWarmupColorScheme;
+ GlobalNamespace::ColorSchemeSO __declspec(property(get=__get__sharedWarmupColorScheme, put=__set__sharedWarmupColorScheme))  _sharedWarmupColorScheme;
 
-constexpr void __set__sharedWarmupColorScheme(::GlobalNamespace::ColorSchemeSO value) ;
+constexpr void __set__sharedWarmupColorScheme(GlobalNamespace::ColorSchemeSO value) ;
 
-constexpr ::GlobalNamespace::ColorSchemeSO __get__sharedWarmupColorScheme() const;
+constexpr GlobalNamespace::ColorSchemeSO __get__sharedWarmupColorScheme() const;
 
 
 // Methods
@@ -73,6 +72,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ShaderWarmupSceneSetup);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ShaderWarmupSceneSetup, "", "ShaderWarmupSceneSetup");
+NEED_NO_BOX(GlobalNamespace::ShaderWarmupSceneSetup);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderWarmupSceneSetup, "", "ShaderWarmupSceneSetup");

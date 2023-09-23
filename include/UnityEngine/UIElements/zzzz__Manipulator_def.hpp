@@ -1,12 +1,11 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
 namespace UnityEngine::UIElements {
 class IManipulator;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -21,8 +20,8 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE Manipulator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::UIElements::IManipulator
-constexpr operator  ::UnityEngine::UIElements::IManipulator() const noexcept;
+/// @brief Convert operator to UnityEngine::UIElements::IManipulator
+constexpr operator  UnityEngine::UIElements::IManipulator() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -57,16 +56,16 @@ constexpr explicit Manipulator(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 
 // Fields
 
- ::UnityEngine::UIElements::VisualElement __declspec(property(get=__get_m_Target, put=__set_m_Target))  m_Target;
+ UnityEngine::UIElements::VisualElement __declspec(property(get=__get_m_Target, put=__set_m_Target))  m_Target;
 
-constexpr void __set_m_Target(::UnityEngine::UIElements::VisualElement value) ;
+constexpr void __set_m_Target(UnityEngine::UIElements::VisualElement value) ;
 
-constexpr ::UnityEngine::UIElements::VisualElement __get_m_Target() const;
+constexpr UnityEngine::UIElements::VisualElement __get_m_Target() const;
 
 
 // Properties
 
- ::UnityEngine::UIElements::VisualElement __declspec(property(get=get_target, put=set_target))  target;
+ UnityEngine::UIElements::VisualElement __declspec(property(get=get_target, put=set_target))  target;
 
 
 // Methods
@@ -78,10 +77,10 @@ constexpr ::UnityEngine::UIElements::VisualElement __get_m_Target() const;
  void UnregisterCallbacksFromTarget() ;
 
 /// @brief Method get_target addr 0x2c863c8 size 0x8 virtual true final true
- ::UnityEngine::UIElements::VisualElement get_target() ;
+ UnityEngine::UIElements::VisualElement get_target() ;
 
 /// @brief Method set_target addr 0x2c863d0 size 0x54 virtual true final true
- void set_target(::UnityEngine::UIElements::VisualElement value) ;
+ void set_target(UnityEngine::UIElements::VisualElement value) ;
 
 // Ctor Parameters []
 explicit Manipulator() ;
@@ -93,6 +92,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::Manipulator);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Manipulator, "UnityEngine.UIElements", "Manipulator");
+NEED_NO_BOX(UnityEngine::UIElements::Manipulator);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::Manipulator, "UnityEngine.UIElements", "Manipulator");

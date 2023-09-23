@@ -2,18 +2,17 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class Array;
 }
 namespace System::Collections {
 class IList;
 }
 namespace System::Collections {
 class IEnumerable;
-}
-namespace System {
-class Array;
 }
 namespace System::Collections {
 class ICollection;
@@ -31,14 +30,14 @@ namespace Org::BouncyCastle::Utilities::Collections {
 class CORDL_TYPE UnmodifiableList : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::IList
-constexpr operator  ::System::Collections::IList() const noexcept;
+/// @brief Convert operator to System::Collections::IList
+constexpr operator  System::Collections::IList() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::ICollection
-constexpr operator  ::System::Collections::ICollection() const noexcept;
+/// @brief Convert operator to System::Collections::ICollection
+constexpr operator  System::Collections::ICollection() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -104,13 +103,13 @@ explicit UnmodifiableList() ;
  bool Contains(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method CopyTo addr 0x0 size 0xffffffffffffffff virtual true final false
- void CopyTo(::System::Array array, int32_t index) ;
+ void CopyTo(System::Array array, int32_t index) ;
 
 /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t get_Count() ;
 
 /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Collections::IEnumerator GetEnumerator() ;
+ System::Collections::IEnumerator GetEnumerator() ;
 
 /// @brief Method IndexOf addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t IndexOf(::bs_hook::Il2CppWrapperType o) ;
@@ -149,6 +148,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities::Collections
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::Collections::UnmodifiableList);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Collections::UnmodifiableList, "Org.BouncyCastle.Utilities.Collections", "UnmodifiableList");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Collections::UnmodifiableList);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::UnmodifiableList, "Org.BouncyCastle.Utilities.Collections", "UnmodifiableList");

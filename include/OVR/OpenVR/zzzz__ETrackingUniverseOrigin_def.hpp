@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct ETrackingUniverseOrigin;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field TrackingUniverseSeated offset 0
-static ::OVR::OpenVR::ETrackingUniverseOrigin const TrackingUniverseSeated;
+static OVR::OpenVR::ETrackingUniverseOrigin const TrackingUniverseSeated;
 
 /// @brief Field TrackingUniverseStanding offset 0
-static ::OVR::OpenVR::ETrackingUniverseOrigin const TrackingUniverseStanding;
+static OVR::OpenVR::ETrackingUniverseOrigin const TrackingUniverseStanding;
 
 /// @brief Field TrackingUniverseRawAndUncalibrated offset 0
-static ::OVR::OpenVR::ETrackingUniverseOrigin const TrackingUniverseRawAndUncalibrated;
+static OVR::OpenVR::ETrackingUniverseOrigin const TrackingUniverseRawAndUncalibrated;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::ETrackingUniverseOrigin, "OVR.OpenVR", "ETrackingUniverseOrigin");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::ETrackingUniverseOrigin, "OVR.OpenVR", "ETrackingUniverseOrigin");

@@ -1,9 +1,5 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
-namespace UnityEngine::UIElements {
-struct TimerState;
-}
 namespace System {
 template<typename T>
 class Action_1;
@@ -13,6 +9,9 @@ class Action;
 }
 namespace UnityEngine::UIElements {
 class IVisualElementScheduledItem;
+}
+namespace UnityEngine::UIElements {
+struct TimerState;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -37,15 +36,14 @@ constexpr explicit IVisualElementScheduler(void* ptr) noexcept : ::cordl_interna
 // Methods
 
 /// @brief Method Execute addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::UIElements::IVisualElementScheduledItem Execute(::System::Action_1<::UnityEngine::UIElements::TimerState> timerUpdateEvent) ;
+ UnityEngine::UIElements::IVisualElementScheduledItem Execute(System::Action_1<UnityEngine::UIElements::TimerState> timerUpdateEvent) ;
 
 /// @brief Method Execute addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::UIElements::IVisualElementScheduledItem Execute(::System::Action updateEvent) ;
+ UnityEngine::UIElements::IVisualElementScheduledItem Execute(System::Action updateEvent) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::IVisualElementScheduler);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::IVisualElementScheduler, "UnityEngine.UIElements", "IVisualElementScheduler");
+NEED_NO_BOX(UnityEngine::UIElements::IVisualElementScheduler);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::IVisualElementScheduler, "UnityEngine.UIElements", "IVisualElementScheduler");

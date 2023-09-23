@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace BeatSaberAPI::DataTransferObjects {
 struct UserPlatform;
 }
@@ -71,15 +70,14 @@ static constexpr ::ConstString  kOculusQuest{u"OculusQuest"};
 // Methods
 
 /// @brief Method GetUserPlatformFromSerializedName addr 0x21d7394 size 0x11c virtual false final false
-static ::BeatSaberAPI::DataTransferObjects::UserPlatform GetUserPlatformFromSerializedName(::StringW name) ;
+static BeatSaberAPI::DataTransferObjects::UserPlatform GetUserPlatformFromSerializedName(::StringW name) ;
 
 /// @brief Method GetUserPlatformSerializedName addr 0x21d74b0 size 0xa8 virtual false final false
-static ::StringW GetUserPlatformSerializedName(::BeatSaberAPI::DataTransferObjects::UserPlatform userPlatform) ;
+static ::StringW GetUserPlatformSerializedName(BeatSaberAPI::DataTransferObjects::UserPlatform userPlatform) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def BeatSaberAPI::DataTransferObjects
-} // end anonymous namespace
-NEED_NO_BOX(::BeatSaberAPI::DataTransferObjects::UserPlatformExtension);
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaberAPI::DataTransferObjects::UserPlatformExtension, "BeatSaberAPI.DataTransferObjects", "UserPlatformExtension");
+NEED_NO_BOX(BeatSaberAPI::DataTransferObjects::UserPlatformExtension);
+DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::UserPlatformExtension, "BeatSaberAPI.DataTransferObjects", "UserPlatformExtension");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security::Cryptography {
 struct PaddingMode;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::Security::Cryptography::PaddingMode const None;
+static System::Security::Cryptography::PaddingMode const None;
 
 /// @brief Field PKCS7 offset 0
-static ::System::Security::Cryptography::PaddingMode const PKCS7;
+static System::Security::Cryptography::PaddingMode const PKCS7;
 
 /// @brief Field Zeros offset 0
-static ::System::Security::Cryptography::PaddingMode const Zeros;
+static System::Security::Cryptography::PaddingMode const Zeros;
 
 /// @brief Field ANSIX923 offset 0
-static ::System::Security::Cryptography::PaddingMode const ANSIX923;
+static System::Security::Cryptography::PaddingMode const ANSIX923;
 
 /// @brief Field ISO10126 offset 0
-static ::System::Security::Cryptography::PaddingMode const ISO10126;
+static System::Security::Cryptography::PaddingMode const ISO10126;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::PaddingMode, "System.Security.Cryptography", "PaddingMode");
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::PaddingMode, "System.Security.Cryptography", "PaddingMode");

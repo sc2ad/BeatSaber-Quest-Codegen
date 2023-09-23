@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__AchievementProgressList_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
 class AchievementProgressList;
 }
@@ -17,7 +16,7 @@ namespace Oculus::Platform {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13383)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4425 }), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13210))
 // CS Name: Oculus.Platform.MessageWithAchievementProgressList
-class CORDL_TYPE MessageWithAchievementProgressList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementProgressList> {
+class CORDL_TYPE MessageWithAchievementProgressList : public Oculus::Platform::Message_1<Oculus::Platform::Models::AchievementProgressList> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr MessageWithAchievementProgressList(MessageWithAchievementProgressList 
 constexpr MessageWithAchievementProgressList(MessageWithAchievementProgressList&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MessageWithAchievementProgressList(void* ptr) noexcept : ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementProgressList>(ptr) {
+constexpr explicit MessageWithAchievementProgressList(void* ptr) noexcept : Oculus::Platform::Message_1<Oculus::Platform::Models::AchievementProgressList>(ptr) {
 }
 
 
@@ -60,15 +59,14 @@ explicit MessageWithAchievementProgressList(::cordl_internals::intptr_t c_messag
  void _ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method GetAchievementProgressList addr 0x257fd08 size 0x3c virtual true final false
- ::Oculus::Platform::Models::AchievementProgressList GetAchievementProgressList() ;
+ Oculus::Platform::Models::AchievementProgressList GetAchievementProgressList() ;
 
 /// @brief Method GetDataFromMessage addr 0x257fd44 size 0x9c virtual true final false
- ::Oculus::Platform::Models::AchievementProgressList GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
+ Oculus::Platform::Models::AchievementProgressList GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::MessageWithAchievementProgressList);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithAchievementProgressList, "Oculus.Platform", "MessageWithAchievementProgressList");
+NEED_NO_BOX(Oculus::Platform::MessageWithAchievementProgressList);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithAchievementProgressList, "Oculus.Platform", "MessageWithAchievementProgressList");

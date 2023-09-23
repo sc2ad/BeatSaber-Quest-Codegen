@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::IO {
 struct MatchCasing;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field PlatformDefault offset 0
-static ::System::IO::MatchCasing const PlatformDefault;
+static System::IO::MatchCasing const PlatformDefault;
 
 /// @brief Field CaseSensitive offset 0
-static ::System::IO::MatchCasing const CaseSensitive;
+static System::IO::MatchCasing const CaseSensitive;
 
 /// @brief Field CaseInsensitive offset 0
-static ::System::IO::MatchCasing const CaseInsensitive;
+static System::IO::MatchCasing const CaseInsensitive;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::IO
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::MatchCasing, "System.IO", "MatchCasing");
+DEFINE_IL2CPP_ARG_TYPE(System::IO::MatchCasing, "System.IO", "MatchCasing");

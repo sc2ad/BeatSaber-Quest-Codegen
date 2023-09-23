@@ -1,12 +1,11 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__InputStreamPacket_def.hpp"
-namespace {
-namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
-}
 namespace Org::BouncyCastle::Bcpg {
 struct CompressionAlgorithmTag;
+}
+namespace Org::BouncyCastle::Bcpg {
+class BcpgInputStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -18,7 +17,7 @@ namespace Org::BouncyCastle::Bcpg {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(557))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(558))
 // CS Name: Org.BouncyCastle.Bcpg.CompressedDataPacket
-class CORDL_TYPE CompressedDataPacket : public ::Org::BouncyCastle::Bcpg::InputStreamPacket {
+class CORDL_TYPE CompressedDataPacket : public Org::BouncyCastle::Bcpg::InputStreamPacket {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr CompressedDataPacket(CompressedDataPacket const& ) noexcept = default;
 constexpr CompressedDataPacket(CompressedDataPacket&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CompressedDataPacket(void* ptr) noexcept : ::Org::BouncyCastle::Bcpg::InputStreamPacket(ptr) {
+constexpr explicit CompressedDataPacket(void* ptr) noexcept : Org::BouncyCastle::Bcpg::InputStreamPacket(ptr) {
 }
 
 
@@ -54,33 +53,32 @@ constexpr explicit CompressedDataPacket(void* ptr) noexcept : ::Org::BouncyCastl
 
 // Fields
 
- ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag __declspec(property(get=__get_algorithm, put=__set_algorithm))  algorithm;
+ Org::BouncyCastle::Bcpg::CompressionAlgorithmTag __declspec(property(get=__get_algorithm, put=__set_algorithm))  algorithm;
 
-constexpr void __set_algorithm(::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag value) ;
+constexpr void __set_algorithm(Org::BouncyCastle::Bcpg::CompressionAlgorithmTag value) ;
 
-constexpr ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag __get_algorithm() const;
+constexpr Org::BouncyCastle::Bcpg::CompressionAlgorithmTag __get_algorithm() const;
 
 
 // Properties
 
- ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag __declspec(property(get=get_Algorithm))  Algorithm;
+ Org::BouncyCastle::Bcpg::CompressionAlgorithmTag __declspec(property(get=get_Algorithm))  Algorithm;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "::Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
-explicit CompressedDataPacket(::Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
+explicit CompressedDataPacket(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
 /// @brief Method .ctor addr 0x11448dc size 0x48 virtual false final false
- void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+ void _ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
 /// @brief Method get_Algorithm addr 0x1146260 size 0x8 virtual false final false
- ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag get_Algorithm() ;
+ Org::BouncyCastle::Bcpg::CompressionAlgorithmTag get_Algorithm() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::CompressedDataPacket);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::CompressedDataPacket, "Org.BouncyCastle.Bcpg", "CompressedDataPacket");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::CompressedDataPacket);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::CompressedDataPacket, "Org.BouncyCastle.Bcpg", "CompressedDataPacket");

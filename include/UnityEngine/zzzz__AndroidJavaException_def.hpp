@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 class AndroidJavaException;
@@ -13,7 +12,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2560))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14877))
 // CS Name: UnityEngine.AndroidJavaException
-class CORDL_TYPE AndroidJavaException : public ::System::Exception {
+class CORDL_TYPE AndroidJavaException : public System::Exception {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr AndroidJavaException(AndroidJavaException const& ) noexcept = default;
 constexpr AndroidJavaException(AndroidJavaException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AndroidJavaException(void* ptr) noexcept : ::System::Exception(ptr) {
+constexpr explicit AndroidJavaException(void* ptr) noexcept : System::Exception(ptr) {
 }
 
 
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AndroidJavaException);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AndroidJavaException, "UnityEngine", "AndroidJavaException");
+NEED_NO_BOX(UnityEngine::AndroidJavaException);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AndroidJavaException, "UnityEngine", "AndroidJavaException");

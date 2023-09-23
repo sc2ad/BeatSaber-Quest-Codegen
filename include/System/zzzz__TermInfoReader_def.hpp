@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 struct TermInfoNumbers;
 }
@@ -119,13 +118,13 @@ explicit TermInfoReader(::StringW term, ::ArrayW<uint8_t> buffer) ;
  void ReadNames(::ArrayW<uint8_t> buffer, ByRef<int32_t> position) ;
 
 /// @brief Method Get addr 0x2492d90 size 0x60 virtual false final false
- int32_t Get(::System::TermInfoNumbers number) ;
+ int32_t Get(System::TermInfoNumbers number) ;
 
 /// @brief Method Get addr 0x2492d00 size 0x90 virtual false final false
- ::StringW Get(::System::TermInfoStrings tstr) ;
+ ::StringW Get(System::TermInfoStrings tstr) ;
 
 /// @brief Method GetStringBytes addr 0x2496c44 size 0x90 virtual false final false
- ::ArrayW<uint8_t> GetStringBytes(::System::TermInfoStrings tstr) ;
+ ::ArrayW<uint8_t> GetStringBytes(System::TermInfoStrings tstr) ;
 
 /// @brief Method GetInt16 addr 0x2498144 size 0x50 virtual false final false
  int16_t GetInt16(::ArrayW<uint8_t> buffer, int32_t offset) ;
@@ -140,6 +139,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::TermInfoReader);
-DEFINE_IL2CPP_ARG_TYPE(::System::TermInfoReader, "System", "TermInfoReader");
+NEED_NO_BOX(System::TermInfoReader);
+DEFINE_IL2CPP_ARG_TYPE(System::TermInfoReader, "System", "TermInfoReader");

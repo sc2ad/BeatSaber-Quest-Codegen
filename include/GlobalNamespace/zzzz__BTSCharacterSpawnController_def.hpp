@@ -4,27 +4,26 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace GlobalNamespace {
+class ILevelEndActions;
+}
 namespace UnityEngine {
 class Coroutine;
 }
 namespace GlobalNamespace {
-class ILevelEndActions;
+class IGamePause;
+}
+namespace GlobalNamespace {
+class BTSCharacter;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace GlobalNamespace {
-class BTSCharacterSpawnAnimationController;
-}
-namespace GlobalNamespace {
-class BTSCharacter;
-}
-namespace GlobalNamespace {
 class BTSCharacterSpawnEventEffect;
 }
 namespace GlobalNamespace {
-class IGamePause;
+class BTSCharacterSpawnAnimationController;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -38,7 +37,7 @@ namespace GlobalNamespace {
 class BTSCharacterSpawnController;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19;
+class GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19;
 }
 // Type: ::<TimelineStoppedDelayed>d__19
 namespace GlobalNamespace {
@@ -46,46 +45,46 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3956))
 // CS Name: BTSCharacterSpawnController::<TimelineStoppedDelayed>d__19
-class CORDL_TYPE ____GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19() = default;
+virtual ~GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19(____GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19(GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19(____GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19(GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19& operator=(____GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19&& o) noexcept = default;
-  constexpr ____GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19& operator=(____GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19 const& o) noexcept = default;
+  constexpr GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19& operator=(GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19&& o) noexcept = default;
+  constexpr GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19& operator=(GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19 const& o) noexcept = default;
                 
 
 
@@ -103,11 +102,11 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::GlobalNamespace::BTSCharacterSpawnController __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::BTSCharacterSpawnController __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::BTSCharacterSpawnController value) ;
+constexpr void __set___4__this(GlobalNamespace::BTSCharacterSpawnController value) ;
 
-constexpr ::GlobalNamespace::BTSCharacterSpawnController __get___4__this() const;
+constexpr GlobalNamespace::BTSCharacterSpawnController __get___4__this() const;
 
 
 // Properties
@@ -120,7 +119,7 @@ constexpr ::GlobalNamespace::BTSCharacterSpawnController __get___4__this() const
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19(int32_t __1__state) ;
+explicit GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x20a85d4 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -150,10 +149,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3957))
 // CS Name: BTSCharacterSpawnController
-class CORDL_TYPE BTSCharacterSpawnController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE BTSCharacterSpawnController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using _TimelineStoppedDelayed_d__19 = ::GlobalNamespace::____GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19;
+using _TimelineStoppedDelayed_d__19 = GlobalNamespace::GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x58};
@@ -167,7 +166,7 @@ constexpr BTSCharacterSpawnController(BTSCharacterSpawnController const& ) noexc
 constexpr BTSCharacterSpawnController(BTSCharacterSpawnController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BTSCharacterSpawnController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit BTSCharacterSpawnController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -188,29 +187,29 @@ constexpr explicit BTSCharacterSpawnController(void* ptr) noexcept : ::UnityEngi
 
 // Fields
 
- ::GlobalNamespace::BTSCharacterSpawnAnimationController __declspec(property(get=__get__characterSpawnAnimationController, put=__set__characterSpawnAnimationController))  _characterSpawnAnimationController;
+ GlobalNamespace::BTSCharacterSpawnAnimationController __declspec(property(get=__get__characterSpawnAnimationController, put=__set__characterSpawnAnimationController))  _characterSpawnAnimationController;
 
-constexpr void __set__characterSpawnAnimationController(::GlobalNamespace::BTSCharacterSpawnAnimationController value) ;
+constexpr void __set__characterSpawnAnimationController(GlobalNamespace::BTSCharacterSpawnAnimationController value) ;
 
-constexpr ::GlobalNamespace::BTSCharacterSpawnAnimationController __get__characterSpawnAnimationController() const;
+constexpr GlobalNamespace::BTSCharacterSpawnAnimationController __get__characterSpawnAnimationController() const;
 
- ::GlobalNamespace::BTSCharacterSpawnEventEffect __declspec(property(get=__get__btsCharacterSpawnEventEffect, put=__set__btsCharacterSpawnEventEffect))  _btsCharacterSpawnEventEffect;
+ GlobalNamespace::BTSCharacterSpawnEventEffect __declspec(property(get=__get__btsCharacterSpawnEventEffect, put=__set__btsCharacterSpawnEventEffect))  _btsCharacterSpawnEventEffect;
 
-constexpr void __set__btsCharacterSpawnEventEffect(::GlobalNamespace::BTSCharacterSpawnEventEffect value) ;
+constexpr void __set__btsCharacterSpawnEventEffect(GlobalNamespace::BTSCharacterSpawnEventEffect value) ;
 
-constexpr ::GlobalNamespace::BTSCharacterSpawnEventEffect __get__btsCharacterSpawnEventEffect() const;
+constexpr GlobalNamespace::BTSCharacterSpawnEventEffect __get__btsCharacterSpawnEventEffect() const;
 
- ::GlobalNamespace::IGamePause __declspec(property(get=__get__gamePause, put=__set__gamePause))  _gamePause;
+ GlobalNamespace::IGamePause __declspec(property(get=__get__gamePause, put=__set__gamePause))  _gamePause;
 
-constexpr void __set__gamePause(::GlobalNamespace::IGamePause value) ;
+constexpr void __set__gamePause(GlobalNamespace::IGamePause value) ;
 
-constexpr ::GlobalNamespace::IGamePause __get__gamePause() const;
+constexpr GlobalNamespace::IGamePause __get__gamePause() const;
 
- ::GlobalNamespace::ILevelEndActions __declspec(property(get=__get__levelEndActions, put=__set__levelEndActions))  _levelEndActions;
+ GlobalNamespace::ILevelEndActions __declspec(property(get=__get__levelEndActions, put=__set__levelEndActions))  _levelEndActions;
 
-constexpr void __set__levelEndActions(::GlobalNamespace::ILevelEndActions value) ;
+constexpr void __set__levelEndActions(GlobalNamespace::ILevelEndActions value) ;
 
-constexpr ::GlobalNamespace::ILevelEndActions __get__levelEndActions() const;
+constexpr GlobalNamespace::ILevelEndActions __get__levelEndActions() const;
 
  bool __declspec(property(get=__get__characterSpawned, put=__set__characterSpawned))  _characterSpawned;
 
@@ -230,11 +229,11 @@ constexpr void __set__animatorNormalizedTimeBeforePause(float_t value) ;
 
 constexpr float_t __get__animatorNormalizedTimeBeforePause() const;
 
- ::UnityEngine::Coroutine __declspec(property(get=__get__despawnCharacterCoroutine, put=__set__despawnCharacterCoroutine))  _despawnCharacterCoroutine;
+ UnityEngine::Coroutine __declspec(property(get=__get__despawnCharacterCoroutine, put=__set__despawnCharacterCoroutine))  _despawnCharacterCoroutine;
 
-constexpr void __set__despawnCharacterCoroutine(::UnityEngine::Coroutine value) ;
+constexpr void __set__despawnCharacterCoroutine(UnityEngine::Coroutine value) ;
 
-constexpr ::UnityEngine::Coroutine __get__despawnCharacterCoroutine() const;
+constexpr UnityEngine::Coroutine __get__despawnCharacterCoroutine() const;
 
 
 // Properties
@@ -259,7 +258,7 @@ constexpr ::UnityEngine::Coroutine __get__despawnCharacterCoroutine() const;
  void OnDestroy() ;
 
 /// @brief Method HandleStartCharacterAnimation addr 0x20a83d0 size 0xc8 virtual false final false
- void HandleStartCharacterAnimation(::GlobalNamespace::BTSCharacter btsCharacter) ;
+ void HandleStartCharacterAnimation(GlobalNamespace::BTSCharacter btsCharacter) ;
 
 /// @brief Method HandleGamePauseDidPause addr 0x20a8500 size 0x40 virtual false final false
  void HandleGamePauseDidPause() ;
@@ -274,7 +273,7 @@ constexpr ::UnityEngine::Coroutine __get__despawnCharacterCoroutine() const;
  void HandleLevelEndActionsLevelFailed() ;
 
 /// @brief Method TimelineStoppedDelayed addr 0x20a8498 size 0x68 virtual false final false
- ::System::Collections::IEnumerator TimelineStoppedDelayed() ;
+ System::Collections::IEnumerator TimelineStoppedDelayed() ;
 
 // Ctor Parameters []
 explicit BTSCharacterSpawnController() ;
@@ -286,8 +285,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BTSCharacterSpawnController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BTSCharacterSpawnController, "", "BTSCharacterSpawnController");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19, "", "BTSCharacterSpawnController/<TimelineStoppedDelayed>d__19");
+NEED_NO_BOX(GlobalNamespace::BTSCharacterSpawnController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterSpawnController, "", "BTSCharacterSpawnController");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19, "", "BTSCharacterSpawnController/<TimelineStoppedDelayed>d__19");

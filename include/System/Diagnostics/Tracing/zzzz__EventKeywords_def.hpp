@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Diagnostics::Tracing {
 struct EventKeywords;
@@ -75,38 +74,37 @@ constexpr void __set_value__(int64_t value) ;
 constexpr int64_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::Diagnostics::Tracing::EventKeywords const None;
+static System::Diagnostics::Tracing::EventKeywords const None;
 
 /// @brief Field All offset 0
-static ::System::Diagnostics::Tracing::EventKeywords const All;
+static System::Diagnostics::Tracing::EventKeywords const All;
 
 /// @brief Field MicrosoftTelemetry offset 0
-static ::System::Diagnostics::Tracing::EventKeywords const MicrosoftTelemetry;
+static System::Diagnostics::Tracing::EventKeywords const MicrosoftTelemetry;
 
 /// @brief Field WdiContext offset 0
-static ::System::Diagnostics::Tracing::EventKeywords const WdiContext;
+static System::Diagnostics::Tracing::EventKeywords const WdiContext;
 
 /// @brief Field WdiDiagnostic offset 0
-static ::System::Diagnostics::Tracing::EventKeywords const WdiDiagnostic;
+static System::Diagnostics::Tracing::EventKeywords const WdiDiagnostic;
 
 /// @brief Field Sqm offset 0
-static ::System::Diagnostics::Tracing::EventKeywords const Sqm;
+static System::Diagnostics::Tracing::EventKeywords const Sqm;
 
 /// @brief Field AuditFailure offset 0
-static ::System::Diagnostics::Tracing::EventKeywords const AuditFailure;
+static System::Diagnostics::Tracing::EventKeywords const AuditFailure;
 
 /// @brief Field AuditSuccess offset 0
-static ::System::Diagnostics::Tracing::EventKeywords const AuditSuccess;
+static System::Diagnostics::Tracing::EventKeywords const AuditSuccess;
 
 /// @brief Field CorrelationHint offset 0
-static ::System::Diagnostics::Tracing::EventKeywords const CorrelationHint;
+static System::Diagnostics::Tracing::EventKeywords const CorrelationHint;
 
 /// @brief Field EventLogClassic offset 0
-static ::System::Diagnostics::Tracing::EventKeywords const EventLogClassic;
+static System::Diagnostics::Tracing::EventKeywords const EventLogClassic;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Diagnostics::Tracing
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::Tracing::EventKeywords, "System.Diagnostics.Tracing", "EventKeywords");
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventKeywords, "System.Diagnostics.Tracing", "EventKeywords");

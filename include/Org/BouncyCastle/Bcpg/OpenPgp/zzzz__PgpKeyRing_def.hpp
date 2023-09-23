@@ -2,15 +2,14 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpObject_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace {
 namespace Org::BouncyCastle::Bcpg {
-class TrustPacket;
+class BcpgInputStream;
 }
 namespace System::Collections {
 class IList;
 }
 namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
+class TrustPacket;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -22,7 +21,7 @@ namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1628))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1647))
 // CS Name: Org.BouncyCastle.Bcpg.OpenPgp.PgpKeyRing
-class CORDL_TYPE PgpKeyRing : public ::Org::BouncyCastle::Bcpg::OpenPgp::PgpObject {
+class CORDL_TYPE PgpKeyRing : public Org::BouncyCastle::Bcpg::OpenPgp::PgpObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr PgpKeyRing(PgpKeyRing const& ) noexcept = default;
 constexpr PgpKeyRing(PgpKeyRing&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PgpKeyRing(void* ptr) noexcept : ::Org::BouncyCastle::Bcpg::OpenPgp::PgpObject(ptr) {
+constexpr explicit PgpKeyRing(void* ptr) noexcept : Org::BouncyCastle::Bcpg::OpenPgp::PgpObject(ptr) {
 }
 
 
@@ -65,18 +64,17 @@ explicit PgpKeyRing() ;
  void _ctor() ;
 
 /// @brief Method ReadOptionalTrustPacket addr 0x1021d54 size 0xa0 virtual false final false
-static ::Org::BouncyCastle::Bcpg::TrustPacket ReadOptionalTrustPacket(::Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput) ;
+static Org::BouncyCastle::Bcpg::TrustPacket ReadOptionalTrustPacket(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput) ;
 
 /// @brief Method ReadSignaturesAndTrust addr 0x1021df4 size 0x2c8 virtual false final false
-static ::System::Collections::IList ReadSignaturesAndTrust(::Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput) ;
+static System::Collections::IList ReadSignaturesAndTrust(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput) ;
 
 /// @brief Method ReadUserIDs addr 0x10220bc size 0x340 virtual false final false
-static void ReadUserIDs(::Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput, ByRef<::System::Collections::IList> ids, ByRef<::System::Collections::IList> idTrusts, ByRef<::System::Collections::IList> idSigs) ;
+static void ReadUserIDs(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput, ByRef<System::Collections::IList> ids, ByRef<System::Collections::IList> idTrusts, ByRef<System::Collections::IList> idSigs) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg::OpenPgp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRing);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRing, "Org.BouncyCastle.Bcpg.OpenPgp", "PgpKeyRing");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRing);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRing, "Org.BouncyCastle.Bcpg.OpenPgp", "PgpKeyRing");

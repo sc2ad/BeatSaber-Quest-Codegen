@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -22,7 +21,7 @@ class IntervalTree_1<T>;
 }
 namespace UnityEngine::Timeline {
 template<typename T>
-struct ____UnityEngine__Timeline__IntervalTree_1__Entry;
+struct UnityEngine__Timeline__IntervalTree_1__Entry;
 }
 // Type: ::Entry
 namespace UnityEngine::Timeline {
@@ -32,20 +31,20 @@ template<typename T>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14091))
 // CS Name: UnityEngine.Timeline.IntervalTree`1::Entry
-struct CORDL_TYPE ____UnityEngine__Timeline__IntervalTree_1__Entry : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__Timeline__IntervalTree_1__Entry : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "intervalStart", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "intervalEnd", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "item", ty: "T", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__Timeline__IntervalTree_1__Entry(int64_t intervalStart, int64_t intervalEnd, T item) noexcept;
+constexpr UnityEngine__Timeline__IntervalTree_1__Entry(int64_t intervalStart, int64_t intervalEnd, T item) noexcept;
 
 
-                    constexpr ____UnityEngine__Timeline__IntervalTree_1__Entry(____UnityEngine__Timeline__IntervalTree_1__Entry const&) = default;
-                    constexpr ____UnityEngine__Timeline__IntervalTree_1__Entry(____UnityEngine__Timeline__IntervalTree_1__Entry&&) = default;
-                    constexpr ____UnityEngine__Timeline__IntervalTree_1__Entry& operator=(____UnityEngine__Timeline__IntervalTree_1__Entry const& o) {
+                    constexpr UnityEngine__Timeline__IntervalTree_1__Entry(UnityEngine__Timeline__IntervalTree_1__Entry const&) = default;
+                    constexpr UnityEngine__Timeline__IntervalTree_1__Entry(UnityEngine__Timeline__IntervalTree_1__Entry&&) = default;
+                    constexpr UnityEngine__Timeline__IntervalTree_1__Entry& operator=(UnityEngine__Timeline__IntervalTree_1__Entry const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__Timeline__IntervalTree_1__Entry& operator=(____UnityEngine__Timeline__IntervalTree_1__Entry&& o) noexcept {
+                    constexpr UnityEngine__Timeline__IntervalTree_1__Entry& operator=(UnityEngine__Timeline__IntervalTree_1__Entry&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -58,7 +57,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x18};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__Timeline__IntervalTree_1__Entry(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__Timeline__IntervalTree_1__Entry(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -103,7 +102,7 @@ template<::cordl_internals::il2cpp_reference_type T>
 class CORDL_TYPE IntervalTree_1<T> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using Entry = ::UnityEngine::Timeline::____UnityEngine__Timeline__IntervalTree_1__Entry<T>;
+using Entry = UnityEngine::Timeline::UnityEngine__Timeline__IntervalTree_1__Entry<T>;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -147,17 +146,17 @@ static constexpr int32_t  kInvalidNode{-1};
 /// @brief Field kCenterUnknown offset 0
 static constexpr int64_t  kCenterUnknown{9223372036854775807};
 
- ::System::Collections::Generic::List_1<::UnityEngine::Timeline::____UnityEngine__Timeline__IntervalTree_1__Entry<T>> __declspec(property(get=__get_m_Entries, put=__set_m_Entries))  m_Entries;
+ System::Collections::Generic::List_1<UnityEngine::Timeline::UnityEngine__Timeline__IntervalTree_1__Entry<T>> __declspec(property(get=__get_m_Entries, put=__set_m_Entries))  m_Entries;
 
-constexpr void __set_m_Entries(::System::Collections::Generic::List_1<::UnityEngine::Timeline::____UnityEngine__Timeline__IntervalTree_1__Entry<T>> value) ;
+constexpr void __set_m_Entries(System::Collections::Generic::List_1<UnityEngine::Timeline::UnityEngine__Timeline__IntervalTree_1__Entry<T>> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Timeline::____UnityEngine__Timeline__IntervalTree_1__Entry<T>> __get_m_Entries() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::Timeline::UnityEngine__Timeline__IntervalTree_1__Entry<T>> __get_m_Entries() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::Timeline::IntervalTreeNode> __declspec(property(get=__get_m_Nodes, put=__set_m_Nodes))  m_Nodes;
+ System::Collections::Generic::List_1<UnityEngine::Timeline::IntervalTreeNode> __declspec(property(get=__get_m_Nodes, put=__set_m_Nodes))  m_Nodes;
 
-constexpr void __set_m_Nodes(::System::Collections::Generic::List_1<::UnityEngine::Timeline::IntervalTreeNode> value) ;
+constexpr void __set_m_Nodes(System::Collections::Generic::List_1<UnityEngine::Timeline::IntervalTreeNode> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Timeline::IntervalTreeNode> __get_m_Nodes() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::Timeline::IntervalTreeNode> __get_m_Nodes() const;
 
  bool __declspec(property(get=__get__dirty_k__BackingField, put=__set__dirty_k__BackingField))  _dirty_k__BackingField;
 
@@ -183,19 +182,19 @@ constexpr bool __get__dirty_k__BackingField() const;
  void Add(T item) ;
 
 /// @brief Method IntersectsWith addr 0x0 size 0xffffffffffffffff virtual false final false
- void IntersectsWith(int64_t value, ::System::Collections::Generic::List_1<T> results) ;
+ void IntersectsWith(int64_t value, System::Collections::Generic::List_1<T> results) ;
 
 /// @brief Method IntersectsWithRange addr 0x0 size 0xffffffffffffffff virtual false final false
- void IntersectsWithRange(int64_t start, int64_t end, ::System::Collections::Generic::List_1<T> results) ;
+ void IntersectsWithRange(int64_t start, int64_t end, System::Collections::Generic::List_1<T> results) ;
 
 /// @brief Method UpdateIntervals addr 0x0 size 0xffffffffffffffff virtual false final false
  void UpdateIntervals() ;
 
 /// @brief Method Query addr 0x0 size 0xffffffffffffffff virtual false final false
- void Query(::UnityEngine::Timeline::IntervalTreeNode intervalTreeNode, int64_t value, ::System::Collections::Generic::List_1<T> results) ;
+ void Query(UnityEngine::Timeline::IntervalTreeNode intervalTreeNode, int64_t value, System::Collections::Generic::List_1<T> results) ;
 
 /// @brief Method QueryRange addr 0x0 size 0xffffffffffffffff virtual false final false
- void QueryRange(::UnityEngine::Timeline::IntervalTreeNode intervalTreeNode, int64_t start, int64_t end, ::System::Collections::Generic::List_1<T> results) ;
+ void QueryRange(UnityEngine::Timeline::IntervalTreeNode intervalTreeNode, int64_t start, int64_t end, System::Collections::Generic::List_1<T> results) ;
 
 /// @brief Method Rebuild addr 0x0 size 0xffffffffffffffff virtual false final false
  void Rebuild() ;
@@ -216,6 +215,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::Timeline::IntervalTree_1, "UnityEngine.Timeline", "IntervalTree`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::UnityEngine::Timeline::____UnityEngine__Timeline__IntervalTree_1__Entry, "UnityEngine.Timeline", "IntervalTree`1/Entry");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::Timeline::IntervalTree_1, "UnityEngine.Timeline", "IntervalTree`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(UnityEngine::Timeline::UnityEngine__Timeline__IntervalTree_1__Entry, "UnityEngine.Timeline", "IntervalTree`1/Entry");

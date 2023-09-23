@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 struct ServiceEnvironment;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Production offset 0
-static ::GlobalNamespace::ServiceEnvironment const Production;
+static GlobalNamespace::ServiceEnvironment const Production;
 
 /// @brief Field ReleaseCandidate offset 0
-static ::GlobalNamespace::ServiceEnvironment const ReleaseCandidate;
+static GlobalNamespace::ServiceEnvironment const ReleaseCandidate;
 
 /// @brief Field InternalPlayTest offset 0
-static ::GlobalNamespace::ServiceEnvironment const InternalPlayTest;
+static GlobalNamespace::ServiceEnvironment const InternalPlayTest;
 
 /// @brief Field QATesting offset 0
-static ::GlobalNamespace::ServiceEnvironment const QATesting;
+static GlobalNamespace::ServiceEnvironment const QATesting;
 
 /// @brief Field Development offset 0
-static ::GlobalNamespace::ServiceEnvironment const Development;
+static GlobalNamespace::ServiceEnvironment const Development;
 
 /// @brief Field ProductionA offset 0
-static ::GlobalNamespace::ServiceEnvironment const ProductionA;
+static GlobalNamespace::ServiceEnvironment const ProductionA;
 
 /// @brief Field ProductionB offset 0
-static ::GlobalNamespace::ServiceEnvironment const ProductionB;
+static GlobalNamespace::ServiceEnvironment const ProductionB;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ServiceEnvironment, "", "ServiceEnvironment");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ServiceEnvironment, "", "ServiceEnvironment");

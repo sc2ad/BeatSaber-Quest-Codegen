@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 class AudioClip;
 }
@@ -120,17 +119,17 @@ explicit OVRHapticsClip(::ArrayW<uint8_t> samples, int32_t samplesCount) ;
 /// @brief Method .ctor addr 0x25bbae0 size 0xc4 virtual false final false
  void _ctor(::ArrayW<uint8_t> samples, int32_t samplesCount) ;
 
-// Ctor Parameters [CppParam { name: "a", ty: "::GlobalNamespace::OVRHapticsClip", modifiers: "", def_value: None }, CppParam { name: "b", ty: "::GlobalNamespace::OVRHapticsClip", modifiers: "", def_value: None }]
-explicit OVRHapticsClip(::GlobalNamespace::OVRHapticsClip a, ::GlobalNamespace::OVRHapticsClip b) ;
+// Ctor Parameters [CppParam { name: "a", ty: "GlobalNamespace::OVRHapticsClip", modifiers: "", def_value: None }, CppParam { name: "b", ty: "GlobalNamespace::OVRHapticsClip", modifiers: "", def_value: None }]
+explicit OVRHapticsClip(GlobalNamespace::OVRHapticsClip a, GlobalNamespace::OVRHapticsClip b) ;
 
 /// @brief Method .ctor addr 0x25bbba4 size 0x20c virtual false final false
- void _ctor(::GlobalNamespace::OVRHapticsClip a, ::GlobalNamespace::OVRHapticsClip b) ;
+ void _ctor(GlobalNamespace::OVRHapticsClip a, GlobalNamespace::OVRHapticsClip b) ;
 
-// Ctor Parameters [CppParam { name: "audioClip", ty: "::UnityEngine::AudioClip", modifiers: "", def_value: None }, CppParam { name: "channel", ty: "int32_t", modifiers: "", def_value: None }]
-explicit OVRHapticsClip(::UnityEngine::AudioClip audioClip, int32_t channel) ;
+// Ctor Parameters [CppParam { name: "audioClip", ty: "UnityEngine::AudioClip", modifiers: "", def_value: None }, CppParam { name: "channel", ty: "int32_t", modifiers: "", def_value: None }]
+explicit OVRHapticsClip(UnityEngine::AudioClip audioClip, int32_t channel) ;
 
 /// @brief Method .ctor addr 0x25bbdb0 size 0xd8 virtual false final false
- void _ctor(::UnityEngine::AudioClip audioClip, int32_t channel) ;
+ void _ctor(UnityEngine::AudioClip audioClip, int32_t channel) ;
 
 /// @brief Method WriteSample addr 0x25bb960 size 0x130 virtual false final false
  void WriteSample(uint8_t sample) ;
@@ -145,6 +144,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OVRHapticsClip);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRHapticsClip, "", "OVRHapticsClip");
+NEED_NO_BOX(GlobalNamespace::OVRHapticsClip);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHapticsClip, "", "OVRHapticsClip");

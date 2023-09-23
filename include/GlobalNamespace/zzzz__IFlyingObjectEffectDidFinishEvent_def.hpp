@@ -1,6 +1,5 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace GlobalNamespace {
 class FlyingObjectEffect;
 }
@@ -27,12 +26,11 @@ constexpr explicit IFlyingObjectEffectDidFinishEvent(void* ptr) noexcept : ::cor
 // Methods
 
 /// @brief Method HandleFlyingObjectEffectDidFinish addr 0x0 size 0xffffffffffffffff virtual true final false
- void HandleFlyingObjectEffectDidFinish(::GlobalNamespace::FlyingObjectEffect flyingObjectEffect) ;
+ void HandleFlyingObjectEffectDidFinish(GlobalNamespace::FlyingObjectEffect flyingObjectEffect) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IFlyingObjectEffectDidFinishEvent);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IFlyingObjectEffectDidFinishEvent, "", "IFlyingObjectEffectDidFinishEvent");
+NEED_NO_BOX(GlobalNamespace::IFlyingObjectEffectDidFinishEvent);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IFlyingObjectEffectDidFinishEvent, "", "IFlyingObjectEffectDidFinishEvent");

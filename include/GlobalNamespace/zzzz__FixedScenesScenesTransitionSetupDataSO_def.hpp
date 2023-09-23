@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace GlobalNamespace {
 class SceneInfo;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13874))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13870))
 // CS Name: FixedScenesScenesTransitionSetupDataSO
-class CORDL_TYPE FixedScenesScenesTransitionSetupDataSO : public ::GlobalNamespace::ScenesTransitionSetupDataSO {
+class CORDL_TYPE FixedScenesScenesTransitionSetupDataSO : public GlobalNamespace::ScenesTransitionSetupDataSO {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr FixedScenesScenesTransitionSetupDataSO(FixedScenesScenesTransitionSetu
 constexpr FixedScenesScenesTransitionSetupDataSO(FixedScenesScenesTransitionSetupDataSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FixedScenesScenesTransitionSetupDataSO(void* ptr) noexcept : ::GlobalNamespace::ScenesTransitionSetupDataSO(ptr) {
+constexpr explicit FixedScenesScenesTransitionSetupDataSO(void* ptr) noexcept : GlobalNamespace::ScenesTransitionSetupDataSO(ptr) {
 }
 
 
@@ -52,11 +51,11 @@ constexpr explicit FixedScenesScenesTransitionSetupDataSO(void* ptr) noexcept : 
 
 // Fields
 
- ::ArrayW<::GlobalNamespace::SceneInfo> __declspec(property(get=__get__sceneInfos, put=__set__sceneInfos))  _sceneInfos;
+ ::ArrayW<GlobalNamespace::SceneInfo> __declspec(property(get=__get__sceneInfos, put=__set__sceneInfos))  _sceneInfos;
 
-constexpr void __set__sceneInfos(::ArrayW<::GlobalNamespace::SceneInfo> value) ;
+constexpr void __set__sceneInfos(::ArrayW<GlobalNamespace::SceneInfo> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::SceneInfo> __get__sceneInfos() const;
+constexpr ::ArrayW<GlobalNamespace::SceneInfo> __get__sceneInfos() const;
 
 
 // Methods
@@ -74,6 +73,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::FixedScenesScenesTransitionSetupDataSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FixedScenesScenesTransitionSetupDataSO, "", "FixedScenesScenesTransitionSetupDataSO");
+NEED_NO_BOX(GlobalNamespace::FixedScenesScenesTransitionSetupDataSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FixedScenesScenesTransitionSetupDataSO, "", "FixedScenesScenesTransitionSetupDataSO");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 #include <cstddef>
-namespace {
 // Forward declare root types
 namespace UnityEngineInternal {
 struct MathfInternal;
@@ -72,5 +71,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngineInternal
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngineInternal::MathfInternal, "UnityEngineInternal", "MathfInternal");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::MathfInternal, "UnityEngineInternal", "MathfInternal");

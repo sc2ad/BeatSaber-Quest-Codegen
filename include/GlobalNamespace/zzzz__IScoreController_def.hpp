@@ -2,17 +2,16 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace System {
+template<typename T>
+class Action_1;
+}
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
 namespace GlobalNamespace {
 class ScoringElement;
-}
-namespace System {
-template<typename T>
-class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -48,28 +47,28 @@ constexpr explicit IScoreController(void* ptr) noexcept : ::cordl_internals::Int
 // Methods
 
 /// @brief Method add_scoreDidChangeEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void add_scoreDidChangeEvent(::System::Action_2<int32_t,int32_t> value) ;
+ void add_scoreDidChangeEvent(System::Action_2<int32_t,int32_t> value) ;
 
 /// @brief Method remove_scoreDidChangeEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void remove_scoreDidChangeEvent(::System::Action_2<int32_t,int32_t> value) ;
+ void remove_scoreDidChangeEvent(System::Action_2<int32_t,int32_t> value) ;
 
 /// @brief Method add_multiplierDidChangeEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void add_multiplierDidChangeEvent(::System::Action_2<int32_t,float_t> value) ;
+ void add_multiplierDidChangeEvent(System::Action_2<int32_t,float_t> value) ;
 
 /// @brief Method remove_multiplierDidChangeEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void remove_multiplierDidChangeEvent(::System::Action_2<int32_t,float_t> value) ;
+ void remove_multiplierDidChangeEvent(System::Action_2<int32_t,float_t> value) ;
 
 /// @brief Method add_scoringForNoteStartedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void add_scoringForNoteStartedEvent(::System::Action_1<::GlobalNamespace::ScoringElement> value) ;
+ void add_scoringForNoteStartedEvent(System::Action_1<GlobalNamespace::ScoringElement> value) ;
 
 /// @brief Method remove_scoringForNoteStartedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void remove_scoringForNoteStartedEvent(::System::Action_1<::GlobalNamespace::ScoringElement> value) ;
+ void remove_scoringForNoteStartedEvent(System::Action_1<GlobalNamespace::ScoringElement> value) ;
 
 /// @brief Method add_scoringForNoteFinishedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void add_scoringForNoteFinishedEvent(::System::Action_1<::GlobalNamespace::ScoringElement> value) ;
+ void add_scoringForNoteFinishedEvent(System::Action_1<GlobalNamespace::ScoringElement> value) ;
 
 /// @brief Method remove_scoringForNoteFinishedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void remove_scoringForNoteFinishedEvent(::System::Action_1<::GlobalNamespace::ScoringElement> value) ;
+ void remove_scoringForNoteFinishedEvent(System::Action_1<GlobalNamespace::ScoringElement> value) ;
 
 /// @brief Method get_multipliedScore addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t get_multipliedScore() ;
@@ -90,6 +89,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IScoreController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IScoreController, "", "IScoreController");
+NEED_NO_BOX(GlobalNamespace::IScoreController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IScoreController, "", "IScoreController");

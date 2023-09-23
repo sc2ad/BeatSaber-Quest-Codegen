@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 struct SelectionType;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::UIElements::SelectionType const None;
+static UnityEngine::UIElements::SelectionType const None;
 
 /// @brief Field Single offset 0
-static ::UnityEngine::UIElements::SelectionType const Single;
+static UnityEngine::UIElements::SelectionType const Single;
 
 /// @brief Field Multiple offset 0
-static ::UnityEngine::UIElements::SelectionType const Multiple;
+static UnityEngine::UIElements::SelectionType const Multiple;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::SelectionType, "UnityEngine.UIElements", "SelectionType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::SelectionType, "UnityEngine.UIElements", "SelectionType");

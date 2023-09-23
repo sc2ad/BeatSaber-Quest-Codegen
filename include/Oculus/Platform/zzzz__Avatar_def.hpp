@@ -1,13 +1,12 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
+namespace Oculus::Platform::Models {
+class AvatarEditorResult;
+}
 namespace Oculus::Platform {
 template<typename T>
 class Request_1;
-}
-namespace Oculus::Platform::Models {
-class AvatarEditorResult;
 }
 namespace Oculus::Platform {
 class AvatarEditorOptions;
@@ -59,12 +58,11 @@ constexpr explicit Avatar(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr
 // Methods
 
 /// @brief Method LaunchAvatarEditor addr 0x2591a8c size 0x1a0 virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AvatarEditorResult> LaunchAvatarEditor(::Oculus::Platform::AvatarEditorOptions options) ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::AvatarEditorResult> LaunchAvatarEditor(Oculus::Platform::AvatarEditorOptions options) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Avatar);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Avatar, "Oculus.Platform", "Avatar");
+NEED_NO_BOX(Oculus::Platform::Avatar);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Avatar, "Oculus.Platform", "Avatar");

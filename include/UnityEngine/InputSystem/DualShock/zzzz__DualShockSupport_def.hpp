@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem::DualShock {
 class DualShockSupport;
@@ -55,6 +54,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::DualShock
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::DualShock::DualShockSupport);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::DualShock::DualShockSupport, "UnityEngine.InputSystem.DualShock", "DualShockSupport");
+NEED_NO_BOX(UnityEngine::InputSystem::DualShock::DualShockSupport);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::DualShock::DualShockSupport, "UnityEngine.InputSystem.DualShock", "DualShockSupport");

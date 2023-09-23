@@ -4,18 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace GlobalNamespace {
-class LevelListTableCell;
-}
 namespace GlobalNamespace {
 class BeatmapLevelsPromoDataSO;
 }
@@ -23,21 +11,9 @@ namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
-namespace GlobalNamespace {
-class LevelPackHeaderTableCell;
-}
-namespace HMUI {
-class ____HMUI__TableView__IDataSource;
-}
-namespace System::Collections::Generic {
+namespace System {
 template<typename T>
-class HashSet_1;
-}
-namespace HMUI {
-class AlphabetScrollbar;
-}
-namespace GlobalNamespace {
-class AdditionalContentModel;
+class Action_1;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
@@ -46,10 +22,33 @@ namespace UnityEngine {
 class Sprite;
 }
 namespace HMUI {
+class HMUI__TableView__IDataSource;
+}
+namespace HMUI {
 class TableCell;
+}
+namespace GlobalNamespace {
+class LevelPackHeaderTableCell;
+}
+namespace GlobalNamespace {
+class AdditionalContentModel;
+}
+namespace GlobalNamespace {
+class LevelListTableCell;
 }
 namespace HMUI {
 class TableView;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
+}
+namespace HMUI {
+class AlphabetScrollbar;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -61,11 +60,11 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5879))
 // CS Name: LevelCollectionTableView
-class CORDL_TYPE LevelCollectionTableView : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE LevelCollectionTableView : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-/// @brief Convert operator to ::HMUI::____HMUI__TableView__IDataSource
-constexpr operator  ::HMUI::____HMUI__TableView__IDataSource() const noexcept;
+/// @brief Convert operator to HMUI::HMUI__TableView__IDataSource
+constexpr operator  HMUI::HMUI__TableView__IDataSource() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xb0};
@@ -79,7 +78,7 @@ constexpr LevelCollectionTableView(LevelCollectionTableView const& ) noexcept = 
 constexpr LevelCollectionTableView(LevelCollectionTableView&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LevelCollectionTableView(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit LevelCollectionTableView(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -100,23 +99,23 @@ constexpr explicit LevelCollectionTableView(void* ptr) noexcept : ::UnityEngine:
 
 // Fields
 
- ::HMUI::TableView __declspec(property(get=__get__tableView, put=__set__tableView))  _tableView;
+ HMUI::TableView __declspec(property(get=__get__tableView, put=__set__tableView))  _tableView;
 
-constexpr void __set__tableView(::HMUI::TableView value) ;
+constexpr void __set__tableView(HMUI::TableView value) ;
 
-constexpr ::HMUI::TableView __get__tableView() const;
+constexpr HMUI::TableView __get__tableView() const;
 
- ::HMUI::AlphabetScrollbar __declspec(property(get=__get__alphabetScrollbar, put=__set__alphabetScrollbar))  _alphabetScrollbar;
+ HMUI::AlphabetScrollbar __declspec(property(get=__get__alphabetScrollbar, put=__set__alphabetScrollbar))  _alphabetScrollbar;
 
-constexpr void __set__alphabetScrollbar(::HMUI::AlphabetScrollbar value) ;
+constexpr void __set__alphabetScrollbar(HMUI::AlphabetScrollbar value) ;
 
-constexpr ::HMUI::AlphabetScrollbar __get__alphabetScrollbar() const;
+constexpr HMUI::AlphabetScrollbar __get__alphabetScrollbar() const;
 
- ::GlobalNamespace::LevelListTableCell __declspec(property(get=__get__levelCellPrefab, put=__set__levelCellPrefab))  _levelCellPrefab;
+ GlobalNamespace::LevelListTableCell __declspec(property(get=__get__levelCellPrefab, put=__set__levelCellPrefab))  _levelCellPrefab;
 
-constexpr void __set__levelCellPrefab(::GlobalNamespace::LevelListTableCell value) ;
+constexpr void __set__levelCellPrefab(GlobalNamespace::LevelListTableCell value) ;
 
-constexpr ::GlobalNamespace::LevelListTableCell __get__levelCellPrefab() const;
+constexpr GlobalNamespace::LevelListTableCell __get__levelCellPrefab() const;
 
  ::StringW __declspec(property(get=__get__levelCellsReuseIdentifier, put=__set__levelCellsReuseIdentifier))  _levelCellsReuseIdentifier;
 
@@ -124,11 +123,11 @@ constexpr void __set__levelCellsReuseIdentifier(::StringW value) ;
 
 constexpr ::StringW __get__levelCellsReuseIdentifier() const;
 
- ::GlobalNamespace::LevelPackHeaderTableCell __declspec(property(get=__get__packCellPrefab, put=__set__packCellPrefab))  _packCellPrefab;
+ GlobalNamespace::LevelPackHeaderTableCell __declspec(property(get=__get__packCellPrefab, put=__set__packCellPrefab))  _packCellPrefab;
 
-constexpr void __set__packCellPrefab(::GlobalNamespace::LevelPackHeaderTableCell value) ;
+constexpr void __set__packCellPrefab(GlobalNamespace::LevelPackHeaderTableCell value) ;
 
-constexpr ::GlobalNamespace::LevelPackHeaderTableCell __get__packCellPrefab() const;
+constexpr GlobalNamespace::LevelPackHeaderTableCell __get__packCellPrefab() const;
 
  ::StringW __declspec(property(get=__get__packCellsReuseIdentifier, put=__set__packCellsReuseIdentifier))  _packCellsReuseIdentifier;
 
@@ -148,29 +147,29 @@ constexpr void __set__showAlphabetScrollbarLevelCountThreshold(int32_t value) ;
 
 constexpr int32_t __get__showAlphabetScrollbarLevelCountThreshold() const;
 
- ::GlobalNamespace::AdditionalContentModel __declspec(property(get=__get__additionalContentModel, put=__set__additionalContentModel))  _additionalContentModel;
+ GlobalNamespace::AdditionalContentModel __declspec(property(get=__get__additionalContentModel, put=__set__additionalContentModel))  _additionalContentModel;
 
-constexpr void __set__additionalContentModel(::GlobalNamespace::AdditionalContentModel value) ;
+constexpr void __set__additionalContentModel(GlobalNamespace::AdditionalContentModel value) ;
 
-constexpr ::GlobalNamespace::AdditionalContentModel __get__additionalContentModel() const;
+constexpr GlobalNamespace::AdditionalContentModel __get__additionalContentModel() const;
 
- ::GlobalNamespace::BeatmapLevelsPromoDataSO __declspec(property(get=__get__beatmapLevelsPromoData, put=__set__beatmapLevelsPromoData))  _beatmapLevelsPromoData;
+ GlobalNamespace::BeatmapLevelsPromoDataSO __declspec(property(get=__get__beatmapLevelsPromoData, put=__set__beatmapLevelsPromoData))  _beatmapLevelsPromoData;
 
-constexpr void __set__beatmapLevelsPromoData(::GlobalNamespace::BeatmapLevelsPromoDataSO value) ;
+constexpr void __set__beatmapLevelsPromoData(GlobalNamespace::BeatmapLevelsPromoDataSO value) ;
 
-constexpr ::GlobalNamespace::BeatmapLevelsPromoDataSO __get__beatmapLevelsPromoData() const;
+constexpr GlobalNamespace::BeatmapLevelsPromoDataSO __get__beatmapLevelsPromoData() const;
 
- ::System::Action_2<::GlobalNamespace::LevelCollectionTableView,::GlobalNamespace::IPreviewBeatmapLevel> __declspec(property(get=__get_didSelectLevelEvent, put=__set_didSelectLevelEvent))  didSelectLevelEvent;
+ System::Action_2<GlobalNamespace::LevelCollectionTableView,GlobalNamespace::IPreviewBeatmapLevel> __declspec(property(get=__get_didSelectLevelEvent, put=__set_didSelectLevelEvent))  didSelectLevelEvent;
 
-constexpr void __set_didSelectLevelEvent(::System::Action_2<::GlobalNamespace::LevelCollectionTableView,::GlobalNamespace::IPreviewBeatmapLevel> value) ;
+constexpr void __set_didSelectLevelEvent(System::Action_2<GlobalNamespace::LevelCollectionTableView,GlobalNamespace::IPreviewBeatmapLevel> value) ;
 
-constexpr ::System::Action_2<::GlobalNamespace::LevelCollectionTableView,::GlobalNamespace::IPreviewBeatmapLevel> __get_didSelectLevelEvent() const;
+constexpr System::Action_2<GlobalNamespace::LevelCollectionTableView,GlobalNamespace::IPreviewBeatmapLevel> __get_didSelectLevelEvent() const;
 
- ::System::Action_1<::GlobalNamespace::LevelCollectionTableView> __declspec(property(get=__get_didSelectHeaderEvent, put=__set_didSelectHeaderEvent))  didSelectHeaderEvent;
+ System::Action_1<GlobalNamespace::LevelCollectionTableView> __declspec(property(get=__get_didSelectHeaderEvent, put=__set_didSelectHeaderEvent))  didSelectHeaderEvent;
 
-constexpr void __set_didSelectHeaderEvent(::System::Action_1<::GlobalNamespace::LevelCollectionTableView> value) ;
+constexpr void __set_didSelectHeaderEvent(System::Action_1<GlobalNamespace::LevelCollectionTableView> value) ;
 
-constexpr ::System::Action_1<::GlobalNamespace::LevelCollectionTableView> __get_didSelectHeaderEvent() const;
+constexpr System::Action_1<GlobalNamespace::LevelCollectionTableView> __get_didSelectHeaderEvent() const;
 
  bool __declspec(property(get=__get__isInitialized, put=__set__isInitialized))  _isInitialized;
 
@@ -178,17 +177,17 @@ constexpr void __set__isInitialized(bool value) ;
 
 constexpr bool __get__isInitialized() const;
 
- ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel> __declspec(property(get=__get__previewBeatmapLevels, put=__set__previewBeatmapLevels))  _previewBeatmapLevels;
+ System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IPreviewBeatmapLevel> __declspec(property(get=__get__previewBeatmapLevels, put=__set__previewBeatmapLevels))  _previewBeatmapLevels;
 
-constexpr void __set__previewBeatmapLevels(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel> value) ;
+constexpr void __set__previewBeatmapLevels(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IPreviewBeatmapLevel> value) ;
 
-constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel> __get__previewBeatmapLevels() const;
+constexpr System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IPreviewBeatmapLevel> __get__previewBeatmapLevels() const;
 
- ::UnityEngine::Sprite __declspec(property(get=__get__headerSprite, put=__set__headerSprite))  _headerSprite;
+ UnityEngine::Sprite __declspec(property(get=__get__headerSprite, put=__set__headerSprite))  _headerSprite;
 
-constexpr void __set__headerSprite(::UnityEngine::Sprite value) ;
+constexpr void __set__headerSprite(UnityEngine::Sprite value) ;
 
-constexpr ::UnityEngine::Sprite __get__headerSprite() const;
+constexpr UnityEngine::Sprite __get__headerSprite() const;
 
  ::StringW __declspec(property(get=__get__headerText, put=__set__headerText))  _headerText;
 
@@ -202,11 +201,11 @@ constexpr void __set__showLevelPackHeader(bool value) ;
 
 constexpr bool __get__showLevelPackHeader() const;
 
- ::System::Collections::Generic::HashSet_1<::StringW> __declspec(property(get=__get__favoriteLevelIds, put=__set__favoriteLevelIds))  _favoriteLevelIds;
+ System::Collections::Generic::HashSet_1<::StringW> __declspec(property(get=__get__favoriteLevelIds, put=__set__favoriteLevelIds))  _favoriteLevelIds;
 
-constexpr void __set__favoriteLevelIds(::System::Collections::Generic::HashSet_1<::StringW> value) ;
+constexpr void __set__favoriteLevelIds(System::Collections::Generic::HashSet_1<::StringW> value) ;
 
-constexpr ::System::Collections::Generic::HashSet_1<::StringW> __get__favoriteLevelIds() const;
+constexpr System::Collections::Generic::HashSet_1<::StringW> __get__favoriteLevelIds() const;
 
  int32_t __declspec(property(get=__get__selectedRow, put=__set__selectedRow))  _selectedRow;
 
@@ -214,38 +213,38 @@ constexpr void __set__selectedRow(int32_t value) ;
 
 constexpr int32_t __get__selectedRow() const;
 
- ::GlobalNamespace::IPreviewBeatmapLevel __declspec(property(get=__get__selectedPreviewBeatmapLevel, put=__set__selectedPreviewBeatmapLevel))  _selectedPreviewBeatmapLevel;
+ GlobalNamespace::IPreviewBeatmapLevel __declspec(property(get=__get__selectedPreviewBeatmapLevel, put=__set__selectedPreviewBeatmapLevel))  _selectedPreviewBeatmapLevel;
 
-constexpr void __set__selectedPreviewBeatmapLevel(::GlobalNamespace::IPreviewBeatmapLevel value) ;
+constexpr void __set__selectedPreviewBeatmapLevel(GlobalNamespace::IPreviewBeatmapLevel value) ;
 
-constexpr ::GlobalNamespace::IPreviewBeatmapLevel __get__selectedPreviewBeatmapLevel() const;
+constexpr GlobalNamespace::IPreviewBeatmapLevel __get__selectedPreviewBeatmapLevel() const;
 
 
 // Methods
 
 /// @brief Method add_didSelectLevelEvent addr 0x2189f80 size 0xb0 virtual false final false
- void add_didSelectLevelEvent(::System::Action_2<::GlobalNamespace::LevelCollectionTableView,::GlobalNamespace::IPreviewBeatmapLevel> value) ;
+ void add_didSelectLevelEvent(System::Action_2<GlobalNamespace::LevelCollectionTableView,GlobalNamespace::IPreviewBeatmapLevel> value) ;
 
 /// @brief Method remove_didSelectLevelEvent addr 0x218a030 size 0xb0 virtual false final false
- void remove_didSelectLevelEvent(::System::Action_2<::GlobalNamespace::LevelCollectionTableView,::GlobalNamespace::IPreviewBeatmapLevel> value) ;
+ void remove_didSelectLevelEvent(System::Action_2<GlobalNamespace::LevelCollectionTableView,GlobalNamespace::IPreviewBeatmapLevel> value) ;
 
 /// @brief Method add_didSelectHeaderEvent addr 0x218a0e0 size 0xb0 virtual false final false
- void add_didSelectHeaderEvent(::System::Action_1<::GlobalNamespace::LevelCollectionTableView> value) ;
+ void add_didSelectHeaderEvent(System::Action_1<GlobalNamespace::LevelCollectionTableView> value) ;
 
 /// @brief Method remove_didSelectHeaderEvent addr 0x218a190 size 0xb0 virtual false final false
- void remove_didSelectHeaderEvent(::System::Action_1<::GlobalNamespace::LevelCollectionTableView> value) ;
+ void remove_didSelectHeaderEvent(System::Action_1<GlobalNamespace::LevelCollectionTableView> value) ;
 
 /// @brief Method Init addr 0x218a240 size 0x40 virtual false final false
- void Init(::StringW headerText, ::UnityEngine::Sprite headerSprite) ;
+ void Init(::StringW headerText, UnityEngine::Sprite headerSprite) ;
 
 /// @brief Method Init addr 0x218a280 size 0xc0 virtual false final false
  void Init() ;
 
 /// @brief Method SetData addr 0x218a340 size 0x238 virtual false final false
- void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel> previewBeatmapLevels, ::System::Collections::Generic::HashSet_1<::StringW> favoriteLevelIds, bool beatmapLevelsAreSorted) ;
+ void SetData(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IPreviewBeatmapLevel> previewBeatmapLevels, System::Collections::Generic::HashSet_1<::StringW> favoriteLevelIds, bool beatmapLevelsAreSorted) ;
 
 /// @brief Method RefreshFavorites addr 0x218a578 size 0x140 virtual false final false
- void RefreshFavorites(::System::Collections::Generic::HashSet_1<::StringW> favoriteLevelIds) ;
+ void RefreshFavorites(System::Collections::Generic::HashSet_1<::StringW> favoriteLevelIds) ;
 
 /// @brief Method OnEnable addr 0x218a6b8 size 0x8c virtual false final false
  void OnEnable() ;
@@ -263,10 +262,10 @@ constexpr ::GlobalNamespace::IPreviewBeatmapLevel __get__selectedPreviewBeatmapL
  int32_t NumberOfCells() ;
 
 /// @brief Method CellForIdx addr 0x218a95c size 0x3f8 virtual true final true
- ::HMUI::TableCell CellForIdx(::HMUI::TableView tableView, int32_t row) ;
+ HMUI::TableCell CellForIdx(HMUI::TableView tableView, int32_t row) ;
 
 /// @brief Method HandleDidSelectRowEvent addr 0x218b144 size 0x114 virtual false final false
- void HandleDidSelectRowEvent(::HMUI::TableView tableView, int32_t row) ;
+ void HandleDidSelectRowEvent(HMUI::TableView tableView, int32_t row) ;
 
 /// @brief Method HandleAdditionalContentModelDidInvalidateData addr 0x218b258 size 0xa4 virtual false final false
  void HandleAdditionalContentModelDidInvalidateData() ;
@@ -284,7 +283,7 @@ constexpr ::GlobalNamespace::IPreviewBeatmapLevel __get__selectedPreviewBeatmapL
  void ClearSelection() ;
 
 /// @brief Method SelectLevel addr 0x218bc1c size 0x288 virtual false final false
- void SelectLevel(::GlobalNamespace::IPreviewBeatmapLevel beatmapLevel) ;
+ void SelectLevel(GlobalNamespace::IPreviewBeatmapLevel beatmapLevel) ;
 
 // Ctor Parameters []
 explicit LevelCollectionTableView() ;
@@ -296,6 +295,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LevelCollectionTableView);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelCollectionTableView, "", "LevelCollectionTableView");
+NEED_NO_BOX(GlobalNamespace::LevelCollectionTableView);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCollectionTableView, "", "LevelCollectionTableView");

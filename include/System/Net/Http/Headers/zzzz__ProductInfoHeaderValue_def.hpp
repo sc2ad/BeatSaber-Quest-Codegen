@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Net::Http::Headers {
 class Lexer;
 }
@@ -31,8 +30,8 @@ namespace System::Net::Http::Headers {
 class CORDL_TYPE ProductInfoHeaderValue : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::ICloneable
-constexpr operator  ::System::ICloneable() const noexcept;
+/// @brief Convert operator to System::ICloneable
+constexpr operator  System::ICloneable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -73,27 +72,27 @@ constexpr void __set__Comment_k__BackingField(::StringW value) ;
 
 constexpr ::StringW __get__Comment_k__BackingField() const;
 
- ::System::Net::Http::Headers::ProductHeaderValue __declspec(property(get=__get__Product_k__BackingField, put=__set__Product_k__BackingField))  _Product_k__BackingField;
+ System::Net::Http::Headers::ProductHeaderValue __declspec(property(get=__get__Product_k__BackingField, put=__set__Product_k__BackingField))  _Product_k__BackingField;
 
-constexpr void __set__Product_k__BackingField(::System::Net::Http::Headers::ProductHeaderValue value) ;
+constexpr void __set__Product_k__BackingField(System::Net::Http::Headers::ProductHeaderValue value) ;
 
-constexpr ::System::Net::Http::Headers::ProductHeaderValue __get__Product_k__BackingField() const;
+constexpr System::Net::Http::Headers::ProductHeaderValue __get__Product_k__BackingField() const;
 
 
 // Properties
 
  ::StringW __declspec(property(get=get_Comment, put=set_Comment))  Comment;
 
- ::System::Net::Http::Headers::ProductHeaderValue __declspec(property(get=get_Product, put=set_Product))  Product;
+ System::Net::Http::Headers::ProductHeaderValue __declspec(property(get=get_Product, put=set_Product))  Product;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "product", ty: "::System::Net::Http::Headers::ProductHeaderValue", modifiers: "", def_value: None }]
-explicit ProductInfoHeaderValue(::System::Net::Http::Headers::ProductHeaderValue product) ;
+// Ctor Parameters [CppParam { name: "product", ty: "System::Net::Http::Headers::ProductHeaderValue", modifiers: "", def_value: None }]
+explicit ProductInfoHeaderValue(System::Net::Http::Headers::ProductHeaderValue product) ;
 
 /// @brief Method .ctor addr 0x26adc00 size 0x68 virtual false final false
- void _ctor(::System::Net::Http::Headers::ProductHeaderValue product) ;
+ void _ctor(System::Net::Http::Headers::ProductHeaderValue product) ;
 
 // Ctor Parameters []
 explicit ProductInfoHeaderValue() ;
@@ -108,10 +107,10 @@ explicit ProductInfoHeaderValue() ;
  void set_Comment(::StringW value) ;
 
 /// @brief Method get_Product addr 0x26adc80 size 0x8 virtual false final false
- ::System::Net::Http::Headers::ProductHeaderValue get_Product() ;
+ System::Net::Http::Headers::ProductHeaderValue get_Product() ;
 
 /// @brief Method set_Product addr 0x26adc88 size 0x8 virtual false final false
- void set_Product(::System::Net::Http::Headers::ProductHeaderValue value) ;
+ void set_Product(System::Net::Http::Headers::ProductHeaderValue value) ;
 
 /// @brief Method System.ICloneable.Clone addr 0x26adc90 size 0x8 virtual true final true
  ::bs_hook::Il2CppWrapperType System_ICloneable_Clone() ;
@@ -123,10 +122,10 @@ explicit ProductInfoHeaderValue() ;
  int32_t GetHashCode() ;
 
 /// @brief Method TryParse addr 0x26add84 size 0x1a8 virtual false final false
-static bool TryParse(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::ProductInfoHeaderValue>> result) ;
+static bool TryParse(::StringW input, int32_t minimalCount, ByRef<System::Collections::Generic::List_1<System::Net::Http::Headers::ProductInfoHeaderValue>> result) ;
 
 /// @brief Method TryParseElement addr 0x26adf2c size 0x1ec virtual false final false
-static bool TryParseElement(::System::Net::Http::Headers::Lexer lexer, ByRef<::System::Net::Http::Headers::ProductInfoHeaderValue> parsedValue) ;
+static bool TryParseElement(System::Net::Http::Headers::Lexer lexer, ByRef<System::Net::Http::Headers::ProductInfoHeaderValue> parsedValue) ;
 
 /// @brief Method ToString addr 0x26ae118 size 0x20 virtual true final false
  ::StringW ToString() ;
@@ -135,6 +134,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Http::Headers
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Http::Headers::ProductInfoHeaderValue);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::ProductInfoHeaderValue, "System.Net.Http.Headers", "ProductInfoHeaderValue");
+NEED_NO_BOX(System::Net::Http::Headers::ProductInfoHeaderValue);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::ProductInfoHeaderValue, "System.Net.Http.Headers", "ProductInfoHeaderValue");

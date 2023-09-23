@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HAPI_PartType;
@@ -73,32 +72,31 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field HAPI_PARTTYPE_INVALID offset 0
-static ::HoudiniEngineUnity::HAPI_PartType const HAPI_PARTTYPE_INVALID;
+static HoudiniEngineUnity::HAPI_PartType const HAPI_PARTTYPE_INVALID;
 
 /// @brief Field HAPI_PARTTYPE_MESH offset 0
-static ::HoudiniEngineUnity::HAPI_PartType const HAPI_PARTTYPE_MESH;
+static HoudiniEngineUnity::HAPI_PartType const HAPI_PARTTYPE_MESH;
 
 /// @brief Field HAPI_PARTTYPE_CURVE offset 0
-static ::HoudiniEngineUnity::HAPI_PartType const HAPI_PARTTYPE_CURVE;
+static HoudiniEngineUnity::HAPI_PartType const HAPI_PARTTYPE_CURVE;
 
 /// @brief Field HAPI_PARTTYPE_VOLUME offset 0
-static ::HoudiniEngineUnity::HAPI_PartType const HAPI_PARTTYPE_VOLUME;
+static HoudiniEngineUnity::HAPI_PartType const HAPI_PARTTYPE_VOLUME;
 
 /// @brief Field HAPI_PARTTYPE_INSTANCER offset 0
-static ::HoudiniEngineUnity::HAPI_PartType const HAPI_PARTTYPE_INSTANCER;
+static HoudiniEngineUnity::HAPI_PartType const HAPI_PARTTYPE_INSTANCER;
 
 /// @brief Field HAPI_PARTTYPE_BOX offset 0
-static ::HoudiniEngineUnity::HAPI_PartType const HAPI_PARTTYPE_BOX;
+static HoudiniEngineUnity::HAPI_PartType const HAPI_PARTTYPE_BOX;
 
 /// @brief Field HAPI_PARTTYPE_SPHERE offset 0
-static ::HoudiniEngineUnity::HAPI_PartType const HAPI_PARTTYPE_SPHERE;
+static HoudiniEngineUnity::HAPI_PartType const HAPI_PARTTYPE_SPHERE;
 
 /// @brief Field HAPI_PARTTYPE_MAX offset 0
-static ::HoudiniEngineUnity::HAPI_PartType const HAPI_PARTTYPE_MAX;
+static HoudiniEngineUnity::HAPI_PartType const HAPI_PARTTYPE_MAX;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_PartType, "HoudiniEngineUnity", "HAPI_PartType");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_PartType, "HoudiniEngineUnity", "HAPI_PartType");

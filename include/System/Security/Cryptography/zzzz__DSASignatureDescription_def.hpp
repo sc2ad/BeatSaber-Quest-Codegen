@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Security/Cryptography/zzzz__SignatureDescription_def.hpp"
-namespace {
 // Forward declare root types
 namespace System::Security::Cryptography {
 class DSASignatureDescription;
@@ -12,7 +11,7 @@ namespace System::Security::Cryptography {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2962))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2968))
 // CS Name: System.Security.Cryptography.DSASignatureDescription
-class CORDL_TYPE DSASignatureDescription : public ::System::Security::Cryptography::SignatureDescription {
+class CORDL_TYPE DSASignatureDescription : public System::Security::Cryptography::SignatureDescription {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr DSASignatureDescription(DSASignatureDescription const& ) noexcept = de
 constexpr DSASignatureDescription(DSASignatureDescription&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DSASignatureDescription(void* ptr) noexcept : ::System::Security::Cryptography::SignatureDescription(ptr) {
+constexpr explicit DSASignatureDescription(void* ptr) noexcept : System::Security::Cryptography::SignatureDescription(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::DSASignatureDescription);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::DSASignatureDescription, "System.Security.Cryptography", "DSASignatureDescription");
+NEED_NO_BOX(System::Security::Cryptography::DSASignatureDescription);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::DSASignatureDescription, "System.Security.Cryptography", "DSASignatureDescription");

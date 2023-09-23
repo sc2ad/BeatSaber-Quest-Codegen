@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 class PreferBinarySerialization;
@@ -12,7 +11,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9992))
 // CS Name: UnityEngine.PreferBinarySerialization
-class CORDL_TYPE PreferBinarySerialization : public ::System::Attribute {
+class CORDL_TYPE PreferBinarySerialization : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr PreferBinarySerialization(PreferBinarySerialization const& ) noexcept 
 constexpr PreferBinarySerialization(PreferBinarySerialization&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PreferBinarySerialization(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit PreferBinarySerialization(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -49,6 +48,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::PreferBinarySerialization);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PreferBinarySerialization, "UnityEngine", "PreferBinarySerialization");
+NEED_NO_BOX(UnityEngine::PreferBinarySerialization);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PreferBinarySerialization, "UnityEngine", "PreferBinarySerialization");

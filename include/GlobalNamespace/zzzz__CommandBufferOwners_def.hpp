@@ -2,16 +2,15 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class Object;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
 }
 namespace UnityEngine::Rendering {
 class CommandBuffer;
+}
+namespace UnityEngine {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -59,17 +58,17 @@ constexpr explicit CommandBufferOwners(void* ptr) noexcept : ::bs_hook::Il2CppWr
 
 // Fields
 
- ::System::Collections::Generic::HashSet_1<::UnityEngine::Object> __declspec(property(get=__get__owners, put=__set__owners))  _owners;
+ System::Collections::Generic::HashSet_1<UnityEngine::Object> __declspec(property(get=__get__owners, put=__set__owners))  _owners;
 
-constexpr void __set__owners(::System::Collections::Generic::HashSet_1<::UnityEngine::Object> value) ;
+constexpr void __set__owners(System::Collections::Generic::HashSet_1<UnityEngine::Object> value) ;
 
-constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::Object> __get__owners() const;
+constexpr System::Collections::Generic::HashSet_1<UnityEngine::Object> __get__owners() const;
 
- ::UnityEngine::Rendering::CommandBuffer __declspec(property(get=__get_commandBuffer, put=__set_commandBuffer))  commandBuffer;
+ UnityEngine::Rendering::CommandBuffer __declspec(property(get=__get_commandBuffer, put=__set_commandBuffer))  commandBuffer;
 
-constexpr void __set_commandBuffer(::UnityEngine::Rendering::CommandBuffer value) ;
+constexpr void __set_commandBuffer(UnityEngine::Rendering::CommandBuffer value) ;
 
-constexpr ::UnityEngine::Rendering::CommandBuffer __get_commandBuffer() const;
+constexpr UnityEngine::Rendering::CommandBuffer __get_commandBuffer() const;
 
 
 // Properties
@@ -80,13 +79,13 @@ constexpr ::UnityEngine::Rendering::CommandBuffer __get_commandBuffer() const;
 // Methods
 
 /// @brief Method AddOwner addr 0x2675ed0 size 0xa0 virtual false final false
- void AddOwner(::UnityEngine::Object owner) ;
+ void AddOwner(UnityEngine::Object owner) ;
 
 /// @brief Method RemoveOwner addr 0x2675c1c size 0x60 virtual false final false
- void RemoveOwner(::UnityEngine::Object owner) ;
+ void RemoveOwner(UnityEngine::Object owner) ;
 
 /// @brief Method ContainsOwner addr 0x2675e78 size 0x58 virtual false final false
- bool ContainsOwner(::UnityEngine::Object owner) ;
+ bool ContainsOwner(UnityEngine::Object owner) ;
 
 /// @brief Method get_NumberOfOwners addr 0x2675c7c size 0x48 virtual false final false
  int32_t get_NumberOfOwners() ;
@@ -101,6 +100,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::CommandBufferOwners);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CommandBufferOwners, "", "CommandBufferOwners");
+NEED_NO_BOX(GlobalNamespace::CommandBufferOwners);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CommandBufferOwners, "", "CommandBufferOwners");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__StackedController_def.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class GameServerBrowserStackedController;
@@ -12,7 +11,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13647))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5807))
 // CS Name: GameServerBrowserStackedController
-class CORDL_TYPE GameServerBrowserStackedController : public ::HMUI::StackedController {
+class CORDL_TYPE GameServerBrowserStackedController : public HMUI::StackedController {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr GameServerBrowserStackedController(GameServerBrowserStackedController 
 constexpr GameServerBrowserStackedController(GameServerBrowserStackedController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GameServerBrowserStackedController(void* ptr) noexcept : ::HMUI::StackedController(ptr) {
+constexpr explicit GameServerBrowserStackedController(void* ptr) noexcept : HMUI::StackedController(ptr) {
 }
 
 
@@ -64,6 +63,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::GameServerBrowserStackedController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameServerBrowserStackedController, "", "GameServerBrowserStackedController");
+NEED_NO_BOX(GlobalNamespace::GameServerBrowserStackedController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerBrowserStackedController, "", "GameServerBrowserStackedController");

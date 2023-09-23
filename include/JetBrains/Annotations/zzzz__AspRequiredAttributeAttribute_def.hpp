@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace JetBrains::Annotations {
 class AspRequiredAttributeAttribute;
@@ -13,7 +12,7 @@ namespace JetBrains::Annotations {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15741))
 // CS Name: JetBrains.Annotations.AspRequiredAttributeAttribute
-class CORDL_TYPE AspRequiredAttributeAttribute : public ::System::Attribute {
+class CORDL_TYPE AspRequiredAttributeAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr AspRequiredAttributeAttribute(AspRequiredAttributeAttribute const& ) n
 constexpr AspRequiredAttributeAttribute(AspRequiredAttributeAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AspRequiredAttributeAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit AspRequiredAttributeAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def JetBrains::Annotations
-} // end anonymous namespace
-NEED_NO_BOX(::JetBrains::Annotations::AspRequiredAttributeAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::JetBrains::Annotations::AspRequiredAttributeAttribute, "JetBrains.Annotations", "AspRequiredAttributeAttribute");
+NEED_NO_BOX(JetBrains::Annotations::AspRequiredAttributeAttribute);
+DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspRequiredAttributeAttribute, "JetBrains.Annotations", "AspRequiredAttributeAttribute");

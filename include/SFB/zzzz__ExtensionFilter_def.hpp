@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
-namespace {
 // Forward declare root types
 namespace SFB {
 struct ExtensionFilter;
@@ -73,5 +72,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def SFB
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::SFB::ExtensionFilter, "SFB", "ExtensionFilter");
+DEFINE_IL2CPP_ARG_TYPE(SFB::ExtensionFilter, "SFB", "ExtensionFilter");

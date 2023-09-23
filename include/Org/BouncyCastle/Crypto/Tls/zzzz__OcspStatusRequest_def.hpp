@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Collections {
 class IList;
 }
@@ -57,50 +56,49 @@ constexpr explicit OcspStatusRequest(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 
 // Fields
 
- ::System::Collections::IList __declspec(property(get=__get_mResponderIDList, put=__set_mResponderIDList))  mResponderIDList;
+ System::Collections::IList __declspec(property(get=__get_mResponderIDList, put=__set_mResponderIDList))  mResponderIDList;
 
-constexpr void __set_mResponderIDList(::System::Collections::IList value) ;
+constexpr void __set_mResponderIDList(System::Collections::IList value) ;
 
-constexpr ::System::Collections::IList __get_mResponderIDList() const;
+constexpr System::Collections::IList __get_mResponderIDList() const;
 
- ::Org::BouncyCastle::Asn1::X509::X509Extensions __declspec(property(get=__get_mRequestExtensions, put=__set_mRequestExtensions))  mRequestExtensions;
+ Org::BouncyCastle::Asn1::X509::X509Extensions __declspec(property(get=__get_mRequestExtensions, put=__set_mRequestExtensions))  mRequestExtensions;
 
-constexpr void __set_mRequestExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions value) ;
+constexpr void __set_mRequestExtensions(Org::BouncyCastle::Asn1::X509::X509Extensions value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions __get_mRequestExtensions() const;
+constexpr Org::BouncyCastle::Asn1::X509::X509Extensions __get_mRequestExtensions() const;
 
 
 // Properties
 
- ::System::Collections::IList __declspec(property(get=get_ResponderIDList))  ResponderIDList;
+ System::Collections::IList __declspec(property(get=get_ResponderIDList))  ResponderIDList;
 
- ::Org::BouncyCastle::Asn1::X509::X509Extensions __declspec(property(get=get_RequestExtensions))  RequestExtensions;
+ Org::BouncyCastle::Asn1::X509::X509Extensions __declspec(property(get=get_RequestExtensions))  RequestExtensions;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "responderIDList", ty: "::System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "requestExtensions", ty: "::Org::BouncyCastle::Asn1::X509::X509Extensions", modifiers: "", def_value: None }]
-explicit OcspStatusRequest(::System::Collections::IList responderIDList, ::Org::BouncyCastle::Asn1::X509::X509Extensions requestExtensions) ;
+// Ctor Parameters [CppParam { name: "responderIDList", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "requestExtensions", ty: "Org::BouncyCastle::Asn1::X509::X509Extensions", modifiers: "", def_value: None }]
+explicit OcspStatusRequest(System::Collections::IList responderIDList, Org::BouncyCastle::Asn1::X509::X509Extensions requestExtensions) ;
 
 /// @brief Method .ctor addr 0xf04f10 size 0x2c virtual false final false
- void _ctor(::System::Collections::IList responderIDList, ::Org::BouncyCastle::Asn1::X509::X509Extensions requestExtensions) ;
+ void _ctor(System::Collections::IList responderIDList, Org::BouncyCastle::Asn1::X509::X509Extensions requestExtensions) ;
 
 /// @brief Method get_ResponderIDList addr 0xf04f3c size 0x8 virtual true final false
- ::System::Collections::IList get_ResponderIDList() ;
+ System::Collections::IList get_ResponderIDList() ;
 
 /// @brief Method get_RequestExtensions addr 0xf04f44 size 0x8 virtual true final false
- ::Org::BouncyCastle::Asn1::X509::X509Extensions get_RequestExtensions() ;
+ Org::BouncyCastle::Asn1::X509::X509Extensions get_RequestExtensions() ;
 
 /// @brief Method Encode addr 0xf04f4c size 0x3c0 virtual true final false
- void Encode(::System::IO::Stream output) ;
+ void Encode(System::IO::Stream output) ;
 
 /// @brief Method Parse addr 0xf0530c size 0x2a8 virtual false final false
-static ::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest Parse(::System::IO::Stream input) ;
+static Org::BouncyCastle::Crypto::Tls::OcspStatusRequest Parse(System::IO::Stream input) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest, "Org.BouncyCastle.Crypto.Tls", "OcspStatusRequest");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::OcspStatusRequest);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::OcspStatusRequest, "Org.BouncyCastle.Crypto.Tls", "OcspStatusRequest");

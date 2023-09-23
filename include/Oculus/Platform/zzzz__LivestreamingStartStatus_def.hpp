@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform {
 struct LivestreamingStartStatus;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Success offset 0
-static ::Oculus::Platform::LivestreamingStartStatus const Success;
+static Oculus::Platform::LivestreamingStartStatus const Success;
 
 /// @brief Field Unknown offset 0
-static ::Oculus::Platform::LivestreamingStartStatus const Unknown;
+static Oculus::Platform::LivestreamingStartStatus const Unknown;
 
 /// @brief Field NoPackageSet offset 0
-static ::Oculus::Platform::LivestreamingStartStatus const NoPackageSet;
+static Oculus::Platform::LivestreamingStartStatus const NoPackageSet;
 
 /// @brief Field NoFbConnect offset 0
-static ::Oculus::Platform::LivestreamingStartStatus const NoFbConnect;
+static Oculus::Platform::LivestreamingStartStatus const NoFbConnect;
 
 /// @brief Field NoSessionId offset 0
-static ::Oculus::Platform::LivestreamingStartStatus const NoSessionId;
+static Oculus::Platform::LivestreamingStartStatus const NoSessionId;
 
 /// @brief Field MissingParameters offset 0
-static ::Oculus::Platform::LivestreamingStartStatus const MissingParameters;
+static Oculus::Platform::LivestreamingStartStatus const MissingParameters;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::LivestreamingStartStatus, "Oculus.Platform", "LivestreamingStartStatus");
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::LivestreamingStartStatus, "Oculus.Platform", "LivestreamingStartStatus");

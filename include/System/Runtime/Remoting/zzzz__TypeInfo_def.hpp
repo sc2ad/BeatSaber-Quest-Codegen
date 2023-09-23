@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System::Runtime::Remoting {
-class IRemotingTypeInfo;
-}
 namespace System {
 class Type;
+}
+namespace System::Runtime::Remoting {
+class IRemotingTypeInfo;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {
@@ -23,8 +22,8 @@ namespace System::Runtime::Remoting {
 class CORDL_TYPE TypeInfo : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::Remoting::IRemotingTypeInfo
-constexpr operator  ::System::Runtime::Remoting::IRemotingTypeInfo() const noexcept;
+/// @brief Convert operator to System::Runtime::Remoting::IRemotingTypeInfo
+constexpr operator  System::Runtime::Remoting::IRemotingTypeInfo() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -85,22 +84,21 @@ constexpr ::ArrayW<::StringW> __get_interfacesImplemented() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "::System::Type", modifiers: "", def_value: None }]
-explicit TypeInfo(::System::Type type) ;
+// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
+explicit TypeInfo(System::Type type) ;
 
 /// @brief Method .ctor addr 0x2326afc size 0x410 virtual false final false
- void _ctor(::System::Type type) ;
+ void _ctor(System::Type type) ;
 
 /// @brief Method get_TypeName addr 0x2329418 size 0x8 virtual true final true
  ::StringW get_TypeName() ;
 
 /// @brief Method CanCastTo addr 0x2329420 size 0x26c virtual true final true
- bool CanCastTo(::System::Type fromType, ::bs_hook::Il2CppWrapperType o) ;
+ bool CanCastTo(System::Type fromType, ::bs_hook::Il2CppWrapperType o) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::TypeInfo);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::TypeInfo, "System.Runtime.Remoting", "TypeInfo");
+NEED_NO_BOX(System::Runtime::Remoting::TypeInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::TypeInfo, "System.Runtime.Remoting", "TypeInfo");

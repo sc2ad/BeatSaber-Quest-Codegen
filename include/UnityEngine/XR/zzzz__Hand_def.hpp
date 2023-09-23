@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 class IEquatable_1;
@@ -21,8 +20,8 @@ namespace UnityEngine::XR {
 struct CORDL_TYPE Hand : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::XR::Hand>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::XR::Hand>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::XR::Hand>
+constexpr operator  System::IEquatable_1<UnityEngine::XR::Hand>() const;
 
 // Ctor Parameters [CppParam { name: "m_DeviceId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "m_FeatureIndex", ty: "uint32_t", modifiers: "", def_value: None }]
 constexpr Hand(uint64_t m_DeviceId, uint32_t m_FeatureIndex) noexcept;
@@ -90,7 +89,7 @@ constexpr uint32_t __get_m_FeatureIndex() const;
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x2d39110 size 0x24 virtual true final true
- bool Equals(::UnityEngine::XR::Hand other) ;
+ bool Equals(UnityEngine::XR::Hand other) ;
 
 /// @brief Method GetHashCode addr 0x2d39134 size 0x4c virtual true final false
  int32_t GetHashCode() ;
@@ -99,5 +98,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::Hand, "UnityEngine.XR", "Hand");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::Hand, "UnityEngine.XR", "Hand");

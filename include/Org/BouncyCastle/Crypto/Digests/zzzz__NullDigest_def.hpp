@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::IO {
-class MemoryStream;
-}
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
+}
+namespace System::IO {
+class MemoryStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Digests {
@@ -24,8 +23,8 @@ namespace Org::BouncyCastle::Crypto::Digests {
 class CORDL_TYPE NullDigest : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IDigest
-constexpr operator  ::Org::BouncyCastle::Crypto::IDigest() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IDigest
+constexpr operator  Org::BouncyCastle::Crypto::IDigest() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -60,11 +59,11 @@ constexpr explicit NullDigest(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType
 
 // Fields
 
- ::System::IO::MemoryStream __declspec(property(get=__get_bOut, put=__set_bOut))  bOut;
+ System::IO::MemoryStream __declspec(property(get=__get_bOut, put=__set_bOut))  bOut;
 
-constexpr void __set_bOut(::System::IO::MemoryStream value) ;
+constexpr void __set_bOut(System::IO::MemoryStream value) ;
 
-constexpr ::System::IO::MemoryStream __get_bOut() const;
+constexpr System::IO::MemoryStream __get_bOut() const;
 
 
 // Properties
@@ -105,6 +104,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Digests
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::NullDigest);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Digests::NullDigest, "Org.BouncyCastle.Crypto.Digests", "NullDigest");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Digests::NullDigest);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::NullDigest, "Org.BouncyCastle.Crypto.Digests", "NullDigest");

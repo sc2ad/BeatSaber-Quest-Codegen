@@ -1,11 +1,10 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
-namespace {
-namespace System::Runtime::Remoting::Contexts {
-class Context;
-}
 namespace System::Runtime::Remoting::Activation {
 class IConstructionCallMessage;
+}
+namespace System::Runtime::Remoting::Contexts {
+class Context;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Contexts {
@@ -30,15 +29,14 @@ constexpr explicit IContextAttribute(void* ptr) noexcept : ::cordl_internals::In
 // Methods
 
 /// @brief Method GetPropertiesForNewContext addr 0x0 size 0xffffffffffffffff virtual true final false
- void GetPropertiesForNewContext(::System::Runtime::Remoting::Activation::IConstructionCallMessage msg) ;
+ void GetPropertiesForNewContext(System::Runtime::Remoting::Activation::IConstructionCallMessage msg) ;
 
 /// @brief Method IsContextOK addr 0x0 size 0xffffffffffffffff virtual true final false
- bool IsContextOK(::System::Runtime::Remoting::Contexts::Context ctx, ::System::Runtime::Remoting::Activation::IConstructionCallMessage msg) ;
+ bool IsContextOK(System::Runtime::Remoting::Contexts::Context ctx, System::Runtime::Remoting::Activation::IConstructionCallMessage msg) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Contexts
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Contexts::IContextAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Contexts::IContextAttribute, "System.Runtime.Remoting.Contexts", "IContextAttribute");
+NEED_NO_BOX(System::Runtime::Remoting::Contexts::IContextAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::IContextAttribute, "System.Runtime.Remoting.Contexts", "IContextAttribute");

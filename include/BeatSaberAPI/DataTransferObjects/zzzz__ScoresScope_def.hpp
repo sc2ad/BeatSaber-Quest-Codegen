@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace BeatSaberAPI::DataTransferObjects {
 struct ScoresScope;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Global offset 0
-static ::BeatSaberAPI::DataTransferObjects::ScoresScope const Global;
+static BeatSaberAPI::DataTransferObjects::ScoresScope const Global;
 
 /// @brief Field AroundPlayer offset 0
-static ::BeatSaberAPI::DataTransferObjects::ScoresScope const AroundPlayer;
+static BeatSaberAPI::DataTransferObjects::ScoresScope const AroundPlayer;
 
 /// @brief Field Friends offset 0
-static ::BeatSaberAPI::DataTransferObjects::ScoresScope const Friends;
+static BeatSaberAPI::DataTransferObjects::ScoresScope const Friends;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def BeatSaberAPI::DataTransferObjects
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaberAPI::DataTransferObjects::ScoresScope, "BeatSaberAPI.DataTransferObjects", "ScoresScope");
+DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::ScoresScope, "BeatSaberAPI.DataTransferObjects", "ScoresScope");

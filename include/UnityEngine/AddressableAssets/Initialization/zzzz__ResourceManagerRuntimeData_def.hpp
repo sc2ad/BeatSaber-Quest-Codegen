@@ -3,22 +3,21 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-class Type;
-}
 namespace UnityEngine::ResourceManagement::Util {
 struct SerializedType;
-}
-namespace UnityEngine::AddressableAssets::ResourceLocators {
-class ResourceLocationData;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace UnityEngine::AddressableAssets::ResourceLocators {
+class ResourceLocationData;
+}
 namespace UnityEngine::ResourceManagement::Util {
 struct ObjectInitializationData;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets::Initialization {
@@ -81,11 +80,11 @@ constexpr void __set_m_SettingsHash(::StringW value) ;
 
 constexpr ::StringW __get_m_SettingsHash() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData> __declspec(property(get=__get_m_CatalogLocations, put=__set_m_CatalogLocations))  m_CatalogLocations;
+ System::Collections::Generic::List_1<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData> __declspec(property(get=__get_m_CatalogLocations, put=__set_m_CatalogLocations))  m_CatalogLocations;
 
-constexpr void __set_m_CatalogLocations(::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData> value) ;
+constexpr void __set_m_CatalogLocations(System::Collections::Generic::List_1<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData> __get_m_CatalogLocations() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData> __get_m_CatalogLocations() const;
 
  bool __declspec(property(get=__get_m_ProfileEvents, put=__set_m_ProfileEvents))  m_ProfileEvents;
 
@@ -99,11 +98,11 @@ constexpr void __set_m_LogResourceManagerExceptions(bool value) ;
 
 constexpr bool __get_m_LogResourceManagerExceptions() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::ObjectInitializationData> __declspec(property(get=__get_m_ExtraInitializationData, put=__set_m_ExtraInitializationData))  m_ExtraInitializationData;
+ System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::ObjectInitializationData> __declspec(property(get=__get_m_ExtraInitializationData, put=__set_m_ExtraInitializationData))  m_ExtraInitializationData;
 
-constexpr void __set_m_ExtraInitializationData(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::ObjectInitializationData> value) ;
+constexpr void __set_m_ExtraInitializationData(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::ObjectInitializationData> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::ObjectInitializationData> __get_m_ExtraInitializationData() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::ObjectInitializationData> __get_m_ExtraInitializationData() const;
 
  bool __declspec(property(get=__get_m_DisableCatalogUpdateOnStart, put=__set_m_DisableCatalogUpdateOnStart))  m_DisableCatalogUpdateOnStart;
 
@@ -117,11 +116,11 @@ constexpr void __set_m_IsLocalCatalogInBundle(bool value) ;
 
 constexpr bool __get_m_IsLocalCatalogInBundle() const;
 
- ::UnityEngine::ResourceManagement::Util::SerializedType __declspec(property(get=__get_m_CertificateHandlerType, put=__set_m_CertificateHandlerType))  m_CertificateHandlerType;
+ UnityEngine::ResourceManagement::Util::SerializedType __declspec(property(get=__get_m_CertificateHandlerType, put=__set_m_CertificateHandlerType))  m_CertificateHandlerType;
 
-constexpr void __set_m_CertificateHandlerType(::UnityEngine::ResourceManagement::Util::SerializedType value) ;
+constexpr void __set_m_CertificateHandlerType(UnityEngine::ResourceManagement::Util::SerializedType value) ;
 
-constexpr ::UnityEngine::ResourceManagement::Util::SerializedType __get_m_CertificateHandlerType() const;
+constexpr UnityEngine::ResourceManagement::Util::SerializedType __get_m_CertificateHandlerType() const;
 
  ::StringW __declspec(property(get=__get_m_AddressablesVersion, put=__set_m_AddressablesVersion))  m_AddressablesVersion;
 
@@ -148,19 +147,19 @@ constexpr int32_t __get_m_CatalogRequestsTimeout() const;
 
  ::StringW __declspec(property(get=get_SettingsHash, put=set_SettingsHash))  SettingsHash;
 
- ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData> __declspec(property(get=get_CatalogLocations))  CatalogLocations;
+ System::Collections::Generic::List_1<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData> __declspec(property(get=get_CatalogLocations))  CatalogLocations;
 
  bool __declspec(property(get=get_ProfileEvents, put=set_ProfileEvents))  ProfileEvents;
 
  bool __declspec(property(get=get_LogResourceManagerExceptions, put=set_LogResourceManagerExceptions))  LogResourceManagerExceptions;
 
- ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::ObjectInitializationData> __declspec(property(get=get_InitializationObjects))  InitializationObjects;
+ System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::ObjectInitializationData> __declspec(property(get=get_InitializationObjects))  InitializationObjects;
 
  bool __declspec(property(get=get_DisableCatalogUpdateOnStartup, put=set_DisableCatalogUpdateOnStartup))  DisableCatalogUpdateOnStartup;
 
  bool __declspec(property(get=get_IsLocalCatalogInBundle, put=set_IsLocalCatalogInBundle))  IsLocalCatalogInBundle;
 
- ::System::Type __declspec(property(get=get_CertificateHandlerType, put=set_CertificateHandlerType))  CertificateHandlerType;
+ System::Type __declspec(property(get=get_CertificateHandlerType, put=set_CertificateHandlerType))  CertificateHandlerType;
 
  ::StringW __declspec(property(get=get_AddressablesVersion, put=set_AddressablesVersion))  AddressablesVersion;
 
@@ -184,7 +183,7 @@ constexpr int32_t __get_m_CatalogRequestsTimeout() const;
  void set_SettingsHash(::StringW value) ;
 
 /// @brief Method get_CatalogLocations addr 0x28a220c size 0x8 virtual false final false
- ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData> get_CatalogLocations() ;
+ System::Collections::Generic::List_1<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData> get_CatalogLocations() ;
 
 /// @brief Method get_ProfileEvents addr 0x28a2214 size 0x8 virtual false final false
  bool get_ProfileEvents() ;
@@ -199,7 +198,7 @@ constexpr int32_t __get_m_CatalogRequestsTimeout() const;
  void set_LogResourceManagerExceptions(bool value) ;
 
 /// @brief Method get_InitializationObjects addr 0x28a223c size 0x8 virtual false final false
- ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::ObjectInitializationData> get_InitializationObjects() ;
+ System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::ObjectInitializationData> get_InitializationObjects() ;
 
 /// @brief Method get_DisableCatalogUpdateOnStartup addr 0x28a2244 size 0x8 virtual false final false
  bool get_DisableCatalogUpdateOnStartup() ;
@@ -214,10 +213,10 @@ constexpr int32_t __get_m_CatalogRequestsTimeout() const;
  void set_IsLocalCatalogInBundle(bool value) ;
 
 /// @brief Method get_CertificateHandlerType addr 0x28a226c size 0xc virtual false final false
- ::System::Type get_CertificateHandlerType() ;
+ System::Type get_CertificateHandlerType() ;
 
 /// @brief Method set_CertificateHandlerType addr 0x28a2278 size 0xc virtual false final false
- void set_CertificateHandlerType(::System::Type value) ;
+ void set_CertificateHandlerType(System::Type value) ;
 
 /// @brief Method get_AddressablesVersion addr 0x28a2284 size 0x8 virtual false final false
  ::StringW get_AddressablesVersion() ;
@@ -247,6 +246,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::AddressableAssets::Initialization
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData, "UnityEngine.AddressableAssets.Initialization", "ResourceManagerRuntimeData");
+NEED_NO_BOX(UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData, "UnityEngine.AddressableAssets.Initialization", "ResourceManagerRuntimeData");

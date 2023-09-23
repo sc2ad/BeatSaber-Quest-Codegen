@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_def.hpp"
 #include "Oculus/Platform/Models/zzzz__MatchmakingAdminSnapshotCandidate_def.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class MatchmakingAdminSnapshotCandidateList;
@@ -11,10 +10,10 @@ class MatchmakingAdminSnapshotCandidateList;
 // Type: Oculus.Platform.Models::MatchmakingAdminSnapshotCandidateList
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1141 }), TypeDefinitionIndex(TypeDefinitionIndex(13410)), TypeDefinitionIndex(TypeDefinitionIndex(13438))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13410)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1141 }), TypeDefinitionIndex(TypeDefinitionIndex(13438))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13439))
 // CS Name: Oculus.Platform.Models.MatchmakingAdminSnapshotCandidateList
-class CORDL_TYPE MatchmakingAdminSnapshotCandidateList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::MatchmakingAdminSnapshotCandidate> {
+class CORDL_TYPE MatchmakingAdminSnapshotCandidateList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::MatchmakingAdminSnapshotCandidate> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr MatchmakingAdminSnapshotCandidateList(MatchmakingAdminSnapshotCandidat
 constexpr MatchmakingAdminSnapshotCandidateList(MatchmakingAdminSnapshotCandidateList&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MatchmakingAdminSnapshotCandidateList(void* ptr) noexcept : ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::MatchmakingAdminSnapshotCandidate>(ptr) {
+constexpr explicit MatchmakingAdminSnapshotCandidateList(void* ptr) noexcept : Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::MatchmakingAdminSnapshotCandidate>(ptr) {
 }
 
 
@@ -60,6 +59,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::MatchmakingAdminSnapshotCandidateList);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::MatchmakingAdminSnapshotCandidateList, "Oculus.Platform.Models", "MatchmakingAdminSnapshotCandidateList");
+NEED_NO_BOX(Oculus::Platform::Models::MatchmakingAdminSnapshotCandidateList);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::MatchmakingAdminSnapshotCandidateList, "Oculus.Platform.Models", "MatchmakingAdminSnapshotCandidateList");

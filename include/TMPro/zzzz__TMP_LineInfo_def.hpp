@@ -3,7 +3,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace TMPro {
 struct Extents;
 }
@@ -23,8 +22,8 @@ namespace TMPro {
 struct CORDL_TYPE TMP_LineInfo : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "controlCharacterCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "characterCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "visibleCharacterCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "spaceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "wordCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstVisibleCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lastCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lastVisibleCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "lineHeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "ascender", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "baseline", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "descender", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "maxAdvance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "width", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "marginLeft", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "marginRight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "alignment", ty: "::TMPro::HorizontalAlignmentOptions", modifiers: "", def_value: None }, CppParam { name: "lineExtents", ty: "::TMPro::Extents", modifiers: "", def_value: None }]
-constexpr TMP_LineInfo(int32_t controlCharacterCount, int32_t characterCount, int32_t visibleCharacterCount, int32_t spaceCount, int32_t wordCount, int32_t firstCharacterIndex, int32_t firstVisibleCharacterIndex, int32_t lastCharacterIndex, int32_t lastVisibleCharacterIndex, float_t length, float_t lineHeight, float_t ascender, float_t baseline, float_t descender, float_t maxAdvance, float_t width, float_t marginLeft, float_t marginRight, ::TMPro::HorizontalAlignmentOptions alignment, ::TMPro::Extents lineExtents) noexcept;
+// Ctor Parameters [CppParam { name: "controlCharacterCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "characterCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "visibleCharacterCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "spaceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "wordCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstVisibleCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lastCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lastVisibleCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "lineHeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "ascender", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "baseline", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "descender", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "maxAdvance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "width", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "marginLeft", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "marginRight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "alignment", ty: "TMPro::HorizontalAlignmentOptions", modifiers: "", def_value: None }, CppParam { name: "lineExtents", ty: "TMPro::Extents", modifiers: "", def_value: None }]
+constexpr TMP_LineInfo(int32_t controlCharacterCount, int32_t characterCount, int32_t visibleCharacterCount, int32_t spaceCount, int32_t wordCount, int32_t firstCharacterIndex, int32_t firstVisibleCharacterIndex, int32_t lastCharacterIndex, int32_t lastVisibleCharacterIndex, float_t length, float_t lineHeight, float_t ascender, float_t baseline, float_t descender, float_t maxAdvance, float_t width, float_t marginLeft, float_t marginRight, TMPro::HorizontalAlignmentOptions alignment, TMPro::Extents lineExtents) noexcept;
 
 
                     constexpr TMP_LineInfo(TMP_LineInfo const&) = default;
@@ -165,21 +164,20 @@ constexpr void __set_marginRight(float_t value) ;
 
 constexpr float_t __get_marginRight() const;
 
- ::TMPro::HorizontalAlignmentOptions __declspec(property(get=__get_alignment, put=__set_alignment))  alignment;
+ TMPro::HorizontalAlignmentOptions __declspec(property(get=__get_alignment, put=__set_alignment))  alignment;
 
-constexpr void __set_alignment(::TMPro::HorizontalAlignmentOptions value) ;
+constexpr void __set_alignment(TMPro::HorizontalAlignmentOptions value) ;
 
-constexpr ::TMPro::HorizontalAlignmentOptions __get_alignment() const;
+constexpr TMPro::HorizontalAlignmentOptions __get_alignment() const;
 
- ::TMPro::Extents __declspec(property(get=__get_lineExtents, put=__set_lineExtents))  lineExtents;
+ TMPro::Extents __declspec(property(get=__get_lineExtents, put=__set_lineExtents))  lineExtents;
 
-constexpr void __set_lineExtents(::TMPro::Extents value) ;
+constexpr void __set_lineExtents(TMPro::Extents value) ;
 
-constexpr ::TMPro::Extents __get_lineExtents() const;
+constexpr TMPro::Extents __get_lineExtents() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_LineInfo, "TMPro", "TMP_LineInfo");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_LineInfo, "TMPro", "TMP_LineInfo");

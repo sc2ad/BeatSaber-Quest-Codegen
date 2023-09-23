@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Configuration/zzzz__ConfigurationSectionGroup_def.hpp"
-namespace {
 // Forward declare root types
 namespace System::Net::Configuration {
 class NetSectionGroup;
@@ -12,7 +11,7 @@ namespace System::Net::Configuration {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16078))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8424))
 // CS Name: System.Net.Configuration.NetSectionGroup
-class CORDL_TYPE NetSectionGroup : public ::System::Configuration::ConfigurationSectionGroup {
+class CORDL_TYPE NetSectionGroup : public System::Configuration::ConfigurationSectionGroup {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr NetSectionGroup(NetSectionGroup const& ) noexcept = default;
 constexpr NetSectionGroup(NetSectionGroup&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NetSectionGroup(void* ptr) noexcept : ::System::Configuration::ConfigurationSectionGroup(ptr) {
+constexpr explicit NetSectionGroup(void* ptr) noexcept : System::Configuration::ConfigurationSectionGroup(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Configuration
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Configuration::NetSectionGroup);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Configuration::NetSectionGroup, "System.Net.Configuration", "NetSectionGroup");
+NEED_NO_BOX(System::Net::Configuration::NetSectionGroup);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::NetSectionGroup, "System.Net.Configuration", "NetSectionGroup");

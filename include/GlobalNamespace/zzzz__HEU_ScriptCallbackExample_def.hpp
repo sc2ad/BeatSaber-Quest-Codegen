@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class HEU_ScriptCallbackExample;
@@ -13,7 +12,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9530))
 // CS Name: HEU_ScriptCallbackExample
-class CORDL_TYPE HEU_ScriptCallbackExample : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE HEU_ScriptCallbackExample : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr HEU_ScriptCallbackExample(HEU_ScriptCallbackExample const& ) noexcept 
 constexpr HEU_ScriptCallbackExample(HEU_ScriptCallbackExample&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HEU_ScriptCallbackExample(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit HEU_ScriptCallbackExample(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -74,6 +73,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::HEU_ScriptCallbackExample);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::HEU_ScriptCallbackExample, "", "HEU_ScriptCallbackExample");
+NEED_NO_BOX(GlobalNamespace::HEU_ScriptCallbackExample);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HEU_ScriptCallbackExample, "", "HEU_ScriptCallbackExample");

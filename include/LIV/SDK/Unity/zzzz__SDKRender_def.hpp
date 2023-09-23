@@ -3,63 +3,62 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace LIV::SDK::Unity {
-struct SDKInputFrame;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace LIV::SDK::Unity {
-struct SDKOutputFrame;
-}
-namespace UnityEngine {
-class RenderTexture;
-}
-namespace UnityEngine {
-class Camera;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine::Rendering {
-struct CameraEvent;
-}
 namespace LIV::SDK::Unity {
 struct SDKPose;
-}
-namespace UnityEngine {
-struct Plane;
-}
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace LIV::SDK::Unity {
-class LIV;
-}
-namespace UnityEngine::Rendering {
-struct ColorWriteMask;
 }
 namespace UnityEngine {
 struct Matrix4x4;
 }
 namespace UnityEngine::Rendering {
+struct CameraEvent;
+}
+namespace System {
+class IDisposable;
+}
+namespace LIV::SDK::Unity {
+struct SDKOutputFrame;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+class RenderTexture;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace LIV::SDK::Unity {
+struct SDKInputFrame;
+}
+namespace UnityEngine {
+struct Plane;
+}
+namespace LIV::SDK::Unity {
+class LIV;
+}
+namespace UnityEngine::Rendering {
 class CommandBuffer;
+}
+namespace UnityEngine::Rendering {
+struct ColorWriteMask;
 }
 namespace LIV::SDK::Unity {
 struct SDKResolution;
 }
 namespace UnityEngine {
-class Transform;
+struct Vector3;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace LIV::SDK::Unity {
 struct TEXTURE_ID;
 }
 namespace UnityEngine {
-class Mesh;
+class Camera;
 }
 // Forward declare root types
 namespace LIV::SDK::Unity {
@@ -74,8 +73,8 @@ namespace LIV::SDK::Unity {
 class CORDL_TYPE SDKRender : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x340};
@@ -110,161 +109,161 @@ constexpr explicit SDKRender(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 
 // Fields
 
- ::UnityEngine::Rendering::CommandBuffer __declspec(property(get=__get__clipPlaneCommandBuffer, put=__set__clipPlaneCommandBuffer))  _clipPlaneCommandBuffer;
+ UnityEngine::Rendering::CommandBuffer __declspec(property(get=__get__clipPlaneCommandBuffer, put=__set__clipPlaneCommandBuffer))  _clipPlaneCommandBuffer;
 
-constexpr void __set__clipPlaneCommandBuffer(::UnityEngine::Rendering::CommandBuffer value) ;
+constexpr void __set__clipPlaneCommandBuffer(UnityEngine::Rendering::CommandBuffer value) ;
 
-constexpr ::UnityEngine::Rendering::CommandBuffer __get__clipPlaneCommandBuffer() const;
+constexpr UnityEngine::Rendering::CommandBuffer __get__clipPlaneCommandBuffer() const;
 
- ::UnityEngine::Rendering::CommandBuffer __declspec(property(get=__get__combineAlphaCommandBuffer, put=__set__combineAlphaCommandBuffer))  _combineAlphaCommandBuffer;
+ UnityEngine::Rendering::CommandBuffer __declspec(property(get=__get__combineAlphaCommandBuffer, put=__set__combineAlphaCommandBuffer))  _combineAlphaCommandBuffer;
 
-constexpr void __set__combineAlphaCommandBuffer(::UnityEngine::Rendering::CommandBuffer value) ;
+constexpr void __set__combineAlphaCommandBuffer(UnityEngine::Rendering::CommandBuffer value) ;
 
-constexpr ::UnityEngine::Rendering::CommandBuffer __get__combineAlphaCommandBuffer() const;
+constexpr UnityEngine::Rendering::CommandBuffer __get__combineAlphaCommandBuffer() const;
 
- ::UnityEngine::Rendering::CommandBuffer __declspec(property(get=__get__captureTextureCommandBuffer, put=__set__captureTextureCommandBuffer))  _captureTextureCommandBuffer;
+ UnityEngine::Rendering::CommandBuffer __declspec(property(get=__get__captureTextureCommandBuffer, put=__set__captureTextureCommandBuffer))  _captureTextureCommandBuffer;
 
-constexpr void __set__captureTextureCommandBuffer(::UnityEngine::Rendering::CommandBuffer value) ;
+constexpr void __set__captureTextureCommandBuffer(UnityEngine::Rendering::CommandBuffer value) ;
 
-constexpr ::UnityEngine::Rendering::CommandBuffer __get__captureTextureCommandBuffer() const;
+constexpr UnityEngine::Rendering::CommandBuffer __get__captureTextureCommandBuffer() const;
 
- ::UnityEngine::Rendering::CommandBuffer __declspec(property(get=__get__applyTextureCommandBuffer, put=__set__applyTextureCommandBuffer))  _applyTextureCommandBuffer;
+ UnityEngine::Rendering::CommandBuffer __declspec(property(get=__get__applyTextureCommandBuffer, put=__set__applyTextureCommandBuffer))  _applyTextureCommandBuffer;
 
-constexpr void __set__applyTextureCommandBuffer(::UnityEngine::Rendering::CommandBuffer value) ;
+constexpr void __set__applyTextureCommandBuffer(UnityEngine::Rendering::CommandBuffer value) ;
 
-constexpr ::UnityEngine::Rendering::CommandBuffer __get__applyTextureCommandBuffer() const;
+constexpr UnityEngine::Rendering::CommandBuffer __get__applyTextureCommandBuffer() const;
 
- ::UnityEngine::Rendering::CommandBuffer __declspec(property(get=__get__optimizedRenderingCommandBuffer, put=__set__optimizedRenderingCommandBuffer))  _optimizedRenderingCommandBuffer;
+ UnityEngine::Rendering::CommandBuffer __declspec(property(get=__get__optimizedRenderingCommandBuffer, put=__set__optimizedRenderingCommandBuffer))  _optimizedRenderingCommandBuffer;
 
-constexpr void __set__optimizedRenderingCommandBuffer(::UnityEngine::Rendering::CommandBuffer value) ;
+constexpr void __set__optimizedRenderingCommandBuffer(UnityEngine::Rendering::CommandBuffer value) ;
 
-constexpr ::UnityEngine::Rendering::CommandBuffer __get__optimizedRenderingCommandBuffer() const;
+constexpr UnityEngine::Rendering::CommandBuffer __get__optimizedRenderingCommandBuffer() const;
 
- ::UnityEngine::Rendering::CameraEvent __declspec(property(get=__get__clipPlaneCameraEvent, put=__set__clipPlaneCameraEvent))  _clipPlaneCameraEvent;
+ UnityEngine::Rendering::CameraEvent __declspec(property(get=__get__clipPlaneCameraEvent, put=__set__clipPlaneCameraEvent))  _clipPlaneCameraEvent;
 
-constexpr void __set__clipPlaneCameraEvent(::UnityEngine::Rendering::CameraEvent value) ;
+constexpr void __set__clipPlaneCameraEvent(UnityEngine::Rendering::CameraEvent value) ;
 
-constexpr ::UnityEngine::Rendering::CameraEvent __get__clipPlaneCameraEvent() const;
+constexpr UnityEngine::Rendering::CameraEvent __get__clipPlaneCameraEvent() const;
 
- ::UnityEngine::Rendering::CameraEvent __declspec(property(get=__get__optimizedRenderingCameraEvent, put=__set__optimizedRenderingCameraEvent))  _optimizedRenderingCameraEvent;
+ UnityEngine::Rendering::CameraEvent __declspec(property(get=__get__optimizedRenderingCameraEvent, put=__set__optimizedRenderingCameraEvent))  _optimizedRenderingCameraEvent;
 
-constexpr void __set__optimizedRenderingCameraEvent(::UnityEngine::Rendering::CameraEvent value) ;
+constexpr void __set__optimizedRenderingCameraEvent(UnityEngine::Rendering::CameraEvent value) ;
 
-constexpr ::UnityEngine::Rendering::CameraEvent __get__optimizedRenderingCameraEvent() const;
+constexpr UnityEngine::Rendering::CameraEvent __get__optimizedRenderingCameraEvent() const;
 
- ::UnityEngine::Mesh __declspec(property(get=__get__clipPlaneMesh, put=__set__clipPlaneMesh))  _clipPlaneMesh;
+ UnityEngine::Mesh __declspec(property(get=__get__clipPlaneMesh, put=__set__clipPlaneMesh))  _clipPlaneMesh;
 
-constexpr void __set__clipPlaneMesh(::UnityEngine::Mesh value) ;
+constexpr void __set__clipPlaneMesh(UnityEngine::Mesh value) ;
 
-constexpr ::UnityEngine::Mesh __get__clipPlaneMesh() const;
+constexpr UnityEngine::Mesh __get__clipPlaneMesh() const;
 
- ::UnityEngine::Material __declspec(property(get=__get__clipPlaneSimpleMaterial, put=__set__clipPlaneSimpleMaterial))  _clipPlaneSimpleMaterial;
+ UnityEngine::Material __declspec(property(get=__get__clipPlaneSimpleMaterial, put=__set__clipPlaneSimpleMaterial))  _clipPlaneSimpleMaterial;
 
-constexpr void __set__clipPlaneSimpleMaterial(::UnityEngine::Material value) ;
+constexpr void __set__clipPlaneSimpleMaterial(UnityEngine::Material value) ;
 
-constexpr ::UnityEngine::Material __get__clipPlaneSimpleMaterial() const;
+constexpr UnityEngine::Material __get__clipPlaneSimpleMaterial() const;
 
- ::UnityEngine::Material __declspec(property(get=__get__clipPlaneSimpleDebugMaterial, put=__set__clipPlaneSimpleDebugMaterial))  _clipPlaneSimpleDebugMaterial;
+ UnityEngine::Material __declspec(property(get=__get__clipPlaneSimpleDebugMaterial, put=__set__clipPlaneSimpleDebugMaterial))  _clipPlaneSimpleDebugMaterial;
 
-constexpr void __set__clipPlaneSimpleDebugMaterial(::UnityEngine::Material value) ;
+constexpr void __set__clipPlaneSimpleDebugMaterial(UnityEngine::Material value) ;
 
-constexpr ::UnityEngine::Material __get__clipPlaneSimpleDebugMaterial() const;
+constexpr UnityEngine::Material __get__clipPlaneSimpleDebugMaterial() const;
 
- ::UnityEngine::Material __declspec(property(get=__get__clipPlaneComplexMaterial, put=__set__clipPlaneComplexMaterial))  _clipPlaneComplexMaterial;
+ UnityEngine::Material __declspec(property(get=__get__clipPlaneComplexMaterial, put=__set__clipPlaneComplexMaterial))  _clipPlaneComplexMaterial;
 
-constexpr void __set__clipPlaneComplexMaterial(::UnityEngine::Material value) ;
+constexpr void __set__clipPlaneComplexMaterial(UnityEngine::Material value) ;
 
-constexpr ::UnityEngine::Material __get__clipPlaneComplexMaterial() const;
+constexpr UnityEngine::Material __get__clipPlaneComplexMaterial() const;
 
- ::UnityEngine::Material __declspec(property(get=__get__clipPlaneComplexDebugMaterial, put=__set__clipPlaneComplexDebugMaterial))  _clipPlaneComplexDebugMaterial;
+ UnityEngine::Material __declspec(property(get=__get__clipPlaneComplexDebugMaterial, put=__set__clipPlaneComplexDebugMaterial))  _clipPlaneComplexDebugMaterial;
 
-constexpr void __set__clipPlaneComplexDebugMaterial(::UnityEngine::Material value) ;
+constexpr void __set__clipPlaneComplexDebugMaterial(UnityEngine::Material value) ;
 
-constexpr ::UnityEngine::Material __get__clipPlaneComplexDebugMaterial() const;
+constexpr UnityEngine::Material __get__clipPlaneComplexDebugMaterial() const;
 
- ::UnityEngine::Material __declspec(property(get=__get__writeOpaqueToAlphaMaterial, put=__set__writeOpaqueToAlphaMaterial))  _writeOpaqueToAlphaMaterial;
+ UnityEngine::Material __declspec(property(get=__get__writeOpaqueToAlphaMaterial, put=__set__writeOpaqueToAlphaMaterial))  _writeOpaqueToAlphaMaterial;
 
-constexpr void __set__writeOpaqueToAlphaMaterial(::UnityEngine::Material value) ;
+constexpr void __set__writeOpaqueToAlphaMaterial(UnityEngine::Material value) ;
 
-constexpr ::UnityEngine::Material __get__writeOpaqueToAlphaMaterial() const;
+constexpr UnityEngine::Material __get__writeOpaqueToAlphaMaterial() const;
 
- ::UnityEngine::Material __declspec(property(get=__get__combineAlphaMaterial, put=__set__combineAlphaMaterial))  _combineAlphaMaterial;
+ UnityEngine::Material __declspec(property(get=__get__combineAlphaMaterial, put=__set__combineAlphaMaterial))  _combineAlphaMaterial;
 
-constexpr void __set__combineAlphaMaterial(::UnityEngine::Material value) ;
+constexpr void __set__combineAlphaMaterial(UnityEngine::Material value) ;
 
-constexpr ::UnityEngine::Material __get__combineAlphaMaterial() const;
+constexpr UnityEngine::Material __get__combineAlphaMaterial() const;
 
- ::UnityEngine::Material __declspec(property(get=__get__writeMaterial, put=__set__writeMaterial))  _writeMaterial;
+ UnityEngine::Material __declspec(property(get=__get__writeMaterial, put=__set__writeMaterial))  _writeMaterial;
 
-constexpr void __set__writeMaterial(::UnityEngine::Material value) ;
+constexpr void __set__writeMaterial(UnityEngine::Material value) ;
 
-constexpr ::UnityEngine::Material __get__writeMaterial() const;
+constexpr UnityEngine::Material __get__writeMaterial() const;
 
- ::UnityEngine::Material __declspec(property(get=__get__forceForwardRenderingMaterial, put=__set__forceForwardRenderingMaterial))  _forceForwardRenderingMaterial;
+ UnityEngine::Material __declspec(property(get=__get__forceForwardRenderingMaterial, put=__set__forceForwardRenderingMaterial))  _forceForwardRenderingMaterial;
 
-constexpr void __set__forceForwardRenderingMaterial(::UnityEngine::Material value) ;
+constexpr void __set__forceForwardRenderingMaterial(UnityEngine::Material value) ;
 
-constexpr ::UnityEngine::Material __get__forceForwardRenderingMaterial() const;
+constexpr UnityEngine::Material __get__forceForwardRenderingMaterial() const;
 
- ::UnityEngine::RenderTexture __declspec(property(get=__get__backgroundRenderTexture, put=__set__backgroundRenderTexture))  _backgroundRenderTexture;
+ UnityEngine::RenderTexture __declspec(property(get=__get__backgroundRenderTexture, put=__set__backgroundRenderTexture))  _backgroundRenderTexture;
 
-constexpr void __set__backgroundRenderTexture(::UnityEngine::RenderTexture value) ;
+constexpr void __set__backgroundRenderTexture(UnityEngine::RenderTexture value) ;
 
-constexpr ::UnityEngine::RenderTexture __get__backgroundRenderTexture() const;
+constexpr UnityEngine::RenderTexture __get__backgroundRenderTexture() const;
 
- ::UnityEngine::RenderTexture __declspec(property(get=__get__foregroundRenderTexture, put=__set__foregroundRenderTexture))  _foregroundRenderTexture;
+ UnityEngine::RenderTexture __declspec(property(get=__get__foregroundRenderTexture, put=__set__foregroundRenderTexture))  _foregroundRenderTexture;
 
-constexpr void __set__foregroundRenderTexture(::UnityEngine::RenderTexture value) ;
+constexpr void __set__foregroundRenderTexture(UnityEngine::RenderTexture value) ;
 
-constexpr ::UnityEngine::RenderTexture __get__foregroundRenderTexture() const;
+constexpr UnityEngine::RenderTexture __get__foregroundRenderTexture() const;
 
- ::UnityEngine::RenderTexture __declspec(property(get=__get__optimizedRenderTexture, put=__set__optimizedRenderTexture))  _optimizedRenderTexture;
+ UnityEngine::RenderTexture __declspec(property(get=__get__optimizedRenderTexture, put=__set__optimizedRenderTexture))  _optimizedRenderTexture;
 
-constexpr void __set__optimizedRenderTexture(::UnityEngine::RenderTexture value) ;
+constexpr void __set__optimizedRenderTexture(UnityEngine::RenderTexture value) ;
 
-constexpr ::UnityEngine::RenderTexture __get__optimizedRenderTexture() const;
+constexpr UnityEngine::RenderTexture __get__optimizedRenderTexture() const;
 
- ::UnityEngine::RenderTexture __declspec(property(get=__get__complexClipPlaneRenderTexture, put=__set__complexClipPlaneRenderTexture))  _complexClipPlaneRenderTexture;
+ UnityEngine::RenderTexture __declspec(property(get=__get__complexClipPlaneRenderTexture, put=__set__complexClipPlaneRenderTexture))  _complexClipPlaneRenderTexture;
 
-constexpr void __set__complexClipPlaneRenderTexture(::UnityEngine::RenderTexture value) ;
+constexpr void __set__complexClipPlaneRenderTexture(UnityEngine::RenderTexture value) ;
 
-constexpr ::UnityEngine::RenderTexture __get__complexClipPlaneRenderTexture() const;
+constexpr UnityEngine::RenderTexture __get__complexClipPlaneRenderTexture() const;
 
- ::LIV::SDK::Unity::LIV __declspec(property(get=__get__liv, put=__set__liv))  _liv;
+ LIV::SDK::Unity::LIV __declspec(property(get=__get__liv, put=__set__liv))  _liv;
 
-constexpr void __set__liv(::LIV::SDK::Unity::LIV value) ;
+constexpr void __set__liv(LIV::SDK::Unity::LIV value) ;
 
-constexpr ::LIV::SDK::Unity::LIV __get__liv() const;
+constexpr LIV::SDK::Unity::LIV __get__liv() const;
 
- ::LIV::SDK::Unity::SDKOutputFrame __declspec(property(get=__get__outputFrame, put=__set__outputFrame))  _outputFrame;
+ LIV::SDK::Unity::SDKOutputFrame __declspec(property(get=__get__outputFrame, put=__set__outputFrame))  _outputFrame;
 
-constexpr void __set__outputFrame(::LIV::SDK::Unity::SDKOutputFrame value) ;
+constexpr void __set__outputFrame(LIV::SDK::Unity::SDKOutputFrame value) ;
 
-constexpr ::LIV::SDK::Unity::SDKOutputFrame __get__outputFrame() const;
+constexpr LIV::SDK::Unity::SDKOutputFrame __get__outputFrame() const;
 
- ::LIV::SDK::Unity::SDKInputFrame __declspec(property(get=__get__inputFrame, put=__set__inputFrame))  _inputFrame;
+ LIV::SDK::Unity::SDKInputFrame __declspec(property(get=__get__inputFrame, put=__set__inputFrame))  _inputFrame;
 
-constexpr void __set__inputFrame(::LIV::SDK::Unity::SDKInputFrame value) ;
+constexpr void __set__inputFrame(LIV::SDK::Unity::SDKInputFrame value) ;
 
-constexpr ::LIV::SDK::Unity::SDKInputFrame __get__inputFrame() const;
+constexpr LIV::SDK::Unity::SDKInputFrame __get__inputFrame() const;
 
- ::LIV::SDK::Unity::SDKResolution __declspec(property(get=__get__resolution, put=__set__resolution))  _resolution;
+ LIV::SDK::Unity::SDKResolution __declspec(property(get=__get__resolution, put=__set__resolution))  _resolution;
 
-constexpr void __set__resolution(::LIV::SDK::Unity::SDKResolution value) ;
+constexpr void __set__resolution(LIV::SDK::Unity::SDKResolution value) ;
 
-constexpr ::LIV::SDK::Unity::SDKResolution __get__resolution() const;
+constexpr LIV::SDK::Unity::SDKResolution __get__resolution() const;
 
- ::UnityEngine::Camera __declspec(property(get=__get__cameraInstance, put=__set__cameraInstance))  _cameraInstance;
+ UnityEngine::Camera __declspec(property(get=__get__cameraInstance, put=__set__cameraInstance))  _cameraInstance;
 
-constexpr void __set__cameraInstance(::UnityEngine::Camera value) ;
+constexpr void __set__cameraInstance(UnityEngine::Camera value) ;
 
-constexpr ::UnityEngine::Camera __get__cameraInstance() const;
+constexpr UnityEngine::Camera __get__cameraInstance() const;
 
- ::LIV::SDK::Unity::SDKPose __declspec(property(get=__get__requestedPose, put=__set__requestedPose))  _requestedPose;
+ LIV::SDK::Unity::SDKPose __declspec(property(get=__get__requestedPose, put=__set__requestedPose))  _requestedPose;
 
-constexpr void __set__requestedPose(::LIV::SDK::Unity::SDKPose value) ;
+constexpr void __set__requestedPose(LIV::SDK::Unity::SDKPose value) ;
 
-constexpr ::LIV::SDK::Unity::SDKPose __get__requestedPose() const;
+constexpr LIV::SDK::Unity::SDKPose __get__requestedPose() const;
 
  int32_t __declspec(property(get=__get__requestedPoseFrameIndex, put=__set__requestedPoseFrameIndex))  _requestedPoseFrameIndex;
 
@@ -285,27 +284,27 @@ constexpr int32_t __get__requestedPoseFrameIndex() const;
 
  bool __declspec(property(get=get_canRenderOptimized))  canRenderOptimized;
 
- ::LIV::SDK::Unity::LIV __declspec(property(get=get_liv))  liv;
+ LIV::SDK::Unity::LIV __declspec(property(get=get_liv))  liv;
 
- ::LIV::SDK::Unity::SDKOutputFrame __declspec(property(get=get_outputFrame))  outputFrame;
+ LIV::SDK::Unity::SDKOutputFrame __declspec(property(get=get_outputFrame))  outputFrame;
 
- ::LIV::SDK::Unity::SDKInputFrame __declspec(property(get=get_inputFrame))  inputFrame;
+ LIV::SDK::Unity::SDKInputFrame __declspec(property(get=get_inputFrame))  inputFrame;
 
- ::LIV::SDK::Unity::SDKResolution __declspec(property(get=get_resolution))  resolution;
+ LIV::SDK::Unity::SDKResolution __declspec(property(get=get_resolution))  resolution;
 
- ::UnityEngine::Camera __declspec(property(get=get_cameraInstance))  cameraInstance;
+ UnityEngine::Camera __declspec(property(get=get_cameraInstance))  cameraInstance;
 
- ::UnityEngine::Camera __declspec(property(get=get_cameraReference))  cameraReference;
+ UnityEngine::Camera __declspec(property(get=get_cameraReference))  cameraReference;
 
- ::UnityEngine::Camera __declspec(property(get=get_hmdCamera))  hmdCamera;
+ UnityEngine::Camera __declspec(property(get=get_hmdCamera))  hmdCamera;
 
- ::UnityEngine::Transform __declspec(property(get=get_stage))  stage;
+ UnityEngine::Transform __declspec(property(get=get_stage))  stage;
 
- ::UnityEngine::Transform __declspec(property(get=get_stageTransform))  stageTransform;
+ UnityEngine::Transform __declspec(property(get=get_stageTransform))  stageTransform;
 
- ::UnityEngine::Matrix4x4 __declspec(property(get=get_stageLocalToWorldMatrix))  stageLocalToWorldMatrix;
+ UnityEngine::Matrix4x4 __declspec(property(get=get_stageLocalToWorldMatrix))  stageLocalToWorldMatrix;
 
- ::UnityEngine::Matrix4x4 __declspec(property(get=get_localToWorldMatrix))  localToWorldMatrix;
+ UnityEngine::Matrix4x4 __declspec(property(get=get_localToWorldMatrix))  localToWorldMatrix;
 
  int32_t __declspec(property(get=get_spectatorLayerMask))  spectatorLayerMask;
 
@@ -317,10 +316,10 @@ constexpr int32_t __get__requestedPoseFrameIndex() const;
 // Methods
 
 /// @brief Method GetClipPlaneMaterial addr 0x209d32c size 0x104 virtual false final false
- ::UnityEngine::Material GetClipPlaneMaterial(bool debugClipPlane, bool complexClipPlane, ::UnityEngine::Rendering::ColorWriteMask colorWriteMask) ;
+ UnityEngine::Material GetClipPlaneMaterial(bool debugClipPlane, bool complexClipPlane, UnityEngine::Rendering::ColorWriteMask colorWriteMask) ;
 
 /// @brief Method GetGroundClipPlaneMaterial addr 0x209d430 size 0x9c virtual false final false
- ::UnityEngine::Material GetGroundClipPlaneMaterial(bool debugClipPlane, ::UnityEngine::Rendering::ColorWriteMask colorWriteMask) ;
+ UnityEngine::Material GetGroundClipPlaneMaterial(bool debugClipPlane, UnityEngine::Rendering::ColorWriteMask colorWriteMask) ;
 
 /// @brief Method get_useDeferredRendering addr 0x209d4cc size 0x4c virtual false final false
  bool get_useDeferredRendering() ;
@@ -337,11 +336,11 @@ constexpr int32_t __get__requestedPoseFrameIndex() const;
 /// @brief Method get_canRenderOptimized addr 0x209d65c size 0x78 virtual false final false
  bool get_canRenderOptimized() ;
 
-// Ctor Parameters [CppParam { name: "liv", ty: "::LIV::SDK::Unity::LIV", modifiers: "", def_value: None }]
-explicit SDKRender(::LIV::SDK::Unity::LIV liv) ;
+// Ctor Parameters [CppParam { name: "liv", ty: "LIV::SDK::Unity::LIV", modifiers: "", def_value: None }]
+explicit SDKRender(LIV::SDK::Unity::LIV liv) ;
 
 /// @brief Method .ctor addr 0x209bac4 size 0x17c virtual false final false
- void _ctor(::LIV::SDK::Unity::LIV liv) ;
+ void _ctor(LIV::SDK::Unity::LIV liv) ;
 
 /// @brief Method UpdateCameraSettings addr 0x209deb0 size 0x84 virtual false final false
  void UpdateCameraSettings() ;
@@ -368,37 +367,37 @@ explicit SDKRender(::LIV::SDK::Unity::LIV liv) ;
  void Dispose() ;
 
 /// @brief Method get_liv addr 0x20a05e8 size 0x8 virtual false final false
- ::LIV::SDK::Unity::LIV get_liv() ;
+ LIV::SDK::Unity::LIV get_liv() ;
 
 /// @brief Method get_outputFrame addr 0x20a05f0 size 0x10 virtual false final false
- ::LIV::SDK::Unity::SDKOutputFrame get_outputFrame() ;
+ LIV::SDK::Unity::SDKOutputFrame get_outputFrame() ;
 
 /// @brief Method get_inputFrame addr 0x20a0600 size 0x10 virtual false final false
- ::LIV::SDK::Unity::SDKInputFrame get_inputFrame() ;
+ LIV::SDK::Unity::SDKInputFrame get_inputFrame() ;
 
 /// @brief Method get_resolution addr 0x20a0610 size 0x8 virtual false final false
- ::LIV::SDK::Unity::SDKResolution get_resolution() ;
+ LIV::SDK::Unity::SDKResolution get_resolution() ;
 
 /// @brief Method get_cameraInstance addr 0x20a0618 size 0x8 virtual false final false
- ::UnityEngine::Camera get_cameraInstance() ;
+ UnityEngine::Camera get_cameraInstance() ;
 
 /// @brief Method get_cameraReference addr 0x209faa0 size 0x8c virtual false final false
- ::UnityEngine::Camera get_cameraReference() ;
+ UnityEngine::Camera get_cameraReference() ;
 
 /// @brief Method get_hmdCamera addr 0x20a0620 size 0x1c virtual false final false
- ::UnityEngine::Camera get_hmdCamera() ;
+ UnityEngine::Camera get_hmdCamera() ;
 
 /// @brief Method get_stage addr 0x20a063c size 0x18 virtual false final false
- ::UnityEngine::Transform get_stage() ;
+ UnityEngine::Transform get_stage() ;
 
 /// @brief Method get_stageTransform addr 0x20a0654 size 0x1c virtual false final false
- ::UnityEngine::Transform get_stageTransform() ;
+ UnityEngine::Transform get_stageTransform() ;
 
 /// @brief Method get_stageLocalToWorldMatrix addr 0x20a0670 size 0xf8 virtual false final false
- ::UnityEngine::Matrix4x4 get_stageLocalToWorldMatrix() ;
+ UnityEngine::Matrix4x4 get_stageLocalToWorldMatrix() ;
 
 /// @brief Method get_localToWorldMatrix addr 0x209e0ec size 0xc4 virtual false final false
- ::UnityEngine::Matrix4x4 get_localToWorldMatrix() ;
+ UnityEngine::Matrix4x4 get_localToWorldMatrix() ;
 
 /// @brief Method get_spectatorLayerMask addr 0x209e1b0 size 0x20 virtual false final false
  int32_t get_spectatorLayerMask() ;
@@ -410,16 +409,16 @@ explicit SDKRender(::LIV::SDK::Unity::LIV liv) ;
  bool get_canSetPose() ;
 
 /// @brief Method SetPose addr 0x20a0788 size 0x2f4 virtual false final false
- bool SetPose(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, float_t verticalFieldOfView, bool useLocalSpace) ;
+ bool SetPose(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, float_t verticalFieldOfView, bool useLocalSpace) ;
 
 /// @brief Method SetGroundPlane addr 0x20a0c2c size 0x194 virtual false final false
- void SetGroundPlane(float_t distance, ::UnityEngine::Vector3 normal, bool useLocalSpace) ;
+ void SetGroundPlane(float_t distance, UnityEngine::Vector3 normal, bool useLocalSpace) ;
 
 /// @brief Method SetGroundPlane addr 0x20a0dc0 size 0x78 virtual false final false
- void SetGroundPlane(::UnityEngine::Plane plane, bool useLocalSpace) ;
+ void SetGroundPlane(UnityEngine::Plane plane, bool useLocalSpace) ;
 
 /// @brief Method SetGroundPlane addr 0x20a0e38 size 0x1a0 virtual false final false
- void SetGroundPlane(::UnityEngine::Transform transform, bool useLocalSpace) ;
+ void SetGroundPlane(UnityEngine::Transform transform, bool useLocalSpace) ;
 
 /// @brief Method ReleaseBridgePoseControl addr 0x20a04f0 size 0x64 virtual false final false
  void ReleaseBridgePoseControl() ;
@@ -464,12 +463,11 @@ explicit SDKRender(::LIV::SDK::Unity::LIV liv) ;
  void UpdateTextures() ;
 
 /// @brief Method SendTextureToBridge addr 0x209f574 size 0x11c virtual false final false
- void SendTextureToBridge(::UnityEngine::RenderTexture texture, ::LIV::SDK::Unity::TEXTURE_ID id) ;
+ void SendTextureToBridge(UnityEngine::RenderTexture texture, LIV::SDK::Unity::TEXTURE_ID id) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def LIV::SDK::Unity
-} // end anonymous namespace
-NEED_NO_BOX(::LIV::SDK::Unity::SDKRender);
-DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::SDKRender, "LIV.SDK.Unity", "SDKRender");
+NEED_NO_BOX(LIV::SDK::Unity::SDKRender);
+DEFINE_IL2CPP_ARG_TYPE(LIV::SDK::Unity::SDKRender, "LIV.SDK.Unity", "SDKRender");

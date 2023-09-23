@@ -4,7 +4,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine::ProBuilder::KdTree {
 template<typename T>
 class ITypeMath_1;
@@ -103,13 +102,13 @@ constexpr ::ArrayW<T> __get_maxPoint() const;
  void set_MaxPoint(::ArrayW<T> value) ;
 
 /// @brief Method Infinite addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::UnityEngine::ProBuilder::KdTree::HyperRect_1<T> Infinite(int32_t dimensions, ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<T> math) ;
+static UnityEngine::ProBuilder::KdTree::HyperRect_1<T> Infinite(int32_t dimensions, UnityEngine::ProBuilder::KdTree::ITypeMath_1<T> math) ;
 
 /// @brief Method GetClosestPoint addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<T> GetClosestPoint(::ArrayW<T> toPoint, ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<T> math) ;
+ ::ArrayW<T> GetClosestPoint(::ArrayW<T> toPoint, UnityEngine::ProBuilder::KdTree::ITypeMath_1<T> math) ;
 
 /// @brief Method Clone addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::ProBuilder::KdTree::HyperRect_1<T> Clone() ;
+ UnityEngine::ProBuilder::KdTree::HyperRect_1<T> Clone() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -120,7 +119,7 @@ namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template<>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(15795))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15795)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15795), inst: 374 })
 // CS Name: UnityEngine.ProBuilder.KdTree.HyperRect`1
 struct CORDL_TYPE HyperRect_1<float_t> : public ::bs_hook::ValueTypeWrapper {
@@ -195,17 +194,16 @@ constexpr ::ArrayW<float_t> __get_maxPoint() const;
  void set_MaxPoint(::ArrayW<float_t> value) ;
 
 /// @brief Method Infinite addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::UnityEngine::ProBuilder::KdTree::HyperRect_1<float_t> Infinite(int32_t dimensions, ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<float_t> math) ;
+static UnityEngine::ProBuilder::KdTree::HyperRect_1<float_t> Infinite(int32_t dimensions, UnityEngine::ProBuilder::KdTree::ITypeMath_1<float_t> math) ;
 
 /// @brief Method GetClosestPoint addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<float_t> GetClosestPoint(::ArrayW<float_t> toPoint, ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<float_t> math) ;
+ ::ArrayW<float_t> GetClosestPoint(::ArrayW<float_t> toPoint, UnityEngine::ProBuilder::KdTree::ITypeMath_1<float_t> math) ;
 
 /// @brief Method Clone addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::ProBuilder::KdTree::HyperRect_1<float_t> Clone() ;
+ UnityEngine::ProBuilder::KdTree::HyperRect_1<float_t> Clone() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder::KdTree
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::UnityEngine::ProBuilder::KdTree::HyperRect_1, "UnityEngine.ProBuilder.KdTree", "HyperRect`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(UnityEngine::ProBuilder::KdTree::HyperRect_1, "UnityEngine.ProBuilder.KdTree", "HyperRect`1");

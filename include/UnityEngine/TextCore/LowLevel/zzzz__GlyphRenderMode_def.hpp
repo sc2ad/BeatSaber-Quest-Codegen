@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::TextCore::LowLevel {
 struct GlyphRenderMode;
@@ -77,44 +76,43 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field SMOOTH_HINTED offset 0
-static ::UnityEngine::TextCore::LowLevel::GlyphRenderMode const SMOOTH_HINTED;
+static UnityEngine::TextCore::LowLevel::GlyphRenderMode const SMOOTH_HINTED;
 
 /// @brief Field SMOOTH offset 0
-static ::UnityEngine::TextCore::LowLevel::GlyphRenderMode const SMOOTH;
+static UnityEngine::TextCore::LowLevel::GlyphRenderMode const SMOOTH;
 
 /// @brief Field COLOR_HINTED offset 0
-static ::UnityEngine::TextCore::LowLevel::GlyphRenderMode const COLOR_HINTED;
+static UnityEngine::TextCore::LowLevel::GlyphRenderMode const COLOR_HINTED;
 
 /// @brief Field COLOR offset 0
-static ::UnityEngine::TextCore::LowLevel::GlyphRenderMode const COLOR;
+static UnityEngine::TextCore::LowLevel::GlyphRenderMode const COLOR;
 
 /// @brief Field RASTER_HINTED offset 0
-static ::UnityEngine::TextCore::LowLevel::GlyphRenderMode const RASTER_HINTED;
+static UnityEngine::TextCore::LowLevel::GlyphRenderMode const RASTER_HINTED;
 
 /// @brief Field RASTER offset 0
-static ::UnityEngine::TextCore::LowLevel::GlyphRenderMode const RASTER;
+static UnityEngine::TextCore::LowLevel::GlyphRenderMode const RASTER;
 
 /// @brief Field SDF offset 0
-static ::UnityEngine::TextCore::LowLevel::GlyphRenderMode const SDF;
+static UnityEngine::TextCore::LowLevel::GlyphRenderMode const SDF;
 
 /// @brief Field SDF8 offset 0
-static ::UnityEngine::TextCore::LowLevel::GlyphRenderMode const SDF8;
+static UnityEngine::TextCore::LowLevel::GlyphRenderMode const SDF8;
 
 /// @brief Field SDF16 offset 0
-static ::UnityEngine::TextCore::LowLevel::GlyphRenderMode const SDF16;
+static UnityEngine::TextCore::LowLevel::GlyphRenderMode const SDF16;
 
 /// @brief Field SDF32 offset 0
-static ::UnityEngine::TextCore::LowLevel::GlyphRenderMode const SDF32;
+static UnityEngine::TextCore::LowLevel::GlyphRenderMode const SDF32;
 
 /// @brief Field SDFAA_HINTED offset 0
-static ::UnityEngine::TextCore::LowLevel::GlyphRenderMode const SDFAA_HINTED;
+static UnityEngine::TextCore::LowLevel::GlyphRenderMode const SDFAA_HINTED;
 
 /// @brief Field SDFAA offset 0
-static ::UnityEngine::TextCore::LowLevel::GlyphRenderMode const SDFAA;
+static UnityEngine::TextCore::LowLevel::GlyphRenderMode const SDFAA;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::LowLevel
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::LowLevel::GlyphRenderMode, "UnityEngine.TextCore.LowLevel", "GlyphRenderMode");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphRenderMode, "UnityEngine.TextCore.LowLevel", "GlyphRenderMode");

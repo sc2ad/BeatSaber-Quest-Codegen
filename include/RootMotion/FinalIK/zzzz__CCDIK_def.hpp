@@ -1,12 +1,11 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "RootMotion/FinalIK/zzzz__IK_def.hpp"
-namespace {
-namespace RootMotion::FinalIK {
-class IKSolverCCD;
-}
 namespace RootMotion::FinalIK {
 class IKSolver;
+}
+namespace RootMotion::FinalIK {
+class IKSolverCCD;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -18,7 +17,7 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12478))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12474))
 // CS Name: RootMotion.FinalIK.CCDIK
-class CORDL_TYPE CCDIK : public ::RootMotion::FinalIK::IK {
+class CORDL_TYPE CCDIK : public RootMotion::FinalIK::IK {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr CCDIK(CCDIK const& ) noexcept = default;
 constexpr CCDIK(CCDIK&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CCDIK(void* ptr) noexcept : ::RootMotion::FinalIK::IK(ptr) {
+constexpr explicit CCDIK(void* ptr) noexcept : RootMotion::FinalIK::IK(ptr) {
 }
 
 
@@ -54,11 +53,11 @@ constexpr explicit CCDIK(void* ptr) noexcept : ::RootMotion::FinalIK::IK(ptr) {
 
 // Fields
 
- ::RootMotion::FinalIK::IKSolverCCD __declspec(property(get=__get_solver, put=__set_solver))  solver;
+ RootMotion::FinalIK::IKSolverCCD __declspec(property(get=__get_solver, put=__set_solver))  solver;
 
-constexpr void __set_solver(::RootMotion::FinalIK::IKSolverCCD value) ;
+constexpr void __set_solver(RootMotion::FinalIK::IKSolverCCD value) ;
 
-constexpr ::RootMotion::FinalIK::IKSolverCCD __get_solver() const;
+constexpr RootMotion::FinalIK::IKSolverCCD __get_solver() const;
 
 
 // Methods
@@ -76,7 +75,7 @@ constexpr ::RootMotion::FinalIK::IKSolverCCD __get_solver() const;
  void ASThread() ;
 
 /// @brief Method GetIKSolver addr 0x11c4154 size 0x8 virtual true final false
- ::RootMotion::FinalIK::IKSolver GetIKSolver() ;
+ RootMotion::FinalIK::IKSolver GetIKSolver() ;
 
 // Ctor Parameters []
 explicit CCDIK() ;
@@ -88,6 +87,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::CCDIK);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::CCDIK, "RootMotion.FinalIK", "CCDIK");
+NEED_NO_BOX(RootMotion::FinalIK::CCDIK);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::CCDIK, "RootMotion.FinalIK", "CCDIK");

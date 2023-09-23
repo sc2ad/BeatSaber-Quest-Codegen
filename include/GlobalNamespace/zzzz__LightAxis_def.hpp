@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 struct LightAxis;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field X offset 0
-static ::GlobalNamespace::LightAxis const X;
+static GlobalNamespace::LightAxis const X;
 
 /// @brief Field Y offset 0
-static ::GlobalNamespace::LightAxis const Y;
+static GlobalNamespace::LightAxis const Y;
 
 /// @brief Field Z offset 0
-static ::GlobalNamespace::LightAxis const Z;
+static GlobalNamespace::LightAxis const Z;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightAxis, "", "LightAxis");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightAxis, "", "LightAxis");

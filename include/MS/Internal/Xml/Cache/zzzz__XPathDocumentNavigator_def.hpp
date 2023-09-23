@@ -5,21 +5,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace MS::Internal::Xml::Cache {
+struct XPathNode;
+}
 namespace System::Xml {
 class XmlNameTable;
 }
 namespace System::Xml::XPath {
-struct XPathNamespaceScope;
+class XPathNavigator;
 }
-namespace MS::Internal::Xml::Cache {
-struct XPathNode;
+namespace System::Xml::XPath {
+struct XPathNamespaceScope;
 }
 namespace System::Xml::XPath {
 struct XPathNodeType;
-}
-namespace System::Xml::XPath {
-class XPathNavigator;
 }
 // Forward declare root types
 namespace MS::Internal::Xml::Cache {
@@ -31,7 +30,7 @@ namespace MS::Internal::Xml::Cache {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11524))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11709))
 // CS Name: MS.Internal.Xml.Cache.XPathDocumentNavigator
-class CORDL_TYPE XPathDocumentNavigator : public ::System::Xml::XPath::XPathNavigator {
+class CORDL_TYPE XPathDocumentNavigator : public System::Xml::XPath::XPathNavigator {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -46,7 +45,7 @@ constexpr XPathDocumentNavigator(XPathDocumentNavigator const& ) noexcept = defa
 constexpr XPathDocumentNavigator(XPathDocumentNavigator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XPathDocumentNavigator(void* ptr) noexcept : ::System::Xml::XPath::XPathNavigator(ptr) {
+constexpr explicit XPathDocumentNavigator(void* ptr) noexcept : System::Xml::XPath::XPathNavigator(ptr) {
 }
 
 
@@ -67,17 +66,17 @@ constexpr explicit XPathDocumentNavigator(void* ptr) noexcept : ::System::Xml::X
 
 // Fields
 
- ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> __declspec(property(get=__get__pageCurrent, put=__set__pageCurrent))  _pageCurrent;
+ ::ArrayW<MS::Internal::Xml::Cache::XPathNode> __declspec(property(get=__get__pageCurrent, put=__set__pageCurrent))  _pageCurrent;
 
-constexpr void __set__pageCurrent(::ArrayW<::MS::Internal::Xml::Cache::XPathNode> value) ;
+constexpr void __set__pageCurrent(::ArrayW<MS::Internal::Xml::Cache::XPathNode> value) ;
 
-constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> __get__pageCurrent() const;
+constexpr ::ArrayW<MS::Internal::Xml::Cache::XPathNode> __get__pageCurrent() const;
 
- ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> __declspec(property(get=__get__pageParent, put=__set__pageParent))  _pageParent;
+ ::ArrayW<MS::Internal::Xml::Cache::XPathNode> __declspec(property(get=__get__pageParent, put=__set__pageParent))  _pageParent;
 
-constexpr void __set__pageParent(::ArrayW<::MS::Internal::Xml::Cache::XPathNode> value) ;
+constexpr void __set__pageParent(::ArrayW<MS::Internal::Xml::Cache::XPathNode> value) ;
 
-constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> __get__pageParent() const;
+constexpr ::ArrayW<MS::Internal::Xml::Cache::XPathNode> __get__pageParent() const;
 
  int32_t __declspec(property(get=__get__idxCurrent, put=__set__idxCurrent))  _idxCurrent;
 
@@ -96,7 +95,7 @@ constexpr int32_t __get__idxParent() const;
 
  ::StringW __declspec(property(get=get_Value))  Value;
 
- ::System::Xml::XPath::XPathNodeType __declspec(property(get=get_NodeType))  NodeType;
+ System::Xml::XPath::XPathNodeType __declspec(property(get=get_NodeType))  NodeType;
 
  ::StringW __declspec(property(get=get_LocalName))  LocalName;
 
@@ -104,27 +103,27 @@ constexpr int32_t __get__idxParent() const;
 
  ::StringW __declspec(property(get=get_Prefix))  Prefix;
 
- ::System::Xml::XmlNameTable __declspec(property(get=get_NameTable))  NameTable;
+ System::Xml::XmlNameTable __declspec(property(get=get_NameTable))  NameTable;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_UnderlyingObject))  UnderlyingObject;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "pageCurrent", ty: "::ArrayW<::MS::Internal::Xml::Cache::XPathNode>", modifiers: "", def_value: None }, CppParam { name: "idxCurrent", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "pageParent", ty: "::ArrayW<::MS::Internal::Xml::Cache::XPathNode>", modifiers: "", def_value: None }, CppParam { name: "idxParent", ty: "int32_t", modifiers: "", def_value: None }]
-explicit XPathDocumentNavigator(::ArrayW<::MS::Internal::Xml::Cache::XPathNode> pageCurrent, int32_t idxCurrent, ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> pageParent, int32_t idxParent) ;
+// Ctor Parameters [CppParam { name: "pageCurrent", ty: "::ArrayW<MS::Internal::Xml::Cache::XPathNode>", modifiers: "", def_value: None }, CppParam { name: "idxCurrent", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "pageParent", ty: "::ArrayW<MS::Internal::Xml::Cache::XPathNode>", modifiers: "", def_value: None }, CppParam { name: "idxParent", ty: "int32_t", modifiers: "", def_value: None }]
+explicit XPathDocumentNavigator(::ArrayW<MS::Internal::Xml::Cache::XPathNode> pageCurrent, int32_t idxCurrent, ::ArrayW<MS::Internal::Xml::Cache::XPathNode> pageParent, int32_t idxParent) ;
 
 /// @brief Method .ctor addr 0x27571d0 size 0x84 virtual false final false
- void _ctor(::ArrayW<::MS::Internal::Xml::Cache::XPathNode> pageCurrent, int32_t idxCurrent, ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> pageParent, int32_t idxParent) ;
+ void _ctor(::ArrayW<MS::Internal::Xml::Cache::XPathNode> pageCurrent, int32_t idxCurrent, ::ArrayW<MS::Internal::Xml::Cache::XPathNode> pageParent, int32_t idxParent) ;
 
 /// @brief Method get_Value addr 0x2757254 size 0x1fc virtual true final false
  ::StringW get_Value() ;
 
 /// @brief Method Clone addr 0x2757630 size 0x7c virtual true final false
- ::System::Xml::XPath::XPathNavigator Clone() ;
+ System::Xml::XPath::XPathNavigator Clone() ;
 
 /// @brief Method get_NodeType addr 0x27576ac size 0x38 virtual true final false
- ::System::Xml::XPath::XPathNodeType get_NodeType() ;
+ System::Xml::XPath::XPathNodeType get_NodeType() ;
 
 /// @brief Method get_LocalName addr 0x27576f0 size 0x3c virtual true final false
  ::StringW get_LocalName() ;
@@ -136,19 +135,19 @@ explicit XPathDocumentNavigator(::ArrayW<::MS::Internal::Xml::Cache::XPathNode> 
  ::StringW get_Prefix() ;
 
 /// @brief Method get_NameTable addr 0x27577f8 size 0x44 virtual true final false
- ::System::Xml::XmlNameTable get_NameTable() ;
+ System::Xml::XmlNameTable get_NameTable() ;
 
 /// @brief Method MoveToFirstNamespace addr 0x2757858 size 0xf4 virtual true final false
- bool MoveToFirstNamespace(::System::Xml::XPath::XPathNamespaceScope namespaceScope) ;
+ bool MoveToFirstNamespace(System::Xml::XPath::XPathNamespaceScope namespaceScope) ;
 
 /// @brief Method MoveToNextNamespace addr 0x2757b14 size 0x108 virtual true final false
- bool MoveToNextNamespace(::System::Xml::XPath::XPathNamespaceScope scope) ;
+ bool MoveToNextNamespace(System::Xml::XPath::XPathNamespaceScope scope) ;
 
 /// @brief Method MoveToParent addr 0x2757c40 size 0x2c virtual true final false
  bool MoveToParent() ;
 
 /// @brief Method IsSamePosition addr 0x2757cc4 size 0xac virtual true final false
- bool IsSamePosition(::System::Xml::XPath::XPathNavigator other) ;
+ bool IsSamePosition(System::Xml::XPath::XPathNavigator other) ;
 
 /// @brief Method get_UnderlyingObject addr 0x2757d70 size 0x10 virtual true final false
  ::bs_hook::Il2CppWrapperType get_UnderlyingObject() ;
@@ -160,6 +159,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def MS::Internal::Xml::Cache
-} // end anonymous namespace
-NEED_NO_BOX(::MS::Internal::Xml::Cache::XPathDocumentNavigator);
-DEFINE_IL2CPP_ARG_TYPE(::MS::Internal::Xml::Cache::XPathDocumentNavigator, "MS.Internal.Xml.Cache", "XPathDocumentNavigator");
+NEED_NO_BOX(MS::Internal::Xml::Cache::XPathDocumentNavigator);
+DEFINE_IL2CPP_ARG_TYPE(MS::Internal::Xml::Cache::XPathDocumentNavigator, "MS.Internal.Xml.Cache", "XPathDocumentNavigator");

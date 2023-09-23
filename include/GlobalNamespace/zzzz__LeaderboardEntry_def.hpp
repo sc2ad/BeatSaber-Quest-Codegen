@@ -3,12 +3,11 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,7 +19,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5622))
 // CS Name: LeaderboardEntry
-class CORDL_TYPE LeaderboardEntry : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE LeaderboardEntry : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr LeaderboardEntry(LeaderboardEntry const& ) noexcept = default;
 constexpr LeaderboardEntry(LeaderboardEntry&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LeaderboardEntry(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit LeaderboardEntry(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -56,29 +55,29 @@ constexpr explicit LeaderboardEntry(void* ptr) noexcept : ::UnityEngine::MonoBeh
 
 // Fields
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__scoreText, put=__set__scoreText))  _scoreText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__scoreText, put=__set__scoreText))  _scoreText;
 
-constexpr void __set__scoreText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__scoreText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__scoreText() const;
+constexpr TMPro::TextMeshProUGUI __get__scoreText() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__playerNameText, put=__set__playerNameText))  _playerNameText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__playerNameText, put=__set__playerNameText))  _playerNameText;
 
-constexpr void __set__playerNameText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__playerNameText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__playerNameText() const;
+constexpr TMPro::TextMeshProUGUI __get__playerNameText() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__rankText, put=__set__rankText))  _rankText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__rankText, put=__set__rankText))  _rankText;
 
-constexpr void __set__rankText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__rankText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__rankText() const;
+constexpr TMPro::TextMeshProUGUI __get__rankText() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__color, put=__set__color))  _color;
+ UnityEngine::Color __declspec(property(get=__get__color, put=__set__color))  _color;
 
-constexpr void __set__color(::UnityEngine::Color value) ;
+constexpr void __set__color(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__color() const;
+constexpr UnityEngine::Color __get__color() const;
 
 
 // Methods
@@ -96,6 +95,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LeaderboardEntry);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LeaderboardEntry, "", "LeaderboardEntry");
+NEED_NO_BOX(GlobalNamespace::LeaderboardEntry);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardEntry, "", "LeaderboardEntry");

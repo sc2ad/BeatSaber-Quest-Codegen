@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
 class DisplayStringFormatAttribute;
@@ -13,7 +12,7 @@ namespace UnityEngine::InputSystem::Utilities {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6748))
 // CS Name: UnityEngine.InputSystem.Utilities.DisplayStringFormatAttribute
-class CORDL_TYPE DisplayStringFormatAttribute : public ::System::Attribute {
+class CORDL_TYPE DisplayStringFormatAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr DisplayStringFormatAttribute(DisplayStringFormatAttribute const& ) noe
 constexpr DisplayStringFormatAttribute(DisplayStringFormatAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DisplayStringFormatAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit DisplayStringFormatAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Utilities
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute, "UnityEngine.InputSystem.Utilities", "DisplayStringFormatAttribute");
+NEED_NO_BOX(UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute, "UnityEngine.InputSystem.Utilities", "DisplayStringFormatAttribute");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__CustomYieldInstruction_def.hpp"
 #include <cmath>
-namespace {
 // Forward declare root types
 namespace UnityEngine::XR::OpenXR {
 class WaitForRestartFinish;
@@ -13,7 +12,7 @@ namespace UnityEngine::XR::OpenXR {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10183))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14175))
 // CS Name: UnityEngine.XR.OpenXR.WaitForRestartFinish
-class CORDL_TYPE WaitForRestartFinish : public ::UnityEngine::CustomYieldInstruction {
+class CORDL_TYPE WaitForRestartFinish : public UnityEngine::CustomYieldInstruction {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr WaitForRestartFinish(WaitForRestartFinish const& ) noexcept = default;
 constexpr WaitForRestartFinish(WaitForRestartFinish&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit WaitForRestartFinish(void* ptr) noexcept : ::UnityEngine::CustomYieldInstruction(ptr) {
+constexpr explicit WaitForRestartFinish(void* ptr) noexcept : UnityEngine::CustomYieldInstruction(ptr) {
 }
 
 
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR::OpenXR
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::XR::OpenXR::WaitForRestartFinish);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::WaitForRestartFinish, "UnityEngine.XR.OpenXR", "WaitForRestartFinish");
+NEED_NO_BOX(UnityEngine::XR::OpenXR::WaitForRestartFinish);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::OpenXR::WaitForRestartFinish, "UnityEngine.XR.OpenXR", "WaitForRestartFinish");

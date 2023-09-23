@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 // Forward declare root types
 namespace System::Net::Mime {
 class EncodedStreamFactory;
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Mime
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Mime::EncodedStreamFactory);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Mime::EncodedStreamFactory, "System.Net.Mime", "EncodedStreamFactory");
+NEED_NO_BOX(System::Net::Mime::EncodedStreamFactory);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Mime::EncodedStreamFactory, "System.Net.Mime", "EncodedStreamFactory");

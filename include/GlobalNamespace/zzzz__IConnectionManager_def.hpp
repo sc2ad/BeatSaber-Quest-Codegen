@@ -2,52 +2,51 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-template<typename T1,typename T2,typename T3>
-class Action_3;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
-namespace GlobalNamespace {
-struct DisconnectedReason;
-}
-namespace BGNet::Core {
-struct DeliveryMethod;
-}
-namespace GlobalNamespace {
-class IConnection;
-}
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace GlobalNamespace {
-template<typename T>
-class IConnectionInitParams_1;
-}
-namespace GlobalNamespace {
-struct ConnectionFailedReason;
-}
-namespace System {
-class Action;
+class IConnection;
 }
 namespace GlobalNamespace {
 class IPollable;
 }
 namespace System {
-class IDisposable;
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace System {
+template<typename T1,typename T2,typename T3>
+class Action_3;
+}
+namespace GlobalNamespace {
+struct ConnectionFailedReason;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
+}
+namespace GlobalNamespace {
+template<typename T>
+class IConnectionInitParams_1;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System {
+class IDisposable;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace System {
+class Action;
+}
+namespace BGNet::Core {
+struct DeliveryMethod;
+}
+namespace GlobalNamespace {
+struct DisconnectedReason;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -62,11 +61,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE IConnectionManager : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IPollable
-constexpr operator  ::GlobalNamespace::IPollable() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IPollable
+constexpr operator  GlobalNamespace::IPollable() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 ~IConnectionManager() = default;
 
@@ -97,46 +96,46 @@ constexpr explicit IConnectionManager(void* ptr) noexcept : ::cordl_internals::I
 // Methods
 
 /// @brief Method add_onInitializedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void add_onInitializedEvent(::System::Action value) ;
+ void add_onInitializedEvent(System::Action value) ;
 
 /// @brief Method remove_onInitializedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void remove_onInitializedEvent(::System::Action value) ;
+ void remove_onInitializedEvent(System::Action value) ;
 
 /// @brief Method add_onConnectedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void add_onConnectedEvent(::System::Action value) ;
+ void add_onConnectedEvent(System::Action value) ;
 
 /// @brief Method remove_onConnectedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void remove_onConnectedEvent(::System::Action value) ;
+ void remove_onConnectedEvent(System::Action value) ;
 
 /// @brief Method add_onDisconnectedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void add_onDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason> value) ;
+ void add_onDisconnectedEvent(System::Action_1<GlobalNamespace::DisconnectedReason> value) ;
 
 /// @brief Method remove_onDisconnectedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void remove_onDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason> value) ;
+ void remove_onDisconnectedEvent(System::Action_1<GlobalNamespace::DisconnectedReason> value) ;
 
 /// @brief Method add_onConnectionFailedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void add_onConnectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason> value) ;
+ void add_onConnectionFailedEvent(System::Action_1<GlobalNamespace::ConnectionFailedReason> value) ;
 
 /// @brief Method remove_onConnectionFailedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void remove_onConnectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason> value) ;
+ void remove_onConnectionFailedEvent(System::Action_1<GlobalNamespace::ConnectionFailedReason> value) ;
 
 /// @brief Method add_onConnectionConnectedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void add_onConnectionConnectedEvent(::System::Action_1<::GlobalNamespace::IConnection> value) ;
+ void add_onConnectionConnectedEvent(System::Action_1<GlobalNamespace::IConnection> value) ;
 
 /// @brief Method remove_onConnectionConnectedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void remove_onConnectionConnectedEvent(::System::Action_1<::GlobalNamespace::IConnection> value) ;
+ void remove_onConnectionConnectedEvent(System::Action_1<GlobalNamespace::IConnection> value) ;
 
 /// @brief Method add_onConnectionDisconnectedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void add_onConnectionDisconnectedEvent(::System::Action_2<::GlobalNamespace::IConnection,::GlobalNamespace::DisconnectedReason> value) ;
+ void add_onConnectionDisconnectedEvent(System::Action_2<GlobalNamespace::IConnection,GlobalNamespace::DisconnectedReason> value) ;
 
 /// @brief Method remove_onConnectionDisconnectedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void remove_onConnectionDisconnectedEvent(::System::Action_2<::GlobalNamespace::IConnection,::GlobalNamespace::DisconnectedReason> value) ;
+ void remove_onConnectionDisconnectedEvent(System::Action_2<GlobalNamespace::IConnection,GlobalNamespace::DisconnectedReason> value) ;
 
 /// @brief Method add_onReceivedDataEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void add_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection,::LiteNetLib::Utils::NetDataReader,::BGNet::Core::DeliveryMethod> value) ;
+ void add_onReceivedDataEvent(System::Action_3<GlobalNamespace::IConnection,LiteNetLib::Utils::NetDataReader,BGNet::Core::DeliveryMethod> value) ;
 
 /// @brief Method remove_onReceivedDataEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void remove_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection,::LiteNetLib::Utils::NetDataReader,::BGNet::Core::DeliveryMethod> value) ;
+ void remove_onReceivedDataEvent(System::Action_3<GlobalNamespace::IConnection,LiteNetLib::Utils::NetDataReader,BGNet::Core::DeliveryMethod> value) ;
 
 /// @brief Method get_userId addr 0x0 size 0xffffffffffffffff virtual true final false
  ::StringW get_userId() ;
@@ -163,28 +162,27 @@ constexpr explicit IConnectionManager(void* ptr) noexcept : ::cordl_internals::I
  bool get_isDisposed() ;
 
 /// @brief Method SendToAll addr 0x0 size 0xffffffffffffffff virtual true final false
- void SendToAll(::LiteNetLib::Utils::NetDataWriter writer, ::BGNet::Core::DeliveryMethod deliveryMethod) ;
+ void SendToAll(LiteNetLib::Utils::NetDataWriter writer, BGNet::Core::DeliveryMethod deliveryMethod) ;
 
 /// @brief Method SendToAll addr 0x0 size 0xffffffffffffffff virtual true final false
- void SendToAll(::LiteNetLib::Utils::NetDataWriter writer, ::BGNet::Core::DeliveryMethod deliveryMethod, ::GlobalNamespace::IConnection excludingConnection) ;
+ void SendToAll(LiteNetLib::Utils::NetDataWriter writer, BGNet::Core::DeliveryMethod deliveryMethod, GlobalNamespace::IConnection excludingConnection) ;
 
 /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
 template<typename T>
- bool Init(::GlobalNamespace::IConnectionInitParams_1<T> initParams) ;
+ bool Init(GlobalNamespace::IConnectionInitParams_1<T> initParams) ;
 
 /// @brief Method Disconnect addr 0x0 size 0xffffffffffffffff virtual true final false
- void Disconnect(::GlobalNamespace::DisconnectedReason disconnectedReason) ;
+ void Disconnect(GlobalNamespace::DisconnectedReason disconnectedReason) ;
 
 /// @brief Method GetConnection addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::IConnection GetConnection(int32_t index) ;
+ GlobalNamespace::IConnection GetConnection(int32_t index) ;
 
 /// @brief Method DisposeAsync addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Threading::Tasks::Task DisposeAsync() ;
+ System::Threading::Tasks::Task DisposeAsync() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IConnectionManager);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IConnectionManager, "", "IConnectionManager");
+NEED_NO_BOX(GlobalNamespace::IConnectionManager);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IConnectionManager, "", "IConnectionManager");

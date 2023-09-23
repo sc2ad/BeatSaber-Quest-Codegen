@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace UnityEngine {
-class RenderTexture;
-}
 namespace UnityEngine {
 class Material;
+}
+namespace UnityEngine {
+class RenderTexture;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -57,22 +56,21 @@ constexpr explicit PseudoHDREncoding(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 /// @brief Field kPseudoHDREncodingShaderName offset 0
 static constexpr ::ConstString  kPseudoHDREncodingShaderName{u"Hidden/PseudoHDREncoding"};
 
-static ::UnityEngine::Material __declspec(property(get=__get__material, put=__set__material))  _material;
+static UnityEngine::Material __declspec(property(get=__get__material, put=__set__material))  _material;
 
-static void __set__material(::UnityEngine::Material value) ;
+static void __set__material(UnityEngine::Material value) ;
 
-static ::UnityEngine::Material __get__material() ;
+static UnityEngine::Material __get__material() ;
 
 
 // Methods
 
 /// @brief Method CreatePseudoHDREncodedTexture addr 0x219cc98 size 0x1f0 virtual false final false
-static ::UnityEngine::RenderTexture CreatePseudoHDREncodedTexture(::UnityEngine::RenderTexture src) ;
+static UnityEngine::RenderTexture CreatePseudoHDREncodedTexture(UnityEngine::RenderTexture src) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PseudoHDREncoding);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PseudoHDREncoding, "", "PseudoHDREncoding");
+NEED_NO_BOX(GlobalNamespace::PseudoHDREncoding);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PseudoHDREncoding, "", "PseudoHDREncoding");

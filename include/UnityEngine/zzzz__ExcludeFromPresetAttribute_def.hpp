@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 class ExcludeFromPresetAttribute;
@@ -12,7 +11,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10165))
 // CS Name: UnityEngine.ExcludeFromPresetAttribute
-class CORDL_TYPE ExcludeFromPresetAttribute : public ::System::Attribute {
+class CORDL_TYPE ExcludeFromPresetAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr ExcludeFromPresetAttribute(ExcludeFromPresetAttribute const& ) noexcep
 constexpr ExcludeFromPresetAttribute(ExcludeFromPresetAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ExcludeFromPresetAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit ExcludeFromPresetAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ExcludeFromPresetAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ExcludeFromPresetAttribute, "UnityEngine", "ExcludeFromPresetAttribute");
+NEED_NO_BOX(UnityEngine::ExcludeFromPresetAttribute);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ExcludeFromPresetAttribute, "UnityEngine", "ExcludeFromPresetAttribute");

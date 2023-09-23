@@ -2,16 +2,15 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
 class RoomInviteNotificationList;
 }
 namespace Oculus::Platform {
-class Request;
-}
-namespace Oculus::Platform {
 template<typename T>
 class Request_1;
+}
+namespace Oculus::Platform {
+class Request;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -60,18 +59,17 @@ constexpr explicit Notifications(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 // Methods
 
 /// @brief Method GetRoomInviteNotifications addr 0x2596580 size 0x15c virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::RoomInviteNotificationList> GetRoomInviteNotifications() ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::RoomInviteNotificationList> GetRoomInviteNotifications() ;
 
 /// @brief Method MarkAsRead addr 0x25966dc size 0x150 virtual false final false
-static ::Oculus::Platform::Request MarkAsRead(uint64_t notificationID) ;
+static Oculus::Platform::Request MarkAsRead(uint64_t notificationID) ;
 
 /// @brief Method GetNextRoomInviteNotificationListPage addr 0x259682c size 0x1e0 virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::RoomInviteNotificationList> GetNextRoomInviteNotificationListPage(::Oculus::Platform::Models::RoomInviteNotificationList list) ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::RoomInviteNotificationList> GetNextRoomInviteNotificationListPage(Oculus::Platform::Models::RoomInviteNotificationList list) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Notifications);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Notifications, "Oculus.Platform", "Notifications");
+NEED_NO_BOX(Oculus::Platform::Notifications);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Notifications, "Oculus.Platform", "Notifications");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace LIV::SDK::Unity {
 struct TEXTURE_DEVICE;
@@ -71,26 +70,25 @@ constexpr void __set_value__(uint32_t value) ;
 constexpr uint32_t __get_value__() const;
 
 /// @brief Field UNDEFINED offset 0
-static ::LIV::SDK::Unity::TEXTURE_DEVICE const UNDEFINED;
+static LIV::SDK::Unity::TEXTURE_DEVICE const UNDEFINED;
 
 /// @brief Field RAW offset 0
-static ::LIV::SDK::Unity::TEXTURE_DEVICE const RAW;
+static LIV::SDK::Unity::TEXTURE_DEVICE const RAW;
 
 /// @brief Field DIRECTX offset 0
-static ::LIV::SDK::Unity::TEXTURE_DEVICE const DIRECTX;
+static LIV::SDK::Unity::TEXTURE_DEVICE const DIRECTX;
 
 /// @brief Field OPENGL offset 0
-static ::LIV::SDK::Unity::TEXTURE_DEVICE const OPENGL;
+static LIV::SDK::Unity::TEXTURE_DEVICE const OPENGL;
 
 /// @brief Field VULKAN offset 0
-static ::LIV::SDK::Unity::TEXTURE_DEVICE const VULKAN;
+static LIV::SDK::Unity::TEXTURE_DEVICE const VULKAN;
 
 /// @brief Field METAL offset 0
-static ::LIV::SDK::Unity::TEXTURE_DEVICE const METAL;
+static LIV::SDK::Unity::TEXTURE_DEVICE const METAL;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def LIV::SDK::Unity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::TEXTURE_DEVICE, "LIV.SDK.Unity", "TEXTURE_DEVICE");
+DEFINE_IL2CPP_ARG_TYPE(LIV::SDK::Unity::TEXTURE_DEVICE, "LIV.SDK.Unity", "TEXTURE_DEVICE");

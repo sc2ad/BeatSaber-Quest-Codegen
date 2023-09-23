@@ -5,15 +5,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+class SerializationBinder;
+}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
-}
-namespace System {
-class Type;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class SerObjectInfoCache;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class SerObjectInfoInit;
@@ -21,23 +20,23 @@ class SerObjectInfoInit;
 namespace System::Runtime::Serialization {
 class ISerializationSurrogate;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Runtime::Serialization {
-class ISurrogateSelector;
-}
 namespace System::Runtime::Serialization::Formatters::Binary {
 class ObjectWriter;
 }
 namespace System::Runtime::Serialization {
-class IFormatterConverter;
-}
-namespace System::Runtime::Serialization {
-class SerializationBinder;
+class ISurrogateSelector;
 }
 namespace System::Reflection {
 class MemberInfo;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class SerObjectInfoCache;
+}
+namespace System::Runtime::Serialization {
+class IFormatterConverter;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -97,11 +96,11 @@ constexpr void __set_obj(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get_obj() const;
 
- ::System::Type __declspec(property(get=__get_objectType, put=__set_objectType))  objectType;
+ System::Type __declspec(property(get=__get_objectType, put=__set_objectType))  objectType;
 
-constexpr void __set_objectType(::System::Type value) ;
+constexpr void __set_objectType(System::Type value) ;
 
-constexpr ::System::Type __get_objectType() const;
+constexpr System::Type __get_objectType() const;
 
  bool __declspec(property(get=__get_isSi, put=__set_isSi))  isSi;
 
@@ -127,17 +126,17 @@ constexpr void __set_isArray(bool value) ;
 
 constexpr bool __get_isArray() const;
 
- ::System::Runtime::Serialization::SerializationInfo __declspec(property(get=__get_si, put=__set_si))  si;
+ System::Runtime::Serialization::SerializationInfo __declspec(property(get=__get_si, put=__set_si))  si;
 
-constexpr void __set_si(::System::Runtime::Serialization::SerializationInfo value) ;
+constexpr void __set_si(System::Runtime::Serialization::SerializationInfo value) ;
 
-constexpr ::System::Runtime::Serialization::SerializationInfo __get_si() const;
+constexpr System::Runtime::Serialization::SerializationInfo __get_si() const;
 
- ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache __declspec(property(get=__get_cache, put=__set_cache))  cache;
+ System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache __declspec(property(get=__get_cache, put=__set_cache))  cache;
 
-constexpr void __set_cache(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache value) ;
+constexpr void __set_cache(System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache value) ;
 
-constexpr ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache __get_cache() const;
+constexpr System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache __get_cache() const;
 
  ::ArrayW<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get_memberData, put=__set_memberData))  memberData;
 
@@ -145,23 +144,23 @@ constexpr void __set_memberData(::ArrayW<::bs_hook::Il2CppWrapperType> value) ;
 
 constexpr ::ArrayW<::bs_hook::Il2CppWrapperType> __get_memberData() const;
 
- ::System::Runtime::Serialization::ISerializationSurrogate __declspec(property(get=__get_serializationSurrogate, put=__set_serializationSurrogate))  serializationSurrogate;
+ System::Runtime::Serialization::ISerializationSurrogate __declspec(property(get=__get_serializationSurrogate, put=__set_serializationSurrogate))  serializationSurrogate;
 
-constexpr void __set_serializationSurrogate(::System::Runtime::Serialization::ISerializationSurrogate value) ;
+constexpr void __set_serializationSurrogate(System::Runtime::Serialization::ISerializationSurrogate value) ;
 
-constexpr ::System::Runtime::Serialization::ISerializationSurrogate __get_serializationSurrogate() const;
+constexpr System::Runtime::Serialization::ISerializationSurrogate __get_serializationSurrogate() const;
 
- ::System::Runtime::Serialization::StreamingContext __declspec(property(get=__get_context, put=__set_context))  context;
+ System::Runtime::Serialization::StreamingContext __declspec(property(get=__get_context, put=__set_context))  context;
 
-constexpr void __set_context(::System::Runtime::Serialization::StreamingContext value) ;
+constexpr void __set_context(System::Runtime::Serialization::StreamingContext value) ;
 
-constexpr ::System::Runtime::Serialization::StreamingContext __get_context() const;
+constexpr System::Runtime::Serialization::StreamingContext __get_context() const;
 
- ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit __declspec(property(get=__get_serObjectInfoInit, put=__set_serObjectInfoInit))  serObjectInfoInit;
+ System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit __declspec(property(get=__get_serObjectInfoInit, put=__set_serObjectInfoInit))  serObjectInfoInit;
 
-constexpr void __set_serObjectInfoInit(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit value) ;
+constexpr void __set_serObjectInfoInit(System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit value) ;
 
-constexpr ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit __get_serObjectInfoInit() const;
+constexpr System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit __get_serObjectInfoInit() const;
 
  int64_t __declspec(property(get=__get_objectId, put=__set_objectId))  objectId;
 
@@ -203,22 +202,22 @@ explicit WriteObjectInfo() ;
  void InternalInit() ;
 
 /// @brief Method Serialize addr 0x235bd34 size 0x90 virtual false final false
-static ::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo Serialize(::bs_hook::Il2CppWrapperType obj, ::System::Runtime::Serialization::ISurrogateSelector surrogateSelector, ::System::Runtime::Serialization::StreamingContext context, ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit serObjectInfoInit, ::System::Runtime::Serialization::IFormatterConverter converter, ::System::Runtime::Serialization::Formatters::Binary::ObjectWriter objectWriter, ::System::Runtime::Serialization::SerializationBinder binder) ;
+static System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo Serialize(::bs_hook::Il2CppWrapperType obj, System::Runtime::Serialization::ISurrogateSelector surrogateSelector, System::Runtime::Serialization::StreamingContext context, System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit serObjectInfoInit, System::Runtime::Serialization::IFormatterConverter converter, System::Runtime::Serialization::Formatters::Binary::ObjectWriter objectWriter, System::Runtime::Serialization::SerializationBinder binder) ;
 
 /// @brief Method InitSerialize addr 0x235be9c size 0x4d8 virtual false final false
- void InitSerialize(::bs_hook::Il2CppWrapperType obj, ::System::Runtime::Serialization::ISurrogateSelector surrogateSelector, ::System::Runtime::Serialization::StreamingContext context, ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit serObjectInfoInit, ::System::Runtime::Serialization::IFormatterConverter converter, ::System::Runtime::Serialization::Formatters::Binary::ObjectWriter objectWriter, ::System::Runtime::Serialization::SerializationBinder binder) ;
+ void InitSerialize(::bs_hook::Il2CppWrapperType obj, System::Runtime::Serialization::ISurrogateSelector surrogateSelector, System::Runtime::Serialization::StreamingContext context, System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit serObjectInfoInit, System::Runtime::Serialization::IFormatterConverter converter, System::Runtime::Serialization::Formatters::Binary::ObjectWriter objectWriter, System::Runtime::Serialization::SerializationBinder binder) ;
 
 /// @brief Method Serialize addr 0x235cbac size 0x88 virtual false final false
-static ::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo Serialize(::System::Type objectType, ::System::Runtime::Serialization::ISurrogateSelector surrogateSelector, ::System::Runtime::Serialization::StreamingContext context, ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit serObjectInfoInit, ::System::Runtime::Serialization::IFormatterConverter converter, ::System::Runtime::Serialization::SerializationBinder binder) ;
+static System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo Serialize(System::Type objectType, System::Runtime::Serialization::ISurrogateSelector surrogateSelector, System::Runtime::Serialization::StreamingContext context, System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit serObjectInfoInit, System::Runtime::Serialization::IFormatterConverter converter, System::Runtime::Serialization::SerializationBinder binder) ;
 
 /// @brief Method InitSerialize addr 0x235cc34 size 0x2dc virtual false final false
- void InitSerialize(::System::Type objectType, ::System::Runtime::Serialization::ISurrogateSelector surrogateSelector, ::System::Runtime::Serialization::StreamingContext context, ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit serObjectInfoInit, ::System::Runtime::Serialization::IFormatterConverter converter, ::System::Runtime::Serialization::SerializationBinder binder) ;
+ void InitSerialize(System::Type objectType, System::Runtime::Serialization::ISurrogateSelector surrogateSelector, System::Runtime::Serialization::StreamingContext context, System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit serObjectInfoInit, System::Runtime::Serialization::IFormatterConverter converter, System::Runtime::Serialization::SerializationBinder binder) ;
 
 /// @brief Method InitSiWrite addr 0x235c484 size 0x2f8 virtual false final false
  void InitSiWrite() ;
 
 /// @brief Method CheckTypeForwardedFrom addr 0x235c77c size 0x158 virtual false final false
-static void CheckTypeForwardedFrom(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache cache, ::System::Type objectType, ::StringW binderAssemblyString) ;
+static void CheckTypeForwardedFrom(System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache cache, System::Type objectType, ::StringW binderAssemblyString) ;
 
 /// @brief Method InitNoMembers addr 0x235c374 size 0xe8 virtual false final false
  void InitNoMembers() ;
@@ -233,24 +232,23 @@ static void CheckTypeForwardedFrom(::System::Runtime::Serialization::Formatters:
  ::StringW GetAssemblyString() ;
 
 /// @brief Method InvokeSerializationBinder addr 0x235c45c size 0x28 virtual false final false
- void InvokeSerializationBinder(::System::Runtime::Serialization::SerializationBinder binder) ;
+ void InvokeSerializationBinder(System::Runtime::Serialization::SerializationBinder binder) ;
 
 /// @brief Method GetMemberType addr 0x235cf10 size 0x16c virtual false final false
- ::System::Type GetMemberType(::System::Reflection::MemberInfo objMember) ;
+ System::Type GetMemberType(System::Reflection::MemberInfo objMember) ;
 
 /// @brief Method GetMemberInfo addr 0x235d07c size 0xa4 virtual false final false
- void GetMemberInfo(ByRef<::ArrayW<::StringW>> outMemberNames, ByRef<::ArrayW<::System::Type>> outMemberTypes, ByRef<::ArrayW<::bs_hook::Il2CppWrapperType>> outMemberData) ;
+ void GetMemberInfo(ByRef<::ArrayW<::StringW>> outMemberNames, ByRef<::ArrayW<System::Type>> outMemberTypes, ByRef<::ArrayW<::bs_hook::Il2CppWrapperType>> outMemberData) ;
 
 /// @brief Method GetObjectInfo addr 0x235bdc4 size 0xd8 virtual false final false
-static ::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo GetObjectInfo(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit serObjectInfoInit) ;
+static System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo GetObjectInfo(System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit serObjectInfoInit) ;
 
 /// @brief Method PutObjectInfo addr 0x235bcf4 size 0x20 virtual false final false
-static void PutObjectInfo(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit serObjectInfoInit, ::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo objectInfo) ;
+static void PutObjectInfo(System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit serObjectInfoInit, System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo objectInfo) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization::Formatters::Binary
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo, "System.Runtime.Serialization.Formatters.Binary", "WriteObjectInfo");
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo, "System.Runtime.Serialization.Formatters.Binary", "WriteObjectInfo");

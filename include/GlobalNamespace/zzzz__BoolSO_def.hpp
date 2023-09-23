@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__ObservableVariableSO_1_def.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class BoolSO;
@@ -9,10 +8,10 @@ class BoolSO;
 // Type: ::BoolSO
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13904), inst: 99 }), TypeDefinitionIndex(TypeDefinitionIndex(13904))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13904)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13904), inst: 99 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13896))
 // CS Name: BoolSO
-class CORDL_TYPE BoolSO : public ::GlobalNamespace::ObservableVariableSO_1<bool> {
+class CORDL_TYPE BoolSO : public GlobalNamespace::ObservableVariableSO_1<bool> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr BoolSO(BoolSO const& ) noexcept = default;
 constexpr BoolSO(BoolSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BoolSO(void* ptr) noexcept : ::GlobalNamespace::ObservableVariableSO_1<bool>(ptr) {
+constexpr explicit BoolSO(void* ptr) noexcept : GlobalNamespace::ObservableVariableSO_1<bool>(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BoolSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BoolSO, "", "BoolSO");
+NEED_NO_BOX(GlobalNamespace::BoolSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BoolSO, "", "BoolSO");

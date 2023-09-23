@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace LIV::SDK::Unity {
 struct FEATURES;
@@ -77,44 +76,43 @@ constexpr void __set_value__(uint64_t value) ;
 constexpr uint64_t __get_value__() const;
 
 /// @brief Field NONE offset 0
-static ::LIV::SDK::Unity::FEATURES const NONE;
+static LIV::SDK::Unity::FEATURES const NONE;
 
 /// @brief Field BACKGROUND_RENDER offset 0
-static ::LIV::SDK::Unity::FEATURES const BACKGROUND_RENDER;
+static LIV::SDK::Unity::FEATURES const BACKGROUND_RENDER;
 
 /// @brief Field FOREGROUND_RENDER offset 0
-static ::LIV::SDK::Unity::FEATURES const FOREGROUND_RENDER;
+static LIV::SDK::Unity::FEATURES const FOREGROUND_RENDER;
 
 /// @brief Field COMPLEX_CLIP_PLANE offset 0
-static ::LIV::SDK::Unity::FEATURES const COMPLEX_CLIP_PLANE;
+static LIV::SDK::Unity::FEATURES const COMPLEX_CLIP_PLANE;
 
 /// @brief Field BACKGROUND_DEPTH_RENDER offset 0
-static ::LIV::SDK::Unity::FEATURES const BACKGROUND_DEPTH_RENDER;
+static LIV::SDK::Unity::FEATURES const BACKGROUND_DEPTH_RENDER;
 
 /// @brief Field OVERRIDE_POST_PROCESSING offset 0
-static ::LIV::SDK::Unity::FEATURES const OVERRIDE_POST_PROCESSING;
+static LIV::SDK::Unity::FEATURES const OVERRIDE_POST_PROCESSING;
 
 /// @brief Field FIX_FOREGROUND_ALPHA offset 0
-static ::LIV::SDK::Unity::FEATURES const FIX_FOREGROUND_ALPHA;
+static LIV::SDK::Unity::FEATURES const FIX_FOREGROUND_ALPHA;
 
 /// @brief Field GROUND_CLIP_PLANE offset 0
-static ::LIV::SDK::Unity::FEATURES const GROUND_CLIP_PLANE;
+static LIV::SDK::Unity::FEATURES const GROUND_CLIP_PLANE;
 
 /// @brief Field RELEASE_CONTROL offset 0
-static ::LIV::SDK::Unity::FEATURES const RELEASE_CONTROL;
+static LIV::SDK::Unity::FEATURES const RELEASE_CONTROL;
 
 /// @brief Field OPTIMIZED_RENDER offset 0
-static ::LIV::SDK::Unity::FEATURES const OPTIMIZED_RENDER;
+static LIV::SDK::Unity::FEATURES const OPTIMIZED_RENDER;
 
 /// @brief Field INTERLACED_RENDER offset 0
-static ::LIV::SDK::Unity::FEATURES const INTERLACED_RENDER;
+static LIV::SDK::Unity::FEATURES const INTERLACED_RENDER;
 
 /// @brief Field DEBUG_CLIP_PLANE offset 0
-static ::LIV::SDK::Unity::FEATURES const DEBUG_CLIP_PLANE;
+static LIV::SDK::Unity::FEATURES const DEBUG_CLIP_PLANE;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def LIV::SDK::Unity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::FEATURES, "LIV.SDK.Unity", "FEATURES");
+DEFINE_IL2CPP_ARG_TYPE(LIV::SDK::Unity::FEATURES, "LIV.SDK.Unity", "FEATURES");

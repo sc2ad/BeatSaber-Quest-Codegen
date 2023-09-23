@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace System::Reflection {
 class AssemblyConfigurationAttribute;
@@ -13,7 +12,7 @@ namespace System::Reflection {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3437))
 // CS Name: System.Reflection.AssemblyConfigurationAttribute
-class CORDL_TYPE AssemblyConfigurationAttribute : public ::System::Attribute {
+class CORDL_TYPE AssemblyConfigurationAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr AssemblyConfigurationAttribute(AssemblyConfigurationAttribute const& )
 constexpr AssemblyConfigurationAttribute(AssemblyConfigurationAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AssemblyConfigurationAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit AssemblyConfigurationAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -68,6 +67,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Reflection
-} // end anonymous namespace
-NEED_NO_BOX(::System::Reflection::AssemblyConfigurationAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::AssemblyConfigurationAttribute, "System.Reflection", "AssemblyConfigurationAttribute");
+NEED_NO_BOX(System::Reflection::AssemblyConfigurationAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyConfigurationAttribute, "System.Reflection", "AssemblyConfigurationAttribute");

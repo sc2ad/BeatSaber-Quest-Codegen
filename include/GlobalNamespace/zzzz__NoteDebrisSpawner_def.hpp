@@ -3,28 +3,27 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 struct Vector3;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__NoteDebris__Pool;
-}
-namespace GlobalNamespace {
 struct ColorType;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__NoteData__GameplayType;
+class INoteDebrisDidFinishEvent;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace GlobalNamespace {
-class INoteDebrisDidFinishEvent;
+class GlobalNamespace__NoteDebris__Pool;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__NoteData__GameplayType;
 }
 namespace GlobalNamespace {
 class NoteDebris;
@@ -39,11 +38,11 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5008))
 // CS Name: NoteDebrisSpawner
-class CORDL_TYPE NoteDebrisSpawner : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE NoteDebrisSpawner : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::INoteDebrisDidFinishEvent
-constexpr operator  ::GlobalNamespace::INoteDebrisDidFinishEvent() const noexcept;
+/// @brief Convert operator to GlobalNamespace::INoteDebrisDidFinishEvent
+constexpr operator  GlobalNamespace::INoteDebrisDidFinishEvent() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x50};
@@ -57,7 +56,7 @@ constexpr NoteDebrisSpawner(NoteDebrisSpawner const& ) noexcept = default;
 constexpr NoteDebrisSpawner(NoteDebrisSpawner&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NoteDebrisSpawner(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit NoteDebrisSpawner(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -102,23 +101,23 @@ constexpr void __set__moveSpeedMultiplier(float_t value) ;
 
 constexpr float_t __get__moveSpeedMultiplier() const;
 
- ::GlobalNamespace::____GlobalNamespace__NoteDebris__Pool __declspec(property(get=__get__normalNotesDebrisPool, put=__set__normalNotesDebrisPool))  _normalNotesDebrisPool;
+ GlobalNamespace::GlobalNamespace__NoteDebris__Pool __declspec(property(get=__get__normalNotesDebrisPool, put=__set__normalNotesDebrisPool))  _normalNotesDebrisPool;
 
-constexpr void __set__normalNotesDebrisPool(::GlobalNamespace::____GlobalNamespace__NoteDebris__Pool value) ;
+constexpr void __set__normalNotesDebrisPool(GlobalNamespace::GlobalNamespace__NoteDebris__Pool value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__NoteDebris__Pool __get__normalNotesDebrisPool() const;
+constexpr GlobalNamespace::GlobalNamespace__NoteDebris__Pool __get__normalNotesDebrisPool() const;
 
- ::GlobalNamespace::____GlobalNamespace__NoteDebris__Pool __declspec(property(get=__get__burstSliderHeadNotesDebrisPool, put=__set__burstSliderHeadNotesDebrisPool))  _burstSliderHeadNotesDebrisPool;
+ GlobalNamespace::GlobalNamespace__NoteDebris__Pool __declspec(property(get=__get__burstSliderHeadNotesDebrisPool, put=__set__burstSliderHeadNotesDebrisPool))  _burstSliderHeadNotesDebrisPool;
 
-constexpr void __set__burstSliderHeadNotesDebrisPool(::GlobalNamespace::____GlobalNamespace__NoteDebris__Pool value) ;
+constexpr void __set__burstSliderHeadNotesDebrisPool(GlobalNamespace::GlobalNamespace__NoteDebris__Pool value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__NoteDebris__Pool __get__burstSliderHeadNotesDebrisPool() const;
+constexpr GlobalNamespace::GlobalNamespace__NoteDebris__Pool __get__burstSliderHeadNotesDebrisPool() const;
 
- ::GlobalNamespace::____GlobalNamespace__NoteDebris__Pool __declspec(property(get=__get__burstSliderElementNotesDebrisPool, put=__set__burstSliderElementNotesDebrisPool))  _burstSliderElementNotesDebrisPool;
+ GlobalNamespace::GlobalNamespace__NoteDebris__Pool __declspec(property(get=__get__burstSliderElementNotesDebrisPool, put=__set__burstSliderElementNotesDebrisPool))  _burstSliderElementNotesDebrisPool;
 
-constexpr void __set__burstSliderElementNotesDebrisPool(::GlobalNamespace::____GlobalNamespace__NoteDebris__Pool value) ;
+constexpr void __set__burstSliderElementNotesDebrisPool(GlobalNamespace::GlobalNamespace__NoteDebris__Pool value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__NoteDebris__Pool __get__burstSliderElementNotesDebrisPool() const;
+constexpr GlobalNamespace::GlobalNamespace__NoteDebris__Pool __get__burstSliderElementNotesDebrisPool() const;
 
 /// @brief Field kMinLifeTime offset 0
 static constexpr float_t  kMinLifeTime{0.2};
@@ -129,17 +128,17 @@ static constexpr float_t  kMaxLifeTime{2};
 /// @brief Field kLifeTimeOffset offset 0
 static constexpr float_t  kLifeTimeOffset{0.05};
 
- ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::____GlobalNamespace__NoteData__GameplayType,::GlobalNamespace::____GlobalNamespace__NoteDebris__Pool> __declspec(property(get=__get__poolForNoteGameplayType, put=__set__poolForNoteGameplayType))  _poolForNoteGameplayType;
+ System::Collections::Generic::Dictionary_2<GlobalNamespace::GlobalNamespace__NoteData__GameplayType,GlobalNamespace::GlobalNamespace__NoteDebris__Pool> __declspec(property(get=__get__poolForNoteGameplayType, put=__set__poolForNoteGameplayType))  _poolForNoteGameplayType;
 
-constexpr void __set__poolForNoteGameplayType(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::____GlobalNamespace__NoteData__GameplayType,::GlobalNamespace::____GlobalNamespace__NoteDebris__Pool> value) ;
+constexpr void __set__poolForNoteGameplayType(System::Collections::Generic::Dictionary_2<GlobalNamespace::GlobalNamespace__NoteData__GameplayType,GlobalNamespace::GlobalNamespace__NoteDebris__Pool> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::____GlobalNamespace__NoteData__GameplayType,::GlobalNamespace::____GlobalNamespace__NoteDebris__Pool> __get__poolForNoteGameplayType() const;
+constexpr System::Collections::Generic::Dictionary_2<GlobalNamespace::GlobalNamespace__NoteData__GameplayType,GlobalNamespace::GlobalNamespace__NoteDebris__Pool> __get__poolForNoteGameplayType() const;
 
- ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::NoteDebris,::GlobalNamespace::____GlobalNamespace__NoteDebris__Pool> __declspec(property(get=__get__poolForNoteDebris, put=__set__poolForNoteDebris))  _poolForNoteDebris;
+ System::Collections::Generic::Dictionary_2<GlobalNamespace::NoteDebris,GlobalNamespace::GlobalNamespace__NoteDebris__Pool> __declspec(property(get=__get__poolForNoteDebris, put=__set__poolForNoteDebris))  _poolForNoteDebris;
 
-constexpr void __set__poolForNoteDebris(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::NoteDebris,::GlobalNamespace::____GlobalNamespace__NoteDebris__Pool> value) ;
+constexpr void __set__poolForNoteDebris(System::Collections::Generic::Dictionary_2<GlobalNamespace::NoteDebris,GlobalNamespace::GlobalNamespace__NoteDebris__Pool> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::NoteDebris,::GlobalNamespace::____GlobalNamespace__NoteDebris__Pool> __get__poolForNoteDebris() const;
+constexpr System::Collections::Generic::Dictionary_2<GlobalNamespace::NoteDebris,GlobalNamespace::GlobalNamespace__NoteDebris__Pool> __get__poolForNoteDebris() const;
 
 
 // Methods
@@ -148,16 +147,16 @@ constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::NoteDe
  void Start() ;
 
 /// @brief Method SpawnDebris addr 0x2259bfc size 0x890 virtual false final false
- void SpawnDebris(::GlobalNamespace::____GlobalNamespace__NoteData__GameplayType noteGameplayType, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal, float_t saberSpeed, ::UnityEngine::Vector3 saberDir, ::UnityEngine::Vector3 notePos, ::UnityEngine::Quaternion noteRotation, ::UnityEngine::Vector3 noteScale, ::GlobalNamespace::ColorType colorType, float_t timeToNextColorNote, ::UnityEngine::Vector3 moveVec) ;
+ void SpawnDebris(GlobalNamespace::GlobalNamespace__NoteData__GameplayType noteGameplayType, UnityEngine::Vector3 cutPoint, UnityEngine::Vector3 cutNormal, float_t saberSpeed, UnityEngine::Vector3 saberDir, UnityEngine::Vector3 notePos, UnityEngine::Quaternion noteRotation, UnityEngine::Vector3 noteScale, GlobalNamespace::ColorType colorType, float_t timeToNextColorNote, UnityEngine::Vector3 moveVec) ;
 
 /// @brief Method HandleNoteDebrisDidFinish addr 0x225a91c size 0xbc virtual true final true
- void HandleNoteDebrisDidFinish(::GlobalNamespace::NoteDebris noteDebris) ;
+ void HandleNoteDebrisDidFinish(GlobalNamespace::NoteDebris noteDebris) ;
 
 /// @brief Method SpawnNoteDebris addr 0x225a810 size 0x10c virtual false final false
- void SpawnNoteDebris(::GlobalNamespace::____GlobalNamespace__NoteData__GameplayType noteGameplayType, ByRef<::GlobalNamespace::NoteDebris> debris0, ByRef<::GlobalNamespace::NoteDebris> debris1) ;
+ void SpawnNoteDebris(GlobalNamespace::GlobalNamespace__NoteData__GameplayType noteGameplayType, ByRef<GlobalNamespace::NoteDebris> debris0, ByRef<GlobalNamespace::NoteDebris> debris1) ;
 
 /// @brief Method DespawnNoteDebris addr 0x225a9d8 size 0xa4 virtual false final false
- void DespawnNoteDebris(::GlobalNamespace::NoteDebris noteDebris) ;
+ void DespawnNoteDebris(GlobalNamespace::NoteDebris noteDebris) ;
 
 // Ctor Parameters []
 explicit NoteDebrisSpawner() ;
@@ -169,6 +168,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::NoteDebrisSpawner);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoteDebrisSpawner, "", "NoteDebrisSpawner");
+NEED_NO_BOX(GlobalNamespace::NoteDebrisSpawner);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteDebrisSpawner, "", "NoteDebrisSpawner");

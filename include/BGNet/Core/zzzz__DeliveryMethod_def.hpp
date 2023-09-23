@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace BGNet::Core {
 struct DeliveryMethod;
@@ -67,14 +66,13 @@ constexpr void __set_value__(uint8_t value) ;
 constexpr uint8_t __get_value__() const;
 
 /// @brief Field Unreliable offset 0
-static ::BGNet::Core::DeliveryMethod const Unreliable;
+static BGNet::Core::DeliveryMethod const Unreliable;
 
 /// @brief Field ReliableOrdered offset 0
-static ::BGNet::Core::DeliveryMethod const ReliableOrdered;
+static BGNet::Core::DeliveryMethod const ReliableOrdered;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def BGNet::Core
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::BGNet::Core::DeliveryMethod, "BGNet.Core", "DeliveryMethod");
+DEFINE_IL2CPP_ARG_TYPE(BGNet::Core::DeliveryMethod, "BGNet.Core", "DeliveryMethod");

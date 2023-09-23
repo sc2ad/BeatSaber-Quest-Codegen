@@ -4,18 +4,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1OctetString;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Misc {
@@ -27,7 +26,7 @@ namespace Org::BouncyCastle::Asn1::Misc {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(195))
 // CS Name: Org.BouncyCastle.Asn1.Misc.Cast5CbcParameters
-class CORDL_TYPE Cast5CbcParameters : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
+class CORDL_TYPE Cast5CbcParameters : public Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -42,7 +41,7 @@ constexpr Cast5CbcParameters(Cast5CbcParameters const& ) noexcept = default;
 constexpr Cast5CbcParameters(Cast5CbcParameters&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Cast5CbcParameters(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
+constexpr explicit Cast5CbcParameters(void* ptr) noexcept : Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
 }
 
 
@@ -63,17 +62,17 @@ constexpr explicit Cast5CbcParameters(void* ptr) noexcept : ::Org::BouncyCastle:
 
 // Fields
 
- ::Org::BouncyCastle::Asn1::DerInteger __declspec(property(get=__get_keyLength, put=__set_keyLength))  keyLength;
+ Org::BouncyCastle::Asn1::DerInteger __declspec(property(get=__get_keyLength, put=__set_keyLength))  keyLength;
 
-constexpr void __set_keyLength(::Org::BouncyCastle::Asn1::DerInteger value) ;
+constexpr void __set_keyLength(Org::BouncyCastle::Asn1::DerInteger value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::DerInteger __get_keyLength() const;
+constexpr Org::BouncyCastle::Asn1::DerInteger __get_keyLength() const;
 
- ::Org::BouncyCastle::Asn1::Asn1OctetString __declspec(property(get=__get_iv, put=__set_iv))  iv;
+ Org::BouncyCastle::Asn1::Asn1OctetString __declspec(property(get=__get_iv, put=__set_iv))  iv;
 
-constexpr void __set_iv(::Org::BouncyCastle::Asn1::Asn1OctetString value) ;
+constexpr void __set_iv(Org::BouncyCastle::Asn1::Asn1OctetString value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString __get_iv() const;
+constexpr Org::BouncyCastle::Asn1::Asn1OctetString __get_iv() const;
 
 
 // Properties
@@ -84,7 +83,7 @@ constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString __get_iv() const;
 // Methods
 
 /// @brief Method GetInstance addr 0xeedb9c size 0x148 virtual false final false
-static ::Org::BouncyCastle::Asn1::Misc::Cast5CbcParameters GetInstance(::bs_hook::Il2CppWrapperType o) ;
+static Org::BouncyCastle::Asn1::Misc::Cast5CbcParameters GetInstance(::bs_hook::Il2CppWrapperType o) ;
 
 // Ctor Parameters [CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "keyLength", ty: "int32_t", modifiers: "", def_value: None }]
 explicit Cast5CbcParameters(::ArrayW<uint8_t> iv, int32_t keyLength) ;
@@ -92,11 +91,11 @@ explicit Cast5CbcParameters(::ArrayW<uint8_t> iv, int32_t keyLength) ;
 /// @brief Method .ctor addr 0xeedeac size 0xb4 virtual false final false
  void _ctor(::ArrayW<uint8_t> iv, int32_t keyLength) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "::Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit Cast5CbcParameters(::Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
+explicit Cast5CbcParameters(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xeedce4 size 0x1c8 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+ void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method GetIV addr 0xeedf60 size 0x78 virtual false final false
  ::ArrayW<uint8_t> GetIV() ;
@@ -105,12 +104,11 @@ explicit Cast5CbcParameters(::Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
  int32_t get_KeyLength() ;
 
 /// @brief Method ToAsn1Object addr 0xeedff4 size 0xf0 virtual true final false
- ::Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
+ Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::Misc
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::Misc::Cast5CbcParameters);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Misc::Cast5CbcParameters, "Org.BouncyCastle.Asn1.Misc", "Cast5CbcParameters");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Misc::Cast5CbcParameters);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Misc::Cast5CbcParameters, "Org.BouncyCastle.Asn1.Misc", "Cast5CbcParameters");

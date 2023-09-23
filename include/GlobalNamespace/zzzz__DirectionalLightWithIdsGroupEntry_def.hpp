@@ -6,7 +6,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 class DirectionalLightWithIds;
 }
@@ -15,16 +14,16 @@ class LightGroupSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct ____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting;
+struct GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting;
 }
 namespace GlobalNamespace {
 class DirectionalLightWithIdsGroupEntry;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData;
+class GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId;
+class GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId;
 }
 // Type: ::GroupLightsWeighting
 namespace GlobalNamespace {
@@ -32,20 +31,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14683))
 // CS Name: DirectionalLightWithIdsGroupEntry::GroupLightsWeighting
-struct CORDL_TYPE ____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting(int32_t value__) noexcept;
+constexpr GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting(____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting const&) = default;
-                    constexpr ____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting(____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting&&) = default;
-                    constexpr ____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting& operator=(____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting const& o) {
+                    constexpr GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting(GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting const&) = default;
+                    constexpr GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting(GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting&&) = default;
+                    constexpr GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting& operator=(GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting& operator=(____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting&& o) noexcept {
+                    constexpr GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting& operator=(GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -58,7 +57,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -66,14 +65,14 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting_Unwrapped : int32_t {
+enum class __GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting_Unwrapped : int32_t {
 __Maximum = 0,
 __LinearFraction = 1,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting_Unwrapped>(__instance);
 }
 
 
@@ -86,10 +85,10 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Maximum offset 0
-static ::GlobalNamespace::____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting const Maximum;
+static GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting const Maximum;
 
 /// @brief Field LinearFraction offset 0
-static ::GlobalNamespace::____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting const LinearFraction;
+static GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting const LinearFraction;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -101,47 +100,47 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14684))
 // CS Name: DirectionalLightWithIdsGroupEntry::GroupLightData
-class CORDL_TYPE ____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData() = default;
+virtual ~GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData(____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData(GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData(____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData(GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData& operator=(____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData&& o) noexcept = default;
-  constexpr ____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData& operator=(____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData const& o) noexcept = default;
+  constexpr GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData& operator=(GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData&& o) noexcept = default;
+  constexpr GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData& operator=(GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::GlobalNamespace::LightGroupSO __declspec(property(get=__get__lightGroup, put=__set__lightGroup))  _lightGroup;
+ GlobalNamespace::LightGroupSO __declspec(property(get=__get__lightGroup, put=__set__lightGroup))  _lightGroup;
 
-constexpr void __set__lightGroup(::GlobalNamespace::LightGroupSO value) ;
+constexpr void __set__lightGroup(GlobalNamespace::LightGroupSO value) ;
 
-constexpr ::GlobalNamespace::LightGroupSO __get__lightGroup() const;
+constexpr GlobalNamespace::LightGroupSO __get__lightGroup() const;
 
  float_t __declspec(property(get=__get__groupIntensity, put=__set__groupIntensity))  _groupIntensity;
 
@@ -152,7 +151,7 @@ constexpr float_t __get__groupIntensity() const;
 
 // Properties
 
- ::GlobalNamespace::LightGroupSO __declspec(property(get=get_lightGroup))  lightGroup;
+ GlobalNamespace::LightGroupSO __declspec(property(get=get_lightGroup))  lightGroup;
 
  float_t __declspec(property(get=get_groupIntensity))  groupIntensity;
 
@@ -160,13 +159,13 @@ constexpr float_t __get__groupIntensity() const;
 // Methods
 
 /// @brief Method get_lightGroup addr 0x1f9cc48 size 0x8 virtual false final false
- ::GlobalNamespace::LightGroupSO get_lightGroup() ;
+ GlobalNamespace::LightGroupSO get_lightGroup() ;
 
 /// @brief Method get_groupIntensity addr 0x1f9cc50 size 0x8 virtual false final false
  float_t get_groupIntensity() ;
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData() ;
+explicit GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData() ;
 
 /// @brief Method .ctor addr 0x1f9cc58 size 0x8 virtual false final false
  void _ctor() ;
@@ -181,37 +180,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14685))
 // CS Name: DirectionalLightWithIdsGroupEntry::LightIntensitiesWithId
-class CORDL_TYPE ____GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId() = default;
+virtual ~GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId(____GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId(GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId(____GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId(GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId& operator=(____GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId&& o) noexcept = default;
-  constexpr ____GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId& operator=(____GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId const& o) noexcept = default;
+  constexpr GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId& operator=(GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId&& o) noexcept = default;
+  constexpr GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId& operator=(GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId const& o) noexcept = default;
                 
 
 
@@ -246,7 +245,7 @@ constexpr float_t __get__intensity() const;
  float_t get_intensity() ;
 
 // Ctor Parameters [CppParam { name: "lightId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lightIntensity", ty: "float_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId(int32_t lightId, float_t lightIntensity) ;
+explicit GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId(int32_t lightId, float_t lightIntensity) ;
 
 /// @brief Method .ctor addr 0x1f9cc70 size 0x38 virtual false final false
  void _ctor(int32_t lightId, float_t lightIntensity) ;
@@ -261,14 +260,14 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14686))
 // CS Name: DirectionalLightWithIdsGroupEntry
-class CORDL_TYPE DirectionalLightWithIdsGroupEntry : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE DirectionalLightWithIdsGroupEntry : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using LightIntensitiesWithId = ::GlobalNamespace::____GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId;
+using LightIntensitiesWithId = GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId;
 
-using GroupLightData = ::GlobalNamespace::____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData;
+using GroupLightData = GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData;
 
-using GroupLightsWeighting = ::GlobalNamespace::____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting;
+using GroupLightsWeighting = GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -282,7 +281,7 @@ constexpr DirectionalLightWithIdsGroupEntry(DirectionalLightWithIdsGroupEntry co
 constexpr DirectionalLightWithIdsGroupEntry(DirectionalLightWithIdsGroupEntry&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DirectionalLightWithIdsGroupEntry(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit DirectionalLightWithIdsGroupEntry(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -303,23 +302,23 @@ constexpr explicit DirectionalLightWithIdsGroupEntry(void* ptr) noexcept : ::Uni
 
 // Fields
 
- ::GlobalNamespace::DirectionalLightWithIds __declspec(property(get=__get__directionalLightWithIds, put=__set__directionalLightWithIds))  _directionalLightWithIds;
+ GlobalNamespace::DirectionalLightWithIds __declspec(property(get=__get__directionalLightWithIds, put=__set__directionalLightWithIds))  _directionalLightWithIds;
 
-constexpr void __set__directionalLightWithIds(::GlobalNamespace::DirectionalLightWithIds value) ;
+constexpr void __set__directionalLightWithIds(GlobalNamespace::DirectionalLightWithIds value) ;
 
-constexpr ::GlobalNamespace::DirectionalLightWithIds __get__directionalLightWithIds() const;
+constexpr GlobalNamespace::DirectionalLightWithIds __get__directionalLightWithIds() const;
 
- ::ArrayW<::GlobalNamespace::____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData> __declspec(property(get=__get__groupLightData, put=__set__groupLightData))  _groupLightData;
+ ::ArrayW<GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData> __declspec(property(get=__get__groupLightData, put=__set__groupLightData))  _groupLightData;
 
-constexpr void __set__groupLightData(::ArrayW<::GlobalNamespace::____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData> value) ;
+constexpr void __set__groupLightData(::ArrayW<GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData> __get__groupLightData() const;
+constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData> __get__groupLightData() const;
 
- ::ArrayW<::GlobalNamespace::____GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId> __declspec(property(get=__get__individualLightData, put=__set__individualLightData))  _individualLightData;
+ ::ArrayW<GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId> __declspec(property(get=__get__individualLightData, put=__set__individualLightData))  _individualLightData;
 
-constexpr void __set__individualLightData(::ArrayW<::GlobalNamespace::____GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId> value) ;
+constexpr void __set__individualLightData(::ArrayW<GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::____GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId> __get__individualLightData() const;
+constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId> __get__individualLightData() const;
 
  ::ArrayW<int32_t> __declspec(property(get=__get__excludedLightIds, put=__set__excludedLightIds))  _excludedLightIds;
 
@@ -327,11 +326,11 @@ constexpr void __set__excludedLightIds(::ArrayW<int32_t> value) ;
 
 constexpr ::ArrayW<int32_t> __get__excludedLightIds() const;
 
- ::GlobalNamespace::____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting __declspec(property(get=__get__groupLightsWeighting, put=__set__groupLightsWeighting))  _groupLightsWeighting;
+ GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting __declspec(property(get=__get__groupLightsWeighting, put=__set__groupLightsWeighting))  _groupLightsWeighting;
 
-constexpr void __set__groupLightsWeighting(::GlobalNamespace::____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting value) ;
+constexpr void __set__groupLightsWeighting(GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting __get__groupLightsWeighting() const;
+constexpr GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting __get__groupLightsWeighting() const;
 
 
 // Methods
@@ -346,11 +345,10 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting, "", "DirectionalLightWithIdsGroupEntry/GroupLightsWeighting");
-NEED_NO_BOX(::GlobalNamespace::DirectionalLightWithIdsGroupEntry);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DirectionalLightWithIdsGroupEntry, "", "DirectionalLightWithIdsGroupEntry");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData, "", "DirectionalLightWithIdsGroupEntry/GroupLightData");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId, "", "DirectionalLightWithIdsGroupEntry/LightIntensitiesWithId");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting, "", "DirectionalLightWithIdsGroupEntry/GroupLightsWeighting");
+NEED_NO_BOX(GlobalNamespace::DirectionalLightWithIdsGroupEntry);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DirectionalLightWithIdsGroupEntry, "", "DirectionalLightWithIdsGroupEntry");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData, "", "DirectionalLightWithIdsGroupEntry/GroupLightData");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId, "", "DirectionalLightWithIdsGroupEntry/LightIntensitiesWithId");

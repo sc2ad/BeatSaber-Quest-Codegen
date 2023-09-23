@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Net {
 class HeaderParser;
 }
@@ -64,11 +63,11 @@ constexpr void __set_IsResponseRestricted(bool value) ;
 
 constexpr bool __get_IsResponseRestricted() const;
 
- ::System::Net::HeaderParser __declspec(property(get=__get_Parser, put=__set_Parser))  Parser;
+ System::Net::HeaderParser __declspec(property(get=__get_Parser, put=__set_Parser))  Parser;
 
-constexpr void __set_Parser(::System::Net::HeaderParser value) ;
+constexpr void __set_Parser(System::Net::HeaderParser value) ;
 
-constexpr ::System::Net::HeaderParser __get_Parser() const;
+constexpr System::Net::HeaderParser __get_Parser() const;
 
  ::StringW __declspec(property(get=__get_HeaderName, put=__set_HeaderName))  HeaderName;
 
@@ -85,16 +84,15 @@ constexpr bool __get_AllowMultiValues() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "requestRestricted", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "responseRestricted", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "multi", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "p", ty: "::System::Net::HeaderParser", modifiers: "", def_value: None }]
-explicit HeaderInfo(::StringW name, bool requestRestricted, bool responseRestricted, bool multi, ::System::Net::HeaderParser p) ;
+// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "requestRestricted", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "responseRestricted", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "multi", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "p", ty: "System::Net::HeaderParser", modifiers: "", def_value: None }]
+explicit HeaderInfo(::StringW name, bool requestRestricted, bool responseRestricted, bool multi, System::Net::HeaderParser p) ;
 
 /// @brief Method .ctor addr 0x281483c size 0x54 virtual false final false
- void _ctor(::StringW name, bool requestRestricted, bool responseRestricted, bool multi, ::System::Net::HeaderParser p) ;
+ void _ctor(::StringW name, bool requestRestricted, bool responseRestricted, bool multi, System::Net::HeaderParser p) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::HeaderInfo);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::HeaderInfo, "System.Net", "HeaderInfo");
+NEED_NO_BOX(System::Net::HeaderInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::HeaderInfo, "System.Net", "HeaderInfo");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class IDisposable;
 }
@@ -19,8 +18,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE ICertificateEncryptionProvider : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 ~ICertificateEncryptionProvider() = default;
 
@@ -38,6 +37,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ICertificateEncryptionProvider);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ICertificateEncryptionProvider, "", "ICertificateEncryptionProvider");
+NEED_NO_BOX(GlobalNamespace::ICertificateEncryptionProvider);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ICertificateEncryptionProvider, "", "ICertificateEncryptionProvider");

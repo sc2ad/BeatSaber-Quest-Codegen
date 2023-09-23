@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Threading {
 class Thread;
 }
@@ -79,17 +78,17 @@ constexpr void __set__lockHandle(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get__lockHandle() const;
 
- ::System::Threading::Thread __declspec(property(get=__get__thread, put=__set__thread))  _thread;
+ System::Threading::Thread __declspec(property(get=__get__thread, put=__set__thread))  _thread;
 
-constexpr void __set__thread(::System::Threading::Thread value) ;
+constexpr void __set__thread(System::Threading::Thread value) ;
 
-constexpr ::System::Threading::Thread __get__thread() const;
+constexpr System::Threading::Thread __get__thread() const;
 
- ::System::Threading::ThreadPriority __declspec(property(get=__get__priority, put=__set__priority))  _priority;
+ System::Threading::ThreadPriority __declspec(property(get=__get__priority, put=__set__priority))  _priority;
 
-constexpr void __set__priority(::System::Threading::ThreadPriority value) ;
+constexpr void __set__priority(System::Threading::ThreadPriority value) ;
 
-constexpr ::System::Threading::ThreadPriority __get__priority() const;
+constexpr System::Threading::ThreadPriority __get__priority() const;
 
  bool __declspec(property(get=__get__isBackground, put=__set__isBackground))  _isBackground;
 
@@ -114,7 +113,7 @@ constexpr ::StringW __get__name() const;
 
  bool __declspec(property(get=get_StopRequested, put=set_StopRequested))  StopRequested;
 
- ::System::Threading::ThreadPriority __declspec(property(get=get_Priority, put=set_Priority))  Priority;
+ System::Threading::ThreadPriority __declspec(property(get=get_Priority, put=set_Priority))  Priority;
 
  bool __declspec(property(get=get_IsBackground, put=set_IsBackground))  IsBackground;
 
@@ -173,10 +172,10 @@ constexpr ::StringW __get__name() const;
  void set_StopRequested(bool value) ;
 
 /// @brief Method get_Priority addr 0x203ac78 size 0x8 virtual false final false
- ::System::Threading::ThreadPriority get_Priority() ;
+ System::Threading::ThreadPriority get_Priority() ;
 
 /// @brief Method set_Priority addr 0x203ac80 size 0x8 virtual false final false
- void set_Priority(::System::Threading::ThreadPriority value) ;
+ void set_Priority(System::Threading::ThreadPriority value) ;
 
 /// @brief Method get_IsBackground addr 0x203ac88 size 0x8 virtual false final false
  bool get_IsBackground() ;
@@ -194,6 +193,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_ThreadedTask);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_ThreadedTask, "HoudiniEngineUnity", "HEU_ThreadedTask");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_ThreadedTask);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ThreadedTask, "HoudiniEngineUnity", "HEU_ThreadedTask");

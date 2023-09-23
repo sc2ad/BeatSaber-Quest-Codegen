@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Diagnostics {
 class CorrelationManager;
 }
@@ -54,37 +53,36 @@ constexpr explicit Trace(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr)
 
 // Fields
 
-static ::System::Diagnostics::CorrelationManager __declspec(property(get=__get_correlationManager, put=__set_correlationManager))  correlationManager;
+static System::Diagnostics::CorrelationManager __declspec(property(get=__get_correlationManager, put=__set_correlationManager))  correlationManager;
 
-static void __set_correlationManager(::System::Diagnostics::CorrelationManager value) ;
+static void __set_correlationManager(System::Diagnostics::CorrelationManager value) ;
 
-static ::System::Diagnostics::CorrelationManager __get_correlationManager() ;
+static System::Diagnostics::CorrelationManager __get_correlationManager() ;
 
 
 // Properties
 
-static ::System::Diagnostics::TraceListenerCollection __declspec(property(get=get_Listeners))  Listeners;
+static System::Diagnostics::TraceListenerCollection __declspec(property(get=get_Listeners))  Listeners;
 
 static bool __declspec(property(get=get_AutoFlush))  AutoFlush;
 
-static ::System::Diagnostics::CorrelationManager __declspec(property(get=get_CorrelationManager))  CorrelationManager;
+static System::Diagnostics::CorrelationManager __declspec(property(get=get_CorrelationManager))  CorrelationManager;
 
 
 // Methods
 
 /// @brief Method get_Listeners addr 0x27da3c4 size 0x4c virtual false final false
-static ::System::Diagnostics::TraceListenerCollection get_Listeners() ;
+static System::Diagnostics::TraceListenerCollection get_Listeners() ;
 
 /// @brief Method get_AutoFlush addr 0x27da664 size 0x4c virtual false final false
 static bool get_AutoFlush() ;
 
 /// @brief Method get_CorrelationManager addr 0x27da710 size 0xa4 virtual false final false
-static ::System::Diagnostics::CorrelationManager get_CorrelationManager() ;
+static System::Diagnostics::CorrelationManager get_CorrelationManager() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Diagnostics
-} // end anonymous namespace
-NEED_NO_BOX(::System::Diagnostics::Trace);
-DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::Trace, "System.Diagnostics", "Trace");
+NEED_NO_BOX(System::Diagnostics::Trace);
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Trace, "System.Diagnostics", "Trace");

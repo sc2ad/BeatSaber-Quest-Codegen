@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Newtonsoft::Json {
 struct DateTimeZoneHandling;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Local offset 0
-static ::Newtonsoft::Json::DateTimeZoneHandling const Local;
+static Newtonsoft::Json::DateTimeZoneHandling const Local;
 
 /// @brief Field Utc offset 0
-static ::Newtonsoft::Json::DateTimeZoneHandling const Utc;
+static Newtonsoft::Json::DateTimeZoneHandling const Utc;
 
 /// @brief Field Unspecified offset 0
-static ::Newtonsoft::Json::DateTimeZoneHandling const Unspecified;
+static Newtonsoft::Json::DateTimeZoneHandling const Unspecified;
 
 /// @brief Field RoundtripKind offset 0
-static ::Newtonsoft::Json::DateTimeZoneHandling const RoundtripKind;
+static Newtonsoft::Json::DateTimeZoneHandling const RoundtripKind;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::DateTimeZoneHandling, "Newtonsoft.Json", "DateTimeZoneHandling");
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::DateTimeZoneHandling, "Newtonsoft.Json", "DateTimeZoneHandling");

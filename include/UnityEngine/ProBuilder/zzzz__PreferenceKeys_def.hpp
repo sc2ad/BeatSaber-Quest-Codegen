@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Color;
 }
@@ -77,23 +76,23 @@ static constexpr char16_t  CMD_ALT{⎇};
 /// @brief Field CMD_DELETE offset 0
 static constexpr char16_t  CMD_DELETE{⌫};
 
-static ::UnityEngine::Color __declspec(property(get=__get_proBuilderBlue, put=__set_proBuilderBlue))  proBuilderBlue;
+static UnityEngine::Color __declspec(property(get=__get_proBuilderBlue, put=__set_proBuilderBlue))  proBuilderBlue;
 
-static void __set_proBuilderBlue(::UnityEngine::Color value) ;
+static void __set_proBuilderBlue(UnityEngine::Color value) ;
 
-static ::UnityEngine::Color __get_proBuilderBlue() ;
+static UnityEngine::Color __get_proBuilderBlue() ;
 
-static ::UnityEngine::Color __declspec(property(get=__get_proBuilderLightGray, put=__set_proBuilderLightGray))  proBuilderLightGray;
+static UnityEngine::Color __declspec(property(get=__get_proBuilderLightGray, put=__set_proBuilderLightGray))  proBuilderLightGray;
 
-static void __set_proBuilderLightGray(::UnityEngine::Color value) ;
+static void __set_proBuilderLightGray(UnityEngine::Color value) ;
 
-static ::UnityEngine::Color __get_proBuilderLightGray() ;
+static UnityEngine::Color __get_proBuilderLightGray() ;
 
-static ::UnityEngine::Color __declspec(property(get=__get_proBuilderDarkGray, put=__set_proBuilderDarkGray))  proBuilderDarkGray;
+static UnityEngine::Color __declspec(property(get=__get_proBuilderDarkGray, put=__set_proBuilderDarkGray))  proBuilderDarkGray;
 
-static void __set_proBuilderDarkGray(::UnityEngine::Color value) ;
+static void __set_proBuilderDarkGray(UnityEngine::Color value) ;
 
-static ::UnityEngine::Color __get_proBuilderDarkGray() ;
+static UnityEngine::Color __get_proBuilderDarkGray() ;
 
 /// @brief Field menuEditor offset 0
 static constexpr int32_t  menuEditor{100};
@@ -381,6 +380,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::PreferenceKeys);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::PreferenceKeys, "UnityEngine.ProBuilder", "PreferenceKeys");
+NEED_NO_BOX(UnityEngine::ProBuilder::PreferenceKeys);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::PreferenceKeys, "UnityEngine.ProBuilder", "PreferenceKeys");

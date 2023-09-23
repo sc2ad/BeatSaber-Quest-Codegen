@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine::UIElements {
-class IPointerEvent;
-}
 namespace UnityEngine::UIElements {
 class IEventHandler;
+}
+namespace UnityEngine::UIElements {
+class IPointerEvent;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -56,17 +55,17 @@ constexpr explicit PointerDispatchState(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 // Fields
 
- ::ArrayW<::UnityEngine::UIElements::IEventHandler> __declspec(property(get=__get_m_PendingPointerCapture, put=__set_m_PendingPointerCapture))  m_PendingPointerCapture;
+ ::ArrayW<UnityEngine::UIElements::IEventHandler> __declspec(property(get=__get_m_PendingPointerCapture, put=__set_m_PendingPointerCapture))  m_PendingPointerCapture;
 
-constexpr void __set_m_PendingPointerCapture(::ArrayW<::UnityEngine::UIElements::IEventHandler> value) ;
+constexpr void __set_m_PendingPointerCapture(::ArrayW<UnityEngine::UIElements::IEventHandler> value) ;
 
-constexpr ::ArrayW<::UnityEngine::UIElements::IEventHandler> __get_m_PendingPointerCapture() const;
+constexpr ::ArrayW<UnityEngine::UIElements::IEventHandler> __get_m_PendingPointerCapture() const;
 
- ::ArrayW<::UnityEngine::UIElements::IEventHandler> __declspec(property(get=__get_m_PointerCapture, put=__set_m_PointerCapture))  m_PointerCapture;
+ ::ArrayW<UnityEngine::UIElements::IEventHandler> __declspec(property(get=__get_m_PointerCapture, put=__set_m_PointerCapture))  m_PointerCapture;
 
-constexpr void __set_m_PointerCapture(::ArrayW<::UnityEngine::UIElements::IEventHandler> value) ;
+constexpr void __set_m_PointerCapture(::ArrayW<UnityEngine::UIElements::IEventHandler> value) ;
 
-constexpr ::ArrayW<::UnityEngine::UIElements::IEventHandler> __get_m_PointerCapture() const;
+constexpr ::ArrayW<UnityEngine::UIElements::IEventHandler> __get_m_PointerCapture() const;
 
  ::ArrayW<bool> __declspec(property(get=__get_m_ShouldSendCompatibilityMouseEvents, put=__set_m_ShouldSendCompatibilityMouseEvents))  m_ShouldSendCompatibilityMouseEvents;
 
@@ -87,19 +86,19 @@ explicit PointerDispatchState() ;
  void Reset() ;
 
 /// @brief Method GetCapturingElement addr 0x2c3f060 size 0x30 virtual false final false
- ::UnityEngine::UIElements::IEventHandler GetCapturingElement(int32_t pointerId) ;
+ UnityEngine::UIElements::IEventHandler GetCapturingElement(int32_t pointerId) ;
 
 /// @brief Method HasPointerCapture addr 0x2c3ed78 size 0x38 virtual false final false
- bool HasPointerCapture(::UnityEngine::UIElements::IEventHandler handler, int32_t pointerId) ;
+ bool HasPointerCapture(UnityEngine::UIElements::IEventHandler handler, int32_t pointerId) ;
 
 /// @brief Method CapturePointer addr 0x2c3ede8 size 0x13c virtual false final false
- void CapturePointer(::UnityEngine::UIElements::IEventHandler handler, int32_t pointerId) ;
+ void CapturePointer(UnityEngine::UIElements::IEventHandler handler, int32_t pointerId) ;
 
 /// @brief Method ReleasePointer addr 0x2c3f154 size 0x30 virtual false final false
  void ReleasePointer(int32_t pointerId) ;
 
 /// @brief Method ReleasePointer addr 0x2c3ef5c size 0x3c virtual false final false
- void ReleasePointer(::UnityEngine::UIElements::IEventHandler handler, int32_t pointerId) ;
+ void ReleasePointer(UnityEngine::UIElements::IEventHandler handler, int32_t pointerId) ;
 
 /// @brief Method ProcessPointerCapture addr 0x2c3f68c size 0x958 virtual false final false
  void ProcessPointerCapture(int32_t pointerId) ;
@@ -111,12 +110,11 @@ explicit PointerDispatchState() ;
  void PreventCompatibilityMouseEvents(int32_t pointerId) ;
 
 /// @brief Method ShouldSendCompatibilityMouseEvents addr 0x2c3f494 size 0x134 virtual false final false
- bool ShouldSendCompatibilityMouseEvents(::UnityEngine::UIElements::IPointerEvent evt) ;
+ bool ShouldSendCompatibilityMouseEvents(UnityEngine::UIElements::IPointerEvent evt) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::PointerDispatchState);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::PointerDispatchState, "UnityEngine.UIElements", "PointerDispatchState");
+NEED_NO_BOX(UnityEngine::UIElements::PointerDispatchState);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::PointerDispatchState, "UnityEngine.UIElements", "PointerDispatchState");

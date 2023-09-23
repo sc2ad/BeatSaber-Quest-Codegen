@@ -3,12 +3,11 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-class BoolSO;
-}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace GlobalNamespace {
+class BoolSO;
 }
 namespace GlobalNamespace {
 class MaterialPropertyBlockController;
@@ -23,7 +22,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4956))
 // CS Name: CutoutEffect
-class CORDL_TYPE CutoutEffect : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE CutoutEffect : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr CutoutEffect(CutoutEffect const& ) noexcept = default;
 constexpr CutoutEffect(CutoutEffect&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CutoutEffect(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit CutoutEffect(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -59,29 +58,29 @@ constexpr explicit CutoutEffect(void* ptr) noexcept : ::UnityEngine::MonoBehavio
 
 // Fields
 
- ::GlobalNamespace::MaterialPropertyBlockController __declspec(property(get=__get__materialPropertyBlockController, put=__set__materialPropertyBlockController))  _materialPropertyBlockController;
+ GlobalNamespace::MaterialPropertyBlockController __declspec(property(get=__get__materialPropertyBlockController, put=__set__materialPropertyBlockController))  _materialPropertyBlockController;
 
-constexpr void __set__materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController value) ;
+constexpr void __set__materialPropertyBlockController(GlobalNamespace::MaterialPropertyBlockController value) ;
 
-constexpr ::GlobalNamespace::MaterialPropertyBlockController __get__materialPropertyBlockController() const;
+constexpr GlobalNamespace::MaterialPropertyBlockController __get__materialPropertyBlockController() const;
 
- ::GlobalNamespace::BoolSO __declspec(property(get=__get__useRandomCutoutOffset, put=__set__useRandomCutoutOffset))  _useRandomCutoutOffset;
+ GlobalNamespace::BoolSO __declspec(property(get=__get__useRandomCutoutOffset, put=__set__useRandomCutoutOffset))  _useRandomCutoutOffset;
 
-constexpr void __set__useRandomCutoutOffset(::GlobalNamespace::BoolSO value) ;
+constexpr void __set__useRandomCutoutOffset(GlobalNamespace::BoolSO value) ;
 
-constexpr ::GlobalNamespace::BoolSO __get__useRandomCutoutOffset() const;
+constexpr GlobalNamespace::BoolSO __get__useRandomCutoutOffset() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__cutoutOffset, put=__set__cutoutOffset))  _cutoutOffset;
+ UnityEngine::Vector3 __declspec(property(get=__get__cutoutOffset, put=__set__cutoutOffset))  _cutoutOffset;
 
-constexpr void __set__cutoutOffset(::UnityEngine::Vector3 value) ;
+constexpr void __set__cutoutOffset(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__cutoutOffset() const;
+constexpr UnityEngine::Vector3 __get__cutoutOffset() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__randomNoiseTexOffset, put=__set__randomNoiseTexOffset))  _randomNoiseTexOffset;
+ UnityEngine::Vector3 __declspec(property(get=__get__randomNoiseTexOffset, put=__set__randomNoiseTexOffset))  _randomNoiseTexOffset;
 
-constexpr void __set__randomNoiseTexOffset(::UnityEngine::Vector3 value) ;
+constexpr void __set__randomNoiseTexOffset(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__randomNoiseTexOffset() const;
+constexpr UnityEngine::Vector3 __get__randomNoiseTexOffset() const;
 
  float_t __declspec(property(get=__get__cutout, put=__set__cutout))  _cutout;
 
@@ -119,7 +118,7 @@ static int32_t __get__cutoutTexOffsetPropertyID() ;
  void SetCutout(float_t cutout) ;
 
 /// @brief Method SetCutout addr 0x224df98 size 0xe4 virtual false final false
- void SetCutout(float_t cutout, ::UnityEngine::Vector3 cutoutOffset) ;
+ void SetCutout(float_t cutout, UnityEngine::Vector3 cutoutOffset) ;
 
 // Ctor Parameters []
 explicit CutoutEffect() ;
@@ -131,6 +130,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::CutoutEffect);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CutoutEffect, "", "CutoutEffect");
+NEED_NO_BOX(GlobalNamespace::CutoutEffect);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CutoutEffect, "", "CutoutEffect");

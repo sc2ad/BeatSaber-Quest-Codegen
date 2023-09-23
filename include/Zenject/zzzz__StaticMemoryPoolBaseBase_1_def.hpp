@@ -2,24 +2,23 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace System::Collections::Generic {
-template<typename T>
-class Stack_1;
-}
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace Zenject {
+class IMemoryPool;
+}
+namespace Zenject {
 template<typename TValue>
 class IDespawnableMemoryPool_1;
 }
-namespace Zenject {
-class IMemoryPool;
-}
 namespace System {
 class IDisposable;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class Stack_1;
 }
 namespace System {
 class Type;
@@ -45,14 +44,14 @@ template<::cordl_internals::il2cpp_reference_type TValue>
 class CORDL_TYPE StaticMemoryPoolBaseBase_1<TValue> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Zenject::IDespawnableMemoryPool_1<TValue>
-constexpr operator  ::Zenject::IDespawnableMemoryPool_1<TValue>() const noexcept;
+/// @brief Convert operator to Zenject::IDespawnableMemoryPool_1<TValue>
+constexpr operator  Zenject::IDespawnableMemoryPool_1<TValue>() const noexcept;
 
-/// @brief Convert operator to ::Zenject::IMemoryPool
-constexpr operator  ::Zenject::IMemoryPool() const noexcept;
+/// @brief Convert operator to Zenject::IMemoryPool
+constexpr operator  Zenject::IMemoryPool() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -87,17 +86,17 @@ constexpr explicit StaticMemoryPoolBaseBase_1(void* ptr) noexcept : ::bs_hook::I
 
 // Fields
 
- ::System::Collections::Generic::Stack_1<TValue> __declspec(property(get=__get__stack, put=__set__stack))  _stack;
+ System::Collections::Generic::Stack_1<TValue> __declspec(property(get=__get__stack, put=__set__stack))  _stack;
 
-constexpr void __set__stack(::System::Collections::Generic::Stack_1<TValue> value) ;
+constexpr void __set__stack(System::Collections::Generic::Stack_1<TValue> value) ;
 
-constexpr ::System::Collections::Generic::Stack_1<TValue> __get__stack() const;
+constexpr System::Collections::Generic::Stack_1<TValue> __get__stack() const;
 
- ::System::Action_1<TValue> __declspec(property(get=__get__onDespawnedMethod, put=__set__onDespawnedMethod))  _onDespawnedMethod;
+ System::Action_1<TValue> __declspec(property(get=__get__onDespawnedMethod, put=__set__onDespawnedMethod))  _onDespawnedMethod;
 
-constexpr void __set__onDespawnedMethod(::System::Action_1<TValue> value) ;
+constexpr void __set__onDespawnedMethod(System::Action_1<TValue> value) ;
 
-constexpr ::System::Action_1<TValue> __get__onDespawnedMethod() const;
+constexpr System::Action_1<TValue> __get__onDespawnedMethod() const;
 
  int32_t __declspec(property(get=__get__activeCount, put=__set__activeCount))  _activeCount;
 
@@ -108,7 +107,7 @@ constexpr int32_t __get__activeCount() const;
 
 // Properties
 
- ::System::Action_1<TValue> __declspec(property(put=set_OnDespawnedMethod))  OnDespawnedMethod;
+ System::Action_1<TValue> __declspec(property(put=set_OnDespawnedMethod))  OnDespawnedMethod;
 
  int32_t __declspec(property(get=get_NumTotal))  NumTotal;
 
@@ -116,19 +115,19 @@ constexpr int32_t __get__activeCount() const;
 
  int32_t __declspec(property(get=get_NumInactive))  NumInactive;
 
- ::System::Type __declspec(property(get=get_ItemType))  ItemType;
+ System::Type __declspec(property(get=get_ItemType))  ItemType;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "onDespawnedMethod", ty: "::System::Action_1<TValue>", modifiers: "", def_value: None }]
-explicit StaticMemoryPoolBaseBase_1(::System::Action_1<TValue> onDespawnedMethod) ;
+// Ctor Parameters [CppParam { name: "onDespawnedMethod", ty: "System::Action_1<TValue>", modifiers: "", def_value: None }]
+explicit StaticMemoryPoolBaseBase_1(System::Action_1<TValue> onDespawnedMethod) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Action_1<TValue> onDespawnedMethod) ;
+ void _ctor(System::Action_1<TValue> onDespawnedMethod) ;
 
 /// @brief Method set_OnDespawnedMethod addr 0x0 size 0xffffffffffffffff virtual false final false
- void set_OnDespawnedMethod(::System::Action_1<TValue> value) ;
+ void set_OnDespawnedMethod(System::Action_1<TValue> value) ;
 
 /// @brief Method get_NumTotal addr 0x0 size 0xffffffffffffffff virtual true final true
  int32_t get_NumTotal() ;
@@ -140,7 +139,7 @@ explicit StaticMemoryPoolBaseBase_1(::System::Action_1<TValue> onDespawnedMethod
  int32_t get_NumInactive() ;
 
 /// @brief Method get_ItemType addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Type get_ItemType() ;
+ System::Type get_ItemType() ;
 
 /// @brief Method Resize addr 0x0 size 0xffffffffffffffff virtual true final true
  void Resize(int32_t desiredPoolSize) ;
@@ -179,5 +178,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::StaticMemoryPoolBaseBase_1, "Zenject", "StaticMemoryPoolBaseBase`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::StaticMemoryPoolBaseBase_1, "Zenject", "StaticMemoryPoolBaseBase`1");

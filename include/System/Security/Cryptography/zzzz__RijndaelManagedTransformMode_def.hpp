@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security::Cryptography {
 struct RijndaelManagedTransformMode;
@@ -67,14 +66,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Encrypt offset 0
-static ::System::Security::Cryptography::RijndaelManagedTransformMode const Encrypt;
+static System::Security::Cryptography::RijndaelManagedTransformMode const Encrypt;
 
 /// @brief Field Decrypt offset 0
-static ::System::Security::Cryptography::RijndaelManagedTransformMode const Decrypt;
+static System::Security::Cryptography::RijndaelManagedTransformMode const Decrypt;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::RijndaelManagedTransformMode, "System.Security.Cryptography", "RijndaelManagedTransformMode");
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RijndaelManagedTransformMode, "System.Security.Cryptography", "RijndaelManagedTransformMode");

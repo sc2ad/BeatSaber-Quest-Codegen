@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__AssetFileDownloadCancelResult_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
 class AssetFileDownloadCancelResult;
 }
@@ -17,7 +16,7 @@ namespace Oculus::Platform {
 // Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4431 }), TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(13391))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13217))
 // CS Name: Oculus.Platform.MessageWithAssetFileDownloadCancelResult
-class CORDL_TYPE MessageWithAssetFileDownloadCancelResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadCancelResult> {
+class CORDL_TYPE MessageWithAssetFileDownloadCancelResult : public Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDownloadCancelResult> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr MessageWithAssetFileDownloadCancelResult(MessageWithAssetFileDownloadC
 constexpr MessageWithAssetFileDownloadCancelResult(MessageWithAssetFileDownloadCancelResult&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MessageWithAssetFileDownloadCancelResult(void* ptr) noexcept : ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadCancelResult>(ptr) {
+constexpr explicit MessageWithAssetFileDownloadCancelResult(void* ptr) noexcept : Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDownloadCancelResult>(ptr) {
 }
 
 
@@ -60,15 +59,14 @@ explicit MessageWithAssetFileDownloadCancelResult(::cordl_internals::intptr_t c_
  void _ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method GetAssetFileDownloadCancelResult addr 0x25802f0 size 0x3c virtual true final false
- ::Oculus::Platform::Models::AssetFileDownloadCancelResult GetAssetFileDownloadCancelResult() ;
+ Oculus::Platform::Models::AssetFileDownloadCancelResult GetAssetFileDownloadCancelResult() ;
 
 /// @brief Method GetDataFromMessage addr 0x258032c size 0x9c virtual true final false
- ::Oculus::Platform::Models::AssetFileDownloadCancelResult GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
+ Oculus::Platform::Models::AssetFileDownloadCancelResult GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::MessageWithAssetFileDownloadCancelResult);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithAssetFileDownloadCancelResult, "Oculus.Platform", "MessageWithAssetFileDownloadCancelResult");
+NEED_NO_BOX(Oculus::Platform::MessageWithAssetFileDownloadCancelResult);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithAssetFileDownloadCancelResult, "Oculus.Platform", "MessageWithAssetFileDownloadCancelResult");

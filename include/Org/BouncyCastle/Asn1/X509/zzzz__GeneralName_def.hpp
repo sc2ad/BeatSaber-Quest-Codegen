@@ -5,7 +5,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace Org::BouncyCastle::Asn1 {
+class IAsn1Choice;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
@@ -14,12 +19,6 @@ class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -31,11 +30,11 @@ namespace Org::BouncyCastle::Asn1::X509 {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(361))
 // CS Name: Org.BouncyCastle.Asn1.X509.GeneralName
-class CORDL_TYPE GeneralName : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
+class CORDL_TYPE GeneralName : public Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Asn1::IAsn1Choice
-constexpr operator  ::Org::BouncyCastle::Asn1::IAsn1Choice() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Asn1::IAsn1Choice
+constexpr operator  Org::BouncyCastle::Asn1::IAsn1Choice() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -49,7 +48,7 @@ constexpr GeneralName(GeneralName const& ) noexcept = default;
 constexpr GeneralName(GeneralName&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GeneralName(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
+constexpr explicit GeneralName(void* ptr) noexcept : Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
 }
 
 
@@ -97,11 +96,11 @@ static constexpr int32_t  IPAddress{7};
 /// @brief Field RegisteredID offset 0
 static constexpr int32_t  RegisteredID{8};
 
- ::Org::BouncyCastle::Asn1::Asn1Encodable __declspec(property(get=__get_obj, put=__set_obj))  obj;
+ Org::BouncyCastle::Asn1::Asn1Encodable __declspec(property(get=__get_obj, put=__set_obj))  obj;
 
-constexpr void __set_obj(::Org::BouncyCastle::Asn1::Asn1Encodable value) ;
+constexpr void __set_obj(Org::BouncyCastle::Asn1::Asn1Encodable value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable __get_obj() const;
+constexpr Org::BouncyCastle::Asn1::Asn1Encodable __get_obj() const;
 
  int32_t __declspec(property(get=__get_tag, put=__set_tag))  tag;
 
@@ -114,28 +113,28 @@ constexpr int32_t __get_tag() const;
 
  int32_t __declspec(property(get=get_TagNo))  TagNo;
 
- ::Org::BouncyCastle::Asn1::Asn1Encodable __declspec(property(get=get_Name))  Name;
+ Org::BouncyCastle::Asn1::Asn1Encodable __declspec(property(get=get_Name))  Name;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "directoryName", ty: "::Org::BouncyCastle::Asn1::X509::X509Name", modifiers: "", def_value: None }]
-explicit GeneralName(::Org::BouncyCastle::Asn1::X509::X509Name directoryName) ;
+// Ctor Parameters [CppParam { name: "directoryName", ty: "Org::BouncyCastle::Asn1::X509::X509Name", modifiers: "", def_value: None }]
+explicit GeneralName(Org::BouncyCastle::Asn1::X509::X509Name directoryName) ;
 
 /// @brief Method .ctor addr 0x1103c04 size 0x30 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name directoryName) ;
+ void _ctor(Org::BouncyCastle::Asn1::X509::X509Name directoryName) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::Org::BouncyCastle::Asn1::Asn1Object", modifiers: "", def_value: None }, CppParam { name: "tag", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GeneralName(::Org::BouncyCastle::Asn1::Asn1Object name, int32_t tag) ;
+// Ctor Parameters [CppParam { name: "name", ty: "Org::BouncyCastle::Asn1::Asn1Object", modifiers: "", def_value: None }, CppParam { name: "tag", ty: "int32_t", modifiers: "", def_value: None }]
+explicit GeneralName(Org::BouncyCastle::Asn1::Asn1Object name, int32_t tag) ;
 
 /// @brief Method .ctor addr 0x1103c34 size 0x30 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::Asn1Object name, int32_t tag) ;
+ void _ctor(Org::BouncyCastle::Asn1::Asn1Object name, int32_t tag) ;
 
-// Ctor Parameters [CppParam { name: "tag", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit GeneralName(int32_t tag, ::Org::BouncyCastle::Asn1::Asn1Encodable name) ;
+// Ctor Parameters [CppParam { name: "tag", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "name", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
+explicit GeneralName(int32_t tag, Org::BouncyCastle::Asn1::Asn1Encodable name) ;
 
 /// @brief Method .ctor addr 0x1103c64 size 0x30 virtual false final false
- void _ctor(int32_t tag, ::Org::BouncyCastle::Asn1::Asn1Encodable name) ;
+ void _ctor(int32_t tag, Org::BouncyCastle::Asn1::Asn1Encodable name) ;
 
 // Ctor Parameters [CppParam { name: "tag", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
 explicit GeneralName(int32_t tag, ::StringW name) ;
@@ -144,16 +143,16 @@ explicit GeneralName(int32_t tag, ::StringW name) ;
  void _ctor(int32_t tag, ::StringW name) ;
 
 /// @brief Method GetInstance addr 0x110415c size 0x428 virtual false final false
-static ::Org::BouncyCastle::Asn1::X509::GeneralName GetInstance(::bs_hook::Il2CppWrapperType obj) ;
+static Org::BouncyCastle::Asn1::X509::GeneralName GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method GetInstance addr 0x11045fc size 0x18 virtual false final false
-static ::Org::BouncyCastle::Asn1::X509::GeneralName GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject tagObj, bool explicitly) ;
+static Org::BouncyCastle::Asn1::X509::GeneralName GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject tagObj, bool explicitly) ;
 
 /// @brief Method get_TagNo addr 0x1104614 size 0x8 virtual false final false
  int32_t get_TagNo() ;
 
 /// @brief Method get_Name addr 0x110461c size 0x8 virtual false final false
- ::Org::BouncyCastle::Asn1::Asn1Encodable get_Name() ;
+ Org::BouncyCastle::Asn1::Asn1Encodable get_Name() ;
 
 /// @brief Method ToString addr 0x1104624 size 0x12c virtual true final false
  ::StringW ToString() ;
@@ -177,12 +176,11 @@ static ::Org::BouncyCastle::Asn1::X509::GeneralName GetInstance(::Org::BouncyCas
  ::ArrayW<int32_t> parseIPv6(::StringW ip) ;
 
 /// @brief Method ToAsn1Object addr 0x1104ef0 size 0x78 virtual true final false
- ::Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
+ Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::X509
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::GeneralName);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X509::GeneralName, "Org.BouncyCastle.Asn1.X509", "GeneralName");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::GeneralName);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::GeneralName, "Org.BouncyCastle.Asn1.X509", "GeneralName");

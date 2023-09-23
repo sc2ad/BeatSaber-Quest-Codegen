@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 class GameplayModifiers;
 }
@@ -57,24 +56,23 @@ constexpr explicit GameplayModifierMaskExtensions(void* ptr) noexcept : ::bs_hoo
 // Methods
 
 /// @brief Method Contains addr 0x1214f8c size 0x10 virtual false final false
-static bool Contains(::GlobalNamespace::GameplayModifierMask mask, ::GlobalNamespace::GameplayModifierMask other) ;
+static bool Contains(GlobalNamespace::GameplayModifierMask mask, GlobalNamespace::GameplayModifierMask other) ;
 
 /// @brief Method DifferenceFrom addr 0x1214f9c size 0x10 virtual false final false
-static int32_t DifferenceFrom(::GlobalNamespace::GameplayModifierMask mask, ::GlobalNamespace::GameplayModifierMask other) ;
+static int32_t DifferenceFrom(GlobalNamespace::GameplayModifierMask mask, GlobalNamespace::GameplayModifierMask other) ;
 
 /// @brief Method ToHexString addr 0x1214fac size 0x5c virtual false final false
-static ::StringW ToHexString(::GlobalNamespace::GameplayModifierMask mask) ;
+static ::StringW ToHexString(GlobalNamespace::GameplayModifierMask mask) ;
 
 /// @brief Method ToModifiers addr 0x1215008 size 0x148 virtual false final false
-static ::GlobalNamespace::GameplayModifiers ToModifiers(::GlobalNamespace::GameplayModifierMask gameplayModifierMask) ;
+static GlobalNamespace::GameplayModifiers ToModifiers(GlobalNamespace::GameplayModifierMask gameplayModifierMask) ;
 
 /// @brief Method ToMask addr 0x1215244 size 0xb8 virtual false final false
-static ::GlobalNamespace::GameplayModifierMask ToMask(::GlobalNamespace::GameplayModifiers gameplayModifiers) ;
+static GlobalNamespace::GameplayModifierMask ToMask(GlobalNamespace::GameplayModifiers gameplayModifiers) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::GameplayModifierMaskExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameplayModifierMaskExtensions, "", "GameplayModifierMaskExtensions");
+NEED_NO_BOX(GlobalNamespace::GameplayModifierMaskExtensions);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifierMaskExtensions, "", "GameplayModifierMaskExtensions");

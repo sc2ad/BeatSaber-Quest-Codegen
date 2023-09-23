@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__GenericSignal_1_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class ColorSignal;
@@ -10,10 +9,10 @@ class ColorSignal;
 // Type: ::ColorSignal
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13881), inst: 280 }), TypeDefinitionIndex(TypeDefinitionIndex(10192)), TypeDefinitionIndex(TypeDefinitionIndex(13881))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13881)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13881), inst: 280 }), TypeDefinitionIndex(TypeDefinitionIndex(10192))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13877))
 // CS Name: ColorSignal
-class CORDL_TYPE ColorSignal : public ::GlobalNamespace::GenericSignal_1<::UnityEngine::Color> {
+class CORDL_TYPE ColorSignal : public GlobalNamespace::GenericSignal_1<UnityEngine::Color> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr ColorSignal(ColorSignal const& ) noexcept = default;
 constexpr ColorSignal(ColorSignal&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ColorSignal(void* ptr) noexcept : ::GlobalNamespace::GenericSignal_1<::UnityEngine::Color>(ptr) {
+constexpr explicit ColorSignal(void* ptr) noexcept : GlobalNamespace::GenericSignal_1<UnityEngine::Color>(ptr) {
 }
 
 
@@ -59,6 +58,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ColorSignal);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ColorSignal, "", "ColorSignal");
+NEED_NO_BOX(GlobalNamespace::ColorSignal);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSignal, "", "ColorSignal");

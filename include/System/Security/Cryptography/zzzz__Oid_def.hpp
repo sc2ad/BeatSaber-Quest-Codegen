@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Security::Cryptography {
 struct OidGroup;
 }
@@ -64,11 +63,11 @@ constexpr void __set__friendlyName(::StringW value) ;
 
 constexpr ::StringW __get__friendlyName() const;
 
- ::System::Security::Cryptography::OidGroup __declspec(property(get=__get__group, put=__set__group))  _group;
+ System::Security::Cryptography::OidGroup __declspec(property(get=__get__group, put=__set__group))  _group;
 
-constexpr void __set__group(::System::Security::Cryptography::OidGroup value) ;
+constexpr void __set__group(System::Security::Cryptography::OidGroup value) ;
 
-constexpr ::System::Security::Cryptography::OidGroup __get__group() const;
+constexpr System::Security::Cryptography::OidGroup __get__group() const;
 
 
 // Properties
@@ -98,14 +97,14 @@ explicit Oid(::StringW value, ::StringW friendlyName) ;
 /// @brief Method .ctor addr 0x27e3514 size 0x2c virtual false final false
  void _ctor(::StringW value, ::StringW friendlyName) ;
 
-// Ctor Parameters [CppParam { name: "oid", ty: "::System::Security::Cryptography::Oid", modifiers: "", def_value: None }]
-explicit Oid(::System::Security::Cryptography::Oid oid) ;
+// Ctor Parameters [CppParam { name: "oid", ty: "System::Security::Cryptography::Oid", modifiers: "", def_value: None }]
+explicit Oid(System::Security::Cryptography::Oid oid) ;
 
 /// @brief Method .ctor addr 0x27e3540 size 0x84 virtual false final false
- void _ctor(::System::Security::Cryptography::Oid oid) ;
+ void _ctor(System::Security::Cryptography::Oid oid) ;
 
 /// @brief Method FromOidValue addr 0x27e35c4 size 0x13c virtual false final false
-static ::System::Security::Cryptography::Oid FromOidValue(::StringW oidValue, ::System::Security::Cryptography::OidGroup group) ;
+static System::Security::Cryptography::Oid FromOidValue(::StringW oidValue, System::Security::Cryptography::OidGroup group) ;
 
 /// @brief Method get_Value addr 0x27e373c size 0x8 virtual false final false
  ::StringW get_Value() ;
@@ -116,16 +115,15 @@ static ::System::Security::Cryptography::Oid FromOidValue(::StringW oidValue, ::
 /// @brief Method get_FriendlyName addr 0x27e374c size 0x84 virtual false final false
  ::StringW get_FriendlyName() ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "friendlyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "group", ty: "::System::Security::Cryptography::OidGroup", modifiers: "", def_value: None }]
-explicit Oid(::StringW value, ::StringW friendlyName, ::System::Security::Cryptography::OidGroup group) ;
+// Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "friendlyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "group", ty: "System::Security::Cryptography::OidGroup", modifiers: "", def_value: None }]
+explicit Oid(::StringW value, ::StringW friendlyName, System::Security::Cryptography::OidGroup group) ;
 
 /// @brief Method .ctor addr 0x27e3700 size 0x3c virtual false final false
- void _ctor(::StringW value, ::StringW friendlyName, ::System::Security::Cryptography::OidGroup group) ;
+ void _ctor(::StringW value, ::StringW friendlyName, System::Security::Cryptography::OidGroup group) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::Oid);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::Oid, "System.Security.Cryptography", "Oid");
+NEED_NO_BOX(System::Security::Cryptography::Oid);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::Oid, "System.Security.Cryptography", "Oid");

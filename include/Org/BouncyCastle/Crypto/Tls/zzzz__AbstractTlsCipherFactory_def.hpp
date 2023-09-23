@@ -2,15 +2,14 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCipher;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipherFactory;
+class TlsContext;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
+class TlsCipherFactory;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -25,8 +24,8 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE AbstractTlsCipherFactory : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory
-constexpr operator  ::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Tls::TlsCipherFactory
+constexpr operator  Org::BouncyCastle::Crypto::Tls::TlsCipherFactory() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -62,7 +61,7 @@ constexpr explicit AbstractTlsCipherFactory(void* ptr) noexcept : ::bs_hook::Il2
 // Methods
 
 /// @brief Method CreateCipher addr 0xecb1a8 size 0x44 virtual true final false
- ::Org::BouncyCastle::Crypto::Tls::TlsCipher CreateCipher(::Org::BouncyCastle::Crypto::Tls::TlsContext context, int32_t encryptionAlgorithm, int32_t macAlgorithm) ;
+ Org::BouncyCastle::Crypto::Tls::TlsCipher CreateCipher(Org::BouncyCastle::Crypto::Tls::TlsContext context, int32_t encryptionAlgorithm, int32_t macAlgorithm) ;
 
 // Ctor Parameters []
 explicit AbstractTlsCipherFactory() ;
@@ -74,6 +73,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::AbstractTlsCipherFactory);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::AbstractTlsCipherFactory, "Org.BouncyCastle.Crypto.Tls", "AbstractTlsCipherFactory");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::AbstractTlsCipherFactory);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::AbstractTlsCipherFactory, "Org.BouncyCastle.Crypto.Tls", "AbstractTlsCipherFactory");

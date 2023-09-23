@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System::Threading::Tasks {
-class Task;
-}
 namespace GlobalNamespace {
 class SceneSetupData;
 }
 namespace GlobalNamespace {
 class SceneInfo;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace Zenject {
 class DiContainer;
@@ -34,10 +33,10 @@ namespace GlobalNamespace {
 class ScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10;
+struct GlobalNamespace__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d;
+struct GlobalNamespace__ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d;
 }
 // Type: ::<BeforeScenesWillBeActivated>d__10
 namespace GlobalNamespace {
@@ -45,23 +44,23 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13872))
 // CS Name: ScenesTransitionSetupDataSO::<BeforeScenesWillBeActivated>d__10
-struct CORDL_TYPE ____GlobalNamespace__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10 : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10 : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::CompilerServices::IAsyncStateMachine
-constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine() const;
+/// @brief Convert operator to System::Runtime::CompilerServices::IAsyncStateMachine
+constexpr operator  System::Runtime::CompilerServices::IAsyncStateMachine() const;
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::ScenesTransitionSetupDataSO", modifiers: "", def_value: None }, CppParam { name: "runAsync", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::GlobalNamespace::ScenesTransitionSetupDataSO __4__this, bool runAsync, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "GlobalNamespace::ScenesTransitionSetupDataSO", modifiers: "", def_value: None }, CppParam { name: "runAsync", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+constexpr GlobalNamespace__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10(int32_t __1__state, System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, GlobalNamespace::ScenesTransitionSetupDataSO __4__this, bool runAsync, System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
 
-                    constexpr ____GlobalNamespace__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10(____GlobalNamespace__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10 const&) = default;
-                    constexpr ____GlobalNamespace__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10(____GlobalNamespace__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10&&) = default;
-                    constexpr ____GlobalNamespace__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10& operator=(____GlobalNamespace__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10 const& o) {
+                    constexpr GlobalNamespace__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10(GlobalNamespace__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10 const&) = default;
+                    constexpr GlobalNamespace__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10(GlobalNamespace__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10&&) = default;
+                    constexpr GlobalNamespace__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10& operator=(GlobalNamespace__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10 const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10& operator=(____GlobalNamespace__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10&& o) noexcept {
+                    constexpr GlobalNamespace__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10& operator=(GlobalNamespace__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -74,7 +73,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x40};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -91,17 +90,17 @@ constexpr void __set___1__state(int32_t value) ;
 
 constexpr int32_t __get___1__state() const;
 
- ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
+ System::Runtime::CompilerServices::AsyncVoidMethodBuilder __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
 
-constexpr void __set___t__builder(::System::Runtime::CompilerServices::AsyncVoidMethodBuilder value) ;
+constexpr void __set___t__builder(System::Runtime::CompilerServices::AsyncVoidMethodBuilder value) ;
 
-constexpr ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __get___t__builder() const;
+constexpr System::Runtime::CompilerServices::AsyncVoidMethodBuilder __get___t__builder() const;
 
- ::GlobalNamespace::ScenesTransitionSetupDataSO __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::ScenesTransitionSetupDataSO __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::ScenesTransitionSetupDataSO value) ;
+constexpr void __set___4__this(GlobalNamespace::ScenesTransitionSetupDataSO value) ;
 
-constexpr ::GlobalNamespace::ScenesTransitionSetupDataSO __get___4__this() const;
+constexpr GlobalNamespace::ScenesTransitionSetupDataSO __get___4__this() const;
 
  bool __declspec(property(get=__get_runAsync, put=__set_runAsync))  runAsync;
 
@@ -109,11 +108,11 @@ constexpr void __set_runAsync(bool value) ;
 
 constexpr bool __get_runAsync() const;
 
- ::System::Runtime::CompilerServices::TaskAwaiter __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
+ System::Runtime::CompilerServices::TaskAwaiter __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
 
-constexpr void __set___u__1(::System::Runtime::CompilerServices::TaskAwaiter value) ;
+constexpr void __set___u__1(System::Runtime::CompilerServices::TaskAwaiter value) ;
 
-constexpr ::System::Runtime::CompilerServices::TaskAwaiter __get___u__1() const;
+constexpr System::Runtime::CompilerServices::TaskAwaiter __get___u__1() const;
 
 
 // Methods
@@ -122,7 +121,7 @@ constexpr ::System::Runtime::CompilerServices::TaskAwaiter __get___u__1() const;
  void MoveNext() ;
 
 /// @brief Method SetStateMachine addr 0x1f82efc size 0xc virtual true final true
- void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
+ void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -134,23 +133,23 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13873))
 // CS Name: ScenesTransitionSetupDataSO::<<BeforeScenesWillBeActivated>b__10_0>d
-struct CORDL_TYPE ____GlobalNamespace__ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::CompilerServices::IAsyncStateMachine
-constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine() const;
+/// @brief Convert operator to System::Runtime::CompilerServices::IAsyncStateMachine
+constexpr operator  System::Runtime::CompilerServices::IAsyncStateMachine() const;
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::ScenesTransitionSetupDataSO", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::ScenesTransitionSetupDataSO __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "GlobalNamespace::ScenesTransitionSetupDataSO", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+constexpr GlobalNamespace__ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d(int32_t __1__state, System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, GlobalNamespace::ScenesTransitionSetupDataSO __4__this, System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
 
-                    constexpr ____GlobalNamespace__ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d(____GlobalNamespace__ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d const&) = default;
-                    constexpr ____GlobalNamespace__ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d(____GlobalNamespace__ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d&&) = default;
-                    constexpr ____GlobalNamespace__ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d& operator=(____GlobalNamespace__ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d const& o) {
+                    constexpr GlobalNamespace__ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d(GlobalNamespace__ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d const&) = default;
+                    constexpr GlobalNamespace__ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d(GlobalNamespace__ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d&&) = default;
+                    constexpr GlobalNamespace__ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d& operator=(GlobalNamespace__ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d& operator=(____GlobalNamespace__ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d&& o) noexcept {
+                    constexpr GlobalNamespace__ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d& operator=(GlobalNamespace__ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -163,7 +162,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x30};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -180,23 +179,23 @@ constexpr void __set___1__state(int32_t value) ;
 
 constexpr int32_t __get___1__state() const;
 
- ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
+ System::Runtime::CompilerServices::AsyncTaskMethodBuilder __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
 
-constexpr void __set___t__builder(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder value) ;
+constexpr void __set___t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder value) ;
 
-constexpr ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __get___t__builder() const;
+constexpr System::Runtime::CompilerServices::AsyncTaskMethodBuilder __get___t__builder() const;
 
- ::GlobalNamespace::ScenesTransitionSetupDataSO __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::ScenesTransitionSetupDataSO __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::ScenesTransitionSetupDataSO value) ;
+constexpr void __set___4__this(GlobalNamespace::ScenesTransitionSetupDataSO value) ;
 
-constexpr ::GlobalNamespace::ScenesTransitionSetupDataSO __get___4__this() const;
+constexpr GlobalNamespace::ScenesTransitionSetupDataSO __get___4__this() const;
 
- ::System::Runtime::CompilerServices::TaskAwaiter __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
+ System::Runtime::CompilerServices::TaskAwaiter __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
 
-constexpr void __set___u__1(::System::Runtime::CompilerServices::TaskAwaiter value) ;
+constexpr void __set___u__1(System::Runtime::CompilerServices::TaskAwaiter value) ;
 
-constexpr ::System::Runtime::CompilerServices::TaskAwaiter __get___u__1() const;
+constexpr System::Runtime::CompilerServices::TaskAwaiter __get___u__1() const;
 
 
 // Methods
@@ -205,7 +204,7 @@ constexpr ::System::Runtime::CompilerServices::TaskAwaiter __get___u__1() const;
  void MoveNext() ;
 
 /// @brief Method SetStateMachine addr 0x1f83088 size 0xc virtual true final true
- void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
+ void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -217,12 +216,12 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13874))
 // CS Name: ScenesTransitionSetupDataSO
-class CORDL_TYPE ScenesTransitionSetupDataSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE ScenesTransitionSetupDataSO : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
-using __BeforeScenesWillBeActivated_b__10_0_d = ::GlobalNamespace::____GlobalNamespace__ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d;
+using __BeforeScenesWillBeActivated_b__10_0_d = GlobalNamespace::GlobalNamespace__ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d;
 
-using _BeforeScenesWillBeActivated_d__10 = ::GlobalNamespace::____GlobalNamespace__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10;
+using _BeforeScenesWillBeActivated_d__10 = GlobalNamespace::GlobalNamespace__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -236,7 +235,7 @@ constexpr ScenesTransitionSetupDataSO(ScenesTransitionSetupDataSO const& ) noexc
 constexpr ScenesTransitionSetupDataSO(ScenesTransitionSetupDataSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ScenesTransitionSetupDataSO(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit ScenesTransitionSetupDataSO(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -257,17 +256,17 @@ constexpr explicit ScenesTransitionSetupDataSO(void* ptr) noexcept : ::GlobalNam
 
 // Fields
 
- ::ArrayW<::GlobalNamespace::SceneInfo> __declspec(property(get=__get__scenes_k__BackingField, put=__set__scenes_k__BackingField))  _scenes_k__BackingField;
+ ::ArrayW<GlobalNamespace::SceneInfo> __declspec(property(get=__get__scenes_k__BackingField, put=__set__scenes_k__BackingField))  _scenes_k__BackingField;
 
-constexpr void __set__scenes_k__BackingField(::ArrayW<::GlobalNamespace::SceneInfo> value) ;
+constexpr void __set__scenes_k__BackingField(::ArrayW<GlobalNamespace::SceneInfo> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::SceneInfo> __get__scenes_k__BackingField() const;
+constexpr ::ArrayW<GlobalNamespace::SceneInfo> __get__scenes_k__BackingField() const;
 
- ::ArrayW<::GlobalNamespace::SceneSetupData> __declspec(property(get=__get__sceneSetupDataArray, put=__set__sceneSetupDataArray))  _sceneSetupDataArray;
+ ::ArrayW<GlobalNamespace::SceneSetupData> __declspec(property(get=__get__sceneSetupDataArray, put=__set__sceneSetupDataArray))  _sceneSetupDataArray;
 
-constexpr void __set__sceneSetupDataArray(::ArrayW<::GlobalNamespace::SceneSetupData> value) ;
+constexpr void __set__sceneSetupDataArray(::ArrayW<GlobalNamespace::SceneSetupData> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::SceneSetupData> __get__sceneSetupDataArray() const;
+constexpr ::ArrayW<GlobalNamespace::SceneSetupData> __get__sceneSetupDataArray() const;
 
  bool __declspec(property(get=__get__beforeScenesWillBeActivatedTaskIsComplete_k__BackingField, put=__set__beforeScenesWillBeActivatedTaskIsComplete_k__BackingField))  _beforeScenesWillBeActivatedTaskIsComplete_k__BackingField;
 
@@ -278,7 +277,7 @@ constexpr bool __get__beforeScenesWillBeActivatedTaskIsComplete_k__BackingField(
 
 // Properties
 
- ::ArrayW<::GlobalNamespace::SceneInfo> __declspec(property(get=get_scenes, put=set_scenes))  scenes;
+ ::ArrayW<GlobalNamespace::SceneInfo> __declspec(property(get=get_scenes, put=set_scenes))  scenes;
 
  bool __declspec(property(get=get_beforeScenesWillBeActivatedTaskIsComplete, put=set_beforeScenesWillBeActivatedTaskIsComplete))  beforeScenesWillBeActivatedTaskIsComplete;
 
@@ -286,10 +285,10 @@ constexpr bool __get__beforeScenesWillBeActivatedTaskIsComplete_k__BackingField(
 // Methods
 
 /// @brief Method get_scenes addr 0x1f82b38 size 0x8 virtual false final false
- ::ArrayW<::GlobalNamespace::SceneInfo> get_scenes() ;
+ ::ArrayW<GlobalNamespace::SceneInfo> get_scenes() ;
 
 /// @brief Method set_scenes addr 0x1f82b40 size 0x8 virtual false final false
- void set_scenes(::ArrayW<::GlobalNamespace::SceneInfo> value) ;
+ void set_scenes(::ArrayW<GlobalNamespace::SceneInfo> value) ;
 
 /// @brief Method get_beforeScenesWillBeActivatedTaskIsComplete addr 0x1f82b48 size 0x8 virtual false final false
  bool get_beforeScenesWillBeActivatedTaskIsComplete() ;
@@ -298,16 +297,16 @@ constexpr bool __get__beforeScenesWillBeActivatedTaskIsComplete_k__BackingField(
  void set_beforeScenesWillBeActivatedTaskIsComplete(bool value) ;
 
 /// @brief Method Init addr 0x1f82a14 size 0xc virtual false final false
- void Init(::ArrayW<::GlobalNamespace::SceneInfo> scenes, ::ArrayW<::GlobalNamespace::SceneSetupData> sceneSetupData) ;
+ void Init(::ArrayW<GlobalNamespace::SceneInfo> scenes, ::ArrayW<GlobalNamespace::SceneSetupData> sceneSetupData) ;
 
 /// @brief Method BeforeScenesWillBeActivated addr 0x1f827f8 size 0xa0 virtual false final false
  void BeforeScenesWillBeActivated(bool runAsync) ;
 
 /// @brief Method BeforeScenesWillBeActivatedAsync addr 0x1f82b5c size 0x88 virtual true final false
- ::System::Threading::Tasks::Task BeforeScenesWillBeActivatedAsync() ;
+ System::Threading::Tasks::Task BeforeScenesWillBeActivatedAsync() ;
 
 /// @brief Method InstallBindings addr 0x1f81020 size 0x12c virtual false final false
- void InstallBindings(::Zenject::DiContainer container) ;
+ void InstallBindings(Zenject::DiContainer container) ;
 
 // Ctor Parameters []
 explicit ScenesTransitionSetupDataSO() ;
@@ -316,14 +315,13 @@ explicit ScenesTransitionSetupDataSO() ;
  void _ctor() ;
 
 /// @brief Method <BeforeScenesWillBeActivated>b__10_0 addr 0x1f82be4 size 0xc8 virtual false final false
- ::System::Threading::Tasks::Task _BeforeScenesWillBeActivated_b__10_0() ;
+ System::Threading::Tasks::Task _BeforeScenesWillBeActivated_b__10_0() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ScenesTransitionSetupDataSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ScenesTransitionSetupDataSO, "", "ScenesTransitionSetupDataSO");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10, "", "ScenesTransitionSetupDataSO/<BeforeScenesWillBeActivated>d__10");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d, "", "ScenesTransitionSetupDataSO/<<BeforeScenesWillBeActivated>b__10_0>d");
+NEED_NO_BOX(GlobalNamespace::ScenesTransitionSetupDataSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScenesTransitionSetupDataSO, "", "ScenesTransitionSetupDataSO");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10, "", "ScenesTransitionSetupDataSO/<BeforeScenesWillBeActivated>d__10");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d, "", "ScenesTransitionSetupDataSO/<<BeforeScenesWillBeActivated>b__10_0>d");

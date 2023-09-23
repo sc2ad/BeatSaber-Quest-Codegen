@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
 namespace UnityEngine::TextCore::Text {
 class FontAsset;
 }
@@ -18,8 +17,8 @@ namespace UnityEngine::TextCore::Text {
 struct CORDL_TYPE FontWeightPair : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "regularTypeface", ty: "::UnityEngine::TextCore::Text::FontAsset", modifiers: "", def_value: None }, CppParam { name: "italicTypeface", ty: "::UnityEngine::TextCore::Text::FontAsset", modifiers: "", def_value: None }]
-constexpr FontWeightPair(::UnityEngine::TextCore::Text::FontAsset regularTypeface, ::UnityEngine::TextCore::Text::FontAsset italicTypeface) noexcept;
+// Ctor Parameters [CppParam { name: "regularTypeface", ty: "UnityEngine::TextCore::Text::FontAsset", modifiers: "", def_value: None }, CppParam { name: "italicTypeface", ty: "UnityEngine::TextCore::Text::FontAsset", modifiers: "", def_value: None }]
+constexpr FontWeightPair(UnityEngine::TextCore::Text::FontAsset regularTypeface, UnityEngine::TextCore::Text::FontAsset italicTypeface) noexcept;
 
 
                     constexpr FontWeightPair(FontWeightPair const&) = default;
@@ -52,21 +51,20 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::TextCore::Text::FontAsset __declspec(property(get=__get_regularTypeface, put=__set_regularTypeface))  regularTypeface;
+ UnityEngine::TextCore::Text::FontAsset __declspec(property(get=__get_regularTypeface, put=__set_regularTypeface))  regularTypeface;
 
-constexpr void __set_regularTypeface(::UnityEngine::TextCore::Text::FontAsset value) ;
+constexpr void __set_regularTypeface(UnityEngine::TextCore::Text::FontAsset value) ;
 
-constexpr ::UnityEngine::TextCore::Text::FontAsset __get_regularTypeface() const;
+constexpr UnityEngine::TextCore::Text::FontAsset __get_regularTypeface() const;
 
- ::UnityEngine::TextCore::Text::FontAsset __declspec(property(get=__get_italicTypeface, put=__set_italicTypeface))  italicTypeface;
+ UnityEngine::TextCore::Text::FontAsset __declspec(property(get=__get_italicTypeface, put=__set_italicTypeface))  italicTypeface;
 
-constexpr void __set_italicTypeface(::UnityEngine::TextCore::Text::FontAsset value) ;
+constexpr void __set_italicTypeface(UnityEngine::TextCore::Text::FontAsset value) ;
 
-constexpr ::UnityEngine::TextCore::Text::FontAsset __get_italicTypeface() const;
+constexpr UnityEngine::TextCore::Text::FontAsset __get_italicTypeface() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::Text
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::FontWeightPair, "UnityEngine.TextCore.Text", "FontWeightPair");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Text::FontWeightPair, "UnityEngine.TextCore.Text", "FontWeightPair");

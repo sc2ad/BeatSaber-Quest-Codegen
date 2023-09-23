@@ -6,6 +6,7 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 
+namespace {
 namespace cordl_internals {
 #pragma region boxing
     template<typename T>
@@ -21,6 +22,11 @@ namespace cordl_internals {
     requires(!std::is_base_of_v<::bs_hook::Il2CppWrapperType, T>)
     CORDL_HIDDEN ::bs_hook::Il2CppWrapperType Box(T t) {
         return ::bs_hook::Il2CppWrapperType(il2cpp_functions::value_box(classof(T), t.convert()));
+    }
+    template<il2cpp_convertible T>
+    requires(!std::is_base_of_v<::bs_hook::Il2CppWrapperType, T>)
+    CORDL_HIDDEN ::bs_hook::Il2CppWrapperType Box(T* t) {
+        return ::bs_hook::Il2CppWrapperType(il2cpp_functions::value_box(classof(T), t->convert()));
     }
 #pragma endregion // boxing
 
@@ -42,3 +48,4 @@ namespace cordl_internals {
 #pragma endregion // unboxing
 
 }
+} // end anonymous namespace

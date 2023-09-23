@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class Object;
-}
 namespace UnityEngine {
 class Transform;
+}
+namespace UnityEngine {
+class Object;
 }
 // Forward declare root types
 namespace RootMotion {
@@ -58,34 +57,34 @@ constexpr explicit Hierarchy(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 // Methods
 
 /// @brief Method HierarchyIsValid addr 0x11b2940 size 0x84 virtual false final false
-static bool HierarchyIsValid(::ArrayW<::UnityEngine::Transform> bones) ;
+static bool HierarchyIsValid(::ArrayW<UnityEngine::Transform> bones) ;
 
 /// @brief Method ContainsDuplicate addr 0x11b2834 size 0x10c virtual false final false
-static ::UnityEngine::Object ContainsDuplicate(::ArrayW<::UnityEngine::Object> objects) ;
+static UnityEngine::Object ContainsDuplicate(::ArrayW<UnityEngine::Object> objects) ;
 
 /// @brief Method IsAncestor addr 0x11b0c24 size 0x130 virtual false final false
-static bool IsAncestor(::UnityEngine::Transform transform, ::UnityEngine::Transform ancestor) ;
+static bool IsAncestor(UnityEngine::Transform transform, UnityEngine::Transform ancestor) ;
 
 /// @brief Method ContainsChild addr 0x11b1234 size 0x110 virtual false final false
-static bool ContainsChild(::UnityEngine::Transform transform, ::UnityEngine::Transform child) ;
+static bool ContainsChild(UnityEngine::Transform transform, UnityEngine::Transform child) ;
 
 /// @brief Method AddAncestors addr 0x11b0ea4 size 0x240 virtual false final false
-static void AddAncestors(::UnityEngine::Transform transform, ::UnityEngine::Transform blocker, ByRef<::ArrayW<::UnityEngine::Transform>> array) ;
+static void AddAncestors(UnityEngine::Transform transform, UnityEngine::Transform blocker, ByRef<::ArrayW<UnityEngine::Transform>> array) ;
 
 /// @brief Method GetAncestor addr 0x11b2b58 size 0xf4 virtual false final false
-static ::UnityEngine::Transform GetAncestor(::UnityEngine::Transform transform, int32_t minChildCount) ;
+static UnityEngine::Transform GetAncestor(UnityEngine::Transform transform, int32_t minChildCount) ;
 
 /// @brief Method GetFirstCommonAncestor addr 0x11b0d54 size 0x150 virtual false final false
-static ::UnityEngine::Transform GetFirstCommonAncestor(::UnityEngine::Transform t1, ::UnityEngine::Transform t2) ;
+static UnityEngine::Transform GetFirstCommonAncestor(UnityEngine::Transform t1, UnityEngine::Transform t2) ;
 
 /// @brief Method GetFirstCommonAncestor addr 0x11b2c4c size 0x164 virtual false final false
-static ::UnityEngine::Transform GetFirstCommonAncestor(::ArrayW<::UnityEngine::Transform> transforms) ;
+static UnityEngine::Transform GetFirstCommonAncestor(::ArrayW<UnityEngine::Transform> transforms) ;
 
 /// @brief Method GetFirstCommonAncestorRecursive addr 0x11b2fb8 size 0x188 virtual false final false
-static ::UnityEngine::Transform GetFirstCommonAncestorRecursive(::UnityEngine::Transform transform, ::ArrayW<::UnityEngine::Transform> transforms) ;
+static UnityEngine::Transform GetFirstCommonAncestorRecursive(UnityEngine::Transform transform, ::ArrayW<UnityEngine::Transform> transforms) ;
 
 /// @brief Method IsCommonAncestor addr 0x11b2db0 size 0x208 virtual false final false
-static bool IsCommonAncestor(::UnityEngine::Transform transform, ::ArrayW<::UnityEngine::Transform> transforms) ;
+static bool IsCommonAncestor(UnityEngine::Transform transform, ::ArrayW<UnityEngine::Transform> transforms) ;
 
 // Ctor Parameters []
 explicit Hierarchy() ;
@@ -97,6 +96,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::Hierarchy);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::Hierarchy, "RootMotion", "Hierarchy");
+NEED_NO_BOX(RootMotion::Hierarchy);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::Hierarchy, "RootMotion", "Hierarchy");

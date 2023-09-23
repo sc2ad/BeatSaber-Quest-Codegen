@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__TransitionEventBase_1_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class TransitionEndEvent;
@@ -9,10 +8,10 @@ class TransitionEndEvent;
 // Type: UnityEngine.UIElements::TransitionEndEvent
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7287), inst: 4984 }), TypeDefinitionIndex(TypeDefinitionIndex(7287))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7287)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7287), inst: 4984 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7290))
 // CS Name: UnityEngine.UIElements.TransitionEndEvent
-class CORDL_TYPE TransitionEndEvent : public ::UnityEngine::UIElements::TransitionEventBase_1<::UnityEngine::UIElements::TransitionEndEvent> {
+class CORDL_TYPE TransitionEndEvent : public UnityEngine::UIElements::TransitionEventBase_1<UnityEngine::UIElements::TransitionEndEvent> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr TransitionEndEvent(TransitionEndEvent const& ) noexcept = default;
 constexpr TransitionEndEvent(TransitionEndEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TransitionEndEvent(void* ptr) noexcept : ::UnityEngine::UIElements::TransitionEventBase_1<::UnityEngine::UIElements::TransitionEndEvent>(ptr) {
+constexpr explicit TransitionEndEvent(void* ptr) noexcept : UnityEngine::UIElements::TransitionEventBase_1<UnityEngine::UIElements::TransitionEndEvent>(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::TransitionEndEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::TransitionEndEvent, "UnityEngine.UIElements", "TransitionEndEvent");
+NEED_NO_BOX(UnityEngine::UIElements::TransitionEndEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::TransitionEndEvent, "UnityEngine.UIElements", "TransitionEndEvent");

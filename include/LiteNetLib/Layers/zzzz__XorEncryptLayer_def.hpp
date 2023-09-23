@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Net {
 class IPEndPoint;
 }
@@ -19,7 +18,7 @@ namespace LiteNetLib::Layers {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14523))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14524))
 // CS Name: LiteNetLib.Layers.XorEncryptLayer
-class CORDL_TYPE XorEncryptLayer : public ::LiteNetLib::Layers::PacketLayerBase {
+class CORDL_TYPE XorEncryptLayer : public LiteNetLib::Layers::PacketLayerBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr XorEncryptLayer(XorEncryptLayer const& ) noexcept = default;
 constexpr XorEncryptLayer(XorEncryptLayer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XorEncryptLayer(void* ptr) noexcept : ::LiteNetLib::Layers::PacketLayerBase(ptr) {
+constexpr explicit XorEncryptLayer(void* ptr) noexcept : LiteNetLib::Layers::PacketLayerBase(ptr) {
 }
 
 
@@ -89,15 +88,14 @@ explicit XorEncryptLayer(::StringW key) ;
  void SetKey(::ArrayW<uint8_t> key) ;
 
 /// @brief Method ProcessInboundPacket addr 0x209ad3c size 0x90 virtual true final false
- void ProcessInboundPacket(::System::Net::IPEndPoint remoteEndPoint, ByRef<::ArrayW<uint8_t>> data, ByRef<int32_t> offset, ByRef<int32_t> length) ;
+ void ProcessInboundPacket(System::Net::IPEndPoint remoteEndPoint, ByRef<::ArrayW<uint8_t>> data, ByRef<int32_t> offset, ByRef<int32_t> length) ;
 
 /// @brief Method ProcessOutBoundPacket addr 0x209adcc size 0x8c virtual true final false
- void ProcessOutBoundPacket(::System::Net::IPEndPoint remoteEndPoint, ByRef<::ArrayW<uint8_t>> data, ByRef<int32_t> offset, ByRef<int32_t> length) ;
+ void ProcessOutBoundPacket(System::Net::IPEndPoint remoteEndPoint, ByRef<::ArrayW<uint8_t>> data, ByRef<int32_t> offset, ByRef<int32_t> length) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib::Layers
-} // end anonymous namespace
-NEED_NO_BOX(::LiteNetLib::Layers::XorEncryptLayer);
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::Layers::XorEncryptLayer, "LiteNetLib.Layers", "XorEncryptLayer");
+NEED_NO_BOX(LiteNetLib::Layers::XorEncryptLayer);
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Layers::XorEncryptLayer, "LiteNetLib.Layers", "XorEncryptLayer");

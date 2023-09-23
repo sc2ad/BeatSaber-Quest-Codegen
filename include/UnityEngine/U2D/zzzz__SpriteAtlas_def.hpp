@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace UnityEngine {
 class Sprite;
 }
@@ -16,7 +15,7 @@ namespace UnityEngine::U2D {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10142))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10232))
 // CS Name: UnityEngine.U2D.SpriteAtlas
-class CORDL_TYPE SpriteAtlas : public ::UnityEngine::Object {
+class CORDL_TYPE SpriteAtlas : public UnityEngine::Object {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr SpriteAtlas(SpriteAtlas const& ) noexcept = default;
 constexpr SpriteAtlas(SpriteAtlas&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SpriteAtlas(void* ptr) noexcept : ::UnityEngine::Object(ptr) {
+constexpr explicit SpriteAtlas(void* ptr) noexcept : UnityEngine::Object(ptr) {
 }
 
 
@@ -53,15 +52,14 @@ constexpr explicit SpriteAtlas(void* ptr) noexcept : ::UnityEngine::Object(ptr) 
 // Methods
 
 /// @brief Method CanBindTo addr 0x2b6e98c size 0x44 virtual false final false
- bool CanBindTo(::UnityEngine::Sprite sprite) ;
+ bool CanBindTo(UnityEngine::Sprite sprite) ;
 
 /// @brief Method GetSprite addr 0x2b6e9d0 size 0x44 virtual false final false
- ::UnityEngine::Sprite GetSprite(::StringW name) ;
+ UnityEngine::Sprite GetSprite(::StringW name) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::U2D
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::U2D::SpriteAtlas);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::U2D::SpriteAtlas, "UnityEngine.U2D", "SpriteAtlas");
+NEED_NO_BOX(UnityEngine::U2D::SpriteAtlas);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::U2D::SpriteAtlas, "UnityEngine.U2D", "SpriteAtlas");

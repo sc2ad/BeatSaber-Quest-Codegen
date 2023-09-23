@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace UnityEngine {
-class Transform;
-}
 namespace GlobalNamespace {
 class PoseObjectIdSO;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -55,22 +54,22 @@ constexpr explicit PoseObject(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType
 
 // Fields
 
- ::UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
+ UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
 
-constexpr void __set__transform(::UnityEngine::Transform value) ;
+constexpr void __set__transform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__transform() const;
+constexpr UnityEngine::Transform __get__transform() const;
 
- ::GlobalNamespace::PoseObjectIdSO __declspec(property(get=__get__poseObjectId, put=__set__poseObjectId))  _poseObjectId;
+ GlobalNamespace::PoseObjectIdSO __declspec(property(get=__get__poseObjectId, put=__set__poseObjectId))  _poseObjectId;
 
-constexpr void __set__poseObjectId(::GlobalNamespace::PoseObjectIdSO value) ;
+constexpr void __set__poseObjectId(GlobalNamespace::PoseObjectIdSO value) ;
 
-constexpr ::GlobalNamespace::PoseObjectIdSO __get__poseObjectId() const;
+constexpr GlobalNamespace::PoseObjectIdSO __get__poseObjectId() const;
 
 
 // Properties
 
- ::UnityEngine::Transform __declspec(property(get=get_objectTransform))  objectTransform;
+ UnityEngine::Transform __declspec(property(get=get_objectTransform))  objectTransform;
 
  ::StringW __declspec(property(get=get_id))  id;
 
@@ -78,21 +77,20 @@ constexpr ::GlobalNamespace::PoseObjectIdSO __get__poseObjectId() const;
 // Methods
 
 /// @brief Method get_objectTransform addr 0x21a64b4 size 0x8 virtual false final false
- ::UnityEngine::Transform get_objectTransform() ;
+ UnityEngine::Transform get_objectTransform() ;
 
 /// @brief Method get_id addr 0x21a64bc size 0x1c virtual false final false
  ::StringW get_id() ;
 
-// Ctor Parameters [CppParam { name: "transform", ty: "::UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "poseObjectId", ty: "::GlobalNamespace::PoseObjectIdSO", modifiers: "", def_value: None }]
-explicit PoseObject(::UnityEngine::Transform transform, ::GlobalNamespace::PoseObjectIdSO poseObjectId) ;
+// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "poseObjectId", ty: "GlobalNamespace::PoseObjectIdSO", modifiers: "", def_value: None }]
+explicit PoseObject(UnityEngine::Transform transform, GlobalNamespace::PoseObjectIdSO poseObjectId) ;
 
 /// @brief Method .ctor addr 0x21a4638 size 0x2c virtual false final false
- void _ctor(::UnityEngine::Transform transform, ::GlobalNamespace::PoseObjectIdSO poseObjectId) ;
+ void _ctor(UnityEngine::Transform transform, GlobalNamespace::PoseObjectIdSO poseObjectId) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PoseObject);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PoseObject, "", "PoseObject");
+NEED_NO_BOX(GlobalNamespace::PoseObject);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PoseObject, "", "PoseObject");

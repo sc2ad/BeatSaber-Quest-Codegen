@@ -5,29 +5,28 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace HMUI {
+class TableCell;
+}
 namespace HMUI {
 class TableView;
 }
+namespace GlobalNamespace {
+class LeaderboardTableCell;
+}
 namespace HMUI {
-class ____HMUI__TableView__IDataSource;
+class HMUI__TableView__IDataSource;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace HMUI {
-class TableCell;
-}
-namespace GlobalNamespace {
-class LeaderboardTableCell;
-}
 // Forward declare root types
 namespace GlobalNamespace {
-class LeaderboardTableView;
+class GlobalNamespace__LeaderboardTableView__ScoreData;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__LeaderboardTableView__ScoreData;
+class LeaderboardTableView;
 }
 // Type: ::ScoreData
 namespace GlobalNamespace {
@@ -35,37 +34,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5875))
 // CS Name: LeaderboardTableView::ScoreData
-class CORDL_TYPE ____GlobalNamespace__LeaderboardTableView__ScoreData : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__LeaderboardTableView__ScoreData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____GlobalNamespace__LeaderboardTableView__ScoreData() = default;
+virtual ~GlobalNamespace__LeaderboardTableView__ScoreData() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__LeaderboardTableView__ScoreData", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__LeaderboardTableView__ScoreData(____GlobalNamespace__LeaderboardTableView__ScoreData const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__LeaderboardTableView__ScoreData", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__LeaderboardTableView__ScoreData(GlobalNamespace__LeaderboardTableView__ScoreData const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__LeaderboardTableView__ScoreData", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__LeaderboardTableView__ScoreData(____GlobalNamespace__LeaderboardTableView__ScoreData&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__LeaderboardTableView__ScoreData", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__LeaderboardTableView__ScoreData(GlobalNamespace__LeaderboardTableView__ScoreData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__LeaderboardTableView__ScoreData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__LeaderboardTableView__ScoreData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__LeaderboardTableView__ScoreData& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__LeaderboardTableView__ScoreData& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__LeaderboardTableView__ScoreData& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__LeaderboardTableView__ScoreData& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__LeaderboardTableView__ScoreData& operator=(____GlobalNamespace__LeaderboardTableView__ScoreData&& o) noexcept = default;
-  constexpr ____GlobalNamespace__LeaderboardTableView__ScoreData& operator=(____GlobalNamespace__LeaderboardTableView__ScoreData const& o) noexcept = default;
+  constexpr GlobalNamespace__LeaderboardTableView__ScoreData& operator=(GlobalNamespace__LeaderboardTableView__ScoreData&& o) noexcept = default;
+  constexpr GlobalNamespace__LeaderboardTableView__ScoreData& operator=(GlobalNamespace__LeaderboardTableView__ScoreData const& o) noexcept = default;
                 
 
 
@@ -134,7 +133,7 @@ constexpr bool __get__fullCombo_k__BackingField() const;
  void set_fullCombo(bool value) ;
 
 // Ctor Parameters [CppParam { name: "score", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "playerName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "rank", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fullCombo", ty: "bool", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__LeaderboardTableView__ScoreData(int32_t score, ::StringW playerName, int32_t rank, bool fullCombo) ;
+explicit GlobalNamespace__LeaderboardTableView__ScoreData(int32_t score, ::StringW playerName, int32_t rank, bool fullCombo) ;
 
 /// @brief Method .ctor addr 0x21894d8 size 0x4c virtual false final false
  void _ctor(int32_t score, ::StringW playerName, int32_t rank, bool fullCombo) ;
@@ -149,13 +148,13 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5876))
 // CS Name: LeaderboardTableView
-class CORDL_TYPE LeaderboardTableView : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE LeaderboardTableView : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using ScoreData = ::GlobalNamespace::____GlobalNamespace__LeaderboardTableView__ScoreData;
+using ScoreData = GlobalNamespace::GlobalNamespace__LeaderboardTableView__ScoreData;
 
-/// @brief Convert operator to ::HMUI::____HMUI__TableView__IDataSource
-constexpr operator  ::HMUI::____HMUI__TableView__IDataSource() const noexcept;
+/// @brief Convert operator to HMUI::HMUI__TableView__IDataSource
+constexpr operator  HMUI::HMUI__TableView__IDataSource() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -169,7 +168,7 @@ constexpr LeaderboardTableView(LeaderboardTableView const& ) noexcept = default;
 constexpr LeaderboardTableView(LeaderboardTableView&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LeaderboardTableView(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit LeaderboardTableView(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -190,17 +189,17 @@ constexpr explicit LeaderboardTableView(void* ptr) noexcept : ::UnityEngine::Mon
 
 // Fields
 
- ::HMUI::TableView __declspec(property(get=__get__tableView, put=__set__tableView))  _tableView;
+ HMUI::TableView __declspec(property(get=__get__tableView, put=__set__tableView))  _tableView;
 
-constexpr void __set__tableView(::HMUI::TableView value) ;
+constexpr void __set__tableView(HMUI::TableView value) ;
 
-constexpr ::HMUI::TableView __get__tableView() const;
+constexpr HMUI::TableView __get__tableView() const;
 
- ::GlobalNamespace::LeaderboardTableCell __declspec(property(get=__get__cellPrefab, put=__set__cellPrefab))  _cellPrefab;
+ GlobalNamespace::LeaderboardTableCell __declspec(property(get=__get__cellPrefab, put=__set__cellPrefab))  _cellPrefab;
 
-constexpr void __set__cellPrefab(::GlobalNamespace::LeaderboardTableCell value) ;
+constexpr void __set__cellPrefab(GlobalNamespace::LeaderboardTableCell value) ;
 
-constexpr ::GlobalNamespace::LeaderboardTableCell __get__cellPrefab() const;
+constexpr GlobalNamespace::LeaderboardTableCell __get__cellPrefab() const;
 
  float_t __declspec(property(get=__get__rowHeight, put=__set__rowHeight))  _rowHeight;
 
@@ -211,11 +210,11 @@ constexpr float_t __get__rowHeight() const;
 /// @brief Field kCellIdentifier offset 0
 static constexpr ::ConstString  kCellIdentifier{u"Cell"};
 
- ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__LeaderboardTableView__ScoreData> __declspec(property(get=__get__scores, put=__set__scores))  _scores;
+ System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__LeaderboardTableView__ScoreData> __declspec(property(get=__get__scores, put=__set__scores))  _scores;
 
-constexpr void __set__scores(::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__LeaderboardTableView__ScoreData> value) ;
+constexpr void __set__scores(System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__LeaderboardTableView__ScoreData> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__LeaderboardTableView__ScoreData> __get__scores() const;
+constexpr System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__LeaderboardTableView__ScoreData> __get__scores() const;
 
  int32_t __declspec(property(get=__get__specialScorePos, put=__set__specialScorePos))  _specialScorePos;
 
@@ -233,10 +232,10 @@ constexpr int32_t __get__specialScorePos() const;
  int32_t NumberOfCells() ;
 
 /// @brief Method CellForIdx addr 0x2189264 size 0x1f0 virtual true final true
- ::HMUI::TableCell CellForIdx(::HMUI::TableView tableView, int32_t row) ;
+ HMUI::TableCell CellForIdx(HMUI::TableView tableView, int32_t row) ;
 
 /// @brief Method SetScores addr 0x2189454 size 0x30 virtual false final false
- void SetScores(::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__LeaderboardTableView__ScoreData> scores, int32_t specialScorePos) ;
+ void SetScores(System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__LeaderboardTableView__ScoreData> scores, int32_t specialScorePos) ;
 
 // Ctor Parameters []
 explicit LeaderboardTableView() ;
@@ -248,8 +247,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LeaderboardTableView);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LeaderboardTableView, "", "LeaderboardTableView");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__LeaderboardTableView__ScoreData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__LeaderboardTableView__ScoreData, "", "LeaderboardTableView/ScoreData");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__LeaderboardTableView__ScoreData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__LeaderboardTableView__ScoreData, "", "LeaderboardTableView/ScoreData");
+NEED_NO_BOX(GlobalNamespace::LeaderboardTableView);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardTableView, "", "LeaderboardTableView");

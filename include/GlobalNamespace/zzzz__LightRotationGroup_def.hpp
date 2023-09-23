@@ -4,7 +4,6 @@
 #include "GlobalNamespace/zzzz__LightGroupRotationYTransform_def.hpp"
 #include "GlobalNamespace/zzzz__LightGroupRotationZTransform_def.hpp"
 #include "GlobalNamespace/zzzz__LightTransformGroup_3_def.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class LightRotationGroup;
@@ -12,10 +11,10 @@ class LightRotationGroup;
 // Type: ::LightRotationGroup
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5034)), TypeDefinitionIndex(TypeDefinitionIndex(5043)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5043), inst: 3818 }), TypeDefinitionIndex(TypeDefinitionIndex(5032)), TypeDefinitionIndex(TypeDefinitionIndex(5033))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5043), inst: 3818 }), TypeDefinitionIndex(TypeDefinitionIndex(5043)), TypeDefinitionIndex(TypeDefinitionIndex(5033)), TypeDefinitionIndex(TypeDefinitionIndex(5034))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5039))
 // CS Name: LightRotationGroup
-class CORDL_TYPE LightRotationGroup : public ::GlobalNamespace::LightTransformGroup_3<::GlobalNamespace::LightGroupRotationXTransform,::GlobalNamespace::LightGroupRotationYTransform,::GlobalNamespace::LightGroupRotationZTransform> {
+class CORDL_TYPE LightRotationGroup : public GlobalNamespace::LightTransformGroup_3<GlobalNamespace::LightGroupRotationXTransform,GlobalNamespace::LightGroupRotationYTransform,GlobalNamespace::LightGroupRotationZTransform> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr LightRotationGroup(LightRotationGroup const& ) noexcept = default;
 constexpr LightRotationGroup(LightRotationGroup&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LightRotationGroup(void* ptr) noexcept : ::GlobalNamespace::LightTransformGroup_3<::GlobalNamespace::LightGroupRotationXTransform,::GlobalNamespace::LightGroupRotationYTransform,::GlobalNamespace::LightGroupRotationZTransform>(ptr) {
+constexpr explicit LightRotationGroup(void* ptr) noexcept : GlobalNamespace::LightTransformGroup_3<GlobalNamespace::LightGroupRotationXTransform,GlobalNamespace::LightGroupRotationYTransform,GlobalNamespace::LightGroupRotationZTransform>(ptr) {
 }
 
 
@@ -61,6 +60,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LightRotationGroup);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightRotationGroup, "", "LightRotationGroup");
+NEED_NO_BOX(GlobalNamespace::LightRotationGroup);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightRotationGroup, "", "LightRotationGroup");

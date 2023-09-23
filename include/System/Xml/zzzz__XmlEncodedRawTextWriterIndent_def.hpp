@@ -4,21 +4,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace System::Xml {
+class XmlWriterSettings;
+}
 namespace System::Xml {
 struct ConformanceLevel;
+}
+namespace System::Xml {
+class BitStack;
 }
 namespace System::IO {
 class Stream;
 }
 namespace System::IO {
 class TextWriter;
-}
-namespace System::Xml {
-class XmlWriterSettings;
-}
-namespace System::Xml {
-class BitStack;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -30,7 +29,7 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11391))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11392))
 // CS Name: System.Xml.XmlEncodedRawTextWriterIndent
-class CORDL_TYPE XmlEncodedRawTextWriterIndent : public ::System::Xml::XmlEncodedRawTextWriter {
+class CORDL_TYPE XmlEncodedRawTextWriterIndent : public System::Xml::XmlEncodedRawTextWriter {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -45,7 +44,7 @@ constexpr XmlEncodedRawTextWriterIndent(XmlEncodedRawTextWriterIndent const& ) n
 constexpr XmlEncodedRawTextWriterIndent(XmlEncodedRawTextWriterIndent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XmlEncodedRawTextWriterIndent(void* ptr) noexcept : ::System::Xml::XmlEncodedRawTextWriter(ptr) {
+constexpr explicit XmlEncodedRawTextWriterIndent(void* ptr) noexcept : System::Xml::XmlEncodedRawTextWriter(ptr) {
 }
 
 
@@ -90,32 +89,32 @@ constexpr void __set_mixedContent(bool value) ;
 
 constexpr bool __get_mixedContent() const;
 
- ::System::Xml::BitStack __declspec(property(get=__get_mixedContentStack, put=__set_mixedContentStack))  mixedContentStack;
+ System::Xml::BitStack __declspec(property(get=__get_mixedContentStack, put=__set_mixedContentStack))  mixedContentStack;
 
-constexpr void __set_mixedContentStack(::System::Xml::BitStack value) ;
+constexpr void __set_mixedContentStack(System::Xml::BitStack value) ;
 
-constexpr ::System::Xml::BitStack __get_mixedContentStack() const;
+constexpr System::Xml::BitStack __get_mixedContentStack() const;
 
- ::System::Xml::ConformanceLevel __declspec(property(get=__get_conformanceLevel, put=__set_conformanceLevel))  conformanceLevel;
+ System::Xml::ConformanceLevel __declspec(property(get=__get_conformanceLevel, put=__set_conformanceLevel))  conformanceLevel;
 
-constexpr void __set_conformanceLevel(::System::Xml::ConformanceLevel value) ;
+constexpr void __set_conformanceLevel(System::Xml::ConformanceLevel value) ;
 
-constexpr ::System::Xml::ConformanceLevel __get_conformanceLevel() const;
+constexpr System::Xml::ConformanceLevel __get_conformanceLevel() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "writer", ty: "::System::IO::TextWriter", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "::System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
-explicit XmlEncodedRawTextWriterIndent(::System::IO::TextWriter writer, ::System::Xml::XmlWriterSettings settings) ;
+// Ctor Parameters [CppParam { name: "writer", ty: "System::IO::TextWriter", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
+explicit XmlEncodedRawTextWriterIndent(System::IO::TextWriter writer, System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method .ctor addr 0x26c5d64 size 0x28 virtual false final false
- void _ctor(::System::IO::TextWriter writer, ::System::Xml::XmlWriterSettings settings) ;
+ void _ctor(System::IO::TextWriter writer, System::Xml::XmlWriterSettings settings) ;
 
-// Ctor Parameters [CppParam { name: "stream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "::System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
-explicit XmlEncodedRawTextWriterIndent(::System::IO::Stream stream, ::System::Xml::XmlWriterSettings settings) ;
+// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
+explicit XmlEncodedRawTextWriterIndent(System::IO::Stream stream, System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method .ctor addr 0x26c5ea0 size 0x28 virtual false final false
- void _ctor(::System::IO::Stream stream, ::System::Xml::XmlWriterSettings settings) ;
+ void _ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method WriteDocType addr 0x26c5ec8 size 0x60 virtual true final false
  void WriteDocType(::StringW name, ::StringW pubid, ::StringW sysid, ::StringW subset) ;
@@ -127,7 +126,7 @@ explicit XmlEncodedRawTextWriterIndent(::System::IO::Stream stream, ::System::Xm
  void StartElementContent() ;
 
 /// @brief Method OnRootElement addr 0x26c604c size 0x8 virtual true final false
- void OnRootElement(::System::Xml::ConformanceLevel currentConformanceLevel) ;
+ void OnRootElement(System::Xml::ConformanceLevel currentConformanceLevel) ;
 
 /// @brief Method WriteEndElement addr 0x26c6054 size 0x98 virtual true final false
  void WriteEndElement(::StringW prefix, ::StringW localName, ::StringW ns) ;
@@ -175,7 +174,7 @@ explicit XmlEncodedRawTextWriterIndent(::System::IO::Stream stream, ::System::Xm
  void WriteBase64(::ArrayW<uint8_t> buffer, int32_t index, int32_t count) ;
 
 /// @brief Method Init addr 0x26c5d8c size 0x114 virtual false final false
- void Init(::System::Xml::XmlWriterSettings settings) ;
+ void Init(System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method WriteIndent addr 0x26c5f28 size 0x48 virtual false final false
  void WriteIndent() ;
@@ -184,6 +183,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::XmlEncodedRawTextWriterIndent);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlEncodedRawTextWriterIndent, "System.Xml", "XmlEncodedRawTextWriterIndent");
+NEED_NO_BOX(System::Xml::XmlEncodedRawTextWriterIndent);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlEncodedRawTextWriterIndent, "System.Xml", "XmlEncodedRawTextWriterIndent");

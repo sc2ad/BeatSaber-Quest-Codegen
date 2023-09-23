@@ -6,18 +6,17 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRPlugin__TrackedKeyboardQueryFlags;
+struct GlobalNamespace__OVRPlugin__TrackedKeyboardQueryFlags;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__TrackedKeyboardFlags;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRPlugin__TrackedKeyboardPresentationStyles;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRPlugin__TrackedKeyboardFlags;
+struct GlobalNamespace__OVRPlugin__TrackedKeyboardPresentationStyles;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -27,10 +26,10 @@ namespace GlobalNamespace {
 class OVRKeyboard;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo;
+struct GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRKeyboard__TrackedKeyboardState;
+struct GlobalNamespace__OVRKeyboard__TrackedKeyboardState;
 }
 // Type: ::TrackedKeyboardState
 namespace GlobalNamespace {
@@ -38,20 +37,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8855))
 // CS Name: OVRKeyboard::TrackedKeyboardState
-struct CORDL_TYPE ____GlobalNamespace__OVRKeyboard__TrackedKeyboardState : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__OVRKeyboard__TrackedKeyboardState : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "isPositionValid", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isPositionTracked", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isOrientationValid", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isOrientationTracked", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "timeInSeconds", ty: "double_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__OVRKeyboard__TrackedKeyboardState(bool isPositionValid, bool isPositionTracked, bool isOrientationValid, bool isOrientationTracked, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, double_t timeInSeconds) noexcept;
+// Ctor Parameters [CppParam { name: "isPositionValid", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isPositionTracked", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isOrientationValid", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isOrientationTracked", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "position", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "timeInSeconds", ty: "double_t", modifiers: "", def_value: None }]
+constexpr GlobalNamespace__OVRKeyboard__TrackedKeyboardState(bool isPositionValid, bool isPositionTracked, bool isOrientationValid, bool isOrientationTracked, UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, double_t timeInSeconds) noexcept;
 
 
-                    constexpr ____GlobalNamespace__OVRKeyboard__TrackedKeyboardState(____GlobalNamespace__OVRKeyboard__TrackedKeyboardState const&) = default;
-                    constexpr ____GlobalNamespace__OVRKeyboard__TrackedKeyboardState(____GlobalNamespace__OVRKeyboard__TrackedKeyboardState&&) = default;
-                    constexpr ____GlobalNamespace__OVRKeyboard__TrackedKeyboardState& operator=(____GlobalNamespace__OVRKeyboard__TrackedKeyboardState const& o) {
+                    constexpr GlobalNamespace__OVRKeyboard__TrackedKeyboardState(GlobalNamespace__OVRKeyboard__TrackedKeyboardState const&) = default;
+                    constexpr GlobalNamespace__OVRKeyboard__TrackedKeyboardState(GlobalNamespace__OVRKeyboard__TrackedKeyboardState&&) = default;
+                    constexpr GlobalNamespace__OVRKeyboard__TrackedKeyboardState& operator=(GlobalNamespace__OVRKeyboard__TrackedKeyboardState const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__OVRKeyboard__TrackedKeyboardState& operator=(____GlobalNamespace__OVRKeyboard__TrackedKeyboardState&& o) noexcept {
+                    constexpr GlobalNamespace__OVRKeyboard__TrackedKeyboardState& operator=(GlobalNamespace__OVRKeyboard__TrackedKeyboardState&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -64,7 +63,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x28};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVRKeyboard__TrackedKeyboardState(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__OVRKeyboard__TrackedKeyboardState(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -99,17 +98,17 @@ constexpr void __set_isOrientationTracked(bool value) ;
 
 constexpr bool __get_isOrientationTracked() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_position, put=__set_position))  position;
+ UnityEngine::Vector3 __declspec(property(get=__get_position, put=__set_position))  position;
 
-constexpr void __set_position(::UnityEngine::Vector3 value) ;
+constexpr void __set_position(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_position() const;
+constexpr UnityEngine::Vector3 __get_position() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get_rotation, put=__set_rotation))  rotation;
+ UnityEngine::Quaternion __declspec(property(get=__get_rotation, put=__set_rotation))  rotation;
 
-constexpr void __set_rotation(::UnityEngine::Quaternion value) ;
+constexpr void __set_rotation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get_rotation() const;
+constexpr UnityEngine::Quaternion __get_rotation() const;
 
  double_t __declspec(property(get=__get_timeInSeconds, put=__set_timeInSeconds))  timeInSeconds;
 
@@ -127,20 +126,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8856))
 // CS Name: OVRKeyboard::TrackedKeyboardInfo
-struct CORDL_TYPE ____GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "Name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "Identifier", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Dimensions", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "KeyboardFlags", ty: "::GlobalNamespace::____GlobalNamespace__OVRPlugin__TrackedKeyboardFlags", modifiers: "", def_value: None }, CppParam { name: "SupportedPresentationStyles", ty: "::GlobalNamespace::____GlobalNamespace__OVRPlugin__TrackedKeyboardPresentationStyles", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo(::StringW Name, uint64_t Identifier, ::UnityEngine::Vector3 Dimensions, ::GlobalNamespace::____GlobalNamespace__OVRPlugin__TrackedKeyboardFlags KeyboardFlags, ::GlobalNamespace::____GlobalNamespace__OVRPlugin__TrackedKeyboardPresentationStyles SupportedPresentationStyles) noexcept;
+// Ctor Parameters [CppParam { name: "Name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "Identifier", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Dimensions", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "KeyboardFlags", ty: "GlobalNamespace::GlobalNamespace__OVRPlugin__TrackedKeyboardFlags", modifiers: "", def_value: None }, CppParam { name: "SupportedPresentationStyles", ty: "GlobalNamespace::GlobalNamespace__OVRPlugin__TrackedKeyboardPresentationStyles", modifiers: "", def_value: None }]
+constexpr GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo(::StringW Name, uint64_t Identifier, UnityEngine::Vector3 Dimensions, GlobalNamespace::GlobalNamespace__OVRPlugin__TrackedKeyboardFlags KeyboardFlags, GlobalNamespace::GlobalNamespace__OVRPlugin__TrackedKeyboardPresentationStyles SupportedPresentationStyles) noexcept;
 
 
-                    constexpr ____GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo(____GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo const&) = default;
-                    constexpr ____GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo(____GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo&&) = default;
-                    constexpr ____GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo& operator=(____GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo const& o) {
+                    constexpr GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo(GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo const&) = default;
+                    constexpr GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo(GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo&&) = default;
+                    constexpr GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo& operator=(GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo& operator=(____GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo&& o) noexcept {
+                    constexpr GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo& operator=(GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -153,7 +152,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x28};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -176,23 +175,23 @@ constexpr void __set_Identifier(uint64_t value) ;
 
 constexpr uint64_t __get_Identifier() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_Dimensions, put=__set_Dimensions))  Dimensions;
+ UnityEngine::Vector3 __declspec(property(get=__get_Dimensions, put=__set_Dimensions))  Dimensions;
 
-constexpr void __set_Dimensions(::UnityEngine::Vector3 value) ;
+constexpr void __set_Dimensions(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_Dimensions() const;
+constexpr UnityEngine::Vector3 __get_Dimensions() const;
 
- ::GlobalNamespace::____GlobalNamespace__OVRPlugin__TrackedKeyboardFlags __declspec(property(get=__get_KeyboardFlags, put=__set_KeyboardFlags))  KeyboardFlags;
+ GlobalNamespace::GlobalNamespace__OVRPlugin__TrackedKeyboardFlags __declspec(property(get=__get_KeyboardFlags, put=__set_KeyboardFlags))  KeyboardFlags;
 
-constexpr void __set_KeyboardFlags(::GlobalNamespace::____GlobalNamespace__OVRPlugin__TrackedKeyboardFlags value) ;
+constexpr void __set_KeyboardFlags(GlobalNamespace::GlobalNamespace__OVRPlugin__TrackedKeyboardFlags value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVRPlugin__TrackedKeyboardFlags __get_KeyboardFlags() const;
+constexpr GlobalNamespace::GlobalNamespace__OVRPlugin__TrackedKeyboardFlags __get_KeyboardFlags() const;
 
- ::GlobalNamespace::____GlobalNamespace__OVRPlugin__TrackedKeyboardPresentationStyles __declspec(property(get=__get_SupportedPresentationStyles, put=__set_SupportedPresentationStyles))  SupportedPresentationStyles;
+ GlobalNamespace::GlobalNamespace__OVRPlugin__TrackedKeyboardPresentationStyles __declspec(property(get=__get_SupportedPresentationStyles, put=__set_SupportedPresentationStyles))  SupportedPresentationStyles;
 
-constexpr void __set_SupportedPresentationStyles(::GlobalNamespace::____GlobalNamespace__OVRPlugin__TrackedKeyboardPresentationStyles value) ;
+constexpr void __set_SupportedPresentationStyles(GlobalNamespace::GlobalNamespace__OVRPlugin__TrackedKeyboardPresentationStyles value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVRPlugin__TrackedKeyboardPresentationStyles __get_SupportedPresentationStyles() const;
+constexpr GlobalNamespace::GlobalNamespace__OVRPlugin__TrackedKeyboardPresentationStyles __get_SupportedPresentationStyles() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -207,9 +206,9 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRKeyboard : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using TrackedKeyboardInfo = ::GlobalNamespace::____GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo;
+using TrackedKeyboardInfo = GlobalNamespace::GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo;
 
-using TrackedKeyboardState = ::GlobalNamespace::____GlobalNamespace__OVRKeyboard__TrackedKeyboardState;
+using TrackedKeyboardState = GlobalNamespace::GlobalNamespace__OVRKeyboard__TrackedKeyboardState;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -245,20 +244,19 @@ constexpr explicit OVRKeyboard(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 // Methods
 
 /// @brief Method GetKeyboardState addr 0x2612a08 size 0x154 virtual false final false
-static ::GlobalNamespace::____GlobalNamespace__OVRKeyboard__TrackedKeyboardState GetKeyboardState() ;
+static GlobalNamespace::GlobalNamespace__OVRKeyboard__TrackedKeyboardState GetKeyboardState() ;
 
 /// @brief Method GetSystemKeyboardInfo addr 0x2612b5c size 0xe4 virtual false final false
-static bool GetSystemKeyboardInfo(::GlobalNamespace::____GlobalNamespace__OVRPlugin__TrackedKeyboardQueryFlags keyboardQueryFlags, ByRef<::GlobalNamespace::____GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo> keyboardInfo) ;
+static bool GetSystemKeyboardInfo(GlobalNamespace::GlobalNamespace__OVRPlugin__TrackedKeyboardQueryFlags keyboardQueryFlags, ByRef<GlobalNamespace::GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo> keyboardInfo) ;
 
 /// @brief Method StopKeyboardTracking addr 0x2612c40 size 0x50 virtual false final false
-static bool StopKeyboardTracking(::GlobalNamespace::____GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo keyboardInfo) ;
+static bool StopKeyboardTracking(GlobalNamespace::GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo keyboardInfo) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OVRKeyboard);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRKeyboard, "", "OVRKeyboard");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo, "", "OVRKeyboard/TrackedKeyboardInfo");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVRKeyboard__TrackedKeyboardState, "", "OVRKeyboard/TrackedKeyboardState");
+NEED_NO_BOX(GlobalNamespace::OVRKeyboard);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRKeyboard, "", "OVRKeyboard");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo, "", "OVRKeyboard/TrackedKeyboardInfo");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRKeyboard__TrackedKeyboardState, "", "OVRKeyboard/TrackedKeyboardState");

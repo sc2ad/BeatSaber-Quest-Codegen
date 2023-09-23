@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UI/zzzz__LayoutGroup_def.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace HMUI {
 class StackLayoutGroup;
@@ -13,7 +12,7 @@ namespace HMUI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13030))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13616))
 // CS Name: HMUI.StackLayoutGroup
-class CORDL_TYPE StackLayoutGroup : public ::UnityEngine::UI::LayoutGroup {
+class CORDL_TYPE StackLayoutGroup : public UnityEngine::UI::LayoutGroup {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr StackLayoutGroup(StackLayoutGroup const& ) noexcept = default;
 constexpr StackLayoutGroup(StackLayoutGroup&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit StackLayoutGroup(void* ptr) noexcept : ::UnityEngine::UI::LayoutGroup(ptr) {
+constexpr explicit StackLayoutGroup(void* ptr) noexcept : UnityEngine::UI::LayoutGroup(ptr) {
 }
 
 
@@ -111,6 +110,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HMUI
-} // end anonymous namespace
-NEED_NO_BOX(::HMUI::StackLayoutGroup);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::StackLayoutGroup, "HMUI", "StackLayoutGroup");
+NEED_NO_BOX(HMUI::StackLayoutGroup);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::StackLayoutGroup, "HMUI", "StackLayoutGroup");

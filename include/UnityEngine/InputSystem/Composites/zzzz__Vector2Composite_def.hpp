@@ -6,7 +6,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine::InputSystem {
 struct InputBindingCompositeContext;
 }
@@ -15,7 +14,7 @@ struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Composites {
-struct ____UnityEngine__InputSystem__Composites__Vector2Composite__Mode;
+struct UnityEngine__InputSystem__Composites__Vector2Composite__Mode;
 }
 namespace UnityEngine::InputSystem::Composites {
 class Vector2Composite;
@@ -26,20 +25,20 @@ namespace UnityEngine::InputSystem::Composites {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6802))
 // CS Name: UnityEngine.InputSystem.Composites.Vector2Composite::Mode
-struct CORDL_TYPE ____UnityEngine__InputSystem__Composites__Vector2Composite__Mode : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__InputSystem__Composites__Vector2Composite__Mode : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__InputSystem__Composites__Vector2Composite__Mode(int32_t value__) noexcept;
+constexpr UnityEngine__InputSystem__Composites__Vector2Composite__Mode(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__InputSystem__Composites__Vector2Composite__Mode(____UnityEngine__InputSystem__Composites__Vector2Composite__Mode const&) = default;
-                    constexpr ____UnityEngine__InputSystem__Composites__Vector2Composite__Mode(____UnityEngine__InputSystem__Composites__Vector2Composite__Mode&&) = default;
-                    constexpr ____UnityEngine__InputSystem__Composites__Vector2Composite__Mode& operator=(____UnityEngine__InputSystem__Composites__Vector2Composite__Mode const& o) {
+                    constexpr UnityEngine__InputSystem__Composites__Vector2Composite__Mode(UnityEngine__InputSystem__Composites__Vector2Composite__Mode const&) = default;
+                    constexpr UnityEngine__InputSystem__Composites__Vector2Composite__Mode(UnityEngine__InputSystem__Composites__Vector2Composite__Mode&&) = default;
+                    constexpr UnityEngine__InputSystem__Composites__Vector2Composite__Mode& operator=(UnityEngine__InputSystem__Composites__Vector2Composite__Mode const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__InputSystem__Composites__Vector2Composite__Mode& operator=(____UnityEngine__InputSystem__Composites__Vector2Composite__Mode&& o) noexcept {
+                    constexpr UnityEngine__InputSystem__Composites__Vector2Composite__Mode& operator=(UnityEngine__InputSystem__Composites__Vector2Composite__Mode&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -52,7 +51,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__InputSystem__Composites__Vector2Composite__Mode(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__InputSystem__Composites__Vector2Composite__Mode(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -60,15 +59,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__InputSystem__Composites__Vector2Composite__Mode_Unwrapped : int32_t {
+enum class __UnityEngine__InputSystem__Composites__Vector2Composite__Mode_Unwrapped : int32_t {
 __Analog = 2,
 __DigitalNormalized = 0,
 __Digital = 1,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__InputSystem__Composites__Vector2Composite__Mode_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__InputSystem__Composites__Vector2Composite__Mode_Unwrapped>(__instance);
+constexpr operator __UnityEngine__InputSystem__Composites__Vector2Composite__Mode_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__InputSystem__Composites__Vector2Composite__Mode_Unwrapped>(__instance);
 }
 
 
@@ -81,13 +80,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Analog offset 0
-static ::UnityEngine::InputSystem::Composites::____UnityEngine__InputSystem__Composites__Vector2Composite__Mode const Analog;
+static UnityEngine::InputSystem::Composites::UnityEngine__InputSystem__Composites__Vector2Composite__Mode const Analog;
 
 /// @brief Field DigitalNormalized offset 0
-static ::UnityEngine::InputSystem::Composites::____UnityEngine__InputSystem__Composites__Vector2Composite__Mode const DigitalNormalized;
+static UnityEngine::InputSystem::Composites::UnityEngine__InputSystem__Composites__Vector2Composite__Mode const DigitalNormalized;
 
 /// @brief Field Digital offset 0
-static ::UnityEngine::InputSystem::Composites::____UnityEngine__InputSystem__Composites__Vector2Composite__Mode const Digital;
+static UnityEngine::InputSystem::Composites::UnityEngine__InputSystem__Composites__Vector2Composite__Mode const Digital;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -96,13 +95,13 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 // Type: UnityEngine.InputSystem.Composites::Vector2Composite
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6273)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6273), inst: 393 }), TypeDefinitionIndex(TypeDefinitionIndex(10184))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6273), inst: 393 }), TypeDefinitionIndex(TypeDefinitionIndex(10184)), TypeDefinitionIndex(TypeDefinitionIndex(6273))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6803))
 // CS Name: UnityEngine.InputSystem.Composites.Vector2Composite
-class CORDL_TYPE Vector2Composite : public ::UnityEngine::InputSystem::InputBindingComposite_1<::UnityEngine::Vector2> {
+class CORDL_TYPE Vector2Composite : public UnityEngine::InputSystem::InputBindingComposite_1<UnityEngine::Vector2> {
 public:
 // Declarations
-using Mode = ::UnityEngine::InputSystem::Composites::____UnityEngine__InputSystem__Composites__Vector2Composite__Mode;
+using Mode = UnityEngine::InputSystem::Composites::UnityEngine__InputSystem__Composites__Vector2Composite__Mode;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -116,7 +115,7 @@ constexpr Vector2Composite(Vector2Composite const& ) noexcept = default;
 constexpr Vector2Composite(Vector2Composite&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Vector2Composite(void* ptr) noexcept : ::UnityEngine::InputSystem::InputBindingComposite_1<::UnityEngine::Vector2>(ptr) {
+constexpr explicit Vector2Composite(void* ptr) noexcept : UnityEngine::InputSystem::InputBindingComposite_1<UnityEngine::Vector2>(ptr) {
 }
 
 
@@ -167,20 +166,20 @@ constexpr void __set_normalize(bool value) ;
 
 constexpr bool __get_normalize() const;
 
- ::UnityEngine::InputSystem::Composites::____UnityEngine__InputSystem__Composites__Vector2Composite__Mode __declspec(property(get=__get_mode, put=__set_mode))  mode;
+ UnityEngine::InputSystem::Composites::UnityEngine__InputSystem__Composites__Vector2Composite__Mode __declspec(property(get=__get_mode, put=__set_mode))  mode;
 
-constexpr void __set_mode(::UnityEngine::InputSystem::Composites::____UnityEngine__InputSystem__Composites__Vector2Composite__Mode value) ;
+constexpr void __set_mode(UnityEngine::InputSystem::Composites::UnityEngine__InputSystem__Composites__Vector2Composite__Mode value) ;
 
-constexpr ::UnityEngine::InputSystem::Composites::____UnityEngine__InputSystem__Composites__Vector2Composite__Mode __get_mode() const;
+constexpr UnityEngine::InputSystem::Composites::UnityEngine__InputSystem__Composites__Vector2Composite__Mode __get_mode() const;
 
 
 // Methods
 
 /// @brief Method ReadValue addr 0x28c9098 size 0x164 virtual true final false
- ::UnityEngine::Vector2 ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context) ;
+ UnityEngine::Vector2 ReadValue(ByRef<UnityEngine::InputSystem::InputBindingCompositeContext> context) ;
 
 /// @brief Method EvaluateMagnitude addr 0x28c91fc size 0x70 virtual true final false
- float_t EvaluateMagnitude(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context) ;
+ float_t EvaluateMagnitude(ByRef<UnityEngine::InputSystem::InputBindingCompositeContext> context) ;
 
 // Ctor Parameters []
 explicit Vector2Composite() ;
@@ -192,7 +191,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Composites
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Composites::____UnityEngine__InputSystem__Composites__Vector2Composite__Mode, "UnityEngine.InputSystem.Composites", "Vector2Composite/Mode");
-NEED_NO_BOX(::UnityEngine::InputSystem::Composites::Vector2Composite);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Composites::Vector2Composite, "UnityEngine.InputSystem.Composites", "Vector2Composite");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Composites::UnityEngine__InputSystem__Composites__Vector2Composite__Mode, "UnityEngine.InputSystem.Composites", "Vector2Composite/Mode");
+NEED_NO_BOX(UnityEngine::InputSystem::Composites::Vector2Composite);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Composites::Vector2Composite, "UnityEngine.InputSystem.Composites", "Vector2Composite");

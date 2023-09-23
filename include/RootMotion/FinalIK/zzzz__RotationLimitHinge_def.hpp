@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "RootMotion/FinalIK/zzzz__RotationLimit_def.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 struct Quaternion;
 }
@@ -16,7 +15,7 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12564))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12566))
 // CS Name: RootMotion.FinalIK.RotationLimitHinge
-class CORDL_TYPE RotationLimitHinge : public ::RootMotion::FinalIK::RotationLimit {
+class CORDL_TYPE RotationLimitHinge : public RootMotion::FinalIK::RotationLimit {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr RotationLimitHinge(RotationLimitHinge const& ) noexcept = default;
 constexpr RotationLimitHinge(RotationLimitHinge&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RotationLimitHinge(void* ptr) noexcept : ::RootMotion::FinalIK::RotationLimit(ptr) {
+constexpr explicit RotationLimitHinge(void* ptr) noexcept : RootMotion::FinalIK::RotationLimit(ptr) {
 }
 
 
@@ -76,11 +75,11 @@ constexpr void __set_zeroAxisDisplayOffset(float_t value) ;
 
 constexpr float_t __get_zeroAxisDisplayOffset() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get_lastRotation, put=__set_lastRotation))  lastRotation;
+ UnityEngine::Quaternion __declspec(property(get=__get_lastRotation, put=__set_lastRotation))  lastRotation;
 
-constexpr void __set_lastRotation(::UnityEngine::Quaternion value) ;
+constexpr void __set_lastRotation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get_lastRotation() const;
+constexpr UnityEngine::Quaternion __get_lastRotation() const;
 
  float_t __declspec(property(get=__get_lastAngle, put=__set_lastAngle))  lastAngle;
 
@@ -104,10 +103,10 @@ constexpr float_t __get_lastAngle() const;
  void ASThread() ;
 
 /// @brief Method LimitRotation addr 0x1203928 size 0x1c virtual true final false
- ::UnityEngine::Quaternion LimitRotation(::UnityEngine::Quaternion rotation) ;
+ UnityEngine::Quaternion LimitRotation(UnityEngine::Quaternion rotation) ;
 
 /// @brief Method LimitHinge addr 0x1203944 size 0x248 virtual false final false
- ::UnityEngine::Quaternion LimitHinge(::UnityEngine::Quaternion rotation) ;
+ UnityEngine::Quaternion LimitHinge(UnityEngine::Quaternion rotation) ;
 
 // Ctor Parameters []
 explicit RotationLimitHinge() ;
@@ -119,6 +118,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::RotationLimitHinge);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::RotationLimitHinge, "RootMotion.FinalIK", "RotationLimitHinge");
+NEED_NO_BOX(RootMotion::FinalIK::RotationLimitHinge);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitHinge, "RootMotion.FinalIK", "RotationLimitHinge");

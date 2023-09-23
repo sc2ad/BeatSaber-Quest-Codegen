@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct MotionVectorGenerationMode;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Camera offset 0
-static ::UnityEngine::MotionVectorGenerationMode const Camera;
+static UnityEngine::MotionVectorGenerationMode const Camera;
 
 /// @brief Field Object offset 0
-static ::UnityEngine::MotionVectorGenerationMode const Object;
+static UnityEngine::MotionVectorGenerationMode const Object;
 
 /// @brief Field ForceNoMotion offset 0
-static ::UnityEngine::MotionVectorGenerationMode const ForceNoMotion;
+static UnityEngine::MotionVectorGenerationMode const ForceNoMotion;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::MotionVectorGenerationMode, "UnityEngine", "MotionVectorGenerationMode");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MotionVectorGenerationMode, "UnityEngine", "MotionVectorGenerationMode");

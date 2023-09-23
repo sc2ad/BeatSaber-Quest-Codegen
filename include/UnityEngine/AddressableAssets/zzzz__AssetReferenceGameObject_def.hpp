@@ -3,7 +3,6 @@
 #include "UnityEngine/AddressableAssets/zzzz__AssetReferenceT_1_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::AddressableAssets {
 class AssetReferenceGameObject;
@@ -11,10 +10,10 @@ class AssetReferenceGameObject;
 // Type: UnityEngine.AddressableAssets::AssetReferenceGameObject
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14363), inst: 298 }), TypeDefinitionIndex(TypeDefinitionIndex(14363)), TypeDefinitionIndex(TypeDefinitionIndex(10138))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14363)), TypeDefinitionIndex(TypeDefinitionIndex(10138)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14363), inst: 298 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14364))
 // CS Name: UnityEngine.AddressableAssets.AssetReferenceGameObject
-class CORDL_TYPE AssetReferenceGameObject : public ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityEngine::GameObject> {
+class CORDL_TYPE AssetReferenceGameObject : public UnityEngine::AddressableAssets::AssetReferenceT_1<UnityEngine::GameObject> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr AssetReferenceGameObject(AssetReferenceGameObject const& ) noexcept = 
 constexpr AssetReferenceGameObject(AssetReferenceGameObject&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AssetReferenceGameObject(void* ptr) noexcept : ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityEngine::GameObject>(ptr) {
+constexpr explicit AssetReferenceGameObject(void* ptr) noexcept : UnityEngine::AddressableAssets::AssetReferenceT_1<UnityEngine::GameObject>(ptr) {
 }
 
 
@@ -60,6 +59,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::AddressableAssets
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AddressableAssets::AssetReferenceGameObject);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::AssetReferenceGameObject, "UnityEngine.AddressableAssets", "AssetReferenceGameObject");
+NEED_NO_BOX(UnityEngine::AddressableAssets::AssetReferenceGameObject);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AssetReferenceGameObject, "UnityEngine.AddressableAssets", "AssetReferenceGameObject");

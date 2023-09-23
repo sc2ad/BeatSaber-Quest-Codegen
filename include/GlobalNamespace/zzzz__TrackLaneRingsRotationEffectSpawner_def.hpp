@@ -4,15 +4,11 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
-}
-namespace GlobalNamespace {
-class BeatmapCallbacksController;
-}
 namespace GlobalNamespace {
 class TrackLaneRingsRotationEffect;
+}
+namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
 class BasicBeatmapEventData;
@@ -20,9 +16,12 @@ class BasicBeatmapEventData;
 namespace GlobalNamespace {
 struct BasicBeatmapEventType;
 }
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
+}
 // Forward declare root types
 namespace GlobalNamespace {
-struct ____GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType;
+struct GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType;
 }
 namespace GlobalNamespace {
 class TrackLaneRingsRotationEffectSpawner;
@@ -33,20 +32,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5108))
 // CS Name: TrackLaneRingsRotationEffectSpawner::RotationStepType
-struct CORDL_TYPE ____GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType(int32_t value__) noexcept;
+constexpr GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType(____GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType const&) = default;
-                    constexpr ____GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType(____GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType&&) = default;
-                    constexpr ____GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType& operator=(____GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType const& o) {
+                    constexpr GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType(GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType const&) = default;
+                    constexpr GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType(GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType&&) = default;
+                    constexpr GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType& operator=(GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType& operator=(____GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType&& o) noexcept {
+                    constexpr GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType& operator=(GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -59,7 +58,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -67,15 +66,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType_Unwrapped : int32_t {
+enum class __GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType_Unwrapped : int32_t {
 __Range0ToMax = 0,
 __Range = 1,
 __MaxOr0 = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType_Unwrapped>(__instance);
 }
 
 
@@ -88,13 +87,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Range0ToMax offset 0
-static ::GlobalNamespace::____GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType const Range0ToMax;
+static GlobalNamespace::GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType const Range0ToMax;
 
 /// @brief Field Range offset 0
-static ::GlobalNamespace::____GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType const Range;
+static GlobalNamespace::GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType const Range;
 
 /// @brief Field MaxOr0 offset 0
-static ::GlobalNamespace::____GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType const MaxOr0;
+static GlobalNamespace::GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType const MaxOr0;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -106,10 +105,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5109))
 // CS Name: TrackLaneRingsRotationEffectSpawner
-class CORDL_TYPE TrackLaneRingsRotationEffectSpawner : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE TrackLaneRingsRotationEffectSpawner : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using RotationStepType = ::GlobalNamespace::____GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType;
+using RotationStepType = GlobalNamespace::GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
@@ -123,7 +122,7 @@ constexpr TrackLaneRingsRotationEffectSpawner(TrackLaneRingsRotationEffectSpawne
 constexpr TrackLaneRingsRotationEffectSpawner(TrackLaneRingsRotationEffectSpawner&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TrackLaneRingsRotationEffectSpawner(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit TrackLaneRingsRotationEffectSpawner(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -144,17 +143,17 @@ constexpr explicit TrackLaneRingsRotationEffectSpawner(void* ptr) noexcept : ::U
 
 // Fields
 
- ::GlobalNamespace::TrackLaneRingsRotationEffect __declspec(property(get=__get__trackLaneRingsRotationEffect, put=__set__trackLaneRingsRotationEffect))  _trackLaneRingsRotationEffect;
+ GlobalNamespace::TrackLaneRingsRotationEffect __declspec(property(get=__get__trackLaneRingsRotationEffect, put=__set__trackLaneRingsRotationEffect))  _trackLaneRingsRotationEffect;
 
-constexpr void __set__trackLaneRingsRotationEffect(::GlobalNamespace::TrackLaneRingsRotationEffect value) ;
+constexpr void __set__trackLaneRingsRotationEffect(GlobalNamespace::TrackLaneRingsRotationEffect value) ;
 
-constexpr ::GlobalNamespace::TrackLaneRingsRotationEffect __get__trackLaneRingsRotationEffect() const;
+constexpr GlobalNamespace::TrackLaneRingsRotationEffect __get__trackLaneRingsRotationEffect() const;
 
- ::GlobalNamespace::BasicBeatmapEventType __declspec(property(get=__get__beatmapEventType, put=__set__beatmapEventType))  _beatmapEventType;
+ GlobalNamespace::BasicBeatmapEventType __declspec(property(get=__get__beatmapEventType, put=__set__beatmapEventType))  _beatmapEventType;
 
-constexpr void __set__beatmapEventType(::GlobalNamespace::BasicBeatmapEventType value) ;
+constexpr void __set__beatmapEventType(GlobalNamespace::BasicBeatmapEventType value) ;
 
-constexpr ::GlobalNamespace::BasicBeatmapEventType __get__beatmapEventType() const;
+constexpr GlobalNamespace::BasicBeatmapEventType __get__beatmapEventType() const;
 
  float_t __declspec(property(get=__get__rotation, put=__set__rotation))  _rotation;
 
@@ -168,11 +167,11 @@ constexpr void __set__rotationStep(float_t value) ;
 
 constexpr float_t __get__rotationStep() const;
 
- ::GlobalNamespace::____GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType __declspec(property(get=__get__rotationStepType, put=__set__rotationStepType))  _rotationStepType;
+ GlobalNamespace::GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType __declspec(property(get=__get__rotationStepType, put=__set__rotationStepType))  _rotationStepType;
 
-constexpr void __set__rotationStepType(::GlobalNamespace::____GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType value) ;
+constexpr void __set__rotationStepType(GlobalNamespace::GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType __get__rotationStepType() const;
+constexpr GlobalNamespace::GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType __get__rotationStepType() const;
 
  int32_t __declspec(property(get=__get__rotationPropagationSpeed, put=__set__rotationPropagationSpeed))  _rotationPropagationSpeed;
 
@@ -186,17 +185,17 @@ constexpr void __set__rotationFlexySpeed(float_t value) ;
 
 constexpr float_t __get__rotationFlexySpeed() const;
 
- ::GlobalNamespace::BeatmapCallbacksController __declspec(property(get=__get__beatmapCallbacksController, put=__set__beatmapCallbacksController))  _beatmapCallbacksController;
+ GlobalNamespace::BeatmapCallbacksController __declspec(property(get=__get__beatmapCallbacksController, put=__set__beatmapCallbacksController))  _beatmapCallbacksController;
 
-constexpr void __set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController value) ;
+constexpr void __set__beatmapCallbacksController(GlobalNamespace::BeatmapCallbacksController value) ;
 
-constexpr ::GlobalNamespace::BeatmapCallbacksController __get__beatmapCallbacksController() const;
+constexpr GlobalNamespace::BeatmapCallbacksController __get__beatmapCallbacksController() const;
 
- ::GlobalNamespace::BeatmapDataCallbackWrapper __declspec(property(get=__get__beatmapDataCallbackWrapper, put=__set__beatmapDataCallbackWrapper))  _beatmapDataCallbackWrapper;
+ GlobalNamespace::BeatmapDataCallbackWrapper __declspec(property(get=__get__beatmapDataCallbackWrapper, put=__set__beatmapDataCallbackWrapper))  _beatmapDataCallbackWrapper;
 
-constexpr void __set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper value) ;
+constexpr void __set__beatmapDataCallbackWrapper(GlobalNamespace::BeatmapDataCallbackWrapper value) ;
 
-constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallbackWrapper() const;
+constexpr GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallbackWrapper() const;
 
 
 // Methods
@@ -208,7 +207,7 @@ constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallba
  void OnDestroy() ;
 
 /// @brief Method HandleBeatmapEvent addr 0x226d8ec size 0xcc virtual false final false
- void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData basicBeatmapEventData) ;
+ void HandleBeatmapEvent(GlobalNamespace::BasicBeatmapEventData basicBeatmapEventData) ;
 
 // Ctor Parameters []
 explicit TrackLaneRingsRotationEffectSpawner() ;
@@ -220,7 +219,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType, "", "TrackLaneRingsRotationEffectSpawner/RotationStepType");
-NEED_NO_BOX(::GlobalNamespace::TrackLaneRingsRotationEffectSpawner);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TrackLaneRingsRotationEffectSpawner, "", "TrackLaneRingsRotationEffectSpawner");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType, "", "TrackLaneRingsRotationEffectSpawner/RotationStepType");
+NEED_NO_BOX(GlobalNamespace::TrackLaneRingsRotationEffectSpawner);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsRotationEffectSpawner, "", "TrackLaneRingsRotationEffectSpawner");

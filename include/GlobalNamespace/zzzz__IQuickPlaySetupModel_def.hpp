@@ -1,6 +1,5 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
@@ -34,12 +33,11 @@ constexpr explicit IQuickPlaySetupModel(void* ptr) noexcept : ::cordl_internals:
 // Methods
 
 /// @brief Method GetQuickPlaySetupAsync addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData> GetQuickPlaySetupAsync(::System::Threading::CancellationToken cancellationToken) ;
+ System::Threading::Tasks::Task_1<GlobalNamespace::QuickPlaySetupData> GetQuickPlaySetupAsync(System::Threading::CancellationToken cancellationToken) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IQuickPlaySetupModel);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IQuickPlaySetupModel, "", "IQuickPlaySetupModel");
+NEED_NO_BOX(GlobalNamespace::IQuickPlaySetupModel);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IQuickPlaySetupModel, "", "IQuickPlaySetupModel");

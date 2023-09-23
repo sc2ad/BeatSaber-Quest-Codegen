@@ -1,6 +1,5 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace GlobalNamespace {
 class IPoolablePacket;
 }
@@ -27,7 +26,7 @@ constexpr explicit IPacketPool(void* ptr) noexcept : ::cordl_internals::Interfac
 // Methods
 
 /// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual true final false
- void Release(::GlobalNamespace::IPoolablePacket t) ;
+ void Release(GlobalNamespace::IPoolablePacket t) ;
 
 /// @brief Method Fill addr 0x0 size 0xffffffffffffffff virtual true final false
  void Fill() ;
@@ -39,6 +38,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IPacketPool);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IPacketPool, "", "IPacketPool");
+NEED_NO_BOX(GlobalNamespace::IPacketPool);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IPacketPool, "", "IPacketPool");

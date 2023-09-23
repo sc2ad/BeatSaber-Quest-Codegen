@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Reflection {
-class MethodBase;
-}
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
 class LogicalCallContext;
+}
+namespace System::Reflection {
+class MethodBase;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -27,8 +26,8 @@ namespace System::Runtime::Remoting::Messaging {
 class CORDL_TYPE IMethodMessage : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::Remoting::Messaging::IMessage
-constexpr operator  ::System::Runtime::Remoting::Messaging::IMessage() const noexcept;
+/// @brief Convert operator to System::Runtime::Remoting::Messaging::IMessage
+constexpr operator  System::Runtime::Remoting::Messaging::IMessage() const noexcept;
 
 ~IMethodMessage() = default;
 
@@ -43,9 +42,9 @@ constexpr explicit IMethodMessage(void* ptr) noexcept : ::cordl_internals::Inter
 
  ::ArrayW<::bs_hook::Il2CppWrapperType> __declspec(property(get=get_Args))  Args;
 
- ::System::Runtime::Remoting::Messaging::LogicalCallContext __declspec(property(get=get_LogicalCallContext))  LogicalCallContext;
+ System::Runtime::Remoting::Messaging::LogicalCallContext __declspec(property(get=get_LogicalCallContext))  LogicalCallContext;
 
- ::System::Reflection::MethodBase __declspec(property(get=get_MethodBase))  MethodBase;
+ System::Reflection::MethodBase __declspec(property(get=get_MethodBase))  MethodBase;
 
  ::StringW __declspec(property(get=get_MethodName))  MethodName;
 
@@ -65,10 +64,10 @@ constexpr explicit IMethodMessage(void* ptr) noexcept : ::cordl_internals::Inter
  ::ArrayW<::bs_hook::Il2CppWrapperType> get_Args() ;
 
 /// @brief Method get_LogicalCallContext addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Runtime::Remoting::Messaging::LogicalCallContext get_LogicalCallContext() ;
+ System::Runtime::Remoting::Messaging::LogicalCallContext get_LogicalCallContext() ;
 
 /// @brief Method get_MethodBase addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Reflection::MethodBase get_MethodBase() ;
+ System::Reflection::MethodBase get_MethodBase() ;
 
 /// @brief Method get_MethodName addr 0x0 size 0xffffffffffffffff virtual true final false
  ::StringW get_MethodName() ;
@@ -89,6 +88,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Messaging
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Messaging::IMethodMessage);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::IMethodMessage, "System.Runtime.Remoting.Messaging", "IMethodMessage");
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::IMethodMessage);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::IMethodMessage, "System.Runtime.Remoting.Messaging", "IMethodMessage");

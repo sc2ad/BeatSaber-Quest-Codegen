@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
 namespace TMPro {
 class TextMeshProUGUI;
 }
@@ -10,7 +9,7 @@ namespace GlobalNamespace {
 class RelativeScoreAndImmediateRankCounter;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__RankModel__Rank;
+struct GlobalNamespace__RankModel__Rank;
 }
 namespace System::Text {
 class StringBuilder;
@@ -25,7 +24,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5134))
 // CS Name: ImmediateRankUIPanel
-class CORDL_TYPE ImmediateRankUIPanel : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ImmediateRankUIPanel : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr ImmediateRankUIPanel(ImmediateRankUIPanel const& ) noexcept = default;
 constexpr ImmediateRankUIPanel(ImmediateRankUIPanel&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ImmediateRankUIPanel(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ImmediateRankUIPanel(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -61,29 +60,29 @@ constexpr explicit ImmediateRankUIPanel(void* ptr) noexcept : ::UnityEngine::Mon
 
 // Fields
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__rankText, put=__set__rankText))  _rankText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__rankText, put=__set__rankText))  _rankText;
 
-constexpr void __set__rankText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__rankText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__rankText() const;
+constexpr TMPro::TextMeshProUGUI __get__rankText() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__relativeScoreText, put=__set__relativeScoreText))  _relativeScoreText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__relativeScoreText, put=__set__relativeScoreText))  _relativeScoreText;
 
-constexpr void __set__relativeScoreText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__relativeScoreText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__relativeScoreText() const;
+constexpr TMPro::TextMeshProUGUI __get__relativeScoreText() const;
 
- ::GlobalNamespace::RelativeScoreAndImmediateRankCounter __declspec(property(get=__get__relativeScoreAndImmediateRankCounter, put=__set__relativeScoreAndImmediateRankCounter))  _relativeScoreAndImmediateRankCounter;
+ GlobalNamespace::RelativeScoreAndImmediateRankCounter __declspec(property(get=__get__relativeScoreAndImmediateRankCounter, put=__set__relativeScoreAndImmediateRankCounter))  _relativeScoreAndImmediateRankCounter;
 
-constexpr void __set__relativeScoreAndImmediateRankCounter(::GlobalNamespace::RelativeScoreAndImmediateRankCounter value) ;
+constexpr void __set__relativeScoreAndImmediateRankCounter(GlobalNamespace::RelativeScoreAndImmediateRankCounter value) ;
 
-constexpr ::GlobalNamespace::RelativeScoreAndImmediateRankCounter __get__relativeScoreAndImmediateRankCounter() const;
+constexpr GlobalNamespace::RelativeScoreAndImmediateRankCounter __get__relativeScoreAndImmediateRankCounter() const;
 
- ::System::Text::StringBuilder __declspec(property(get=__get__stringBuilder, put=__set__stringBuilder))  _stringBuilder;
+ System::Text::StringBuilder __declspec(property(get=__get__stringBuilder, put=__set__stringBuilder))  _stringBuilder;
 
-constexpr void __set__stringBuilder(::System::Text::StringBuilder value) ;
+constexpr void __set__stringBuilder(System::Text::StringBuilder value) ;
 
-constexpr ::System::Text::StringBuilder __get__stringBuilder() const;
+constexpr System::Text::StringBuilder __get__stringBuilder() const;
 
  float_t __declspec(property(get=__get__prevRelativeScore, put=__set__prevRelativeScore))  _prevRelativeScore;
 
@@ -91,11 +90,11 @@ constexpr void __set__prevRelativeScore(float_t value) ;
 
 constexpr float_t __get__prevRelativeScore() const;
 
- ::GlobalNamespace::____GlobalNamespace__RankModel__Rank __declspec(property(get=__get__prevImmediateRank, put=__set__prevImmediateRank))  _prevImmediateRank;
+ GlobalNamespace::GlobalNamespace__RankModel__Rank __declspec(property(get=__get__prevImmediateRank, put=__set__prevImmediateRank))  _prevImmediateRank;
 
-constexpr void __set__prevImmediateRank(::GlobalNamespace::____GlobalNamespace__RankModel__Rank value) ;
+constexpr void __set__prevImmediateRank(GlobalNamespace::GlobalNamespace__RankModel__Rank value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__RankModel__Rank __get__prevImmediateRank() const;
+constexpr GlobalNamespace::GlobalNamespace__RankModel__Rank __get__prevImmediateRank() const;
 
 
 // Methods
@@ -119,6 +118,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ImmediateRankUIPanel);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ImmediateRankUIPanel, "", "ImmediateRankUIPanel");
+NEED_NO_BOX(GlobalNamespace::ImmediateRankUIPanel);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ImmediateRankUIPanel, "", "ImmediateRankUIPanel");

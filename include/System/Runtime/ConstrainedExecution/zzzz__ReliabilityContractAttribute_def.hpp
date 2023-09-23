@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 namespace System::Runtime::ConstrainedExecution {
 struct Cer;
 }
@@ -18,7 +17,7 @@ namespace System::Runtime::ConstrainedExecution {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3345))
 // CS Name: System.Runtime.ConstrainedExecution.ReliabilityContractAttribute
-class CORDL_TYPE ReliabilityContractAttribute : public ::System::Attribute {
+class CORDL_TYPE ReliabilityContractAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr ReliabilityContractAttribute(ReliabilityContractAttribute const& ) noe
 constexpr ReliabilityContractAttribute(ReliabilityContractAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ReliabilityContractAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit ReliabilityContractAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -54,31 +53,30 @@ constexpr explicit ReliabilityContractAttribute(void* ptr) noexcept : ::System::
 
 // Fields
 
- ::System::Runtime::ConstrainedExecution::Consistency __declspec(property(get=__get__ConsistencyGuarantee_k__BackingField, put=__set__ConsistencyGuarantee_k__BackingField))  _ConsistencyGuarantee_k__BackingField;
+ System::Runtime::ConstrainedExecution::Consistency __declspec(property(get=__get__ConsistencyGuarantee_k__BackingField, put=__set__ConsistencyGuarantee_k__BackingField))  _ConsistencyGuarantee_k__BackingField;
 
-constexpr void __set__ConsistencyGuarantee_k__BackingField(::System::Runtime::ConstrainedExecution::Consistency value) ;
+constexpr void __set__ConsistencyGuarantee_k__BackingField(System::Runtime::ConstrainedExecution::Consistency value) ;
 
-constexpr ::System::Runtime::ConstrainedExecution::Consistency __get__ConsistencyGuarantee_k__BackingField() const;
+constexpr System::Runtime::ConstrainedExecution::Consistency __get__ConsistencyGuarantee_k__BackingField() const;
 
- ::System::Runtime::ConstrainedExecution::Cer __declspec(property(get=__get__Cer_k__BackingField, put=__set__Cer_k__BackingField))  _Cer_k__BackingField;
+ System::Runtime::ConstrainedExecution::Cer __declspec(property(get=__get__Cer_k__BackingField, put=__set__Cer_k__BackingField))  _Cer_k__BackingField;
 
-constexpr void __set__Cer_k__BackingField(::System::Runtime::ConstrainedExecution::Cer value) ;
+constexpr void __set__Cer_k__BackingField(System::Runtime::ConstrainedExecution::Cer value) ;
 
-constexpr ::System::Runtime::ConstrainedExecution::Cer __get__Cer_k__BackingField() const;
+constexpr System::Runtime::ConstrainedExecution::Cer __get__Cer_k__BackingField() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "consistencyGuarantee", ty: "::System::Runtime::ConstrainedExecution::Consistency", modifiers: "", def_value: None }, CppParam { name: "cer", ty: "::System::Runtime::ConstrainedExecution::Cer", modifiers: "", def_value: None }]
-explicit ReliabilityContractAttribute(::System::Runtime::ConstrainedExecution::Consistency consistencyGuarantee, ::System::Runtime::ConstrainedExecution::Cer cer) ;
+// Ctor Parameters [CppParam { name: "consistencyGuarantee", ty: "System::Runtime::ConstrainedExecution::Consistency", modifiers: "", def_value: None }, CppParam { name: "cer", ty: "System::Runtime::ConstrainedExecution::Cer", modifiers: "", def_value: None }]
+explicit ReliabilityContractAttribute(System::Runtime::ConstrainedExecution::Consistency consistencyGuarantee, System::Runtime::ConstrainedExecution::Cer cer) ;
 
 /// @brief Method .ctor addr 0x236d950 size 0x2c virtual false final false
- void _ctor(::System::Runtime::ConstrainedExecution::Consistency consistencyGuarantee, ::System::Runtime::ConstrainedExecution::Cer cer) ;
+ void _ctor(System::Runtime::ConstrainedExecution::Consistency consistencyGuarantee, System::Runtime::ConstrainedExecution::Cer cer) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::ConstrainedExecution
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::ConstrainedExecution::ReliabilityContractAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::ConstrainedExecution::ReliabilityContractAttribute, "System.Runtime.ConstrainedExecution", "ReliabilityContractAttribute");
+NEED_NO_BOX(System::Runtime::ConstrainedExecution::ReliabilityContractAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ConstrainedExecution::ReliabilityContractAttribute, "System.Runtime.ConstrainedExecution", "ReliabilityContractAttribute");

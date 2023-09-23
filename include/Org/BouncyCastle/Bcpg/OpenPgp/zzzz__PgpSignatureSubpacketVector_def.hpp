@@ -4,12 +4,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Bcpg {
 struct SignatureSubpacketTag;
-}
-namespace Org::BouncyCastle::Bcpg::Sig {
-class NotationData;
 }
 namespace Org::BouncyCastle::Bcpg {
 class SignatureSubpacket;
@@ -19,6 +15,9 @@ struct DateTime;
 }
 namespace Org::BouncyCastle::Bcpg::Sig {
 class Features;
+}
+namespace Org::BouncyCastle::Bcpg::Sig {
+class NotationData;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -66,11 +65,11 @@ constexpr explicit PgpSignatureSubpacketVector(void* ptr) noexcept : ::bs_hook::
 
 // Fields
 
- ::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket> __declspec(property(get=__get_packets, put=__set_packets))  packets;
+ ::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> __declspec(property(get=__get_packets, put=__set_packets))  packets;
 
-constexpr void __set_packets(::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket> value) ;
+constexpr void __set_packets(::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> value) ;
 
-constexpr ::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket> __get_packets() const;
+constexpr ::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> __get_packets() const;
 
 
 // Properties
@@ -82,26 +81,26 @@ constexpr ::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket> __get_packets(
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "packets", ty: "::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket>", modifiers: "", def_value: None }]
-explicit PgpSignatureSubpacketVector(::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket> packets) ;
+// Ctor Parameters [CppParam { name: "packets", ty: "::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket>", modifiers: "", def_value: None }]
+explicit PgpSignatureSubpacketVector(::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> packets) ;
 
 /// @brief Method .ctor addr 0x103d700 size 0x28 virtual false final false
- void _ctor(::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket> packets) ;
+ void _ctor(::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> packets) ;
 
 /// @brief Method GetSubpacket addr 0x10407e0 size 0x58 virtual false final false
- ::Org::BouncyCastle::Bcpg::SignatureSubpacket GetSubpacket(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type) ;
+ Org::BouncyCastle::Bcpg::SignatureSubpacket GetSubpacket(Org::BouncyCastle::Bcpg::SignatureSubpacketTag type) ;
 
 /// @brief Method HasSubpacket addr 0x1040838 size 0x18 virtual false final false
- bool HasSubpacket(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type) ;
+ bool HasSubpacket(Org::BouncyCastle::Bcpg::SignatureSubpacketTag type) ;
 
 /// @brief Method GetSubpackets addr 0x1040850 size 0x140 virtual false final false
- ::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket> GetSubpackets(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type) ;
+ ::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> GetSubpackets(Org::BouncyCastle::Bcpg::SignatureSubpacketTag type) ;
 
 /// @brief Method GetNotationDataOccurrences addr 0x1040990 size 0x164 virtual false final false
- ::ArrayW<::Org::BouncyCastle::Bcpg::Sig::NotationData> GetNotationDataOccurrences() ;
+ ::ArrayW<Org::BouncyCastle::Bcpg::Sig::NotationData> GetNotationDataOccurrences() ;
 
 /// @brief Method GetNotationDataOccurences addr 0x1040af4 size 0x4 virtual false final false
- ::ArrayW<::Org::BouncyCastle::Bcpg::Sig::NotationData> GetNotationDataOccurences() ;
+ ::ArrayW<Org::BouncyCastle::Bcpg::Sig::NotationData> GetNotationDataOccurences() ;
 
 /// @brief Method GetIssuerKeyId addr 0x1040af8 size 0x90 virtual false final false
  int64_t GetIssuerKeyId() ;
@@ -110,7 +109,7 @@ explicit PgpSignatureSubpacketVector(::ArrayW<::Org::BouncyCastle::Bcpg::Signatu
  bool HasSignatureCreationTime() ;
 
 /// @brief Method GetSignatureCreationTime addr 0x1040ba4 size 0xd0 virtual false final false
- ::System::DateTime GetSignatureCreationTime() ;
+ System::DateTime GetSignatureCreationTime() ;
 
 /// @brief Method GetSignatureExpirationTime addr 0x1040c74 size 0x90 virtual false final false
  int64_t GetSignatureExpirationTime() ;
@@ -137,10 +136,10 @@ explicit PgpSignatureSubpacketVector(::ArrayW<::Org::BouncyCastle::Bcpg::Signatu
  bool IsPrimaryUserId() ;
 
 /// @brief Method GetCriticalTags addr 0x10410f4 size 0xf8 virtual false final false
- ::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacketTag> GetCriticalTags() ;
+ ::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacketTag> GetCriticalTags() ;
 
 /// @brief Method GetFeatures addr 0x10411ec size 0xac virtual false final false
- ::Org::BouncyCastle::Bcpg::Sig::Features GetFeatures() ;
+ Org::BouncyCastle::Bcpg::Sig::Features GetFeatures() ;
 
 /// @brief Method get_Size addr 0x1041298 size 0x1c virtual false final false
  int32_t get_Size() ;
@@ -149,12 +148,11 @@ explicit PgpSignatureSubpacketVector(::ArrayW<::Org::BouncyCastle::Bcpg::Signatu
  int32_t get_Count() ;
 
 /// @brief Method ToSubpacketArray addr 0x10412d0 size 0x8 virtual false final false
- ::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket> ToSubpacketArray() ;
+ ::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> ToSubpacketArray() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg::OpenPgp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector, "Org.BouncyCastle.Bcpg.OpenPgp", "PgpSignatureSubpacketVector");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector, "Org.BouncyCastle.Bcpg.OpenPgp", "PgpSignatureSubpacketVector");

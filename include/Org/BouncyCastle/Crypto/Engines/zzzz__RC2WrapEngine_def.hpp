@@ -4,12 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
 namespace Org::BouncyCastle::Crypto {
 class IWrapper;
 }
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
+namespace Org::BouncyCastle::Crypto::Modes {
+class CbcBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
@@ -17,11 +19,8 @@ class ICipherParameters;
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ParametersWithIV;
 }
-namespace Org::BouncyCastle::Crypto::Modes {
-class CbcBlockCipher;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -36,8 +35,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
 class CORDL_TYPE RC2WrapEngine : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IWrapper
-constexpr operator  ::Org::BouncyCastle::Crypto::IWrapper() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IWrapper
+constexpr operator  Org::BouncyCastle::Crypto::IWrapper() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x50};
@@ -72,23 +71,23 @@ constexpr explicit RC2WrapEngine(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 
 // Fields
 
- ::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher __declspec(property(get=__get_engine, put=__set_engine))  engine;
+ Org::BouncyCastle::Crypto::Modes::CbcBlockCipher __declspec(property(get=__get_engine, put=__set_engine))  engine;
 
-constexpr void __set_engine(::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher value) ;
+constexpr void __set_engine(Org::BouncyCastle::Crypto::Modes::CbcBlockCipher value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher __get_engine() const;
+constexpr Org::BouncyCastle::Crypto::Modes::CbcBlockCipher __get_engine() const;
 
- ::Org::BouncyCastle::Crypto::ICipherParameters __declspec(property(get=__get_parameters, put=__set_parameters))  parameters;
+ Org::BouncyCastle::Crypto::ICipherParameters __declspec(property(get=__get_parameters, put=__set_parameters))  parameters;
 
-constexpr void __set_parameters(::Org::BouncyCastle::Crypto::ICipherParameters value) ;
+constexpr void __set_parameters(Org::BouncyCastle::Crypto::ICipherParameters value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::ICipherParameters __get_parameters() const;
+constexpr Org::BouncyCastle::Crypto::ICipherParameters __get_parameters() const;
 
- ::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV __declspec(property(get=__get_paramPlusIV, put=__set_paramPlusIV))  paramPlusIV;
+ Org::BouncyCastle::Crypto::Parameters::ParametersWithIV __declspec(property(get=__get_paramPlusIV, put=__set_paramPlusIV))  paramPlusIV;
 
-constexpr void __set_paramPlusIV(::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV value) ;
+constexpr void __set_paramPlusIV(Org::BouncyCastle::Crypto::Parameters::ParametersWithIV value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV __get_paramPlusIV() const;
+constexpr Org::BouncyCastle::Crypto::Parameters::ParametersWithIV __get_paramPlusIV() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get_iv, put=__set_iv))  iv;
 
@@ -102,11 +101,11 @@ constexpr void __set_forWrapping(bool value) ;
 
 constexpr bool __get_forWrapping() const;
 
- ::Org::BouncyCastle::Security::SecureRandom __declspec(property(get=__get_sr, put=__set_sr))  sr;
+ Org::BouncyCastle::Security::SecureRandom __declspec(property(get=__get_sr, put=__set_sr))  sr;
 
-constexpr void __set_sr(::Org::BouncyCastle::Security::SecureRandom value) ;
+constexpr void __set_sr(Org::BouncyCastle::Security::SecureRandom value) ;
 
-constexpr ::Org::BouncyCastle::Security::SecureRandom __get_sr() const;
+constexpr Org::BouncyCastle::Security::SecureRandom __get_sr() const;
 
 static ::ArrayW<uint8_t> __declspec(property(get=__get_IV2, put=__set_IV2))  IV2;
 
@@ -114,11 +113,11 @@ static void __set_IV2(::ArrayW<uint8_t> value) ;
 
 static ::ArrayW<uint8_t> __get_IV2() ;
 
- ::Org::BouncyCastle::Crypto::IDigest __declspec(property(get=__get_sha1, put=__set_sha1))  sha1;
+ Org::BouncyCastle::Crypto::IDigest __declspec(property(get=__get_sha1, put=__set_sha1))  sha1;
 
-constexpr void __set_sha1(::Org::BouncyCastle::Crypto::IDigest value) ;
+constexpr void __set_sha1(Org::BouncyCastle::Crypto::IDigest value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IDigest __get_sha1() const;
+constexpr Org::BouncyCastle::Crypto::IDigest __get_sha1() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get_digest, put=__set_digest))  digest;
 
@@ -135,7 +134,7 @@ constexpr ::ArrayW<uint8_t> __get_digest() const;
 // Methods
 
 /// @brief Method Init addr 0xe4d4b4 size 0x2c0 virtual true final false
- void Init(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(bool forWrapping, Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method get_AlgorithmName addr 0xe4d774 size 0x40 virtual true final false
  ::StringW get_AlgorithmName() ;
@@ -162,6 +161,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Engines
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine, "Org.BouncyCastle.Crypto.Engines", "RC2WrapEngine");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Engines::RC2WrapEngine);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::RC2WrapEngine, "Org.BouncyCastle.Crypto.Engines", "RC2WrapEngine");

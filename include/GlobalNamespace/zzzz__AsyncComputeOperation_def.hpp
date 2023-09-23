@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace System::Diagnostics {
 class Stopwatch;
 }
@@ -59,11 +58,11 @@ constexpr void __set__timeoutMs(int32_t value) ;
 
 constexpr int32_t __get__timeoutMs() const;
 
- ::System::Diagnostics::Stopwatch __declspec(property(get=__get__stopwatch, put=__set__stopwatch))  _stopwatch;
+ System::Diagnostics::Stopwatch __declspec(property(get=__get__stopwatch, put=__set__stopwatch))  _stopwatch;
 
-constexpr void __set__stopwatch(::System::Diagnostics::Stopwatch value) ;
+constexpr void __set__stopwatch(System::Diagnostics::Stopwatch value) ;
 
-constexpr ::System::Diagnostics::Stopwatch __get__stopwatch() const;
+constexpr System::Diagnostics::Stopwatch __get__stopwatch() const;
 
 
 // Properties
@@ -94,6 +93,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::AsyncComputeOperation);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AsyncComputeOperation, "", "AsyncComputeOperation");
+NEED_NO_BOX(GlobalNamespace::AsyncComputeOperation);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AsyncComputeOperation, "", "AsyncComputeOperation");

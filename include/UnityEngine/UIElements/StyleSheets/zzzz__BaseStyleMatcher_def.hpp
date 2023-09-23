@@ -4,23 +4,22 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System::Text::RegularExpressions {
-class Regex;
+namespace System::Collections::Generic {
+template<typename T>
+class Stack_1;
 }
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 class Expression;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class Stack_1;
+namespace System::Text::RegularExpressions {
+class Regex;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {
 class BaseStyleMatcher;
 }
 namespace UnityEngine::UIElements::StyleSheets {
-struct ____UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext;
+struct UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext;
 }
 // Type: ::MatchContext
 namespace UnityEngine::UIElements::StyleSheets {
@@ -28,20 +27,20 @@ namespace UnityEngine::UIElements::StyleSheets {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7582))
 // CS Name: UnityEngine.UIElements.StyleSheets.BaseStyleMatcher::MatchContext
-struct CORDL_TYPE ____UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "valueIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "matchedVariableCount", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext(int32_t valueIndex, int32_t matchedVariableCount) noexcept;
+constexpr UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext(int32_t valueIndex, int32_t matchedVariableCount) noexcept;
 
 
-                    constexpr ____UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext(____UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext const&) = default;
-                    constexpr ____UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext(____UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext&&) = default;
-                    constexpr ____UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext& operator=(____UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext const& o) {
+                    constexpr UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext(UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext const&) = default;
+                    constexpr UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext(UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext&&) = default;
+                    constexpr UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext& operator=(UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext& operator=(____UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext&& o) noexcept {
+                    constexpr UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext& operator=(UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -54,7 +53,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x8};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -90,7 +89,7 @@ namespace UnityEngine::UIElements::StyleSheets {
 class CORDL_TYPE BaseStyleMatcher : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using MatchContext = ::UnityEngine::UIElements::StyleSheets::____UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext;
+using MatchContext = UnityEngine::UIElements::StyleSheets::UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -125,23 +124,23 @@ constexpr explicit BaseStyleMatcher(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
-static ::System::Text::RegularExpressions::Regex __declspec(property(get=__get_s_CustomIdentRegex, put=__set_s_CustomIdentRegex))  s_CustomIdentRegex;
+static System::Text::RegularExpressions::Regex __declspec(property(get=__get_s_CustomIdentRegex, put=__set_s_CustomIdentRegex))  s_CustomIdentRegex;
 
-static void __set_s_CustomIdentRegex(::System::Text::RegularExpressions::Regex value) ;
+static void __set_s_CustomIdentRegex(System::Text::RegularExpressions::Regex value) ;
 
-static ::System::Text::RegularExpressions::Regex __get_s_CustomIdentRegex() ;
+static System::Text::RegularExpressions::Regex __get_s_CustomIdentRegex() ;
 
- ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::StyleSheets::____UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext> __declspec(property(get=__get_m_ContextStack, put=__set_m_ContextStack))  m_ContextStack;
+ System::Collections::Generic::Stack_1<UnityEngine::UIElements::StyleSheets::UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext> __declspec(property(get=__get_m_ContextStack, put=__set_m_ContextStack))  m_ContextStack;
 
-constexpr void __set_m_ContextStack(::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::StyleSheets::____UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext> value) ;
+constexpr void __set_m_ContextStack(System::Collections::Generic::Stack_1<UnityEngine::UIElements::StyleSheets::UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext> value) ;
 
-constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::StyleSheets::____UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext> __get_m_ContextStack() const;
+constexpr System::Collections::Generic::Stack_1<UnityEngine::UIElements::StyleSheets::UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext> __get_m_ContextStack() const;
 
- ::UnityEngine::UIElements::StyleSheets::____UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext __declspec(property(get=__get_m_CurrentContext, put=__set_m_CurrentContext))  m_CurrentContext;
+ UnityEngine::UIElements::StyleSheets::UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext __declspec(property(get=__get_m_CurrentContext, put=__set_m_CurrentContext))  m_CurrentContext;
 
-constexpr void __set_m_CurrentContext(::UnityEngine::UIElements::StyleSheets::____UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext value) ;
+constexpr void __set_m_CurrentContext(UnityEngine::UIElements::StyleSheets::UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext value) ;
 
-constexpr ::UnityEngine::UIElements::StyleSheets::____UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext __get_m_CurrentContext() const;
+constexpr UnityEngine::UIElements::StyleSheets::UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext __get_m_CurrentContext() const;
 
 
 // Properties
@@ -234,40 +233,40 @@ constexpr ::UnityEngine::UIElements::StyleSheets::____UnityEngine__UIElements__S
  void DropContext() ;
 
 /// @brief Method Match addr 0x2c77a94 size 0xb4 virtual false final false
- bool Match(::UnityEngine::UIElements::StyleSheets::Syntax::Expression exp) ;
+ bool Match(UnityEngine::UIElements::StyleSheets::Syntax::Expression exp) ;
 
 /// @brief Method MatchExpression addr 0x2c77b50 size 0x114 virtual false final false
- bool MatchExpression(::UnityEngine::UIElements::StyleSheets::Syntax::Expression exp) ;
+ bool MatchExpression(UnityEngine::UIElements::StyleSheets::Syntax::Expression exp) ;
 
 /// @brief Method MatchExpressionWithMultiplier addr 0x2c77c64 size 0x14c virtual false final false
- bool MatchExpressionWithMultiplier(::UnityEngine::UIElements::StyleSheets::Syntax::Expression exp) ;
+ bool MatchExpressionWithMultiplier(UnityEngine::UIElements::StyleSheets::Syntax::Expression exp) ;
 
 /// @brief Method MatchGroup addr 0x2c77f78 size 0xb4 virtual false final false
- bool MatchGroup(::UnityEngine::UIElements::StyleSheets::Syntax::Expression exp) ;
+ bool MatchGroup(UnityEngine::UIElements::StyleSheets::Syntax::Expression exp) ;
 
 /// @brief Method MatchCombinator addr 0x2c77db0 size 0xcc virtual false final false
- bool MatchCombinator(::UnityEngine::UIElements::StyleSheets::Syntax::Expression exp) ;
+ bool MatchCombinator(UnityEngine::UIElements::StyleSheets::Syntax::Expression exp) ;
 
 /// @brief Method MatchOr addr 0x2c7802c size 0xd0 virtual false final false
- bool MatchOr(::UnityEngine::UIElements::StyleSheets::Syntax::Expression exp) ;
+ bool MatchOr(UnityEngine::UIElements::StyleSheets::Syntax::Expression exp) ;
 
 /// @brief Method MatchOrOr addr 0x2c780fc size 0x18 virtual false final false
- bool MatchOrOr(::UnityEngine::UIElements::StyleSheets::Syntax::Expression exp) ;
+ bool MatchOrOr(UnityEngine::UIElements::StyleSheets::Syntax::Expression exp) ;
 
 /// @brief Method MatchAndAnd addr 0x2c78114 size 0x30 virtual false final false
- bool MatchAndAnd(::UnityEngine::UIElements::StyleSheets::Syntax::Expression exp) ;
+ bool MatchAndAnd(UnityEngine::UIElements::StyleSheets::Syntax::Expression exp) ;
 
 /// @brief Method MatchMany addr 0x2c781b0 size 0x180 virtual false final false
- int32_t MatchMany(::UnityEngine::UIElements::StyleSheets::Syntax::Expression exp) ;
+ int32_t MatchMany(UnityEngine::UIElements::StyleSheets::Syntax::Expression exp) ;
 
 /// @brief Method MatchManyByOrder addr 0x2c78330 size 0x190 virtual false final false
- int32_t MatchManyByOrder(::UnityEngine::UIElements::StyleSheets::Syntax::Expression exp, void* matchOrder) ;
+ int32_t MatchManyByOrder(UnityEngine::UIElements::StyleSheets::Syntax::Expression exp, void* matchOrder) ;
 
 /// @brief Method MatchJuxtaposition addr 0x2c78144 size 0x6c virtual false final false
- bool MatchJuxtaposition(::UnityEngine::UIElements::StyleSheets::Syntax::Expression exp) ;
+ bool MatchJuxtaposition(UnityEngine::UIElements::StyleSheets::Syntax::Expression exp) ;
 
 /// @brief Method MatchDataType addr 0x2c77e7c size 0xfc virtual false final false
- bool MatchDataType(::UnityEngine::UIElements::StyleSheets::Syntax::Expression exp) ;
+ bool MatchDataType(UnityEngine::UIElements::StyleSheets::Syntax::Expression exp) ;
 
 // Ctor Parameters []
 explicit BaseStyleMatcher() ;
@@ -279,7 +278,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::StyleSheets
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher, "UnityEngine.UIElements.StyleSheets", "BaseStyleMatcher");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::____UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext, "UnityEngine.UIElements.StyleSheets", "BaseStyleMatcher/MatchContext");
+NEED_NO_BOX(UnityEngine::UIElements::StyleSheets::BaseStyleMatcher);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::StyleSheets::BaseStyleMatcher, "UnityEngine.UIElements.StyleSheets", "BaseStyleMatcher");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::StyleSheets::UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext, "UnityEngine.UIElements.StyleSheets", "BaseStyleMatcher/MatchContext");

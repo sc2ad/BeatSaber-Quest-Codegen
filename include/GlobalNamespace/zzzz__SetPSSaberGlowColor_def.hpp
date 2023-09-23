@@ -1,15 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class ColorManager;
 }
-namespace UnityEngine {
-class ParticleSystem;
-}
 namespace GlobalNamespace {
 class SaberTypeObject;
+}
+namespace UnityEngine {
+class ParticleSystem;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5393))
 // CS Name: SetPSSaberGlowColor
-class CORDL_TYPE SetPSSaberGlowColor : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SetPSSaberGlowColor : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr SetPSSaberGlowColor(SetPSSaberGlowColor const& ) noexcept = default;
 constexpr SetPSSaberGlowColor(SetPSSaberGlowColor&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SetPSSaberGlowColor(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SetPSSaberGlowColor(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -57,23 +56,23 @@ constexpr explicit SetPSSaberGlowColor(void* ptr) noexcept : ::UnityEngine::Mono
 
 // Fields
 
- ::GlobalNamespace::SaberTypeObject __declspec(property(get=__get__saber, put=__set__saber))  _saber;
+ GlobalNamespace::SaberTypeObject __declspec(property(get=__get__saber, put=__set__saber))  _saber;
 
-constexpr void __set__saber(::GlobalNamespace::SaberTypeObject value) ;
+constexpr void __set__saber(GlobalNamespace::SaberTypeObject value) ;
 
-constexpr ::GlobalNamespace::SaberTypeObject __get__saber() const;
+constexpr GlobalNamespace::SaberTypeObject __get__saber() const;
 
- ::GlobalNamespace::ColorManager __declspec(property(get=__get__colorManager, put=__set__colorManager))  _colorManager;
+ GlobalNamespace::ColorManager __declspec(property(get=__get__colorManager, put=__set__colorManager))  _colorManager;
 
-constexpr void __set__colorManager(::GlobalNamespace::ColorManager value) ;
+constexpr void __set__colorManager(GlobalNamespace::ColorManager value) ;
 
-constexpr ::GlobalNamespace::ColorManager __get__colorManager() const;
+constexpr GlobalNamespace::ColorManager __get__colorManager() const;
 
- ::UnityEngine::ParticleSystem __declspec(property(get=__get__particleSystem, put=__set__particleSystem))  _particleSystem;
+ UnityEngine::ParticleSystem __declspec(property(get=__get__particleSystem, put=__set__particleSystem))  _particleSystem;
 
-constexpr void __set__particleSystem(::UnityEngine::ParticleSystem value) ;
+constexpr void __set__particleSystem(UnityEngine::ParticleSystem value) ;
 
-constexpr ::UnityEngine::ParticleSystem __get__particleSystem() const;
+constexpr UnityEngine::ParticleSystem __get__particleSystem() const;
 
 
 // Methods
@@ -91,6 +90,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SetPSSaberGlowColor);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SetPSSaberGlowColor, "", "SetPSSaberGlowColor");
+NEED_NO_BOX(GlobalNamespace::SetPSSaberGlowColor);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetPSSaberGlowColor, "", "SetPSSaberGlowColor");

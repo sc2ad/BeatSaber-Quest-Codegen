@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__LightGroupSubsystem_def.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 class Transform;
 }
@@ -25,10 +24,10 @@ namespace GlobalNamespace {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TX,::cordl_internals::il2cpp_reference_type TY,::cordl_internals::il2cpp_reference_type TZ>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5043)), TypeDefinitionIndex(TypeDefinitionIndex(5035))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5035)), TypeDefinitionIndex(TypeDefinitionIndex(5043))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5043), inst: 5155 })
 // CS Name: LightTransformGroup`3
-class CORDL_TYPE LightTransformGroup_3<TX,TY,TZ> : public ::GlobalNamespace::LightGroupSubsystem {
+class CORDL_TYPE LightTransformGroup_3<TX,TY,TZ> : public GlobalNamespace::LightGroupSubsystem {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -43,7 +42,7 @@ constexpr LightTransformGroup_3(LightTransformGroup_3 const& ) noexcept = defaul
 constexpr LightTransformGroup_3(LightTransformGroup_3&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LightTransformGroup_3(void* ptr) noexcept : ::GlobalNamespace::LightGroupSubsystem(ptr) {
+constexpr explicit LightTransformGroup_3(void* ptr) noexcept : GlobalNamespace::LightGroupSubsystem(ptr) {
 }
 
 
@@ -88,23 +87,23 @@ constexpr void __set__disableAutomaticTransformGathering(bool value) ;
 
 constexpr bool __get__disableAutomaticTransformGathering() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::Transform> __declspec(property(get=__get__xTransforms, put=__set__xTransforms))  _xTransforms;
+ System::Collections::Generic::List_1<UnityEngine::Transform> __declspec(property(get=__get__xTransforms, put=__set__xTransforms))  _xTransforms;
 
-constexpr void __set__xTransforms(::System::Collections::Generic::List_1<::UnityEngine::Transform> value) ;
+constexpr void __set__xTransforms(System::Collections::Generic::List_1<UnityEngine::Transform> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Transform> __get__xTransforms() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::Transform> __get__xTransforms() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::Transform> __declspec(property(get=__get__yTransforms, put=__set__yTransforms))  _yTransforms;
+ System::Collections::Generic::List_1<UnityEngine::Transform> __declspec(property(get=__get__yTransforms, put=__set__yTransforms))  _yTransforms;
 
-constexpr void __set__yTransforms(::System::Collections::Generic::List_1<::UnityEngine::Transform> value) ;
+constexpr void __set__yTransforms(System::Collections::Generic::List_1<UnityEngine::Transform> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Transform> __get__yTransforms() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::Transform> __get__yTransforms() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::Transform> __declspec(property(get=__get__zTransforms, put=__set__zTransforms))  _zTransforms;
+ System::Collections::Generic::List_1<UnityEngine::Transform> __declspec(property(get=__get__zTransforms, put=__set__zTransforms))  _zTransforms;
 
-constexpr void __set__zTransforms(::System::Collections::Generic::List_1<::UnityEngine::Transform> value) ;
+constexpr void __set__zTransforms(System::Collections::Generic::List_1<UnityEngine::Transform> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Transform> __get__zTransforms() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::Transform> __get__zTransforms() const;
 
 
 // Properties
@@ -115,11 +114,11 @@ constexpr ::System::Collections::Generic::List_1<::UnityEngine::Transform> __get
 
  bool __declspec(property(get=get_mirrorZ))  mirrorZ;
 
- ::System::Collections::Generic::List_1<::UnityEngine::Transform> __declspec(property(get=get_xTransforms))  xTransforms;
+ System::Collections::Generic::List_1<UnityEngine::Transform> __declspec(property(get=get_xTransforms))  xTransforms;
 
- ::System::Collections::Generic::List_1<::UnityEngine::Transform> __declspec(property(get=get_yTransforms))  yTransforms;
+ System::Collections::Generic::List_1<UnityEngine::Transform> __declspec(property(get=get_yTransforms))  yTransforms;
 
- ::System::Collections::Generic::List_1<::UnityEngine::Transform> __declspec(property(get=get_zTransforms))  zTransforms;
+ System::Collections::Generic::List_1<UnityEngine::Transform> __declspec(property(get=get_zTransforms))  zTransforms;
 
  int32_t __declspec(property(get=get_count))  count;
 
@@ -136,13 +135,13 @@ constexpr ::System::Collections::Generic::List_1<::UnityEngine::Transform> __get
  bool get_mirrorZ() ;
 
 /// @brief Method get_xTransforms addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Collections::Generic::List_1<::UnityEngine::Transform> get_xTransforms() ;
+ System::Collections::Generic::List_1<UnityEngine::Transform> get_xTransforms() ;
 
 /// @brief Method get_yTransforms addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Collections::Generic::List_1<::UnityEngine::Transform> get_yTransforms() ;
+ System::Collections::Generic::List_1<UnityEngine::Transform> get_yTransforms() ;
 
 /// @brief Method get_zTransforms addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Collections::Generic::List_1<::UnityEngine::Transform> get_zTransforms() ;
+ System::Collections::Generic::List_1<UnityEngine::Transform> get_zTransforms() ;
 
 /// @brief Method get_count addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t get_count() ;
@@ -157,5 +156,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::LightTransformGroup_3, "", "LightTransformGroup`3");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::LightTransformGroup_3, "", "LightTransformGroup`3");

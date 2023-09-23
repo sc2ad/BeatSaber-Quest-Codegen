@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security::Cryptography {
 class RNGCryptoServiceProvider;
@@ -15,7 +14,7 @@ namespace System::Security::Cryptography {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2942))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2978))
 // CS Name: System.Security.Cryptography.RNGCryptoServiceProvider
-class CORDL_TYPE RNGCryptoServiceProvider : public ::System::Security::Cryptography::RandomNumberGenerator {
+class CORDL_TYPE RNGCryptoServiceProvider : public System::Security::Cryptography::RandomNumberGenerator {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr RNGCryptoServiceProvider(RNGCryptoServiceProvider const& ) noexcept = 
 constexpr RNGCryptoServiceProvider(RNGCryptoServiceProvider&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RNGCryptoServiceProvider(void* ptr) noexcept : ::System::Security::Cryptography::RandomNumberGenerator(ptr) {
+constexpr explicit RNGCryptoServiceProvider(void* ptr) noexcept : System::Security::Cryptography::RandomNumberGenerator(ptr) {
 }
 
 
@@ -100,6 +99,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::RNGCryptoServiceProvider);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::RNGCryptoServiceProvider, "System.Security.Cryptography", "RNGCryptoServiceProvider");
+NEED_NO_BOX(System::Security::Cryptography::RNGCryptoServiceProvider);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RNGCryptoServiceProvider, "System.Security.Cryptography", "RNGCryptoServiceProvider");

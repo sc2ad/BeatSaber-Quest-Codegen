@@ -3,12 +3,11 @@
 #include "TMPro/zzzz__TMP_TextElement_Legacy_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine {
 class Sprite;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace TMPro {
@@ -20,7 +19,7 @@ namespace TMPro {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12391))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12359))
 // CS Name: TMPro.TMP_Sprite
-class CORDL_TYPE TMP_Sprite : public ::TMPro::TMP_TextElement_Legacy {
+class CORDL_TYPE TMP_Sprite : public TMPro::TMP_TextElement_Legacy {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr TMP_Sprite(TMP_Sprite const& ) noexcept = default;
 constexpr TMP_Sprite(TMP_Sprite&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TMP_Sprite(void* ptr) noexcept : ::TMPro::TMP_TextElement_Legacy(ptr) {
+constexpr explicit TMP_Sprite(void* ptr) noexcept : TMPro::TMP_TextElement_Legacy(ptr) {
 }
 
 
@@ -74,17 +73,17 @@ constexpr void __set_unicode(int32_t value) ;
 
 constexpr int32_t __get_unicode() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_pivot, put=__set_pivot))  pivot;
+ UnityEngine::Vector2 __declspec(property(get=__get_pivot, put=__set_pivot))  pivot;
 
-constexpr void __set_pivot(::UnityEngine::Vector2 value) ;
+constexpr void __set_pivot(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_pivot() const;
+constexpr UnityEngine::Vector2 __get_pivot() const;
 
- ::UnityEngine::Sprite __declspec(property(get=__get_sprite, put=__set_sprite))  sprite;
+ UnityEngine::Sprite __declspec(property(get=__get_sprite, put=__set_sprite))  sprite;
 
-constexpr void __set_sprite(::UnityEngine::Sprite value) ;
+constexpr void __set_sprite(UnityEngine::Sprite value) ;
 
-constexpr ::UnityEngine::Sprite __get_sprite() const;
+constexpr UnityEngine::Sprite __get_sprite() const;
 
 
 // Methods
@@ -99,6 +98,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-NEED_NO_BOX(::TMPro::TMP_Sprite);
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_Sprite, "TMPro", "TMP_Sprite");
+NEED_NO_BOX(TMPro::TMP_Sprite);
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Sprite, "TMPro", "TMP_Sprite");

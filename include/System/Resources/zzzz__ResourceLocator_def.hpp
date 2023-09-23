@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System::Resources {
 struct ResourceTypeCode;
 }
@@ -89,11 +88,10 @@ constexpr int32_t __get__dataPos() const;
  void set_Value(::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method CanCache addr 0x2374344 size 0xc virtual false final false
-static bool CanCache(::System::Resources::ResourceTypeCode value) ;
+static bool CanCache(System::Resources::ResourceTypeCode value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Resources
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Resources::ResourceLocator, "System.Resources", "ResourceLocator");
+DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceLocator, "System.Resources", "ResourceLocator");

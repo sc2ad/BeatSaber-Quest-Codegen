@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class ISubsystemDescriptor;
-}
 namespace UnityEngine {
 class ISubsystem;
+}
+namespace UnityEngine {
+class ISubsystemDescriptor;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -22,8 +21,8 @@ namespace UnityEngine {
 class CORDL_TYPE IntegratedSubsystem : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::ISubsystem
-constexpr operator  ::UnityEngine::ISubsystem() const noexcept;
+/// @brief Convert operator to UnityEngine::ISubsystem
+constexpr operator  UnityEngine::ISubsystem() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -64,11 +63,11 @@ constexpr void __set_m_Ptr(::cordl_internals::intptr_t value) ;
 
 constexpr ::cordl_internals::intptr_t __get_m_Ptr() const;
 
- ::UnityEngine::ISubsystemDescriptor __declspec(property(get=__get_m_SubsystemDescriptor, put=__set_m_SubsystemDescriptor))  m_SubsystemDescriptor;
+ UnityEngine::ISubsystemDescriptor __declspec(property(get=__get_m_SubsystemDescriptor, put=__set_m_SubsystemDescriptor))  m_SubsystemDescriptor;
 
-constexpr void __set_m_SubsystemDescriptor(::UnityEngine::ISubsystemDescriptor value) ;
+constexpr void __set_m_SubsystemDescriptor(UnityEngine::ISubsystemDescriptor value) ;
 
-constexpr ::UnityEngine::ISubsystemDescriptor __get_m_SubsystemDescriptor() const;
+constexpr UnityEngine::ISubsystemDescriptor __get_m_SubsystemDescriptor() const;
 
 
 // Properties
@@ -81,7 +80,7 @@ constexpr ::UnityEngine::ISubsystemDescriptor __get_m_SubsystemDescriptor() cons
 // Methods
 
 /// @brief Method SetHandle addr 0x2ba30fc size 0x44 virtual false final false
- void SetHandle(::UnityEngine::IntegratedSubsystem subsystem) ;
+ void SetHandle(UnityEngine::IntegratedSubsystem subsystem) ;
 
 /// @brief Method Start addr 0x2ba3140 size 0x3c virtual true final true
  void Start() ;
@@ -111,6 +110,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::IntegratedSubsystem);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::IntegratedSubsystem, "UnityEngine", "IntegratedSubsystem");
+NEED_NO_BOX(UnityEngine::IntegratedSubsystem);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::IntegratedSubsystem, "UnityEngine", "IntegratedSubsystem");

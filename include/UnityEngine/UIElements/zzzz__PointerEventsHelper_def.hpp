@@ -2,12 +2,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::UIElements {
 class VisualElement;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine::UIElements {
 class IPointerEvent;
@@ -60,15 +59,14 @@ constexpr explicit PointerEventsHelper(void* ptr) noexcept : ::bs_hook::Il2CppWr
 
 /// @brief Method SendEnterLeave addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TLeaveEvent,typename TEnterEvent>
-static void SendEnterLeave(::UnityEngine::UIElements::VisualElement previousTopElementUnderPointer, ::UnityEngine::UIElements::VisualElement currentTopElementUnderPointer, ::UnityEngine::UIElements::IPointerEvent triggerEvent, ::UnityEngine::Vector2 position, int32_t pointerId) ;
+static void SendEnterLeave(UnityEngine::UIElements::VisualElement previousTopElementUnderPointer, UnityEngine::UIElements::VisualElement currentTopElementUnderPointer, UnityEngine::UIElements::IPointerEvent triggerEvent, UnityEngine::Vector2 position, int32_t pointerId) ;
 
 /// @brief Method SendOverOut addr 0x2cd1ea0 size 0x380 virtual false final false
-static void SendOverOut(::UnityEngine::UIElements::VisualElement previousTopElementUnderPointer, ::UnityEngine::UIElements::VisualElement currentTopElementUnderPointer, ::UnityEngine::UIElements::IPointerEvent triggerEvent, ::UnityEngine::Vector2 position, int32_t pointerId) ;
+static void SendOverOut(UnityEngine::UIElements::VisualElement previousTopElementUnderPointer, UnityEngine::UIElements::VisualElement currentTopElementUnderPointer, UnityEngine::UIElements::IPointerEvent triggerEvent, UnityEngine::Vector2 position, int32_t pointerId) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::PointerEventsHelper);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::PointerEventsHelper, "UnityEngine.UIElements", "PointerEventsHelper");
+NEED_NO_BOX(UnityEngine::UIElements::PointerEventsHelper);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::PointerEventsHelper, "UnityEngine.UIElements", "PointerEventsHelper");

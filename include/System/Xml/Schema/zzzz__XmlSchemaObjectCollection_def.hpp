@@ -3,7 +3,6 @@
 #include "System/Collections/zzzz__CollectionBase_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Xml::Schema {
 class XmlSchemaObject;
 }
@@ -17,7 +16,7 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3758))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11673))
 // CS Name: System.Xml.Schema.XmlSchemaObjectCollection
-class CORDL_TYPE XmlSchemaObjectCollection : public ::System::Collections::CollectionBase {
+class CORDL_TYPE XmlSchemaObjectCollection : public System::Collections::CollectionBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr XmlSchemaObjectCollection(XmlSchemaObjectCollection const& ) noexcept 
 constexpr XmlSchemaObjectCollection(XmlSchemaObjectCollection&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XmlSchemaObjectCollection(void* ptr) noexcept : ::System::Collections::CollectionBase(ptr) {
+constexpr explicit XmlSchemaObjectCollection(void* ptr) noexcept : System::Collections::CollectionBase(ptr) {
 }
 
 
@@ -53,11 +52,11 @@ constexpr explicit XmlSchemaObjectCollection(void* ptr) noexcept : ::System::Col
 
 // Fields
 
- ::System::Xml::Schema::XmlSchemaObject __declspec(property(get=__get_parent, put=__set_parent))  parent;
+ System::Xml::Schema::XmlSchemaObject __declspec(property(get=__get_parent, put=__set_parent))  parent;
 
-constexpr void __set_parent(::System::Xml::Schema::XmlSchemaObject value) ;
+constexpr void __set_parent(System::Xml::Schema::XmlSchemaObject value) ;
 
-constexpr ::System::Xml::Schema::XmlSchemaObject __get_parent() const;
+constexpr System::Xml::Schema::XmlSchemaObject __get_parent() const;
 
 
 // Methods
@@ -69,7 +68,7 @@ explicit XmlSchemaObjectCollection() ;
  void _ctor() ;
 
 /// @brief Method Add addr 0x2734258 size 0xb8 virtual false final false
- int32_t Add(::System::Xml::Schema::XmlSchemaObject item) ;
+ int32_t Add(System::Xml::Schema::XmlSchemaObject item) ;
 
 /// @brief Method OnInsert addr 0x27352c4 size 0x1c virtual true final false
  void OnInsert(int32_t index, ::bs_hook::Il2CppWrapperType item) ;
@@ -87,6 +86,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::XmlSchemaObjectCollection);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlSchemaObjectCollection, "System.Xml.Schema", "XmlSchemaObjectCollection");
+NEED_NO_BOX(System::Xml::Schema::XmlSchemaObjectCollection);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::XmlSchemaObjectCollection, "System.Xml.Schema", "XmlSchemaObjectCollection");

@@ -3,7 +3,6 @@
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::IO {
 class Stream;
 }
@@ -17,7 +16,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1020))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1045))
 // CS Name: Org.BouncyCastle.Crypto.Parameters.Ed448PublicKeyParameters
-class CORDL_TYPE Ed448PublicKeyParameters : public ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter {
+class CORDL_TYPE Ed448PublicKeyParameters : public Org::BouncyCastle::Crypto::AsymmetricKeyParameter {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr Ed448PublicKeyParameters(Ed448PublicKeyParameters const& ) noexcept = 
 constexpr Ed448PublicKeyParameters(Ed448PublicKeyParameters&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Ed448PublicKeyParameters(void* ptr) noexcept : ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter(ptr) {
+constexpr explicit Ed448PublicKeyParameters(void* ptr) noexcept : Org::BouncyCastle::Crypto::AsymmetricKeyParameter(ptr) {
 }
 
 
@@ -74,11 +73,11 @@ explicit Ed448PublicKeyParameters(::ArrayW<uint8_t> buf, int32_t off) ;
 /// @brief Method .ctor addr 0xea7eb8 size 0xbc virtual false final false
  void _ctor(::ArrayW<uint8_t> buf, int32_t off) ;
 
-// Ctor Parameters [CppParam { name: "input", ty: "::System::IO::Stream", modifiers: "", def_value: None }]
-explicit Ed448PublicKeyParameters(::System::IO::Stream input) ;
+// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }]
+explicit Ed448PublicKeyParameters(System::IO::Stream input) ;
 
 /// @brief Method .ctor addr 0xea82bc size 0x108 virtual false final false
- void _ctor(::System::IO::Stream input) ;
+ void _ctor(System::IO::Stream input) ;
 
 /// @brief Method Encode addr 0xea81c0 size 0x84 virtual false final false
  void Encode(::ArrayW<uint8_t> buf, int32_t off) ;
@@ -90,6 +89,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Parameters
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters, "Org.BouncyCastle.Crypto.Parameters", "Ed448PublicKeyParameters");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters, "Org.BouncyCastle.Crypto.Parameters", "Ed448PublicKeyParameters");

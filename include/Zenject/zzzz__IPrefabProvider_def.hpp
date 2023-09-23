@@ -1,6 +1,5 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace UnityEngine {
 class Object;
 }
@@ -27,12 +26,11 @@ constexpr explicit IPrefabProvider(void* ptr) noexcept : ::cordl_internals::Inte
 // Methods
 
 /// @brief Method GetPrefab addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Object GetPrefab() ;
+ UnityEngine::Object GetPrefab() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::IPrefabProvider);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::IPrefabProvider, "Zenject", "IPrefabProvider");
+NEED_NO_BOX(Zenject::IPrefabProvider);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::IPrefabProvider, "Zenject", "IPrefabProvider");

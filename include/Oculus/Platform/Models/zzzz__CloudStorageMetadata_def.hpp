@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform {
 struct CloudStorageDataStatus;
 }
@@ -89,11 +88,11 @@ constexpr void __set_SaveTime(uint64_t value) ;
 
 constexpr uint64_t __get_SaveTime() const;
 
- ::Oculus::Platform::CloudStorageDataStatus __declspec(property(get=__get_Status, put=__set_Status))  Status;
+ Oculus::Platform::CloudStorageDataStatus __declspec(property(get=__get_Status, put=__set_Status))  Status;
 
-constexpr void __set_Status(::Oculus::Platform::CloudStorageDataStatus value) ;
+constexpr void __set_Status(Oculus::Platform::CloudStorageDataStatus value) ;
 
-constexpr ::Oculus::Platform::CloudStorageDataStatus __get_Status() const;
+constexpr Oculus::Platform::CloudStorageDataStatus __get_Status() const;
 
  ::StringW __declspec(property(get=__get_VersionHandle, put=__set_VersionHandle))  VersionHandle;
 
@@ -114,6 +113,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::CloudStorageMetadata);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::CloudStorageMetadata, "Oculus.Platform.Models", "CloudStorageMetadata");
+NEED_NO_BOX(Oculus::Platform::Models::CloudStorageMetadata);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::CloudStorageMetadata, "Oculus.Platform.Models", "CloudStorageMetadata");

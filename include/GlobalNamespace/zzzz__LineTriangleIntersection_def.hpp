@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace UnityEngine {
-struct Ray;
-}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+struct Ray;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -55,7 +54,7 @@ constexpr explicit LineTriangleIntersection(void* ptr) noexcept : ::bs_hook::Il2
 // Methods
 
 /// @brief Method Intersects addr 0x1f78dbc size 0x8 virtual false final false
-static bool Intersects(::UnityEngine::Ray ray, ::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2) ;
+static bool Intersects(UnityEngine::Ray ray, UnityEngine::Vector3 p0, UnityEngine::Vector3 p1, UnityEngine::Vector3 p2) ;
 
 // Ctor Parameters []
 explicit LineTriangleIntersection() ;
@@ -67,6 +66,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LineTriangleIntersection);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LineTriangleIntersection, "", "LineTriangleIntersection");
+NEED_NO_BOX(GlobalNamespace::LineTriangleIntersection);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LineTriangleIntersection, "", "LineTriangleIntersection");

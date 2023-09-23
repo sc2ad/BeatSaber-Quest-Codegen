@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Xml {
 class XmlNode;
 }
@@ -21,8 +20,8 @@ namespace System::Diagnostics {
 class CORDL_TYPE DiagnosticsConfigurationHandler : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Configuration::IConfigurationSectionHandler
-constexpr operator  ::System::Configuration::IConfigurationSectionHandler() const noexcept;
+/// @brief Convert operator to System::Configuration::IConfigurationSectionHandler
+constexpr operator  System::Configuration::IConfigurationSectionHandler() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -64,12 +63,11 @@ explicit DiagnosticsConfigurationHandler() ;
  void _ctor() ;
 
 /// @brief Method Create addr 0x27b282c size 0x38 virtual true final false
- ::bs_hook::Il2CppWrapperType Create(::bs_hook::Il2CppWrapperType parent, ::bs_hook::Il2CppWrapperType configContext, ::System::Xml::XmlNode section) ;
+ ::bs_hook::Il2CppWrapperType Create(::bs_hook::Il2CppWrapperType parent, ::bs_hook::Il2CppWrapperType configContext, System::Xml::XmlNode section) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Diagnostics
-} // end anonymous namespace
-NEED_NO_BOX(::System::Diagnostics::DiagnosticsConfigurationHandler);
-DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::DiagnosticsConfigurationHandler, "System.Diagnostics", "DiagnosticsConfigurationHandler");
+NEED_NO_BOX(System::Diagnostics::DiagnosticsConfigurationHandler);
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DiagnosticsConfigurationHandler, "System.Diagnostics", "DiagnosticsConfigurationHandler");

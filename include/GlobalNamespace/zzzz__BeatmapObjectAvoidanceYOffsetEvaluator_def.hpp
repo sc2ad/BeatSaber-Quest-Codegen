@@ -5,22 +5,21 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
-class IAudioTimeSource;
+struct GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData;
 }
 namespace GlobalNamespace {
 class IBeatmapObjectSpawnController;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData;
+class IAudioTimeSource;
 }
 // Forward declare root types
 namespace GlobalNamespace {
 class BeatmapObjectAvoidanceYOffsetEvaluator;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData;
+struct GlobalNamespace__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData;
 }
 // Type: ::BufferData
 namespace GlobalNamespace {
@@ -28,20 +27,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3944))
 // CS Name: BeatmapObjectAvoidanceYOffsetEvaluator::BufferData
-struct CORDL_TYPE ____GlobalNamespace__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "songTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "yOffset", ty: "float_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData(float_t songTime, float_t yOffset) noexcept;
+constexpr GlobalNamespace__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData(float_t songTime, float_t yOffset) noexcept;
 
 
-                    constexpr ____GlobalNamespace__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData(____GlobalNamespace__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData const&) = default;
-                    constexpr ____GlobalNamespace__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData(____GlobalNamespace__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData&&) = default;
-                    constexpr ____GlobalNamespace__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData& operator=(____GlobalNamespace__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData const& o) {
+                    constexpr GlobalNamespace__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData(GlobalNamespace__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData const&) = default;
+                    constexpr GlobalNamespace__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData(GlobalNamespace__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData&&) = default;
+                    constexpr GlobalNamespace__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData& operator=(GlobalNamespace__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData& operator=(____GlobalNamespace__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData&& o) noexcept {
+                    constexpr GlobalNamespace__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData& operator=(GlobalNamespace__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -54,7 +53,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x8};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -96,7 +95,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapObjectAvoidanceYOffsetEvaluator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using BufferData = ::GlobalNamespace::____GlobalNamespace__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData;
+using BufferData = GlobalNamespace::GlobalNamespace__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -149,32 +148,32 @@ constexpr void __set__jumpDurationToDesiredZPosition(float_t value) ;
 
 constexpr float_t __get__jumpDurationToDesiredZPosition() const;
 
- ::ArrayW<::GlobalNamespace::____GlobalNamespace__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData> __declspec(property(get=__get__yJumpOffsetBuffer, put=__set__yJumpOffsetBuffer))  _yJumpOffsetBuffer;
+ ::ArrayW<GlobalNamespace::GlobalNamespace__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData> __declspec(property(get=__get__yJumpOffsetBuffer, put=__set__yJumpOffsetBuffer))  _yJumpOffsetBuffer;
 
-constexpr void __set__yJumpOffsetBuffer(::ArrayW<::GlobalNamespace::____GlobalNamespace__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData> value) ;
+constexpr void __set__yJumpOffsetBuffer(::ArrayW<GlobalNamespace::GlobalNamespace__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::____GlobalNamespace__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData> __get__yJumpOffsetBuffer() const;
+constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData> __get__yJumpOffsetBuffer() const;
 
- ::GlobalNamespace::IAudioTimeSource __declspec(property(get=__get__audioTimeSource, put=__set__audioTimeSource))  _audioTimeSource;
+ GlobalNamespace::IAudioTimeSource __declspec(property(get=__get__audioTimeSource, put=__set__audioTimeSource))  _audioTimeSource;
 
-constexpr void __set__audioTimeSource(::GlobalNamespace::IAudioTimeSource value) ;
+constexpr void __set__audioTimeSource(GlobalNamespace::IAudioTimeSource value) ;
 
-constexpr ::GlobalNamespace::IAudioTimeSource __get__audioTimeSource() const;
+constexpr GlobalNamespace::IAudioTimeSource __get__audioTimeSource() const;
 
- ::GlobalNamespace::IBeatmapObjectSpawnController __declspec(property(get=__get__beatmapObjectSpawnController, put=__set__beatmapObjectSpawnController))  _beatmapObjectSpawnController;
+ GlobalNamespace::IBeatmapObjectSpawnController __declspec(property(get=__get__beatmapObjectSpawnController, put=__set__beatmapObjectSpawnController))  _beatmapObjectSpawnController;
 
-constexpr void __set__beatmapObjectSpawnController(::GlobalNamespace::IBeatmapObjectSpawnController value) ;
+constexpr void __set__beatmapObjectSpawnController(GlobalNamespace::IBeatmapObjectSpawnController value) ;
 
-constexpr ::GlobalNamespace::IBeatmapObjectSpawnController __get__beatmapObjectSpawnController() const;
+constexpr GlobalNamespace::IBeatmapObjectSpawnController __get__beatmapObjectSpawnController() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "audioTimeSource", ty: "::GlobalNamespace::IAudioTimeSource", modifiers: "", def_value: None }, CppParam { name: "beatmapObjectSpawnController", ty: "::GlobalNamespace::IBeatmapObjectSpawnController", modifiers: "", def_value: None }, CppParam { name: "moveToPlayerHeadTParam", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "noteSpawnData", ty: "::GlobalNamespace::____GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData", modifiers: "", def_value: None }]
-explicit BeatmapObjectAvoidanceYOffsetEvaluator(::GlobalNamespace::IAudioTimeSource audioTimeSource, ::GlobalNamespace::IBeatmapObjectSpawnController beatmapObjectSpawnController, float_t moveToPlayerHeadTParam, ::GlobalNamespace::____GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData noteSpawnData) ;
+// Ctor Parameters [CppParam { name: "audioTimeSource", ty: "GlobalNamespace::IAudioTimeSource", modifiers: "", def_value: None }, CppParam { name: "beatmapObjectSpawnController", ty: "GlobalNamespace::IBeatmapObjectSpawnController", modifiers: "", def_value: None }, CppParam { name: "moveToPlayerHeadTParam", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "noteSpawnData", ty: "GlobalNamespace::GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData", modifiers: "", def_value: None }]
+explicit BeatmapObjectAvoidanceYOffsetEvaluator(GlobalNamespace::IAudioTimeSource audioTimeSource, GlobalNamespace::IBeatmapObjectSpawnController beatmapObjectSpawnController, float_t moveToPlayerHeadTParam, GlobalNamespace::GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData noteSpawnData) ;
 
 /// @brief Method .ctor addr 0x20a4e34 size 0x154 virtual false final false
- void _ctor(::GlobalNamespace::IAudioTimeSource audioTimeSource, ::GlobalNamespace::IBeatmapObjectSpawnController beatmapObjectSpawnController, float_t moveToPlayerHeadTParam, ::GlobalNamespace::____GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData noteSpawnData) ;
+ void _ctor(GlobalNamespace::IAudioTimeSource audioTimeSource, GlobalNamespace::IBeatmapObjectSpawnController beatmapObjectSpawnController, float_t moveToPlayerHeadTParam, GlobalNamespace::GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData noteSpawnData) ;
 
 /// @brief Method ManualUpdate addr 0x20a4f90 size 0x178 virtual false final false
  void ManualUpdate() ;
@@ -186,7 +185,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator, "", "BeatmapObjectAvoidanceYOffsetEvaluator");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData, "", "BeatmapObjectAvoidanceYOffsetEvaluator/BufferData");
+NEED_NO_BOX(GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator, "", "BeatmapObjectAvoidanceYOffsetEvaluator");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData, "", "BeatmapObjectAvoidanceYOffsetEvaluator/BufferData");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace BeatSaberAPI::DataTransferObjects {
 struct UserPlatform;
@@ -71,26 +70,25 @@ constexpr void __set_value__(uint8_t value) ;
 constexpr uint8_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::BeatSaberAPI::DataTransferObjects::UserPlatform const None;
+static BeatSaberAPI::DataTransferObjects::UserPlatform const None;
 
 /// @brief Field Test offset 0
-static ::BeatSaberAPI::DataTransferObjects::UserPlatform const Test;
+static BeatSaberAPI::DataTransferObjects::UserPlatform const Test;
 
 /// @brief Field Steam offset 0
-static ::BeatSaberAPI::DataTransferObjects::UserPlatform const Steam;
+static BeatSaberAPI::DataTransferObjects::UserPlatform const Steam;
 
 /// @brief Field PlayStation offset 0
-static ::BeatSaberAPI::DataTransferObjects::UserPlatform const PlayStation;
+static BeatSaberAPI::DataTransferObjects::UserPlatform const PlayStation;
 
 /// @brief Field OculusPC offset 0
-static ::BeatSaberAPI::DataTransferObjects::UserPlatform const OculusPC;
+static BeatSaberAPI::DataTransferObjects::UserPlatform const OculusPC;
 
 /// @brief Field OculusQuest offset 0
-static ::BeatSaberAPI::DataTransferObjects::UserPlatform const OculusQuest;
+static BeatSaberAPI::DataTransferObjects::UserPlatform const OculusQuest;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def BeatSaberAPI::DataTransferObjects
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaberAPI::DataTransferObjects::UserPlatform, "BeatSaberAPI.DataTransferObjects", "UserPlatform");
+DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::UserPlatform, "BeatSaberAPI.DataTransferObjects", "UserPlatform");

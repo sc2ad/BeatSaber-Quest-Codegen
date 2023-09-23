@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__MockPlayerLobbyPoseGenerator_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
 namespace GlobalNamespace {
 class NodePoseSyncStateManager;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15498))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5281))
 // CS Name: MockPlayerLobbyPoseGeneratorMirror
-class CORDL_TYPE MockPlayerLobbyPoseGeneratorMirror : public ::GlobalNamespace::MockPlayerLobbyPoseGenerator {
+class CORDL_TYPE MockPlayerLobbyPoseGeneratorMirror : public GlobalNamespace::MockPlayerLobbyPoseGenerator {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr MockPlayerLobbyPoseGeneratorMirror(MockPlayerLobbyPoseGeneratorMirror 
 constexpr MockPlayerLobbyPoseGeneratorMirror(MockPlayerLobbyPoseGeneratorMirror&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MockPlayerLobbyPoseGeneratorMirror(void* ptr) noexcept : ::GlobalNamespace::MockPlayerLobbyPoseGenerator(ptr) {
+constexpr explicit MockPlayerLobbyPoseGeneratorMirror(void* ptr) noexcept : GlobalNamespace::MockPlayerLobbyPoseGenerator(ptr) {
 }
 
 
@@ -54,20 +53,20 @@ constexpr explicit MockPlayerLobbyPoseGeneratorMirror(void* ptr) noexcept : ::Gl
 
 // Fields
 
- ::GlobalNamespace::NodePoseSyncStateManager __declspec(property(get=__get__nodePoseSyncStateManager, put=__set__nodePoseSyncStateManager))  _nodePoseSyncStateManager;
+ GlobalNamespace::NodePoseSyncStateManager __declspec(property(get=__get__nodePoseSyncStateManager, put=__set__nodePoseSyncStateManager))  _nodePoseSyncStateManager;
 
-constexpr void __set__nodePoseSyncStateManager(::GlobalNamespace::NodePoseSyncStateManager value) ;
+constexpr void __set__nodePoseSyncStateManager(GlobalNamespace::NodePoseSyncStateManager value) ;
 
-constexpr ::GlobalNamespace::NodePoseSyncStateManager __get__nodePoseSyncStateManager() const;
+constexpr GlobalNamespace::NodePoseSyncStateManager __get__nodePoseSyncStateManager() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "multiplayerSessionManager", ty: "::GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }, CppParam { name: "nodePoseSyncStateManager", ty: "::GlobalNamespace::NodePoseSyncStateManager", modifiers: "", def_value: None }]
-explicit MockPlayerLobbyPoseGeneratorMirror(::GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, ::GlobalNamespace::NodePoseSyncStateManager nodePoseSyncStateManager) ;
+// Ctor Parameters [CppParam { name: "multiplayerSessionManager", ty: "GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }, CppParam { name: "nodePoseSyncStateManager", ty: "GlobalNamespace::NodePoseSyncStateManager", modifiers: "", def_value: None }]
+explicit MockPlayerLobbyPoseGeneratorMirror(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::NodePoseSyncStateManager nodePoseSyncStateManager) ;
 
 /// @brief Method .ctor addr 0x20ed958 size 0x28 virtual false final false
- void _ctor(::GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, ::GlobalNamespace::NodePoseSyncStateManager nodePoseSyncStateManager) ;
+ void _ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::NodePoseSyncStateManager nodePoseSyncStateManager) ;
 
 /// @brief Method Init addr 0x20ef6cc size 0x4 virtual true final false
  void Init() ;
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror, "", "MockPlayerLobbyPoseGeneratorMirror");
+NEED_NO_BOX(GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror, "", "MockPlayerLobbyPoseGeneratorMirror");

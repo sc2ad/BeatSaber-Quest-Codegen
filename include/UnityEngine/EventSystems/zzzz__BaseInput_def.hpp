@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine {
 struct Touch;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine {
 struct IMECompositionMode;
@@ -24,7 +23,7 @@ namespace UnityEngine::EventSystems {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13153))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13137))
 // CS Name: UnityEngine.EventSystems.BaseInput
-class CORDL_TYPE BaseInput : public ::UnityEngine::EventSystems::UIBehaviour {
+class CORDL_TYPE BaseInput : public UnityEngine::EventSystems::UIBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr BaseInput(BaseInput const& ) noexcept = default;
 constexpr BaseInput(BaseInput&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BaseInput(void* ptr) noexcept : ::UnityEngine::EventSystems::UIBehaviour(ptr) {
+constexpr explicit BaseInput(void* ptr) noexcept : UnityEngine::EventSystems::UIBehaviour(ptr) {
 }
 
 
@@ -62,15 +61,15 @@ constexpr explicit BaseInput(void* ptr) noexcept : ::UnityEngine::EventSystems::
 
  ::StringW __declspec(property(get=get_compositionString))  compositionString;
 
- ::UnityEngine::IMECompositionMode __declspec(property(get=get_imeCompositionMode, put=set_imeCompositionMode))  imeCompositionMode;
+ UnityEngine::IMECompositionMode __declspec(property(get=get_imeCompositionMode, put=set_imeCompositionMode))  imeCompositionMode;
 
- ::UnityEngine::Vector2 __declspec(property(get=get_compositionCursorPos, put=set_compositionCursorPos))  compositionCursorPos;
+ UnityEngine::Vector2 __declspec(property(get=get_compositionCursorPos, put=set_compositionCursorPos))  compositionCursorPos;
 
  bool __declspec(property(get=get_mousePresent))  mousePresent;
 
- ::UnityEngine::Vector2 __declspec(property(get=get_mousePosition))  mousePosition;
+ UnityEngine::Vector2 __declspec(property(get=get_mousePosition))  mousePosition;
 
- ::UnityEngine::Vector2 __declspec(property(get=get_mouseScrollDelta))  mouseScrollDelta;
+ UnityEngine::Vector2 __declspec(property(get=get_mouseScrollDelta))  mouseScrollDelta;
 
  bool __declspec(property(get=get_touchSupported))  touchSupported;
 
@@ -83,16 +82,16 @@ constexpr explicit BaseInput(void* ptr) noexcept : ::UnityEngine::EventSystems::
  ::StringW get_compositionString() ;
 
 /// @brief Method get_imeCompositionMode addr 0x2c215d4 size 0x8 virtual true final false
- ::UnityEngine::IMECompositionMode get_imeCompositionMode() ;
+ UnityEngine::IMECompositionMode get_imeCompositionMode() ;
 
 /// @brief Method set_imeCompositionMode addr 0x2c215dc size 0xc virtual true final false
- void set_imeCompositionMode(::UnityEngine::IMECompositionMode value) ;
+ void set_imeCompositionMode(UnityEngine::IMECompositionMode value) ;
 
 /// @brief Method get_compositionCursorPos addr 0x2c215e8 size 0x8 virtual true final false
- ::UnityEngine::Vector2 get_compositionCursorPos() ;
+ UnityEngine::Vector2 get_compositionCursorPos() ;
 
 /// @brief Method set_compositionCursorPos addr 0x2c215f0 size 0x8 virtual true final false
- void set_compositionCursorPos(::UnityEngine::Vector2 value) ;
+ void set_compositionCursorPos(UnityEngine::Vector2 value) ;
 
 /// @brief Method get_mousePresent addr 0x2c215f8 size 0x8 virtual true final false
  bool get_mousePresent() ;
@@ -107,10 +106,10 @@ constexpr explicit BaseInput(void* ptr) noexcept : ::UnityEngine::EventSystems::
  bool GetMouseButton(int32_t button) ;
 
 /// @brief Method get_mousePosition addr 0x2c21624 size 0x8 virtual true final false
- ::UnityEngine::Vector2 get_mousePosition() ;
+ UnityEngine::Vector2 get_mousePosition() ;
 
 /// @brief Method get_mouseScrollDelta addr 0x2c2162c size 0x8 virtual true final false
- ::UnityEngine::Vector2 get_mouseScrollDelta() ;
+ UnityEngine::Vector2 get_mouseScrollDelta() ;
 
 /// @brief Method get_touchSupported addr 0x2c21634 size 0x8 virtual true final false
  bool get_touchSupported() ;
@@ -119,7 +118,7 @@ constexpr explicit BaseInput(void* ptr) noexcept : ::UnityEngine::EventSystems::
  int32_t get_touchCount() ;
 
 /// @brief Method GetTouch addr 0x2c21644 size 0x38 virtual true final false
- ::UnityEngine::Touch GetTouch(int32_t index) ;
+ UnityEngine::Touch GetTouch(int32_t index) ;
 
 /// @brief Method GetAxisRaw addr 0x2c2167c size 0xc virtual true final false
  float_t GetAxisRaw(::StringW axisName) ;
@@ -137,6 +136,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::EventSystems
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::EventSystems::BaseInput);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::BaseInput, "UnityEngine.EventSystems", "BaseInput");
+NEED_NO_BOX(UnityEngine::EventSystems::BaseInput);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::BaseInput, "UnityEngine.EventSystems", "BaseInput");

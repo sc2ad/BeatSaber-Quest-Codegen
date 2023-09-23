@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__IfNotBoundBinder_def.hpp"
-namespace {
-namespace Zenject {
-class IfNotBoundBinder;
-}
 namespace Zenject {
 class BindInfo;
+}
+namespace Zenject {
+class IfNotBoundBinder;
 }
 // Forward declare root types
 namespace Zenject {
@@ -18,7 +17,7 @@ namespace Zenject {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10864))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10867))
 // CS Name: Zenject.NonLazyBinder
-class CORDL_TYPE NonLazyBinder : public ::Zenject::IfNotBoundBinder {
+class CORDL_TYPE NonLazyBinder : public Zenject::IfNotBoundBinder {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr NonLazyBinder(NonLazyBinder const& ) noexcept = default;
 constexpr NonLazyBinder(NonLazyBinder&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NonLazyBinder(void* ptr) noexcept : ::Zenject::IfNotBoundBinder(ptr) {
+constexpr explicit NonLazyBinder(void* ptr) noexcept : Zenject::IfNotBoundBinder(ptr) {
 }
 
 
@@ -54,22 +53,21 @@ constexpr explicit NonLazyBinder(void* ptr) noexcept : ::Zenject::IfNotBoundBind
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "::Zenject::BindInfo", modifiers: "", def_value: None }]
-explicit NonLazyBinder(::Zenject::BindInfo bindInfo) ;
+// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }]
+explicit NonLazyBinder(Zenject::BindInfo bindInfo) ;
 
 /// @brief Method .ctor addr 0x2d61d20 size 0x28 virtual false final false
- void _ctor(::Zenject::BindInfo bindInfo) ;
+ void _ctor(Zenject::BindInfo bindInfo) ;
 
 /// @brief Method NonLazy addr 0x2d61d48 size 0x20 virtual false final false
- ::Zenject::IfNotBoundBinder NonLazy() ;
+ Zenject::IfNotBoundBinder NonLazy() ;
 
 /// @brief Method Lazy addr 0x2d61d68 size 0x1c virtual false final false
- ::Zenject::IfNotBoundBinder Lazy() ;
+ Zenject::IfNotBoundBinder Lazy() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::NonLazyBinder);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::NonLazyBinder, "Zenject", "NonLazyBinder");
+NEED_NO_BOX(Zenject::NonLazyBinder);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::NonLazyBinder, "Zenject", "NonLazyBinder");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Globalization {
 struct GregorianCalendarTypes;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Localized offset 0
-static ::System::Globalization::GregorianCalendarTypes const Localized;
+static System::Globalization::GregorianCalendarTypes const Localized;
 
 /// @brief Field USEnglish offset 0
-static ::System::Globalization::GregorianCalendarTypes const USEnglish;
+static System::Globalization::GregorianCalendarTypes const USEnglish;
 
 /// @brief Field MiddleEastFrench offset 0
-static ::System::Globalization::GregorianCalendarTypes const MiddleEastFrench;
+static System::Globalization::GregorianCalendarTypes const MiddleEastFrench;
 
 /// @brief Field Arabic offset 0
-static ::System::Globalization::GregorianCalendarTypes const Arabic;
+static System::Globalization::GregorianCalendarTypes const Arabic;
 
 /// @brief Field TransliteratedEnglish offset 0
-static ::System::Globalization::GregorianCalendarTypes const TransliteratedEnglish;
+static System::Globalization::GregorianCalendarTypes const TransliteratedEnglish;
 
 /// @brief Field TransliteratedFrench offset 0
-static ::System::Globalization::GregorianCalendarTypes const TransliteratedFrench;
+static System::Globalization::GregorianCalendarTypes const TransliteratedFrench;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Globalization
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::GregorianCalendarTypes, "System.Globalization", "GregorianCalendarTypes");
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::GregorianCalendarTypes, "System.Globalization", "GregorianCalendarTypes");

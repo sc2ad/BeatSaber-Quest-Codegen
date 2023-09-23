@@ -3,19 +3,18 @@
 #include "HMUI/zzzz__TextSlider_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
+namespace HMUI {
+class ButtonBinder;
+}
 namespace HMUI {
 class TextSlider;
+}
+namespace UnityEngine::UI {
+class Button;
 }
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
-}
-namespace HMUI {
-class ButtonBinder;
-}
-namespace UnityEngine::UI {
-class Button;
 }
 // Forward declare root types
 namespace HMUI {
@@ -27,7 +26,7 @@ namespace HMUI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13611))
 // CS Name: HMUI.RangeValuesTextSlider
-class CORDL_TYPE RangeValuesTextSlider : public ::HMUI::TextSlider {
+class CORDL_TYPE RangeValuesTextSlider : public HMUI::TextSlider {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -42,7 +41,7 @@ constexpr RangeValuesTextSlider(RangeValuesTextSlider const& ) noexcept = defaul
 constexpr RangeValuesTextSlider(RangeValuesTextSlider&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RangeValuesTextSlider(void* ptr) noexcept : ::HMUI::TextSlider(ptr) {
+constexpr explicit RangeValuesTextSlider(void* ptr) noexcept : HMUI::TextSlider(ptr) {
 }
 
 
@@ -75,29 +74,29 @@ constexpr void __set__maxValue(float_t value) ;
 
 constexpr float_t __get__maxValue() const;
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__decButton, put=__set__decButton))  _decButton;
+ UnityEngine::UI::Button __declspec(property(get=__get__decButton, put=__set__decButton))  _decButton;
 
-constexpr void __set__decButton(::UnityEngine::UI::Button value) ;
+constexpr void __set__decButton(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__decButton() const;
+constexpr UnityEngine::UI::Button __get__decButton() const;
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__incButton, put=__set__incButton))  _incButton;
+ UnityEngine::UI::Button __declspec(property(get=__get__incButton, put=__set__incButton))  _incButton;
 
-constexpr void __set__incButton(::UnityEngine::UI::Button value) ;
+constexpr void __set__incButton(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__incButton() const;
+constexpr UnityEngine::UI::Button __get__incButton() const;
 
- ::System::Action_2<::HMUI::RangeValuesTextSlider,float_t> __declspec(property(get=__get_valueDidChangeEvent, put=__set_valueDidChangeEvent))  valueDidChangeEvent;
+ System::Action_2<HMUI::RangeValuesTextSlider,float_t> __declspec(property(get=__get_valueDidChangeEvent, put=__set_valueDidChangeEvent))  valueDidChangeEvent;
 
-constexpr void __set_valueDidChangeEvent(::System::Action_2<::HMUI::RangeValuesTextSlider,float_t> value) ;
+constexpr void __set_valueDidChangeEvent(System::Action_2<HMUI::RangeValuesTextSlider,float_t> value) ;
 
-constexpr ::System::Action_2<::HMUI::RangeValuesTextSlider,float_t> __get_valueDidChangeEvent() const;
+constexpr System::Action_2<HMUI::RangeValuesTextSlider,float_t> __get_valueDidChangeEvent() const;
 
- ::HMUI::ButtonBinder __declspec(property(get=__get__buttonBinder, put=__set__buttonBinder))  _buttonBinder;
+ HMUI::ButtonBinder __declspec(property(get=__get__buttonBinder, put=__set__buttonBinder))  _buttonBinder;
 
-constexpr void __set__buttonBinder(::HMUI::ButtonBinder value) ;
+constexpr void __set__buttonBinder(HMUI::ButtonBinder value) ;
 
-constexpr ::HMUI::ButtonBinder __get__buttonBinder() const;
+constexpr HMUI::ButtonBinder __get__buttonBinder() const;
 
 
 // Properties
@@ -130,10 +129,10 @@ constexpr ::HMUI::ButtonBinder __get__buttonBinder() const;
  float_t get_value() ;
 
 /// @brief Method add_valueDidChangeEvent addr 0x1faf540 size 0xb4 virtual false final false
- void add_valueDidChangeEvent(::System::Action_2<::HMUI::RangeValuesTextSlider,float_t> value) ;
+ void add_valueDidChangeEvent(System::Action_2<HMUI::RangeValuesTextSlider,float_t> value) ;
 
 /// @brief Method remove_valueDidChangeEvent addr 0x1faf5f4 size 0xb4 virtual false final false
- void remove_valueDidChangeEvent(::System::Action_2<::HMUI::RangeValuesTextSlider,float_t> value) ;
+ void remove_valueDidChangeEvent(System::Action_2<HMUI::RangeValuesTextSlider,float_t> value) ;
 
 /// @brief Method Awake addr 0x1faf6a8 size 0x1ec virtual true final false
  void Awake() ;
@@ -142,7 +141,7 @@ constexpr ::HMUI::ButtonBinder __get__buttonBinder() const;
  void OnDestroy() ;
 
 /// @brief Method HandleNormalizedValueDidChange addr 0x1faf92c size 0x34 virtual false final false
- void HandleNormalizedValueDidChange(::HMUI::TextSlider slider, float_t normalizedValue) ;
+ void HandleNormalizedValueDidChange(HMUI::TextSlider slider, float_t normalizedValue) ;
 
 /// @brief Method ConvertFromNormalizedValue addr 0x1faf528 size 0x18 virtual false final false
  float_t ConvertFromNormalizedValue(float_t normalizedValue) ;
@@ -172,6 +171,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HMUI
-} // end anonymous namespace
-NEED_NO_BOX(::HMUI::RangeValuesTextSlider);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::RangeValuesTextSlider, "HMUI", "RangeValuesTextSlider");
+NEED_NO_BOX(HMUI::RangeValuesTextSlider);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::RangeValuesTextSlider, "HMUI", "RangeValuesTextSlider");

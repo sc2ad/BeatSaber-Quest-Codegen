@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
-namespace {
-namespace UnityEngine {
-struct HumanBone;
-}
 namespace UnityEngine {
 struct SkeletonBone;
+}
+namespace UnityEngine {
+struct HumanBone;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -24,8 +23,8 @@ namespace UnityEngine {
 struct CORDL_TYPE HumanDescription : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "human", ty: "::ArrayW<::UnityEngine::HumanBone>", modifiers: "", def_value: None }, CppParam { name: "skeleton", ty: "::ArrayW<::UnityEngine::SkeletonBone>", modifiers: "", def_value: None }, CppParam { name: "m_ArmTwist", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_ForeArmTwist", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_UpperLegTwist", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_LegTwist", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_ArmStretch", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_LegStretch", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_FeetSpacing", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_GlobalScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_RootMotionBoneName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_HasTranslationDoF", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_HasExtraRoot", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_SkeletonHasParents", ty: "bool", modifiers: "", def_value: None }]
-constexpr HumanDescription(::ArrayW<::UnityEngine::HumanBone> human, ::ArrayW<::UnityEngine::SkeletonBone> skeleton, float_t m_ArmTwist, float_t m_ForeArmTwist, float_t m_UpperLegTwist, float_t m_LegTwist, float_t m_ArmStretch, float_t m_LegStretch, float_t m_FeetSpacing, float_t m_GlobalScale, ::StringW m_RootMotionBoneName, bool m_HasTranslationDoF, bool m_HasExtraRoot, bool m_SkeletonHasParents) noexcept;
+// Ctor Parameters [CppParam { name: "human", ty: "::ArrayW<UnityEngine::HumanBone>", modifiers: "", def_value: None }, CppParam { name: "skeleton", ty: "::ArrayW<UnityEngine::SkeletonBone>", modifiers: "", def_value: None }, CppParam { name: "m_ArmTwist", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_ForeArmTwist", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_UpperLegTwist", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_LegTwist", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_ArmStretch", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_LegStretch", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_FeetSpacing", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_GlobalScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_RootMotionBoneName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_HasTranslationDoF", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_HasExtraRoot", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_SkeletonHasParents", ty: "bool", modifiers: "", def_value: None }]
+constexpr HumanDescription(::ArrayW<UnityEngine::HumanBone> human, ::ArrayW<UnityEngine::SkeletonBone> skeleton, float_t m_ArmTwist, float_t m_ForeArmTwist, float_t m_UpperLegTwist, float_t m_LegTwist, float_t m_ArmStretch, float_t m_LegStretch, float_t m_FeetSpacing, float_t m_GlobalScale, ::StringW m_RootMotionBoneName, bool m_HasTranslationDoF, bool m_HasExtraRoot, bool m_SkeletonHasParents) noexcept;
 
 
                     constexpr HumanDescription(HumanDescription const&) = default;
@@ -58,17 +57,17 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::ArrayW<::UnityEngine::HumanBone> __declspec(property(get=__get_human, put=__set_human))  human;
+ ::ArrayW<UnityEngine::HumanBone> __declspec(property(get=__get_human, put=__set_human))  human;
 
-constexpr void __set_human(::ArrayW<::UnityEngine::HumanBone> value) ;
+constexpr void __set_human(::ArrayW<UnityEngine::HumanBone> value) ;
 
-constexpr ::ArrayW<::UnityEngine::HumanBone> __get_human() const;
+constexpr ::ArrayW<UnityEngine::HumanBone> __get_human() const;
 
- ::ArrayW<::UnityEngine::SkeletonBone> __declspec(property(get=__get_skeleton, put=__set_skeleton))  skeleton;
+ ::ArrayW<UnityEngine::SkeletonBone> __declspec(property(get=__get_skeleton, put=__set_skeleton))  skeleton;
 
-constexpr void __set_skeleton(::ArrayW<::UnityEngine::SkeletonBone> value) ;
+constexpr void __set_skeleton(::ArrayW<UnityEngine::SkeletonBone> value) ;
 
-constexpr ::ArrayW<::UnityEngine::SkeletonBone> __get_skeleton() const;
+constexpr ::ArrayW<UnityEngine::SkeletonBone> __get_skeleton() const;
 
  float_t __declspec(property(get=__get_m_ArmTwist, put=__set_m_ArmTwist))  m_ArmTwist;
 
@@ -146,5 +145,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::HumanDescription, "UnityEngine", "HumanDescription");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HumanDescription, "UnityEngine", "HumanDescription");

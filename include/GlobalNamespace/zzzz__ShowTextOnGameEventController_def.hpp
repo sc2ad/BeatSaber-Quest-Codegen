@@ -4,19 +4,18 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace GlobalNamespace {
-class TextFadeTransitions;
-}
 namespace GlobalNamespace {
 class Signal;
 }
+namespace GlobalNamespace {
+class TextFadeTransitions;
+}
 // Forward declare root types
 namespace GlobalNamespace {
-class ShowTextOnGameEventController;
+class GlobalNamespace__ShowTextOnGameEventController__EventTextBinding;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__ShowTextOnGameEventController__EventTextBinding;
+class ShowTextOnGameEventController;
 }
 // Type: ::EventTextBinding
 namespace GlobalNamespace {
@@ -24,47 +23,47 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5364))
 // CS Name: ShowTextOnGameEventController::EventTextBinding
-class CORDL_TYPE ____GlobalNamespace__ShowTextOnGameEventController__EventTextBinding : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__ShowTextOnGameEventController__EventTextBinding : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____GlobalNamespace__ShowTextOnGameEventController__EventTextBinding() = default;
+virtual ~GlobalNamespace__ShowTextOnGameEventController__EventTextBinding() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__ShowTextOnGameEventController__EventTextBinding", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__ShowTextOnGameEventController__EventTextBinding(____GlobalNamespace__ShowTextOnGameEventController__EventTextBinding const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__ShowTextOnGameEventController__EventTextBinding", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__ShowTextOnGameEventController__EventTextBinding(GlobalNamespace__ShowTextOnGameEventController__EventTextBinding const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__ShowTextOnGameEventController__EventTextBinding", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__ShowTextOnGameEventController__EventTextBinding(____GlobalNamespace__ShowTextOnGameEventController__EventTextBinding&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__ShowTextOnGameEventController__EventTextBinding", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__ShowTextOnGameEventController__EventTextBinding(GlobalNamespace__ShowTextOnGameEventController__EventTextBinding&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__ShowTextOnGameEventController__EventTextBinding(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__ShowTextOnGameEventController__EventTextBinding(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__ShowTextOnGameEventController__EventTextBinding& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__ShowTextOnGameEventController__EventTextBinding& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__ShowTextOnGameEventController__EventTextBinding& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__ShowTextOnGameEventController__EventTextBinding& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__ShowTextOnGameEventController__EventTextBinding& operator=(____GlobalNamespace__ShowTextOnGameEventController__EventTextBinding&& o) noexcept = default;
-  constexpr ____GlobalNamespace__ShowTextOnGameEventController__EventTextBinding& operator=(____GlobalNamespace__ShowTextOnGameEventController__EventTextBinding const& o) noexcept = default;
+  constexpr GlobalNamespace__ShowTextOnGameEventController__EventTextBinding& operator=(GlobalNamespace__ShowTextOnGameEventController__EventTextBinding&& o) noexcept = default;
+  constexpr GlobalNamespace__ShowTextOnGameEventController__EventTextBinding& operator=(GlobalNamespace__ShowTextOnGameEventController__EventTextBinding const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::GlobalNamespace::Signal __declspec(property(get=__get__signal, put=__set__signal))  _signal;
+ GlobalNamespace::Signal __declspec(property(get=__get__signal, put=__set__signal))  _signal;
 
-constexpr void __set__signal(::GlobalNamespace::Signal value) ;
+constexpr void __set__signal(GlobalNamespace::Signal value) ;
 
-constexpr ::GlobalNamespace::Signal __get__signal() const;
+constexpr GlobalNamespace::Signal __get__signal() const;
 
  ::StringW __declspec(property(get=__get__text, put=__set__text))  _text;
 
@@ -72,17 +71,17 @@ constexpr void __set__text(::StringW value) ;
 
 constexpr ::StringW __get__text() const;
 
- ::GlobalNamespace::TextFadeTransitions __declspec(property(get=__get__textFadeTransitions, put=__set__textFadeTransitions))  _textFadeTransitions;
+ GlobalNamespace::TextFadeTransitions __declspec(property(get=__get__textFadeTransitions, put=__set__textFadeTransitions))  _textFadeTransitions;
 
-constexpr void __set__textFadeTransitions(::GlobalNamespace::TextFadeTransitions value) ;
+constexpr void __set__textFadeTransitions(GlobalNamespace::TextFadeTransitions value) ;
 
-constexpr ::GlobalNamespace::TextFadeTransitions __get__textFadeTransitions() const;
+constexpr GlobalNamespace::TextFadeTransitions __get__textFadeTransitions() const;
 
 
 // Methods
 
 /// @brief Method Init addr 0x2108d24 size 0x9c virtual false final false
- void Init(::GlobalNamespace::TextFadeTransitions textFadeTransitions) ;
+ void Init(GlobalNamespace::TextFadeTransitions textFadeTransitions) ;
 
 /// @brief Method Deinit addr 0x2108e1c size 0x8c virtual false final false
  void Deinit() ;
@@ -91,7 +90,7 @@ constexpr ::GlobalNamespace::TextFadeTransitions __get__textFadeTransitions() co
  void HandleGameEvent() ;
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__ShowTextOnGameEventController__EventTextBinding() ;
+explicit GlobalNamespace__ShowTextOnGameEventController__EventTextBinding() ;
 
 /// @brief Method .ctor addr 0x2108f50 size 0x8 virtual false final false
  void _ctor() ;
@@ -106,10 +105,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5365))
 // CS Name: ShowTextOnGameEventController
-class CORDL_TYPE ShowTextOnGameEventController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ShowTextOnGameEventController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using EventTextBinding = ::GlobalNamespace::____GlobalNamespace__ShowTextOnGameEventController__EventTextBinding;
+using EventTextBinding = GlobalNamespace::GlobalNamespace__ShowTextOnGameEventController__EventTextBinding;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -123,7 +122,7 @@ constexpr ShowTextOnGameEventController(ShowTextOnGameEventController const& ) n
 constexpr ShowTextOnGameEventController(ShowTextOnGameEventController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ShowTextOnGameEventController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ShowTextOnGameEventController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -144,17 +143,17 @@ constexpr explicit ShowTextOnGameEventController(void* ptr) noexcept : ::UnityEn
 
 // Fields
 
- ::GlobalNamespace::TextFadeTransitions __declspec(property(get=__get__textFadeTransitions, put=__set__textFadeTransitions))  _textFadeTransitions;
+ GlobalNamespace::TextFadeTransitions __declspec(property(get=__get__textFadeTransitions, put=__set__textFadeTransitions))  _textFadeTransitions;
 
-constexpr void __set__textFadeTransitions(::GlobalNamespace::TextFadeTransitions value) ;
+constexpr void __set__textFadeTransitions(GlobalNamespace::TextFadeTransitions value) ;
 
-constexpr ::GlobalNamespace::TextFadeTransitions __get__textFadeTransitions() const;
+constexpr GlobalNamespace::TextFadeTransitions __get__textFadeTransitions() const;
 
- ::ArrayW<::GlobalNamespace::____GlobalNamespace__ShowTextOnGameEventController__EventTextBinding> __declspec(property(get=__get__eventTextBindings, put=__set__eventTextBindings))  _eventTextBindings;
+ ::ArrayW<GlobalNamespace::GlobalNamespace__ShowTextOnGameEventController__EventTextBinding> __declspec(property(get=__get__eventTextBindings, put=__set__eventTextBindings))  _eventTextBindings;
 
-constexpr void __set__eventTextBindings(::ArrayW<::GlobalNamespace::____GlobalNamespace__ShowTextOnGameEventController__EventTextBinding> value) ;
+constexpr void __set__eventTextBindings(::ArrayW<GlobalNamespace::GlobalNamespace__ShowTextOnGameEventController__EventTextBinding> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::____GlobalNamespace__ShowTextOnGameEventController__EventTextBinding> __get__eventTextBindings() const;
+constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__ShowTextOnGameEventController__EventTextBinding> __get__eventTextBindings() const;
 
 
 // Methods
@@ -175,8 +174,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ShowTextOnGameEventController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ShowTextOnGameEventController, "", "ShowTextOnGameEventController");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__ShowTextOnGameEventController__EventTextBinding);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__ShowTextOnGameEventController__EventTextBinding, "", "ShowTextOnGameEventController/EventTextBinding");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__ShowTextOnGameEventController__EventTextBinding);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__ShowTextOnGameEventController__EventTextBinding, "", "ShowTextOnGameEventController/EventTextBinding");
+NEED_NO_BOX(GlobalNamespace::ShowTextOnGameEventController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShowTextOnGameEventController, "", "ShowTextOnGameEventController");

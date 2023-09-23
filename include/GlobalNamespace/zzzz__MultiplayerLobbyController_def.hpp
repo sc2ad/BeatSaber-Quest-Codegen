@@ -2,15 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
 class MenuEnvironmentManager;
 }
 namespace GlobalNamespace {
-class MultiplayerLobbyAvatarManager;
+class MultiplayerLobbyCenterStageManager;
 }
 namespace GlobalNamespace {
-class MultiplayerLobbyCenterStageManager;
+class MultiplayerLobbyAvatarManager;
 }
 namespace GlobalNamespace {
 class MultiplayerLobbyAvatarPlaceManager;
@@ -25,7 +24,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5670))
 // CS Name: MultiplayerLobbyController
-class CORDL_TYPE MultiplayerLobbyController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerLobbyController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr MultiplayerLobbyController(MultiplayerLobbyController const& ) noexcep
 constexpr MultiplayerLobbyController(MultiplayerLobbyController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerLobbyController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerLobbyController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -73,29 +72,29 @@ constexpr void __set__minOuterCircleRadius(float_t value) ;
 
 constexpr float_t __get__minOuterCircleRadius() const;
 
- ::GlobalNamespace::MultiplayerLobbyAvatarManager __declspec(property(get=__get__multiplayerLobbyAvatarManager, put=__set__multiplayerLobbyAvatarManager))  _multiplayerLobbyAvatarManager;
+ GlobalNamespace::MultiplayerLobbyAvatarManager __declspec(property(get=__get__multiplayerLobbyAvatarManager, put=__set__multiplayerLobbyAvatarManager))  _multiplayerLobbyAvatarManager;
 
-constexpr void __set__multiplayerLobbyAvatarManager(::GlobalNamespace::MultiplayerLobbyAvatarManager value) ;
+constexpr void __set__multiplayerLobbyAvatarManager(GlobalNamespace::MultiplayerLobbyAvatarManager value) ;
 
-constexpr ::GlobalNamespace::MultiplayerLobbyAvatarManager __get__multiplayerLobbyAvatarManager() const;
+constexpr GlobalNamespace::MultiplayerLobbyAvatarManager __get__multiplayerLobbyAvatarManager() const;
 
- ::GlobalNamespace::MultiplayerLobbyCenterStageManager __declspec(property(get=__get__multiplayerLobbyCenterStageManager, put=__set__multiplayerLobbyCenterStageManager))  _multiplayerLobbyCenterStageManager;
+ GlobalNamespace::MultiplayerLobbyCenterStageManager __declspec(property(get=__get__multiplayerLobbyCenterStageManager, put=__set__multiplayerLobbyCenterStageManager))  _multiplayerLobbyCenterStageManager;
 
-constexpr void __set__multiplayerLobbyCenterStageManager(::GlobalNamespace::MultiplayerLobbyCenterStageManager value) ;
+constexpr void __set__multiplayerLobbyCenterStageManager(GlobalNamespace::MultiplayerLobbyCenterStageManager value) ;
 
-constexpr ::GlobalNamespace::MultiplayerLobbyCenterStageManager __get__multiplayerLobbyCenterStageManager() const;
+constexpr GlobalNamespace::MultiplayerLobbyCenterStageManager __get__multiplayerLobbyCenterStageManager() const;
 
- ::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager __declspec(property(get=__get__multiplayerLobbyAvatarPlaceManager, put=__set__multiplayerLobbyAvatarPlaceManager))  _multiplayerLobbyAvatarPlaceManager;
+ GlobalNamespace::MultiplayerLobbyAvatarPlaceManager __declspec(property(get=__get__multiplayerLobbyAvatarPlaceManager, put=__set__multiplayerLobbyAvatarPlaceManager))  _multiplayerLobbyAvatarPlaceManager;
 
-constexpr void __set__multiplayerLobbyAvatarPlaceManager(::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager value) ;
+constexpr void __set__multiplayerLobbyAvatarPlaceManager(GlobalNamespace::MultiplayerLobbyAvatarPlaceManager value) ;
 
-constexpr ::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager __get__multiplayerLobbyAvatarPlaceManager() const;
+constexpr GlobalNamespace::MultiplayerLobbyAvatarPlaceManager __get__multiplayerLobbyAvatarPlaceManager() const;
 
- ::GlobalNamespace::MenuEnvironmentManager __declspec(property(get=__get__menuEnvironmentManager, put=__set__menuEnvironmentManager))  _menuEnvironmentManager;
+ GlobalNamespace::MenuEnvironmentManager __declspec(property(get=__get__menuEnvironmentManager, put=__set__menuEnvironmentManager))  _menuEnvironmentManager;
 
-constexpr void __set__menuEnvironmentManager(::GlobalNamespace::MenuEnvironmentManager value) ;
+constexpr void __set__menuEnvironmentManager(GlobalNamespace::MenuEnvironmentManager value) ;
 
-constexpr ::GlobalNamespace::MenuEnvironmentManager __get__menuEnvironmentManager() const;
+constexpr GlobalNamespace::MenuEnvironmentManager __get__menuEnvironmentManager() const;
 
  bool __declspec(property(get=__get__lobbyActivated_k__BackingField, put=__set__lobbyActivated_k__BackingField))  _lobbyActivated_k__BackingField;
 
@@ -133,6 +132,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerLobbyController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerLobbyController, "", "MultiplayerLobbyController");
+NEED_NO_BOX(GlobalNamespace::MultiplayerLobbyController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyController, "", "MultiplayerLobbyController");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__SingleFixedSceneScenesTransitionSetupDataSO_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class RecordingToolSceneSetupData;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13875))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6134))
 // CS Name: RecordingToolScenesTransitionSetupDataSO
-class CORDL_TYPE RecordingToolScenesTransitionSetupDataSO : public ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
+class CORDL_TYPE RecordingToolScenesTransitionSetupDataSO : public GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr RecordingToolScenesTransitionSetupDataSO(RecordingToolScenesTransition
 constexpr RecordingToolScenesTransitionSetupDataSO(RecordingToolScenesTransitionSetupDataSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RecordingToolScenesTransitionSetupDataSO(void* ptr) noexcept : ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO(ptr) {
+constexpr explicit RecordingToolScenesTransitionSetupDataSO(void* ptr) noexcept : GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO(ptr) {
 }
 
 
@@ -52,7 +51,7 @@ constexpr explicit RecordingToolScenesTransitionSetupDataSO(void* ptr) noexcept 
 // Methods
 
 /// @brief Method Init addr 0x21d3abc size 0x8 virtual false final false
- void Init(::GlobalNamespace::RecordingToolSceneSetupData recordingToolSceneSetupData) ;
+ void Init(GlobalNamespace::RecordingToolSceneSetupData recordingToolSceneSetupData) ;
 
 // Ctor Parameters []
 explicit RecordingToolScenesTransitionSetupDataSO() ;
@@ -64,6 +63,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO, "", "RecordingToolScenesTransitionSetupDataSO");
+NEED_NO_BOX(GlobalNamespace::RecordingToolScenesTransitionSetupDataSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RecordingToolScenesTransitionSetupDataSO, "", "RecordingToolScenesTransitionSetupDataSO");

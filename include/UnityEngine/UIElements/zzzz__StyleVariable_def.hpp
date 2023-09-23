@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine::UIElements {
-class StyleSheet;
-}
 namespace UnityEngine::UIElements {
 struct StyleValueHandle;
+}
+namespace UnityEngine::UIElements {
+class StyleSheet;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -24,8 +23,8 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE StyleVariable : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "sheet", ty: "::UnityEngine::UIElements::StyleSheet", modifiers: "", def_value: None }, CppParam { name: "handles", ty: "::ArrayW<::UnityEngine::UIElements::StyleValueHandle>", modifiers: "", def_value: None }]
-constexpr StyleVariable(::StringW name, ::UnityEngine::UIElements::StyleSheet sheet, ::ArrayW<::UnityEngine::UIElements::StyleValueHandle> handles) noexcept;
+// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "sheet", ty: "UnityEngine::UIElements::StyleSheet", modifiers: "", def_value: None }, CppParam { name: "handles", ty: "::ArrayW<UnityEngine::UIElements::StyleValueHandle>", modifiers: "", def_value: None }]
+constexpr StyleVariable(::StringW name, UnityEngine::UIElements::StyleSheet sheet, ::ArrayW<UnityEngine::UIElements::StyleValueHandle> handles) noexcept;
 
 
                     constexpr StyleVariable(StyleVariable const&) = default;
@@ -64,23 +63,23 @@ constexpr void __set_name(::StringW value) ;
 
 constexpr ::StringW __get_name() const;
 
- ::UnityEngine::UIElements::StyleSheet __declspec(property(get=__get_sheet, put=__set_sheet))  sheet;
+ UnityEngine::UIElements::StyleSheet __declspec(property(get=__get_sheet, put=__set_sheet))  sheet;
 
-constexpr void __set_sheet(::UnityEngine::UIElements::StyleSheet value) ;
+constexpr void __set_sheet(UnityEngine::UIElements::StyleSheet value) ;
 
-constexpr ::UnityEngine::UIElements::StyleSheet __get_sheet() const;
+constexpr UnityEngine::UIElements::StyleSheet __get_sheet() const;
 
- ::ArrayW<::UnityEngine::UIElements::StyleValueHandle> __declspec(property(get=__get_handles, put=__set_handles))  handles;
+ ::ArrayW<UnityEngine::UIElements::StyleValueHandle> __declspec(property(get=__get_handles, put=__set_handles))  handles;
 
-constexpr void __set_handles(::ArrayW<::UnityEngine::UIElements::StyleValueHandle> value) ;
+constexpr void __set_handles(::ArrayW<UnityEngine::UIElements::StyleValueHandle> value) ;
 
-constexpr ::ArrayW<::UnityEngine::UIElements::StyleValueHandle> __get_handles() const;
+constexpr ::ArrayW<UnityEngine::UIElements::StyleValueHandle> __get_handles() const;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x2cf262c size 0xc virtual false final false
- void _ctor(::StringW name, ::UnityEngine::UIElements::StyleSheet sheet, ::ArrayW<::UnityEngine::UIElements::StyleValueHandle> handles) ;
+ void _ctor(::StringW name, UnityEngine::UIElements::StyleSheet sheet, ::ArrayW<UnityEngine::UIElements::StyleValueHandle> handles) ;
 
 /// @brief Method GetHashCode addr 0x2cf2638 size 0x78 virtual true final false
  int32_t GetHashCode() ;
@@ -89,5 +88,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleVariable, "UnityEngine.UIElements", "StyleVariable");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::StyleVariable, "UnityEngine.UIElements", "StyleVariable");

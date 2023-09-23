@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Timeline {
 struct NotificationFlags;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int16_t value) ;
 constexpr int16_t __get_value__() const;
 
 /// @brief Field TriggerInEditMode offset 0
-static ::UnityEngine::Timeline::NotificationFlags const TriggerInEditMode;
+static UnityEngine::Timeline::NotificationFlags const TriggerInEditMode;
 
 /// @brief Field Retroactive offset 0
-static ::UnityEngine::Timeline::NotificationFlags const Retroactive;
+static UnityEngine::Timeline::NotificationFlags const Retroactive;
 
 /// @brief Field TriggerOnce offset 0
-static ::UnityEngine::Timeline::NotificationFlags const TriggerOnce;
+static UnityEngine::Timeline::NotificationFlags const TriggerOnce;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::NotificationFlags, "UnityEngine.Timeline", "NotificationFlags");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::NotificationFlags, "UnityEngine.Timeline", "NotificationFlags");

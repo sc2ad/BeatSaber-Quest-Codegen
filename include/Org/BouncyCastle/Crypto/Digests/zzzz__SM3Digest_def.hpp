@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Utilities {
 class IMemoable;
 }
@@ -18,7 +17,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(750))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(782))
 // CS Name: Org.BouncyCastle.Crypto.Digests.SM3Digest
-class CORDL_TYPE SM3Digest : public ::Org::BouncyCastle::Crypto::Digests::GeneralDigest {
+class CORDL_TYPE SM3Digest : public Org::BouncyCastle::Crypto::Digests::GeneralDigest {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr SM3Digest(SM3Digest const& ) noexcept = default;
 constexpr SM3Digest(SM3Digest&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SM3Digest(void* ptr) noexcept : ::Org::BouncyCastle::Crypto::Digests::GeneralDigest(ptr) {
+constexpr explicit SM3Digest(void* ptr) noexcept : Org::BouncyCastle::Crypto::Digests::GeneralDigest(ptr) {
 }
 
 
@@ -104,14 +103,14 @@ explicit SM3Digest() ;
 /// @brief Method .ctor addr 0xe1b9ac size 0x8c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "t", ty: "::Org::BouncyCastle::Crypto::Digests::SM3Digest", modifiers: "", def_value: None }]
-explicit SM3Digest(::Org::BouncyCastle::Crypto::Digests::SM3Digest t) ;
+// Ctor Parameters [CppParam { name: "t", ty: "Org::BouncyCastle::Crypto::Digests::SM3Digest", modifiers: "", def_value: None }]
+explicit SM3Digest(Org::BouncyCastle::Crypto::Digests::SM3Digest t) ;
 
 /// @brief Method .ctor addr 0xe1ba38 size 0x94 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::Digests::SM3Digest t) ;
+ void _ctor(Org::BouncyCastle::Crypto::Digests::SM3Digest t) ;
 
 /// @brief Method CopyIn addr 0xe1bacc size 0x6c virtual false final false
- void CopyIn(::Org::BouncyCastle::Crypto::Digests::SM3Digest t) ;
+ void CopyIn(Org::BouncyCastle::Crypto::Digests::SM3Digest t) ;
 
 /// @brief Method get_AlgorithmName addr 0xe1bb38 size 0x40 virtual true final false
  ::StringW get_AlgorithmName() ;
@@ -120,10 +119,10 @@ explicit SM3Digest(::Org::BouncyCastle::Crypto::Digests::SM3Digest t) ;
  int32_t GetDigestSize() ;
 
 /// @brief Method Copy addr 0xe1bb80 size 0x60 virtual true final false
- ::Org::BouncyCastle::Utilities::IMemoable Copy() ;
+ Org::BouncyCastle::Utilities::IMemoable Copy() ;
 
 /// @brief Method Reset addr 0xe1bbe0 size 0x94 virtual true final false
- void Reset(::Org::BouncyCastle::Utilities::IMemoable other) ;
+ void Reset(Org::BouncyCastle::Utilities::IMemoable other) ;
 
 /// @brief Method Reset addr 0xe1bc74 size 0xcc virtual true final false
  void Reset() ;
@@ -162,6 +161,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Digests
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::SM3Digest);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Digests::SM3Digest, "Org.BouncyCastle.Crypto.Digests", "SM3Digest");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Digests::SM3Digest);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::SM3Digest, "Org.BouncyCastle.Crypto.Digests", "SM3Digest");

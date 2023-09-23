@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -21,8 +20,8 @@ namespace System::Xml::Xsl::Runtime {
 struct CORDL_TYPE StringConcat : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "s1", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "s2", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "s3", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "s4", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "delimiter", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "strList", ty: "::System::Collections::Generic::List_1<::StringW>", modifiers: "", def_value: None }, CppParam { name: "idxStr", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr StringConcat(::StringW s1, ::StringW s2, ::StringW s3, ::StringW s4, ::StringW delimiter, ::System::Collections::Generic::List_1<::StringW> strList, int32_t idxStr) noexcept;
+// Ctor Parameters [CppParam { name: "s1", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "s2", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "s3", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "s4", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "delimiter", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "strList", ty: "System::Collections::Generic::List_1<::StringW>", modifiers: "", def_value: None }, CppParam { name: "idxStr", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr StringConcat(::StringW s1, ::StringW s2, ::StringW s3, ::StringW s4, ::StringW delimiter, System::Collections::Generic::List_1<::StringW> strList, int32_t idxStr) noexcept;
 
 
                     constexpr StringConcat(StringConcat const&) = default;
@@ -85,11 +84,11 @@ constexpr void __set_delimiter(::StringW value) ;
 
 constexpr ::StringW __get_delimiter() const;
 
- ::System::Collections::Generic::List_1<::StringW> __declspec(property(get=__get_strList, put=__set_strList))  strList;
+ System::Collections::Generic::List_1<::StringW> __declspec(property(get=__get_strList, put=__set_strList))  strList;
 
-constexpr void __set_strList(::System::Collections::Generic::List_1<::StringW> value) ;
+constexpr void __set_strList(System::Collections::Generic::List_1<::StringW> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::StringW> __get_strList() const;
+constexpr System::Collections::Generic::List_1<::StringW> __get_strList() const;
 
  int32_t __declspec(property(get=__get_idxStr, put=__set_idxStr))  idxStr;
 
@@ -121,5 +120,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Xsl::Runtime
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Xsl::Runtime::StringConcat, "System.Xml.Xsl.Runtime", "StringConcat");
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Xsl::Runtime::StringConcat, "System.Xml.Xsl.Runtime", "StringConcat");

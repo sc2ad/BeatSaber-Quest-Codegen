@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HAPI_StatusType;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field HAPI_STATUS_CALL_RESULT offset 0
-static ::HoudiniEngineUnity::HAPI_StatusType const HAPI_STATUS_CALL_RESULT;
+static HoudiniEngineUnity::HAPI_StatusType const HAPI_STATUS_CALL_RESULT;
 
 /// @brief Field HAPI_STATUS_COOK_RESULT offset 0
-static ::HoudiniEngineUnity::HAPI_StatusType const HAPI_STATUS_COOK_RESULT;
+static HoudiniEngineUnity::HAPI_StatusType const HAPI_STATUS_COOK_RESULT;
 
 /// @brief Field HAPI_STATUS_COOK_STATE offset 0
-static ::HoudiniEngineUnity::HAPI_StatusType const HAPI_STATUS_COOK_STATE;
+static HoudiniEngineUnity::HAPI_StatusType const HAPI_STATUS_COOK_STATE;
 
 /// @brief Field HAPI_STATUS_MAX offset 0
-static ::HoudiniEngineUnity::HAPI_StatusType const HAPI_STATUS_MAX;
+static HoudiniEngineUnity::HAPI_StatusType const HAPI_STATUS_MAX;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_StatusType, "HoudiniEngineUnity", "HAPI_StatusType");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_StatusType, "HoudiniEngineUnity", "HAPI_StatusType");

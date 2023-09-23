@@ -1,12 +1,11 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
-namespace System {
-class IDisposable;
-}
 namespace System::Runtime::InteropServices {
 struct GCHandle;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Buffers {
 class IPinnable;
@@ -24,11 +23,11 @@ namespace System::Buffers {
 struct CORDL_TYPE MemoryHandle : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const;
 
-// Ctor Parameters [CppParam { name: "_pointer", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "_handle", ty: "::System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: None }, CppParam { name: "_pinnable", ty: "::System::Buffers::IPinnable", modifiers: "", def_value: None }]
-constexpr MemoryHandle(void* _pointer, ::System::Runtime::InteropServices::GCHandle _handle, ::System::Buffers::IPinnable _pinnable) noexcept;
+// Ctor Parameters [CppParam { name: "_pointer", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "_handle", ty: "System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: None }, CppParam { name: "_pinnable", ty: "System::Buffers::IPinnable", modifiers: "", def_value: None }]
+constexpr MemoryHandle(void* _pointer, System::Runtime::InteropServices::GCHandle _handle, System::Buffers::IPinnable _pinnable) noexcept;
 
 
                     constexpr MemoryHandle(MemoryHandle const&) = default;
@@ -67,17 +66,17 @@ constexpr void __set__pointer(void* value) ;
 
 constexpr void* __get__pointer() const;
 
- ::System::Runtime::InteropServices::GCHandle __declspec(property(get=__get__handle, put=__set__handle))  _handle;
+ System::Runtime::InteropServices::GCHandle __declspec(property(get=__get__handle, put=__set__handle))  _handle;
 
-constexpr void __set__handle(::System::Runtime::InteropServices::GCHandle value) ;
+constexpr void __set__handle(System::Runtime::InteropServices::GCHandle value) ;
 
-constexpr ::System::Runtime::InteropServices::GCHandle __get__handle() const;
+constexpr System::Runtime::InteropServices::GCHandle __get__handle() const;
 
- ::System::Buffers::IPinnable __declspec(property(get=__get__pinnable, put=__set__pinnable))  _pinnable;
+ System::Buffers::IPinnable __declspec(property(get=__get__pinnable, put=__set__pinnable))  _pinnable;
 
-constexpr void __set__pinnable(::System::Buffers::IPinnable value) ;
+constexpr void __set__pinnable(System::Buffers::IPinnable value) ;
 
-constexpr ::System::Buffers::IPinnable __get__pinnable() const;
+constexpr System::Buffers::IPinnable __get__pinnable() const;
 
 
 // Properties
@@ -88,7 +87,7 @@ constexpr ::System::Buffers::IPinnable __get__pinnable() const;
 // Methods
 
 /// @brief Method .ctor addr 0x241e76c size 0xc virtual false final false
- void _ctor(void* pointer, ::System::Runtime::InteropServices::GCHandle handle, ::System::Buffers::IPinnable pinnable) ;
+ void _ctor(void* pointer, System::Runtime::InteropServices::GCHandle handle, System::Buffers::IPinnable pinnable) ;
 
 /// @brief Method get_Pointer addr 0x241e778 size 0x8 virtual false final false
  void* get_Pointer() ;
@@ -100,5 +99,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Buffers
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Buffers::MemoryHandle, "System.Buffers", "MemoryHandle");
+DEFINE_IL2CPP_ARG_TYPE(System::Buffers::MemoryHandle, "System.Buffers", "MemoryHandle");

@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCloseable;
 }
@@ -19,8 +18,8 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE DatagramTransport : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Tls::TlsCloseable
-constexpr operator  ::Org::BouncyCastle::Crypto::Tls::TlsCloseable() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Tls::TlsCloseable
+constexpr operator  Org::BouncyCastle::Crypto::Tls::TlsCloseable() const noexcept;
 
 ~DatagramTransport() = default;
 
@@ -47,6 +46,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::DatagramTransport);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::DatagramTransport, "Org.BouncyCastle.Crypto.Tls", "DatagramTransport");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::DatagramTransport);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::DatagramTransport, "Org.BouncyCastle.Crypto.Tls", "DatagramTransport");

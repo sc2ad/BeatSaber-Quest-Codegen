@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__InstalledApplicationList_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
 class InstalledApplicationList;
 }
@@ -14,10 +13,10 @@ class MessageWithInstalledApplicationList;
 // Type: Oculus.Platform::MessageWithInstalledApplicationList
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4445 }), TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(13418))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4445 }), TypeDefinitionIndex(TypeDefinitionIndex(13418))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13238))
 // CS Name: Oculus.Platform.MessageWithInstalledApplicationList
-class CORDL_TYPE MessageWithInstalledApplicationList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::InstalledApplicationList> {
+class CORDL_TYPE MessageWithInstalledApplicationList : public Oculus::Platform::Message_1<Oculus::Platform::Models::InstalledApplicationList> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr MessageWithInstalledApplicationList(MessageWithInstalledApplicationLis
 constexpr MessageWithInstalledApplicationList(MessageWithInstalledApplicationList&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MessageWithInstalledApplicationList(void* ptr) noexcept : ::Oculus::Platform::Message_1<::Oculus::Platform::Models::InstalledApplicationList>(ptr) {
+constexpr explicit MessageWithInstalledApplicationList(void* ptr) noexcept : Oculus::Platform::Message_1<Oculus::Platform::Models::InstalledApplicationList>(ptr) {
 }
 
 
@@ -60,15 +59,14 @@ explicit MessageWithInstalledApplicationList(::cordl_internals::intptr_t c_messa
  void _ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method GetInstalledApplicationList addr 0x25814d8 size 0x3c virtual true final false
- ::Oculus::Platform::Models::InstalledApplicationList GetInstalledApplicationList() ;
+ Oculus::Platform::Models::InstalledApplicationList GetInstalledApplicationList() ;
 
 /// @brief Method GetDataFromMessage addr 0x2581514 size 0x9c virtual true final false
- ::Oculus::Platform::Models::InstalledApplicationList GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
+ Oculus::Platform::Models::InstalledApplicationList GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::MessageWithInstalledApplicationList);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithInstalledApplicationList, "Oculus.Platform", "MessageWithInstalledApplicationList");
+NEED_NO_BOX(Oculus::Platform::MessageWithInstalledApplicationList);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithInstalledApplicationList, "Oculus.Platform", "MessageWithInstalledApplicationList");

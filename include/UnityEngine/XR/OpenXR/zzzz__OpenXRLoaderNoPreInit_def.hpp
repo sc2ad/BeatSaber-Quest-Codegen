@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/XR/OpenXR/zzzz__OpenXRLoaderBase_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::XR::OpenXR {
 class OpenXRLoaderNoPreInit;
@@ -12,7 +11,7 @@ namespace UnityEngine::XR::OpenXR {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14168))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14169))
 // CS Name: UnityEngine.XR.OpenXR.OpenXRLoaderNoPreInit
-class CORDL_TYPE OpenXRLoaderNoPreInit : public ::UnityEngine::XR::OpenXR::OpenXRLoaderBase {
+class CORDL_TYPE OpenXRLoaderNoPreInit : public UnityEngine::XR::OpenXR::OpenXRLoaderBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr OpenXRLoaderNoPreInit(OpenXRLoaderNoPreInit const& ) noexcept = defaul
 constexpr OpenXRLoaderNoPreInit(OpenXRLoaderNoPreInit&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OpenXRLoaderNoPreInit(void* ptr) noexcept : ::UnityEngine::XR::OpenXR::OpenXRLoaderBase(ptr) {
+constexpr explicit OpenXRLoaderNoPreInit(void* ptr) noexcept : UnityEngine::XR::OpenXR::OpenXRLoaderBase(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR::OpenXR
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::XR::OpenXR::OpenXRLoaderNoPreInit);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::OpenXRLoaderNoPreInit, "UnityEngine.XR.OpenXR", "OpenXRLoaderNoPreInit");
+NEED_NO_BOX(UnityEngine::XR::OpenXR::OpenXRLoaderNoPreInit);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::OpenXR::OpenXRLoaderNoPreInit, "UnityEngine.XR.OpenXR", "OpenXRLoaderNoPreInit");

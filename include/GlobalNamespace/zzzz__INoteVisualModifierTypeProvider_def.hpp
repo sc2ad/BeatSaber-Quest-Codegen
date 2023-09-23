@@ -1,6 +1,5 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace GlobalNamespace {
 struct NoteVisualModifierType;
 }
@@ -26,18 +25,17 @@ constexpr explicit INoteVisualModifierTypeProvider(void* ptr) noexcept : ::cordl
 
 // Properties
 
- ::GlobalNamespace::NoteVisualModifierType __declspec(property(get=get_noteVisualModifierType))  noteVisualModifierType;
+ GlobalNamespace::NoteVisualModifierType __declspec(property(get=get_noteVisualModifierType))  noteVisualModifierType;
 
 
 // Methods
 
 /// @brief Method get_noteVisualModifierType addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::NoteVisualModifierType get_noteVisualModifierType() ;
+ GlobalNamespace::NoteVisualModifierType get_noteVisualModifierType() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::INoteVisualModifierTypeProvider);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::INoteVisualModifierTypeProvider, "", "INoteVisualModifierTypeProvider");
+NEED_NO_BOX(GlobalNamespace::INoteVisualModifierTypeProvider);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INoteVisualModifierTypeProvider, "", "INoteVisualModifierTypeProvider");

@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
@@ -55,21 +54,20 @@ constexpr explicit BeatmapDifficultyMethods(void* ptr) noexcept : ::bs_hook::Il2
 // Methods
 
 /// @brief Method Name addr 0x21e200c size 0x9c virtual false final false
-static ::StringW Name(::GlobalNamespace::BeatmapDifficulty difficulty) ;
+static ::StringW Name(GlobalNamespace::BeatmapDifficulty difficulty) ;
 
 /// @brief Method ShortName addr 0x21e20a8 size 0x9c virtual false final false
-static ::StringW ShortName(::GlobalNamespace::BeatmapDifficulty difficulty) ;
+static ::StringW ShortName(GlobalNamespace::BeatmapDifficulty difficulty) ;
 
 /// @brief Method DefaultRating addr 0x21e2144 size 0x28 virtual false final false
-static int32_t DefaultRating(::GlobalNamespace::BeatmapDifficulty difficulty) ;
+static int32_t DefaultRating(GlobalNamespace::BeatmapDifficulty difficulty) ;
 
 /// @brief Method NoteJumpMovementSpeed addr 0x21e216c size 0x28 virtual false final false
-static float_t NoteJumpMovementSpeed(::GlobalNamespace::BeatmapDifficulty difficulty) ;
+static float_t NoteJumpMovementSpeed(GlobalNamespace::BeatmapDifficulty difficulty) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BeatmapDifficultyMethods);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapDifficultyMethods, "", "BeatmapDifficultyMethods");
+NEED_NO_BOX(GlobalNamespace::BeatmapDifficultyMethods);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDifficultyMethods, "", "BeatmapDifficultyMethods");

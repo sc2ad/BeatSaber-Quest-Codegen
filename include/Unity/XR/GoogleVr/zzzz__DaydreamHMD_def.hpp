@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__XRHMD_def.hpp"
-namespace {
 // Forward declare root types
 namespace Unity::XR::GoogleVr {
 class DaydreamHMD;
@@ -12,7 +11,7 @@ namespace Unity::XR::GoogleVr {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6407))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6205))
 // CS Name: Unity.XR.GoogleVr.DaydreamHMD
-class CORDL_TYPE DaydreamHMD : public ::UnityEngine::InputSystem::XR::XRHMD {
+class CORDL_TYPE DaydreamHMD : public UnityEngine::InputSystem::XR::XRHMD {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr DaydreamHMD(DaydreamHMD const& ) noexcept = default;
 constexpr DaydreamHMD(DaydreamHMD&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DaydreamHMD(void* ptr) noexcept : ::UnityEngine::InputSystem::XR::XRHMD(ptr) {
+constexpr explicit DaydreamHMD(void* ptr) noexcept : UnityEngine::InputSystem::XR::XRHMD(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Unity::XR::GoogleVr
-} // end anonymous namespace
-NEED_NO_BOX(::Unity::XR::GoogleVr::DaydreamHMD);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::XR::GoogleVr::DaydreamHMD, "Unity.XR.GoogleVr", "DaydreamHMD");
+NEED_NO_BOX(Unity::XR::GoogleVr::DaydreamHMD);
+DEFINE_IL2CPP_ARG_TYPE(Unity::XR::GoogleVr::DaydreamHMD, "Unity.XR.GoogleVr", "DaydreamHMD");

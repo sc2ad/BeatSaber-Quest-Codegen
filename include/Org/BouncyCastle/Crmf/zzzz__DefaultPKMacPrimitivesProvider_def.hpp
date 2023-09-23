@@ -1,15 +1,14 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Org::BouncyCastle::Crmf {
 class IPKMacPrimitivesProvider;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Crypto {
 class IMac;
@@ -27,8 +26,8 @@ namespace Org::BouncyCastle::Crmf {
 class CORDL_TYPE DefaultPKMacPrimitivesProvider : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider
-constexpr operator  ::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider
+constexpr operator  Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -64,10 +63,10 @@ constexpr explicit DefaultPKMacPrimitivesProvider(void* ptr) noexcept : ::bs_hoo
 // Methods
 
 /// @brief Method CreateDigest addr 0x11855a8 size 0x78 virtual true final true
- ::Org::BouncyCastle::Crypto::IDigest CreateDigest(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlg) ;
+ Org::BouncyCastle::Crypto::IDigest CreateDigest(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlg) ;
 
 /// @brief Method CreateMac addr 0x1185620 size 0x78 virtual true final true
- ::Org::BouncyCastle::Crypto::IMac CreateMac(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier macAlg) ;
+ Org::BouncyCastle::Crypto::IMac CreateMac(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier macAlg) ;
 
 // Ctor Parameters []
 explicit DefaultPKMacPrimitivesProvider() ;
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crmf
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crmf::DefaultPKMacPrimitivesProvider);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crmf::DefaultPKMacPrimitivesProvider, "Org.BouncyCastle.Crmf", "DefaultPKMacPrimitivesProvider");
+NEED_NO_BOX(Org::BouncyCastle::Crmf::DefaultPKMacPrimitivesProvider);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crmf::DefaultPKMacPrimitivesProvider, "Org.BouncyCastle.Crmf", "DefaultPKMacPrimitivesProvider");

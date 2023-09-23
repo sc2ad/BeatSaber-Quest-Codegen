@@ -1,10 +1,6 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
-namespace UnityEngine::XR::OpenXR::NativeTypes {
-struct XrVector3f;
-}
 namespace UnityEngine::XR::OpenXR::NativeTypes {
 struct XrQuaternionf;
 }
@@ -13,6 +9,9 @@ struct Vector3;
 }
 namespace UnityEngine {
 struct Quaternion;
+}
+namespace UnityEngine::XR::OpenXR::NativeTypes {
+struct XrVector3f;
 }
 // Forward declare root types
 namespace UnityEngine::XR::OpenXR::NativeTypes {
@@ -27,8 +26,8 @@ namespace UnityEngine::XR::OpenXR::NativeTypes {
 struct CORDL_TYPE XrPosef : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "orientation", ty: "::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf", modifiers: "", def_value: None }, CppParam { name: "position", ty: "::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f", modifiers: "", def_value: None }]
-constexpr XrPosef(::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf orientation, ::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f position) noexcept;
+// Ctor Parameters [CppParam { name: "orientation", ty: "UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf", modifiers: "", def_value: None }, CppParam { name: "position", ty: "UnityEngine::XR::OpenXR::NativeTypes::XrVector3f", modifiers: "", def_value: None }]
+constexpr XrPosef(UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf orientation, UnityEngine::XR::OpenXR::NativeTypes::XrVector3f position) noexcept;
 
 
                     constexpr XrPosef(XrPosef const&) = default;
@@ -61,27 +60,26 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf __declspec(property(get=__get_orientation, put=__set_orientation))  orientation;
+ UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf __declspec(property(get=__get_orientation, put=__set_orientation))  orientation;
 
-constexpr void __set_orientation(::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf value) ;
+constexpr void __set_orientation(UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf value) ;
 
-constexpr ::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf __get_orientation() const;
+constexpr UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf __get_orientation() const;
 
- ::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f __declspec(property(get=__get_position, put=__set_position))  position;
+ UnityEngine::XR::OpenXR::NativeTypes::XrVector3f __declspec(property(get=__get_position, put=__set_position))  position;
 
-constexpr void __set_position(::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f value) ;
+constexpr void __set_position(UnityEngine::XR::OpenXR::NativeTypes::XrVector3f value) ;
 
-constexpr ::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f __get_position() const;
+constexpr UnityEngine::XR::OpenXR::NativeTypes::XrVector3f __get_position() const;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x2aed714 size 0x20 virtual false final false
- void _ctor(::UnityEngine::Vector3 vec3, ::UnityEngine::Quaternion quaternion) ;
+ void _ctor(UnityEngine::Vector3 vec3, UnityEngine::Quaternion quaternion) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR::OpenXR::NativeTypes
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::NativeTypes::XrPosef, "UnityEngine.XR.OpenXR.NativeTypes", "XrPosef");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::OpenXR::NativeTypes::XrPosef, "UnityEngine.XR.OpenXR.NativeTypes", "XrPosef");

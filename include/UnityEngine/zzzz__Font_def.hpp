@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 class Action_1;
@@ -18,7 +17,7 @@ namespace UnityEngine {
 class Font;
 }
 namespace UnityEngine {
-class ____UnityEngine__Font__FontTextureRebuildCallback;
+class UnityEngine__Font__FontTextureRebuildCallback;
 }
 // Type: ::FontTextureRebuildCallback
 namespace UnityEngine {
@@ -26,44 +25,44 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15792))
 // CS Name: UnityEngine.Font::FontTextureRebuildCallback
-class CORDL_TYPE ____UnityEngine__Font__FontTextureRebuildCallback : public ::System::MulticastDelegate {
+class CORDL_TYPE UnityEngine__Font__FontTextureRebuildCallback : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x80};
 
-virtual ~____UnityEngine__Font__FontTextureRebuildCallback() = default;
+virtual ~UnityEngine__Font__FontTextureRebuildCallback() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__Font__FontTextureRebuildCallback", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__Font__FontTextureRebuildCallback(____UnityEngine__Font__FontTextureRebuildCallback const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__Font__FontTextureRebuildCallback", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__Font__FontTextureRebuildCallback(UnityEngine__Font__FontTextureRebuildCallback const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__Font__FontTextureRebuildCallback", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__Font__FontTextureRebuildCallback(____UnityEngine__Font__FontTextureRebuildCallback&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__Font__FontTextureRebuildCallback", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__Font__FontTextureRebuildCallback(UnityEngine__Font__FontTextureRebuildCallback&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__Font__FontTextureRebuildCallback(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit UnityEngine__Font__FontTextureRebuildCallback(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
-  constexpr ____UnityEngine__Font__FontTextureRebuildCallback& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__Font__FontTextureRebuildCallback& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__Font__FontTextureRebuildCallback& operator=(void* o) noexcept {
+  constexpr UnityEngine__Font__FontTextureRebuildCallback& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__Font__FontTextureRebuildCallback& operator=(____UnityEngine__Font__FontTextureRebuildCallback&& o) noexcept = default;
-  constexpr ____UnityEngine__Font__FontTextureRebuildCallback& operator=(____UnityEngine__Font__FontTextureRebuildCallback const& o) noexcept = default;
+  constexpr UnityEngine__Font__FontTextureRebuildCallback& operator=(UnityEngine__Font__FontTextureRebuildCallback&& o) noexcept = default;
+  constexpr UnityEngine__Font__FontTextureRebuildCallback& operator=(UnityEngine__Font__FontTextureRebuildCallback const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit ____UnityEngine__Font__FontTextureRebuildCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+explicit UnityEngine__Font__FontTextureRebuildCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2bd6644 size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -81,10 +80,10 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10142))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15793))
 // CS Name: UnityEngine.Font
-class CORDL_TYPE Font : public ::UnityEngine::Object {
+class CORDL_TYPE Font : public UnityEngine::Object {
 public:
 // Declarations
-using FontTextureRebuildCallback = ::UnityEngine::____UnityEngine__Font__FontTextureRebuildCallback;
+using FontTextureRebuildCallback = UnityEngine::UnityEngine__Font__FontTextureRebuildCallback;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -98,7 +97,7 @@ constexpr Font(Font const& ) noexcept = default;
 constexpr Font(Font&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Font(void* ptr) noexcept : ::UnityEngine::Object(ptr) {
+constexpr explicit Font(void* ptr) noexcept : UnityEngine::Object(ptr) {
 }
 
 
@@ -119,22 +118,22 @@ constexpr explicit Font(void* ptr) noexcept : ::UnityEngine::Object(ptr) {
 
 // Fields
 
-static ::System::Action_1<::UnityEngine::Font> __declspec(property(get=__get_textureRebuilt, put=__set_textureRebuilt))  textureRebuilt;
+static System::Action_1<UnityEngine::Font> __declspec(property(get=__get_textureRebuilt, put=__set_textureRebuilt))  textureRebuilt;
 
-static void __set_textureRebuilt(::System::Action_1<::UnityEngine::Font> value) ;
+static void __set_textureRebuilt(System::Action_1<UnityEngine::Font> value) ;
 
-static ::System::Action_1<::UnityEngine::Font> __get_textureRebuilt() ;
+static System::Action_1<UnityEngine::Font> __get_textureRebuilt() ;
 
- ::UnityEngine::____UnityEngine__Font__FontTextureRebuildCallback __declspec(property(get=__get_m_FontTextureRebuildCallback, put=__set_m_FontTextureRebuildCallback))  m_FontTextureRebuildCallback;
+ UnityEngine::UnityEngine__Font__FontTextureRebuildCallback __declspec(property(get=__get_m_FontTextureRebuildCallback, put=__set_m_FontTextureRebuildCallback))  m_FontTextureRebuildCallback;
 
-constexpr void __set_m_FontTextureRebuildCallback(::UnityEngine::____UnityEngine__Font__FontTextureRebuildCallback value) ;
+constexpr void __set_m_FontTextureRebuildCallback(UnityEngine::UnityEngine__Font__FontTextureRebuildCallback value) ;
 
-constexpr ::UnityEngine::____UnityEngine__Font__FontTextureRebuildCallback __get_m_FontTextureRebuildCallback() const;
+constexpr UnityEngine::UnityEngine__Font__FontTextureRebuildCallback __get_m_FontTextureRebuildCallback() const;
 
 
 // Properties
 
- ::UnityEngine::Material __declspec(property(get=get_material))  material;
+ UnityEngine::Material __declspec(property(get=get_material))  material;
 
  bool __declspec(property(get=get_dynamic))  dynamic;
 
@@ -144,13 +143,13 @@ constexpr ::UnityEngine::____UnityEngine__Font__FontTextureRebuildCallback __get
 // Methods
 
 /// @brief Method add_textureRebuilt addr 0x2bd6258 size 0xcc virtual false final false
-static void add_textureRebuilt(::System::Action_1<::UnityEngine::Font> value) ;
+static void add_textureRebuilt(System::Action_1<UnityEngine::Font> value) ;
 
 /// @brief Method remove_textureRebuilt addr 0x2bd6324 size 0xcc virtual false final false
-static void remove_textureRebuilt(::System::Action_1<::UnityEngine::Font> value) ;
+static void remove_textureRebuilt(System::Action_1<UnityEngine::Font> value) ;
 
 /// @brief Method get_material addr 0x2bd63f0 size 0x3c virtual false final false
- ::UnityEngine::Material get_material() ;
+ UnityEngine::Material get_material() ;
 
 /// @brief Method get_dynamic addr 0x2bd53b8 size 0x3c virtual false final false
  bool get_dynamic() ;
@@ -165,7 +164,7 @@ explicit Font() ;
  void _ctor() ;
 
 /// @brief Method InvokeTextureRebuilt_Internal addr 0x2bd6530 size 0x8c virtual false final false
-static void InvokeTextureRebuilt_Internal(::UnityEngine::Font font) ;
+static void InvokeTextureRebuilt_Internal(UnityEngine::Font font) ;
 
 /// @brief Method HasCharacter addr 0x2bd65bc size 0x44 virtual false final false
  bool HasCharacter(char16_t c) ;
@@ -174,14 +173,13 @@ static void InvokeTextureRebuilt_Internal(::UnityEngine::Font font) ;
  bool HasCharacter(int32_t c) ;
 
 /// @brief Method Internal_CreateFont addr 0x2bd64ec size 0x44 virtual false final false
-static void Internal_CreateFont(::UnityEngine::Font self, ::StringW name) ;
+static void Internal_CreateFont(UnityEngine::Font self, ::StringW name) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Font);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Font, "UnityEngine", "Font");
-NEED_NO_BOX(::UnityEngine::____UnityEngine__Font__FontTextureRebuildCallback);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::____UnityEngine__Font__FontTextureRebuildCallback, "UnityEngine", "Font/FontTextureRebuildCallback");
+NEED_NO_BOX(UnityEngine::Font);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Font, "UnityEngine", "Font");
+NEED_NO_BOX(UnityEngine::UnityEngine__Font__FontTextureRebuildCallback);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnityEngine__Font__FontTextureRebuildCallback, "UnityEngine", "Font/FontTextureRebuildCallback");

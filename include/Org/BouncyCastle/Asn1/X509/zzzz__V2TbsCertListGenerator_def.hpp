@@ -2,15 +2,23 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class Time;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerUtcTime;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+namespace Org::BouncyCastle::Asn1::X509 {
+class TbsCertificateList;
 }
 namespace System::Collections {
 class IList;
@@ -18,20 +26,11 @@ class IList;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class TbsCertificateList;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerGeneralizedTime;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class Time;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -79,47 +78,47 @@ constexpr explicit V2TbsCertListGenerator(void* ptr) noexcept : ::bs_hook::Il2Cp
 
 // Fields
 
- ::Org::BouncyCastle::Asn1::DerInteger __declspec(property(get=__get_version, put=__set_version))  version;
+ Org::BouncyCastle::Asn1::DerInteger __declspec(property(get=__get_version, put=__set_version))  version;
 
-constexpr void __set_version(::Org::BouncyCastle::Asn1::DerInteger value) ;
+constexpr void __set_version(Org::BouncyCastle::Asn1::DerInteger value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::DerInteger __get_version() const;
+constexpr Org::BouncyCastle::Asn1::DerInteger __get_version() const;
 
- ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __declspec(property(get=__get_signature, put=__set_signature))  signature;
+ Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __declspec(property(get=__get_signature, put=__set_signature))  signature;
 
-constexpr void __set_signature(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier value) ;
+constexpr void __set_signature(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __get_signature() const;
+constexpr Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __get_signature() const;
 
- ::Org::BouncyCastle::Asn1::X509::X509Name __declspec(property(get=__get_issuer, put=__set_issuer))  issuer;
+ Org::BouncyCastle::Asn1::X509::X509Name __declspec(property(get=__get_issuer, put=__set_issuer))  issuer;
 
-constexpr void __set_issuer(::Org::BouncyCastle::Asn1::X509::X509Name value) ;
+constexpr void __set_issuer(Org::BouncyCastle::Asn1::X509::X509Name value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::X509::X509Name __get_issuer() const;
+constexpr Org::BouncyCastle::Asn1::X509::X509Name __get_issuer() const;
 
- ::Org::BouncyCastle::Asn1::X509::Time __declspec(property(get=__get_thisUpdate, put=__set_thisUpdate))  thisUpdate;
+ Org::BouncyCastle::Asn1::X509::Time __declspec(property(get=__get_thisUpdate, put=__set_thisUpdate))  thisUpdate;
 
-constexpr void __set_thisUpdate(::Org::BouncyCastle::Asn1::X509::Time value) ;
+constexpr void __set_thisUpdate(Org::BouncyCastle::Asn1::X509::Time value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::X509::Time __get_thisUpdate() const;
+constexpr Org::BouncyCastle::Asn1::X509::Time __get_thisUpdate() const;
 
- ::Org::BouncyCastle::Asn1::X509::Time __declspec(property(get=__get_nextUpdate, put=__set_nextUpdate))  nextUpdate;
+ Org::BouncyCastle::Asn1::X509::Time __declspec(property(get=__get_nextUpdate, put=__set_nextUpdate))  nextUpdate;
 
-constexpr void __set_nextUpdate(::Org::BouncyCastle::Asn1::X509::Time value) ;
+constexpr void __set_nextUpdate(Org::BouncyCastle::Asn1::X509::Time value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::X509::Time __get_nextUpdate() const;
+constexpr Org::BouncyCastle::Asn1::X509::Time __get_nextUpdate() const;
 
- ::Org::BouncyCastle::Asn1::X509::X509Extensions __declspec(property(get=__get_extensions, put=__set_extensions))  extensions;
+ Org::BouncyCastle::Asn1::X509::X509Extensions __declspec(property(get=__get_extensions, put=__set_extensions))  extensions;
 
-constexpr void __set_extensions(::Org::BouncyCastle::Asn1::X509::X509Extensions value) ;
+constexpr void __set_extensions(Org::BouncyCastle::Asn1::X509::X509Extensions value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions __get_extensions() const;
+constexpr Org::BouncyCastle::Asn1::X509::X509Extensions __get_extensions() const;
 
- ::System::Collections::IList __declspec(property(get=__get_crlEntries, put=__set_crlEntries))  crlEntries;
+ System::Collections::IList __declspec(property(get=__get_crlEntries, put=__set_crlEntries))  crlEntries;
 
-constexpr void __set_crlEntries(::System::Collections::IList value) ;
+constexpr void __set_crlEntries(System::Collections::IList value) ;
 
-constexpr ::System::Collections::IList __get_crlEntries() const;
+constexpr System::Collections::IList __get_crlEntries() const;
 
 
 // Methods
@@ -131,48 +130,47 @@ explicit V2TbsCertListGenerator() ;
  void _ctor() ;
 
 /// @brief Method SetSignature addr 0x111160c size 0x8 virtual false final false
- void SetSignature(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier signature) ;
+ void SetSignature(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier signature) ;
 
 /// @brief Method SetIssuer addr 0x1111614 size 0x8 virtual false final false
- void SetIssuer(::Org::BouncyCastle::Asn1::X509::X509Name issuer) ;
+ void SetIssuer(Org::BouncyCastle::Asn1::X509::X509Name issuer) ;
 
 /// @brief Method SetThisUpdate addr 0x111161c size 0x6c virtual false final false
- void SetThisUpdate(::Org::BouncyCastle::Asn1::DerUtcTime thisUpdate) ;
+ void SetThisUpdate(Org::BouncyCastle::Asn1::DerUtcTime thisUpdate) ;
 
 /// @brief Method SetNextUpdate addr 0x1111688 size 0x74 virtual false final false
- void SetNextUpdate(::Org::BouncyCastle::Asn1::DerUtcTime nextUpdate) ;
+ void SetNextUpdate(Org::BouncyCastle::Asn1::DerUtcTime nextUpdate) ;
 
 /// @brief Method SetThisUpdate addr 0x11116fc size 0x8 virtual false final false
- void SetThisUpdate(::Org::BouncyCastle::Asn1::X509::Time thisUpdate) ;
+ void SetThisUpdate(Org::BouncyCastle::Asn1::X509::Time thisUpdate) ;
 
 /// @brief Method SetNextUpdate addr 0x1111704 size 0x8 virtual false final false
- void SetNextUpdate(::Org::BouncyCastle::Asn1::X509::Time nextUpdate) ;
+ void SetNextUpdate(Org::BouncyCastle::Asn1::X509::Time nextUpdate) ;
 
 /// @brief Method AddCrlEntry addr 0x111170c size 0xe4 virtual false final false
- void AddCrlEntry(::Org::BouncyCastle::Asn1::Asn1Sequence crlEntry) ;
+ void AddCrlEntry(Org::BouncyCastle::Asn1::Asn1Sequence crlEntry) ;
 
 /// @brief Method AddCrlEntry addr 0x11117f0 size 0x8c virtual false final false
- void AddCrlEntry(::Org::BouncyCastle::Asn1::DerInteger userCertificate, ::Org::BouncyCastle::Asn1::DerUtcTime revocationDate, int32_t reason) ;
+ void AddCrlEntry(Org::BouncyCastle::Asn1::DerInteger userCertificate, Org::BouncyCastle::Asn1::DerUtcTime revocationDate, int32_t reason) ;
 
 /// @brief Method AddCrlEntry addr 0x111187c size 0x8 virtual false final false
- void AddCrlEntry(::Org::BouncyCastle::Asn1::DerInteger userCertificate, ::Org::BouncyCastle::Asn1::X509::Time revocationDate, int32_t reason) ;
+ void AddCrlEntry(Org::BouncyCastle::Asn1::DerInteger userCertificate, Org::BouncyCastle::Asn1::X509::Time revocationDate, int32_t reason) ;
 
 /// @brief Method AddCrlEntry addr 0x1111884 size 0x5e4 virtual false final false
- void AddCrlEntry(::Org::BouncyCastle::Asn1::DerInteger userCertificate, ::Org::BouncyCastle::Asn1::X509::Time revocationDate, int32_t reason, ::Org::BouncyCastle::Asn1::DerGeneralizedTime invalidityDate) ;
+ void AddCrlEntry(Org::BouncyCastle::Asn1::DerInteger userCertificate, Org::BouncyCastle::Asn1::X509::Time revocationDate, int32_t reason, Org::BouncyCastle::Asn1::DerGeneralizedTime invalidityDate) ;
 
 /// @brief Method AddCrlEntry addr 0x1112394 size 0x14c virtual false final false
- void AddCrlEntry(::Org::BouncyCastle::Asn1::DerInteger userCertificate, ::Org::BouncyCastle::Asn1::X509::Time revocationDate, ::Org::BouncyCastle::Asn1::X509::X509Extensions extensions) ;
+ void AddCrlEntry(Org::BouncyCastle::Asn1::DerInteger userCertificate, Org::BouncyCastle::Asn1::X509::Time revocationDate, Org::BouncyCastle::Asn1::X509::X509Extensions extensions) ;
 
 /// @brief Method SetExtensions addr 0x11124e0 size 0x8 virtual false final false
- void SetExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions extensions) ;
+ void SetExtensions(Org::BouncyCastle::Asn1::X509::X509Extensions extensions) ;
 
 /// @brief Method GenerateTbsCertList addr 0x11124e8 size 0x4e8 virtual false final false
- ::Org::BouncyCastle::Asn1::X509::TbsCertificateList GenerateTbsCertList() ;
+ Org::BouncyCastle::Asn1::X509::TbsCertificateList GenerateTbsCertList() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::X509
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::V2TbsCertListGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X509::V2TbsCertListGenerator, "Org.BouncyCastle.Asn1.X509", "V2TbsCertListGenerator");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::V2TbsCertListGenerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::V2TbsCertListGenerator, "Org.BouncyCastle.Asn1.X509", "V2TbsCertListGenerator");

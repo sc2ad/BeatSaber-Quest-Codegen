@@ -3,7 +3,6 @@
 #include "UnityEngine/zzzz__YieldInstruction_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 class Action_1;
@@ -18,7 +17,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10133))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10143))
 // CS Name: UnityEngine.AsyncOperation
-class CORDL_TYPE AsyncOperation : public ::UnityEngine::YieldInstruction {
+class CORDL_TYPE AsyncOperation : public UnityEngine::YieldInstruction {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr AsyncOperation(AsyncOperation const& ) noexcept = default;
 constexpr AsyncOperation(AsyncOperation&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AsyncOperation(void* ptr) noexcept : ::UnityEngine::YieldInstruction(ptr) {
+constexpr explicit AsyncOperation(void* ptr) noexcept : UnityEngine::YieldInstruction(ptr) {
 }
 
 
@@ -60,11 +59,11 @@ constexpr void __set_m_Ptr(::cordl_internals::intptr_t value) ;
 
 constexpr ::cordl_internals::intptr_t __get_m_Ptr() const;
 
- ::System::Action_1<::UnityEngine::AsyncOperation> __declspec(property(get=__get_m_completeCallback, put=__set_m_completeCallback))  m_completeCallback;
+ System::Action_1<UnityEngine::AsyncOperation> __declspec(property(get=__get_m_completeCallback, put=__set_m_completeCallback))  m_completeCallback;
 
-constexpr void __set_m_completeCallback(::System::Action_1<::UnityEngine::AsyncOperation> value) ;
+constexpr void __set_m_completeCallback(System::Action_1<UnityEngine::AsyncOperation> value) ;
 
-constexpr ::System::Action_1<::UnityEngine::AsyncOperation> __get_m_completeCallback() const;
+constexpr System::Action_1<UnityEngine::AsyncOperation> __get_m_completeCallback() const;
 
 
 // Properties
@@ -87,10 +86,10 @@ constexpr ::System::Action_1<::UnityEngine::AsyncOperation> __get_m_completeCall
  void InvokeCompletionEvent() ;
 
 /// @brief Method add_completed addr 0x2b5944c size 0xfc virtual false final false
- void add_completed(::System::Action_1<::UnityEngine::AsyncOperation> value) ;
+ void add_completed(System::Action_1<UnityEngine::AsyncOperation> value) ;
 
 /// @brief Method remove_completed addr 0x2b59584 size 0xa8 virtual false final false
- void remove_completed(::System::Action_1<::UnityEngine::AsyncOperation> value) ;
+ void remove_completed(System::Action_1<UnityEngine::AsyncOperation> value) ;
 
 /// @brief Method InternalDestroy addr 0x2b593e0 size 0x3c virtual false final false
 static void InternalDestroy(::cordl_internals::intptr_t ptr) ;
@@ -120,6 +119,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AsyncOperation);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AsyncOperation, "UnityEngine", "AsyncOperation");
+NEED_NO_BOX(UnityEngine::AsyncOperation);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AsyncOperation, "UnityEngine", "AsyncOperation");

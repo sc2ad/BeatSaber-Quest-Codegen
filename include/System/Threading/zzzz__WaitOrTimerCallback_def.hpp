@@ -3,7 +3,6 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Threading {
 class WaitOrTimerCallback;
@@ -14,7 +13,7 @@ namespace System::Threading {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2728))
 // CS Name: System.Threading.WaitOrTimerCallback
-class CORDL_TYPE WaitOrTimerCallback : public ::System::MulticastDelegate {
+class CORDL_TYPE WaitOrTimerCallback : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr WaitOrTimerCallback(WaitOrTimerCallback const& ) noexcept = default;
 constexpr WaitOrTimerCallback(WaitOrTimerCallback&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit WaitOrTimerCallback(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit WaitOrTimerCallback(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -63,6 +62,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Threading
-} // end anonymous namespace
-NEED_NO_BOX(::System::Threading::WaitOrTimerCallback);
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::WaitOrTimerCallback, "System.Threading", "WaitOrTimerCallback");
+NEED_NO_BOX(System::Threading::WaitOrTimerCallback);
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::WaitOrTimerCallback, "System.Threading", "WaitOrTimerCallback");

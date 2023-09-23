@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace HoudiniEngineUnity {
-struct HAPI_GeoInfo;
-}
 namespace HoudiniEngineUnity {
 class Test_HAPI_GeoInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_GeoInfo;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -55,12 +54,11 @@ constexpr explicit Test_HAPI_GeoInfo_Extensions(void* ptr) noexcept : ::bs_hook:
 // Methods
 
 /// @brief Method ToTestObject addr 0x2070c20 size 0x88 virtual false final false
-static ::HoudiniEngineUnity::Test_HAPI_GeoInfo ToTestObject(::HoudiniEngineUnity::HAPI_GeoInfo self) ;
+static HoudiniEngineUnity::Test_HAPI_GeoInfo ToTestObject(HoudiniEngineUnity::HAPI_GeoInfo self) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::Test_HAPI_GeoInfo_Extensions);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::Test_HAPI_GeoInfo_Extensions, "HoudiniEngineUnity", "Test_HAPI_GeoInfo_Extensions");
+NEED_NO_BOX(HoudiniEngineUnity::Test_HAPI_GeoInfo_Extensions);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_HAPI_GeoInfo_Extensions, "HoudiniEngineUnity", "Test_HAPI_GeoInfo_Extensions");

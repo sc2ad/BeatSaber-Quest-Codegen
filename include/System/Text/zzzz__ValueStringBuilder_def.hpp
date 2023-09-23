@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 struct Span_1;
@@ -23,8 +22,8 @@ namespace System::Text {
 struct CORDL_TYPE ValueStringBuilder : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "_arrayToReturnToPool", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "_chars", ty: "::System::Span_1<char16_t>", modifiers: "", def_value: None }, CppParam { name: "_pos", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ValueStringBuilder(::ArrayW<char16_t> _arrayToReturnToPool, ::System::Span_1<char16_t> _chars, int32_t _pos) noexcept;
+// Ctor Parameters [CppParam { name: "_arrayToReturnToPool", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "_chars", ty: "System::Span_1<char16_t>", modifiers: "", def_value: None }, CppParam { name: "_pos", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr ValueStringBuilder(::ArrayW<char16_t> _arrayToReturnToPool, System::Span_1<char16_t> _chars, int32_t _pos) noexcept;
 
 
                     constexpr ValueStringBuilder(ValueStringBuilder const&) = default;
@@ -63,11 +62,11 @@ constexpr void __set__arrayToReturnToPool(::ArrayW<char16_t> value) ;
 
 constexpr ::ArrayW<char16_t> __get__arrayToReturnToPool() const;
 
- ::System::Span_1<char16_t> __declspec(property(get=__get__chars, put=__set__chars))  _chars;
+ System::Span_1<char16_t> __declspec(property(get=__get__chars, put=__set__chars))  _chars;
 
-constexpr void __set__chars(::System::Span_1<char16_t> value) ;
+constexpr void __set__chars(System::Span_1<char16_t> value) ;
 
-constexpr ::System::Span_1<char16_t> __get__chars() const;
+constexpr System::Span_1<char16_t> __get__chars() const;
 
  int32_t __declspec(property(get=__get__pos, put=__set__pos))  _pos;
 
@@ -86,7 +85,7 @@ constexpr int32_t __get__pos() const;
 // Methods
 
 /// @brief Method .ctor addr 0x22dcb2c size 0x10 virtual false final false
- void _ctor(::System::Span_1<char16_t> initialBuffer) ;
+ void _ctor(System::Span_1<char16_t> initialBuffer) ;
 
 /// @brief Method get_Length addr 0x22dcb3c size 0x8 virtual false final false
  int32_t get_Length() ;
@@ -98,7 +97,7 @@ constexpr int32_t __get__pos() const;
  ::StringW ToString() ;
 
 /// @brief Method TryCopyTo addr 0x22dcd00 size 0x28c virtual false final false
- bool TryCopyTo(::System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten) ;
+ bool TryCopyTo(System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten) ;
 
 /// @brief Method Append addr 0x22dcf8c size 0x7c virtual false final false
  void Append(char16_t c) ;
@@ -116,7 +115,7 @@ constexpr int32_t __get__pos() const;
  void Append(void* value, int32_t length) ;
 
 /// @brief Method AppendSpan addr 0x22dd664 size 0xc0 virtual false final false
- ::System::Span_1<char16_t> AppendSpan(int32_t length) ;
+ System::Span_1<char16_t> AppendSpan(int32_t length) ;
 
 /// @brief Method GrowAndAppend addr 0x22dd008 size 0x80 virtual false final false
  void GrowAndAppend(char16_t c) ;
@@ -131,5 +130,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Text
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::ValueStringBuilder, "System.Text", "ValueStringBuilder");
+DEFINE_IL2CPP_ARG_TYPE(System::Text::ValueStringBuilder, "System.Text", "ValueStringBuilder");

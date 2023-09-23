@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_def.hpp"
 #include <cmath>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 class MinAttribute;
@@ -13,7 +12,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10112))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10119))
 // CS Name: UnityEngine.MinAttribute
-class CORDL_TYPE MinAttribute : public ::UnityEngine::PropertyAttribute {
+class CORDL_TYPE MinAttribute : public UnityEngine::PropertyAttribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr MinAttribute(MinAttribute const& ) noexcept = default;
 constexpr MinAttribute(MinAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MinAttribute(void* ptr) noexcept : ::UnityEngine::PropertyAttribute(ptr) {
+constexpr explicit MinAttribute(void* ptr) noexcept : UnityEngine::PropertyAttribute(ptr) {
 }
 
 
@@ -68,6 +67,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::MinAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::MinAttribute, "UnityEngine", "MinAttribute");
+NEED_NO_BOX(UnityEngine::MinAttribute);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MinAttribute, "UnityEngine", "MinAttribute");

@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class IMac;
 }
-namespace Org::BouncyCastle::Crypto::Digests {
-class Dstu7564Digest;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto::Digests {
+class Dstu7564Digest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Macs {
@@ -27,8 +26,8 @@ namespace Org::BouncyCastle::Crypto::Macs {
 class CORDL_TYPE Dstu7564Mac : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IMac
-constexpr operator  ::Org::BouncyCastle::Crypto::IMac() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IMac
+constexpr operator  Org::BouncyCastle::Crypto::IMac() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -63,11 +62,11 @@ constexpr explicit Dstu7564Mac(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 
 // Fields
 
- ::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest __declspec(property(get=__get_engine, put=__set_engine))  engine;
+ Org::BouncyCastle::Crypto::Digests::Dstu7564Digest __declspec(property(get=__get_engine, put=__set_engine))  engine;
 
-constexpr void __set_engine(::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest value) ;
+constexpr void __set_engine(Org::BouncyCastle::Crypto::Digests::Dstu7564Digest value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest __get_engine() const;
+constexpr Org::BouncyCastle::Crypto::Digests::Dstu7564Digest __get_engine() const;
 
  int32_t __declspec(property(get=__get_macSize, put=__set_macSize))  macSize;
 
@@ -111,7 +110,7 @@ explicit Dstu7564Mac(int32_t macSizeBits) ;
  void _ctor(int32_t macSizeBits) ;
 
 /// @brief Method Init addr 0xe7fc30 size 0x17c virtual true final true
- void Init(::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method GetMacSize addr 0xe7ff60 size 0x8 virtual true final true
  int32_t GetMacSize() ;
@@ -138,6 +137,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Macs
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Macs::Dstu7564Mac);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Macs::Dstu7564Mac, "Org.BouncyCastle.Crypto.Macs", "Dstu7564Mac");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Macs::Dstu7564Mac);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Macs::Dstu7564Mac, "Org.BouncyCastle.Crypto.Macs", "Dstu7564Mac");

@@ -4,21 +4,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Runtime::Serialization::Formatters::Binary {
-class ParseRecord;
-}
-namespace System {
-class Array;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class ReadObjectInfo;
+struct ValueFixupEnum;
 }
 namespace System::Reflection {
 class MemberInfo;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-struct ValueFixupEnum;
+class ReadObjectInfo;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class ParseRecord;
+}
+namespace System {
+class Array;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -66,17 +65,17 @@ constexpr explicit ValueFixup(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType
 
 // Fields
 
- ::System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum __declspec(property(get=__get_valueFixupEnum, put=__set_valueFixupEnum))  valueFixupEnum;
+ System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum __declspec(property(get=__get_valueFixupEnum, put=__set_valueFixupEnum))  valueFixupEnum;
 
-constexpr void __set_valueFixupEnum(::System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum value) ;
+constexpr void __set_valueFixupEnum(System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum value) ;
 
-constexpr ::System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum __get_valueFixupEnum() const;
+constexpr System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum __get_valueFixupEnum() const;
 
- ::System::Array __declspec(property(get=__get_arrayObj, put=__set_arrayObj))  arrayObj;
+ System::Array __declspec(property(get=__get_arrayObj, put=__set_arrayObj))  arrayObj;
 
-constexpr void __set_arrayObj(::System::Array value) ;
+constexpr void __set_arrayObj(System::Array value) ;
 
-constexpr ::System::Array __get_arrayObj() const;
+constexpr System::Array __get_arrayObj() const;
 
  ::ArrayW<int32_t> __declspec(property(get=__get_indexMap, put=__set_indexMap))  indexMap;
 
@@ -96,17 +95,17 @@ constexpr void __set_memberObject(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get_memberObject() const;
 
-static ::System::Reflection::MemberInfo __declspec(property(get=__get_valueInfo, put=__set_valueInfo))  valueInfo;
+static System::Reflection::MemberInfo __declspec(property(get=__get_valueInfo, put=__set_valueInfo))  valueInfo;
 
-static void __set_valueInfo(::System::Reflection::MemberInfo value) ;
+static void __set_valueInfo(System::Reflection::MemberInfo value) ;
 
-static ::System::Reflection::MemberInfo __get_valueInfo() ;
+static System::Reflection::MemberInfo __get_valueInfo() ;
 
- ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo __declspec(property(get=__get_objectInfo, put=__set_objectInfo))  objectInfo;
+ System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo __declspec(property(get=__get_objectInfo, put=__set_objectInfo))  objectInfo;
 
-constexpr void __set_objectInfo(::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo value) ;
+constexpr void __set_objectInfo(System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo value) ;
 
-constexpr ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo __get_objectInfo() const;
+constexpr System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo __get_objectInfo() const;
 
  ::StringW __declspec(property(get=__get_memberName, put=__set_memberName))  memberName;
 
@@ -117,25 +116,24 @@ constexpr ::StringW __get_memberName() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "arrayObj", ty: "::System::Array", modifiers: "", def_value: None }, CppParam { name: "indexMap", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }]
-explicit ValueFixup(::System::Array arrayObj, ::ArrayW<int32_t> indexMap) ;
+// Ctor Parameters [CppParam { name: "arrayObj", ty: "System::Array", modifiers: "", def_value: None }, CppParam { name: "indexMap", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }]
+explicit ValueFixup(System::Array arrayObj, ::ArrayW<int32_t> indexMap) ;
 
 /// @brief Method .ctor addr 0x23622d4 size 0x34 virtual false final false
- void _ctor(::System::Array arrayObj, ::ArrayW<int32_t> indexMap) ;
+ void _ctor(System::Array arrayObj, ::ArrayW<int32_t> indexMap) ;
 
-// Ctor Parameters [CppParam { name: "memberObject", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "memberName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "objectInfo", ty: "::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo", modifiers: "", def_value: None }]
-explicit ValueFixup(::bs_hook::Il2CppWrapperType memberObject, ::StringW memberName, ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo objectInfo) ;
+// Ctor Parameters [CppParam { name: "memberObject", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "memberName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "objectInfo", ty: "System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo", modifiers: "", def_value: None }]
+explicit ValueFixup(::bs_hook::Il2CppWrapperType memberObject, ::StringW memberName, System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo objectInfo) ;
 
 /// @brief Method .ctor addr 0x236272c size 0x44 virtual false final false
- void _ctor(::bs_hook::Il2CppWrapperType memberObject, ::StringW memberName, ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo objectInfo) ;
+ void _ctor(::bs_hook::Il2CppWrapperType memberObject, ::StringW memberName, System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo objectInfo) ;
 
 /// @brief Method Fixup addr 0x236172c size 0x314 virtual false final false
- void Fixup(::System::Runtime::Serialization::Formatters::Binary::ParseRecord record, ::System::Runtime::Serialization::Formatters::Binary::ParseRecord parent) ;
+ void Fixup(System::Runtime::Serialization::Formatters::Binary::ParseRecord record, System::Runtime::Serialization::Formatters::Binary::ParseRecord parent) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization::Formatters::Binary
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::ValueFixup);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::ValueFixup, "System.Runtime.Serialization.Formatters.Binary", "ValueFixup");
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::ValueFixup);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ValueFixup, "System.Runtime.Serialization.Formatters.Binary", "ValueFixup");

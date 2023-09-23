@@ -3,15 +3,14 @@
 #include "UnityEngine/TextCore/zzzz__Glyph_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine::TextCore {
-struct GlyphRect;
+struct GlyphMetrics;
 }
 namespace UnityEngine {
 class Sprite;
 }
 namespace UnityEngine::TextCore {
-struct GlyphMetrics;
+struct GlyphRect;
 }
 // Forward declare root types
 namespace TMPro {
@@ -23,7 +22,7 @@ namespace TMPro {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15506))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12365))
 // CS Name: TMPro.TMP_SpriteGlyph
-class CORDL_TYPE TMP_SpriteGlyph : public ::UnityEngine::TextCore::Glyph {
+class CORDL_TYPE TMP_SpriteGlyph : public UnityEngine::TextCore::Glyph {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr TMP_SpriteGlyph(TMP_SpriteGlyph const& ) noexcept = default;
 constexpr TMP_SpriteGlyph(TMP_SpriteGlyph&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TMP_SpriteGlyph(void* ptr) noexcept : ::UnityEngine::TextCore::Glyph(ptr) {
+constexpr explicit TMP_SpriteGlyph(void* ptr) noexcept : UnityEngine::TextCore::Glyph(ptr) {
 }
 
 
@@ -59,11 +58,11 @@ constexpr explicit TMP_SpriteGlyph(void* ptr) noexcept : ::UnityEngine::TextCore
 
 // Fields
 
- ::UnityEngine::Sprite __declspec(property(get=__get_sprite, put=__set_sprite))  sprite;
+ UnityEngine::Sprite __declspec(property(get=__get_sprite, put=__set_sprite))  sprite;
 
-constexpr void __set_sprite(::UnityEngine::Sprite value) ;
+constexpr void __set_sprite(UnityEngine::Sprite value) ;
 
-constexpr ::UnityEngine::Sprite __get_sprite() const;
+constexpr UnityEngine::Sprite __get_sprite() const;
 
 
 // Methods
@@ -74,22 +73,21 @@ explicit TMP_SpriteGlyph() ;
 /// @brief Method .ctor addr 0x2aaccc0 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "index", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "metrics", ty: "::UnityEngine::TextCore::GlyphMetrics", modifiers: "", def_value: None }, CppParam { name: "glyphRect", ty: "::UnityEngine::TextCore::GlyphRect", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "atlasIndex", ty: "int32_t", modifiers: "", def_value: None }]
-explicit TMP_SpriteGlyph(uint32_t index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex) ;
+// Ctor Parameters [CppParam { name: "index", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "metrics", ty: "UnityEngine::TextCore::GlyphMetrics", modifiers: "", def_value: None }, CppParam { name: "glyphRect", ty: "UnityEngine::TextCore::GlyphRect", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "atlasIndex", ty: "int32_t", modifiers: "", def_value: None }]
+explicit TMP_SpriteGlyph(uint32_t index, UnityEngine::TextCore::GlyphMetrics metrics, UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex) ;
 
 /// @brief Method .ctor addr 0x2aad034 size 0xbc virtual false final false
- void _ctor(uint32_t index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex) ;
+ void _ctor(uint32_t index, UnityEngine::TextCore::GlyphMetrics metrics, UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex) ;
 
-// Ctor Parameters [CppParam { name: "index", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "metrics", ty: "::UnityEngine::TextCore::GlyphMetrics", modifiers: "", def_value: None }, CppParam { name: "glyphRect", ty: "::UnityEngine::TextCore::GlyphRect", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "atlasIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sprite", ty: "::UnityEngine::Sprite", modifiers: "", def_value: None }]
-explicit TMP_SpriteGlyph(uint32_t index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex, ::UnityEngine::Sprite sprite) ;
+// Ctor Parameters [CppParam { name: "index", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "metrics", ty: "UnityEngine::TextCore::GlyphMetrics", modifiers: "", def_value: None }, CppParam { name: "glyphRect", ty: "UnityEngine::TextCore::GlyphRect", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "atlasIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sprite", ty: "UnityEngine::Sprite", modifiers: "", def_value: None }]
+explicit TMP_SpriteGlyph(uint32_t index, UnityEngine::TextCore::GlyphMetrics metrics, UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex, UnityEngine::Sprite sprite) ;
 
 /// @brief Method .ctor addr 0x2aad0f0 size 0xc4 virtual false final false
- void _ctor(uint32_t index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex, ::UnityEngine::Sprite sprite) ;
+ void _ctor(uint32_t index, UnityEngine::TextCore::GlyphMetrics metrics, UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex, UnityEngine::Sprite sprite) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-NEED_NO_BOX(::TMPro::TMP_SpriteGlyph);
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_SpriteGlyph, "TMPro", "TMP_SpriteGlyph");
+NEED_NO_BOX(TMPro::TMP_SpriteGlyph);
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteGlyph, "TMPro", "TMP_SpriteGlyph");

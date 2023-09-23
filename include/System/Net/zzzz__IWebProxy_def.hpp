@@ -1,6 +1,5 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace System::Net {
 class ICredentials;
 }
@@ -29,24 +28,23 @@ constexpr explicit IWebProxy(void* ptr) noexcept : ::cordl_internals::InterfaceW
 
 // Properties
 
- ::System::Net::ICredentials __declspec(property(get=get_Credentials))  Credentials;
+ System::Net::ICredentials __declspec(property(get=get_Credentials))  Credentials;
 
 
 // Methods
 
 /// @brief Method GetProxy addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Uri GetProxy(::System::Uri destination) ;
+ System::Uri GetProxy(System::Uri destination) ;
 
 /// @brief Method IsBypassed addr 0x0 size 0xffffffffffffffff virtual true final false
- bool IsBypassed(::System::Uri host) ;
+ bool IsBypassed(System::Uri host) ;
 
 /// @brief Method get_Credentials addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Net::ICredentials get_Credentials() ;
+ System::Net::ICredentials get_Credentials() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::IWebProxy);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::IWebProxy, "System.Net", "IWebProxy");
+NEED_NO_BOX(System::Net::IWebProxy);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::IWebProxy, "System.Net", "IWebProxy");

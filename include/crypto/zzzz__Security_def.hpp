@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class IBufferedCipher;
 }
@@ -66,7 +65,7 @@ static ::StringW Encrypt(::StringW plainText, ::StringW key, ::StringW iv) ;
 static ::StringW GenerateText(int32_t size) ;
 
 /// @brief Method CreateCipher addr 0xf38a78 size 0x220 virtual false final false
-static ::Org::BouncyCastle::Crypto::IBufferedCipher CreateCipher(bool isEncryption, ::StringW key, ::StringW iv) ;
+static Org::BouncyCastle::Crypto::IBufferedCipher CreateCipher(bool isEncryption, ::StringW key, ::StringW iv) ;
 
 // Ctor Parameters []
 explicit Security() ;
@@ -78,6 +77,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def crypto
-} // end anonymous namespace
-NEED_NO_BOX(::crypto::Security);
-DEFINE_IL2CPP_ARG_TYPE(::crypto::Security, "crypto", "Security");
+NEED_NO_BOX(crypto::Security);
+DEFINE_IL2CPP_ARG_TYPE(crypto::Security, "crypto", "Security");

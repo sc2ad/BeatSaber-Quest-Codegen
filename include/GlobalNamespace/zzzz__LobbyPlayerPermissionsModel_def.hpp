@@ -2,15 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System {
-class Action;
-}
 namespace GlobalNamespace {
 class IMenuRpcManager;
 }
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
+}
+namespace System {
+class Action;
 }
 namespace GlobalNamespace {
 class PlayersLobbyPermissionConfigurationNetSerializable;
@@ -61,17 +60,17 @@ constexpr explicit LobbyPlayerPermissionsModel(void* ptr) noexcept : ::bs_hook::
 
 // Fields
 
- ::GlobalNamespace::IMenuRpcManager __declspec(property(get=__get__menuRpcManager, put=__set__menuRpcManager))  _menuRpcManager;
+ GlobalNamespace::IMenuRpcManager __declspec(property(get=__get__menuRpcManager, put=__set__menuRpcManager))  _menuRpcManager;
 
-constexpr void __set__menuRpcManager(::GlobalNamespace::IMenuRpcManager value) ;
+constexpr void __set__menuRpcManager(GlobalNamespace::IMenuRpcManager value) ;
 
-constexpr ::GlobalNamespace::IMenuRpcManager __get__menuRpcManager() const;
+constexpr GlobalNamespace::IMenuRpcManager __get__menuRpcManager() const;
 
- ::GlobalNamespace::IMultiplayerSessionManager __declspec(property(get=__get__multiplayerSessionManager, put=__set__multiplayerSessionManager))  _multiplayerSessionManager;
+ GlobalNamespace::IMultiplayerSessionManager __declspec(property(get=__get__multiplayerSessionManager, put=__set__multiplayerSessionManager))  _multiplayerSessionManager;
 
-constexpr void __set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager value) ;
+constexpr void __set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager value) ;
 
-constexpr ::GlobalNamespace::IMultiplayerSessionManager __get__multiplayerSessionManager() const;
+constexpr GlobalNamespace::IMultiplayerSessionManager __get__multiplayerSessionManager() const;
 
  bool __declspec(property(get=__get__isPartyOwner_k__BackingField, put=__set__isPartyOwner_k__BackingField))  _isPartyOwner_k__BackingField;
 
@@ -103,11 +102,11 @@ constexpr void __set__hasInvitePermission_k__BackingField(bool value) ;
 
 constexpr bool __get__hasInvitePermission_k__BackingField() const;
 
- ::System::Action __declspec(property(get=__get_permissionsChangedEvent, put=__set_permissionsChangedEvent))  permissionsChangedEvent;
+ System::Action __declspec(property(get=__get_permissionsChangedEvent, put=__set_permissionsChangedEvent))  permissionsChangedEvent;
 
-constexpr void __set_permissionsChangedEvent(::System::Action value) ;
+constexpr void __set_permissionsChangedEvent(System::Action value) ;
 
-constexpr ::System::Action __get_permissionsChangedEvent() const;
+constexpr System::Action __get_permissionsChangedEvent() const;
 
 
 // Properties
@@ -156,10 +155,10 @@ constexpr ::System::Action __get_permissionsChangedEvent() const;
  void set_hasInvitePermission(bool value) ;
 
 /// @brief Method add_permissionsChangedEvent addr 0x21f8d14 size 0x9c virtual false final false
- void add_permissionsChangedEvent(::System::Action value) ;
+ void add_permissionsChangedEvent(System::Action value) ;
 
 /// @brief Method remove_permissionsChangedEvent addr 0x21f8db0 size 0x9c virtual false final false
- void remove_permissionsChangedEvent(::System::Action value) ;
+ void remove_permissionsChangedEvent(System::Action value) ;
 
 /// @brief Method Activate addr 0x21f3570 size 0xf0 virtual false final false
  void Activate() ;
@@ -171,7 +170,7 @@ constexpr ::System::Action __get_permissionsChangedEvent() const;
  void SetPlayerPermissions(bool isPartyOwner, bool hasRecommendBeatmapPermission, bool hasRecommendModifiersPermission, bool hasKickVotePermission, bool hasInvitePermission) ;
 
 /// @brief Method HandleMenuRpcManagerSetPlayersPermissionConfiguration addr 0x21f8e4c size 0x2ac virtual false final false
- void HandleMenuRpcManagerSetPlayersPermissionConfiguration(::StringW userId, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable playersLobbyPermissionConfiguration) ;
+ void HandleMenuRpcManagerSetPlayersPermissionConfiguration(::StringW userId, GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable playersLobbyPermissionConfiguration) ;
 
 // Ctor Parameters []
 explicit LobbyPlayerPermissionsModel() ;
@@ -183,6 +182,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LobbyPlayerPermissionsModel);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LobbyPlayerPermissionsModel, "", "LobbyPlayerPermissionsModel");
+NEED_NO_BOX(GlobalNamespace::LobbyPlayerPermissionsModel);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyPlayerPermissionsModel, "", "LobbyPlayerPermissionsModel");

@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 class Texture2D;
 }
 namespace UnityEngine {
-struct Color;
+class GameObject;
 }
 namespace UnityEngine {
-class GameObject;
+struct Color;
 }
 namespace UnityEngine {
 struct DetailRenderMode;
@@ -62,41 +61,41 @@ constexpr explicit DetailPrototype(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Fields
 
-static ::UnityEngine::Color __declspec(property(get=__get_DefaultHealthColor, put=__set_DefaultHealthColor))  DefaultHealthColor;
+static UnityEngine::Color __declspec(property(get=__get_DefaultHealthColor, put=__set_DefaultHealthColor))  DefaultHealthColor;
 
-static void __set_DefaultHealthColor(::UnityEngine::Color value) ;
+static void __set_DefaultHealthColor(UnityEngine::Color value) ;
 
-static ::UnityEngine::Color __get_DefaultHealthColor() ;
+static UnityEngine::Color __get_DefaultHealthColor() ;
 
-static ::UnityEngine::Color __declspec(property(get=__get_DefaultDryColor, put=__set_DefaultDryColor))  DefaultDryColor;
+static UnityEngine::Color __declspec(property(get=__get_DefaultDryColor, put=__set_DefaultDryColor))  DefaultDryColor;
 
-static void __set_DefaultDryColor(::UnityEngine::Color value) ;
+static void __set_DefaultDryColor(UnityEngine::Color value) ;
 
-static ::UnityEngine::Color __get_DefaultDryColor() ;
+static UnityEngine::Color __get_DefaultDryColor() ;
 
- ::UnityEngine::GameObject __declspec(property(get=__get_m_Prototype, put=__set_m_Prototype))  m_Prototype;
+ UnityEngine::GameObject __declspec(property(get=__get_m_Prototype, put=__set_m_Prototype))  m_Prototype;
 
-constexpr void __set_m_Prototype(::UnityEngine::GameObject value) ;
+constexpr void __set_m_Prototype(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get_m_Prototype() const;
+constexpr UnityEngine::GameObject __get_m_Prototype() const;
 
- ::UnityEngine::Texture2D __declspec(property(get=__get_m_PrototypeTexture, put=__set_m_PrototypeTexture))  m_PrototypeTexture;
+ UnityEngine::Texture2D __declspec(property(get=__get_m_PrototypeTexture, put=__set_m_PrototypeTexture))  m_PrototypeTexture;
 
-constexpr void __set_m_PrototypeTexture(::UnityEngine::Texture2D value) ;
+constexpr void __set_m_PrototypeTexture(UnityEngine::Texture2D value) ;
 
-constexpr ::UnityEngine::Texture2D __get_m_PrototypeTexture() const;
+constexpr UnityEngine::Texture2D __get_m_PrototypeTexture() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_m_HealthyColor, put=__set_m_HealthyColor))  m_HealthyColor;
+ UnityEngine::Color __declspec(property(get=__get_m_HealthyColor, put=__set_m_HealthyColor))  m_HealthyColor;
 
-constexpr void __set_m_HealthyColor(::UnityEngine::Color value) ;
+constexpr void __set_m_HealthyColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_m_HealthyColor() const;
+constexpr UnityEngine::Color __get_m_HealthyColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_m_DryColor, put=__set_m_DryColor))  m_DryColor;
+ UnityEngine::Color __declspec(property(get=__get_m_DryColor, put=__set_m_DryColor))  m_DryColor;
 
-constexpr void __set_m_DryColor(::UnityEngine::Color value) ;
+constexpr void __set_m_DryColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_m_DryColor() const;
+constexpr UnityEngine::Color __get_m_DryColor() const;
 
  float_t __declspec(property(get=__get_m_MinWidth, put=__set_m_MinWidth))  m_MinWidth;
 
@@ -161,9 +160,9 @@ constexpr int32_t __get_m_UseInstancing() const;
 
 // Properties
 
- ::UnityEngine::GameObject __declspec(property(put=set_prototype))  prototype;
+ UnityEngine::GameObject __declspec(property(put=set_prototype))  prototype;
 
- ::UnityEngine::Texture2D __declspec(property(put=set_prototypeTexture))  prototypeTexture;
+ UnityEngine::Texture2D __declspec(property(put=set_prototypeTexture))  prototypeTexture;
 
  float_t __declspec(property(get=get_minWidth, put=set_minWidth))  minWidth;
 
@@ -175,11 +174,11 @@ constexpr int32_t __get_m_UseInstancing() const;
 
  float_t __declspec(property(get=get_noiseSpread, put=set_noiseSpread))  noiseSpread;
 
- ::UnityEngine::Color __declspec(property(get=get_healthyColor, put=set_healthyColor))  healthyColor;
+ UnityEngine::Color __declspec(property(get=get_healthyColor, put=set_healthyColor))  healthyColor;
 
- ::UnityEngine::Color __declspec(property(get=get_dryColor, put=set_dryColor))  dryColor;
+ UnityEngine::Color __declspec(property(get=get_dryColor, put=set_dryColor))  dryColor;
 
- ::UnityEngine::DetailRenderMode __declspec(property(get=get_renderMode, put=set_renderMode))  renderMode;
+ UnityEngine::DetailRenderMode __declspec(property(get=get_renderMode, put=set_renderMode))  renderMode;
 
  bool __declspec(property(put=set_usePrototypeMesh))  usePrototypeMesh;
 
@@ -187,10 +186,10 @@ constexpr int32_t __get_m_UseInstancing() const;
 // Methods
 
 /// @brief Method set_prototype addr 0x2ba5260 size 0x8 virtual false final false
- void set_prototype(::UnityEngine::GameObject value) ;
+ void set_prototype(UnityEngine::GameObject value) ;
 
 /// @brief Method set_prototypeTexture addr 0x2ba5268 size 0x8 virtual false final false
- void set_prototypeTexture(::UnityEngine::Texture2D value) ;
+ void set_prototypeTexture(UnityEngine::Texture2D value) ;
 
 /// @brief Method get_minWidth addr 0x2ba5270 size 0x8 virtual false final false
  float_t get_minWidth() ;
@@ -223,22 +222,22 @@ constexpr int32_t __get_m_UseInstancing() const;
  void set_noiseSpread(float_t value) ;
 
 /// @brief Method get_healthyColor addr 0x2ba52c0 size 0xc virtual false final false
- ::UnityEngine::Color get_healthyColor() ;
+ UnityEngine::Color get_healthyColor() ;
 
 /// @brief Method set_healthyColor addr 0x2ba52cc size 0xc virtual false final false
- void set_healthyColor(::UnityEngine::Color value) ;
+ void set_healthyColor(UnityEngine::Color value) ;
 
 /// @brief Method get_dryColor addr 0x2ba52d8 size 0xc virtual false final false
- ::UnityEngine::Color get_dryColor() ;
+ UnityEngine::Color get_dryColor() ;
 
 /// @brief Method set_dryColor addr 0x2ba52e4 size 0xc virtual false final false
- void set_dryColor(::UnityEngine::Color value) ;
+ void set_dryColor(UnityEngine::Color value) ;
 
 /// @brief Method get_renderMode addr 0x2ba52f0 size 0x8 virtual false final false
- ::UnityEngine::DetailRenderMode get_renderMode() ;
+ UnityEngine::DetailRenderMode get_renderMode() ;
 
 /// @brief Method set_renderMode addr 0x2ba52f8 size 0x8 virtual false final false
- void set_renderMode(::UnityEngine::DetailRenderMode value) ;
+ void set_renderMode(UnityEngine::DetailRenderMode value) ;
 
 /// @brief Method set_usePrototypeMesh addr 0x2ba5300 size 0x1c virtual false final false
  void set_usePrototypeMesh(bool value) ;
@@ -256,12 +255,11 @@ explicit DetailPrototype() ;
  int32_t GetHashCode() ;
 
 /// @brief Method Equals addr 0x2ba5420 size 0x1ec virtual false final false
- bool Equals(::UnityEngine::DetailPrototype other) ;
+ bool Equals(UnityEngine::DetailPrototype other) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::DetailPrototype);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::DetailPrototype, "UnityEngine", "DetailPrototype");
+NEED_NO_BOX(UnityEngine::DetailPrototype);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::DetailPrototype, "UnityEngine", "DetailPrototype");

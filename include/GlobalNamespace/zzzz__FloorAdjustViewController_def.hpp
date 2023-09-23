@@ -2,18 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include <cmath>
-namespace {
-namespace UnityEngine::UI {
-class Button;
-}
 namespace GlobalNamespace {
 class IVRPlatformHelper;
+}
+namespace GlobalNamespace {
+class Vector3SO;
 }
 namespace TMPro {
 class TextMeshProUGUI;
 }
-namespace GlobalNamespace {
-class Vector3SO;
+namespace UnityEngine::UI {
+class Button;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,7 +24,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13656))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5728))
 // CS Name: FloorAdjustViewController
-class CORDL_TYPE FloorAdjustViewController : public ::HMUI::ViewController {
+class CORDL_TYPE FloorAdjustViewController : public HMUI::ViewController {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr FloorAdjustViewController(FloorAdjustViewController const& ) noexcept 
 constexpr FloorAdjustViewController(FloorAdjustViewController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FloorAdjustViewController(void* ptr) noexcept : ::HMUI::ViewController(ptr) {
+constexpr explicit FloorAdjustViewController(void* ptr) noexcept : HMUI::ViewController(ptr) {
 }
 
 
@@ -61,35 +60,35 @@ constexpr explicit FloorAdjustViewController(void* ptr) noexcept : ::HMUI::ViewC
 
 // Fields
 
- ::GlobalNamespace::Vector3SO __declspec(property(get=__get__roomCenter, put=__set__roomCenter))  _roomCenter;
+ GlobalNamespace::Vector3SO __declspec(property(get=__get__roomCenter, put=__set__roomCenter))  _roomCenter;
 
-constexpr void __set__roomCenter(::GlobalNamespace::Vector3SO value) ;
+constexpr void __set__roomCenter(GlobalNamespace::Vector3SO value) ;
 
-constexpr ::GlobalNamespace::Vector3SO __get__roomCenter() const;
+constexpr GlobalNamespace::Vector3SO __get__roomCenter() const;
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__yIncButton, put=__set__yIncButton))  _yIncButton;
+ UnityEngine::UI::Button __declspec(property(get=__get__yIncButton, put=__set__yIncButton))  _yIncButton;
 
-constexpr void __set__yIncButton(::UnityEngine::UI::Button value) ;
+constexpr void __set__yIncButton(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__yIncButton() const;
+constexpr UnityEngine::UI::Button __get__yIncButton() const;
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__yDecButton, put=__set__yDecButton))  _yDecButton;
+ UnityEngine::UI::Button __declspec(property(get=__get__yDecButton, put=__set__yDecButton))  _yDecButton;
 
-constexpr void __set__yDecButton(::UnityEngine::UI::Button value) ;
+constexpr void __set__yDecButton(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__yDecButton() const;
+constexpr UnityEngine::UI::Button __get__yDecButton() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__playerHeightText, put=__set__playerHeightText))  _playerHeightText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__playerHeightText, put=__set__playerHeightText))  _playerHeightText;
 
-constexpr void __set__playerHeightText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__playerHeightText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__playerHeightText() const;
+constexpr TMPro::TextMeshProUGUI __get__playerHeightText() const;
 
- ::GlobalNamespace::IVRPlatformHelper __declspec(property(get=__get__vrPlatformHelper, put=__set__vrPlatformHelper))  _vrPlatformHelper;
+ GlobalNamespace::IVRPlatformHelper __declspec(property(get=__get__vrPlatformHelper, put=__set__vrPlatformHelper))  _vrPlatformHelper;
 
-constexpr void __set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper value) ;
+constexpr void __set__vrPlatformHelper(GlobalNamespace::IVRPlatformHelper value) ;
 
-constexpr ::GlobalNamespace::IVRPlatformHelper __get__vrPlatformHelper() const;
+constexpr GlobalNamespace::IVRPlatformHelper __get__vrPlatformHelper() const;
 
 /// @brief Field kMoveStep offset 0
 static constexpr float_t  kMoveStep{0.05};
@@ -131,6 +130,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::FloorAdjustViewController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FloorAdjustViewController, "", "FloorAdjustViewController");
+NEED_NO_BOX(GlobalNamespace::FloorAdjustViewController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FloorAdjustViewController, "", "FloorAdjustViewController");

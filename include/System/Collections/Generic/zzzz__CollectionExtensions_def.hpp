@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class IReadOnlyDictionary_2;
@@ -54,16 +53,15 @@ constexpr explicit CollectionExtensions(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TKey,typename TValue>
-static TValue GetValueOrDefault(::System::Collections::Generic::IReadOnlyDictionary_2<TKey,TValue> dictionary, TKey key) ;
+static TValue GetValueOrDefault(System::Collections::Generic::IReadOnlyDictionary_2<TKey,TValue> dictionary, TKey key) ;
 
 /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TKey,typename TValue>
-static TValue GetValueOrDefault(::System::Collections::Generic::IReadOnlyDictionary_2<TKey,TValue> dictionary, TKey key, TValue defaultValue) ;
+static TValue GetValueOrDefault(System::Collections::Generic::IReadOnlyDictionary_2<TKey,TValue> dictionary, TKey key, TValue defaultValue) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Collections::Generic
-} // end anonymous namespace
-NEED_NO_BOX(::System::Collections::Generic::CollectionExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Generic::CollectionExtensions, "System.Collections.Generic", "CollectionExtensions");
+NEED_NO_BOX(System::Collections::Generic::CollectionExtensions);
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::CollectionExtensions, "System.Collections.Generic", "CollectionExtensions");

@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System::Runtime::Remoting::Messaging {
-class IMethodMessage;
-}
 namespace System::Reflection {
 class MethodBase;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMethodMessage;
 }
 namespace System {
 class Type;
@@ -93,21 +92,20 @@ constexpr ::ArrayW<::StringW> __get_generic_arg_names() const;
 // Methods
 
 /// @brief Method GetTypes addr 0x233b9ec size 0x14c virtual false final false
- ::ArrayW<::System::Type> GetTypes(::ArrayW<::StringW> typeArray) ;
+ ::ArrayW<System::Type> GetTypes(::ArrayW<::StringW> typeArray) ;
 
 /// @brief Method Resolve addr 0x233bb38 size 0x524 virtual false final false
- ::System::Reflection::MethodBase Resolve() ;
+ System::Reflection::MethodBase Resolve() ;
 
-// Ctor Parameters [CppParam { name: "msg", ty: "::System::Runtime::Remoting::Messaging::IMethodMessage", modifiers: "", def_value: None }]
-explicit CADMethodRef(::System::Runtime::Remoting::Messaging::IMethodMessage msg) ;
+// Ctor Parameters [CppParam { name: "msg", ty: "System::Runtime::Remoting::Messaging::IMethodMessage", modifiers: "", def_value: None }]
+explicit CADMethodRef(System::Runtime::Remoting::Messaging::IMethodMessage msg) ;
 
 /// @brief Method .ctor addr 0x233c05c size 0x2d0 virtual false final false
- void _ctor(::System::Runtime::Remoting::Messaging::IMethodMessage msg) ;
+ void _ctor(System::Runtime::Remoting::Messaging::IMethodMessage msg) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Messaging
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Messaging::CADMethodRef);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::CADMethodRef, "System.Runtime.Remoting.Messaging", "CADMethodRef");
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::CADMethodRef);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CADMethodRef, "System.Runtime.Remoting.Messaging", "CADMethodRef");

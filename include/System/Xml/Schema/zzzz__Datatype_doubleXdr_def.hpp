@@ -3,7 +3,6 @@
 #include "System/Xml/Schema/zzzz__Datatype_double_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Xml {
 class IXmlNamespaceResolver;
 }
@@ -20,7 +19,7 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11572))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11619))
 // CS Name: System.Xml.Schema.Datatype_doubleXdr
-class CORDL_TYPE Datatype_doubleXdr : public ::System::Xml::Schema::Datatype_double {
+class CORDL_TYPE Datatype_doubleXdr : public System::Xml::Schema::Datatype_double {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr Datatype_doubleXdr(Datatype_doubleXdr const& ) noexcept = default;
 constexpr Datatype_doubleXdr(Datatype_doubleXdr&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Datatype_doubleXdr(void* ptr) noexcept : ::System::Xml::Schema::Datatype_double(ptr) {
+constexpr explicit Datatype_doubleXdr(void* ptr) noexcept : System::Xml::Schema::Datatype_double(ptr) {
 }
 
 
@@ -57,7 +56,7 @@ constexpr explicit Datatype_doubleXdr(void* ptr) noexcept : ::System::Xml::Schem
 // Methods
 
 /// @brief Method ParseValue addr 0x272b068 size 0x27c virtual true final false
- ::bs_hook::Il2CppWrapperType ParseValue(::StringW s, ::System::Xml::XmlNameTable nameTable, ::System::Xml::IXmlNamespaceResolver nsmgr) ;
+ ::bs_hook::Il2CppWrapperType ParseValue(::StringW s, System::Xml::XmlNameTable nameTable, System::Xml::IXmlNamespaceResolver nsmgr) ;
 
 // Ctor Parameters []
 explicit Datatype_doubleXdr() ;
@@ -69,6 +68,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::Datatype_doubleXdr);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::Datatype_doubleXdr, "System.Xml.Schema", "Datatype_doubleXdr");
+NEED_NO_BOX(System::Xml::Schema::Datatype_doubleXdr);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::Datatype_doubleXdr, "System.Xml.Schema", "Datatype_doubleXdr");

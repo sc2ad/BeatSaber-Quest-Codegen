@@ -3,21 +3,20 @@
 #include "System/zzzz__MarshalByRefObject_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace System::ComponentModel {
+class EventHandlerList;
+}
 namespace System::ComponentModel {
 class ISite;
+}
+namespace System {
+class Type;
 }
 namespace System::ComponentModel {
 class IComponent;
 }
 namespace System {
 class IDisposable;
-}
-namespace System::ComponentModel {
-class EventHandlerList;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -29,14 +28,14 @@ namespace System::ComponentModel {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2604))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8320))
 // CS Name: System.ComponentModel.Component
-class CORDL_TYPE Component : public ::System::MarshalByRefObject {
+class CORDL_TYPE Component : public System::MarshalByRefObject {
 public:
 // Declarations
-/// @brief Convert operator to ::System::ComponentModel::IComponent
-constexpr operator  ::System::ComponentModel::IComponent() const noexcept;
+/// @brief Convert operator to System::ComponentModel::IComponent
+constexpr operator  System::ComponentModel::IComponent() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -50,7 +49,7 @@ constexpr Component(Component const& ) noexcept = default;
 constexpr Component(Component&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Component(void* ptr) noexcept : ::System::MarshalByRefObject(ptr) {
+constexpr explicit Component(void* ptr) noexcept : System::MarshalByRefObject(ptr) {
 }
 
 
@@ -77,17 +76,17 @@ static void __set_EventDisposed(::bs_hook::Il2CppWrapperType value) ;
 
 static ::bs_hook::Il2CppWrapperType __get_EventDisposed() ;
 
- ::System::ComponentModel::ISite __declspec(property(get=__get_site, put=__set_site))  site;
+ System::ComponentModel::ISite __declspec(property(get=__get_site, put=__set_site))  site;
 
-constexpr void __set_site(::System::ComponentModel::ISite value) ;
+constexpr void __set_site(System::ComponentModel::ISite value) ;
 
-constexpr ::System::ComponentModel::ISite __get_site() const;
+constexpr System::ComponentModel::ISite __get_site() const;
 
- ::System::ComponentModel::EventHandlerList __declspec(property(get=__get_events, put=__set_events))  events;
+ System::ComponentModel::EventHandlerList __declspec(property(get=__get_events, put=__set_events))  events;
 
-constexpr void __set_events(::System::ComponentModel::EventHandlerList value) ;
+constexpr void __set_events(System::ComponentModel::EventHandlerList value) ;
 
-constexpr ::System::ComponentModel::EventHandlerList __get_events() const;
+constexpr System::ComponentModel::EventHandlerList __get_events() const;
 
 
 // Properties
@@ -96,7 +95,7 @@ constexpr ::System::ComponentModel::EventHandlerList __get_events() const;
 
  bool __declspec(property(get=get_CanRaiseEventsInternal))  CanRaiseEventsInternal;
 
- ::System::ComponentModel::ISite __declspec(property(get=get_Site))  Site;
+ System::ComponentModel::ISite __declspec(property(get=get_Site))  Site;
 
  bool __declspec(property(get=get_DesignMode))  DesignMode;
 
@@ -113,7 +112,7 @@ constexpr ::System::ComponentModel::EventHandlerList __get_events() const;
  bool get_CanRaiseEventsInternal() ;
 
 /// @brief Method get_Site addr 0x2787434 size 0x8 virtual true final false
- ::System::ComponentModel::ISite get_Site() ;
+ System::ComponentModel::ISite get_Site() ;
 
 /// @brief Method Dispose addr 0x278743c size 0x6c virtual true final true
  void Dispose() ;
@@ -122,7 +121,7 @@ constexpr ::System::ComponentModel::EventHandlerList __get_events() const;
  void Dispose(bool disposing) ;
 
 /// @brief Method GetService addr 0x27877ac size 0xb4 virtual true final false
- ::bs_hook::Il2CppWrapperType GetService(::System::Type service) ;
+ ::bs_hook::Il2CppWrapperType GetService(System::Type service) ;
 
 /// @brief Method get_DesignMode addr 0x2787860 size 0xb0 virtual false final false
  bool get_DesignMode() ;
@@ -140,6 +139,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::Component);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::Component, "System.ComponentModel", "Component");
+NEED_NO_BOX(System::ComponentModel::Component);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::Component, "System.ComponentModel", "Component");

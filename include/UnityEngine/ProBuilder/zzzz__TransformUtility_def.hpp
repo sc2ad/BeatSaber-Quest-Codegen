@@ -2,16 +2,15 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
 namespace UnityEngine::ProBuilder {
 class Vertex;
 }
 namespace UnityEngine {
 class Transform;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -59,31 +58,30 @@ constexpr explicit TransformUtility(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
-static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Transform,::ArrayW<::UnityEngine::Transform>> __declspec(property(get=__get_s_ChildStack, put=__set_s_ChildStack))  s_ChildStack;
+static System::Collections::Generic::Dictionary_2<UnityEngine::Transform,::ArrayW<UnityEngine::Transform>> __declspec(property(get=__get_s_ChildStack, put=__set_s_ChildStack))  s_ChildStack;
 
-static void __set_s_ChildStack(::System::Collections::Generic::Dictionary_2<::UnityEngine::Transform,::ArrayW<::UnityEngine::Transform>> value) ;
+static void __set_s_ChildStack(System::Collections::Generic::Dictionary_2<UnityEngine::Transform,::ArrayW<UnityEngine::Transform>> value) ;
 
-static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Transform,::ArrayW<::UnityEngine::Transform>> __get_s_ChildStack() ;
+static System::Collections::Generic::Dictionary_2<UnityEngine::Transform,::ArrayW<UnityEngine::Transform>> __get_s_ChildStack() ;
 
 
 // Methods
 
 /// @brief Method UnparentChildren addr 0x29e7968 size 0x150 virtual false final false
-static void UnparentChildren(::UnityEngine::Transform t) ;
+static void UnparentChildren(UnityEngine::Transform t) ;
 
 /// @brief Method ReparentChildren addr 0x29e7ab8 size 0x128 virtual false final false
-static void ReparentChildren(::UnityEngine::Transform t) ;
+static void ReparentChildren(UnityEngine::Transform t) ;
 
 /// @brief Method TransformVertex addr 0x29e7be0 size 0x1e4 virtual false final false
-static ::UnityEngine::ProBuilder::Vertex TransformVertex(::UnityEngine::Transform transform, ::UnityEngine::ProBuilder::Vertex vertex) ;
+static UnityEngine::ProBuilder::Vertex TransformVertex(UnityEngine::Transform transform, UnityEngine::ProBuilder::Vertex vertex) ;
 
 /// @brief Method InverseTransformVertex addr 0x29e7dc4 size 0x1dc virtual false final false
-static ::UnityEngine::ProBuilder::Vertex InverseTransformVertex(::UnityEngine::Transform transform, ::UnityEngine::ProBuilder::Vertex vertex) ;
+static UnityEngine::ProBuilder::Vertex InverseTransformVertex(UnityEngine::Transform transform, UnityEngine::ProBuilder::Vertex vertex) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::TransformUtility);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::TransformUtility, "UnityEngine.ProBuilder", "TransformUtility");
+NEED_NO_BOX(UnityEngine::ProBuilder::TransformUtility);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::TransformUtility, "UnityEngine.ProBuilder", "TransformUtility");

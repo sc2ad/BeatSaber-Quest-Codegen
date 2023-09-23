@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Mono::Security::Protocol::Ntlm {
 class Type2Message;
@@ -15,7 +14,7 @@ namespace Mono::Security::Protocol::Ntlm {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13976))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13981))
 // CS Name: Mono.Security.Protocol.Ntlm.Type2Message
-class CORDL_TYPE Type2Message : public ::Mono::Security::Protocol::Ntlm::MessageBase {
+class CORDL_TYPE Type2Message : public Mono::Security::Protocol::Ntlm::MessageBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr Type2Message(Type2Message const& ) noexcept = default;
 constexpr Type2Message(Type2Message&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Type2Message(void* ptr) noexcept : ::Mono::Security::Protocol::Ntlm::MessageBase(ptr) {
+constexpr explicit Type2Message(void* ptr) noexcept : Mono::Security::Protocol::Ntlm::MessageBase(ptr) {
 }
 
 
@@ -109,6 +108,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Security::Protocol::Ntlm
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Security::Protocol::Ntlm::Type2Message);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Protocol::Ntlm::Type2Message, "Mono.Security.Protocol.Ntlm", "Type2Message");
+NEED_NO_BOX(Mono::Security::Protocol::Ntlm::Type2Message);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::Type2Message, "Mono.Security.Protocol.Ntlm", "Type2Message");

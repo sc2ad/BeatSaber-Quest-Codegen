@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ImageWithHint_def.hpp"
 #include "HMUI/zzzz__UIItemsList_1_def.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class ImageWithHintItemsList;
@@ -10,10 +9,10 @@ class ImageWithHintItemsList;
 // Type: ::ImageWithHintItemsList
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13725)), TypeDefinitionIndex(TypeDefinitionIndex(13679)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13725), inst: 5045 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13725)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13725), inst: 5045 }), TypeDefinitionIndex(TypeDefinitionIndex(13679))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5521))
 // CS Name: ImageWithHintItemsList
-class CORDL_TYPE ImageWithHintItemsList : public ::HMUI::UIItemsList_1<::HMUI::ImageWithHint> {
+class CORDL_TYPE ImageWithHintItemsList : public HMUI::UIItemsList_1<HMUI::ImageWithHint> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr ImageWithHintItemsList(ImageWithHintItemsList const& ) noexcept = defa
 constexpr ImageWithHintItemsList(ImageWithHintItemsList&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ImageWithHintItemsList(void* ptr) noexcept : ::HMUI::UIItemsList_1<::HMUI::ImageWithHint>(ptr) {
+constexpr explicit ImageWithHintItemsList(void* ptr) noexcept : HMUI::UIItemsList_1<HMUI::ImageWithHint>(ptr) {
 }
 
 
@@ -59,6 +58,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ImageWithHintItemsList);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ImageWithHintItemsList, "", "ImageWithHintItemsList");
+NEED_NO_BOX(GlobalNamespace::ImageWithHintItemsList);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ImageWithHintItemsList, "", "ImageWithHintItemsList");

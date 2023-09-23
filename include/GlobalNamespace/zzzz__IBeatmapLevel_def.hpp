@@ -1,11 +1,10 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
-namespace GlobalNamespace {
-class IBeatmapLevelData;
-}
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,8 +19,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE IBeatmapLevel : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IPreviewBeatmapLevel
-constexpr operator  ::GlobalNamespace::IPreviewBeatmapLevel() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IPreviewBeatmapLevel
+constexpr operator  GlobalNamespace::IPreviewBeatmapLevel() const noexcept;
 
 ~IBeatmapLevel() = default;
 
@@ -32,18 +31,17 @@ constexpr explicit IBeatmapLevel(void* ptr) noexcept : ::cordl_internals::Interf
 
 // Properties
 
- ::GlobalNamespace::IBeatmapLevelData __declspec(property(get=get_beatmapLevelData))  beatmapLevelData;
+ GlobalNamespace::IBeatmapLevelData __declspec(property(get=get_beatmapLevelData))  beatmapLevelData;
 
 
 // Methods
 
 /// @brief Method get_beatmapLevelData addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::IBeatmapLevelData get_beatmapLevelData() ;
+ GlobalNamespace::IBeatmapLevelData get_beatmapLevelData() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IBeatmapLevel);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IBeatmapLevel, "", "IBeatmapLevel");
+NEED_NO_BOX(GlobalNamespace::IBeatmapLevel);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IBeatmapLevel, "", "IBeatmapLevel");

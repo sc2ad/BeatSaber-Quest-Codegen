@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 class OrdinalComparer;
@@ -15,7 +14,7 @@ namespace System {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2473))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2475))
 // CS Name: System.OrdinalComparer
-class CORDL_TYPE OrdinalComparer : public ::System::StringComparer {
+class CORDL_TYPE OrdinalComparer : public System::StringComparer {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr OrdinalComparer(OrdinalComparer const& ) noexcept = default;
 constexpr OrdinalComparer(OrdinalComparer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OrdinalComparer(void* ptr) noexcept : ::System::StringComparer(ptr) {
+constexpr explicit OrdinalComparer(void* ptr) noexcept : System::StringComparer(ptr) {
 }
 
 
@@ -85,6 +84,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::OrdinalComparer);
-DEFINE_IL2CPP_ARG_TYPE(::System::OrdinalComparer, "System", "OrdinalComparer");
+NEED_NO_BOX(System::OrdinalComparer);
+DEFINE_IL2CPP_ARG_TYPE(System::OrdinalComparer, "System", "OrdinalComparer");

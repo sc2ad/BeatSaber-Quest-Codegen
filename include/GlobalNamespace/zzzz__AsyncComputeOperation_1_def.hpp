@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__AsyncComputeOperation_def.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class Exception;
 }
@@ -32,7 +31,7 @@ template<::cordl_internals::il2cpp_reference_type T>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12622)), TypeDefinitionIndex(TypeDefinitionIndex(12621))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12622), inst: 2 })
 // CS Name: AsyncComputeOperation`1
-class CORDL_TYPE AsyncComputeOperation_1<T> : public ::GlobalNamespace::AsyncComputeOperation {
+class CORDL_TYPE AsyncComputeOperation_1<T> : public GlobalNamespace::AsyncComputeOperation {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -47,7 +46,7 @@ constexpr AsyncComputeOperation_1(AsyncComputeOperation_1 const& ) noexcept = de
 constexpr AsyncComputeOperation_1(AsyncComputeOperation_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AsyncComputeOperation_1(void* ptr) noexcept : ::GlobalNamespace::AsyncComputeOperation(ptr) {
+constexpr explicit AsyncComputeOperation_1(void* ptr) noexcept : GlobalNamespace::AsyncComputeOperation(ptr) {
 }
 
 
@@ -68,22 +67,22 @@ constexpr explicit AsyncComputeOperation_1(void* ptr) noexcept : ::GlobalNamespa
 
 // Fields
 
- ::System::Threading::Tasks::TaskCompletionSource_1<T> __declspec(property(get=__get__tcs, put=__set__tcs))  _tcs;
+ System::Threading::Tasks::TaskCompletionSource_1<T> __declspec(property(get=__get__tcs, put=__set__tcs))  _tcs;
 
-constexpr void __set__tcs(::System::Threading::Tasks::TaskCompletionSource_1<T> value) ;
+constexpr void __set__tcs(System::Threading::Tasks::TaskCompletionSource_1<T> value) ;
 
-constexpr ::System::Threading::Tasks::TaskCompletionSource_1<T> __get__tcs() const;
+constexpr System::Threading::Tasks::TaskCompletionSource_1<T> __get__tcs() const;
 
 
 // Properties
 
- ::System::Threading::Tasks::Task_1<T> __declspec(property(get=get_task))  task;
+ System::Threading::Tasks::Task_1<T> __declspec(property(get=get_task))  task;
 
 
 // Methods
 
 /// @brief Method get_task addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Threading::Tasks::Task_1<T> get_task() ;
+ System::Threading::Tasks::Task_1<T> get_task() ;
 
 // Ctor Parameters [CppParam { name: "timeoutMs", ty: "int32_t", modifiers: "", def_value: None }]
 explicit AsyncComputeOperation_1(int32_t timeoutMs) ;
@@ -104,7 +103,7 @@ explicit AsyncComputeOperation_1(int32_t timeoutMs) ;
  void Cancel() ;
 
 /// @brief Method Fail addr 0x0 size 0xffffffffffffffff virtual false final false
- void Fail(::System::Exception ex) ;
+ void Fail(System::Exception ex) ;
 
 /// @brief Method Compute addr 0x0 size 0xffffffffffffffff virtual true final false
  T Compute() ;
@@ -116,5 +115,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::AsyncComputeOperation_1, "", "AsyncComputeOperation`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::AsyncComputeOperation_1, "", "AsyncComputeOperation`1");

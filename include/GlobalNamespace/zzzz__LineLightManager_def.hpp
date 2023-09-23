@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Vector4;
 }
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14722))
 // CS Name: LineLightManager
-class CORDL_TYPE LineLightManager : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE LineLightManager : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr LineLightManager(LineLightManager const& ) noexcept = default;
 constexpr LineLightManager(LineLightManager&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LineLightManager(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit LineLightManager(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -57,17 +56,17 @@ constexpr explicit LineLightManager(void* ptr) noexcept : ::UnityEngine::MonoBeh
 /// @brief Field kMaxNumberOfLights offset 0
 static constexpr int32_t  kMaxNumberOfLights{4};
 
- ::ArrayW<::UnityEngine::Vector4> __declspec(property(get=__get__points, put=__set__points))  _points;
+ ::ArrayW<UnityEngine::Vector4> __declspec(property(get=__get__points, put=__set__points))  _points;
 
-constexpr void __set__points(::ArrayW<::UnityEngine::Vector4> value) ;
+constexpr void __set__points(::ArrayW<UnityEngine::Vector4> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector4> __get__points() const;
+constexpr ::ArrayW<UnityEngine::Vector4> __get__points() const;
 
- ::ArrayW<::UnityEngine::Vector4> __declspec(property(get=__get__dirs, put=__set__dirs))  _dirs;
+ ::ArrayW<UnityEngine::Vector4> __declspec(property(get=__get__dirs, put=__set__dirs))  _dirs;
 
-constexpr void __set__dirs(::ArrayW<::UnityEngine::Vector4> value) ;
+constexpr void __set__dirs(::ArrayW<UnityEngine::Vector4> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector4> __get__dirs() const;
+constexpr ::ArrayW<UnityEngine::Vector4> __get__dirs() const;
 
  ::ArrayW<float_t> __declspec(property(get=__get__dirLengths, put=__set__dirLengths))  _dirLengths;
 
@@ -75,11 +74,11 @@ constexpr void __set__dirLengths(::ArrayW<float_t> value) ;
 
 constexpr ::ArrayW<float_t> __get__dirLengths() const;
 
- ::ArrayW<::UnityEngine::Vector4> __declspec(property(get=__get__colors, put=__set__colors))  _colors;
+ ::ArrayW<UnityEngine::Vector4> __declspec(property(get=__get__colors, put=__set__colors))  _colors;
 
-constexpr void __set__colors(::ArrayW<::UnityEngine::Vector4> value) ;
+constexpr void __set__colors(::ArrayW<UnityEngine::Vector4> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector4> __get__colors() const;
+constexpr ::ArrayW<UnityEngine::Vector4> __get__colors() const;
 
 static int32_t __declspec(property(get=__get__activeLineLightsCountID, put=__set__activeLineLightsCountID))  _activeLineLightsCountID;
 
@@ -127,6 +126,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LineLightManager);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LineLightManager, "", "LineLightManager");
+NEED_NO_BOX(GlobalNamespace::LineLightManager);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LineLightManager, "", "LineLightManager");

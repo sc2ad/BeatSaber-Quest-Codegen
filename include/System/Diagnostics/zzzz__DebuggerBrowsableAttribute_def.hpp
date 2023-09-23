@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 namespace System::Diagnostics {
 struct DebuggerBrowsableState;
 }
@@ -15,7 +14,7 @@ namespace System::Diagnostics {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3720))
 // CS Name: System.Diagnostics.DebuggerBrowsableAttribute
-class CORDL_TYPE DebuggerBrowsableAttribute : public ::System::Attribute {
+class CORDL_TYPE DebuggerBrowsableAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr DebuggerBrowsableAttribute(DebuggerBrowsableAttribute const& ) noexcep
 constexpr DebuggerBrowsableAttribute(DebuggerBrowsableAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DebuggerBrowsableAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit DebuggerBrowsableAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -51,25 +50,24 @@ constexpr explicit DebuggerBrowsableAttribute(void* ptr) noexcept : ::System::At
 
 // Fields
 
- ::System::Diagnostics::DebuggerBrowsableState __declspec(property(get=__get_state, put=__set_state))  state;
+ System::Diagnostics::DebuggerBrowsableState __declspec(property(get=__get_state, put=__set_state))  state;
 
-constexpr void __set_state(::System::Diagnostics::DebuggerBrowsableState value) ;
+constexpr void __set_state(System::Diagnostics::DebuggerBrowsableState value) ;
 
-constexpr ::System::Diagnostics::DebuggerBrowsableState __get_state() const;
+constexpr System::Diagnostics::DebuggerBrowsableState __get_state() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "state", ty: "::System::Diagnostics::DebuggerBrowsableState", modifiers: "", def_value: None }]
-explicit DebuggerBrowsableAttribute(::System::Diagnostics::DebuggerBrowsableState state) ;
+// Ctor Parameters [CppParam { name: "state", ty: "System::Diagnostics::DebuggerBrowsableState", modifiers: "", def_value: None }]
+explicit DebuggerBrowsableAttribute(System::Diagnostics::DebuggerBrowsableState state) ;
 
 /// @brief Method .ctor addr 0x240bf78 size 0x7c virtual false final false
- void _ctor(::System::Diagnostics::DebuggerBrowsableState state) ;
+ void _ctor(System::Diagnostics::DebuggerBrowsableState state) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Diagnostics
-} // end anonymous namespace
-NEED_NO_BOX(::System::Diagnostics::DebuggerBrowsableAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::DebuggerBrowsableAttribute, "System.Diagnostics", "DebuggerBrowsableAttribute");
+NEED_NO_BOX(System::Diagnostics::DebuggerBrowsableAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DebuggerBrowsableAttribute, "System.Diagnostics", "DebuggerBrowsableAttribute");

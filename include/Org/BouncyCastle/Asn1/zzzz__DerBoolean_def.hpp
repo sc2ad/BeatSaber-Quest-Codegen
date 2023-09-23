@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
@@ -25,7 +24,7 @@ namespace Org::BouncyCastle::Asn1 {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(31))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(503))
 // CS Name: Org.BouncyCastle.Asn1.DerBoolean
-class CORDL_TYPE DerBoolean : public ::Org::BouncyCastle::Asn1::Asn1Object {
+class CORDL_TYPE DerBoolean : public Org::BouncyCastle::Asn1::Asn1Object {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr DerBoolean(DerBoolean const& ) noexcept = default;
 constexpr DerBoolean(DerBoolean&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DerBoolean(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::Asn1Object(ptr) {
+constexpr explicit DerBoolean(void* ptr) noexcept : Org::BouncyCastle::Asn1::Asn1Object(ptr) {
 }
 
 
@@ -67,17 +66,17 @@ constexpr void __set_value(uint8_t value) ;
 
 constexpr uint8_t __get_value() const;
 
-static ::Org::BouncyCastle::Asn1::DerBoolean __declspec(property(get=__get_False, put=__set_False))  False;
+static Org::BouncyCastle::Asn1::DerBoolean __declspec(property(get=__get_False, put=__set_False))  False;
 
-static void __set_False(::Org::BouncyCastle::Asn1::DerBoolean value) ;
+static void __set_False(Org::BouncyCastle::Asn1::DerBoolean value) ;
 
-static ::Org::BouncyCastle::Asn1::DerBoolean __get_False() ;
+static Org::BouncyCastle::Asn1::DerBoolean __get_False() ;
 
-static ::Org::BouncyCastle::Asn1::DerBoolean __declspec(property(get=__get_True, put=__set_True))  True;
+static Org::BouncyCastle::Asn1::DerBoolean __declspec(property(get=__get_True, put=__set_True))  True;
 
-static void __set_True(::Org::BouncyCastle::Asn1::DerBoolean value) ;
+static void __set_True(Org::BouncyCastle::Asn1::DerBoolean value) ;
 
-static ::Org::BouncyCastle::Asn1::DerBoolean __get_True() ;
+static Org::BouncyCastle::Asn1::DerBoolean __get_True() ;
 
 
 // Properties
@@ -88,13 +87,13 @@ static ::Org::BouncyCastle::Asn1::DerBoolean __get_True() ;
 // Methods
 
 /// @brief Method GetInstance addr 0x11359f0 size 0xf0 virtual false final false
-static ::Org::BouncyCastle::Asn1::DerBoolean GetInstance(::bs_hook::Il2CppWrapperType obj) ;
+static Org::BouncyCastle::Asn1::DerBoolean GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method GetInstance addr 0x1135ae0 size 0x68 virtual false final false
-static ::Org::BouncyCastle::Asn1::DerBoolean GetInstance(bool value) ;
+static Org::BouncyCastle::Asn1::DerBoolean GetInstance(bool value) ;
 
 /// @brief Method GetInstance addr 0x1135b48 size 0x150 virtual false final false
-static ::Org::BouncyCastle::Asn1::DerBoolean GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool isExplicit) ;
+static Org::BouncyCastle::Asn1::DerBoolean GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool isExplicit) ;
 
 // Ctor Parameters [CppParam { name: "val", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
 explicit DerBoolean(::ArrayW<uint8_t> val) ;
@@ -112,10 +111,10 @@ explicit DerBoolean(bool value) ;
  bool get_IsTrue() ;
 
 /// @brief Method Encode addr 0x1135d7c size 0x84 virtual true final false
- void Encode(::Org::BouncyCastle::Asn1::DerOutputStream derOut) ;
+ void Encode(Org::BouncyCastle::Asn1::DerOutputStream derOut) ;
 
 /// @brief Method Asn1Equals addr 0x1135e00 size 0xa4 virtual true final false
- bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object asn1Object) ;
+ bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object asn1Object) ;
 
 /// @brief Method Asn1GetHashCode addr 0x1135ea4 size 0x28 virtual true final false
  int32_t Asn1GetHashCode() ;
@@ -124,12 +123,11 @@ explicit DerBoolean(bool value) ;
  ::StringW ToString() ;
 
 /// @brief Method FromOctetString addr 0x112bf70 size 0x120 virtual false final false
-static ::Org::BouncyCastle::Asn1::DerBoolean FromOctetString(::ArrayW<uint8_t> value) ;
+static Org::BouncyCastle::Asn1::DerBoolean FromOctetString(::ArrayW<uint8_t> value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::DerBoolean);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::DerBoolean, "Org.BouncyCastle.Asn1", "DerBoolean");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::DerBoolean);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerBoolean, "Org.BouncyCastle.Asn1", "DerBoolean");

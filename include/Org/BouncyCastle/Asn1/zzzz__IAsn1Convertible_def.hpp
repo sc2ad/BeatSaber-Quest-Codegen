@@ -1,6 +1,5 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
@@ -27,12 +26,11 @@ constexpr explicit IAsn1Convertible(void* ptr) noexcept : ::cordl_internals::Int
 // Methods
 
 /// @brief Method ToAsn1Object addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
+ Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::IAsn1Convertible);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::IAsn1Convertible, "Org.BouncyCastle.Asn1", "IAsn1Convertible");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::IAsn1Convertible);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::IAsn1Convertible, "Org.BouncyCastle.Asn1", "IAsn1Convertible");

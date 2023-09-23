@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace LiteNetLib {
 class NetPacket;
 }
@@ -83,15 +82,14 @@ explicit NetConnectAcceptPacket(int64_t connectionId, uint8_t connectionNumber, 
  void _ctor(int64_t connectionId, uint8_t connectionNumber, bool isReusedPeer) ;
 
 /// @brief Method FromData addr 0x208c7d4 size 0x108 virtual false final false
-static ::LiteNetLib::NetConnectAcceptPacket FromData(::LiteNetLib::NetPacket packet) ;
+static LiteNetLib::NetConnectAcceptPacket FromData(LiteNetLib::NetPacket packet) ;
 
 /// @brief Method Make addr 0x208fa8c size 0xbc virtual false final false
-static ::LiteNetLib::NetPacket Make(int64_t connectId, uint8_t connectNum, bool reusedPeer) ;
+static LiteNetLib::NetPacket Make(int64_t connectId, uint8_t connectNum, bool reusedPeer) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib
-} // end anonymous namespace
-NEED_NO_BOX(::LiteNetLib::NetConnectAcceptPacket);
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::NetConnectAcceptPacket, "LiteNetLib", "NetConnectAcceptPacket");
+NEED_NO_BOX(LiteNetLib::NetConnectAcceptPacket);
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetConnectAcceptPacket, "LiteNetLib", "NetConnectAcceptPacket");

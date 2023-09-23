@@ -4,21 +4,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace System {
+class IDisposable;
+}
 namespace System::IO {
 class Stream;
+}
+namespace System::Xml {
+class XmlWriterSettings;
 }
 namespace System::Xml {
 struct WriteState;
 }
 namespace System::IO {
 class TextWriter;
-}
-namespace System::Xml {
-class XmlWriterSettings;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -33,8 +32,8 @@ namespace System::Xml {
 class CORDL_TYPE XmlWriter : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -69,7 +68,7 @@ constexpr explicit XmlWriter(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 
 // Properties
 
- ::System::Xml::WriteState __declspec(property(get=get_WriteState))  WriteState;
+ System::Xml::WriteState __declspec(property(get=get_WriteState))  WriteState;
 
 
 // Methods
@@ -144,7 +143,7 @@ constexpr explicit XmlWriter(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
  void WriteBinHex(::ArrayW<uint8_t> buffer, int32_t index, int32_t count) ;
 
 /// @brief Method get_WriteState addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Xml::WriteState get_WriteState() ;
+ System::Xml::WriteState get_WriteState() ;
 
 /// @brief Method Close addr 0x26ecb54 size 0x4 virtual true final false
  void Close() ;
@@ -165,10 +164,10 @@ constexpr explicit XmlWriter(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
  void Dispose(bool disposing) ;
 
 /// @brief Method Create addr 0x26ecbc8 size 0x68 virtual false final false
-static ::System::Xml::XmlWriter Create(::System::IO::Stream output, ::System::Xml::XmlWriterSettings settings) ;
+static System::Xml::XmlWriter Create(System::IO::Stream output, System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method Create addr 0x26ed168 size 0x68 virtual false final false
-static ::System::Xml::XmlWriter Create(::System::IO::TextWriter output, ::System::Xml::XmlWriterSettings settings) ;
+static System::Xml::XmlWriter Create(System::IO::TextWriter output, System::Xml::XmlWriterSettings settings) ;
 
 // Ctor Parameters []
 explicit XmlWriter() ;
@@ -180,6 +179,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::XmlWriter);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlWriter, "System.Xml", "XmlWriter");
+NEED_NO_BOX(System::Xml::XmlWriter);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWriter, "System.Xml", "XmlWriter");

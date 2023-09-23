@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::XR::OpenXR::NativeTypes {
 struct XrReferenceSpaceType;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field View offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrReferenceSpaceType const View;
+static UnityEngine::XR::OpenXR::NativeTypes::XrReferenceSpaceType const View;
 
 /// @brief Field Local offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrReferenceSpaceType const Local;
+static UnityEngine::XR::OpenXR::NativeTypes::XrReferenceSpaceType const Local;
 
 /// @brief Field Stage offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrReferenceSpaceType const Stage;
+static UnityEngine::XR::OpenXR::NativeTypes::XrReferenceSpaceType const Stage;
 
 /// @brief Field UnboundedMsft offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrReferenceSpaceType const UnboundedMsft;
+static UnityEngine::XR::OpenXR::NativeTypes::XrReferenceSpaceType const UnboundedMsft;
 
 /// @brief Field CombinedEyeVarjo offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrReferenceSpaceType const CombinedEyeVarjo;
+static UnityEngine::XR::OpenXR::NativeTypes::XrReferenceSpaceType const CombinedEyeVarjo;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR::OpenXR::NativeTypes
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::NativeTypes::XrReferenceSpaceType, "UnityEngine.XR.OpenXR.NativeTypes", "XrReferenceSpaceType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::OpenXR::NativeTypes::XrReferenceSpaceType, "UnityEngine.XR.OpenXR.NativeTypes", "XrReferenceSpaceType");

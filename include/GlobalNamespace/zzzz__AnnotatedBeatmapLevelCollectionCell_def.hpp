@@ -4,15 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace System::Threading {
-class CancellationTokenSource;
+namespace HMUI {
+struct HMUI__SelectableCell__TransitionType;
 }
 namespace UnityEngine {
-struct Color;
+class GameObject;
 }
 namespace HMUI {
 class ImageView;
@@ -21,43 +17,46 @@ namespace GlobalNamespace {
 class AdditionalContentModel;
 }
 namespace UnityEngine {
-class GameObject;
+struct Color;
 }
 namespace GlobalNamespace {
 class IAnnotatedBeatmapLevelCollection;
 }
-namespace HMUI {
-struct ____HMUI__SelectableCell__TransitionType;
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace System::Threading {
-struct CancellationToken;
+class CancellationTokenSource;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+struct AsyncVoidMethodBuilder;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
-namespace GlobalNamespace {
-struct ____GlobalNamespace__AdditionalContentModel__EntitlementStatus;
-}
 namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+class IAsyncStateMachine;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct TaskAwaiter_1;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
+namespace GlobalNamespace {
+struct GlobalNamespace__AdditionalContentModel__EntitlementStatus;
 }
 // Forward declare root types
 namespace GlobalNamespace {
 class AnnotatedBeatmapLevelCollectionCell;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22;
+struct GlobalNamespace__AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22;
 }
 // Type: ::<RefreshAvailabilityAsync>d__22
 namespace GlobalNamespace {
@@ -65,23 +64,23 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5507))
 // CS Name: AnnotatedBeatmapLevelCollectionCell::<RefreshAvailabilityAsync>d__22
-struct CORDL_TYPE ____GlobalNamespace__AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22 : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22 : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::CompilerServices::IAsyncStateMachine
-constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine() const;
+/// @brief Convert operator to System::Runtime::CompilerServices::IAsyncStateMachine
+constexpr operator  System::Runtime::CompilerServices::IAsyncStateMachine() const;
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell", modifiers: "", def_value: None }, CppParam { name: "contentModel", ty: "::GlobalNamespace::AdditionalContentModel", modifiers: "", def_value: None }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "_numberOfOwnedLevels_5__3", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_error_5__4", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__7__wrap4", ty: "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::IPreviewBeatmapLevel>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::____GlobalNamespace__AdditionalContentModel__EntitlementStatus>", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell __4__this, ::GlobalNamespace::AdditionalContentModel contentModel, ::System::Threading::CancellationToken _cancellationToken_5__2, int32_t _numberOfOwnedLevels_5__3, bool _error_5__4, ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::IPreviewBeatmapLevel> __7__wrap4, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::____GlobalNamespace__AdditionalContentModel__EntitlementStatus> __u__1) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "GlobalNamespace::AnnotatedBeatmapLevelCollectionCell", modifiers: "", def_value: None }, CppParam { name: "contentModel", ty: "GlobalNamespace::AdditionalContentModel", modifiers: "", def_value: None }, CppParam { name: "_cancellationToken_5__2", ty: "System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "_numberOfOwnedLevels_5__3", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_error_5__4", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__7__wrap4", ty: "System::Collections::Generic::IEnumerator_1<GlobalNamespace::IPreviewBeatmapLevel>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::GlobalNamespace__AdditionalContentModel__EntitlementStatus>", modifiers: "", def_value: None }]
+constexpr GlobalNamespace__AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22(int32_t __1__state, System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, GlobalNamespace::AnnotatedBeatmapLevelCollectionCell __4__this, GlobalNamespace::AdditionalContentModel contentModel, System::Threading::CancellationToken _cancellationToken_5__2, int32_t _numberOfOwnedLevels_5__3, bool _error_5__4, System::Collections::Generic::IEnumerator_1<GlobalNamespace::IPreviewBeatmapLevel> __7__wrap4, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::GlobalNamespace__AdditionalContentModel__EntitlementStatus> __u__1) noexcept;
 
 
-                    constexpr ____GlobalNamespace__AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22(____GlobalNamespace__AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22 const&) = default;
-                    constexpr ____GlobalNamespace__AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22(____GlobalNamespace__AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22&&) = default;
-                    constexpr ____GlobalNamespace__AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22& operator=(____GlobalNamespace__AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22 const& o) {
+                    constexpr GlobalNamespace__AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22(GlobalNamespace__AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22 const&) = default;
+                    constexpr GlobalNamespace__AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22(GlobalNamespace__AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22&&) = default;
+                    constexpr GlobalNamespace__AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22& operator=(GlobalNamespace__AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22 const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22& operator=(____GlobalNamespace__AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22&& o) noexcept {
+                    constexpr GlobalNamespace__AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22& operator=(GlobalNamespace__AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -94,7 +93,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x58};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -111,29 +110,29 @@ constexpr void __set___1__state(int32_t value) ;
 
 constexpr int32_t __get___1__state() const;
 
- ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
+ System::Runtime::CompilerServices::AsyncVoidMethodBuilder __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
 
-constexpr void __set___t__builder(::System::Runtime::CompilerServices::AsyncVoidMethodBuilder value) ;
+constexpr void __set___t__builder(System::Runtime::CompilerServices::AsyncVoidMethodBuilder value) ;
 
-constexpr ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __get___t__builder() const;
+constexpr System::Runtime::CompilerServices::AsyncVoidMethodBuilder __get___t__builder() const;
 
- ::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::AnnotatedBeatmapLevelCollectionCell __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell value) ;
+constexpr void __set___4__this(GlobalNamespace::AnnotatedBeatmapLevelCollectionCell value) ;
 
-constexpr ::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell __get___4__this() const;
+constexpr GlobalNamespace::AnnotatedBeatmapLevelCollectionCell __get___4__this() const;
 
- ::GlobalNamespace::AdditionalContentModel __declspec(property(get=__get_contentModel, put=__set_contentModel))  contentModel;
+ GlobalNamespace::AdditionalContentModel __declspec(property(get=__get_contentModel, put=__set_contentModel))  contentModel;
 
-constexpr void __set_contentModel(::GlobalNamespace::AdditionalContentModel value) ;
+constexpr void __set_contentModel(GlobalNamespace::AdditionalContentModel value) ;
 
-constexpr ::GlobalNamespace::AdditionalContentModel __get_contentModel() const;
+constexpr GlobalNamespace::AdditionalContentModel __get_contentModel() const;
 
- ::System::Threading::CancellationToken __declspec(property(get=__get__cancellationToken_5__2, put=__set__cancellationToken_5__2))  _cancellationToken_5__2;
+ System::Threading::CancellationToken __declspec(property(get=__get__cancellationToken_5__2, put=__set__cancellationToken_5__2))  _cancellationToken_5__2;
 
-constexpr void __set__cancellationToken_5__2(::System::Threading::CancellationToken value) ;
+constexpr void __set__cancellationToken_5__2(System::Threading::CancellationToken value) ;
 
-constexpr ::System::Threading::CancellationToken __get__cancellationToken_5__2() const;
+constexpr System::Threading::CancellationToken __get__cancellationToken_5__2() const;
 
  int32_t __declspec(property(get=__get__numberOfOwnedLevels_5__3, put=__set__numberOfOwnedLevels_5__3))  _numberOfOwnedLevels_5__3;
 
@@ -147,17 +146,17 @@ constexpr void __set__error_5__4(bool value) ;
 
 constexpr bool __get__error_5__4() const;
 
- ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::IPreviewBeatmapLevel> __declspec(property(get=__get___7__wrap4, put=__set___7__wrap4))  __7__wrap4;
+ System::Collections::Generic::IEnumerator_1<GlobalNamespace::IPreviewBeatmapLevel> __declspec(property(get=__get___7__wrap4, put=__set___7__wrap4))  __7__wrap4;
 
-constexpr void __set___7__wrap4(::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::IPreviewBeatmapLevel> value) ;
+constexpr void __set___7__wrap4(System::Collections::Generic::IEnumerator_1<GlobalNamespace::IPreviewBeatmapLevel> value) ;
 
-constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::IPreviewBeatmapLevel> __get___7__wrap4() const;
+constexpr System::Collections::Generic::IEnumerator_1<GlobalNamespace::IPreviewBeatmapLevel> __get___7__wrap4() const;
 
- ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::____GlobalNamespace__AdditionalContentModel__EntitlementStatus> __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
+ System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::GlobalNamespace__AdditionalContentModel__EntitlementStatus> __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
 
-constexpr void __set___u__1(::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::____GlobalNamespace__AdditionalContentModel__EntitlementStatus> value) ;
+constexpr void __set___u__1(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::GlobalNamespace__AdditionalContentModel__EntitlementStatus> value) ;
 
-constexpr ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::____GlobalNamespace__AdditionalContentModel__EntitlementStatus> __get___u__1() const;
+constexpr System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::GlobalNamespace__AdditionalContentModel__EntitlementStatus> __get___u__1() const;
 
 
 // Methods
@@ -166,7 +165,7 @@ constexpr ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::
  void MoveNext() ;
 
 /// @brief Method SetStateMachine addr 0x21226fc size 0xc virtual true final true
- void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
+ void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -178,10 +177,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13704))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5508))
 // CS Name: AnnotatedBeatmapLevelCollectionCell
-class CORDL_TYPE AnnotatedBeatmapLevelCollectionCell : public ::HMUI::SelectableCell {
+class CORDL_TYPE AnnotatedBeatmapLevelCollectionCell : public HMUI::SelectableCell {
 public:
 // Declarations
-using _RefreshAvailabilityAsync_d__22 = ::GlobalNamespace::____GlobalNamespace__AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22;
+using _RefreshAvailabilityAsync_d__22 = GlobalNamespace::GlobalNamespace__AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xd0};
@@ -195,7 +194,7 @@ constexpr AnnotatedBeatmapLevelCollectionCell(AnnotatedBeatmapLevelCollectionCel
 constexpr AnnotatedBeatmapLevelCollectionCell(AnnotatedBeatmapLevelCollectionCell&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AnnotatedBeatmapLevelCollectionCell(void* ptr) noexcept : ::HMUI::SelectableCell(ptr) {
+constexpr explicit AnnotatedBeatmapLevelCollectionCell(void* ptr) noexcept : HMUI::SelectableCell(ptr) {
 }
 
 
@@ -216,65 +215,65 @@ constexpr explicit AnnotatedBeatmapLevelCollectionCell(void* ptr) noexcept : ::H
 
 // Fields
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__infoText, put=__set__infoText))  _infoText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__infoText, put=__set__infoText))  _infoText;
 
-constexpr void __set__infoText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__infoText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__infoText() const;
+constexpr TMPro::TextMeshProUGUI __get__infoText() const;
 
- ::HMUI::ImageView __declspec(property(get=__get__coverImage, put=__set__coverImage))  _coverImage;
+ HMUI::ImageView __declspec(property(get=__get__coverImage, put=__set__coverImage))  _coverImage;
 
-constexpr void __set__coverImage(::HMUI::ImageView value) ;
+constexpr void __set__coverImage(HMUI::ImageView value) ;
 
-constexpr ::HMUI::ImageView __get__coverImage() const;
+constexpr HMUI::ImageView __get__coverImage() const;
 
- ::HMUI::ImageView __declspec(property(get=__get__selectionImage, put=__set__selectionImage))  _selectionImage;
+ HMUI::ImageView __declspec(property(get=__get__selectionImage, put=__set__selectionImage))  _selectionImage;
 
-constexpr void __set__selectionImage(::HMUI::ImageView value) ;
+constexpr void __set__selectionImage(HMUI::ImageView value) ;
 
-constexpr ::HMUI::ImageView __get__selectionImage() const;
+constexpr HMUI::ImageView __get__selectionImage() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get__downloadIconObject, put=__set__downloadIconObject))  _downloadIconObject;
+ UnityEngine::GameObject __declspec(property(get=__get__downloadIconObject, put=__set__downloadIconObject))  _downloadIconObject;
 
-constexpr void __set__downloadIconObject(::UnityEngine::GameObject value) ;
+constexpr void __set__downloadIconObject(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__downloadIconObject() const;
+constexpr UnityEngine::GameObject __get__downloadIconObject() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get__newBadgeObject, put=__set__newBadgeObject))  _newBadgeObject;
+ UnityEngine::GameObject __declspec(property(get=__get__newBadgeObject, put=__set__newBadgeObject))  _newBadgeObject;
 
-constexpr void __set__newBadgeObject(::UnityEngine::GameObject value) ;
+constexpr void __set__newBadgeObject(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__newBadgeObject() const;
+constexpr UnityEngine::GameObject __get__newBadgeObject() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get__updatedBadgeObject, put=__set__updatedBadgeObject))  _updatedBadgeObject;
+ UnityEngine::GameObject __declspec(property(get=__get__updatedBadgeObject, put=__set__updatedBadgeObject))  _updatedBadgeObject;
 
-constexpr void __set__updatedBadgeObject(::UnityEngine::GameObject value) ;
+constexpr void __set__updatedBadgeObject(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__updatedBadgeObject() const;
+constexpr UnityEngine::GameObject __get__updatedBadgeObject() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__selectedColor0, put=__set__selectedColor0))  _selectedColor0;
+ UnityEngine::Color __declspec(property(get=__get__selectedColor0, put=__set__selectedColor0))  _selectedColor0;
 
-constexpr void __set__selectedColor0(::UnityEngine::Color value) ;
+constexpr void __set__selectedColor0(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__selectedColor0() const;
+constexpr UnityEngine::Color __get__selectedColor0() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__selectedColor1, put=__set__selectedColor1))  _selectedColor1;
+ UnityEngine::Color __declspec(property(get=__get__selectedColor1, put=__set__selectedColor1))  _selectedColor1;
 
-constexpr void __set__selectedColor1(::UnityEngine::Color value) ;
+constexpr void __set__selectedColor1(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__selectedColor1() const;
+constexpr UnityEngine::Color __get__selectedColor1() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__highlightedColor0, put=__set__highlightedColor0))  _highlightedColor0;
+ UnityEngine::Color __declspec(property(get=__get__highlightedColor0, put=__set__highlightedColor0))  _highlightedColor0;
 
-constexpr void __set__highlightedColor0(::UnityEngine::Color value) ;
+constexpr void __set__highlightedColor0(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__highlightedColor0() const;
+constexpr UnityEngine::Color __get__highlightedColor0() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__highlightedColor1, put=__set__highlightedColor1))  _highlightedColor1;
+ UnityEngine::Color __declspec(property(get=__get__highlightedColor1, put=__set__highlightedColor1))  _highlightedColor1;
 
-constexpr void __set__highlightedColor1(::UnityEngine::Color value) ;
+constexpr void __set__highlightedColor1(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__highlightedColor1() const;
+constexpr UnityEngine::Color __get__highlightedColor1() const;
 
  int32_t __declspec(property(get=__get__cellIndex_k__BackingField, put=__set__cellIndex_k__BackingField))  _cellIndex_k__BackingField;
 
@@ -282,17 +281,17 @@ constexpr void __set__cellIndex_k__BackingField(int32_t value) ;
 
 constexpr int32_t __get__cellIndex_k__BackingField() const;
 
- ::GlobalNamespace::IAnnotatedBeatmapLevelCollection __declspec(property(get=__get__annotatedBeatmapLevelCollection, put=__set__annotatedBeatmapLevelCollection))  _annotatedBeatmapLevelCollection;
+ GlobalNamespace::IAnnotatedBeatmapLevelCollection __declspec(property(get=__get__annotatedBeatmapLevelCollection, put=__set__annotatedBeatmapLevelCollection))  _annotatedBeatmapLevelCollection;
 
-constexpr void __set__annotatedBeatmapLevelCollection(::GlobalNamespace::IAnnotatedBeatmapLevelCollection value) ;
+constexpr void __set__annotatedBeatmapLevelCollection(GlobalNamespace::IAnnotatedBeatmapLevelCollection value) ;
 
-constexpr ::GlobalNamespace::IAnnotatedBeatmapLevelCollection __get__annotatedBeatmapLevelCollection() const;
+constexpr GlobalNamespace::IAnnotatedBeatmapLevelCollection __get__annotatedBeatmapLevelCollection() const;
 
- ::System::Threading::CancellationTokenSource __declspec(property(get=__get__cancellationTokenSource, put=__set__cancellationTokenSource))  _cancellationTokenSource;
+ System::Threading::CancellationTokenSource __declspec(property(get=__get__cancellationTokenSource, put=__set__cancellationTokenSource))  _cancellationTokenSource;
 
-constexpr void __set__cancellationTokenSource(::System::Threading::CancellationTokenSource value) ;
+constexpr void __set__cancellationTokenSource(System::Threading::CancellationTokenSource value) ;
 
-constexpr ::System::Threading::CancellationTokenSource __get__cancellationTokenSource() const;
+constexpr System::Threading::CancellationTokenSource __get__cancellationTokenSource() const;
 
 
 // Properties
@@ -309,16 +308,16 @@ constexpr ::System::Threading::CancellationTokenSource __get__cancellationTokenS
  void set_cellIndex(int32_t value) ;
 
 /// @brief Method SetData addr 0x21213e4 size 0x2e8 virtual false final false
- void SetData(::GlobalNamespace::IAnnotatedBeatmapLevelCollection annotatedBeatmapLevelCollection, bool isPromoted, bool isUpdated) ;
+ void SetData(GlobalNamespace::IAnnotatedBeatmapLevelCollection annotatedBeatmapLevelCollection, bool isPromoted, bool isUpdated) ;
 
 /// @brief Method InternalToggle addr 0x2121800 size 0x24 virtual true final false
  void InternalToggle() ;
 
 /// @brief Method SelectionDidChange addr 0x2121824 size 0x4 virtual true final false
- void SelectionDidChange(::HMUI::____HMUI__SelectableCell__TransitionType transitionType) ;
+ void SelectionDidChange(HMUI::HMUI__SelectableCell__TransitionType transitionType) ;
 
 /// @brief Method HighlightDidChange addr 0x2121914 size 0x4 virtual true final false
- void HighlightDidChange(::HMUI::____HMUI__SelectableCell__TransitionType transitionType) ;
+ void HighlightDidChange(HMUI::HMUI__SelectableCell__TransitionType transitionType) ;
 
 /// @brief Method RefreshVisuals addr 0x2121828 size 0xec virtual false final false
  void RefreshVisuals() ;
@@ -327,7 +326,7 @@ constexpr ::System::Threading::CancellationTokenSource __get__cancellationTokenS
  ::StringW GetInfoText(::StringW name, int32_t songs, int32_t purchased) ;
 
 /// @brief Method RefreshAvailabilityAsync addr 0x2121918 size 0xa4 virtual false final false
- void RefreshAvailabilityAsync(::GlobalNamespace::AdditionalContentModel contentModel) ;
+ void RefreshAvailabilityAsync(GlobalNamespace::AdditionalContentModel contentModel) ;
 
 /// @brief Method SetDownloadIconVisible addr 0x21217bc size 0x44 virtual false final false
  void SetDownloadIconVisible(bool visible) ;
@@ -345,7 +344,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell, "", "AnnotatedBeatmapLevelCollectionCell");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22, "", "AnnotatedBeatmapLevelCollectionCell/<RefreshAvailabilityAsync>d__22");
+NEED_NO_BOX(GlobalNamespace::AnnotatedBeatmapLevelCollectionCell);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnnotatedBeatmapLevelCollectionCell, "", "AnnotatedBeatmapLevelCollectionCell");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22, "", "AnnotatedBeatmapLevelCollectionCell/<RefreshAvailabilityAsync>d__22");

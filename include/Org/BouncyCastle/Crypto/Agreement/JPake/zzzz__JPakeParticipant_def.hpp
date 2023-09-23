@@ -4,27 +4,26 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
+namespace Org::BouncyCastle::Crypto::Agreement::JPake {
+class JPakePrimeOrderGroup;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Crypto::Agreement::JPake {
-class JPakePrimeOrderGroup;
-}
-namespace Org::BouncyCastle::Crypto::Agreement::JPake {
 class JPakeRound1Payload;
 }
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
+}
 namespace Org::BouncyCastle::Crypto::Agreement::JPake {
-class JPakeRound3Payload;
+class JPakeRound2Payload;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto::Agreement::JPake {
-class JPakeRound2Payload;
+class JPakeRound3Payload;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Agreement::JPake {
@@ -132,35 +131,35 @@ constexpr void __set_password(::ArrayW<char16_t> value) ;
 
 constexpr ::ArrayW<char16_t> __get_password() const;
 
- ::Org::BouncyCastle::Crypto::IDigest __declspec(property(get=__get_digest, put=__set_digest))  digest;
+ Org::BouncyCastle::Crypto::IDigest __declspec(property(get=__get_digest, put=__set_digest))  digest;
 
-constexpr void __set_digest(::Org::BouncyCastle::Crypto::IDigest value) ;
+constexpr void __set_digest(Org::BouncyCastle::Crypto::IDigest value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IDigest __get_digest() const;
+constexpr Org::BouncyCastle::Crypto::IDigest __get_digest() const;
 
- ::Org::BouncyCastle::Security::SecureRandom __declspec(property(get=__get_random, put=__set_random))  random;
+ Org::BouncyCastle::Security::SecureRandom __declspec(property(get=__get_random, put=__set_random))  random;
 
-constexpr void __set_random(::Org::BouncyCastle::Security::SecureRandom value) ;
+constexpr void __set_random(Org::BouncyCastle::Security::SecureRandom value) ;
 
-constexpr ::Org::BouncyCastle::Security::SecureRandom __get_random() const;
+constexpr Org::BouncyCastle::Security::SecureRandom __get_random() const;
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_p, put=__set_p))  p;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_p, put=__set_p))  p;
 
-constexpr void __set_p(::Org::BouncyCastle::Math::BigInteger value) ;
+constexpr void __set_p(Org::BouncyCastle::Math::BigInteger value) ;
 
-constexpr ::Org::BouncyCastle::Math::BigInteger __get_p() const;
+constexpr Org::BouncyCastle::Math::BigInteger __get_p() const;
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_q, put=__set_q))  q;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_q, put=__set_q))  q;
 
-constexpr void __set_q(::Org::BouncyCastle::Math::BigInteger value) ;
+constexpr void __set_q(Org::BouncyCastle::Math::BigInteger value) ;
 
-constexpr ::Org::BouncyCastle::Math::BigInteger __get_q() const;
+constexpr Org::BouncyCastle::Math::BigInteger __get_q() const;
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_g, put=__set_g))  g;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_g, put=__set_g))  g;
 
-constexpr void __set_g(::Org::BouncyCastle::Math::BigInteger value) ;
+constexpr void __set_g(Org::BouncyCastle::Math::BigInteger value) ;
 
-constexpr ::Org::BouncyCastle::Math::BigInteger __get_g() const;
+constexpr Org::BouncyCastle::Math::BigInteger __get_g() const;
 
  ::StringW __declspec(property(get=__get_partnerParticipantId, put=__set_partnerParticipantId))  partnerParticipantId;
 
@@ -168,47 +167,47 @@ constexpr void __set_partnerParticipantId(::StringW value) ;
 
 constexpr ::StringW __get_partnerParticipantId() const;
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_x1, put=__set_x1))  x1;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_x1, put=__set_x1))  x1;
 
-constexpr void __set_x1(::Org::BouncyCastle::Math::BigInteger value) ;
+constexpr void __set_x1(Org::BouncyCastle::Math::BigInteger value) ;
 
-constexpr ::Org::BouncyCastle::Math::BigInteger __get_x1() const;
+constexpr Org::BouncyCastle::Math::BigInteger __get_x1() const;
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_x2, put=__set_x2))  x2;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_x2, put=__set_x2))  x2;
 
-constexpr void __set_x2(::Org::BouncyCastle::Math::BigInteger value) ;
+constexpr void __set_x2(Org::BouncyCastle::Math::BigInteger value) ;
 
-constexpr ::Org::BouncyCastle::Math::BigInteger __get_x2() const;
+constexpr Org::BouncyCastle::Math::BigInteger __get_x2() const;
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_gx1, put=__set_gx1))  gx1;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_gx1, put=__set_gx1))  gx1;
 
-constexpr void __set_gx1(::Org::BouncyCastle::Math::BigInteger value) ;
+constexpr void __set_gx1(Org::BouncyCastle::Math::BigInteger value) ;
 
-constexpr ::Org::BouncyCastle::Math::BigInteger __get_gx1() const;
+constexpr Org::BouncyCastle::Math::BigInteger __get_gx1() const;
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_gx2, put=__set_gx2))  gx2;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_gx2, put=__set_gx2))  gx2;
 
-constexpr void __set_gx2(::Org::BouncyCastle::Math::BigInteger value) ;
+constexpr void __set_gx2(Org::BouncyCastle::Math::BigInteger value) ;
 
-constexpr ::Org::BouncyCastle::Math::BigInteger __get_gx2() const;
+constexpr Org::BouncyCastle::Math::BigInteger __get_gx2() const;
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_gx3, put=__set_gx3))  gx3;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_gx3, put=__set_gx3))  gx3;
 
-constexpr void __set_gx3(::Org::BouncyCastle::Math::BigInteger value) ;
+constexpr void __set_gx3(Org::BouncyCastle::Math::BigInteger value) ;
 
-constexpr ::Org::BouncyCastle::Math::BigInteger __get_gx3() const;
+constexpr Org::BouncyCastle::Math::BigInteger __get_gx3() const;
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_gx4, put=__set_gx4))  gx4;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_gx4, put=__set_gx4))  gx4;
 
-constexpr void __set_gx4(::Org::BouncyCastle::Math::BigInteger value) ;
+constexpr void __set_gx4(Org::BouncyCastle::Math::BigInteger value) ;
 
-constexpr ::Org::BouncyCastle::Math::BigInteger __get_gx4() const;
+constexpr Org::BouncyCastle::Math::BigInteger __get_gx4() const;
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_b, put=__set_b))  b;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_b, put=__set_b))  b;
 
-constexpr void __set_b(::Org::BouncyCastle::Math::BigInteger value) ;
+constexpr void __set_b(Org::BouncyCastle::Math::BigInteger value) ;
 
-constexpr ::Org::BouncyCastle::Math::BigInteger __get_b() const;
+constexpr Org::BouncyCastle::Math::BigInteger __get_b() const;
 
  int32_t __declspec(property(get=__get_state, put=__set_state))  state;
 
@@ -230,46 +229,45 @@ explicit JPakeParticipant(::StringW participantId, ::ArrayW<char16_t> password) 
 /// @brief Method .ctor addr 0x1187f60 size 0x78 virtual false final false
  void _ctor(::StringW participantId, ::ArrayW<char16_t> password) ;
 
-// Ctor Parameters [CppParam { name: "participantId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "group", ty: "::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup", modifiers: "", def_value: None }]
-explicit JPakeParticipant(::StringW participantId, ::ArrayW<char16_t> password, ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup group) ;
+// Ctor Parameters [CppParam { name: "participantId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "group", ty: "Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup", modifiers: "", def_value: None }]
+explicit JPakeParticipant(::StringW participantId, ::ArrayW<char16_t> password, Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup group) ;
 
 /// @brief Method .ctor addr 0x1187fd8 size 0xbc virtual false final false
- void _ctor(::StringW participantId, ::ArrayW<char16_t> password, ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup group) ;
+ void _ctor(::StringW participantId, ::ArrayW<char16_t> password, Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup group) ;
 
-// Ctor Parameters [CppParam { name: "participantId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "group", ty: "::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "::Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "random", ty: "::Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit JPakeParticipant(::StringW participantId, ::ArrayW<char16_t> password, ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup group, ::Org::BouncyCastle::Crypto::IDigest digest, ::Org::BouncyCastle::Security::SecureRandom random) ;
+// Ctor Parameters [CppParam { name: "participantId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "group", ty: "Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
+explicit JPakeParticipant(::StringW participantId, ::ArrayW<char16_t> password, Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup group, Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Security::SecureRandom random) ;
 
 /// @brief Method .ctor addr 0x1188094 size 0x23c virtual false final false
- void _ctor(::StringW participantId, ::ArrayW<char16_t> password, ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup group, ::Org::BouncyCastle::Crypto::IDigest digest, ::Org::BouncyCastle::Security::SecureRandom random) ;
+ void _ctor(::StringW participantId, ::ArrayW<char16_t> password, Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup group, Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Security::SecureRandom random) ;
 
 /// @brief Method get_State addr 0x1188324 size 0x8 virtual true final false
  int32_t get_State() ;
 
 /// @brief Method CreateRound1PayloadToSend addr 0x118832c size 0x228 virtual true final false
- ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound1Payload CreateRound1PayloadToSend() ;
+ Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound1Payload CreateRound1PayloadToSend() ;
 
 /// @brief Method ValidateRound1PayloadReceived addr 0x11889f4 size 0x23c virtual true final false
- void ValidateRound1PayloadReceived(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound1Payload round1PayloadReceived) ;
+ void ValidateRound1PayloadReceived(Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound1Payload round1PayloadReceived) ;
 
 /// @brief Method CreateRound2PayloadToSend addr 0x1188f8c size 0x224 virtual true final false
- ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload CreateRound2PayloadToSend() ;
+ Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload CreateRound2PayloadToSend() ;
 
 /// @brief Method ValidateRound2PayloadReceived addr 0x1189404 size 0x230 virtual true final false
- void ValidateRound2PayloadReceived(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload round2PayloadReceived) ;
+ void ValidateRound2PayloadReceived(Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload round2PayloadReceived) ;
 
 /// @brief Method CalculateKeyingMaterial addr 0x1189890 size 0x19c virtual true final false
- ::Org::BouncyCastle::Math::BigInteger CalculateKeyingMaterial() ;
+ Org::BouncyCastle::Math::BigInteger CalculateKeyingMaterial() ;
 
 /// @brief Method CreateRound3PayloadToSend addr 0x1189ac8 size 0x1ec virtual true final false
- ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload CreateRound3PayloadToSend(::Org::BouncyCastle::Math::BigInteger keyingMaterial) ;
+ Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload CreateRound3PayloadToSend(Org::BouncyCastle::Math::BigInteger keyingMaterial) ;
 
 /// @brief Method ValidateRound3PayloadReceived addr 0x1189f04 size 0x218 virtual true final false
- void ValidateRound3PayloadReceived(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload round3PayloadReceived, ::Org::BouncyCastle::Math::BigInteger keyingMaterial) ;
+ void ValidateRound3PayloadReceived(Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload round3PayloadReceived, Org::BouncyCastle::Math::BigInteger keyingMaterial) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Agreement::JPake
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant, "Org.BouncyCastle.Crypto.Agreement.JPake", "JPakeParticipant");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant, "Org.BouncyCastle.Crypto.Agreement.JPake", "JPakeParticipant");

@@ -1,10 +1,6 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
@@ -13,6 +9,9 @@ class Asn1OctetString;
 }
 namespace System::Collections {
 class ICollection;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509::Extension {
@@ -61,16 +60,16 @@ constexpr explicit X509ExtensionUtilities(void* ptr) noexcept : ::bs_hook::Il2Cp
 // Methods
 
 /// @brief Method FromExtensionValue addr 0x10e3bc8 size 0x24 virtual false final false
-static ::Org::BouncyCastle::Asn1::Asn1Object FromExtensionValue(::Org::BouncyCastle::Asn1::Asn1OctetString extensionValue) ;
+static Org::BouncyCastle::Asn1::Asn1Object FromExtensionValue(Org::BouncyCastle::Asn1::Asn1OctetString extensionValue) ;
 
 /// @brief Method GetIssuerAlternativeNames addr 0x10e444c size 0x74 virtual false final false
-static ::System::Collections::ICollection GetIssuerAlternativeNames(::Org::BouncyCastle::X509::X509Certificate cert) ;
+static System::Collections::ICollection GetIssuerAlternativeNames(Org::BouncyCastle::X509::X509Certificate cert) ;
 
 /// @brief Method GetSubjectAlternativeNames addr 0x10e4eb0 size 0x74 virtual false final false
-static ::System::Collections::ICollection GetSubjectAlternativeNames(::Org::BouncyCastle::X509::X509Certificate cert) ;
+static System::Collections::ICollection GetSubjectAlternativeNames(Org::BouncyCastle::X509::X509Certificate cert) ;
 
 /// @brief Method GetAlternativeName addr 0x10e44c0 size 0x9f0 virtual false final false
-static ::System::Collections::ICollection GetAlternativeName(::Org::BouncyCastle::Asn1::Asn1OctetString extVal) ;
+static System::Collections::ICollection GetAlternativeName(Org::BouncyCastle::Asn1::Asn1OctetString extVal) ;
 
 // Ctor Parameters []
 explicit X509ExtensionUtilities() ;
@@ -82,6 +81,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::X509::Extension
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::X509::Extension::X509ExtensionUtilities);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::X509::Extension::X509ExtensionUtilities, "Org.BouncyCastle.X509.Extension", "X509ExtensionUtilities");
+NEED_NO_BOX(Org::BouncyCastle::X509::Extension::X509ExtensionUtilities);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::Extension::X509ExtensionUtilities, "Org.BouncyCastle.X509.Extension", "X509ExtensionUtilities");

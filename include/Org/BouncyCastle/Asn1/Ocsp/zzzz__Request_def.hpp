@@ -2,21 +2,20 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
+}
 namespace Org::BouncyCastle::Asn1::Ocsp {
 class CertID;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Ocsp {
@@ -28,7 +27,7 @@ namespace Org::BouncyCastle::Asn1::Ocsp {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(215))
 // CS Name: Org.BouncyCastle.Asn1.Ocsp.Request
-class CORDL_TYPE Request : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
+class CORDL_TYPE Request : public Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -43,7 +42,7 @@ constexpr Request(Request const& ) noexcept = default;
 constexpr Request(Request&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Request(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
+constexpr explicit Request(void* ptr) noexcept : Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
 }
 
 
@@ -64,59 +63,58 @@ constexpr explicit Request(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::Asn1
 
 // Fields
 
- ::Org::BouncyCastle::Asn1::Ocsp::CertID __declspec(property(get=__get_reqCert, put=__set_reqCert))  reqCert;
+ Org::BouncyCastle::Asn1::Ocsp::CertID __declspec(property(get=__get_reqCert, put=__set_reqCert))  reqCert;
 
-constexpr void __set_reqCert(::Org::BouncyCastle::Asn1::Ocsp::CertID value) ;
+constexpr void __set_reqCert(Org::BouncyCastle::Asn1::Ocsp::CertID value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::Ocsp::CertID __get_reqCert() const;
+constexpr Org::BouncyCastle::Asn1::Ocsp::CertID __get_reqCert() const;
 
- ::Org::BouncyCastle::Asn1::X509::X509Extensions __declspec(property(get=__get_singleRequestExtensions, put=__set_singleRequestExtensions))  singleRequestExtensions;
+ Org::BouncyCastle::Asn1::X509::X509Extensions __declspec(property(get=__get_singleRequestExtensions, put=__set_singleRequestExtensions))  singleRequestExtensions;
 
-constexpr void __set_singleRequestExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions value) ;
+constexpr void __set_singleRequestExtensions(Org::BouncyCastle::Asn1::X509::X509Extensions value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions __get_singleRequestExtensions() const;
+constexpr Org::BouncyCastle::Asn1::X509::X509Extensions __get_singleRequestExtensions() const;
 
 
 // Properties
 
- ::Org::BouncyCastle::Asn1::Ocsp::CertID __declspec(property(get=get_ReqCert))  ReqCert;
+ Org::BouncyCastle::Asn1::Ocsp::CertID __declspec(property(get=get_ReqCert))  ReqCert;
 
- ::Org::BouncyCastle::Asn1::X509::X509Extensions __declspec(property(get=get_SingleRequestExtensions))  SingleRequestExtensions;
+ Org::BouncyCastle::Asn1::X509::X509Extensions __declspec(property(get=get_SingleRequestExtensions))  SingleRequestExtensions;
 
 
 // Methods
 
 /// @brief Method GetInstance addr 0xef3f50 size 0x18 virtual false final false
-static ::Org::BouncyCastle::Asn1::Ocsp::Request GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool explicitly) ;
+static Org::BouncyCastle::Asn1::Ocsp::Request GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool explicitly) ;
 
 /// @brief Method GetInstance addr 0xef3f68 size 0x188 virtual false final false
-static ::Org::BouncyCastle::Asn1::Ocsp::Request GetInstance(::bs_hook::Il2CppWrapperType obj) ;
+static Org::BouncyCastle::Asn1::Ocsp::Request GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "reqCert", ty: "::Org::BouncyCastle::Asn1::Ocsp::CertID", modifiers: "", def_value: None }, CppParam { name: "singleRequestExtensions", ty: "::Org::BouncyCastle::Asn1::X509::X509Extensions", modifiers: "", def_value: None }]
-explicit Request(::Org::BouncyCastle::Asn1::Ocsp::CertID reqCert, ::Org::BouncyCastle::Asn1::X509::X509Extensions singleRequestExtensions) ;
+// Ctor Parameters [CppParam { name: "reqCert", ty: "Org::BouncyCastle::Asn1::Ocsp::CertID", modifiers: "", def_value: None }, CppParam { name: "singleRequestExtensions", ty: "Org::BouncyCastle::Asn1::X509::X509Extensions", modifiers: "", def_value: None }]
+explicit Request(Org::BouncyCastle::Asn1::Ocsp::CertID reqCert, Org::BouncyCastle::Asn1::X509::X509Extensions singleRequestExtensions) ;
 
 /// @brief Method .ctor addr 0xef4214 size 0x7c virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::Ocsp::CertID reqCert, ::Org::BouncyCastle::Asn1::X509::X509Extensions singleRequestExtensions) ;
+ void _ctor(Org::BouncyCastle::Asn1::Ocsp::CertID reqCert, Org::BouncyCastle::Asn1::X509::X509Extensions singleRequestExtensions) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "::Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit Request(::Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
+explicit Request(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xef40f0 size 0x124 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+ void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method get_ReqCert addr 0xef4290 size 0x8 virtual false final false
- ::Org::BouncyCastle::Asn1::Ocsp::CertID get_ReqCert() ;
+ Org::BouncyCastle::Asn1::Ocsp::CertID get_ReqCert() ;
 
 /// @brief Method get_SingleRequestExtensions addr 0xef4298 size 0x8 virtual false final false
- ::Org::BouncyCastle::Asn1::X509::X509Extensions get_SingleRequestExtensions() ;
+ Org::BouncyCastle::Asn1::X509::X509Extensions get_SingleRequestExtensions() ;
 
 /// @brief Method ToAsn1Object addr 0xef42a0 size 0x114 virtual true final false
- ::Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
+ Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::Ocsp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::Ocsp::Request);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Ocsp::Request, "Org.BouncyCastle.Asn1.Ocsp", "Request");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Ocsp::Request);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Ocsp::Request, "Org.BouncyCastle.Asn1.Ocsp", "Request");

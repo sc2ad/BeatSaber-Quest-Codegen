@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Collections {
 class ICollection;
 }
@@ -54,11 +53,11 @@ constexpr explicit InstanceDescriptor(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Fields
 
- ::System::Collections::ICollection __declspec(property(get=__get__Arguments_k__BackingField, put=__set__Arguments_k__BackingField))  _Arguments_k__BackingField;
+ System::Collections::ICollection __declspec(property(get=__get__Arguments_k__BackingField, put=__set__Arguments_k__BackingField))  _Arguments_k__BackingField;
 
-constexpr void __set__Arguments_k__BackingField(::System::Collections::ICollection value) ;
+constexpr void __set__Arguments_k__BackingField(System::Collections::ICollection value) ;
 
-constexpr ::System::Collections::ICollection __get__Arguments_k__BackingField() const;
+constexpr System::Collections::ICollection __get__Arguments_k__BackingField() const;
 
  bool __declspec(property(get=__get__IsComplete_k__BackingField, put=__set__IsComplete_k__BackingField))  _IsComplete_k__BackingField;
 
@@ -66,39 +65,39 @@ constexpr void __set__IsComplete_k__BackingField(bool value) ;
 
 constexpr bool __get__IsComplete_k__BackingField() const;
 
- ::System::Reflection::MemberInfo __declspec(property(get=__get__MemberInfo_k__BackingField, put=__set__MemberInfo_k__BackingField))  _MemberInfo_k__BackingField;
+ System::Reflection::MemberInfo __declspec(property(get=__get__MemberInfo_k__BackingField, put=__set__MemberInfo_k__BackingField))  _MemberInfo_k__BackingField;
 
-constexpr void __set__MemberInfo_k__BackingField(::System::Reflection::MemberInfo value) ;
+constexpr void __set__MemberInfo_k__BackingField(System::Reflection::MemberInfo value) ;
 
-constexpr ::System::Reflection::MemberInfo __get__MemberInfo_k__BackingField() const;
+constexpr System::Reflection::MemberInfo __get__MemberInfo_k__BackingField() const;
 
 
 // Properties
 
- ::System::Collections::ICollection __declspec(property(get=get_Arguments))  Arguments;
+ System::Collections::ICollection __declspec(property(get=get_Arguments))  Arguments;
 
- ::System::Reflection::MemberInfo __declspec(property(get=get_MemberInfo))  MemberInfo;
+ System::Reflection::MemberInfo __declspec(property(get=get_MemberInfo))  MemberInfo;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "member", ty: "::System::Reflection::MemberInfo", modifiers: "", def_value: None }, CppParam { name: "arguments", ty: "::System::Collections::ICollection", modifiers: "", def_value: None }]
-explicit InstanceDescriptor(::System::Reflection::MemberInfo member, ::System::Collections::ICollection arguments) ;
+// Ctor Parameters [CppParam { name: "member", ty: "System::Reflection::MemberInfo", modifiers: "", def_value: None }, CppParam { name: "arguments", ty: "System::Collections::ICollection", modifiers: "", def_value: None }]
+explicit InstanceDescriptor(System::Reflection::MemberInfo member, System::Collections::ICollection arguments) ;
 
 /// @brief Method .ctor addr 0x27a8218 size 0x8 virtual false final false
- void _ctor(::System::Reflection::MemberInfo member, ::System::Collections::ICollection arguments) ;
+ void _ctor(System::Reflection::MemberInfo member, System::Collections::ICollection arguments) ;
 
-// Ctor Parameters [CppParam { name: "member", ty: "::System::Reflection::MemberInfo", modifiers: "", def_value: None }, CppParam { name: "arguments", ty: "::System::Collections::ICollection", modifiers: "", def_value: None }, CppParam { name: "isComplete", ty: "bool", modifiers: "", def_value: None }]
-explicit InstanceDescriptor(::System::Reflection::MemberInfo member, ::System::Collections::ICollection arguments, bool isComplete) ;
+// Ctor Parameters [CppParam { name: "member", ty: "System::Reflection::MemberInfo", modifiers: "", def_value: None }, CppParam { name: "arguments", ty: "System::Collections::ICollection", modifiers: "", def_value: None }, CppParam { name: "isComplete", ty: "bool", modifiers: "", def_value: None }]
+explicit InstanceDescriptor(System::Reflection::MemberInfo member, System::Collections::ICollection arguments, bool isComplete) ;
 
 /// @brief Method .ctor addr 0x27a8220 size 0x50c virtual false final false
- void _ctor(::System::Reflection::MemberInfo member, ::System::Collections::ICollection arguments, bool isComplete) ;
+ void _ctor(System::Reflection::MemberInfo member, System::Collections::ICollection arguments, bool isComplete) ;
 
 /// @brief Method get_Arguments addr 0x27a872c size 0x8 virtual false final false
- ::System::Collections::ICollection get_Arguments() ;
+ System::Collections::ICollection get_Arguments() ;
 
 /// @brief Method get_MemberInfo addr 0x27a8734 size 0x8 virtual false final false
- ::System::Reflection::MemberInfo get_MemberInfo() ;
+ System::Reflection::MemberInfo get_MemberInfo() ;
 
 /// @brief Method Invoke addr 0x27a873c size 0x358 virtual false final false
  ::bs_hook::Il2CppWrapperType Invoke() ;
@@ -107,6 +106,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel::Design::Serialization
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::Design::Serialization::InstanceDescriptor);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::Design::Serialization::InstanceDescriptor, "System.ComponentModel.Design.Serialization", "InstanceDescriptor");
+NEED_NO_BOX(System::ComponentModel::Design::Serialization::InstanceDescriptor);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::Design::Serialization::InstanceDescriptor, "System.ComponentModel.Design.Serialization", "InstanceDescriptor");

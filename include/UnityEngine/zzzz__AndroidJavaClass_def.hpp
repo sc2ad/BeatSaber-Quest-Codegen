@@ -3,7 +3,6 @@
 #include "UnityEngine/zzzz__AndroidJavaObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 class AndroidJavaClass;
@@ -14,7 +13,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14881))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14882))
 // CS Name: UnityEngine.AndroidJavaClass
-class CORDL_TYPE AndroidJavaClass : public ::UnityEngine::AndroidJavaObject {
+class CORDL_TYPE AndroidJavaClass : public UnityEngine::AndroidJavaObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr AndroidJavaClass(AndroidJavaClass const& ) noexcept = default;
 constexpr AndroidJavaClass(AndroidJavaClass&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AndroidJavaClass(void* ptr) noexcept : ::UnityEngine::AndroidJavaObject(ptr) {
+constexpr explicit AndroidJavaClass(void* ptr) noexcept : UnityEngine::AndroidJavaObject(ptr) {
 }
 
 
@@ -69,6 +68,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AndroidJavaClass);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AndroidJavaClass, "UnityEngine", "AndroidJavaClass");
+NEED_NO_BOX(UnityEngine::AndroidJavaClass);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AndroidJavaClass, "UnityEngine", "AndroidJavaClass");

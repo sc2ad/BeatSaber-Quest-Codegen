@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace TMPro {
 struct MaskingTypes;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field MaskOff offset 0
-static ::TMPro::MaskingTypes const MaskOff;
+static TMPro::MaskingTypes const MaskOff;
 
 /// @brief Field MaskHard offset 0
-static ::TMPro::MaskingTypes const MaskHard;
+static TMPro::MaskingTypes const MaskHard;
 
 /// @brief Field MaskSoft offset 0
-static ::TMPro::MaskingTypes const MaskSoft;
+static TMPro::MaskingTypes const MaskSoft;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::MaskingTypes, "TMPro", "MaskingTypes");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::MaskingTypes, "TMPro", "MaskingTypes");

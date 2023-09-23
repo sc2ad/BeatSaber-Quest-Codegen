@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace GlobalNamespace {
 template<typename T>
 class PacketPool_1;
@@ -60,17 +59,16 @@ constexpr explicit ThreadStaticPacketPool_1(void* ptr) noexcept : ::bs_hook::Il2
 
 // Properties
 
-static ::GlobalNamespace::PacketPool_1<T> __declspec(property(get=get_pool))  pool;
+static GlobalNamespace::PacketPool_1<T> __declspec(property(get=get_pool))  pool;
 
 
 // Methods
 
 /// @brief Method get_pool addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::GlobalNamespace::PacketPool_1<T> get_pool() ;
+static GlobalNamespace::PacketPool_1<T> get_pool() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::ThreadStaticPacketPool_1, "", "ThreadStaticPacketPool`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::ThreadStaticPacketPool_1, "", "ThreadStaticPacketPool`1");

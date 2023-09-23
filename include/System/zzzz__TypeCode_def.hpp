@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 struct TypeCode;
@@ -83,62 +82,61 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Empty offset 0
-static ::System::TypeCode const Empty;
+static System::TypeCode const Empty;
 
 /// @brief Field Object offset 0
-static ::System::TypeCode const Object;
+static System::TypeCode const Object;
 
 /// @brief Field DBNull offset 0
-static ::System::TypeCode const DBNull;
+static System::TypeCode const DBNull;
 
 /// @brief Field Boolean offset 0
-static ::System::TypeCode const Boolean;
+static System::TypeCode const Boolean;
 
 /// @brief Field Char offset 0
-static ::System::TypeCode const Char;
+static System::TypeCode const Char;
 
 /// @brief Field SByte offset 0
-static ::System::TypeCode const SByte;
+static System::TypeCode const SByte;
 
 /// @brief Field Byte offset 0
-static ::System::TypeCode const Byte;
+static System::TypeCode const Byte;
 
 /// @brief Field Int16 offset 0
-static ::System::TypeCode const Int16;
+static System::TypeCode const Int16;
 
 /// @brief Field UInt16 offset 0
-static ::System::TypeCode const UInt16;
+static System::TypeCode const UInt16;
 
 /// @brief Field Int32 offset 0
-static ::System::TypeCode const Int32;
+static System::TypeCode const Int32;
 
 /// @brief Field UInt32 offset 0
-static ::System::TypeCode const UInt32;
+static System::TypeCode const UInt32;
 
 /// @brief Field Int64 offset 0
-static ::System::TypeCode const Int64;
+static System::TypeCode const Int64;
 
 /// @brief Field UInt64 offset 0
-static ::System::TypeCode const UInt64;
+static System::TypeCode const UInt64;
 
 /// @brief Field Single offset 0
-static ::System::TypeCode const Single;
+static System::TypeCode const Single;
 
 /// @brief Field Double offset 0
-static ::System::TypeCode const Double;
+static System::TypeCode const Double;
 
 /// @brief Field Decimal offset 0
-static ::System::TypeCode const Decimal;
+static System::TypeCode const Decimal;
 
 /// @brief Field DateTime offset 0
-static ::System::TypeCode const DateTime;
+static System::TypeCode const DateTime;
 
 /// @brief Field String offset 0
-static ::System::TypeCode const String;
+static System::TypeCode const String;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::TypeCode, "System", "TypeCode");
+DEFINE_IL2CPP_ARG_TYPE(System::TypeCode, "System", "TypeCode");

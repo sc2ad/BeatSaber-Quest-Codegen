@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::IO {
 class Stream;
 }
@@ -93,15 +92,14 @@ explicit SignatureAndHashAlgorithm(uint8_t hash, uint8_t signature) ;
  int32_t GetHashCode() ;
 
 /// @brief Method Encode addr 0xf09740 size 0x9c virtual true final false
- void Encode(::System::IO::Stream output) ;
+ void Encode(System::IO::Stream output) ;
 
 /// @brief Method Parse addr 0xf097dc size 0xac virtual false final false
-static ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm Parse(::System::IO::Stream input) ;
+static Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm Parse(System::IO::Stream input) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm, "Org.BouncyCastle.Crypto.Tls", "SignatureAndHashAlgorithm");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm, "Org.BouncyCastle.Crypto.Tls", "SignatureAndHashAlgorithm");

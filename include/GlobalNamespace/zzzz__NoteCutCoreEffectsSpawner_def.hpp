@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 class NoteDebrisSpawner;
 }
@@ -12,16 +11,13 @@ namespace GlobalNamespace {
 class ShockwaveEffect;
 }
 namespace GlobalNamespace {
-class BombExplosionEffect;
-}
-namespace GlobalNamespace {
-class ColorManager;
+class NoteCutHapticEffect;
 }
 namespace GlobalNamespace {
 class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
-class NoteCutHapticEffect;
+struct GlobalNamespace__NoteCutHapticEffect__Type;
 }
 namespace GlobalNamespace {
 class NoteController;
@@ -33,10 +29,13 @@ namespace GlobalNamespace {
 struct NoteCutInfo;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__NoteCutHapticEffect__Type;
+class AudioTimeSyncController;
 }
 namespace GlobalNamespace {
-class AudioTimeSyncController;
+class BombExplosionEffect;
+}
+namespace GlobalNamespace {
+class ColorManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -48,7 +47,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5006))
 // CS Name: NoteCutCoreEffectsSpawner
-class CORDL_TYPE NoteCutCoreEffectsSpawner : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE NoteCutCoreEffectsSpawner : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -63,7 +62,7 @@ constexpr NoteCutCoreEffectsSpawner(NoteCutCoreEffectsSpawner const& ) noexcept 
 constexpr NoteCutCoreEffectsSpawner(NoteCutCoreEffectsSpawner&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NoteCutCoreEffectsSpawner(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit NoteCutCoreEffectsSpawner(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -90,53 +89,53 @@ constexpr void __set__shockWaveYPos(float_t value) ;
 
 constexpr float_t __get__shockWaveYPos() const;
 
- ::GlobalNamespace::NoteCutParticlesEffect __declspec(property(get=__get__noteCutParticlesEffect, put=__set__noteCutParticlesEffect))  _noteCutParticlesEffect;
+ GlobalNamespace::NoteCutParticlesEffect __declspec(property(get=__get__noteCutParticlesEffect, put=__set__noteCutParticlesEffect))  _noteCutParticlesEffect;
 
-constexpr void __set__noteCutParticlesEffect(::GlobalNamespace::NoteCutParticlesEffect value) ;
+constexpr void __set__noteCutParticlesEffect(GlobalNamespace::NoteCutParticlesEffect value) ;
 
-constexpr ::GlobalNamespace::NoteCutParticlesEffect __get__noteCutParticlesEffect() const;
+constexpr GlobalNamespace::NoteCutParticlesEffect __get__noteCutParticlesEffect() const;
 
- ::GlobalNamespace::NoteDebrisSpawner __declspec(property(get=__get__noteDebrisSpawner, put=__set__noteDebrisSpawner))  _noteDebrisSpawner;
+ GlobalNamespace::NoteDebrisSpawner __declspec(property(get=__get__noteDebrisSpawner, put=__set__noteDebrisSpawner))  _noteDebrisSpawner;
 
-constexpr void __set__noteDebrisSpawner(::GlobalNamespace::NoteDebrisSpawner value) ;
+constexpr void __set__noteDebrisSpawner(GlobalNamespace::NoteDebrisSpawner value) ;
 
-constexpr ::GlobalNamespace::NoteDebrisSpawner __get__noteDebrisSpawner() const;
+constexpr GlobalNamespace::NoteDebrisSpawner __get__noteDebrisSpawner() const;
 
- ::GlobalNamespace::NoteCutHapticEffect __declspec(property(get=__get__noteCutHapticEffect, put=__set__noteCutHapticEffect))  _noteCutHapticEffect;
+ GlobalNamespace::NoteCutHapticEffect __declspec(property(get=__get__noteCutHapticEffect, put=__set__noteCutHapticEffect))  _noteCutHapticEffect;
 
-constexpr void __set__noteCutHapticEffect(::GlobalNamespace::NoteCutHapticEffect value) ;
+constexpr void __set__noteCutHapticEffect(GlobalNamespace::NoteCutHapticEffect value) ;
 
-constexpr ::GlobalNamespace::NoteCutHapticEffect __get__noteCutHapticEffect() const;
+constexpr GlobalNamespace::NoteCutHapticEffect __get__noteCutHapticEffect() const;
 
- ::GlobalNamespace::ShockwaveEffect __declspec(property(get=__get__shockwaveEffect, put=__set__shockwaveEffect))  _shockwaveEffect;
+ GlobalNamespace::ShockwaveEffect __declspec(property(get=__get__shockwaveEffect, put=__set__shockwaveEffect))  _shockwaveEffect;
 
-constexpr void __set__shockwaveEffect(::GlobalNamespace::ShockwaveEffect value) ;
+constexpr void __set__shockwaveEffect(GlobalNamespace::ShockwaveEffect value) ;
 
-constexpr ::GlobalNamespace::ShockwaveEffect __get__shockwaveEffect() const;
+constexpr GlobalNamespace::ShockwaveEffect __get__shockwaveEffect() const;
 
- ::GlobalNamespace::BombExplosionEffect __declspec(property(get=__get__bombExplosionEffect, put=__set__bombExplosionEffect))  _bombExplosionEffect;
+ GlobalNamespace::BombExplosionEffect __declspec(property(get=__get__bombExplosionEffect, put=__set__bombExplosionEffect))  _bombExplosionEffect;
 
-constexpr void __set__bombExplosionEffect(::GlobalNamespace::BombExplosionEffect value) ;
+constexpr void __set__bombExplosionEffect(GlobalNamespace::BombExplosionEffect value) ;
 
-constexpr ::GlobalNamespace::BombExplosionEffect __get__bombExplosionEffect() const;
+constexpr GlobalNamespace::BombExplosionEffect __get__bombExplosionEffect() const;
 
- ::GlobalNamespace::ColorManager __declspec(property(get=__get__colorManager, put=__set__colorManager))  _colorManager;
+ GlobalNamespace::ColorManager __declspec(property(get=__get__colorManager, put=__set__colorManager))  _colorManager;
 
-constexpr void __set__colorManager(::GlobalNamespace::ColorManager value) ;
+constexpr void __set__colorManager(GlobalNamespace::ColorManager value) ;
 
-constexpr ::GlobalNamespace::ColorManager __get__colorManager() const;
+constexpr GlobalNamespace::ColorManager __get__colorManager() const;
 
- ::GlobalNamespace::BeatmapObjectManager __declspec(property(get=__get__beatmapObjectManager, put=__set__beatmapObjectManager))  _beatmapObjectManager;
+ GlobalNamespace::BeatmapObjectManager __declspec(property(get=__get__beatmapObjectManager, put=__set__beatmapObjectManager))  _beatmapObjectManager;
 
-constexpr void __set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager value) ;
+constexpr void __set__beatmapObjectManager(GlobalNamespace::BeatmapObjectManager value) ;
 
-constexpr ::GlobalNamespace::BeatmapObjectManager __get__beatmapObjectManager() const;
+constexpr GlobalNamespace::BeatmapObjectManager __get__beatmapObjectManager() const;
 
- ::GlobalNamespace::AudioTimeSyncController __declspec(property(get=__get__audioTimeSyncController, put=__set__audioTimeSyncController))  _audioTimeSyncController;
+ GlobalNamespace::AudioTimeSyncController __declspec(property(get=__get__audioTimeSyncController, put=__set__audioTimeSyncController))  _audioTimeSyncController;
 
-constexpr void __set__audioTimeSyncController(::GlobalNamespace::AudioTimeSyncController value) ;
+constexpr void __set__audioTimeSyncController(GlobalNamespace::AudioTimeSyncController value) ;
 
-constexpr ::GlobalNamespace::AudioTimeSyncController __get__audioTimeSyncController() const;
+constexpr GlobalNamespace::AudioTimeSyncController __get__audioTimeSyncController() const;
 
 /// @brief Field kNormalNoteSparkleParticlesCount offset 0
 static constexpr int32_t  kNormalNoteSparkleParticlesCount{150};
@@ -160,16 +159,16 @@ static constexpr int32_t  kBurstSliderElementParticlesCount{20};
  void OnDestroy() ;
 
 /// @brief Method HandleNoteWasCut addr 0x22594a0 size 0x178 virtual false final false
- void HandleNoteWasCut(::GlobalNamespace::NoteController noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo) ;
+ void HandleNoteWasCut(GlobalNamespace::NoteController noteController, ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo) ;
 
 /// @brief Method PlayHitNoteHapticEffect addr 0x2259bb0 size 0x4c virtual false final false
- void PlayHitNoteHapticEffect(::GlobalNamespace::NoteCutInfo noteCutInfo, ::GlobalNamespace::____GlobalNamespace__NoteCutHapticEffect__Type hapticType) ;
+ void PlayHitNoteHapticEffect(GlobalNamespace::NoteCutInfo noteCutInfo, GlobalNamespace::GlobalNamespace__NoteCutHapticEffect__Type hapticType) ;
 
 /// @brief Method SpawnNoteCutEffect addr 0x2259668 size 0x548 virtual false final false
- void SpawnNoteCutEffect(ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteController noteController, int32_t sparkleParticlesCount, int32_t explosionParticlesCount) ;
+ void SpawnNoteCutEffect(ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo, GlobalNamespace::NoteController noteController, int32_t sparkleParticlesCount, int32_t explosionParticlesCount) ;
 
 /// @brief Method SpawnBombCutEffect addr 0x2259618 size 0x50 virtual false final false
- void SpawnBombCutEffect(ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteController noteController) ;
+ void SpawnBombCutEffect(ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo, GlobalNamespace::NoteController noteController) ;
 
 // Ctor Parameters []
 explicit NoteCutCoreEffectsSpawner() ;
@@ -181,6 +180,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::NoteCutCoreEffectsSpawner);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoteCutCoreEffectsSpawner, "", "NoteCutCoreEffectsSpawner");
+NEED_NO_BOX(GlobalNamespace::NoteCutCoreEffectsSpawner);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutCoreEffectsSpawner, "", "NoteCutCoreEffectsSpawner");

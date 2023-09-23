@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__StaticMemoryPoolBaseBase_1_def.hpp"
-namespace {
 namespace System {
 template<typename T>
 class Action_1;
@@ -21,10 +20,10 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TValue>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11026), inst: 151 }), TypeDefinitionIndex(TypeDefinitionIndex(11027)), TypeDefinitionIndex(TypeDefinitionIndex(11026))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11027)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11026), inst: 151 }), TypeDefinitionIndex(TypeDefinitionIndex(11026))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11027), inst: 2 })
 // CS Name: Zenject.StaticMemoryPoolBase`1
-class CORDL_TYPE StaticMemoryPoolBase_1<TValue> : public ::Zenject::StaticMemoryPoolBaseBase_1<TValue> {
+class CORDL_TYPE StaticMemoryPoolBase_1<TValue> : public Zenject::StaticMemoryPoolBaseBase_1<TValue> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr StaticMemoryPoolBase_1(StaticMemoryPoolBase_1 const& ) noexcept = defa
 constexpr StaticMemoryPoolBase_1(StaticMemoryPoolBase_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit StaticMemoryPoolBase_1(void* ptr) noexcept : ::Zenject::StaticMemoryPoolBaseBase_1<TValue>(ptr) {
+constexpr explicit StaticMemoryPoolBase_1(void* ptr) noexcept : Zenject::StaticMemoryPoolBaseBase_1<TValue>(ptr) {
 }
 
 
@@ -60,11 +59,11 @@ constexpr explicit StaticMemoryPoolBase_1(void* ptr) noexcept : ::Zenject::Stati
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "onDespawnedMethod", ty: "::System::Action_1<TValue>", modifiers: "", def_value: None }]
-explicit StaticMemoryPoolBase_1(::System::Action_1<TValue> onDespawnedMethod) ;
+// Ctor Parameters [CppParam { name: "onDespawnedMethod", ty: "System::Action_1<TValue>", modifiers: "", def_value: None }]
+explicit StaticMemoryPoolBase_1(System::Action_1<TValue> onDespawnedMethod) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Action_1<TValue> onDespawnedMethod) ;
+ void _ctor(System::Action_1<TValue> onDespawnedMethod) ;
 
 /// @brief Method Alloc addr 0x0 size 0xffffffffffffffff virtual true final false
  TValue Alloc() ;
@@ -73,5 +72,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::StaticMemoryPoolBase_1, "Zenject", "StaticMemoryPoolBase`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::StaticMemoryPoolBase_1, "Zenject", "StaticMemoryPoolBase`1");

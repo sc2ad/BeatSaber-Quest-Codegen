@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Mono::Security::X509 {
 class X509Extension;
 }
@@ -18,7 +17,7 @@ namespace Mono::Security::X509::Extensions {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13967))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13972))
 // CS Name: Mono.Security.X509.Extensions.AuthorityKeyIdentifierExtension
-class CORDL_TYPE AuthorityKeyIdentifierExtension : public ::Mono::Security::X509::X509Extension {
+class CORDL_TYPE AuthorityKeyIdentifierExtension : public Mono::Security::X509::X509Extension {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr AuthorityKeyIdentifierExtension(AuthorityKeyIdentifierExtension const&
 constexpr AuthorityKeyIdentifierExtension(AuthorityKeyIdentifierExtension&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AuthorityKeyIdentifierExtension(void* ptr) noexcept : ::Mono::Security::X509::X509Extension(ptr) {
+constexpr explicit AuthorityKeyIdentifierExtension(void* ptr) noexcept : Mono::Security::X509::X509Extension(ptr) {
 }
 
 
@@ -68,11 +67,11 @@ constexpr ::ArrayW<uint8_t> __get_aki() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "extension", ty: "::Mono::Security::X509::X509Extension", modifiers: "", def_value: None }]
-explicit AuthorityKeyIdentifierExtension(::Mono::Security::X509::X509Extension extension) ;
+// Ctor Parameters [CppParam { name: "extension", ty: "Mono::Security::X509::X509Extension", modifiers: "", def_value: None }]
+explicit AuthorityKeyIdentifierExtension(Mono::Security::X509::X509Extension extension) ;
 
 /// @brief Method .ctor addr 0x2290ce8 size 0x4 virtual false final false
- void _ctor(::Mono::Security::X509::X509Extension extension) ;
+ void _ctor(Mono::Security::X509::X509Extension extension) ;
 
 /// @brief Method Decode addr 0x2290cec size 0x118 virtual true final false
  void Decode() ;
@@ -90,6 +89,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Security::X509::Extensions
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension, "Mono.Security.X509.Extensions", "AuthorityKeyIdentifierExtension");
+NEED_NO_BOX(Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension, "Mono.Security.X509.Extensions", "AuthorityKeyIdentifierExtension");

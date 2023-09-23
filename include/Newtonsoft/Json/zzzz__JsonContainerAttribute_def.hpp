@@ -4,16 +4,15 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace Newtonsoft::Json {
-struct TypeNameHandling;
+namespace System {
+template<typename T>
+struct Nullable_1;
 }
 namespace System {
 class Type;
 }
-namespace System {
-template<typename T>
-struct Nullable_1;
+namespace Newtonsoft::Json {
+struct TypeNameHandling;
 }
 namespace Newtonsoft::Json {
 struct ReferenceLoopHandling;
@@ -28,7 +27,7 @@ namespace Newtonsoft::Json {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11757))
 // CS Name: Newtonsoft.Json.JsonContainerAttribute
-class CORDL_TYPE JsonContainerAttribute : public ::System::Attribute {
+class CORDL_TYPE JsonContainerAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -43,7 +42,7 @@ constexpr JsonContainerAttribute(JsonContainerAttribute const& ) noexcept = defa
 constexpr JsonContainerAttribute(JsonContainerAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit JsonContainerAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit JsonContainerAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -82,11 +81,11 @@ constexpr void __set__Description_k__BackingField(::StringW value) ;
 
 constexpr ::StringW __get__Description_k__BackingField() const;
 
- ::System::Type __declspec(property(get=__get__ItemConverterType_k__BackingField, put=__set__ItemConverterType_k__BackingField))  _ItemConverterType_k__BackingField;
+ System::Type __declspec(property(get=__get__ItemConverterType_k__BackingField, put=__set__ItemConverterType_k__BackingField))  _ItemConverterType_k__BackingField;
 
-constexpr void __set__ItemConverterType_k__BackingField(::System::Type value) ;
+constexpr void __set__ItemConverterType_k__BackingField(System::Type value) ;
 
-constexpr ::System::Type __get__ItemConverterType_k__BackingField() const;
+constexpr System::Type __get__ItemConverterType_k__BackingField() const;
 
  ::ArrayW<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get__ItemConverterParameters_k__BackingField, put=__set__ItemConverterParameters_k__BackingField))  _ItemConverterParameters_k__BackingField;
 
@@ -94,29 +93,29 @@ constexpr void __set__ItemConverterParameters_k__BackingField(::ArrayW<::bs_hook
 
 constexpr ::ArrayW<::bs_hook::Il2CppWrapperType> __get__ItemConverterParameters_k__BackingField() const;
 
- ::System::Nullable_1<bool> __declspec(property(get=__get__isReference, put=__set__isReference))  _isReference;
+ System::Nullable_1<bool> __declspec(property(get=__get__isReference, put=__set__isReference))  _isReference;
 
-constexpr void __set__isReference(::System::Nullable_1<bool> value) ;
+constexpr void __set__isReference(System::Nullable_1<bool> value) ;
 
-constexpr ::System::Nullable_1<bool> __get__isReference() const;
+constexpr System::Nullable_1<bool> __get__isReference() const;
 
- ::System::Nullable_1<bool> __declspec(property(get=__get__itemIsReference, put=__set__itemIsReference))  _itemIsReference;
+ System::Nullable_1<bool> __declspec(property(get=__get__itemIsReference, put=__set__itemIsReference))  _itemIsReference;
 
-constexpr void __set__itemIsReference(::System::Nullable_1<bool> value) ;
+constexpr void __set__itemIsReference(System::Nullable_1<bool> value) ;
 
-constexpr ::System::Nullable_1<bool> __get__itemIsReference() const;
+constexpr System::Nullable_1<bool> __get__itemIsReference() const;
 
- ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> __declspec(property(get=__get__itemReferenceLoopHandling, put=__set__itemReferenceLoopHandling))  _itemReferenceLoopHandling;
+ System::Nullable_1<Newtonsoft::Json::ReferenceLoopHandling> __declspec(property(get=__get__itemReferenceLoopHandling, put=__set__itemReferenceLoopHandling))  _itemReferenceLoopHandling;
 
-constexpr void __set__itemReferenceLoopHandling(::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> value) ;
+constexpr void __set__itemReferenceLoopHandling(System::Nullable_1<Newtonsoft::Json::ReferenceLoopHandling> value) ;
 
-constexpr ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> __get__itemReferenceLoopHandling() const;
+constexpr System::Nullable_1<Newtonsoft::Json::ReferenceLoopHandling> __get__itemReferenceLoopHandling() const;
 
- ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> __declspec(property(get=__get__itemTypeNameHandling, put=__set__itemTypeNameHandling))  _itemTypeNameHandling;
+ System::Nullable_1<Newtonsoft::Json::TypeNameHandling> __declspec(property(get=__get__itemTypeNameHandling, put=__set__itemTypeNameHandling))  _itemTypeNameHandling;
 
-constexpr void __set__itemTypeNameHandling(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> value) ;
+constexpr void __set__itemTypeNameHandling(System::Nullable_1<Newtonsoft::Json::TypeNameHandling> value) ;
 
-constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> __get__itemTypeNameHandling() const;
+constexpr System::Nullable_1<Newtonsoft::Json::TypeNameHandling> __get__itemTypeNameHandling() const;
 
 
 // Properties
@@ -127,7 +126,7 @@ constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> __get__item
 
  ::StringW __declspec(property(get=get_Description, put=set_Description))  Description;
 
- ::System::Type __declspec(property(get=get_ItemConverterType, put=set_ItemConverterType))  ItemConverterType;
+ System::Type __declspec(property(get=get_ItemConverterType, put=set_ItemConverterType))  ItemConverterType;
 
  ::ArrayW<::bs_hook::Il2CppWrapperType> __declspec(property(get=get_ItemConverterParameters, put=set_ItemConverterParameters))  ItemConverterParameters;
 
@@ -135,9 +134,9 @@ constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> __get__item
 
  bool __declspec(property(get=get_ItemIsReference, put=set_ItemIsReference))  ItemIsReference;
 
- ::Newtonsoft::Json::ReferenceLoopHandling __declspec(property(get=get_ItemReferenceLoopHandling, put=set_ItemReferenceLoopHandling))  ItemReferenceLoopHandling;
+ Newtonsoft::Json::ReferenceLoopHandling __declspec(property(get=get_ItemReferenceLoopHandling, put=set_ItemReferenceLoopHandling))  ItemReferenceLoopHandling;
 
- ::Newtonsoft::Json::TypeNameHandling __declspec(property(get=get_ItemTypeNameHandling, put=set_ItemTypeNameHandling))  ItemTypeNameHandling;
+ Newtonsoft::Json::TypeNameHandling __declspec(property(get=get_ItemTypeNameHandling, put=set_ItemTypeNameHandling))  ItemTypeNameHandling;
 
 
 // Methods
@@ -161,10 +160,10 @@ constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> __get__item
  void set_Description(::StringW value) ;
 
 /// @brief Method get_ItemConverterType addr 0x24c8014 size 0x8 virtual false final false
- ::System::Type get_ItemConverterType() ;
+ System::Type get_ItemConverterType() ;
 
 /// @brief Method set_ItemConverterType addr 0x24c801c size 0x8 virtual false final false
- void set_ItemConverterType(::System::Type value) ;
+ void set_ItemConverterType(System::Type value) ;
 
 /// @brief Method get_ItemConverterParameters addr 0x24c8024 size 0x8 virtual false final false
  ::ArrayW<::bs_hook::Il2CppWrapperType> get_ItemConverterParameters() ;
@@ -185,16 +184,16 @@ constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> __get__item
  void set_ItemIsReference(bool value) ;
 
 /// @brief Method get_ItemReferenceLoopHandling addr 0x24c81bc size 0x50 virtual false final false
- ::Newtonsoft::Json::ReferenceLoopHandling get_ItemReferenceLoopHandling() ;
+ Newtonsoft::Json::ReferenceLoopHandling get_ItemReferenceLoopHandling() ;
 
 /// @brief Method set_ItemReferenceLoopHandling addr 0x24c820c size 0x68 virtual false final false
- void set_ItemReferenceLoopHandling(::Newtonsoft::Json::ReferenceLoopHandling value) ;
+ void set_ItemReferenceLoopHandling(Newtonsoft::Json::ReferenceLoopHandling value) ;
 
 /// @brief Method get_ItemTypeNameHandling addr 0x24c8274 size 0x50 virtual false final false
- ::Newtonsoft::Json::TypeNameHandling get_ItemTypeNameHandling() ;
+ Newtonsoft::Json::TypeNameHandling get_ItemTypeNameHandling() ;
 
 /// @brief Method set_ItemTypeNameHandling addr 0x24c82c4 size 0x68 virtual false final false
- void set_ItemTypeNameHandling(::Newtonsoft::Json::TypeNameHandling value) ;
+ void set_ItemTypeNameHandling(Newtonsoft::Json::TypeNameHandling value) ;
 
 // Ctor Parameters []
 explicit JsonContainerAttribute() ;
@@ -212,6 +211,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::JsonContainerAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonContainerAttribute, "Newtonsoft.Json", "JsonContainerAttribute");
+NEED_NO_BOX(Newtonsoft::Json::JsonContainerAttribute);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::JsonContainerAttribute, "Newtonsoft.Json", "JsonContainerAttribute");

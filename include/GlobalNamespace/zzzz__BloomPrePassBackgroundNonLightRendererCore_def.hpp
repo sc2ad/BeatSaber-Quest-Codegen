@@ -2,21 +2,20 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassNonLightPass_def.hpp"
 #include <cstdint>
-namespace {
+namespace UnityEngine {
+class Renderer;
+}
 namespace UnityEngine {
 class Material;
-}
-namespace UnityEngine::Rendering {
-class CommandBuffer;
 }
 namespace UnityEngine {
 struct Matrix4x4;
 }
 namespace UnityEngine {
-class Renderer;
-}
-namespace UnityEngine {
 class RenderTexture;
+}
+namespace UnityEngine::Rendering {
+class CommandBuffer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,7 +27,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14639))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14626))
 // CS Name: BloomPrePassBackgroundNonLightRendererCore
-class CORDL_TYPE BloomPrePassBackgroundNonLightRendererCore : public ::GlobalNamespace::BloomPrePassNonLightPass {
+class CORDL_TYPE BloomPrePassBackgroundNonLightRendererCore : public GlobalNamespace::BloomPrePassNonLightPass {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -43,7 +42,7 @@ constexpr BloomPrePassBackgroundNonLightRendererCore(BloomPrePassBackgroundNonLi
 constexpr BloomPrePassBackgroundNonLightRendererCore(BloomPrePassBackgroundNonLightRendererCore&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BloomPrePassBackgroundNonLightRendererCore(void* ptr) noexcept : ::GlobalNamespace::BloomPrePassNonLightPass(ptr) {
+constexpr explicit BloomPrePassBackgroundNonLightRendererCore(void* ptr) noexcept : GlobalNamespace::BloomPrePassNonLightPass(ptr) {
 }
 
 
@@ -76,11 +75,11 @@ constexpr void __set__useCustomMaterial(bool value) ;
 
 constexpr bool __get__useCustomMaterial() const;
 
- ::UnityEngine::Material __declspec(property(get=__get__customMaterial, put=__set__customMaterial))  _customMaterial;
+ UnityEngine::Material __declspec(property(get=__get__customMaterial, put=__set__customMaterial))  _customMaterial;
 
-constexpr void __set__customMaterial(::UnityEngine::Material value) ;
+constexpr void __set__customMaterial(UnityEngine::Material value) ;
 
-constexpr ::UnityEngine::Material __get__customMaterial() const;
+constexpr UnityEngine::Material __get__customMaterial() const;
 
 static int32_t __declspec(property(get=__get__worldSpaceCameraPosID, put=__set__worldSpaceCameraPosID))  _worldSpaceCameraPosID;
 
@@ -88,32 +87,32 @@ static void __set__worldSpaceCameraPosID(int32_t value) ;
 
 static int32_t __get__worldSpaceCameraPosID() ;
 
- ::UnityEngine::Rendering::CommandBuffer __declspec(property(get=__get__commandBuffer, put=__set__commandBuffer))  _commandBuffer;
+ UnityEngine::Rendering::CommandBuffer __declspec(property(get=__get__commandBuffer, put=__set__commandBuffer))  _commandBuffer;
 
-constexpr void __set__commandBuffer(::UnityEngine::Rendering::CommandBuffer value) ;
+constexpr void __set__commandBuffer(UnityEngine::Rendering::CommandBuffer value) ;
 
-constexpr ::UnityEngine::Rendering::CommandBuffer __get__commandBuffer() const;
+constexpr UnityEngine::Rendering::CommandBuffer __get__commandBuffer() const;
 
 
 // Properties
 
- ::UnityEngine::Renderer __declspec(property(get=get_renderer))  renderer;
+ UnityEngine::Renderer __declspec(property(get=get_renderer))  renderer;
 
  bool __declspec(property(get=get_useCustomMaterial))  useCustomMaterial;
 
- ::UnityEngine::Material __declspec(property(get=get_customMaterial))  customMaterial;
+ UnityEngine::Material __declspec(property(get=get_customMaterial))  customMaterial;
 
 
 // Methods
 
 /// @brief Method get_renderer addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Renderer get_renderer() ;
+ UnityEngine::Renderer get_renderer() ;
 
 /// @brief Method get_useCustomMaterial addr 0x1f93bbc size 0x8 virtual false final false
  bool get_useCustomMaterial() ;
 
 /// @brief Method get_customMaterial addr 0x1f93bc4 size 0x8 virtual false final false
- ::UnityEngine::Material get_customMaterial() ;
+ UnityEngine::Material get_customMaterial() ;
 
 /// @brief Method InitIfNeeded addr 0x1f93a5c size 0xb4 virtual true final false
  void InitIfNeeded() ;
@@ -122,7 +121,7 @@ constexpr ::UnityEngine::Rendering::CommandBuffer __get__commandBuffer() const;
  void Awake() ;
 
 /// @brief Method Render addr 0x1f93bcc size 0x238 virtual true final false
- void Render(::UnityEngine::RenderTexture dest, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix) ;
+ void Render(UnityEngine::RenderTexture dest, UnityEngine::Matrix4x4 viewMatrix, UnityEngine::Matrix4x4 projectionMatrix) ;
 
 // Ctor Parameters []
 explicit BloomPrePassBackgroundNonLightRendererCore() ;
@@ -134,6 +133,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore, "", "BloomPrePassBackgroundNonLightRendererCore");
+NEED_NO_BOX(GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore, "", "BloomPrePassBackgroundNonLightRendererCore");

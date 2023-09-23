@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBadgeDataMinMaxFloatSO_def.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
 class MultiplayerPlayerResultsData;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5203))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5202))
 // CS Name: MultiplayerBadgeDataHandMovementSO
-class CORDL_TYPE MultiplayerBadgeDataHandMovementSO : public ::GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO {
+class CORDL_TYPE MultiplayerBadgeDataHandMovementSO : public GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr MultiplayerBadgeDataHandMovementSO(MultiplayerBadgeDataHandMovementSO 
 constexpr MultiplayerBadgeDataHandMovementSO(MultiplayerBadgeDataHandMovementSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerBadgeDataHandMovementSO(void* ptr) noexcept : ::GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO(ptr) {
+constexpr explicit MultiplayerBadgeDataHandMovementSO(void* ptr) noexcept : GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO(ptr) {
 }
 
 
@@ -53,7 +52,7 @@ constexpr explicit MultiplayerBadgeDataHandMovementSO(void* ptr) noexcept : ::Gl
 // Methods
 
 /// @brief Method GetValue addr 0x20d8684 size 0x2c virtual true final false
- float_t GetValue(::GlobalNamespace::MultiplayerPlayerResultsData result) ;
+ float_t GetValue(GlobalNamespace::MultiplayerPlayerResultsData result) ;
 
 // Ctor Parameters []
 explicit MultiplayerBadgeDataHandMovementSO() ;
@@ -65,6 +64,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerBadgeDataHandMovementSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerBadgeDataHandMovementSO, "", "MultiplayerBadgeDataHandMovementSO");
+NEED_NO_BOX(GlobalNamespace::MultiplayerBadgeDataHandMovementSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerBadgeDataHandMovementSO, "", "MultiplayerBadgeDataHandMovementSO");

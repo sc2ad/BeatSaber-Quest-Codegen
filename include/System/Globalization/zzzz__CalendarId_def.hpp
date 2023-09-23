@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Globalization {
 struct CalendarId;
@@ -90,83 +89,82 @@ constexpr void __set_value__(uint16_t value) ;
 constexpr uint16_t __get_value__() const;
 
 /// @brief Field UNINITIALIZED_VALUE offset 0
-static ::System::Globalization::CalendarId const UNINITIALIZED_VALUE;
+static System::Globalization::CalendarId const UNINITIALIZED_VALUE;
 
 /// @brief Field GREGORIAN offset 0
-static ::System::Globalization::CalendarId const GREGORIAN;
+static System::Globalization::CalendarId const GREGORIAN;
 
 /// @brief Field GREGORIAN_US offset 0
-static ::System::Globalization::CalendarId const GREGORIAN_US;
+static System::Globalization::CalendarId const GREGORIAN_US;
 
 /// @brief Field JAPAN offset 0
-static ::System::Globalization::CalendarId const JAPAN;
+static System::Globalization::CalendarId const JAPAN;
 
 /// @brief Field TAIWAN offset 0
-static ::System::Globalization::CalendarId const TAIWAN;
+static System::Globalization::CalendarId const TAIWAN;
 
 /// @brief Field KOREA offset 0
-static ::System::Globalization::CalendarId const KOREA;
+static System::Globalization::CalendarId const KOREA;
 
 /// @brief Field HIJRI offset 0
-static ::System::Globalization::CalendarId const HIJRI;
+static System::Globalization::CalendarId const HIJRI;
 
 /// @brief Field THAI offset 0
-static ::System::Globalization::CalendarId const THAI;
+static System::Globalization::CalendarId const THAI;
 
 /// @brief Field HEBREW offset 0
-static ::System::Globalization::CalendarId const HEBREW;
+static System::Globalization::CalendarId const HEBREW;
 
 /// @brief Field GREGORIAN_ME_FRENCH offset 0
-static ::System::Globalization::CalendarId const GREGORIAN_ME_FRENCH;
+static System::Globalization::CalendarId const GREGORIAN_ME_FRENCH;
 
 /// @brief Field GREGORIAN_ARABIC offset 0
-static ::System::Globalization::CalendarId const GREGORIAN_ARABIC;
+static System::Globalization::CalendarId const GREGORIAN_ARABIC;
 
 /// @brief Field GREGORIAN_XLIT_ENGLISH offset 0
-static ::System::Globalization::CalendarId const GREGORIAN_XLIT_ENGLISH;
+static System::Globalization::CalendarId const GREGORIAN_XLIT_ENGLISH;
 
 /// @brief Field GREGORIAN_XLIT_FRENCH offset 0
-static ::System::Globalization::CalendarId const GREGORIAN_XLIT_FRENCH;
+static System::Globalization::CalendarId const GREGORIAN_XLIT_FRENCH;
 
 /// @brief Field JULIAN offset 0
-static ::System::Globalization::CalendarId const JULIAN;
+static System::Globalization::CalendarId const JULIAN;
 
 /// @brief Field JAPANESELUNISOLAR offset 0
-static ::System::Globalization::CalendarId const JAPANESELUNISOLAR;
+static System::Globalization::CalendarId const JAPANESELUNISOLAR;
 
 /// @brief Field CHINESELUNISOLAR offset 0
-static ::System::Globalization::CalendarId const CHINESELUNISOLAR;
+static System::Globalization::CalendarId const CHINESELUNISOLAR;
 
 /// @brief Field SAKA offset 0
-static ::System::Globalization::CalendarId const SAKA;
+static System::Globalization::CalendarId const SAKA;
 
 /// @brief Field LUNAR_ETO_CHN offset 0
-static ::System::Globalization::CalendarId const LUNAR_ETO_CHN;
+static System::Globalization::CalendarId const LUNAR_ETO_CHN;
 
 /// @brief Field LUNAR_ETO_KOR offset 0
-static ::System::Globalization::CalendarId const LUNAR_ETO_KOR;
+static System::Globalization::CalendarId const LUNAR_ETO_KOR;
 
 /// @brief Field LUNAR_ETO_ROKUYOU offset 0
-static ::System::Globalization::CalendarId const LUNAR_ETO_ROKUYOU;
+static System::Globalization::CalendarId const LUNAR_ETO_ROKUYOU;
 
 /// @brief Field KOREANLUNISOLAR offset 0
-static ::System::Globalization::CalendarId const KOREANLUNISOLAR;
+static System::Globalization::CalendarId const KOREANLUNISOLAR;
 
 /// @brief Field TAIWANLUNISOLAR offset 0
-static ::System::Globalization::CalendarId const TAIWANLUNISOLAR;
+static System::Globalization::CalendarId const TAIWANLUNISOLAR;
 
 /// @brief Field PERSIAN offset 0
-static ::System::Globalization::CalendarId const PERSIAN;
+static System::Globalization::CalendarId const PERSIAN;
 
 /// @brief Field UMALQURA offset 0
-static ::System::Globalization::CalendarId const UMALQURA;
+static System::Globalization::CalendarId const UMALQURA;
 
 /// @brief Field LAST_CALENDAR offset 0
-static ::System::Globalization::CalendarId const LAST_CALENDAR;
+static System::Globalization::CalendarId const LAST_CALENDAR;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Globalization
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::CalendarId, "System.Globalization", "CalendarId");
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CalendarId, "System.Globalization", "CalendarId");

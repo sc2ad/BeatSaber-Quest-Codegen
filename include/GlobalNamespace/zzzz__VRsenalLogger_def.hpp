@@ -2,7 +2,9 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace Zenject {
+class DiContainer;
+}
 namespace GlobalNamespace {
 class StringSignal;
 }
@@ -11,9 +13,6 @@ class GameScenesManager;
 }
 namespace GlobalNamespace {
 class ScenesTransitionSetupDataSO;
-}
-namespace Zenject {
-class DiContainer;
 }
 namespace GlobalNamespace {
 class VRsenalScoreLogger;
@@ -28,7 +27,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3996))
 // CS Name: VRsenalLogger
-class CORDL_TYPE VRsenalLogger : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE VRsenalLogger : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -43,7 +42,7 @@ constexpr VRsenalLogger(VRsenalLogger const& ) noexcept = default;
 constexpr VRsenalLogger(VRsenalLogger&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit VRsenalLogger(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit VRsenalLogger(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -64,35 +63,35 @@ constexpr explicit VRsenalLogger(void* ptr) noexcept : ::UnityEngine::MonoBehavi
 
 // Fields
 
- ::GlobalNamespace::ScenesTransitionSetupDataSO __declspec(property(get=__get__standardLevelScenesTransitionSetupData, put=__set__standardLevelScenesTransitionSetupData))  _standardLevelScenesTransitionSetupData;
+ GlobalNamespace::ScenesTransitionSetupDataSO __declspec(property(get=__get__standardLevelScenesTransitionSetupData, put=__set__standardLevelScenesTransitionSetupData))  _standardLevelScenesTransitionSetupData;
 
-constexpr void __set__standardLevelScenesTransitionSetupData(::GlobalNamespace::ScenesTransitionSetupDataSO value) ;
+constexpr void __set__standardLevelScenesTransitionSetupData(GlobalNamespace::ScenesTransitionSetupDataSO value) ;
 
-constexpr ::GlobalNamespace::ScenesTransitionSetupDataSO __get__standardLevelScenesTransitionSetupData() const;
+constexpr GlobalNamespace::ScenesTransitionSetupDataSO __get__standardLevelScenesTransitionSetupData() const;
 
- ::GlobalNamespace::ScenesTransitionSetupDataSO __declspec(property(get=__get__tutorialScenesTransitionSetupData, put=__set__tutorialScenesTransitionSetupData))  _tutorialScenesTransitionSetupData;
+ GlobalNamespace::ScenesTransitionSetupDataSO __declspec(property(get=__get__tutorialScenesTransitionSetupData, put=__set__tutorialScenesTransitionSetupData))  _tutorialScenesTransitionSetupData;
 
-constexpr void __set__tutorialScenesTransitionSetupData(::GlobalNamespace::ScenesTransitionSetupDataSO value) ;
+constexpr void __set__tutorialScenesTransitionSetupData(GlobalNamespace::ScenesTransitionSetupDataSO value) ;
 
-constexpr ::GlobalNamespace::ScenesTransitionSetupDataSO __get__tutorialScenesTransitionSetupData() const;
+constexpr GlobalNamespace::ScenesTransitionSetupDataSO __get__tutorialScenesTransitionSetupData() const;
 
- ::GlobalNamespace::StringSignal __declspec(property(get=__get__playerNameWasEnteredSignal, put=__set__playerNameWasEnteredSignal))  _playerNameWasEnteredSignal;
+ GlobalNamespace::StringSignal __declspec(property(get=__get__playerNameWasEnteredSignal, put=__set__playerNameWasEnteredSignal))  _playerNameWasEnteredSignal;
 
-constexpr void __set__playerNameWasEnteredSignal(::GlobalNamespace::StringSignal value) ;
+constexpr void __set__playerNameWasEnteredSignal(GlobalNamespace::StringSignal value) ;
 
-constexpr ::GlobalNamespace::StringSignal __get__playerNameWasEnteredSignal() const;
+constexpr GlobalNamespace::StringSignal __get__playerNameWasEnteredSignal() const;
 
- ::GlobalNamespace::VRsenalScoreLogger __declspec(property(get=__get__vRsenalScoreLoggerPrefab, put=__set__vRsenalScoreLoggerPrefab))  _vRsenalScoreLoggerPrefab;
+ GlobalNamespace::VRsenalScoreLogger __declspec(property(get=__get__vRsenalScoreLoggerPrefab, put=__set__vRsenalScoreLoggerPrefab))  _vRsenalScoreLoggerPrefab;
 
-constexpr void __set__vRsenalScoreLoggerPrefab(::GlobalNamespace::VRsenalScoreLogger value) ;
+constexpr void __set__vRsenalScoreLoggerPrefab(GlobalNamespace::VRsenalScoreLogger value) ;
 
-constexpr ::GlobalNamespace::VRsenalScoreLogger __get__vRsenalScoreLoggerPrefab() const;
+constexpr GlobalNamespace::VRsenalScoreLogger __get__vRsenalScoreLoggerPrefab() const;
 
- ::GlobalNamespace::GameScenesManager __declspec(property(get=__get__gameScenesManager, put=__set__gameScenesManager))  _gameScenesManager;
+ GlobalNamespace::GameScenesManager __declspec(property(get=__get__gameScenesManager, put=__set__gameScenesManager))  _gameScenesManager;
 
-constexpr void __set__gameScenesManager(::GlobalNamespace::GameScenesManager value) ;
+constexpr void __set__gameScenesManager(GlobalNamespace::GameScenesManager value) ;
 
-constexpr ::GlobalNamespace::GameScenesManager __get__gameScenesManager() const;
+constexpr GlobalNamespace::GameScenesManager __get__gameScenesManager() const;
 
 
 // Methods
@@ -104,7 +103,7 @@ constexpr ::GlobalNamespace::GameScenesManager __get__gameScenesManager() const;
  void OnDestroy() ;
 
 /// @brief Method HandleGameScenesManagerInstallEarlyBindings addr 0x20afe38 size 0x14c virtual false final false
- void HandleGameScenesManagerInstallEarlyBindings(::GlobalNamespace::ScenesTransitionSetupDataSO scenesTransitionSetupData, ::Zenject::DiContainer container) ;
+ void HandleGameScenesManagerInstallEarlyBindings(GlobalNamespace::ScenesTransitionSetupDataSO scenesTransitionSetupData, Zenject::DiContainer container) ;
 
 /// @brief Method HandlePlayerNameWasEntered addr 0x20aff84 size 0x8c virtual false final false
  void HandlePlayerNameWasEntered(::StringW playerName) ;
@@ -119,6 +118,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::VRsenalLogger);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::VRsenalLogger, "", "VRsenalLogger");
+NEED_NO_BOX(GlobalNamespace::VRsenalLogger);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRsenalLogger, "", "VRsenalLogger");

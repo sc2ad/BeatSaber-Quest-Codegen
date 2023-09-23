@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
 struct FontStyles;
@@ -76,41 +75,40 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Normal offset 0
-static ::UnityEngine::TextCore::Text::FontStyles const Normal;
+static UnityEngine::TextCore::Text::FontStyles const Normal;
 
 /// @brief Field Bold offset 0
-static ::UnityEngine::TextCore::Text::FontStyles const Bold;
+static UnityEngine::TextCore::Text::FontStyles const Bold;
 
 /// @brief Field Italic offset 0
-static ::UnityEngine::TextCore::Text::FontStyles const Italic;
+static UnityEngine::TextCore::Text::FontStyles const Italic;
 
 /// @brief Field Underline offset 0
-static ::UnityEngine::TextCore::Text::FontStyles const Underline;
+static UnityEngine::TextCore::Text::FontStyles const Underline;
 
 /// @brief Field LowerCase offset 0
-static ::UnityEngine::TextCore::Text::FontStyles const LowerCase;
+static UnityEngine::TextCore::Text::FontStyles const LowerCase;
 
 /// @brief Field UpperCase offset 0
-static ::UnityEngine::TextCore::Text::FontStyles const UpperCase;
+static UnityEngine::TextCore::Text::FontStyles const UpperCase;
 
 /// @brief Field SmallCaps offset 0
-static ::UnityEngine::TextCore::Text::FontStyles const SmallCaps;
+static UnityEngine::TextCore::Text::FontStyles const SmallCaps;
 
 /// @brief Field Strikethrough offset 0
-static ::UnityEngine::TextCore::Text::FontStyles const Strikethrough;
+static UnityEngine::TextCore::Text::FontStyles const Strikethrough;
 
 /// @brief Field Superscript offset 0
-static ::UnityEngine::TextCore::Text::FontStyles const Superscript;
+static UnityEngine::TextCore::Text::FontStyles const Superscript;
 
 /// @brief Field Subscript offset 0
-static ::UnityEngine::TextCore::Text::FontStyles const Subscript;
+static UnityEngine::TextCore::Text::FontStyles const Subscript;
 
 /// @brief Field Highlight offset 0
-static ::UnityEngine::TextCore::Text::FontStyles const Highlight;
+static UnityEngine::TextCore::Text::FontStyles const Highlight;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::Text
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::FontStyles, "UnityEngine.TextCore.Text", "FontStyles");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Text::FontStyles, "UnityEngine.TextCore.Text", "FontStyles");

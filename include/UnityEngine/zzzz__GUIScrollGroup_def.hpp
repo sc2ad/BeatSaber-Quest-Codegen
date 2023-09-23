@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__GUILayoutGroup_def.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 class GUIStyle;
 }
@@ -16,7 +15,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14782))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14783))
 // CS Name: UnityEngine.GUIScrollGroup
-class CORDL_TYPE GUIScrollGroup : public ::UnityEngine::GUILayoutGroup {
+class CORDL_TYPE GUIScrollGroup : public UnityEngine::GUILayoutGroup {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr GUIScrollGroup(GUIScrollGroup const& ) noexcept = default;
 constexpr GUIScrollGroup(GUIScrollGroup&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GUIScrollGroup(void* ptr) noexcept : ::UnityEngine::GUILayoutGroup(ptr) {
+constexpr explicit GUIScrollGroup(void* ptr) noexcept : UnityEngine::GUILayoutGroup(ptr) {
 }
 
 
@@ -112,17 +111,17 @@ constexpr void __set_needsVerticalScrollbar(bool value) ;
 
 constexpr bool __get_needsVerticalScrollbar() const;
 
- ::UnityEngine::GUIStyle __declspec(property(get=__get_horizontalScrollbar, put=__set_horizontalScrollbar))  horizontalScrollbar;
+ UnityEngine::GUIStyle __declspec(property(get=__get_horizontalScrollbar, put=__set_horizontalScrollbar))  horizontalScrollbar;
 
-constexpr void __set_horizontalScrollbar(::UnityEngine::GUIStyle value) ;
+constexpr void __set_horizontalScrollbar(UnityEngine::GUIStyle value) ;
 
-constexpr ::UnityEngine::GUIStyle __get_horizontalScrollbar() const;
+constexpr UnityEngine::GUIStyle __get_horizontalScrollbar() const;
 
- ::UnityEngine::GUIStyle __declspec(property(get=__get_verticalScrollbar, put=__set_verticalScrollbar))  verticalScrollbar;
+ UnityEngine::GUIStyle __declspec(property(get=__get_verticalScrollbar, put=__set_verticalScrollbar))  verticalScrollbar;
 
-constexpr void __set_verticalScrollbar(::UnityEngine::GUIStyle value) ;
+constexpr void __set_verticalScrollbar(UnityEngine::GUIStyle value) ;
 
-constexpr ::UnityEngine::GUIStyle __get_verticalScrollbar() const;
+constexpr UnityEngine::GUIStyle __get_verticalScrollbar() const;
 
 
 // Methods
@@ -149,6 +148,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::GUIScrollGroup);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::GUIScrollGroup, "UnityEngine", "GUIScrollGroup");
+NEED_NO_BOX(UnityEngine::GUIScrollGroup);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIScrollGroup, "UnityEngine", "GUIScrollGroup");

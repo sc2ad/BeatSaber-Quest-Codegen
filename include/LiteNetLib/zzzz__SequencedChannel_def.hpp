@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "LiteNetLib/zzzz__BaseChannel_def.hpp"
 #include <cstdint>
-namespace {
 namespace LiteNetLib {
 class NetPacket;
 }
@@ -19,7 +18,7 @@ namespace LiteNetLib {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14408))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14467))
 // CS Name: LiteNetLib.SequencedChannel
-class CORDL_TYPE SequencedChannel : public ::LiteNetLib::BaseChannel {
+class CORDL_TYPE SequencedChannel : public LiteNetLib::BaseChannel {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr SequencedChannel(SequencedChannel const& ) noexcept = default;
 constexpr SequencedChannel(SequencedChannel&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SequencedChannel(void* ptr) noexcept : ::LiteNetLib::BaseChannel(ptr) {
+constexpr explicit SequencedChannel(void* ptr) noexcept : LiteNetLib::BaseChannel(ptr) {
 }
 
 
@@ -73,17 +72,17 @@ constexpr void __set__reliable(bool value) ;
 
 constexpr bool __get__reliable() const;
 
- ::LiteNetLib::NetPacket __declspec(property(get=__get__lastPacket, put=__set__lastPacket))  _lastPacket;
+ LiteNetLib::NetPacket __declspec(property(get=__get__lastPacket, put=__set__lastPacket))  _lastPacket;
 
-constexpr void __set__lastPacket(::LiteNetLib::NetPacket value) ;
+constexpr void __set__lastPacket(LiteNetLib::NetPacket value) ;
 
-constexpr ::LiteNetLib::NetPacket __get__lastPacket() const;
+constexpr LiteNetLib::NetPacket __get__lastPacket() const;
 
- ::LiteNetLib::NetPacket __declspec(property(get=__get__ackPacket, put=__set__ackPacket))  _ackPacket;
+ LiteNetLib::NetPacket __declspec(property(get=__get__ackPacket, put=__set__ackPacket))  _ackPacket;
 
-constexpr void __set__ackPacket(::LiteNetLib::NetPacket value) ;
+constexpr void __set__ackPacket(LiteNetLib::NetPacket value) ;
 
-constexpr ::LiteNetLib::NetPacket __get__ackPacket() const;
+constexpr LiteNetLib::NetPacket __get__ackPacket() const;
 
  bool __declspec(property(get=__get__mustSendAck, put=__set__mustSendAck))  _mustSendAck;
 
@@ -106,22 +105,21 @@ constexpr int64_t __get__lastPacketSendTime() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "peer", ty: "::LiteNetLib::NetPeer", modifiers: "", def_value: None }, CppParam { name: "reliable", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "id", ty: "uint8_t", modifiers: "", def_value: None }]
-explicit SequencedChannel(::LiteNetLib::NetPeer peer, bool reliable, uint8_t id) ;
+// Ctor Parameters [CppParam { name: "peer", ty: "LiteNetLib::NetPeer", modifiers: "", def_value: None }, CppParam { name: "reliable", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "id", ty: "uint8_t", modifiers: "", def_value: None }]
+explicit SequencedChannel(LiteNetLib::NetPeer peer, bool reliable, uint8_t id) ;
 
 /// @brief Method .ctor addr 0x20900c8 size 0xa8 virtual false final false
- void _ctor(::LiteNetLib::NetPeer peer, bool reliable, uint8_t id) ;
+ void _ctor(LiteNetLib::NetPeer peer, bool reliable, uint8_t id) ;
 
 /// @brief Method SendNextPackets addr 0x209444c size 0x308 virtual true final false
  void SendNextPackets() ;
 
 /// @brief Method ProcessPacket addr 0x2094754 size 0x1d0 virtual true final false
- bool ProcessPacket(::LiteNetLib::NetPacket packet) ;
+ bool ProcessPacket(LiteNetLib::NetPacket packet) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib
-} // end anonymous namespace
-NEED_NO_BOX(::LiteNetLib::SequencedChannel);
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::SequencedChannel, "LiteNetLib", "SequencedChannel");
+NEED_NO_BOX(LiteNetLib::SequencedChannel);
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::SequencedChannel, "LiteNetLib", "SequencedChannel");

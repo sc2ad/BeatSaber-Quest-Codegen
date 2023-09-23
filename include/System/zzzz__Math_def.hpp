@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace System {
 struct MidpointRounding;
 }
@@ -122,7 +121,7 @@ static uint32_t Min(uint32_t val1, uint32_t val2) ;
 static double_t Round(double_t a) ;
 
 /// @brief Method Round addr 0x2441860 size 0x2ac virtual false final false
-static double_t Round(double_t value, int32_t digits, ::System::MidpointRounding mode) ;
+static double_t Round(double_t value, int32_t digits, System::MidpointRounding mode) ;
 
 /// @brief Method Sign addr 0x2441b10 size 0x7c virtual false final false
 static int32_t Sign(double_t value) ;
@@ -186,6 +185,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::Math);
-DEFINE_IL2CPP_ARG_TYPE(::System::Math, "System", "Math");
+NEED_NO_BOX(System::Math);
+DEFINE_IL2CPP_ARG_TYPE(System::Math, "System", "Math");

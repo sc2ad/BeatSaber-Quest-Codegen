@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 class IAudioTimeSource;
 }
-namespace System::Text {
-class StringBuilder;
+namespace UnityEngine {
+class RectTransform;
 }
 namespace TMPro {
 class TextMeshProUGUI;
@@ -18,8 +17,8 @@ class Slider;
 namespace UnityEngine::UI {
 class Image;
 }
-namespace UnityEngine {
-class RectTransform;
+namespace System::Text {
+class StringBuilder;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -31,7 +30,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5148))
 // CS Name: SongProgressUIController
-class CORDL_TYPE SongProgressUIController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SongProgressUIController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -46,7 +45,7 @@ constexpr SongProgressUIController(SongProgressUIController const& ) noexcept = 
 constexpr SongProgressUIController(SongProgressUIController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SongProgressUIController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SongProgressUIController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -67,47 +66,47 @@ constexpr explicit SongProgressUIController(void* ptr) noexcept : ::UnityEngine:
 
 // Fields
 
- ::UnityEngine::UI::Slider __declspec(property(get=__get__slider, put=__set__slider))  _slider;
+ UnityEngine::UI::Slider __declspec(property(get=__get__slider, put=__set__slider))  _slider;
 
-constexpr void __set__slider(::UnityEngine::UI::Slider value) ;
+constexpr void __set__slider(UnityEngine::UI::Slider value) ;
 
-constexpr ::UnityEngine::UI::Slider __get__slider() const;
+constexpr UnityEngine::UI::Slider __get__slider() const;
 
- ::UnityEngine::UI::Image __declspec(property(get=__get__progressImage, put=__set__progressImage))  _progressImage;
+ UnityEngine::UI::Image __declspec(property(get=__get__progressImage, put=__set__progressImage))  _progressImage;
 
-constexpr void __set__progressImage(::UnityEngine::UI::Image value) ;
+constexpr void __set__progressImage(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get__progressImage() const;
+constexpr UnityEngine::UI::Image __get__progressImage() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__durationMinutesText, put=__set__durationMinutesText))  _durationMinutesText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__durationMinutesText, put=__set__durationMinutesText))  _durationMinutesText;
 
-constexpr void __set__durationMinutesText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__durationMinutesText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__durationMinutesText() const;
+constexpr TMPro::TextMeshProUGUI __get__durationMinutesText() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__durationSecondsText, put=__set__durationSecondsText))  _durationSecondsText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__durationSecondsText, put=__set__durationSecondsText))  _durationSecondsText;
 
-constexpr void __set__durationSecondsText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__durationSecondsText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__durationSecondsText() const;
+constexpr TMPro::TextMeshProUGUI __get__durationSecondsText() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__progressMinutesText, put=__set__progressMinutesText))  _progressMinutesText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__progressMinutesText, put=__set__progressMinutesText))  _progressMinutesText;
 
-constexpr void __set__progressMinutesText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__progressMinutesText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__progressMinutesText() const;
+constexpr TMPro::TextMeshProUGUI __get__progressMinutesText() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__progressSecondsText, put=__set__progressSecondsText))  _progressSecondsText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__progressSecondsText, put=__set__progressSecondsText))  _progressSecondsText;
 
-constexpr void __set__progressSecondsText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__progressSecondsText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__progressSecondsText() const;
+constexpr TMPro::TextMeshProUGUI __get__progressSecondsText() const;
 
- ::GlobalNamespace::IAudioTimeSource __declspec(property(get=__get__audioTimeSource, put=__set__audioTimeSource))  _audioTimeSource;
+ GlobalNamespace::IAudioTimeSource __declspec(property(get=__get__audioTimeSource, put=__set__audioTimeSource))  _audioTimeSource;
 
-constexpr void __set__audioTimeSource(::GlobalNamespace::IAudioTimeSource value) ;
+constexpr void __set__audioTimeSource(GlobalNamespace::IAudioTimeSource value) ;
 
-constexpr ::GlobalNamespace::IAudioTimeSource __get__audioTimeSource() const;
+constexpr GlobalNamespace::IAudioTimeSource __get__audioTimeSource() const;
 
  int32_t __declspec(property(get=__get__prevMinutes, put=__set__prevMinutes))  _prevMinutes;
 
@@ -121,17 +120,17 @@ constexpr void __set__prevSeconds(int32_t value) ;
 
 constexpr int32_t __get__prevSeconds() const;
 
- ::System::Text::StringBuilder __declspec(property(get=__get__stringBuilder, put=__set__stringBuilder))  _stringBuilder;
+ System::Text::StringBuilder __declspec(property(get=__get__stringBuilder, put=__set__stringBuilder))  _stringBuilder;
 
-constexpr void __set__stringBuilder(::System::Text::StringBuilder value) ;
+constexpr void __set__stringBuilder(System::Text::StringBuilder value) ;
 
-constexpr ::System::Text::StringBuilder __get__stringBuilder() const;
+constexpr System::Text::StringBuilder __get__stringBuilder() const;
 
- ::UnityEngine::RectTransform __declspec(property(get=__get__progressImageRectTransform, put=__set__progressImageRectTransform))  _progressImageRectTransform;
+ UnityEngine::RectTransform __declspec(property(get=__get__progressImageRectTransform, put=__set__progressImageRectTransform))  _progressImageRectTransform;
 
-constexpr void __set__progressImageRectTransform(::UnityEngine::RectTransform value) ;
+constexpr void __set__progressImageRectTransform(UnityEngine::RectTransform value) ;
 
-constexpr ::UnityEngine::RectTransform __get__progressImageRectTransform() const;
+constexpr UnityEngine::RectTransform __get__progressImageRectTransform() const;
 
 
 // Methods
@@ -152,6 +151,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SongProgressUIController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SongProgressUIController, "", "SongProgressUIController");
+NEED_NO_BOX(GlobalNamespace::SongProgressUIController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongProgressUIController, "", "SongProgressUIController");

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
@@ -93,7 +92,7 @@ static bool Diff(::ArrayW<uint32_t> x, int32_t xOff, ::ArrayW<uint32_t> y, int32
 static bool Eq(::ArrayW<uint32_t> x, ::ArrayW<uint32_t> y) ;
 
 /// @brief Method FromBigInteger addr 0xfd5a90 size 0xe0 virtual false final false
-static ::ArrayW<uint32_t> FromBigInteger(::Org::BouncyCastle::Math::BigInteger x) ;
+static ::ArrayW<uint32_t> FromBigInteger(Org::BouncyCastle::Math::BigInteger x) ;
 
 /// @brief Method GetBit addr 0xfd5b70 size 0x64 virtual false final false
 static uint32_t GetBit(::ArrayW<uint32_t> x, int32_t bit) ;
@@ -165,7 +164,7 @@ static int32_t SubFrom(::ArrayW<uint32_t> x, ::ArrayW<uint32_t> z) ;
 static int32_t SubFrom(::ArrayW<uint32_t> x, int32_t xOff, ::ArrayW<uint32_t> z, int32_t zOff) ;
 
 /// @brief Method ToBigInteger addr 0xfd7284 size 0xe4 virtual false final false
-static ::Org::BouncyCastle::Math::BigInteger ToBigInteger(::ArrayW<uint32_t> x) ;
+static Org::BouncyCastle::Math::BigInteger ToBigInteger(::ArrayW<uint32_t> x) ;
 
 /// @brief Method Zero addr 0xfd7368 size 0x54 virtual false final false
 static void Zero(::ArrayW<uint32_t> z) ;
@@ -180,6 +179,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Math::Raw
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Math::Raw::Nat160);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::Raw::Nat160, "Org.BouncyCastle.Math.Raw", "Nat160");
+NEED_NO_BOX(Org::BouncyCastle::Math::Raw::Nat160);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Raw::Nat160, "Org.BouncyCastle.Math.Raw", "Nat160");

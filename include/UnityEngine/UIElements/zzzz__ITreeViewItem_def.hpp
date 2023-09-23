@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
@@ -30,7 +29,7 @@ constexpr explicit ITreeViewItem(void* ptr) noexcept : ::cordl_internals::Interf
 
  int32_t __declspec(property(get=get_id))  id;
 
- ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem> __declspec(property(get=get_children))  children;
+ System::Collections::Generic::IEnumerable_1<UnityEngine::UIElements::ITreeViewItem> __declspec(property(get=get_children))  children;
 
  bool __declspec(property(get=get_hasChildren))  hasChildren;
 
@@ -41,7 +40,7 @@ constexpr explicit ITreeViewItem(void* ptr) noexcept : ::cordl_internals::Interf
  int32_t get_id() ;
 
 /// @brief Method get_children addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem> get_children() ;
+ System::Collections::Generic::IEnumerable_1<UnityEngine::UIElements::ITreeViewItem> get_children() ;
 
 /// @brief Method get_hasChildren addr 0x0 size 0xffffffffffffffff virtual true final false
  bool get_hasChildren() ;
@@ -50,6 +49,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::ITreeViewItem);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ITreeViewItem, "UnityEngine.UIElements", "ITreeViewItem");
+NEED_NO_BOX(UnityEngine::UIElements::ITreeViewItem);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::ITreeViewItem, "UnityEngine.UIElements", "ITreeViewItem");

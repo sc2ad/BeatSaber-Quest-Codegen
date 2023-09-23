@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Security/AccessControl/zzzz__GenericAcl_def.hpp"
 #include <cstdint>
-namespace {
 namespace System::Security::AccessControl {
 class GenericAce;
 }
@@ -20,7 +19,7 @@ namespace System::Security::AccessControl {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3032))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3043))
 // CS Name: System.Security.AccessControl.RawAcl
-class CORDL_TYPE RawAcl : public ::System::Security::AccessControl::GenericAcl {
+class CORDL_TYPE RawAcl : public System::Security::AccessControl::GenericAcl {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr RawAcl(RawAcl const& ) noexcept = default;
 constexpr RawAcl(RawAcl&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RawAcl(void* ptr) noexcept : ::System::Security::AccessControl::GenericAcl(ptr) {
+constexpr explicit RawAcl(void* ptr) noexcept : System::Security::AccessControl::GenericAcl(ptr) {
 }
 
 
@@ -62,18 +61,18 @@ constexpr void __set_revision(uint8_t value) ;
 
 constexpr uint8_t __get_revision() const;
 
- ::System::Collections::Generic::List_1<::System::Security::AccessControl::GenericAce> __declspec(property(get=__get_list, put=__set_list))  list;
+ System::Collections::Generic::List_1<System::Security::AccessControl::GenericAce> __declspec(property(get=__get_list, put=__set_list))  list;
 
-constexpr void __set_list(::System::Collections::Generic::List_1<::System::Security::AccessControl::GenericAce> value) ;
+constexpr void __set_list(System::Collections::Generic::List_1<System::Security::AccessControl::GenericAce> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::System::Security::AccessControl::GenericAce> __get_list() const;
+constexpr System::Collections::Generic::List_1<System::Security::AccessControl::GenericAce> __get_list() const;
 
 
 // Properties
 
  int32_t __declspec(property(get=get_Count))  Count;
 
- ::System::Security::AccessControl::GenericAce __declspec(property(get=get_Item, put=set_Item))  Item;
+ System::Security::AccessControl::GenericAce __declspec(property(get=get_Item, put=set_Item))  Item;
 
 
 // Methods
@@ -88,13 +87,13 @@ explicit RawAcl(uint8_t revision, int32_t capacity) ;
  int32_t get_Count() ;
 
 /// @brief Method get_Item addr 0x23197d0 size 0x58 virtual true final false
- ::System::Security::AccessControl::GenericAce get_Item(int32_t index) ;
+ System::Security::AccessControl::GenericAce get_Item(int32_t index) ;
 
 /// @brief Method set_Item addr 0x2319828 size 0x68 virtual true final false
- void set_Item(int32_t index, ::System::Security::AccessControl::GenericAce value) ;
+ void set_Item(int32_t index, System::Security::AccessControl::GenericAce value) ;
 
 /// @brief Method InsertAce addr 0x23176f8 size 0xd8 virtual false final false
- void InsertAce(int32_t index, ::System::Security::AccessControl::GenericAce ace) ;
+ void InsertAce(int32_t index, System::Security::AccessControl::GenericAce ace) ;
 
 /// @brief Method RemoveAce addr 0x2317144 size 0x58 virtual false final false
  void RemoveAce(int32_t index) ;
@@ -103,6 +102,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::AccessControl
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::AccessControl::RawAcl);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::AccessControl::RawAcl, "System.Security.AccessControl", "RawAcl");
+NEED_NO_BOX(System::Security::AccessControl::RawAcl);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::AccessControl::RawAcl, "System.Security.AccessControl", "RawAcl");

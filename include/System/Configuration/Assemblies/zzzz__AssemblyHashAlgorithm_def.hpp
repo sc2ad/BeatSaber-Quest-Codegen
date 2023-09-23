@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Configuration::Assemblies {
 struct AssemblyHashAlgorithm;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::Configuration::Assemblies::AssemblyHashAlgorithm const None;
+static System::Configuration::Assemblies::AssemblyHashAlgorithm const None;
 
 /// @brief Field MD5 offset 0
-static ::System::Configuration::Assemblies::AssemblyHashAlgorithm const MD5;
+static System::Configuration::Assemblies::AssemblyHashAlgorithm const MD5;
 
 /// @brief Field SHA1 offset 0
-static ::System::Configuration::Assemblies::AssemblyHashAlgorithm const SHA1;
+static System::Configuration::Assemblies::AssemblyHashAlgorithm const SHA1;
 
 /// @brief Field SHA256 offset 0
-static ::System::Configuration::Assemblies::AssemblyHashAlgorithm const SHA256;
+static System::Configuration::Assemblies::AssemblyHashAlgorithm const SHA256;
 
 /// @brief Field SHA384 offset 0
-static ::System::Configuration::Assemblies::AssemblyHashAlgorithm const SHA384;
+static System::Configuration::Assemblies::AssemblyHashAlgorithm const SHA384;
 
 /// @brief Field SHA512 offset 0
-static ::System::Configuration::Assemblies::AssemblyHashAlgorithm const SHA512;
+static System::Configuration::Assemblies::AssemblyHashAlgorithm const SHA512;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Configuration::Assemblies
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Configuration::Assemblies::AssemblyHashAlgorithm, "System.Configuration.Assemblies", "AssemblyHashAlgorithm");
+DEFINE_IL2CPP_ARG_TYPE(System::Configuration::Assemblies::AssemblyHashAlgorithm, "System.Configuration.Assemblies", "AssemblyHashAlgorithm");

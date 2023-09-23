@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace UnityEngine::InputSystem::Layouts {
 struct InputDeviceDescription;
 }
@@ -66,7 +65,7 @@ static constexpr ::ConstString  kAndroidInterface{u"Android"};
 static void Initialize() ;
 
 /// @brief Method OnFindLayoutForDevice addr 0x29539ac size 0x254 virtual false final false
-static ::StringW OnFindLayoutForDevice(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::StringW matchedLayout, ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate executeCommandDelegate) ;
+static ::StringW OnFindLayoutForDevice(ByRef<UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::StringW matchedLayout, UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate executeCommandDelegate) ;
 
 // Ctor Parameters []
 explicit AndroidSupport() ;
@@ -78,6 +77,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Android
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Android::AndroidSupport);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Android::AndroidSupport, "UnityEngine.InputSystem.Android", "AndroidSupport");
+NEED_NO_BOX(UnityEngine::InputSystem::Android::AndroidSupport);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Android::AndroidSupport, "UnityEngine.InputSystem.Android", "AndroidSupport");

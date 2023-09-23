@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
@@ -61,22 +60,22 @@ constexpr explicit MissionNodesHelper(void* ptr) noexcept : ::bs_hook::Il2CppWra
 // Methods
 
 /// @brief Method GetAllNodesFromRoot addr 0x21499f8 size 0x80 virtual false final false
-static ::System::Collections::Generic::HashSet_1<::GlobalNamespace::MissionNode> GetAllNodesFromRoot(::GlobalNamespace::MissionNode root) ;
+static System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode> GetAllNodesFromRoot(GlobalNamespace::MissionNode root) ;
 
 /// @brief Method VisitAllTree addr 0x2149a78 size 0xd8 virtual false final false
-static void VisitAllTree(::GlobalNamespace::MissionNode node, ::System::Collections::Generic::HashSet_1<::GlobalNamespace::MissionNode> visitedNodes) ;
+static void VisitAllTree(GlobalNamespace::MissionNode node, System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode> visitedNodes) ;
 
 /// @brief Method CycleDetection addr 0x2149b50 size 0x7c virtual false final false
-static bool CycleDetection(::GlobalNamespace::MissionNode node) ;
+static bool CycleDetection(GlobalNamespace::MissionNode node) ;
 
 /// @brief Method CycleDetection addr 0x2149bcc size 0x154 virtual false final false
-static bool CycleDetection(::GlobalNamespace::MissionNode node, int32_t layer, ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::MissionNode,int32_t> layers) ;
+static bool CycleDetection(GlobalNamespace::MissionNode node, int32_t layer, System::Collections::Generic::Dictionary_2<GlobalNamespace::MissionNode,int32_t> layers) ;
 
 /// @brief Method FinalNodeIsFinal addr 0x2149d20 size 0x88 virtual false final false
-static bool FinalNodeIsFinal(::GlobalNamespace::MissionNode finalNode, ::GlobalNamespace::MissionNode rootNode) ;
+static bool FinalNodeIsFinal(GlobalNamespace::MissionNode finalNode, GlobalNamespace::MissionNode rootNode) ;
 
 /// @brief Method FinalNodeIsFinal addr 0x2149da8 size 0x11c virtual false final false
-static bool FinalNodeIsFinal(::GlobalNamespace::MissionNode finalNode, ::GlobalNamespace::MissionNode node, ::System::Collections::Generic::HashSet_1<::GlobalNamespace::MissionNode> visitedNodes) ;
+static bool FinalNodeIsFinal(GlobalNamespace::MissionNode finalNode, GlobalNamespace::MissionNode node, System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode> visitedNodes) ;
 
 // Ctor Parameters []
 explicit MissionNodesHelper() ;
@@ -88,6 +87,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MissionNodesHelper);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionNodesHelper, "", "MissionNodesHelper");
+NEED_NO_BOX(GlobalNamespace::MissionNodesHelper);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodesHelper, "", "MissionNodesHelper");

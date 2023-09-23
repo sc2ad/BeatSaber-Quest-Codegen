@@ -2,17 +2,16 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+namespace System {
+class Type;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace System {
-class Type;
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets::ResourceLocators {
@@ -72,17 +71,17 @@ constexpr void __set__Provider_k__BackingField(::StringW value) ;
 
 constexpr ::StringW __get__Provider_k__BackingField() const;
 
- ::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get__Keys_k__BackingField, put=__set__Keys_k__BackingField))  _Keys_k__BackingField;
+ System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get__Keys_k__BackingField, put=__set__Keys_k__BackingField))  _Keys_k__BackingField;
 
-constexpr void __set__Keys_k__BackingField(::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> value) ;
+constexpr void __set__Keys_k__BackingField(System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> __get__Keys_k__BackingField() const;
+constexpr System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> __get__Keys_k__BackingField() const;
 
- ::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get__Dependencies_k__BackingField, put=__set__Dependencies_k__BackingField))  _Dependencies_k__BackingField;
+ System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get__Dependencies_k__BackingField, put=__set__Dependencies_k__BackingField))  _Dependencies_k__BackingField;
 
-constexpr void __set__Dependencies_k__BackingField(::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> value) ;
+constexpr void __set__Dependencies_k__BackingField(System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> __get__Dependencies_k__BackingField() const;
+constexpr System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> __get__Dependencies_k__BackingField() const;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=__get__Data_k__BackingField, put=__set__Data_k__BackingField))  _Data_k__BackingField;
 
@@ -90,11 +89,11 @@ constexpr void __set__Data_k__BackingField(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get__Data_k__BackingField() const;
 
- ::System::Type __declspec(property(get=__get__ResourceType_k__BackingField, put=__set__ResourceType_k__BackingField))  _ResourceType_k__BackingField;
+ System::Type __declspec(property(get=__get__ResourceType_k__BackingField, put=__set__ResourceType_k__BackingField))  _ResourceType_k__BackingField;
 
-constexpr void __set__ResourceType_k__BackingField(::System::Type value) ;
+constexpr void __set__ResourceType_k__BackingField(System::Type value) ;
 
-constexpr ::System::Type __get__ResourceType_k__BackingField() const;
+constexpr System::Type __get__ResourceType_k__BackingField() const;
 
 
 // Properties
@@ -103,13 +102,13 @@ constexpr ::System::Type __get__ResourceType_k__BackingField() const;
 
  ::StringW __declspec(property(get=get_Provider, put=set_Provider))  Provider;
 
- ::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=get_Keys, put=set_Keys))  Keys;
+ System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=get_Keys, put=set_Keys))  Keys;
 
- ::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=get_Dependencies, put=set_Dependencies))  Dependencies;
+ System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=get_Dependencies, put=set_Dependencies))  Dependencies;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_Data, put=set_Data))  Data;
 
- ::System::Type __declspec(property(get=get_ResourceType, put=set_ResourceType))  ResourceType;
+ System::Type __declspec(property(get=get_ResourceType, put=set_ResourceType))  ResourceType;
 
 
 // Methods
@@ -127,16 +126,16 @@ constexpr ::System::Type __get__ResourceType_k__BackingField() const;
  void set_Provider(::StringW value) ;
 
 /// @brief Method get_Keys addr 0x289b690 size 0x8 virtual false final false
- ::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> get_Keys() ;
+ System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> get_Keys() ;
 
 /// @brief Method set_Keys addr 0x289b698 size 0x8 virtual false final false
- void set_Keys(::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> value) ;
+ void set_Keys(System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> value) ;
 
 /// @brief Method get_Dependencies addr 0x289b6a0 size 0x8 virtual false final false
- ::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> get_Dependencies() ;
+ System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> get_Dependencies() ;
 
 /// @brief Method set_Dependencies addr 0x289b6a8 size 0x8 virtual false final false
- void set_Dependencies(::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> value) ;
+ void set_Dependencies(System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> value) ;
 
 /// @brief Method get_Data addr 0x289b6b0 size 0x8 virtual false final false
  ::bs_hook::Il2CppWrapperType get_Data() ;
@@ -145,21 +144,20 @@ constexpr ::System::Type __get__ResourceType_k__BackingField() const;
  void set_Data(::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method get_ResourceType addr 0x289b6c0 size 0x8 virtual false final false
- ::System::Type get_ResourceType() ;
+ System::Type get_ResourceType() ;
 
 /// @brief Method set_ResourceType addr 0x289b6c8 size 0x8 virtual false final false
- void set_ResourceType(::System::Type value) ;
+ void set_ResourceType(System::Type value) ;
 
-// Ctor Parameters [CppParam { name: "type", ty: "::System::Type", modifiers: "", def_value: None }, CppParam { name: "internalId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "provider", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "keys", ty: "::System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }, CppParam { name: "dependencies", ty: "::System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }, CppParam { name: "extraData", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit ContentCatalogDataEntry(::System::Type type, ::StringW internalId, ::StringW provider, ::System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType> keys, ::System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType> dependencies, ::bs_hook::Il2CppWrapperType extraData) ;
+// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "internalId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "provider", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "keys", ty: "System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }, CppParam { name: "dependencies", ty: "System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }, CppParam { name: "extraData", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
+explicit ContentCatalogDataEntry(System::Type type, ::StringW internalId, ::StringW provider, System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType> keys, System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType> dependencies, ::bs_hook::Il2CppWrapperType extraData) ;
 
 /// @brief Method .ctor addr 0x289b6d0 size 0x108 virtual false final false
- void _ctor(::System::Type type, ::StringW internalId, ::StringW provider, ::System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType> keys, ::System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType> dependencies, ::bs_hook::Il2CppWrapperType extraData) ;
+ void _ctor(System::Type type, ::StringW internalId, ::StringW provider, System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType> keys, System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType> dependencies, ::bs_hook::Il2CppWrapperType extraData) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::AddressableAssets::ResourceLocators
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry, "UnityEngine.AddressableAssets.ResourceLocators", "ContentCatalogDataEntry");
+NEED_NO_BOX(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry, "UnityEngine.AddressableAssets.ResourceLocators", "ContentCatalogDataEntry");

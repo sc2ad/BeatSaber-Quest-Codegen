@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct EVRTrackedCameraFrameType;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Distorted offset 0
-static ::OVR::OpenVR::EVRTrackedCameraFrameType const Distorted;
+static OVR::OpenVR::EVRTrackedCameraFrameType const Distorted;
 
 /// @brief Field Undistorted offset 0
-static ::OVR::OpenVR::EVRTrackedCameraFrameType const Undistorted;
+static OVR::OpenVR::EVRTrackedCameraFrameType const Undistorted;
 
 /// @brief Field MaximumUndistorted offset 0
-static ::OVR::OpenVR::EVRTrackedCameraFrameType const MaximumUndistorted;
+static OVR::OpenVR::EVRTrackedCameraFrameType const MaximumUndistorted;
 
 /// @brief Field MAX_CAMERA_FRAME_TYPES offset 0
-static ::OVR::OpenVR::EVRTrackedCameraFrameType const MAX_CAMERA_FRAME_TYPES;
+static OVR::OpenVR::EVRTrackedCameraFrameType const MAX_CAMERA_FRAME_TYPES;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRTrackedCameraFrameType, "OVR.OpenVR", "EVRTrackedCameraFrameType");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRTrackedCameraFrameType, "OVR.OpenVR", "EVRTrackedCameraFrameType");

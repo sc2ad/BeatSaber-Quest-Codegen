@@ -3,13 +3,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace HoudiniEngineUnity {
+class HEU_VolumeLayerPreset;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace HoudiniEngineUnity {
-class HEU_VolumeLayerPreset;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -75,11 +74,11 @@ constexpr void __set__uiExpanded(bool value) ;
 
 constexpr bool __get__uiExpanded() const;
 
- ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayerPreset> __declspec(property(get=__get__volumeLayersPresets, put=__set__volumeLayersPresets))  _volumeLayersPresets;
+ System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeLayerPreset> __declspec(property(get=__get__volumeLayersPresets, put=__set__volumeLayersPresets))  _volumeLayersPresets;
 
-constexpr void __set__volumeLayersPresets(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayerPreset> value) ;
+constexpr void __set__volumeLayersPresets(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeLayerPreset> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayerPreset> __get__volumeLayersPresets() const;
+constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeLayerPreset> __get__volumeLayersPresets() const;
 
  ::StringW __declspec(property(get=__get__terrainDataPath, put=__set__terrainDataPath))  _terrainDataPath;
 
@@ -106,6 +105,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_VolumeCachePreset);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_VolumeCachePreset, "HoudiniEngineUnity", "HEU_VolumeCachePreset");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_VolumeCachePreset);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_VolumeCachePreset, "HoudiniEngineUnity", "HEU_VolumeCachePreset");

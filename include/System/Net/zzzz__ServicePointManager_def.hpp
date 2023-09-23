@@ -3,38 +3,37 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Net {
-class ICertificatePolicy;
-}
-namespace System::Net {
-struct SecurityProtocolType;
-}
-namespace System::Net {
-class ServerCertValidationCallback;
-}
 namespace System {
 class Uri;
 }
 namespace System::Net {
-class IWebProxy;
+class ServicePoint;
 }
 namespace System::Net::Security {
 class RemoteCertificateValidationCallback;
 }
 namespace System::Net {
-class ServicePoint;
+struct SecurityProtocolType;
 }
 namespace System::Collections::Concurrent {
 template<typename TKey,typename TValue>
 class ConcurrentDictionary_2;
+}
+namespace System::Net {
+class ICertificatePolicy;
+}
+namespace System::Net {
+class IWebProxy;
+}
+namespace System::Net {
+class ServerCertValidationCallback;
 }
 // Forward declare root types
 namespace System::Net {
 class ServicePointManager;
 }
 namespace System::Net {
-class ____System__Net__ServicePointManager__SPKey;
+class System__Net__ServicePointManager__SPKey;
 }
 // Type: ::SPKey
 namespace System::Net {
@@ -42,53 +41,53 @@ namespace System::Net {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8052))
 // CS Name: System.Net.ServicePointManager::SPKey
-class CORDL_TYPE ____System__Net__ServicePointManager__SPKey : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Net__ServicePointManager__SPKey : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____System__Net__ServicePointManager__SPKey() = default;
+virtual ~System__Net__ServicePointManager__SPKey() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Net__ServicePointManager__SPKey", modifiers: " const&", def_value: None }]
-constexpr ____System__Net__ServicePointManager__SPKey(____System__Net__ServicePointManager__SPKey const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Net__ServicePointManager__SPKey", modifiers: " const&", def_value: None }]
+constexpr System__Net__ServicePointManager__SPKey(System__Net__ServicePointManager__SPKey const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Net__ServicePointManager__SPKey", modifiers: "&&", def_value: None }]
-constexpr ____System__Net__ServicePointManager__SPKey(____System__Net__ServicePointManager__SPKey&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Net__ServicePointManager__SPKey", modifiers: "&&", def_value: None }]
+constexpr System__Net__ServicePointManager__SPKey(System__Net__ServicePointManager__SPKey&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Net__ServicePointManager__SPKey(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Net__ServicePointManager__SPKey(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Net__ServicePointManager__SPKey& operator=(std::nullptr_t) noexcept {
+  constexpr System__Net__ServicePointManager__SPKey& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Net__ServicePointManager__SPKey& operator=(void* o) noexcept {
+  constexpr System__Net__ServicePointManager__SPKey& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Net__ServicePointManager__SPKey& operator=(____System__Net__ServicePointManager__SPKey&& o) noexcept = default;
-  constexpr ____System__Net__ServicePointManager__SPKey& operator=(____System__Net__ServicePointManager__SPKey const& o) noexcept = default;
+  constexpr System__Net__ServicePointManager__SPKey& operator=(System__Net__ServicePointManager__SPKey&& o) noexcept = default;
+  constexpr System__Net__ServicePointManager__SPKey& operator=(System__Net__ServicePointManager__SPKey const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Uri __declspec(property(get=__get_uri, put=__set_uri))  uri;
+ System::Uri __declspec(property(get=__get_uri, put=__set_uri))  uri;
 
-constexpr void __set_uri(::System::Uri value) ;
+constexpr void __set_uri(System::Uri value) ;
 
-constexpr ::System::Uri __get_uri() const;
+constexpr System::Uri __get_uri() const;
 
- ::System::Uri __declspec(property(get=__get_proxy, put=__set_proxy))  proxy;
+ System::Uri __declspec(property(get=__get_proxy, put=__set_proxy))  proxy;
 
-constexpr void __set_proxy(::System::Uri value) ;
+constexpr void __set_proxy(System::Uri value) ;
 
-constexpr ::System::Uri __get_proxy() const;
+constexpr System::Uri __get_proxy() const;
 
  bool __declspec(property(get=__get_use_connect, put=__set_use_connect))  use_connect;
 
@@ -104,11 +103,11 @@ constexpr bool __get_use_connect() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "uri", ty: "::System::Uri", modifiers: "", def_value: None }, CppParam { name: "proxy", ty: "::System::Uri", modifiers: "", def_value: None }, CppParam { name: "use_connect", ty: "bool", modifiers: "", def_value: None }]
-explicit ____System__Net__ServicePointManager__SPKey(::System::Uri uri, ::System::Uri proxy, bool use_connect) ;
+// Ctor Parameters [CppParam { name: "uri", ty: "System::Uri", modifiers: "", def_value: None }, CppParam { name: "proxy", ty: "System::Uri", modifiers: "", def_value: None }, CppParam { name: "use_connect", ty: "bool", modifiers: "", def_value: None }]
+explicit System__Net__ServicePointManager__SPKey(System::Uri uri, System::Uri proxy, bool use_connect) ;
 
 /// @brief Method .ctor addr 0x2846694 size 0x3c virtual false final false
- void _ctor(::System::Uri uri, ::System::Uri proxy, bool use_connect) ;
+ void _ctor(System::Uri uri, System::Uri proxy, bool use_connect) ;
 
 /// @brief Method get_UsesProxy addr 0x2846b70 size 0x60 virtual false final false
  bool get_UsesProxy() ;
@@ -132,7 +131,7 @@ namespace System::Net {
 class CORDL_TYPE ServicePointManager : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using SPKey = ::System::Net::____System__Net__ServicePointManager__SPKey;
+using SPKey = System::Net::System__Net__ServicePointManager__SPKey;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -167,17 +166,17 @@ constexpr explicit ServicePointManager(void* ptr) noexcept : ::bs_hook::Il2CppWr
 
 // Fields
 
-static ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Net::____System__Net__ServicePointManager__SPKey,::System::Net::ServicePoint> __declspec(property(get=__get_servicePoints, put=__set_servicePoints))  servicePoints;
+static System::Collections::Concurrent::ConcurrentDictionary_2<System::Net::System__Net__ServicePointManager__SPKey,System::Net::ServicePoint> __declspec(property(get=__get_servicePoints, put=__set_servicePoints))  servicePoints;
 
-static void __set_servicePoints(::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Net::____System__Net__ServicePointManager__SPKey,::System::Net::ServicePoint> value) ;
+static void __set_servicePoints(System::Collections::Concurrent::ConcurrentDictionary_2<System::Net::System__Net__ServicePointManager__SPKey,System::Net::ServicePoint> value) ;
 
-static ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Net::____System__Net__ServicePointManager__SPKey,::System::Net::ServicePoint> __get_servicePoints() ;
+static System::Collections::Concurrent::ConcurrentDictionary_2<System::Net::System__Net__ServicePointManager__SPKey,System::Net::ServicePoint> __get_servicePoints() ;
 
-static ::System::Net::ICertificatePolicy __declspec(property(get=__get_policy, put=__set_policy))  policy;
+static System::Net::ICertificatePolicy __declspec(property(get=__get_policy, put=__set_policy))  policy;
 
-static void __set_policy(::System::Net::ICertificatePolicy value) ;
+static void __set_policy(System::Net::ICertificatePolicy value) ;
 
-static ::System::Net::ICertificatePolicy __get_policy() ;
+static System::Net::ICertificatePolicy __get_policy() ;
 
 static int32_t __declspec(property(get=__get_defaultConnectionLimit, put=__set_defaultConnectionLimit))  defaultConnectionLimit;
 
@@ -209,11 +208,11 @@ static void __set__checkCRL(bool value) ;
 
 static bool __get__checkCRL() ;
 
-static ::System::Net::SecurityProtocolType __declspec(property(get=__get__securityProtocol, put=__set__securityProtocol))  _securityProtocol;
+static System::Net::SecurityProtocolType __declspec(property(get=__get__securityProtocol, put=__set__securityProtocol))  _securityProtocol;
 
-static void __set__securityProtocol(::System::Net::SecurityProtocolType value) ;
+static void __set__securityProtocol(System::Net::SecurityProtocolType value) ;
 
-static ::System::Net::SecurityProtocolType __get__securityProtocol() ;
+static System::Net::SecurityProtocolType __get__securityProtocol() ;
 
 static bool __declspec(property(get=__get_expectContinue, put=__set_expectContinue))  expectContinue;
 
@@ -227,11 +226,11 @@ static void __set_useNagle(bool value) ;
 
 static bool __get_useNagle() ;
 
-static ::System::Net::ServerCertValidationCallback __declspec(property(get=__get_server_cert_cb, put=__set_server_cert_cb))  server_cert_cb;
+static System::Net::ServerCertValidationCallback __declspec(property(get=__get_server_cert_cb, put=__set_server_cert_cb))  server_cert_cb;
 
-static void __set_server_cert_cb(::System::Net::ServerCertValidationCallback value) ;
+static void __set_server_cert_cb(System::Net::ServerCertValidationCallback value) ;
 
-static ::System::Net::ServerCertValidationCallback __get_server_cert_cb() ;
+static System::Net::ServerCertValidationCallback __get_server_cert_cb() ;
 
 static bool __declspec(property(get=__get_tcp_keepalive, put=__set_tcp_keepalive))  tcp_keepalive;
 
@@ -258,17 +257,17 @@ static bool __declspec(property(get=get_CheckCertificateRevocationList))  CheckC
 
 static int32_t __declspec(property(get=get_DnsRefreshTimeout))  DnsRefreshTimeout;
 
-static ::System::Net::SecurityProtocolType __declspec(property(get=get_SecurityProtocol))  SecurityProtocol;
+static System::Net::SecurityProtocolType __declspec(property(get=get_SecurityProtocol))  SecurityProtocol;
 
-static ::System::Net::ServerCertValidationCallback __declspec(property(get=get_ServerCertValidationCallback))  ServerCertValidationCallback;
+static System::Net::ServerCertValidationCallback __declspec(property(get=get_ServerCertValidationCallback))  ServerCertValidationCallback;
 
-static ::System::Net::Security::RemoteCertificateValidationCallback __declspec(property(get=get_ServerCertificateValidationCallback))  ServerCertificateValidationCallback;
+static System::Net::Security::RemoteCertificateValidationCallback __declspec(property(get=get_ServerCertificateValidationCallback))  ServerCertificateValidationCallback;
 
 
 // Methods
 
 /// @brief Method GetLegacyCertificatePolicy addr 0x2845dec size 0x58 virtual false final false
-static ::System::Net::ICertificatePolicy GetLegacyCertificatePolicy() ;
+static System::Net::ICertificatePolicy GetLegacyCertificatePolicy() ;
 
 /// @brief Method get_CheckCertificateRevocationList addr 0x2845e44 size 0x58 virtual false final false
 static bool get_CheckCertificateRevocationList() ;
@@ -277,29 +276,28 @@ static bool get_CheckCertificateRevocationList() ;
 static int32_t get_DnsRefreshTimeout() ;
 
 /// @brief Method get_SecurityProtocol addr 0x2845ef4 size 0x58 virtual false final false
-static ::System::Net::SecurityProtocolType get_SecurityProtocol() ;
+static System::Net::SecurityProtocolType get_SecurityProtocol() ;
 
 /// @brief Method get_ServerCertValidationCallback addr 0x2845f4c size 0x58 virtual false final false
-static ::System::Net::ServerCertValidationCallback get_ServerCertValidationCallback() ;
+static System::Net::ServerCertValidationCallback get_ServerCertValidationCallback() ;
 
 /// @brief Method get_ServerCertificateValidationCallback addr 0x2845fa4 size 0x88 virtual false final false
-static ::System::Net::Security::RemoteCertificateValidationCallback get_ServerCertificateValidationCallback() ;
+static System::Net::Security::RemoteCertificateValidationCallback get_ServerCertificateValidationCallback() ;
 
 /// @brief Method FindServicePoint addr 0x284602c size 0x668 virtual false final false
-static ::System::Net::ServicePoint FindServicePoint(::System::Uri address, ::System::Net::IWebProxy proxy) ;
+static System::Net::ServicePoint FindServicePoint(System::Uri address, System::Net::IWebProxy proxy) ;
 
 /// @brief Method CloseConnectionGroup addr 0x28466d0 size 0x408 virtual false final false
 static void CloseConnectionGroup(::StringW connectionGroupName) ;
 
 /// @brief Method RemoveServicePoint addr 0x2846ad8 size 0x98 virtual false final false
-static void RemoveServicePoint(::System::Net::ServicePoint sp) ;
+static void RemoveServicePoint(System::Net::ServicePoint sp) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::ServicePointManager);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::ServicePointManager, "System.Net", "ServicePointManager");
-NEED_NO_BOX(::System::Net::____System__Net__ServicePointManager__SPKey);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::____System__Net__ServicePointManager__SPKey, "System.Net", "ServicePointManager/SPKey");
+NEED_NO_BOX(System::Net::ServicePointManager);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::ServicePointManager, "System.Net", "ServicePointManager");
+NEED_NO_BOX(System::Net::System__Net__ServicePointManager__SPKey);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::System__Net__ServicePointManager__SPKey, "System.Net", "ServicePointManager/SPKey");

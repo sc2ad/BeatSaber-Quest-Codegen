@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::Internal {
 class ExcludeFromDocsAttribute;
@@ -12,7 +11,7 @@ namespace UnityEngine::Internal {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10258))
 // CS Name: UnityEngine.Internal.ExcludeFromDocsAttribute
-class CORDL_TYPE ExcludeFromDocsAttribute : public ::System::Attribute {
+class CORDL_TYPE ExcludeFromDocsAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr ExcludeFromDocsAttribute(ExcludeFromDocsAttribute const& ) noexcept = 
 constexpr ExcludeFromDocsAttribute(ExcludeFromDocsAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ExcludeFromDocsAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit ExcludeFromDocsAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Internal
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Internal::ExcludeFromDocsAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Internal::ExcludeFromDocsAttribute, "UnityEngine.Internal", "ExcludeFromDocsAttribute");
+NEED_NO_BOX(UnityEngine::Internal::ExcludeFromDocsAttribute);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Internal::ExcludeFromDocsAttribute, "UnityEngine.Internal", "ExcludeFromDocsAttribute");

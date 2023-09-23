@@ -3,7 +3,6 @@
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacket_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::Sig {
 class PrimaryUserId;
@@ -14,7 +13,7 @@ namespace Org::BouncyCastle::Bcpg::Sig {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(531))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(540))
 // CS Name: Org.BouncyCastle.Bcpg.Sig.PrimaryUserId
-class CORDL_TYPE PrimaryUserId : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
+class CORDL_TYPE PrimaryUserId : public Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr PrimaryUserId(PrimaryUserId const& ) noexcept = default;
 constexpr PrimaryUserId(PrimaryUserId&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PrimaryUserId(void* ptr) noexcept : ::Org::BouncyCastle::Bcpg::SignatureSubpacket(ptr) {
+constexpr explicit PrimaryUserId(void* ptr) noexcept : Org::BouncyCastle::Bcpg::SignatureSubpacket(ptr) {
 }
 
 
@@ -72,6 +71,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg::Sig
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::Sig::PrimaryUserId);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::Sig::PrimaryUserId, "Org.BouncyCastle.Bcpg.Sig", "PrimaryUserId");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::Sig::PrimaryUserId);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::Sig::PrimaryUserId, "Org.BouncyCastle.Bcpg.Sig", "PrimaryUserId");

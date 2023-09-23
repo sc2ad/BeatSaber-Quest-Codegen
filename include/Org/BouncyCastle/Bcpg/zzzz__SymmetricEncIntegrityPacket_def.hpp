@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__InputStreamPacket_def.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
 }
@@ -16,7 +15,7 @@ namespace Org::BouncyCastle::Bcpg {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(557))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(593))
 // CS Name: Org.BouncyCastle.Bcpg.SymmetricEncIntegrityPacket
-class CORDL_TYPE SymmetricEncIntegrityPacket : public ::Org::BouncyCastle::Bcpg::InputStreamPacket {
+class CORDL_TYPE SymmetricEncIntegrityPacket : public Org::BouncyCastle::Bcpg::InputStreamPacket {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr SymmetricEncIntegrityPacket(SymmetricEncIntegrityPacket const& ) noexc
 constexpr SymmetricEncIntegrityPacket(SymmetricEncIntegrityPacket&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SymmetricEncIntegrityPacket(void* ptr) noexcept : ::Org::BouncyCastle::Bcpg::InputStreamPacket(ptr) {
+constexpr explicit SymmetricEncIntegrityPacket(void* ptr) noexcept : Org::BouncyCastle::Bcpg::InputStreamPacket(ptr) {
 }
 
 
@@ -61,16 +60,15 @@ constexpr int32_t __get_version() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "::Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
-explicit SymmetricEncIntegrityPacket(::Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
+explicit SymmetricEncIntegrityPacket(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
 /// @brief Method .ctor addr 0x1144fe4 size 0x48 virtual false final false
- void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+ void _ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::SymmetricEncIntegrityPacket);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::SymmetricEncIntegrityPacket, "Org.BouncyCastle.Bcpg", "SymmetricEncIntegrityPacket");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::SymmetricEncIntegrityPacket);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::SymmetricEncIntegrityPacket, "Org.BouncyCastle.Bcpg", "SymmetricEncIntegrityPacket");

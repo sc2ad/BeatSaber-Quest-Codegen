@@ -2,7 +2,6 @@
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace Org::BouncyCastle::Crypto::Parameters {
 class Srp6GroupParameters;
 }
@@ -97,56 +96,56 @@ static constexpr ::ConstString  rfc5054_8192_N{u"FFFFFFFFFFFFFFFFC90FDAA22168C23
 /// @brief Field rfc5054_8192_g offset 0
 static constexpr ::ConstString  rfc5054_8192_g{u"13"};
 
-static ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters __declspec(property(get=__get_rfc5054_1024, put=__set_rfc5054_1024))  rfc5054_1024;
+static Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters __declspec(property(get=__get_rfc5054_1024, put=__set_rfc5054_1024))  rfc5054_1024;
 
-static void __set_rfc5054_1024(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters value) ;
+static void __set_rfc5054_1024(Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters value) ;
 
-static ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters __get_rfc5054_1024() ;
+static Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters __get_rfc5054_1024() ;
 
-static ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters __declspec(property(get=__get_rfc5054_1536, put=__set_rfc5054_1536))  rfc5054_1536;
+static Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters __declspec(property(get=__get_rfc5054_1536, put=__set_rfc5054_1536))  rfc5054_1536;
 
-static void __set_rfc5054_1536(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters value) ;
+static void __set_rfc5054_1536(Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters value) ;
 
-static ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters __get_rfc5054_1536() ;
+static Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters __get_rfc5054_1536() ;
 
-static ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters __declspec(property(get=__get_rfc5054_2048, put=__set_rfc5054_2048))  rfc5054_2048;
+static Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters __declspec(property(get=__get_rfc5054_2048, put=__set_rfc5054_2048))  rfc5054_2048;
 
-static void __set_rfc5054_2048(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters value) ;
+static void __set_rfc5054_2048(Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters value) ;
 
-static ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters __get_rfc5054_2048() ;
+static Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters __get_rfc5054_2048() ;
 
-static ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters __declspec(property(get=__get_rfc5054_3072, put=__set_rfc5054_3072))  rfc5054_3072;
+static Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters __declspec(property(get=__get_rfc5054_3072, put=__set_rfc5054_3072))  rfc5054_3072;
 
-static void __set_rfc5054_3072(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters value) ;
+static void __set_rfc5054_3072(Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters value) ;
 
-static ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters __get_rfc5054_3072() ;
+static Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters __get_rfc5054_3072() ;
 
-static ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters __declspec(property(get=__get_rfc5054_4096, put=__set_rfc5054_4096))  rfc5054_4096;
+static Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters __declspec(property(get=__get_rfc5054_4096, put=__set_rfc5054_4096))  rfc5054_4096;
 
-static void __set_rfc5054_4096(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters value) ;
+static void __set_rfc5054_4096(Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters value) ;
 
-static ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters __get_rfc5054_4096() ;
+static Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters __get_rfc5054_4096() ;
 
-static ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters __declspec(property(get=__get_rfc5054_6144, put=__set_rfc5054_6144))  rfc5054_6144;
+static Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters __declspec(property(get=__get_rfc5054_6144, put=__set_rfc5054_6144))  rfc5054_6144;
 
-static void __set_rfc5054_6144(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters value) ;
+static void __set_rfc5054_6144(Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters value) ;
 
-static ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters __get_rfc5054_6144() ;
+static Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters __get_rfc5054_6144() ;
 
-static ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters __declspec(property(get=__get_rfc5054_8192, put=__set_rfc5054_8192))  rfc5054_8192;
+static Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters __declspec(property(get=__get_rfc5054_8192, put=__set_rfc5054_8192))  rfc5054_8192;
 
-static void __set_rfc5054_8192(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters value) ;
+static void __set_rfc5054_8192(Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters value) ;
 
-static ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters __get_rfc5054_8192() ;
+static Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters __get_rfc5054_8192() ;
 
 
 // Methods
 
 /// @brief Method FromHex addr 0x118d798 size 0xa0 virtual false final false
-static ::Org::BouncyCastle::Math::BigInteger FromHex(::StringW hex) ;
+static Org::BouncyCastle::Math::BigInteger FromHex(::StringW hex) ;
 
 /// @brief Method FromNG addr 0x118d838 size 0xb4 virtual false final false
-static ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters FromNG(::StringW hexN, ::StringW hexG) ;
+static Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters FromNG(::StringW hexN, ::StringW hexG) ;
 
 // Ctor Parameters []
 explicit Srp6StandardGroups() ;
@@ -158,6 +157,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Agreement::Srp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6StandardGroups);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6StandardGroups, "Org.BouncyCastle.Crypto.Agreement.Srp", "Srp6StandardGroups");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Agreement::Srp::Srp6StandardGroups);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Agreement::Srp::Srp6StandardGroups, "Org.BouncyCastle.Crypto.Agreement.Srp", "Srp6StandardGroups");

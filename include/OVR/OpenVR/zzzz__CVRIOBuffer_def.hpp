@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace OVR::OpenVR {
-struct IVRIOBuffer;
-}
 namespace OVR::OpenVR {
 struct EIOBufferMode;
+}
+namespace OVR::OpenVR {
+struct IVRIOBuffer;
 }
 namespace OVR::OpenVR {
 struct EIOBufferError;
@@ -60,11 +59,11 @@ constexpr explicit CVRIOBuffer(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 
 // Fields
 
- ::OVR::OpenVR::IVRIOBuffer __declspec(property(get=__get_FnTable, put=__set_FnTable))  FnTable;
+ OVR::OpenVR::IVRIOBuffer __declspec(property(get=__get_FnTable, put=__set_FnTable))  FnTable;
 
-constexpr void __set_FnTable(::OVR::OpenVR::IVRIOBuffer value) ;
+constexpr void __set_FnTable(OVR::OpenVR::IVRIOBuffer value) ;
 
-constexpr ::OVR::OpenVR::IVRIOBuffer __get_FnTable() const;
+constexpr OVR::OpenVR::IVRIOBuffer __get_FnTable() const;
 
 
 // Methods
@@ -76,16 +75,16 @@ explicit CVRIOBuffer(::cordl_internals::intptr_t pInterface) ;
  void _ctor(::cordl_internals::intptr_t pInterface) ;
 
 /// @brief Method Open addr 0x26686ec size 0x28 virtual false final false
- ::OVR::OpenVR::EIOBufferError Open(::StringW pchPath, ::OVR::OpenVR::EIOBufferMode mode, uint32_t unElementSize, uint32_t unElements, ByRef<uint64_t> pulBuffer) ;
+ OVR::OpenVR::EIOBufferError Open(::StringW pchPath, OVR::OpenVR::EIOBufferMode mode, uint32_t unElementSize, uint32_t unElements, ByRef<uint64_t> pulBuffer) ;
 
 /// @brief Method Close addr 0x2668714 size 0x24 virtual false final false
- ::OVR::OpenVR::EIOBufferError Close(uint64_t ulBuffer) ;
+ OVR::OpenVR::EIOBufferError Close(uint64_t ulBuffer) ;
 
 /// @brief Method Read addr 0x2668738 size 0x28 virtual false final false
- ::OVR::OpenVR::EIOBufferError Read(uint64_t ulBuffer, ::cordl_internals::intptr_t pDst, uint32_t unBytes, ByRef<uint32_t> punRead) ;
+ OVR::OpenVR::EIOBufferError Read(uint64_t ulBuffer, ::cordl_internals::intptr_t pDst, uint32_t unBytes, ByRef<uint32_t> punRead) ;
 
 /// @brief Method Write addr 0x2668760 size 0x24 virtual false final false
- ::OVR::OpenVR::EIOBufferError Write(uint64_t ulBuffer, ::cordl_internals::intptr_t pSrc, uint32_t unBytes) ;
+ OVR::OpenVR::EIOBufferError Write(uint64_t ulBuffer, ::cordl_internals::intptr_t pSrc, uint32_t unBytes) ;
 
 /// @brief Method PropertyContainer addr 0x2668784 size 0x24 virtual false final false
  uint64_t PropertyContainer(uint64_t ulBuffer) ;
@@ -94,6 +93,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-NEED_NO_BOX(::OVR::OpenVR::CVRIOBuffer);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::CVRIOBuffer, "OVR.OpenVR", "CVRIOBuffer");
+NEED_NO_BOX(OVR::OpenVR::CVRIOBuffer);
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRIOBuffer, "OVR.OpenVR", "CVRIOBuffer");

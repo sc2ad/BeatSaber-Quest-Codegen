@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_def.hpp"
 #include "Oculus/Platform/Models/zzzz__Team_def.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class TeamList;
@@ -14,7 +13,7 @@ namespace Oculus::Platform::Models {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13410)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1149 }), TypeDefinitionIndex(TypeDefinitionIndex(13478))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13479))
 // CS Name: Oculus.Platform.Models.TeamList
-class CORDL_TYPE TeamList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::Team> {
+class CORDL_TYPE TeamList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::Team> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr TeamList(TeamList const& ) noexcept = default;
 constexpr TeamList(TeamList&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TeamList(void* ptr) noexcept : ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::Team>(ptr) {
+constexpr explicit TeamList(void* ptr) noexcept : Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::Team>(ptr) {
 }
 
 
@@ -60,6 +59,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::TeamList);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::TeamList, "Oculus.Platform.Models", "TeamList");
+NEED_NO_BOX(Oculus::Platform::Models::TeamList);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::TeamList, "Oculus.Platform.Models", "TeamList");

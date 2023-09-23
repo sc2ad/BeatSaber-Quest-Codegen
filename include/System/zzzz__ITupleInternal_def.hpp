@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Text {
 class StringBuilder;
 }
@@ -21,8 +20,8 @@ namespace System {
 class CORDL_TYPE ITupleInternal : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::CompilerServices::ITuple
-constexpr operator  ::System::Runtime::CompilerServices::ITuple() const noexcept;
+/// @brief Convert operator to System::Runtime::CompilerServices::ITuple
+constexpr operator  System::Runtime::CompilerServices::ITuple() const noexcept;
 
 ~ITupleInternal() = default;
 
@@ -34,12 +33,11 @@ constexpr explicit ITupleInternal(void* ptr) noexcept : ::cordl_internals::Inter
 // Methods
 
 /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
- ::StringW ToString(::System::Text::StringBuilder sb) ;
+ ::StringW ToString(System::Text::StringBuilder sb) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::ITupleInternal);
-DEFINE_IL2CPP_ARG_TYPE(::System::ITupleInternal, "System", "ITupleInternal");
+NEED_NO_BOX(System::ITupleInternal);
+DEFINE_IL2CPP_ARG_TYPE(System::ITupleInternal, "System", "ITupleInternal");

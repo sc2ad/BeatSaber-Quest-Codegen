@@ -2,25 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
-namespace Zenject {
-class IFixedTickable;
-}
-namespace Zenject {
-class IInitializable;
-}
-namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
-class ITickable;
-}
-namespace Zenject {
-class InitializableManager;
-}
-namespace Zenject {
-class DisposableManager;
-}
 namespace Zenject {
 class TickableManager;
 }
@@ -28,10 +9,28 @@ namespace System {
 class IDisposable;
 }
 namespace Zenject {
+class IFixedTickable;
+}
+namespace Zenject {
 class ILateDisposable;
 }
 namespace Zenject {
+class IInitializable;
+}
+namespace Zenject {
+class ITickable;
+}
+namespace Zenject {
+class InjectTypeInfo;
+}
+namespace Zenject {
+class InitializableManager;
+}
+namespace Zenject {
 class ILateTickable;
+}
+namespace Zenject {
+class DisposableManager;
 }
 // Forward declare root types
 namespace Zenject {
@@ -46,23 +45,23 @@ namespace Zenject {
 class CORDL_TYPE Kernel : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Zenject::IInitializable
-constexpr operator  ::Zenject::IInitializable() const noexcept;
+/// @brief Convert operator to Zenject::IInitializable
+constexpr operator  Zenject::IInitializable() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
-/// @brief Convert operator to ::Zenject::ITickable
-constexpr operator  ::Zenject::ITickable() const noexcept;
+/// @brief Convert operator to Zenject::ITickable
+constexpr operator  Zenject::ITickable() const noexcept;
 
-/// @brief Convert operator to ::Zenject::ILateTickable
-constexpr operator  ::Zenject::ILateTickable() const noexcept;
+/// @brief Convert operator to Zenject::ILateTickable
+constexpr operator  Zenject::ILateTickable() const noexcept;
 
-/// @brief Convert operator to ::Zenject::IFixedTickable
-constexpr operator  ::Zenject::IFixedTickable() const noexcept;
+/// @brief Convert operator to Zenject::IFixedTickable
+constexpr operator  Zenject::IFixedTickable() const noexcept;
 
-/// @brief Convert operator to ::Zenject::ILateDisposable
-constexpr operator  ::Zenject::ILateDisposable() const noexcept;
+/// @brief Convert operator to Zenject::ILateDisposable
+constexpr operator  Zenject::ILateDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -97,23 +96,23 @@ constexpr explicit Kernel(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr
 
 // Fields
 
- ::Zenject::TickableManager __declspec(property(get=__get__tickableManager, put=__set__tickableManager))  _tickableManager;
+ Zenject::TickableManager __declspec(property(get=__get__tickableManager, put=__set__tickableManager))  _tickableManager;
 
-constexpr void __set__tickableManager(::Zenject::TickableManager value) ;
+constexpr void __set__tickableManager(Zenject::TickableManager value) ;
 
-constexpr ::Zenject::TickableManager __get__tickableManager() const;
+constexpr Zenject::TickableManager __get__tickableManager() const;
 
- ::Zenject::InitializableManager __declspec(property(get=__get__initializableManager, put=__set__initializableManager))  _initializableManager;
+ Zenject::InitializableManager __declspec(property(get=__get__initializableManager, put=__set__initializableManager))  _initializableManager;
 
-constexpr void __set__initializableManager(::Zenject::InitializableManager value) ;
+constexpr void __set__initializableManager(Zenject::InitializableManager value) ;
 
-constexpr ::Zenject::InitializableManager __get__initializableManager() const;
+constexpr Zenject::InitializableManager __get__initializableManager() const;
 
- ::Zenject::DisposableManager __declspec(property(get=__get__disposablesManager, put=__set__disposablesManager))  _disposablesManager;
+ Zenject::DisposableManager __declspec(property(get=__get__disposablesManager, put=__set__disposablesManager))  _disposablesManager;
 
-constexpr void __set__disposablesManager(::Zenject::DisposableManager value) ;
+constexpr void __set__disposablesManager(Zenject::DisposableManager value) ;
 
-constexpr ::Zenject::DisposableManager __get__disposablesManager() const;
+constexpr Zenject::DisposableManager __get__disposablesManager() const;
 
 
 // Methods
@@ -155,12 +154,11 @@ static void __zenFieldSetter1(::bs_hook::Il2CppWrapperType P_0, ::bs_hook::Il2Cp
 static void __zenFieldSetter2(::bs_hook::Il2CppWrapperType P_0, ::bs_hook::Il2CppWrapperType P_1) ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x2d9bc80 size 0x4c8 virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::Kernel);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::Kernel, "Zenject", "Kernel");
+NEED_NO_BOX(Zenject::Kernel);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::Kernel, "Zenject", "Kernel");

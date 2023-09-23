@@ -4,21 +4,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
-namespace {
 namespace RootMotion::FinalIK {
-class FullBodyBipedIK;
-}
-namespace UnityEngine {
-struct Vector3;
+class RootMotion__FinalIK__Grounding__Leg;
 }
 namespace UnityEngine {
 class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace RootMotion::FinalIK {
 class IKEffector;
 }
 namespace RootMotion::FinalIK {
-class ____RootMotion__FinalIK__Grounding__Leg;
+class FullBodyBipedIK;
 }
 namespace RootMotion::FinalIK {
 struct FullBodyBipedEffector;
@@ -28,7 +27,7 @@ namespace RootMotion::FinalIK {
 class GrounderFBBIK;
 }
 namespace RootMotion::FinalIK {
-class ____RootMotion__FinalIK__GrounderFBBIK__SpineEffector;
+class RootMotion__FinalIK__GrounderFBBIK__SpineEffector;
 }
 // Type: ::SpineEffector
 namespace RootMotion::FinalIK {
@@ -36,47 +35,47 @@ namespace RootMotion::FinalIK {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12462))
 // CS Name: RootMotion.FinalIK.GrounderFBBIK::SpineEffector
-class CORDL_TYPE ____RootMotion__FinalIK__GrounderFBBIK__SpineEffector : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE RootMotion__FinalIK__GrounderFBBIK__SpineEffector : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____RootMotion__FinalIK__GrounderFBBIK__SpineEffector() = default;
+virtual ~RootMotion__FinalIK__GrounderFBBIK__SpineEffector() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____RootMotion__FinalIK__GrounderFBBIK__SpineEffector", modifiers: " const&", def_value: None }]
-constexpr ____RootMotion__FinalIK__GrounderFBBIK__SpineEffector(____RootMotion__FinalIK__GrounderFBBIK__SpineEffector const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "RootMotion__FinalIK__GrounderFBBIK__SpineEffector", modifiers: " const&", def_value: None }]
+constexpr RootMotion__FinalIK__GrounderFBBIK__SpineEffector(RootMotion__FinalIK__GrounderFBBIK__SpineEffector const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____RootMotion__FinalIK__GrounderFBBIK__SpineEffector", modifiers: "&&", def_value: None }]
-constexpr ____RootMotion__FinalIK__GrounderFBBIK__SpineEffector(____RootMotion__FinalIK__GrounderFBBIK__SpineEffector&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "RootMotion__FinalIK__GrounderFBBIK__SpineEffector", modifiers: "&&", def_value: None }]
+constexpr RootMotion__FinalIK__GrounderFBBIK__SpineEffector(RootMotion__FinalIK__GrounderFBBIK__SpineEffector&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____RootMotion__FinalIK__GrounderFBBIK__SpineEffector(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit RootMotion__FinalIK__GrounderFBBIK__SpineEffector(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____RootMotion__FinalIK__GrounderFBBIK__SpineEffector& operator=(std::nullptr_t) noexcept {
+  constexpr RootMotion__FinalIK__GrounderFBBIK__SpineEffector& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____RootMotion__FinalIK__GrounderFBBIK__SpineEffector& operator=(void* o) noexcept {
+  constexpr RootMotion__FinalIK__GrounderFBBIK__SpineEffector& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____RootMotion__FinalIK__GrounderFBBIK__SpineEffector& operator=(____RootMotion__FinalIK__GrounderFBBIK__SpineEffector&& o) noexcept = default;
-  constexpr ____RootMotion__FinalIK__GrounderFBBIK__SpineEffector& operator=(____RootMotion__FinalIK__GrounderFBBIK__SpineEffector const& o) noexcept = default;
+  constexpr RootMotion__FinalIK__GrounderFBBIK__SpineEffector& operator=(RootMotion__FinalIK__GrounderFBBIK__SpineEffector&& o) noexcept = default;
+  constexpr RootMotion__FinalIK__GrounderFBBIK__SpineEffector& operator=(RootMotion__FinalIK__GrounderFBBIK__SpineEffector const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::RootMotion::FinalIK::FullBodyBipedEffector __declspec(property(get=__get_effectorType, put=__set_effectorType))  effectorType;
+ RootMotion::FinalIK::FullBodyBipedEffector __declspec(property(get=__get_effectorType, put=__set_effectorType))  effectorType;
 
-constexpr void __set_effectorType(::RootMotion::FinalIK::FullBodyBipedEffector value) ;
+constexpr void __set_effectorType(RootMotion::FinalIK::FullBodyBipedEffector value) ;
 
-constexpr ::RootMotion::FinalIK::FullBodyBipedEffector __get_effectorType() const;
+constexpr RootMotion::FinalIK::FullBodyBipedEffector __get_effectorType() const;
 
  float_t __declspec(property(get=__get_horizontalWeight, put=__set_horizontalWeight))  horizontalWeight;
 
@@ -94,16 +93,16 @@ constexpr float_t __get_verticalWeight() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____RootMotion__FinalIK__GrounderFBBIK__SpineEffector() ;
+explicit RootMotion__FinalIK__GrounderFBBIK__SpineEffector() ;
 
 /// @brief Method .ctor addr 0x11bd564 size 0x10 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "effectorType", ty: "::RootMotion::FinalIK::FullBodyBipedEffector", modifiers: "", def_value: None }, CppParam { name: "horizontalWeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "verticalWeight", ty: "float_t", modifiers: "", def_value: None }]
-explicit ____RootMotion__FinalIK__GrounderFBBIK__SpineEffector(::RootMotion::FinalIK::FullBodyBipedEffector effectorType, float_t horizontalWeight, float_t verticalWeight) ;
+// Ctor Parameters [CppParam { name: "effectorType", ty: "RootMotion::FinalIK::FullBodyBipedEffector", modifiers: "", def_value: None }, CppParam { name: "horizontalWeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "verticalWeight", ty: "float_t", modifiers: "", def_value: None }]
+explicit RootMotion__FinalIK__GrounderFBBIK__SpineEffector(RootMotion::FinalIK::FullBodyBipedEffector effectorType, float_t horizontalWeight, float_t verticalWeight) ;
 
 /// @brief Method .ctor addr 0x11bd574 size 0x44 virtual false final false
- void _ctor(::RootMotion::FinalIK::FullBodyBipedEffector effectorType, float_t horizontalWeight, float_t verticalWeight) ;
+ void _ctor(RootMotion::FinalIK::FullBodyBipedEffector effectorType, float_t horizontalWeight, float_t verticalWeight) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -115,10 +114,10 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12460))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12463))
 // CS Name: RootMotion.FinalIK.GrounderFBBIK
-class CORDL_TYPE GrounderFBBIK : public ::RootMotion::FinalIK::Grounder {
+class CORDL_TYPE GrounderFBBIK : public RootMotion::FinalIK::Grounder {
 public:
 // Declarations
-using SpineEffector = ::RootMotion::FinalIK::____RootMotion__FinalIK__GrounderFBBIK__SpineEffector;
+using SpineEffector = RootMotion::FinalIK::RootMotion__FinalIK__GrounderFBBIK__SpineEffector;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x70};
@@ -132,7 +131,7 @@ constexpr GrounderFBBIK(GrounderFBBIK const& ) noexcept = default;
 constexpr GrounderFBBIK(GrounderFBBIK&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GrounderFBBIK(void* ptr) noexcept : ::RootMotion::FinalIK::Grounder(ptr) {
+constexpr explicit GrounderFBBIK(void* ptr) noexcept : RootMotion::FinalIK::Grounder(ptr) {
 }
 
 
@@ -153,11 +152,11 @@ constexpr explicit GrounderFBBIK(void* ptr) noexcept : ::RootMotion::FinalIK::Gr
 
 // Fields
 
- ::RootMotion::FinalIK::FullBodyBipedIK __declspec(property(get=__get_ik, put=__set_ik))  ik;
+ RootMotion::FinalIK::FullBodyBipedIK __declspec(property(get=__get_ik, put=__set_ik))  ik;
 
-constexpr void __set_ik(::RootMotion::FinalIK::FullBodyBipedIK value) ;
+constexpr void __set_ik(RootMotion::FinalIK::FullBodyBipedIK value) ;
 
-constexpr ::RootMotion::FinalIK::FullBodyBipedIK __get_ik() const;
+constexpr RootMotion::FinalIK::FullBodyBipedIK __get_ik() const;
 
  float_t __declspec(property(get=__get_spineBend, put=__set_spineBend))  spineBend;
 
@@ -171,23 +170,23 @@ constexpr void __set_spineSpeed(float_t value) ;
 
 constexpr float_t __get_spineSpeed() const;
 
- ::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__GrounderFBBIK__SpineEffector> __declspec(property(get=__get_spine, put=__set_spine))  spine;
+ ::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__GrounderFBBIK__SpineEffector> __declspec(property(get=__get_spine, put=__set_spine))  spine;
 
-constexpr void __set_spine(::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__GrounderFBBIK__SpineEffector> value) ;
+constexpr void __set_spine(::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__GrounderFBBIK__SpineEffector> value) ;
 
-constexpr ::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__GrounderFBBIK__SpineEffector> __get_spine() const;
+constexpr ::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__GrounderFBBIK__SpineEffector> __get_spine() const;
 
- ::ArrayW<::UnityEngine::Transform> __declspec(property(get=__get_feet, put=__set_feet))  feet;
+ ::ArrayW<UnityEngine::Transform> __declspec(property(get=__get_feet, put=__set_feet))  feet;
 
-constexpr void __set_feet(::ArrayW<::UnityEngine::Transform> value) ;
+constexpr void __set_feet(::ArrayW<UnityEngine::Transform> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Transform> __get_feet() const;
+constexpr ::ArrayW<UnityEngine::Transform> __get_feet() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_spineOffset, put=__set_spineOffset))  spineOffset;
+ UnityEngine::Vector3 __declspec(property(get=__get_spineOffset, put=__set_spineOffset))  spineOffset;
 
-constexpr void __set_spineOffset(::UnityEngine::Vector3 value) ;
+constexpr void __set_spineOffset(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_spineOffset() const;
+constexpr UnityEngine::Vector3 __get_spineOffset() const;
 
  bool __declspec(property(get=__get_firstSolve, put=__set_firstSolve))  firstSolve;
 
@@ -229,7 +228,7 @@ constexpr bool __get_firstSolve() const;
  void OnSolverUpdate() ;
 
 /// @brief Method SetLegIK addr 0x11bd108 size 0x184 virtual false final false
- void SetLegIK(::RootMotion::FinalIK::IKEffector effector, ::RootMotion::FinalIK::____RootMotion__FinalIK__Grounding__Leg leg) ;
+ void SetLegIK(RootMotion::FinalIK::IKEffector effector, RootMotion::FinalIK::RootMotion__FinalIK__Grounding__Leg leg) ;
 
 /// @brief Method OnDrawGizmosSelected addr 0x11bd28c size 0x134 virtual false final false
  void OnDrawGizmosSelected() ;
@@ -247,8 +246,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::GrounderFBBIK);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::GrounderFBBIK, "RootMotion.FinalIK", "GrounderFBBIK");
-NEED_NO_BOX(::RootMotion::FinalIK::____RootMotion__FinalIK__GrounderFBBIK__SpineEffector);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::____RootMotion__FinalIK__GrounderFBBIK__SpineEffector, "RootMotion.FinalIK", "GrounderFBBIK/SpineEffector");
+NEED_NO_BOX(RootMotion::FinalIK::GrounderFBBIK);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GrounderFBBIK, "RootMotion.FinalIK", "GrounderFBBIK");
+NEED_NO_BOX(RootMotion::FinalIK::RootMotion__FinalIK__GrounderFBBIK__SpineEffector);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RootMotion__FinalIK__GrounderFBBIK__SpineEffector, "RootMotion.FinalIK", "GrounderFBBIK/SpineEffector");

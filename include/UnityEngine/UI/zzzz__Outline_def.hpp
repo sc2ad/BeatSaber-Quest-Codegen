@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UI/zzzz__Shadow_def.hpp"
-namespace {
 namespace UnityEngine::UI {
 class VertexHelper;
 }
@@ -15,7 +14,7 @@ namespace UnityEngine::UI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13087))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13085))
 // CS Name: UnityEngine.UI.Outline
-class CORDL_TYPE Outline : public ::UnityEngine::UI::Shadow {
+class CORDL_TYPE Outline : public UnityEngine::UI::Shadow {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr Outline(Outline const& ) noexcept = default;
 constexpr Outline(Outline&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Outline(void* ptr) noexcept : ::UnityEngine::UI::Shadow(ptr) {
+constexpr explicit Outline(void* ptr) noexcept : UnityEngine::UI::Shadow(ptr) {
 }
 
 
@@ -58,12 +57,11 @@ explicit Outline() ;
  void _ctor() ;
 
 /// @brief Method ModifyMesh addr 0x2c1778c size 0xc40 virtual true final false
- void ModifyMesh(::UnityEngine::UI::VertexHelper vh) ;
+ void ModifyMesh(UnityEngine::UI::VertexHelper vh) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UI
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UI::Outline);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::Outline, "UnityEngine.UI", "Outline");
+NEED_NO_BOX(UnityEngine::UI::Outline);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Outline, "UnityEngine.UI", "Outline");

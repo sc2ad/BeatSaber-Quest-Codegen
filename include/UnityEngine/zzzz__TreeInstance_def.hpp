@@ -3,12 +3,11 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine {
 struct Color32;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -23,8 +22,8 @@ namespace UnityEngine {
 struct CORDL_TYPE TreeInstance : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "widthScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "heightScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "color", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "lightmapColor", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "prototypeIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "temporaryDistance", ty: "float_t", modifiers: "", def_value: None }]
-constexpr TreeInstance(::UnityEngine::Vector3 position, float_t widthScale, float_t heightScale, float_t rotation, ::UnityEngine::Color32 color, ::UnityEngine::Color32 lightmapColor, int32_t prototypeIndex, float_t temporaryDistance) noexcept;
+// Ctor Parameters [CppParam { name: "position", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "widthScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "heightScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "color", ty: "UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "lightmapColor", ty: "UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "prototypeIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "temporaryDistance", ty: "float_t", modifiers: "", def_value: None }]
+constexpr TreeInstance(UnityEngine::Vector3 position, float_t widthScale, float_t heightScale, float_t rotation, UnityEngine::Color32 color, UnityEngine::Color32 lightmapColor, int32_t prototypeIndex, float_t temporaryDistance) noexcept;
 
 
                     constexpr TreeInstance(TreeInstance const&) = default;
@@ -57,11 +56,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_position, put=__set_position))  position;
+ UnityEngine::Vector3 __declspec(property(get=__get_position, put=__set_position))  position;
 
-constexpr void __set_position(::UnityEngine::Vector3 value) ;
+constexpr void __set_position(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_position() const;
+constexpr UnityEngine::Vector3 __get_position() const;
 
  float_t __declspec(property(get=__get_widthScale, put=__set_widthScale))  widthScale;
 
@@ -81,17 +80,17 @@ constexpr void __set_rotation(float_t value) ;
 
 constexpr float_t __get_rotation() const;
 
- ::UnityEngine::Color32 __declspec(property(get=__get_color, put=__set_color))  color;
+ UnityEngine::Color32 __declspec(property(get=__get_color, put=__set_color))  color;
 
-constexpr void __set_color(::UnityEngine::Color32 value) ;
+constexpr void __set_color(UnityEngine::Color32 value) ;
 
-constexpr ::UnityEngine::Color32 __get_color() const;
+constexpr UnityEngine::Color32 __get_color() const;
 
- ::UnityEngine::Color32 __declspec(property(get=__get_lightmapColor, put=__set_lightmapColor))  lightmapColor;
+ UnityEngine::Color32 __declspec(property(get=__get_lightmapColor, put=__set_lightmapColor))  lightmapColor;
 
-constexpr void __set_lightmapColor(::UnityEngine::Color32 value) ;
+constexpr void __set_lightmapColor(UnityEngine::Color32 value) ;
 
-constexpr ::UnityEngine::Color32 __get_lightmapColor() const;
+constexpr UnityEngine::Color32 __get_lightmapColor() const;
 
  int32_t __declspec(property(get=__get_prototypeIndex, put=__set_prototypeIndex))  prototypeIndex;
 
@@ -109,5 +108,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TreeInstance, "UnityEngine", "TreeInstance");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TreeInstance, "UnityEngine", "TreeInstance");

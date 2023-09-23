@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security::Permissions {
 struct ReflectionPermissionFlag;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field AllFlags offset 0
-static ::System::Security::Permissions::ReflectionPermissionFlag const AllFlags;
+static System::Security::Permissions::ReflectionPermissionFlag const AllFlags;
 
 /// @brief Field MemberAccess offset 0
-static ::System::Security::Permissions::ReflectionPermissionFlag const MemberAccess;
+static System::Security::Permissions::ReflectionPermissionFlag const MemberAccess;
 
 /// @brief Field NoFlags offset 0
-static ::System::Security::Permissions::ReflectionPermissionFlag const NoFlags;
+static System::Security::Permissions::ReflectionPermissionFlag const NoFlags;
 
 /// @brief Field ReflectionEmit offset 0
-static ::System::Security::Permissions::ReflectionPermissionFlag const ReflectionEmit;
+static System::Security::Permissions::ReflectionPermissionFlag const ReflectionEmit;
 
 /// @brief Field RestrictedMemberAccess offset 0
-static ::System::Security::Permissions::ReflectionPermissionFlag const RestrictedMemberAccess;
+static System::Security::Permissions::ReflectionPermissionFlag const RestrictedMemberAccess;
 
 /// @brief Field TypeInformation offset 0
-static ::System::Security::Permissions::ReflectionPermissionFlag const TypeInformation;
+static System::Security::Permissions::ReflectionPermissionFlag const TypeInformation;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Security::Permissions
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Permissions::ReflectionPermissionFlag, "System.Security.Permissions", "ReflectionPermissionFlag");
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Permissions::ReflectionPermissionFlag, "System.Security.Permissions", "ReflectionPermissionFlag");

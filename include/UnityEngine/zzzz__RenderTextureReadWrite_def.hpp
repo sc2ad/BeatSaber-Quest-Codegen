@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct RenderTextureReadWrite;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Default offset 0
-static ::UnityEngine::RenderTextureReadWrite const Default;
+static UnityEngine::RenderTextureReadWrite const Default;
 
 /// @brief Field Linear offset 0
-static ::UnityEngine::RenderTextureReadWrite const Linear;
+static UnityEngine::RenderTextureReadWrite const Linear;
 
 /// @brief Field sRGB offset 0
-static ::UnityEngine::RenderTextureReadWrite const sRGB;
+static UnityEngine::RenderTextureReadWrite const sRGB;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::RenderTextureReadWrite, "UnityEngine", "RenderTextureReadWrite");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RenderTextureReadWrite, "UnityEngine", "RenderTextureReadWrite");

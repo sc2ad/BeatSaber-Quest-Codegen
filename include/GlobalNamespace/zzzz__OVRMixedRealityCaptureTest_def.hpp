@@ -3,16 +3,15 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Fovf;
+}
 namespace UnityEngine {
 class Camera;
 }
-namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRPlugin__Fovf;
-}
 // Forward declare root types
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode;
+struct GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode;
 }
 namespace GlobalNamespace {
 class OVRMixedRealityCaptureTest;
@@ -23,20 +22,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8932))
 // CS Name: OVRMixedRealityCaptureTest::CameraMode
-struct CORDL_TYPE ____GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode(int32_t value__) noexcept;
+constexpr GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode(____GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode const&) = default;
-                    constexpr ____GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode(____GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode&&) = default;
-                    constexpr ____GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode& operator=(____GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode const& o) {
+                    constexpr GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode(GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode const&) = default;
+                    constexpr GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode(GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode&&) = default;
+                    constexpr GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode& operator=(GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode& operator=(____GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode&& o) noexcept {
+                    constexpr GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode& operator=(GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -49,7 +48,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -57,15 +56,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode_Unwrapped : int32_t {
+enum class __GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode_Unwrapped : int32_t {
 __Normal = 0,
 __OverrideFov = 1,
 __ThirdPerson = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode_Unwrapped>(__instance);
 }
 
 
@@ -78,13 +77,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Normal offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode const Normal;
+static GlobalNamespace::GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode const Normal;
 
 /// @brief Field OverrideFov offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode const OverrideFov;
+static GlobalNamespace::GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode const OverrideFov;
 
 /// @brief Field ThirdPerson offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode const ThirdPerson;
+static GlobalNamespace::GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode const ThirdPerson;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -96,10 +95,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8933))
 // CS Name: OVRMixedRealityCaptureTest
-class CORDL_TYPE OVRMixedRealityCaptureTest : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OVRMixedRealityCaptureTest : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using CameraMode = ::GlobalNamespace::____GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode;
+using CameraMode = GlobalNamespace::GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -113,7 +112,7 @@ constexpr OVRMixedRealityCaptureTest(OVRMixedRealityCaptureTest const& ) noexcep
 constexpr OVRMixedRealityCaptureTest(OVRMixedRealityCaptureTest&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OVRMixedRealityCaptureTest(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OVRMixedRealityCaptureTest(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -140,23 +139,23 @@ constexpr void __set_inited(bool value) ;
 
 constexpr bool __get_inited() const;
 
- ::GlobalNamespace::____GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode __declspec(property(get=__get_currentMode, put=__set_currentMode))  currentMode;
+ GlobalNamespace::GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode __declspec(property(get=__get_currentMode, put=__set_currentMode))  currentMode;
 
-constexpr void __set_currentMode(::GlobalNamespace::____GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode value) ;
+constexpr void __set_currentMode(GlobalNamespace::GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode __get_currentMode() const;
+constexpr GlobalNamespace::GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode __get_currentMode() const;
 
- ::UnityEngine::Camera __declspec(property(get=__get_defaultExternalCamera, put=__set_defaultExternalCamera))  defaultExternalCamera;
+ UnityEngine::Camera __declspec(property(get=__get_defaultExternalCamera, put=__set_defaultExternalCamera))  defaultExternalCamera;
 
-constexpr void __set_defaultExternalCamera(::UnityEngine::Camera value) ;
+constexpr void __set_defaultExternalCamera(UnityEngine::Camera value) ;
 
-constexpr ::UnityEngine::Camera __get_defaultExternalCamera() const;
+constexpr UnityEngine::Camera __get_defaultExternalCamera() const;
 
- ::GlobalNamespace::____GlobalNamespace__OVRPlugin__Fovf __declspec(property(get=__get_defaultFov, put=__set_defaultFov))  defaultFov;
+ GlobalNamespace::GlobalNamespace__OVRPlugin__Fovf __declspec(property(get=__get_defaultFov, put=__set_defaultFov))  defaultFov;
 
-constexpr void __set_defaultFov(::GlobalNamespace::____GlobalNamespace__OVRPlugin__Fovf value) ;
+constexpr void __set_defaultFov(GlobalNamespace::GlobalNamespace__OVRPlugin__Fovf value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVRPlugin__Fovf __get_defaultFov() const;
+constexpr GlobalNamespace::GlobalNamespace__OVRPlugin__Fovf __get_defaultFov() const;
 
 
 // Methods
@@ -183,7 +182,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode, "", "OVRMixedRealityCaptureTest/CameraMode");
-NEED_NO_BOX(::GlobalNamespace::OVRMixedRealityCaptureTest);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRMixedRealityCaptureTest, "", "OVRMixedRealityCaptureTest");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode, "", "OVRMixedRealityCaptureTest/CameraMode");
+NEED_NO_BOX(GlobalNamespace::OVRMixedRealityCaptureTest);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedRealityCaptureTest, "", "OVRMixedRealityCaptureTest");

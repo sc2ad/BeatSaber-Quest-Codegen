@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace BGNet::Core {
 class ITimeProvider;
@@ -34,6 +33,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def BGNet::Core
-} // end anonymous namespace
-NEED_NO_BOX(::BGNet::Core::ITimeProvider);
-DEFINE_IL2CPP_ARG_TYPE(::BGNet::Core::ITimeProvider, "BGNet.Core", "ITimeProvider");
+NEED_NO_BOX(BGNet::Core::ITimeProvider);
+DEFINE_IL2CPP_ARG_TYPE(BGNet::Core::ITimeProvider, "BGNet.Core", "ITimeProvider");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HAPI_EnvIntType;
@@ -74,35 +73,34 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field HAPI_ENVINT_INVALID offset 0
-static ::HoudiniEngineUnity::HAPI_EnvIntType const HAPI_ENVINT_INVALID;
+static HoudiniEngineUnity::HAPI_EnvIntType const HAPI_ENVINT_INVALID;
 
 /// @brief Field HAPI_ENVINT_VERSION_HOUDINI_MAJOR offset 0
-static ::HoudiniEngineUnity::HAPI_EnvIntType const HAPI_ENVINT_VERSION_HOUDINI_MAJOR;
+static HoudiniEngineUnity::HAPI_EnvIntType const HAPI_ENVINT_VERSION_HOUDINI_MAJOR;
 
 /// @brief Field HAPI_ENVINT_VERSION_HOUDINI_MINOR offset 0
-static ::HoudiniEngineUnity::HAPI_EnvIntType const HAPI_ENVINT_VERSION_HOUDINI_MINOR;
+static HoudiniEngineUnity::HAPI_EnvIntType const HAPI_ENVINT_VERSION_HOUDINI_MINOR;
 
 /// @brief Field HAPI_ENVINT_VERSION_HOUDINI_BUILD offset 0
-static ::HoudiniEngineUnity::HAPI_EnvIntType const HAPI_ENVINT_VERSION_HOUDINI_BUILD;
+static HoudiniEngineUnity::HAPI_EnvIntType const HAPI_ENVINT_VERSION_HOUDINI_BUILD;
 
 /// @brief Field HAPI_ENVINT_VERSION_HOUDINI_PATCH offset 0
-static ::HoudiniEngineUnity::HAPI_EnvIntType const HAPI_ENVINT_VERSION_HOUDINI_PATCH;
+static HoudiniEngineUnity::HAPI_EnvIntType const HAPI_ENVINT_VERSION_HOUDINI_PATCH;
 
 /// @brief Field HAPI_ENVINT_VERSION_HOUDINI_ENGINE_MAJOR offset 0
-static ::HoudiniEngineUnity::HAPI_EnvIntType const HAPI_ENVINT_VERSION_HOUDINI_ENGINE_MAJOR;
+static HoudiniEngineUnity::HAPI_EnvIntType const HAPI_ENVINT_VERSION_HOUDINI_ENGINE_MAJOR;
 
 /// @brief Field HAPI_ENVINT_VERSION_HOUDINI_ENGINE_MINOR offset 0
-static ::HoudiniEngineUnity::HAPI_EnvIntType const HAPI_ENVINT_VERSION_HOUDINI_ENGINE_MINOR;
+static HoudiniEngineUnity::HAPI_EnvIntType const HAPI_ENVINT_VERSION_HOUDINI_ENGINE_MINOR;
 
 /// @brief Field HAPI_ENVINT_VERSION_HOUDINI_ENGINE_API offset 0
-static ::HoudiniEngineUnity::HAPI_EnvIntType const HAPI_ENVINT_VERSION_HOUDINI_ENGINE_API;
+static HoudiniEngineUnity::HAPI_EnvIntType const HAPI_ENVINT_VERSION_HOUDINI_ENGINE_API;
 
 /// @brief Field HAPI_ENVINT_MAX offset 0
-static ::HoudiniEngineUnity::HAPI_EnvIntType const HAPI_ENVINT_MAX;
+static HoudiniEngineUnity::HAPI_EnvIntType const HAPI_ENVINT_MAX;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_EnvIntType, "HoudiniEngineUnity", "HAPI_EnvIntType");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_EnvIntType, "HoudiniEngineUnity", "HAPI_EnvIntType");

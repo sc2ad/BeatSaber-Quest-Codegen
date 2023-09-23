@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace UnityEngine {
-class Texture2D;
-}
 namespace UnityEngine {
 class RenderTexture;
+}
+namespace UnityEngine {
+class Texture2D;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -55,12 +54,11 @@ constexpr explicit RenderTextureExtensions(void* ptr) noexcept : ::bs_hook::Il2C
 // Methods
 
 /// @brief Method GetTexture2D addr 0x1f741e0 size 0x154 virtual false final false
-static ::UnityEngine::Texture2D GetTexture2D(::UnityEngine::RenderTexture rt) ;
+static UnityEngine::Texture2D GetTexture2D(UnityEngine::RenderTexture rt) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::RenderTextureExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RenderTextureExtensions, "", "RenderTextureExtensions");
+NEED_NO_BOX(GlobalNamespace::RenderTextureExtensions);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RenderTextureExtensions, "", "RenderTextureExtensions");

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
@@ -38,7 +37,7 @@ constexpr explicit IAeadCipher(void* ptr) noexcept : ::cordl_internals::Interfac
  ::StringW get_AlgorithmName() ;
 
 /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
- void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method ProcessAadByte addr 0x0 size 0xffffffffffffffff virtual true final false
  void ProcessAadByte(uint8_t input) ;
@@ -71,6 +70,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Modes
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Modes::IAeadCipher);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Modes::IAeadCipher, "Org.BouncyCastle.Crypto.Modes", "IAeadCipher");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Modes::IAeadCipher);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::IAeadCipher, "Org.BouncyCastle.Crypto.Modes", "IAeadCipher");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
@@ -23,8 +22,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE OculusAnalyticsModel : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IAnalyticsModel
-constexpr operator  ::GlobalNamespace::IAnalyticsModel() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IAnalyticsModel
+constexpr operator  GlobalNamespace::IAnalyticsModel() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -71,19 +70,19 @@ constexpr explicit OculusAnalyticsModel(void* ptr) noexcept : ::bs_hook::Il2CppW
  void OpenDataPrivacyPage() ;
 
 /// @brief Method LogEvent addr 0x20b2ea8 size 0xf8 virtual true final true
- void LogEvent(::StringW eventType, ::System::Collections::Generic::Dictionary_2<::StringW,::StringW> eventData) ;
+ void LogEvent(::StringW eventType, System::Collections::Generic::Dictionary_2<::StringW,::StringW> eventData) ;
 
 /// @brief Method LogEditAvatarEvent addr 0x20b2fa0 size 0xf8 virtual true final true
- void LogEditAvatarEvent(::StringW eventType, ::System::Collections::Generic::Dictionary_2<::StringW,::StringW> eventData) ;
+ void LogEditAvatarEvent(::StringW eventType, System::Collections::Generic::Dictionary_2<::StringW,::StringW> eventData) ;
 
 /// @brief Method LogClick addr 0x20b3098 size 0x90 virtual true final true
- void LogClick(::StringW clickType, ::System::Collections::Generic::Dictionary_2<::StringW,::StringW> clickData) ;
+ void LogClick(::StringW clickType, System::Collections::Generic::Dictionary_2<::StringW,::StringW> clickData) ;
 
 /// @brief Method LogImpression addr 0x20b3128 size 0x90 virtual true final true
- void LogImpression(::StringW impressionType, ::System::Collections::Generic::Dictionary_2<::StringW,::StringW> impressionData) ;
+ void LogImpression(::StringW impressionType, System::Collections::Generic::Dictionary_2<::StringW,::StringW> impressionData) ;
 
 /// @brief Method LogExposure addr 0x20b31b8 size 0x90 virtual true final true
- void LogExposure(::StringW exposureType, ::System::Collections::Generic::Dictionary_2<::StringW,::StringW> exposureData) ;
+ void LogExposure(::StringW exposureType, System::Collections::Generic::Dictionary_2<::StringW,::StringW> exposureData) ;
 
 // Ctor Parameters []
 explicit OculusAnalyticsModel() ;
@@ -95,6 +94,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OculusAnalyticsModel);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OculusAnalyticsModel, "", "OculusAnalyticsModel");
+NEED_NO_BOX(GlobalNamespace::OculusAnalyticsModel);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusAnalyticsModel, "", "OculusAnalyticsModel");

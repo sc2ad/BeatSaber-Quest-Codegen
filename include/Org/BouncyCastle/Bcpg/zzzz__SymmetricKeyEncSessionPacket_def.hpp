@@ -3,9 +3,8 @@
 #include "Org/BouncyCastle/Bcpg/zzzz__ContainedPacket_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
+class BcpgOutputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct SymmetricKeyAlgorithmTag;
@@ -14,7 +13,7 @@ namespace Org::BouncyCastle::Bcpg {
 class S2k;
 }
 namespace Org::BouncyCastle::Bcpg {
-class BcpgOutputStream;
+class BcpgInputStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -26,7 +25,7 @@ namespace Org::BouncyCastle::Bcpg {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(560))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(595))
 // CS Name: Org.BouncyCastle.Bcpg.SymmetricKeyEncSessionPacket
-class CORDL_TYPE SymmetricKeyEncSessionPacket : public ::Org::BouncyCastle::Bcpg::ContainedPacket {
+class CORDL_TYPE SymmetricKeyEncSessionPacket : public Org::BouncyCastle::Bcpg::ContainedPacket {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -41,7 +40,7 @@ constexpr SymmetricKeyEncSessionPacket(SymmetricKeyEncSessionPacket const& ) noe
 constexpr SymmetricKeyEncSessionPacket(SymmetricKeyEncSessionPacket&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SymmetricKeyEncSessionPacket(void* ptr) noexcept : ::Org::BouncyCastle::Bcpg::ContainedPacket(ptr) {
+constexpr explicit SymmetricKeyEncSessionPacket(void* ptr) noexcept : Org::BouncyCastle::Bcpg::ContainedPacket(ptr) {
 }
 
 
@@ -68,17 +67,17 @@ constexpr void __set_version(int32_t value) ;
 
 constexpr int32_t __get_version() const;
 
- ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag __declspec(property(get=__get_encAlgorithm, put=__set_encAlgorithm))  encAlgorithm;
+ Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag __declspec(property(get=__get_encAlgorithm, put=__set_encAlgorithm))  encAlgorithm;
 
-constexpr void __set_encAlgorithm(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag value) ;
+constexpr void __set_encAlgorithm(Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag value) ;
 
-constexpr ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag __get_encAlgorithm() const;
+constexpr Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag __get_encAlgorithm() const;
 
- ::Org::BouncyCastle::Bcpg::S2k __declspec(property(get=__get_s2k, put=__set_s2k))  s2k;
+ Org::BouncyCastle::Bcpg::S2k __declspec(property(get=__get_s2k, put=__set_s2k))  s2k;
 
-constexpr void __set_s2k(::Org::BouncyCastle::Bcpg::S2k value) ;
+constexpr void __set_s2k(Org::BouncyCastle::Bcpg::S2k value) ;
 
-constexpr ::Org::BouncyCastle::Bcpg::S2k __get_s2k() const;
+constexpr Org::BouncyCastle::Bcpg::S2k __get_s2k() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get_secKeyData, put=__set_secKeyData))  secKeyData;
 
@@ -89,32 +88,32 @@ constexpr ::ArrayW<uint8_t> __get_secKeyData() const;
 
 // Properties
 
- ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag __declspec(property(get=get_EncAlgorithm))  EncAlgorithm;
+ Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag __declspec(property(get=get_EncAlgorithm))  EncAlgorithm;
 
- ::Org::BouncyCastle::Bcpg::S2k __declspec(property(get=get_S2k))  S2k;
+ Org::BouncyCastle::Bcpg::S2k __declspec(property(get=get_S2k))  S2k;
 
  int32_t __declspec(property(get=get_Version))  Version;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "::Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
-explicit SymmetricKeyEncSessionPacket(::Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
+explicit SymmetricKeyEncSessionPacket(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
 /// @brief Method .ctor addr 0x1144214 size 0xb4 virtual false final false
- void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+ void _ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
-// Ctor Parameters [CppParam { name: "encAlgorithm", ty: "::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "s2k", ty: "::Org::BouncyCastle::Bcpg::S2k", modifiers: "", def_value: None }, CppParam { name: "secKeyData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit SymmetricKeyEncSessionPacket(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::Org::BouncyCastle::Bcpg::S2k s2k, ::ArrayW<uint8_t> secKeyData) ;
+// Ctor Parameters [CppParam { name: "encAlgorithm", ty: "Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "s2k", ty: "Org::BouncyCastle::Bcpg::S2k", modifiers: "", def_value: None }, CppParam { name: "secKeyData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
+explicit SymmetricKeyEncSessionPacket(Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, Org::BouncyCastle::Bcpg::S2k s2k, ::ArrayW<uint8_t> secKeyData) ;
 
 /// @brief Method .ctor addr 0x114aa54 size 0x40 virtual false final false
- void _ctor(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::Org::BouncyCastle::Bcpg::S2k s2k, ::ArrayW<uint8_t> secKeyData) ;
+ void _ctor(Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, Org::BouncyCastle::Bcpg::S2k s2k, ::ArrayW<uint8_t> secKeyData) ;
 
 /// @brief Method get_EncAlgorithm addr 0x114aa94 size 0x8 virtual false final false
- ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag get_EncAlgorithm() ;
+ Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag get_EncAlgorithm() ;
 
 /// @brief Method get_S2k addr 0x114aa9c size 0x8 virtual false final false
- ::Org::BouncyCastle::Bcpg::S2k get_S2k() ;
+ Org::BouncyCastle::Bcpg::S2k get_S2k() ;
 
 /// @brief Method GetSecKeyData addr 0x114aaa4 size 0x8 virtual false final false
  ::ArrayW<uint8_t> GetSecKeyData() ;
@@ -123,12 +122,11 @@ explicit SymmetricKeyEncSessionPacket(::Org::BouncyCastle::Bcpg::SymmetricKeyAlg
  int32_t get_Version() ;
 
 /// @brief Method Encode addr 0x114aab4 size 0x15c virtual true final false
- void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream bcpgOut) ;
+ void Encode(Org::BouncyCastle::Bcpg::BcpgOutputStream bcpgOut) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket, "Org.BouncyCastle.Bcpg", "SymmetricKeyEncSessionPacket");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket, "Org.BouncyCastle.Bcpg", "SymmetricKeyEncSessionPacket");

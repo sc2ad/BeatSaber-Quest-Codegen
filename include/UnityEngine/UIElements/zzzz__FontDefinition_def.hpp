@@ -4,16 +4,15 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class Font;
-}
 namespace System {
 template<typename T>
 class IEquatable_1;
 }
 namespace UnityEngine::TextCore::Text {
 class FontAsset;
+}
+namespace UnityEngine {
+class Font;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -28,11 +27,11 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE FontDefinition : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::UIElements::FontDefinition>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::UIElements::FontDefinition>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::UIElements::FontDefinition>
+constexpr operator  System::IEquatable_1<UnityEngine::UIElements::FontDefinition>() const;
 
-// Ctor Parameters [CppParam { name: "m_Font", ty: "::UnityEngine::Font", modifiers: "", def_value: None }, CppParam { name: "m_FontAsset", ty: "::UnityEngine::TextCore::Text::FontAsset", modifiers: "", def_value: None }]
-constexpr FontDefinition(::UnityEngine::Font m_Font, ::UnityEngine::TextCore::Text::FontAsset m_FontAsset) noexcept;
+// Ctor Parameters [CppParam { name: "m_Font", ty: "UnityEngine::Font", modifiers: "", def_value: None }, CppParam { name: "m_FontAsset", ty: "UnityEngine::TextCore::Text::FontAsset", modifiers: "", def_value: None }]
+constexpr FontDefinition(UnityEngine::Font m_Font, UnityEngine::TextCore::Text::FontAsset m_FontAsset) noexcept;
 
 
                     constexpr FontDefinition(FontDefinition const&) = default;
@@ -65,42 +64,42 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Font __declspec(property(get=__get_m_Font, put=__set_m_Font))  m_Font;
+ UnityEngine::Font __declspec(property(get=__get_m_Font, put=__set_m_Font))  m_Font;
 
-constexpr void __set_m_Font(::UnityEngine::Font value) ;
+constexpr void __set_m_Font(UnityEngine::Font value) ;
 
-constexpr ::UnityEngine::Font __get_m_Font() const;
+constexpr UnityEngine::Font __get_m_Font() const;
 
- ::UnityEngine::TextCore::Text::FontAsset __declspec(property(get=__get_m_FontAsset, put=__set_m_FontAsset))  m_FontAsset;
+ UnityEngine::TextCore::Text::FontAsset __declspec(property(get=__get_m_FontAsset, put=__set_m_FontAsset))  m_FontAsset;
 
-constexpr void __set_m_FontAsset(::UnityEngine::TextCore::Text::FontAsset value) ;
+constexpr void __set_m_FontAsset(UnityEngine::TextCore::Text::FontAsset value) ;
 
-constexpr ::UnityEngine::TextCore::Text::FontAsset __get_m_FontAsset() const;
+constexpr UnityEngine::TextCore::Text::FontAsset __get_m_FontAsset() const;
 
 
 // Properties
 
- ::UnityEngine::Font __declspec(property(get=get_font))  font;
+ UnityEngine::Font __declspec(property(get=get_font))  font;
 
- ::UnityEngine::TextCore::Text::FontAsset __declspec(property(get=get_fontAsset))  fontAsset;
+ UnityEngine::TextCore::Text::FontAsset __declspec(property(get=get_fontAsset))  fontAsset;
 
 
 // Methods
 
 /// @brief Method get_font addr 0x2cf58cc size 0x8 virtual false final false
- ::UnityEngine::Font get_font() ;
+ UnityEngine::Font get_font() ;
 
 /// @brief Method get_fontAsset addr 0x2cf58d4 size 0x8 virtual false final false
- ::UnityEngine::TextCore::Text::FontAsset get_fontAsset() ;
+ UnityEngine::TextCore::Text::FontAsset get_fontAsset() ;
 
 /// @brief Method FromFont addr 0x2cf58dc size 0x8 virtual false final false
-static ::UnityEngine::UIElements::FontDefinition FromFont(::UnityEngine::Font f) ;
+static UnityEngine::UIElements::FontDefinition FromFont(UnityEngine::Font f) ;
 
 /// @brief Method FromSDFFont addr 0x2cf58e4 size 0xc virtual false final false
-static ::UnityEngine::UIElements::FontDefinition FromSDFFont(::UnityEngine::TextCore::Text::FontAsset f) ;
+static UnityEngine::UIElements::FontDefinition FromSDFFont(UnityEngine::TextCore::Text::FontAsset f) ;
 
 /// @brief Method FromObject addr 0x2cf58f0 size 0x118 virtual false final false
-static ::UnityEngine::UIElements::FontDefinition FromObject(::bs_hook::Il2CppWrapperType obj) ;
+static UnityEngine::UIElements::FontDefinition FromObject(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method IsEmpty addr 0x2cf5a08 size 0x98 virtual false final false
  bool IsEmpty() ;
@@ -109,7 +108,7 @@ static ::UnityEngine::UIElements::FontDefinition FromObject(::bs_hook::Il2CppWra
  ::StringW ToString() ;
 
 /// @brief Method Equals addr 0x2cf5b30 size 0x48 virtual true final true
- bool Equals(::UnityEngine::UIElements::FontDefinition other) ;
+ bool Equals(UnityEngine::UIElements::FontDefinition other) ;
 
 /// @brief Method Equals addr 0x2cf5b78 size 0x78 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -118,14 +117,13 @@ static ::UnityEngine::UIElements::FontDefinition FromObject(::bs_hook::Il2CppWra
  int32_t GetHashCode() ;
 
 /// @brief Method op_Equality addr 0x2cf5cd0 size 0x2c virtual false final false
-static bool op_Equality(::UnityEngine::UIElements::FontDefinition left, ::UnityEngine::UIElements::FontDefinition right) ;
+static bool op_Equality(UnityEngine::UIElements::FontDefinition left, UnityEngine::UIElements::FontDefinition right) ;
 
 /// @brief Method op_Inequality addr 0x2cf5cfc size 0x30 virtual false final false
-static bool op_Inequality(::UnityEngine::UIElements::FontDefinition left, ::UnityEngine::UIElements::FontDefinition right) ;
+static bool op_Inequality(UnityEngine::UIElements::FontDefinition left, UnityEngine::UIElements::FontDefinition right) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::FontDefinition, "UnityEngine.UIElements", "FontDefinition");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::FontDefinition, "UnityEngine.UIElements", "FontDefinition");

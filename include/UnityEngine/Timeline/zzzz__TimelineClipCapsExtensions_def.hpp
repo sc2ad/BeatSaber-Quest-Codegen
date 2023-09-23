@@ -1,12 +1,11 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace UnityEngine::Timeline {
-class TimelineClip;
-}
 namespace UnityEngine::Timeline {
 struct ClipCaps;
+}
+namespace UnityEngine::Timeline {
+class TimelineClip;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -55,30 +54,29 @@ constexpr explicit TimelineClipCapsExtensions(void* ptr) noexcept : ::bs_hook::I
 // Methods
 
 /// @brief Method SupportsLooping addr 0x2aca428 size 0x18 virtual false final false
-static bool SupportsLooping(::UnityEngine::Timeline::TimelineClip clip) ;
+static bool SupportsLooping(UnityEngine::Timeline::TimelineClip clip) ;
 
 /// @brief Method SupportsExtrapolation addr 0x2aca440 size 0x18 virtual false final false
-static bool SupportsExtrapolation(::UnityEngine::Timeline::TimelineClip clip) ;
+static bool SupportsExtrapolation(UnityEngine::Timeline::TimelineClip clip) ;
 
 /// @brief Method SupportsClipIn addr 0x2aca458 size 0x18 virtual false final false
-static bool SupportsClipIn(::UnityEngine::Timeline::TimelineClip clip) ;
+static bool SupportsClipIn(UnityEngine::Timeline::TimelineClip clip) ;
 
 /// @brief Method SupportsSpeedMultiplier addr 0x2aca470 size 0x18 virtual false final false
-static bool SupportsSpeedMultiplier(::UnityEngine::Timeline::TimelineClip clip) ;
+static bool SupportsSpeedMultiplier(UnityEngine::Timeline::TimelineClip clip) ;
 
 /// @brief Method SupportsBlending addr 0x2aca488 size 0x18 virtual false final false
-static bool SupportsBlending(::UnityEngine::Timeline::TimelineClip clip) ;
+static bool SupportsBlending(UnityEngine::Timeline::TimelineClip clip) ;
 
 /// @brief Method HasAll addr 0x2aca4a0 size 0xc virtual false final false
-static bool HasAll(::UnityEngine::Timeline::ClipCaps caps, ::UnityEngine::Timeline::ClipCaps flags) ;
+static bool HasAll(UnityEngine::Timeline::ClipCaps caps, UnityEngine::Timeline::ClipCaps flags) ;
 
 /// @brief Method HasAny addr 0x2abccb4 size 0xc virtual false final false
-static bool HasAny(::UnityEngine::Timeline::ClipCaps caps, ::UnityEngine::Timeline::ClipCaps flags) ;
+static bool HasAny(UnityEngine::Timeline::ClipCaps caps, UnityEngine::Timeline::ClipCaps flags) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Timeline::TimelineClipCapsExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::TimelineClipCapsExtensions, "UnityEngine.Timeline", "TimelineClipCapsExtensions");
+NEED_NO_BOX(UnityEngine::Timeline::TimelineClipCapsExtensions);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineClipCapsExtensions, "UnityEngine.Timeline", "TimelineClipCapsExtensions");

@@ -1,15 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace UnityEngine {
-class Transform;
-}
 namespace UnityEngine {
 class Animator;
 }
 namespace UnityEngine {
 class Animation;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace RootMotion {
@@ -21,7 +20,7 @@ namespace RootMotion {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12441))
 // CS Name: RootMotion.SolverManager
-class CORDL_TYPE SolverManager : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SolverManager : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr SolverManager(SolverManager const& ) noexcept = default;
 constexpr SolverManager(SolverManager&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SolverManager(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SolverManager(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -63,17 +62,17 @@ constexpr void __set_fixTransforms(bool value) ;
 
 constexpr bool __get_fixTransforms() const;
 
- ::UnityEngine::Animator __declspec(property(get=__get_animator, put=__set_animator))  animator;
+ UnityEngine::Animator __declspec(property(get=__get_animator, put=__set_animator))  animator;
 
-constexpr void __set_animator(::UnityEngine::Animator value) ;
+constexpr void __set_animator(UnityEngine::Animator value) ;
 
-constexpr ::UnityEngine::Animator __get_animator() const;
+constexpr UnityEngine::Animator __get_animator() const;
 
- ::UnityEngine::Animation __declspec(property(get=__get_legacy, put=__set_legacy))  legacy;
+ UnityEngine::Animation __declspec(property(get=__get_legacy, put=__set_legacy))  legacy;
 
-constexpr void __set_legacy(::UnityEngine::Animation value) ;
+constexpr void __set_legacy(UnityEngine::Animation value) ;
 
-constexpr ::UnityEngine::Animation __get_legacy() const;
+constexpr UnityEngine::Animation __get_legacy() const;
 
  bool __declspec(property(get=__get_updateFrame, put=__set_updateFrame))  updateFrame;
 
@@ -131,7 +130,7 @@ constexpr bool __get_skipSolverUpdate() const;
  void Update() ;
 
 /// @brief Method FindAnimatorRecursive addr 0x11b5200 size 0x1b8 virtual false final false
- void FindAnimatorRecursive(::UnityEngine::Transform t, bool findInChildren) ;
+ void FindAnimatorRecursive(UnityEngine::Transform t, bool findInChildren) ;
 
 /// @brief Method get_isAnimated addr 0x11b53f4 size 0x98 virtual false final false
  bool get_isAnimated() ;
@@ -155,6 +154,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::SolverManager);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::SolverManager, "RootMotion", "SolverManager");
+NEED_NO_BOX(RootMotion::SolverManager);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::SolverManager, "RootMotion", "SolverManager");

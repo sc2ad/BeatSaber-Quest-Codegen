@@ -3,26 +3,25 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine {
 class Transform;
+}
+namespace UnityEngine {
+class Cloth;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine {
-class Cloth;
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
 class DroneHover;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__DroneHover__SineLayer;
+class GlobalNamespace__DroneHover__SineLayer;
 }
 // Type: ::SineLayer
 namespace GlobalNamespace {
@@ -30,37 +29,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3994))
 // CS Name: DroneHover::SineLayer
-class CORDL_TYPE ____GlobalNamespace__DroneHover__SineLayer : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__DroneHover__SineLayer : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____GlobalNamespace__DroneHover__SineLayer() = default;
+virtual ~GlobalNamespace__DroneHover__SineLayer() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__DroneHover__SineLayer", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__DroneHover__SineLayer(____GlobalNamespace__DroneHover__SineLayer const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__DroneHover__SineLayer", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__DroneHover__SineLayer(GlobalNamespace__DroneHover__SineLayer const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__DroneHover__SineLayer", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__DroneHover__SineLayer(____GlobalNamespace__DroneHover__SineLayer&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__DroneHover__SineLayer", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__DroneHover__SineLayer(GlobalNamespace__DroneHover__SineLayer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__DroneHover__SineLayer(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__DroneHover__SineLayer(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__DroneHover__SineLayer& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__DroneHover__SineLayer& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__DroneHover__SineLayer& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__DroneHover__SineLayer& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__DroneHover__SineLayer& operator=(____GlobalNamespace__DroneHover__SineLayer&& o) noexcept = default;
-  constexpr ____GlobalNamespace__DroneHover__SineLayer& operator=(____GlobalNamespace__DroneHover__SineLayer const& o) noexcept = default;
+  constexpr GlobalNamespace__DroneHover__SineLayer& operator=(GlobalNamespace__DroneHover__SineLayer&& o) noexcept = default;
+  constexpr GlobalNamespace__DroneHover__SineLayer& operator=(GlobalNamespace__DroneHover__SineLayer const& o) noexcept = default;
                 
 
 
@@ -82,7 +81,7 @@ constexpr float_t __get_offset() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__DroneHover__SineLayer() ;
+explicit GlobalNamespace__DroneHover__SineLayer() ;
 
 /// @brief Method .ctor addr 0x20afc20 size 0x8 virtual false final false
  void _ctor() ;
@@ -97,10 +96,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3995))
 // CS Name: DroneHover
-class CORDL_TYPE DroneHover : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE DroneHover : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using SineLayer = ::GlobalNamespace::____GlobalNamespace__DroneHover__SineLayer;
+using SineLayer = GlobalNamespace::GlobalNamespace__DroneHover__SineLayer;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x60};
@@ -114,7 +113,7 @@ constexpr DroneHover(DroneHover const& ) noexcept = default;
 constexpr DroneHover(DroneHover&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DroneHover(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit DroneHover(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -135,11 +134,11 @@ constexpr explicit DroneHover(void* ptr) noexcept : ::UnityEngine::MonoBehaviour
 
 // Fields
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__hoverAreaPerAxis, put=__set__hoverAreaPerAxis))  _hoverAreaPerAxis;
+ UnityEngine::Vector3 __declspec(property(get=__get__hoverAreaPerAxis, put=__set__hoverAreaPerAxis))  _hoverAreaPerAxis;
 
-constexpr void __set__hoverAreaPerAxis(::UnityEngine::Vector3 value) ;
+constexpr void __set__hoverAreaPerAxis(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__hoverAreaPerAxis() const;
+constexpr UnityEngine::Vector3 __get__hoverAreaPerAxis() const;
 
  float_t __declspec(property(get=__get__speed, put=__set__speed))  _speed;
 
@@ -147,17 +146,17 @@ constexpr void __set__speed(float_t value) ;
 
 constexpr float_t __get__speed() const;
 
- ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__DroneHover__SineLayer> __declspec(property(get=__get__compoundSins, put=__set__compoundSins))  _compoundSins;
+ System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__DroneHover__SineLayer> __declspec(property(get=__get__compoundSins, put=__set__compoundSins))  _compoundSins;
 
-constexpr void __set__compoundSins(::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__DroneHover__SineLayer> value) ;
+constexpr void __set__compoundSins(System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__DroneHover__SineLayer> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__DroneHover__SineLayer> __get__compoundSins() const;
+constexpr System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__DroneHover__SineLayer> __get__compoundSins() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::Transform> __declspec(property(get=__get__tiltTransforms, put=__set__tiltTransforms))  _tiltTransforms;
+ System::Collections::Generic::List_1<UnityEngine::Transform> __declspec(property(get=__get__tiltTransforms, put=__set__tiltTransforms))  _tiltTransforms;
 
-constexpr void __set__tiltTransforms(::System::Collections::Generic::List_1<::UnityEngine::Transform> value) ;
+constexpr void __set__tiltTransforms(System::Collections::Generic::List_1<UnityEngine::Transform> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Transform> __get__tiltTransforms() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::Transform> __get__tiltTransforms() const;
 
  float_t __declspec(property(get=__get__maxTiltAmount, put=__set__maxTiltAmount))  _maxTiltAmount;
 
@@ -183,17 +182,17 @@ constexpr void __set__tiltToTarget(bool value) ;
 
 constexpr bool __get__tiltToTarget() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__startPos, put=__set__startPos))  _startPos;
+ UnityEngine::Vector3 __declspec(property(get=__get__startPos, put=__set__startPos))  _startPos;
 
-constexpr void __set__startPos(::UnityEngine::Vector3 value) ;
+constexpr void __set__startPos(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__startPos() const;
+constexpr UnityEngine::Vector3 __get__startPos() const;
 
- ::UnityEngine::Cloth __declspec(property(get=__get__cloth, put=__set__cloth))  _cloth;
+ UnityEngine::Cloth __declspec(property(get=__get__cloth, put=__set__cloth))  _cloth;
 
-constexpr void __set__cloth(::UnityEngine::Cloth value) ;
+constexpr void __set__cloth(UnityEngine::Cloth value) ;
 
-constexpr ::UnityEngine::Cloth __get__cloth() const;
+constexpr UnityEngine::Cloth __get__cloth() const;
 
 
 // Methods
@@ -205,7 +204,7 @@ constexpr ::UnityEngine::Cloth __get__cloth() const;
  void Update() ;
 
 /// @brief Method GetNoiseVec3 addr 0x20af7d4 size 0x7c virtual false final false
- ::UnityEngine::Vector3 GetNoiseVec3(float_t time) ;
+ UnityEngine::Vector3 GetNoiseVec3(float_t time) ;
 
 /// @brief Method GetNoise addr 0x20afb10 size 0xf4 virtual false final false
  float_t GetNoise(float_t time, float_t offset) ;
@@ -223,8 +222,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::DroneHover);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DroneHover, "", "DroneHover");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__DroneHover__SineLayer);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__DroneHover__SineLayer, "", "DroneHover/SineLayer");
+NEED_NO_BOX(GlobalNamespace::DroneHover);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DroneHover, "", "DroneHover");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__DroneHover__SineLayer);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__DroneHover__SineLayer, "", "DroneHover/SineLayer");

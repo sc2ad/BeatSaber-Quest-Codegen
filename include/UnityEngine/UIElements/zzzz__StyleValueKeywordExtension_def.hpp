@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace UnityEngine::UIElements {
 struct StyleValueKeyword;
 }
@@ -53,12 +52,11 @@ constexpr explicit StyleValueKeywordExtension(void* ptr) noexcept : ::bs_hook::I
 // Methods
 
 /// @brief Method ToUssString addr 0x2cf5448 size 0x120 virtual false final false
-static ::StringW ToUssString(::UnityEngine::UIElements::StyleValueKeyword svk) ;
+static ::StringW ToUssString(UnityEngine::UIElements::StyleValueKeyword svk) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::StyleValueKeywordExtension);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleValueKeywordExtension, "UnityEngine.UIElements", "StyleValueKeywordExtension");
+NEED_NO_BOX(UnityEngine::UIElements::StyleValueKeywordExtension);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::StyleValueKeywordExtension, "UnityEngine.UIElements", "StyleValueKeywordExtension");

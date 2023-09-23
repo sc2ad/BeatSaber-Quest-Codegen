@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Text {
 class StringBuilder;
 }
@@ -71,11 +70,11 @@ constexpr void __set_StatusDescription(::StringW value) ;
 
 constexpr ::StringW __get_StatusDescription() const;
 
- ::System::Text::StringBuilder __declspec(property(get=__get_StatusBuffer, put=__set_StatusBuffer))  StatusBuffer;
+ System::Text::StringBuilder __declspec(property(get=__get_StatusBuffer, put=__set_StatusBuffer))  StatusBuffer;
 
-constexpr void __set_StatusBuffer(::System::Text::StringBuilder value) ;
+constexpr void __set_StatusBuffer(System::Text::StringBuilder value) ;
 
-constexpr ::System::Text::StringBuilder __get_StatusBuffer() const;
+constexpr System::Text::StringBuilder __get_StatusBuffer() const;
 
  ::StringW __declspec(property(get=__get_StatusCodeString, put=__set_StatusCodeString))  StatusCodeString;
 
@@ -124,6 +123,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::ResponseDescription);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::ResponseDescription, "System.Net", "ResponseDescription");
+NEED_NO_BOX(System::Net::ResponseDescription);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::ResponseDescription, "System.Net", "ResponseDescription");

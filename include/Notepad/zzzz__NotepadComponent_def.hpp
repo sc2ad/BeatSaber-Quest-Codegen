@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 // Forward declare root types
 namespace Notepad {
 class NotepadComponent;
@@ -12,7 +11,7 @@ namespace Notepad {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16091))
 // CS Name: Notepad.NotepadComponent
-class CORDL_TYPE NotepadComponent : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE NotepadComponent : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr NotepadComponent(NotepadComponent const& ) noexcept = default;
 constexpr NotepadComponent(NotepadComponent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NotepadComponent(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit NotepadComponent(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Notepad
-} // end anonymous namespace
-NEED_NO_BOX(::Notepad::NotepadComponent);
-DEFINE_IL2CPP_ARG_TYPE(::Notepad::NotepadComponent, "Notepad", "NotepadComponent");
+NEED_NO_BOX(Notepad::NotepadComponent);
+DEFINE_IL2CPP_ARG_TYPE(Notepad::NotepadComponent, "Notepad", "NotepadComponent");

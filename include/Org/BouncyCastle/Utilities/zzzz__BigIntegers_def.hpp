@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities {
@@ -63,22 +62,22 @@ static constexpr int32_t  MaxIterations{1000};
 // Methods
 
 /// @brief Method AsUnsignedByteArray addr 0x10e2098 size 0x14 virtual false final false
-static ::ArrayW<uint8_t> AsUnsignedByteArray(::Org::BouncyCastle::Math::BigInteger n) ;
+static ::ArrayW<uint8_t> AsUnsignedByteArray(Org::BouncyCastle::Math::BigInteger n) ;
 
 /// @brief Method AsUnsignedByteArray addr 0x10e20ac size 0x10c virtual false final false
-static ::ArrayW<uint8_t> AsUnsignedByteArray(int32_t length, ::Org::BouncyCastle::Math::BigInteger n) ;
+static ::ArrayW<uint8_t> AsUnsignedByteArray(int32_t length, Org::BouncyCastle::Math::BigInteger n) ;
 
 /// @brief Method AsUnsignedByteArray addr 0x10e21b8 size 0x14c virtual false final false
-static void AsUnsignedByteArray(::Org::BouncyCastle::Math::BigInteger value, ::ArrayW<uint8_t> buf, int32_t off, int32_t len) ;
+static void AsUnsignedByteArray(Org::BouncyCastle::Math::BigInteger value, ::ArrayW<uint8_t> buf, int32_t off, int32_t len) ;
 
 /// @brief Method CreateRandomBigInteger addr 0x10e2304 size 0x74 virtual false final false
-static ::Org::BouncyCastle::Math::BigInteger CreateRandomBigInteger(int32_t bitLength, ::Org::BouncyCastle::Security::SecureRandom secureRandom) ;
+static Org::BouncyCastle::Math::BigInteger CreateRandomBigInteger(int32_t bitLength, Org::BouncyCastle::Security::SecureRandom secureRandom) ;
 
 /// @brief Method CreateRandomInRange addr 0x10e2378 size 0x214 virtual false final false
-static ::Org::BouncyCastle::Math::BigInteger CreateRandomInRange(::Org::BouncyCastle::Math::BigInteger min, ::Org::BouncyCastle::Math::BigInteger max, ::Org::BouncyCastle::Security::SecureRandom random) ;
+static Org::BouncyCastle::Math::BigInteger CreateRandomInRange(Org::BouncyCastle::Math::BigInteger min, Org::BouncyCastle::Math::BigInteger max, Org::BouncyCastle::Security::SecureRandom random) ;
 
 /// @brief Method GetUnsignedByteLength addr 0x10e258c size 0x30 virtual false final false
-static int32_t GetUnsignedByteLength(::Org::BouncyCastle::Math::BigInteger n) ;
+static int32_t GetUnsignedByteLength(Org::BouncyCastle::Math::BigInteger n) ;
 
 // Ctor Parameters []
 explicit BigIntegers() ;
@@ -90,6 +89,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::BigIntegers);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::BigIntegers, "Org.BouncyCastle.Utilities", "BigIntegers");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::BigIntegers);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::BigIntegers, "Org.BouncyCastle.Utilities", "BigIntegers");

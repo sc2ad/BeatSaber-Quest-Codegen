@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstddef>
-namespace {
 namespace HoudiniEngineUnity {
 struct HAPI_XYZOrder;
 }
@@ -23,8 +22,8 @@ namespace HoudiniEngineUnity {
 struct CORDL_TYPE HAPI_TransformEuler : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "position", ty: "::ArrayW<float_t>", modifiers: "", def_value: None }, CppParam { name: "rotationEuler", ty: "::ArrayW<float_t>", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "::ArrayW<float_t>", modifiers: "", def_value: None }, CppParam { name: "shear", ty: "::ArrayW<float_t>", modifiers: "", def_value: None }, CppParam { name: "rotationOrder", ty: "::HoudiniEngineUnity::HAPI_XYZOrder", modifiers: "", def_value: None }, CppParam { name: "rstOrder", ty: "::HoudiniEngineUnity::HAPI_RSTOrder", modifiers: "", def_value: None }]
-constexpr HAPI_TransformEuler(::ArrayW<float_t> position, ::ArrayW<float_t> rotationEuler, ::ArrayW<float_t> scale, ::ArrayW<float_t> shear, ::HoudiniEngineUnity::HAPI_XYZOrder rotationOrder, ::HoudiniEngineUnity::HAPI_RSTOrder rstOrder) noexcept;
+// Ctor Parameters [CppParam { name: "position", ty: "::ArrayW<float_t>", modifiers: "", def_value: None }, CppParam { name: "rotationEuler", ty: "::ArrayW<float_t>", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "::ArrayW<float_t>", modifiers: "", def_value: None }, CppParam { name: "shear", ty: "::ArrayW<float_t>", modifiers: "", def_value: None }, CppParam { name: "rotationOrder", ty: "HoudiniEngineUnity::HAPI_XYZOrder", modifiers: "", def_value: None }, CppParam { name: "rstOrder", ty: "HoudiniEngineUnity::HAPI_RSTOrder", modifiers: "", def_value: None }]
+constexpr HAPI_TransformEuler(::ArrayW<float_t> position, ::ArrayW<float_t> rotationEuler, ::ArrayW<float_t> scale, ::ArrayW<float_t> shear, HoudiniEngineUnity::HAPI_XYZOrder rotationOrder, HoudiniEngineUnity::HAPI_RSTOrder rstOrder) noexcept;
 
 
                     constexpr HAPI_TransformEuler(HAPI_TransformEuler const&) = default;
@@ -81,17 +80,17 @@ constexpr void __set_shear(::ArrayW<float_t> value) ;
 
 constexpr ::ArrayW<float_t> __get_shear() const;
 
- ::HoudiniEngineUnity::HAPI_XYZOrder __declspec(property(get=__get_rotationOrder, put=__set_rotationOrder))  rotationOrder;
+ HoudiniEngineUnity::HAPI_XYZOrder __declspec(property(get=__get_rotationOrder, put=__set_rotationOrder))  rotationOrder;
 
-constexpr void __set_rotationOrder(::HoudiniEngineUnity::HAPI_XYZOrder value) ;
+constexpr void __set_rotationOrder(HoudiniEngineUnity::HAPI_XYZOrder value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_XYZOrder __get_rotationOrder() const;
+constexpr HoudiniEngineUnity::HAPI_XYZOrder __get_rotationOrder() const;
 
- ::HoudiniEngineUnity::HAPI_RSTOrder __declspec(property(get=__get_rstOrder, put=__set_rstOrder))  rstOrder;
+ HoudiniEngineUnity::HAPI_RSTOrder __declspec(property(get=__get_rstOrder, put=__set_rstOrder))  rstOrder;
 
-constexpr void __set_rstOrder(::HoudiniEngineUnity::HAPI_RSTOrder value) ;
+constexpr void __set_rstOrder(HoudiniEngineUnity::HAPI_RSTOrder value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_RSTOrder __get_rstOrder() const;
+constexpr HoudiniEngineUnity::HAPI_RSTOrder __get_rstOrder() const;
 
 
 // Methods
@@ -106,5 +105,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_TransformEuler, "HoudiniEngineUnity", "HAPI_TransformEuler");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_TransformEuler, "HoudiniEngineUnity", "HAPI_TransformEuler");

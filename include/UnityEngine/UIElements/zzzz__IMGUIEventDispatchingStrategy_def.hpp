@@ -1,15 +1,14 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace UnityEngine::UIElements {
-class IPanel;
-}
 namespace UnityEngine::UIElements {
 class IEventDispatchingStrategy;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
+}
+namespace UnityEngine::UIElements {
+class IPanel;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -24,8 +23,8 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE IMGUIEventDispatchingStrategy : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::UIElements::IEventDispatchingStrategy
-constexpr operator  ::UnityEngine::UIElements::IEventDispatchingStrategy() const noexcept;
+/// @brief Convert operator to UnityEngine::UIElements::IEventDispatchingStrategy
+constexpr operator  UnityEngine::UIElements::IEventDispatchingStrategy() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -61,10 +60,10 @@ constexpr explicit IMGUIEventDispatchingStrategy(void* ptr) noexcept : ::bs_hook
 // Methods
 
 /// @brief Method CanDispatchEvent addr 0x2cdb694 size 0x78 virtual true final true
- bool CanDispatchEvent(::UnityEngine::UIElements::EventBase evt) ;
+ bool CanDispatchEvent(UnityEngine::UIElements::EventBase evt) ;
 
 /// @brief Method DispatchEvent addr 0x2cdb70c size 0xc0 virtual true final true
- void DispatchEvent(::UnityEngine::UIElements::EventBase evt, ::UnityEngine::UIElements::IPanel panel) ;
+ void DispatchEvent(UnityEngine::UIElements::EventBase evt, UnityEngine::UIElements::IPanel panel) ;
 
 // Ctor Parameters []
 explicit IMGUIEventDispatchingStrategy() ;
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::IMGUIEventDispatchingStrategy);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::IMGUIEventDispatchingStrategy, "UnityEngine.UIElements", "IMGUIEventDispatchingStrategy");
+NEED_NO_BOX(UnityEngine::UIElements::IMGUIEventDispatchingStrategy);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::IMGUIEventDispatchingStrategy, "UnityEngine.UIElements", "IMGUIEventDispatchingStrategy");

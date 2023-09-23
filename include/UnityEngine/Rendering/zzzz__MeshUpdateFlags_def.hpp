@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Rendering {
 struct MeshUpdateFlags;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Default offset 0
-static ::UnityEngine::Rendering::MeshUpdateFlags const Default;
+static UnityEngine::Rendering::MeshUpdateFlags const Default;
 
 /// @brief Field DontValidateIndices offset 0
-static ::UnityEngine::Rendering::MeshUpdateFlags const DontValidateIndices;
+static UnityEngine::Rendering::MeshUpdateFlags const DontValidateIndices;
 
 /// @brief Field DontResetBoneBounds offset 0
-static ::UnityEngine::Rendering::MeshUpdateFlags const DontResetBoneBounds;
+static UnityEngine::Rendering::MeshUpdateFlags const DontResetBoneBounds;
 
 /// @brief Field DontNotifyMeshUsers offset 0
-static ::UnityEngine::Rendering::MeshUpdateFlags const DontNotifyMeshUsers;
+static UnityEngine::Rendering::MeshUpdateFlags const DontNotifyMeshUsers;
 
 /// @brief Field DontRecalculateBounds offset 0
-static ::UnityEngine::Rendering::MeshUpdateFlags const DontRecalculateBounds;
+static UnityEngine::Rendering::MeshUpdateFlags const DontRecalculateBounds;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Rendering
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::MeshUpdateFlags, "UnityEngine.Rendering", "MeshUpdateFlags");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::MeshUpdateFlags, "UnityEngine.Rendering", "MeshUpdateFlags");

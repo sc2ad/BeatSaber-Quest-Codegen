@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCipher;
 }
@@ -26,8 +25,8 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE TlsAeadCipher : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Tls::TlsCipher
-constexpr operator  ::Org::BouncyCastle::Crypto::Tls::TlsCipher() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Tls::TlsCipher
+constexpr operator  Org::BouncyCastle::Crypto::Tls::TlsCipher() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
@@ -68,11 +67,11 @@ static constexpr int32_t  NONCE_RFC5288{1};
 /// @brief Field NONCE_DRAFT_CHACHA20_POLY1305 offset 0
 static constexpr int32_t  NONCE_DRAFT_CHACHA20_POLY1305{2};
 
- ::Org::BouncyCastle::Crypto::Tls::TlsContext __declspec(property(get=__get_context, put=__set_context))  context;
+ Org::BouncyCastle::Crypto::Tls::TlsContext __declspec(property(get=__get_context, put=__set_context))  context;
 
-constexpr void __set_context(::Org::BouncyCastle::Crypto::Tls::TlsContext value) ;
+constexpr void __set_context(Org::BouncyCastle::Crypto::Tls::TlsContext value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext __get_context() const;
+constexpr Org::BouncyCastle::Crypto::Tls::TlsContext __get_context() const;
 
  int32_t __declspec(property(get=__get_macSize, put=__set_macSize))  macSize;
 
@@ -86,17 +85,17 @@ constexpr void __set_record_iv_length(int32_t value) ;
 
 constexpr int32_t __get_record_iv_length() const;
 
- ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher __declspec(property(get=__get_encryptCipher, put=__set_encryptCipher))  encryptCipher;
+ Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher __declspec(property(get=__get_encryptCipher, put=__set_encryptCipher))  encryptCipher;
 
-constexpr void __set_encryptCipher(::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher value) ;
+constexpr void __set_encryptCipher(Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher __get_encryptCipher() const;
+constexpr Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher __get_encryptCipher() const;
 
- ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher __declspec(property(get=__get_decryptCipher, put=__set_decryptCipher))  decryptCipher;
+ Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher __declspec(property(get=__get_decryptCipher, put=__set_decryptCipher))  decryptCipher;
 
-constexpr void __set_decryptCipher(::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher value) ;
+constexpr void __set_decryptCipher(Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher __get_decryptCipher() const;
+constexpr Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher __get_decryptCipher() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get_encryptImplicitNonce, put=__set_encryptImplicitNonce))  encryptImplicitNonce;
 
@@ -119,17 +118,17 @@ constexpr int32_t __get_nonceMode() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "context", ty: "::Org::BouncyCastle::Crypto::Tls::TlsContext", modifiers: "", def_value: None }, CppParam { name: "clientWriteCipher", ty: "::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher", modifiers: "", def_value: None }, CppParam { name: "serverWriteCipher", ty: "::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher", modifiers: "", def_value: None }, CppParam { name: "cipherKeySize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "macSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit TlsAeadCipher(::Org::BouncyCastle::Crypto::Tls::TlsContext context, ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher clientWriteCipher, ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher serverWriteCipher, int32_t cipherKeySize, int32_t macSize) ;
+// Ctor Parameters [CppParam { name: "context", ty: "Org::BouncyCastle::Crypto::Tls::TlsContext", modifiers: "", def_value: None }, CppParam { name: "clientWriteCipher", ty: "Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher", modifiers: "", def_value: None }, CppParam { name: "serverWriteCipher", ty: "Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher", modifiers: "", def_value: None }, CppParam { name: "cipherKeySize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "macSize", ty: "int32_t", modifiers: "", def_value: None }]
+explicit TlsAeadCipher(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher clientWriteCipher, Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher serverWriteCipher, int32_t cipherKeySize, int32_t macSize) ;
 
 /// @brief Method .ctor addr 0xf0baa0 size 0x8 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext context, ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher clientWriteCipher, ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher serverWriteCipher, int32_t cipherKeySize, int32_t macSize) ;
+ void _ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher clientWriteCipher, Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher serverWriteCipher, int32_t cipherKeySize, int32_t macSize) ;
 
-// Ctor Parameters [CppParam { name: "context", ty: "::Org::BouncyCastle::Crypto::Tls::TlsContext", modifiers: "", def_value: None }, CppParam { name: "clientWriteCipher", ty: "::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher", modifiers: "", def_value: None }, CppParam { name: "serverWriteCipher", ty: "::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher", modifiers: "", def_value: None }, CppParam { name: "cipherKeySize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "macSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nonceMode", ty: "int32_t", modifiers: "", def_value: None }]
-explicit TlsAeadCipher(::Org::BouncyCastle::Crypto::Tls::TlsContext context, ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher clientWriteCipher, ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher serverWriteCipher, int32_t cipherKeySize, int32_t macSize, int32_t nonceMode) ;
+// Ctor Parameters [CppParam { name: "context", ty: "Org::BouncyCastle::Crypto::Tls::TlsContext", modifiers: "", def_value: None }, CppParam { name: "clientWriteCipher", ty: "Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher", modifiers: "", def_value: None }, CppParam { name: "serverWriteCipher", ty: "Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher", modifiers: "", def_value: None }, CppParam { name: "cipherKeySize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "macSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nonceMode", ty: "int32_t", modifiers: "", def_value: None }]
+explicit TlsAeadCipher(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher clientWriteCipher, Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher serverWriteCipher, int32_t cipherKeySize, int32_t macSize, int32_t nonceMode) ;
 
 /// @brief Method .ctor addr 0xf0baa8 size 0x4c8 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext context, ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher clientWriteCipher, ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher serverWriteCipher, int32_t cipherKeySize, int32_t macSize, int32_t nonceMode) ;
+ void _ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher clientWriteCipher, Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher serverWriteCipher, int32_t cipherKeySize, int32_t macSize, int32_t nonceMode) ;
 
 /// @brief Method GetPlaintextLimit addr 0xf0bf70 size 0x10 virtual true final false
  int32_t GetPlaintextLimit(int32_t ciphertextLimit) ;
@@ -147,6 +146,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsAeadCipher);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::TlsAeadCipher, "Org.BouncyCastle.Crypto.Tls", "TlsAeadCipher");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::TlsAeadCipher);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::TlsAeadCipher, "Org.BouncyCastle.Crypto.Tls", "TlsAeadCipher");

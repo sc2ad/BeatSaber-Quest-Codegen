@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Unity::Collections {
 struct Allocator;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Invalid offset 0
-static ::Unity::Collections::Allocator const Invalid;
+static Unity::Collections::Allocator const Invalid;
 
 /// @brief Field None offset 0
-static ::Unity::Collections::Allocator const None;
+static Unity::Collections::Allocator const None;
 
 /// @brief Field Temp offset 0
-static ::Unity::Collections::Allocator const Temp;
+static Unity::Collections::Allocator const Temp;
 
 /// @brief Field TempJob offset 0
-static ::Unity::Collections::Allocator const TempJob;
+static Unity::Collections::Allocator const TempJob;
 
 /// @brief Field Persistent offset 0
-static ::Unity::Collections::Allocator const Persistent;
+static Unity::Collections::Allocator const Persistent;
 
 /// @brief Field AudioKernel offset 0
-static ::Unity::Collections::Allocator const AudioKernel;
+static Unity::Collections::Allocator const AudioKernel;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Unity::Collections
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::Allocator, "Unity.Collections", "Allocator");
+DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::Allocator, "Unity.Collections", "Allocator");

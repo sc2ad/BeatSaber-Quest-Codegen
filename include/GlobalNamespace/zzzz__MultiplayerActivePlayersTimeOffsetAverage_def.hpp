@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
-namespace GlobalNamespace {
-class IMultiplayerObservable;
-}
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+class IMultiplayerObservable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,8 +21,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE MultiplayerActivePlayersTimeOffsetAverage : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IMultiplayerObservable
-constexpr operator  ::GlobalNamespace::IMultiplayerObservable() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IMultiplayerObservable
+constexpr operator  GlobalNamespace::IMultiplayerObservable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -58,11 +57,11 @@ constexpr explicit MultiplayerActivePlayersTimeOffsetAverage(void* ptr) noexcept
 
 // Fields
 
- ::GlobalNamespace::IMultiplayerSessionManager __declspec(property(get=__get__multiplayerSessionManager, put=__set__multiplayerSessionManager))  _multiplayerSessionManager;
+ GlobalNamespace::IMultiplayerSessionManager __declspec(property(get=__get__multiplayerSessionManager, put=__set__multiplayerSessionManager))  _multiplayerSessionManager;
 
-constexpr void __set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager value) ;
+constexpr void __set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager value) ;
 
-constexpr ::GlobalNamespace::IMultiplayerSessionManager __get__multiplayerSessionManager() const;
+constexpr GlobalNamespace::IMultiplayerSessionManager __get__multiplayerSessionManager() const;
 
  float_t __declspec(property(get=__get__lastReturnedOffsetSyncTime, put=__set__lastReturnedOffsetSyncTime))  _lastReturnedOffsetSyncTime;
 
@@ -102,6 +101,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage, "", "MultiplayerActivePlayersTimeOffsetAverage");
+NEED_NO_BOX(GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage, "", "MultiplayerActivePlayersTimeOffsetAverage");

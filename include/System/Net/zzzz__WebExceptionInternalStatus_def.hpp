@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net {
 struct WebExceptionInternalStatus;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field RequestFatal offset 0
-static ::System::Net::WebExceptionInternalStatus const RequestFatal;
+static System::Net::WebExceptionInternalStatus const RequestFatal;
 
 /// @brief Field ServicePointFatal offset 0
-static ::System::Net::WebExceptionInternalStatus const ServicePointFatal;
+static System::Net::WebExceptionInternalStatus const ServicePointFatal;
 
 /// @brief Field Recoverable offset 0
-static ::System::Net::WebExceptionInternalStatus const Recoverable;
+static System::Net::WebExceptionInternalStatus const Recoverable;
 
 /// @brief Field Isolated offset 0
-static ::System::Net::WebExceptionInternalStatus const Isolated;
+static System::Net::WebExceptionInternalStatus const Isolated;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::WebExceptionInternalStatus, "System.Net", "WebExceptionInternalStatus");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::WebExceptionInternalStatus, "System.Net", "WebExceptionInternalStatus");

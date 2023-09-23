@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__ReusableCollectionItem_def.hpp"
-namespace {
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
@@ -15,7 +14,7 @@ namespace UnityEngine::UIElements {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7472))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7468))
 // CS Name: UnityEngine.UIElements.ReusableListViewItem
-class CORDL_TYPE ReusableListViewItem : public ::UnityEngine::UIElements::ReusableCollectionItem {
+class CORDL_TYPE ReusableListViewItem : public UnityEngine::UIElements::ReusableCollectionItem {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr ReusableListViewItem(ReusableListViewItem const& ) noexcept = default;
 constexpr ReusableListViewItem(ReusableListViewItem&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ReusableListViewItem(void* ptr) noexcept : ::UnityEngine::UIElements::ReusableCollectionItem(ptr) {
+constexpr explicit ReusableListViewItem(void* ptr) noexcept : UnityEngine::UIElements::ReusableCollectionItem(ptr) {
 }
 
 
@@ -51,37 +50,37 @@ constexpr explicit ReusableListViewItem(void* ptr) noexcept : ::UnityEngine::UIE
 
 // Fields
 
- ::UnityEngine::UIElements::VisualElement __declspec(property(get=__get_m_Container, put=__set_m_Container))  m_Container;
+ UnityEngine::UIElements::VisualElement __declspec(property(get=__get_m_Container, put=__set_m_Container))  m_Container;
 
-constexpr void __set_m_Container(::UnityEngine::UIElements::VisualElement value) ;
+constexpr void __set_m_Container(UnityEngine::UIElements::VisualElement value) ;
 
-constexpr ::UnityEngine::UIElements::VisualElement __get_m_Container() const;
+constexpr UnityEngine::UIElements::VisualElement __get_m_Container() const;
 
- ::UnityEngine::UIElements::VisualElement __declspec(property(get=__get_m_DragHandle, put=__set_m_DragHandle))  m_DragHandle;
+ UnityEngine::UIElements::VisualElement __declspec(property(get=__get_m_DragHandle, put=__set_m_DragHandle))  m_DragHandle;
 
-constexpr void __set_m_DragHandle(::UnityEngine::UIElements::VisualElement value) ;
+constexpr void __set_m_DragHandle(UnityEngine::UIElements::VisualElement value) ;
 
-constexpr ::UnityEngine::UIElements::VisualElement __get_m_DragHandle() const;
+constexpr UnityEngine::UIElements::VisualElement __get_m_DragHandle() const;
 
- ::UnityEngine::UIElements::VisualElement __declspec(property(get=__get_m_ItemContainer, put=__set_m_ItemContainer))  m_ItemContainer;
+ UnityEngine::UIElements::VisualElement __declspec(property(get=__get_m_ItemContainer, put=__set_m_ItemContainer))  m_ItemContainer;
 
-constexpr void __set_m_ItemContainer(::UnityEngine::UIElements::VisualElement value) ;
+constexpr void __set_m_ItemContainer(UnityEngine::UIElements::VisualElement value) ;
 
-constexpr ::UnityEngine::UIElements::VisualElement __get_m_ItemContainer() const;
+constexpr UnityEngine::UIElements::VisualElement __get_m_ItemContainer() const;
 
 
 // Properties
 
- ::UnityEngine::UIElements::VisualElement __declspec(property(get=get_rootElement))  rootElement;
+ UnityEngine::UIElements::VisualElement __declspec(property(get=get_rootElement))  rootElement;
 
 
 // Methods
 
 /// @brief Method get_rootElement addr 0x2d113b0 size 0x18 virtual true final false
- ::UnityEngine::UIElements::VisualElement get_rootElement() ;
+ UnityEngine::UIElements::VisualElement get_rootElement() ;
 
 /// @brief Method Init addr 0x2d0f750 size 0x10 virtual false final false
- void Init(::UnityEngine::UIElements::VisualElement item, bool usesAnimatedDragger) ;
+ void Init(UnityEngine::UIElements::VisualElement item, bool usesAnimatedDragger) ;
 
 /// @brief Method UpdateHierarchy addr 0x2d113d0 size 0x274 virtual false final false
  void UpdateHierarchy(bool usesAnimatedDragger) ;
@@ -105,6 +104,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::ReusableListViewItem);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ReusableListViewItem, "UnityEngine.UIElements", "ReusableListViewItem");
+NEED_NO_BOX(UnityEngine::UIElements::ReusableListViewItem);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::ReusableListViewItem, "UnityEngine.UIElements", "ReusableListViewItem");

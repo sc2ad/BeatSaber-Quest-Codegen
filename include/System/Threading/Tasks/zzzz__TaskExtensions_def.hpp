@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
@@ -54,12 +53,11 @@ constexpr explicit TaskExtensions(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 /// @brief Method Unwrap addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TResult>
-static ::System::Threading::Tasks::Task_1<TResult> Unwrap(::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task_1<TResult>> task) ;
+static System::Threading::Tasks::Task_1<TResult> Unwrap(System::Threading::Tasks::Task_1<System::Threading::Tasks::Task_1<TResult>> task) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Threading::Tasks
-} // end anonymous namespace
-NEED_NO_BOX(::System::Threading::Tasks::TaskExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::TaskExtensions, "System.Threading.Tasks", "TaskExtensions");
+NEED_NO_BOX(System::Threading::Tasks::TaskExtensions);
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskExtensions, "System.Threading.Tasks", "TaskExtensions");

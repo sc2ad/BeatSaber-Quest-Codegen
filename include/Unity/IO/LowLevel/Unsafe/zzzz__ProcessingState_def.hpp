@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Unity::IO::LowLevel::Unsafe {
 struct ProcessingState;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::Unity::IO::LowLevel::Unsafe::ProcessingState const Unknown;
+static Unity::IO::LowLevel::Unsafe::ProcessingState const Unknown;
 
 /// @brief Field InQueue offset 0
-static ::Unity::IO::LowLevel::Unsafe::ProcessingState const InQueue;
+static Unity::IO::LowLevel::Unsafe::ProcessingState const InQueue;
 
 /// @brief Field Reading offset 0
-static ::Unity::IO::LowLevel::Unsafe::ProcessingState const Reading;
+static Unity::IO::LowLevel::Unsafe::ProcessingState const Reading;
 
 /// @brief Field Completed offset 0
-static ::Unity::IO::LowLevel::Unsafe::ProcessingState const Completed;
+static Unity::IO::LowLevel::Unsafe::ProcessingState const Completed;
 
 /// @brief Field Failed offset 0
-static ::Unity::IO::LowLevel::Unsafe::ProcessingState const Failed;
+static Unity::IO::LowLevel::Unsafe::ProcessingState const Failed;
 
 /// @brief Field Canceled offset 0
-static ::Unity::IO::LowLevel::Unsafe::ProcessingState const Canceled;
+static Unity::IO::LowLevel::Unsafe::ProcessingState const Canceled;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Unity::IO::LowLevel::Unsafe
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Unity::IO::LowLevel::Unsafe::ProcessingState, "Unity.IO.LowLevel.Unsafe", "ProcessingState");
+DEFINE_IL2CPP_ARG_TYPE(Unity::IO::LowLevel::Unsafe::ProcessingState, "Unity.IO.LowLevel.Unsafe", "ProcessingState");

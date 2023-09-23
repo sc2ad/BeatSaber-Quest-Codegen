@@ -3,13 +3,12 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine::UIElements::UIR {
-class BaseShaderInfoStorage;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace UnityEngine::UIElements::UIR {
+class BaseShaderInfoStorage;
 }
 namespace UnityEngine::UIElements::UIR {
 struct BMPAlloc;
@@ -19,7 +18,7 @@ namespace UnityEngine::UIElements::UIR {
 struct BitmapAllocator32;
 }
 namespace UnityEngine::UIElements::UIR {
-struct ____UnityEngine__UIElements__UIR__BitmapAllocator32__Page;
+struct UnityEngine__UIElements__UIR__BitmapAllocator32__Page;
 }
 // Type: ::Page
 namespace UnityEngine::UIElements::UIR {
@@ -27,20 +26,20 @@ namespace UnityEngine::UIElements::UIR {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7475))
 // CS Name: UnityEngine.UIElements.UIR.BitmapAllocator32::Page
-struct CORDL_TYPE ____UnityEngine__UIElements__UIR__BitmapAllocator32__Page : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__UIElements__UIR__BitmapAllocator32__Page : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "x", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "freeSlots", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__UIElements__UIR__BitmapAllocator32__Page(uint16_t x, uint16_t y, int32_t freeSlots) noexcept;
+constexpr UnityEngine__UIElements__UIR__BitmapAllocator32__Page(uint16_t x, uint16_t y, int32_t freeSlots) noexcept;
 
 
-                    constexpr ____UnityEngine__UIElements__UIR__BitmapAllocator32__Page(____UnityEngine__UIElements__UIR__BitmapAllocator32__Page const&) = default;
-                    constexpr ____UnityEngine__UIElements__UIR__BitmapAllocator32__Page(____UnityEngine__UIElements__UIR__BitmapAllocator32__Page&&) = default;
-                    constexpr ____UnityEngine__UIElements__UIR__BitmapAllocator32__Page& operator=(____UnityEngine__UIElements__UIR__BitmapAllocator32__Page const& o) {
+                    constexpr UnityEngine__UIElements__UIR__BitmapAllocator32__Page(UnityEngine__UIElements__UIR__BitmapAllocator32__Page const&) = default;
+                    constexpr UnityEngine__UIElements__UIR__BitmapAllocator32__Page(UnityEngine__UIElements__UIR__BitmapAllocator32__Page&&) = default;
+                    constexpr UnityEngine__UIElements__UIR__BitmapAllocator32__Page& operator=(UnityEngine__UIElements__UIR__BitmapAllocator32__Page const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__UIElements__UIR__BitmapAllocator32__Page& operator=(____UnityEngine__UIElements__UIR__BitmapAllocator32__Page&& o) noexcept {
+                    constexpr UnityEngine__UIElements__UIR__BitmapAllocator32__Page& operator=(UnityEngine__UIElements__UIR__BitmapAllocator32__Page&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -53,7 +52,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x8};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UIElements__UIR__BitmapAllocator32__Page(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__UIElements__UIR__BitmapAllocator32__Page(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -95,10 +94,10 @@ namespace UnityEngine::UIElements::UIR {
 struct CORDL_TYPE BitmapAllocator32 : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-using Page = ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BitmapAllocator32__Page;
+using Page = UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BitmapAllocator32__Page;
 
-// Ctor Parameters [CppParam { name: "m_PageHeight", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Pages", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BitmapAllocator32__Page>", modifiers: "", def_value: None }, CppParam { name: "m_AllocMap", ty: "::System::Collections::Generic::List_1<uint32_t>", modifiers: "", def_value: None }, CppParam { name: "m_EntryWidth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_EntryHeight", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr BitmapAllocator32(int32_t m_PageHeight, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BitmapAllocator32__Page> m_Pages, ::System::Collections::Generic::List_1<uint32_t> m_AllocMap, int32_t m_EntryWidth, int32_t m_EntryHeight) noexcept;
+// Ctor Parameters [CppParam { name: "m_PageHeight", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Pages", ty: "System::Collections::Generic::List_1<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BitmapAllocator32__Page>", modifiers: "", def_value: None }, CppParam { name: "m_AllocMap", ty: "System::Collections::Generic::List_1<uint32_t>", modifiers: "", def_value: None }, CppParam { name: "m_EntryWidth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_EntryHeight", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr BitmapAllocator32(int32_t m_PageHeight, System::Collections::Generic::List_1<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BitmapAllocator32__Page> m_Pages, System::Collections::Generic::List_1<uint32_t> m_AllocMap, int32_t m_EntryWidth, int32_t m_EntryHeight) noexcept;
 
 
                     constexpr BitmapAllocator32(BitmapAllocator32 const&) = default;
@@ -137,17 +136,17 @@ constexpr void __set_m_PageHeight(int32_t value) ;
 
 constexpr int32_t __get_m_PageHeight() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BitmapAllocator32__Page> __declspec(property(get=__get_m_Pages, put=__set_m_Pages))  m_Pages;
+ System::Collections::Generic::List_1<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BitmapAllocator32__Page> __declspec(property(get=__get_m_Pages, put=__set_m_Pages))  m_Pages;
 
-constexpr void __set_m_Pages(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BitmapAllocator32__Page> value) ;
+constexpr void __set_m_Pages(System::Collections::Generic::List_1<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BitmapAllocator32__Page> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BitmapAllocator32__Page> __get_m_Pages() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BitmapAllocator32__Page> __get_m_Pages() const;
 
- ::System::Collections::Generic::List_1<uint32_t> __declspec(property(get=__get_m_AllocMap, put=__set_m_AllocMap))  m_AllocMap;
+ System::Collections::Generic::List_1<uint32_t> __declspec(property(get=__get_m_AllocMap, put=__set_m_AllocMap))  m_AllocMap;
 
-constexpr void __set_m_AllocMap(::System::Collections::Generic::List_1<uint32_t> value) ;
+constexpr void __set_m_AllocMap(System::Collections::Generic::List_1<uint32_t> value) ;
 
-constexpr ::System::Collections::Generic::List_1<uint32_t> __get_m_AllocMap() const;
+constexpr System::Collections::Generic::List_1<uint32_t> __get_m_AllocMap() const;
 
  int32_t __declspec(property(get=__get_m_EntryWidth, put=__set_m_EntryWidth))  m_EntryWidth;
 
@@ -178,10 +177,10 @@ constexpr int32_t __get_m_EntryHeight() const;
  void ForceFirstAlloc(uint16_t firstPageX, uint16_t firstPageY) ;
 
 /// @brief Method Allocate addr 0x2d120e8 size 0x41c virtual false final false
- ::UnityEngine::UIElements::UIR::BMPAlloc Allocate(::UnityEngine::UIElements::UIR::BaseShaderInfoStorage storage) ;
+ UnityEngine::UIElements::UIR::BMPAlloc Allocate(UnityEngine::UIElements::UIR::BaseShaderInfoStorage storage) ;
 
 /// @brief Method Free addr 0x2d12568 size 0x144 virtual false final false
- void Free(::UnityEngine::UIElements::UIR::BMPAlloc alloc) ;
+ void Free(UnityEngine::UIElements::UIR::BMPAlloc alloc) ;
 
 /// @brief Method get_entryWidth addr 0x2d126ac size 0x8 virtual false final false
  int32_t get_entryWidth() ;
@@ -199,6 +198,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::UIR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::BitmapAllocator32, "UnityEngine.UIElements.UIR", "BitmapAllocator32");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BitmapAllocator32__Page, "UnityEngine.UIElements.UIR", "BitmapAllocator32/Page");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::BitmapAllocator32, "UnityEngine.UIElements.UIR", "BitmapAllocator32");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BitmapAllocator32__Page, "UnityEngine.UIElements.UIR", "BitmapAllocator32/Page");

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class Type;
 }
@@ -54,15 +53,14 @@ constexpr explicit APIUpdaterRuntimeHelpers(void* ptr) noexcept : ::bs_hook::Il2
 // Methods
 
 /// @brief Method GetMovedFromAttributeDataForType addr 0x2b6e208 size 0x140 virtual false final false
-static bool GetMovedFromAttributeDataForType(::System::Type sourceType, ByRef<::StringW> assembly, ByRef<::StringW> nsp, ByRef<::StringW> klass) ;
+static bool GetMovedFromAttributeDataForType(System::Type sourceType, ByRef<::StringW> assembly, ByRef<::StringW> nsp, ByRef<::StringW> klass) ;
 
 /// @brief Method GetObsoleteTypeRedirection addr 0x2b6e348 size 0x2bc virtual false final false
-static bool GetObsoleteTypeRedirection(::System::Type sourceType, ByRef<::StringW> assemblyName, ByRef<::StringW> nsp, ByRef<::StringW> className) ;
+static bool GetObsoleteTypeRedirection(System::Type sourceType, ByRef<::StringW> assemblyName, ByRef<::StringW> nsp, ByRef<::StringW> className) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::_Scripting::APIUpdating
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers, "UnityEngine._Scripting.APIUpdating", "APIUpdaterRuntimeHelpers");
+NEED_NO_BOX(UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers, "UnityEngine._Scripting.APIUpdating", "APIUpdaterRuntimeHelpers");

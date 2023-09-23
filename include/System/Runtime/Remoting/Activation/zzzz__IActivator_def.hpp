@@ -1,11 +1,10 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
-namespace {
-namespace System::Runtime::Remoting::Activation {
-class IConstructionReturnMessage;
-}
 namespace System::Runtime::Remoting::Activation {
 class IConstructionCallMessage;
+}
+namespace System::Runtime::Remoting::Activation {
+class IConstructionReturnMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Activation {
@@ -29,21 +28,20 @@ constexpr explicit IActivator(void* ptr) noexcept : ::cordl_internals::Interface
 
 // Properties
 
- ::System::Runtime::Remoting::Activation::IActivator __declspec(property(get=get_NextActivator))  NextActivator;
+ System::Runtime::Remoting::Activation::IActivator __declspec(property(get=get_NextActivator))  NextActivator;
 
 
 // Methods
 
 /// @brief Method get_NextActivator addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Runtime::Remoting::Activation::IActivator get_NextActivator() ;
+ System::Runtime::Remoting::Activation::IActivator get_NextActivator() ;
 
 /// @brief Method Activate addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Runtime::Remoting::Activation::IConstructionReturnMessage Activate(::System::Runtime::Remoting::Activation::IConstructionCallMessage msg) ;
+ System::Runtime::Remoting::Activation::IConstructionReturnMessage Activate(System::Runtime::Remoting::Activation::IConstructionCallMessage msg) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Activation
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Activation::IActivator);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Activation::IActivator, "System.Runtime.Remoting.Activation", "IActivator");
+NEED_NO_BOX(System::Runtime::Remoting::Activation::IActivator);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Activation::IActivator, "System.Runtime.Remoting.Activation", "IActivator");

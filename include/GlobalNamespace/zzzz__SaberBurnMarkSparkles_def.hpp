@@ -3,9 +3,20 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace UnityEngine {
 class ParticleSystem;
+}
+namespace UnityEngine {
+struct UnityEngine__ParticleSystem__EmitParams;
+}
+namespace GlobalNamespace {
+class SaberManager;
+}
+namespace GlobalNamespace {
+class Saber;
+}
+namespace UnityEngine {
+class BoxCollider;
 }
 namespace GlobalNamespace {
 class ColorManager;
@@ -14,22 +25,10 @@ namespace UnityEngine {
 struct Plane;
 }
 namespace UnityEngine {
-struct ____UnityEngine__ParticleSystem__EmissionModule;
-}
-namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-struct ____UnityEngine__ParticleSystem__EmitParams;
-}
-namespace UnityEngine {
-class BoxCollider;
-}
-namespace GlobalNamespace {
-class Saber;
-}
-namespace GlobalNamespace {
-class SaberManager;
+struct UnityEngine__ParticleSystem__EmissionModule;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -41,7 +40,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4988))
 // CS Name: SaberBurnMarkSparkles
-class CORDL_TYPE SaberBurnMarkSparkles : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SaberBurnMarkSparkles : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -56,7 +55,7 @@ constexpr SaberBurnMarkSparkles(SaberBurnMarkSparkles const& ) noexcept = defaul
 constexpr SaberBurnMarkSparkles(SaberBurnMarkSparkles&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SaberBurnMarkSparkles(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SaberBurnMarkSparkles(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -77,53 +76,53 @@ constexpr explicit SaberBurnMarkSparkles(void* ptr) noexcept : ::UnityEngine::Mo
 
 // Fields
 
- ::UnityEngine::ParticleSystem __declspec(property(get=__get__sparklesPS, put=__set__sparklesPS))  _sparklesPS;
+ UnityEngine::ParticleSystem __declspec(property(get=__get__sparklesPS, put=__set__sparklesPS))  _sparklesPS;
 
-constexpr void __set__sparklesPS(::UnityEngine::ParticleSystem value) ;
+constexpr void __set__sparklesPS(UnityEngine::ParticleSystem value) ;
 
-constexpr ::UnityEngine::ParticleSystem __get__sparklesPS() const;
+constexpr UnityEngine::ParticleSystem __get__sparklesPS() const;
 
- ::UnityEngine::ParticleSystem __declspec(property(get=__get__burnMarksPSPrefab, put=__set__burnMarksPSPrefab))  _burnMarksPSPrefab;
+ UnityEngine::ParticleSystem __declspec(property(get=__get__burnMarksPSPrefab, put=__set__burnMarksPSPrefab))  _burnMarksPSPrefab;
 
-constexpr void __set__burnMarksPSPrefab(::UnityEngine::ParticleSystem value) ;
+constexpr void __set__burnMarksPSPrefab(UnityEngine::ParticleSystem value) ;
 
-constexpr ::UnityEngine::ParticleSystem __get__burnMarksPSPrefab() const;
+constexpr UnityEngine::ParticleSystem __get__burnMarksPSPrefab() const;
 
- ::UnityEngine::BoxCollider __declspec(property(get=__get__boxCollider, put=__set__boxCollider))  _boxCollider;
+ UnityEngine::BoxCollider __declspec(property(get=__get__boxCollider, put=__set__boxCollider))  _boxCollider;
 
-constexpr void __set__boxCollider(::UnityEngine::BoxCollider value) ;
+constexpr void __set__boxCollider(UnityEngine::BoxCollider value) ;
 
-constexpr ::UnityEngine::BoxCollider __get__boxCollider() const;
+constexpr UnityEngine::BoxCollider __get__boxCollider() const;
 
- ::GlobalNamespace::ColorManager __declspec(property(get=__get__colorManager, put=__set__colorManager))  _colorManager;
+ GlobalNamespace::ColorManager __declspec(property(get=__get__colorManager, put=__set__colorManager))  _colorManager;
 
-constexpr void __set__colorManager(::GlobalNamespace::ColorManager value) ;
+constexpr void __set__colorManager(GlobalNamespace::ColorManager value) ;
 
-constexpr ::GlobalNamespace::ColorManager __get__colorManager() const;
+constexpr GlobalNamespace::ColorManager __get__colorManager() const;
 
- ::GlobalNamespace::SaberManager __declspec(property(get=__get__saberManager, put=__set__saberManager))  _saberManager;
+ GlobalNamespace::SaberManager __declspec(property(get=__get__saberManager, put=__set__saberManager))  _saberManager;
 
-constexpr void __set__saberManager(::GlobalNamespace::SaberManager value) ;
+constexpr void __set__saberManager(GlobalNamespace::SaberManager value) ;
 
-constexpr ::GlobalNamespace::SaberManager __get__saberManager() const;
+constexpr GlobalNamespace::SaberManager __get__saberManager() const;
 
- ::ArrayW<::GlobalNamespace::Saber> __declspec(property(get=__get__sabers, put=__set__sabers))  _sabers;
+ ::ArrayW<GlobalNamespace::Saber> __declspec(property(get=__get__sabers, put=__set__sabers))  _sabers;
 
-constexpr void __set__sabers(::ArrayW<::GlobalNamespace::Saber> value) ;
+constexpr void __set__sabers(::ArrayW<GlobalNamespace::Saber> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::Saber> __get__sabers() const;
+constexpr ::ArrayW<GlobalNamespace::Saber> __get__sabers() const;
 
- ::UnityEngine::Plane __declspec(property(get=__get__plane, put=__set__plane))  _plane;
+ UnityEngine::Plane __declspec(property(get=__get__plane, put=__set__plane))  _plane;
 
-constexpr void __set__plane(::UnityEngine::Plane value) ;
+constexpr void __set__plane(UnityEngine::Plane value) ;
 
-constexpr ::UnityEngine::Plane __get__plane() const;
+constexpr UnityEngine::Plane __get__plane() const;
 
- ::ArrayW<::UnityEngine::Vector3> __declspec(property(get=__get__prevBurnMarkPos, put=__set__prevBurnMarkPos))  _prevBurnMarkPos;
+ ::ArrayW<UnityEngine::Vector3> __declspec(property(get=__get__prevBurnMarkPos, put=__set__prevBurnMarkPos))  _prevBurnMarkPos;
 
-constexpr void __set__prevBurnMarkPos(::ArrayW<::UnityEngine::Vector3> value) ;
+constexpr void __set__prevBurnMarkPos(::ArrayW<UnityEngine::Vector3> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector3> __get__prevBurnMarkPos() const;
+constexpr ::ArrayW<UnityEngine::Vector3> __get__prevBurnMarkPos() const;
 
  ::ArrayW<bool> __declspec(property(get=__get__prevBurnMarkPosValid, put=__set__prevBurnMarkPosValid))  _prevBurnMarkPosValid;
 
@@ -131,23 +130,23 @@ constexpr void __set__prevBurnMarkPosValid(::ArrayW<bool> value) ;
 
 constexpr ::ArrayW<bool> __get__prevBurnMarkPosValid() const;
 
- ::ArrayW<::UnityEngine::ParticleSystem> __declspec(property(get=__get__burnMarksPS, put=__set__burnMarksPS))  _burnMarksPS;
+ ::ArrayW<UnityEngine::ParticleSystem> __declspec(property(get=__get__burnMarksPS, put=__set__burnMarksPS))  _burnMarksPS;
 
-constexpr void __set__burnMarksPS(::ArrayW<::UnityEngine::ParticleSystem> value) ;
+constexpr void __set__burnMarksPS(::ArrayW<UnityEngine::ParticleSystem> value) ;
 
-constexpr ::ArrayW<::UnityEngine::ParticleSystem> __get__burnMarksPS() const;
+constexpr ::ArrayW<UnityEngine::ParticleSystem> __get__burnMarksPS() const;
 
- ::ArrayW<::UnityEngine::____UnityEngine__ParticleSystem__EmissionModule> __declspec(property(get=__get__burnMarksEmissionModules, put=__set__burnMarksEmissionModules))  _burnMarksEmissionModules;
+ ::ArrayW<UnityEngine::UnityEngine__ParticleSystem__EmissionModule> __declspec(property(get=__get__burnMarksEmissionModules, put=__set__burnMarksEmissionModules))  _burnMarksEmissionModules;
 
-constexpr void __set__burnMarksEmissionModules(::ArrayW<::UnityEngine::____UnityEngine__ParticleSystem__EmissionModule> value) ;
+constexpr void __set__burnMarksEmissionModules(::ArrayW<UnityEngine::UnityEngine__ParticleSystem__EmissionModule> value) ;
 
-constexpr ::ArrayW<::UnityEngine::____UnityEngine__ParticleSystem__EmissionModule> __get__burnMarksEmissionModules() const;
+constexpr ::ArrayW<UnityEngine::UnityEngine__ParticleSystem__EmissionModule> __get__burnMarksEmissionModules() const;
 
- ::UnityEngine::____UnityEngine__ParticleSystem__EmitParams __declspec(property(get=__get__sparklesEmitParams, put=__set__sparklesEmitParams))  _sparklesEmitParams;
+ UnityEngine::UnityEngine__ParticleSystem__EmitParams __declspec(property(get=__get__sparklesEmitParams, put=__set__sparklesEmitParams))  _sparklesEmitParams;
 
-constexpr void __set__sparklesEmitParams(::UnityEngine::____UnityEngine__ParticleSystem__EmitParams value) ;
+constexpr void __set__sparklesEmitParams(UnityEngine::UnityEngine__ParticleSystem__EmitParams value) ;
 
-constexpr ::UnityEngine::____UnityEngine__ParticleSystem__EmitParams __get__sparklesEmitParams() const;
+constexpr UnityEngine::UnityEngine__ParticleSystem__EmitParams __get__sparklesEmitParams() const;
 
 
 // Methods
@@ -165,7 +164,7 @@ constexpr ::UnityEngine::____UnityEngine__ParticleSystem__EmitParams __get__spar
  void OnDisable() ;
 
 /// @brief Method GetBurnMarkPos addr 0x2254de4 size 0x20c virtual false final false
- bool GetBurnMarkPos(::UnityEngine::Vector3 bladeBottomPos, ::UnityEngine::Vector3 bladeTopPos, ByRef<::UnityEngine::Vector3> burnMarkPos) ;
+ bool GetBurnMarkPos(UnityEngine::Vector3 bladeBottomPos, UnityEngine::Vector3 bladeTopPos, ByRef<UnityEngine::Vector3> burnMarkPos) ;
 
 /// @brief Method LateUpdate addr 0x2254ff0 size 0x6a0 virtual false final false
  void LateUpdate() ;
@@ -180,6 +179,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SaberBurnMarkSparkles);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SaberBurnMarkSparkles, "", "SaberBurnMarkSparkles");
+NEED_NO_BOX(GlobalNamespace::SaberBurnMarkSparkles);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberBurnMarkSparkles, "", "SaberBurnMarkSparkles");

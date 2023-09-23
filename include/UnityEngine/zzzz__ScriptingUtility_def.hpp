@@ -3,13 +3,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 class ScriptingUtility;
 }
 namespace UnityEngine {
-struct ____UnityEngine__ScriptingUtility__TestClass;
+struct UnityEngine__ScriptingUtility__TestClass;
 }
 // Type: ::TestClass
 namespace UnityEngine {
@@ -17,20 +16,20 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10170))
 // CS Name: UnityEngine.ScriptingUtility::TestClass
-struct CORDL_TYPE ____UnityEngine__ScriptingUtility__TestClass : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__ScriptingUtility__TestClass : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__ScriptingUtility__TestClass(int32_t value) noexcept;
+constexpr UnityEngine__ScriptingUtility__TestClass(int32_t value) noexcept;
 
 
-                    constexpr ____UnityEngine__ScriptingUtility__TestClass(____UnityEngine__ScriptingUtility__TestClass const&) = default;
-                    constexpr ____UnityEngine__ScriptingUtility__TestClass(____UnityEngine__ScriptingUtility__TestClass&&) = default;
-                    constexpr ____UnityEngine__ScriptingUtility__TestClass& operator=(____UnityEngine__ScriptingUtility__TestClass const& o) {
+                    constexpr UnityEngine__ScriptingUtility__TestClass(UnityEngine__ScriptingUtility__TestClass const&) = default;
+                    constexpr UnityEngine__ScriptingUtility__TestClass(UnityEngine__ScriptingUtility__TestClass&&) = default;
+                    constexpr UnityEngine__ScriptingUtility__TestClass& operator=(UnityEngine__ScriptingUtility__TestClass const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__ScriptingUtility__TestClass& operator=(____UnityEngine__ScriptingUtility__TestClass&& o) noexcept {
+                    constexpr UnityEngine__ScriptingUtility__TestClass& operator=(UnityEngine__ScriptingUtility__TestClass&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -43,7 +42,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__ScriptingUtility__TestClass(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__ScriptingUtility__TestClass(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -73,7 +72,7 @@ namespace UnityEngine {
 class CORDL_TYPE ScriptingUtility : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using TestClass = ::UnityEngine::____UnityEngine__ScriptingUtility__TestClass;
+using TestClass = UnityEngine::UnityEngine__ScriptingUtility__TestClass;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -115,7 +114,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ScriptingUtility);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ScriptingUtility, "UnityEngine", "ScriptingUtility");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::____UnityEngine__ScriptingUtility__TestClass, "UnityEngine", "ScriptingUtility/TestClass");
+NEED_NO_BOX(UnityEngine::ScriptingUtility);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ScriptingUtility, "UnityEngine", "ScriptingUtility");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnityEngine__ScriptingUtility__TestClass, "UnityEngine", "ScriptingUtility/TestClass");

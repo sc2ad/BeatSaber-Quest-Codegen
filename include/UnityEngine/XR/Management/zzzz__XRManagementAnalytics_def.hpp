@@ -5,13 +5,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::XR::Management {
 class XRManagementAnalytics;
 }
 namespace UnityEngine::XR::Management {
-struct ____UnityEngine__XR__Management__XRManagementAnalytics__BuildEvent;
+struct UnityEngine__XR__Management__XRManagementAnalytics__BuildEvent;
 }
 // Type: ::BuildEvent
 namespace UnityEngine::XR::Management {
@@ -19,20 +18,20 @@ namespace UnityEngine::XR::Management {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15893))
 // CS Name: UnityEngine.XR.Management.XRManagementAnalytics::BuildEvent
-struct CORDL_TYPE ____UnityEngine__XR__Management__XRManagementAnalytics__BuildEvent : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__XR__Management__XRManagementAnalytics__BuildEvent : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "buildGuid", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "buildTarget", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "buildTargetGroup", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "assigned_loaders", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__XR__Management__XRManagementAnalytics__BuildEvent(::StringW buildGuid, ::StringW buildTarget, ::StringW buildTargetGroup, ::ArrayW<::StringW> assigned_loaders) noexcept;
+constexpr UnityEngine__XR__Management__XRManagementAnalytics__BuildEvent(::StringW buildGuid, ::StringW buildTarget, ::StringW buildTargetGroup, ::ArrayW<::StringW> assigned_loaders) noexcept;
 
 
-                    constexpr ____UnityEngine__XR__Management__XRManagementAnalytics__BuildEvent(____UnityEngine__XR__Management__XRManagementAnalytics__BuildEvent const&) = default;
-                    constexpr ____UnityEngine__XR__Management__XRManagementAnalytics__BuildEvent(____UnityEngine__XR__Management__XRManagementAnalytics__BuildEvent&&) = default;
-                    constexpr ____UnityEngine__XR__Management__XRManagementAnalytics__BuildEvent& operator=(____UnityEngine__XR__Management__XRManagementAnalytics__BuildEvent const& o) {
+                    constexpr UnityEngine__XR__Management__XRManagementAnalytics__BuildEvent(UnityEngine__XR__Management__XRManagementAnalytics__BuildEvent const&) = default;
+                    constexpr UnityEngine__XR__Management__XRManagementAnalytics__BuildEvent(UnityEngine__XR__Management__XRManagementAnalytics__BuildEvent&&) = default;
+                    constexpr UnityEngine__XR__Management__XRManagementAnalytics__BuildEvent& operator=(UnityEngine__XR__Management__XRManagementAnalytics__BuildEvent const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__XR__Management__XRManagementAnalytics__BuildEvent& operator=(____UnityEngine__XR__Management__XRManagementAnalytics__BuildEvent&& o) noexcept {
+                    constexpr UnityEngine__XR__Management__XRManagementAnalytics__BuildEvent& operator=(UnityEngine__XR__Management__XRManagementAnalytics__BuildEvent&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -45,7 +44,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x20};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__XR__Management__XRManagementAnalytics__BuildEvent(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__XR__Management__XRManagementAnalytics__BuildEvent(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -93,7 +92,7 @@ namespace UnityEngine::XR::Management {
 class CORDL_TYPE XRManagementAnalytics : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using BuildEvent = ::UnityEngine::XR::Management::____UnityEngine__XR__Management__XRManagementAnalytics__BuildEvent;
+using BuildEvent = UnityEngine::XR::Management::UnityEngine__XR__Management__XRManagementAnalytics__BuildEvent;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -150,7 +149,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR::Management
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::XR::Management::XRManagementAnalytics);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::Management::XRManagementAnalytics, "UnityEngine.XR.Management", "XRManagementAnalytics");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::Management::____UnityEngine__XR__Management__XRManagementAnalytics__BuildEvent, "UnityEngine.XR.Management", "XRManagementAnalytics/BuildEvent");
+NEED_NO_BOX(UnityEngine::XR::Management::XRManagementAnalytics);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::Management::XRManagementAnalytics, "UnityEngine.XR.Management", "XRManagementAnalytics");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::Management::UnityEngine__XR__Management__XRManagementAnalytics__BuildEvent, "UnityEngine.XR.Management", "XRManagementAnalytics/BuildEvent");

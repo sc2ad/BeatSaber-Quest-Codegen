@@ -1,16 +1,15 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
-namespace UnityEngine::Playables {
-struct PlayableHandle;
-}
 namespace UnityEngine::Playables {
 class IPlayable;
 }
 namespace System {
 template<typename T>
 class IEquatable_1;
+}
+namespace UnityEngine::Playables {
+struct PlayableHandle;
 }
 // Forward declare root types
 namespace UnityEngine::Experimental::Playables {
@@ -25,14 +24,14 @@ namespace UnityEngine::Experimental::Playables {
 struct CORDL_TYPE CameraPlayable : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::Playables::IPlayable
-constexpr operator  ::UnityEngine::Playables::IPlayable() const;
+/// @brief Convert operator to UnityEngine::Playables::IPlayable
+constexpr operator  UnityEngine::Playables::IPlayable() const;
 
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::Experimental::Playables::CameraPlayable>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::Experimental::Playables::CameraPlayable>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::Experimental::Playables::CameraPlayable>
+constexpr operator  System::IEquatable_1<UnityEngine::Experimental::Playables::CameraPlayable>() const;
 
-// Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]
-constexpr CameraPlayable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
+// Ctor Parameters [CppParam { name: "m_Handle", ty: "UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]
+constexpr CameraPlayable(UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
 
 
                     constexpr CameraPlayable(CameraPlayable const&) = default;
@@ -65,24 +64,23 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Playables::PlayableHandle __declspec(property(get=__get_m_Handle, put=__set_m_Handle))  m_Handle;
+ UnityEngine::Playables::PlayableHandle __declspec(property(get=__get_m_Handle, put=__set_m_Handle))  m_Handle;
 
-constexpr void __set_m_Handle(::UnityEngine::Playables::PlayableHandle value) ;
+constexpr void __set_m_Handle(UnityEngine::Playables::PlayableHandle value) ;
 
-constexpr ::UnityEngine::Playables::PlayableHandle __get_m_Handle() const;
+constexpr UnityEngine::Playables::PlayableHandle __get_m_Handle() const;
 
 
 // Methods
 
 /// @brief Method GetHandle addr 0x2b7b6e4 size 0xc virtual true final true
- ::UnityEngine::Playables::PlayableHandle GetHandle() ;
+ UnityEngine::Playables::PlayableHandle GetHandle() ;
 
 /// @brief Method Equals addr 0x2b7b6f0 size 0x74 virtual true final true
- bool Equals(::UnityEngine::Experimental::Playables::CameraPlayable other) ;
+ bool Equals(UnityEngine::Experimental::Playables::CameraPlayable other) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Experimental::Playables
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::Playables::CameraPlayable, "UnityEngine.Experimental.Playables", "CameraPlayable");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Playables::CameraPlayable, "UnityEngine.Experimental.Playables", "CameraPlayable");

@@ -1,10 +1,12 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
+}
+namespace System::Net::Http {
+class HttpMessageHandler;
 }
 namespace System::Net::Http {
 class HttpResponseMessage;
@@ -13,13 +15,10 @@ namespace System {
 class IDisposable;
 }
 namespace System::Net::Http {
-class HttpMessageHandler;
+class HttpRequestMessage;
 }
 namespace System::Threading {
 struct CancellationToken;
-}
-namespace System::Net::Http {
-class HttpRequestMessage;
 }
 // Forward declare root types
 namespace System::Net::Http {
@@ -34,8 +33,8 @@ namespace System::Net::Http {
 class CORDL_TYPE HttpMessageInvoker : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -70,11 +69,11 @@ constexpr explicit HttpMessageInvoker(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Fields
 
- ::System::Net::Http::HttpMessageHandler __declspec(property(get=__get_handler, put=__set_handler))  handler;
+ System::Net::Http::HttpMessageHandler __declspec(property(get=__get_handler, put=__set_handler))  handler;
 
-constexpr void __set_handler(::System::Net::Http::HttpMessageHandler value) ;
+constexpr void __set_handler(System::Net::Http::HttpMessageHandler value) ;
 
-constexpr ::System::Net::Http::HttpMessageHandler __get_handler() const;
+constexpr System::Net::Http::HttpMessageHandler __get_handler() const;
 
  bool __declspec(property(get=__get_disposeHandler, put=__set_disposeHandler))  disposeHandler;
 
@@ -85,11 +84,11 @@ constexpr bool __get_disposeHandler() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "handler", ty: "::System::Net::Http::HttpMessageHandler", modifiers: "", def_value: None }, CppParam { name: "disposeHandler", ty: "bool", modifiers: "", def_value: None }]
-explicit HttpMessageInvoker(::System::Net::Http::HttpMessageHandler handler, bool disposeHandler) ;
+// Ctor Parameters [CppParam { name: "handler", ty: "System::Net::Http::HttpMessageHandler", modifiers: "", def_value: None }, CppParam { name: "disposeHandler", ty: "bool", modifiers: "", def_value: None }]
+explicit HttpMessageInvoker(System::Net::Http::HttpMessageHandler handler, bool disposeHandler) ;
 
 /// @brief Method .ctor addr 0x269f3a4 size 0x84 virtual false final false
- void _ctor(::System::Net::Http::HttpMessageHandler handler, bool disposeHandler) ;
+ void _ctor(System::Net::Http::HttpMessageHandler handler, bool disposeHandler) ;
 
 /// @brief Method Dispose addr 0x26a1ae0 size 0x10 virtual true final true
  void Dispose() ;
@@ -98,12 +97,11 @@ explicit HttpMessageInvoker(::System::Net::Http::HttpMessageHandler handler, boo
  void Dispose(bool disposing) ;
 
 /// @brief Method SendAsync addr 0x26a0014 size 0x20 virtual true final false
- ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage> SendAsync(::System::Net::Http::HttpRequestMessage request, ::System::Threading::CancellationToken cancellationToken) ;
+ System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage> SendAsync(System::Net::Http::HttpRequestMessage request, System::Threading::CancellationToken cancellationToken) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Http
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Http::HttpMessageInvoker);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::HttpMessageInvoker, "System.Net.Http", "HttpMessageInvoker");
+NEED_NO_BOX(System::Net::Http::HttpMessageInvoker);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpMessageInvoker, "System.Net.Http", "HttpMessageInvoker");

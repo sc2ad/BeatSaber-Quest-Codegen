@@ -4,24 +4,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace UnityEngine {
+class Mesh;
+}
+namespace GlobalNamespace {
+struct NoteCutDirection;
+}
 namespace GlobalNamespace {
 class SliderMeshConstructor;
 }
 namespace GlobalNamespace {
 class SliderData;
 }
-namespace UnityEngine {
-class Mesh;
+namespace GlobalNamespace {
+class PathsHolder;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace GlobalNamespace {
-struct NoteCutDirection;
-}
-namespace GlobalNamespace {
-class PathsHolder;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -37,7 +36,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4938))
 // CS Name: SliderMeshController
-class CORDL_TYPE SliderMeshController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SliderMeshController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -52,7 +51,7 @@ constexpr SliderMeshController(SliderMeshController const& ) noexcept = default;
 constexpr SliderMeshController(SliderMeshController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SliderMeshController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SliderMeshController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -109,35 +108,35 @@ constexpr void __set__middleControlPointXDistanceModifier(float_t value) ;
 
 constexpr float_t __get__middleControlPointXDistanceModifier() const;
 
- ::GlobalNamespace::SliderMeshConstructor __declspec(property(get=__get__sliderMeshConstructor, put=__set__sliderMeshConstructor))  _sliderMeshConstructor;
+ GlobalNamespace::SliderMeshConstructor __declspec(property(get=__get__sliderMeshConstructor, put=__set__sliderMeshConstructor))  _sliderMeshConstructor;
 
-constexpr void __set__sliderMeshConstructor(::GlobalNamespace::SliderMeshConstructor value) ;
+constexpr void __set__sliderMeshConstructor(GlobalNamespace::SliderMeshConstructor value) ;
 
-constexpr ::GlobalNamespace::SliderMeshConstructor __get__sliderMeshConstructor() const;
+constexpr GlobalNamespace::SliderMeshConstructor __get__sliderMeshConstructor() const;
 
- ::GlobalNamespace::PathsHolder __declspec(property(get=__get__pathsHolder, put=__set__pathsHolder))  _pathsHolder;
+ GlobalNamespace::PathsHolder __declspec(property(get=__get__pathsHolder, put=__set__pathsHolder))  _pathsHolder;
 
-constexpr void __set__pathsHolder(::GlobalNamespace::PathsHolder value) ;
+constexpr void __set__pathsHolder(GlobalNamespace::PathsHolder value) ;
 
-constexpr ::GlobalNamespace::PathsHolder __get__pathsHolder() const;
+constexpr GlobalNamespace::PathsHolder __get__pathsHolder() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::Vector3> __declspec(property(get=__get__reusableAnchorsList, put=__set__reusableAnchorsList))  _reusableAnchorsList;
+ System::Collections::Generic::List_1<UnityEngine::Vector3> __declspec(property(get=__get__reusableAnchorsList, put=__set__reusableAnchorsList))  _reusableAnchorsList;
 
-constexpr void __set__reusableAnchorsList(::System::Collections::Generic::List_1<::UnityEngine::Vector3> value) ;
+constexpr void __set__reusableAnchorsList(System::Collections::Generic::List_1<UnityEngine::Vector3> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3> __get__reusableAnchorsList() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::Vector3> __get__reusableAnchorsList() const;
 
- ::ArrayW<::UnityEngine::Vector3> __declspec(property(get=__get__reusableControlPointsArray4, put=__set__reusableControlPointsArray4))  _reusableControlPointsArray4;
+ ::ArrayW<UnityEngine::Vector3> __declspec(property(get=__get__reusableControlPointsArray4, put=__set__reusableControlPointsArray4))  _reusableControlPointsArray4;
 
-constexpr void __set__reusableControlPointsArray4(::ArrayW<::UnityEngine::Vector3> value) ;
+constexpr void __set__reusableControlPointsArray4(::ArrayW<UnityEngine::Vector3> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector3> __get__reusableControlPointsArray4() const;
+constexpr ::ArrayW<UnityEngine::Vector3> __get__reusableControlPointsArray4() const;
 
- ::ArrayW<::UnityEngine::Vector3> __declspec(property(get=__get__reusableControlPointsArray2, put=__set__reusableControlPointsArray2))  _reusableControlPointsArray2;
+ ::ArrayW<UnityEngine::Vector3> __declspec(property(get=__get__reusableControlPointsArray2, put=__set__reusableControlPointsArray2))  _reusableControlPointsArray2;
 
-constexpr void __set__reusableControlPointsArray2(::ArrayW<::UnityEngine::Vector3> value) ;
+constexpr void __set__reusableControlPointsArray2(::ArrayW<UnityEngine::Vector3> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector3> __get__reusableControlPointsArray2() const;
+constexpr ::ArrayW<UnityEngine::Vector3> __get__reusableControlPointsArray2() const;
 
 /// @brief Field kDefaultGameNoteSize offset 0
 static constexpr float_t  kDefaultGameNoteSize{0.45};
@@ -147,9 +146,9 @@ static constexpr float_t  kDefaultGameNoteSize{0.45};
 
  float_t __declspec(property(get=get_pathLength))  pathLength;
 
- ::UnityEngine::Mesh __declspec(property(get=get_mesh))  mesh;
+ UnityEngine::Mesh __declspec(property(get=get_mesh))  mesh;
 
- ::GlobalNamespace::PathsHolder __declspec(property(get=get_pathsHolder))  pathsHolder;
+ GlobalNamespace::PathsHolder __declspec(property(get=get_pathsHolder))  pathsHolder;
 
 
 // Methods
@@ -158,16 +157,16 @@ static constexpr float_t  kDefaultGameNoteSize{0.45};
  float_t get_pathLength() ;
 
 /// @brief Method get_mesh addr 0x223dff4 size 0x1c virtual false final false
- ::UnityEngine::Mesh get_mesh() ;
+ UnityEngine::Mesh get_mesh() ;
 
 /// @brief Method get_pathsHolder addr 0x224bf98 size 0x8 virtual false final false
- ::GlobalNamespace::PathsHolder get_pathsHolder() ;
+ GlobalNamespace::PathsHolder get_pathsHolder() ;
 
 /// @brief Method CreateBezierPathAndMesh addr 0x2247838 size 0x758 virtual false final false
- void CreateBezierPathAndMesh(::GlobalNamespace::SliderData sliderData, ::UnityEngine::Vector3 headNotePos, ::UnityEngine::Vector3 tailNotePos, float_t jumpSpeed, float_t noteUniformScale) ;
+ void CreateBezierPathAndMesh(GlobalNamespace::SliderData sliderData, UnityEngine::Vector3 headNotePos, UnityEngine::Vector3 tailNotePos, float_t jumpSpeed, float_t noteUniformScale) ;
 
 /// @brief Method CutDirectionToControlPointPosition addr 0x224bfa0 size 0xdc virtual false final false
-static ::UnityEngine::Vector3 CutDirectionToControlPointPosition(::GlobalNamespace::NoteCutDirection noteCutDirection) ;
+static UnityEngine::Vector3 CutDirectionToControlPointPosition(GlobalNamespace::NoteCutDirection noteCutDirection) ;
 
 // Ctor Parameters []
 explicit SliderMeshController() ;
@@ -179,6 +178,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SliderMeshController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SliderMeshController, "", "SliderMeshController");
+NEED_NO_BOX(GlobalNamespace::SliderMeshController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SliderMeshController, "", "SliderMeshController");

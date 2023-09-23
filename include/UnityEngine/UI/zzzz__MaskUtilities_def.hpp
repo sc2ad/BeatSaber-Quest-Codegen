@@ -2,22 +2,21 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-class Component;
-}
 namespace UnityEngine::UI {
 class RectMask2D;
+}
+namespace UnityEngine::UI {
+class IClippable;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine::UI {
-class IClippable;
+namespace UnityEngine {
+class Component;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -66,25 +65,25 @@ constexpr explicit MaskUtilities(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 // Methods
 
 /// @brief Method Notify2DMaskStateChanged addr 0x2c030dc size 0x25c virtual false final false
-static void Notify2DMaskStateChanged(::UnityEngine::Component mask) ;
+static void Notify2DMaskStateChanged(UnityEngine::Component mask) ;
 
 /// @brief Method NotifyStencilStateChanged addr 0x2c017ac size 0x258 virtual false final false
-static void NotifyStencilStateChanged(::UnityEngine::Component mask) ;
+static void NotifyStencilStateChanged(UnityEngine::Component mask) ;
 
 /// @brief Method FindRootSortOverrideCanvas addr 0x2c01f08 size 0x1a0 virtual false final false
-static ::UnityEngine::Transform FindRootSortOverrideCanvas(::UnityEngine::Transform start) ;
+static UnityEngine::Transform FindRootSortOverrideCanvas(UnityEngine::Transform start) ;
 
 /// @brief Method GetStencilDepth addr 0x2c020a8 size 0x288 virtual false final false
-static int32_t GetStencilDepth(::UnityEngine::Transform transform, ::UnityEngine::Transform stopAfter) ;
+static int32_t GetStencilDepth(UnityEngine::Transform transform, UnityEngine::Transform stopAfter) ;
 
 /// @brief Method IsDescendantOrSelf addr 0x2c03338 size 0x150 virtual false final false
-static bool IsDescendantOrSelf(::UnityEngine::Transform father, ::UnityEngine::Transform child) ;
+static bool IsDescendantOrSelf(UnityEngine::Transform father, UnityEngine::Transform child) ;
 
 /// @brief Method GetRectMaskForClippable addr 0x2c02b2c size 0x41c virtual false final false
-static ::UnityEngine::UI::RectMask2D GetRectMaskForClippable(::UnityEngine::UI::IClippable clippable) ;
+static UnityEngine::UI::RectMask2D GetRectMaskForClippable(UnityEngine::UI::IClippable clippable) ;
 
 /// @brief Method GetRectMasksForClip addr 0x2c03488 size 0x364 virtual false final false
-static void GetRectMasksForClip(::UnityEngine::UI::RectMask2D clipper, ::System::Collections::Generic::List_1<::UnityEngine::UI::RectMask2D> masks) ;
+static void GetRectMasksForClip(UnityEngine::UI::RectMask2D clipper, System::Collections::Generic::List_1<UnityEngine::UI::RectMask2D> masks) ;
 
 // Ctor Parameters []
 explicit MaskUtilities() ;
@@ -96,6 +95,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UI
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UI::MaskUtilities);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::MaskUtilities, "UnityEngine.UI", "MaskUtilities");
+NEED_NO_BOX(UnityEngine::UI::MaskUtilities);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::MaskUtilities, "UnityEngine.UI", "MaskUtilities");

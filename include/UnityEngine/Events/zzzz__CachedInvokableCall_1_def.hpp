@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 class Object;
 }
@@ -42,7 +41,7 @@ template<::cordl_internals::il2cpp_reference_type T>
 // Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10388), inst: 3785 }), TypeDefinitionIndex(TypeDefinitionIndex(10392)), TypeDefinitionIndex(TypeDefinitionIndex(10388))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10392), inst: 2 })
 // CS Name: UnityEngine.Events.CachedInvokableCall`1
-class CORDL_TYPE CachedInvokableCall_1<T> : public ::UnityEngine::Events::InvokableCall_1<T> {
+class CORDL_TYPE CachedInvokableCall_1<T> : public UnityEngine::Events::InvokableCall_1<T> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -57,7 +56,7 @@ constexpr CachedInvokableCall_1(CachedInvokableCall_1 const& ) noexcept = defaul
 constexpr CachedInvokableCall_1(CachedInvokableCall_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CachedInvokableCall_1(void* ptr) noexcept : ::UnityEngine::Events::InvokableCall_1<T>(ptr) {
+constexpr explicit CachedInvokableCall_1(void* ptr) noexcept : UnityEngine::Events::InvokableCall_1<T>(ptr) {
 }
 
 
@@ -87,11 +86,11 @@ constexpr T __get_m_Arg1() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "target", ty: "::UnityEngine::Object", modifiers: "", def_value: None }, CppParam { name: "theFunction", ty: "::System::Reflection::MethodInfo", modifiers: "", def_value: None }, CppParam { name: "argument", ty: "T", modifiers: "", def_value: None }]
-explicit CachedInvokableCall_1(::UnityEngine::Object target, ::System::Reflection::MethodInfo theFunction, T argument) ;
+// Ctor Parameters [CppParam { name: "target", ty: "UnityEngine::Object", modifiers: "", def_value: None }, CppParam { name: "theFunction", ty: "System::Reflection::MethodInfo", modifiers: "", def_value: None }, CppParam { name: "argument", ty: "T", modifiers: "", def_value: None }]
+explicit CachedInvokableCall_1(UnityEngine::Object target, System::Reflection::MethodInfo theFunction, T argument) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::UnityEngine::Object target, ::System::Reflection::MethodInfo theFunction, T argument) ;
+ void _ctor(UnityEngine::Object target, System::Reflection::MethodInfo theFunction, T argument) ;
 
 /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
  void Invoke(::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
@@ -108,10 +107,10 @@ namespace UnityEngine::Events {
 // cpp template
 template<>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10392)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10388), inst: 3785 }), TypeDefinitionIndex(TypeDefinitionIndex(10388))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10388)), TypeDefinitionIndex(TypeDefinitionIndex(10392)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10388), inst: 3785 })}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10392), inst: 92 })
 // CS Name: UnityEngine.Events.CachedInvokableCall`1
-class CORDL_TYPE CachedInvokableCall_1<int32_t> : public ::UnityEngine::Events::InvokableCall_1<int32_t> {
+class CORDL_TYPE CachedInvokableCall_1<int32_t> : public UnityEngine::Events::InvokableCall_1<int32_t> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -126,7 +125,7 @@ constexpr CachedInvokableCall_1(CachedInvokableCall_1 const& ) noexcept = defaul
 constexpr CachedInvokableCall_1(CachedInvokableCall_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CachedInvokableCall_1(void* ptr) noexcept : ::UnityEngine::Events::InvokableCall_1<int32_t>(ptr) {
+constexpr explicit CachedInvokableCall_1(void* ptr) noexcept : UnityEngine::Events::InvokableCall_1<int32_t>(ptr) {
 }
 
 
@@ -156,11 +155,11 @@ constexpr int32_t __get_m_Arg1() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "target", ty: "::UnityEngine::Object", modifiers: "", def_value: None }, CppParam { name: "theFunction", ty: "::System::Reflection::MethodInfo", modifiers: "", def_value: None }, CppParam { name: "argument", ty: "int32_t", modifiers: "", def_value: None }]
-explicit CachedInvokableCall_1(::UnityEngine::Object target, ::System::Reflection::MethodInfo theFunction, int32_t argument) ;
+// Ctor Parameters [CppParam { name: "target", ty: "UnityEngine::Object", modifiers: "", def_value: None }, CppParam { name: "theFunction", ty: "System::Reflection::MethodInfo", modifiers: "", def_value: None }, CppParam { name: "argument", ty: "int32_t", modifiers: "", def_value: None }]
+explicit CachedInvokableCall_1(UnityEngine::Object target, System::Reflection::MethodInfo theFunction, int32_t argument) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::UnityEngine::Object target, ::System::Reflection::MethodInfo theFunction, int32_t argument) ;
+ void _ctor(UnityEngine::Object target, System::Reflection::MethodInfo theFunction, int32_t argument) ;
 
 /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
  void Invoke(::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
@@ -177,10 +176,10 @@ namespace UnityEngine::Events {
 // cpp template
 template<>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10392)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10388), inst: 3785 }), TypeDefinitionIndex(TypeDefinitionIndex(10388))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10392)), TypeDefinitionIndex(TypeDefinitionIndex(10388)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10388), inst: 3785 })}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10392), inst: 99 })
 // CS Name: UnityEngine.Events.CachedInvokableCall`1
-class CORDL_TYPE CachedInvokableCall_1<bool> : public ::UnityEngine::Events::InvokableCall_1<bool> {
+class CORDL_TYPE CachedInvokableCall_1<bool> : public UnityEngine::Events::InvokableCall_1<bool> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -195,7 +194,7 @@ constexpr CachedInvokableCall_1(CachedInvokableCall_1 const& ) noexcept = defaul
 constexpr CachedInvokableCall_1(CachedInvokableCall_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CachedInvokableCall_1(void* ptr) noexcept : ::UnityEngine::Events::InvokableCall_1<bool>(ptr) {
+constexpr explicit CachedInvokableCall_1(void* ptr) noexcept : UnityEngine::Events::InvokableCall_1<bool>(ptr) {
 }
 
 
@@ -225,11 +224,11 @@ constexpr bool __get_m_Arg1() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "target", ty: "::UnityEngine::Object", modifiers: "", def_value: None }, CppParam { name: "theFunction", ty: "::System::Reflection::MethodInfo", modifiers: "", def_value: None }, CppParam { name: "argument", ty: "bool", modifiers: "", def_value: None }]
-explicit CachedInvokableCall_1(::UnityEngine::Object target, ::System::Reflection::MethodInfo theFunction, bool argument) ;
+// Ctor Parameters [CppParam { name: "target", ty: "UnityEngine::Object", modifiers: "", def_value: None }, CppParam { name: "theFunction", ty: "System::Reflection::MethodInfo", modifiers: "", def_value: None }, CppParam { name: "argument", ty: "bool", modifiers: "", def_value: None }]
+explicit CachedInvokableCall_1(UnityEngine::Object target, System::Reflection::MethodInfo theFunction, bool argument) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::UnityEngine::Object target, ::System::Reflection::MethodInfo theFunction, bool argument) ;
+ void _ctor(UnityEngine::Object target, System::Reflection::MethodInfo theFunction, bool argument) ;
 
 /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
  void Invoke(::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
@@ -246,10 +245,10 @@ namespace UnityEngine::Events {
 // cpp template
 template<>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10388)), TypeDefinitionIndex(TypeDefinitionIndex(10392)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10388), inst: 3785 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10388), inst: 3785 }), TypeDefinitionIndex(TypeDefinitionIndex(10392)), TypeDefinitionIndex(TypeDefinitionIndex(10388))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10392), inst: 374 })
 // CS Name: UnityEngine.Events.CachedInvokableCall`1
-class CORDL_TYPE CachedInvokableCall_1<float_t> : public ::UnityEngine::Events::InvokableCall_1<float_t> {
+class CORDL_TYPE CachedInvokableCall_1<float_t> : public UnityEngine::Events::InvokableCall_1<float_t> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -264,7 +263,7 @@ constexpr CachedInvokableCall_1(CachedInvokableCall_1 const& ) noexcept = defaul
 constexpr CachedInvokableCall_1(CachedInvokableCall_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CachedInvokableCall_1(void* ptr) noexcept : ::UnityEngine::Events::InvokableCall_1<float_t>(ptr) {
+constexpr explicit CachedInvokableCall_1(void* ptr) noexcept : UnityEngine::Events::InvokableCall_1<float_t>(ptr) {
 }
 
 
@@ -294,11 +293,11 @@ constexpr float_t __get_m_Arg1() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "target", ty: "::UnityEngine::Object", modifiers: "", def_value: None }, CppParam { name: "theFunction", ty: "::System::Reflection::MethodInfo", modifiers: "", def_value: None }, CppParam { name: "argument", ty: "float_t", modifiers: "", def_value: None }]
-explicit CachedInvokableCall_1(::UnityEngine::Object target, ::System::Reflection::MethodInfo theFunction, float_t argument) ;
+// Ctor Parameters [CppParam { name: "target", ty: "UnityEngine::Object", modifiers: "", def_value: None }, CppParam { name: "theFunction", ty: "System::Reflection::MethodInfo", modifiers: "", def_value: None }, CppParam { name: "argument", ty: "float_t", modifiers: "", def_value: None }]
+explicit CachedInvokableCall_1(UnityEngine::Object target, System::Reflection::MethodInfo theFunction, float_t argument) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::UnityEngine::Object target, ::System::Reflection::MethodInfo theFunction, float_t argument) ;
+ void _ctor(UnityEngine::Object target, System::Reflection::MethodInfo theFunction, float_t argument) ;
 
 /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
  void Invoke(::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
@@ -310,5 +309,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Events
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::Events::CachedInvokableCall_1, "UnityEngine.Events", "CachedInvokableCall`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::Events::CachedInvokableCall_1, "UnityEngine.Events", "CachedInvokableCall`1");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net::Sockets {
 struct SocketOptionName;
@@ -111,146 +110,145 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Debug offset 0
-static ::System::Net::Sockets::SocketOptionName const Debug;
+static System::Net::Sockets::SocketOptionName const Debug;
 
 /// @brief Field AcceptConnection offset 0
-static ::System::Net::Sockets::SocketOptionName const AcceptConnection;
+static System::Net::Sockets::SocketOptionName const AcceptConnection;
 
 /// @brief Field ReuseAddress offset 0
-static ::System::Net::Sockets::SocketOptionName const ReuseAddress;
+static System::Net::Sockets::SocketOptionName const ReuseAddress;
 
 /// @brief Field KeepAlive offset 0
-static ::System::Net::Sockets::SocketOptionName const KeepAlive;
+static System::Net::Sockets::SocketOptionName const KeepAlive;
 
 /// @brief Field DontRoute offset 0
-static ::System::Net::Sockets::SocketOptionName const DontRoute;
+static System::Net::Sockets::SocketOptionName const DontRoute;
 
 /// @brief Field Broadcast offset 0
-static ::System::Net::Sockets::SocketOptionName const Broadcast;
+static System::Net::Sockets::SocketOptionName const Broadcast;
 
 /// @brief Field UseLoopback offset 0
-static ::System::Net::Sockets::SocketOptionName const UseLoopback;
+static System::Net::Sockets::SocketOptionName const UseLoopback;
 
 /// @brief Field Linger offset 0
-static ::System::Net::Sockets::SocketOptionName const Linger;
+static System::Net::Sockets::SocketOptionName const Linger;
 
 /// @brief Field OutOfBandInline offset 0
-static ::System::Net::Sockets::SocketOptionName const OutOfBandInline;
+static System::Net::Sockets::SocketOptionName const OutOfBandInline;
 
 /// @brief Field DontLinger offset 0
-static ::System::Net::Sockets::SocketOptionName const DontLinger;
+static System::Net::Sockets::SocketOptionName const DontLinger;
 
 /// @brief Field ExclusiveAddressUse offset 0
-static ::System::Net::Sockets::SocketOptionName const ExclusiveAddressUse;
+static System::Net::Sockets::SocketOptionName const ExclusiveAddressUse;
 
 /// @brief Field SendBuffer offset 0
-static ::System::Net::Sockets::SocketOptionName const SendBuffer;
+static System::Net::Sockets::SocketOptionName const SendBuffer;
 
 /// @brief Field ReceiveBuffer offset 0
-static ::System::Net::Sockets::SocketOptionName const ReceiveBuffer;
+static System::Net::Sockets::SocketOptionName const ReceiveBuffer;
 
 /// @brief Field SendLowWater offset 0
-static ::System::Net::Sockets::SocketOptionName const SendLowWater;
+static System::Net::Sockets::SocketOptionName const SendLowWater;
 
 /// @brief Field ReceiveLowWater offset 0
-static ::System::Net::Sockets::SocketOptionName const ReceiveLowWater;
+static System::Net::Sockets::SocketOptionName const ReceiveLowWater;
 
 /// @brief Field SendTimeout offset 0
-static ::System::Net::Sockets::SocketOptionName const SendTimeout;
+static System::Net::Sockets::SocketOptionName const SendTimeout;
 
 /// @brief Field ReceiveTimeout offset 0
-static ::System::Net::Sockets::SocketOptionName const ReceiveTimeout;
+static System::Net::Sockets::SocketOptionName const ReceiveTimeout;
 
 /// @brief Field Error offset 0
-static ::System::Net::Sockets::SocketOptionName const Error;
+static System::Net::Sockets::SocketOptionName const Error;
 
 /// @brief Field Type offset 0
-static ::System::Net::Sockets::SocketOptionName const Type;
+static System::Net::Sockets::SocketOptionName const Type;
 
 /// @brief Field ReuseUnicastPort offset 0
-static ::System::Net::Sockets::SocketOptionName const ReuseUnicastPort;
+static System::Net::Sockets::SocketOptionName const ReuseUnicastPort;
 
 /// @brief Field MaxConnections offset 0
-static ::System::Net::Sockets::SocketOptionName const MaxConnections;
+static System::Net::Sockets::SocketOptionName const MaxConnections;
 
 /// @brief Field IPOptions offset 0
-static ::System::Net::Sockets::SocketOptionName const IPOptions;
+static System::Net::Sockets::SocketOptionName const IPOptions;
 
 /// @brief Field HeaderIncluded offset 0
-static ::System::Net::Sockets::SocketOptionName const HeaderIncluded;
+static System::Net::Sockets::SocketOptionName const HeaderIncluded;
 
 /// @brief Field TypeOfService offset 0
-static ::System::Net::Sockets::SocketOptionName const TypeOfService;
+static System::Net::Sockets::SocketOptionName const TypeOfService;
 
 /// @brief Field IpTimeToLive offset 0
-static ::System::Net::Sockets::SocketOptionName const IpTimeToLive;
+static System::Net::Sockets::SocketOptionName const IpTimeToLive;
 
 /// @brief Field MulticastInterface offset 0
-static ::System::Net::Sockets::SocketOptionName const MulticastInterface;
+static System::Net::Sockets::SocketOptionName const MulticastInterface;
 
 /// @brief Field MulticastTimeToLive offset 0
-static ::System::Net::Sockets::SocketOptionName const MulticastTimeToLive;
+static System::Net::Sockets::SocketOptionName const MulticastTimeToLive;
 
 /// @brief Field MulticastLoopback offset 0
-static ::System::Net::Sockets::SocketOptionName const MulticastLoopback;
+static System::Net::Sockets::SocketOptionName const MulticastLoopback;
 
 /// @brief Field AddMembership offset 0
-static ::System::Net::Sockets::SocketOptionName const AddMembership;
+static System::Net::Sockets::SocketOptionName const AddMembership;
 
 /// @brief Field DropMembership offset 0
-static ::System::Net::Sockets::SocketOptionName const DropMembership;
+static System::Net::Sockets::SocketOptionName const DropMembership;
 
 /// @brief Field DontFragment offset 0
-static ::System::Net::Sockets::SocketOptionName const DontFragment;
+static System::Net::Sockets::SocketOptionName const DontFragment;
 
 /// @brief Field AddSourceMembership offset 0
-static ::System::Net::Sockets::SocketOptionName const AddSourceMembership;
+static System::Net::Sockets::SocketOptionName const AddSourceMembership;
 
 /// @brief Field DropSourceMembership offset 0
-static ::System::Net::Sockets::SocketOptionName const DropSourceMembership;
+static System::Net::Sockets::SocketOptionName const DropSourceMembership;
 
 /// @brief Field BlockSource offset 0
-static ::System::Net::Sockets::SocketOptionName const BlockSource;
+static System::Net::Sockets::SocketOptionName const BlockSource;
 
 /// @brief Field UnblockSource offset 0
-static ::System::Net::Sockets::SocketOptionName const UnblockSource;
+static System::Net::Sockets::SocketOptionName const UnblockSource;
 
 /// @brief Field PacketInformation offset 0
-static ::System::Net::Sockets::SocketOptionName const PacketInformation;
+static System::Net::Sockets::SocketOptionName const PacketInformation;
 
 /// @brief Field HopLimit offset 0
-static ::System::Net::Sockets::SocketOptionName const HopLimit;
+static System::Net::Sockets::SocketOptionName const HopLimit;
 
 /// @brief Field IPProtectionLevel offset 0
-static ::System::Net::Sockets::SocketOptionName const IPProtectionLevel;
+static System::Net::Sockets::SocketOptionName const IPProtectionLevel;
 
 /// @brief Field IPv6Only offset 0
-static ::System::Net::Sockets::SocketOptionName const IPv6Only;
+static System::Net::Sockets::SocketOptionName const IPv6Only;
 
 /// @brief Field NoDelay offset 0
-static ::System::Net::Sockets::SocketOptionName const NoDelay;
+static System::Net::Sockets::SocketOptionName const NoDelay;
 
 /// @brief Field BsdUrgent offset 0
-static ::System::Net::Sockets::SocketOptionName const BsdUrgent;
+static System::Net::Sockets::SocketOptionName const BsdUrgent;
 
 /// @brief Field Expedited offset 0
-static ::System::Net::Sockets::SocketOptionName const Expedited;
+static System::Net::Sockets::SocketOptionName const Expedited;
 
 /// @brief Field NoChecksum offset 0
-static ::System::Net::Sockets::SocketOptionName const NoChecksum;
+static System::Net::Sockets::SocketOptionName const NoChecksum;
 
 /// @brief Field ChecksumCoverage offset 0
-static ::System::Net::Sockets::SocketOptionName const ChecksumCoverage;
+static System::Net::Sockets::SocketOptionName const ChecksumCoverage;
 
 /// @brief Field UpdateAcceptContext offset 0
-static ::System::Net::Sockets::SocketOptionName const UpdateAcceptContext;
+static System::Net::Sockets::SocketOptionName const UpdateAcceptContext;
 
 /// @brief Field UpdateConnectContext offset 0
-static ::System::Net::Sockets::SocketOptionName const UpdateConnectContext;
+static System::Net::Sockets::SocketOptionName const UpdateConnectContext;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net::Sockets
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Sockets::SocketOptionName, "System.Net.Sockets", "SocketOptionName");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketOptionName, "System.Net.Sockets", "SocketOptionName");

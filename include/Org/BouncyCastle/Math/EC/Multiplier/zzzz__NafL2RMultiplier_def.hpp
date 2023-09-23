@@ -1,12 +1,11 @@
 #pragma once
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__AbstractECMultiplier_def.hpp"
-namespace {
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Multiplier {
@@ -18,7 +17,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1527))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1536))
 // CS Name: Org.BouncyCastle.Math.EC.Multiplier.NafL2RMultiplier
-class CORDL_TYPE NafL2RMultiplier : public ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier {
+class CORDL_TYPE NafL2RMultiplier : public Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr NafL2RMultiplier(NafL2RMultiplier const& ) noexcept = default;
 constexpr NafL2RMultiplier(NafL2RMultiplier&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NafL2RMultiplier(void* ptr) noexcept : ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier(ptr) {
+constexpr explicit NafL2RMultiplier(void* ptr) noexcept : Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier(ptr) {
 }
 
 
@@ -55,7 +54,7 @@ constexpr explicit NafL2RMultiplier(void* ptr) noexcept : ::Org::BouncyCastle::M
 // Methods
 
 /// @brief Method MultiplyPositive addr 0xfaa22c size 0x148 virtual true final false
- ::Org::BouncyCastle::Math::EC::ECPoint MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint p, ::Org::BouncyCastle::Math::BigInteger k) ;
+ Org::BouncyCastle::Math::EC::ECPoint MultiplyPositive(Org::BouncyCastle::Math::EC::ECPoint p, Org::BouncyCastle::Math::BigInteger k) ;
 
 // Ctor Parameters []
 explicit NafL2RMultiplier() ;
@@ -67,6 +66,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Math::EC::Multiplier
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Multiplier::NafL2RMultiplier);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Multiplier::NafL2RMultiplier, "Org.BouncyCastle.Math.EC.Multiplier", "NafL2RMultiplier");
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Multiplier::NafL2RMultiplier);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::NafL2RMultiplier, "Org.BouncyCastle.Math.EC.Multiplier", "NafL2RMultiplier");

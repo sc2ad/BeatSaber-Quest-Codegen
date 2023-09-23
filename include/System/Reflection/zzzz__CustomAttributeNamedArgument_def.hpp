@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System {
-class Type;
-}
 namespace System::Reflection {
 struct CustomAttributeTypedArgument;
+}
+namespace System {
+class Type;
 }
 namespace System::Reflection {
 class MemberInfo;
@@ -27,8 +26,8 @@ namespace System::Reflection {
 struct CORDL_TYPE CustomAttributeNamedArgument : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "_TypedValue_k__BackingField", ty: "::System::Reflection::CustomAttributeTypedArgument", modifiers: "", def_value: None }, CppParam { name: "_IsField_k__BackingField", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_MemberName_k__BackingField", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_attributeType", ty: "::System::Type", modifiers: "", def_value: None }, CppParam { name: "_lazyMemberInfo", ty: "::System::Reflection::MemberInfo", modifiers: "", def_value: None }]
-constexpr CustomAttributeNamedArgument(::System::Reflection::CustomAttributeTypedArgument _TypedValue_k__BackingField, bool _IsField_k__BackingField, ::StringW _MemberName_k__BackingField, ::System::Type _attributeType, ::System::Reflection::MemberInfo _lazyMemberInfo) noexcept;
+// Ctor Parameters [CppParam { name: "_TypedValue_k__BackingField", ty: "System::Reflection::CustomAttributeTypedArgument", modifiers: "", def_value: None }, CppParam { name: "_IsField_k__BackingField", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_MemberName_k__BackingField", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_attributeType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "_lazyMemberInfo", ty: "System::Reflection::MemberInfo", modifiers: "", def_value: None }]
+constexpr CustomAttributeNamedArgument(System::Reflection::CustomAttributeTypedArgument _TypedValue_k__BackingField, bool _IsField_k__BackingField, ::StringW _MemberName_k__BackingField, System::Type _attributeType, System::Reflection::MemberInfo _lazyMemberInfo) noexcept;
 
 
                     constexpr CustomAttributeNamedArgument(CustomAttributeNamedArgument const&) = default;
@@ -61,11 +60,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::Reflection::CustomAttributeTypedArgument __declspec(property(get=__get__TypedValue_k__BackingField, put=__set__TypedValue_k__BackingField))  _TypedValue_k__BackingField;
+ System::Reflection::CustomAttributeTypedArgument __declspec(property(get=__get__TypedValue_k__BackingField, put=__set__TypedValue_k__BackingField))  _TypedValue_k__BackingField;
 
-constexpr void __set__TypedValue_k__BackingField(::System::Reflection::CustomAttributeTypedArgument value) ;
+constexpr void __set__TypedValue_k__BackingField(System::Reflection::CustomAttributeTypedArgument value) ;
 
-constexpr ::System::Reflection::CustomAttributeTypedArgument __get__TypedValue_k__BackingField() const;
+constexpr System::Reflection::CustomAttributeTypedArgument __get__TypedValue_k__BackingField() const;
 
  bool __declspec(property(get=__get__IsField_k__BackingField, put=__set__IsField_k__BackingField))  _IsField_k__BackingField;
 
@@ -79,43 +78,43 @@ constexpr void __set__MemberName_k__BackingField(::StringW value) ;
 
 constexpr ::StringW __get__MemberName_k__BackingField() const;
 
- ::System::Type __declspec(property(get=__get__attributeType, put=__set__attributeType))  _attributeType;
+ System::Type __declspec(property(get=__get__attributeType, put=__set__attributeType))  _attributeType;
 
-constexpr void __set__attributeType(::System::Type value) ;
+constexpr void __set__attributeType(System::Type value) ;
 
-constexpr ::System::Type __get__attributeType() const;
+constexpr System::Type __get__attributeType() const;
 
- ::System::Reflection::MemberInfo __declspec(property(get=__get__lazyMemberInfo, put=__set__lazyMemberInfo))  _lazyMemberInfo;
+ System::Reflection::MemberInfo __declspec(property(get=__get__lazyMemberInfo, put=__set__lazyMemberInfo))  _lazyMemberInfo;
 
-constexpr void __set__lazyMemberInfo(::System::Reflection::MemberInfo value) ;
+constexpr void __set__lazyMemberInfo(System::Reflection::MemberInfo value) ;
 
-constexpr ::System::Reflection::MemberInfo __get__lazyMemberInfo() const;
+constexpr System::Reflection::MemberInfo __get__lazyMemberInfo() const;
 
 
 // Properties
 
- ::System::Reflection::CustomAttributeTypedArgument __declspec(property(get=get_TypedValue))  TypedValue;
+ System::Reflection::CustomAttributeTypedArgument __declspec(property(get=get_TypedValue))  TypedValue;
 
  bool __declspec(property(get=get_IsField))  IsField;
 
  ::StringW __declspec(property(get=get_MemberName))  MemberName;
 
- ::System::Reflection::MemberInfo __declspec(property(get=get_MemberInfo))  MemberInfo;
+ System::Reflection::MemberInfo __declspec(property(get=get_MemberInfo))  MemberInfo;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x237f674 size 0x28 virtual false final false
- void _ctor(::System::Type attributeType, ::StringW memberName, bool isField, ::System::Reflection::CustomAttributeTypedArgument typedValue) ;
+ void _ctor(System::Type attributeType, ::StringW memberName, bool isField, System::Reflection::CustomAttributeTypedArgument typedValue) ;
 
 /// @brief Method .ctor addr 0x237f69c size 0x22c virtual false final false
- void _ctor(::System::Reflection::MemberInfo memberInfo, ::bs_hook::Il2CppWrapperType value) ;
+ void _ctor(System::Reflection::MemberInfo memberInfo, ::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method .ctor addr 0x237f8c8 size 0x124 virtual false final false
- void _ctor(::System::Reflection::MemberInfo memberInfo, ::System::Reflection::CustomAttributeTypedArgument typedArgument) ;
+ void _ctor(System::Reflection::MemberInfo memberInfo, System::Reflection::CustomAttributeTypedArgument typedArgument) ;
 
 /// @brief Method get_TypedValue addr 0x237f9ec size 0xc virtual false final false
- ::System::Reflection::CustomAttributeTypedArgument get_TypedValue() ;
+ System::Reflection::CustomAttributeTypedArgument get_TypedValue() ;
 
 /// @brief Method get_IsField addr 0x237f9f8 size 0x8 virtual false final false
  bool get_IsField() ;
@@ -124,7 +123,7 @@ constexpr ::System::Reflection::MemberInfo __get__lazyMemberInfo() const;
  ::StringW get_MemberName() ;
 
 /// @brief Method get_MemberInfo addr 0x237fa08 size 0x118 virtual false final false
- ::System::Reflection::MemberInfo get_MemberInfo() ;
+ System::Reflection::MemberInfo get_MemberInfo() ;
 
 /// @brief Method Equals addr 0x237fb20 size 0x78 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -133,10 +132,10 @@ constexpr ::System::Reflection::MemberInfo __get__lazyMemberInfo() const;
  int32_t GetHashCode() ;
 
 /// @brief Method op_Equality addr 0x237fc04 size 0x80 virtual false final false
-static bool op_Equality(::System::Reflection::CustomAttributeNamedArgument left, ::System::Reflection::CustomAttributeNamedArgument right) ;
+static bool op_Equality(System::Reflection::CustomAttributeNamedArgument left, System::Reflection::CustomAttributeNamedArgument right) ;
 
 /// @brief Method op_Inequality addr 0x237fc84 size 0x84 virtual false final false
-static bool op_Inequality(::System::Reflection::CustomAttributeNamedArgument left, ::System::Reflection::CustomAttributeNamedArgument right) ;
+static bool op_Inequality(System::Reflection::CustomAttributeNamedArgument left, System::Reflection::CustomAttributeNamedArgument right) ;
 
 /// @brief Method ToString addr 0x237fd08 size 0x38c virtual true final false
  ::StringW ToString() ;
@@ -145,5 +144,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Reflection
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::CustomAttributeNamedArgument, "System.Reflection", "CustomAttributeNamedArgument");
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CustomAttributeNamedArgument, "System.Reflection", "CustomAttributeNamedArgument");

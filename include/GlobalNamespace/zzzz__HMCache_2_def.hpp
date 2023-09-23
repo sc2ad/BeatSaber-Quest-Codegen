@@ -2,18 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class Queue_1;
 }
-namespace System {
-template<typename T>
-class Action_1;
-}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
+}
+namespace System {
+template<typename T>
+class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -69,23 +68,23 @@ constexpr explicit HMCache_2(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 
 // Fields
 
- ::System::Action_1<V> __declspec(property(get=__get_itemWillBeRemovedFromCacheEvent, put=__set_itemWillBeRemovedFromCacheEvent))  itemWillBeRemovedFromCacheEvent;
+ System::Action_1<V> __declspec(property(get=__get_itemWillBeRemovedFromCacheEvent, put=__set_itemWillBeRemovedFromCacheEvent))  itemWillBeRemovedFromCacheEvent;
 
-constexpr void __set_itemWillBeRemovedFromCacheEvent(::System::Action_1<V> value) ;
+constexpr void __set_itemWillBeRemovedFromCacheEvent(System::Action_1<V> value) ;
 
-constexpr ::System::Action_1<V> __get_itemWillBeRemovedFromCacheEvent() const;
+constexpr System::Action_1<V> __get_itemWillBeRemovedFromCacheEvent() const;
 
- ::System::Collections::Generic::Dictionary_2<K,V> __declspec(property(get=__get__cache, put=__set__cache))  _cache;
+ System::Collections::Generic::Dictionary_2<K,V> __declspec(property(get=__get__cache, put=__set__cache))  _cache;
 
-constexpr void __set__cache(::System::Collections::Generic::Dictionary_2<K,V> value) ;
+constexpr void __set__cache(System::Collections::Generic::Dictionary_2<K,V> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<K,V> __get__cache() const;
+constexpr System::Collections::Generic::Dictionary_2<K,V> __get__cache() const;
 
- ::System::Collections::Generic::Queue_1<K> __declspec(property(get=__get__addedElements, put=__set__addedElements))  _addedElements;
+ System::Collections::Generic::Queue_1<K> __declspec(property(get=__get__addedElements, put=__set__addedElements))  _addedElements;
 
-constexpr void __set__addedElements(::System::Collections::Generic::Queue_1<K> value) ;
+constexpr void __set__addedElements(System::Collections::Generic::Queue_1<K> value) ;
 
-constexpr ::System::Collections::Generic::Queue_1<K> __get__addedElements() const;
+constexpr System::Collections::Generic::Queue_1<K> __get__addedElements() const;
 
  int32_t __declspec(property(get=__get__maxNumberElements, put=__set__maxNumberElements))  _maxNumberElements;
 
@@ -97,10 +96,10 @@ constexpr int32_t __get__maxNumberElements() const;
 // Methods
 
 /// @brief Method add_itemWillBeRemovedFromCacheEvent addr 0x0 size 0xffffffffffffffff virtual false final false
- void add_itemWillBeRemovedFromCacheEvent(::System::Action_1<V> value) ;
+ void add_itemWillBeRemovedFromCacheEvent(System::Action_1<V> value) ;
 
 /// @brief Method remove_itemWillBeRemovedFromCacheEvent addr 0x0 size 0xffffffffffffffff virtual false final false
- void remove_itemWillBeRemovedFromCacheEvent(::System::Action_1<V> value) ;
+ void remove_itemWillBeRemovedFromCacheEvent(System::Action_1<V> value) ;
 
 // Ctor Parameters [CppParam { name: "maxNumberElements", ty: "int32_t", modifiers: "", def_value: None }]
 explicit HMCache_2(int32_t maxNumberElements) ;
@@ -127,5 +126,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::HMCache_2, "", "HMCache`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::HMCache_2, "", "HMCache`2");

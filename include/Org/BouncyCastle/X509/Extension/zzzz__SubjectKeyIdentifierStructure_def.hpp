@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__SubjectKeyIdentifier_def.hpp"
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
 }
@@ -18,7 +17,7 @@ namespace Org::BouncyCastle::X509::Extension {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(383))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1840))
 // CS Name: Org.BouncyCastle.X509.Extension.SubjectKeyIdentifierStructure
-class CORDL_TYPE SubjectKeyIdentifierStructure : public ::Org::BouncyCastle::Asn1::X509::SubjectKeyIdentifier {
+class CORDL_TYPE SubjectKeyIdentifierStructure : public Org::BouncyCastle::Asn1::X509::SubjectKeyIdentifier {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr SubjectKeyIdentifierStructure(SubjectKeyIdentifierStructure const& ) n
 constexpr SubjectKeyIdentifierStructure(SubjectKeyIdentifierStructure&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SubjectKeyIdentifierStructure(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::X509::SubjectKeyIdentifier(ptr) {
+constexpr explicit SubjectKeyIdentifierStructure(void* ptr) noexcept : Org::BouncyCastle::Asn1::X509::SubjectKeyIdentifier(ptr) {
 }
 
 
@@ -54,25 +53,24 @@ constexpr explicit SubjectKeyIdentifierStructure(void* ptr) noexcept : ::Org::Bo
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "encodedValue", ty: "::Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
-explicit SubjectKeyIdentifierStructure(::Org::BouncyCastle::Asn1::Asn1OctetString encodedValue) ;
+// Ctor Parameters [CppParam { name: "encodedValue", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
+explicit SubjectKeyIdentifierStructure(Org::BouncyCastle::Asn1::Asn1OctetString encodedValue) ;
 
 /// @brief Method .ctor addr 0x10e41d8 size 0x94 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString encodedValue) ;
+ void _ctor(Org::BouncyCastle::Asn1::Asn1OctetString encodedValue) ;
 
 /// @brief Method FromPublicKey addr 0x10e426c size 0x1bc virtual false final false
-static ::Org::BouncyCastle::Asn1::Asn1OctetString FromPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey) ;
+static Org::BouncyCastle::Asn1::Asn1OctetString FromPublicKey(Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey) ;
 
-// Ctor Parameters [CppParam { name: "pubKey", ty: "::Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
-explicit SubjectKeyIdentifierStructure(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey) ;
+// Ctor Parameters [CppParam { name: "pubKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
+explicit SubjectKeyIdentifierStructure(Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey) ;
 
 /// @brief Method .ctor addr 0x10e4428 size 0x24 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey) ;
+ void _ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::X509::Extension
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::X509::Extension::SubjectKeyIdentifierStructure);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::X509::Extension::SubjectKeyIdentifierStructure, "Org.BouncyCastle.X509.Extension", "SubjectKeyIdentifierStructure");
+NEED_NO_BOX(Org::BouncyCastle::X509::Extension::SubjectKeyIdentifierStructure);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::Extension::SubjectKeyIdentifierStructure, "Org.BouncyCastle.X509.Extension", "SubjectKeyIdentifierStructure");

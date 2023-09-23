@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 struct Nullable_1;
@@ -25,8 +24,8 @@ namespace System::Net::Http::Headers {
 class CORDL_TYPE ContentRangeHeaderValue : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::ICloneable
-constexpr operator  ::System::ICloneable() const noexcept;
+/// @brief Convert operator to System::ICloneable
+constexpr operator  System::ICloneable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
@@ -67,32 +66,32 @@ constexpr void __set_unit(::StringW value) ;
 
 constexpr ::StringW __get_unit() const;
 
- ::System::Nullable_1<int64_t> __declspec(property(get=__get__From_k__BackingField, put=__set__From_k__BackingField))  _From_k__BackingField;
+ System::Nullable_1<int64_t> __declspec(property(get=__get__From_k__BackingField, put=__set__From_k__BackingField))  _From_k__BackingField;
 
-constexpr void __set__From_k__BackingField(::System::Nullable_1<int64_t> value) ;
+constexpr void __set__From_k__BackingField(System::Nullable_1<int64_t> value) ;
 
-constexpr ::System::Nullable_1<int64_t> __get__From_k__BackingField() const;
+constexpr System::Nullable_1<int64_t> __get__From_k__BackingField() const;
 
- ::System::Nullable_1<int64_t> __declspec(property(get=__get__Length_k__BackingField, put=__set__Length_k__BackingField))  _Length_k__BackingField;
+ System::Nullable_1<int64_t> __declspec(property(get=__get__Length_k__BackingField, put=__set__Length_k__BackingField))  _Length_k__BackingField;
 
-constexpr void __set__Length_k__BackingField(::System::Nullable_1<int64_t> value) ;
+constexpr void __set__Length_k__BackingField(System::Nullable_1<int64_t> value) ;
 
-constexpr ::System::Nullable_1<int64_t> __get__Length_k__BackingField() const;
+constexpr System::Nullable_1<int64_t> __get__Length_k__BackingField() const;
 
- ::System::Nullable_1<int64_t> __declspec(property(get=__get__To_k__BackingField, put=__set__To_k__BackingField))  _To_k__BackingField;
+ System::Nullable_1<int64_t> __declspec(property(get=__get__To_k__BackingField, put=__set__To_k__BackingField))  _To_k__BackingField;
 
-constexpr void __set__To_k__BackingField(::System::Nullable_1<int64_t> value) ;
+constexpr void __set__To_k__BackingField(System::Nullable_1<int64_t> value) ;
 
-constexpr ::System::Nullable_1<int64_t> __get__To_k__BackingField() const;
+constexpr System::Nullable_1<int64_t> __get__To_k__BackingField() const;
 
 
 // Properties
 
- ::System::Nullable_1<int64_t> __declspec(property(get=get_From, put=set_From))  From;
+ System::Nullable_1<int64_t> __declspec(property(get=get_From, put=set_From))  From;
 
- ::System::Nullable_1<int64_t> __declspec(property(get=get_Length, put=set_Length))  Length;
+ System::Nullable_1<int64_t> __declspec(property(get=get_Length, put=set_Length))  Length;
 
- ::System::Nullable_1<int64_t> __declspec(property(get=get_To, put=set_To))  To;
+ System::Nullable_1<int64_t> __declspec(property(get=get_To, put=set_To))  To;
 
  ::StringW __declspec(property(get=get_Unit))  Unit;
 
@@ -106,22 +105,22 @@ explicit ContentRangeHeaderValue() ;
  void _ctor() ;
 
 /// @brief Method get_From addr 0x26a65e8 size 0xc virtual false final false
- ::System::Nullable_1<int64_t> get_From() ;
+ System::Nullable_1<int64_t> get_From() ;
 
 /// @brief Method set_From addr 0x26a65f4 size 0x8 virtual false final false
- void set_From(::System::Nullable_1<int64_t> value) ;
+ void set_From(System::Nullable_1<int64_t> value) ;
 
 /// @brief Method get_Length addr 0x26a65fc size 0xc virtual false final false
- ::System::Nullable_1<int64_t> get_Length() ;
+ System::Nullable_1<int64_t> get_Length() ;
 
 /// @brief Method set_Length addr 0x26a6608 size 0x8 virtual false final false
- void set_Length(::System::Nullable_1<int64_t> value) ;
+ void set_Length(System::Nullable_1<int64_t> value) ;
 
 /// @brief Method get_To addr 0x26a6610 size 0xc virtual false final false
- ::System::Nullable_1<int64_t> get_To() ;
+ System::Nullable_1<int64_t> get_To() ;
 
 /// @brief Method set_To addr 0x26a661c size 0x8 virtual false final false
- void set_To(::System::Nullable_1<int64_t> value) ;
+ void set_To(System::Nullable_1<int64_t> value) ;
 
 /// @brief Method get_Unit addr 0x26a6624 size 0x8 virtual false final false
  ::StringW get_Unit() ;
@@ -136,7 +135,7 @@ explicit ContentRangeHeaderValue() ;
  int32_t GetHashCode() ;
 
 /// @brief Method TryParse addr 0x26a6868 size 0x3dc virtual false final false
-static bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::ContentRangeHeaderValue> parsedValue) ;
+static bool TryParse(::StringW input, ByRef<System::Net::Http::Headers::ContentRangeHeaderValue> parsedValue) ;
 
 /// @brief Method ToString addr 0x26a6d28 size 0x260 virtual true final false
  ::StringW ToString() ;
@@ -145,6 +144,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Http::Headers
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Http::Headers::ContentRangeHeaderValue);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::ContentRangeHeaderValue, "System.Net.Http.Headers", "ContentRangeHeaderValue");
+NEED_NO_BOX(System::Net::Http::Headers::ContentRangeHeaderValue);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::ContentRangeHeaderValue, "System.Net.Http.Headers", "ContentRangeHeaderValue");

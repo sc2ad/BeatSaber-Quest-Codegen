@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Xml {
 class UTF16Decoder;
@@ -15,7 +14,7 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2823))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11497))
 // CS Name: System.Xml.UTF16Decoder
-class CORDL_TYPE UTF16Decoder : public ::System::Text::Decoder {
+class CORDL_TYPE UTF16Decoder : public System::Text::Decoder {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr UTF16Decoder(UTF16Decoder const& ) noexcept = default;
 constexpr UTF16Decoder(UTF16Decoder&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UTF16Decoder(void* ptr) noexcept : ::System::Text::Decoder(ptr) {
+constexpr explicit UTF16Decoder(void* ptr) noexcept : System::Text::Decoder(ptr) {
 }
 
 
@@ -88,6 +87,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::UTF16Decoder);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::UTF16Decoder, "System.Xml", "UTF16Decoder");
+NEED_NO_BOX(System::Xml::UTF16Decoder);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::UTF16Decoder, "System.Xml", "UTF16Decoder");

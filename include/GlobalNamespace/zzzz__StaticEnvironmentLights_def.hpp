@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace UnityEngine {
 struct Color;
 }
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5102))
 // CS Name: StaticEnvironmentLights
-class CORDL_TYPE StaticEnvironmentLights : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE StaticEnvironmentLights : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr StaticEnvironmentLights(StaticEnvironmentLights const& ) noexcept = de
 constexpr StaticEnvironmentLights(StaticEnvironmentLights&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit StaticEnvironmentLights(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit StaticEnvironmentLights(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -55,17 +54,17 @@ constexpr explicit StaticEnvironmentLights(void* ptr) noexcept : ::UnityEngine::
 
 // Fields
 
- ::ArrayW<::UnityEngine::Color> __declspec(property(get=__get__lightColors, put=__set__lightColors))  _lightColors;
+ ::ArrayW<UnityEngine::Color> __declspec(property(get=__get__lightColors, put=__set__lightColors))  _lightColors;
 
-constexpr void __set__lightColors(::ArrayW<::UnityEngine::Color> value) ;
+constexpr void __set__lightColors(::ArrayW<UnityEngine::Color> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Color> __get__lightColors() const;
+constexpr ::ArrayW<UnityEngine::Color> __get__lightColors() const;
 
- ::ArrayW<::UnityEngine::Material> __declspec(property(get=__get__materials, put=__set__materials))  _materials;
+ ::ArrayW<UnityEngine::Material> __declspec(property(get=__get__materials, put=__set__materials))  _materials;
 
-constexpr void __set__materials(::ArrayW<::UnityEngine::Material> value) ;
+constexpr void __set__materials(::ArrayW<UnityEngine::Material> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Material> __get__materials() const;
+constexpr ::ArrayW<UnityEngine::Material> __get__materials() const;
 
 
 // Methods
@@ -83,6 +82,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::StaticEnvironmentLights);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StaticEnvironmentLights, "", "StaticEnvironmentLights");
+NEED_NO_BOX(GlobalNamespace::StaticEnvironmentLights);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StaticEnvironmentLights, "", "StaticEnvironmentLights");

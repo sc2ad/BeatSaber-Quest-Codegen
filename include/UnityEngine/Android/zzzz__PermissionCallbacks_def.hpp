@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__AndroidJavaProxy_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 template<typename T>
 class Action_1;
@@ -17,7 +16,7 @@ namespace UnityEngine::Android {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14880))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14897))
 // CS Name: UnityEngine.Android.PermissionCallbacks
-class CORDL_TYPE PermissionCallbacks : public ::UnityEngine::AndroidJavaProxy {
+class CORDL_TYPE PermissionCallbacks : public UnityEngine::AndroidJavaProxy {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr PermissionCallbacks(PermissionCallbacks const& ) noexcept = default;
 constexpr PermissionCallbacks(PermissionCallbacks&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PermissionCallbacks(void* ptr) noexcept : ::UnityEngine::AndroidJavaProxy(ptr) {
+constexpr explicit PermissionCallbacks(void* ptr) noexcept : UnityEngine::AndroidJavaProxy(ptr) {
 }
 
 
@@ -53,44 +52,44 @@ constexpr explicit PermissionCallbacks(void* ptr) noexcept : ::UnityEngine::Andr
 
 // Fields
 
- ::System::Action_1<::StringW> __declspec(property(get=__get_PermissionGranted, put=__set_PermissionGranted))  PermissionGranted;
+ System::Action_1<::StringW> __declspec(property(get=__get_PermissionGranted, put=__set_PermissionGranted))  PermissionGranted;
 
-constexpr void __set_PermissionGranted(::System::Action_1<::StringW> value) ;
+constexpr void __set_PermissionGranted(System::Action_1<::StringW> value) ;
 
-constexpr ::System::Action_1<::StringW> __get_PermissionGranted() const;
+constexpr System::Action_1<::StringW> __get_PermissionGranted() const;
 
- ::System::Action_1<::StringW> __declspec(property(get=__get_PermissionDenied, put=__set_PermissionDenied))  PermissionDenied;
+ System::Action_1<::StringW> __declspec(property(get=__get_PermissionDenied, put=__set_PermissionDenied))  PermissionDenied;
 
-constexpr void __set_PermissionDenied(::System::Action_1<::StringW> value) ;
+constexpr void __set_PermissionDenied(System::Action_1<::StringW> value) ;
 
-constexpr ::System::Action_1<::StringW> __get_PermissionDenied() const;
+constexpr System::Action_1<::StringW> __get_PermissionDenied() const;
 
- ::System::Action_1<::StringW> __declspec(property(get=__get_PermissionDeniedAndDontAskAgain, put=__set_PermissionDeniedAndDontAskAgain))  PermissionDeniedAndDontAskAgain;
+ System::Action_1<::StringW> __declspec(property(get=__get_PermissionDeniedAndDontAskAgain, put=__set_PermissionDeniedAndDontAskAgain))  PermissionDeniedAndDontAskAgain;
 
-constexpr void __set_PermissionDeniedAndDontAskAgain(::System::Action_1<::StringW> value) ;
+constexpr void __set_PermissionDeniedAndDontAskAgain(System::Action_1<::StringW> value) ;
 
-constexpr ::System::Action_1<::StringW> __get_PermissionDeniedAndDontAskAgain() const;
+constexpr System::Action_1<::StringW> __get_PermissionDeniedAndDontAskAgain() const;
 
 
 // Methods
 
 /// @brief Method add_PermissionGranted addr 0x2b1789c size 0xb0 virtual false final false
- void add_PermissionGranted(::System::Action_1<::StringW> value) ;
+ void add_PermissionGranted(System::Action_1<::StringW> value) ;
 
 /// @brief Method remove_PermissionGranted addr 0x2b1794c size 0xb0 virtual false final false
- void remove_PermissionGranted(::System::Action_1<::StringW> value) ;
+ void remove_PermissionGranted(System::Action_1<::StringW> value) ;
 
 /// @brief Method add_PermissionDenied addr 0x2b179fc size 0xb0 virtual false final false
- void add_PermissionDenied(::System::Action_1<::StringW> value) ;
+ void add_PermissionDenied(System::Action_1<::StringW> value) ;
 
 /// @brief Method remove_PermissionDenied addr 0x2b17aac size 0xb0 virtual false final false
- void remove_PermissionDenied(::System::Action_1<::StringW> value) ;
+ void remove_PermissionDenied(System::Action_1<::StringW> value) ;
 
 /// @brief Method add_PermissionDeniedAndDontAskAgain addr 0x2b17b5c size 0xb0 virtual false final false
- void add_PermissionDeniedAndDontAskAgain(::System::Action_1<::StringW> value) ;
+ void add_PermissionDeniedAndDontAskAgain(System::Action_1<::StringW> value) ;
 
 /// @brief Method remove_PermissionDeniedAndDontAskAgain addr 0x2b17c0c size 0xb0 virtual false final false
- void remove_PermissionDeniedAndDontAskAgain(::System::Action_1<::StringW> value) ;
+ void remove_PermissionDeniedAndDontAskAgain(System::Action_1<::StringW> value) ;
 
 // Ctor Parameters []
 explicit PermissionCallbacks() ;
@@ -111,6 +110,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Android
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Android::PermissionCallbacks);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Android::PermissionCallbacks, "UnityEngine.Android", "PermissionCallbacks");
+NEED_NO_BOX(UnityEngine::Android::PermissionCallbacks);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Android::PermissionCallbacks, "UnityEngine.Android", "PermissionCallbacks");

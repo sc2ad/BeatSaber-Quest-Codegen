@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Security/AccessControl/zzzz__ObjectSecurity_def.hpp"
-namespace {
 namespace System::Security::AccessControl {
 class AuthorizationRuleCollection;
 }
@@ -18,7 +17,7 @@ namespace System::Security::AccessControl {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3040))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3022))
 // CS Name: System.Security.AccessControl.CommonObjectSecurity
-class CORDL_TYPE CommonObjectSecurity : public ::System::Security::AccessControl::ObjectSecurity {
+class CORDL_TYPE CommonObjectSecurity : public System::Security::AccessControl::ObjectSecurity {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr CommonObjectSecurity(CommonObjectSecurity const& ) noexcept = default;
 constexpr CommonObjectSecurity(CommonObjectSecurity&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CommonObjectSecurity(void* ptr) noexcept : ::System::Security::AccessControl::ObjectSecurity(ptr) {
+constexpr explicit CommonObjectSecurity(void* ptr) noexcept : System::Security::AccessControl::ObjectSecurity(ptr) {
 }
 
 
@@ -61,12 +60,11 @@ explicit CommonObjectSecurity(bool isContainer) ;
  void _ctor(bool isContainer) ;
 
 /// @brief Method GetAccessRules addr 0x2317aa0 size 0xc virtual false final false
- ::System::Security::AccessControl::AuthorizationRuleCollection GetAccessRules(bool includeExplicit, bool includeInherited, ::System::Type targetType) ;
+ System::Security::AccessControl::AuthorizationRuleCollection GetAccessRules(bool includeExplicit, bool includeInherited, System::Type targetType) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::AccessControl
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::AccessControl::CommonObjectSecurity);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::AccessControl::CommonObjectSecurity, "System.Security.AccessControl", "CommonObjectSecurity");
+NEED_NO_BOX(System::Security::AccessControl::CommonObjectSecurity);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::AccessControl::CommonObjectSecurity, "System.Security.AccessControl", "CommonObjectSecurity");

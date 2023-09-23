@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::ComponentModel {
 class DescriptionAttribute;
@@ -15,7 +14,7 @@ namespace System::ComponentModel {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8239))
 // CS Name: System.ComponentModel.DescriptionAttribute
-class CORDL_TYPE DescriptionAttribute : public ::System::Attribute {
+class CORDL_TYPE DescriptionAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr DescriptionAttribute(DescriptionAttribute const& ) noexcept = default;
 constexpr DescriptionAttribute(DescriptionAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DescriptionAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit DescriptionAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit DescriptionAttribute(void* ptr) noexcept : ::System::Attribut
 
 // Fields
 
-static ::System::ComponentModel::DescriptionAttribute __declspec(property(get=__get_Default, put=__set_Default))  Default;
+static System::ComponentModel::DescriptionAttribute __declspec(property(get=__get_Default, put=__set_Default))  Default;
 
-static void __set_Default(::System::ComponentModel::DescriptionAttribute value) ;
+static void __set_Default(System::ComponentModel::DescriptionAttribute value) ;
 
-static ::System::ComponentModel::DescriptionAttribute __get_Default() ;
+static System::ComponentModel::DescriptionAttribute __get_Default() ;
 
  ::StringW __declspec(property(get=__get__DescriptionValue_k__BackingField, put=__set__DescriptionValue_k__BackingField))  _DescriptionValue_k__BackingField;
 
@@ -107,6 +106,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::DescriptionAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::DescriptionAttribute, "System.ComponentModel", "DescriptionAttribute");
+NEED_NO_BOX(System::ComponentModel::DescriptionAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::DescriptionAttribute, "System.ComponentModel", "DescriptionAttribute");

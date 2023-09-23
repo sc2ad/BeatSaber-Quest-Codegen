@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace UnityEngine::UI::Collections {
 template<typename T>
 class IndexedSet_1;
@@ -55,22 +54,22 @@ constexpr explicit ClipperRegistry(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Fields
 
-static ::UnityEngine::UI::ClipperRegistry __declspec(property(get=__get_s_Instance, put=__set_s_Instance))  s_Instance;
+static UnityEngine::UI::ClipperRegistry __declspec(property(get=__get_s_Instance, put=__set_s_Instance))  s_Instance;
 
-static void __set_s_Instance(::UnityEngine::UI::ClipperRegistry value) ;
+static void __set_s_Instance(UnityEngine::UI::ClipperRegistry value) ;
 
-static ::UnityEngine::UI::ClipperRegistry __get_s_Instance() ;
+static UnityEngine::UI::ClipperRegistry __get_s_Instance() ;
 
- ::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::IClipper> __declspec(property(get=__get_m_Clippers, put=__set_m_Clippers))  m_Clippers;
+ UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::IClipper> __declspec(property(get=__get_m_Clippers, put=__set_m_Clippers))  m_Clippers;
 
-constexpr void __set_m_Clippers(::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::IClipper> value) ;
+constexpr void __set_m_Clippers(UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::IClipper> value) ;
 
-constexpr ::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::IClipper> __get_m_Clippers() const;
+constexpr UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::IClipper> __get_m_Clippers() const;
 
 
 // Properties
 
-static ::UnityEngine::UI::ClipperRegistry __declspec(property(get=get_instance))  instance;
+static UnityEngine::UI::ClipperRegistry __declspec(property(get=get_instance))  instance;
 
 
 // Methods
@@ -82,24 +81,23 @@ explicit ClipperRegistry() ;
  void _ctor() ;
 
 /// @brief Method get_instance addr 0x2bd8e18 size 0x7c virtual false final false
-static ::UnityEngine::UI::ClipperRegistry get_instance() ;
+static UnityEngine::UI::ClipperRegistry get_instance() ;
 
 /// @brief Method Cull addr 0x2bd8e94 size 0x10c virtual false final false
  void Cull() ;
 
 /// @brief Method Register addr 0x2bda070 size 0x70 virtual false final false
-static void Register(::UnityEngine::UI::IClipper c) ;
+static void Register(UnityEngine::UI::IClipper c) ;
 
 /// @brief Method Unregister addr 0x2bda0e0 size 0x5c virtual false final false
-static void Unregister(::UnityEngine::UI::IClipper c) ;
+static void Unregister(UnityEngine::UI::IClipper c) ;
 
 /// @brief Method Disable addr 0x2bda13c size 0x5c virtual false final false
-static void Disable(::UnityEngine::UI::IClipper c) ;
+static void Disable(UnityEngine::UI::IClipper c) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UI
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UI::ClipperRegistry);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::ClipperRegistry, "UnityEngine.UI", "ClipperRegistry");
+NEED_NO_BOX(UnityEngine::UI::ClipperRegistry);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ClipperRegistry, "UnityEngine.UI", "ClipperRegistry");

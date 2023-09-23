@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct EVRScreenshotError;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::OVR::OpenVR::EVRScreenshotError const None;
+static OVR::OpenVR::EVRScreenshotError const None;
 
 /// @brief Field RequestFailed offset 0
-static ::OVR::OpenVR::EVRScreenshotError const RequestFailed;
+static OVR::OpenVR::EVRScreenshotError const RequestFailed;
 
 /// @brief Field IncompatibleVersion offset 0
-static ::OVR::OpenVR::EVRScreenshotError const IncompatibleVersion;
+static OVR::OpenVR::EVRScreenshotError const IncompatibleVersion;
 
 /// @brief Field NotFound offset 0
-static ::OVR::OpenVR::EVRScreenshotError const NotFound;
+static OVR::OpenVR::EVRScreenshotError const NotFound;
 
 /// @brief Field BufferTooSmall offset 0
-static ::OVR::OpenVR::EVRScreenshotError const BufferTooSmall;
+static OVR::OpenVR::EVRScreenshotError const BufferTooSmall;
 
 /// @brief Field ScreenshotAlreadyInProgress offset 0
-static ::OVR::OpenVR::EVRScreenshotError const ScreenshotAlreadyInProgress;
+static OVR::OpenVR::EVRScreenshotError const ScreenshotAlreadyInProgress;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRScreenshotError, "OVR.OpenVR", "EVRScreenshotError");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRScreenshotError, "OVR.OpenVR", "EVRScreenshotError");

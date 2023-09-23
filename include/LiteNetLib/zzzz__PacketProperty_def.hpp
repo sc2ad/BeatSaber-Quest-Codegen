@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace LiteNetLib {
 struct PacketProperty;
@@ -83,62 +82,61 @@ constexpr void __set_value__(uint8_t value) ;
 constexpr uint8_t __get_value__() const;
 
 /// @brief Field Unreliable offset 0
-static ::LiteNetLib::PacketProperty const Unreliable;
+static LiteNetLib::PacketProperty const Unreliable;
 
 /// @brief Field Channeled offset 0
-static ::LiteNetLib::PacketProperty const Channeled;
+static LiteNetLib::PacketProperty const Channeled;
 
 /// @brief Field Ack offset 0
-static ::LiteNetLib::PacketProperty const Ack;
+static LiteNetLib::PacketProperty const Ack;
 
 /// @brief Field Ping offset 0
-static ::LiteNetLib::PacketProperty const Ping;
+static LiteNetLib::PacketProperty const Ping;
 
 /// @brief Field Pong offset 0
-static ::LiteNetLib::PacketProperty const Pong;
+static LiteNetLib::PacketProperty const Pong;
 
 /// @brief Field ConnectRequest offset 0
-static ::LiteNetLib::PacketProperty const ConnectRequest;
+static LiteNetLib::PacketProperty const ConnectRequest;
 
 /// @brief Field ConnectAccept offset 0
-static ::LiteNetLib::PacketProperty const ConnectAccept;
+static LiteNetLib::PacketProperty const ConnectAccept;
 
 /// @brief Field Disconnect offset 0
-static ::LiteNetLib::PacketProperty const Disconnect;
+static LiteNetLib::PacketProperty const Disconnect;
 
 /// @brief Field UnconnectedMessage offset 0
-static ::LiteNetLib::PacketProperty const UnconnectedMessage;
+static LiteNetLib::PacketProperty const UnconnectedMessage;
 
 /// @brief Field MtuCheck offset 0
-static ::LiteNetLib::PacketProperty const MtuCheck;
+static LiteNetLib::PacketProperty const MtuCheck;
 
 /// @brief Field MtuOk offset 0
-static ::LiteNetLib::PacketProperty const MtuOk;
+static LiteNetLib::PacketProperty const MtuOk;
 
 /// @brief Field Broadcast offset 0
-static ::LiteNetLib::PacketProperty const Broadcast;
+static LiteNetLib::PacketProperty const Broadcast;
 
 /// @brief Field Merged offset 0
-static ::LiteNetLib::PacketProperty const Merged;
+static LiteNetLib::PacketProperty const Merged;
 
 /// @brief Field ShutdownOk offset 0
-static ::LiteNetLib::PacketProperty const ShutdownOk;
+static LiteNetLib::PacketProperty const ShutdownOk;
 
 /// @brief Field PeerNotFound offset 0
-static ::LiteNetLib::PacketProperty const PeerNotFound;
+static LiteNetLib::PacketProperty const PeerNotFound;
 
 /// @brief Field InvalidProtocol offset 0
-static ::LiteNetLib::PacketProperty const InvalidProtocol;
+static LiteNetLib::PacketProperty const InvalidProtocol;
 
 /// @brief Field NatMessage offset 0
-static ::LiteNetLib::PacketProperty const NatMessage;
+static LiteNetLib::PacketProperty const NatMessage;
 
 /// @brief Field Empty offset 0
-static ::LiteNetLib::PacketProperty const Empty;
+static LiteNetLib::PacketProperty const Empty;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::PacketProperty, "LiteNetLib", "PacketProperty");
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::PacketProperty, "LiteNetLib", "PacketProperty");

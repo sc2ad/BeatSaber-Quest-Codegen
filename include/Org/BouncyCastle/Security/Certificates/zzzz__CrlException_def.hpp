@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Security/zzzz__GeneralSecurityException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class Exception;
 }
@@ -16,7 +15,7 @@ namespace Org::BouncyCastle::Security::Certificates {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1717))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1738))
 // CS Name: Org.BouncyCastle.Security.Certificates.CrlException
-class CORDL_TYPE CrlException : public ::Org::BouncyCastle::Security::GeneralSecurityException {
+class CORDL_TYPE CrlException : public Org::BouncyCastle::Security::GeneralSecurityException {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr CrlException(CrlException const& ) noexcept = default;
 constexpr CrlException(CrlException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CrlException(void* ptr) noexcept : ::Org::BouncyCastle::Security::GeneralSecurityException(ptr) {
+constexpr explicit CrlException(void* ptr) noexcept : Org::BouncyCastle::Security::GeneralSecurityException(ptr) {
 }
 
 
@@ -64,16 +63,15 @@ explicit CrlException(::StringW msg) ;
 /// @brief Method .ctor addr 0x1091868 size 0x8 virtual false final false
  void _ctor(::StringW msg) ;
 
-// Ctor Parameters [CppParam { name: "msg", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "e", ty: "::System::Exception", modifiers: "", def_value: None }]
-explicit CrlException(::StringW msg, ::System::Exception e) ;
+// Ctor Parameters [CppParam { name: "msg", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "e", ty: "System::Exception", modifiers: "", def_value: None }]
+explicit CrlException(::StringW msg, System::Exception e) ;
 
 /// @brief Method .ctor addr 0x1091870 size 0x8 virtual false final false
- void _ctor(::StringW msg, ::System::Exception e) ;
+ void _ctor(::StringW msg, System::Exception e) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Security::Certificates
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Security::Certificates::CrlException);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Security::Certificates::CrlException, "Org.BouncyCastle.Security.Certificates", "CrlException");
+NEED_NO_BOX(Org::BouncyCastle::Security::Certificates::CrlException);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::Certificates::CrlException, "Org.BouncyCastle.Security.Certificates", "CrlException");

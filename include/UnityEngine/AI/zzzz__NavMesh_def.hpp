@@ -5,22 +5,21 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine::AI {
-struct NavMeshHit;
+class NavMeshPath;
 }
 namespace UnityEngine::AI {
-class NavMeshPath;
+struct NavMeshHit;
 }
 // Forward declare root types
 namespace UnityEngine::AI {
 class NavMesh;
 }
 namespace UnityEngine::AI {
-class ____UnityEngine__AI__NavMesh__OnNavMeshPreUpdate;
+class UnityEngine__AI__NavMesh__OnNavMeshPreUpdate;
 }
 // Type: ::OnNavMeshPreUpdate
 namespace UnityEngine::AI {
@@ -28,44 +27,44 @@ namespace UnityEngine::AI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15963))
 // CS Name: UnityEngine.AI.NavMesh::OnNavMeshPreUpdate
-class CORDL_TYPE ____UnityEngine__AI__NavMesh__OnNavMeshPreUpdate : public ::System::MulticastDelegate {
+class CORDL_TYPE UnityEngine__AI__NavMesh__OnNavMeshPreUpdate : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x80};
 
-virtual ~____UnityEngine__AI__NavMesh__OnNavMeshPreUpdate() = default;
+virtual ~UnityEngine__AI__NavMesh__OnNavMeshPreUpdate() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__AI__NavMesh__OnNavMeshPreUpdate", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__AI__NavMesh__OnNavMeshPreUpdate(____UnityEngine__AI__NavMesh__OnNavMeshPreUpdate const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__AI__NavMesh__OnNavMeshPreUpdate", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__AI__NavMesh__OnNavMeshPreUpdate(UnityEngine__AI__NavMesh__OnNavMeshPreUpdate const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__AI__NavMesh__OnNavMeshPreUpdate", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__AI__NavMesh__OnNavMeshPreUpdate(____UnityEngine__AI__NavMesh__OnNavMeshPreUpdate&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__AI__NavMesh__OnNavMeshPreUpdate", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__AI__NavMesh__OnNavMeshPreUpdate(UnityEngine__AI__NavMesh__OnNavMeshPreUpdate&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__AI__NavMesh__OnNavMeshPreUpdate(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit UnityEngine__AI__NavMesh__OnNavMeshPreUpdate(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
-  constexpr ____UnityEngine__AI__NavMesh__OnNavMeshPreUpdate& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__AI__NavMesh__OnNavMeshPreUpdate& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__AI__NavMesh__OnNavMeshPreUpdate& operator=(void* o) noexcept {
+  constexpr UnityEngine__AI__NavMesh__OnNavMeshPreUpdate& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__AI__NavMesh__OnNavMeshPreUpdate& operator=(____UnityEngine__AI__NavMesh__OnNavMeshPreUpdate&& o) noexcept = default;
-  constexpr ____UnityEngine__AI__NavMesh__OnNavMeshPreUpdate& operator=(____UnityEngine__AI__NavMesh__OnNavMeshPreUpdate const& o) noexcept = default;
+  constexpr UnityEngine__AI__NavMesh__OnNavMeshPreUpdate& operator=(UnityEngine__AI__NavMesh__OnNavMeshPreUpdate&& o) noexcept = default;
+  constexpr UnityEngine__AI__NavMesh__OnNavMeshPreUpdate& operator=(UnityEngine__AI__NavMesh__OnNavMeshPreUpdate const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit ____UnityEngine__AI__NavMesh__OnNavMeshPreUpdate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+explicit UnityEngine__AI__NavMesh__OnNavMeshPreUpdate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2b07dcc size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -86,7 +85,7 @@ namespace UnityEngine::AI {
 class CORDL_TYPE NavMesh : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using OnNavMeshPreUpdate = ::UnityEngine::AI::____UnityEngine__AI__NavMesh__OnNavMeshPreUpdate;
+using OnNavMeshPreUpdate = UnityEngine::AI::UnityEngine__AI__NavMesh__OnNavMeshPreUpdate;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -121,11 +120,11 @@ constexpr explicit NavMesh(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(pt
 
 // Fields
 
-static ::UnityEngine::AI::____UnityEngine__AI__NavMesh__OnNavMeshPreUpdate __declspec(property(get=__get_onPreUpdate, put=__set_onPreUpdate))  onPreUpdate;
+static UnityEngine::AI::UnityEngine__AI__NavMesh__OnNavMeshPreUpdate __declspec(property(get=__get_onPreUpdate, put=__set_onPreUpdate))  onPreUpdate;
 
-static void __set_onPreUpdate(::UnityEngine::AI::____UnityEngine__AI__NavMesh__OnNavMeshPreUpdate value) ;
+static void __set_onPreUpdate(UnityEngine::AI::UnityEngine__AI__NavMesh__OnNavMeshPreUpdate value) ;
 
-static ::UnityEngine::AI::____UnityEngine__AI__NavMesh__OnNavMeshPreUpdate __get_onPreUpdate() ;
+static UnityEngine::AI::UnityEngine__AI__NavMesh__OnNavMeshPreUpdate __get_onPreUpdate() ;
 
 
 // Methods
@@ -134,26 +133,25 @@ static ::UnityEngine::AI::____UnityEngine__AI__NavMesh__OnNavMeshPreUpdate __get
 static void Internal_CallOnNavMeshPreUpdate() ;
 
 /// @brief Method CalculatePath addr 0x2b07b90 size 0xa0 virtual false final false
-static bool CalculatePath(::UnityEngine::Vector3 sourcePosition, ::UnityEngine::Vector3 targetPosition, int32_t areaMask, ::UnityEngine::AI::NavMeshPath path) ;
+static bool CalculatePath(UnityEngine::Vector3 sourcePosition, UnityEngine::Vector3 targetPosition, int32_t areaMask, UnityEngine::AI::NavMeshPath path) ;
 
 /// @brief Method CalculatePathInternal addr 0x2b07c30 size 0x6c virtual false final false
-static bool CalculatePathInternal(::UnityEngine::Vector3 sourcePosition, ::UnityEngine::Vector3 targetPosition, int32_t areaMask, ::UnityEngine::AI::NavMeshPath path) ;
+static bool CalculatePathInternal(UnityEngine::Vector3 sourcePosition, UnityEngine::Vector3 targetPosition, int32_t areaMask, UnityEngine::AI::NavMeshPath path) ;
 
 /// @brief Method SamplePosition addr 0x2b07cf8 size 0x70 virtual false final false
-static bool SamplePosition(::UnityEngine::Vector3 sourcePosition, ByRef<::UnityEngine::AI::NavMeshHit> hit, float_t maxDistance, int32_t areaMask) ;
+static bool SamplePosition(UnityEngine::Vector3 sourcePosition, ByRef<UnityEngine::AI::NavMeshHit> hit, float_t maxDistance, int32_t areaMask) ;
 
 /// @brief Method CalculatePathInternal_Injected addr 0x2b07c9c size 0x5c virtual false final false
-static bool CalculatePathInternal_Injected(ByRef<::UnityEngine::Vector3> sourcePosition, ByRef<::UnityEngine::Vector3> targetPosition, int32_t areaMask, ::UnityEngine::AI::NavMeshPath path) ;
+static bool CalculatePathInternal_Injected(ByRef<UnityEngine::Vector3> sourcePosition, ByRef<UnityEngine::Vector3> targetPosition, int32_t areaMask, UnityEngine::AI::NavMeshPath path) ;
 
 /// @brief Method SamplePosition_Injected addr 0x2b07d68 size 0x64 virtual false final false
-static bool SamplePosition_Injected(ByRef<::UnityEngine::Vector3> sourcePosition, ByRef<::UnityEngine::AI::NavMeshHit> hit, float_t maxDistance, int32_t areaMask) ;
+static bool SamplePosition_Injected(ByRef<UnityEngine::Vector3> sourcePosition, ByRef<UnityEngine::AI::NavMeshHit> hit, float_t maxDistance, int32_t areaMask) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::AI
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AI::NavMesh);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AI::NavMesh, "UnityEngine.AI", "NavMesh");
-NEED_NO_BOX(::UnityEngine::AI::____UnityEngine__AI__NavMesh__OnNavMeshPreUpdate);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AI::____UnityEngine__AI__NavMesh__OnNavMeshPreUpdate, "UnityEngine.AI", "NavMesh/OnNavMeshPreUpdate");
+NEED_NO_BOX(UnityEngine::AI::NavMesh);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AI::NavMesh, "UnityEngine.AI", "NavMesh");
+NEED_NO_BOX(UnityEngine::AI::UnityEngine__AI__NavMesh__OnNavMeshPreUpdate);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AI::UnityEngine__AI__NavMesh__OnNavMeshPreUpdate, "UnityEngine.AI", "NavMesh/OnNavMeshPreUpdate");

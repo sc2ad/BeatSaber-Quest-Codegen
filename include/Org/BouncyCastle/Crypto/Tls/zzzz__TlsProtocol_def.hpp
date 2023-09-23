@@ -5,57 +5,59 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Crypto::Tls {
+class SessionParameters;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsPeer;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class SessionParameters;
-}
-namespace System::IO {
-class MemoryStream;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class RecordStream;
-}
-namespace Org::BouncyCastle::Crypto::Prng {
-class IRandomGenerator;
+class TlsKeyExchange;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsHandshakeHash;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
+class RecordStream;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class Certificate;
+}
+namespace System::Collections {
+class IList;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
 class AbstractTlsContext;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsSession;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
+namespace System::IO {
+class MemoryStream;
+}
+namespace Org::BouncyCastle::Crypto::Prng {
+class IRandomGenerator;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class SecurityParameters;
+}
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class ByteQueue;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSession;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCloseable;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsStream;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class SecurityParameters;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class Certificate;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
 class ByteQueueStream;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsContext;
 }
 namespace System::Collections {
 class IDictionary;
@@ -63,18 +65,15 @@ class IDictionary;
 namespace System {
 class Exception;
 }
-namespace System::Collections {
-class IList;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsKeyExchange;
+class TlsStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsProtocol;
+class Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class ____Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage;
+class TlsProtocol;
 }
 // Type: ::HandshakeMessage
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -82,50 +81,50 @@ namespace Org::BouncyCastle::Crypto::Tls {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1291))
 // CS Name: Org.BouncyCastle.Crypto.Tls.TlsProtocol::HandshakeMessage
-class CORDL_TYPE ____Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage : public ::System::IO::MemoryStream {
+class CORDL_TYPE Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage : public System::IO::MemoryStream {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x50};
 
-virtual ~____Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage() = default;
+virtual ~Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage", modifiers: " const&", def_value: None }]
-constexpr ____Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage(____Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage", modifiers: " const&", def_value: None }]
+constexpr Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage(Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage", modifiers: "&&", def_value: None }]
-constexpr ____Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage(____Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage", modifiers: "&&", def_value: None }]
+constexpr Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage(Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage(void* ptr) noexcept : ::System::IO::MemoryStream(ptr) {
+constexpr explicit Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage(void* ptr) noexcept : System::IO::MemoryStream(ptr) {
 }
 
 
-  constexpr ____Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage& operator=(std::nullptr_t) noexcept {
+  constexpr Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage& operator=(void* o) noexcept {
+  constexpr Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage& operator=(____Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage&& o) noexcept = default;
-  constexpr ____Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage& operator=(____Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage const& o) noexcept = default;
+  constexpr Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage& operator=(Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage&& o) noexcept = default;
+  constexpr Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage& operator=(Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters [CppParam { name: "handshakeType", ty: "uint8_t", modifiers: "", def_value: None }]
-explicit ____Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage(uint8_t handshakeType) ;
+explicit Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage(uint8_t handshakeType) ;
 
 /// @brief Method .ctor addr 0xf113bc size 0x8 virtual false final false
  void _ctor(uint8_t handshakeType) ;
 
 // Ctor Parameters [CppParam { name: "handshakeType", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage(uint8_t handshakeType, int32_t length) ;
+explicit Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage(uint8_t handshakeType, int32_t length) ;
 
 /// @brief Method .ctor addr 0xf116b0 size 0x8c virtual false final false
  void _ctor(uint8_t handshakeType, int32_t length) ;
@@ -134,7 +133,7 @@ explicit ____Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage(uint8
  void Write(::ArrayW<uint8_t> data) ;
 
 /// @brief Method WriteToRecordStream addr 0xf113c4 size 0x124 virtual false final false
- void WriteToRecordStream(::Org::BouncyCastle::Crypto::Tls::TlsProtocol protocol) ;
+ void WriteToRecordStream(Org::BouncyCastle::Crypto::Tls::TlsProtocol protocol) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -149,10 +148,10 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE TlsProtocol : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using HandshakeMessage = ::Org::BouncyCastle::Crypto::Tls::____Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage;
+using HandshakeMessage = Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage;
 
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Tls::TlsCloseable
-constexpr operator  ::Org::BouncyCastle::Crypto::Tls::TlsCloseable() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Tls::TlsCloseable
+constexpr operator  Org::BouncyCastle::Crypto::Tls::TlsCloseable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xa8};
@@ -247,41 +246,41 @@ static constexpr int16_t  ADS_MODE_0_N{1};
 /// @brief Field ADS_MODE_0_N_FIRSTONLY offset 0
 static constexpr int16_t  ADS_MODE_0_N_FIRSTONLY{2};
 
- ::Org::BouncyCastle::Crypto::Tls::ByteQueue __declspec(property(get=__get_mApplicationDataQueue, put=__set_mApplicationDataQueue))  mApplicationDataQueue;
+ Org::BouncyCastle::Crypto::Tls::ByteQueue __declspec(property(get=__get_mApplicationDataQueue, put=__set_mApplicationDataQueue))  mApplicationDataQueue;
 
-constexpr void __set_mApplicationDataQueue(::Org::BouncyCastle::Crypto::Tls::ByteQueue value) ;
+constexpr void __set_mApplicationDataQueue(Org::BouncyCastle::Crypto::Tls::ByteQueue value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::ByteQueue __get_mApplicationDataQueue() const;
+constexpr Org::BouncyCastle::Crypto::Tls::ByteQueue __get_mApplicationDataQueue() const;
 
- ::Org::BouncyCastle::Crypto::Tls::ByteQueue __declspec(property(get=__get_mAlertQueue, put=__set_mAlertQueue))  mAlertQueue;
+ Org::BouncyCastle::Crypto::Tls::ByteQueue __declspec(property(get=__get_mAlertQueue, put=__set_mAlertQueue))  mAlertQueue;
 
-constexpr void __set_mAlertQueue(::Org::BouncyCastle::Crypto::Tls::ByteQueue value) ;
+constexpr void __set_mAlertQueue(Org::BouncyCastle::Crypto::Tls::ByteQueue value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::ByteQueue __get_mAlertQueue() const;
+constexpr Org::BouncyCastle::Crypto::Tls::ByteQueue __get_mAlertQueue() const;
 
- ::Org::BouncyCastle::Crypto::Tls::ByteQueue __declspec(property(get=__get_mHandshakeQueue, put=__set_mHandshakeQueue))  mHandshakeQueue;
+ Org::BouncyCastle::Crypto::Tls::ByteQueue __declspec(property(get=__get_mHandshakeQueue, put=__set_mHandshakeQueue))  mHandshakeQueue;
 
-constexpr void __set_mHandshakeQueue(::Org::BouncyCastle::Crypto::Tls::ByteQueue value) ;
+constexpr void __set_mHandshakeQueue(Org::BouncyCastle::Crypto::Tls::ByteQueue value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::ByteQueue __get_mHandshakeQueue() const;
+constexpr Org::BouncyCastle::Crypto::Tls::ByteQueue __get_mHandshakeQueue() const;
 
- ::Org::BouncyCastle::Crypto::Tls::RecordStream __declspec(property(get=__get_mRecordStream, put=__set_mRecordStream))  mRecordStream;
+ Org::BouncyCastle::Crypto::Tls::RecordStream __declspec(property(get=__get_mRecordStream, put=__set_mRecordStream))  mRecordStream;
 
-constexpr void __set_mRecordStream(::Org::BouncyCastle::Crypto::Tls::RecordStream value) ;
+constexpr void __set_mRecordStream(Org::BouncyCastle::Crypto::Tls::RecordStream value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::RecordStream __get_mRecordStream() const;
+constexpr Org::BouncyCastle::Crypto::Tls::RecordStream __get_mRecordStream() const;
 
- ::Org::BouncyCastle::Security::SecureRandom __declspec(property(get=__get_mSecureRandom, put=__set_mSecureRandom))  mSecureRandom;
+ Org::BouncyCastle::Security::SecureRandom __declspec(property(get=__get_mSecureRandom, put=__set_mSecureRandom))  mSecureRandom;
 
-constexpr void __set_mSecureRandom(::Org::BouncyCastle::Security::SecureRandom value) ;
+constexpr void __set_mSecureRandom(Org::BouncyCastle::Security::SecureRandom value) ;
 
-constexpr ::Org::BouncyCastle::Security::SecureRandom __get_mSecureRandom() const;
+constexpr Org::BouncyCastle::Security::SecureRandom __get_mSecureRandom() const;
 
- ::Org::BouncyCastle::Crypto::Tls::TlsStream __declspec(property(get=__get_mTlsStream, put=__set_mTlsStream))  mTlsStream;
+ Org::BouncyCastle::Crypto::Tls::TlsStream __declspec(property(get=__get_mTlsStream, put=__set_mTlsStream))  mTlsStream;
 
-constexpr void __set_mTlsStream(::Org::BouncyCastle::Crypto::Tls::TlsStream value) ;
+constexpr void __set_mTlsStream(Org::BouncyCastle::Crypto::Tls::TlsStream value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::TlsStream __get_mTlsStream() const;
+constexpr Org::BouncyCastle::Crypto::Tls::TlsStream __get_mTlsStream() const;
 
  bool __declspec(property(get=__get_mClosed, put=__set_mClosed))  mClosed;
 
@@ -319,29 +318,29 @@ constexpr void __set_mExpectedVerifyData(::ArrayW<uint8_t> value) ;
 
 constexpr ::ArrayW<uint8_t> __get_mExpectedVerifyData() const;
 
- ::Org::BouncyCastle::Crypto::Tls::TlsSession __declspec(property(get=__get_mTlsSession, put=__set_mTlsSession))  mTlsSession;
+ Org::BouncyCastle::Crypto::Tls::TlsSession __declspec(property(get=__get_mTlsSession, put=__set_mTlsSession))  mTlsSession;
 
-constexpr void __set_mTlsSession(::Org::BouncyCastle::Crypto::Tls::TlsSession value) ;
+constexpr void __set_mTlsSession(Org::BouncyCastle::Crypto::Tls::TlsSession value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSession __get_mTlsSession() const;
+constexpr Org::BouncyCastle::Crypto::Tls::TlsSession __get_mTlsSession() const;
 
- ::Org::BouncyCastle::Crypto::Tls::SessionParameters __declspec(property(get=__get_mSessionParameters, put=__set_mSessionParameters))  mSessionParameters;
+ Org::BouncyCastle::Crypto::Tls::SessionParameters __declspec(property(get=__get_mSessionParameters, put=__set_mSessionParameters))  mSessionParameters;
 
-constexpr void __set_mSessionParameters(::Org::BouncyCastle::Crypto::Tls::SessionParameters value) ;
+constexpr void __set_mSessionParameters(Org::BouncyCastle::Crypto::Tls::SessionParameters value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::SessionParameters __get_mSessionParameters() const;
+constexpr Org::BouncyCastle::Crypto::Tls::SessionParameters __get_mSessionParameters() const;
 
- ::Org::BouncyCastle::Crypto::Tls::SecurityParameters __declspec(property(get=__get_mSecurityParameters, put=__set_mSecurityParameters))  mSecurityParameters;
+ Org::BouncyCastle::Crypto::Tls::SecurityParameters __declspec(property(get=__get_mSecurityParameters, put=__set_mSecurityParameters))  mSecurityParameters;
 
-constexpr void __set_mSecurityParameters(::Org::BouncyCastle::Crypto::Tls::SecurityParameters value) ;
+constexpr void __set_mSecurityParameters(Org::BouncyCastle::Crypto::Tls::SecurityParameters value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::SecurityParameters __get_mSecurityParameters() const;
+constexpr Org::BouncyCastle::Crypto::Tls::SecurityParameters __get_mSecurityParameters() const;
 
- ::Org::BouncyCastle::Crypto::Tls::Certificate __declspec(property(get=__get_mPeerCertificate, put=__set_mPeerCertificate))  mPeerCertificate;
+ Org::BouncyCastle::Crypto::Tls::Certificate __declspec(property(get=__get_mPeerCertificate, put=__set_mPeerCertificate))  mPeerCertificate;
 
-constexpr void __set_mPeerCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate value) ;
+constexpr void __set_mPeerCertificate(Org::BouncyCastle::Crypto::Tls::Certificate value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::Certificate __get_mPeerCertificate() const;
+constexpr Org::BouncyCastle::Crypto::Tls::Certificate __get_mPeerCertificate() const;
 
  ::ArrayW<int32_t> __declspec(property(get=__get_mOfferedCipherSuites, put=__set_mOfferedCipherSuites))  mOfferedCipherSuites;
 
@@ -355,17 +354,17 @@ constexpr void __set_mOfferedCompressionMethods(::ArrayW<uint8_t> value) ;
 
 constexpr ::ArrayW<uint8_t> __get_mOfferedCompressionMethods() const;
 
- ::System::Collections::IDictionary __declspec(property(get=__get_mClientExtensions, put=__set_mClientExtensions))  mClientExtensions;
+ System::Collections::IDictionary __declspec(property(get=__get_mClientExtensions, put=__set_mClientExtensions))  mClientExtensions;
 
-constexpr void __set_mClientExtensions(::System::Collections::IDictionary value) ;
+constexpr void __set_mClientExtensions(System::Collections::IDictionary value) ;
 
-constexpr ::System::Collections::IDictionary __get_mClientExtensions() const;
+constexpr System::Collections::IDictionary __get_mClientExtensions() const;
 
- ::System::Collections::IDictionary __declspec(property(get=__get_mServerExtensions, put=__set_mServerExtensions))  mServerExtensions;
+ System::Collections::IDictionary __declspec(property(get=__get_mServerExtensions, put=__set_mServerExtensions))  mServerExtensions;
 
-constexpr void __set_mServerExtensions(::System::Collections::IDictionary value) ;
+constexpr void __set_mServerExtensions(System::Collections::IDictionary value) ;
 
-constexpr ::System::Collections::IDictionary __get_mServerExtensions() const;
+constexpr System::Collections::IDictionary __get_mServerExtensions() const;
 
  int16_t __declspec(property(get=__get_mConnectionState, put=__set_mConnectionState))  mConnectionState;
 
@@ -409,60 +408,60 @@ constexpr void __set_mBlocking(bool value) ;
 
 constexpr bool __get_mBlocking() const;
 
- ::Org::BouncyCastle::Crypto::Tls::ByteQueueStream __declspec(property(get=__get_mInputBuffers, put=__set_mInputBuffers))  mInputBuffers;
+ Org::BouncyCastle::Crypto::Tls::ByteQueueStream __declspec(property(get=__get_mInputBuffers, put=__set_mInputBuffers))  mInputBuffers;
 
-constexpr void __set_mInputBuffers(::Org::BouncyCastle::Crypto::Tls::ByteQueueStream value) ;
+constexpr void __set_mInputBuffers(Org::BouncyCastle::Crypto::Tls::ByteQueueStream value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::ByteQueueStream __get_mInputBuffers() const;
+constexpr Org::BouncyCastle::Crypto::Tls::ByteQueueStream __get_mInputBuffers() const;
 
- ::Org::BouncyCastle::Crypto::Tls::ByteQueueStream __declspec(property(get=__get_mOutputBuffer, put=__set_mOutputBuffer))  mOutputBuffer;
+ Org::BouncyCastle::Crypto::Tls::ByteQueueStream __declspec(property(get=__get_mOutputBuffer, put=__set_mOutputBuffer))  mOutputBuffer;
 
-constexpr void __set_mOutputBuffer(::Org::BouncyCastle::Crypto::Tls::ByteQueueStream value) ;
+constexpr void __set_mOutputBuffer(Org::BouncyCastle::Crypto::Tls::ByteQueueStream value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::ByteQueueStream __get_mOutputBuffer() const;
+constexpr Org::BouncyCastle::Crypto::Tls::ByteQueueStream __get_mOutputBuffer() const;
 
 
 // Properties
 
- ::Org::BouncyCastle::Crypto::Tls::TlsContext __declspec(property(get=get_Context))  Context;
+ Org::BouncyCastle::Crypto::Tls::TlsContext __declspec(property(get=get_Context))  Context;
 
- ::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext __declspec(property(get=get_ContextAdmin))  ContextAdmin;
+ Org::BouncyCastle::Crypto::Tls::AbstractTlsContext __declspec(property(get=get_ContextAdmin))  ContextAdmin;
 
- ::Org::BouncyCastle::Crypto::Tls::TlsPeer __declspec(property(get=get_Peer))  Peer;
+ Org::BouncyCastle::Crypto::Tls::TlsPeer __declspec(property(get=get_Peer))  Peer;
 
- ::System::IO::Stream __declspec(property(get=get_Stream))  Stream;
+ System::IO::Stream __declspec(property(get=get_Stream))  Stream;
 
  bool __declspec(property(get=get_IsClosed))  IsClosed;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "secureRandom", ty: "::Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit TlsProtocol(::System::IO::Stream stream, ::Org::BouncyCastle::Security::SecureRandom secureRandom) ;
+// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "secureRandom", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
+explicit TlsProtocol(System::IO::Stream stream, Org::BouncyCastle::Security::SecureRandom secureRandom) ;
 
 /// @brief Method .ctor addr 0xf0e620 size 0xc virtual false final false
- void _ctor(::System::IO::Stream stream, ::Org::BouncyCastle::Security::SecureRandom secureRandom) ;
+ void _ctor(System::IO::Stream stream, Org::BouncyCastle::Security::SecureRandom secureRandom) ;
 
-// Ctor Parameters [CppParam { name: "input", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "output", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "secureRandom", ty: "::Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit TlsProtocol(::System::IO::Stream input, ::System::IO::Stream output, ::Org::BouncyCastle::Security::SecureRandom secureRandom) ;
+// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "output", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "secureRandom", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
+explicit TlsProtocol(System::IO::Stream input, System::IO::Stream output, Org::BouncyCastle::Security::SecureRandom secureRandom) ;
 
 /// @brief Method .ctor addr 0xf0e62c size 0x154 virtual false final false
- void _ctor(::System::IO::Stream input, ::System::IO::Stream output, ::Org::BouncyCastle::Security::SecureRandom secureRandom) ;
+ void _ctor(System::IO::Stream input, System::IO::Stream output, Org::BouncyCastle::Security::SecureRandom secureRandom) ;
 
-// Ctor Parameters [CppParam { name: "secureRandom", ty: "::Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit TlsProtocol(::Org::BouncyCastle::Security::SecureRandom secureRandom) ;
+// Ctor Parameters [CppParam { name: "secureRandom", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
+explicit TlsProtocol(Org::BouncyCastle::Security::SecureRandom secureRandom) ;
 
 /// @brief Method .ctor addr 0xf0e780 size 0x1a0 virtual false final false
- void _ctor(::Org::BouncyCastle::Security::SecureRandom secureRandom) ;
+ void _ctor(Org::BouncyCastle::Security::SecureRandom secureRandom) ;
 
 /// @brief Method get_Context addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Crypto::Tls::TlsContext get_Context() ;
+ Org::BouncyCastle::Crypto::Tls::TlsContext get_Context() ;
 
 /// @brief Method get_ContextAdmin addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext get_ContextAdmin() ;
+ Org::BouncyCastle::Crypto::Tls::AbstractTlsContext get_ContextAdmin() ;
 
 /// @brief Method get_Peer addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Crypto::Tls::TlsPeer get_Peer() ;
+ Org::BouncyCastle::Crypto::Tls::TlsPeer get_Peer() ;
 
 /// @brief Method HandleAlertMessage addr 0xf0e920 size 0x13c virtual true final false
  void HandleAlertMessage(uint8_t alertLevel, uint8_t alertDescription) ;
@@ -477,13 +476,13 @@ explicit TlsProtocol(::Org::BouncyCastle::Security::SecureRandom secureRandom) ;
  void HandleClose(bool user_canceled) ;
 
 /// @brief Method HandleException addr 0xf0ebe4 size 0x78 virtual true final false
- void HandleException(uint8_t alertDescription, ::StringW message, ::System::Exception cause) ;
+ void HandleException(uint8_t alertDescription, ::StringW message, System::Exception cause) ;
 
 /// @brief Method HandleFailure addr 0xf0ec5c size 0x84 virtual true final false
  void HandleFailure() ;
 
 /// @brief Method HandleHandshakeMessage addr 0x0 size 0xffffffffffffffff virtual true final false
- void HandleHandshakeMessage(uint8_t type, ::System::IO::MemoryStream buf) ;
+ void HandleHandshakeMessage(uint8_t type, System::IO::MemoryStream buf) ;
 
 /// @brief Method ApplyMaxFragmentLengthExtension addr 0xf0ece0 size 0x98 virtual true final false
  void ApplyMaxFragmentLengthExtension() ;
@@ -504,7 +503,7 @@ explicit TlsProtocol(::Org::BouncyCastle::Security::SecureRandom secureRandom) ;
  void ProcessRecord(uint8_t protocol, ::ArrayW<uint8_t> buf, int32_t off, int32_t len) ;
 
 /// @brief Method ProcessHandshakeQueue addr 0xf0f600 size 0x2dc virtual false final false
- void ProcessHandshakeQueue(::Org::BouncyCastle::Crypto::Tls::ByteQueue queue) ;
+ void ProcessHandshakeQueue(Org::BouncyCastle::Crypto::Tls::ByteQueue queue) ;
 
 /// @brief Method ProcessApplicationDataQueue addr 0xf0f49c size 0x4 virtual false final false
  void ProcessApplicationDataQueue() ;
@@ -540,7 +539,7 @@ explicit TlsProtocol(::Org::BouncyCastle::Security::SecureRandom secureRandom) ;
  void WriteHandshakeMessage(::ArrayW<uint8_t> buf, int32_t off, int32_t len) ;
 
 /// @brief Method get_Stream addr 0xf104f4 size 0x64 virtual true final false
- ::System::IO::Stream get_Stream() ;
+ System::IO::Stream get_Stream() ;
 
 /// @brief Method CloseInput addr 0xf10558 size 0x124 virtual true final false
  void CloseInput() ;
@@ -570,16 +569,16 @@ explicit TlsProtocol(::Org::BouncyCastle::Security::SecureRandom secureRandom) ;
  void InvalidateSession() ;
 
 /// @brief Method ProcessFinishedMessage addr 0xf10cdc size 0x11c virtual true final false
- void ProcessFinishedMessage(::System::IO::MemoryStream buf) ;
+ void ProcessFinishedMessage(System::IO::MemoryStream buf) ;
 
 /// @brief Method RaiseAlertFatal addr 0xf10e80 size 0x1d0 virtual true final false
- void RaiseAlertFatal(uint8_t alertDescription, ::StringW message, ::System::Exception cause) ;
+ void RaiseAlertFatal(uint8_t alertDescription, ::StringW message, System::Exception cause) ;
 
 /// @brief Method RaiseAlertWarning addr 0xf11050 size 0x13c virtual true final false
  void RaiseAlertWarning(uint8_t alertDescription, ::StringW message) ;
 
 /// @brief Method SendCertificateMessage addr 0xf1118c size 0x230 virtual true final false
- void SendCertificateMessage(::Org::BouncyCastle::Crypto::Tls::Certificate certificate) ;
+ void SendCertificateMessage(Org::BouncyCastle::Crypto::Tls::Certificate certificate) ;
 
 /// @brief Method SendChangeCipherSpecMessage addr 0xf114e8 size 0x98 virtual true final false
  void SendChangeCipherSpecMessage() ;
@@ -588,7 +587,7 @@ explicit TlsProtocol(::Org::BouncyCastle::Security::SecureRandom secureRandom) ;
  void SendFinishedMessage() ;
 
 /// @brief Method SendSupplementalDataMessage addr 0xf1173c size 0x80 virtual true final false
- void SendSupplementalDataMessage(::System::Collections::IList supplementalData) ;
+ void SendSupplementalDataMessage(System::Collections::IList supplementalData) ;
 
 /// @brief Method CreateVerifyData addr 0xf11bdc size 0x120 virtual true final false
  ::ArrayW<uint8_t> CreateVerifyData(bool isServer) ;
@@ -603,50 +602,49 @@ explicit TlsProtocol(::Org::BouncyCastle::Security::SecureRandom secureRandom) ;
  bool get_IsClosed() ;
 
 /// @brief Method ProcessMaxFragmentLengthExtension addr 0xf11ee8 size 0xb0 virtual true final false
- int16_t ProcessMaxFragmentLengthExtension(::System::Collections::IDictionary clientExtensions, ::System::Collections::IDictionary serverExtensions, uint8_t alertDescription) ;
+ int16_t ProcessMaxFragmentLengthExtension(System::Collections::IDictionary clientExtensions, System::Collections::IDictionary serverExtensions, uint8_t alertDescription) ;
 
 /// @brief Method RefuseRenegotiation addr 0xf11f98 size 0xe4 virtual true final false
  void RefuseRenegotiation() ;
 
 /// @brief Method AssertEmpty addr 0xf10df8 size 0x88 virtual false final false
-static void AssertEmpty(::System::IO::MemoryStream buf) ;
+static void AssertEmpty(System::IO::MemoryStream buf) ;
 
 /// @brief Method CreateRandomBlock addr 0xf1207c size 0x114 virtual false final false
-static ::ArrayW<uint8_t> CreateRandomBlock(bool useGmtUnixTime, ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator randomGenerator) ;
+static ::ArrayW<uint8_t> CreateRandomBlock(bool useGmtUnixTime, Org::BouncyCastle::Crypto::Prng::IRandomGenerator randomGenerator) ;
 
 /// @brief Method CreateRenegotiationInfo addr 0xf12190 size 0x58 virtual false final false
 static ::ArrayW<uint8_t> CreateRenegotiationInfo(::ArrayW<uint8_t> renegotiated_connection) ;
 
 /// @brief Method EstablishMasterSecret addr 0xf121e8 size 0x230 virtual false final false
-static void EstablishMasterSecret(::Org::BouncyCastle::Crypto::Tls::TlsContext context, ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange keyExchange) ;
+static void EstablishMasterSecret(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Tls::TlsKeyExchange keyExchange) ;
 
 /// @brief Method GetCurrentPrfHash addr 0xf11cfc size 0x1a0 virtual false final false
-static ::ArrayW<uint8_t> GetCurrentPrfHash(::Org::BouncyCastle::Crypto::Tls::TlsContext context, ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash handshakeHash, ::ArrayW<uint8_t> sslSender) ;
+static ::ArrayW<uint8_t> GetCurrentPrfHash(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash handshakeHash, ::ArrayW<uint8_t> sslSender) ;
 
 /// @brief Method ReadExtensions addr 0xf08e14 size 0x308 virtual false final false
-static ::System::Collections::IDictionary ReadExtensions(::System::IO::MemoryStream input) ;
+static System::Collections::IDictionary ReadExtensions(System::IO::MemoryStream input) ;
 
 /// @brief Method ReadSupplementalDataMessage addr 0xf12418 size 0x224 virtual false final false
-static ::System::Collections::IList ReadSupplementalDataMessage(::System::IO::MemoryStream input) ;
+static System::Collections::IList ReadSupplementalDataMessage(System::IO::MemoryStream input) ;
 
 /// @brief Method WriteExtensions addr 0xf093dc size 0xd4 virtual false final false
-static void WriteExtensions(::System::IO::Stream output, ::System::Collections::IDictionary extensions) ;
+static void WriteExtensions(System::IO::Stream output, System::Collections::IDictionary extensions) ;
 
 /// @brief Method WriteSelectedExtensions addr 0xf1263c size 0x4fc virtual false final false
-static void WriteSelectedExtensions(::System::IO::Stream output, ::System::Collections::IDictionary extensions, bool selectEmpty) ;
+static void WriteSelectedExtensions(System::IO::Stream output, System::Collections::IDictionary extensions, bool selectEmpty) ;
 
 /// @brief Method WriteSupplementalData addr 0xf117bc size 0x420 virtual false final false
-static void WriteSupplementalData(::System::IO::Stream output, ::System::Collections::IList supplementalData) ;
+static void WriteSupplementalData(System::IO::Stream output, System::Collections::IList supplementalData) ;
 
 /// @brief Method GetPrfAlgorithm addr 0xf12b38 size 0x168 virtual false final false
-static int32_t GetPrfAlgorithm(::Org::BouncyCastle::Crypto::Tls::TlsContext context, int32_t ciphersuite) ;
+static int32_t GetPrfAlgorithm(Org::BouncyCastle::Crypto::Tls::TlsContext context, int32_t ciphersuite) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsProtocol);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::TlsProtocol, "Org.BouncyCastle.Crypto.Tls", "TlsProtocol");
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::____Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::____Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage, "Org.BouncyCastle.Crypto.Tls", "TlsProtocol/HandshakeMessage");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage, "Org.BouncyCastle.Crypto.Tls", "TlsProtocol/HandshakeMessage");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::TlsProtocol);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::TlsProtocol, "Org.BouncyCastle.Crypto.Tls", "TlsProtocol");

@@ -2,16 +2,15 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
+}
 namespace System {
 class Type;
 }
 namespace System {
 class Uri;
-}
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -60,16 +59,16 @@ constexpr explicit XmlResolver(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 // Methods
 
 /// @brief Method GetEntity addr 0x0 size 0xffffffffffffffff virtual true final false
- ::bs_hook::Il2CppWrapperType GetEntity(::System::Uri absoluteUri, ::StringW role, ::System::Type ofObjectToReturn) ;
+ ::bs_hook::Il2CppWrapperType GetEntity(System::Uri absoluteUri, ::StringW role, System::Type ofObjectToReturn) ;
 
 /// @brief Method ResolveUri addr 0x2715960 size 0x1d8 virtual true final false
- ::System::Uri ResolveUri(::System::Uri baseUri, ::StringW relativeUri) ;
+ System::Uri ResolveUri(System::Uri baseUri, ::StringW relativeUri) ;
 
 /// @brief Method SupportsType addr 0x2715b38 size 0x148 virtual true final false
- bool SupportsType(::System::Uri absoluteUri, ::System::Type type) ;
+ bool SupportsType(System::Uri absoluteUri, System::Type type) ;
 
 /// @brief Method GetEntityAsync addr 0x2715c80 size 0x40 virtual true final false
- ::System::Threading::Tasks::Task_1<::bs_hook::Il2CppWrapperType> GetEntityAsync(::System::Uri absoluteUri, ::StringW role, ::System::Type ofObjectToReturn) ;
+ System::Threading::Tasks::Task_1<::bs_hook::Il2CppWrapperType> GetEntityAsync(System::Uri absoluteUri, ::StringW role, System::Type ofObjectToReturn) ;
 
 // Ctor Parameters []
 explicit XmlResolver() ;
@@ -81,6 +80,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::XmlResolver);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlResolver, "System.Xml", "XmlResolver");
+NEED_NO_BOX(System::Xml::XmlResolver);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlResolver, "System.Xml", "XmlResolver");

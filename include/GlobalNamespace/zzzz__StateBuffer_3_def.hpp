@@ -7,9 +7,8 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-struct PoseSerializable;
+namespace System {
+class IAsyncResult;
 }
 namespace GlobalNamespace {
 struct NodePoseSyncState;
@@ -17,70 +16,70 @@ struct NodePoseSyncState;
 namespace System {
 struct Int32Enum;
 }
+namespace System {
+class AsyncCallback;
+}
+namespace GlobalNamespace {
+struct PoseSerializable;
+}
 namespace GlobalNamespace {
 struct StandardScoreSyncState;
 }
-namespace System {
-class IAsyncResult;
-}
-namespace System {
-class AsyncCallback;
+namespace GlobalNamespace {
+struct SyncStateId;
 }
 namespace GlobalNamespace {
 template<typename T>
 class IEquatableByReference_1;
 }
-namespace GlobalNamespace {
-struct SyncStateId;
-}
 // Forward declare root types
+namespace GlobalNamespace {
+template<typename TStateTable,typename TType,typename TState>
+class GlobalNamespace__StateBuffer_3__InterpolationDelegate;
+}
+namespace GlobalNamespace {
+template<typename TStateTable,typename TType,typename TState>
+class GlobalNamespace__StateBuffer_3__SmoothingDelegate;
+}
 namespace GlobalNamespace {
 template<typename TStateTable,typename TType,typename TState>
 class StateBuffer_3;
 }
 namespace GlobalNamespace {
-template<typename TStateTable,typename TType,typename TState>
-class ____GlobalNamespace__StateBuffer_3__InterpolationDelegate;
-}
-namespace GlobalNamespace {
-template<typename TStateTable,typename TType,typename TState>
-class ____GlobalNamespace__StateBuffer_3__SmoothingDelegate;
+template<>
+class GlobalNamespace__StateBuffer_3__InterpolationDelegate<GlobalNamespace::NodePoseSyncState,System::Int32Enum,GlobalNamespace::PoseSerializable>;
 }
 namespace GlobalNamespace {
 template<>
-class StateBuffer_3<::GlobalNamespace::NodePoseSyncState,::System::Int32Enum,::GlobalNamespace::PoseSerializable>;
+class GlobalNamespace__StateBuffer_3__InterpolationDelegate<GlobalNamespace::StandardScoreSyncState,System::Int32Enum,int32_t>;
 }
 namespace GlobalNamespace {
 template<>
-class StateBuffer_3<::GlobalNamespace::StandardScoreSyncState,::System::Int32Enum,int32_t>;
+class GlobalNamespace__StateBuffer_3__SmoothingDelegate<GlobalNamespace::NodePoseSyncState,System::Int32Enum,GlobalNamespace::PoseSerializable>;
 }
 namespace GlobalNamespace {
 template<>
-class ____GlobalNamespace__StateBuffer_3__InterpolationDelegate<::GlobalNamespace::NodePoseSyncState,::System::Int32Enum,::GlobalNamespace::PoseSerializable>;
+class GlobalNamespace__StateBuffer_3__SmoothingDelegate<GlobalNamespace::StandardScoreSyncState,System::Int32Enum,int32_t>;
 }
 namespace GlobalNamespace {
 template<>
-class ____GlobalNamespace__StateBuffer_3__InterpolationDelegate<::GlobalNamespace::StandardScoreSyncState,::System::Int32Enum,int32_t>;
+class StateBuffer_3<GlobalNamespace::NodePoseSyncState,System::Int32Enum,GlobalNamespace::PoseSerializable>;
 }
 namespace GlobalNamespace {
 template<>
-class ____GlobalNamespace__StateBuffer_3__SmoothingDelegate<::GlobalNamespace::NodePoseSyncState,::System::Int32Enum,::GlobalNamespace::PoseSerializable>;
-}
-namespace GlobalNamespace {
-template<>
-class ____GlobalNamespace__StateBuffer_3__SmoothingDelegate<::GlobalNamespace::StandardScoreSyncState,::System::Int32Enum,int32_t>;
+class StateBuffer_3<GlobalNamespace::StandardScoreSyncState,System::Int32Enum,int32_t>;
 }
 namespace GlobalNamespace {
 template<typename TStateTable,typename TType,typename TState>
-struct ____GlobalNamespace__StateBuffer_3__TimestampedStateTable;
+struct GlobalNamespace__StateBuffer_3__TimestampedStateTable;
 }
 namespace GlobalNamespace {
 template<>
-struct ____GlobalNamespace__StateBuffer_3__TimestampedStateTable<::GlobalNamespace::NodePoseSyncState,::System::Int32Enum,::GlobalNamespace::PoseSerializable>;
+struct GlobalNamespace__StateBuffer_3__TimestampedStateTable<GlobalNamespace::NodePoseSyncState,System::Int32Enum,GlobalNamespace::PoseSerializable>;
 }
 namespace GlobalNamespace {
 template<>
-struct ____GlobalNamespace__StateBuffer_3__TimestampedStateTable<::GlobalNamespace::StandardScoreSyncState,::System::Int32Enum,int32_t>;
+struct GlobalNamespace__StateBuffer_3__TimestampedStateTable<GlobalNamespace::StandardScoreSyncState,System::Int32Enum,int32_t>;
 }
 // Type: ::TimestampedStateTable
 // Type: ::InterpolationDelegate
@@ -91,26 +90,26 @@ namespace GlobalNamespace {
 // cpp template
 template<>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12921)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(12921))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12921), inst: 4981 })
 // CS Name: StateBuffer`3::TimestampedStateTable
-struct CORDL_TYPE ____GlobalNamespace__StateBuffer_3__TimestampedStateTable<::GlobalNamespace::NodePoseSyncState,::System::Int32Enum,::GlobalNamespace::PoseSerializable> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__StateBuffer_3__TimestampedStateTable<GlobalNamespace::NodePoseSyncState,System::Int32Enum,GlobalNamespace::PoseSerializable> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::____GlobalNamespace__StateBuffer_3__TimestampedStateTable<::GlobalNamespace::NodePoseSyncState,::System::Int32Enum,::GlobalNamespace::PoseSerializable>>
-constexpr operator  ::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::____GlobalNamespace__StateBuffer_3__TimestampedStateTable<::GlobalNamespace::NodePoseSyncState,::System::Int32Enum,::GlobalNamespace::PoseSerializable>>() const;
+/// @brief Convert operator to GlobalNamespace::IEquatableByReference_1<GlobalNamespace::GlobalNamespace__StateBuffer_3__TimestampedStateTable<GlobalNamespace::NodePoseSyncState,System::Int32Enum,GlobalNamespace::PoseSerializable>>
+constexpr operator  GlobalNamespace::IEquatableByReference_1<GlobalNamespace::GlobalNamespace__StateBuffer_3__TimestampedStateTable<GlobalNamespace::NodePoseSyncState,System::Int32Enum,GlobalNamespace::PoseSerializable>>() const;
 
-// Ctor Parameters [CppParam { name: "isValid", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "id", ty: "::GlobalNamespace::SyncStateId", modifiers: "", def_value: None }, CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "state", ty: "::GlobalNamespace::NodePoseSyncState", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__StateBuffer_3__TimestampedStateTable(bool isValid, ::GlobalNamespace::SyncStateId id, float_t time, ::GlobalNamespace::NodePoseSyncState state) noexcept;
+// Ctor Parameters [CppParam { name: "isValid", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "id", ty: "GlobalNamespace::SyncStateId", modifiers: "", def_value: None }, CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "state", ty: "GlobalNamespace::NodePoseSyncState", modifiers: "", def_value: None }]
+constexpr GlobalNamespace__StateBuffer_3__TimestampedStateTable(bool isValid, GlobalNamespace::SyncStateId id, float_t time, GlobalNamespace::NodePoseSyncState state) noexcept;
 
 
-                    constexpr ____GlobalNamespace__StateBuffer_3__TimestampedStateTable(____GlobalNamespace__StateBuffer_3__TimestampedStateTable const&) = default;
-                    constexpr ____GlobalNamespace__StateBuffer_3__TimestampedStateTable(____GlobalNamespace__StateBuffer_3__TimestampedStateTable&&) = default;
-                    constexpr ____GlobalNamespace__StateBuffer_3__TimestampedStateTable& operator=(____GlobalNamespace__StateBuffer_3__TimestampedStateTable const& o) {
+                    constexpr GlobalNamespace__StateBuffer_3__TimestampedStateTable(GlobalNamespace__StateBuffer_3__TimestampedStateTable const&) = default;
+                    constexpr GlobalNamespace__StateBuffer_3__TimestampedStateTable(GlobalNamespace__StateBuffer_3__TimestampedStateTable&&) = default;
+                    constexpr GlobalNamespace__StateBuffer_3__TimestampedStateTable& operator=(GlobalNamespace__StateBuffer_3__TimestampedStateTable const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__StateBuffer_3__TimestampedStateTable& operator=(____GlobalNamespace__StateBuffer_3__TimestampedStateTable&& o) noexcept {
+                    constexpr GlobalNamespace__StateBuffer_3__TimestampedStateTable& operator=(GlobalNamespace__StateBuffer_3__TimestampedStateTable&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -123,7 +122,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x20};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__StateBuffer_3__TimestampedStateTable(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__StateBuffer_3__TimestampedStateTable(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -140,11 +139,11 @@ constexpr void __set_isValid(bool value) ;
 
 constexpr bool __get_isValid() const;
 
- ::GlobalNamespace::SyncStateId __declspec(property(get=__get_id, put=__set_id))  id;
+ GlobalNamespace::SyncStateId __declspec(property(get=__get_id, put=__set_id))  id;
 
-constexpr void __set_id(::GlobalNamespace::SyncStateId value) ;
+constexpr void __set_id(GlobalNamespace::SyncStateId value) ;
 
-constexpr ::GlobalNamespace::SyncStateId __get_id() const;
+constexpr GlobalNamespace::SyncStateId __get_id() const;
 
  float_t __declspec(property(get=__get_time, put=__set_time))  time;
 
@@ -152,26 +151,26 @@ constexpr void __set_time(float_t value) ;
 
 constexpr float_t __get_time() const;
 
- ::GlobalNamespace::NodePoseSyncState __declspec(property(get=__get_state, put=__set_state))  state;
+ GlobalNamespace::NodePoseSyncState __declspec(property(get=__get_state, put=__set_state))  state;
 
-constexpr void __set_state(::GlobalNamespace::NodePoseSyncState value) ;
+constexpr void __set_state(GlobalNamespace::NodePoseSyncState value) ;
 
-constexpr ::GlobalNamespace::NodePoseSyncState __get_state() const;
+constexpr GlobalNamespace::NodePoseSyncState __get_state() const;
 
 
 // Methods
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual false final false
- bool Equals(ByRef<::GlobalNamespace::____GlobalNamespace__StateBuffer_3__TimestampedStateTable<::GlobalNamespace::NodePoseSyncState,::System::Int32Enum,::GlobalNamespace::PoseSerializable>> other) ;
+ bool Equals(ByRef<GlobalNamespace::GlobalNamespace__StateBuffer_3__TimestampedStateTable<GlobalNamespace::NodePoseSyncState,System::Int32Enum,GlobalNamespace::PoseSerializable>> other) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::GlobalNamespace::SyncStateId id, float_t time, ::GlobalNamespace::NodePoseSyncState state) ;
+ void _ctor(GlobalNamespace::SyncStateId id, float_t time, GlobalNamespace::NodePoseSyncState state) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(float_t time, ::GlobalNamespace::NodePoseSyncState state) ;
+ void _ctor(float_t time, GlobalNamespace::NodePoseSyncState state) ;
 
 /// @brief Method IEquatableByReference<StateBuffer<TStateTable,TType,TState>.TimestampedStateTable>.Equals addr 0x0 size 0xffffffffffffffff virtual true final true
- bool IEquatableByReference_StateBuffer_TStateTable,TType,TState__TimestampedStateTable__Equals(ByRef<::GlobalNamespace::____GlobalNamespace__StateBuffer_3__TimestampedStateTable<::GlobalNamespace::NodePoseSyncState,::System::Int32Enum,::GlobalNamespace::PoseSerializable>> other) ;
+ bool IEquatableByReference_StateBuffer_TStateTable,TType,TState__TimestampedStateTable__Equals(ByRef<GlobalNamespace::GlobalNamespace__StateBuffer_3__TimestampedStateTable<GlobalNamespace::NodePoseSyncState,System::Int32Enum,GlobalNamespace::PoseSerializable>> other) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -182,26 +181,26 @@ namespace GlobalNamespace {
 // cpp template
 template<>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12921)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(12921))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12921), inst: 4982 })
 // CS Name: StateBuffer`3::TimestampedStateTable
-struct CORDL_TYPE ____GlobalNamespace__StateBuffer_3__TimestampedStateTable<::GlobalNamespace::StandardScoreSyncState,::System::Int32Enum,int32_t> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__StateBuffer_3__TimestampedStateTable<GlobalNamespace::StandardScoreSyncState,System::Int32Enum,int32_t> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::____GlobalNamespace__StateBuffer_3__TimestampedStateTable<::GlobalNamespace::StandardScoreSyncState,::System::Int32Enum,int32_t>>
-constexpr operator  ::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::____GlobalNamespace__StateBuffer_3__TimestampedStateTable<::GlobalNamespace::StandardScoreSyncState,::System::Int32Enum,int32_t>>() const;
+/// @brief Convert operator to GlobalNamespace::IEquatableByReference_1<GlobalNamespace::GlobalNamespace__StateBuffer_3__TimestampedStateTable<GlobalNamespace::StandardScoreSyncState,System::Int32Enum,int32_t>>
+constexpr operator  GlobalNamespace::IEquatableByReference_1<GlobalNamespace::GlobalNamespace__StateBuffer_3__TimestampedStateTable<GlobalNamespace::StandardScoreSyncState,System::Int32Enum,int32_t>>() const;
 
-// Ctor Parameters [CppParam { name: "isValid", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "id", ty: "::GlobalNamespace::SyncStateId", modifiers: "", def_value: None }, CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "state", ty: "::GlobalNamespace::StandardScoreSyncState", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__StateBuffer_3__TimestampedStateTable(bool isValid, ::GlobalNamespace::SyncStateId id, float_t time, ::GlobalNamespace::StandardScoreSyncState state) noexcept;
+// Ctor Parameters [CppParam { name: "isValid", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "id", ty: "GlobalNamespace::SyncStateId", modifiers: "", def_value: None }, CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "state", ty: "GlobalNamespace::StandardScoreSyncState", modifiers: "", def_value: None }]
+constexpr GlobalNamespace__StateBuffer_3__TimestampedStateTable(bool isValid, GlobalNamespace::SyncStateId id, float_t time, GlobalNamespace::StandardScoreSyncState state) noexcept;
 
 
-                    constexpr ____GlobalNamespace__StateBuffer_3__TimestampedStateTable(____GlobalNamespace__StateBuffer_3__TimestampedStateTable const&) = default;
-                    constexpr ____GlobalNamespace__StateBuffer_3__TimestampedStateTable(____GlobalNamespace__StateBuffer_3__TimestampedStateTable&&) = default;
-                    constexpr ____GlobalNamespace__StateBuffer_3__TimestampedStateTable& operator=(____GlobalNamespace__StateBuffer_3__TimestampedStateTable const& o) {
+                    constexpr GlobalNamespace__StateBuffer_3__TimestampedStateTable(GlobalNamespace__StateBuffer_3__TimestampedStateTable const&) = default;
+                    constexpr GlobalNamespace__StateBuffer_3__TimestampedStateTable(GlobalNamespace__StateBuffer_3__TimestampedStateTable&&) = default;
+                    constexpr GlobalNamespace__StateBuffer_3__TimestampedStateTable& operator=(GlobalNamespace__StateBuffer_3__TimestampedStateTable const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__StateBuffer_3__TimestampedStateTable& operator=(____GlobalNamespace__StateBuffer_3__TimestampedStateTable&& o) noexcept {
+                    constexpr GlobalNamespace__StateBuffer_3__TimestampedStateTable& operator=(GlobalNamespace__StateBuffer_3__TimestampedStateTable&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -214,7 +213,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x20};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__StateBuffer_3__TimestampedStateTable(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__StateBuffer_3__TimestampedStateTable(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -231,11 +230,11 @@ constexpr void __set_isValid(bool value) ;
 
 constexpr bool __get_isValid() const;
 
- ::GlobalNamespace::SyncStateId __declspec(property(get=__get_id, put=__set_id))  id;
+ GlobalNamespace::SyncStateId __declspec(property(get=__get_id, put=__set_id))  id;
 
-constexpr void __set_id(::GlobalNamespace::SyncStateId value) ;
+constexpr void __set_id(GlobalNamespace::SyncStateId value) ;
 
-constexpr ::GlobalNamespace::SyncStateId __get_id() const;
+constexpr GlobalNamespace::SyncStateId __get_id() const;
 
  float_t __declspec(property(get=__get_time, put=__set_time))  time;
 
@@ -243,26 +242,26 @@ constexpr void __set_time(float_t value) ;
 
 constexpr float_t __get_time() const;
 
- ::GlobalNamespace::StandardScoreSyncState __declspec(property(get=__get_state, put=__set_state))  state;
+ GlobalNamespace::StandardScoreSyncState __declspec(property(get=__get_state, put=__set_state))  state;
 
-constexpr void __set_state(::GlobalNamespace::StandardScoreSyncState value) ;
+constexpr void __set_state(GlobalNamespace::StandardScoreSyncState value) ;
 
-constexpr ::GlobalNamespace::StandardScoreSyncState __get_state() const;
+constexpr GlobalNamespace::StandardScoreSyncState __get_state() const;
 
 
 // Methods
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual false final false
- bool Equals(ByRef<::GlobalNamespace::____GlobalNamespace__StateBuffer_3__TimestampedStateTable<::GlobalNamespace::StandardScoreSyncState,::System::Int32Enum,int32_t>> other) ;
+ bool Equals(ByRef<GlobalNamespace::GlobalNamespace__StateBuffer_3__TimestampedStateTable<GlobalNamespace::StandardScoreSyncState,System::Int32Enum,int32_t>> other) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::GlobalNamespace::SyncStateId id, float_t time, ::GlobalNamespace::StandardScoreSyncState state) ;
+ void _ctor(GlobalNamespace::SyncStateId id, float_t time, GlobalNamespace::StandardScoreSyncState state) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(float_t time, ::GlobalNamespace::StandardScoreSyncState state) ;
+ void _ctor(float_t time, GlobalNamespace::StandardScoreSyncState state) ;
 
 /// @brief Method IEquatableByReference<StateBuffer<TStateTable,TType,TState>.TimestampedStateTable>.Equals addr 0x0 size 0xffffffffffffffff virtual true final true
- bool IEquatableByReference_StateBuffer_TStateTable,TType,TState__TimestampedStateTable__Equals(ByRef<::GlobalNamespace::____GlobalNamespace__StateBuffer_3__TimestampedStateTable<::GlobalNamespace::StandardScoreSyncState,::System::Int32Enum,int32_t>> other) ;
+ bool IEquatableByReference_StateBuffer_TStateTable,TType,TState__TimestampedStateTable__Equals(ByRef<GlobalNamespace::GlobalNamespace__StateBuffer_3__TimestampedStateTable<GlobalNamespace::StandardScoreSyncState,System::Int32Enum,int32_t>> other) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -276,56 +275,56 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12922)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12922), inst: 4981 })
 // CS Name: StateBuffer`3::InterpolationDelegate
-class CORDL_TYPE ____GlobalNamespace__StateBuffer_3__InterpolationDelegate<::GlobalNamespace::NodePoseSyncState,::System::Int32Enum,::GlobalNamespace::PoseSerializable> : public ::System::MulticastDelegate {
+class CORDL_TYPE GlobalNamespace__StateBuffer_3__InterpolationDelegate<GlobalNamespace::NodePoseSyncState,System::Int32Enum,GlobalNamespace::PoseSerializable> : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x80};
 
-virtual ~____GlobalNamespace__StateBuffer_3__InterpolationDelegate() = default;
+virtual ~GlobalNamespace__StateBuffer_3__InterpolationDelegate() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__StateBuffer_3__InterpolationDelegate", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__StateBuffer_3__InterpolationDelegate(____GlobalNamespace__StateBuffer_3__InterpolationDelegate const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__StateBuffer_3__InterpolationDelegate", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__StateBuffer_3__InterpolationDelegate(GlobalNamespace__StateBuffer_3__InterpolationDelegate const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__StateBuffer_3__InterpolationDelegate", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__StateBuffer_3__InterpolationDelegate(____GlobalNamespace__StateBuffer_3__InterpolationDelegate&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__StateBuffer_3__InterpolationDelegate", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__StateBuffer_3__InterpolationDelegate(GlobalNamespace__StateBuffer_3__InterpolationDelegate&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__StateBuffer_3__InterpolationDelegate(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit GlobalNamespace__StateBuffer_3__InterpolationDelegate(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__StateBuffer_3__InterpolationDelegate& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__StateBuffer_3__InterpolationDelegate& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__StateBuffer_3__InterpolationDelegate& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__StateBuffer_3__InterpolationDelegate& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__StateBuffer_3__InterpolationDelegate& operator=(____GlobalNamespace__StateBuffer_3__InterpolationDelegate&& o) noexcept = default;
-  constexpr ____GlobalNamespace__StateBuffer_3__InterpolationDelegate& operator=(____GlobalNamespace__StateBuffer_3__InterpolationDelegate const& o) noexcept = default;
+  constexpr GlobalNamespace__StateBuffer_3__InterpolationDelegate& operator=(GlobalNamespace__StateBuffer_3__InterpolationDelegate&& o) noexcept = default;
+  constexpr GlobalNamespace__StateBuffer_3__InterpolationDelegate& operator=(GlobalNamespace__StateBuffer_3__InterpolationDelegate const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__StateBuffer_3__InterpolationDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+explicit GlobalNamespace__StateBuffer_3__InterpolationDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::PoseSerializable Invoke(::GlobalNamespace::PoseSerializable a, float_t timeA, ::GlobalNamespace::PoseSerializable b, float_t timeB, float_t time) ;
+ GlobalNamespace::PoseSerializable Invoke(GlobalNamespace::PoseSerializable a, float_t timeA, GlobalNamespace::PoseSerializable b, float_t timeB, float_t time) ;
 
 /// @brief Method BeginInvoke addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::IAsyncResult BeginInvoke(::GlobalNamespace::PoseSerializable a, float_t timeA, ::GlobalNamespace::PoseSerializable b, float_t timeB, float_t time, ::System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
+ System::IAsyncResult BeginInvoke(GlobalNamespace::PoseSerializable a, float_t timeA, GlobalNamespace::PoseSerializable b, float_t timeB, float_t time, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
 
 /// @brief Method EndInvoke addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::PoseSerializable EndInvoke(::System::IAsyncResult result) ;
+ GlobalNamespace::PoseSerializable EndInvoke(System::IAsyncResult result) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -339,44 +338,44 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12922)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12922), inst: 4982 })
 // CS Name: StateBuffer`3::InterpolationDelegate
-class CORDL_TYPE ____GlobalNamespace__StateBuffer_3__InterpolationDelegate<::GlobalNamespace::StandardScoreSyncState,::System::Int32Enum,int32_t> : public ::System::MulticastDelegate {
+class CORDL_TYPE GlobalNamespace__StateBuffer_3__InterpolationDelegate<GlobalNamespace::StandardScoreSyncState,System::Int32Enum,int32_t> : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x80};
 
-virtual ~____GlobalNamespace__StateBuffer_3__InterpolationDelegate() = default;
+virtual ~GlobalNamespace__StateBuffer_3__InterpolationDelegate() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__StateBuffer_3__InterpolationDelegate", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__StateBuffer_3__InterpolationDelegate(____GlobalNamespace__StateBuffer_3__InterpolationDelegate const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__StateBuffer_3__InterpolationDelegate", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__StateBuffer_3__InterpolationDelegate(GlobalNamespace__StateBuffer_3__InterpolationDelegate const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__StateBuffer_3__InterpolationDelegate", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__StateBuffer_3__InterpolationDelegate(____GlobalNamespace__StateBuffer_3__InterpolationDelegate&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__StateBuffer_3__InterpolationDelegate", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__StateBuffer_3__InterpolationDelegate(GlobalNamespace__StateBuffer_3__InterpolationDelegate&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__StateBuffer_3__InterpolationDelegate(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit GlobalNamespace__StateBuffer_3__InterpolationDelegate(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__StateBuffer_3__InterpolationDelegate& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__StateBuffer_3__InterpolationDelegate& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__StateBuffer_3__InterpolationDelegate& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__StateBuffer_3__InterpolationDelegate& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__StateBuffer_3__InterpolationDelegate& operator=(____GlobalNamespace__StateBuffer_3__InterpolationDelegate&& o) noexcept = default;
-  constexpr ____GlobalNamespace__StateBuffer_3__InterpolationDelegate& operator=(____GlobalNamespace__StateBuffer_3__InterpolationDelegate const& o) noexcept = default;
+  constexpr GlobalNamespace__StateBuffer_3__InterpolationDelegate& operator=(GlobalNamespace__StateBuffer_3__InterpolationDelegate&& o) noexcept = default;
+  constexpr GlobalNamespace__StateBuffer_3__InterpolationDelegate& operator=(GlobalNamespace__StateBuffer_3__InterpolationDelegate const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__StateBuffer_3__InterpolationDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+explicit GlobalNamespace__StateBuffer_3__InterpolationDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -385,10 +384,10 @@ explicit ____GlobalNamespace__StateBuffer_3__InterpolationDelegate(::bs_hook::Il
  int32_t Invoke(int32_t a, float_t timeA, int32_t b, float_t timeB, float_t time) ;
 
 /// @brief Method BeginInvoke addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::IAsyncResult BeginInvoke(int32_t a, float_t timeA, int32_t b, float_t timeB, float_t time, ::System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
+ System::IAsyncResult BeginInvoke(int32_t a, float_t timeA, int32_t b, float_t timeB, float_t time, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
 
 /// @brief Method EndInvoke addr 0x0 size 0xffffffffffffffff virtual true final false
- int32_t EndInvoke(::System::IAsyncResult result) ;
+ int32_t EndInvoke(System::IAsyncResult result) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -402,56 +401,56 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12923)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12923), inst: 4981 })
 // CS Name: StateBuffer`3::SmoothingDelegate
-class CORDL_TYPE ____GlobalNamespace__StateBuffer_3__SmoothingDelegate<::GlobalNamespace::NodePoseSyncState,::System::Int32Enum,::GlobalNamespace::PoseSerializable> : public ::System::MulticastDelegate {
+class CORDL_TYPE GlobalNamespace__StateBuffer_3__SmoothingDelegate<GlobalNamespace::NodePoseSyncState,System::Int32Enum,GlobalNamespace::PoseSerializable> : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x80};
 
-virtual ~____GlobalNamespace__StateBuffer_3__SmoothingDelegate() = default;
+virtual ~GlobalNamespace__StateBuffer_3__SmoothingDelegate() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__StateBuffer_3__SmoothingDelegate", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__StateBuffer_3__SmoothingDelegate(____GlobalNamespace__StateBuffer_3__SmoothingDelegate const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__StateBuffer_3__SmoothingDelegate", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__StateBuffer_3__SmoothingDelegate(GlobalNamespace__StateBuffer_3__SmoothingDelegate const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__StateBuffer_3__SmoothingDelegate", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__StateBuffer_3__SmoothingDelegate(____GlobalNamespace__StateBuffer_3__SmoothingDelegate&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__StateBuffer_3__SmoothingDelegate", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__StateBuffer_3__SmoothingDelegate(GlobalNamespace__StateBuffer_3__SmoothingDelegate&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__StateBuffer_3__SmoothingDelegate(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit GlobalNamespace__StateBuffer_3__SmoothingDelegate(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__StateBuffer_3__SmoothingDelegate& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__StateBuffer_3__SmoothingDelegate& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__StateBuffer_3__SmoothingDelegate& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__StateBuffer_3__SmoothingDelegate& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__StateBuffer_3__SmoothingDelegate& operator=(____GlobalNamespace__StateBuffer_3__SmoothingDelegate&& o) noexcept = default;
-  constexpr ____GlobalNamespace__StateBuffer_3__SmoothingDelegate& operator=(____GlobalNamespace__StateBuffer_3__SmoothingDelegate const& o) noexcept = default;
+  constexpr GlobalNamespace__StateBuffer_3__SmoothingDelegate& operator=(GlobalNamespace__StateBuffer_3__SmoothingDelegate&& o) noexcept = default;
+  constexpr GlobalNamespace__StateBuffer_3__SmoothingDelegate& operator=(GlobalNamespace__StateBuffer_3__SmoothingDelegate const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__StateBuffer_3__SmoothingDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+explicit GlobalNamespace__StateBuffer_3__SmoothingDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::PoseSerializable Invoke(::GlobalNamespace::PoseSerializable a, ::GlobalNamespace::PoseSerializable b, float_t smooth) ;
+ GlobalNamespace::PoseSerializable Invoke(GlobalNamespace::PoseSerializable a, GlobalNamespace::PoseSerializable b, float_t smooth) ;
 
 /// @brief Method BeginInvoke addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::IAsyncResult BeginInvoke(::GlobalNamespace::PoseSerializable a, ::GlobalNamespace::PoseSerializable b, float_t smooth, ::System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
+ System::IAsyncResult BeginInvoke(GlobalNamespace::PoseSerializable a, GlobalNamespace::PoseSerializable b, float_t smooth, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
 
 /// @brief Method EndInvoke addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::PoseSerializable EndInvoke(::System::IAsyncResult result) ;
+ GlobalNamespace::PoseSerializable EndInvoke(System::IAsyncResult result) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -465,44 +464,44 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12923)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12923), inst: 4982 })
 // CS Name: StateBuffer`3::SmoothingDelegate
-class CORDL_TYPE ____GlobalNamespace__StateBuffer_3__SmoothingDelegate<::GlobalNamespace::StandardScoreSyncState,::System::Int32Enum,int32_t> : public ::System::MulticastDelegate {
+class CORDL_TYPE GlobalNamespace__StateBuffer_3__SmoothingDelegate<GlobalNamespace::StandardScoreSyncState,System::Int32Enum,int32_t> : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x80};
 
-virtual ~____GlobalNamespace__StateBuffer_3__SmoothingDelegate() = default;
+virtual ~GlobalNamespace__StateBuffer_3__SmoothingDelegate() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__StateBuffer_3__SmoothingDelegate", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__StateBuffer_3__SmoothingDelegate(____GlobalNamespace__StateBuffer_3__SmoothingDelegate const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__StateBuffer_3__SmoothingDelegate", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__StateBuffer_3__SmoothingDelegate(GlobalNamespace__StateBuffer_3__SmoothingDelegate const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__StateBuffer_3__SmoothingDelegate", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__StateBuffer_3__SmoothingDelegate(____GlobalNamespace__StateBuffer_3__SmoothingDelegate&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__StateBuffer_3__SmoothingDelegate", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__StateBuffer_3__SmoothingDelegate(GlobalNamespace__StateBuffer_3__SmoothingDelegate&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__StateBuffer_3__SmoothingDelegate(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit GlobalNamespace__StateBuffer_3__SmoothingDelegate(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__StateBuffer_3__SmoothingDelegate& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__StateBuffer_3__SmoothingDelegate& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__StateBuffer_3__SmoothingDelegate& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__StateBuffer_3__SmoothingDelegate& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__StateBuffer_3__SmoothingDelegate& operator=(____GlobalNamespace__StateBuffer_3__SmoothingDelegate&& o) noexcept = default;
-  constexpr ____GlobalNamespace__StateBuffer_3__SmoothingDelegate& operator=(____GlobalNamespace__StateBuffer_3__SmoothingDelegate const& o) noexcept = default;
+  constexpr GlobalNamespace__StateBuffer_3__SmoothingDelegate& operator=(GlobalNamespace__StateBuffer_3__SmoothingDelegate&& o) noexcept = default;
+  constexpr GlobalNamespace__StateBuffer_3__SmoothingDelegate& operator=(GlobalNamespace__StateBuffer_3__SmoothingDelegate const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__StateBuffer_3__SmoothingDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+explicit GlobalNamespace__StateBuffer_3__SmoothingDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -511,10 +510,10 @@ explicit ____GlobalNamespace__StateBuffer_3__SmoothingDelegate(::bs_hook::Il2Cpp
  int32_t Invoke(int32_t a, int32_t b, float_t smooth) ;
 
 /// @brief Method BeginInvoke addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::IAsyncResult BeginInvoke(int32_t a, int32_t b, float_t smooth, ::System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
+ System::IAsyncResult BeginInvoke(int32_t a, int32_t b, float_t smooth, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
 
 /// @brief Method EndInvoke addr 0x0 size 0xffffffffffffffff virtual true final false
- int32_t EndInvoke(::System::IAsyncResult result) ;
+ int32_t EndInvoke(System::IAsyncResult result) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -528,14 +527,14 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12924))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12924), inst: 4981 })
 // CS Name: StateBuffer`3
-class CORDL_TYPE StateBuffer_3<::GlobalNamespace::NodePoseSyncState,::System::Int32Enum,::GlobalNamespace::PoseSerializable> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE StateBuffer_3<GlobalNamespace::NodePoseSyncState,System::Int32Enum,GlobalNamespace::PoseSerializable> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using SmoothingDelegate = ::GlobalNamespace::____GlobalNamespace__StateBuffer_3__SmoothingDelegate<::GlobalNamespace::NodePoseSyncState, ::System::Int32Enum, ::GlobalNamespace::PoseSerializable>;
+using SmoothingDelegate = GlobalNamespace::GlobalNamespace__StateBuffer_3__SmoothingDelegate<GlobalNamespace::NodePoseSyncState, System::Int32Enum, GlobalNamespace::PoseSerializable>;
 
-using InterpolationDelegate = ::GlobalNamespace::____GlobalNamespace__StateBuffer_3__InterpolationDelegate<::GlobalNamespace::NodePoseSyncState, ::System::Int32Enum, ::GlobalNamespace::PoseSerializable>;
+using InterpolationDelegate = GlobalNamespace::GlobalNamespace__StateBuffer_3__InterpolationDelegate<GlobalNamespace::NodePoseSyncState, System::Int32Enum, GlobalNamespace::PoseSerializable>;
 
-using TimestampedStateTable = ::GlobalNamespace::____GlobalNamespace__StateBuffer_3__TimestampedStateTable<::GlobalNamespace::NodePoseSyncState, ::System::Int32Enum, ::GlobalNamespace::PoseSerializable>;
+using TimestampedStateTable = GlobalNamespace::GlobalNamespace__StateBuffer_3__TimestampedStateTable<GlobalNamespace::NodePoseSyncState, System::Int32Enum, GlobalNamespace::PoseSerializable>;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -576,44 +575,44 @@ constexpr void __set__currentIndex(int32_t value) ;
 
 constexpr int32_t __get__currentIndex() const;
 
- ::ArrayW<::GlobalNamespace::____GlobalNamespace__StateBuffer_3__TimestampedStateTable<::GlobalNamespace::NodePoseSyncState,::System::Int32Enum,::GlobalNamespace::PoseSerializable>> __declspec(property(get=__get__buffer, put=__set__buffer))  _buffer;
+ ::ArrayW<GlobalNamespace::GlobalNamespace__StateBuffer_3__TimestampedStateTable<GlobalNamespace::NodePoseSyncState,System::Int32Enum,GlobalNamespace::PoseSerializable>> __declspec(property(get=__get__buffer, put=__set__buffer))  _buffer;
 
-constexpr void __set__buffer(::ArrayW<::GlobalNamespace::____GlobalNamespace__StateBuffer_3__TimestampedStateTable<::GlobalNamespace::NodePoseSyncState,::System::Int32Enum,::GlobalNamespace::PoseSerializable>> value) ;
+constexpr void __set__buffer(::ArrayW<GlobalNamespace::GlobalNamespace__StateBuffer_3__TimestampedStateTable<GlobalNamespace::NodePoseSyncState,System::Int32Enum,GlobalNamespace::PoseSerializable>> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::____GlobalNamespace__StateBuffer_3__TimestampedStateTable<::GlobalNamespace::NodePoseSyncState,::System::Int32Enum,::GlobalNamespace::PoseSerializable>> __get__buffer() const;
+constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__StateBuffer_3__TimestampedStateTable<GlobalNamespace::NodePoseSyncState,System::Int32Enum,GlobalNamespace::PoseSerializable>> __get__buffer() const;
 
- ::GlobalNamespace::____GlobalNamespace__StateBuffer_3__InterpolationDelegate<::GlobalNamespace::NodePoseSyncState,::System::Int32Enum,::GlobalNamespace::PoseSerializable> __declspec(property(get=__get__interpolator, put=__set__interpolator))  _interpolator;
+ GlobalNamespace::GlobalNamespace__StateBuffer_3__InterpolationDelegate<GlobalNamespace::NodePoseSyncState,System::Int32Enum,GlobalNamespace::PoseSerializable> __declspec(property(get=__get__interpolator, put=__set__interpolator))  _interpolator;
 
-constexpr void __set__interpolator(::GlobalNamespace::____GlobalNamespace__StateBuffer_3__InterpolationDelegate<::GlobalNamespace::NodePoseSyncState,::System::Int32Enum,::GlobalNamespace::PoseSerializable> value) ;
+constexpr void __set__interpolator(GlobalNamespace::GlobalNamespace__StateBuffer_3__InterpolationDelegate<GlobalNamespace::NodePoseSyncState,System::Int32Enum,GlobalNamespace::PoseSerializable> value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__StateBuffer_3__InterpolationDelegate<::GlobalNamespace::NodePoseSyncState,::System::Int32Enum,::GlobalNamespace::PoseSerializable> __get__interpolator() const;
+constexpr GlobalNamespace::GlobalNamespace__StateBuffer_3__InterpolationDelegate<GlobalNamespace::NodePoseSyncState,System::Int32Enum,GlobalNamespace::PoseSerializable> __get__interpolator() const;
 
- ::GlobalNamespace::____GlobalNamespace__StateBuffer_3__SmoothingDelegate<::GlobalNamespace::NodePoseSyncState,::System::Int32Enum,::GlobalNamespace::PoseSerializable> __declspec(property(get=__get__smoother, put=__set__smoother))  _smoother;
+ GlobalNamespace::GlobalNamespace__StateBuffer_3__SmoothingDelegate<GlobalNamespace::NodePoseSyncState,System::Int32Enum,GlobalNamespace::PoseSerializable> __declspec(property(get=__get__smoother, put=__set__smoother))  _smoother;
 
-constexpr void __set__smoother(::GlobalNamespace::____GlobalNamespace__StateBuffer_3__SmoothingDelegate<::GlobalNamespace::NodePoseSyncState,::System::Int32Enum,::GlobalNamespace::PoseSerializable> value) ;
+constexpr void __set__smoother(GlobalNamespace::GlobalNamespace__StateBuffer_3__SmoothingDelegate<GlobalNamespace::NodePoseSyncState,System::Int32Enum,GlobalNamespace::PoseSerializable> value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__StateBuffer_3__SmoothingDelegate<::GlobalNamespace::NodePoseSyncState,::System::Int32Enum,::GlobalNamespace::PoseSerializable> __get__smoother() const;
+constexpr GlobalNamespace::GlobalNamespace__StateBuffer_3__SmoothingDelegate<GlobalNamespace::NodePoseSyncState,System::Int32Enum,GlobalNamespace::PoseSerializable> __get__smoother() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "interpolator", ty: "::GlobalNamespace::____GlobalNamespace__StateBuffer_3__InterpolationDelegate<::GlobalNamespace::NodePoseSyncState,::System::Int32Enum,::GlobalNamespace::PoseSerializable>", modifiers: "", def_value: None }, CppParam { name: "smoother", ty: "::GlobalNamespace::____GlobalNamespace__StateBuffer_3__SmoothingDelegate<::GlobalNamespace::NodePoseSyncState,::System::Int32Enum,::GlobalNamespace::PoseSerializable>", modifiers: "", def_value: None }]
-explicit StateBuffer_3(int32_t size, ::GlobalNamespace::____GlobalNamespace__StateBuffer_3__InterpolationDelegate<::GlobalNamespace::NodePoseSyncState,::System::Int32Enum,::GlobalNamespace::PoseSerializable> interpolator, ::GlobalNamespace::____GlobalNamespace__StateBuffer_3__SmoothingDelegate<::GlobalNamespace::NodePoseSyncState,::System::Int32Enum,::GlobalNamespace::PoseSerializable> smoother) ;
+// Ctor Parameters [CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "interpolator", ty: "GlobalNamespace::GlobalNamespace__StateBuffer_3__InterpolationDelegate<GlobalNamespace::NodePoseSyncState,System::Int32Enum,GlobalNamespace::PoseSerializable>", modifiers: "", def_value: None }, CppParam { name: "smoother", ty: "GlobalNamespace::GlobalNamespace__StateBuffer_3__SmoothingDelegate<GlobalNamespace::NodePoseSyncState,System::Int32Enum,GlobalNamespace::PoseSerializable>", modifiers: "", def_value: None }]
+explicit StateBuffer_3(int32_t size, GlobalNamespace::GlobalNamespace__StateBuffer_3__InterpolationDelegate<GlobalNamespace::NodePoseSyncState,System::Int32Enum,GlobalNamespace::PoseSerializable> interpolator, GlobalNamespace::GlobalNamespace__StateBuffer_3__SmoothingDelegate<GlobalNamespace::NodePoseSyncState,System::Int32Enum,GlobalNamespace::PoseSerializable> smoother) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(int32_t size, ::GlobalNamespace::____GlobalNamespace__StateBuffer_3__InterpolationDelegate<::GlobalNamespace::NodePoseSyncState,::System::Int32Enum,::GlobalNamespace::PoseSerializable> interpolator, ::GlobalNamespace::____GlobalNamespace__StateBuffer_3__SmoothingDelegate<::GlobalNamespace::NodePoseSyncState,::System::Int32Enum,::GlobalNamespace::PoseSerializable> smoother) ;
+ void _ctor(int32_t size, GlobalNamespace::GlobalNamespace__StateBuffer_3__InterpolationDelegate<GlobalNamespace::NodePoseSyncState,System::Int32Enum,GlobalNamespace::PoseSerializable> interpolator, GlobalNamespace::GlobalNamespace__StateBuffer_3__SmoothingDelegate<GlobalNamespace::NodePoseSyncState,System::Int32Enum,GlobalNamespace::PoseSerializable> smoother) ;
 
 /// @brief Method GetPreviousIndex addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t GetPreviousIndex(int32_t offset) ;
 
 /// @brief Method InsertState addr 0x0 size 0xffffffffffffffff virtual false final false
- void InsertState(ByRef<::GlobalNamespace::NodePoseSyncState> state, float_t time) ;
+ void InsertState(ByRef<GlobalNamespace::NodePoseSyncState> state, float_t time) ;
 
 /// @brief Method GetState addr 0x0 size 0xffffffffffffffff virtual false final false
- ::GlobalNamespace::PoseSerializable GetState(::System::Int32Enum type, float_t time) ;
+ GlobalNamespace::PoseSerializable GetState(System::Int32Enum type, float_t time) ;
 
 /// @brief Method GetLatestState addr 0x0 size 0xffffffffffffffff virtual false final false
- ::GlobalNamespace::PoseSerializable GetLatestState(::System::Int32Enum type) ;
+ GlobalNamespace::PoseSerializable GetLatestState(System::Int32Enum type) ;
 
 /// @brief Method GetLatestTime addr 0x0 size 0xffffffffffffffff virtual false final false
  float_t GetLatestTime() ;
@@ -633,14 +632,14 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12924))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12924), inst: 4982 })
 // CS Name: StateBuffer`3
-class CORDL_TYPE StateBuffer_3<::GlobalNamespace::StandardScoreSyncState,::System::Int32Enum,int32_t> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE StateBuffer_3<GlobalNamespace::StandardScoreSyncState,System::Int32Enum,int32_t> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using SmoothingDelegate = ::GlobalNamespace::____GlobalNamespace__StateBuffer_3__SmoothingDelegate<::GlobalNamespace::StandardScoreSyncState, ::System::Int32Enum, int32_t>;
+using SmoothingDelegate = GlobalNamespace::GlobalNamespace__StateBuffer_3__SmoothingDelegate<GlobalNamespace::StandardScoreSyncState, System::Int32Enum, int32_t>;
 
-using InterpolationDelegate = ::GlobalNamespace::____GlobalNamespace__StateBuffer_3__InterpolationDelegate<::GlobalNamespace::StandardScoreSyncState, ::System::Int32Enum, int32_t>;
+using InterpolationDelegate = GlobalNamespace::GlobalNamespace__StateBuffer_3__InterpolationDelegate<GlobalNamespace::StandardScoreSyncState, System::Int32Enum, int32_t>;
 
-using TimestampedStateTable = ::GlobalNamespace::____GlobalNamespace__StateBuffer_3__TimestampedStateTable<::GlobalNamespace::StandardScoreSyncState, ::System::Int32Enum, int32_t>;
+using TimestampedStateTable = GlobalNamespace::GlobalNamespace__StateBuffer_3__TimestampedStateTable<GlobalNamespace::StandardScoreSyncState, System::Int32Enum, int32_t>;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -681,44 +680,44 @@ constexpr void __set__currentIndex(int32_t value) ;
 
 constexpr int32_t __get__currentIndex() const;
 
- ::ArrayW<::GlobalNamespace::____GlobalNamespace__StateBuffer_3__TimestampedStateTable<::GlobalNamespace::StandardScoreSyncState,::System::Int32Enum,int32_t>> __declspec(property(get=__get__buffer, put=__set__buffer))  _buffer;
+ ::ArrayW<GlobalNamespace::GlobalNamespace__StateBuffer_3__TimestampedStateTable<GlobalNamespace::StandardScoreSyncState,System::Int32Enum,int32_t>> __declspec(property(get=__get__buffer, put=__set__buffer))  _buffer;
 
-constexpr void __set__buffer(::ArrayW<::GlobalNamespace::____GlobalNamespace__StateBuffer_3__TimestampedStateTable<::GlobalNamespace::StandardScoreSyncState,::System::Int32Enum,int32_t>> value) ;
+constexpr void __set__buffer(::ArrayW<GlobalNamespace::GlobalNamespace__StateBuffer_3__TimestampedStateTable<GlobalNamespace::StandardScoreSyncState,System::Int32Enum,int32_t>> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::____GlobalNamespace__StateBuffer_3__TimestampedStateTable<::GlobalNamespace::StandardScoreSyncState,::System::Int32Enum,int32_t>> __get__buffer() const;
+constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__StateBuffer_3__TimestampedStateTable<GlobalNamespace::StandardScoreSyncState,System::Int32Enum,int32_t>> __get__buffer() const;
 
- ::GlobalNamespace::____GlobalNamespace__StateBuffer_3__InterpolationDelegate<::GlobalNamespace::StandardScoreSyncState,::System::Int32Enum,int32_t> __declspec(property(get=__get__interpolator, put=__set__interpolator))  _interpolator;
+ GlobalNamespace::GlobalNamespace__StateBuffer_3__InterpolationDelegate<GlobalNamespace::StandardScoreSyncState,System::Int32Enum,int32_t> __declspec(property(get=__get__interpolator, put=__set__interpolator))  _interpolator;
 
-constexpr void __set__interpolator(::GlobalNamespace::____GlobalNamespace__StateBuffer_3__InterpolationDelegate<::GlobalNamespace::StandardScoreSyncState,::System::Int32Enum,int32_t> value) ;
+constexpr void __set__interpolator(GlobalNamespace::GlobalNamespace__StateBuffer_3__InterpolationDelegate<GlobalNamespace::StandardScoreSyncState,System::Int32Enum,int32_t> value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__StateBuffer_3__InterpolationDelegate<::GlobalNamespace::StandardScoreSyncState,::System::Int32Enum,int32_t> __get__interpolator() const;
+constexpr GlobalNamespace::GlobalNamespace__StateBuffer_3__InterpolationDelegate<GlobalNamespace::StandardScoreSyncState,System::Int32Enum,int32_t> __get__interpolator() const;
 
- ::GlobalNamespace::____GlobalNamespace__StateBuffer_3__SmoothingDelegate<::GlobalNamespace::StandardScoreSyncState,::System::Int32Enum,int32_t> __declspec(property(get=__get__smoother, put=__set__smoother))  _smoother;
+ GlobalNamespace::GlobalNamespace__StateBuffer_3__SmoothingDelegate<GlobalNamespace::StandardScoreSyncState,System::Int32Enum,int32_t> __declspec(property(get=__get__smoother, put=__set__smoother))  _smoother;
 
-constexpr void __set__smoother(::GlobalNamespace::____GlobalNamespace__StateBuffer_3__SmoothingDelegate<::GlobalNamespace::StandardScoreSyncState,::System::Int32Enum,int32_t> value) ;
+constexpr void __set__smoother(GlobalNamespace::GlobalNamespace__StateBuffer_3__SmoothingDelegate<GlobalNamespace::StandardScoreSyncState,System::Int32Enum,int32_t> value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__StateBuffer_3__SmoothingDelegate<::GlobalNamespace::StandardScoreSyncState,::System::Int32Enum,int32_t> __get__smoother() const;
+constexpr GlobalNamespace::GlobalNamespace__StateBuffer_3__SmoothingDelegate<GlobalNamespace::StandardScoreSyncState,System::Int32Enum,int32_t> __get__smoother() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "interpolator", ty: "::GlobalNamespace::____GlobalNamespace__StateBuffer_3__InterpolationDelegate<::GlobalNamespace::StandardScoreSyncState,::System::Int32Enum,int32_t>", modifiers: "", def_value: None }, CppParam { name: "smoother", ty: "::GlobalNamespace::____GlobalNamespace__StateBuffer_3__SmoothingDelegate<::GlobalNamespace::StandardScoreSyncState,::System::Int32Enum,int32_t>", modifiers: "", def_value: None }]
-explicit StateBuffer_3(int32_t size, ::GlobalNamespace::____GlobalNamespace__StateBuffer_3__InterpolationDelegate<::GlobalNamespace::StandardScoreSyncState,::System::Int32Enum,int32_t> interpolator, ::GlobalNamespace::____GlobalNamespace__StateBuffer_3__SmoothingDelegate<::GlobalNamespace::StandardScoreSyncState,::System::Int32Enum,int32_t> smoother) ;
+// Ctor Parameters [CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "interpolator", ty: "GlobalNamespace::GlobalNamespace__StateBuffer_3__InterpolationDelegate<GlobalNamespace::StandardScoreSyncState,System::Int32Enum,int32_t>", modifiers: "", def_value: None }, CppParam { name: "smoother", ty: "GlobalNamespace::GlobalNamespace__StateBuffer_3__SmoothingDelegate<GlobalNamespace::StandardScoreSyncState,System::Int32Enum,int32_t>", modifiers: "", def_value: None }]
+explicit StateBuffer_3(int32_t size, GlobalNamespace::GlobalNamespace__StateBuffer_3__InterpolationDelegate<GlobalNamespace::StandardScoreSyncState,System::Int32Enum,int32_t> interpolator, GlobalNamespace::GlobalNamespace__StateBuffer_3__SmoothingDelegate<GlobalNamespace::StandardScoreSyncState,System::Int32Enum,int32_t> smoother) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(int32_t size, ::GlobalNamespace::____GlobalNamespace__StateBuffer_3__InterpolationDelegate<::GlobalNamespace::StandardScoreSyncState,::System::Int32Enum,int32_t> interpolator, ::GlobalNamespace::____GlobalNamespace__StateBuffer_3__SmoothingDelegate<::GlobalNamespace::StandardScoreSyncState,::System::Int32Enum,int32_t> smoother) ;
+ void _ctor(int32_t size, GlobalNamespace::GlobalNamespace__StateBuffer_3__InterpolationDelegate<GlobalNamespace::StandardScoreSyncState,System::Int32Enum,int32_t> interpolator, GlobalNamespace::GlobalNamespace__StateBuffer_3__SmoothingDelegate<GlobalNamespace::StandardScoreSyncState,System::Int32Enum,int32_t> smoother) ;
 
 /// @brief Method GetPreviousIndex addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t GetPreviousIndex(int32_t offset) ;
 
 /// @brief Method InsertState addr 0x0 size 0xffffffffffffffff virtual false final false
- void InsertState(ByRef<::GlobalNamespace::StandardScoreSyncState> state, float_t time) ;
+ void InsertState(ByRef<GlobalNamespace::StandardScoreSyncState> state, float_t time) ;
 
 /// @brief Method GetState addr 0x0 size 0xffffffffffffffff virtual false final false
- int32_t GetState(::System::Int32Enum type, float_t time) ;
+ int32_t GetState(System::Int32Enum type, float_t time) ;
 
 /// @brief Method GetLatestState addr 0x0 size 0xffffffffffffffff virtual false final false
- int32_t GetLatestState(::System::Int32Enum type) ;
+ int32_t GetLatestState(System::Int32Enum type) ;
 
 /// @brief Method GetLatestTime addr 0x0 size 0xffffffffffffffff virtual false final false
  float_t GetLatestTime() ;
@@ -730,8 +729,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::StateBuffer_3, "", "StateBuffer`3");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::____GlobalNamespace__StateBuffer_3__InterpolationDelegate, "", "StateBuffer`3/InterpolationDelegate");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::____GlobalNamespace__StateBuffer_3__SmoothingDelegate, "", "StateBuffer`3/SmoothingDelegate");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::GlobalNamespace::____GlobalNamespace__StateBuffer_3__TimestampedStateTable, "", "StateBuffer`3/TimestampedStateTable");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::GlobalNamespace__StateBuffer_3__InterpolationDelegate, "", "StateBuffer`3/InterpolationDelegate");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::GlobalNamespace__StateBuffer_3__SmoothingDelegate, "", "StateBuffer`3/SmoothingDelegate");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::StateBuffer_3, "", "StateBuffer`3");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(GlobalNamespace::GlobalNamespace__StateBuffer_3__TimestampedStateTable, "", "StateBuffer`3/TimestampedStateTable");

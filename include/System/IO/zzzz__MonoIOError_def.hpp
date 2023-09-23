@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::IO {
 struct MonoIOError;
@@ -92,89 +91,88 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field ERROR_SUCCESS offset 0
-static ::System::IO::MonoIOError const ERROR_SUCCESS;
+static System::IO::MonoIOError const ERROR_SUCCESS;
 
 /// @brief Field ERROR_FILE_NOT_FOUND offset 0
-static ::System::IO::MonoIOError const ERROR_FILE_NOT_FOUND;
+static System::IO::MonoIOError const ERROR_FILE_NOT_FOUND;
 
 /// @brief Field ERROR_PATH_NOT_FOUND offset 0
-static ::System::IO::MonoIOError const ERROR_PATH_NOT_FOUND;
+static System::IO::MonoIOError const ERROR_PATH_NOT_FOUND;
 
 /// @brief Field ERROR_TOO_MANY_OPEN_FILES offset 0
-static ::System::IO::MonoIOError const ERROR_TOO_MANY_OPEN_FILES;
+static System::IO::MonoIOError const ERROR_TOO_MANY_OPEN_FILES;
 
 /// @brief Field ERROR_ACCESS_DENIED offset 0
-static ::System::IO::MonoIOError const ERROR_ACCESS_DENIED;
+static System::IO::MonoIOError const ERROR_ACCESS_DENIED;
 
 /// @brief Field ERROR_INVALID_HANDLE offset 0
-static ::System::IO::MonoIOError const ERROR_INVALID_HANDLE;
+static System::IO::MonoIOError const ERROR_INVALID_HANDLE;
 
 /// @brief Field ERROR_INVALID_DRIVE offset 0
-static ::System::IO::MonoIOError const ERROR_INVALID_DRIVE;
+static System::IO::MonoIOError const ERROR_INVALID_DRIVE;
 
 /// @brief Field ERROR_NOT_SAME_DEVICE offset 0
-static ::System::IO::MonoIOError const ERROR_NOT_SAME_DEVICE;
+static System::IO::MonoIOError const ERROR_NOT_SAME_DEVICE;
 
 /// @brief Field ERROR_NO_MORE_FILES offset 0
-static ::System::IO::MonoIOError const ERROR_NO_MORE_FILES;
+static System::IO::MonoIOError const ERROR_NO_MORE_FILES;
 
 /// @brief Field ERROR_NOT_READY offset 0
-static ::System::IO::MonoIOError const ERROR_NOT_READY;
+static System::IO::MonoIOError const ERROR_NOT_READY;
 
 /// @brief Field ERROR_WRITE_FAULT offset 0
-static ::System::IO::MonoIOError const ERROR_WRITE_FAULT;
+static System::IO::MonoIOError const ERROR_WRITE_FAULT;
 
 /// @brief Field ERROR_READ_FAULT offset 0
-static ::System::IO::MonoIOError const ERROR_READ_FAULT;
+static System::IO::MonoIOError const ERROR_READ_FAULT;
 
 /// @brief Field ERROR_GEN_FAILURE offset 0
-static ::System::IO::MonoIOError const ERROR_GEN_FAILURE;
+static System::IO::MonoIOError const ERROR_GEN_FAILURE;
 
 /// @brief Field ERROR_SHARING_VIOLATION offset 0
-static ::System::IO::MonoIOError const ERROR_SHARING_VIOLATION;
+static System::IO::MonoIOError const ERROR_SHARING_VIOLATION;
 
 /// @brief Field ERROR_LOCK_VIOLATION offset 0
-static ::System::IO::MonoIOError const ERROR_LOCK_VIOLATION;
+static System::IO::MonoIOError const ERROR_LOCK_VIOLATION;
 
 /// @brief Field ERROR_HANDLE_DISK_FULL offset 0
-static ::System::IO::MonoIOError const ERROR_HANDLE_DISK_FULL;
+static System::IO::MonoIOError const ERROR_HANDLE_DISK_FULL;
 
 /// @brief Field ERROR_NOT_SUPPORTED offset 0
-static ::System::IO::MonoIOError const ERROR_NOT_SUPPORTED;
+static System::IO::MonoIOError const ERROR_NOT_SUPPORTED;
 
 /// @brief Field ERROR_FILE_EXISTS offset 0
-static ::System::IO::MonoIOError const ERROR_FILE_EXISTS;
+static System::IO::MonoIOError const ERROR_FILE_EXISTS;
 
 /// @brief Field ERROR_CANNOT_MAKE offset 0
-static ::System::IO::MonoIOError const ERROR_CANNOT_MAKE;
+static System::IO::MonoIOError const ERROR_CANNOT_MAKE;
 
 /// @brief Field ERROR_INVALID_PARAMETER offset 0
-static ::System::IO::MonoIOError const ERROR_INVALID_PARAMETER;
+static System::IO::MonoIOError const ERROR_INVALID_PARAMETER;
 
 /// @brief Field ERROR_BROKEN_PIPE offset 0
-static ::System::IO::MonoIOError const ERROR_BROKEN_PIPE;
+static System::IO::MonoIOError const ERROR_BROKEN_PIPE;
 
 /// @brief Field ERROR_INVALID_NAME offset 0
-static ::System::IO::MonoIOError const ERROR_INVALID_NAME;
+static System::IO::MonoIOError const ERROR_INVALID_NAME;
 
 /// @brief Field ERROR_DIR_NOT_EMPTY offset 0
-static ::System::IO::MonoIOError const ERROR_DIR_NOT_EMPTY;
+static System::IO::MonoIOError const ERROR_DIR_NOT_EMPTY;
 
 /// @brief Field ERROR_ALREADY_EXISTS offset 0
-static ::System::IO::MonoIOError const ERROR_ALREADY_EXISTS;
+static System::IO::MonoIOError const ERROR_ALREADY_EXISTS;
 
 /// @brief Field ERROR_FILENAME_EXCED_RANGE offset 0
-static ::System::IO::MonoIOError const ERROR_FILENAME_EXCED_RANGE;
+static System::IO::MonoIOError const ERROR_FILENAME_EXCED_RANGE;
 
 /// @brief Field ERROR_DIRECTORY offset 0
-static ::System::IO::MonoIOError const ERROR_DIRECTORY;
+static System::IO::MonoIOError const ERROR_DIRECTORY;
 
 /// @brief Field ERROR_ENCRYPTION_FAILED offset 0
-static ::System::IO::MonoIOError const ERROR_ENCRYPTION_FAILED;
+static System::IO::MonoIOError const ERROR_ENCRYPTION_FAILED;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::IO
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::MonoIOError, "System.IO", "MonoIOError");
+DEFINE_IL2CPP_ARG_TYPE(System::IO::MonoIOError, "System.IO", "MonoIOError");

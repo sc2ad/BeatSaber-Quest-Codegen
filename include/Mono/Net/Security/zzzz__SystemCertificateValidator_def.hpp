@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Security::Cryptography::X509Certificates {
 struct X509KeyUsageFlags;
 }
@@ -60,22 +59,21 @@ static void __set_is_macosx(bool value) ;
 
 static bool __get_is_macosx() ;
 
-static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags __declspec(property(get=__get_s_flags, put=__set_s_flags))  s_flags;
+static System::Security::Cryptography::X509Certificates::X509KeyUsageFlags __declspec(property(get=__get_s_flags, put=__set_s_flags))  s_flags;
 
-static void __set_s_flags(::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags value) ;
+static void __set_s_flags(System::Security::Cryptography::X509Certificates::X509KeyUsageFlags value) ;
 
-static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags __get_s_flags() ;
+static System::Security::Cryptography::X509Certificates::X509KeyUsageFlags __get_s_flags() ;
 
 
 // Methods
 
 /// @brief Method NeedsChain addr 0x268f364 size 0x8 virtual false final false
-static bool NeedsChain(::Mono::Security::Interface::MonoTlsSettings settings) ;
+static bool NeedsChain(Mono::Security::Interface::MonoTlsSettings settings) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Net::Security
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Net::Security::SystemCertificateValidator);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Net::Security::SystemCertificateValidator, "Mono.Net.Security", "SystemCertificateValidator");
+NEED_NO_BOX(Mono::Net::Security::SystemCertificateValidator);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::SystemCertificateValidator, "Mono.Net.Security", "SystemCertificateValidator");

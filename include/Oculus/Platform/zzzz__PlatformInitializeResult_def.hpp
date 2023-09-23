@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform {
 struct PlatformInitializeResult;
@@ -75,38 +74,37 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Success offset 0
-static ::Oculus::Platform::PlatformInitializeResult const Success;
+static Oculus::Platform::PlatformInitializeResult const Success;
 
 /// @brief Field Uninitialized offset 0
-static ::Oculus::Platform::PlatformInitializeResult const Uninitialized;
+static Oculus::Platform::PlatformInitializeResult const Uninitialized;
 
 /// @brief Field PreLoaded offset 0
-static ::Oculus::Platform::PlatformInitializeResult const PreLoaded;
+static Oculus::Platform::PlatformInitializeResult const PreLoaded;
 
 /// @brief Field FileInvalid offset 0
-static ::Oculus::Platform::PlatformInitializeResult const FileInvalid;
+static Oculus::Platform::PlatformInitializeResult const FileInvalid;
 
 /// @brief Field SignatureInvalid offset 0
-static ::Oculus::Platform::PlatformInitializeResult const SignatureInvalid;
+static Oculus::Platform::PlatformInitializeResult const SignatureInvalid;
 
 /// @brief Field UnableToVerify offset 0
-static ::Oculus::Platform::PlatformInitializeResult const UnableToVerify;
+static Oculus::Platform::PlatformInitializeResult const UnableToVerify;
 
 /// @brief Field VersionMismatch offset 0
-static ::Oculus::Platform::PlatformInitializeResult const VersionMismatch;
+static Oculus::Platform::PlatformInitializeResult const VersionMismatch;
 
 /// @brief Field Unknown offset 0
-static ::Oculus::Platform::PlatformInitializeResult const Unknown;
+static Oculus::Platform::PlatformInitializeResult const Unknown;
 
 /// @brief Field InvalidCredentials offset 0
-static ::Oculus::Platform::PlatformInitializeResult const InvalidCredentials;
+static Oculus::Platform::PlatformInitializeResult const InvalidCredentials;
 
 /// @brief Field NotEntitled offset 0
-static ::Oculus::Platform::PlatformInitializeResult const NotEntitled;
+static Oculus::Platform::PlatformInitializeResult const NotEntitled;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::PlatformInitializeResult, "Oculus.Platform", "PlatformInitializeResult");
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PlatformInitializeResult, "Oculus.Platform", "PlatformInitializeResult");

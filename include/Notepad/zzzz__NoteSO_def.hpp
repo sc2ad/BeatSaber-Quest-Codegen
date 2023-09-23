@@ -3,7 +3,6 @@
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace Notepad {
 struct NoteURL;
 }
@@ -17,7 +16,7 @@ namespace Notepad {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10151))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16093))
 // CS Name: Notepad.NoteSO
-class CORDL_TYPE NoteSO : public ::UnityEngine::ScriptableObject {
+class CORDL_TYPE NoteSO : public UnityEngine::ScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr NoteSO(NoteSO const& ) noexcept = default;
 constexpr NoteSO(NoteSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NoteSO(void* ptr) noexcept : ::UnityEngine::ScriptableObject(ptr) {
+constexpr explicit NoteSO(void* ptr) noexcept : UnityEngine::ScriptableObject(ptr) {
 }
 
 
@@ -65,11 +64,11 @@ constexpr void __set_content(::StringW value) ;
 
 constexpr ::StringW __get_content() const;
 
- ::ArrayW<::Notepad::NoteURL> __declspec(property(get=__get_urls, put=__set_urls))  urls;
+ ::ArrayW<Notepad::NoteURL> __declspec(property(get=__get_urls, put=__set_urls))  urls;
 
-constexpr void __set_urls(::ArrayW<::Notepad::NoteURL> value) ;
+constexpr void __set_urls(::ArrayW<Notepad::NoteURL> value) ;
 
-constexpr ::ArrayW<::Notepad::NoteURL> __get_urls() const;
+constexpr ::ArrayW<Notepad::NoteURL> __get_urls() const;
 
 
 // Methods
@@ -84,6 +83,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Notepad
-} // end anonymous namespace
-NEED_NO_BOX(::Notepad::NoteSO);
-DEFINE_IL2CPP_ARG_TYPE(::Notepad::NoteSO, "Notepad", "NoteSO");
+NEED_NO_BOX(Notepad::NoteSO);
+DEFINE_IL2CPP_ARG_TYPE(Notepad::NoteSO, "Notepad", "NoteSO");

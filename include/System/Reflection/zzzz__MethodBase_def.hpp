@@ -5,33 +5,32 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Reflection {
-struct BindingFlags;
-}
 namespace System::Reflection {
 struct MethodImplAttributes;
 }
-namespace System {
-class Type;
-}
 namespace System::Reflection {
-struct CallingConventions;
+class ParameterInfo;
+}
+namespace System {
+struct RuntimeMethodHandle;
 }
 namespace System::Reflection {
 struct MethodAttributes;
 }
 namespace System::Reflection {
-class ParameterInfo;
-}
-namespace System::Reflection {
-class Binder;
+struct CallingConventions;
 }
 namespace System::Globalization {
 class CultureInfo;
 }
 namespace System {
-struct RuntimeMethodHandle;
+class Type;
+}
+namespace System::Reflection {
+class Binder;
+}
+namespace System::Reflection {
+struct BindingFlags;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -43,7 +42,7 @@ namespace System::Reflection {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3466))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3469))
 // CS Name: System.Reflection.MethodBase
-class CORDL_TYPE MethodBase : public ::System::Reflection::MemberInfo {
+class CORDL_TYPE MethodBase : public System::Reflection::MemberInfo {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -58,7 +57,7 @@ constexpr MethodBase(MethodBase const& ) noexcept = default;
 constexpr MethodBase(MethodBase&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MethodBase(void* ptr) noexcept : ::System::Reflection::MemberInfo(ptr) {
+constexpr explicit MethodBase(void* ptr) noexcept : System::Reflection::MemberInfo(ptr) {
 }
 
 
@@ -79,9 +78,9 @@ constexpr explicit MethodBase(void* ptr) noexcept : ::System::Reflection::Member
 
 // Properties
 
- ::System::Reflection::MethodAttributes __declspec(property(get=get_Attributes))  Attributes;
+ System::Reflection::MethodAttributes __declspec(property(get=get_Attributes))  Attributes;
 
- ::System::Reflection::CallingConventions __declspec(property(get=get_CallingConvention))  CallingConvention;
+ System::Reflection::CallingConventions __declspec(property(get=get_CallingConvention))  CallingConvention;
 
  bool __declspec(property(get=get_IsAbstract))  IsAbstract;
 
@@ -99,7 +98,7 @@ constexpr explicit MethodBase(void* ptr) noexcept : ::System::Reflection::Member
 
  bool __declspec(property(get=get_ContainsGenericParameters))  ContainsGenericParameters;
 
- ::System::RuntimeMethodHandle __declspec(property(get=get_MethodHandle))  MethodHandle;
+ System::RuntimeMethodHandle __declspec(property(get=get_MethodHandle))  MethodHandle;
 
  bool __declspec(property(get=get_IsSecurityCritical))  IsSecurityCritical;
 
@@ -113,16 +112,16 @@ explicit MethodBase() ;
  void _ctor() ;
 
 /// @brief Method GetParameters addr 0x0 size 0xffffffffffffffff virtual true final false
- ::ArrayW<::System::Reflection::ParameterInfo> GetParameters() ;
+ ::ArrayW<System::Reflection::ParameterInfo> GetParameters() ;
 
 /// @brief Method get_Attributes addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Reflection::MethodAttributes get_Attributes() ;
+ System::Reflection::MethodAttributes get_Attributes() ;
 
 /// @brief Method GetMethodImplementationFlags addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Reflection::MethodImplAttributes GetMethodImplementationFlags() ;
+ System::Reflection::MethodImplAttributes GetMethodImplementationFlags() ;
 
 /// @brief Method get_CallingConvention addr 0x237ae18 size 0x8 virtual true final false
- ::System::Reflection::CallingConventions get_CallingConvention() ;
+ System::Reflection::CallingConventions get_CallingConvention() ;
 
 /// @brief Method get_IsAbstract addr 0x237ae20 size 0x20 virtual true final true
  bool get_IsAbstract() ;
@@ -146,7 +145,7 @@ explicit MethodBase() ;
  bool get_IsGenericMethodDefinition() ;
 
 /// @brief Method GetGenericArguments addr 0x237af5c size 0x50 virtual true final false
- ::ArrayW<::System::Type> GetGenericArguments() ;
+ ::ArrayW<System::Type> GetGenericArguments() ;
 
 /// @brief Method get_ContainsGenericParameters addr 0x237afac size 0x8 virtual true final false
  bool get_ContainsGenericParameters() ;
@@ -155,10 +154,10 @@ explicit MethodBase() ;
  ::bs_hook::Il2CppWrapperType Invoke(::bs_hook::Il2CppWrapperType obj, ::ArrayW<::bs_hook::Il2CppWrapperType> parameters) ;
 
 /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
- ::bs_hook::Il2CppWrapperType Invoke(::bs_hook::Il2CppWrapperType obj, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder binder, ::ArrayW<::bs_hook::Il2CppWrapperType> parameters, ::System::Globalization::CultureInfo culture) ;
+ ::bs_hook::Il2CppWrapperType Invoke(::bs_hook::Il2CppWrapperType obj, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder binder, ::ArrayW<::bs_hook::Il2CppWrapperType> parameters, System::Globalization::CultureInfo culture) ;
 
 /// @brief Method get_MethodHandle addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::RuntimeMethodHandle get_MethodHandle() ;
+ System::RuntimeMethodHandle get_MethodHandle() ;
 
 /// @brief Method get_IsSecurityCritical addr 0x237afd4 size 0x28 virtual true final false
  bool get_IsSecurityCritical() ;
@@ -170,13 +169,13 @@ explicit MethodBase() ;
  int32_t GetHashCode() ;
 
 /// @brief Method op_Equality addr 0x237abe4 size 0x1b4 virtual false final false
-static bool op_Equality(::System::Reflection::MethodBase left, ::System::Reflection::MethodBase right) ;
+static bool op_Equality(System::Reflection::MethodBase left, System::Reflection::MethodBase right) ;
 
 /// @brief Method op_Inequality addr 0x237abcc size 0x18 virtual false final false
-static bool op_Inequality(::System::Reflection::MethodBase left, ::System::Reflection::MethodBase right) ;
+static bool op_Inequality(System::Reflection::MethodBase left, System::Reflection::MethodBase right) ;
 
 /// @brief Method GetParametersInternal addr 0x237b064 size 0x10 virtual true final false
- ::ArrayW<::System::Reflection::ParameterInfo> GetParametersInternal() ;
+ ::ArrayW<System::Reflection::ParameterInfo> GetParametersInternal() ;
 
 /// @brief Method GetParametersCount addr 0x237b074 size 0x28 virtual true final false
  int32_t GetParametersCount() ;
@@ -185,21 +184,20 @@ static bool op_Inequality(::System::Reflection::MethodBase left, ::System::Refle
  ::StringW FormatNameAndSig(bool serialization) ;
 
 /// @brief Method GetParameterTypes addr 0x237b3b4 size 0x108 virtual true final false
- ::ArrayW<::System::Type> GetParameterTypes() ;
+ ::ArrayW<System::Type> GetParameterTypes() ;
 
 /// @brief Method GetParametersNoCopy addr 0x237b4bc size 0x10 virtual true final false
- ::ArrayW<::System::Reflection::ParameterInfo> GetParametersNoCopy() ;
+ ::ArrayW<System::Reflection::ParameterInfo> GetParametersNoCopy() ;
 
 /// @brief Method GetMethodFromHandle addr 0x237b4cc size 0x208 virtual false final false
-static ::System::Reflection::MethodBase GetMethodFromHandle(::System::RuntimeMethodHandle handle) ;
+static System::Reflection::MethodBase GetMethodFromHandle(System::RuntimeMethodHandle handle) ;
 
 /// @brief Method ConstructParameters addr 0x237b1c8 size 0x1ec virtual false final false
-static ::StringW ConstructParameters(::ArrayW<::System::Type> parameterTypes, ::System::Reflection::CallingConventions callingConvention, bool serialization) ;
+static ::StringW ConstructParameters(::ArrayW<System::Type> parameterTypes, System::Reflection::CallingConventions callingConvention, bool serialization) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Reflection
-} // end anonymous namespace
-NEED_NO_BOX(::System::Reflection::MethodBase);
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::MethodBase, "System.Reflection", "MethodBase");
+NEED_NO_BOX(System::Reflection::MethodBase);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MethodBase, "System.Reflection", "MethodBase");

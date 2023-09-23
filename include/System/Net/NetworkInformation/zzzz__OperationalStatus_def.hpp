@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net::NetworkInformation {
 struct OperationalStatus;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Up offset 0
-static ::System::Net::NetworkInformation::OperationalStatus const Up;
+static System::Net::NetworkInformation::OperationalStatus const Up;
 
 /// @brief Field Down offset 0
-static ::System::Net::NetworkInformation::OperationalStatus const Down;
+static System::Net::NetworkInformation::OperationalStatus const Down;
 
 /// @brief Field Testing offset 0
-static ::System::Net::NetworkInformation::OperationalStatus const Testing;
+static System::Net::NetworkInformation::OperationalStatus const Testing;
 
 /// @brief Field Unknown offset 0
-static ::System::Net::NetworkInformation::OperationalStatus const Unknown;
+static System::Net::NetworkInformation::OperationalStatus const Unknown;
 
 /// @brief Field Dormant offset 0
-static ::System::Net::NetworkInformation::OperationalStatus const Dormant;
+static System::Net::NetworkInformation::OperationalStatus const Dormant;
 
 /// @brief Field NotPresent offset 0
-static ::System::Net::NetworkInformation::OperationalStatus const NotPresent;
+static System::Net::NetworkInformation::OperationalStatus const NotPresent;
 
 /// @brief Field LowerLayerDown offset 0
-static ::System::Net::NetworkInformation::OperationalStatus const LowerLayerDown;
+static System::Net::NetworkInformation::OperationalStatus const LowerLayerDown;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net::NetworkInformation
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::OperationalStatus, "System.Net.NetworkInformation", "OperationalStatus");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::OperationalStatus, "System.Net.NetworkInformation", "OperationalStatus");

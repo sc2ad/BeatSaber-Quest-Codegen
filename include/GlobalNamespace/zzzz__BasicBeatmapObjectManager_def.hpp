@@ -4,83 +4,82 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
-namespace {
-namespace GlobalNamespace {
-struct ____GlobalNamespace__SliderController__LengthType;
-}
-namespace GlobalNamespace {
-class ObstacleData;
-}
-namespace System {
-template<typename T>
-struct Nullable_1;
-}
-namespace GlobalNamespace {
-class SliderController;
-}
-namespace GlobalNamespace {
-class NoteController;
-}
 namespace GlobalNamespace {
 class BombNoteController;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__BombNoteController__Pool;
+class GlobalNamespace__SliderController__Pool;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__BeatmapObjectSpawnMovementData__SliderSpawnData;
+struct GlobalNamespace__BeatmapObjectSpawnMovementData__ObstacleSpawnData;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__GameNoteController__Pool;
-}
-namespace GlobalNamespace {
-class GameNoteController;
+struct GlobalNamespace__BeatmapObjectSpawnMovementData__SliderSpawnData;
 }
 namespace GlobalNamespace {
 template<typename T>
 class MemoryPoolContainer_1;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__ObstacleController__Pool;
+class GlobalNamespace__BurstSliderGameNoteController__Pool;
+}
+namespace GlobalNamespace {
+class BurstSliderGameNoteController;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__ObstacleController__Pool;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData;
 }
 namespace GlobalNamespace {
 class SliderData;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__BeatmapObjectSpawnMovementData__ObstacleSpawnData;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+struct GlobalNamespace__SliderController__LengthType;
 }
 namespace GlobalNamespace {
-class ObstacleController;
+class NoteData;
+}
+namespace System {
+template<typename T>
+struct Nullable_1;
+}
+namespace GlobalNamespace {
+class GameNoteController;
+}
+namespace GlobalNamespace {
+class SliderController;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__GameNoteController__Pool;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BombNoteController__Pool;
+}
+namespace GlobalNamespace {
+class ObstacleData;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__SliderController__Pool;
+class NoteController;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__BurstSliderGameNoteController__Pool;
+class ObstacleController;
 }
-namespace GlobalNamespace {
-class NoteData;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData;
-}
-namespace GlobalNamespace {
-class BurstSliderGameNoteController;
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
 class BasicBeatmapObjectManager;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__BasicBeatmapObjectManager__InitData;
+class GlobalNamespace__BasicBeatmapObjectManager__InitData;
 }
 // Type: ::InitData
 namespace GlobalNamespace {
@@ -88,37 +87,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4818))
 // CS Name: BasicBeatmapObjectManager::InitData
-class CORDL_TYPE ____GlobalNamespace__BasicBeatmapObjectManager__InitData : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__BasicBeatmapObjectManager__InitData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____GlobalNamespace__BasicBeatmapObjectManager__InitData() = default;
+virtual ~GlobalNamespace__BasicBeatmapObjectManager__InitData() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__BasicBeatmapObjectManager__InitData", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__BasicBeatmapObjectManager__InitData(____GlobalNamespace__BasicBeatmapObjectManager__InitData const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__BasicBeatmapObjectManager__InitData", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__BasicBeatmapObjectManager__InitData(GlobalNamespace__BasicBeatmapObjectManager__InitData const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__BasicBeatmapObjectManager__InitData", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__BasicBeatmapObjectManager__InitData(____GlobalNamespace__BasicBeatmapObjectManager__InitData&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__BasicBeatmapObjectManager__InitData", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__BasicBeatmapObjectManager__InitData(GlobalNamespace__BasicBeatmapObjectManager__InitData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__BasicBeatmapObjectManager__InitData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__BasicBeatmapObjectManager__InitData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__BasicBeatmapObjectManager__InitData& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__BasicBeatmapObjectManager__InitData& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__BasicBeatmapObjectManager__InitData& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__BasicBeatmapObjectManager__InitData& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__BasicBeatmapObjectManager__InitData& operator=(____GlobalNamespace__BasicBeatmapObjectManager__InitData&& o) noexcept = default;
-  constexpr ____GlobalNamespace__BasicBeatmapObjectManager__InitData& operator=(____GlobalNamespace__BasicBeatmapObjectManager__InitData const& o) noexcept = default;
+  constexpr GlobalNamespace__BasicBeatmapObjectManager__InitData& operator=(GlobalNamespace__BasicBeatmapObjectManager__InitData&& o) noexcept = default;
+  constexpr GlobalNamespace__BasicBeatmapObjectManager__InitData& operator=(GlobalNamespace__BasicBeatmapObjectManager__InitData const& o) noexcept = default;
                 
 
 
@@ -152,7 +151,7 @@ constexpr float_t __get_notesUniformScale() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "disappearingArrows", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "ghostNotes", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "cutAngleTolerance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "notesUniformScale", ty: "float_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__BasicBeatmapObjectManager__InitData(bool disappearingArrows, bool ghostNotes, float_t cutAngleTolerance, float_t notesUniformScale) ;
+explicit GlobalNamespace__BasicBeatmapObjectManager__InitData(bool disappearingArrows, bool ghostNotes, float_t cutAngleTolerance, float_t notesUniformScale) ;
 
 /// @brief Method .ctor addr 0x222fd68 size 0x44 virtual false final false
  void _ctor(bool disappearingArrows, bool ghostNotes, float_t cutAngleTolerance, float_t notesUniformScale) ;
@@ -167,10 +166,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4832))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4819))
 // CS Name: BasicBeatmapObjectManager
-class CORDL_TYPE BasicBeatmapObjectManager : public ::GlobalNamespace::BeatmapObjectManager {
+class CORDL_TYPE BasicBeatmapObjectManager : public GlobalNamespace::BeatmapObjectManager {
 public:
 // Declarations
-using InitData = ::GlobalNamespace::____GlobalNamespace__BasicBeatmapObjectManager__InitData;
+using InitData = GlobalNamespace::GlobalNamespace__BasicBeatmapObjectManager__InitData;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xe0};
@@ -184,7 +183,7 @@ constexpr BasicBeatmapObjectManager(BasicBeatmapObjectManager const& ) noexcept 
 constexpr BasicBeatmapObjectManager(BasicBeatmapObjectManager&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BasicBeatmapObjectManager(void* ptr) noexcept : ::GlobalNamespace::BeatmapObjectManager(ptr) {
+constexpr explicit BasicBeatmapObjectManager(void* ptr) noexcept : GlobalNamespace::BeatmapObjectManager(ptr) {
 }
 
 
@@ -205,91 +204,91 @@ constexpr explicit BasicBeatmapObjectManager(void* ptr) noexcept : ::GlobalNames
 
 // Fields
 
- ::System::Nullable_1<float_t> __declspec(property(get=__get__firstBasicNoteTime, put=__set__firstBasicNoteTime))  _firstBasicNoteTime;
+ System::Nullable_1<float_t> __declspec(property(get=__get__firstBasicNoteTime, put=__set__firstBasicNoteTime))  _firstBasicNoteTime;
 
-constexpr void __set__firstBasicNoteTime(::System::Nullable_1<float_t> value) ;
+constexpr void __set__firstBasicNoteTime(System::Nullable_1<float_t> value) ;
 
-constexpr ::System::Nullable_1<float_t> __get__firstBasicNoteTime() const;
+constexpr System::Nullable_1<float_t> __get__firstBasicNoteTime() const;
 
- ::GlobalNamespace::____GlobalNamespace__BasicBeatmapObjectManager__InitData __declspec(property(get=__get__initData, put=__set__initData))  _initData;
+ GlobalNamespace::GlobalNamespace__BasicBeatmapObjectManager__InitData __declspec(property(get=__get__initData, put=__set__initData))  _initData;
 
-constexpr void __set__initData(::GlobalNamespace::____GlobalNamespace__BasicBeatmapObjectManager__InitData value) ;
+constexpr void __set__initData(GlobalNamespace::GlobalNamespace__BasicBeatmapObjectManager__InitData value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__BasicBeatmapObjectManager__InitData __get__initData() const;
+constexpr GlobalNamespace::GlobalNamespace__BasicBeatmapObjectManager__InitData __get__initData() const;
 
- ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::GameNoteController> __declspec(property(get=__get__basicGameNotePoolContainer, put=__set__basicGameNotePoolContainer))  _basicGameNotePoolContainer;
+ GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::GameNoteController> __declspec(property(get=__get__basicGameNotePoolContainer, put=__set__basicGameNotePoolContainer))  _basicGameNotePoolContainer;
 
-constexpr void __set__basicGameNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::GameNoteController> value) ;
+constexpr void __set__basicGameNotePoolContainer(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::GameNoteController> value) ;
 
-constexpr ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::GameNoteController> __get__basicGameNotePoolContainer() const;
+constexpr GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::GameNoteController> __get__basicGameNotePoolContainer() const;
 
- ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::GameNoteController> __declspec(property(get=__get__burstSliderHeadGameNotePoolContainer, put=__set__burstSliderHeadGameNotePoolContainer))  _burstSliderHeadGameNotePoolContainer;
+ GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::GameNoteController> __declspec(property(get=__get__burstSliderHeadGameNotePoolContainer, put=__set__burstSliderHeadGameNotePoolContainer))  _burstSliderHeadGameNotePoolContainer;
 
-constexpr void __set__burstSliderHeadGameNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::GameNoteController> value) ;
+constexpr void __set__burstSliderHeadGameNotePoolContainer(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::GameNoteController> value) ;
 
-constexpr ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::GameNoteController> __get__burstSliderHeadGameNotePoolContainer() const;
+constexpr GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::GameNoteController> __get__burstSliderHeadGameNotePoolContainer() const;
 
- ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::BurstSliderGameNoteController> __declspec(property(get=__get__burstSliderGameNotePoolContainer, put=__set__burstSliderGameNotePoolContainer))  _burstSliderGameNotePoolContainer;
+ GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::BurstSliderGameNoteController> __declspec(property(get=__get__burstSliderGameNotePoolContainer, put=__set__burstSliderGameNotePoolContainer))  _burstSliderGameNotePoolContainer;
 
-constexpr void __set__burstSliderGameNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::BurstSliderGameNoteController> value) ;
+constexpr void __set__burstSliderGameNotePoolContainer(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::BurstSliderGameNoteController> value) ;
 
-constexpr ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::BurstSliderGameNoteController> __get__burstSliderGameNotePoolContainer() const;
+constexpr GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::BurstSliderGameNoteController> __get__burstSliderGameNotePoolContainer() const;
 
- ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::BurstSliderGameNoteController> __declspec(property(get=__get__burstSliderFillPoolContainer, put=__set__burstSliderFillPoolContainer))  _burstSliderFillPoolContainer;
+ GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::BurstSliderGameNoteController> __declspec(property(get=__get__burstSliderFillPoolContainer, put=__set__burstSliderFillPoolContainer))  _burstSliderFillPoolContainer;
 
-constexpr void __set__burstSliderFillPoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::BurstSliderGameNoteController> value) ;
+constexpr void __set__burstSliderFillPoolContainer(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::BurstSliderGameNoteController> value) ;
 
-constexpr ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::BurstSliderGameNoteController> __get__burstSliderFillPoolContainer() const;
+constexpr GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::BurstSliderGameNoteController> __get__burstSliderFillPoolContainer() const;
 
- ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::BombNoteController> __declspec(property(get=__get__bombNotePoolContainer, put=__set__bombNotePoolContainer))  _bombNotePoolContainer;
+ GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::BombNoteController> __declspec(property(get=__get__bombNotePoolContainer, put=__set__bombNotePoolContainer))  _bombNotePoolContainer;
 
-constexpr void __set__bombNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::BombNoteController> value) ;
+constexpr void __set__bombNotePoolContainer(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::BombNoteController> value) ;
 
-constexpr ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::BombNoteController> __get__bombNotePoolContainer() const;
+constexpr GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::BombNoteController> __get__bombNotePoolContainer() const;
 
- ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::ObstacleController> __declspec(property(get=__get__obstaclePoolContainer, put=__set__obstaclePoolContainer))  _obstaclePoolContainer;
+ GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::ObstacleController> __declspec(property(get=__get__obstaclePoolContainer, put=__set__obstaclePoolContainer))  _obstaclePoolContainer;
 
-constexpr void __set__obstaclePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::ObstacleController> value) ;
+constexpr void __set__obstaclePoolContainer(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::ObstacleController> value) ;
 
-constexpr ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::ObstacleController> __get__obstaclePoolContainer() const;
+constexpr GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::ObstacleController> __get__obstaclePoolContainer() const;
 
- ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::____GlobalNamespace__SliderController__LengthType,::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::SliderController>> __declspec(property(get=__get__sliderNotePoolContainersDictionary, put=__set__sliderNotePoolContainersDictionary))  _sliderNotePoolContainersDictionary;
+ System::Collections::Generic::Dictionary_2<GlobalNamespace::GlobalNamespace__SliderController__LengthType,GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::SliderController>> __declspec(property(get=__get__sliderNotePoolContainersDictionary, put=__set__sliderNotePoolContainersDictionary))  _sliderNotePoolContainersDictionary;
 
-constexpr void __set__sliderNotePoolContainersDictionary(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::____GlobalNamespace__SliderController__LengthType,::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::SliderController>> value) ;
+constexpr void __set__sliderNotePoolContainersDictionary(System::Collections::Generic::Dictionary_2<GlobalNamespace::GlobalNamespace__SliderController__LengthType,GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::SliderController>> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::____GlobalNamespace__SliderController__LengthType,::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::SliderController>> __get__sliderNotePoolContainersDictionary() const;
+constexpr System::Collections::Generic::Dictionary_2<GlobalNamespace::GlobalNamespace__SliderController__LengthType,GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::SliderController>> __get__sliderNotePoolContainersDictionary() const;
 
 
 // Properties
 
- ::System::Collections::Generic::List_1<::GlobalNamespace::ObstacleController> __declspec(property(get=get_activeObstacleControllers))  activeObstacleControllers;
+ System::Collections::Generic::List_1<GlobalNamespace::ObstacleController> __declspec(property(get=get_activeObstacleControllers))  activeObstacleControllers;
 
 
 // Methods
 
 /// @brief Method get_activeObstacleControllers addr 0x222df38 size 0x50 virtual true final false
- ::System::Collections::Generic::List_1<::GlobalNamespace::ObstacleController> get_activeObstacleControllers() ;
+ System::Collections::Generic::List_1<GlobalNamespace::ObstacleController> get_activeObstacleControllers() ;
 
 /// @brief Method Init addr 0x222df88 size 0x5c0 virtual false final false
- void Init(::GlobalNamespace::____GlobalNamespace__BasicBeatmapObjectManager__InitData initData, ::GlobalNamespace::____GlobalNamespace__GameNoteController__Pool basicGameNotePool, ::GlobalNamespace::____GlobalNamespace__GameNoteController__Pool burstSliderHeadGameNotePool, ::GlobalNamespace::____GlobalNamespace__BurstSliderGameNoteController__Pool burstSliderGameNotePool, ::GlobalNamespace::____GlobalNamespace__BurstSliderGameNoteController__Pool burstSliderFillPool, ::GlobalNamespace::____GlobalNamespace__BombNoteController__Pool bombNotePool, ::GlobalNamespace::____GlobalNamespace__ObstacleController__Pool obstaclePool, ::GlobalNamespace::____GlobalNamespace__SliderController__Pool sliderPools) ;
+ void Init(GlobalNamespace::GlobalNamespace__BasicBeatmapObjectManager__InitData initData, GlobalNamespace::GlobalNamespace__GameNoteController__Pool basicGameNotePool, GlobalNamespace::GlobalNamespace__GameNoteController__Pool burstSliderHeadGameNotePool, GlobalNamespace::GlobalNamespace__BurstSliderGameNoteController__Pool burstSliderGameNotePool, GlobalNamespace::GlobalNamespace__BurstSliderGameNoteController__Pool burstSliderFillPool, GlobalNamespace::GlobalNamespace__BombNoteController__Pool bombNotePool, GlobalNamespace::GlobalNamespace__ObstacleController__Pool obstaclePool, GlobalNamespace::GlobalNamespace__SliderController__Pool sliderPools) ;
 
 /// @brief Method ProcessObstacleData addr 0x222e548 size 0xf4 virtual true final false
- void ProcessObstacleData(::GlobalNamespace::ObstacleData obstacleData, ByRef<::GlobalNamespace::____GlobalNamespace__BeatmapObjectSpawnMovementData__ObstacleSpawnData> obstacleSpawnData, float_t rotation) ;
+ void ProcessObstacleData(GlobalNamespace::ObstacleData obstacleData, ByRef<GlobalNamespace::GlobalNamespace__BeatmapObjectSpawnMovementData__ObstacleSpawnData> obstacleSpawnData, float_t rotation) ;
 
 /// @brief Method DespawnInternal addr 0x222e7d4 size 0x58 virtual true final false
- void DespawnInternal(::GlobalNamespace::ObstacleController obstacleController) ;
+ void DespawnInternal(GlobalNamespace::ObstacleController obstacleController) ;
 
 /// @brief Method ProcessNoteData addr 0x222e82c size 0x3f8 virtual true final false
- void ProcessNoteData(::GlobalNamespace::NoteData noteData, ByRef<::GlobalNamespace::____GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData> noteSpawnData, float_t rotation, bool forceIsFirstNoteBehaviour) ;
+ void ProcessNoteData(GlobalNamespace::NoteData noteData, ByRef<GlobalNamespace::GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData> noteSpawnData, float_t rotation, bool forceIsFirstNoteBehaviour) ;
 
 /// @brief Method DespawnInternal addr 0x222f14c size 0x1f4 virtual true final false
- void DespawnInternal(::GlobalNamespace::NoteController noteController) ;
+ void DespawnInternal(GlobalNamespace::NoteController noteController) ;
 
 /// @brief Method ProcessSliderData addr 0x222f340 size 0x244 virtual true final false
- void ProcessSliderData(::GlobalNamespace::SliderData sliderData, ByRef<::GlobalNamespace::____GlobalNamespace__BeatmapObjectSpawnMovementData__SliderSpawnData> sliderSpawnData, float_t rotation) ;
+ void ProcessSliderData(GlobalNamespace::SliderData sliderData, ByRef<GlobalNamespace::GlobalNamespace__BeatmapObjectSpawnMovementData__SliderSpawnData> sliderSpawnData, float_t rotation) ;
 
 /// @brief Method DespawnInternal addr 0x222fc4c size 0x9c virtual true final false
- void DespawnInternal(::GlobalNamespace::SliderController sliderNoteController) ;
+ void DespawnInternal(GlobalNamespace::SliderController sliderNoteController) ;
 
 // Ctor Parameters []
 explicit BasicBeatmapObjectManager() ;
@@ -301,8 +300,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BasicBeatmapObjectManager);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BasicBeatmapObjectManager, "", "BasicBeatmapObjectManager");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__BasicBeatmapObjectManager__InitData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__BasicBeatmapObjectManager__InitData, "", "BasicBeatmapObjectManager/InitData");
+NEED_NO_BOX(GlobalNamespace::BasicBeatmapObjectManager);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BasicBeatmapObjectManager, "", "BasicBeatmapObjectManager");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__BasicBeatmapObjectManager__InitData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__BasicBeatmapObjectManager__InitData, "", "BasicBeatmapObjectManager/InitData");

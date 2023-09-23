@@ -2,19 +2,18 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace HMUI {
+class UIKeyboard;
+}
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
-}
-namespace HMUI {
-class InputFieldView;
 }
 namespace GlobalNamespace {
 class INetworkPlayer;
 }
 namespace HMUI {
-class UIKeyboard;
+class InputFieldView;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,7 +25,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13656))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5818))
 // CS Name: ServerPasswordEntryViewController
-class CORDL_TYPE ServerPasswordEntryViewController : public ::HMUI::ViewController {
+class CORDL_TYPE ServerPasswordEntryViewController : public HMUI::ViewController {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -41,7 +40,7 @@ constexpr ServerPasswordEntryViewController(ServerPasswordEntryViewController co
 constexpr ServerPasswordEntryViewController(ServerPasswordEntryViewController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ServerPasswordEntryViewController(void* ptr) noexcept : ::HMUI::ViewController(ptr) {
+constexpr explicit ServerPasswordEntryViewController(void* ptr) noexcept : HMUI::ViewController(ptr) {
 }
 
 
@@ -62,41 +61,41 @@ constexpr explicit ServerPasswordEntryViewController(void* ptr) noexcept : ::HMU
 
 // Fields
 
- ::HMUI::InputFieldView __declspec(property(get=__get__passwordInput, put=__set__passwordInput))  _passwordInput;
+ HMUI::InputFieldView __declspec(property(get=__get__passwordInput, put=__set__passwordInput))  _passwordInput;
 
-constexpr void __set__passwordInput(::HMUI::InputFieldView value) ;
+constexpr void __set__passwordInput(HMUI::InputFieldView value) ;
 
-constexpr ::HMUI::InputFieldView __get__passwordInput() const;
+constexpr HMUI::InputFieldView __get__passwordInput() const;
 
- ::HMUI::UIKeyboard __declspec(property(get=__get__uiKeyboard, put=__set__uiKeyboard))  _uiKeyboard;
+ HMUI::UIKeyboard __declspec(property(get=__get__uiKeyboard, put=__set__uiKeyboard))  _uiKeyboard;
 
-constexpr void __set__uiKeyboard(::HMUI::UIKeyboard value) ;
+constexpr void __set__uiKeyboard(HMUI::UIKeyboard value) ;
 
-constexpr ::HMUI::UIKeyboard __get__uiKeyboard() const;
+constexpr HMUI::UIKeyboard __get__uiKeyboard() const;
 
- ::System::Action_2<::GlobalNamespace::INetworkPlayer,::StringW> __declspec(property(get=__get_didFinishEvent, put=__set_didFinishEvent))  didFinishEvent;
+ System::Action_2<GlobalNamespace::INetworkPlayer,::StringW> __declspec(property(get=__get_didFinishEvent, put=__set_didFinishEvent))  didFinishEvent;
 
-constexpr void __set_didFinishEvent(::System::Action_2<::GlobalNamespace::INetworkPlayer,::StringW> value) ;
+constexpr void __set_didFinishEvent(System::Action_2<GlobalNamespace::INetworkPlayer,::StringW> value) ;
 
-constexpr ::System::Action_2<::GlobalNamespace::INetworkPlayer,::StringW> __get_didFinishEvent() const;
+constexpr System::Action_2<GlobalNamespace::INetworkPlayer,::StringW> __get_didFinishEvent() const;
 
- ::GlobalNamespace::INetworkPlayer __declspec(property(get=__get__selectedNetworkPlayer, put=__set__selectedNetworkPlayer))  _selectedNetworkPlayer;
+ GlobalNamespace::INetworkPlayer __declspec(property(get=__get__selectedNetworkPlayer, put=__set__selectedNetworkPlayer))  _selectedNetworkPlayer;
 
-constexpr void __set__selectedNetworkPlayer(::GlobalNamespace::INetworkPlayer value) ;
+constexpr void __set__selectedNetworkPlayer(GlobalNamespace::INetworkPlayer value) ;
 
-constexpr ::GlobalNamespace::INetworkPlayer __get__selectedNetworkPlayer() const;
+constexpr GlobalNamespace::INetworkPlayer __get__selectedNetworkPlayer() const;
 
 
 // Methods
 
 /// @brief Method add_didFinishEvent addr 0x217966c size 0xb0 virtual false final false
- void add_didFinishEvent(::System::Action_2<::GlobalNamespace::INetworkPlayer,::StringW> value) ;
+ void add_didFinishEvent(System::Action_2<GlobalNamespace::INetworkPlayer,::StringW> value) ;
 
 /// @brief Method remove_didFinishEvent addr 0x217971c size 0xb0 virtual false final false
- void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::INetworkPlayer,::StringW> value) ;
+ void remove_didFinishEvent(System::Action_2<GlobalNamespace::INetworkPlayer,::StringW> value) ;
 
 /// @brief Method Setup addr 0x21797cc size 0x8 virtual false final false
- void Setup(::GlobalNamespace::INetworkPlayer selectedPlayer) ;
+ void Setup(GlobalNamespace::INetworkPlayer selectedPlayer) ;
 
 /// @brief Method DidActivate addr 0x21797d4 size 0xc4 virtual true final false
  void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) ;
@@ -120,6 +119,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ServerPasswordEntryViewController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ServerPasswordEntryViewController, "", "ServerPasswordEntryViewController");
+NEED_NO_BOX(GlobalNamespace::ServerPasswordEntryViewController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ServerPasswordEntryViewController, "", "ServerPasswordEntryViewController");

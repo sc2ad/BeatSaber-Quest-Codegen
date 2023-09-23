@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Utilities {
-class IMemoable;
-}
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
+}
+namespace Org::BouncyCastle::Utilities {
+class IMemoable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Digests {
@@ -24,11 +23,11 @@ namespace Org::BouncyCastle::Crypto::Digests {
 class CORDL_TYPE WhirlpoolDigest : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IDigest
-constexpr operator  ::Org::BouncyCastle::Crypto::IDigest() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IDigest
+constexpr operator  Org::BouncyCastle::Crypto::IDigest() const noexcept;
 
-/// @brief Convert operator to ::Org::BouncyCastle::Utilities::IMemoable
-constexpr operator  ::Org::BouncyCastle::Utilities::IMemoable() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Utilities::IMemoable
+constexpr operator  Org::BouncyCastle::Utilities::IMemoable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x58};
@@ -212,11 +211,11 @@ static int64_t packIntoLong(int32_t b7, int32_t b6, int32_t b5, int32_t b4, int3
 /// @brief Method maskWithReductionPolynomial addr 0xe1e9e4 size 0x14 virtual false final false
 static int32_t maskWithReductionPolynomial(int32_t input) ;
 
-// Ctor Parameters [CppParam { name: "originalDigest", ty: "::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest", modifiers: "", def_value: None }]
-explicit WhirlpoolDigest(::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest originalDigest) ;
+// Ctor Parameters [CppParam { name: "originalDigest", ty: "Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest", modifiers: "", def_value: None }]
+explicit WhirlpoolDigest(Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest originalDigest) ;
 
 /// @brief Method .ctor addr 0xe1ecdc size 0x110 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest originalDigest) ;
+ void _ctor(Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest originalDigest) ;
 
 /// @brief Method get_AlgorithmName addr 0xe1ef54 size 0x40 virtual true final true
  ::StringW get_AlgorithmName() ;
@@ -261,15 +260,14 @@ static void convertLongToByteArray(int64_t inputLong, ::ArrayW<uint8_t> outputAr
  int32_t GetByteLength() ;
 
 /// @brief Method Copy addr 0xe1fd20 size 0x60 virtual true final true
- ::Org::BouncyCastle::Utilities::IMemoable Copy() ;
+ Org::BouncyCastle::Utilities::IMemoable Copy() ;
 
 /// @brief Method Reset addr 0xe1edec size 0x168 virtual true final true
- void Reset(::Org::BouncyCastle::Utilities::IMemoable other) ;
+ void Reset(Org::BouncyCastle::Utilities::IMemoable other) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Digests
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest, "Org.BouncyCastle.Crypto.Digests", "WhirlpoolDigest");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest, "Org.BouncyCastle.Crypto.Digests", "WhirlpoolDigest");

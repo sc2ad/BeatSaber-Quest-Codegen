@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform {
 struct NetSyncDisconnectReason;
 }
@@ -62,11 +61,11 @@ constexpr void __set_ConnectionId(int64_t value) ;
 
 constexpr int64_t __get_ConnectionId() const;
 
- ::Oculus::Platform::NetSyncDisconnectReason __declspec(property(get=__get_DisconnectReason, put=__set_DisconnectReason))  DisconnectReason;
+ Oculus::Platform::NetSyncDisconnectReason __declspec(property(get=__get_DisconnectReason, put=__set_DisconnectReason))  DisconnectReason;
 
-constexpr void __set_DisconnectReason(::Oculus::Platform::NetSyncDisconnectReason value) ;
+constexpr void __set_DisconnectReason(Oculus::Platform::NetSyncDisconnectReason value) ;
 
-constexpr ::Oculus::Platform::NetSyncDisconnectReason __get_DisconnectReason() const;
+constexpr Oculus::Platform::NetSyncDisconnectReason __get_DisconnectReason() const;
 
  uint64_t __declspec(property(get=__get_SessionId, put=__set_SessionId))  SessionId;
 
@@ -74,11 +73,11 @@ constexpr void __set_SessionId(uint64_t value) ;
 
 constexpr uint64_t __get_SessionId() const;
 
- ::Oculus::Platform::NetSyncConnectionStatus __declspec(property(get=__get_Status, put=__set_Status))  Status;
+ Oculus::Platform::NetSyncConnectionStatus __declspec(property(get=__get_Status, put=__set_Status))  Status;
 
-constexpr void __set_Status(::Oculus::Platform::NetSyncConnectionStatus value) ;
+constexpr void __set_Status(Oculus::Platform::NetSyncConnectionStatus value) ;
 
-constexpr ::Oculus::Platform::NetSyncConnectionStatus __get_Status() const;
+constexpr Oculus::Platform::NetSyncConnectionStatus __get_Status() const;
 
  ::StringW __declspec(property(get=__get_ZoneId, put=__set_ZoneId))  ZoneId;
 
@@ -99,6 +98,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::NetSyncConnection);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::NetSyncConnection, "Oculus.Platform.Models", "NetSyncConnection");
+NEED_NO_BOX(Oculus::Platform::Models::NetSyncConnection);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::NetSyncConnection, "Oculus.Platform.Models", "NetSyncConnection");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
 struct ShapeType;
@@ -78,47 +77,46 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Cube offset 0
-static ::UnityEngine::ProBuilder::ShapeType const Cube;
+static UnityEngine::ProBuilder::ShapeType const Cube;
 
 /// @brief Field Stair offset 0
-static ::UnityEngine::ProBuilder::ShapeType const Stair;
+static UnityEngine::ProBuilder::ShapeType const Stair;
 
 /// @brief Field CurvedStair offset 0
-static ::UnityEngine::ProBuilder::ShapeType const CurvedStair;
+static UnityEngine::ProBuilder::ShapeType const CurvedStair;
 
 /// @brief Field Prism offset 0
-static ::UnityEngine::ProBuilder::ShapeType const Prism;
+static UnityEngine::ProBuilder::ShapeType const Prism;
 
 /// @brief Field Cylinder offset 0
-static ::UnityEngine::ProBuilder::ShapeType const Cylinder;
+static UnityEngine::ProBuilder::ShapeType const Cylinder;
 
 /// @brief Field Plane offset 0
-static ::UnityEngine::ProBuilder::ShapeType const Plane;
+static UnityEngine::ProBuilder::ShapeType const Plane;
 
 /// @brief Field Door offset 0
-static ::UnityEngine::ProBuilder::ShapeType const Door;
+static UnityEngine::ProBuilder::ShapeType const Door;
 
 /// @brief Field Pipe offset 0
-static ::UnityEngine::ProBuilder::ShapeType const Pipe;
+static UnityEngine::ProBuilder::ShapeType const Pipe;
 
 /// @brief Field Cone offset 0
-static ::UnityEngine::ProBuilder::ShapeType const Cone;
+static UnityEngine::ProBuilder::ShapeType const Cone;
 
 /// @brief Field Sprite offset 0
-static ::UnityEngine::ProBuilder::ShapeType const Sprite;
+static UnityEngine::ProBuilder::ShapeType const Sprite;
 
 /// @brief Field Arch offset 0
-static ::UnityEngine::ProBuilder::ShapeType const Arch;
+static UnityEngine::ProBuilder::ShapeType const Arch;
 
 /// @brief Field Sphere offset 0
-static ::UnityEngine::ProBuilder::ShapeType const Sphere;
+static UnityEngine::ProBuilder::ShapeType const Sphere;
 
 /// @brief Field Torus offset 0
-static ::UnityEngine::ProBuilder::ShapeType const Torus;
+static UnityEngine::ProBuilder::ShapeType const Torus;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::ShapeType, "UnityEngine.ProBuilder", "ShapeType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ShapeType, "UnityEngine.ProBuilder", "ShapeType");

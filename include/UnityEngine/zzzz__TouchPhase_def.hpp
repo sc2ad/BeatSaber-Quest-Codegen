@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct TouchPhase;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Began offset 0
-static ::UnityEngine::TouchPhase const Began;
+static UnityEngine::TouchPhase const Began;
 
 /// @brief Field Moved offset 0
-static ::UnityEngine::TouchPhase const Moved;
+static UnityEngine::TouchPhase const Moved;
 
 /// @brief Field Stationary offset 0
-static ::UnityEngine::TouchPhase const Stationary;
+static UnityEngine::TouchPhase const Stationary;
 
 /// @brief Field Ended offset 0
-static ::UnityEngine::TouchPhase const Ended;
+static UnityEngine::TouchPhase const Ended;
 
 /// @brief Field Canceled offset 0
-static ::UnityEngine::TouchPhase const Canceled;
+static UnityEngine::TouchPhase const Canceled;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TouchPhase, "UnityEngine", "TouchPhase");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TouchPhase, "UnityEngine", "TouchPhase");

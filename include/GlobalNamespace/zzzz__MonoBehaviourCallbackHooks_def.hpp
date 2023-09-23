@@ -3,7 +3,6 @@
 #include "UnityEngine/ResourceManagement/Util/zzzz__ComponentSingleton_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
 namespace System {
 template<typename T>
 class Action_1;
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14247)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14247), inst: 1027 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14229))
 // CS Name: MonoBehaviourCallbackHooks
-class CORDL_TYPE MonoBehaviourCallbackHooks : public ::UnityEngine::ResourceManagement::Util::ComponentSingleton_1<::GlobalNamespace::MonoBehaviourCallbackHooks> {
+class CORDL_TYPE MonoBehaviourCallbackHooks : public UnityEngine::ResourceManagement::Util::ComponentSingleton_1<GlobalNamespace::MonoBehaviourCallbackHooks> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr MonoBehaviourCallbackHooks(MonoBehaviourCallbackHooks const& ) noexcep
 constexpr MonoBehaviourCallbackHooks(MonoBehaviourCallbackHooks&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MonoBehaviourCallbackHooks(void* ptr) noexcept : ::UnityEngine::ResourceManagement::Util::ComponentSingleton_1<::GlobalNamespace::MonoBehaviourCallbackHooks>(ptr) {
+constexpr explicit MonoBehaviourCallbackHooks(void* ptr) noexcept : UnityEngine::ResourceManagement::Util::ComponentSingleton_1<GlobalNamespace::MonoBehaviourCallbackHooks>(ptr) {
 }
 
 
@@ -54,20 +53,20 @@ constexpr explicit MonoBehaviourCallbackHooks(void* ptr) noexcept : ::UnityEngin
 
 // Fields
 
- ::System::Action_1<float_t> __declspec(property(get=__get_m_OnUpdateDelegate, put=__set_m_OnUpdateDelegate))  m_OnUpdateDelegate;
+ System::Action_1<float_t> __declspec(property(get=__get_m_OnUpdateDelegate, put=__set_m_OnUpdateDelegate))  m_OnUpdateDelegate;
 
-constexpr void __set_m_OnUpdateDelegate(::System::Action_1<float_t> value) ;
+constexpr void __set_m_OnUpdateDelegate(System::Action_1<float_t> value) ;
 
-constexpr ::System::Action_1<float_t> __get_m_OnUpdateDelegate() const;
+constexpr System::Action_1<float_t> __get_m_OnUpdateDelegate() const;
 
 
 // Methods
 
 /// @brief Method add_OnUpdateDelegate addr 0x2a31fd0 size 0xa8 virtual false final false
- void add_OnUpdateDelegate(::System::Action_1<float_t> value) ;
+ void add_OnUpdateDelegate(System::Action_1<float_t> value) ;
 
 /// @brief Method remove_OnUpdateDelegate addr 0x2a32078 size 0xa8 virtual false final false
- void remove_OnUpdateDelegate(::System::Action_1<float_t> value) ;
+ void remove_OnUpdateDelegate(System::Action_1<float_t> value) ;
 
 /// @brief Method GetGameObjectName addr 0x2a32120 size 0x40 virtual true final false
  ::StringW GetGameObjectName() ;
@@ -85,6 +84,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MonoBehaviourCallbackHooks);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MonoBehaviourCallbackHooks, "", "MonoBehaviourCallbackHooks");
+NEED_NO_BOX(GlobalNamespace::MonoBehaviourCallbackHooks);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MonoBehaviourCallbackHooks, "", "MonoBehaviourCallbackHooks");

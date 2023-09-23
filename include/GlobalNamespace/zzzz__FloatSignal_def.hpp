@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__GenericSignal_1_def.hpp"
 #include <cmath>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class FloatSignal;
@@ -10,10 +9,10 @@ class FloatSignal;
 // Type: ::FloatSignal
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13881)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13881), inst: 374 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13881), inst: 374 }), TypeDefinitionIndex(TypeDefinitionIndex(13881))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13879))
 // CS Name: FloatSignal
-class CORDL_TYPE FloatSignal : public ::GlobalNamespace::GenericSignal_1<float_t> {
+class CORDL_TYPE FloatSignal : public GlobalNamespace::GenericSignal_1<float_t> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr FloatSignal(FloatSignal const& ) noexcept = default;
 constexpr FloatSignal(FloatSignal&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FloatSignal(void* ptr) noexcept : ::GlobalNamespace::GenericSignal_1<float_t>(ptr) {
+constexpr explicit FloatSignal(void* ptr) noexcept : GlobalNamespace::GenericSignal_1<float_t>(ptr) {
 }
 
 
@@ -59,6 +58,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::FloatSignal);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FloatSignal, "", "FloatSignal");
+NEED_NO_BOX(GlobalNamespace::FloatSignal);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FloatSignal, "", "FloatSignal");

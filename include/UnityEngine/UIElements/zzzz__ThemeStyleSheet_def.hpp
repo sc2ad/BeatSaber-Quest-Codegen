@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleSheet_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class ThemeStyleSheet;
@@ -12,7 +11,7 @@ namespace UnityEngine::UIElements {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7378))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7372))
 // CS Name: UnityEngine.UIElements.ThemeStyleSheet
-class CORDL_TYPE ThemeStyleSheet : public ::UnityEngine::UIElements::StyleSheet {
+class CORDL_TYPE ThemeStyleSheet : public UnityEngine::UIElements::StyleSheet {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr ThemeStyleSheet(ThemeStyleSheet const& ) noexcept = default;
 constexpr ThemeStyleSheet(ThemeStyleSheet&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ThemeStyleSheet(void* ptr) noexcept : ::UnityEngine::UIElements::StyleSheet(ptr) {
+constexpr explicit ThemeStyleSheet(void* ptr) noexcept : UnityEngine::UIElements::StyleSheet(ptr) {
 }
 
 
@@ -61,6 +60,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::ThemeStyleSheet);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ThemeStyleSheet, "UnityEngine.UIElements", "ThemeStyleSheet");
+NEED_NO_BOX(UnityEngine::UIElements::ThemeStyleSheet);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::ThemeStyleSheet, "UnityEngine.UIElements", "ThemeStyleSheet");

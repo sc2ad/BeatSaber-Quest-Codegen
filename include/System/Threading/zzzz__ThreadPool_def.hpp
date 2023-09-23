@@ -3,43 +3,42 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
-namespace {
-namespace System::Threading {
-class WaitHandle;
-}
-namespace System::Threading {
-struct StackCrawlMark;
-}
 namespace System {
 template<typename T>
 class Action_1;
-}
-namespace System {
-struct TimeSpan;
 }
 namespace System::Threading {
 class WaitCallback;
 }
 namespace System::Threading {
-class IThreadPoolWorkItem;
+class RegisteredWaitHandle;
 }
 namespace System::Threading {
-class RegisteredWaitHandle;
+class IThreadPoolWorkItem;
 }
 namespace System::Threading {
 class WaitOrTimerCallback;
 }
+namespace System {
+struct TimeSpan;
+}
+namespace System::Threading {
+struct StackCrawlMark;
+}
+namespace System::Threading {
+class WaitHandle;
+}
 // Forward declare root types
 namespace System::Threading {
 template<typename TState>
-class ____System__Threading__ThreadPool____c__DisplayClass17_0_1;
-}
-namespace System::Threading {
-class ThreadPool;
+class System__Threading__ThreadPool____c__DisplayClass17_0_1;
 }
 namespace System::Threading {
 template<::cordl_internals::il2cpp_reference_type TState>
-class ____System__Threading__ThreadPool____c__DisplayClass17_0_1<TState>;
+class System__Threading__ThreadPool____c__DisplayClass17_0_1<TState>;
+}
+namespace System::Threading {
+class ThreadPool;
 }
 // Type: ::<>c__DisplayClass17_0`1
 // Type: System.Threading::ThreadPool
@@ -52,7 +51,7 @@ class CORDL_TYPE ThreadPool : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 template<typename TState>
-using __c__DisplayClass17_0_1 = ::System::Threading::____System__Threading__ThreadPool____c__DisplayClass17_0_1<TState>;
+using __c__DisplayClass17_0_1 = System::Threading::System__Threading__ThreadPool____c__DisplayClass17_0_1<TState>;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -93,35 +92,35 @@ static bool __declspec(property(get=get_IsThreadPoolThread))  IsThreadPoolThread
 // Methods
 
 /// @brief Method RegisterWaitForSingleObject addr 0x24af0a0 size 0x1d8 virtual false final false
-static ::System::Threading::RegisteredWaitHandle RegisterWaitForSingleObject(::System::Threading::WaitHandle waitObject, ::System::Threading::WaitOrTimerCallback callBack, ::bs_hook::Il2CppWrapperType state, uint32_t millisecondsTimeOutInterval, bool executeOnlyOnce, ByRef<::System::Threading::StackCrawlMark> stackMark, bool compressStack) ;
+static System::Threading::RegisteredWaitHandle RegisterWaitForSingleObject(System::Threading::WaitHandle waitObject, System::Threading::WaitOrTimerCallback callBack, ::bs_hook::Il2CppWrapperType state, uint32_t millisecondsTimeOutInterval, bool executeOnlyOnce, ByRef<System::Threading::StackCrawlMark> stackMark, bool compressStack) ;
 
 /// @brief Method RegisterWaitForSingleObject addr 0x24af37c size 0x84 virtual false final false
-static ::System::Threading::RegisteredWaitHandle RegisterWaitForSingleObject(::System::Threading::WaitHandle waitObject, ::System::Threading::WaitOrTimerCallback callBack, ::bs_hook::Il2CppWrapperType state, int32_t millisecondsTimeOutInterval, bool executeOnlyOnce) ;
+static System::Threading::RegisteredWaitHandle RegisterWaitForSingleObject(System::Threading::WaitHandle waitObject, System::Threading::WaitOrTimerCallback callBack, ::bs_hook::Il2CppWrapperType state, int32_t millisecondsTimeOutInterval, bool executeOnlyOnce) ;
 
 /// @brief Method RegisterWaitForSingleObject addr 0x24af400 size 0xf4 virtual false final false
-static ::System::Threading::RegisteredWaitHandle RegisterWaitForSingleObject(::System::Threading::WaitHandle waitObject, ::System::Threading::WaitOrTimerCallback callBack, ::bs_hook::Il2CppWrapperType state, ::System::TimeSpan timeout, bool executeOnlyOnce) ;
+static System::Threading::RegisteredWaitHandle RegisterWaitForSingleObject(System::Threading::WaitHandle waitObject, System::Threading::WaitOrTimerCallback callBack, ::bs_hook::Il2CppWrapperType state, System::TimeSpan timeout, bool executeOnlyOnce) ;
 
 /// @brief Method QueueUserWorkItem addr 0x24af32c size 0x28 virtual false final false
-static bool QueueUserWorkItem(::System::Threading::WaitCallback callBack, ::bs_hook::Il2CppWrapperType state) ;
+static bool QueueUserWorkItem(System::Threading::WaitCallback callBack, ::bs_hook::Il2CppWrapperType state) ;
 
 /// @brief Method QueueUserWorkItem addr 0x24af618 size 0x2c virtual false final false
-static bool QueueUserWorkItem(::System::Threading::WaitCallback callBack) ;
+static bool QueueUserWorkItem(System::Threading::WaitCallback callBack) ;
 
 /// @brief Method UnsafeQueueUserWorkItem addr 0x24af354 size 0x28 virtual false final false
-static bool UnsafeQueueUserWorkItem(::System::Threading::WaitCallback callBack, ::bs_hook::Il2CppWrapperType state) ;
+static bool UnsafeQueueUserWorkItem(System::Threading::WaitCallback callBack, ::bs_hook::Il2CppWrapperType state) ;
 
 /// @brief Method QueueUserWorkItem addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TState>
-static bool QueueUserWorkItem(::System::Action_1<TState> callBack, TState state, bool preferLocal) ;
+static bool QueueUserWorkItem(System::Action_1<TState> callBack, TState state, bool preferLocal) ;
 
 /// @brief Method QueueUserWorkItemHelper addr 0x24af4f4 size 0x124 virtual false final false
-static bool QueueUserWorkItemHelper(::System::Threading::WaitCallback callBack, ::bs_hook::Il2CppWrapperType state, ByRef<::System::Threading::StackCrawlMark> stackMark, bool compressStack, bool forceGlobal) ;
+static bool QueueUserWorkItemHelper(System::Threading::WaitCallback callBack, ::bs_hook::Il2CppWrapperType state, ByRef<System::Threading::StackCrawlMark> stackMark, bool compressStack, bool forceGlobal) ;
 
 /// @brief Method UnsafeQueueCustomWorkItem addr 0x24af6d8 size 0x80 virtual false final false
-static void UnsafeQueueCustomWorkItem(::System::Threading::IThreadPoolWorkItem workItem, bool forceGlobal) ;
+static void UnsafeQueueCustomWorkItem(System::Threading::IThreadPoolWorkItem workItem, bool forceGlobal) ;
 
 /// @brief Method TryPopCustomWorkItem addr 0x24af758 size 0xa0 virtual false final false
-static bool TryPopCustomWorkItem(::System::Threading::IThreadPoolWorkItem workItem) ;
+static bool TryPopCustomWorkItem(System::Threading::IThreadPoolWorkItem workItem) ;
 
 /// @brief Method RequestWorkerThread addr 0x24af7f8 size 0x4 virtual false final false
 static bool RequestWorkerThread() ;
@@ -162,53 +161,53 @@ template<::cordl_internals::il2cpp_reference_type TState>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2737))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2737), inst: 2 })
 // CS Name: System.Threading.ThreadPool::<>c__DisplayClass17_0`1
-class CORDL_TYPE ____System__Threading__ThreadPool____c__DisplayClass17_0_1<TState> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Threading__ThreadPool____c__DisplayClass17_0_1<TState> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____System__Threading__ThreadPool____c__DisplayClass17_0_1() = default;
+virtual ~System__Threading__ThreadPool____c__DisplayClass17_0_1() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Threading__ThreadPool____c__DisplayClass17_0_1", modifiers: " const&", def_value: None }]
-constexpr ____System__Threading__ThreadPool____c__DisplayClass17_0_1(____System__Threading__ThreadPool____c__DisplayClass17_0_1 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Threading__ThreadPool____c__DisplayClass17_0_1", modifiers: " const&", def_value: None }]
+constexpr System__Threading__ThreadPool____c__DisplayClass17_0_1(System__Threading__ThreadPool____c__DisplayClass17_0_1 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Threading__ThreadPool____c__DisplayClass17_0_1", modifiers: "&&", def_value: None }]
-constexpr ____System__Threading__ThreadPool____c__DisplayClass17_0_1(____System__Threading__ThreadPool____c__DisplayClass17_0_1&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Threading__ThreadPool____c__DisplayClass17_0_1", modifiers: "&&", def_value: None }]
+constexpr System__Threading__ThreadPool____c__DisplayClass17_0_1(System__Threading__ThreadPool____c__DisplayClass17_0_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Threading__ThreadPool____c__DisplayClass17_0_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Threading__ThreadPool____c__DisplayClass17_0_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Threading__ThreadPool____c__DisplayClass17_0_1& operator=(std::nullptr_t) noexcept {
+  constexpr System__Threading__ThreadPool____c__DisplayClass17_0_1& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Threading__ThreadPool____c__DisplayClass17_0_1& operator=(void* o) noexcept {
+  constexpr System__Threading__ThreadPool____c__DisplayClass17_0_1& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Threading__ThreadPool____c__DisplayClass17_0_1& operator=(____System__Threading__ThreadPool____c__DisplayClass17_0_1&& o) noexcept = default;
-  constexpr ____System__Threading__ThreadPool____c__DisplayClass17_0_1& operator=(____System__Threading__ThreadPool____c__DisplayClass17_0_1 const& o) noexcept = default;
+  constexpr System__Threading__ThreadPool____c__DisplayClass17_0_1& operator=(System__Threading__ThreadPool____c__DisplayClass17_0_1&& o) noexcept = default;
+  constexpr System__Threading__ThreadPool____c__DisplayClass17_0_1& operator=(System__Threading__ThreadPool____c__DisplayClass17_0_1 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Action_1<TState> __declspec(property(get=__get_callBack, put=__set_callBack))  callBack;
+ System::Action_1<TState> __declspec(property(get=__get_callBack, put=__set_callBack))  callBack;
 
-constexpr void __set_callBack(::System::Action_1<TState> value) ;
+constexpr void __set_callBack(System::Action_1<TState> value) ;
 
-constexpr ::System::Action_1<TState> __get_callBack() const;
+constexpr System::Action_1<TState> __get_callBack() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____System__Threading__ThreadPool____c__DisplayClass17_0_1() ;
+explicit System__Threading__ThreadPool____c__DisplayClass17_0_1() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -220,7 +219,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Threading
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Threading::____System__Threading__ThreadPool____c__DisplayClass17_0_1, "System.Threading", "ThreadPool/<>c__DisplayClass17_0`1");
-NEED_NO_BOX(::System::Threading::ThreadPool);
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::ThreadPool, "System.Threading", "ThreadPool");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Threading::System__Threading__ThreadPool____c__DisplayClass17_0_1, "System.Threading", "ThreadPool/<>c__DisplayClass17_0`1");
+NEED_NO_BOX(System::Threading::ThreadPool);
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPool, "System.Threading", "ThreadPool");

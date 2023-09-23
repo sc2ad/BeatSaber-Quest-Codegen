@@ -3,47 +3,46 @@
 #include "HMUI/zzzz__FlowCoordinator_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
-class MenuTransitionsHelper;
-}
-namespace HMUI {
-class ViewController;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__HowToPlayViewController__HowToPlayOptions;
-}
-namespace GlobalNamespace {
-class HelpMenuViewController;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace GlobalNamespace {
-class PrivacyPolicyDisplayViewController;
-}
-namespace GlobalNamespace {
-class EulaDisplayViewController;
+class PlayerStatisticsViewController;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;
 }
 namespace GlobalNamespace {
+struct GlobalNamespace__HowToPlayViewController__HowToPlayOptions;
+}
+namespace GlobalNamespace {
+class MenuTransitionsHelper;
+}
+namespace GlobalNamespace {
 class HealthWarningDisplayViewController;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace GlobalNamespace {
 class HowToPlayViewController;
 }
 namespace GlobalNamespace {
-class PlayerStatisticsViewController;
+class HelpMenuViewController;
+}
+namespace GlobalNamespace {
+class PrivacyPolicyDisplayViewController;
+}
+namespace HMUI {
+class ViewController;
+}
+namespace GlobalNamespace {
+class EulaDisplayViewController;
 }
 namespace GlobalNamespace {
 class HelpNavigationController;
 }
-namespace System::Collections::Generic {
+namespace System {
 template<typename T>
-class List_1;
+class Action_1;
 }
 namespace System {
 template<typename T1,typename T2>
@@ -59,7 +58,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13633))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5593))
 // CS Name: HelpFlowCoordinator
-class CORDL_TYPE HelpFlowCoordinator : public ::HMUI::FlowCoordinator {
+class CORDL_TYPE HelpFlowCoordinator : public HMUI::FlowCoordinator {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -74,7 +73,7 @@ constexpr HelpFlowCoordinator(HelpFlowCoordinator const& ) noexcept = default;
 constexpr HelpFlowCoordinator(HelpFlowCoordinator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HelpFlowCoordinator(void* ptr) noexcept : ::HMUI::FlowCoordinator(ptr) {
+constexpr explicit HelpFlowCoordinator(void* ptr) noexcept : HMUI::FlowCoordinator(ptr) {
 }
 
 
@@ -95,59 +94,59 @@ constexpr explicit HelpFlowCoordinator(void* ptr) noexcept : ::HMUI::FlowCoordin
 
 // Fields
 
- ::GlobalNamespace::HelpMenuViewController __declspec(property(get=__get__helpMenuViewController, put=__set__helpMenuViewController))  _helpMenuViewController;
+ GlobalNamespace::HelpMenuViewController __declspec(property(get=__get__helpMenuViewController, put=__set__helpMenuViewController))  _helpMenuViewController;
 
-constexpr void __set__helpMenuViewController(::GlobalNamespace::HelpMenuViewController value) ;
+constexpr void __set__helpMenuViewController(GlobalNamespace::HelpMenuViewController value) ;
 
-constexpr ::GlobalNamespace::HelpMenuViewController __get__helpMenuViewController() const;
+constexpr GlobalNamespace::HelpMenuViewController __get__helpMenuViewController() const;
 
- ::GlobalNamespace::HelpNavigationController __declspec(property(get=__get__helpNavigationController, put=__set__helpNavigationController))  _helpNavigationController;
+ GlobalNamespace::HelpNavigationController __declspec(property(get=__get__helpNavigationController, put=__set__helpNavigationController))  _helpNavigationController;
 
-constexpr void __set__helpNavigationController(::GlobalNamespace::HelpNavigationController value) ;
+constexpr void __set__helpNavigationController(GlobalNamespace::HelpNavigationController value) ;
 
-constexpr ::GlobalNamespace::HelpNavigationController __get__helpNavigationController() const;
+constexpr GlobalNamespace::HelpNavigationController __get__helpNavigationController() const;
 
- ::GlobalNamespace::HowToPlayViewController __declspec(property(get=__get__howToPlayViewController, put=__set__howToPlayViewController))  _howToPlayViewController;
+ GlobalNamespace::HowToPlayViewController __declspec(property(get=__get__howToPlayViewController, put=__set__howToPlayViewController))  _howToPlayViewController;
 
-constexpr void __set__howToPlayViewController(::GlobalNamespace::HowToPlayViewController value) ;
+constexpr void __set__howToPlayViewController(GlobalNamespace::HowToPlayViewController value) ;
 
-constexpr ::GlobalNamespace::HowToPlayViewController __get__howToPlayViewController() const;
+constexpr GlobalNamespace::HowToPlayViewController __get__howToPlayViewController() const;
 
- ::GlobalNamespace::HealthWarningDisplayViewController __declspec(property(get=__get__healthWarningDisplayViewController, put=__set__healthWarningDisplayViewController))  _healthWarningDisplayViewController;
+ GlobalNamespace::HealthWarningDisplayViewController __declspec(property(get=__get__healthWarningDisplayViewController, put=__set__healthWarningDisplayViewController))  _healthWarningDisplayViewController;
 
-constexpr void __set__healthWarningDisplayViewController(::GlobalNamespace::HealthWarningDisplayViewController value) ;
+constexpr void __set__healthWarningDisplayViewController(GlobalNamespace::HealthWarningDisplayViewController value) ;
 
-constexpr ::GlobalNamespace::HealthWarningDisplayViewController __get__healthWarningDisplayViewController() const;
+constexpr GlobalNamespace::HealthWarningDisplayViewController __get__healthWarningDisplayViewController() const;
 
- ::GlobalNamespace::PrivacyPolicyDisplayViewController __declspec(property(get=__get__privacyPolicyDisplayViewController, put=__set__privacyPolicyDisplayViewController))  _privacyPolicyDisplayViewController;
+ GlobalNamespace::PrivacyPolicyDisplayViewController __declspec(property(get=__get__privacyPolicyDisplayViewController, put=__set__privacyPolicyDisplayViewController))  _privacyPolicyDisplayViewController;
 
-constexpr void __set__privacyPolicyDisplayViewController(::GlobalNamespace::PrivacyPolicyDisplayViewController value) ;
+constexpr void __set__privacyPolicyDisplayViewController(GlobalNamespace::PrivacyPolicyDisplayViewController value) ;
 
-constexpr ::GlobalNamespace::PrivacyPolicyDisplayViewController __get__privacyPolicyDisplayViewController() const;
+constexpr GlobalNamespace::PrivacyPolicyDisplayViewController __get__privacyPolicyDisplayViewController() const;
 
- ::GlobalNamespace::EulaDisplayViewController __declspec(property(get=__get__eulaDisplayViewController, put=__set__eulaDisplayViewController))  _eulaDisplayViewController;
+ GlobalNamespace::EulaDisplayViewController __declspec(property(get=__get__eulaDisplayViewController, put=__set__eulaDisplayViewController))  _eulaDisplayViewController;
 
-constexpr void __set__eulaDisplayViewController(::GlobalNamespace::EulaDisplayViewController value) ;
+constexpr void __set__eulaDisplayViewController(GlobalNamespace::EulaDisplayViewController value) ;
 
-constexpr ::GlobalNamespace::EulaDisplayViewController __get__eulaDisplayViewController() const;
+constexpr GlobalNamespace::EulaDisplayViewController __get__eulaDisplayViewController() const;
 
- ::GlobalNamespace::PlayerStatisticsViewController __declspec(property(get=__get__playerStatisticsViewController, put=__set__playerStatisticsViewController))  _playerStatisticsViewController;
+ GlobalNamespace::PlayerStatisticsViewController __declspec(property(get=__get__playerStatisticsViewController, put=__set__playerStatisticsViewController))  _playerStatisticsViewController;
 
-constexpr void __set__playerStatisticsViewController(::GlobalNamespace::PlayerStatisticsViewController value) ;
+constexpr void __set__playerStatisticsViewController(GlobalNamespace::PlayerStatisticsViewController value) ;
 
-constexpr ::GlobalNamespace::PlayerStatisticsViewController __get__playerStatisticsViewController() const;
+constexpr GlobalNamespace::PlayerStatisticsViewController __get__playerStatisticsViewController() const;
 
- ::GlobalNamespace::PlayerDataModel __declspec(property(get=__get__playerDataModel, put=__set__playerDataModel))  _playerDataModel;
+ GlobalNamespace::PlayerDataModel __declspec(property(get=__get__playerDataModel, put=__set__playerDataModel))  _playerDataModel;
 
-constexpr void __set__playerDataModel(::GlobalNamespace::PlayerDataModel value) ;
+constexpr void __set__playerDataModel(GlobalNamespace::PlayerDataModel value) ;
 
-constexpr ::GlobalNamespace::PlayerDataModel __get__playerDataModel() const;
+constexpr GlobalNamespace::PlayerDataModel __get__playerDataModel() const;
 
- ::GlobalNamespace::MenuTransitionsHelper __declspec(property(get=__get__menuTransitionsHelper, put=__set__menuTransitionsHelper))  _menuTransitionsHelper;
+ GlobalNamespace::MenuTransitionsHelper __declspec(property(get=__get__menuTransitionsHelper, put=__set__menuTransitionsHelper))  _menuTransitionsHelper;
 
-constexpr void __set__menuTransitionsHelper(::GlobalNamespace::MenuTransitionsHelper value) ;
+constexpr void __set__menuTransitionsHelper(GlobalNamespace::MenuTransitionsHelper value) ;
 
-constexpr ::GlobalNamespace::MenuTransitionsHelper __get__menuTransitionsHelper() const;
+constexpr GlobalNamespace::MenuTransitionsHelper __get__menuTransitionsHelper() const;
 
 /// @brief Field kHowToPlayMenu offset 0
 static constexpr ::ConstString  kHowToPlayMenu{u"LABEL_HOW_TO_PLAY"};
@@ -161,26 +160,26 @@ static constexpr ::ConstString  kEulaMenu{u"EULA_MENU"};
 /// @brief Field kHealthWarningMenu offset 0
 static constexpr ::ConstString  kHealthWarningMenu{u"HEALTH_AND_SAFETY_MENU"};
 
- ::System::Action_1<::GlobalNamespace::HelpFlowCoordinator> __declspec(property(get=__get_didFinishEvent, put=__set_didFinishEvent))  didFinishEvent;
+ System::Action_1<GlobalNamespace::HelpFlowCoordinator> __declspec(property(get=__get_didFinishEvent, put=__set_didFinishEvent))  didFinishEvent;
 
-constexpr void __set_didFinishEvent(::System::Action_1<::GlobalNamespace::HelpFlowCoordinator> value) ;
+constexpr void __set_didFinishEvent(System::Action_1<GlobalNamespace::HelpFlowCoordinator> value) ;
 
-constexpr ::System::Action_1<::GlobalNamespace::HelpFlowCoordinator> __get_didFinishEvent() const;
+constexpr System::Action_1<GlobalNamespace::HelpFlowCoordinator> __get_didFinishEvent() const;
 
- ::System::Collections::Generic::List_1<::System::ValueTuple_2<::HMUI::ViewController,::StringW>> __declspec(property(get=__get__viewControllers, put=__set__viewControllers))  _viewControllers;
+ System::Collections::Generic::List_1<System::ValueTuple_2<HMUI::ViewController,::StringW>> __declspec(property(get=__get__viewControllers, put=__set__viewControllers))  _viewControllers;
 
-constexpr void __set__viewControllers(::System::Collections::Generic::List_1<::System::ValueTuple_2<::HMUI::ViewController,::StringW>> value) ;
+constexpr void __set__viewControllers(System::Collections::Generic::List_1<System::ValueTuple_2<HMUI::ViewController,::StringW>> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::System::ValueTuple_2<::HMUI::ViewController,::StringW>> __get__viewControllers() const;
+constexpr System::Collections::Generic::List_1<System::ValueTuple_2<HMUI::ViewController,::StringW>> __get__viewControllers() const;
 
 
 // Methods
 
 /// @brief Method add_didFinishEvent addr 0x21333c8 size 0xb0 virtual false final false
- void add_didFinishEvent(::System::Action_1<::GlobalNamespace::HelpFlowCoordinator> value) ;
+ void add_didFinishEvent(System::Action_1<GlobalNamespace::HelpFlowCoordinator> value) ;
 
 /// @brief Method remove_didFinishEvent addr 0x2133478 size 0xb0 virtual false final false
- void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::HelpFlowCoordinator> value) ;
+ void remove_didFinishEvent(System::Action_1<GlobalNamespace::HelpFlowCoordinator> value) ;
 
 /// @brief Method DidActivate addr 0x2133528 size 0x488 virtual true final false
  void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) ;
@@ -192,13 +191,13 @@ constexpr ::System::Collections::Generic::List_1<::System::ValueTuple_2<::HMUI::
  void HandleDidSelectHelpSubMenu(int32_t idx) ;
 
 /// @brief Method ReplaceViewController addr 0x2133b20 size 0x104 virtual false final false
- void ReplaceViewController(::HMUI::ViewController viewController) ;
+ void ReplaceViewController(HMUI::ViewController viewController) ;
 
 /// @brief Method HandleHowToPlayViewControllerDidFinish addr 0x2133c24 size 0x78 virtual false final false
- void HandleHowToPlayViewControllerDidFinish(::GlobalNamespace::____GlobalNamespace__HowToPlayViewController__HowToPlayOptions howToPlayOptions) ;
+ void HandleHowToPlayViewControllerDidFinish(GlobalNamespace::GlobalNamespace__HowToPlayViewController__HowToPlayOptions howToPlayOptions) ;
 
 /// @brief Method BackButtonWasPressed addr 0x2133c9c size 0x20 virtual true final false
- void BackButtonWasPressed(::HMUI::ViewController topViewController) ;
+ void BackButtonWasPressed(HMUI::ViewController topViewController) ;
 
 // Ctor Parameters []
 explicit HelpFlowCoordinator() ;
@@ -210,6 +209,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::HelpFlowCoordinator);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::HelpFlowCoordinator, "", "HelpFlowCoordinator");
+NEED_NO_BOX(GlobalNamespace::HelpFlowCoordinator);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HelpFlowCoordinator, "", "HelpFlowCoordinator");

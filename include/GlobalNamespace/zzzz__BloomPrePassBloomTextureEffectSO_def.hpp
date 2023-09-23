@@ -2,12 +2,8 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassEffectSO_def.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
-struct ____GlobalNamespace__PyramidBloomRendererSO__Pass;
-}
-namespace GlobalNamespace {
-class PyramidBloomRendererSO;
+class BloomFogSO;
 }
 namespace GlobalNamespace {
 struct ToneMapping;
@@ -16,7 +12,10 @@ namespace UnityEngine {
 class RenderTexture;
 }
 namespace GlobalNamespace {
-class BloomFogSO;
+struct GlobalNamespace__PyramidBloomRendererSO__Pass;
+}
+namespace GlobalNamespace {
+class PyramidBloomRendererSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,7 +27,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14631))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15333))
 // CS Name: BloomPrePassBloomTextureEffectSO
-class CORDL_TYPE BloomPrePassBloomTextureEffectSO : public ::GlobalNamespace::BloomPrePassEffectSO {
+class CORDL_TYPE BloomPrePassBloomTextureEffectSO : public GlobalNamespace::BloomPrePassEffectSO {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -43,7 +42,7 @@ constexpr BloomPrePassBloomTextureEffectSO(BloomPrePassBloomTextureEffectSO cons
 constexpr BloomPrePassBloomTextureEffectSO(BloomPrePassBloomTextureEffectSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BloomPrePassBloomTextureEffectSO(void* ptr) noexcept : ::GlobalNamespace::BloomPrePassEffectSO(ptr) {
+constexpr explicit BloomPrePassBloomTextureEffectSO(void* ptr) noexcept : GlobalNamespace::BloomPrePassEffectSO(ptr) {
 }
 
 
@@ -106,55 +105,55 @@ constexpr void __set__finalUpsampleBrightness(float_t value) ;
 
 constexpr float_t __get__finalUpsampleBrightness() const;
 
- ::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Pass __declspec(property(get=__get__prefilterPass, put=__set__prefilterPass))  _prefilterPass;
+ GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass __declspec(property(get=__get__prefilterPass, put=__set__prefilterPass))  _prefilterPass;
 
-constexpr void __set__prefilterPass(::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Pass value) ;
+constexpr void __set__prefilterPass(GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Pass __get__prefilterPass() const;
+constexpr GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass __get__prefilterPass() const;
 
- ::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Pass __declspec(property(get=__get__downsamplePass, put=__set__downsamplePass))  _downsamplePass;
+ GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass __declspec(property(get=__get__downsamplePass, put=__set__downsamplePass))  _downsamplePass;
 
-constexpr void __set__downsamplePass(::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Pass value) ;
+constexpr void __set__downsamplePass(GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Pass __get__downsamplePass() const;
+constexpr GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass __get__downsamplePass() const;
 
- ::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Pass __declspec(property(get=__get__upsamplePass, put=__set__upsamplePass))  _upsamplePass;
+ GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass __declspec(property(get=__get__upsamplePass, put=__set__upsamplePass))  _upsamplePass;
 
-constexpr void __set__upsamplePass(::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Pass value) ;
+constexpr void __set__upsamplePass(GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Pass __get__upsamplePass() const;
+constexpr GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass __get__upsamplePass() const;
 
- ::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Pass __declspec(property(get=__get__finalUpsamplePass, put=__set__finalUpsamplePass))  _finalUpsamplePass;
+ GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass __declspec(property(get=__get__finalUpsamplePass, put=__set__finalUpsamplePass))  _finalUpsamplePass;
 
-constexpr void __set__finalUpsamplePass(::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Pass value) ;
+constexpr void __set__finalUpsamplePass(GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__PyramidBloomRendererSO__Pass __get__finalUpsamplePass() const;
+constexpr GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass __get__finalUpsamplePass() const;
 
- ::GlobalNamespace::PyramidBloomRendererSO __declspec(property(get=__get__bloomRenderer, put=__set__bloomRenderer))  _bloomRenderer;
+ GlobalNamespace::PyramidBloomRendererSO __declspec(property(get=__get__bloomRenderer, put=__set__bloomRenderer))  _bloomRenderer;
 
-constexpr void __set__bloomRenderer(::GlobalNamespace::PyramidBloomRendererSO value) ;
+constexpr void __set__bloomRenderer(GlobalNamespace::PyramidBloomRendererSO value) ;
 
-constexpr ::GlobalNamespace::PyramidBloomRendererSO __get__bloomRenderer() const;
+constexpr GlobalNamespace::PyramidBloomRendererSO __get__bloomRenderer() const;
 
- ::GlobalNamespace::BloomFogSO __declspec(property(get=__get__bloomFog, put=__set__bloomFog))  _bloomFog;
+ GlobalNamespace::BloomFogSO __declspec(property(get=__get__bloomFog, put=__set__bloomFog))  _bloomFog;
 
-constexpr void __set__bloomFog(::GlobalNamespace::BloomFogSO value) ;
+constexpr void __set__bloomFog(GlobalNamespace::BloomFogSO value) ;
 
-constexpr ::GlobalNamespace::BloomFogSO __get__bloomFog() const;
+constexpr GlobalNamespace::BloomFogSO __get__bloomFog() const;
 
 
 // Properties
 
- ::GlobalNamespace::ToneMapping __declspec(property(get=get_toneMapping))  toneMapping;
+ GlobalNamespace::ToneMapping __declspec(property(get=get_toneMapping))  toneMapping;
 
 
 // Methods
 
 /// @brief Method get_toneMapping addr 0x267ac78 size 0x20 virtual true final false
- ::GlobalNamespace::ToneMapping get_toneMapping() ;
+ GlobalNamespace::ToneMapping get_toneMapping() ;
 
 /// @brief Method Render addr 0x267ac98 size 0x64 virtual true final false
- void Render(::UnityEngine::RenderTexture src, ::UnityEngine::RenderTexture dest) ;
+ void Render(UnityEngine::RenderTexture src, UnityEngine::RenderTexture dest) ;
 
 // Ctor Parameters []
 explicit BloomPrePassBloomTextureEffectSO() ;
@@ -166,6 +165,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BloomPrePassBloomTextureEffectSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BloomPrePassBloomTextureEffectSO, "", "BloomPrePassBloomTextureEffectSO");
+NEED_NO_BOX(GlobalNamespace::BloomPrePassBloomTextureEffectSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBloomTextureEffectSO, "", "BloomPrePassBloomTextureEffectSO");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
 struct SymmetricKeyAlgorithmTag;
@@ -79,50 +78,49 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Null offset 0
-static ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Null;
+static Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Null;
 
 /// @brief Field Idea offset 0
-static ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Idea;
+static Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Idea;
 
 /// @brief Field TripleDes offset 0
-static ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const TripleDes;
+static Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const TripleDes;
 
 /// @brief Field Cast5 offset 0
-static ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Cast5;
+static Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Cast5;
 
 /// @brief Field Blowfish offset 0
-static ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Blowfish;
+static Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Blowfish;
 
 /// @brief Field Safer offset 0
-static ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Safer;
+static Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Safer;
 
 /// @brief Field Des offset 0
-static ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Des;
+static Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Des;
 
 /// @brief Field Aes128 offset 0
-static ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Aes128;
+static Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Aes128;
 
 /// @brief Field Aes192 offset 0
-static ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Aes192;
+static Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Aes192;
 
 /// @brief Field Aes256 offset 0
-static ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Aes256;
+static Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Aes256;
 
 /// @brief Field Twofish offset 0
-static ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Twofish;
+static Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Twofish;
 
 /// @brief Field Camellia128 offset 0
-static ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Camellia128;
+static Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Camellia128;
 
 /// @brief Field Camellia192 offset 0
-static ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Camellia192;
+static Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Camellia192;
 
 /// @brief Field Camellia256 offset 0
-static ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Camellia256;
+static Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Camellia256;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag, "Org.BouncyCastle.Bcpg", "SymmetricKeyAlgorithmTag");
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag, "Org.BouncyCastle.Bcpg", "SymmetricKeyAlgorithmTag");

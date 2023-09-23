@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net {
 struct SecurityProtocolType;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field SystemDefault offset 0
-static ::System::Net::SecurityProtocolType const SystemDefault;
+static System::Net::SecurityProtocolType const SystemDefault;
 
 /// @brief Field Ssl3 offset 0
-static ::System::Net::SecurityProtocolType const Ssl3;
+static System::Net::SecurityProtocolType const Ssl3;
 
 /// @brief Field Tls offset 0
-static ::System::Net::SecurityProtocolType const Tls;
+static System::Net::SecurityProtocolType const Tls;
 
 /// @brief Field Tls11 offset 0
-static ::System::Net::SecurityProtocolType const Tls11;
+static System::Net::SecurityProtocolType const Tls11;
 
 /// @brief Field Tls12 offset 0
-static ::System::Net::SecurityProtocolType const Tls12;
+static System::Net::SecurityProtocolType const Tls12;
 
 /// @brief Field Tls13 offset 0
-static ::System::Net::SecurityProtocolType const Tls13;
+static System::Net::SecurityProtocolType const Tls13;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::SecurityProtocolType, "System.Net", "SecurityProtocolType");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::SecurityProtocolType, "System.Net", "SecurityProtocolType");

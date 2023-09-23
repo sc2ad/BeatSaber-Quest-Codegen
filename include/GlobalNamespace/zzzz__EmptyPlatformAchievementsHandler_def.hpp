@@ -2,18 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace GlobalNamespace {
+class IPlatformAchievementsHandler;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler;
+}
 namespace GlobalNamespace {
 class HMAsyncRequest;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler;
-}
-namespace GlobalNamespace {
-class IPlatformAchievementsHandler;
+class GlobalNamespace__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,8 +27,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE EmptyPlatformAchievementsHandler : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IPlatformAchievementsHandler
-constexpr operator  ::GlobalNamespace::IPlatformAchievementsHandler() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IPlatformAchievementsHandler
+constexpr operator  GlobalNamespace::IPlatformAchievementsHandler() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -68,10 +67,10 @@ constexpr explicit EmptyPlatformAchievementsHandler(void* ptr) noexcept : ::bs_h
  void Initialize() ;
 
 /// @brief Method UnlockAchievement addr 0x20c7068 size 0x8 virtual true final true
- ::GlobalNamespace::HMAsyncRequest UnlockAchievement(::StringW achievementId, ::GlobalNamespace::____GlobalNamespace__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler completionHandler) ;
+ GlobalNamespace::HMAsyncRequest UnlockAchievement(::StringW achievementId, GlobalNamespace::GlobalNamespace__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler completionHandler) ;
 
 /// @brief Method GetUnlockedAchievements addr 0x20c7070 size 0x8 virtual true final true
- ::GlobalNamespace::HMAsyncRequest GetUnlockedAchievements(::GlobalNamespace::____GlobalNamespace__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler completionHandler) ;
+ GlobalNamespace::HMAsyncRequest GetUnlockedAchievements(GlobalNamespace::GlobalNamespace__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler completionHandler) ;
 
 // Ctor Parameters []
 explicit EmptyPlatformAchievementsHandler() ;
@@ -83,6 +82,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::EmptyPlatformAchievementsHandler);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EmptyPlatformAchievementsHandler, "", "EmptyPlatformAchievementsHandler");
+NEED_NO_BOX(GlobalNamespace::EmptyPlatformAchievementsHandler);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EmptyPlatformAchievementsHandler, "", "EmptyPlatformAchievementsHandler");

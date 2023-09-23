@@ -3,16 +3,15 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-class OVRSceneAnchor;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace UnityEngine {
 class ISerializationCallbackReceiver;
+}
+namespace GlobalNamespace {
+class OVRSceneAnchor;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,8 +26,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRScenePrefabOverride : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::ISerializationCallbackReceiver
-constexpr operator  ::UnityEngine::ISerializationCallbackReceiver() const noexcept;
+/// @brief Convert operator to UnityEngine::ISerializationCallbackReceiver
+constexpr operator  UnityEngine::ISerializationCallbackReceiver() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -63,11 +62,11 @@ constexpr explicit OVRScenePrefabOverride(void* ptr) noexcept : ::bs_hook::Il2Cp
 
 // Fields
 
- ::GlobalNamespace::OVRSceneAnchor __declspec(property(get=__get_Prefab, put=__set_Prefab))  Prefab;
+ GlobalNamespace::OVRSceneAnchor __declspec(property(get=__get_Prefab, put=__set_Prefab))  Prefab;
 
-constexpr void __set_Prefab(::GlobalNamespace::OVRSceneAnchor value) ;
+constexpr void __set_Prefab(GlobalNamespace::OVRSceneAnchor value) ;
 
-constexpr ::GlobalNamespace::OVRSceneAnchor __get_Prefab() const;
+constexpr GlobalNamespace::OVRSceneAnchor __get_Prefab() const;
 
  ::StringW __declspec(property(get=__get_ClassificationLabel, put=__set_ClassificationLabel))  ClassificationLabel;
 
@@ -97,12 +96,11 @@ explicit OVRScenePrefabOverride() ;
  void _ctor() ;
 
 /// @brief Method <UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize>g__IndexOf|4_0 addr 0x260c160 size 0x314 virtual false final false
-static int32_t _UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_g__IndexOf_4_0(::StringW label, ::System::Collections::Generic::IEnumerable_1<::StringW> collection) ;
+static int32_t _UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_g__IndexOf_4_0(::StringW label, System::Collections::Generic::IEnumerable_1<::StringW> collection) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OVRScenePrefabOverride);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRScenePrefabOverride, "", "OVRScenePrefabOverride");
+NEED_NO_BOX(GlobalNamespace::OVRScenePrefabOverride);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRScenePrefabOverride, "", "OVRScenePrefabOverride");

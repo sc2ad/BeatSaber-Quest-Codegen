@@ -3,16 +3,15 @@
 #include "UnityEngine/UIElements/StyleSheets/zzzz__BaseStyleMatcher_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine::UIElements::StyleSheets {
-struct MatchResult;
+struct StylePropertyValue;
 }
 namespace UnityEngine::UIElements::StyleSheets {
-struct StylePropertyValue;
+struct MatchResult;
 }
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 class Expression;
@@ -27,7 +26,7 @@ namespace UnityEngine::UIElements::StyleSheets {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7583))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7584))
 // CS Name: UnityEngine.UIElements.StyleSheets.StylePropertyValueMatcher
-class CORDL_TYPE StylePropertyValueMatcher : public ::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher {
+class CORDL_TYPE StylePropertyValueMatcher : public UnityEngine::UIElements::StyleSheets::BaseStyleMatcher {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -42,7 +41,7 @@ constexpr StylePropertyValueMatcher(StylePropertyValueMatcher const& ) noexcept 
 constexpr StylePropertyValueMatcher(StylePropertyValueMatcher&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit StylePropertyValueMatcher(void* ptr) noexcept : ::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher(ptr) {
+constexpr explicit StylePropertyValueMatcher(void* ptr) noexcept : UnityEngine::UIElements::StyleSheets::BaseStyleMatcher(ptr) {
 }
 
 
@@ -63,16 +62,16 @@ constexpr explicit StylePropertyValueMatcher(void* ptr) noexcept : ::UnityEngine
 
 // Fields
 
- ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyValue> __declspec(property(get=__get_m_Values, put=__set_m_Values))  m_Values;
+ System::Collections::Generic::List_1<UnityEngine::UIElements::StyleSheets::StylePropertyValue> __declspec(property(get=__get_m_Values, put=__set_m_Values))  m_Values;
 
-constexpr void __set_m_Values(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyValue> value) ;
+constexpr void __set_m_Values(System::Collections::Generic::List_1<UnityEngine::UIElements::StyleSheets::StylePropertyValue> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyValue> __get_m_Values() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::UIElements::StyleSheets::StylePropertyValue> __get_m_Values() const;
 
 
 // Properties
 
- ::UnityEngine::UIElements::StyleSheets::StylePropertyValue __declspec(property(get=get_current))  current;
+ UnityEngine::UIElements::StyleSheets::StylePropertyValue __declspec(property(get=get_current))  current;
 
  int32_t __declspec(property(get=get_valueCount))  valueCount;
 
@@ -84,7 +83,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Styl
 // Methods
 
 /// @brief Method get_current addr 0x2c785d0 size 0x84 virtual false final false
- ::UnityEngine::UIElements::StyleSheets::StylePropertyValue get_current() ;
+ UnityEngine::UIElements::StyleSheets::StylePropertyValue get_current() ;
 
 /// @brief Method get_valueCount addr 0x2c78654 size 0x48 virtual true final false
  int32_t get_valueCount() ;
@@ -96,7 +95,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Styl
  bool get_isCurrentComma() ;
 
 /// @brief Method Match addr 0x2c7874c size 0x17c virtual false final false
- ::UnityEngine::UIElements::StyleSheets::MatchResult Match(::UnityEngine::UIElements::StyleSheets::Syntax::Expression exp, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyValue> values) ;
+ UnityEngine::UIElements::StyleSheets::MatchResult Match(UnityEngine::UIElements::StyleSheets::Syntax::Expression exp, System::Collections::Generic::List_1<UnityEngine::UIElements::StyleSheets::StylePropertyValue> values) ;
 
 /// @brief Method MatchKeyword addr 0x2c788c8 size 0xb4 virtual true final false
  bool MatchKeyword(::StringW keyword) ;
@@ -141,6 +140,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::StyleSheets
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher, "UnityEngine.UIElements.StyleSheets", "StylePropertyValueMatcher");
+NEED_NO_BOX(UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher, "UnityEngine.UIElements.StyleSheets", "StylePropertyValueMatcher");

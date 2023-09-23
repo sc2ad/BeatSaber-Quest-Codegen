@@ -1,17 +1,16 @@
 #pragma once
 #include "System/zzzz__Attribute_impl.hpp"
-namespace {
 #include "System/Reflection/zzzz__AssemblyDelaySignAttribute_def.hpp"
-//  Writing Method size for method: ::System::Reflection::AssemblyDelaySignAttribute._ctor
+//  Writing Method size for method: System::Reflection::AssemblyDelaySignAttribute._ctor
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Reflection::AssemblyDelaySignAttribute::*)(bool)>(&::System::Reflection::AssemblyDelaySignAttribute::_ctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::AssemblyDelaySignAttribute::*)(bool)>(&System::Reflection::AssemblyDelaySignAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x2378d20;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::AssemblyDelaySignAttribute>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::AssemblyDelaySignAttribute>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
@@ -19,21 +18,20 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Sys
     return ___internal_method;
   }
 };
-constexpr void ::System::Reflection::AssemblyDelaySignAttribute::__set__DelaySign_k__BackingField(bool value)  {
+constexpr void System::Reflection::AssemblyDelaySignAttribute::__set__DelaySign_k__BackingField(bool value)  {
 ::cordl_internals::setInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<bool>(value));
 }
-constexpr bool ::System::Reflection::AssemblyDelaySignAttribute::__get__DelaySign_k__BackingField() const {
+constexpr bool System::Reflection::AssemblyDelaySignAttribute::__get__DelaySign_k__BackingField() const {
 return ::cordl_internals::getInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
 // Ctor Parameters [CppParam { name: "delaySign", ty: "bool", modifiers: "", def_value: None }]
- ::System::Reflection::AssemblyDelaySignAttribute::AssemblyDelaySignAttribute(bool delaySign)  : ::System::Attribute(THROW_UNLESS(::il2cpp_utils::New<AssemblyDelaySignAttribute>(delaySign))) {}
- void ::System::Reflection::AssemblyDelaySignAttribute::_ctor(bool delaySign)  {
+ System::Reflection::AssemblyDelaySignAttribute::AssemblyDelaySignAttribute(bool delaySign)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<AssemblyDelaySignAttribute>(delaySign))) {}
+ void System::Reflection::AssemblyDelaySignAttribute::_ctor(bool delaySign)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::AssemblyDelaySignAttribute>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::AssemblyDelaySignAttribute>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, delaySign);
 }
-} // end anonymous namespace

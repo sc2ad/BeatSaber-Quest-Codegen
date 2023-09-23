@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HAPI_NodeFlags;
@@ -82,59 +81,58 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field HAPI_NODEFLAGS_ANY offset 0
-static ::HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_ANY;
+static HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_ANY;
 
 /// @brief Field HAPI_NODEFLAGS_NONE offset 0
-static ::HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_NONE;
+static HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_NONE;
 
 /// @brief Field HAPI_NODEFLAGS_DISPLAY offset 0
-static ::HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_DISPLAY;
+static HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_DISPLAY;
 
 /// @brief Field HAPI_NODEFLAGS_RENDER offset 0
-static ::HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_RENDER;
+static HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_RENDER;
 
 /// @brief Field HAPI_NODEFLAGS_TEMPLATED offset 0
-static ::HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_TEMPLATED;
+static HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_TEMPLATED;
 
 /// @brief Field HAPI_NODEFLAGS_LOCKED offset 0
-static ::HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_LOCKED;
+static HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_LOCKED;
 
 /// @brief Field HAPI_NODEFLAGS_EDITABLE offset 0
-static ::HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_EDITABLE;
+static HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_EDITABLE;
 
 /// @brief Field HAPI_NODEFLAGS_BYPASS offset 0
-static ::HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_BYPASS;
+static HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_BYPASS;
 
 /// @brief Field HAPI_NODEFLAGS_NETWORK offset 0
-static ::HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_NETWORK;
+static HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_NETWORK;
 
 /// @brief Field HAPI_NODEFLAGS_OBJ_GEOMETRY offset 0
-static ::HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_OBJ_GEOMETRY;
+static HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_OBJ_GEOMETRY;
 
 /// @brief Field HAPI_NODEFLAGS_OBJ_CAMERA offset 0
-static ::HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_OBJ_CAMERA;
+static HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_OBJ_CAMERA;
 
 /// @brief Field HAPI_NODEFLAGS_OBJ_LIGHT offset 0
-static ::HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_OBJ_LIGHT;
+static HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_OBJ_LIGHT;
 
 /// @brief Field HAPI_NODEFLAGS_OBJ_SUBNET offset 0
-static ::HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_OBJ_SUBNET;
+static HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_OBJ_SUBNET;
 
 /// @brief Field HAPI_NODEFLAGS_SOP_CURVE offset 0
-static ::HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_SOP_CURVE;
+static HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_SOP_CURVE;
 
 /// @brief Field HAPI_NODEFLAGS_SOP_GUIDE offset 0
-static ::HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_SOP_GUIDE;
+static HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_SOP_GUIDE;
 
 /// @brief Field HAPI_NODEFLAGS_TOP_NONSCHEDULER offset 0
-static ::HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_TOP_NONSCHEDULER;
+static HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_TOP_NONSCHEDULER;
 
 /// @brief Field HAPI_NODEFLAGS_NON_BYPASS offset 0
-static ::HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_NON_BYPASS;
+static HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_NON_BYPASS;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_NodeFlags, "HoudiniEngineUnity", "HAPI_NodeFlags");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_NodeFlags, "HoudiniEngineUnity", "HAPI_NodeFlags");

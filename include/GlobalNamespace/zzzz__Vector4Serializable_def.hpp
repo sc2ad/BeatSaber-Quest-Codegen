@@ -4,22 +4,21 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace System {
+template<typename T>
+class IEquatable_1;
+}
+namespace UnityEngine {
+struct Vector4;
+}
 namespace LiteNetLib::Utils {
 class INetSerializable;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace System {
-template<typename T>
-class IEquatable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,11 +33,11 @@ namespace GlobalNamespace {
 struct CORDL_TYPE Vector4Serializable : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::LiteNetLib::Utils::INetSerializable
-constexpr operator  ::LiteNetLib::Utils::INetSerializable() const;
+/// @brief Convert operator to LiteNetLib::Utils::INetSerializable
+constexpr operator  LiteNetLib::Utils::INetSerializable() const;
 
-/// @brief Convert operator to ::System::IEquatable_1<::GlobalNamespace::Vector4Serializable>
-constexpr operator  ::System::IEquatable_1<::GlobalNamespace::Vector4Serializable>() const;
+/// @brief Convert operator to System::IEquatable_1<GlobalNamespace::Vector4Serializable>
+constexpr operator  System::IEquatable_1<GlobalNamespace::Vector4Serializable>() const;
 
 // Ctor Parameters [CppParam { name: "_x", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_y", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_z", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_w", ty: "int32_t", modifiers: "", def_value: None }]
 constexpr Vector4Serializable(int32_t _x, int32_t _y, int32_t _z, int32_t _w) noexcept;
@@ -102,16 +101,16 @@ constexpr int32_t __get__w() const;
 // Methods
 
 /// @brief Method Serialize addr 0x121a104 size 0x68 virtual true final true
- void Serialize(::LiteNetLib::Utils::NetDataWriter writer) ;
+ void Serialize(LiteNetLib::Utils::NetDataWriter writer) ;
 
 /// @brief Method Deserialize addr 0x121a16c size 0x7c virtual true final true
- void Deserialize(::LiteNetLib::Utils::NetDataReader reader) ;
+ void Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
 
 /// @brief Method Equals addr 0x121a1e8 size 0x44 virtual true final true
- bool Equals(::GlobalNamespace::Vector4Serializable other) ;
+ bool Equals(GlobalNamespace::Vector4Serializable other) ;
 
 /// @brief Method Approximately addr 0x121a22c size 0x74 virtual false final false
- bool Approximately(::GlobalNamespace::Vector4Serializable other) ;
+ bool Approximately(GlobalNamespace::Vector4Serializable other) ;
 
 /// @brief Method Equals addr 0x121a2a0 size 0xa8 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -126,26 +125,25 @@ constexpr int32_t __get__w() const;
  int32_t GetSize() ;
 
 /// @brief Method .ctor addr 0x121a62c size 0x34c virtual false final false
- void _ctor(::UnityEngine::Vector4 v) ;
+ void _ctor(UnityEngine::Vector4 v) ;
 
 /// @brief Method .ctor addr 0x121a978 size 0x8 virtual false final false
- void _ctor(::LiteNetLib::Utils::NetDataReader reader) ;
+ void _ctor(LiteNetLib::Utils::NetDataReader reader) ;
 
 /// @brief Method op_Implicit addr 0x121a980 size 0x34 virtual false final false
-static ::UnityEngine::Vector4 op_Implicit___UnityEngine__Vector4(::GlobalNamespace::Vector4Serializable v) ;
+static UnityEngine::Vector4 op_Implicit_UnityEngine__Vector4(GlobalNamespace::Vector4Serializable v) ;
 
 /// @brief Method op_Implicit addr 0x121a9b4 size 0x24 virtual false final false
-static ::GlobalNamespace::Vector4Serializable op_Implicit___GlobalNamespace__Vector4Serializable(::UnityEngine::Vector4 v) ;
+static GlobalNamespace::Vector4Serializable op_Implicit_GlobalNamespace__Vector4Serializable(UnityEngine::Vector4 v) ;
 
 /// @brief Method op_Addition addr 0x121a9d8 size 0x2c virtual false final false
-static ::GlobalNamespace::Vector4Serializable op_Addition(::GlobalNamespace::Vector4Serializable a, ::GlobalNamespace::Vector4Serializable b) ;
+static GlobalNamespace::Vector4Serializable op_Addition(GlobalNamespace::Vector4Serializable a, GlobalNamespace::Vector4Serializable b) ;
 
 /// @brief Method op_Subtraction addr 0x121aa04 size 0x2c virtual false final false
-static ::GlobalNamespace::Vector4Serializable op_Subtraction(::GlobalNamespace::Vector4Serializable a, ::GlobalNamespace::Vector4Serializable b) ;
+static GlobalNamespace::Vector4Serializable op_Subtraction(GlobalNamespace::Vector4Serializable a, GlobalNamespace::Vector4Serializable b) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::Vector4Serializable, "", "Vector4Serializable");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Vector4Serializable, "", "Vector4Serializable");

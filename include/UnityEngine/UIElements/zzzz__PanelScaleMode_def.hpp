@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 struct PanelScaleMode;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field ConstantPixelSize offset 0
-static ::UnityEngine::UIElements::PanelScaleMode const ConstantPixelSize;
+static UnityEngine::UIElements::PanelScaleMode const ConstantPixelSize;
 
 /// @brief Field ConstantPhysicalSize offset 0
-static ::UnityEngine::UIElements::PanelScaleMode const ConstantPhysicalSize;
+static UnityEngine::UIElements::PanelScaleMode const ConstantPhysicalSize;
 
 /// @brief Field ScaleWithScreenSize offset 0
-static ::UnityEngine::UIElements::PanelScaleMode const ScaleWithScreenSize;
+static UnityEngine::UIElements::PanelScaleMode const ScaleWithScreenSize;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::PanelScaleMode, "UnityEngine.UIElements", "PanelScaleMode");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::PanelScaleMode, "UnityEngine.UIElements", "PanelScaleMode");

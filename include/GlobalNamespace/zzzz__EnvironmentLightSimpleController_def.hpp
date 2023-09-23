@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-class LightWithIdManager;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace GlobalNamespace {
+class LightWithIdManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4979))
 // CS Name: EnvironmentLightSimpleController
-class CORDL_TYPE EnvironmentLightSimpleController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE EnvironmentLightSimpleController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr EnvironmentLightSimpleController(EnvironmentLightSimpleController cons
 constexpr EnvironmentLightSimpleController(EnvironmentLightSimpleController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EnvironmentLightSimpleController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit EnvironmentLightSimpleController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -55,11 +54,11 @@ constexpr explicit EnvironmentLightSimpleController(void* ptr) noexcept : ::Unit
 
 // Fields
 
- ::UnityEngine::Color __declspec(property(get=__get__color, put=__set__color))  _color;
+ UnityEngine::Color __declspec(property(get=__get__color, put=__set__color))  _color;
 
-constexpr void __set__color(::UnityEngine::Color value) ;
+constexpr void __set__color(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__color() const;
+constexpr UnityEngine::Color __get__color() const;
 
  int32_t __declspec(property(get=__get__colorId, put=__set__colorId))  _colorId;
 
@@ -67,11 +66,11 @@ constexpr void __set__colorId(int32_t value) ;
 
 constexpr int32_t __get__colorId() const;
 
- ::GlobalNamespace::LightWithIdManager __declspec(property(get=__get__lightManager, put=__set__lightManager))  _lightManager;
+ GlobalNamespace::LightWithIdManager __declspec(property(get=__get__lightManager, put=__set__lightManager))  _lightManager;
 
-constexpr void __set__lightManager(::GlobalNamespace::LightWithIdManager value) ;
+constexpr void __set__lightManager(GlobalNamespace::LightWithIdManager value) ;
 
-constexpr ::GlobalNamespace::LightWithIdManager __get__lightManager() const;
+constexpr GlobalNamespace::LightWithIdManager __get__lightManager() const;
 
 
 // Methods
@@ -89,6 +88,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::EnvironmentLightSimpleController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EnvironmentLightSimpleController, "", "EnvironmentLightSimpleController");
+NEED_NO_BOX(GlobalNamespace::EnvironmentLightSimpleController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentLightSimpleController, "", "EnvironmentLightSimpleController");

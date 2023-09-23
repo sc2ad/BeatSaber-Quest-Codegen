@@ -3,25 +3,24 @@
 #include "UnityEngine/UI/zzzz__BaseMeshEffect_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct Color;
-}
 namespace UnityEngine {
 struct Vector2;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace UnityEngine::UI {
 class VertexHelper;
 }
 namespace UnityEngine {
+struct Color32;
+}
+namespace UnityEngine {
 struct UIVertex;
 }
 namespace UnityEngine {
-struct Color32;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+struct Color;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -33,7 +32,7 @@ namespace UnityEngine::UI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13082))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13087))
 // CS Name: UnityEngine.UI.Shadow
-class CORDL_TYPE Shadow : public ::UnityEngine::UI::BaseMeshEffect {
+class CORDL_TYPE Shadow : public UnityEngine::UI::BaseMeshEffect {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -48,7 +47,7 @@ constexpr Shadow(Shadow const& ) noexcept = default;
 constexpr Shadow(Shadow&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Shadow(void* ptr) noexcept : ::UnityEngine::UI::BaseMeshEffect(ptr) {
+constexpr explicit Shadow(void* ptr) noexcept : UnityEngine::UI::BaseMeshEffect(ptr) {
 }
 
 
@@ -69,17 +68,17 @@ constexpr explicit Shadow(void* ptr) noexcept : ::UnityEngine::UI::BaseMeshEffec
 
 // Fields
 
- ::UnityEngine::Color __declspec(property(get=__get_m_EffectColor, put=__set_m_EffectColor))  m_EffectColor;
+ UnityEngine::Color __declspec(property(get=__get_m_EffectColor, put=__set_m_EffectColor))  m_EffectColor;
 
-constexpr void __set_m_EffectColor(::UnityEngine::Color value) ;
+constexpr void __set_m_EffectColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_m_EffectColor() const;
+constexpr UnityEngine::Color __get_m_EffectColor() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_m_EffectDistance, put=__set_m_EffectDistance))  m_EffectDistance;
+ UnityEngine::Vector2 __declspec(property(get=__get_m_EffectDistance, put=__set_m_EffectDistance))  m_EffectDistance;
 
-constexpr void __set_m_EffectDistance(::UnityEngine::Vector2 value) ;
+constexpr void __set_m_EffectDistance(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_m_EffectDistance() const;
+constexpr UnityEngine::Vector2 __get_m_EffectDistance() const;
 
  bool __declspec(property(get=__get_m_UseGraphicAlpha, put=__set_m_UseGraphicAlpha))  m_UseGraphicAlpha;
 
@@ -93,9 +92,9 @@ static constexpr float_t  kMaxEffectDistance{600};
 
 // Properties
 
- ::UnityEngine::Color __declspec(property(get=get_effectColor, put=set_effectColor))  effectColor;
+ UnityEngine::Color __declspec(property(get=get_effectColor, put=set_effectColor))  effectColor;
 
- ::UnityEngine::Vector2 __declspec(property(get=get_effectDistance, put=set_effectDistance))  effectDistance;
+ UnityEngine::Vector2 __declspec(property(get=get_effectDistance, put=set_effectDistance))  effectDistance;
 
  bool __declspec(property(get=get_useGraphicAlpha, put=set_useGraphicAlpha))  useGraphicAlpha;
 
@@ -109,16 +108,16 @@ explicit Shadow() ;
  void _ctor() ;
 
 /// @brief Method get_effectColor addr 0x2c184b8 size 0xc virtual false final false
- ::UnityEngine::Color get_effectColor() ;
+ UnityEngine::Color get_effectColor() ;
 
 /// @brief Method set_effectColor addr 0x2c184c4 size 0xd4 virtual false final false
- void set_effectColor(::UnityEngine::Color value) ;
+ void set_effectColor(UnityEngine::Color value) ;
 
 /// @brief Method get_effectDistance addr 0x2c18598 size 0x8 virtual false final false
- ::UnityEngine::Vector2 get_effectDistance() ;
+ UnityEngine::Vector2 get_effectDistance() ;
 
 /// @brief Method set_effectDistance addr 0x2c185a0 size 0x104 virtual false final false
- void set_effectDistance(::UnityEngine::Vector2 value) ;
+ void set_effectDistance(UnityEngine::Vector2 value) ;
 
 /// @brief Method get_useGraphicAlpha addr 0x2c186a4 size 0x8 virtual false final false
  bool get_useGraphicAlpha() ;
@@ -127,18 +126,17 @@ explicit Shadow() ;
  void set_useGraphicAlpha(bool value) ;
 
 /// @brief Method ApplyShadowZeroAlloc addr 0x2c18764 size 0x30c virtual false final false
- void ApplyShadowZeroAlloc(::System::Collections::Generic::List_1<::UnityEngine::UIVertex> verts, ::UnityEngine::Color32 color, int32_t start, int32_t end, float_t x, float_t y) ;
+ void ApplyShadowZeroAlloc(System::Collections::Generic::List_1<UnityEngine::UIVertex> verts, UnityEngine::Color32 color, int32_t start, int32_t end, float_t x, float_t y) ;
 
 /// @brief Method ApplyShadow addr 0x2c18a70 size 0x8 virtual false final false
- void ApplyShadow(::System::Collections::Generic::List_1<::UnityEngine::UIVertex> verts, ::UnityEngine::Color32 color, int32_t start, int32_t end, float_t x, float_t y) ;
+ void ApplyShadow(System::Collections::Generic::List_1<UnityEngine::UIVertex> verts, UnityEngine::Color32 color, int32_t start, int32_t end, float_t x, float_t y) ;
 
 /// @brief Method ModifyMesh addr 0x2c18a78 size 0x3e0 virtual true final false
- void ModifyMesh(::UnityEngine::UI::VertexHelper vh) ;
+ void ModifyMesh(UnityEngine::UI::VertexHelper vh) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UI
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UI::Shadow);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::Shadow, "UnityEngine.UI", "Shadow");
+NEED_NO_BOX(UnityEngine::UI::Shadow);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Shadow, "UnityEngine.UI", "Shadow");

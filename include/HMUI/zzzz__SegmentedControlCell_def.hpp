@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__SelectableCell_def.hpp"
 #include <cstdint>
-namespace {
 namespace HMUI {
 class SegmentedControl;
 }
@@ -16,7 +15,7 @@ namespace HMUI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13704))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13604))
 // CS Name: HMUI.SegmentedControlCell
-class CORDL_TYPE SegmentedControlCell : public ::HMUI::SelectableCell {
+class CORDL_TYPE SegmentedControlCell : public HMUI::SelectableCell {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr SegmentedControlCell(SegmentedControlCell const& ) noexcept = default;
 constexpr SegmentedControlCell(SegmentedControlCell&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SegmentedControlCell(void* ptr) noexcept : ::HMUI::SelectableCell(ptr) {
+constexpr explicit SegmentedControlCell(void* ptr) noexcept : HMUI::SelectableCell(ptr) {
 }
 
 
@@ -58,11 +57,11 @@ constexpr void __set__cellNumber_k__BackingField(int32_t value) ;
 
 constexpr int32_t __get__cellNumber_k__BackingField() const;
 
- ::HMUI::SegmentedControl __declspec(property(get=__get__segmentedControl, put=__set__segmentedControl))  _segmentedControl;
+ HMUI::SegmentedControl __declspec(property(get=__get__segmentedControl, put=__set__segmentedControl))  _segmentedControl;
 
-constexpr void __set__segmentedControl(::HMUI::SegmentedControl value) ;
+constexpr void __set__segmentedControl(HMUI::SegmentedControl value) ;
 
-constexpr ::HMUI::SegmentedControl __get__segmentedControl() const;
+constexpr HMUI::SegmentedControl __get__segmentedControl() const;
 
 
 // Properties
@@ -79,7 +78,7 @@ constexpr ::HMUI::SegmentedControl __get__segmentedControl() const;
  void set_cellNumber(int32_t value) ;
 
 /// @brief Method SegmentedControlSetup addr 0x1faceb8 size 0xc virtual false final false
- void SegmentedControlSetup(::HMUI::SegmentedControl segmentedControl, int32_t cellNumber) ;
+ void SegmentedControlSetup(HMUI::SegmentedControl segmentedControl, int32_t cellNumber) ;
 
 /// @brief Method InternalToggle addr 0x1fad134 size 0x24 virtual true final false
  void InternalToggle() ;
@@ -94,6 +93,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HMUI
-} // end anonymous namespace
-NEED_NO_BOX(::HMUI::SegmentedControlCell);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::SegmentedControlCell, "HMUI", "SegmentedControlCell");
+NEED_NO_BOX(HMUI::SegmentedControlCell);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::SegmentedControlCell, "HMUI", "SegmentedControlCell");

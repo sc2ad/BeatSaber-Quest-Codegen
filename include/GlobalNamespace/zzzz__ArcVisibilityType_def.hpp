@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 struct ArcVisibilityType;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::GlobalNamespace::ArcVisibilityType const None;
+static GlobalNamespace::ArcVisibilityType const None;
 
 /// @brief Field Low offset 0
-static ::GlobalNamespace::ArcVisibilityType const Low;
+static GlobalNamespace::ArcVisibilityType const Low;
 
 /// @brief Field Standard offset 0
-static ::GlobalNamespace::ArcVisibilityType const Standard;
+static GlobalNamespace::ArcVisibilityType const Standard;
 
 /// @brief Field High offset 0
-static ::GlobalNamespace::ArcVisibilityType const High;
+static GlobalNamespace::ArcVisibilityType const High;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ArcVisibilityType, "", "ArcVisibilityType");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ArcVisibilityType, "", "ArcVisibilityType");

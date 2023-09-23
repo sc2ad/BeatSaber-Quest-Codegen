@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Events {
 struct PersistentListenerMode;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field EventDefined offset 0
-static ::UnityEngine::Events::PersistentListenerMode const EventDefined;
+static UnityEngine::Events::PersistentListenerMode const EventDefined;
 
 /// @brief Field Void offset 0
-static ::UnityEngine::Events::PersistentListenerMode const Void;
+static UnityEngine::Events::PersistentListenerMode const Void;
 
 /// @brief Field Object offset 0
-static ::UnityEngine::Events::PersistentListenerMode const Object;
+static UnityEngine::Events::PersistentListenerMode const Object;
 
 /// @brief Field Int offset 0
-static ::UnityEngine::Events::PersistentListenerMode const Int;
+static UnityEngine::Events::PersistentListenerMode const Int;
 
 /// @brief Field Float offset 0
-static ::UnityEngine::Events::PersistentListenerMode const Float;
+static UnityEngine::Events::PersistentListenerMode const Float;
 
 /// @brief Field String offset 0
-static ::UnityEngine::Events::PersistentListenerMode const String;
+static UnityEngine::Events::PersistentListenerMode const String;
 
 /// @brief Field Bool offset 0
-static ::UnityEngine::Events::PersistentListenerMode const Bool;
+static UnityEngine::Events::PersistentListenerMode const Bool;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Events
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Events::PersistentListenerMode, "UnityEngine.Events", "PersistentListenerMode");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::PersistentListenerMode, "UnityEngine.Events", "PersistentListenerMode");

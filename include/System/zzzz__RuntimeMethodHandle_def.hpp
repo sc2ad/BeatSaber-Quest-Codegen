@@ -4,21 +4,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
+}
+namespace System::Reflection {
+class RuntimeMethodInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System {
 struct TypeNameFormatFlags;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
-}
-namespace System::Reflection {
-class RuntimeMethodInfo;
 }
 // Forward declare root types
 namespace System {
@@ -33,8 +32,8 @@ namespace System {
 struct CORDL_TYPE RuntimeMethodHandle : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::Serialization::ISerializable
-constexpr operator  ::System::Runtime::Serialization::ISerializable() const;
+/// @brief Convert operator to System::Runtime::Serialization::ISerializable
+constexpr operator  System::Runtime::Serialization::ISerializable() const;
 
 // Ctor Parameters [CppParam { name: "value", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
 constexpr RuntimeMethodHandle(::cordl_internals::intptr_t value) noexcept;
@@ -88,13 +87,13 @@ constexpr ::cordl_internals::intptr_t __get_value() const;
  void _ctor(::cordl_internals::intptr_t v) ;
 
 /// @brief Method .ctor addr 0x2490df0 size 0x1b4 virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method get_Value addr 0x2490fa4 size 0x8 virtual false final false
  ::cordl_internals::intptr_t get_Value() ;
 
 /// @brief Method GetObjectData addr 0x2490fac size 0x1bc virtual true final true
- void GetObjectData(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void GetObjectData(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method Equals addr 0x2491168 size 0xfc virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -103,7 +102,7 @@ constexpr ::cordl_internals::intptr_t __get_value() const;
  int32_t GetHashCode() ;
 
 /// @brief Method ConstructInstantiation addr 0x249126c size 0x158 virtual false final false
-static ::StringW ConstructInstantiation(::System::Reflection::RuntimeMethodInfo method, ::System::TypeNameFormatFlags format) ;
+static ::StringW ConstructInstantiation(System::Reflection::RuntimeMethodInfo method, System::TypeNameFormatFlags format) ;
 
 /// @brief Method IsNullHandle addr 0x24913c4 size 0x58 virtual false final false
  bool IsNullHandle() ;
@@ -112,5 +111,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::RuntimeMethodHandle, "System", "RuntimeMethodHandle");
+DEFINE_IL2CPP_ARG_TYPE(System::RuntimeMethodHandle, "System", "RuntimeMethodHandle");

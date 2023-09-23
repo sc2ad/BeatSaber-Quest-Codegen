@@ -2,19 +2,18 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
-namespace GlobalNamespace {
-class LightRotationGroup;
-}
-namespace GlobalNamespace {
-class LightRotationGroupEffect;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace GlobalNamespace {
+class LightRotationGroup;
+}
 namespace Zenject {
 class DiContainer;
+}
+namespace GlobalNamespace {
+class LightRotationGroupEffect;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,7 +25,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5042))
 // CS Name: LightRotationGroupEffectManager
-class CORDL_TYPE LightRotationGroupEffectManager : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE LightRotationGroupEffectManager : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -41,7 +40,7 @@ constexpr LightRotationGroupEffectManager(LightRotationGroupEffectManager const&
 constexpr LightRotationGroupEffectManager(LightRotationGroupEffectManager&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LightRotationGroupEffectManager(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit LightRotationGroupEffectManager(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -62,23 +61,23 @@ constexpr explicit LightRotationGroupEffectManager(void* ptr) noexcept : ::Unity
 
 // Fields
 
- ::ArrayW<::GlobalNamespace::LightRotationGroup> __declspec(property(get=__get__lightRotationGroups, put=__set__lightRotationGroups))  _lightRotationGroups;
+ ::ArrayW<GlobalNamespace::LightRotationGroup> __declspec(property(get=__get__lightRotationGroups, put=__set__lightRotationGroups))  _lightRotationGroups;
 
-constexpr void __set__lightRotationGroups(::ArrayW<::GlobalNamespace::LightRotationGroup> value) ;
+constexpr void __set__lightRotationGroups(::ArrayW<GlobalNamespace::LightRotationGroup> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::LightRotationGroup> __get__lightRotationGroups() const;
+constexpr ::ArrayW<GlobalNamespace::LightRotationGroup> __get__lightRotationGroups() const;
 
- ::Zenject::DiContainer __declspec(property(get=__get__container, put=__set__container))  _container;
+ Zenject::DiContainer __declspec(property(get=__get__container, put=__set__container))  _container;
 
-constexpr void __set__container(::Zenject::DiContainer value) ;
+constexpr void __set__container(Zenject::DiContainer value) ;
 
-constexpr ::Zenject::DiContainer __get__container() const;
+constexpr Zenject::DiContainer __get__container() const;
 
- ::System::Collections::Generic::List_1<::GlobalNamespace::LightRotationGroupEffect> __declspec(property(get=__get__lightRotationGroupEffects, put=__set__lightRotationGroupEffects))  _lightRotationGroupEffects;
+ System::Collections::Generic::List_1<GlobalNamespace::LightRotationGroupEffect> __declspec(property(get=__get__lightRotationGroupEffects, put=__set__lightRotationGroupEffects))  _lightRotationGroupEffects;
 
-constexpr void __set__lightRotationGroupEffects(::System::Collections::Generic::List_1<::GlobalNamespace::LightRotationGroupEffect> value) ;
+constexpr void __set__lightRotationGroupEffects(System::Collections::Generic::List_1<GlobalNamespace::LightRotationGroupEffect> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::LightRotationGroupEffect> __get__lightRotationGroupEffects() const;
+constexpr System::Collections::Generic::List_1<GlobalNamespace::LightRotationGroupEffect> __get__lightRotationGroupEffects() const;
 
 
 // Methods
@@ -99,6 +98,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LightRotationGroupEffectManager);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightRotationGroupEffectManager, "", "LightRotationGroupEffectManager");
+NEED_NO_BOX(GlobalNamespace::LightRotationGroupEffectManager);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightRotationGroupEffectManager, "", "LightRotationGroupEffectManager");

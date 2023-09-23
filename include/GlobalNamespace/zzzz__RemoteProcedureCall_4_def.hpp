@@ -3,19 +3,18 @@
 #include "GlobalNamespace/zzzz__RemoteProcedureCall_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace LiteNetLib::Utils {
-class NetDataWriter;
+namespace GlobalNamespace {
+template<typename T>
+class GlobalNamespace__RemoteProcedureCall__TypeWrapper_1;
 }
 namespace GlobalNamespace {
 class IRemoteProcedureCall;
 }
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class NetDataWriter;
 }
-namespace GlobalNamespace {
-template<typename T>
-class ____GlobalNamespace__RemoteProcedureCall__TypeWrapper_1;
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,10 +31,10 @@ namespace GlobalNamespace {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T0,::cordl_internals::il2cpp_reference_type T1,::cordl_internals::il2cpp_reference_type T2,::cordl_internals::il2cpp_reference_type T3>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12875)), TypeDefinitionIndex(TypeDefinitionIndex(12879))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12879)), TypeDefinitionIndex(TypeDefinitionIndex(12875))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12879), inst: 5937 })
 // CS Name: RemoteProcedureCall`4
-class CORDL_TYPE RemoteProcedureCall_4<T0,T1,T2,T3> : public ::GlobalNamespace::RemoteProcedureCall {
+class CORDL_TYPE RemoteProcedureCall_4<T0,T1,T2,T3> : public GlobalNamespace::RemoteProcedureCall {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -50,7 +49,7 @@ constexpr RemoteProcedureCall_4(RemoteProcedureCall_4 const& ) noexcept = defaul
 constexpr RemoteProcedureCall_4(RemoteProcedureCall_4&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RemoteProcedureCall_4(void* ptr) noexcept : ::GlobalNamespace::RemoteProcedureCall(ptr) {
+constexpr explicit RemoteProcedureCall_4(void* ptr) noexcept : GlobalNamespace::RemoteProcedureCall(ptr) {
 }
 
 
@@ -71,29 +70,29 @@ constexpr explicit RemoteProcedureCall_4(void* ptr) noexcept : ::GlobalNamespace
 
 // Fields
 
- ::GlobalNamespace::____GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T0> __declspec(property(get=__get__value0, put=__set__value0))  _value0;
+ GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T0> __declspec(property(get=__get__value0, put=__set__value0))  _value0;
 
-constexpr void __set__value0(::GlobalNamespace::____GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T0> value) ;
+constexpr void __set__value0(GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T0> value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T0> __get__value0() const;
+constexpr GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T0> __get__value0() const;
 
- ::GlobalNamespace::____GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T1> __declspec(property(get=__get__value1, put=__set__value1))  _value1;
+ GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T1> __declspec(property(get=__get__value1, put=__set__value1))  _value1;
 
-constexpr void __set__value1(::GlobalNamespace::____GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T1> value) ;
+constexpr void __set__value1(GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T1> value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T1> __get__value1() const;
+constexpr GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T1> __get__value1() const;
 
- ::GlobalNamespace::____GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T2> __declspec(property(get=__get__value2, put=__set__value2))  _value2;
+ GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T2> __declspec(property(get=__get__value2, put=__set__value2))  _value2;
 
-constexpr void __set__value2(::GlobalNamespace::____GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T2> value) ;
+constexpr void __set__value2(GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T2> value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T2> __get__value2() const;
+constexpr GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T2> __get__value2() const;
 
- ::GlobalNamespace::____GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T3> __declspec(property(get=__get__value3, put=__set__value3))  _value3;
+ GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T3> __declspec(property(get=__get__value3, put=__set__value3))  _value3;
 
-constexpr void __set__value3(::GlobalNamespace::____GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T3> value) ;
+constexpr void __set__value3(GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T3> value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T3> __get__value3() const;
+constexpr GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T3> __get__value3() const;
 
 
 // Properties
@@ -122,13 +121,13 @@ constexpr ::GlobalNamespace::____GlobalNamespace__RemoteProcedureCall__TypeWrapp
  T3 get_value3() ;
 
 /// @brief Method SerializeData addr 0x0 size 0xffffffffffffffff virtual true final false
- void SerializeData(::LiteNetLib::Utils::NetDataWriter writer, uint32_t protocolVersion) ;
+ void SerializeData(LiteNetLib::Utils::NetDataWriter writer, uint32_t protocolVersion) ;
 
 /// @brief Method DeserializeData addr 0x0 size 0xffffffffffffffff virtual true final false
- void DeserializeData(::LiteNetLib::Utils::NetDataReader reader, uint32_t protocolVersion) ;
+ void DeserializeData(LiteNetLib::Utils::NetDataReader reader, uint32_t protocolVersion) ;
 
 /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual false final false
- ::GlobalNamespace::IRemoteProcedureCall Init(float_t syncTime, T0 value0, T1 value1, T2 value2, T3 value3) ;
+ GlobalNamespace::IRemoteProcedureCall Init(float_t syncTime, T0 value0, T1 value1, T2 value2, T3 value3) ;
 
 /// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual true final false
  void Release() ;
@@ -143,5 +142,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::RemoteProcedureCall_4, "", "RemoteProcedureCall`4");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::RemoteProcedureCall_4, "", "RemoteProcedureCall`4");

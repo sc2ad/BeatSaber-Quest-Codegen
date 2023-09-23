@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 struct DayOfWeek;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Sunday offset 0
-static ::System::DayOfWeek const Sunday;
+static System::DayOfWeek const Sunday;
 
 /// @brief Field Monday offset 0
-static ::System::DayOfWeek const Monday;
+static System::DayOfWeek const Monday;
 
 /// @brief Field Tuesday offset 0
-static ::System::DayOfWeek const Tuesday;
+static System::DayOfWeek const Tuesday;
 
 /// @brief Field Wednesday offset 0
-static ::System::DayOfWeek const Wednesday;
+static System::DayOfWeek const Wednesday;
 
 /// @brief Field Thursday offset 0
-static ::System::DayOfWeek const Thursday;
+static System::DayOfWeek const Thursday;
 
 /// @brief Field Friday offset 0
-static ::System::DayOfWeek const Friday;
+static System::DayOfWeek const Friday;
 
 /// @brief Field Saturday offset 0
-static ::System::DayOfWeek const Saturday;
+static System::DayOfWeek const Saturday;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::DayOfWeek, "System", "DayOfWeek");
+DEFINE_IL2CPP_ARG_TYPE(System::DayOfWeek, "System", "DayOfWeek");

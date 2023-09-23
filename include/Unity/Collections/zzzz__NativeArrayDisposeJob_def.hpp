@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
 namespace Unity::Jobs {
 class IJob;
 }
@@ -21,11 +20,11 @@ namespace Unity::Collections {
 struct CORDL_TYPE NativeArrayDisposeJob : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::Unity::Jobs::IJob
-constexpr operator  ::Unity::Jobs::IJob() const;
+/// @brief Convert operator to Unity::Jobs::IJob
+constexpr operator  Unity::Jobs::IJob() const;
 
-// Ctor Parameters [CppParam { name: "Data", ty: "::Unity::Collections::NativeArrayDispose", modifiers: "", def_value: None }]
-constexpr NativeArrayDisposeJob(::Unity::Collections::NativeArrayDispose Data) noexcept;
+// Ctor Parameters [CppParam { name: "Data", ty: "Unity::Collections::NativeArrayDispose", modifiers: "", def_value: None }]
+constexpr NativeArrayDisposeJob(Unity::Collections::NativeArrayDispose Data) noexcept;
 
 
                     constexpr NativeArrayDisposeJob(NativeArrayDisposeJob const&) = default;
@@ -58,11 +57,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::Unity::Collections::NativeArrayDispose __declspec(property(get=__get_Data, put=__set_Data))  Data;
+ Unity::Collections::NativeArrayDispose __declspec(property(get=__get_Data, put=__set_Data))  Data;
 
-constexpr void __set_Data(::Unity::Collections::NativeArrayDispose value) ;
+constexpr void __set_Data(Unity::Collections::NativeArrayDispose value) ;
 
-constexpr ::Unity::Collections::NativeArrayDispose __get_Data() const;
+constexpr Unity::Collections::NativeArrayDispose __get_Data() const;
 
 
 // Methods
@@ -74,5 +73,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Unity::Collections
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::NativeArrayDisposeJob, "Unity.Collections", "NativeArrayDisposeJob");
+DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::NativeArrayDisposeJob, "Unity.Collections", "NativeArrayDisposeJob");

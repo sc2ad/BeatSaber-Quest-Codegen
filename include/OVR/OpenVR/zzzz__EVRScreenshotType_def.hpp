@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct EVRScreenshotType;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::OVR::OpenVR::EVRScreenshotType const None;
+static OVR::OpenVR::EVRScreenshotType const None;
 
 /// @brief Field Mono offset 0
-static ::OVR::OpenVR::EVRScreenshotType const Mono;
+static OVR::OpenVR::EVRScreenshotType const Mono;
 
 /// @brief Field Stereo offset 0
-static ::OVR::OpenVR::EVRScreenshotType const Stereo;
+static OVR::OpenVR::EVRScreenshotType const Stereo;
 
 /// @brief Field Cubemap offset 0
-static ::OVR::OpenVR::EVRScreenshotType const Cubemap;
+static OVR::OpenVR::EVRScreenshotType const Cubemap;
 
 /// @brief Field MonoPanorama offset 0
-static ::OVR::OpenVR::EVRScreenshotType const MonoPanorama;
+static OVR::OpenVR::EVRScreenshotType const MonoPanorama;
 
 /// @brief Field StereoPanorama offset 0
-static ::OVR::OpenVR::EVRScreenshotType const StereoPanorama;
+static OVR::OpenVR::EVRScreenshotType const StereoPanorama;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRScreenshotType, "OVR.OpenVR", "EVRScreenshotType");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRScreenshotType, "OVR.OpenVR", "EVRScreenshotType");

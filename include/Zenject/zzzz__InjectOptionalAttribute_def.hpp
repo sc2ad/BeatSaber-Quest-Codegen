@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__InjectAttributeBase_def.hpp"
-namespace {
 // Forward declare root types
 namespace Zenject {
 class InjectOptionalAttribute;
@@ -12,7 +11,7 @@ namespace Zenject {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15650))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15653))
 // CS Name: Zenject.InjectOptionalAttribute
-class CORDL_TYPE InjectOptionalAttribute : public ::Zenject::InjectAttributeBase {
+class CORDL_TYPE InjectOptionalAttribute : public Zenject::InjectAttributeBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr InjectOptionalAttribute(InjectOptionalAttribute const& ) noexcept = de
 constexpr InjectOptionalAttribute(InjectOptionalAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit InjectOptionalAttribute(void* ptr) noexcept : ::Zenject::InjectAttributeBase(ptr) {
+constexpr explicit InjectOptionalAttribute(void* ptr) noexcept : Zenject::InjectAttributeBase(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::InjectOptionalAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::InjectOptionalAttribute, "Zenject", "InjectOptionalAttribute");
+NEED_NO_BOX(Zenject::InjectOptionalAttribute);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectOptionalAttribute, "Zenject", "InjectOptionalAttribute");

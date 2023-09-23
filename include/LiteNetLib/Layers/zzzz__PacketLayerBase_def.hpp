@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::Net {
 class IPEndPoint;
 }
@@ -70,15 +69,14 @@ explicit PacketLayerBase(int32_t extraPacketSizeForLayer) ;
  void _ctor(int32_t extraPacketSizeForLayer) ;
 
 /// @brief Method ProcessInboundPacket addr 0x0 size 0xffffffffffffffff virtual true final false
- void ProcessInboundPacket(::System::Net::IPEndPoint remoteEndPoint, ByRef<::ArrayW<uint8_t>> data, ByRef<int32_t> offset, ByRef<int32_t> length) ;
+ void ProcessInboundPacket(System::Net::IPEndPoint remoteEndPoint, ByRef<::ArrayW<uint8_t>> data, ByRef<int32_t> offset, ByRef<int32_t> length) ;
 
 /// @brief Method ProcessOutBoundPacket addr 0x0 size 0xffffffffffffffff virtual true final false
- void ProcessOutBoundPacket(::System::Net::IPEndPoint remoteEndPoint, ByRef<::ArrayW<uint8_t>> data, ByRef<int32_t> offset, ByRef<int32_t> length) ;
+ void ProcessOutBoundPacket(System::Net::IPEndPoint remoteEndPoint, ByRef<::ArrayW<uint8_t>> data, ByRef<int32_t> offset, ByRef<int32_t> length) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib::Layers
-} // end anonymous namespace
-NEED_NO_BOX(::LiteNetLib::Layers::PacketLayerBase);
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::Layers::PacketLayerBase, "LiteNetLib.Layers", "PacketLayerBase");
+NEED_NO_BOX(LiteNetLib::Layers::PacketLayerBase);
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Layers::PacketLayerBase, "LiteNetLib.Layers", "PacketLayerBase");

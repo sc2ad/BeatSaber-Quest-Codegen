@@ -1,15 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace System {
-class Type;
+namespace System::Runtime::Remoting {
+class ServerIdentity;
 }
 namespace System::Runtime::Remoting {
 class ObjRef;
 }
-namespace System::Runtime::Remoting {
-class ServerIdentity;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System {
@@ -66,7 +65,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get__identity() const;
 
 // Properties
 
- ::System::Runtime::Remoting::ServerIdentity __declspec(property(get=get_ObjectIdentity, put=set_ObjectIdentity))  ObjectIdentity;
+ System::Runtime::Remoting::ServerIdentity __declspec(property(get=get_ObjectIdentity, put=set_ObjectIdentity))  ObjectIdentity;
 
 
 // Methods
@@ -78,13 +77,13 @@ explicit MarshalByRefObject() ;
  void _ctor() ;
 
 /// @brief Method get_ObjectIdentity addr 0x248bff4 size 0x40 virtual false final false
- ::System::Runtime::Remoting::ServerIdentity get_ObjectIdentity() ;
+ System::Runtime::Remoting::ServerIdentity get_ObjectIdentity() ;
 
 /// @brief Method set_ObjectIdentity addr 0x248c034 size 0x40 virtual false final false
- void set_ObjectIdentity(::System::Runtime::Remoting::ServerIdentity value) ;
+ void set_ObjectIdentity(System::Runtime::Remoting::ServerIdentity value) ;
 
 /// @brief Method CreateObjRef addr 0x248c074 size 0x40 virtual true final false
- ::System::Runtime::Remoting::ObjRef CreateObjRef(::System::Type requestedType) ;
+ System::Runtime::Remoting::ObjRef CreateObjRef(System::Type requestedType) ;
 
 /// @brief Method InitializeLifetimeService addr 0x248c0b4 size 0x40 virtual true final false
  ::bs_hook::Il2CppWrapperType InitializeLifetimeService() ;
@@ -93,6 +92,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::MarshalByRefObject);
-DEFINE_IL2CPP_ARG_TYPE(::System::MarshalByRefObject, "System", "MarshalByRefObject");
+NEED_NO_BOX(System::MarshalByRefObject);
+DEFINE_IL2CPP_ARG_TYPE(System::MarshalByRefObject, "System", "MarshalByRefObject");

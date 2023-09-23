@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Xml::Schema {
 struct XsdDateTimeFlags;
@@ -77,44 +76,43 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field DateTime offset 0
-static ::System::Xml::Schema::XsdDateTimeFlags const DateTime;
+static System::Xml::Schema::XsdDateTimeFlags const DateTime;
 
 /// @brief Field Time offset 0
-static ::System::Xml::Schema::XsdDateTimeFlags const Time;
+static System::Xml::Schema::XsdDateTimeFlags const Time;
 
 /// @brief Field Date offset 0
-static ::System::Xml::Schema::XsdDateTimeFlags const Date;
+static System::Xml::Schema::XsdDateTimeFlags const Date;
 
 /// @brief Field GYearMonth offset 0
-static ::System::Xml::Schema::XsdDateTimeFlags const GYearMonth;
+static System::Xml::Schema::XsdDateTimeFlags const GYearMonth;
 
 /// @brief Field GYear offset 0
-static ::System::Xml::Schema::XsdDateTimeFlags const GYear;
+static System::Xml::Schema::XsdDateTimeFlags const GYear;
 
 /// @brief Field GMonthDay offset 0
-static ::System::Xml::Schema::XsdDateTimeFlags const GMonthDay;
+static System::Xml::Schema::XsdDateTimeFlags const GMonthDay;
 
 /// @brief Field GDay offset 0
-static ::System::Xml::Schema::XsdDateTimeFlags const GDay;
+static System::Xml::Schema::XsdDateTimeFlags const GDay;
 
 /// @brief Field GMonth offset 0
-static ::System::Xml::Schema::XsdDateTimeFlags const GMonth;
+static System::Xml::Schema::XsdDateTimeFlags const GMonth;
 
 /// @brief Field XdrDateTimeNoTz offset 0
-static ::System::Xml::Schema::XsdDateTimeFlags const XdrDateTimeNoTz;
+static System::Xml::Schema::XsdDateTimeFlags const XdrDateTimeNoTz;
 
 /// @brief Field XdrDateTime offset 0
-static ::System::Xml::Schema::XsdDateTimeFlags const XdrDateTime;
+static System::Xml::Schema::XsdDateTimeFlags const XdrDateTime;
 
 /// @brief Field XdrTimeNoTz offset 0
-static ::System::Xml::Schema::XsdDateTimeFlags const XdrTimeNoTz;
+static System::Xml::Schema::XsdDateTimeFlags const XdrTimeNoTz;
 
 /// @brief Field AllXsd offset 0
-static ::System::Xml::Schema::XsdDateTimeFlags const AllXsd;
+static System::Xml::Schema::XsdDateTimeFlags const AllXsd;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XsdDateTimeFlags, "System.Xml.Schema", "XsdDateTimeFlags");
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::XsdDateTimeFlags, "System.Xml.Schema", "XsdDateTimeFlags");

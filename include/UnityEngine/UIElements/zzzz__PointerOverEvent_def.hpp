@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerEventBase_1_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class PointerOverEvent;
@@ -9,10 +8,10 @@ class PointerOverEvent;
 // Type: UnityEngine.UIElements::PointerOverEvent
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7297)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7297), inst: 4685 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7297), inst: 4685 }), TypeDefinitionIndex(TypeDefinitionIndex(7297))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7306))
 // CS Name: UnityEngine.UIElements.PointerOverEvent
-class CORDL_TYPE PointerOverEvent : public ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::PointerOverEvent> {
+class CORDL_TYPE PointerOverEvent : public UnityEngine::UIElements::PointerEventBase_1<UnityEngine::UIElements::PointerOverEvent> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr PointerOverEvent(PointerOverEvent const& ) noexcept = default;
 constexpr PointerOverEvent(PointerOverEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PointerOverEvent(void* ptr) noexcept : ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::PointerOverEvent>(ptr) {
+constexpr explicit PointerOverEvent(void* ptr) noexcept : UnityEngine::UIElements::PointerEventBase_1<UnityEngine::UIElements::PointerOverEvent>(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::PointerOverEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::PointerOverEvent, "UnityEngine.UIElements", "PointerOverEvent");
+NEED_NO_BOX(UnityEngine::UIElements::PointerOverEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::PointerOverEvent, "UnityEngine.UIElements", "PointerOverEvent");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net {
 struct FtpLoginState;
@@ -69,20 +68,19 @@ constexpr void __set_value__(uint8_t value) ;
 constexpr uint8_t __get_value__() const;
 
 /// @brief Field NotLoggedIn offset 0
-static ::System::Net::FtpLoginState const NotLoggedIn;
+static System::Net::FtpLoginState const NotLoggedIn;
 
 /// @brief Field LoggedIn offset 0
-static ::System::Net::FtpLoginState const LoggedIn;
+static System::Net::FtpLoginState const LoggedIn;
 
 /// @brief Field LoggedInButNeedsRelogin offset 0
-static ::System::Net::FtpLoginState const LoggedInButNeedsRelogin;
+static System::Net::FtpLoginState const LoggedInButNeedsRelogin;
 
 /// @brief Field ReloginFailed offset 0
-static ::System::Net::FtpLoginState const ReloginFailed;
+static System::Net::FtpLoginState const ReloginFailed;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::FtpLoginState, "System.Net", "FtpLoginState");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpLoginState, "System.Net", "FtpLoginState");

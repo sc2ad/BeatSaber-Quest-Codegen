@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace System {
 class Type;
 }
@@ -57,11 +56,11 @@ constexpr explicit BeatmapDataCallbackWrapper(void* ptr) noexcept : ::bs_hook::I
 
 // Fields
 
- ::System::Type __declspec(property(get=__get_BasicBeatmapEventType, put=__set_BasicBeatmapEventType))  BasicBeatmapEventType;
+ System::Type __declspec(property(get=__get_BasicBeatmapEventType, put=__set_BasicBeatmapEventType))  BasicBeatmapEventType;
 
-constexpr void __set_BasicBeatmapEventType(::System::Type value) ;
+constexpr void __set_BasicBeatmapEventType(System::Type value) ;
 
-constexpr ::System::Type __get_BasicBeatmapEventType() const;
+constexpr System::Type __get_BasicBeatmapEventType() const;
 
  float_t __declspec(property(get=__get_aheadTime, put=__set_aheadTime))  aheadTime;
 
@@ -78,19 +77,18 @@ constexpr ::ArrayW<int32_t> __get_subtypeIdentifiers() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "aheadTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "BasicBeatmapEventType", ty: "::System::Type", modifiers: "", def_value: None }, CppParam { name: "subtypeIdentifiers", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }]
-explicit BeatmapDataCallbackWrapper(float_t aheadTime, ::System::Type BasicBeatmapEventType, ::ArrayW<int32_t> subtypeIdentifiers) ;
+// Ctor Parameters [CppParam { name: "aheadTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "BasicBeatmapEventType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "subtypeIdentifiers", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }]
+explicit BeatmapDataCallbackWrapper(float_t aheadTime, System::Type BasicBeatmapEventType, ::ArrayW<int32_t> subtypeIdentifiers) ;
 
 /// @brief Method .ctor addr 0x2231ffc size 0x40 virtual false final false
- void _ctor(float_t aheadTime, ::System::Type BasicBeatmapEventType, ::ArrayW<int32_t> subtypeIdentifiers) ;
+ void _ctor(float_t aheadTime, System::Type BasicBeatmapEventType, ::ArrayW<int32_t> subtypeIdentifiers) ;
 
 /// @brief Method CallCallback addr 0x0 size 0xffffffffffffffff virtual true final false
- void CallCallback(::GlobalNamespace::BeatmapDataItem beatmapData) ;
+ void CallCallback(GlobalNamespace::BeatmapDataItem beatmapData) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BeatmapDataCallbackWrapper);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapDataCallbackWrapper, "", "BeatmapDataCallbackWrapper");
+NEED_NO_BOX(GlobalNamespace::BeatmapDataCallbackWrapper);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataCallbackWrapper, "", "BeatmapDataCallbackWrapper");

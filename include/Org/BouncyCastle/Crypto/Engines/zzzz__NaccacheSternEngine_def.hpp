@@ -4,21 +4,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Collections {
-class IList;
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
-}
-namespace Org::BouncyCastle::Crypto {
-class IAsymmetricBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class NaccacheSternKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IAsymmetricBlockCipher;
+}
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -33,8 +32,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
 class CORDL_TYPE NaccacheSternEngine : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher
-constexpr operator  ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IAsymmetricBlockCipher
+constexpr operator  Org::BouncyCastle::Crypto::IAsymmetricBlockCipher() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -75,17 +74,17 @@ constexpr void __set_forEncryption(bool value) ;
 
 constexpr bool __get_forEncryption() const;
 
- ::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters __declspec(property(get=__get_key, put=__set_key))  key;
+ Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters __declspec(property(get=__get_key, put=__set_key))  key;
 
-constexpr void __set_key(::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters value) ;
+constexpr void __set_key(Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters __get_key() const;
+constexpr Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters __get_key() const;
 
- ::ArrayW<::System::Collections::IList> __declspec(property(get=__get_lookup, put=__set_lookup))  lookup;
+ ::ArrayW<System::Collections::IList> __declspec(property(get=__get_lookup, put=__set_lookup))  lookup;
 
-constexpr void __set_lookup(::ArrayW<::System::Collections::IList> value) ;
+constexpr void __set_lookup(::ArrayW<System::Collections::IList> value) ;
 
-constexpr ::ArrayW<::System::Collections::IList> __get_lookup() const;
+constexpr ::ArrayW<System::Collections::IList> __get_lookup() const;
 
 
 // Properties
@@ -101,7 +100,7 @@ constexpr ::ArrayW<::System::Collections::IList> __get_lookup() const;
  ::StringW get_AlgorithmName() ;
 
 /// @brief Method Init addr 0xe4a02c size 0x58c virtual true final false
- void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method set_Debug addr 0xe4a5b8 size 0x4 virtual true final false
  void set_Debug(bool value) ;
@@ -116,7 +115,7 @@ constexpr ::ArrayW<::System::Collections::IList> __get_lookup() const;
  ::ArrayW<uint8_t> ProcessBlock(::ArrayW<uint8_t> inBytes, int32_t inOff, int32_t length) ;
 
 /// @brief Method Encrypt addr 0xe4b344 size 0xd8 virtual true final false
- ::ArrayW<uint8_t> Encrypt(::Org::BouncyCastle::Math::BigInteger plain) ;
+ ::ArrayW<uint8_t> Encrypt(Org::BouncyCastle::Math::BigInteger plain) ;
 
 /// @brief Method AddCryptedBlocks addr 0xe4b41c size 0x204 virtual true final false
  ::ArrayW<uint8_t> AddCryptedBlocks(::ArrayW<uint8_t> block1, ::ArrayW<uint8_t> block2) ;
@@ -125,7 +124,7 @@ constexpr ::ArrayW<::System::Collections::IList> __get_lookup() const;
  ::ArrayW<uint8_t> ProcessData(::ArrayW<uint8_t> data) ;
 
 /// @brief Method chineseRemainder addr 0xe4af60 size 0x3e4 virtual false final false
-static ::Org::BouncyCastle::Math::BigInteger chineseRemainder(::System::Collections::IList congruences, ::System::Collections::IList primes) ;
+static Org::BouncyCastle::Math::BigInteger chineseRemainder(System::Collections::IList congruences, System::Collections::IList primes) ;
 
 // Ctor Parameters []
 explicit NaccacheSternEngine() ;
@@ -137,6 +136,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Engines
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine, "Org.BouncyCastle.Crypto.Engines", "NaccacheSternEngine");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine, "Org.BouncyCastle.Crypto.Engines", "NaccacheSternEngine");

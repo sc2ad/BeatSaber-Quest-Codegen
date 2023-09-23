@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Rendering {
 struct CameraEvent;
@@ -90,83 +89,82 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field BeforeDepthTexture offset 0
-static ::UnityEngine::Rendering::CameraEvent const BeforeDepthTexture;
+static UnityEngine::Rendering::CameraEvent const BeforeDepthTexture;
 
 /// @brief Field AfterDepthTexture offset 0
-static ::UnityEngine::Rendering::CameraEvent const AfterDepthTexture;
+static UnityEngine::Rendering::CameraEvent const AfterDepthTexture;
 
 /// @brief Field BeforeDepthNormalsTexture offset 0
-static ::UnityEngine::Rendering::CameraEvent const BeforeDepthNormalsTexture;
+static UnityEngine::Rendering::CameraEvent const BeforeDepthNormalsTexture;
 
 /// @brief Field AfterDepthNormalsTexture offset 0
-static ::UnityEngine::Rendering::CameraEvent const AfterDepthNormalsTexture;
+static UnityEngine::Rendering::CameraEvent const AfterDepthNormalsTexture;
 
 /// @brief Field BeforeGBuffer offset 0
-static ::UnityEngine::Rendering::CameraEvent const BeforeGBuffer;
+static UnityEngine::Rendering::CameraEvent const BeforeGBuffer;
 
 /// @brief Field AfterGBuffer offset 0
-static ::UnityEngine::Rendering::CameraEvent const AfterGBuffer;
+static UnityEngine::Rendering::CameraEvent const AfterGBuffer;
 
 /// @brief Field BeforeLighting offset 0
-static ::UnityEngine::Rendering::CameraEvent const BeforeLighting;
+static UnityEngine::Rendering::CameraEvent const BeforeLighting;
 
 /// @brief Field AfterLighting offset 0
-static ::UnityEngine::Rendering::CameraEvent const AfterLighting;
+static UnityEngine::Rendering::CameraEvent const AfterLighting;
 
 /// @brief Field BeforeFinalPass offset 0
-static ::UnityEngine::Rendering::CameraEvent const BeforeFinalPass;
+static UnityEngine::Rendering::CameraEvent const BeforeFinalPass;
 
 /// @brief Field AfterFinalPass offset 0
-static ::UnityEngine::Rendering::CameraEvent const AfterFinalPass;
+static UnityEngine::Rendering::CameraEvent const AfterFinalPass;
 
 /// @brief Field BeforeForwardOpaque offset 0
-static ::UnityEngine::Rendering::CameraEvent const BeforeForwardOpaque;
+static UnityEngine::Rendering::CameraEvent const BeforeForwardOpaque;
 
 /// @brief Field AfterForwardOpaque offset 0
-static ::UnityEngine::Rendering::CameraEvent const AfterForwardOpaque;
+static UnityEngine::Rendering::CameraEvent const AfterForwardOpaque;
 
 /// @brief Field BeforeImageEffectsOpaque offset 0
-static ::UnityEngine::Rendering::CameraEvent const BeforeImageEffectsOpaque;
+static UnityEngine::Rendering::CameraEvent const BeforeImageEffectsOpaque;
 
 /// @brief Field AfterImageEffectsOpaque offset 0
-static ::UnityEngine::Rendering::CameraEvent const AfterImageEffectsOpaque;
+static UnityEngine::Rendering::CameraEvent const AfterImageEffectsOpaque;
 
 /// @brief Field BeforeSkybox offset 0
-static ::UnityEngine::Rendering::CameraEvent const BeforeSkybox;
+static UnityEngine::Rendering::CameraEvent const BeforeSkybox;
 
 /// @brief Field AfterSkybox offset 0
-static ::UnityEngine::Rendering::CameraEvent const AfterSkybox;
+static UnityEngine::Rendering::CameraEvent const AfterSkybox;
 
 /// @brief Field BeforeForwardAlpha offset 0
-static ::UnityEngine::Rendering::CameraEvent const BeforeForwardAlpha;
+static UnityEngine::Rendering::CameraEvent const BeforeForwardAlpha;
 
 /// @brief Field AfterForwardAlpha offset 0
-static ::UnityEngine::Rendering::CameraEvent const AfterForwardAlpha;
+static UnityEngine::Rendering::CameraEvent const AfterForwardAlpha;
 
 /// @brief Field BeforeImageEffects offset 0
-static ::UnityEngine::Rendering::CameraEvent const BeforeImageEffects;
+static UnityEngine::Rendering::CameraEvent const BeforeImageEffects;
 
 /// @brief Field AfterImageEffects offset 0
-static ::UnityEngine::Rendering::CameraEvent const AfterImageEffects;
+static UnityEngine::Rendering::CameraEvent const AfterImageEffects;
 
 /// @brief Field AfterEverything offset 0
-static ::UnityEngine::Rendering::CameraEvent const AfterEverything;
+static UnityEngine::Rendering::CameraEvent const AfterEverything;
 
 /// @brief Field BeforeReflections offset 0
-static ::UnityEngine::Rendering::CameraEvent const BeforeReflections;
+static UnityEngine::Rendering::CameraEvent const BeforeReflections;
 
 /// @brief Field AfterReflections offset 0
-static ::UnityEngine::Rendering::CameraEvent const AfterReflections;
+static UnityEngine::Rendering::CameraEvent const AfterReflections;
 
 /// @brief Field BeforeHaloAndLensFlares offset 0
-static ::UnityEngine::Rendering::CameraEvent const BeforeHaloAndLensFlares;
+static UnityEngine::Rendering::CameraEvent const BeforeHaloAndLensFlares;
 
 /// @brief Field AfterHaloAndLensFlares offset 0
-static ::UnityEngine::Rendering::CameraEvent const AfterHaloAndLensFlares;
+static UnityEngine::Rendering::CameraEvent const AfterHaloAndLensFlares;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Rendering
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::CameraEvent, "UnityEngine.Rendering", "CameraEvent");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::CameraEvent, "UnityEngine.Rendering", "CameraEvent");

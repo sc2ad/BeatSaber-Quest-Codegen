@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/Net/zzzz__WebCompletionSource_1_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 // Forward declare root types
 namespace System::Net {
 class WebCompletionSource;
@@ -13,7 +12,7 @@ namespace System::Net {
 // Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8063), inst: 2 }), TypeDefinitionIndex(TypeDefinitionIndex(8063))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8064))
 // CS Name: System.Net.WebCompletionSource
-class CORDL_TYPE WebCompletionSource : public ::System::Net::WebCompletionSource_1<::bs_hook::Il2CppWrapperType> {
+class CORDL_TYPE WebCompletionSource : public System::Net::WebCompletionSource_1<::bs_hook::Il2CppWrapperType> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr WebCompletionSource(WebCompletionSource const& ) noexcept = default;
 constexpr WebCompletionSource(WebCompletionSource&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit WebCompletionSource(void* ptr) noexcept : ::System::Net::WebCompletionSource_1<::bs_hook::Il2CppWrapperType>(ptr) {
+constexpr explicit WebCompletionSource(void* ptr) noexcept : System::Net::WebCompletionSource_1<::bs_hook::Il2CppWrapperType>(ptr) {
 }
 
 
@@ -59,6 +58,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::WebCompletionSource);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::WebCompletionSource, "System.Net", "WebCompletionSource");
+NEED_NO_BOX(System::Net::WebCompletionSource);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::WebCompletionSource, "System.Net", "WebCompletionSource");

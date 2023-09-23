@@ -1,12 +1,11 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine::UIElements {
-struct DragAndDropPosition;
-}
 namespace UnityEngine::UIElements {
 class IDragAndDropData;
+}
+namespace UnityEngine::UIElements {
+struct DragAndDropPosition;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -32,9 +31,9 @@ constexpr explicit IListDragAndDropArgs(void* ptr) noexcept : ::cordl_internals:
 
  int32_t __declspec(property(get=get_insertAtIndex))  insertAtIndex;
 
- ::UnityEngine::UIElements::IDragAndDropData __declspec(property(get=get_dragAndDropData))  dragAndDropData;
+ UnityEngine::UIElements::IDragAndDropData __declspec(property(get=get_dragAndDropData))  dragAndDropData;
 
- ::UnityEngine::UIElements::DragAndDropPosition __declspec(property(get=get_dragAndDropPosition))  dragAndDropPosition;
+ UnityEngine::UIElements::DragAndDropPosition __declspec(property(get=get_dragAndDropPosition))  dragAndDropPosition;
 
 
 // Methods
@@ -43,15 +42,14 @@ constexpr explicit IListDragAndDropArgs(void* ptr) noexcept : ::cordl_internals:
  int32_t get_insertAtIndex() ;
 
 /// @brief Method get_dragAndDropData addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::UIElements::IDragAndDropData get_dragAndDropData() ;
+ UnityEngine::UIElements::IDragAndDropData get_dragAndDropData() ;
 
 /// @brief Method get_dragAndDropPosition addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::UIElements::DragAndDropPosition get_dragAndDropPosition() ;
+ UnityEngine::UIElements::DragAndDropPosition get_dragAndDropPosition() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::IListDragAndDropArgs);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::IListDragAndDropArgs, "UnityEngine.UIElements", "IListDragAndDropArgs");
+NEED_NO_BOX(UnityEngine::UIElements::IListDragAndDropArgs);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::IListDragAndDropArgs, "UnityEngine.UIElements", "IListDragAndDropArgs");

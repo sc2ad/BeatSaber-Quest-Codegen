@@ -3,13 +3,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-class Array;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace System {
+class Array;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -59,33 +58,32 @@ constexpr explicit NoAllocHelpers(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 /// @brief Method ResizeList addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static void ResizeList(::System::Collections::Generic::List_1<T> list, int32_t size) ;
+static void ResizeList(System::Collections::Generic::List_1<T> list, int32_t size) ;
 
 /// @brief Method EnsureListElemCount addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static void EnsureListElemCount(::System::Collections::Generic::List_1<T> list, int32_t count) ;
+static void EnsureListElemCount(System::Collections::Generic::List_1<T> list, int32_t count) ;
 
 /// @brief Method SafeLength addr 0x2b5c71c size 0x10 virtual false final false
-static int32_t SafeLength(::System::Array values) ;
+static int32_t SafeLength(System::Array values) ;
 
 /// @brief Method SafeLength addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static int32_t SafeLength(::System::Collections::Generic::List_1<T> values) ;
+static int32_t SafeLength(System::Collections::Generic::List_1<T> values) ;
 
 /// @brief Method ExtractArrayFromListT addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static ::ArrayW<T> ExtractArrayFromListT(::System::Collections::Generic::List_1<T> list) ;
+static ::ArrayW<T> ExtractArrayFromListT(System::Collections::Generic::List_1<T> list) ;
 
 /// @brief Method Internal_ResizeList addr 0x2b5c72c size 0x44 virtual false final false
 static void Internal_ResizeList(::bs_hook::Il2CppWrapperType list, int32_t size) ;
 
 /// @brief Method ExtractArrayFromList addr 0x2b5c770 size 0x3c virtual false final false
-static ::System::Array ExtractArrayFromList(::bs_hook::Il2CppWrapperType list) ;
+static System::Array ExtractArrayFromList(::bs_hook::Il2CppWrapperType list) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::NoAllocHelpers);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::NoAllocHelpers, "UnityEngine", "NoAllocHelpers");
+NEED_NO_BOX(UnityEngine::NoAllocHelpers);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::NoAllocHelpers, "UnityEngine", "NoAllocHelpers");

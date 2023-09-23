@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace HoudiniEngineUnity {
 class JSONNode;
 }
@@ -53,12 +52,11 @@ constexpr explicit JSON(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) 
 // Methods
 
 /// @brief Method Parse addr 0x2060dec size 0x4 virtual false final false
-static ::HoudiniEngineUnity::JSONNode Parse(::StringW aJSON) ;
+static HoudiniEngineUnity::JSONNode Parse(::StringW aJSON) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::JSON);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::JSON, "HoudiniEngineUnity", "JSON");
+NEED_NO_BOX(HoudiniEngineUnity::JSON);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSON, "HoudiniEngineUnity", "JSON");

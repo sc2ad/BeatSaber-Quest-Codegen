@@ -5,16 +5,15 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 class Transform;
 }
 // Forward declare root types
 namespace RootMotion {
-struct ____RootMotion__BipedNaming__BoneSide;
+struct RootMotion__BipedNaming__BoneSide;
 }
 namespace RootMotion {
-struct ____RootMotion__BipedNaming__BoneType;
+struct RootMotion__BipedNaming__BoneType;
 }
 namespace RootMotion {
 class BipedNaming;
@@ -25,20 +24,20 @@ namespace RootMotion {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12426))
 // CS Name: RootMotion.BipedNaming::BoneType
-struct CORDL_TYPE ____RootMotion__BipedNaming__BoneType : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE RootMotion__BipedNaming__BoneType : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____RootMotion__BipedNaming__BoneType(int32_t value__) noexcept;
+constexpr RootMotion__BipedNaming__BoneType(int32_t value__) noexcept;
 
 
-                    constexpr ____RootMotion__BipedNaming__BoneType(____RootMotion__BipedNaming__BoneType const&) = default;
-                    constexpr ____RootMotion__BipedNaming__BoneType(____RootMotion__BipedNaming__BoneType&&) = default;
-                    constexpr ____RootMotion__BipedNaming__BoneType& operator=(____RootMotion__BipedNaming__BoneType const& o) {
+                    constexpr RootMotion__BipedNaming__BoneType(RootMotion__BipedNaming__BoneType const&) = default;
+                    constexpr RootMotion__BipedNaming__BoneType(RootMotion__BipedNaming__BoneType&&) = default;
+                    constexpr RootMotion__BipedNaming__BoneType& operator=(RootMotion__BipedNaming__BoneType const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____RootMotion__BipedNaming__BoneType& operator=(____RootMotion__BipedNaming__BoneType&& o) noexcept {
+                    constexpr RootMotion__BipedNaming__BoneType& operator=(RootMotion__BipedNaming__BoneType&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -51,7 +50,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____RootMotion__BipedNaming__BoneType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit RootMotion__BipedNaming__BoneType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -59,7 +58,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______RootMotion__BipedNaming__BoneType_Unwrapped : int32_t {
+enum class __RootMotion__BipedNaming__BoneType_Unwrapped : int32_t {
 __Unassigned = 0,
 __Spine = 1,
 __Head = 2,
@@ -70,8 +69,8 @@ __Eye = 6,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______RootMotion__BipedNaming__BoneType_Unwrapped () const noexcept {
-return std::bit_cast<______RootMotion__BipedNaming__BoneType_Unwrapped>(__instance);
+constexpr operator __RootMotion__BipedNaming__BoneType_Unwrapped () const noexcept {
+return std::bit_cast<__RootMotion__BipedNaming__BoneType_Unwrapped>(__instance);
 }
 
 
@@ -84,25 +83,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unassigned offset 0
-static ::RootMotion::____RootMotion__BipedNaming__BoneType const Unassigned;
+static RootMotion::RootMotion__BipedNaming__BoneType const Unassigned;
 
 /// @brief Field Spine offset 0
-static ::RootMotion::____RootMotion__BipedNaming__BoneType const Spine;
+static RootMotion::RootMotion__BipedNaming__BoneType const Spine;
 
 /// @brief Field Head offset 0
-static ::RootMotion::____RootMotion__BipedNaming__BoneType const Head;
+static RootMotion::RootMotion__BipedNaming__BoneType const Head;
 
 /// @brief Field Arm offset 0
-static ::RootMotion::____RootMotion__BipedNaming__BoneType const Arm;
+static RootMotion::RootMotion__BipedNaming__BoneType const Arm;
 
 /// @brief Field Leg offset 0
-static ::RootMotion::____RootMotion__BipedNaming__BoneType const Leg;
+static RootMotion::RootMotion__BipedNaming__BoneType const Leg;
 
 /// @brief Field Tail offset 0
-static ::RootMotion::____RootMotion__BipedNaming__BoneType const Tail;
+static RootMotion::RootMotion__BipedNaming__BoneType const Tail;
 
 /// @brief Field Eye offset 0
-static ::RootMotion::____RootMotion__BipedNaming__BoneType const Eye;
+static RootMotion::RootMotion__BipedNaming__BoneType const Eye;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -114,20 +113,20 @@ namespace RootMotion {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12427))
 // CS Name: RootMotion.BipedNaming::BoneSide
-struct CORDL_TYPE ____RootMotion__BipedNaming__BoneSide : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE RootMotion__BipedNaming__BoneSide : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____RootMotion__BipedNaming__BoneSide(int32_t value__) noexcept;
+constexpr RootMotion__BipedNaming__BoneSide(int32_t value__) noexcept;
 
 
-                    constexpr ____RootMotion__BipedNaming__BoneSide(____RootMotion__BipedNaming__BoneSide const&) = default;
-                    constexpr ____RootMotion__BipedNaming__BoneSide(____RootMotion__BipedNaming__BoneSide&&) = default;
-                    constexpr ____RootMotion__BipedNaming__BoneSide& operator=(____RootMotion__BipedNaming__BoneSide const& o) {
+                    constexpr RootMotion__BipedNaming__BoneSide(RootMotion__BipedNaming__BoneSide const&) = default;
+                    constexpr RootMotion__BipedNaming__BoneSide(RootMotion__BipedNaming__BoneSide&&) = default;
+                    constexpr RootMotion__BipedNaming__BoneSide& operator=(RootMotion__BipedNaming__BoneSide const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____RootMotion__BipedNaming__BoneSide& operator=(____RootMotion__BipedNaming__BoneSide&& o) noexcept {
+                    constexpr RootMotion__BipedNaming__BoneSide& operator=(RootMotion__BipedNaming__BoneSide&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -140,7 +139,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____RootMotion__BipedNaming__BoneSide(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit RootMotion__BipedNaming__BoneSide(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -148,15 +147,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______RootMotion__BipedNaming__BoneSide_Unwrapped : int32_t {
+enum class __RootMotion__BipedNaming__BoneSide_Unwrapped : int32_t {
 __Center = 0,
 __Left = 1,
 __Right = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______RootMotion__BipedNaming__BoneSide_Unwrapped () const noexcept {
-return std::bit_cast<______RootMotion__BipedNaming__BoneSide_Unwrapped>(__instance);
+constexpr operator __RootMotion__BipedNaming__BoneSide_Unwrapped () const noexcept {
+return std::bit_cast<__RootMotion__BipedNaming__BoneSide_Unwrapped>(__instance);
 }
 
 
@@ -169,13 +168,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Center offset 0
-static ::RootMotion::____RootMotion__BipedNaming__BoneSide const Center;
+static RootMotion::RootMotion__BipedNaming__BoneSide const Center;
 
 /// @brief Field Left offset 0
-static ::RootMotion::____RootMotion__BipedNaming__BoneSide const Left;
+static RootMotion::RootMotion__BipedNaming__BoneSide const Left;
 
 /// @brief Field Right offset 0
-static ::RootMotion::____RootMotion__BipedNaming__BoneSide const Right;
+static RootMotion::RootMotion__BipedNaming__BoneSide const Right;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -190,9 +189,9 @@ namespace RootMotion {
 class CORDL_TYPE BipedNaming : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using BoneSide = ::RootMotion::____RootMotion__BipedNaming__BoneSide;
+using BoneSide = RootMotion::RootMotion__BipedNaming__BoneSide;
 
-using BoneType = ::RootMotion::____RootMotion__BipedNaming__BoneType;
+using BoneType = RootMotion::RootMotion__BipedNaming__BoneType;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -339,28 +338,28 @@ static ::ArrayW<::StringW> __get_foot() ;
 // Methods
 
 /// @brief Method GetBonesOfType addr 0x11ac0ec size 0x1ac virtual false final false
-static ::ArrayW<::UnityEngine::Transform> GetBonesOfType(::RootMotion::____RootMotion__BipedNaming__BoneType boneType, ::ArrayW<::UnityEngine::Transform> bones) ;
+static ::ArrayW<UnityEngine::Transform> GetBonesOfType(RootMotion::RootMotion__BipedNaming__BoneType boneType, ::ArrayW<UnityEngine::Transform> bones) ;
 
 /// @brief Method GetBonesOfSide addr 0x11ac3b0 size 0x1ac virtual false final false
-static ::ArrayW<::UnityEngine::Transform> GetBonesOfSide(::RootMotion::____RootMotion__BipedNaming__BoneSide boneSide, ::ArrayW<::UnityEngine::Transform> bones) ;
+static ::ArrayW<UnityEngine::Transform> GetBonesOfSide(RootMotion::RootMotion__BipedNaming__BoneSide boneSide, ::ArrayW<UnityEngine::Transform> bones) ;
 
 /// @brief Method GetBonesOfTypeAndSide addr 0x11ac5e4 size 0x74 virtual false final false
-static ::ArrayW<::UnityEngine::Transform> GetBonesOfTypeAndSide(::RootMotion::____RootMotion__BipedNaming__BoneType boneType, ::RootMotion::____RootMotion__BipedNaming__BoneSide boneSide, ::ArrayW<::UnityEngine::Transform> bones) ;
+static ::ArrayW<UnityEngine::Transform> GetBonesOfTypeAndSide(RootMotion::RootMotion__BipedNaming__BoneType boneType, RootMotion::RootMotion__BipedNaming__BoneSide boneSide, ::ArrayW<UnityEngine::Transform> bones) ;
 
 /// @brief Method GetFirstBoneOfTypeAndSide addr 0x11ac658 size 0x94 virtual false final false
-static ::UnityEngine::Transform GetFirstBoneOfTypeAndSide(::RootMotion::____RootMotion__BipedNaming__BoneType boneType, ::RootMotion::____RootMotion__BipedNaming__BoneSide boneSide, ::ArrayW<::UnityEngine::Transform> bones) ;
+static UnityEngine::Transform GetFirstBoneOfTypeAndSide(RootMotion::RootMotion__BipedNaming__BoneType boneType, RootMotion::RootMotion__BipedNaming__BoneSide boneSide, ::ArrayW<UnityEngine::Transform> bones) ;
 
 /// @brief Method GetNamingMatch addr 0x11ac6ec size 0x114 virtual false final false
-static ::UnityEngine::Transform GetNamingMatch(::ArrayW<::UnityEngine::Transform> transforms, ::ArrayW<::ArrayW<::StringW>> namings) ;
+static UnityEngine::Transform GetNamingMatch(::ArrayW<UnityEngine::Transform> transforms, ::ArrayW<::ArrayW<::StringW>> namings) ;
 
 /// @brief Method GetBoneType addr 0x11ac298 size 0x118 virtual false final false
-static ::RootMotion::____RootMotion__BipedNaming__BoneType GetBoneType(::StringW boneName) ;
+static RootMotion::RootMotion__BipedNaming__BoneType GetBoneType(::StringW boneName) ;
 
 /// @brief Method GetBoneSide addr 0x11ac55c size 0x88 virtual false final false
-static ::RootMotion::____RootMotion__BipedNaming__BoneSide GetBoneSide(::StringW boneName) ;
+static RootMotion::RootMotion__BipedNaming__BoneSide GetBoneSide(::StringW boneName) ;
 
 /// @brief Method GetBone addr 0x11ace24 size 0x80 virtual false final false
-static ::UnityEngine::Transform GetBone(::ArrayW<::UnityEngine::Transform> transforms, ::RootMotion::____RootMotion__BipedNaming__BoneType boneType, ::RootMotion::____RootMotion__BipedNaming__BoneSide boneSide, ::ArrayW<::ArrayW<::StringW>> namings) ;
+static UnityEngine::Transform GetBone(::ArrayW<UnityEngine::Transform> transforms, RootMotion::RootMotion__BipedNaming__BoneType boneType, RootMotion::RootMotion__BipedNaming__BoneSide boneSide, ::ArrayW<::ArrayW<::StringW>> namings) ;
 
 /// @brief Method isLeft addr 0x11acc7c size 0xd4 virtual false final false
 static bool isLeft(::StringW boneName) ;
@@ -411,8 +410,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::____RootMotion__BipedNaming__BoneSide, "RootMotion", "BipedNaming/BoneSide");
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::____RootMotion__BipedNaming__BoneType, "RootMotion", "BipedNaming/BoneType");
-NEED_NO_BOX(::RootMotion::BipedNaming);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::BipedNaming, "RootMotion", "BipedNaming");
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::RootMotion__BipedNaming__BoneSide, "RootMotion", "BipedNaming/BoneSide");
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::RootMotion__BipedNaming__BoneType, "RootMotion", "BipedNaming/BoneType");
+NEED_NO_BOX(RootMotion::BipedNaming);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedNaming, "RootMotion", "BipedNaming");

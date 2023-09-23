@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine {
 class RectTransform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace Tweening {
 class TimeTweeningManager;
@@ -22,7 +21,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5649))
 // CS Name: MultiplayerLobbyCenterScreenLayoutAnimator
-class CORDL_TYPE MultiplayerLobbyCenterScreenLayoutAnimator : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerLobbyCenterScreenLayoutAnimator : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr MultiplayerLobbyCenterScreenLayoutAnimator(MultiplayerLobbyCenterScree
 constexpr MultiplayerLobbyCenterScreenLayoutAnimator(MultiplayerLobbyCenterScreenLayoutAnimator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerLobbyCenterScreenLayoutAnimator(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerLobbyCenterScreenLayoutAnimator(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -58,23 +57,23 @@ constexpr explicit MultiplayerLobbyCenterScreenLayoutAnimator(void* ptr) noexcep
 
 // Fields
 
- ::UnityEngine::RectTransform __declspec(property(get=__get__nextLevelTransform, put=__set__nextLevelTransform))  _nextLevelTransform;
+ UnityEngine::RectTransform __declspec(property(get=__get__nextLevelTransform, put=__set__nextLevelTransform))  _nextLevelTransform;
 
-constexpr void __set__nextLevelTransform(::UnityEngine::RectTransform value) ;
+constexpr void __set__nextLevelTransform(UnityEngine::RectTransform value) ;
 
-constexpr ::UnityEngine::RectTransform __get__nextLevelTransform() const;
+constexpr UnityEngine::RectTransform __get__nextLevelTransform() const;
 
- ::UnityEngine::RectTransform __declspec(property(get=__get__nextLevelBasePosition, put=__set__nextLevelBasePosition))  _nextLevelBasePosition;
+ UnityEngine::RectTransform __declspec(property(get=__get__nextLevelBasePosition, put=__set__nextLevelBasePosition))  _nextLevelBasePosition;
 
-constexpr void __set__nextLevelBasePosition(::UnityEngine::RectTransform value) ;
+constexpr void __set__nextLevelBasePosition(UnityEngine::RectTransform value) ;
 
-constexpr ::UnityEngine::RectTransform __get__nextLevelBasePosition() const;
+constexpr UnityEngine::RectTransform __get__nextLevelBasePosition() const;
 
- ::UnityEngine::RectTransform __declspec(property(get=__get__nextLevelCountdownPosition, put=__set__nextLevelCountdownPosition))  _nextLevelCountdownPosition;
+ UnityEngine::RectTransform __declspec(property(get=__get__nextLevelCountdownPosition, put=__set__nextLevelCountdownPosition))  _nextLevelCountdownPosition;
 
-constexpr void __set__nextLevelCountdownPosition(::UnityEngine::RectTransform value) ;
+constexpr void __set__nextLevelCountdownPosition(UnityEngine::RectTransform value) ;
 
-constexpr ::UnityEngine::RectTransform __get__nextLevelCountdownPosition() const;
+constexpr UnityEngine::RectTransform __get__nextLevelCountdownPosition() const;
 
  float_t __declspec(property(get=__get__transitionDuration, put=__set__transitionDuration))  _transitionDuration;
 
@@ -82,11 +81,11 @@ constexpr void __set__transitionDuration(float_t value) ;
 
 constexpr float_t __get__transitionDuration() const;
 
- ::Tweening::TimeTweeningManager __declspec(property(get=__get__tweeningManager, put=__set__tweeningManager))  _tweeningManager;
+ Tweening::TimeTweeningManager __declspec(property(get=__get__tweeningManager, put=__set__tweeningManager))  _tweeningManager;
 
-constexpr void __set__tweeningManager(::Tweening::TimeTweeningManager value) ;
+constexpr void __set__tweeningManager(Tweening::TimeTweeningManager value) ;
 
-constexpr ::Tweening::TimeTweeningManager __get__tweeningManager() const;
+constexpr Tweening::TimeTweeningManager __get__tweeningManager() const;
 
 
 // Methods
@@ -98,7 +97,7 @@ constexpr ::Tweening::TimeTweeningManager __get__tweeningManager() const;
  void StopCountdown(bool instant) ;
 
 /// @brief Method Move addr 0x214bd54 size 0x13c virtual false final false
- void Move(::UnityEngine::Vector3 from, ::UnityEngine::Vector3 to, float_t duration) ;
+ void Move(UnityEngine::Vector3 from, UnityEngine::Vector3 to, float_t duration) ;
 
 // Ctor Parameters []
 explicit MultiplayerLobbyCenterScreenLayoutAnimator() ;
@@ -107,12 +106,11 @@ explicit MultiplayerLobbyCenterScreenLayoutAnimator() ;
  void _ctor() ;
 
 /// @brief Method <Move>b__7_0 addr 0x214bf38 size 0x1c virtual false final false
- void _Move_b__7_0(::UnityEngine::Vector3 pos) ;
+ void _Move_b__7_0(UnityEngine::Vector3 pos) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator, "", "MultiplayerLobbyCenterScreenLayoutAnimator");
+NEED_NO_BOX(GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator, "", "MultiplayerLobbyCenterScreenLayoutAnimator");

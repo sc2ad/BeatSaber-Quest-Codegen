@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace LIV::SDK::Unity {
 struct TEXTURE_TYPE;
@@ -67,14 +66,13 @@ constexpr void __set_value__(uint32_t value) ;
 constexpr uint32_t __get_value__() const;
 
 /// @brief Field UNDEFINED offset 0
-static ::LIV::SDK::Unity::TEXTURE_TYPE const UNDEFINED;
+static LIV::SDK::Unity::TEXTURE_TYPE const UNDEFINED;
 
 /// @brief Field COLOR_BUFFER offset 0
-static ::LIV::SDK::Unity::TEXTURE_TYPE const COLOR_BUFFER;
+static LIV::SDK::Unity::TEXTURE_TYPE const COLOR_BUFFER;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def LIV::SDK::Unity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::TEXTURE_TYPE, "LIV.SDK.Unity", "TEXTURE_TYPE");
+DEFINE_IL2CPP_ARG_TYPE(LIV::SDK::Unity::TEXTURE_TYPE, "LIV.SDK.Unity", "TEXTURE_TYPE");

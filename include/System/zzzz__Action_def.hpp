@@ -3,7 +3,6 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 class Action;
@@ -14,7 +13,7 @@ namespace System {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2322))
 // CS Name: System.Action
-class CORDL_TYPE Action : public ::System::MulticastDelegate {
+class CORDL_TYPE Action : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr Action(Action const& ) noexcept = default;
 constexpr Action(Action&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Action(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit Action(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -63,6 +62,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::Action);
-DEFINE_IL2CPP_ARG_TYPE(::System::Action, "System", "Action");
+NEED_NO_BOX(System::Action);
+DEFINE_IL2CPP_ARG_TYPE(System::Action, "System", "Action");

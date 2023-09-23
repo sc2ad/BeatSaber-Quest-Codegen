@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Org::BouncyCastle::Bcpg {
 class BcpgOutputStream;
 }
@@ -51,23 +50,23 @@ constexpr explicit OutputStreamPacket(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Fields
 
- ::Org::BouncyCastle::Bcpg::BcpgOutputStream __declspec(property(get=__get_bcpgOut, put=__set_bcpgOut))  bcpgOut;
+ Org::BouncyCastle::Bcpg::BcpgOutputStream __declspec(property(get=__get_bcpgOut, put=__set_bcpgOut))  bcpgOut;
 
-constexpr void __set_bcpgOut(::Org::BouncyCastle::Bcpg::BcpgOutputStream value) ;
+constexpr void __set_bcpgOut(Org::BouncyCastle::Bcpg::BcpgOutputStream value) ;
 
-constexpr ::Org::BouncyCastle::Bcpg::BcpgOutputStream __get_bcpgOut() const;
+constexpr Org::BouncyCastle::Bcpg::BcpgOutputStream __get_bcpgOut() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bcpgOut", ty: "::Org::BouncyCastle::Bcpg::BcpgOutputStream", modifiers: "", def_value: None }]
-explicit OutputStreamPacket(::Org::BouncyCastle::Bcpg::BcpgOutputStream bcpgOut) ;
+// Ctor Parameters [CppParam { name: "bcpgOut", ty: "Org::BouncyCastle::Bcpg::BcpgOutputStream", modifiers: "", def_value: None }]
+explicit OutputStreamPacket(Org::BouncyCastle::Bcpg::BcpgOutputStream bcpgOut) ;
 
 /// @brief Method .ctor addr 0x1147ff0 size 0x78 virtual false final false
- void _ctor(::Org::BouncyCastle::Bcpg::BcpgOutputStream bcpgOut) ;
+ void _ctor(Org::BouncyCastle::Bcpg::BcpgOutputStream bcpgOut) ;
 
 /// @brief Method Open addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Bcpg::BcpgOutputStream Open() ;
+ Org::BouncyCastle::Bcpg::BcpgOutputStream Open() ;
 
 /// @brief Method Close addr 0x0 size 0xffffffffffffffff virtual true final false
  void Close() ;
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::OutputStreamPacket);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::OutputStreamPacket, "Org.BouncyCastle.Bcpg", "OutputStreamPacket");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::OutputStreamPacket);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::OutputStreamPacket, "Org.BouncyCastle.Bcpg", "OutputStreamPacket");

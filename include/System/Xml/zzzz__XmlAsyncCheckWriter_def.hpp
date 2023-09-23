@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Xml {
-class XmlWriter;
-}
 namespace System::Xml {
 struct WriteState;
+}
+namespace System::Xml {
+class XmlWriter;
 }
 namespace System::Threading::Tasks {
 class Task;
@@ -24,7 +23,7 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11433))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11389))
 // CS Name: System.Xml.XmlAsyncCheckWriter
-class CORDL_TYPE XmlAsyncCheckWriter : public ::System::Xml::XmlWriter {
+class CORDL_TYPE XmlAsyncCheckWriter : public System::Xml::XmlWriter {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr XmlAsyncCheckWriter(XmlAsyncCheckWriter const& ) noexcept = default;
 constexpr XmlAsyncCheckWriter(XmlAsyncCheckWriter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XmlAsyncCheckWriter(void* ptr) noexcept : ::System::Xml::XmlWriter(ptr) {
+constexpr explicit XmlAsyncCheckWriter(void* ptr) noexcept : System::Xml::XmlWriter(ptr) {
 }
 
 
@@ -60,31 +59,31 @@ constexpr explicit XmlAsyncCheckWriter(void* ptr) noexcept : ::System::Xml::XmlW
 
 // Fields
 
- ::System::Xml::XmlWriter __declspec(property(get=__get_coreWriter, put=__set_coreWriter))  coreWriter;
+ System::Xml::XmlWriter __declspec(property(get=__get_coreWriter, put=__set_coreWriter))  coreWriter;
 
-constexpr void __set_coreWriter(::System::Xml::XmlWriter value) ;
+constexpr void __set_coreWriter(System::Xml::XmlWriter value) ;
 
-constexpr ::System::Xml::XmlWriter __get_coreWriter() const;
+constexpr System::Xml::XmlWriter __get_coreWriter() const;
 
- ::System::Threading::Tasks::Task __declspec(property(get=__get_lastTask, put=__set_lastTask))  lastTask;
+ System::Threading::Tasks::Task __declspec(property(get=__get_lastTask, put=__set_lastTask))  lastTask;
 
-constexpr void __set_lastTask(::System::Threading::Tasks::Task value) ;
+constexpr void __set_lastTask(System::Threading::Tasks::Task value) ;
 
-constexpr ::System::Threading::Tasks::Task __get_lastTask() const;
+constexpr System::Threading::Tasks::Task __get_lastTask() const;
 
 
 // Properties
 
- ::System::Xml::WriteState __declspec(property(get=get_WriteState))  WriteState;
+ System::Xml::WriteState __declspec(property(get=get_WriteState))  WriteState;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "writer", ty: "::System::Xml::XmlWriter", modifiers: "", def_value: None }]
-explicit XmlAsyncCheckWriter(::System::Xml::XmlWriter writer) ;
+// Ctor Parameters [CppParam { name: "writer", ty: "System::Xml::XmlWriter", modifiers: "", def_value: None }]
+explicit XmlAsyncCheckWriter(System::Xml::XmlWriter writer) ;
 
 /// @brief Method .ctor addr 0x26c22f4 size 0x7c virtual false final false
- void _ctor(::System::Xml::XmlWriter writer) ;
+ void _ctor(System::Xml::XmlWriter writer) ;
 
 /// @brief Method CheckAsync addr 0x26c2370 size 0x84 virtual false final false
  void CheckAsync() ;
@@ -156,7 +155,7 @@ explicit XmlAsyncCheckWriter(::System::Xml::XmlWriter writer) ;
  void WriteBinHex(::ArrayW<uint8_t> buffer, int32_t index, int32_t count) ;
 
 /// @brief Method get_WriteState addr 0x26c296c size 0x2c virtual true final false
- ::System::Xml::WriteState get_WriteState() ;
+ System::Xml::WriteState get_WriteState() ;
 
 /// @brief Method Close addr 0x26c2998 size 0x2c virtual true final false
  void Close() ;
@@ -177,6 +176,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::XmlAsyncCheckWriter);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlAsyncCheckWriter, "System.Xml", "XmlAsyncCheckWriter");
+NEED_NO_BOX(System::Xml::XmlAsyncCheckWriter);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlAsyncCheckWriter, "System.Xml", "XmlAsyncCheckWriter");

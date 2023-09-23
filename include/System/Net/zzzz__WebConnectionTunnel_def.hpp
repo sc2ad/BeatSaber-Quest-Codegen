@@ -5,28 +5,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System {
-class Version;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Net {
-class WebHeaderCollection;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
 namespace System::IO {
 class Stream;
-}
-namespace System {
-class Uri;
-}
-namespace System {
-template<typename T1,typename T2,typename T3>
-struct ValueTuple_3;
 }
 namespace System::Net {
 class HttpWebRequest;
@@ -35,18 +15,37 @@ namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
+namespace System {
+template<typename T1,typename T2,typename T3>
+struct ValueTuple_3;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System {
+class Version;
+}
+namespace System::Net {
+class WebHeaderCollection;
+}
+namespace System {
+class Uri;
+}
 namespace System::Runtime::CompilerServices {
-struct ____System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
-struct ____System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
+struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
 namespace System::IO {
 class MemoryStream;
@@ -57,16 +56,16 @@ struct AsyncTaskMethodBuilder_1;
 }
 // Forward declare root types
 namespace System::Net {
-struct ____System__Net__WebConnectionTunnel__NtlmAuthState;
+struct System__Net__WebConnectionTunnel__NtlmAuthState;
 }
 namespace System::Net {
 class WebConnectionTunnel;
 }
 namespace System::Net {
-struct ____System__Net__WebConnectionTunnel___Initialize_d__42;
+struct System__Net__WebConnectionTunnel___Initialize_d__42;
 }
 namespace System::Net {
-struct ____System__Net__WebConnectionTunnel___ReadHeaders_d__43;
+struct System__Net__WebConnectionTunnel___ReadHeaders_d__43;
 }
 // Type: ::NtlmAuthState
 namespace System::Net {
@@ -74,20 +73,20 @@ namespace System::Net {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8072))
 // CS Name: System.Net.WebConnectionTunnel::NtlmAuthState
-struct CORDL_TYPE ____System__Net__WebConnectionTunnel__NtlmAuthState : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE System__Net__WebConnectionTunnel__NtlmAuthState : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____System__Net__WebConnectionTunnel__NtlmAuthState(int32_t value__) noexcept;
+constexpr System__Net__WebConnectionTunnel__NtlmAuthState(int32_t value__) noexcept;
 
 
-                    constexpr ____System__Net__WebConnectionTunnel__NtlmAuthState(____System__Net__WebConnectionTunnel__NtlmAuthState const&) = default;
-                    constexpr ____System__Net__WebConnectionTunnel__NtlmAuthState(____System__Net__WebConnectionTunnel__NtlmAuthState&&) = default;
-                    constexpr ____System__Net__WebConnectionTunnel__NtlmAuthState& operator=(____System__Net__WebConnectionTunnel__NtlmAuthState const& o) {
+                    constexpr System__Net__WebConnectionTunnel__NtlmAuthState(System__Net__WebConnectionTunnel__NtlmAuthState const&) = default;
+                    constexpr System__Net__WebConnectionTunnel__NtlmAuthState(System__Net__WebConnectionTunnel__NtlmAuthState&&) = default;
+                    constexpr System__Net__WebConnectionTunnel__NtlmAuthState& operator=(System__Net__WebConnectionTunnel__NtlmAuthState const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Net__WebConnectionTunnel__NtlmAuthState& operator=(____System__Net__WebConnectionTunnel__NtlmAuthState&& o) noexcept {
+                    constexpr System__Net__WebConnectionTunnel__NtlmAuthState& operator=(System__Net__WebConnectionTunnel__NtlmAuthState&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -100,7 +99,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Net__WebConnectionTunnel__NtlmAuthState(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Net__WebConnectionTunnel__NtlmAuthState(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -108,15 +107,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______System__Net__WebConnectionTunnel__NtlmAuthState_Unwrapped : int32_t {
+enum class __System__Net__WebConnectionTunnel__NtlmAuthState_Unwrapped : int32_t {
 __None = 0,
 __Challenge = 1,
 __Response = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______System__Net__WebConnectionTunnel__NtlmAuthState_Unwrapped () const noexcept {
-return std::bit_cast<______System__Net__WebConnectionTunnel__NtlmAuthState_Unwrapped>(__instance);
+constexpr operator __System__Net__WebConnectionTunnel__NtlmAuthState_Unwrapped () const noexcept {
+return std::bit_cast<__System__Net__WebConnectionTunnel__NtlmAuthState_Unwrapped>(__instance);
 }
 
 
@@ -129,13 +128,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::Net::____System__Net__WebConnectionTunnel__NtlmAuthState const None;
+static System::Net::System__Net__WebConnectionTunnel__NtlmAuthState const None;
 
 /// @brief Field Challenge offset 0
-static ::System::Net::____System__Net__WebConnectionTunnel__NtlmAuthState const Challenge;
+static System::Net::System__Net__WebConnectionTunnel__NtlmAuthState const Challenge;
 
 /// @brief Field Response offset 0
-static ::System::Net::____System__Net__WebConnectionTunnel__NtlmAuthState const Response;
+static System::Net::System__Net__WebConnectionTunnel__NtlmAuthState const Response;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -147,23 +146,23 @@ namespace System::Net {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8073))
 // CS Name: System.Net.WebConnectionTunnel::<Initialize>d__42
-struct CORDL_TYPE ____System__Net__WebConnectionTunnel___Initialize_d__42 : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE System__Net__WebConnectionTunnel___Initialize_d__42 : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::CompilerServices::IAsyncStateMachine
-constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine() const;
+/// @brief Convert operator to System::Runtime::CompilerServices::IAsyncStateMachine
+constexpr operator  System::Runtime::CompilerServices::IAsyncStateMachine() const;
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::WebConnectionTunnel", modifiers: "", def_value: None }, CppParam { name: "stream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "_have_auth_5__2", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::ValueTuple_3<::System::Net::WebHeaderCollection,::ArrayW<uint8_t>,int32_t>>", modifiers: "", def_value: None }]
-constexpr ____System__Net__WebConnectionTunnel___Initialize_d__42(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Net::WebConnectionTunnel __4__this, ::System::IO::Stream stream, ::System::Threading::CancellationToken cancellationToken, bool _have_auth_5__2, ::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1, ::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::ValueTuple_3<::System::Net::WebHeaderCollection,::ArrayW<uint8_t>,int32_t>> __u__2) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "System::Net::WebConnectionTunnel", modifiers: "", def_value: None }, CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "_have_auth_5__2", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty: "System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<System::ValueTuple_3<System::Net::WebHeaderCollection,::ArrayW<uint8_t>,int32_t>>", modifiers: "", def_value: None }]
+constexpr System__Net__WebConnectionTunnel___Initialize_d__42(int32_t __1__state, System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, System::Net::WebConnectionTunnel __4__this, System::IO::Stream stream, System::Threading::CancellationToken cancellationToken, bool _have_auth_5__2, System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1, System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<System::ValueTuple_3<System::Net::WebHeaderCollection,::ArrayW<uint8_t>,int32_t>> __u__2) noexcept;
 
 
-                    constexpr ____System__Net__WebConnectionTunnel___Initialize_d__42(____System__Net__WebConnectionTunnel___Initialize_d__42 const&) = default;
-                    constexpr ____System__Net__WebConnectionTunnel___Initialize_d__42(____System__Net__WebConnectionTunnel___Initialize_d__42&&) = default;
-                    constexpr ____System__Net__WebConnectionTunnel___Initialize_d__42& operator=(____System__Net__WebConnectionTunnel___Initialize_d__42 const& o) {
+                    constexpr System__Net__WebConnectionTunnel___Initialize_d__42(System__Net__WebConnectionTunnel___Initialize_d__42 const&) = default;
+                    constexpr System__Net__WebConnectionTunnel___Initialize_d__42(System__Net__WebConnectionTunnel___Initialize_d__42&&) = default;
+                    constexpr System__Net__WebConnectionTunnel___Initialize_d__42& operator=(System__Net__WebConnectionTunnel___Initialize_d__42 const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Net__WebConnectionTunnel___Initialize_d__42& operator=(____System__Net__WebConnectionTunnel___Initialize_d__42&& o) noexcept {
+                    constexpr System__Net__WebConnectionTunnel___Initialize_d__42& operator=(System__Net__WebConnectionTunnel___Initialize_d__42&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -176,7 +175,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x60};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Net__WebConnectionTunnel___Initialize_d__42(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Net__WebConnectionTunnel___Initialize_d__42(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -193,29 +192,29 @@ constexpr void __set___1__state(int32_t value) ;
 
 constexpr int32_t __get___1__state() const;
 
- ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
+ System::Runtime::CompilerServices::AsyncTaskMethodBuilder __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
 
-constexpr void __set___t__builder(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder value) ;
+constexpr void __set___t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder value) ;
 
-constexpr ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __get___t__builder() const;
+constexpr System::Runtime::CompilerServices::AsyncTaskMethodBuilder __get___t__builder() const;
 
- ::System::Net::WebConnectionTunnel __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ System::Net::WebConnectionTunnel __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::System::Net::WebConnectionTunnel value) ;
+constexpr void __set___4__this(System::Net::WebConnectionTunnel value) ;
 
-constexpr ::System::Net::WebConnectionTunnel __get___4__this() const;
+constexpr System::Net::WebConnectionTunnel __get___4__this() const;
 
- ::System::IO::Stream __declspec(property(get=__get_stream, put=__set_stream))  stream;
+ System::IO::Stream __declspec(property(get=__get_stream, put=__set_stream))  stream;
 
-constexpr void __set_stream(::System::IO::Stream value) ;
+constexpr void __set_stream(System::IO::Stream value) ;
 
-constexpr ::System::IO::Stream __get_stream() const;
+constexpr System::IO::Stream __get_stream() const;
 
- ::System::Threading::CancellationToken __declspec(property(get=__get_cancellationToken, put=__set_cancellationToken))  cancellationToken;
+ System::Threading::CancellationToken __declspec(property(get=__get_cancellationToken, put=__set_cancellationToken))  cancellationToken;
 
-constexpr void __set_cancellationToken(::System::Threading::CancellationToken value) ;
+constexpr void __set_cancellationToken(System::Threading::CancellationToken value) ;
 
-constexpr ::System::Threading::CancellationToken __get_cancellationToken() const;
+constexpr System::Threading::CancellationToken __get_cancellationToken() const;
 
  bool __declspec(property(get=__get__have_auth_5__2, put=__set__have_auth_5__2))  _have_auth_5__2;
 
@@ -223,17 +222,17 @@ constexpr void __set__have_auth_5__2(bool value) ;
 
 constexpr bool __get__have_auth_5__2() const;
 
- ::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
+ System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
 
-constexpr void __set___u__1(::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter value) ;
+constexpr void __set___u__1(System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter value) ;
 
-constexpr ::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __get___u__1() const;
+constexpr System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __get___u__1() const;
 
- ::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::ValueTuple_3<::System::Net::WebHeaderCollection,::ArrayW<uint8_t>,int32_t>> __declspec(property(get=__get___u__2, put=__set___u__2))  __u__2;
+ System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<System::ValueTuple_3<System::Net::WebHeaderCollection,::ArrayW<uint8_t>,int32_t>> __declspec(property(get=__get___u__2, put=__set___u__2))  __u__2;
 
-constexpr void __set___u__2(::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::ValueTuple_3<::System::Net::WebHeaderCollection,::ArrayW<uint8_t>,int32_t>> value) ;
+constexpr void __set___u__2(System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<System::ValueTuple_3<System::Net::WebHeaderCollection,::ArrayW<uint8_t>,int32_t>> value) ;
 
-constexpr ::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::ValueTuple_3<::System::Net::WebHeaderCollection,::ArrayW<uint8_t>,int32_t>> __get___u__2() const;
+constexpr System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<System::ValueTuple_3<System::Net::WebHeaderCollection,::ArrayW<uint8_t>,int32_t>> __get___u__2() const;
 
 
 // Methods
@@ -242,7 +241,7 @@ constexpr ::System::Runtime::CompilerServices::____System__Runtime__CompilerServ
  void MoveNext() ;
 
 /// @brief Method SetStateMachine addr 0x284f038 size 0xc virtual true final true
- void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
+ void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -254,23 +253,23 @@ namespace System::Net {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8074))
 // CS Name: System.Net.WebConnectionTunnel::<ReadHeaders>d__43
-struct CORDL_TYPE ____System__Net__WebConnectionTunnel___ReadHeaders_d__43 : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE System__Net__WebConnectionTunnel___ReadHeaders_d__43 : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::CompilerServices::IAsyncStateMachine
-constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine() const;
+/// @brief Convert operator to System::Runtime::CompilerServices::IAsyncStateMachine
+constexpr operator  System::Runtime::CompilerServices::IAsyncStateMachine() const;
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::ValueTuple_3<::System::Net::WebHeaderCollection,::ArrayW<uint8_t>,int32_t>>", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "stream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::WebConnectionTunnel", modifiers: "", def_value: None }, CppParam { name: "_retBuffer_5__2", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "_status_5__3", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_buffer_5__4", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "_ms_5__5", ty: "::System::IO::MemoryStream", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None }]
-constexpr ____System__Net__WebConnectionTunnel___ReadHeaders_d__43(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::ValueTuple_3<::System::Net::WebHeaderCollection,::ArrayW<uint8_t>,int32_t>> __t__builder, ::System::Threading::CancellationToken cancellationToken, ::System::IO::Stream stream, ::System::Net::WebConnectionTunnel __4__this, ::ArrayW<uint8_t> _retBuffer_5__2, int32_t _status_5__3, ::ArrayW<uint8_t> _buffer_5__4, ::System::IO::MemoryStream _ms_5__5, ::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> __u__1) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::ValueTuple_3<System::Net::WebHeaderCollection,::ArrayW<uint8_t>,int32_t>>", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "System::Net::WebConnectionTunnel", modifiers: "", def_value: None }, CppParam { name: "_retBuffer_5__2", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "_status_5__3", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_buffer_5__4", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "_ms_5__5", ty: "System::IO::MemoryStream", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None }]
+constexpr System__Net__WebConnectionTunnel___ReadHeaders_d__43(int32_t __1__state, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::ValueTuple_3<System::Net::WebHeaderCollection,::ArrayW<uint8_t>,int32_t>> __t__builder, System::Threading::CancellationToken cancellationToken, System::IO::Stream stream, System::Net::WebConnectionTunnel __4__this, ::ArrayW<uint8_t> _retBuffer_5__2, int32_t _status_5__3, ::ArrayW<uint8_t> _buffer_5__4, System::IO::MemoryStream _ms_5__5, System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> __u__1) noexcept;
 
 
-                    constexpr ____System__Net__WebConnectionTunnel___ReadHeaders_d__43(____System__Net__WebConnectionTunnel___ReadHeaders_d__43 const&) = default;
-                    constexpr ____System__Net__WebConnectionTunnel___ReadHeaders_d__43(____System__Net__WebConnectionTunnel___ReadHeaders_d__43&&) = default;
-                    constexpr ____System__Net__WebConnectionTunnel___ReadHeaders_d__43& operator=(____System__Net__WebConnectionTunnel___ReadHeaders_d__43 const& o) {
+                    constexpr System__Net__WebConnectionTunnel___ReadHeaders_d__43(System__Net__WebConnectionTunnel___ReadHeaders_d__43 const&) = default;
+                    constexpr System__Net__WebConnectionTunnel___ReadHeaders_d__43(System__Net__WebConnectionTunnel___ReadHeaders_d__43&&) = default;
+                    constexpr System__Net__WebConnectionTunnel___ReadHeaders_d__43& operator=(System__Net__WebConnectionTunnel___ReadHeaders_d__43 const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Net__WebConnectionTunnel___ReadHeaders_d__43& operator=(____System__Net__WebConnectionTunnel___ReadHeaders_d__43&& o) noexcept {
+                    constexpr System__Net__WebConnectionTunnel___ReadHeaders_d__43& operator=(System__Net__WebConnectionTunnel___ReadHeaders_d__43&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -283,7 +282,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x68};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Net__WebConnectionTunnel___ReadHeaders_d__43(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Net__WebConnectionTunnel___ReadHeaders_d__43(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -300,29 +299,29 @@ constexpr void __set___1__state(int32_t value) ;
 
 constexpr int32_t __get___1__state() const;
 
- ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::ValueTuple_3<::System::Net::WebHeaderCollection,::ArrayW<uint8_t>,int32_t>> __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
+ System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::ValueTuple_3<System::Net::WebHeaderCollection,::ArrayW<uint8_t>,int32_t>> __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
 
-constexpr void __set___t__builder(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::ValueTuple_3<::System::Net::WebHeaderCollection,::ArrayW<uint8_t>,int32_t>> value) ;
+constexpr void __set___t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::ValueTuple_3<System::Net::WebHeaderCollection,::ArrayW<uint8_t>,int32_t>> value) ;
 
-constexpr ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::ValueTuple_3<::System::Net::WebHeaderCollection,::ArrayW<uint8_t>,int32_t>> __get___t__builder() const;
+constexpr System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::ValueTuple_3<System::Net::WebHeaderCollection,::ArrayW<uint8_t>,int32_t>> __get___t__builder() const;
 
- ::System::Threading::CancellationToken __declspec(property(get=__get_cancellationToken, put=__set_cancellationToken))  cancellationToken;
+ System::Threading::CancellationToken __declspec(property(get=__get_cancellationToken, put=__set_cancellationToken))  cancellationToken;
 
-constexpr void __set_cancellationToken(::System::Threading::CancellationToken value) ;
+constexpr void __set_cancellationToken(System::Threading::CancellationToken value) ;
 
-constexpr ::System::Threading::CancellationToken __get_cancellationToken() const;
+constexpr System::Threading::CancellationToken __get_cancellationToken() const;
 
- ::System::IO::Stream __declspec(property(get=__get_stream, put=__set_stream))  stream;
+ System::IO::Stream __declspec(property(get=__get_stream, put=__set_stream))  stream;
 
-constexpr void __set_stream(::System::IO::Stream value) ;
+constexpr void __set_stream(System::IO::Stream value) ;
 
-constexpr ::System::IO::Stream __get_stream() const;
+constexpr System::IO::Stream __get_stream() const;
 
- ::System::Net::WebConnectionTunnel __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ System::Net::WebConnectionTunnel __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::System::Net::WebConnectionTunnel value) ;
+constexpr void __set___4__this(System::Net::WebConnectionTunnel value) ;
 
-constexpr ::System::Net::WebConnectionTunnel __get___4__this() const;
+constexpr System::Net::WebConnectionTunnel __get___4__this() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get__retBuffer_5__2, put=__set__retBuffer_5__2))  _retBuffer_5__2;
 
@@ -342,17 +341,17 @@ constexpr void __set__buffer_5__4(::ArrayW<uint8_t> value) ;
 
 constexpr ::ArrayW<uint8_t> __get__buffer_5__4() const;
 
- ::System::IO::MemoryStream __declspec(property(get=__get__ms_5__5, put=__set__ms_5__5))  _ms_5__5;
+ System::IO::MemoryStream __declspec(property(get=__get__ms_5__5, put=__set__ms_5__5))  _ms_5__5;
 
-constexpr void __set__ms_5__5(::System::IO::MemoryStream value) ;
+constexpr void __set__ms_5__5(System::IO::MemoryStream value) ;
 
-constexpr ::System::IO::MemoryStream __get__ms_5__5() const;
+constexpr System::IO::MemoryStream __get__ms_5__5() const;
 
- ::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
+ System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
 
-constexpr void __set___u__1(::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> value) ;
+constexpr void __set___u__1(System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> value) ;
 
-constexpr ::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> __get___u__1() const;
+constexpr System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> __get___u__1() const;
 
 
 // Methods
@@ -361,7 +360,7 @@ constexpr ::System::Runtime::CompilerServices::____System__Runtime__CompilerServ
  void MoveNext() ;
 
 /// @brief Method SetStateMachine addr 0x284f800 size 0x58 virtual true final true
- void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
+ void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -376,11 +375,11 @@ namespace System::Net {
 class CORDL_TYPE WebConnectionTunnel : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using _ReadHeaders_d__43 = ::System::Net::____System__Net__WebConnectionTunnel___ReadHeaders_d__43;
+using _ReadHeaders_d__43 = System::Net::System__Net__WebConnectionTunnel___ReadHeaders_d__43;
 
-using _Initialize_d__42 = ::System::Net::____System__Net__WebConnectionTunnel___Initialize_d__42;
+using _Initialize_d__42 = System::Net::System__Net__WebConnectionTunnel___Initialize_d__42;
 
-using NtlmAuthState = ::System::Net::____System__Net__WebConnectionTunnel__NtlmAuthState;
+using NtlmAuthState = System::Net::System__Net__WebConnectionTunnel__NtlmAuthState;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x60};
@@ -415,29 +414,29 @@ constexpr explicit WebConnectionTunnel(void* ptr) noexcept : ::bs_hook::Il2CppWr
 
 // Fields
 
- ::System::Net::HttpWebRequest __declspec(property(get=__get__Request_k__BackingField, put=__set__Request_k__BackingField))  _Request_k__BackingField;
+ System::Net::HttpWebRequest __declspec(property(get=__get__Request_k__BackingField, put=__set__Request_k__BackingField))  _Request_k__BackingField;
 
-constexpr void __set__Request_k__BackingField(::System::Net::HttpWebRequest value) ;
+constexpr void __set__Request_k__BackingField(System::Net::HttpWebRequest value) ;
 
-constexpr ::System::Net::HttpWebRequest __get__Request_k__BackingField() const;
+constexpr System::Net::HttpWebRequest __get__Request_k__BackingField() const;
 
- ::System::Uri __declspec(property(get=__get__ConnectUri_k__BackingField, put=__set__ConnectUri_k__BackingField))  _ConnectUri_k__BackingField;
+ System::Uri __declspec(property(get=__get__ConnectUri_k__BackingField, put=__set__ConnectUri_k__BackingField))  _ConnectUri_k__BackingField;
 
-constexpr void __set__ConnectUri_k__BackingField(::System::Uri value) ;
+constexpr void __set__ConnectUri_k__BackingField(System::Uri value) ;
 
-constexpr ::System::Uri __get__ConnectUri_k__BackingField() const;
+constexpr System::Uri __get__ConnectUri_k__BackingField() const;
 
- ::System::Net::HttpWebRequest __declspec(property(get=__get_connectRequest, put=__set_connectRequest))  connectRequest;
+ System::Net::HttpWebRequest __declspec(property(get=__get_connectRequest, put=__set_connectRequest))  connectRequest;
 
-constexpr void __set_connectRequest(::System::Net::HttpWebRequest value) ;
+constexpr void __set_connectRequest(System::Net::HttpWebRequest value) ;
 
-constexpr ::System::Net::HttpWebRequest __get_connectRequest() const;
+constexpr System::Net::HttpWebRequest __get_connectRequest() const;
 
- ::System::Net::____System__Net__WebConnectionTunnel__NtlmAuthState __declspec(property(get=__get_ntlmAuthState, put=__set_ntlmAuthState))  ntlmAuthState;
+ System::Net::System__Net__WebConnectionTunnel__NtlmAuthState __declspec(property(get=__get_ntlmAuthState, put=__set_ntlmAuthState))  ntlmAuthState;
 
-constexpr void __set_ntlmAuthState(::System::Net::____System__Net__WebConnectionTunnel__NtlmAuthState value) ;
+constexpr void __set_ntlmAuthState(System::Net::System__Net__WebConnectionTunnel__NtlmAuthState value) ;
 
-constexpr ::System::Net::____System__Net__WebConnectionTunnel__NtlmAuthState __get_ntlmAuthState() const;
+constexpr System::Net::System__Net__WebConnectionTunnel__NtlmAuthState __get_ntlmAuthState() const;
 
  bool __declspec(property(get=__get__Success_k__BackingField, put=__set__Success_k__BackingField))  _Success_k__BackingField;
 
@@ -469,17 +468,17 @@ constexpr void __set__Challenge_k__BackingField(::ArrayW<::StringW> value) ;
 
 constexpr ::ArrayW<::StringW> __get__Challenge_k__BackingField() const;
 
- ::System::Net::WebHeaderCollection __declspec(property(get=__get__Headers_k__BackingField, put=__set__Headers_k__BackingField))  _Headers_k__BackingField;
+ System::Net::WebHeaderCollection __declspec(property(get=__get__Headers_k__BackingField, put=__set__Headers_k__BackingField))  _Headers_k__BackingField;
 
-constexpr void __set__Headers_k__BackingField(::System::Net::WebHeaderCollection value) ;
+constexpr void __set__Headers_k__BackingField(System::Net::WebHeaderCollection value) ;
 
-constexpr ::System::Net::WebHeaderCollection __get__Headers_k__BackingField() const;
+constexpr System::Net::WebHeaderCollection __get__Headers_k__BackingField() const;
 
- ::System::Version __declspec(property(get=__get__ProxyVersion_k__BackingField, put=__set__ProxyVersion_k__BackingField))  _ProxyVersion_k__BackingField;
+ System::Version __declspec(property(get=__get__ProxyVersion_k__BackingField, put=__set__ProxyVersion_k__BackingField))  _ProxyVersion_k__BackingField;
 
-constexpr void __set__ProxyVersion_k__BackingField(::System::Version value) ;
+constexpr void __set__ProxyVersion_k__BackingField(System::Version value) ;
 
-constexpr ::System::Version __get__ProxyVersion_k__BackingField() const;
+constexpr System::Version __get__ProxyVersion_k__BackingField() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get__Data_k__BackingField, put=__set__Data_k__BackingField))  _Data_k__BackingField;
 
@@ -490,9 +489,9 @@ constexpr ::ArrayW<uint8_t> __get__Data_k__BackingField() const;
 
 // Properties
 
- ::System::Net::HttpWebRequest __declspec(property(get=get_Request))  Request;
+ System::Net::HttpWebRequest __declspec(property(get=get_Request))  Request;
 
- ::System::Uri __declspec(property(get=get_ConnectUri))  ConnectUri;
+ System::Uri __declspec(property(get=get_ConnectUri))  ConnectUri;
 
  bool __declspec(property(get=get_Success, put=set_Success))  Success;
 
@@ -504,9 +503,9 @@ constexpr ::ArrayW<uint8_t> __get__Data_k__BackingField() const;
 
  ::ArrayW<::StringW> __declspec(property(get=get_Challenge, put=set_Challenge))  Challenge;
 
- ::System::Net::WebHeaderCollection __declspec(property(get=get_Headers, put=set_Headers))  Headers;
+ System::Net::WebHeaderCollection __declspec(property(get=get_Headers, put=set_Headers))  Headers;
 
- ::System::Version __declspec(property(get=get_ProxyVersion, put=set_ProxyVersion))  ProxyVersion;
+ System::Version __declspec(property(get=get_ProxyVersion, put=set_ProxyVersion))  ProxyVersion;
 
  ::ArrayW<uint8_t> __declspec(property(get=get_Data, put=set_Data))  Data;
 
@@ -514,16 +513,16 @@ constexpr ::ArrayW<uint8_t> __get__Data_k__BackingField() const;
 // Methods
 
 /// @brief Method get_Request addr 0x284e038 size 0x8 virtual false final false
- ::System::Net::HttpWebRequest get_Request() ;
+ System::Net::HttpWebRequest get_Request() ;
 
 /// @brief Method get_ConnectUri addr 0x284e040 size 0x8 virtual false final false
- ::System::Uri get_ConnectUri() ;
+ System::Uri get_ConnectUri() ;
 
-// Ctor Parameters [CppParam { name: "request", ty: "::System::Net::HttpWebRequest", modifiers: "", def_value: None }, CppParam { name: "connectUri", ty: "::System::Uri", modifiers: "", def_value: None }]
-explicit WebConnectionTunnel(::System::Net::HttpWebRequest request, ::System::Uri connectUri) ;
+// Ctor Parameters [CppParam { name: "request", ty: "System::Net::HttpWebRequest", modifiers: "", def_value: None }, CppParam { name: "connectUri", ty: "System::Uri", modifiers: "", def_value: None }]
+explicit WebConnectionTunnel(System::Net::HttpWebRequest request, System::Uri connectUri) ;
 
 /// @brief Method .ctor addr 0x284c794 size 0x2c virtual false final false
- void _ctor(::System::Net::HttpWebRequest request, ::System::Uri connectUri) ;
+ void _ctor(System::Net::HttpWebRequest request, System::Uri connectUri) ;
 
 /// @brief Method get_Success addr 0x284e048 size 0x8 virtual false final false
  bool get_Success() ;
@@ -553,16 +552,16 @@ explicit WebConnectionTunnel(::System::Net::HttpWebRequest request, ::System::Ur
  void set_Challenge(::ArrayW<::StringW> value) ;
 
 /// @brief Method get_Headers addr 0x284e098 size 0x8 virtual false final false
- ::System::Net::WebHeaderCollection get_Headers() ;
+ System::Net::WebHeaderCollection get_Headers() ;
 
 /// @brief Method set_Headers addr 0x284e0a0 size 0x8 virtual false final false
- void set_Headers(::System::Net::WebHeaderCollection value) ;
+ void set_Headers(System::Net::WebHeaderCollection value) ;
 
 /// @brief Method get_ProxyVersion addr 0x284e0a8 size 0x8 virtual false final false
- ::System::Version get_ProxyVersion() ;
+ System::Version get_ProxyVersion() ;
 
 /// @brief Method set_ProxyVersion addr 0x284e0b0 size 0x8 virtual false final false
- void set_ProxyVersion(::System::Version value) ;
+ void set_ProxyVersion(System::Version value) ;
 
 /// @brief Method get_Data addr 0x284e0b8 size 0x8 virtual false final false
  ::ArrayW<uint8_t> get_Data() ;
@@ -571,21 +570,20 @@ explicit WebConnectionTunnel(::System::Net::HttpWebRequest request, ::System::Ur
  void set_Data(::ArrayW<uint8_t> value) ;
 
 /// @brief Method Initialize addr 0x284c7c0 size 0xe4 virtual false final false
- ::System::Threading::Tasks::Task Initialize(::System::IO::Stream stream, ::System::Threading::CancellationToken cancellationToken) ;
+ System::Threading::Tasks::Task Initialize(System::IO::Stream stream, System::Threading::CancellationToken cancellationToken) ;
 
 /// @brief Method ReadHeaders addr 0x284e0c8 size 0x108 virtual false final false
- ::System::Threading::Tasks::Task_1<::System::ValueTuple_3<::System::Net::WebHeaderCollection,::ArrayW<uint8_t>,int32_t>> ReadHeaders(::System::IO::Stream stream, ::System::Threading::CancellationToken cancellationToken) ;
+ System::Threading::Tasks::Task_1<System::ValueTuple_3<System::Net::WebHeaderCollection,::ArrayW<uint8_t>,int32_t>> ReadHeaders(System::IO::Stream stream, System::Threading::CancellationToken cancellationToken) ;
 
 /// @brief Method FlushContents addr 0x284e1d0 size 0x94 virtual false final false
- void FlushContents(::System::IO::Stream stream, int32_t contentLength) ;
+ void FlushContents(System::IO::Stream stream, int32_t contentLength) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::____System__Net__WebConnectionTunnel__NtlmAuthState, "System.Net", "WebConnectionTunnel/NtlmAuthState");
-NEED_NO_BOX(::System::Net::WebConnectionTunnel);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::WebConnectionTunnel, "System.Net", "WebConnectionTunnel");
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::____System__Net__WebConnectionTunnel___Initialize_d__42, "System.Net", "WebConnectionTunnel/<Initialize>d__42");
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::____System__Net__WebConnectionTunnel___ReadHeaders_d__43, "System.Net", "WebConnectionTunnel/<ReadHeaders>d__43");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::System__Net__WebConnectionTunnel__NtlmAuthState, "System.Net", "WebConnectionTunnel/NtlmAuthState");
+NEED_NO_BOX(System::Net::WebConnectionTunnel);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnectionTunnel, "System.Net", "WebConnectionTunnel");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::System__Net__WebConnectionTunnel___Initialize_d__42, "System.Net", "WebConnectionTunnel/<Initialize>d__42");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::System__Net__WebConnectionTunnel___ReadHeaders_d__43, "System.Net", "WebConnectionTunnel/<ReadHeaders>d__43");

@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Org::BouncyCastle::Asn1::X509 {
 class Time;
 }
@@ -22,7 +21,7 @@ namespace Org::BouncyCastle::Asn1::Crmf {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(114))
 // CS Name: Org.BouncyCastle.Asn1.Crmf.OptionalValidity
-class CORDL_TYPE OptionalValidity : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
+class CORDL_TYPE OptionalValidity : public Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr OptionalValidity(OptionalValidity const& ) noexcept = default;
 constexpr OptionalValidity(OptionalValidity&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OptionalValidity(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
+constexpr explicit OptionalValidity(void* ptr) noexcept : Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
 }
 
 
@@ -58,56 +57,55 @@ constexpr explicit OptionalValidity(void* ptr) noexcept : ::Org::BouncyCastle::A
 
 // Fields
 
- ::Org::BouncyCastle::Asn1::X509::Time __declspec(property(get=__get_notBefore, put=__set_notBefore))  notBefore;
+ Org::BouncyCastle::Asn1::X509::Time __declspec(property(get=__get_notBefore, put=__set_notBefore))  notBefore;
 
-constexpr void __set_notBefore(::Org::BouncyCastle::Asn1::X509::Time value) ;
+constexpr void __set_notBefore(Org::BouncyCastle::Asn1::X509::Time value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::X509::Time __get_notBefore() const;
+constexpr Org::BouncyCastle::Asn1::X509::Time __get_notBefore() const;
 
- ::Org::BouncyCastle::Asn1::X509::Time __declspec(property(get=__get_notAfter, put=__set_notAfter))  notAfter;
+ Org::BouncyCastle::Asn1::X509::Time __declspec(property(get=__get_notAfter, put=__set_notAfter))  notAfter;
 
-constexpr void __set_notAfter(::Org::BouncyCastle::Asn1::X509::Time value) ;
+constexpr void __set_notAfter(Org::BouncyCastle::Asn1::X509::Time value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::X509::Time __get_notAfter() const;
+constexpr Org::BouncyCastle::Asn1::X509::Time __get_notAfter() const;
 
 
 // Properties
 
- ::Org::BouncyCastle::Asn1::X509::Time __declspec(property(get=get_NotBefore))  NotBefore;
+ Org::BouncyCastle::Asn1::X509::Time __declspec(property(get=get_NotBefore))  NotBefore;
 
- ::Org::BouncyCastle::Asn1::X509::Time __declspec(property(get=get_NotAfter))  NotAfter;
+ Org::BouncyCastle::Asn1::X509::Time __declspec(property(get=get_NotAfter))  NotAfter;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seq", ty: "::Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit OptionalValidity(::Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
+explicit OptionalValidity(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xdf8550 size 0x30c virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+ void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method GetInstance addr 0xdf720c size 0xa4 virtual false final false
-static ::Org::BouncyCastle::Asn1::Crmf::OptionalValidity GetInstance(::bs_hook::Il2CppWrapperType obj) ;
+static Org::BouncyCastle::Asn1::Crmf::OptionalValidity GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "notBefore", ty: "::Org::BouncyCastle::Asn1::X509::Time", modifiers: "", def_value: None }, CppParam { name: "notAfter", ty: "::Org::BouncyCastle::Asn1::X509::Time", modifiers: "", def_value: None }]
-explicit OptionalValidity(::Org::BouncyCastle::Asn1::X509::Time notBefore, ::Org::BouncyCastle::Asn1::X509::Time notAfter) ;
+// Ctor Parameters [CppParam { name: "notBefore", ty: "Org::BouncyCastle::Asn1::X509::Time", modifiers: "", def_value: None }, CppParam { name: "notAfter", ty: "Org::BouncyCastle::Asn1::X509::Time", modifiers: "", def_value: None }]
+explicit OptionalValidity(Org::BouncyCastle::Asn1::X509::Time notBefore, Org::BouncyCastle::Asn1::X509::Time notAfter) ;
 
 /// @brief Method .ctor addr 0xdf885c size 0x2c virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::X509::Time notBefore, ::Org::BouncyCastle::Asn1::X509::Time notAfter) ;
+ void _ctor(Org::BouncyCastle::Asn1::X509::Time notBefore, Org::BouncyCastle::Asn1::X509::Time notAfter) ;
 
 /// @brief Method get_NotBefore addr 0xdf8888 size 0x8 virtual true final false
- ::Org::BouncyCastle::Asn1::X509::Time get_NotBefore() ;
+ Org::BouncyCastle::Asn1::X509::Time get_NotBefore() ;
 
 /// @brief Method get_NotAfter addr 0xdf8890 size 0x8 virtual true final false
- ::Org::BouncyCastle::Asn1::X509::Time get_NotAfter() ;
+ Org::BouncyCastle::Asn1::X509::Time get_NotAfter() ;
 
 /// @brief Method ToAsn1Object addr 0xdf8898 size 0xc0 virtual true final false
- ::Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
+ Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::Crmf
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::Crmf::OptionalValidity);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Crmf::OptionalValidity, "Org.BouncyCastle.Asn1.Crmf", "OptionalValidity");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Crmf::OptionalValidity);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Crmf::OptionalValidity, "Org.BouncyCastle.Asn1.Crmf", "OptionalValidity");

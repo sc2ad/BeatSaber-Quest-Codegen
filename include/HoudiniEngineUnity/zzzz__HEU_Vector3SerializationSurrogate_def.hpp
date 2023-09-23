@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
@@ -9,10 +8,10 @@ namespace System::Runtime::Serialization {
 class ISerializationSurrogate;
 }
 namespace System::Runtime::Serialization {
-class ISurrogateSelector;
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class ISurrogateSelector;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -27,8 +26,8 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE HEU_Vector3SerializationSurrogate : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::Serialization::ISerializationSurrogate
-constexpr operator  ::System::Runtime::Serialization::ISerializationSurrogate() const noexcept;
+/// @brief Convert operator to System::Runtime::Serialization::ISerializationSurrogate
+constexpr operator  System::Runtime::Serialization::ISerializationSurrogate() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -64,10 +63,10 @@ constexpr explicit HEU_Vector3SerializationSurrogate(void* ptr) noexcept : ::bs_
 // Methods
 
 /// @brief Method System.Runtime.Serialization.ISerializationSurrogate.GetObjectData addr 0x1fdcb44 size 0xf4 virtual true final true
- void System_Runtime_Serialization_ISerializationSurrogate_GetObjectData(::bs_hook::Il2CppWrapperType obj, ::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void System_Runtime_Serialization_ISerializationSurrogate_GetObjectData(::bs_hook::Il2CppWrapperType obj, System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method System.Runtime.Serialization.ISerializationSurrogate.SetObjectData addr 0x1fdcc38 size 0x1fc virtual true final true
- ::bs_hook::Il2CppWrapperType System_Runtime_Serialization_ISerializationSurrogate_SetObjectData(::bs_hook::Il2CppWrapperType obj, ::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context, ::System::Runtime::Serialization::ISurrogateSelector selector) ;
+ ::bs_hook::Il2CppWrapperType System_Runtime_Serialization_ISerializationSurrogate_SetObjectData(::bs_hook::Il2CppWrapperType obj, System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context, System::Runtime::Serialization::ISurrogateSelector selector) ;
 
 // Ctor Parameters []
 explicit HEU_Vector3SerializationSurrogate() ;
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_Vector3SerializationSurrogate);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_Vector3SerializationSurrogate, "HoudiniEngineUnity", "HEU_Vector3SerializationSurrogate");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_Vector3SerializationSurrogate);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Vector3SerializationSurrogate, "HoudiniEngineUnity", "HEU_Vector3SerializationSurrogate");

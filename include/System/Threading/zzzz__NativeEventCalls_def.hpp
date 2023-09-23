@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Microsoft::Win32::SafeHandles {
 class SafeWaitHandle;
 }
@@ -61,13 +60,13 @@ static ::cordl_internals::intptr_t CreateEvent_internal(bool manual, bool initia
 static ::cordl_internals::intptr_t CreateEvent_icall(bool manual, bool initial, void* name, int32_t name_length, ByRef<int32_t> errorCode) ;
 
 /// @brief Method SetEvent addr 0x24b0e40 size 0xe0 virtual false final false
-static bool SetEvent(::Microsoft::Win32::SafeHandles::SafeWaitHandle handle) ;
+static bool SetEvent(Microsoft::Win32::SafeHandles::SafeWaitHandle handle) ;
 
 /// @brief Method SetEvent_internal addr 0x24b0f20 size 0x4 virtual false final false
 static bool SetEvent_internal(::cordl_internals::intptr_t handle) ;
 
 /// @brief Method ResetEvent addr 0x24b0f24 size 0xe0 virtual false final false
-static bool ResetEvent(::Microsoft::Win32::SafeHandles::SafeWaitHandle handle) ;
+static bool ResetEvent(Microsoft::Win32::SafeHandles::SafeWaitHandle handle) ;
 
 /// @brief Method ResetEvent_internal addr 0x24b1004 size 0x4 virtual false final false
 static bool ResetEvent_internal(::cordl_internals::intptr_t handle) ;
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Threading
-} // end anonymous namespace
-NEED_NO_BOX(::System::Threading::NativeEventCalls);
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::NativeEventCalls, "System.Threading", "NativeEventCalls");
+NEED_NO_BOX(System::Threading::NativeEventCalls);
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::NativeEventCalls, "System.Threading", "NativeEventCalls");

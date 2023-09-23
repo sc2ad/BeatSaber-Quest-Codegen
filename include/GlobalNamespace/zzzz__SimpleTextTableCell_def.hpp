@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__TableCell_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace TMPro {
 class TextMeshProUGUI;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13715))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13554))
 // CS Name: SimpleTextTableCell
-class CORDL_TYPE SimpleTextTableCell : public ::HMUI::TableCell {
+class CORDL_TYPE SimpleTextTableCell : public HMUI::TableCell {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr SimpleTextTableCell(SimpleTextTableCell const& ) noexcept = default;
 constexpr SimpleTextTableCell(SimpleTextTableCell&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SimpleTextTableCell(void* ptr) noexcept : ::HMUI::TableCell(ptr) {
+constexpr explicit SimpleTextTableCell(void* ptr) noexcept : HMUI::TableCell(ptr) {
 }
 
 
@@ -52,11 +51,11 @@ constexpr explicit SimpleTextTableCell(void* ptr) noexcept : ::HMUI::TableCell(p
 
 // Fields
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__text, put=__set__text))  _text;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__text, put=__set__text))  _text;
 
-constexpr void __set__text(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__text(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__text() const;
+constexpr TMPro::TextMeshProUGUI __get__text() const;
 
 
 // Properties
@@ -82,6 +81,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SimpleTextTableCell);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SimpleTextTableCell, "", "SimpleTextTableCell");
+NEED_NO_BOX(GlobalNamespace::SimpleTextTableCell);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleTextTableCell, "", "SimpleTextTableCell");

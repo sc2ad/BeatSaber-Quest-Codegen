@@ -2,16 +2,15 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassBackgroundTextureGradient_def.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class Gradient;
-}
 namespace UnityEngine {
 struct Color32;
 }
 namespace Unity::Collections {
 template<typename T>
 struct NativeArray_1;
+}
+namespace UnityEngine {
+class Gradient;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,7 +22,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14629))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14621))
 // CS Name: BloomPrePassBackgroundGradient
-class CORDL_TYPE BloomPrePassBackgroundGradient : public ::GlobalNamespace::BloomPrePassBackgroundTextureGradient {
+class CORDL_TYPE BloomPrePassBackgroundGradient : public GlobalNamespace::BloomPrePassBackgroundTextureGradient {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr BloomPrePassBackgroundGradient(BloomPrePassBackgroundGradient const& )
 constexpr BloomPrePassBackgroundGradient(BloomPrePassBackgroundGradient&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BloomPrePassBackgroundGradient(void* ptr) noexcept : ::GlobalNamespace::BloomPrePassBackgroundTextureGradient(ptr) {
+constexpr explicit BloomPrePassBackgroundGradient(void* ptr) noexcept : GlobalNamespace::BloomPrePassBackgroundTextureGradient(ptr) {
 }
 
 
@@ -59,17 +58,17 @@ constexpr explicit BloomPrePassBackgroundGradient(void* ptr) noexcept : ::Global
 
 // Fields
 
- ::UnityEngine::Gradient __declspec(property(get=__get__gradient, put=__set__gradient))  _gradient;
+ UnityEngine::Gradient __declspec(property(get=__get__gradient, put=__set__gradient))  _gradient;
 
-constexpr void __set__gradient(::UnityEngine::Gradient value) ;
+constexpr void __set__gradient(UnityEngine::Gradient value) ;
 
-constexpr ::UnityEngine::Gradient __get__gradient() const;
+constexpr UnityEngine::Gradient __get__gradient() const;
 
 
 // Methods
 
 /// @brief Method UpdatePixels addr 0x1f925e4 size 0x318 virtual true final false
- void UpdatePixels(::Unity::Collections::NativeArray_1<::UnityEngine::Color32> pixels, int32_t numberOfPixels) ;
+ void UpdatePixels(Unity::Collections::NativeArray_1<UnityEngine::Color32> pixels, int32_t numberOfPixels) ;
 
 // Ctor Parameters []
 explicit BloomPrePassBackgroundGradient() ;
@@ -81,6 +80,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BloomPrePassBackgroundGradient);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BloomPrePassBackgroundGradient, "", "BloomPrePassBackgroundGradient");
+NEED_NO_BOX(GlobalNamespace::BloomPrePassBackgroundGradient);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundGradient, "", "BloomPrePassBackgroundGradient");

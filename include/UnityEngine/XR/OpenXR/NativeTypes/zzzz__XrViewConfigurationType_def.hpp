@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::XR::OpenXR::NativeTypes {
 struct XrViewConfigurationType;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field PrimaryMono offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrViewConfigurationType const PrimaryMono;
+static UnityEngine::XR::OpenXR::NativeTypes::XrViewConfigurationType const PrimaryMono;
 
 /// @brief Field PrimaryStereo offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrViewConfigurationType const PrimaryStereo;
+static UnityEngine::XR::OpenXR::NativeTypes::XrViewConfigurationType const PrimaryStereo;
 
 /// @brief Field PrimaryQuadVarjo offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrViewConfigurationType const PrimaryQuadVarjo;
+static UnityEngine::XR::OpenXR::NativeTypes::XrViewConfigurationType const PrimaryQuadVarjo;
 
 /// @brief Field SecondaryMonoFirstPersonObserver offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrViewConfigurationType const SecondaryMonoFirstPersonObserver;
+static UnityEngine::XR::OpenXR::NativeTypes::XrViewConfigurationType const SecondaryMonoFirstPersonObserver;
 
 /// @brief Field SecondaryMonoThirdPersonObserver offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrViewConfigurationType const SecondaryMonoThirdPersonObserver;
+static UnityEngine::XR::OpenXR::NativeTypes::XrViewConfigurationType const SecondaryMonoThirdPersonObserver;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR::OpenXR::NativeTypes
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::NativeTypes::XrViewConfigurationType, "UnityEngine.XR.OpenXR.NativeTypes", "XrViewConfigurationType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::OpenXR::NativeTypes::XrViewConfigurationType, "UnityEngine.XR.OpenXR.NativeTypes", "XrViewConfigurationType");

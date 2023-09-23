@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System::Net {
 class IPAddress;
 }
@@ -20,8 +19,8 @@ namespace System::Net::Sockets {
 struct CORDL_TYPE IPPacketInformation : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "address", ty: "::System::Net::IPAddress", modifiers: "", def_value: None }, CppParam { name: "networkInterface", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr IPPacketInformation(::System::Net::IPAddress address, int32_t networkInterface) noexcept;
+// Ctor Parameters [CppParam { name: "address", ty: "System::Net::IPAddress", modifiers: "", def_value: None }, CppParam { name: "networkInterface", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr IPPacketInformation(System::Net::IPAddress address, int32_t networkInterface) noexcept;
 
 
                     constexpr IPPacketInformation(IPPacketInformation const&) = default;
@@ -54,11 +53,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::Net::IPAddress __declspec(property(get=__get_address, put=__set_address))  address;
+ System::Net::IPAddress __declspec(property(get=__get_address, put=__set_address))  address;
 
-constexpr void __set_address(::System::Net::IPAddress value) ;
+constexpr void __set_address(System::Net::IPAddress value) ;
 
-constexpr ::System::Net::IPAddress __get_address() const;
+constexpr System::Net::IPAddress __get_address() const;
 
  int32_t __declspec(property(get=__get_networkInterface, put=__set_networkInterface))  networkInterface;
 
@@ -79,5 +78,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net::Sockets
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Sockets::IPPacketInformation, "System.Net.Sockets", "IPPacketInformation");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::IPPacketInformation, "System.Net.Sockets", "IPPacketInformation");

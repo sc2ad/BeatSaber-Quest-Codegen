@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace UnityEngine::Yoga {
+struct YogaLogLevel;
+}
 namespace UnityEngine::Yoga {
 class YogaNode;
 }
 namespace UnityEngine::Yoga {
 class YogaConfig;
-}
-namespace UnityEngine::Yoga {
-struct YogaLogLevel;
 }
 // Forward declare root types
 namespace UnityEngine::Yoga {
@@ -24,7 +23,7 @@ namespace UnityEngine::Yoga {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15396))
 // CS Name: UnityEngine.Yoga.Logger
-class CORDL_TYPE Logger : public ::System::MulticastDelegate {
+class CORDL_TYPE Logger : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr Logger(Logger const& ) noexcept = default;
 constexpr Logger(Logger&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Logger(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit Logger(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -67,12 +66,11 @@ explicit Logger(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x2d2e4d4 size 0x14 virtual true final false
- void Invoke(::UnityEngine::Yoga::YogaConfig config, ::UnityEngine::Yoga::YogaNode node, ::UnityEngine::Yoga::YogaLogLevel level, ::StringW message) ;
+ void Invoke(UnityEngine::Yoga::YogaConfig config, UnityEngine::Yoga::YogaNode node, UnityEngine::Yoga::YogaLogLevel level, ::StringW message) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Yoga
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Yoga::Logger);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Yoga::Logger, "UnityEngine.Yoga", "Logger");
+NEED_NO_BOX(UnityEngine::Yoga::Logger);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Yoga::Logger, "UnityEngine.Yoga", "Logger");

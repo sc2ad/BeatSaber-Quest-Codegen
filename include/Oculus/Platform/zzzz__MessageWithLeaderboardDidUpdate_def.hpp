@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform {
 class MessageWithLeaderboardDidUpdate;
@@ -10,10 +9,10 @@ class MessageWithLeaderboardDidUpdate;
 // Type: Oculus.Platform::MessageWithLeaderboardDidUpdate
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 99 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 99 }), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13292))
 // CS Name: Oculus.Platform.MessageWithLeaderboardDidUpdate
-class CORDL_TYPE MessageWithLeaderboardDidUpdate : public ::Oculus::Platform::Message_1<bool> {
+class CORDL_TYPE MessageWithLeaderboardDidUpdate : public Oculus::Platform::Message_1<bool> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr MessageWithLeaderboardDidUpdate(MessageWithLeaderboardDidUpdate const&
 constexpr MessageWithLeaderboardDidUpdate(MessageWithLeaderboardDidUpdate&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MessageWithLeaderboardDidUpdate(void* ptr) noexcept : ::Oculus::Platform::Message_1<bool>(ptr) {
+constexpr explicit MessageWithLeaderboardDidUpdate(void* ptr) noexcept : Oculus::Platform::Message_1<bool>(ptr) {
 }
 
 
@@ -65,6 +64,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::MessageWithLeaderboardDidUpdate);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithLeaderboardDidUpdate, "Oculus.Platform", "MessageWithLeaderboardDidUpdate");
+NEED_NO_BOX(Oculus::Platform::MessageWithLeaderboardDidUpdate);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithLeaderboardDidUpdate, "Oculus.Platform", "MessageWithLeaderboardDidUpdate");

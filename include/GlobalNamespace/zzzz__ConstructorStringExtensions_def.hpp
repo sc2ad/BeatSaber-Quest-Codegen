@@ -2,19 +2,18 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine {
 struct Pose;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace UnityEngine {
-struct Quaternion;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -63,22 +62,21 @@ constexpr explicit ConstructorStringExtensions(void* ptr) noexcept : ::bs_hook::
 // Methods
 
 /// @brief Method ToConstructorString addr 0x1f75e64 size 0xd0 virtual false final false
-static ::StringW ToConstructorString(::UnityEngine::Vector3 vector) ;
+static ::StringW ToConstructorString(UnityEngine::Vector3 vector) ;
 
 /// @brief Method ToConstructorString addr 0x1f75f34 size 0x1b0 virtual false final false
-static ::StringW ToConstructorString(::UnityEngine::Quaternion quaternion) ;
+static ::StringW ToConstructorString(UnityEngine::Quaternion quaternion) ;
 
 /// @brief Method ToConstructorString addr 0x1f760e4 size 0x1a4 virtual false final false
-static ::StringW ToConstructorString(::UnityEngine::Pose pose) ;
+static ::StringW ToConstructorString(UnityEngine::Pose pose) ;
 
 /// @brief Method ToConstructorString addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static ::StringW ToConstructorString(::System::Collections::Generic::List_1<T> list) ;
+static ::StringW ToConstructorString(System::Collections::Generic::List_1<T> list) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ConstructorStringExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ConstructorStringExtensions, "", "ConstructorStringExtensions");
+NEED_NO_BOX(GlobalNamespace::ConstructorStringExtensions);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConstructorStringExtensions, "", "ConstructorStringExtensions");

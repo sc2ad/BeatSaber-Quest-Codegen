@@ -4,7 +4,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 class IEquatable_1;
@@ -22,8 +21,8 @@ namespace UnityEngine {
 struct CORDL_TYPE BoneWeight1 : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::BoneWeight1>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::BoneWeight1>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::BoneWeight1>
+constexpr operator  System::IEquatable_1<UnityEngine::BoneWeight1>() const;
 
 // Ctor Parameters [CppParam { name: "m_Weight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_BoneIndex", ty: "int32_t", modifiers: "", def_value: None }]
 constexpr BoneWeight1(float_t m_Weight, int32_t m_BoneIndex) noexcept;
@@ -91,7 +90,7 @@ constexpr int32_t __get_m_BoneIndex() const;
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
 
 /// @brief Method Equals addr 0x2b4d3a4 size 0x5c virtual true final true
- bool Equals(::UnityEngine::BoneWeight1 other) ;
+ bool Equals(UnityEngine::BoneWeight1 other) ;
 
 /// @brief Method GetHashCode addr 0x2b4d400 size 0x48 virtual true final false
  int32_t GetHashCode() ;
@@ -100,5 +99,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::BoneWeight1, "UnityEngine", "BoneWeight1");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BoneWeight1, "UnityEngine", "BoneWeight1");

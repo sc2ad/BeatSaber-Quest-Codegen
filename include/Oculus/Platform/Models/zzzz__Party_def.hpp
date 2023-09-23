@@ -2,15 +2,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
-class UserList;
+class User;
 }
 namespace Oculus::Platform::Models {
 class Room;
 }
 namespace Oculus::Platform::Models {
-class User;
+class UserList;
 }
 // Forward declare root types
 namespace Oculus::Platform::Models {
@@ -64,53 +63,53 @@ constexpr void __set_ID(uint64_t value) ;
 
 constexpr uint64_t __get_ID() const;
 
- ::Oculus::Platform::Models::UserList __declspec(property(get=__get_InvitedUsersOptional, put=__set_InvitedUsersOptional))  InvitedUsersOptional;
+ Oculus::Platform::Models::UserList __declspec(property(get=__get_InvitedUsersOptional, put=__set_InvitedUsersOptional))  InvitedUsersOptional;
 
-constexpr void __set_InvitedUsersOptional(::Oculus::Platform::Models::UserList value) ;
+constexpr void __set_InvitedUsersOptional(Oculus::Platform::Models::UserList value) ;
 
-constexpr ::Oculus::Platform::Models::UserList __get_InvitedUsersOptional() const;
+constexpr Oculus::Platform::Models::UserList __get_InvitedUsersOptional() const;
 
- ::Oculus::Platform::Models::UserList __declspec(property(get=__get_InvitedUsers, put=__set_InvitedUsers))  InvitedUsers;
+ Oculus::Platform::Models::UserList __declspec(property(get=__get_InvitedUsers, put=__set_InvitedUsers))  InvitedUsers;
 
-constexpr void __set_InvitedUsers(::Oculus::Platform::Models::UserList value) ;
+constexpr void __set_InvitedUsers(Oculus::Platform::Models::UserList value) ;
 
-constexpr ::Oculus::Platform::Models::UserList __get_InvitedUsers() const;
+constexpr Oculus::Platform::Models::UserList __get_InvitedUsers() const;
 
- ::Oculus::Platform::Models::User __declspec(property(get=__get_LeaderOptional, put=__set_LeaderOptional))  LeaderOptional;
+ Oculus::Platform::Models::User __declspec(property(get=__get_LeaderOptional, put=__set_LeaderOptional))  LeaderOptional;
 
-constexpr void __set_LeaderOptional(::Oculus::Platform::Models::User value) ;
+constexpr void __set_LeaderOptional(Oculus::Platform::Models::User value) ;
 
-constexpr ::Oculus::Platform::Models::User __get_LeaderOptional() const;
+constexpr Oculus::Platform::Models::User __get_LeaderOptional() const;
 
- ::Oculus::Platform::Models::User __declspec(property(get=__get_Leader, put=__set_Leader))  Leader;
+ Oculus::Platform::Models::User __declspec(property(get=__get_Leader, put=__set_Leader))  Leader;
 
-constexpr void __set_Leader(::Oculus::Platform::Models::User value) ;
+constexpr void __set_Leader(Oculus::Platform::Models::User value) ;
 
-constexpr ::Oculus::Platform::Models::User __get_Leader() const;
+constexpr Oculus::Platform::Models::User __get_Leader() const;
 
- ::Oculus::Platform::Models::Room __declspec(property(get=__get_RoomOptional, put=__set_RoomOptional))  RoomOptional;
+ Oculus::Platform::Models::Room __declspec(property(get=__get_RoomOptional, put=__set_RoomOptional))  RoomOptional;
 
-constexpr void __set_RoomOptional(::Oculus::Platform::Models::Room value) ;
+constexpr void __set_RoomOptional(Oculus::Platform::Models::Room value) ;
 
-constexpr ::Oculus::Platform::Models::Room __get_RoomOptional() const;
+constexpr Oculus::Platform::Models::Room __get_RoomOptional() const;
 
- ::Oculus::Platform::Models::Room __declspec(property(get=__get_Room, put=__set_Room))  Room;
+ Oculus::Platform::Models::Room __declspec(property(get=__get_Room, put=__set_Room))  Room;
 
-constexpr void __set_Room(::Oculus::Platform::Models::Room value) ;
+constexpr void __set_Room(Oculus::Platform::Models::Room value) ;
 
-constexpr ::Oculus::Platform::Models::Room __get_Room() const;
+constexpr Oculus::Platform::Models::Room __get_Room() const;
 
- ::Oculus::Platform::Models::UserList __declspec(property(get=__get_UsersOptional, put=__set_UsersOptional))  UsersOptional;
+ Oculus::Platform::Models::UserList __declspec(property(get=__get_UsersOptional, put=__set_UsersOptional))  UsersOptional;
 
-constexpr void __set_UsersOptional(::Oculus::Platform::Models::UserList value) ;
+constexpr void __set_UsersOptional(Oculus::Platform::Models::UserList value) ;
 
-constexpr ::Oculus::Platform::Models::UserList __get_UsersOptional() const;
+constexpr Oculus::Platform::Models::UserList __get_UsersOptional() const;
 
- ::Oculus::Platform::Models::UserList __declspec(property(get=__get_Users, put=__set_Users))  Users;
+ Oculus::Platform::Models::UserList __declspec(property(get=__get_Users, put=__set_Users))  Users;
 
-constexpr void __set_Users(::Oculus::Platform::Models::UserList value) ;
+constexpr void __set_Users(Oculus::Platform::Models::UserList value) ;
 
-constexpr ::Oculus::Platform::Models::UserList __get_Users() const;
+constexpr Oculus::Platform::Models::UserList __get_Users() const;
 
 
 // Methods
@@ -125,6 +124,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::Party);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::Party, "Oculus.Platform.Models", "Party");
+NEED_NO_BOX(Oculus::Platform::Models::Party);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Party, "Oculus.Platform.Models", "Party");

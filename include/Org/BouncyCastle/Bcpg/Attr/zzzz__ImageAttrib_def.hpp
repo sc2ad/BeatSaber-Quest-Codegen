@@ -4,10 +4,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::Attr {
-struct ____Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format;
+struct Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format;
 }
 namespace Org::BouncyCastle::Bcpg::Attr {
 class ImageAttrib;
@@ -18,20 +17,20 @@ namespace Org::BouncyCastle::Bcpg::Attr {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(529))
 // CS Name: Org.BouncyCastle.Bcpg.Attr.ImageAttrib::Format
-struct CORDL_TYPE ____Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
-constexpr ____Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format(uint8_t value__) noexcept;
+constexpr Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format(uint8_t value__) noexcept;
 
 
-                    constexpr ____Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format(____Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format const&) = default;
-                    constexpr ____Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format(____Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format&&) = default;
-                    constexpr ____Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format& operator=(____Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format const& o) {
+                    constexpr Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format(Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format const&) = default;
+                    constexpr Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format(Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format&&) = default;
+                    constexpr Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format& operator=(Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format& operator=(____Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format&& o) noexcept {
+                    constexpr Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format& operator=(Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -44,7 +43,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x1};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -52,13 +51,13 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format_Unwrapped : uint8_t {
+enum class __Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format_Unwrapped : uint8_t {
 __Jpeg = 1u,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format_Unwrapped () const noexcept {
-return std::bit_cast<______Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format_Unwrapped>(__instance);
+constexpr operator __Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format_Unwrapped () const noexcept {
+return std::bit_cast<__Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format_Unwrapped>(__instance);
 }
 
 
@@ -71,7 +70,7 @@ constexpr void __set_value__(uint8_t value) ;
 constexpr uint8_t __get_value__() const;
 
 /// @brief Field Jpeg offset 0
-static ::Org::BouncyCastle::Bcpg::Attr::____Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format const Jpeg;
+static Org::BouncyCastle::Bcpg::Attr::Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format const Jpeg;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -83,10 +82,10 @@ namespace Org::BouncyCastle::Bcpg::Attr {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(528))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(530))
 // CS Name: Org.BouncyCastle.Bcpg.Attr.ImageAttrib
-class CORDL_TYPE ImageAttrib : public ::Org::BouncyCastle::Bcpg::UserAttributeSubpacket {
+class CORDL_TYPE ImageAttrib : public Org::BouncyCastle::Bcpg::UserAttributeSubpacket {
 public:
 // Declarations
-using Format = ::Org::BouncyCastle::Bcpg::Attr::____Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format;
+using Format = Org::BouncyCastle::Bcpg::Attr::Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -100,7 +99,7 @@ constexpr ImageAttrib(ImageAttrib const& ) noexcept = default;
 constexpr ImageAttrib(ImageAttrib&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ImageAttrib(void* ptr) noexcept : ::Org::BouncyCastle::Bcpg::UserAttributeSubpacket(ptr) {
+constexpr explicit ImageAttrib(void* ptr) noexcept : Org::BouncyCastle::Bcpg::UserAttributeSubpacket(ptr) {
 }
 
 
@@ -173,14 +172,14 @@ explicit ImageAttrib(bool forceLongLength, ::ArrayW<uint8_t> data) ;
 /// @brief Method .ctor addr 0x113cd28 size 0xdc virtual false final false
  void _ctor(bool forceLongLength, ::ArrayW<uint8_t> data) ;
 
-// Ctor Parameters [CppParam { name: "imageType", ty: "::Org::BouncyCastle::Bcpg::Attr::____Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format", modifiers: "", def_value: None }, CppParam { name: "imageData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit ImageAttrib(::Org::BouncyCastle::Bcpg::Attr::____Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format imageType, ::ArrayW<uint8_t> imageData) ;
+// Ctor Parameters [CppParam { name: "imageType", ty: "Org::BouncyCastle::Bcpg::Attr::Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format", modifiers: "", def_value: None }, CppParam { name: "imageData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
+explicit ImageAttrib(Org::BouncyCastle::Bcpg::Attr::Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format imageType, ::ArrayW<uint8_t> imageData) ;
 
 /// @brief Method .ctor addr 0x113ce04 size 0x78 virtual false final false
- void _ctor(::Org::BouncyCastle::Bcpg::Attr::____Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format imageType, ::ArrayW<uint8_t> imageData) ;
+ void _ctor(Org::BouncyCastle::Bcpg::Attr::Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format imageType, ::ArrayW<uint8_t> imageData) ;
 
 /// @brief Method ToByteArray addr 0x113ce7c size 0x14c virtual false final false
-static ::ArrayW<uint8_t> ToByteArray(::Org::BouncyCastle::Bcpg::Attr::____Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format imageType, ::ArrayW<uint8_t> imageData) ;
+static ::ArrayW<uint8_t> ToByteArray(Org::BouncyCastle::Bcpg::Attr::Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format imageType, ::ArrayW<uint8_t> imageData) ;
 
 /// @brief Method get_Version addr 0x113cfc8 size 0x8 virtual true final false
  int32_t get_Version() ;
@@ -195,7 +194,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg::Attr
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::Attr::____Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format, "Org.BouncyCastle.Bcpg.Attr", "ImageAttrib/Format");
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::Attr::ImageAttrib);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::Attr::ImageAttrib, "Org.BouncyCastle.Bcpg.Attr", "ImageAttrib");
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::Attr::Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format, "Org.BouncyCastle.Bcpg.Attr", "ImageAttrib/Format");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::Attr::ImageAttrib);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::Attr::ImageAttrib, "Org.BouncyCastle.Bcpg.Attr", "ImageAttrib");

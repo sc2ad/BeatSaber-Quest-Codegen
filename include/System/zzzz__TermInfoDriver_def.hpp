@@ -5,9 +5,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
-struct ConsoleColor;
+class TermInfoReader;
+}
+namespace System {
+class IConsoleDriver;
 }
 namespace System {
 class ByteMatcher;
@@ -15,20 +17,17 @@ class ByteMatcher;
 namespace System::IO {
 class CStreamWriter;
 }
-namespace System::IO {
-class StreamReader;
-}
-namespace System {
-class TermInfoReader;
-}
-namespace System::Collections {
-class Hashtable;
-}
 namespace System {
 struct ConsoleKeyInfo;
 }
 namespace System {
-class IConsoleDriver;
+struct ConsoleColor;
+}
+namespace System::Collections {
+class Hashtable;
+}
+namespace System::IO {
+class StreamReader;
 }
 namespace System {
 struct TermInfoStrings;
@@ -46,8 +45,8 @@ namespace System {
 class CORDL_TYPE TermInfoDriver : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IConsoleDriver
-constexpr operator  ::System::IConsoleDriver() const noexcept;
+/// @brief Convert operator to System::IConsoleDriver
+constexpr operator  System::IConsoleDriver() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x120};
@@ -100,11 +99,11 @@ static void __set_locations(::ArrayW<::StringW> value) ;
 
 static ::ArrayW<::StringW> __get_locations() ;
 
- ::System::TermInfoReader __declspec(property(get=__get_reader, put=__set_reader))  reader;
+ System::TermInfoReader __declspec(property(get=__get_reader, put=__set_reader))  reader;
 
-constexpr void __set_reader(::System::TermInfoReader value) ;
+constexpr void __set_reader(System::TermInfoReader value) ;
 
-constexpr ::System::TermInfoReader __get_reader() const;
+constexpr System::TermInfoReader __get_reader() const;
 
  int32_t __declspec(property(get=__get_cursorLeft, put=__set_cursorLeft))  cursorLeft;
 
@@ -166,17 +165,17 @@ constexpr void __set_term(::StringW value) ;
 
 constexpr ::StringW __get_term() const;
 
- ::System::IO::StreamReader __declspec(property(get=__get_stdin, put=__set_stdin))  stdin;
+ System::IO::StreamReader __declspec(property(get=__get_stdin, put=__set_stdin))  stdin;
 
-constexpr void __set_stdin(::System::IO::StreamReader value) ;
+constexpr void __set_stdin(System::IO::StreamReader value) ;
 
-constexpr ::System::IO::StreamReader __get_stdin() const;
+constexpr System::IO::StreamReader __get_stdin() const;
 
- ::System::IO::CStreamWriter __declspec(property(get=__get_stdout, put=__set_stdout))  stdout;
+ System::IO::CStreamWriter __declspec(property(get=__get_stdout, put=__set_stdout))  stdout;
 
-constexpr void __set_stdout(::System::IO::CStreamWriter value) ;
+constexpr void __set_stdout(System::IO::CStreamWriter value) ;
 
-constexpr ::System::IO::CStreamWriter __get_stdout() const;
+constexpr System::IO::CStreamWriter __get_stdout() const;
 
  int32_t __declspec(property(get=__get_windowWidth, put=__set_windowWidth))  windowWidth;
 
@@ -268,11 +267,11 @@ constexpr void __set_cursorAddress(::StringW value) ;
 
 constexpr ::StringW __get_cursorAddress() const;
 
- ::System::ConsoleColor __declspec(property(get=__get_fgcolor, put=__set_fgcolor))  fgcolor;
+ System::ConsoleColor __declspec(property(get=__get_fgcolor, put=__set_fgcolor))  fgcolor;
 
-constexpr void __set_fgcolor(::System::ConsoleColor value) ;
+constexpr void __set_fgcolor(System::ConsoleColor value) ;
 
-constexpr ::System::ConsoleColor __get_fgcolor() const;
+constexpr System::ConsoleColor __get_fgcolor() const;
 
  ::StringW __declspec(property(get=__get_setfgcolor, put=__set_setfgcolor))  setfgcolor;
 
@@ -298,17 +297,17 @@ constexpr void __set_noGetPosition(bool value) ;
 
 constexpr bool __get_noGetPosition() const;
 
- ::System::Collections::Hashtable __declspec(property(get=__get_keymap, put=__set_keymap))  keymap;
+ System::Collections::Hashtable __declspec(property(get=__get_keymap, put=__set_keymap))  keymap;
 
-constexpr void __set_keymap(::System::Collections::Hashtable value) ;
+constexpr void __set_keymap(System::Collections::Hashtable value) ;
 
-constexpr ::System::Collections::Hashtable __get_keymap() const;
+constexpr System::Collections::Hashtable __get_keymap() const;
 
- ::System::ByteMatcher __declspec(property(get=__get_rootmap, put=__set_rootmap))  rootmap;
+ System::ByteMatcher __declspec(property(get=__get_rootmap, put=__set_rootmap))  rootmap;
 
-constexpr void __set_rootmap(::System::ByteMatcher value) ;
+constexpr void __set_rootmap(System::ByteMatcher value) ;
 
-constexpr ::System::ByteMatcher __get_rootmap() const;
+constexpr System::ByteMatcher __get_rootmap() const;
 
  int32_t __declspec(property(get=__get_rl_startx, put=__set_rl_startx))  rl_startx;
 
@@ -383,13 +382,13 @@ explicit TermInfoDriver(::StringW term) ;
  void IncrementX() ;
 
 /// @brief Method WriteSpecialKey addr 0x2493144 size 0x114 virtual false final false
- void WriteSpecialKey(::System::ConsoleKeyInfo key) ;
+ void WriteSpecialKey(System::ConsoleKeyInfo key) ;
 
 /// @brief Method WriteSpecialKey addr 0x2493408 size 0x28 virtual false final false
  void WriteSpecialKey(char16_t c) ;
 
 /// @brief Method IsSpecialKey addr 0x24935b4 size 0x84 virtual false final false
- bool IsSpecialKey(::System::ConsoleKeyInfo key) ;
+ bool IsSpecialKey(System::ConsoleKeyInfo key) ;
 
 /// @brief Method IsSpecialKey addr 0x2493638 size 0x28 virtual false final false
  bool IsSpecialKey(char16_t c) ;
@@ -413,13 +412,13 @@ explicit TermInfoDriver(::StringW term) ;
  void AdjustBuffer() ;
 
 /// @brief Method CreateKeyInfoFromInt addr 0x2493430 size 0x184 virtual false final false
- ::System::ConsoleKeyInfo CreateKeyInfoFromInt(int32_t n, bool alt) ;
+ System::ConsoleKeyInfo CreateKeyInfoFromInt(int32_t n, bool alt) ;
 
 /// @brief Method GetKeyFromBuffer addr 0x2493878 size 0x2cc virtual false final false
  ::bs_hook::Il2CppWrapperType GetKeyFromBuffer(bool cooked) ;
 
 /// @brief Method ReadKeyInternal addr 0x2494058 size 0x1c0 virtual false final false
- ::System::ConsoleKeyInfo ReadKeyInternal(ByRef<bool> fresh) ;
+ System::ConsoleKeyInfo ReadKeyInternal(ByRef<bool> fresh) ;
 
 /// @brief Method InputPending addr 0x2494384 size 0x34 virtual false final false
  bool InputPending() ;
@@ -428,7 +427,7 @@ explicit TermInfoDriver(::StringW term) ;
  void QueueEcho(char16_t c) ;
 
 /// @brief Method Echo addr 0x2494480 size 0x54 virtual false final false
- void Echo(::System::ConsoleKeyInfo key) ;
+ void Echo(System::ConsoleKeyInfo key) ;
 
 /// @brief Method EchoFlush addr 0x24944d4 size 0x34 virtual false final false
  void EchoFlush() ;
@@ -437,7 +436,7 @@ explicit TermInfoDriver(::StringW term) ;
  int32_t Read(ByRef<::ArrayW<char16_t>> dest, int32_t index, int32_t count) ;
 
 /// @brief Method ReadKey addr 0x249480c size 0x64 virtual true final true
- ::System::ConsoleKeyInfo ReadKey(bool intercept) ;
+ System::ConsoleKeyInfo ReadKey(bool intercept) ;
 
 /// @brief Method ReadLine addr 0x2494870 size 0x8 virtual true final true
  ::StringW ReadLine() ;
@@ -458,12 +457,11 @@ explicit TermInfoDriver(::StringW term) ;
  void InitKeys() ;
 
 /// @brief Method AddStringMapping addr 0x2496ad4 size 0x4c virtual false final false
- void AddStringMapping(::System::TermInfoStrings s) ;
+ void AddStringMapping(System::TermInfoStrings s) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::TermInfoDriver);
-DEFINE_IL2CPP_ARG_TYPE(::System::TermInfoDriver, "System", "TermInfoDriver");
+NEED_NO_BOX(System::TermInfoDriver);
+DEFINE_IL2CPP_ARG_TYPE(System::TermInfoDriver, "System", "TermInfoDriver");

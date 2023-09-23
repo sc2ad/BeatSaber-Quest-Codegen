@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 struct ExceptionArgument;
@@ -116,161 +115,160 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field obj offset 0
-static ::System::ExceptionArgument const obj;
+static System::ExceptionArgument const obj;
 
 /// @brief Field dictionary offset 0
-static ::System::ExceptionArgument const dictionary;
+static System::ExceptionArgument const dictionary;
 
 /// @brief Field dictionaryCreationThreshold offset 0
-static ::System::ExceptionArgument const dictionaryCreationThreshold;
+static System::ExceptionArgument const dictionaryCreationThreshold;
 
 /// @brief Field array offset 0
-static ::System::ExceptionArgument const array;
+static System::ExceptionArgument const array;
 
 /// @brief Field info offset 0
-static ::System::ExceptionArgument const info;
+static System::ExceptionArgument const info;
 
 /// @brief Field key offset 0
-static ::System::ExceptionArgument const key;
+static System::ExceptionArgument const key;
 
 /// @brief Field collection offset 0
-static ::System::ExceptionArgument const collection;
+static System::ExceptionArgument const collection;
 
 /// @brief Field list offset 0
-static ::System::ExceptionArgument const list;
+static System::ExceptionArgument const list;
 
 /// @brief Field match offset 0
-static ::System::ExceptionArgument const match;
+static System::ExceptionArgument const match;
 
 /// @brief Field converter offset 0
-static ::System::ExceptionArgument const converter;
+static System::ExceptionArgument const converter;
 
 /// @brief Field queue offset 0
-static ::System::ExceptionArgument const queue;
+static System::ExceptionArgument const queue;
 
 /// @brief Field stack offset 0
-static ::System::ExceptionArgument const stack;
+static System::ExceptionArgument const stack;
 
 /// @brief Field capacity offset 0
-static ::System::ExceptionArgument const capacity;
+static System::ExceptionArgument const capacity;
 
 /// @brief Field index offset 0
-static ::System::ExceptionArgument const index;
+static System::ExceptionArgument const index;
 
 /// @brief Field startIndex offset 0
-static ::System::ExceptionArgument const startIndex;
+static System::ExceptionArgument const startIndex;
 
 /// @brief Field value offset 0
-static ::System::ExceptionArgument const value;
+static System::ExceptionArgument const value;
 
 /// @brief Field count offset 0
-static ::System::ExceptionArgument const count;
+static System::ExceptionArgument const count;
 
 /// @brief Field arrayIndex offset 0
-static ::System::ExceptionArgument const arrayIndex;
+static System::ExceptionArgument const arrayIndex;
 
 /// @brief Field name offset 0
-static ::System::ExceptionArgument const name;
+static System::ExceptionArgument const name;
 
 /// @brief Field mode offset 0
-static ::System::ExceptionArgument const mode;
+static System::ExceptionArgument const mode;
 
 /// @brief Field item offset 0
-static ::System::ExceptionArgument const item;
+static System::ExceptionArgument const item;
 
 /// @brief Field options offset 0
-static ::System::ExceptionArgument const options;
+static System::ExceptionArgument const options;
 
 /// @brief Field view offset 0
-static ::System::ExceptionArgument const view;
+static System::ExceptionArgument const view;
 
 /// @brief Field sourceBytesToCopy offset 0
-static ::System::ExceptionArgument const sourceBytesToCopy;
+static System::ExceptionArgument const sourceBytesToCopy;
 
 /// @brief Field start offset 0
-static ::System::ExceptionArgument const start;
+static System::ExceptionArgument const start;
 
 /// @brief Field pointer offset 0
-static ::System::ExceptionArgument const pointer;
+static System::ExceptionArgument const pointer;
 
 /// @brief Field ownedMemory offset 0
-static ::System::ExceptionArgument const ownedMemory;
+static System::ExceptionArgument const ownedMemory;
 
 /// @brief Field text offset 0
-static ::System::ExceptionArgument const text;
+static System::ExceptionArgument const text;
 
 /// @brief Field length offset 0
-static ::System::ExceptionArgument const length;
+static System::ExceptionArgument const length;
 
 /// @brief Field comparer offset 0
-static ::System::ExceptionArgument const comparer;
+static System::ExceptionArgument const comparer;
 
 /// @brief Field comparable offset 0
-static ::System::ExceptionArgument const comparable;
+static System::ExceptionArgument const comparable;
 
 /// @brief Field exceptions offset 0
-static ::System::ExceptionArgument const exceptions;
+static System::ExceptionArgument const exceptions;
 
 /// @brief Field exception offset 0
-static ::System::ExceptionArgument const exception;
+static System::ExceptionArgument const exception;
 
 /// @brief Field action offset 0
-static ::System::ExceptionArgument const action;
+static System::ExceptionArgument const action;
 
 /// @brief Field comparison offset 0
-static ::System::ExceptionArgument const comparison;
+static System::ExceptionArgument const comparison;
 
 /// @brief Field startSegment offset 0
-static ::System::ExceptionArgument const startSegment;
+static System::ExceptionArgument const startSegment;
 
 /// @brief Field endSegment offset 0
-static ::System::ExceptionArgument const endSegment;
+static System::ExceptionArgument const endSegment;
 
 /// @brief Field endIndex offset 0
-static ::System::ExceptionArgument const endIndex;
+static System::ExceptionArgument const endIndex;
 
 /// @brief Field task offset 0
-static ::System::ExceptionArgument const task;
+static System::ExceptionArgument const task;
 
 /// @brief Field source offset 0
-static ::System::ExceptionArgument const source;
+static System::ExceptionArgument const source;
 
 /// @brief Field state offset 0
-static ::System::ExceptionArgument const state;
+static System::ExceptionArgument const state;
 
 /// @brief Field culture offset 0
-static ::System::ExceptionArgument const culture;
+static System::ExceptionArgument const culture;
 
 /// @brief Field destination offset 0
-static ::System::ExceptionArgument const destination;
+static System::ExceptionArgument const destination;
 
 /// @brief Field byteOffset offset 0
-static ::System::ExceptionArgument const byteOffset;
+static System::ExceptionArgument const byteOffset;
 
 /// @brief Field minimumBufferSize offset 0
-static ::System::ExceptionArgument const minimumBufferSize;
+static System::ExceptionArgument const minimumBufferSize;
 
 /// @brief Field offset offset 0
-static ::System::ExceptionArgument const offset;
+static System::ExceptionArgument const offset;
 
 /// @brief Field values offset 0
-static ::System::ExceptionArgument const values;
+static System::ExceptionArgument const values;
 
 /// @brief Field comparisonType offset 0
-static ::System::ExceptionArgument const comparisonType;
+static System::ExceptionArgument const comparisonType;
 
 /// @brief Field s offset 0
-static ::System::ExceptionArgument const s;
+static System::ExceptionArgument const s;
 
 /// @brief Field input offset 0
-static ::System::ExceptionArgument const input;
+static System::ExceptionArgument const input;
 
 /// @brief Field format offset 0
-static ::System::ExceptionArgument const format;
+static System::ExceptionArgument const format;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::ExceptionArgument, "System", "ExceptionArgument");
+DEFINE_IL2CPP_ARG_TYPE(System::ExceptionArgument, "System", "ExceptionArgument");

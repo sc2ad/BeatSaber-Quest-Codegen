@@ -2,15 +2,14 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Utilities::Collections {
-class LinkedDictionary;
-}
 namespace System::Collections {
 class IDictionaryEnumerator;
 }
 namespace System::Collections {
 class IEnumerator;
+}
+namespace Org::BouncyCastle::Utilities::Collections {
+class LinkedDictionary;
 }
 namespace System::Collections {
 struct DictionaryEntry;
@@ -28,11 +27,11 @@ namespace Org::BouncyCastle::Utilities::Collections {
 class CORDL_TYPE LinkedDictionaryEnumerator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::IDictionaryEnumerator
-constexpr operator  ::System::Collections::IDictionaryEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IDictionaryEnumerator
+constexpr operator  System::Collections::IDictionaryEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -67,11 +66,11 @@ constexpr explicit LinkedDictionaryEnumerator(void* ptr) noexcept : ::bs_hook::I
 
 // Fields
 
- ::Org::BouncyCastle::Utilities::Collections::LinkedDictionary __declspec(property(get=__get_parent, put=__set_parent))  parent;
+ Org::BouncyCastle::Utilities::Collections::LinkedDictionary __declspec(property(get=__get_parent, put=__set_parent))  parent;
 
-constexpr void __set_parent(::Org::BouncyCastle::Utilities::Collections::LinkedDictionary value) ;
+constexpr void __set_parent(Org::BouncyCastle::Utilities::Collections::LinkedDictionary value) ;
 
-constexpr ::Org::BouncyCastle::Utilities::Collections::LinkedDictionary __get_parent() const;
+constexpr Org::BouncyCastle::Utilities::Collections::LinkedDictionary __get_parent() const;
 
  int32_t __declspec(property(get=__get_pos, put=__set_pos))  pos;
 
@@ -84,7 +83,7 @@ constexpr int32_t __get_pos() const;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_Current))  Current;
 
- ::System::Collections::DictionaryEntry __declspec(property(get=get_Entry))  Entry;
+ System::Collections::DictionaryEntry __declspec(property(get=get_Entry))  Entry;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_Key))  Key;
 
@@ -95,17 +94,17 @@ constexpr int32_t __get_pos() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "parent", ty: "::Org::BouncyCastle::Utilities::Collections::LinkedDictionary", modifiers: "", def_value: None }]
-explicit LinkedDictionaryEnumerator(::Org::BouncyCastle::Utilities::Collections::LinkedDictionary parent) ;
+// Ctor Parameters [CppParam { name: "parent", ty: "Org::BouncyCastle::Utilities::Collections::LinkedDictionary", modifiers: "", def_value: None }]
+explicit LinkedDictionaryEnumerator(Org::BouncyCastle::Utilities::Collections::LinkedDictionary parent) ;
 
 /// @brief Method .ctor addr 0x10cd1bc size 0x30 virtual false final false
- void _ctor(::Org::BouncyCastle::Utilities::Collections::LinkedDictionary parent) ;
+ void _ctor(Org::BouncyCastle::Utilities::Collections::LinkedDictionary parent) ;
 
 /// @brief Method get_Current addr 0x10cdac4 size 0x6c virtual true final false
  ::bs_hook::Il2CppWrapperType get_Current() ;
 
 /// @brief Method get_Entry addr 0x10cdb30 size 0xe0 virtual true final false
- ::System::Collections::DictionaryEntry get_Entry() ;
+ System::Collections::DictionaryEntry get_Entry() ;
 
 /// @brief Method get_Key addr 0x10cdd8c size 0x4 virtual true final false
  ::bs_hook::Il2CppWrapperType get_Key() ;
@@ -126,6 +125,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities::Collections
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator, "Org.BouncyCastle.Utilities.Collections", "LinkedDictionaryEnumerator");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator, "Org.BouncyCastle.Utilities.Collections", "LinkedDictionaryEnumerator");

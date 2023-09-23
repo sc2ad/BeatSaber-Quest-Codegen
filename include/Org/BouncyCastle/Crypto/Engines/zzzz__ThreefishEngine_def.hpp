@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
@@ -13,19 +12,19 @@ class IBlockCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
+class Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher;
+}
+namespace Org::BouncyCastle::Crypto::Engines {
+class Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher;
+}
+namespace Org::BouncyCastle::Crypto::Engines {
+class Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher;
+}
+namespace Org::BouncyCastle::Crypto::Engines {
+class Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher;
+}
+namespace Org::BouncyCastle::Crypto::Engines {
 class ThreefishEngine;
-}
-namespace Org::BouncyCastle::Crypto::Engines {
-class ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher;
-}
-namespace Org::BouncyCastle::Crypto::Engines {
-class ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher;
-}
-namespace Org::BouncyCastle::Crypto::Engines {
-class ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher;
-}
-namespace Org::BouncyCastle::Crypto::Engines {
-class ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher;
 }
 // Type: ::ThreefishCipher
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -33,37 +32,37 @@ namespace Org::BouncyCastle::Crypto::Engines {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(875))
 // CS Name: Org.BouncyCastle.Crypto.Engines.ThreefishEngine::ThreefishCipher
-class CORDL_TYPE ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher() = default;
+virtual ~Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher", modifiers: " const&", def_value: None }]
-constexpr ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher(____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher", modifiers: " const&", def_value: None }]
+constexpr Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher(Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher", modifiers: "&&", def_value: None }]
-constexpr ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher(____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher", modifiers: "&&", def_value: None }]
+constexpr Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher(Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher& operator=(std::nullptr_t) noexcept {
+  constexpr Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher& operator=(void* o) noexcept {
+  constexpr Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher& operator=(____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher&& o) noexcept = default;
-  constexpr ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher& operator=(____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher const& o) noexcept = default;
+  constexpr Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher& operator=(Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher&& o) noexcept = default;
+  constexpr Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher& operator=(Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher const& o) noexcept = default;
                 
 
 
@@ -85,7 +84,7 @@ constexpr ::ArrayW<uint64_t> __get_kw() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "kw", ty: "::ArrayW<uint64_t>", modifiers: "", def_value: None }, CppParam { name: "t", ty: "::ArrayW<uint64_t>", modifiers: "", def_value: None }]
-explicit ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t) ;
+explicit Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t) ;
 
 /// @brief Method .ctor addr 0xe5f788 size 0x2c virtual false final false
  void _ctor(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t) ;
@@ -106,37 +105,37 @@ namespace Org::BouncyCastle::Crypto::Engines {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(875))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(876))
 // CS Name: Org.BouncyCastle.Crypto.Engines.ThreefishEngine::Threefish256Cipher
-class CORDL_TYPE ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher : public ::Org::BouncyCastle::Crypto::Engines::____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher {
+class CORDL_TYPE Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher : public Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher() = default;
+virtual ~Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher", modifiers: " const&", def_value: None }]
-constexpr ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher(____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher", modifiers: " const&", def_value: None }]
+constexpr Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher(Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher", modifiers: "&&", def_value: None }]
-constexpr ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher(____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher", modifiers: "&&", def_value: None }]
+constexpr Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher(Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher(void* ptr) noexcept : ::Org::BouncyCastle::Crypto::Engines::____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher(ptr) {
+constexpr explicit Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher(void* ptr) noexcept : Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher(ptr) {
 }
 
 
-  constexpr ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher& operator=(std::nullptr_t) noexcept {
+  constexpr Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher& operator=(void* o) noexcept {
+  constexpr Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher& operator=(____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher&& o) noexcept = default;
-  constexpr ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher& operator=(____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher const& o) noexcept = default;
+  constexpr Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher& operator=(Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher&& o) noexcept = default;
+  constexpr Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher& operator=(Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher const& o) noexcept = default;
                 
 
 
@@ -194,7 +193,7 @@ static constexpr int32_t  ROTATION_7_1{32};
 // Methods
 
 // Ctor Parameters [CppParam { name: "kw", ty: "::ArrayW<uint64_t>", modifiers: "", def_value: None }, CppParam { name: "t", ty: "::ArrayW<uint64_t>", modifiers: "", def_value: None }]
-explicit ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t) ;
+explicit Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t) ;
 
 /// @brief Method .ctor addr 0xe5eb04 size 0x2c virtual false final false
  void _ctor(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t) ;
@@ -215,37 +214,37 @@ namespace Org::BouncyCastle::Crypto::Engines {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(875))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(877))
 // CS Name: Org.BouncyCastle.Crypto.Engines.ThreefishEngine::Threefish512Cipher
-class CORDL_TYPE ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher : public ::Org::BouncyCastle::Crypto::Engines::____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher {
+class CORDL_TYPE Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher : public Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher() = default;
+virtual ~Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher", modifiers: " const&", def_value: None }]
-constexpr ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher(____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher", modifiers: " const&", def_value: None }]
+constexpr Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher(Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher", modifiers: "&&", def_value: None }]
-constexpr ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher(____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher", modifiers: "&&", def_value: None }]
+constexpr Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher(Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher(void* ptr) noexcept : ::Org::BouncyCastle::Crypto::Engines::____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher(ptr) {
+constexpr explicit Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher(void* ptr) noexcept : Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher(ptr) {
 }
 
 
-  constexpr ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher& operator=(std::nullptr_t) noexcept {
+  constexpr Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher& operator=(void* o) noexcept {
+  constexpr Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher& operator=(____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher&& o) noexcept = default;
-  constexpr ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher& operator=(____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher const& o) noexcept = default;
+  constexpr Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher& operator=(Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher&& o) noexcept = default;
+  constexpr Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher& operator=(Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher const& o) noexcept = default;
                 
 
 
@@ -351,7 +350,7 @@ static constexpr int32_t  ROTATION_7_3{22};
 // Methods
 
 // Ctor Parameters [CppParam { name: "kw", ty: "::ArrayW<uint64_t>", modifiers: "", def_value: None }, CppParam { name: "t", ty: "::ArrayW<uint64_t>", modifiers: "", def_value: None }]
-explicit ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t) ;
+explicit Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t) ;
 
 /// @brief Method .ctor addr 0xe5eb30 size 0x2c virtual false final false
  void _ctor(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t) ;
@@ -372,37 +371,37 @@ namespace Org::BouncyCastle::Crypto::Engines {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(875))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(878))
 // CS Name: Org.BouncyCastle.Crypto.Engines.ThreefishEngine::Threefish1024Cipher
-class CORDL_TYPE ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher : public ::Org::BouncyCastle::Crypto::Engines::____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher {
+class CORDL_TYPE Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher : public Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher() = default;
+virtual ~Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher", modifiers: " const&", def_value: None }]
-constexpr ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher(____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher", modifiers: " const&", def_value: None }]
+constexpr Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher(Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher", modifiers: "&&", def_value: None }]
-constexpr ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher(____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher", modifiers: "&&", def_value: None }]
+constexpr Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher(Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher(void* ptr) noexcept : ::Org::BouncyCastle::Crypto::Engines::____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher(ptr) {
+constexpr explicit Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher(void* ptr) noexcept : Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher(ptr) {
 }
 
 
-  constexpr ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher& operator=(std::nullptr_t) noexcept {
+  constexpr Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher& operator=(void* o) noexcept {
+  constexpr Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher& operator=(____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher&& o) noexcept = default;
-  constexpr ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher& operator=(____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher const& o) noexcept = default;
+  constexpr Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher& operator=(Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher&& o) noexcept = default;
+  constexpr Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher& operator=(Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher const& o) noexcept = default;
                 
 
 
@@ -604,7 +603,7 @@ static constexpr int32_t  ROTATION_7_7{20};
 // Methods
 
 // Ctor Parameters [CppParam { name: "kw", ty: "::ArrayW<uint64_t>", modifiers: "", def_value: None }, CppParam { name: "t", ty: "::ArrayW<uint64_t>", modifiers: "", def_value: None }]
-explicit ____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t) ;
+explicit Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t) ;
 
 /// @brief Method .ctor addr 0xe5eb5c size 0x2c virtual false final false
  void _ctor(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t) ;
@@ -628,16 +627,16 @@ namespace Org::BouncyCastle::Crypto::Engines {
 class CORDL_TYPE ThreefishEngine : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using Threefish1024Cipher = ::Org::BouncyCastle::Crypto::Engines::____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher;
+using Threefish1024Cipher = Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher;
 
-using Threefish512Cipher = ::Org::BouncyCastle::Crypto::Engines::____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher;
+using Threefish512Cipher = Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher;
 
-using Threefish256Cipher = ::Org::BouncyCastle::Crypto::Engines::____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher;
+using Threefish256Cipher = Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher;
 
-using ThreefishCipher = ::Org::BouncyCastle::Crypto::Engines::____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher;
+using ThreefishCipher = Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher;
 
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IBlockCipher
-constexpr operator  ::Org::BouncyCastle::Crypto::IBlockCipher() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IBlockCipher
+constexpr operator  Org::BouncyCastle::Crypto::IBlockCipher() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -756,11 +755,11 @@ constexpr void __set_kw(::ArrayW<uint64_t> value) ;
 
 constexpr ::ArrayW<uint64_t> __get_kw() const;
 
- ::Org::BouncyCastle::Crypto::Engines::____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher __declspec(property(get=__get_cipher, put=__set_cipher))  cipher;
+ Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher __declspec(property(get=__get_cipher, put=__set_cipher))  cipher;
 
-constexpr void __set_cipher(::Org::BouncyCastle::Crypto::Engines::____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher value) ;
+constexpr void __set_cipher(Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Engines::____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher __get_cipher() const;
+constexpr Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher __get_cipher() const;
 
  bool __declspec(property(get=__get_forEncryption, put=__set_forEncryption))  forEncryption;
 
@@ -785,7 +784,7 @@ explicit ThreefishEngine(int32_t blocksizeBits) ;
  void _ctor(int32_t blocksizeBits) ;
 
 /// @brief Method Init addr 0xe5eb88 size 0x340 virtual true final false
- void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method Init addr 0xe5efc8 size 0x4c virtual false final false
  void Init(bool forEncryption, ::ArrayW<uint64_t> key, ::ArrayW<uint64_t> tweak) ;
@@ -830,14 +829,13 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Engines
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::ThreefishEngine);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Engines::ThreefishEngine, "Org.BouncyCastle.Crypto.Engines", "ThreefishEngine");
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Engines::____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher, "Org.BouncyCastle.Crypto.Engines", "ThreefishEngine/Threefish1024Cipher");
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Engines::____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher, "Org.BouncyCastle.Crypto.Engines", "ThreefishEngine/Threefish256Cipher");
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Engines::____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher, "Org.BouncyCastle.Crypto.Engines", "ThreefishEngine/Threefish512Cipher");
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Engines::____Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher, "Org.BouncyCastle.Crypto.Engines", "ThreefishEngine/ThreefishCipher");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher, "Org.BouncyCastle.Crypto.Engines", "ThreefishEngine/Threefish1024Cipher");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher, "Org.BouncyCastle.Crypto.Engines", "ThreefishEngine/Threefish256Cipher");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher, "Org.BouncyCastle.Crypto.Engines", "ThreefishEngine/Threefish512Cipher");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher, "Org.BouncyCastle.Crypto.Engines", "ThreefishEngine/ThreefishCipher");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Engines::ThreefishEngine);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::ThreefishEngine, "Org.BouncyCastle.Crypto.Engines", "ThreefishEngine");

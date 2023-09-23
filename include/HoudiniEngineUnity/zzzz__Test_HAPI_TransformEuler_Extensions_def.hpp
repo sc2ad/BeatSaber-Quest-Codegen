@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace HoudiniEngineUnity {
 class Test_HAPI_TransformEuler;
 }
@@ -55,12 +54,11 @@ constexpr explicit Test_HAPI_TransformEuler_Extensions(void* ptr) noexcept : ::b
 // Methods
 
 /// @brief Method ToTestObject addr 0x20710d8 size 0x88 virtual false final false
-static ::HoudiniEngineUnity::Test_HAPI_TransformEuler ToTestObject(::HoudiniEngineUnity::HAPI_TransformEuler self) ;
+static HoudiniEngineUnity::Test_HAPI_TransformEuler ToTestObject(HoudiniEngineUnity::HAPI_TransformEuler self) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::Test_HAPI_TransformEuler_Extensions);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::Test_HAPI_TransformEuler_Extensions, "HoudiniEngineUnity", "Test_HAPI_TransformEuler_Extensions");
+NEED_NO_BOX(HoudiniEngineUnity::Test_HAPI_TransformEuler_Extensions);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_HAPI_TransformEuler_Extensions, "HoudiniEngineUnity", "Test_HAPI_TransformEuler_Extensions");

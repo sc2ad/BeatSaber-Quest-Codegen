@@ -1,15 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-class IValidatable;
+class InjectContext;
 }
 namespace Zenject {
-class InjectContext;
+class IValidatable;
 }
 // Forward declare root types
 namespace Zenject {
@@ -32,8 +31,8 @@ template<::cordl_internals::il2cpp_reference_type T>
 class CORDL_TYPE LazyInject_1<T> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Zenject::IValidatable
-constexpr operator  ::Zenject::IValidatable() const noexcept;
+/// @brief Convert operator to Zenject::IValidatable
+constexpr operator  Zenject::IValidatable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -68,17 +67,17 @@ constexpr explicit LazyInject_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 
 // Fields
 
- ::Zenject::DiContainer __declspec(property(get=__get__container, put=__set__container))  _container;
+ Zenject::DiContainer __declspec(property(get=__get__container, put=__set__container))  _container;
 
-constexpr void __set__container(::Zenject::DiContainer value) ;
+constexpr void __set__container(Zenject::DiContainer value) ;
 
-constexpr ::Zenject::DiContainer __get__container() const;
+constexpr Zenject::DiContainer __get__container() const;
 
- ::Zenject::InjectContext __declspec(property(get=__get__context, put=__set__context))  _context;
+ Zenject::InjectContext __declspec(property(get=__get__context, put=__set__context))  _context;
 
-constexpr void __set__context(::Zenject::InjectContext value) ;
+constexpr void __set__context(Zenject::InjectContext value) ;
 
-constexpr ::Zenject::InjectContext __get__context() const;
+constexpr Zenject::InjectContext __get__context() const;
 
  bool __declspec(property(get=__get__hasValue, put=__set__hasValue))  _hasValue;
 
@@ -100,11 +99,11 @@ constexpr T __get__value() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "::Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::Zenject::InjectContext", modifiers: "", def_value: None }]
-explicit LazyInject_1(::Zenject::DiContainer container, ::Zenject::InjectContext context) ;
+// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "context", ty: "Zenject::InjectContext", modifiers: "", def_value: None }]
+explicit LazyInject_1(Zenject::DiContainer container, Zenject::InjectContext context) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::Zenject::DiContainer container, ::Zenject::InjectContext context) ;
+ void _ctor(Zenject::DiContainer container, Zenject::InjectContext context) ;
 
 /// @brief Method Zenject.IValidatable.Validate addr 0x0 size 0xffffffffffffffff virtual true final true
  void Zenject_IValidatable_Validate() ;
@@ -116,5 +115,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::LazyInject_1, "Zenject", "LazyInject`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::LazyInject_1, "Zenject", "LazyInject`1");

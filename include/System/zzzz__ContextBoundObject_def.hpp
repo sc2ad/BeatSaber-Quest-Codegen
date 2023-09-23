@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__MarshalByRefObject_def.hpp"
-namespace {
 // Forward declare root types
 namespace System {
 class ContextBoundObject;
@@ -12,7 +11,7 @@ namespace System {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2604))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2548))
 // CS Name: System.ContextBoundObject
-class CORDL_TYPE ContextBoundObject : public ::System::MarshalByRefObject {
+class CORDL_TYPE ContextBoundObject : public System::MarshalByRefObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr ContextBoundObject(ContextBoundObject const& ) noexcept = default;
 constexpr ContextBoundObject(ContextBoundObject&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ContextBoundObject(void* ptr) noexcept : ::System::MarshalByRefObject(ptr) {
+constexpr explicit ContextBoundObject(void* ptr) noexcept : System::MarshalByRefObject(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::ContextBoundObject);
-DEFINE_IL2CPP_ARG_TYPE(::System::ContextBoundObject, "System", "ContextBoundObject");
+NEED_NO_BOX(System::ContextBoundObject);
+DEFINE_IL2CPP_ARG_TYPE(System::ContextBoundObject, "System", "ContextBoundObject");

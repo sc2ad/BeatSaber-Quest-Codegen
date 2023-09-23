@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Security::Principal {
-class IdentityReference;
-}
 namespace System {
 class Type;
+}
+namespace System::Security::Principal {
+class IdentityReference;
 }
 // Forward declare root types
 namespace System::Security::Principal {
@@ -21,7 +20,7 @@ namespace System::Security::Principal {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2996))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2997))
 // CS Name: System.Security.Principal.NTAccount
-class CORDL_TYPE NTAccount : public ::System::Security::Principal::IdentityReference {
+class CORDL_TYPE NTAccount : public System::Security::Principal::IdentityReference {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr NTAccount(NTAccount const& ) noexcept = default;
 constexpr NTAccount(NTAccount&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NTAccount(void* ptr) noexcept : ::System::Security::Principal::IdentityReference(ptr) {
+constexpr explicit NTAccount(void* ptr) noexcept : System::Security::Principal::IdentityReference(ptr) {
 }
 
 
@@ -90,15 +89,14 @@ explicit NTAccount(::StringW name) ;
  ::StringW ToString() ;
 
 /// @brief Method Translate addr 0x230be7c size 0x22c virtual true final false
- ::System::Security::Principal::IdentityReference Translate(::System::Type targetType) ;
+ System::Security::Principal::IdentityReference Translate(System::Type targetType) ;
 
 /// @brief Method op_Equality addr 0x230bde0 size 0x68 virtual false final false
-static bool op_Equality(::System::Security::Principal::NTAccount left, ::System::Security::Principal::NTAccount right) ;
+static bool op_Equality(System::Security::Principal::NTAccount left, System::Security::Principal::NTAccount right) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Principal
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Principal::NTAccount);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Principal::NTAccount, "System.Security.Principal", "NTAccount");
+NEED_NO_BOX(System::Security::Principal::NTAccount);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::NTAccount, "System.Security.Principal", "NTAccount");

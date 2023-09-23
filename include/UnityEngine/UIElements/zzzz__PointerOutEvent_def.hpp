@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerEventBase_1_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class PointerOutEvent;
@@ -9,10 +8,10 @@ class PointerOutEvent;
 // Type: UnityEngine.UIElements::PointerOutEvent
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7297)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7297), inst: 4684 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7297), inst: 4684 }), TypeDefinitionIndex(TypeDefinitionIndex(7297))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7307))
 // CS Name: UnityEngine.UIElements.PointerOutEvent
-class CORDL_TYPE PointerOutEvent : public ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::PointerOutEvent> {
+class CORDL_TYPE PointerOutEvent : public UnityEngine::UIElements::PointerEventBase_1<UnityEngine::UIElements::PointerOutEvent> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr PointerOutEvent(PointerOutEvent const& ) noexcept = default;
 constexpr PointerOutEvent(PointerOutEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PointerOutEvent(void* ptr) noexcept : ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::PointerOutEvent>(ptr) {
+constexpr explicit PointerOutEvent(void* ptr) noexcept : UnityEngine::UIElements::PointerEventBase_1<UnityEngine::UIElements::PointerOutEvent>(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::PointerOutEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::PointerOutEvent, "UnityEngine.UIElements", "PointerOutEvent");
+NEED_NO_BOX(UnityEngine::UIElements::PointerOutEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::PointerOutEvent, "UnityEngine.UIElements", "PointerOutEvent");

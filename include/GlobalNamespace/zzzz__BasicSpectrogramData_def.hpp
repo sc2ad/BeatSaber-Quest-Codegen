@@ -4,13 +4,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class AudioSource;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace UnityEngine {
+class AudioSource;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,7 +21,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5098))
 // CS Name: BasicSpectrogramData
-class CORDL_TYPE BasicSpectrogramData : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE BasicSpectrogramData : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr BasicSpectrogramData(BasicSpectrogramData const& ) noexcept = default;
 constexpr BasicSpectrogramData(BasicSpectrogramData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BasicSpectrogramData(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit BasicSpectrogramData(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -58,11 +57,11 @@ constexpr explicit BasicSpectrogramData(void* ptr) noexcept : ::UnityEngine::Mon
 
 // Fields
 
- ::UnityEngine::AudioSource __declspec(property(get=__get__audioSource, put=__set__audioSource))  _audioSource;
+ UnityEngine::AudioSource __declspec(property(get=__get__audioSource, put=__set__audioSource))  _audioSource;
 
-constexpr void __set__audioSource(::UnityEngine::AudioSource value) ;
+constexpr void __set__audioSource(UnityEngine::AudioSource value) ;
 
-constexpr ::UnityEngine::AudioSource __get__audioSource() const;
+constexpr UnityEngine::AudioSource __get__audioSource() const;
 
  float_t __declspec(property(get=__get__instantChangeThreshold, put=__set__instantChangeThreshold))  _instantChangeThreshold;
 
@@ -91,18 +90,18 @@ constexpr void __set__samples(::ArrayW<float_t> value) ;
 
 constexpr ::ArrayW<float_t> __get__samples() const;
 
- ::System::Collections::Generic::List_1<float_t> __declspec(property(get=__get__processedSamples, put=__set__processedSamples))  _processedSamples;
+ System::Collections::Generic::List_1<float_t> __declspec(property(get=__get__processedSamples, put=__set__processedSamples))  _processedSamples;
 
-constexpr void __set__processedSamples(::System::Collections::Generic::List_1<float_t> value) ;
+constexpr void __set__processedSamples(System::Collections::Generic::List_1<float_t> value) ;
 
-constexpr ::System::Collections::Generic::List_1<float_t> __get__processedSamples() const;
+constexpr System::Collections::Generic::List_1<float_t> __get__processedSamples() const;
 
 
 // Properties
 
  ::ArrayW<float_t> __declspec(property(get=get_Samples))  Samples;
 
- ::System::Collections::Generic::List_1<float_t> __declspec(property(get=get_ProcessedSamples))  ProcessedSamples;
+ System::Collections::Generic::List_1<float_t> __declspec(property(get=get_ProcessedSamples))  ProcessedSamples;
 
 
 // Methods
@@ -111,7 +110,7 @@ constexpr ::System::Collections::Generic::List_1<float_t> __get__processedSample
  ::ArrayW<float_t> get_Samples() ;
 
 /// @brief Method get_ProcessedSamples addr 0x226b9e4 size 0x3c virtual false final false
- ::System::Collections::Generic::List_1<float_t> get_ProcessedSamples() ;
+ System::Collections::Generic::List_1<float_t> get_ProcessedSamples() ;
 
 /// @brief Method Awake addr 0x226bbb0 size 0xb0 virtual false final false
  void Awake() ;
@@ -120,7 +119,7 @@ constexpr ::System::Collections::Generic::List_1<float_t> __get__processedSample
  void LateUpdate() ;
 
 /// @brief Method ProcessSamples addr 0x226ba20 size 0x190 virtual false final false
- void ProcessSamples(::ArrayW<float_t> sourceSamples, ::System::Collections::Generic::List_1<float_t> processedSamples) ;
+ void ProcessSamples(::ArrayW<float_t> sourceSamples, System::Collections::Generic::List_1<float_t> processedSamples) ;
 
 // Ctor Parameters []
 explicit BasicSpectrogramData() ;
@@ -132,6 +131,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BasicSpectrogramData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BasicSpectrogramData, "", "BasicSpectrogramData");
+NEED_NO_BOX(GlobalNamespace::BasicSpectrogramData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BasicSpectrogramData, "", "BasicSpectrogramData");

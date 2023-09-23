@@ -3,7 +3,6 @@
 #include "Org/BouncyCastle/Utilities/IO/zzzz__BaseOutputStream_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::IO {
 class NullOutputStream;
@@ -14,7 +13,7 @@ namespace Org::BouncyCastle::Utilities::IO {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(484))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1810))
 // CS Name: Org.BouncyCastle.Utilities.IO.NullOutputStream
-class CORDL_TYPE NullOutputStream : public ::Org::BouncyCastle::Utilities::IO::BaseOutputStream {
+class CORDL_TYPE NullOutputStream : public Org::BouncyCastle::Utilities::IO::BaseOutputStream {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr NullOutputStream(NullOutputStream const& ) noexcept = default;
 constexpr NullOutputStream(NullOutputStream&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NullOutputStream(void* ptr) noexcept : ::Org::BouncyCastle::Utilities::IO::BaseOutputStream(ptr) {
+constexpr explicit NullOutputStream(void* ptr) noexcept : Org::BouncyCastle::Utilities::IO::BaseOutputStream(ptr) {
 }
 
 
@@ -66,6 +65,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities::IO
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::IO::NullOutputStream);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::IO::NullOutputStream, "Org.BouncyCastle.Utilities.IO", "NullOutputStream");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::IO::NullOutputStream);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::NullOutputStream, "Org.BouncyCastle.Utilities.IO", "NullOutputStream");

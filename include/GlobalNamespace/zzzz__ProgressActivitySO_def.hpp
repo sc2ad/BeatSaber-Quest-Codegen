@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PS5ActivityDataSO_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace GlobalNamespace {
 class ProgressActivitySubtaskSO;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4647))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4645))
 // CS Name: ProgressActivitySO
-class CORDL_TYPE ProgressActivitySO : public ::GlobalNamespace::PS5ActivityDataSO {
+class CORDL_TYPE ProgressActivitySO : public GlobalNamespace::PS5ActivityDataSO {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr ProgressActivitySO(ProgressActivitySO const& ) noexcept = default;
 constexpr ProgressActivitySO(ProgressActivitySO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ProgressActivitySO(void* ptr) noexcept : ::GlobalNamespace::PS5ActivityDataSO(ptr) {
+constexpr explicit ProgressActivitySO(void* ptr) noexcept : GlobalNamespace::PS5ActivityDataSO(ptr) {
 }
 
 
@@ -52,11 +51,11 @@ constexpr explicit ProgressActivitySO(void* ptr) noexcept : ::GlobalNamespace::P
 
 // Fields
 
- ::ArrayW<::GlobalNamespace::ProgressActivitySubtaskSO> __declspec(property(get=__get_subtasks, put=__set_subtasks))  subtasks;
+ ::ArrayW<GlobalNamespace::ProgressActivitySubtaskSO> __declspec(property(get=__get_subtasks, put=__set_subtasks))  subtasks;
 
-constexpr void __set_subtasks(::ArrayW<::GlobalNamespace::ProgressActivitySubtaskSO> value) ;
+constexpr void __set_subtasks(::ArrayW<GlobalNamespace::ProgressActivitySubtaskSO> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::ProgressActivitySubtaskSO> __get_subtasks() const;
+constexpr ::ArrayW<GlobalNamespace::ProgressActivitySubtaskSO> __get_subtasks() const;
 
 
 // Methods
@@ -71,6 +70,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ProgressActivitySO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ProgressActivitySO, "", "ProgressActivitySO");
+NEED_NO_BOX(GlobalNamespace::ProgressActivitySO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ProgressActivitySO, "", "ProgressActivitySO");

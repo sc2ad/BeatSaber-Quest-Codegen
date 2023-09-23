@@ -1,9 +1,8 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace GlobalNamespace {
-class ____GlobalNamespace__PlayerSaveData__ColorScheme;
+class GlobalNamespace__PlayerSaveData__ColorScheme;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -57,11 +56,11 @@ constexpr void __set_useOverride(bool value) ;
 
 constexpr bool __get_useOverride() const;
 
- ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__ColorScheme __declspec(property(get=__get_colorScheme, put=__set_colorScheme))  colorScheme;
+ GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorScheme __declspec(property(get=__get_colorScheme, put=__set_colorScheme))  colorScheme;
 
-constexpr void __set_colorScheme(::GlobalNamespace::____GlobalNamespace__PlayerSaveData__ColorScheme value) ;
+constexpr void __set_colorScheme(GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorScheme value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__PlayerSaveData__ColorScheme __get_colorScheme() const;
+constexpr GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorScheme __get_colorScheme() const;
 
 
 // Methods
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BeatmapLevelColorSchemeSaveData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapLevelColorSchemeSaveData, "", "BeatmapLevelColorSchemeSaveData");
+NEED_NO_BOX(GlobalNamespace::BeatmapLevelColorSchemeSaveData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelColorSchemeSaveData, "", "BeatmapLevelColorSchemeSaveData");

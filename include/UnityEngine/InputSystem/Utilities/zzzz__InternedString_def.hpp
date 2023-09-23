@@ -4,14 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System {
-template<typename T>
-class IComparable_1;
-}
 namespace System {
 template<typename T>
 class IEquatable_1;
+}
+namespace System {
+template<typename T>
+class IComparable_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -26,11 +25,11 @@ namespace UnityEngine::InputSystem::Utilities {
 struct CORDL_TYPE InternedString : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::InternedString>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::InternedString>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::InputSystem::Utilities::InternedString>
+constexpr operator  System::IEquatable_1<UnityEngine::InputSystem::Utilities::InternedString>() const;
 
-/// @brief Convert operator to ::System::IComparable_1<::UnityEngine::InputSystem::Utilities::InternedString>
-constexpr operator  ::System::IComparable_1<::UnityEngine::InputSystem::Utilities::InternedString>() const;
+/// @brief Convert operator to System::IComparable_1<UnityEngine::InputSystem::Utilities::InternedString>
+constexpr operator  System::IComparable_1<UnityEngine::InputSystem::Utilities::InternedString>() const;
 
 // Ctor Parameters [CppParam { name: "m_StringOriginalCase", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_StringLowerCase", ty: "::StringW", modifiers: "", def_value: None }]
 constexpr InternedString(::StringW m_StringOriginalCase, ::StringW m_StringLowerCase) noexcept;
@@ -102,10 +101,10 @@ constexpr ::StringW __get_m_StringLowerCase() const;
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x297d734 size 0x10 virtual true final true
- bool Equals(::UnityEngine::InputSystem::Utilities::InternedString other) ;
+ bool Equals(UnityEngine::InputSystem::Utilities::InternedString other) ;
 
 /// @brief Method CompareTo addr 0x297d744 size 0x14 virtual true final true
- int32_t CompareTo(::UnityEngine::InputSystem::Utilities::InternedString other) ;
+ int32_t CompareTo(UnityEngine::InputSystem::Utilities::InternedString other) ;
 
 /// @brief Method GetHashCode addr 0x297d758 size 0x18 virtual true final false
  int32_t GetHashCode() ;
@@ -114,35 +113,34 @@ constexpr ::StringW __get_m_StringLowerCase() const;
  ::StringW ToString() ;
 
 /// @brief Method op_Equality addr 0x2976890 size 0xc virtual false final false
-static bool op_Equality(::UnityEngine::InputSystem::Utilities::InternedString a, ::UnityEngine::InputSystem::Utilities::InternedString b) ;
+static bool op_Equality(UnityEngine::InputSystem::Utilities::InternedString a, UnityEngine::InputSystem::Utilities::InternedString b) ;
 
 /// @brief Method op_Inequality addr 0x297d770 size 0xc virtual false final false
-static bool op_Inequality(::UnityEngine::InputSystem::Utilities::InternedString a, ::UnityEngine::InputSystem::Utilities::InternedString b) ;
+static bool op_Inequality(UnityEngine::InputSystem::Utilities::InternedString a, UnityEngine::InputSystem::Utilities::InternedString b) ;
 
 /// @brief Method op_Equality addr 0x297d77c size 0x98 virtual false final false
-static bool op_Equality(::UnityEngine::InputSystem::Utilities::InternedString a, ::StringW b) ;
+static bool op_Equality(UnityEngine::InputSystem::Utilities::InternedString a, ::StringW b) ;
 
 /// @brief Method op_Inequality addr 0x297d814 size 0x98 virtual false final false
-static bool op_Inequality(::UnityEngine::InputSystem::Utilities::InternedString a, ::StringW b) ;
+static bool op_Inequality(UnityEngine::InputSystem::Utilities::InternedString a, ::StringW b) ;
 
 /// @brief Method op_Equality addr 0x297d8ac size 0x94 virtual false final false
-static bool op_Equality(::StringW a, ::UnityEngine::InputSystem::Utilities::InternedString b) ;
+static bool op_Equality(::StringW a, UnityEngine::InputSystem::Utilities::InternedString b) ;
 
 /// @brief Method op_Inequality addr 0x297d940 size 0x94 virtual false final false
-static bool op_Inequality(::StringW a, ::UnityEngine::InputSystem::Utilities::InternedString b) ;
+static bool op_Inequality(::StringW a, UnityEngine::InputSystem::Utilities::InternedString b) ;
 
 /// @brief Method op_LessThan addr 0x297d9d4 size 0x24 virtual false final false
-static bool op_LessThan(::UnityEngine::InputSystem::Utilities::InternedString left, ::UnityEngine::InputSystem::Utilities::InternedString right) ;
+static bool op_LessThan(UnityEngine::InputSystem::Utilities::InternedString left, UnityEngine::InputSystem::Utilities::InternedString right) ;
 
 /// @brief Method op_GreaterThan addr 0x297d9f8 size 0x28 virtual false final false
-static bool op_GreaterThan(::UnityEngine::InputSystem::Utilities::InternedString left, ::UnityEngine::InputSystem::Utilities::InternedString right) ;
+static bool op_GreaterThan(UnityEngine::InputSystem::Utilities::InternedString left, UnityEngine::InputSystem::Utilities::InternedString right) ;
 
 /// @brief Method op_Implicit addr 0x297689c size 0x54 virtual false final false
-static ::StringW op_Implicit___StringW(::UnityEngine::InputSystem::Utilities::InternedString str) ;
+static ::StringW op_Implicit___StringW(UnityEngine::InputSystem::Utilities::InternedString str) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Utilities
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Utilities::InternedString, "UnityEngine.InputSystem.Utilities", "InternedString");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Utilities::InternedString, "UnityEngine.InputSystem.Utilities", "InternedString");

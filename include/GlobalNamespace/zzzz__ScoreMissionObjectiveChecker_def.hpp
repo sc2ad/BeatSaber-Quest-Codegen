@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__SimpleValueMissionObjectiveChecker_def.hpp"
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 class IScoreController;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5198))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5197))
 // CS Name: ScoreMissionObjectiveChecker
-class CORDL_TYPE ScoreMissionObjectiveChecker : public ::GlobalNamespace::SimpleValueMissionObjectiveChecker {
+class CORDL_TYPE ScoreMissionObjectiveChecker : public GlobalNamespace::SimpleValueMissionObjectiveChecker {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr ScoreMissionObjectiveChecker(ScoreMissionObjectiveChecker const& ) noe
 constexpr ScoreMissionObjectiveChecker(ScoreMissionObjectiveChecker&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ScoreMissionObjectiveChecker(void* ptr) noexcept : ::GlobalNamespace::SimpleValueMissionObjectiveChecker(ptr) {
+constexpr explicit ScoreMissionObjectiveChecker(void* ptr) noexcept : GlobalNamespace::SimpleValueMissionObjectiveChecker(ptr) {
 }
 
 
@@ -52,11 +51,11 @@ constexpr explicit ScoreMissionObjectiveChecker(void* ptr) noexcept : ::GlobalNa
 
 // Fields
 
- ::GlobalNamespace::IScoreController __declspec(property(get=__get__scoreController, put=__set__scoreController))  _scoreController;
+ GlobalNamespace::IScoreController __declspec(property(get=__get__scoreController, put=__set__scoreController))  _scoreController;
 
-constexpr void __set__scoreController(::GlobalNamespace::IScoreController value) ;
+constexpr void __set__scoreController(GlobalNamespace::IScoreController value) ;
 
-constexpr ::GlobalNamespace::IScoreController __get__scoreController() const;
+constexpr GlobalNamespace::IScoreController __get__scoreController() const;
 
 
 // Methods
@@ -80,6 +79,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ScoreMissionObjectiveChecker);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ScoreMissionObjectiveChecker, "", "ScoreMissionObjectiveChecker");
+NEED_NO_BOX(GlobalNamespace::ScoreMissionObjectiveChecker);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreMissionObjectiveChecker, "", "ScoreMissionObjectiveChecker");

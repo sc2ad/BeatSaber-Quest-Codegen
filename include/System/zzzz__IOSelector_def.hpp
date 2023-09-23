@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class IOSelectorJob;
 }
@@ -53,12 +52,11 @@ constexpr explicit IOSelector(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType
 // Methods
 
 /// @brief Method Add addr 0x27bbe94 size 0x4 virtual false final false
-static void Add(::cordl_internals::intptr_t handle, ::System::IOSelectorJob job) ;
+static void Add(::cordl_internals::intptr_t handle, System::IOSelectorJob job) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::IOSelector);
-DEFINE_IL2CPP_ARG_TYPE(::System::IOSelector, "System", "IOSelector");
+NEED_NO_BOX(System::IOSelector);
+DEFINE_IL2CPP_ARG_TYPE(System::IOSelector, "System", "IOSelector");

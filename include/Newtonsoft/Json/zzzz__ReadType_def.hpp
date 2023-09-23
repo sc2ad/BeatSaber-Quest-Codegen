@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Newtonsoft::Json {
 struct ReadType;
@@ -74,35 +73,34 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Read offset 0
-static ::Newtonsoft::Json::ReadType const Read;
+static Newtonsoft::Json::ReadType const Read;
 
 /// @brief Field ReadAsInt32 offset 0
-static ::Newtonsoft::Json::ReadType const ReadAsInt32;
+static Newtonsoft::Json::ReadType const ReadAsInt32;
 
 /// @brief Field ReadAsBytes offset 0
-static ::Newtonsoft::Json::ReadType const ReadAsBytes;
+static Newtonsoft::Json::ReadType const ReadAsBytes;
 
 /// @brief Field ReadAsString offset 0
-static ::Newtonsoft::Json::ReadType const ReadAsString;
+static Newtonsoft::Json::ReadType const ReadAsString;
 
 /// @brief Field ReadAsDecimal offset 0
-static ::Newtonsoft::Json::ReadType const ReadAsDecimal;
+static Newtonsoft::Json::ReadType const ReadAsDecimal;
 
 /// @brief Field ReadAsDateTime offset 0
-static ::Newtonsoft::Json::ReadType const ReadAsDateTime;
+static Newtonsoft::Json::ReadType const ReadAsDateTime;
 
 /// @brief Field ReadAsDateTimeOffset offset 0
-static ::Newtonsoft::Json::ReadType const ReadAsDateTimeOffset;
+static Newtonsoft::Json::ReadType const ReadAsDateTimeOffset;
 
 /// @brief Field ReadAsDouble offset 0
-static ::Newtonsoft::Json::ReadType const ReadAsDouble;
+static Newtonsoft::Json::ReadType const ReadAsDouble;
 
 /// @brief Field ReadAsBoolean offset 0
-static ::Newtonsoft::Json::ReadType const ReadAsBoolean;
+static Newtonsoft::Json::ReadType const ReadAsBoolean;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::ReadType, "Newtonsoft.Json", "ReadType");
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::ReadType, "Newtonsoft.Json", "ReadType");

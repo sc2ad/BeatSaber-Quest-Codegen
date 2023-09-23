@@ -3,7 +3,6 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Net {
 class WebHeaderCollection;
 }
@@ -17,7 +16,7 @@ namespace System::Net {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7929))
 // CS Name: System.Net.HttpContinueDelegate
-class CORDL_TYPE HttpContinueDelegate : public ::System::MulticastDelegate {
+class CORDL_TYPE HttpContinueDelegate : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr HttpContinueDelegate(HttpContinueDelegate const& ) noexcept = default;
 constexpr HttpContinueDelegate(HttpContinueDelegate&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HttpContinueDelegate(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit HttpContinueDelegate(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -60,12 +59,11 @@ explicit HttpContinueDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_inter
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x280cee4 size 0x14 virtual true final false
- void Invoke(int32_t StatusCode, ::System::Net::WebHeaderCollection httpHeaders) ;
+ void Invoke(int32_t StatusCode, System::Net::WebHeaderCollection httpHeaders) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::HttpContinueDelegate);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::HttpContinueDelegate, "System.Net", "HttpContinueDelegate");
+NEED_NO_BOX(System::Net::HttpContinueDelegate);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpContinueDelegate, "System.Net", "HttpContinueDelegate");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 class Material;
 }
@@ -16,7 +15,7 @@ namespace TMPro {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10151))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12269))
 // CS Name: TMPro.TMP_Asset
-class CORDL_TYPE TMP_Asset : public ::UnityEngine::ScriptableObject {
+class CORDL_TYPE TMP_Asset : public UnityEngine::ScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr TMP_Asset(TMP_Asset const& ) noexcept = default;
 constexpr TMP_Asset(TMP_Asset&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TMP_Asset(void* ptr) noexcept : ::UnityEngine::ScriptableObject(ptr) {
+constexpr explicit TMP_Asset(void* ptr) noexcept : UnityEngine::ScriptableObject(ptr) {
 }
 
 
@@ -64,11 +63,11 @@ constexpr void __set_hashCode(int32_t value) ;
 
 constexpr int32_t __get_hashCode() const;
 
- ::UnityEngine::Material __declspec(property(get=__get_material, put=__set_material))  material;
+ UnityEngine::Material __declspec(property(get=__get_material, put=__set_material))  material;
 
-constexpr void __set_material(::UnityEngine::Material value) ;
+constexpr void __set_material(UnityEngine::Material value) ;
 
-constexpr ::UnityEngine::Material __get_material() const;
+constexpr UnityEngine::Material __get_material() const;
 
  int32_t __declspec(property(get=__get_materialHashCode, put=__set_materialHashCode))  materialHashCode;
 
@@ -97,6 +96,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-NEED_NO_BOX(::TMPro::TMP_Asset);
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_Asset, "TMPro", "TMP_Asset");
+NEED_NO_BOX(TMPro::TMP_Asset);
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Asset, "TMPro", "TMP_Asset");

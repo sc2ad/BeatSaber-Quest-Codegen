@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -113,25 +112,24 @@ constexpr void __set_infoHash(::StringW value) ;
 
 constexpr ::StringW __get_infoHash() const;
 
- ::System::Collections::Generic::List_1<::StringW> __declspec(property(get=__get_modifiers, put=__set_modifiers))  modifiers;
+ System::Collections::Generic::List_1<::StringW> __declspec(property(get=__get_modifiers, put=__set_modifiers))  modifiers;
 
-constexpr void __set_modifiers(::System::Collections::Generic::List_1<::StringW> value) ;
+constexpr void __set_modifiers(System::Collections::Generic::List_1<::StringW> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::StringW> __get_modifiers() const;
+constexpr System::Collections::Generic::List_1<::StringW> __get_modifiers() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "playerName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "playerId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "score", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "leaderboardId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "songName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "songSubName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "authorName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "bpm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "difficulty", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "infoHash", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "modifiers", ty: "::System::Collections::Generic::List_1<::StringW>", modifiers: "", def_value: None }]
-explicit LeaderboardUploadData(::StringW playerName, ::StringW playerId, ::StringW score, ::StringW leaderboardId, ::StringW songName, ::StringW songSubName, ::StringW authorName, ::StringW bpm, ::StringW difficulty, ::StringW infoHash, ::System::Collections::Generic::List_1<::StringW> modifiers) ;
+// Ctor Parameters [CppParam { name: "playerName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "playerId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "score", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "leaderboardId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "songName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "songSubName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "authorName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "bpm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "difficulty", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "infoHash", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "modifiers", ty: "System::Collections::Generic::List_1<::StringW>", modifiers: "", def_value: None }]
+explicit LeaderboardUploadData(::StringW playerName, ::StringW playerId, ::StringW score, ::StringW leaderboardId, ::StringW songName, ::StringW songSubName, ::StringW authorName, ::StringW bpm, ::StringW difficulty, ::StringW infoHash, System::Collections::Generic::List_1<::StringW> modifiers) ;
 
 /// @brief Method .ctor addr 0x21c3b38 size 0x8c virtual false final false
- void _ctor(::StringW playerName, ::StringW playerId, ::StringW score, ::StringW leaderboardId, ::StringW songName, ::StringW songSubName, ::StringW authorName, ::StringW bpm, ::StringW difficulty, ::StringW infoHash, ::System::Collections::Generic::List_1<::StringW> modifiers) ;
+ void _ctor(::StringW playerName, ::StringW playerId, ::StringW score, ::StringW leaderboardId, ::StringW songName, ::StringW songSubName, ::StringW authorName, ::StringW bpm, ::StringW difficulty, ::StringW infoHash, System::Collections::Generic::List_1<::StringW> modifiers) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LeaderboardUploadData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LeaderboardUploadData, "", "LeaderboardUploadData");
+NEED_NO_BOX(GlobalNamespace::LeaderboardUploadData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardUploadData, "", "LeaderboardUploadData");

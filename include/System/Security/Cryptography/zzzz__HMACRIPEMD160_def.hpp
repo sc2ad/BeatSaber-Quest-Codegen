@@ -3,7 +3,6 @@
 #include "System/Security/Cryptography/zzzz__HMAC_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security::Cryptography {
 class HMACRIPEMD160;
@@ -14,7 +13,7 @@ namespace System::Security::Cryptography {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2930))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2932))
 // CS Name: System.Security.Cryptography.HMACRIPEMD160
-class CORDL_TYPE HMACRIPEMD160 : public ::System::Security::Cryptography::HMAC {
+class CORDL_TYPE HMACRIPEMD160 : public System::Security::Cryptography::HMAC {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr HMACRIPEMD160(HMACRIPEMD160 const& ) noexcept = default;
 constexpr HMACRIPEMD160(HMACRIPEMD160&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HMACRIPEMD160(void* ptr) noexcept : ::System::Security::Cryptography::HMAC(ptr) {
+constexpr explicit HMACRIPEMD160(void* ptr) noexcept : System::Security::Cryptography::HMAC(ptr) {
 }
 
 
@@ -66,6 +65,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::HMACRIPEMD160);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::HMACRIPEMD160, "System.Security.Cryptography", "HMACRIPEMD160");
+NEED_NO_BOX(System::Security::Cryptography::HMACRIPEMD160);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::HMACRIPEMD160, "System.Security.Cryptography", "HMACRIPEMD160");

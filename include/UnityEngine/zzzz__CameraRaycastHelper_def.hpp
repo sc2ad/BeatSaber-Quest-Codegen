@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class Camera;
-}
 namespace UnityEngine {
 struct Ray;
+}
+namespace UnityEngine {
+class Camera;
 }
 namespace UnityEngine {
 class GameObject;
@@ -61,21 +60,20 @@ constexpr explicit CameraRaycastHelper(void* ptr) noexcept : ::bs_hook::Il2CppWr
 // Methods
 
 /// @brief Method RaycastTry addr 0x2b96038 size 0x64 virtual false final false
-static ::UnityEngine::GameObject RaycastTry(::UnityEngine::Camera cam, ::UnityEngine::Ray ray, float_t distance, int32_t layerMask) ;
+static UnityEngine::GameObject RaycastTry(UnityEngine::Camera cam, UnityEngine::Ray ray, float_t distance, int32_t layerMask) ;
 
 /// @brief Method RaycastTry2D addr 0x2b96100 size 0x64 virtual false final false
-static ::UnityEngine::GameObject RaycastTry2D(::UnityEngine::Camera cam, ::UnityEngine::Ray ray, float_t distance, int32_t layerMask) ;
+static UnityEngine::GameObject RaycastTry2D(UnityEngine::Camera cam, UnityEngine::Ray ray, float_t distance, int32_t layerMask) ;
 
 /// @brief Method RaycastTry_Injected addr 0x2b9609c size 0x64 virtual false final false
-static ::UnityEngine::GameObject RaycastTry_Injected(::UnityEngine::Camera cam, ByRef<::UnityEngine::Ray> ray, float_t distance, int32_t layerMask) ;
+static UnityEngine::GameObject RaycastTry_Injected(UnityEngine::Camera cam, ByRef<UnityEngine::Ray> ray, float_t distance, int32_t layerMask) ;
 
 /// @brief Method RaycastTry2D_Injected addr 0x2b96164 size 0x64 virtual false final false
-static ::UnityEngine::GameObject RaycastTry2D_Injected(::UnityEngine::Camera cam, ByRef<::UnityEngine::Ray> ray, float_t distance, int32_t layerMask) ;
+static UnityEngine::GameObject RaycastTry2D_Injected(UnityEngine::Camera cam, ByRef<UnityEngine::Ray> ray, float_t distance, int32_t layerMask) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::CameraRaycastHelper);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::CameraRaycastHelper, "UnityEngine", "CameraRaycastHelper");
+NEED_NO_BOX(UnityEngine::CameraRaycastHelper);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CameraRaycastHelper, "UnityEngine", "CameraRaycastHelper");

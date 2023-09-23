@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -18,7 +17,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15468))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15470))
 // CS Name: UnityEngine.CapsuleCollider
-class CORDL_TYPE CapsuleCollider : public ::UnityEngine::Collider {
+class CORDL_TYPE CapsuleCollider : public UnityEngine::Collider {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr CapsuleCollider(CapsuleCollider const& ) noexcept = default;
 constexpr CapsuleCollider(CapsuleCollider&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CapsuleCollider(void* ptr) noexcept : ::UnityEngine::Collider(ptr) {
+constexpr explicit CapsuleCollider(void* ptr) noexcept : UnityEngine::Collider(ptr) {
 }
 
 
@@ -54,7 +53,7 @@ constexpr explicit CapsuleCollider(void* ptr) noexcept : ::UnityEngine::Collider
 
 // Properties
 
- ::UnityEngine::Vector3 __declspec(property(get=get_center, put=set_center))  center;
+ UnityEngine::Vector3 __declspec(property(get=get_center, put=set_center))  center;
 
  float_t __declspec(property(get=get_radius, put=set_radius))  radius;
 
@@ -66,10 +65,10 @@ constexpr explicit CapsuleCollider(void* ptr) noexcept : ::UnityEngine::Collider
 // Methods
 
 /// @brief Method get_center addr 0x2b9fe68 size 0x5c virtual false final false
- ::UnityEngine::Vector3 get_center() ;
+ UnityEngine::Vector3 get_center() ;
 
 /// @brief Method set_center addr 0x2b9ff08 size 0x54 virtual false final false
- void set_center(::UnityEngine::Vector3 value) ;
+ void set_center(UnityEngine::Vector3 value) ;
 
 /// @brief Method get_radius addr 0x2b9ffa0 size 0x3c virtual false final false
  float_t get_radius() ;
@@ -87,15 +86,14 @@ constexpr explicit CapsuleCollider(void* ptr) noexcept : ::UnityEngine::Collider
  void set_direction(int32_t value) ;
 
 /// @brief Method get_center_Injected addr 0x2b9fec4 size 0x44 virtual false final false
- void get_center_Injected(ByRef<::UnityEngine::Vector3> ret) ;
+ void get_center_Injected(ByRef<UnityEngine::Vector3> ret) ;
 
 /// @brief Method set_center_Injected addr 0x2b9ff5c size 0x44 virtual false final false
- void set_center_Injected(ByRef<::UnityEngine::Vector3> value) ;
+ void set_center_Injected(ByRef<UnityEngine::Vector3> value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::CapsuleCollider);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::CapsuleCollider, "UnityEngine", "CapsuleCollider");
+NEED_NO_BOX(UnityEngine::CapsuleCollider);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CapsuleCollider, "UnityEngine", "CapsuleCollider");

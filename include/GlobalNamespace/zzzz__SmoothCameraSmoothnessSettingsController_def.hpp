@@ -6,7 +6,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 class FloatSO;
 }
@@ -20,7 +19,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5687))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5701))
 // CS Name: SmoothCameraSmoothnessSettingsController
-class CORDL_TYPE SmoothCameraSmoothnessSettingsController : public ::GlobalNamespace::ListSettingsController {
+class CORDL_TYPE SmoothCameraSmoothnessSettingsController : public GlobalNamespace::ListSettingsController {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr SmoothCameraSmoothnessSettingsController(SmoothCameraSmoothnessSetting
 constexpr SmoothCameraSmoothnessSettingsController(SmoothCameraSmoothnessSettingsController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SmoothCameraSmoothnessSettingsController(void* ptr) noexcept : ::GlobalNamespace::ListSettingsController(ptr) {
+constexpr explicit SmoothCameraSmoothnessSettingsController(void* ptr) noexcept : GlobalNamespace::ListSettingsController(ptr) {
 }
 
 
@@ -56,17 +55,17 @@ constexpr explicit SmoothCameraSmoothnessSettingsController(void* ptr) noexcept 
 
 // Fields
 
- ::GlobalNamespace::FloatSO __declspec(property(get=__get__smoothCameraPositionSmooth, put=__set__smoothCameraPositionSmooth))  _smoothCameraPositionSmooth;
+ GlobalNamespace::FloatSO __declspec(property(get=__get__smoothCameraPositionSmooth, put=__set__smoothCameraPositionSmooth))  _smoothCameraPositionSmooth;
 
-constexpr void __set__smoothCameraPositionSmooth(::GlobalNamespace::FloatSO value) ;
+constexpr void __set__smoothCameraPositionSmooth(GlobalNamespace::FloatSO value) ;
 
-constexpr ::GlobalNamespace::FloatSO __get__smoothCameraPositionSmooth() const;
+constexpr GlobalNamespace::FloatSO __get__smoothCameraPositionSmooth() const;
 
- ::GlobalNamespace::FloatSO __declspec(property(get=__get__smoothCameraRotationSmooth, put=__set__smoothCameraRotationSmooth))  _smoothCameraRotationSmooth;
+ GlobalNamespace::FloatSO __declspec(property(get=__get__smoothCameraRotationSmooth, put=__set__smoothCameraRotationSmooth))  _smoothCameraRotationSmooth;
 
-constexpr void __set__smoothCameraRotationSmooth(::GlobalNamespace::FloatSO value) ;
+constexpr void __set__smoothCameraRotationSmooth(GlobalNamespace::FloatSO value) ;
 
-constexpr ::GlobalNamespace::FloatSO __get__smoothCameraRotationSmooth() const;
+constexpr GlobalNamespace::FloatSO __get__smoothCameraRotationSmooth() const;
 
  ::ArrayW<float_t> __declspec(property(get=__get__smoothnesses, put=__set__smoothnesses))  _smoothnesses;
 
@@ -96,6 +95,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SmoothCameraSmoothnessSettingsController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SmoothCameraSmoothnessSettingsController, "", "SmoothCameraSmoothnessSettingsController");
+NEED_NO_BOX(GlobalNamespace::SmoothCameraSmoothnessSettingsController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SmoothCameraSmoothnessSettingsController, "", "SmoothCameraSmoothnessSettingsController");

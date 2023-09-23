@@ -3,7 +3,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
 struct PageInfo;
@@ -85,5 +84,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::Text
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::PageInfo, "UnityEngine.TextCore.Text", "PageInfo");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Text::PageInfo, "UnityEngine.TextCore.Text", "PageInfo");

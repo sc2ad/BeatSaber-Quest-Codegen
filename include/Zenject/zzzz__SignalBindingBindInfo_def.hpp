@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System {
 class Type;
 }
@@ -57,27 +56,27 @@ constexpr void __set__Identifier_k__BackingField(::bs_hook::Il2CppWrapperType va
 
 constexpr ::bs_hook::Il2CppWrapperType __get__Identifier_k__BackingField() const;
 
- ::System::Type __declspec(property(get=__get__SignalType_k__BackingField, put=__set__SignalType_k__BackingField))  _SignalType_k__BackingField;
+ System::Type __declspec(property(get=__get__SignalType_k__BackingField, put=__set__SignalType_k__BackingField))  _SignalType_k__BackingField;
 
-constexpr void __set__SignalType_k__BackingField(::System::Type value) ;
+constexpr void __set__SignalType_k__BackingField(System::Type value) ;
 
-constexpr ::System::Type __get__SignalType_k__BackingField() const;
+constexpr System::Type __get__SignalType_k__BackingField() const;
 
 
 // Properties
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_Identifier, put=set_Identifier))  Identifier;
 
- ::System::Type __declspec(property(get=get_SignalType, put=set_SignalType))  SignalType;
+ System::Type __declspec(property(get=get_SignalType, put=set_SignalType))  SignalType;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "signalType", ty: "::System::Type", modifiers: "", def_value: None }]
-explicit SignalBindingBindInfo(::System::Type signalType) ;
+// Ctor Parameters [CppParam { name: "signalType", ty: "System::Type", modifiers: "", def_value: None }]
+explicit SignalBindingBindInfo(System::Type signalType) ;
 
 /// @brief Method .ctor addr 0x2d48f10 size 0x28 virtual false final false
- void _ctor(::System::Type signalType) ;
+ void _ctor(System::Type signalType) ;
 
 /// @brief Method get_Identifier addr 0x2d48f38 size 0x8 virtual false final false
  ::bs_hook::Il2CppWrapperType get_Identifier() ;
@@ -86,15 +85,14 @@ explicit SignalBindingBindInfo(::System::Type signalType) ;
  void set_Identifier(::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method get_SignalType addr 0x2d48f48 size 0x8 virtual false final false
- ::System::Type get_SignalType() ;
+ System::Type get_SignalType() ;
 
 /// @brief Method set_SignalType addr 0x2d48f50 size 0x8 virtual false final false
- void set_SignalType(::System::Type value) ;
+ void set_SignalType(System::Type value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::SignalBindingBindInfo);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::SignalBindingBindInfo, "Zenject", "SignalBindingBindInfo");
+NEED_NO_BOX(Zenject::SignalBindingBindInfo);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::SignalBindingBindInfo, "Zenject", "SignalBindingBindInfo");

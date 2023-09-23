@@ -3,21 +3,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
-class ____GlobalNamespace__LeaderboardScoreUploader__ScoreData;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__PlatformLeaderboardsModel__GetScoresCompletionHandler;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__PlatformLeaderboardsModel__ScoresScope;
+class GlobalNamespace__PlatformLeaderboardsModel__UploadScoreCompletionHandler;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__PlatformLeaderboardsModel__UploadScoreCompletionHandler;
+class GlobalNamespace__LeaderboardScoreUploader__ScoreData;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__PlatformLeaderboardsModel__ScoresScope;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlatformLeaderboardsModel__GetScoresCompletionHandler;
 }
 namespace GlobalNamespace {
 class HMAsyncRequest;
@@ -69,10 +68,10 @@ constexpr explicit PlatformLeaderboardsHandler(void* ptr) noexcept : ::bs_hook::
 // Methods
 
 /// @brief Method GetScores addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::HMAsyncRequest GetScores(::GlobalNamespace::IDifficultyBeatmap beatmap, int32_t count, int32_t fromRank, ::GlobalNamespace::____GlobalNamespace__PlatformLeaderboardsModel__ScoresScope scope, ::StringW referencePlayerId, ::GlobalNamespace::____GlobalNamespace__PlatformLeaderboardsModel__GetScoresCompletionHandler completionHandler) ;
+ GlobalNamespace::HMAsyncRequest GetScores(GlobalNamespace::IDifficultyBeatmap beatmap, int32_t count, int32_t fromRank, GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__ScoresScope scope, ::StringW referencePlayerId, GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__GetScoresCompletionHandler completionHandler) ;
 
 /// @brief Method UploadScore addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::HMAsyncRequest UploadScore(::GlobalNamespace::____GlobalNamespace__LeaderboardScoreUploader__ScoreData scoreData, ::GlobalNamespace::____GlobalNamespace__PlatformLeaderboardsModel__UploadScoreCompletionHandler completionHandler) ;
+ GlobalNamespace::HMAsyncRequest UploadScore(GlobalNamespace::GlobalNamespace__LeaderboardScoreUploader__ScoreData scoreData, GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__UploadScoreCompletionHandler completionHandler) ;
 
 // Ctor Parameters []
 explicit PlatformLeaderboardsHandler() ;
@@ -84,6 +83,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PlatformLeaderboardsHandler);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlatformLeaderboardsHandler, "", "PlatformLeaderboardsHandler");
+NEED_NO_BOX(GlobalNamespace::PlatformLeaderboardsHandler);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardsHandler, "", "PlatformLeaderboardsHandler");

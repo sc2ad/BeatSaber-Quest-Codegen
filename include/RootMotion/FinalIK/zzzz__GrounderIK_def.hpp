@@ -4,9 +4,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class Transform;
+namespace RootMotion::FinalIK {
+class IK;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -17,8 +16,8 @@ struct Quaternion;
 namespace UnityEngine {
 class Rigidbody;
 }
-namespace RootMotion::FinalIK {
-class IK;
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -30,7 +29,7 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12460))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12464))
 // CS Name: RootMotion.FinalIK.GrounderIK
-class CORDL_TYPE GrounderIK : public ::RootMotion::FinalIK::Grounder {
+class CORDL_TYPE GrounderIK : public RootMotion::FinalIK::Grounder {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -45,7 +44,7 @@ constexpr GrounderIK(GrounderIK const& ) noexcept = default;
 constexpr GrounderIK(GrounderIK&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GrounderIK(void* ptr) noexcept : ::RootMotion::FinalIK::Grounder(ptr) {
+constexpr explicit GrounderIK(void* ptr) noexcept : RootMotion::FinalIK::Grounder(ptr) {
 }
 
 
@@ -66,23 +65,23 @@ constexpr explicit GrounderIK(void* ptr) noexcept : ::RootMotion::FinalIK::Groun
 
 // Fields
 
- ::ArrayW<::RootMotion::FinalIK::IK> __declspec(property(get=__get_legs, put=__set_legs))  legs;
+ ::ArrayW<RootMotion::FinalIK::IK> __declspec(property(get=__get_legs, put=__set_legs))  legs;
 
-constexpr void __set_legs(::ArrayW<::RootMotion::FinalIK::IK> value) ;
+constexpr void __set_legs(::ArrayW<RootMotion::FinalIK::IK> value) ;
 
-constexpr ::ArrayW<::RootMotion::FinalIK::IK> __get_legs() const;
+constexpr ::ArrayW<RootMotion::FinalIK::IK> __get_legs() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_pelvis, put=__set_pelvis))  pelvis;
+ UnityEngine::Transform __declspec(property(get=__get_pelvis, put=__set_pelvis))  pelvis;
 
-constexpr void __set_pelvis(::UnityEngine::Transform value) ;
+constexpr void __set_pelvis(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_pelvis() const;
+constexpr UnityEngine::Transform __get_pelvis() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_characterRoot, put=__set_characterRoot))  characterRoot;
+ UnityEngine::Transform __declspec(property(get=__get_characterRoot, put=__set_characterRoot))  characterRoot;
 
-constexpr void __set_characterRoot(::UnityEngine::Transform value) ;
+constexpr void __set_characterRoot(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_characterRoot() const;
+constexpr UnityEngine::Transform __get_characterRoot() const;
 
  float_t __declspec(property(get=__get_rootRotationWeight, put=__set_rootRotationWeight))  rootRotationWeight;
 
@@ -102,29 +101,29 @@ constexpr void __set_maxRootRotationAngle(float_t value) ;
 
 constexpr float_t __get_maxRootRotationAngle() const;
 
- ::ArrayW<::UnityEngine::Transform> __declspec(property(get=__get_feet, put=__set_feet))  feet;
+ ::ArrayW<UnityEngine::Transform> __declspec(property(get=__get_feet, put=__set_feet))  feet;
 
-constexpr void __set_feet(::ArrayW<::UnityEngine::Transform> value) ;
+constexpr void __set_feet(::ArrayW<UnityEngine::Transform> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Transform> __get_feet() const;
+constexpr ::ArrayW<UnityEngine::Transform> __get_feet() const;
 
- ::ArrayW<::UnityEngine::Quaternion> __declspec(property(get=__get_footRotations, put=__set_footRotations))  footRotations;
+ ::ArrayW<UnityEngine::Quaternion> __declspec(property(get=__get_footRotations, put=__set_footRotations))  footRotations;
 
-constexpr void __set_footRotations(::ArrayW<::UnityEngine::Quaternion> value) ;
+constexpr void __set_footRotations(::ArrayW<UnityEngine::Quaternion> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Quaternion> __get_footRotations() const;
+constexpr ::ArrayW<UnityEngine::Quaternion> __get_footRotations() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_animatedPelvisLocalPosition, put=__set_animatedPelvisLocalPosition))  animatedPelvisLocalPosition;
+ UnityEngine::Vector3 __declspec(property(get=__get_animatedPelvisLocalPosition, put=__set_animatedPelvisLocalPosition))  animatedPelvisLocalPosition;
 
-constexpr void __set_animatedPelvisLocalPosition(::UnityEngine::Vector3 value) ;
+constexpr void __set_animatedPelvisLocalPosition(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_animatedPelvisLocalPosition() const;
+constexpr UnityEngine::Vector3 __get_animatedPelvisLocalPosition() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_solvedPelvisLocalPosition, put=__set_solvedPelvisLocalPosition))  solvedPelvisLocalPosition;
+ UnityEngine::Vector3 __declspec(property(get=__get_solvedPelvisLocalPosition, put=__set_solvedPelvisLocalPosition))  solvedPelvisLocalPosition;
 
-constexpr void __set_solvedPelvisLocalPosition(::UnityEngine::Vector3 value) ;
+constexpr void __set_solvedPelvisLocalPosition(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_solvedPelvisLocalPosition() const;
+constexpr UnityEngine::Vector3 __get_solvedPelvisLocalPosition() const;
 
  int32_t __declspec(property(get=__get_solvedFeet, put=__set_solvedFeet))  solvedFeet;
 
@@ -144,11 +143,11 @@ constexpr void __set_lastWeight(float_t value) ;
 
 constexpr float_t __get_lastWeight() const;
 
- ::UnityEngine::Rigidbody __declspec(property(get=__get_characterRootRigidbody, put=__set_characterRootRigidbody))  characterRootRigidbody;
+ UnityEngine::Rigidbody __declspec(property(get=__get_characterRootRigidbody, put=__set_characterRootRigidbody))  characterRootRigidbody;
 
-constexpr void __set_characterRootRigidbody(::UnityEngine::Rigidbody value) ;
+constexpr void __set_characterRootRigidbody(UnityEngine::Rigidbody value) ;
 
-constexpr ::UnityEngine::Rigidbody __get_characterRootRigidbody() const;
+constexpr UnityEngine::Rigidbody __get_characterRootRigidbody() const;
 
 
 // Methods
@@ -196,6 +195,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::GrounderIK);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::GrounderIK, "RootMotion.FinalIK", "GrounderIK");
+NEED_NO_BOX(RootMotion::FinalIK::GrounderIK);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GrounderIK, "RootMotion.FinalIK", "GrounderIK");

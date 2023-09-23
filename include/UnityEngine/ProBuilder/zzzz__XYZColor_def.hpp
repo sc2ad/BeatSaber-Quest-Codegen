@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 struct Color;
 }
@@ -81,10 +80,10 @@ explicit XYZColor(float_t x, float_t y, float_t z) ;
  void _ctor(float_t x, float_t y, float_t z) ;
 
 /// @brief Method FromRGB addr 0x29a9d0c size 0x7c virtual false final false
-static ::UnityEngine::ProBuilder::XYZColor FromRGB(::UnityEngine::Color col) ;
+static UnityEngine::ProBuilder::XYZColor FromRGB(UnityEngine::Color col) ;
 
 /// @brief Method FromRGB addr 0x29a9dfc size 0x74 virtual false final false
-static ::UnityEngine::ProBuilder::XYZColor FromRGB(float_t R, float_t G, float_t B) ;
+static UnityEngine::ProBuilder::XYZColor FromRGB(float_t R, float_t G, float_t B) ;
 
 /// @brief Method ToString addr 0x29aa00c size 0xc4 virtual true final false
  ::StringW ToString() ;
@@ -93,6 +92,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::XYZColor);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::XYZColor, "UnityEngine.ProBuilder", "XYZColor");
+NEED_NO_BOX(UnityEngine::ProBuilder::XYZColor);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::XYZColor, "UnityEngine.ProBuilder", "XYZColor");

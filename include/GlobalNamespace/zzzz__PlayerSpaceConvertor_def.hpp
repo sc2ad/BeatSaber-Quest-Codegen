@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace UnityEngine {
 struct Quaternion;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5366))
 // CS Name: PlayerSpaceConvertor
-class CORDL_TYPE PlayerSpaceConvertor : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE PlayerSpaceConvertor : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr PlayerSpaceConvertor(PlayerSpaceConvertor const& ) noexcept = default;
 constexpr PlayerSpaceConvertor(PlayerSpaceConvertor&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PlayerSpaceConvertor(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit PlayerSpaceConvertor(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -51,22 +50,22 @@ constexpr explicit PlayerSpaceConvertor(void* ptr) noexcept : ::UnityEngine::Mon
 
 // Fields
 
- ::UnityEngine::Quaternion __declspec(property(get=__get__worldToPlayerSpaceRotation, put=__set__worldToPlayerSpaceRotation))  _worldToPlayerSpaceRotation;
+ UnityEngine::Quaternion __declspec(property(get=__get__worldToPlayerSpaceRotation, put=__set__worldToPlayerSpaceRotation))  _worldToPlayerSpaceRotation;
 
-constexpr void __set__worldToPlayerSpaceRotation(::UnityEngine::Quaternion value) ;
+constexpr void __set__worldToPlayerSpaceRotation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get__worldToPlayerSpaceRotation() const;
+constexpr UnityEngine::Quaternion __get__worldToPlayerSpaceRotation() const;
 
 
 // Properties
 
- ::UnityEngine::Quaternion __declspec(property(get=get_worldToPlayerSpaceRotation))  worldToPlayerSpaceRotation;
+ UnityEngine::Quaternion __declspec(property(get=get_worldToPlayerSpaceRotation))  worldToPlayerSpaceRotation;
 
 
 // Methods
 
 /// @brief Method get_worldToPlayerSpaceRotation addr 0x2108f58 size 0xc virtual false final false
- ::UnityEngine::Quaternion get_worldToPlayerSpaceRotation() ;
+ UnityEngine::Quaternion get_worldToPlayerSpaceRotation() ;
 
 /// @brief Method Start addr 0x2108f64 size 0x38 virtual false final false
  void Start() ;
@@ -81,6 +80,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PlayerSpaceConvertor);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerSpaceConvertor, "", "PlayerSpaceConvertor");
+NEED_NO_BOX(GlobalNamespace::PlayerSpaceConvertor);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSpaceConvertor, "", "PlayerSpaceConvertor");

@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace MidiParser {
 class MidiTrack;
 }
@@ -17,7 +16,7 @@ namespace MidiParser {
 class MidiFile;
 }
 namespace MidiParser {
-class ____MidiParser__MidiFile__Reader;
+class MidiParser__MidiFile__Reader;
 }
 // Type: ::Reader
 namespace MidiParser {
@@ -25,37 +24,37 @@ namespace MidiParser {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16043))
 // CS Name: MidiParser.MidiFile::Reader
-class CORDL_TYPE ____MidiParser__MidiFile__Reader : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE MidiParser__MidiFile__Reader : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____MidiParser__MidiFile__Reader() = default;
+virtual ~MidiParser__MidiFile__Reader() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____MidiParser__MidiFile__Reader", modifiers: " const&", def_value: None }]
-constexpr ____MidiParser__MidiFile__Reader(____MidiParser__MidiFile__Reader const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "MidiParser__MidiFile__Reader", modifiers: " const&", def_value: None }]
+constexpr MidiParser__MidiFile__Reader(MidiParser__MidiFile__Reader const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____MidiParser__MidiFile__Reader", modifiers: "&&", def_value: None }]
-constexpr ____MidiParser__MidiFile__Reader(____MidiParser__MidiFile__Reader&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "MidiParser__MidiFile__Reader", modifiers: "&&", def_value: None }]
+constexpr MidiParser__MidiFile__Reader(MidiParser__MidiFile__Reader&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____MidiParser__MidiFile__Reader(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit MidiParser__MidiFile__Reader(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____MidiParser__MidiFile__Reader& operator=(std::nullptr_t) noexcept {
+  constexpr MidiParser__MidiFile__Reader& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____MidiParser__MidiFile__Reader& operator=(void* o) noexcept {
+  constexpr MidiParser__MidiFile__Reader& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____MidiParser__MidiFile__Reader& operator=(____MidiParser__MidiFile__Reader&& o) noexcept = default;
-  constexpr ____MidiParser__MidiFile__Reader& operator=(____MidiParser__MidiFile__Reader const& o) noexcept = default;
+  constexpr MidiParser__MidiFile__Reader& operator=(MidiParser__MidiFile__Reader&& o) noexcept = default;
+  constexpr MidiParser__MidiFile__Reader& operator=(MidiParser__MidiFile__Reader const& o) noexcept = default;
                 
 
 
@@ -71,7 +70,7 @@ static int32_t Read32(::ArrayW<uint8_t> data, ByRef<int32_t> i) ;
 static uint8_t Read8(::ArrayW<uint8_t> data, ByRef<int32_t> i) ;
 
 /// @brief Method ReadAllBytesFromStream addr 0x2278de4 size 0x228 virtual false final false
-static ::ArrayW<uint8_t> ReadAllBytesFromStream(::System::IO::Stream input) ;
+static ::ArrayW<uint8_t> ReadAllBytesFromStream(System::IO::Stream input) ;
 
 /// @brief Method ReadString addr 0x2278748 size 0x58 virtual false final false
 static ::StringW ReadString(::ArrayW<uint8_t> data, ByRef<int32_t> i, int32_t length) ;
@@ -92,7 +91,7 @@ namespace MidiParser {
 class CORDL_TYPE MidiFile : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using Reader = ::MidiParser::____MidiParser__MidiFile__Reader;
+using Reader = MidiParser::MidiParser__MidiFile__Reader;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -139,11 +138,11 @@ constexpr void __set_ticksPerQuarterNote(int32_t value) ;
 
 constexpr int32_t __get_ticksPerQuarterNote() const;
 
- ::ArrayW<::MidiParser::MidiTrack> __declspec(property(get=__get_tracks, put=__set_tracks))  tracks;
+ ::ArrayW<MidiParser::MidiTrack> __declspec(property(get=__get_tracks, put=__set_tracks))  tracks;
 
-constexpr void __set_tracks(::ArrayW<::MidiParser::MidiTrack> value) ;
+constexpr void __set_tracks(::ArrayW<MidiParser::MidiTrack> value) ;
 
-constexpr ::ArrayW<::MidiParser::MidiTrack> __get_tracks() const;
+constexpr ::ArrayW<MidiParser::MidiTrack> __get_tracks() const;
 
  int32_t __declspec(property(get=__get_tracksCount, put=__set_tracksCount))  tracksCount;
 
@@ -170,14 +169,13 @@ explicit MidiFile(::ArrayW<uint8_t> data) ;
 static bool ParseMetaEvent(::ArrayW<uint8_t> data, ByRef<int32_t> position, uint8_t metaEventType, ByRef<int32_t> data1, ByRef<int32_t> data2) ;
 
 /// @brief Method ParseTrack addr 0x2278884 size 0x344 virtual false final false
-static ::MidiParser::MidiTrack ParseTrack(int32_t index, ::ArrayW<uint8_t> data, ByRef<int32_t> position) ;
+static MidiParser::MidiTrack ParseTrack(int32_t index, ::ArrayW<uint8_t> data, ByRef<int32_t> position) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def MidiParser
-} // end anonymous namespace
-NEED_NO_BOX(::MidiParser::MidiFile);
-DEFINE_IL2CPP_ARG_TYPE(::MidiParser::MidiFile, "MidiParser", "MidiFile");
-NEED_NO_BOX(::MidiParser::____MidiParser__MidiFile__Reader);
-DEFINE_IL2CPP_ARG_TYPE(::MidiParser::____MidiParser__MidiFile__Reader, "MidiParser", "MidiFile/Reader");
+NEED_NO_BOX(MidiParser::MidiFile);
+DEFINE_IL2CPP_ARG_TYPE(MidiParser::MidiFile, "MidiParser", "MidiFile");
+NEED_NO_BOX(MidiParser::MidiParser__MidiFile__Reader);
+DEFINE_IL2CPP_ARG_TYPE(MidiParser::MidiParser__MidiFile__Reader, "MidiParser", "MidiFile/Reader");

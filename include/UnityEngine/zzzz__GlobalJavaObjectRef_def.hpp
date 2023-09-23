@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 class GlobalJavaObjectRef;
@@ -74,7 +73,7 @@ explicit GlobalJavaObjectRef(::cordl_internals::intptr_t jobject) ;
  void Finalize() ;
 
 /// @brief Method op_Implicit addr 0x2b0e2d8 size 0x18 virtual false final false
-static ::cordl_internals::intptr_t op_Implicit___cordl_internals__intptr_t(::UnityEngine::GlobalJavaObjectRef obj) ;
+static ::cordl_internals::intptr_t op_Implicit___cordl_internals__intptr_t(UnityEngine::GlobalJavaObjectRef obj) ;
 
 /// @brief Method Dispose addr 0x2b0e25c size 0x7c virtual false final false
  void Dispose() ;
@@ -83,6 +82,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::GlobalJavaObjectRef);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::GlobalJavaObjectRef, "UnityEngine", "GlobalJavaObjectRef");
+NEED_NO_BOX(UnityEngine::GlobalJavaObjectRef);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GlobalJavaObjectRef, "UnityEngine", "GlobalJavaObjectRef");

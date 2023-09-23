@@ -4,9 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Cms {
-class SignerInformationStore;
+class SignerInformation;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class AttributeTable;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
@@ -14,32 +16,29 @@ class X509Certificate;
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace Org::BouncyCastle::X509::Store {
-class IX509Store;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class SignerIdentifier;
+}
+namespace Org::BouncyCastle::Cms {
+class SignerInformationStore;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
+namespace Org::BouncyCastle::X509::Store {
+class IX509Store;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Set;
 }
 namespace System::Collections {
 class IList;
 }
 namespace System::Collections {
 class IDictionary;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class AttributeTable;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
-}
-namespace Org::BouncyCastle::Cms {
-class SignerInformation;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -189,29 +188,29 @@ static void __set_EncryptionECGost3410(::StringW value) ;
 
 static ::StringW __get_EncryptionECGost3410() ;
 
- ::System::Collections::IList __declspec(property(get=__get__certs, put=__set__certs))  _certs;
+ System::Collections::IList __declspec(property(get=__get__certs, put=__set__certs))  _certs;
 
-constexpr void __set__certs(::System::Collections::IList value) ;
+constexpr void __set__certs(System::Collections::IList value) ;
 
-constexpr ::System::Collections::IList __get__certs() const;
+constexpr System::Collections::IList __get__certs() const;
 
- ::System::Collections::IList __declspec(property(get=__get__crls, put=__set__crls))  _crls;
+ System::Collections::IList __declspec(property(get=__get__crls, put=__set__crls))  _crls;
 
-constexpr void __set__crls(::System::Collections::IList value) ;
+constexpr void __set__crls(System::Collections::IList value) ;
 
-constexpr ::System::Collections::IList __get__crls() const;
+constexpr System::Collections::IList __get__crls() const;
 
- ::System::Collections::IList __declspec(property(get=__get__signers, put=__set__signers))  _signers;
+ System::Collections::IList __declspec(property(get=__get__signers, put=__set__signers))  _signers;
 
-constexpr void __set__signers(::System::Collections::IList value) ;
+constexpr void __set__signers(System::Collections::IList value) ;
 
-constexpr ::System::Collections::IList __get__signers() const;
+constexpr System::Collections::IList __get__signers() const;
 
- ::System::Collections::IDictionary __declspec(property(get=__get__digests, put=__set__digests))  _digests;
+ System::Collections::IDictionary __declspec(property(get=__get__digests, put=__set__digests))  _digests;
 
-constexpr void __set__digests(::System::Collections::IDictionary value) ;
+constexpr void __set__digests(System::Collections::IDictionary value) ;
 
-constexpr ::System::Collections::IDictionary __get__digests() const;
+constexpr System::Collections::IDictionary __get__digests() const;
 
  bool __declspec(property(get=__get__useDerForCerts, put=__set__useDerForCerts))  _useDerForCerts;
 
@@ -225,11 +224,11 @@ constexpr void __set__useDerForCrls(bool value) ;
 
 constexpr bool __get__useDerForCrls() const;
 
- ::Org::BouncyCastle::Security::SecureRandom __declspec(property(get=__get_rand, put=__set_rand))  rand;
+ Org::BouncyCastle::Security::SecureRandom __declspec(property(get=__get_rand, put=__set_rand))  rand;
 
-constexpr void __set_rand(::Org::BouncyCastle::Security::SecureRandom value) ;
+constexpr void __set_rand(Org::BouncyCastle::Security::SecureRandom value) ;
 
-constexpr ::Org::BouncyCastle::Security::SecureRandom __get_rand() const;
+constexpr Org::BouncyCastle::Security::SecureRandom __get_rand() const;
 
 
 // Properties
@@ -247,32 +246,32 @@ explicit CmsSignedGenerator() ;
 /// @brief Method .ctor addr 0x115d660 size 0x64 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "rand", ty: "::Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit CmsSignedGenerator(::Org::BouncyCastle::Security::SecureRandom rand) ;
+// Ctor Parameters [CppParam { name: "rand", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
+explicit CmsSignedGenerator(Org::BouncyCastle::Security::SecureRandom rand) ;
 
 /// @brief Method .ctor addr 0x115d6c4 size 0xa0 virtual false final false
- void _ctor(::Org::BouncyCastle::Security::SecureRandom rand) ;
+ void _ctor(Org::BouncyCastle::Security::SecureRandom rand) ;
 
 /// @brief Method GetBaseParameters addr 0x115d764 size 0x23c virtual true final false
- ::System::Collections::IDictionary GetBaseParameters(::Org::BouncyCastle::Asn1::DerObjectIdentifier contentType, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digAlgId, ::ArrayW<uint8_t> hash) ;
+ System::Collections::IDictionary GetBaseParameters(Org::BouncyCastle::Asn1::DerObjectIdentifier contentType, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digAlgId, ::ArrayW<uint8_t> hash) ;
 
 /// @brief Method GetAttributeSet addr 0x115d9a0 size 0x7c virtual true final false
- ::Org::BouncyCastle::Asn1::Asn1Set GetAttributeSet(::Org::BouncyCastle::Asn1::Cms::AttributeTable attr) ;
+ Org::BouncyCastle::Asn1::Asn1Set GetAttributeSet(Org::BouncyCastle::Asn1::Cms::AttributeTable attr) ;
 
 /// @brief Method AddCertificates addr 0x115da1c size 0x24 virtual false final false
- void AddCertificates(::Org::BouncyCastle::X509::Store::IX509Store certStore) ;
+ void AddCertificates(Org::BouncyCastle::X509::Store::IX509Store certStore) ;
 
 /// @brief Method AddCrls addr 0x115da40 size 0x24 virtual false final false
- void AddCrls(::Org::BouncyCastle::X509::Store::IX509Store crlStore) ;
+ void AddCrls(Org::BouncyCastle::X509::Store::IX509Store crlStore) ;
 
 /// @brief Method AddAttributeCertificates addr 0x115da64 size 0x5cc virtual false final false
- void AddAttributeCertificates(::Org::BouncyCastle::X509::Store::IX509Store store) ;
+ void AddAttributeCertificates(Org::BouncyCastle::X509::Store::IX509Store store) ;
 
 /// @brief Method AddSigners addr 0x115e030 size 0x3e4 virtual false final false
- void AddSigners(::Org::BouncyCastle::Cms::SignerInformationStore signerStore) ;
+ void AddSigners(Org::BouncyCastle::Cms::SignerInformationStore signerStore) ;
 
 /// @brief Method GetGeneratedDigests addr 0x115e414 size 0x5c virtual false final false
- ::System::Collections::IDictionary GetGeneratedDigests() ;
+ System::Collections::IDictionary GetGeneratedDigests() ;
 
 /// @brief Method get_UseDerForCerts addr 0x115e470 size 0x8 virtual false final false
  bool get_UseDerForCerts() ;
@@ -287,18 +286,17 @@ explicit CmsSignedGenerator(::Org::BouncyCastle::Security::SecureRandom rand) ;
  void set_UseDerForCrls(bool value) ;
 
 /// @brief Method AddSignerCallback addr 0x115e498 size 0x4 virtual true final false
- void AddSignerCallback(::Org::BouncyCastle::Cms::SignerInformation si) ;
+ void AddSignerCallback(Org::BouncyCastle::Cms::SignerInformation si) ;
 
 /// @brief Method GetSignerIdentifier addr 0x115e49c size 0x74 virtual false final false
-static ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier GetSignerIdentifier(::Org::BouncyCastle::X509::X509Certificate cert) ;
+static Org::BouncyCastle::Asn1::Cms::SignerIdentifier GetSignerIdentifier(Org::BouncyCastle::X509::X509Certificate cert) ;
 
 /// @brief Method GetSignerIdentifier addr 0x115e5a4 size 0x94 virtual false final false
-static ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier GetSignerIdentifier(::ArrayW<uint8_t> subjectKeyIdentifier) ;
+static Org::BouncyCastle::Asn1::Cms::SignerIdentifier GetSignerIdentifier(::ArrayW<uint8_t> subjectKeyIdentifier) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Cms
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Cms::CmsSignedGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::CmsSignedGenerator, "Org.BouncyCastle.Cms", "CmsSignedGenerator");
+NEED_NO_BOX(Org::BouncyCastle::Cms::CmsSignedGenerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Cms::CmsSignedGenerator, "Org.BouncyCastle.Cms", "CmsSignedGenerator");

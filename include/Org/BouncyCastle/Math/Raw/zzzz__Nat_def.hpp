@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
@@ -177,10 +176,10 @@ static int32_t DecAt(int32_t len, ::ArrayW<uint32_t> z, int32_t zOff, int32_t zP
 static bool Eq(int32_t len, ::ArrayW<uint32_t> x, ::ArrayW<uint32_t> y) ;
 
 /// @brief Method FromBigInteger addr 0xfd0ae8 size 0xec virtual false final false
-static ::ArrayW<uint32_t> FromBigInteger(int32_t bits, ::Org::BouncyCastle::Math::BigInteger x) ;
+static ::ArrayW<uint32_t> FromBigInteger(int32_t bits, Org::BouncyCastle::Math::BigInteger x) ;
 
 /// @brief Method FromBigInteger64 addr 0xfd0bd4 size 0xec virtual false final false
-static ::ArrayW<uint64_t> FromBigInteger64(int32_t bits, ::Org::BouncyCastle::Math::BigInteger x) ;
+static ::ArrayW<uint64_t> FromBigInteger64(int32_t bits, Org::BouncyCastle::Math::BigInteger x) ;
 
 /// @brief Method GetBit addr 0xfd0cc0 size 0x60 virtual false final false
 static uint32_t GetBit(::ArrayW<uint32_t> x, int32_t bit) ;
@@ -375,7 +374,7 @@ static int32_t SubWordFrom(int32_t len, uint32_t x, ::ArrayW<uint32_t> z) ;
 static int32_t SubWordFrom(int32_t len, uint32_t x, ::ArrayW<uint32_t> z, int32_t zOff) ;
 
 /// @brief Method ToBigInteger addr 0xfd2bc0 size 0xf4 virtual false final false
-static ::Org::BouncyCastle::Math::BigInteger ToBigInteger(int32_t len, ::ArrayW<uint32_t> x) ;
+static Org::BouncyCastle::Math::BigInteger ToBigInteger(int32_t len, ::ArrayW<uint32_t> x) ;
 
 /// @brief Method Zero addr 0xfd2cb4 size 0x48 virtual false final false
 static void Zero(int32_t len, ::ArrayW<uint32_t> z) ;
@@ -390,6 +389,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Math::Raw
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Math::Raw::Nat);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::Raw::Nat, "Org.BouncyCastle.Math.Raw", "Nat");
+NEED_NO_BOX(Org::BouncyCastle::Math::Raw::Nat);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Raw::Nat, "Org.BouncyCastle.Math.Raw", "Nat");

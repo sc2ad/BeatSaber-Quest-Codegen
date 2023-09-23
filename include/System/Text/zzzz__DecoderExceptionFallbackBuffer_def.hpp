@@ -3,7 +3,6 @@
 #include "System/Text/zzzz__DecoderFallbackBuffer_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Text {
 class DecoderExceptionFallbackBuffer;
@@ -14,7 +13,7 @@ namespace System::Text {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2830))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2827))
 // CS Name: System.Text.DecoderExceptionFallbackBuffer
-class CORDL_TYPE DecoderExceptionFallbackBuffer : public ::System::Text::DecoderFallbackBuffer {
+class CORDL_TYPE DecoderExceptionFallbackBuffer : public System::Text::DecoderFallbackBuffer {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr DecoderExceptionFallbackBuffer(DecoderExceptionFallbackBuffer const& )
 constexpr DecoderExceptionFallbackBuffer(DecoderExceptionFallbackBuffer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DecoderExceptionFallbackBuffer(void* ptr) noexcept : ::System::Text::DecoderFallbackBuffer(ptr) {
+constexpr explicit DecoderExceptionFallbackBuffer(void* ptr) noexcept : System::Text::DecoderFallbackBuffer(ptr) {
 }
 
 
@@ -77,6 +76,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Text
-} // end anonymous namespace
-NEED_NO_BOX(::System::Text::DecoderExceptionFallbackBuffer);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::DecoderExceptionFallbackBuffer, "System.Text", "DecoderExceptionFallbackBuffer");
+NEED_NO_BOX(System::Text::DecoderExceptionFallbackBuffer);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::DecoderExceptionFallbackBuffer, "System.Text", "DecoderExceptionFallbackBuffer");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
@@ -51,17 +50,17 @@ constexpr explicit SmimeAttributes(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Fields
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_SmimeCapabilities, put=__set_SmimeCapabilities))  SmimeCapabilities;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_SmimeCapabilities, put=__set_SmimeCapabilities))  SmimeCapabilities;
 
-static void __set_SmimeCapabilities(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_SmimeCapabilities(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_SmimeCapabilities() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_SmimeCapabilities() ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_EncrypKeyPref, put=__set_EncrypKeyPref))  EncrypKeyPref;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_EncrypKeyPref, put=__set_EncrypKeyPref))  EncrypKeyPref;
 
-static void __set_EncrypKeyPref(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_EncrypKeyPref(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_EncrypKeyPref() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_EncrypKeyPref() ;
 
 
 // Methods
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::Smime
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::Smime::SmimeAttributes);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Smime::SmimeAttributes, "Org.BouncyCastle.Asn1.Smime", "SmimeAttributes");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Smime::SmimeAttributes);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Smime::SmimeAttributes, "Org.BouncyCastle.Asn1.Smime", "SmimeAttributes");

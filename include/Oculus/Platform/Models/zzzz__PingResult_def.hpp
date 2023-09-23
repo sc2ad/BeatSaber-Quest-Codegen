@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 struct Nullable_1;
@@ -59,11 +58,11 @@ constexpr void __set__ID_k__BackingField(uint64_t value) ;
 
 constexpr uint64_t __get__ID_k__BackingField() const;
 
- ::System::Nullable_1<uint64_t> __declspec(property(get=__get_pingTimeUsec, put=__set_pingTimeUsec))  pingTimeUsec;
+ System::Nullable_1<uint64_t> __declspec(property(get=__get_pingTimeUsec, put=__set_pingTimeUsec))  pingTimeUsec;
 
-constexpr void __set_pingTimeUsec(::System::Nullable_1<uint64_t> value) ;
+constexpr void __set_pingTimeUsec(System::Nullable_1<uint64_t> value) ;
 
-constexpr ::System::Nullable_1<uint64_t> __get_pingTimeUsec() const;
+constexpr System::Nullable_1<uint64_t> __get_pingTimeUsec() const;
 
 
 // Properties
@@ -77,11 +76,11 @@ constexpr ::System::Nullable_1<uint64_t> __get_pingTimeUsec() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "id", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "pingTimeUsec", ty: "::System::Nullable_1<uint64_t>", modifiers: "", def_value: None }]
-explicit PingResult(uint64_t id, ::System::Nullable_1<uint64_t> pingTimeUsec) ;
+// Ctor Parameters [CppParam { name: "id", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "pingTimeUsec", ty: "System::Nullable_1<uint64_t>", modifiers: "", def_value: None }]
+explicit PingResult(uint64_t id, System::Nullable_1<uint64_t> pingTimeUsec) ;
 
 /// @brief Method .ctor addr 0x25a2294 size 0x3c virtual false final false
- void _ctor(uint64_t id, ::System::Nullable_1<uint64_t> pingTimeUsec) ;
+ void _ctor(uint64_t id, System::Nullable_1<uint64_t> pingTimeUsec) ;
 
 /// @brief Method get_ID addr 0x25a22d0 size 0x8 virtual false final false
  uint64_t get_ID() ;
@@ -99,6 +98,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::PingResult);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::PingResult, "Oculus.Platform.Models", "PingResult");
+NEED_NO_BOX(Oculus::Platform::Models::PingResult);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::PingResult, "Oculus.Platform.Models", "PingResult");

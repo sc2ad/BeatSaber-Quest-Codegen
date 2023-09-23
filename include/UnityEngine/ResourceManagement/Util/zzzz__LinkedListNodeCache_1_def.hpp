@@ -2,14 +2,13 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace System::Collections::Generic {
-template<typename T>
-class LinkedListNode_1;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class LinkedList_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class LinkedListNode_1;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {
@@ -71,11 +70,11 @@ constexpr void __set_m_NodesCreated(int32_t value) ;
 
 constexpr int32_t __get_m_NodesCreated() const;
 
- ::System::Collections::Generic::LinkedList_1<T> __declspec(property(get=__get_m_NodeCache, put=__set_m_NodeCache))  m_NodeCache;
+ System::Collections::Generic::LinkedList_1<T> __declspec(property(get=__get_m_NodeCache, put=__set_m_NodeCache))  m_NodeCache;
 
-constexpr void __set_m_NodeCache(::System::Collections::Generic::LinkedList_1<T> value) ;
+constexpr void __set_m_NodeCache(System::Collections::Generic::LinkedList_1<T> value) ;
 
-constexpr ::System::Collections::Generic::LinkedList_1<T> __get_m_NodeCache() const;
+constexpr System::Collections::Generic::LinkedList_1<T> __get_m_NodeCache() const;
 
 
 // Properties
@@ -88,10 +87,10 @@ constexpr ::System::Collections::Generic::LinkedList_1<T> __get_m_NodeCache() co
 // Methods
 
 /// @brief Method Acquire addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Collections::Generic::LinkedListNode_1<T> Acquire(T val) ;
+ System::Collections::Generic::LinkedListNode_1<T> Acquire(T val) ;
 
 /// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual false final false
- void Release(::System::Collections::Generic::LinkedListNode_1<T> node) ;
+ void Release(System::Collections::Generic::LinkedListNode_1<T> node) ;
 
 /// @brief Method get_CreatedNodeCount addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t get_CreatedNodeCount() ;
@@ -109,5 +108,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ResourceManagement::Util
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1, "UnityEngine.ResourceManagement.Util", "LinkedListNodeCache`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1, "UnityEngine.ResourceManagement.Util", "LinkedListNodeCache`1");

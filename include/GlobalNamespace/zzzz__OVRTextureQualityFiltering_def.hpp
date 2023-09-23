@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 struct OVRTextureQualityFiltering;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::GlobalNamespace::OVRTextureQualityFiltering const None;
+static GlobalNamespace::OVRTextureQualityFiltering const None;
 
 /// @brief Field Bilinear offset 0
-static ::GlobalNamespace::OVRTextureQualityFiltering const Bilinear;
+static GlobalNamespace::OVRTextureQualityFiltering const Bilinear;
 
 /// @brief Field Trilinear offset 0
-static ::GlobalNamespace::OVRTextureQualityFiltering const Trilinear;
+static GlobalNamespace::OVRTextureQualityFiltering const Trilinear;
 
 /// @brief Field Aniso2x offset 0
-static ::GlobalNamespace::OVRTextureQualityFiltering const Aniso2x;
+static GlobalNamespace::OVRTextureQualityFiltering const Aniso2x;
 
 /// @brief Field Aniso4x offset 0
-static ::GlobalNamespace::OVRTextureQualityFiltering const Aniso4x;
+static GlobalNamespace::OVRTextureQualityFiltering const Aniso4x;
 
 /// @brief Field Aniso8x offset 0
-static ::GlobalNamespace::OVRTextureQualityFiltering const Aniso8x;
+static GlobalNamespace::OVRTextureQualityFiltering const Aniso8x;
 
 /// @brief Field Aniso16x offset 0
-static ::GlobalNamespace::OVRTextureQualityFiltering const Aniso16x;
+static GlobalNamespace::OVRTextureQualityFiltering const Aniso16x;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRTextureQualityFiltering, "", "OVRTextureQualityFiltering");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRTextureQualityFiltering, "", "OVRTextureQualityFiltering");

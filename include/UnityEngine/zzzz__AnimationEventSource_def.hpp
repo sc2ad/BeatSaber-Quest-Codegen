@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct AnimationEventSource;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field NoSource offset 0
-static ::UnityEngine::AnimationEventSource const NoSource;
+static UnityEngine::AnimationEventSource const NoSource;
 
 /// @brief Field Legacy offset 0
-static ::UnityEngine::AnimationEventSource const Legacy;
+static UnityEngine::AnimationEventSource const Legacy;
 
 /// @brief Field Animator offset 0
-static ::UnityEngine::AnimationEventSource const Animator;
+static UnityEngine::AnimationEventSource const Animator;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AnimationEventSource, "UnityEngine", "AnimationEventSource");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimationEventSource, "UnityEngine", "AnimationEventSource");

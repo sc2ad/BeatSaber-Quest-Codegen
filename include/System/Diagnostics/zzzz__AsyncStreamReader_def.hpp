@@ -3,21 +3,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::IO {
 class Stream;
 }
 namespace System::Text {
 class Encoding;
 }
-namespace System {
-class IAsyncResult;
-}
 namespace System::Text {
 class Decoder;
 }
 namespace System::Threading {
 class ManualResetEvent;
+}
+namespace System {
+class IAsyncResult;
 }
 // Forward declare root types
 namespace System::Diagnostics {
@@ -65,23 +64,23 @@ constexpr explicit AsyncStreamReader(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 
 // Fields
 
- ::System::IO::Stream __declspec(property(get=__get_stream, put=__set_stream))  stream;
+ System::IO::Stream __declspec(property(get=__get_stream, put=__set_stream))  stream;
 
-constexpr void __set_stream(::System::IO::Stream value) ;
+constexpr void __set_stream(System::IO::Stream value) ;
 
-constexpr ::System::IO::Stream __get_stream() const;
+constexpr System::IO::Stream __get_stream() const;
 
- ::System::Text::Encoding __declspec(property(get=__get_encoding, put=__set_encoding))  encoding;
+ System::Text::Encoding __declspec(property(get=__get_encoding, put=__set_encoding))  encoding;
 
-constexpr void __set_encoding(::System::Text::Encoding value) ;
+constexpr void __set_encoding(System::Text::Encoding value) ;
 
-constexpr ::System::Text::Encoding __get_encoding() const;
+constexpr System::Text::Encoding __get_encoding() const;
 
- ::System::Text::Decoder __declspec(property(get=__get_decoder, put=__set_decoder))  decoder;
+ System::Text::Decoder __declspec(property(get=__get_decoder, put=__set_decoder))  decoder;
 
-constexpr void __set_decoder(::System::Text::Decoder value) ;
+constexpr void __set_decoder(System::Text::Decoder value) ;
 
-constexpr ::System::Text::Decoder __get_decoder() const;
+constexpr System::Text::Decoder __get_decoder() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get_byteBuffer, put=__set_byteBuffer))  byteBuffer;
 
@@ -101,11 +100,11 @@ constexpr void __set_cancelOperation(bool value) ;
 
 constexpr bool __get_cancelOperation() const;
 
- ::System::Threading::ManualResetEvent __declspec(property(get=__get_eofEvent, put=__set_eofEvent))  eofEvent;
+ System::Threading::ManualResetEvent __declspec(property(get=__get_eofEvent, put=__set_eofEvent))  eofEvent;
 
-constexpr void __set_eofEvent(::System::Threading::ManualResetEvent value) ;
+constexpr void __set_eofEvent(System::Threading::ManualResetEvent value) ;
 
-constexpr ::System::Threading::ManualResetEvent __get_eofEvent() const;
+constexpr System::Threading::ManualResetEvent __get_eofEvent() const;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=__get_syncObject, put=__set_syncObject))  syncObject;
 
@@ -113,11 +112,11 @@ constexpr void __set_syncObject(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get_syncObject() const;
 
- ::System::IAsyncResult __declspec(property(get=__get_asyncReadResult, put=__set_asyncReadResult))  asyncReadResult;
+ System::IAsyncResult __declspec(property(get=__get_asyncReadResult, put=__set_asyncReadResult))  asyncReadResult;
 
-constexpr void __set_asyncReadResult(::System::IAsyncResult value) ;
+constexpr void __set_asyncReadResult(System::IAsyncResult value) ;
 
-constexpr ::System::IAsyncResult __get_asyncReadResult() const;
+constexpr System::IAsyncResult __get_asyncReadResult() const;
 
 
 // Methods
@@ -135,6 +134,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Diagnostics
-} // end anonymous namespace
-NEED_NO_BOX(::System::Diagnostics::AsyncStreamReader);
-DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::AsyncStreamReader, "System.Diagnostics", "AsyncStreamReader");
+NEED_NO_BOX(System::Diagnostics::AsyncStreamReader);
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::AsyncStreamReader, "System.Diagnostics", "AsyncStreamReader");

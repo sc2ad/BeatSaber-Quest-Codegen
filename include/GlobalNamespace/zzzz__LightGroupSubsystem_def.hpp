@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 class LightGroup;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5035))
 // CS Name: LightGroupSubsystem
-class CORDL_TYPE LightGroupSubsystem : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE LightGroupSubsystem : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr LightGroupSubsystem(LightGroupSubsystem const& ) noexcept = default;
 constexpr LightGroupSubsystem(LightGroupSubsystem&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LightGroupSubsystem(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit LightGroupSubsystem(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -52,18 +51,18 @@ constexpr explicit LightGroupSubsystem(void* ptr) noexcept : ::UnityEngine::Mono
 
 // Fields
 
- ::GlobalNamespace::LightGroup __declspec(property(get=__get__lightGroup, put=__set__lightGroup))  _lightGroup;
+ GlobalNamespace::LightGroup __declspec(property(get=__get__lightGroup, put=__set__lightGroup))  _lightGroup;
 
-constexpr void __set__lightGroup(::GlobalNamespace::LightGroup value) ;
+constexpr void __set__lightGroup(GlobalNamespace::LightGroup value) ;
 
-constexpr ::GlobalNamespace::LightGroup __get__lightGroup() const;
+constexpr GlobalNamespace::LightGroup __get__lightGroup() const;
 
 
 // Properties
 
  int32_t __declspec(property(get=get_groupId))  groupId;
 
- ::GlobalNamespace::LightGroup __declspec(property(get=get_lightGroup))  lightGroup;
+ GlobalNamespace::LightGroup __declspec(property(get=get_lightGroup))  lightGroup;
 
 
 // Methods
@@ -72,7 +71,7 @@ constexpr ::GlobalNamespace::LightGroup __get__lightGroup() const;
  int32_t get_groupId() ;
 
 /// @brief Method get_lightGroup addr 0x225e79c size 0x8 virtual false final false
- ::GlobalNamespace::LightGroup get_lightGroup() ;
+ GlobalNamespace::LightGroup get_lightGroup() ;
 
 /// @brief Method OnEnable addr 0x225e7a4 size 0x60 virtual false final false
  void OnEnable() ;
@@ -87,6 +86,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LightGroupSubsystem);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightGroupSubsystem, "", "LightGroupSubsystem");
+NEED_NO_BOX(GlobalNamespace::LightGroupSubsystem);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightGroupSubsystem, "", "LightGroupSubsystem");

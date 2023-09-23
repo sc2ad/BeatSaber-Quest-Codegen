@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Utilities/IO/zzzz__BaseInputStream_def.hpp"
 #include <cstdint>
-namespace {
 namespace System::IO {
 class Stream;
 }
@@ -16,7 +15,7 @@ namespace Org::BouncyCastle::Asn1 {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(498))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(500))
 // CS Name: Org.BouncyCastle.Asn1.LimitedInputStream
-class CORDL_TYPE LimitedInputStream : public ::Org::BouncyCastle::Utilities::IO::BaseInputStream {
+class CORDL_TYPE LimitedInputStream : public Org::BouncyCastle::Utilities::IO::BaseInputStream {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr LimitedInputStream(LimitedInputStream const& ) noexcept = default;
 constexpr LimitedInputStream(LimitedInputStream&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LimitedInputStream(void* ptr) noexcept : ::Org::BouncyCastle::Utilities::IO::BaseInputStream(ptr) {
+constexpr explicit LimitedInputStream(void* ptr) noexcept : Org::BouncyCastle::Utilities::IO::BaseInputStream(ptr) {
 }
 
 
@@ -52,11 +51,11 @@ constexpr explicit LimitedInputStream(void* ptr) noexcept : ::Org::BouncyCastle:
 
 // Fields
 
- ::System::IO::Stream __declspec(property(get=__get__in, put=__set__in))  _in;
+ System::IO::Stream __declspec(property(get=__get__in, put=__set__in))  _in;
 
-constexpr void __set__in(::System::IO::Stream value) ;
+constexpr void __set__in(System::IO::Stream value) ;
 
-constexpr ::System::IO::Stream __get__in() const;
+constexpr System::IO::Stream __get__in() const;
 
  int32_t __declspec(property(get=__get__limit, put=__set__limit))  _limit;
 
@@ -72,11 +71,11 @@ constexpr int32_t __get__limit() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "inStream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "limit", ty: "int32_t", modifiers: "", def_value: None }]
-explicit LimitedInputStream(::System::IO::Stream inStream, int32_t limit) ;
+// Ctor Parameters [CppParam { name: "inStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "limit", ty: "int32_t", modifiers: "", def_value: None }]
+explicit LimitedInputStream(System::IO::Stream inStream, int32_t limit) ;
 
 /// @brief Method .ctor addr 0x1134f08 size 0x2c virtual false final false
- void _ctor(::System::IO::Stream inStream, int32_t limit) ;
+ void _ctor(System::IO::Stream inStream, int32_t limit) ;
 
 /// @brief Method get_Limit addr 0x1134f34 size 0x8 virtual true final false
  int32_t get_Limit() ;
@@ -88,6 +87,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::LimitedInputStream);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::LimitedInputStream, "Org.BouncyCastle.Asn1", "LimitedInputStream");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::LimitedInputStream);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::LimitedInputStream, "Org.BouncyCastle.Asn1", "LimitedInputStream");

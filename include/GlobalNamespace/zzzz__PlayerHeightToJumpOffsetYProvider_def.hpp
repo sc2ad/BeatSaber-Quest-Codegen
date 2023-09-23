@@ -2,18 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
-namespace System {
-class IDisposable;
-}
 namespace GlobalNamespace {
-class PlayerHeightDetector;
+class IJumpOffsetYProvider;
 }
 namespace Zenject {
 class IInitializable;
 }
 namespace GlobalNamespace {
-class IJumpOffsetYProvider;
+class PlayerHeightDetector;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,14 +27,14 @@ namespace GlobalNamespace {
 class CORDL_TYPE PlayerHeightToJumpOffsetYProvider : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IJumpOffsetYProvider
-constexpr operator  ::GlobalNamespace::IJumpOffsetYProvider() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IJumpOffsetYProvider
+constexpr operator  GlobalNamespace::IJumpOffsetYProvider() const noexcept;
 
-/// @brief Convert operator to ::Zenject::IInitializable
-constexpr operator  ::Zenject::IInitializable() const noexcept;
+/// @brief Convert operator to Zenject::IInitializable
+constexpr operator  Zenject::IInitializable() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -70,11 +69,11 @@ constexpr explicit PlayerHeightToJumpOffsetYProvider(void* ptr) noexcept : ::bs_
 
 // Fields
 
- ::GlobalNamespace::PlayerHeightDetector __declspec(property(get=__get__playerHeightDetector, put=__set__playerHeightDetector))  _playerHeightDetector;
+ GlobalNamespace::PlayerHeightDetector __declspec(property(get=__get__playerHeightDetector, put=__set__playerHeightDetector))  _playerHeightDetector;
 
-constexpr void __set__playerHeightDetector(::GlobalNamespace::PlayerHeightDetector value) ;
+constexpr void __set__playerHeightDetector(GlobalNamespace::PlayerHeightDetector value) ;
 
-constexpr ::GlobalNamespace::PlayerHeightDetector __get__playerHeightDetector() const;
+constexpr GlobalNamespace::PlayerHeightDetector __get__playerHeightDetector() const;
 
  float_t __declspec(property(get=__get__jumpOffsetY, put=__set__jumpOffsetY))  _jumpOffsetY;
 
@@ -115,6 +114,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PlayerHeightToJumpOffsetYProvider);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerHeightToJumpOffsetYProvider, "", "PlayerHeightToJumpOffsetYProvider");
+NEED_NO_BOX(GlobalNamespace::PlayerHeightToJumpOffsetYProvider);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerHeightToJumpOffsetYProvider, "", "PlayerHeightToJumpOffsetYProvider");

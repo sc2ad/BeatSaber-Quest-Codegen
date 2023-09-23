@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__MainEffectSO_def.hpp"
 #include <cmath>
-namespace {
-namespace UnityEngine {
-class Material;
-}
 namespace UnityEngine {
 class Shader;
+}
+namespace UnityEngine {
+class Material;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15314))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15315))
 // CS Name: NoPostProcessMainEffectSO
-class CORDL_TYPE NoPostProcessMainEffectSO : public ::GlobalNamespace::MainEffectSO {
+class CORDL_TYPE NoPostProcessMainEffectSO : public GlobalNamespace::MainEffectSO {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr NoPostProcessMainEffectSO(NoPostProcessMainEffectSO const& ) noexcept 
 constexpr NoPostProcessMainEffectSO(NoPostProcessMainEffectSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NoPostProcessMainEffectSO(void* ptr) noexcept : ::GlobalNamespace::MainEffectSO(ptr) {
+constexpr explicit NoPostProcessMainEffectSO(void* ptr) noexcept : GlobalNamespace::MainEffectSO(ptr) {
 }
 
 
@@ -55,11 +54,11 @@ constexpr explicit NoPostProcessMainEffectSO(void* ptr) noexcept : ::GlobalNames
 
 // Fields
 
- ::UnityEngine::Shader __declspec(property(get=__get__fadeShader, put=__set__fadeShader))  _fadeShader;
+ UnityEngine::Shader __declspec(property(get=__get__fadeShader, put=__set__fadeShader))  _fadeShader;
 
-constexpr void __set__fadeShader(::UnityEngine::Shader value) ;
+constexpr void __set__fadeShader(UnityEngine::Shader value) ;
 
-constexpr ::UnityEngine::Shader __get__fadeShader() const;
+constexpr UnityEngine::Shader __get__fadeShader() const;
 
  float_t __declspec(property(get=__get__baseColorBoost, put=__set__baseColorBoost))  _baseColorBoost;
 
@@ -73,11 +72,11 @@ constexpr void __set__baseColorBoostThreshold(float_t value) ;
 
 constexpr float_t __get__baseColorBoostThreshold() const;
 
- ::UnityEngine::Material __declspec(property(get=__get__fadeMaterial, put=__set__fadeMaterial))  _fadeMaterial;
+ UnityEngine::Material __declspec(property(get=__get__fadeMaterial, put=__set__fadeMaterial))  _fadeMaterial;
 
-constexpr void __set__fadeMaterial(::UnityEngine::Material value) ;
+constexpr void __set__fadeMaterial(UnityEngine::Material value) ;
 
-constexpr ::UnityEngine::Material __get__fadeMaterial() const;
+constexpr UnityEngine::Material __get__fadeMaterial() const;
 
 
 // Properties
@@ -115,6 +114,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::NoPostProcessMainEffectSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoPostProcessMainEffectSO, "", "NoPostProcessMainEffectSO");
+NEED_NO_BOX(GlobalNamespace::NoPostProcessMainEffectSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoPostProcessMainEffectSO, "", "NoPostProcessMainEffectSO");

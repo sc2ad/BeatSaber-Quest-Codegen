@@ -3,10 +3,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Unity::XR::Oculus {
-struct ____Unity__XR__Oculus__Development__UserDeveloperModeSettingCache;
+struct Unity__XR__Oculus__Development__UserDeveloperModeSettingCache;
 }
 namespace Unity::XR::Oculus {
 class Development;
@@ -17,20 +16,20 @@ namespace Unity::XR::Oculus {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15218))
 // CS Name: Unity.XR.Oculus.Development::UserDeveloperModeSettingCache
-struct CORDL_TYPE ____Unity__XR__Oculus__Development__UserDeveloperModeSettingCache : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE Unity__XR__Oculus__Development__UserDeveloperModeSettingCache : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____Unity__XR__Oculus__Development__UserDeveloperModeSettingCache(int32_t value__) noexcept;
+constexpr Unity__XR__Oculus__Development__UserDeveloperModeSettingCache(int32_t value__) noexcept;
 
 
-                    constexpr ____Unity__XR__Oculus__Development__UserDeveloperModeSettingCache(____Unity__XR__Oculus__Development__UserDeveloperModeSettingCache const&) = default;
-                    constexpr ____Unity__XR__Oculus__Development__UserDeveloperModeSettingCache(____Unity__XR__Oculus__Development__UserDeveloperModeSettingCache&&) = default;
-                    constexpr ____Unity__XR__Oculus__Development__UserDeveloperModeSettingCache& operator=(____Unity__XR__Oculus__Development__UserDeveloperModeSettingCache const& o) {
+                    constexpr Unity__XR__Oculus__Development__UserDeveloperModeSettingCache(Unity__XR__Oculus__Development__UserDeveloperModeSettingCache const&) = default;
+                    constexpr Unity__XR__Oculus__Development__UserDeveloperModeSettingCache(Unity__XR__Oculus__Development__UserDeveloperModeSettingCache&&) = default;
+                    constexpr Unity__XR__Oculus__Development__UserDeveloperModeSettingCache& operator=(Unity__XR__Oculus__Development__UserDeveloperModeSettingCache const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____Unity__XR__Oculus__Development__UserDeveloperModeSettingCache& operator=(____Unity__XR__Oculus__Development__UserDeveloperModeSettingCache&& o) noexcept {
+                    constexpr Unity__XR__Oculus__Development__UserDeveloperModeSettingCache& operator=(Unity__XR__Oculus__Development__UserDeveloperModeSettingCache&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -43,7 +42,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____Unity__XR__Oculus__Development__UserDeveloperModeSettingCache(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit Unity__XR__Oculus__Development__UserDeveloperModeSettingCache(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -51,15 +50,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______Unity__XR__Oculus__Development__UserDeveloperModeSettingCache_Unwrapped : int32_t {
+enum class __Unity__XR__Oculus__Development__UserDeveloperModeSettingCache_Unwrapped : int32_t {
 __NoUserSettingCached = 0,
 __UserSettingFalse = 1,
 __UserSettingTrue = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______Unity__XR__Oculus__Development__UserDeveloperModeSettingCache_Unwrapped () const noexcept {
-return std::bit_cast<______Unity__XR__Oculus__Development__UserDeveloperModeSettingCache_Unwrapped>(__instance);
+constexpr operator __Unity__XR__Oculus__Development__UserDeveloperModeSettingCache_Unwrapped () const noexcept {
+return std::bit_cast<__Unity__XR__Oculus__Development__UserDeveloperModeSettingCache_Unwrapped>(__instance);
 }
 
 
@@ -72,13 +71,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field NoUserSettingCached offset 0
-static ::Unity::XR::Oculus::____Unity__XR__Oculus__Development__UserDeveloperModeSettingCache const NoUserSettingCached;
+static Unity::XR::Oculus::Unity__XR__Oculus__Development__UserDeveloperModeSettingCache const NoUserSettingCached;
 
 /// @brief Field UserSettingFalse offset 0
-static ::Unity::XR::Oculus::____Unity__XR__Oculus__Development__UserDeveloperModeSettingCache const UserSettingFalse;
+static Unity::XR::Oculus::Unity__XR__Oculus__Development__UserDeveloperModeSettingCache const UserSettingFalse;
 
 /// @brief Field UserSettingTrue offset 0
-static ::Unity::XR::Oculus::____Unity__XR__Oculus__Development__UserDeveloperModeSettingCache const UserSettingTrue;
+static Unity::XR::Oculus::Unity__XR__Oculus__Development__UserDeveloperModeSettingCache const UserSettingTrue;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -93,7 +92,7 @@ namespace Unity::XR::Oculus {
 class CORDL_TYPE Development : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using UserDeveloperModeSettingCache = ::Unity::XR::Oculus::____Unity__XR__Oculus__Development__UserDeveloperModeSettingCache;
+using UserDeveloperModeSettingCache = Unity::XR::Oculus::Unity__XR__Oculus__Development__UserDeveloperModeSettingCache;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -128,11 +127,11 @@ constexpr explicit Development(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 
 // Fields
 
-static ::Unity::XR::Oculus::____Unity__XR__Oculus__Development__UserDeveloperModeSettingCache __declspec(property(get=__get_s_CachedMode, put=__set_s_CachedMode))  s_CachedMode;
+static Unity::XR::Oculus::Unity__XR__Oculus__Development__UserDeveloperModeSettingCache __declspec(property(get=__get_s_CachedMode, put=__set_s_CachedMode))  s_CachedMode;
 
-static void __set_s_CachedMode(::Unity::XR::Oculus::____Unity__XR__Oculus__Development__UserDeveloperModeSettingCache value) ;
+static void __set_s_CachedMode(Unity::XR::Oculus::Unity__XR__Oculus__Development__UserDeveloperModeSettingCache value) ;
 
-static ::Unity::XR::Oculus::____Unity__XR__Oculus__Development__UserDeveloperModeSettingCache __get_s_CachedMode() ;
+static Unity::XR::Oculus::Unity__XR__Oculus__Development__UserDeveloperModeSettingCache __get_s_CachedMode() ;
 
 
 // Methods
@@ -150,7 +149,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Unity::XR::Oculus
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Unity::XR::Oculus::____Unity__XR__Oculus__Development__UserDeveloperModeSettingCache, "Unity.XR.Oculus", "Development/UserDeveloperModeSettingCache");
-NEED_NO_BOX(::Unity::XR::Oculus::Development);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::XR::Oculus::Development, "Unity.XR.Oculus", "Development");
+DEFINE_IL2CPP_ARG_TYPE(Unity::XR::Oculus::Unity__XR__Oculus__Development__UserDeveloperModeSettingCache, "Unity.XR.Oculus", "Development/UserDeveloperModeSettingCache");
+NEED_NO_BOX(Unity::XR::Oculus::Development);
+DEFINE_IL2CPP_ARG_TYPE(Unity::XR::Oculus::Development, "Unity.XR.Oculus", "Development");

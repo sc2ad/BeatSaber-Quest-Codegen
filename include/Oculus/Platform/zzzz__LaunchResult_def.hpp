@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform {
 struct LaunchResult;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::Oculus::Platform::LaunchResult const Unknown;
+static Oculus::Platform::LaunchResult const Unknown;
 
 /// @brief Field Success offset 0
-static ::Oculus::Platform::LaunchResult const Success;
+static Oculus::Platform::LaunchResult const Success;
 
 /// @brief Field FailedRoomFull offset 0
-static ::Oculus::Platform::LaunchResult const FailedRoomFull;
+static Oculus::Platform::LaunchResult const FailedRoomFull;
 
 /// @brief Field FailedGameAlreadyStarted offset 0
-static ::Oculus::Platform::LaunchResult const FailedGameAlreadyStarted;
+static Oculus::Platform::LaunchResult const FailedGameAlreadyStarted;
 
 /// @brief Field FailedRoomNotFound offset 0
-static ::Oculus::Platform::LaunchResult const FailedRoomNotFound;
+static Oculus::Platform::LaunchResult const FailedRoomNotFound;
 
 /// @brief Field FailedUserDeclined offset 0
-static ::Oculus::Platform::LaunchResult const FailedUserDeclined;
+static Oculus::Platform::LaunchResult const FailedUserDeclined;
 
 /// @brief Field FailedOtherReason offset 0
-static ::Oculus::Platform::LaunchResult const FailedOtherReason;
+static Oculus::Platform::LaunchResult const FailedOtherReason;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::LaunchResult, "Oculus.Platform", "LaunchResult");
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::LaunchResult, "Oculus.Platform", "LaunchResult");

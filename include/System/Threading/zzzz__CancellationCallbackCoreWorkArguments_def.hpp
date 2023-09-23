@@ -2,13 +2,12 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System::Threading {
-class CancellationCallbackInfo;
-}
 namespace System::Threading {
 template<typename T>
 class SparselyPopulatedArrayFragment_1;
+}
+namespace System::Threading {
+class CancellationCallbackInfo;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -23,8 +22,8 @@ namespace System::Threading {
 struct CORDL_TYPE CancellationCallbackCoreWorkArguments : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "_currArrayFragment", ty: "::System::Threading::SparselyPopulatedArrayFragment_1<::System::Threading::CancellationCallbackInfo>", modifiers: "", def_value: None }, CppParam { name: "_currArrayIndex", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr CancellationCallbackCoreWorkArguments(::System::Threading::SparselyPopulatedArrayFragment_1<::System::Threading::CancellationCallbackInfo> _currArrayFragment, int32_t _currArrayIndex) noexcept;
+// Ctor Parameters [CppParam { name: "_currArrayFragment", ty: "System::Threading::SparselyPopulatedArrayFragment_1<System::Threading::CancellationCallbackInfo>", modifiers: "", def_value: None }, CppParam { name: "_currArrayIndex", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr CancellationCallbackCoreWorkArguments(System::Threading::SparselyPopulatedArrayFragment_1<System::Threading::CancellationCallbackInfo> _currArrayFragment, int32_t _currArrayIndex) noexcept;
 
 
                     constexpr CancellationCallbackCoreWorkArguments(CancellationCallbackCoreWorkArguments const&) = default;
@@ -57,11 +56,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::Threading::SparselyPopulatedArrayFragment_1<::System::Threading::CancellationCallbackInfo> __declspec(property(get=__get__currArrayFragment, put=__set__currArrayFragment))  _currArrayFragment;
+ System::Threading::SparselyPopulatedArrayFragment_1<System::Threading::CancellationCallbackInfo> __declspec(property(get=__get__currArrayFragment, put=__set__currArrayFragment))  _currArrayFragment;
 
-constexpr void __set__currArrayFragment(::System::Threading::SparselyPopulatedArrayFragment_1<::System::Threading::CancellationCallbackInfo> value) ;
+constexpr void __set__currArrayFragment(System::Threading::SparselyPopulatedArrayFragment_1<System::Threading::CancellationCallbackInfo> value) ;
 
-constexpr ::System::Threading::SparselyPopulatedArrayFragment_1<::System::Threading::CancellationCallbackInfo> __get__currArrayFragment() const;
+constexpr System::Threading::SparselyPopulatedArrayFragment_1<System::Threading::CancellationCallbackInfo> __get__currArrayFragment() const;
 
  int32_t __declspec(property(get=__get__currArrayIndex, put=__set__currArrayIndex))  _currArrayIndex;
 
@@ -73,11 +72,10 @@ constexpr int32_t __get__currArrayIndex() const;
 // Methods
 
 /// @brief Method .ctor addr 0x24a607c size 0xc virtual false final false
- void _ctor(::System::Threading::SparselyPopulatedArrayFragment_1<::System::Threading::CancellationCallbackInfo> currArrayFragment, int32_t currArrayIndex) ;
+ void _ctor(System::Threading::SparselyPopulatedArrayFragment_1<System::Threading::CancellationCallbackInfo> currArrayFragment, int32_t currArrayIndex) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Threading
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::CancellationCallbackCoreWorkArguments, "System.Threading", "CancellationCallbackCoreWorkArguments");
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationCallbackCoreWorkArguments, "System.Threading", "CancellationCallbackCoreWorkArguments");

@@ -1,12 +1,11 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace UnityEngine::UIElements {
-class IEventDispatchingStrategy;
-}
 namespace UnityEngine::UIElements {
 class IPanel;
+}
+namespace UnityEngine::UIElements {
+class IEventDispatchingStrategy;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
@@ -24,8 +23,8 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE PointerCaptureDispatchingStrategy : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::UIElements::IEventDispatchingStrategy
-constexpr operator  ::UnityEngine::UIElements::IEventDispatchingStrategy() const noexcept;
+/// @brief Convert operator to UnityEngine::UIElements::IEventDispatchingStrategy
+constexpr operator  UnityEngine::UIElements::IEventDispatchingStrategy() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -61,10 +60,10 @@ constexpr explicit PointerCaptureDispatchingStrategy(void* ptr) noexcept : ::bs_
 // Methods
 
 /// @brief Method CanDispatchEvent addr 0x2cd3354 size 0x54 virtual true final true
- bool CanDispatchEvent(::UnityEngine::UIElements::EventBase evt) ;
+ bool CanDispatchEvent(UnityEngine::UIElements::EventBase evt) ;
 
 /// @brief Method DispatchEvent addr 0x2cd33a8 size 0x5d0 virtual true final true
- void DispatchEvent(::UnityEngine::UIElements::EventBase evt, ::UnityEngine::UIElements::IPanel panel) ;
+ void DispatchEvent(UnityEngine::UIElements::EventBase evt, UnityEngine::UIElements::IPanel panel) ;
 
 // Ctor Parameters []
 explicit PointerCaptureDispatchingStrategy() ;
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::PointerCaptureDispatchingStrategy);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::PointerCaptureDispatchingStrategy, "UnityEngine.UIElements", "PointerCaptureDispatchingStrategy");
+NEED_NO_BOX(UnityEngine::UIElements::PointerCaptureDispatchingStrategy);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::PointerCaptureDispatchingStrategy, "UnityEngine.UIElements", "PointerCaptureDispatchingStrategy");

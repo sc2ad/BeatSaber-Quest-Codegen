@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 // Forward declare root types
 namespace System {
 class ParamArrayAttribute;
@@ -12,7 +11,7 @@ namespace System {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2456))
 // CS Name: System.ParamArrayAttribute
-class CORDL_TYPE ParamArrayAttribute : public ::System::Attribute {
+class CORDL_TYPE ParamArrayAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr ParamArrayAttribute(ParamArrayAttribute const& ) noexcept = default;
 constexpr ParamArrayAttribute(ParamArrayAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ParamArrayAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit ParamArrayAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::ParamArrayAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::ParamArrayAttribute, "System", "ParamArrayAttribute");
+NEED_NO_BOX(System::ParamArrayAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::ParamArrayAttribute, "System", "ParamArrayAttribute");

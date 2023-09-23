@@ -1,12 +1,11 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace UnityEngine::Experimental::Rendering {
-class IScriptableRuntimeReflectionSystem;
-}
 namespace UnityEngine::Experimental::Rendering {
 class ScriptableRuntimeReflectionSystemWrapper;
+}
+namespace UnityEngine::Experimental::Rendering {
+class IScriptableRuntimeReflectionSystem;
 }
 // Forward declare root types
 namespace UnityEngine::Experimental::Rendering {
@@ -54,27 +53,27 @@ constexpr explicit ScriptableRuntimeReflectionSystemSettings(void* ptr) noexcept
 
 // Fields
 
-static ::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper __declspec(property(get=__get_s_Instance, put=__set_s_Instance))  s_Instance;
+static UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper __declspec(property(get=__get_s_Instance, put=__set_s_Instance))  s_Instance;
 
-static void __set_s_Instance(::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper value) ;
+static void __set_s_Instance(UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper value) ;
 
-static ::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper __get_s_Instance() ;
+static UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper __get_s_Instance() ;
 
 
 // Properties
 
-static ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem __declspec(property(put=set_Internal_ScriptableRuntimeReflectionSystemSettings_system))  Internal_ScriptableRuntimeReflectionSystemSettings_system;
+static UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem __declspec(property(put=set_Internal_ScriptableRuntimeReflectionSystemSettings_system))  Internal_ScriptableRuntimeReflectionSystemSettings_system;
 
-static ::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper __declspec(property(get=get_Internal_ScriptableRuntimeReflectionSystemSettings_instance))  Internal_ScriptableRuntimeReflectionSystemSettings_instance;
+static UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper __declspec(property(get=get_Internal_ScriptableRuntimeReflectionSystemSettings_instance))  Internal_ScriptableRuntimeReflectionSystemSettings_instance;
 
 
 // Methods
 
 /// @brief Method set_Internal_ScriptableRuntimeReflectionSystemSettings_system addr 0x2b7b214 size 0x148 virtual false final false
-static void set_Internal_ScriptableRuntimeReflectionSystemSettings_system(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem value) ;
+static void set_Internal_ScriptableRuntimeReflectionSystemSettings_system(UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem value) ;
 
 /// @brief Method get_Internal_ScriptableRuntimeReflectionSystemSettings_instance addr 0x2b7b35c size 0x58 virtual false final false
-static ::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper get_Internal_ScriptableRuntimeReflectionSystemSettings_instance() ;
+static UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper get_Internal_ScriptableRuntimeReflectionSystemSettings_instance() ;
 
 /// @brief Method ScriptingDirtyReflectionSystemInstance addr 0x2b7b3b4 size 0x28 virtual false final false
 static void ScriptingDirtyReflectionSystemInstance() ;
@@ -83,6 +82,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Experimental::Rendering
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemSettings);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemSettings, "UnityEngine.Experimental.Rendering", "ScriptableRuntimeReflectionSystemSettings");
+NEED_NO_BOX(UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemSettings);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemSettings, "UnityEngine.Experimental.Rendering", "ScriptableRuntimeReflectionSystemSettings");

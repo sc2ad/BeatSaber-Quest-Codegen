@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
@@ -37,7 +36,7 @@ constexpr explicit IBeatmapDataBasicInfo(void* ptr) noexcept : ::cordl_internals
 
  int32_t __declspec(property(get=get_bombsCount))  bombsCount;
 
- ::System::Collections::Generic::IEnumerable_1<::StringW> __declspec(property(get=get_specialBasicBeatmapEventKeywords))  specialBasicBeatmapEventKeywords;
+ System::Collections::Generic::IEnumerable_1<::StringW> __declspec(property(get=get_specialBasicBeatmapEventKeywords))  specialBasicBeatmapEventKeywords;
 
 
 // Methods
@@ -55,12 +54,11 @@ constexpr explicit IBeatmapDataBasicInfo(void* ptr) noexcept : ::cordl_internals
  int32_t get_bombsCount() ;
 
 /// @brief Method get_specialBasicBeatmapEventKeywords addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Collections::Generic::IEnumerable_1<::StringW> get_specialBasicBeatmapEventKeywords() ;
+ System::Collections::Generic::IEnumerable_1<::StringW> get_specialBasicBeatmapEventKeywords() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IBeatmapDataBasicInfo);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IBeatmapDataBasicInfo, "", "IBeatmapDataBasicInfo");
+NEED_NO_BOX(GlobalNamespace::IBeatmapDataBasicInfo);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IBeatmapDataBasicInfo, "", "IBeatmapDataBasicInfo");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Globalization {
 struct FORMATFLAGS;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::Globalization::FORMATFLAGS const None;
+static System::Globalization::FORMATFLAGS const None;
 
 /// @brief Field UseGenitiveMonth offset 0
-static ::System::Globalization::FORMATFLAGS const UseGenitiveMonth;
+static System::Globalization::FORMATFLAGS const UseGenitiveMonth;
 
 /// @brief Field UseLeapYearMonth offset 0
-static ::System::Globalization::FORMATFLAGS const UseLeapYearMonth;
+static System::Globalization::FORMATFLAGS const UseLeapYearMonth;
 
 /// @brief Field UseSpacesInMonthNames offset 0
-static ::System::Globalization::FORMATFLAGS const UseSpacesInMonthNames;
+static System::Globalization::FORMATFLAGS const UseSpacesInMonthNames;
 
 /// @brief Field UseHebrewParsing offset 0
-static ::System::Globalization::FORMATFLAGS const UseHebrewParsing;
+static System::Globalization::FORMATFLAGS const UseHebrewParsing;
 
 /// @brief Field UseSpacesInDayNames offset 0
-static ::System::Globalization::FORMATFLAGS const UseSpacesInDayNames;
+static System::Globalization::FORMATFLAGS const UseSpacesInDayNames;
 
 /// @brief Field UseDigitPrefixInTokens offset 0
-static ::System::Globalization::FORMATFLAGS const UseDigitPrefixInTokens;
+static System::Globalization::FORMATFLAGS const UseDigitPrefixInTokens;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Globalization
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::FORMATFLAGS, "System.Globalization", "FORMATFLAGS");
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::FORMATFLAGS, "System.Globalization", "FORMATFLAGS");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform {
 class IMicrophone;
@@ -38,6 +37,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::IMicrophone);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::IMicrophone, "Oculus.Platform", "IMicrophone");
+NEED_NO_BOX(Oculus::Platform::IMicrophone);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::IMicrophone, "Oculus.Platform", "IMicrophone");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
 namespace UnityEngine {
 struct Vector4;
 }
@@ -18,8 +17,8 @@ namespace UnityEngine::UIElements::UIR {
 struct CORDL_TYPE Transform3x4 : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "v0", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "v1", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "v2", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }]
-constexpr Transform3x4(::UnityEngine::Vector4 v0, ::UnityEngine::Vector4 v1, ::UnityEngine::Vector4 v2) noexcept;
+// Ctor Parameters [CppParam { name: "v0", ty: "UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "v1", ty: "UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "v2", ty: "UnityEngine::Vector4", modifiers: "", def_value: None }]
+constexpr Transform3x4(UnityEngine::Vector4 v0, UnityEngine::Vector4 v1, UnityEngine::Vector4 v2) noexcept;
 
 
                     constexpr Transform3x4(Transform3x4 const&) = default;
@@ -52,27 +51,26 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Vector4 __declspec(property(get=__get_v0, put=__set_v0))  v0;
+ UnityEngine::Vector4 __declspec(property(get=__get_v0, put=__set_v0))  v0;
 
-constexpr void __set_v0(::UnityEngine::Vector4 value) ;
+constexpr void __set_v0(UnityEngine::Vector4 value) ;
 
-constexpr ::UnityEngine::Vector4 __get_v0() const;
+constexpr UnityEngine::Vector4 __get_v0() const;
 
- ::UnityEngine::Vector4 __declspec(property(get=__get_v1, put=__set_v1))  v1;
+ UnityEngine::Vector4 __declspec(property(get=__get_v1, put=__set_v1))  v1;
 
-constexpr void __set_v1(::UnityEngine::Vector4 value) ;
+constexpr void __set_v1(UnityEngine::Vector4 value) ;
 
-constexpr ::UnityEngine::Vector4 __get_v1() const;
+constexpr UnityEngine::Vector4 __get_v1() const;
 
- ::UnityEngine::Vector4 __declspec(property(get=__get_v2, put=__set_v2))  v2;
+ UnityEngine::Vector4 __declspec(property(get=__get_v2, put=__set_v2))  v2;
 
-constexpr void __set_v2(::UnityEngine::Vector4 value) ;
+constexpr void __set_v2(UnityEngine::Vector4 value) ;
 
-constexpr ::UnityEngine::Vector4 __get_v2() const;
+constexpr UnityEngine::Vector4 __get_v2() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::UIR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::Transform3x4, "UnityEngine.UIElements.UIR", "Transform3x4");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::Transform3x4, "UnityEngine.UIElements.UIR", "Transform3x4");

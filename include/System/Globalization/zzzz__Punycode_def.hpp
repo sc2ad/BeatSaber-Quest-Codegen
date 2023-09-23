@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/Globalization/zzzz__Bootstring_def.hpp"
-namespace {
 // Forward declare root types
 namespace System::Globalization {
 class Punycode;
@@ -12,7 +11,7 @@ namespace System::Globalization {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3709))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3710))
 // CS Name: System.Globalization.Punycode
-class CORDL_TYPE Punycode : public ::System::Globalization::Bootstring {
+class CORDL_TYPE Punycode : public System::Globalization::Bootstring {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr Punycode(Punycode const& ) noexcept = default;
 constexpr Punycode(Punycode&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Punycode(void* ptr) noexcept : ::System::Globalization::Bootstring(ptr) {
+constexpr explicit Punycode(void* ptr) noexcept : System::Globalization::Bootstring(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Globalization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Globalization::Punycode);
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::Punycode, "System.Globalization", "Punycode");
+NEED_NO_BOX(System::Globalization::Punycode);
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::Punycode, "System.Globalization", "Punycode");

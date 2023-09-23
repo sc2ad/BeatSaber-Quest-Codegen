@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__SonyOnGoingToBackgroundSaveHandler_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class PS4Helper;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4680))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4639))
 // CS Name: PS4OnGoingToBackgroundSaveHandler
-class CORDL_TYPE PS4OnGoingToBackgroundSaveHandler : public ::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler {
+class CORDL_TYPE PS4OnGoingToBackgroundSaveHandler : public GlobalNamespace::SonyOnGoingToBackgroundSaveHandler {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr PS4OnGoingToBackgroundSaveHandler(PS4OnGoingToBackgroundSaveHandler co
 constexpr PS4OnGoingToBackgroundSaveHandler(PS4OnGoingToBackgroundSaveHandler&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PS4OnGoingToBackgroundSaveHandler(void* ptr) noexcept : ::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler(ptr) {
+constexpr explicit PS4OnGoingToBackgroundSaveHandler(void* ptr) noexcept : GlobalNamespace::SonyOnGoingToBackgroundSaveHandler(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit PS4OnGoingToBackgroundSaveHandler(void* ptr) noexcept : ::Glo
 
 // Fields
 
- ::GlobalNamespace::PS4Helper __declspec(property(get=__get__ps4Helper, put=__set__ps4Helper))  _ps4Helper;
+ GlobalNamespace::PS4Helper __declspec(property(get=__get__ps4Helper, put=__set__ps4Helper))  _ps4Helper;
 
-constexpr void __set__ps4Helper(::GlobalNamespace::PS4Helper value) ;
+constexpr void __set__ps4Helper(GlobalNamespace::PS4Helper value) ;
 
-constexpr ::GlobalNamespace::PS4Helper __get__ps4Helper() const;
+constexpr GlobalNamespace::PS4Helper __get__ps4Helper() const;
 
 
 // Methods
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PS4OnGoingToBackgroundSaveHandler);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PS4OnGoingToBackgroundSaveHandler, "", "PS4OnGoingToBackgroundSaveHandler");
+NEED_NO_BOX(GlobalNamespace::PS4OnGoingToBackgroundSaveHandler);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4OnGoingToBackgroundSaveHandler, "", "PS4OnGoingToBackgroundSaveHandler");

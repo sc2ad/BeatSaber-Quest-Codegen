@@ -4,13 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace HoudiniEngineUnity {
-class HEU_VolumeScatterTrees;
-}
-namespace HoudiniEngineUnity {
-class HEU_DetailProperties;
-}
 namespace UnityEngine {
 struct Vector3;
 }
@@ -19,10 +12,16 @@ template<typename T>
 class List_1;
 }
 namespace HoudiniEngineUnity {
+class HEU_VolumeScatterTrees;
+}
+namespace HoudiniEngineUnity {
 class HEU_LoadBufferVolumeLayer;
 }
 namespace HoudiniEngineUnity {
 class HEU_DetailPrototype;
+}
+namespace HoudiniEngineUnity {
+class HEU_DetailProperties;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -34,7 +33,7 @@ namespace HoudiniEngineUnity {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9745))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9747))
 // CS Name: HoudiniEngineUnity.HEU_LoadBufferVolume
-class CORDL_TYPE HEU_LoadBufferVolume : public ::HoudiniEngineUnity::HEU_LoadBufferBase {
+class CORDL_TYPE HEU_LoadBufferVolume : public HoudiniEngineUnity::HEU_LoadBufferBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -49,7 +48,7 @@ constexpr HEU_LoadBufferVolume(HEU_LoadBufferVolume const& ) noexcept = default;
 constexpr HEU_LoadBufferVolume(HEU_LoadBufferVolume&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HEU_LoadBufferVolume(void* ptr) noexcept : ::HoudiniEngineUnity::HEU_LoadBufferBase(ptr) {
+constexpr explicit HEU_LoadBufferVolume(void* ptr) noexcept : HoudiniEngineUnity::HEU_LoadBufferBase(ptr) {
 }
 
 
@@ -76,11 +75,11 @@ constexpr void __set__tileIndex(int32_t value) ;
 
 constexpr int32_t __get__tileIndex() const;
 
- ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer> __declspec(property(get=__get__splatLayers, put=__set__splatLayers))  _splatLayers;
+ System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_LoadBufferVolumeLayer> __declspec(property(get=__get__splatLayers, put=__set__splatLayers))  _splatLayers;
 
-constexpr void __set__splatLayers(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer> value) ;
+constexpr void __set__splatLayers(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_LoadBufferVolumeLayer> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer> __get__splatLayers() const;
+constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_LoadBufferVolumeLayer> __get__splatLayers() const;
 
  int32_t __declspec(property(get=__get__heightMapWidth, put=__set__heightMapWidth))  _heightMapWidth;
 
@@ -124,11 +123,11 @@ constexpr void __set__heightRange(float_t value) ;
 
 constexpr float_t __get__heightRange() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__position, put=__set__position))  _position;
+ UnityEngine::Vector3 __declspec(property(get=__get__position, put=__set__position))  _position;
 
-constexpr void __set__position(::UnityEngine::Vector3 value) ;
+constexpr void __set__position(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__position() const;
+constexpr UnityEngine::Vector3 __get__position() const;
 
  ::StringW __declspec(property(get=__get__terrainDataPath, put=__set__terrainDataPath))  _terrainDataPath;
 
@@ -142,29 +141,29 @@ constexpr void __set__terrainDataExportPath(::StringW value) ;
 
 constexpr ::StringW __get__terrainDataExportPath() const;
 
- ::HoudiniEngineUnity::HEU_VolumeScatterTrees __declspec(property(get=__get__scatterTrees, put=__set__scatterTrees))  _scatterTrees;
+ HoudiniEngineUnity::HEU_VolumeScatterTrees __declspec(property(get=__get__scatterTrees, put=__set__scatterTrees))  _scatterTrees;
 
-constexpr void __set__scatterTrees(::HoudiniEngineUnity::HEU_VolumeScatterTrees value) ;
+constexpr void __set__scatterTrees(HoudiniEngineUnity::HEU_VolumeScatterTrees value) ;
 
-constexpr ::HoudiniEngineUnity::HEU_VolumeScatterTrees __get__scatterTrees() const;
+constexpr HoudiniEngineUnity::HEU_VolumeScatterTrees __get__scatterTrees() const;
 
- ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_DetailPrototype> __declspec(property(get=__get__detailPrototypes, put=__set__detailPrototypes))  _detailPrototypes;
+ System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_DetailPrototype> __declspec(property(get=__get__detailPrototypes, put=__set__detailPrototypes))  _detailPrototypes;
 
-constexpr void __set__detailPrototypes(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_DetailPrototype> value) ;
+constexpr void __set__detailPrototypes(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_DetailPrototype> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_DetailPrototype> __get__detailPrototypes() const;
+constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_DetailPrototype> __get__detailPrototypes() const;
 
- ::System::Collections::Generic::List_1</* UNKNOWN TYPE! Il2CppType { data: ArrayType, attrs: 0, ty: Array, byref: false, pinned: false, valuetype: false } */> __declspec(property(get=__get__detailMaps, put=__set__detailMaps))  _detailMaps;
+ System::Collections::Generic::List_1</* UNKNOWN TYPE! Il2CppType { data: ArrayType, attrs: 0, ty: Array, byref: false, pinned: false, valuetype: false } */> __declspec(property(get=__get__detailMaps, put=__set__detailMaps))  _detailMaps;
 
-constexpr void __set__detailMaps(::System::Collections::Generic::List_1</* UNKNOWN TYPE! Il2CppType { data: ArrayType, attrs: 0, ty: Array, byref: false, pinned: false, valuetype: false } */> value) ;
+constexpr void __set__detailMaps(System::Collections::Generic::List_1</* UNKNOWN TYPE! Il2CppType { data: ArrayType, attrs: 0, ty: Array, byref: false, pinned: false, valuetype: false } */> value) ;
 
-constexpr ::System::Collections::Generic::List_1</* UNKNOWN TYPE! Il2CppType { data: ArrayType, attrs: 0, ty: Array, byref: false, pinned: false, valuetype: false } */> __get__detailMaps() const;
+constexpr System::Collections::Generic::List_1</* UNKNOWN TYPE! Il2CppType { data: ArrayType, attrs: 0, ty: Array, byref: false, pinned: false, valuetype: false } */> __get__detailMaps() const;
 
- ::HoudiniEngineUnity::HEU_DetailProperties __declspec(property(get=__get__detailProperties, put=__set__detailProperties))  _detailProperties;
+ HoudiniEngineUnity::HEU_DetailProperties __declspec(property(get=__get__detailProperties, put=__set__detailProperties))  _detailProperties;
 
-constexpr void __set__detailProperties(::HoudiniEngineUnity::HEU_DetailProperties value) ;
+constexpr void __set__detailProperties(HoudiniEngineUnity::HEU_DetailProperties value) ;
 
-constexpr ::HoudiniEngineUnity::HEU_DetailProperties __get__detailProperties() const;
+constexpr HoudiniEngineUnity::HEU_DetailProperties __get__detailProperties() const;
 
  ::StringW __declspec(property(get=__get__specifiedTerrainMaterialName, put=__set__specifiedTerrainMaterialName))  _specifiedTerrainMaterialName;
 
@@ -185,6 +184,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_LoadBufferVolume);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_LoadBufferVolume, "HoudiniEngineUnity", "HEU_LoadBufferVolume");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_LoadBufferVolume);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_LoadBufferVolume, "HoudiniEngineUnity", "HEU_LoadBufferVolume");

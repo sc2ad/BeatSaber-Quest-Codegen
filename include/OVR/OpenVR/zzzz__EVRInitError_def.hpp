@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct EVRInitError;
@@ -153,272 +152,271 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::OVR::OpenVR::EVRInitError const None;
+static OVR::OpenVR::EVRInitError const None;
 
 /// @brief Field Unknown offset 0
-static ::OVR::OpenVR::EVRInitError const Unknown;
+static OVR::OpenVR::EVRInitError const Unknown;
 
 /// @brief Field Init_InstallationNotFound offset 0
-static ::OVR::OpenVR::EVRInitError const Init_InstallationNotFound;
+static OVR::OpenVR::EVRInitError const Init_InstallationNotFound;
 
 /// @brief Field Init_InstallationCorrupt offset 0
-static ::OVR::OpenVR::EVRInitError const Init_InstallationCorrupt;
+static OVR::OpenVR::EVRInitError const Init_InstallationCorrupt;
 
 /// @brief Field Init_VRClientDLLNotFound offset 0
-static ::OVR::OpenVR::EVRInitError const Init_VRClientDLLNotFound;
+static OVR::OpenVR::EVRInitError const Init_VRClientDLLNotFound;
 
 /// @brief Field Init_FileNotFound offset 0
-static ::OVR::OpenVR::EVRInitError const Init_FileNotFound;
+static OVR::OpenVR::EVRInitError const Init_FileNotFound;
 
 /// @brief Field Init_FactoryNotFound offset 0
-static ::OVR::OpenVR::EVRInitError const Init_FactoryNotFound;
+static OVR::OpenVR::EVRInitError const Init_FactoryNotFound;
 
 /// @brief Field Init_InterfaceNotFound offset 0
-static ::OVR::OpenVR::EVRInitError const Init_InterfaceNotFound;
+static OVR::OpenVR::EVRInitError const Init_InterfaceNotFound;
 
 /// @brief Field Init_InvalidInterface offset 0
-static ::OVR::OpenVR::EVRInitError const Init_InvalidInterface;
+static OVR::OpenVR::EVRInitError const Init_InvalidInterface;
 
 /// @brief Field Init_UserConfigDirectoryInvalid offset 0
-static ::OVR::OpenVR::EVRInitError const Init_UserConfigDirectoryInvalid;
+static OVR::OpenVR::EVRInitError const Init_UserConfigDirectoryInvalid;
 
 /// @brief Field Init_HmdNotFound offset 0
-static ::OVR::OpenVR::EVRInitError const Init_HmdNotFound;
+static OVR::OpenVR::EVRInitError const Init_HmdNotFound;
 
 /// @brief Field Init_NotInitialized offset 0
-static ::OVR::OpenVR::EVRInitError const Init_NotInitialized;
+static OVR::OpenVR::EVRInitError const Init_NotInitialized;
 
 /// @brief Field Init_PathRegistryNotFound offset 0
-static ::OVR::OpenVR::EVRInitError const Init_PathRegistryNotFound;
+static OVR::OpenVR::EVRInitError const Init_PathRegistryNotFound;
 
 /// @brief Field Init_NoConfigPath offset 0
-static ::OVR::OpenVR::EVRInitError const Init_NoConfigPath;
+static OVR::OpenVR::EVRInitError const Init_NoConfigPath;
 
 /// @brief Field Init_NoLogPath offset 0
-static ::OVR::OpenVR::EVRInitError const Init_NoLogPath;
+static OVR::OpenVR::EVRInitError const Init_NoLogPath;
 
 /// @brief Field Init_PathRegistryNotWritable offset 0
-static ::OVR::OpenVR::EVRInitError const Init_PathRegistryNotWritable;
+static OVR::OpenVR::EVRInitError const Init_PathRegistryNotWritable;
 
 /// @brief Field Init_AppInfoInitFailed offset 0
-static ::OVR::OpenVR::EVRInitError const Init_AppInfoInitFailed;
+static OVR::OpenVR::EVRInitError const Init_AppInfoInitFailed;
 
 /// @brief Field Init_Retry offset 0
-static ::OVR::OpenVR::EVRInitError const Init_Retry;
+static OVR::OpenVR::EVRInitError const Init_Retry;
 
 /// @brief Field Init_InitCanceledByUser offset 0
-static ::OVR::OpenVR::EVRInitError const Init_InitCanceledByUser;
+static OVR::OpenVR::EVRInitError const Init_InitCanceledByUser;
 
 /// @brief Field Init_AnotherAppLaunching offset 0
-static ::OVR::OpenVR::EVRInitError const Init_AnotherAppLaunching;
+static OVR::OpenVR::EVRInitError const Init_AnotherAppLaunching;
 
 /// @brief Field Init_SettingsInitFailed offset 0
-static ::OVR::OpenVR::EVRInitError const Init_SettingsInitFailed;
+static OVR::OpenVR::EVRInitError const Init_SettingsInitFailed;
 
 /// @brief Field Init_ShuttingDown offset 0
-static ::OVR::OpenVR::EVRInitError const Init_ShuttingDown;
+static OVR::OpenVR::EVRInitError const Init_ShuttingDown;
 
 /// @brief Field Init_TooManyObjects offset 0
-static ::OVR::OpenVR::EVRInitError const Init_TooManyObjects;
+static OVR::OpenVR::EVRInitError const Init_TooManyObjects;
 
 /// @brief Field Init_NoServerForBackgroundApp offset 0
-static ::OVR::OpenVR::EVRInitError const Init_NoServerForBackgroundApp;
+static OVR::OpenVR::EVRInitError const Init_NoServerForBackgroundApp;
 
 /// @brief Field Init_NotSupportedWithCompositor offset 0
-static ::OVR::OpenVR::EVRInitError const Init_NotSupportedWithCompositor;
+static OVR::OpenVR::EVRInitError const Init_NotSupportedWithCompositor;
 
 /// @brief Field Init_NotAvailableToUtilityApps offset 0
-static ::OVR::OpenVR::EVRInitError const Init_NotAvailableToUtilityApps;
+static OVR::OpenVR::EVRInitError const Init_NotAvailableToUtilityApps;
 
 /// @brief Field Init_Internal offset 0
-static ::OVR::OpenVR::EVRInitError const Init_Internal;
+static OVR::OpenVR::EVRInitError const Init_Internal;
 
 /// @brief Field Init_HmdDriverIdIsNone offset 0
-static ::OVR::OpenVR::EVRInitError const Init_HmdDriverIdIsNone;
+static OVR::OpenVR::EVRInitError const Init_HmdDriverIdIsNone;
 
 /// @brief Field Init_HmdNotFoundPresenceFailed offset 0
-static ::OVR::OpenVR::EVRInitError const Init_HmdNotFoundPresenceFailed;
+static OVR::OpenVR::EVRInitError const Init_HmdNotFoundPresenceFailed;
 
 /// @brief Field Init_VRMonitorNotFound offset 0
-static ::OVR::OpenVR::EVRInitError const Init_VRMonitorNotFound;
+static OVR::OpenVR::EVRInitError const Init_VRMonitorNotFound;
 
 /// @brief Field Init_VRMonitorStartupFailed offset 0
-static ::OVR::OpenVR::EVRInitError const Init_VRMonitorStartupFailed;
+static OVR::OpenVR::EVRInitError const Init_VRMonitorStartupFailed;
 
 /// @brief Field Init_LowPowerWatchdogNotSupported offset 0
-static ::OVR::OpenVR::EVRInitError const Init_LowPowerWatchdogNotSupported;
+static OVR::OpenVR::EVRInitError const Init_LowPowerWatchdogNotSupported;
 
 /// @brief Field Init_InvalidApplicationType offset 0
-static ::OVR::OpenVR::EVRInitError const Init_InvalidApplicationType;
+static OVR::OpenVR::EVRInitError const Init_InvalidApplicationType;
 
 /// @brief Field Init_NotAvailableToWatchdogApps offset 0
-static ::OVR::OpenVR::EVRInitError const Init_NotAvailableToWatchdogApps;
+static OVR::OpenVR::EVRInitError const Init_NotAvailableToWatchdogApps;
 
 /// @brief Field Init_WatchdogDisabledInSettings offset 0
-static ::OVR::OpenVR::EVRInitError const Init_WatchdogDisabledInSettings;
+static OVR::OpenVR::EVRInitError const Init_WatchdogDisabledInSettings;
 
 /// @brief Field Init_VRDashboardNotFound offset 0
-static ::OVR::OpenVR::EVRInitError const Init_VRDashboardNotFound;
+static OVR::OpenVR::EVRInitError const Init_VRDashboardNotFound;
 
 /// @brief Field Init_VRDashboardStartupFailed offset 0
-static ::OVR::OpenVR::EVRInitError const Init_VRDashboardStartupFailed;
+static OVR::OpenVR::EVRInitError const Init_VRDashboardStartupFailed;
 
 /// @brief Field Init_VRHomeNotFound offset 0
-static ::OVR::OpenVR::EVRInitError const Init_VRHomeNotFound;
+static OVR::OpenVR::EVRInitError const Init_VRHomeNotFound;
 
 /// @brief Field Init_VRHomeStartupFailed offset 0
-static ::OVR::OpenVR::EVRInitError const Init_VRHomeStartupFailed;
+static OVR::OpenVR::EVRInitError const Init_VRHomeStartupFailed;
 
 /// @brief Field Init_RebootingBusy offset 0
-static ::OVR::OpenVR::EVRInitError const Init_RebootingBusy;
+static OVR::OpenVR::EVRInitError const Init_RebootingBusy;
 
 /// @brief Field Init_FirmwareUpdateBusy offset 0
-static ::OVR::OpenVR::EVRInitError const Init_FirmwareUpdateBusy;
+static OVR::OpenVR::EVRInitError const Init_FirmwareUpdateBusy;
 
 /// @brief Field Init_FirmwareRecoveryBusy offset 0
-static ::OVR::OpenVR::EVRInitError const Init_FirmwareRecoveryBusy;
+static OVR::OpenVR::EVRInitError const Init_FirmwareRecoveryBusy;
 
 /// @brief Field Init_USBServiceBusy offset 0
-static ::OVR::OpenVR::EVRInitError const Init_USBServiceBusy;
+static OVR::OpenVR::EVRInitError const Init_USBServiceBusy;
 
 /// @brief Field Init_VRWebHelperStartupFailed offset 0
-static ::OVR::OpenVR::EVRInitError const Init_VRWebHelperStartupFailed;
+static OVR::OpenVR::EVRInitError const Init_VRWebHelperStartupFailed;
 
 /// @brief Field Init_TrackerManagerInitFailed offset 0
-static ::OVR::OpenVR::EVRInitError const Init_TrackerManagerInitFailed;
+static OVR::OpenVR::EVRInitError const Init_TrackerManagerInitFailed;
 
 /// @brief Field Driver_Failed offset 0
-static ::OVR::OpenVR::EVRInitError const Driver_Failed;
+static OVR::OpenVR::EVRInitError const Driver_Failed;
 
 /// @brief Field Driver_Unknown offset 0
-static ::OVR::OpenVR::EVRInitError const Driver_Unknown;
+static OVR::OpenVR::EVRInitError const Driver_Unknown;
 
 /// @brief Field Driver_HmdUnknown offset 0
-static ::OVR::OpenVR::EVRInitError const Driver_HmdUnknown;
+static OVR::OpenVR::EVRInitError const Driver_HmdUnknown;
 
 /// @brief Field Driver_NotLoaded offset 0
-static ::OVR::OpenVR::EVRInitError const Driver_NotLoaded;
+static OVR::OpenVR::EVRInitError const Driver_NotLoaded;
 
 /// @brief Field Driver_RuntimeOutOfDate offset 0
-static ::OVR::OpenVR::EVRInitError const Driver_RuntimeOutOfDate;
+static OVR::OpenVR::EVRInitError const Driver_RuntimeOutOfDate;
 
 /// @brief Field Driver_HmdInUse offset 0
-static ::OVR::OpenVR::EVRInitError const Driver_HmdInUse;
+static OVR::OpenVR::EVRInitError const Driver_HmdInUse;
 
 /// @brief Field Driver_NotCalibrated offset 0
-static ::OVR::OpenVR::EVRInitError const Driver_NotCalibrated;
+static OVR::OpenVR::EVRInitError const Driver_NotCalibrated;
 
 /// @brief Field Driver_CalibrationInvalid offset 0
-static ::OVR::OpenVR::EVRInitError const Driver_CalibrationInvalid;
+static OVR::OpenVR::EVRInitError const Driver_CalibrationInvalid;
 
 /// @brief Field Driver_HmdDisplayNotFound offset 0
-static ::OVR::OpenVR::EVRInitError const Driver_HmdDisplayNotFound;
+static OVR::OpenVR::EVRInitError const Driver_HmdDisplayNotFound;
 
 /// @brief Field Driver_TrackedDeviceInterfaceUnknown offset 0
-static ::OVR::OpenVR::EVRInitError const Driver_TrackedDeviceInterfaceUnknown;
+static OVR::OpenVR::EVRInitError const Driver_TrackedDeviceInterfaceUnknown;
 
 /// @brief Field Driver_HmdDriverIdOutOfBounds offset 0
-static ::OVR::OpenVR::EVRInitError const Driver_HmdDriverIdOutOfBounds;
+static OVR::OpenVR::EVRInitError const Driver_HmdDriverIdOutOfBounds;
 
 /// @brief Field Driver_HmdDisplayMirrored offset 0
-static ::OVR::OpenVR::EVRInitError const Driver_HmdDisplayMirrored;
+static OVR::OpenVR::EVRInitError const Driver_HmdDisplayMirrored;
 
 /// @brief Field IPC_ServerInitFailed offset 0
-static ::OVR::OpenVR::EVRInitError const IPC_ServerInitFailed;
+static OVR::OpenVR::EVRInitError const IPC_ServerInitFailed;
 
 /// @brief Field IPC_ConnectFailed offset 0
-static ::OVR::OpenVR::EVRInitError const IPC_ConnectFailed;
+static OVR::OpenVR::EVRInitError const IPC_ConnectFailed;
 
 /// @brief Field IPC_SharedStateInitFailed offset 0
-static ::OVR::OpenVR::EVRInitError const IPC_SharedStateInitFailed;
+static OVR::OpenVR::EVRInitError const IPC_SharedStateInitFailed;
 
 /// @brief Field IPC_CompositorInitFailed offset 0
-static ::OVR::OpenVR::EVRInitError const IPC_CompositorInitFailed;
+static OVR::OpenVR::EVRInitError const IPC_CompositorInitFailed;
 
 /// @brief Field IPC_MutexInitFailed offset 0
-static ::OVR::OpenVR::EVRInitError const IPC_MutexInitFailed;
+static OVR::OpenVR::EVRInitError const IPC_MutexInitFailed;
 
 /// @brief Field IPC_Failed offset 0
-static ::OVR::OpenVR::EVRInitError const IPC_Failed;
+static OVR::OpenVR::EVRInitError const IPC_Failed;
 
 /// @brief Field IPC_CompositorConnectFailed offset 0
-static ::OVR::OpenVR::EVRInitError const IPC_CompositorConnectFailed;
+static OVR::OpenVR::EVRInitError const IPC_CompositorConnectFailed;
 
 /// @brief Field IPC_CompositorInvalidConnectResponse offset 0
-static ::OVR::OpenVR::EVRInitError const IPC_CompositorInvalidConnectResponse;
+static OVR::OpenVR::EVRInitError const IPC_CompositorInvalidConnectResponse;
 
 /// @brief Field IPC_ConnectFailedAfterMultipleAttempts offset 0
-static ::OVR::OpenVR::EVRInitError const IPC_ConnectFailedAfterMultipleAttempts;
+static OVR::OpenVR::EVRInitError const IPC_ConnectFailedAfterMultipleAttempts;
 
 /// @brief Field Compositor_Failed offset 0
-static ::OVR::OpenVR::EVRInitError const Compositor_Failed;
+static OVR::OpenVR::EVRInitError const Compositor_Failed;
 
 /// @brief Field Compositor_D3D11HardwareRequired offset 0
-static ::OVR::OpenVR::EVRInitError const Compositor_D3D11HardwareRequired;
+static OVR::OpenVR::EVRInitError const Compositor_D3D11HardwareRequired;
 
 /// @brief Field Compositor_FirmwareRequiresUpdate offset 0
-static ::OVR::OpenVR::EVRInitError const Compositor_FirmwareRequiresUpdate;
+static OVR::OpenVR::EVRInitError const Compositor_FirmwareRequiresUpdate;
 
 /// @brief Field Compositor_OverlayInitFailed offset 0
-static ::OVR::OpenVR::EVRInitError const Compositor_OverlayInitFailed;
+static OVR::OpenVR::EVRInitError const Compositor_OverlayInitFailed;
 
 /// @brief Field Compositor_ScreenshotsInitFailed offset 0
-static ::OVR::OpenVR::EVRInitError const Compositor_ScreenshotsInitFailed;
+static OVR::OpenVR::EVRInitError const Compositor_ScreenshotsInitFailed;
 
 /// @brief Field Compositor_UnableToCreateDevice offset 0
-static ::OVR::OpenVR::EVRInitError const Compositor_UnableToCreateDevice;
+static OVR::OpenVR::EVRInitError const Compositor_UnableToCreateDevice;
 
 /// @brief Field VendorSpecific_UnableToConnectToOculusRuntime offset 0
-static ::OVR::OpenVR::EVRInitError const VendorSpecific_UnableToConnectToOculusRuntime;
+static OVR::OpenVR::EVRInitError const VendorSpecific_UnableToConnectToOculusRuntime;
 
 /// @brief Field VendorSpecific_WindowsNotInDevMode offset 0
-static ::OVR::OpenVR::EVRInitError const VendorSpecific_WindowsNotInDevMode;
+static OVR::OpenVR::EVRInitError const VendorSpecific_WindowsNotInDevMode;
 
 /// @brief Field VendorSpecific_HmdFound_CantOpenDevice offset 0
-static ::OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_CantOpenDevice;
+static OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_CantOpenDevice;
 
 /// @brief Field VendorSpecific_HmdFound_UnableToRequestConfigStart offset 0
-static ::OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_UnableToRequestConfigStart;
+static OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_UnableToRequestConfigStart;
 
 /// @brief Field VendorSpecific_HmdFound_NoStoredConfig offset 0
-static ::OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_NoStoredConfig;
+static OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_NoStoredConfig;
 
 /// @brief Field VendorSpecific_HmdFound_ConfigTooBig offset 0
-static ::OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_ConfigTooBig;
+static OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_ConfigTooBig;
 
 /// @brief Field VendorSpecific_HmdFound_ConfigTooSmall offset 0
-static ::OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_ConfigTooSmall;
+static OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_ConfigTooSmall;
 
 /// @brief Field VendorSpecific_HmdFound_UnableToInitZLib offset 0
-static ::OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_UnableToInitZLib;
+static OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_UnableToInitZLib;
 
 /// @brief Field VendorSpecific_HmdFound_CantReadFirmwareVersion offset 0
-static ::OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_CantReadFirmwareVersion;
+static OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_CantReadFirmwareVersion;
 
 /// @brief Field VendorSpecific_HmdFound_UnableToSendUserDataStart offset 0
-static ::OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_UnableToSendUserDataStart;
+static OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_UnableToSendUserDataStart;
 
 /// @brief Field VendorSpecific_HmdFound_UnableToGetUserDataStart offset 0
-static ::OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_UnableToGetUserDataStart;
+static OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_UnableToGetUserDataStart;
 
 /// @brief Field VendorSpecific_HmdFound_UnableToGetUserDataNext offset 0
-static ::OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_UnableToGetUserDataNext;
+static OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_UnableToGetUserDataNext;
 
 /// @brief Field VendorSpecific_HmdFound_UserDataAddressRange offset 0
-static ::OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_UserDataAddressRange;
+static OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_UserDataAddressRange;
 
 /// @brief Field VendorSpecific_HmdFound_UserDataError offset 0
-static ::OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_UserDataError;
+static OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_UserDataError;
 
 /// @brief Field VendorSpecific_HmdFound_ConfigFailedSanityCheck offset 0
-static ::OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_ConfigFailedSanityCheck;
+static OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_ConfigFailedSanityCheck;
 
 /// @brief Field Steam_SteamInstallationNotFound offset 0
-static ::OVR::OpenVR::EVRInitError const Steam_SteamInstallationNotFound;
+static OVR::OpenVR::EVRInitError const Steam_SteamInstallationNotFound;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRInitError, "OVR.OpenVR", "EVRInitError");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRInitError, "OVR.OpenVR", "EVRInitError");

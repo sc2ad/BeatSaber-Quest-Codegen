@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine::Yoga {
 class YogaNode;
 }
@@ -18,7 +17,7 @@ namespace UnityEngine::Yoga {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15394))
 // CS Name: UnityEngine.Yoga.BaselineFunction
-class CORDL_TYPE BaselineFunction : public ::System::MulticastDelegate {
+class CORDL_TYPE BaselineFunction : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr BaselineFunction(BaselineFunction const& ) noexcept = default;
 constexpr BaselineFunction(BaselineFunction&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BaselineFunction(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit BaselineFunction(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -61,12 +60,11 @@ explicit BaselineFunction(::bs_hook::Il2CppWrapperType object, ::cordl_internals
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x2d2e390 size 0x14 virtual true final false
- float_t Invoke(::UnityEngine::Yoga::YogaNode node, float_t width, float_t height) ;
+ float_t Invoke(UnityEngine::Yoga::YogaNode node, float_t width, float_t height) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Yoga
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Yoga::BaselineFunction);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Yoga::BaselineFunction, "UnityEngine.Yoga", "BaselineFunction");
+NEED_NO_BOX(UnityEngine::Yoga::BaselineFunction);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Yoga::BaselineFunction, "UnityEngine.Yoga", "BaselineFunction");

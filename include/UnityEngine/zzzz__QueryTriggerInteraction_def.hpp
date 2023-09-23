@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct QueryTriggerInteraction;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field UseGlobal offset 0
-static ::UnityEngine::QueryTriggerInteraction const UseGlobal;
+static UnityEngine::QueryTriggerInteraction const UseGlobal;
 
 /// @brief Field Ignore offset 0
-static ::UnityEngine::QueryTriggerInteraction const Ignore;
+static UnityEngine::QueryTriggerInteraction const Ignore;
 
 /// @brief Field Collide offset 0
-static ::UnityEngine::QueryTriggerInteraction const Collide;
+static UnityEngine::QueryTriggerInteraction const Collide;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::QueryTriggerInteraction, "UnityEngine", "QueryTriggerInteraction");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::QueryTriggerInteraction, "UnityEngine", "QueryTriggerInteraction");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace IgnoranceCore {
 struct IgnoranceClientStats;
 }
@@ -23,8 +22,8 @@ namespace IgnoranceCore {
 struct CORDL_TYPE IgnoranceServerStats : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "BytesReceived", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "BytesSent", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "PacketsReceived", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "PacketsSent", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "PeersCount", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "PeerStats", ty: "::System::Collections::Generic::Dictionary_2<int32_t,::IgnoranceCore::IgnoranceClientStats>", modifiers: "", def_value: None }]
-constexpr IgnoranceServerStats(uint64_t BytesReceived, uint64_t BytesSent, uint64_t PacketsReceived, uint64_t PacketsSent, uint64_t PeersCount, ::System::Collections::Generic::Dictionary_2<int32_t,::IgnoranceCore::IgnoranceClientStats> PeerStats) noexcept;
+// Ctor Parameters [CppParam { name: "BytesReceived", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "BytesSent", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "PacketsReceived", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "PacketsSent", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "PeersCount", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "PeerStats", ty: "System::Collections::Generic::Dictionary_2<int32_t,IgnoranceCore::IgnoranceClientStats>", modifiers: "", def_value: None }]
+constexpr IgnoranceServerStats(uint64_t BytesReceived, uint64_t BytesSent, uint64_t PacketsReceived, uint64_t PacketsSent, uint64_t PeersCount, System::Collections::Generic::Dictionary_2<int32_t,IgnoranceCore::IgnoranceClientStats> PeerStats) noexcept;
 
 
                     constexpr IgnoranceServerStats(IgnoranceServerStats const&) = default;
@@ -87,15 +86,14 @@ constexpr void __set_PeersCount(uint64_t value) ;
 
 constexpr uint64_t __get_PeersCount() const;
 
- ::System::Collections::Generic::Dictionary_2<int32_t,::IgnoranceCore::IgnoranceClientStats> __declspec(property(get=__get_PeerStats, put=__set_PeerStats))  PeerStats;
+ System::Collections::Generic::Dictionary_2<int32_t,IgnoranceCore::IgnoranceClientStats> __declspec(property(get=__get_PeerStats, put=__set_PeerStats))  PeerStats;
 
-constexpr void __set_PeerStats(::System::Collections::Generic::Dictionary_2<int32_t,::IgnoranceCore::IgnoranceClientStats> value) ;
+constexpr void __set_PeerStats(System::Collections::Generic::Dictionary_2<int32_t,IgnoranceCore::IgnoranceClientStats> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<int32_t,::IgnoranceCore::IgnoranceClientStats> __get_PeerStats() const;
+constexpr System::Collections::Generic::Dictionary_2<int32_t,IgnoranceCore::IgnoranceClientStats> __get_PeerStats() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def IgnoranceCore
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::IgnoranceCore::IgnoranceServerStats, "IgnoranceCore", "IgnoranceServerStats");
+DEFINE_IL2CPP_ARG_TYPE(IgnoranceCore::IgnoranceServerStats, "IgnoranceCore", "IgnoranceServerStats");

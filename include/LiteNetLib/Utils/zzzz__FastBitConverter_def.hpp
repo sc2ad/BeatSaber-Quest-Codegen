@@ -5,16 +5,15 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace LiteNetLib::Utils {
 class FastBitConverter;
 }
 namespace LiteNetLib::Utils {
-struct ____LiteNetLib__Utils__FastBitConverter__ConverterHelperDouble;
+struct LiteNetLib__Utils__FastBitConverter__ConverterHelperDouble;
 }
 namespace LiteNetLib::Utils {
-struct ____LiteNetLib__Utils__FastBitConverter__ConverterHelperFloat;
+struct LiteNetLib__Utils__FastBitConverter__ConverterHelperFloat;
 }
 // Type: ::ConverterHelperDouble
 namespace LiteNetLib::Utils {
@@ -22,20 +21,20 @@ namespace LiteNetLib::Utils {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14470))
 // CS Name: LiteNetLib.Utils.FastBitConverter::ConverterHelperDouble
-struct CORDL_TYPE ____LiteNetLib__Utils__FastBitConverter__ConverterHelperDouble : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE LiteNetLib__Utils__FastBitConverter__ConverterHelperDouble : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "Along", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Adouble", ty: "double_t", modifiers: "", def_value: None }]
-constexpr ____LiteNetLib__Utils__FastBitConverter__ConverterHelperDouble(uint64_t Along, double_t Adouble) noexcept;
+constexpr LiteNetLib__Utils__FastBitConverter__ConverterHelperDouble(uint64_t Along, double_t Adouble) noexcept;
 
 
-                    constexpr ____LiteNetLib__Utils__FastBitConverter__ConverterHelperDouble(____LiteNetLib__Utils__FastBitConverter__ConverterHelperDouble const&) = default;
-                    constexpr ____LiteNetLib__Utils__FastBitConverter__ConverterHelperDouble(____LiteNetLib__Utils__FastBitConverter__ConverterHelperDouble&&) = default;
-                    constexpr ____LiteNetLib__Utils__FastBitConverter__ConverterHelperDouble& operator=(____LiteNetLib__Utils__FastBitConverter__ConverterHelperDouble const& o) {
+                    constexpr LiteNetLib__Utils__FastBitConverter__ConverterHelperDouble(LiteNetLib__Utils__FastBitConverter__ConverterHelperDouble const&) = default;
+                    constexpr LiteNetLib__Utils__FastBitConverter__ConverterHelperDouble(LiteNetLib__Utils__FastBitConverter__ConverterHelperDouble&&) = default;
+                    constexpr LiteNetLib__Utils__FastBitConverter__ConverterHelperDouble& operator=(LiteNetLib__Utils__FastBitConverter__ConverterHelperDouble const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____LiteNetLib__Utils__FastBitConverter__ConverterHelperDouble& operator=(____LiteNetLib__Utils__FastBitConverter__ConverterHelperDouble&& o) noexcept {
+                    constexpr LiteNetLib__Utils__FastBitConverter__ConverterHelperDouble& operator=(LiteNetLib__Utils__FastBitConverter__ConverterHelperDouble&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -48,7 +47,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x8};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____LiteNetLib__Utils__FastBitConverter__ConverterHelperDouble(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit LiteNetLib__Utils__FastBitConverter__ConverterHelperDouble(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -81,20 +80,20 @@ namespace LiteNetLib::Utils {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14471))
 // CS Name: LiteNetLib.Utils.FastBitConverter::ConverterHelperFloat
-struct CORDL_TYPE ____LiteNetLib__Utils__FastBitConverter__ConverterHelperFloat : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE LiteNetLib__Utils__FastBitConverter__ConverterHelperFloat : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "Aint", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Afloat", ty: "float_t", modifiers: "", def_value: None }]
-constexpr ____LiteNetLib__Utils__FastBitConverter__ConverterHelperFloat(int32_t Aint, float_t Afloat) noexcept;
+constexpr LiteNetLib__Utils__FastBitConverter__ConverterHelperFloat(int32_t Aint, float_t Afloat) noexcept;
 
 
-                    constexpr ____LiteNetLib__Utils__FastBitConverter__ConverterHelperFloat(____LiteNetLib__Utils__FastBitConverter__ConverterHelperFloat const&) = default;
-                    constexpr ____LiteNetLib__Utils__FastBitConverter__ConverterHelperFloat(____LiteNetLib__Utils__FastBitConverter__ConverterHelperFloat&&) = default;
-                    constexpr ____LiteNetLib__Utils__FastBitConverter__ConverterHelperFloat& operator=(____LiteNetLib__Utils__FastBitConverter__ConverterHelperFloat const& o) {
+                    constexpr LiteNetLib__Utils__FastBitConverter__ConverterHelperFloat(LiteNetLib__Utils__FastBitConverter__ConverterHelperFloat const&) = default;
+                    constexpr LiteNetLib__Utils__FastBitConverter__ConverterHelperFloat(LiteNetLib__Utils__FastBitConverter__ConverterHelperFloat&&) = default;
+                    constexpr LiteNetLib__Utils__FastBitConverter__ConverterHelperFloat& operator=(LiteNetLib__Utils__FastBitConverter__ConverterHelperFloat const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____LiteNetLib__Utils__FastBitConverter__ConverterHelperFloat& operator=(____LiteNetLib__Utils__FastBitConverter__ConverterHelperFloat&& o) noexcept {
+                    constexpr LiteNetLib__Utils__FastBitConverter__ConverterHelperFloat& operator=(LiteNetLib__Utils__FastBitConverter__ConverterHelperFloat&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -107,7 +106,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____LiteNetLib__Utils__FastBitConverter__ConverterHelperFloat(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit LiteNetLib__Utils__FastBitConverter__ConverterHelperFloat(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -143,9 +142,9 @@ namespace LiteNetLib::Utils {
 class CORDL_TYPE FastBitConverter : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using ConverterHelperFloat = ::LiteNetLib::Utils::____LiteNetLib__Utils__FastBitConverter__ConverterHelperFloat;
+using ConverterHelperFloat = LiteNetLib::Utils::LiteNetLib__Utils__FastBitConverter__ConverterHelperFloat;
 
-using ConverterHelperDouble = ::LiteNetLib::Utils::____LiteNetLib__Utils__FastBitConverter__ConverterHelperDouble;
+using ConverterHelperDouble = LiteNetLib::Utils::LiteNetLib__Utils__FastBitConverter__ConverterHelperDouble;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -217,8 +216,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib::Utils
-} // end anonymous namespace
-NEED_NO_BOX(::LiteNetLib::Utils::FastBitConverter);
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::Utils::FastBitConverter, "LiteNetLib.Utils", "FastBitConverter");
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::Utils::____LiteNetLib__Utils__FastBitConverter__ConverterHelperDouble, "LiteNetLib.Utils", "FastBitConverter/ConverterHelperDouble");
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::Utils::____LiteNetLib__Utils__FastBitConverter__ConverterHelperFloat, "LiteNetLib.Utils", "FastBitConverter/ConverterHelperFloat");
+NEED_NO_BOX(LiteNetLib::Utils::FastBitConverter);
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::FastBitConverter, "LiteNetLib.Utils", "FastBitConverter");
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::LiteNetLib__Utils__FastBitConverter__ConverterHelperDouble, "LiteNetLib.Utils", "FastBitConverter/ConverterHelperDouble");
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::LiteNetLib__Utils__FastBitConverter__ConverterHelperFloat, "LiteNetLib.Utils", "FastBitConverter/ConverterHelperFloat");

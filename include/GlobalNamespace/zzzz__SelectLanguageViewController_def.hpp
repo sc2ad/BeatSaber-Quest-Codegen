@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
-namespace {
-namespace System {
-class Action;
-}
 namespace UnityEngine::UI {
 class Button;
+}
+namespace System {
+class Action;
 }
 namespace GlobalNamespace {
 class LanguageSettingsController;
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13656))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5842))
 // CS Name: SelectLanguageViewController
-class CORDL_TYPE SelectLanguageViewController : public ::HMUI::ViewController {
+class CORDL_TYPE SelectLanguageViewController : public HMUI::ViewController {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr SelectLanguageViewController(SelectLanguageViewController const& ) noe
 constexpr SelectLanguageViewController(SelectLanguageViewController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SelectLanguageViewController(void* ptr) noexcept : ::HMUI::ViewController(ptr) {
+constexpr explicit SelectLanguageViewController(void* ptr) noexcept : HMUI::ViewController(ptr) {
 }
 
 
@@ -57,44 +56,44 @@ constexpr explicit SelectLanguageViewController(void* ptr) noexcept : ::HMUI::Vi
 
 // Fields
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__continueButton, put=__set__continueButton))  _continueButton;
+ UnityEngine::UI::Button __declspec(property(get=__get__continueButton, put=__set__continueButton))  _continueButton;
 
-constexpr void __set__continueButton(::UnityEngine::UI::Button value) ;
+constexpr void __set__continueButton(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__continueButton() const;
+constexpr UnityEngine::UI::Button __get__continueButton() const;
 
- ::GlobalNamespace::LanguageSettingsController __declspec(property(get=__get__languageSettingsController, put=__set__languageSettingsController))  _languageSettingsController;
+ GlobalNamespace::LanguageSettingsController __declspec(property(get=__get__languageSettingsController, put=__set__languageSettingsController))  _languageSettingsController;
 
-constexpr void __set__languageSettingsController(::GlobalNamespace::LanguageSettingsController value) ;
+constexpr void __set__languageSettingsController(GlobalNamespace::LanguageSettingsController value) ;
 
-constexpr ::GlobalNamespace::LanguageSettingsController __get__languageSettingsController() const;
+constexpr GlobalNamespace::LanguageSettingsController __get__languageSettingsController() const;
 
- ::System::Action __declspec(property(get=__get_didChangeLanguageEvent, put=__set_didChangeLanguageEvent))  didChangeLanguageEvent;
+ System::Action __declspec(property(get=__get_didChangeLanguageEvent, put=__set_didChangeLanguageEvent))  didChangeLanguageEvent;
 
-constexpr void __set_didChangeLanguageEvent(::System::Action value) ;
+constexpr void __set_didChangeLanguageEvent(System::Action value) ;
 
-constexpr ::System::Action __get_didChangeLanguageEvent() const;
+constexpr System::Action __get_didChangeLanguageEvent() const;
 
- ::System::Action __declspec(property(get=__get_didPressContinueButtonEvent, put=__set_didPressContinueButtonEvent))  didPressContinueButtonEvent;
+ System::Action __declspec(property(get=__get_didPressContinueButtonEvent, put=__set_didPressContinueButtonEvent))  didPressContinueButtonEvent;
 
-constexpr void __set_didPressContinueButtonEvent(::System::Action value) ;
+constexpr void __set_didPressContinueButtonEvent(System::Action value) ;
 
-constexpr ::System::Action __get_didPressContinueButtonEvent() const;
+constexpr System::Action __get_didPressContinueButtonEvent() const;
 
 
 // Methods
 
 /// @brief Method add_didChangeLanguageEvent addr 0x2180d44 size 0x9c virtual false final false
- void add_didChangeLanguageEvent(::System::Action value) ;
+ void add_didChangeLanguageEvent(System::Action value) ;
 
 /// @brief Method remove_didChangeLanguageEvent addr 0x2180de0 size 0x9c virtual false final false
- void remove_didChangeLanguageEvent(::System::Action value) ;
+ void remove_didChangeLanguageEvent(System::Action value) ;
 
 /// @brief Method add_didPressContinueButtonEvent addr 0x2180e7c size 0x9c virtual false final false
- void add_didPressContinueButtonEvent(::System::Action value) ;
+ void add_didPressContinueButtonEvent(System::Action value) ;
 
 /// @brief Method remove_didPressContinueButtonEvent addr 0x2180f18 size 0x9c virtual false final false
- void remove_didPressContinueButtonEvent(::System::Action value) ;
+ void remove_didPressContinueButtonEvent(System::Action value) ;
 
 /// @brief Method DidActivate addr 0x2180fb4 size 0x100 virtual true final false
  void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) ;
@@ -118,6 +117,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SelectLanguageViewController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SelectLanguageViewController, "", "SelectLanguageViewController");
+NEED_NO_BOX(GlobalNamespace::SelectLanguageViewController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLanguageViewController, "", "SelectLanguageViewController");

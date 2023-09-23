@@ -1,25 +1,24 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
-namespace {
-namespace UnityEngine {
-struct Color;
-}
 namespace GlobalNamespace {
 class PreviousColorPanelController;
-}
-namespace GlobalNamespace {
-struct ColorChangeUIEventType;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace GlobalNamespace {
-class HSVPanelController;
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine::UI {
 class Button;
+}
+namespace GlobalNamespace {
+struct ColorChangeUIEventType;
+}
+namespace GlobalNamespace {
+class HSVPanelController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -31,7 +30,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13656))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5502))
 // CS Name: EditColorController
-class CORDL_TYPE EditColorController : public ::HMUI::ViewController {
+class CORDL_TYPE EditColorController : public HMUI::ViewController {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -46,7 +45,7 @@ constexpr EditColorController(EditColorController const& ) noexcept = default;
 constexpr EditColorController(EditColorController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EditColorController(void* ptr) noexcept : ::HMUI::ViewController(ptr) {
+constexpr explicit EditColorController(void* ptr) noexcept : HMUI::ViewController(ptr) {
 }
 
 
@@ -67,53 +66,53 @@ constexpr explicit EditColorController(void* ptr) noexcept : ::HMUI::ViewControl
 
 // Fields
 
- ::GlobalNamespace::HSVPanelController __declspec(property(get=__get__hsvPanelController, put=__set__hsvPanelController))  _hsvPanelController;
+ GlobalNamespace::HSVPanelController __declspec(property(get=__get__hsvPanelController, put=__set__hsvPanelController))  _hsvPanelController;
 
-constexpr void __set__hsvPanelController(::GlobalNamespace::HSVPanelController value) ;
+constexpr void __set__hsvPanelController(GlobalNamespace::HSVPanelController value) ;
 
-constexpr ::GlobalNamespace::HSVPanelController __get__hsvPanelController() const;
+constexpr GlobalNamespace::HSVPanelController __get__hsvPanelController() const;
 
- ::GlobalNamespace::PreviousColorPanelController __declspec(property(get=__get__previousColorPanelController, put=__set__previousColorPanelController))  _previousColorPanelController;
+ GlobalNamespace::PreviousColorPanelController __declspec(property(get=__get__previousColorPanelController, put=__set__previousColorPanelController))  _previousColorPanelController;
 
-constexpr void __set__previousColorPanelController(::GlobalNamespace::PreviousColorPanelController value) ;
+constexpr void __set__previousColorPanelController(GlobalNamespace::PreviousColorPanelController value) ;
 
-constexpr ::GlobalNamespace::PreviousColorPanelController __get__previousColorPanelController() const;
+constexpr GlobalNamespace::PreviousColorPanelController __get__previousColorPanelController() const;
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__cancelButton, put=__set__cancelButton))  _cancelButton;
+ UnityEngine::UI::Button __declspec(property(get=__get__cancelButton, put=__set__cancelButton))  _cancelButton;
 
-constexpr void __set__cancelButton(::UnityEngine::UI::Button value) ;
+constexpr void __set__cancelButton(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__cancelButton() const;
+constexpr UnityEngine::UI::Button __get__cancelButton() const;
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__applyButton, put=__set__applyButton))  _applyButton;
+ UnityEngine::UI::Button __declspec(property(get=__get__applyButton, put=__set__applyButton))  _applyButton;
 
-constexpr void __set__applyButton(::UnityEngine::UI::Button value) ;
+constexpr void __set__applyButton(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__applyButton() const;
+constexpr UnityEngine::UI::Button __get__applyButton() const;
 
- ::System::Action_1<::UnityEngine::Color> __declspec(property(get=__get_didChangeColorEvent, put=__set_didChangeColorEvent))  didChangeColorEvent;
+ System::Action_1<UnityEngine::Color> __declspec(property(get=__get_didChangeColorEvent, put=__set_didChangeColorEvent))  didChangeColorEvent;
 
-constexpr void __set_didChangeColorEvent(::System::Action_1<::UnityEngine::Color> value) ;
+constexpr void __set_didChangeColorEvent(System::Action_1<UnityEngine::Color> value) ;
 
-constexpr ::System::Action_1<::UnityEngine::Color> __get_didChangeColorEvent() const;
+constexpr System::Action_1<UnityEngine::Color> __get_didChangeColorEvent() const;
 
- ::System::Action_1<bool> __declspec(property(get=__get_didFinishEvent, put=__set_didFinishEvent))  didFinishEvent;
+ System::Action_1<bool> __declspec(property(get=__get_didFinishEvent, put=__set_didFinishEvent))  didFinishEvent;
 
-constexpr void __set_didFinishEvent(::System::Action_1<bool> value) ;
+constexpr void __set_didFinishEvent(System::Action_1<bool> value) ;
 
-constexpr ::System::Action_1<bool> __get_didFinishEvent() const;
+constexpr System::Action_1<bool> __get_didFinishEvent() const;
 
- ::System::Action_1<::UnityEngine::Color> __declspec(property(get=__get__colorCallback, put=__set__colorCallback))  _colorCallback;
+ System::Action_1<UnityEngine::Color> __declspec(property(get=__get__colorCallback, put=__set__colorCallback))  _colorCallback;
 
-constexpr void __set__colorCallback(::System::Action_1<::UnityEngine::Color> value) ;
+constexpr void __set__colorCallback(System::Action_1<UnityEngine::Color> value) ;
 
-constexpr ::System::Action_1<::UnityEngine::Color> __get__colorCallback() const;
+constexpr System::Action_1<UnityEngine::Color> __get__colorCallback() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__initialColor, put=__set__initialColor))  _initialColor;
+ UnityEngine::Color __declspec(property(get=__get__initialColor, put=__set__initialColor))  _initialColor;
 
-constexpr void __set__initialColor(::UnityEngine::Color value) ;
+constexpr void __set__initialColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__initialColor() const;
+constexpr UnityEngine::Color __get__initialColor() const;
 
  bool __declspec(property(get=__get__colorChanged, put=__set__colorChanged))  _colorChanged;
 
@@ -125,22 +124,22 @@ constexpr bool __get__colorChanged() const;
 // Methods
 
 /// @brief Method add_didChangeColorEvent addr 0x211f628 size 0xb0 virtual false final false
- void add_didChangeColorEvent(::System::Action_1<::UnityEngine::Color> value) ;
+ void add_didChangeColorEvent(System::Action_1<UnityEngine::Color> value) ;
 
 /// @brief Method remove_didChangeColorEvent addr 0x211f6d8 size 0xb0 virtual false final false
- void remove_didChangeColorEvent(::System::Action_1<::UnityEngine::Color> value) ;
+ void remove_didChangeColorEvent(System::Action_1<UnityEngine::Color> value) ;
 
 /// @brief Method add_didFinishEvent addr 0x211f788 size 0xb0 virtual false final false
- void add_didFinishEvent(::System::Action_1<bool> value) ;
+ void add_didFinishEvent(System::Action_1<bool> value) ;
 
 /// @brief Method remove_didFinishEvent addr 0x211f838 size 0xb0 virtual false final false
- void remove_didFinishEvent(::System::Action_1<bool> value) ;
+ void remove_didFinishEvent(System::Action_1<bool> value) ;
 
 /// @brief Method SetColorCallback addr 0x211f8e8 size 0x8 virtual false final false
- void SetColorCallback(::System::Action_1<::UnityEngine::Color> colorCallback) ;
+ void SetColorCallback(System::Action_1<UnityEngine::Color> colorCallback) ;
 
 /// @brief Method SetColor addr 0x211f8f0 size 0x60 virtual false final false
- void SetColor(::UnityEngine::Color color) ;
+ void SetColor(UnityEngine::Color color) ;
 
 /// @brief Method DidActivate addr 0x211fa40 size 0x1b8 virtual true final false
  void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) ;
@@ -149,10 +148,10 @@ constexpr bool __get__colorChanged() const;
  void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling) ;
 
 /// @brief Method HandleHSVPanelControllerColorDidChange addr 0x211ffa4 size 0x6c virtual false final false
- void HandleHSVPanelControllerColorDidChange(::UnityEngine::Color color, ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType) ;
+ void HandleHSVPanelControllerColorDidChange(UnityEngine::Color color, GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType) ;
 
 /// @brief Method HandlePreviousColorPanelControllerColorWasSelected addr 0x21200a4 size 0x68 virtual false final false
- void HandlePreviousColorPanelControllerColorWasSelected(::UnityEngine::Color color) ;
+ void HandlePreviousColorPanelControllerColorWasSelected(UnityEngine::Color color) ;
 
 /// @brief Method HandleCancelButtonWasPressed addr 0x2120118 size 0x58 virtual false final false
  void HandleCancelButtonWasPressed() ;
@@ -161,7 +160,7 @@ constexpr bool __get__colorChanged() const;
  void HandleApplyButtonWasPressed() ;
 
 /// @brief Method ChangeColor addr 0x2120010 size 0x94 virtual false final false
- void ChangeColor(::UnityEngine::Color color) ;
+ void ChangeColor(UnityEngine::Color color) ;
 
 // Ctor Parameters []
 explicit EditColorController() ;
@@ -173,6 +172,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::EditColorController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EditColorController, "", "EditColorController");
+NEED_NO_BOX(GlobalNamespace::EditColorController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditColorController, "", "EditColorController");

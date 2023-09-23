@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__UserCapabilityList_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
 class UserCapabilityList;
 }
@@ -14,10 +13,10 @@ class MessageWithUserCapabilityList;
 // Type: Oculus.Platform::MessageWithUserCapabilityList
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13485)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4477 }), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4477 }), TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(13485))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13286))
 // CS Name: Oculus.Platform.MessageWithUserCapabilityList
-class CORDL_TYPE MessageWithUserCapabilityList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserCapabilityList> {
+class CORDL_TYPE MessageWithUserCapabilityList : public Oculus::Platform::Message_1<Oculus::Platform::Models::UserCapabilityList> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr MessageWithUserCapabilityList(MessageWithUserCapabilityList const& ) n
 constexpr MessageWithUserCapabilityList(MessageWithUserCapabilityList&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MessageWithUserCapabilityList(void* ptr) noexcept : ::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserCapabilityList>(ptr) {
+constexpr explicit MessageWithUserCapabilityList(void* ptr) noexcept : Oculus::Platform::Message_1<Oculus::Platform::Models::UserCapabilityList>(ptr) {
 }
 
 
@@ -60,15 +59,14 @@ explicit MessageWithUserCapabilityList(::cordl_internals::intptr_t c_message) ;
  void _ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method GetUserCapabilityList addr 0x2584080 size 0x3c virtual true final false
- ::Oculus::Platform::Models::UserCapabilityList GetUserCapabilityList() ;
+ Oculus::Platform::Models::UserCapabilityList GetUserCapabilityList() ;
 
 /// @brief Method GetDataFromMessage addr 0x25840bc size 0x9c virtual true final false
- ::Oculus::Platform::Models::UserCapabilityList GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
+ Oculus::Platform::Models::UserCapabilityList GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::MessageWithUserCapabilityList);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithUserCapabilityList, "Oculus.Platform", "MessageWithUserCapabilityList");
+NEED_NO_BOX(Oculus::Platform::MessageWithUserCapabilityList);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithUserCapabilityList, "Oculus.Platform", "MessageWithUserCapabilityList");

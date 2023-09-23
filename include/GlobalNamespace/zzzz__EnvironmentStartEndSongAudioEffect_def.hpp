@@ -3,7 +3,12 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
-namespace {
+namespace UnityEngine {
+class AudioClip;
+}
+namespace GlobalNamespace {
+class IGamePause;
+}
 namespace GlobalNamespace {
 class ILevelEndActions;
 }
@@ -12,12 +17,6 @@ class IAudioTimeSource;
 }
 namespace GlobalNamespace {
 class EnvironmentAudioEffectsPlayer;
-}
-namespace UnityEngine {
-class AudioClip;
-}
-namespace GlobalNamespace {
-class IGamePause;
 }
 namespace GlobalNamespace {
 struct EnvironmentContext;
@@ -32,7 +31,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4048))
 // CS Name: EnvironmentStartEndSongAudioEffect
-class CORDL_TYPE EnvironmentStartEndSongAudioEffect : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE EnvironmentStartEndSongAudioEffect : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -47,7 +46,7 @@ constexpr EnvironmentStartEndSongAudioEffect(EnvironmentStartEndSongAudioEffect 
 constexpr EnvironmentStartEndSongAudioEffect(EnvironmentStartEndSongAudioEffect&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EnvironmentStartEndSongAudioEffect(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit EnvironmentStartEndSongAudioEffect(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -98,53 +97,53 @@ constexpr void __set__songFailedAudioClipVolume(float_t value) ;
 
 constexpr float_t __get__songFailedAudioClipVolume() const;
 
- ::ArrayW<::UnityEngine::AudioClip> __declspec(property(get=__get__songStartAudioClips, put=__set__songStartAudioClips))  _songStartAudioClips;
+ ::ArrayW<UnityEngine::AudioClip> __declspec(property(get=__get__songStartAudioClips, put=__set__songStartAudioClips))  _songStartAudioClips;
 
-constexpr void __set__songStartAudioClips(::ArrayW<::UnityEngine::AudioClip> value) ;
+constexpr void __set__songStartAudioClips(::ArrayW<UnityEngine::AudioClip> value) ;
 
-constexpr ::ArrayW<::UnityEngine::AudioClip> __get__songStartAudioClips() const;
+constexpr ::ArrayW<UnityEngine::AudioClip> __get__songStartAudioClips() const;
 
- ::ArrayW<::UnityEngine::AudioClip> __declspec(property(get=__get__songFinishedAudioClips, put=__set__songFinishedAudioClips))  _songFinishedAudioClips;
+ ::ArrayW<UnityEngine::AudioClip> __declspec(property(get=__get__songFinishedAudioClips, put=__set__songFinishedAudioClips))  _songFinishedAudioClips;
 
-constexpr void __set__songFinishedAudioClips(::ArrayW<::UnityEngine::AudioClip> value) ;
+constexpr void __set__songFinishedAudioClips(::ArrayW<UnityEngine::AudioClip> value) ;
 
-constexpr ::ArrayW<::UnityEngine::AudioClip> __get__songFinishedAudioClips() const;
+constexpr ::ArrayW<UnityEngine::AudioClip> __get__songFinishedAudioClips() const;
 
- ::ArrayW<::UnityEngine::AudioClip> __declspec(property(get=__get__songFailedAudioClips, put=__set__songFailedAudioClips))  _songFailedAudioClips;
+ ::ArrayW<UnityEngine::AudioClip> __declspec(property(get=__get__songFailedAudioClips, put=__set__songFailedAudioClips))  _songFailedAudioClips;
 
-constexpr void __set__songFailedAudioClips(::ArrayW<::UnityEngine::AudioClip> value) ;
+constexpr void __set__songFailedAudioClips(::ArrayW<UnityEngine::AudioClip> value) ;
 
-constexpr ::ArrayW<::UnityEngine::AudioClip> __get__songFailedAudioClips() const;
+constexpr ::ArrayW<UnityEngine::AudioClip> __get__songFailedAudioClips() const;
 
- ::GlobalNamespace::ILevelEndActions __declspec(property(get=__get__levelEndActions, put=__set__levelEndActions))  _levelEndActions;
+ GlobalNamespace::ILevelEndActions __declspec(property(get=__get__levelEndActions, put=__set__levelEndActions))  _levelEndActions;
 
-constexpr void __set__levelEndActions(::GlobalNamespace::ILevelEndActions value) ;
+constexpr void __set__levelEndActions(GlobalNamespace::ILevelEndActions value) ;
 
-constexpr ::GlobalNamespace::ILevelEndActions __get__levelEndActions() const;
+constexpr GlobalNamespace::ILevelEndActions __get__levelEndActions() const;
 
- ::GlobalNamespace::IAudioTimeSource __declspec(property(get=__get__audioTimeSource, put=__set__audioTimeSource))  _audioTimeSource;
+ GlobalNamespace::IAudioTimeSource __declspec(property(get=__get__audioTimeSource, put=__set__audioTimeSource))  _audioTimeSource;
 
-constexpr void __set__audioTimeSource(::GlobalNamespace::IAudioTimeSource value) ;
+constexpr void __set__audioTimeSource(GlobalNamespace::IAudioTimeSource value) ;
 
-constexpr ::GlobalNamespace::IAudioTimeSource __get__audioTimeSource() const;
+constexpr GlobalNamespace::IAudioTimeSource __get__audioTimeSource() const;
 
- ::GlobalNamespace::IGamePause __declspec(property(get=__get__gamePause, put=__set__gamePause))  _gamePause;
+ GlobalNamespace::IGamePause __declspec(property(get=__get__gamePause, put=__set__gamePause))  _gamePause;
 
-constexpr void __set__gamePause(::GlobalNamespace::IGamePause value) ;
+constexpr void __set__gamePause(GlobalNamespace::IGamePause value) ;
 
-constexpr ::GlobalNamespace::IGamePause __get__gamePause() const;
+constexpr GlobalNamespace::IGamePause __get__gamePause() const;
 
- ::GlobalNamespace::EnvironmentAudioEffectsPlayer __declspec(property(get=__get__audioEffectsPlayer, put=__set__audioEffectsPlayer))  _audioEffectsPlayer;
+ GlobalNamespace::EnvironmentAudioEffectsPlayer __declspec(property(get=__get__audioEffectsPlayer, put=__set__audioEffectsPlayer))  _audioEffectsPlayer;
 
-constexpr void __set__audioEffectsPlayer(::GlobalNamespace::EnvironmentAudioEffectsPlayer value) ;
+constexpr void __set__audioEffectsPlayer(GlobalNamespace::EnvironmentAudioEffectsPlayer value) ;
 
-constexpr ::GlobalNamespace::EnvironmentAudioEffectsPlayer __get__audioEffectsPlayer() const;
+constexpr GlobalNamespace::EnvironmentAudioEffectsPlayer __get__audioEffectsPlayer() const;
 
- ::GlobalNamespace::EnvironmentContext __declspec(property(get=__get__environmentContext, put=__set__environmentContext))  _environmentContext;
+ GlobalNamespace::EnvironmentContext __declspec(property(get=__get__environmentContext, put=__set__environmentContext))  _environmentContext;
 
-constexpr void __set__environmentContext(::GlobalNamespace::EnvironmentContext value) ;
+constexpr void __set__environmentContext(GlobalNamespace::EnvironmentContext value) ;
 
-constexpr ::GlobalNamespace::EnvironmentContext __get__environmentContext() const;
+constexpr GlobalNamespace::EnvironmentContext __get__environmentContext() const;
 
 /// @brief Field kSmallSongTime offset 0
 static constexpr float_t  kSmallSongTime{0.5};
@@ -195,6 +194,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::EnvironmentStartEndSongAudioEffect);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EnvironmentStartEndSongAudioEffect, "", "EnvironmentStartEndSongAudioEffect");
+NEED_NO_BOX(GlobalNamespace::EnvironmentStartEndSongAudioEffect);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentStartEndSongAudioEffect, "", "EnvironmentStartEndSongAudioEffect");

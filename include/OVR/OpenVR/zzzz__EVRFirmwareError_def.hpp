@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct EVRFirmwareError;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::OVR::OpenVR::EVRFirmwareError const None;
+static OVR::OpenVR::EVRFirmwareError const None;
 
 /// @brief Field Success offset 0
-static ::OVR::OpenVR::EVRFirmwareError const Success;
+static OVR::OpenVR::EVRFirmwareError const Success;
 
 /// @brief Field Fail offset 0
-static ::OVR::OpenVR::EVRFirmwareError const Fail;
+static OVR::OpenVR::EVRFirmwareError const Fail;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRFirmwareError, "OVR.OpenVR", "EVRFirmwareError");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRFirmwareError, "OVR.OpenVR", "EVRFirmwareError");

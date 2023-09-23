@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
 struct PublicKeyAlgorithmTag;
@@ -87,74 +86,73 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field RsaGeneral offset 0
-static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const RsaGeneral;
+static Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const RsaGeneral;
 
 /// @brief Field RsaEncrypt offset 0
-static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const RsaEncrypt;
+static Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const RsaEncrypt;
 
 /// @brief Field RsaSign offset 0
-static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const RsaSign;
+static Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const RsaSign;
 
 /// @brief Field ElGamalEncrypt offset 0
-static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const ElGamalEncrypt;
+static Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const ElGamalEncrypt;
 
 /// @brief Field Dsa offset 0
-static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const Dsa;
+static Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const Dsa;
 
 /// @brief Field EC offset 0
-static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const EC;
+static Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const EC;
 
 /// @brief Field ECDH offset 0
-static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const ECDH;
+static Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const ECDH;
 
 /// @brief Field ECDsa offset 0
-static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const ECDsa;
+static Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const ECDsa;
 
 /// @brief Field ElGamalGeneral offset 0
-static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const ElGamalGeneral;
+static Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const ElGamalGeneral;
 
 /// @brief Field DiffieHellman offset 0
-static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const DiffieHellman;
+static Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const DiffieHellman;
 
 /// @brief Field EdDsa offset 0
-static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const EdDsa;
+static Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const EdDsa;
 
 /// @brief Field Experimental_1 offset 0
-static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const Experimental_1;
+static Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const Experimental_1;
 
 /// @brief Field Experimental_2 offset 0
-static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const Experimental_2;
+static Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const Experimental_2;
 
 /// @brief Field Experimental_3 offset 0
-static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const Experimental_3;
+static Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const Experimental_3;
 
 /// @brief Field Experimental_4 offset 0
-static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const Experimental_4;
+static Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const Experimental_4;
 
 /// @brief Field Experimental_5 offset 0
-static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const Experimental_5;
+static Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const Experimental_5;
 
 /// @brief Field Experimental_6 offset 0
-static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const Experimental_6;
+static Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const Experimental_6;
 
 /// @brief Field Experimental_7 offset 0
-static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const Experimental_7;
+static Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const Experimental_7;
 
 /// @brief Field Experimental_8 offset 0
-static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const Experimental_8;
+static Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const Experimental_8;
 
 /// @brief Field Experimental_9 offset 0
-static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const Experimental_9;
+static Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const Experimental_9;
 
 /// @brief Field Experimental_10 offset 0
-static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const Experimental_10;
+static Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const Experimental_10;
 
 /// @brief Field Experimental_11 offset 0
-static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const Experimental_11;
+static Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const Experimental_11;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag, "Org.BouncyCastle.Bcpg", "PublicKeyAlgorithmTag");
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag, "Org.BouncyCastle.Bcpg", "PublicKeyAlgorithmTag");

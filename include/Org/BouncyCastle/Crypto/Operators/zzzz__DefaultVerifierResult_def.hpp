@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto {
-class ISigner;
-}
 namespace Org::BouncyCastle::Crypto {
 class IVerifier;
+}
+namespace Org::BouncyCastle::Crypto {
+class ISigner;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Operators {
@@ -23,8 +22,8 @@ namespace Org::BouncyCastle::Crypto::Operators {
 class CORDL_TYPE DefaultVerifierResult : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IVerifier
-constexpr operator  ::Org::BouncyCastle::Crypto::IVerifier() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IVerifier
+constexpr operator  Org::BouncyCastle::Crypto::IVerifier() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -59,20 +58,20 @@ constexpr explicit DefaultVerifierResult(void* ptr) noexcept : ::bs_hook::Il2Cpp
 
 // Fields
 
- ::Org::BouncyCastle::Crypto::ISigner __declspec(property(get=__get_mSigner, put=__set_mSigner))  mSigner;
+ Org::BouncyCastle::Crypto::ISigner __declspec(property(get=__get_mSigner, put=__set_mSigner))  mSigner;
 
-constexpr void __set_mSigner(::Org::BouncyCastle::Crypto::ISigner value) ;
+constexpr void __set_mSigner(Org::BouncyCastle::Crypto::ISigner value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::ISigner __get_mSigner() const;
+constexpr Org::BouncyCastle::Crypto::ISigner __get_mSigner() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "signer", ty: "::Org::BouncyCastle::Crypto::ISigner", modifiers: "", def_value: None }]
-explicit DefaultVerifierResult(::Org::BouncyCastle::Crypto::ISigner signer) ;
+// Ctor Parameters [CppParam { name: "signer", ty: "Org::BouncyCastle::Crypto::ISigner", modifiers: "", def_value: None }]
+explicit DefaultVerifierResult(Org::BouncyCastle::Crypto::ISigner signer) ;
 
 /// @brief Method .ctor addr 0xea0de4 size 0x28 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::ISigner signer) ;
+ void _ctor(Org::BouncyCastle::Crypto::ISigner signer) ;
 
 /// @brief Method IsVerified addr 0xea0e0c size 0xac virtual true final true
  bool IsVerified(::ArrayW<uint8_t> signature) ;
@@ -84,6 +83,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Operators
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult, "Org.BouncyCastle.Crypto.Operators", "DefaultVerifierResult");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult, "Org.BouncyCastle.Crypto.Operators", "DefaultVerifierResult");

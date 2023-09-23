@@ -3,15 +3,14 @@
 #include "System/Xml/Schema/zzzz__SyntaxTreeNode_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace System::Xml::Schema {
-class NamespaceList;
+class InteriorNode;
 }
 namespace System::Xml::Schema {
 class SymbolsDictionary;
 }
-namespace System::Xml::Schema {
-class InteriorNode;
+namespace System::Collections {
+class ICollection;
 }
 namespace System::Xml::Schema {
 class Positions;
@@ -19,8 +18,8 @@ class Positions;
 namespace System::Xml::Schema {
 class BitSet;
 }
-namespace System::Collections {
-class ICollection;
+namespace System::Xml::Schema {
+class NamespaceList;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -32,7 +31,7 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11541))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11543))
 // CS Name: System.Xml.Schema.NamespaceListNode
-class CORDL_TYPE NamespaceListNode : public ::System::Xml::Schema::SyntaxTreeNode {
+class CORDL_TYPE NamespaceListNode : public System::Xml::Schema::SyntaxTreeNode {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -47,7 +46,7 @@ constexpr NamespaceListNode(NamespaceListNode const& ) noexcept = default;
 constexpr NamespaceListNode(NamespaceListNode&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NamespaceListNode(void* ptr) noexcept : ::System::Xml::Schema::SyntaxTreeNode(ptr) {
+constexpr explicit NamespaceListNode(void* ptr) noexcept : System::Xml::Schema::SyntaxTreeNode(ptr) {
 }
 
 
@@ -68,11 +67,11 @@ constexpr explicit NamespaceListNode(void* ptr) noexcept : ::System::Xml::Schema
 
 // Fields
 
- ::System::Xml::Schema::NamespaceList __declspec(property(get=__get_namespaceList, put=__set_namespaceList))  namespaceList;
+ System::Xml::Schema::NamespaceList __declspec(property(get=__get_namespaceList, put=__set_namespaceList))  namespaceList;
 
-constexpr void __set_namespaceList(::System::Xml::Schema::NamespaceList value) ;
+constexpr void __set_namespaceList(System::Xml::Schema::NamespaceList value) ;
 
-constexpr ::System::Xml::Schema::NamespaceList __get_namespaceList() const;
+constexpr System::Xml::Schema::NamespaceList __get_namespaceList() const;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=__get_particle, put=__set_particle))  particle;
 
@@ -88,20 +87,20 @@ constexpr ::bs_hook::Il2CppWrapperType __get_particle() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "namespaceList", ty: "::System::Xml::Schema::NamespaceList", modifiers: "", def_value: None }, CppParam { name: "particle", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit NamespaceListNode(::System::Xml::Schema::NamespaceList namespaceList, ::bs_hook::Il2CppWrapperType particle) ;
+// Ctor Parameters [CppParam { name: "namespaceList", ty: "System::Xml::Schema::NamespaceList", modifiers: "", def_value: None }, CppParam { name: "particle", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
+explicit NamespaceListNode(System::Xml::Schema::NamespaceList namespaceList, ::bs_hook::Il2CppWrapperType particle) ;
 
 /// @brief Method .ctor addr 0x271a2f4 size 0x2c virtual false final false
- void _ctor(::System::Xml::Schema::NamespaceList namespaceList, ::bs_hook::Il2CppWrapperType particle) ;
+ void _ctor(System::Xml::Schema::NamespaceList namespaceList, ::bs_hook::Il2CppWrapperType particle) ;
 
 /// @brief Method GetResolvedSymbols addr 0x271a320 size 0x20 virtual true final false
- ::System::Collections::ICollection GetResolvedSymbols(::System::Xml::Schema::SymbolsDictionary symbols) ;
+ System::Collections::ICollection GetResolvedSymbols(System::Xml::Schema::SymbolsDictionary symbols) ;
 
 /// @brief Method ExpandTree addr 0x271a340 size 0x478 virtual true final false
- void ExpandTree(::System::Xml::Schema::InteriorNode parent, ::System::Xml::Schema::SymbolsDictionary symbols, ::System::Xml::Schema::Positions positions) ;
+ void ExpandTree(System::Xml::Schema::InteriorNode parent, System::Xml::Schema::SymbolsDictionary symbols, System::Xml::Schema::Positions positions) ;
 
 /// @brief Method ConstructPos addr 0x271a7c0 size 0x40 virtual true final false
- void ConstructPos(::System::Xml::Schema::BitSet firstpos, ::System::Xml::Schema::BitSet lastpos, ::ArrayW<::System::Xml::Schema::BitSet> followpos) ;
+ void ConstructPos(System::Xml::Schema::BitSet firstpos, System::Xml::Schema::BitSet lastpos, ::ArrayW<System::Xml::Schema::BitSet> followpos) ;
 
 /// @brief Method get_IsNullable addr 0x271a800 size 0x40 virtual true final false
  bool get_IsNullable() ;
@@ -110,6 +109,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::NamespaceListNode);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::NamespaceListNode, "System.Xml.Schema", "NamespaceListNode");
+NEED_NO_BOX(System::Xml::Schema::NamespaceListNode);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::NamespaceListNode, "System.Xml.Schema", "NamespaceListNode");

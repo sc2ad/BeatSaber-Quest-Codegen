@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto::Parameters {
-class Gost3410Parameters;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class Gost3410Parameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {
@@ -71,35 +70,35 @@ constexpr void __set_typeproc(int32_t value) ;
 
 constexpr int32_t __get_typeproc() const;
 
- ::Org::BouncyCastle::Security::SecureRandom __declspec(property(get=__get_init_random, put=__set_init_random))  init_random;
+ Org::BouncyCastle::Security::SecureRandom __declspec(property(get=__get_init_random, put=__set_init_random))  init_random;
 
-constexpr void __set_init_random(::Org::BouncyCastle::Security::SecureRandom value) ;
+constexpr void __set_init_random(Org::BouncyCastle::Security::SecureRandom value) ;
 
-constexpr ::Org::BouncyCastle::Security::SecureRandom __get_init_random() const;
+constexpr Org::BouncyCastle::Security::SecureRandom __get_init_random() const;
 
 
 // Methods
 
 /// @brief Method Init addr 0xe6e8a8 size 0xc virtual false final false
- void Init(int32_t size, int32_t typeProcedure, ::Org::BouncyCastle::Security::SecureRandom random) ;
+ void Init(int32_t size, int32_t typeProcedure, Org::BouncyCastle::Security::SecureRandom random) ;
 
 /// @brief Method procedure_A addr 0xe6e8b4 size 0x8f8 virtual false final false
- int32_t procedure_A(int32_t x0, int32_t c, ::ArrayW<::Org::BouncyCastle::Math::BigInteger> pq, int32_t size) ;
+ int32_t procedure_A(int32_t x0, int32_t c, ::ArrayW<Org::BouncyCastle::Math::BigInteger> pq, int32_t size) ;
 
 /// @brief Method procedure_Aa addr 0xe6f1ac size 0x8d0 virtual false final false
- int64_t procedure_Aa(int64_t x0, int64_t c, ::ArrayW<::Org::BouncyCastle::Math::BigInteger> pq, int32_t size) ;
+ int64_t procedure_Aa(int64_t x0, int64_t c, ::ArrayW<Org::BouncyCastle::Math::BigInteger> pq, int32_t size) ;
 
 /// @brief Method procedure_B addr 0xe6fa7c size 0x5d4 virtual false final false
- void procedure_B(int32_t x0, int32_t c, ::ArrayW<::Org::BouncyCastle::Math::BigInteger> pq) ;
+ void procedure_B(int32_t x0, int32_t c, ::ArrayW<Org::BouncyCastle::Math::BigInteger> pq) ;
 
 /// @brief Method procedure_Bb addr 0xe70050 size 0x5ac virtual false final false
- void procedure_Bb(int64_t x0, int64_t c, ::ArrayW<::Org::BouncyCastle::Math::BigInteger> pq) ;
+ void procedure_Bb(int64_t x0, int64_t c, ::ArrayW<Org::BouncyCastle::Math::BigInteger> pq) ;
 
 /// @brief Method procedure_C addr 0xe705fc size 0x1a0 virtual false final false
- ::Org::BouncyCastle::Math::BigInteger procedure_C(::Org::BouncyCastle::Math::BigInteger p, ::Org::BouncyCastle::Math::BigInteger q) ;
+ Org::BouncyCastle::Math::BigInteger procedure_C(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q) ;
 
 /// @brief Method GenerateParameters addr 0xe7079c size 0x2fc virtual false final false
- ::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters GenerateParameters() ;
+ Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters GenerateParameters() ;
 
 // Ctor Parameters []
 explicit Gost3410ParametersGenerator() ;
@@ -111,6 +110,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Generators
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Generators::Gost3410ParametersGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Generators::Gost3410ParametersGenerator, "Org.BouncyCastle.Crypto.Generators", "Gost3410ParametersGenerator");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Generators::Gost3410ParametersGenerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::Gost3410ParametersGenerator, "Org.BouncyCastle.Crypto.Generators", "Gost3410ParametersGenerator");

@@ -5,10 +5,9 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRProfile__State;
+struct GlobalNamespace__OVRProfile__State;
 }
 namespace GlobalNamespace {
 class OVRProfile;
@@ -19,20 +18,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8807))
 // CS Name: OVRProfile::State
-struct CORDL_TYPE ____GlobalNamespace__OVRProfile__State : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__OVRProfile__State : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__OVRProfile__State(int32_t value__) noexcept;
+constexpr GlobalNamespace__OVRProfile__State(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__OVRProfile__State(____GlobalNamespace__OVRProfile__State const&) = default;
-                    constexpr ____GlobalNamespace__OVRProfile__State(____GlobalNamespace__OVRProfile__State&&) = default;
-                    constexpr ____GlobalNamespace__OVRProfile__State& operator=(____GlobalNamespace__OVRProfile__State const& o) {
+                    constexpr GlobalNamespace__OVRProfile__State(GlobalNamespace__OVRProfile__State const&) = default;
+                    constexpr GlobalNamespace__OVRProfile__State(GlobalNamespace__OVRProfile__State&&) = default;
+                    constexpr GlobalNamespace__OVRProfile__State& operator=(GlobalNamespace__OVRProfile__State const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__OVRProfile__State& operator=(____GlobalNamespace__OVRProfile__State&& o) noexcept {
+                    constexpr GlobalNamespace__OVRProfile__State& operator=(GlobalNamespace__OVRProfile__State&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -45,7 +44,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVRProfile__State(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__OVRProfile__State(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -53,7 +52,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__OVRProfile__State_Unwrapped : int32_t {
+enum class __GlobalNamespace__OVRProfile__State_Unwrapped : int32_t {
 __NOT_TRIGGERED = 0,
 __LOADING = 1,
 __READY = 2,
@@ -61,8 +60,8 @@ __ERROR = 3,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__OVRProfile__State_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__OVRProfile__State_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__OVRProfile__State_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__OVRProfile__State_Unwrapped>(__instance);
 }
 
 
@@ -75,16 +74,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field NOT_TRIGGERED offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRProfile__State const NOT_TRIGGERED;
+static GlobalNamespace::GlobalNamespace__OVRProfile__State const NOT_TRIGGERED;
 
 /// @brief Field LOADING offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRProfile__State const LOADING;
+static GlobalNamespace::GlobalNamespace__OVRProfile__State const LOADING;
 
 /// @brief Field READY offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRProfile__State const READY;
+static GlobalNamespace::GlobalNamespace__OVRProfile__State const READY;
 
 /// @brief Field ERROR offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRProfile__State const ERROR;
+static GlobalNamespace::GlobalNamespace__OVRProfile__State const ERROR;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -96,10 +95,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10142))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8808))
 // CS Name: OVRProfile
-class CORDL_TYPE OVRProfile : public ::UnityEngine::Object {
+class CORDL_TYPE OVRProfile : public UnityEngine::Object {
 public:
 // Declarations
-using State = ::GlobalNamespace::____GlobalNamespace__OVRProfile__State;
+using State = GlobalNamespace::GlobalNamespace__OVRProfile__State;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -113,7 +112,7 @@ constexpr OVRProfile(OVRProfile const& ) noexcept = default;
 constexpr OVRProfile(OVRProfile&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OVRProfile(void* ptr) noexcept : ::UnityEngine::Object(ptr) {
+constexpr explicit OVRProfile(void* ptr) noexcept : UnityEngine::Object(ptr) {
 }
 
 
@@ -148,7 +147,7 @@ constexpr explicit OVRProfile(void* ptr) noexcept : ::UnityEngine::Object(ptr) {
 
  float_t __declspec(property(get=get_neckHeight))  neckHeight;
 
- ::GlobalNamespace::____GlobalNamespace__OVRProfile__State __declspec(property(get=get_state))  state;
+ GlobalNamespace::GlobalNamespace__OVRProfile__State __declspec(property(get=get_state))  state;
 
 
 // Methods
@@ -175,7 +174,7 @@ constexpr explicit OVRProfile(void* ptr) noexcept : ::UnityEngine::Object(ptr) {
  float_t get_neckHeight() ;
 
 /// @brief Method get_state addr 0x2602468 size 0x8 virtual false final false
- ::GlobalNamespace::____GlobalNamespace__OVRProfile__State get_state() ;
+ GlobalNamespace::GlobalNamespace__OVRProfile__State get_state() ;
 
 // Ctor Parameters []
 explicit OVRProfile() ;
@@ -187,7 +186,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVRProfile__State, "", "OVRProfile/State");
-NEED_NO_BOX(::GlobalNamespace::OVRProfile);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRProfile, "", "OVRProfile");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRProfile__State, "", "OVRProfile/State");
+NEED_NO_BOX(GlobalNamespace::OVRProfile);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRProfile, "", "OVRProfile");

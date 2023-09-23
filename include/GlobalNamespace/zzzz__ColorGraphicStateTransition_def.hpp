@@ -2,15 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__BaseStateTransition_1_def.hpp"
 #include "UnityEngine/UI/zzzz__Graphic_def.hpp"
-namespace {
-namespace Tweening {
-class ColorTween;
+namespace GlobalNamespace {
+class ColorTransitionSO;
 }
 namespace UnityEngine {
 struct Color;
 }
-namespace GlobalNamespace {
-class ColorTransitionSO;
+namespace Tweening {
+class ColorTween;
 }
 namespace GlobalNamespace {
 class BaseTransitionSO;
@@ -22,10 +21,10 @@ class ColorGraphicStateTransition;
 // Type: ::ColorGraphicStateTransition
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5544)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5544), inst: 893 }), TypeDefinitionIndex(TypeDefinitionIndex(12981))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12981)), TypeDefinitionIndex(TypeDefinitionIndex(5544)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5544), inst: 893 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5548))
 // CS Name: ColorGraphicStateTransition
-class CORDL_TYPE ColorGraphicStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityEngine::UI::Graphic> {
+class CORDL_TYPE ColorGraphicStateTransition : public GlobalNamespace::BaseStateTransition_1<UnityEngine::UI::Graphic> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr ColorGraphicStateTransition(ColorGraphicStateTransition const& ) noexc
 constexpr ColorGraphicStateTransition(ColorGraphicStateTransition&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ColorGraphicStateTransition(void* ptr) noexcept : ::GlobalNamespace::BaseStateTransition_1<::UnityEngine::UI::Graphic>(ptr) {
+constexpr explicit ColorGraphicStateTransition(void* ptr) noexcept : GlobalNamespace::BaseStateTransition_1<UnityEngine::UI::Graphic>(ptr) {
 }
 
 
@@ -61,28 +60,28 @@ constexpr explicit ColorGraphicStateTransition(void* ptr) noexcept : ::GlobalNam
 
 // Fields
 
- ::GlobalNamespace::ColorTransitionSO __declspec(property(get=__get__transition, put=__set__transition))  _transition;
+ GlobalNamespace::ColorTransitionSO __declspec(property(get=__get__transition, put=__set__transition))  _transition;
 
-constexpr void __set__transition(::GlobalNamespace::ColorTransitionSO value) ;
+constexpr void __set__transition(GlobalNamespace::ColorTransitionSO value) ;
 
-constexpr ::GlobalNamespace::ColorTransitionSO __get__transition() const;
+constexpr GlobalNamespace::ColorTransitionSO __get__transition() const;
 
- ::Tweening::ColorTween __declspec(property(get=__get__colorTween, put=__set__colorTween))  _colorTween;
+ Tweening::ColorTween __declspec(property(get=__get__colorTween, put=__set__colorTween))  _colorTween;
 
-constexpr void __set__colorTween(::Tweening::ColorTween value) ;
+constexpr void __set__colorTween(Tweening::ColorTween value) ;
 
-constexpr ::Tweening::ColorTween __get__colorTween() const;
+constexpr Tweening::ColorTween __get__colorTween() const;
 
 
 // Properties
 
- ::GlobalNamespace::BaseTransitionSO __declspec(property(get=get_transition))  transition;
+ GlobalNamespace::BaseTransitionSO __declspec(property(get=get_transition))  transition;
 
 
 // Methods
 
 /// @brief Method get_transition addr 0x2128350 size 0x8 virtual true final false
- ::GlobalNamespace::BaseTransitionSO get_transition() ;
+ GlobalNamespace::BaseTransitionSO get_transition() ;
 
 /// @brief Method TransitionToNormalState addr 0x2128358 size 0x2c virtual true final false
  void TransitionToNormalState() ;
@@ -121,7 +120,7 @@ constexpr ::Tweening::ColorTween __get__colorTween() const;
  void SetSelectedAndHighlightedState() ;
 
 /// @brief Method StartTween addr 0x2128390 size 0x238 virtual false final false
- void StartTween(::UnityEngine::Color endColor) ;
+ void StartTween(UnityEngine::Color endColor) ;
 
 // Ctor Parameters []
 explicit ColorGraphicStateTransition() ;
@@ -130,7 +129,7 @@ explicit ColorGraphicStateTransition() ;
  void _ctor() ;
 
 /// @brief Method <StartTween>b__16_0 addr 0x2128890 size 0x24 virtual false final false
- void _StartTween_b__16_0(::UnityEngine::Color color) ;
+ void _StartTween_b__16_0(UnityEngine::Color color) ;
 
 /// @brief Method <StartTween>b__16_1 addr 0x21288b4 size 0x88 virtual false final false
  void _StartTween_b__16_1() ;
@@ -139,6 +138,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ColorGraphicStateTransition);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ColorGraphicStateTransition, "", "ColorGraphicStateTransition");
+NEED_NO_BOX(GlobalNamespace::ColorGraphicStateTransition);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorGraphicStateTransition, "", "ColorGraphicStateTransition");

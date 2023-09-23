@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct LOD;
 }
@@ -18,7 +17,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10179))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10033))
 // CS Name: UnityEngine.LODGroup
-class CORDL_TYPE LODGroup : public ::UnityEngine::Component {
+class CORDL_TYPE LODGroup : public UnityEngine::Component {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr LODGroup(LODGroup const& ) noexcept = default;
 constexpr LODGroup(LODGroup&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LODGroup(void* ptr) noexcept : ::UnityEngine::Component(ptr) {
+constexpr explicit LODGroup(void* ptr) noexcept : UnityEngine::Component(ptr) {
 }
 
 
@@ -71,15 +70,14 @@ constexpr explicit LODGroup(void* ptr) noexcept : ::UnityEngine::Component(ptr) 
  void RecalculateBounds() ;
 
 /// @brief Method GetLODs addr 0x2b40f90 size 0x3c virtual false final false
- ::ArrayW<::UnityEngine::LOD> GetLODs() ;
+ ::ArrayW<UnityEngine::LOD> GetLODs() ;
 
 /// @brief Method SetLODs addr 0x2b40fcc size 0x44 virtual false final false
- void SetLODs(::ArrayW<::UnityEngine::LOD> lods) ;
+ void SetLODs(::ArrayW<UnityEngine::LOD> lods) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::LODGroup);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::LODGroup, "UnityEngine", "LODGroup");
+NEED_NO_BOX(UnityEngine::LODGroup);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LODGroup, "UnityEngine", "LODGroup");

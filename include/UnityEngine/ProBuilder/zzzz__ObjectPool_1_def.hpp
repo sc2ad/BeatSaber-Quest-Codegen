@@ -2,7 +2,13 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
+namespace System {
+class IDisposable;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class Queue_1;
+}
 namespace System {
 template<typename TResult>
 class Func_1;
@@ -10,13 +16,6 @@ class Func_1;
 namespace System {
 template<typename T>
 class Action_1;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class Queue_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -39,8 +38,8 @@ template<::cordl_internals::il2cpp_reference_type T>
 class CORDL_TYPE ObjectPool_1<T> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -81,11 +80,11 @@ constexpr void __set_m_IsDisposed(bool value) ;
 
 constexpr bool __get_m_IsDisposed() const;
 
- ::System::Collections::Generic::Queue_1<T> __declspec(property(get=__get_m_Pool, put=__set_m_Pool))  m_Pool;
+ System::Collections::Generic::Queue_1<T> __declspec(property(get=__get_m_Pool, put=__set_m_Pool))  m_Pool;
 
-constexpr void __set_m_Pool(::System::Collections::Generic::Queue_1<T> value) ;
+constexpr void __set_m_Pool(System::Collections::Generic::Queue_1<T> value) ;
 
-constexpr ::System::Collections::Generic::Queue_1<T> __get_m_Pool() const;
+constexpr System::Collections::Generic::Queue_1<T> __get_m_Pool() const;
 
  int32_t __declspec(property(get=__get_desiredSize, put=__set_desiredSize))  desiredSize;
 
@@ -93,26 +92,26 @@ constexpr void __set_desiredSize(int32_t value) ;
 
 constexpr int32_t __get_desiredSize() const;
 
- ::System::Func_1<T> __declspec(property(get=__get_constructor, put=__set_constructor))  constructor;
+ System::Func_1<T> __declspec(property(get=__get_constructor, put=__set_constructor))  constructor;
 
-constexpr void __set_constructor(::System::Func_1<T> value) ;
+constexpr void __set_constructor(System::Func_1<T> value) ;
 
-constexpr ::System::Func_1<T> __get_constructor() const;
+constexpr System::Func_1<T> __get_constructor() const;
 
- ::System::Action_1<T> __declspec(property(get=__get_destructor, put=__set_destructor))  destructor;
+ System::Action_1<T> __declspec(property(get=__get_destructor, put=__set_destructor))  destructor;
 
-constexpr void __set_destructor(::System::Action_1<T> value) ;
+constexpr void __set_destructor(System::Action_1<T> value) ;
 
-constexpr ::System::Action_1<T> __get_destructor() const;
+constexpr System::Action_1<T> __get_destructor() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "initialSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "desiredSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "constructor", ty: "::System::Func_1<T>", modifiers: "", def_value: None }, CppParam { name: "destructor", ty: "::System::Action_1<T>", modifiers: "", def_value: None }, CppParam { name: "lazyInitialization", ty: "bool", modifiers: "", def_value: None }]
-explicit ObjectPool_1(int32_t initialSize, int32_t desiredSize, ::System::Func_1<T> constructor, ::System::Action_1<T> destructor, bool lazyInitialization) ;
+// Ctor Parameters [CppParam { name: "initialSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "desiredSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "constructor", ty: "System::Func_1<T>", modifiers: "", def_value: None }, CppParam { name: "destructor", ty: "System::Action_1<T>", modifiers: "", def_value: None }, CppParam { name: "lazyInitialization", ty: "bool", modifiers: "", def_value: None }]
+explicit ObjectPool_1(int32_t initialSize, int32_t desiredSize, System::Func_1<T> constructor, System::Action_1<T> destructor, bool lazyInitialization) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(int32_t initialSize, int32_t desiredSize, ::System::Func_1<T> constructor, ::System::Action_1<T> destructor, bool lazyInitialization) ;
+ void _ctor(int32_t initialSize, int32_t desiredSize, System::Func_1<T> constructor, System::Action_1<T> destructor, bool lazyInitialization) ;
 
 /// @brief Method Dequeue addr 0x0 size 0xffffffffffffffff virtual false final false
  T Dequeue() ;
@@ -133,5 +132,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::ProBuilder::ObjectPool_1, "UnityEngine.ProBuilder", "ObjectPool`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::ProBuilder::ObjectPool_1, "UnityEngine.ProBuilder", "ObjectPool`1");

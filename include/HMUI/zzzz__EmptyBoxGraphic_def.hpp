@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UI/zzzz__Graphic_def.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine::UI {
 class VertexHelper;
 }
@@ -16,7 +15,7 @@ namespace HMUI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12981))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13618))
 // CS Name: HMUI.EmptyBoxGraphic
-class CORDL_TYPE EmptyBoxGraphic : public ::UnityEngine::UI::Graphic {
+class CORDL_TYPE EmptyBoxGraphic : public UnityEngine::UI::Graphic {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr EmptyBoxGraphic(EmptyBoxGraphic const& ) noexcept = default;
 constexpr EmptyBoxGraphic(EmptyBoxGraphic&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EmptyBoxGraphic(void* ptr) noexcept : ::UnityEngine::UI::Graphic(ptr) {
+constexpr explicit EmptyBoxGraphic(void* ptr) noexcept : UnityEngine::UI::Graphic(ptr) {
 }
 
 
@@ -62,7 +61,7 @@ constexpr float_t __get__depth() const;
 // Methods
 
 /// @brief Method OnPopulateMesh addr 0x1fb1ad4 size 0x5b8 virtual true final false
- void OnPopulateMesh(::UnityEngine::UI::VertexHelper vh) ;
+ void OnPopulateMesh(UnityEngine::UI::VertexHelper vh) ;
 
 /// @brief Method OnDrawGizmosSelected addr 0x1fb208c size 0x18c virtual false final false
  void OnDrawGizmosSelected() ;
@@ -77,6 +76,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HMUI
-} // end anonymous namespace
-NEED_NO_BOX(::HMUI::EmptyBoxGraphic);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::EmptyBoxGraphic, "HMUI", "EmptyBoxGraphic");
+NEED_NO_BOX(HMUI::EmptyBoxGraphic);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::EmptyBoxGraphic, "HMUI", "EmptyBoxGraphic");

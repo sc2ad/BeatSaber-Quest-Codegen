@@ -2,30 +2,29 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
-struct OVRPose;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRPlugin__CameraExtrinsics;
-}
-namespace UnityEngine {
-class Camera;
+struct GlobalNamespace__OVRManager__CompositionMethod;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace GlobalNamespace {
-class OVRMixedRealityCaptureConfiguration;
+struct OVRPose;
 }
 namespace GlobalNamespace {
 class OVRCameraRig;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRManager__TrackingOrigin;
+struct GlobalNamespace__OVRPlugin__CameraExtrinsics;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRManager__CompositionMethod;
+struct GlobalNamespace__OVRManager__TrackingOrigin;
+}
+namespace GlobalNamespace {
+class OVRMixedRealityCaptureConfiguration;
+}
+namespace UnityEngine {
+class Camera;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -79,11 +78,11 @@ constexpr void __set_cameraInTrackingSpace(bool value) ;
 
 constexpr bool __get_cameraInTrackingSpace() const;
 
- ::GlobalNamespace::OVRCameraRig __declspec(property(get=__get_cameraRig, put=__set_cameraRig))  cameraRig;
+ GlobalNamespace::OVRCameraRig __declspec(property(get=__get_cameraRig, put=__set_cameraRig))  cameraRig;
 
-constexpr void __set_cameraRig(::GlobalNamespace::OVRCameraRig value) ;
+constexpr void __set_cameraRig(GlobalNamespace::OVRCameraRig value) ;
 
-constexpr ::GlobalNamespace::OVRCameraRig __get_cameraRig() const;
+constexpr GlobalNamespace::OVRCameraRig __get_cameraRig() const;
 
  bool __declspec(property(get=__get_usingLastAttachedNodePose, put=__set_usingLastAttachedNodePose))  usingLastAttachedNodePose;
 
@@ -91,26 +90,26 @@ constexpr void __set_usingLastAttachedNodePose(bool value) ;
 
 constexpr bool __get_usingLastAttachedNodePose() const;
 
- ::GlobalNamespace::OVRPose __declspec(property(get=__get_lastAttachedNodePose, put=__set_lastAttachedNodePose))  lastAttachedNodePose;
+ GlobalNamespace::OVRPose __declspec(property(get=__get_lastAttachedNodePose, put=__set_lastAttachedNodePose))  lastAttachedNodePose;
 
-constexpr void __set_lastAttachedNodePose(::GlobalNamespace::OVRPose value) ;
+constexpr void __set_lastAttachedNodePose(GlobalNamespace::OVRPose value) ;
 
-constexpr ::GlobalNamespace::OVRPose __get_lastAttachedNodePose() const;
+constexpr GlobalNamespace::OVRPose __get_lastAttachedNodePose() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "parentObject", ty: "::UnityEngine::GameObject", modifiers: "", def_value: None }, CppParam { name: "mainCamera", ty: "::UnityEngine::Camera", modifiers: "", def_value: None }, CppParam { name: "configuration", ty: "::GlobalNamespace::OVRMixedRealityCaptureConfiguration", modifiers: "", def_value: None }]
-explicit OVRComposition(::UnityEngine::GameObject parentObject, ::UnityEngine::Camera mainCamera, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration configuration) ;
+// Ctor Parameters [CppParam { name: "parentObject", ty: "UnityEngine::GameObject", modifiers: "", def_value: None }, CppParam { name: "mainCamera", ty: "UnityEngine::Camera", modifiers: "", def_value: None }, CppParam { name: "configuration", ty: "GlobalNamespace::OVRMixedRealityCaptureConfiguration", modifiers: "", def_value: None }]
+explicit OVRComposition(UnityEngine::GameObject parentObject, UnityEngine::Camera mainCamera, GlobalNamespace::OVRMixedRealityCaptureConfiguration configuration) ;
 
 /// @brief Method .ctor addr 0x25a4d88 size 0x34 virtual false final false
- void _ctor(::UnityEngine::GameObject parentObject, ::UnityEngine::Camera mainCamera, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration configuration) ;
+ void _ctor(UnityEngine::GameObject parentObject, UnityEngine::Camera mainCamera, GlobalNamespace::OVRMixedRealityCaptureConfiguration configuration) ;
 
 /// @brief Method CompositionMethod addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::____GlobalNamespace__OVRManager__CompositionMethod CompositionMethod() ;
+ GlobalNamespace::GlobalNamespace__OVRManager__CompositionMethod CompositionMethod() ;
 
 /// @brief Method Update addr 0x0 size 0xffffffffffffffff virtual true final false
- void Update(::UnityEngine::GameObject gameObject, ::UnityEngine::Camera mainCamera, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration configuration, ::GlobalNamespace::____GlobalNamespace__OVRManager__TrackingOrigin trackingOrigin, float_t displayFrequency) ;
+ void Update(UnityEngine::GameObject gameObject, UnityEngine::Camera mainCamera, GlobalNamespace::OVRMixedRealityCaptureConfiguration configuration, GlobalNamespace::GlobalNamespace__OVRManager__TrackingOrigin trackingOrigin, float_t displayFrequency) ;
 
 /// @brief Method Cleanup addr 0x0 size 0xffffffffffffffff virtual true final false
  void Cleanup() ;
@@ -119,18 +118,17 @@ explicit OVRComposition(::UnityEngine::GameObject parentObject, ::UnityEngine::C
  void RecenterPose() ;
 
 /// @brief Method RefreshCameraRig addr 0x25a4dbc size 0x1b8 virtual false final false
- void RefreshCameraRig(::UnityEngine::GameObject parentObject, ::UnityEngine::Camera mainCamera) ;
+ void RefreshCameraRig(UnityEngine::GameObject parentObject, UnityEngine::Camera mainCamera) ;
 
 /// @brief Method ComputeCameraWorldSpacePose addr 0x25a4f78 size 0x68 virtual false final false
- ::GlobalNamespace::OVRPose ComputeCameraWorldSpacePose(::GlobalNamespace::____GlobalNamespace__OVRPlugin__CameraExtrinsics extrinsics, ::UnityEngine::Camera mainCamera) ;
+ GlobalNamespace::OVRPose ComputeCameraWorldSpacePose(GlobalNamespace::GlobalNamespace__OVRPlugin__CameraExtrinsics extrinsics, UnityEngine::Camera mainCamera) ;
 
 /// @brief Method ComputeCameraTrackingSpacePose addr 0x25a4fe0 size 0x288 virtual false final false
- ::GlobalNamespace::OVRPose ComputeCameraTrackingSpacePose(::GlobalNamespace::____GlobalNamespace__OVRPlugin__CameraExtrinsics extrinsics) ;
+ GlobalNamespace::OVRPose ComputeCameraTrackingSpacePose(GlobalNamespace::GlobalNamespace__OVRPlugin__CameraExtrinsics extrinsics) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OVRComposition);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRComposition, "", "OVRComposition");
+NEED_NO_BOX(GlobalNamespace::OVRComposition);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRComposition, "", "OVRComposition");

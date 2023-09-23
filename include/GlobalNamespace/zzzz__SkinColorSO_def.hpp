@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace UnityEngine {
 struct Color;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4778))
 // CS Name: SkinColorSO
-class CORDL_TYPE SkinColorSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE SkinColorSO : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr SkinColorSO(SkinColorSO const& ) noexcept = default;
 constexpr SkinColorSO(SkinColorSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SkinColorSO(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit SkinColorSO(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -58,18 +57,18 @@ constexpr void __set__id(::StringW value) ;
 
 constexpr ::StringW __get__id() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__color, put=__set__color))  _color;
+ UnityEngine::Color __declspec(property(get=__get__color, put=__set__color))  _color;
 
-constexpr void __set__color(::UnityEngine::Color value) ;
+constexpr void __set__color(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__color() const;
+constexpr UnityEngine::Color __get__color() const;
 
 
 // Properties
 
  ::StringW __declspec(property(get=get_id))  id;
 
- ::UnityEngine::Color __declspec(property(get=get_Color))  Color;
+ UnityEngine::Color __declspec(property(get=get_Color))  Color;
 
 
 // Methods
@@ -78,7 +77,7 @@ constexpr ::UnityEngine::Color __get__color() const;
  ::StringW get_id() ;
 
 /// @brief Method get_Color addr 0x2229a10 size 0xc virtual false final false
- ::UnityEngine::Color get_Color() ;
+ UnityEngine::Color get_Color() ;
 
 // Ctor Parameters []
 explicit SkinColorSO() ;
@@ -90,6 +89,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SkinColorSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SkinColorSO, "", "SkinColorSO");
+NEED_NO_BOX(GlobalNamespace::SkinColorSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SkinColorSO, "", "SkinColorSO");

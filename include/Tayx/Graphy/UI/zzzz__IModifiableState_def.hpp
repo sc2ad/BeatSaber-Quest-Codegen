@@ -1,8 +1,7 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace Tayx::Graphy {
-struct ____Tayx__Graphy__GraphyManager__ModuleState;
+struct Tayx__Graphy__GraphyManager__ModuleState;
 }
 // Forward declare root types
 namespace Tayx::Graphy::UI {
@@ -27,12 +26,11 @@ constexpr explicit IModifiableState(void* ptr) noexcept : ::cordl_internals::Int
 // Methods
 
 /// @brief Method SetState addr 0x0 size 0xffffffffffffffff virtual true final false
- void SetState(::Tayx::Graphy::____Tayx__Graphy__GraphyManager__ModuleState newState, bool silentUpdate) ;
+ void SetState(Tayx::Graphy::Tayx__Graphy__GraphyManager__ModuleState newState, bool silentUpdate) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Tayx::Graphy::UI
-} // end anonymous namespace
-NEED_NO_BOX(::Tayx::Graphy::UI::IModifiableState);
-DEFINE_IL2CPP_ARG_TYPE(::Tayx::Graphy::UI::IModifiableState, "Tayx.Graphy.UI", "IModifiableState");
+NEED_NO_BOX(Tayx::Graphy::UI::IModifiableState);
+DEFINE_IL2CPP_ARG_TYPE(Tayx::Graphy::UI::IModifiableState, "Tayx.Graphy.UI", "IModifiableState");

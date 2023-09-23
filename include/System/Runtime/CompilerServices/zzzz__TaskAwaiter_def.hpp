@@ -2,19 +2,18 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
-namespace {
-namespace System::Threading::Tasks {
-class Task;
-}
 namespace System {
 class Action;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace System::Runtime::CompilerServices {
 class ICriticalNotifyCompletion;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
-class ____System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0;
+class System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0;
 }
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
@@ -25,59 +24,59 @@ namespace System::Runtime::CompilerServices {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3384))
 // CS Name: System.Runtime.CompilerServices.TaskAwaiter::<>c__DisplayClass11_0
-class CORDL_TYPE ____System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0() = default;
+virtual ~System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0", modifiers: " const&", def_value: None }]
-constexpr ____System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0(____System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0", modifiers: " const&", def_value: None }]
+constexpr System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0(System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0", modifiers: "&&", def_value: None }]
-constexpr ____System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0(____System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0", modifiers: "&&", def_value: None }]
+constexpr System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0(System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0& operator=(std::nullptr_t) noexcept {
+  constexpr System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0& operator=(void* o) noexcept {
+  constexpr System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0& operator=(____System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0&& o) noexcept = default;
-  constexpr ____System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0& operator=(____System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0 const& o) noexcept = default;
+  constexpr System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0& operator=(System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0&& o) noexcept = default;
+  constexpr System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0& operator=(System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Threading::Tasks::Task __declspec(property(get=__get_task, put=__set_task))  task;
+ System::Threading::Tasks::Task __declspec(property(get=__get_task, put=__set_task))  task;
 
-constexpr void __set_task(::System::Threading::Tasks::Task value) ;
+constexpr void __set_task(System::Threading::Tasks::Task value) ;
 
-constexpr ::System::Threading::Tasks::Task __get_task() const;
+constexpr System::Threading::Tasks::Task __get_task() const;
 
- ::System::Action __declspec(property(get=__get_continuation, put=__set_continuation))  continuation;
+ System::Action __declspec(property(get=__get_continuation, put=__set_continuation))  continuation;
 
-constexpr void __set_continuation(::System::Action value) ;
+constexpr void __set_continuation(System::Action value) ;
 
-constexpr ::System::Action __get_continuation() const;
+constexpr System::Action __get_continuation() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0() ;
+explicit System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0() ;
 
 /// @brief Method .ctor addr 0x236eef0 size 0x8 virtual false final false
  void _ctor() ;
@@ -98,13 +97,13 @@ namespace System::Runtime::CompilerServices {
 struct CORDL_TYPE TaskAwaiter : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-using __c__DisplayClass11_0 = ::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0;
+using __c__DisplayClass11_0 = System::Runtime::CompilerServices::System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0;
 
-/// @brief Convert operator to ::System::Runtime::CompilerServices::ICriticalNotifyCompletion
-constexpr operator  ::System::Runtime::CompilerServices::ICriticalNotifyCompletion() const;
+/// @brief Convert operator to System::Runtime::CompilerServices::ICriticalNotifyCompletion
+constexpr operator  System::Runtime::CompilerServices::ICriticalNotifyCompletion() const;
 
-// Ctor Parameters [CppParam { name: "m_task", ty: "::System::Threading::Tasks::Task", modifiers: "", def_value: None }]
-constexpr TaskAwaiter(::System::Threading::Tasks::Task m_task) noexcept;
+// Ctor Parameters [CppParam { name: "m_task", ty: "System::Threading::Tasks::Task", modifiers: "", def_value: None }]
+constexpr TaskAwaiter(System::Threading::Tasks::Task m_task) noexcept;
 
 
                     constexpr TaskAwaiter(TaskAwaiter const&) = default;
@@ -137,11 +136,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::Threading::Tasks::Task __declspec(property(get=__get_m_task, put=__set_m_task))  m_task;
+ System::Threading::Tasks::Task __declspec(property(get=__get_m_task, put=__set_m_task))  m_task;
 
-constexpr void __set_m_task(::System::Threading::Tasks::Task value) ;
+constexpr void __set_m_task(System::Threading::Tasks::Task value) ;
 
-constexpr ::System::Threading::Tasks::Task __get_m_task() const;
+constexpr System::Threading::Tasks::Task __get_m_task() const;
 
 
 // Properties
@@ -152,37 +151,36 @@ constexpr ::System::Threading::Tasks::Task __get_m_task() const;
 // Methods
 
 /// @brief Method .ctor addr 0x236ea34 size 0x8 virtual false final false
- void _ctor(::System::Threading::Tasks::Task task) ;
+ void _ctor(System::Threading::Tasks::Task task) ;
 
 /// @brief Method get_IsCompleted addr 0x236ea3c size 0x1c virtual false final false
  bool get_IsCompleted() ;
 
 /// @brief Method UnsafeOnCompleted addr 0x236e880 size 0x10 virtual true final true
- void UnsafeOnCompleted(::System::Action continuation) ;
+ void UnsafeOnCompleted(System::Action continuation) ;
 
 /// @brief Method GetResult addr 0x236eb0c size 0x8 virtual false final false
  void GetResult() ;
 
 /// @brief Method ValidateEnd addr 0x236eb14 size 0x4c virtual false final false
-static void ValidateEnd(::System::Threading::Tasks::Task task) ;
+static void ValidateEnd(System::Threading::Tasks::Task task) ;
 
 /// @brief Method HandleNonSuccessAndDebuggerNotification addr 0x236eb60 size 0x60 virtual false final false
-static void HandleNonSuccessAndDebuggerNotification(::System::Threading::Tasks::Task task) ;
+static void HandleNonSuccessAndDebuggerNotification(System::Threading::Tasks::Task task) ;
 
 /// @brief Method ThrowForNonSuccess addr 0x236ebc0 size 0x154 virtual false final false
-static void ThrowForNonSuccess(::System::Threading::Tasks::Task task) ;
+static void ThrowForNonSuccess(System::Threading::Tasks::Task task) ;
 
 /// @brief Method OnCompletedInternal addr 0x236ea58 size 0xb4 virtual false final false
-static void OnCompletedInternal(::System::Threading::Tasks::Task task, ::System::Action continuation, bool continueOnCapturedContext, bool flowExecutionContext) ;
+static void OnCompletedInternal(System::Threading::Tasks::Task task, System::Action continuation, bool continueOnCapturedContext, bool flowExecutionContext) ;
 
 /// @brief Method OutputWaitEtwEvents addr 0x236ed14 size 0x1dc virtual false final false
-static ::System::Action OutputWaitEtwEvents(::System::Threading::Tasks::Task task, ::System::Action continuation) ;
+static System::Action OutputWaitEtwEvents(System::Threading::Tasks::Task task, System::Action continuation) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::CompilerServices
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0, "System.Runtime.CompilerServices", "TaskAwaiter/<>c__DisplayClass11_0");
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::TaskAwaiter, "System.Runtime.CompilerServices", "TaskAwaiter");
+NEED_NO_BOX(System::Runtime::CompilerServices::System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0, "System.Runtime.CompilerServices", "TaskAwaiter/<>c__DisplayClass11_0");
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::TaskAwaiter, "System.Runtime.CompilerServices", "TaskAwaiter");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Rendering {
 struct ReflectionProbeUsage;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Off offset 0
-static ::UnityEngine::Rendering::ReflectionProbeUsage const Off;
+static UnityEngine::Rendering::ReflectionProbeUsage const Off;
 
 /// @brief Field BlendProbes offset 0
-static ::UnityEngine::Rendering::ReflectionProbeUsage const BlendProbes;
+static UnityEngine::Rendering::ReflectionProbeUsage const BlendProbes;
 
 /// @brief Field BlendProbesAndSkybox offset 0
-static ::UnityEngine::Rendering::ReflectionProbeUsage const BlendProbesAndSkybox;
+static UnityEngine::Rendering::ReflectionProbeUsage const BlendProbesAndSkybox;
 
 /// @brief Field Simple offset 0
-static ::UnityEngine::Rendering::ReflectionProbeUsage const Simple;
+static UnityEngine::Rendering::ReflectionProbeUsage const Simple;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Rendering
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::ReflectionProbeUsage, "UnityEngine.Rendering", "ReflectionProbeUsage");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::ReflectionProbeUsage, "UnityEngine.Rendering", "ReflectionProbeUsage");

@@ -1,6 +1,5 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace UnityEngine::UIElements {
 struct Cursor;
 }
@@ -27,7 +26,7 @@ constexpr explicit ICursorManager(void* ptr) noexcept : ::cordl_internals::Inter
 // Methods
 
 /// @brief Method SetCursor addr 0x0 size 0xffffffffffffffff virtual true final false
- void SetCursor(::UnityEngine::UIElements::Cursor cursor) ;
+ void SetCursor(UnityEngine::UIElements::Cursor cursor) ;
 
 /// @brief Method ResetCursor addr 0x0 size 0xffffffffffffffff virtual true final false
  void ResetCursor() ;
@@ -36,6 +35,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::ICursorManager);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ICursorManager, "UnityEngine.UIElements", "ICursorManager");
+NEED_NO_BOX(UnityEngine::UIElements::ICursorManager);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::ICursorManager, "UnityEngine.UIElements", "ICursorManager");

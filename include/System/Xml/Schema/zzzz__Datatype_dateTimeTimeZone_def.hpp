@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_dateTimeBase_def.hpp"
-namespace {
 // Forward declare root types
 namespace System::Xml::Schema {
 class Datatype_dateTimeTimeZone;
@@ -12,7 +11,7 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11577))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11579))
 // CS Name: System.Xml.Schema.Datatype_dateTimeTimeZone
-class CORDL_TYPE Datatype_dateTimeTimeZone : public ::System::Xml::Schema::Datatype_dateTimeBase {
+class CORDL_TYPE Datatype_dateTimeTimeZone : public System::Xml::Schema::Datatype_dateTimeBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr Datatype_dateTimeTimeZone(Datatype_dateTimeTimeZone const& ) noexcept 
 constexpr Datatype_dateTimeTimeZone(Datatype_dateTimeTimeZone&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Datatype_dateTimeTimeZone(void* ptr) noexcept : ::System::Xml::Schema::Datatype_dateTimeBase(ptr) {
+constexpr explicit Datatype_dateTimeTimeZone(void* ptr) noexcept : System::Xml::Schema::Datatype_dateTimeBase(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::Datatype_dateTimeTimeZone);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::Datatype_dateTimeTimeZone, "System.Xml.Schema", "Datatype_dateTimeTimeZone");
+NEED_NO_BOX(System::Xml::Schema::Datatype_dateTimeTimeZone);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::Datatype_dateTimeTimeZone, "System.Xml.Schema", "Datatype_dateTimeTimeZone");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class LinkedListNode_1;
@@ -34,8 +33,8 @@ template<::cordl_internals::il2cpp_reference_type T>
 class CORDL_TYPE BeatmapEventDataProcessor_1<T> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapDataItem>
-constexpr operator  ::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapDataItem>() const noexcept;
+/// @brief Convert operator to GlobalNamespace::ISortedListItemProcessor_1<GlobalNamespace::BeatmapDataItem>
+constexpr operator  GlobalNamespace::ISortedListItemProcessor_1<GlobalNamespace::BeatmapDataItem>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -71,22 +70,22 @@ constexpr explicit BeatmapEventDataProcessor_1(void* ptr) noexcept : ::bs_hook::
 // Methods
 
 /// @brief Method ProcessInsertedData addr 0x0 size 0xffffffffffffffff virtual true final true
- void ProcessInsertedData(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem> insertedNode) ;
+ void ProcessInsertedData(System::Collections::Generic::LinkedListNode_1<GlobalNamespace::BeatmapDataItem> insertedNode) ;
 
 /// @brief Method ProcessBeforeDeleteData addr 0x0 size 0xffffffffffffffff virtual true final true
- void ProcessBeforeDeleteData(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem> nodeToDelete) ;
+ void ProcessBeforeDeleteData(System::Collections::Generic::LinkedListNode_1<GlobalNamespace::BeatmapDataItem> nodeToDelete) ;
 
 /// @brief Method ProcessBeforeDeleteEventDataCommon addr 0x0 size 0xffffffffffffffff virtual false final false
-static void ProcessBeforeDeleteEventDataCommon(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem> nodeToDelete) ;
+static void ProcessBeforeDeleteEventDataCommon(System::Collections::Generic::LinkedListNode_1<GlobalNamespace::BeatmapDataItem> nodeToDelete) ;
 
 /// @brief Method ProcessInsertedEventDataCommon addr 0x0 size 0xffffffffffffffff virtual false final false
-static void ProcessInsertedEventDataCommon(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem> insertedNode) ;
+static void ProcessInsertedEventDataCommon(System::Collections::Generic::LinkedListNode_1<GlobalNamespace::BeatmapDataItem> insertedNode) ;
 
 /// @brief Method ProcessInsertedEventDataInternal addr 0x0 size 0xffffffffffffffff virtual true final false
- void ProcessInsertedEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem> insertedNode) ;
+ void ProcessInsertedEventDataInternal(System::Collections::Generic::LinkedListNode_1<GlobalNamespace::BeatmapDataItem> insertedNode) ;
 
 /// @brief Method ProcessBeforeDeleteEventDataInternal addr 0x0 size 0xffffffffffffffff virtual true final false
- void ProcessBeforeDeleteEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem> nodeToDelete) ;
+ void ProcessBeforeDeleteEventDataInternal(System::Collections::Generic::LinkedListNode_1<GlobalNamespace::BeatmapDataItem> nodeToDelete) ;
 
 // Ctor Parameters []
 explicit BeatmapEventDataProcessor_1() ;
@@ -98,5 +97,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::BeatmapEventDataProcessor_1, "", "BeatmapEventDataProcessor`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::BeatmapEventDataProcessor_1, "", "BeatmapEventDataProcessor`1");

@@ -1,15 +1,14 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseEventBase_1_def.hpp"
-namespace {
-namespace UnityEngine::UIElements {
-class PointerUpEvent;
-}
 namespace UnityEngine::UIElements {
 class IPointerEvent;
 }
 namespace UnityEngine::UIElements {
 class PointerMoveEvent;
+}
+namespace UnityEngine::UIElements {
+class PointerUpEvent;
 }
 namespace UnityEngine::UIElements {
 class PointerCancelEvent;
@@ -24,7 +23,7 @@ namespace UnityEngine::UIElements {
 // Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7314), inst: 4513 }), TypeDefinitionIndex(TypeDefinitionIndex(7314))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7316))
 // CS Name: UnityEngine.UIElements.MouseUpEvent
-class CORDL_TYPE MouseUpEvent : public ::UnityEngine::UIElements::MouseEventBase_1<::UnityEngine::UIElements::MouseUpEvent> {
+class CORDL_TYPE MouseUpEvent : public UnityEngine::UIElements::MouseEventBase_1<UnityEngine::UIElements::MouseUpEvent> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr MouseUpEvent(MouseUpEvent const& ) noexcept = default;
 constexpr MouseUpEvent(MouseUpEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MouseUpEvent(void* ptr) noexcept : ::UnityEngine::UIElements::MouseEventBase_1<::UnityEngine::UIElements::MouseUpEvent>(ptr) {
+constexpr explicit MouseUpEvent(void* ptr) noexcept : UnityEngine::UIElements::MouseEventBase_1<UnityEngine::UIElements::MouseUpEvent>(ptr) {
 }
 
 
@@ -73,21 +72,20 @@ explicit MouseUpEvent() ;
  void _ctor() ;
 
 /// @brief Method MakeFromPointerEvent addr 0x2cd9da0 size 0x18c virtual false final false
-static ::UnityEngine::UIElements::MouseUpEvent MakeFromPointerEvent(::UnityEngine::UIElements::IPointerEvent pointerEvent) ;
+static UnityEngine::UIElements::MouseUpEvent MakeFromPointerEvent(UnityEngine::UIElements::IPointerEvent pointerEvent) ;
 
 /// @brief Method GetPooled addr 0x2cd8d78 size 0x4 virtual false final false
-static ::UnityEngine::UIElements::MouseUpEvent GetPooled(::UnityEngine::UIElements::PointerUpEvent pointerEvent) ;
+static UnityEngine::UIElements::MouseUpEvent GetPooled(UnityEngine::UIElements::PointerUpEvent pointerEvent) ;
 
 /// @brief Method GetPooled addr 0x2cd86b8 size 0x4 virtual false final false
-static ::UnityEngine::UIElements::MouseUpEvent GetPooled(::UnityEngine::UIElements::PointerMoveEvent pointerEvent) ;
+static UnityEngine::UIElements::MouseUpEvent GetPooled(UnityEngine::UIElements::PointerMoveEvent pointerEvent) ;
 
 /// @brief Method GetPooled addr 0x2cd9250 size 0x4 virtual false final false
-static ::UnityEngine::UIElements::MouseUpEvent GetPooled(::UnityEngine::UIElements::PointerCancelEvent pointerEvent) ;
+static UnityEngine::UIElements::MouseUpEvent GetPooled(UnityEngine::UIElements::PointerCancelEvent pointerEvent) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::MouseUpEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::MouseUpEvent, "UnityEngine.UIElements", "MouseUpEvent");
+NEED_NO_BOX(UnityEngine::UIElements::MouseUpEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::MouseUpEvent, "UnityEngine.UIElements", "MouseUpEvent");

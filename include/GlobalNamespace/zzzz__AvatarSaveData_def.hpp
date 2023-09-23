@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace UnityEngine {
 struct Color;
 }
@@ -100,53 +99,53 @@ constexpr void __set_eyesId(::StringW value) ;
 
 constexpr ::StringW __get_eyesId() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_headTopPrimaryColor, put=__set_headTopPrimaryColor))  headTopPrimaryColor;
+ UnityEngine::Color __declspec(property(get=__get_headTopPrimaryColor, put=__set_headTopPrimaryColor))  headTopPrimaryColor;
 
-constexpr void __set_headTopPrimaryColor(::UnityEngine::Color value) ;
+constexpr void __set_headTopPrimaryColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_headTopPrimaryColor() const;
+constexpr UnityEngine::Color __get_headTopPrimaryColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_headTopSecondaryColor, put=__set_headTopSecondaryColor))  headTopSecondaryColor;
+ UnityEngine::Color __declspec(property(get=__get_headTopSecondaryColor, put=__set_headTopSecondaryColor))  headTopSecondaryColor;
 
-constexpr void __set_headTopSecondaryColor(::UnityEngine::Color value) ;
+constexpr void __set_headTopSecondaryColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_headTopSecondaryColor() const;
+constexpr UnityEngine::Color __get_headTopSecondaryColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_glassesColor, put=__set_glassesColor))  glassesColor;
+ UnityEngine::Color __declspec(property(get=__get_glassesColor, put=__set_glassesColor))  glassesColor;
 
-constexpr void __set_glassesColor(::UnityEngine::Color value) ;
+constexpr void __set_glassesColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_glassesColor() const;
+constexpr UnityEngine::Color __get_glassesColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_facialHairColor, put=__set_facialHairColor))  facialHairColor;
+ UnityEngine::Color __declspec(property(get=__get_facialHairColor, put=__set_facialHairColor))  facialHairColor;
 
-constexpr void __set_facialHairColor(::UnityEngine::Color value) ;
+constexpr void __set_facialHairColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_facialHairColor() const;
+constexpr UnityEngine::Color __get_facialHairColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_handsColor, put=__set_handsColor))  handsColor;
+ UnityEngine::Color __declspec(property(get=__get_handsColor, put=__set_handsColor))  handsColor;
 
-constexpr void __set_handsColor(::UnityEngine::Color value) ;
+constexpr void __set_handsColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_handsColor() const;
+constexpr UnityEngine::Color __get_handsColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_clothesPrimaryColor, put=__set_clothesPrimaryColor))  clothesPrimaryColor;
+ UnityEngine::Color __declspec(property(get=__get_clothesPrimaryColor, put=__set_clothesPrimaryColor))  clothesPrimaryColor;
 
-constexpr void __set_clothesPrimaryColor(::UnityEngine::Color value) ;
+constexpr void __set_clothesPrimaryColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_clothesPrimaryColor() const;
+constexpr UnityEngine::Color __get_clothesPrimaryColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_clothesSecondaryColor, put=__set_clothesSecondaryColor))  clothesSecondaryColor;
+ UnityEngine::Color __declspec(property(get=__get_clothesSecondaryColor, put=__set_clothesSecondaryColor))  clothesSecondaryColor;
 
-constexpr void __set_clothesSecondaryColor(::UnityEngine::Color value) ;
+constexpr void __set_clothesSecondaryColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_clothesSecondaryColor() const;
+constexpr UnityEngine::Color __get_clothesSecondaryColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_clothesDetailColor, put=__set_clothesDetailColor))  clothesDetailColor;
+ UnityEngine::Color __declspec(property(get=__get_clothesDetailColor, put=__set_clothesDetailColor))  clothesDetailColor;
 
-constexpr void __set_clothesDetailColor(::UnityEngine::Color value) ;
+constexpr void __set_clothesDetailColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_clothesDetailColor() const;
+constexpr UnityEngine::Color __get_clothesDetailColor() const;
 
 
 // Methods
@@ -161,6 +160,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::AvatarSaveData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AvatarSaveData, "", "AvatarSaveData");
+NEED_NO_BOX(GlobalNamespace::AvatarSaveData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarSaveData, "", "AvatarSaveData");

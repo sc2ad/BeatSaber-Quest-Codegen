@@ -3,16 +3,15 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace System {
+template<typename T>
+class Action_1;
+}
 namespace GlobalNamespace {
 class MultiplayerLayoutProvider;
 }
 namespace GlobalNamespace {
 struct MultiplayerPlayerLayout;
-}
-namespace System {
-template<typename T>
-class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,7 +23,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5292))
 // CS Name: MultiplayerCenterResizeController
-class CORDL_TYPE MultiplayerCenterResizeController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerCenterResizeController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr MultiplayerCenterResizeController(MultiplayerCenterResizeController co
 constexpr MultiplayerCenterResizeController(MultiplayerCenterResizeController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerCenterResizeController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerCenterResizeController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -66,17 +65,17 @@ constexpr void __set__platformWidth(float_t value) ;
 
 constexpr float_t __get__platformWidth() const;
 
- ::GlobalNamespace::MultiplayerLayoutProvider __declspec(property(get=__get__layoutProvider, put=__set__layoutProvider))  _layoutProvider;
+ GlobalNamespace::MultiplayerLayoutProvider __declspec(property(get=__get__layoutProvider, put=__set__layoutProvider))  _layoutProvider;
 
-constexpr void __set__layoutProvider(::GlobalNamespace::MultiplayerLayoutProvider value) ;
+constexpr void __set__layoutProvider(GlobalNamespace::MultiplayerLayoutProvider value) ;
 
-constexpr ::GlobalNamespace::MultiplayerLayoutProvider __get__layoutProvider() const;
+constexpr GlobalNamespace::MultiplayerLayoutProvider __get__layoutProvider() const;
 
- ::System::Action_1<float_t> __declspec(property(get=__get_edgeDistanceFromCenterWasCalculatedEvent, put=__set_edgeDistanceFromCenterWasCalculatedEvent))  edgeDistanceFromCenterWasCalculatedEvent;
+ System::Action_1<float_t> __declspec(property(get=__get_edgeDistanceFromCenterWasCalculatedEvent, put=__set_edgeDistanceFromCenterWasCalculatedEvent))  edgeDistanceFromCenterWasCalculatedEvent;
 
-constexpr void __set_edgeDistanceFromCenterWasCalculatedEvent(::System::Action_1<float_t> value) ;
+constexpr void __set_edgeDistanceFromCenterWasCalculatedEvent(System::Action_1<float_t> value) ;
 
-constexpr ::System::Action_1<float_t> __get_edgeDistanceFromCenterWasCalculatedEvent() const;
+constexpr System::Action_1<float_t> __get_edgeDistanceFromCenterWasCalculatedEvent() const;
 
  bool __declspec(property(get=__get__isEdgeDistanceFromCenterCalculated_k__BackingField, put=__set__isEdgeDistanceFromCenterCalculated_k__BackingField))  _isEdgeDistanceFromCenterCalculated_k__BackingField;
 
@@ -101,10 +100,10 @@ constexpr float_t __get__edgeDistanceFromCenter_k__BackingField() const;
 // Methods
 
 /// @brief Method add_edgeDistanceFromCenterWasCalculatedEvent addr 0x20f0810 size 0xb0 virtual false final false
- void add_edgeDistanceFromCenterWasCalculatedEvent(::System::Action_1<float_t> value) ;
+ void add_edgeDistanceFromCenterWasCalculatedEvent(System::Action_1<float_t> value) ;
 
 /// @brief Method remove_edgeDistanceFromCenterWasCalculatedEvent addr 0x20f08c0 size 0xb0 virtual false final false
- void remove_edgeDistanceFromCenterWasCalculatedEvent(::System::Action_1<float_t> value) ;
+ void remove_edgeDistanceFromCenterWasCalculatedEvent(System::Action_1<float_t> value) ;
 
 /// @brief Method get_isEdgeDistanceFromCenterCalculated addr 0x20f0970 size 0x8 virtual false final false
  bool get_isEdgeDistanceFromCenterCalculated() ;
@@ -125,7 +124,7 @@ constexpr float_t __get__edgeDistanceFromCenter_k__BackingField() const;
  void OnDestroy() ;
 
 /// @brief Method HandlePlayersLayoutWasCalculated addr 0x20f0a38 size 0x78 virtual false final false
- void HandlePlayersLayoutWasCalculated(::GlobalNamespace::MultiplayerPlayerLayout layout, int32_t numberOfPlayers) ;
+ void HandlePlayersLayoutWasCalculated(GlobalNamespace::MultiplayerPlayerLayout layout, int32_t numberOfPlayers) ;
 
 // Ctor Parameters []
 explicit MultiplayerCenterResizeController() ;
@@ -137,6 +136,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerCenterResizeController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerCenterResizeController, "", "MultiplayerCenterResizeController");
+NEED_NO_BOX(GlobalNamespace::MultiplayerCenterResizeController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerCenterResizeController, "", "MultiplayerCenterResizeController");

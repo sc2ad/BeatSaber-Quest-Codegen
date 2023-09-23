@@ -3,15 +3,14 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputStateTypeInfo;
-}
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputStateTypeInfo;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -26,11 +25,11 @@ namespace UnityEngine::InputSystem::LowLevel {
 struct CORDL_TYPE PointerState : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo
-constexpr operator  ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo() const;
+/// @brief Convert operator to UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo
+constexpr operator  UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo() const;
 
-// Ctor Parameters [CppParam { name: "pointerId", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "position", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "delta", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "pressure", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "radius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "buttons", ty: "uint16_t", modifiers: "", def_value: None }]
-constexpr PointerState(uint32_t pointerId, ::UnityEngine::Vector2 position, ::UnityEngine::Vector2 delta, float_t pressure, ::UnityEngine::Vector2 radius, uint16_t buttons) noexcept;
+// Ctor Parameters [CppParam { name: "pointerId", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "position", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "delta", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "pressure", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "radius", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "buttons", ty: "uint16_t", modifiers: "", def_value: None }]
+constexpr PointerState(uint32_t pointerId, UnityEngine::Vector2 position, UnityEngine::Vector2 delta, float_t pressure, UnityEngine::Vector2 radius, uint16_t buttons) noexcept;
 
 
                     constexpr PointerState(PointerState const&) = default;
@@ -69,17 +68,17 @@ constexpr void __set_pointerId(uint32_t value) ;
 
 constexpr uint32_t __get_pointerId() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_position, put=__set_position))  position;
+ UnityEngine::Vector2 __declspec(property(get=__get_position, put=__set_position))  position;
 
-constexpr void __set_position(::UnityEngine::Vector2 value) ;
+constexpr void __set_position(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_position() const;
+constexpr UnityEngine::Vector2 __get_position() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_delta, put=__set_delta))  delta;
+ UnityEngine::Vector2 __declspec(property(get=__get_delta, put=__set_delta))  delta;
 
-constexpr void __set_delta(::UnityEngine::Vector2 value) ;
+constexpr void __set_delta(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_delta() const;
+constexpr UnityEngine::Vector2 __get_delta() const;
 
  float_t __declspec(property(get=__get_pressure, put=__set_pressure))  pressure;
 
@@ -87,11 +86,11 @@ constexpr void __set_pressure(float_t value) ;
 
 constexpr float_t __get_pressure() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_radius, put=__set_radius))  radius;
+ UnityEngine::Vector2 __declspec(property(get=__get_radius, put=__set_radius))  radius;
 
-constexpr void __set_radius(::UnityEngine::Vector2 value) ;
+constexpr void __set_radius(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_radius() const;
+constexpr UnityEngine::Vector2 __get_radius() const;
 
  uint16_t __declspec(property(get=__get_buttons, put=__set_buttons))  buttons;
 
@@ -102,22 +101,21 @@ constexpr uint16_t __get_buttons() const;
 
 // Properties
 
-static ::UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_kFormat))  kFormat;
+static UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_kFormat))  kFormat;
 
- ::UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_format))  format;
+ UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_format))  format;
 
 
 // Methods
 
 /// @brief Method get_kFormat addr 0x29561ac size 0x30 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::FourCC get_kFormat() ;
+static UnityEngine::InputSystem::Utilities::FourCC get_kFormat() ;
 
 /// @brief Method get_format addr 0x29561dc size 0x30 virtual true final true
- ::UnityEngine::InputSystem::Utilities::FourCC get_format() ;
+ UnityEngine::InputSystem::Utilities::FourCC get_format() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::LowLevel
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::PointerState, "UnityEngine.InputSystem.LowLevel", "PointerState");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::LowLevel::PointerState, "UnityEngine.InputSystem.LowLevel", "PointerState");

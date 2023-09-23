@@ -4,19 +4,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct Color;
-}
-namespace GlobalNamespace {
-class LightWithIdManager;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace GlobalNamespace {
-class MenuLightsPresetSO;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
@@ -24,12 +11,24 @@ class IEnumerator_1;
 namespace System {
 class IDisposable;
 }
-// Forward declare root types
-namespace GlobalNamespace {
-class MenuLightsManager;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__MenuLightsManager___Start_d__4;
+class MenuLightsPresetSO;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace GlobalNamespace {
+class LightWithIdManager;
+}
+// Forward declare root types
+namespace GlobalNamespace {
+class GlobalNamespace__MenuLightsManager___Start_d__4;
+}
+namespace GlobalNamespace {
+class MenuLightsManager;
 }
 // Type: ::<Start>d__4
 namespace GlobalNamespace {
@@ -37,46 +36,46 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4980))
 // CS Name: MenuLightsManager::<Start>d__4
-class CORDL_TYPE ____GlobalNamespace__MenuLightsManager___Start_d__4 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__MenuLightsManager___Start_d__4 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____GlobalNamespace__MenuLightsManager___Start_d__4() = default;
+virtual ~GlobalNamespace__MenuLightsManager___Start_d__4() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__MenuLightsManager___Start_d__4", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__MenuLightsManager___Start_d__4(____GlobalNamespace__MenuLightsManager___Start_d__4 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__MenuLightsManager___Start_d__4", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__MenuLightsManager___Start_d__4(GlobalNamespace__MenuLightsManager___Start_d__4 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__MenuLightsManager___Start_d__4", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__MenuLightsManager___Start_d__4(____GlobalNamespace__MenuLightsManager___Start_d__4&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__MenuLightsManager___Start_d__4", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__MenuLightsManager___Start_d__4(GlobalNamespace__MenuLightsManager___Start_d__4&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__MenuLightsManager___Start_d__4(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__MenuLightsManager___Start_d__4(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__MenuLightsManager___Start_d__4& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__MenuLightsManager___Start_d__4& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__MenuLightsManager___Start_d__4& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__MenuLightsManager___Start_d__4& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__MenuLightsManager___Start_d__4& operator=(____GlobalNamespace__MenuLightsManager___Start_d__4&& o) noexcept = default;
-  constexpr ____GlobalNamespace__MenuLightsManager___Start_d__4& operator=(____GlobalNamespace__MenuLightsManager___Start_d__4 const& o) noexcept = default;
+  constexpr GlobalNamespace__MenuLightsManager___Start_d__4& operator=(GlobalNamespace__MenuLightsManager___Start_d__4&& o) noexcept = default;
+  constexpr GlobalNamespace__MenuLightsManager___Start_d__4& operator=(GlobalNamespace__MenuLightsManager___Start_d__4 const& o) noexcept = default;
                 
 
 
@@ -94,11 +93,11 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::GlobalNamespace::MenuLightsManager __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::MenuLightsManager __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::MenuLightsManager value) ;
+constexpr void __set___4__this(GlobalNamespace::MenuLightsManager value) ;
 
-constexpr ::GlobalNamespace::MenuLightsManager __get___4__this() const;
+constexpr GlobalNamespace::MenuLightsManager __get___4__this() const;
 
 
 // Properties
@@ -111,7 +110,7 @@ constexpr ::GlobalNamespace::MenuLightsManager __get___4__this() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__MenuLightsManager___Start_d__4(int32_t __1__state) ;
+explicit GlobalNamespace__MenuLightsManager___Start_d__4(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x225215c size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -141,10 +140,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4981))
 // CS Name: MenuLightsManager
-class CORDL_TYPE MenuLightsManager : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MenuLightsManager : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using _Start_d__4 = ::GlobalNamespace::____GlobalNamespace__MenuLightsManager___Start_d__4;
+using _Start_d__4 = GlobalNamespace::GlobalNamespace__MenuLightsManager___Start_d__4;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -158,7 +157,7 @@ constexpr MenuLightsManager(MenuLightsManager const& ) noexcept = default;
 constexpr MenuLightsManager(MenuLightsManager&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MenuLightsManager(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MenuLightsManager(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -179,11 +178,11 @@ constexpr explicit MenuLightsManager(void* ptr) noexcept : ::UnityEngine::MonoBe
 
 // Fields
 
- ::GlobalNamespace::MenuLightsPresetSO __declspec(property(get=__get__defaultPreset, put=__set__defaultPreset))  _defaultPreset;
+ GlobalNamespace::MenuLightsPresetSO __declspec(property(get=__get__defaultPreset, put=__set__defaultPreset))  _defaultPreset;
 
-constexpr void __set__defaultPreset(::GlobalNamespace::MenuLightsPresetSO value) ;
+constexpr void __set__defaultPreset(GlobalNamespace::MenuLightsPresetSO value) ;
 
-constexpr ::GlobalNamespace::MenuLightsPresetSO __get__defaultPreset() const;
+constexpr GlobalNamespace::MenuLightsPresetSO __get__defaultPreset() const;
 
  float_t __declspec(property(get=__get__smooth, put=__set__smooth))  _smooth;
 
@@ -191,44 +190,44 @@ constexpr void __set__smooth(float_t value) ;
 
 constexpr float_t __get__smooth() const;
 
- ::GlobalNamespace::LightWithIdManager __declspec(property(get=__get__lightManager, put=__set__lightManager))  _lightManager;
+ GlobalNamespace::LightWithIdManager __declspec(property(get=__get__lightManager, put=__set__lightManager))  _lightManager;
 
-constexpr void __set__lightManager(::GlobalNamespace::LightWithIdManager value) ;
+constexpr void __set__lightManager(GlobalNamespace::LightWithIdManager value) ;
 
-constexpr ::GlobalNamespace::LightWithIdManager __get__lightManager() const;
+constexpr GlobalNamespace::LightWithIdManager __get__lightManager() const;
 
- ::GlobalNamespace::MenuLightsPresetSO __declspec(property(get=__get__preset, put=__set__preset))  _preset;
+ GlobalNamespace::MenuLightsPresetSO __declspec(property(get=__get__preset, put=__set__preset))  _preset;
 
-constexpr void __set__preset(::GlobalNamespace::MenuLightsPresetSO value) ;
+constexpr void __set__preset(GlobalNamespace::MenuLightsPresetSO value) ;
 
-constexpr ::GlobalNamespace::MenuLightsPresetSO __get__preset() const;
+constexpr GlobalNamespace::MenuLightsPresetSO __get__preset() const;
 
 
 // Methods
 
 /// @brief Method Start addr 0x22520f4 size 0x68 virtual false final false
- ::System::Collections::IEnumerator Start() ;
+ System::Collections::IEnumerator Start() ;
 
 /// @brief Method Update addr 0x2252184 size 0x40 virtual false final false
  void Update() ;
 
 /// @brief Method IsColorVeryCloseToColor addr 0x2252328 size 0x44 virtual false final false
- bool IsColorVeryCloseToColor(::UnityEngine::Color color0, ::UnityEngine::Color color1) ;
+ bool IsColorVeryCloseToColor(UnityEngine::Color color0, UnityEngine::Color color1) ;
 
 /// @brief Method SetColor addr 0x225236c size 0x1c virtual false final false
- void SetColor(int32_t lightId, ::UnityEngine::Color color) ;
+ void SetColor(int32_t lightId, UnityEngine::Color color) ;
 
 /// @brief Method CurrentColorForID addr 0x2252388 size 0x20 virtual false final false
- ::UnityEngine::Color CurrentColorForID(int32_t lightId) ;
+ UnityEngine::Color CurrentColorForID(int32_t lightId) ;
 
 /// @brief Method SetColorsFromPreset addr 0x22521c4 size 0x164 virtual false final false
- bool SetColorsFromPreset(::GlobalNamespace::MenuLightsPresetSO preset, float_t interpolationFactor) ;
+ bool SetColorsFromPreset(GlobalNamespace::MenuLightsPresetSO preset, float_t interpolationFactor) ;
 
 /// @brief Method RefreshLightsDictForPreset addr 0x22523a8 size 0xe0 virtual false final false
- void RefreshLightsDictForPreset(::GlobalNamespace::MenuLightsPresetSO preset) ;
+ void RefreshLightsDictForPreset(GlobalNamespace::MenuLightsPresetSO preset) ;
 
 /// @brief Method SetColorPreset addr 0x2252488 size 0xbc virtual false final false
- void SetColorPreset(::GlobalNamespace::MenuLightsPresetSO preset, bool animated) ;
+ void SetColorPreset(GlobalNamespace::MenuLightsPresetSO preset, bool animated) ;
 
 /// @brief Method RefreshColors addr 0x2252544 size 0x8c virtual false final false
  void RefreshColors() ;
@@ -243,8 +242,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MenuLightsManager);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MenuLightsManager, "", "MenuLightsManager");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__MenuLightsManager___Start_d__4);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__MenuLightsManager___Start_d__4, "", "MenuLightsManager/<Start>d__4");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__MenuLightsManager___Start_d__4);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__MenuLightsManager___Start_d__4, "", "MenuLightsManager/<Start>d__4");
+NEED_NO_BOX(GlobalNamespace::MenuLightsManager);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuLightsManager, "", "MenuLightsManager");

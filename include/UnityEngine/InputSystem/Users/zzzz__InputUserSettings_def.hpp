@@ -3,13 +3,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
-namespace UnityEngine::InputSystem {
-class IInputActionCollection;
-}
 namespace System {
 template<typename T>
 struct Nullable_1;
+}
+namespace UnityEngine::InputSystem {
+class IInputActionCollection;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Users {
@@ -75,17 +74,17 @@ constexpr void __set__invertMouseY_k__BackingField(bool value) ;
 
 constexpr bool __get__invertMouseY_k__BackingField() const;
 
- ::System::Nullable_1<float_t> __declspec(property(get=__get__mouseSmoothing_k__BackingField, put=__set__mouseSmoothing_k__BackingField))  _mouseSmoothing_k__BackingField;
+ System::Nullable_1<float_t> __declspec(property(get=__get__mouseSmoothing_k__BackingField, put=__set__mouseSmoothing_k__BackingField))  _mouseSmoothing_k__BackingField;
 
-constexpr void __set__mouseSmoothing_k__BackingField(::System::Nullable_1<float_t> value) ;
+constexpr void __set__mouseSmoothing_k__BackingField(System::Nullable_1<float_t> value) ;
 
-constexpr ::System::Nullable_1<float_t> __get__mouseSmoothing_k__BackingField() const;
+constexpr System::Nullable_1<float_t> __get__mouseSmoothing_k__BackingField() const;
 
- ::System::Nullable_1<float_t> __declspec(property(get=__get__mouseSensitivity_k__BackingField, put=__set__mouseSensitivity_k__BackingField))  _mouseSensitivity_k__BackingField;
+ System::Nullable_1<float_t> __declspec(property(get=__get__mouseSensitivity_k__BackingField, put=__set__mouseSensitivity_k__BackingField))  _mouseSensitivity_k__BackingField;
 
-constexpr void __set__mouseSensitivity_k__BackingField(::System::Nullable_1<float_t> value) ;
+constexpr void __set__mouseSensitivity_k__BackingField(System::Nullable_1<float_t> value) ;
 
-constexpr ::System::Nullable_1<float_t> __get__mouseSensitivity_k__BackingField() const;
+constexpr System::Nullable_1<float_t> __get__mouseSensitivity_k__BackingField() const;
 
  bool __declspec(property(get=__get__invertStickX_k__BackingField, put=__set__invertStickX_k__BackingField))  _invertStickX_k__BackingField;
 
@@ -144,9 +143,9 @@ constexpr ::StringW __get_m_CustomBindings() const;
 
  bool __declspec(property(get=get_invertMouseY, put=set_invertMouseY))  invertMouseY;
 
- ::System::Nullable_1<float_t> __declspec(property(get=get_mouseSmoothing, put=set_mouseSmoothing))  mouseSmoothing;
+ System::Nullable_1<float_t> __declspec(property(get=get_mouseSmoothing, put=set_mouseSmoothing))  mouseSmoothing;
 
- ::System::Nullable_1<float_t> __declspec(property(get=get_mouseSensitivity, put=set_mouseSensitivity))  mouseSensitivity;
+ System::Nullable_1<float_t> __declspec(property(get=get_mouseSensitivity, put=set_mouseSensitivity))  mouseSensitivity;
 
  bool __declspec(property(get=get_invertStickX, put=set_invertStickX))  invertStickX;
 
@@ -184,16 +183,16 @@ constexpr ::StringW __get_m_CustomBindings() const;
  void set_invertMouseY(bool value) ;
 
 /// @brief Method get_mouseSmoothing addr 0x293bd04 size 0x8 virtual false final false
- ::System::Nullable_1<float_t> get_mouseSmoothing() ;
+ System::Nullable_1<float_t> get_mouseSmoothing() ;
 
 /// @brief Method set_mouseSmoothing addr 0x293bd0c size 0x8 virtual false final false
- void set_mouseSmoothing(::System::Nullable_1<float_t> value) ;
+ void set_mouseSmoothing(System::Nullable_1<float_t> value) ;
 
 /// @brief Method get_mouseSensitivity addr 0x293bd14 size 0x8 virtual false final false
- ::System::Nullable_1<float_t> get_mouseSensitivity() ;
+ System::Nullable_1<float_t> get_mouseSensitivity() ;
 
 /// @brief Method set_mouseSensitivity addr 0x293bd1c size 0x8 virtual false final false
- void set_mouseSensitivity(::System::Nullable_1<float_t> value) ;
+ void set_mouseSensitivity(System::Nullable_1<float_t> value) ;
 
 /// @brief Method get_invertStickX addr 0x293bd24 size 0x8 virtual false final false
  bool get_invertStickX() ;
@@ -238,7 +237,7 @@ constexpr ::StringW __get_m_CustomBindings() const;
  void set_vibrationStrength(float_t value) ;
 
 /// @brief Method Apply addr 0x293bdac size 0x4 virtual true final false
- void Apply(::UnityEngine::InputSystem::IInputActionCollection actions) ;
+ void Apply(UnityEngine::InputSystem::IInputActionCollection actions) ;
 
 // Ctor Parameters []
 explicit InputUserSettings() ;
@@ -250,6 +249,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Users
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Users::InputUserSettings);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Users::InputUserSettings, "UnityEngine.InputSystem.Users", "InputUserSettings");
+NEED_NO_BOX(UnityEngine::InputSystem::Users::InputUserSettings);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Users::InputUserSettings, "UnityEngine.InputSystem.Users", "InputUserSettings");

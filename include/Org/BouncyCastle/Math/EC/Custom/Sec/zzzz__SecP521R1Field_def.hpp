@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
@@ -75,7 +74,7 @@ static void Add(::ArrayW<uint32_t> x, ::ArrayW<uint32_t> y, ::ArrayW<uint32_t> z
 static void AddOne(::ArrayW<uint32_t> x, ::ArrayW<uint32_t> z) ;
 
 /// @brief Method FromBigInteger addr 0xf71920 size 0x9c virtual false final false
-static ::ArrayW<uint32_t> FromBigInteger(::Org::BouncyCastle::Math::BigInteger x) ;
+static ::ArrayW<uint32_t> FromBigInteger(Org::BouncyCastle::Math::BigInteger x) ;
 
 /// @brief Method Half addr 0xf719bc size 0x68 virtual false final false
 static void Half(::ArrayW<uint32_t> x, ::ArrayW<uint32_t> z) ;
@@ -93,10 +92,10 @@ static void Multiply(::ArrayW<uint32_t> x, ::ArrayW<uint32_t> y, ::ArrayW<uint32
 static void Negate(::ArrayW<uint32_t> x, ::ArrayW<uint32_t> z) ;
 
 /// @brief Method Random addr 0xf710f8 size 0xf8 virtual false final false
-static void Random(::Org::BouncyCastle::Security::SecureRandom r, ::ArrayW<uint32_t> z) ;
+static void Random(Org::BouncyCastle::Security::SecureRandom r, ::ArrayW<uint32_t> z) ;
 
 /// @brief Method RandomMult addr 0xf712c0 size 0x6c virtual false final false
-static void RandomMult(::Org::BouncyCastle::Security::SecureRandom r, ::ArrayW<uint32_t> z) ;
+static void RandomMult(Org::BouncyCastle::Security::SecureRandom r, ::ArrayW<uint32_t> z) ;
 
 /// @brief Method Reduce addr 0xf71fa8 size 0x114 virtual false final false
 static void Reduce(::ArrayW<uint32_t> xx, ::ArrayW<uint32_t> z) ;
@@ -132,6 +131,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Math::EC::Custom::Sec
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Custom::Sec::SecP521R1Field);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Custom::Sec::SecP521R1Field, "Org.BouncyCastle.Math.EC.Custom.Sec", "SecP521R1Field");
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Custom::Sec::SecP521R1Field);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Sec::SecP521R1Field, "Org.BouncyCastle.Math.EC.Custom.Sec", "SecP521R1Field");

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::Runtime::Remoting {
 class ObjRef;
 }
@@ -53,11 +52,11 @@ constexpr explicit CADObjRef(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 
 // Fields
 
- ::System::Runtime::Remoting::ObjRef __declspec(property(get=__get_objref, put=__set_objref))  objref;
+ System::Runtime::Remoting::ObjRef __declspec(property(get=__get_objref, put=__set_objref))  objref;
 
-constexpr void __set_objref(::System::Runtime::Remoting::ObjRef value) ;
+constexpr void __set_objref(System::Runtime::Remoting::ObjRef value) ;
 
-constexpr ::System::Runtime::Remoting::ObjRef __get_objref() const;
+constexpr System::Runtime::Remoting::ObjRef __get_objref() const;
 
  int32_t __declspec(property(get=__get_SourceDomain, put=__set_SourceDomain))  SourceDomain;
 
@@ -74,16 +73,15 @@ constexpr ::ArrayW<uint8_t> __get_TypeInfo() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "o", ty: "::System::Runtime::Remoting::ObjRef", modifiers: "", def_value: None }, CppParam { name: "sourceDomain", ty: "int32_t", modifiers: "", def_value: None }]
-explicit CADObjRef(::System::Runtime::Remoting::ObjRef o, int32_t sourceDomain) ;
+// Ctor Parameters [CppParam { name: "o", ty: "System::Runtime::Remoting::ObjRef", modifiers: "", def_value: None }, CppParam { name: "sourceDomain", ty: "int32_t", modifiers: "", def_value: None }]
+explicit CADObjRef(System::Runtime::Remoting::ObjRef o, int32_t sourceDomain) ;
 
 /// @brief Method .ctor addr 0x233b9a4 size 0x48 virtual false final false
- void _ctor(::System::Runtime::Remoting::ObjRef o, int32_t sourceDomain) ;
+ void _ctor(System::Runtime::Remoting::ObjRef o, int32_t sourceDomain) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Messaging
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Messaging::CADObjRef);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::CADObjRef, "System.Runtime.Remoting.Messaging", "CADObjRef");
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::CADObjRef);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CADObjRef, "System.Runtime.Remoting.Messaging", "CADObjRef");

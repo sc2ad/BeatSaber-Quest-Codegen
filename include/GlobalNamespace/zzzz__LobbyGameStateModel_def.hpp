@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace GlobalNamespace {
 struct MultiplayerGameState;
 }
@@ -55,55 +54,55 @@ constexpr explicit LobbyGameStateModel(void* ptr) noexcept : ::bs_hook::Il2CppWr
 
 // Fields
 
- ::System::Action_1<::GlobalNamespace::MultiplayerGameState> __declspec(property(get=__get_gameStateDidChangeEvent, put=__set_gameStateDidChangeEvent))  gameStateDidChangeEvent;
+ System::Action_1<GlobalNamespace::MultiplayerGameState> __declspec(property(get=__get_gameStateDidChangeEvent, put=__set_gameStateDidChangeEvent))  gameStateDidChangeEvent;
 
-constexpr void __set_gameStateDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState> value) ;
+constexpr void __set_gameStateDidChangeEvent(System::Action_1<GlobalNamespace::MultiplayerGameState> value) ;
 
-constexpr ::System::Action_1<::GlobalNamespace::MultiplayerGameState> __get_gameStateDidChangeEvent() const;
+constexpr System::Action_1<GlobalNamespace::MultiplayerGameState> __get_gameStateDidChangeEvent() const;
 
- ::System::Action_1<::GlobalNamespace::MultiplayerGameState> __declspec(property(get=__get_gameStateDidChangeAlwaysSentEvent, put=__set_gameStateDidChangeAlwaysSentEvent))  gameStateDidChangeAlwaysSentEvent;
+ System::Action_1<GlobalNamespace::MultiplayerGameState> __declspec(property(get=__get_gameStateDidChangeAlwaysSentEvent, put=__set_gameStateDidChangeAlwaysSentEvent))  gameStateDidChangeAlwaysSentEvent;
 
-constexpr void __set_gameStateDidChangeAlwaysSentEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState> value) ;
+constexpr void __set_gameStateDidChangeAlwaysSentEvent(System::Action_1<GlobalNamespace::MultiplayerGameState> value) ;
 
-constexpr ::System::Action_1<::GlobalNamespace::MultiplayerGameState> __get_gameStateDidChangeAlwaysSentEvent() const;
+constexpr System::Action_1<GlobalNamespace::MultiplayerGameState> __get_gameStateDidChangeAlwaysSentEvent() const;
 
- ::GlobalNamespace::MultiplayerGameState __declspec(property(get=__get__gameState, put=__set__gameState))  _gameState;
+ GlobalNamespace::MultiplayerGameState __declspec(property(get=__get__gameState, put=__set__gameState))  _gameState;
 
-constexpr void __set__gameState(::GlobalNamespace::MultiplayerGameState value) ;
+constexpr void __set__gameState(GlobalNamespace::MultiplayerGameState value) ;
 
-constexpr ::GlobalNamespace::MultiplayerGameState __get__gameState() const;
+constexpr GlobalNamespace::MultiplayerGameState __get__gameState() const;
 
 
 // Properties
 
- ::GlobalNamespace::MultiplayerGameState __declspec(property(get=get_gameState))  gameState;
+ GlobalNamespace::MultiplayerGameState __declspec(property(get=get_gameState))  gameState;
 
 
 // Methods
 
 /// @brief Method get_gameState addr 0x21f891c size 0x8 virtual false final false
- ::GlobalNamespace::MultiplayerGameState get_gameState() ;
+ GlobalNamespace::MultiplayerGameState get_gameState() ;
 
 /// @brief Method add_gameStateDidChangeEvent addr 0x21f8924 size 0xb0 virtual false final false
- void add_gameStateDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState> value) ;
+ void add_gameStateDidChangeEvent(System::Action_1<GlobalNamespace::MultiplayerGameState> value) ;
 
 /// @brief Method remove_gameStateDidChangeEvent addr 0x21f89d4 size 0xb0 virtual false final false
- void remove_gameStateDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState> value) ;
+ void remove_gameStateDidChangeEvent(System::Action_1<GlobalNamespace::MultiplayerGameState> value) ;
 
 /// @brief Method add_gameStateDidChangeAlwaysSentEvent addr 0x21f8a84 size 0xb0 virtual false final false
- void add_gameStateDidChangeAlwaysSentEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState> value) ;
+ void add_gameStateDidChangeAlwaysSentEvent(System::Action_1<GlobalNamespace::MultiplayerGameState> value) ;
 
 /// @brief Method remove_gameStateDidChangeAlwaysSentEvent addr 0x21f8b34 size 0xb0 virtual false final false
- void remove_gameStateDidChangeAlwaysSentEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState> value) ;
+ void remove_gameStateDidChangeAlwaysSentEvent(System::Action_1<GlobalNamespace::MultiplayerGameState> value) ;
 
 /// @brief Method SetGameState addr 0x21f7d48 size 0x8 virtual false final false
- void SetGameState(::GlobalNamespace::MultiplayerGameState newGameState) ;
+ void SetGameState(GlobalNamespace::MultiplayerGameState newGameState) ;
 
 /// @brief Method SetGameStateWithoutNotification addr 0x21f5dd4 size 0x2c virtual false final false
- void SetGameStateWithoutNotification(::GlobalNamespace::MultiplayerGameState newGameState) ;
+ void SetGameStateWithoutNotification(GlobalNamespace::MultiplayerGameState newGameState) ;
 
 /// @brief Method SetGameState addr 0x21f8be4 size 0x70 virtual false final false
- void SetGameState(::GlobalNamespace::MultiplayerGameState newGameState, bool sendNotification) ;
+ void SetGameState(GlobalNamespace::MultiplayerGameState newGameState, bool sendNotification) ;
 
 // Ctor Parameters []
 explicit LobbyGameStateModel() ;
@@ -115,6 +114,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LobbyGameStateModel);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LobbyGameStateModel, "", "LobbyGameStateModel");
+NEED_NO_BOX(GlobalNamespace::LobbyGameStateModel);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyGameStateModel, "", "LobbyGameStateModel");

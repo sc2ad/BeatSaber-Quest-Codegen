@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
 class CertPolicyID;
@@ -13,7 +12,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(350))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(351))
 // CS Name: Org.BouncyCastle.Asn1.X509.CertPolicyID
-class CORDL_TYPE CertPolicyID : public ::Org::BouncyCastle::Asn1::DerObjectIdentifier {
+class CORDL_TYPE CertPolicyID : public Org::BouncyCastle::Asn1::DerObjectIdentifier {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr CertPolicyID(CertPolicyID const& ) noexcept = default;
 constexpr CertPolicyID(CertPolicyID&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CertPolicyID(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::DerObjectIdentifier(ptr) {
+constexpr explicit CertPolicyID(void* ptr) noexcept : Org::BouncyCastle::Asn1::DerObjectIdentifier(ptr) {
 }
 
 
@@ -59,6 +58,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::X509
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::CertPolicyID);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X509::CertPolicyID, "Org.BouncyCastle.Asn1.X509", "CertPolicyID");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::CertPolicyID);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::CertPolicyID, "Org.BouncyCastle.Asn1.X509", "CertPolicyID");

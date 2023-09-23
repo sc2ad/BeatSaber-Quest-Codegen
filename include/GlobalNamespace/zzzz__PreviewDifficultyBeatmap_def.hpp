@@ -2,19 +2,18 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-struct BeatmapDifficulty;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
 namespace System {
 template<typename T>
 class IEquatable_1;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
+struct BeatmapDifficulty;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,8 +28,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE PreviewDifficultyBeatmap : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::GlobalNamespace::PreviewDifficultyBeatmap>
-constexpr operator  ::System::IEquatable_1<::GlobalNamespace::PreviewDifficultyBeatmap>() const noexcept;
+/// @brief Convert operator to System::IEquatable_1<GlobalNamespace::PreviewDifficultyBeatmap>
+constexpr operator  System::IEquatable_1<GlobalNamespace::PreviewDifficultyBeatmap>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -65,62 +64,62 @@ constexpr explicit PreviewDifficultyBeatmap(void* ptr) noexcept : ::bs_hook::Il2
 
 // Fields
 
- ::GlobalNamespace::IPreviewBeatmapLevel __declspec(property(get=__get__beatmapLevel_k__BackingField, put=__set__beatmapLevel_k__BackingField))  _beatmapLevel_k__BackingField;
+ GlobalNamespace::IPreviewBeatmapLevel __declspec(property(get=__get__beatmapLevel_k__BackingField, put=__set__beatmapLevel_k__BackingField))  _beatmapLevel_k__BackingField;
 
-constexpr void __set__beatmapLevel_k__BackingField(::GlobalNamespace::IPreviewBeatmapLevel value) ;
+constexpr void __set__beatmapLevel_k__BackingField(GlobalNamespace::IPreviewBeatmapLevel value) ;
 
-constexpr ::GlobalNamespace::IPreviewBeatmapLevel __get__beatmapLevel_k__BackingField() const;
+constexpr GlobalNamespace::IPreviewBeatmapLevel __get__beatmapLevel_k__BackingField() const;
 
- ::GlobalNamespace::BeatmapCharacteristicSO __declspec(property(get=__get__beatmapCharacteristic_k__BackingField, put=__set__beatmapCharacteristic_k__BackingField))  _beatmapCharacteristic_k__BackingField;
+ GlobalNamespace::BeatmapCharacteristicSO __declspec(property(get=__get__beatmapCharacteristic_k__BackingField, put=__set__beatmapCharacteristic_k__BackingField))  _beatmapCharacteristic_k__BackingField;
 
-constexpr void __set__beatmapCharacteristic_k__BackingField(::GlobalNamespace::BeatmapCharacteristicSO value) ;
+constexpr void __set__beatmapCharacteristic_k__BackingField(GlobalNamespace::BeatmapCharacteristicSO value) ;
 
-constexpr ::GlobalNamespace::BeatmapCharacteristicSO __get__beatmapCharacteristic_k__BackingField() const;
+constexpr GlobalNamespace::BeatmapCharacteristicSO __get__beatmapCharacteristic_k__BackingField() const;
 
- ::GlobalNamespace::BeatmapDifficulty __declspec(property(get=__get__beatmapDifficulty_k__BackingField, put=__set__beatmapDifficulty_k__BackingField))  _beatmapDifficulty_k__BackingField;
+ GlobalNamespace::BeatmapDifficulty __declspec(property(get=__get__beatmapDifficulty_k__BackingField, put=__set__beatmapDifficulty_k__BackingField))  _beatmapDifficulty_k__BackingField;
 
-constexpr void __set__beatmapDifficulty_k__BackingField(::GlobalNamespace::BeatmapDifficulty value) ;
+constexpr void __set__beatmapDifficulty_k__BackingField(GlobalNamespace::BeatmapDifficulty value) ;
 
-constexpr ::GlobalNamespace::BeatmapDifficulty __get__beatmapDifficulty_k__BackingField() const;
+constexpr GlobalNamespace::BeatmapDifficulty __get__beatmapDifficulty_k__BackingField() const;
 
 
 // Properties
 
- ::GlobalNamespace::IPreviewBeatmapLevel __declspec(property(get=get_beatmapLevel, put=set_beatmapLevel))  beatmapLevel;
+ GlobalNamespace::IPreviewBeatmapLevel __declspec(property(get=get_beatmapLevel, put=set_beatmapLevel))  beatmapLevel;
 
- ::GlobalNamespace::BeatmapCharacteristicSO __declspec(property(get=get_beatmapCharacteristic, put=set_beatmapCharacteristic))  beatmapCharacteristic;
+ GlobalNamespace::BeatmapCharacteristicSO __declspec(property(get=get_beatmapCharacteristic, put=set_beatmapCharacteristic))  beatmapCharacteristic;
 
- ::GlobalNamespace::BeatmapDifficulty __declspec(property(get=get_beatmapDifficulty, put=set_beatmapDifficulty))  beatmapDifficulty;
+ GlobalNamespace::BeatmapDifficulty __declspec(property(get=get_beatmapDifficulty, put=set_beatmapDifficulty))  beatmapDifficulty;
 
 
 // Methods
 
 /// @brief Method get_beatmapLevel addr 0x21ecf24 size 0x8 virtual false final false
- ::GlobalNamespace::IPreviewBeatmapLevel get_beatmapLevel() ;
+ GlobalNamespace::IPreviewBeatmapLevel get_beatmapLevel() ;
 
 /// @brief Method set_beatmapLevel addr 0x21ecf2c size 0x8 virtual false final false
- void set_beatmapLevel(::GlobalNamespace::IPreviewBeatmapLevel value) ;
+ void set_beatmapLevel(GlobalNamespace::IPreviewBeatmapLevel value) ;
 
 /// @brief Method get_beatmapCharacteristic addr 0x21ecf34 size 0x8 virtual false final false
- ::GlobalNamespace::BeatmapCharacteristicSO get_beatmapCharacteristic() ;
+ GlobalNamespace::BeatmapCharacteristicSO get_beatmapCharacteristic() ;
 
 /// @brief Method set_beatmapCharacteristic addr 0x21ecf3c size 0x8 virtual false final false
- void set_beatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO value) ;
+ void set_beatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO value) ;
 
 /// @brief Method get_beatmapDifficulty addr 0x21ecf44 size 0x8 virtual false final false
- ::GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty() ;
+ GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty() ;
 
 /// @brief Method set_beatmapDifficulty addr 0x21ecf4c size 0x8 virtual false final false
- void set_beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value) ;
+ void set_beatmapDifficulty(GlobalNamespace::BeatmapDifficulty value) ;
 
-// Ctor Parameters [CppParam { name: "beatmapLevel", ty: "::GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristic", ty: "::GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }, CppParam { name: "beatmapDifficulty", ty: "::GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }]
-explicit PreviewDifficultyBeatmap(::GlobalNamespace::IPreviewBeatmapLevel beatmapLevel, ::GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty) ;
+// Ctor Parameters [CppParam { name: "beatmapLevel", ty: "GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristic", ty: "GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }, CppParam { name: "beatmapDifficulty", ty: "GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }]
+explicit PreviewDifficultyBeatmap(GlobalNamespace::IPreviewBeatmapLevel beatmapLevel, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, GlobalNamespace::BeatmapDifficulty beatmapDifficulty) ;
 
 /// @brief Method .ctor addr 0x21e29ac size 0x3c virtual false final false
- void _ctor(::GlobalNamespace::IPreviewBeatmapLevel beatmapLevel, ::GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty) ;
+ void _ctor(GlobalNamespace::IPreviewBeatmapLevel beatmapLevel, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, GlobalNamespace::BeatmapDifficulty beatmapDifficulty) ;
 
 /// @brief Method Equals addr 0x21ecf54 size 0xb4 virtual true final true
- bool Equals(::GlobalNamespace::PreviewDifficultyBeatmap other) ;
+ bool Equals(GlobalNamespace::PreviewDifficultyBeatmap other) ;
 
 /// @brief Method Equals addr 0x21ed008 size 0x10c virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -129,15 +128,14 @@ explicit PreviewDifficultyBeatmap(::GlobalNamespace::IPreviewBeatmapLevel beatma
  int32_t GetHashCode() ;
 
 /// @brief Method op_Equality addr 0x21e2b08 size 0x18 virtual false final false
-static bool op_Equality(::GlobalNamespace::PreviewDifficultyBeatmap a, ::GlobalNamespace::PreviewDifficultyBeatmap b) ;
+static bool op_Equality(GlobalNamespace::PreviewDifficultyBeatmap a, GlobalNamespace::PreviewDifficultyBeatmap b) ;
 
 /// @brief Method op_Inequality addr 0x21ed1d4 size 0x34 virtual false final false
-static bool op_Inequality(::GlobalNamespace::PreviewDifficultyBeatmap a, ::GlobalNamespace::PreviewDifficultyBeatmap b) ;
+static bool op_Inequality(GlobalNamespace::PreviewDifficultyBeatmap a, GlobalNamespace::PreviewDifficultyBeatmap b) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PreviewDifficultyBeatmap);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PreviewDifficultyBeatmap, "", "PreviewDifficultyBeatmap");
+NEED_NO_BOX(GlobalNamespace::PreviewDifficultyBeatmap);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PreviewDifficultyBeatmap, "", "PreviewDifficultyBeatmap");

@@ -5,18 +5,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace MS::Internal::Xml::Cache {
-class XPathNodePageInfo;
-}
 namespace System::Xml::XPath {
-struct XPathNodeType;
+class XPathDocument;
 }
 namespace MS::Internal::Xml::Cache {
 class XPathNodeInfoAtom;
 }
 namespace System::Xml::XPath {
-class XPathDocument;
+struct XPathNodeType;
+}
+namespace MS::Internal::Xml::Cache {
+class XPathNodePageInfo;
 }
 // Forward declare root types
 namespace MS::Internal::Xml::Cache {
@@ -31,8 +30,8 @@ namespace MS::Internal::Xml::Cache {
 struct CORDL_TYPE XPathNode : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "_info", ty: "::MS::Internal::Xml::Cache::XPathNodeInfoAtom", modifiers: "", def_value: None }, CppParam { name: "_idxSibling", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "_idxParent", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "_idxSimilar", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "_posOffset", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "_props", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_value", ty: "::StringW", modifiers: "", def_value: None }]
-constexpr XPathNode(::MS::Internal::Xml::Cache::XPathNodeInfoAtom _info, uint16_t _idxSibling, uint16_t _idxParent, uint16_t _idxSimilar, uint16_t _posOffset, uint32_t _props, ::StringW _value) noexcept;
+// Ctor Parameters [CppParam { name: "_info", ty: "MS::Internal::Xml::Cache::XPathNodeInfoAtom", modifiers: "", def_value: None }, CppParam { name: "_idxSibling", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "_idxParent", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "_idxSimilar", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "_posOffset", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "_props", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_value", ty: "::StringW", modifiers: "", def_value: None }]
+constexpr XPathNode(MS::Internal::Xml::Cache::XPathNodeInfoAtom _info, uint16_t _idxSibling, uint16_t _idxParent, uint16_t _idxSimilar, uint16_t _posOffset, uint32_t _props, ::StringW _value) noexcept;
 
 
                     constexpr XPathNode(XPathNode const&) = default;
@@ -65,11 +64,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::MS::Internal::Xml::Cache::XPathNodeInfoAtom __declspec(property(get=__get__info, put=__set__info))  _info;
+ MS::Internal::Xml::Cache::XPathNodeInfoAtom __declspec(property(get=__get__info, put=__set__info))  _info;
 
-constexpr void __set__info(::MS::Internal::Xml::Cache::XPathNodeInfoAtom value) ;
+constexpr void __set__info(MS::Internal::Xml::Cache::XPathNodeInfoAtom value) ;
 
-constexpr ::MS::Internal::Xml::Cache::XPathNodeInfoAtom __get__info() const;
+constexpr MS::Internal::Xml::Cache::XPathNodeInfoAtom __get__info() const;
 
  uint16_t __declspec(property(get=__get__idxSibling, put=__set__idxSibling))  _idxSibling;
 
@@ -110,7 +109,7 @@ constexpr ::StringW __get__value() const;
 
 // Properties
 
- ::System::Xml::XPath::XPathNodeType __declspec(property(get=get_NodeType))  NodeType;
+ System::Xml::XPath::XPathNodeType __declspec(property(get=get_NodeType))  NodeType;
 
  ::StringW __declspec(property(get=get_Prefix))  Prefix;
 
@@ -118,9 +117,9 @@ constexpr ::StringW __get__value() const;
 
  ::StringW __declspec(property(get=get_NamespaceUri))  NamespaceUri;
 
- ::System::Xml::XPath::XPathDocument __declspec(property(get=get_Document))  Document;
+ System::Xml::XPath::XPathDocument __declspec(property(get=get_Document))  Document;
 
- ::MS::Internal::Xml::Cache::XPathNodePageInfo __declspec(property(get=get_PageInfo))  PageInfo;
+ MS::Internal::Xml::Cache::XPathNodePageInfo __declspec(property(get=get_PageInfo))  PageInfo;
 
  bool __declspec(property(get=get_IsXmlNamespaceNode))  IsXmlNamespaceNode;
 
@@ -138,7 +137,7 @@ constexpr ::StringW __get__value() const;
 // Methods
 
 /// @brief Method get_NodeType addr 0x27576e4 size 0xc virtual false final false
- ::System::Xml::XPath::XPathNodeType get_NodeType() ;
+ System::Xml::XPath::XPathNodeType get_NodeType() ;
 
 /// @brief Method get_Prefix addr 0x27577dc size 0x1c virtual false final false
  ::StringW get_Prefix() ;
@@ -150,16 +149,16 @@ constexpr ::StringW __get__value() const;
  ::StringW get_NamespaceUri() ;
 
 /// @brief Method get_Document addr 0x275783c size 0x1c virtual false final false
- ::System::Xml::XPath::XPathDocument get_Document() ;
+ System::Xml::XPath::XPathDocument get_Document() ;
 
 /// @brief Method get_PageInfo addr 0x2757d8c size 0x1c virtual false final false
- ::MS::Internal::Xml::Cache::XPathNodePageInfo get_PageInfo() ;
+ MS::Internal::Xml::Cache::XPathNodePageInfo get_PageInfo() ;
 
 /// @brief Method GetParent addr 0x2757c1c size 0x24 virtual false final false
- int32_t GetParent(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>> pageNode) ;
+ int32_t GetParent(ByRef<::ArrayW<MS::Internal::Xml::Cache::XPathNode>> pageNode) ;
 
 /// @brief Method GetSibling addr 0x2757af0 size 0x24 virtual false final false
- int32_t GetSibling(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>> pageNode) ;
+ int32_t GetSibling(ByRef<::ArrayW<MS::Internal::Xml::Cache::XPathNode>> pageNode) ;
 
 /// @brief Method get_IsXmlNamespaceNode addr 0x2757a68 size 0x88 virtual false final false
  bool get_IsXmlNamespaceNode() ;
@@ -183,5 +182,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def MS::Internal::Xml::Cache
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::MS::Internal::Xml::Cache::XPathNode, "MS.Internal.Xml.Cache", "XPathNode");
+DEFINE_IL2CPP_ARG_TYPE(MS::Internal::Xml::Cache::XPathNode, "MS.Internal.Xml.Cache", "XPathNode");

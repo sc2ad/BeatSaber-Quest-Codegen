@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct ETrackedControllerRole;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Invalid offset 0
-static ::OVR::OpenVR::ETrackedControllerRole const Invalid;
+static OVR::OpenVR::ETrackedControllerRole const Invalid;
 
 /// @brief Field LeftHand offset 0
-static ::OVR::OpenVR::ETrackedControllerRole const LeftHand;
+static OVR::OpenVR::ETrackedControllerRole const LeftHand;
 
 /// @brief Field RightHand offset 0
-static ::OVR::OpenVR::ETrackedControllerRole const RightHand;
+static OVR::OpenVR::ETrackedControllerRole const RightHand;
 
 /// @brief Field OptOut offset 0
-static ::OVR::OpenVR::ETrackedControllerRole const OptOut;
+static OVR::OpenVR::ETrackedControllerRole const OptOut;
 
 /// @brief Field Max offset 0
-static ::OVR::OpenVR::ETrackedControllerRole const Max;
+static OVR::OpenVR::ETrackedControllerRole const Max;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::ETrackedControllerRole, "OVR.OpenVR", "ETrackedControllerRole");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::ETrackedControllerRole, "OVR.OpenVR", "ETrackedControllerRole");

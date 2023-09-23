@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "System/Net/Http/Headers/zzzz__HttpHeaders_def.hpp"
-namespace {
 // Forward declare root types
 namespace System::Net::Http::Headers {
 class HttpResponseHeaders;
@@ -12,7 +11,7 @@ namespace System::Net::Http::Headers {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14837))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14840))
 // CS Name: System.Net.Http.Headers.HttpResponseHeaders
-class CORDL_TYPE HttpResponseHeaders : public ::System::Net::Http::Headers::HttpHeaders {
+class CORDL_TYPE HttpResponseHeaders : public System::Net::Http::Headers::HttpHeaders {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr HttpResponseHeaders(HttpResponseHeaders const& ) noexcept = default;
 constexpr HttpResponseHeaders(HttpResponseHeaders&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HttpResponseHeaders(void* ptr) noexcept : ::System::Net::Http::Headers::HttpHeaders(ptr) {
+constexpr explicit HttpResponseHeaders(void* ptr) noexcept : System::Net::Http::Headers::HttpHeaders(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Http::Headers
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Http::Headers::HttpResponseHeaders);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::HttpResponseHeaders, "System.Net.Http.Headers", "HttpResponseHeaders");
+NEED_NO_BOX(System::Net::Http::Headers::HttpResponseHeaders);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::HttpResponseHeaders, "System.Net.Http.Headers", "HttpResponseHeaders");

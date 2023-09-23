@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
 namespace System {
 struct TimeSpan;
 }
@@ -21,8 +20,8 @@ namespace System::Globalization {
 struct CORDL_TYPE DaylightTimeStruct : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "Start", ty: "::System::DateTime", modifiers: "", def_value: None }, CppParam { name: "End", ty: "::System::DateTime", modifiers: "", def_value: None }, CppParam { name: "Delta", ty: "::System::TimeSpan", modifiers: "", def_value: None }]
-constexpr DaylightTimeStruct(::System::DateTime Start, ::System::DateTime End, ::System::TimeSpan Delta) noexcept;
+// Ctor Parameters [CppParam { name: "Start", ty: "System::DateTime", modifiers: "", def_value: None }, CppParam { name: "End", ty: "System::DateTime", modifiers: "", def_value: None }, CppParam { name: "Delta", ty: "System::TimeSpan", modifiers: "", def_value: None }]
+constexpr DaylightTimeStruct(System::DateTime Start, System::DateTime End, System::TimeSpan Delta) noexcept;
 
 
                     constexpr DaylightTimeStruct(DaylightTimeStruct const&) = default;
@@ -55,33 +54,32 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::DateTime __declspec(property(get=__get_Start, put=__set_Start))  Start;
+ System::DateTime __declspec(property(get=__get_Start, put=__set_Start))  Start;
 
-constexpr void __set_Start(::System::DateTime value) ;
+constexpr void __set_Start(System::DateTime value) ;
 
-constexpr ::System::DateTime __get_Start() const;
+constexpr System::DateTime __get_Start() const;
 
- ::System::DateTime __declspec(property(get=__get_End, put=__set_End))  End;
+ System::DateTime __declspec(property(get=__get_End, put=__set_End))  End;
 
-constexpr void __set_End(::System::DateTime value) ;
+constexpr void __set_End(System::DateTime value) ;
 
-constexpr ::System::DateTime __get_End() const;
+constexpr System::DateTime __get_End() const;
 
- ::System::TimeSpan __declspec(property(get=__get_Delta, put=__set_Delta))  Delta;
+ System::TimeSpan __declspec(property(get=__get_Delta, put=__set_Delta))  Delta;
 
-constexpr void __set_Delta(::System::TimeSpan value) ;
+constexpr void __set_Delta(System::TimeSpan value) ;
 
-constexpr ::System::TimeSpan __get_Delta() const;
+constexpr System::TimeSpan __get_Delta() const;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x23e51f8 size 0xc virtual false final false
- void _ctor(::System::DateTime start, ::System::DateTime end, ::System::TimeSpan delta) ;
+ void _ctor(System::DateTime start, System::DateTime end, System::TimeSpan delta) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Globalization
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::DaylightTimeStruct, "System.Globalization", "DaylightTimeStruct");
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::DaylightTimeStruct, "System.Globalization", "DaylightTimeStruct");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct DrivenTransformProperties;
@@ -90,83 +89,82 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::DrivenTransformProperties const None;
+static UnityEngine::DrivenTransformProperties const None;
 
 /// @brief Field All offset 0
-static ::UnityEngine::DrivenTransformProperties const All;
+static UnityEngine::DrivenTransformProperties const All;
 
 /// @brief Field AnchoredPositionX offset 0
-static ::UnityEngine::DrivenTransformProperties const AnchoredPositionX;
+static UnityEngine::DrivenTransformProperties const AnchoredPositionX;
 
 /// @brief Field AnchoredPositionY offset 0
-static ::UnityEngine::DrivenTransformProperties const AnchoredPositionY;
+static UnityEngine::DrivenTransformProperties const AnchoredPositionY;
 
 /// @brief Field AnchoredPositionZ offset 0
-static ::UnityEngine::DrivenTransformProperties const AnchoredPositionZ;
+static UnityEngine::DrivenTransformProperties const AnchoredPositionZ;
 
 /// @brief Field Rotation offset 0
-static ::UnityEngine::DrivenTransformProperties const Rotation;
+static UnityEngine::DrivenTransformProperties const Rotation;
 
 /// @brief Field ScaleX offset 0
-static ::UnityEngine::DrivenTransformProperties const ScaleX;
+static UnityEngine::DrivenTransformProperties const ScaleX;
 
 /// @brief Field ScaleY offset 0
-static ::UnityEngine::DrivenTransformProperties const ScaleY;
+static UnityEngine::DrivenTransformProperties const ScaleY;
 
 /// @brief Field ScaleZ offset 0
-static ::UnityEngine::DrivenTransformProperties const ScaleZ;
+static UnityEngine::DrivenTransformProperties const ScaleZ;
 
 /// @brief Field AnchorMinX offset 0
-static ::UnityEngine::DrivenTransformProperties const AnchorMinX;
+static UnityEngine::DrivenTransformProperties const AnchorMinX;
 
 /// @brief Field AnchorMinY offset 0
-static ::UnityEngine::DrivenTransformProperties const AnchorMinY;
+static UnityEngine::DrivenTransformProperties const AnchorMinY;
 
 /// @brief Field AnchorMaxX offset 0
-static ::UnityEngine::DrivenTransformProperties const AnchorMaxX;
+static UnityEngine::DrivenTransformProperties const AnchorMaxX;
 
 /// @brief Field AnchorMaxY offset 0
-static ::UnityEngine::DrivenTransformProperties const AnchorMaxY;
+static UnityEngine::DrivenTransformProperties const AnchorMaxY;
 
 /// @brief Field SizeDeltaX offset 0
-static ::UnityEngine::DrivenTransformProperties const SizeDeltaX;
+static UnityEngine::DrivenTransformProperties const SizeDeltaX;
 
 /// @brief Field SizeDeltaY offset 0
-static ::UnityEngine::DrivenTransformProperties const SizeDeltaY;
+static UnityEngine::DrivenTransformProperties const SizeDeltaY;
 
 /// @brief Field PivotX offset 0
-static ::UnityEngine::DrivenTransformProperties const PivotX;
+static UnityEngine::DrivenTransformProperties const PivotX;
 
 /// @brief Field PivotY offset 0
-static ::UnityEngine::DrivenTransformProperties const PivotY;
+static UnityEngine::DrivenTransformProperties const PivotY;
 
 /// @brief Field AnchoredPosition offset 0
-static ::UnityEngine::DrivenTransformProperties const AnchoredPosition;
+static UnityEngine::DrivenTransformProperties const AnchoredPosition;
 
 /// @brief Field AnchoredPosition3D offset 0
-static ::UnityEngine::DrivenTransformProperties const AnchoredPosition3D;
+static UnityEngine::DrivenTransformProperties const AnchoredPosition3D;
 
 /// @brief Field Scale offset 0
-static ::UnityEngine::DrivenTransformProperties const Scale;
+static UnityEngine::DrivenTransformProperties const Scale;
 
 /// @brief Field AnchorMin offset 0
-static ::UnityEngine::DrivenTransformProperties const AnchorMin;
+static UnityEngine::DrivenTransformProperties const AnchorMin;
 
 /// @brief Field AnchorMax offset 0
-static ::UnityEngine::DrivenTransformProperties const AnchorMax;
+static UnityEngine::DrivenTransformProperties const AnchorMax;
 
 /// @brief Field Anchors offset 0
-static ::UnityEngine::DrivenTransformProperties const Anchors;
+static UnityEngine::DrivenTransformProperties const Anchors;
 
 /// @brief Field SizeDelta offset 0
-static ::UnityEngine::DrivenTransformProperties const SizeDelta;
+static UnityEngine::DrivenTransformProperties const SizeDelta;
 
 /// @brief Field Pivot offset 0
-static ::UnityEngine::DrivenTransformProperties const Pivot;
+static UnityEngine::DrivenTransformProperties const Pivot;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::DrivenTransformProperties, "UnityEngine", "DrivenTransformProperties");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::DrivenTransformProperties, "UnityEngine", "DrivenTransformProperties");

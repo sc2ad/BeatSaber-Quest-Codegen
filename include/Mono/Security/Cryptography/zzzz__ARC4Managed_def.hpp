@@ -3,12 +3,11 @@
 #include "Mono/Security/Cryptography/zzzz__RC4_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace System::Security::Cryptography {
-class ICryptoTransform;
-}
 namespace System {
 class IDisposable;
+}
+namespace System::Security::Cryptography {
+class ICryptoTransform;
 }
 // Forward declare root types
 namespace Mono::Security::Cryptography {
@@ -20,14 +19,14 @@ namespace Mono::Security::Cryptography {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14009))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13998))
 // CS Name: Mono.Security.Cryptography.ARC4Managed
-class CORDL_TYPE ARC4Managed : public ::Mono::Security::Cryptography::RC4 {
+class CORDL_TYPE ARC4Managed : public Mono::Security::Cryptography::RC4 {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Security::Cryptography::ICryptoTransform
-constexpr operator  ::System::Security::Cryptography::ICryptoTransform() const noexcept;
+/// @brief Convert operator to System::Security::Cryptography::ICryptoTransform
+constexpr operator  System::Security::Cryptography::ICryptoTransform() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x60};
@@ -41,7 +40,7 @@ constexpr ARC4Managed(ARC4Managed const& ) noexcept = default;
 constexpr ARC4Managed(ARC4Managed&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ARC4Managed(void* ptr) noexcept : ::Mono::Security::Cryptography::RC4(ptr) {
+constexpr explicit ARC4Managed(void* ptr) noexcept : Mono::Security::Cryptography::RC4(ptr) {
 }
 
 
@@ -125,10 +124,10 @@ explicit ARC4Managed() ;
  void set_Key(::ArrayW<uint8_t> value) ;
 
 /// @brief Method CreateEncryptor addr 0x229611c size 0x20 virtual true final false
- ::System::Security::Cryptography::ICryptoTransform CreateEncryptor(::ArrayW<uint8_t> rgbKey, ::ArrayW<uint8_t> rgvIV) ;
+ System::Security::Cryptography::ICryptoTransform CreateEncryptor(::ArrayW<uint8_t> rgbKey, ::ArrayW<uint8_t> rgvIV) ;
 
 /// @brief Method CreateDecryptor addr 0x229613c size 0x2c virtual true final false
- ::System::Security::Cryptography::ICryptoTransform CreateDecryptor(::ArrayW<uint8_t> rgbKey, ::ArrayW<uint8_t> rgvIV) ;
+ System::Security::Cryptography::ICryptoTransform CreateDecryptor(::ArrayW<uint8_t> rgbKey, ::ArrayW<uint8_t> rgvIV) ;
 
 /// @brief Method GenerateIV addr 0x2296168 size 0x5c virtual true final false
  void GenerateIV() ;
@@ -164,6 +163,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Security::Cryptography::ARC4Managed);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Cryptography::ARC4Managed, "Mono.Security.Cryptography", "ARC4Managed");
+NEED_NO_BOX(Mono::Security::Cryptography::ARC4Managed);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::ARC4Managed, "Mono.Security.Cryptography", "ARC4Managed");

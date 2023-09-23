@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 class Action_1;
@@ -32,21 +31,20 @@ constexpr explicit IComboController(void* ptr) noexcept : ::cordl_internals::Int
 // Methods
 
 /// @brief Method add_comboDidChangeEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void add_comboDidChangeEvent(::System::Action_1<int32_t> value) ;
+ void add_comboDidChangeEvent(System::Action_1<int32_t> value) ;
 
 /// @brief Method remove_comboDidChangeEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void remove_comboDidChangeEvent(::System::Action_1<int32_t> value) ;
+ void remove_comboDidChangeEvent(System::Action_1<int32_t> value) ;
 
 /// @brief Method add_comboBreakingEventHappenedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void add_comboBreakingEventHappenedEvent(::System::Action value) ;
+ void add_comboBreakingEventHappenedEvent(System::Action value) ;
 
 /// @brief Method remove_comboBreakingEventHappenedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void remove_comboBreakingEventHappenedEvent(::System::Action value) ;
+ void remove_comboBreakingEventHappenedEvent(System::Action value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IComboController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IComboController, "", "IComboController");
+NEED_NO_BOX(GlobalNamespace::IComboController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IComboController, "", "IComboController");

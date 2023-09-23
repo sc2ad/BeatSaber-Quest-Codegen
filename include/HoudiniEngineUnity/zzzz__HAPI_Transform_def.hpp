@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstddef>
-namespace {
 namespace HoudiniEngineUnity {
 struct HAPI_RSTOrder;
 }
@@ -20,8 +19,8 @@ namespace HoudiniEngineUnity {
 struct CORDL_TYPE HAPI_Transform : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "position", ty: "::ArrayW<float_t>", modifiers: "", def_value: None }, CppParam { name: "rotationQuaternion", ty: "::ArrayW<float_t>", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "::ArrayW<float_t>", modifiers: "", def_value: None }, CppParam { name: "shear", ty: "::ArrayW<float_t>", modifiers: "", def_value: None }, CppParam { name: "rstOrder", ty: "::HoudiniEngineUnity::HAPI_RSTOrder", modifiers: "", def_value: None }]
-constexpr HAPI_Transform(::ArrayW<float_t> position, ::ArrayW<float_t> rotationQuaternion, ::ArrayW<float_t> scale, ::ArrayW<float_t> shear, ::HoudiniEngineUnity::HAPI_RSTOrder rstOrder) noexcept;
+// Ctor Parameters [CppParam { name: "position", ty: "::ArrayW<float_t>", modifiers: "", def_value: None }, CppParam { name: "rotationQuaternion", ty: "::ArrayW<float_t>", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "::ArrayW<float_t>", modifiers: "", def_value: None }, CppParam { name: "shear", ty: "::ArrayW<float_t>", modifiers: "", def_value: None }, CppParam { name: "rstOrder", ty: "HoudiniEngineUnity::HAPI_RSTOrder", modifiers: "", def_value: None }]
+constexpr HAPI_Transform(::ArrayW<float_t> position, ::ArrayW<float_t> rotationQuaternion, ::ArrayW<float_t> scale, ::ArrayW<float_t> shear, HoudiniEngineUnity::HAPI_RSTOrder rstOrder) noexcept;
 
 
                     constexpr HAPI_Transform(HAPI_Transform const&) = default;
@@ -78,11 +77,11 @@ constexpr void __set_shear(::ArrayW<float_t> value) ;
 
 constexpr ::ArrayW<float_t> __get_shear() const;
 
- ::HoudiniEngineUnity::HAPI_RSTOrder __declspec(property(get=__get_rstOrder, put=__set_rstOrder))  rstOrder;
+ HoudiniEngineUnity::HAPI_RSTOrder __declspec(property(get=__get_rstOrder, put=__set_rstOrder))  rstOrder;
 
-constexpr void __set_rstOrder(::HoudiniEngineUnity::HAPI_RSTOrder value) ;
+constexpr void __set_rstOrder(HoudiniEngineUnity::HAPI_RSTOrder value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_RSTOrder __get_rstOrder() const;
+constexpr HoudiniEngineUnity::HAPI_RSTOrder __get_rstOrder() const;
 
 
 // Methods
@@ -97,5 +96,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_Transform, "HoudiniEngineUnity", "HAPI_Transform");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_Transform, "HoudiniEngineUnity", "HAPI_Transform");

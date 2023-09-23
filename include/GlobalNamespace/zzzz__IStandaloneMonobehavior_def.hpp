@@ -1,17 +1,16 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
+namespace System::Threading::Tasks {
+class Task;
+}
 namespace System::Threading {
 struct CancellationToken;
-}
-namespace GlobalNamespace {
-class IStandaloneThreadRunner;
 }
 namespace System {
 class Action;
 }
-namespace System::Threading::Tasks {
-class Task;
+namespace GlobalNamespace {
+class IStandaloneThreadRunner;
 }
 namespace System {
 template<typename TResult>
@@ -40,13 +39,13 @@ constexpr explicit IStandaloneMonobehavior(void* ptr) noexcept : ::cordl_interna
 // Methods
 
 /// @brief Method Dispatch addr 0x0 size 0xffffffffffffffff virtual true final false
- void Dispatch(::System::Action action) ;
+ void Dispatch(System::Action action) ;
 
 /// @brief Method DispatchAsync addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Threading::Tasks::Task DispatchAsync(::System::Func_1<::System::Threading::Tasks::Task> action) ;
+ System::Threading::Tasks::Task DispatchAsync(System::Func_1<System::Threading::Tasks::Task> action) ;
 
 /// @brief Method RunAsync addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Threading::Tasks::Task RunAsync(::GlobalNamespace::IStandaloneThreadRunner runner, ::System::Threading::CancellationToken cancellationToken) ;
+ System::Threading::Tasks::Task RunAsync(GlobalNamespace::IStandaloneThreadRunner runner, System::Threading::CancellationToken cancellationToken) ;
 
 /// @brief Method Stop addr 0x0 size 0xffffffffffffffff virtual true final false
  void Stop() ;
@@ -55,6 +54,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IStandaloneMonobehavior);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IStandaloneMonobehavior, "", "IStandaloneMonobehavior");
+NEED_NO_BOX(GlobalNamespace::IStandaloneMonobehavior);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IStandaloneMonobehavior, "", "IStandaloneMonobehavior");

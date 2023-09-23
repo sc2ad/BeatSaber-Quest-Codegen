@@ -2,12 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Ocsp/zzzz__CertificateStatus_def.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-struct DateTime;
-}
 namespace Org::BouncyCastle::Asn1::Ocsp {
 class RevokedInfo;
+}
+namespace System {
+struct DateTime;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Ocsp {
@@ -19,7 +18,7 @@ namespace Org::BouncyCastle::Ocsp {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1624))
 // CS Name: Org.BouncyCastle.Ocsp.RevokedStatus
-class CORDL_TYPE RevokedStatus : public ::Org::BouncyCastle::Ocsp::CertificateStatus {
+class CORDL_TYPE RevokedStatus : public Org::BouncyCastle::Ocsp::CertificateStatus {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr RevokedStatus(RevokedStatus const& ) noexcept = default;
 constexpr RevokedStatus(RevokedStatus&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RevokedStatus(void* ptr) noexcept : ::Org::BouncyCastle::Ocsp::CertificateStatus(ptr) {
+constexpr explicit RevokedStatus(void* ptr) noexcept : Org::BouncyCastle::Ocsp::CertificateStatus(ptr) {
 }
 
 
@@ -55,16 +54,16 @@ constexpr explicit RevokedStatus(void* ptr) noexcept : ::Org::BouncyCastle::Ocsp
 
 // Fields
 
- ::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo __declspec(property(get=__get_info, put=__set_info))  info;
+ Org::BouncyCastle::Asn1::Ocsp::RevokedInfo __declspec(property(get=__get_info, put=__set_info))  info;
 
-constexpr void __set_info(::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo value) ;
+constexpr void __set_info(Org::BouncyCastle::Asn1::Ocsp::RevokedInfo value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo __get_info() const;
+constexpr Org::BouncyCastle::Asn1::Ocsp::RevokedInfo __get_info() const;
 
 
 // Properties
 
- ::System::DateTime __declspec(property(get=get_RevocationTime))  RevocationTime;
+ System::DateTime __declspec(property(get=get_RevocationTime))  RevocationTime;
 
  bool __declspec(property(get=get_HasRevocationReason))  HasRevocationReason;
 
@@ -73,20 +72,20 @@ constexpr ::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo __get_info() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "info", ty: "::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo", modifiers: "", def_value: None }]
-explicit RevokedStatus(::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo info) ;
+// Ctor Parameters [CppParam { name: "info", ty: "Org::BouncyCastle::Asn1::Ocsp::RevokedInfo", modifiers: "", def_value: None }]
+explicit RevokedStatus(Org::BouncyCastle::Asn1::Ocsp::RevokedInfo info) ;
 
 /// @brief Method .ctor addr 0x1018d14 size 0x6c virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo info) ;
+ void _ctor(Org::BouncyCastle::Asn1::Ocsp::RevokedInfo info) ;
 
-// Ctor Parameters [CppParam { name: "revocationDate", ty: "::System::DateTime", modifiers: "", def_value: None }, CppParam { name: "reason", ty: "int32_t", modifiers: "", def_value: None }]
-explicit RevokedStatus(::System::DateTime revocationDate, int32_t reason) ;
+// Ctor Parameters [CppParam { name: "revocationDate", ty: "System::DateTime", modifiers: "", def_value: None }, CppParam { name: "reason", ty: "int32_t", modifiers: "", def_value: None }]
+explicit RevokedStatus(System::DateTime revocationDate, int32_t reason) ;
 
 /// @brief Method .ctor addr 0x1018d80 size 0x108 virtual false final false
- void _ctor(::System::DateTime revocationDate, int32_t reason) ;
+ void _ctor(System::DateTime revocationDate, int32_t reason) ;
 
 /// @brief Method get_RevocationTime addr 0x1012c1c size 0x24 virtual false final false
- ::System::DateTime get_RevocationTime() ;
+ System::DateTime get_RevocationTime() ;
 
 /// @brief Method get_HasRevocationReason addr 0x1012b88 size 0x24 virtual false final false
  bool get_HasRevocationReason() ;
@@ -98,6 +97,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Ocsp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Ocsp::RevokedStatus);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Ocsp::RevokedStatus, "Org.BouncyCastle.Ocsp", "RevokedStatus");
+NEED_NO_BOX(Org::BouncyCastle::Ocsp::RevokedStatus);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Ocsp::RevokedStatus, "Org.BouncyCastle.Ocsp", "RevokedStatus");

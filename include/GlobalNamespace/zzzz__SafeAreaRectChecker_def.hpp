@@ -4,25 +4,24 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 class GameObject;
 }
-namespace UnityEngine {
-struct Vector3;
-}
 namespace GlobalNamespace {
 class MainCamera;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 class RectTransform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-class SafeAreaRectChecker;
+class GlobalNamespace__SafeAreaRectChecker__InitData;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__SafeAreaRectChecker__InitData;
+class SafeAreaRectChecker;
 }
 // Type: ::InitData
 namespace GlobalNamespace {
@@ -30,37 +29,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5535))
 // CS Name: SafeAreaRectChecker::InitData
-class CORDL_TYPE ____GlobalNamespace__SafeAreaRectChecker__InitData : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__SafeAreaRectChecker__InitData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____GlobalNamespace__SafeAreaRectChecker__InitData() = default;
+virtual ~GlobalNamespace__SafeAreaRectChecker__InitData() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__SafeAreaRectChecker__InitData", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__SafeAreaRectChecker__InitData(____GlobalNamespace__SafeAreaRectChecker__InitData const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__SafeAreaRectChecker__InitData", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__SafeAreaRectChecker__InitData(GlobalNamespace__SafeAreaRectChecker__InitData const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__SafeAreaRectChecker__InitData", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__SafeAreaRectChecker__InitData(____GlobalNamespace__SafeAreaRectChecker__InitData&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__SafeAreaRectChecker__InitData", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__SafeAreaRectChecker__InitData(GlobalNamespace__SafeAreaRectChecker__InitData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__SafeAreaRectChecker__InitData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__SafeAreaRectChecker__InitData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__SafeAreaRectChecker__InitData& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__SafeAreaRectChecker__InitData& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__SafeAreaRectChecker__InitData& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__SafeAreaRectChecker__InitData& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__SafeAreaRectChecker__InitData& operator=(____GlobalNamespace__SafeAreaRectChecker__InitData&& o) noexcept = default;
-  constexpr ____GlobalNamespace__SafeAreaRectChecker__InitData& operator=(____GlobalNamespace__SafeAreaRectChecker__InitData const& o) noexcept = default;
+  constexpr GlobalNamespace__SafeAreaRectChecker__InitData& operator=(GlobalNamespace__SafeAreaRectChecker__InitData&& o) noexcept = default;
+  constexpr GlobalNamespace__SafeAreaRectChecker__InitData& operator=(GlobalNamespace__SafeAreaRectChecker__InitData const& o) noexcept = default;
                 
 
 
@@ -76,7 +75,7 @@ constexpr bool __get_checkingEnabled() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "checkingEnabled", ty: "bool", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__SafeAreaRectChecker__InitData(bool checkingEnabled) ;
+explicit GlobalNamespace__SafeAreaRectChecker__InitData(bool checkingEnabled) ;
 
 /// @brief Method .ctor addr 0x2127360 size 0x28 virtual false final false
  void _ctor(bool checkingEnabled) ;
@@ -91,10 +90,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5536))
 // CS Name: SafeAreaRectChecker
-class CORDL_TYPE SafeAreaRectChecker : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SafeAreaRectChecker : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using InitData = ::GlobalNamespace::____GlobalNamespace__SafeAreaRectChecker__InitData;
+using InitData = GlobalNamespace::GlobalNamespace__SafeAreaRectChecker__InitData;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x58};
@@ -108,7 +107,7 @@ constexpr SafeAreaRectChecker(SafeAreaRectChecker const& ) noexcept = default;
 constexpr SafeAreaRectChecker(SafeAreaRectChecker&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SafeAreaRectChecker(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SafeAreaRectChecker(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -153,41 +152,41 @@ constexpr void __set__maxAngleY(float_t value) ;
 
 constexpr float_t __get__maxAngleY() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get__activeObjectWhenInsideSafeArea, put=__set__activeObjectWhenInsideSafeArea))  _activeObjectWhenInsideSafeArea;
+ UnityEngine::GameObject __declspec(property(get=__get__activeObjectWhenInsideSafeArea, put=__set__activeObjectWhenInsideSafeArea))  _activeObjectWhenInsideSafeArea;
 
-constexpr void __set__activeObjectWhenInsideSafeArea(::UnityEngine::GameObject value) ;
+constexpr void __set__activeObjectWhenInsideSafeArea(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__activeObjectWhenInsideSafeArea() const;
+constexpr UnityEngine::GameObject __get__activeObjectWhenInsideSafeArea() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get__activeObjectWhenNotInsideSafeArea, put=__set__activeObjectWhenNotInsideSafeArea))  _activeObjectWhenNotInsideSafeArea;
+ UnityEngine::GameObject __declspec(property(get=__get__activeObjectWhenNotInsideSafeArea, put=__set__activeObjectWhenNotInsideSafeArea))  _activeObjectWhenNotInsideSafeArea;
 
-constexpr void __set__activeObjectWhenNotInsideSafeArea(::UnityEngine::GameObject value) ;
+constexpr void __set__activeObjectWhenNotInsideSafeArea(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__activeObjectWhenNotInsideSafeArea() const;
+constexpr UnityEngine::GameObject __get__activeObjectWhenNotInsideSafeArea() const;
 
- ::UnityEngine::RectTransform __declspec(property(get=__get__rectTransformToCheck, put=__set__rectTransformToCheck))  _rectTransformToCheck;
+ UnityEngine::RectTransform __declspec(property(get=__get__rectTransformToCheck, put=__set__rectTransformToCheck))  _rectTransformToCheck;
 
-constexpr void __set__rectTransformToCheck(::UnityEngine::RectTransform value) ;
+constexpr void __set__rectTransformToCheck(UnityEngine::RectTransform value) ;
 
-constexpr ::UnityEngine::RectTransform __get__rectTransformToCheck() const;
+constexpr UnityEngine::RectTransform __get__rectTransformToCheck() const;
 
- ::ArrayW<::UnityEngine::Vector3> __declspec(property(get=__get__corners, put=__set__corners))  _corners;
+ ::ArrayW<UnityEngine::Vector3> __declspec(property(get=__get__corners, put=__set__corners))  _corners;
 
-constexpr void __set__corners(::ArrayW<::UnityEngine::Vector3> value) ;
+constexpr void __set__corners(::ArrayW<UnityEngine::Vector3> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector3> __get__corners() const;
+constexpr ::ArrayW<UnityEngine::Vector3> __get__corners() const;
 
- ::GlobalNamespace::MainCamera __declspec(property(get=__get__mainCamera, put=__set__mainCamera))  _mainCamera;
+ GlobalNamespace::MainCamera __declspec(property(get=__get__mainCamera, put=__set__mainCamera))  _mainCamera;
 
-constexpr void __set__mainCamera(::GlobalNamespace::MainCamera value) ;
+constexpr void __set__mainCamera(GlobalNamespace::MainCamera value) ;
 
-constexpr ::GlobalNamespace::MainCamera __get__mainCamera() const;
+constexpr GlobalNamespace::MainCamera __get__mainCamera() const;
 
- ::GlobalNamespace::____GlobalNamespace__SafeAreaRectChecker__InitData __declspec(property(get=__get__initData, put=__set__initData))  _initData;
+ GlobalNamespace::GlobalNamespace__SafeAreaRectChecker__InitData __declspec(property(get=__get__initData, put=__set__initData))  _initData;
 
-constexpr void __set__initData(::GlobalNamespace::____GlobalNamespace__SafeAreaRectChecker__InitData value) ;
+constexpr void __set__initData(GlobalNamespace::GlobalNamespace__SafeAreaRectChecker__InitData value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__SafeAreaRectChecker__InitData __get__initData() const;
+constexpr GlobalNamespace::GlobalNamespace__SafeAreaRectChecker__InitData __get__initData() const;
 
 
 // Methods
@@ -208,8 +207,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SafeAreaRectChecker);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SafeAreaRectChecker, "", "SafeAreaRectChecker");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__SafeAreaRectChecker__InitData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__SafeAreaRectChecker__InitData, "", "SafeAreaRectChecker/InitData");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__SafeAreaRectChecker__InitData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__SafeAreaRectChecker__InitData, "", "SafeAreaRectChecker/InitData");
+NEED_NO_BOX(GlobalNamespace::SafeAreaRectChecker);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SafeAreaRectChecker, "", "SafeAreaRectChecker");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class Type;
 }
@@ -16,7 +15,7 @@ namespace UnityEngine::Timeline {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14130))
 // CS Name: UnityEngine.Timeline.SupportsChildTracksAttribute
-class CORDL_TYPE SupportsChildTracksAttribute : public ::System::Attribute {
+class CORDL_TYPE SupportsChildTracksAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr SupportsChildTracksAttribute(SupportsChildTracksAttribute const& ) noe
 constexpr SupportsChildTracksAttribute(SupportsChildTracksAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SupportsChildTracksAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit SupportsChildTracksAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -52,11 +51,11 @@ constexpr explicit SupportsChildTracksAttribute(void* ptr) noexcept : ::System::
 
 // Fields
 
- ::System::Type __declspec(property(get=__get_childType, put=__set_childType))  childType;
+ System::Type __declspec(property(get=__get_childType, put=__set_childType))  childType;
 
-constexpr void __set_childType(::System::Type value) ;
+constexpr void __set_childType(System::Type value) ;
 
-constexpr ::System::Type __get_childType() const;
+constexpr System::Type __get_childType() const;
 
  int32_t __declspec(property(get=__get_levels, put=__set_levels))  levels;
 
@@ -67,16 +66,15 @@ constexpr int32_t __get_levels() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "childType", ty: "::System::Type", modifiers: "", def_value: None }, CppParam { name: "levels", ty: "int32_t", modifiers: "", def_value: None }]
-explicit SupportsChildTracksAttribute(::System::Type childType, int32_t levels) ;
+// Ctor Parameters [CppParam { name: "childType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "levels", ty: "int32_t", modifiers: "", def_value: None }]
+explicit SupportsChildTracksAttribute(System::Type childType, int32_t levels) ;
 
 /// @brief Method .ctor addr 0x2ad5dac size 0x30 virtual false final false
- void _ctor(::System::Type childType, int32_t levels) ;
+ void _ctor(System::Type childType, int32_t levels) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Timeline::SupportsChildTracksAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::SupportsChildTracksAttribute, "UnityEngine.Timeline", "SupportsChildTracksAttribute");
+NEED_NO_BOX(UnityEngine::Timeline::SupportsChildTracksAttribute);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::SupportsChildTracksAttribute, "UnityEngine.Timeline", "SupportsChildTracksAttribute");

@@ -3,7 +3,6 @@
 #include "UnityEngine/zzzz__Component_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -17,7 +16,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10179))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16006))
 // CS Name: UnityEngine.Cloth
-class CORDL_TYPE Cloth : public ::UnityEngine::Component {
+class CORDL_TYPE Cloth : public UnityEngine::Component {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr Cloth(Cloth const& ) noexcept = default;
 constexpr Cloth(Cloth&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Cloth(void* ptr) noexcept : ::UnityEngine::Component(ptr) {
+constexpr explicit Cloth(void* ptr) noexcept : UnityEngine::Component(ptr) {
 }
 
 
@@ -68,21 +67,20 @@ constexpr bool __get__selfCollision_k__BackingField() const;
 
 // Properties
 
- ::UnityEngine::Vector3 __declspec(property(put=set_externalAcceleration))  externalAcceleration;
+ UnityEngine::Vector3 __declspec(property(put=set_externalAcceleration))  externalAcceleration;
 
 
 // Methods
 
 /// @brief Method set_externalAcceleration addr 0x2b2791c size 0x54 virtual false final false
- void set_externalAcceleration(::UnityEngine::Vector3 value) ;
+ void set_externalAcceleration(UnityEngine::Vector3 value) ;
 
 /// @brief Method set_externalAcceleration_Injected addr 0x2b27970 size 0x44 virtual false final false
- void set_externalAcceleration_Injected(ByRef<::UnityEngine::Vector3> value) ;
+ void set_externalAcceleration_Injected(ByRef<UnityEngine::Vector3> value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Cloth);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Cloth, "UnityEngine", "Cloth");
+NEED_NO_BOX(UnityEngine::Cloth);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Cloth, "UnityEngine", "Cloth");

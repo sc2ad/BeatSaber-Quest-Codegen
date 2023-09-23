@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class TriangulationPoint;
 }
@@ -51,17 +50,17 @@ constexpr explicit TriangulationConstraint(void* ptr) noexcept : ::bs_hook::Il2C
 
 // Fields
 
- ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint __declspec(property(get=__get_P, put=__set_P))  P;
+ UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint __declspec(property(get=__get_P, put=__set_P))  P;
 
-constexpr void __set_P(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint value) ;
+constexpr void __set_P(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint value) ;
 
-constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint __get_P() const;
+constexpr UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint __get_P() const;
 
- ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint __declspec(property(get=__get_Q, put=__set_Q))  Q;
+ UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint __declspec(property(get=__get_Q, put=__set_Q))  Q;
 
-constexpr void __set_Q(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint value) ;
+constexpr void __set_Q(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint value) ;
 
-constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint __get_Q() const;
+constexpr UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint __get_Q() const;
 
 
 // Methods
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder::Poly2Tri
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationConstraint");
+NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationConstraint");

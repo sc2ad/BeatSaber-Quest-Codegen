@@ -1,18 +1,17 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace GlobalNamespace {
-class PrepareLevelCompletionResults;
+class MissionObjectiveCheckersManager;
 }
 namespace GlobalNamespace {
-class MissionLevelScenesTransitionSetupDataSO;
+class PrepareLevelCompletionResults;
 }
 namespace GlobalNamespace {
 class ILevelEndActions;
 }
 namespace GlobalNamespace {
-class MissionObjectiveCheckersManager;
+class MissionLevelScenesTransitionSetupDataSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,7 +23,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5173))
 // CS Name: MissionLevelFinishedController
-class CORDL_TYPE MissionLevelFinishedController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MissionLevelFinishedController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr MissionLevelFinishedController(MissionLevelFinishedController const& )
 constexpr MissionLevelFinishedController(MissionLevelFinishedController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MissionLevelFinishedController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MissionLevelFinishedController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -60,29 +59,29 @@ constexpr explicit MissionLevelFinishedController(void* ptr) noexcept : ::UnityE
 
 // Fields
 
- ::GlobalNamespace::PrepareLevelCompletionResults __declspec(property(get=__get__prepareLevelCompletionResults, put=__set__prepareLevelCompletionResults))  _prepareLevelCompletionResults;
+ GlobalNamespace::PrepareLevelCompletionResults __declspec(property(get=__get__prepareLevelCompletionResults, put=__set__prepareLevelCompletionResults))  _prepareLevelCompletionResults;
 
-constexpr void __set__prepareLevelCompletionResults(::GlobalNamespace::PrepareLevelCompletionResults value) ;
+constexpr void __set__prepareLevelCompletionResults(GlobalNamespace::PrepareLevelCompletionResults value) ;
 
-constexpr ::GlobalNamespace::PrepareLevelCompletionResults __get__prepareLevelCompletionResults() const;
+constexpr GlobalNamespace::PrepareLevelCompletionResults __get__prepareLevelCompletionResults() const;
 
- ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO __declspec(property(get=__get__missionLevelSceneSetupData, put=__set__missionLevelSceneSetupData))  _missionLevelSceneSetupData;
+ GlobalNamespace::MissionLevelScenesTransitionSetupDataSO __declspec(property(get=__get__missionLevelSceneSetupData, put=__set__missionLevelSceneSetupData))  _missionLevelSceneSetupData;
 
-constexpr void __set__missionLevelSceneSetupData(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO value) ;
+constexpr void __set__missionLevelSceneSetupData(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO value) ;
 
-constexpr ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO __get__missionLevelSceneSetupData() const;
+constexpr GlobalNamespace::MissionLevelScenesTransitionSetupDataSO __get__missionLevelSceneSetupData() const;
 
- ::GlobalNamespace::MissionObjectiveCheckersManager __declspec(property(get=__get__missionObjectiveCheckersManager, put=__set__missionObjectiveCheckersManager))  _missionObjectiveCheckersManager;
+ GlobalNamespace::MissionObjectiveCheckersManager __declspec(property(get=__get__missionObjectiveCheckersManager, put=__set__missionObjectiveCheckersManager))  _missionObjectiveCheckersManager;
 
-constexpr void __set__missionObjectiveCheckersManager(::GlobalNamespace::MissionObjectiveCheckersManager value) ;
+constexpr void __set__missionObjectiveCheckersManager(GlobalNamespace::MissionObjectiveCheckersManager value) ;
 
-constexpr ::GlobalNamespace::MissionObjectiveCheckersManager __get__missionObjectiveCheckersManager() const;
+constexpr GlobalNamespace::MissionObjectiveCheckersManager __get__missionObjectiveCheckersManager() const;
 
- ::GlobalNamespace::ILevelEndActions __declspec(property(get=__get__gameplayManager, put=__set__gameplayManager))  _gameplayManager;
+ GlobalNamespace::ILevelEndActions __declspec(property(get=__get__gameplayManager, put=__set__gameplayManager))  _gameplayManager;
 
-constexpr void __set__gameplayManager(::GlobalNamespace::ILevelEndActions value) ;
+constexpr void __set__gameplayManager(GlobalNamespace::ILevelEndActions value) ;
 
-constexpr ::GlobalNamespace::ILevelEndActions __get__gameplayManager() const;
+constexpr GlobalNamespace::ILevelEndActions __get__gameplayManager() const;
 
 
 // Methods
@@ -109,6 +108,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MissionLevelFinishedController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionLevelFinishedController, "", "MissionLevelFinishedController");
+NEED_NO_BOX(GlobalNamespace::MissionLevelFinishedController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelFinishedController, "", "MissionLevelFinishedController");

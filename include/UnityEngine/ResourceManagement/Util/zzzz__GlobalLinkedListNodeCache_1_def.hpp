@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace UnityEngine::ResourceManagement::Util {
 template<typename T>
 class LinkedListNodeCache_1;
@@ -64,24 +63,23 @@ constexpr explicit GlobalLinkedListNodeCache_1(void* ptr) noexcept : ::bs_hook::
 
 // Fields
 
-static ::UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T> __declspec(property(get=__get_m_globalCache, put=__set_m_globalCache))  m_globalCache;
+static UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T> __declspec(property(get=__get_m_globalCache, put=__set_m_globalCache))  m_globalCache;
 
-static void __set_m_globalCache(::UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T> value) ;
+static void __set_m_globalCache(UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T> value) ;
 
-static ::UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T> __get_m_globalCache() ;
+static UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T> __get_m_globalCache() ;
 
 
 // Methods
 
 /// @brief Method Acquire addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Collections::Generic::LinkedListNode_1<T> Acquire(T val) ;
+static System::Collections::Generic::LinkedListNode_1<T> Acquire(T val) ;
 
 /// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual false final false
-static void Release(::System::Collections::Generic::LinkedListNode_1<T> node) ;
+static void Release(System::Collections::Generic::LinkedListNode_1<T> node) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ResourceManagement::Util
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::ResourceManagement::Util::GlobalLinkedListNodeCache_1, "UnityEngine.ResourceManagement.Util", "GlobalLinkedListNodeCache`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::ResourceManagement::Util::GlobalLinkedListNodeCache_1, "UnityEngine.ResourceManagement.Util", "GlobalLinkedListNodeCache`1");

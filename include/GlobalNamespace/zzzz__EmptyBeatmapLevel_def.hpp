@@ -4,9 +4,28 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
+namespace UnityEngine {
+class Sprite;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
+}
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
+}
+namespace GlobalNamespace {
+class PreviewDifficultyBeatmapSet;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelData;
+}
 namespace GlobalNamespace {
 class IBeatmapLevel;
+}
+namespace UnityEngine {
+class AudioClip;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
@@ -14,28 +33,8 @@ class IPreviewBeatmapLevel;
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace UnityEngine {
-class Sprite;
-}
-namespace GlobalNamespace {
-class PreviewDifficultyBeatmapSet;
-}
-namespace UnityEngine {
-class AudioClip;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelData;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
-}
 namespace GlobalNamespace {
 class EnvironmentInfoSO;
-}
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -50,11 +49,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE EmptyBeatmapLevel : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IBeatmapLevel
-constexpr operator  ::GlobalNamespace::IBeatmapLevel() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IBeatmapLevel
+constexpr operator  GlobalNamespace::IBeatmapLevel() const noexcept;
 
-/// @brief Convert operator to ::GlobalNamespace::IPreviewBeatmapLevel
-constexpr operator  ::GlobalNamespace::IPreviewBeatmapLevel() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IPreviewBeatmapLevel
+constexpr operator  GlobalNamespace::IPreviewBeatmapLevel() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -89,11 +88,11 @@ constexpr explicit EmptyBeatmapLevel(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 
 // Fields
 
- ::GlobalNamespace::IBeatmapLevelData __declspec(property(get=__get__beatmapLevelData_k__BackingField, put=__set__beatmapLevelData_k__BackingField))  _beatmapLevelData_k__BackingField;
+ GlobalNamespace::IBeatmapLevelData __declspec(property(get=__get__beatmapLevelData_k__BackingField, put=__set__beatmapLevelData_k__BackingField))  _beatmapLevelData_k__BackingField;
 
-constexpr void __set__beatmapLevelData_k__BackingField(::GlobalNamespace::IBeatmapLevelData value) ;
+constexpr void __set__beatmapLevelData_k__BackingField(GlobalNamespace::IBeatmapLevelData value) ;
 
-constexpr ::GlobalNamespace::IBeatmapLevelData __get__beatmapLevelData_k__BackingField() const;
+constexpr GlobalNamespace::IBeatmapLevelData __get__beatmapLevelData_k__BackingField() const;
 
 
 // Properties
@@ -122,15 +121,15 @@ constexpr ::GlobalNamespace::IBeatmapLevelData __get__beatmapLevelData_k__Backin
 
  float_t __declspec(property(get=get_songDuration))  songDuration;
 
- ::GlobalNamespace::EnvironmentInfoSO __declspec(property(get=get_environmentInfo))  environmentInfo;
+ GlobalNamespace::EnvironmentInfoSO __declspec(property(get=get_environmentInfo))  environmentInfo;
 
- ::GlobalNamespace::EnvironmentInfoSO __declspec(property(get=get_allDirectionsEnvironmentInfo))  allDirectionsEnvironmentInfo;
+ GlobalNamespace::EnvironmentInfoSO __declspec(property(get=get_allDirectionsEnvironmentInfo))  allDirectionsEnvironmentInfo;
 
- ::ArrayW<::GlobalNamespace::EnvironmentInfoSO> __declspec(property(get=get_environmentInfos))  environmentInfos;
+ ::ArrayW<GlobalNamespace::EnvironmentInfoSO> __declspec(property(get=get_environmentInfos))  environmentInfos;
 
- ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet> __declspec(property(get=get_previewDifficultyBeatmapSets))  previewDifficultyBeatmapSets;
+ System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PreviewDifficultyBeatmapSet> __declspec(property(get=get_previewDifficultyBeatmapSets))  previewDifficultyBeatmapSets;
 
- ::GlobalNamespace::IBeatmapLevelData __declspec(property(get=get_beatmapLevelData))  beatmapLevelData;
+ GlobalNamespace::IBeatmapLevelData __declspec(property(get=get_beatmapLevelData))  beatmapLevelData;
 
 
 // Methods
@@ -172,25 +171,25 @@ constexpr ::GlobalNamespace::IBeatmapLevelData __get__beatmapLevelData_k__Backin
  float_t get_songDuration() ;
 
 /// @brief Method get_environmentInfo addr 0x21ea830 size 0x8 virtual true final true
- ::GlobalNamespace::EnvironmentInfoSO get_environmentInfo() ;
+ GlobalNamespace::EnvironmentInfoSO get_environmentInfo() ;
 
 /// @brief Method get_allDirectionsEnvironmentInfo addr 0x21ea838 size 0x8 virtual true final true
- ::GlobalNamespace::EnvironmentInfoSO get_allDirectionsEnvironmentInfo() ;
+ GlobalNamespace::EnvironmentInfoSO get_allDirectionsEnvironmentInfo() ;
 
 /// @brief Method get_environmentInfos addr 0x21ea840 size 0x7c virtual true final true
- ::ArrayW<::GlobalNamespace::EnvironmentInfoSO> get_environmentInfos() ;
+ ::ArrayW<GlobalNamespace::EnvironmentInfoSO> get_environmentInfos() ;
 
 /// @brief Method get_previewDifficultyBeatmapSets addr 0x21ea8bc size 0x8 virtual true final true
- ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet> get_previewDifficultyBeatmapSets() ;
+ System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PreviewDifficultyBeatmapSet> get_previewDifficultyBeatmapSets() ;
 
 /// @brief Method GetPreviewAudioClipAsync addr 0x21ea8c4 size 0x40 virtual false final false
- ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip> GetPreviewAudioClipAsync(::System::Threading::CancellationToken cancellationToken) ;
+ System::Threading::Tasks::Task_1<UnityEngine::AudioClip> GetPreviewAudioClipAsync(System::Threading::CancellationToken cancellationToken) ;
 
 /// @brief Method GetCoverImageAsync addr 0x21ea904 size 0x40 virtual true final true
- ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite> GetCoverImageAsync(::System::Threading::CancellationToken cancellationToken) ;
+ System::Threading::Tasks::Task_1<UnityEngine::Sprite> GetCoverImageAsync(System::Threading::CancellationToken cancellationToken) ;
 
 /// @brief Method get_beatmapLevelData addr 0x21ea944 size 0x8 virtual true final true
- ::GlobalNamespace::IBeatmapLevelData get_beatmapLevelData() ;
+ GlobalNamespace::IBeatmapLevelData get_beatmapLevelData() ;
 
 // Ctor Parameters []
 explicit EmptyBeatmapLevel() ;
@@ -202,6 +201,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::EmptyBeatmapLevel);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EmptyBeatmapLevel, "", "EmptyBeatmapLevel");
+NEED_NO_BOX(GlobalNamespace::EmptyBeatmapLevel);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EmptyBeatmapLevel, "", "EmptyBeatmapLevel");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class OVRAudioSourceTest;
@@ -13,7 +12,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8877))
 // CS Name: OVRAudioSourceTest
-class CORDL_TYPE OVRAudioSourceTest : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OVRAudioSourceTest : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr OVRAudioSourceTest(OVRAudioSourceTest const& ) noexcept = default;
 constexpr OVRAudioSourceTest(OVRAudioSourceTest&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OVRAudioSourceTest(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OVRAudioSourceTest(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -80,6 +79,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OVRAudioSourceTest);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRAudioSourceTest, "", "OVRAudioSourceTest");
+NEED_NO_BOX(GlobalNamespace::OVRAudioSourceTest);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRAudioSourceTest, "", "OVRAudioSourceTest");

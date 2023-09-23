@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace System::Collections {
+class IEnumerable;
+}
 namespace System::Collections {
 class IList;
 }
 namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {
@@ -59,11 +58,11 @@ constexpr explicit PkixPolicyNode(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
- ::System::Collections::IList __declspec(property(get=__get_mChildren, put=__set_mChildren))  mChildren;
+ System::Collections::IList __declspec(property(get=__get_mChildren, put=__set_mChildren))  mChildren;
 
-constexpr void __set_mChildren(::System::Collections::IList value) ;
+constexpr void __set_mChildren(System::Collections::IList value) ;
 
-constexpr ::System::Collections::IList __get_mChildren() const;
+constexpr System::Collections::IList __get_mChildren() const;
 
  int32_t __declspec(property(get=__get_mDepth, put=__set_mDepth))  mDepth;
 
@@ -71,23 +70,23 @@ constexpr void __set_mDepth(int32_t value) ;
 
 constexpr int32_t __get_mDepth() const;
 
- ::Org::BouncyCastle::Utilities::Collections::ISet __declspec(property(get=__get_mExpectedPolicies, put=__set_mExpectedPolicies))  mExpectedPolicies;
+ Org::BouncyCastle::Utilities::Collections::ISet __declspec(property(get=__get_mExpectedPolicies, put=__set_mExpectedPolicies))  mExpectedPolicies;
 
-constexpr void __set_mExpectedPolicies(::Org::BouncyCastle::Utilities::Collections::ISet value) ;
+constexpr void __set_mExpectedPolicies(Org::BouncyCastle::Utilities::Collections::ISet value) ;
 
-constexpr ::Org::BouncyCastle::Utilities::Collections::ISet __get_mExpectedPolicies() const;
+constexpr Org::BouncyCastle::Utilities::Collections::ISet __get_mExpectedPolicies() const;
 
- ::Org::BouncyCastle::Pkix::PkixPolicyNode __declspec(property(get=__get_mParent, put=__set_mParent))  mParent;
+ Org::BouncyCastle::Pkix::PkixPolicyNode __declspec(property(get=__get_mParent, put=__set_mParent))  mParent;
 
-constexpr void __set_mParent(::Org::BouncyCastle::Pkix::PkixPolicyNode value) ;
+constexpr void __set_mParent(Org::BouncyCastle::Pkix::PkixPolicyNode value) ;
 
-constexpr ::Org::BouncyCastle::Pkix::PkixPolicyNode __get_mParent() const;
+constexpr Org::BouncyCastle::Pkix::PkixPolicyNode __get_mParent() const;
 
- ::Org::BouncyCastle::Utilities::Collections::ISet __declspec(property(get=__get_mPolicyQualifiers, put=__set_mPolicyQualifiers))  mPolicyQualifiers;
+ Org::BouncyCastle::Utilities::Collections::ISet __declspec(property(get=__get_mPolicyQualifiers, put=__set_mPolicyQualifiers))  mPolicyQualifiers;
 
-constexpr void __set_mPolicyQualifiers(::Org::BouncyCastle::Utilities::Collections::ISet value) ;
+constexpr void __set_mPolicyQualifiers(Org::BouncyCastle::Utilities::Collections::ISet value) ;
 
-constexpr ::Org::BouncyCastle::Utilities::Collections::ISet __get_mPolicyQualifiers() const;
+constexpr Org::BouncyCastle::Utilities::Collections::ISet __get_mPolicyQualifiers() const;
 
  ::StringW __declspec(property(get=__get_mValidPolicy, put=__set_mValidPolicy))  mValidPolicy;
 
@@ -106,19 +105,19 @@ constexpr bool __get_mCritical() const;
 
  int32_t __declspec(property(get=get_Depth))  Depth;
 
- ::System::Collections::IEnumerable __declspec(property(get=get_Children))  Children;
+ System::Collections::IEnumerable __declspec(property(get=get_Children))  Children;
 
  bool __declspec(property(get=get_IsCritical, put=set_IsCritical))  IsCritical;
 
- ::Org::BouncyCastle::Utilities::Collections::ISet __declspec(property(get=get_PolicyQualifiers))  PolicyQualifiers;
+ Org::BouncyCastle::Utilities::Collections::ISet __declspec(property(get=get_PolicyQualifiers))  PolicyQualifiers;
 
  ::StringW __declspec(property(get=get_ValidPolicy))  ValidPolicy;
 
  bool __declspec(property(get=get_HasChildren))  HasChildren;
 
- ::Org::BouncyCastle::Utilities::Collections::ISet __declspec(property(get=get_ExpectedPolicies, put=set_ExpectedPolicies))  ExpectedPolicies;
+ Org::BouncyCastle::Utilities::Collections::ISet __declspec(property(get=get_ExpectedPolicies, put=set_ExpectedPolicies))  ExpectedPolicies;
 
- ::Org::BouncyCastle::Pkix::PkixPolicyNode __declspec(property(get=get_Parent, put=set_Parent))  Parent;
+ Org::BouncyCastle::Pkix::PkixPolicyNode __declspec(property(get=get_Parent, put=set_Parent))  Parent;
 
 
 // Methods
@@ -127,7 +126,7 @@ constexpr bool __get_mCritical() const;
  int32_t get_Depth() ;
 
 /// @brief Method get_Children addr 0x1086444 size 0x68 virtual true final false
- ::System::Collections::IEnumerable get_Children() ;
+ System::Collections::IEnumerable get_Children() ;
 
 /// @brief Method get_IsCritical addr 0x10864ac size 0x8 virtual true final false
  bool get_IsCritical() ;
@@ -136,7 +135,7 @@ constexpr bool __get_mCritical() const;
  void set_IsCritical(bool value) ;
 
 /// @brief Method get_PolicyQualifiers addr 0x10864c0 size 0x68 virtual true final false
- ::Org::BouncyCastle::Utilities::Collections::ISet get_PolicyQualifiers() ;
+ Org::BouncyCastle::Utilities::Collections::ISet get_PolicyQualifiers() ;
 
 /// @brief Method get_ValidPolicy addr 0x1086528 size 0x8 virtual true final false
  ::StringW get_ValidPolicy() ;
@@ -145,28 +144,28 @@ constexpr bool __get_mCritical() const;
  bool get_HasChildren() ;
 
 /// @brief Method get_ExpectedPolicies addr 0x10865e0 size 0x68 virtual true final false
- ::Org::BouncyCastle::Utilities::Collections::ISet get_ExpectedPolicies() ;
+ Org::BouncyCastle::Utilities::Collections::ISet get_ExpectedPolicies() ;
 
 /// @brief Method set_ExpectedPolicies addr 0x1086648 size 0x70 virtual true final false
- void set_ExpectedPolicies(::Org::BouncyCastle::Utilities::Collections::ISet value) ;
+ void set_ExpectedPolicies(Org::BouncyCastle::Utilities::Collections::ISet value) ;
 
 /// @brief Method get_Parent addr 0x10866b8 size 0x8 virtual true final false
- ::Org::BouncyCastle::Pkix::PkixPolicyNode get_Parent() ;
+ Org::BouncyCastle::Pkix::PkixPolicyNode get_Parent() ;
 
 /// @brief Method set_Parent addr 0x10866c0 size 0x8 virtual true final false
- void set_Parent(::Org::BouncyCastle::Pkix::PkixPolicyNode value) ;
+ void set_Parent(Org::BouncyCastle::Pkix::PkixPolicyNode value) ;
 
-// Ctor Parameters [CppParam { name: "children", ty: "::System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "expectedPolicies", ty: "::Org::BouncyCastle::Utilities::Collections::ISet", modifiers: "", def_value: None }, CppParam { name: "parent", ty: "::Org::BouncyCastle::Pkix::PkixPolicyNode", modifiers: "", def_value: None }, CppParam { name: "policyQualifiers", ty: "::Org::BouncyCastle::Utilities::Collections::ISet", modifiers: "", def_value: None }, CppParam { name: "validPolicy", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }]
-explicit PkixPolicyNode(::System::Collections::IList children, int32_t depth, ::Org::BouncyCastle::Utilities::Collections::ISet expectedPolicies, ::Org::BouncyCastle::Pkix::PkixPolicyNode parent, ::Org::BouncyCastle::Utilities::Collections::ISet policyQualifiers, ::StringW validPolicy, bool critical) ;
+// Ctor Parameters [CppParam { name: "children", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "expectedPolicies", ty: "Org::BouncyCastle::Utilities::Collections::ISet", modifiers: "", def_value: None }, CppParam { name: "parent", ty: "Org::BouncyCastle::Pkix::PkixPolicyNode", modifiers: "", def_value: None }, CppParam { name: "policyQualifiers", ty: "Org::BouncyCastle::Utilities::Collections::ISet", modifiers: "", def_value: None }, CppParam { name: "validPolicy", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }]
+explicit PkixPolicyNode(System::Collections::IList children, int32_t depth, Org::BouncyCastle::Utilities::Collections::ISet expectedPolicies, Org::BouncyCastle::Pkix::PkixPolicyNode parent, Org::BouncyCastle::Utilities::Collections::ISet policyQualifiers, ::StringW validPolicy, bool critical) ;
 
 /// @brief Method .ctor addr 0x106a984 size 0xd0 virtual false final false
- void _ctor(::System::Collections::IList children, int32_t depth, ::Org::BouncyCastle::Utilities::Collections::ISet expectedPolicies, ::Org::BouncyCastle::Pkix::PkixPolicyNode parent, ::Org::BouncyCastle::Utilities::Collections::ISet policyQualifiers, ::StringW validPolicy, bool critical) ;
+ void _ctor(System::Collections::IList children, int32_t depth, Org::BouncyCastle::Utilities::Collections::ISet expectedPolicies, Org::BouncyCastle::Pkix::PkixPolicyNode parent, Org::BouncyCastle::Utilities::Collections::ISet policyQualifiers, ::StringW validPolicy, bool critical) ;
 
 /// @brief Method AddChild addr 0x10866c8 size 0xc8 virtual true final false
- void AddChild(::Org::BouncyCastle::Pkix::PkixPolicyNode child) ;
+ void AddChild(Org::BouncyCastle::Pkix::PkixPolicyNode child) ;
 
 /// @brief Method RemoveChild addr 0x1086790 size 0xac virtual true final false
- void RemoveChild(::Org::BouncyCastle::Pkix::PkixPolicyNode child) ;
+ void RemoveChild(Org::BouncyCastle::Pkix::PkixPolicyNode child) ;
 
 /// @brief Method ToString addr 0x108683c size 0x54 virtual true final false
  ::StringW ToString() ;
@@ -178,12 +177,11 @@ explicit PkixPolicyNode(::System::Collections::IList children, int32_t depth, ::
  ::bs_hook::Il2CppWrapperType Clone() ;
 
 /// @brief Method Copy addr 0x1086d48 size 0x45c virtual true final false
- ::Org::BouncyCastle::Pkix::PkixPolicyNode Copy() ;
+ Org::BouncyCastle::Pkix::PkixPolicyNode Copy() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Pkix
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Pkix::PkixPolicyNode);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Pkix::PkixPolicyNode, "Org.BouncyCastle.Pkix", "PkixPolicyNode");
+NEED_NO_BOX(Org::BouncyCastle::Pkix::PkixPolicyNode);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Pkix::PkixPolicyNode, "Org.BouncyCastle.Pkix", "PkixPolicyNode");

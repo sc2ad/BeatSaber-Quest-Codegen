@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
-namespace System {
-class IDisposable;
-}
 namespace System {
 template<typename T>
 class IObserver_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System {
@@ -34,11 +33,10 @@ constexpr explicit IObservable_1(void* ptr) noexcept : ::cordl_internals::Interf
 // Methods
 
 /// @brief Method Subscribe addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::IDisposable Subscribe(::System::IObserver_1<T> observer) ;
+ System::IDisposable Subscribe(System::IObserver_1<T> observer) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::IObservable_1, "System", "IObservable`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::IObservable_1, "System", "IObservable`1");

@@ -2,12 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Newtonsoft/Json/Bson/zzzz__BsonToken_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace Newtonsoft::Json::Bson {
-struct BsonType;
-}
 namespace Newtonsoft::Json::Bson {
 class BsonString;
+}
+namespace Newtonsoft::Json::Bson {
+struct BsonType;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Bson {
@@ -19,7 +18,7 @@ namespace Newtonsoft::Json::Bson {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12016))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12022))
 // CS Name: Newtonsoft.Json.Bson.BsonRegex
-class CORDL_TYPE BsonRegex : public ::Newtonsoft::Json::Bson::BsonToken {
+class CORDL_TYPE BsonRegex : public Newtonsoft::Json::Bson::BsonToken {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr BsonRegex(BsonRegex const& ) noexcept = default;
 constexpr BsonRegex(BsonRegex&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BsonRegex(void* ptr) noexcept : ::Newtonsoft::Json::Bson::BsonToken(ptr) {
+constexpr explicit BsonRegex(void* ptr) noexcept : Newtonsoft::Json::Bson::BsonToken(ptr) {
 }
 
 
@@ -55,41 +54,41 @@ constexpr explicit BsonRegex(void* ptr) noexcept : ::Newtonsoft::Json::Bson::Bso
 
 // Fields
 
- ::Newtonsoft::Json::Bson::BsonString __declspec(property(get=__get__Pattern_k__BackingField, put=__set__Pattern_k__BackingField))  _Pattern_k__BackingField;
+ Newtonsoft::Json::Bson::BsonString __declspec(property(get=__get__Pattern_k__BackingField, put=__set__Pattern_k__BackingField))  _Pattern_k__BackingField;
 
-constexpr void __set__Pattern_k__BackingField(::Newtonsoft::Json::Bson::BsonString value) ;
+constexpr void __set__Pattern_k__BackingField(Newtonsoft::Json::Bson::BsonString value) ;
 
-constexpr ::Newtonsoft::Json::Bson::BsonString __get__Pattern_k__BackingField() const;
+constexpr Newtonsoft::Json::Bson::BsonString __get__Pattern_k__BackingField() const;
 
- ::Newtonsoft::Json::Bson::BsonString __declspec(property(get=__get__Options_k__BackingField, put=__set__Options_k__BackingField))  _Options_k__BackingField;
+ Newtonsoft::Json::Bson::BsonString __declspec(property(get=__get__Options_k__BackingField, put=__set__Options_k__BackingField))  _Options_k__BackingField;
 
-constexpr void __set__Options_k__BackingField(::Newtonsoft::Json::Bson::BsonString value) ;
+constexpr void __set__Options_k__BackingField(Newtonsoft::Json::Bson::BsonString value) ;
 
-constexpr ::Newtonsoft::Json::Bson::BsonString __get__Options_k__BackingField() const;
+constexpr Newtonsoft::Json::Bson::BsonString __get__Options_k__BackingField() const;
 
 
 // Properties
 
- ::Newtonsoft::Json::Bson::BsonString __declspec(property(get=get_Pattern, put=set_Pattern))  Pattern;
+ Newtonsoft::Json::Bson::BsonString __declspec(property(get=get_Pattern, put=set_Pattern))  Pattern;
 
- ::Newtonsoft::Json::Bson::BsonString __declspec(property(get=get_Options, put=set_Options))  Options;
+ Newtonsoft::Json::Bson::BsonString __declspec(property(get=get_Options, put=set_Options))  Options;
 
- ::Newtonsoft::Json::Bson::BsonType __declspec(property(get=get_Type))  Type;
+ Newtonsoft::Json::Bson::BsonType __declspec(property(get=get_Type))  Type;
 
 
 // Methods
 
 /// @brief Method get_Pattern addr 0x2550430 size 0x8 virtual false final false
- ::Newtonsoft::Json::Bson::BsonString get_Pattern() ;
+ Newtonsoft::Json::Bson::BsonString get_Pattern() ;
 
 /// @brief Method set_Pattern addr 0x2550438 size 0x8 virtual false final false
- void set_Pattern(::Newtonsoft::Json::Bson::BsonString value) ;
+ void set_Pattern(Newtonsoft::Json::Bson::BsonString value) ;
 
 /// @brief Method get_Options addr 0x2550440 size 0x8 virtual false final false
- ::Newtonsoft::Json::Bson::BsonString get_Options() ;
+ Newtonsoft::Json::Bson::BsonString get_Options() ;
 
 /// @brief Method set_Options addr 0x2550448 size 0x8 virtual false final false
- void set_Options(::Newtonsoft::Json::Bson::BsonString value) ;
+ void set_Options(Newtonsoft::Json::Bson::BsonString value) ;
 
 // Ctor Parameters [CppParam { name: "pattern", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "options", ty: "::StringW", modifiers: "", def_value: None }]
 explicit BsonRegex(::StringW pattern, ::StringW options) ;
@@ -98,12 +97,11 @@ explicit BsonRegex(::StringW pattern, ::StringW options) ;
  void _ctor(::StringW pattern, ::StringW options) ;
 
 /// @brief Method get_Type addr 0x255050c size 0x8 virtual true final false
- ::Newtonsoft::Json::Bson::BsonType get_Type() ;
+ Newtonsoft::Json::Bson::BsonType get_Type() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Bson
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Bson::BsonRegex);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Bson::BsonRegex, "Newtonsoft.Json.Bson", "BsonRegex");
+NEED_NO_BOX(Newtonsoft::Json::Bson::BsonRegex);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Bson::BsonRegex, "Newtonsoft.Json.Bson", "BsonRegex");

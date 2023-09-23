@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace HMUI {
 class InputFieldView;
 }
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5685))
 // CS Name: InputFieldSettingsController
-class CORDL_TYPE InputFieldSettingsController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE InputFieldSettingsController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr InputFieldSettingsController(InputFieldSettingsController const& ) noe
 constexpr InputFieldSettingsController(InputFieldSettingsController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit InputFieldSettingsController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit InputFieldSettingsController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -54,17 +53,17 @@ constexpr explicit InputFieldSettingsController(void* ptr) noexcept : ::UnityEng
 
 // Fields
 
- ::HMUI::InputFieldView __declspec(property(get=__get__inputFieldView, put=__set__inputFieldView))  _inputFieldView;
+ HMUI::InputFieldView __declspec(property(get=__get__inputFieldView, put=__set__inputFieldView))  _inputFieldView;
 
-constexpr void __set__inputFieldView(::HMUI::InputFieldView value) ;
+constexpr void __set__inputFieldView(HMUI::InputFieldView value) ;
 
-constexpr ::HMUI::InputFieldView __get__inputFieldView() const;
+constexpr HMUI::InputFieldView __get__inputFieldView() const;
 
- ::GlobalNamespace::StringSO __declspec(property(get=__get__settingsValue, put=__set__settingsValue))  _settingsValue;
+ GlobalNamespace::StringSO __declspec(property(get=__get__settingsValue, put=__set__settingsValue))  _settingsValue;
 
-constexpr void __set__settingsValue(::GlobalNamespace::StringSO value) ;
+constexpr void __set__settingsValue(GlobalNamespace::StringSO value) ;
 
-constexpr ::GlobalNamespace::StringSO __get__settingsValue() const;
+constexpr GlobalNamespace::StringSO __get__settingsValue() const;
 
 
 // Methods
@@ -79,7 +78,7 @@ constexpr ::GlobalNamespace::StringSO __get__settingsValue() const;
  void OnEnable() ;
 
 /// @brief Method HandleInputFieldDidChange addr 0x215343c size 0x5c virtual true final false
- void HandleInputFieldDidChange(::HMUI::InputFieldView inputFieldView) ;
+ void HandleInputFieldDidChange(HMUI::InputFieldView inputFieldView) ;
 
 // Ctor Parameters []
 explicit InputFieldSettingsController() ;
@@ -91,6 +90,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::InputFieldSettingsController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::InputFieldSettingsController, "", "InputFieldSettingsController");
+NEED_NO_BOX(GlobalNamespace::InputFieldSettingsController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::InputFieldSettingsController, "", "InputFieldSettingsController");

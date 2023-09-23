@@ -2,12 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System::Collections {
-class IDictionary;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
+}
+namespace System::Collections {
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -55,26 +54,26 @@ constexpr explicit DefaultDigestAlgorithmIdentifierFinder(void* ptr) noexcept : 
 
 // Fields
 
-static ::System::Collections::IDictionary __declspec(property(get=__get_digestOids, put=__set_digestOids))  digestOids;
+static System::Collections::IDictionary __declspec(property(get=__get_digestOids, put=__set_digestOids))  digestOids;
 
-static void __set_digestOids(::System::Collections::IDictionary value) ;
+static void __set_digestOids(System::Collections::IDictionary value) ;
 
-static ::System::Collections::IDictionary __get_digestOids() ;
+static System::Collections::IDictionary __get_digestOids() ;
 
-static ::System::Collections::IDictionary __declspec(property(get=__get_digestNameToOids, put=__set_digestNameToOids))  digestNameToOids;
+static System::Collections::IDictionary __declspec(property(get=__get_digestNameToOids, put=__set_digestNameToOids))  digestNameToOids;
 
-static void __set_digestNameToOids(::System::Collections::IDictionary value) ;
+static void __set_digestNameToOids(System::Collections::IDictionary value) ;
 
-static ::System::Collections::IDictionary __get_digestNameToOids() ;
+static System::Collections::IDictionary __get_digestNameToOids() ;
 
 
 // Methods
 
 /// @brief Method find addr 0x1162174 size 0x264 virtual false final false
- ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier find(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier sigAlgId) ;
+ Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier find(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier sigAlgId) ;
 
 /// @brief Method find addr 0x11721ac size 0x19c virtual false final false
- ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier find(::StringW digAlgName) ;
+ Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier find(::StringW digAlgName) ;
 
 // Ctor Parameters []
 explicit DefaultDigestAlgorithmIdentifierFinder() ;
@@ -86,6 +85,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Cms
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder, "Org.BouncyCastle.Cms", "DefaultDigestAlgorithmIdentifierFinder");
+NEED_NO_BOX(Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder, "Org.BouncyCastle.Cms", "DefaultDigestAlgorithmIdentifierFinder");

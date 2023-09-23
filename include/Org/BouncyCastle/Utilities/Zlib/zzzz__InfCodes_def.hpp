@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Utilities::Zlib {
-class ZStream;
-}
 namespace Org::BouncyCastle::Utilities::Zlib {
 class InfBlocks;
+}
+namespace Org::BouncyCastle::Utilities::Zlib {
+class ZStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Zlib {
@@ -213,21 +212,20 @@ explicit InfCodes() ;
  void _ctor() ;
 
 /// @brief Method init addr 0x10da8e0 size 0x24 virtual false final false
- void init(int32_t bl, int32_t bd, ::ArrayW<int32_t> tl, int32_t tl_index, ::ArrayW<int32_t> td, int32_t td_index, ::Org::BouncyCastle::Utilities::Zlib::ZStream z) ;
+ void init(int32_t bl, int32_t bd, ::ArrayW<int32_t> tl, int32_t tl_index, ::ArrayW<int32_t> td, int32_t td_index, Org::BouncyCastle::Utilities::Zlib::ZStream z) ;
 
 /// @brief Method proc addr 0x10dac64 size 0x9cc virtual false final false
- int32_t proc(::Org::BouncyCastle::Utilities::Zlib::InfBlocks s, ::Org::BouncyCastle::Utilities::Zlib::ZStream z, int32_t r) ;
+ int32_t proc(Org::BouncyCastle::Utilities::Zlib::InfBlocks s, Org::BouncyCastle::Utilities::Zlib::ZStream z, int32_t r) ;
 
 /// @brief Method free addr 0x10d95a0 size 0x4 virtual false final false
- void free(::Org::BouncyCastle::Utilities::Zlib::ZStream z) ;
+ void free(Org::BouncyCastle::Utilities::Zlib::ZStream z) ;
 
 /// @brief Method inflate_fast addr 0x10db76c size 0x860 virtual false final false
- int32_t inflate_fast(int32_t bl, int32_t bd, ::ArrayW<int32_t> tl, int32_t tl_index, ::ArrayW<int32_t> td, int32_t td_index, ::Org::BouncyCastle::Utilities::Zlib::InfBlocks s, ::Org::BouncyCastle::Utilities::Zlib::ZStream z) ;
+ int32_t inflate_fast(int32_t bl, int32_t bd, ::ArrayW<int32_t> tl, int32_t tl_index, ::ArrayW<int32_t> td, int32_t td_index, Org::BouncyCastle::Utilities::Zlib::InfBlocks s, Org::BouncyCastle::Utilities::Zlib::ZStream z) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities::Zlib
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::Zlib::InfCodes);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Zlib::InfCodes, "Org.BouncyCastle.Utilities.Zlib", "InfCodes");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Zlib::InfCodes);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Zlib::InfCodes, "Org.BouncyCastle.Utilities.Zlib", "InfCodes");

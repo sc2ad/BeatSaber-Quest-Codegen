@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Newtonsoft::Json {
 struct MemberSerialization;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field OptOut offset 0
-static ::Newtonsoft::Json::MemberSerialization const OptOut;
+static Newtonsoft::Json::MemberSerialization const OptOut;
 
 /// @brief Field OptIn offset 0
-static ::Newtonsoft::Json::MemberSerialization const OptIn;
+static Newtonsoft::Json::MemberSerialization const OptIn;
 
 /// @brief Field Fields offset 0
-static ::Newtonsoft::Json::MemberSerialization const Fields;
+static Newtonsoft::Json::MemberSerialization const Fields;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::MemberSerialization, "Newtonsoft.Json", "MemberSerialization");
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::MemberSerialization, "Newtonsoft.Json", "MemberSerialization");

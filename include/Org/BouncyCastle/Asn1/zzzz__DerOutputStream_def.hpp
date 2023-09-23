@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
@@ -24,7 +23,7 @@ namespace Org::BouncyCastle::Asn1 {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(452))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(457))
 // CS Name: Org.BouncyCastle.Asn1.DerOutputStream
-class CORDL_TYPE DerOutputStream : public ::Org::BouncyCastle::Utilities::IO::FilterStream {
+class CORDL_TYPE DerOutputStream : public Org::BouncyCastle::Utilities::IO::FilterStream {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr DerOutputStream(DerOutputStream const& ) noexcept = default;
 constexpr DerOutputStream(DerOutputStream&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DerOutputStream(void* ptr) noexcept : ::Org::BouncyCastle::Utilities::IO::FilterStream(ptr) {
+constexpr explicit DerOutputStream(void* ptr) noexcept : Org::BouncyCastle::Utilities::IO::FilterStream(ptr) {
 }
 
 
@@ -60,11 +59,11 @@ constexpr explicit DerOutputStream(void* ptr) noexcept : ::Org::BouncyCastle::Ut
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "os", ty: "::System::IO::Stream", modifiers: "", def_value: None }]
-explicit DerOutputStream(::System::IO::Stream os) ;
+// Ctor Parameters [CppParam { name: "os", ty: "System::IO::Stream", modifiers: "", def_value: None }]
+explicit DerOutputStream(System::IO::Stream os) ;
 
 /// @brief Method .ctor addr 0x112c888 size 0x4 virtual false final false
- void _ctor(::System::IO::Stream os) ;
+ void _ctor(System::IO::Stream os) ;
 
 /// @brief Method WriteLength addr 0x112c88c size 0xa0 virtual false final false
  void WriteLength(int32_t length) ;
@@ -91,15 +90,14 @@ explicit DerOutputStream(::System::IO::Stream os) ;
  void WriteObject(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method WriteObject addr 0x112cd70 size 0x70 virtual true final false
- void WriteObject(::Org::BouncyCastle::Asn1::Asn1Encodable obj) ;
+ void WriteObject(Org::BouncyCastle::Asn1::Asn1Encodable obj) ;
 
 /// @brief Method WriteObject addr 0x112cde0 size 0x58 virtual true final false
- void WriteObject(::Org::BouncyCastle::Asn1::Asn1Object obj) ;
+ void WriteObject(Org::BouncyCastle::Asn1::Asn1Object obj) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::DerOutputStream);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::DerOutputStream, "Org.BouncyCastle.Asn1", "DerOutputStream");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::DerOutputStream);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerOutputStream, "Org.BouncyCastle.Asn1", "DerOutputStream");

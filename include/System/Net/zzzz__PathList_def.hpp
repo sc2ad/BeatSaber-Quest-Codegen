@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System::Collections {
 class ICollection;
 }
 namespace System::Collections {
 class SortedList;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections {
 class IComparer;
@@ -21,7 +20,7 @@ namespace System::Net {
 class PathList;
 }
 namespace System::Net {
-class ____System__Net__PathList__PathListComparer;
+class System__Net__PathList__PathListComparer;
 }
 // Type: ::PathListComparer
 namespace System::Net {
@@ -29,50 +28,50 @@ namespace System::Net {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7982))
 // CS Name: System.Net.PathList::PathListComparer
-class CORDL_TYPE ____System__Net__PathList__PathListComparer : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Net__PathList__PathListComparer : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::IComparer
-constexpr operator  ::System::Collections::IComparer() const noexcept;
+/// @brief Convert operator to System::Collections::IComparer
+constexpr operator  System::Collections::IComparer() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____System__Net__PathList__PathListComparer() = default;
+virtual ~System__Net__PathList__PathListComparer() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Net__PathList__PathListComparer", modifiers: " const&", def_value: None }]
-constexpr ____System__Net__PathList__PathListComparer(____System__Net__PathList__PathListComparer const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Net__PathList__PathListComparer", modifiers: " const&", def_value: None }]
+constexpr System__Net__PathList__PathListComparer(System__Net__PathList__PathListComparer const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Net__PathList__PathListComparer", modifiers: "&&", def_value: None }]
-constexpr ____System__Net__PathList__PathListComparer(____System__Net__PathList__PathListComparer&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Net__PathList__PathListComparer", modifiers: "&&", def_value: None }]
+constexpr System__Net__PathList__PathListComparer(System__Net__PathList__PathListComparer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Net__PathList__PathListComparer(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Net__PathList__PathListComparer(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Net__PathList__PathListComparer& operator=(std::nullptr_t) noexcept {
+  constexpr System__Net__PathList__PathListComparer& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Net__PathList__PathListComparer& operator=(void* o) noexcept {
+  constexpr System__Net__PathList__PathListComparer& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Net__PathList__PathListComparer& operator=(____System__Net__PathList__PathListComparer&& o) noexcept = default;
-  constexpr ____System__Net__PathList__PathListComparer& operator=(____System__Net__PathList__PathListComparer const& o) noexcept = default;
+  constexpr System__Net__PathList__PathListComparer& operator=(System__Net__PathList__PathListComparer&& o) noexcept = default;
+  constexpr System__Net__PathList__PathListComparer& operator=(System__Net__PathList__PathListComparer const& o) noexcept = default;
                 
 
 
 // Fields
 
-static ::System::Net::____System__Net__PathList__PathListComparer __declspec(property(get=__get_StaticInstance, put=__set_StaticInstance))  StaticInstance;
+static System::Net::System__Net__PathList__PathListComparer __declspec(property(get=__get_StaticInstance, put=__set_StaticInstance))  StaticInstance;
 
-static void __set_StaticInstance(::System::Net::____System__Net__PathList__PathListComparer value) ;
+static void __set_StaticInstance(System::Net::System__Net__PathList__PathListComparer value) ;
 
-static ::System::Net::____System__Net__PathList__PathListComparer __get_StaticInstance() ;
+static System::Net::System__Net__PathList__PathListComparer __get_StaticInstance() ;
 
 
 // Methods
@@ -81,7 +80,7 @@ static ::System::Net::____System__Net__PathList__PathListComparer __get_StaticIn
  int32_t System_Collections_IComparer_Compare(::bs_hook::Il2CppWrapperType ol, ::bs_hook::Il2CppWrapperType or) ;
 
 // Ctor Parameters []
-explicit ____System__Net__PathList__PathListComparer() ;
+explicit System__Net__PathList__PathListComparer() ;
 
 /// @brief Method .ctor addr 0x2821dc0 size 0x8 virtual false final false
  void _ctor() ;
@@ -99,7 +98,7 @@ namespace System::Net {
 class CORDL_TYPE PathList : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using PathListComparer = ::System::Net::____System__Net__PathList__PathListComparer;
+using PathListComparer = System::Net::System__Net__PathList__PathListComparer;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -134,18 +133,18 @@ constexpr explicit PathList(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(p
 
 // Fields
 
- ::System::Collections::SortedList __declspec(property(get=__get_m_list, put=__set_m_list))  m_list;
+ System::Collections::SortedList __declspec(property(get=__get_m_list, put=__set_m_list))  m_list;
 
-constexpr void __set_m_list(::System::Collections::SortedList value) ;
+constexpr void __set_m_list(System::Collections::SortedList value) ;
 
-constexpr ::System::Collections::SortedList __get_m_list() const;
+constexpr System::Collections::SortedList __get_m_list() const;
 
 
 // Properties
 
  int32_t __declspec(property(get=get_Count))  Count;
 
- ::System::Collections::ICollection __declspec(property(get=get_Values))  Values;
+ System::Collections::ICollection __declspec(property(get=get_Values))  Values;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_Item, put=set_Item))  Item;
 
@@ -167,7 +166,7 @@ explicit PathList() ;
  int32_t GetCookiesCount() ;
 
 /// @brief Method get_Values addr 0x281fd28 size 0x24 virtual false final false
- ::System::Collections::ICollection get_Values() ;
+ System::Collections::ICollection get_Values() ;
 
 /// @brief Method get_Item addr 0x281e6c0 size 0x24 virtual false final false
  ::bs_hook::Il2CppWrapperType get_Item(::StringW s) ;
@@ -176,7 +175,7 @@ explicit PathList() ;
  void set_Item(::StringW s, ::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method GetEnumerator addr 0x28214fc size 0x24 virtual false final false
- ::System::Collections::IEnumerator GetEnumerator() ;
+ System::Collections::IEnumerator GetEnumerator() ;
 
 /// @brief Method get_SyncRoot addr 0x281e69c size 0x24 virtual false final false
  ::bs_hook::Il2CppWrapperType get_SyncRoot() ;
@@ -185,8 +184,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::PathList);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::PathList, "System.Net", "PathList");
-NEED_NO_BOX(::System::Net::____System__Net__PathList__PathListComparer);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::____System__Net__PathList__PathListComparer, "System.Net", "PathList/PathListComparer");
+NEED_NO_BOX(System::Net::PathList);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::PathList, "System.Net", "PathList");
+NEED_NO_BOX(System::Net::System__Net__PathList__PathListComparer);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::System__Net__PathList__PathListComparer, "System.Net", "PathList/PathListComparer");

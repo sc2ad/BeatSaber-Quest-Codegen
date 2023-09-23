@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Unity::Profiling::LowLevel {
 struct MarkerFlags;
@@ -74,35 +73,34 @@ constexpr void __set_value__(uint16_t value) ;
 constexpr uint16_t __get_value__() const;
 
 /// @brief Field Default offset 0
-static ::Unity::Profiling::LowLevel::MarkerFlags const Default;
+static Unity::Profiling::LowLevel::MarkerFlags const Default;
 
 /// @brief Field Script offset 0
-static ::Unity::Profiling::LowLevel::MarkerFlags const Script;
+static Unity::Profiling::LowLevel::MarkerFlags const Script;
 
 /// @brief Field ScriptInvoke offset 0
-static ::Unity::Profiling::LowLevel::MarkerFlags const ScriptInvoke;
+static Unity::Profiling::LowLevel::MarkerFlags const ScriptInvoke;
 
 /// @brief Field ScriptDeepProfiler offset 0
-static ::Unity::Profiling::LowLevel::MarkerFlags const ScriptDeepProfiler;
+static Unity::Profiling::LowLevel::MarkerFlags const ScriptDeepProfiler;
 
 /// @brief Field AvailabilityEditor offset 0
-static ::Unity::Profiling::LowLevel::MarkerFlags const AvailabilityEditor;
+static Unity::Profiling::LowLevel::MarkerFlags const AvailabilityEditor;
 
 /// @brief Field AvailabilityNonDevelopment offset 0
-static ::Unity::Profiling::LowLevel::MarkerFlags const AvailabilityNonDevelopment;
+static Unity::Profiling::LowLevel::MarkerFlags const AvailabilityNonDevelopment;
 
 /// @brief Field Warning offset 0
-static ::Unity::Profiling::LowLevel::MarkerFlags const Warning;
+static Unity::Profiling::LowLevel::MarkerFlags const Warning;
 
 /// @brief Field Counter offset 0
-static ::Unity::Profiling::LowLevel::MarkerFlags const Counter;
+static Unity::Profiling::LowLevel::MarkerFlags const Counter;
 
 /// @brief Field SampleGPU offset 0
-static ::Unity::Profiling::LowLevel::MarkerFlags const SampleGPU;
+static Unity::Profiling::LowLevel::MarkerFlags const SampleGPU;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Unity::Profiling::LowLevel
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Unity::Profiling::LowLevel::MarkerFlags, "Unity.Profiling.LowLevel", "MarkerFlags");
+DEFINE_IL2CPP_ARG_TYPE(Unity::Profiling::LowLevel::MarkerFlags, "Unity.Profiling.LowLevel", "MarkerFlags");

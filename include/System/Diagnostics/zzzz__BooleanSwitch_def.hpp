@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/Diagnostics/zzzz__Switch_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace System::Diagnostics {
 class BooleanSwitch;
@@ -13,7 +12,7 @@ namespace System::Diagnostics {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7786))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7784))
 // CS Name: System.Diagnostics.BooleanSwitch
-class CORDL_TYPE BooleanSwitch : public ::System::Diagnostics::Switch {
+class CORDL_TYPE BooleanSwitch : public System::Diagnostics::Switch {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr BooleanSwitch(BooleanSwitch const& ) noexcept = default;
 constexpr BooleanSwitch(BooleanSwitch&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BooleanSwitch(void* ptr) noexcept : ::System::Diagnostics::Switch(ptr) {
+constexpr explicit BooleanSwitch(void* ptr) noexcept : System::Diagnostics::Switch(ptr) {
 }
 
 
@@ -59,6 +58,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Diagnostics
-} // end anonymous namespace
-NEED_NO_BOX(::System::Diagnostics::BooleanSwitch);
-DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::BooleanSwitch, "System.Diagnostics", "BooleanSwitch");
+NEED_NO_BOX(System::Diagnostics::BooleanSwitch);
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::BooleanSwitch, "System.Diagnostics", "BooleanSwitch");

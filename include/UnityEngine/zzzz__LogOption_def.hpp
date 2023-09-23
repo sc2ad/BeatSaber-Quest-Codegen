@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct LogOption;
@@ -67,14 +66,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::LogOption const None;
+static UnityEngine::LogOption const None;
 
 /// @brief Field NoStacktrace offset 0
-static ::UnityEngine::LogOption const NoStacktrace;
+static UnityEngine::LogOption const NoStacktrace;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::LogOption, "UnityEngine", "LogOption");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LogOption, "UnityEngine", "LogOption");

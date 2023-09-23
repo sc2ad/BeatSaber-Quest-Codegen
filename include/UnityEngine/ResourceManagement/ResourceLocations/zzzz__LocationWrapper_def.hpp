@@ -3,16 +3,15 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
 }
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
-}
 namespace System {
 class Type;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceLocations {
@@ -27,8 +26,8 @@ namespace UnityEngine::ResourceManagement::ResourceLocations {
 class CORDL_TYPE LocationWrapper : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation
-constexpr operator  ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation() const noexcept;
+/// @brief Convert operator to UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation
+constexpr operator  UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -63,11 +62,11 @@ constexpr explicit LocationWrapper(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Fields
 
- ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation __declspec(property(get=__get_m_InternalLocation, put=__set_m_InternalLocation))  m_InternalLocation;
+ UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation __declspec(property(get=__get_m_InternalLocation, put=__set_m_InternalLocation))  m_InternalLocation;
 
-constexpr void __set_m_InternalLocation(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation value) ;
+constexpr void __set_m_InternalLocation(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation value) ;
 
-constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation __get_m_InternalLocation() const;
+constexpr UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation __get_m_InternalLocation() const;
 
 
 // Properties
@@ -76,7 +75,7 @@ constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocatio
 
  ::StringW __declspec(property(get=get_ProviderId))  ProviderId;
 
- ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> __declspec(property(get=get_Dependencies))  Dependencies;
+ System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> __declspec(property(get=get_Dependencies))  Dependencies;
 
  int32_t __declspec(property(get=get_DependencyHashCode))  DependencyHashCode;
 
@@ -86,16 +85,16 @@ constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocatio
 
  ::StringW __declspec(property(get=get_PrimaryKey))  PrimaryKey;
 
- ::System::Type __declspec(property(get=get_ResourceType))  ResourceType;
+ System::Type __declspec(property(get=get_ResourceType))  ResourceType;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "location", ty: "::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation", modifiers: "", def_value: None }]
-explicit LocationWrapper(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location) ;
+// Ctor Parameters [CppParam { name: "location", ty: "UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation", modifiers: "", def_value: None }]
+explicit LocationWrapper(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location) ;
 
 /// @brief Method .ctor addr 0x2a3bee4 size 0x28 virtual false final false
- void _ctor(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location) ;
+ void _ctor(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location) ;
 
 /// @brief Method get_InternalId addr 0x2a436c4 size 0xa0 virtual true final true
  ::StringW get_InternalId() ;
@@ -104,7 +103,7 @@ explicit LocationWrapper(::UnityEngine::ResourceManagement::ResourceLocations::I
  ::StringW get_ProviderId() ;
 
 /// @brief Method get_Dependencies addr 0x2a43808 size 0xa4 virtual true final true
- ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> get_Dependencies() ;
+ System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> get_Dependencies() ;
 
 /// @brief Method get_DependencyHashCode addr 0x2a438ac size 0xa4 virtual true final true
  int32_t get_DependencyHashCode() ;
@@ -119,15 +118,14 @@ explicit LocationWrapper(::UnityEngine::ResourceManagement::ResourceLocations::I
  ::StringW get_PrimaryKey() ;
 
 /// @brief Method get_ResourceType addr 0x2a43b3c size 0xa4 virtual true final true
- ::System::Type get_ResourceType() ;
+ System::Type get_ResourceType() ;
 
 /// @brief Method Hash addr 0x2a43be0 size 0xac virtual true final true
- int32_t Hash(::System::Type resultType) ;
+ int32_t Hash(System::Type resultType) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ResourceManagement::ResourceLocations
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper, "UnityEngine.ResourceManagement.ResourceLocations", "LocationWrapper");
+NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper, "UnityEngine.ResourceManagement.ResourceLocations", "LocationWrapper");

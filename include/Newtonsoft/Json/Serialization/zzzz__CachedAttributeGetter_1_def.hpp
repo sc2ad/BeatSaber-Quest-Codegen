@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Newtonsoft::Json::Utilities {
 template<typename TKey,typename TValue>
 class ThreadSafeStore_2;
@@ -60,11 +59,11 @@ constexpr explicit CachedAttributeGetter_1(void* ptr) noexcept : ::bs_hook::Il2C
 
 // Fields
 
-static ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::bs_hook::Il2CppWrapperType,T> __declspec(property(get=__get_TypeAttributeCache, put=__set_TypeAttributeCache))  TypeAttributeCache;
+static Newtonsoft::Json::Utilities::ThreadSafeStore_2<::bs_hook::Il2CppWrapperType,T> __declspec(property(get=__get_TypeAttributeCache, put=__set_TypeAttributeCache))  TypeAttributeCache;
 
-static void __set_TypeAttributeCache(::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::bs_hook::Il2CppWrapperType,T> value) ;
+static void __set_TypeAttributeCache(Newtonsoft::Json::Utilities::ThreadSafeStore_2<::bs_hook::Il2CppWrapperType,T> value) ;
 
-static ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::bs_hook::Il2CppWrapperType,T> __get_TypeAttributeCache() ;
+static Newtonsoft::Json::Utilities::ThreadSafeStore_2<::bs_hook::Il2CppWrapperType,T> __get_TypeAttributeCache() ;
 
 
 // Methods
@@ -76,5 +75,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Serialization
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Newtonsoft::Json::Serialization::CachedAttributeGetter_1, "Newtonsoft.Json.Serialization", "CachedAttributeGetter`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Newtonsoft::Json::Serialization::CachedAttributeGetter_1, "Newtonsoft.Json.Serialization", "CachedAttributeGetter`1");

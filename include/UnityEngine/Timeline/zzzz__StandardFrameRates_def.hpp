@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Timeline {
 struct StandardFrameRates;
@@ -73,32 +72,31 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Fps24 offset 0
-static ::UnityEngine::Timeline::StandardFrameRates const Fps24;
+static UnityEngine::Timeline::StandardFrameRates const Fps24;
 
 /// @brief Field Fps23_97 offset 0
-static ::UnityEngine::Timeline::StandardFrameRates const Fps23_97;
+static UnityEngine::Timeline::StandardFrameRates const Fps23_97;
 
 /// @brief Field Fps25 offset 0
-static ::UnityEngine::Timeline::StandardFrameRates const Fps25;
+static UnityEngine::Timeline::StandardFrameRates const Fps25;
 
 /// @brief Field Fps30 offset 0
-static ::UnityEngine::Timeline::StandardFrameRates const Fps30;
+static UnityEngine::Timeline::StandardFrameRates const Fps30;
 
 /// @brief Field Fps29_97 offset 0
-static ::UnityEngine::Timeline::StandardFrameRates const Fps29_97;
+static UnityEngine::Timeline::StandardFrameRates const Fps29_97;
 
 /// @brief Field Fps50 offset 0
-static ::UnityEngine::Timeline::StandardFrameRates const Fps50;
+static UnityEngine::Timeline::StandardFrameRates const Fps50;
 
 /// @brief Field Fps60 offset 0
-static ::UnityEngine::Timeline::StandardFrameRates const Fps60;
+static UnityEngine::Timeline::StandardFrameRates const Fps60;
 
 /// @brief Field Fps59_94 offset 0
-static ::UnityEngine::Timeline::StandardFrameRates const Fps59_94;
+static UnityEngine::Timeline::StandardFrameRates const Fps59_94;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::StandardFrameRates, "UnityEngine.Timeline", "StandardFrameRates");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::StandardFrameRates, "UnityEngine.Timeline", "StandardFrameRates");

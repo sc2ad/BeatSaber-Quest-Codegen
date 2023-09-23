@@ -1,6 +1,5 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace UnityEngine::Playables {
 struct PlayableHandle;
 }
@@ -27,12 +26,11 @@ constexpr explicit IPlayable(void* ptr) noexcept : ::cordl_internals::InterfaceW
 // Methods
 
 /// @brief Method GetHandle addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Playables::PlayableHandle GetHandle() ;
+ UnityEngine::Playables::PlayableHandle GetHandle() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Playables
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Playables::IPlayable);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Playables::IPlayable, "UnityEngine.Playables", "IPlayable");
+NEED_NO_BOX(UnityEngine::Playables::IPlayable);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::IPlayable, "UnityEngine.Playables", "IPlayable");

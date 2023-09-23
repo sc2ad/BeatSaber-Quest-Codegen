@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net {
 struct WebHeaderCollectionType;
@@ -76,41 +75,40 @@ constexpr void __set_value__(uint16_t value) ;
 constexpr uint16_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::System::Net::WebHeaderCollectionType const Unknown;
+static System::Net::WebHeaderCollectionType const Unknown;
 
 /// @brief Field WebRequest offset 0
-static ::System::Net::WebHeaderCollectionType const WebRequest;
+static System::Net::WebHeaderCollectionType const WebRequest;
 
 /// @brief Field WebResponse offset 0
-static ::System::Net::WebHeaderCollectionType const WebResponse;
+static System::Net::WebHeaderCollectionType const WebResponse;
 
 /// @brief Field HttpWebRequest offset 0
-static ::System::Net::WebHeaderCollectionType const HttpWebRequest;
+static System::Net::WebHeaderCollectionType const HttpWebRequest;
 
 /// @brief Field HttpWebResponse offset 0
-static ::System::Net::WebHeaderCollectionType const HttpWebResponse;
+static System::Net::WebHeaderCollectionType const HttpWebResponse;
 
 /// @brief Field HttpListenerRequest offset 0
-static ::System::Net::WebHeaderCollectionType const HttpListenerRequest;
+static System::Net::WebHeaderCollectionType const HttpListenerRequest;
 
 /// @brief Field HttpListenerResponse offset 0
-static ::System::Net::WebHeaderCollectionType const HttpListenerResponse;
+static System::Net::WebHeaderCollectionType const HttpListenerResponse;
 
 /// @brief Field FtpWebRequest offset 0
-static ::System::Net::WebHeaderCollectionType const FtpWebRequest;
+static System::Net::WebHeaderCollectionType const FtpWebRequest;
 
 /// @brief Field FtpWebResponse offset 0
-static ::System::Net::WebHeaderCollectionType const FtpWebResponse;
+static System::Net::WebHeaderCollectionType const FtpWebResponse;
 
 /// @brief Field FileWebRequest offset 0
-static ::System::Net::WebHeaderCollectionType const FileWebRequest;
+static System::Net::WebHeaderCollectionType const FileWebRequest;
 
 /// @brief Field FileWebResponse offset 0
-static ::System::Net::WebHeaderCollectionType const FileWebResponse;
+static System::Net::WebHeaderCollectionType const FileWebResponse;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::WebHeaderCollectionType, "System.Net", "WebHeaderCollectionType");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::WebHeaderCollectionType, "System.Net", "WebHeaderCollectionType");

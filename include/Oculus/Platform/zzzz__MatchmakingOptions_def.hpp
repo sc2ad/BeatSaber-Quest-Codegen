@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace Oculus::Platform {
 struct RoomJoinPolicy;
 }
@@ -76,7 +75,7 @@ explicit MatchmakingOptions() ;
  void ClearCreateRoomDataStore() ;
 
 /// @brief Method SetCreateRoomJoinPolicy addr 0x257b27c size 0x68 virtual false final false
- void SetCreateRoomJoinPolicy(::Oculus::Platform::RoomJoinPolicy value) ;
+ void SetCreateRoomJoinPolicy(Oculus::Platform::RoomJoinPolicy value) ;
 
 /// @brief Method SetCreateRoomMaxUsers addr 0x257b2e4 size 0x68 virtual false final false
  void SetCreateRoomMaxUsers(uint32_t value) ;
@@ -106,7 +105,7 @@ explicit MatchmakingOptions() ;
  void SetEnqueueQueryKey(::StringW value) ;
 
 /// @brief Method op_Explicit addr 0x257b68c size 0x58 virtual false final false
-static ::cordl_internals::intptr_t op_Explicit___cordl_internals__intptr_t(::Oculus::Platform::MatchmakingOptions options) ;
+static ::cordl_internals::intptr_t op_Explicit___cordl_internals__intptr_t(Oculus::Platform::MatchmakingOptions options) ;
 
 /// @brief Method Finalize addr 0x257b6e4 size 0xd4 virtual true final false
  void Finalize() ;
@@ -115,6 +114,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::MatchmakingOptions);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MatchmakingOptions, "Oculus.Platform", "MatchmakingOptions");
+NEED_NO_BOX(Oculus::Platform::MatchmakingOptions);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MatchmakingOptions, "Oculus.Platform", "MatchmakingOptions");

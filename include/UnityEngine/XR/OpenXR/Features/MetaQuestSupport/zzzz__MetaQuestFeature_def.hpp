@@ -3,13 +3,12 @@
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRFeature_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
-namespace {
 // Forward declare root types
 namespace UnityEngine::XR::OpenXR::Features::MetaQuestSupport {
 class MetaQuestFeature;
 }
 namespace UnityEngine::XR::OpenXR::Features::MetaQuestSupport {
-struct ____UnityEngine__XR__OpenXR__Features__MetaQuestSupport__MetaQuestFeature__TargetDevice;
+struct UnityEngine__XR__OpenXR__Features__MetaQuestSupport__MetaQuestFeature__TargetDevice;
 }
 // Type: ::TargetDevice
 namespace UnityEngine::XR::OpenXR::Features::MetaQuestSupport {
@@ -17,20 +16,20 @@ namespace UnityEngine::XR::OpenXR::Features::MetaQuestSupport {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16100))
 // CS Name: UnityEngine.XR.OpenXR.Features.MetaQuestSupport.MetaQuestFeature::TargetDevice
-struct CORDL_TYPE ____UnityEngine__XR__OpenXR__Features__MetaQuestSupport__MetaQuestFeature__TargetDevice : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__XR__OpenXR__Features__MetaQuestSupport__MetaQuestFeature__TargetDevice : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "visibleName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "manifestName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "enabled", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "active", ty: "bool", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__XR__OpenXR__Features__MetaQuestSupport__MetaQuestFeature__TargetDevice(::StringW visibleName, ::StringW manifestName, bool enabled, bool active) noexcept;
+constexpr UnityEngine__XR__OpenXR__Features__MetaQuestSupport__MetaQuestFeature__TargetDevice(::StringW visibleName, ::StringW manifestName, bool enabled, bool active) noexcept;
 
 
-                    constexpr ____UnityEngine__XR__OpenXR__Features__MetaQuestSupport__MetaQuestFeature__TargetDevice(____UnityEngine__XR__OpenXR__Features__MetaQuestSupport__MetaQuestFeature__TargetDevice const&) = default;
-                    constexpr ____UnityEngine__XR__OpenXR__Features__MetaQuestSupport__MetaQuestFeature__TargetDevice(____UnityEngine__XR__OpenXR__Features__MetaQuestSupport__MetaQuestFeature__TargetDevice&&) = default;
-                    constexpr ____UnityEngine__XR__OpenXR__Features__MetaQuestSupport__MetaQuestFeature__TargetDevice& operator=(____UnityEngine__XR__OpenXR__Features__MetaQuestSupport__MetaQuestFeature__TargetDevice const& o) {
+                    constexpr UnityEngine__XR__OpenXR__Features__MetaQuestSupport__MetaQuestFeature__TargetDevice(UnityEngine__XR__OpenXR__Features__MetaQuestSupport__MetaQuestFeature__TargetDevice const&) = default;
+                    constexpr UnityEngine__XR__OpenXR__Features__MetaQuestSupport__MetaQuestFeature__TargetDevice(UnityEngine__XR__OpenXR__Features__MetaQuestSupport__MetaQuestFeature__TargetDevice&&) = default;
+                    constexpr UnityEngine__XR__OpenXR__Features__MetaQuestSupport__MetaQuestFeature__TargetDevice& operator=(UnityEngine__XR__OpenXR__Features__MetaQuestSupport__MetaQuestFeature__TargetDevice const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__XR__OpenXR__Features__MetaQuestSupport__MetaQuestFeature__TargetDevice& operator=(____UnityEngine__XR__OpenXR__Features__MetaQuestSupport__MetaQuestFeature__TargetDevice&& o) noexcept {
+                    constexpr UnityEngine__XR__OpenXR__Features__MetaQuestSupport__MetaQuestFeature__TargetDevice& operator=(UnityEngine__XR__OpenXR__Features__MetaQuestSupport__MetaQuestFeature__TargetDevice&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -43,7 +42,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x18};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__XR__OpenXR__Features__MetaQuestSupport__MetaQuestFeature__TargetDevice(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__XR__OpenXR__Features__MetaQuestSupport__MetaQuestFeature__TargetDevice(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -88,10 +87,10 @@ namespace UnityEngine::XR::OpenXR::Features::MetaQuestSupport {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14201))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16101))
 // CS Name: UnityEngine.XR.OpenXR.Features.MetaQuestSupport.MetaQuestFeature
-class CORDL_TYPE MetaQuestFeature : public ::UnityEngine::XR::OpenXR::Features::OpenXRFeature {
+class CORDL_TYPE MetaQuestFeature : public UnityEngine::XR::OpenXR::Features::OpenXRFeature {
 public:
 // Declarations
-using TargetDevice = ::UnityEngine::XR::OpenXR::Features::MetaQuestSupport::____UnityEngine__XR__OpenXR__Features__MetaQuestSupport__MetaQuestFeature__TargetDevice;
+using TargetDevice = UnityEngine::XR::OpenXR::Features::MetaQuestSupport::UnityEngine__XR__OpenXR__Features__MetaQuestSupport__MetaQuestFeature__TargetDevice;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x50};
@@ -105,7 +104,7 @@ constexpr MetaQuestFeature(MetaQuestFeature const& ) noexcept = default;
 constexpr MetaQuestFeature(MetaQuestFeature&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MetaQuestFeature(void* ptr) noexcept : ::UnityEngine::XR::OpenXR::Features::OpenXRFeature(ptr) {
+constexpr explicit MetaQuestFeature(void* ptr) noexcept : UnityEngine::XR::OpenXR::Features::OpenXRFeature(ptr) {
 }
 
 
@@ -142,7 +141,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR::OpenXR::Features::MetaQuestSupport
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::XR::OpenXR::Features::MetaQuestSupport::MetaQuestFeature);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::Features::MetaQuestSupport::MetaQuestFeature, "UnityEngine.XR.OpenXR.Features.MetaQuestSupport", "MetaQuestFeature");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::Features::MetaQuestSupport::____UnityEngine__XR__OpenXR__Features__MetaQuestSupport__MetaQuestFeature__TargetDevice, "UnityEngine.XR.OpenXR.Features.MetaQuestSupport", "MetaQuestFeature/TargetDevice");
+NEED_NO_BOX(UnityEngine::XR::OpenXR::Features::MetaQuestSupport::MetaQuestFeature);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::OpenXR::Features::MetaQuestSupport::MetaQuestFeature, "UnityEngine.XR.OpenXR.Features.MetaQuestSupport", "MetaQuestFeature");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::OpenXR::Features::MetaQuestSupport::UnityEngine__XR__OpenXR__Features__MetaQuestSupport__MetaQuestFeature__TargetDevice, "UnityEngine.XR.OpenXR.Features.MetaQuestSupport", "MetaQuestFeature/TargetDevice");

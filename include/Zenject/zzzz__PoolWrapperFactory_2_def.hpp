@@ -2,9 +2,8 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace Zenject {
-class InjectTypeInfo;
+class IFactory;
 }
 namespace Zenject {
 template<typename TParam1,typename TValue>
@@ -15,7 +14,7 @@ template<typename TParam1,typename TValue>
 class IMemoryPool_2;
 }
 namespace Zenject {
-class IFactory;
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -38,11 +37,11 @@ template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2
 class CORDL_TYPE PoolWrapperFactory_2<TParam1,TValue> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Zenject::IFactory_2<TParam1,TValue>
-constexpr operator  ::Zenject::IFactory_2<TParam1,TValue>() const noexcept;
+/// @brief Convert operator to Zenject::IFactory_2<TParam1,TValue>
+constexpr operator  Zenject::IFactory_2<TParam1,TValue>() const noexcept;
 
-/// @brief Convert operator to ::Zenject::IFactory
-constexpr operator  ::Zenject::IFactory() const noexcept;
+/// @brief Convert operator to Zenject::IFactory
+constexpr operator  Zenject::IFactory() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -77,20 +76,20 @@ constexpr explicit PoolWrapperFactory_2(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 // Fields
 
- ::Zenject::IMemoryPool_2<TParam1,TValue> __declspec(property(get=__get__pool, put=__set__pool))  _pool;
+ Zenject::IMemoryPool_2<TParam1,TValue> __declspec(property(get=__get__pool, put=__set__pool))  _pool;
 
-constexpr void __set__pool(::Zenject::IMemoryPool_2<TParam1,TValue> value) ;
+constexpr void __set__pool(Zenject::IMemoryPool_2<TParam1,TValue> value) ;
 
-constexpr ::Zenject::IMemoryPool_2<TParam1,TValue> __get__pool() const;
+constexpr Zenject::IMemoryPool_2<TParam1,TValue> __get__pool() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "pool", ty: "::Zenject::IMemoryPool_2<TParam1,TValue>", modifiers: "", def_value: None }]
-explicit PoolWrapperFactory_2(::Zenject::IMemoryPool_2<TParam1,TValue> pool) ;
+// Ctor Parameters [CppParam { name: "pool", ty: "Zenject::IMemoryPool_2<TParam1,TValue>", modifiers: "", def_value: None }]
+explicit PoolWrapperFactory_2(Zenject::IMemoryPool_2<TParam1,TValue> pool) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::Zenject::IMemoryPool_2<TParam1,TValue> pool) ;
+ void _ctor(Zenject::IMemoryPool_2<TParam1,TValue> pool) ;
 
 /// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual true final true
  TValue Create(TParam1 arg) ;
@@ -99,11 +98,10 @@ explicit PoolWrapperFactory_2(::Zenject::IMemoryPool_2<TParam1,TValue> pool) ;
 static ::bs_hook::Il2CppWrapperType __zenCreate(::ArrayW<::bs_hook::Il2CppWrapperType> P_0) ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::PoolWrapperFactory_2, "Zenject", "PoolWrapperFactory`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::PoolWrapperFactory_2, "Zenject", "PoolWrapperFactory`2");

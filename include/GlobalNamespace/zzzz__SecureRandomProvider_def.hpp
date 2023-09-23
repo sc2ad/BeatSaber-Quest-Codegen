@@ -3,16 +3,15 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::Security::Cryptography {
 class RNGCryptoServiceProvider;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-class SecureRandomProvider;
+class GlobalNamespace__SecureRandomProvider__SecureRandomState;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__SecureRandomProvider__SecureRandomState;
+class SecureRandomProvider;
 }
 // Type: ::SecureRandomState
 namespace GlobalNamespace {
@@ -20,47 +19,47 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12895))
 // CS Name: SecureRandomProvider::SecureRandomState
-class CORDL_TYPE ____GlobalNamespace__SecureRandomProvider__SecureRandomState : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__SecureRandomProvider__SecureRandomState : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____GlobalNamespace__SecureRandomProvider__SecureRandomState() = default;
+virtual ~GlobalNamespace__SecureRandomProvider__SecureRandomState() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__SecureRandomProvider__SecureRandomState", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__SecureRandomProvider__SecureRandomState(____GlobalNamespace__SecureRandomProvider__SecureRandomState const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__SecureRandomProvider__SecureRandomState", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__SecureRandomProvider__SecureRandomState(GlobalNamespace__SecureRandomProvider__SecureRandomState const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__SecureRandomProvider__SecureRandomState", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__SecureRandomProvider__SecureRandomState(____GlobalNamespace__SecureRandomProvider__SecureRandomState&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__SecureRandomProvider__SecureRandomState", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__SecureRandomProvider__SecureRandomState(GlobalNamespace__SecureRandomProvider__SecureRandomState&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__SecureRandomProvider__SecureRandomState(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__SecureRandomProvider__SecureRandomState(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__SecureRandomProvider__SecureRandomState& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__SecureRandomProvider__SecureRandomState& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__SecureRandomProvider__SecureRandomState& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__SecureRandomProvider__SecureRandomState& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__SecureRandomProvider__SecureRandomState& operator=(____GlobalNamespace__SecureRandomProvider__SecureRandomState&& o) noexcept = default;
-  constexpr ____GlobalNamespace__SecureRandomProvider__SecureRandomState& operator=(____GlobalNamespace__SecureRandomProvider__SecureRandomState const& o) noexcept = default;
+  constexpr GlobalNamespace__SecureRandomProvider__SecureRandomState& operator=(GlobalNamespace__SecureRandomProvider__SecureRandomState&& o) noexcept = default;
+  constexpr GlobalNamespace__SecureRandomProvider__SecureRandomState& operator=(GlobalNamespace__SecureRandomProvider__SecureRandomState const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Security::Cryptography::RNGCryptoServiceProvider __declspec(property(get=__get__random, put=__set__random))  _random;
+ System::Security::Cryptography::RNGCryptoServiceProvider __declspec(property(get=__get__random, put=__set__random))  _random;
 
-constexpr void __set__random(::System::Security::Cryptography::RNGCryptoServiceProvider value) ;
+constexpr void __set__random(System::Security::Cryptography::RNGCryptoServiceProvider value) ;
 
-constexpr ::System::Security::Cryptography::RNGCryptoServiceProvider __get__random() const;
+constexpr System::Security::Cryptography::RNGCryptoServiceProvider __get__random() const;
 
 /// @brief Field kBufferSize offset 0
 static constexpr int32_t  kBufferSize{16384};
@@ -96,7 +95,7 @@ constexpr int32_t __get__index() const;
  void FillBuffer() ;
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__SecureRandomProvider__SecureRandomState() ;
+explicit GlobalNamespace__SecureRandomProvider__SecureRandomState() ;
 
 /// @brief Method .ctor addr 0xdc99e0 size 0xa4 virtual false final false
  void _ctor() ;
@@ -114,7 +113,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE SecureRandomProvider : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using SecureRandomState = ::GlobalNamespace::____GlobalNamespace__SecureRandomProvider__SecureRandomState;
+using SecureRandomState = GlobalNamespace::GlobalNamespace__SecureRandomProvider__SecureRandomState;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -149,11 +148,11 @@ constexpr explicit SecureRandomProvider(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 // Fields
 
-static ::GlobalNamespace::____GlobalNamespace__SecureRandomProvider__SecureRandomState __declspec(property(get=__get__secureRandomState, put=__set__secureRandomState))  _secureRandomState;
+static GlobalNamespace::GlobalNamespace__SecureRandomProvider__SecureRandomState __declspec(property(get=__get__secureRandomState, put=__set__secureRandomState))  _secureRandomState;
 
-static void __set__secureRandomState(::GlobalNamespace::____GlobalNamespace__SecureRandomProvider__SecureRandomState value) ;
+static void __set__secureRandomState(GlobalNamespace::GlobalNamespace__SecureRandomProvider__SecureRandomState value) ;
 
-static ::GlobalNamespace::____GlobalNamespace__SecureRandomProvider__SecureRandomState __get__secureRandomState() ;
+static GlobalNamespace::GlobalNamespace__SecureRandomProvider__SecureRandomState __get__secureRandomState() ;
 
 
 // Methods
@@ -174,8 +173,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SecureRandomProvider);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SecureRandomProvider, "", "SecureRandomProvider");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__SecureRandomProvider__SecureRandomState);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__SecureRandomProvider__SecureRandomState, "", "SecureRandomProvider/SecureRandomState");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__SecureRandomProvider__SecureRandomState);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__SecureRandomProvider__SecureRandomState, "", "SecureRandomProvider/SecureRandomState");
+NEED_NO_BOX(GlobalNamespace::SecureRandomProvider);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SecureRandomProvider, "", "SecureRandomProvider");

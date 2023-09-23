@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
 namespace OVR::OpenVR {
 struct VRTextureDepthInfo_t;
 }
@@ -18,8 +17,8 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE VRTextureWithPoseAndDepth_t : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "depth", ty: "::OVR::OpenVR::VRTextureDepthInfo_t", modifiers: "", def_value: None }]
-constexpr VRTextureWithPoseAndDepth_t(::OVR::OpenVR::VRTextureDepthInfo_t depth) noexcept;
+// Ctor Parameters [CppParam { name: "depth", ty: "OVR::OpenVR::VRTextureDepthInfo_t", modifiers: "", def_value: None }]
+constexpr VRTextureWithPoseAndDepth_t(OVR::OpenVR::VRTextureDepthInfo_t depth) noexcept;
 
 
                     constexpr VRTextureWithPoseAndDepth_t(VRTextureWithPoseAndDepth_t const&) = default;
@@ -52,15 +51,14 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::OVR::OpenVR::VRTextureDepthInfo_t __declspec(property(get=__get_depth, put=__set_depth))  depth;
+ OVR::OpenVR::VRTextureDepthInfo_t __declspec(property(get=__get_depth, put=__set_depth))  depth;
 
-constexpr void __set_depth(::OVR::OpenVR::VRTextureDepthInfo_t value) ;
+constexpr void __set_depth(OVR::OpenVR::VRTextureDepthInfo_t value) ;
 
-constexpr ::OVR::OpenVR::VRTextureDepthInfo_t __get_depth() const;
+constexpr OVR::OpenVR::VRTextureDepthInfo_t __get_depth() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::VRTextureWithPoseAndDepth_t, "OVR.OpenVR", "VRTextureWithPoseAndDepth_t");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRTextureWithPoseAndDepth_t, "OVR.OpenVR", "VRTextureWithPoseAndDepth_t");

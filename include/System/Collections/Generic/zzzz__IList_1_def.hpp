@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class ICollection_1;
@@ -29,14 +28,14 @@ template<typename T>
 class CORDL_TYPE IList_1 : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::ICollection_1<T>
-constexpr operator  ::System::Collections::Generic::ICollection_1<T>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::ICollection_1<T>
+constexpr operator  System::Collections::Generic::ICollection_1<T>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerable_1<T>
-constexpr operator  ::System::Collections::Generic::IEnumerable_1<T>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerable_1<T>
+constexpr operator  System::Collections::Generic::IEnumerable_1<T>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
 ~IList_1() = default;
 
@@ -71,5 +70,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Collections::Generic
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Generic::IList_1, "System.Collections.Generic", "IList`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::IList_1, "System.Collections.Generic", "IList`1");

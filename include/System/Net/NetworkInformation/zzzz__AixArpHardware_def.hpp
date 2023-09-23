@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net::NetworkInformation {
 struct AixArpHardware;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field ETHER offset 0
-static ::System::Net::NetworkInformation::AixArpHardware const ETHER;
+static System::Net::NetworkInformation::AixArpHardware const ETHER;
 
 /// @brief Field ATM offset 0
-static ::System::Net::NetworkInformation::AixArpHardware const ATM;
+static System::Net::NetworkInformation::AixArpHardware const ATM;
 
 /// @brief Field SLIP offset 0
-static ::System::Net::NetworkInformation::AixArpHardware const SLIP;
+static System::Net::NetworkInformation::AixArpHardware const SLIP;
 
 /// @brief Field PPP offset 0
-static ::System::Net::NetworkInformation::AixArpHardware const PPP;
+static System::Net::NetworkInformation::AixArpHardware const PPP;
 
 /// @brief Field LOOPBACK offset 0
-static ::System::Net::NetworkInformation::AixArpHardware const LOOPBACK;
+static System::Net::NetworkInformation::AixArpHardware const LOOPBACK;
 
 /// @brief Field FDDI offset 0
-static ::System::Net::NetworkInformation::AixArpHardware const FDDI;
+static System::Net::NetworkInformation::AixArpHardware const FDDI;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net::NetworkInformation
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::AixArpHardware, "System.Net.NetworkInformation", "AixArpHardware");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::AixArpHardware, "System.Net.NetworkInformation", "AixArpHardware");

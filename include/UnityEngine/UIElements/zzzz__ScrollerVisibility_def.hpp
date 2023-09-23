@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 struct ScrollerVisibility;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Auto offset 0
-static ::UnityEngine::UIElements::ScrollerVisibility const Auto;
+static UnityEngine::UIElements::ScrollerVisibility const Auto;
 
 /// @brief Field AlwaysVisible offset 0
-static ::UnityEngine::UIElements::ScrollerVisibility const AlwaysVisible;
+static UnityEngine::UIElements::ScrollerVisibility const AlwaysVisible;
 
 /// @brief Field Hidden offset 0
-static ::UnityEngine::UIElements::ScrollerVisibility const Hidden;
+static UnityEngine::UIElements::ScrollerVisibility const Hidden;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ScrollerVisibility, "UnityEngine.UIElements", "ScrollerVisibility");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::ScrollerVisibility, "UnityEngine.UIElements", "ScrollerVisibility");

@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
 struct X509ContentType;
@@ -73,32 +72,31 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::System::Security::Cryptography::X509Certificates::X509ContentType const Unknown;
+static System::Security::Cryptography::X509Certificates::X509ContentType const Unknown;
 
 /// @brief Field Cert offset 0
-static ::System::Security::Cryptography::X509Certificates::X509ContentType const Cert;
+static System::Security::Cryptography::X509Certificates::X509ContentType const Cert;
 
 /// @brief Field SerializedCert offset 0
-static ::System::Security::Cryptography::X509Certificates::X509ContentType const SerializedCert;
+static System::Security::Cryptography::X509Certificates::X509ContentType const SerializedCert;
 
 /// @brief Field Pfx offset 0
-static ::System::Security::Cryptography::X509Certificates::X509ContentType const Pfx;
+static System::Security::Cryptography::X509Certificates::X509ContentType const Pfx;
 
 /// @brief Field Pkcs12 offset 0
-static ::System::Security::Cryptography::X509Certificates::X509ContentType const Pkcs12;
+static System::Security::Cryptography::X509Certificates::X509ContentType const Pkcs12;
 
 /// @brief Field SerializedStore offset 0
-static ::System::Security::Cryptography::X509Certificates::X509ContentType const SerializedStore;
+static System::Security::Cryptography::X509Certificates::X509ContentType const SerializedStore;
 
 /// @brief Field Pkcs7 offset 0
-static ::System::Security::Cryptography::X509Certificates::X509ContentType const Pkcs7;
+static System::Security::Cryptography::X509Certificates::X509ContentType const Pkcs7;
 
 /// @brief Field Authenticode offset 0
-static ::System::Security::Cryptography::X509Certificates::X509ContentType const Authenticode;
+static System::Security::Cryptography::X509Certificates::X509ContentType const Authenticode;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography::X509Certificates
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::X509Certificates::X509ContentType, "System.Security.Cryptography.X509Certificates", "X509ContentType");
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509ContentType, "System.Security.Cryptography.X509Certificates", "X509ContentType");

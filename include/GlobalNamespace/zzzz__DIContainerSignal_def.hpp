@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__GenericSignal_1_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class DIContainerSignal;
@@ -10,10 +9,10 @@ class DIContainerSignal;
 // Type: ::DIContainerSignal
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13881)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13881), inst: 288 }), TypeDefinitionIndex(TypeDefinitionIndex(11108))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13881), inst: 288 }), TypeDefinitionIndex(TypeDefinitionIndex(13881)), TypeDefinitionIndex(TypeDefinitionIndex(11108))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13878))
 // CS Name: DIContainerSignal
-class CORDL_TYPE DIContainerSignal : public ::GlobalNamespace::GenericSignal_1<::Zenject::DiContainer> {
+class CORDL_TYPE DIContainerSignal : public GlobalNamespace::GenericSignal_1<Zenject::DiContainer> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr DIContainerSignal(DIContainerSignal const& ) noexcept = default;
 constexpr DIContainerSignal(DIContainerSignal&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DIContainerSignal(void* ptr) noexcept : ::GlobalNamespace::GenericSignal_1<::Zenject::DiContainer>(ptr) {
+constexpr explicit DIContainerSignal(void* ptr) noexcept : GlobalNamespace::GenericSignal_1<Zenject::DiContainer>(ptr) {
 }
 
 
@@ -59,6 +58,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::DIContainerSignal);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DIContainerSignal, "", "DIContainerSignal");
+NEED_NO_BOX(GlobalNamespace::DIContainerSignal);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DIContainerSignal, "", "DIContainerSignal");

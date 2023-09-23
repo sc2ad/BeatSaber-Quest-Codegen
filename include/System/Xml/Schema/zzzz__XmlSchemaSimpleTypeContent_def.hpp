@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaAnnotated_def.hpp"
-namespace {
 // Forward declare root types
 namespace System::Xml::Schema {
 class XmlSchemaSimpleTypeContent;
@@ -12,7 +11,7 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11656))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11680))
 // CS Name: System.Xml.Schema.XmlSchemaSimpleTypeContent
-class CORDL_TYPE XmlSchemaSimpleTypeContent : public ::System::Xml::Schema::XmlSchemaAnnotated {
+class CORDL_TYPE XmlSchemaSimpleTypeContent : public System::Xml::Schema::XmlSchemaAnnotated {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr XmlSchemaSimpleTypeContent(XmlSchemaSimpleTypeContent const& ) noexcep
 constexpr XmlSchemaSimpleTypeContent(XmlSchemaSimpleTypeContent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XmlSchemaSimpleTypeContent(void* ptr) noexcept : ::System::Xml::Schema::XmlSchemaAnnotated(ptr) {
+constexpr explicit XmlSchemaSimpleTypeContent(void* ptr) noexcept : System::Xml::Schema::XmlSchemaAnnotated(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::XmlSchemaSimpleTypeContent);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlSchemaSimpleTypeContent, "System.Xml.Schema", "XmlSchemaSimpleTypeContent");
+NEED_NO_BOX(System::Xml::Schema::XmlSchemaSimpleTypeContent);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::XmlSchemaSimpleTypeContent, "System.Xml.Schema", "XmlSchemaSimpleTypeContent");

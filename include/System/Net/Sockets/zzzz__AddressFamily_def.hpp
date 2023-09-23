@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net::Sockets {
 struct AddressFamily;
@@ -96,101 +95,100 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::System::Net::Sockets::AddressFamily const Unknown;
+static System::Net::Sockets::AddressFamily const Unknown;
 
 /// @brief Field Unspecified offset 0
-static ::System::Net::Sockets::AddressFamily const Unspecified;
+static System::Net::Sockets::AddressFamily const Unspecified;
 
 /// @brief Field Unix offset 0
-static ::System::Net::Sockets::AddressFamily const Unix;
+static System::Net::Sockets::AddressFamily const Unix;
 
 /// @brief Field InterNetwork offset 0
-static ::System::Net::Sockets::AddressFamily const InterNetwork;
+static System::Net::Sockets::AddressFamily const InterNetwork;
 
 /// @brief Field ImpLink offset 0
-static ::System::Net::Sockets::AddressFamily const ImpLink;
+static System::Net::Sockets::AddressFamily const ImpLink;
 
 /// @brief Field Pup offset 0
-static ::System::Net::Sockets::AddressFamily const Pup;
+static System::Net::Sockets::AddressFamily const Pup;
 
 /// @brief Field Chaos offset 0
-static ::System::Net::Sockets::AddressFamily const Chaos;
+static System::Net::Sockets::AddressFamily const Chaos;
 
 /// @brief Field NS offset 0
-static ::System::Net::Sockets::AddressFamily const NS;
+static System::Net::Sockets::AddressFamily const NS;
 
 /// @brief Field Ipx offset 0
-static ::System::Net::Sockets::AddressFamily const Ipx;
+static System::Net::Sockets::AddressFamily const Ipx;
 
 /// @brief Field Iso offset 0
-static ::System::Net::Sockets::AddressFamily const Iso;
+static System::Net::Sockets::AddressFamily const Iso;
 
 /// @brief Field Osi offset 0
-static ::System::Net::Sockets::AddressFamily const Osi;
+static System::Net::Sockets::AddressFamily const Osi;
 
 /// @brief Field Ecma offset 0
-static ::System::Net::Sockets::AddressFamily const Ecma;
+static System::Net::Sockets::AddressFamily const Ecma;
 
 /// @brief Field DataKit offset 0
-static ::System::Net::Sockets::AddressFamily const DataKit;
+static System::Net::Sockets::AddressFamily const DataKit;
 
 /// @brief Field Ccitt offset 0
-static ::System::Net::Sockets::AddressFamily const Ccitt;
+static System::Net::Sockets::AddressFamily const Ccitt;
 
 /// @brief Field Sna offset 0
-static ::System::Net::Sockets::AddressFamily const Sna;
+static System::Net::Sockets::AddressFamily const Sna;
 
 /// @brief Field DecNet offset 0
-static ::System::Net::Sockets::AddressFamily const DecNet;
+static System::Net::Sockets::AddressFamily const DecNet;
 
 /// @brief Field DataLink offset 0
-static ::System::Net::Sockets::AddressFamily const DataLink;
+static System::Net::Sockets::AddressFamily const DataLink;
 
 /// @brief Field Lat offset 0
-static ::System::Net::Sockets::AddressFamily const Lat;
+static System::Net::Sockets::AddressFamily const Lat;
 
 /// @brief Field HyperChannel offset 0
-static ::System::Net::Sockets::AddressFamily const HyperChannel;
+static System::Net::Sockets::AddressFamily const HyperChannel;
 
 /// @brief Field AppleTalk offset 0
-static ::System::Net::Sockets::AddressFamily const AppleTalk;
+static System::Net::Sockets::AddressFamily const AppleTalk;
 
 /// @brief Field NetBios offset 0
-static ::System::Net::Sockets::AddressFamily const NetBios;
+static System::Net::Sockets::AddressFamily const NetBios;
 
 /// @brief Field VoiceView offset 0
-static ::System::Net::Sockets::AddressFamily const VoiceView;
+static System::Net::Sockets::AddressFamily const VoiceView;
 
 /// @brief Field FireFox offset 0
-static ::System::Net::Sockets::AddressFamily const FireFox;
+static System::Net::Sockets::AddressFamily const FireFox;
 
 /// @brief Field Banyan offset 0
-static ::System::Net::Sockets::AddressFamily const Banyan;
+static System::Net::Sockets::AddressFamily const Banyan;
 
 /// @brief Field Atm offset 0
-static ::System::Net::Sockets::AddressFamily const Atm;
+static System::Net::Sockets::AddressFamily const Atm;
 
 /// @brief Field InterNetworkV6 offset 0
-static ::System::Net::Sockets::AddressFamily const InterNetworkV6;
+static System::Net::Sockets::AddressFamily const InterNetworkV6;
 
 /// @brief Field Cluster offset 0
-static ::System::Net::Sockets::AddressFamily const Cluster;
+static System::Net::Sockets::AddressFamily const Cluster;
 
 /// @brief Field Ieee12844 offset 0
-static ::System::Net::Sockets::AddressFamily const Ieee12844;
+static System::Net::Sockets::AddressFamily const Ieee12844;
 
 /// @brief Field Irda offset 0
-static ::System::Net::Sockets::AddressFamily const Irda;
+static System::Net::Sockets::AddressFamily const Irda;
 
 /// @brief Field NetworkDesigners offset 0
-static ::System::Net::Sockets::AddressFamily const NetworkDesigners;
+static System::Net::Sockets::AddressFamily const NetworkDesigners;
 
 /// @brief Field Max offset 0
-static ::System::Net::Sockets::AddressFamily const Max;
+static System::Net::Sockets::AddressFamily const Max;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net::Sockets
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Sockets::AddressFamily, "System.Net.Sockets", "AddressFamily");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::AddressFamily, "System.Net.Sockets", "AddressFamily");

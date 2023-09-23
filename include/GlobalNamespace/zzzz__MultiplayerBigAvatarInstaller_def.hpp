@@ -1,15 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__SaberManager__InitData;
-}
 namespace GlobalNamespace {
 class PlayersSpecificSettingsAtGameStartModel;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__SaberManager__InitData;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11080))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5291))
 // CS Name: MultiplayerBigAvatarInstaller
-class CORDL_TYPE MultiplayerBigAvatarInstaller : public ::Zenject::MonoInstaller {
+class CORDL_TYPE MultiplayerBigAvatarInstaller : public Zenject::MonoInstaller {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr MultiplayerBigAvatarInstaller(MultiplayerBigAvatarInstaller const& ) n
 constexpr MultiplayerBigAvatarInstaller(MultiplayerBigAvatarInstaller&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerBigAvatarInstaller(void* ptr) noexcept : ::Zenject::MonoInstaller(ptr) {
+constexpr explicit MultiplayerBigAvatarInstaller(void* ptr) noexcept : Zenject::MonoInstaller(ptr) {
 }
 
 
@@ -57,23 +56,23 @@ constexpr explicit MultiplayerBigAvatarInstaller(void* ptr) noexcept : ::Zenject
 
 // Fields
 
- ::GlobalNamespace::IConnectedPlayer __declspec(property(get=__get__connectedPlayer, put=__set__connectedPlayer))  _connectedPlayer;
+ GlobalNamespace::IConnectedPlayer __declspec(property(get=__get__connectedPlayer, put=__set__connectedPlayer))  _connectedPlayer;
 
-constexpr void __set__connectedPlayer(::GlobalNamespace::IConnectedPlayer value) ;
+constexpr void __set__connectedPlayer(GlobalNamespace::IConnectedPlayer value) ;
 
-constexpr ::GlobalNamespace::IConnectedPlayer __get__connectedPlayer() const;
+constexpr GlobalNamespace::IConnectedPlayer __get__connectedPlayer() const;
 
- ::GlobalNamespace::____GlobalNamespace__SaberManager__InitData __declspec(property(get=__get__saberManagerInitData, put=__set__saberManagerInitData))  _saberManagerInitData;
+ GlobalNamespace::GlobalNamespace__SaberManager__InitData __declspec(property(get=__get__saberManagerInitData, put=__set__saberManagerInitData))  _saberManagerInitData;
 
-constexpr void __set__saberManagerInitData(::GlobalNamespace::____GlobalNamespace__SaberManager__InitData value) ;
+constexpr void __set__saberManagerInitData(GlobalNamespace::GlobalNamespace__SaberManager__InitData value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__SaberManager__InitData __get__saberManagerInitData() const;
+constexpr GlobalNamespace::GlobalNamespace__SaberManager__InitData __get__saberManagerInitData() const;
 
- ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel __declspec(property(get=__get__playerSpecificSettings, put=__set__playerSpecificSettings))  _playerSpecificSettings;
+ GlobalNamespace::PlayersSpecificSettingsAtGameStartModel __declspec(property(get=__get__playerSpecificSettings, put=__set__playerSpecificSettings))  _playerSpecificSettings;
 
-constexpr void __set__playerSpecificSettings(::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel value) ;
+constexpr void __set__playerSpecificSettings(GlobalNamespace::PlayersSpecificSettingsAtGameStartModel value) ;
 
-constexpr ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel __get__playerSpecificSettings() const;
+constexpr GlobalNamespace::PlayersSpecificSettingsAtGameStartModel __get__playerSpecificSettings() const;
 
 
 // Methods
@@ -91,6 +90,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerBigAvatarInstaller);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerBigAvatarInstaller, "", "MultiplayerBigAvatarInstaller");
+NEED_NO_BOX(GlobalNamespace::MultiplayerBigAvatarInstaller);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerBigAvatarInstaller, "", "MultiplayerBigAvatarInstaller");

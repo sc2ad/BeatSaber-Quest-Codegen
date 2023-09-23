@@ -1,16 +1,15 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace GlobalNamespace {
-class EnvironmentTypeSO;
+class EnvironmentInfoSO;
 }
 namespace GlobalNamespace {
-class EnvironmentInfoSO;
+class EnvironmentTypeSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -64,20 +63,20 @@ constexpr void __set_overrideEnvironments(bool value) ;
 
 constexpr bool __get_overrideEnvironments() const;
 
- ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentTypeSO,::GlobalNamespace::EnvironmentInfoSO> __declspec(property(get=__get__data, put=__set__data))  _data;
+ System::Collections::Generic::Dictionary_2<GlobalNamespace::EnvironmentTypeSO,GlobalNamespace::EnvironmentInfoSO> __declspec(property(get=__get__data, put=__set__data))  _data;
 
-constexpr void __set__data(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentTypeSO,::GlobalNamespace::EnvironmentInfoSO> value) ;
+constexpr void __set__data(System::Collections::Generic::Dictionary_2<GlobalNamespace::EnvironmentTypeSO,GlobalNamespace::EnvironmentInfoSO> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentTypeSO,::GlobalNamespace::EnvironmentInfoSO> __get__data() const;
+constexpr System::Collections::Generic::Dictionary_2<GlobalNamespace::EnvironmentTypeSO,GlobalNamespace::EnvironmentInfoSO> __get__data() const;
 
 
 // Methods
 
 /// @brief Method SetEnvironmentInfoForType addr 0x22201ec size 0x68 virtual false final false
- void SetEnvironmentInfoForType(::GlobalNamespace::EnvironmentTypeSO environmentType, ::GlobalNamespace::EnvironmentInfoSO environmentInfo) ;
+ void SetEnvironmentInfoForType(GlobalNamespace::EnvironmentTypeSO environmentType, GlobalNamespace::EnvironmentInfoSO environmentInfo) ;
 
 /// @brief Method GetOverrideEnvironmentInfoForType addr 0x2220254 size 0x78 virtual false final false
- ::GlobalNamespace::EnvironmentInfoSO GetOverrideEnvironmentInfoForType(::GlobalNamespace::EnvironmentTypeSO environmentType) ;
+ GlobalNamespace::EnvironmentInfoSO GetOverrideEnvironmentInfoForType(GlobalNamespace::EnvironmentTypeSO environmentType) ;
 
 // Ctor Parameters []
 explicit OverrideEnvironmentSettings() ;
@@ -89,6 +88,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OverrideEnvironmentSettings);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OverrideEnvironmentSettings, "", "OverrideEnvironmentSettings");
+NEED_NO_BOX(GlobalNamespace::OverrideEnvironmentSettings);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OverrideEnvironmentSettings, "", "OverrideEnvironmentSettings");

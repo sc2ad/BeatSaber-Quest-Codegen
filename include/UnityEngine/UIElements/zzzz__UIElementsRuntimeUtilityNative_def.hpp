@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System {
 class Action;
 }
@@ -51,17 +50,17 @@ constexpr explicit UIElementsRuntimeUtilityNative(void* ptr) noexcept : ::bs_hoo
 
 // Fields
 
-static ::System::Action __declspec(property(get=__get_RepaintOverlayPanelsCallback, put=__set_RepaintOverlayPanelsCallback))  RepaintOverlayPanelsCallback;
+static System::Action __declspec(property(get=__get_RepaintOverlayPanelsCallback, put=__set_RepaintOverlayPanelsCallback))  RepaintOverlayPanelsCallback;
 
-static void __set_RepaintOverlayPanelsCallback(::System::Action value) ;
+static void __set_RepaintOverlayPanelsCallback(System::Action value) ;
 
-static ::System::Action __get_RepaintOverlayPanelsCallback() ;
+static System::Action __get_RepaintOverlayPanelsCallback() ;
 
-static ::System::Action __declspec(property(get=__get_UpdateRuntimePanelsCallback, put=__set_UpdateRuntimePanelsCallback))  UpdateRuntimePanelsCallback;
+static System::Action __declspec(property(get=__get_UpdateRuntimePanelsCallback, put=__set_UpdateRuntimePanelsCallback))  UpdateRuntimePanelsCallback;
 
-static void __set_UpdateRuntimePanelsCallback(::System::Action value) ;
+static void __set_UpdateRuntimePanelsCallback(System::Action value) ;
 
-static ::System::Action __get_UpdateRuntimePanelsCallback() ;
+static System::Action __get_UpdateRuntimePanelsCallback() ;
 
 
 // Methods
@@ -85,6 +84,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::UIElementsRuntimeUtilityNative);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIElementsRuntimeUtilityNative, "UnityEngine.UIElements", "UIElementsRuntimeUtilityNative");
+NEED_NO_BOX(UnityEngine::UIElements::UIElementsRuntimeUtilityNative);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIElementsRuntimeUtilityNative, "UnityEngine.UIElements", "UIElementsRuntimeUtilityNative");

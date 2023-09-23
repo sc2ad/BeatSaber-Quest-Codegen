@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace GlobalNamespace {
-class SongPackMaskModelSO;
-}
 namespace GlobalNamespace {
 struct SongPackMask;
+}
+namespace GlobalNamespace {
+class SongPackMaskModelSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -56,40 +55,39 @@ constexpr explicit SongPackMasksModel(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Fields
 
- ::GlobalNamespace::SongPackMaskModelSO __declspec(property(get=__get__songPackMaskModel, put=__set__songPackMaskModel))  _songPackMaskModel;
+ GlobalNamespace::SongPackMaskModelSO __declspec(property(get=__get__songPackMaskModel, put=__set__songPackMaskModel))  _songPackMaskModel;
 
-constexpr void __set__songPackMaskModel(::GlobalNamespace::SongPackMaskModelSO value) ;
+constexpr void __set__songPackMaskModel(GlobalNamespace::SongPackMaskModelSO value) ;
 
-constexpr ::GlobalNamespace::SongPackMaskModelSO __get__songPackMaskModel() const;
+constexpr GlobalNamespace::SongPackMaskModelSO __get__songPackMaskModel() const;
 
- ::GlobalNamespace::SongPackMask __declspec(property(get=__get__allSongPackMask, put=__set__allSongPackMask))  _allSongPackMask;
+ GlobalNamespace::SongPackMask __declspec(property(get=__get__allSongPackMask, put=__set__allSongPackMask))  _allSongPackMask;
 
-constexpr void __set__allSongPackMask(::GlobalNamespace::SongPackMask value) ;
+constexpr void __set__allSongPackMask(GlobalNamespace::SongPackMask value) ;
 
-constexpr ::GlobalNamespace::SongPackMask __get__allSongPackMask() const;
+constexpr GlobalNamespace::SongPackMask __get__allSongPackMask() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "songPackMasks", ty: "::GlobalNamespace::SongPackMaskModelSO", modifiers: "", def_value: None }]
-explicit SongPackMasksModel(::GlobalNamespace::SongPackMaskModelSO songPackMasks) ;
+// Ctor Parameters [CppParam { name: "songPackMasks", ty: "GlobalNamespace::SongPackMaskModelSO", modifiers: "", def_value: None }]
+explicit SongPackMasksModel(GlobalNamespace::SongPackMaskModelSO songPackMasks) ;
 
 /// @brief Method .ctor addr 0x22017f8 size 0x78 virtual false final false
- void _ctor(::GlobalNamespace::SongPackMaskModelSO songPackMasks) ;
+ void _ctor(GlobalNamespace::SongPackMaskModelSO songPackMasks) ;
 
 /// @brief Method GetAllSongsMask addr 0x2201870 size 0xc virtual false final false
- ::GlobalNamespace::SongPackMask GetAllSongsMask() ;
+ GlobalNamespace::SongPackMask GetAllSongsMask() ;
 
 /// @brief Method GetSongPackMaskText addr 0x220187c size 0x18 virtual false final false
- ::StringW GetSongPackMaskText(ByRef<::GlobalNamespace::SongPackMask> songPackMask) ;
+ ::StringW GetSongPackMaskText(ByRef<GlobalNamespace::SongPackMask> songPackMask) ;
 
 /// @brief Method GetSongPackMaskText addr 0x2201894 size 0x98 virtual false final false
- ::StringW GetSongPackMaskText(ByRef<::GlobalNamespace::SongPackMask> songPackMask, ByRef<bool> plural) ;
+ ::StringW GetSongPackMaskText(ByRef<GlobalNamespace::SongPackMask> songPackMask, ByRef<bool> plural) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SongPackMasksModel);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SongPackMasksModel, "", "SongPackMasksModel");
+NEED_NO_BOX(GlobalNamespace::SongPackMasksModel);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPackMasksModel, "", "SongPackMasksModel");

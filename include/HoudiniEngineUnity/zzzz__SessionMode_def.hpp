@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct SessionMode;
@@ -67,14 +66,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Socket offset 0
-static ::HoudiniEngineUnity::SessionMode const Socket;
+static HoudiniEngineUnity::SessionMode const Socket;
 
 /// @brief Field Pipe offset 0
-static ::HoudiniEngineUnity::SessionMode const Pipe;
+static HoudiniEngineUnity::SessionMode const Pipe;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::SessionMode, "HoudiniEngineUnity", "SessionMode");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::SessionMode, "HoudiniEngineUnity", "SessionMode");

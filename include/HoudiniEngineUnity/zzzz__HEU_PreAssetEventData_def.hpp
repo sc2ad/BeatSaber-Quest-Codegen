@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace HoudiniEngineUnity {
 class HEU_HoudiniAsset;
 }
@@ -54,31 +53,30 @@ constexpr explicit HEU_PreAssetEventData(void* ptr) noexcept : ::bs_hook::Il2Cpp
 
 // Fields
 
- ::HoudiniEngineUnity::HEU_HoudiniAsset __declspec(property(get=__get_Asset, put=__set_Asset))  Asset;
+ HoudiniEngineUnity::HEU_HoudiniAsset __declspec(property(get=__get_Asset, put=__set_Asset))  Asset;
 
-constexpr void __set_Asset(::HoudiniEngineUnity::HEU_HoudiniAsset value) ;
+constexpr void __set_Asset(HoudiniEngineUnity::HEU_HoudiniAsset value) ;
 
-constexpr ::HoudiniEngineUnity::HEU_HoudiniAsset __get_Asset() const;
+constexpr HoudiniEngineUnity::HEU_HoudiniAsset __get_Asset() const;
 
- ::HoudiniEngineUnity::HEU_AssetEventType __declspec(property(get=__get_AssetType, put=__set_AssetType))  AssetType;
+ HoudiniEngineUnity::HEU_AssetEventType __declspec(property(get=__get_AssetType, put=__set_AssetType))  AssetType;
 
-constexpr void __set_AssetType(::HoudiniEngineUnity::HEU_AssetEventType value) ;
+constexpr void __set_AssetType(HoudiniEngineUnity::HEU_AssetEventType value) ;
 
-constexpr ::HoudiniEngineUnity::HEU_AssetEventType __get_AssetType() const;
+constexpr HoudiniEngineUnity::HEU_AssetEventType __get_AssetType() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "asset", ty: "::HoudiniEngineUnity::HEU_HoudiniAsset", modifiers: "", def_value: None }, CppParam { name: "assetType", ty: "::HoudiniEngineUnity::HEU_AssetEventType", modifiers: "", def_value: None }]
-explicit HEU_PreAssetEventData(::HoudiniEngineUnity::HEU_HoudiniAsset asset, ::HoudiniEngineUnity::HEU_AssetEventType assetType) ;
+// Ctor Parameters [CppParam { name: "asset", ty: "HoudiniEngineUnity::HEU_HoudiniAsset", modifiers: "", def_value: None }, CppParam { name: "assetType", ty: "HoudiniEngineUnity::HEU_AssetEventType", modifiers: "", def_value: None }]
+explicit HEU_PreAssetEventData(HoudiniEngineUnity::HEU_HoudiniAsset asset, HoudiniEngineUnity::HEU_AssetEventType assetType) ;
 
 /// @brief Method .ctor addr 0x1fdab04 size 0x30 virtual false final false
- void _ctor(::HoudiniEngineUnity::HEU_HoudiniAsset asset, ::HoudiniEngineUnity::HEU_AssetEventType assetType) ;
+ void _ctor(HoudiniEngineUnity::HEU_HoudiniAsset asset, HoudiniEngineUnity::HEU_AssetEventType assetType) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_PreAssetEventData);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_PreAssetEventData, "HoudiniEngineUnity", "HEU_PreAssetEventData");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_PreAssetEventData);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_PreAssetEventData, "HoudiniEngineUnity", "HEU_PreAssetEventData");

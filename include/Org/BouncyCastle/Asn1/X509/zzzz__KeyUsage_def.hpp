@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerBitString;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -21,7 +20,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(34))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(369))
 // CS Name: Org.BouncyCastle.Asn1.X509.KeyUsage
-class CORDL_TYPE KeyUsage : public ::Org::BouncyCastle::Asn1::DerBitString {
+class CORDL_TYPE KeyUsage : public Org::BouncyCastle::Asn1::DerBitString {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr KeyUsage(KeyUsage const& ) noexcept = default;
 constexpr KeyUsage(KeyUsage&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit KeyUsage(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::DerBitString(ptr) {
+constexpr explicit KeyUsage(void* ptr) noexcept : Org::BouncyCastle::Asn1::DerBitString(ptr) {
 }
 
 
@@ -88,10 +87,10 @@ static constexpr int32_t  DecipherOnly{32768};
 // Methods
 
 /// @brief Method GetInstance addr 0x1108110 size 0x114 virtual false final false
-static ::Org::BouncyCastle::Asn1::X509::KeyUsage GetInstance(::bs_hook::Il2CppWrapperType obj) ;
+static Org::BouncyCastle::Asn1::X509::KeyUsage GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method FromExtensions addr 0x11082b8 size 0x74 virtual false final false
-static ::Org::BouncyCastle::Asn1::X509::KeyUsage FromExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions extensions) ;
+static Org::BouncyCastle::Asn1::X509::KeyUsage FromExtensions(Org::BouncyCastle::Asn1::X509::X509Extensions extensions) ;
 
 // Ctor Parameters [CppParam { name: "usage", ty: "int32_t", modifiers: "", def_value: None }]
 explicit KeyUsage(int32_t usage) ;
@@ -99,11 +98,11 @@ explicit KeyUsage(int32_t usage) ;
 /// @brief Method .ctor addr 0x110832c size 0x68 virtual false final false
  void _ctor(int32_t usage) ;
 
-// Ctor Parameters [CppParam { name: "usage", ty: "::Org::BouncyCastle::Asn1::DerBitString", modifiers: "", def_value: None }]
-explicit KeyUsage(::Org::BouncyCastle::Asn1::DerBitString usage) ;
+// Ctor Parameters [CppParam { name: "usage", ty: "Org::BouncyCastle::Asn1::DerBitString", modifiers: "", def_value: None }]
+explicit KeyUsage(Org::BouncyCastle::Asn1::DerBitString usage) ;
 
 /// @brief Method .ctor addr 0x1108224 size 0x94 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::DerBitString usage) ;
+ void _ctor(Org::BouncyCastle::Asn1::DerBitString usage) ;
 
 /// @brief Method ToString addr 0x1108394 size 0xc0 virtual true final false
  ::StringW ToString() ;
@@ -112,6 +111,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::X509
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::KeyUsage);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X509::KeyUsage, "Org.BouncyCastle.Asn1.X509", "KeyUsage");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::KeyUsage);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::KeyUsage, "Org.BouncyCastle.Asn1.X509", "KeyUsage");

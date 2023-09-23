@@ -3,7 +3,6 @@
 #include "HMUI/zzzz__SelectableCell_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace HMUI {
 class ITableCellOwner;
 }
@@ -17,7 +16,7 @@ namespace HMUI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13704))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13715))
 // CS Name: HMUI.TableCell
-class CORDL_TYPE TableCell : public ::HMUI::SelectableCell {
+class CORDL_TYPE TableCell : public HMUI::SelectableCell {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr TableCell(TableCell const& ) noexcept = default;
 constexpr TableCell(TableCell&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TableCell(void* ptr) noexcept : ::HMUI::SelectableCell(ptr) {
+constexpr explicit TableCell(void* ptr) noexcept : HMUI::SelectableCell(ptr) {
 }
 
 
@@ -65,11 +64,11 @@ constexpr void __set__reuseIdentifier(::StringW value) ;
 
 constexpr ::StringW __get__reuseIdentifier() const;
 
- ::HMUI::ITableCellOwner __declspec(property(get=__get__tableCellOwner, put=__set__tableCellOwner))  _tableCellOwner;
+ HMUI::ITableCellOwner __declspec(property(get=__get__tableCellOwner, put=__set__tableCellOwner))  _tableCellOwner;
 
-constexpr void __set__tableCellOwner(::HMUI::ITableCellOwner value) ;
+constexpr void __set__tableCellOwner(HMUI::ITableCellOwner value) ;
 
-constexpr ::HMUI::ITableCellOwner __get__tableCellOwner() const;
+constexpr HMUI::ITableCellOwner __get__tableCellOwner() const;
 
 
 // Properties
@@ -78,7 +77,7 @@ constexpr ::HMUI::ITableCellOwner __get__tableCellOwner() const;
 
  int32_t __declspec(property(get=get_idx, put=set_idx))  idx;
 
- ::HMUI::ITableCellOwner __declspec(property(get=get_tableCellOwner))  tableCellOwner;
+ HMUI::ITableCellOwner __declspec(property(get=get_tableCellOwner))  tableCellOwner;
 
 
 // Methods
@@ -96,10 +95,10 @@ constexpr ::HMUI::ITableCellOwner __get__tableCellOwner() const;
  void set_idx(int32_t value) ;
 
 /// @brief Method get_tableCellOwner addr 0x1fd4f7c size 0x8 virtual false final false
- ::HMUI::ITableCellOwner get_tableCellOwner() ;
+ HMUI::ITableCellOwner get_tableCellOwner() ;
 
 /// @brief Method TableViewSetup addr 0x1fd4f84 size 0xc virtual true final false
- void TableViewSetup(::HMUI::ITableCellOwner tableCellOwner, int32_t idx) ;
+ void TableViewSetup(HMUI::ITableCellOwner tableCellOwner, int32_t idx) ;
 
 /// @brief Method MoveIdx addr 0x1fd4f90 size 0x10 virtual false final false
  void MoveIdx(int32_t offset) ;
@@ -123,6 +122,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HMUI
-} // end anonymous namespace
-NEED_NO_BOX(::HMUI::TableCell);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::TableCell, "HMUI", "TableCell");
+NEED_NO_BOX(HMUI::TableCell);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::TableCell, "HMUI", "TableCell");

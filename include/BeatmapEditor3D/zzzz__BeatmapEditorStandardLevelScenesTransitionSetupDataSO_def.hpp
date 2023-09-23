@@ -1,12 +1,27 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__LevelScenesTransitionSetupDataSO_def.hpp"
-namespace {
+namespace GlobalNamespace {
+class PracticeSettings;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettings;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
 namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+class SceneInfo;
+}
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
 }
 namespace GlobalNamespace {
 class ColorScheme;
@@ -15,23 +30,7 @@ namespace GlobalNamespace {
 class MainSettingsModelSO;
 }
 namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class SceneInfo;
-}
-namespace GlobalNamespace {
-class PracticeSettings;
-}
-namespace GlobalNamespace {
 class LevelCompletionResults;
-}
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
@@ -46,7 +45,7 @@ namespace BeatmapEditor3D {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6123))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6143))
 // CS Name: BeatmapEditor3D.BeatmapEditorStandardLevelScenesTransitionSetupDataSO
-class CORDL_TYPE BeatmapEditorStandardLevelScenesTransitionSetupDataSO : public ::GlobalNamespace::LevelScenesTransitionSetupDataSO {
+class CORDL_TYPE BeatmapEditorStandardLevelScenesTransitionSetupDataSO : public GlobalNamespace::LevelScenesTransitionSetupDataSO {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -61,7 +60,7 @@ constexpr BeatmapEditorStandardLevelScenesTransitionSetupDataSO(BeatmapEditorSta
 constexpr BeatmapEditorStandardLevelScenesTransitionSetupDataSO(BeatmapEditorStandardLevelScenesTransitionSetupDataSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BeatmapEditorStandardLevelScenesTransitionSetupDataSO(void* ptr) noexcept : ::GlobalNamespace::LevelScenesTransitionSetupDataSO(ptr) {
+constexpr explicit BeatmapEditorStandardLevelScenesTransitionSetupDataSO(void* ptr) noexcept : GlobalNamespace::LevelScenesTransitionSetupDataSO(ptr) {
 }
 
 
@@ -82,50 +81,50 @@ constexpr explicit BeatmapEditorStandardLevelScenesTransitionSetupDataSO(void* p
 
 // Fields
 
- ::GlobalNamespace::SceneInfo __declspec(property(get=__get__standardGameplaySceneInfo, put=__set__standardGameplaySceneInfo))  _standardGameplaySceneInfo;
+ GlobalNamespace::SceneInfo __declspec(property(get=__get__standardGameplaySceneInfo, put=__set__standardGameplaySceneInfo))  _standardGameplaySceneInfo;
 
-constexpr void __set__standardGameplaySceneInfo(::GlobalNamespace::SceneInfo value) ;
+constexpr void __set__standardGameplaySceneInfo(GlobalNamespace::SceneInfo value) ;
 
-constexpr ::GlobalNamespace::SceneInfo __get__standardGameplaySceneInfo() const;
+constexpr GlobalNamespace::SceneInfo __get__standardGameplaySceneInfo() const;
 
- ::GlobalNamespace::SceneInfo __declspec(property(get=__get__beatmapEditorGameplaySceneInfo, put=__set__beatmapEditorGameplaySceneInfo))  _beatmapEditorGameplaySceneInfo;
+ GlobalNamespace::SceneInfo __declspec(property(get=__get__beatmapEditorGameplaySceneInfo, put=__set__beatmapEditorGameplaySceneInfo))  _beatmapEditorGameplaySceneInfo;
 
-constexpr void __set__beatmapEditorGameplaySceneInfo(::GlobalNamespace::SceneInfo value) ;
+constexpr void __set__beatmapEditorGameplaySceneInfo(GlobalNamespace::SceneInfo value) ;
 
-constexpr ::GlobalNamespace::SceneInfo __get__beatmapEditorGameplaySceneInfo() const;
+constexpr GlobalNamespace::SceneInfo __get__beatmapEditorGameplaySceneInfo() const;
 
- ::GlobalNamespace::SceneInfo __declspec(property(get=__get__gameCoreSceneInfo, put=__set__gameCoreSceneInfo))  _gameCoreSceneInfo;
+ GlobalNamespace::SceneInfo __declspec(property(get=__get__gameCoreSceneInfo, put=__set__gameCoreSceneInfo))  _gameCoreSceneInfo;
 
-constexpr void __set__gameCoreSceneInfo(::GlobalNamespace::SceneInfo value) ;
+constexpr void __set__gameCoreSceneInfo(GlobalNamespace::SceneInfo value) ;
 
-constexpr ::GlobalNamespace::SceneInfo __get__gameCoreSceneInfo() const;
+constexpr GlobalNamespace::SceneInfo __get__gameCoreSceneInfo() const;
 
- ::GlobalNamespace::MainSettingsModelSO __declspec(property(get=__get__mainSettingsModel, put=__set__mainSettingsModel))  _mainSettingsModel;
+ GlobalNamespace::MainSettingsModelSO __declspec(property(get=__get__mainSettingsModel, put=__set__mainSettingsModel))  _mainSettingsModel;
 
-constexpr void __set__mainSettingsModel(::GlobalNamespace::MainSettingsModelSO value) ;
+constexpr void __set__mainSettingsModel(GlobalNamespace::MainSettingsModelSO value) ;
 
-constexpr ::GlobalNamespace::MainSettingsModelSO __get__mainSettingsModel() const;
+constexpr GlobalNamespace::MainSettingsModelSO __get__mainSettingsModel() const;
 
- ::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO,::GlobalNamespace::LevelCompletionResults> __declspec(property(get=__get_didFinishEvent, put=__set_didFinishEvent))  didFinishEvent;
+ System::Action_2<BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO,GlobalNamespace::LevelCompletionResults> __declspec(property(get=__get_didFinishEvent, put=__set_didFinishEvent))  didFinishEvent;
 
-constexpr void __set_didFinishEvent(::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO,::GlobalNamespace::LevelCompletionResults> value) ;
+constexpr void __set_didFinishEvent(System::Action_2<BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO,GlobalNamespace::LevelCompletionResults> value) ;
 
-constexpr ::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO,::GlobalNamespace::LevelCompletionResults> __get_didFinishEvent() const;
+constexpr System::Action_2<BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO,GlobalNamespace::LevelCompletionResults> __get_didFinishEvent() const;
 
 
 // Methods
 
 /// @brief Method add_didFinishEvent addr 0x21d450c size 0xb0 virtual false final false
- void add_didFinishEvent(::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO,::GlobalNamespace::LevelCompletionResults> value) ;
+ void add_didFinishEvent(System::Action_2<BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO,GlobalNamespace::LevelCompletionResults> value) ;
 
 /// @brief Method remove_didFinishEvent addr 0x21d3780 size 0xb0 virtual false final false
- void remove_didFinishEvent(::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO,::GlobalNamespace::LevelCompletionResults> value) ;
+ void remove_didFinishEvent(System::Action_2<BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO,GlobalNamespace::LevelCompletionResults> value) ;
 
 /// @brief Method Init addr 0x21d45bc size 0x5a4 virtual false final false
- void Init(::GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, ::GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, ::GlobalNamespace::GameplayModifiers gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings playerSpecificSettings, ::GlobalNamespace::PracticeSettings practiceSettings, ::GlobalNamespace::ColorScheme colorScheme, bool useFirstPersonFlyingController, ::System::Action beforeSceneSwitchCallback, ::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO,::GlobalNamespace::LevelCompletionResults> levelFinishedCallback) ;
+ void Init(GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::GameplayModifiers gameplayModifiers, GlobalNamespace::PlayerSpecificSettings playerSpecificSettings, GlobalNamespace::PracticeSettings practiceSettings, GlobalNamespace::ColorScheme colorScheme, bool useFirstPersonFlyingController, System::Action beforeSceneSwitchCallback, System::Action_2<BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO,GlobalNamespace::LevelCompletionResults> levelFinishedCallback) ;
 
 /// @brief Method Finish addr 0x21d4b60 size 0x28 virtual false final false
- void Finish(::GlobalNamespace::LevelCompletionResults levelCompletionResults) ;
+ void Finish(GlobalNamespace::LevelCompletionResults levelCompletionResults) ;
 
 // Ctor Parameters []
 explicit BeatmapEditorStandardLevelScenesTransitionSetupDataSO() ;
@@ -137,6 +136,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def BeatmapEditor3D
-} // end anonymous namespace
-NEED_NO_BOX(::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO);
-DEFINE_IL2CPP_ARG_TYPE(::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO, "BeatmapEditor3D", "BeatmapEditorStandardLevelScenesTransitionSetupDataSO");
+NEED_NO_BOX(BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO);
+DEFINE_IL2CPP_ARG_TYPE(BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO, "BeatmapEditor3D", "BeatmapEditorStandardLevelScenesTransitionSetupDataSO");

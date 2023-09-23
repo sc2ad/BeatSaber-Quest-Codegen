@@ -2,12 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine::UIElements {
-class StyleComplexSelector;
-}
 namespace UnityEngine::UIElements {
 class StyleSheet;
+}
+namespace UnityEngine::UIElements {
+class StyleComplexSelector;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {
@@ -22,8 +21,8 @@ namespace UnityEngine::UIElements::StyleSheets {
 struct CORDL_TYPE SelectorMatchRecord : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "sheet", ty: "::UnityEngine::UIElements::StyleSheet", modifiers: "", def_value: None }, CppParam { name: "styleSheetIndexInStack", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "complexSelector", ty: "::UnityEngine::UIElements::StyleComplexSelector", modifiers: "", def_value: None }]
-constexpr SelectorMatchRecord(::UnityEngine::UIElements::StyleSheet sheet, int32_t styleSheetIndexInStack, ::UnityEngine::UIElements::StyleComplexSelector complexSelector) noexcept;
+// Ctor Parameters [CppParam { name: "sheet", ty: "UnityEngine::UIElements::StyleSheet", modifiers: "", def_value: None }, CppParam { name: "styleSheetIndexInStack", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "complexSelector", ty: "UnityEngine::UIElements::StyleComplexSelector", modifiers: "", def_value: None }]
+constexpr SelectorMatchRecord(UnityEngine::UIElements::StyleSheet sheet, int32_t styleSheetIndexInStack, UnityEngine::UIElements::StyleComplexSelector complexSelector) noexcept;
 
 
                     constexpr SelectorMatchRecord(SelectorMatchRecord const&) = default;
@@ -56,11 +55,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::UIElements::StyleSheet __declspec(property(get=__get_sheet, put=__set_sheet))  sheet;
+ UnityEngine::UIElements::StyleSheet __declspec(property(get=__get_sheet, put=__set_sheet))  sheet;
 
-constexpr void __set_sheet(::UnityEngine::UIElements::StyleSheet value) ;
+constexpr void __set_sheet(UnityEngine::UIElements::StyleSheet value) ;
 
-constexpr ::UnityEngine::UIElements::StyleSheet __get_sheet() const;
+constexpr UnityEngine::UIElements::StyleSheet __get_sheet() const;
 
  int32_t __declspec(property(get=__get_styleSheetIndexInStack, put=__set_styleSheetIndexInStack))  styleSheetIndexInStack;
 
@@ -68,24 +67,23 @@ constexpr void __set_styleSheetIndexInStack(int32_t value) ;
 
 constexpr int32_t __get_styleSheetIndexInStack() const;
 
- ::UnityEngine::UIElements::StyleComplexSelector __declspec(property(get=__get_complexSelector, put=__set_complexSelector))  complexSelector;
+ UnityEngine::UIElements::StyleComplexSelector __declspec(property(get=__get_complexSelector, put=__set_complexSelector))  complexSelector;
 
-constexpr void __set_complexSelector(::UnityEngine::UIElements::StyleComplexSelector value) ;
+constexpr void __set_complexSelector(UnityEngine::UIElements::StyleComplexSelector value) ;
 
-constexpr ::UnityEngine::UIElements::StyleComplexSelector __get_complexSelector() const;
+constexpr UnityEngine::UIElements::StyleComplexSelector __get_complexSelector() const;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x2c70d2c size 0x14 virtual false final false
- void _ctor(::UnityEngine::UIElements::StyleSheet sheet, int32_t styleSheetIndexInStack) ;
+ void _ctor(UnityEngine::UIElements::StyleSheet sheet, int32_t styleSheetIndexInStack) ;
 
 /// @brief Method Compare addr 0x2c70d40 size 0xe8 virtual false final false
-static int32_t Compare(::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord a, ::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord b) ;
+static int32_t Compare(UnityEngine::UIElements::StyleSheets::SelectorMatchRecord a, UnityEngine::UIElements::StyleSheets::SelectorMatchRecord b) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::StyleSheets
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord, "UnityEngine.UIElements.StyleSheets", "SelectorMatchRecord");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::StyleSheets::SelectorMatchRecord, "UnityEngine.UIElements.StyleSheets", "SelectorMatchRecord");

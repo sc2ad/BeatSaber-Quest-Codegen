@@ -4,30 +4,29 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-class Version;
-}
-namespace System::Net {
-class CookieCollection;
-}
-namespace System::Net {
-class IPEndPoint;
-}
 namespace System::Net {
 class HttpListenerContext;
 }
-namespace System::Net {
-class WebHeaderCollection;
-}
-namespace System {
-class Uri;
+namespace System::IO {
+class Stream;
 }
 namespace System::Collections::Specialized {
 class NameValueCollection;
 }
-namespace System::IO {
-class Stream;
+namespace System::Net {
+class WebHeaderCollection;
+}
+namespace System::Net {
+class CookieCollection;
+}
+namespace System {
+class Uri;
+}
+namespace System::Net {
+class IPEndPoint;
+}
+namespace System {
+class Version;
 }
 // Forward declare root types
 namespace System::Net {
@@ -93,17 +92,17 @@ constexpr void __set_cl_set(bool value) ;
 
 constexpr bool __get_cl_set() const;
 
- ::System::Net::CookieCollection __declspec(property(get=__get_cookies, put=__set_cookies))  cookies;
+ System::Net::CookieCollection __declspec(property(get=__get_cookies, put=__set_cookies))  cookies;
 
-constexpr void __set_cookies(::System::Net::CookieCollection value) ;
+constexpr void __set_cookies(System::Net::CookieCollection value) ;
 
-constexpr ::System::Net::CookieCollection __get_cookies() const;
+constexpr System::Net::CookieCollection __get_cookies() const;
 
- ::System::Net::WebHeaderCollection __declspec(property(get=__get_headers, put=__set_headers))  headers;
+ System::Net::WebHeaderCollection __declspec(property(get=__get_headers, put=__set_headers))  headers;
 
-constexpr void __set_headers(::System::Net::WebHeaderCollection value) ;
+constexpr void __set_headers(System::Net::WebHeaderCollection value) ;
 
-constexpr ::System::Net::WebHeaderCollection __get_headers() const;
+constexpr System::Net::WebHeaderCollection __get_headers() const;
 
  ::StringW __declspec(property(get=__get_method, put=__set_method))  method;
 
@@ -111,23 +110,23 @@ constexpr void __set_method(::StringW value) ;
 
 constexpr ::StringW __get_method() const;
 
- ::System::IO::Stream __declspec(property(get=__get_input_stream, put=__set_input_stream))  input_stream;
+ System::IO::Stream __declspec(property(get=__get_input_stream, put=__set_input_stream))  input_stream;
 
-constexpr void __set_input_stream(::System::IO::Stream value) ;
+constexpr void __set_input_stream(System::IO::Stream value) ;
 
-constexpr ::System::IO::Stream __get_input_stream() const;
+constexpr System::IO::Stream __get_input_stream() const;
 
- ::System::Version __declspec(property(get=__get_version, put=__set_version))  version;
+ System::Version __declspec(property(get=__get_version, put=__set_version))  version;
 
-constexpr void __set_version(::System::Version value) ;
+constexpr void __set_version(System::Version value) ;
 
-constexpr ::System::Version __get_version() const;
+constexpr System::Version __get_version() const;
 
- ::System::Collections::Specialized::NameValueCollection __declspec(property(get=__get_query_string, put=__set_query_string))  query_string;
+ System::Collections::Specialized::NameValueCollection __declspec(property(get=__get_query_string, put=__set_query_string))  query_string;
 
-constexpr void __set_query_string(::System::Collections::Specialized::NameValueCollection value) ;
+constexpr void __set_query_string(System::Collections::Specialized::NameValueCollection value) ;
 
-constexpr ::System::Collections::Specialized::NameValueCollection __get_query_string() const;
+constexpr System::Collections::Specialized::NameValueCollection __get_query_string() const;
 
  ::StringW __declspec(property(get=__get_raw_url, put=__set_raw_url))  raw_url;
 
@@ -135,17 +134,17 @@ constexpr void __set_raw_url(::StringW value) ;
 
 constexpr ::StringW __get_raw_url() const;
 
- ::System::Uri __declspec(property(get=__get_url, put=__set_url))  url;
+ System::Uri __declspec(property(get=__get_url, put=__set_url))  url;
 
-constexpr void __set_url(::System::Uri value) ;
+constexpr void __set_url(System::Uri value) ;
 
-constexpr ::System::Uri __get_url() const;
+constexpr System::Uri __get_url() const;
 
- ::System::Uri __declspec(property(get=__get_referrer, put=__set_referrer))  referrer;
+ System::Uri __declspec(property(get=__get_referrer, put=__set_referrer))  referrer;
 
-constexpr void __set_referrer(::System::Uri value) ;
+constexpr void __set_referrer(System::Uri value) ;
 
-constexpr ::System::Uri __get_referrer() const;
+constexpr System::Uri __get_referrer() const;
 
  ::ArrayW<::StringW> __declspec(property(get=__get_user_languages, put=__set_user_languages))  user_languages;
 
@@ -153,11 +152,11 @@ constexpr void __set_user_languages(::ArrayW<::StringW> value) ;
 
 constexpr ::ArrayW<::StringW> __get_user_languages() const;
 
- ::System::Net::HttpListenerContext __declspec(property(get=__get_context, put=__set_context))  context;
+ System::Net::HttpListenerContext __declspec(property(get=__get_context, put=__set_context))  context;
 
-constexpr void __set_context(::System::Net::HttpListenerContext value) ;
+constexpr void __set_context(System::Net::HttpListenerContext value) ;
 
-constexpr ::System::Net::HttpListenerContext __get_context() const;
+constexpr System::Net::HttpListenerContext __get_context() const;
 
  bool __declspec(property(get=__get_is_chunked, put=__set_is_chunked))  is_chunked;
 
@@ -194,19 +193,19 @@ static ::ArrayW<char16_t> __get_separators() ;
 
  bool __declspec(property(get=get_HasEntityBody))  HasEntityBody;
 
- ::System::Collections::Specialized::NameValueCollection __declspec(property(get=get_Headers))  Headers;
+ System::Collections::Specialized::NameValueCollection __declspec(property(get=get_Headers))  Headers;
 
- ::System::IO::Stream __declspec(property(get=get_InputStream))  InputStream;
+ System::IO::Stream __declspec(property(get=get_InputStream))  InputStream;
 
  bool __declspec(property(get=get_IsSecureConnection))  IsSecureConnection;
 
  bool __declspec(property(get=get_KeepAlive))  KeepAlive;
 
- ::System::Net::IPEndPoint __declspec(property(get=get_LocalEndPoint))  LocalEndPoint;
+ System::Net::IPEndPoint __declspec(property(get=get_LocalEndPoint))  LocalEndPoint;
 
- ::System::Version __declspec(property(get=get_ProtocolVersion))  ProtocolVersion;
+ System::Version __declspec(property(get=get_ProtocolVersion))  ProtocolVersion;
 
- ::System::Uri __declspec(property(get=get_Url))  Url;
+ System::Uri __declspec(property(get=get_Url))  Url;
 
  ::StringW __declspec(property(get=get_UserHostAddress))  UserHostAddress;
 
@@ -215,11 +214,11 @@ static ::ArrayW<char16_t> __get_separators() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "context", ty: "::System::Net::HttpListenerContext", modifiers: "", def_value: None }]
-explicit HttpListenerRequest(::System::Net::HttpListenerContext context) ;
+// Ctor Parameters [CppParam { name: "context", ty: "System::Net::HttpListenerContext", modifiers: "", def_value: None }]
+explicit HttpListenerRequest(System::Net::HttpListenerContext context) ;
 
 /// @brief Method .ctor addr 0x2836e78 size 0xb0 virtual false final false
- void _ctor(::System::Net::HttpListenerContext context) ;
+ void _ctor(System::Net::HttpListenerContext context) ;
 
 /// @brief Method SetRequestLine addr 0x2834194 size 0x34c virtual false final false
  void SetRequestLine(::StringW req) ;
@@ -249,10 +248,10 @@ static ::StringW Unquote(::StringW str) ;
  bool get_HasEntityBody() ;
 
 /// @brief Method get_Headers addr 0x2837dbc size 0x8 virtual false final false
- ::System::Collections::Specialized::NameValueCollection get_Headers() ;
+ System::Collections::Specialized::NameValueCollection get_Headers() ;
 
 /// @brief Method get_InputStream addr 0x2837d18 size 0xa4 virtual false final false
- ::System::IO::Stream get_InputStream() ;
+ System::IO::Stream get_InputStream() ;
 
 /// @brief Method get_IsSecureConnection addr 0x2837c44 size 0x24 virtual false final false
  bool get_IsSecureConnection() ;
@@ -261,13 +260,13 @@ static ::StringW Unquote(::StringW str) ;
  bool get_KeepAlive() ;
 
 /// @brief Method get_LocalEndPoint addr 0x2837c68 size 0x20 virtual false final false
- ::System::Net::IPEndPoint get_LocalEndPoint() ;
+ System::Net::IPEndPoint get_LocalEndPoint() ;
 
 /// @brief Method get_ProtocolVersion addr 0x2837dc4 size 0x8 virtual false final false
- ::System::Version get_ProtocolVersion() ;
+ System::Version get_ProtocolVersion() ;
 
 /// @brief Method get_Url addr 0x2837dcc size 0x8 virtual false final false
- ::System::Uri get_Url() ;
+ System::Uri get_Url() ;
 
 /// @brief Method get_UserHostAddress addr 0x2837c24 size 0x20 virtual false final false
  ::StringW get_UserHostAddress() ;
@@ -279,6 +278,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::HttpListenerRequest);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::HttpListenerRequest, "System.Net", "HttpListenerRequest");
+NEED_NO_BOX(System::Net::HttpListenerRequest);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListenerRequest, "System.Net", "HttpListenerRequest");

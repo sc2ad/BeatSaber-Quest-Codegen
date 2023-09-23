@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
 namespace System::Collections {
 class IEnumerator;
 }
@@ -24,7 +23,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10129))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10166))
 // CS Name: UnityEngine.MonoBehaviour
-class CORDL_TYPE MonoBehaviour : public ::UnityEngine::Behaviour {
+class CORDL_TYPE MonoBehaviour : public UnityEngine::Behaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr MonoBehaviour(MonoBehaviour const& ) noexcept = default;
 constexpr MonoBehaviour(MonoBehaviour&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MonoBehaviour(void* ptr) noexcept : ::UnityEngine::Behaviour(ptr) {
+constexpr explicit MonoBehaviour(void* ptr) noexcept : UnityEngine::Behaviour(ptr) {
 }
 
 
@@ -84,22 +83,22 @@ constexpr explicit MonoBehaviour(void* ptr) noexcept : ::UnityEngine::Behaviour(
  bool IsInvoking(::StringW methodName) ;
 
 /// @brief Method StartCoroutine addr 0x2b5b778 size 0x8 virtual false final false
- ::UnityEngine::Coroutine StartCoroutine(::StringW methodName) ;
+ UnityEngine::Coroutine StartCoroutine(::StringW methodName) ;
 
 /// @brief Method StartCoroutine addr 0x2b5b780 size 0x114 virtual false final false
- ::UnityEngine::Coroutine StartCoroutine(::StringW methodName, ::bs_hook::Il2CppWrapperType value) ;
+ UnityEngine::Coroutine StartCoroutine(::StringW methodName, ::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method StartCoroutine addr 0x2b5b924 size 0xf8 virtual false final false
- ::UnityEngine::Coroutine StartCoroutine(::System::Collections::IEnumerator routine) ;
+ UnityEngine::Coroutine StartCoroutine(System::Collections::IEnumerator routine) ;
 
 /// @brief Method StartCoroutine_Auto addr 0x2b5ba60 size 0x4 virtual false final false
- ::UnityEngine::Coroutine StartCoroutine_Auto(::System::Collections::IEnumerator routine) ;
+ UnityEngine::Coroutine StartCoroutine_Auto(System::Collections::IEnumerator routine) ;
 
 /// @brief Method StopCoroutine addr 0x2b5ba64 size 0xf8 virtual false final false
- void StopCoroutine(::System::Collections::IEnumerator routine) ;
+ void StopCoroutine(System::Collections::IEnumerator routine) ;
 
 /// @brief Method StopCoroutine addr 0x2b5bba0 size 0xf8 virtual false final false
- void StopCoroutine(::UnityEngine::Coroutine routine) ;
+ void StopCoroutine(UnityEngine::Coroutine routine) ;
 
 /// @brief Method StopCoroutine addr 0x2b5bcdc size 0x44 virtual false final false
  void StopCoroutine(::StringW methodName) ;
@@ -117,34 +116,34 @@ constexpr explicit MonoBehaviour(void* ptr) noexcept : ::UnityEngine::Behaviour(
 static void print(::bs_hook::Il2CppWrapperType message) ;
 
 /// @brief Method Internal_CancelInvokeAll addr 0x2b5b4bc size 0x3c virtual false final false
-static void Internal_CancelInvokeAll(::UnityEngine::MonoBehaviour self) ;
+static void Internal_CancelInvokeAll(UnityEngine::MonoBehaviour self) ;
 
 /// @brief Method Internal_IsInvokingAll addr 0x2b5b444 size 0x3c virtual false final false
-static bool Internal_IsInvokingAll(::UnityEngine::MonoBehaviour self) ;
+static bool Internal_IsInvokingAll(UnityEngine::MonoBehaviour self) ;
 
 /// @brief Method InvokeDelayed addr 0x2b5b550 size 0x5c virtual false final false
-static void InvokeDelayed(::UnityEngine::MonoBehaviour self, ::StringW methodName, float_t time, float_t repeatRate) ;
+static void InvokeDelayed(UnityEngine::MonoBehaviour self, ::StringW methodName, float_t time, float_t repeatRate) ;
 
 /// @brief Method CancelInvoke addr 0x2b5b6ac size 0x44 virtual false final false
-static void CancelInvoke(::UnityEngine::MonoBehaviour self, ::StringW methodName) ;
+static void CancelInvoke(UnityEngine::MonoBehaviour self, ::StringW methodName) ;
 
 /// @brief Method IsInvoking addr 0x2b5b734 size 0x44 virtual false final false
-static bool IsInvoking(::UnityEngine::MonoBehaviour self, ::StringW methodName) ;
+static bool IsInvoking(UnityEngine::MonoBehaviour self, ::StringW methodName) ;
 
 /// @brief Method IsObjectMonoBehaviour addr 0x2b5b894 size 0x3c virtual false final false
-static bool IsObjectMonoBehaviour(::UnityEngine::Object obj) ;
+static bool IsObjectMonoBehaviour(UnityEngine::Object obj) ;
 
 /// @brief Method StartCoroutineManaged addr 0x2b5b8d0 size 0x54 virtual false final false
- ::UnityEngine::Coroutine StartCoroutineManaged(::StringW methodName, ::bs_hook::Il2CppWrapperType value) ;
+ UnityEngine::Coroutine StartCoroutineManaged(::StringW methodName, ::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method StartCoroutineManaged2 addr 0x2b5ba1c size 0x44 virtual false final false
- ::UnityEngine::Coroutine StartCoroutineManaged2(::System::Collections::IEnumerator enumerator) ;
+ UnityEngine::Coroutine StartCoroutineManaged2(System::Collections::IEnumerator enumerator) ;
 
 /// @brief Method StopCoroutineManaged addr 0x2b5bc98 size 0x44 virtual false final false
- void StopCoroutineManaged(::UnityEngine::Coroutine routine) ;
+ void StopCoroutineManaged(UnityEngine::Coroutine routine) ;
 
 /// @brief Method StopCoroutineFromEnumeratorManaged addr 0x2b5bb5c size 0x44 virtual false final false
- void StopCoroutineFromEnumeratorManaged(::System::Collections::IEnumerator routine) ;
+ void StopCoroutineFromEnumeratorManaged(System::Collections::IEnumerator routine) ;
 
 /// @brief Method GetScriptClassName addr 0x2b5be34 size 0x3c virtual false final false
  ::StringW GetScriptClassName() ;
@@ -159,6 +158,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::MonoBehaviour);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::MonoBehaviour, "UnityEngine", "MonoBehaviour");
+NEED_NO_BOX(UnityEngine::MonoBehaviour);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MonoBehaviour, "UnityEngine", "MonoBehaviour");

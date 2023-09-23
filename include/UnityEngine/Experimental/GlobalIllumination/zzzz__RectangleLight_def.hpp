@@ -3,18 +3,17 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine::Experimental::GlobalIllumination {
 struct FalloffType;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace UnityEngine::Experimental::GlobalIllumination {
 struct LightMode;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine::Experimental::GlobalIllumination {
 struct LinearColor;
@@ -32,8 +31,8 @@ namespace UnityEngine::Experimental::GlobalIllumination {
 struct CORDL_TYPE RectangleLight : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "instanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "shadow", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "::UnityEngine::Experimental::GlobalIllumination::LightMode", modifiers: "", def_value: None }, CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "orientation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "color", ty: "::UnityEngine::Experimental::GlobalIllumination::LinearColor", modifiers: "", def_value: None }, CppParam { name: "indirectColor", ty: "::UnityEngine::Experimental::GlobalIllumination::LinearColor", modifiers: "", def_value: None }, CppParam { name: "range", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "width", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "falloff", ty: "::UnityEngine::Experimental::GlobalIllumination::FalloffType", modifiers: "", def_value: None }]
-constexpr RectangleLight(int32_t instanceID, bool shadow, ::UnityEngine::Experimental::GlobalIllumination::LightMode mode, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion orientation, ::UnityEngine::Experimental::GlobalIllumination::LinearColor color, ::UnityEngine::Experimental::GlobalIllumination::LinearColor indirectColor, float_t range, float_t width, float_t height, ::UnityEngine::Experimental::GlobalIllumination::FalloffType falloff) noexcept;
+// Ctor Parameters [CppParam { name: "instanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "shadow", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "UnityEngine::Experimental::GlobalIllumination::LightMode", modifiers: "", def_value: None }, CppParam { name: "position", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "orientation", ty: "UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "color", ty: "UnityEngine::Experimental::GlobalIllumination::LinearColor", modifiers: "", def_value: None }, CppParam { name: "indirectColor", ty: "UnityEngine::Experimental::GlobalIllumination::LinearColor", modifiers: "", def_value: None }, CppParam { name: "range", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "width", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "falloff", ty: "UnityEngine::Experimental::GlobalIllumination::FalloffType", modifiers: "", def_value: None }]
+constexpr RectangleLight(int32_t instanceID, bool shadow, UnityEngine::Experimental::GlobalIllumination::LightMode mode, UnityEngine::Vector3 position, UnityEngine::Quaternion orientation, UnityEngine::Experimental::GlobalIllumination::LinearColor color, UnityEngine::Experimental::GlobalIllumination::LinearColor indirectColor, float_t range, float_t width, float_t height, UnityEngine::Experimental::GlobalIllumination::FalloffType falloff) noexcept;
 
 
                     constexpr RectangleLight(RectangleLight const&) = default;
@@ -78,35 +77,35 @@ constexpr void __set_shadow(bool value) ;
 
 constexpr bool __get_shadow() const;
 
- ::UnityEngine::Experimental::GlobalIllumination::LightMode __declspec(property(get=__get_mode, put=__set_mode))  mode;
+ UnityEngine::Experimental::GlobalIllumination::LightMode __declspec(property(get=__get_mode, put=__set_mode))  mode;
 
-constexpr void __set_mode(::UnityEngine::Experimental::GlobalIllumination::LightMode value) ;
+constexpr void __set_mode(UnityEngine::Experimental::GlobalIllumination::LightMode value) ;
 
-constexpr ::UnityEngine::Experimental::GlobalIllumination::LightMode __get_mode() const;
+constexpr UnityEngine::Experimental::GlobalIllumination::LightMode __get_mode() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_position, put=__set_position))  position;
+ UnityEngine::Vector3 __declspec(property(get=__get_position, put=__set_position))  position;
 
-constexpr void __set_position(::UnityEngine::Vector3 value) ;
+constexpr void __set_position(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_position() const;
+constexpr UnityEngine::Vector3 __get_position() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get_orientation, put=__set_orientation))  orientation;
+ UnityEngine::Quaternion __declspec(property(get=__get_orientation, put=__set_orientation))  orientation;
 
-constexpr void __set_orientation(::UnityEngine::Quaternion value) ;
+constexpr void __set_orientation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get_orientation() const;
+constexpr UnityEngine::Quaternion __get_orientation() const;
 
- ::UnityEngine::Experimental::GlobalIllumination::LinearColor __declspec(property(get=__get_color, put=__set_color))  color;
+ UnityEngine::Experimental::GlobalIllumination::LinearColor __declspec(property(get=__get_color, put=__set_color))  color;
 
-constexpr void __set_color(::UnityEngine::Experimental::GlobalIllumination::LinearColor value) ;
+constexpr void __set_color(UnityEngine::Experimental::GlobalIllumination::LinearColor value) ;
 
-constexpr ::UnityEngine::Experimental::GlobalIllumination::LinearColor __get_color() const;
+constexpr UnityEngine::Experimental::GlobalIllumination::LinearColor __get_color() const;
 
- ::UnityEngine::Experimental::GlobalIllumination::LinearColor __declspec(property(get=__get_indirectColor, put=__set_indirectColor))  indirectColor;
+ UnityEngine::Experimental::GlobalIllumination::LinearColor __declspec(property(get=__get_indirectColor, put=__set_indirectColor))  indirectColor;
 
-constexpr void __set_indirectColor(::UnityEngine::Experimental::GlobalIllumination::LinearColor value) ;
+constexpr void __set_indirectColor(UnityEngine::Experimental::GlobalIllumination::LinearColor value) ;
 
-constexpr ::UnityEngine::Experimental::GlobalIllumination::LinearColor __get_indirectColor() const;
+constexpr UnityEngine::Experimental::GlobalIllumination::LinearColor __get_indirectColor() const;
 
  float_t __declspec(property(get=__get_range, put=__set_range))  range;
 
@@ -126,15 +125,14 @@ constexpr void __set_height(float_t value) ;
 
 constexpr float_t __get_height() const;
 
- ::UnityEngine::Experimental::GlobalIllumination::FalloffType __declspec(property(get=__get_falloff, put=__set_falloff))  falloff;
+ UnityEngine::Experimental::GlobalIllumination::FalloffType __declspec(property(get=__get_falloff, put=__set_falloff))  falloff;
 
-constexpr void __set_falloff(::UnityEngine::Experimental::GlobalIllumination::FalloffType value) ;
+constexpr void __set_falloff(UnityEngine::Experimental::GlobalIllumination::FalloffType value) ;
 
-constexpr ::UnityEngine::Experimental::GlobalIllumination::FalloffType __get_falloff() const;
+constexpr UnityEngine::Experimental::GlobalIllumination::FalloffType __get_falloff() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Experimental::GlobalIllumination
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::GlobalIllumination::RectangleLight, "UnityEngine.Experimental.GlobalIllumination", "RectangleLight");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::RectangleLight, "UnityEngine.Experimental.GlobalIllumination", "RectangleLight");

@@ -1,6 +1,5 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace GlobalNamespace {
 class Deeplink;
 }
@@ -30,24 +29,23 @@ constexpr explicit IDeeplinkManager(void* ptr) noexcept : ::cordl_internals::Int
 
 // Properties
 
- ::GlobalNamespace::Deeplink __declspec(property(get=get_currentDeeplink))  currentDeeplink;
+ GlobalNamespace::Deeplink __declspec(property(get=get_currentDeeplink))  currentDeeplink;
 
 
 // Methods
 
 /// @brief Method add_didReceiveDeeplinkEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void add_didReceiveDeeplinkEvent(::System::Action_1<::GlobalNamespace::Deeplink> value) ;
+ void add_didReceiveDeeplinkEvent(System::Action_1<GlobalNamespace::Deeplink> value) ;
 
 /// @brief Method remove_didReceiveDeeplinkEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void remove_didReceiveDeeplinkEvent(::System::Action_1<::GlobalNamespace::Deeplink> value) ;
+ void remove_didReceiveDeeplinkEvent(System::Action_1<GlobalNamespace::Deeplink> value) ;
 
 /// @brief Method get_currentDeeplink addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::Deeplink get_currentDeeplink() ;
+ GlobalNamespace::Deeplink get_currentDeeplink() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IDeeplinkManager);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IDeeplinkManager, "", "IDeeplinkManager");
+NEED_NO_BOX(GlobalNamespace::IDeeplinkManager);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IDeeplinkManager, "", "IDeeplinkManager");

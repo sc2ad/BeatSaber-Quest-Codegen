@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::Sig {
 class NotationData;
@@ -15,7 +14,7 @@ namespace Org::BouncyCastle::Bcpg::Sig {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(531))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(538))
 // CS Name: Org.BouncyCastle.Bcpg.Sig.NotationData
-class CORDL_TYPE NotationData : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
+class CORDL_TYPE NotationData : public Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr NotationData(NotationData const& ) noexcept = default;
 constexpr NotationData(NotationData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NotationData(void* ptr) noexcept : ::Org::BouncyCastle::Bcpg::SignatureSubpacket(ptr) {
+constexpr explicit NotationData(void* ptr) noexcept : Org::BouncyCastle::Bcpg::SignatureSubpacket(ptr) {
 }
 
 
@@ -99,6 +98,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg::Sig
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::Sig::NotationData);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::Sig::NotationData, "Org.BouncyCastle.Bcpg.Sig", "NotationData");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::Sig::NotationData);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::Sig::NotationData, "Org.BouncyCastle.Bcpg.Sig", "NotationData");

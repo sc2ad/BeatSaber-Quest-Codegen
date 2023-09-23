@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 struct Color;
 }
@@ -64,11 +63,11 @@ constexpr void __set_m_TripleClickSelectsLine(bool value) ;
 
 constexpr bool __get_m_TripleClickSelectsLine() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_m_CursorColor, put=__set_m_CursorColor))  m_CursorColor;
+ UnityEngine::Color __declspec(property(get=__get_m_CursorColor, put=__set_m_CursorColor))  m_CursorColor;
 
-constexpr void __set_m_CursorColor(::UnityEngine::Color value) ;
+constexpr void __set_m_CursorColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_m_CursorColor() const;
+constexpr UnityEngine::Color __get_m_CursorColor() const;
 
  float_t __declspec(property(get=__get_m_CursorFlashSpeed, put=__set_m_CursorFlashSpeed))  m_CursorFlashSpeed;
 
@@ -76,11 +75,11 @@ constexpr void __set_m_CursorFlashSpeed(float_t value) ;
 
 constexpr float_t __get_m_CursorFlashSpeed() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_m_SelectionColor, put=__set_m_SelectionColor))  m_SelectionColor;
+ UnityEngine::Color __declspec(property(get=__get_m_SelectionColor, put=__set_m_SelectionColor))  m_SelectionColor;
 
-constexpr void __set_m_SelectionColor(::UnityEngine::Color value) ;
+constexpr void __set_m_SelectionColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_m_SelectionColor() const;
+constexpr UnityEngine::Color __get_m_SelectionColor() const;
 
 
 // Methods
@@ -95,6 +94,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::GUISettings);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::GUISettings, "UnityEngine", "GUISettings");
+NEED_NO_BOX(UnityEngine::GUISettings);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUISettings, "UnityEngine", "GUISettings");

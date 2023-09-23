@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace UnityEngine {
 class Rigidbody2D;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13834))
 // CS Name: SleepRigidbody2DWhenInvisible
-class CORDL_TYPE SleepRigidbody2DWhenInvisible : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SleepRigidbody2DWhenInvisible : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr SleepRigidbody2DWhenInvisible(SleepRigidbody2DWhenInvisible const& ) n
 constexpr SleepRigidbody2DWhenInvisible(SleepRigidbody2DWhenInvisible&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SleepRigidbody2DWhenInvisible(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SleepRigidbody2DWhenInvisible(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit SleepRigidbody2DWhenInvisible(void* ptr) noexcept : ::UnityEn
 
 // Fields
 
- ::UnityEngine::Rigidbody2D __declspec(property(get=__get__rigidbody2D, put=__set__rigidbody2D))  _rigidbody2D;
+ UnityEngine::Rigidbody2D __declspec(property(get=__get__rigidbody2D, put=__set__rigidbody2D))  _rigidbody2D;
 
-constexpr void __set__rigidbody2D(::UnityEngine::Rigidbody2D value) ;
+constexpr void __set__rigidbody2D(UnityEngine::Rigidbody2D value) ;
 
-constexpr ::UnityEngine::Rigidbody2D __get__rigidbody2D() const;
+constexpr UnityEngine::Rigidbody2D __get__rigidbody2D() const;
 
 
 // Methods
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SleepRigidbody2DWhenInvisible);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SleepRigidbody2DWhenInvisible, "", "SleepRigidbody2DWhenInvisible");
+NEED_NO_BOX(GlobalNamespace::SleepRigidbody2DWhenInvisible);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SleepRigidbody2DWhenInvisible, "", "SleepRigidbody2DWhenInvisible");

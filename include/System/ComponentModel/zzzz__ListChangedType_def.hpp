@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::ComponentModel {
 struct ListChangedType;
@@ -73,32 +72,31 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Reset offset 0
-static ::System::ComponentModel::ListChangedType const Reset;
+static System::ComponentModel::ListChangedType const Reset;
 
 /// @brief Field ItemAdded offset 0
-static ::System::ComponentModel::ListChangedType const ItemAdded;
+static System::ComponentModel::ListChangedType const ItemAdded;
 
 /// @brief Field ItemDeleted offset 0
-static ::System::ComponentModel::ListChangedType const ItemDeleted;
+static System::ComponentModel::ListChangedType const ItemDeleted;
 
 /// @brief Field ItemMoved offset 0
-static ::System::ComponentModel::ListChangedType const ItemMoved;
+static System::ComponentModel::ListChangedType const ItemMoved;
 
 /// @brief Field ItemChanged offset 0
-static ::System::ComponentModel::ListChangedType const ItemChanged;
+static System::ComponentModel::ListChangedType const ItemChanged;
 
 /// @brief Field PropertyDescriptorAdded offset 0
-static ::System::ComponentModel::ListChangedType const PropertyDescriptorAdded;
+static System::ComponentModel::ListChangedType const PropertyDescriptorAdded;
 
 /// @brief Field PropertyDescriptorDeleted offset 0
-static ::System::ComponentModel::ListChangedType const PropertyDescriptorDeleted;
+static System::ComponentModel::ListChangedType const PropertyDescriptorDeleted;
 
 /// @brief Field PropertyDescriptorChanged offset 0
-static ::System::ComponentModel::ListChangedType const PropertyDescriptorChanged;
+static System::ComponentModel::ListChangedType const PropertyDescriptorChanged;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::ListChangedType, "System.ComponentModel", "ListChangedType");
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::ListChangedType, "System.ComponentModel", "ListChangedType");

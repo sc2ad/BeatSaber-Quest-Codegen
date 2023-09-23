@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace TMPro {
 class TMP_Text;
 }
@@ -21,8 +20,8 @@ namespace TMPro {
 struct CORDL_TYPE TMP_LinkInfo : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "textComponent", ty: "::TMPro::TMP_Text", modifiers: "", def_value: None }, CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linkIdFirstCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linkIdLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linkTextfirstCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linkTextLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linkID", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }]
-constexpr TMP_LinkInfo(::TMPro::TMP_Text textComponent, int32_t hashCode, int32_t linkIdFirstCharacterIndex, int32_t linkIdLength, int32_t linkTextfirstCharacterIndex, int32_t linkTextLength, ::ArrayW<char16_t> linkID) noexcept;
+// Ctor Parameters [CppParam { name: "textComponent", ty: "TMPro::TMP_Text", modifiers: "", def_value: None }, CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linkIdFirstCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linkIdLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linkTextfirstCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linkTextLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linkID", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }]
+constexpr TMP_LinkInfo(TMPro::TMP_Text textComponent, int32_t hashCode, int32_t linkIdFirstCharacterIndex, int32_t linkIdLength, int32_t linkTextfirstCharacterIndex, int32_t linkTextLength, ::ArrayW<char16_t> linkID) noexcept;
 
 
                     constexpr TMP_LinkInfo(TMP_LinkInfo const&) = default;
@@ -55,11 +54,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::TMPro::TMP_Text __declspec(property(get=__get_textComponent, put=__set_textComponent))  textComponent;
+ TMPro::TMP_Text __declspec(property(get=__get_textComponent, put=__set_textComponent))  textComponent;
 
-constexpr void __set_textComponent(::TMPro::TMP_Text value) ;
+constexpr void __set_textComponent(TMPro::TMP_Text value) ;
 
-constexpr ::TMPro::TMP_Text __get_textComponent() const;
+constexpr TMPro::TMP_Text __get_textComponent() const;
 
  int32_t __declspec(property(get=__get_hashCode, put=__set_hashCode))  hashCode;
 
@@ -113,5 +112,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_LinkInfo, "TMPro", "TMP_LinkInfo");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_LinkInfo, "TMPro", "TMP_LinkInfo");

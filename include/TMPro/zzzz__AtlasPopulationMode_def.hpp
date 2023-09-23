@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace TMPro {
 struct AtlasPopulationMode;
@@ -67,14 +66,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Static offset 0
-static ::TMPro::AtlasPopulationMode const Static;
+static TMPro::AtlasPopulationMode const Static;
 
 /// @brief Field Dynamic offset 0
-static ::TMPro::AtlasPopulationMode const Dynamic;
+static TMPro::AtlasPopulationMode const Dynamic;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::AtlasPopulationMode, "TMPro", "AtlasPopulationMode");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::AtlasPopulationMode, "TMPro", "AtlasPopulationMode");

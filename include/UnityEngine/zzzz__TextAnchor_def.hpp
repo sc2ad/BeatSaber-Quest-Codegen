@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct TextAnchor;
@@ -74,35 +73,34 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field UpperLeft offset 0
-static ::UnityEngine::TextAnchor const UpperLeft;
+static UnityEngine::TextAnchor const UpperLeft;
 
 /// @brief Field UpperCenter offset 0
-static ::UnityEngine::TextAnchor const UpperCenter;
+static UnityEngine::TextAnchor const UpperCenter;
 
 /// @brief Field UpperRight offset 0
-static ::UnityEngine::TextAnchor const UpperRight;
+static UnityEngine::TextAnchor const UpperRight;
 
 /// @brief Field MiddleLeft offset 0
-static ::UnityEngine::TextAnchor const MiddleLeft;
+static UnityEngine::TextAnchor const MiddleLeft;
 
 /// @brief Field MiddleCenter offset 0
-static ::UnityEngine::TextAnchor const MiddleCenter;
+static UnityEngine::TextAnchor const MiddleCenter;
 
 /// @brief Field MiddleRight offset 0
-static ::UnityEngine::TextAnchor const MiddleRight;
+static UnityEngine::TextAnchor const MiddleRight;
 
 /// @brief Field LowerLeft offset 0
-static ::UnityEngine::TextAnchor const LowerLeft;
+static UnityEngine::TextAnchor const LowerLeft;
 
 /// @brief Field LowerCenter offset 0
-static ::UnityEngine::TextAnchor const LowerCenter;
+static UnityEngine::TextAnchor const LowerCenter;
 
 /// @brief Field LowerRight offset 0
-static ::UnityEngine::TextAnchor const LowerRight;
+static UnityEngine::TextAnchor const LowerRight;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextAnchor, "UnityEngine", "TextAnchor");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextAnchor, "UnityEngine", "TextAnchor");

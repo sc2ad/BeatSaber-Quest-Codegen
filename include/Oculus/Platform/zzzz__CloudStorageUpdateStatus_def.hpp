@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform {
 struct CloudStorageUpdateStatus;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::Oculus::Platform::CloudStorageUpdateStatus const Unknown;
+static Oculus::Platform::CloudStorageUpdateStatus const Unknown;
 
 /// @brief Field Ok offset 0
-static ::Oculus::Platform::CloudStorageUpdateStatus const Ok;
+static Oculus::Platform::CloudStorageUpdateStatus const Ok;
 
 /// @brief Field BetterVersionStored offset 0
-static ::Oculus::Platform::CloudStorageUpdateStatus const BetterVersionStored;
+static Oculus::Platform::CloudStorageUpdateStatus const BetterVersionStored;
 
 /// @brief Field ManualMergeRequired offset 0
-static ::Oculus::Platform::CloudStorageUpdateStatus const ManualMergeRequired;
+static Oculus::Platform::CloudStorageUpdateStatus const ManualMergeRequired;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::CloudStorageUpdateStatus, "Oculus.Platform", "CloudStorageUpdateStatus");
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CloudStorageUpdateStatus, "Oculus.Platform", "CloudStorageUpdateStatus");

@@ -1,19 +1,18 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
-}
-namespace UnityEngine {
-class AudioClip;
+namespace GlobalNamespace {
+class IBeatmapLevelData;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmapSet;
 }
-namespace GlobalNamespace {
-class IBeatmapLevelData;
+namespace UnityEngine {
+class AudioClip;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,8 +27,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapLevelData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IBeatmapLevelData
-constexpr operator  ::GlobalNamespace::IBeatmapLevelData() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IBeatmapLevelData
+constexpr operator  GlobalNamespace::IBeatmapLevelData() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -64,44 +63,43 @@ constexpr explicit BeatmapLevelData(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
- ::UnityEngine::AudioClip __declspec(property(get=__get__audioClip, put=__set__audioClip))  _audioClip;
+ UnityEngine::AudioClip __declspec(property(get=__get__audioClip, put=__set__audioClip))  _audioClip;
 
-constexpr void __set__audioClip(::UnityEngine::AudioClip value) ;
+constexpr void __set__audioClip(UnityEngine::AudioClip value) ;
 
-constexpr ::UnityEngine::AudioClip __get__audioClip() const;
+constexpr UnityEngine::AudioClip __get__audioClip() const;
 
- ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet> __declspec(property(get=__get__difficultyBeatmapSets, put=__set__difficultyBeatmapSets))  _difficultyBeatmapSets;
+ System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmapSet> __declspec(property(get=__get__difficultyBeatmapSets, put=__set__difficultyBeatmapSets))  _difficultyBeatmapSets;
 
-constexpr void __set__difficultyBeatmapSets(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet> value) ;
+constexpr void __set__difficultyBeatmapSets(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmapSet> value) ;
 
-constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet> __get__difficultyBeatmapSets() const;
+constexpr System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmapSet> __get__difficultyBeatmapSets() const;
 
 
 // Properties
 
- ::UnityEngine::AudioClip __declspec(property(get=get_audioClip))  audioClip;
+ UnityEngine::AudioClip __declspec(property(get=get_audioClip))  audioClip;
 
- ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet> __declspec(property(get=get_difficultyBeatmapSets))  difficultyBeatmapSets;
+ System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmapSet> __declspec(property(get=get_difficultyBeatmapSets))  difficultyBeatmapSets;
 
 
 // Methods
 
 /// @brief Method get_audioClip addr 0x21e332c size 0x8 virtual true final true
- ::UnityEngine::AudioClip get_audioClip() ;
+ UnityEngine::AudioClip get_audioClip() ;
 
 /// @brief Method get_difficultyBeatmapSets addr 0x21e3334 size 0x8 virtual true final true
- ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet> get_difficultyBeatmapSets() ;
+ System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmapSet> get_difficultyBeatmapSets() ;
 
-// Ctor Parameters [CppParam { name: "audioClip", ty: "::UnityEngine::AudioClip", modifiers: "", def_value: None }, CppParam { name: "difficultyBeatmapSets", ty: "::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet>", modifiers: "", def_value: None }]
-explicit BeatmapLevelData(::UnityEngine::AudioClip audioClip, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet> difficultyBeatmapSets) ;
+// Ctor Parameters [CppParam { name: "audioClip", ty: "UnityEngine::AudioClip", modifiers: "", def_value: None }, CppParam { name: "difficultyBeatmapSets", ty: "System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmapSet>", modifiers: "", def_value: None }]
+explicit BeatmapLevelData(UnityEngine::AudioClip audioClip, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmapSet> difficultyBeatmapSets) ;
 
 /// @brief Method .ctor addr 0x21e333c size 0x2c virtual false final false
- void _ctor(::UnityEngine::AudioClip audioClip, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet> difficultyBeatmapSets) ;
+ void _ctor(UnityEngine::AudioClip audioClip, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmapSet> difficultyBeatmapSets) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BeatmapLevelData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapLevelData, "", "BeatmapLevelData");
+NEED_NO_BOX(GlobalNamespace::BeatmapLevelData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelData, "", "BeatmapLevelData");

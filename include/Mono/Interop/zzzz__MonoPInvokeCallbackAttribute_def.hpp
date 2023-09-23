@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 namespace System {
 class Type;
 }
@@ -15,7 +14,7 @@ namespace Mono::Interop {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2256))
 // CS Name: Mono.Interop.MonoPInvokeCallbackAttribute
-class CORDL_TYPE MonoPInvokeCallbackAttribute : public ::System::Attribute {
+class CORDL_TYPE MonoPInvokeCallbackAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr MonoPInvokeCallbackAttribute(MonoPInvokeCallbackAttribute const& ) noe
 constexpr MonoPInvokeCallbackAttribute(MonoPInvokeCallbackAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MonoPInvokeCallbackAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit MonoPInvokeCallbackAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -51,16 +50,15 @@ constexpr explicit MonoPInvokeCallbackAttribute(void* ptr) noexcept : ::System::
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "t", ty: "::System::Type", modifiers: "", def_value: None }]
-explicit MonoPInvokeCallbackAttribute(::System::Type t) ;
+// Ctor Parameters [CppParam { name: "t", ty: "System::Type", modifiers: "", def_value: None }]
+explicit MonoPInvokeCallbackAttribute(System::Type t) ;
 
 /// @brief Method .ctor addr 0x22a7d1c size 0x8 virtual false final false
- void _ctor(::System::Type t) ;
+ void _ctor(System::Type t) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Interop
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Interop::MonoPInvokeCallbackAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Interop::MonoPInvokeCallbackAttribute, "Mono.Interop", "MonoPInvokeCallbackAttribute");
+NEED_NO_BOX(Mono::Interop::MonoPInvokeCallbackAttribute);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Interop::MonoPInvokeCallbackAttribute, "Mono.Interop", "MonoPInvokeCallbackAttribute");

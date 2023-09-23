@@ -1,6 +1,5 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace System::Threading {
 class ThreadAbortException;
 }
@@ -30,12 +29,11 @@ constexpr explicit IThreadPoolWorkItem(void* ptr) noexcept : ::cordl_internals::
  void ExecuteWorkItem() ;
 
 /// @brief Method MarkAborted addr 0x0 size 0xffffffffffffffff virtual true final false
- void MarkAborted(::System::Threading::ThreadAbortException tae) ;
+ void MarkAborted(System::Threading::ThreadAbortException tae) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Threading
-} // end anonymous namespace
-NEED_NO_BOX(::System::Threading::IThreadPoolWorkItem);
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::IThreadPoolWorkItem, "System.Threading", "IThreadPoolWorkItem");
+NEED_NO_BOX(System::Threading::IThreadPoolWorkItem);
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::IThreadPoolWorkItem, "System.Threading", "IThreadPoolWorkItem");

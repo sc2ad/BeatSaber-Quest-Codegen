@@ -4,42 +4,41 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
 class BeatmapLevelsModel;
 }
 namespace System {
+class Action;
+}
+namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
-namespace Zenject {
-class ITickable;
-}
 namespace GlobalNamespace {
-class ILevelGameplaySetupData;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace System {
-class Action;
-}
-namespace System::Threading {
-class CancellationTokenSource;
+struct GlobalNamespace__BeatmapLevelsModel__GetBeatmapLevelResult;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
+namespace Zenject {
+class ITickable;
+}
+namespace System::Threading {
+class CancellationTokenSource;
+}
 namespace GlobalNamespace {
-struct ____GlobalNamespace__BeatmapLevelsModel__GetBeatmapLevelResult;
+class ILevelGameplaySetupData;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct ____GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState;
+struct GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState;
 }
 namespace GlobalNamespace {
 class MultiplayerLevelLoader;
@@ -50,20 +49,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5668))
 // CS Name: MultiplayerLevelLoader::MultiplayerBeatmapLoaderState
-struct CORDL_TYPE ____GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState(int32_t value__) noexcept;
+constexpr GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState(____GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState const&) = default;
-                    constexpr ____GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState(____GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState&&) = default;
-                    constexpr ____GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState& operator=(____GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState const& o) {
+                    constexpr GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState(GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState const&) = default;
+                    constexpr GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState(GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState&&) = default;
+                    constexpr GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState& operator=(GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState& operator=(____GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState&& o) noexcept {
+                    constexpr GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState& operator=(GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -76,7 +75,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -84,15 +83,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState_Unwrapped : int32_t {
+enum class __GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState_Unwrapped : int32_t {
 __NotLoading = 0,
 __LoadingBeatmap = 1,
 __WaitingForCountdown = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState_Unwrapped>(__instance);
 }
 
 
@@ -105,13 +104,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field NotLoading offset 0
-static ::GlobalNamespace::____GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState const NotLoading;
+static GlobalNamespace::GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState const NotLoading;
 
 /// @brief Field LoadingBeatmap offset 0
-static ::GlobalNamespace::____GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState const LoadingBeatmap;
+static GlobalNamespace::GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState const LoadingBeatmap;
 
 /// @brief Field WaitingForCountdown offset 0
-static ::GlobalNamespace::____GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState const WaitingForCountdown;
+static GlobalNamespace::GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState const WaitingForCountdown;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -126,10 +125,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE MultiplayerLevelLoader : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using MultiplayerBeatmapLoaderState = ::GlobalNamespace::____GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState;
+using MultiplayerBeatmapLoaderState = GlobalNamespace::GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState;
 
-/// @brief Convert operator to ::Zenject::ITickable
-constexpr operator  ::Zenject::ITickable() const noexcept;
+/// @brief Convert operator to Zenject::ITickable
+constexpr operator  Zenject::ITickable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x60};
@@ -164,59 +163,59 @@ constexpr explicit MultiplayerLevelLoader(void* ptr) noexcept : ::bs_hook::Il2Cp
 
 // Fields
 
- ::GlobalNamespace::IMultiplayerSessionManager __declspec(property(get=__get__multiplayerSessionManager, put=__set__multiplayerSessionManager))  _multiplayerSessionManager;
+ GlobalNamespace::IMultiplayerSessionManager __declspec(property(get=__get__multiplayerSessionManager, put=__set__multiplayerSessionManager))  _multiplayerSessionManager;
 
-constexpr void __set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager value) ;
+constexpr void __set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager value) ;
 
-constexpr ::GlobalNamespace::IMultiplayerSessionManager __get__multiplayerSessionManager() const;
+constexpr GlobalNamespace::IMultiplayerSessionManager __get__multiplayerSessionManager() const;
 
- ::GlobalNamespace::BeatmapLevelsModel __declspec(property(get=__get__beatmapLevelsModel, put=__set__beatmapLevelsModel))  _beatmapLevelsModel;
+ GlobalNamespace::BeatmapLevelsModel __declspec(property(get=__get__beatmapLevelsModel, put=__set__beatmapLevelsModel))  _beatmapLevelsModel;
 
-constexpr void __set__beatmapLevelsModel(::GlobalNamespace::BeatmapLevelsModel value) ;
+constexpr void __set__beatmapLevelsModel(GlobalNamespace::BeatmapLevelsModel value) ;
 
-constexpr ::GlobalNamespace::BeatmapLevelsModel __get__beatmapLevelsModel() const;
+constexpr GlobalNamespace::BeatmapLevelsModel __get__beatmapLevelsModel() const;
 
- ::System::Action __declspec(property(get=__get_stillDownloadingSongEvent, put=__set_stillDownloadingSongEvent))  stillDownloadingSongEvent;
+ System::Action __declspec(property(get=__get_stillDownloadingSongEvent, put=__set_stillDownloadingSongEvent))  stillDownloadingSongEvent;
 
-constexpr void __set_stillDownloadingSongEvent(::System::Action value) ;
+constexpr void __set_stillDownloadingSongEvent(System::Action value) ;
 
-constexpr ::System::Action __get_stillDownloadingSongEvent() const;
+constexpr System::Action __get_stillDownloadingSongEvent() const;
 
- ::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData,::GlobalNamespace::IDifficultyBeatmap> __declspec(property(get=__get_countdownFinishedEvent, put=__set_countdownFinishedEvent))  countdownFinishedEvent;
+ System::Action_2<GlobalNamespace::ILevelGameplaySetupData,GlobalNamespace::IDifficultyBeatmap> __declspec(property(get=__get_countdownFinishedEvent, put=__set_countdownFinishedEvent))  countdownFinishedEvent;
 
-constexpr void __set_countdownFinishedEvent(::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData,::GlobalNamespace::IDifficultyBeatmap> value) ;
+constexpr void __set_countdownFinishedEvent(System::Action_2<GlobalNamespace::ILevelGameplaySetupData,GlobalNamespace::IDifficultyBeatmap> value) ;
 
-constexpr ::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData,::GlobalNamespace::IDifficultyBeatmap> __get_countdownFinishedEvent() const;
+constexpr System::Action_2<GlobalNamespace::ILevelGameplaySetupData,GlobalNamespace::IDifficultyBeatmap> __get_countdownFinishedEvent() const;
 
- ::GlobalNamespace::____GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState __declspec(property(get=__get__loaderState, put=__set__loaderState))  _loaderState;
+ GlobalNamespace::GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState __declspec(property(get=__get__loaderState, put=__set__loaderState))  _loaderState;
 
-constexpr void __set__loaderState(::GlobalNamespace::____GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState value) ;
+constexpr void __set__loaderState(GlobalNamespace::GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState __get__loaderState() const;
+constexpr GlobalNamespace::GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState __get__loaderState() const;
 
- ::System::Threading::CancellationTokenSource __declspec(property(get=__get__getBeatmapCancellationTokenSource, put=__set__getBeatmapCancellationTokenSource))  _getBeatmapCancellationTokenSource;
+ System::Threading::CancellationTokenSource __declspec(property(get=__get__getBeatmapCancellationTokenSource, put=__set__getBeatmapCancellationTokenSource))  _getBeatmapCancellationTokenSource;
 
-constexpr void __set__getBeatmapCancellationTokenSource(::System::Threading::CancellationTokenSource value) ;
+constexpr void __set__getBeatmapCancellationTokenSource(System::Threading::CancellationTokenSource value) ;
 
-constexpr ::System::Threading::CancellationTokenSource __get__getBeatmapCancellationTokenSource() const;
+constexpr System::Threading::CancellationTokenSource __get__getBeatmapCancellationTokenSource() const;
 
- ::System::Threading::Tasks::Task_1<::GlobalNamespace::____GlobalNamespace__BeatmapLevelsModel__GetBeatmapLevelResult> __declspec(property(get=__get__getBeatmapLevelResultTask, put=__set__getBeatmapLevelResultTask))  _getBeatmapLevelResultTask;
+ System::Threading::Tasks::Task_1<GlobalNamespace::GlobalNamespace__BeatmapLevelsModel__GetBeatmapLevelResult> __declspec(property(get=__get__getBeatmapLevelResultTask, put=__set__getBeatmapLevelResultTask))  _getBeatmapLevelResultTask;
 
-constexpr void __set__getBeatmapLevelResultTask(::System::Threading::Tasks::Task_1<::GlobalNamespace::____GlobalNamespace__BeatmapLevelsModel__GetBeatmapLevelResult> value) ;
+constexpr void __set__getBeatmapLevelResultTask(System::Threading::Tasks::Task_1<GlobalNamespace::GlobalNamespace__BeatmapLevelsModel__GetBeatmapLevelResult> value) ;
 
-constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::____GlobalNamespace__BeatmapLevelsModel__GetBeatmapLevelResult> __get__getBeatmapLevelResultTask() const;
+constexpr System::Threading::Tasks::Task_1<GlobalNamespace::GlobalNamespace__BeatmapLevelsModel__GetBeatmapLevelResult> __get__getBeatmapLevelResultTask() const;
 
- ::GlobalNamespace::ILevelGameplaySetupData __declspec(property(get=__get__gameplaySetupData, put=__set__gameplaySetupData))  _gameplaySetupData;
+ GlobalNamespace::ILevelGameplaySetupData __declspec(property(get=__get__gameplaySetupData, put=__set__gameplaySetupData))  _gameplaySetupData;
 
-constexpr void __set__gameplaySetupData(::GlobalNamespace::ILevelGameplaySetupData value) ;
+constexpr void __set__gameplaySetupData(GlobalNamespace::ILevelGameplaySetupData value) ;
 
-constexpr ::GlobalNamespace::ILevelGameplaySetupData __get__gameplaySetupData() const;
+constexpr GlobalNamespace::ILevelGameplaySetupData __get__gameplaySetupData() const;
 
- ::GlobalNamespace::IDifficultyBeatmap __declspec(property(get=__get__difficultyBeatmap, put=__set__difficultyBeatmap))  _difficultyBeatmap;
+ GlobalNamespace::IDifficultyBeatmap __declspec(property(get=__get__difficultyBeatmap, put=__set__difficultyBeatmap))  _difficultyBeatmap;
 
-constexpr void __set__difficultyBeatmap(::GlobalNamespace::IDifficultyBeatmap value) ;
+constexpr void __set__difficultyBeatmap(GlobalNamespace::IDifficultyBeatmap value) ;
 
-constexpr ::GlobalNamespace::IDifficultyBeatmap __get__difficultyBeatmap() const;
+constexpr GlobalNamespace::IDifficultyBeatmap __get__difficultyBeatmap() const;
 
  float_t __declspec(property(get=__get__startTime, put=__set__startTime))  _startTime;
 
@@ -234,19 +233,19 @@ constexpr bool __get__stillDownloadingCalled() const;
 // Methods
 
 /// @brief Method add_stillDownloadingSongEvent addr 0x214f0f4 size 0x9c virtual false final false
- void add_stillDownloadingSongEvent(::System::Action value) ;
+ void add_stillDownloadingSongEvent(System::Action value) ;
 
 /// @brief Method remove_stillDownloadingSongEvent addr 0x214f190 size 0x9c virtual false final false
- void remove_stillDownloadingSongEvent(::System::Action value) ;
+ void remove_stillDownloadingSongEvent(System::Action value) ;
 
 /// @brief Method add_countdownFinishedEvent addr 0x214f22c size 0xb0 virtual false final false
- void add_countdownFinishedEvent(::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData,::GlobalNamespace::IDifficultyBeatmap> value) ;
+ void add_countdownFinishedEvent(System::Action_2<GlobalNamespace::ILevelGameplaySetupData,GlobalNamespace::IDifficultyBeatmap> value) ;
 
 /// @brief Method remove_countdownFinishedEvent addr 0x214f2dc size 0xb0 virtual false final false
- void remove_countdownFinishedEvent(::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData,::GlobalNamespace::IDifficultyBeatmap> value) ;
+ void remove_countdownFinishedEvent(System::Action_2<GlobalNamespace::ILevelGameplaySetupData,GlobalNamespace::IDifficultyBeatmap> value) ;
 
 /// @brief Method LoadLevel addr 0x214f38c size 0x1a8 virtual false final false
- void LoadLevel(::GlobalNamespace::ILevelGameplaySetupData gameplaySetupData, float_t initialStartTime) ;
+ void LoadLevel(GlobalNamespace::ILevelGameplaySetupData gameplaySetupData, float_t initialStartTime) ;
 
 /// @brief Method SetNewStartTime addr 0x214f534 size 0x8 virtual false final false
  void SetNewStartTime(float_t newStartTime) ;
@@ -267,7 +266,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState, "", "MultiplayerLevelLoader/MultiplayerBeatmapLoaderState");
-NEED_NO_BOX(::GlobalNamespace::MultiplayerLevelLoader);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerLevelLoader, "", "MultiplayerLevelLoader");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState, "", "MultiplayerLevelLoader/MultiplayerBeatmapLoaderState");
+NEED_NO_BOX(GlobalNamespace::MultiplayerLevelLoader);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelLoader, "", "MultiplayerLevelLoader");

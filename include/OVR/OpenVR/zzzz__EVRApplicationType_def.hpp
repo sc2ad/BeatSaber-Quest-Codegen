@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct EVRApplicationType;
@@ -74,35 +73,34 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field VRApplication_Other offset 0
-static ::OVR::OpenVR::EVRApplicationType const VRApplication_Other;
+static OVR::OpenVR::EVRApplicationType const VRApplication_Other;
 
 /// @brief Field VRApplication_Scene offset 0
-static ::OVR::OpenVR::EVRApplicationType const VRApplication_Scene;
+static OVR::OpenVR::EVRApplicationType const VRApplication_Scene;
 
 /// @brief Field VRApplication_Overlay offset 0
-static ::OVR::OpenVR::EVRApplicationType const VRApplication_Overlay;
+static OVR::OpenVR::EVRApplicationType const VRApplication_Overlay;
 
 /// @brief Field VRApplication_Background offset 0
-static ::OVR::OpenVR::EVRApplicationType const VRApplication_Background;
+static OVR::OpenVR::EVRApplicationType const VRApplication_Background;
 
 /// @brief Field VRApplication_Utility offset 0
-static ::OVR::OpenVR::EVRApplicationType const VRApplication_Utility;
+static OVR::OpenVR::EVRApplicationType const VRApplication_Utility;
 
 /// @brief Field VRApplication_VRMonitor offset 0
-static ::OVR::OpenVR::EVRApplicationType const VRApplication_VRMonitor;
+static OVR::OpenVR::EVRApplicationType const VRApplication_VRMonitor;
 
 /// @brief Field VRApplication_SteamWatchdog offset 0
-static ::OVR::OpenVR::EVRApplicationType const VRApplication_SteamWatchdog;
+static OVR::OpenVR::EVRApplicationType const VRApplication_SteamWatchdog;
 
 /// @brief Field VRApplication_Bootstrapper offset 0
-static ::OVR::OpenVR::EVRApplicationType const VRApplication_Bootstrapper;
+static OVR::OpenVR::EVRApplicationType const VRApplication_Bootstrapper;
 
 /// @brief Field VRApplication_Max offset 0
-static ::OVR::OpenVR::EVRApplicationType const VRApplication_Max;
+static OVR::OpenVR::EVRApplicationType const VRApplication_Max;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRApplicationType, "OVR.OpenVR", "EVRApplicationType");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRApplicationType, "OVR.OpenVR", "EVRApplicationType");

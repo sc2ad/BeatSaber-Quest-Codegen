@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 class LightmapDataSO;
 }
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5938))
 // CS Name: BakedLightDataLoader
-class CORDL_TYPE BakedLightDataLoader : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE BakedLightDataLoader : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr BakedLightDataLoader(BakedLightDataLoader const& ) noexcept = default;
 constexpr BakedLightDataLoader(BakedLightDataLoader&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BakedLightDataLoader(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit BakedLightDataLoader(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -55,11 +54,11 @@ constexpr explicit BakedLightDataLoader(void* ptr) noexcept : ::UnityEngine::Mon
 
 // Fields
 
- ::GlobalNamespace::LightmapDataSO __declspec(property(get=__get__lightmapData, put=__set__lightmapData))  _lightmapData;
+ GlobalNamespace::LightmapDataSO __declspec(property(get=__get__lightmapData, put=__set__lightmapData))  _lightmapData;
 
-constexpr void __set__lightmapData(::GlobalNamespace::LightmapDataSO value) ;
+constexpr void __set__lightmapData(GlobalNamespace::LightmapDataSO value) ;
 
-constexpr ::GlobalNamespace::LightmapDataSO __get__lightmapData() const;
+constexpr GlobalNamespace::LightmapDataSO __get__lightmapData() const;
 
 static int32_t __declspec(property(get=__get__lightMap1PropertyId, put=__set__lightMap1PropertyId))  _lightMap1PropertyId;
 
@@ -73,25 +72,25 @@ static void __set__lightMap2PropertyId(int32_t value) ;
 
 static int32_t __get__lightMap2PropertyId() ;
 
- ::UnityEngine::Texture2D __declspec(property(get=__get__blackTexture, put=__set__blackTexture))  _blackTexture;
+ UnityEngine::Texture2D __declspec(property(get=__get__blackTexture, put=__set__blackTexture))  _blackTexture;
 
-constexpr void __set__blackTexture(::UnityEngine::Texture2D value) ;
+constexpr void __set__blackTexture(UnityEngine::Texture2D value) ;
 
-constexpr ::UnityEngine::Texture2D __get__blackTexture() const;
+constexpr UnityEngine::Texture2D __get__blackTexture() const;
 
 
 // Properties
 
- ::GlobalNamespace::LightmapDataSO __declspec(property(get=get_lightmapData, put=set_lightmapData))  lightmapData;
+ GlobalNamespace::LightmapDataSO __declspec(property(get=get_lightmapData, put=set_lightmapData))  lightmapData;
 
 
 // Methods
 
 /// @brief Method get_lightmapData addr 0x219a1b0 size 0x8 virtual false final false
- ::GlobalNamespace::LightmapDataSO get_lightmapData() ;
+ GlobalNamespace::LightmapDataSO get_lightmapData() ;
 
 /// @brief Method set_lightmapData addr 0x219a1b8 size 0x8 virtual false final false
- void set_lightmapData(::GlobalNamespace::LightmapDataSO value) ;
+ void set_lightmapData(GlobalNamespace::LightmapDataSO value) ;
 
 /// @brief Method Start addr 0x219a1c0 size 0xb8 virtual false final false
  void Start() ;
@@ -109,6 +108,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BakedLightDataLoader);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BakedLightDataLoader, "", "BakedLightDataLoader");
+NEED_NO_BOX(GlobalNamespace::BakedLightDataLoader);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BakedLightDataLoader, "", "BakedLightDataLoader");

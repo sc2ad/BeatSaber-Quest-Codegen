@@ -3,7 +3,6 @@
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__UnmodifiableSet_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
 }
@@ -23,7 +22,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1789))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1790))
 // CS Name: Org.BouncyCastle.Utilities.Collections.UnmodifiableSetProxy
-class CORDL_TYPE UnmodifiableSetProxy : public ::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet {
+class CORDL_TYPE UnmodifiableSetProxy : public Org::BouncyCastle::Utilities::Collections::UnmodifiableSet {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr UnmodifiableSetProxy(UnmodifiableSetProxy const& ) noexcept = default;
 constexpr UnmodifiableSetProxy(UnmodifiableSetProxy&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UnmodifiableSetProxy(void* ptr) noexcept : ::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet(ptr) {
+constexpr explicit UnmodifiableSetProxy(void* ptr) noexcept : Org::BouncyCastle::Utilities::Collections::UnmodifiableSet(ptr) {
 }
 
 
@@ -59,11 +58,11 @@ constexpr explicit UnmodifiableSetProxy(void* ptr) noexcept : ::Org::BouncyCastl
 
 // Fields
 
- ::Org::BouncyCastle::Utilities::Collections::ISet __declspec(property(get=__get_s, put=__set_s))  s;
+ Org::BouncyCastle::Utilities::Collections::ISet __declspec(property(get=__get_s, put=__set_s))  s;
 
-constexpr void __set_s(::Org::BouncyCastle::Utilities::Collections::ISet value) ;
+constexpr void __set_s(Org::BouncyCastle::Utilities::Collections::ISet value) ;
 
-constexpr ::Org::BouncyCastle::Utilities::Collections::ISet __get_s() const;
+constexpr Org::BouncyCastle::Utilities::Collections::ISet __get_s() const;
 
 
 // Properties
@@ -81,23 +80,23 @@ constexpr ::Org::BouncyCastle::Utilities::Collections::ISet __get_s() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "s", ty: "::Org::BouncyCastle::Utilities::Collections::ISet", modifiers: "", def_value: None }]
-explicit UnmodifiableSetProxy(::Org::BouncyCastle::Utilities::Collections::ISet s) ;
+// Ctor Parameters [CppParam { name: "s", ty: "Org::BouncyCastle::Utilities::Collections::ISet", modifiers: "", def_value: None }]
+explicit UnmodifiableSetProxy(Org::BouncyCastle::Utilities::Collections::ISet s) ;
 
 /// @brief Method .ctor addr 0x10cb3d0 size 0x28 virtual false final false
- void _ctor(::Org::BouncyCastle::Utilities::Collections::ISet s) ;
+ void _ctor(Org::BouncyCastle::Utilities::Collections::ISet s) ;
 
 /// @brief Method Contains addr 0x10cf030 size 0xac virtual true final false
  bool Contains(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method CopyTo addr 0x10cf0dc size 0xb8 virtual true final false
- void CopyTo(::System::Array array, int32_t index) ;
+ void CopyTo(System::Array array, int32_t index) ;
 
 /// @brief Method get_Count addr 0x10cf194 size 0xa4 virtual true final false
  int32_t get_Count() ;
 
 /// @brief Method GetEnumerator addr 0x10cf238 size 0xa0 virtual true final false
- ::System::Collections::IEnumerator GetEnumerator() ;
+ System::Collections::IEnumerator GetEnumerator() ;
 
 /// @brief Method get_IsEmpty addr 0x10cf2d8 size 0xa4 virtual true final false
  bool get_IsEmpty() ;
@@ -115,6 +114,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities::Collections
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::Collections::UnmodifiableSetProxy);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Collections::UnmodifiableSetProxy, "Org.BouncyCastle.Utilities.Collections", "UnmodifiableSetProxy");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Collections::UnmodifiableSetProxy);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::UnmodifiableSetProxy, "Org.BouncyCastle.Utilities.Collections", "UnmodifiableSetProxy");

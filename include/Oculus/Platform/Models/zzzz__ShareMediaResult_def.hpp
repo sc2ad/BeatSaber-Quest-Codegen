@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform {
 struct ShareMediaStatus;
 }
@@ -52,11 +51,11 @@ constexpr explicit ShareMediaResult(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
- ::Oculus::Platform::ShareMediaStatus __declspec(property(get=__get_Status, put=__set_Status))  Status;
+ Oculus::Platform::ShareMediaStatus __declspec(property(get=__get_Status, put=__set_Status))  Status;
 
-constexpr void __set_Status(::Oculus::Platform::ShareMediaStatus value) ;
+constexpr void __set_Status(Oculus::Platform::ShareMediaStatus value) ;
 
-constexpr ::Oculus::Platform::ShareMediaStatus __get_Status() const;
+constexpr Oculus::Platform::ShareMediaStatus __get_Status() const;
 
 
 // Methods
@@ -71,6 +70,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::ShareMediaResult);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::ShareMediaResult, "Oculus.Platform.Models", "ShareMediaResult");
+NEED_NO_BOX(Oculus::Platform::Models::ShareMediaResult);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::ShareMediaResult, "Oculus.Platform.Models", "ShareMediaResult");

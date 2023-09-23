@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class ITextElement;
@@ -36,6 +35,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::ITextElement);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ITextElement, "UnityEngine.UIElements", "ITextElement");
+NEED_NO_BOX(UnityEngine::UIElements::ITextElement);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::ITextElement, "UnityEngine.UIElements", "ITextElement");

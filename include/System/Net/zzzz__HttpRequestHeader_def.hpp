@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net {
 struct HttpRequestHeader;
@@ -106,131 +105,130 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field CacheControl offset 0
-static ::System::Net::HttpRequestHeader const CacheControl;
+static System::Net::HttpRequestHeader const CacheControl;
 
 /// @brief Field Connection offset 0
-static ::System::Net::HttpRequestHeader const Connection;
+static System::Net::HttpRequestHeader const Connection;
 
 /// @brief Field Date offset 0
-static ::System::Net::HttpRequestHeader const Date;
+static System::Net::HttpRequestHeader const Date;
 
 /// @brief Field KeepAlive offset 0
-static ::System::Net::HttpRequestHeader const KeepAlive;
+static System::Net::HttpRequestHeader const KeepAlive;
 
 /// @brief Field Pragma offset 0
-static ::System::Net::HttpRequestHeader const Pragma;
+static System::Net::HttpRequestHeader const Pragma;
 
 /// @brief Field Trailer offset 0
-static ::System::Net::HttpRequestHeader const Trailer;
+static System::Net::HttpRequestHeader const Trailer;
 
 /// @brief Field TransferEncoding offset 0
-static ::System::Net::HttpRequestHeader const TransferEncoding;
+static System::Net::HttpRequestHeader const TransferEncoding;
 
 /// @brief Field Upgrade offset 0
-static ::System::Net::HttpRequestHeader const Upgrade;
+static System::Net::HttpRequestHeader const Upgrade;
 
 /// @brief Field Via offset 0
-static ::System::Net::HttpRequestHeader const Via;
+static System::Net::HttpRequestHeader const Via;
 
 /// @brief Field Warning offset 0
-static ::System::Net::HttpRequestHeader const Warning;
+static System::Net::HttpRequestHeader const Warning;
 
 /// @brief Field Allow offset 0
-static ::System::Net::HttpRequestHeader const Allow;
+static System::Net::HttpRequestHeader const Allow;
 
 /// @brief Field ContentLength offset 0
-static ::System::Net::HttpRequestHeader const ContentLength;
+static System::Net::HttpRequestHeader const ContentLength;
 
 /// @brief Field ContentType offset 0
-static ::System::Net::HttpRequestHeader const ContentType;
+static System::Net::HttpRequestHeader const ContentType;
 
 /// @brief Field ContentEncoding offset 0
-static ::System::Net::HttpRequestHeader const ContentEncoding;
+static System::Net::HttpRequestHeader const ContentEncoding;
 
 /// @brief Field ContentLanguage offset 0
-static ::System::Net::HttpRequestHeader const ContentLanguage;
+static System::Net::HttpRequestHeader const ContentLanguage;
 
 /// @brief Field ContentLocation offset 0
-static ::System::Net::HttpRequestHeader const ContentLocation;
+static System::Net::HttpRequestHeader const ContentLocation;
 
 /// @brief Field ContentMd5 offset 0
-static ::System::Net::HttpRequestHeader const ContentMd5;
+static System::Net::HttpRequestHeader const ContentMd5;
 
 /// @brief Field ContentRange offset 0
-static ::System::Net::HttpRequestHeader const ContentRange;
+static System::Net::HttpRequestHeader const ContentRange;
 
 /// @brief Field Expires offset 0
-static ::System::Net::HttpRequestHeader const Expires;
+static System::Net::HttpRequestHeader const Expires;
 
 /// @brief Field LastModified offset 0
-static ::System::Net::HttpRequestHeader const LastModified;
+static System::Net::HttpRequestHeader const LastModified;
 
 /// @brief Field Accept offset 0
-static ::System::Net::HttpRequestHeader const Accept;
+static System::Net::HttpRequestHeader const Accept;
 
 /// @brief Field AcceptCharset offset 0
-static ::System::Net::HttpRequestHeader const AcceptCharset;
+static System::Net::HttpRequestHeader const AcceptCharset;
 
 /// @brief Field AcceptEncoding offset 0
-static ::System::Net::HttpRequestHeader const AcceptEncoding;
+static System::Net::HttpRequestHeader const AcceptEncoding;
 
 /// @brief Field AcceptLanguage offset 0
-static ::System::Net::HttpRequestHeader const AcceptLanguage;
+static System::Net::HttpRequestHeader const AcceptLanguage;
 
 /// @brief Field Authorization offset 0
-static ::System::Net::HttpRequestHeader const Authorization;
+static System::Net::HttpRequestHeader const Authorization;
 
 /// @brief Field Cookie offset 0
-static ::System::Net::HttpRequestHeader const Cookie;
+static System::Net::HttpRequestHeader const Cookie;
 
 /// @brief Field Expect offset 0
-static ::System::Net::HttpRequestHeader const Expect;
+static System::Net::HttpRequestHeader const Expect;
 
 /// @brief Field From offset 0
-static ::System::Net::HttpRequestHeader const From;
+static System::Net::HttpRequestHeader const From;
 
 /// @brief Field Host offset 0
-static ::System::Net::HttpRequestHeader const Host;
+static System::Net::HttpRequestHeader const Host;
 
 /// @brief Field IfMatch offset 0
-static ::System::Net::HttpRequestHeader const IfMatch;
+static System::Net::HttpRequestHeader const IfMatch;
 
 /// @brief Field IfModifiedSince offset 0
-static ::System::Net::HttpRequestHeader const IfModifiedSince;
+static System::Net::HttpRequestHeader const IfModifiedSince;
 
 /// @brief Field IfNoneMatch offset 0
-static ::System::Net::HttpRequestHeader const IfNoneMatch;
+static System::Net::HttpRequestHeader const IfNoneMatch;
 
 /// @brief Field IfRange offset 0
-static ::System::Net::HttpRequestHeader const IfRange;
+static System::Net::HttpRequestHeader const IfRange;
 
 /// @brief Field IfUnmodifiedSince offset 0
-static ::System::Net::HttpRequestHeader const IfUnmodifiedSince;
+static System::Net::HttpRequestHeader const IfUnmodifiedSince;
 
 /// @brief Field MaxForwards offset 0
-static ::System::Net::HttpRequestHeader const MaxForwards;
+static System::Net::HttpRequestHeader const MaxForwards;
 
 /// @brief Field ProxyAuthorization offset 0
-static ::System::Net::HttpRequestHeader const ProxyAuthorization;
+static System::Net::HttpRequestHeader const ProxyAuthorization;
 
 /// @brief Field Referer offset 0
-static ::System::Net::HttpRequestHeader const Referer;
+static System::Net::HttpRequestHeader const Referer;
 
 /// @brief Field Range offset 0
-static ::System::Net::HttpRequestHeader const Range;
+static System::Net::HttpRequestHeader const Range;
 
 /// @brief Field Te offset 0
-static ::System::Net::HttpRequestHeader const Te;
+static System::Net::HttpRequestHeader const Te;
 
 /// @brief Field Translate offset 0
-static ::System::Net::HttpRequestHeader const Translate;
+static System::Net::HttpRequestHeader const Translate;
 
 /// @brief Field UserAgent offset 0
-static ::System::Net::HttpRequestHeader const UserAgent;
+static System::Net::HttpRequestHeader const UserAgent;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::HttpRequestHeader, "System.Net", "HttpRequestHeader");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpRequestHeader, "System.Net", "HttpRequestHeader");

@@ -1,9 +1,8 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Org::BouncyCastle::Crypto::Tls {
-class Certificate;
+class TlsAuthentication;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class CertificateRequest;
@@ -12,7 +11,7 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCredentials;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsAuthentication;
+class Certificate;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -27,8 +26,8 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE ServerOnlyTlsAuthentication : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Tls::TlsAuthentication
-constexpr operator  ::Org::BouncyCastle::Crypto::Tls::TlsAuthentication() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Tls::TlsAuthentication
+constexpr operator  Org::BouncyCastle::Crypto::Tls::TlsAuthentication() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -64,10 +63,10 @@ constexpr explicit ServerOnlyTlsAuthentication(void* ptr) noexcept : ::bs_hook::
 // Methods
 
 /// @brief Method NotifyServerCertificate addr 0x0 size 0xffffffffffffffff virtual true final false
- void NotifyServerCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate serverCertificate) ;
+ void NotifyServerCertificate(Org::BouncyCastle::Crypto::Tls::Certificate serverCertificate) ;
 
 /// @brief Method GetClientCredentials addr 0xf08910 size 0x8 virtual true final true
- ::Org::BouncyCastle::Crypto::Tls::TlsCredentials GetClientCredentials(::Org::BouncyCastle::Crypto::Tls::CertificateRequest certificateRequest) ;
+ Org::BouncyCastle::Crypto::Tls::TlsCredentials GetClientCredentials(Org::BouncyCastle::Crypto::Tls::CertificateRequest certificateRequest) ;
 
 // Ctor Parameters []
 explicit ServerOnlyTlsAuthentication() ;
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::ServerOnlyTlsAuthentication);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::ServerOnlyTlsAuthentication, "Org.BouncyCastle.Crypto.Tls", "ServerOnlyTlsAuthentication");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::ServerOnlyTlsAuthentication);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::ServerOnlyTlsAuthentication, "Org.BouncyCastle.Crypto.Tls", "ServerOnlyTlsAuthentication");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Runtime::InteropServices {
 class ICustomMarshaler;
@@ -44,6 +43,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::InteropServices
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::InteropServices::ICustomMarshaler);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::ICustomMarshaler, "System.Runtime.InteropServices", "ICustomMarshaler");
+NEED_NO_BOX(System::Runtime::InteropServices::ICustomMarshaler);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::ICustomMarshaler, "System.Runtime.InteropServices", "ICustomMarshaler");

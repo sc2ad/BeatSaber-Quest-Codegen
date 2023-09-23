@@ -2,14 +2,13 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Priority_Queue/zzzz__SimplePriorityQueue_2_def.hpp"
 #include <cmath>
-namespace {
-namespace System::Collections::Generic {
-template<typename T>
-class IComparer_1;
-}
 namespace System {
 template<typename T>
 class Comparison_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IComparer_1;
 }
 // Forward declare root types
 namespace Priority_Queue {
@@ -26,10 +25,10 @@ namespace Priority_Queue {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TItem>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6169)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6168), inst: 3649 }), TypeDefinitionIndex(TypeDefinitionIndex(6168))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6168)), TypeDefinitionIndex(TypeDefinitionIndex(6169)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6168), inst: 3649 })}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6169), inst: 2 })
 // CS Name: Priority_Queue.SimplePriorityQueue`1
-class CORDL_TYPE SimplePriorityQueue_1<TItem> : public ::Priority_Queue::SimplePriorityQueue_2<TItem,float_t> {
+class CORDL_TYPE SimplePriorityQueue_1<TItem> : public Priority_Queue::SimplePriorityQueue_2<TItem,float_t> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -44,7 +43,7 @@ constexpr SimplePriorityQueue_1(SimplePriorityQueue_1 const& ) noexcept = defaul
 constexpr SimplePriorityQueue_1(SimplePriorityQueue_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SimplePriorityQueue_1(void* ptr) noexcept : ::Priority_Queue::SimplePriorityQueue_2<TItem,float_t>(ptr) {
+constexpr explicit SimplePriorityQueue_1(void* ptr) noexcept : Priority_Queue::SimplePriorityQueue_2<TItem,float_t>(ptr) {
 }
 
 
@@ -71,21 +70,20 @@ explicit SimplePriorityQueue_1() ;
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "comparer", ty: "::System::Collections::Generic::IComparer_1<float_t>", modifiers: "", def_value: None }]
-explicit SimplePriorityQueue_1(::System::Collections::Generic::IComparer_1<float_t> comparer) ;
+// Ctor Parameters [CppParam { name: "comparer", ty: "System::Collections::Generic::IComparer_1<float_t>", modifiers: "", def_value: None }]
+explicit SimplePriorityQueue_1(System::Collections::Generic::IComparer_1<float_t> comparer) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Collections::Generic::IComparer_1<float_t> comparer) ;
+ void _ctor(System::Collections::Generic::IComparer_1<float_t> comparer) ;
 
-// Ctor Parameters [CppParam { name: "comparer", ty: "::System::Comparison_1<float_t>", modifiers: "", def_value: None }]
-explicit SimplePriorityQueue_1(::System::Comparison_1<float_t> comparer) ;
+// Ctor Parameters [CppParam { name: "comparer", ty: "System::Comparison_1<float_t>", modifiers: "", def_value: None }]
+explicit SimplePriorityQueue_1(System::Comparison_1<float_t> comparer) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Comparison_1<float_t> comparer) ;
+ void _ctor(System::Comparison_1<float_t> comparer) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Priority_Queue
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Priority_Queue::SimplePriorityQueue_1, "Priority_Queue", "SimplePriorityQueue`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Priority_Queue::SimplePriorityQueue_1, "Priority_Queue", "SimplePriorityQueue`1");

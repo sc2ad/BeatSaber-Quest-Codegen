@@ -1,17 +1,16 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
+namespace Zenject {
+class DiContainer;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
-}
-namespace Zenject {
-class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -59,40 +58,40 @@ constexpr explicit LazyInstanceInjector(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 // Fields
 
- ::Zenject::DiContainer __declspec(property(get=__get__container, put=__set__container))  _container;
+ Zenject::DiContainer __declspec(property(get=__get__container, put=__set__container))  _container;
 
-constexpr void __set__container(::Zenject::DiContainer value) ;
+constexpr void __set__container(Zenject::DiContainer value) ;
 
-constexpr ::Zenject::DiContainer __get__container() const;
+constexpr Zenject::DiContainer __get__container() const;
 
- ::System::Collections::Generic::HashSet_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get__instancesToInject, put=__set__instancesToInject))  _instancesToInject;
+ System::Collections::Generic::HashSet_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get__instancesToInject, put=__set__instancesToInject))  _instancesToInject;
 
-constexpr void __set__instancesToInject(::System::Collections::Generic::HashSet_1<::bs_hook::Il2CppWrapperType> value) ;
+constexpr void __set__instancesToInject(System::Collections::Generic::HashSet_1<::bs_hook::Il2CppWrapperType> value) ;
 
-constexpr ::System::Collections::Generic::HashSet_1<::bs_hook::Il2CppWrapperType> __get__instancesToInject() const;
+constexpr System::Collections::Generic::HashSet_1<::bs_hook::Il2CppWrapperType> __get__instancesToInject() const;
 
 
 // Properties
 
- ::System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=get_Instances))  Instances;
+ System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=get_Instances))  Instances;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "::Zenject::DiContainer", modifiers: "", def_value: None }]
-explicit LazyInstanceInjector(::Zenject::DiContainer container) ;
+// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }]
+explicit LazyInstanceInjector(Zenject::DiContainer container) ;
 
 /// @brief Method .ctor addr 0x2d8ac14 size 0x90 virtual false final false
- void _ctor(::Zenject::DiContainer container) ;
+ void _ctor(Zenject::DiContainer container) ;
 
 /// @brief Method get_Instances addr 0x2d8aca4 size 0x8 virtual false final false
- ::System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType> get_Instances() ;
+ System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType> get_Instances() ;
 
 /// @brief Method AddInstance addr 0x2d8acac size 0x58 virtual false final false
  void AddInstance(::bs_hook::Il2CppWrapperType instance) ;
 
 /// @brief Method AddInstances addr 0x2d8ad04 size 0x58 virtual false final false
- void AddInstances(::System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType> instances) ;
+ void AddInstances(System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType> instances) ;
 
 /// @brief Method LazyInject addr 0x2d8ad5c size 0x7c virtual false final false
  void LazyInject(::bs_hook::Il2CppWrapperType instance) ;
@@ -104,6 +103,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::LazyInstanceInjector);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::LazyInstanceInjector, "Zenject", "LazyInstanceInjector");
+NEED_NO_BOX(Zenject::LazyInstanceInjector);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::LazyInstanceInjector, "Zenject", "LazyInstanceInjector");

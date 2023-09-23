@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class CrashManagerSO;
 }
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5712))
 // CS Name: CrashInfoViewController
-class CORDL_TYPE CrashInfoViewController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE CrashInfoViewController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr CrashInfoViewController(CrashInfoViewController const& ) noexcept = de
 constexpr CrashInfoViewController(CrashInfoViewController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CrashInfoViewController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit CrashInfoViewController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -54,17 +53,17 @@ constexpr explicit CrashInfoViewController(void* ptr) noexcept : ::UnityEngine::
 
 // Fields
 
- ::GlobalNamespace::CrashManagerSO __declspec(property(get=__get__crashManager, put=__set__crashManager))  _crashManager;
+ GlobalNamespace::CrashManagerSO __declspec(property(get=__get__crashManager, put=__set__crashManager))  _crashManager;
 
-constexpr void __set__crashManager(::GlobalNamespace::CrashManagerSO value) ;
+constexpr void __set__crashManager(GlobalNamespace::CrashManagerSO value) ;
 
-constexpr ::GlobalNamespace::CrashManagerSO __get__crashManager() const;
+constexpr GlobalNamespace::CrashManagerSO __get__crashManager() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__text, put=__set__text))  _text;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__text, put=__set__text))  _text;
 
-constexpr void __set__text(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__text(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__text() const;
+constexpr TMPro::TextMeshProUGUI __get__text() const;
 
 
 // Methods
@@ -82,6 +81,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::CrashInfoViewController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CrashInfoViewController, "", "CrashInfoViewController");
+NEED_NO_BOX(GlobalNamespace::CrashInfoViewController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CrashInfoViewController, "", "CrashInfoViewController");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class Type;
 }
@@ -74,11 +73,11 @@ constexpr ::StringW __get__elementNamespace_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "t", ty: "::System::Type", modifiers: "", def_value: None }]
-explicit UxmlChildElementDescription(::System::Type t) ;
+// Ctor Parameters [CppParam { name: "t", ty: "System::Type", modifiers: "", def_value: None }]
+explicit UxmlChildElementDescription(System::Type t) ;
 
 /// @brief Method .ctor addr 0x2c9db78 size 0xa0 virtual false final false
- void _ctor(::System::Type t) ;
+ void _ctor(System::Type t) ;
 
 /// @brief Method set_elementName addr 0x2c9dc18 size 0x8 virtual false final false
  void set_elementName(::StringW value) ;
@@ -90,6 +89,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::UxmlChildElementDescription);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UxmlChildElementDescription, "UnityEngine.UIElements", "UxmlChildElementDescription");
+NEED_NO_BOX(UnityEngine::UIElements::UxmlChildElementDescription);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UxmlChildElementDescription, "UnityEngine.UIElements", "UxmlChildElementDescription");

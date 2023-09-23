@@ -1,18 +1,17 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
 namespace UnityEngine::UIElements {
 struct AddressMode;
 }
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine {
-struct RectInt;
-}
 namespace UnityEngine::UIElements {
 struct GradientType;
+}
+namespace UnityEngine {
+struct RectInt;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -27,8 +26,8 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE GradientSettings : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "gradientType", ty: "::UnityEngine::UIElements::GradientType", modifiers: "", def_value: None }, CppParam { name: "addressMode", ty: "::UnityEngine::UIElements::AddressMode", modifiers: "", def_value: None }, CppParam { name: "radialFocus", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "location", ty: "::UnityEngine::RectInt", modifiers: "", def_value: None }]
-constexpr GradientSettings(::UnityEngine::UIElements::GradientType gradientType, ::UnityEngine::UIElements::AddressMode addressMode, ::UnityEngine::Vector2 radialFocus, ::UnityEngine::RectInt location) noexcept;
+// Ctor Parameters [CppParam { name: "gradientType", ty: "UnityEngine::UIElements::GradientType", modifiers: "", def_value: None }, CppParam { name: "addressMode", ty: "UnityEngine::UIElements::AddressMode", modifiers: "", def_value: None }, CppParam { name: "radialFocus", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "location", ty: "UnityEngine::RectInt", modifiers: "", def_value: None }]
+constexpr GradientSettings(UnityEngine::UIElements::GradientType gradientType, UnityEngine::UIElements::AddressMode addressMode, UnityEngine::Vector2 radialFocus, UnityEngine::RectInt location) noexcept;
 
 
                     constexpr GradientSettings(GradientSettings const&) = default;
@@ -61,33 +60,32 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::UIElements::GradientType __declspec(property(get=__get_gradientType, put=__set_gradientType))  gradientType;
+ UnityEngine::UIElements::GradientType __declspec(property(get=__get_gradientType, put=__set_gradientType))  gradientType;
 
-constexpr void __set_gradientType(::UnityEngine::UIElements::GradientType value) ;
+constexpr void __set_gradientType(UnityEngine::UIElements::GradientType value) ;
 
-constexpr ::UnityEngine::UIElements::GradientType __get_gradientType() const;
+constexpr UnityEngine::UIElements::GradientType __get_gradientType() const;
 
- ::UnityEngine::UIElements::AddressMode __declspec(property(get=__get_addressMode, put=__set_addressMode))  addressMode;
+ UnityEngine::UIElements::AddressMode __declspec(property(get=__get_addressMode, put=__set_addressMode))  addressMode;
 
-constexpr void __set_addressMode(::UnityEngine::UIElements::AddressMode value) ;
+constexpr void __set_addressMode(UnityEngine::UIElements::AddressMode value) ;
 
-constexpr ::UnityEngine::UIElements::AddressMode __get_addressMode() const;
+constexpr UnityEngine::UIElements::AddressMode __get_addressMode() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_radialFocus, put=__set_radialFocus))  radialFocus;
+ UnityEngine::Vector2 __declspec(property(get=__get_radialFocus, put=__set_radialFocus))  radialFocus;
 
-constexpr void __set_radialFocus(::UnityEngine::Vector2 value) ;
+constexpr void __set_radialFocus(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_radialFocus() const;
+constexpr UnityEngine::Vector2 __get_radialFocus() const;
 
- ::UnityEngine::RectInt __declspec(property(get=__get_location, put=__set_location))  location;
+ UnityEngine::RectInt __declspec(property(get=__get_location, put=__set_location))  location;
 
-constexpr void __set_location(::UnityEngine::RectInt value) ;
+constexpr void __set_location(UnityEngine::RectInt value) ;
 
-constexpr ::UnityEngine::RectInt __get_location() const;
+constexpr UnityEngine::RectInt __get_location() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::GradientSettings, "UnityEngine.UIElements", "GradientSettings");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::GradientSettings, "UnityEngine.UIElements", "GradientSettings");

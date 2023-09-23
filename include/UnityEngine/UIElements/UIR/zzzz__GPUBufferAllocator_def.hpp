@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine::UIElements::UIR {
 struct Alloc;
 }
@@ -55,17 +54,17 @@ constexpr explicit GPUBufferAllocator(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Fields
 
- ::UnityEngine::UIElements::UIR::BestFitAllocator __declspec(property(get=__get_m_Low, put=__set_m_Low))  m_Low;
+ UnityEngine::UIElements::UIR::BestFitAllocator __declspec(property(get=__get_m_Low, put=__set_m_Low))  m_Low;
 
-constexpr void __set_m_Low(::UnityEngine::UIElements::UIR::BestFitAllocator value) ;
+constexpr void __set_m_Low(UnityEngine::UIElements::UIR::BestFitAllocator value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::BestFitAllocator __get_m_Low() const;
+constexpr UnityEngine::UIElements::UIR::BestFitAllocator __get_m_Low() const;
 
- ::UnityEngine::UIElements::UIR::BestFitAllocator __declspec(property(get=__get_m_High, put=__set_m_High))  m_High;
+ UnityEngine::UIElements::UIR::BestFitAllocator __declspec(property(get=__get_m_High, put=__set_m_High))  m_High;
 
-constexpr void __set_m_High(::UnityEngine::UIElements::UIR::BestFitAllocator value) ;
+constexpr void __set_m_High(UnityEngine::UIElements::UIR::BestFitAllocator value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::BestFitAllocator __get_m_High() const;
+constexpr UnityEngine::UIElements::UIR::BestFitAllocator __get_m_High() const;
 
 
 // Properties
@@ -82,10 +81,10 @@ explicit GPUBufferAllocator(uint32_t maxSize) ;
  void _ctor(uint32_t maxSize) ;
 
 /// @brief Method Allocate addr 0x2c58198 size 0x13c virtual false final false
- ::UnityEngine::UIElements::UIR::Alloc Allocate(uint32_t size, bool shortLived) ;
+ UnityEngine::UIElements::UIR::Alloc Allocate(uint32_t size, bool shortLived) ;
 
 /// @brief Method Free addr 0x2c582d4 size 0x84 virtual false final false
- void Free(::UnityEngine::UIElements::UIR::Alloc alloc) ;
+ void Free(UnityEngine::UIElements::UIR::Alloc alloc) ;
 
 /// @brief Method get_isEmpty addr 0x2c5c814 size 0x3c virtual false final false
  bool get_isEmpty() ;
@@ -97,6 +96,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::UIR
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::UIR::GPUBufferAllocator);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::GPUBufferAllocator, "UnityEngine.UIElements.UIR", "GPUBufferAllocator");
+NEED_NO_BOX(UnityEngine::UIElements::UIR::GPUBufferAllocator);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::GPUBufferAllocator, "UnityEngine.UIElements.UIR", "GPUBufferAllocator");

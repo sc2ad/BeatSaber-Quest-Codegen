@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct EVRControllerAxisType;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field k_eControllerAxis_None offset 0
-static ::OVR::OpenVR::EVRControllerAxisType const k_eControllerAxis_None;
+static OVR::OpenVR::EVRControllerAxisType const k_eControllerAxis_None;
 
 /// @brief Field k_eControllerAxis_TrackPad offset 0
-static ::OVR::OpenVR::EVRControllerAxisType const k_eControllerAxis_TrackPad;
+static OVR::OpenVR::EVRControllerAxisType const k_eControllerAxis_TrackPad;
 
 /// @brief Field k_eControllerAxis_Joystick offset 0
-static ::OVR::OpenVR::EVRControllerAxisType const k_eControllerAxis_Joystick;
+static OVR::OpenVR::EVRControllerAxisType const k_eControllerAxis_Joystick;
 
 /// @brief Field k_eControllerAxis_Trigger offset 0
-static ::OVR::OpenVR::EVRControllerAxisType const k_eControllerAxis_Trigger;
+static OVR::OpenVR::EVRControllerAxisType const k_eControllerAxis_Trigger;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRControllerAxisType, "OVR.OpenVR", "EVRControllerAxisType");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRControllerAxisType, "OVR.OpenVR", "EVRControllerAxisType");

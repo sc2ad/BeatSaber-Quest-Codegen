@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
 class LanguagePackInfo;
 }
@@ -83,17 +82,17 @@ constexpr void __set_IapStatus(::StringW value) ;
 
 constexpr ::StringW __get_IapStatus() const;
 
- ::Oculus::Platform::Models::LanguagePackInfo __declspec(property(get=__get_LanguageOptional, put=__set_LanguageOptional))  LanguageOptional;
+ Oculus::Platform::Models::LanguagePackInfo __declspec(property(get=__get_LanguageOptional, put=__set_LanguageOptional))  LanguageOptional;
 
-constexpr void __set_LanguageOptional(::Oculus::Platform::Models::LanguagePackInfo value) ;
+constexpr void __set_LanguageOptional(Oculus::Platform::Models::LanguagePackInfo value) ;
 
-constexpr ::Oculus::Platform::Models::LanguagePackInfo __get_LanguageOptional() const;
+constexpr Oculus::Platform::Models::LanguagePackInfo __get_LanguageOptional() const;
 
- ::Oculus::Platform::Models::LanguagePackInfo __declspec(property(get=__get_Language, put=__set_Language))  Language;
+ Oculus::Platform::Models::LanguagePackInfo __declspec(property(get=__get_Language, put=__set_Language))  Language;
 
-constexpr void __set_Language(::Oculus::Platform::Models::LanguagePackInfo value) ;
+constexpr void __set_Language(Oculus::Platform::Models::LanguagePackInfo value) ;
 
-constexpr ::Oculus::Platform::Models::LanguagePackInfo __get_Language() const;
+constexpr Oculus::Platform::Models::LanguagePackInfo __get_Language() const;
 
  ::StringW __declspec(property(get=__get_Metadata, put=__set_Metadata))  Metadata;
 
@@ -114,6 +113,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::AssetDetails);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::AssetDetails, "Oculus.Platform.Models", "AssetDetails");
+NEED_NO_BOX(Oculus::Platform::Models::AssetDetails);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AssetDetails, "Oculus.Platform.Models", "AssetDetails");

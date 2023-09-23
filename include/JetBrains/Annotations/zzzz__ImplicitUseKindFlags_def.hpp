@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace JetBrains::Annotations {
 struct ImplicitUseKindFlags;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Default offset 0
-static ::JetBrains::Annotations::ImplicitUseKindFlags const Default;
+static JetBrains::Annotations::ImplicitUseKindFlags const Default;
 
 /// @brief Field Access offset 0
-static ::JetBrains::Annotations::ImplicitUseKindFlags const Access;
+static JetBrains::Annotations::ImplicitUseKindFlags const Access;
 
 /// @brief Field Assign offset 0
-static ::JetBrains::Annotations::ImplicitUseKindFlags const Assign;
+static JetBrains::Annotations::ImplicitUseKindFlags const Assign;
 
 /// @brief Field InstantiatedWithFixedConstructorSignature offset 0
-static ::JetBrains::Annotations::ImplicitUseKindFlags const InstantiatedWithFixedConstructorSignature;
+static JetBrains::Annotations::ImplicitUseKindFlags const InstantiatedWithFixedConstructorSignature;
 
 /// @brief Field InstantiatedNoFixedConstructorSignature offset 0
-static ::JetBrains::Annotations::ImplicitUseKindFlags const InstantiatedNoFixedConstructorSignature;
+static JetBrains::Annotations::ImplicitUseKindFlags const InstantiatedNoFixedConstructorSignature;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def JetBrains::Annotations
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::JetBrains::Annotations::ImplicitUseKindFlags, "JetBrains.Annotations", "ImplicitUseKindFlags");
+DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::ImplicitUseKindFlags, "JetBrains.Annotations", "ImplicitUseKindFlags");

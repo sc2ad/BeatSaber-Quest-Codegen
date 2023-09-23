@@ -2,16 +2,15 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine::UIElements {
-class UIDocument;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace UnityEngine::UIElements {
+class UIDocument;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -59,20 +58,20 @@ constexpr explicit UIDocumentList(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
- ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIDocument> __declspec(property(get=__get_m_AttachedUIDocuments, put=__set_m_AttachedUIDocuments))  m_AttachedUIDocuments;
+ System::Collections::Generic::List_1<UnityEngine::UIElements::UIDocument> __declspec(property(get=__get_m_AttachedUIDocuments, put=__set_m_AttachedUIDocuments))  m_AttachedUIDocuments;
 
-constexpr void __set_m_AttachedUIDocuments(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIDocument> value) ;
+constexpr void __set_m_AttachedUIDocuments(System::Collections::Generic::List_1<UnityEngine::UIElements::UIDocument> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIDocument> __get_m_AttachedUIDocuments() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::UIElements::UIDocument> __get_m_AttachedUIDocuments() const;
 
 
 // Methods
 
 /// @brief Method RemoveFromListAndFromVisualTree addr 0x2c9e098 size 0x78 virtual false final false
- void RemoveFromListAndFromVisualTree(::UnityEngine::UIElements::UIDocument uiDocument) ;
+ void RemoveFromListAndFromVisualTree(UnityEngine::UIElements::UIDocument uiDocument) ;
 
 /// @brief Method AddToListAndToVisualTree addr 0x2c9e118 size 0x354 virtual false final false
- void AddToListAndToVisualTree(::UnityEngine::UIElements::UIDocument uiDocument, ::UnityEngine::UIElements::VisualElement visualTree, int32_t firstInsertIndex) ;
+ void AddToListAndToVisualTree(UnityEngine::UIElements::UIDocument uiDocument, UnityEngine::UIElements::VisualElement visualTree, int32_t firstInsertIndex) ;
 
 // Ctor Parameters []
 explicit UIDocumentList() ;
@@ -84,6 +83,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::UIDocumentList);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIDocumentList, "UnityEngine.UIElements", "UIDocumentList");
+NEED_NO_BOX(UnityEngine::UIElements::UIDocumentList);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIDocumentList, "UnityEngine.UIElements", "UIDocumentList");

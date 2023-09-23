@@ -4,15 +4,8 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace System::Collections {
 class IEnumerator;
-}
-namespace UnityEngine {
-class Coroutine;
-}
-namespace UnityEngine {
-class AudioSource;
 }
 namespace System {
 class IDisposable;
@@ -21,15 +14,21 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
+namespace UnityEngine {
+class AudioSource;
+}
+namespace UnityEngine {
+class Coroutine;
+}
 // Forward declare root types
 namespace GlobalNamespace {
+class GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10;
+}
+namespace GlobalNamespace {
 class RandomizedPitch;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10;
 }
 // Type: ::<PlayDelayedCoroutine>d__9
 namespace GlobalNamespace {
@@ -37,46 +36,46 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13729))
 // CS Name: RandomizedPitch::<PlayDelayedCoroutine>d__9
-class CORDL_TYPE ____GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9() = default;
+virtual ~GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9(____GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9(GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9(____GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9(GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9& operator=(____GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9&& o) noexcept = default;
-  constexpr ____GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9& operator=(____GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9 const& o) noexcept = default;
+  constexpr GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9& operator=(GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9&& o) noexcept = default;
+  constexpr GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9& operator=(GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9 const& o) noexcept = default;
                 
 
 
@@ -100,11 +99,11 @@ constexpr void __set_delay(float_t value) ;
 
 constexpr float_t __get_delay() const;
 
- ::GlobalNamespace::RandomizedPitch __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::RandomizedPitch __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::RandomizedPitch value) ;
+constexpr void __set___4__this(GlobalNamespace::RandomizedPitch value) ;
 
-constexpr ::GlobalNamespace::RandomizedPitch __get___4__this() const;
+constexpr GlobalNamespace::RandomizedPitch __get___4__this() const;
 
 
 // Properties
@@ -117,7 +116,7 @@ constexpr ::GlobalNamespace::RandomizedPitch __get___4__this() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9(int32_t __1__state) ;
+explicit GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1f6ff60 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -147,46 +146,46 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13730))
 // CS Name: RandomizedPitch::<RestorePitchWithDelay>d__10
-class CORDL_TYPE ____GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10() = default;
+virtual ~GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10(____GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10(GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10(____GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10(GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10& operator=(____GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10&& o) noexcept = default;
-  constexpr ____GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10& operator=(____GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10 const& o) noexcept = default;
+  constexpr GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10& operator=(GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10&& o) noexcept = default;
+  constexpr GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10& operator=(GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10 const& o) noexcept = default;
                 
 
 
@@ -210,11 +209,11 @@ constexpr void __set_delay(float_t value) ;
 
 constexpr float_t __get_delay() const;
 
- ::GlobalNamespace::RandomizedPitch __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::RandomizedPitch __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::RandomizedPitch value) ;
+constexpr void __set___4__this(GlobalNamespace::RandomizedPitch value) ;
 
-constexpr ::GlobalNamespace::RandomizedPitch __get___4__this() const;
+constexpr GlobalNamespace::RandomizedPitch __get___4__this() const;
 
 
 // Properties
@@ -227,7 +226,7 @@ constexpr ::GlobalNamespace::RandomizedPitch __get___4__this() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10(int32_t __1__state) ;
+explicit GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1f6ff88 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -257,12 +256,12 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13731))
 // CS Name: RandomizedPitch
-class CORDL_TYPE RandomizedPitch : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE RandomizedPitch : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using _RestorePitchWithDelay_d__10 = ::GlobalNamespace::____GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10;
+using _RestorePitchWithDelay_d__10 = GlobalNamespace::GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10;
 
-using _PlayDelayedCoroutine_d__9 = ::GlobalNamespace::____GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9;
+using _PlayDelayedCoroutine_d__9 = GlobalNamespace::GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -276,7 +275,7 @@ constexpr RandomizedPitch(RandomizedPitch const& ) noexcept = default;
 constexpr RandomizedPitch(RandomizedPitch&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RandomizedPitch(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit RandomizedPitch(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -297,11 +296,11 @@ constexpr explicit RandomizedPitch(void* ptr) noexcept : ::UnityEngine::MonoBeha
 
 // Fields
 
- ::UnityEngine::AudioSource __declspec(property(get=__get__audioSource, put=__set__audioSource))  _audioSource;
+ UnityEngine::AudioSource __declspec(property(get=__get__audioSource, put=__set__audioSource))  _audioSource;
 
-constexpr void __set__audioSource(::UnityEngine::AudioSource value) ;
+constexpr void __set__audioSource(UnityEngine::AudioSource value) ;
 
-constexpr ::UnityEngine::AudioSource __get__audioSource() const;
+constexpr UnityEngine::AudioSource __get__audioSource() const;
 
  float_t __declspec(property(get=__get__minPitchMultiplier, put=__set__minPitchMultiplier))  _minPitchMultiplier;
 
@@ -327,11 +326,11 @@ constexpr void __set__originalPitch(float_t value) ;
 
 constexpr float_t __get__originalPitch() const;
 
- ::UnityEngine::Coroutine __declspec(property(get=__get__restoringCoroutine, put=__set__restoringCoroutine))  _restoringCoroutine;
+ UnityEngine::Coroutine __declspec(property(get=__get__restoringCoroutine, put=__set__restoringCoroutine))  _restoringCoroutine;
 
-constexpr void __set__restoringCoroutine(::UnityEngine::Coroutine value) ;
+constexpr void __set__restoringCoroutine(UnityEngine::Coroutine value) ;
 
-constexpr ::UnityEngine::Coroutine __get__restoringCoroutine() const;
+constexpr UnityEngine::Coroutine __get__restoringCoroutine() const;
 
 
 // Methods
@@ -346,10 +345,10 @@ constexpr ::UnityEngine::Coroutine __get__restoringCoroutine() const;
  void PlayDelayed(float_t delay) ;
 
 /// @brief Method PlayDelayedCoroutine addr 0x1f6fee8 size 0x78 virtual false final false
- ::System::Collections::IEnumerator PlayDelayedCoroutine(float_t delay) ;
+ System::Collections::IEnumerator PlayDelayedCoroutine(float_t delay) ;
 
 /// @brief Method RestorePitchWithDelay addr 0x1f6fe38 size 0x78 virtual false final false
- ::System::Collections::IEnumerator RestorePitchWithDelay(float_t delay) ;
+ System::Collections::IEnumerator RestorePitchWithDelay(float_t delay) ;
 
 // Ctor Parameters []
 explicit RandomizedPitch() ;
@@ -361,10 +360,9 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::RandomizedPitch);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RandomizedPitch, "", "RandomizedPitch");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9, "", "RandomizedPitch/<PlayDelayedCoroutine>d__9");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10, "", "RandomizedPitch/<RestorePitchWithDelay>d__10");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9, "", "RandomizedPitch/<PlayDelayedCoroutine>d__9");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10, "", "RandomizedPitch/<RestorePitchWithDelay>d__10");
+NEED_NO_BOX(GlobalNamespace::RandomizedPitch);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RandomizedPitch, "", "RandomizedPitch");

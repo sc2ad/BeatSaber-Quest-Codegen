@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 struct Color;
 }
@@ -84,10 +83,10 @@ explicit CIELabColor(float_t L, float_t a, float_t b) ;
  void _ctor(float_t L, float_t a, float_t b) ;
 
 /// @brief Method FromXYZ addr 0x29aa10c size 0x54 virtual false final false
-static ::UnityEngine::ProBuilder::CIELabColor FromXYZ(::UnityEngine::ProBuilder::XYZColor xyz) ;
+static UnityEngine::ProBuilder::CIELabColor FromXYZ(UnityEngine::ProBuilder::XYZColor xyz) ;
 
 /// @brief Method FromRGB addr 0x29aa2c4 size 0x8c virtual false final false
-static ::UnityEngine::ProBuilder::CIELabColor FromRGB(::UnityEngine::Color col) ;
+static UnityEngine::ProBuilder::CIELabColor FromRGB(UnityEngine::Color col) ;
 
 /// @brief Method ToString addr 0x29aa350 size 0xc4 virtual true final false
  ::StringW ToString() ;
@@ -96,6 +95,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::CIELabColor);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::CIELabColor, "UnityEngine.ProBuilder", "CIELabColor");
+NEED_NO_BOX(UnityEngine::ProBuilder::CIELabColor);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::CIELabColor, "UnityEngine.ProBuilder", "CIELabColor");

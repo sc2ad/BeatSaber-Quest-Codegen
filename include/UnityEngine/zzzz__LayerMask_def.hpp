@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct LayerMask;
@@ -67,10 +66,10 @@ constexpr int32_t __get_m_Mask() const;
 // Methods
 
 /// @brief Method op_Implicit addr 0x2b599a4 size 0x4 virtual false final false
-static int32_t op_Implicit_int32_t(::UnityEngine::LayerMask mask) ;
+static int32_t op_Implicit_int32_t(UnityEngine::LayerMask mask) ;
 
 /// @brief Method op_Implicit addr 0x2b599a8 size 0x8 virtual false final false
-static ::UnityEngine::LayerMask op_Implicit___UnityEngine__LayerMask(int32_t intVal) ;
+static UnityEngine::LayerMask op_Implicit_UnityEngine__LayerMask(int32_t intVal) ;
 
 /// @brief Method get_value addr 0x2b599b0 size 0x8 virtual false final false
  int32_t get_value() ;
@@ -91,5 +90,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::LayerMask, "UnityEngine", "LayerMask");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LayerMask, "UnityEngine", "LayerMask");

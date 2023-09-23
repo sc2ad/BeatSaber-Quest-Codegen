@@ -2,28 +2,27 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
+namespace UnityEngine {
+class Transform;
+}
+namespace GlobalNamespace {
+class HologramRays;
+}
 namespace Tweening {
 class TimeTweeningManager;
 }
 namespace UnityEngine {
-class Transform;
-}
-namespace Tweening {
-template<typename T>
-class Tween_1;
-}
-namespace UnityEngine {
 struct Vector3;
-}
-namespace GlobalNamespace {
-class HologramRays;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace GlobalNamespace {
 struct EaseType;
+}
+namespace Tweening {
+template<typename T>
+class Tween_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,7 +34,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5290))
 // CS Name: MultiplayerBigAvatarAnimator
-class CORDL_TYPE MultiplayerBigAvatarAnimator : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerBigAvatarAnimator : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -50,7 +49,7 @@ constexpr MultiplayerBigAvatarAnimator(MultiplayerBigAvatarAnimator const& ) noe
 constexpr MultiplayerBigAvatarAnimator(MultiplayerBigAvatarAnimator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerBigAvatarAnimator(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerBigAvatarAnimator(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -77,35 +76,35 @@ constexpr void __set__displayedScale(float_t value) ;
 
 constexpr float_t __get__displayedScale() const;
 
- ::GlobalNamespace::HologramRays __declspec(property(get=__get__hologramRays, put=__set__hologramRays))  _hologramRays;
+ GlobalNamespace::HologramRays __declspec(property(get=__get__hologramRays, put=__set__hologramRays))  _hologramRays;
 
-constexpr void __set__hologramRays(::GlobalNamespace::HologramRays value) ;
+constexpr void __set__hologramRays(GlobalNamespace::HologramRays value) ;
 
-constexpr ::GlobalNamespace::HologramRays __get__hologramRays() const;
+constexpr GlobalNamespace::HologramRays __get__hologramRays() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__avatarTransform, put=__set__avatarTransform))  _avatarTransform;
+ UnityEngine::Transform __declspec(property(get=__get__avatarTransform, put=__set__avatarTransform))  _avatarTransform;
 
-constexpr void __set__avatarTransform(::UnityEngine::Transform value) ;
+constexpr void __set__avatarTransform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__avatarTransform() const;
+constexpr UnityEngine::Transform __get__avatarTransform() const;
 
- ::Tweening::TimeTweeningManager __declspec(property(get=__get__tweeningManager, put=__set__tweeningManager))  _tweeningManager;
+ Tweening::TimeTweeningManager __declspec(property(get=__get__tweeningManager, put=__set__tweeningManager))  _tweeningManager;
 
-constexpr void __set__tweeningManager(::Tweening::TimeTweeningManager value) ;
+constexpr void __set__tweeningManager(Tweening::TimeTweeningManager value) ;
 
-constexpr ::Tweening::TimeTweeningManager __get__tweeningManager() const;
+constexpr Tweening::TimeTweeningManager __get__tweeningManager() const;
 
- ::Tweening::Tween_1<float_t> __declspec(property(get=__get__scaleUpTween, put=__set__scaleUpTween))  _scaleUpTween;
+ Tweening::Tween_1<float_t> __declspec(property(get=__get__scaleUpTween, put=__set__scaleUpTween))  _scaleUpTween;
 
-constexpr void __set__scaleUpTween(::Tweening::Tween_1<float_t> value) ;
+constexpr void __set__scaleUpTween(Tweening::Tween_1<float_t> value) ;
 
-constexpr ::Tweening::Tween_1<float_t> __get__scaleUpTween() const;
+constexpr Tweening::Tween_1<float_t> __get__scaleUpTween() const;
 
- ::Tweening::Tween_1<float_t> __declspec(property(get=__get__scaleDownTween, put=__set__scaleDownTween))  _scaleDownTween;
+ Tweening::Tween_1<float_t> __declspec(property(get=__get__scaleDownTween, put=__set__scaleDownTween))  _scaleDownTween;
 
-constexpr void __set__scaleDownTween(::Tweening::Tween_1<float_t> value) ;
+constexpr void __set__scaleDownTween(Tweening::Tween_1<float_t> value) ;
 
-constexpr ::Tweening::Tween_1<float_t> __get__scaleDownTween() const;
+constexpr Tweening::Tween_1<float_t> __get__scaleDownTween() const;
 
  bool __declspec(property(get=__get__initialized, put=__set__initialized))  _initialized;
 
@@ -123,13 +122,13 @@ constexpr bool __get__initialized() const;
  void InitIfNeeded() ;
 
 /// @brief Method SetPositionAndRotation addr 0x20f01c4 size 0x78 virtual false final false
- void SetPositionAndRotation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation) ;
+ void SetPositionAndRotation(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation) ;
 
 /// @brief Method HideInstant addr 0x20f023c size 0xa8 virtual false final false
  void HideInstant() ;
 
 /// @brief Method Animate addr 0x20f02e4 size 0x1d4 virtual false final false
- void Animate(bool show, float_t duration, ::GlobalNamespace::EaseType easeType) ;
+ void Animate(bool show, float_t duration, GlobalNamespace::EaseType easeType) ;
 
 // Ctor Parameters []
 explicit MultiplayerBigAvatarAnimator() ;
@@ -150,6 +149,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerBigAvatarAnimator);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerBigAvatarAnimator, "", "MultiplayerBigAvatarAnimator");
+NEED_NO_BOX(GlobalNamespace::MultiplayerBigAvatarAnimator);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerBigAvatarAnimator, "", "MultiplayerBigAvatarAnimator");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net::Sockets {
 struct SocketError;
@@ -112,149 +111,148 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Success offset 0
-static ::System::Net::Sockets::SocketError const Success;
+static System::Net::Sockets::SocketError const Success;
 
 /// @brief Field SocketError offset 0
-static ::System::Net::Sockets::SocketError const SocketError;
+static System::Net::Sockets::SocketError const SocketError;
 
 /// @brief Field Interrupted offset 0
-static ::System::Net::Sockets::SocketError const Interrupted;
+static System::Net::Sockets::SocketError const Interrupted;
 
 /// @brief Field AccessDenied offset 0
-static ::System::Net::Sockets::SocketError const AccessDenied;
+static System::Net::Sockets::SocketError const AccessDenied;
 
 /// @brief Field Fault offset 0
-static ::System::Net::Sockets::SocketError const Fault;
+static System::Net::Sockets::SocketError const Fault;
 
 /// @brief Field InvalidArgument offset 0
-static ::System::Net::Sockets::SocketError const InvalidArgument;
+static System::Net::Sockets::SocketError const InvalidArgument;
 
 /// @brief Field TooManyOpenSockets offset 0
-static ::System::Net::Sockets::SocketError const TooManyOpenSockets;
+static System::Net::Sockets::SocketError const TooManyOpenSockets;
 
 /// @brief Field WouldBlock offset 0
-static ::System::Net::Sockets::SocketError const WouldBlock;
+static System::Net::Sockets::SocketError const WouldBlock;
 
 /// @brief Field InProgress offset 0
-static ::System::Net::Sockets::SocketError const InProgress;
+static System::Net::Sockets::SocketError const InProgress;
 
 /// @brief Field AlreadyInProgress offset 0
-static ::System::Net::Sockets::SocketError const AlreadyInProgress;
+static System::Net::Sockets::SocketError const AlreadyInProgress;
 
 /// @brief Field NotSocket offset 0
-static ::System::Net::Sockets::SocketError const NotSocket;
+static System::Net::Sockets::SocketError const NotSocket;
 
 /// @brief Field DestinationAddressRequired offset 0
-static ::System::Net::Sockets::SocketError const DestinationAddressRequired;
+static System::Net::Sockets::SocketError const DestinationAddressRequired;
 
 /// @brief Field MessageSize offset 0
-static ::System::Net::Sockets::SocketError const MessageSize;
+static System::Net::Sockets::SocketError const MessageSize;
 
 /// @brief Field ProtocolType offset 0
-static ::System::Net::Sockets::SocketError const ProtocolType;
+static System::Net::Sockets::SocketError const ProtocolType;
 
 /// @brief Field ProtocolOption offset 0
-static ::System::Net::Sockets::SocketError const ProtocolOption;
+static System::Net::Sockets::SocketError const ProtocolOption;
 
 /// @brief Field ProtocolNotSupported offset 0
-static ::System::Net::Sockets::SocketError const ProtocolNotSupported;
+static System::Net::Sockets::SocketError const ProtocolNotSupported;
 
 /// @brief Field SocketNotSupported offset 0
-static ::System::Net::Sockets::SocketError const SocketNotSupported;
+static System::Net::Sockets::SocketError const SocketNotSupported;
 
 /// @brief Field OperationNotSupported offset 0
-static ::System::Net::Sockets::SocketError const OperationNotSupported;
+static System::Net::Sockets::SocketError const OperationNotSupported;
 
 /// @brief Field ProtocolFamilyNotSupported offset 0
-static ::System::Net::Sockets::SocketError const ProtocolFamilyNotSupported;
+static System::Net::Sockets::SocketError const ProtocolFamilyNotSupported;
 
 /// @brief Field AddressFamilyNotSupported offset 0
-static ::System::Net::Sockets::SocketError const AddressFamilyNotSupported;
+static System::Net::Sockets::SocketError const AddressFamilyNotSupported;
 
 /// @brief Field AddressAlreadyInUse offset 0
-static ::System::Net::Sockets::SocketError const AddressAlreadyInUse;
+static System::Net::Sockets::SocketError const AddressAlreadyInUse;
 
 /// @brief Field AddressNotAvailable offset 0
-static ::System::Net::Sockets::SocketError const AddressNotAvailable;
+static System::Net::Sockets::SocketError const AddressNotAvailable;
 
 /// @brief Field NetworkDown offset 0
-static ::System::Net::Sockets::SocketError const NetworkDown;
+static System::Net::Sockets::SocketError const NetworkDown;
 
 /// @brief Field NetworkUnreachable offset 0
-static ::System::Net::Sockets::SocketError const NetworkUnreachable;
+static System::Net::Sockets::SocketError const NetworkUnreachable;
 
 /// @brief Field NetworkReset offset 0
-static ::System::Net::Sockets::SocketError const NetworkReset;
+static System::Net::Sockets::SocketError const NetworkReset;
 
 /// @brief Field ConnectionAborted offset 0
-static ::System::Net::Sockets::SocketError const ConnectionAborted;
+static System::Net::Sockets::SocketError const ConnectionAborted;
 
 /// @brief Field ConnectionReset offset 0
-static ::System::Net::Sockets::SocketError const ConnectionReset;
+static System::Net::Sockets::SocketError const ConnectionReset;
 
 /// @brief Field NoBufferSpaceAvailable offset 0
-static ::System::Net::Sockets::SocketError const NoBufferSpaceAvailable;
+static System::Net::Sockets::SocketError const NoBufferSpaceAvailable;
 
 /// @brief Field IsConnected offset 0
-static ::System::Net::Sockets::SocketError const IsConnected;
+static System::Net::Sockets::SocketError const IsConnected;
 
 /// @brief Field NotConnected offset 0
-static ::System::Net::Sockets::SocketError const NotConnected;
+static System::Net::Sockets::SocketError const NotConnected;
 
 /// @brief Field Shutdown offset 0
-static ::System::Net::Sockets::SocketError const Shutdown;
+static System::Net::Sockets::SocketError const Shutdown;
 
 /// @brief Field TimedOut offset 0
-static ::System::Net::Sockets::SocketError const TimedOut;
+static System::Net::Sockets::SocketError const TimedOut;
 
 /// @brief Field ConnectionRefused offset 0
-static ::System::Net::Sockets::SocketError const ConnectionRefused;
+static System::Net::Sockets::SocketError const ConnectionRefused;
 
 /// @brief Field HostDown offset 0
-static ::System::Net::Sockets::SocketError const HostDown;
+static System::Net::Sockets::SocketError const HostDown;
 
 /// @brief Field HostUnreachable offset 0
-static ::System::Net::Sockets::SocketError const HostUnreachable;
+static System::Net::Sockets::SocketError const HostUnreachable;
 
 /// @brief Field ProcessLimit offset 0
-static ::System::Net::Sockets::SocketError const ProcessLimit;
+static System::Net::Sockets::SocketError const ProcessLimit;
 
 /// @brief Field SystemNotReady offset 0
-static ::System::Net::Sockets::SocketError const SystemNotReady;
+static System::Net::Sockets::SocketError const SystemNotReady;
 
 /// @brief Field VersionNotSupported offset 0
-static ::System::Net::Sockets::SocketError const VersionNotSupported;
+static System::Net::Sockets::SocketError const VersionNotSupported;
 
 /// @brief Field NotInitialized offset 0
-static ::System::Net::Sockets::SocketError const NotInitialized;
+static System::Net::Sockets::SocketError const NotInitialized;
 
 /// @brief Field Disconnecting offset 0
-static ::System::Net::Sockets::SocketError const Disconnecting;
+static System::Net::Sockets::SocketError const Disconnecting;
 
 /// @brief Field TypeNotFound offset 0
-static ::System::Net::Sockets::SocketError const TypeNotFound;
+static System::Net::Sockets::SocketError const TypeNotFound;
 
 /// @brief Field HostNotFound offset 0
-static ::System::Net::Sockets::SocketError const HostNotFound;
+static System::Net::Sockets::SocketError const HostNotFound;
 
 /// @brief Field TryAgain offset 0
-static ::System::Net::Sockets::SocketError const TryAgain;
+static System::Net::Sockets::SocketError const TryAgain;
 
 /// @brief Field NoRecovery offset 0
-static ::System::Net::Sockets::SocketError const NoRecovery;
+static System::Net::Sockets::SocketError const NoRecovery;
 
 /// @brief Field NoData offset 0
-static ::System::Net::Sockets::SocketError const NoData;
+static System::Net::Sockets::SocketError const NoData;
 
 /// @brief Field IOPending offset 0
-static ::System::Net::Sockets::SocketError const IOPending;
+static System::Net::Sockets::SocketError const IOPending;
 
 /// @brief Field OperationAborted offset 0
-static ::System::Net::Sockets::SocketError const OperationAborted;
+static System::Net::Sockets::SocketError const OperationAborted;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net::Sockets
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Sockets::SocketError, "System.Net.Sockets", "SocketError");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketError, "System.Net.Sockets", "SocketError");

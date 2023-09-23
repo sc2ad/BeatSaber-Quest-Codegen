@@ -5,15 +5,14 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
-struct Ray;
+struct Vector3;
 }
 namespace System {
 class IFormatProvider;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Ray;
 }
 namespace System {
 class IFormattable;
@@ -31,11 +30,11 @@ namespace UnityEngine {
 struct CORDL_TYPE Plane : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IFormattable
-constexpr operator  ::System::IFormattable() const;
+/// @brief Convert operator to System::IFormattable
+constexpr operator  System::IFormattable() const;
 
-// Ctor Parameters [CppParam { name: "m_Normal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Distance", ty: "float_t", modifiers: "", def_value: None }]
-constexpr Plane(::UnityEngine::Vector3 m_Normal, float_t m_Distance) noexcept;
+// Ctor Parameters [CppParam { name: "m_Normal", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Distance", ty: "float_t", modifiers: "", def_value: None }]
+constexpr Plane(UnityEngine::Vector3 m_Normal, float_t m_Distance) noexcept;
 
 
                     constexpr Plane(Plane const&) = default;
@@ -71,11 +70,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 /// @brief Field size offset 0
 static constexpr int32_t  size{16};
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_m_Normal, put=__set_m_Normal))  m_Normal;
+ UnityEngine::Vector3 __declspec(property(get=__get_m_Normal, put=__set_m_Normal))  m_Normal;
 
-constexpr void __set_m_Normal(::UnityEngine::Vector3 value) ;
+constexpr void __set_m_Normal(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_m_Normal() const;
+constexpr UnityEngine::Vector3 __get_m_Normal() const;
 
  float_t __declspec(property(get=__get_m_Distance, put=__set_m_Distance))  m_Distance;
 
@@ -86,7 +85,7 @@ constexpr float_t __get_m_Distance() const;
 
 // Properties
 
- ::UnityEngine::Vector3 __declspec(property(get=get_normal))  normal;
+ UnityEngine::Vector3 __declspec(property(get=get_normal))  normal;
 
  float_t __declspec(property(get=get_distance))  distance;
 
@@ -94,41 +93,40 @@ constexpr float_t __get_m_Distance() const;
 // Methods
 
 /// @brief Method get_normal addr 0x2b52484 size 0xc virtual false final false
- ::UnityEngine::Vector3 get_normal() ;
+ UnityEngine::Vector3 get_normal() ;
 
 /// @brief Method get_distance addr 0x2b52490 size 0x8 virtual false final false
  float_t get_distance() ;
 
 /// @brief Method .ctor addr 0x2b52498 size 0x110 virtual false final false
- void _ctor(::UnityEngine::Vector3 inNormal, ::UnityEngine::Vector3 inPoint) ;
+ void _ctor(UnityEngine::Vector3 inNormal, UnityEngine::Vector3 inPoint) ;
 
 /// @brief Method .ctor addr 0x2b525a8 size 0x178 virtual false final false
- void _ctor(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::UnityEngine::Vector3 c) ;
+ void _ctor(UnityEngine::Vector3 a, UnityEngine::Vector3 b, UnityEngine::Vector3 c) ;
 
 /// @brief Method SetNormalAndPosition addr 0x2b52720 size 0x110 virtual false final false
- void SetNormalAndPosition(::UnityEngine::Vector3 inNormal, ::UnityEngine::Vector3 inPoint) ;
+ void SetNormalAndPosition(UnityEngine::Vector3 inNormal, UnityEngine::Vector3 inPoint) ;
 
 /// @brief Method ClosestPointOnPlane addr 0x2b52830 size 0x3c virtual false final false
- ::UnityEngine::Vector3 ClosestPointOnPlane(::UnityEngine::Vector3 point) ;
+ UnityEngine::Vector3 ClosestPointOnPlane(UnityEngine::Vector3 point) ;
 
 /// @brief Method GetDistanceToPoint addr 0x2b5286c size 0x24 virtual false final false
- float_t GetDistanceToPoint(::UnityEngine::Vector3 point) ;
+ float_t GetDistanceToPoint(UnityEngine::Vector3 point) ;
 
 /// @brief Method SameSide addr 0x2b52890 size 0x70 virtual false final false
- bool SameSide(::UnityEngine::Vector3 inPt0, ::UnityEngine::Vector3 inPt1) ;
+ bool SameSide(UnityEngine::Vector3 inPt0, UnityEngine::Vector3 inPt1) ;
 
 /// @brief Method Raycast addr 0x2b52900 size 0x100 virtual false final false
- bool Raycast(::UnityEngine::Ray ray, ByRef<float_t> enter) ;
+ bool Raycast(UnityEngine::Ray ray, ByRef<float_t> enter) ;
 
 /// @brief Method ToString addr 0x2b52a18 size 0xc virtual true final false
  ::StringW ToString() ;
 
 /// @brief Method ToString addr 0x2b52a24 size 0x188 virtual true final true
- ::StringW ToString(::StringW format, ::System::IFormatProvider formatProvider) ;
+ ::StringW ToString(::StringW format, System::IFormatProvider formatProvider) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Plane, "UnityEngine", "Plane");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Plane, "UnityEngine", "Plane");

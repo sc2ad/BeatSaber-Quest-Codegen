@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
+namespace UnityEngine {
+struct Vector3;
+}
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
 namespace UnityEngine::ProBuilder {
 struct PivotLocation;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::MeshOperations {
@@ -60,21 +59,20 @@ constexpr explicit MeshTransform(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 // Methods
 
 /// @brief Method SetPivot addr 0x2a24b50 size 0xc0 virtual false final false
-static void SetPivot(::UnityEngine::ProBuilder::ProBuilderMesh mesh, ::UnityEngine::ProBuilder::PivotLocation pivotLocation) ;
+static void SetPivot(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::ProBuilder::PivotLocation pivotLocation) ;
 
 /// @brief Method CenterPivot addr 0x2a20330 size 0x2f8 virtual false final false
-static void CenterPivot(::UnityEngine::ProBuilder::ProBuilderMesh mesh, ::ArrayW<int32_t> indexes) ;
+static void CenterPivot(UnityEngine::ProBuilder::ProBuilderMesh mesh, ::ArrayW<int32_t> indexes) ;
 
 /// @brief Method SetPivot addr 0x2a24c10 size 0x1a4 virtual false final false
-static void SetPivot(::UnityEngine::ProBuilder::ProBuilderMesh mesh, ::UnityEngine::Vector3 worldPosition) ;
+static void SetPivot(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::Vector3 worldPosition) ;
 
 /// @brief Method FreezeScaleTransform addr 0x2a24db4 size 0x164 virtual false final false
-static void FreezeScaleTransform(::UnityEngine::ProBuilder::ProBuilderMesh mesh) ;
+static void FreezeScaleTransform(UnityEngine::ProBuilder::ProBuilderMesh mesh) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder::MeshOperations
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::MeshOperations::MeshTransform);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::MeshOperations::MeshTransform, "UnityEngine.ProBuilder.MeshOperations", "MeshTransform");
+NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::MeshTransform);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::MeshTransform, "UnityEngine.ProBuilder.MeshOperations", "MeshTransform");

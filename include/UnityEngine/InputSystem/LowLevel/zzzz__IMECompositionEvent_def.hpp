@@ -4,7 +4,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputEventTypeInfo;
 }
@@ -30,11 +29,11 @@ namespace UnityEngine::InputSystem::LowLevel {
 struct CORDL_TYPE IMECompositionEvent : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo
-constexpr operator  ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo() const;
+/// @brief Convert operator to UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo
+constexpr operator  UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo() const;
 
-// Ctor Parameters [CppParam { name: "baseEvent", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent", modifiers: "", def_value: None }, CppParam { name: "compositionString", ty: "::UnityEngine::InputSystem::LowLevel::IMECompositionString", modifiers: "", def_value: None }]
-constexpr IMECompositionEvent(::UnityEngine::InputSystem::LowLevel::InputEvent baseEvent, ::UnityEngine::InputSystem::LowLevel::IMECompositionString compositionString) noexcept;
+// Ctor Parameters [CppParam { name: "baseEvent", ty: "UnityEngine::InputSystem::LowLevel::InputEvent", modifiers: "", def_value: None }, CppParam { name: "compositionString", ty: "UnityEngine::InputSystem::LowLevel::IMECompositionString", modifiers: "", def_value: None }]
+constexpr IMECompositionEvent(UnityEngine::InputSystem::LowLevel::InputEvent baseEvent, UnityEngine::InputSystem::LowLevel::IMECompositionString compositionString) noexcept;
 
 
                     constexpr IMECompositionEvent(IMECompositionEvent const&) = default;
@@ -73,35 +72,34 @@ static constexpr int32_t  kIMECharBufferSize{64};
 /// @brief Field Type offset 0
 static constexpr int32_t  Type{1229800787};
 
- ::UnityEngine::InputSystem::LowLevel::InputEvent __declspec(property(get=__get_baseEvent, put=__set_baseEvent))  baseEvent;
+ UnityEngine::InputSystem::LowLevel::InputEvent __declspec(property(get=__get_baseEvent, put=__set_baseEvent))  baseEvent;
 
-constexpr void __set_baseEvent(::UnityEngine::InputSystem::LowLevel::InputEvent value) ;
+constexpr void __set_baseEvent(UnityEngine::InputSystem::LowLevel::InputEvent value) ;
 
-constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent __get_baseEvent() const;
+constexpr UnityEngine::InputSystem::LowLevel::InputEvent __get_baseEvent() const;
 
- ::UnityEngine::InputSystem::LowLevel::IMECompositionString __declspec(property(get=__get_compositionString, put=__set_compositionString))  compositionString;
+ UnityEngine::InputSystem::LowLevel::IMECompositionString __declspec(property(get=__get_compositionString, put=__set_compositionString))  compositionString;
 
-constexpr void __set_compositionString(::UnityEngine::InputSystem::LowLevel::IMECompositionString value) ;
+constexpr void __set_compositionString(UnityEngine::InputSystem::LowLevel::IMECompositionString value) ;
 
-constexpr ::UnityEngine::InputSystem::LowLevel::IMECompositionString __get_compositionString() const;
+constexpr UnityEngine::InputSystem::LowLevel::IMECompositionString __get_compositionString() const;
 
 
 // Properties
 
- ::UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_typeStatic))  typeStatic;
+ UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_typeStatic))  typeStatic;
 
 
 // Methods
 
 /// @brief Method get_typeStatic addr 0x29573dc size 0x20 virtual true final true
- ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic() ;
+ UnityEngine::InputSystem::Utilities::FourCC get_typeStatic() ;
 
 /// @brief Method Create addr 0x29573fc size 0xf4 virtual false final false
-static ::UnityEngine::InputSystem::LowLevel::IMECompositionEvent Create(int32_t deviceId, ::StringW compositionString, double_t time) ;
+static UnityEngine::InputSystem::LowLevel::IMECompositionEvent Create(int32_t deviceId, ::StringW compositionString, double_t time) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::LowLevel
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::IMECompositionEvent, "UnityEngine.InputSystem.LowLevel", "IMECompositionEvent");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::LowLevel::IMECompositionEvent, "UnityEngine.InputSystem.LowLevel", "IMECompositionEvent");

@@ -3,7 +3,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Vector2;
 }
@@ -20,8 +19,8 @@ namespace UnityEngine {
 struct CORDL_TYPE ContactPoint2D : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "m_Point", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_Normal", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_RelativeVelocity", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_Separation", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_NormalImpulse", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_TangentImpulse", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Collider", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_OtherCollider", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Rigidbody", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_OtherRigidbody", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Enabled", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ContactPoint2D(::UnityEngine::Vector2 m_Point, ::UnityEngine::Vector2 m_Normal, ::UnityEngine::Vector2 m_RelativeVelocity, float_t m_Separation, float_t m_NormalImpulse, float_t m_TangentImpulse, int32_t m_Collider, int32_t m_OtherCollider, int32_t m_Rigidbody, int32_t m_OtherRigidbody, int32_t m_Enabled) noexcept;
+// Ctor Parameters [CppParam { name: "m_Point", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_Normal", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_RelativeVelocity", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_Separation", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_NormalImpulse", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_TangentImpulse", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Collider", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_OtherCollider", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Rigidbody", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_OtherRigidbody", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Enabled", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr ContactPoint2D(UnityEngine::Vector2 m_Point, UnityEngine::Vector2 m_Normal, UnityEngine::Vector2 m_RelativeVelocity, float_t m_Separation, float_t m_NormalImpulse, float_t m_TangentImpulse, int32_t m_Collider, int32_t m_OtherCollider, int32_t m_Rigidbody, int32_t m_OtherRigidbody, int32_t m_Enabled) noexcept;
 
 
                     constexpr ContactPoint2D(ContactPoint2D const&) = default;
@@ -54,23 +53,23 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_m_Point, put=__set_m_Point))  m_Point;
+ UnityEngine::Vector2 __declspec(property(get=__get_m_Point, put=__set_m_Point))  m_Point;
 
-constexpr void __set_m_Point(::UnityEngine::Vector2 value) ;
+constexpr void __set_m_Point(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_m_Point() const;
+constexpr UnityEngine::Vector2 __get_m_Point() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_m_Normal, put=__set_m_Normal))  m_Normal;
+ UnityEngine::Vector2 __declspec(property(get=__get_m_Normal, put=__set_m_Normal))  m_Normal;
 
-constexpr void __set_m_Normal(::UnityEngine::Vector2 value) ;
+constexpr void __set_m_Normal(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_m_Normal() const;
+constexpr UnityEngine::Vector2 __get_m_Normal() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_m_RelativeVelocity, put=__set_m_RelativeVelocity))  m_RelativeVelocity;
+ UnityEngine::Vector2 __declspec(property(get=__get_m_RelativeVelocity, put=__set_m_RelativeVelocity))  m_RelativeVelocity;
 
-constexpr void __set_m_RelativeVelocity(::UnityEngine::Vector2 value) ;
+constexpr void __set_m_RelativeVelocity(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_m_RelativeVelocity() const;
+constexpr UnityEngine::Vector2 __get_m_RelativeVelocity() const;
 
  float_t __declspec(property(get=__get_m_Separation, put=__set_m_Separation))  m_Separation;
 
@@ -124,5 +123,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ContactPoint2D, "UnityEngine", "ContactPoint2D");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ContactPoint2D, "UnityEngine", "ContactPoint2D");

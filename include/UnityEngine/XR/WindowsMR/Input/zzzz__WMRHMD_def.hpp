@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__XRHMD_def.hpp"
-namespace {
 namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
 }
@@ -15,7 +14,7 @@ namespace UnityEngine::XR::WindowsMR::Input {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6407))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6207))
 // CS Name: UnityEngine.XR.WindowsMR.Input.WMRHMD
-class CORDL_TYPE WMRHMD : public ::UnityEngine::InputSystem::XR::XRHMD {
+class CORDL_TYPE WMRHMD : public UnityEngine::InputSystem::XR::XRHMD {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr WMRHMD(WMRHMD const& ) noexcept = default;
 constexpr WMRHMD(WMRHMD&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit WMRHMD(void* ptr) noexcept : ::UnityEngine::InputSystem::XR::XRHMD(ptr) {
+constexpr explicit WMRHMD(void* ptr) noexcept : UnityEngine::InputSystem::XR::XRHMD(ptr) {
 }
 
 
@@ -51,25 +50,25 @@ constexpr explicit WMRHMD(void* ptr) noexcept : ::UnityEngine::InputSystem::XR::
 
 // Fields
 
- ::UnityEngine::InputSystem::Controls::ButtonControl __declspec(property(get=__get__userPresence_k__BackingField, put=__set__userPresence_k__BackingField))  _userPresence_k__BackingField;
+ UnityEngine::InputSystem::Controls::ButtonControl __declspec(property(get=__get__userPresence_k__BackingField, put=__set__userPresence_k__BackingField))  _userPresence_k__BackingField;
 
-constexpr void __set__userPresence_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl value) ;
+constexpr void __set__userPresence_k__BackingField(UnityEngine::InputSystem::Controls::ButtonControl value) ;
 
-constexpr ::UnityEngine::InputSystem::Controls::ButtonControl __get__userPresence_k__BackingField() const;
+constexpr UnityEngine::InputSystem::Controls::ButtonControl __get__userPresence_k__BackingField() const;
 
 
 // Properties
 
- ::UnityEngine::InputSystem::Controls::ButtonControl __declspec(property(get=get_userPresence, put=set_userPresence))  userPresence;
+ UnityEngine::InputSystem::Controls::ButtonControl __declspec(property(get=get_userPresence, put=set_userPresence))  userPresence;
 
 
 // Methods
 
 /// @brief Method get_userPresence addr 0x28a34d4 size 0x8 virtual false final false
- ::UnityEngine::InputSystem::Controls::ButtonControl get_userPresence() ;
+ UnityEngine::InputSystem::Controls::ButtonControl get_userPresence() ;
 
 /// @brief Method set_userPresence addr 0x28a34dc size 0x8 virtual false final false
- void set_userPresence(::UnityEngine::InputSystem::Controls::ButtonControl value) ;
+ void set_userPresence(UnityEngine::InputSystem::Controls::ButtonControl value) ;
 
 /// @brief Method FinishSetup addr 0x28a34e4 size 0x7c virtual true final false
  void FinishSetup() ;
@@ -84,6 +83,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR::WindowsMR::Input
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::XR::WindowsMR::Input::WMRHMD);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::WindowsMR::Input::WMRHMD, "UnityEngine.XR.WindowsMR.Input", "WMRHMD");
+NEED_NO_BOX(UnityEngine::XR::WindowsMR::Input::WMRHMD);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::WindowsMR::Input::WMRHMD, "UnityEngine.XR.WindowsMR.Input", "WMRHMD");

@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -28,7 +27,7 @@ template<::cordl_internals::il2cpp_reference_type T>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610)), TypeDefinitionIndex(TypeDefinitionIndex(14828))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14828), inst: 2 })
 // CS Name: System.Net.Http.Headers.TryParseListDelegate`1
-class CORDL_TYPE TryParseListDelegate_1<T> : public ::System::MulticastDelegate {
+class CORDL_TYPE TryParseListDelegate_1<T> : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -43,7 +42,7 @@ constexpr TryParseListDelegate_1(TryParseListDelegate_1 const& ) noexcept = defa
 constexpr TryParseListDelegate_1(TryParseListDelegate_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TryParseListDelegate_1(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit TryParseListDelegate_1(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -71,11 +70,10 @@ explicit TryParseListDelegate_1(::bs_hook::Il2CppWrapperType object, ::cordl_int
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
- bool Invoke(::StringW value, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<T>> result) ;
+ bool Invoke(::StringW value, int32_t minimalCount, ByRef<System::Collections::Generic::List_1<T>> result) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Http::Headers
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Net::Http::Headers::TryParseListDelegate_1, "System.Net.Http.Headers", "TryParseListDelegate`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Net::Http::Headers::TryParseListDelegate_1, "System.Net.Http.Headers", "TryParseListDelegate`1");

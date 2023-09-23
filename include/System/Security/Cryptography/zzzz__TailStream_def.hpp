@@ -3,7 +3,6 @@
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::IO {
 struct SeekOrigin;
 }
@@ -17,7 +16,7 @@ namespace System::Security::Cryptography {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3604))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2940))
 // CS Name: System.Security.Cryptography.TailStream
-class CORDL_TYPE TailStream : public ::System::IO::Stream {
+class CORDL_TYPE TailStream : public System::IO::Stream {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr TailStream(TailStream const& ) noexcept = default;
 constexpr TailStream(TailStream&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TailStream(void* ptr) noexcept : ::System::IO::Stream(ptr) {
+constexpr explicit TailStream(void* ptr) noexcept : System::IO::Stream(ptr) {
 }
 
 
@@ -132,7 +131,7 @@ explicit TailStream(int32_t bufferSize) ;
  void Flush() ;
 
 /// @brief Method Seek addr 0x22f4a10 size 0x60 virtual true final false
- int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin) ;
+ int64_t Seek(int64_t offset, System::IO::SeekOrigin origin) ;
 
 /// @brief Method SetLength addr 0x22f4a70 size 0x60 virtual true final false
  void SetLength(int64_t value) ;
@@ -147,6 +146,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::TailStream);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::TailStream, "System.Security.Cryptography", "TailStream");
+NEED_NO_BOX(System::Security::Cryptography::TailStream);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::TailStream, "System.Security.Cryptography", "TailStream");

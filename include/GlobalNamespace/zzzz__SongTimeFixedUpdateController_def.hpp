@@ -2,16 +2,15 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
-namespace GlobalNamespace {
-class IAudioTimeSource;
-}
 namespace System {
 class Action;
 }
 namespace System {
 template<typename T>
 class Action_1;
+}
+namespace GlobalNamespace {
+class IAudioTimeSource;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,7 +22,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4069))
 // CS Name: SongTimeFixedUpdateController
-class CORDL_TYPE SongTimeFixedUpdateController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SongTimeFixedUpdateController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr SongTimeFixedUpdateController(SongTimeFixedUpdateController const& ) n
 constexpr SongTimeFixedUpdateController(SongTimeFixedUpdateController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SongTimeFixedUpdateController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SongTimeFixedUpdateController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -59,23 +58,23 @@ constexpr explicit SongTimeFixedUpdateController(void* ptr) noexcept : ::UnityEn
 
 // Fields
 
- ::GlobalNamespace::IAudioTimeSource __declspec(property(get=__get__audioTimeSource, put=__set__audioTimeSource))  _audioTimeSource;
+ GlobalNamespace::IAudioTimeSource __declspec(property(get=__get__audioTimeSource, put=__set__audioTimeSource))  _audioTimeSource;
 
-constexpr void __set__audioTimeSource(::GlobalNamespace::IAudioTimeSource value) ;
+constexpr void __set__audioTimeSource(GlobalNamespace::IAudioTimeSource value) ;
 
-constexpr ::GlobalNamespace::IAudioTimeSource __get__audioTimeSource() const;
+constexpr GlobalNamespace::IAudioTimeSource __get__audioTimeSource() const;
 
- ::System::Action_1<float_t> __declspec(property(get=__get_songControllerFixedTimeDidUpdateEvent, put=__set_songControllerFixedTimeDidUpdateEvent))  songControllerFixedTimeDidUpdateEvent;
+ System::Action_1<float_t> __declspec(property(get=__get_songControllerFixedTimeDidUpdateEvent, put=__set_songControllerFixedTimeDidUpdateEvent))  songControllerFixedTimeDidUpdateEvent;
 
-constexpr void __set_songControllerFixedTimeDidUpdateEvent(::System::Action_1<float_t> value) ;
+constexpr void __set_songControllerFixedTimeDidUpdateEvent(System::Action_1<float_t> value) ;
 
-constexpr ::System::Action_1<float_t> __get_songControllerFixedTimeDidUpdateEvent() const;
+constexpr System::Action_1<float_t> __get_songControllerFixedTimeDidUpdateEvent() const;
 
- ::System::Action __declspec(property(get=__get_songControllerTimeDidUpdateEvent, put=__set_songControllerTimeDidUpdateEvent))  songControllerTimeDidUpdateEvent;
+ System::Action __declspec(property(get=__get_songControllerTimeDidUpdateEvent, put=__set_songControllerTimeDidUpdateEvent))  songControllerTimeDidUpdateEvent;
 
-constexpr void __set_songControllerTimeDidUpdateEvent(::System::Action value) ;
+constexpr void __set_songControllerTimeDidUpdateEvent(System::Action value) ;
 
-constexpr ::System::Action __get_songControllerTimeDidUpdateEvent() const;
+constexpr System::Action __get_songControllerTimeDidUpdateEvent() const;
 
  float_t __declspec(property(get=__get__accumulator, put=__set__accumulator))  _accumulator;
 
@@ -103,16 +102,16 @@ static constexpr float_t  kFixedDeltaTime{0.016666668};
 // Methods
 
 /// @brief Method add_songControllerFixedTimeDidUpdateEvent addr 0x20bf0cc size 0xb0 virtual false final false
- void add_songControllerFixedTimeDidUpdateEvent(::System::Action_1<float_t> value) ;
+ void add_songControllerFixedTimeDidUpdateEvent(System::Action_1<float_t> value) ;
 
 /// @brief Method remove_songControllerFixedTimeDidUpdateEvent addr 0x20bf17c size 0xb0 virtual false final false
- void remove_songControllerFixedTimeDidUpdateEvent(::System::Action_1<float_t> value) ;
+ void remove_songControllerFixedTimeDidUpdateEvent(System::Action_1<float_t> value) ;
 
 /// @brief Method add_songControllerTimeDidUpdateEvent addr 0x20bf22c size 0x9c virtual false final false
- void add_songControllerTimeDidUpdateEvent(::System::Action value) ;
+ void add_songControllerTimeDidUpdateEvent(System::Action value) ;
 
 /// @brief Method remove_songControllerTimeDidUpdateEvent addr 0x20bf2c8 size 0x9c virtual false final false
- void remove_songControllerTimeDidUpdateEvent(::System::Action value) ;
+ void remove_songControllerTimeDidUpdateEvent(System::Action value) ;
 
 /// @brief Method get_fixedDeltaTime addr 0x20bf364 size 0xc virtual false final false
  float_t get_fixedDeltaTime() ;
@@ -133,6 +132,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SongTimeFixedUpdateController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SongTimeFixedUpdateController, "", "SongTimeFixedUpdateController");
+NEED_NO_BOX(GlobalNamespace::SongTimeFixedUpdateController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongTimeFixedUpdateController, "", "SongTimeFixedUpdateController");

@@ -1,6 +1,5 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace System::Security {
 class SecurityElement;
 }
@@ -27,12 +26,11 @@ constexpr explicit ISecurityEncodable(void* ptr) noexcept : ::cordl_internals::I
 // Methods
 
 /// @brief Method ToXml addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Security::SecurityElement ToXml() ;
+ System::Security::SecurityElement ToXml() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::ISecurityEncodable);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::ISecurityEncodable, "System.Security", "ISecurityEncodable");
+NEED_NO_BOX(System::Security::ISecurityEncodable);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::ISecurityEncodable, "System.Security", "ISecurityEncodable");

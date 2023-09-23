@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem::OnScreen {
 class OnScreenSupport;
@@ -55,6 +54,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::OnScreen
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::OnScreen::OnScreenSupport);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::OnScreen::OnScreenSupport, "UnityEngine.InputSystem.OnScreen", "OnScreenSupport");
+NEED_NO_BOX(UnityEngine::InputSystem::OnScreen::OnScreenSupport);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::OnScreen::OnScreenSupport, "UnityEngine.InputSystem.OnScreen", "OnScreenSupport");

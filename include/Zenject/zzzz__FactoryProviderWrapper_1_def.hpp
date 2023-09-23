@@ -2,13 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace Zenject {
 class InjectContext;
 }
 namespace Zenject {
-template<typename TValue>
-class IFactory_1;
+class IFactory;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -17,7 +15,8 @@ namespace Zenject {
 class IProvider;
 }
 namespace Zenject {
-class IFactory;
+template<typename TValue>
+class IFactory_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -40,11 +39,11 @@ template<::cordl_internals::il2cpp_reference_type TContract>
 class CORDL_TYPE FactoryProviderWrapper_1<TContract> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Zenject::IFactory_1<TContract>
-constexpr operator  ::Zenject::IFactory_1<TContract>() const noexcept;
+/// @brief Convert operator to Zenject::IFactory_1<TContract>
+constexpr operator  Zenject::IFactory_1<TContract>() const noexcept;
 
-/// @brief Convert operator to ::Zenject::IFactory
-constexpr operator  ::Zenject::IFactory() const noexcept;
+/// @brief Convert operator to Zenject::IFactory
+constexpr operator  Zenject::IFactory() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -79,26 +78,26 @@ constexpr explicit FactoryProviderWrapper_1(void* ptr) noexcept : ::bs_hook::Il2
 
 // Fields
 
- ::Zenject::IProvider __declspec(property(get=__get__provider, put=__set__provider))  _provider;
+ Zenject::IProvider __declspec(property(get=__get__provider, put=__set__provider))  _provider;
 
-constexpr void __set__provider(::Zenject::IProvider value) ;
+constexpr void __set__provider(Zenject::IProvider value) ;
 
-constexpr ::Zenject::IProvider __get__provider() const;
+constexpr Zenject::IProvider __get__provider() const;
 
- ::Zenject::InjectContext __declspec(property(get=__get__injectContext, put=__set__injectContext))  _injectContext;
+ Zenject::InjectContext __declspec(property(get=__get__injectContext, put=__set__injectContext))  _injectContext;
 
-constexpr void __set__injectContext(::Zenject::InjectContext value) ;
+constexpr void __set__injectContext(Zenject::InjectContext value) ;
 
-constexpr ::Zenject::InjectContext __get__injectContext() const;
+constexpr Zenject::InjectContext __get__injectContext() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "provider", ty: "::Zenject::IProvider", modifiers: "", def_value: None }, CppParam { name: "injectContext", ty: "::Zenject::InjectContext", modifiers: "", def_value: None }]
-explicit FactoryProviderWrapper_1(::Zenject::IProvider provider, ::Zenject::InjectContext injectContext) ;
+// Ctor Parameters [CppParam { name: "provider", ty: "Zenject::IProvider", modifiers: "", def_value: None }, CppParam { name: "injectContext", ty: "Zenject::InjectContext", modifiers: "", def_value: None }]
+explicit FactoryProviderWrapper_1(Zenject::IProvider provider, Zenject::InjectContext injectContext) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::Zenject::IProvider provider, ::Zenject::InjectContext injectContext) ;
+ void _ctor(Zenject::IProvider provider, Zenject::InjectContext injectContext) ;
 
 /// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual true final true
  TContract Create() ;
@@ -107,11 +106,10 @@ explicit FactoryProviderWrapper_1(::Zenject::IProvider provider, ::Zenject::Inje
 static ::bs_hook::Il2CppWrapperType __zenCreate(::ArrayW<::bs_hook::Il2CppWrapperType> P_0) ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::FactoryProviderWrapper_1, "Zenject", "FactoryProviderWrapper`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::FactoryProviderWrapper_1, "Zenject", "FactoryProviderWrapper`1");

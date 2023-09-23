@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UI/zzzz__BaseMeshEffect_def.hpp"
-namespace {
 namespace UnityEngine::UI {
 class VertexHelper;
 }
@@ -15,7 +14,7 @@ namespace UnityEngine::UI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13082))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13086))
 // CS Name: UnityEngine.UI.PositionAsUV1
-class CORDL_TYPE PositionAsUV1 : public ::UnityEngine::UI::BaseMeshEffect {
+class CORDL_TYPE PositionAsUV1 : public UnityEngine::UI::BaseMeshEffect {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr PositionAsUV1(PositionAsUV1 const& ) noexcept = default;
 constexpr PositionAsUV1(PositionAsUV1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PositionAsUV1(void* ptr) noexcept : ::UnityEngine::UI::BaseMeshEffect(ptr) {
+constexpr explicit PositionAsUV1(void* ptr) noexcept : UnityEngine::UI::BaseMeshEffect(ptr) {
 }
 
 
@@ -58,12 +57,11 @@ explicit PositionAsUV1() ;
  void _ctor() ;
 
 /// @brief Method ModifyMesh addr 0x2c183d4 size 0xbc virtual true final false
- void ModifyMesh(::UnityEngine::UI::VertexHelper vh) ;
+ void ModifyMesh(UnityEngine::UI::VertexHelper vh) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UI
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UI::PositionAsUV1);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::PositionAsUV1, "UnityEngine.UI", "PositionAsUV1");
+NEED_NO_BOX(UnityEngine::UI::PositionAsUV1);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::PositionAsUV1, "UnityEngine.UI", "PositionAsUV1");

@@ -4,24 +4,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace Org::BouncyCastle::Asn1::Cms {
+class EnvelopedDataParser;
+}
+namespace Org::BouncyCastle::Cms {
+class RecipientInformationStore;
+}
 namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
-namespace Org::BouncyCastle::Cms {
-class RecipientInformationStore;
-}
 namespace Org::BouncyCastle::Asn1::Cms {
 class AttributeTable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class EnvelopedDataParser;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -33,7 +32,7 @@ namespace Org::BouncyCastle::Cms {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(620))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(635))
 // CS Name: Org.BouncyCastle.Cms.CmsEnvelopedDataParser
-class CORDL_TYPE CmsEnvelopedDataParser : public ::Org::BouncyCastle::Cms::CmsContentInfoParser {
+class CORDL_TYPE CmsEnvelopedDataParser : public Org::BouncyCastle::Cms::CmsContentInfoParser {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -48,7 +47,7 @@ constexpr CmsEnvelopedDataParser(CmsEnvelopedDataParser const& ) noexcept = defa
 constexpr CmsEnvelopedDataParser(CmsEnvelopedDataParser&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CmsEnvelopedDataParser(void* ptr) noexcept : ::Org::BouncyCastle::Cms::CmsContentInfoParser(ptr) {
+constexpr explicit CmsEnvelopedDataParser(void* ptr) noexcept : Org::BouncyCastle::Cms::CmsContentInfoParser(ptr) {
 }
 
 
@@ -69,29 +68,29 @@ constexpr explicit CmsEnvelopedDataParser(void* ptr) noexcept : ::Org::BouncyCas
 
 // Fields
 
- ::Org::BouncyCastle::Cms::RecipientInformationStore __declspec(property(get=__get_recipientInfoStore, put=__set_recipientInfoStore))  recipientInfoStore;
+ Org::BouncyCastle::Cms::RecipientInformationStore __declspec(property(get=__get_recipientInfoStore, put=__set_recipientInfoStore))  recipientInfoStore;
 
-constexpr void __set_recipientInfoStore(::Org::BouncyCastle::Cms::RecipientInformationStore value) ;
+constexpr void __set_recipientInfoStore(Org::BouncyCastle::Cms::RecipientInformationStore value) ;
 
-constexpr ::Org::BouncyCastle::Cms::RecipientInformationStore __get_recipientInfoStore() const;
+constexpr Org::BouncyCastle::Cms::RecipientInformationStore __get_recipientInfoStore() const;
 
- ::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser __declspec(property(get=__get_envelopedData, put=__set_envelopedData))  envelopedData;
+ Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser __declspec(property(get=__get_envelopedData, put=__set_envelopedData))  envelopedData;
 
-constexpr void __set_envelopedData(::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser value) ;
+constexpr void __set_envelopedData(Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser __get_envelopedData() const;
+constexpr Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser __get_envelopedData() const;
 
- ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __declspec(property(get=__get__encAlg, put=__set__encAlg))  _encAlg;
+ Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __declspec(property(get=__get__encAlg, put=__set__encAlg))  _encAlg;
 
-constexpr void __set__encAlg(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier value) ;
+constexpr void __set__encAlg(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __get__encAlg() const;
+constexpr Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __get__encAlg() const;
 
- ::Org::BouncyCastle::Asn1::Cms::AttributeTable __declspec(property(get=__get__unprotectedAttributes, put=__set__unprotectedAttributes))  _unprotectedAttributes;
+ Org::BouncyCastle::Asn1::Cms::AttributeTable __declspec(property(get=__get__unprotectedAttributes, put=__set__unprotectedAttributes))  _unprotectedAttributes;
 
-constexpr void __set__unprotectedAttributes(::Org::BouncyCastle::Asn1::Cms::AttributeTable value) ;
+constexpr void __set__unprotectedAttributes(Org::BouncyCastle::Asn1::Cms::AttributeTable value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::Cms::AttributeTable __get__unprotectedAttributes() const;
+constexpr Org::BouncyCastle::Asn1::Cms::AttributeTable __get__unprotectedAttributes() const;
 
  bool __declspec(property(get=__get__attrNotRead, put=__set__attrNotRead))  _attrNotRead;
 
@@ -102,11 +101,11 @@ constexpr bool __get__attrNotRead() const;
 
 // Properties
 
- ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __declspec(property(get=get_EncryptionAlgorithmID))  EncryptionAlgorithmID;
+ Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __declspec(property(get=get_EncryptionAlgorithmID))  EncryptionAlgorithmID;
 
  ::StringW __declspec(property(get=get_EncryptionAlgOid))  EncryptionAlgOid;
 
- ::Org::BouncyCastle::Asn1::Asn1Object __declspec(property(get=get_EncryptionAlgParams))  EncryptionAlgParams;
+ Org::BouncyCastle::Asn1::Asn1Object __declspec(property(get=get_EncryptionAlgParams))  EncryptionAlgParams;
 
 
 // Methods
@@ -117,31 +116,30 @@ explicit CmsEnvelopedDataParser(::ArrayW<uint8_t> envelopedData) ;
 /// @brief Method .ctor addr 0x1155478 size 0x78 virtual false final false
  void _ctor(::ArrayW<uint8_t> envelopedData) ;
 
-// Ctor Parameters [CppParam { name: "envelopedData", ty: "::System::IO::Stream", modifiers: "", def_value: None }]
-explicit CmsEnvelopedDataParser(::System::IO::Stream envelopedData) ;
+// Ctor Parameters [CppParam { name: "envelopedData", ty: "System::IO::Stream", modifiers: "", def_value: None }]
+explicit CmsEnvelopedDataParser(System::IO::Stream envelopedData) ;
 
 /// @brief Method .ctor addr 0x11554f0 size 0x2f8 virtual false final false
- void _ctor(::System::IO::Stream envelopedData) ;
+ void _ctor(System::IO::Stream envelopedData) ;
 
 /// @brief Method get_EncryptionAlgorithmID addr 0x11557e8 size 0x8 virtual false final false
- ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier get_EncryptionAlgorithmID() ;
+ Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier get_EncryptionAlgorithmID() ;
 
 /// @brief Method get_EncryptionAlgOid addr 0x11557f0 size 0x2c virtual false final false
  ::StringW get_EncryptionAlgOid() ;
 
 /// @brief Method get_EncryptionAlgParams addr 0x115581c size 0x38 virtual false final false
- ::Org::BouncyCastle::Asn1::Asn1Object get_EncryptionAlgParams() ;
+ Org::BouncyCastle::Asn1::Asn1Object get_EncryptionAlgParams() ;
 
 /// @brief Method GetRecipientInfos addr 0x1155854 size 0x8 virtual false final false
- ::Org::BouncyCastle::Cms::RecipientInformationStore GetRecipientInfos() ;
+ Org::BouncyCastle::Cms::RecipientInformationStore GetRecipientInfos() ;
 
 /// @brief Method GetUnprotectedAttributes addr 0x115585c size 0x24c virtual false final false
- ::Org::BouncyCastle::Asn1::Cms::AttributeTable GetUnprotectedAttributes() ;
+ Org::BouncyCastle::Asn1::Cms::AttributeTable GetUnprotectedAttributes() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Cms
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Cms::CmsEnvelopedDataParser);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::CmsEnvelopedDataParser, "Org.BouncyCastle.Cms", "CmsEnvelopedDataParser");
+NEED_NO_BOX(Org::BouncyCastle::Cms::CmsEnvelopedDataParser);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Cms::CmsEnvelopedDataParser, "Org.BouncyCastle.Cms", "CmsEnvelopedDataParser");

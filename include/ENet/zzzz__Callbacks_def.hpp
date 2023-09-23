@@ -1,18 +1,17 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace ENet {
-class AllocCallback;
-}
-namespace ENet {
-class FreeCallback;
+class NoMemoryCallback;
 }
 namespace ENet {
 struct ENetCallbacks;
 }
 namespace ENet {
-class NoMemoryCallback;
+class FreeCallback;
+}
+namespace ENet {
+class AllocCallback;
 }
 // Forward declare root types
 namespace ENet {
@@ -60,36 +59,35 @@ constexpr explicit Callbacks(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 
 // Fields
 
- ::ENet::ENetCallbacks __declspec(property(get=__get_nativeCallbacks, put=__set_nativeCallbacks))  nativeCallbacks;
+ ENet::ENetCallbacks __declspec(property(get=__get_nativeCallbacks, put=__set_nativeCallbacks))  nativeCallbacks;
 
-constexpr void __set_nativeCallbacks(::ENet::ENetCallbacks value) ;
+constexpr void __set_nativeCallbacks(ENet::ENetCallbacks value) ;
 
-constexpr ::ENet::ENetCallbacks __get_nativeCallbacks() const;
+constexpr ENet::ENetCallbacks __get_nativeCallbacks() const;
 
 
 // Properties
 
- ::ENet::ENetCallbacks __declspec(property(get=get_NativeData, put=set_NativeData))  NativeData;
+ ENet::ENetCallbacks __declspec(property(get=get_NativeData, put=set_NativeData))  NativeData;
 
 
 // Methods
 
 /// @brief Method get_NativeData addr 0x207d5c8 size 0x14 virtual false final false
- ::ENet::ENetCallbacks get_NativeData() ;
+ ENet::ENetCallbacks get_NativeData() ;
 
 /// @brief Method set_NativeData addr 0x207d5dc size 0x14 virtual false final false
- void set_NativeData(::ENet::ENetCallbacks value) ;
+ void set_NativeData(ENet::ENetCallbacks value) ;
 
-// Ctor Parameters [CppParam { name: "allocCallback", ty: "::ENet::AllocCallback", modifiers: "", def_value: None }, CppParam { name: "freeCallback", ty: "::ENet::FreeCallback", modifiers: "", def_value: None }, CppParam { name: "noMemoryCallback", ty: "::ENet::NoMemoryCallback", modifiers: "", def_value: None }]
-explicit Callbacks(::ENet::AllocCallback allocCallback, ::ENet::FreeCallback freeCallback, ::ENet::NoMemoryCallback noMemoryCallback) ;
+// Ctor Parameters [CppParam { name: "allocCallback", ty: "ENet::AllocCallback", modifiers: "", def_value: None }, CppParam { name: "freeCallback", ty: "ENet::FreeCallback", modifiers: "", def_value: None }, CppParam { name: "noMemoryCallback", ty: "ENet::NoMemoryCallback", modifiers: "", def_value: None }]
+explicit Callbacks(ENet::AllocCallback allocCallback, ENet::FreeCallback freeCallback, ENet::NoMemoryCallback noMemoryCallback) ;
 
 /// @brief Method .ctor addr 0x207d5f0 size 0x3c virtual false final false
- void _ctor(::ENet::AllocCallback allocCallback, ::ENet::FreeCallback freeCallback, ::ENet::NoMemoryCallback noMemoryCallback) ;
+ void _ctor(ENet::AllocCallback allocCallback, ENet::FreeCallback freeCallback, ENet::NoMemoryCallback noMemoryCallback) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def ENet
-} // end anonymous namespace
-NEED_NO_BOX(::ENet::Callbacks);
-DEFINE_IL2CPP_ARG_TYPE(::ENet::Callbacks, "ENet", "Callbacks");
+NEED_NO_BOX(ENet::Callbacks);
+DEFINE_IL2CPP_ARG_TYPE(ENet::Callbacks, "ENet", "Callbacks");

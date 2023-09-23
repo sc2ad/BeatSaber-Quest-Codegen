@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security::Cryptography {
 struct CipherMode;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field CBC offset 0
-static ::System::Security::Cryptography::CipherMode const CBC;
+static System::Security::Cryptography::CipherMode const CBC;
 
 /// @brief Field ECB offset 0
-static ::System::Security::Cryptography::CipherMode const ECB;
+static System::Security::Cryptography::CipherMode const ECB;
 
 /// @brief Field OFB offset 0
-static ::System::Security::Cryptography::CipherMode const OFB;
+static System::Security::Cryptography::CipherMode const OFB;
 
 /// @brief Field CFB offset 0
-static ::System::Security::Cryptography::CipherMode const CFB;
+static System::Security::Cryptography::CipherMode const CFB;
 
 /// @brief Field CTS offset 0
-static ::System::Security::Cryptography::CipherMode const CTS;
+static System::Security::Cryptography::CipherMode const CTS;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::CipherMode, "System.Security.Cryptography", "CipherMode");
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CipherMode, "System.Security.Cryptography", "CipherMode");

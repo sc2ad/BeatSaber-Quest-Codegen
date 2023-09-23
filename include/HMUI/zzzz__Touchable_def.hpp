@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UI/zzzz__Graphic_def.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine::UI {
 class VertexHelper;
 }
@@ -16,7 +15,7 @@ namespace HMUI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12981))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13619))
 // CS Name: HMUI.Touchable
-class CORDL_TYPE Touchable : public ::UnityEngine::UI::Graphic {
+class CORDL_TYPE Touchable : public UnityEngine::UI::Graphic {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr Touchable(Touchable const& ) noexcept = default;
 constexpr Touchable(Touchable&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Touchable(void* ptr) noexcept : ::UnityEngine::UI::Graphic(ptr) {
+constexpr explicit Touchable(void* ptr) noexcept : UnityEngine::UI::Graphic(ptr) {
 }
 
 
@@ -70,7 +69,7 @@ constexpr float_t __get__skew() const;
  float_t get_skew() ;
 
 /// @brief Method OnPopulateMesh addr 0x1fb2280 size 0x18 virtual true final false
- void OnPopulateMesh(::UnityEngine::UI::VertexHelper vh) ;
+ void OnPopulateMesh(UnityEngine::UI::VertexHelper vh) ;
 
 // Ctor Parameters []
 explicit Touchable() ;
@@ -82,6 +81,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HMUI
-} // end anonymous namespace
-NEED_NO_BOX(::HMUI::Touchable);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::Touchable, "HMUI", "Touchable");
+NEED_NO_BOX(HMUI::Touchable);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::Touchable, "HMUI", "Touchable");

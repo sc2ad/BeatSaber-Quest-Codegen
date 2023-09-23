@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__CustomYieldInstruction_def.hpp"
 #include <cmath>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 class WaitForSecondsRealtime;
@@ -13,7 +12,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10183))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10176))
 // CS Name: UnityEngine.WaitForSecondsRealtime
-class CORDL_TYPE WaitForSecondsRealtime : public ::UnityEngine::CustomYieldInstruction {
+class CORDL_TYPE WaitForSecondsRealtime : public UnityEngine::CustomYieldInstruction {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr WaitForSecondsRealtime(WaitForSecondsRealtime const& ) noexcept = defa
 constexpr WaitForSecondsRealtime(WaitForSecondsRealtime&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit WaitForSecondsRealtime(void* ptr) noexcept : ::UnityEngine::CustomYieldInstruction(ptr) {
+constexpr explicit WaitForSecondsRealtime(void* ptr) noexcept : UnityEngine::CustomYieldInstruction(ptr) {
 }
 
 
@@ -93,6 +92,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::WaitForSecondsRealtime);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::WaitForSecondsRealtime, "UnityEngine", "WaitForSecondsRealtime");
+NEED_NO_BOX(UnityEngine::WaitForSecondsRealtime);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WaitForSecondsRealtime, "UnityEngine", "WaitForSecondsRealtime");

@@ -2,18 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__TableCell_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace UnityEngine::UI {
-class Image;
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace UnityEngine {
 struct Color;
 }
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace HMUI {
-struct ____HMUI__SelectableCell__TransitionType;
+struct HMUI__SelectableCell__TransitionType;
+}
+namespace UnityEngine::UI {
+class Image;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,7 +24,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13715))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5527))
 // CS Name: LevelPackHeaderTableCell
-class CORDL_TYPE LevelPackHeaderTableCell : public ::HMUI::TableCell {
+class CORDL_TYPE LevelPackHeaderTableCell : public HMUI::TableCell {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr LevelPackHeaderTableCell(LevelPackHeaderTableCell const& ) noexcept = 
 constexpr LevelPackHeaderTableCell(LevelPackHeaderTableCell&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LevelPackHeaderTableCell(void* ptr) noexcept : ::HMUI::TableCell(ptr) {
+constexpr explicit LevelPackHeaderTableCell(void* ptr) noexcept : HMUI::TableCell(ptr) {
 }
 
 
@@ -61,35 +60,35 @@ constexpr explicit LevelPackHeaderTableCell(void* ptr) noexcept : ::HMUI::TableC
 
 // Fields
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__nameText, put=__set__nameText))  _nameText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__nameText, put=__set__nameText))  _nameText;
 
-constexpr void __set__nameText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__nameText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__nameText() const;
+constexpr TMPro::TextMeshProUGUI __get__nameText() const;
 
- ::UnityEngine::UI::Image __declspec(property(get=__get__backgroundImage, put=__set__backgroundImage))  _backgroundImage;
+ UnityEngine::UI::Image __declspec(property(get=__get__backgroundImage, put=__set__backgroundImage))  _backgroundImage;
 
-constexpr void __set__backgroundImage(::UnityEngine::UI::Image value) ;
+constexpr void __set__backgroundImage(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get__backgroundImage() const;
+constexpr UnityEngine::UI::Image __get__backgroundImage() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__highlightBackgroundColor, put=__set__highlightBackgroundColor))  _highlightBackgroundColor;
+ UnityEngine::Color __declspec(property(get=__get__highlightBackgroundColor, put=__set__highlightBackgroundColor))  _highlightBackgroundColor;
 
-constexpr void __set__highlightBackgroundColor(::UnityEngine::Color value) ;
+constexpr void __set__highlightBackgroundColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__highlightBackgroundColor() const;
+constexpr UnityEngine::Color __get__highlightBackgroundColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__selectedBackgroundColor, put=__set__selectedBackgroundColor))  _selectedBackgroundColor;
+ UnityEngine::Color __declspec(property(get=__get__selectedBackgroundColor, put=__set__selectedBackgroundColor))  _selectedBackgroundColor;
 
-constexpr void __set__selectedBackgroundColor(::UnityEngine::Color value) ;
+constexpr void __set__selectedBackgroundColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__selectedBackgroundColor() const;
+constexpr UnityEngine::Color __get__selectedBackgroundColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__selectedAndHighlightedBackgroundColor, put=__set__selectedAndHighlightedBackgroundColor))  _selectedAndHighlightedBackgroundColor;
+ UnityEngine::Color __declspec(property(get=__get__selectedAndHighlightedBackgroundColor, put=__set__selectedAndHighlightedBackgroundColor))  _selectedAndHighlightedBackgroundColor;
 
-constexpr void __set__selectedAndHighlightedBackgroundColor(::UnityEngine::Color value) ;
+constexpr void __set__selectedAndHighlightedBackgroundColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__selectedAndHighlightedBackgroundColor() const;
+constexpr UnityEngine::Color __get__selectedAndHighlightedBackgroundColor() const;
 
 
 // Methods
@@ -98,10 +97,10 @@ constexpr ::UnityEngine::Color __get__selectedAndHighlightedBackgroundColor() co
  void SetData(::StringW headerText) ;
 
 /// @brief Method SelectionDidChange addr 0x2126430 size 0x4 virtual true final false
- void SelectionDidChange(::HMUI::____HMUI__SelectableCell__TransitionType transitionType) ;
+ void SelectionDidChange(HMUI::HMUI__SelectableCell__TransitionType transitionType) ;
 
 /// @brief Method HighlightDidChange addr 0x21264d0 size 0x4 virtual true final false
- void HighlightDidChange(::HMUI::____HMUI__SelectableCell__TransitionType transitionType) ;
+ void HighlightDidChange(HMUI::HMUI__SelectableCell__TransitionType transitionType) ;
 
 /// @brief Method RefreshVisuals addr 0x2126434 size 0x9c virtual false final false
  void RefreshVisuals() ;
@@ -116,6 +115,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LevelPackHeaderTableCell);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelPackHeaderTableCell, "", "LevelPackHeaderTableCell");
+NEED_NO_BOX(GlobalNamespace::LevelPackHeaderTableCell);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelPackHeaderTableCell, "", "LevelPackHeaderTableCell");

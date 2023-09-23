@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__XRController_def.hpp"
 #include <cmath>
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem::XR {
 class XRControllerWithRumble;
@@ -13,7 +12,7 @@ namespace UnityEngine::InputSystem::XR {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6408))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6409))
 // CS Name: UnityEngine.InputSystem.XR.XRControllerWithRumble
-class CORDL_TYPE XRControllerWithRumble : public ::UnityEngine::InputSystem::XR::XRController {
+class CORDL_TYPE XRControllerWithRumble : public UnityEngine::InputSystem::XR::XRController {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr XRControllerWithRumble(XRControllerWithRumble const& ) noexcept = defa
 constexpr XRControllerWithRumble(XRControllerWithRumble&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XRControllerWithRumble(void* ptr) noexcept : ::UnityEngine::InputSystem::XR::XRController(ptr) {
+constexpr explicit XRControllerWithRumble(void* ptr) noexcept : UnityEngine::InputSystem::XR::XRController(ptr) {
 }
 
 
@@ -62,6 +61,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::XR
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::XR::XRControllerWithRumble);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::XR::XRControllerWithRumble, "UnityEngine.InputSystem.XR", "XRControllerWithRumble");
+NEED_NO_BOX(UnityEngine::InputSystem::XR::XRControllerWithRumble);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::XR::XRControllerWithRumble, "UnityEngine.InputSystem.XR", "XRControllerWithRumble");

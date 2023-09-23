@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class IEqualityComparer_1;
@@ -29,15 +28,15 @@ class Set_1<TElement>;
 }
 namespace System::Linq {
 template<>
-class Set_1<::UnityEngine::ProBuilder::Edge>;
+class Set_1<UnityEngine::ProBuilder::Edge>;
 }
 namespace System::Linq {
 template<>
-class Set_1<::UnityEngine::ProBuilder::EdgeLookup>;
+class Set_1<UnityEngine::ProBuilder::EdgeLookup>;
 }
 namespace System::Linq {
 template<>
-class Set_1<::UnityEngine::SceneManagement::Scene>;
+class Set_1<UnityEngine::SceneManagement::Scene>;
 }
 namespace System::Linq {
 template<>
@@ -49,7 +48,7 @@ class Set_1<int32_t>;
 }
 namespace System::Linq {
 template<typename TElement>
-struct ____System__Linq__Set_1__Slot;
+struct System__Linq__Set_1__Slot;
 }
 // Type: ::Slot
 namespace System::Linq {
@@ -59,20 +58,20 @@ template<typename TElement>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14568))
 // CS Name: System.Linq.Set`1::Slot
-struct CORDL_TYPE ____System__Linq__Set_1__Slot : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE System__Linq__Set_1__Slot : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "value", ty: "TElement", modifiers: "", def_value: None }, CppParam { name: "next", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____System__Linq__Set_1__Slot(int32_t hashCode, TElement value, int32_t next) noexcept;
+constexpr System__Linq__Set_1__Slot(int32_t hashCode, TElement value, int32_t next) noexcept;
 
 
-                    constexpr ____System__Linq__Set_1__Slot(____System__Linq__Set_1__Slot const&) = default;
-                    constexpr ____System__Linq__Set_1__Slot(____System__Linq__Set_1__Slot&&) = default;
-                    constexpr ____System__Linq__Set_1__Slot& operator=(____System__Linq__Set_1__Slot const& o) {
+                    constexpr System__Linq__Set_1__Slot(System__Linq__Set_1__Slot const&) = default;
+                    constexpr System__Linq__Set_1__Slot(System__Linq__Set_1__Slot&&) = default;
+                    constexpr System__Linq__Set_1__Slot& operator=(System__Linq__Set_1__Slot const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Linq__Set_1__Slot& operator=(____System__Linq__Set_1__Slot&& o) noexcept {
+                    constexpr System__Linq__Set_1__Slot& operator=(System__Linq__Set_1__Slot&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -85,7 +84,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x18};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Linq__Set_1__Slot(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Linq__Set_1__Slot(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -130,7 +129,7 @@ template<::cordl_internals::il2cpp_reference_type TElement>
 class CORDL_TYPE Set_1<TElement> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using Slot = ::System::Linq::____System__Linq__Set_1__Slot<TElement>;
+using Slot = System::Linq::System__Linq__Set_1__Slot<TElement>;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -171,11 +170,11 @@ constexpr void __set_buckets(::ArrayW<int32_t> value) ;
 
 constexpr ::ArrayW<int32_t> __get_buckets() const;
 
- ::ArrayW<::System::Linq::____System__Linq__Set_1__Slot<TElement>> __declspec(property(get=__get_slots, put=__set_slots))  slots;
+ ::ArrayW<System::Linq::System__Linq__Set_1__Slot<TElement>> __declspec(property(get=__get_slots, put=__set_slots))  slots;
 
-constexpr void __set_slots(::ArrayW<::System::Linq::____System__Linq__Set_1__Slot<TElement>> value) ;
+constexpr void __set_slots(::ArrayW<System::Linq::System__Linq__Set_1__Slot<TElement>> value) ;
 
-constexpr ::ArrayW<::System::Linq::____System__Linq__Set_1__Slot<TElement>> __get_slots() const;
+constexpr ::ArrayW<System::Linq::System__Linq__Set_1__Slot<TElement>> __get_slots() const;
 
  int32_t __declspec(property(get=__get_count, put=__set_count))  count;
 
@@ -189,20 +188,20 @@ constexpr void __set_freeList(int32_t value) ;
 
 constexpr int32_t __get_freeList() const;
 
- ::System::Collections::Generic::IEqualityComparer_1<TElement> __declspec(property(get=__get_comparer, put=__set_comparer))  comparer;
+ System::Collections::Generic::IEqualityComparer_1<TElement> __declspec(property(get=__get_comparer, put=__set_comparer))  comparer;
 
-constexpr void __set_comparer(::System::Collections::Generic::IEqualityComparer_1<TElement> value) ;
+constexpr void __set_comparer(System::Collections::Generic::IEqualityComparer_1<TElement> value) ;
 
-constexpr ::System::Collections::Generic::IEqualityComparer_1<TElement> __get_comparer() const;
+constexpr System::Collections::Generic::IEqualityComparer_1<TElement> __get_comparer() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "comparer", ty: "::System::Collections::Generic::IEqualityComparer_1<TElement>", modifiers: "", def_value: None }]
-explicit Set_1(::System::Collections::Generic::IEqualityComparer_1<TElement> comparer) ;
+// Ctor Parameters [CppParam { name: "comparer", ty: "System::Collections::Generic::IEqualityComparer_1<TElement>", modifiers: "", def_value: None }]
+explicit Set_1(System::Collections::Generic::IEqualityComparer_1<TElement> comparer) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Collections::Generic::IEqualityComparer_1<TElement> comparer) ;
+ void _ctor(System::Collections::Generic::IEqualityComparer_1<TElement> comparer) ;
 
 /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
  bool Add(TElement value) ;
@@ -231,7 +230,7 @@ template<>
 class CORDL_TYPE Set_1<int32_t> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using Slot = ::System::Linq::____System__Linq__Set_1__Slot<int32_t>;
+using Slot = System::Linq::System__Linq__Set_1__Slot<int32_t>;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -272,11 +271,11 @@ constexpr void __set_buckets(::ArrayW<int32_t> value) ;
 
 constexpr ::ArrayW<int32_t> __get_buckets() const;
 
- ::ArrayW<::System::Linq::____System__Linq__Set_1__Slot<int32_t>> __declspec(property(get=__get_slots, put=__set_slots))  slots;
+ ::ArrayW<System::Linq::System__Linq__Set_1__Slot<int32_t>> __declspec(property(get=__get_slots, put=__set_slots))  slots;
 
-constexpr void __set_slots(::ArrayW<::System::Linq::____System__Linq__Set_1__Slot<int32_t>> value) ;
+constexpr void __set_slots(::ArrayW<System::Linq::System__Linq__Set_1__Slot<int32_t>> value) ;
 
-constexpr ::ArrayW<::System::Linq::____System__Linq__Set_1__Slot<int32_t>> __get_slots() const;
+constexpr ::ArrayW<System::Linq::System__Linq__Set_1__Slot<int32_t>> __get_slots() const;
 
  int32_t __declspec(property(get=__get_count, put=__set_count))  count;
 
@@ -290,20 +289,20 @@ constexpr void __set_freeList(int32_t value) ;
 
 constexpr int32_t __get_freeList() const;
 
- ::System::Collections::Generic::IEqualityComparer_1<int32_t> __declspec(property(get=__get_comparer, put=__set_comparer))  comparer;
+ System::Collections::Generic::IEqualityComparer_1<int32_t> __declspec(property(get=__get_comparer, put=__set_comparer))  comparer;
 
-constexpr void __set_comparer(::System::Collections::Generic::IEqualityComparer_1<int32_t> value) ;
+constexpr void __set_comparer(System::Collections::Generic::IEqualityComparer_1<int32_t> value) ;
 
-constexpr ::System::Collections::Generic::IEqualityComparer_1<int32_t> __get_comparer() const;
+constexpr System::Collections::Generic::IEqualityComparer_1<int32_t> __get_comparer() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "comparer", ty: "::System::Collections::Generic::IEqualityComparer_1<int32_t>", modifiers: "", def_value: None }]
-explicit Set_1(::System::Collections::Generic::IEqualityComparer_1<int32_t> comparer) ;
+// Ctor Parameters [CppParam { name: "comparer", ty: "System::Collections::Generic::IEqualityComparer_1<int32_t>", modifiers: "", def_value: None }]
+explicit Set_1(System::Collections::Generic::IEqualityComparer_1<int32_t> comparer) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Collections::Generic::IEqualityComparer_1<int32_t> comparer) ;
+ void _ctor(System::Collections::Generic::IEqualityComparer_1<int32_t> comparer) ;
 
 /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
  bool Add(int32_t value) ;
@@ -332,7 +331,7 @@ template<>
 class CORDL_TYPE Set_1<char16_t> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using Slot = ::System::Linq::____System__Linq__Set_1__Slot<char16_t>;
+using Slot = System::Linq::System__Linq__Set_1__Slot<char16_t>;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -373,11 +372,11 @@ constexpr void __set_buckets(::ArrayW<int32_t> value) ;
 
 constexpr ::ArrayW<int32_t> __get_buckets() const;
 
- ::ArrayW<::System::Linq::____System__Linq__Set_1__Slot<char16_t>> __declspec(property(get=__get_slots, put=__set_slots))  slots;
+ ::ArrayW<System::Linq::System__Linq__Set_1__Slot<char16_t>> __declspec(property(get=__get_slots, put=__set_slots))  slots;
 
-constexpr void __set_slots(::ArrayW<::System::Linq::____System__Linq__Set_1__Slot<char16_t>> value) ;
+constexpr void __set_slots(::ArrayW<System::Linq::System__Linq__Set_1__Slot<char16_t>> value) ;
 
-constexpr ::ArrayW<::System::Linq::____System__Linq__Set_1__Slot<char16_t>> __get_slots() const;
+constexpr ::ArrayW<System::Linq::System__Linq__Set_1__Slot<char16_t>> __get_slots() const;
 
  int32_t __declspec(property(get=__get_count, put=__set_count))  count;
 
@@ -391,20 +390,20 @@ constexpr void __set_freeList(int32_t value) ;
 
 constexpr int32_t __get_freeList() const;
 
- ::System::Collections::Generic::IEqualityComparer_1<char16_t> __declspec(property(get=__get_comparer, put=__set_comparer))  comparer;
+ System::Collections::Generic::IEqualityComparer_1<char16_t> __declspec(property(get=__get_comparer, put=__set_comparer))  comparer;
 
-constexpr void __set_comparer(::System::Collections::Generic::IEqualityComparer_1<char16_t> value) ;
+constexpr void __set_comparer(System::Collections::Generic::IEqualityComparer_1<char16_t> value) ;
 
-constexpr ::System::Collections::Generic::IEqualityComparer_1<char16_t> __get_comparer() const;
+constexpr System::Collections::Generic::IEqualityComparer_1<char16_t> __get_comparer() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "comparer", ty: "::System::Collections::Generic::IEqualityComparer_1<char16_t>", modifiers: "", def_value: None }]
-explicit Set_1(::System::Collections::Generic::IEqualityComparer_1<char16_t> comparer) ;
+// Ctor Parameters [CppParam { name: "comparer", ty: "System::Collections::Generic::IEqualityComparer_1<char16_t>", modifiers: "", def_value: None }]
+explicit Set_1(System::Collections::Generic::IEqualityComparer_1<char16_t> comparer) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Collections::Generic::IEqualityComparer_1<char16_t> comparer) ;
+ void _ctor(System::Collections::Generic::IEqualityComparer_1<char16_t> comparer) ;
 
 /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
  bool Add(char16_t value) ;
@@ -430,10 +429,10 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14569))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14569), inst: 2491 })
 // CS Name: System.Linq.Set`1
-class CORDL_TYPE Set_1<::UnityEngine::ProBuilder::Edge> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Set_1<UnityEngine::ProBuilder::Edge> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using Slot = ::System::Linq::____System__Linq__Set_1__Slot<::UnityEngine::ProBuilder::Edge>;
+using Slot = System::Linq::System__Linq__Set_1__Slot<UnityEngine::ProBuilder::Edge>;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -474,11 +473,11 @@ constexpr void __set_buckets(::ArrayW<int32_t> value) ;
 
 constexpr ::ArrayW<int32_t> __get_buckets() const;
 
- ::ArrayW<::System::Linq::____System__Linq__Set_1__Slot<::UnityEngine::ProBuilder::Edge>> __declspec(property(get=__get_slots, put=__set_slots))  slots;
+ ::ArrayW<System::Linq::System__Linq__Set_1__Slot<UnityEngine::ProBuilder::Edge>> __declspec(property(get=__get_slots, put=__set_slots))  slots;
 
-constexpr void __set_slots(::ArrayW<::System::Linq::____System__Linq__Set_1__Slot<::UnityEngine::ProBuilder::Edge>> value) ;
+constexpr void __set_slots(::ArrayW<System::Linq::System__Linq__Set_1__Slot<UnityEngine::ProBuilder::Edge>> value) ;
 
-constexpr ::ArrayW<::System::Linq::____System__Linq__Set_1__Slot<::UnityEngine::ProBuilder::Edge>> __get_slots() const;
+constexpr ::ArrayW<System::Linq::System__Linq__Set_1__Slot<UnityEngine::ProBuilder::Edge>> __get_slots() const;
 
  int32_t __declspec(property(get=__get_count, put=__set_count))  count;
 
@@ -492,32 +491,32 @@ constexpr void __set_freeList(int32_t value) ;
 
 constexpr int32_t __get_freeList() const;
 
- ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ProBuilder::Edge> __declspec(property(get=__get_comparer, put=__set_comparer))  comparer;
+ System::Collections::Generic::IEqualityComparer_1<UnityEngine::ProBuilder::Edge> __declspec(property(get=__get_comparer, put=__set_comparer))  comparer;
 
-constexpr void __set_comparer(::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ProBuilder::Edge> value) ;
+constexpr void __set_comparer(System::Collections::Generic::IEqualityComparer_1<UnityEngine::ProBuilder::Edge> value) ;
 
-constexpr ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ProBuilder::Edge> __get_comparer() const;
+constexpr System::Collections::Generic::IEqualityComparer_1<UnityEngine::ProBuilder::Edge> __get_comparer() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "comparer", ty: "::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ProBuilder::Edge>", modifiers: "", def_value: None }]
-explicit Set_1(::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ProBuilder::Edge> comparer) ;
+// Ctor Parameters [CppParam { name: "comparer", ty: "System::Collections::Generic::IEqualityComparer_1<UnityEngine::ProBuilder::Edge>", modifiers: "", def_value: None }]
+explicit Set_1(System::Collections::Generic::IEqualityComparer_1<UnityEngine::ProBuilder::Edge> comparer) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ProBuilder::Edge> comparer) ;
+ void _ctor(System::Collections::Generic::IEqualityComparer_1<UnityEngine::ProBuilder::Edge> comparer) ;
 
 /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
- bool Add(::UnityEngine::ProBuilder::Edge value) ;
+ bool Add(UnityEngine::ProBuilder::Edge value) ;
 
 /// @brief Method Find addr 0x0 size 0xffffffffffffffff virtual false final false
- bool Find(::UnityEngine::ProBuilder::Edge value, bool add) ;
+ bool Find(UnityEngine::ProBuilder::Edge value, bool add) ;
 
 /// @brief Method Resize addr 0x0 size 0xffffffffffffffff virtual false final false
  void Resize() ;
 
 /// @brief Method InternalGetHashCode addr 0x0 size 0xffffffffffffffff virtual false final false
- int32_t InternalGetHashCode(::UnityEngine::ProBuilder::Edge value) ;
+ int32_t InternalGetHashCode(UnityEngine::ProBuilder::Edge value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -531,10 +530,10 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14569))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14569), inst: 2492 })
 // CS Name: System.Linq.Set`1
-class CORDL_TYPE Set_1<::UnityEngine::ProBuilder::EdgeLookup> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Set_1<UnityEngine::ProBuilder::EdgeLookup> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using Slot = ::System::Linq::____System__Linq__Set_1__Slot<::UnityEngine::ProBuilder::EdgeLookup>;
+using Slot = System::Linq::System__Linq__Set_1__Slot<UnityEngine::ProBuilder::EdgeLookup>;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -575,11 +574,11 @@ constexpr void __set_buckets(::ArrayW<int32_t> value) ;
 
 constexpr ::ArrayW<int32_t> __get_buckets() const;
 
- ::ArrayW<::System::Linq::____System__Linq__Set_1__Slot<::UnityEngine::ProBuilder::EdgeLookup>> __declspec(property(get=__get_slots, put=__set_slots))  slots;
+ ::ArrayW<System::Linq::System__Linq__Set_1__Slot<UnityEngine::ProBuilder::EdgeLookup>> __declspec(property(get=__get_slots, put=__set_slots))  slots;
 
-constexpr void __set_slots(::ArrayW<::System::Linq::____System__Linq__Set_1__Slot<::UnityEngine::ProBuilder::EdgeLookup>> value) ;
+constexpr void __set_slots(::ArrayW<System::Linq::System__Linq__Set_1__Slot<UnityEngine::ProBuilder::EdgeLookup>> value) ;
 
-constexpr ::ArrayW<::System::Linq::____System__Linq__Set_1__Slot<::UnityEngine::ProBuilder::EdgeLookup>> __get_slots() const;
+constexpr ::ArrayW<System::Linq::System__Linq__Set_1__Slot<UnityEngine::ProBuilder::EdgeLookup>> __get_slots() const;
 
  int32_t __declspec(property(get=__get_count, put=__set_count))  count;
 
@@ -593,32 +592,32 @@ constexpr void __set_freeList(int32_t value) ;
 
 constexpr int32_t __get_freeList() const;
 
- ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ProBuilder::EdgeLookup> __declspec(property(get=__get_comparer, put=__set_comparer))  comparer;
+ System::Collections::Generic::IEqualityComparer_1<UnityEngine::ProBuilder::EdgeLookup> __declspec(property(get=__get_comparer, put=__set_comparer))  comparer;
 
-constexpr void __set_comparer(::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ProBuilder::EdgeLookup> value) ;
+constexpr void __set_comparer(System::Collections::Generic::IEqualityComparer_1<UnityEngine::ProBuilder::EdgeLookup> value) ;
 
-constexpr ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ProBuilder::EdgeLookup> __get_comparer() const;
+constexpr System::Collections::Generic::IEqualityComparer_1<UnityEngine::ProBuilder::EdgeLookup> __get_comparer() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "comparer", ty: "::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ProBuilder::EdgeLookup>", modifiers: "", def_value: None }]
-explicit Set_1(::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ProBuilder::EdgeLookup> comparer) ;
+// Ctor Parameters [CppParam { name: "comparer", ty: "System::Collections::Generic::IEqualityComparer_1<UnityEngine::ProBuilder::EdgeLookup>", modifiers: "", def_value: None }]
+explicit Set_1(System::Collections::Generic::IEqualityComparer_1<UnityEngine::ProBuilder::EdgeLookup> comparer) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ProBuilder::EdgeLookup> comparer) ;
+ void _ctor(System::Collections::Generic::IEqualityComparer_1<UnityEngine::ProBuilder::EdgeLookup> comparer) ;
 
 /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
- bool Add(::UnityEngine::ProBuilder::EdgeLookup value) ;
+ bool Add(UnityEngine::ProBuilder::EdgeLookup value) ;
 
 /// @brief Method Find addr 0x0 size 0xffffffffffffffff virtual false final false
- bool Find(::UnityEngine::ProBuilder::EdgeLookup value, bool add) ;
+ bool Find(UnityEngine::ProBuilder::EdgeLookup value, bool add) ;
 
 /// @brief Method Resize addr 0x0 size 0xffffffffffffffff virtual false final false
  void Resize() ;
 
 /// @brief Method InternalGetHashCode addr 0x0 size 0xffffffffffffffff virtual false final false
- int32_t InternalGetHashCode(::UnityEngine::ProBuilder::EdgeLookup value) ;
+ int32_t InternalGetHashCode(UnityEngine::ProBuilder::EdgeLookup value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -632,10 +631,10 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14569))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14569), inst: 3012 })
 // CS Name: System.Linq.Set`1
-class CORDL_TYPE Set_1<::UnityEngine::SceneManagement::Scene> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Set_1<UnityEngine::SceneManagement::Scene> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using Slot = ::System::Linq::____System__Linq__Set_1__Slot<::UnityEngine::SceneManagement::Scene>;
+using Slot = System::Linq::System__Linq__Set_1__Slot<UnityEngine::SceneManagement::Scene>;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -676,11 +675,11 @@ constexpr void __set_buckets(::ArrayW<int32_t> value) ;
 
 constexpr ::ArrayW<int32_t> __get_buckets() const;
 
- ::ArrayW<::System::Linq::____System__Linq__Set_1__Slot<::UnityEngine::SceneManagement::Scene>> __declspec(property(get=__get_slots, put=__set_slots))  slots;
+ ::ArrayW<System::Linq::System__Linq__Set_1__Slot<UnityEngine::SceneManagement::Scene>> __declspec(property(get=__get_slots, put=__set_slots))  slots;
 
-constexpr void __set_slots(::ArrayW<::System::Linq::____System__Linq__Set_1__Slot<::UnityEngine::SceneManagement::Scene>> value) ;
+constexpr void __set_slots(::ArrayW<System::Linq::System__Linq__Set_1__Slot<UnityEngine::SceneManagement::Scene>> value) ;
 
-constexpr ::ArrayW<::System::Linq::____System__Linq__Set_1__Slot<::UnityEngine::SceneManagement::Scene>> __get_slots() const;
+constexpr ::ArrayW<System::Linq::System__Linq__Set_1__Slot<UnityEngine::SceneManagement::Scene>> __get_slots() const;
 
  int32_t __declspec(property(get=__get_count, put=__set_count))  count;
 
@@ -694,37 +693,36 @@ constexpr void __set_freeList(int32_t value) ;
 
 constexpr int32_t __get_freeList() const;
 
- ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::SceneManagement::Scene> __declspec(property(get=__get_comparer, put=__set_comparer))  comparer;
+ System::Collections::Generic::IEqualityComparer_1<UnityEngine::SceneManagement::Scene> __declspec(property(get=__get_comparer, put=__set_comparer))  comparer;
 
-constexpr void __set_comparer(::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::SceneManagement::Scene> value) ;
+constexpr void __set_comparer(System::Collections::Generic::IEqualityComparer_1<UnityEngine::SceneManagement::Scene> value) ;
 
-constexpr ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::SceneManagement::Scene> __get_comparer() const;
+constexpr System::Collections::Generic::IEqualityComparer_1<UnityEngine::SceneManagement::Scene> __get_comparer() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "comparer", ty: "::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::SceneManagement::Scene>", modifiers: "", def_value: None }]
-explicit Set_1(::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::SceneManagement::Scene> comparer) ;
+// Ctor Parameters [CppParam { name: "comparer", ty: "System::Collections::Generic::IEqualityComparer_1<UnityEngine::SceneManagement::Scene>", modifiers: "", def_value: None }]
+explicit Set_1(System::Collections::Generic::IEqualityComparer_1<UnityEngine::SceneManagement::Scene> comparer) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::SceneManagement::Scene> comparer) ;
+ void _ctor(System::Collections::Generic::IEqualityComparer_1<UnityEngine::SceneManagement::Scene> comparer) ;
 
 /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
- bool Add(::UnityEngine::SceneManagement::Scene value) ;
+ bool Add(UnityEngine::SceneManagement::Scene value) ;
 
 /// @brief Method Find addr 0x0 size 0xffffffffffffffff virtual false final false
- bool Find(::UnityEngine::SceneManagement::Scene value, bool add) ;
+ bool Find(UnityEngine::SceneManagement::Scene value, bool add) ;
 
 /// @brief Method Resize addr 0x0 size 0xffffffffffffffff virtual false final false
  void Resize() ;
 
 /// @brief Method InternalGetHashCode addr 0x0 size 0xffffffffffffffff virtual false final false
- int32_t InternalGetHashCode(::UnityEngine::SceneManagement::Scene value) ;
+ int32_t InternalGetHashCode(UnityEngine::SceneManagement::Scene value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Linq
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Linq::Set_1, "System.Linq", "Set`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Linq::____System__Linq__Set_1__Slot, "System.Linq", "Set`1/Slot");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Linq::Set_1, "System.Linq", "Set`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::Linq::System__Linq__Set_1__Slot, "System.Linq", "Set`1/Slot");

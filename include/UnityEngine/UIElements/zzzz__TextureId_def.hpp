@@ -4,7 +4,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 struct TextureId;
@@ -58,11 +57,11 @@ constexpr void __set_m_Index(int32_t value) ;
 
 constexpr int32_t __get_m_Index() const;
 
-static ::UnityEngine::UIElements::TextureId __declspec(property(get=__get_invalid, put=__set_invalid))  invalid;
+static UnityEngine::UIElements::TextureId __declspec(property(get=__get_invalid, put=__set_invalid))  invalid;
 
-static void __set_invalid(::UnityEngine::UIElements::TextureId value) ;
+static void __set_invalid(UnityEngine::UIElements::TextureId value) ;
 
-static ::UnityEngine::UIElements::TextureId __get_invalid() ;
+static UnityEngine::UIElements::TextureId __get_invalid() ;
 
 
 // Properties
@@ -88,14 +87,13 @@ static ::UnityEngine::UIElements::TextureId __get_invalid() ;
  int32_t GetHashCode() ;
 
 /// @brief Method op_Equality addr 0x2d060f0 size 0xc virtual false final false
-static bool op_Equality(::UnityEngine::UIElements::TextureId left, ::UnityEngine::UIElements::TextureId right) ;
+static bool op_Equality(UnityEngine::UIElements::TextureId left, UnityEngine::UIElements::TextureId right) ;
 
 /// @brief Method op_Inequality addr 0x2d060fc size 0x64 virtual false final false
-static bool op_Inequality(::UnityEngine::UIElements::TextureId left, ::UnityEngine::UIElements::TextureId right) ;
+static bool op_Inequality(UnityEngine::UIElements::TextureId left, UnityEngine::UIElements::TextureId right) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::TextureId, "UnityEngine.UIElements", "TextureId");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::TextureId, "UnityEngine.UIElements", "TextureId");

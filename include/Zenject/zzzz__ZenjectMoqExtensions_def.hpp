@@ -1,20 +1,19 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace Zenject {
-template<typename TContract>
-class FactoryFromBinder_1;
-}
-namespace Zenject {
-class ConditionCopyNonLazyBinder;
-}
 namespace Zenject {
 template<typename TContract>
 class FromBinderGeneric_1;
 }
 namespace Zenject {
 class ScopeConcreteIdArgConditionCopyNonLazyBinder;
+}
+namespace Zenject {
+template<typename TContract>
+class FactoryFromBinder_1;
+}
+namespace Zenject {
+class ConditionCopyNonLazyBinder;
 }
 // Forward declare root types
 namespace Zenject {
@@ -64,16 +63,15 @@ constexpr explicit ZenjectMoqExtensions(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 /// @brief Method FromMock addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TContract>
-static ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder FromMock(::Zenject::FromBinderGeneric_1<TContract> binder) ;
+static Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder FromMock(Zenject::FromBinderGeneric_1<TContract> binder) ;
 
 /// @brief Method FromMock addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TContract>
-static ::Zenject::ConditionCopyNonLazyBinder FromMock(::Zenject::FactoryFromBinder_1<TContract> binder) ;
+static Zenject::ConditionCopyNonLazyBinder FromMock(Zenject::FactoryFromBinder_1<TContract> binder) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::ZenjectMoqExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::ZenjectMoqExtensions, "Zenject", "ZenjectMoqExtensions");
+NEED_NO_BOX(Zenject::ZenjectMoqExtensions);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectMoqExtensions, "Zenject", "ZenjectMoqExtensions");

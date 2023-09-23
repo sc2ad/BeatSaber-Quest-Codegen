@@ -1,6 +1,5 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace UnityEngine::EventSystems {
 class IEventSystemHandler;
 }
@@ -20,8 +19,8 @@ namespace UnityEngine::EventSystems {
 class CORDL_TYPE IMoveHandler : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::EventSystems::IEventSystemHandler
-constexpr operator  ::UnityEngine::EventSystems::IEventSystemHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IEventSystemHandler
+constexpr operator  UnityEngine::EventSystems::IEventSystemHandler() const noexcept;
 
 ~IMoveHandler() = default;
 
@@ -33,12 +32,11 @@ constexpr explicit IMoveHandler(void* ptr) noexcept : ::cordl_internals::Interfa
 // Methods
 
 /// @brief Method OnMove addr 0x0 size 0xffffffffffffffff virtual true final false
- void OnMove(::UnityEngine::EventSystems::AxisEventData eventData) ;
+ void OnMove(UnityEngine::EventSystems::AxisEventData eventData) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::EventSystems
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::EventSystems::IMoveHandler);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::IMoveHandler, "UnityEngine.EventSystems", "IMoveHandler");
+NEED_NO_BOX(UnityEngine::EventSystems::IMoveHandler);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::IMoveHandler, "UnityEngine.EventSystems", "IMoveHandler");

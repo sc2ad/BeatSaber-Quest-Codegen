@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class NoteSpawnInfoNetSerializable;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14940))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5239))
 // CS Name: NoteDataFromNoteSpawnInfoNetSerializable
-class CORDL_TYPE NoteDataFromNoteSpawnInfoNetSerializable : public ::GlobalNamespace::NoteData {
+class CORDL_TYPE NoteDataFromNoteSpawnInfoNetSerializable : public GlobalNamespace::NoteData {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr NoteDataFromNoteSpawnInfoNetSerializable(NoteDataFromNoteSpawnInfoNetS
 constexpr NoteDataFromNoteSpawnInfoNetSerializable(NoteDataFromNoteSpawnInfoNetSerializable&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NoteDataFromNoteSpawnInfoNetSerializable(void* ptr) noexcept : ::GlobalNamespace::NoteData(ptr) {
+constexpr explicit NoteDataFromNoteSpawnInfoNetSerializable(void* ptr) noexcept : GlobalNamespace::NoteData(ptr) {
 }
 
 
@@ -51,16 +50,15 @@ constexpr explicit NoteDataFromNoteSpawnInfoNetSerializable(void* ptr) noexcept 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "noteSpawnInfo", ty: "::GlobalNamespace::NoteSpawnInfoNetSerializable", modifiers: "", def_value: None }]
-explicit NoteDataFromNoteSpawnInfoNetSerializable(::GlobalNamespace::NoteSpawnInfoNetSerializable noteSpawnInfo) ;
+// Ctor Parameters [CppParam { name: "noteSpawnInfo", ty: "GlobalNamespace::NoteSpawnInfoNetSerializable", modifiers: "", def_value: None }]
+explicit NoteDataFromNoteSpawnInfoNetSerializable(GlobalNamespace::NoteSpawnInfoNetSerializable noteSpawnInfo) ;
 
 /// @brief Method .ctor addr 0x20de67c size 0x50 virtual false final false
- void _ctor(::GlobalNamespace::NoteSpawnInfoNetSerializable noteSpawnInfo) ;
+ void _ctor(GlobalNamespace::NoteSpawnInfoNetSerializable noteSpawnInfo) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::NoteDataFromNoteSpawnInfoNetSerializable);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoteDataFromNoteSpawnInfoNetSerializable, "", "NoteDataFromNoteSpawnInfoNetSerializable");
+NEED_NO_BOX(GlobalNamespace::NoteDataFromNoteSpawnInfoNetSerializable);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteDataFromNoteSpawnInfoNetSerializable, "", "NoteDataFromNoteSpawnInfoNetSerializable");

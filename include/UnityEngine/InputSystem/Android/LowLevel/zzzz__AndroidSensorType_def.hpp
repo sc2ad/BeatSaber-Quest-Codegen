@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem::Android::LowLevel {
 struct AndroidSensorType;
@@ -93,92 +92,91 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const None;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const None;
 
 /// @brief Field Accelerometer offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const Accelerometer;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const Accelerometer;
 
 /// @brief Field MagneticField offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const MagneticField;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const MagneticField;
 
 /// @brief Field Orientation offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const Orientation;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const Orientation;
 
 /// @brief Field Gyroscope offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const Gyroscope;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const Gyroscope;
 
 /// @brief Field Light offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const Light;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const Light;
 
 /// @brief Field Pressure offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const Pressure;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const Pressure;
 
 /// @brief Field Temperature offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const Temperature;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const Temperature;
 
 /// @brief Field Proximity offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const Proximity;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const Proximity;
 
 /// @brief Field Gravity offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const Gravity;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const Gravity;
 
 /// @brief Field LinearAcceleration offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const LinearAcceleration;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const LinearAcceleration;
 
 /// @brief Field RotationVector offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const RotationVector;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const RotationVector;
 
 /// @brief Field RelativeHumidity offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const RelativeHumidity;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const RelativeHumidity;
 
 /// @brief Field AmbientTemperature offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const AmbientTemperature;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const AmbientTemperature;
 
 /// @brief Field MagneticFieldUncalibrated offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const MagneticFieldUncalibrated;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const MagneticFieldUncalibrated;
 
 /// @brief Field GameRotationVector offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const GameRotationVector;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const GameRotationVector;
 
 /// @brief Field GyroscopeUncalibrated offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const GyroscopeUncalibrated;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const GyroscopeUncalibrated;
 
 /// @brief Field SignificantMotion offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const SignificantMotion;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const SignificantMotion;
 
 /// @brief Field StepDetector offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const StepDetector;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const StepDetector;
 
 /// @brief Field StepCounter offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const StepCounter;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const StepCounter;
 
 /// @brief Field GeomagneticRotationVector offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const GeomagneticRotationVector;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const GeomagneticRotationVector;
 
 /// @brief Field HeartRate offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const HeartRate;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const HeartRate;
 
 /// @brief Field Pose6DOF offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const Pose6DOF;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const Pose6DOF;
 
 /// @brief Field StationaryDetect offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const StationaryDetect;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const StationaryDetect;
 
 /// @brief Field MotionDetect offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const MotionDetect;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const MotionDetect;
 
 /// @brief Field HeartBeat offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const HeartBeat;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const HeartBeat;
 
 /// @brief Field LowLatencyOffBodyDetect offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const LowLatencyOffBodyDetect;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const LowLatencyOffBodyDetect;
 
 /// @brief Field AccelerometerUncalibrated offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const AccelerometerUncalibrated;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const AccelerometerUncalibrated;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Android::LowLevel
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType, "UnityEngine.InputSystem.Android.LowLevel", "AndroidSensorType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType, "UnityEngine.InputSystem.Android.LowLevel", "AndroidSensorType");

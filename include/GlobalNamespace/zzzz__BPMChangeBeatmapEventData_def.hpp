@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
 #include <cmath>
-namespace {
-namespace GlobalNamespace {
-class BeatmapDataItem;
-}
 namespace GlobalNamespace {
 class BeatmapEventData;
+}
+namespace GlobalNamespace {
+class BeatmapDataItem;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14912))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14914))
 // CS Name: BPMChangeBeatmapEventData
-class CORDL_TYPE BPMChangeBeatmapEventData : public ::GlobalNamespace::BeatmapEventData {
+class CORDL_TYPE BPMChangeBeatmapEventData : public GlobalNamespace::BeatmapEventData {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr BPMChangeBeatmapEventData(BPMChangeBeatmapEventData const& ) noexcept 
 constexpr BPMChangeBeatmapEventData(BPMChangeBeatmapEventData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BPMChangeBeatmapEventData(void* ptr) noexcept : ::GlobalNamespace::BeatmapEventData(ptr) {
+constexpr explicit BPMChangeBeatmapEventData(void* ptr) noexcept : GlobalNamespace::BeatmapEventData(ptr) {
 }
 
 
@@ -71,15 +70,14 @@ explicit BPMChangeBeatmapEventData(float_t time, float_t bpm) ;
  void _ctor(float_t time, float_t bpm) ;
 
 /// @brief Method GetCopy addr 0xd91a70 size 0x8c virtual true final false
- ::GlobalNamespace::BeatmapDataItem GetCopy() ;
+ GlobalNamespace::BeatmapDataItem GetCopy() ;
 
 /// @brief Method GetDefault addr 0xd91afc size 0x8 virtual true final false
- ::GlobalNamespace::BeatmapEventData GetDefault() ;
+ GlobalNamespace::BeatmapEventData GetDefault() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BPMChangeBeatmapEventData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BPMChangeBeatmapEventData, "", "BPMChangeBeatmapEventData");
+NEED_NO_BOX(GlobalNamespace::BPMChangeBeatmapEventData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BPMChangeBeatmapEventData, "", "BPMChangeBeatmapEventData");

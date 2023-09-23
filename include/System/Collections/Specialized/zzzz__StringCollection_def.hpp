@@ -4,24 +4,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
-class ArrayList;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System {
-class Array;
-}
 namespace System::Collections {
 class IList;
 }
 namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections {
 class ICollection;
+}
+namespace System::Collections {
+class ArrayList;
+}
+namespace System {
+class Array;
 }
 // Forward declare root types
 namespace System::Collections::Specialized {
@@ -36,14 +35,14 @@ namespace System::Collections::Specialized {
 class CORDL_TYPE StringCollection : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::IList
-constexpr operator  ::System::Collections::IList() const noexcept;
+/// @brief Convert operator to System::Collections::IList
+constexpr operator  System::Collections::IList() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::ICollection
-constexpr operator  ::System::Collections::ICollection() const noexcept;
+/// @brief Convert operator to System::Collections::ICollection
+constexpr operator  System::Collections::ICollection() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -78,11 +77,11 @@ constexpr explicit StringCollection(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
- ::System::Collections::ArrayList __declspec(property(get=__get_data, put=__set_data))  data;
+ System::Collections::ArrayList __declspec(property(get=__get_data, put=__set_data))  data;
 
-constexpr void __set_data(::System::Collections::ArrayList value) ;
+constexpr void __set_data(System::Collections::ArrayList value) ;
 
-constexpr ::System::Collections::ArrayList __get_data() const;
+constexpr System::Collections::ArrayList __get_data() const;
 
 
 // Properties
@@ -171,10 +170,10 @@ constexpr ::System::Collections::ArrayList __get_data() const;
  void System_Collections_IList_Remove(::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method System.Collections.ICollection.CopyTo addr 0x27ad21c size 0x24 virtual true final true
- void System_Collections_ICollection_CopyTo(::System::Array array, int32_t index) ;
+ void System_Collections_ICollection_CopyTo(System::Array array, int32_t index) ;
 
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x27ad240 size 0x24 virtual true final true
- ::System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
+ System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
 // Ctor Parameters []
 explicit StringCollection() ;
@@ -186,6 +185,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Collections::Specialized
-} // end anonymous namespace
-NEED_NO_BOX(::System::Collections::Specialized::StringCollection);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Specialized::StringCollection, "System.Collections.Specialized", "StringCollection");
+NEED_NO_BOX(System::Collections::Specialized::StringCollection);
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::StringCollection, "System.Collections.Specialized", "StringCollection");

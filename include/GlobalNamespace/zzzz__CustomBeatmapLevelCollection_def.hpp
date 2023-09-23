@@ -2,19 +2,18 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
+namespace GlobalNamespace {
+class IBeatmapLevelCollection;
+}
 namespace GlobalNamespace {
 class CustomPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelCollection;
+class IPreviewBeatmapLevel;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,8 +28,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE CustomBeatmapLevelCollection : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IBeatmapLevelCollection
-constexpr operator  ::GlobalNamespace::IBeatmapLevelCollection() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IBeatmapLevelCollection
+constexpr operator  GlobalNamespace::IBeatmapLevelCollection() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -65,33 +64,32 @@ constexpr explicit CustomBeatmapLevelCollection(void* ptr) noexcept : ::bs_hook:
 
 // Fields
 
- ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::CustomPreviewBeatmapLevel> __declspec(property(get=__get__customPreviewBeatmapLevels, put=__set__customPreviewBeatmapLevels))  _customPreviewBeatmapLevels;
+ System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::CustomPreviewBeatmapLevel> __declspec(property(get=__get__customPreviewBeatmapLevels, put=__set__customPreviewBeatmapLevels))  _customPreviewBeatmapLevels;
 
-constexpr void __set__customPreviewBeatmapLevels(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::CustomPreviewBeatmapLevel> value) ;
+constexpr void __set__customPreviewBeatmapLevels(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::CustomPreviewBeatmapLevel> value) ;
 
-constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::CustomPreviewBeatmapLevel> __get__customPreviewBeatmapLevels() const;
+constexpr System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::CustomPreviewBeatmapLevel> __get__customPreviewBeatmapLevels() const;
 
 
 // Properties
 
- ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel> __declspec(property(get=get_beatmapLevels))  beatmapLevels;
+ System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IPreviewBeatmapLevel> __declspec(property(get=get_beatmapLevels))  beatmapLevels;
 
 
 // Methods
 
 /// @brief Method get_beatmapLevels addr 0x21e9698 size 0x8 virtual true final true
- ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel> get_beatmapLevels() ;
+ System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IPreviewBeatmapLevel> get_beatmapLevels() ;
 
-// Ctor Parameters [CppParam { name: "customPreviewBeatmapLevels", ty: "::ArrayW<::GlobalNamespace::CustomPreviewBeatmapLevel>", modifiers: "", def_value: None }]
-explicit CustomBeatmapLevelCollection(::ArrayW<::GlobalNamespace::CustomPreviewBeatmapLevel> customPreviewBeatmapLevels) ;
+// Ctor Parameters [CppParam { name: "customPreviewBeatmapLevels", ty: "::ArrayW<GlobalNamespace::CustomPreviewBeatmapLevel>", modifiers: "", def_value: None }]
+explicit CustomBeatmapLevelCollection(::ArrayW<GlobalNamespace::CustomPreviewBeatmapLevel> customPreviewBeatmapLevels) ;
 
 /// @brief Method .ctor addr 0x21e96a0 size 0x28 virtual false final false
- void _ctor(::ArrayW<::GlobalNamespace::CustomPreviewBeatmapLevel> customPreviewBeatmapLevels) ;
+ void _ctor(::ArrayW<GlobalNamespace::CustomPreviewBeatmapLevel> customPreviewBeatmapLevels) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::CustomBeatmapLevelCollection);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CustomBeatmapLevelCollection, "", "CustomBeatmapLevelCollection");
+NEED_NO_BOX(GlobalNamespace::CustomBeatmapLevelCollection);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomBeatmapLevelCollection, "", "CustomBeatmapLevelCollection");

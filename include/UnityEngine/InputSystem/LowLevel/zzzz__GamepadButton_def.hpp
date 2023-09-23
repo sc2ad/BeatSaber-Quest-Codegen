@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
 struct GamepadButton;
@@ -89,80 +88,79 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field DpadUp offset 0
-static ::UnityEngine::InputSystem::LowLevel::GamepadButton const DpadUp;
+static UnityEngine::InputSystem::LowLevel::GamepadButton const DpadUp;
 
 /// @brief Field DpadDown offset 0
-static ::UnityEngine::InputSystem::LowLevel::GamepadButton const DpadDown;
+static UnityEngine::InputSystem::LowLevel::GamepadButton const DpadDown;
 
 /// @brief Field DpadLeft offset 0
-static ::UnityEngine::InputSystem::LowLevel::GamepadButton const DpadLeft;
+static UnityEngine::InputSystem::LowLevel::GamepadButton const DpadLeft;
 
 /// @brief Field DpadRight offset 0
-static ::UnityEngine::InputSystem::LowLevel::GamepadButton const DpadRight;
+static UnityEngine::InputSystem::LowLevel::GamepadButton const DpadRight;
 
 /// @brief Field North offset 0
-static ::UnityEngine::InputSystem::LowLevel::GamepadButton const North;
+static UnityEngine::InputSystem::LowLevel::GamepadButton const North;
 
 /// @brief Field East offset 0
-static ::UnityEngine::InputSystem::LowLevel::GamepadButton const East;
+static UnityEngine::InputSystem::LowLevel::GamepadButton const East;
 
 /// @brief Field South offset 0
-static ::UnityEngine::InputSystem::LowLevel::GamepadButton const South;
+static UnityEngine::InputSystem::LowLevel::GamepadButton const South;
 
 /// @brief Field West offset 0
-static ::UnityEngine::InputSystem::LowLevel::GamepadButton const West;
+static UnityEngine::InputSystem::LowLevel::GamepadButton const West;
 
 /// @brief Field LeftStick offset 0
-static ::UnityEngine::InputSystem::LowLevel::GamepadButton const LeftStick;
+static UnityEngine::InputSystem::LowLevel::GamepadButton const LeftStick;
 
 /// @brief Field RightStick offset 0
-static ::UnityEngine::InputSystem::LowLevel::GamepadButton const RightStick;
+static UnityEngine::InputSystem::LowLevel::GamepadButton const RightStick;
 
 /// @brief Field LeftShoulder offset 0
-static ::UnityEngine::InputSystem::LowLevel::GamepadButton const LeftShoulder;
+static UnityEngine::InputSystem::LowLevel::GamepadButton const LeftShoulder;
 
 /// @brief Field RightShoulder offset 0
-static ::UnityEngine::InputSystem::LowLevel::GamepadButton const RightShoulder;
+static UnityEngine::InputSystem::LowLevel::GamepadButton const RightShoulder;
 
 /// @brief Field Start offset 0
-static ::UnityEngine::InputSystem::LowLevel::GamepadButton const Start;
+static UnityEngine::InputSystem::LowLevel::GamepadButton const Start;
 
 /// @brief Field Select offset 0
-static ::UnityEngine::InputSystem::LowLevel::GamepadButton const Select;
+static UnityEngine::InputSystem::LowLevel::GamepadButton const Select;
 
 /// @brief Field LeftTrigger offset 0
-static ::UnityEngine::InputSystem::LowLevel::GamepadButton const LeftTrigger;
+static UnityEngine::InputSystem::LowLevel::GamepadButton const LeftTrigger;
 
 /// @brief Field RightTrigger offset 0
-static ::UnityEngine::InputSystem::LowLevel::GamepadButton const RightTrigger;
+static UnityEngine::InputSystem::LowLevel::GamepadButton const RightTrigger;
 
 /// @brief Field X offset 0
-static ::UnityEngine::InputSystem::LowLevel::GamepadButton const X;
+static UnityEngine::InputSystem::LowLevel::GamepadButton const X;
 
 /// @brief Field Y offset 0
-static ::UnityEngine::InputSystem::LowLevel::GamepadButton const Y;
+static UnityEngine::InputSystem::LowLevel::GamepadButton const Y;
 
 /// @brief Field A offset 0
-static ::UnityEngine::InputSystem::LowLevel::GamepadButton const A;
+static UnityEngine::InputSystem::LowLevel::GamepadButton const A;
 
 /// @brief Field B offset 0
-static ::UnityEngine::InputSystem::LowLevel::GamepadButton const B;
+static UnityEngine::InputSystem::LowLevel::GamepadButton const B;
 
 /// @brief Field Cross offset 0
-static ::UnityEngine::InputSystem::LowLevel::GamepadButton const Cross;
+static UnityEngine::InputSystem::LowLevel::GamepadButton const Cross;
 
 /// @brief Field Square offset 0
-static ::UnityEngine::InputSystem::LowLevel::GamepadButton const Square;
+static UnityEngine::InputSystem::LowLevel::GamepadButton const Square;
 
 /// @brief Field Triangle offset 0
-static ::UnityEngine::InputSystem::LowLevel::GamepadButton const Triangle;
+static UnityEngine::InputSystem::LowLevel::GamepadButton const Triangle;
 
 /// @brief Field Circle offset 0
-static ::UnityEngine::InputSystem::LowLevel::GamepadButton const Circle;
+static UnityEngine::InputSystem::LowLevel::GamepadButton const Circle;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::LowLevel
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::GamepadButton, "UnityEngine.InputSystem.LowLevel", "GamepadButton");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::LowLevel::GamepadButton, "UnityEngine.InputSystem.LowLevel", "GamepadButton");

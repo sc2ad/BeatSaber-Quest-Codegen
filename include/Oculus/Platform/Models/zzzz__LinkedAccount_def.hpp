@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform {
 struct ServiceProvider;
 }
@@ -59,11 +58,11 @@ constexpr void __set_AccessToken(::StringW value) ;
 
 constexpr ::StringW __get_AccessToken() const;
 
- ::Oculus::Platform::ServiceProvider __declspec(property(get=__get_ServiceProvider, put=__set_ServiceProvider))  ServiceProvider;
+ Oculus::Platform::ServiceProvider __declspec(property(get=__get_ServiceProvider, put=__set_ServiceProvider))  ServiceProvider;
 
-constexpr void __set_ServiceProvider(::Oculus::Platform::ServiceProvider value) ;
+constexpr void __set_ServiceProvider(Oculus::Platform::ServiceProvider value) ;
 
-constexpr ::Oculus::Platform::ServiceProvider __get_ServiceProvider() const;
+constexpr Oculus::Platform::ServiceProvider __get_ServiceProvider() const;
 
  ::StringW __declspec(property(get=__get_UserId, put=__set_UserId))  UserId;
 
@@ -84,6 +83,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::LinkedAccount);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::LinkedAccount, "Oculus.Platform.Models", "LinkedAccount");
+NEED_NO_BOX(Oculus::Platform::Models::LinkedAccount);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LinkedAccount, "Oculus.Platform.Models", "LinkedAccount");

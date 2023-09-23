@@ -1,6 +1,5 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace System {
 class Action;
 }
@@ -27,15 +26,14 @@ constexpr explicit IObservableChange(void* ptr) noexcept : ::cordl_internals::In
 // Methods
 
 /// @brief Method add_didChangeEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void add_didChangeEvent(::System::Action value) ;
+ void add_didChangeEvent(System::Action value) ;
 
 /// @brief Method remove_didChangeEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void remove_didChangeEvent(::System::Action value) ;
+ void remove_didChangeEvent(System::Action value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IObservableChange);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IObservableChange, "", "IObservableChange");
+NEED_NO_BOX(GlobalNamespace::IObservableChange);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IObservableChange, "", "IObservableChange");

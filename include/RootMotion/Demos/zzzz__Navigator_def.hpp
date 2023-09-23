@@ -5,19 +5,18 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct Vector3;
+namespace UnityEngine::AI {
+class NavMeshPath;
 }
 namespace UnityEngine {
 class Transform;
 }
-namespace UnityEngine::AI {
-class NavMeshPath;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion::Demos {
-struct ____RootMotion__Demos__Navigator__State;
+struct RootMotion__Demos__Navigator__State;
 }
 namespace RootMotion::Demos {
 class Navigator;
@@ -28,20 +27,20 @@ namespace RootMotion::Demos {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12446))
 // CS Name: RootMotion.Demos.Navigator::State
-struct CORDL_TYPE ____RootMotion__Demos__Navigator__State : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE RootMotion__Demos__Navigator__State : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____RootMotion__Demos__Navigator__State(int32_t value__) noexcept;
+constexpr RootMotion__Demos__Navigator__State(int32_t value__) noexcept;
 
 
-                    constexpr ____RootMotion__Demos__Navigator__State(____RootMotion__Demos__Navigator__State const&) = default;
-                    constexpr ____RootMotion__Demos__Navigator__State(____RootMotion__Demos__Navigator__State&&) = default;
-                    constexpr ____RootMotion__Demos__Navigator__State& operator=(____RootMotion__Demos__Navigator__State const& o) {
+                    constexpr RootMotion__Demos__Navigator__State(RootMotion__Demos__Navigator__State const&) = default;
+                    constexpr RootMotion__Demos__Navigator__State(RootMotion__Demos__Navigator__State&&) = default;
+                    constexpr RootMotion__Demos__Navigator__State& operator=(RootMotion__Demos__Navigator__State const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____RootMotion__Demos__Navigator__State& operator=(____RootMotion__Demos__Navigator__State&& o) noexcept {
+                    constexpr RootMotion__Demos__Navigator__State& operator=(RootMotion__Demos__Navigator__State&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -54,7 +53,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____RootMotion__Demos__Navigator__State(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit RootMotion__Demos__Navigator__State(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -62,15 +61,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______RootMotion__Demos__Navigator__State_Unwrapped : int32_t {
+enum class __RootMotion__Demos__Navigator__State_Unwrapped : int32_t {
 __Idle = 0,
 __Seeking = 1,
 __OnPath = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______RootMotion__Demos__Navigator__State_Unwrapped () const noexcept {
-return std::bit_cast<______RootMotion__Demos__Navigator__State_Unwrapped>(__instance);
+constexpr operator __RootMotion__Demos__Navigator__State_Unwrapped () const noexcept {
+return std::bit_cast<__RootMotion__Demos__Navigator__State_Unwrapped>(__instance);
 }
 
 
@@ -83,13 +82,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Idle offset 0
-static ::RootMotion::Demos::____RootMotion__Demos__Navigator__State const Idle;
+static RootMotion::Demos::RootMotion__Demos__Navigator__State const Idle;
 
 /// @brief Field Seeking offset 0
-static ::RootMotion::Demos::____RootMotion__Demos__Navigator__State const Seeking;
+static RootMotion::Demos::RootMotion__Demos__Navigator__State const Seeking;
 
 /// @brief Field OnPath offset 0
-static ::RootMotion::Demos::____RootMotion__Demos__Navigator__State const OnPath;
+static RootMotion::Demos::RootMotion__Demos__Navigator__State const OnPath;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -104,7 +103,7 @@ namespace RootMotion::Demos {
 class CORDL_TYPE Navigator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using State = ::RootMotion::Demos::____RootMotion__Demos__Navigator__State;
+using State = RootMotion::Demos::RootMotion__Demos__Navigator__State;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x70};
@@ -169,23 +168,23 @@ constexpr void __set_nextPathInterval(float_t value) ;
 
 constexpr float_t __get_nextPathInterval() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__normalizedDeltaPosition_k__BackingField, put=__set__normalizedDeltaPosition_k__BackingField))  _normalizedDeltaPosition_k__BackingField;
+ UnityEngine::Vector3 __declspec(property(get=__get__normalizedDeltaPosition_k__BackingField, put=__set__normalizedDeltaPosition_k__BackingField))  _normalizedDeltaPosition_k__BackingField;
 
-constexpr void __set__normalizedDeltaPosition_k__BackingField(::UnityEngine::Vector3 value) ;
+constexpr void __set__normalizedDeltaPosition_k__BackingField(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__normalizedDeltaPosition_k__BackingField() const;
+constexpr UnityEngine::Vector3 __get__normalizedDeltaPosition_k__BackingField() const;
 
- ::RootMotion::Demos::____RootMotion__Demos__Navigator__State __declspec(property(get=__get__state_k__BackingField, put=__set__state_k__BackingField))  _state_k__BackingField;
+ RootMotion::Demos::RootMotion__Demos__Navigator__State __declspec(property(get=__get__state_k__BackingField, put=__set__state_k__BackingField))  _state_k__BackingField;
 
-constexpr void __set__state_k__BackingField(::RootMotion::Demos::____RootMotion__Demos__Navigator__State value) ;
+constexpr void __set__state_k__BackingField(RootMotion::Demos::RootMotion__Demos__Navigator__State value) ;
 
-constexpr ::RootMotion::Demos::____RootMotion__Demos__Navigator__State __get__state_k__BackingField() const;
+constexpr RootMotion::Demos::RootMotion__Demos__Navigator__State __get__state_k__BackingField() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_transform, put=__set_transform))  transform;
+ UnityEngine::Transform __declspec(property(get=__get_transform, put=__set_transform))  transform;
 
-constexpr void __set_transform(::UnityEngine::Transform value) ;
+constexpr void __set_transform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_transform() const;
+constexpr UnityEngine::Transform __get_transform() const;
 
  int32_t __declspec(property(get=__get_cornerIndex, put=__set_cornerIndex))  cornerIndex;
 
@@ -193,23 +192,23 @@ constexpr void __set_cornerIndex(int32_t value) ;
 
 constexpr int32_t __get_cornerIndex() const;
 
- ::ArrayW<::UnityEngine::Vector3> __declspec(property(get=__get_corners, put=__set_corners))  corners;
+ ::ArrayW<UnityEngine::Vector3> __declspec(property(get=__get_corners, put=__set_corners))  corners;
 
-constexpr void __set_corners(::ArrayW<::UnityEngine::Vector3> value) ;
+constexpr void __set_corners(::ArrayW<UnityEngine::Vector3> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector3> __get_corners() const;
+constexpr ::ArrayW<UnityEngine::Vector3> __get_corners() const;
 
- ::UnityEngine::AI::NavMeshPath __declspec(property(get=__get_path, put=__set_path))  path;
+ UnityEngine::AI::NavMeshPath __declspec(property(get=__get_path, put=__set_path))  path;
 
-constexpr void __set_path(::UnityEngine::AI::NavMeshPath value) ;
+constexpr void __set_path(UnityEngine::AI::NavMeshPath value) ;
 
-constexpr ::UnityEngine::AI::NavMeshPath __get_path() const;
+constexpr UnityEngine::AI::NavMeshPath __get_path() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_lastTargetPosition, put=__set_lastTargetPosition))  lastTargetPosition;
+ UnityEngine::Vector3 __declspec(property(get=__get_lastTargetPosition, put=__set_lastTargetPosition))  lastTargetPosition;
 
-constexpr void __set_lastTargetPosition(::UnityEngine::Vector3 value) ;
+constexpr void __set_lastTargetPosition(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_lastTargetPosition() const;
+constexpr UnityEngine::Vector3 __get_lastTargetPosition() const;
 
  bool __declspec(property(get=__get_initiated, put=__set_initiated))  initiated;
 
@@ -226,42 +225,42 @@ constexpr float_t __get_nextPathTime() const;
 
 // Properties
 
- ::UnityEngine::Vector3 __declspec(property(get=get_normalizedDeltaPosition, put=set_normalizedDeltaPosition))  normalizedDeltaPosition;
+ UnityEngine::Vector3 __declspec(property(get=get_normalizedDeltaPosition, put=set_normalizedDeltaPosition))  normalizedDeltaPosition;
 
- ::RootMotion::Demos::____RootMotion__Demos__Navigator__State __declspec(property(get=get_state, put=set_state))  state;
+ RootMotion::Demos::RootMotion__Demos__Navigator__State __declspec(property(get=get_state, put=set_state))  state;
 
 
 // Methods
 
 /// @brief Method get_normalizedDeltaPosition addr 0x11b6824 size 0xc virtual false final false
- ::UnityEngine::Vector3 get_normalizedDeltaPosition() ;
+ UnityEngine::Vector3 get_normalizedDeltaPosition() ;
 
 /// @brief Method set_normalizedDeltaPosition addr 0x11b6830 size 0xc virtual false final false
- void set_normalizedDeltaPosition(::UnityEngine::Vector3 value) ;
+ void set_normalizedDeltaPosition(UnityEngine::Vector3 value) ;
 
 /// @brief Method get_state addr 0x11b683c size 0x8 virtual false final false
- ::RootMotion::Demos::____RootMotion__Demos__Navigator__State get_state() ;
+ RootMotion::Demos::RootMotion__Demos__Navigator__State get_state() ;
 
 /// @brief Method set_state addr 0x11b6844 size 0x8 virtual false final false
- void set_state(::RootMotion::Demos::____RootMotion__Demos__Navigator__State value) ;
+ void set_state(RootMotion::Demos::RootMotion__Demos__Navigator__State value) ;
 
 /// @brief Method Initiate addr 0x11b684c size 0xb4 virtual false final false
- void Initiate(::UnityEngine::Transform transform) ;
+ void Initiate(UnityEngine::Transform transform) ;
 
 /// @brief Method Update addr 0x11b6900 size 0x444 virtual false final false
- void Update(::UnityEngine::Vector3 targetPosition) ;
+ void Update(UnityEngine::Vector3 targetPosition) ;
 
 /// @brief Method CalculatePath addr 0x11b6e1c size 0x64 virtual false final false
- void CalculatePath(::UnityEngine::Vector3 targetPosition) ;
+ void CalculatePath(UnityEngine::Vector3 targetPosition) ;
 
 /// @brief Method Find addr 0x11b6e80 size 0x134 virtual false final false
- bool Find(::UnityEngine::Vector3 targetPosition) ;
+ bool Find(UnityEngine::Vector3 targetPosition) ;
 
 /// @brief Method Stop addr 0x11b6d44 size 0x5c virtual false final false
  void Stop() ;
 
 /// @brief Method HorDistance addr 0x11b6da0 size 0x7c virtual false final false
- float_t HorDistance(::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2) ;
+ float_t HorDistance(UnityEngine::Vector3 p1, UnityEngine::Vector3 p2) ;
 
 /// @brief Method Visualize addr 0x11b6fb4 size 0x1c4 virtual false final false
  void Visualize() ;
@@ -276,7 +275,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::Demos
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::Demos::____RootMotion__Demos__Navigator__State, "RootMotion.Demos", "Navigator/State");
-NEED_NO_BOX(::RootMotion::Demos::Navigator);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::Demos::Navigator, "RootMotion.Demos", "Navigator");
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::Demos::RootMotion__Demos__Navigator__State, "RootMotion.Demos", "Navigator/State");
+NEED_NO_BOX(RootMotion::Demos::Navigator);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::Demos::Navigator, "RootMotion.Demos", "Navigator");

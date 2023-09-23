@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 struct OVRChunkType;
@@ -67,14 +66,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field JSON offset 0
-static ::GlobalNamespace::OVRChunkType const JSON;
+static GlobalNamespace::OVRChunkType const JSON;
 
 /// @brief Field BIN offset 0
-static ::GlobalNamespace::OVRChunkType const BIN;
+static GlobalNamespace::OVRChunkType const BIN;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRChunkType, "", "OVRChunkType");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRChunkType, "", "OVRChunkType");

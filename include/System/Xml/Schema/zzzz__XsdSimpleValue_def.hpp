@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Xml::Schema {
 class XmlSchemaSimpleType;
 }
@@ -51,11 +50,11 @@ constexpr explicit XsdSimpleValue(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
- ::System::Xml::Schema::XmlSchemaSimpleType __declspec(property(get=__get_xmlType, put=__set_xmlType))  xmlType;
+ System::Xml::Schema::XmlSchemaSimpleType __declspec(property(get=__get_xmlType, put=__set_xmlType))  xmlType;
 
-constexpr void __set_xmlType(::System::Xml::Schema::XmlSchemaSimpleType value) ;
+constexpr void __set_xmlType(System::Xml::Schema::XmlSchemaSimpleType value) ;
 
-constexpr ::System::Xml::Schema::XmlSchemaSimpleType __get_xmlType() const;
+constexpr System::Xml::Schema::XmlSchemaSimpleType __get_xmlType() const;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=__get_typedValue, put=__set_typedValue))  typedValue;
 
@@ -66,7 +65,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_typedValue() const;
 
 // Properties
 
- ::System::Xml::Schema::XmlSchemaSimpleType __declspec(property(get=get_XmlType))  XmlType;
+ System::Xml::Schema::XmlSchemaSimpleType __declspec(property(get=get_XmlType))  XmlType;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_TypedValue))  TypedValue;
 
@@ -74,7 +73,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_typedValue() const;
 // Methods
 
 /// @brief Method get_XmlType addr 0x271d3bc size 0x8 virtual false final false
- ::System::Xml::Schema::XmlSchemaSimpleType get_XmlType() ;
+ System::Xml::Schema::XmlSchemaSimpleType get_XmlType() ;
 
 /// @brief Method get_TypedValue addr 0x271d3c4 size 0x8 virtual false final false
  ::bs_hook::Il2CppWrapperType get_TypedValue() ;
@@ -83,6 +82,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::XsdSimpleValue);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XsdSimpleValue, "System.Xml.Schema", "XsdSimpleValue");
+NEED_NO_BOX(System::Xml::Schema::XsdSimpleValue);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::XsdSimpleValue, "System.Xml.Schema", "XsdSimpleValue");

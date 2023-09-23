@@ -4,54 +4,53 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
-struct ____GlobalNamespace__BeatmapObjectSpawnMovementData__SliderSpawnData;
-}
-namespace GlobalNamespace {
-class AudioTimeSyncController;
-}
-namespace GlobalNamespace {
-class IScoreSyncStateManager;
-}
-namespace GlobalNamespace {
-class ObstacleData;
-}
-namespace GlobalNamespace {
-class BeatmapObjectManager;
+class NoteData;
 }
 namespace GlobalNamespace {
 class PlayerTransforms;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__BeatmapObjectSpawnMovementData__ObstacleSpawnData;
+struct GlobalNamespace__BeatmapObjectSpawnMovementData__SliderSpawnData;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData;
+class IScoreController;
 }
 namespace GlobalNamespace {
-class IGameplayRpcManager;
-}
-namespace GlobalNamespace {
-class SliderData;
-}
-namespace GlobalNamespace {
-class NoteData;
+class ObstacleData;
 }
 namespace GlobalNamespace {
 class NoteController;
 }
 namespace GlobalNamespace {
+class ComboController;
+}
+namespace GlobalNamespace {
 struct NoteCutInfo;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapObjectSpawnMovementData__ObstacleSpawnData;
 }
 namespace GlobalNamespace {
 class INodePoseSyncStateManager;
 }
 namespace GlobalNamespace {
-class ComboController;
+class IGameplayRpcManager;
 }
 namespace GlobalNamespace {
-class IScoreController;
+class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData;
+}
+namespace GlobalNamespace {
+class AudioTimeSyncController;
+}
+namespace GlobalNamespace {
+class SliderData;
+}
+namespace GlobalNamespace {
+class IScoreSyncStateManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -63,7 +62,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5247))
 // CS Name: MultiplayerLocalActiveClient
-class CORDL_TYPE MultiplayerLocalActiveClient : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerLocalActiveClient : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -78,7 +77,7 @@ constexpr MultiplayerLocalActiveClient(MultiplayerLocalActiveClient const& ) noe
 constexpr MultiplayerLocalActiveClient(MultiplayerLocalActiveClient&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerLocalActiveClient(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerLocalActiveClient(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -99,53 +98,53 @@ constexpr explicit MultiplayerLocalActiveClient(void* ptr) noexcept : ::UnityEng
 
 // Fields
 
- ::GlobalNamespace::PlayerTransforms __declspec(property(get=__get__playerTransforms, put=__set__playerTransforms))  _playerTransforms;
+ GlobalNamespace::PlayerTransforms __declspec(property(get=__get__playerTransforms, put=__set__playerTransforms))  _playerTransforms;
 
-constexpr void __set__playerTransforms(::GlobalNamespace::PlayerTransforms value) ;
+constexpr void __set__playerTransforms(GlobalNamespace::PlayerTransforms value) ;
 
-constexpr ::GlobalNamespace::PlayerTransforms __get__playerTransforms() const;
+constexpr GlobalNamespace::PlayerTransforms __get__playerTransforms() const;
 
- ::GlobalNamespace::AudioTimeSyncController __declspec(property(get=__get__audioTimeSyncController, put=__set__audioTimeSyncController))  _audioTimeSyncController;
+ GlobalNamespace::AudioTimeSyncController __declspec(property(get=__get__audioTimeSyncController, put=__set__audioTimeSyncController))  _audioTimeSyncController;
 
-constexpr void __set__audioTimeSyncController(::GlobalNamespace::AudioTimeSyncController value) ;
+constexpr void __set__audioTimeSyncController(GlobalNamespace::AudioTimeSyncController value) ;
 
-constexpr ::GlobalNamespace::AudioTimeSyncController __get__audioTimeSyncController() const;
+constexpr GlobalNamespace::AudioTimeSyncController __get__audioTimeSyncController() const;
 
- ::GlobalNamespace::IScoreSyncStateManager __declspec(property(get=__get__scoreSyncStateManager, put=__set__scoreSyncStateManager))  _scoreSyncStateManager;
+ GlobalNamespace::IScoreSyncStateManager __declspec(property(get=__get__scoreSyncStateManager, put=__set__scoreSyncStateManager))  _scoreSyncStateManager;
 
-constexpr void __set__scoreSyncStateManager(::GlobalNamespace::IScoreSyncStateManager value) ;
+constexpr void __set__scoreSyncStateManager(GlobalNamespace::IScoreSyncStateManager value) ;
 
-constexpr ::GlobalNamespace::IScoreSyncStateManager __get__scoreSyncStateManager() const;
+constexpr GlobalNamespace::IScoreSyncStateManager __get__scoreSyncStateManager() const;
 
- ::GlobalNamespace::INodePoseSyncStateManager __declspec(property(get=__get__nodePoseSyncStateManager, put=__set__nodePoseSyncStateManager))  _nodePoseSyncStateManager;
+ GlobalNamespace::INodePoseSyncStateManager __declspec(property(get=__get__nodePoseSyncStateManager, put=__set__nodePoseSyncStateManager))  _nodePoseSyncStateManager;
 
-constexpr void __set__nodePoseSyncStateManager(::GlobalNamespace::INodePoseSyncStateManager value) ;
+constexpr void __set__nodePoseSyncStateManager(GlobalNamespace::INodePoseSyncStateManager value) ;
 
-constexpr ::GlobalNamespace::INodePoseSyncStateManager __get__nodePoseSyncStateManager() const;
+constexpr GlobalNamespace::INodePoseSyncStateManager __get__nodePoseSyncStateManager() const;
 
- ::GlobalNamespace::IGameplayRpcManager __declspec(property(get=__get__rpcManager, put=__set__rpcManager))  _rpcManager;
+ GlobalNamespace::IGameplayRpcManager __declspec(property(get=__get__rpcManager, put=__set__rpcManager))  _rpcManager;
 
-constexpr void __set__rpcManager(::GlobalNamespace::IGameplayRpcManager value) ;
+constexpr void __set__rpcManager(GlobalNamespace::IGameplayRpcManager value) ;
 
-constexpr ::GlobalNamespace::IGameplayRpcManager __get__rpcManager() const;
+constexpr GlobalNamespace::IGameplayRpcManager __get__rpcManager() const;
 
- ::GlobalNamespace::BeatmapObjectManager __declspec(property(get=__get__beatmapObjectManager, put=__set__beatmapObjectManager))  _beatmapObjectManager;
+ GlobalNamespace::BeatmapObjectManager __declspec(property(get=__get__beatmapObjectManager, put=__set__beatmapObjectManager))  _beatmapObjectManager;
 
-constexpr void __set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager value) ;
+constexpr void __set__beatmapObjectManager(GlobalNamespace::BeatmapObjectManager value) ;
 
-constexpr ::GlobalNamespace::BeatmapObjectManager __get__beatmapObjectManager() const;
+constexpr GlobalNamespace::BeatmapObjectManager __get__beatmapObjectManager() const;
 
- ::GlobalNamespace::IScoreController __declspec(property(get=__get__scoreController, put=__set__scoreController))  _scoreController;
+ GlobalNamespace::IScoreController __declspec(property(get=__get__scoreController, put=__set__scoreController))  _scoreController;
 
-constexpr void __set__scoreController(::GlobalNamespace::IScoreController value) ;
+constexpr void __set__scoreController(GlobalNamespace::IScoreController value) ;
 
-constexpr ::GlobalNamespace::IScoreController __get__scoreController() const;
+constexpr GlobalNamespace::IScoreController __get__scoreController() const;
 
- ::GlobalNamespace::ComboController __declspec(property(get=__get__comboController, put=__set__comboController))  _comboController;
+ GlobalNamespace::ComboController __declspec(property(get=__get__comboController, put=__set__comboController))  _comboController;
 
-constexpr void __set__comboController(::GlobalNamespace::ComboController value) ;
+constexpr void __set__comboController(GlobalNamespace::ComboController value) ;
 
-constexpr ::GlobalNamespace::ComboController __get__comboController() const;
+constexpr GlobalNamespace::ComboController __get__comboController() const;
 
 
 // Methods
@@ -160,19 +159,19 @@ constexpr ::GlobalNamespace::ComboController __get__comboController() const;
  void LateUpdate() ;
 
 /// @brief Method HandleNoteWasAdded addr 0x20e4114 size 0x160 virtual false final false
- void HandleNoteWasAdded(::GlobalNamespace::NoteData noteData, ::GlobalNamespace::____GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData noteSpawnData, float_t rotation) ;
+ void HandleNoteWasAdded(GlobalNamespace::NoteData noteData, GlobalNamespace::GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData noteSpawnData, float_t rotation) ;
 
 /// @brief Method HandleObstacleWasAdded addr 0x20e4274 size 0x140 virtual false final false
- void HandleObstacleWasAdded(::GlobalNamespace::ObstacleData obstacleData, ::GlobalNamespace::____GlobalNamespace__BeatmapObjectSpawnMovementData__ObstacleSpawnData obstacleSpawnData, float_t rotation) ;
+ void HandleObstacleWasAdded(GlobalNamespace::ObstacleData obstacleData, GlobalNamespace::GlobalNamespace__BeatmapObjectSpawnMovementData__ObstacleSpawnData obstacleSpawnData, float_t rotation) ;
 
 /// @brief Method HandleSliderWasAdded addr 0x20e43b4 size 0x1d4 virtual false final false
- void HandleSliderWasAdded(::GlobalNamespace::SliderData sliderData, ::GlobalNamespace::____GlobalNamespace__BeatmapObjectSpawnMovementData__SliderSpawnData sliderSpawnData, float_t rotation) ;
+ void HandleSliderWasAdded(GlobalNamespace::SliderData sliderData, GlobalNamespace::GlobalNamespace__BeatmapObjectSpawnMovementData__SliderSpawnData sliderSpawnData, float_t rotation) ;
 
 /// @brief Method HandleNoteWasMissed addr 0x20e4588 size 0xfc virtual false final false
- void HandleNoteWasMissed(::GlobalNamespace::NoteController noteController) ;
+ void HandleNoteWasMissed(GlobalNamespace::NoteController noteController) ;
 
 /// @brief Method HandleNoteWasCut addr 0x20e4684 size 0x1c4 virtual false final false
- void HandleNoteWasCut(::GlobalNamespace::NoteController noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo) ;
+ void HandleNoteWasCut(GlobalNamespace::NoteController noteController, ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo) ;
 
 /// @brief Method HandleComboDidChange addr 0x20e4848 size 0xcc virtual false final false
  void HandleComboDidChange(int32_t combo) ;
@@ -193,6 +192,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerLocalActiveClient);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerLocalActiveClient, "", "MultiplayerLocalActiveClient");
+NEED_NO_BOX(GlobalNamespace::MultiplayerLocalActiveClient);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActiveClient, "", "MultiplayerLocalActiveClient");

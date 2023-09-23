@@ -3,21 +3,22 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
+namespace System::Collections::Generic {
+template<typename T>
+class ICollection_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
+}
 namespace System::Collections {
 class IEqualityComparer;
 }
 namespace System::Collections {
 class IList;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System {
-class Array;
-}
-namespace System {
-class Type;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -25,26 +26,24 @@ class Func_2;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerable_1;
+class IEqualityComparer_1;
+}
+namespace System {
+class Type;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IList_1;
+class List_1;
 }
 namespace System::Reflection {
 class ConstructorInfo;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IEqualityComparer_1;
+class IEnumerable_1;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class ICollection_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace System {
+class Array;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
@@ -94,69 +93,68 @@ constexpr explicit CollectionUtils(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 /// @brief Method IsNullOrEmpty addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static bool IsNullOrEmpty(::System::Collections::Generic::ICollection_1<T> collection) ;
+static bool IsNullOrEmpty(System::Collections::Generic::ICollection_1<T> collection) ;
 
 /// @brief Method AddRange addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static void AddRange(::System::Collections::Generic::IList_1<T> initial, ::System::Collections::Generic::IEnumerable_1<T> collection) ;
+static void AddRange(System::Collections::Generic::IList_1<T> initial, System::Collections::Generic::IEnumerable_1<T> collection) ;
 
 /// @brief Method AddRange addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static void AddRange(::System::Collections::Generic::IList_1<T> initial, ::System::Collections::IEnumerable collection) ;
+static void AddRange(System::Collections::Generic::IList_1<T> initial, System::Collections::IEnumerable collection) ;
 
 /// @brief Method IsDictionaryType addr 0x24ec3f8 size 0x138 virtual false final false
-static bool IsDictionaryType(::System::Type type) ;
+static bool IsDictionaryType(System::Type type) ;
 
 /// @brief Method ResolveEnumerableCollectionConstructor addr 0x24ec5a4 size 0x110 virtual false final false
-static ::System::Reflection::ConstructorInfo ResolveEnumerableCollectionConstructor(::System::Type collectionType, ::System::Type collectionItemType) ;
+static System::Reflection::ConstructorInfo ResolveEnumerableCollectionConstructor(System::Type collectionType, System::Type collectionItemType) ;
 
 /// @brief Method ResolveEnumerableCollectionConstructor addr 0x24ec6b4 size 0x2c4 virtual false final false
-static ::System::Reflection::ConstructorInfo ResolveEnumerableCollectionConstructor(::System::Type collectionType, ::System::Type collectionItemType, ::System::Type constructorArgumentType) ;
+static System::Reflection::ConstructorInfo ResolveEnumerableCollectionConstructor(System::Type collectionType, System::Type collectionItemType, System::Type constructorArgumentType) ;
 
 /// @brief Method AddDistinct addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static bool AddDistinct(::System::Collections::Generic::IList_1<T> list, T value) ;
+static bool AddDistinct(System::Collections::Generic::IList_1<T> list, T value) ;
 
 /// @brief Method AddDistinct addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static bool AddDistinct(::System::Collections::Generic::IList_1<T> list, T value, ::System::Collections::Generic::IEqualityComparer_1<T> comparer) ;
+static bool AddDistinct(System::Collections::Generic::IList_1<T> list, T value, System::Collections::Generic::IEqualityComparer_1<T> comparer) ;
 
 /// @brief Method ContainsValue addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TSource>
-static bool ContainsValue(::System::Collections::Generic::IEnumerable_1<TSource> source, TSource value, ::System::Collections::Generic::IEqualityComparer_1<TSource> comparer) ;
+static bool ContainsValue(System::Collections::Generic::IEnumerable_1<TSource> source, TSource value, System::Collections::Generic::IEqualityComparer_1<TSource> comparer) ;
 
 /// @brief Method AddRangeDistinct addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static bool AddRangeDistinct(::System::Collections::Generic::IList_1<T> list, ::System::Collections::Generic::IEnumerable_1<T> values, ::System::Collections::Generic::IEqualityComparer_1<T> comparer) ;
+static bool AddRangeDistinct(System::Collections::Generic::IList_1<T> list, System::Collections::Generic::IEnumerable_1<T> values, System::Collections::Generic::IEqualityComparer_1<T> comparer) ;
 
 /// @brief Method IndexOf addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static int32_t IndexOf(::System::Collections::Generic::IEnumerable_1<T> collection, ::System::Func_2<T,bool> predicate) ;
+static int32_t IndexOf(System::Collections::Generic::IEnumerable_1<T> collection, System::Func_2<T,bool> predicate) ;
 
 /// @brief Method Contains addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static bool Contains(::System::Collections::Generic::List_1<T> list, T value, ::System::Collections::IEqualityComparer comparer) ;
+static bool Contains(System::Collections::Generic::List_1<T> list, T value, System::Collections::IEqualityComparer comparer) ;
 
 /// @brief Method IndexOfReference addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static int32_t IndexOfReference(::System::Collections::Generic::List_1<T> list, T item) ;
+static int32_t IndexOfReference(System::Collections::Generic::List_1<T> list, T item) ;
 
 /// @brief Method GetDimensions addr 0x24ec978 size 0x2e4 virtual false final false
-static ::System::Collections::Generic::IList_1<int32_t> GetDimensions(::System::Collections::IList values, int32_t dimensionsCount) ;
+static System::Collections::Generic::IList_1<int32_t> GetDimensions(System::Collections::IList values, int32_t dimensionsCount) ;
 
 /// @brief Method CopyFromJaggedToMultidimensionalArray addr 0x24ecc5c size 0x2c0 virtual false final false
-static void CopyFromJaggedToMultidimensionalArray(::System::Collections::IList values, ::System::Array multidimensionalArray, ::ArrayW<int32_t> indices) ;
+static void CopyFromJaggedToMultidimensionalArray(System::Collections::IList values, System::Array multidimensionalArray, ::ArrayW<int32_t> indices) ;
 
 /// @brief Method JaggedArrayGetValue addr 0x24ecf1c size 0x13c virtual false final false
-static ::bs_hook::Il2CppWrapperType JaggedArrayGetValue(::System::Collections::IList values, ::ArrayW<int32_t> indices) ;
+static ::bs_hook::Il2CppWrapperType JaggedArrayGetValue(System::Collections::IList values, ::ArrayW<int32_t> indices) ;
 
 /// @brief Method ToMultidimensionalArray addr 0x24ed058 size 0x1a0 virtual false final false
-static ::System::Array ToMultidimensionalArray(::System::Collections::IList values, ::System::Type type, int32_t rank) ;
+static System::Array ToMultidimensionalArray(System::Collections::IList values, System::Type type, int32_t rank) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Utilities
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Utilities::CollectionUtils);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::CollectionUtils, "Newtonsoft.Json.Utilities", "CollectionUtils");
+NEED_NO_BOX(Newtonsoft::Json::Utilities::CollectionUtils);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::CollectionUtils, "Newtonsoft.Json.Utilities", "CollectionUtils");

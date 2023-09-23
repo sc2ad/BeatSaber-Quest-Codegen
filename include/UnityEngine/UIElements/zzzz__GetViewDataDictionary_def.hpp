@@ -3,7 +3,6 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine::UIElements {
 class ISerializableJsonDictionary;
 }
@@ -17,7 +16,7 @@ namespace UnityEngine::UIElements {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6959))
 // CS Name: UnityEngine.UIElements.GetViewDataDictionary
-class CORDL_TYPE GetViewDataDictionary : public ::System::MulticastDelegate {
+class CORDL_TYPE GetViewDataDictionary : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr GetViewDataDictionary(GetViewDataDictionary const& ) noexcept = defaul
 constexpr GetViewDataDictionary(GetViewDataDictionary&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GetViewDataDictionary(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit GetViewDataDictionary(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -60,12 +59,11 @@ explicit GetViewDataDictionary(::bs_hook::Il2CppWrapperType object, ::cordl_inte
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x2c50f68 size 0x14 virtual true final false
- ::UnityEngine::UIElements::ISerializableJsonDictionary Invoke() ;
+ UnityEngine::UIElements::ISerializableJsonDictionary Invoke() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::GetViewDataDictionary);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::GetViewDataDictionary, "UnityEngine.UIElements", "GetViewDataDictionary");
+NEED_NO_BOX(UnityEngine::UIElements::GetViewDataDictionary);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::GetViewDataDictionary, "UnityEngine.UIElements", "GetViewDataDictionary");

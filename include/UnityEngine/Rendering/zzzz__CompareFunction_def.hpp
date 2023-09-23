@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Rendering {
 struct CompareFunction;
@@ -74,35 +73,34 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Disabled offset 0
-static ::UnityEngine::Rendering::CompareFunction const Disabled;
+static UnityEngine::Rendering::CompareFunction const Disabled;
 
 /// @brief Field Never offset 0
-static ::UnityEngine::Rendering::CompareFunction const Never;
+static UnityEngine::Rendering::CompareFunction const Never;
 
 /// @brief Field Less offset 0
-static ::UnityEngine::Rendering::CompareFunction const Less;
+static UnityEngine::Rendering::CompareFunction const Less;
 
 /// @brief Field Equal offset 0
-static ::UnityEngine::Rendering::CompareFunction const Equal;
+static UnityEngine::Rendering::CompareFunction const Equal;
 
 /// @brief Field LessEqual offset 0
-static ::UnityEngine::Rendering::CompareFunction const LessEqual;
+static UnityEngine::Rendering::CompareFunction const LessEqual;
 
 /// @brief Field Greater offset 0
-static ::UnityEngine::Rendering::CompareFunction const Greater;
+static UnityEngine::Rendering::CompareFunction const Greater;
 
 /// @brief Field NotEqual offset 0
-static ::UnityEngine::Rendering::CompareFunction const NotEqual;
+static UnityEngine::Rendering::CompareFunction const NotEqual;
 
 /// @brief Field GreaterEqual offset 0
-static ::UnityEngine::Rendering::CompareFunction const GreaterEqual;
+static UnityEngine::Rendering::CompareFunction const GreaterEqual;
 
 /// @brief Field Always offset 0
-static ::UnityEngine::Rendering::CompareFunction const Always;
+static UnityEngine::Rendering::CompareFunction const Always;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Rendering
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::CompareFunction, "UnityEngine.Rendering", "CompareFunction");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::CompareFunction, "UnityEngine.Rendering", "CompareFunction");

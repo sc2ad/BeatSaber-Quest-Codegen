@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Collections {
 class Hashtable;
 }
@@ -9,16 +8,16 @@ namespace Org::BouncyCastle::Asn1::X509 {
 class AttributeX509;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1EncodableVector;
 }
 namespace System::Collections {
 class IDictionary;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1EncodableVector;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+class Asn1Set;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -66,52 +65,51 @@ constexpr explicit AttributeTable(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
- ::System::Collections::IDictionary __declspec(property(get=__get_attributes, put=__set_attributes))  attributes;
+ System::Collections::IDictionary __declspec(property(get=__get_attributes, put=__set_attributes))  attributes;
 
-constexpr void __set_attributes(::System::Collections::IDictionary value) ;
+constexpr void __set_attributes(System::Collections::IDictionary value) ;
 
-constexpr ::System::Collections::IDictionary __get_attributes() const;
+constexpr System::Collections::IDictionary __get_attributes() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "attrs", ty: "::System::Collections::IDictionary", modifiers: "", def_value: None }]
-explicit AttributeTable(::System::Collections::IDictionary attrs) ;
+// Ctor Parameters [CppParam { name: "attrs", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }]
+explicit AttributeTable(System::Collections::IDictionary attrs) ;
 
 /// @brief Method .ctor addr 0xff7d34 size 0x78 virtual false final false
- void _ctor(::System::Collections::IDictionary attrs) ;
+ void _ctor(System::Collections::IDictionary attrs) ;
 
-// Ctor Parameters [CppParam { name: "attrs", ty: "::System::Collections::Hashtable", modifiers: "", def_value: None }]
-explicit AttributeTable(::System::Collections::Hashtable attrs) ;
+// Ctor Parameters [CppParam { name: "attrs", ty: "System::Collections::Hashtable", modifiers: "", def_value: None }]
+explicit AttributeTable(System::Collections::Hashtable attrs) ;
 
 /// @brief Method .ctor addr 0xff7dac size 0x78 virtual false final false
- void _ctor(::System::Collections::Hashtable attrs) ;
+ void _ctor(System::Collections::Hashtable attrs) ;
 
-// Ctor Parameters [CppParam { name: "v", ty: "::Org::BouncyCastle::Asn1::Asn1EncodableVector", modifiers: "", def_value: None }]
-explicit AttributeTable(::Org::BouncyCastle::Asn1::Asn1EncodableVector v) ;
+// Ctor Parameters [CppParam { name: "v", ty: "Org::BouncyCastle::Asn1::Asn1EncodableVector", modifiers: "", def_value: None }]
+explicit AttributeTable(Org::BouncyCastle::Asn1::Asn1EncodableVector v) ;
 
 /// @brief Method .ctor addr 0xff7e24 size 0x148 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector v) ;
+ void _ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector v) ;
 
-// Ctor Parameters [CppParam { name: "s", ty: "::Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }]
-explicit AttributeTable(::Org::BouncyCastle::Asn1::Asn1Set s) ;
+// Ctor Parameters [CppParam { name: "s", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }]
+explicit AttributeTable(Org::BouncyCastle::Asn1::Asn1Set s) ;
 
 /// @brief Method .ctor addr 0xff7f6c size 0x178 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::Asn1Set s) ;
+ void _ctor(Org::BouncyCastle::Asn1::Asn1Set s) ;
 
 /// @brief Method Get addr 0xff80e4 size 0xf4 virtual false final false
- ::Org::BouncyCastle::Asn1::X509::AttributeX509 Get(::Org::BouncyCastle::Asn1::DerObjectIdentifier oid) ;
+ Org::BouncyCastle::Asn1::X509::AttributeX509 Get(Org::BouncyCastle::Asn1::DerObjectIdentifier oid) ;
 
 /// @brief Method ToHashtable addr 0xff81d8 size 0x68 virtual false final false
- ::System::Collections::Hashtable ToHashtable() ;
+ System::Collections::Hashtable ToHashtable() ;
 
 /// @brief Method ToDictionary addr 0xff8240 size 0x5c virtual false final false
- ::System::Collections::IDictionary ToDictionary() ;
+ System::Collections::IDictionary ToDictionary() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::X509
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::AttributeTable);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X509::AttributeTable, "Org.BouncyCastle.Asn1.X509", "AttributeTable");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::AttributeTable);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::AttributeTable, "Org.BouncyCastle.Asn1.X509", "AttributeTable");

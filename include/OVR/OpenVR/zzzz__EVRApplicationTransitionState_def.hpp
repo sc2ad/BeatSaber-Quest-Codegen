@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct EVRApplicationTransitionState;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field VRApplicationTransition_None offset 0
-static ::OVR::OpenVR::EVRApplicationTransitionState const VRApplicationTransition_None;
+static OVR::OpenVR::EVRApplicationTransitionState const VRApplicationTransition_None;
 
 /// @brief Field VRApplicationTransition_OldAppQuitSent offset 0
-static ::OVR::OpenVR::EVRApplicationTransitionState const VRApplicationTransition_OldAppQuitSent;
+static OVR::OpenVR::EVRApplicationTransitionState const VRApplicationTransition_OldAppQuitSent;
 
 /// @brief Field VRApplicationTransition_WaitingForExternalLaunch offset 0
-static ::OVR::OpenVR::EVRApplicationTransitionState const VRApplicationTransition_WaitingForExternalLaunch;
+static OVR::OpenVR::EVRApplicationTransitionState const VRApplicationTransition_WaitingForExternalLaunch;
 
 /// @brief Field VRApplicationTransition_NewAppLaunched offset 0
-static ::OVR::OpenVR::EVRApplicationTransitionState const VRApplicationTransition_NewAppLaunched;
+static OVR::OpenVR::EVRApplicationTransitionState const VRApplicationTransition_NewAppLaunched;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRApplicationTransitionState, "OVR.OpenVR", "EVRApplicationTransitionState");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRApplicationTransitionState, "OVR.OpenVR", "EVRApplicationTransitionState");

@@ -2,15 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine {
-struct Vector3;
+struct UnityEngine__ParticleSystem__EmitParams;
 }
 namespace UnityEngine {
 class ParticleSystem;
 }
 namespace UnityEngine {
-struct ____UnityEngine__ParticleSystem__EmitParams;
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,7 +21,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4953))
 // CS Name: BombExplosionEffect
-class CORDL_TYPE BombExplosionEffect : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE BombExplosionEffect : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr BombExplosionEffect(BombExplosionEffect const& ) noexcept = default;
 constexpr BombExplosionEffect(BombExplosionEffect&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BombExplosionEffect(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit BombExplosionEffect(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -58,17 +57,17 @@ constexpr explicit BombExplosionEffect(void* ptr) noexcept : ::UnityEngine::Mono
 
 // Fields
 
- ::UnityEngine::ParticleSystem __declspec(property(get=__get__debrisPS, put=__set__debrisPS))  _debrisPS;
+ UnityEngine::ParticleSystem __declspec(property(get=__get__debrisPS, put=__set__debrisPS))  _debrisPS;
 
-constexpr void __set__debrisPS(::UnityEngine::ParticleSystem value) ;
+constexpr void __set__debrisPS(UnityEngine::ParticleSystem value) ;
 
-constexpr ::UnityEngine::ParticleSystem __get__debrisPS() const;
+constexpr UnityEngine::ParticleSystem __get__debrisPS() const;
 
- ::UnityEngine::ParticleSystem __declspec(property(get=__get__explosionPS, put=__set__explosionPS))  _explosionPS;
+ UnityEngine::ParticleSystem __declspec(property(get=__get__explosionPS, put=__set__explosionPS))  _explosionPS;
 
-constexpr void __set__explosionPS(::UnityEngine::ParticleSystem value) ;
+constexpr void __set__explosionPS(UnityEngine::ParticleSystem value) ;
 
-constexpr ::UnityEngine::ParticleSystem __get__explosionPS() const;
+constexpr UnityEngine::ParticleSystem __get__explosionPS() const;
 
  int32_t __declspec(property(get=__get__debrisCount, put=__set__debrisCount))  _debrisCount;
 
@@ -82,17 +81,17 @@ constexpr void __set__explosionParticlesCount(int32_t value) ;
 
 constexpr int32_t __get__explosionParticlesCount() const;
 
- ::UnityEngine::____UnityEngine__ParticleSystem__EmitParams __declspec(property(get=__get__emitParams, put=__set__emitParams))  _emitParams;
+ UnityEngine::UnityEngine__ParticleSystem__EmitParams __declspec(property(get=__get__emitParams, put=__set__emitParams))  _emitParams;
 
-constexpr void __set__emitParams(::UnityEngine::____UnityEngine__ParticleSystem__EmitParams value) ;
+constexpr void __set__emitParams(UnityEngine::UnityEngine__ParticleSystem__EmitParams value) ;
 
-constexpr ::UnityEngine::____UnityEngine__ParticleSystem__EmitParams __get__emitParams() const;
+constexpr UnityEngine::UnityEngine__ParticleSystem__EmitParams __get__emitParams() const;
 
- ::UnityEngine::____UnityEngine__ParticleSystem__EmitParams __declspec(property(get=__get__explosionPSEmitParams, put=__set__explosionPSEmitParams))  _explosionPSEmitParams;
+ UnityEngine::UnityEngine__ParticleSystem__EmitParams __declspec(property(get=__get__explosionPSEmitParams, put=__set__explosionPSEmitParams))  _explosionPSEmitParams;
 
-constexpr void __set__explosionPSEmitParams(::UnityEngine::____UnityEngine__ParticleSystem__EmitParams value) ;
+constexpr void __set__explosionPSEmitParams(UnityEngine::UnityEngine__ParticleSystem__EmitParams value) ;
 
-constexpr ::UnityEngine::____UnityEngine__ParticleSystem__EmitParams __get__explosionPSEmitParams() const;
+constexpr UnityEngine::UnityEngine__ParticleSystem__EmitParams __get__explosionPSEmitParams() const;
 
 
 // Methods
@@ -101,7 +100,7 @@ constexpr ::UnityEngine::____UnityEngine__ParticleSystem__EmitParams __get__expl
  void Awake() ;
 
 /// @brief Method SpawnExplosion addr 0x224dac4 size 0xbc virtual false final false
- void SpawnExplosion(::UnityEngine::Vector3 pos) ;
+ void SpawnExplosion(UnityEngine::Vector3 pos) ;
 
 // Ctor Parameters []
 explicit BombExplosionEffect() ;
@@ -113,6 +112,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BombExplosionEffect);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BombExplosionEffect, "", "BombExplosionEffect");
+NEED_NO_BOX(GlobalNamespace::BombExplosionEffect);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BombExplosionEffect, "", "BombExplosionEffect");

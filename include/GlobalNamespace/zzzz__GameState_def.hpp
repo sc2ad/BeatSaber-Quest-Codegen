@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace GlobalNamespace {
-class GameplayServerFiniteStateMachine;
-}
 namespace System {
 class IDisposable;
+}
+namespace GlobalNamespace {
+class GameplayServerFiniteStateMachine;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,8 +20,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE GameState : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -57,20 +56,20 @@ constexpr explicit GameState(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 
 // Fields
 
- ::GlobalNamespace::GameplayServerFiniteStateMachine __declspec(property(get=__get_fsm, put=__set_fsm))  fsm;
+ GlobalNamespace::GameplayServerFiniteStateMachine __declspec(property(get=__get_fsm, put=__set_fsm))  fsm;
 
-constexpr void __set_fsm(::GlobalNamespace::GameplayServerFiniteStateMachine value) ;
+constexpr void __set_fsm(GlobalNamespace::GameplayServerFiniteStateMachine value) ;
 
-constexpr ::GlobalNamespace::GameplayServerFiniteStateMachine __get_fsm() const;
+constexpr GlobalNamespace::GameplayServerFiniteStateMachine __get_fsm() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "fsm", ty: "::GlobalNamespace::GameplayServerFiniteStateMachine", modifiers: "", def_value: None }]
-explicit GameState(::GlobalNamespace::GameplayServerFiniteStateMachine fsm) ;
+// Ctor Parameters [CppParam { name: "fsm", ty: "GlobalNamespace::GameplayServerFiniteStateMachine", modifiers: "", def_value: None }]
+explicit GameState(GlobalNamespace::GameplayServerFiniteStateMachine fsm) ;
 
 /// @brief Method .ctor addr 0xdaf310 size 0x28 virtual false final false
- void _ctor(::GlobalNamespace::GameplayServerFiniteStateMachine fsm) ;
+ void _ctor(GlobalNamespace::GameplayServerFiniteStateMachine fsm) ;
 
 /// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final false
  void Dispose() ;
@@ -82,6 +81,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::GameState);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameState, "", "GameState");
+NEED_NO_BOX(GlobalNamespace::GameState);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameState, "", "GameState");

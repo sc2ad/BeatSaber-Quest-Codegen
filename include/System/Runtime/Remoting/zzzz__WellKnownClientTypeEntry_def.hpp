@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Runtime/Remoting/zzzz__TypeEntry_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class Type;
 }
@@ -16,7 +15,7 @@ namespace System::Runtime::Remoting {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3075))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3077))
 // CS Name: System.Runtime.Remoting.WellKnownClientTypeEntry
-class CORDL_TYPE WellKnownClientTypeEntry : public ::System::Runtime::Remoting::TypeEntry {
+class CORDL_TYPE WellKnownClientTypeEntry : public System::Runtime::Remoting::TypeEntry {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr WellKnownClientTypeEntry(WellKnownClientTypeEntry const& ) noexcept = 
 constexpr WellKnownClientTypeEntry(WellKnownClientTypeEntry&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit WellKnownClientTypeEntry(void* ptr) noexcept : ::System::Runtime::Remoting::TypeEntry(ptr) {
+constexpr explicit WellKnownClientTypeEntry(void* ptr) noexcept : System::Runtime::Remoting::TypeEntry(ptr) {
 }
 
 
@@ -52,11 +51,11 @@ constexpr explicit WellKnownClientTypeEntry(void* ptr) noexcept : ::System::Runt
 
 // Fields
 
- ::System::Type __declspec(property(get=__get_obj_type, put=__set_obj_type))  obj_type;
+ System::Type __declspec(property(get=__get_obj_type, put=__set_obj_type))  obj_type;
 
-constexpr void __set_obj_type(::System::Type value) ;
+constexpr void __set_obj_type(System::Type value) ;
 
-constexpr ::System::Type __get_obj_type() const;
+constexpr System::Type __get_obj_type() const;
 
  ::StringW __declspec(property(get=__get_obj_url, put=__set_obj_url))  obj_url;
 
@@ -75,7 +74,7 @@ constexpr ::StringW __get_app_url() const;
 
  ::StringW __declspec(property(get=get_ApplicationUrl))  ApplicationUrl;
 
- ::System::Type __declspec(property(get=get_ObjectType))  ObjectType;
+ System::Type __declspec(property(get=get_ObjectType))  ObjectType;
 
  ::StringW __declspec(property(get=get_ObjectUrl))  ObjectUrl;
 
@@ -92,7 +91,7 @@ explicit WellKnownClientTypeEntry(::StringW typeName, ::StringW assemblyName, ::
  ::StringW get_ApplicationUrl() ;
 
 /// @brief Method get_ObjectType addr 0x23297c8 size 0x8 virtual false final false
- ::System::Type get_ObjectType() ;
+ System::Type get_ObjectType() ;
 
 /// @brief Method get_ObjectUrl addr 0x23297d0 size 0x8 virtual false final false
  ::StringW get_ObjectUrl() ;
@@ -104,6 +103,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::WellKnownClientTypeEntry);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::WellKnownClientTypeEntry, "System.Runtime.Remoting", "WellKnownClientTypeEntry");
+NEED_NO_BOX(System::Runtime::Remoting::WellKnownClientTypeEntry);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::WellKnownClientTypeEntry, "System.Runtime.Remoting", "WellKnownClientTypeEntry");

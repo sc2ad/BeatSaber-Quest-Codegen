@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Rendering {
 struct ShadowCastingMode;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Off offset 0
-static ::UnityEngine::Rendering::ShadowCastingMode const Off;
+static UnityEngine::Rendering::ShadowCastingMode const Off;
 
 /// @brief Field On offset 0
-static ::UnityEngine::Rendering::ShadowCastingMode const On;
+static UnityEngine::Rendering::ShadowCastingMode const On;
 
 /// @brief Field TwoSided offset 0
-static ::UnityEngine::Rendering::ShadowCastingMode const TwoSided;
+static UnityEngine::Rendering::ShadowCastingMode const TwoSided;
 
 /// @brief Field ShadowsOnly offset 0
-static ::UnityEngine::Rendering::ShadowCastingMode const ShadowsOnly;
+static UnityEngine::Rendering::ShadowCastingMode const ShadowsOnly;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Rendering
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::ShadowCastingMode, "UnityEngine.Rendering", "ShadowCastingMode");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::ShadowCastingMode, "UnityEngine.Rendering", "ShadowCastingMode");

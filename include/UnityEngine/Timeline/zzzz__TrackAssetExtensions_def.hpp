@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace UnityEngine::Timeline {
 class TrackAsset;
 }
@@ -55,15 +54,14 @@ constexpr explicit TrackAssetExtensions(void* ptr) noexcept : ::bs_hook::Il2CppW
 // Methods
 
 /// @brief Method GetGroup addr 0x2ad14f8 size 0xc4 virtual false final false
-static ::UnityEngine::Timeline::GroupTrack GetGroup(::UnityEngine::Timeline::TrackAsset asset) ;
+static UnityEngine::Timeline::GroupTrack GetGroup(UnityEngine::Timeline::TrackAsset asset) ;
 
 /// @brief Method SetGroup addr 0x2ad15bc size 0x330 virtual false final false
-static void SetGroup(::UnityEngine::Timeline::TrackAsset asset, ::UnityEngine::Timeline::GroupTrack group) ;
+static void SetGroup(UnityEngine::Timeline::TrackAsset asset, UnityEngine::Timeline::GroupTrack group) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Timeline::TrackAssetExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::TrackAssetExtensions, "UnityEngine.Timeline", "TrackAssetExtensions");
+NEED_NO_BOX(UnityEngine::Timeline::TrackAssetExtensions);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackAssetExtensions, "UnityEngine.Timeline", "TrackAssetExtensions");

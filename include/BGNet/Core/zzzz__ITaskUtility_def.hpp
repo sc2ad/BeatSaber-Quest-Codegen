@@ -1,8 +1,7 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
-namespace System::Threading::Tasks {
-class Task;
+namespace System {
+class Action;
 }
 namespace System {
 struct TimeSpan;
@@ -12,18 +11,18 @@ template<typename TResult>
 class Task_1;
 }
 namespace System {
-template<typename T,typename TResult>
-class Func_2;
-}
-namespace System {
 template<typename TResult>
 class Func_1;
 }
-namespace System {
-class Action;
-}
 namespace System::Threading {
 struct CancellationToken;
+}
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 // Forward declare root types
 namespace BGNet::Core {
@@ -48,36 +47,35 @@ constexpr explicit ITaskUtility(void* ptr) noexcept : ::cordl_internals::Interfa
 // Methods
 
 /// @brief Method Delay addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Threading::Tasks::Task Delay(::System::TimeSpan timeSpan, ::System::Threading::CancellationToken cancellationToken) ;
+ System::Threading::Tasks::Task Delay(System::TimeSpan timeSpan, System::Threading::CancellationToken cancellationToken) ;
 
 /// @brief Method Wait addr 0x0 size 0xffffffffffffffff virtual true final false
- void Wait(::System::Threading::Tasks::Task task) ;
+ void Wait(System::Threading::Tasks::Task task) ;
 
 /// @brief Method Wait addr 0x0 size 0xffffffffffffffff virtual true final false
 template<typename T>
- T Wait(::System::Threading::Tasks::Task_1<T> task) ;
+ T Wait(System::Threading::Tasks::Task_1<T> task) ;
 
 /// @brief Method ContinueWith addr 0x0 size 0xffffffffffffffff virtual true final false
 template<typename T1,typename T2>
- ::System::Threading::Tasks::Task_1<T2> ContinueWith(::System::Threading::Tasks::Task_1<T1> task, ::System::Func_2<::System::Threading::Tasks::Task_1<T1>,::System::Threading::Tasks::Task_1<T2>> continuation) ;
+ System::Threading::Tasks::Task_1<T2> ContinueWith(System::Threading::Tasks::Task_1<T1> task, System::Func_2<System::Threading::Tasks::Task_1<T1>,System::Threading::Tasks::Task_1<T2>> continuation) ;
 
 /// @brief Method Run addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Threading::Tasks::Task Run(::System::Action action, ::System::Threading::CancellationToken cancellationToken) ;
+ System::Threading::Tasks::Task Run(System::Action action, System::Threading::CancellationToken cancellationToken) ;
 
 /// @brief Method Run addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Threading::Tasks::Task Run(::System::Func_1<::System::Threading::Tasks::Task> func, ::System::Threading::CancellationToken cancellationToken) ;
+ System::Threading::Tasks::Task Run(System::Func_1<System::Threading::Tasks::Task> func, System::Threading::CancellationToken cancellationToken) ;
 
 /// @brief Method Run addr 0x0 size 0xffffffffffffffff virtual true final false
 template<typename T>
- ::System::Threading::Tasks::Task_1<T> Run(::System::Func_1<T> func, ::System::Threading::CancellationToken cancellationToken) ;
+ System::Threading::Tasks::Task_1<T> Run(System::Func_1<T> func, System::Threading::CancellationToken cancellationToken) ;
 
 /// @brief Method CancellationTokenWithDelay addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Threading::CancellationToken CancellationTokenWithDelay(::System::TimeSpan timeSpan) ;
+ System::Threading::CancellationToken CancellationTokenWithDelay(System::TimeSpan timeSpan) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def BGNet::Core
-} // end anonymous namespace
-NEED_NO_BOX(::BGNet::Core::ITaskUtility);
-DEFINE_IL2CPP_ARG_TYPE(::BGNet::Core::ITaskUtility, "BGNet.Core", "ITaskUtility");
+NEED_NO_BOX(BGNet::Core::ITaskUtility);
+DEFINE_IL2CPP_ARG_TYPE(BGNet::Core::ITaskUtility, "BGNet.Core", "ITaskUtility");

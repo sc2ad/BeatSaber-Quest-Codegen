@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace RootMotion::FinalIK {
 class FullBodyBipedIK;
 }
@@ -21,7 +20,7 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12487))
 // CS Name: RootMotion.FinalIK.FBBIKArmBending
-class CORDL_TYPE FBBIKArmBending : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE FBBIKArmBending : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr FBBIKArmBending(FBBIKArmBending const& ) noexcept = default;
 constexpr FBBIKArmBending(FBBIKArmBending&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FBBIKArmBending(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit FBBIKArmBending(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -57,47 +56,47 @@ constexpr explicit FBBIKArmBending(void* ptr) noexcept : ::UnityEngine::MonoBeha
 
 // Fields
 
- ::RootMotion::FinalIK::FullBodyBipedIK __declspec(property(get=__get_ik, put=__set_ik))  ik;
+ RootMotion::FinalIK::FullBodyBipedIK __declspec(property(get=__get_ik, put=__set_ik))  ik;
 
-constexpr void __set_ik(::RootMotion::FinalIK::FullBodyBipedIK value) ;
+constexpr void __set_ik(RootMotion::FinalIK::FullBodyBipedIK value) ;
 
-constexpr ::RootMotion::FinalIK::FullBodyBipedIK __get_ik() const;
+constexpr RootMotion::FinalIK::FullBodyBipedIK __get_ik() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_bendDirectionOffsetLeft, put=__set_bendDirectionOffsetLeft))  bendDirectionOffsetLeft;
+ UnityEngine::Vector3 __declspec(property(get=__get_bendDirectionOffsetLeft, put=__set_bendDirectionOffsetLeft))  bendDirectionOffsetLeft;
 
-constexpr void __set_bendDirectionOffsetLeft(::UnityEngine::Vector3 value) ;
+constexpr void __set_bendDirectionOffsetLeft(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_bendDirectionOffsetLeft() const;
+constexpr UnityEngine::Vector3 __get_bendDirectionOffsetLeft() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_bendDirectionOffsetRight, put=__set_bendDirectionOffsetRight))  bendDirectionOffsetRight;
+ UnityEngine::Vector3 __declspec(property(get=__get_bendDirectionOffsetRight, put=__set_bendDirectionOffsetRight))  bendDirectionOffsetRight;
 
-constexpr void __set_bendDirectionOffsetRight(::UnityEngine::Vector3 value) ;
+constexpr void __set_bendDirectionOffsetRight(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_bendDirectionOffsetRight() const;
+constexpr UnityEngine::Vector3 __get_bendDirectionOffsetRight() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_characterSpaceBendOffsetLeft, put=__set_characterSpaceBendOffsetLeft))  characterSpaceBendOffsetLeft;
+ UnityEngine::Vector3 __declspec(property(get=__get_characterSpaceBendOffsetLeft, put=__set_characterSpaceBendOffsetLeft))  characterSpaceBendOffsetLeft;
 
-constexpr void __set_characterSpaceBendOffsetLeft(::UnityEngine::Vector3 value) ;
+constexpr void __set_characterSpaceBendOffsetLeft(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_characterSpaceBendOffsetLeft() const;
+constexpr UnityEngine::Vector3 __get_characterSpaceBendOffsetLeft() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_characterSpaceBendOffsetRight, put=__set_characterSpaceBendOffsetRight))  characterSpaceBendOffsetRight;
+ UnityEngine::Vector3 __declspec(property(get=__get_characterSpaceBendOffsetRight, put=__set_characterSpaceBendOffsetRight))  characterSpaceBendOffsetRight;
 
-constexpr void __set_characterSpaceBendOffsetRight(::UnityEngine::Vector3 value) ;
+constexpr void __set_characterSpaceBendOffsetRight(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_characterSpaceBendOffsetRight() const;
+constexpr UnityEngine::Vector3 __get_characterSpaceBendOffsetRight() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get_leftHandTargetRotation, put=__set_leftHandTargetRotation))  leftHandTargetRotation;
+ UnityEngine::Quaternion __declspec(property(get=__get_leftHandTargetRotation, put=__set_leftHandTargetRotation))  leftHandTargetRotation;
 
-constexpr void __set_leftHandTargetRotation(::UnityEngine::Quaternion value) ;
+constexpr void __set_leftHandTargetRotation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get_leftHandTargetRotation() const;
+constexpr UnityEngine::Quaternion __get_leftHandTargetRotation() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get_rightHandTargetRotation, put=__set_rightHandTargetRotation))  rightHandTargetRotation;
+ UnityEngine::Quaternion __declspec(property(get=__get_rightHandTargetRotation, put=__set_rightHandTargetRotation))  rightHandTargetRotation;
 
-constexpr void __set_rightHandTargetRotation(::UnityEngine::Quaternion value) ;
+constexpr void __set_rightHandTargetRotation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get_rightHandTargetRotation() const;
+constexpr UnityEngine::Quaternion __get_rightHandTargetRotation() const;
 
  bool __declspec(property(get=__get_initiated, put=__set_initiated))  initiated;
 
@@ -127,6 +126,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::FBBIKArmBending);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::FBBIKArmBending, "RootMotion.FinalIK", "FBBIKArmBending");
+NEED_NO_BOX(RootMotion::FinalIK::FBBIKArmBending);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBBIKArmBending, "RootMotion.FinalIK", "FBBIKArmBending");

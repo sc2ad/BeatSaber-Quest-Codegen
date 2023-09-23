@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
@@ -20,8 +19,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
 class CORDL_TYPE KeyParameter : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::ICipherParameters
-constexpr operator  ::Org::BouncyCastle::Crypto::ICipherParameters() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::ICipherParameters
+constexpr operator  Org::BouncyCastle::Crypto::ICipherParameters() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -84,6 +83,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Parameters
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::KeyParameter);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Parameters::KeyParameter, "Org.BouncyCastle.Crypto.Parameters", "KeyParameter");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::KeyParameter);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::KeyParameter, "Org.BouncyCastle.Crypto.Parameters", "KeyParameter");

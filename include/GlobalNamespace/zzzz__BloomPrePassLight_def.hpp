@@ -7,43 +7,42 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
-}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace UnityEngine {
-struct Matrix4x4;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace GlobalNamespace {
 class BloomPrePassLightTypeSO;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Matrix4x4;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
 }
 namespace UnityEngine {
 struct Color;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
 class BloomPrePassLight;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__BloomPrePassLight__LightsDataItem;
+class GlobalNamespace__BloomPrePassLight__LightsDataItem;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__BloomPrePassLight__QuadData;
+struct GlobalNamespace__BloomPrePassLight__QuadData;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__BloomPrePassLight__VertexData;
+struct GlobalNamespace__BloomPrePassLight__VertexData;
 }
 // Type: ::VertexData
 namespace GlobalNamespace {
@@ -51,20 +50,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14632))
 // CS Name: BloomPrePassLight::VertexData
-struct CORDL_TYPE ____GlobalNamespace__BloomPrePassLight__VertexData : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__BloomPrePassLight__VertexData : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "vertex", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "viewPos", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "uv", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__BloomPrePassLight__VertexData(::UnityEngine::Vector3 vertex, ::UnityEngine::Vector3 viewPos, ::UnityEngine::Color color, ::UnityEngine::Vector3 uv) noexcept;
+// Ctor Parameters [CppParam { name: "vertex", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "viewPos", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "color", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "uv", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }]
+constexpr GlobalNamespace__BloomPrePassLight__VertexData(UnityEngine::Vector3 vertex, UnityEngine::Vector3 viewPos, UnityEngine::Color color, UnityEngine::Vector3 uv) noexcept;
 
 
-                    constexpr ____GlobalNamespace__BloomPrePassLight__VertexData(____GlobalNamespace__BloomPrePassLight__VertexData const&) = default;
-                    constexpr ____GlobalNamespace__BloomPrePassLight__VertexData(____GlobalNamespace__BloomPrePassLight__VertexData&&) = default;
-                    constexpr ____GlobalNamespace__BloomPrePassLight__VertexData& operator=(____GlobalNamespace__BloomPrePassLight__VertexData const& o) {
+                    constexpr GlobalNamespace__BloomPrePassLight__VertexData(GlobalNamespace__BloomPrePassLight__VertexData const&) = default;
+                    constexpr GlobalNamespace__BloomPrePassLight__VertexData(GlobalNamespace__BloomPrePassLight__VertexData&&) = default;
+                    constexpr GlobalNamespace__BloomPrePassLight__VertexData& operator=(GlobalNamespace__BloomPrePassLight__VertexData const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__BloomPrePassLight__VertexData& operator=(____GlobalNamespace__BloomPrePassLight__VertexData&& o) noexcept {
+                    constexpr GlobalNamespace__BloomPrePassLight__VertexData& operator=(GlobalNamespace__BloomPrePassLight__VertexData&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -77,7 +76,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x34};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__BloomPrePassLight__VertexData(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__BloomPrePassLight__VertexData(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -88,29 +87,29 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_vertex, put=__set_vertex))  vertex;
+ UnityEngine::Vector3 __declspec(property(get=__get_vertex, put=__set_vertex))  vertex;
 
-constexpr void __set_vertex(::UnityEngine::Vector3 value) ;
+constexpr void __set_vertex(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_vertex() const;
+constexpr UnityEngine::Vector3 __get_vertex() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_viewPos, put=__set_viewPos))  viewPos;
+ UnityEngine::Vector3 __declspec(property(get=__get_viewPos, put=__set_viewPos))  viewPos;
 
-constexpr void __set_viewPos(::UnityEngine::Vector3 value) ;
+constexpr void __set_viewPos(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_viewPos() const;
+constexpr UnityEngine::Vector3 __get_viewPos() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_color, put=__set_color))  color;
+ UnityEngine::Color __declspec(property(get=__get_color, put=__set_color))  color;
 
-constexpr void __set_color(::UnityEngine::Color value) ;
+constexpr void __set_color(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_color() const;
+constexpr UnityEngine::Color __get_color() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_uv, put=__set_uv))  uv;
+ UnityEngine::Vector3 __declspec(property(get=__get_uv, put=__set_uv))  uv;
 
-constexpr void __set_uv(::UnityEngine::Vector3 value) ;
+constexpr void __set_uv(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_uv() const;
+constexpr UnityEngine::Vector3 __get_uv() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -122,20 +121,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14633))
 // CS Name: BloomPrePassLight::QuadData
-struct CORDL_TYPE ____GlobalNamespace__BloomPrePassLight__QuadData : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__BloomPrePassLight__QuadData : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "vertex0", ty: "::GlobalNamespace::____GlobalNamespace__BloomPrePassLight__VertexData", modifiers: "", def_value: None }, CppParam { name: "vertex1", ty: "::GlobalNamespace::____GlobalNamespace__BloomPrePassLight__VertexData", modifiers: "", def_value: None }, CppParam { name: "vertex2", ty: "::GlobalNamespace::____GlobalNamespace__BloomPrePassLight__VertexData", modifiers: "", def_value: None }, CppParam { name: "vertex3", ty: "::GlobalNamespace::____GlobalNamespace__BloomPrePassLight__VertexData", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__BloomPrePassLight__QuadData(::GlobalNamespace::____GlobalNamespace__BloomPrePassLight__VertexData vertex0, ::GlobalNamespace::____GlobalNamespace__BloomPrePassLight__VertexData vertex1, ::GlobalNamespace::____GlobalNamespace__BloomPrePassLight__VertexData vertex2, ::GlobalNamespace::____GlobalNamespace__BloomPrePassLight__VertexData vertex3) noexcept;
+// Ctor Parameters [CppParam { name: "vertex0", ty: "GlobalNamespace::GlobalNamespace__BloomPrePassLight__VertexData", modifiers: "", def_value: None }, CppParam { name: "vertex1", ty: "GlobalNamespace::GlobalNamespace__BloomPrePassLight__VertexData", modifiers: "", def_value: None }, CppParam { name: "vertex2", ty: "GlobalNamespace::GlobalNamespace__BloomPrePassLight__VertexData", modifiers: "", def_value: None }, CppParam { name: "vertex3", ty: "GlobalNamespace::GlobalNamespace__BloomPrePassLight__VertexData", modifiers: "", def_value: None }]
+constexpr GlobalNamespace__BloomPrePassLight__QuadData(GlobalNamespace::GlobalNamespace__BloomPrePassLight__VertexData vertex0, GlobalNamespace::GlobalNamespace__BloomPrePassLight__VertexData vertex1, GlobalNamespace::GlobalNamespace__BloomPrePassLight__VertexData vertex2, GlobalNamespace::GlobalNamespace__BloomPrePassLight__VertexData vertex3) noexcept;
 
 
-                    constexpr ____GlobalNamespace__BloomPrePassLight__QuadData(____GlobalNamespace__BloomPrePassLight__QuadData const&) = default;
-                    constexpr ____GlobalNamespace__BloomPrePassLight__QuadData(____GlobalNamespace__BloomPrePassLight__QuadData&&) = default;
-                    constexpr ____GlobalNamespace__BloomPrePassLight__QuadData& operator=(____GlobalNamespace__BloomPrePassLight__QuadData const& o) {
+                    constexpr GlobalNamespace__BloomPrePassLight__QuadData(GlobalNamespace__BloomPrePassLight__QuadData const&) = default;
+                    constexpr GlobalNamespace__BloomPrePassLight__QuadData(GlobalNamespace__BloomPrePassLight__QuadData&&) = default;
+                    constexpr GlobalNamespace__BloomPrePassLight__QuadData& operator=(GlobalNamespace__BloomPrePassLight__QuadData const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__BloomPrePassLight__QuadData& operator=(____GlobalNamespace__BloomPrePassLight__QuadData&& o) noexcept {
+                    constexpr GlobalNamespace__BloomPrePassLight__QuadData& operator=(GlobalNamespace__BloomPrePassLight__QuadData&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -148,7 +147,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0xd0};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__BloomPrePassLight__QuadData(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__BloomPrePassLight__QuadData(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -159,29 +158,29 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::GlobalNamespace::____GlobalNamespace__BloomPrePassLight__VertexData __declspec(property(get=__get_vertex0, put=__set_vertex0))  vertex0;
+ GlobalNamespace::GlobalNamespace__BloomPrePassLight__VertexData __declspec(property(get=__get_vertex0, put=__set_vertex0))  vertex0;
 
-constexpr void __set_vertex0(::GlobalNamespace::____GlobalNamespace__BloomPrePassLight__VertexData value) ;
+constexpr void __set_vertex0(GlobalNamespace::GlobalNamespace__BloomPrePassLight__VertexData value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__BloomPrePassLight__VertexData __get_vertex0() const;
+constexpr GlobalNamespace::GlobalNamespace__BloomPrePassLight__VertexData __get_vertex0() const;
 
- ::GlobalNamespace::____GlobalNamespace__BloomPrePassLight__VertexData __declspec(property(get=__get_vertex1, put=__set_vertex1))  vertex1;
+ GlobalNamespace::GlobalNamespace__BloomPrePassLight__VertexData __declspec(property(get=__get_vertex1, put=__set_vertex1))  vertex1;
 
-constexpr void __set_vertex1(::GlobalNamespace::____GlobalNamespace__BloomPrePassLight__VertexData value) ;
+constexpr void __set_vertex1(GlobalNamespace::GlobalNamespace__BloomPrePassLight__VertexData value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__BloomPrePassLight__VertexData __get_vertex1() const;
+constexpr GlobalNamespace::GlobalNamespace__BloomPrePassLight__VertexData __get_vertex1() const;
 
- ::GlobalNamespace::____GlobalNamespace__BloomPrePassLight__VertexData __declspec(property(get=__get_vertex2, put=__set_vertex2))  vertex2;
+ GlobalNamespace::GlobalNamespace__BloomPrePassLight__VertexData __declspec(property(get=__get_vertex2, put=__set_vertex2))  vertex2;
 
-constexpr void __set_vertex2(::GlobalNamespace::____GlobalNamespace__BloomPrePassLight__VertexData value) ;
+constexpr void __set_vertex2(GlobalNamespace::GlobalNamespace__BloomPrePassLight__VertexData value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__BloomPrePassLight__VertexData __get_vertex2() const;
+constexpr GlobalNamespace::GlobalNamespace__BloomPrePassLight__VertexData __get_vertex2() const;
 
- ::GlobalNamespace::____GlobalNamespace__BloomPrePassLight__VertexData __declspec(property(get=__get_vertex3, put=__set_vertex3))  vertex3;
+ GlobalNamespace::GlobalNamespace__BloomPrePassLight__VertexData __declspec(property(get=__get_vertex3, put=__set_vertex3))  vertex3;
 
-constexpr void __set_vertex3(::GlobalNamespace::____GlobalNamespace__BloomPrePassLight__VertexData value) ;
+constexpr void __set_vertex3(GlobalNamespace::GlobalNamespace__BloomPrePassLight__VertexData value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__BloomPrePassLight__VertexData __get_vertex3() const;
+constexpr GlobalNamespace::GlobalNamespace__BloomPrePassLight__VertexData __get_vertex3() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -193,62 +192,62 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14634))
 // CS Name: BloomPrePassLight::LightsDataItem
-class CORDL_TYPE ____GlobalNamespace__BloomPrePassLight__LightsDataItem : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__BloomPrePassLight__LightsDataItem : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____GlobalNamespace__BloomPrePassLight__LightsDataItem() = default;
+virtual ~GlobalNamespace__BloomPrePassLight__LightsDataItem() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__BloomPrePassLight__LightsDataItem", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__BloomPrePassLight__LightsDataItem(____GlobalNamespace__BloomPrePassLight__LightsDataItem const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__BloomPrePassLight__LightsDataItem", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__BloomPrePassLight__LightsDataItem(GlobalNamespace__BloomPrePassLight__LightsDataItem const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__BloomPrePassLight__LightsDataItem", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__BloomPrePassLight__LightsDataItem(____GlobalNamespace__BloomPrePassLight__LightsDataItem&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__BloomPrePassLight__LightsDataItem", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__BloomPrePassLight__LightsDataItem(GlobalNamespace__BloomPrePassLight__LightsDataItem&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__BloomPrePassLight__LightsDataItem(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__BloomPrePassLight__LightsDataItem(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__BloomPrePassLight__LightsDataItem& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__BloomPrePassLight__LightsDataItem& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__BloomPrePassLight__LightsDataItem& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__BloomPrePassLight__LightsDataItem& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__BloomPrePassLight__LightsDataItem& operator=(____GlobalNamespace__BloomPrePassLight__LightsDataItem&& o) noexcept = default;
-  constexpr ____GlobalNamespace__BloomPrePassLight__LightsDataItem& operator=(____GlobalNamespace__BloomPrePassLight__LightsDataItem const& o) noexcept = default;
+  constexpr GlobalNamespace__BloomPrePassLight__LightsDataItem& operator=(GlobalNamespace__BloomPrePassLight__LightsDataItem&& o) noexcept = default;
+  constexpr GlobalNamespace__BloomPrePassLight__LightsDataItem& operator=(GlobalNamespace__BloomPrePassLight__LightsDataItem const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::GlobalNamespace::BloomPrePassLightTypeSO __declspec(property(get=__get_lightType, put=__set_lightType))  lightType;
+ GlobalNamespace::BloomPrePassLightTypeSO __declspec(property(get=__get_lightType, put=__set_lightType))  lightType;
 
-constexpr void __set_lightType(::GlobalNamespace::BloomPrePassLightTypeSO value) ;
+constexpr void __set_lightType(GlobalNamespace::BloomPrePassLightTypeSO value) ;
 
-constexpr ::GlobalNamespace::BloomPrePassLightTypeSO __get_lightType() const;
+constexpr GlobalNamespace::BloomPrePassLightTypeSO __get_lightType() const;
 
- ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BloomPrePassLight> __declspec(property(get=__get_lights, put=__set_lights))  lights;
+ System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight> __declspec(property(get=__get_lights, put=__set_lights))  lights;
 
-constexpr void __set_lights(::System::Collections::Generic::HashSet_1<::GlobalNamespace::BloomPrePassLight> value) ;
+constexpr void __set_lights(System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight> value) ;
 
-constexpr ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BloomPrePassLight> __get_lights() const;
+constexpr System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight> __get_lights() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "lightType", ty: "::GlobalNamespace::BloomPrePassLightTypeSO", modifiers: "", def_value: None }, CppParam { name: "lights", ty: "::System::Collections::Generic::HashSet_1<::GlobalNamespace::BloomPrePassLight>", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__BloomPrePassLight__LightsDataItem(::GlobalNamespace::BloomPrePassLightTypeSO lightType, ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BloomPrePassLight> lights) ;
+// Ctor Parameters [CppParam { name: "lightType", ty: "GlobalNamespace::BloomPrePassLightTypeSO", modifiers: "", def_value: None }, CppParam { name: "lights", ty: "System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight>", modifiers: "", def_value: None }]
+explicit GlobalNamespace__BloomPrePassLight__LightsDataItem(GlobalNamespace::BloomPrePassLightTypeSO lightType, System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight> lights) ;
 
 /// @brief Method .ctor addr 0x1f94aa8 size 0x2c virtual false final false
- void _ctor(::GlobalNamespace::BloomPrePassLightTypeSO lightType, ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BloomPrePassLight> lights) ;
+ void _ctor(GlobalNamespace::BloomPrePassLightTypeSO lightType, System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight> lights) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -260,14 +259,14 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14635))
 // CS Name: BloomPrePassLight
-class CORDL_TYPE BloomPrePassLight : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE BloomPrePassLight : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using LightsDataItem = ::GlobalNamespace::____GlobalNamespace__BloomPrePassLight__LightsDataItem;
+using LightsDataItem = GlobalNamespace::GlobalNamespace__BloomPrePassLight__LightsDataItem;
 
-using QuadData = ::GlobalNamespace::____GlobalNamespace__BloomPrePassLight__QuadData;
+using QuadData = GlobalNamespace::GlobalNamespace__BloomPrePassLight__QuadData;
 
-using VertexData = ::GlobalNamespace::____GlobalNamespace__BloomPrePassLight__VertexData;
+using VertexData = GlobalNamespace::GlobalNamespace__BloomPrePassLight__VertexData;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -281,7 +280,7 @@ constexpr BloomPrePassLight(BloomPrePassLight const& ) noexcept = default;
 constexpr BloomPrePassLight(BloomPrePassLight&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BloomPrePassLight(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit BloomPrePassLight(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -332,29 +331,29 @@ static constexpr int32_t  kUvSize{12};
 /// @brief Field kVertexDataSize offset 0
 static constexpr int32_t  kVertexDataSize{52};
 
- ::GlobalNamespace::BloomPrePassLightTypeSO __declspec(property(get=__get__lightType, put=__set__lightType))  _lightType;
+ GlobalNamespace::BloomPrePassLightTypeSO __declspec(property(get=__get__lightType, put=__set__lightType))  _lightType;
 
-constexpr void __set__lightType(::GlobalNamespace::BloomPrePassLightTypeSO value) ;
+constexpr void __set__lightType(GlobalNamespace::BloomPrePassLightTypeSO value) ;
 
-constexpr ::GlobalNamespace::BloomPrePassLightTypeSO __get__lightType() const;
+constexpr GlobalNamespace::BloomPrePassLightTypeSO __get__lightType() const;
 
-static ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BloomPrePassLightTypeSO,::System::Collections::Generic::HashSet_1<::GlobalNamespace::BloomPrePassLight>> __declspec(property(get=__get__bloomLightsDict, put=__set__bloomLightsDict))  _bloomLightsDict;
+static System::Collections::Generic::Dictionary_2<GlobalNamespace::BloomPrePassLightTypeSO,System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight>> __declspec(property(get=__get__bloomLightsDict, put=__set__bloomLightsDict))  _bloomLightsDict;
 
-static void __set__bloomLightsDict(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BloomPrePassLightTypeSO,::System::Collections::Generic::HashSet_1<::GlobalNamespace::BloomPrePassLight>> value) ;
+static void __set__bloomLightsDict(System::Collections::Generic::Dictionary_2<GlobalNamespace::BloomPrePassLightTypeSO,System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight>> value) ;
 
-static ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BloomPrePassLightTypeSO,::System::Collections::Generic::HashSet_1<::GlobalNamespace::BloomPrePassLight>> __get__bloomLightsDict() ;
+static System::Collections::Generic::Dictionary_2<GlobalNamespace::BloomPrePassLightTypeSO,System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight>> __get__bloomLightsDict() ;
 
-static ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__BloomPrePassLight__LightsDataItem> __declspec(property(get=__get__lightsDataItems, put=__set__lightsDataItems))  _lightsDataItems;
+static System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__BloomPrePassLight__LightsDataItem> __declspec(property(get=__get__lightsDataItems, put=__set__lightsDataItems))  _lightsDataItems;
 
-static void __set__lightsDataItems(::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__BloomPrePassLight__LightsDataItem> value) ;
+static void __set__lightsDataItems(System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__BloomPrePassLight__LightsDataItem> value) ;
 
-static ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__BloomPrePassLight__LightsDataItem> __get__lightsDataItems() ;
+static System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__BloomPrePassLight__LightsDataItem> __get__lightsDataItems() ;
 
- ::GlobalNamespace::BloomPrePassLightTypeSO __declspec(property(get=__get__registeredWithLightType, put=__set__registeredWithLightType))  _registeredWithLightType;
+ GlobalNamespace::BloomPrePassLightTypeSO __declspec(property(get=__get__registeredWithLightType, put=__set__registeredWithLightType))  _registeredWithLightType;
 
-constexpr void __set__registeredWithLightType(::GlobalNamespace::BloomPrePassLightTypeSO value) ;
+constexpr void __set__registeredWithLightType(GlobalNamespace::BloomPrePassLightTypeSO value) ;
 
-constexpr ::GlobalNamespace::BloomPrePassLightTypeSO __get__registeredWithLightType() const;
+constexpr GlobalNamespace::BloomPrePassLightTypeSO __get__registeredWithLightType() const;
 
  bool __declspec(property(get=__get__isRegistered, put=__set__isRegistered))  _isRegistered;
 
@@ -371,9 +370,9 @@ constexpr bool __get__isBeingDestroyed() const;
 
 // Properties
 
-static ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BloomPrePassLightTypeSO,::System::Collections::Generic::HashSet_1<::GlobalNamespace::BloomPrePassLight>> __declspec(property(get=get_bloomLightsDict))  bloomLightsDict;
+static System::Collections::Generic::Dictionary_2<GlobalNamespace::BloomPrePassLightTypeSO,System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight>> __declspec(property(get=get_bloomLightsDict))  bloomLightsDict;
 
-static ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__BloomPrePassLight__LightsDataItem> __declspec(property(get=get_lightsDataItems))  lightsDataItems;
+static System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__BloomPrePassLight__LightsDataItem> __declspec(property(get=get_lightsDataItems))  lightsDataItems;
 
  bool __declspec(property(get=get_isDirty))  isDirty;
 
@@ -381,10 +380,10 @@ static ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNames
 // Methods
 
 /// @brief Method get_bloomLightsDict addr 0x1f9466c size 0x58 virtual false final false
-static ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BloomPrePassLightTypeSO,::System::Collections::Generic::HashSet_1<::GlobalNamespace::BloomPrePassLight>> get_bloomLightsDict() ;
+static System::Collections::Generic::Dictionary_2<GlobalNamespace::BloomPrePassLightTypeSO,System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight>> get_bloomLightsDict() ;
 
 /// @brief Method get_lightsDataItems addr 0x1f946c4 size 0x58 virtual false final false
-static ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__BloomPrePassLight__LightsDataItem> get_lightsDataItems() ;
+static System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__BloomPrePassLight__LightsDataItem> get_lightsDataItems() ;
 
 /// @brief Method get_isDirty addr 0x0 size 0xffffffffffffffff virtual true final false
  bool get_isDirty() ;
@@ -408,7 +407,7 @@ static ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNames
  void DidRegisterLight() ;
 
 /// @brief Method FillMeshData addr 0x0 size 0xffffffffffffffff virtual true final false
- void FillMeshData(ByRef<int32_t> lightNum, ::ArrayW<::GlobalNamespace::____GlobalNamespace__BloomPrePassLight__QuadData> lightQuads, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix, float_t lineWidth) ;
+ void FillMeshData(ByRef<int32_t> lightNum, ::ArrayW<GlobalNamespace::GlobalNamespace__BloomPrePassLight__QuadData> lightQuads, UnityEngine::Matrix4x4 viewMatrix, UnityEngine::Matrix4x4 projectionMatrix, float_t lineWidth) ;
 
 /// @brief Method Refresh addr 0x0 size 0xffffffffffffffff virtual true final false
  void Refresh() ;
@@ -423,10 +422,9 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BloomPrePassLight);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BloomPrePassLight, "", "BloomPrePassLight");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__BloomPrePassLight__LightsDataItem);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__BloomPrePassLight__LightsDataItem, "", "BloomPrePassLight/LightsDataItem");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__BloomPrePassLight__QuadData, "", "BloomPrePassLight/QuadData");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__BloomPrePassLight__VertexData, "", "BloomPrePassLight/VertexData");
+NEED_NO_BOX(GlobalNamespace::BloomPrePassLight);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassLight, "", "BloomPrePassLight");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__BloomPrePassLight__LightsDataItem);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__BloomPrePassLight__LightsDataItem, "", "BloomPrePassLight/LightsDataItem");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__BloomPrePassLight__QuadData, "", "BloomPrePassLight/QuadData");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__BloomPrePassLight__VertexData, "", "BloomPrePassLight/VertexData");

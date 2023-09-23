@@ -3,7 +3,6 @@
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class PgpOnePassSignature;
 }
@@ -17,7 +16,7 @@ namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1628))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1655))
 // CS Name: Org.BouncyCastle.Bcpg.OpenPgp.PgpOnePassSignatureList
-class CORDL_TYPE PgpOnePassSignatureList : public ::Org::BouncyCastle::Bcpg::OpenPgp::PgpObject {
+class CORDL_TYPE PgpOnePassSignatureList : public Org::BouncyCastle::Bcpg::OpenPgp::PgpObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr PgpOnePassSignatureList(PgpOnePassSignatureList const& ) noexcept = de
 constexpr PgpOnePassSignatureList(PgpOnePassSignatureList&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PgpOnePassSignatureList(void* ptr) noexcept : ::Org::BouncyCastle::Bcpg::OpenPgp::PgpObject(ptr) {
+constexpr explicit PgpOnePassSignatureList(void* ptr) noexcept : Org::BouncyCastle::Bcpg::OpenPgp::PgpObject(ptr) {
 }
 
 
@@ -53,16 +52,16 @@ constexpr explicit PgpOnePassSignatureList(void* ptr) noexcept : ::Org::BouncyCa
 
 // Fields
 
- ::ArrayW<::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature> __declspec(property(get=__get_sigs, put=__set_sigs))  sigs;
+ ::ArrayW<Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature> __declspec(property(get=__get_sigs, put=__set_sigs))  sigs;
 
-constexpr void __set_sigs(::ArrayW<::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature> value) ;
+constexpr void __set_sigs(::ArrayW<Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature> value) ;
 
-constexpr ::ArrayW<::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature> __get_sigs() const;
+constexpr ::ArrayW<Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature> __get_sigs() const;
 
 
 // Properties
 
- ::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature __declspec(property(get=get_Item))  Item;
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature __declspec(property(get=get_Item))  Item;
 
  int32_t __declspec(property(get=get_Size))  Size;
 
@@ -73,23 +72,23 @@ constexpr ::ArrayW<::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature> __ge
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "sigs", ty: "::ArrayW<::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature>", modifiers: "", def_value: None }]
-explicit PgpOnePassSignatureList(::ArrayW<::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature> sigs) ;
+// Ctor Parameters [CppParam { name: "sigs", ty: "::ArrayW<Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature>", modifiers: "", def_value: None }]
+explicit PgpOnePassSignatureList(::ArrayW<Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature> sigs) ;
 
 /// @brief Method .ctor addr 0x10251b8 size 0xb8 virtual false final false
- void _ctor(::ArrayW<::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature> sigs) ;
+ void _ctor(::ArrayW<Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature> sigs) ;
 
-// Ctor Parameters [CppParam { name: "sig", ty: "::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature", modifiers: "", def_value: None }]
-explicit PgpOnePassSignatureList(::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature sig) ;
+// Ctor Parameters [CppParam { name: "sig", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature", modifiers: "", def_value: None }]
+explicit PgpOnePassSignatureList(Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature sig) ;
 
 /// @brief Method .ctor addr 0x1025f74 size 0xa8 virtual false final false
- void _ctor(::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature sig) ;
+ void _ctor(Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature sig) ;
 
 /// @brief Method get_Item addr 0x102601c size 0x30 virtual false final false
- ::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature get_Item(int32_t index) ;
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature get_Item(int32_t index) ;
 
 /// @brief Method Get addr 0x102604c size 0x4 virtual false final false
- ::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature Get(int32_t index) ;
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature Get(int32_t index) ;
 
 /// @brief Method get_Size addr 0x1026050 size 0x1c virtual false final false
  int32_t get_Size() ;
@@ -104,6 +103,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg::OpenPgp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList, "Org.BouncyCastle.Bcpg.OpenPgp", "PgpOnePassSignatureList");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList, "Org.BouncyCastle.Bcpg.OpenPgp", "PgpOnePassSignatureList");

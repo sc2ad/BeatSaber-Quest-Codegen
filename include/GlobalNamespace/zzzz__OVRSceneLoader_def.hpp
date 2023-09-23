@@ -6,25 +6,8 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System::Collections {
 class IEnumerator;
-}
-namespace UnityEngine {
-class AsyncOperation;
-}
-namespace UnityEngine {
-class Canvas;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace UnityEngine::UI {
-class Text;
-}
-namespace UnityEngine {
-class AssetBundle;
 }
 namespace System {
 class IDisposable;
@@ -33,18 +16,34 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
+namespace UnityEngine {
+class AssetBundle;
+}
+namespace UnityEngine {
+class AsyncOperation;
+}
+namespace UnityEngine {
+class Canvas;
+}
+namespace UnityEngine::UI {
+class Text;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
 // Forward declare root types
+namespace GlobalNamespace {
+class GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25;
+}
 namespace GlobalNamespace {
 class OVRSceneLoader;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRSceneLoader__SceneInfo;
+struct GlobalNamespace__OVRSceneLoader__SceneInfo;
 }
 // Type: ::SceneInfo
 namespace GlobalNamespace {
@@ -52,20 +51,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8815))
 // CS Name: OVRSceneLoader::SceneInfo
-struct CORDL_TYPE ____GlobalNamespace__OVRSceneLoader__SceneInfo : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__OVRSceneLoader__SceneInfo : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "scenes", ty: "::System::Collections::Generic::List_1<::StringW>", modifiers: "", def_value: None }, CppParam { name: "version", ty: "int64_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__OVRSceneLoader__SceneInfo(::System::Collections::Generic::List_1<::StringW> scenes, int64_t version) noexcept;
+// Ctor Parameters [CppParam { name: "scenes", ty: "System::Collections::Generic::List_1<::StringW>", modifiers: "", def_value: None }, CppParam { name: "version", ty: "int64_t", modifiers: "", def_value: None }]
+constexpr GlobalNamespace__OVRSceneLoader__SceneInfo(System::Collections::Generic::List_1<::StringW> scenes, int64_t version) noexcept;
 
 
-                    constexpr ____GlobalNamespace__OVRSceneLoader__SceneInfo(____GlobalNamespace__OVRSceneLoader__SceneInfo const&) = default;
-                    constexpr ____GlobalNamespace__OVRSceneLoader__SceneInfo(____GlobalNamespace__OVRSceneLoader__SceneInfo&&) = default;
-                    constexpr ____GlobalNamespace__OVRSceneLoader__SceneInfo& operator=(____GlobalNamespace__OVRSceneLoader__SceneInfo const& o) {
+                    constexpr GlobalNamespace__OVRSceneLoader__SceneInfo(GlobalNamespace__OVRSceneLoader__SceneInfo const&) = default;
+                    constexpr GlobalNamespace__OVRSceneLoader__SceneInfo(GlobalNamespace__OVRSceneLoader__SceneInfo&&) = default;
+                    constexpr GlobalNamespace__OVRSceneLoader__SceneInfo& operator=(GlobalNamespace__OVRSceneLoader__SceneInfo const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__OVRSceneLoader__SceneInfo& operator=(____GlobalNamespace__OVRSceneLoader__SceneInfo&& o) noexcept {
+                    constexpr GlobalNamespace__OVRSceneLoader__SceneInfo& operator=(GlobalNamespace__OVRSceneLoader__SceneInfo&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -78,7 +77,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x10};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVRSceneLoader__SceneInfo(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__OVRSceneLoader__SceneInfo(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -89,11 +88,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::Collections::Generic::List_1<::StringW> __declspec(property(get=__get_scenes, put=__set_scenes))  scenes;
+ System::Collections::Generic::List_1<::StringW> __declspec(property(get=__get_scenes, put=__set_scenes))  scenes;
 
-constexpr void __set_scenes(::System::Collections::Generic::List_1<::StringW> value) ;
+constexpr void __set_scenes(System::Collections::Generic::List_1<::StringW> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::StringW> __get_scenes() const;
+constexpr System::Collections::Generic::List_1<::StringW> __get_scenes() const;
 
  int64_t __declspec(property(get=__get_version, put=__set_version))  version;
 
@@ -105,7 +104,7 @@ constexpr int64_t __get_version() const;
 // Methods
 
 /// @brief Method .ctor addr 0x2604a14 size 0x8 virtual false final false
- void _ctor(::System::Collections::Generic::List_1<::StringW> sceneList, int64_t currentSceneEpochVersion) ;
+ void _ctor(System::Collections::Generic::List_1<::StringW> sceneList, int64_t currentSceneEpochVersion) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -117,46 +116,46 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8816))
 // CS Name: OVRSceneLoader::<DelayCanvasPosUpdate>d__24
-class CORDL_TYPE ____GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24() = default;
+virtual ~GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24(____GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24(GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24(____GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24(GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24& operator=(____GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24&& o) noexcept = default;
-  constexpr ____GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24& operator=(____GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24 const& o) noexcept = default;
+  constexpr GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24& operator=(GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24&& o) noexcept = default;
+  constexpr GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24& operator=(GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24 const& o) noexcept = default;
                 
 
 
@@ -174,11 +173,11 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::GlobalNamespace::OVRSceneLoader __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::OVRSceneLoader __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::OVRSceneLoader value) ;
+constexpr void __set___4__this(GlobalNamespace::OVRSceneLoader value) ;
 
-constexpr ::GlobalNamespace::OVRSceneLoader __get___4__this() const;
+constexpr GlobalNamespace::OVRSceneLoader __get___4__this() const;
 
 
 // Properties
@@ -191,7 +190,7 @@ constexpr ::GlobalNamespace::OVRSceneLoader __get___4__this() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24(int32_t __1__state) ;
+explicit GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2604808 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -221,46 +220,46 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8817))
 // CS Name: OVRSceneLoader::<onCheckSceneCoroutine>d__25
-class CORDL_TYPE ____GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25() = default;
+virtual ~GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25(____GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25(GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25(____GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25(GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25& operator=(____GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25&& o) noexcept = default;
-  constexpr ____GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25& operator=(____GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25 const& o) noexcept = default;
+  constexpr GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25& operator=(GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25&& o) noexcept = default;
+  constexpr GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25& operator=(GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25 const& o) noexcept = default;
                 
 
 
@@ -278,11 +277,11 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::GlobalNamespace::OVRSceneLoader __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::OVRSceneLoader __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::OVRSceneLoader value) ;
+constexpr void __set___4__this(GlobalNamespace::OVRSceneLoader value) ;
 
-constexpr ::GlobalNamespace::OVRSceneLoader __get___4__this() const;
+constexpr GlobalNamespace::OVRSceneLoader __get___4__this() const;
 
 
 // Properties
@@ -295,7 +294,7 @@ constexpr ::GlobalNamespace::OVRSceneLoader __get___4__this() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25(int32_t __1__state) ;
+explicit GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2604830 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -325,14 +324,14 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8818))
 // CS Name: OVRSceneLoader
-class CORDL_TYPE OVRSceneLoader : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OVRSceneLoader : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using _onCheckSceneCoroutine_d__25 = ::GlobalNamespace::____GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25;
+using _onCheckSceneCoroutine_d__25 = GlobalNamespace::GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25;
 
-using _DelayCanvasPosUpdate_d__24 = ::GlobalNamespace::____GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24;
+using _DelayCanvasPosUpdate_d__24 = GlobalNamespace::GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24;
 
-using SceneInfo = ::GlobalNamespace::____GlobalNamespace__OVRSceneLoader__SceneInfo;
+using SceneInfo = GlobalNamespace::GlobalNamespace__OVRSceneLoader__SceneInfo;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x70};
@@ -346,7 +345,7 @@ constexpr OVRSceneLoader(OVRSceneLoader const& ) noexcept = default;
 constexpr OVRSceneLoader(OVRSceneLoader&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OVRSceneLoader(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OVRSceneLoader(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -388,23 +387,23 @@ constexpr void __set_logCloseTime(float_t value) ;
 
 constexpr float_t __get_logCloseTime() const;
 
- ::UnityEngine::Canvas __declspec(property(get=__get_mainCanvas, put=__set_mainCanvas))  mainCanvas;
+ UnityEngine::Canvas __declspec(property(get=__get_mainCanvas, put=__set_mainCanvas))  mainCanvas;
 
-constexpr void __set_mainCanvas(::UnityEngine::Canvas value) ;
+constexpr void __set_mainCanvas(UnityEngine::Canvas value) ;
 
-constexpr ::UnityEngine::Canvas __get_mainCanvas() const;
+constexpr UnityEngine::Canvas __get_mainCanvas() const;
 
- ::UnityEngine::UI::Text __declspec(property(get=__get_logTextBox, put=__set_logTextBox))  logTextBox;
+ UnityEngine::UI::Text __declspec(property(get=__get_logTextBox, put=__set_logTextBox))  logTextBox;
 
-constexpr void __set_logTextBox(::UnityEngine::UI::Text value) ;
+constexpr void __set_logTextBox(UnityEngine::UI::Text value) ;
 
-constexpr ::UnityEngine::UI::Text __get_logTextBox() const;
+constexpr UnityEngine::UI::Text __get_logTextBox() const;
 
- ::UnityEngine::AsyncOperation __declspec(property(get=__get_loadSceneOperation, put=__set_loadSceneOperation))  loadSceneOperation;
+ UnityEngine::AsyncOperation __declspec(property(get=__get_loadSceneOperation, put=__set_loadSceneOperation))  loadSceneOperation;
 
-constexpr void __set_loadSceneOperation(::UnityEngine::AsyncOperation value) ;
+constexpr void __set_loadSceneOperation(UnityEngine::AsyncOperation value) ;
 
-constexpr ::UnityEngine::AsyncOperation __get_loadSceneOperation() const;
+constexpr UnityEngine::AsyncOperation __get_loadSceneOperation() const;
 
  ::StringW __declspec(property(get=__get_formattedLogText, put=__set_formattedLogText))  formattedLogText;
 
@@ -442,17 +441,17 @@ constexpr void __set_sceneLoadDataPath(::StringW value) ;
 
 constexpr ::StringW __get_sceneLoadDataPath() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::AssetBundle> __declspec(property(get=__get_loadedAssetBundles, put=__set_loadedAssetBundles))  loadedAssetBundles;
+ System::Collections::Generic::List_1<UnityEngine::AssetBundle> __declspec(property(get=__get_loadedAssetBundles, put=__set_loadedAssetBundles))  loadedAssetBundles;
 
-constexpr void __set_loadedAssetBundles(::System::Collections::Generic::List_1<::UnityEngine::AssetBundle> value) ;
+constexpr void __set_loadedAssetBundles(System::Collections::Generic::List_1<UnityEngine::AssetBundle> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::AssetBundle> __get_loadedAssetBundles() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::AssetBundle> __get_loadedAssetBundles() const;
 
- ::GlobalNamespace::____GlobalNamespace__OVRSceneLoader__SceneInfo __declspec(property(get=__get_currentSceneInfo, put=__set_currentSceneInfo))  currentSceneInfo;
+ GlobalNamespace::GlobalNamespace__OVRSceneLoader__SceneInfo __declspec(property(get=__get_currentSceneInfo, put=__set_currentSceneInfo))  currentSceneInfo;
 
-constexpr void __set_currentSceneInfo(::GlobalNamespace::____GlobalNamespace__OVRSceneLoader__SceneInfo value) ;
+constexpr void __set_currentSceneInfo(GlobalNamespace::GlobalNamespace__OVRSceneLoader__SceneInfo value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVRSceneLoader__SceneInfo __get_currentSceneInfo() const;
+constexpr GlobalNamespace::GlobalNamespace__OVRSceneLoader__SceneInfo __get_currentSceneInfo() const;
 
 
 // Methods
@@ -464,10 +463,10 @@ constexpr ::GlobalNamespace::____GlobalNamespace__OVRSceneLoader__SceneInfo __ge
  void Start() ;
 
 /// @brief Method LoadScene addr 0x26039a4 size 0x8ac virtual false final false
- void LoadScene(::GlobalNamespace::____GlobalNamespace__OVRSceneLoader__SceneInfo sceneInfo) ;
+ void LoadScene(GlobalNamespace::GlobalNamespace__OVRSceneLoader__SceneInfo sceneInfo) ;
 
 /// @brief Method LoadSceneOperation_completed addr 0x2604250 size 0xdc virtual false final false
- void LoadSceneOperation_completed(::UnityEngine::AsyncOperation obj) ;
+ void LoadSceneOperation_completed(UnityEngine::AsyncOperation obj) ;
 
 /// @brief Method Update addr 0x2604394 size 0x274 virtual false final false
  void Update() ;
@@ -476,13 +475,13 @@ constexpr ::GlobalNamespace::____GlobalNamespace__OVRSceneLoader__SceneInfo __ge
  void UpdateCanvasPosition() ;
 
 /// @brief Method GetSceneInfo addr 0x2603718 size 0x28c virtual false final false
- ::GlobalNamespace::____GlobalNamespace__OVRSceneLoader__SceneInfo GetSceneInfo() ;
+ GlobalNamespace::GlobalNamespace__OVRSceneLoader__SceneInfo GetSceneInfo() ;
 
 /// @brief Method DelayCanvasPosUpdate addr 0x26036b0 size 0x68 virtual false final false
- ::System::Collections::IEnumerator DelayCanvasPosUpdate() ;
+ System::Collections::IEnumerator DelayCanvasPosUpdate() ;
 
 /// @brief Method onCheckSceneCoroutine addr 0x260432c size 0x68 virtual false final false
- ::System::Collections::IEnumerator onCheckSceneCoroutine() ;
+ System::Collections::IEnumerator onCheckSceneCoroutine() ;
 
 /// @brief Method DestroyAllGameObjects addr 0x2604858 size 0x110 virtual false final false
  void DestroyAllGameObjects() ;
@@ -497,11 +496,10 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OVRSceneLoader);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRSceneLoader, "", "OVRSceneLoader");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24, "", "OVRSceneLoader/<DelayCanvasPosUpdate>d__24");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25, "", "OVRSceneLoader/<onCheckSceneCoroutine>d__25");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVRSceneLoader__SceneInfo, "", "OVRSceneLoader/SceneInfo");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24, "", "OVRSceneLoader/<DelayCanvasPosUpdate>d__24");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25, "", "OVRSceneLoader/<onCheckSceneCoroutine>d__25");
+NEED_NO_BOX(GlobalNamespace::OVRSceneLoader);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSceneLoader, "", "OVRSceneLoader");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRSceneLoader__SceneInfo, "", "OVRSceneLoader/SceneInfo");

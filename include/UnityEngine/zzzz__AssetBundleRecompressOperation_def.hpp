@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__AsyncOperation_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 class AssetBundleRecompressOperation;
@@ -12,7 +11,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10143))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15924))
 // CS Name: UnityEngine.AssetBundleRecompressOperation
-class CORDL_TYPE AssetBundleRecompressOperation : public ::UnityEngine::AsyncOperation {
+class CORDL_TYPE AssetBundleRecompressOperation : public UnityEngine::AsyncOperation {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr AssetBundleRecompressOperation(AssetBundleRecompressOperation const& )
 constexpr AssetBundleRecompressOperation(AssetBundleRecompressOperation&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AssetBundleRecompressOperation(void* ptr) noexcept : ::UnityEngine::AsyncOperation(ptr) {
+constexpr explicit AssetBundleRecompressOperation(void* ptr) noexcept : UnityEngine::AsyncOperation(ptr) {
 }
 
 
@@ -49,6 +48,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AssetBundleRecompressOperation);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AssetBundleRecompressOperation, "UnityEngine", "AssetBundleRecompressOperation");
+NEED_NO_BOX(UnityEngine::AssetBundleRecompressOperation);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AssetBundleRecompressOperation, "UnityEngine", "AssetBundleRecompressOperation");

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -57,11 +56,11 @@ constexpr explicit StyleSyntaxTokenizer(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 // Fields
 
- ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken> __declspec(property(get=__get_m_Tokens, put=__set_m_Tokens))  m_Tokens;
+ System::Collections::Generic::List_1<UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken> __declspec(property(get=__get_m_Tokens, put=__set_m_Tokens))  m_Tokens;
 
-constexpr void __set_m_Tokens(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken> value) ;
+constexpr void __set_m_Tokens(System::Collections::Generic::List_1<UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken> __get_m_Tokens() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken> __get_m_Tokens() const;
 
  int32_t __declspec(property(get=__get_m_CurrentTokenIndex, put=__set_m_CurrentTokenIndex))  m_CurrentTokenIndex;
 
@@ -72,19 +71,19 @@ constexpr int32_t __get_m_CurrentTokenIndex() const;
 
 // Properties
 
- ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken __declspec(property(get=get_current))  current;
+ UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken __declspec(property(get=get_current))  current;
 
 
 // Methods
 
 /// @brief Method get_current addr 0x2c7c28c size 0xac virtual false final false
- ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken get_current() ;
+ UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken get_current() ;
 
 /// @brief Method MoveNext addr 0x2c7c338 size 0x114 virtual false final false
- ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken MoveNext() ;
+ UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken MoveNext() ;
 
 /// @brief Method PeekNext addr 0x2c7c44c size 0xb0 virtual false final false
- ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken PeekNext() ;
+ UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken PeekNext() ;
 
 /// @brief Method Tokenize addr 0x2c7c4fc size 0xcf8 virtual false final false
  void Tokenize(::StringW syntax) ;
@@ -111,6 +110,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::StyleSheets::Syntax
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer, "UnityEngine.UIElements.StyleSheets.Syntax", "StyleSyntaxTokenizer");
+NEED_NO_BOX(UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer, "UnityEngine.UIElements.StyleSheets.Syntax", "StyleSyntaxTokenizer");

@@ -5,24 +5,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
-class IReadonlyBeatmapData;
+struct BasicBeatmapEventType;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace GlobalNamespace {
+class GlobalNamespace__BTSCharacterDataModel__PrefabWithId;
+}
+namespace GlobalNamespace {
 class BTSCharacterDataModel;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-struct BasicBeatmapEventType;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__BTSCharacterDataModel__PrefabWithId;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -35,10 +28,13 @@ namespace UnityEngine::Playables {
 class PlayableDirector;
 }
 namespace UnityEngine {
-class AnimationClip;
+class GameObject;
 }
-namespace UnityEngine::AddressableAssets {
-class AssetReference;
+namespace GlobalNamespace {
+class IReadonlyBeatmapData;
+}
+namespace GlobalNamespace {
+class BTSCharacter;
 }
 namespace UnityEngine {
 class Transform;
@@ -46,25 +42,28 @@ class Transform;
 namespace GlobalNamespace {
 class BTSCharacterResultAnimationController;
 }
-namespace GlobalNamespace {
-class BTSCharacter;
+namespace UnityEngine::AddressableAssets {
+class AssetReference;
+}
+namespace UnityEngine {
+class AnimationClip;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
 class BtsResultsEnvironmentController;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation;
+class GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11;
+class GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11;
 }
 // Type: ::BTSResultCharacterPlaceWithAnimation
 namespace GlobalNamespace {
@@ -72,37 +71,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3960))
 // CS Name: BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation
-class CORDL_TYPE ____GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
 
-virtual ~____GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation() = default;
+virtual ~GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation(____GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation(GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation(____GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation(GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation& operator=(____GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation&& o) noexcept = default;
-  constexpr ____GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation& operator=(____GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation const& o) noexcept = default;
+  constexpr GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation& operator=(GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation&& o) noexcept = default;
+  constexpr GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation& operator=(GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation const& o) noexcept = default;
                 
 
 
@@ -114,35 +113,35 @@ constexpr void __set__name(::StringW value) ;
 
 constexpr ::StringW __get__name() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__placeTransform, put=__set__placeTransform))  _placeTransform;
+ UnityEngine::Transform __declspec(property(get=__get__placeTransform, put=__set__placeTransform))  _placeTransform;
 
-constexpr void __set__placeTransform(::UnityEngine::Transform value) ;
+constexpr void __set__placeTransform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__placeTransform() const;
+constexpr UnityEngine::Transform __get__placeTransform() const;
 
- ::GlobalNamespace::BTSCharacterResultAnimationController __declspec(property(get=__get__animationController, put=__set__animationController))  _animationController;
+ GlobalNamespace::BTSCharacterResultAnimationController __declspec(property(get=__get__animationController, put=__set__animationController))  _animationController;
 
-constexpr void __set__animationController(::GlobalNamespace::BTSCharacterResultAnimationController value) ;
+constexpr void __set__animationController(GlobalNamespace::BTSCharacterResultAnimationController value) ;
 
-constexpr ::GlobalNamespace::BTSCharacterResultAnimationController __get__animationController() const;
+constexpr GlobalNamespace::BTSCharacterResultAnimationController __get__animationController() const;
 
- ::UnityEngine::AnimationClip __declspec(property(get=__get__animationClip, put=__set__animationClip))  _animationClip;
+ UnityEngine::AnimationClip __declspec(property(get=__get__animationClip, put=__set__animationClip))  _animationClip;
 
-constexpr void __set__animationClip(::UnityEngine::AnimationClip value) ;
+constexpr void __set__animationClip(UnityEngine::AnimationClip value) ;
 
-constexpr ::UnityEngine::AnimationClip __get__animationClip() const;
+constexpr UnityEngine::AnimationClip __get__animationClip() const;
 
- ::GlobalNamespace::BTSCharacter __declspec(property(get=__get__btsCharacter, put=__set__btsCharacter))  _btsCharacter;
+ GlobalNamespace::BTSCharacter __declspec(property(get=__get__btsCharacter, put=__set__btsCharacter))  _btsCharacter;
 
-constexpr void __set__btsCharacter(::GlobalNamespace::BTSCharacter value) ;
+constexpr void __set__btsCharacter(GlobalNamespace::BTSCharacter value) ;
 
-constexpr ::GlobalNamespace::BTSCharacter __get__btsCharacter() const;
+constexpr GlobalNamespace::BTSCharacter __get__btsCharacter() const;
 
- ::UnityEngine::AddressableAssets::AssetReference __declspec(property(get=__get__btsCharacterAssetReference, put=__set__btsCharacterAssetReference))  _btsCharacterAssetReference;
+ UnityEngine::AddressableAssets::AssetReference __declspec(property(get=__get__btsCharacterAssetReference, put=__set__btsCharacterAssetReference))  _btsCharacterAssetReference;
 
-constexpr void __set__btsCharacterAssetReference(::UnityEngine::AddressableAssets::AssetReference value) ;
+constexpr void __set__btsCharacterAssetReference(UnityEngine::AddressableAssets::AssetReference value) ;
 
-constexpr ::UnityEngine::AddressableAssets::AssetReference __get__btsCharacterAssetReference() const;
+constexpr UnityEngine::AddressableAssets::AssetReference __get__btsCharacterAssetReference() const;
 
 
 // Properties
@@ -159,10 +158,10 @@ constexpr ::UnityEngine::AddressableAssets::AssetReference __get__btsCharacterAs
  void Clean() ;
 
 /// @brief Method SetCharacter addr 0x20aa200 size 0xcc virtual false final false
- void SetCharacter(::UnityEngine::AddressableAssets::AssetReference assetReference, ::GlobalNamespace::BTSCharacter btsCharacter, bool alternativeMaterial) ;
+ void SetCharacter(UnityEngine::AddressableAssets::AssetReference assetReference, GlobalNamespace::BTSCharacter btsCharacter, bool alternativeMaterial) ;
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation() ;
+explicit GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation() ;
 
 /// @brief Method .ctor addr 0x20aa7c8 size 0x8 virtual false final false
  void _ctor() ;
@@ -177,46 +176,46 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3961))
 // CS Name: BtsResultsEnvironmentController::<DestroyCharactersDelayed>d__11
-class CORDL_TYPE ____GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11() = default;
+virtual ~GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11(____GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11(GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11(____GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11(GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11& operator=(____GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11&& o) noexcept = default;
-  constexpr ____GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11& operator=(____GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11 const& o) noexcept = default;
+  constexpr GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11& operator=(GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11&& o) noexcept = default;
+  constexpr GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11& operator=(GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11 const& o) noexcept = default;
                 
 
 
@@ -234,11 +233,11 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::GlobalNamespace::BtsResultsEnvironmentController __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::BtsResultsEnvironmentController __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::BtsResultsEnvironmentController value) ;
+constexpr void __set___4__this(GlobalNamespace::BtsResultsEnvironmentController value) ;
 
-constexpr ::GlobalNamespace::BtsResultsEnvironmentController __get___4__this() const;
+constexpr GlobalNamespace::BtsResultsEnvironmentController __get___4__this() const;
 
 
 // Properties
@@ -251,7 +250,7 @@ constexpr ::GlobalNamespace::BtsResultsEnvironmentController __get___4__this() c
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11(int32_t __1__state) ;
+explicit GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x20aa630 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -281,12 +280,12 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4803))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3962))
 // CS Name: BtsResultsEnvironmentController
-class CORDL_TYPE BtsResultsEnvironmentController : public ::GlobalNamespace::BaseResultsEnvironmentController {
+class CORDL_TYPE BtsResultsEnvironmentController : public GlobalNamespace::BaseResultsEnvironmentController {
 public:
 // Declarations
-using _DestroyCharactersDelayed_d__11 = ::GlobalNamespace::____GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11;
+using _DestroyCharactersDelayed_d__11 = GlobalNamespace::GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11;
 
-using BTSResultCharacterPlaceWithAnimation = ::GlobalNamespace::____GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation;
+using BTSResultCharacterPlaceWithAnimation = GlobalNamespace::GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -300,7 +299,7 @@ constexpr BtsResultsEnvironmentController(BtsResultsEnvironmentController const&
 constexpr BtsResultsEnvironmentController(BtsResultsEnvironmentController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BtsResultsEnvironmentController(void* ptr) noexcept : ::GlobalNamespace::BaseResultsEnvironmentController(ptr) {
+constexpr explicit BtsResultsEnvironmentController(void* ptr) noexcept : GlobalNamespace::BaseResultsEnvironmentController(ptr) {
 }
 
 
@@ -321,47 +320,47 @@ constexpr explicit BtsResultsEnvironmentController(void* ptr) noexcept : ::Globa
 
 // Fields
 
- ::UnityEngine::GameObject __declspec(property(get=__get__btsCharacterAnimationWrapper, put=__set__btsCharacterAnimationWrapper))  _btsCharacterAnimationWrapper;
+ UnityEngine::GameObject __declspec(property(get=__get__btsCharacterAnimationWrapper, put=__set__btsCharacterAnimationWrapper))  _btsCharacterAnimationWrapper;
 
-constexpr void __set__btsCharacterAnimationWrapper(::UnityEngine::GameObject value) ;
+constexpr void __set__btsCharacterAnimationWrapper(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__btsCharacterAnimationWrapper() const;
+constexpr UnityEngine::GameObject __get__btsCharacterAnimationWrapper() const;
 
- ::GlobalNamespace::BTSCharacterDataModel __declspec(property(get=__get__btsCharacterDataModel, put=__set__btsCharacterDataModel))  _btsCharacterDataModel;
+ GlobalNamespace::BTSCharacterDataModel __declspec(property(get=__get__btsCharacterDataModel, put=__set__btsCharacterDataModel))  _btsCharacterDataModel;
 
-constexpr void __set__btsCharacterDataModel(::GlobalNamespace::BTSCharacterDataModel value) ;
+constexpr void __set__btsCharacterDataModel(GlobalNamespace::BTSCharacterDataModel value) ;
 
-constexpr ::GlobalNamespace::BTSCharacterDataModel __get__btsCharacterDataModel() const;
+constexpr GlobalNamespace::BTSCharacterDataModel __get__btsCharacterDataModel() const;
 
- ::UnityEngine::Playables::PlayableDirector __declspec(property(get=__get__btsCharactersResultsAppearPlayableDirector, put=__set__btsCharactersResultsAppearPlayableDirector))  _btsCharactersResultsAppearPlayableDirector;
+ UnityEngine::Playables::PlayableDirector __declspec(property(get=__get__btsCharactersResultsAppearPlayableDirector, put=__set__btsCharactersResultsAppearPlayableDirector))  _btsCharactersResultsAppearPlayableDirector;
 
-constexpr void __set__btsCharactersResultsAppearPlayableDirector(::UnityEngine::Playables::PlayableDirector value) ;
+constexpr void __set__btsCharactersResultsAppearPlayableDirector(UnityEngine::Playables::PlayableDirector value) ;
 
-constexpr ::UnityEngine::Playables::PlayableDirector __get__btsCharactersResultsAppearPlayableDirector() const;
+constexpr UnityEngine::Playables::PlayableDirector __get__btsCharactersResultsAppearPlayableDirector() const;
 
- ::ArrayW<::GlobalNamespace::____GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation> __declspec(property(get=__get__resultPlacesWithAnimations, put=__set__resultPlacesWithAnimations))  _resultPlacesWithAnimations;
+ ::ArrayW<GlobalNamespace::GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation> __declspec(property(get=__get__resultPlacesWithAnimations, put=__set__resultPlacesWithAnimations))  _resultPlacesWithAnimations;
 
-constexpr void __set__resultPlacesWithAnimations(::ArrayW<::GlobalNamespace::____GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation> value) ;
+constexpr void __set__resultPlacesWithAnimations(::ArrayW<GlobalNamespace::GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::____GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation> __get__resultPlacesWithAnimations() const;
+constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation> __get__resultPlacesWithAnimations() const;
 
 /// @brief Field kCharacterDisplayEventType offset 0
-static ::GlobalNamespace::BasicBeatmapEventType const kCharacterDisplayEventType;
+static GlobalNamespace::BasicBeatmapEventType const kCharacterDisplayEventType;
 
- ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __declspec(property(get=__get__handles, put=__set__handles))  _handles;
+ System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __declspec(property(get=__get__handles, put=__set__handles))  _handles;
 
-constexpr void __set__handles(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
+constexpr void __set__handles(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __get__handles() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> __get__handles() const;
 
 
 // Methods
 
 /// @brief Method Setup addr 0x20a9acc size 0x4e4 virtual true final false
- void Setup(::GlobalNamespace::IReadonlyBeatmapData beatmapData) ;
+ void Setup(GlobalNamespace::IReadonlyBeatmapData beatmapData) ;
 
 /// @brief Method SpawnBtsCharacters addr 0x20a9fb0 size 0x250 virtual false final false
- void SpawnBtsCharacters(::GlobalNamespace::____GlobalNamespace__BTSCharacterDataModel__PrefabWithId btsCharacterPrefabToSpawn, bool useAlternativeMaterial) ;
+ void SpawnBtsCharacters(GlobalNamespace::GlobalNamespace__BTSCharacterDataModel__PrefabWithId btsCharacterPrefabToSpawn, bool useAlternativeMaterial) ;
 
 /// @brief Method Activate addr 0x20aa2cc size 0xa8 virtual true final false
  void Activate(bool immediately) ;
@@ -370,7 +369,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityEngine::ResourceManageme
  void Deactivate(bool immediately) ;
 
 /// @brief Method DestroyCharactersDelayed addr 0x20aa5c8 size 0x68 virtual false final false
- ::System::Collections::IEnumerator DestroyCharactersDelayed() ;
+ System::Collections::IEnumerator DestroyCharactersDelayed() ;
 
 /// @brief Method DestroyCharactersAndStopAnimations addr 0x20aa544 size 0x84 virtual false final false
  void DestroyCharactersAndStopAnimations() ;
@@ -385,10 +384,9 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BtsResultsEnvironmentController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BtsResultsEnvironmentController, "", "BtsResultsEnvironmentController");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation, "", "BtsResultsEnvironmentController/BTSResultCharacterPlaceWithAnimation");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11, "", "BtsResultsEnvironmentController/<DestroyCharactersDelayed>d__11");
+NEED_NO_BOX(GlobalNamespace::BtsResultsEnvironmentController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BtsResultsEnvironmentController, "", "BtsResultsEnvironmentController");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation, "", "BtsResultsEnvironmentController/BTSResultCharacterPlaceWithAnimation");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11, "", "BtsResultsEnvironmentController/<DestroyCharactersDelayed>d__11");

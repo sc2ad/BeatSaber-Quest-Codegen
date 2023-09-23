@@ -2,9 +2,18 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace GlobalNamespace {
+class IReadonlyBeatmapData;
+}
+namespace GlobalNamespace {
+class IBeatmapLevel;
+}
 namespace GlobalNamespace {
 class PlayerSpecificSettings;
+}
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
@@ -13,20 +22,10 @@ namespace GlobalNamespace {
 class IDifficultyBeatmapSet;
 }
 namespace GlobalNamespace {
-class IBeatmapDataBasicInfo;
-}
-namespace GlobalNamespace {
 class EnvironmentInfoSO;
 }
 namespace GlobalNamespace {
-class IReadonlyBeatmapData;
-}
-namespace GlobalNamespace {
-class IBeatmapLevel;
-}
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
+class IBeatmapDataBasicInfo;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -50,11 +49,11 @@ constexpr explicit IDifficultyBeatmap(void* ptr) noexcept : ::cordl_internals::I
 
 // Properties
 
- ::GlobalNamespace::IBeatmapLevel __declspec(property(get=get_level))  level;
+ GlobalNamespace::IBeatmapLevel __declspec(property(get=get_level))  level;
 
- ::GlobalNamespace::IDifficultyBeatmapSet __declspec(property(get=get_parentDifficultyBeatmapSet))  parentDifficultyBeatmapSet;
+ GlobalNamespace::IDifficultyBeatmapSet __declspec(property(get=get_parentDifficultyBeatmapSet))  parentDifficultyBeatmapSet;
 
- ::GlobalNamespace::BeatmapDifficulty __declspec(property(get=get_difficulty))  difficulty;
+ GlobalNamespace::BeatmapDifficulty __declspec(property(get=get_difficulty))  difficulty;
 
  int32_t __declspec(property(get=get_difficultyRank))  difficultyRank;
 
@@ -68,13 +67,13 @@ constexpr explicit IDifficultyBeatmap(void* ptr) noexcept : ::cordl_internals::I
 // Methods
 
 /// @brief Method get_level addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::IBeatmapLevel get_level() ;
+ GlobalNamespace::IBeatmapLevel get_level() ;
 
 /// @brief Method get_parentDifficultyBeatmapSet addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::IDifficultyBeatmapSet get_parentDifficultyBeatmapSet() ;
+ GlobalNamespace::IDifficultyBeatmapSet get_parentDifficultyBeatmapSet() ;
 
 /// @brief Method get_difficulty addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::BeatmapDifficulty get_difficulty() ;
+ GlobalNamespace::BeatmapDifficulty get_difficulty() ;
 
 /// @brief Method get_difficultyRank addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t get_difficultyRank() ;
@@ -89,15 +88,14 @@ constexpr explicit IDifficultyBeatmap(void* ptr) noexcept : ::cordl_internals::I
  int32_t get_environmentNameIdx() ;
 
 /// @brief Method GetBeatmapDataBasicInfoAsync addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapDataBasicInfo> GetBeatmapDataBasicInfoAsync() ;
+ System::Threading::Tasks::Task_1<GlobalNamespace::IBeatmapDataBasicInfo> GetBeatmapDataBasicInfoAsync() ;
 
 /// @brief Method GetBeatmapDataAsync addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData> GetBeatmapDataAsync(::GlobalNamespace::EnvironmentInfoSO environmentInfo, ::GlobalNamespace::PlayerSpecificSettings playerSpecificSettings) ;
+ System::Threading::Tasks::Task_1<GlobalNamespace::IReadonlyBeatmapData> GetBeatmapDataAsync(GlobalNamespace::EnvironmentInfoSO environmentInfo, GlobalNamespace::PlayerSpecificSettings playerSpecificSettings) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IDifficultyBeatmap);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IDifficultyBeatmap, "", "IDifficultyBeatmap");
+NEED_NO_BOX(GlobalNamespace::IDifficultyBeatmap);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IDifficultyBeatmap, "", "IDifficultyBeatmap");

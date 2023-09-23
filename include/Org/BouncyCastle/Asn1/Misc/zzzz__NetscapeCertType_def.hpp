@@ -3,7 +3,6 @@
 #include "Org/BouncyCastle/Asn1/zzzz__DerBitString_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Asn1 {
 class DerBitString;
 }
@@ -17,7 +16,7 @@ namespace Org::BouncyCastle::Asn1::Misc {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(34))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(198))
 // CS Name: Org.BouncyCastle.Asn1.Misc.NetscapeCertType
-class CORDL_TYPE NetscapeCertType : public ::Org::BouncyCastle::Asn1::DerBitString {
+class CORDL_TYPE NetscapeCertType : public Org::BouncyCastle::Asn1::DerBitString {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr NetscapeCertType(NetscapeCertType const& ) noexcept = default;
 constexpr NetscapeCertType(NetscapeCertType&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NetscapeCertType(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::DerBitString(ptr) {
+constexpr explicit NetscapeCertType(void* ptr) noexcept : Org::BouncyCastle::Asn1::DerBitString(ptr) {
 }
 
 
@@ -86,11 +85,11 @@ explicit NetscapeCertType(int32_t usage) ;
 /// @brief Method .ctor addr 0xeeee08 size 0x68 virtual false final false
  void _ctor(int32_t usage) ;
 
-// Ctor Parameters [CppParam { name: "usage", ty: "::Org::BouncyCastle::Asn1::DerBitString", modifiers: "", def_value: None }]
-explicit NetscapeCertType(::Org::BouncyCastle::Asn1::DerBitString usage) ;
+// Ctor Parameters [CppParam { name: "usage", ty: "Org::BouncyCastle::Asn1::DerBitString", modifiers: "", def_value: None }]
+explicit NetscapeCertType(Org::BouncyCastle::Asn1::DerBitString usage) ;
 
 /// @brief Method .ctor addr 0xeeee70 size 0x94 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::DerBitString usage) ;
+ void _ctor(Org::BouncyCastle::Asn1::DerBitString usage) ;
 
 /// @brief Method ToString addr 0xeeef04 size 0xa8 virtual true final false
  ::StringW ToString() ;
@@ -99,6 +98,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::Misc
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::Misc::NetscapeCertType);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Misc::NetscapeCertType, "Org.BouncyCastle.Asn1.Misc", "NetscapeCertType");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Misc::NetscapeCertType);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Misc::NetscapeCertType, "Org.BouncyCastle.Asn1.Misc", "NetscapeCertType");

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DsaValidationParameters;
@@ -103,7 +102,7 @@ explicit DsaValidationParameters(::ArrayW<uint8_t> seed, int32_t counter, int32_
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0xea53c8 size 0x90 virtual true final false
- bool Equals(::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters other) ;
+ bool Equals(Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters other) ;
 
 /// @brief Method GetHashCode addr 0xea5458 size 0x88 virtual true final false
  int32_t GetHashCode() ;
@@ -112,6 +111,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Parameters
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters, "Org.BouncyCastle.Crypto.Parameters", "DsaValidationParameters");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters, "Org.BouncyCastle.Crypto.Parameters", "DsaValidationParameters");

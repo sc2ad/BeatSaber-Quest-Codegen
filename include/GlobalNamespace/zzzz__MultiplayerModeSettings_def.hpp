@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 struct BeatmapDifficultyMask;
 }
@@ -59,11 +58,11 @@ constexpr void __set_createServerPlayersCount(int32_t value) ;
 
 constexpr int32_t __get_createServerPlayersCount() const;
 
- ::GlobalNamespace::BeatmapDifficultyMask __declspec(property(get=__get_quickPlayBeatmapDifficulty, put=__set_quickPlayBeatmapDifficulty))  quickPlayBeatmapDifficulty;
+ GlobalNamespace::BeatmapDifficultyMask __declspec(property(get=__get_quickPlayBeatmapDifficulty, put=__set_quickPlayBeatmapDifficulty))  quickPlayBeatmapDifficulty;
 
-constexpr void __set_quickPlayBeatmapDifficulty(::GlobalNamespace::BeatmapDifficultyMask value) ;
+constexpr void __set_quickPlayBeatmapDifficulty(GlobalNamespace::BeatmapDifficultyMask value) ;
 
-constexpr ::GlobalNamespace::BeatmapDifficultyMask __get_quickPlayBeatmapDifficulty() const;
+constexpr GlobalNamespace::BeatmapDifficultyMask __get_quickPlayBeatmapDifficulty() const;
 
  ::StringW __declspec(property(get=__get_quickPlaySongPackMaskSerializedName, put=__set_quickPlaySongPackMaskSerializedName))  quickPlaySongPackMaskSerializedName;
 
@@ -90,6 +89,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerModeSettings);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerModeSettings, "", "MultiplayerModeSettings");
+NEED_NO_BOX(GlobalNamespace::MultiplayerModeSettings);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerModeSettings, "", "MultiplayerModeSettings");

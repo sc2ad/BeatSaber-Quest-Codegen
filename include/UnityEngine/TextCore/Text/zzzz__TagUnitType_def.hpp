@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
 struct TagUnitType;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Pixels offset 0
-static ::UnityEngine::TextCore::Text::TagUnitType const Pixels;
+static UnityEngine::TextCore::Text::TagUnitType const Pixels;
 
 /// @brief Field FontUnits offset 0
-static ::UnityEngine::TextCore::Text::TagUnitType const FontUnits;
+static UnityEngine::TextCore::Text::TagUnitType const FontUnits;
 
 /// @brief Field Percentage offset 0
-static ::UnityEngine::TextCore::Text::TagUnitType const Percentage;
+static UnityEngine::TextCore::Text::TagUnitType const Percentage;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::Text
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::TagUnitType, "UnityEngine.TextCore.Text", "TagUnitType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Text::TagUnitType, "UnityEngine.TextCore.Text", "TagUnitType");

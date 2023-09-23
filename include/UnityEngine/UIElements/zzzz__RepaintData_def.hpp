@@ -1,18 +1,17 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace UnityEngine {
-struct Rect;
-}
 namespace UnityEngine {
 class Event;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine {
 struct Matrix4x4;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Rect;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -60,53 +59,53 @@ constexpr explicit RepaintData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 
 // Fields
 
- ::UnityEngine::Matrix4x4 __declspec(property(get=__get__currentOffset_k__BackingField, put=__set__currentOffset_k__BackingField))  _currentOffset_k__BackingField;
+ UnityEngine::Matrix4x4 __declspec(property(get=__get__currentOffset_k__BackingField, put=__set__currentOffset_k__BackingField))  _currentOffset_k__BackingField;
 
-constexpr void __set__currentOffset_k__BackingField(::UnityEngine::Matrix4x4 value) ;
+constexpr void __set__currentOffset_k__BackingField(UnityEngine::Matrix4x4 value) ;
 
-constexpr ::UnityEngine::Matrix4x4 __get__currentOffset_k__BackingField() const;
+constexpr UnityEngine::Matrix4x4 __get__currentOffset_k__BackingField() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get__mousePosition_k__BackingField, put=__set__mousePosition_k__BackingField))  _mousePosition_k__BackingField;
+ UnityEngine::Vector2 __declspec(property(get=__get__mousePosition_k__BackingField, put=__set__mousePosition_k__BackingField))  _mousePosition_k__BackingField;
 
-constexpr void __set__mousePosition_k__BackingField(::UnityEngine::Vector2 value) ;
+constexpr void __set__mousePosition_k__BackingField(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get__mousePosition_k__BackingField() const;
+constexpr UnityEngine::Vector2 __get__mousePosition_k__BackingField() const;
 
- ::UnityEngine::Rect __declspec(property(get=__get__currentWorldClip_k__BackingField, put=__set__currentWorldClip_k__BackingField))  _currentWorldClip_k__BackingField;
+ UnityEngine::Rect __declspec(property(get=__get__currentWorldClip_k__BackingField, put=__set__currentWorldClip_k__BackingField))  _currentWorldClip_k__BackingField;
 
-constexpr void __set__currentWorldClip_k__BackingField(::UnityEngine::Rect value) ;
+constexpr void __set__currentWorldClip_k__BackingField(UnityEngine::Rect value) ;
 
-constexpr ::UnityEngine::Rect __get__currentWorldClip_k__BackingField() const;
+constexpr UnityEngine::Rect __get__currentWorldClip_k__BackingField() const;
 
- ::UnityEngine::Event __declspec(property(get=__get__repaintEvent_k__BackingField, put=__set__repaintEvent_k__BackingField))  _repaintEvent_k__BackingField;
+ UnityEngine::Event __declspec(property(get=__get__repaintEvent_k__BackingField, put=__set__repaintEvent_k__BackingField))  _repaintEvent_k__BackingField;
 
-constexpr void __set__repaintEvent_k__BackingField(::UnityEngine::Event value) ;
+constexpr void __set__repaintEvent_k__BackingField(UnityEngine::Event value) ;
 
-constexpr ::UnityEngine::Event __get__repaintEvent_k__BackingField() const;
+constexpr UnityEngine::Event __get__repaintEvent_k__BackingField() const;
 
 
 // Properties
 
- ::UnityEngine::Matrix4x4 __declspec(property(get=get_currentOffset))  currentOffset;
+ UnityEngine::Matrix4x4 __declspec(property(get=get_currentOffset))  currentOffset;
 
- ::UnityEngine::Rect __declspec(property(get=get_currentWorldClip))  currentWorldClip;
+ UnityEngine::Rect __declspec(property(get=get_currentWorldClip))  currentWorldClip;
 
- ::UnityEngine::Event __declspec(property(get=get_repaintEvent, put=set_repaintEvent))  repaintEvent;
+ UnityEngine::Event __declspec(property(get=get_repaintEvent, put=set_repaintEvent))  repaintEvent;
 
 
 // Methods
 
 /// @brief Method get_currentOffset addr 0x2c4fbbc size 0x14 virtual false final false
- ::UnityEngine::Matrix4x4 get_currentOffset() ;
+ UnityEngine::Matrix4x4 get_currentOffset() ;
 
 /// @brief Method get_currentWorldClip addr 0x2c4fbd0 size 0xc virtual false final false
- ::UnityEngine::Rect get_currentWorldClip() ;
+ UnityEngine::Rect get_currentWorldClip() ;
 
 /// @brief Method get_repaintEvent addr 0x2c4fbdc size 0x8 virtual false final false
- ::UnityEngine::Event get_repaintEvent() ;
+ UnityEngine::Event get_repaintEvent() ;
 
 /// @brief Method set_repaintEvent addr 0x2c4fbe4 size 0x8 virtual false final false
- void set_repaintEvent(::UnityEngine::Event value) ;
+ void set_repaintEvent(UnityEngine::Event value) ;
 
 // Ctor Parameters []
 explicit RepaintData() ;
@@ -118,6 +117,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::RepaintData);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::RepaintData, "UnityEngine.UIElements", "RepaintData");
+NEED_NO_BOX(UnityEngine::UIElements::RepaintData);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::RepaintData, "UnityEngine.UIElements", "RepaintData");

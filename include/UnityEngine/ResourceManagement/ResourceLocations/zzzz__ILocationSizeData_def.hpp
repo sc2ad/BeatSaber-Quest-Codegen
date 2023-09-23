@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine::ResourceManagement {
 class ResourceManager;
 }
@@ -31,12 +30,11 @@ constexpr explicit ILocationSizeData(void* ptr) noexcept : ::cordl_internals::In
 // Methods
 
 /// @brief Method ComputeSize addr 0x0 size 0xffffffffffffffff virtual true final false
- int64_t ComputeSize(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location, ::UnityEngine::ResourceManagement::ResourceManager resourceManager) ;
+ int64_t ComputeSize(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location, UnityEngine::ResourceManagement::ResourceManager resourceManager) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ResourceManagement::ResourceLocations
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData, "UnityEngine.ResourceManagement.ResourceLocations", "ILocationSizeData");
+NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData, "UnityEngine.ResourceManagement.ResourceLocations", "ILocationSizeData");

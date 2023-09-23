@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Oculus::Platform::Models {
 class NetSyncConnection;
 }
@@ -10,7 +9,7 @@ class NetSyncSessionsChangedNotification;
 }
 namespace Oculus::Platform {
 template<typename T>
-class ____Oculus__Platform__Message_1__Callback;
+class Oculus__Platform__Message_1__Callback;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -59,15 +58,14 @@ constexpr explicit NetSync(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(pt
 // Methods
 
 /// @brief Method SetConnectionStatusChangedNotificationCallback addr 0x2596498 size 0x74 virtual false final false
-static void SetConnectionStatusChangedNotificationCallback(::Oculus::Platform::____Oculus__Platform__Message_1__Callback<::Oculus::Platform::Models::NetSyncConnection> callback) ;
+static void SetConnectionStatusChangedNotificationCallback(Oculus::Platform::Oculus__Platform__Message_1__Callback<Oculus::Platform::Models::NetSyncConnection> callback) ;
 
 /// @brief Method SetSessionsChangedNotificationCallback addr 0x259650c size 0x74 virtual false final false
-static void SetSessionsChangedNotificationCallback(::Oculus::Platform::____Oculus__Platform__Message_1__Callback<::Oculus::Platform::Models::NetSyncSessionsChangedNotification> callback) ;
+static void SetSessionsChangedNotificationCallback(Oculus::Platform::Oculus__Platform__Message_1__Callback<Oculus::Platform::Models::NetSyncSessionsChangedNotification> callback) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::NetSync);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::NetSync, "Oculus.Platform", "NetSync");
+NEED_NO_BOX(Oculus::Platform::NetSync);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::NetSync, "Oculus.Platform", "NetSync");

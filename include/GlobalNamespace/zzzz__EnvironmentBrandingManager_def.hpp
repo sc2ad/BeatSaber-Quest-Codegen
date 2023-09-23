@@ -3,7 +3,6 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace UnityEngine {
 class GameObject;
 }
@@ -12,7 +11,7 @@ namespace GlobalNamespace {
 class EnvironmentBrandingManager;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__EnvironmentBrandingManager__InitData;
+class GlobalNamespace__EnvironmentBrandingManager__InitData;
 }
 // Type: ::InitData
 namespace GlobalNamespace {
@@ -20,37 +19,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4804))
 // CS Name: EnvironmentBrandingManager::InitData
-class CORDL_TYPE ____GlobalNamespace__EnvironmentBrandingManager__InitData : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__EnvironmentBrandingManager__InitData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____GlobalNamespace__EnvironmentBrandingManager__InitData() = default;
+virtual ~GlobalNamespace__EnvironmentBrandingManager__InitData() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__EnvironmentBrandingManager__InitData", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__EnvironmentBrandingManager__InitData(____GlobalNamespace__EnvironmentBrandingManager__InitData const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__EnvironmentBrandingManager__InitData", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__EnvironmentBrandingManager__InitData(GlobalNamespace__EnvironmentBrandingManager__InitData const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__EnvironmentBrandingManager__InitData", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__EnvironmentBrandingManager__InitData(____GlobalNamespace__EnvironmentBrandingManager__InitData&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__EnvironmentBrandingManager__InitData", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__EnvironmentBrandingManager__InitData(GlobalNamespace__EnvironmentBrandingManager__InitData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__EnvironmentBrandingManager__InitData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__EnvironmentBrandingManager__InitData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__EnvironmentBrandingManager__InitData& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__EnvironmentBrandingManager__InitData& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__EnvironmentBrandingManager__InitData& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__EnvironmentBrandingManager__InitData& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__EnvironmentBrandingManager__InitData& operator=(____GlobalNamespace__EnvironmentBrandingManager__InitData&& o) noexcept = default;
-  constexpr ____GlobalNamespace__EnvironmentBrandingManager__InitData& operator=(____GlobalNamespace__EnvironmentBrandingManager__InitData const& o) noexcept = default;
+  constexpr GlobalNamespace__EnvironmentBrandingManager__InitData& operator=(GlobalNamespace__EnvironmentBrandingManager__InitData&& o) noexcept = default;
+  constexpr GlobalNamespace__EnvironmentBrandingManager__InitData& operator=(GlobalNamespace__EnvironmentBrandingManager__InitData const& o) noexcept = default;
                 
 
 
@@ -66,7 +65,7 @@ constexpr bool __get_hideBranding() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "hideBranding", ty: "bool", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__EnvironmentBrandingManager__InitData(bool hideBranding) ;
+explicit GlobalNamespace__EnvironmentBrandingManager__InitData(bool hideBranding) ;
 
 /// @brief Method .ctor addr 0x222ca88 size 0x28 virtual false final false
  void _ctor(bool hideBranding) ;
@@ -81,10 +80,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4805))
 // CS Name: EnvironmentBrandingManager
-class CORDL_TYPE EnvironmentBrandingManager : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE EnvironmentBrandingManager : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using InitData = ::GlobalNamespace::____GlobalNamespace__EnvironmentBrandingManager__InitData;
+using InitData = GlobalNamespace::GlobalNamespace__EnvironmentBrandingManager__InitData;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -98,7 +97,7 @@ constexpr EnvironmentBrandingManager(EnvironmentBrandingManager const& ) noexcep
 constexpr EnvironmentBrandingManager(EnvironmentBrandingManager&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EnvironmentBrandingManager(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit EnvironmentBrandingManager(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -119,23 +118,23 @@ constexpr explicit EnvironmentBrandingManager(void* ptr) noexcept : ::UnityEngin
 
 // Fields
 
- ::ArrayW<::UnityEngine::GameObject> __declspec(property(get=__get__brandingObjects, put=__set__brandingObjects))  _brandingObjects;
+ ::ArrayW<UnityEngine::GameObject> __declspec(property(get=__get__brandingObjects, put=__set__brandingObjects))  _brandingObjects;
 
-constexpr void __set__brandingObjects(::ArrayW<::UnityEngine::GameObject> value) ;
+constexpr void __set__brandingObjects(::ArrayW<UnityEngine::GameObject> value) ;
 
-constexpr ::ArrayW<::UnityEngine::GameObject> __get__brandingObjects() const;
+constexpr ::ArrayW<UnityEngine::GameObject> __get__brandingObjects() const;
 
- ::ArrayW<::UnityEngine::GameObject> __declspec(property(get=__get__replacementBrandingObjects, put=__set__replacementBrandingObjects))  _replacementBrandingObjects;
+ ::ArrayW<UnityEngine::GameObject> __declspec(property(get=__get__replacementBrandingObjects, put=__set__replacementBrandingObjects))  _replacementBrandingObjects;
 
-constexpr void __set__replacementBrandingObjects(::ArrayW<::UnityEngine::GameObject> value) ;
+constexpr void __set__replacementBrandingObjects(::ArrayW<UnityEngine::GameObject> value) ;
 
-constexpr ::ArrayW<::UnityEngine::GameObject> __get__replacementBrandingObjects() const;
+constexpr ::ArrayW<UnityEngine::GameObject> __get__replacementBrandingObjects() const;
 
- ::GlobalNamespace::____GlobalNamespace__EnvironmentBrandingManager__InitData __declspec(property(get=__get__initData, put=__set__initData))  _initData;
+ GlobalNamespace::GlobalNamespace__EnvironmentBrandingManager__InitData __declspec(property(get=__get__initData, put=__set__initData))  _initData;
 
-constexpr void __set__initData(::GlobalNamespace::____GlobalNamespace__EnvironmentBrandingManager__InitData value) ;
+constexpr void __set__initData(GlobalNamespace::GlobalNamespace__EnvironmentBrandingManager__InitData value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__EnvironmentBrandingManager__InitData __get__initData() const;
+constexpr GlobalNamespace::GlobalNamespace__EnvironmentBrandingManager__InitData __get__initData() const;
 
 
 // Methods
@@ -153,8 +152,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::EnvironmentBrandingManager);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EnvironmentBrandingManager, "", "EnvironmentBrandingManager");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__EnvironmentBrandingManager__InitData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__EnvironmentBrandingManager__InitData, "", "EnvironmentBrandingManager/InitData");
+NEED_NO_BOX(GlobalNamespace::EnvironmentBrandingManager);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentBrandingManager, "", "EnvironmentBrandingManager");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__EnvironmentBrandingManager__InitData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__EnvironmentBrandingManager__InitData, "", "EnvironmentBrandingManager/InitData");

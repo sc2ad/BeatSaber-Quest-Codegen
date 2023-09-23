@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__NoTransitionInstaller_def.hpp"
-namespace {
-namespace Zenject {
-class DiContainer;
-}
 namespace GlobalNamespace {
 class StandardLevelNoTransitionInstallerData;
+}
+namespace Zenject {
+class DiContainer;
 }
 namespace GlobalNamespace {
 class StandardLevelScenesTransitionSetupDataSO;
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11118))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6095))
 // CS Name: StandardLevelNoTransitionInstaller
-class CORDL_TYPE StandardLevelNoTransitionInstaller : public ::Zenject::NoTransitionInstaller {
+class CORDL_TYPE StandardLevelNoTransitionInstaller : public Zenject::NoTransitionInstaller {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr StandardLevelNoTransitionInstaller(StandardLevelNoTransitionInstaller 
 constexpr StandardLevelNoTransitionInstaller(StandardLevelNoTransitionInstaller&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit StandardLevelNoTransitionInstaller(void* ptr) noexcept : ::Zenject::NoTransitionInstaller(ptr) {
+constexpr explicit StandardLevelNoTransitionInstaller(void* ptr) noexcept : Zenject::NoTransitionInstaller(ptr) {
 }
 
 
@@ -57,31 +56,31 @@ constexpr explicit StandardLevelNoTransitionInstaller(void* ptr) noexcept : ::Ze
 
 // Fields
 
- ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO __declspec(property(get=__get__scenesTransitionSetupData, put=__set__scenesTransitionSetupData))  _scenesTransitionSetupData;
+ GlobalNamespace::StandardLevelScenesTransitionSetupDataSO __declspec(property(get=__get__scenesTransitionSetupData, put=__set__scenesTransitionSetupData))  _scenesTransitionSetupData;
 
-constexpr void __set__scenesTransitionSetupData(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO value) ;
+constexpr void __set__scenesTransitionSetupData(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO value) ;
 
-constexpr ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO __get__scenesTransitionSetupData() const;
+constexpr GlobalNamespace::StandardLevelScenesTransitionSetupDataSO __get__scenesTransitionSetupData() const;
 
- ::GlobalNamespace::StandardLevelNoTransitionInstallerData __declspec(property(get=__get__standardLevelNoTransitionInstallerData, put=__set__standardLevelNoTransitionInstallerData))  _standardLevelNoTransitionInstallerData;
+ GlobalNamespace::StandardLevelNoTransitionInstallerData __declspec(property(get=__get__standardLevelNoTransitionInstallerData, put=__set__standardLevelNoTransitionInstallerData))  _standardLevelNoTransitionInstallerData;
 
-constexpr void __set__standardLevelNoTransitionInstallerData(::GlobalNamespace::StandardLevelNoTransitionInstallerData value) ;
+constexpr void __set__standardLevelNoTransitionInstallerData(GlobalNamespace::StandardLevelNoTransitionInstallerData value) ;
 
-constexpr ::GlobalNamespace::StandardLevelNoTransitionInstallerData __get__standardLevelNoTransitionInstallerData() const;
+constexpr GlobalNamespace::StandardLevelNoTransitionInstallerData __get__standardLevelNoTransitionInstallerData() const;
 
 
 // Properties
 
- ::GlobalNamespace::StandardLevelNoTransitionInstallerData __declspec(property(get=get_standardLevelNoTransitionInstallerData))  standardLevelNoTransitionInstallerData;
+ GlobalNamespace::StandardLevelNoTransitionInstallerData __declspec(property(get=get_standardLevelNoTransitionInstallerData))  standardLevelNoTransitionInstallerData;
 
 
 // Methods
 
 /// @brief Method get_standardLevelNoTransitionInstallerData addr 0x21b6710 size 0x8 virtual false final false
- ::GlobalNamespace::StandardLevelNoTransitionInstallerData get_standardLevelNoTransitionInstallerData() ;
+ GlobalNamespace::StandardLevelNoTransitionInstallerData get_standardLevelNoTransitionInstallerData() ;
 
 /// @brief Method InstallBindings addr 0x21b6718 size 0x150 virtual true final false
- void InstallBindings(::Zenject::DiContainer container) ;
+ void InstallBindings(Zenject::DiContainer container) ;
 
 // Ctor Parameters []
 explicit StandardLevelNoTransitionInstaller() ;
@@ -93,6 +92,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::StandardLevelNoTransitionInstaller);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StandardLevelNoTransitionInstaller, "", "StandardLevelNoTransitionInstaller");
+NEED_NO_BOX(GlobalNamespace::StandardLevelNoTransitionInstaller);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelNoTransitionInstaller, "", "StandardLevelNoTransitionInstaller");

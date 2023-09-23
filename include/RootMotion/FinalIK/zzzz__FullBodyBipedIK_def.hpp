@@ -3,10 +3,6 @@
 #include "RootMotion/FinalIK/zzzz__IK_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace RootMotion {
-class BipedReferences;
-}
 namespace RootMotion::FinalIK {
 class IKSolverFullBodyBiped;
 }
@@ -15,6 +11,9 @@ class Transform;
 }
 namespace RootMotion::FinalIK {
 class IKSolver;
+}
+namespace RootMotion {
+class BipedReferences;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -26,7 +25,7 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12478))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12477))
 // CS Name: RootMotion.FinalIK.FullBodyBipedIK
-class CORDL_TYPE FullBodyBipedIK : public ::RootMotion::FinalIK::IK {
+class CORDL_TYPE FullBodyBipedIK : public RootMotion::FinalIK::IK {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -41,7 +40,7 @@ constexpr FullBodyBipedIK(FullBodyBipedIK const& ) noexcept = default;
 constexpr FullBodyBipedIK(FullBodyBipedIK&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FullBodyBipedIK(void* ptr) noexcept : ::RootMotion::FinalIK::IK(ptr) {
+constexpr explicit FullBodyBipedIK(void* ptr) noexcept : RootMotion::FinalIK::IK(ptr) {
 }
 
 
@@ -62,17 +61,17 @@ constexpr explicit FullBodyBipedIK(void* ptr) noexcept : ::RootMotion::FinalIK::
 
 // Fields
 
- ::RootMotion::BipedReferences __declspec(property(get=__get_references, put=__set_references))  references;
+ RootMotion::BipedReferences __declspec(property(get=__get_references, put=__set_references))  references;
 
-constexpr void __set_references(::RootMotion::BipedReferences value) ;
+constexpr void __set_references(RootMotion::BipedReferences value) ;
 
-constexpr ::RootMotion::BipedReferences __get_references() const;
+constexpr RootMotion::BipedReferences __get_references() const;
 
- ::RootMotion::FinalIK::IKSolverFullBodyBiped __declspec(property(get=__get_solver, put=__set_solver))  solver;
+ RootMotion::FinalIK::IKSolverFullBodyBiped __declspec(property(get=__get_solver, put=__set_solver))  solver;
 
-constexpr void __set_solver(::RootMotion::FinalIK::IKSolverFullBodyBiped value) ;
+constexpr void __set_solver(RootMotion::FinalIK::IKSolverFullBodyBiped value) ;
 
-constexpr ::RootMotion::FinalIK::IKSolverFullBodyBiped __get_solver() const;
+constexpr RootMotion::FinalIK::IKSolverFullBodyBiped __get_solver() const;
 
 
 // Methods
@@ -96,10 +95,10 @@ constexpr ::RootMotion::FinalIK::IKSolverFullBodyBiped __get_solver() const;
  void ASThread() ;
 
 /// @brief Method SetReferences addr 0x11c465c size 0x24 virtual false final false
- void SetReferences(::RootMotion::BipedReferences references, ::UnityEngine::Transform rootNode) ;
+ void SetReferences(RootMotion::BipedReferences references, UnityEngine::Transform rootNode) ;
 
 /// @brief Method GetIKSolver addr 0x11c4680 size 0x8 virtual true final false
- ::RootMotion::FinalIK::IKSolver GetIKSolver() ;
+ RootMotion::FinalIK::IKSolver GetIKSolver() ;
 
 /// @brief Method ReferencesError addr 0x11c4688 size 0x1bc virtual false final false
  bool ReferencesError(ByRef<::StringW> errorMessage) ;
@@ -123,6 +122,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::FullBodyBipedIK);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::FullBodyBipedIK, "RootMotion.FinalIK", "FullBodyBipedIK");
+NEED_NO_BOX(RootMotion::FinalIK::FullBodyBipedIK);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FullBodyBipedIK, "RootMotion.FinalIK", "FullBodyBipedIK");

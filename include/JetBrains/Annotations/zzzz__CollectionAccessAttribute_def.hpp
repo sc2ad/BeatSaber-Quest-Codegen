@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 namespace JetBrains::Annotations {
 struct CollectionAccessType;
 }
@@ -15,7 +14,7 @@ namespace JetBrains::Annotations {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15725))
 // CS Name: JetBrains.Annotations.CollectionAccessAttribute
-class CORDL_TYPE CollectionAccessAttribute : public ::System::Attribute {
+class CORDL_TYPE CollectionAccessAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr CollectionAccessAttribute(CollectionAccessAttribute const& ) noexcept 
 constexpr CollectionAccessAttribute(CollectionAccessAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CollectionAccessAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit CollectionAccessAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -51,36 +50,35 @@ constexpr explicit CollectionAccessAttribute(void* ptr) noexcept : ::System::Att
 
 // Fields
 
- ::JetBrains::Annotations::CollectionAccessType __declspec(property(get=__get__CollectionAccessType_k__BackingField, put=__set__CollectionAccessType_k__BackingField))  _CollectionAccessType_k__BackingField;
+ JetBrains::Annotations::CollectionAccessType __declspec(property(get=__get__CollectionAccessType_k__BackingField, put=__set__CollectionAccessType_k__BackingField))  _CollectionAccessType_k__BackingField;
 
-constexpr void __set__CollectionAccessType_k__BackingField(::JetBrains::Annotations::CollectionAccessType value) ;
+constexpr void __set__CollectionAccessType_k__BackingField(JetBrains::Annotations::CollectionAccessType value) ;
 
-constexpr ::JetBrains::Annotations::CollectionAccessType __get__CollectionAccessType_k__BackingField() const;
+constexpr JetBrains::Annotations::CollectionAccessType __get__CollectionAccessType_k__BackingField() const;
 
 
 // Properties
 
- ::JetBrains::Annotations::CollectionAccessType __declspec(property(get=get_CollectionAccessType, put=set_CollectionAccessType))  CollectionAccessType;
+ JetBrains::Annotations::CollectionAccessType __declspec(property(get=get_CollectionAccessType, put=set_CollectionAccessType))  CollectionAccessType;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "collectionAccessType", ty: "::JetBrains::Annotations::CollectionAccessType", modifiers: "", def_value: None }]
-explicit CollectionAccessAttribute(::JetBrains::Annotations::CollectionAccessType collectionAccessType) ;
+// Ctor Parameters [CppParam { name: "collectionAccessType", ty: "JetBrains::Annotations::CollectionAccessType", modifiers: "", def_value: None }]
+explicit CollectionAccessAttribute(JetBrains::Annotations::CollectionAccessType collectionAccessType) ;
 
 /// @brief Method .ctor addr 0x2d411e8 size 0x28 virtual false final false
- void _ctor(::JetBrains::Annotations::CollectionAccessType collectionAccessType) ;
+ void _ctor(JetBrains::Annotations::CollectionAccessType collectionAccessType) ;
 
 /// @brief Method get_CollectionAccessType addr 0x2d41210 size 0x8 virtual false final false
- ::JetBrains::Annotations::CollectionAccessType get_CollectionAccessType() ;
+ JetBrains::Annotations::CollectionAccessType get_CollectionAccessType() ;
 
 /// @brief Method set_CollectionAccessType addr 0x2d41218 size 0x8 virtual false final false
- void set_CollectionAccessType(::JetBrains::Annotations::CollectionAccessType value) ;
+ void set_CollectionAccessType(JetBrains::Annotations::CollectionAccessType value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def JetBrains::Annotations
-} // end anonymous namespace
-NEED_NO_BOX(::JetBrains::Annotations::CollectionAccessAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::JetBrains::Annotations::CollectionAccessAttribute, "JetBrains.Annotations", "CollectionAccessAttribute");
+NEED_NO_BOX(JetBrains::Annotations::CollectionAccessAttribute);
+DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::CollectionAccessAttribute, "JetBrains.Annotations", "CollectionAccessAttribute");

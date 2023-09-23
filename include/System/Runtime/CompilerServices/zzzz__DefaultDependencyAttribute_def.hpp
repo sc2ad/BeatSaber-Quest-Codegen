@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 namespace System::Runtime::CompilerServices {
 struct LoadHint;
 }
@@ -15,7 +14,7 @@ namespace System::Runtime::CompilerServices {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3404))
 // CS Name: System.Runtime.CompilerServices.DefaultDependencyAttribute
-class CORDL_TYPE DefaultDependencyAttribute : public ::System::Attribute {
+class CORDL_TYPE DefaultDependencyAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr DefaultDependencyAttribute(DefaultDependencyAttribute const& ) noexcep
 constexpr DefaultDependencyAttribute(DefaultDependencyAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DefaultDependencyAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit DefaultDependencyAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -51,25 +50,24 @@ constexpr explicit DefaultDependencyAttribute(void* ptr) noexcept : ::System::At
 
 // Fields
 
- ::System::Runtime::CompilerServices::LoadHint __declspec(property(get=__get_loadHint, put=__set_loadHint))  loadHint;
+ System::Runtime::CompilerServices::LoadHint __declspec(property(get=__get_loadHint, put=__set_loadHint))  loadHint;
 
-constexpr void __set_loadHint(::System::Runtime::CompilerServices::LoadHint value) ;
+constexpr void __set_loadHint(System::Runtime::CompilerServices::LoadHint value) ;
 
-constexpr ::System::Runtime::CompilerServices::LoadHint __get_loadHint() const;
+constexpr System::Runtime::CompilerServices::LoadHint __get_loadHint() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "loadHintArgument", ty: "::System::Runtime::CompilerServices::LoadHint", modifiers: "", def_value: None }]
-explicit DefaultDependencyAttribute(::System::Runtime::CompilerServices::LoadHint loadHintArgument) ;
+// Ctor Parameters [CppParam { name: "loadHintArgument", ty: "System::Runtime::CompilerServices::LoadHint", modifiers: "", def_value: None }]
+explicit DefaultDependencyAttribute(System::Runtime::CompilerServices::LoadHint loadHintArgument) ;
 
 /// @brief Method .ctor addr 0x23709dc size 0x28 virtual false final false
- void _ctor(::System::Runtime::CompilerServices::LoadHint loadHintArgument) ;
+ void _ctor(System::Runtime::CompilerServices::LoadHint loadHintArgument) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::CompilerServices
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::CompilerServices::DefaultDependencyAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::DefaultDependencyAttribute, "System.Runtime.CompilerServices", "DefaultDependencyAttribute");
+NEED_NO_BOX(System::Runtime::CompilerServices::DefaultDependencyAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::DefaultDependencyAttribute, "System.Runtime.CompilerServices", "DefaultDependencyAttribute");

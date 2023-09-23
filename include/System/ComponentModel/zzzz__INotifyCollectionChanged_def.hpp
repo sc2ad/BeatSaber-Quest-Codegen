@@ -1,6 +1,5 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace System::ComponentModel {
 class NotifyCollectionChangedEventHandler;
 }
@@ -27,15 +26,14 @@ constexpr explicit INotifyCollectionChanged(void* ptr) noexcept : ::cordl_intern
 // Methods
 
 /// @brief Method add_CollectionChanged addr 0x0 size 0xffffffffffffffff virtual true final false
- void add_CollectionChanged(::System::ComponentModel::NotifyCollectionChangedEventHandler value) ;
+ void add_CollectionChanged(System::ComponentModel::NotifyCollectionChangedEventHandler value) ;
 
 /// @brief Method remove_CollectionChanged addr 0x0 size 0xffffffffffffffff virtual true final false
- void remove_CollectionChanged(::System::ComponentModel::NotifyCollectionChangedEventHandler value) ;
+ void remove_CollectionChanged(System::ComponentModel::NotifyCollectionChangedEventHandler value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::INotifyCollectionChanged);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::INotifyCollectionChanged, "System.ComponentModel", "INotifyCollectionChanged");
+NEED_NO_BOX(System::ComponentModel::INotifyCollectionChanged);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::INotifyCollectionChanged, "System.ComponentModel", "INotifyCollectionChanged");

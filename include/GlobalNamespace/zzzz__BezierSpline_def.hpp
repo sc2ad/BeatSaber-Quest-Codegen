@@ -5,15 +5,14 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 struct BezierCurve;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Vector2;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Vector3;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -32,10 +31,10 @@ namespace GlobalNamespace {
 class BezierSpline;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__BezierSpline____c;
+class GlobalNamespace__BezierSpline____c;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__BezierSpline__ComputeControlPointsResults;
+struct GlobalNamespace__BezierSpline__ComputeControlPointsResults;
 }
 // Type: ::ComputeControlPointsResults
 namespace GlobalNamespace {
@@ -43,20 +42,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3978))
 // CS Name: BezierSpline::ComputeControlPointsResults
-struct CORDL_TYPE ____GlobalNamespace__BezierSpline__ComputeControlPointsResults : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__BezierSpline__ComputeControlPointsResults : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "p1", ty: "::ArrayW<float_t>", modifiers: "", def_value: None }, CppParam { name: "p2", ty: "::ArrayW<float_t>", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__BezierSpline__ComputeControlPointsResults(::ArrayW<float_t> p1, ::ArrayW<float_t> p2) noexcept;
+constexpr GlobalNamespace__BezierSpline__ComputeControlPointsResults(::ArrayW<float_t> p1, ::ArrayW<float_t> p2) noexcept;
 
 
-                    constexpr ____GlobalNamespace__BezierSpline__ComputeControlPointsResults(____GlobalNamespace__BezierSpline__ComputeControlPointsResults const&) = default;
-                    constexpr ____GlobalNamespace__BezierSpline__ComputeControlPointsResults(____GlobalNamespace__BezierSpline__ComputeControlPointsResults&&) = default;
-                    constexpr ____GlobalNamespace__BezierSpline__ComputeControlPointsResults& operator=(____GlobalNamespace__BezierSpline__ComputeControlPointsResults const& o) {
+                    constexpr GlobalNamespace__BezierSpline__ComputeControlPointsResults(GlobalNamespace__BezierSpline__ComputeControlPointsResults const&) = default;
+                    constexpr GlobalNamespace__BezierSpline__ComputeControlPointsResults(GlobalNamespace__BezierSpline__ComputeControlPointsResults&&) = default;
+                    constexpr GlobalNamespace__BezierSpline__ComputeControlPointsResults& operator=(GlobalNamespace__BezierSpline__ComputeControlPointsResults const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__BezierSpline__ComputeControlPointsResults& operator=(____GlobalNamespace__BezierSpline__ComputeControlPointsResults&& o) noexcept {
+                    constexpr GlobalNamespace__BezierSpline__ComputeControlPointsResults& operator=(GlobalNamespace__BezierSpline__ComputeControlPointsResults&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -69,7 +68,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x10};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__BezierSpline__ComputeControlPointsResults(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__BezierSpline__ComputeControlPointsResults(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -108,92 +107,92 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3979))
 // CS Name: BezierSpline::<>c
-class CORDL_TYPE ____GlobalNamespace__BezierSpline____c : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__BezierSpline____c : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____GlobalNamespace__BezierSpline____c() = default;
+virtual ~GlobalNamespace__BezierSpline____c() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__BezierSpline____c", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__BezierSpline____c(____GlobalNamespace__BezierSpline____c const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__BezierSpline____c", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__BezierSpline____c(GlobalNamespace__BezierSpline____c const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__BezierSpline____c", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__BezierSpline____c(____GlobalNamespace__BezierSpline____c&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__BezierSpline____c", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__BezierSpline____c(GlobalNamespace__BezierSpline____c&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__BezierSpline____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__BezierSpline____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__BezierSpline____c& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__BezierSpline____c& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__BezierSpline____c& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__BezierSpline____c& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__BezierSpline____c& operator=(____GlobalNamespace__BezierSpline____c&& o) noexcept = default;
-  constexpr ____GlobalNamespace__BezierSpline____c& operator=(____GlobalNamespace__BezierSpline____c const& o) noexcept = default;
+  constexpr GlobalNamespace__BezierSpline____c& operator=(GlobalNamespace__BezierSpline____c&& o) noexcept = default;
+  constexpr GlobalNamespace__BezierSpline____c& operator=(GlobalNamespace__BezierSpline____c const& o) noexcept = default;
                 
 
 
 // Fields
 
-static ::GlobalNamespace::____GlobalNamespace__BezierSpline____c __declspec(property(get=__get___9, put=__set___9))  __9;
+static GlobalNamespace::GlobalNamespace__BezierSpline____c __declspec(property(get=__get___9, put=__set___9))  __9;
 
-static void __set___9(::GlobalNamespace::____GlobalNamespace__BezierSpline____c value) ;
+static void __set___9(GlobalNamespace::GlobalNamespace__BezierSpline____c value) ;
 
-static ::GlobalNamespace::____GlobalNamespace__BezierSpline____c __get___9() ;
+static GlobalNamespace::GlobalNamespace__BezierSpline____c __get___9() ;
 
-static ::System::Comparison_1<::UnityEngine::Vector3> __declspec(property(get=__get___9__6_0, put=__set___9__6_0))  __9__6_0;
+static System::Comparison_1<UnityEngine::Vector3> __declspec(property(get=__get___9__6_0, put=__set___9__6_0))  __9__6_0;
 
-static void __set___9__6_0(::System::Comparison_1<::UnityEngine::Vector3> value) ;
+static void __set___9__6_0(System::Comparison_1<UnityEngine::Vector3> value) ;
 
-static ::System::Comparison_1<::UnityEngine::Vector3> __get___9__6_0() ;
+static System::Comparison_1<UnityEngine::Vector3> __get___9__6_0() ;
 
-static ::System::Func_2<::UnityEngine::Vector3,float_t> __declspec(property(get=__get___9__8_0, put=__set___9__8_0))  __9__8_0;
+static System::Func_2<UnityEngine::Vector3,float_t> __declspec(property(get=__get___9__8_0, put=__set___9__8_0))  __9__8_0;
 
-static void __set___9__8_0(::System::Func_2<::UnityEngine::Vector3,float_t> value) ;
+static void __set___9__8_0(System::Func_2<UnityEngine::Vector3,float_t> value) ;
 
-static ::System::Func_2<::UnityEngine::Vector3,float_t> __get___9__8_0() ;
+static System::Func_2<UnityEngine::Vector3,float_t> __get___9__8_0() ;
 
-static ::System::Func_2<::UnityEngine::Vector3,float_t> __declspec(property(get=__get___9__8_1, put=__set___9__8_1))  __9__8_1;
+static System::Func_2<UnityEngine::Vector3,float_t> __declspec(property(get=__get___9__8_1, put=__set___9__8_1))  __9__8_1;
 
-static void __set___9__8_1(::System::Func_2<::UnityEngine::Vector3,float_t> value) ;
+static void __set___9__8_1(System::Func_2<UnityEngine::Vector3,float_t> value) ;
 
-static ::System::Func_2<::UnityEngine::Vector3,float_t> __get___9__8_1() ;
+static System::Func_2<UnityEngine::Vector3,float_t> __get___9__8_1() ;
 
-static ::System::Func_2<::UnityEngine::Vector3,float_t> __declspec(property(get=__get___9__8_2, put=__set___9__8_2))  __9__8_2;
+static System::Func_2<UnityEngine::Vector3,float_t> __declspec(property(get=__get___9__8_2, put=__set___9__8_2))  __9__8_2;
 
-static void __set___9__8_2(::System::Func_2<::UnityEngine::Vector3,float_t> value) ;
+static void __set___9__8_2(System::Func_2<UnityEngine::Vector3,float_t> value) ;
 
-static ::System::Func_2<::UnityEngine::Vector3,float_t> __get___9__8_2() ;
+static System::Func_2<UnityEngine::Vector3,float_t> __get___9__8_2() ;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__BezierSpline____c() ;
+explicit GlobalNamespace__BezierSpline____c() ;
 
 /// @brief Method .ctor addr 0x20abc90 size 0x8 virtual false final false
  void _ctor() ;
 
 /// @brief Method <SortSourceData>b__6_0 addr 0x20abc98 size 0x30 virtual false final false
- int32_t _SortSourceData_b__6_0(::UnityEngine::Vector3 point1, ::UnityEngine::Vector3 point2) ;
+ int32_t _SortSourceData_b__6_0(UnityEngine::Vector3 point1, UnityEngine::Vector3 point2) ;
 
 /// @brief Method <ComputeControlPoints>b__8_0 addr 0x20abcc8 size 0x4 virtual false final false
- float_t _ComputeControlPoints_b__8_0(::UnityEngine::Vector3 p) ;
+ float_t _ComputeControlPoints_b__8_0(UnityEngine::Vector3 p) ;
 
 /// @brief Method <ComputeControlPoints>b__8_1 addr 0x20abccc size 0x8 virtual false final false
- float_t _ComputeControlPoints_b__8_1(::UnityEngine::Vector3 p) ;
+ float_t _ComputeControlPoints_b__8_1(UnityEngine::Vector3 p) ;
 
 /// @brief Method <ComputeControlPoints>b__8_2 addr 0x20abcd4 size 0x8 virtual false final false
- float_t _ComputeControlPoints_b__8_2(::UnityEngine::Vector3 p) ;
+ float_t _ComputeControlPoints_b__8_2(UnityEngine::Vector3 p) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -208,9 +207,9 @@ namespace GlobalNamespace {
 class CORDL_TYPE BezierSpline : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using __c = ::GlobalNamespace::____GlobalNamespace__BezierSpline____c;
+using __c = GlobalNamespace::GlobalNamespace__BezierSpline____c;
 
-using ComputeControlPointsResults = ::GlobalNamespace::____GlobalNamespace__BezierSpline__ComputeControlPointsResults;
+using ComputeControlPointsResults = GlobalNamespace::GlobalNamespace__BezierSpline__ComputeControlPointsResults;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -245,31 +244,31 @@ constexpr explicit BezierSpline(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 
 // Fields
 
- ::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve> __declspec(property(get=__get__segments, put=__set__segments))  _segments;
+ System::Collections::Generic::List_1<GlobalNamespace::BezierCurve> __declspec(property(get=__get__segments, put=__set__segments))  _segments;
 
-constexpr void __set__segments(::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve> value) ;
+constexpr void __set__segments(System::Collections::Generic::List_1<GlobalNamespace::BezierCurve> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve> __get__segments() const;
+constexpr System::Collections::Generic::List_1<GlobalNamespace::BezierCurve> __get__segments() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::Vector3> __declspec(property(get=__get__sourceDataPoints, put=__set__sourceDataPoints))  _sourceDataPoints;
+ System::Collections::Generic::List_1<UnityEngine::Vector3> __declspec(property(get=__get__sourceDataPoints, put=__set__sourceDataPoints))  _sourceDataPoints;
 
-constexpr void __set__sourceDataPoints(::System::Collections::Generic::List_1<::UnityEngine::Vector3> value) ;
+constexpr void __set__sourceDataPoints(System::Collections::Generic::List_1<UnityEngine::Vector3> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3> __get__sourceDataPoints() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::Vector3> __get__sourceDataPoints() const;
 
 
 // Properties
 
- ::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve> __declspec(property(get=get_segments))  segments;
+ System::Collections::Generic::List_1<GlobalNamespace::BezierCurve> __declspec(property(get=get_segments))  segments;
 
 
 // Methods
 
 /// @brief Method get_segments addr 0x20ab594 size 0x8 virtual false final false
- ::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve> get_segments() ;
+ System::Collections::Generic::List_1<GlobalNamespace::BezierCurve> get_segments() ;
 
 /// @brief Method AddPoint addr 0x20a6544 size 0xd8 virtual false final false
- void AddPoint(float_t distance, ::UnityEngine::Vector2 point) ;
+ void AddPoint(float_t distance, UnityEngine::Vector2 point) ;
 
 /// @brief Method SortSourceData addr 0x20ab59c size 0x100 virtual false final false
  void SortSourceData() ;
@@ -284,7 +283,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3> __get__
  void Clear() ;
 
 /// @brief Method ComputeControlPoints addr 0x20ab69c size 0x518 virtual false final false
- ::GlobalNamespace::____GlobalNamespace__BezierSpline__ComputeControlPointsResults ComputeControlPoints(::System::Collections::Generic::List_1<float_t> k) ;
+ GlobalNamespace::GlobalNamespace__BezierSpline__ComputeControlPointsResults ComputeControlPoints(System::Collections::Generic::List_1<float_t> k) ;
 
 // Ctor Parameters []
 explicit BezierSpline() ;
@@ -296,9 +295,8 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BezierSpline);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BezierSpline, "", "BezierSpline");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__BezierSpline____c);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__BezierSpline____c, "", "BezierSpline/<>c");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__BezierSpline__ComputeControlPointsResults, "", "BezierSpline/ComputeControlPointsResults");
+NEED_NO_BOX(GlobalNamespace::BezierSpline);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BezierSpline, "", "BezierSpline");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__BezierSpline____c);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__BezierSpline____c, "", "BezierSpline/<>c");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__BezierSpline__ComputeControlPointsResults, "", "BezierSpline/ComputeControlPointsResults");

@@ -2,18 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__SliderInteractionEffect_def.hpp"
 #include <cmath>
-namespace {
-namespace GlobalNamespace {
-struct SaberType;
-}
-namespace GlobalNamespace {
-class HapticFeedbackManager;
-}
 namespace GlobalNamespace {
 class IGamePause;
 }
 namespace Libraries::HM::HMLib::VR {
 class HapticPresetSO;
+}
+namespace GlobalNamespace {
+class HapticFeedbackManager;
+}
+namespace GlobalNamespace {
+struct SaberType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,7 +24,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4934))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4928))
 // CS Name: SliderHapticFeedbackInteractionEffect
-class CORDL_TYPE SliderHapticFeedbackInteractionEffect : public ::GlobalNamespace::SliderInteractionEffect {
+class CORDL_TYPE SliderHapticFeedbackInteractionEffect : public GlobalNamespace::SliderInteractionEffect {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr SliderHapticFeedbackInteractionEffect(SliderHapticFeedbackInteractionE
 constexpr SliderHapticFeedbackInteractionEffect(SliderHapticFeedbackInteractionEffect&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SliderHapticFeedbackInteractionEffect(void* ptr) noexcept : ::GlobalNamespace::SliderInteractionEffect(ptr) {
+constexpr explicit SliderHapticFeedbackInteractionEffect(void* ptr) noexcept : GlobalNamespace::SliderInteractionEffect(ptr) {
 }
 
 
@@ -61,32 +60,32 @@ constexpr explicit SliderHapticFeedbackInteractionEffect(void* ptr) noexcept : :
 
 // Fields
 
- ::Libraries::HM::HMLib::VR::HapticPresetSO __declspec(property(get=__get__hapticPreset, put=__set__hapticPreset))  _hapticPreset;
+ Libraries::HM::HMLib::VR::HapticPresetSO __declspec(property(get=__get__hapticPreset, put=__set__hapticPreset))  _hapticPreset;
 
-constexpr void __set__hapticPreset(::Libraries::HM::HMLib::VR::HapticPresetSO value) ;
+constexpr void __set__hapticPreset(Libraries::HM::HMLib::VR::HapticPresetSO value) ;
 
-constexpr ::Libraries::HM::HMLib::VR::HapticPresetSO __get__hapticPreset() const;
+constexpr Libraries::HM::HMLib::VR::HapticPresetSO __get__hapticPreset() const;
 
- ::GlobalNamespace::HapticFeedbackManager __declspec(property(get=__get__hapticFeedbackManager, put=__set__hapticFeedbackManager))  _hapticFeedbackManager;
+ GlobalNamespace::HapticFeedbackManager __declspec(property(get=__get__hapticFeedbackManager, put=__set__hapticFeedbackManager))  _hapticFeedbackManager;
 
-constexpr void __set__hapticFeedbackManager(::GlobalNamespace::HapticFeedbackManager value) ;
+constexpr void __set__hapticFeedbackManager(GlobalNamespace::HapticFeedbackManager value) ;
 
-constexpr ::GlobalNamespace::HapticFeedbackManager __get__hapticFeedbackManager() const;
+constexpr GlobalNamespace::HapticFeedbackManager __get__hapticFeedbackManager() const;
 
- ::GlobalNamespace::IGamePause __declspec(property(get=__get__gamePause, put=__set__gamePause))  _gamePause;
+ GlobalNamespace::IGamePause __declspec(property(get=__get__gamePause, put=__set__gamePause))  _gamePause;
 
-constexpr void __set__gamePause(::GlobalNamespace::IGamePause value) ;
+constexpr void __set__gamePause(GlobalNamespace::IGamePause value) ;
 
-constexpr ::GlobalNamespace::IGamePause __get__gamePause() const;
+constexpr GlobalNamespace::IGamePause __get__gamePause() const;
 
 /// @brief Field kVibrationSaberInteractionParamThreshold offset 0
 static constexpr float_t  kVibrationSaberInteractionParamThreshold{0.2};
 
- ::GlobalNamespace::SaberType __declspec(property(get=__get__saberType, put=__set__saberType))  _saberType;
+ GlobalNamespace::SaberType __declspec(property(get=__get__saberType, put=__set__saberType))  _saberType;
 
-constexpr void __set__saberType(::GlobalNamespace::SaberType value) ;
+constexpr void __set__saberType(GlobalNamespace::SaberType value) ;
 
-constexpr ::GlobalNamespace::SaberType __get__saberType() const;
+constexpr GlobalNamespace::SaberType __get__saberType() const;
 
 
 // Methods
@@ -116,6 +115,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SliderHapticFeedbackInteractionEffect);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SliderHapticFeedbackInteractionEffect, "", "SliderHapticFeedbackInteractionEffect");
+NEED_NO_BOX(GlobalNamespace::SliderHapticFeedbackInteractionEffect);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SliderHapticFeedbackInteractionEffect, "", "SliderHapticFeedbackInteractionEffect");

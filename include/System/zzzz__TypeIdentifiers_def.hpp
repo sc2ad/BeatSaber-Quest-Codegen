@@ -3,23 +3,22 @@
 #include "System/zzzz__TypeNames_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class TypeIdentifier;
+}
+namespace System {
+class TypeName;
 }
 namespace System {
 template<typename T>
 class IEquatable_1;
 }
-namespace System {
-class TypeName;
-}
 // Forward declare root types
 namespace System {
-class TypeIdentifiers;
+class System__TypeIdentifiers__Display;
 }
 namespace System {
-class ____System__TypeIdentifiers__Display;
+class TypeIdentifiers;
 }
 // Type: ::Display
 namespace System {
@@ -27,46 +26,46 @@ namespace System {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2628))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2630))
 // CS Name: System.TypeIdentifiers::Display
-class CORDL_TYPE ____System__TypeIdentifiers__Display : public ::System::____System__TypeNames__ATypeName {
+class CORDL_TYPE System__TypeIdentifiers__Display : public System::System__TypeNames__ATypeName {
 public:
 // Declarations
-/// @brief Convert operator to ::System::TypeIdentifier
-constexpr operator  ::System::TypeIdentifier() const noexcept;
+/// @brief Convert operator to System::TypeIdentifier
+constexpr operator  System::TypeIdentifier() const noexcept;
 
-/// @brief Convert operator to ::System::TypeName
-constexpr operator  ::System::TypeName() const noexcept;
+/// @brief Convert operator to System::TypeName
+constexpr operator  System::TypeName() const noexcept;
 
-/// @brief Convert operator to ::System::IEquatable_1<::System::TypeName>
-constexpr operator  ::System::IEquatable_1<::System::TypeName>() const noexcept;
+/// @brief Convert operator to System::IEquatable_1<System::TypeName>
+constexpr operator  System::IEquatable_1<System::TypeName>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____System__TypeIdentifiers__Display() = default;
+virtual ~System__TypeIdentifiers__Display() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__TypeIdentifiers__Display", modifiers: " const&", def_value: None }]
-constexpr ____System__TypeIdentifiers__Display(____System__TypeIdentifiers__Display const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__TypeIdentifiers__Display", modifiers: " const&", def_value: None }]
+constexpr System__TypeIdentifiers__Display(System__TypeIdentifiers__Display const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__TypeIdentifiers__Display", modifiers: "&&", def_value: None }]
-constexpr ____System__TypeIdentifiers__Display(____System__TypeIdentifiers__Display&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__TypeIdentifiers__Display", modifiers: "&&", def_value: None }]
+constexpr System__TypeIdentifiers__Display(System__TypeIdentifiers__Display&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__TypeIdentifiers__Display(void* ptr) noexcept : ::System::____System__TypeNames__ATypeName(ptr) {
+constexpr explicit System__TypeIdentifiers__Display(void* ptr) noexcept : System::System__TypeNames__ATypeName(ptr) {
 }
 
 
-  constexpr ____System__TypeIdentifiers__Display& operator=(std::nullptr_t) noexcept {
+  constexpr System__TypeIdentifiers__Display& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__TypeIdentifiers__Display& operator=(void* o) noexcept {
+  constexpr System__TypeIdentifiers__Display& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__TypeIdentifiers__Display& operator=(____System__TypeIdentifiers__Display&& o) noexcept = default;
-  constexpr ____System__TypeIdentifiers__Display& operator=(____System__TypeIdentifiers__Display const& o) noexcept = default;
+  constexpr System__TypeIdentifiers__Display& operator=(System__TypeIdentifiers__Display&& o) noexcept = default;
+  constexpr System__TypeIdentifiers__Display& operator=(System__TypeIdentifiers__Display const& o) noexcept = default;
                 
 
 
@@ -95,7 +94,7 @@ constexpr ::StringW __get_internal_name() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "displayName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit ____System__TypeIdentifiers__Display(::StringW displayName) ;
+explicit System__TypeIdentifiers__Display(::StringW displayName) ;
 
 /// @brief Method .ctor addr 0x2498478 size 0x8 virtual false final false
  void _ctor(::StringW displayName) ;
@@ -122,7 +121,7 @@ namespace System {
 class CORDL_TYPE TypeIdentifiers : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using Display = ::System::____System__TypeIdentifiers__Display;
+using Display = System::System__TypeIdentifiers__Display;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -158,14 +157,13 @@ constexpr explicit TypeIdentifiers(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 // Methods
 
 /// @brief Method FromDisplay addr 0x2498424 size 0x54 virtual false final false
-static ::System::TypeIdentifier FromDisplay(::StringW displayName) ;
+static System::TypeIdentifier FromDisplay(::StringW displayName) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::TypeIdentifiers);
-DEFINE_IL2CPP_ARG_TYPE(::System::TypeIdentifiers, "System", "TypeIdentifiers");
-NEED_NO_BOX(::System::____System__TypeIdentifiers__Display);
-DEFINE_IL2CPP_ARG_TYPE(::System::____System__TypeIdentifiers__Display, "System", "TypeIdentifiers/Display");
+NEED_NO_BOX(System::System__TypeIdentifiers__Display);
+DEFINE_IL2CPP_ARG_TYPE(System::System__TypeIdentifiers__Display, "System", "TypeIdentifiers/Display");
+NEED_NO_BOX(System::TypeIdentifiers);
+DEFINE_IL2CPP_ARG_TYPE(System::TypeIdentifiers, "System", "TypeIdentifiers");

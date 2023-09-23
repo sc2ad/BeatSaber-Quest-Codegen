@@ -3,7 +3,6 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 class AnimationCurve;
 }
@@ -23,7 +22,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4809))
 // CS Name: MenuNeonLightsGenerator
-class CORDL_TYPE MenuNeonLightsGenerator : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MenuNeonLightsGenerator : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr MenuNeonLightsGenerator(MenuNeonLightsGenerator const& ) noexcept = de
 constexpr MenuNeonLightsGenerator(MenuNeonLightsGenerator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MenuNeonLightsGenerator(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MenuNeonLightsGenerator(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -83,11 +82,11 @@ constexpr void __set__numberOfElements(int32_t value) ;
 
 constexpr int32_t __get__numberOfElements() const;
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get__intensityCurve, put=__set__intensityCurve))  _intensityCurve;
+ UnityEngine::AnimationCurve __declspec(property(get=__get__intensityCurve, put=__set__intensityCurve))  _intensityCurve;
 
-constexpr void __set__intensityCurve(::UnityEngine::AnimationCurve value) ;
+constexpr void __set__intensityCurve(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get__intensityCurve() const;
+constexpr UnityEngine::AnimationCurve __get__intensityCurve() const;
 
  float_t __declspec(property(get=__get__intensityMultiplier, put=__set__intensityMultiplier))  _intensityMultiplier;
 
@@ -95,11 +94,11 @@ constexpr void __set__intensityMultiplier(float_t value) ;
 
 constexpr float_t __get__intensityMultiplier() const;
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get__lengthCurve, put=__set__lengthCurve))  _lengthCurve;
+ UnityEngine::AnimationCurve __declspec(property(get=__get__lengthCurve, put=__set__lengthCurve))  _lengthCurve;
 
-constexpr void __set__lengthCurve(::UnityEngine::AnimationCurve value) ;
+constexpr void __set__lengthCurve(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get__lengthCurve() const;
+constexpr UnityEngine::AnimationCurve __get__lengthCurve() const;
 
  float_t __declspec(property(get=__get__lengthMultiplier, put=__set__lengthMultiplier))  _lengthMultiplier;
 
@@ -107,11 +106,11 @@ constexpr void __set__lengthMultiplier(float_t value) ;
 
 constexpr float_t __get__lengthMultiplier() const;
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get__widthCurve, put=__set__widthCurve))  _widthCurve;
+ UnityEngine::AnimationCurve __declspec(property(get=__get__widthCurve, put=__set__widthCurve))  _widthCurve;
 
-constexpr void __set__widthCurve(::UnityEngine::AnimationCurve value) ;
+constexpr void __set__widthCurve(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get__widthCurve() const;
+constexpr UnityEngine::AnimationCurve __get__widthCurve() const;
 
  float_t __declspec(property(get=__get__widthMultiplier, put=__set__widthMultiplier))  _widthMultiplier;
 
@@ -119,17 +118,17 @@ constexpr void __set__widthMultiplier(float_t value) ;
 
 constexpr float_t __get__widthMultiplier() const;
 
- ::GlobalNamespace::TubeBloomPrePassLight __declspec(property(get=__get__neonLightPrefab, put=__set__neonLightPrefab))  _neonLightPrefab;
+ GlobalNamespace::TubeBloomPrePassLight __declspec(property(get=__get__neonLightPrefab, put=__set__neonLightPrefab))  _neonLightPrefab;
 
-constexpr void __set__neonLightPrefab(::GlobalNamespace::TubeBloomPrePassLight value) ;
+constexpr void __set__neonLightPrefab(GlobalNamespace::TubeBloomPrePassLight value) ;
 
-constexpr ::GlobalNamespace::TubeBloomPrePassLight __get__neonLightPrefab() const;
+constexpr GlobalNamespace::TubeBloomPrePassLight __get__neonLightPrefab() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__afterSpawnRotation, put=__set__afterSpawnRotation))  _afterSpawnRotation;
+ UnityEngine::Vector3 __declspec(property(get=__get__afterSpawnRotation, put=__set__afterSpawnRotation))  _afterSpawnRotation;
 
-constexpr void __set__afterSpawnRotation(::UnityEngine::Vector3 value) ;
+constexpr void __set__afterSpawnRotation(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__afterSpawnRotation() const;
+constexpr UnityEngine::Vector3 __get__afterSpawnRotation() const;
 
 
 // Methods
@@ -144,6 +143,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MenuNeonLightsGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MenuNeonLightsGenerator, "", "MenuNeonLightsGenerator");
+NEED_NO_BOX(GlobalNamespace::MenuNeonLightsGenerator);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuNeonLightsGenerator, "", "MenuNeonLightsGenerator");

@@ -3,7 +3,6 @@
 #include "Org/BouncyCastle/Utilities/Zlib/zzzz__ZOutputStream_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Utilities::Zlib {
 class ZStream;
 }
@@ -15,10 +14,10 @@ class TlsCompression;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsDeflateCompression;
+class Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class ____Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream;
+class TlsDeflateCompression;
 }
 // Type: ::DeflateOutputStream
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -26,47 +25,47 @@ namespace Org::BouncyCastle::Crypto::Tls {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1297))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1295))
 // CS Name: Org.BouncyCastle.Crypto.Tls.TlsDeflateCompression::DeflateOutputStream
-class CORDL_TYPE ____Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream : public ::Org::BouncyCastle::Utilities::Zlib::ZOutputStream {
+class CORDL_TYPE Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream : public Org::BouncyCastle::Utilities::Zlib::ZOutputStream {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x60};
 
-virtual ~____Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream() = default;
+virtual ~Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream", modifiers: " const&", def_value: None }]
-constexpr ____Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream(____Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream", modifiers: " const&", def_value: None }]
+constexpr Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream(Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream", modifiers: "&&", def_value: None }]
-constexpr ____Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream(____Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream", modifiers: "&&", def_value: None }]
+constexpr Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream(Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream(void* ptr) noexcept : ::Org::BouncyCastle::Utilities::Zlib::ZOutputStream(ptr) {
+constexpr explicit Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream(void* ptr) noexcept : Org::BouncyCastle::Utilities::Zlib::ZOutputStream(ptr) {
 }
 
 
-  constexpr ____Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream& operator=(std::nullptr_t) noexcept {
+  constexpr Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream& operator=(void* o) noexcept {
+  constexpr Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream& operator=(____Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream&& o) noexcept = default;
-  constexpr ____Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream& operator=(____Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream const& o) noexcept = default;
+  constexpr Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream& operator=(Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream&& o) noexcept = default;
+  constexpr Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream& operator=(Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream const& o) noexcept = default;
                 
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "output", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "z", ty: "::Org::BouncyCastle::Utilities::Zlib::ZStream", modifiers: "", def_value: None }, CppParam { name: "compress", ty: "bool", modifiers: "", def_value: None }]
-explicit ____Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream(::System::IO::Stream output, ::Org::BouncyCastle::Utilities::Zlib::ZStream z, bool compress) ;
+// Ctor Parameters [CppParam { name: "output", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "z", ty: "Org::BouncyCastle::Utilities::Zlib::ZStream", modifiers: "", def_value: None }, CppParam { name: "compress", ty: "bool", modifiers: "", def_value: None }]
+explicit Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream(System::IO::Stream output, Org::BouncyCastle::Utilities::Zlib::ZStream z, bool compress) ;
 
 /// @brief Method .ctor addr 0xf15e98 size 0x38 virtual false final false
- void _ctor(::System::IO::Stream output, ::Org::BouncyCastle::Utilities::Zlib::ZStream z, bool compress) ;
+ void _ctor(System::IO::Stream output, Org::BouncyCastle::Utilities::Zlib::ZStream z, bool compress) ;
 
 /// @brief Method Flush addr 0xf16074 size 0x4 virtual true final false
  void Flush() ;
@@ -84,10 +83,10 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE TlsDeflateCompression : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using DeflateOutputStream = ::Org::BouncyCastle::Crypto::Tls::____Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream;
+using DeflateOutputStream = Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream;
 
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Tls::TlsCompression
-constexpr operator  ::Org::BouncyCastle::Crypto::Tls::TlsCompression() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Tls::TlsCompression
+constexpr operator  Org::BouncyCastle::Crypto::Tls::TlsCompression() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -134,17 +133,17 @@ static constexpr int32_t  LEVEL_SMALLEST{9};
 /// @brief Field LEVEL_DEFAULT offset 0
 static constexpr int32_t  LEVEL_DEFAULT{-1};
 
- ::Org::BouncyCastle::Utilities::Zlib::ZStream __declspec(property(get=__get_zIn, put=__set_zIn))  zIn;
+ Org::BouncyCastle::Utilities::Zlib::ZStream __declspec(property(get=__get_zIn, put=__set_zIn))  zIn;
 
-constexpr void __set_zIn(::Org::BouncyCastle::Utilities::Zlib::ZStream value) ;
+constexpr void __set_zIn(Org::BouncyCastle::Utilities::Zlib::ZStream value) ;
 
-constexpr ::Org::BouncyCastle::Utilities::Zlib::ZStream __get_zIn() const;
+constexpr Org::BouncyCastle::Utilities::Zlib::ZStream __get_zIn() const;
 
- ::Org::BouncyCastle::Utilities::Zlib::ZStream __declspec(property(get=__get_zOut, put=__set_zOut))  zOut;
+ Org::BouncyCastle::Utilities::Zlib::ZStream __declspec(property(get=__get_zOut, put=__set_zOut))  zOut;
 
-constexpr void __set_zOut(::Org::BouncyCastle::Utilities::Zlib::ZStream value) ;
+constexpr void __set_zOut(Org::BouncyCastle::Utilities::Zlib::ZStream value) ;
 
-constexpr ::Org::BouncyCastle::Utilities::Zlib::ZStream __get_zOut() const;
+constexpr Org::BouncyCastle::Utilities::Zlib::ZStream __get_zOut() const;
 
 
 // Methods
@@ -162,17 +161,16 @@ explicit TlsDeflateCompression(int32_t level) ;
  void _ctor(int32_t level) ;
 
 /// @brief Method Compress addr 0xf15e04 size 0x94 virtual true final false
- ::System::IO::Stream Compress(::System::IO::Stream output) ;
+ System::IO::Stream Compress(System::IO::Stream output) ;
 
 /// @brief Method Decompress addr 0xf15ed0 size 0x90 virtual true final false
- ::System::IO::Stream Decompress(::System::IO::Stream output) ;
+ System::IO::Stream Decompress(System::IO::Stream output) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression, "Org.BouncyCastle.Crypto.Tls", "TlsDeflateCompression");
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::____Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::____Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream, "Org.BouncyCastle.Crypto.Tls", "TlsDeflateCompression/DeflateOutputStream");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream, "Org.BouncyCastle.Crypto.Tls", "TlsDeflateCompression/DeflateOutputStream");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression, "Org.BouncyCastle.Crypto.Tls", "TlsDeflateCompression");

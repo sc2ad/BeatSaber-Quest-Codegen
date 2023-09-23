@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HAPI_StorageType;
@@ -75,38 +74,37 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field HAPI_STORAGETYPE_INVALID offset 0
-static ::HoudiniEngineUnity::HAPI_StorageType const HAPI_STORAGETYPE_INVALID;
+static HoudiniEngineUnity::HAPI_StorageType const HAPI_STORAGETYPE_INVALID;
 
 /// @brief Field HAPI_STORAGETYPE_INT offset 0
-static ::HoudiniEngineUnity::HAPI_StorageType const HAPI_STORAGETYPE_INT;
+static HoudiniEngineUnity::HAPI_StorageType const HAPI_STORAGETYPE_INT;
 
 /// @brief Field HAPI_STORAGETYPE_INT64 offset 0
-static ::HoudiniEngineUnity::HAPI_StorageType const HAPI_STORAGETYPE_INT64;
+static HoudiniEngineUnity::HAPI_StorageType const HAPI_STORAGETYPE_INT64;
 
 /// @brief Field HAPI_STORAGETYPE_FLOAT offset 0
-static ::HoudiniEngineUnity::HAPI_StorageType const HAPI_STORAGETYPE_FLOAT;
+static HoudiniEngineUnity::HAPI_StorageType const HAPI_STORAGETYPE_FLOAT;
 
 /// @brief Field HAPI_STORAGETYPE_FLOAT64 offset 0
-static ::HoudiniEngineUnity::HAPI_StorageType const HAPI_STORAGETYPE_FLOAT64;
+static HoudiniEngineUnity::HAPI_StorageType const HAPI_STORAGETYPE_FLOAT64;
 
 /// @brief Field HAPI_STORAGETYPE_STRING offset 0
-static ::HoudiniEngineUnity::HAPI_StorageType const HAPI_STORAGETYPE_STRING;
+static HoudiniEngineUnity::HAPI_StorageType const HAPI_STORAGETYPE_STRING;
 
 /// @brief Field HAPI_STORAGETYPE_UINT8 offset 0
-static ::HoudiniEngineUnity::HAPI_StorageType const HAPI_STORAGETYPE_UINT8;
+static HoudiniEngineUnity::HAPI_StorageType const HAPI_STORAGETYPE_UINT8;
 
 /// @brief Field HAPI_STORAGETYPE_INT8 offset 0
-static ::HoudiniEngineUnity::HAPI_StorageType const HAPI_STORAGETYPE_INT8;
+static HoudiniEngineUnity::HAPI_StorageType const HAPI_STORAGETYPE_INT8;
 
 /// @brief Field HAPI_STORAGETYPE_INT16 offset 0
-static ::HoudiniEngineUnity::HAPI_StorageType const HAPI_STORAGETYPE_INT16;
+static HoudiniEngineUnity::HAPI_StorageType const HAPI_STORAGETYPE_INT16;
 
 /// @brief Field HAPI_STORAGETYPE_MAX offset 0
-static ::HoudiniEngineUnity::HAPI_StorageType const HAPI_STORAGETYPE_MAX;
+static HoudiniEngineUnity::HAPI_StorageType const HAPI_STORAGETYPE_MAX;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_StorageType, "HoudiniEngineUnity", "HAPI_StorageType");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_StorageType, "HoudiniEngineUnity", "HAPI_StorageType");

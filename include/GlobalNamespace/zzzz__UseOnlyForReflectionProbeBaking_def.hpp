@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class UseOnlyForReflectionProbeBaking;
@@ -12,7 +11,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5955))
 // CS Name: UseOnlyForReflectionProbeBaking
-class CORDL_TYPE UseOnlyForReflectionProbeBaking : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE UseOnlyForReflectionProbeBaking : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr UseOnlyForReflectionProbeBaking(UseOnlyForReflectionProbeBaking const&
 constexpr UseOnlyForReflectionProbeBaking(UseOnlyForReflectionProbeBaking&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UseOnlyForReflectionProbeBaking(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit UseOnlyForReflectionProbeBaking(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -61,6 +60,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::UseOnlyForReflectionProbeBaking);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::UseOnlyForReflectionProbeBaking, "", "UseOnlyForReflectionProbeBaking");
+NEED_NO_BOX(GlobalNamespace::UseOnlyForReflectionProbeBaking);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UseOnlyForReflectionProbeBaking, "", "UseOnlyForReflectionProbeBaking");

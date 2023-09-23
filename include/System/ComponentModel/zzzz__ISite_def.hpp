@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class IServiceProvider;
 }
@@ -21,8 +20,8 @@ namespace System::ComponentModel {
 class CORDL_TYPE ISite : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IServiceProvider
-constexpr operator  ::System::IServiceProvider() const noexcept;
+/// @brief Convert operator to System::IServiceProvider
+constexpr operator  System::IServiceProvider() const noexcept;
 
 ~ISite() = default;
 
@@ -33,7 +32,7 @@ constexpr explicit ISite(void* ptr) noexcept : ::cordl_internals::InterfaceW(ptr
 
 // Properties
 
- ::System::ComponentModel::IContainer __declspec(property(get=get_Container))  Container;
+ System::ComponentModel::IContainer __declspec(property(get=get_Container))  Container;
 
  bool __declspec(property(get=get_DesignMode))  DesignMode;
 
@@ -43,7 +42,7 @@ constexpr explicit ISite(void* ptr) noexcept : ::cordl_internals::InterfaceW(ptr
 // Methods
 
 /// @brief Method get_Container addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::ComponentModel::IContainer get_Container() ;
+ System::ComponentModel::IContainer get_Container() ;
 
 /// @brief Method get_DesignMode addr 0x0 size 0xffffffffffffffff virtual true final false
  bool get_DesignMode() ;
@@ -55,6 +54,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::ISite);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::ISite, "System.ComponentModel", "ISite");
+NEED_NO_BOX(System::ComponentModel::ISite);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::ISite, "System.ComponentModel", "ISite");

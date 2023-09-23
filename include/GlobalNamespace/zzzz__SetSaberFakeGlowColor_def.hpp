@@ -1,21 +1,20 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace UnityEngine {
-struct Color;
-}
-namespace GlobalNamespace {
-class Parametric3SliceSpriteController;
-}
 namespace GlobalNamespace {
 class SaberTypeObject;
 }
 namespace GlobalNamespace {
 class ColorManager;
 }
+namespace UnityEngine {
+struct Color;
+}
 namespace GlobalNamespace {
 struct SaberType;
+}
+namespace GlobalNamespace {
+class Parametric3SliceSpriteController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,7 +26,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5396))
 // CS Name: SetSaberFakeGlowColor
-class CORDL_TYPE SetSaberFakeGlowColor : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SetSaberFakeGlowColor : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -42,7 +41,7 @@ constexpr SetSaberFakeGlowColor(SetSaberFakeGlowColor const& ) noexcept = defaul
 constexpr SetSaberFakeGlowColor(SetSaberFakeGlowColor&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SetSaberFakeGlowColor(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SetSaberFakeGlowColor(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -63,46 +62,46 @@ constexpr explicit SetSaberFakeGlowColor(void* ptr) noexcept : ::UnityEngine::Mo
 
 // Fields
 
- ::UnityEngine::Color __declspec(property(get=__get__tintColor, put=__set__tintColor))  _tintColor;
+ UnityEngine::Color __declspec(property(get=__get__tintColor, put=__set__tintColor))  _tintColor;
 
-constexpr void __set__tintColor(::UnityEngine::Color value) ;
+constexpr void __set__tintColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__tintColor() const;
+constexpr UnityEngine::Color __get__tintColor() const;
 
- ::GlobalNamespace::SaberTypeObject __declspec(property(get=__get__saberTypeObject, put=__set__saberTypeObject))  _saberTypeObject;
+ GlobalNamespace::SaberTypeObject __declspec(property(get=__get__saberTypeObject, put=__set__saberTypeObject))  _saberTypeObject;
 
-constexpr void __set__saberTypeObject(::GlobalNamespace::SaberTypeObject value) ;
+constexpr void __set__saberTypeObject(GlobalNamespace::SaberTypeObject value) ;
 
-constexpr ::GlobalNamespace::SaberTypeObject __get__saberTypeObject() const;
+constexpr GlobalNamespace::SaberTypeObject __get__saberTypeObject() const;
 
- ::GlobalNamespace::Parametric3SliceSpriteController __declspec(property(get=__get__parametric3SliceSprite, put=__set__parametric3SliceSprite))  _parametric3SliceSprite;
+ GlobalNamespace::Parametric3SliceSpriteController __declspec(property(get=__get__parametric3SliceSprite, put=__set__parametric3SliceSprite))  _parametric3SliceSprite;
 
-constexpr void __set__parametric3SliceSprite(::GlobalNamespace::Parametric3SliceSpriteController value) ;
+constexpr void __set__parametric3SliceSprite(GlobalNamespace::Parametric3SliceSpriteController value) ;
 
-constexpr ::GlobalNamespace::Parametric3SliceSpriteController __get__parametric3SliceSprite() const;
+constexpr GlobalNamespace::Parametric3SliceSpriteController __get__parametric3SliceSprite() const;
 
- ::GlobalNamespace::ColorManager __declspec(property(get=__get__colorManager, put=__set__colorManager))  _colorManager;
+ GlobalNamespace::ColorManager __declspec(property(get=__get__colorManager, put=__set__colorManager))  _colorManager;
 
-constexpr void __set__colorManager(::GlobalNamespace::ColorManager value) ;
+constexpr void __set__colorManager(GlobalNamespace::ColorManager value) ;
 
-constexpr ::GlobalNamespace::ColorManager __get__colorManager() const;
+constexpr GlobalNamespace::ColorManager __get__colorManager() const;
 
- ::GlobalNamespace::SaberType __declspec(property(get=__get__saberType, put=__set__saberType))  _saberType;
+ GlobalNamespace::SaberType __declspec(property(get=__get__saberType, put=__set__saberType))  _saberType;
 
-constexpr void __set__saberType(::GlobalNamespace::SaberType value) ;
+constexpr void __set__saberType(GlobalNamespace::SaberType value) ;
 
-constexpr ::GlobalNamespace::SaberType __get__saberType() const;
+constexpr GlobalNamespace::SaberType __get__saberType() const;
 
 
 // Properties
 
- ::GlobalNamespace::SaberType __declspec(property(put=set_saberType))  saberType;
+ GlobalNamespace::SaberType __declspec(property(put=set_saberType))  saberType;
 
 
 // Methods
 
 /// @brief Method set_saberType addr 0x210c6f0 size 0xc virtual false final false
- void set_saberType(::GlobalNamespace::SaberType value) ;
+ void set_saberType(GlobalNamespace::SaberType value) ;
 
 /// @brief Method Start addr 0x210cc2c size 0x80 virtual false final false
  void Start() ;
@@ -120,6 +119,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SetSaberFakeGlowColor);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SetSaberFakeGlowColor, "", "SetSaberFakeGlowColor");
+NEED_NO_BOX(GlobalNamespace::SetSaberFakeGlowColor);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetSaberFakeGlowColor, "", "SetSaberFakeGlowColor");

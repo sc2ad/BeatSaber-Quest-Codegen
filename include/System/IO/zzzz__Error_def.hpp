@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System {
 class Exception;
 }
@@ -52,21 +51,20 @@ constexpr explicit Error(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr)
 // Methods
 
 /// @brief Method GetStreamIsClosed addr 0x238ee10 size 0x78 virtual false final false
-static ::System::Exception GetStreamIsClosed() ;
+static System::Exception GetStreamIsClosed() ;
 
 /// @brief Method GetEndOfFile addr 0x238ee88 size 0x80 virtual false final false
-static ::System::Exception GetEndOfFile() ;
+static System::Exception GetEndOfFile() ;
 
 /// @brief Method GetReadNotSupported addr 0x238ef08 size 0x74 virtual false final false
-static ::System::Exception GetReadNotSupported() ;
+static System::Exception GetReadNotSupported() ;
 
 /// @brief Method GetWriteNotSupported addr 0x238ef7c size 0x74 virtual false final false
-static ::System::Exception GetWriteNotSupported() ;
+static System::Exception GetWriteNotSupported() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::IO
-} // end anonymous namespace
-NEED_NO_BOX(::System::IO::Error);
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::Error, "System.IO", "Error");
+NEED_NO_BOX(System::IO::Error);
+DEFINE_IL2CPP_ARG_TYPE(System::IO::Error, "System.IO", "Error");

@@ -2,21 +2,20 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace GlobalNamespace {
+class LevelCompletionResults;
+}
 namespace GlobalNamespace {
 class IGameplayRpcManager;
 }
 namespace GlobalNamespace {
-class LevelCompletionResults;
+struct GlobalNamespace__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState;
 }
 namespace GlobalNamespace {
 class IMultiplayerLevelEndActionsListener;
 }
 namespace GlobalNamespace {
 class LobbyPlayerPermissionsModel;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -64,23 +63,23 @@ constexpr explicit MultiplayerLocalPlayerDisconnectHelper(void* ptr) noexcept : 
 
 // Fields
 
- ::GlobalNamespace::IGameplayRpcManager __declspec(property(get=__get__gameplayRpcManager, put=__set__gameplayRpcManager))  _gameplayRpcManager;
+ GlobalNamespace::IGameplayRpcManager __declspec(property(get=__get__gameplayRpcManager, put=__set__gameplayRpcManager))  _gameplayRpcManager;
 
-constexpr void __set__gameplayRpcManager(::GlobalNamespace::IGameplayRpcManager value) ;
+constexpr void __set__gameplayRpcManager(GlobalNamespace::IGameplayRpcManager value) ;
 
-constexpr ::GlobalNamespace::IGameplayRpcManager __get__gameplayRpcManager() const;
+constexpr GlobalNamespace::IGameplayRpcManager __get__gameplayRpcManager() const;
 
- ::GlobalNamespace::IMultiplayerLevelEndActionsListener __declspec(property(get=__get__multiplayerLevelEndActions, put=__set__multiplayerLevelEndActions))  _multiplayerLevelEndActions;
+ GlobalNamespace::IMultiplayerLevelEndActionsListener __declspec(property(get=__get__multiplayerLevelEndActions, put=__set__multiplayerLevelEndActions))  _multiplayerLevelEndActions;
 
-constexpr void __set__multiplayerLevelEndActions(::GlobalNamespace::IMultiplayerLevelEndActionsListener value) ;
+constexpr void __set__multiplayerLevelEndActions(GlobalNamespace::IMultiplayerLevelEndActionsListener value) ;
 
-constexpr ::GlobalNamespace::IMultiplayerLevelEndActionsListener __get__multiplayerLevelEndActions() const;
+constexpr GlobalNamespace::IMultiplayerLevelEndActionsListener __get__multiplayerLevelEndActions() const;
 
- ::GlobalNamespace::LobbyPlayerPermissionsModel __declspec(property(get=__get__lobbyPlayerPermissionsModel, put=__set__lobbyPlayerPermissionsModel))  _lobbyPlayerPermissionsModel;
+ GlobalNamespace::LobbyPlayerPermissionsModel __declspec(property(get=__get__lobbyPlayerPermissionsModel, put=__set__lobbyPlayerPermissionsModel))  _lobbyPlayerPermissionsModel;
 
-constexpr void __set__lobbyPlayerPermissionsModel(::GlobalNamespace::LobbyPlayerPermissionsModel value) ;
+constexpr void __set__lobbyPlayerPermissionsModel(GlobalNamespace::LobbyPlayerPermissionsModel value) ;
 
-constexpr ::GlobalNamespace::LobbyPlayerPermissionsModel __get__lobbyPlayerPermissionsModel() const;
+constexpr GlobalNamespace::LobbyPlayerPermissionsModel __get__lobbyPlayerPermissionsModel() const;
 
 /// @brief Field kDisconnectLabel offset 0
 static constexpr ::ConstString  kDisconnectLabel{u"BUTTON_DISCONNECT"};
@@ -92,7 +91,7 @@ static constexpr ::ConstString  kEndGameLabel{u"BUTTON_END_GAME"};
 // Methods
 
 /// @brief Method Disconnect addr 0x20e7b78 size 0x210 virtual false final false
- void Disconnect(::GlobalNamespace::____GlobalNamespace__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState playerLevelEndState, ::GlobalNamespace::LevelCompletionResults levelCompletionResults) ;
+ void Disconnect(GlobalNamespace::GlobalNamespace__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState playerLevelEndState, GlobalNamespace::LevelCompletionResults levelCompletionResults) ;
 
 /// @brief Method ResolveDisconnectButtonString addr 0x20e9b00 size 0x70 virtual false final false
  ::StringW ResolveDisconnectButtonString() ;
@@ -107,6 +106,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper, "", "MultiplayerLocalPlayerDisconnectHelper");
+NEED_NO_BOX(GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper, "", "MultiplayerLocalPlayerDisconnectHelper");

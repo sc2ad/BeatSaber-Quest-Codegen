@@ -1,18 +1,17 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cmath>
-namespace {
-namespace UnityEngine::UIElements {
-struct ____UnityEngine__UIElements__MeshGenerationContextUtils__RectangleParams;
-}
 namespace UnityEngine::UIElements {
 class ITextHandle;
 }
 namespace UnityEngine::UIElements {
-struct ____UnityEngine__UIElements__MeshGenerationContextUtils__TextParams;
+struct UnityEngine__UIElements__MeshGenerationContextUtils__TextParams;
 }
 namespace System {
 class Action;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__MeshGenerationContextUtils__RectangleParams;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -37,18 +36,17 @@ constexpr explicit IStylePainter(void* ptr) noexcept : ::cordl_internals::Interf
 // Methods
 
 /// @brief Method DrawText addr 0x0 size 0xffffffffffffffff virtual true final false
- void DrawText(::UnityEngine::UIElements::____UnityEngine__UIElements__MeshGenerationContextUtils__TextParams textParams, ::UnityEngine::UIElements::ITextHandle handle, float_t pixelsPerPoint) ;
+ void DrawText(UnityEngine::UIElements::UnityEngine__UIElements__MeshGenerationContextUtils__TextParams textParams, UnityEngine::UIElements::ITextHandle handle, float_t pixelsPerPoint) ;
 
 /// @brief Method DrawRectangle addr 0x0 size 0xffffffffffffffff virtual true final false
- void DrawRectangle(::UnityEngine::UIElements::____UnityEngine__UIElements__MeshGenerationContextUtils__RectangleParams rectParams) ;
+ void DrawRectangle(UnityEngine::UIElements::UnityEngine__UIElements__MeshGenerationContextUtils__RectangleParams rectParams) ;
 
 /// @brief Method DrawImmediate addr 0x0 size 0xffffffffffffffff virtual true final false
- void DrawImmediate(::System::Action callback, bool cullingEnabled) ;
+ void DrawImmediate(System::Action callback, bool cullingEnabled) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::IStylePainter);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::IStylePainter, "UnityEngine.UIElements", "IStylePainter");
+NEED_NO_BOX(UnityEngine::UIElements::IStylePainter);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::IStylePainter, "UnityEngine.UIElements", "IStylePainter");

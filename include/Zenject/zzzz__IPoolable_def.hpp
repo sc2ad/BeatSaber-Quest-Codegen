@@ -1,6 +1,5 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
 // Forward declare root types
 namespace Zenject {
 class IPoolable;
@@ -33,6 +32,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::IPoolable);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::IPoolable, "Zenject", "IPoolable");
+NEED_NO_BOX(Zenject::IPoolable);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::IPoolable, "Zenject", "IPoolable");

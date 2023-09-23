@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace GlobalNamespace {
 struct SaberType;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5391))
 // CS Name: SaberTypeObject
-class CORDL_TYPE SaberTypeObject : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SaberTypeObject : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr SaberTypeObject(SaberTypeObject const& ) noexcept = default;
 constexpr SaberTypeObject(SaberTypeObject&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SaberTypeObject(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SaberTypeObject(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -51,22 +50,22 @@ constexpr explicit SaberTypeObject(void* ptr) noexcept : ::UnityEngine::MonoBeha
 
 // Fields
 
- ::GlobalNamespace::SaberType __declspec(property(get=__get__saberType, put=__set__saberType))  _saberType;
+ GlobalNamespace::SaberType __declspec(property(get=__get__saberType, put=__set__saberType))  _saberType;
 
-constexpr void __set__saberType(::GlobalNamespace::SaberType value) ;
+constexpr void __set__saberType(GlobalNamespace::SaberType value) ;
 
-constexpr ::GlobalNamespace::SaberType __get__saberType() const;
+constexpr GlobalNamespace::SaberType __get__saberType() const;
 
 
 // Properties
 
- ::GlobalNamespace::SaberType __declspec(property(get=get_saberType))  saberType;
+ GlobalNamespace::SaberType __declspec(property(get=get_saberType))  saberType;
 
 
 // Methods
 
 /// @brief Method get_saberType addr 0x210c9d8 size 0x8 virtual false final false
- ::GlobalNamespace::SaberType get_saberType() ;
+ GlobalNamespace::SaberType get_saberType() ;
 
 // Ctor Parameters []
 explicit SaberTypeObject() ;
@@ -78,6 +77,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SaberTypeObject);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SaberTypeObject, "", "SaberTypeObject");
+NEED_NO_BOX(GlobalNamespace::SaberTypeObject);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberTypeObject, "", "SaberTypeObject");

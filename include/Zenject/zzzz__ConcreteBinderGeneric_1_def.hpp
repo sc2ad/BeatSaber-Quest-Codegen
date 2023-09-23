@@ -4,39 +4,38 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
-namespace {
-namespace System {
-template<typename T>
-class Action_1;
+namespace Zenject {
+class ConventionSelectTypesBinder;
+}
+namespace Zenject {
+class IProvider;
 }
 namespace Zenject {
 template<typename TContract>
 class FromBinderGeneric_1;
 }
 namespace Zenject {
-class ConventionSelectTypesBinder;
+class DiContainer;
+}
+namespace Zenject {
+class BindInfo;
+}
+namespace System {
+class Type;
+}
+namespace Zenject {
+class BindStatement;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace Zenject {
-class IProvider;
-}
-namespace Zenject {
-class BindInfo;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
 class FromBinderNonGeneric;
 }
-namespace Zenject {
-class BindStatement;
-}
 namespace System {
-class Type;
+template<typename T>
+class Action_1;
 }
 namespace System {
 struct Int32Enum;
@@ -51,7 +50,7 @@ class ConcreteBinderGeneric_1;
 }
 namespace Zenject {
 template<typename TContract>
-class ____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0;
+class Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0;
 }
 namespace Zenject {
 template<::cordl_internals::il2cpp_reference_type TContract>
@@ -59,7 +58,7 @@ class ConcreteBinderGeneric_1<TContract>;
 }
 namespace Zenject {
 template<>
-class ConcreteBinderGeneric_1<::System::Int32Enum>;
+class ConcreteBinderGeneric_1<System::Int32Enum>;
 }
 namespace Zenject {
 template<>
@@ -67,15 +66,15 @@ class ConcreteBinderGeneric_1<float_t>;
 }
 namespace Zenject {
 template<::cordl_internals::il2cpp_reference_type TContract>
-class ____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0<TContract>;
+class Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0<TContract>;
 }
 namespace Zenject {
 template<>
-class ____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0<::System::Int32Enum>;
+class Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0<System::Int32Enum>;
 }
 namespace Zenject {
 template<>
-class ____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0<float_t>;
+class Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0<float_t>;
 }
 // Type: ::<>c__DisplayClass5_0
 // Type: Zenject::ConcreteBinderGeneric`1
@@ -87,65 +86,65 @@ template<::cordl_internals::il2cpp_reference_type TContract>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10612))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10612), inst: 2 })
 // CS Name: Zenject.ConcreteBinderGeneric`1::<>c__DisplayClass5_0
-class CORDL_TYPE ____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0<TContract> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0<TContract> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0() = default;
+virtual ~Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0", modifiers: " const&", def_value: None }]
-constexpr ____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0(____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0", modifiers: " const&", def_value: None }]
+constexpr Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0(Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0", modifiers: "&&", def_value: None }]
-constexpr ____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0(____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0", modifiers: "&&", def_value: None }]
+constexpr Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0(Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0& operator=(std::nullptr_t) noexcept {
+  constexpr Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0& operator=(void* o) noexcept {
+  constexpr Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0& operator=(____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0&& o) noexcept = default;
-  constexpr ____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0& operator=(____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0 const& o) noexcept = default;
+  constexpr Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0& operator=(Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0&& o) noexcept = default;
+  constexpr Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0& operator=(Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Type __declspec(property(get=__get_concreteType, put=__set_concreteType))  concreteType;
+ System::Type __declspec(property(get=__get_concreteType, put=__set_concreteType))  concreteType;
 
-constexpr void __set_concreteType(::System::Type value) ;
+constexpr void __set_concreteType(System::Type value) ;
 
-constexpr ::System::Type __get_concreteType() const;
+constexpr System::Type __get_concreteType() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0() ;
+explicit Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
 /// @brief Method <To>b__1 addr 0x0 size 0xffffffffffffffff virtual false final false
- bool _To_b__1(::System::Type contractType) ;
+ bool _To_b__1(System::Type contractType) ;
 
 /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
 static ::bs_hook::Il2CppWrapperType __zenCreate(::ArrayW<::bs_hook::Il2CppWrapperType> P_0) ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -159,65 +158,65 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10612))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10612), inst: 374 })
 // CS Name: Zenject.ConcreteBinderGeneric`1::<>c__DisplayClass5_0
-class CORDL_TYPE ____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0<float_t> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0<float_t> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0() = default;
+virtual ~Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0", modifiers: " const&", def_value: None }]
-constexpr ____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0(____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0", modifiers: " const&", def_value: None }]
+constexpr Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0(Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0", modifiers: "&&", def_value: None }]
-constexpr ____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0(____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0", modifiers: "&&", def_value: None }]
+constexpr Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0(Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0& operator=(std::nullptr_t) noexcept {
+  constexpr Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0& operator=(void* o) noexcept {
+  constexpr Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0& operator=(____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0&& o) noexcept = default;
-  constexpr ____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0& operator=(____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0 const& o) noexcept = default;
+  constexpr Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0& operator=(Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0&& o) noexcept = default;
+  constexpr Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0& operator=(Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Type __declspec(property(get=__get_concreteType, put=__set_concreteType))  concreteType;
+ System::Type __declspec(property(get=__get_concreteType, put=__set_concreteType))  concreteType;
 
-constexpr void __set_concreteType(::System::Type value) ;
+constexpr void __set_concreteType(System::Type value) ;
 
-constexpr ::System::Type __get_concreteType() const;
+constexpr System::Type __get_concreteType() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0() ;
+explicit Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
 /// @brief Method <To>b__1 addr 0x0 size 0xffffffffffffffff virtual false final false
- bool _To_b__1(::System::Type contractType) ;
+ bool _To_b__1(System::Type contractType) ;
 
 /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
 static ::bs_hook::Il2CppWrapperType __zenCreate(::ArrayW<::bs_hook::Il2CppWrapperType> P_0) ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -231,65 +230,65 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10612))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10612), inst: 4825 })
 // CS Name: Zenject.ConcreteBinderGeneric`1::<>c__DisplayClass5_0
-class CORDL_TYPE ____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0<::System::Int32Enum> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0<System::Int32Enum> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0() = default;
+virtual ~Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0", modifiers: " const&", def_value: None }]
-constexpr ____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0(____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0", modifiers: " const&", def_value: None }]
+constexpr Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0(Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0", modifiers: "&&", def_value: None }]
-constexpr ____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0(____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0", modifiers: "&&", def_value: None }]
+constexpr Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0(Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0& operator=(std::nullptr_t) noexcept {
+  constexpr Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0& operator=(void* o) noexcept {
+  constexpr Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0& operator=(____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0&& o) noexcept = default;
-  constexpr ____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0& operator=(____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0 const& o) noexcept = default;
+  constexpr Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0& operator=(Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0&& o) noexcept = default;
+  constexpr Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0& operator=(Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Type __declspec(property(get=__get_concreteType, put=__set_concreteType))  concreteType;
+ System::Type __declspec(property(get=__get_concreteType, put=__set_concreteType))  concreteType;
 
-constexpr void __set_concreteType(::System::Type value) ;
+constexpr void __set_concreteType(System::Type value) ;
 
-constexpr ::System::Type __get_concreteType() const;
+constexpr System::Type __get_concreteType() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0() ;
+explicit Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
 /// @brief Method <To>b__1 addr 0x0 size 0xffffffffffffffff virtual false final false
- bool _To_b__1(::System::Type contractType) ;
+ bool _To_b__1(System::Type contractType) ;
 
 /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
 static ::bs_hook::Il2CppWrapperType __zenCreate(::ArrayW<::bs_hook::Il2CppWrapperType> P_0) ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -300,13 +299,13 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10613)), TypeDefinitionIndex(TypeDefinitionIndex(10856)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10856), inst: 1907 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10856), inst: 1907 }), TypeDefinitionIndex(TypeDefinitionIndex(10856))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10613), inst: 2 })
 // CS Name: Zenject.ConcreteBinderGeneric`1
-class CORDL_TYPE ConcreteBinderGeneric_1<TContract> : public ::Zenject::FromBinderGeneric_1<TContract> {
+class CORDL_TYPE ConcreteBinderGeneric_1<TContract> : public Zenject::FromBinderGeneric_1<TContract> {
 public:
 // Declarations
-using __c__DisplayClass5_0 = ::Zenject::____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0<TContract>;
+using __c__DisplayClass5_0 = Zenject::Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0<TContract>;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -320,7 +319,7 @@ constexpr ConcreteBinderGeneric_1(ConcreteBinderGeneric_1 const& ) noexcept = de
 constexpr ConcreteBinderGeneric_1(ConcreteBinderGeneric_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ConcreteBinderGeneric_1(void* ptr) noexcept : ::Zenject::FromBinderGeneric_1<TContract>(ptr) {
+constexpr explicit ConcreteBinderGeneric_1(void* ptr) noexcept : Zenject::FromBinderGeneric_1<TContract>(ptr) {
 }
 
 
@@ -341,33 +340,33 @@ constexpr explicit ConcreteBinderGeneric_1(void* ptr) noexcept : ::Zenject::From
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindContainer", ty: "::Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "::Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "bindStatement", ty: "::Zenject::BindStatement", modifiers: "", def_value: None }]
-explicit ConcreteBinderGeneric_1(::Zenject::DiContainer bindContainer, ::Zenject::BindInfo bindInfo, ::Zenject::BindStatement bindStatement) ;
+// Ctor Parameters [CppParam { name: "bindContainer", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "bindStatement", ty: "Zenject::BindStatement", modifiers: "", def_value: None }]
+explicit ConcreteBinderGeneric_1(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::BindStatement bindStatement) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::Zenject::DiContainer bindContainer, ::Zenject::BindInfo bindInfo, ::Zenject::BindStatement bindStatement) ;
+ void _ctor(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::BindStatement bindStatement) ;
 
 /// @brief Method ToSelf addr 0x0 size 0xffffffffffffffff virtual false final false
- ::Zenject::FromBinderGeneric_1<TContract> ToSelf() ;
+ Zenject::FromBinderGeneric_1<TContract> ToSelf() ;
 
 /// @brief Method To addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TConcrete>
- ::Zenject::FromBinderGeneric_1<TConcrete> To() ;
+ Zenject::FromBinderGeneric_1<TConcrete> To() ;
 
 /// @brief Method To addr 0x0 size 0xffffffffffffffff virtual false final false
- ::Zenject::FromBinderNonGeneric To(::ArrayW<::System::Type> concreteTypes) ;
+ Zenject::FromBinderNonGeneric To(::ArrayW<System::Type> concreteTypes) ;
 
 /// @brief Method To addr 0x0 size 0xffffffffffffffff virtual false final false
- ::Zenject::FromBinderNonGeneric To(::System::Collections::Generic::IEnumerable_1<::System::Type> concreteTypes) ;
+ Zenject::FromBinderNonGeneric To(System::Collections::Generic::IEnumerable_1<System::Type> concreteTypes) ;
 
 /// @brief Method To addr 0x0 size 0xffffffffffffffff virtual false final false
- ::Zenject::FromBinderNonGeneric To(::System::Action_1<::Zenject::ConventionSelectTypesBinder> generator) ;
+ Zenject::FromBinderNonGeneric To(System::Action_1<Zenject::ConventionSelectTypesBinder> generator) ;
 
 /// @brief Method <ToSelf>b__1_0 addr 0x0 size 0xffffffffffffffff virtual false final false
- ::Zenject::IProvider _ToSelf_b__1_0(::Zenject::DiContainer container, ::System::Type type) ;
+ Zenject::IProvider _ToSelf_b__1_0(Zenject::DiContainer container, System::Type type) ;
 
 /// @brief Method <To>b__5_0 addr 0x0 size 0xffffffffffffffff virtual false final false
- bool _To_b__5_0(::System::Type concreteType) ;
+ bool _To_b__5_0(System::Type concreteType) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -378,13 +377,13 @@ namespace Zenject {
 // cpp template
 template<>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10856), inst: 1907 }), TypeDefinitionIndex(TypeDefinitionIndex(10856)), TypeDefinitionIndex(TypeDefinitionIndex(10613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10613)), TypeDefinitionIndex(TypeDefinitionIndex(10856)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10856), inst: 1907 })}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10613), inst: 374 })
 // CS Name: Zenject.ConcreteBinderGeneric`1
-class CORDL_TYPE ConcreteBinderGeneric_1<float_t> : public ::Zenject::FromBinderGeneric_1<float_t> {
+class CORDL_TYPE ConcreteBinderGeneric_1<float_t> : public Zenject::FromBinderGeneric_1<float_t> {
 public:
 // Declarations
-using __c__DisplayClass5_0 = ::Zenject::____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0<float_t>;
+using __c__DisplayClass5_0 = Zenject::Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0<float_t>;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -398,7 +397,7 @@ constexpr ConcreteBinderGeneric_1(ConcreteBinderGeneric_1 const& ) noexcept = de
 constexpr ConcreteBinderGeneric_1(ConcreteBinderGeneric_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ConcreteBinderGeneric_1(void* ptr) noexcept : ::Zenject::FromBinderGeneric_1<float_t>(ptr) {
+constexpr explicit ConcreteBinderGeneric_1(void* ptr) noexcept : Zenject::FromBinderGeneric_1<float_t>(ptr) {
 }
 
 
@@ -419,33 +418,33 @@ constexpr explicit ConcreteBinderGeneric_1(void* ptr) noexcept : ::Zenject::From
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindContainer", ty: "::Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "::Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "bindStatement", ty: "::Zenject::BindStatement", modifiers: "", def_value: None }]
-explicit ConcreteBinderGeneric_1(::Zenject::DiContainer bindContainer, ::Zenject::BindInfo bindInfo, ::Zenject::BindStatement bindStatement) ;
+// Ctor Parameters [CppParam { name: "bindContainer", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "bindStatement", ty: "Zenject::BindStatement", modifiers: "", def_value: None }]
+explicit ConcreteBinderGeneric_1(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::BindStatement bindStatement) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::Zenject::DiContainer bindContainer, ::Zenject::BindInfo bindInfo, ::Zenject::BindStatement bindStatement) ;
+ void _ctor(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::BindStatement bindStatement) ;
 
 /// @brief Method ToSelf addr 0x0 size 0xffffffffffffffff virtual false final false
- ::Zenject::FromBinderGeneric_1<float_t> ToSelf() ;
+ Zenject::FromBinderGeneric_1<float_t> ToSelf() ;
 
 /// @brief Method To addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TConcrete>
- ::Zenject::FromBinderGeneric_1<TConcrete> To() ;
+ Zenject::FromBinderGeneric_1<TConcrete> To() ;
 
 /// @brief Method To addr 0x0 size 0xffffffffffffffff virtual false final false
- ::Zenject::FromBinderNonGeneric To(::ArrayW<::System::Type> concreteTypes) ;
+ Zenject::FromBinderNonGeneric To(::ArrayW<System::Type> concreteTypes) ;
 
 /// @brief Method To addr 0x0 size 0xffffffffffffffff virtual false final false
- ::Zenject::FromBinderNonGeneric To(::System::Collections::Generic::IEnumerable_1<::System::Type> concreteTypes) ;
+ Zenject::FromBinderNonGeneric To(System::Collections::Generic::IEnumerable_1<System::Type> concreteTypes) ;
 
 /// @brief Method To addr 0x0 size 0xffffffffffffffff virtual false final false
- ::Zenject::FromBinderNonGeneric To(::System::Action_1<::Zenject::ConventionSelectTypesBinder> generator) ;
+ Zenject::FromBinderNonGeneric To(System::Action_1<Zenject::ConventionSelectTypesBinder> generator) ;
 
 /// @brief Method <ToSelf>b__1_0 addr 0x0 size 0xffffffffffffffff virtual false final false
- ::Zenject::IProvider _ToSelf_b__1_0(::Zenject::DiContainer container, ::System::Type type) ;
+ Zenject::IProvider _ToSelf_b__1_0(Zenject::DiContainer container, System::Type type) ;
 
 /// @brief Method <To>b__5_0 addr 0x0 size 0xffffffffffffffff virtual false final false
- bool _To_b__5_0(::System::Type concreteType) ;
+ bool _To_b__5_0(System::Type concreteType) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -456,13 +455,13 @@ namespace Zenject {
 // cpp template
 template<>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10856), inst: 1907 }), TypeDefinitionIndex(TypeDefinitionIndex(10856)), TypeDefinitionIndex(TypeDefinitionIndex(10613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10856), inst: 1907 }), TypeDefinitionIndex(TypeDefinitionIndex(10856))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10613), inst: 4825 })
 // CS Name: Zenject.ConcreteBinderGeneric`1
-class CORDL_TYPE ConcreteBinderGeneric_1<::System::Int32Enum> : public ::Zenject::FromBinderGeneric_1<::System::Int32Enum> {
+class CORDL_TYPE ConcreteBinderGeneric_1<System::Int32Enum> : public Zenject::FromBinderGeneric_1<System::Int32Enum> {
 public:
 // Declarations
-using __c__DisplayClass5_0 = ::Zenject::____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0<::System::Int32Enum>;
+using __c__DisplayClass5_0 = Zenject::Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0<System::Int32Enum>;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -476,7 +475,7 @@ constexpr ConcreteBinderGeneric_1(ConcreteBinderGeneric_1 const& ) noexcept = de
 constexpr ConcreteBinderGeneric_1(ConcreteBinderGeneric_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ConcreteBinderGeneric_1(void* ptr) noexcept : ::Zenject::FromBinderGeneric_1<::System::Int32Enum>(ptr) {
+constexpr explicit ConcreteBinderGeneric_1(void* ptr) noexcept : Zenject::FromBinderGeneric_1<System::Int32Enum>(ptr) {
 }
 
 
@@ -497,38 +496,37 @@ constexpr explicit ConcreteBinderGeneric_1(void* ptr) noexcept : ::Zenject::From
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindContainer", ty: "::Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "::Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "bindStatement", ty: "::Zenject::BindStatement", modifiers: "", def_value: None }]
-explicit ConcreteBinderGeneric_1(::Zenject::DiContainer bindContainer, ::Zenject::BindInfo bindInfo, ::Zenject::BindStatement bindStatement) ;
+// Ctor Parameters [CppParam { name: "bindContainer", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "bindStatement", ty: "Zenject::BindStatement", modifiers: "", def_value: None }]
+explicit ConcreteBinderGeneric_1(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::BindStatement bindStatement) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::Zenject::DiContainer bindContainer, ::Zenject::BindInfo bindInfo, ::Zenject::BindStatement bindStatement) ;
+ void _ctor(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::BindStatement bindStatement) ;
 
 /// @brief Method ToSelf addr 0x0 size 0xffffffffffffffff virtual false final false
- ::Zenject::FromBinderGeneric_1<::System::Int32Enum> ToSelf() ;
+ Zenject::FromBinderGeneric_1<System::Int32Enum> ToSelf() ;
 
 /// @brief Method To addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TConcrete>
- ::Zenject::FromBinderGeneric_1<TConcrete> To() ;
+ Zenject::FromBinderGeneric_1<TConcrete> To() ;
 
 /// @brief Method To addr 0x0 size 0xffffffffffffffff virtual false final false
- ::Zenject::FromBinderNonGeneric To(::ArrayW<::System::Type> concreteTypes) ;
+ Zenject::FromBinderNonGeneric To(::ArrayW<System::Type> concreteTypes) ;
 
 /// @brief Method To addr 0x0 size 0xffffffffffffffff virtual false final false
- ::Zenject::FromBinderNonGeneric To(::System::Collections::Generic::IEnumerable_1<::System::Type> concreteTypes) ;
+ Zenject::FromBinderNonGeneric To(System::Collections::Generic::IEnumerable_1<System::Type> concreteTypes) ;
 
 /// @brief Method To addr 0x0 size 0xffffffffffffffff virtual false final false
- ::Zenject::FromBinderNonGeneric To(::System::Action_1<::Zenject::ConventionSelectTypesBinder> generator) ;
+ Zenject::FromBinderNonGeneric To(System::Action_1<Zenject::ConventionSelectTypesBinder> generator) ;
 
 /// @brief Method <ToSelf>b__1_0 addr 0x0 size 0xffffffffffffffff virtual false final false
- ::Zenject::IProvider _ToSelf_b__1_0(::Zenject::DiContainer container, ::System::Type type) ;
+ Zenject::IProvider _ToSelf_b__1_0(Zenject::DiContainer container, System::Type type) ;
 
 /// @brief Method <To>b__5_0 addr 0x0 size 0xffffffffffffffff virtual false final false
- bool _To_b__5_0(::System::Type concreteType) ;
+ bool _To_b__5_0(System::Type concreteType) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::ConcreteBinderGeneric_1, "Zenject", "ConcreteBinderGeneric`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::____Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0, "Zenject", "ConcreteBinderGeneric`1/<>c__DisplayClass5_0");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::ConcreteBinderGeneric_1, "Zenject", "ConcreteBinderGeneric`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::Zenject__ConcreteBinderGeneric_1____c__DisplayClass5_0, "Zenject", "ConcreteBinderGeneric`1/<>c__DisplayClass5_0");

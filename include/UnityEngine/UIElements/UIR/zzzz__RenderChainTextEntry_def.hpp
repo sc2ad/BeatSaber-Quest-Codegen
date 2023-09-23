@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine::UIElements::UIR {
 class RenderChainCommand;
 }
@@ -19,8 +18,8 @@ namespace UnityEngine::UIElements::UIR {
 struct CORDL_TYPE RenderChainTextEntry : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "command", ty: "::UnityEngine::UIElements::UIR::RenderChainCommand", modifiers: "", def_value: None }, CppParam { name: "firstVertex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "vertexCount", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr RenderChainTextEntry(::UnityEngine::UIElements::UIR::RenderChainCommand command, int32_t firstVertex, int32_t vertexCount) noexcept;
+// Ctor Parameters [CppParam { name: "command", ty: "UnityEngine::UIElements::UIR::RenderChainCommand", modifiers: "", def_value: None }, CppParam { name: "firstVertex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "vertexCount", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr RenderChainTextEntry(UnityEngine::UIElements::UIR::RenderChainCommand command, int32_t firstVertex, int32_t vertexCount) noexcept;
 
 
                     constexpr RenderChainTextEntry(RenderChainTextEntry const&) = default;
@@ -53,11 +52,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::UIElements::UIR::RenderChainCommand __declspec(property(get=__get_command, put=__set_command))  command;
+ UnityEngine::UIElements::UIR::RenderChainCommand __declspec(property(get=__get_command, put=__set_command))  command;
 
-constexpr void __set_command(::UnityEngine::UIElements::UIR::RenderChainCommand value) ;
+constexpr void __set_command(UnityEngine::UIElements::UIR::RenderChainCommand value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::RenderChainCommand __get_command() const;
+constexpr UnityEngine::UIElements::UIR::RenderChainCommand __get_command() const;
 
  int32_t __declspec(property(get=__get_firstVertex, put=__set_firstVertex))  firstVertex;
 
@@ -75,5 +74,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::UIR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::RenderChainTextEntry, "UnityEngine.UIElements.UIR", "RenderChainTextEntry");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::RenderChainTextEntry, "UnityEngine.UIElements.UIR", "RenderChainTextEntry");

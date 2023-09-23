@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Xml {
 class IDtdAttributeInfo;
 }
@@ -20,8 +19,8 @@ namespace System::Xml {
 class CORDL_TYPE IDtdDefaultAttributeInfo : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Xml::IDtdAttributeInfo
-constexpr operator  ::System::Xml::IDtdAttributeInfo() const noexcept;
+/// @brief Convert operator to System::Xml::IDtdAttributeInfo
+constexpr operator  System::Xml::IDtdAttributeInfo() const noexcept;
 
 ~IDtdDefaultAttributeInfo() = default;
 
@@ -59,6 +58,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::IDtdDefaultAttributeInfo);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::IDtdDefaultAttributeInfo, "System.Xml", "IDtdDefaultAttributeInfo");
+NEED_NO_BOX(System::Xml::IDtdDefaultAttributeInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::IDtdDefaultAttributeInfo, "System.Xml", "IDtdDefaultAttributeInfo");

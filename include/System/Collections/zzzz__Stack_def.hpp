@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Collections {
-class ICollection;
-}
 namespace System {
 class Array;
+}
+namespace System::Collections {
+class ICollection;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -24,10 +23,10 @@ namespace System::Collections {
 class Stack;
 }
 namespace System::Collections {
-class ____System__Collections__Stack__StackDebugView;
+class System__Collections__Stack__StackDebugView;
 }
 namespace System::Collections {
-class ____System__Collections__Stack__StackEnumerator;
+class System__Collections__Stack__StackEnumerator;
 }
 // Type: ::StackEnumerator
 namespace System::Collections {
@@ -35,53 +34,53 @@ namespace System::Collections {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3769))
 // CS Name: System.Collections.Stack::StackEnumerator
-class CORDL_TYPE ____System__Collections__Stack__StackEnumerator : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Collections__Stack__StackEnumerator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::ICloneable
-constexpr operator  ::System::ICloneable() const noexcept;
+/// @brief Convert operator to System::ICloneable
+constexpr operator  System::ICloneable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____System__Collections__Stack__StackEnumerator() = default;
+virtual ~System__Collections__Stack__StackEnumerator() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__Stack__StackEnumerator", modifiers: " const&", def_value: None }]
-constexpr ____System__Collections__Stack__StackEnumerator(____System__Collections__Stack__StackEnumerator const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__Stack__StackEnumerator", modifiers: " const&", def_value: None }]
+constexpr System__Collections__Stack__StackEnumerator(System__Collections__Stack__StackEnumerator const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__Stack__StackEnumerator", modifiers: "&&", def_value: None }]
-constexpr ____System__Collections__Stack__StackEnumerator(____System__Collections__Stack__StackEnumerator&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__Stack__StackEnumerator", modifiers: "&&", def_value: None }]
+constexpr System__Collections__Stack__StackEnumerator(System__Collections__Stack__StackEnumerator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Collections__Stack__StackEnumerator(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Collections__Stack__StackEnumerator(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Collections__Stack__StackEnumerator& operator=(std::nullptr_t) noexcept {
+  constexpr System__Collections__Stack__StackEnumerator& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Collections__Stack__StackEnumerator& operator=(void* o) noexcept {
+  constexpr System__Collections__Stack__StackEnumerator& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Collections__Stack__StackEnumerator& operator=(____System__Collections__Stack__StackEnumerator&& o) noexcept = default;
-  constexpr ____System__Collections__Stack__StackEnumerator& operator=(____System__Collections__Stack__StackEnumerator const& o) noexcept = default;
+  constexpr System__Collections__Stack__StackEnumerator& operator=(System__Collections__Stack__StackEnumerator&& o) noexcept = default;
+  constexpr System__Collections__Stack__StackEnumerator& operator=(System__Collections__Stack__StackEnumerator const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Collections::Stack __declspec(property(get=__get__stack, put=__set__stack))  _stack;
+ System::Collections::Stack __declspec(property(get=__get__stack, put=__set__stack))  _stack;
 
-constexpr void __set__stack(::System::Collections::Stack value) ;
+constexpr void __set__stack(System::Collections::Stack value) ;
 
-constexpr ::System::Collections::Stack __get__stack() const;
+constexpr System::Collections::Stack __get__stack() const;
 
  int32_t __declspec(property(get=__get__index, put=__set__index))  _index;
 
@@ -109,11 +108,11 @@ constexpr ::bs_hook::Il2CppWrapperType __get__currentElement() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stack", ty: "::System::Collections::Stack", modifiers: "", def_value: None }]
-explicit ____System__Collections__Stack__StackEnumerator(::System::Collections::Stack stack) ;
+// Ctor Parameters [CppParam { name: "stack", ty: "System::Collections::Stack", modifiers: "", def_value: None }]
+explicit System__Collections__Stack__StackEnumerator(System::Collections::Stack stack) ;
 
 /// @brief Method .ctor addr 0x2415804 size 0x40 virtual false final false
- void _ctor(::System::Collections::Stack stack) ;
+ void _ctor(System::Collections::Stack stack) ;
 
 /// @brief Method Clone addr 0x2415a68 size 0x8 virtual true final true
  ::bs_hook::Il2CppWrapperType Clone() ;
@@ -137,37 +136,37 @@ namespace System::Collections {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3770))
 // CS Name: System.Collections.Stack::StackDebugView
-class CORDL_TYPE ____System__Collections__Stack__StackDebugView : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Collections__Stack__StackDebugView : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____System__Collections__Stack__StackDebugView() = default;
+virtual ~System__Collections__Stack__StackDebugView() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__Stack__StackDebugView", modifiers: " const&", def_value: None }]
-constexpr ____System__Collections__Stack__StackDebugView(____System__Collections__Stack__StackDebugView const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__Stack__StackDebugView", modifiers: " const&", def_value: None }]
+constexpr System__Collections__Stack__StackDebugView(System__Collections__Stack__StackDebugView const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__Stack__StackDebugView", modifiers: "&&", def_value: None }]
-constexpr ____System__Collections__Stack__StackDebugView(____System__Collections__Stack__StackDebugView&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__Stack__StackDebugView", modifiers: "&&", def_value: None }]
+constexpr System__Collections__Stack__StackDebugView(System__Collections__Stack__StackDebugView&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Collections__Stack__StackDebugView(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Collections__Stack__StackDebugView(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Collections__Stack__StackDebugView& operator=(std::nullptr_t) noexcept {
+  constexpr System__Collections__Stack__StackDebugView& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Collections__Stack__StackDebugView& operator=(void* o) noexcept {
+  constexpr System__Collections__Stack__StackDebugView& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Collections__Stack__StackDebugView& operator=(____System__Collections__Stack__StackDebugView&& o) noexcept = default;
-  constexpr ____System__Collections__Stack__StackDebugView& operator=(____System__Collections__Stack__StackDebugView const& o) noexcept = default;
+  constexpr System__Collections__Stack__StackDebugView& operator=(System__Collections__Stack__StackDebugView&& o) noexcept = default;
+  constexpr System__Collections__Stack__StackDebugView& operator=(System__Collections__Stack__StackDebugView const& o) noexcept = default;
                 
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
@@ -183,18 +182,18 @@ namespace System::Collections {
 class CORDL_TYPE Stack : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using StackDebugView = ::System::Collections::____System__Collections__Stack__StackDebugView;
+using StackDebugView = System::Collections::System__Collections__Stack__StackDebugView;
 
-using StackEnumerator = ::System::Collections::____System__Collections__Stack__StackEnumerator;
+using StackEnumerator = System::Collections::System__Collections__Stack__StackEnumerator;
 
-/// @brief Convert operator to ::System::Collections::ICollection
-constexpr operator  ::System::Collections::ICollection() const noexcept;
+/// @brief Convert operator to System::Collections::ICollection
+constexpr operator  System::Collections::ICollection() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
-/// @brief Convert operator to ::System::ICloneable
-constexpr operator  ::System::ICloneable() const noexcept;
+/// @brief Convert operator to System::ICloneable
+constexpr operator  System::ICloneable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -296,10 +295,10 @@ explicit Stack(int32_t initialCapacity) ;
  ::bs_hook::Il2CppWrapperType Clone() ;
 
 /// @brief Method CopyTo addr 0x24154ec size 0x2b8 virtual true final false
- void CopyTo(::System::Array array, int32_t index) ;
+ void CopyTo(System::Array array, int32_t index) ;
 
 /// @brief Method GetEnumerator addr 0x24157a4 size 0x60 virtual true final false
- ::System::Collections::IEnumerator GetEnumerator() ;
+ System::Collections::IEnumerator GetEnumerator() ;
 
 /// @brief Method Peek addr 0x2415844 size 0x88 virtual true final false
  ::bs_hook::Il2CppWrapperType Peek() ;
@@ -314,10 +313,9 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Collections
-} // end anonymous namespace
-NEED_NO_BOX(::System::Collections::Stack);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Stack, "System.Collections", "Stack");
-NEED_NO_BOX(::System::Collections::____System__Collections__Stack__StackDebugView);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::____System__Collections__Stack__StackDebugView, "System.Collections", "Stack/StackDebugView");
-NEED_NO_BOX(::System::Collections::____System__Collections__Stack__StackEnumerator);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::____System__Collections__Stack__StackEnumerator, "System.Collections", "Stack/StackEnumerator");
+NEED_NO_BOX(System::Collections::Stack);
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::Stack, "System.Collections", "Stack");
+NEED_NO_BOX(System::Collections::System__Collections__Stack__StackDebugView);
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::System__Collections__Stack__StackDebugView, "System.Collections", "Stack/StackDebugView");
+NEED_NO_BOX(System::Collections::System__Collections__Stack__StackEnumerator);
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::System__Collections__Stack__StackEnumerator, "System.Collections", "Stack/StackEnumerator");

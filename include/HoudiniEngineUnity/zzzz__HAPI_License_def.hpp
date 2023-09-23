@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HAPI_License;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field HAPI_LICENSE_NONE offset 0
-static ::HoudiniEngineUnity::HAPI_License const HAPI_LICENSE_NONE;
+static HoudiniEngineUnity::HAPI_License const HAPI_LICENSE_NONE;
 
 /// @brief Field HAPI_LICENSE_HOUDINI_ENGINE offset 0
-static ::HoudiniEngineUnity::HAPI_License const HAPI_LICENSE_HOUDINI_ENGINE;
+static HoudiniEngineUnity::HAPI_License const HAPI_LICENSE_HOUDINI_ENGINE;
 
 /// @brief Field HAPI_LICENSE_HOUDINI offset 0
-static ::HoudiniEngineUnity::HAPI_License const HAPI_LICENSE_HOUDINI;
+static HoudiniEngineUnity::HAPI_License const HAPI_LICENSE_HOUDINI;
 
 /// @brief Field HAPI_LICENSE_HOUDINI_FX offset 0
-static ::HoudiniEngineUnity::HAPI_License const HAPI_LICENSE_HOUDINI_FX;
+static HoudiniEngineUnity::HAPI_License const HAPI_LICENSE_HOUDINI_FX;
 
 /// @brief Field HAPI_LICENSE_HOUDINI_ENGINE_INDIE offset 0
-static ::HoudiniEngineUnity::HAPI_License const HAPI_LICENSE_HOUDINI_ENGINE_INDIE;
+static HoudiniEngineUnity::HAPI_License const HAPI_LICENSE_HOUDINI_ENGINE_INDIE;
 
 /// @brief Field HAPI_LICENSE_HOUDINI_INDIE offset 0
-static ::HoudiniEngineUnity::HAPI_License const HAPI_LICENSE_HOUDINI_INDIE;
+static HoudiniEngineUnity::HAPI_License const HAPI_LICENSE_HOUDINI_INDIE;
 
 /// @brief Field HAPI_LICENSE_MAX offset 0
-static ::HoudiniEngineUnity::HAPI_License const HAPI_LICENSE_MAX;
+static HoudiniEngineUnity::HAPI_License const HAPI_LICENSE_MAX;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_License, "HoudiniEngineUnity", "HAPI_License");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_License, "HoudiniEngineUnity", "HAPI_License");

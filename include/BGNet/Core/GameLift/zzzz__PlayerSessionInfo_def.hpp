@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 struct GameplayServerConfiguration;
 }
@@ -80,17 +79,17 @@ constexpr void __set_port(int32_t value) ;
 
 constexpr int32_t __get_port() const;
 
- ::GlobalNamespace::BeatmapLevelSelectionMask __declspec(property(get=__get_beatmapLevelSelectionMask, put=__set_beatmapLevelSelectionMask))  beatmapLevelSelectionMask;
+ GlobalNamespace::BeatmapLevelSelectionMask __declspec(property(get=__get_beatmapLevelSelectionMask, put=__set_beatmapLevelSelectionMask))  beatmapLevelSelectionMask;
 
-constexpr void __set_beatmapLevelSelectionMask(::GlobalNamespace::BeatmapLevelSelectionMask value) ;
+constexpr void __set_beatmapLevelSelectionMask(GlobalNamespace::BeatmapLevelSelectionMask value) ;
 
-constexpr ::GlobalNamespace::BeatmapLevelSelectionMask __get_beatmapLevelSelectionMask() const;
+constexpr GlobalNamespace::BeatmapLevelSelectionMask __get_beatmapLevelSelectionMask() const;
 
- ::GlobalNamespace::GameplayServerConfiguration __declspec(property(get=__get_gameplayServerConfiguration, put=__set_gameplayServerConfiguration))  gameplayServerConfiguration;
+ GlobalNamespace::GameplayServerConfiguration __declspec(property(get=__get_gameplayServerConfiguration, put=__set_gameplayServerConfiguration))  gameplayServerConfiguration;
 
-constexpr void __set_gameplayServerConfiguration(::GlobalNamespace::GameplayServerConfiguration value) ;
+constexpr void __set_gameplayServerConfiguration(GlobalNamespace::GameplayServerConfiguration value) ;
 
-constexpr ::GlobalNamespace::GameplayServerConfiguration __get_gameplayServerConfiguration() const;
+constexpr GlobalNamespace::GameplayServerConfiguration __get_gameplayServerConfiguration() const;
 
  ::StringW __declspec(property(get=__get_privateGameSecret, put=__set_privateGameSecret))  privateGameSecret;
 
@@ -117,6 +116,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def BGNet::Core::GameLift
-} // end anonymous namespace
-NEED_NO_BOX(::BGNet::Core::GameLift::PlayerSessionInfo);
-DEFINE_IL2CPP_ARG_TYPE(::BGNet::Core::GameLift::PlayerSessionInfo, "BGNet.Core.GameLift", "PlayerSessionInfo");
+NEED_NO_BOX(BGNet::Core::GameLift::PlayerSessionInfo);
+DEFINE_IL2CPP_ARG_TYPE(BGNet::Core::GameLift::PlayerSessionInfo, "BGNet.Core.GameLift", "PlayerSessionInfo");

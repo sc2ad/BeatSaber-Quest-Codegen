@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct LightmapBakeType;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Realtime offset 0
-static ::UnityEngine::LightmapBakeType const Realtime;
+static UnityEngine::LightmapBakeType const Realtime;
 
 /// @brief Field Baked offset 0
-static ::UnityEngine::LightmapBakeType const Baked;
+static UnityEngine::LightmapBakeType const Baked;
 
 /// @brief Field Mixed offset 0
-static ::UnityEngine::LightmapBakeType const Mixed;
+static UnityEngine::LightmapBakeType const Mixed;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::LightmapBakeType, "UnityEngine", "LightmapBakeType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LightmapBakeType, "UnityEngine", "LightmapBakeType");

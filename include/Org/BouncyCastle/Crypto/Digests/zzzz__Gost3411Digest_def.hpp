@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace Org::BouncyCastle::Crypto {
+class IBlockCipher;
+}
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
 namespace Org::BouncyCastle::Utilities {
 class IMemoable;
-}
-namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Digests {
@@ -27,11 +26,11 @@ namespace Org::BouncyCastle::Crypto::Digests {
 class CORDL_TYPE Gost3411Digest : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IDigest
-constexpr operator  ::Org::BouncyCastle::Crypto::IDigest() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IDigest
+constexpr operator  Org::BouncyCastle::Crypto::IDigest() const noexcept;
 
-/// @brief Convert operator to ::Org::BouncyCastle::Utilities::IMemoable
-constexpr operator  ::Org::BouncyCastle::Utilities::IMemoable() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Utilities::IMemoable
+constexpr operator  Org::BouncyCastle::Utilities::IMemoable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xa0};
@@ -117,11 +116,11 @@ constexpr void __set_byteCount(uint64_t value) ;
 
 constexpr uint64_t __get_byteCount() const;
 
- ::Org::BouncyCastle::Crypto::IBlockCipher __declspec(property(get=__get_cipher, put=__set_cipher))  cipher;
+ Org::BouncyCastle::Crypto::IBlockCipher __declspec(property(get=__get_cipher, put=__set_cipher))  cipher;
 
-constexpr void __set_cipher(::Org::BouncyCastle::Crypto::IBlockCipher value) ;
+constexpr void __set_cipher(Org::BouncyCastle::Crypto::IBlockCipher value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IBlockCipher __get_cipher() const;
+constexpr Org::BouncyCastle::Crypto::IBlockCipher __get_cipher() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get_sBox, put=__set_sBox))  sBox;
 
@@ -206,11 +205,11 @@ explicit Gost3411Digest(::ArrayW<uint8_t> sBoxParam) ;
 /// @brief Method .ctor addr 0x1196c40 size 0x294 virtual false final false
  void _ctor(::ArrayW<uint8_t> sBoxParam) ;
 
-// Ctor Parameters [CppParam { name: "t", ty: "::Org::BouncyCastle::Crypto::Digests::Gost3411Digest", modifiers: "", def_value: None }]
-explicit Gost3411Digest(::Org::BouncyCastle::Crypto::Digests::Gost3411Digest t) ;
+// Ctor Parameters [CppParam { name: "t", ty: "Org::BouncyCastle::Crypto::Digests::Gost3411Digest", modifiers: "", def_value: None }]
+explicit Gost3411Digest(Org::BouncyCastle::Crypto::Digests::Gost3411Digest t) ;
 
 /// @brief Method .ctor addr 0x1196ed4 size 0x1a4 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::Digests::Gost3411Digest t) ;
+ void _ctor(Org::BouncyCastle::Crypto::Digests::Gost3411Digest t) ;
 
 /// @brief Method get_AlgorithmName addr 0x1197350 size 0x40 virtual true final true
  ::StringW get_AlgorithmName() ;
@@ -261,15 +260,14 @@ static void cpyShortToBytes(::ArrayW<int16_t> wS, ::ArrayW<uint8_t> S) ;
  int32_t GetByteLength() ;
 
 /// @brief Method Copy addr 0x1197f10 size 0x60 virtual true final true
- ::Org::BouncyCastle::Utilities::IMemoable Copy() ;
+ Org::BouncyCastle::Utilities::IMemoable Copy() ;
 
 /// @brief Method Reset addr 0x1197078 size 0x2d8 virtual true final true
- void Reset(::Org::BouncyCastle::Utilities::IMemoable other) ;
+ void Reset(Org::BouncyCastle::Utilities::IMemoable other) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Digests
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::Gost3411Digest);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Digests::Gost3411Digest, "Org.BouncyCastle.Crypto.Digests", "Gost3411Digest");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Digests::Gost3411Digest);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::Gost3411Digest, "Org.BouncyCastle.Crypto.Digests", "Gost3411Digest");

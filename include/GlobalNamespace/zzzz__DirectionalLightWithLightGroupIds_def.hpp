@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__RuntimeLightWithLightGroupIds_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class DirectionalLight;
 }
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14715))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14687))
 // CS Name: DirectionalLightWithLightGroupIds
-class CORDL_TYPE DirectionalLightWithLightGroupIds : public ::GlobalNamespace::RuntimeLightWithLightGroupIds {
+class CORDL_TYPE DirectionalLightWithLightGroupIds : public GlobalNamespace::RuntimeLightWithLightGroupIds {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr DirectionalLightWithLightGroupIds(DirectionalLightWithLightGroupIds co
 constexpr DirectionalLightWithLightGroupIds(DirectionalLightWithLightGroupIds&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DirectionalLightWithLightGroupIds(void* ptr) noexcept : ::GlobalNamespace::RuntimeLightWithLightGroupIds(ptr) {
+constexpr explicit DirectionalLightWithLightGroupIds(void* ptr) noexcept : GlobalNamespace::RuntimeLightWithLightGroupIds(ptr) {
 }
 
 
@@ -54,17 +53,17 @@ constexpr explicit DirectionalLightWithLightGroupIds(void* ptr) noexcept : ::Glo
 
 // Fields
 
- ::GlobalNamespace::DirectionalLight __declspec(property(get=__get__directionalLight, put=__set__directionalLight))  _directionalLight;
+ GlobalNamespace::DirectionalLight __declspec(property(get=__get__directionalLight, put=__set__directionalLight))  _directionalLight;
 
-constexpr void __set__directionalLight(::GlobalNamespace::DirectionalLight value) ;
+constexpr void __set__directionalLight(GlobalNamespace::DirectionalLight value) ;
 
-constexpr ::GlobalNamespace::DirectionalLight __get__directionalLight() const;
+constexpr GlobalNamespace::DirectionalLight __get__directionalLight() const;
 
 
 // Methods
 
 /// @brief Method ColorWasSet addr 0x1f9cca8 size 0x20 virtual true final false
- void ColorWasSet(::UnityEngine::Color color) ;
+ void ColorWasSet(UnityEngine::Color color) ;
 
 // Ctor Parameters []
 explicit DirectionalLightWithLightGroupIds() ;
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::DirectionalLightWithLightGroupIds);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DirectionalLightWithLightGroupIds, "", "DirectionalLightWithLightGroupIds");
+NEED_NO_BOX(GlobalNamespace::DirectionalLightWithLightGroupIds);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DirectionalLightWithLightGroupIds, "", "DirectionalLightWithLightGroupIds");

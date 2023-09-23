@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__Challenge_def.hpp"
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_def.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class ChallengeList;
@@ -14,7 +13,7 @@ namespace Oculus::Platform::Models {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13410)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1133 }), TypeDefinitionIndex(TypeDefinitionIndex(13401))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13402))
 // CS Name: Oculus.Platform.Models.ChallengeList
-class CORDL_TYPE ChallengeList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::Challenge> {
+class CORDL_TYPE ChallengeList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::Challenge> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr ChallengeList(ChallengeList const& ) noexcept = default;
 constexpr ChallengeList(ChallengeList&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ChallengeList(void* ptr) noexcept : ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::Challenge>(ptr) {
+constexpr explicit ChallengeList(void* ptr) noexcept : Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::Challenge>(ptr) {
 }
 
 
@@ -69,6 +68,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::ChallengeList);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::ChallengeList, "Oculus.Platform.Models", "ChallengeList");
+NEED_NO_BOX(Oculus::Platform::Models::ChallengeList);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::ChallengeList, "Oculus.Platform.Models", "ChallengeList");

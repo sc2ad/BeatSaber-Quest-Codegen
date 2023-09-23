@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__NetSyncConnection_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
 class NetSyncConnection;
 }
@@ -14,10 +13,10 @@ class MessageWithNetSyncConnection;
 // Type: Oculus.Platform::MessageWithNetSyncConnection
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 946 }), TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(13447))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 946 }), TypeDefinitionIndex(TypeDefinitionIndex(13447))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13257))
 // CS Name: Oculus.Platform.MessageWithNetSyncConnection
-class CORDL_TYPE MessageWithNetSyncConnection : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::NetSyncConnection> {
+class CORDL_TYPE MessageWithNetSyncConnection : public Oculus::Platform::Message_1<Oculus::Platform::Models::NetSyncConnection> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr MessageWithNetSyncConnection(MessageWithNetSyncConnection const& ) noe
 constexpr MessageWithNetSyncConnection(MessageWithNetSyncConnection&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MessageWithNetSyncConnection(void* ptr) noexcept : ::Oculus::Platform::Message_1<::Oculus::Platform::Models::NetSyncConnection>(ptr) {
+constexpr explicit MessageWithNetSyncConnection(void* ptr) noexcept : Oculus::Platform::Message_1<Oculus::Platform::Models::NetSyncConnection>(ptr) {
 }
 
 
@@ -60,15 +59,14 @@ explicit MessageWithNetSyncConnection(::cordl_internals::intptr_t c_message) ;
  void _ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method GetNetSyncConnection addr 0x2582698 size 0x3c virtual true final false
- ::Oculus::Platform::Models::NetSyncConnection GetNetSyncConnection() ;
+ Oculus::Platform::Models::NetSyncConnection GetNetSyncConnection() ;
 
 /// @brief Method GetDataFromMessage addr 0x25826d4 size 0x9c virtual true final false
- ::Oculus::Platform::Models::NetSyncConnection GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
+ Oculus::Platform::Models::NetSyncConnection GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::MessageWithNetSyncConnection);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithNetSyncConnection, "Oculus.Platform", "MessageWithNetSyncConnection");
+NEED_NO_BOX(Oculus::Platform::MessageWithNetSyncConnection);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithNetSyncConnection, "Oculus.Platform", "MessageWithNetSyncConnection");

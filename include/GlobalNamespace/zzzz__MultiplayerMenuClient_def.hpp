@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class INodePoseSyncStateManager;
-}
 namespace GlobalNamespace {
 class MenuPlayerController;
+}
+namespace GlobalNamespace {
+class INodePoseSyncStateManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5671))
 // CS Name: MultiplayerMenuClient
-class CORDL_TYPE MultiplayerMenuClient : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerMenuClient : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr MultiplayerMenuClient(MultiplayerMenuClient const& ) noexcept = defaul
 constexpr MultiplayerMenuClient(MultiplayerMenuClient&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerMenuClient(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerMenuClient(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -54,17 +53,17 @@ constexpr explicit MultiplayerMenuClient(void* ptr) noexcept : ::UnityEngine::Mo
 
 // Fields
 
- ::GlobalNamespace::MenuPlayerController __declspec(property(get=__get__menuPlayerController, put=__set__menuPlayerController))  _menuPlayerController;
+ GlobalNamespace::MenuPlayerController __declspec(property(get=__get__menuPlayerController, put=__set__menuPlayerController))  _menuPlayerController;
 
-constexpr void __set__menuPlayerController(::GlobalNamespace::MenuPlayerController value) ;
+constexpr void __set__menuPlayerController(GlobalNamespace::MenuPlayerController value) ;
 
-constexpr ::GlobalNamespace::MenuPlayerController __get__menuPlayerController() const;
+constexpr GlobalNamespace::MenuPlayerController __get__menuPlayerController() const;
 
- ::GlobalNamespace::INodePoseSyncStateManager __declspec(property(get=__get__nodePoseSyncStateManager, put=__set__nodePoseSyncStateManager))  _nodePoseSyncStateManager;
+ GlobalNamespace::INodePoseSyncStateManager __declspec(property(get=__get__nodePoseSyncStateManager, put=__set__nodePoseSyncStateManager))  _nodePoseSyncStateManager;
 
-constexpr void __set__nodePoseSyncStateManager(::GlobalNamespace::INodePoseSyncStateManager value) ;
+constexpr void __set__nodePoseSyncStateManager(GlobalNamespace::INodePoseSyncStateManager value) ;
 
-constexpr ::GlobalNamespace::INodePoseSyncStateManager __get__nodePoseSyncStateManager() const;
+constexpr GlobalNamespace::INodePoseSyncStateManager __get__nodePoseSyncStateManager() const;
 
 
 // Methods
@@ -82,6 +81,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerMenuClient);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerMenuClient, "", "MultiplayerMenuClient");
+NEED_NO_BOX(GlobalNamespace::MultiplayerMenuClient);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerMenuClient, "", "MultiplayerMenuClient");

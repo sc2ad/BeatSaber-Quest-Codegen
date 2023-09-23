@@ -2,7 +2,6 @@
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
 struct BinaryArrayTypeEnum;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Single offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum const Single;
+static System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum const Single;
 
 /// @brief Field Jagged offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum const Jagged;
+static System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum const Jagged;
 
 /// @brief Field Rectangular offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum const Rectangular;
+static System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum const Rectangular;
 
 /// @brief Field SingleOffset offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum const SingleOffset;
+static System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum const SingleOffset;
 
 /// @brief Field JaggedOffset offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum const JaggedOffset;
+static System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum const JaggedOffset;
 
 /// @brief Field RectangularOffset offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum const RectangularOffset;
+static System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum const RectangularOffset;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization::Formatters::Binary
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum, "System.Runtime.Serialization.Formatters.Binary", "BinaryArrayTypeEnum");
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum, "System.Runtime.Serialization.Formatters.Binary", "BinaryArrayTypeEnum");

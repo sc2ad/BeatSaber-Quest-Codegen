@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
 struct X509ChainStatusFlags;
@@ -91,86 +90,85 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field NoError offset 0
-static ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const NoError;
+static System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const NoError;
 
 /// @brief Field NotTimeValid offset 0
-static ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const NotTimeValid;
+static System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const NotTimeValid;
 
 /// @brief Field NotTimeNested offset 0
-static ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const NotTimeNested;
+static System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const NotTimeNested;
 
 /// @brief Field Revoked offset 0
-static ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const Revoked;
+static System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const Revoked;
 
 /// @brief Field NotSignatureValid offset 0
-static ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const NotSignatureValid;
+static System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const NotSignatureValid;
 
 /// @brief Field NotValidForUsage offset 0
-static ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const NotValidForUsage;
+static System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const NotValidForUsage;
 
 /// @brief Field UntrustedRoot offset 0
-static ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const UntrustedRoot;
+static System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const UntrustedRoot;
 
 /// @brief Field RevocationStatusUnknown offset 0
-static ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const RevocationStatusUnknown;
+static System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const RevocationStatusUnknown;
 
 /// @brief Field Cyclic offset 0
-static ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const Cyclic;
+static System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const Cyclic;
 
 /// @brief Field InvalidExtension offset 0
-static ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const InvalidExtension;
+static System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const InvalidExtension;
 
 /// @brief Field InvalidPolicyConstraints offset 0
-static ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const InvalidPolicyConstraints;
+static System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const InvalidPolicyConstraints;
 
 /// @brief Field InvalidBasicConstraints offset 0
-static ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const InvalidBasicConstraints;
+static System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const InvalidBasicConstraints;
 
 /// @brief Field InvalidNameConstraints offset 0
-static ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const InvalidNameConstraints;
+static System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const InvalidNameConstraints;
 
 /// @brief Field HasNotSupportedNameConstraint offset 0
-static ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const HasNotSupportedNameConstraint;
+static System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const HasNotSupportedNameConstraint;
 
 /// @brief Field HasNotDefinedNameConstraint offset 0
-static ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const HasNotDefinedNameConstraint;
+static System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const HasNotDefinedNameConstraint;
 
 /// @brief Field HasNotPermittedNameConstraint offset 0
-static ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const HasNotPermittedNameConstraint;
+static System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const HasNotPermittedNameConstraint;
 
 /// @brief Field HasExcludedNameConstraint offset 0
-static ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const HasExcludedNameConstraint;
+static System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const HasExcludedNameConstraint;
 
 /// @brief Field PartialChain offset 0
-static ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const PartialChain;
+static System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const PartialChain;
 
 /// @brief Field CtlNotTimeValid offset 0
-static ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const CtlNotTimeValid;
+static System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const CtlNotTimeValid;
 
 /// @brief Field CtlNotSignatureValid offset 0
-static ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const CtlNotSignatureValid;
+static System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const CtlNotSignatureValid;
 
 /// @brief Field CtlNotValidForUsage offset 0
-static ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const CtlNotValidForUsage;
+static System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const CtlNotValidForUsage;
 
 /// @brief Field OfflineRevocation offset 0
-static ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const OfflineRevocation;
+static System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const OfflineRevocation;
 
 /// @brief Field NoIssuanceChainPolicy offset 0
-static ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const NoIssuanceChainPolicy;
+static System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const NoIssuanceChainPolicy;
 
 /// @brief Field ExplicitDistrust offset 0
-static ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const ExplicitDistrust;
+static System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const ExplicitDistrust;
 
 /// @brief Field HasNotSupportedCriticalExtension offset 0
-static ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const HasNotSupportedCriticalExtension;
+static System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const HasNotSupportedCriticalExtension;
 
 /// @brief Field HasWeakSignature offset 0
-static ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const HasWeakSignature;
+static System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const HasWeakSignature;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography::X509Certificates
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags, "System.Security.Cryptography.X509Certificates", "X509ChainStatusFlags");
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags, "System.Security.Cryptography.X509Certificates", "X509ChainStatusFlags");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Configuration::Assemblies {
 struct AssemblyVersionCompatibility;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field SameMachine offset 0
-static ::System::Configuration::Assemblies::AssemblyVersionCompatibility const SameMachine;
+static System::Configuration::Assemblies::AssemblyVersionCompatibility const SameMachine;
 
 /// @brief Field SameProcess offset 0
-static ::System::Configuration::Assemblies::AssemblyVersionCompatibility const SameProcess;
+static System::Configuration::Assemblies::AssemblyVersionCompatibility const SameProcess;
 
 /// @brief Field SameDomain offset 0
-static ::System::Configuration::Assemblies::AssemblyVersionCompatibility const SameDomain;
+static System::Configuration::Assemblies::AssemblyVersionCompatibility const SameDomain;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Configuration::Assemblies
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Configuration::Assemblies::AssemblyVersionCompatibility, "System.Configuration.Assemblies", "AssemblyVersionCompatibility");
+DEFINE_IL2CPP_ARG_TYPE(System::Configuration::Assemblies::AssemblyVersionCompatibility, "System.Configuration.Assemblies", "AssemblyVersionCompatibility");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5446))
 // CS Name: ConditionalMove
-class CORDL_TYPE ConditionalMove : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ConditionalMove : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr ConditionalMove(ConditionalMove const& ) noexcept = default;
 constexpr ConditionalMove(ConditionalMove&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ConditionalMove(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ConditionalMove(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -54,17 +53,17 @@ constexpr explicit ConditionalMove(void* ptr) noexcept : ::UnityEngine::MonoBeha
 
 // Fields
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__offset, put=__set__offset))  _offset;
+ UnityEngine::Vector3 __declspec(property(get=__get__offset, put=__set__offset))  _offset;
 
-constexpr void __set__offset(::UnityEngine::Vector3 value) ;
+constexpr void __set__offset(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__offset() const;
+constexpr UnityEngine::Vector3 __get__offset() const;
 
- ::GlobalNamespace::BoolSO __declspec(property(get=__get__value, put=__set__value))  _value;
+ GlobalNamespace::BoolSO __declspec(property(get=__get__value, put=__set__value))  _value;
 
-constexpr void __set__value(::GlobalNamespace::BoolSO value) ;
+constexpr void __set__value(GlobalNamespace::BoolSO value) ;
 
-constexpr ::GlobalNamespace::BoolSO __get__value() const;
+constexpr GlobalNamespace::BoolSO __get__value() const;
 
  bool __declspec(property(get=__get__activateOnFalse, put=__set__activateOnFalse))  _activateOnFalse;
 
@@ -88,6 +87,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ConditionalMove);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ConditionalMove, "", "ConditionalMove");
+NEED_NO_BOX(GlobalNamespace::ConditionalMove);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConditionalMove, "", "ConditionalMove");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Xml {
 struct XmlSpace;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::Xml::XmlSpace const None;
+static System::Xml::XmlSpace const None;
 
 /// @brief Field Default offset 0
-static ::System::Xml::XmlSpace const Default;
+static System::Xml::XmlSpace const Default;
 
 /// @brief Field Preserve offset 0
-static ::System::Xml::XmlSpace const Preserve;
+static System::Xml::XmlSpace const Preserve;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlSpace, "System.Xml", "XmlSpace");
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlSpace, "System.Xml", "XmlSpace");

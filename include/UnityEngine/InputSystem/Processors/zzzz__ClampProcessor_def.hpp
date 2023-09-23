@@ -3,7 +3,6 @@
 #include "UnityEngine/InputSystem/zzzz__InputProcessor_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine::InputSystem {
 class InputControl;
 }
@@ -17,7 +16,7 @@ namespace UnityEngine::InputSystem::Processors {
 // Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6319), inst: 374 }), TypeDefinitionIndex(TypeDefinitionIndex(6319))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6664))
 // CS Name: UnityEngine.InputSystem.Processors.ClampProcessor
-class CORDL_TYPE ClampProcessor : public ::UnityEngine::InputSystem::InputProcessor_1<float_t> {
+class CORDL_TYPE ClampProcessor : public UnityEngine::InputSystem::InputProcessor_1<float_t> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr ClampProcessor(ClampProcessor const& ) noexcept = default;
 constexpr ClampProcessor(ClampProcessor&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ClampProcessor(void* ptr) noexcept : ::UnityEngine::InputSystem::InputProcessor_1<float_t>(ptr) {
+constexpr explicit ClampProcessor(void* ptr) noexcept : UnityEngine::InputSystem::InputProcessor_1<float_t>(ptr) {
 }
 
 
@@ -69,7 +68,7 @@ constexpr float_t __get_max() const;
 // Methods
 
 /// @brief Method Process addr 0x29663c8 size 0x18 virtual true final false
- float_t Process(float_t value, ::UnityEngine::InputSystem::InputControl control) ;
+ float_t Process(float_t value, UnityEngine::InputSystem::InputControl control) ;
 
 /// @brief Method ToString addr 0x29663e0 size 0xa0 virtual true final false
  ::StringW ToString() ;
@@ -84,6 +83,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Processors
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Processors::ClampProcessor);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Processors::ClampProcessor, "UnityEngine.InputSystem.Processors", "ClampProcessor");
+NEED_NO_BOX(UnityEngine::InputSystem::Processors::ClampProcessor);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Processors::ClampProcessor, "UnityEngine.InputSystem.Processors", "ClampProcessor");

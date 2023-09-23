@@ -3,28 +3,27 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
 struct SaberType;
-}
-namespace UnityEngine {
-class CanvasGroup;
-}
-namespace UnityEngine {
-class ParticleSystem;
-}
-namespace GlobalNamespace {
-class ColorManager;
-}
-namespace UnityEngine::UI {
-class Image;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
 }
+namespace UnityEngine::UI {
+class Image;
+}
+namespace UnityEngine {
+class ParticleSystem;
+}
 namespace UnityEngine {
 class Collider;
+}
+namespace GlobalNamespace {
+class ColorManager;
+}
+namespace UnityEngine {
+class CanvasGroup;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -36,7 +35,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5427))
 // CS Name: IntroTutorialRing
-class CORDL_TYPE IntroTutorialRing : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE IntroTutorialRing : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -51,7 +50,7 @@ constexpr IntroTutorialRing(IntroTutorialRing const& ) noexcept = default;
 constexpr IntroTutorialRing(IntroTutorialRing&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit IntroTutorialRing(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit IntroTutorialRing(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -72,29 +71,29 @@ constexpr explicit IntroTutorialRing(void* ptr) noexcept : ::UnityEngine::MonoBe
 
 // Fields
 
- ::ArrayW<::UnityEngine::UI::Image> __declspec(property(get=__get__progressImages, put=__set__progressImages))  _progressImages;
+ ::ArrayW<UnityEngine::UI::Image> __declspec(property(get=__get__progressImages, put=__set__progressImages))  _progressImages;
 
-constexpr void __set__progressImages(::ArrayW<::UnityEngine::UI::Image> value) ;
+constexpr void __set__progressImages(::ArrayW<UnityEngine::UI::Image> value) ;
 
-constexpr ::ArrayW<::UnityEngine::UI::Image> __get__progressImages() const;
+constexpr ::ArrayW<UnityEngine::UI::Image> __get__progressImages() const;
 
- ::GlobalNamespace::SaberType __declspec(property(get=__get__saberType, put=__set__saberType))  _saberType;
+ GlobalNamespace::SaberType __declspec(property(get=__get__saberType, put=__set__saberType))  _saberType;
 
-constexpr void __set__saberType(::GlobalNamespace::SaberType value) ;
+constexpr void __set__saberType(GlobalNamespace::SaberType value) ;
 
-constexpr ::GlobalNamespace::SaberType __get__saberType() const;
+constexpr GlobalNamespace::SaberType __get__saberType() const;
 
- ::UnityEngine::ParticleSystem __declspec(property(get=__get__particleSystem, put=__set__particleSystem))  _particleSystem;
+ UnityEngine::ParticleSystem __declspec(property(get=__get__particleSystem, put=__set__particleSystem))  _particleSystem;
 
-constexpr void __set__particleSystem(::UnityEngine::ParticleSystem value) ;
+constexpr void __set__particleSystem(UnityEngine::ParticleSystem value) ;
 
-constexpr ::UnityEngine::ParticleSystem __get__particleSystem() const;
+constexpr UnityEngine::ParticleSystem __get__particleSystem() const;
 
- ::UnityEngine::CanvasGroup __declspec(property(get=__get__canvasGroup, put=__set__canvasGroup))  _canvasGroup;
+ UnityEngine::CanvasGroup __declspec(property(get=__get__canvasGroup, put=__set__canvasGroup))  _canvasGroup;
 
-constexpr void __set__canvasGroup(::UnityEngine::CanvasGroup value) ;
+constexpr void __set__canvasGroup(UnityEngine::CanvasGroup value) ;
 
-constexpr ::UnityEngine::CanvasGroup __get__canvasGroup() const;
+constexpr UnityEngine::CanvasGroup __get__canvasGroup() const;
 
  float_t __declspec(property(get=__get__activationDuration, put=__set__activationDuration))  _activationDuration;
 
@@ -102,17 +101,17 @@ constexpr void __set__activationDuration(float_t value) ;
 
 constexpr float_t __get__activationDuration() const;
 
- ::ArrayW<::UnityEngine::UI::Image> __declspec(property(get=__get__ringGLowImages, put=__set__ringGLowImages))  _ringGLowImages;
+ ::ArrayW<UnityEngine::UI::Image> __declspec(property(get=__get__ringGLowImages, put=__set__ringGLowImages))  _ringGLowImages;
 
-constexpr void __set__ringGLowImages(::ArrayW<::UnityEngine::UI::Image> value) ;
+constexpr void __set__ringGLowImages(::ArrayW<UnityEngine::UI::Image> value) ;
 
-constexpr ::ArrayW<::UnityEngine::UI::Image> __get__ringGLowImages() const;
+constexpr ::ArrayW<UnityEngine::UI::Image> __get__ringGLowImages() const;
 
- ::GlobalNamespace::ColorManager __declspec(property(get=__get__colorManager, put=__set__colorManager))  _colorManager;
+ GlobalNamespace::ColorManager __declspec(property(get=__get__colorManager, put=__set__colorManager))  _colorManager;
 
-constexpr void __set__colorManager(::GlobalNamespace::ColorManager value) ;
+constexpr void __set__colorManager(GlobalNamespace::ColorManager value) ;
 
-constexpr ::GlobalNamespace::ColorManager __get__colorManager() const;
+constexpr GlobalNamespace::ColorManager __get__colorManager() const;
 
  bool __declspec(property(get=__get__highlighted, put=__set__highlighted))  _highlighted;
 
@@ -132,11 +131,11 @@ constexpr void __set__activationProgress(float_t value) ;
 
 constexpr float_t __get__activationProgress() const;
 
- ::System::Collections::Generic::HashSet_1<::GlobalNamespace::SaberType> __declspec(property(get=__get__sabersInside, put=__set__sabersInside))  _sabersInside;
+ System::Collections::Generic::HashSet_1<GlobalNamespace::SaberType> __declspec(property(get=__get__sabersInside, put=__set__sabersInside))  _sabersInside;
 
-constexpr void __set__sabersInside(::System::Collections::Generic::HashSet_1<::GlobalNamespace::SaberType> value) ;
+constexpr void __set__sabersInside(System::Collections::Generic::HashSet_1<GlobalNamespace::SaberType> value) ;
 
-constexpr ::System::Collections::Generic::HashSet_1<::GlobalNamespace::SaberType> __get__sabersInside() const;
+constexpr System::Collections::Generic::HashSet_1<GlobalNamespace::SaberType> __get__sabersInside() const;
 
  bool __declspec(property(get=__get__sabersInsideAfterOnEnable, put=__set__sabersInsideAfterOnEnable))  _sabersInsideAfterOnEnable;
 
@@ -151,7 +150,7 @@ constexpr bool __get__sabersInsideAfterOnEnable() const;
 
  bool __declspec(property(get=get_fullyActivated))  fullyActivated;
 
- ::GlobalNamespace::SaberType __declspec(property(get=get_saberType, put=set_saberType))  saberType;
+ GlobalNamespace::SaberType __declspec(property(get=get_saberType, put=set_saberType))  saberType;
 
 
 // Methods
@@ -163,10 +162,10 @@ constexpr bool __get__sabersInsideAfterOnEnable() const;
  bool get_fullyActivated() ;
 
 /// @brief Method get_saberType addr 0x21116b0 size 0x8 virtual false final false
- ::GlobalNamespace::SaberType get_saberType() ;
+ GlobalNamespace::SaberType get_saberType() ;
 
 /// @brief Method set_saberType addr 0x21116b8 size 0x8 virtual false final false
- void set_saberType(::GlobalNamespace::SaberType value) ;
+ void set_saberType(GlobalNamespace::SaberType value) ;
 
 /// @brief Method Start addr 0x21116c0 size 0x8c virtual false final false
  void Start() ;
@@ -181,13 +180,13 @@ constexpr bool __get__sabersInsideAfterOnEnable() const;
  void SetProgressImagesfillAmount(float_t fillAmount) ;
 
 /// @brief Method OnTriggerEnter addr 0x2111928 size 0x108 virtual false final false
- void OnTriggerEnter(::UnityEngine::Collider other) ;
+ void OnTriggerEnter(UnityEngine::Collider other) ;
 
 /// @brief Method OnTriggerExit addr 0x2111a30 size 0x108 virtual false final false
- void OnTriggerExit(::UnityEngine::Collider other) ;
+ void OnTriggerExit(UnityEngine::Collider other) ;
 
 /// @brief Method OnTriggerStay addr 0x2111b38 size 0x108 virtual false final false
- void OnTriggerStay(::UnityEngine::Collider other) ;
+ void OnTriggerStay(UnityEngine::Collider other) ;
 
 // Ctor Parameters []
 explicit IntroTutorialRing() ;
@@ -199,6 +198,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IntroTutorialRing);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IntroTutorialRing, "", "IntroTutorialRing");
+NEED_NO_BOX(GlobalNamespace::IntroTutorialRing);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IntroTutorialRing, "", "IntroTutorialRing");

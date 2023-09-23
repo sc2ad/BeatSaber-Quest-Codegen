@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 struct UriFormat;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field UriEscaped offset 0
-static ::System::UriFormat const UriEscaped;
+static System::UriFormat const UriEscaped;
 
 /// @brief Field Unescaped offset 0
-static ::System::UriFormat const Unescaped;
+static System::UriFormat const Unescaped;
 
 /// @brief Field SafeUnescaped offset 0
-static ::System::UriFormat const SafeUnescaped;
+static System::UriFormat const SafeUnescaped;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::UriFormat, "System", "UriFormat");
+DEFINE_IL2CPP_ARG_TYPE(System::UriFormat, "System", "UriFormat");

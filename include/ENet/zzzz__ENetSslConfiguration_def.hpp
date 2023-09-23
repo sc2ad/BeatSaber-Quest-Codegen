@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace ENet {
 struct SslMode;
 }
@@ -20,8 +19,8 @@ namespace ENet {
 struct CORDL_TYPE ENetSslConfiguration : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "mode", ty: "::ENet::SslMode", modifiers: "", def_value: None }, CppParam { name: "certificatePath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "certificate", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "privateKeyPath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "privateKey", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "validateCertificate", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "rootCertificatePath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "rootCertificate", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "hostName", ty: "::StringW", modifiers: "", def_value: None }]
-constexpr ENetSslConfiguration(::ENet::SslMode mode, ::StringW certificatePath, ::StringW certificate, ::StringW privateKeyPath, ::StringW privateKey, int32_t validateCertificate, ::StringW rootCertificatePath, ::StringW rootCertificate, ::StringW hostName) noexcept;
+// Ctor Parameters [CppParam { name: "mode", ty: "ENet::SslMode", modifiers: "", def_value: None }, CppParam { name: "certificatePath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "certificate", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "privateKeyPath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "privateKey", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "validateCertificate", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "rootCertificatePath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "rootCertificate", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "hostName", ty: "::StringW", modifiers: "", def_value: None }]
+constexpr ENetSslConfiguration(ENet::SslMode mode, ::StringW certificatePath, ::StringW certificate, ::StringW privateKeyPath, ::StringW privateKey, int32_t validateCertificate, ::StringW rootCertificatePath, ::StringW rootCertificate, ::StringW hostName) noexcept;
 
 
                     constexpr ENetSslConfiguration(ENetSslConfiguration const&) = default;
@@ -54,11 +53,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::ENet::SslMode __declspec(property(get=__get_mode, put=__set_mode))  mode;
+ ENet::SslMode __declspec(property(get=__get_mode, put=__set_mode))  mode;
 
-constexpr void __set_mode(::ENet::SslMode value) ;
+constexpr void __set_mode(ENet::SslMode value) ;
 
-constexpr ::ENet::SslMode __get_mode() const;
+constexpr ENet::SslMode __get_mode() const;
 
  ::StringW __declspec(property(get=__get_certificatePath, put=__set_certificatePath))  certificatePath;
 
@@ -112,5 +111,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def ENet
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::ENet::ENetSslConfiguration, "ENet", "ENetSslConfiguration");
+DEFINE_IL2CPP_ARG_TYPE(ENet::ENetSslConfiguration, "ENet", "ENetSslConfiguration");

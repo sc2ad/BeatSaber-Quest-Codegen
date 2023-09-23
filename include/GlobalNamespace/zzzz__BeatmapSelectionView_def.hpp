@@ -1,15 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class LevelBar;
-}
 namespace TMPro {
 class TextMeshProUGUI;
 }
 namespace GlobalNamespace {
 class PreviewDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class LevelBar;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5859))
 // CS Name: BeatmapSelectionView
-class CORDL_TYPE BeatmapSelectionView : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE BeatmapSelectionView : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr BeatmapSelectionView(BeatmapSelectionView const& ) noexcept = default;
 constexpr BeatmapSelectionView(BeatmapSelectionView&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BeatmapSelectionView(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit BeatmapSelectionView(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -57,23 +56,23 @@ constexpr explicit BeatmapSelectionView(void* ptr) noexcept : ::UnityEngine::Mon
 
 // Fields
 
- ::GlobalNamespace::LevelBar __declspec(property(get=__get__levelBar, put=__set__levelBar))  _levelBar;
+ GlobalNamespace::LevelBar __declspec(property(get=__get__levelBar, put=__set__levelBar))  _levelBar;
 
-constexpr void __set__levelBar(::GlobalNamespace::LevelBar value) ;
+constexpr void __set__levelBar(GlobalNamespace::LevelBar value) ;
 
-constexpr ::GlobalNamespace::LevelBar __get__levelBar() const;
+constexpr GlobalNamespace::LevelBar __get__levelBar() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__noLevelText, put=__set__noLevelText))  _noLevelText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__noLevelText, put=__set__noLevelText))  _noLevelText;
 
-constexpr void __set__noLevelText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__noLevelText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__noLevelText() const;
+constexpr TMPro::TextMeshProUGUI __get__noLevelText() const;
 
 
 // Methods
 
 /// @brief Method SetBeatmap addr 0x2185160 size 0xa8 virtual true final false
- void SetBeatmap(::GlobalNamespace::PreviewDifficultyBeatmap beatmapLevel) ;
+ void SetBeatmap(GlobalNamespace::PreviewDifficultyBeatmap beatmapLevel) ;
 
 // Ctor Parameters []
 explicit BeatmapSelectionView() ;
@@ -85,6 +84,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BeatmapSelectionView);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapSelectionView, "", "BeatmapSelectionView");
+NEED_NO_BOX(GlobalNamespace::BeatmapSelectionView);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSelectionView, "", "BeatmapSelectionView");

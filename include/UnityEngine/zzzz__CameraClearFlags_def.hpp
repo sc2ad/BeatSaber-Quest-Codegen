@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct CameraClearFlags;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Skybox offset 0
-static ::UnityEngine::CameraClearFlags const Skybox;
+static UnityEngine::CameraClearFlags const Skybox;
 
 /// @brief Field Color offset 0
-static ::UnityEngine::CameraClearFlags const Color;
+static UnityEngine::CameraClearFlags const Color;
 
 /// @brief Field SolidColor offset 0
-static ::UnityEngine::CameraClearFlags const SolidColor;
+static UnityEngine::CameraClearFlags const SolidColor;
 
 /// @brief Field Depth offset 0
-static ::UnityEngine::CameraClearFlags const Depth;
+static UnityEngine::CameraClearFlags const Depth;
 
 /// @brief Field Nothing offset 0
-static ::UnityEngine::CameraClearFlags const Nothing;
+static UnityEngine::CameraClearFlags const Nothing;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::CameraClearFlags, "UnityEngine", "CameraClearFlags");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CameraClearFlags, "UnityEngine", "CameraClearFlags");

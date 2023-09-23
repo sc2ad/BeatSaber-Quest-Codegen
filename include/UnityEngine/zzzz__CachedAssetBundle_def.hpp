@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
-namespace {
 namespace UnityEngine {
 struct Hash128;
 }
@@ -19,8 +18,8 @@ namespace UnityEngine {
 struct CORDL_TYPE CachedAssetBundle : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Hash", ty: "::UnityEngine::Hash128", modifiers: "", def_value: None }]
-constexpr CachedAssetBundle(::StringW m_Name, ::UnityEngine::Hash128 m_Hash) noexcept;
+// Ctor Parameters [CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Hash", ty: "UnityEngine::Hash128", modifiers: "", def_value: None }]
+constexpr CachedAssetBundle(::StringW m_Name, UnityEngine::Hash128 m_Hash) noexcept;
 
 
                     constexpr CachedAssetBundle(CachedAssetBundle const&) = default;
@@ -59,34 +58,33 @@ constexpr void __set_m_Name(::StringW value) ;
 
 constexpr ::StringW __get_m_Name() const;
 
- ::UnityEngine::Hash128 __declspec(property(get=__get_m_Hash, put=__set_m_Hash))  m_Hash;
+ UnityEngine::Hash128 __declspec(property(get=__get_m_Hash, put=__set_m_Hash))  m_Hash;
 
-constexpr void __set_m_Hash(::UnityEngine::Hash128 value) ;
+constexpr void __set_m_Hash(UnityEngine::Hash128 value) ;
 
-constexpr ::UnityEngine::Hash128 __get_m_Hash() const;
+constexpr UnityEngine::Hash128 __get_m_Hash() const;
 
 
 // Properties
 
  ::StringW __declspec(property(get=get_name))  name;
 
- ::UnityEngine::Hash128 __declspec(property(get=get_hash))  hash;
+ UnityEngine::Hash128 __declspec(property(get=get_hash))  hash;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x2b4f304 size 0xc virtual false final false
- void _ctor(::StringW name, ::UnityEngine::Hash128 hash) ;
+ void _ctor(::StringW name, UnityEngine::Hash128 hash) ;
 
 /// @brief Method get_name addr 0x2b4ecf4 size 0x8 virtual false final false
  ::StringW get_name() ;
 
 /// @brief Method get_hash addr 0x2b4ecfc size 0xc virtual false final false
- ::UnityEngine::Hash128 get_hash() ;
+ UnityEngine::Hash128 get_hash() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::CachedAssetBundle, "UnityEngine", "CachedAssetBundle");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CachedAssetBundle, "UnityEngine", "CachedAssetBundle");

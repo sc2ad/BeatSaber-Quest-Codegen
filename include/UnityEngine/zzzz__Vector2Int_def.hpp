@@ -4,19 +4,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System {
-class IFormattable;
-}
 namespace UnityEngine {
 struct Vector2;
 }
 namespace System {
-template<typename T>
-class IEquatable_1;
+class IFormatProvider;
 }
 namespace System {
-class IFormatProvider;
+class IFormattable;
+}
+namespace System {
+template<typename T>
+class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -31,11 +30,11 @@ namespace UnityEngine {
 struct CORDL_TYPE Vector2Int : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::Vector2Int>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::Vector2Int>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::Vector2Int>
+constexpr operator  System::IEquatable_1<UnityEngine::Vector2Int>() const;
 
-/// @brief Convert operator to ::System::IFormattable
-constexpr operator  ::System::IFormattable() const;
+/// @brief Convert operator to System::IFormattable
+constexpr operator  System::IFormattable() const;
 
 // Ctor Parameters [CppParam { name: "m_X", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Y", ty: "int32_t", modifiers: "", def_value: None }]
 constexpr Vector2Int(int32_t m_X, int32_t m_Y) noexcept;
@@ -83,41 +82,41 @@ constexpr void __set_m_Y(int32_t value) ;
 
 constexpr int32_t __get_m_Y() const;
 
-static ::UnityEngine::Vector2Int __declspec(property(get=__get_s_Zero, put=__set_s_Zero))  s_Zero;
+static UnityEngine::Vector2Int __declspec(property(get=__get_s_Zero, put=__set_s_Zero))  s_Zero;
 
-static void __set_s_Zero(::UnityEngine::Vector2Int value) ;
+static void __set_s_Zero(UnityEngine::Vector2Int value) ;
 
-static ::UnityEngine::Vector2Int __get_s_Zero() ;
+static UnityEngine::Vector2Int __get_s_Zero() ;
 
-static ::UnityEngine::Vector2Int __declspec(property(get=__get_s_One, put=__set_s_One))  s_One;
+static UnityEngine::Vector2Int __declspec(property(get=__get_s_One, put=__set_s_One))  s_One;
 
-static void __set_s_One(::UnityEngine::Vector2Int value) ;
+static void __set_s_One(UnityEngine::Vector2Int value) ;
 
-static ::UnityEngine::Vector2Int __get_s_One() ;
+static UnityEngine::Vector2Int __get_s_One() ;
 
-static ::UnityEngine::Vector2Int __declspec(property(get=__get_s_Up, put=__set_s_Up))  s_Up;
+static UnityEngine::Vector2Int __declspec(property(get=__get_s_Up, put=__set_s_Up))  s_Up;
 
-static void __set_s_Up(::UnityEngine::Vector2Int value) ;
+static void __set_s_Up(UnityEngine::Vector2Int value) ;
 
-static ::UnityEngine::Vector2Int __get_s_Up() ;
+static UnityEngine::Vector2Int __get_s_Up() ;
 
-static ::UnityEngine::Vector2Int __declspec(property(get=__get_s_Down, put=__set_s_Down))  s_Down;
+static UnityEngine::Vector2Int __declspec(property(get=__get_s_Down, put=__set_s_Down))  s_Down;
 
-static void __set_s_Down(::UnityEngine::Vector2Int value) ;
+static void __set_s_Down(UnityEngine::Vector2Int value) ;
 
-static ::UnityEngine::Vector2Int __get_s_Down() ;
+static UnityEngine::Vector2Int __get_s_Down() ;
 
-static ::UnityEngine::Vector2Int __declspec(property(get=__get_s_Left, put=__set_s_Left))  s_Left;
+static UnityEngine::Vector2Int __declspec(property(get=__get_s_Left, put=__set_s_Left))  s_Left;
 
-static void __set_s_Left(::UnityEngine::Vector2Int value) ;
+static void __set_s_Left(UnityEngine::Vector2Int value) ;
 
-static ::UnityEngine::Vector2Int __get_s_Left() ;
+static UnityEngine::Vector2Int __get_s_Left() ;
 
-static ::UnityEngine::Vector2Int __declspec(property(get=__get_s_Right, put=__set_s_Right))  s_Right;
+static UnityEngine::Vector2Int __declspec(property(get=__get_s_Right, put=__set_s_Right))  s_Right;
 
-static void __set_s_Right(::UnityEngine::Vector2Int value) ;
+static void __set_s_Right(UnityEngine::Vector2Int value) ;
 
-static ::UnityEngine::Vector2Int __get_s_Right() ;
+static UnityEngine::Vector2Int __get_s_Right() ;
 
 
 // Properties
@@ -145,19 +144,19 @@ static ::UnityEngine::Vector2Int __get_s_Right() ;
  void _ctor(int32_t x, int32_t y) ;
 
 /// @brief Method op_Implicit addr 0x2b5e40c size 0x10 virtual false final false
-static ::UnityEngine::Vector2 op_Implicit___UnityEngine__Vector2(::UnityEngine::Vector2Int v) ;
+static UnityEngine::Vector2 op_Implicit_UnityEngine__Vector2(UnityEngine::Vector2Int v) ;
 
 /// @brief Method FloorToInt addr 0x2b5e41c size 0xf8 virtual false final false
-static ::UnityEngine::Vector2Int FloorToInt(::UnityEngine::Vector2 v) ;
+static UnityEngine::Vector2Int FloorToInt(UnityEngine::Vector2 v) ;
 
 /// @brief Method op_Equality addr 0x2b5e514 size 0x20 virtual false final false
-static bool op_Equality(::UnityEngine::Vector2Int lhs, ::UnityEngine::Vector2Int rhs) ;
+static bool op_Equality(UnityEngine::Vector2Int lhs, UnityEngine::Vector2Int rhs) ;
 
 /// @brief Method Equals addr 0x2b5e534 size 0x88 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
 
 /// @brief Method Equals addr 0x2b5e5bc size 0x28 virtual true final true
- bool Equals(::UnityEngine::Vector2Int other) ;
+ bool Equals(UnityEngine::Vector2Int other) ;
 
 /// @brief Method GetHashCode addr 0x2b5e5e4 size 0x48 virtual true final false
  int32_t GetHashCode() ;
@@ -166,11 +165,10 @@ static bool op_Equality(::UnityEngine::Vector2Int lhs, ::UnityEngine::Vector2Int
  ::StringW ToString() ;
 
 /// @brief Method ToString addr 0x2b5e638 size 0x17c virtual true final true
- ::StringW ToString(::StringW format, ::System::IFormatProvider formatProvider) ;
+ ::StringW ToString(::StringW format, System::IFormatProvider formatProvider) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Vector2Int, "UnityEngine", "Vector2Int");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Vector2Int, "UnityEngine", "Vector2Int");

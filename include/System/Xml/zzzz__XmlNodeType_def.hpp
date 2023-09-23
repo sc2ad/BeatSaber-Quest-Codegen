@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Xml {
 struct XmlNodeType;
@@ -83,62 +82,61 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::Xml::XmlNodeType const None;
+static System::Xml::XmlNodeType const None;
 
 /// @brief Field Element offset 0
-static ::System::Xml::XmlNodeType const Element;
+static System::Xml::XmlNodeType const Element;
 
 /// @brief Field Attribute offset 0
-static ::System::Xml::XmlNodeType const Attribute;
+static System::Xml::XmlNodeType const Attribute;
 
 /// @brief Field Text offset 0
-static ::System::Xml::XmlNodeType const Text;
+static System::Xml::XmlNodeType const Text;
 
 /// @brief Field CDATA offset 0
-static ::System::Xml::XmlNodeType const CDATA;
+static System::Xml::XmlNodeType const CDATA;
 
 /// @brief Field EntityReference offset 0
-static ::System::Xml::XmlNodeType const EntityReference;
+static System::Xml::XmlNodeType const EntityReference;
 
 /// @brief Field Entity offset 0
-static ::System::Xml::XmlNodeType const Entity;
+static System::Xml::XmlNodeType const Entity;
 
 /// @brief Field ProcessingInstruction offset 0
-static ::System::Xml::XmlNodeType const ProcessingInstruction;
+static System::Xml::XmlNodeType const ProcessingInstruction;
 
 /// @brief Field Comment offset 0
-static ::System::Xml::XmlNodeType const Comment;
+static System::Xml::XmlNodeType const Comment;
 
 /// @brief Field Document offset 0
-static ::System::Xml::XmlNodeType const Document;
+static System::Xml::XmlNodeType const Document;
 
 /// @brief Field DocumentType offset 0
-static ::System::Xml::XmlNodeType const DocumentType;
+static System::Xml::XmlNodeType const DocumentType;
 
 /// @brief Field DocumentFragment offset 0
-static ::System::Xml::XmlNodeType const DocumentFragment;
+static System::Xml::XmlNodeType const DocumentFragment;
 
 /// @brief Field Notation offset 0
-static ::System::Xml::XmlNodeType const Notation;
+static System::Xml::XmlNodeType const Notation;
 
 /// @brief Field Whitespace offset 0
-static ::System::Xml::XmlNodeType const Whitespace;
+static System::Xml::XmlNodeType const Whitespace;
 
 /// @brief Field SignificantWhitespace offset 0
-static ::System::Xml::XmlNodeType const SignificantWhitespace;
+static System::Xml::XmlNodeType const SignificantWhitespace;
 
 /// @brief Field EndElement offset 0
-static ::System::Xml::XmlNodeType const EndElement;
+static System::Xml::XmlNodeType const EndElement;
 
 /// @brief Field EndEntity offset 0
-static ::System::Xml::XmlNodeType const EndEntity;
+static System::Xml::XmlNodeType const EndEntity;
 
 /// @brief Field XmlDeclaration offset 0
-static ::System::Xml::XmlNodeType const XmlDeclaration;
+static System::Xml::XmlNodeType const XmlDeclaration;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlNodeType, "System.Xml", "XmlNodeType");
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlNodeType, "System.Xml", "XmlNodeType");

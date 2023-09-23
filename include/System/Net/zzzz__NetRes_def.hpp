@@ -2,12 +2,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System::Net {
-struct FtpStatusCode;
-}
 namespace System::Net {
 struct WebExceptionStatus;
+}
+namespace System::Net {
+struct FtpStatusCode;
 }
 // Forward declare root types
 namespace System::Net {
@@ -56,18 +55,17 @@ constexpr explicit NetRes(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr
 // Methods
 
 /// @brief Method GetWebStatusString addr 0x280cb20 size 0xbc virtual false final false
-static ::StringW GetWebStatusString(::StringW Res, ::System::Net::WebExceptionStatus Status) ;
+static ::StringW GetWebStatusString(::StringW Res, System::Net::WebExceptionStatus Status) ;
 
 /// @brief Method GetWebStatusString addr 0x2816fb0 size 0x5c virtual false final false
-static ::StringW GetWebStatusString(::System::Net::WebExceptionStatus Status) ;
+static ::StringW GetWebStatusString(System::Net::WebExceptionStatus Status) ;
 
 /// @brief Method GetWebStatusCodeString addr 0x281700c size 0x1dc virtual false final false
-static ::StringW GetWebStatusCodeString(::System::Net::FtpStatusCode statusCode, ::StringW statusDescription) ;
+static ::StringW GetWebStatusCodeString(System::Net::FtpStatusCode statusCode, ::StringW statusDescription) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::NetRes);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetRes, "System.Net", "NetRes");
+NEED_NO_BOX(System::Net::NetRes);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetRes, "System.Net", "NetRes");

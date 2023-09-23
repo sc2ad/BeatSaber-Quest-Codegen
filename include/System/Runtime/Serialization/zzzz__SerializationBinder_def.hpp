@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class Type;
 }
@@ -54,10 +53,10 @@ constexpr explicit SerializationBinder(void* ptr) noexcept : ::bs_hook::Il2CppWr
 // Methods
 
 /// @brief Method BindToName addr 0x2348d2c size 0xc virtual true final false
- void BindToName(::System::Type serializedType, ByRef<::StringW> assemblyName, ByRef<::StringW> typeName) ;
+ void BindToName(System::Type serializedType, ByRef<::StringW> assemblyName, ByRef<::StringW> typeName) ;
 
 /// @brief Method BindToType addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Type BindToType(::StringW assemblyName, ::StringW typeName) ;
+ System::Type BindToType(::StringW assemblyName, ::StringW typeName) ;
 
 // Ctor Parameters []
 explicit SerializationBinder() ;
@@ -69,6 +68,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::SerializationBinder);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::SerializationBinder, "System.Runtime.Serialization", "SerializationBinder");
+NEED_NO_BOX(System::Runtime::Serialization::SerializationBinder);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationBinder, "System.Runtime.Serialization", "SerializationBinder");

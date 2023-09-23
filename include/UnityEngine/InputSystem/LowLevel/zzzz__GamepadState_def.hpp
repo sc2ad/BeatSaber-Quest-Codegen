@@ -4,10 +4,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateTypeInfo;
 }
@@ -16,6 +12,9 @@ struct GamepadButton;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -30,11 +29,11 @@ namespace UnityEngine::InputSystem::LowLevel {
 struct CORDL_TYPE GamepadState : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo
-constexpr operator  ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo() const;
+/// @brief Convert operator to UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo
+constexpr operator  UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo() const;
 
-// Ctor Parameters [CppParam { name: "buttons", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "leftStick", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "rightStick", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "leftTrigger", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rightTrigger", ty: "float_t", modifiers: "", def_value: None }]
-constexpr GamepadState(uint32_t buttons, ::UnityEngine::Vector2 leftStick, ::UnityEngine::Vector2 rightStick, float_t leftTrigger, float_t rightTrigger) noexcept;
+// Ctor Parameters [CppParam { name: "buttons", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "leftStick", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "rightStick", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "leftTrigger", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rightTrigger", ty: "float_t", modifiers: "", def_value: None }]
+constexpr GamepadState(uint32_t buttons, UnityEngine::Vector2 leftStick, UnityEngine::Vector2 rightStick, float_t leftTrigger, float_t rightTrigger) noexcept;
 
 
                     constexpr GamepadState(GamepadState const&) = default;
@@ -85,17 +84,17 @@ constexpr void __set_buttons(uint32_t value) ;
 
 constexpr uint32_t __get_buttons() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_leftStick, put=__set_leftStick))  leftStick;
+ UnityEngine::Vector2 __declspec(property(get=__get_leftStick, put=__set_leftStick))  leftStick;
 
-constexpr void __set_leftStick(::UnityEngine::Vector2 value) ;
+constexpr void __set_leftStick(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_leftStick() const;
+constexpr UnityEngine::Vector2 __get_leftStick() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_rightStick, put=__set_rightStick))  rightStick;
+ UnityEngine::Vector2 __declspec(property(get=__get_rightStick, put=__set_rightStick))  rightStick;
 
-constexpr void __set_rightStick(::UnityEngine::Vector2 value) ;
+constexpr void __set_rightStick(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_rightStick() const;
+constexpr UnityEngine::Vector2 __get_rightStick() const;
 
  float_t __declspec(property(get=__get_leftTrigger, put=__set_leftTrigger))  leftTrigger;
 
@@ -112,28 +111,27 @@ constexpr float_t __get_rightTrigger() const;
 
 // Properties
 
-static ::UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_Format))  Format;
+static UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_Format))  Format;
 
- ::UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_format))  format;
+ UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_format))  format;
 
 
 // Methods
 
 /// @brief Method get_Format addr 0x2955d38 size 0x30 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::FourCC get_Format() ;
+static UnityEngine::InputSystem::Utilities::FourCC get_Format() ;
 
 /// @brief Method get_format addr 0x2955d68 size 0x30 virtual true final true
- ::UnityEngine::InputSystem::Utilities::FourCC get_format() ;
+ UnityEngine::InputSystem::Utilities::FourCC get_format() ;
 
 /// @brief Method .ctor addr 0x2955d98 size 0xb4 virtual false final false
- void _ctor(::ArrayW<::UnityEngine::InputSystem::LowLevel::GamepadButton> buttons) ;
+ void _ctor(::ArrayW<UnityEngine::InputSystem::LowLevel::GamepadButton> buttons) ;
 
 /// @brief Method WithButton addr 0x2955e4c size 0x34 virtual false final false
- ::UnityEngine::InputSystem::LowLevel::GamepadState WithButton(::UnityEngine::InputSystem::LowLevel::GamepadButton button, bool value) ;
+ UnityEngine::InputSystem::LowLevel::GamepadState WithButton(UnityEngine::InputSystem::LowLevel::GamepadButton button, bool value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::LowLevel
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::GamepadState, "UnityEngine.InputSystem.LowLevel", "GamepadState");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::LowLevel::GamepadState, "UnityEngine.InputSystem.LowLevel", "GamepadState");

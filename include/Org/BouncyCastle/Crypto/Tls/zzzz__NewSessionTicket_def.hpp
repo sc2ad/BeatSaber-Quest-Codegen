@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::IO {
 class Stream;
 }
@@ -88,15 +87,14 @@ explicit NewSessionTicket(int64_t ticketLifetimeHint, ::ArrayW<uint8_t> ticket) 
  ::ArrayW<uint8_t> get_Ticket() ;
 
 /// @brief Method Encode addr 0xf04de8 size 0x7c virtual true final false
- void Encode(::System::IO::Stream output) ;
+ void Encode(System::IO::Stream output) ;
 
 /// @brief Method Parse addr 0xf04e64 size 0xac virtual false final false
-static ::Org::BouncyCastle::Crypto::Tls::NewSessionTicket Parse(::System::IO::Stream input) ;
+static Org::BouncyCastle::Crypto::Tls::NewSessionTicket Parse(System::IO::Stream input) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::NewSessionTicket);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::NewSessionTicket, "Org.BouncyCastle.Crypto.Tls", "NewSessionTicket");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::NewSessionTicket);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::NewSessionTicket, "Org.BouncyCastle.Crypto.Tls", "NewSessionTicket");

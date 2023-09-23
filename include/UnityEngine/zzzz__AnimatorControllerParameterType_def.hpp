@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct AnimatorControllerParameterType;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Float offset 0
-static ::UnityEngine::AnimatorControllerParameterType const Float;
+static UnityEngine::AnimatorControllerParameterType const Float;
 
 /// @brief Field Int offset 0
-static ::UnityEngine::AnimatorControllerParameterType const Int;
+static UnityEngine::AnimatorControllerParameterType const Int;
 
 /// @brief Field Bool offset 0
-static ::UnityEngine::AnimatorControllerParameterType const Bool;
+static UnityEngine::AnimatorControllerParameterType const Bool;
 
 /// @brief Field Trigger offset 0
-static ::UnityEngine::AnimatorControllerParameterType const Trigger;
+static UnityEngine::AnimatorControllerParameterType const Trigger;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AnimatorControllerParameterType, "UnityEngine", "AnimatorControllerParameterType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorControllerParameterType, "UnityEngine", "AnimatorControllerParameterType");

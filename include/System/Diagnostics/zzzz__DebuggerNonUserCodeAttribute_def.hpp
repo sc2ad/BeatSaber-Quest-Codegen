@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 // Forward declare root types
 namespace System::Diagnostics {
 class DebuggerNonUserCodeAttribute;
@@ -12,7 +11,7 @@ namespace System::Diagnostics {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3716))
 // CS Name: System.Diagnostics.DebuggerNonUserCodeAttribute
-class CORDL_TYPE DebuggerNonUserCodeAttribute : public ::System::Attribute {
+class CORDL_TYPE DebuggerNonUserCodeAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr DebuggerNonUserCodeAttribute(DebuggerNonUserCodeAttribute const& ) noe
 constexpr DebuggerNonUserCodeAttribute(DebuggerNonUserCodeAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DebuggerNonUserCodeAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit DebuggerNonUserCodeAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Diagnostics
-} // end anonymous namespace
-NEED_NO_BOX(::System::Diagnostics::DebuggerNonUserCodeAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::DebuggerNonUserCodeAttribute, "System.Diagnostics", "DebuggerNonUserCodeAttribute");
+NEED_NO_BOX(System::Diagnostics::DebuggerNonUserCodeAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DebuggerNonUserCodeAttribute, "System.Diagnostics", "DebuggerNonUserCodeAttribute");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace HoudiniEngineUnity {
 struct HAPI_SessionType;
 }
@@ -19,8 +18,8 @@ namespace HoudiniEngineUnity {
 struct CORDL_TYPE HAPI_Session : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "type", ty: "::HoudiniEngineUnity::HAPI_SessionType", modifiers: "", def_value: None }, CppParam { name: "id", ty: "int64_t", modifiers: "", def_value: None }]
-constexpr HAPI_Session(::HoudiniEngineUnity::HAPI_SessionType type, int64_t id) noexcept;
+// Ctor Parameters [CppParam { name: "type", ty: "HoudiniEngineUnity::HAPI_SessionType", modifiers: "", def_value: None }, CppParam { name: "id", ty: "int64_t", modifiers: "", def_value: None }]
+constexpr HAPI_Session(HoudiniEngineUnity::HAPI_SessionType type, int64_t id) noexcept;
 
 
                     constexpr HAPI_Session(HAPI_Session const&) = default;
@@ -53,11 +52,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::HoudiniEngineUnity::HAPI_SessionType __declspec(property(get=__get_type, put=__set_type))  type;
+ HoudiniEngineUnity::HAPI_SessionType __declspec(property(get=__get_type, put=__set_type))  type;
 
-constexpr void __set_type(::HoudiniEngineUnity::HAPI_SessionType value) ;
+constexpr void __set_type(HoudiniEngineUnity::HAPI_SessionType value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_SessionType __get_type() const;
+constexpr HoudiniEngineUnity::HAPI_SessionType __get_type() const;
 
  int64_t __declspec(property(get=__get_id, put=__set_id))  id;
 
@@ -69,5 +68,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_Session, "HoudiniEngineUnity", "HAPI_Session");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_Session, "HoudiniEngineUnity", "HAPI_Session");

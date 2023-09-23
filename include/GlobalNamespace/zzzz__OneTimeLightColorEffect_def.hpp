@@ -3,7 +3,6 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 class ColorSO;
 }
@@ -20,7 +19,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4986))
 // CS Name: OneTimeLightColorEffect
-class CORDL_TYPE OneTimeLightColorEffect : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OneTimeLightColorEffect : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr OneTimeLightColorEffect(OneTimeLightColorEffect const& ) noexcept = de
 constexpr OneTimeLightColorEffect(OneTimeLightColorEffect&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OneTimeLightColorEffect(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OneTimeLightColorEffect(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -56,11 +55,11 @@ constexpr explicit OneTimeLightColorEffect(void* ptr) noexcept : ::UnityEngine::
 
 // Fields
 
- ::GlobalNamespace::ColorSO __declspec(property(get=__get__color, put=__set__color))  _color;
+ GlobalNamespace::ColorSO __declspec(property(get=__get__color, put=__set__color))  _color;
 
-constexpr void __set__color(::GlobalNamespace::ColorSO value) ;
+constexpr void __set__color(GlobalNamespace::ColorSO value) ;
 
-constexpr ::GlobalNamespace::ColorSO __get__color() const;
+constexpr GlobalNamespace::ColorSO __get__color() const;
 
  float_t __declspec(property(get=__get__alpha, put=__set__alpha))  _alpha;
 
@@ -74,11 +73,11 @@ constexpr void __set__lightsId(int32_t value) ;
 
 constexpr int32_t __get__lightsId() const;
 
- ::GlobalNamespace::LightWithIdManager __declspec(property(get=__get__lightWithIdManager, put=__set__lightWithIdManager))  _lightWithIdManager;
+ GlobalNamespace::LightWithIdManager __declspec(property(get=__get__lightWithIdManager, put=__set__lightWithIdManager))  _lightWithIdManager;
 
-constexpr void __set__lightWithIdManager(::GlobalNamespace::LightWithIdManager value) ;
+constexpr void __set__lightWithIdManager(GlobalNamespace::LightWithIdManager value) ;
 
-constexpr ::GlobalNamespace::LightWithIdManager __get__lightWithIdManager() const;
+constexpr GlobalNamespace::LightWithIdManager __get__lightWithIdManager() const;
 
 
 // Methods
@@ -96,6 +95,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OneTimeLightColorEffect);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OneTimeLightColorEffect, "", "OneTimeLightColorEffect");
+NEED_NO_BOX(GlobalNamespace::OneTimeLightColorEffect);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OneTimeLightColorEffect, "", "OneTimeLightColorEffect");

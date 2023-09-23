@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
 struct X509KeyUsageFlags;
@@ -75,38 +74,37 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const None;
+static System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const None;
 
 /// @brief Field EncipherOnly offset 0
-static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const EncipherOnly;
+static System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const EncipherOnly;
 
 /// @brief Field CrlSign offset 0
-static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const CrlSign;
+static System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const CrlSign;
 
 /// @brief Field KeyCertSign offset 0
-static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const KeyCertSign;
+static System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const KeyCertSign;
 
 /// @brief Field KeyAgreement offset 0
-static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const KeyAgreement;
+static System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const KeyAgreement;
 
 /// @brief Field DataEncipherment offset 0
-static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const DataEncipherment;
+static System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const DataEncipherment;
 
 /// @brief Field KeyEncipherment offset 0
-static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const KeyEncipherment;
+static System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const KeyEncipherment;
 
 /// @brief Field NonRepudiation offset 0
-static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const NonRepudiation;
+static System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const NonRepudiation;
 
 /// @brief Field DigitalSignature offset 0
-static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const DigitalSignature;
+static System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const DigitalSignature;
 
 /// @brief Field DecipherOnly offset 0
-static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const DecipherOnly;
+static System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const DecipherOnly;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography::X509Certificates
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags, "System.Security.Cryptography.X509Certificates", "X509KeyUsageFlags");
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509KeyUsageFlags, "System.Security.Cryptography.X509Certificates", "X509KeyUsageFlags");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Xml::Schema {
 struct XmlSchemaValidity;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field NotKnown offset 0
-static ::System::Xml::Schema::XmlSchemaValidity const NotKnown;
+static System::Xml::Schema::XmlSchemaValidity const NotKnown;
 
 /// @brief Field Valid offset 0
-static ::System::Xml::Schema::XmlSchemaValidity const Valid;
+static System::Xml::Schema::XmlSchemaValidity const Valid;
 
 /// @brief Field Invalid offset 0
-static ::System::Xml::Schema::XmlSchemaValidity const Invalid;
+static System::Xml::Schema::XmlSchemaValidity const Invalid;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlSchemaValidity, "System.Xml.Schema", "XmlSchemaValidity");
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::XmlSchemaValidity, "System.Xml.Schema", "XmlSchemaValidity");

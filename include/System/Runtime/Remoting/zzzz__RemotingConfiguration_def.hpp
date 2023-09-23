@@ -2,36 +2,35 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Runtime::Remoting {
-class ProviderData;
+class ActivatedServiceTypeEntry;
 }
 namespace System::Runtime::Remoting {
-class ChannelData;
+class ActivatedClientTypeEntry;
+}
+namespace System::Runtime::Remoting {
+class WellKnownServiceTypeEntry;
 }
 namespace System::Collections {
 class ArrayList;
 }
 namespace System::Runtime::Remoting {
-struct CustomErrorsModes;
+class ChannelData;
 }
 namespace System::Runtime::Remoting {
-class ActivatedClientTypeEntry;
+class WellKnownClientTypeEntry;
 }
 namespace System::Collections {
 class Hashtable;
+}
+namespace System::Runtime::Remoting {
+struct CustomErrorsModes;
 }
 namespace System {
 class Type;
 }
 namespace System::Runtime::Remoting {
-class ActivatedServiceTypeEntry;
-}
-namespace System::Runtime::Remoting {
-class WellKnownServiceTypeEntry;
-}
-namespace System::Runtime::Remoting {
-class WellKnownClientTypeEntry;
+class ProviderData;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {
@@ -109,53 +108,53 @@ static void __set_defaultDelayedConfigRead(bool value) ;
 
 static bool __get_defaultDelayedConfigRead() ;
 
-static ::System::Runtime::Remoting::CustomErrorsModes __declspec(property(get=__get__errorMode, put=__set__errorMode))  _errorMode;
+static System::Runtime::Remoting::CustomErrorsModes __declspec(property(get=__get__errorMode, put=__set__errorMode))  _errorMode;
 
-static void __set__errorMode(::System::Runtime::Remoting::CustomErrorsModes value) ;
+static void __set__errorMode(System::Runtime::Remoting::CustomErrorsModes value) ;
 
-static ::System::Runtime::Remoting::CustomErrorsModes __get__errorMode() ;
+static System::Runtime::Remoting::CustomErrorsModes __get__errorMode() ;
 
-static ::System::Collections::Hashtable __declspec(property(get=__get_wellKnownClientEntries, put=__set_wellKnownClientEntries))  wellKnownClientEntries;
+static System::Collections::Hashtable __declspec(property(get=__get_wellKnownClientEntries, put=__set_wellKnownClientEntries))  wellKnownClientEntries;
 
-static void __set_wellKnownClientEntries(::System::Collections::Hashtable value) ;
+static void __set_wellKnownClientEntries(System::Collections::Hashtable value) ;
 
-static ::System::Collections::Hashtable __get_wellKnownClientEntries() ;
+static System::Collections::Hashtable __get_wellKnownClientEntries() ;
 
-static ::System::Collections::Hashtable __declspec(property(get=__get_activatedClientEntries, put=__set_activatedClientEntries))  activatedClientEntries;
+static System::Collections::Hashtable __declspec(property(get=__get_activatedClientEntries, put=__set_activatedClientEntries))  activatedClientEntries;
 
-static void __set_activatedClientEntries(::System::Collections::Hashtable value) ;
+static void __set_activatedClientEntries(System::Collections::Hashtable value) ;
 
-static ::System::Collections::Hashtable __get_activatedClientEntries() ;
+static System::Collections::Hashtable __get_activatedClientEntries() ;
 
-static ::System::Collections::Hashtable __declspec(property(get=__get_wellKnownServiceEntries, put=__set_wellKnownServiceEntries))  wellKnownServiceEntries;
+static System::Collections::Hashtable __declspec(property(get=__get_wellKnownServiceEntries, put=__set_wellKnownServiceEntries))  wellKnownServiceEntries;
 
-static void __set_wellKnownServiceEntries(::System::Collections::Hashtable value) ;
+static void __set_wellKnownServiceEntries(System::Collections::Hashtable value) ;
 
-static ::System::Collections::Hashtable __get_wellKnownServiceEntries() ;
+static System::Collections::Hashtable __get_wellKnownServiceEntries() ;
 
-static ::System::Collections::Hashtable __declspec(property(get=__get_activatedServiceEntries, put=__set_activatedServiceEntries))  activatedServiceEntries;
+static System::Collections::Hashtable __declspec(property(get=__get_activatedServiceEntries, put=__set_activatedServiceEntries))  activatedServiceEntries;
 
-static void __set_activatedServiceEntries(::System::Collections::Hashtable value) ;
+static void __set_activatedServiceEntries(System::Collections::Hashtable value) ;
 
-static ::System::Collections::Hashtable __get_activatedServiceEntries() ;
+static System::Collections::Hashtable __get_activatedServiceEntries() ;
 
-static ::System::Collections::Hashtable __declspec(property(get=__get_channelTemplates, put=__set_channelTemplates))  channelTemplates;
+static System::Collections::Hashtable __declspec(property(get=__get_channelTemplates, put=__set_channelTemplates))  channelTemplates;
 
-static void __set_channelTemplates(::System::Collections::Hashtable value) ;
+static void __set_channelTemplates(System::Collections::Hashtable value) ;
 
-static ::System::Collections::Hashtable __get_channelTemplates() ;
+static System::Collections::Hashtable __get_channelTemplates() ;
 
-static ::System::Collections::Hashtable __declspec(property(get=__get_clientProviderTemplates, put=__set_clientProviderTemplates))  clientProviderTemplates;
+static System::Collections::Hashtable __declspec(property(get=__get_clientProviderTemplates, put=__set_clientProviderTemplates))  clientProviderTemplates;
 
-static void __set_clientProviderTemplates(::System::Collections::Hashtable value) ;
+static void __set_clientProviderTemplates(System::Collections::Hashtable value) ;
 
-static ::System::Collections::Hashtable __get_clientProviderTemplates() ;
+static System::Collections::Hashtable __get_clientProviderTemplates() ;
 
-static ::System::Collections::Hashtable __declspec(property(get=__get_serverProviderTemplates, put=__set_serverProviderTemplates))  serverProviderTemplates;
+static System::Collections::Hashtable __declspec(property(get=__get_serverProviderTemplates, put=__set_serverProviderTemplates))  serverProviderTemplates;
 
-static void __set_serverProviderTemplates(::System::Collections::Hashtable value) ;
+static void __set_serverProviderTemplates(System::Collections::Hashtable value) ;
 
-static ::System::Collections::Hashtable __get_serverProviderTemplates() ;
+static System::Collections::Hashtable __get_serverProviderTemplates() ;
 
 
 // Properties
@@ -180,40 +179,40 @@ static ::StringW get_ProcessId() ;
 static void LoadDefaultDelayedChannels() ;
 
 /// @brief Method IsActivationAllowed addr 0x231bb00 size 0x144 virtual false final false
-static bool IsActivationAllowed(::System::Type svrType) ;
+static bool IsActivationAllowed(System::Type svrType) ;
 
 /// @brief Method IsRemotelyActivatedClientType addr 0x231bc44 size 0x18c virtual false final false
-static ::System::Runtime::Remoting::ActivatedClientTypeEntry IsRemotelyActivatedClientType(::System::Type svrType) ;
+static System::Runtime::Remoting::ActivatedClientTypeEntry IsRemotelyActivatedClientType(System::Type svrType) ;
 
 /// @brief Method IsWellKnownClientType addr 0x231bdd0 size 0x18c virtual false final false
-static ::System::Runtime::Remoting::WellKnownClientTypeEntry IsWellKnownClientType(::System::Type svrType) ;
+static System::Runtime::Remoting::WellKnownClientTypeEntry IsWellKnownClientType(System::Type svrType) ;
 
 /// @brief Method RegisterActivatedClientType addr 0x231bf5c size 0x28c virtual false final false
-static void RegisterActivatedClientType(::System::Runtime::Remoting::ActivatedClientTypeEntry entry) ;
+static void RegisterActivatedClientType(System::Runtime::Remoting::ActivatedClientTypeEntry entry) ;
 
 /// @brief Method RegisterActivatedServiceType addr 0x231c1e8 size 0x144 virtual false final false
-static void RegisterActivatedServiceType(::System::Runtime::Remoting::ActivatedServiceTypeEntry entry) ;
+static void RegisterActivatedServiceType(System::Runtime::Remoting::ActivatedServiceTypeEntry entry) ;
 
 /// @brief Method RegisterWellKnownClientType addr 0x231c32c size 0x28c virtual false final false
-static void RegisterWellKnownClientType(::System::Runtime::Remoting::WellKnownClientTypeEntry entry) ;
+static void RegisterWellKnownClientType(System::Runtime::Remoting::WellKnownClientTypeEntry entry) ;
 
 /// @brief Method RegisterWellKnownServiceType addr 0x231c5b8 size 0x188 virtual false final false
-static void RegisterWellKnownServiceType(::System::Runtime::Remoting::WellKnownServiceTypeEntry entry) ;
+static void RegisterWellKnownServiceType(System::Runtime::Remoting::WellKnownServiceTypeEntry entry) ;
 
 /// @brief Method RegisterChannelTemplate addr 0x231c85c size 0x7c virtual false final false
-static void RegisterChannelTemplate(::System::Runtime::Remoting::ChannelData channel) ;
+static void RegisterChannelTemplate(System::Runtime::Remoting::ChannelData channel) ;
 
 /// @brief Method RegisterClientProviderTemplate addr 0x231c8d8 size 0x7c virtual false final false
-static void RegisterClientProviderTemplate(::System::Runtime::Remoting::ProviderData prov) ;
+static void RegisterClientProviderTemplate(System::Runtime::Remoting::ProviderData prov) ;
 
 /// @brief Method RegisterServerProviderTemplate addr 0x231c954 size 0x7c virtual false final false
-static void RegisterServerProviderTemplate(::System::Runtime::Remoting::ProviderData prov) ;
+static void RegisterServerProviderTemplate(System::Runtime::Remoting::ProviderData prov) ;
 
 /// @brief Method RegisterChannels addr 0x231c9d0 size 0xc90 virtual false final false
-static void RegisterChannels(::System::Collections::ArrayList channels, bool onlyDelayed) ;
+static void RegisterChannels(System::Collections::ArrayList channels, bool onlyDelayed) ;
 
 /// @brief Method RegisterTypes addr 0x231e77c size 0x520 virtual false final false
-static void RegisterTypes(::System::Collections::ArrayList types) ;
+static void RegisterTypes(System::Collections::ArrayList types) ;
 
 /// @brief Method CustomErrorsEnabled addr 0x231ec9c size 0x94 virtual false final false
 static bool CustomErrorsEnabled(bool isLocalRequest) ;
@@ -225,6 +224,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::RemotingConfiguration);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::RemotingConfiguration, "System.Runtime.Remoting", "RemotingConfiguration");
+NEED_NO_BOX(System::Runtime::Remoting::RemotingConfiguration);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::RemotingConfiguration, "System.Runtime.Remoting", "RemotingConfiguration");

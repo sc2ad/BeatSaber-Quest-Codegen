@@ -3,12 +3,8 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Newtonsoft::Json::Serialization {
-class JsonContract;
-}
-namespace Newtonsoft::Json::Serialization {
-class ErrorContext;
+class JsonSerializerProxy;
 }
 namespace Newtonsoft::Json {
 class IJsonLineInfo;
@@ -17,17 +13,20 @@ namespace Newtonsoft::Json::Utilities {
 template<typename TFirst,typename TSecond>
 class BidirectionalDictionary_2;
 }
-namespace Newtonsoft::Json::Serialization {
-class ITraceWriter;
-}
 namespace System {
 class Exception;
+}
+namespace Newtonsoft::Json::Serialization {
+class ITraceWriter;
 }
 namespace Newtonsoft::Json {
 class JsonSerializer;
 }
 namespace Newtonsoft::Json::Serialization {
-class JsonSerializerProxy;
+class JsonContract;
+}
+namespace Newtonsoft::Json::Serialization {
+class ErrorContext;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -38,7 +37,7 @@ namespace Newtonsoft::Json::Serialization {
 class JsonSerializerInternalBase;
 }
 namespace Newtonsoft::Json::Serialization {
-class ____Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer;
+class Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer;
 }
 // Type: ::ReferenceEqualsEqualityComparer
 namespace Newtonsoft::Json::Serialization {
@@ -46,40 +45,40 @@ namespace Newtonsoft::Json::Serialization {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11891))
 // CS Name: Newtonsoft.Json.Serialization.JsonSerializerInternalBase::ReferenceEqualsEqualityComparer
-class CORDL_TYPE ____Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEqualityComparer_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEqualityComparer_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEqualityComparer_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEqualityComparer_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer() = default;
+virtual ~Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer", modifiers: " const&", def_value: None }]
-constexpr ____Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer(____Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer", modifiers: " const&", def_value: None }]
+constexpr Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer(Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer", modifiers: "&&", def_value: None }]
-constexpr ____Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer(____Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer", modifiers: "&&", def_value: None }]
+constexpr Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer(Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer& operator=(std::nullptr_t) noexcept {
+  constexpr Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer& operator=(void* o) noexcept {
+  constexpr Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer& operator=(____Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer&& o) noexcept = default;
-  constexpr ____Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer& operator=(____Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer const& o) noexcept = default;
+  constexpr Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer& operator=(Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer&& o) noexcept = default;
+  constexpr Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer& operator=(Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer const& o) noexcept = default;
                 
 
 
@@ -92,7 +91,7 @@ constexpr explicit ____Newtonsoft__Json__Serialization__JsonSerializerInternalBa
  int32_t System_Collections_Generic_IEqualityComparer_System_Object__GetHashCode(::bs_hook::Il2CppWrapperType obj) ;
 
 // Ctor Parameters []
-explicit ____Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer() ;
+explicit Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer() ;
 
 /// @brief Method .ctor addr 0x25032cc size 0x8 virtual false final false
  void _ctor() ;
@@ -110,7 +109,7 @@ namespace Newtonsoft::Json::Serialization {
 class CORDL_TYPE JsonSerializerInternalBase : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using ReferenceEqualsEqualityComparer = ::Newtonsoft::Json::Serialization::____Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer;
+using ReferenceEqualsEqualityComparer = Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -145,68 +144,67 @@ constexpr explicit JsonSerializerInternalBase(void* ptr) noexcept : ::bs_hook::I
 
 // Fields
 
- ::Newtonsoft::Json::Serialization::ErrorContext __declspec(property(get=__get__currentErrorContext, put=__set__currentErrorContext))  _currentErrorContext;
+ Newtonsoft::Json::Serialization::ErrorContext __declspec(property(get=__get__currentErrorContext, put=__set__currentErrorContext))  _currentErrorContext;
 
-constexpr void __set__currentErrorContext(::Newtonsoft::Json::Serialization::ErrorContext value) ;
+constexpr void __set__currentErrorContext(Newtonsoft::Json::Serialization::ErrorContext value) ;
 
-constexpr ::Newtonsoft::Json::Serialization::ErrorContext __get__currentErrorContext() const;
+constexpr Newtonsoft::Json::Serialization::ErrorContext __get__currentErrorContext() const;
 
- ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW,::bs_hook::Il2CppWrapperType> __declspec(property(get=__get__mappings, put=__set__mappings))  _mappings;
+ Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW,::bs_hook::Il2CppWrapperType> __declspec(property(get=__get__mappings, put=__set__mappings))  _mappings;
 
-constexpr void __set__mappings(::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW,::bs_hook::Il2CppWrapperType> value) ;
+constexpr void __set__mappings(Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW,::bs_hook::Il2CppWrapperType> value) ;
 
-constexpr ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW,::bs_hook::Il2CppWrapperType> __get__mappings() const;
+constexpr Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW,::bs_hook::Il2CppWrapperType> __get__mappings() const;
 
- ::Newtonsoft::Json::JsonSerializer __declspec(property(get=__get_Serializer, put=__set_Serializer))  Serializer;
+ Newtonsoft::Json::JsonSerializer __declspec(property(get=__get_Serializer, put=__set_Serializer))  Serializer;
 
-constexpr void __set_Serializer(::Newtonsoft::Json::JsonSerializer value) ;
+constexpr void __set_Serializer(Newtonsoft::Json::JsonSerializer value) ;
 
-constexpr ::Newtonsoft::Json::JsonSerializer __get_Serializer() const;
+constexpr Newtonsoft::Json::JsonSerializer __get_Serializer() const;
 
- ::Newtonsoft::Json::Serialization::ITraceWriter __declspec(property(get=__get_TraceWriter, put=__set_TraceWriter))  TraceWriter;
+ Newtonsoft::Json::Serialization::ITraceWriter __declspec(property(get=__get_TraceWriter, put=__set_TraceWriter))  TraceWriter;
 
-constexpr void __set_TraceWriter(::Newtonsoft::Json::Serialization::ITraceWriter value) ;
+constexpr void __set_TraceWriter(Newtonsoft::Json::Serialization::ITraceWriter value) ;
 
-constexpr ::Newtonsoft::Json::Serialization::ITraceWriter __get_TraceWriter() const;
+constexpr Newtonsoft::Json::Serialization::ITraceWriter __get_TraceWriter() const;
 
- ::Newtonsoft::Json::Serialization::JsonSerializerProxy __declspec(property(get=__get_InternalSerializer, put=__set_InternalSerializer))  InternalSerializer;
+ Newtonsoft::Json::Serialization::JsonSerializerProxy __declspec(property(get=__get_InternalSerializer, put=__set_InternalSerializer))  InternalSerializer;
 
-constexpr void __set_InternalSerializer(::Newtonsoft::Json::Serialization::JsonSerializerProxy value) ;
+constexpr void __set_InternalSerializer(Newtonsoft::Json::Serialization::JsonSerializerProxy value) ;
 
-constexpr ::Newtonsoft::Json::Serialization::JsonSerializerProxy __get_InternalSerializer() const;
+constexpr Newtonsoft::Json::Serialization::JsonSerializerProxy __get_InternalSerializer() const;
 
 
 // Properties
 
- ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW,::bs_hook::Il2CppWrapperType> __declspec(property(get=get_DefaultReferenceMappings))  DefaultReferenceMappings;
+ Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW,::bs_hook::Il2CppWrapperType> __declspec(property(get=get_DefaultReferenceMappings))  DefaultReferenceMappings;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "serializer", ty: "::Newtonsoft::Json::JsonSerializer", modifiers: "", def_value: None }]
-explicit JsonSerializerInternalBase(::Newtonsoft::Json::JsonSerializer serializer) ;
+// Ctor Parameters [CppParam { name: "serializer", ty: "Newtonsoft::Json::JsonSerializer", modifiers: "", def_value: None }]
+explicit JsonSerializerInternalBase(Newtonsoft::Json::JsonSerializer serializer) ;
 
 /// @brief Method .ctor addr 0x2503244 size 0x88 virtual false final false
- void _ctor(::Newtonsoft::Json::JsonSerializer serializer) ;
+ void _ctor(Newtonsoft::Json::JsonSerializer serializer) ;
 
 /// @brief Method get_DefaultReferenceMappings addr 0x24f6894 size 0x110 virtual false final false
- ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW,::bs_hook::Il2CppWrapperType> get_DefaultReferenceMappings() ;
+ Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW,::bs_hook::Il2CppWrapperType> get_DefaultReferenceMappings() ;
 
 /// @brief Method GetErrorContext addr 0x25032d4 size 0xec virtual false final false
- ::Newtonsoft::Json::Serialization::ErrorContext GetErrorContext(::bs_hook::Il2CppWrapperType currentObject, ::bs_hook::Il2CppWrapperType member, ::StringW path, ::System::Exception error) ;
+ Newtonsoft::Json::Serialization::ErrorContext GetErrorContext(::bs_hook::Il2CppWrapperType currentObject, ::bs_hook::Il2CppWrapperType member, ::StringW path, System::Exception error) ;
 
 /// @brief Method ClearErrorContext addr 0x25033c0 size 0x64 virtual false final false
  void ClearErrorContext() ;
 
 /// @brief Method IsErrorHandled addr 0x2503424 size 0x3a8 virtual false final false
- bool IsErrorHandled(::bs_hook::Il2CppWrapperType currentObject, ::Newtonsoft::Json::Serialization::JsonContract contract, ::bs_hook::Il2CppWrapperType keyValue, ::Newtonsoft::Json::IJsonLineInfo lineInfo, ::StringW path, ::System::Exception ex) ;
+ bool IsErrorHandled(::bs_hook::Il2CppWrapperType currentObject, Newtonsoft::Json::Serialization::JsonContract contract, ::bs_hook::Il2CppWrapperType keyValue, Newtonsoft::Json::IJsonLineInfo lineInfo, ::StringW path, System::Exception ex) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Serialization
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Serialization::JsonSerializerInternalBase);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::JsonSerializerInternalBase, "Newtonsoft.Json.Serialization", "JsonSerializerInternalBase");
-NEED_NO_BOX(::Newtonsoft::Json::Serialization::____Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::____Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer, "Newtonsoft.Json.Serialization", "JsonSerializerInternalBase/ReferenceEqualsEqualityComparer");
+NEED_NO_BOX(Newtonsoft::Json::Serialization::JsonSerializerInternalBase);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Serialization::JsonSerializerInternalBase, "Newtonsoft.Json.Serialization", "JsonSerializerInternalBase");
+NEED_NO_BOX(Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer, "Newtonsoft.Json.Serialization", "JsonSerializerInternalBase/ReferenceEqualsEqualityComparer");

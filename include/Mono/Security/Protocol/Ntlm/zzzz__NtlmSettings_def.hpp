@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Mono::Security::Protocol::Ntlm {
 struct NtlmAuthLevel;
 }
@@ -51,27 +50,26 @@ constexpr explicit NtlmSettings(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 
 // Fields
 
-static ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel __declspec(property(get=__get_defaultAuthLevel, put=__set_defaultAuthLevel))  defaultAuthLevel;
+static Mono::Security::Protocol::Ntlm::NtlmAuthLevel __declspec(property(get=__get_defaultAuthLevel, put=__set_defaultAuthLevel))  defaultAuthLevel;
 
-static void __set_defaultAuthLevel(::Mono::Security::Protocol::Ntlm::NtlmAuthLevel value) ;
+static void __set_defaultAuthLevel(Mono::Security::Protocol::Ntlm::NtlmAuthLevel value) ;
 
-static ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel __get_defaultAuthLevel() ;
+static Mono::Security::Protocol::Ntlm::NtlmAuthLevel __get_defaultAuthLevel() ;
 
 
 // Properties
 
-static ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel __declspec(property(get=get_DefaultAuthLevel))  DefaultAuthLevel;
+static Mono::Security::Protocol::Ntlm::NtlmAuthLevel __declspec(property(get=get_DefaultAuthLevel))  DefaultAuthLevel;
 
 
 // Methods
 
 /// @brief Method get_DefaultAuthLevel addr 0x2293d4c size 0x58 virtual false final false
-static ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel get_DefaultAuthLevel() ;
+static Mono::Security::Protocol::Ntlm::NtlmAuthLevel get_DefaultAuthLevel() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Security::Protocol::Ntlm
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Security::Protocol::Ntlm::NtlmSettings);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Protocol::Ntlm::NtlmSettings, "Mono.Security.Protocol.Ntlm", "NtlmSettings");
+NEED_NO_BOX(Mono::Security::Protocol::Ntlm::NtlmSettings);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::NtlmSettings, "Mono.Security.Protocol.Ntlm", "NtlmSettings");

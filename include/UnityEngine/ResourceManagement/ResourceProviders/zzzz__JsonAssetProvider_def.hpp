@@ -3,7 +3,6 @@
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__TextDataProvider_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class Type;
 }
@@ -17,7 +16,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14300))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14289))
 // CS Name: UnityEngine.ResourceManagement.ResourceProviders.JsonAssetProvider
-class CORDL_TYPE JsonAssetProvider : public ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider {
+class CORDL_TYPE JsonAssetProvider : public UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr JsonAssetProvider(JsonAssetProvider const& ) noexcept = default;
 constexpr JsonAssetProvider(JsonAssetProvider&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit JsonAssetProvider(void* ptr) noexcept : ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider(ptr) {
+constexpr explicit JsonAssetProvider(void* ptr) noexcept : UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider(ptr) {
 }
 
 
@@ -54,7 +53,7 @@ constexpr explicit JsonAssetProvider(void* ptr) noexcept : ::UnityEngine::Resour
 // Methods
 
 /// @brief Method Convert addr 0x2a3fdb8 size 0xc virtual true final false
- ::bs_hook::Il2CppWrapperType Convert(::System::Type type, ::StringW text) ;
+ ::bs_hook::Il2CppWrapperType Convert(System::Type type, ::StringW text) ;
 
 // Ctor Parameters []
 explicit JsonAssetProvider() ;
@@ -66,6 +65,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ResourceManagement::ResourceProviders
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider, "UnityEngine.ResourceManagement.ResourceProviders", "JsonAssetProvider");
+NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider, "UnityEngine.ResourceManagement.ResourceProviders", "JsonAssetProvider");

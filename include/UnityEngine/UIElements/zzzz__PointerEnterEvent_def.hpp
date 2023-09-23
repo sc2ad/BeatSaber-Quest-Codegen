@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerEventBase_1_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class PointerEnterEvent;
@@ -12,7 +11,7 @@ namespace UnityEngine::UIElements {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7297)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7297), inst: 4682 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7304))
 // CS Name: UnityEngine.UIElements.PointerEnterEvent
-class CORDL_TYPE PointerEnterEvent : public ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::PointerEnterEvent> {
+class CORDL_TYPE PointerEnterEvent : public UnityEngine::UIElements::PointerEventBase_1<UnityEngine::UIElements::PointerEnterEvent> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr PointerEnterEvent(PointerEnterEvent const& ) noexcept = default;
 constexpr PointerEnterEvent(PointerEnterEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PointerEnterEvent(void* ptr) noexcept : ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::PointerEnterEvent>(ptr) {
+constexpr explicit PointerEnterEvent(void* ptr) noexcept : UnityEngine::UIElements::PointerEventBase_1<UnityEngine::UIElements::PointerEnterEvent>(ptr) {
 }
 
 
@@ -64,6 +63,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::PointerEnterEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::PointerEnterEvent, "UnityEngine.UIElements", "PointerEnterEvent");
+NEED_NO_BOX(UnityEngine::UIElements::PointerEnterEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::PointerEnterEvent, "UnityEngine.UIElements", "PointerEnterEvent");

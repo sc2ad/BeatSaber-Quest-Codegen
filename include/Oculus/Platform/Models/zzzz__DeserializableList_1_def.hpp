@@ -4,10 +4,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -15,21 +13,22 @@ class ICollection_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IList_1;
+class List_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class List_1;
+class IList_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
-class IEnumerable;
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 // Forward declare root types
 namespace Oculus::Platform::Models {
@@ -52,17 +51,17 @@ template<::cordl_internals::il2cpp_reference_type T>
 class CORDL_TYPE DeserializableList_1<T> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IList_1<T>
-constexpr operator  ::System::Collections::Generic::IList_1<T>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IList_1<T>
+constexpr operator  System::Collections::Generic::IList_1<T>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::Generic::ICollection_1<T>
-constexpr operator  ::System::Collections::Generic::ICollection_1<T>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::ICollection_1<T>
+constexpr operator  System::Collections::Generic::ICollection_1<T>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerable_1<T>
-constexpr operator  ::System::Collections::Generic::IEnumerable_1<T>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerable_1<T>
+constexpr operator  System::Collections::Generic::IEnumerable_1<T>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -97,11 +96,11 @@ constexpr explicit DeserializableList_1(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 // Fields
 
- ::System::Collections::Generic::List_1<T> __declspec(property(get=__get__Data, put=__set__Data))  _Data;
+ System::Collections::Generic::List_1<T> __declspec(property(get=__get__Data, put=__set__Data))  _Data;
 
-constexpr void __set__Data(::System::Collections::Generic::List_1<T> value) ;
+constexpr void __set__Data(System::Collections::Generic::List_1<T> value) ;
 
-constexpr ::System::Collections::Generic::List_1<T> __get__Data() const;
+constexpr System::Collections::Generic::List_1<T> __get__Data() const;
 
  ::StringW __declspec(property(get=__get__NextUrl, put=__set__NextUrl))  _NextUrl;
 
@@ -124,7 +123,7 @@ constexpr ::StringW __get__PreviousUrl() const;
 
  T __declspec(property(get=get_Item, put=set_Item))  Item;
 
- ::System::Collections::Generic::List_1<T> __declspec(property(get=get_Data))  Data;
+ System::Collections::Generic::List_1<T> __declspec(property(get=get_Data))  Data;
 
  bool __declspec(property(get=get_HasNextPage))  HasNextPage;
 
@@ -165,7 +164,7 @@ constexpr ::StringW __get__PreviousUrl() const;
  void CopyTo(::ArrayW<T> array, int32_t arrayIndex) ;
 
 /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Collections::Generic::IEnumerator_1<T> GetEnumerator() ;
+ System::Collections::Generic::IEnumerator_1<T> GetEnumerator() ;
 
 /// @brief Method Insert addr 0x0 size 0xffffffffffffffff virtual true final true
  void Insert(int32_t index, T item) ;
@@ -177,13 +176,13 @@ constexpr ::StringW __get__PreviousUrl() const;
  void RemoveAt(int32_t index) ;
 
 /// @brief Method GetEnumerator1 addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Collections::IEnumerator GetEnumerator1() ;
+ System::Collections::IEnumerator GetEnumerator1() ;
 
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
+ System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
 /// @brief Method get_Data addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Collections::Generic::List_1<T> get_Data() ;
+ System::Collections::Generic::List_1<T> get_Data() ;
 
 /// @brief Method get_HasNextPage addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_HasNextPage() ;
@@ -207,5 +206,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Oculus::Platform::Models::DeserializableList_1, "Oculus.Platform.Models", "DeserializableList`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Oculus::Platform::Models::DeserializableList_1, "Oculus.Platform.Models", "DeserializableList`1");

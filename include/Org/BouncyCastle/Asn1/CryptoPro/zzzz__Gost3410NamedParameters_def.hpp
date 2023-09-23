@@ -2,18 +2,17 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System::Collections {
-class IDictionary;
-}
 namespace System::Collections {
 class IEnumerable;
 }
-namespace Org::BouncyCastle::Asn1::CryptoPro {
-class Gost3410ParamSetParameters;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace Org::BouncyCastle::Asn1::CryptoPro {
+class Gost3410ParamSetParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::CryptoPro {
@@ -61,40 +60,40 @@ constexpr explicit Gost3410NamedParameters(void* ptr) noexcept : ::bs_hook::Il2C
 
 // Fields
 
-static ::System::Collections::IDictionary __declspec(property(get=__get_objIds, put=__set_objIds))  objIds;
+static System::Collections::IDictionary __declspec(property(get=__get_objIds, put=__set_objIds))  objIds;
 
-static void __set_objIds(::System::Collections::IDictionary value) ;
+static void __set_objIds(System::Collections::IDictionary value) ;
 
-static ::System::Collections::IDictionary __get_objIds() ;
+static System::Collections::IDictionary __get_objIds() ;
 
-static ::System::Collections::IDictionary __declspec(property(get=__get_parameters, put=__set_parameters))  parameters;
+static System::Collections::IDictionary __declspec(property(get=__get_parameters, put=__set_parameters))  parameters;
 
-static void __set_parameters(::System::Collections::IDictionary value) ;
+static void __set_parameters(System::Collections::IDictionary value) ;
 
-static ::System::Collections::IDictionary __get_parameters() ;
+static System::Collections::IDictionary __get_parameters() ;
 
-static ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters __declspec(property(get=__get_cryptoProA, put=__set_cryptoProA))  cryptoProA;
+static Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters __declspec(property(get=__get_cryptoProA, put=__set_cryptoProA))  cryptoProA;
 
-static void __set_cryptoProA(::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters value) ;
+static void __set_cryptoProA(Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters value) ;
 
-static ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters __get_cryptoProA() ;
+static Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters __get_cryptoProA() ;
 
-static ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters __declspec(property(get=__get_cryptoProB, put=__set_cryptoProB))  cryptoProB;
+static Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters __declspec(property(get=__get_cryptoProB, put=__set_cryptoProB))  cryptoProB;
 
-static void __set_cryptoProB(::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters value) ;
+static void __set_cryptoProB(Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters value) ;
 
-static ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters __get_cryptoProB() ;
+static Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters __get_cryptoProB() ;
 
-static ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters __declspec(property(get=__get_cryptoProXchA, put=__set_cryptoProXchA))  cryptoProXchA;
+static Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters __declspec(property(get=__get_cryptoProXchA, put=__set_cryptoProXchA))  cryptoProXchA;
 
-static void __set_cryptoProXchA(::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters value) ;
+static void __set_cryptoProXchA(Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters value) ;
 
-static ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters __get_cryptoProXchA() ;
+static Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters __get_cryptoProXchA() ;
 
 
 // Properties
 
-static ::System::Collections::IEnumerable __declspec(property(get=get_Names))  Names;
+static System::Collections::IEnumerable __declspec(property(get=get_Names))  Names;
 
 
 // Methods
@@ -106,21 +105,20 @@ explicit Gost3410NamedParameters() ;
  void _ctor() ;
 
 /// @brief Method GetByOid addr 0xdff340 size 0x11c virtual false final false
-static ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier oid) ;
+static Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters GetByOid(Org::BouncyCastle::Asn1::DerObjectIdentifier oid) ;
 
 /// @brief Method get_Names addr 0xdff45c size 0x10c virtual false final false
-static ::System::Collections::IEnumerable get_Names() ;
+static System::Collections::IEnumerable get_Names() ;
 
 /// @brief Method GetByName addr 0xdff568 size 0x1ec virtual false final false
-static ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters GetByName(::StringW name) ;
+static Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters GetByName(::StringW name) ;
 
 /// @brief Method GetOid addr 0xdff754 size 0x11c virtual false final false
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier GetOid(::StringW name) ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier GetOid(::StringW name) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::CryptoPro
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters, "Org.BouncyCastle.Asn1.CryptoPro", "Gost3410NamedParameters");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters, "Org.BouncyCastle.Asn1.CryptoPro", "Gost3410NamedParameters");

@@ -6,7 +6,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace System {
 class Action;
 }
@@ -22,10 +21,10 @@ namespace UnityEngine {
 class AudioSettings;
 }
 namespace UnityEngine {
-class ____UnityEngine__AudioSettings__AudioConfigurationChangeHandler;
+class UnityEngine__AudioSettings__AudioConfigurationChangeHandler;
 }
 namespace UnityEngine {
-class ____UnityEngine__AudioSettings__Mobile;
+class UnityEngine__AudioSettings__Mobile;
 }
 // Type: ::AudioConfigurationChangeHandler
 namespace UnityEngine {
@@ -33,44 +32,44 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15601))
 // CS Name: UnityEngine.AudioSettings::AudioConfigurationChangeHandler
-class CORDL_TYPE ____UnityEngine__AudioSettings__AudioConfigurationChangeHandler : public ::System::MulticastDelegate {
+class CORDL_TYPE UnityEngine__AudioSettings__AudioConfigurationChangeHandler : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x80};
 
-virtual ~____UnityEngine__AudioSettings__AudioConfigurationChangeHandler() = default;
+virtual ~UnityEngine__AudioSettings__AudioConfigurationChangeHandler() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__AudioSettings__AudioConfigurationChangeHandler", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__AudioSettings__AudioConfigurationChangeHandler(____UnityEngine__AudioSettings__AudioConfigurationChangeHandler const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__AudioSettings__AudioConfigurationChangeHandler", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__AudioSettings__AudioConfigurationChangeHandler(UnityEngine__AudioSettings__AudioConfigurationChangeHandler const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__AudioSettings__AudioConfigurationChangeHandler", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__AudioSettings__AudioConfigurationChangeHandler(____UnityEngine__AudioSettings__AudioConfigurationChangeHandler&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__AudioSettings__AudioConfigurationChangeHandler", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__AudioSettings__AudioConfigurationChangeHandler(UnityEngine__AudioSettings__AudioConfigurationChangeHandler&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__AudioSettings__AudioConfigurationChangeHandler(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit UnityEngine__AudioSettings__AudioConfigurationChangeHandler(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
-  constexpr ____UnityEngine__AudioSettings__AudioConfigurationChangeHandler& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__AudioSettings__AudioConfigurationChangeHandler& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__AudioSettings__AudioConfigurationChangeHandler& operator=(void* o) noexcept {
+  constexpr UnityEngine__AudioSettings__AudioConfigurationChangeHandler& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__AudioSettings__AudioConfigurationChangeHandler& operator=(____UnityEngine__AudioSettings__AudioConfigurationChangeHandler&& o) noexcept = default;
-  constexpr ____UnityEngine__AudioSettings__AudioConfigurationChangeHandler& operator=(____UnityEngine__AudioSettings__AudioConfigurationChangeHandler const& o) noexcept = default;
+  constexpr UnityEngine__AudioSettings__AudioConfigurationChangeHandler& operator=(UnityEngine__AudioSettings__AudioConfigurationChangeHandler&& o) noexcept = default;
+  constexpr UnityEngine__AudioSettings__AudioConfigurationChangeHandler& operator=(UnityEngine__AudioSettings__AudioConfigurationChangeHandler const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit ____UnityEngine__AudioSettings__AudioConfigurationChangeHandler(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+explicit UnityEngine__AudioSettings__AudioConfigurationChangeHandler(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2b246ec size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -88,37 +87,37 @@ namespace UnityEngine {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15602))
 // CS Name: UnityEngine.AudioSettings::Mobile
-class CORDL_TYPE ____UnityEngine__AudioSettings__Mobile : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__AudioSettings__Mobile : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____UnityEngine__AudioSettings__Mobile() = default;
+virtual ~UnityEngine__AudioSettings__Mobile() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__AudioSettings__Mobile", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__AudioSettings__Mobile(____UnityEngine__AudioSettings__Mobile const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__AudioSettings__Mobile", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__AudioSettings__Mobile(UnityEngine__AudioSettings__Mobile const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__AudioSettings__Mobile", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__AudioSettings__Mobile(____UnityEngine__AudioSettings__Mobile&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__AudioSettings__Mobile", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__AudioSettings__Mobile(UnityEngine__AudioSettings__Mobile&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__AudioSettings__Mobile(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__AudioSettings__Mobile(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__AudioSettings__Mobile& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__AudioSettings__Mobile& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__AudioSettings__Mobile& operator=(void* o) noexcept {
+  constexpr UnityEngine__AudioSettings__Mobile& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__AudioSettings__Mobile& operator=(____UnityEngine__AudioSettings__Mobile&& o) noexcept = default;
-  constexpr ____UnityEngine__AudioSettings__Mobile& operator=(____UnityEngine__AudioSettings__Mobile const& o) noexcept = default;
+  constexpr UnityEngine__AudioSettings__Mobile& operator=(UnityEngine__AudioSettings__Mobile&& o) noexcept = default;
+  constexpr UnityEngine__AudioSettings__Mobile& operator=(UnityEngine__AudioSettings__Mobile const& o) noexcept = default;
                 
 
 
@@ -136,11 +135,11 @@ static void __set__stopAudioOutputOnMute(bool value) ;
 
 static bool __get__stopAudioOutputOnMute() ;
 
-static ::System::Action_1<bool> __declspec(property(get=__get_OnMuteStateChanged, put=__set_OnMuteStateChanged))  OnMuteStateChanged;
+static System::Action_1<bool> __declspec(property(get=__get_OnMuteStateChanged, put=__set_OnMuteStateChanged))  OnMuteStateChanged;
 
-static void __set_OnMuteStateChanged(::System::Action_1<bool> value) ;
+static void __set_OnMuteStateChanged(System::Action_1<bool> value) ;
 
-static ::System::Action_1<bool> __get_OnMuteStateChanged() ;
+static System::Action_1<bool> __get_OnMuteStateChanged() ;
 
 
 // Properties
@@ -186,9 +185,9 @@ namespace UnityEngine {
 class CORDL_TYPE AudioSettings : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using Mobile = ::UnityEngine::____UnityEngine__AudioSettings__Mobile;
+using Mobile = UnityEngine::UnityEngine__AudioSettings__Mobile;
 
-using AudioConfigurationChangeHandler = ::UnityEngine::____UnityEngine__AudioSettings__AudioConfigurationChangeHandler;
+using AudioConfigurationChangeHandler = UnityEngine::UnityEngine__AudioSettings__AudioConfigurationChangeHandler;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -223,23 +222,23 @@ constexpr explicit AudioSettings(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 
 // Fields
 
-static ::UnityEngine::____UnityEngine__AudioSettings__AudioConfigurationChangeHandler __declspec(property(get=__get_OnAudioConfigurationChanged, put=__set_OnAudioConfigurationChanged))  OnAudioConfigurationChanged;
+static UnityEngine::UnityEngine__AudioSettings__AudioConfigurationChangeHandler __declspec(property(get=__get_OnAudioConfigurationChanged, put=__set_OnAudioConfigurationChanged))  OnAudioConfigurationChanged;
 
-static void __set_OnAudioConfigurationChanged(::UnityEngine::____UnityEngine__AudioSettings__AudioConfigurationChangeHandler value) ;
+static void __set_OnAudioConfigurationChanged(UnityEngine::UnityEngine__AudioSettings__AudioConfigurationChangeHandler value) ;
 
-static ::UnityEngine::____UnityEngine__AudioSettings__AudioConfigurationChangeHandler __get_OnAudioConfigurationChanged() ;
+static UnityEngine::UnityEngine__AudioSettings__AudioConfigurationChangeHandler __get_OnAudioConfigurationChanged() ;
 
-static ::System::Action __declspec(property(get=__get_OnAudioSystemShuttingDown, put=__set_OnAudioSystemShuttingDown))  OnAudioSystemShuttingDown;
+static System::Action __declspec(property(get=__get_OnAudioSystemShuttingDown, put=__set_OnAudioSystemShuttingDown))  OnAudioSystemShuttingDown;
 
-static void __set_OnAudioSystemShuttingDown(::System::Action value) ;
+static void __set_OnAudioSystemShuttingDown(System::Action value) ;
 
-static ::System::Action __get_OnAudioSystemShuttingDown() ;
+static System::Action __get_OnAudioSystemShuttingDown() ;
 
-static ::System::Action __declspec(property(get=__get_OnAudioSystemStartedUp, put=__set_OnAudioSystemStartedUp))  OnAudioSystemStartedUp;
+static System::Action __declspec(property(get=__get_OnAudioSystemStartedUp, put=__set_OnAudioSystemStartedUp))  OnAudioSystemStartedUp;
 
-static void __set_OnAudioSystemStartedUp(::System::Action value) ;
+static void __set_OnAudioSystemStartedUp(System::Action value) ;
 
-static ::System::Action __get_OnAudioSystemStartedUp() ;
+static System::Action __get_OnAudioSystemStartedUp() ;
 
 
 // Properties
@@ -264,7 +263,7 @@ static int32_t get_outputSampleRate() ;
 static ::StringW GetSpatializerPluginName() ;
 
 /// @brief Method GetConfiguration addr 0x2b244cc size 0x60 virtual false final false
-static ::UnityEngine::AudioConfiguration GetConfiguration() ;
+static UnityEngine::AudioConfiguration GetConfiguration() ;
 
 /// @brief Method InvokeOnAudioConfigurationChanged addr 0x2b24568 size 0x6c virtual false final false
 static void InvokeOnAudioConfigurationChanged(bool deviceWasChanged) ;
@@ -282,16 +281,15 @@ static bool StartAudioOutput() ;
 static bool StopAudioOutput() ;
 
 /// @brief Method GetConfiguration_Injected addr 0x2b2452c size 0x3c virtual false final false
-static void GetConfiguration_Injected(ByRef<::UnityEngine::AudioConfiguration> ret) ;
+static void GetConfiguration_Injected(ByRef<UnityEngine::AudioConfiguration> ret) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AudioSettings);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AudioSettings, "UnityEngine", "AudioSettings");
-NEED_NO_BOX(::UnityEngine::____UnityEngine__AudioSettings__AudioConfigurationChangeHandler);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::____UnityEngine__AudioSettings__AudioConfigurationChangeHandler, "UnityEngine", "AudioSettings/AudioConfigurationChangeHandler");
-NEED_NO_BOX(::UnityEngine::____UnityEngine__AudioSettings__Mobile);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::____UnityEngine__AudioSettings__Mobile, "UnityEngine", "AudioSettings/Mobile");
+NEED_NO_BOX(UnityEngine::AudioSettings);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioSettings, "UnityEngine", "AudioSettings");
+NEED_NO_BOX(UnityEngine::UnityEngine__AudioSettings__AudioConfigurationChangeHandler);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnityEngine__AudioSettings__AudioConfigurationChangeHandler, "UnityEngine", "AudioSettings/AudioConfigurationChangeHandler");
+NEED_NO_BOX(UnityEngine::UnityEngine__AudioSettings__Mobile);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnityEngine__AudioSettings__Mobile, "UnityEngine", "AudioSettings/Mobile");

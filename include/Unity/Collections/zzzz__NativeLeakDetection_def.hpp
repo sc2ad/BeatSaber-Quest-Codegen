@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Unity::Collections {
 class NativeLeakDetection;
@@ -65,6 +64,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Unity::Collections
-} // end anonymous namespace
-NEED_NO_BOX(::Unity::Collections::NativeLeakDetection);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::NativeLeakDetection, "Unity.Collections", "NativeLeakDetection");
+NEED_NO_BOX(Unity::Collections::NativeLeakDetection);
+DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::NativeLeakDetection, "Unity.Collections", "NativeLeakDetection");

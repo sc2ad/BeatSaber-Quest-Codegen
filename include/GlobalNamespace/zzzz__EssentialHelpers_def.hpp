@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
-namespace UnityEngine {
-class Object;
-}
 namespace UnityEngine {
 class GameObject;
+}
+namespace UnityEngine {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -64,16 +63,15 @@ static double_t __declspec(property(get=get_CurrentTimeStamp))  CurrentTimeStamp
 static double_t get_CurrentTimeStamp() ;
 
 /// @brief Method SafeDestroy addr 0x1f77608 size 0xa8 virtual false final false
-static void SafeDestroy(::UnityEngine::Object obj) ;
+static void SafeDestroy(UnityEngine::Object obj) ;
 
 /// @brief Method GetOrAddComponent addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static T GetOrAddComponent(::UnityEngine::GameObject go) ;
+static T GetOrAddComponent(UnityEngine::GameObject go) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::EssentialHelpers);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EssentialHelpers, "", "EssentialHelpers");
+NEED_NO_BOX(GlobalNamespace::EssentialHelpers);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EssentialHelpers, "", "EssentialHelpers");

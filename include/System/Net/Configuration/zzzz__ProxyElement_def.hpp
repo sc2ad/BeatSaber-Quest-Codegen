@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Configuration/zzzz__ConfigurationElement_def.hpp"
-namespace {
 namespace System::Configuration {
 class ConfigurationPropertyCollection;
 }
@@ -15,7 +14,7 @@ namespace System::Net::Configuration {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16072))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8421))
 // CS Name: System.Net.Configuration.ProxyElement
-class CORDL_TYPE ProxyElement : public ::System::Configuration::ConfigurationElement {
+class CORDL_TYPE ProxyElement : public System::Configuration::ConfigurationElement {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr ProxyElement(ProxyElement const& ) noexcept = default;
 constexpr ProxyElement(ProxyElement&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ProxyElement(void* ptr) noexcept : ::System::Configuration::ConfigurationElement(ptr) {
+constexpr explicit ProxyElement(void* ptr) noexcept : System::Configuration::ConfigurationElement(ptr) {
 }
 
 
@@ -51,7 +50,7 @@ constexpr explicit ProxyElement(void* ptr) noexcept : ::System::Configuration::C
 
 // Properties
 
- ::System::Configuration::ConfigurationPropertyCollection __declspec(property(get=get_Properties))  Properties;
+ System::Configuration::ConfigurationPropertyCollection __declspec(property(get=get_Properties))  Properties;
 
 
 // Methods
@@ -63,12 +62,11 @@ explicit ProxyElement() ;
  void _ctor() ;
 
 /// @brief Method get_Properties addr 0x27b23cc size 0x38 virtual true final false
- ::System::Configuration::ConfigurationPropertyCollection get_Properties() ;
+ System::Configuration::ConfigurationPropertyCollection get_Properties() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Configuration
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Configuration::ProxyElement);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Configuration::ProxyElement, "System.Net.Configuration", "ProxyElement");
+NEED_NO_BOX(System::Net::Configuration::ProxyElement);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::ProxyElement, "System.Net.Configuration", "ProxyElement");

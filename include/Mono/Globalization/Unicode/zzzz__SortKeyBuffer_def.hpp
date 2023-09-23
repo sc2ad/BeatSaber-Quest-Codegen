@@ -5,12 +5,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Globalization {
-class SortKey;
-}
 namespace System::Globalization {
 struct CompareOptions;
+}
+namespace System::Globalization {
+class SortKey;
 }
 // Forward declare root types
 namespace Mono::Globalization::Unicode {
@@ -166,11 +165,11 @@ constexpr void __set_lcid(int32_t value) ;
 
 constexpr int32_t __get_lcid() const;
 
- ::System::Globalization::CompareOptions __declspec(property(get=__get_options, put=__set_options))  options;
+ System::Globalization::CompareOptions __declspec(property(get=__get_options, put=__set_options))  options;
 
-constexpr void __set_options(::System::Globalization::CompareOptions value) ;
+constexpr void __set_options(System::Globalization::CompareOptions value) ;
 
-constexpr ::System::Globalization::CompareOptions __get_options() const;
+constexpr System::Globalization::CompareOptions __get_options() const;
 
  bool __declspec(property(get=__get_processLevel2, put=__set_processLevel2))  processLevel2;
 
@@ -203,7 +202,7 @@ explicit SortKeyBuffer(int32_t lcid) ;
  void Reset() ;
 
 /// @brief Method Initialize addr 0x22ab990 size 0x178 virtual false final false
- void Initialize(::System::Globalization::CompareOptions options, int32_t lcid, ::StringW s, bool frenchSort) ;
+ void Initialize(System::Globalization::CompareOptions options, int32_t lcid, ::StringW s, bool frenchSort) ;
 
 /// @brief Method AppendCJKExtension addr 0x22ac3c4 size 0x94 virtual false final false
  void AppendCJKExtension(uint8_t lv1msb, uint8_t lv1lsb) ;
@@ -221,18 +220,17 @@ explicit SortKeyBuffer(int32_t lcid) ;
  void AppendBufferPrimitive(uint8_t value, ByRef<::ArrayW<uint8_t>> buf, ByRef<int32_t> bidx) ;
 
 /// @brief Method GetResultAndReset addr 0x22abe84 size 0x24 virtual false final false
- ::System::Globalization::SortKey GetResultAndReset() ;
+ System::Globalization::SortKey GetResultAndReset() ;
 
 /// @brief Method GetOptimizedLength addr 0x22b0334 size 0x60 virtual false final false
  int32_t GetOptimizedLength(::ArrayW<uint8_t> data, int32_t len, uint8_t defaultValue) ;
 
 /// @brief Method GetResult addr 0x22afe58 size 0x4dc virtual false final false
- ::System::Globalization::SortKey GetResult() ;
+ System::Globalization::SortKey GetResult() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Globalization::Unicode
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Globalization::Unicode::SortKeyBuffer);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Globalization::Unicode::SortKeyBuffer, "Mono.Globalization.Unicode", "SortKeyBuffer");
+NEED_NO_BOX(Mono::Globalization::Unicode::SortKeyBuffer);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SortKeyBuffer, "Mono.Globalization.Unicode", "SortKeyBuffer");

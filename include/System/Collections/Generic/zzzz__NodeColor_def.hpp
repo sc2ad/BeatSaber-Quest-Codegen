@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Collections::Generic {
 struct NodeColor;
@@ -67,14 +66,13 @@ constexpr void __set_value__(uint8_t value) ;
 constexpr uint8_t __get_value__() const;
 
 /// @brief Field Black offset 0
-static ::System::Collections::Generic::NodeColor const Black;
+static System::Collections::Generic::NodeColor const Black;
 
 /// @brief Field Red offset 0
-static ::System::Collections::Generic::NodeColor const Red;
+static System::Collections::Generic::NodeColor const Red;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Collections::Generic
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Generic::NodeColor, "System.Collections.Generic", "NodeColor");
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::NodeColor, "System.Collections.Generic", "NodeColor");

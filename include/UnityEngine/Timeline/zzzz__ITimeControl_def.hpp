@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cmath>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Timeline {
 class ITimeControl;
@@ -37,6 +36,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Timeline::ITimeControl);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::ITimeControl, "UnityEngine.Timeline", "ITimeControl");
+NEED_NO_BOX(UnityEngine::Timeline::ITimeControl);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ITimeControl, "UnityEngine.Timeline", "ITimeControl");

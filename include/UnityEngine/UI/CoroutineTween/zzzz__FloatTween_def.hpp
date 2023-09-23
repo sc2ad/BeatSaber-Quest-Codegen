@@ -3,7 +3,6 @@
 #include "UnityEngine/Events/zzzz__UnityEvent_1_def.hpp"
 #include <cmath>
 #include <cstddef>
-namespace {
 namespace UnityEngine::UI::CoroutineTween {
 class ITweenValue;
 }
@@ -13,7 +12,7 @@ class UnityAction_1;
 }
 // Forward declare root types
 namespace UnityEngine::UI::CoroutineTween {
-class ____UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback;
+class UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback;
 }
 namespace UnityEngine::UI::CoroutineTween {
 struct FloatTween;
@@ -24,44 +23,44 @@ namespace UnityEngine::UI::CoroutineTween {
 // Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 374 }), TypeDefinitionIndex(TypeDefinitionIndex(10401))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13093))
 // CS Name: UnityEngine.UI.CoroutineTween.FloatTween::FloatTweenCallback
-class CORDL_TYPE ____UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback : public ::UnityEngine::Events::UnityEvent_1<float_t> {
+class CORDL_TYPE UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback : public UnityEngine::Events::UnityEvent_1<float_t> {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback() = default;
+virtual ~UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback(____UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback(UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback(____UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback(UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback(void* ptr) noexcept : ::UnityEngine::Events::UnityEvent_1<float_t>(ptr) {
+constexpr explicit UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback(void* ptr) noexcept : UnityEngine::Events::UnityEvent_1<float_t>(ptr) {
 }
 
 
-  constexpr ____UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback& operator=(void* o) noexcept {
+  constexpr UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback& operator=(____UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback&& o) noexcept = default;
-  constexpr ____UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback& operator=(____UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback const& o) noexcept = default;
+  constexpr UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback& operator=(UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback&& o) noexcept = default;
+  constexpr UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback& operator=(UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback() ;
+explicit UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback() ;
 
 /// @brief Method .ctor addr 0x2c191f0 size 0x48 virtual false final false
  void _ctor() ;
@@ -79,13 +78,13 @@ namespace UnityEngine::UI::CoroutineTween {
 struct CORDL_TYPE FloatTween : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-using FloatTweenCallback = ::UnityEngine::UI::CoroutineTween::____UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback;
+using FloatTweenCallback = UnityEngine::UI::CoroutineTween::UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback;
 
-/// @brief Convert operator to ::UnityEngine::UI::CoroutineTween::ITweenValue
-constexpr operator  ::UnityEngine::UI::CoroutineTween::ITweenValue() const;
+/// @brief Convert operator to UnityEngine::UI::CoroutineTween::ITweenValue
+constexpr operator  UnityEngine::UI::CoroutineTween::ITweenValue() const;
 
-// Ctor Parameters [CppParam { name: "m_Target", ty: "::UnityEngine::UI::CoroutineTween::____UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback", modifiers: "", def_value: None }, CppParam { name: "m_StartValue", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_TargetValue", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Duration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_IgnoreTimeScale", ty: "bool", modifiers: "", def_value: None }]
-constexpr FloatTween(::UnityEngine::UI::CoroutineTween::____UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback m_Target, float_t m_StartValue, float_t m_TargetValue, float_t m_Duration, bool m_IgnoreTimeScale) noexcept;
+// Ctor Parameters [CppParam { name: "m_Target", ty: "UnityEngine::UI::CoroutineTween::UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback", modifiers: "", def_value: None }, CppParam { name: "m_StartValue", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_TargetValue", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Duration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_IgnoreTimeScale", ty: "bool", modifiers: "", def_value: None }]
+constexpr FloatTween(UnityEngine::UI::CoroutineTween::UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback m_Target, float_t m_StartValue, float_t m_TargetValue, float_t m_Duration, bool m_IgnoreTimeScale) noexcept;
 
 
                     constexpr FloatTween(FloatTween const&) = default;
@@ -118,11 +117,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::UI::CoroutineTween::____UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback __declspec(property(get=__get_m_Target, put=__set_m_Target))  m_Target;
+ UnityEngine::UI::CoroutineTween::UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback __declspec(property(get=__get_m_Target, put=__set_m_Target))  m_Target;
 
-constexpr void __set_m_Target(::UnityEngine::UI::CoroutineTween::____UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback value) ;
+constexpr void __set_m_Target(UnityEngine::UI::CoroutineTween::UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback value) ;
 
-constexpr ::UnityEngine::UI::CoroutineTween::____UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback __get_m_Target() const;
+constexpr UnityEngine::UI::CoroutineTween::UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback __get_m_Target() const;
 
  float_t __declspec(property(get=__get_m_StartValue, put=__set_m_StartValue))  m_StartValue;
 
@@ -190,7 +189,7 @@ constexpr bool __get_m_IgnoreTimeScale() const;
  void TweenValue(float_t floatPercentage) ;
 
 /// @brief Method AddOnChangedCallback addr 0x2c19168 size 0x88 virtual false final false
- void AddOnChangedCallback(::UnityEngine::Events::UnityAction_1<float_t> callback) ;
+ void AddOnChangedCallback(UnityEngine::Events::UnityAction_1<float_t> callback) ;
 
 /// @brief Method GetIgnoreTimescale addr 0x2c19238 size 0x8 virtual false final false
  bool GetIgnoreTimescale() ;
@@ -205,7 +204,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UI::CoroutineTween
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UI::CoroutineTween::____UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::CoroutineTween::____UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback, "UnityEngine.UI.CoroutineTween", "FloatTween/FloatTweenCallback");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::CoroutineTween::FloatTween, "UnityEngine.UI.CoroutineTween", "FloatTween");
+NEED_NO_BOX(UnityEngine::UI::CoroutineTween::UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CoroutineTween::UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback, "UnityEngine.UI.CoroutineTween", "FloatTween/FloatTweenCallback");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CoroutineTween::FloatTween, "UnityEngine.UI.CoroutineTween", "FloatTween");

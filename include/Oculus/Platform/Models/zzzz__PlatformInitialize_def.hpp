@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform {
 struct PlatformInitializeResult;
 }
@@ -52,11 +51,11 @@ constexpr explicit PlatformInitialize(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Fields
 
- ::Oculus::Platform::PlatformInitializeResult __declspec(property(get=__get_Result, put=__set_Result))  Result;
+ Oculus::Platform::PlatformInitializeResult __declspec(property(get=__get_Result, put=__set_Result))  Result;
 
-constexpr void __set_Result(::Oculus::Platform::PlatformInitializeResult value) ;
+constexpr void __set_Result(Oculus::Platform::PlatformInitializeResult value) ;
 
-constexpr ::Oculus::Platform::PlatformInitializeResult __get_Result() const;
+constexpr Oculus::Platform::PlatformInitializeResult __get_Result() const;
 
 
 // Methods
@@ -71,6 +70,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::PlatformInitialize);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::PlatformInitialize, "Oculus.Platform.Models", "PlatformInitialize");
+NEED_NO_BOX(Oculus::Platform::Models::PlatformInitialize);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::PlatformInitialize, "Oculus.Platform.Models", "PlatformInitialize");

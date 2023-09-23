@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System {
-class Exception;
-}
 namespace System::Xml {
 class XmlNameTable;
+}
+namespace System {
+class Exception;
 }
 namespace System::Xml {
 class IXmlNamespaceResolver;
@@ -24,7 +23,7 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11573))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11624))
 // CS Name: System.Xml.Schema.Datatype_fixed
-class CORDL_TYPE Datatype_fixed : public ::System::Xml::Schema::Datatype_decimal {
+class CORDL_TYPE Datatype_fixed : public System::Xml::Schema::Datatype_decimal {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr Datatype_fixed(Datatype_fixed const& ) noexcept = default;
 constexpr Datatype_fixed(Datatype_fixed&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Datatype_fixed(void* ptr) noexcept : ::System::Xml::Schema::Datatype_decimal(ptr) {
+constexpr explicit Datatype_fixed(void* ptr) noexcept : System::Xml::Schema::Datatype_decimal(ptr) {
 }
 
 
@@ -61,10 +60,10 @@ constexpr explicit Datatype_fixed(void* ptr) noexcept : ::System::Xml::Schema::D
 // Methods
 
 /// @brief Method ParseValue addr 0x272bf30 size 0x2ac virtual true final false
- ::bs_hook::Il2CppWrapperType ParseValue(::StringW s, ::System::Xml::XmlNameTable nameTable, ::System::Xml::IXmlNamespaceResolver nsmgr) ;
+ ::bs_hook::Il2CppWrapperType ParseValue(::StringW s, System::Xml::XmlNameTable nameTable, System::Xml::IXmlNamespaceResolver nsmgr) ;
 
 /// @brief Method TryParseValue addr 0x272c480 size 0x158 virtual true final false
- ::System::Exception TryParseValue(::StringW s, ::System::Xml::XmlNameTable nameTable, ::System::Xml::IXmlNamespaceResolver nsmgr, ByRef<::bs_hook::Il2CppWrapperType> typedValue) ;
+ System::Exception TryParseValue(::StringW s, System::Xml::XmlNameTable nameTable, System::Xml::IXmlNamespaceResolver nsmgr, ByRef<::bs_hook::Il2CppWrapperType> typedValue) ;
 
 // Ctor Parameters []
 explicit Datatype_fixed() ;
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::Datatype_fixed);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::Datatype_fixed, "System.Xml.Schema", "Datatype_fixed");
+NEED_NO_BOX(System::Xml::Schema::Datatype_fixed);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::Datatype_fixed, "System.Xml.Schema", "Datatype_fixed");

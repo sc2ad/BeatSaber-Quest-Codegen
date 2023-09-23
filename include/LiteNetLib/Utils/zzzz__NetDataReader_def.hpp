@@ -6,13 +6,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
 namespace System {
 template<typename T>
 struct ArraySegment_1;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 namespace System::Net {
 class IPEndPoint;
@@ -137,7 +136,7 @@ constexpr int32_t __get__offset() const;
  void SkipBytes(int32_t count) ;
 
 /// @brief Method SetSource addr 0x20951cc size 0x2c virtual false final false
- void SetSource(::LiteNetLib::Utils::NetDataWriter dataWriter) ;
+ void SetSource(LiteNetLib::Utils::NetDataWriter dataWriter) ;
 
 /// @brief Method SetSource addr 0x20951f8 size 0x28 virtual false final false
  void SetSource(::ArrayW<uint8_t> source) ;
@@ -173,7 +172,7 @@ explicit NetDataReader(::ArrayW<uint8_t> source, int32_t offset, int32_t maxSize
  void _ctor(::ArrayW<uint8_t> source, int32_t offset, int32_t maxSize) ;
 
 /// @brief Method GetNetEndPoint addr 0x20952cc size 0x78 virtual false final false
- ::System::Net::IPEndPoint GetNetEndPoint() ;
+ System::Net::IPEndPoint GetNetEndPoint() ;
 
 /// @brief Method GetByte addr 0x209549c size 0x40 virtual false final false
  uint8_t GetByte() ;
@@ -251,7 +250,7 @@ explicit NetDataReader(::ArrayW<uint8_t> source, int32_t offset, int32_t maxSize
  ::StringW GetString() ;
 
 /// @brief Method GetRemainingBytesSegment addr 0x20962e8 size 0x7c virtual false final false
- ::System::ArraySegment_1<uint8_t> GetRemainingBytesSegment() ;
+ System::ArraySegment_1<uint8_t> GetRemainingBytesSegment() ;
 
 /// @brief Method Get addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
@@ -366,6 +365,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib::Utils
-} // end anonymous namespace
-NEED_NO_BOX(::LiteNetLib::Utils::NetDataReader);
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::Utils::NetDataReader, "LiteNetLib.Utils", "NetDataReader");
+NEED_NO_BOX(LiteNetLib::Utils::NetDataReader);
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NetDataReader, "LiteNetLib.Utils", "NetDataReader");

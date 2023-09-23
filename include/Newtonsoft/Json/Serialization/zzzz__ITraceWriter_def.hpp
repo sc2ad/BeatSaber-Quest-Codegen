@@ -1,12 +1,11 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System::Diagnostics {
-struct TraceLevel;
-}
 namespace System {
 class Exception;
+}
+namespace System::Diagnostics {
+struct TraceLevel;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -30,21 +29,20 @@ constexpr explicit ITraceWriter(void* ptr) noexcept : ::cordl_internals::Interfa
 
 // Properties
 
- ::System::Diagnostics::TraceLevel __declspec(property(get=get_LevelFilter))  LevelFilter;
+ System::Diagnostics::TraceLevel __declspec(property(get=get_LevelFilter))  LevelFilter;
 
 
 // Methods
 
 /// @brief Method get_LevelFilter addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Diagnostics::TraceLevel get_LevelFilter() ;
+ System::Diagnostics::TraceLevel get_LevelFilter() ;
 
 /// @brief Method Trace addr 0x0 size 0xffffffffffffffff virtual true final false
- void Trace(::System::Diagnostics::TraceLevel level, ::StringW message, ::System::Exception ex) ;
+ void Trace(System::Diagnostics::TraceLevel level, ::StringW message, System::Exception ex) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Serialization
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Serialization::ITraceWriter);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::ITraceWriter, "Newtonsoft.Json.Serialization", "ITraceWriter");
+NEED_NO_BOX(Newtonsoft::Json::Serialization::ITraceWriter);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Serialization::ITraceWriter, "Newtonsoft.Json.Serialization", "ITraceWriter");

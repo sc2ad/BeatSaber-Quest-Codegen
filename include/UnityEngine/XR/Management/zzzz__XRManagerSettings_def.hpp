@@ -3,28 +3,12 @@
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
-class List_1;
-}
-namespace UnityEngine::XR::Management {
-class XRLoader;
+struct System__Collections__Generic__List_1__Enumerator;
 }
 namespace System::Collections {
 class IEnumerator;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-struct ____System__Collections__Generic__List_1__Enumerator;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -33,12 +17,27 @@ class IEnumerator_1;
 namespace System {
 class IDisposable;
 }
+namespace UnityEngine::XR::Management {
+class XRLoader;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
+}
 // Forward declare root types
 namespace UnityEngine::XR::Management {
-class XRManagerSettings;
+class UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24;
 }
 namespace UnityEngine::XR::Management {
-class ____UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24;
+class XRManagerSettings;
 }
 // Type: ::<InitializeLoader>d__24
 namespace UnityEngine::XR::Management {
@@ -46,46 +45,46 @@ namespace UnityEngine::XR::Management {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15895))
 // CS Name: UnityEngine.XR.Management.XRManagerSettings::<InitializeLoader>d__24
-class CORDL_TYPE ____UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
 
-virtual ~____UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24() = default;
+virtual ~UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24(____UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24(UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24(____UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24(UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24& operator=(void* o) noexcept {
+  constexpr UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24& operator=(____UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24&& o) noexcept = default;
-  constexpr ____UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24& operator=(____UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24 const& o) noexcept = default;
+  constexpr UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24& operator=(UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24&& o) noexcept = default;
+  constexpr UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24& operator=(UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24 const& o) noexcept = default;
                 
 
 
@@ -103,17 +102,17 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::UnityEngine::XR::Management::XRManagerSettings __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ UnityEngine::XR::Management::XRManagerSettings __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::UnityEngine::XR::Management::XRManagerSettings value) ;
+constexpr void __set___4__this(UnityEngine::XR::Management::XRManagerSettings value) ;
 
-constexpr ::UnityEngine::XR::Management::XRManagerSettings __get___4__this() const;
+constexpr UnityEngine::XR::Management::XRManagerSettings __get___4__this() const;
 
- ::System::Collections::Generic::____System__Collections__Generic__List_1__Enumerator<::UnityEngine::XR::Management::XRLoader> __declspec(property(get=__get___7__wrap1, put=__set___7__wrap1))  __7__wrap1;
+ System::Collections::Generic::System__Collections__Generic__List_1__Enumerator<UnityEngine::XR::Management::XRLoader> __declspec(property(get=__get___7__wrap1, put=__set___7__wrap1))  __7__wrap1;
 
-constexpr void __set___7__wrap1(::System::Collections::Generic::____System__Collections__Generic__List_1__Enumerator<::UnityEngine::XR::Management::XRLoader> value) ;
+constexpr void __set___7__wrap1(System::Collections::Generic::System__Collections__Generic__List_1__Enumerator<UnityEngine::XR::Management::XRLoader> value) ;
 
-constexpr ::System::Collections::Generic::____System__Collections__Generic__List_1__Enumerator<::UnityEngine::XR::Management::XRLoader> __get___7__wrap1() const;
+constexpr System::Collections::Generic::System__Collections__Generic__List_1__Enumerator<UnityEngine::XR::Management::XRLoader> __get___7__wrap1() const;
 
 
 // Properties
@@ -126,7 +125,7 @@ constexpr ::System::Collections::Generic::____System__Collections__Generic__List
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24(int32_t __1__state) ;
+explicit UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2adde80 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -159,10 +158,10 @@ namespace UnityEngine::XR::Management {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10151))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15896))
 // CS Name: UnityEngine.XR.Management.XRManagerSettings
-class CORDL_TYPE XRManagerSettings : public ::UnityEngine::ScriptableObject {
+class CORDL_TYPE XRManagerSettings : public UnityEngine::ScriptableObject {
 public:
 // Declarations
-using _InitializeLoader_d__24 = ::UnityEngine::XR::Management::____UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24;
+using _InitializeLoader_d__24 = UnityEngine::XR::Management::UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -176,7 +175,7 @@ constexpr XRManagerSettings(XRManagerSettings const& ) noexcept = default;
 constexpr XRManagerSettings(XRManagerSettings&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XRManagerSettings(void* ptr) noexcept : ::UnityEngine::ScriptableObject(ptr) {
+constexpr explicit XRManagerSettings(void* ptr) noexcept : UnityEngine::ScriptableObject(ptr) {
 }
 
 
@@ -221,23 +220,23 @@ constexpr void __set_m_AutomaticRunning(bool value) ;
 
 constexpr bool __get_m_AutomaticRunning() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader> __declspec(property(get=__get_m_Loaders, put=__set_m_Loaders))  m_Loaders;
+ System::Collections::Generic::List_1<UnityEngine::XR::Management::XRLoader> __declspec(property(get=__get_m_Loaders, put=__set_m_Loaders))  m_Loaders;
 
-constexpr void __set_m_Loaders(::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader> value) ;
+constexpr void __set_m_Loaders(System::Collections::Generic::List_1<UnityEngine::XR::Management::XRLoader> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader> __get_m_Loaders() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::XR::Management::XRLoader> __get_m_Loaders() const;
 
- ::System::Collections::Generic::HashSet_1<::UnityEngine::XR::Management::XRLoader> __declspec(property(get=__get_m_RegisteredLoaders, put=__set_m_RegisteredLoaders))  m_RegisteredLoaders;
+ System::Collections::Generic::HashSet_1<UnityEngine::XR::Management::XRLoader> __declspec(property(get=__get_m_RegisteredLoaders, put=__set_m_RegisteredLoaders))  m_RegisteredLoaders;
 
-constexpr void __set_m_RegisteredLoaders(::System::Collections::Generic::HashSet_1<::UnityEngine::XR::Management::XRLoader> value) ;
+constexpr void __set_m_RegisteredLoaders(System::Collections::Generic::HashSet_1<UnityEngine::XR::Management::XRLoader> value) ;
 
-constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::XR::Management::XRLoader> __get_m_RegisteredLoaders() const;
+constexpr System::Collections::Generic::HashSet_1<UnityEngine::XR::Management::XRLoader> __get_m_RegisteredLoaders() const;
 
- ::UnityEngine::XR::Management::XRLoader __declspec(property(get=__get__activeLoader_k__BackingField, put=__set__activeLoader_k__BackingField))  _activeLoader_k__BackingField;
+ UnityEngine::XR::Management::XRLoader __declspec(property(get=__get__activeLoader_k__BackingField, put=__set__activeLoader_k__BackingField))  _activeLoader_k__BackingField;
 
-constexpr void __set__activeLoader_k__BackingField(::UnityEngine::XR::Management::XRLoader value) ;
+constexpr void __set__activeLoader_k__BackingField(UnityEngine::XR::Management::XRLoader value) ;
 
-constexpr ::UnityEngine::XR::Management::XRLoader __get__activeLoader_k__BackingField() const;
+constexpr UnityEngine::XR::Management::XRLoader __get__activeLoader_k__BackingField() const;
 
 
 // Properties
@@ -246,17 +245,17 @@ constexpr ::UnityEngine::XR::Management::XRLoader __get__activeLoader_k__Backing
 
  bool __declspec(property(get=get_automaticRunning, put=set_automaticRunning))  automaticRunning;
 
- ::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader> __declspec(property(get=get_loaders))  loaders;
+ System::Collections::Generic::List_1<UnityEngine::XR::Management::XRLoader> __declspec(property(get=get_loaders))  loaders;
 
- ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::XR::Management::XRLoader> __declspec(property(get=get_activeLoaders))  activeLoaders;
+ System::Collections::Generic::IReadOnlyList_1<UnityEngine::XR::Management::XRLoader> __declspec(property(get=get_activeLoaders))  activeLoaders;
 
  bool __declspec(property(get=get_isInitializationComplete))  isInitializationComplete;
 
- ::UnityEngine::XR::Management::XRLoader __declspec(property(get=get_activeLoader, put=set_activeLoader))  activeLoader;
+ UnityEngine::XR::Management::XRLoader __declspec(property(get=get_activeLoader, put=set_activeLoader))  activeLoader;
 
- ::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader> __declspec(property(get=get_currentLoaders, put=set_currentLoaders))  currentLoaders;
+ System::Collections::Generic::List_1<UnityEngine::XR::Management::XRLoader> __declspec(property(get=get_currentLoaders, put=set_currentLoaders))  currentLoaders;
 
- ::System::Collections::Generic::HashSet_1<::UnityEngine::XR::Management::XRLoader> __declspec(property(get=get_registeredLoaders))  registeredLoaders;
+ System::Collections::Generic::HashSet_1<UnityEngine::XR::Management::XRLoader> __declspec(property(get=get_registeredLoaders))  registeredLoaders;
 
 
 // Methods
@@ -274,19 +273,19 @@ constexpr ::UnityEngine::XR::Management::XRLoader __get__activeLoader_k__Backing
  void set_automaticRunning(bool value) ;
 
 /// @brief Method get_loaders addr 0x2addc9c size 0x8 virtual false final false
- ::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader> get_loaders() ;
+ System::Collections::Generic::List_1<UnityEngine::XR::Management::XRLoader> get_loaders() ;
 
 /// @brief Method get_activeLoaders addr 0x2addca4 size 0x8 virtual false final false
- ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::XR::Management::XRLoader> get_activeLoaders() ;
+ System::Collections::Generic::IReadOnlyList_1<UnityEngine::XR::Management::XRLoader> get_activeLoaders() ;
 
 /// @brief Method get_isInitializationComplete addr 0x2addcac size 0x8 virtual false final false
  bool get_isInitializationComplete() ;
 
 /// @brief Method get_activeLoader addr 0x2addcb4 size 0x8 virtual false final false
- ::UnityEngine::XR::Management::XRLoader get_activeLoader() ;
+ UnityEngine::XR::Management::XRLoader get_activeLoader() ;
 
 /// @brief Method set_activeLoader addr 0x2addcbc size 0x8 virtual false final false
- void set_activeLoader(::UnityEngine::XR::Management::XRLoader value) ;
+ void set_activeLoader(UnityEngine::XR::Management::XRLoader value) ;
 
 /// @brief Method ActiveLoaderAs addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
@@ -296,19 +295,19 @@ template<typename T>
  void InitializeLoaderSync() ;
 
 /// @brief Method InitializeLoader addr 0x2adde18 size 0x68 virtual false final false
- ::System::Collections::IEnumerator InitializeLoader() ;
+ System::Collections::IEnumerator InitializeLoader() ;
 
 /// @brief Method TryAddLoader addr 0x2addea8 size 0x194 virtual false final false
- bool TryAddLoader(::UnityEngine::XR::Management::XRLoader loader, int32_t index) ;
+ bool TryAddLoader(UnityEngine::XR::Management::XRLoader loader, int32_t index) ;
 
 /// @brief Method TryRemoveLoader addr 0x2ade03c size 0x94 virtual false final false
- bool TryRemoveLoader(::UnityEngine::XR::Management::XRLoader loader) ;
+ bool TryRemoveLoader(UnityEngine::XR::Management::XRLoader loader) ;
 
 /// @brief Method TrySetLoaders addr 0x2ade0d0 size 0x1d8 virtual false final false
- bool TrySetLoaders(::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader> reorderedLoaders) ;
+ bool TrySetLoaders(System::Collections::Generic::List_1<UnityEngine::XR::Management::XRLoader> reorderedLoaders) ;
 
 /// @brief Method CheckGraphicsAPICompatibility addr 0x2addcc4 size 0x154 virtual false final false
- bool CheckGraphicsAPICompatibility(::UnityEngine::XR::Management::XRLoader loader) ;
+ bool CheckGraphicsAPICompatibility(UnityEngine::XR::Management::XRLoader loader) ;
 
 /// @brief Method StartSubsystems addr 0x2add73c size 0xdc virtual false final false
  void StartSubsystems() ;
@@ -329,13 +328,13 @@ template<typename T>
  void OnDestroy() ;
 
 /// @brief Method get_currentLoaders addr 0x2ade2e8 size 0x8 virtual false final false
- ::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader> get_currentLoaders() ;
+ System::Collections::Generic::List_1<UnityEngine::XR::Management::XRLoader> get_currentLoaders() ;
 
 /// @brief Method set_currentLoaders addr 0x2ade2f0 size 0x8 virtual false final false
- void set_currentLoaders(::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader> value) ;
+ void set_currentLoaders(System::Collections::Generic::List_1<UnityEngine::XR::Management::XRLoader> value) ;
 
 /// @brief Method get_registeredLoaders addr 0x2ade2f8 size 0x8 virtual false final false
- ::System::Collections::Generic::HashSet_1<::UnityEngine::XR::Management::XRLoader> get_registeredLoaders() ;
+ System::Collections::Generic::HashSet_1<UnityEngine::XR::Management::XRLoader> get_registeredLoaders() ;
 
 // Ctor Parameters []
 explicit XRManagerSettings() ;
@@ -347,8 +346,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR::Management
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::XR::Management::XRManagerSettings);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::Management::XRManagerSettings, "UnityEngine.XR.Management", "XRManagerSettings");
-NEED_NO_BOX(::UnityEngine::XR::Management::____UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::Management::____UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24, "UnityEngine.XR.Management", "XRManagerSettings/<InitializeLoader>d__24");
+NEED_NO_BOX(UnityEngine::XR::Management::UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::Management::UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24, "UnityEngine.XR.Management", "XRManagerSettings/<InitializeLoader>d__24");
+NEED_NO_BOX(UnityEngine::XR::Management::XRManagerSettings);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::Management::XRManagerSettings, "UnityEngine.XR.Management", "XRManagerSettings");

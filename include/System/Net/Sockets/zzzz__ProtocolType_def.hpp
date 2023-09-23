@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net::Sockets {
 struct ProtocolType;
@@ -90,83 +89,82 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field IP offset 0
-static ::System::Net::Sockets::ProtocolType const IP;
+static System::Net::Sockets::ProtocolType const IP;
 
 /// @brief Field IPv6HopByHopOptions offset 0
-static ::System::Net::Sockets::ProtocolType const IPv6HopByHopOptions;
+static System::Net::Sockets::ProtocolType const IPv6HopByHopOptions;
 
 /// @brief Field Icmp offset 0
-static ::System::Net::Sockets::ProtocolType const Icmp;
+static System::Net::Sockets::ProtocolType const Icmp;
 
 /// @brief Field Igmp offset 0
-static ::System::Net::Sockets::ProtocolType const Igmp;
+static System::Net::Sockets::ProtocolType const Igmp;
 
 /// @brief Field Ggp offset 0
-static ::System::Net::Sockets::ProtocolType const Ggp;
+static System::Net::Sockets::ProtocolType const Ggp;
 
 /// @brief Field IPv4 offset 0
-static ::System::Net::Sockets::ProtocolType const IPv4;
+static System::Net::Sockets::ProtocolType const IPv4;
 
 /// @brief Field Tcp offset 0
-static ::System::Net::Sockets::ProtocolType const Tcp;
+static System::Net::Sockets::ProtocolType const Tcp;
 
 /// @brief Field Pup offset 0
-static ::System::Net::Sockets::ProtocolType const Pup;
+static System::Net::Sockets::ProtocolType const Pup;
 
 /// @brief Field Udp offset 0
-static ::System::Net::Sockets::ProtocolType const Udp;
+static System::Net::Sockets::ProtocolType const Udp;
 
 /// @brief Field Idp offset 0
-static ::System::Net::Sockets::ProtocolType const Idp;
+static System::Net::Sockets::ProtocolType const Idp;
 
 /// @brief Field IPv6 offset 0
-static ::System::Net::Sockets::ProtocolType const IPv6;
+static System::Net::Sockets::ProtocolType const IPv6;
 
 /// @brief Field IPv6RoutingHeader offset 0
-static ::System::Net::Sockets::ProtocolType const IPv6RoutingHeader;
+static System::Net::Sockets::ProtocolType const IPv6RoutingHeader;
 
 /// @brief Field IPv6FragmentHeader offset 0
-static ::System::Net::Sockets::ProtocolType const IPv6FragmentHeader;
+static System::Net::Sockets::ProtocolType const IPv6FragmentHeader;
 
 /// @brief Field IPSecEncapsulatingSecurityPayload offset 0
-static ::System::Net::Sockets::ProtocolType const IPSecEncapsulatingSecurityPayload;
+static System::Net::Sockets::ProtocolType const IPSecEncapsulatingSecurityPayload;
 
 /// @brief Field IPSecAuthenticationHeader offset 0
-static ::System::Net::Sockets::ProtocolType const IPSecAuthenticationHeader;
+static System::Net::Sockets::ProtocolType const IPSecAuthenticationHeader;
 
 /// @brief Field IcmpV6 offset 0
-static ::System::Net::Sockets::ProtocolType const IcmpV6;
+static System::Net::Sockets::ProtocolType const IcmpV6;
 
 /// @brief Field IPv6NoNextHeader offset 0
-static ::System::Net::Sockets::ProtocolType const IPv6NoNextHeader;
+static System::Net::Sockets::ProtocolType const IPv6NoNextHeader;
 
 /// @brief Field IPv6DestinationOptions offset 0
-static ::System::Net::Sockets::ProtocolType const IPv6DestinationOptions;
+static System::Net::Sockets::ProtocolType const IPv6DestinationOptions;
 
 /// @brief Field ND offset 0
-static ::System::Net::Sockets::ProtocolType const ND;
+static System::Net::Sockets::ProtocolType const ND;
 
 /// @brief Field Raw offset 0
-static ::System::Net::Sockets::ProtocolType const Raw;
+static System::Net::Sockets::ProtocolType const Raw;
 
 /// @brief Field Unspecified offset 0
-static ::System::Net::Sockets::ProtocolType const Unspecified;
+static System::Net::Sockets::ProtocolType const Unspecified;
 
 /// @brief Field Ipx offset 0
-static ::System::Net::Sockets::ProtocolType const Ipx;
+static System::Net::Sockets::ProtocolType const Ipx;
 
 /// @brief Field Spx offset 0
-static ::System::Net::Sockets::ProtocolType const Spx;
+static System::Net::Sockets::ProtocolType const Spx;
 
 /// @brief Field SpxII offset 0
-static ::System::Net::Sockets::ProtocolType const SpxII;
+static System::Net::Sockets::ProtocolType const SpxII;
 
 /// @brief Field Unknown offset 0
-static ::System::Net::Sockets::ProtocolType const Unknown;
+static System::Net::Sockets::ProtocolType const Unknown;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net::Sockets
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Sockets::ProtocolType, "System.Net.Sockets", "ProtocolType");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::ProtocolType, "System.Net.Sockets", "ProtocolType");

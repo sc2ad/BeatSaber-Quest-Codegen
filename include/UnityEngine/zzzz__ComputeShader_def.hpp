@@ -3,7 +3,6 @@
 #include "UnityEngine/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 class ComputeShader;
@@ -14,7 +13,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10142))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10200))
 // CS Name: UnityEngine.ComputeShader
-class CORDL_TYPE ComputeShader : public ::UnityEngine::Object {
+class CORDL_TYPE ComputeShader : public UnityEngine::Object {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr ComputeShader(ComputeShader const& ) noexcept = default;
 constexpr ComputeShader(ComputeShader&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ComputeShader(void* ptr) noexcept : ::UnityEngine::Object(ptr) {
+constexpr explicit ComputeShader(void* ptr) noexcept : UnityEngine::Object(ptr) {
 }
 
 
@@ -57,6 +56,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ComputeShader);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ComputeShader, "UnityEngine", "ComputeShader");
+NEED_NO_BOX(UnityEngine::ComputeShader);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ComputeShader, "UnityEngine", "ComputeShader");

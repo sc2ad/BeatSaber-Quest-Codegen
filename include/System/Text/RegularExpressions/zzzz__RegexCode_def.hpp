@@ -4,7 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
 namespace System::Text::RegularExpressions {
 class RegexBoyerMoore;
 }
@@ -12,15 +15,11 @@ namespace System {
 template<typename T>
 struct Nullable_1;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace System::Collections {
+class Hashtable;
 }
 namespace System::Text::RegularExpressions {
 struct RegexPrefix;
-}
-namespace System::Collections {
-class Hashtable;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {
@@ -230,11 +229,11 @@ constexpr void __set_TrackCount(int32_t value) ;
 
 constexpr int32_t __get_TrackCount() const;
 
- ::System::Collections::Hashtable __declspec(property(get=__get_Caps, put=__set_Caps))  Caps;
+ System::Collections::Hashtable __declspec(property(get=__get_Caps, put=__set_Caps))  Caps;
 
-constexpr void __set_Caps(::System::Collections::Hashtable value) ;
+constexpr void __set_Caps(System::Collections::Hashtable value) ;
 
-constexpr ::System::Collections::Hashtable __get_Caps() const;
+constexpr System::Collections::Hashtable __get_Caps() const;
 
  int32_t __declspec(property(get=__get_CapSize, put=__set_CapSize))  CapSize;
 
@@ -242,17 +241,17 @@ constexpr void __set_CapSize(int32_t value) ;
 
 constexpr int32_t __get_CapSize() const;
 
- ::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix> __declspec(property(get=__get_FCPrefix, put=__set_FCPrefix))  FCPrefix;
+ System::Nullable_1<System::Text::RegularExpressions::RegexPrefix> __declspec(property(get=__get_FCPrefix, put=__set_FCPrefix))  FCPrefix;
 
-constexpr void __set_FCPrefix(::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix> value) ;
+constexpr void __set_FCPrefix(System::Nullable_1<System::Text::RegularExpressions::RegexPrefix> value) ;
 
-constexpr ::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix> __get_FCPrefix() const;
+constexpr System::Nullable_1<System::Text::RegularExpressions::RegexPrefix> __get_FCPrefix() const;
 
- ::System::Text::RegularExpressions::RegexBoyerMoore __declspec(property(get=__get_BMPrefix, put=__set_BMPrefix))  BMPrefix;
+ System::Text::RegularExpressions::RegexBoyerMoore __declspec(property(get=__get_BMPrefix, put=__set_BMPrefix))  BMPrefix;
 
-constexpr void __set_BMPrefix(::System::Text::RegularExpressions::RegexBoyerMoore value) ;
+constexpr void __set_BMPrefix(System::Text::RegularExpressions::RegexBoyerMoore value) ;
 
-constexpr ::System::Text::RegularExpressions::RegexBoyerMoore __get_BMPrefix() const;
+constexpr System::Text::RegularExpressions::RegexBoyerMoore __get_BMPrefix() const;
 
  int32_t __declspec(property(get=__get_Anchors, put=__set_Anchors))  Anchors;
 
@@ -269,11 +268,11 @@ constexpr bool __get_RightToLeft() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "codes", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "stringlist", ty: "::System::Collections::Generic::List_1<::StringW>", modifiers: "", def_value: None }, CppParam { name: "trackcount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "caps", ty: "::System::Collections::Hashtable", modifiers: "", def_value: None }, CppParam { name: "capsize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "bmPrefix", ty: "::System::Text::RegularExpressions::RegexBoyerMoore", modifiers: "", def_value: None }, CppParam { name: "fcPrefix", ty: "::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix>", modifiers: "", def_value: None }, CppParam { name: "anchors", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "rightToLeft", ty: "bool", modifiers: "", def_value: None }]
-explicit RegexCode(::ArrayW<int32_t> codes, ::System::Collections::Generic::List_1<::StringW> stringlist, int32_t trackcount, ::System::Collections::Hashtable caps, int32_t capsize, ::System::Text::RegularExpressions::RegexBoyerMoore bmPrefix, ::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix> fcPrefix, int32_t anchors, bool rightToLeft) ;
+// Ctor Parameters [CppParam { name: "codes", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "stringlist", ty: "System::Collections::Generic::List_1<::StringW>", modifiers: "", def_value: None }, CppParam { name: "trackcount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "caps", ty: "System::Collections::Hashtable", modifiers: "", def_value: None }, CppParam { name: "capsize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "bmPrefix", ty: "System::Text::RegularExpressions::RegexBoyerMoore", modifiers: "", def_value: None }, CppParam { name: "fcPrefix", ty: "System::Nullable_1<System::Text::RegularExpressions::RegexPrefix>", modifiers: "", def_value: None }, CppParam { name: "anchors", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "rightToLeft", ty: "bool", modifiers: "", def_value: None }]
+explicit RegexCode(::ArrayW<int32_t> codes, System::Collections::Generic::List_1<::StringW> stringlist, int32_t trackcount, System::Collections::Hashtable caps, int32_t capsize, System::Text::RegularExpressions::RegexBoyerMoore bmPrefix, System::Nullable_1<System::Text::RegularExpressions::RegexPrefix> fcPrefix, int32_t anchors, bool rightToLeft) ;
 
 /// @brief Method .ctor addr 0x27cba24 size 0xd0 virtual false final false
- void _ctor(::ArrayW<int32_t> codes, ::System::Collections::Generic::List_1<::StringW> stringlist, int32_t trackcount, ::System::Collections::Hashtable caps, int32_t capsize, ::System::Text::RegularExpressions::RegexBoyerMoore bmPrefix, ::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix> fcPrefix, int32_t anchors, bool rightToLeft) ;
+ void _ctor(::ArrayW<int32_t> codes, System::Collections::Generic::List_1<::StringW> stringlist, int32_t trackcount, System::Collections::Hashtable caps, int32_t capsize, System::Text::RegularExpressions::RegexBoyerMoore bmPrefix, System::Nullable_1<System::Text::RegularExpressions::RegexPrefix> fcPrefix, int32_t anchors, bool rightToLeft) ;
 
 /// @brief Method OpcodeBacktracks addr 0x27cbaf4 size 0x30 virtual false final false
 static bool OpcodeBacktracks(int32_t Op) ;
@@ -282,6 +281,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Text::RegularExpressions
-} // end anonymous namespace
-NEED_NO_BOX(::System::Text::RegularExpressions::RegexCode);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::RegularExpressions::RegexCode, "System.Text.RegularExpressions", "RegexCode");
+NEED_NO_BOX(System::Text::RegularExpressions::RegexCode);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCode, "System.Text.RegularExpressions", "RegexCode");

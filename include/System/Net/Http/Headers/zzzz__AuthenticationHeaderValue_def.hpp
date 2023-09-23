@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-class ICloneable;
-}
 namespace System::Net::Http::Headers {
 class Lexer;
+}
+namespace System {
+class ICloneable;
 }
 namespace System::Net::Http::Headers {
 struct Token;
@@ -31,8 +30,8 @@ namespace System::Net::Http::Headers {
 class CORDL_TYPE AuthenticationHeaderValue : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::ICloneable
-constexpr operator  ::System::ICloneable() const noexcept;
+/// @brief Convert operator to System::ICloneable
+constexpr operator  System::ICloneable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -123,13 +122,13 @@ explicit AuthenticationHeaderValue() ;
  int32_t GetHashCode() ;
 
 /// @brief Method TryParse addr 0x26a3134 size 0xd0 virtual false final false
-static bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::AuthenticationHeaderValue> parsedValue) ;
+static bool TryParse(::StringW input, ByRef<System::Net::Http::Headers::AuthenticationHeaderValue> parsedValue) ;
 
 /// @brief Method TryParse addr 0x26a3360 size 0xb0 virtual false final false
-static bool TryParse(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::AuthenticationHeaderValue>> result) ;
+static bool TryParse(::StringW input, int32_t minimalCount, ByRef<System::Collections::Generic::List_1<System::Net::Http::Headers::AuthenticationHeaderValue>> result) ;
 
 /// @brief Method TryParseElement addr 0x26a322c size 0x134 virtual false final false
-static bool TryParseElement(::System::Net::Http::Headers::Lexer lexer, ByRef<::System::Net::Http::Headers::AuthenticationHeaderValue> parsedValue, ByRef<::System::Net::Http::Headers::Token> t) ;
+static bool TryParseElement(System::Net::Http::Headers::Lexer lexer, ByRef<System::Net::Http::Headers::AuthenticationHeaderValue> parsedValue, ByRef<System::Net::Http::Headers::Token> t) ;
 
 /// @brief Method ToString addr 0x26a3768 size 0x5c virtual true final false
  ::StringW ToString() ;
@@ -138,6 +137,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Http::Headers
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Http::Headers::AuthenticationHeaderValue);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::AuthenticationHeaderValue, "System.Net.Http.Headers", "AuthenticationHeaderValue");
+NEED_NO_BOX(System::Net::Http::Headers::AuthenticationHeaderValue);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::AuthenticationHeaderValue, "System.Net.Http.Headers", "AuthenticationHeaderValue");

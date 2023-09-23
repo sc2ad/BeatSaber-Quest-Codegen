@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::IO {
 class MemoryStream;
 }
@@ -119,13 +118,13 @@ explicit ByteQueue(::ArrayW<uint8_t> buf, int32_t off, int32_t len) ;
  int32_t get_Available() ;
 
 /// @brief Method CopyTo addr 0xece47c size 0x1bc virtual false final false
- void CopyTo(::System::IO::Stream output, int32_t length) ;
+ void CopyTo(System::IO::Stream output, int32_t length) ;
 
 /// @brief Method Read addr 0xece638 size 0x25c virtual false final false
  void Read(::ArrayW<uint8_t> buf, int32_t offset, int32_t len, int32_t skip) ;
 
 /// @brief Method ReadFrom addr 0xece894 size 0x200 virtual false final false
- ::System::IO::MemoryStream ReadFrom(int32_t length) ;
+ System::IO::MemoryStream ReadFrom(int32_t length) ;
 
 /// @brief Method RemoveData addr 0xecea94 size 0x1a4 virtual false final false
  void RemoveData(int32_t i) ;
@@ -143,6 +142,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::ByteQueue);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::ByteQueue, "Org.BouncyCastle.Crypto.Tls", "ByteQueue");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::ByteQueue);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::ByteQueue, "Org.BouncyCastle.Crypto.Tls", "ByteQueue");

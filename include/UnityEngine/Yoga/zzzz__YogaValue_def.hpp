@@ -4,7 +4,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine::Yoga {
 struct YogaUnit;
 }
@@ -21,8 +20,8 @@ namespace UnityEngine::Yoga {
 struct CORDL_TYPE YogaValue : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "value", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "unit", ty: "::UnityEngine::Yoga::YogaUnit", modifiers: "", def_value: None }]
-constexpr YogaValue(float_t value, ::UnityEngine::Yoga::YogaUnit unit) noexcept;
+// Ctor Parameters [CppParam { name: "value", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "unit", ty: "UnityEngine::Yoga::YogaUnit", modifiers: "", def_value: None }]
+constexpr YogaValue(float_t value, UnityEngine::Yoga::YogaUnit unit) noexcept;
 
 
                     constexpr YogaValue(YogaValue const&) = default;
@@ -61,16 +60,16 @@ constexpr void __set_value(float_t value) ;
 
 constexpr float_t __get_value() const;
 
- ::UnityEngine::Yoga::YogaUnit __declspec(property(get=__get_unit, put=__set_unit))  unit;
+ UnityEngine::Yoga::YogaUnit __declspec(property(get=__get_unit, put=__set_unit))  unit;
 
-constexpr void __set_unit(::UnityEngine::Yoga::YogaUnit value) ;
+constexpr void __set_unit(UnityEngine::Yoga::YogaUnit value) ;
 
-constexpr ::UnityEngine::Yoga::YogaUnit __get_unit() const;
+constexpr UnityEngine::Yoga::YogaUnit __get_unit() const;
 
 
 // Properties
 
- ::UnityEngine::Yoga::YogaUnit __declspec(property(get=get_Unit))  Unit;
+ UnityEngine::Yoga::YogaUnit __declspec(property(get=get_Unit))  Unit;
 
  float_t __declspec(property(get=get_Value))  Value;
 
@@ -78,16 +77,16 @@ constexpr ::UnityEngine::Yoga::YogaUnit __get_unit() const;
 // Methods
 
 /// @brief Method get_Unit addr 0x2d2add4 size 0x8 virtual false final false
- ::UnityEngine::Yoga::YogaUnit get_Unit() ;
+ UnityEngine::Yoga::YogaUnit get_Unit() ;
 
 /// @brief Method get_Value addr 0x2d2addc size 0x8 virtual false final false
  float_t get_Value() ;
 
 /// @brief Method Point addr 0x2d2df84 size 0x24 virtual false final false
-static ::UnityEngine::Yoga::YogaValue Point(float_t value) ;
+static UnityEngine::Yoga::YogaValue Point(float_t value) ;
 
 /// @brief Method Equals addr 0x2d2dfa8 size 0x60 virtual false final false
- bool Equals(::UnityEngine::Yoga::YogaValue other) ;
+ bool Equals(UnityEngine::Yoga::YogaValue other) ;
 
 /// @brief Method Equals addr 0x2d2e008 size 0x78 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -96,17 +95,16 @@ static ::UnityEngine::Yoga::YogaValue Point(float_t value) ;
  int32_t GetHashCode() ;
 
 /// @brief Method Auto addr 0x2d2e0bc size 0xc virtual false final false
-static ::UnityEngine::Yoga::YogaValue Auto() ;
+static UnityEngine::Yoga::YogaValue Auto() ;
 
 /// @brief Method Percent addr 0x2d2e0c8 size 0x28 virtual false final false
-static ::UnityEngine::Yoga::YogaValue Percent(float_t value) ;
+static UnityEngine::Yoga::YogaValue Percent(float_t value) ;
 
 /// @brief Method op_Implicit addr 0x2d2e0f0 size 0x2c virtual false final false
-static ::UnityEngine::Yoga::YogaValue op_Implicit___UnityEngine__Yoga__YogaValue(float_t pointValue) ;
+static UnityEngine::Yoga::YogaValue op_Implicit_UnityEngine__Yoga__YogaValue(float_t pointValue) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Yoga
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Yoga::YogaValue, "UnityEngine.Yoga", "YogaValue");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Yoga::YogaValue, "UnityEngine.Yoga", "YogaValue");

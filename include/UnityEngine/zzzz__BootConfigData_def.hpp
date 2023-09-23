@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 class BootConfigData;
@@ -59,7 +58,7 @@ constexpr ::cordl_internals::intptr_t __get_m_Ptr() const;
 // Methods
 
 /// @brief Method WrapBootConfigData addr 0x2b55d7c size 0x60 virtual false final false
-static ::UnityEngine::BootConfigData WrapBootConfigData(::cordl_internals::intptr_t nativeHandle) ;
+static UnityEngine::BootConfigData WrapBootConfigData(::cordl_internals::intptr_t nativeHandle) ;
 
 // Ctor Parameters [CppParam { name: "nativeHandle", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
 explicit BootConfigData(::cordl_internals::intptr_t nativeHandle) ;
@@ -71,6 +70,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::BootConfigData);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::BootConfigData, "UnityEngine", "BootConfigData");
+NEED_NO_BOX(UnityEngine::BootConfigData);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BootConfigData, "UnityEngine", "BootConfigData");

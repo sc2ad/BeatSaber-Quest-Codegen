@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
@@ -24,8 +23,8 @@ namespace Org::BouncyCastle::Crypto::Modes {
 class CORDL_TYPE OfbBlockCipher : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IBlockCipher
-constexpr operator  ::Org::BouncyCastle::Crypto::IBlockCipher() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IBlockCipher
+constexpr operator  Org::BouncyCastle::Crypto::IBlockCipher() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -84,11 +83,11 @@ constexpr void __set_blockSize(int32_t value) ;
 
 constexpr int32_t __get_blockSize() const;
 
- ::Org::BouncyCastle::Crypto::IBlockCipher __declspec(property(get=__get_cipher, put=__set_cipher))  cipher;
+ Org::BouncyCastle::Crypto::IBlockCipher __declspec(property(get=__get_cipher, put=__set_cipher))  cipher;
 
-constexpr void __set_cipher(::Org::BouncyCastle::Crypto::IBlockCipher value) ;
+constexpr void __set_cipher(Org::BouncyCastle::Crypto::IBlockCipher value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IBlockCipher __get_cipher() const;
+constexpr Org::BouncyCastle::Crypto::IBlockCipher __get_cipher() const;
 
 
 // Properties
@@ -100,17 +99,17 @@ constexpr ::Org::BouncyCastle::Crypto::IBlockCipher __get_cipher() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "::Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }, CppParam { name: "blockSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit OfbBlockCipher(::Org::BouncyCastle::Crypto::IBlockCipher cipher, int32_t blockSize) ;
+// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }, CppParam { name: "blockSize", ty: "int32_t", modifiers: "", def_value: None }]
+explicit OfbBlockCipher(Org::BouncyCastle::Crypto::IBlockCipher cipher, int32_t blockSize) ;
 
 /// @brief Method .ctor addr 0xe98f40 size 0x1e0 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher cipher, int32_t blockSize) ;
+ void _ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher, int32_t blockSize) ;
 
 /// @brief Method GetUnderlyingCipher addr 0xe99120 size 0x8 virtual false final false
- ::Org::BouncyCastle::Crypto::IBlockCipher GetUnderlyingCipher() ;
+ Org::BouncyCastle::Crypto::IBlockCipher GetUnderlyingCipher() ;
 
 /// @brief Method Init addr 0xe99128 size 0x1bc virtual true final true
- void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method get_AlgorithmName addr 0xe993a8 size 0x104 virtual true final true
  ::StringW get_AlgorithmName() ;
@@ -131,6 +130,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Modes
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Modes::OfbBlockCipher);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Modes::OfbBlockCipher, "Org.BouncyCastle.Crypto.Modes", "OfbBlockCipher");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Modes::OfbBlockCipher);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::OfbBlockCipher, "Org.BouncyCastle.Crypto.Modes", "OfbBlockCipher");

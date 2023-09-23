@@ -2,15 +2,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/Linq/zzzz__XNode_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Xml {
 class XmlWriter;
 }
-namespace System::Xml {
-struct XmlNodeType;
-}
 namespace System::Xml::Linq {
 class XNode;
+}
+namespace System::Xml {
+struct XmlNodeType;
 }
 // Forward declare root types
 namespace System::Xml::Linq {
@@ -22,7 +21,7 @@ namespace System::Xml::Linq {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15429))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15415))
 // CS Name: System.Xml.Linq.XDocumentType
-class CORDL_TYPE XDocumentType : public ::System::Xml::Linq::XNode {
+class CORDL_TYPE XDocumentType : public System::Xml::Linq::XNode {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr XDocumentType(XDocumentType const& ) noexcept = default;
 constexpr XDocumentType(XDocumentType&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XDocumentType(void* ptr) noexcept : ::System::Xml::Linq::XNode(ptr) {
+constexpr explicit XDocumentType(void* ptr) noexcept : System::Xml::Linq::XNode(ptr) {
 }
 
 
@@ -89,7 +88,7 @@ constexpr ::StringW __get__internalSubset() const;
 
  ::StringW __declspec(property(get=get_Name))  Name;
 
- ::System::Xml::XmlNodeType __declspec(property(get=get_NodeType))  NodeType;
+ System::Xml::XmlNodeType __declspec(property(get=get_NodeType))  NodeType;
 
  ::StringW __declspec(property(get=get_PublicId))  PublicId;
 
@@ -104,11 +103,11 @@ explicit XDocumentType(::StringW name, ::StringW publicId, ::StringW systemId, :
 /// @brief Method .ctor addr 0x26cbfcc size 0x90 virtual false final false
  void _ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset) ;
 
-// Ctor Parameters [CppParam { name: "other", ty: "::System::Xml::Linq::XDocumentType", modifiers: "", def_value: None }]
-explicit XDocumentType(::System::Xml::Linq::XDocumentType other) ;
+// Ctor Parameters [CppParam { name: "other", ty: "System::Xml::Linq::XDocumentType", modifiers: "", def_value: None }]
+explicit XDocumentType(System::Xml::Linq::XDocumentType other) ;
 
 /// @brief Method .ctor addr 0x26cc05c size 0x84 virtual false final false
- void _ctor(::System::Xml::Linq::XDocumentType other) ;
+ void _ctor(System::Xml::Linq::XDocumentType other) ;
 
 /// @brief Method get_InternalSubset addr 0x26cc0e0 size 0x8 virtual false final false
  ::StringW get_InternalSubset() ;
@@ -117,7 +116,7 @@ explicit XDocumentType(::System::Xml::Linq::XDocumentType other) ;
  ::StringW get_Name() ;
 
 /// @brief Method get_NodeType addr 0x26cc0f0 size 0x8 virtual true final false
- ::System::Xml::XmlNodeType get_NodeType() ;
+ System::Xml::XmlNodeType get_NodeType() ;
 
 /// @brief Method get_PublicId addr 0x26cc0f8 size 0x8 virtual false final false
  ::StringW get_PublicId() ;
@@ -126,15 +125,14 @@ explicit XDocumentType(::System::Xml::Linq::XDocumentType other) ;
  ::StringW get_SystemId() ;
 
 /// @brief Method WriteTo addr 0x26cc108 size 0x74 virtual true final false
- void WriteTo(::System::Xml::XmlWriter writer) ;
+ void WriteTo(System::Xml::XmlWriter writer) ;
 
 /// @brief Method CloneNode addr 0x26cc17c size 0x60 virtual true final false
- ::System::Xml::Linq::XNode CloneNode() ;
+ System::Xml::Linq::XNode CloneNode() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Linq
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Linq::XDocumentType);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Linq::XDocumentType, "System.Xml.Linq", "XDocumentType");
+NEED_NO_BOX(System::Xml::Linq::XDocumentType);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Linq::XDocumentType, "System.Xml.Linq", "XDocumentType");

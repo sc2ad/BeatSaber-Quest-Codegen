@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
 struct RectSelectMode;
@@ -67,14 +66,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Partial offset 0
-static ::UnityEngine::ProBuilder::RectSelectMode const Partial;
+static UnityEngine::ProBuilder::RectSelectMode const Partial;
 
 /// @brief Field Complete offset 0
-static ::UnityEngine::ProBuilder::RectSelectMode const Complete;
+static UnityEngine::ProBuilder::RectSelectMode const Complete;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::RectSelectMode, "UnityEngine.ProBuilder", "RectSelectMode");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::RectSelectMode, "UnityEngine.ProBuilder", "RectSelectMode");

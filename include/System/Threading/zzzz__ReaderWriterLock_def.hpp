@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/Runtime/ConstrainedExecution/zzzz__CriticalFinalizerObject_def.hpp"
 #include <cstdint>
-namespace {
 namespace System::Threading {
 class LockQueue;
 }
@@ -19,7 +18,7 @@ namespace System::Threading {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3347))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2744))
 // CS Name: System.Threading.ReaderWriterLock
-class CORDL_TYPE ReaderWriterLock : public ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject {
+class CORDL_TYPE ReaderWriterLock : public System::Runtime::ConstrainedExecution::CriticalFinalizerObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr ReaderWriterLock(ReaderWriterLock const& ) noexcept = default;
 constexpr ReaderWriterLock(ReaderWriterLock&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ReaderWriterLock(void* ptr) noexcept : ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject(ptr) {
+constexpr explicit ReaderWriterLock(void* ptr) noexcept : System::Runtime::ConstrainedExecution::CriticalFinalizerObject(ptr) {
 }
 
 
@@ -79,17 +78,17 @@ constexpr void __set_writer_lock_owner(int32_t value) ;
 
 constexpr int32_t __get_writer_lock_owner() const;
 
- ::System::Threading::LockQueue __declspec(property(get=__get_writer_queue, put=__set_writer_queue))  writer_queue;
+ System::Threading::LockQueue __declspec(property(get=__get_writer_queue, put=__set_writer_queue))  writer_queue;
 
-constexpr void __set_writer_queue(::System::Threading::LockQueue value) ;
+constexpr void __set_writer_queue(System::Threading::LockQueue value) ;
 
-constexpr ::System::Threading::LockQueue __get_writer_queue() const;
+constexpr System::Threading::LockQueue __get_writer_queue() const;
 
- ::System::Collections::Hashtable __declspec(property(get=__get_reader_locks, put=__set_reader_locks))  reader_locks;
+ System::Collections::Hashtable __declspec(property(get=__get_reader_locks, put=__set_reader_locks))  reader_locks;
 
-constexpr void __set_reader_locks(::System::Collections::Hashtable value) ;
+constexpr void __set_reader_locks(System::Collections::Hashtable value) ;
 
-constexpr ::System::Collections::Hashtable __get_reader_locks() const;
+constexpr System::Collections::Hashtable __get_reader_locks() const;
 
 
 // Properties
@@ -142,6 +141,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Threading
-} // end anonymous namespace
-NEED_NO_BOX(::System::Threading::ReaderWriterLock);
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::ReaderWriterLock, "System.Threading", "ReaderWriterLock");
+NEED_NO_BOX(System::Threading::ReaderWriterLock);
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::ReaderWriterLock, "System.Threading", "ReaderWriterLock");

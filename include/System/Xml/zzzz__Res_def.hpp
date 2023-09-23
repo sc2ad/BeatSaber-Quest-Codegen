@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace System::Xml {
 class Res;
@@ -60,6 +59,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Res);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Res, "System.Xml", "Res");
+NEED_NO_BOX(System::Xml::Res);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Res, "System.Xml", "Res");

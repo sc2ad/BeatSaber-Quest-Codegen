@@ -3,45 +3,44 @@
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
-struct ReadOnlyMemory_1;
-}
-namespace System {
-template<typename T>
-struct Span_1;
-}
-namespace System::Threading::Tasks {
-template<typename TResult>
-struct ValueTask_1;
-}
-namespace System::IO {
-struct SeekOrigin;
-}
-namespace System::Threading::Tasks {
-struct ValueTask;
+struct Memory_1;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
 namespace System {
 template<typename T>
-struct Memory_1;
+struct ReadOnlySpan_1;
 }
-namespace System::IO {
-class Stream;
+namespace System {
+template<typename T>
+struct ReadOnlyMemory_1;
 }
 namespace System::Threading::Tasks {
 class Task;
+}
+namespace System::IO {
+struct SeekOrigin;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
+namespace System::Threading::Tasks {
+template<typename TResult>
+struct ValueTask_1;
+}
 namespace System {
 template<typename T>
-struct ReadOnlySpan_1;
+struct Span_1;
+}
+namespace System::Threading::Tasks {
+struct ValueTask;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace System::IO {
@@ -53,7 +52,7 @@ namespace System::IO {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3604))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3558))
 // CS Name: System.IO.MemoryStream
-class CORDL_TYPE MemoryStream : public ::System::IO::Stream {
+class CORDL_TYPE MemoryStream : public System::IO::Stream {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -68,7 +67,7 @@ constexpr MemoryStream(MemoryStream const& ) noexcept = default;
 constexpr MemoryStream(MemoryStream&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MemoryStream(void* ptr) noexcept : ::System::IO::Stream(ptr) {
+constexpr explicit MemoryStream(void* ptr) noexcept : System::IO::Stream(ptr) {
 }
 
 
@@ -143,11 +142,11 @@ constexpr void __set__isOpen(bool value) ;
 
 constexpr bool __get__isOpen() const;
 
- ::System::Threading::Tasks::Task_1<int32_t> __declspec(property(get=__get__lastReadTask, put=__set__lastReadTask))  _lastReadTask;
+ System::Threading::Tasks::Task_1<int32_t> __declspec(property(get=__get__lastReadTask, put=__set__lastReadTask))  _lastReadTask;
 
-constexpr void __set__lastReadTask(::System::Threading::Tasks::Task_1<int32_t> value) ;
+constexpr void __set__lastReadTask(System::Threading::Tasks::Task_1<int32_t> value) ;
 
-constexpr ::System::Threading::Tasks::Task_1<int32_t> __get__lastReadTask() const;
+constexpr System::Threading::Tasks::Task_1<int32_t> __get__lastReadTask() const;
 
 
 // Properties
@@ -234,7 +233,7 @@ explicit MemoryStream(::ArrayW<uint8_t> buffer, int32_t index, int32_t count, bo
  void Flush() ;
 
 /// @brief Method FlushAsync addr 0x2390014 size 0x174 virtual true final false
- ::System::Threading::Tasks::Task FlushAsync(::System::Threading::CancellationToken cancellationToken) ;
+ System::Threading::Tasks::Task FlushAsync(System::Threading::CancellationToken cancellationToken) ;
 
 /// @brief Method GetBuffer addr 0x2390188 size 0x64 virtual true final false
  ::ArrayW<uint8_t> GetBuffer() ;
@@ -270,22 +269,22 @@ explicit MemoryStream(::ArrayW<uint8_t> buffer, int32_t index, int32_t count, bo
  int32_t Read(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count) ;
 
 /// @brief Method Read addr 0x2390798 size 0x1fc virtual true final false
- int32_t Read(::System::Span_1<uint8_t> buffer) ;
+ int32_t Read(System::Span_1<uint8_t> buffer) ;
 
 /// @brief Method ReadAsync addr 0x2390994 size 0x368 virtual true final false
- ::System::Threading::Tasks::Task_1<int32_t> ReadAsync(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken) ;
+ System::Threading::Tasks::Task_1<int32_t> ReadAsync(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, System::Threading::CancellationToken cancellationToken) ;
 
 /// @brief Method ReadAsync addr 0x2390cfc size 0x2dc virtual true final false
- ::System::Threading::Tasks::ValueTask_1<int32_t> ReadAsync(::System::Memory_1<uint8_t> buffer, ::System::Threading::CancellationToken cancellationToken) ;
+ System::Threading::Tasks::ValueTask_1<int32_t> ReadAsync(System::Memory_1<uint8_t> buffer, System::Threading::CancellationToken cancellationToken) ;
 
 /// @brief Method ReadByte addr 0x2390fd8 size 0x58 virtual true final false
  int32_t ReadByte() ;
 
 /// @brief Method CopyToAsync addr 0x2391030 size 0x328 virtual true final false
- ::System::Threading::Tasks::Task CopyToAsync(::System::IO::Stream destination, int32_t bufferSize, ::System::Threading::CancellationToken cancellationToken) ;
+ System::Threading::Tasks::Task CopyToAsync(System::IO::Stream destination, int32_t bufferSize, System::Threading::CancellationToken cancellationToken) ;
 
 /// @brief Method Seek addr 0x2391598 size 0x158 virtual true final false
- int64_t Seek(int64_t offset, ::System::IO::SeekOrigin loc) ;
+ int64_t Seek(int64_t offset, System::IO::SeekOrigin loc) ;
 
 /// @brief Method SetLength addr 0x23916f0 size 0xe0 virtual true final false
  void SetLength(int64_t value) ;
@@ -297,24 +296,23 @@ explicit MemoryStream(::ArrayW<uint8_t> buffer, int32_t index, int32_t count, bo
  void Write(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count) ;
 
 /// @brief Method Write addr 0x2391b44 size 0x254 virtual true final false
- void Write(::System::ReadOnlySpan_1<uint8_t> buffer) ;
+ void Write(System::ReadOnlySpan_1<uint8_t> buffer) ;
 
 /// @brief Method WriteAsync addr 0x2391d98 size 0x308 virtual true final false
- ::System::Threading::Tasks::Task WriteAsync(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken) ;
+ System::Threading::Tasks::Task WriteAsync(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, System::Threading::CancellationToken cancellationToken) ;
 
 /// @brief Method WriteAsync addr 0x23920a0 size 0x25c virtual true final false
- ::System::Threading::Tasks::ValueTask WriteAsync(::System::ReadOnlyMemory_1<uint8_t> buffer, ::System::Threading::CancellationToken cancellationToken) ;
+ System::Threading::Tasks::ValueTask WriteAsync(System::ReadOnlyMemory_1<uint8_t> buffer, System::Threading::CancellationToken cancellationToken) ;
 
 /// @brief Method WriteByte addr 0x23922fc size 0xbc virtual true final false
  void WriteByte(uint8_t value) ;
 
 /// @brief Method WriteTo addr 0x23923b8 size 0xa4 virtual true final false
- void WriteTo(::System::IO::Stream stream) ;
+ void WriteTo(System::IO::Stream stream) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::IO
-} // end anonymous namespace
-NEED_NO_BOX(::System::IO::MemoryStream);
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::MemoryStream, "System.IO", "MemoryStream");
+NEED_NO_BOX(System::IO::MemoryStream);
+DEFINE_IL2CPP_ARG_TYPE(System::IO::MemoryStream, "System.IO", "MemoryStream");

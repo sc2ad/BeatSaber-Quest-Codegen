@@ -3,17 +3,16 @@
 #include "GlobalNamespace/zzzz__EnvironmentEffectsFilterPreset_def.hpp"
 #include "GlobalNamespace/zzzz__ValueDropdownController_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace GlobalNamespace {
 struct EnvironmentEffectsFilterPreset;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
 }
 namespace System {
 template<typename T1,typename T2>
 class Tuple_2;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,7 +24,7 @@ namespace GlobalNamespace {
 // Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5694), inst: 4596 }), TypeDefinitionIndex(TypeDefinitionIndex(5694)), TypeDefinitionIndex(TypeDefinitionIndex(4731))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5695))
 // CS Name: EnvironmentEffectsFilterPresetDropdown
-class CORDL_TYPE EnvironmentEffectsFilterPresetDropdown : public ::GlobalNamespace::ValueDropdownController_1<::GlobalNamespace::EnvironmentEffectsFilterPreset> {
+class CORDL_TYPE EnvironmentEffectsFilterPresetDropdown : public GlobalNamespace::ValueDropdownController_1<GlobalNamespace::EnvironmentEffectsFilterPreset> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr EnvironmentEffectsFilterPresetDropdown(EnvironmentEffectsFilterPresetD
 constexpr EnvironmentEffectsFilterPresetDropdown(EnvironmentEffectsFilterPresetDropdown&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EnvironmentEffectsFilterPresetDropdown(void* ptr) noexcept : ::GlobalNamespace::ValueDropdownController_1<::GlobalNamespace::EnvironmentEffectsFilterPreset>(ptr) {
+constexpr explicit EnvironmentEffectsFilterPresetDropdown(void* ptr) noexcept : GlobalNamespace::ValueDropdownController_1<GlobalNamespace::EnvironmentEffectsFilterPreset>(ptr) {
 }
 
 
@@ -62,7 +61,7 @@ constexpr explicit EnvironmentEffectsFilterPresetDropdown(void* ptr) noexcept : 
 // Methods
 
 /// @brief Method GetNamedValues addr 0x2153d40 size 0x128 virtual true final false
- ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::EnvironmentEffectsFilterPreset,::StringW>> GetNamedValues() ;
+ System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::EnvironmentEffectsFilterPreset,::StringW>> GetNamedValues() ;
 
 // Ctor Parameters []
 explicit EnvironmentEffectsFilterPresetDropdown() ;
@@ -74,6 +73,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown, "", "EnvironmentEffectsFilterPresetDropdown");
+NEED_NO_BOX(GlobalNamespace::EnvironmentEffectsFilterPresetDropdown);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentEffectsFilterPresetDropdown, "", "EnvironmentEffectsFilterPresetDropdown");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform {
 struct MultiplayerErrorErrorKey;
 }
@@ -68,10 +67,10 @@ explicit MultiplayerErrorOptions() ;
  void _ctor() ;
 
 /// @brief Method SetErrorKey addr 0x2584b24 size 0x68 virtual false final false
- void SetErrorKey(::Oculus::Platform::MultiplayerErrorErrorKey value) ;
+ void SetErrorKey(Oculus::Platform::MultiplayerErrorErrorKey value) ;
 
 /// @brief Method op_Explicit addr 0x2584b8c size 0x58 virtual false final false
-static ::cordl_internals::intptr_t op_Explicit___cordl_internals__intptr_t(::Oculus::Platform::MultiplayerErrorOptions options) ;
+static ::cordl_internals::intptr_t op_Explicit___cordl_internals__intptr_t(Oculus::Platform::MultiplayerErrorOptions options) ;
 
 /// @brief Method Finalize addr 0x2584be4 size 0xd4 virtual true final false
  void Finalize() ;
@@ -80,6 +79,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::MultiplayerErrorOptions);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MultiplayerErrorOptions, "Oculus.Platform", "MultiplayerErrorOptions");
+NEED_NO_BOX(Oculus::Platform::MultiplayerErrorOptions);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MultiplayerErrorOptions, "Oculus.Platform", "MultiplayerErrorOptions");

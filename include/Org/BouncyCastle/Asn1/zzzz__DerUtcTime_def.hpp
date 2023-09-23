@@ -5,18 +5,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace System {
+struct DateTime;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerOutputStream;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerOutputStream;
-}
-namespace System {
-struct DateTime;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -28,7 +27,7 @@ namespace Org::BouncyCastle::Asn1 {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(31))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(519))
 // CS Name: Org.BouncyCastle.Asn1.DerUtcTime
-class CORDL_TYPE DerUtcTime : public ::Org::BouncyCastle::Asn1::Asn1Object {
+class CORDL_TYPE DerUtcTime : public Org::BouncyCastle::Asn1::Asn1Object {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -43,7 +42,7 @@ constexpr DerUtcTime(DerUtcTime const& ) noexcept = default;
 constexpr DerUtcTime(DerUtcTime&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DerUtcTime(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::Asn1Object(ptr) {
+constexpr explicit DerUtcTime(void* ptr) noexcept : Org::BouncyCastle::Asn1::Asn1Object(ptr) {
 }
 
 
@@ -83,10 +82,10 @@ constexpr ::StringW __get_time() const;
 // Methods
 
 /// @brief Method GetInstance addr 0x11398d8 size 0xf0 virtual false final false
-static ::Org::BouncyCastle::Asn1::DerUtcTime GetInstance(::bs_hook::Il2CppWrapperType obj) ;
+static Org::BouncyCastle::Asn1::DerUtcTime GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method GetInstance addr 0x11399c8 size 0x140 virtual false final false
-static ::Org::BouncyCastle::Asn1::DerUtcTime GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool isExplicit) ;
+static Org::BouncyCastle::Asn1::DerUtcTime GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool isExplicit) ;
 
 // Ctor Parameters [CppParam { name: "time", ty: "::StringW", modifiers: "", def_value: None }]
 explicit DerUtcTime(::StringW time) ;
@@ -94,11 +93,11 @@ explicit DerUtcTime(::StringW time) ;
 /// @brief Method .ctor addr 0x1139b08 size 0x168 virtual false final false
  void _ctor(::StringW time) ;
 
-// Ctor Parameters [CppParam { name: "time", ty: "::System::DateTime", modifiers: "", def_value: None }]
-explicit DerUtcTime(::System::DateTime time) ;
+// Ctor Parameters [CppParam { name: "time", ty: "System::DateTime", modifiers: "", def_value: None }]
+explicit DerUtcTime(System::DateTime time) ;
 
 /// @brief Method .ctor addr 0x1139cc0 size 0xbc virtual false final false
- void _ctor(::System::DateTime time) ;
+ void _ctor(System::DateTime time) ;
 
 // Ctor Parameters [CppParam { name: "bytes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
 explicit DerUtcTime(::ArrayW<uint8_t> bytes) ;
@@ -107,13 +106,13 @@ explicit DerUtcTime(::ArrayW<uint8_t> bytes) ;
  void _ctor(::ArrayW<uint8_t> bytes) ;
 
 /// @brief Method ToDateTime addr 0x1139c70 size 0x50 virtual false final false
- ::System::DateTime ToDateTime() ;
+ System::DateTime ToDateTime() ;
 
 /// @brief Method ToAdjustedDateTime addr 0x113a208 size 0x50 virtual false final false
- ::System::DateTime ToAdjustedDateTime() ;
+ System::DateTime ToAdjustedDateTime() ;
 
 /// @brief Method ParseDateString addr 0x113a150 size 0xb8 virtual false final false
- ::System::DateTime ParseDateString(::StringW dateStr, ::StringW formatStr) ;
+ System::DateTime ParseDateString(::StringW dateStr, ::StringW formatStr) ;
 
 /// @brief Method get_TimeString addr 0x1139d7c size 0x3d4 virtual false final false
  ::StringW get_TimeString() ;
@@ -128,10 +127,10 @@ explicit DerUtcTime(::ArrayW<uint8_t> bytes) ;
  ::ArrayW<uint8_t> GetOctets() ;
 
 /// @brief Method Encode addr 0x113a2f4 size 0x30 virtual true final false
- void Encode(::Org::BouncyCastle::Asn1::DerOutputStream derOut) ;
+ void Encode(Org::BouncyCastle::Asn1::DerOutputStream derOut) ;
 
 /// @brief Method Asn1Equals addr 0x113a324 size 0xa0 virtual true final false
- bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object asn1Object) ;
+ bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object asn1Object) ;
 
 /// @brief Method Asn1GetHashCode addr 0x113a3c4 size 0x1c virtual true final false
  int32_t Asn1GetHashCode() ;
@@ -143,6 +142,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::DerUtcTime);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::DerUtcTime, "Org.BouncyCastle.Asn1", "DerUtcTime");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::DerUtcTime);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerUtcTime, "Org.BouncyCastle.Asn1", "DerUtcTime");

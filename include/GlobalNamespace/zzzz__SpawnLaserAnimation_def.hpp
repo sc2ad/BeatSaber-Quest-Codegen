@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
-namespace UnityEngine {
-class Transform;
-}
 namespace GlobalNamespace {
 class TubeBloomPrePassLight;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4996))
 // CS Name: SpawnLaserAnimation
-class CORDL_TYPE SpawnLaserAnimation : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SpawnLaserAnimation : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr SpawnLaserAnimation(SpawnLaserAnimation const& ) noexcept = default;
 constexpr SpawnLaserAnimation(SpawnLaserAnimation&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SpawnLaserAnimation(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SpawnLaserAnimation(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -55,29 +54,29 @@ constexpr explicit SpawnLaserAnimation(void* ptr) noexcept : ::UnityEngine::Mono
 
 // Fields
 
- ::UnityEngine::Transform __declspec(property(get=__get__centerThresholdTransform, put=__set__centerThresholdTransform))  _centerThresholdTransform;
+ UnityEngine::Transform __declspec(property(get=__get__centerThresholdTransform, put=__set__centerThresholdTransform))  _centerThresholdTransform;
 
-constexpr void __set__centerThresholdTransform(::UnityEngine::Transform value) ;
+constexpr void __set__centerThresholdTransform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__centerThresholdTransform() const;
+constexpr UnityEngine::Transform __get__centerThresholdTransform() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__horizontalLasersTransform, put=__set__horizontalLasersTransform))  _horizontalLasersTransform;
+ UnityEngine::Transform __declspec(property(get=__get__horizontalLasersTransform, put=__set__horizontalLasersTransform))  _horizontalLasersTransform;
 
-constexpr void __set__horizontalLasersTransform(::UnityEngine::Transform value) ;
+constexpr void __set__horizontalLasersTransform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__horizontalLasersTransform() const;
+constexpr UnityEngine::Transform __get__horizontalLasersTransform() const;
 
- ::GlobalNamespace::TubeBloomPrePassLight __declspec(property(get=__get__leftHorizontalLaser, put=__set__leftHorizontalLaser))  _leftHorizontalLaser;
+ GlobalNamespace::TubeBloomPrePassLight __declspec(property(get=__get__leftHorizontalLaser, put=__set__leftHorizontalLaser))  _leftHorizontalLaser;
 
-constexpr void __set__leftHorizontalLaser(::GlobalNamespace::TubeBloomPrePassLight value) ;
+constexpr void __set__leftHorizontalLaser(GlobalNamespace::TubeBloomPrePassLight value) ;
 
-constexpr ::GlobalNamespace::TubeBloomPrePassLight __get__leftHorizontalLaser() const;
+constexpr GlobalNamespace::TubeBloomPrePassLight __get__leftHorizontalLaser() const;
 
- ::GlobalNamespace::TubeBloomPrePassLight __declspec(property(get=__get__rightHorizontalLaser, put=__set__rightHorizontalLaser))  _rightHorizontalLaser;
+ GlobalNamespace::TubeBloomPrePassLight __declspec(property(get=__get__rightHorizontalLaser, put=__set__rightHorizontalLaser))  _rightHorizontalLaser;
 
-constexpr void __set__rightHorizontalLaser(::GlobalNamespace::TubeBloomPrePassLight value) ;
+constexpr void __set__rightHorizontalLaser(GlobalNamespace::TubeBloomPrePassLight value) ;
 
-constexpr ::GlobalNamespace::TubeBloomPrePassLight __get__rightHorizontalLaser() const;
+constexpr GlobalNamespace::TubeBloomPrePassLight __get__rightHorizontalLaser() const;
 
  float_t __declspec(property(get=__get__normalizedDistance, put=__set__normalizedDistance))  _normalizedDistance;
 
@@ -128,6 +127,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SpawnLaserAnimation);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SpawnLaserAnimation, "", "SpawnLaserAnimation");
+NEED_NO_BOX(GlobalNamespace::SpawnLaserAnimation);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpawnLaserAnimation, "", "SpawnLaserAnimation");

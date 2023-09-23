@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net {
 struct WebExceptionStatus;
@@ -86,71 +85,70 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Success offset 0
-static ::System::Net::WebExceptionStatus const Success;
+static System::Net::WebExceptionStatus const Success;
 
 /// @brief Field NameResolutionFailure offset 0
-static ::System::Net::WebExceptionStatus const NameResolutionFailure;
+static System::Net::WebExceptionStatus const NameResolutionFailure;
 
 /// @brief Field ConnectFailure offset 0
-static ::System::Net::WebExceptionStatus const ConnectFailure;
+static System::Net::WebExceptionStatus const ConnectFailure;
 
 /// @brief Field ReceiveFailure offset 0
-static ::System::Net::WebExceptionStatus const ReceiveFailure;
+static System::Net::WebExceptionStatus const ReceiveFailure;
 
 /// @brief Field SendFailure offset 0
-static ::System::Net::WebExceptionStatus const SendFailure;
+static System::Net::WebExceptionStatus const SendFailure;
 
 /// @brief Field PipelineFailure offset 0
-static ::System::Net::WebExceptionStatus const PipelineFailure;
+static System::Net::WebExceptionStatus const PipelineFailure;
 
 /// @brief Field RequestCanceled offset 0
-static ::System::Net::WebExceptionStatus const RequestCanceled;
+static System::Net::WebExceptionStatus const RequestCanceled;
 
 /// @brief Field ProtocolError offset 0
-static ::System::Net::WebExceptionStatus const ProtocolError;
+static System::Net::WebExceptionStatus const ProtocolError;
 
 /// @brief Field ConnectionClosed offset 0
-static ::System::Net::WebExceptionStatus const ConnectionClosed;
+static System::Net::WebExceptionStatus const ConnectionClosed;
 
 /// @brief Field TrustFailure offset 0
-static ::System::Net::WebExceptionStatus const TrustFailure;
+static System::Net::WebExceptionStatus const TrustFailure;
 
 /// @brief Field SecureChannelFailure offset 0
-static ::System::Net::WebExceptionStatus const SecureChannelFailure;
+static System::Net::WebExceptionStatus const SecureChannelFailure;
 
 /// @brief Field ServerProtocolViolation offset 0
-static ::System::Net::WebExceptionStatus const ServerProtocolViolation;
+static System::Net::WebExceptionStatus const ServerProtocolViolation;
 
 /// @brief Field KeepAliveFailure offset 0
-static ::System::Net::WebExceptionStatus const KeepAliveFailure;
+static System::Net::WebExceptionStatus const KeepAliveFailure;
 
 /// @brief Field Pending offset 0
-static ::System::Net::WebExceptionStatus const Pending;
+static System::Net::WebExceptionStatus const Pending;
 
 /// @brief Field Timeout offset 0
-static ::System::Net::WebExceptionStatus const Timeout;
+static System::Net::WebExceptionStatus const Timeout;
 
 /// @brief Field ProxyNameResolutionFailure offset 0
-static ::System::Net::WebExceptionStatus const ProxyNameResolutionFailure;
+static System::Net::WebExceptionStatus const ProxyNameResolutionFailure;
 
 /// @brief Field UnknownError offset 0
-static ::System::Net::WebExceptionStatus const UnknownError;
+static System::Net::WebExceptionStatus const UnknownError;
 
 /// @brief Field MessageLengthLimitExceeded offset 0
-static ::System::Net::WebExceptionStatus const MessageLengthLimitExceeded;
+static System::Net::WebExceptionStatus const MessageLengthLimitExceeded;
 
 /// @brief Field CacheEntryNotFound offset 0
-static ::System::Net::WebExceptionStatus const CacheEntryNotFound;
+static System::Net::WebExceptionStatus const CacheEntryNotFound;
 
 /// @brief Field RequestProhibitedByCachePolicy offset 0
-static ::System::Net::WebExceptionStatus const RequestProhibitedByCachePolicy;
+static System::Net::WebExceptionStatus const RequestProhibitedByCachePolicy;
 
 /// @brief Field RequestProhibitedByProxy offset 0
-static ::System::Net::WebExceptionStatus const RequestProhibitedByProxy;
+static System::Net::WebExceptionStatus const RequestProhibitedByProxy;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::WebExceptionStatus, "System.Net", "WebExceptionStatus");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::WebExceptionStatus, "System.Net", "WebExceptionStatus");

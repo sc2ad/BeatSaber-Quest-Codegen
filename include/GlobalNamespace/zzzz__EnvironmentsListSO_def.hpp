@@ -3,13 +3,12 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace GlobalNamespace {
-class EnvironmentInfoSO;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace GlobalNamespace {
+class EnvironmentInfoSO;
 }
 namespace GlobalNamespace {
 class EnvironmentTypeSO;
@@ -24,7 +23,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4210))
 // CS Name: EnvironmentsListSO
-class CORDL_TYPE EnvironmentsListSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE EnvironmentsListSO : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr EnvironmentsListSO(EnvironmentsListSO const& ) noexcept = default;
 constexpr EnvironmentsListSO(EnvironmentsListSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EnvironmentsListSO(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit EnvironmentsListSO(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -60,34 +59,34 @@ constexpr explicit EnvironmentsListSO(void* ptr) noexcept : ::GlobalNamespace::P
 
 // Fields
 
- ::ArrayW<::GlobalNamespace::EnvironmentInfoSO> __declspec(property(get=__get__environmentInfos, put=__set__environmentInfos))  _environmentInfos;
+ ::ArrayW<GlobalNamespace::EnvironmentInfoSO> __declspec(property(get=__get__environmentInfos, put=__set__environmentInfos))  _environmentInfos;
 
-constexpr void __set__environmentInfos(::ArrayW<::GlobalNamespace::EnvironmentInfoSO> value) ;
+constexpr void __set__environmentInfos(::ArrayW<GlobalNamespace::EnvironmentInfoSO> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::EnvironmentInfoSO> __get__environmentInfos() const;
+constexpr ::ArrayW<GlobalNamespace::EnvironmentInfoSO> __get__environmentInfos() const;
 
 
 // Properties
 
- ::ArrayW<::GlobalNamespace::EnvironmentInfoSO> __declspec(property(get=get_environmentInfos))  environmentInfos;
+ ::ArrayW<GlobalNamespace::EnvironmentInfoSO> __declspec(property(get=get_environmentInfos))  environmentInfos;
 
 
 // Methods
 
 /// @brief Method get_environmentInfos addr 0x21bf49c size 0x8 virtual false final false
- ::ArrayW<::GlobalNamespace::EnvironmentInfoSO> get_environmentInfos() ;
+ ::ArrayW<GlobalNamespace::EnvironmentInfoSO> get_environmentInfos() ;
 
 /// @brief Method GetEnvironmentInfoBySerializedName addr 0x21bf4a4 size 0x80 virtual false final false
- ::GlobalNamespace::EnvironmentInfoSO GetEnvironmentInfoBySerializedName(::StringW environmentSerializedName) ;
+ GlobalNamespace::EnvironmentInfoSO GetEnvironmentInfoBySerializedName(::StringW environmentSerializedName) ;
 
 /// @brief Method GetAllEnvironmentInfosWithType addr 0x21bf524 size 0x178 virtual false final false
- ::System::Collections::Generic::List_1<::GlobalNamespace::EnvironmentInfoSO> GetAllEnvironmentInfosWithType(::GlobalNamespace::EnvironmentTypeSO environmentType) ;
+ System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO> GetAllEnvironmentInfosWithType(GlobalNamespace::EnvironmentTypeSO environmentType) ;
 
 /// @brief Method GetFirstEnvironmentInfoWithType addr 0x21bf69c size 0x84 virtual false final false
- ::GlobalNamespace::EnvironmentInfoSO GetFirstEnvironmentInfoWithType(::GlobalNamespace::EnvironmentTypeSO environmentType) ;
+ GlobalNamespace::EnvironmentInfoSO GetFirstEnvironmentInfoWithType(GlobalNamespace::EnvironmentTypeSO environmentType) ;
 
 /// @brief Method GetLastEnvironmentInfoWithType addr 0x21bf720 size 0x80 virtual false final false
- ::GlobalNamespace::EnvironmentInfoSO GetLastEnvironmentInfoWithType(::GlobalNamespace::EnvironmentTypeSO environmentType) ;
+ GlobalNamespace::EnvironmentInfoSO GetLastEnvironmentInfoWithType(GlobalNamespace::EnvironmentTypeSO environmentType) ;
 
 // Ctor Parameters []
 explicit EnvironmentsListSO() ;
@@ -99,6 +98,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::EnvironmentsListSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EnvironmentsListSO, "", "EnvironmentsListSO");
+NEED_NO_BOX(GlobalNamespace::EnvironmentsListSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentsListSO, "", "EnvironmentsListSO");

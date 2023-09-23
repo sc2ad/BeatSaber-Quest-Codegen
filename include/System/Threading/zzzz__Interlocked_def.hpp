@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Threading {
 class Interlocked;
@@ -132,6 +131,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Threading
-} // end anonymous namespace
-NEED_NO_BOX(::System::Threading::Interlocked);
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Interlocked, "System.Threading", "Interlocked");
+NEED_NO_BOX(System::Threading::Interlocked);
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::Interlocked, "System.Threading", "Interlocked");

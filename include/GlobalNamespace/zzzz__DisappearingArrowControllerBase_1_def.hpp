@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-class MaterialPropertyBlockController;
+namespace UnityEngine {
+class MeshRenderer;
 }
 namespace GlobalNamespace {
 class CutoutEffect;
 }
-namespace UnityEngine {
-class MeshRenderer;
+namespace GlobalNamespace {
+class MaterialPropertyBlockController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,10 +28,10 @@ namespace GlobalNamespace {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4858)), TypeDefinitionIndex(TypeDefinitionIndex(10166))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166)), TypeDefinitionIndex(TypeDefinitionIndex(4858))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4858), inst: 2 })
 // CS Name: DisappearingArrowControllerBase`1
-class CORDL_TYPE DisappearingArrowControllerBase_1<T> : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE DisappearingArrowControllerBase_1<T> : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -47,7 +46,7 @@ constexpr DisappearingArrowControllerBase_1(DisappearingArrowControllerBase_1 co
 constexpr DisappearingArrowControllerBase_1(DisappearingArrowControllerBase_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DisappearingArrowControllerBase_1(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit DisappearingArrowControllerBase_1(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -68,23 +67,23 @@ constexpr explicit DisappearingArrowControllerBase_1(void* ptr) noexcept : ::Uni
 
 // Fields
 
- ::ArrayW<::GlobalNamespace::MaterialPropertyBlockController> __declspec(property(get=__get__transparentObjectMaterialPropertyBlocks, put=__set__transparentObjectMaterialPropertyBlocks))  _transparentObjectMaterialPropertyBlocks;
+ ::ArrayW<GlobalNamespace::MaterialPropertyBlockController> __declspec(property(get=__get__transparentObjectMaterialPropertyBlocks, put=__set__transparentObjectMaterialPropertyBlocks))  _transparentObjectMaterialPropertyBlocks;
 
-constexpr void __set__transparentObjectMaterialPropertyBlocks(::ArrayW<::GlobalNamespace::MaterialPropertyBlockController> value) ;
+constexpr void __set__transparentObjectMaterialPropertyBlocks(::ArrayW<GlobalNamespace::MaterialPropertyBlockController> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::MaterialPropertyBlockController> __get__transparentObjectMaterialPropertyBlocks() const;
+constexpr ::ArrayW<GlobalNamespace::MaterialPropertyBlockController> __get__transparentObjectMaterialPropertyBlocks() const;
 
- ::UnityEngine::MeshRenderer __declspec(property(get=__get__cubeMeshRenderer, put=__set__cubeMeshRenderer))  _cubeMeshRenderer;
+ UnityEngine::MeshRenderer __declspec(property(get=__get__cubeMeshRenderer, put=__set__cubeMeshRenderer))  _cubeMeshRenderer;
 
-constexpr void __set__cubeMeshRenderer(::UnityEngine::MeshRenderer value) ;
+constexpr void __set__cubeMeshRenderer(UnityEngine::MeshRenderer value) ;
 
-constexpr ::UnityEngine::MeshRenderer __get__cubeMeshRenderer() const;
+constexpr UnityEngine::MeshRenderer __get__cubeMeshRenderer() const;
 
- ::GlobalNamespace::CutoutEffect __declspec(property(get=__get__arrowCutoutEffect, put=__set__arrowCutoutEffect))  _arrowCutoutEffect;
+ GlobalNamespace::CutoutEffect __declspec(property(get=__get__arrowCutoutEffect, put=__set__arrowCutoutEffect))  _arrowCutoutEffect;
 
-constexpr void __set__arrowCutoutEffect(::GlobalNamespace::CutoutEffect value) ;
+constexpr void __set__arrowCutoutEffect(GlobalNamespace::CutoutEffect value) ;
 
-constexpr ::GlobalNamespace::CutoutEffect __get__arrowCutoutEffect() const;
+constexpr GlobalNamespace::CutoutEffect __get__arrowCutoutEffect() const;
 
  float_t __declspec(property(get=__get__disappearingNormalStart, put=__set__disappearingNormalStart))  _disappearingNormalStart;
 
@@ -185,5 +184,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::DisappearingArrowControllerBase_1, "", "DisappearingArrowControllerBase`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::DisappearingArrowControllerBase_1, "", "DisappearingArrowControllerBase`1");

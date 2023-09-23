@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 struct DateTime;
 }
@@ -58,27 +57,26 @@ constexpr explicit ASN1Convert(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 // Methods
 
 /// @brief Method FromInt32 addr 0x228075c size 0x150 virtual false final false
-static ::Mono::Security::ASN1 FromInt32(int32_t value) ;
+static Mono::Security::ASN1 FromInt32(int32_t value) ;
 
 /// @brief Method FromOid addr 0x22808c4 size 0xe8 virtual false final false
-static ::Mono::Security::ASN1 FromOid(::StringW oid) ;
+static Mono::Security::ASN1 FromOid(::StringW oid) ;
 
 /// @brief Method FromUnsignedBigInteger addr 0x22809ac size 0x11c virtual false final false
-static ::Mono::Security::ASN1 FromUnsignedBigInteger(::ArrayW<uint8_t> big) ;
+static Mono::Security::ASN1 FromUnsignedBigInteger(::ArrayW<uint8_t> big) ;
 
 /// @brief Method ToInt32 addr 0x2280ac8 size 0x118 virtual false final false
-static int32_t ToInt32(::Mono::Security::ASN1 asn1) ;
+static int32_t ToInt32(Mono::Security::ASN1 asn1) ;
 
 /// @brief Method ToOid addr 0x2280be0 size 0x28c virtual false final false
-static ::StringW ToOid(::Mono::Security::ASN1 asn1) ;
+static ::StringW ToOid(Mono::Security::ASN1 asn1) ;
 
 /// @brief Method ToDateTime addr 0x2280e6c size 0x55c virtual false final false
-static ::System::DateTime ToDateTime(::Mono::Security::ASN1 time) ;
+static System::DateTime ToDateTime(Mono::Security::ASN1 time) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Security
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Security::ASN1Convert);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::ASN1Convert, "Mono.Security", "ASN1Convert");
+NEED_NO_BOX(Mono::Security::ASN1Convert);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::ASN1Convert, "Mono.Security", "ASN1Convert");

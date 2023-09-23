@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "RootMotion/FinalIK/zzzz__RotationLimit_def.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 struct Quaternion;
 }
@@ -16,7 +15,7 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12564))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12565))
 // CS Name: RootMotion.FinalIK.RotationLimitAngle
-class CORDL_TYPE RotationLimitAngle : public ::RootMotion::FinalIK::RotationLimit {
+class CORDL_TYPE RotationLimitAngle : public RootMotion::FinalIK::RotationLimit {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr RotationLimitAngle(RotationLimitAngle const& ) noexcept = default;
 constexpr RotationLimitAngle(RotationLimitAngle&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RotationLimitAngle(void* ptr) noexcept : ::RootMotion::FinalIK::RotationLimit(ptr) {
+constexpr explicit RotationLimitAngle(void* ptr) noexcept : RootMotion::FinalIK::RotationLimit(ptr) {
 }
 
 
@@ -80,10 +79,10 @@ constexpr float_t __get_twistLimit() const;
  void ASThread() ;
 
 /// @brief Method LimitRotation addr 0x12034ac size 0x38 virtual true final false
- ::UnityEngine::Quaternion LimitRotation(::UnityEngine::Quaternion rotation) ;
+ UnityEngine::Quaternion LimitRotation(UnityEngine::Quaternion rotation) ;
 
 /// @brief Method LimitSwing addr 0x12034e4 size 0x324 virtual false final false
- ::UnityEngine::Quaternion LimitSwing(::UnityEngine::Quaternion rotation) ;
+ UnityEngine::Quaternion LimitSwing(UnityEngine::Quaternion rotation) ;
 
 // Ctor Parameters []
 explicit RotationLimitAngle() ;
@@ -95,6 +94,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::RotationLimitAngle);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::RotationLimitAngle, "RootMotion.FinalIK", "RotationLimitAngle");
+NEED_NO_BOX(RootMotion::FinalIK::RotationLimitAngle);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitAngle, "RootMotion.FinalIK", "RotationLimitAngle");

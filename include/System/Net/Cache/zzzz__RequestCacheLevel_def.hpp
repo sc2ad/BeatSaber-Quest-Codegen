@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net::Cache {
 struct RequestCacheLevel;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Default offset 0
-static ::System::Net::Cache::RequestCacheLevel const Default;
+static System::Net::Cache::RequestCacheLevel const Default;
 
 /// @brief Field BypassCache offset 0
-static ::System::Net::Cache::RequestCacheLevel const BypassCache;
+static System::Net::Cache::RequestCacheLevel const BypassCache;
 
 /// @brief Field CacheOnly offset 0
-static ::System::Net::Cache::RequestCacheLevel const CacheOnly;
+static System::Net::Cache::RequestCacheLevel const CacheOnly;
 
 /// @brief Field CacheIfAvailable offset 0
-static ::System::Net::Cache::RequestCacheLevel const CacheIfAvailable;
+static System::Net::Cache::RequestCacheLevel const CacheIfAvailable;
 
 /// @brief Field Revalidate offset 0
-static ::System::Net::Cache::RequestCacheLevel const Revalidate;
+static System::Net::Cache::RequestCacheLevel const Revalidate;
 
 /// @brief Field Reload offset 0
-static ::System::Net::Cache::RequestCacheLevel const Reload;
+static System::Net::Cache::RequestCacheLevel const Reload;
 
 /// @brief Field NoCacheNoStore offset 0
-static ::System::Net::Cache::RequestCacheLevel const NoCacheNoStore;
+static System::Net::Cache::RequestCacheLevel const NoCacheNoStore;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net::Cache
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Cache::RequestCacheLevel, "System.Net.Cache", "RequestCacheLevel");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Cache::RequestCacheLevel, "System.Net.Cache", "RequestCacheLevel");

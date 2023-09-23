@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem {
 struct PenButton;
@@ -76,41 +75,40 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Tip offset 0
-static ::UnityEngine::InputSystem::PenButton const Tip;
+static UnityEngine::InputSystem::PenButton const Tip;
 
 /// @brief Field Eraser offset 0
-static ::UnityEngine::InputSystem::PenButton const Eraser;
+static UnityEngine::InputSystem::PenButton const Eraser;
 
 /// @brief Field BarrelFirst offset 0
-static ::UnityEngine::InputSystem::PenButton const BarrelFirst;
+static UnityEngine::InputSystem::PenButton const BarrelFirst;
 
 /// @brief Field BarrelSecond offset 0
-static ::UnityEngine::InputSystem::PenButton const BarrelSecond;
+static UnityEngine::InputSystem::PenButton const BarrelSecond;
 
 /// @brief Field InRange offset 0
-static ::UnityEngine::InputSystem::PenButton const InRange;
+static UnityEngine::InputSystem::PenButton const InRange;
 
 /// @brief Field BarrelThird offset 0
-static ::UnityEngine::InputSystem::PenButton const BarrelThird;
+static UnityEngine::InputSystem::PenButton const BarrelThird;
 
 /// @brief Field BarrelFourth offset 0
-static ::UnityEngine::InputSystem::PenButton const BarrelFourth;
+static UnityEngine::InputSystem::PenButton const BarrelFourth;
 
 /// @brief Field Barrel1 offset 0
-static ::UnityEngine::InputSystem::PenButton const Barrel1;
+static UnityEngine::InputSystem::PenButton const Barrel1;
 
 /// @brief Field Barrel2 offset 0
-static ::UnityEngine::InputSystem::PenButton const Barrel2;
+static UnityEngine::InputSystem::PenButton const Barrel2;
 
 /// @brief Field Barrel3 offset 0
-static ::UnityEngine::InputSystem::PenButton const Barrel3;
+static UnityEngine::InputSystem::PenButton const Barrel3;
 
 /// @brief Field Barrel4 offset 0
-static ::UnityEngine::InputSystem::PenButton const Barrel4;
+static UnityEngine::InputSystem::PenButton const Barrel4;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::PenButton, "UnityEngine.InputSystem", "PenButton");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::PenButton, "UnityEngine.InputSystem", "PenButton");

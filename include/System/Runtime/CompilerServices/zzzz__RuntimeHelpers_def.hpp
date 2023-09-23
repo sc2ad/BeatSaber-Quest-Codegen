@@ -2,15 +2,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 struct RuntimeTypeHandle;
 }
 namespace System {
-struct RuntimeFieldHandle;
+class Array;
 }
 namespace System {
-class Array;
+struct RuntimeFieldHandle;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
@@ -64,10 +63,10 @@ static int32_t __declspec(property(get=get_OffsetToStringData))  OffsetToStringD
 // Methods
 
 /// @brief Method InitializeArray addr 0x2370b18 size 0x4 virtual false final false
-static void InitializeArray(::System::Array array, ::cordl_internals::intptr_t fldHandle) ;
+static void InitializeArray(System::Array array, ::cordl_internals::intptr_t fldHandle) ;
 
 /// @brief Method InitializeArray addr 0x2370b1c size 0xa8 virtual false final false
-static void InitializeArray(::System::Array array, ::System::RuntimeFieldHandle fldHandle) ;
+static void InitializeArray(System::Array array, System::RuntimeFieldHandle fldHandle) ;
 
 /// @brief Method get_OffsetToStringData addr 0x236c56c size 0x4 virtual false final false
 static int32_t get_OffsetToStringData() ;
@@ -79,7 +78,7 @@ static int32_t GetHashCode(::bs_hook::Il2CppWrapperType o) ;
 static void RunClassConstructor(::cordl_internals::intptr_t type) ;
 
 /// @brief Method RunClassConstructor addr 0x2370bd0 size 0xc0 virtual false final false
-static void RunClassConstructor(::System::RuntimeTypeHandle type) ;
+static void RunClassConstructor(System::RuntimeTypeHandle type) ;
 
 /// @brief Method SufficientExecutionStack addr 0x2370c90 size 0x4 virtual false final false
 static bool SufficientExecutionStack() ;
@@ -98,6 +97,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::CompilerServices
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::CompilerServices::RuntimeHelpers);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::RuntimeHelpers, "System.Runtime.CompilerServices", "RuntimeHelpers");
+NEED_NO_BOX(System::Runtime::CompilerServices::RuntimeHelpers);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::RuntimeHelpers, "System.Runtime.CompilerServices", "RuntimeHelpers");

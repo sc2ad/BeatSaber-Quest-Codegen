@@ -2,12 +2,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
-namespace {
-namespace System::Threading {
-struct ____System__Threading__ExecutionContext__Reader;
-}
 namespace System::Threading {
 class Thread;
+}
+namespace System::Threading {
+struct System__Threading__ExecutionContext__Reader;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -22,8 +21,8 @@ namespace System::Threading {
 struct CORDL_TYPE ExecutionContextSwitcher : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "outerEC", ty: "::System::Threading::____System__Threading__ExecutionContext__Reader", modifiers: "", def_value: None }, CppParam { name: "outerECBelongsToScope", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "hecsw", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "thread", ty: "::System::Threading::Thread", modifiers: "", def_value: None }]
-constexpr ExecutionContextSwitcher(::System::Threading::____System__Threading__ExecutionContext__Reader outerEC, bool outerECBelongsToScope, ::bs_hook::Il2CppWrapperType hecsw, ::System::Threading::Thread thread) noexcept;
+// Ctor Parameters [CppParam { name: "outerEC", ty: "System::Threading::System__Threading__ExecutionContext__Reader", modifiers: "", def_value: None }, CppParam { name: "outerECBelongsToScope", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "hecsw", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "thread", ty: "System::Threading::Thread", modifiers: "", def_value: None }]
+constexpr ExecutionContextSwitcher(System::Threading::System__Threading__ExecutionContext__Reader outerEC, bool outerECBelongsToScope, ::bs_hook::Il2CppWrapperType hecsw, System::Threading::Thread thread) noexcept;
 
 
                     constexpr ExecutionContextSwitcher(ExecutionContextSwitcher const&) = default;
@@ -56,11 +55,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::Threading::____System__Threading__ExecutionContext__Reader __declspec(property(get=__get_outerEC, put=__set_outerEC))  outerEC;
+ System::Threading::System__Threading__ExecutionContext__Reader __declspec(property(get=__get_outerEC, put=__set_outerEC))  outerEC;
 
-constexpr void __set_outerEC(::System::Threading::____System__Threading__ExecutionContext__Reader value) ;
+constexpr void __set_outerEC(System::Threading::System__Threading__ExecutionContext__Reader value) ;
 
-constexpr ::System::Threading::____System__Threading__ExecutionContext__Reader __get_outerEC() const;
+constexpr System::Threading::System__Threading__ExecutionContext__Reader __get_outerEC() const;
 
  bool __declspec(property(get=__get_outerECBelongsToScope, put=__set_outerECBelongsToScope))  outerECBelongsToScope;
 
@@ -74,11 +73,11 @@ constexpr void __set_hecsw(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get_hecsw() const;
 
- ::System::Threading::Thread __declspec(property(get=__get_thread, put=__set_thread))  thread;
+ System::Threading::Thread __declspec(property(get=__get_thread, put=__set_thread))  thread;
 
-constexpr void __set_thread(::System::Threading::Thread value) ;
+constexpr void __set_thread(System::Threading::Thread value) ;
 
-constexpr ::System::Threading::Thread __get_thread() const;
+constexpr System::Threading::Thread __get_thread() const;
 
 
 // Methods
@@ -93,5 +92,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Threading
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::ExecutionContextSwitcher, "System.Threading", "ExecutionContextSwitcher");
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::ExecutionContextSwitcher, "System.Threading", "ExecutionContextSwitcher");

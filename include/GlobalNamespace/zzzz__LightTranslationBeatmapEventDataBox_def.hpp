@@ -3,35 +3,34 @@
 #include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
-struct EaseType;
+struct GlobalNamespace__BeatmapEventDataBox__DistributionParamType;
+}
+namespace GlobalNamespace {
+class LightTranslationBaseData;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
-class LightTranslationBaseData;
-}
-namespace GlobalNamespace {
-class IBeatToTimeConvertor;
-}
-namespace GlobalNamespace {
-struct LightAxis;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__BeatmapEventDataBox__DistributionParamType;
+class BeatmapEventData;
 }
 namespace GlobalNamespace {
 class IndexFilter;
+}
+namespace GlobalNamespace {
+struct EaseType;
+}
+namespace GlobalNamespace {
+class IBeatToTimeConvertor;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
-class BeatmapEventData;
+struct LightAxis;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -43,7 +42,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4323))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4340))
 // CS Name: LightTranslationBeatmapEventDataBox
-class CORDL_TYPE LightTranslationBeatmapEventDataBox : public ::GlobalNamespace::BeatmapEventDataBox {
+class CORDL_TYPE LightTranslationBeatmapEventDataBox : public GlobalNamespace::BeatmapEventDataBox {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -58,7 +57,7 @@ constexpr LightTranslationBeatmapEventDataBox(LightTranslationBeatmapEventDataBo
 constexpr LightTranslationBeatmapEventDataBox(LightTranslationBeatmapEventDataBox&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LightTranslationBeatmapEventDataBox(void* ptr) noexcept : ::GlobalNamespace::BeatmapEventDataBox(ptr) {
+constexpr explicit LightTranslationBeatmapEventDataBox(void* ptr) noexcept : GlobalNamespace::BeatmapEventDataBox(ptr) {
 }
 
 
@@ -79,17 +78,17 @@ constexpr explicit LightTranslationBeatmapEventDataBox(void* ptr) noexcept : ::G
 
 // Fields
 
- ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightTranslationBaseData> __declspec(property(get=__get__lightTranslationBaseDataList, put=__set__lightTranslationBaseDataList))  _lightTranslationBaseDataList;
+ System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::LightTranslationBaseData> __declspec(property(get=__get__lightTranslationBaseDataList, put=__set__lightTranslationBaseDataList))  _lightTranslationBaseDataList;
 
-constexpr void __set__lightTranslationBaseDataList(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightTranslationBaseData> value) ;
+constexpr void __set__lightTranslationBaseDataList(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::LightTranslationBaseData> value) ;
 
-constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightTranslationBaseData> __get__lightTranslationBaseDataList() const;
+constexpr System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::LightTranslationBaseData> __get__lightTranslationBaseDataList() const;
 
- ::GlobalNamespace::LightAxis __declspec(property(get=__get__axis, put=__set__axis))  _axis;
+ GlobalNamespace::LightAxis __declspec(property(get=__get__axis, put=__set__axis))  _axis;
 
-constexpr void __set__axis(::GlobalNamespace::LightAxis value) ;
+constexpr void __set__axis(GlobalNamespace::LightAxis value) ;
 
-constexpr ::GlobalNamespace::LightAxis __get__axis() const;
+constexpr GlobalNamespace::LightAxis __get__axis() const;
 
  float_t __declspec(property(get=__get__translationDirection, put=__set__translationDirection))  _translationDirection;
 
@@ -119,19 +118,18 @@ constexpr float_t __get__beatStep() const;
 /// @brief Method get_beatStep addr 0x21debfc size 0x8 virtual true final false
  float_t get_beatStep() ;
 
-// Ctor Parameters [CppParam { name: "indexFilter", ty: "::GlobalNamespace::IndexFilter", modifiers: "", def_value: None }, CppParam { name: "beatDistributionParam", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "beatDistributionParamType", ty: "::GlobalNamespace::____GlobalNamespace__BeatmapEventDataBox__DistributionParamType", modifiers: "", def_value: None }, CppParam { name: "axis", ty: "::GlobalNamespace::LightAxis", modifiers: "", def_value: None }, CppParam { name: "flipTranslation", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "gapDistributionParam", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "gapDistributionParamType", ty: "::GlobalNamespace::____GlobalNamespace__BeatmapEventDataBox__DistributionParamType", modifiers: "", def_value: None }, CppParam { name: "gapDistributionShouldAffectFirstBaseEvent", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "gapDistributionEaseType", ty: "::GlobalNamespace::EaseType", modifiers: "", def_value: None }, CppParam { name: "lightTranslationBaseDataList", ty: "::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightTranslationBaseData>", modifiers: "", def_value: None }]
-explicit LightTranslationBeatmapEventDataBox(::GlobalNamespace::IndexFilter indexFilter, float_t beatDistributionParam, ::GlobalNamespace::____GlobalNamespace__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, ::GlobalNamespace::LightAxis axis, bool flipTranslation, float_t gapDistributionParam, ::GlobalNamespace::____GlobalNamespace__BeatmapEventDataBox__DistributionParamType gapDistributionParamType, bool gapDistributionShouldAffectFirstBaseEvent, ::GlobalNamespace::EaseType gapDistributionEaseType, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightTranslationBaseData> lightTranslationBaseDataList) ;
+// Ctor Parameters [CppParam { name: "indexFilter", ty: "GlobalNamespace::IndexFilter", modifiers: "", def_value: None }, CppParam { name: "beatDistributionParam", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "beatDistributionParamType", ty: "GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType", modifiers: "", def_value: None }, CppParam { name: "axis", ty: "GlobalNamespace::LightAxis", modifiers: "", def_value: None }, CppParam { name: "flipTranslation", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "gapDistributionParam", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "gapDistributionParamType", ty: "GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType", modifiers: "", def_value: None }, CppParam { name: "gapDistributionShouldAffectFirstBaseEvent", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "gapDistributionEaseType", ty: "GlobalNamespace::EaseType", modifiers: "", def_value: None }, CppParam { name: "lightTranslationBaseDataList", ty: "System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::LightTranslationBaseData>", modifiers: "", def_value: None }]
+explicit LightTranslationBeatmapEventDataBox(GlobalNamespace::IndexFilter indexFilter, float_t beatDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, GlobalNamespace::LightAxis axis, bool flipTranslation, float_t gapDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType gapDistributionParamType, bool gapDistributionShouldAffectFirstBaseEvent, GlobalNamespace::EaseType gapDistributionEaseType, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::LightTranslationBaseData> lightTranslationBaseDataList) ;
 
 /// @brief Method .ctor addr 0x21d8a48 size 0x22c virtual false final false
- void _ctor(::GlobalNamespace::IndexFilter indexFilter, float_t beatDistributionParam, ::GlobalNamespace::____GlobalNamespace__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, ::GlobalNamespace::LightAxis axis, bool flipTranslation, float_t gapDistributionParam, ::GlobalNamespace::____GlobalNamespace__BeatmapEventDataBox__DistributionParamType gapDistributionParamType, bool gapDistributionShouldAffectFirstBaseEvent, ::GlobalNamespace::EaseType gapDistributionEaseType, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightTranslationBaseData> lightTranslationBaseDataList) ;
+ void _ctor(GlobalNamespace::IndexFilter indexFilter, float_t beatDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, GlobalNamespace::LightAxis axis, bool flipTranslation, float_t gapDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType gapDistributionParamType, bool gapDistributionShouldAffectFirstBaseEvent, GlobalNamespace::EaseType gapDistributionEaseType, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::LightTranslationBaseData> lightTranslationBaseDataList) ;
 
 /// @brief Method Unpack addr 0x21dec04 size 0x4e4 virtual true final false
- void Unpack(float_t groupBoxBeat, int32_t groupId, int32_t elementId, int32_t durationOrderIndex, int32_t distributionOrderIndex, float_t maxBeat, ::GlobalNamespace::IBeatToTimeConvertor beatToTimeConvertor, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData> output) ;
+ void Unpack(float_t groupBoxBeat, int32_t groupId, int32_t elementId, int32_t durationOrderIndex, int32_t distributionOrderIndex, float_t maxBeat, GlobalNamespace::IBeatToTimeConvertor beatToTimeConvertor, System::Collections::Generic::List_1<GlobalNamespace::BeatmapEventData> output) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LightTranslationBeatmapEventDataBox);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightTranslationBeatmapEventDataBox, "", "LightTranslationBeatmapEventDataBox");
+NEED_NO_BOX(GlobalNamespace::LightTranslationBeatmapEventDataBox);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightTranslationBeatmapEventDataBox, "", "LightTranslationBeatmapEventDataBox");

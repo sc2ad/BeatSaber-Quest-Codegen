@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 class HelpURLAttribute;
@@ -13,7 +12,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10162))
 // CS Name: UnityEngine.HelpURLAttribute
-class CORDL_TYPE HelpURLAttribute : public ::System::Attribute {
+class CORDL_TYPE HelpURLAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr HelpURLAttribute(HelpURLAttribute const& ) noexcept = default;
 constexpr HelpURLAttribute(HelpURLAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HelpURLAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit HelpURLAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -80,6 +79,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::HelpURLAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::HelpURLAttribute, "UnityEngine", "HelpURLAttribute");
+NEED_NO_BOX(UnityEngine::HelpURLAttribute);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HelpURLAttribute, "UnityEngine", "HelpURLAttribute");

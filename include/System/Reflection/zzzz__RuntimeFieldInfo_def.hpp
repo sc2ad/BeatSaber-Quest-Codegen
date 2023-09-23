@@ -5,24 +5,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace System::Reflection {
+class FieldInfo;
+}
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
-namespace System::Reflection {
-struct FieldAttributes;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System::Reflection {
-class RuntimeModule;
-}
-namespace System::Reflection {
-class Module;
-}
-namespace System {
-struct RuntimeFieldHandle;
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System::Reflection {
 struct BindingFlags;
@@ -30,20 +20,29 @@ struct BindingFlags;
 namespace System {
 class RuntimeType;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
 namespace System {
 class Type;
+}
+namespace System {
+struct RuntimeFieldHandle;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System::Reflection {
-class FieldInfo;
+class RuntimeModule;
 }
 namespace System::Reflection {
 class Binder;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System::Reflection {
+class Module;
+}
+namespace System::Reflection {
+struct FieldAttributes;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -55,11 +54,11 @@ namespace System::Reflection {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3512))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3513))
 // CS Name: System.Reflection.RuntimeFieldInfo
-class CORDL_TYPE RuntimeFieldInfo : public ::System::Reflection::RtFieldInfo {
+class CORDL_TYPE RuntimeFieldInfo : public System::Reflection::RtFieldInfo {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::Serialization::ISerializable
-constexpr operator  ::System::Runtime::Serialization::ISerializable() const noexcept;
+/// @brief Convert operator to System::Runtime::Serialization::ISerializable
+constexpr operator  System::Runtime::Serialization::ISerializable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -73,7 +72,7 @@ constexpr RuntimeFieldInfo(RuntimeFieldInfo const& ) noexcept = default;
 constexpr RuntimeFieldInfo(RuntimeFieldInfo&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RuntimeFieldInfo(void* ptr) noexcept : ::System::Reflection::RtFieldInfo(ptr) {
+constexpr explicit RuntimeFieldInfo(void* ptr) noexcept : System::Reflection::RtFieldInfo(ptr) {
 }
 
 
@@ -100,11 +99,11 @@ constexpr void __set_klass(::cordl_internals::intptr_t value) ;
 
 constexpr ::cordl_internals::intptr_t __get_klass() const;
 
- ::System::RuntimeFieldHandle __declspec(property(get=__get_fhandle, put=__set_fhandle))  fhandle;
+ System::RuntimeFieldHandle __declspec(property(get=__get_fhandle, put=__set_fhandle))  fhandle;
 
-constexpr void __set_fhandle(::System::RuntimeFieldHandle value) ;
+constexpr void __set_fhandle(System::RuntimeFieldHandle value) ;
 
-constexpr ::System::RuntimeFieldHandle __get_fhandle() const;
+constexpr System::RuntimeFieldHandle __get_fhandle() const;
 
  ::StringW __declspec(property(get=__get_name, put=__set_name))  name;
 
@@ -112,36 +111,36 @@ constexpr void __set_name(::StringW value) ;
 
 constexpr ::StringW __get_name() const;
 
- ::System::Type __declspec(property(get=__get_type, put=__set_type))  type;
+ System::Type __declspec(property(get=__get_type, put=__set_type))  type;
 
-constexpr void __set_type(::System::Type value) ;
+constexpr void __set_type(System::Type value) ;
 
-constexpr ::System::Type __get_type() const;
+constexpr System::Type __get_type() const;
 
- ::System::Reflection::FieldAttributes __declspec(property(get=__get_attrs, put=__set_attrs))  attrs;
+ System::Reflection::FieldAttributes __declspec(property(get=__get_attrs, put=__set_attrs))  attrs;
 
-constexpr void __set_attrs(::System::Reflection::FieldAttributes value) ;
+constexpr void __set_attrs(System::Reflection::FieldAttributes value) ;
 
-constexpr ::System::Reflection::FieldAttributes __get_attrs() const;
+constexpr System::Reflection::FieldAttributes __get_attrs() const;
 
 
 // Properties
 
- ::System::Reflection::BindingFlags __declspec(property(get=get_BindingFlags))  BindingFlags;
+ System::Reflection::BindingFlags __declspec(property(get=get_BindingFlags))  BindingFlags;
 
- ::System::Reflection::Module __declspec(property(get=get_Module))  Module;
+ System::Reflection::Module __declspec(property(get=get_Module))  Module;
 
- ::System::RuntimeType __declspec(property(get=get_ReflectedTypeInternal))  ReflectedTypeInternal;
+ System::RuntimeType __declspec(property(get=get_ReflectedTypeInternal))  ReflectedTypeInternal;
 
- ::System::Reflection::FieldAttributes __declspec(property(get=get_Attributes))  Attributes;
+ System::Reflection::FieldAttributes __declspec(property(get=get_Attributes))  Attributes;
 
- ::System::RuntimeFieldHandle __declspec(property(get=get_FieldHandle))  FieldHandle;
+ System::RuntimeFieldHandle __declspec(property(get=get_FieldHandle))  FieldHandle;
 
- ::System::Type __declspec(property(get=get_FieldType))  FieldType;
+ System::Type __declspec(property(get=get_FieldType))  FieldType;
 
- ::System::Type __declspec(property(get=get_ReflectedType))  ReflectedType;
+ System::Type __declspec(property(get=get_ReflectedType))  ReflectedType;
 
- ::System::Type __declspec(property(get=get_DeclaringType))  DeclaringType;
+ System::Type __declspec(property(get=get_DeclaringType))  DeclaringType;
 
  ::StringW __declspec(property(get=get_Name))  Name;
 
@@ -151,22 +150,22 @@ constexpr ::System::Reflection::FieldAttributes __get_attrs() const;
 // Methods
 
 /// @brief Method get_BindingFlags addr 0x2385a88 size 0x8 virtual false final false
- ::System::Reflection::BindingFlags get_BindingFlags() ;
+ System::Reflection::BindingFlags get_BindingFlags() ;
 
 /// @brief Method get_Module addr 0x2385a90 size 0x4 virtual true final false
- ::System::Reflection::Module get_Module() ;
+ System::Reflection::Module get_Module() ;
 
 /// @brief Method GetDeclaringTypeInternal addr 0x2385ab0 size 0x84 virtual false final false
- ::System::RuntimeType GetDeclaringTypeInternal() ;
+ System::RuntimeType GetDeclaringTypeInternal() ;
 
 /// @brief Method get_ReflectedTypeInternal addr 0x2385b34 size 0x84 virtual false final false
- ::System::RuntimeType get_ReflectedTypeInternal() ;
+ System::RuntimeType get_ReflectedTypeInternal() ;
 
 /// @brief Method GetRuntimeModule addr 0x2385a94 size 0x1c virtual false final false
- ::System::Reflection::RuntimeModule GetRuntimeModule() ;
+ System::Reflection::RuntimeModule GetRuntimeModule() ;
 
 /// @brief Method GetObjectData addr 0x2385bb8 size 0xbc virtual true final true
- void GetObjectData(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void GetObjectData(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method UnsafeGetValue addr 0x2385c74 size 0x4 virtual true final false
  ::bs_hook::Il2CppWrapperType UnsafeGetValue(::bs_hook::Il2CppWrapperType obj) ;
@@ -175,43 +174,43 @@ constexpr ::System::Reflection::FieldAttributes __get_attrs() const;
  void CheckConsistency(::bs_hook::Il2CppWrapperType target) ;
 
 /// @brief Method UnsafeSetValue addr 0x2385df8 size 0x64 virtual true final false
- void UnsafeSetValue(::bs_hook::Il2CppWrapperType obj, ::bs_hook::Il2CppWrapperType value, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder binder, ::System::Globalization::CultureInfo culture) ;
+ void UnsafeSetValue(::bs_hook::Il2CppWrapperType obj, ::bs_hook::Il2CppWrapperType value, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder binder, System::Globalization::CultureInfo culture) ;
 
 /// @brief Method SetValueDirect addr 0x2385e5c size 0x164 virtual true final false
  void SetValueDirect(/* UNKNOWN TYPE! Il2CppType { data: TypeDefinitionIndex(TypeDefinitionIndex(2571)), attrs: 0, ty: Typedbyref, byref: true, pinned: true, valuetype: true } */ obj, ::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method get_Attributes addr 0x2385fc0 size 0x8 virtual true final false
- ::System::Reflection::FieldAttributes get_Attributes() ;
+ System::Reflection::FieldAttributes get_Attributes() ;
 
 /// @brief Method get_FieldHandle addr 0x2385fc8 size 0x8 virtual true final false
- ::System::RuntimeFieldHandle get_FieldHandle() ;
+ System::RuntimeFieldHandle get_FieldHandle() ;
 
 /// @brief Method ResolveType addr 0x2385fd0 size 0x4 virtual false final false
- ::System::Type ResolveType() ;
+ System::Type ResolveType() ;
 
 /// @brief Method get_FieldType addr 0x2385fd4 size 0x7c virtual true final false
- ::System::Type get_FieldType() ;
+ System::Type get_FieldType() ;
 
 /// @brief Method GetParentType addr 0x2386050 size 0x8 virtual false final false
- ::System::Type GetParentType(bool declaring) ;
+ System::Type GetParentType(bool declaring) ;
 
 /// @brief Method get_ReflectedType addr 0x2386058 size 0x8 virtual true final false
- ::System::Type get_ReflectedType() ;
+ System::Type get_ReflectedType() ;
 
 /// @brief Method get_DeclaringType addr 0x2386060 size 0x8 virtual true final false
- ::System::Type get_DeclaringType() ;
+ System::Type get_DeclaringType() ;
 
 /// @brief Method get_Name addr 0x2386068 size 0x8 virtual true final false
  ::StringW get_Name() ;
 
 /// @brief Method IsDefined addr 0x2386070 size 0x70 virtual true final false
- bool IsDefined(::System::Type attributeType, bool inherit) ;
+ bool IsDefined(System::Type attributeType, bool inherit) ;
 
 /// @brief Method GetCustomAttributes addr 0x23860e0 size 0x68 virtual true final false
  ::ArrayW<::bs_hook::Il2CppWrapperType> GetCustomAttributes(bool inherit) ;
 
 /// @brief Method GetCustomAttributes addr 0x2386148 size 0x70 virtual true final false
- ::ArrayW<::bs_hook::Il2CppWrapperType> GetCustomAttributes(::System::Type attributeType, bool inherit) ;
+ ::ArrayW<::bs_hook::Il2CppWrapperType> GetCustomAttributes(System::Type attributeType, bool inherit) ;
 
 /// @brief Method GetFieldOffset addr 0x23861b8 size 0x4 virtual true final false
  int32_t GetFieldOffset() ;
@@ -226,10 +225,10 @@ constexpr ::System::Reflection::FieldAttributes __get_attrs() const;
  ::StringW ToString() ;
 
 /// @brief Method SetValueInternal addr 0x2386448 size 0x4 virtual false final false
-static void SetValueInternal(::System::Reflection::FieldInfo fi, ::bs_hook::Il2CppWrapperType obj, ::bs_hook::Il2CppWrapperType value) ;
+static void SetValueInternal(System::Reflection::FieldInfo fi, ::bs_hook::Il2CppWrapperType obj, ::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method SetValue addr 0x238644c size 0x2c4 virtual true final false
- void SetValue(::bs_hook::Il2CppWrapperType obj, ::bs_hook::Il2CppWrapperType val, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder binder, ::System::Globalization::CultureInfo culture) ;
+ void SetValue(::bs_hook::Il2CppWrapperType obj, ::bs_hook::Il2CppWrapperType val, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder binder, System::Globalization::CultureInfo culture) ;
 
 /// @brief Method GetRawConstantValue addr 0x2386710 size 0x4 virtual true final false
  ::bs_hook::Il2CppWrapperType GetRawConstantValue() ;
@@ -241,7 +240,7 @@ static void SetValueInternal(::System::Reflection::FieldInfo fi, ::bs_hook::Il2C
  int32_t get_MetadataToken() ;
 
 /// @brief Method get_metadata_token addr 0x2386718 size 0x4 virtual false final false
-static int32_t get_metadata_token(::System::Reflection::RuntimeFieldInfo monoField) ;
+static int32_t get_metadata_token(System::Reflection::RuntimeFieldInfo monoField) ;
 
 // Ctor Parameters []
 explicit RuntimeFieldInfo() ;
@@ -253,6 +252,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Reflection
-} // end anonymous namespace
-NEED_NO_BOX(::System::Reflection::RuntimeFieldInfo);
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::RuntimeFieldInfo, "System.Reflection", "RuntimeFieldInfo");
+NEED_NO_BOX(System::Reflection::RuntimeFieldInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::RuntimeFieldInfo, "System.Reflection", "RuntimeFieldInfo");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace TMPro {
 struct TextAlignmentOptions;
@@ -102,119 +101,118 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field TopLeft offset 0
-static ::TMPro::TextAlignmentOptions const TopLeft;
+static TMPro::TextAlignmentOptions const TopLeft;
 
 /// @brief Field Top offset 0
-static ::TMPro::TextAlignmentOptions const Top;
+static TMPro::TextAlignmentOptions const Top;
 
 /// @brief Field TopRight offset 0
-static ::TMPro::TextAlignmentOptions const TopRight;
+static TMPro::TextAlignmentOptions const TopRight;
 
 /// @brief Field TopJustified offset 0
-static ::TMPro::TextAlignmentOptions const TopJustified;
+static TMPro::TextAlignmentOptions const TopJustified;
 
 /// @brief Field TopFlush offset 0
-static ::TMPro::TextAlignmentOptions const TopFlush;
+static TMPro::TextAlignmentOptions const TopFlush;
 
 /// @brief Field TopGeoAligned offset 0
-static ::TMPro::TextAlignmentOptions const TopGeoAligned;
+static TMPro::TextAlignmentOptions const TopGeoAligned;
 
 /// @brief Field Left offset 0
-static ::TMPro::TextAlignmentOptions const Left;
+static TMPro::TextAlignmentOptions const Left;
 
 /// @brief Field Center offset 0
-static ::TMPro::TextAlignmentOptions const Center;
+static TMPro::TextAlignmentOptions const Center;
 
 /// @brief Field Right offset 0
-static ::TMPro::TextAlignmentOptions const Right;
+static TMPro::TextAlignmentOptions const Right;
 
 /// @brief Field Justified offset 0
-static ::TMPro::TextAlignmentOptions const Justified;
+static TMPro::TextAlignmentOptions const Justified;
 
 /// @brief Field Flush offset 0
-static ::TMPro::TextAlignmentOptions const Flush;
+static TMPro::TextAlignmentOptions const Flush;
 
 /// @brief Field CenterGeoAligned offset 0
-static ::TMPro::TextAlignmentOptions const CenterGeoAligned;
+static TMPro::TextAlignmentOptions const CenterGeoAligned;
 
 /// @brief Field BottomLeft offset 0
-static ::TMPro::TextAlignmentOptions const BottomLeft;
+static TMPro::TextAlignmentOptions const BottomLeft;
 
 /// @brief Field Bottom offset 0
-static ::TMPro::TextAlignmentOptions const Bottom;
+static TMPro::TextAlignmentOptions const Bottom;
 
 /// @brief Field BottomRight offset 0
-static ::TMPro::TextAlignmentOptions const BottomRight;
+static TMPro::TextAlignmentOptions const BottomRight;
 
 /// @brief Field BottomJustified offset 0
-static ::TMPro::TextAlignmentOptions const BottomJustified;
+static TMPro::TextAlignmentOptions const BottomJustified;
 
 /// @brief Field BottomFlush offset 0
-static ::TMPro::TextAlignmentOptions const BottomFlush;
+static TMPro::TextAlignmentOptions const BottomFlush;
 
 /// @brief Field BottomGeoAligned offset 0
-static ::TMPro::TextAlignmentOptions const BottomGeoAligned;
+static TMPro::TextAlignmentOptions const BottomGeoAligned;
 
 /// @brief Field BaselineLeft offset 0
-static ::TMPro::TextAlignmentOptions const BaselineLeft;
+static TMPro::TextAlignmentOptions const BaselineLeft;
 
 /// @brief Field Baseline offset 0
-static ::TMPro::TextAlignmentOptions const Baseline;
+static TMPro::TextAlignmentOptions const Baseline;
 
 /// @brief Field BaselineRight offset 0
-static ::TMPro::TextAlignmentOptions const BaselineRight;
+static TMPro::TextAlignmentOptions const BaselineRight;
 
 /// @brief Field BaselineJustified offset 0
-static ::TMPro::TextAlignmentOptions const BaselineJustified;
+static TMPro::TextAlignmentOptions const BaselineJustified;
 
 /// @brief Field BaselineFlush offset 0
-static ::TMPro::TextAlignmentOptions const BaselineFlush;
+static TMPro::TextAlignmentOptions const BaselineFlush;
 
 /// @brief Field BaselineGeoAligned offset 0
-static ::TMPro::TextAlignmentOptions const BaselineGeoAligned;
+static TMPro::TextAlignmentOptions const BaselineGeoAligned;
 
 /// @brief Field MidlineLeft offset 0
-static ::TMPro::TextAlignmentOptions const MidlineLeft;
+static TMPro::TextAlignmentOptions const MidlineLeft;
 
 /// @brief Field Midline offset 0
-static ::TMPro::TextAlignmentOptions const Midline;
+static TMPro::TextAlignmentOptions const Midline;
 
 /// @brief Field MidlineRight offset 0
-static ::TMPro::TextAlignmentOptions const MidlineRight;
+static TMPro::TextAlignmentOptions const MidlineRight;
 
 /// @brief Field MidlineJustified offset 0
-static ::TMPro::TextAlignmentOptions const MidlineJustified;
+static TMPro::TextAlignmentOptions const MidlineJustified;
 
 /// @brief Field MidlineFlush offset 0
-static ::TMPro::TextAlignmentOptions const MidlineFlush;
+static TMPro::TextAlignmentOptions const MidlineFlush;
 
 /// @brief Field MidlineGeoAligned offset 0
-static ::TMPro::TextAlignmentOptions const MidlineGeoAligned;
+static TMPro::TextAlignmentOptions const MidlineGeoAligned;
 
 /// @brief Field CaplineLeft offset 0
-static ::TMPro::TextAlignmentOptions const CaplineLeft;
+static TMPro::TextAlignmentOptions const CaplineLeft;
 
 /// @brief Field Capline offset 0
-static ::TMPro::TextAlignmentOptions const Capline;
+static TMPro::TextAlignmentOptions const Capline;
 
 /// @brief Field CaplineRight offset 0
-static ::TMPro::TextAlignmentOptions const CaplineRight;
+static TMPro::TextAlignmentOptions const CaplineRight;
 
 /// @brief Field CaplineJustified offset 0
-static ::TMPro::TextAlignmentOptions const CaplineJustified;
+static TMPro::TextAlignmentOptions const CaplineJustified;
 
 /// @brief Field CaplineFlush offset 0
-static ::TMPro::TextAlignmentOptions const CaplineFlush;
+static TMPro::TextAlignmentOptions const CaplineFlush;
 
 /// @brief Field CaplineGeoAligned offset 0
-static ::TMPro::TextAlignmentOptions const CaplineGeoAligned;
+static TMPro::TextAlignmentOptions const CaplineGeoAligned;
 
 /// @brief Field Converted offset 0
-static ::TMPro::TextAlignmentOptions const Converted;
+static TMPro::TextAlignmentOptions const Converted;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::TextAlignmentOptions, "TMPro", "TextAlignmentOptions");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TextAlignmentOptions, "TMPro", "TextAlignmentOptions");

@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 class GUILayoutOption;
 }
@@ -61,21 +60,20 @@ constexpr explicit GUILayout(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 // Methods
 
 /// @brief Method Label addr 0x2b903e8 size 0xa8 virtual false final false
-static void Label(::StringW text, ::ArrayW<::UnityEngine::GUILayoutOption> options) ;
+static void Label(::StringW text, ::ArrayW<UnityEngine::GUILayoutOption> options) ;
 
 /// @brief Method DoLabel addr 0x2b90490 size 0xcc virtual false final false
-static void DoLabel(::UnityEngine::GUIContent content, ::UnityEngine::GUIStyle style, ::ArrayW<::UnityEngine::GUILayoutOption> options) ;
+static void DoLabel(UnityEngine::GUIContent content, UnityEngine::GUIStyle style, ::ArrayW<UnityEngine::GUILayoutOption> options) ;
 
 /// @brief Method Width addr 0x2b85474 size 0x9c virtual false final false
-static ::UnityEngine::GUILayoutOption Width(float_t width) ;
+static UnityEngine::GUILayoutOption Width(float_t width) ;
 
 /// @brief Method Height addr 0x2b85510 size 0x9c virtual false final false
-static ::UnityEngine::GUILayoutOption Height(float_t height) ;
+static UnityEngine::GUILayoutOption Height(float_t height) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::GUILayout);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::GUILayout, "UnityEngine", "GUILayout");
+NEED_NO_BOX(UnityEngine::GUILayout);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUILayout, "UnityEngine", "GUILayout");

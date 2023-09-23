@@ -2,14 +2,13 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine::Events {
-template<typename T0>
-class UnityAction_1;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class Stack_1;
+}
+namespace UnityEngine::Events {
+template<typename T0>
+class UnityAction_1;
 }
 // Forward declare root types
 namespace TMPro {
@@ -65,23 +64,23 @@ constexpr explicit TMP_ObjectPool_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
- ::System::Collections::Generic::Stack_1<T> __declspec(property(get=__get_m_Stack, put=__set_m_Stack))  m_Stack;
+ System::Collections::Generic::Stack_1<T> __declspec(property(get=__get_m_Stack, put=__set_m_Stack))  m_Stack;
 
-constexpr void __set_m_Stack(::System::Collections::Generic::Stack_1<T> value) ;
+constexpr void __set_m_Stack(System::Collections::Generic::Stack_1<T> value) ;
 
-constexpr ::System::Collections::Generic::Stack_1<T> __get_m_Stack() const;
+constexpr System::Collections::Generic::Stack_1<T> __get_m_Stack() const;
 
- ::UnityEngine::Events::UnityAction_1<T> __declspec(property(get=__get_m_ActionOnGet, put=__set_m_ActionOnGet))  m_ActionOnGet;
+ UnityEngine::Events::UnityAction_1<T> __declspec(property(get=__get_m_ActionOnGet, put=__set_m_ActionOnGet))  m_ActionOnGet;
 
-constexpr void __set_m_ActionOnGet(::UnityEngine::Events::UnityAction_1<T> value) ;
+constexpr void __set_m_ActionOnGet(UnityEngine::Events::UnityAction_1<T> value) ;
 
-constexpr ::UnityEngine::Events::UnityAction_1<T> __get_m_ActionOnGet() const;
+constexpr UnityEngine::Events::UnityAction_1<T> __get_m_ActionOnGet() const;
 
- ::UnityEngine::Events::UnityAction_1<T> __declspec(property(get=__get_m_ActionOnRelease, put=__set_m_ActionOnRelease))  m_ActionOnRelease;
+ UnityEngine::Events::UnityAction_1<T> __declspec(property(get=__get_m_ActionOnRelease, put=__set_m_ActionOnRelease))  m_ActionOnRelease;
 
-constexpr void __set_m_ActionOnRelease(::UnityEngine::Events::UnityAction_1<T> value) ;
+constexpr void __set_m_ActionOnRelease(UnityEngine::Events::UnityAction_1<T> value) ;
 
-constexpr ::UnityEngine::Events::UnityAction_1<T> __get_m_ActionOnRelease() const;
+constexpr UnityEngine::Events::UnityAction_1<T> __get_m_ActionOnRelease() const;
 
  int32_t __declspec(property(get=__get__countAll_k__BackingField, put=__set__countAll_k__BackingField))  _countAll_k__BackingField;
 
@@ -113,11 +112,11 @@ constexpr int32_t __get__countAll_k__BackingField() const;
 /// @brief Method get_countInactive addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t get_countInactive() ;
 
-// Ctor Parameters [CppParam { name: "actionOnGet", ty: "::UnityEngine::Events::UnityAction_1<T>", modifiers: "", def_value: None }, CppParam { name: "actionOnRelease", ty: "::UnityEngine::Events::UnityAction_1<T>", modifiers: "", def_value: None }]
-explicit TMP_ObjectPool_1(::UnityEngine::Events::UnityAction_1<T> actionOnGet, ::UnityEngine::Events::UnityAction_1<T> actionOnRelease) ;
+// Ctor Parameters [CppParam { name: "actionOnGet", ty: "UnityEngine::Events::UnityAction_1<T>", modifiers: "", def_value: None }, CppParam { name: "actionOnRelease", ty: "UnityEngine::Events::UnityAction_1<T>", modifiers: "", def_value: None }]
+explicit TMP_ObjectPool_1(UnityEngine::Events::UnityAction_1<T> actionOnGet, UnityEngine::Events::UnityAction_1<T> actionOnRelease) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::UnityEngine::Events::UnityAction_1<T> actionOnGet, ::UnityEngine::Events::UnityAction_1<T> actionOnRelease) ;
+ void _ctor(UnityEngine::Events::UnityAction_1<T> actionOnGet, UnityEngine::Events::UnityAction_1<T> actionOnRelease) ;
 
 /// @brief Method Get addr 0x0 size 0xffffffffffffffff virtual false final false
  T Get() ;
@@ -129,5 +128,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::TMPro::TMP_ObjectPool_1, "TMPro", "TMP_ObjectPool`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(TMPro::TMP_ObjectPool_1, "TMPro", "TMP_ObjectPool`1");

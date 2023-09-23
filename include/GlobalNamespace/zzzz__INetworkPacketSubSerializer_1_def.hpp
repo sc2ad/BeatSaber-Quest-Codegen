@@ -1,10 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
-namespace {
-namespace LiteNetLib::Utils {
-class INetSerializable;
-}
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
@@ -13,6 +9,9 @@ class NetDataWriter;
 }
 namespace System {
 class Type;
+}
+namespace LiteNetLib::Utils {
+class INetSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -40,17 +39,16 @@ constexpr explicit INetworkPacketSubSerializer_1(void* ptr) noexcept : ::cordl_i
 // Methods
 
 /// @brief Method Deserialize addr 0x0 size 0xffffffffffffffff virtual true final false
- void Deserialize(::LiteNetLib::Utils::NetDataReader reader, int32_t length, TData data) ;
+ void Deserialize(LiteNetLib::Utils::NetDataReader reader, int32_t length, TData data) ;
 
 /// @brief Method Serialize addr 0x0 size 0xffffffffffffffff virtual true final false
- void Serialize(::LiteNetLib::Utils::NetDataWriter writer, ::LiteNetLib::Utils::INetSerializable packet) ;
+ void Serialize(LiteNetLib::Utils::NetDataWriter writer, LiteNetLib::Utils::INetSerializable packet) ;
 
 /// @brief Method HandlesType addr 0x0 size 0xffffffffffffffff virtual true final false
- bool HandlesType(::System::Type type) ;
+ bool HandlesType(System::Type type) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::INetworkPacketSubSerializer_1, "", "INetworkPacketSubSerializer`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::INetworkPacketSubSerializer_1, "", "INetworkPacketSubSerializer`1");

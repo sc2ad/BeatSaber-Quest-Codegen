@@ -3,24 +3,23 @@
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct Quaternion;
+namespace UnityEngine::ProBuilder::Shapes {
+struct StepGenerationType;
 }
-namespace UnityEngine {
-struct Bounds;
+namespace UnityEngine::ProBuilder::Shapes {
+class Shape;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine::ProBuilder::Shapes {
-struct StepGenerationType;
+namespace UnityEngine {
+struct Bounds;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
-namespace UnityEngine::ProBuilder::Shapes {
-class Shape;
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {
@@ -32,7 +31,7 @@ namespace UnityEngine::ProBuilder::Shapes {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12175))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12180))
 // CS Name: UnityEngine.ProBuilder.Shapes.Stairs
-class CORDL_TYPE Stairs : public ::UnityEngine::ProBuilder::Shapes::Shape {
+class CORDL_TYPE Stairs : public UnityEngine::ProBuilder::Shapes::Shape {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -47,7 +46,7 @@ constexpr Stairs(Stairs const& ) noexcept = default;
 constexpr Stairs(Stairs&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Stairs(void* ptr) noexcept : ::UnityEngine::ProBuilder::Shapes::Shape(ptr) {
+constexpr explicit Stairs(void* ptr) noexcept : UnityEngine::ProBuilder::Shapes::Shape(ptr) {
 }
 
 
@@ -68,11 +67,11 @@ constexpr explicit Stairs(void* ptr) noexcept : ::UnityEngine::ProBuilder::Shape
 
 // Fields
 
- ::UnityEngine::ProBuilder::Shapes::StepGenerationType __declspec(property(get=__get_m_StepGenerationType, put=__set_m_StepGenerationType))  m_StepGenerationType;
+ UnityEngine::ProBuilder::Shapes::StepGenerationType __declspec(property(get=__get_m_StepGenerationType, put=__set_m_StepGenerationType))  m_StepGenerationType;
 
-constexpr void __set_m_StepGenerationType(::UnityEngine::ProBuilder::Shapes::StepGenerationType value) ;
+constexpr void __set_m_StepGenerationType(UnityEngine::ProBuilder::Shapes::StepGenerationType value) ;
 
-constexpr ::UnityEngine::ProBuilder::Shapes::StepGenerationType __get_m_StepGenerationType() const;
+constexpr UnityEngine::ProBuilder::Shapes::StepGenerationType __get_m_StepGenerationType() const;
 
  float_t __declspec(property(get=__get_m_StepsHeight, put=__set_m_StepsHeight))  m_StepsHeight;
 
@@ -125,19 +124,19 @@ constexpr float_t __get_m_InnerRadius() const;
  void set_sides(bool value) ;
 
 /// @brief Method CopyShape addr 0x29f984c size 0x9c virtual true final false
- void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape shape) ;
+ void CopyShape(UnityEngine::ProBuilder::Shapes::Shape shape) ;
 
 /// @brief Method RebuildMesh addr 0x29f98e8 size 0x60 virtual true final false
- ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation) ;
+ UnityEngine::Bounds RebuildMesh(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::Vector3 size, UnityEngine::Quaternion rotation) ;
 
 /// @brief Method UpdateBounds addr 0x29fb9e4 size 0x164 virtual true final false
- ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds) ;
+ UnityEngine::Bounds UpdateBounds(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::Vector3 size, UnityEngine::Quaternion rotation, UnityEngine::Bounds bounds) ;
 
 /// @brief Method BuildStairs addr 0x29faabc size 0xf28 virtual false final false
- ::UnityEngine::Bounds BuildStairs(::UnityEngine::ProBuilder::ProBuilderMesh mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation) ;
+ UnityEngine::Bounds BuildStairs(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::Vector3 size, UnityEngine::Quaternion rotation) ;
 
 /// @brief Method BuildCurvedStairs addr 0x29f9948 size 0x1174 virtual false final false
- ::UnityEngine::Bounds BuildCurvedStairs(::UnityEngine::ProBuilder::ProBuilderMesh mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation) ;
+ UnityEngine::Bounds BuildCurvedStairs(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::Vector3 size, UnityEngine::Quaternion rotation) ;
 
 // Ctor Parameters []
 explicit Stairs() ;
@@ -149,6 +148,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder::Shapes
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::Shapes::Stairs);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Shapes::Stairs, "UnityEngine.ProBuilder.Shapes", "Stairs");
+NEED_NO_BOX(UnityEngine::ProBuilder::Shapes::Stairs);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Shapes::Stairs, "UnityEngine.ProBuilder.Shapes", "Stairs");

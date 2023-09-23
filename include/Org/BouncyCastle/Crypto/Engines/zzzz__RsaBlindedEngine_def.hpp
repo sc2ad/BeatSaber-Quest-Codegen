@@ -4,18 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto {
-class IRsa;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class RsaKeyParameters;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class IAsymmetricBlockCipher;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class RsaKeyParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class IRsa;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
@@ -33,8 +32,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
 class CORDL_TYPE RsaBlindedEngine : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher
-constexpr operator  ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IAsymmetricBlockCipher
+constexpr operator  Org::BouncyCastle::Crypto::IAsymmetricBlockCipher() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -69,23 +68,23 @@ constexpr explicit RsaBlindedEngine(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
- ::Org::BouncyCastle::Crypto::IRsa __declspec(property(get=__get_core, put=__set_core))  core;
+ Org::BouncyCastle::Crypto::IRsa __declspec(property(get=__get_core, put=__set_core))  core;
 
-constexpr void __set_core(::Org::BouncyCastle::Crypto::IRsa value) ;
+constexpr void __set_core(Org::BouncyCastle::Crypto::IRsa value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IRsa __get_core() const;
+constexpr Org::BouncyCastle::Crypto::IRsa __get_core() const;
 
- ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters __declspec(property(get=__get_key, put=__set_key))  key;
+ Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters __declspec(property(get=__get_key, put=__set_key))  key;
 
-constexpr void __set_key(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters value) ;
+constexpr void __set_key(Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters __get_key() const;
+constexpr Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters __get_key() const;
 
- ::Org::BouncyCastle::Security::SecureRandom __declspec(property(get=__get_random, put=__set_random))  random;
+ Org::BouncyCastle::Security::SecureRandom __declspec(property(get=__get_random, put=__set_random))  random;
 
-constexpr void __set_random(::Org::BouncyCastle::Security::SecureRandom value) ;
+constexpr void __set_random(Org::BouncyCastle::Security::SecureRandom value) ;
 
-constexpr ::Org::BouncyCastle::Security::SecureRandom __get_random() const;
+constexpr Org::BouncyCastle::Security::SecureRandom __get_random() const;
 
 
 // Properties
@@ -101,17 +100,17 @@ explicit RsaBlindedEngine() ;
 /// @brief Method .ctor addr 0xe53834 size 0x6c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "rsa", ty: "::Org::BouncyCastle::Crypto::IRsa", modifiers: "", def_value: None }]
-explicit RsaBlindedEngine(::Org::BouncyCastle::Crypto::IRsa rsa) ;
+// Ctor Parameters [CppParam { name: "rsa", ty: "Org::BouncyCastle::Crypto::IRsa", modifiers: "", def_value: None }]
+explicit RsaBlindedEngine(Org::BouncyCastle::Crypto::IRsa rsa) ;
 
 /// @brief Method .ctor addr 0xe538a8 size 0x28 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IRsa rsa) ;
+ void _ctor(Org::BouncyCastle::Crypto::IRsa rsa) ;
 
 /// @brief Method get_AlgorithmName addr 0xe538d0 size 0x40 virtual true final false
  ::StringW get_AlgorithmName() ;
 
 /// @brief Method Init addr 0xe53910 size 0x25c virtual true final false
- void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters param) ;
+ void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters param) ;
 
 /// @brief Method GetInputBlockSize addr 0xe53b6c size 0xa4 virtual true final false
  int32_t GetInputBlockSize() ;
@@ -126,6 +125,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Engines
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine, "Org.BouncyCastle.Crypto.Engines", "RsaBlindedEngine");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine, "Org.BouncyCastle.Crypto.Engines", "RsaBlindedEngine");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::IO {
 struct FileAttributes;
@@ -81,56 +80,55 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field ReadOnly offset 0
-static ::System::IO::FileAttributes const ReadOnly;
+static System::IO::FileAttributes const ReadOnly;
 
 /// @brief Field Hidden offset 0
-static ::System::IO::FileAttributes const Hidden;
+static System::IO::FileAttributes const Hidden;
 
 /// @brief Field System offset 0
-static ::System::IO::FileAttributes const System;
+static System::IO::FileAttributes const System;
 
 /// @brief Field Directory offset 0
-static ::System::IO::FileAttributes const Directory;
+static System::IO::FileAttributes const Directory;
 
 /// @brief Field Archive offset 0
-static ::System::IO::FileAttributes const Archive;
+static System::IO::FileAttributes const Archive;
 
 /// @brief Field Device offset 0
-static ::System::IO::FileAttributes const Device;
+static System::IO::FileAttributes const Device;
 
 /// @brief Field Normal offset 0
-static ::System::IO::FileAttributes const Normal;
+static System::IO::FileAttributes const Normal;
 
 /// @brief Field Temporary offset 0
-static ::System::IO::FileAttributes const Temporary;
+static System::IO::FileAttributes const Temporary;
 
 /// @brief Field SparseFile offset 0
-static ::System::IO::FileAttributes const SparseFile;
+static System::IO::FileAttributes const SparseFile;
 
 /// @brief Field ReparsePoint offset 0
-static ::System::IO::FileAttributes const ReparsePoint;
+static System::IO::FileAttributes const ReparsePoint;
 
 /// @brief Field Compressed offset 0
-static ::System::IO::FileAttributes const Compressed;
+static System::IO::FileAttributes const Compressed;
 
 /// @brief Field Offline offset 0
-static ::System::IO::FileAttributes const Offline;
+static System::IO::FileAttributes const Offline;
 
 /// @brief Field NotContentIndexed offset 0
-static ::System::IO::FileAttributes const NotContentIndexed;
+static System::IO::FileAttributes const NotContentIndexed;
 
 /// @brief Field Encrypted offset 0
-static ::System::IO::FileAttributes const Encrypted;
+static System::IO::FileAttributes const Encrypted;
 
 /// @brief Field IntegrityStream offset 0
-static ::System::IO::FileAttributes const IntegrityStream;
+static System::IO::FileAttributes const IntegrityStream;
 
 /// @brief Field NoScrubData offset 0
-static ::System::IO::FileAttributes const NoScrubData;
+static System::IO::FileAttributes const NoScrubData;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::IO
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::FileAttributes, "System.IO", "FileAttributes");
+DEFINE_IL2CPP_ARG_TYPE(System::IO::FileAttributes, "System.IO", "FileAttributes");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Internal::Cryptography::Pal {
 struct GeneralNameType;
@@ -75,38 +74,37 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field OtherName offset 0
-static ::Internal::Cryptography::Pal::GeneralNameType const OtherName;
+static Internal::Cryptography::Pal::GeneralNameType const OtherName;
 
 /// @brief Field Rfc822Name offset 0
-static ::Internal::Cryptography::Pal::GeneralNameType const Rfc822Name;
+static Internal::Cryptography::Pal::GeneralNameType const Rfc822Name;
 
 /// @brief Field Email offset 0
-static ::Internal::Cryptography::Pal::GeneralNameType const Email;
+static Internal::Cryptography::Pal::GeneralNameType const Email;
 
 /// @brief Field DnsName offset 0
-static ::Internal::Cryptography::Pal::GeneralNameType const DnsName;
+static Internal::Cryptography::Pal::GeneralNameType const DnsName;
 
 /// @brief Field X400Address offset 0
-static ::Internal::Cryptography::Pal::GeneralNameType const X400Address;
+static Internal::Cryptography::Pal::GeneralNameType const X400Address;
 
 /// @brief Field DirectoryName offset 0
-static ::Internal::Cryptography::Pal::GeneralNameType const DirectoryName;
+static Internal::Cryptography::Pal::GeneralNameType const DirectoryName;
 
 /// @brief Field EdiPartyName offset 0
-static ::Internal::Cryptography::Pal::GeneralNameType const EdiPartyName;
+static Internal::Cryptography::Pal::GeneralNameType const EdiPartyName;
 
 /// @brief Field UniformResourceIdentifier offset 0
-static ::Internal::Cryptography::Pal::GeneralNameType const UniformResourceIdentifier;
+static Internal::Cryptography::Pal::GeneralNameType const UniformResourceIdentifier;
 
 /// @brief Field IPAddress offset 0
-static ::Internal::Cryptography::Pal::GeneralNameType const IPAddress;
+static Internal::Cryptography::Pal::GeneralNameType const IPAddress;
 
 /// @brief Field RegisteredId offset 0
-static ::Internal::Cryptography::Pal::GeneralNameType const RegisteredId;
+static Internal::Cryptography::Pal::GeneralNameType const RegisteredId;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Internal::Cryptography::Pal
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Internal::Cryptography::Pal::GeneralNameType, "Internal.Cryptography.Pal", "GeneralNameType");
+DEFINE_IL2CPP_ARG_TYPE(Internal::Cryptography::Pal::GeneralNameType, "Internal.Cryptography.Pal", "GeneralNameType");

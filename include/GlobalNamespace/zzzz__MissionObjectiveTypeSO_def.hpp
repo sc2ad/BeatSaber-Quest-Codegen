@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace GlobalNamespace {
 class ObjectiveValueFormatterSO;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4472))
 // CS Name: MissionObjectiveTypeSO
-class CORDL_TYPE MissionObjectiveTypeSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE MissionObjectiveTypeSO : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr MissionObjectiveTypeSO(MissionObjectiveTypeSO const& ) noexcept = defa
 constexpr MissionObjectiveTypeSO(MissionObjectiveTypeSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MissionObjectiveTypeSO(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit MissionObjectiveTypeSO(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -64,11 +63,11 @@ constexpr void __set__noConditionValue(bool value) ;
 
 constexpr bool __get__noConditionValue() const;
 
- ::GlobalNamespace::ObjectiveValueFormatterSO __declspec(property(get=__get__objectiveValueFormater, put=__set__objectiveValueFormater))  _objectiveValueFormater;
+ GlobalNamespace::ObjectiveValueFormatterSO __declspec(property(get=__get__objectiveValueFormater, put=__set__objectiveValueFormater))  _objectiveValueFormater;
 
-constexpr void __set__objectiveValueFormater(::GlobalNamespace::ObjectiveValueFormatterSO value) ;
+constexpr void __set__objectiveValueFormater(GlobalNamespace::ObjectiveValueFormatterSO value) ;
 
-constexpr ::GlobalNamespace::ObjectiveValueFormatterSO __get__objectiveValueFormater() const;
+constexpr GlobalNamespace::ObjectiveValueFormatterSO __get__objectiveValueFormater() const;
 
 
 // Properties
@@ -79,7 +78,7 @@ constexpr ::GlobalNamespace::ObjectiveValueFormatterSO __get__objectiveValueForm
 
  bool __declspec(property(get=get_noConditionValue))  noConditionValue;
 
- ::GlobalNamespace::ObjectiveValueFormatterSO __declspec(property(get=get_objectiveValueFormater))  objectiveValueFormater;
+ GlobalNamespace::ObjectiveValueFormatterSO __declspec(property(get=get_objectiveValueFormater))  objectiveValueFormater;
 
 
 // Methods
@@ -94,7 +93,7 @@ constexpr ::GlobalNamespace::ObjectiveValueFormatterSO __get__objectiveValueForm
  bool get_noConditionValue() ;
 
 /// @brief Method get_objectiveValueFormater addr 0x21f1268 size 0x8 virtual false final false
- ::GlobalNamespace::ObjectiveValueFormatterSO get_objectiveValueFormater() ;
+ GlobalNamespace::ObjectiveValueFormatterSO get_objectiveValueFormater() ;
 
 // Ctor Parameters []
 explicit MissionObjectiveTypeSO() ;
@@ -106,6 +105,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MissionObjectiveTypeSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionObjectiveTypeSO, "", "MissionObjectiveTypeSO");
+NEED_NO_BOX(GlobalNamespace::MissionObjectiveTypeSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveTypeSO, "", "MissionObjectiveTypeSO");

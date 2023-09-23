@@ -4,11 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 namespace System::Text {
 class StringBuilder;
 }
@@ -21,6 +16,10 @@ class IJsonLineInfo;
 }
 namespace Newtonsoft::Json {
 struct JsonContainerType;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {
@@ -35,8 +34,8 @@ namespace Newtonsoft::Json {
 struct CORDL_TYPE JsonPosition : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "Type", ty: "::Newtonsoft::Json::JsonContainerType", modifiers: "", def_value: None }, CppParam { name: "Position", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "PropertyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "HasIndex", ty: "bool", modifiers: "", def_value: None }]
-constexpr JsonPosition(::Newtonsoft::Json::JsonContainerType Type, int32_t Position, ::StringW PropertyName, bool HasIndex) noexcept;
+// Ctor Parameters [CppParam { name: "Type", ty: "Newtonsoft::Json::JsonContainerType", modifiers: "", def_value: None }, CppParam { name: "Position", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "PropertyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "HasIndex", ty: "bool", modifiers: "", def_value: None }]
+constexpr JsonPosition(Newtonsoft::Json::JsonContainerType Type, int32_t Position, ::StringW PropertyName, bool HasIndex) noexcept;
 
 
                     constexpr JsonPosition(JsonPosition const&) = default;
@@ -75,11 +74,11 @@ static void __set_SpecialCharacters(::ArrayW<char16_t> value) ;
 
 static ::ArrayW<char16_t> __get_SpecialCharacters() ;
 
- ::Newtonsoft::Json::JsonContainerType __declspec(property(get=__get_Type, put=__set_Type))  Type;
+ Newtonsoft::Json::JsonContainerType __declspec(property(get=__get_Type, put=__set_Type))  Type;
 
-constexpr void __set_Type(::Newtonsoft::Json::JsonContainerType value) ;
+constexpr void __set_Type(Newtonsoft::Json::JsonContainerType value) ;
 
-constexpr ::Newtonsoft::Json::JsonContainerType __get_Type() const;
+constexpr Newtonsoft::Json::JsonContainerType __get_Type() const;
 
  int32_t __declspec(property(get=__get_Position, put=__set_Position))  Position;
 
@@ -103,26 +102,25 @@ constexpr bool __get_HasIndex() const;
 // Methods
 
 /// @brief Method .ctor addr 0x24c79b4 size 0x7c virtual false final false
- void _ctor(::Newtonsoft::Json::JsonContainerType type) ;
+ void _ctor(Newtonsoft::Json::JsonContainerType type) ;
 
 /// @brief Method CalculateLength addr 0x24c7a40 size 0x98 virtual false final false
  int32_t CalculateLength() ;
 
 /// @brief Method WriteTo addr 0x24c7ad8 size 0x168 virtual false final false
- void WriteTo(::System::Text::StringBuilder sb) ;
+ void WriteTo(System::Text::StringBuilder sb) ;
 
 /// @brief Method TypeHasIndex addr 0x24c7a30 size 0x10 virtual false final false
-static bool TypeHasIndex(::Newtonsoft::Json::JsonContainerType type) ;
+static bool TypeHasIndex(Newtonsoft::Json::JsonContainerType type) ;
 
 /// @brief Method BuildPath addr 0x24c7c40 size 0x29c virtual false final false
-static ::StringW BuildPath(::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition> positions, ::System::Nullable_1<::Newtonsoft::Json::JsonPosition> currentPosition) ;
+static ::StringW BuildPath(System::Collections::Generic::List_1<Newtonsoft::Json::JsonPosition> positions, System::Nullable_1<Newtonsoft::Json::JsonPosition> currentPosition) ;
 
 /// @brief Method FormatMessage addr 0x24c7640 size 0x32c virtual false final false
-static ::StringW FormatMessage(::Newtonsoft::Json::IJsonLineInfo lineInfo, ::StringW path, ::StringW message) ;
+static ::StringW FormatMessage(Newtonsoft::Json::IJsonLineInfo lineInfo, ::StringW path, ::StringW message) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonPosition, "Newtonsoft.Json", "JsonPosition");
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::JsonPosition, "Newtonsoft.Json", "JsonPosition");

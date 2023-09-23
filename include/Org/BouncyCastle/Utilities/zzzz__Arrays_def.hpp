@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
@@ -193,7 +192,7 @@ static ::ArrayW<int32_t> CopyOf(::ArrayW<int32_t> data, int32_t newLength) ;
 static ::ArrayW<int64_t> CopyOf(::ArrayW<int64_t> data, int32_t newLength) ;
 
 /// @brief Method CopyOf addr 0x10e109c size 0xb8 virtual false final false
-static ::ArrayW<::Org::BouncyCastle::Math::BigInteger> CopyOf(::ArrayW<::Org::BouncyCastle::Math::BigInteger> data, int32_t newLength) ;
+static ::ArrayW<Org::BouncyCastle::Math::BigInteger> CopyOf(::ArrayW<Org::BouncyCastle::Math::BigInteger> data, int32_t newLength) ;
 
 /// @brief Method CopyOfRange addr 0x10e1154 size 0xf8 virtual false final false
 static ::ArrayW<uint8_t> CopyOfRange(::ArrayW<uint8_t> data, int32_t from, int32_t to) ;
@@ -205,7 +204,7 @@ static ::ArrayW<int32_t> CopyOfRange(::ArrayW<int32_t> data, int32_t from, int32
 static ::ArrayW<int64_t> CopyOfRange(::ArrayW<int64_t> data, int32_t from, int32_t to) ;
 
 /// @brief Method CopyOfRange addr 0x10e14f8 size 0xf8 virtual false final false
-static ::ArrayW<::Org::BouncyCastle::Math::BigInteger> CopyOfRange(::ArrayW<::Org::BouncyCastle::Math::BigInteger> data, int32_t from, int32_t to) ;
+static ::ArrayW<Org::BouncyCastle::Math::BigInteger> CopyOfRange(::ArrayW<Org::BouncyCastle::Math::BigInteger> data, int32_t from, int32_t to) ;
 
 /// @brief Method GetLength addr 0x10e124c size 0xbc virtual false final false
 static int32_t GetLength(int32_t from, int32_t to) ;
@@ -268,6 +267,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::Arrays);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Arrays, "Org.BouncyCastle.Utilities", "Arrays");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Arrays);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Arrays, "Org.BouncyCastle.Utilities", "Arrays");

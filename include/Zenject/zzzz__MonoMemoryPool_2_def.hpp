@@ -3,7 +3,6 @@
 #include "Zenject/zzzz__MemoryPool_2_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace Zenject {
 class InjectTypeInfo;
 }
@@ -25,10 +24,10 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TValue>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10981), inst: 3362 }), TypeDefinitionIndex(TypeDefinitionIndex(10993)), TypeDefinitionIndex(TypeDefinitionIndex(10981))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10993)), TypeDefinitionIndex(TypeDefinitionIndex(10981)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10981), inst: 3362 })}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10993), inst: 80 })
 // CS Name: Zenject.MonoMemoryPool`2
-class CORDL_TYPE MonoMemoryPool_2<TParam1,TValue> : public ::Zenject::MemoryPool_2<TParam1,TValue> {
+class CORDL_TYPE MonoMemoryPool_2<TParam1,TValue> : public Zenject::MemoryPool_2<TParam1,TValue> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -43,7 +42,7 @@ constexpr MonoMemoryPool_2(MonoMemoryPool_2 const& ) noexcept = default;
 constexpr MonoMemoryPool_2(MonoMemoryPool_2&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MonoMemoryPool_2(void* ptr) noexcept : ::Zenject::MemoryPool_2<TParam1,TValue>(ptr) {
+constexpr explicit MonoMemoryPool_2(void* ptr) noexcept : Zenject::MemoryPool_2<TParam1,TValue>(ptr) {
 }
 
 
@@ -64,11 +63,11 @@ constexpr explicit MonoMemoryPool_2(void* ptr) noexcept : ::Zenject::MemoryPool_
 
 // Fields
 
- ::UnityEngine::Transform __declspec(property(get=__get__originalParent, put=__set__originalParent))  _originalParent;
+ UnityEngine::Transform __declspec(property(get=__get__originalParent, put=__set__originalParent))  _originalParent;
 
-constexpr void __set__originalParent(::UnityEngine::Transform value) ;
+constexpr void __set__originalParent(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__originalParent() const;
+constexpr UnityEngine::Transform __get__originalParent() const;
 
 
 // Methods
@@ -95,11 +94,10 @@ explicit MonoMemoryPool_2() ;
 static ::bs_hook::Il2CppWrapperType __zenCreate(::ArrayW<::bs_hook::Il2CppWrapperType> P_0) ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::MonoMemoryPool_2, "Zenject", "MonoMemoryPool`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::MonoMemoryPool_2, "Zenject", "MonoMemoryPool`2");

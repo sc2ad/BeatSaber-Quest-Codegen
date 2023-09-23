@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace HMUI {
 class ScrollView;
 }
@@ -15,7 +14,7 @@ namespace HMUI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13690))
 // CS Name: HMUI.ScrollToTopOnEnable
-class CORDL_TYPE ScrollToTopOnEnable : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ScrollToTopOnEnable : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr ScrollToTopOnEnable(ScrollToTopOnEnable const& ) noexcept = default;
 constexpr ScrollToTopOnEnable(ScrollToTopOnEnable&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ScrollToTopOnEnable(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ScrollToTopOnEnable(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit ScrollToTopOnEnable(void* ptr) noexcept : ::UnityEngine::Mono
 
 // Fields
 
- ::HMUI::ScrollView __declspec(property(get=__get__scrollView, put=__set__scrollView))  _scrollView;
+ HMUI::ScrollView __declspec(property(get=__get__scrollView, put=__set__scrollView))  _scrollView;
 
-constexpr void __set__scrollView(::HMUI::ScrollView value) ;
+constexpr void __set__scrollView(HMUI::ScrollView value) ;
 
-constexpr ::HMUI::ScrollView __get__scrollView() const;
+constexpr HMUI::ScrollView __get__scrollView() const;
 
 
 // Methods
@@ -73,6 +72,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HMUI
-} // end anonymous namespace
-NEED_NO_BOX(::HMUI::ScrollToTopOnEnable);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::ScrollToTopOnEnable, "HMUI", "ScrollToTopOnEnable");
+NEED_NO_BOX(HMUI::ScrollToTopOnEnable);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollToTopOnEnable, "HMUI", "ScrollToTopOnEnable");

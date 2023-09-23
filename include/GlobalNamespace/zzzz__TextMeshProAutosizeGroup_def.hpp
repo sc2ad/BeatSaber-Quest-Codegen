@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace TMPro {
 class TMP_Text;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13550))
 // CS Name: TextMeshProAutosizeGroup
-class CORDL_TYPE TextMeshProAutosizeGroup : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE TextMeshProAutosizeGroup : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr TextMeshProAutosizeGroup(TextMeshProAutosizeGroup const& ) noexcept = 
 constexpr TextMeshProAutosizeGroup(TextMeshProAutosizeGroup&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TextMeshProAutosizeGroup(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit TextMeshProAutosizeGroup(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -52,11 +51,11 @@ constexpr explicit TextMeshProAutosizeGroup(void* ptr) noexcept : ::UnityEngine:
 
 // Fields
 
- ::ArrayW<::TMPro::TMP_Text> __declspec(property(get=__get__texts, put=__set__texts))  _texts;
+ ::ArrayW<TMPro::TMP_Text> __declspec(property(get=__get__texts, put=__set__texts))  _texts;
 
-constexpr void __set__texts(::ArrayW<::TMPro::TMP_Text> value) ;
+constexpr void __set__texts(::ArrayW<TMPro::TMP_Text> value) ;
 
-constexpr ::ArrayW<::TMPro::TMP_Text> __get__texts() const;
+constexpr ::ArrayW<TMPro::TMP_Text> __get__texts() const;
 
 
 // Methods
@@ -74,6 +73,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::TextMeshProAutosizeGroup);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TextMeshProAutosizeGroup, "", "TextMeshProAutosizeGroup");
+NEED_NO_BOX(GlobalNamespace::TextMeshProAutosizeGroup);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextMeshProAutosizeGroup, "", "TextMeshProAutosizeGroup");

@@ -3,22 +3,21 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-class NoteData;
-}
 namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
 struct ColorType;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
+}
 namespace GlobalNamespace {
 class BeatmapDataItem;
+}
+namespace GlobalNamespace {
+class NoteData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -73,10 +72,10 @@ static constexpr float_t  kMaxTimeDiff{2};
 // Methods
 
 /// @brief Method CreateTransformedData addr 0x21b906c size 0x320 virtual false final false
-static ::GlobalNamespace::IReadonlyBeatmapData CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData beatmapData) ;
+static GlobalNamespace::IReadonlyBeatmapData CreateTransformedData(GlobalNamespace::IReadonlyBeatmapData beatmapData) ;
 
 /// @brief Method FindNextSameColorTypeNote addr 0x21b9758 size 0x1ec virtual false final false
-static ::GlobalNamespace::NoteData FindNextSameColorTypeNote(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapDataItem> beatmapDataItems, int32_t startIndex, ::GlobalNamespace::ColorType colorType) ;
+static GlobalNamespace::NoteData FindNextSameColorTypeNote(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::BeatmapDataItem> beatmapDataItems, int32_t startIndex, GlobalNamespace::ColorType colorType) ;
 
 // Ctor Parameters []
 explicit BeatmapDataAddTestSlidersTransform() ;
@@ -88,6 +87,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BeatmapDataAddTestSlidersTransform);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapDataAddTestSlidersTransform, "", "BeatmapDataAddTestSlidersTransform");
+NEED_NO_BOX(GlobalNamespace::BeatmapDataAddTestSlidersTransform);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataAddTestSlidersTransform, "", "BeatmapDataAddTestSlidersTransform");

@@ -1,6 +1,5 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class IDsa;
 }
@@ -20,8 +19,8 @@ namespace Org::BouncyCastle::Crypto {
 class CORDL_TYPE IDsaExt : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IDsa
-constexpr operator  ::Org::BouncyCastle::Crypto::IDsa() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IDsa
+constexpr operator  Org::BouncyCastle::Crypto::IDsa() const noexcept;
 
 ~IDsaExt() = default;
 
@@ -32,18 +31,17 @@ constexpr explicit IDsaExt(void* ptr) noexcept : ::cordl_internals::InterfaceW(p
 
 // Properties
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_Order))  Order;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_Order))  Order;
 
 
 // Methods
 
 /// @brief Method get_Order addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Math::BigInteger get_Order() ;
+ Org::BouncyCastle::Math::BigInteger get_Order() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::IDsaExt);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::IDsaExt, "Org.BouncyCastle.Crypto", "IDsaExt");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::IDsaExt);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::IDsaExt, "Org.BouncyCastle.Crypto", "IDsaExt");

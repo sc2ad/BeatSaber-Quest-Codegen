@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace Mono::Globalization::Unicode {
 class CodePointIndexer;
 }
@@ -52,35 +51,35 @@ constexpr explicit NormalizationTableUtil(void* ptr) noexcept : ::bs_hook::Il2Cp
 
 // Fields
 
-static ::Mono::Globalization::Unicode::CodePointIndexer __declspec(property(get=__get_Prop, put=__set_Prop))  Prop;
+static Mono::Globalization::Unicode::CodePointIndexer __declspec(property(get=__get_Prop, put=__set_Prop))  Prop;
 
-static void __set_Prop(::Mono::Globalization::Unicode::CodePointIndexer value) ;
+static void __set_Prop(Mono::Globalization::Unicode::CodePointIndexer value) ;
 
-static ::Mono::Globalization::Unicode::CodePointIndexer __get_Prop() ;
+static Mono::Globalization::Unicode::CodePointIndexer __get_Prop() ;
 
-static ::Mono::Globalization::Unicode::CodePointIndexer __declspec(property(get=__get_Map, put=__set_Map))  Map;
+static Mono::Globalization::Unicode::CodePointIndexer __declspec(property(get=__get_Map, put=__set_Map))  Map;
 
-static void __set_Map(::Mono::Globalization::Unicode::CodePointIndexer value) ;
+static void __set_Map(Mono::Globalization::Unicode::CodePointIndexer value) ;
 
-static ::Mono::Globalization::Unicode::CodePointIndexer __get_Map() ;
+static Mono::Globalization::Unicode::CodePointIndexer __get_Map() ;
 
-static ::Mono::Globalization::Unicode::CodePointIndexer __declspec(property(get=__get_Combining, put=__set_Combining))  Combining;
+static Mono::Globalization::Unicode::CodePointIndexer __declspec(property(get=__get_Combining, put=__set_Combining))  Combining;
 
-static void __set_Combining(::Mono::Globalization::Unicode::CodePointIndexer value) ;
+static void __set_Combining(Mono::Globalization::Unicode::CodePointIndexer value) ;
 
-static ::Mono::Globalization::Unicode::CodePointIndexer __get_Combining() ;
+static Mono::Globalization::Unicode::CodePointIndexer __get_Combining() ;
 
-static ::Mono::Globalization::Unicode::CodePointIndexer __declspec(property(get=__get_Composite, put=__set_Composite))  Composite;
+static Mono::Globalization::Unicode::CodePointIndexer __declspec(property(get=__get_Composite, put=__set_Composite))  Composite;
 
-static void __set_Composite(::Mono::Globalization::Unicode::CodePointIndexer value) ;
+static void __set_Composite(Mono::Globalization::Unicode::CodePointIndexer value) ;
 
-static ::Mono::Globalization::Unicode::CodePointIndexer __get_Composite() ;
+static Mono::Globalization::Unicode::CodePointIndexer __get_Composite() ;
 
-static ::Mono::Globalization::Unicode::CodePointIndexer __declspec(property(get=__get_Helper, put=__set_Helper))  Helper;
+static Mono::Globalization::Unicode::CodePointIndexer __declspec(property(get=__get_Helper, put=__set_Helper))  Helper;
 
-static void __set_Helper(::Mono::Globalization::Unicode::CodePointIndexer value) ;
+static void __set_Helper(Mono::Globalization::Unicode::CodePointIndexer value) ;
 
-static ::Mono::Globalization::Unicode::CodePointIndexer __get_Helper() ;
+static Mono::Globalization::Unicode::CodePointIndexer __get_Helper() ;
 
 
 // Methods
@@ -95,6 +94,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Globalization::Unicode
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Globalization::Unicode::NormalizationTableUtil);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Globalization::Unicode::NormalizationTableUtil, "Mono.Globalization.Unicode", "NormalizationTableUtil");
+NEED_NO_BOX(Mono::Globalization::Unicode::NormalizationTableUtil);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::NormalizationTableUtil, "Mono.Globalization.Unicode", "NormalizationTableUtil");

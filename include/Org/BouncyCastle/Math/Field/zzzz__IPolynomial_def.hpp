@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Math::Field {
 class IPolynomial;
@@ -40,6 +39,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Math::Field
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Math::Field::IPolynomial);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::Field::IPolynomial, "Org.BouncyCastle.Math.Field", "IPolynomial");
+NEED_NO_BOX(Org::BouncyCastle::Math::Field::IPolynomial);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Field::IPolynomial, "Org.BouncyCastle.Math.Field", "IPolynomial");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace TMPro {
 struct CaretPosition;
 }
@@ -19,8 +18,8 @@ namespace TMPro {
 struct CORDL_TYPE CaretInfo : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "position", ty: "::TMPro::CaretPosition", modifiers: "", def_value: None }]
-constexpr CaretInfo(int32_t index, ::TMPro::CaretPosition position) noexcept;
+// Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "position", ty: "TMPro::CaretPosition", modifiers: "", def_value: None }]
+constexpr CaretInfo(int32_t index, TMPro::CaretPosition position) noexcept;
 
 
                     constexpr CaretInfo(CaretInfo const&) = default;
@@ -59,21 +58,20 @@ constexpr void __set_index(int32_t value) ;
 
 constexpr int32_t __get_index() const;
 
- ::TMPro::CaretPosition __declspec(property(get=__get_position, put=__set_position))  position;
+ TMPro::CaretPosition __declspec(property(get=__get_position, put=__set_position))  position;
 
-constexpr void __set_position(::TMPro::CaretPosition value) ;
+constexpr void __set_position(TMPro::CaretPosition value) ;
 
-constexpr ::TMPro::CaretPosition __get_position() const;
+constexpr TMPro::CaretPosition __get_position() const;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x2ab1704 size 0x8 virtual false final false
- void _ctor(int32_t index, ::TMPro::CaretPosition position) ;
+ void _ctor(int32_t index, TMPro::CaretPosition position) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::CaretInfo, "TMPro", "CaretInfo");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::CaretInfo, "TMPro", "CaretInfo");

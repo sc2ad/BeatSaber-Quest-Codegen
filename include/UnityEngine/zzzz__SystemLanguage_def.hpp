@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct SystemLanguage;
@@ -108,137 +107,136 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Afrikaans offset 0
-static ::UnityEngine::SystemLanguage const Afrikaans;
+static UnityEngine::SystemLanguage const Afrikaans;
 
 /// @brief Field Arabic offset 0
-static ::UnityEngine::SystemLanguage const Arabic;
+static UnityEngine::SystemLanguage const Arabic;
 
 /// @brief Field Basque offset 0
-static ::UnityEngine::SystemLanguage const Basque;
+static UnityEngine::SystemLanguage const Basque;
 
 /// @brief Field Belarusian offset 0
-static ::UnityEngine::SystemLanguage const Belarusian;
+static UnityEngine::SystemLanguage const Belarusian;
 
 /// @brief Field Bulgarian offset 0
-static ::UnityEngine::SystemLanguage const Bulgarian;
+static UnityEngine::SystemLanguage const Bulgarian;
 
 /// @brief Field Catalan offset 0
-static ::UnityEngine::SystemLanguage const Catalan;
+static UnityEngine::SystemLanguage const Catalan;
 
 /// @brief Field Chinese offset 0
-static ::UnityEngine::SystemLanguage const Chinese;
+static UnityEngine::SystemLanguage const Chinese;
 
 /// @brief Field Czech offset 0
-static ::UnityEngine::SystemLanguage const Czech;
+static UnityEngine::SystemLanguage const Czech;
 
 /// @brief Field Danish offset 0
-static ::UnityEngine::SystemLanguage const Danish;
+static UnityEngine::SystemLanguage const Danish;
 
 /// @brief Field Dutch offset 0
-static ::UnityEngine::SystemLanguage const Dutch;
+static UnityEngine::SystemLanguage const Dutch;
 
 /// @brief Field English offset 0
-static ::UnityEngine::SystemLanguage const English;
+static UnityEngine::SystemLanguage const English;
 
 /// @brief Field Estonian offset 0
-static ::UnityEngine::SystemLanguage const Estonian;
+static UnityEngine::SystemLanguage const Estonian;
 
 /// @brief Field Faroese offset 0
-static ::UnityEngine::SystemLanguage const Faroese;
+static UnityEngine::SystemLanguage const Faroese;
 
 /// @brief Field Finnish offset 0
-static ::UnityEngine::SystemLanguage const Finnish;
+static UnityEngine::SystemLanguage const Finnish;
 
 /// @brief Field French offset 0
-static ::UnityEngine::SystemLanguage const French;
+static UnityEngine::SystemLanguage const French;
 
 /// @brief Field German offset 0
-static ::UnityEngine::SystemLanguage const German;
+static UnityEngine::SystemLanguage const German;
 
 /// @brief Field Greek offset 0
-static ::UnityEngine::SystemLanguage const Greek;
+static UnityEngine::SystemLanguage const Greek;
 
 /// @brief Field Hebrew offset 0
-static ::UnityEngine::SystemLanguage const Hebrew;
+static UnityEngine::SystemLanguage const Hebrew;
 
 /// @brief Field Icelandic offset 0
-static ::UnityEngine::SystemLanguage const Icelandic;
+static UnityEngine::SystemLanguage const Icelandic;
 
 /// @brief Field Indonesian offset 0
-static ::UnityEngine::SystemLanguage const Indonesian;
+static UnityEngine::SystemLanguage const Indonesian;
 
 /// @brief Field Italian offset 0
-static ::UnityEngine::SystemLanguage const Italian;
+static UnityEngine::SystemLanguage const Italian;
 
 /// @brief Field Japanese offset 0
-static ::UnityEngine::SystemLanguage const Japanese;
+static UnityEngine::SystemLanguage const Japanese;
 
 /// @brief Field Korean offset 0
-static ::UnityEngine::SystemLanguage const Korean;
+static UnityEngine::SystemLanguage const Korean;
 
 /// @brief Field Latvian offset 0
-static ::UnityEngine::SystemLanguage const Latvian;
+static UnityEngine::SystemLanguage const Latvian;
 
 /// @brief Field Lithuanian offset 0
-static ::UnityEngine::SystemLanguage const Lithuanian;
+static UnityEngine::SystemLanguage const Lithuanian;
 
 /// @brief Field Norwegian offset 0
-static ::UnityEngine::SystemLanguage const Norwegian;
+static UnityEngine::SystemLanguage const Norwegian;
 
 /// @brief Field Polish offset 0
-static ::UnityEngine::SystemLanguage const Polish;
+static UnityEngine::SystemLanguage const Polish;
 
 /// @brief Field Portuguese offset 0
-static ::UnityEngine::SystemLanguage const Portuguese;
+static UnityEngine::SystemLanguage const Portuguese;
 
 /// @brief Field Romanian offset 0
-static ::UnityEngine::SystemLanguage const Romanian;
+static UnityEngine::SystemLanguage const Romanian;
 
 /// @brief Field Russian offset 0
-static ::UnityEngine::SystemLanguage const Russian;
+static UnityEngine::SystemLanguage const Russian;
 
 /// @brief Field SerboCroatian offset 0
-static ::UnityEngine::SystemLanguage const SerboCroatian;
+static UnityEngine::SystemLanguage const SerboCroatian;
 
 /// @brief Field Slovak offset 0
-static ::UnityEngine::SystemLanguage const Slovak;
+static UnityEngine::SystemLanguage const Slovak;
 
 /// @brief Field Slovenian offset 0
-static ::UnityEngine::SystemLanguage const Slovenian;
+static UnityEngine::SystemLanguage const Slovenian;
 
 /// @brief Field Spanish offset 0
-static ::UnityEngine::SystemLanguage const Spanish;
+static UnityEngine::SystemLanguage const Spanish;
 
 /// @brief Field Swedish offset 0
-static ::UnityEngine::SystemLanguage const Swedish;
+static UnityEngine::SystemLanguage const Swedish;
 
 /// @brief Field Thai offset 0
-static ::UnityEngine::SystemLanguage const Thai;
+static UnityEngine::SystemLanguage const Thai;
 
 /// @brief Field Turkish offset 0
-static ::UnityEngine::SystemLanguage const Turkish;
+static UnityEngine::SystemLanguage const Turkish;
 
 /// @brief Field Ukrainian offset 0
-static ::UnityEngine::SystemLanguage const Ukrainian;
+static UnityEngine::SystemLanguage const Ukrainian;
 
 /// @brief Field Vietnamese offset 0
-static ::UnityEngine::SystemLanguage const Vietnamese;
+static UnityEngine::SystemLanguage const Vietnamese;
 
 /// @brief Field ChineseSimplified offset 0
-static ::UnityEngine::SystemLanguage const ChineseSimplified;
+static UnityEngine::SystemLanguage const ChineseSimplified;
 
 /// @brief Field ChineseTraditional offset 0
-static ::UnityEngine::SystemLanguage const ChineseTraditional;
+static UnityEngine::SystemLanguage const ChineseTraditional;
 
 /// @brief Field Unknown offset 0
-static ::UnityEngine::SystemLanguage const Unknown;
+static UnityEngine::SystemLanguage const Unknown;
 
 /// @brief Field Hungarian offset 0
-static ::UnityEngine::SystemLanguage const Hungarian;
+static UnityEngine::SystemLanguage const Hungarian;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SystemLanguage, "UnityEngine", "SystemLanguage");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SystemLanguage, "UnityEngine", "SystemLanguage");

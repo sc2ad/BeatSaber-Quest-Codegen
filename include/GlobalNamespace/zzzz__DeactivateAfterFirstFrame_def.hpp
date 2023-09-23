@@ -3,7 +3,6 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections {
 class IEnumerator;
 }
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 class DeactivateAfterFirstFrame;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0;
+class GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0;
 }
 // Type: ::<Start>d__0
 namespace GlobalNamespace {
@@ -27,46 +26,46 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5449))
 // CS Name: DeactivateAfterFirstFrame::<Start>d__0
-class CORDL_TYPE ____GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0() = default;
+virtual ~GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0(____GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0(GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0(____GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0(GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0& operator=(____GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0&& o) noexcept = default;
-  constexpr ____GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0& operator=(____GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0 const& o) noexcept = default;
+  constexpr GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0& operator=(GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0&& o) noexcept = default;
+  constexpr GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0& operator=(GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0 const& o) noexcept = default;
                 
 
 
@@ -84,11 +83,11 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::GlobalNamespace::DeactivateAfterFirstFrame __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::DeactivateAfterFirstFrame __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::DeactivateAfterFirstFrame value) ;
+constexpr void __set___4__this(GlobalNamespace::DeactivateAfterFirstFrame value) ;
 
-constexpr ::GlobalNamespace::DeactivateAfterFirstFrame __get___4__this() const;
+constexpr GlobalNamespace::DeactivateAfterFirstFrame __get___4__this() const;
 
 
 // Properties
@@ -101,7 +100,7 @@ constexpr ::GlobalNamespace::DeactivateAfterFirstFrame __get___4__this() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0(int32_t __1__state) ;
+explicit GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2115a04 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -131,10 +130,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5450))
 // CS Name: DeactivateAfterFirstFrame
-class CORDL_TYPE DeactivateAfterFirstFrame : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE DeactivateAfterFirstFrame : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using _Start_d__0 = ::GlobalNamespace::____GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0;
+using _Start_d__0 = GlobalNamespace::GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -148,7 +147,7 @@ constexpr DeactivateAfterFirstFrame(DeactivateAfterFirstFrame const& ) noexcept 
 constexpr DeactivateAfterFirstFrame(DeactivateAfterFirstFrame&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DeactivateAfterFirstFrame(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit DeactivateAfterFirstFrame(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -170,7 +169,7 @@ constexpr explicit DeactivateAfterFirstFrame(void* ptr) noexcept : ::UnityEngine
 // Methods
 
 /// @brief Method Start addr 0x211599c size 0x68 virtual false final false
- ::System::Collections::IEnumerator Start() ;
+ System::Collections::IEnumerator Start() ;
 
 // Ctor Parameters []
 explicit DeactivateAfterFirstFrame() ;
@@ -182,8 +181,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::DeactivateAfterFirstFrame);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DeactivateAfterFirstFrame, "", "DeactivateAfterFirstFrame");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0, "", "DeactivateAfterFirstFrame/<Start>d__0");
+NEED_NO_BOX(GlobalNamespace::DeactivateAfterFirstFrame);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DeactivateAfterFirstFrame, "", "DeactivateAfterFirstFrame");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0, "", "DeactivateAfterFirstFrame/<Start>d__0");

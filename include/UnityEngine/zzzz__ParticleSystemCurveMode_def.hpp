@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct ParticleSystemCurveMode;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Constant offset 0
-static ::UnityEngine::ParticleSystemCurveMode const Constant;
+static UnityEngine::ParticleSystemCurveMode const Constant;
 
 /// @brief Field Curve offset 0
-static ::UnityEngine::ParticleSystemCurveMode const Curve;
+static UnityEngine::ParticleSystemCurveMode const Curve;
 
 /// @brief Field TwoCurves offset 0
-static ::UnityEngine::ParticleSystemCurveMode const TwoCurves;
+static UnityEngine::ParticleSystemCurveMode const TwoCurves;
 
 /// @brief Field TwoConstants offset 0
-static ::UnityEngine::ParticleSystemCurveMode const TwoConstants;
+static UnityEngine::ParticleSystemCurveMode const TwoConstants;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ParticleSystemCurveMode, "UnityEngine", "ParticleSystemCurveMode");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystemCurveMode, "UnityEngine", "ParticleSystemCurveMode");

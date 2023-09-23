@@ -1,9 +1,8 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverHeuristic_def.hpp"
-namespace {
 namespace RootMotion::FinalIK {
-class ____RootMotion__FinalIK__IKSolver__IterationDelegate;
+class RootMotion__FinalIK__IKSolver__IterationDelegate;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -18,7 +17,7 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12516))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12509))
 // CS Name: RootMotion.FinalIK.IKSolverCCD
-class CORDL_TYPE IKSolverCCD : public ::RootMotion::FinalIK::IKSolverHeuristic {
+class CORDL_TYPE IKSolverCCD : public RootMotion::FinalIK::IKSolverHeuristic {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr IKSolverCCD(IKSolverCCD const& ) noexcept = default;
 constexpr IKSolverCCD(IKSolverCCD&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit IKSolverCCD(void* ptr) noexcept : ::RootMotion::FinalIK::IKSolverHeuristic(ptr) {
+constexpr explicit IKSolverCCD(void* ptr) noexcept : RootMotion::FinalIK::IKSolverHeuristic(ptr) {
 }
 
 
@@ -54,11 +53,11 @@ constexpr explicit IKSolverCCD(void* ptr) noexcept : ::RootMotion::FinalIK::IKSo
 
 // Fields
 
- ::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__IterationDelegate __declspec(property(get=__get_OnPreIteration, put=__set_OnPreIteration))  OnPreIteration;
+ RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__IterationDelegate __declspec(property(get=__get_OnPreIteration, put=__set_OnPreIteration))  OnPreIteration;
 
-constexpr void __set_OnPreIteration(::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__IterationDelegate value) ;
+constexpr void __set_OnPreIteration(RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__IterationDelegate value) ;
 
-constexpr ::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__IterationDelegate __get_OnPreIteration() const;
+constexpr RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__IterationDelegate __get_OnPreIteration() const;
 
 
 // Methods
@@ -73,7 +72,7 @@ constexpr ::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__IterationDel
  void OnUpdate() ;
 
 /// @brief Method Solve addr 0x11d7754 size 0x690 virtual false final false
- void Solve(::UnityEngine::Vector3 targetPosition) ;
+ void Solve(UnityEngine::Vector3 targetPosition) ;
 
 // Ctor Parameters []
 explicit IKSolverCCD() ;
@@ -85,6 +84,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::IKSolverCCD);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::IKSolverCCD, "RootMotion.FinalIK", "IKSolverCCD");
+NEED_NO_BOX(RootMotion::FinalIK::IKSolverCCD);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverCCD, "RootMotion.FinalIK", "IKSolverCCD");

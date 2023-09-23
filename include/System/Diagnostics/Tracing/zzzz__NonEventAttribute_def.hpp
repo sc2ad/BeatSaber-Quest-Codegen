@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 // Forward declare root types
 namespace System::Diagnostics::Tracing {
 class NonEventAttribute;
@@ -12,7 +11,7 @@ namespace System::Diagnostics::Tracing {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3734))
 // CS Name: System.Diagnostics.Tracing.NonEventAttribute
-class CORDL_TYPE NonEventAttribute : public ::System::Attribute {
+class CORDL_TYPE NonEventAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr NonEventAttribute(NonEventAttribute const& ) noexcept = default;
 constexpr NonEventAttribute(NonEventAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NonEventAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit NonEventAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Diagnostics::Tracing
-} // end anonymous namespace
-NEED_NO_BOX(::System::Diagnostics::Tracing::NonEventAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::Tracing::NonEventAttribute, "System.Diagnostics.Tracing", "NonEventAttribute");
+NEED_NO_BOX(System::Diagnostics::Tracing::NonEventAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::NonEventAttribute, "System.Diagnostics.Tracing", "NonEventAttribute");

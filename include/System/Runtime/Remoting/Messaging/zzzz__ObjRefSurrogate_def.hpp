@@ -1,18 +1,17 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class ISurrogateSelector;
 }
 namespace System::Runtime::Serialization {
-class ISerializationSurrogate;
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-class ISurrogateSelector;
+class ISerializationSurrogate;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -27,8 +26,8 @@ namespace System::Runtime::Remoting::Messaging {
 class CORDL_TYPE ObjRefSurrogate : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::Serialization::ISerializationSurrogate
-constexpr operator  ::System::Runtime::Serialization::ISerializationSurrogate() const noexcept;
+/// @brief Convert operator to System::Runtime::Serialization::ISerializationSurrogate
+constexpr operator  System::Runtime::Serialization::ISerializationSurrogate() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -64,10 +63,10 @@ constexpr explicit ObjRefSurrogate(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 // Methods
 
 /// @brief Method GetObjectData addr 0x2345944 size 0x10c virtual true final false
- void GetObjectData(::bs_hook::Il2CppWrapperType obj, ::System::Runtime::Serialization::SerializationInfo si, ::System::Runtime::Serialization::StreamingContext sc) ;
+ void GetObjectData(::bs_hook::Il2CppWrapperType obj, System::Runtime::Serialization::SerializationInfo si, System::Runtime::Serialization::StreamingContext sc) ;
 
 /// @brief Method SetObjectData addr 0x2345a50 size 0x50 virtual true final false
- ::bs_hook::Il2CppWrapperType SetObjectData(::bs_hook::Il2CppWrapperType obj, ::System::Runtime::Serialization::SerializationInfo si, ::System::Runtime::Serialization::StreamingContext sc, ::System::Runtime::Serialization::ISurrogateSelector selector) ;
+ ::bs_hook::Il2CppWrapperType SetObjectData(::bs_hook::Il2CppWrapperType obj, System::Runtime::Serialization::SerializationInfo si, System::Runtime::Serialization::StreamingContext sc, System::Runtime::Serialization::ISurrogateSelector selector) ;
 
 // Ctor Parameters []
 explicit ObjRefSurrogate() ;
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Messaging
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Messaging::ObjRefSurrogate);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::ObjRefSurrogate, "System.Runtime.Remoting.Messaging", "ObjRefSurrogate");
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::ObjRefSurrogate);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ObjRefSurrogate, "System.Runtime.Remoting.Messaging", "ObjRefSurrogate");

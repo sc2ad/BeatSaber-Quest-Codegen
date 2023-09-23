@@ -2,17 +2,16 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
-namespace {
 namespace System {
-template<typename T>
-struct Span_1;
+class IFormatProvider;
 }
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
 }
 namespace System {
-class IFormatProvider;
+template<typename T>
+struct Span_1;
 }
 // Forward declare root types
 namespace System {
@@ -37,12 +36,11 @@ constexpr explicit ISpanFormattable(void* ptr) noexcept : ::cordl_internals::Int
 // Methods
 
 /// @brief Method TryFormat addr 0x0 size 0xffffffffffffffff virtual true final false
- bool TryFormat(::System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten, ::System::ReadOnlySpan_1<char16_t> format, ::System::IFormatProvider provider) ;
+ bool TryFormat(System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten, System::ReadOnlySpan_1<char16_t> format, System::IFormatProvider provider) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::ISpanFormattable);
-DEFINE_IL2CPP_ARG_TYPE(::System::ISpanFormattable, "System", "ISpanFormattable");
+NEED_NO_BOX(System::ISpanFormattable);
+DEFINE_IL2CPP_ARG_TYPE(System::ISpanFormattable, "System", "ISpanFormattable");

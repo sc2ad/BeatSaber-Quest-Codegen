@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace Zenject {
 struct BindingId;
 }
@@ -24,11 +23,11 @@ namespace Zenject {
 struct CORDL_TYPE SignalSubscriptionId : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::Zenject::SignalSubscriptionId>
-constexpr operator  ::System::IEquatable_1<::Zenject::SignalSubscriptionId>() const;
+/// @brief Convert operator to System::IEquatable_1<Zenject::SignalSubscriptionId>
+constexpr operator  System::IEquatable_1<Zenject::SignalSubscriptionId>() const;
 
-// Ctor Parameters [CppParam { name: "_signalId", ty: "::Zenject::BindingId", modifiers: "", def_value: None }, CppParam { name: "_callback", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-constexpr SignalSubscriptionId(::Zenject::BindingId _signalId, ::bs_hook::Il2CppWrapperType _callback) noexcept;
+// Ctor Parameters [CppParam { name: "_signalId", ty: "Zenject::BindingId", modifiers: "", def_value: None }, CppParam { name: "_callback", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
+constexpr SignalSubscriptionId(Zenject::BindingId _signalId, ::bs_hook::Il2CppWrapperType _callback) noexcept;
 
 
                     constexpr SignalSubscriptionId(SignalSubscriptionId const&) = default;
@@ -61,11 +60,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::Zenject::BindingId __declspec(property(get=__get__signalId, put=__set__signalId))  _signalId;
+ Zenject::BindingId __declspec(property(get=__get__signalId, put=__set__signalId))  _signalId;
 
-constexpr void __set__signalId(::Zenject::BindingId value) ;
+constexpr void __set__signalId(Zenject::BindingId value) ;
 
-constexpr ::Zenject::BindingId __get__signalId() const;
+constexpr Zenject::BindingId __get__signalId() const;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=__get__callback, put=__set__callback))  _callback;
 
@@ -76,7 +75,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get__callback() const;
 
 // Properties
 
- ::Zenject::BindingId __declspec(property(get=get_SignalId))  SignalId;
+ Zenject::BindingId __declspec(property(get=get_SignalId))  SignalId;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_Callback))  Callback;
 
@@ -84,10 +83,10 @@ constexpr ::bs_hook::Il2CppWrapperType __get__callback() const;
 // Methods
 
 /// @brief Method .ctor addr 0x2d4ad9c size 0xc virtual false final false
- void _ctor(::Zenject::BindingId signalId, ::bs_hook::Il2CppWrapperType callback) ;
+ void _ctor(Zenject::BindingId signalId, ::bs_hook::Il2CppWrapperType callback) ;
 
 /// @brief Method get_SignalId addr 0x2d4ada8 size 0xc virtual false final false
- ::Zenject::BindingId get_SignalId() ;
+ Zenject::BindingId get_SignalId() ;
 
 /// @brief Method get_Callback addr 0x2d4adb4 size 0x8 virtual false final false
  ::bs_hook::Il2CppWrapperType get_Callback() ;
@@ -99,17 +98,16 @@ constexpr ::bs_hook::Il2CppWrapperType __get__callback() const;
  bool Equals(::bs_hook::Il2CppWrapperType that) ;
 
 /// @brief Method Equals addr 0x2d4ae94 size 0xb0 virtual true final true
- bool Equals(::Zenject::SignalSubscriptionId that) ;
+ bool Equals(Zenject::SignalSubscriptionId that) ;
 
 /// @brief Method op_Equality addr 0x2d4af44 size 0x30 virtual false final false
-static bool op_Equality(::Zenject::SignalSubscriptionId left, ::Zenject::SignalSubscriptionId right) ;
+static bool op_Equality(Zenject::SignalSubscriptionId left, Zenject::SignalSubscriptionId right) ;
 
 /// @brief Method op_Inequality addr 0x2d4af74 size 0x34 virtual false final false
-static bool op_Inequality(::Zenject::SignalSubscriptionId left, ::Zenject::SignalSubscriptionId right) ;
+static bool op_Inequality(Zenject::SignalSubscriptionId left, Zenject::SignalSubscriptionId right) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::SignalSubscriptionId, "Zenject", "SignalSubscriptionId");
+DEFINE_IL2CPP_ARG_TYPE(Zenject::SignalSubscriptionId, "Zenject", "SignalSubscriptionId");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__SceneSetupData_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class ScenesTransitionSetupDataSO;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13869))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6110))
 // CS Name: ShaderWarmupSceneSetupData
-class CORDL_TYPE ShaderWarmupSceneSetupData : public ::GlobalNamespace::SceneSetupData {
+class CORDL_TYPE ShaderWarmupSceneSetupData : public GlobalNamespace::SceneSetupData {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr ShaderWarmupSceneSetupData(ShaderWarmupSceneSetupData const& ) noexcep
 constexpr ShaderWarmupSceneSetupData(ShaderWarmupSceneSetupData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ShaderWarmupSceneSetupData(void* ptr) noexcept : ::GlobalNamespace::SceneSetupData(ptr) {
+constexpr explicit ShaderWarmupSceneSetupData(void* ptr) noexcept : GlobalNamespace::SceneSetupData(ptr) {
 }
 
 
@@ -51,36 +50,35 @@ constexpr explicit ShaderWarmupSceneSetupData(void* ptr) noexcept : ::GlobalName
 
 // Fields
 
- ::GlobalNamespace::ScenesTransitionSetupDataSO __declspec(property(get=__get__nextScenesTransitionSetupData_k__BackingField, put=__set__nextScenesTransitionSetupData_k__BackingField))  _nextScenesTransitionSetupData_k__BackingField;
+ GlobalNamespace::ScenesTransitionSetupDataSO __declspec(property(get=__get__nextScenesTransitionSetupData_k__BackingField, put=__set__nextScenesTransitionSetupData_k__BackingField))  _nextScenesTransitionSetupData_k__BackingField;
 
-constexpr void __set__nextScenesTransitionSetupData_k__BackingField(::GlobalNamespace::ScenesTransitionSetupDataSO value) ;
+constexpr void __set__nextScenesTransitionSetupData_k__BackingField(GlobalNamespace::ScenesTransitionSetupDataSO value) ;
 
-constexpr ::GlobalNamespace::ScenesTransitionSetupDataSO __get__nextScenesTransitionSetupData_k__BackingField() const;
+constexpr GlobalNamespace::ScenesTransitionSetupDataSO __get__nextScenesTransitionSetupData_k__BackingField() const;
 
 
 // Properties
 
- ::GlobalNamespace::ScenesTransitionSetupDataSO __declspec(property(get=get_nextScenesTransitionSetupData, put=set_nextScenesTransitionSetupData))  nextScenesTransitionSetupData;
+ GlobalNamespace::ScenesTransitionSetupDataSO __declspec(property(get=get_nextScenesTransitionSetupData, put=set_nextScenesTransitionSetupData))  nextScenesTransitionSetupData;
 
 
 // Methods
 
 /// @brief Method get_nextScenesTransitionSetupData addr 0x21cfa24 size 0x8 virtual false final false
- ::GlobalNamespace::ScenesTransitionSetupDataSO get_nextScenesTransitionSetupData() ;
+ GlobalNamespace::ScenesTransitionSetupDataSO get_nextScenesTransitionSetupData() ;
 
 /// @brief Method set_nextScenesTransitionSetupData addr 0x21cfa2c size 0x8 virtual false final false
- void set_nextScenesTransitionSetupData(::GlobalNamespace::ScenesTransitionSetupDataSO value) ;
+ void set_nextScenesTransitionSetupData(GlobalNamespace::ScenesTransitionSetupDataSO value) ;
 
-// Ctor Parameters [CppParam { name: "nextScenesTransitionSetupData", ty: "::GlobalNamespace::ScenesTransitionSetupDataSO", modifiers: "", def_value: None }]
-explicit ShaderWarmupSceneSetupData(::GlobalNamespace::ScenesTransitionSetupDataSO nextScenesTransitionSetupData) ;
+// Ctor Parameters [CppParam { name: "nextScenesTransitionSetupData", ty: "GlobalNamespace::ScenesTransitionSetupDataSO", modifiers: "", def_value: None }]
+explicit ShaderWarmupSceneSetupData(GlobalNamespace::ScenesTransitionSetupDataSO nextScenesTransitionSetupData) ;
 
 /// @brief Method .ctor addr 0x21cfa34 size 0x28 virtual false final false
- void _ctor(::GlobalNamespace::ScenesTransitionSetupDataSO nextScenesTransitionSetupData) ;
+ void _ctor(GlobalNamespace::ScenesTransitionSetupDataSO nextScenesTransitionSetupData) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ShaderWarmupSceneSetupData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ShaderWarmupSceneSetupData, "", "ShaderWarmupSceneSetupData");
+NEED_NO_BOX(GlobalNamespace::ShaderWarmupSceneSetupData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderWarmupSceneSetupData, "", "ShaderWarmupSceneSetupData");

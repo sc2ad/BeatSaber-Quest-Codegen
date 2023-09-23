@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct IMECompositionMode;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Auto offset 0
-static ::UnityEngine::IMECompositionMode const Auto;
+static UnityEngine::IMECompositionMode const Auto;
 
 /// @brief Field On offset 0
-static ::UnityEngine::IMECompositionMode const On;
+static UnityEngine::IMECompositionMode const On;
 
 /// @brief Field Off offset 0
-static ::UnityEngine::IMECompositionMode const Off;
+static UnityEngine::IMECompositionMode const Off;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::IMECompositionMode, "UnityEngine", "IMECompositionMode");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::IMECompositionMode, "UnityEngine", "IMECompositionMode");

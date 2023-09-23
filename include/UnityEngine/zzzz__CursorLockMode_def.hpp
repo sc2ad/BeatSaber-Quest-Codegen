@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct CursorLockMode;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::CursorLockMode const None;
+static UnityEngine::CursorLockMode const None;
 
 /// @brief Field Locked offset 0
-static ::UnityEngine::CursorLockMode const Locked;
+static UnityEngine::CursorLockMode const Locked;
 
 /// @brief Field Confined offset 0
-static ::UnityEngine::CursorLockMode const Confined;
+static UnityEngine::CursorLockMode const Confined;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::CursorLockMode, "UnityEngine", "CursorLockMode");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CursorLockMode, "UnityEngine", "CursorLockMode");

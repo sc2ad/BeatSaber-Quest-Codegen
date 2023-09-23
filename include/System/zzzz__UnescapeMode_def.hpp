@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 struct UnescapeMode;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field CopyOnly offset 0
-static ::System::UnescapeMode const CopyOnly;
+static System::UnescapeMode const CopyOnly;
 
 /// @brief Field Escape offset 0
-static ::System::UnescapeMode const Escape;
+static System::UnescapeMode const Escape;
 
 /// @brief Field Unescape offset 0
-static ::System::UnescapeMode const Unescape;
+static System::UnescapeMode const Unescape;
 
 /// @brief Field EscapeUnescape offset 0
-static ::System::UnescapeMode const EscapeUnescape;
+static System::UnescapeMode const EscapeUnescape;
 
 /// @brief Field V1ToStringFlag offset 0
-static ::System::UnescapeMode const V1ToStringFlag;
+static System::UnescapeMode const V1ToStringFlag;
 
 /// @brief Field UnescapeAll offset 0
-static ::System::UnescapeMode const UnescapeAll;
+static System::UnescapeMode const UnescapeAll;
 
 /// @brief Field UnescapeAllOrThrow offset 0
-static ::System::UnescapeMode const UnescapeAllOrThrow;
+static System::UnescapeMode const UnescapeAllOrThrow;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::UnescapeMode, "System", "UnescapeMode");
+DEFINE_IL2CPP_ARG_TYPE(System::UnescapeMode, "System", "UnescapeMode");

@@ -2,12 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
-namespace UnityEngine::UIElements::Experimental {
-struct StyleValues;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace UnityEngine::UIElements::Experimental {
+struct StyleValues;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::Experimental {
@@ -59,15 +58,14 @@ constexpr explicit Lerp(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) 
 static float_t Interpolate(float_t start, float_t end, float_t ratio) ;
 
 /// @brief Method Interpolate addr 0x2c6ade8 size 0x38 virtual false final false
-static ::UnityEngine::Color Interpolate(::UnityEngine::Color start, ::UnityEngine::Color end, float_t ratio) ;
+static UnityEngine::Color Interpolate(UnityEngine::Color start, UnityEngine::Color end, float_t ratio) ;
 
 /// @brief Method Interpolate addr 0x2c6ae20 size 0x3f0 virtual false final false
-static ::UnityEngine::UIElements::Experimental::StyleValues Interpolate(::UnityEngine::UIElements::Experimental::StyleValues start, ::UnityEngine::UIElements::Experimental::StyleValues end, float_t ratio) ;
+static UnityEngine::UIElements::Experimental::StyleValues Interpolate(UnityEngine::UIElements::Experimental::StyleValues start, UnityEngine::UIElements::Experimental::StyleValues end, float_t ratio) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::Experimental
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::Experimental::Lerp);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Experimental::Lerp, "UnityEngine.UIElements.Experimental", "Lerp");
+NEED_NO_BOX(UnityEngine::UIElements::Experimental::Lerp);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::Experimental::Lerp, "UnityEngine.UIElements.Experimental", "Lerp");

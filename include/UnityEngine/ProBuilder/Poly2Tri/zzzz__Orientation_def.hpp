@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {
 struct Orientation;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field CW offset 0
-static ::UnityEngine::ProBuilder::Poly2Tri::Orientation const CW;
+static UnityEngine::ProBuilder::Poly2Tri::Orientation const CW;
 
 /// @brief Field CCW offset 0
-static ::UnityEngine::ProBuilder::Poly2Tri::Orientation const CCW;
+static UnityEngine::ProBuilder::Poly2Tri::Orientation const CCW;
 
 /// @brief Field Collinear offset 0
-static ::UnityEngine::ProBuilder::Poly2Tri::Orientation const Collinear;
+static UnityEngine::ProBuilder::Poly2Tri::Orientation const Collinear;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder::Poly2Tri
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Poly2Tri::Orientation, "UnityEngine.ProBuilder.Poly2Tri", "Orientation");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::Orientation, "UnityEngine.ProBuilder.Poly2Tri", "Orientation");

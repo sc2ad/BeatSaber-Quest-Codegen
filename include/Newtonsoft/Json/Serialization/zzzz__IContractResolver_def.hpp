@@ -1,11 +1,10 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
-namespace {
-namespace Newtonsoft::Json::Serialization {
-class JsonContract;
-}
 namespace System {
 class Type;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonContract;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -30,12 +29,11 @@ constexpr explicit IContractResolver(void* ptr) noexcept : ::cordl_internals::In
 // Methods
 
 /// @brief Method ResolveContract addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Newtonsoft::Json::Serialization::JsonContract ResolveContract(::System::Type type) ;
+ Newtonsoft::Json::Serialization::JsonContract ResolveContract(System::Type type) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Serialization
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Serialization::IContractResolver);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::IContractResolver, "Newtonsoft.Json.Serialization", "IContractResolver");
+NEED_NO_BOX(Newtonsoft::Json::Serialization::IContractResolver);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Serialization::IContractResolver, "Newtonsoft.Json.Serialization", "IContractResolver");

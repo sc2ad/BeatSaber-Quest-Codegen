@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct EVRNotificationStyle;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::OVR::OpenVR::EVRNotificationStyle const None;
+static OVR::OpenVR::EVRNotificationStyle const None;
 
 /// @brief Field Application offset 0
-static ::OVR::OpenVR::EVRNotificationStyle const Application;
+static OVR::OpenVR::EVRNotificationStyle const Application;
 
 /// @brief Field Contact_Disabled offset 0
-static ::OVR::OpenVR::EVRNotificationStyle const Contact_Disabled;
+static OVR::OpenVR::EVRNotificationStyle const Contact_Disabled;
 
 /// @brief Field Contact_Enabled offset 0
-static ::OVR::OpenVR::EVRNotificationStyle const Contact_Enabled;
+static OVR::OpenVR::EVRNotificationStyle const Contact_Enabled;
 
 /// @brief Field Contact_Active offset 0
-static ::OVR::OpenVR::EVRNotificationStyle const Contact_Active;
+static OVR::OpenVR::EVRNotificationStyle const Contact_Active;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRNotificationStyle, "OVR.OpenVR", "EVRNotificationStyle");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRNotificationStyle, "OVR.OpenVR", "EVRNotificationStyle");

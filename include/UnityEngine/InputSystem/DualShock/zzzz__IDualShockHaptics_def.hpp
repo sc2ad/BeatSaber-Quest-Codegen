@@ -1,6 +1,5 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace UnityEngine {
 struct Color;
 }
@@ -23,11 +22,11 @@ namespace UnityEngine::InputSystem::DualShock {
 class CORDL_TYPE IDualShockHaptics : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::InputSystem::Haptics::IDualMotorRumble
-constexpr operator  ::UnityEngine::InputSystem::Haptics::IDualMotorRumble() const noexcept;
+/// @brief Convert operator to UnityEngine::InputSystem::Haptics::IDualMotorRumble
+constexpr operator  UnityEngine::InputSystem::Haptics::IDualMotorRumble() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::InputSystem::Haptics::IHaptics
-constexpr operator  ::UnityEngine::InputSystem::Haptics::IHaptics() const noexcept;
+/// @brief Convert operator to UnityEngine::InputSystem::Haptics::IHaptics
+constexpr operator  UnityEngine::InputSystem::Haptics::IHaptics() const noexcept;
 
 ~IDualShockHaptics() = default;
 
@@ -39,12 +38,11 @@ constexpr explicit IDualShockHaptics(void* ptr) noexcept : ::cordl_internals::In
 // Methods
 
 /// @brief Method SetLightBarColor addr 0x0 size 0xffffffffffffffff virtual true final false
- void SetLightBarColor(::UnityEngine::Color color) ;
+ void SetLightBarColor(UnityEngine::Color color) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::DualShock
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::DualShock::IDualShockHaptics);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::DualShock::IDualShockHaptics, "UnityEngine.InputSystem.DualShock", "IDualShockHaptics");
+NEED_NO_BOX(UnityEngine::InputSystem::DualShock::IDualShockHaptics);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::DualShock::IDualShockHaptics, "UnityEngine.InputSystem.DualShock", "IDualShockHaptics");

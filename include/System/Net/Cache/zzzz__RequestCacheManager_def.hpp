@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Net::Cache {
 class RequestCacheBinding;
 }
@@ -55,41 +54,41 @@ constexpr explicit RequestCacheManager(void* ptr) noexcept : ::bs_hook::Il2CppWr
 
 // Fields
 
-static ::System::Net::Cache::RequestCachingSectionInternal __declspec(property(get=__get_s_CacheConfigSettings, put=__set_s_CacheConfigSettings))  s_CacheConfigSettings;
+static System::Net::Cache::RequestCachingSectionInternal __declspec(property(get=__get_s_CacheConfigSettings, put=__set_s_CacheConfigSettings))  s_CacheConfigSettings;
 
-static void __set_s_CacheConfigSettings(::System::Net::Cache::RequestCachingSectionInternal value) ;
+static void __set_s_CacheConfigSettings(System::Net::Cache::RequestCachingSectionInternal value) ;
 
-static ::System::Net::Cache::RequestCachingSectionInternal __get_s_CacheConfigSettings() ;
+static System::Net::Cache::RequestCachingSectionInternal __get_s_CacheConfigSettings() ;
 
-static ::System::Net::Cache::RequestCacheBinding __declspec(property(get=__get_s_BypassCacheBinding, put=__set_s_BypassCacheBinding))  s_BypassCacheBinding;
+static System::Net::Cache::RequestCacheBinding __declspec(property(get=__get_s_BypassCacheBinding, put=__set_s_BypassCacheBinding))  s_BypassCacheBinding;
 
-static void __set_s_BypassCacheBinding(::System::Net::Cache::RequestCacheBinding value) ;
+static void __set_s_BypassCacheBinding(System::Net::Cache::RequestCacheBinding value) ;
 
-static ::System::Net::Cache::RequestCacheBinding __get_s_BypassCacheBinding() ;
+static System::Net::Cache::RequestCacheBinding __get_s_BypassCacheBinding() ;
 
-static ::System::Net::Cache::RequestCacheBinding __declspec(property(get=__get_s_DefaultGlobalBinding, put=__set_s_DefaultGlobalBinding))  s_DefaultGlobalBinding;
+static System::Net::Cache::RequestCacheBinding __declspec(property(get=__get_s_DefaultGlobalBinding, put=__set_s_DefaultGlobalBinding))  s_DefaultGlobalBinding;
 
-static void __set_s_DefaultGlobalBinding(::System::Net::Cache::RequestCacheBinding value) ;
+static void __set_s_DefaultGlobalBinding(System::Net::Cache::RequestCacheBinding value) ;
 
-static ::System::Net::Cache::RequestCacheBinding __get_s_DefaultGlobalBinding() ;
+static System::Net::Cache::RequestCacheBinding __get_s_DefaultGlobalBinding() ;
 
-static ::System::Net::Cache::RequestCacheBinding __declspec(property(get=__get_s_DefaultHttpBinding, put=__set_s_DefaultHttpBinding))  s_DefaultHttpBinding;
+static System::Net::Cache::RequestCacheBinding __declspec(property(get=__get_s_DefaultHttpBinding, put=__set_s_DefaultHttpBinding))  s_DefaultHttpBinding;
 
-static void __set_s_DefaultHttpBinding(::System::Net::Cache::RequestCacheBinding value) ;
+static void __set_s_DefaultHttpBinding(System::Net::Cache::RequestCacheBinding value) ;
 
-static ::System::Net::Cache::RequestCacheBinding __get_s_DefaultHttpBinding() ;
+static System::Net::Cache::RequestCacheBinding __get_s_DefaultHttpBinding() ;
 
-static ::System::Net::Cache::RequestCacheBinding __declspec(property(get=__get_s_DefaultFtpBinding, put=__set_s_DefaultFtpBinding))  s_DefaultFtpBinding;
+static System::Net::Cache::RequestCacheBinding __declspec(property(get=__get_s_DefaultFtpBinding, put=__set_s_DefaultFtpBinding))  s_DefaultFtpBinding;
 
-static void __set_s_DefaultFtpBinding(::System::Net::Cache::RequestCacheBinding value) ;
+static void __set_s_DefaultFtpBinding(System::Net::Cache::RequestCacheBinding value) ;
 
-static ::System::Net::Cache::RequestCacheBinding __get_s_DefaultFtpBinding() ;
+static System::Net::Cache::RequestCacheBinding __get_s_DefaultFtpBinding() ;
 
 
 // Methods
 
 /// @brief Method GetBinding addr 0x285e850 size 0x1fc virtual false final false
-static ::System::Net::Cache::RequestCacheBinding GetBinding(::StringW internedScheme) ;
+static System::Net::Cache::RequestCacheBinding GetBinding(::StringW internedScheme) ;
 
 /// @brief Method LoadConfigSettings addr 0x285ea4c size 0x184 virtual false final false
 static void LoadConfigSettings() ;
@@ -98,6 +97,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Cache
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Cache::RequestCacheManager);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Cache::RequestCacheManager, "System.Net.Cache", "RequestCacheManager");
+NEED_NO_BOX(System::Net::Cache::RequestCacheManager);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Cache::RequestCacheManager, "System.Net.Cache", "RequestCacheManager");

@@ -3,19 +3,18 @@
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine::EventSystems {
+struct RaycastResult;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
-}
-namespace UnityEngine {
-class Camera;
-}
-namespace UnityEngine::EventSystems {
-struct RaycastResult;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -27,7 +26,7 @@ namespace UnityEngine::EventSystems {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13153))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13148))
 // CS Name: UnityEngine.EventSystems.BaseRaycaster
-class CORDL_TYPE BaseRaycaster : public ::UnityEngine::EventSystems::UIBehaviour {
+class CORDL_TYPE BaseRaycaster : public UnityEngine::EventSystems::UIBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -42,7 +41,7 @@ constexpr BaseRaycaster(BaseRaycaster const& ) noexcept = default;
 constexpr BaseRaycaster(BaseRaycaster&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BaseRaycaster(void* ptr) noexcept : ::UnityEngine::EventSystems::UIBehaviour(ptr) {
+constexpr explicit BaseRaycaster(void* ptr) noexcept : UnityEngine::EventSystems::UIBehaviour(ptr) {
 }
 
 
@@ -63,16 +62,16 @@ constexpr explicit BaseRaycaster(void* ptr) noexcept : ::UnityEngine::EventSyste
 
 // Fields
 
- ::UnityEngine::EventSystems::BaseRaycaster __declspec(property(get=__get_m_RootRaycaster, put=__set_m_RootRaycaster))  m_RootRaycaster;
+ UnityEngine::EventSystems::BaseRaycaster __declspec(property(get=__get_m_RootRaycaster, put=__set_m_RootRaycaster))  m_RootRaycaster;
 
-constexpr void __set_m_RootRaycaster(::UnityEngine::EventSystems::BaseRaycaster value) ;
+constexpr void __set_m_RootRaycaster(UnityEngine::EventSystems::BaseRaycaster value) ;
 
-constexpr ::UnityEngine::EventSystems::BaseRaycaster __get_m_RootRaycaster() const;
+constexpr UnityEngine::EventSystems::BaseRaycaster __get_m_RootRaycaster() const;
 
 
 // Properties
 
- ::UnityEngine::Camera __declspec(property(get=get_eventCamera))  eventCamera;
+ UnityEngine::Camera __declspec(property(get=get_eventCamera))  eventCamera;
 
  int32_t __declspec(property(get=get_priority))  priority;
 
@@ -80,16 +79,16 @@ constexpr ::UnityEngine::EventSystems::BaseRaycaster __get_m_RootRaycaster() con
 
  int32_t __declspec(property(get=get_renderOrderPriority))  renderOrderPriority;
 
- ::UnityEngine::EventSystems::BaseRaycaster __declspec(property(get=get_rootRaycaster))  rootRaycaster;
+ UnityEngine::EventSystems::BaseRaycaster __declspec(property(get=get_rootRaycaster))  rootRaycaster;
 
 
 // Methods
 
 /// @brief Method Raycast addr 0x0 size 0xffffffffffffffff virtual true final false
- void Raycast(::UnityEngine::EventSystems::PointerEventData eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult> resultAppendList) ;
+ void Raycast(UnityEngine::EventSystems::PointerEventData eventData, System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult> resultAppendList) ;
 
 /// @brief Method get_eventCamera addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Camera get_eventCamera() ;
+ UnityEngine::Camera get_eventCamera() ;
 
 /// @brief Method get_priority addr 0x2c26ecc size 0x8 virtual true final false
  int32_t get_priority() ;
@@ -101,7 +100,7 @@ constexpr ::UnityEngine::EventSystems::BaseRaycaster __get_m_RootRaycaster() con
  int32_t get_renderOrderPriority() ;
 
 /// @brief Method get_rootRaycaster addr 0x2c1df74 size 0xb8 virtual false final false
- ::UnityEngine::EventSystems::BaseRaycaster get_rootRaycaster() ;
+ UnityEngine::EventSystems::BaseRaycaster get_rootRaycaster() ;
 
 /// @brief Method ToString addr 0x2c26ee4 size 0x2c4 virtual true final false
  ::StringW ToString() ;
@@ -128,6 +127,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::EventSystems
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::EventSystems::BaseRaycaster);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::BaseRaycaster, "UnityEngine.EventSystems", "BaseRaycaster");
+NEED_NO_BOX(UnityEngine::EventSystems::BaseRaycaster);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::BaseRaycaster, "UnityEngine.EventSystems", "BaseRaycaster");

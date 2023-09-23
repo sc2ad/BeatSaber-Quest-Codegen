@@ -4,28 +4,27 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
+namespace UnityEngine {
+struct Pose;
+}
+namespace LiteNetLib::Utils {
+class INetSerializable;
+}
+namespace GlobalNamespace {
+struct Vector3Serializable;
+}
 namespace GlobalNamespace {
 struct QuaternionSerializable;
 }
 namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace LiteNetLib::Utils {
 class NetDataWriter;
-}
-namespace UnityEngine {
-struct Pose;
 }
 namespace System {
 template<typename T>
 class IEquatable_1;
 }
-namespace GlobalNamespace {
-struct Vector3Serializable;
-}
 namespace LiteNetLib::Utils {
-class INetSerializable;
+class NetDataReader;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -40,14 +39,14 @@ namespace GlobalNamespace {
 struct CORDL_TYPE PoseSerializable : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::LiteNetLib::Utils::INetSerializable
-constexpr operator  ::LiteNetLib::Utils::INetSerializable() const;
+/// @brief Convert operator to LiteNetLib::Utils::INetSerializable
+constexpr operator  LiteNetLib::Utils::INetSerializable() const;
 
-/// @brief Convert operator to ::System::IEquatable_1<::GlobalNamespace::PoseSerializable>
-constexpr operator  ::System::IEquatable_1<::GlobalNamespace::PoseSerializable>() const;
+/// @brief Convert operator to System::IEquatable_1<GlobalNamespace::PoseSerializable>
+constexpr operator  System::IEquatable_1<GlobalNamespace::PoseSerializable>() const;
 
-// Ctor Parameters [CppParam { name: "position", ty: "::GlobalNamespace::Vector3Serializable", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "::GlobalNamespace::QuaternionSerializable", modifiers: "", def_value: None }]
-constexpr PoseSerializable(::GlobalNamespace::Vector3Serializable position, ::GlobalNamespace::QuaternionSerializable rotation) noexcept;
+// Ctor Parameters [CppParam { name: "position", ty: "GlobalNamespace::Vector3Serializable", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "GlobalNamespace::QuaternionSerializable", modifiers: "", def_value: None }]
+constexpr PoseSerializable(GlobalNamespace::Vector3Serializable position, GlobalNamespace::QuaternionSerializable rotation) noexcept;
 
 
                     constexpr PoseSerializable(PoseSerializable const&) = default;
@@ -80,40 +79,40 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::GlobalNamespace::Vector3Serializable __declspec(property(get=__get_position, put=__set_position))  position;
+ GlobalNamespace::Vector3Serializable __declspec(property(get=__get_position, put=__set_position))  position;
 
-constexpr void __set_position(::GlobalNamespace::Vector3Serializable value) ;
+constexpr void __set_position(GlobalNamespace::Vector3Serializable value) ;
 
-constexpr ::GlobalNamespace::Vector3Serializable __get_position() const;
+constexpr GlobalNamespace::Vector3Serializable __get_position() const;
 
- ::GlobalNamespace::QuaternionSerializable __declspec(property(get=__get_rotation, put=__set_rotation))  rotation;
+ GlobalNamespace::QuaternionSerializable __declspec(property(get=__get_rotation, put=__set_rotation))  rotation;
 
-constexpr void __set_rotation(::GlobalNamespace::QuaternionSerializable value) ;
+constexpr void __set_rotation(GlobalNamespace::QuaternionSerializable value) ;
 
-constexpr ::GlobalNamespace::QuaternionSerializable __get_rotation() const;
+constexpr GlobalNamespace::QuaternionSerializable __get_rotation() const;
 
 
 // Properties
 
-static ::GlobalNamespace::PoseSerializable __declspec(property(get=get_identity))  identity;
+static GlobalNamespace::PoseSerializable __declspec(property(get=get_identity))  identity;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x121b2f4 size 0x14 virtual false final false
- void _ctor(::GlobalNamespace::Vector3Serializable position, ::GlobalNamespace::QuaternionSerializable rotation) ;
+ void _ctor(GlobalNamespace::Vector3Serializable position, GlobalNamespace::QuaternionSerializable rotation) ;
 
 /// @brief Method get_identity addr 0x121b308 size 0x24 virtual false final false
-static ::GlobalNamespace::PoseSerializable get_identity() ;
+static GlobalNamespace::PoseSerializable get_identity() ;
 
 /// @brief Method Serialize addr 0x121b32c size 0x28 virtual true final true
- void Serialize(::LiteNetLib::Utils::NetDataWriter writer) ;
+ void Serialize(LiteNetLib::Utils::NetDataWriter writer) ;
 
 /// @brief Method Deserialize addr 0x121b354 size 0x28 virtual true final true
- void Deserialize(::LiteNetLib::Utils::NetDataReader reader) ;
+ void Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
 
 /// @brief Method Equals addr 0x121b37c size 0x6c virtual true final true
- bool Equals(::GlobalNamespace::PoseSerializable other) ;
+ bool Equals(GlobalNamespace::PoseSerializable other) ;
 
 /// @brief Method Equals addr 0x121b3e8 size 0x90 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -128,20 +127,19 @@ static ::GlobalNamespace::PoseSerializable get_identity() ;
  int32_t GetSize() ;
 
 /// @brief Method op_Implicit addr 0x121b5b4 size 0x98 virtual false final false
-static ::UnityEngine::Pose op_Implicit___UnityEngine__Pose(::GlobalNamespace::PoseSerializable p) ;
+static UnityEngine::Pose op_Implicit_UnityEngine__Pose(GlobalNamespace::PoseSerializable p) ;
 
 /// @brief Method op_Implicit addr 0x121b64c size 0x7c virtual false final false
-static ::GlobalNamespace::PoseSerializable op_Implicit___GlobalNamespace__PoseSerializable(::UnityEngine::Pose p) ;
+static GlobalNamespace::PoseSerializable op_Implicit_GlobalNamespace__PoseSerializable(UnityEngine::Pose p) ;
 
 /// @brief Method op_Addition addr 0x121b6c8 size 0x64 virtual false final false
-static ::GlobalNamespace::PoseSerializable op_Addition(::GlobalNamespace::PoseSerializable a, ::GlobalNamespace::PoseSerializable b) ;
+static GlobalNamespace::PoseSerializable op_Addition(GlobalNamespace::PoseSerializable a, GlobalNamespace::PoseSerializable b) ;
 
 /// @brief Method op_Subtraction addr 0x121b72c size 0x64 virtual false final false
-static ::GlobalNamespace::PoseSerializable op_Subtraction(::GlobalNamespace::PoseSerializable a, ::GlobalNamespace::PoseSerializable b) ;
+static GlobalNamespace::PoseSerializable op_Subtraction(GlobalNamespace::PoseSerializable a, GlobalNamespace::PoseSerializable b) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PoseSerializable, "", "PoseSerializable");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PoseSerializable, "", "PoseSerializable");

@@ -1,11 +1,10 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
-namespace UnityEngine::UIElements {
-class EventBase;
-}
 namespace UnityEngine::UIElements {
 class IPanel;
+}
+namespace UnityEngine::UIElements {
+class EventBase;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -30,15 +29,14 @@ constexpr explicit IEventDispatchingStrategy(void* ptr) noexcept : ::cordl_inter
 // Methods
 
 /// @brief Method CanDispatchEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- bool CanDispatchEvent(::UnityEngine::UIElements::EventBase evt) ;
+ bool CanDispatchEvent(UnityEngine::UIElements::EventBase evt) ;
 
 /// @brief Method DispatchEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void DispatchEvent(::UnityEngine::UIElements::EventBase evt, ::UnityEngine::UIElements::IPanel panel) ;
+ void DispatchEvent(UnityEngine::UIElements::EventBase evt, UnityEngine::UIElements::IPanel panel) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::IEventDispatchingStrategy);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::IEventDispatchingStrategy, "UnityEngine.UIElements", "IEventDispatchingStrategy");
+NEED_NO_BOX(UnityEngine::UIElements::IEventDispatchingStrategy);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::IEventDispatchingStrategy, "UnityEngine.UIElements", "IEventDispatchingStrategy");

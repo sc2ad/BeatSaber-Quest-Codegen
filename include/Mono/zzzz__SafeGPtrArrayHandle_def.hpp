@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace Mono {
-struct RuntimeGPtrArrayHandle;
-}
 namespace System {
 class IDisposable;
+}
+namespace Mono {
+struct RuntimeGPtrArrayHandle;
 }
 // Forward declare root types
 namespace Mono {
@@ -22,11 +21,11 @@ namespace Mono {
 struct CORDL_TYPE SafeGPtrArrayHandle : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const;
 
-// Ctor Parameters [CppParam { name: "handle", ty: "::Mono::RuntimeGPtrArrayHandle", modifiers: "", def_value: None }]
-constexpr SafeGPtrArrayHandle(::Mono::RuntimeGPtrArrayHandle handle) noexcept;
+// Ctor Parameters [CppParam { name: "handle", ty: "Mono::RuntimeGPtrArrayHandle", modifiers: "", def_value: None }]
+constexpr SafeGPtrArrayHandle(Mono::RuntimeGPtrArrayHandle handle) noexcept;
 
 
                     constexpr SafeGPtrArrayHandle(SafeGPtrArrayHandle const&) = default;
@@ -59,11 +58,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::Mono::RuntimeGPtrArrayHandle __declspec(property(get=__get_handle, put=__set_handle))  handle;
+ Mono::RuntimeGPtrArrayHandle __declspec(property(get=__get_handle, put=__set_handle))  handle;
 
-constexpr void __set_handle(::Mono::RuntimeGPtrArrayHandle value) ;
+constexpr void __set_handle(Mono::RuntimeGPtrArrayHandle value) ;
 
-constexpr ::Mono::RuntimeGPtrArrayHandle __get_handle() const;
+constexpr Mono::RuntimeGPtrArrayHandle __get_handle() const;
 
 
 // Properties
@@ -91,5 +90,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Mono
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Mono::SafeGPtrArrayHandle, "Mono", "SafeGPtrArrayHandle");
+DEFINE_IL2CPP_ARG_TYPE(Mono::SafeGPtrArrayHandle, "Mono", "SafeGPtrArrayHandle");

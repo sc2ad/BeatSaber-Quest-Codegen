@@ -6,7 +6,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace GlobalNamespace {
+class AchievementSO;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -15,15 +17,12 @@ namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace GlobalNamespace {
-class AchievementSO;
-}
 // Forward declare root types
 namespace GlobalNamespace {
-class SonyAchievementIdsModelSO;
+class GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData;
+class SonyAchievementIdsModelSO;
 }
 // Type: ::AchievementIdData
 namespace GlobalNamespace {
@@ -31,37 +30,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4667))
 // CS Name: SonyAchievementIdsModelSO::AchievementIdData
-class CORDL_TYPE ____GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData() = default;
+virtual ~GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData(____GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData(GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData(____GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData(GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData& operator=(____GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData&& o) noexcept = default;
-  constexpr ____GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData& operator=(____GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData const& o) noexcept = default;
+  constexpr GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData& operator=(GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData&& o) noexcept = default;
+  constexpr GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData& operator=(GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData const& o) noexcept = default;
                 
 
 
@@ -73,11 +72,11 @@ constexpr void __set__trophyId(int32_t value) ;
 
 constexpr int32_t __get__trophyId() const;
 
- ::GlobalNamespace::AchievementSO __declspec(property(get=__get__achievement, put=__set__achievement))  _achievement;
+ GlobalNamespace::AchievementSO __declspec(property(get=__get__achievement, put=__set__achievement))  _achievement;
 
-constexpr void __set__achievement(::GlobalNamespace::AchievementSO value) ;
+constexpr void __set__achievement(GlobalNamespace::AchievementSO value) ;
 
-constexpr ::GlobalNamespace::AchievementSO __get__achievement() const;
+constexpr GlobalNamespace::AchievementSO __get__achievement() const;
 
 
 // Properties
@@ -96,7 +95,7 @@ constexpr ::GlobalNamespace::AchievementSO __get__achievement() const;
  ::StringW get_achievementId() ;
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData() ;
+explicit GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData() ;
 
 /// @brief Method .ctor addr 0x221b474 size 0x8 virtual false final false
  void _ctor() ;
@@ -111,10 +110,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4668))
 // CS Name: SonyAchievementIdsModelSO
-class CORDL_TYPE SonyAchievementIdsModelSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE SonyAchievementIdsModelSO : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
-using AchievementIdData = ::GlobalNamespace::____GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData;
+using AchievementIdData = GlobalNamespace::GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -128,7 +127,7 @@ constexpr SonyAchievementIdsModelSO(SonyAchievementIdsModelSO const& ) noexcept 
 constexpr SonyAchievementIdsModelSO(SonyAchievementIdsModelSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SonyAchievementIdsModelSO(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit SonyAchievementIdsModelSO(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -149,34 +148,34 @@ constexpr explicit SonyAchievementIdsModelSO(void* ptr) noexcept : ::GlobalNames
 
 // Fields
 
- ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData> __declspec(property(get=__get__achievementsIds, put=__set__achievementsIds))  _achievementsIds;
+ System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData> __declspec(property(get=__get__achievementsIds, put=__set__achievementsIds))  _achievementsIds;
 
-constexpr void __set__achievementsIds(::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData> value) ;
+constexpr void __set__achievementsIds(System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData> __get__achievementsIds() const;
+constexpr System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData> __get__achievementsIds() const;
 
- ::System::Collections::Generic::Dictionary_2<::StringW,int32_t> __declspec(property(get=__get__achievementIdToTrophyId, put=__set__achievementIdToTrophyId))  _achievementIdToTrophyId;
+ System::Collections::Generic::Dictionary_2<::StringW,int32_t> __declspec(property(get=__get__achievementIdToTrophyId, put=__set__achievementIdToTrophyId))  _achievementIdToTrophyId;
 
-constexpr void __set__achievementIdToTrophyId(::System::Collections::Generic::Dictionary_2<::StringW,int32_t> value) ;
+constexpr void __set__achievementIdToTrophyId(System::Collections::Generic::Dictionary_2<::StringW,int32_t> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::StringW,int32_t> __get__achievementIdToTrophyId() const;
+constexpr System::Collections::Generic::Dictionary_2<::StringW,int32_t> __get__achievementIdToTrophyId() const;
 
- ::System::Collections::Generic::Dictionary_2<int32_t,::StringW> __declspec(property(get=__get__trophyIdToAchievementId, put=__set__trophyIdToAchievementId))  _trophyIdToAchievementId;
+ System::Collections::Generic::Dictionary_2<int32_t,::StringW> __declspec(property(get=__get__trophyIdToAchievementId, put=__set__trophyIdToAchievementId))  _trophyIdToAchievementId;
 
-constexpr void __set__trophyIdToAchievementId(::System::Collections::Generic::Dictionary_2<int32_t,::StringW> value) ;
+constexpr void __set__trophyIdToAchievementId(System::Collections::Generic::Dictionary_2<int32_t,::StringW> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<int32_t,::StringW> __get__trophyIdToAchievementId() const;
+constexpr System::Collections::Generic::Dictionary_2<int32_t,::StringW> __get__trophyIdToAchievementId() const;
 
 
 // Properties
 
- ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData> __declspec(property(get=get_achievementsIds))  achievementsIds;
+ System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData> __declspec(property(get=get_achievementsIds))  achievementsIds;
 
 
 // Methods
 
 /// @brief Method get_achievementsIds addr 0x221afc8 size 0x8 virtual false final false
- ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData> get_achievementsIds() ;
+ System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData> get_achievementsIds() ;
 
 /// @brief Method OnEnable addr 0x221afd0 size 0x240 virtual true final false
  void OnEnable() ;
@@ -200,8 +199,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SonyAchievementIdsModelSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SonyAchievementIdsModelSO, "", "SonyAchievementIdsModelSO");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData, "", "SonyAchievementIdsModelSO/AchievementIdData");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData, "", "SonyAchievementIdsModelSO/AchievementIdData");
+NEED_NO_BOX(GlobalNamespace::SonyAchievementIdsModelSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SonyAchievementIdsModelSO, "", "SonyAchievementIdsModelSO");

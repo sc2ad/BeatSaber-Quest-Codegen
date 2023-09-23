@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class Mirror;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5945))
 // CS Name: DisableWhenMirrorIsEnabled
-class CORDL_TYPE DisableWhenMirrorIsEnabled : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE DisableWhenMirrorIsEnabled : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr DisableWhenMirrorIsEnabled(DisableWhenMirrorIsEnabled const& ) noexcep
 constexpr DisableWhenMirrorIsEnabled(DisableWhenMirrorIsEnabled&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DisableWhenMirrorIsEnabled(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit DisableWhenMirrorIsEnabled(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -51,25 +50,25 @@ constexpr explicit DisableWhenMirrorIsEnabled(void* ptr) noexcept : ::UnityEngin
 
 // Fields
 
- ::GlobalNamespace::Mirror __declspec(property(get=__get__mirror, put=__set__mirror))  _mirror;
+ GlobalNamespace::Mirror __declspec(property(get=__get__mirror, put=__set__mirror))  _mirror;
 
-constexpr void __set__mirror(::GlobalNamespace::Mirror value) ;
+constexpr void __set__mirror(GlobalNamespace::Mirror value) ;
 
-constexpr ::GlobalNamespace::Mirror __get__mirror() const;
+constexpr GlobalNamespace::Mirror __get__mirror() const;
 
 
 // Properties
 
- ::GlobalNamespace::Mirror __declspec(property(get=get_mirror, put=set_mirror))  mirror;
+ GlobalNamespace::Mirror __declspec(property(get=get_mirror, put=set_mirror))  mirror;
 
 
 // Methods
 
 /// @brief Method get_mirror addr 0x219c274 size 0x8 virtual false final false
- ::GlobalNamespace::Mirror get_mirror() ;
+ GlobalNamespace::Mirror get_mirror() ;
 
 /// @brief Method set_mirror addr 0x219c27c size 0x8 virtual false final false
- void set_mirror(::GlobalNamespace::Mirror value) ;
+ void set_mirror(GlobalNamespace::Mirror value) ;
 
 /// @brief Method Start addr 0x219c284 size 0xa0 virtual false final false
  void Start() ;
@@ -90,6 +89,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::DisableWhenMirrorIsEnabled);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DisableWhenMirrorIsEnabled, "", "DisableWhenMirrorIsEnabled");
+NEED_NO_BOX(GlobalNamespace::DisableWhenMirrorIsEnabled);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisableWhenMirrorIsEnabled, "", "DisableWhenMirrorIsEnabled");

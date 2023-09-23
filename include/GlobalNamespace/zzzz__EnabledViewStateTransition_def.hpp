@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__BaseStateTransition_1_def.hpp"
 #include "UnityEngine/zzzz__Behaviour_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class EnabledTransitionSO;
-}
 namespace GlobalNamespace {
 class BaseTransitionSO;
+}
+namespace GlobalNamespace {
+class EnabledTransitionSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -16,10 +15,10 @@ class EnabledViewStateTransition;
 // Type: ::EnabledViewStateTransition
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5544)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5544), inst: 891 }), TypeDefinitionIndex(TypeDefinitionIndex(10129))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10129)), TypeDefinitionIndex(TypeDefinitionIndex(5544)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5544), inst: 891 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5552))
 // CS Name: EnabledViewStateTransition
-class CORDL_TYPE EnabledViewStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityEngine::Behaviour> {
+class CORDL_TYPE EnabledViewStateTransition : public GlobalNamespace::BaseStateTransition_1<UnityEngine::Behaviour> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr EnabledViewStateTransition(EnabledViewStateTransition const& ) noexcep
 constexpr EnabledViewStateTransition(EnabledViewStateTransition&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EnabledViewStateTransition(void* ptr) noexcept : ::GlobalNamespace::BaseStateTransition_1<::UnityEngine::Behaviour>(ptr) {
+constexpr explicit EnabledViewStateTransition(void* ptr) noexcept : GlobalNamespace::BaseStateTransition_1<UnityEngine::Behaviour>(ptr) {
 }
 
 
@@ -55,22 +54,22 @@ constexpr explicit EnabledViewStateTransition(void* ptr) noexcept : ::GlobalName
 
 // Fields
 
- ::GlobalNamespace::EnabledTransitionSO __declspec(property(get=__get__transition, put=__set__transition))  _transition;
+ GlobalNamespace::EnabledTransitionSO __declspec(property(get=__get__transition, put=__set__transition))  _transition;
 
-constexpr void __set__transition(::GlobalNamespace::EnabledTransitionSO value) ;
+constexpr void __set__transition(GlobalNamespace::EnabledTransitionSO value) ;
 
-constexpr ::GlobalNamespace::EnabledTransitionSO __get__transition() const;
+constexpr GlobalNamespace::EnabledTransitionSO __get__transition() const;
 
 
 // Properties
 
- ::GlobalNamespace::BaseTransitionSO __declspec(property(get=get_transition))  transition;
+ GlobalNamespace::BaseTransitionSO __declspec(property(get=get_transition))  transition;
 
 
 // Methods
 
 /// @brief Method get_transition addr 0x2128f20 size 0x8 virtual true final false
- ::GlobalNamespace::BaseTransitionSO get_transition() ;
+ GlobalNamespace::BaseTransitionSO get_transition() ;
 
 /// @brief Method TransitionToNormalState addr 0x2128f28 size 0xc virtual true final false
  void TransitionToNormalState() ;
@@ -118,6 +117,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::EnabledViewStateTransition);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EnabledViewStateTransition, "", "EnabledViewStateTransition");
+NEED_NO_BOX(GlobalNamespace::EnabledViewStateTransition);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnabledViewStateTransition, "", "EnabledViewStateTransition");

@@ -3,7 +3,6 @@
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::ComponentModel {
 struct DesignerSerializationVisibility;
 }
@@ -17,7 +16,7 @@ namespace System::ComponentModel {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8243))
 // CS Name: System.ComponentModel.DesignerSerializationVisibilityAttribute
-class CORDL_TYPE DesignerSerializationVisibilityAttribute : public ::System::Attribute {
+class CORDL_TYPE DesignerSerializationVisibilityAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr DesignerSerializationVisibilityAttribute(DesignerSerializationVisibili
 constexpr DesignerSerializationVisibilityAttribute(DesignerSerializationVisibilityAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DesignerSerializationVisibilityAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit DesignerSerializationVisibilityAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -53,52 +52,52 @@ constexpr explicit DesignerSerializationVisibilityAttribute(void* ptr) noexcept 
 
 // Fields
 
-static ::System::ComponentModel::DesignerSerializationVisibilityAttribute __declspec(property(get=__get_Content, put=__set_Content))  Content;
+static System::ComponentModel::DesignerSerializationVisibilityAttribute __declspec(property(get=__get_Content, put=__set_Content))  Content;
 
-static void __set_Content(::System::ComponentModel::DesignerSerializationVisibilityAttribute value) ;
+static void __set_Content(System::ComponentModel::DesignerSerializationVisibilityAttribute value) ;
 
-static ::System::ComponentModel::DesignerSerializationVisibilityAttribute __get_Content() ;
+static System::ComponentModel::DesignerSerializationVisibilityAttribute __get_Content() ;
 
-static ::System::ComponentModel::DesignerSerializationVisibilityAttribute __declspec(property(get=__get_Hidden, put=__set_Hidden))  Hidden;
+static System::ComponentModel::DesignerSerializationVisibilityAttribute __declspec(property(get=__get_Hidden, put=__set_Hidden))  Hidden;
 
-static void __set_Hidden(::System::ComponentModel::DesignerSerializationVisibilityAttribute value) ;
+static void __set_Hidden(System::ComponentModel::DesignerSerializationVisibilityAttribute value) ;
 
-static ::System::ComponentModel::DesignerSerializationVisibilityAttribute __get_Hidden() ;
+static System::ComponentModel::DesignerSerializationVisibilityAttribute __get_Hidden() ;
 
-static ::System::ComponentModel::DesignerSerializationVisibilityAttribute __declspec(property(get=__get_Visible, put=__set_Visible))  Visible;
+static System::ComponentModel::DesignerSerializationVisibilityAttribute __declspec(property(get=__get_Visible, put=__set_Visible))  Visible;
 
-static void __set_Visible(::System::ComponentModel::DesignerSerializationVisibilityAttribute value) ;
+static void __set_Visible(System::ComponentModel::DesignerSerializationVisibilityAttribute value) ;
 
-static ::System::ComponentModel::DesignerSerializationVisibilityAttribute __get_Visible() ;
+static System::ComponentModel::DesignerSerializationVisibilityAttribute __get_Visible() ;
 
-static ::System::ComponentModel::DesignerSerializationVisibilityAttribute __declspec(property(get=__get_Default, put=__set_Default))  Default;
+static System::ComponentModel::DesignerSerializationVisibilityAttribute __declspec(property(get=__get_Default, put=__set_Default))  Default;
 
-static void __set_Default(::System::ComponentModel::DesignerSerializationVisibilityAttribute value) ;
+static void __set_Default(System::ComponentModel::DesignerSerializationVisibilityAttribute value) ;
 
-static ::System::ComponentModel::DesignerSerializationVisibilityAttribute __get_Default() ;
+static System::ComponentModel::DesignerSerializationVisibilityAttribute __get_Default() ;
 
- ::System::ComponentModel::DesignerSerializationVisibility __declspec(property(get=__get__Visibility_k__BackingField, put=__set__Visibility_k__BackingField))  _Visibility_k__BackingField;
+ System::ComponentModel::DesignerSerializationVisibility __declspec(property(get=__get__Visibility_k__BackingField, put=__set__Visibility_k__BackingField))  _Visibility_k__BackingField;
 
-constexpr void __set__Visibility_k__BackingField(::System::ComponentModel::DesignerSerializationVisibility value) ;
+constexpr void __set__Visibility_k__BackingField(System::ComponentModel::DesignerSerializationVisibility value) ;
 
-constexpr ::System::ComponentModel::DesignerSerializationVisibility __get__Visibility_k__BackingField() const;
+constexpr System::ComponentModel::DesignerSerializationVisibility __get__Visibility_k__BackingField() const;
 
 
 // Properties
 
- ::System::ComponentModel::DesignerSerializationVisibility __declspec(property(get=get_Visibility))  Visibility;
+ System::ComponentModel::DesignerSerializationVisibility __declspec(property(get=get_Visibility))  Visibility;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "visibility", ty: "::System::ComponentModel::DesignerSerializationVisibility", modifiers: "", def_value: None }]
-explicit DesignerSerializationVisibilityAttribute(::System::ComponentModel::DesignerSerializationVisibility visibility) ;
+// Ctor Parameters [CppParam { name: "visibility", ty: "System::ComponentModel::DesignerSerializationVisibility", modifiers: "", def_value: None }]
+explicit DesignerSerializationVisibilityAttribute(System::ComponentModel::DesignerSerializationVisibility visibility) ;
 
 /// @brief Method .ctor addr 0x2771fc0 size 0x28 virtual false final false
- void _ctor(::System::ComponentModel::DesignerSerializationVisibility visibility) ;
+ void _ctor(System::ComponentModel::DesignerSerializationVisibility visibility) ;
 
 /// @brief Method get_Visibility addr 0x2771fe8 size 0x8 virtual false final false
- ::System::ComponentModel::DesignerSerializationVisibility get_Visibility() ;
+ System::ComponentModel::DesignerSerializationVisibility get_Visibility() ;
 
 /// @brief Method Equals addr 0x2771ff0 size 0xd8 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -113,6 +112,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::DesignerSerializationVisibilityAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::DesignerSerializationVisibilityAttribute, "System.ComponentModel", "DesignerSerializationVisibilityAttribute");
+NEED_NO_BOX(System::ComponentModel::DesignerSerializationVisibilityAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::DesignerSerializationVisibilityAttribute, "System.ComponentModel", "DesignerSerializationVisibilityAttribute");

@@ -3,22 +3,21 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct CubemapFace;
 }
-namespace UnityEngine {
-class RenderTexture;
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace UnityEngine {
 class Texture;
 }
 namespace UnityEngine {
-class Material;
+class RenderTexture;
 }
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+namespace UnityEngine {
+class Material;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -69,11 +68,11 @@ constexpr explicit CubemapHelpers(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 /// @brief Field kCubemapHelpersShaderName offset 0
 static constexpr ::ConstString  kCubemapHelpersShaderName{u"Hidden/CubemapHelpers"};
 
-static ::UnityEngine::Material __declspec(property(get=__get__cubemapHelpersMaterial, put=__set__cubemapHelpersMaterial))  _cubemapHelpersMaterial;
+static UnityEngine::Material __declspec(property(get=__get__cubemapHelpersMaterial, put=__set__cubemapHelpersMaterial))  _cubemapHelpersMaterial;
 
-static void __set__cubemapHelpersMaterial(::UnityEngine::Material value) ;
+static void __set__cubemapHelpersMaterial(UnityEngine::Material value) ;
 
-static ::UnityEngine::Material __get__cubemapHelpersMaterial() ;
+static UnityEngine::Material __get__cubemapHelpersMaterial() ;
 
 static int32_t __declspec(property(get=__get__cubePropertyId, put=__set__cubePropertyId))  _cubePropertyId;
 
@@ -93,45 +92,44 @@ static constexpr int32_t  kCubemapDownsamplePass{0};
 /// @brief Field kCubemapTo2DTexturePass offset 0
 static constexpr int32_t  kCubemapTo2DTexturePass{1};
 
-static ::System::Collections::Generic::Dictionary_2<::UnityEngine::CubemapFace,int32_t> __declspec(property(get=__get__cubemapFaceToCubeFaceNumberDict, put=__set__cubemapFaceToCubeFaceNumberDict))  _cubemapFaceToCubeFaceNumberDict;
+static System::Collections::Generic::Dictionary_2<UnityEngine::CubemapFace,int32_t> __declspec(property(get=__get__cubemapFaceToCubeFaceNumberDict, put=__set__cubemapFaceToCubeFaceNumberDict))  _cubemapFaceToCubeFaceNumberDict;
 
-static void __set__cubemapFaceToCubeFaceNumberDict(::System::Collections::Generic::Dictionary_2<::UnityEngine::CubemapFace,int32_t> value) ;
+static void __set__cubemapFaceToCubeFaceNumberDict(System::Collections::Generic::Dictionary_2<UnityEngine::CubemapFace,int32_t> value) ;
 
-static ::System::Collections::Generic::Dictionary_2<::UnityEngine::CubemapFace,int32_t> __get__cubemapFaceToCubeFaceNumberDict() ;
+static System::Collections::Generic::Dictionary_2<UnityEngine::CubemapFace,int32_t> __get__cubemapFaceToCubeFaceNumberDict() ;
 
-static ::ArrayW<::UnityEngine::CubemapFace> __declspec(property(get=__get__cubemapFaces, put=__set__cubemapFaces))  _cubemapFaces;
+static ::ArrayW<UnityEngine::CubemapFace> __declspec(property(get=__get__cubemapFaces, put=__set__cubemapFaces))  _cubemapFaces;
 
-static void __set__cubemapFaces(::ArrayW<::UnityEngine::CubemapFace> value) ;
+static void __set__cubemapFaces(::ArrayW<UnityEngine::CubemapFace> value) ;
 
-static ::ArrayW<::UnityEngine::CubemapFace> __get__cubemapFaces() ;
+static ::ArrayW<UnityEngine::CubemapFace> __get__cubemapFaces() ;
 
 
 // Properties
 
-static ::UnityEngine::Material __declspec(property(get=get_cubemapHelpersMaterial))  cubemapHelpersMaterial;
+static UnityEngine::Material __declspec(property(get=get_cubemapHelpersMaterial))  cubemapHelpersMaterial;
 
 
 // Methods
 
 /// @brief Method get_cubemapHelpersMaterial addr 0x219b63c size 0x128 virtual false final false
-static ::UnityEngine::Material get_cubemapHelpersMaterial() ;
+static UnityEngine::Material get_cubemapHelpersMaterial() ;
 
 /// @brief Method Downsample addr 0x219b764 size 0x12c virtual false final false
-static void Downsample(::UnityEngine::Texture src, ::UnityEngine::RenderTexture dest) ;
+static void Downsample(UnityEngine::Texture src, UnityEngine::RenderTexture dest) ;
 
 /// @brief Method CreateDownsampledCubemap addr 0x219ba40 size 0x1ec virtual false final false
-static ::UnityEngine::RenderTexture CreateDownsampledCubemap(::UnityEngine::RenderTexture src, int32_t count) ;
+static UnityEngine::RenderTexture CreateDownsampledCubemap(UnityEngine::RenderTexture src, int32_t count) ;
 
 /// @brief Method Create2DTextureFromCubemap addr 0x219bc2c size 0x170 virtual false final false
-static ::UnityEngine::RenderTexture Create2DTextureFromCubemap(::UnityEngine::RenderTexture src) ;
+static UnityEngine::RenderTexture Create2DTextureFromCubemap(UnityEngine::RenderTexture src) ;
 
 /// @brief Method DrawCubemapFace addr 0x219b890 size 0x1b0 virtual false final false
-static void DrawCubemapFace(::UnityEngine::Texture cubemap, ::UnityEngine::CubemapFace cubemapFace) ;
+static void DrawCubemapFace(UnityEngine::Texture cubemap, UnityEngine::CubemapFace cubemapFace) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::CubemapHelpers);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CubemapHelpers, "", "CubemapHelpers");
+NEED_NO_BOX(GlobalNamespace::CubemapHelpers);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CubemapHelpers, "", "CubemapHelpers");

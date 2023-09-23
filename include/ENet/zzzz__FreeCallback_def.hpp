@@ -3,7 +3,6 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class AsyncCallback;
 }
@@ -20,7 +19,7 @@ namespace ENet {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15262))
 // CS Name: ENet.FreeCallback
-class CORDL_TYPE FreeCallback : public ::System::MulticastDelegate {
+class CORDL_TYPE FreeCallback : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr FreeCallback(FreeCallback const& ) noexcept = default;
 constexpr FreeCallback(FreeCallback&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FreeCallback(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit FreeCallback(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -66,15 +65,14 @@ explicit FreeCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::in
  void Invoke(::cordl_internals::intptr_t memory) ;
 
 /// @brief Method BeginInvoke addr 0x207c690 size 0x84 virtual true final false
- ::System::IAsyncResult BeginInvoke(::cordl_internals::intptr_t memory, ::System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
+ System::IAsyncResult BeginInvoke(::cordl_internals::intptr_t memory, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
 
 /// @brief Method EndInvoke addr 0x207c714 size 0xc virtual true final false
- void EndInvoke(::System::IAsyncResult result) ;
+ void EndInvoke(System::IAsyncResult result) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def ENet
-} // end anonymous namespace
-NEED_NO_BOX(::ENet::FreeCallback);
-DEFINE_IL2CPP_ARG_TYPE(::ENet::FreeCallback, "ENet", "FreeCallback");
+NEED_NO_BOX(ENet::FreeCallback);
+DEFINE_IL2CPP_ARG_TYPE(ENet::FreeCallback, "ENet", "FreeCallback");

@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 class GameObject;
 }
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8891))
 // CS Name: OVRDebugInfo
-class CORDL_TYPE OVRDebugInfo : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OVRDebugInfo : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr OVRDebugInfo(OVRDebugInfo const& ) noexcept = default;
 constexpr OVRDebugInfo(OVRDebugInfo&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OVRDebugInfo(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OVRDebugInfo(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -54,71 +53,71 @@ constexpr explicit OVRDebugInfo(void* ptr) noexcept : ::UnityEngine::MonoBehavio
 
 // Fields
 
- ::UnityEngine::GameObject __declspec(property(get=__get_debugUIManager, put=__set_debugUIManager))  debugUIManager;
+ UnityEngine::GameObject __declspec(property(get=__get_debugUIManager, put=__set_debugUIManager))  debugUIManager;
 
-constexpr void __set_debugUIManager(::UnityEngine::GameObject value) ;
+constexpr void __set_debugUIManager(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get_debugUIManager() const;
+constexpr UnityEngine::GameObject __get_debugUIManager() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get_debugUIObject, put=__set_debugUIObject))  debugUIObject;
+ UnityEngine::GameObject __declspec(property(get=__get_debugUIObject, put=__set_debugUIObject))  debugUIObject;
 
-constexpr void __set_debugUIObject(::UnityEngine::GameObject value) ;
+constexpr void __set_debugUIObject(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get_debugUIObject() const;
+constexpr UnityEngine::GameObject __get_debugUIObject() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get_riftPresent, put=__set_riftPresent))  riftPresent;
+ UnityEngine::GameObject __declspec(property(get=__get_riftPresent, put=__set_riftPresent))  riftPresent;
 
-constexpr void __set_riftPresent(::UnityEngine::GameObject value) ;
+constexpr void __set_riftPresent(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get_riftPresent() const;
+constexpr UnityEngine::GameObject __get_riftPresent() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get_fps, put=__set_fps))  fps;
+ UnityEngine::GameObject __declspec(property(get=__get_fps, put=__set_fps))  fps;
 
-constexpr void __set_fps(::UnityEngine::GameObject value) ;
+constexpr void __set_fps(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get_fps() const;
+constexpr UnityEngine::GameObject __get_fps() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get_ipd, put=__set_ipd))  ipd;
+ UnityEngine::GameObject __declspec(property(get=__get_ipd, put=__set_ipd))  ipd;
 
-constexpr void __set_ipd(::UnityEngine::GameObject value) ;
+constexpr void __set_ipd(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get_ipd() const;
+constexpr UnityEngine::GameObject __get_ipd() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get_fov, put=__set_fov))  fov;
+ UnityEngine::GameObject __declspec(property(get=__get_fov, put=__set_fov))  fov;
 
-constexpr void __set_fov(::UnityEngine::GameObject value) ;
+constexpr void __set_fov(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get_fov() const;
+constexpr UnityEngine::GameObject __get_fov() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get_height, put=__set_height))  height;
+ UnityEngine::GameObject __declspec(property(get=__get_height, put=__set_height))  height;
 
-constexpr void __set_height(::UnityEngine::GameObject value) ;
+constexpr void __set_height(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get_height() const;
+constexpr UnityEngine::GameObject __get_height() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get_depth, put=__set_depth))  depth;
+ UnityEngine::GameObject __declspec(property(get=__get_depth, put=__set_depth))  depth;
 
-constexpr void __set_depth(::UnityEngine::GameObject value) ;
+constexpr void __set_depth(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get_depth() const;
+constexpr UnityEngine::GameObject __get_depth() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get_resolutionEyeTexture, put=__set_resolutionEyeTexture))  resolutionEyeTexture;
+ UnityEngine::GameObject __declspec(property(get=__get_resolutionEyeTexture, put=__set_resolutionEyeTexture))  resolutionEyeTexture;
 
-constexpr void __set_resolutionEyeTexture(::UnityEngine::GameObject value) ;
+constexpr void __set_resolutionEyeTexture(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get_resolutionEyeTexture() const;
+constexpr UnityEngine::GameObject __get_resolutionEyeTexture() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get_latencies, put=__set_latencies))  latencies;
+ UnityEngine::GameObject __declspec(property(get=__get_latencies, put=__set_latencies))  latencies;
 
-constexpr void __set_latencies(::UnityEngine::GameObject value) ;
+constexpr void __set_latencies(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get_latencies() const;
+constexpr UnityEngine::GameObject __get_latencies() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get_texts, put=__set_texts))  texts;
+ UnityEngine::GameObject __declspec(property(get=__get_texts, put=__set_texts))  texts;
 
-constexpr void __set_texts(::UnityEngine::GameObject value) ;
+constexpr void __set_texts(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get_texts() const;
+constexpr UnityEngine::GameObject __get_texts() const;
 
  ::StringW __declspec(property(get=__get_strRiftPresent, put=__set_strRiftPresent))  strRiftPresent;
 
@@ -244,16 +243,16 @@ constexpr bool __get_showVRVars() const;
  void UpdateStrings() ;
 
 /// @brief Method RiftPresentGUI addr 0x261ff88 size 0x184 virtual false final false
- void RiftPresentGUI(::UnityEngine::GameObject guiMainOBj) ;
+ void RiftPresentGUI(UnityEngine::GameObject guiMainOBj) ;
 
 /// @brief Method UpdateDeviceDetection addr 0x261f53c size 0x34 virtual false final false
  void UpdateDeviceDetection() ;
 
 /// @brief Method VariableObjectManager addr 0x261f7e0 size 0x1ac virtual false final false
- ::UnityEngine::GameObject VariableObjectManager(::UnityEngine::GameObject gameObject, ::StringW name, float_t posY, ::StringW str, int32_t fontSize) ;
+ UnityEngine::GameObject VariableObjectManager(UnityEngine::GameObject gameObject, ::StringW name, float_t posY, ::StringW str, int32_t fontSize) ;
 
 /// @brief Method ComponentComposition addr 0x262010c size 0x338 virtual false final false
- ::UnityEngine::GameObject ComponentComposition(::UnityEngine::GameObject GO) ;
+ UnityEngine::GameObject ComponentComposition(UnityEngine::GameObject GO) ;
 
 /// @brief Method UpdateIPD addr 0x261f98c size 0xcc virtual false final false
  void UpdateIPD() ;
@@ -286,6 +285,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OVRDebugInfo);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRDebugInfo, "", "OVRDebugInfo");
+NEED_NO_BOX(GlobalNamespace::OVRDebugInfo);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDebugInfo, "", "OVRDebugInfo");

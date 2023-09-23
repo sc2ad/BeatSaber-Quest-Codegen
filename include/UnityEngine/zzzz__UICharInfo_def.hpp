@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 #include <cstddef>
-namespace {
 namespace UnityEngine {
 struct Vector2;
 }
@@ -19,8 +18,8 @@ namespace UnityEngine {
 struct CORDL_TYPE UICharInfo : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "cursorPos", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "charWidth", ty: "float_t", modifiers: "", def_value: None }]
-constexpr UICharInfo(::UnityEngine::Vector2 cursorPos, float_t charWidth) noexcept;
+// Ctor Parameters [CppParam { name: "cursorPos", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "charWidth", ty: "float_t", modifiers: "", def_value: None }]
+constexpr UICharInfo(UnityEngine::Vector2 cursorPos, float_t charWidth) noexcept;
 
 
                     constexpr UICharInfo(UICharInfo const&) = default;
@@ -53,11 +52,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_cursorPos, put=__set_cursorPos))  cursorPos;
+ UnityEngine::Vector2 __declspec(property(get=__get_cursorPos, put=__set_cursorPos))  cursorPos;
 
-constexpr void __set_cursorPos(::UnityEngine::Vector2 value) ;
+constexpr void __set_cursorPos(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_cursorPos() const;
+constexpr UnityEngine::Vector2 __get_cursorPos() const;
 
  float_t __declspec(property(get=__get_charWidth, put=__set_charWidth))  charWidth;
 
@@ -69,5 +68,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UICharInfo, "UnityEngine", "UICharInfo");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UICharInfo, "UnityEngine", "UICharInfo");

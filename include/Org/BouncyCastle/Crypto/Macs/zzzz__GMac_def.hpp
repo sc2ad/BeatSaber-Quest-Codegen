@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
 namespace Org::BouncyCastle::Crypto {
 class IMac;
 }
 namespace Org::BouncyCastle::Crypto::Modes {
 class GcmBlockCipher;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Macs {
@@ -27,8 +26,8 @@ namespace Org::BouncyCastle::Crypto::Macs {
 class CORDL_TYPE GMac : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IMac
-constexpr operator  ::Org::BouncyCastle::Crypto::IMac() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IMac
+constexpr operator  Org::BouncyCastle::Crypto::IMac() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -63,11 +62,11 @@ constexpr explicit GMac(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) 
 
 // Fields
 
- ::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher __declspec(property(get=__get_cipher, put=__set_cipher))  cipher;
+ Org::BouncyCastle::Crypto::Modes::GcmBlockCipher __declspec(property(get=__get_cipher, put=__set_cipher))  cipher;
 
-constexpr void __set_cipher(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher value) ;
+constexpr void __set_cipher(Org::BouncyCastle::Crypto::Modes::GcmBlockCipher value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher __get_cipher() const;
+constexpr Org::BouncyCastle::Crypto::Modes::GcmBlockCipher __get_cipher() const;
 
  int32_t __declspec(property(get=__get_macSizeBits, put=__set_macSizeBits))  macSizeBits;
 
@@ -83,20 +82,20 @@ constexpr int32_t __get_macSizeBits() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher", modifiers: "", def_value: None }]
-explicit GMac(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher cipher) ;
+// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::Modes::GcmBlockCipher", modifiers: "", def_value: None }]
+explicit GMac(Org::BouncyCastle::Crypto::Modes::GcmBlockCipher cipher) ;
 
 /// @brief Method .ctor addr 0xe80a6c size 0x30 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher cipher) ;
+ void _ctor(Org::BouncyCastle::Crypto::Modes::GcmBlockCipher cipher) ;
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher", modifiers: "", def_value: None }, CppParam { name: "macSizeBits", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GMac(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher cipher, int32_t macSizeBits) ;
+// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::Modes::GcmBlockCipher", modifiers: "", def_value: None }, CppParam { name: "macSizeBits", ty: "int32_t", modifiers: "", def_value: None }]
+explicit GMac(Org::BouncyCastle::Crypto::Modes::GcmBlockCipher cipher, int32_t macSizeBits) ;
 
 /// @brief Method .ctor addr 0xe80a9c size 0x30 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher cipher, int32_t macSizeBits) ;
+ void _ctor(Org::BouncyCastle::Crypto::Modes::GcmBlockCipher cipher, int32_t macSizeBits) ;
 
 /// @brief Method Init addr 0xe80acc size 0x188 virtual true final true
- void Init(::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method get_AlgorithmName addr 0xe80c54 size 0xc8 virtual true final true
  ::StringW get_AlgorithmName() ;
@@ -120,6 +119,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Macs
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Macs::GMac);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Macs::GMac, "Org.BouncyCastle.Crypto.Macs", "GMac");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Macs::GMac);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Macs::GMac, "Org.BouncyCastle.Crypto.Macs", "GMac");

@@ -5,21 +5,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-class AsyncCallback;
+namespace System::Xml {
+class XmlDownloadManager;
 }
 namespace System::IO {
 class Stream;
+}
+namespace System {
+class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
 }
 namespace System::IO {
 struct SeekOrigin;
-}
-namespace System::Xml {
-class XmlDownloadManager;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -31,7 +30,7 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3604))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11495))
 // CS Name: System.Xml.XmlRegisteredNonCachedStream
-class CORDL_TYPE XmlRegisteredNonCachedStream : public ::System::IO::Stream {
+class CORDL_TYPE XmlRegisteredNonCachedStream : public System::IO::Stream {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -46,7 +45,7 @@ constexpr XmlRegisteredNonCachedStream(XmlRegisteredNonCachedStream const& ) noe
 constexpr XmlRegisteredNonCachedStream(XmlRegisteredNonCachedStream&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XmlRegisteredNonCachedStream(void* ptr) noexcept : ::System::IO::Stream(ptr) {
+constexpr explicit XmlRegisteredNonCachedStream(void* ptr) noexcept : System::IO::Stream(ptr) {
 }
 
 
@@ -67,17 +66,17 @@ constexpr explicit XmlRegisteredNonCachedStream(void* ptr) noexcept : ::System::
 
 // Fields
 
- ::System::IO::Stream __declspec(property(get=__get_stream, put=__set_stream))  stream;
+ System::IO::Stream __declspec(property(get=__get_stream, put=__set_stream))  stream;
 
-constexpr void __set_stream(::System::IO::Stream value) ;
+constexpr void __set_stream(System::IO::Stream value) ;
 
-constexpr ::System::IO::Stream __get_stream() const;
+constexpr System::IO::Stream __get_stream() const;
 
- ::System::Xml::XmlDownloadManager __declspec(property(get=__get_downloadManager, put=__set_downloadManager))  downloadManager;
+ System::Xml::XmlDownloadManager __declspec(property(get=__get_downloadManager, put=__set_downloadManager))  downloadManager;
 
-constexpr void __set_downloadManager(::System::Xml::XmlDownloadManager value) ;
+constexpr void __set_downloadManager(System::Xml::XmlDownloadManager value) ;
 
-constexpr ::System::Xml::XmlDownloadManager __get_downloadManager() const;
+constexpr System::Xml::XmlDownloadManager __get_downloadManager() const;
 
  ::StringW __declspec(property(get=__get_host, put=__set_host))  host;
 
@@ -101,11 +100,11 @@ constexpr ::StringW __get_host() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "downloadManager", ty: "::System::Xml::XmlDownloadManager", modifiers: "", def_value: None }, CppParam { name: "host", ty: "::StringW", modifiers: "", def_value: None }]
-explicit XmlRegisteredNonCachedStream(::System::IO::Stream stream, ::System::Xml::XmlDownloadManager downloadManager, ::StringW host) ;
+// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "downloadManager", ty: "System::Xml::XmlDownloadManager", modifiers: "", def_value: None }, CppParam { name: "host", ty: "::StringW", modifiers: "", def_value: None }]
+explicit XmlRegisteredNonCachedStream(System::IO::Stream stream, System::Xml::XmlDownloadManager downloadManager, ::StringW host) ;
 
 /// @brief Method .ctor addr 0x27108e4 size 0x80 virtual false final false
- void _ctor(::System::IO::Stream stream, ::System::Xml::XmlDownloadManager downloadManager, ::StringW host) ;
+ void _ctor(System::IO::Stream stream, System::Xml::XmlDownloadManager downloadManager, ::StringW host) ;
 
 /// @brief Method Finalize addr 0x271172c size 0xa4 virtual true final false
  void Finalize() ;
@@ -114,16 +113,16 @@ explicit XmlRegisteredNonCachedStream(::System::IO::Stream stream, ::System::Xml
  void Dispose(bool disposing) ;
 
 /// @brief Method BeginRead addr 0x2711908 size 0x24 virtual true final false
- ::System::IAsyncResult BeginRead(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, ::System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType state) ;
+ System::IAsyncResult BeginRead(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType state) ;
 
 /// @brief Method BeginWrite addr 0x271192c size 0x24 virtual true final false
- ::System::IAsyncResult BeginWrite(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, ::System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType state) ;
+ System::IAsyncResult BeginWrite(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType state) ;
 
 /// @brief Method EndRead addr 0x2711950 size 0x24 virtual true final false
- int32_t EndRead(::System::IAsyncResult asyncResult) ;
+ int32_t EndRead(System::IAsyncResult asyncResult) ;
 
 /// @brief Method EndWrite addr 0x2711974 size 0x24 virtual true final false
- void EndWrite(::System::IAsyncResult asyncResult) ;
+ void EndWrite(System::IAsyncResult asyncResult) ;
 
 /// @brief Method Flush addr 0x2711998 size 0x24 virtual true final false
  void Flush() ;
@@ -135,7 +134,7 @@ explicit XmlRegisteredNonCachedStream(::System::IO::Stream stream, ::System::Xml
  int32_t ReadByte() ;
 
 /// @brief Method Seek addr 0x2711a04 size 0x24 virtual true final false
- int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin) ;
+ int64_t Seek(int64_t offset, System::IO::SeekOrigin origin) ;
 
 /// @brief Method SetLength addr 0x2711a28 size 0x24 virtual true final false
  void SetLength(int64_t value) ;
@@ -168,6 +167,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::XmlRegisteredNonCachedStream);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlRegisteredNonCachedStream, "System.Xml", "XmlRegisteredNonCachedStream");
+NEED_NO_BOX(System::Xml::XmlRegisteredNonCachedStream);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlRegisteredNonCachedStream, "System.Xml", "XmlRegisteredNonCachedStream");

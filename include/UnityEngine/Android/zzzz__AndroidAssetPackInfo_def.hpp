@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine::Android {
-struct AndroidAssetPackStatus;
-}
 namespace UnityEngine::Android {
 struct AndroidAssetPackError;
+}
+namespace UnityEngine::Android {
+struct AndroidAssetPackStatus;
 }
 // Forward declare root types
 namespace UnityEngine::Android {
@@ -63,11 +62,11 @@ constexpr void __set__name_k__BackingField(::StringW value) ;
 
 constexpr ::StringW __get__name_k__BackingField() const;
 
- ::UnityEngine::Android::AndroidAssetPackStatus __declspec(property(get=__get__status_k__BackingField, put=__set__status_k__BackingField))  _status_k__BackingField;
+ UnityEngine::Android::AndroidAssetPackStatus __declspec(property(get=__get__status_k__BackingField, put=__set__status_k__BackingField))  _status_k__BackingField;
 
-constexpr void __set__status_k__BackingField(::UnityEngine::Android::AndroidAssetPackStatus value) ;
+constexpr void __set__status_k__BackingField(UnityEngine::Android::AndroidAssetPackStatus value) ;
 
-constexpr ::UnityEngine::Android::AndroidAssetPackStatus __get__status_k__BackingField() const;
+constexpr UnityEngine::Android::AndroidAssetPackStatus __get__status_k__BackingField() const;
 
  uint64_t __declspec(property(get=__get__size_k__BackingField, put=__set__size_k__BackingField))  _size_k__BackingField;
 
@@ -87,25 +86,24 @@ constexpr void __set__transferProgress_k__BackingField(float_t value) ;
 
 constexpr float_t __get__transferProgress_k__BackingField() const;
 
- ::UnityEngine::Android::AndroidAssetPackError __declspec(property(get=__get__error_k__BackingField, put=__set__error_k__BackingField))  _error_k__BackingField;
+ UnityEngine::Android::AndroidAssetPackError __declspec(property(get=__get__error_k__BackingField, put=__set__error_k__BackingField))  _error_k__BackingField;
 
-constexpr void __set__error_k__BackingField(::UnityEngine::Android::AndroidAssetPackError value) ;
+constexpr void __set__error_k__BackingField(UnityEngine::Android::AndroidAssetPackError value) ;
 
-constexpr ::UnityEngine::Android::AndroidAssetPackError __get__error_k__BackingField() const;
+constexpr UnityEngine::Android::AndroidAssetPackError __get__error_k__BackingField() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "status", ty: "::UnityEngine::Android::AndroidAssetPackStatus", modifiers: "", def_value: None }, CppParam { name: "size", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "bytesDownloaded", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "transferProgress", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "error", ty: "::UnityEngine::Android::AndroidAssetPackError", modifiers: "", def_value: None }]
-explicit AndroidAssetPackInfo(::StringW name, ::UnityEngine::Android::AndroidAssetPackStatus status, uint64_t size, uint64_t bytesDownloaded, float_t transferProgress, ::UnityEngine::Android::AndroidAssetPackError error) ;
+// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "status", ty: "UnityEngine::Android::AndroidAssetPackStatus", modifiers: "", def_value: None }, CppParam { name: "size", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "bytesDownloaded", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "transferProgress", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "error", ty: "UnityEngine::Android::AndroidAssetPackError", modifiers: "", def_value: None }]
+explicit AndroidAssetPackInfo(::StringW name, UnityEngine::Android::AndroidAssetPackStatus status, uint64_t size, uint64_t bytesDownloaded, float_t transferProgress, UnityEngine::Android::AndroidAssetPackError error) ;
 
 /// @brief Method .ctor addr 0x2b16da4 size 0x64 virtual false final false
- void _ctor(::StringW name, ::UnityEngine::Android::AndroidAssetPackStatus status, uint64_t size, uint64_t bytesDownloaded, float_t transferProgress, ::UnityEngine::Android::AndroidAssetPackError error) ;
+ void _ctor(::StringW name, UnityEngine::Android::AndroidAssetPackStatus status, uint64_t size, uint64_t bytesDownloaded, float_t transferProgress, UnityEngine::Android::AndroidAssetPackError error) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Android
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Android::AndroidAssetPackInfo);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Android::AndroidAssetPackInfo, "UnityEngine.Android", "AndroidAssetPackInfo");
+NEED_NO_BOX(UnityEngine::Android::AndroidAssetPackInfo);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Android::AndroidAssetPackInfo, "UnityEngine.Android", "AndroidAssetPackInfo");

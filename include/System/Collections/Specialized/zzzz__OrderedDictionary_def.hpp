@@ -2,45 +2,44 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Collections {
-class Hashtable;
+class SerializationInfo;
 }
 namespace System {
 class Array;
 }
 namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System::Collections {
 class IDictionaryEnumerator;
 }
 namespace System::Collections {
-class IEnumerable;
+class IEnumerator;
+}
+namespace System::Collections {
+class IEqualityComparer;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
 class IDeserializationCallback;
 }
 namespace System::Collections {
-class ArrayList;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+class IDictionary;
 }
 namespace System::Collections {
-class IEqualityComparer;
+class ArrayList;
+}
+namespace System::Collections {
+class Hashtable;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
 }
 namespace System::Collections {
 struct DictionaryEntry;
@@ -50,10 +49,10 @@ namespace System::Collections::Specialized {
 class OrderedDictionary;
 }
 namespace System::Collections::Specialized {
-class ____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator;
+class System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator;
 }
 namespace System::Collections::Specialized {
-class ____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection;
+class System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection;
 }
 // Type: ::OrderedDictionaryEnumerator
 namespace System::Collections::Specialized {
@@ -61,43 +60,43 @@ namespace System::Collections::Specialized {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8365))
 // CS Name: System.Collections.Specialized.OrderedDictionary::OrderedDictionaryEnumerator
-class CORDL_TYPE ____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::IDictionaryEnumerator
-constexpr operator  ::System::Collections::IDictionaryEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IDictionaryEnumerator
+constexpr operator  System::Collections::IDictionaryEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator() = default;
+virtual ~System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator", modifiers: " const&", def_value: None }]
-constexpr ____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator(____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator", modifiers: " const&", def_value: None }]
+constexpr System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator(System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator", modifiers: "&&", def_value: None }]
-constexpr ____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator(____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator", modifiers: "&&", def_value: None }]
+constexpr System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator(System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator& operator=(std::nullptr_t) noexcept {
+  constexpr System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator& operator=(void* o) noexcept {
+  constexpr System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator& operator=(____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator&& o) noexcept = default;
-  constexpr ____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator& operator=(____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator const& o) noexcept = default;
+  constexpr System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator& operator=(System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator&& o) noexcept = default;
+  constexpr System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator& operator=(System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator const& o) noexcept = default;
                 
 
 
@@ -109,18 +108,18 @@ constexpr void __set__objectReturnType(int32_t value) ;
 
 constexpr int32_t __get__objectReturnType() const;
 
- ::System::Collections::IEnumerator __declspec(property(get=__get__arrayEnumerator, put=__set__arrayEnumerator))  _arrayEnumerator;
+ System::Collections::IEnumerator __declspec(property(get=__get__arrayEnumerator, put=__set__arrayEnumerator))  _arrayEnumerator;
 
-constexpr void __set__arrayEnumerator(::System::Collections::IEnumerator value) ;
+constexpr void __set__arrayEnumerator(System::Collections::IEnumerator value) ;
 
-constexpr ::System::Collections::IEnumerator __get__arrayEnumerator() const;
+constexpr System::Collections::IEnumerator __get__arrayEnumerator() const;
 
 
 // Properties
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_Current))  Current;
 
- ::System::Collections::DictionaryEntry __declspec(property(get=get_Entry))  Entry;
+ System::Collections::DictionaryEntry __declspec(property(get=get_Entry))  Entry;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_Key))  Key;
 
@@ -129,17 +128,17 @@ constexpr ::System::Collections::IEnumerator __get__arrayEnumerator() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "array", ty: "::System::Collections::ArrayList", modifiers: "", def_value: None }, CppParam { name: "objectReturnType", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator(::System::Collections::ArrayList array, int32_t objectReturnType) ;
+// Ctor Parameters [CppParam { name: "array", ty: "System::Collections::ArrayList", modifiers: "", def_value: None }, CppParam { name: "objectReturnType", ty: "int32_t", modifiers: "", def_value: None }]
+explicit System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator(System::Collections::ArrayList array, int32_t objectReturnType) ;
 
 /// @brief Method .ctor addr 0x27abb7c size 0x4c virtual false final false
- void _ctor(::System::Collections::ArrayList array, int32_t objectReturnType) ;
+ void _ctor(System::Collections::ArrayList array, int32_t objectReturnType) ;
 
 /// @brief Method get_Current addr 0x27ac1dc size 0x1ac virtual true final true
  ::bs_hook::Il2CppWrapperType get_Current() ;
 
 /// @brief Method get_Entry addr 0x27ac388 size 0x194 virtual true final true
- ::System::Collections::DictionaryEntry get_Entry() ;
+ System::Collections::DictionaryEntry get_Entry() ;
 
 /// @brief Method get_Key addr 0x27ac51c size 0xe4 virtual true final true
  ::bs_hook::Il2CppWrapperType get_Key() ;
@@ -163,53 +162,53 @@ namespace System::Collections::Specialized {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8366))
 // CS Name: System.Collections.Specialized.OrderedDictionary::OrderedDictionaryKeyValueCollection
-class CORDL_TYPE ____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::ICollection
-constexpr operator  ::System::Collections::ICollection() const noexcept;
+/// @brief Convert operator to System::Collections::ICollection
+constexpr operator  System::Collections::ICollection() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection() = default;
+virtual ~System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection", modifiers: " const&", def_value: None }]
-constexpr ____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection(____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection", modifiers: " const&", def_value: None }]
+constexpr System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection(System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection", modifiers: "&&", def_value: None }]
-constexpr ____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection(____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection", modifiers: "&&", def_value: None }]
+constexpr System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection(System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection& operator=(std::nullptr_t) noexcept {
+  constexpr System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection& operator=(void* o) noexcept {
+  constexpr System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection& operator=(____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection&& o) noexcept = default;
-  constexpr ____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection& operator=(____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection const& o) noexcept = default;
+  constexpr System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection& operator=(System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection&& o) noexcept = default;
+  constexpr System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection& operator=(System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Collections::ArrayList __declspec(property(get=__get__objects, put=__set__objects))  _objects;
+ System::Collections::ArrayList __declspec(property(get=__get__objects, put=__set__objects))  _objects;
 
-constexpr void __set__objects(::System::Collections::ArrayList value) ;
+constexpr void __set__objects(System::Collections::ArrayList value) ;
 
-constexpr ::System::Collections::ArrayList __get__objects() const;
+constexpr System::Collections::ArrayList __get__objects() const;
 
  bool __declspec(property(get=__get__isKeys, put=__set__isKeys))  _isKeys;
 
@@ -229,14 +228,14 @@ constexpr bool __get__isKeys() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "array", ty: "::System::Collections::ArrayList", modifiers: "", def_value: None }, CppParam { name: "isKeys", ty: "bool", modifiers: "", def_value: None }]
-explicit ____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection(::System::Collections::ArrayList array, bool isKeys) ;
+// Ctor Parameters [CppParam { name: "array", ty: "System::Collections::ArrayList", modifiers: "", def_value: None }, CppParam { name: "isKeys", ty: "bool", modifiers: "", def_value: None }]
+explicit System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection(System::Collections::ArrayList array, bool isKeys) ;
 
 /// @brief Method .ctor addr 0x27ab304 size 0x30 virtual false final false
- void _ctor(::System::Collections::ArrayList array, bool isKeys) ;
+ void _ctor(System::Collections::ArrayList array, bool isKeys) ;
 
 /// @brief Method System.Collections.ICollection.CopyTo addr 0x27ac828 size 0x3fc virtual true final true
- void System_Collections_ICollection_CopyTo(::System::Array array, int32_t index) ;
+ void System_Collections_ICollection_CopyTo(System::Array array, int32_t index) ;
 
 /// @brief Method System.Collections.ICollection.get_Count addr 0x27acc24 size 0x24 virtual true final true
  int32_t System_Collections_ICollection_get_Count() ;
@@ -248,7 +247,7 @@ explicit ____System__Collections__Specialized__OrderedDictionary__OrderedDiction
  ::bs_hook::Il2CppWrapperType System_Collections_ICollection_get_SyncRoot() ;
 
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x27acc74 size 0x7c virtual true final true
- ::System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
+ System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -263,24 +262,24 @@ namespace System::Collections::Specialized {
 class CORDL_TYPE OrderedDictionary : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using OrderedDictionaryKeyValueCollection = ::System::Collections::Specialized::____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection;
+using OrderedDictionaryKeyValueCollection = System::Collections::Specialized::System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection;
 
-using OrderedDictionaryEnumerator = ::System::Collections::Specialized::____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator;
+using OrderedDictionaryEnumerator = System::Collections::Specialized::System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator;
 
-/// @brief Convert operator to ::System::Collections::IDictionary
-constexpr operator  ::System::Collections::IDictionary() const noexcept;
+/// @brief Convert operator to System::Collections::IDictionary
+constexpr operator  System::Collections::IDictionary() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::ICollection
-constexpr operator  ::System::Collections::ICollection() const noexcept;
+/// @brief Convert operator to System::Collections::ICollection
+constexpr operator  System::Collections::ICollection() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
-/// @brief Convert operator to ::System::Runtime::Serialization::ISerializable
-constexpr operator  ::System::Runtime::Serialization::ISerializable() const noexcept;
+/// @brief Convert operator to System::Runtime::Serialization::ISerializable
+constexpr operator  System::Runtime::Serialization::ISerializable() const noexcept;
 
-/// @brief Convert operator to ::System::Runtime::Serialization::IDeserializationCallback
-constexpr operator  ::System::Runtime::Serialization::IDeserializationCallback() const noexcept;
+/// @brief Convert operator to System::Runtime::Serialization::IDeserializationCallback
+constexpr operator  System::Runtime::Serialization::IDeserializationCallback() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
@@ -315,17 +314,17 @@ constexpr explicit OrderedDictionary(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 
 // Fields
 
- ::System::Collections::ArrayList __declspec(property(get=__get__objectsArray, put=__set__objectsArray))  _objectsArray;
+ System::Collections::ArrayList __declspec(property(get=__get__objectsArray, put=__set__objectsArray))  _objectsArray;
 
-constexpr void __set__objectsArray(::System::Collections::ArrayList value) ;
+constexpr void __set__objectsArray(System::Collections::ArrayList value) ;
 
-constexpr ::System::Collections::ArrayList __get__objectsArray() const;
+constexpr System::Collections::ArrayList __get__objectsArray() const;
 
- ::System::Collections::Hashtable __declspec(property(get=__get__objectsTable, put=__set__objectsTable))  _objectsTable;
+ System::Collections::Hashtable __declspec(property(get=__get__objectsTable, put=__set__objectsTable))  _objectsTable;
 
-constexpr void __set__objectsTable(::System::Collections::Hashtable value) ;
+constexpr void __set__objectsTable(System::Collections::Hashtable value) ;
 
-constexpr ::System::Collections::Hashtable __get__objectsTable() const;
+constexpr System::Collections::Hashtable __get__objectsTable() const;
 
  int32_t __declspec(property(get=__get__initialCapacity, put=__set__initialCapacity))  _initialCapacity;
 
@@ -333,11 +332,11 @@ constexpr void __set__initialCapacity(int32_t value) ;
 
 constexpr int32_t __get__initialCapacity() const;
 
- ::System::Collections::IEqualityComparer __declspec(property(get=__get__comparer, put=__set__comparer))  _comparer;
+ System::Collections::IEqualityComparer __declspec(property(get=__get__comparer, put=__set__comparer))  _comparer;
 
-constexpr void __set__comparer(::System::Collections::IEqualityComparer value) ;
+constexpr void __set__comparer(System::Collections::IEqualityComparer value) ;
 
-constexpr ::System::Collections::IEqualityComparer __get__comparer() const;
+constexpr System::Collections::IEqualityComparer __get__comparer() const;
 
  bool __declspec(property(get=__get__readOnly, put=__set__readOnly))  _readOnly;
 
@@ -351,11 +350,11 @@ constexpr void __set__syncRoot(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get__syncRoot() const;
 
- ::System::Runtime::Serialization::SerializationInfo __declspec(property(get=__get__siInfo, put=__set__siInfo))  _siInfo;
+ System::Runtime::Serialization::SerializationInfo __declspec(property(get=__get__siInfo, put=__set__siInfo))  _siInfo;
 
-constexpr void __set__siInfo(::System::Runtime::Serialization::SerializationInfo value) ;
+constexpr void __set__siInfo(System::Runtime::Serialization::SerializationInfo value) ;
 
-constexpr ::System::Runtime::Serialization::SerializationInfo __get__siInfo() const;
+constexpr System::Runtime::Serialization::SerializationInfo __get__siInfo() const;
 
 
 // Properties
@@ -368,17 +367,17 @@ constexpr ::System::Runtime::Serialization::SerializationInfo __get__siInfo() co
 
  bool __declspec(property(get=System_Collections_ICollection_get_IsSynchronized))  System_Collections_ICollection_IsSynchronized;
 
- ::System::Collections::ICollection __declspec(property(get=get_Keys))  Keys;
+ System::Collections::ICollection __declspec(property(get=get_Keys))  Keys;
 
- ::System::Collections::ArrayList __declspec(property(get=get_objectsArray))  objectsArray;
+ System::Collections::ArrayList __declspec(property(get=get_objectsArray))  objectsArray;
 
- ::System::Collections::Hashtable __declspec(property(get=get_objectsTable))  objectsTable;
+ System::Collections::Hashtable __declspec(property(get=get_objectsTable))  objectsTable;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=System_Collections_ICollection_get_SyncRoot))  System_Collections_ICollection_SyncRoot;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_Item, put=set_Item))  Item;
 
- ::System::Collections::ICollection __declspec(property(get=get_Values))  Values;
+ System::Collections::ICollection __declspec(property(get=get_Values))  Values;
 
 
 // Methods
@@ -395,17 +394,17 @@ explicit OrderedDictionary(int32_t capacity) ;
 /// @brief Method .ctor addr 0x27ab154 size 0x2c virtual false final false
  void _ctor(int32_t capacity) ;
 
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "comparer", ty: "::System::Collections::IEqualityComparer", modifiers: "", def_value: None }]
-explicit OrderedDictionary(int32_t capacity, ::System::Collections::IEqualityComparer comparer) ;
+// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "comparer", ty: "System::Collections::IEqualityComparer", modifiers: "", def_value: None }]
+explicit OrderedDictionary(int32_t capacity, System::Collections::IEqualityComparer comparer) ;
 
 /// @brief Method .ctor addr 0x27ab180 size 0x30 virtual false final false
- void _ctor(int32_t capacity, ::System::Collections::IEqualityComparer comparer) ;
+ void _ctor(int32_t capacity, System::Collections::IEqualityComparer comparer) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit OrderedDictionary(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit OrderedDictionary(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x27ab1b0 size 0x28 virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method get_Count addr 0x27ab1d8 size 0x24 virtual true final true
  int32_t get_Count() ;
@@ -420,13 +419,13 @@ explicit OrderedDictionary(::System::Runtime::Serialization::SerializationInfo i
  bool System_Collections_ICollection_get_IsSynchronized() ;
 
 /// @brief Method get_Keys addr 0x27ab288 size 0x7c virtual true final true
- ::System::Collections::ICollection get_Keys() ;
+ System::Collections::ICollection get_Keys() ;
 
 /// @brief Method get_objectsArray addr 0x27ab1fc size 0x74 virtual false final false
- ::System::Collections::ArrayList get_objectsArray() ;
+ System::Collections::ArrayList get_objectsArray() ;
 
 /// @brief Method get_objectsTable addr 0x27ab334 size 0x84 virtual false final false
- ::System::Collections::Hashtable get_objectsTable() ;
+ System::Collections::Hashtable get_objectsTable() ;
 
 /// @brief Method System.Collections.ICollection.get_SyncRoot addr 0x27ab3b8 size 0x7c virtual true final true
  ::bs_hook::Il2CppWrapperType System_Collections_ICollection_get_SyncRoot() ;
@@ -438,7 +437,7 @@ explicit OrderedDictionary(::System::Runtime::Serialization::SerializationInfo i
  void set_Item(::bs_hook::Il2CppWrapperType key, ::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method get_Values addr 0x27ab888 size 0x78 virtual true final true
- ::System::Collections::ICollection get_Values() ;
+ System::Collections::ICollection get_Values() ;
 
 /// @brief Method Add addr 0x27ab760 size 0x128 virtual true final true
  void Add(::bs_hook::Il2CppWrapperType key, ::bs_hook::Il2CppWrapperType value) ;
@@ -450,7 +449,7 @@ explicit OrderedDictionary(::System::Runtime::Serialization::SerializationInfo i
  bool Contains(::bs_hook::Il2CppWrapperType key) ;
 
 /// @brief Method CopyTo addr 0x27ab9c4 size 0x3c virtual true final true
- void CopyTo(::System::Array array, int32_t index) ;
+ void CopyTo(System::Array array, int32_t index) ;
 
 /// @brief Method IndexOfKey addr 0x27ab5e0 size 0x180 virtual false final false
  int32_t IndexOfKey(::bs_hook::Il2CppWrapperType key) ;
@@ -459,13 +458,13 @@ explicit OrderedDictionary(::System::Runtime::Serialization::SerializationInfo i
  void Remove(::bs_hook::Il2CppWrapperType key) ;
 
 /// @brief Method GetEnumerator addr 0x27abb08 size 0x74 virtual true final false
- ::System::Collections::IDictionaryEnumerator GetEnumerator() ;
+ System::Collections::IDictionaryEnumerator GetEnumerator() ;
 
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x27abbc8 size 0x74 virtual true final true
- ::System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
+ System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
 /// @brief Method GetObjectData addr 0x27abc3c size 0x1d8 virtual true final false
- void GetObjectData(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void GetObjectData(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization addr 0x27abe14 size 0x10 virtual true final true
  void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::bs_hook::Il2CppWrapperType sender) ;
@@ -477,10 +476,9 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Collections::Specialized
-} // end anonymous namespace
-NEED_NO_BOX(::System::Collections::Specialized::OrderedDictionary);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Specialized::OrderedDictionary, "System.Collections.Specialized", "OrderedDictionary");
-NEED_NO_BOX(::System::Collections::Specialized::____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Specialized::____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator, "System.Collections.Specialized", "OrderedDictionary/OrderedDictionaryEnumerator");
-NEED_NO_BOX(::System::Collections::Specialized::____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Specialized::____System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection, "System.Collections.Specialized", "OrderedDictionary/OrderedDictionaryKeyValueCollection");
+NEED_NO_BOX(System::Collections::Specialized::OrderedDictionary);
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::OrderedDictionary, "System.Collections.Specialized", "OrderedDictionary");
+NEED_NO_BOX(System::Collections::Specialized::System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator);
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator, "System.Collections.Specialized", "OrderedDictionary/OrderedDictionaryEnumerator");
+NEED_NO_BOX(System::Collections::Specialized::System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection);
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection, "System.Collections.Specialized", "OrderedDictionary/OrderedDictionaryKeyValueCollection");

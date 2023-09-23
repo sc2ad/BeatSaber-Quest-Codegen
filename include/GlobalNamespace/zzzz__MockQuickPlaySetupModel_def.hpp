@@ -1,19 +1,18 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace GlobalNamespace {
-class QuickPlaySetupData;
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
-namespace System::Threading {
-struct CancellationToken;
-}
 namespace GlobalNamespace {
 class IQuickPlaySetupModel;
+}
+namespace GlobalNamespace {
+class QuickPlaySetupData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,8 +27,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE MockQuickPlaySetupModel : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IQuickPlaySetupModel
-constexpr operator  ::GlobalNamespace::IQuickPlaySetupModel() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IQuickPlaySetupModel
+constexpr operator  GlobalNamespace::IQuickPlaySetupModel() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -64,17 +63,17 @@ constexpr explicit MockQuickPlaySetupModel(void* ptr) noexcept : ::bs_hook::Il2C
 
 // Fields
 
- ::GlobalNamespace::QuickPlaySetupData __declspec(property(get=__get__quickPlaySetupData, put=__set__quickPlaySetupData))  _quickPlaySetupData;
+ GlobalNamespace::QuickPlaySetupData __declspec(property(get=__get__quickPlaySetupData, put=__set__quickPlaySetupData))  _quickPlaySetupData;
 
-constexpr void __set__quickPlaySetupData(::GlobalNamespace::QuickPlaySetupData value) ;
+constexpr void __set__quickPlaySetupData(GlobalNamespace::QuickPlaySetupData value) ;
 
-constexpr ::GlobalNamespace::QuickPlaySetupData __get__quickPlaySetupData() const;
+constexpr GlobalNamespace::QuickPlaySetupData __get__quickPlaySetupData() const;
 
 
 // Methods
 
 /// @brief Method GetQuickPlaySetupAsync addr 0x20efa0c size 0x70 virtual true final true
- ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData> GetQuickPlaySetupAsync(::System::Threading::CancellationToken cancellationToken) ;
+ System::Threading::Tasks::Task_1<GlobalNamespace::QuickPlaySetupData> GetQuickPlaySetupAsync(System::Threading::CancellationToken cancellationToken) ;
 
 // Ctor Parameters []
 explicit MockQuickPlaySetupModel() ;
@@ -86,6 +85,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MockQuickPlaySetupModel);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MockQuickPlaySetupModel, "", "MockQuickPlaySetupModel");
+NEED_NO_BOX(GlobalNamespace::MockQuickPlaySetupModel);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockQuickPlaySetupModel, "", "MockQuickPlaySetupModel");

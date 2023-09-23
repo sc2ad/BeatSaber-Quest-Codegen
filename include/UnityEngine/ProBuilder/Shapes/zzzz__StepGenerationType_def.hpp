@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {
 struct StepGenerationType;
@@ -67,14 +66,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Height offset 0
-static ::UnityEngine::ProBuilder::Shapes::StepGenerationType const Height;
+static UnityEngine::ProBuilder::Shapes::StepGenerationType const Height;
 
 /// @brief Field Count offset 0
-static ::UnityEngine::ProBuilder::Shapes::StepGenerationType const Count;
+static UnityEngine::ProBuilder::Shapes::StepGenerationType const Count;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder::Shapes
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Shapes::StepGenerationType, "UnityEngine.ProBuilder.Shapes", "StepGenerationType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Shapes::StepGenerationType, "UnityEngine.ProBuilder.Shapes", "StepGenerationType");

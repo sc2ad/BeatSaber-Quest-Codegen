@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace System::ComponentModel {
 class ProvidePropertyAttribute;
@@ -13,7 +12,7 @@ namespace System::ComponentModel {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8298))
 // CS Name: System.ComponentModel.ProvidePropertyAttribute
-class CORDL_TYPE ProvidePropertyAttribute : public ::System::Attribute {
+class CORDL_TYPE ProvidePropertyAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr ProvidePropertyAttribute(ProvidePropertyAttribute const& ) noexcept = 
 constexpr ProvidePropertyAttribute(ProvidePropertyAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ProvidePropertyAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit ProvidePropertyAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -81,6 +80,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::ProvidePropertyAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::ProvidePropertyAttribute, "System.ComponentModel", "ProvidePropertyAttribute");
+NEED_NO_BOX(System::ComponentModel::ProvidePropertyAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::ProvidePropertyAttribute, "System.ComponentModel", "ProvidePropertyAttribute");

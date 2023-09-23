@@ -3,12 +3,11 @@
 #include "GlobalNamespace/zzzz__BeatmapObjectData_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-struct NoteLineLayer;
-}
 namespace GlobalNamespace {
 class BeatmapDataItem;
+}
+namespace GlobalNamespace {
+struct NoteLineLayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,7 +19,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14932))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14942))
 // CS Name: ObstacleData
-class CORDL_TYPE ObstacleData : public ::GlobalNamespace::BeatmapObjectData {
+class CORDL_TYPE ObstacleData : public GlobalNamespace::BeatmapObjectData {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr ObstacleData(ObstacleData const& ) noexcept = default;
 constexpr ObstacleData(ObstacleData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ObstacleData(void* ptr) noexcept : ::GlobalNamespace::BeatmapObjectData(ptr) {
+constexpr explicit ObstacleData(void* ptr) noexcept : GlobalNamespace::BeatmapObjectData(ptr) {
 }
 
 
@@ -62,11 +61,11 @@ constexpr void __set__lineIndex_k__BackingField(int32_t value) ;
 
 constexpr int32_t __get__lineIndex_k__BackingField() const;
 
- ::GlobalNamespace::NoteLineLayer __declspec(property(get=__get__lineLayer_k__BackingField, put=__set__lineLayer_k__BackingField))  _lineLayer_k__BackingField;
+ GlobalNamespace::NoteLineLayer __declspec(property(get=__get__lineLayer_k__BackingField, put=__set__lineLayer_k__BackingField))  _lineLayer_k__BackingField;
 
-constexpr void __set__lineLayer_k__BackingField(::GlobalNamespace::NoteLineLayer value) ;
+constexpr void __set__lineLayer_k__BackingField(GlobalNamespace::NoteLineLayer value) ;
 
-constexpr ::GlobalNamespace::NoteLineLayer __get__lineLayer_k__BackingField() const;
+constexpr GlobalNamespace::NoteLineLayer __get__lineLayer_k__BackingField() const;
 
  float_t __declspec(property(get=__get__duration_k__BackingField, put=__set__duration_k__BackingField))  _duration_k__BackingField;
 
@@ -91,7 +90,7 @@ constexpr int32_t __get__height_k__BackingField() const;
 
  int32_t __declspec(property(get=get_lineIndex, put=set_lineIndex))  lineIndex;
 
- ::GlobalNamespace::NoteLineLayer __declspec(property(get=get_lineLayer, put=set_lineLayer))  lineLayer;
+ GlobalNamespace::NoteLineLayer __declspec(property(get=get_lineLayer, put=set_lineLayer))  lineLayer;
 
  float_t __declspec(property(get=get_duration, put=set_duration))  duration;
 
@@ -109,10 +108,10 @@ constexpr int32_t __get__height_k__BackingField() const;
  void set_lineIndex(int32_t value) ;
 
 /// @brief Method get_lineLayer addr 0xd9491c size 0x8 virtual false final false
- ::GlobalNamespace::NoteLineLayer get_lineLayer() ;
+ GlobalNamespace::NoteLineLayer get_lineLayer() ;
 
 /// @brief Method set_lineLayer addr 0xd94924 size 0x8 virtual false final false
- void set_lineLayer(::GlobalNamespace::NoteLineLayer value) ;
+ void set_lineLayer(GlobalNamespace::NoteLineLayer value) ;
 
 /// @brief Method get_duration addr 0xd9492c size 0x8 virtual false final false
  float_t get_duration() ;
@@ -132,17 +131,17 @@ constexpr int32_t __get__height_k__BackingField() const;
 /// @brief Method set_height addr 0xd94954 size 0x8 virtual false final false
  void set_height(int32_t value) ;
 
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "lineIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lineLayer", ty: "::GlobalNamespace::NoteLineLayer", modifiers: "", def_value: None }, CppParam { name: "duration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ObstacleData(float_t time, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, float_t duration, int32_t width, int32_t height) ;
+// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "lineIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lineLayer", ty: "GlobalNamespace::NoteLineLayer", modifiers: "", def_value: None }, CppParam { name: "duration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }]
+explicit ObstacleData(float_t time, int32_t lineIndex, GlobalNamespace::NoteLineLayer lineLayer, float_t duration, int32_t width, int32_t height) ;
 
 /// @brief Method .ctor addr 0xd9495c size 0x68 virtual false final false
- void _ctor(float_t time, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, float_t duration, int32_t width, int32_t height) ;
+ void _ctor(float_t time, int32_t lineIndex, GlobalNamespace::NoteLineLayer lineLayer, float_t duration, int32_t width, int32_t height) ;
 
 /// @brief Method UpdateDuration addr 0xd949c4 size 0x8 virtual false final false
  void UpdateDuration(float_t duration) ;
 
 /// @brief Method GetCopy addr 0xd949cc size 0x9c virtual true final false
- ::GlobalNamespace::BeatmapDataItem GetCopy() ;
+ GlobalNamespace::BeatmapDataItem GetCopy() ;
 
 /// @brief Method Mirror addr 0xd94a68 size 0x18 virtual true final false
  void Mirror(int32_t lineCount) ;
@@ -151,6 +150,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ObstacleData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ObstacleData, "", "ObstacleData");
+NEED_NO_BOX(GlobalNamespace::ObstacleData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleData, "", "ObstacleData");

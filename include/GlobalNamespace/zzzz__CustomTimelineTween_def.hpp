@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine {
 class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6063))
 // CS Name: CustomTimelineTween
-class CORDL_TYPE CustomTimelineTween : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE CustomTimelineTween : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr CustomTimelineTween(CustomTimelineTween const& ) noexcept = default;
 constexpr CustomTimelineTween(CustomTimelineTween&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CustomTimelineTween(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit CustomTimelineTween(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -55,17 +54,17 @@ constexpr explicit CustomTimelineTween(void* ptr) noexcept : ::UnityEngine::Mono
 
 // Fields
 
- ::ArrayW<::UnityEngine::Transform> __declspec(property(get=__get_transforms, put=__set_transforms))  transforms;
+ ::ArrayW<UnityEngine::Transform> __declspec(property(get=__get_transforms, put=__set_transforms))  transforms;
 
-constexpr void __set_transforms(::ArrayW<::UnityEngine::Transform> value) ;
+constexpr void __set_transforms(::ArrayW<UnityEngine::Transform> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Transform> __get_transforms() const;
+constexpr ::ArrayW<UnityEngine::Transform> __get_transforms() const;
 
- ::ArrayW<::UnityEngine::Vector3> __declspec(property(get=__get_startPositions, put=__set_startPositions))  startPositions;
+ ::ArrayW<UnityEngine::Vector3> __declspec(property(get=__get_startPositions, put=__set_startPositions))  startPositions;
 
-constexpr void __set_startPositions(::ArrayW<::UnityEngine::Vector3> value) ;
+constexpr void __set_startPositions(::ArrayW<UnityEngine::Vector3> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector3> __get_startPositions() const;
+constexpr ::ArrayW<UnityEngine::Vector3> __get_startPositions() const;
 
 
 // Methods
@@ -83,6 +82,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::CustomTimelineTween);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CustomTimelineTween, "", "CustomTimelineTween");
+NEED_NO_BOX(GlobalNamespace::CustomTimelineTween);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomTimelineTween, "", "CustomTimelineTween");

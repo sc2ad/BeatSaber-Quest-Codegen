@@ -3,7 +3,6 @@
 #include "System/Runtime/Remoting/Messaging/zzzz__MessageDictionary_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Runtime::Remoting::Messaging {
 class IMethodReturnMessage;
 }
@@ -17,7 +16,7 @@ namespace System::Runtime::Remoting::Messaging {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3173))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3175))
 // CS Name: System.Runtime.Remoting.Messaging.MethodReturnDictionary
-class CORDL_TYPE MethodReturnDictionary : public ::System::Runtime::Remoting::Messaging::MessageDictionary {
+class CORDL_TYPE MethodReturnDictionary : public System::Runtime::Remoting::Messaging::MessageDictionary {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr MethodReturnDictionary(MethodReturnDictionary const& ) noexcept = defa
 constexpr MethodReturnDictionary(MethodReturnDictionary&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MethodReturnDictionary(void* ptr) noexcept : ::System::Runtime::Remoting::Messaging::MessageDictionary(ptr) {
+constexpr explicit MethodReturnDictionary(void* ptr) noexcept : System::Runtime::Remoting::Messaging::MessageDictionary(ptr) {
 }
 
 
@@ -68,16 +67,15 @@ static ::ArrayW<::StringW> __get_InternalExceptionKeys() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "message", ty: "::System::Runtime::Remoting::Messaging::IMethodReturnMessage", modifiers: "", def_value: None }]
-explicit MethodReturnDictionary(::System::Runtime::Remoting::Messaging::IMethodReturnMessage message) ;
+// Ctor Parameters [CppParam { name: "message", ty: "System::Runtime::Remoting::Messaging::IMethodReturnMessage", modifiers: "", def_value: None }]
+explicit MethodReturnDictionary(System::Runtime::Remoting::Messaging::IMethodReturnMessage message) ;
 
 /// @brief Method .ctor addr 0x2344588 size 0xfc virtual false final false
- void _ctor(::System::Runtime::Remoting::Messaging::IMethodReturnMessage message) ;
+ void _ctor(System::Runtime::Remoting::Messaging::IMethodReturnMessage message) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Messaging
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Messaging::MethodReturnDictionary);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::MethodReturnDictionary, "System.Runtime.Remoting.Messaging", "MethodReturnDictionary");
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::MethodReturnDictionary);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::MethodReturnDictionary, "System.Runtime.Remoting.Messaging", "MethodReturnDictionary");

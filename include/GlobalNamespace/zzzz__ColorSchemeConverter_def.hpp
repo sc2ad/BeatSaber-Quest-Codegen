@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace GlobalNamespace {
 struct ColorSchemeNetSerializable;
 }
@@ -55,12 +54,11 @@ constexpr explicit ColorSchemeConverter(void* ptr) noexcept : ::bs_hook::Il2CppW
 // Methods
 
 /// @brief Method FromNetSerializable addr 0x2191fa4 size 0x20c virtual false final false
-static ::GlobalNamespace::ColorScheme FromNetSerializable(::GlobalNamespace::ColorSchemeNetSerializable serialized) ;
+static GlobalNamespace::ColorScheme FromNetSerializable(GlobalNamespace::ColorSchemeNetSerializable serialized) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ColorSchemeConverter);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ColorSchemeConverter, "", "ColorSchemeConverter");
+NEED_NO_BOX(GlobalNamespace::ColorSchemeConverter);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeConverter, "", "ColorSchemeConverter");

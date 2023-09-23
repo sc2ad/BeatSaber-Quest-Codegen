@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::Runtime::CompilerServices {
 struct Ephemeron;
 }
@@ -78,7 +77,7 @@ static int32_t GetMaxGeneration() ;
 static void InternalCollect(int32_t generation) ;
 
 /// @brief Method register_ephemeron_array addr 0x24797d4 size 0x4 virtual false final false
-static void register_ephemeron_array(::ArrayW<::System::Runtime::CompilerServices::Ephemeron> array) ;
+static void register_ephemeron_array(::ArrayW<System::Runtime::CompilerServices::Ephemeron> array) ;
 
 /// @brief Method get_ephemeron_tombstone addr 0x24797d8 size 0x4 virtual false final false
 static ::bs_hook::Il2CppWrapperType get_ephemeron_tombstone() ;
@@ -114,6 +113,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::GC);
-DEFINE_IL2CPP_ARG_TYPE(::System::GC, "System", "GC");
+NEED_NO_BOX(System::GC);
+DEFINE_IL2CPP_ARG_TYPE(System::GC, "System", "GC");

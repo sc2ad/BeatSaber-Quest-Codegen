@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace TMPro {
 struct MarkupTag;
@@ -191,386 +190,385 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field BOLD offset 0
-static ::TMPro::MarkupTag const BOLD;
+static TMPro::MarkupTag const BOLD;
 
 /// @brief Field SLASH_BOLD offset 0
-static ::TMPro::MarkupTag const SLASH_BOLD;
+static TMPro::MarkupTag const SLASH_BOLD;
 
 /// @brief Field ITALIC offset 0
-static ::TMPro::MarkupTag const ITALIC;
+static TMPro::MarkupTag const ITALIC;
 
 /// @brief Field SLASH_ITALIC offset 0
-static ::TMPro::MarkupTag const SLASH_ITALIC;
+static TMPro::MarkupTag const SLASH_ITALIC;
 
 /// @brief Field UNDERLINE offset 0
-static ::TMPro::MarkupTag const UNDERLINE;
+static TMPro::MarkupTag const UNDERLINE;
 
 /// @brief Field SLASH_UNDERLINE offset 0
-static ::TMPro::MarkupTag const SLASH_UNDERLINE;
+static TMPro::MarkupTag const SLASH_UNDERLINE;
 
 /// @brief Field STRIKETHROUGH offset 0
-static ::TMPro::MarkupTag const STRIKETHROUGH;
+static TMPro::MarkupTag const STRIKETHROUGH;
 
 /// @brief Field SLASH_STRIKETHROUGH offset 0
-static ::TMPro::MarkupTag const SLASH_STRIKETHROUGH;
+static TMPro::MarkupTag const SLASH_STRIKETHROUGH;
 
 /// @brief Field MARK offset 0
-static ::TMPro::MarkupTag const MARK;
+static TMPro::MarkupTag const MARK;
 
 /// @brief Field SLASH_MARK offset 0
-static ::TMPro::MarkupTag const SLASH_MARK;
+static TMPro::MarkupTag const SLASH_MARK;
 
 /// @brief Field SUBSCRIPT offset 0
-static ::TMPro::MarkupTag const SUBSCRIPT;
+static TMPro::MarkupTag const SUBSCRIPT;
 
 /// @brief Field SLASH_SUBSCRIPT offset 0
-static ::TMPro::MarkupTag const SLASH_SUBSCRIPT;
+static TMPro::MarkupTag const SLASH_SUBSCRIPT;
 
 /// @brief Field SUPERSCRIPT offset 0
-static ::TMPro::MarkupTag const SUPERSCRIPT;
+static TMPro::MarkupTag const SUPERSCRIPT;
 
 /// @brief Field SLASH_SUPERSCRIPT offset 0
-static ::TMPro::MarkupTag const SLASH_SUPERSCRIPT;
+static TMPro::MarkupTag const SLASH_SUPERSCRIPT;
 
 /// @brief Field COLOR offset 0
-static ::TMPro::MarkupTag const COLOR;
+static TMPro::MarkupTag const COLOR;
 
 /// @brief Field SLASH_COLOR offset 0
-static ::TMPro::MarkupTag const SLASH_COLOR;
+static TMPro::MarkupTag const SLASH_COLOR;
 
 /// @brief Field ALPHA offset 0
-static ::TMPro::MarkupTag const ALPHA;
+static TMPro::MarkupTag const ALPHA;
 
 /// @brief Field A offset 0
-static ::TMPro::MarkupTag const A;
+static TMPro::MarkupTag const A;
 
 /// @brief Field SLASH_A offset 0
-static ::TMPro::MarkupTag const SLASH_A;
+static TMPro::MarkupTag const SLASH_A;
 
 /// @brief Field SIZE offset 0
-static ::TMPro::MarkupTag const SIZE;
+static TMPro::MarkupTag const SIZE;
 
 /// @brief Field SLASH_SIZE offset 0
-static ::TMPro::MarkupTag const SLASH_SIZE;
+static TMPro::MarkupTag const SLASH_SIZE;
 
 /// @brief Field SPRITE offset 0
-static ::TMPro::MarkupTag const SPRITE;
+static TMPro::MarkupTag const SPRITE;
 
 /// @brief Field NO_BREAK offset 0
-static ::TMPro::MarkupTag const NO_BREAK;
+static TMPro::MarkupTag const NO_BREAK;
 
 /// @brief Field SLASH_NO_BREAK offset 0
-static ::TMPro::MarkupTag const SLASH_NO_BREAK;
+static TMPro::MarkupTag const SLASH_NO_BREAK;
 
 /// @brief Field STYLE offset 0
-static ::TMPro::MarkupTag const STYLE;
+static TMPro::MarkupTag const STYLE;
 
 /// @brief Field SLASH_STYLE offset 0
-static ::TMPro::MarkupTag const SLASH_STYLE;
+static TMPro::MarkupTag const SLASH_STYLE;
 
 /// @brief Field FONT offset 0
-static ::TMPro::MarkupTag const FONT;
+static TMPro::MarkupTag const FONT;
 
 /// @brief Field SLASH_FONT offset 0
-static ::TMPro::MarkupTag const SLASH_FONT;
+static TMPro::MarkupTag const SLASH_FONT;
 
 /// @brief Field SLASH_MATERIAL offset 0
-static ::TMPro::MarkupTag const SLASH_MATERIAL;
+static TMPro::MarkupTag const SLASH_MATERIAL;
 
 /// @brief Field LINK offset 0
-static ::TMPro::MarkupTag const LINK;
+static TMPro::MarkupTag const LINK;
 
 /// @brief Field SLASH_LINK offset 0
-static ::TMPro::MarkupTag const SLASH_LINK;
+static TMPro::MarkupTag const SLASH_LINK;
 
 /// @brief Field FONT_WEIGHT offset 0
-static ::TMPro::MarkupTag const FONT_WEIGHT;
+static TMPro::MarkupTag const FONT_WEIGHT;
 
 /// @brief Field SLASH_FONT_WEIGHT offset 0
-static ::TMPro::MarkupTag const SLASH_FONT_WEIGHT;
+static TMPro::MarkupTag const SLASH_FONT_WEIGHT;
 
 /// @brief Field NO_PARSE offset 0
-static ::TMPro::MarkupTag const NO_PARSE;
+static TMPro::MarkupTag const NO_PARSE;
 
 /// @brief Field SLASH_NO_PARSE offset 0
-static ::TMPro::MarkupTag const SLASH_NO_PARSE;
+static TMPro::MarkupTag const SLASH_NO_PARSE;
 
 /// @brief Field POSITION offset 0
-static ::TMPro::MarkupTag const POSITION;
+static TMPro::MarkupTag const POSITION;
 
 /// @brief Field SLASH_POSITION offset 0
-static ::TMPro::MarkupTag const SLASH_POSITION;
+static TMPro::MarkupTag const SLASH_POSITION;
 
 /// @brief Field VERTICAL_OFFSET offset 0
-static ::TMPro::MarkupTag const VERTICAL_OFFSET;
+static TMPro::MarkupTag const VERTICAL_OFFSET;
 
 /// @brief Field SLASH_VERTICAL_OFFSET offset 0
-static ::TMPro::MarkupTag const SLASH_VERTICAL_OFFSET;
+static TMPro::MarkupTag const SLASH_VERTICAL_OFFSET;
 
 /// @brief Field SPACE offset 0
-static ::TMPro::MarkupTag const SPACE;
+static TMPro::MarkupTag const SPACE;
 
 /// @brief Field SLASH_SPACE offset 0
-static ::TMPro::MarkupTag const SLASH_SPACE;
+static TMPro::MarkupTag const SLASH_SPACE;
 
 /// @brief Field PAGE offset 0
-static ::TMPro::MarkupTag const PAGE;
+static TMPro::MarkupTag const PAGE;
 
 /// @brief Field SLASH_PAGE offset 0
-static ::TMPro::MarkupTag const SLASH_PAGE;
+static TMPro::MarkupTag const SLASH_PAGE;
 
 /// @brief Field ALIGN offset 0
-static ::TMPro::MarkupTag const ALIGN;
+static TMPro::MarkupTag const ALIGN;
 
 /// @brief Field SLASH_ALIGN offset 0
-static ::TMPro::MarkupTag const SLASH_ALIGN;
+static TMPro::MarkupTag const SLASH_ALIGN;
 
 /// @brief Field WIDTH offset 0
-static ::TMPro::MarkupTag const WIDTH;
+static TMPro::MarkupTag const WIDTH;
 
 /// @brief Field SLASH_WIDTH offset 0
-static ::TMPro::MarkupTag const SLASH_WIDTH;
+static TMPro::MarkupTag const SLASH_WIDTH;
 
 /// @brief Field GRADIENT offset 0
-static ::TMPro::MarkupTag const GRADIENT;
+static TMPro::MarkupTag const GRADIENT;
 
 /// @brief Field SLASH_GRADIENT offset 0
-static ::TMPro::MarkupTag const SLASH_GRADIENT;
+static TMPro::MarkupTag const SLASH_GRADIENT;
 
 /// @brief Field CHARACTER_SPACE offset 0
-static ::TMPro::MarkupTag const CHARACTER_SPACE;
+static TMPro::MarkupTag const CHARACTER_SPACE;
 
 /// @brief Field SLASH_CHARACTER_SPACE offset 0
-static ::TMPro::MarkupTag const SLASH_CHARACTER_SPACE;
+static TMPro::MarkupTag const SLASH_CHARACTER_SPACE;
 
 /// @brief Field MONOSPACE offset 0
-static ::TMPro::MarkupTag const MONOSPACE;
+static TMPro::MarkupTag const MONOSPACE;
 
 /// @brief Field SLASH_MONOSPACE offset 0
-static ::TMPro::MarkupTag const SLASH_MONOSPACE;
+static TMPro::MarkupTag const SLASH_MONOSPACE;
 
 /// @brief Field CLASS offset 0
-static ::TMPro::MarkupTag const CLASS;
+static TMPro::MarkupTag const CLASS;
 
 /// @brief Field INDENT offset 0
-static ::TMPro::MarkupTag const INDENT;
+static TMPro::MarkupTag const INDENT;
 
 /// @brief Field SLASH_INDENT offset 0
-static ::TMPro::MarkupTag const SLASH_INDENT;
+static TMPro::MarkupTag const SLASH_INDENT;
 
 /// @brief Field LINE_INDENT offset 0
-static ::TMPro::MarkupTag const LINE_INDENT;
+static TMPro::MarkupTag const LINE_INDENT;
 
 /// @brief Field SLASH_LINE_INDENT offset 0
-static ::TMPro::MarkupTag const SLASH_LINE_INDENT;
+static TMPro::MarkupTag const SLASH_LINE_INDENT;
 
 /// @brief Field MARGIN offset 0
-static ::TMPro::MarkupTag const MARGIN;
+static TMPro::MarkupTag const MARGIN;
 
 /// @brief Field SLASH_MARGIN offset 0
-static ::TMPro::MarkupTag const SLASH_MARGIN;
+static TMPro::MarkupTag const SLASH_MARGIN;
 
 /// @brief Field MARGIN_LEFT offset 0
-static ::TMPro::MarkupTag const MARGIN_LEFT;
+static TMPro::MarkupTag const MARGIN_LEFT;
 
 /// @brief Field MARGIN_RIGHT offset 0
-static ::TMPro::MarkupTag const MARGIN_RIGHT;
+static TMPro::MarkupTag const MARGIN_RIGHT;
 
 /// @brief Field LINE_HEIGHT offset 0
-static ::TMPro::MarkupTag const LINE_HEIGHT;
+static TMPro::MarkupTag const LINE_HEIGHT;
 
 /// @brief Field SLASH_LINE_HEIGHT offset 0
-static ::TMPro::MarkupTag const SLASH_LINE_HEIGHT;
+static TMPro::MarkupTag const SLASH_LINE_HEIGHT;
 
 /// @brief Field ACTION offset 0
-static ::TMPro::MarkupTag const ACTION;
+static TMPro::MarkupTag const ACTION;
 
 /// @brief Field SLASH_ACTION offset 0
-static ::TMPro::MarkupTag const SLASH_ACTION;
+static TMPro::MarkupTag const SLASH_ACTION;
 
 /// @brief Field SCALE offset 0
-static ::TMPro::MarkupTag const SCALE;
+static TMPro::MarkupTag const SCALE;
 
 /// @brief Field SLASH_SCALE offset 0
-static ::TMPro::MarkupTag const SLASH_SCALE;
+static TMPro::MarkupTag const SLASH_SCALE;
 
 /// @brief Field ROTATE offset 0
-static ::TMPro::MarkupTag const ROTATE;
+static TMPro::MarkupTag const ROTATE;
 
 /// @brief Field SLASH_ROTATE offset 0
-static ::TMPro::MarkupTag const SLASH_ROTATE;
+static TMPro::MarkupTag const SLASH_ROTATE;
 
 /// @brief Field LOWERCASE offset 0
-static ::TMPro::MarkupTag const LOWERCASE;
+static TMPro::MarkupTag const LOWERCASE;
 
 /// @brief Field SLASH_LOWERCASE offset 0
-static ::TMPro::MarkupTag const SLASH_LOWERCASE;
+static TMPro::MarkupTag const SLASH_LOWERCASE;
 
 /// @brief Field ALLCAPS offset 0
-static ::TMPro::MarkupTag const ALLCAPS;
+static TMPro::MarkupTag const ALLCAPS;
 
 /// @brief Field SLASH_ALLCAPS offset 0
-static ::TMPro::MarkupTag const SLASH_ALLCAPS;
+static TMPro::MarkupTag const SLASH_ALLCAPS;
 
 /// @brief Field UPPERCASE offset 0
-static ::TMPro::MarkupTag const UPPERCASE;
+static TMPro::MarkupTag const UPPERCASE;
 
 /// @brief Field SLASH_UPPERCASE offset 0
-static ::TMPro::MarkupTag const SLASH_UPPERCASE;
+static TMPro::MarkupTag const SLASH_UPPERCASE;
 
 /// @brief Field SMALLCAPS offset 0
-static ::TMPro::MarkupTag const SMALLCAPS;
+static TMPro::MarkupTag const SMALLCAPS;
 
 /// @brief Field SLASH_SMALLCAPS offset 0
-static ::TMPro::MarkupTag const SLASH_SMALLCAPS;
+static TMPro::MarkupTag const SLASH_SMALLCAPS;
 
 /// @brief Field LIGA offset 0
-static ::TMPro::MarkupTag const LIGA;
+static TMPro::MarkupTag const LIGA;
 
 /// @brief Field SLASH_LIGA offset 0
-static ::TMPro::MarkupTag const SLASH_LIGA;
+static TMPro::MarkupTag const SLASH_LIGA;
 
 /// @brief Field FRAC offset 0
-static ::TMPro::MarkupTag const FRAC;
+static TMPro::MarkupTag const FRAC;
 
 /// @brief Field SLASH_FRAC offset 0
-static ::TMPro::MarkupTag const SLASH_FRAC;
+static TMPro::MarkupTag const SLASH_FRAC;
 
 /// @brief Field NAME offset 0
-static ::TMPro::MarkupTag const NAME;
+static TMPro::MarkupTag const NAME;
 
 /// @brief Field INDEX offset 0
-static ::TMPro::MarkupTag const INDEX;
+static TMPro::MarkupTag const INDEX;
 
 /// @brief Field TINT offset 0
-static ::TMPro::MarkupTag const TINT;
+static TMPro::MarkupTag const TINT;
 
 /// @brief Field ANIM offset 0
-static ::TMPro::MarkupTag const ANIM;
+static TMPro::MarkupTag const ANIM;
 
 /// @brief Field MATERIAL offset 0
-static ::TMPro::MarkupTag const MATERIAL;
+static TMPro::MarkupTag const MATERIAL;
 
 /// @brief Field HREF offset 0
-static ::TMPro::MarkupTag const HREF;
+static TMPro::MarkupTag const HREF;
 
 /// @brief Field ANGLE offset 0
-static ::TMPro::MarkupTag const ANGLE;
+static TMPro::MarkupTag const ANGLE;
 
 /// @brief Field RED offset 0
-static ::TMPro::MarkupTag const RED;
+static TMPro::MarkupTag const RED;
 
 /// @brief Field GREEN offset 0
-static ::TMPro::MarkupTag const GREEN;
+static TMPro::MarkupTag const GREEN;
 
 /// @brief Field BLUE offset 0
-static ::TMPro::MarkupTag const BLUE;
+static TMPro::MarkupTag const BLUE;
 
 /// @brief Field YELLOW offset 0
-static ::TMPro::MarkupTag const YELLOW;
+static TMPro::MarkupTag const YELLOW;
 
 /// @brief Field ORANGE offset 0
-static ::TMPro::MarkupTag const ORANGE;
+static TMPro::MarkupTag const ORANGE;
 
 /// @brief Field BLACK offset 0
-static ::TMPro::MarkupTag const BLACK;
+static TMPro::MarkupTag const BLACK;
 
 /// @brief Field WHITE offset 0
-static ::TMPro::MarkupTag const WHITE;
+static TMPro::MarkupTag const WHITE;
 
 /// @brief Field PURPLE offset 0
-static ::TMPro::MarkupTag const PURPLE;
+static TMPro::MarkupTag const PURPLE;
 
 /// @brief Field BR offset 0
-static ::TMPro::MarkupTag const BR;
+static TMPro::MarkupTag const BR;
 
 /// @brief Field ZWSP offset 0
-static ::TMPro::MarkupTag const ZWSP;
+static TMPro::MarkupTag const ZWSP;
 
 /// @brief Field NBSP offset 0
-static ::TMPro::MarkupTag const NBSP;
+static TMPro::MarkupTag const NBSP;
 
 /// @brief Field SHY offset 0
-static ::TMPro::MarkupTag const SHY;
+static TMPro::MarkupTag const SHY;
 
 /// @brief Field LEFT offset 0
-static ::TMPro::MarkupTag const LEFT;
+static TMPro::MarkupTag const LEFT;
 
 /// @brief Field RIGHT offset 0
-static ::TMPro::MarkupTag const RIGHT;
+static TMPro::MarkupTag const RIGHT;
 
 /// @brief Field CENTER offset 0
-static ::TMPro::MarkupTag const CENTER;
+static TMPro::MarkupTag const CENTER;
 
 /// @brief Field JUSTIFIED offset 0
-static ::TMPro::MarkupTag const JUSTIFIED;
+static TMPro::MarkupTag const JUSTIFIED;
 
 /// @brief Field FLUSH offset 0
-static ::TMPro::MarkupTag const FLUSH;
+static TMPro::MarkupTag const FLUSH;
 
 /// @brief Field NONE offset 0
-static ::TMPro::MarkupTag const NONE;
+static TMPro::MarkupTag const NONE;
 
 /// @brief Field PLUS offset 0
-static ::TMPro::MarkupTag const PLUS;
+static TMPro::MarkupTag const PLUS;
 
 /// @brief Field MINUS offset 0
-static ::TMPro::MarkupTag const MINUS;
+static TMPro::MarkupTag const MINUS;
 
 /// @brief Field PX offset 0
-static ::TMPro::MarkupTag const PX;
+static TMPro::MarkupTag const PX;
 
 /// @brief Field PLUS_PX offset 0
-static ::TMPro::MarkupTag const PLUS_PX;
+static TMPro::MarkupTag const PLUS_PX;
 
 /// @brief Field MINUS_PX offset 0
-static ::TMPro::MarkupTag const MINUS_PX;
+static TMPro::MarkupTag const MINUS_PX;
 
 /// @brief Field EM offset 0
-static ::TMPro::MarkupTag const EM;
+static TMPro::MarkupTag const EM;
 
 /// @brief Field PLUS_EM offset 0
-static ::TMPro::MarkupTag const PLUS_EM;
+static TMPro::MarkupTag const PLUS_EM;
 
 /// @brief Field MINUS_EM offset 0
-static ::TMPro::MarkupTag const MINUS_EM;
+static TMPro::MarkupTag const MINUS_EM;
 
 /// @brief Field PCT offset 0
-static ::TMPro::MarkupTag const PCT;
+static TMPro::MarkupTag const PCT;
 
 /// @brief Field PLUS_PCT offset 0
-static ::TMPro::MarkupTag const PLUS_PCT;
+static TMPro::MarkupTag const PLUS_PCT;
 
 /// @brief Field MINUS_PCT offset 0
-static ::TMPro::MarkupTag const MINUS_PCT;
+static TMPro::MarkupTag const MINUS_PCT;
 
 /// @brief Field PERCENTAGE offset 0
-static ::TMPro::MarkupTag const PERCENTAGE;
+static TMPro::MarkupTag const PERCENTAGE;
 
 /// @brief Field PLUS_PERCENTAGE offset 0
-static ::TMPro::MarkupTag const PLUS_PERCENTAGE;
+static TMPro::MarkupTag const PLUS_PERCENTAGE;
 
 /// @brief Field MINUS_PERCENTAGE offset 0
-static ::TMPro::MarkupTag const MINUS_PERCENTAGE;
+static TMPro::MarkupTag const MINUS_PERCENTAGE;
 
 /// @brief Field TRUE offset 0
-static ::TMPro::MarkupTag const TRUE;
+static TMPro::MarkupTag const TRUE;
 
 /// @brief Field FALSE offset 0
-static ::TMPro::MarkupTag const FALSE;
+static TMPro::MarkupTag const FALSE;
 
 /// @brief Field INVALID offset 0
-static ::TMPro::MarkupTag const INVALID;
+static TMPro::MarkupTag const INVALID;
 
 /// @brief Field NORMAL offset 0
-static ::TMPro::MarkupTag const NORMAL;
+static TMPro::MarkupTag const NORMAL;
 
 /// @brief Field DEFAULT offset 0
-static ::TMPro::MarkupTag const DEFAULT;
+static TMPro::MarkupTag const DEFAULT;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::MarkupTag, "TMPro", "MarkupTag");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::MarkupTag, "TMPro", "MarkupTag");

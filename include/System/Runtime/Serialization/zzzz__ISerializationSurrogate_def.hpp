@@ -1,15 +1,14 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
 namespace System::Runtime::Serialization {
 class ISurrogateSelector;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -34,15 +33,14 @@ constexpr explicit ISerializationSurrogate(void* ptr) noexcept : ::cordl_interna
 // Methods
 
 /// @brief Method GetObjectData addr 0x0 size 0xffffffffffffffff virtual true final false
- void GetObjectData(::bs_hook::Il2CppWrapperType obj, ::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void GetObjectData(::bs_hook::Il2CppWrapperType obj, System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method SetObjectData addr 0x0 size 0xffffffffffffffff virtual true final false
- ::bs_hook::Il2CppWrapperType SetObjectData(::bs_hook::Il2CppWrapperType obj, ::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context, ::System::Runtime::Serialization::ISurrogateSelector selector) ;
+ ::bs_hook::Il2CppWrapperType SetObjectData(::bs_hook::Il2CppWrapperType obj, System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context, System::Runtime::Serialization::ISurrogateSelector selector) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::ISerializationSurrogate);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::ISerializationSurrogate, "System.Runtime.Serialization", "ISerializationSurrogate");
+NEED_NO_BOX(System::Runtime::Serialization::ISerializationSurrogate);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ISerializationSurrogate, "System.Runtime.Serialization", "ISerializationSurrogate");

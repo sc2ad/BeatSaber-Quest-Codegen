@@ -5,25 +5,24 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace HMUI {
-class TextSegmentedControl;
+namespace System {
+class Action;
 }
 namespace HMUI {
 class SegmentedControl;
 }
+namespace HMUI {
+class TextSegmentedControl;
+}
 namespace UnityEngine::UI {
 class ContentSizeFitter;
 }
-namespace System {
-class Action;
-}
 // Forward declare root types
 namespace GlobalNamespace {
-class TabBarViewController;
+class GlobalNamespace__TabBarViewController__TabBarItem;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__TabBarViewController__TabBarItem;
+class TabBarViewController;
 }
 // Type: ::TabBarItem
 namespace GlobalNamespace {
@@ -31,37 +30,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5853))
 // CS Name: TabBarViewController::TabBarItem
-class CORDL_TYPE ____GlobalNamespace__TabBarViewController__TabBarItem : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__TabBarViewController__TabBarItem : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____GlobalNamespace__TabBarViewController__TabBarItem() = default;
+virtual ~GlobalNamespace__TabBarViewController__TabBarItem() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__TabBarViewController__TabBarItem", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__TabBarViewController__TabBarItem(____GlobalNamespace__TabBarViewController__TabBarItem const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__TabBarViewController__TabBarItem", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__TabBarViewController__TabBarItem(GlobalNamespace__TabBarViewController__TabBarItem const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__TabBarViewController__TabBarItem", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__TabBarViewController__TabBarItem(____GlobalNamespace__TabBarViewController__TabBarItem&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__TabBarViewController__TabBarItem", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__TabBarViewController__TabBarItem(GlobalNamespace__TabBarViewController__TabBarItem&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__TabBarViewController__TabBarItem(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__TabBarViewController__TabBarItem(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__TabBarViewController__TabBarItem& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__TabBarViewController__TabBarItem& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__TabBarViewController__TabBarItem& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__TabBarViewController__TabBarItem& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__TabBarViewController__TabBarItem& operator=(____GlobalNamespace__TabBarViewController__TabBarItem&& o) noexcept = default;
-  constexpr ____GlobalNamespace__TabBarViewController__TabBarItem& operator=(____GlobalNamespace__TabBarViewController__TabBarItem const& o) noexcept = default;
+  constexpr GlobalNamespace__TabBarViewController__TabBarItem& operator=(GlobalNamespace__TabBarViewController__TabBarItem&& o) noexcept = default;
+  constexpr GlobalNamespace__TabBarViewController__TabBarItem& operator=(GlobalNamespace__TabBarViewController__TabBarItem const& o) noexcept = default;
                 
 
 
@@ -73,20 +72,20 @@ constexpr void __set_title(::StringW value) ;
 
 constexpr ::StringW __get_title() const;
 
- ::System::Action __declspec(property(get=__get_action, put=__set_action))  action;
+ System::Action __declspec(property(get=__get_action, put=__set_action))  action;
 
-constexpr void __set_action(::System::Action value) ;
+constexpr void __set_action(System::Action value) ;
 
-constexpr ::System::Action __get_action() const;
+constexpr System::Action __get_action() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "title", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "action", ty: "::System::Action", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__TabBarViewController__TabBarItem(::StringW title, ::System::Action action) ;
+// Ctor Parameters [CppParam { name: "title", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "action", ty: "System::Action", modifiers: "", def_value: None }]
+explicit GlobalNamespace__TabBarViewController__TabBarItem(::StringW title, System::Action action) ;
 
 /// @brief Method .ctor addr 0x2182630 size 0x2c virtual false final false
- void _ctor(::StringW title, ::System::Action action) ;
+ void _ctor(::StringW title, System::Action action) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -98,10 +97,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13656))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5854))
 // CS Name: TabBarViewController
-class CORDL_TYPE TabBarViewController : public ::HMUI::ViewController {
+class CORDL_TYPE TabBarViewController : public HMUI::ViewController {
 public:
 // Declarations
-using TabBarItem = ::GlobalNamespace::____GlobalNamespace__TabBarViewController__TabBarItem;
+using TabBarItem = GlobalNamespace::GlobalNamespace__TabBarViewController__TabBarItem;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x98};
@@ -115,7 +114,7 @@ constexpr TabBarViewController(TabBarViewController const& ) noexcept = default;
 constexpr TabBarViewController(TabBarViewController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TabBarViewController(void* ptr) noexcept : ::HMUI::ViewController(ptr) {
+constexpr explicit TabBarViewController(void* ptr) noexcept : HMUI::ViewController(ptr) {
 }
 
 
@@ -136,17 +135,17 @@ constexpr explicit TabBarViewController(void* ptr) noexcept : ::HMUI::ViewContro
 
 // Fields
 
- ::HMUI::TextSegmentedControl __declspec(property(get=__get__segmentedControll, put=__set__segmentedControll))  _segmentedControll;
+ HMUI::TextSegmentedControl __declspec(property(get=__get__segmentedControll, put=__set__segmentedControll))  _segmentedControll;
 
-constexpr void __set__segmentedControll(::HMUI::TextSegmentedControl value) ;
+constexpr void __set__segmentedControll(HMUI::TextSegmentedControl value) ;
 
-constexpr ::HMUI::TextSegmentedControl __get__segmentedControll() const;
+constexpr HMUI::TextSegmentedControl __get__segmentedControll() const;
 
- ::UnityEngine::UI::ContentSizeFitter __declspec(property(get=__get__contentSizeFilter, put=__set__contentSizeFilter))  _contentSizeFilter;
+ UnityEngine::UI::ContentSizeFitter __declspec(property(get=__get__contentSizeFilter, put=__set__contentSizeFilter))  _contentSizeFilter;
 
-constexpr void __set__contentSizeFilter(::UnityEngine::UI::ContentSizeFitter value) ;
+constexpr void __set__contentSizeFilter(UnityEngine::UI::ContentSizeFitter value) ;
 
-constexpr ::UnityEngine::UI::ContentSizeFitter __get__contentSizeFilter() const;
+constexpr UnityEngine::UI::ContentSizeFitter __get__contentSizeFilter() const;
 
  ::ArrayW<::StringW> __declspec(property(get=__get__labels, put=__set__labels))  _labels;
 
@@ -154,11 +153,11 @@ constexpr void __set__labels(::ArrayW<::StringW> value) ;
 
 constexpr ::ArrayW<::StringW> __get__labels() const;
 
- ::ArrayW<::GlobalNamespace::____GlobalNamespace__TabBarViewController__TabBarItem> __declspec(property(get=__get__items, put=__set__items))  _items;
+ ::ArrayW<GlobalNamespace::GlobalNamespace__TabBarViewController__TabBarItem> __declspec(property(get=__get__items, put=__set__items))  _items;
 
-constexpr void __set__items(::ArrayW<::GlobalNamespace::____GlobalNamespace__TabBarViewController__TabBarItem> value) ;
+constexpr void __set__items(::ArrayW<GlobalNamespace::GlobalNamespace__TabBarViewController__TabBarItem> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::____GlobalNamespace__TabBarViewController__TabBarItem> __get__items() const;
+constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__TabBarViewController__TabBarItem> __get__items() const;
 
  bool __declspec(property(get=__get__shouldReloadData, put=__set__shouldReloadData))  _shouldReloadData;
 
@@ -186,7 +185,7 @@ constexpr bool __get__shouldReloadData() const;
  int32_t get_selectedCellNumber() ;
 
 /// @brief Method Setup addr 0x218223c size 0x18c virtual false final false
- void Setup(::ArrayW<::GlobalNamespace::____GlobalNamespace__TabBarViewController__TabBarItem> items) ;
+ void Setup(::ArrayW<GlobalNamespace::GlobalNamespace__TabBarViewController__TabBarItem> items) ;
 
 /// @brief Method SelectItem addr 0x21823c8 size 0x1c virtual false final false
  void SelectItem(int32_t index) ;
@@ -201,7 +200,7 @@ constexpr bool __get__shouldReloadData() const;
  void OnDestroy() ;
 
 /// @brief Method HandleDidSelectCell addr 0x21825d8 size 0x50 virtual false final false
- void HandleDidSelectCell(::HMUI::SegmentedControl segmentedControl, int32_t cellNumber) ;
+ void HandleDidSelectCell(HMUI::SegmentedControl segmentedControl, int32_t cellNumber) ;
 
 // Ctor Parameters []
 explicit TabBarViewController() ;
@@ -213,8 +212,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::TabBarViewController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TabBarViewController, "", "TabBarViewController");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__TabBarViewController__TabBarItem);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__TabBarViewController__TabBarItem, "", "TabBarViewController/TabBarItem");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__TabBarViewController__TabBarItem);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__TabBarViewController__TabBarItem, "", "TabBarViewController/TabBarItem");
+NEED_NO_BOX(GlobalNamespace::TabBarViewController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TabBarViewController, "", "TabBarViewController");

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Rendering {
 class OnDemandRendering;
@@ -74,6 +73,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Rendering
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Rendering::OnDemandRendering);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::OnDemandRendering, "UnityEngine.Rendering", "OnDemandRendering");
+NEED_NO_BOX(UnityEngine::Rendering::OnDemandRendering);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::OnDemandRendering, "UnityEngine.Rendering", "OnDemandRendering");

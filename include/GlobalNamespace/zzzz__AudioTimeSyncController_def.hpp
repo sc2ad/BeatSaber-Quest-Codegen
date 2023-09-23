@@ -5,34 +5,33 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
-class FloatSO;
+class IAudioTimeSource;
+}
+namespace UnityEngine {
+class WaitUntil;
 }
 namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-class IAudioTimeSource;
+class FloatSO;
 }
 namespace UnityEngine {
 class AudioSource;
-}
-namespace UnityEngine {
-class WaitUntil;
 }
 namespace UnityEngine {
 class AudioClip;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct ____GlobalNamespace__AudioTimeSyncController__State;
+struct GlobalNamespace__AudioTimeSyncController__State;
 }
 namespace GlobalNamespace {
 class AudioTimeSyncController;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__AudioTimeSyncController__InitData;
+class GlobalNamespace__AudioTimeSyncController__InitData;
 }
 // Type: ::InitData
 namespace GlobalNamespace {
@@ -40,47 +39,47 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4036))
 // CS Name: AudioTimeSyncController::InitData
-class CORDL_TYPE ____GlobalNamespace__AudioTimeSyncController__InitData : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__AudioTimeSyncController__InitData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____GlobalNamespace__AudioTimeSyncController__InitData() = default;
+virtual ~GlobalNamespace__AudioTimeSyncController__InitData() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__AudioTimeSyncController__InitData", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__AudioTimeSyncController__InitData(____GlobalNamespace__AudioTimeSyncController__InitData const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__AudioTimeSyncController__InitData", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__AudioTimeSyncController__InitData(GlobalNamespace__AudioTimeSyncController__InitData const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__AudioTimeSyncController__InitData", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__AudioTimeSyncController__InitData(____GlobalNamespace__AudioTimeSyncController__InitData&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__AudioTimeSyncController__InitData", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__AudioTimeSyncController__InitData(GlobalNamespace__AudioTimeSyncController__InitData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__AudioTimeSyncController__InitData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__AudioTimeSyncController__InitData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__AudioTimeSyncController__InitData& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__AudioTimeSyncController__InitData& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__AudioTimeSyncController__InitData& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__AudioTimeSyncController__InitData& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__AudioTimeSyncController__InitData& operator=(____GlobalNamespace__AudioTimeSyncController__InitData&& o) noexcept = default;
-  constexpr ____GlobalNamespace__AudioTimeSyncController__InitData& operator=(____GlobalNamespace__AudioTimeSyncController__InitData const& o) noexcept = default;
+  constexpr GlobalNamespace__AudioTimeSyncController__InitData& operator=(GlobalNamespace__AudioTimeSyncController__InitData&& o) noexcept = default;
+  constexpr GlobalNamespace__AudioTimeSyncController__InitData& operator=(GlobalNamespace__AudioTimeSyncController__InitData const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::UnityEngine::AudioClip __declspec(property(get=__get_audioClip, put=__set_audioClip))  audioClip;
+ UnityEngine::AudioClip __declspec(property(get=__get_audioClip, put=__set_audioClip))  audioClip;
 
-constexpr void __set_audioClip(::UnityEngine::AudioClip value) ;
+constexpr void __set_audioClip(UnityEngine::AudioClip value) ;
 
-constexpr ::UnityEngine::AudioClip __get_audioClip() const;
+constexpr UnityEngine::AudioClip __get_audioClip() const;
 
  float_t __declspec(property(get=__get_startSongTime, put=__set_startSongTime))  startSongTime;
 
@@ -103,11 +102,11 @@ constexpr float_t __get_timeScale() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "audioClip", ty: "::UnityEngine::AudioClip", modifiers: "", def_value: None }, CppParam { name: "startSongTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "songTimeOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "timeScale", ty: "float_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__AudioTimeSyncController__InitData(::UnityEngine::AudioClip audioClip, float_t startSongTime, float_t songTimeOffset, float_t timeScale) ;
+// Ctor Parameters [CppParam { name: "audioClip", ty: "UnityEngine::AudioClip", modifiers: "", def_value: None }, CppParam { name: "startSongTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "songTimeOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "timeScale", ty: "float_t", modifiers: "", def_value: None }]
+explicit GlobalNamespace__AudioTimeSyncController__InitData(UnityEngine::AudioClip audioClip, float_t startSongTime, float_t songTimeOffset, float_t timeScale) ;
 
 /// @brief Method .ctor addr 0x20b9c28 size 0x4c virtual false final false
- void _ctor(::UnityEngine::AudioClip audioClip, float_t startSongTime, float_t songTimeOffset, float_t timeScale) ;
+ void _ctor(UnityEngine::AudioClip audioClip, float_t startSongTime, float_t songTimeOffset, float_t timeScale) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -119,20 +118,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4037))
 // CS Name: AudioTimeSyncController::State
-struct CORDL_TYPE ____GlobalNamespace__AudioTimeSyncController__State : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__AudioTimeSyncController__State : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__AudioTimeSyncController__State(int32_t value__) noexcept;
+constexpr GlobalNamespace__AudioTimeSyncController__State(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__AudioTimeSyncController__State(____GlobalNamespace__AudioTimeSyncController__State const&) = default;
-                    constexpr ____GlobalNamespace__AudioTimeSyncController__State(____GlobalNamespace__AudioTimeSyncController__State&&) = default;
-                    constexpr ____GlobalNamespace__AudioTimeSyncController__State& operator=(____GlobalNamespace__AudioTimeSyncController__State const& o) {
+                    constexpr GlobalNamespace__AudioTimeSyncController__State(GlobalNamespace__AudioTimeSyncController__State const&) = default;
+                    constexpr GlobalNamespace__AudioTimeSyncController__State(GlobalNamespace__AudioTimeSyncController__State&&) = default;
+                    constexpr GlobalNamespace__AudioTimeSyncController__State& operator=(GlobalNamespace__AudioTimeSyncController__State const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__AudioTimeSyncController__State& operator=(____GlobalNamespace__AudioTimeSyncController__State&& o) noexcept {
+                    constexpr GlobalNamespace__AudioTimeSyncController__State& operator=(GlobalNamespace__AudioTimeSyncController__State&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -145,7 +144,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__AudioTimeSyncController__State(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__AudioTimeSyncController__State(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -153,15 +152,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__AudioTimeSyncController__State_Unwrapped : int32_t {
+enum class __GlobalNamespace__AudioTimeSyncController__State_Unwrapped : int32_t {
 __Playing = 0,
 __Paused = 1,
 __Stopped = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__AudioTimeSyncController__State_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__AudioTimeSyncController__State_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__AudioTimeSyncController__State_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__AudioTimeSyncController__State_Unwrapped>(__instance);
 }
 
 
@@ -174,13 +173,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Playing offset 0
-static ::GlobalNamespace::____GlobalNamespace__AudioTimeSyncController__State const Playing;
+static GlobalNamespace::GlobalNamespace__AudioTimeSyncController__State const Playing;
 
 /// @brief Field Paused offset 0
-static ::GlobalNamespace::____GlobalNamespace__AudioTimeSyncController__State const Paused;
+static GlobalNamespace::GlobalNamespace__AudioTimeSyncController__State const Paused;
 
 /// @brief Field Stopped offset 0
-static ::GlobalNamespace::____GlobalNamespace__AudioTimeSyncController__State const Stopped;
+static GlobalNamespace::GlobalNamespace__AudioTimeSyncController__State const Stopped;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -192,15 +191,15 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4038))
 // CS Name: AudioTimeSyncController
-class CORDL_TYPE AudioTimeSyncController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE AudioTimeSyncController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using State = ::GlobalNamespace::____GlobalNamespace__AudioTimeSyncController__State;
+using State = GlobalNamespace::GlobalNamespace__AudioTimeSyncController__State;
 
-using InitData = ::GlobalNamespace::____GlobalNamespace__AudioTimeSyncController__InitData;
+using InitData = GlobalNamespace::GlobalNamespace__AudioTimeSyncController__InitData;
 
-/// @brief Convert operator to ::GlobalNamespace::IAudioTimeSource
-constexpr operator  ::GlobalNamespace::IAudioTimeSource() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IAudioTimeSource
+constexpr operator  GlobalNamespace::IAudioTimeSource() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x90};
@@ -214,7 +213,7 @@ constexpr AudioTimeSyncController(AudioTimeSyncController const& ) noexcept = de
 constexpr AudioTimeSyncController(AudioTimeSyncController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AudioTimeSyncController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit AudioTimeSyncController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -259,23 +258,23 @@ constexpr void __set__stopSyncDeltaTime(float_t value) ;
 
 constexpr float_t __get__stopSyncDeltaTime() const;
 
- ::UnityEngine::AudioSource __declspec(property(get=__get__audioSource, put=__set__audioSource))  _audioSource;
+ UnityEngine::AudioSource __declspec(property(get=__get__audioSource, put=__set__audioSource))  _audioSource;
 
-constexpr void __set__audioSource(::UnityEngine::AudioSource value) ;
+constexpr void __set__audioSource(UnityEngine::AudioSource value) ;
 
-constexpr ::UnityEngine::AudioSource __get__audioSource() const;
+constexpr UnityEngine::AudioSource __get__audioSource() const;
 
- ::GlobalNamespace::FloatSO __declspec(property(get=__get__audioLatency, put=__set__audioLatency))  _audioLatency;
+ GlobalNamespace::FloatSO __declspec(property(get=__get__audioLatency, put=__set__audioLatency))  _audioLatency;
 
-constexpr void __set__audioLatency(::GlobalNamespace::FloatSO value) ;
+constexpr void __set__audioLatency(GlobalNamespace::FloatSO value) ;
 
-constexpr ::GlobalNamespace::FloatSO __get__audioLatency() const;
+constexpr GlobalNamespace::FloatSO __get__audioLatency() const;
 
- ::GlobalNamespace::____GlobalNamespace__AudioTimeSyncController__InitData __declspec(property(get=__get__initData, put=__set__initData))  _initData;
+ GlobalNamespace::GlobalNamespace__AudioTimeSyncController__InitData __declspec(property(get=__get__initData, put=__set__initData))  _initData;
 
-constexpr void __set__initData(::GlobalNamespace::____GlobalNamespace__AudioTimeSyncController__InitData value) ;
+constexpr void __set__initData(GlobalNamespace::GlobalNamespace__AudioTimeSyncController__InitData value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__AudioTimeSyncController__InitData __get__initData() const;
+constexpr GlobalNamespace::GlobalNamespace__AudioTimeSyncController__InitData __get__initData() const;
 
  bool __declspec(property(get=__get_forcedNoAudioSync, put=__set_forcedNoAudioSync))  forcedNoAudioSync;
 
@@ -283,11 +282,11 @@ constexpr void __set_forcedNoAudioSync(bool value) ;
 
 constexpr bool __get_forcedNoAudioSync() const;
 
- ::System::Action __declspec(property(get=__get_stateChangedEvent, put=__set_stateChangedEvent))  stateChangedEvent;
+ System::Action __declspec(property(get=__get_stateChangedEvent, put=__set_stateChangedEvent))  stateChangedEvent;
 
-constexpr void __set_stateChangedEvent(::System::Action value) ;
+constexpr void __set_stateChangedEvent(System::Action value) ;
 
-constexpr ::System::Action __get_stateChangedEvent() const;
+constexpr System::Action __get_stateChangedEvent() const;
 
  bool __declspec(property(get=__get__fixingAudioSyncError, put=__set__fixingAudioSyncError))  _fixingAudioSyncError;
 
@@ -349,11 +348,11 @@ constexpr void __set__dspTimeOffset(double_t value) ;
 
 constexpr double_t __get__dspTimeOffset() const;
 
- ::GlobalNamespace::____GlobalNamespace__AudioTimeSyncController__State __declspec(property(get=__get__state, put=__set__state))  _state;
+ GlobalNamespace::GlobalNamespace__AudioTimeSyncController__State __declspec(property(get=__get__state, put=__set__state))  _state;
 
-constexpr void __set__state(::GlobalNamespace::____GlobalNamespace__AudioTimeSyncController__State value) ;
+constexpr void __set__state(GlobalNamespace::GlobalNamespace__AudioTimeSyncController__State value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__AudioTimeSyncController__State __get__state() const;
+constexpr GlobalNamespace::GlobalNamespace__AudioTimeSyncController__State __get__state() const;
 
  bool __declspec(property(get=__get__canStartSong, put=__set__canStartSong))  _canStartSong;
 
@@ -382,7 +381,7 @@ constexpr bool __get__forceNoAudioSyncOrAudioSyncErrorFixing() const;
 
 // Properties
 
- ::GlobalNamespace::____GlobalNamespace__AudioTimeSyncController__State __declspec(property(get=get_state))  state;
+ GlobalNamespace::GlobalNamespace__AudioTimeSyncController__State __declspec(property(get=get_state))  state;
 
  float_t __declspec(property(get=get_songTime))  songTime;
 
@@ -398,7 +397,7 @@ constexpr bool __get__forceNoAudioSyncOrAudioSyncErrorFixing() const;
 
  double_t __declspec(property(get=get_dspTimeOffset))  dspTimeOffset;
 
- ::UnityEngine::WaitUntil __declspec(property(get=get_waitUntilAudioIsLoaded))  waitUntilAudioIsLoaded;
+ UnityEngine::WaitUntil __declspec(property(get=get_waitUntilAudioIsLoaded))  waitUntilAudioIsLoaded;
 
  bool __declspec(property(get=get_isReady))  isReady;
 
@@ -412,7 +411,7 @@ constexpr bool __get__forceNoAudioSyncOrAudioSyncErrorFixing() const;
 // Methods
 
 /// @brief Method get_state addr 0x20b9080 size 0x8 virtual false final false
- ::GlobalNamespace::____GlobalNamespace__AudioTimeSyncController__State get_state() ;
+ GlobalNamespace::GlobalNamespace__AudioTimeSyncController__State get_state() ;
 
 /// @brief Method get_songTime addr 0x20b9088 size 0x8 virtual true final true
  float_t get_songTime() ;
@@ -436,7 +435,7 @@ constexpr bool __get__forceNoAudioSyncOrAudioSyncErrorFixing() const;
  double_t get_dspTimeOffset() ;
 
 /// @brief Method get_waitUntilAudioIsLoaded addr 0x20b91dc size 0xac virtual false final false
- ::UnityEngine::WaitUntil get_waitUntilAudioIsLoaded() ;
+ UnityEngine::WaitUntil get_waitUntilAudioIsLoaded() ;
 
 /// @brief Method get_isReady addr 0x20b9288 size 0x8 virtual true final true
  bool get_isReady() ;
@@ -451,10 +450,10 @@ constexpr bool __get__forceNoAudioSyncOrAudioSyncErrorFixing() const;
  void set_forceNoAudioSyncOrAudioSyncErrorFixing(bool value) ;
 
 /// @brief Method add_stateChangedEvent addr 0x20b92ac size 0x9c virtual false final false
- void add_stateChangedEvent(::System::Action value) ;
+ void add_stateChangedEvent(System::Action value) ;
 
 /// @brief Method remove_stateChangedEvent addr 0x20b9348 size 0x9c virtual false final false
- void remove_stateChangedEvent(::System::Action value) ;
+ void remove_stateChangedEvent(System::Action value) ;
 
 /// @brief Method get_timeSinceStart addr 0x20b93e4 size 0x20 virtual false final false
  float_t get_timeSinceStart() ;
@@ -499,9 +498,8 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__AudioTimeSyncController__State, "", "AudioTimeSyncController/State");
-NEED_NO_BOX(::GlobalNamespace::AudioTimeSyncController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AudioTimeSyncController, "", "AudioTimeSyncController");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__AudioTimeSyncController__InitData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__AudioTimeSyncController__InitData, "", "AudioTimeSyncController/InitData");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__AudioTimeSyncController__State, "", "AudioTimeSyncController/State");
+NEED_NO_BOX(GlobalNamespace::AudioTimeSyncController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioTimeSyncController, "", "AudioTimeSyncController");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__AudioTimeSyncController__InitData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__AudioTimeSyncController__InitData, "", "AudioTimeSyncController/InitData");

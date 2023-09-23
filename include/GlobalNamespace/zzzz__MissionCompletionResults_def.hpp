@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
-namespace GlobalNamespace {
-class MissionObjectiveResult;
-}
 namespace GlobalNamespace {
 class LevelCompletionResults;
+}
+namespace GlobalNamespace {
+class MissionObjectiveResult;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -55,17 +54,17 @@ constexpr explicit MissionCompletionResults(void* ptr) noexcept : ::bs_hook::Il2
 
 // Fields
 
- ::GlobalNamespace::LevelCompletionResults __declspec(property(get=__get_levelCompletionResults, put=__set_levelCompletionResults))  levelCompletionResults;
+ GlobalNamespace::LevelCompletionResults __declspec(property(get=__get_levelCompletionResults, put=__set_levelCompletionResults))  levelCompletionResults;
 
-constexpr void __set_levelCompletionResults(::GlobalNamespace::LevelCompletionResults value) ;
+constexpr void __set_levelCompletionResults(GlobalNamespace::LevelCompletionResults value) ;
 
-constexpr ::GlobalNamespace::LevelCompletionResults __get_levelCompletionResults() const;
+constexpr GlobalNamespace::LevelCompletionResults __get_levelCompletionResults() const;
 
- ::ArrayW<::GlobalNamespace::MissionObjectiveResult> __declspec(property(get=__get_missionObjectiveResults, put=__set_missionObjectiveResults))  missionObjectiveResults;
+ ::ArrayW<GlobalNamespace::MissionObjectiveResult> __declspec(property(get=__get_missionObjectiveResults, put=__set_missionObjectiveResults))  missionObjectiveResults;
 
-constexpr void __set_missionObjectiveResults(::ArrayW<::GlobalNamespace::MissionObjectiveResult> value) ;
+constexpr void __set_missionObjectiveResults(::ArrayW<GlobalNamespace::MissionObjectiveResult> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::MissionObjectiveResult> __get_missionObjectiveResults() const;
+constexpr ::ArrayW<GlobalNamespace::MissionObjectiveResult> __get_missionObjectiveResults() const;
 
 
 // Properties
@@ -78,16 +77,15 @@ constexpr ::ArrayW<::GlobalNamespace::MissionObjectiveResult> __get_missionObjec
 /// @brief Method get_IsMissionComplete addr 0x21f08fc size 0x68 virtual false final false
  bool get_IsMissionComplete() ;
 
-// Ctor Parameters [CppParam { name: "levelCompletionResults", ty: "::GlobalNamespace::LevelCompletionResults", modifiers: "", def_value: None }, CppParam { name: "missionObjectiveResults", ty: "::ArrayW<::GlobalNamespace::MissionObjectiveResult>", modifiers: "", def_value: None }]
-explicit MissionCompletionResults(::GlobalNamespace::LevelCompletionResults levelCompletionResults, ::ArrayW<::GlobalNamespace::MissionObjectiveResult> missionObjectiveResults) ;
+// Ctor Parameters [CppParam { name: "levelCompletionResults", ty: "GlobalNamespace::LevelCompletionResults", modifiers: "", def_value: None }, CppParam { name: "missionObjectiveResults", ty: "::ArrayW<GlobalNamespace::MissionObjectiveResult>", modifiers: "", def_value: None }]
+explicit MissionCompletionResults(GlobalNamespace::LevelCompletionResults levelCompletionResults, ::ArrayW<GlobalNamespace::MissionObjectiveResult> missionObjectiveResults) ;
 
 /// @brief Method .ctor addr 0x21f0964 size 0x2c virtual false final false
- void _ctor(::GlobalNamespace::LevelCompletionResults levelCompletionResults, ::ArrayW<::GlobalNamespace::MissionObjectiveResult> missionObjectiveResults) ;
+ void _ctor(GlobalNamespace::LevelCompletionResults levelCompletionResults, ::ArrayW<GlobalNamespace::MissionObjectiveResult> missionObjectiveResults) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MissionCompletionResults);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionCompletionResults, "", "MissionCompletionResults");
+NEED_NO_BOX(GlobalNamespace::MissionCompletionResults);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionCompletionResults, "", "MissionCompletionResults");

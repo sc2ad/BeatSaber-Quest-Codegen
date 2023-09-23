@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Net {
 class WebRequest;
 }
@@ -39,10 +38,10 @@ constexpr explicit IAuthenticationModule(void* ptr) noexcept : ::cordl_internals
 // Methods
 
 /// @brief Method Authenticate addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Net::Authorization Authenticate(::StringW challenge, ::System::Net::WebRequest request, ::System::Net::ICredentials credentials) ;
+ System::Net::Authorization Authenticate(::StringW challenge, System::Net::WebRequest request, System::Net::ICredentials credentials) ;
 
 /// @brief Method PreAuthenticate addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Net::Authorization PreAuthenticate(::System::Net::WebRequest request, ::System::Net::ICredentials credentials) ;
+ System::Net::Authorization PreAuthenticate(System::Net::WebRequest request, System::Net::ICredentials credentials) ;
 
 /// @brief Method get_AuthenticationType addr 0x0 size 0xffffffffffffffff virtual true final false
  ::StringW get_AuthenticationType() ;
@@ -51,6 +50,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::IAuthenticationModule);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::IAuthenticationModule, "System.Net", "IAuthenticationModule");
+NEED_NO_BOX(System::Net::IAuthenticationModule);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::IAuthenticationModule, "System.Net", "IAuthenticationModule");

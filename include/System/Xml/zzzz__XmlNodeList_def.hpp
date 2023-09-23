@@ -2,15 +2,14 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
+namespace System::Collections {
+class IEnumerable;
+}
 namespace System {
 class IDisposable;
 }
 namespace System::Collections {
 class IEnumerator;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -25,11 +24,11 @@ namespace System::Xml {
 class CORDL_TYPE XmlNodeList : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -73,7 +72,7 @@ constexpr explicit XmlNodeList(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
  int32_t get_Count() ;
 
 /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Collections::IEnumerator GetEnumerator() ;
+ System::Collections::IEnumerator GetEnumerator() ;
 
 /// @brief Method System.IDisposable.Dispose addr 0x26fe000 size 0xc virtual true final true
  void System_IDisposable_Dispose() ;
@@ -91,6 +90,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::XmlNodeList);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlNodeList, "System.Xml", "XmlNodeList");
+NEED_NO_BOX(System::Xml::XmlNodeList);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlNodeList, "System.Xml", "XmlNodeList");

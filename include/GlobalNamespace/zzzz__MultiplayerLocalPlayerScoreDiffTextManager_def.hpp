@@ -2,28 +2,27 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
-namespace System {
-template<typename T>
-struct Nullable_1;
-}
 namespace GlobalNamespace {
-class MultiplayerController;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__MultiplayerController__State;
-}
-namespace GlobalNamespace {
-class MultiplayerScoreProvider;
-}
-namespace GlobalNamespace {
-class MultiplayerScoreDiffText;
+class GlobalNamespace__CoreGameHUDController__InitData;
 }
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__CoreGameHUDController__InitData;
+class MultiplayerScoreProvider;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__MultiplayerController__State;
+}
+namespace System {
+template<typename T>
+struct Nullable_1;
+}
+namespace GlobalNamespace {
+class MultiplayerScoreDiffText;
+}
+namespace GlobalNamespace {
+class MultiplayerController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,7 +34,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5316))
 // CS Name: MultiplayerLocalPlayerScoreDiffTextManager
-class CORDL_TYPE MultiplayerLocalPlayerScoreDiffTextManager : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerLocalPlayerScoreDiffTextManager : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -50,7 +49,7 @@ constexpr MultiplayerLocalPlayerScoreDiffTextManager(MultiplayerLocalPlayerScore
 constexpr MultiplayerLocalPlayerScoreDiffTextManager(MultiplayerLocalPlayerScoreDiffTextManager&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerLocalPlayerScoreDiffTextManager(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerLocalPlayerScoreDiffTextManager(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -71,35 +70,35 @@ constexpr explicit MultiplayerLocalPlayerScoreDiffTextManager(void* ptr) noexcep
 
 // Fields
 
- ::GlobalNamespace::MultiplayerScoreDiffText __declspec(property(get=__get__scoreDiffText, put=__set__scoreDiffText))  _scoreDiffText;
+ GlobalNamespace::MultiplayerScoreDiffText __declspec(property(get=__get__scoreDiffText, put=__set__scoreDiffText))  _scoreDiffText;
 
-constexpr void __set__scoreDiffText(::GlobalNamespace::MultiplayerScoreDiffText value) ;
+constexpr void __set__scoreDiffText(GlobalNamespace::MultiplayerScoreDiffText value) ;
 
-constexpr ::GlobalNamespace::MultiplayerScoreDiffText __get__scoreDiffText() const;
+constexpr GlobalNamespace::MultiplayerScoreDiffText __get__scoreDiffText() const;
 
- ::GlobalNamespace::MultiplayerController __declspec(property(get=__get__multiplayerController, put=__set__multiplayerController))  _multiplayerController;
+ GlobalNamespace::MultiplayerController __declspec(property(get=__get__multiplayerController, put=__set__multiplayerController))  _multiplayerController;
 
-constexpr void __set__multiplayerController(::GlobalNamespace::MultiplayerController value) ;
+constexpr void __set__multiplayerController(GlobalNamespace::MultiplayerController value) ;
 
-constexpr ::GlobalNamespace::MultiplayerController __get__multiplayerController() const;
+constexpr GlobalNamespace::MultiplayerController __get__multiplayerController() const;
 
- ::GlobalNamespace::MultiplayerScoreProvider __declspec(property(get=__get__scoreProvider, put=__set__scoreProvider))  _scoreProvider;
+ GlobalNamespace::MultiplayerScoreProvider __declspec(property(get=__get__scoreProvider, put=__set__scoreProvider))  _scoreProvider;
 
-constexpr void __set__scoreProvider(::GlobalNamespace::MultiplayerScoreProvider value) ;
+constexpr void __set__scoreProvider(GlobalNamespace::MultiplayerScoreProvider value) ;
 
-constexpr ::GlobalNamespace::MultiplayerScoreProvider __get__scoreProvider() const;
+constexpr GlobalNamespace::MultiplayerScoreProvider __get__scoreProvider() const;
 
- ::GlobalNamespace::____GlobalNamespace__CoreGameHUDController__InitData __declspec(property(get=__get__hudInitData, put=__set__hudInitData))  _hudInitData;
+ GlobalNamespace::GlobalNamespace__CoreGameHUDController__InitData __declspec(property(get=__get__hudInitData, put=__set__hudInitData))  _hudInitData;
 
-constexpr void __set__hudInitData(::GlobalNamespace::____GlobalNamespace__CoreGameHUDController__InitData value) ;
+constexpr void __set__hudInitData(GlobalNamespace::GlobalNamespace__CoreGameHUDController__InitData value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__CoreGameHUDController__InitData __get__hudInitData() const;
+constexpr GlobalNamespace::GlobalNamespace__CoreGameHUDController__InitData __get__hudInitData() const;
 
- ::GlobalNamespace::IMultiplayerSessionManager __declspec(property(get=__get__multiplayerSessionManager, put=__set__multiplayerSessionManager))  _multiplayerSessionManager;
+ GlobalNamespace::IMultiplayerSessionManager __declspec(property(get=__get__multiplayerSessionManager, put=__set__multiplayerSessionManager))  _multiplayerSessionManager;
 
-constexpr void __set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager value) ;
+constexpr void __set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager value) ;
 
-constexpr ::GlobalNamespace::IMultiplayerSessionManager __get__multiplayerSessionManager() const;
+constexpr GlobalNamespace::IMultiplayerSessionManager __get__multiplayerSessionManager() const;
 
  float_t __declspec(property(get=__get__timeToNextUpdate, put=__set__timeToNextUpdate))  _timeToNextUpdate;
 
@@ -110,11 +109,11 @@ constexpr float_t __get__timeToNextUpdate() const;
 /// @brief Field kUpdateInterval offset 0
 static constexpr float_t  kUpdateInterval{0.5};
 
- ::System::Nullable_1<bool> __declspec(property(get=__get__wasLocalPlayerLeader, put=__set__wasLocalPlayerLeader))  _wasLocalPlayerLeader;
+ System::Nullable_1<bool> __declspec(property(get=__get__wasLocalPlayerLeader, put=__set__wasLocalPlayerLeader))  _wasLocalPlayerLeader;
 
-constexpr void __set__wasLocalPlayerLeader(::System::Nullable_1<bool> value) ;
+constexpr void __set__wasLocalPlayerLeader(System::Nullable_1<bool> value) ;
 
-constexpr ::System::Nullable_1<bool> __get__wasLocalPlayerLeader() const;
+constexpr System::Nullable_1<bool> __get__wasLocalPlayerLeader() const;
 
 
 // Methods
@@ -129,7 +128,7 @@ constexpr ::System::Nullable_1<bool> __get__wasLocalPlayerLeader() const;
  void Update() ;
 
 /// @brief Method HandleStateChanged addr 0x20fb2b0 size 0x4c virtual false final false
- void HandleStateChanged(::GlobalNamespace::____GlobalNamespace__MultiplayerController__State newState) ;
+ void HandleStateChanged(GlobalNamespace::GlobalNamespace__MultiplayerController__State newState) ;
 
 // Ctor Parameters []
 explicit MultiplayerLocalPlayerScoreDiffTextManager() ;
@@ -141,6 +140,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerLocalPlayerScoreDiffTextManager);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerLocalPlayerScoreDiffTextManager, "", "MultiplayerLocalPlayerScoreDiffTextManager");
+NEED_NO_BOX(GlobalNamespace::MultiplayerLocalPlayerScoreDiffTextManager);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalPlayerScoreDiffTextManager, "", "MultiplayerLocalPlayerScoreDiffTextManager");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 // Forward declare root types
 namespace System::Runtime::InteropServices {
 class OptionalAttribute;
@@ -12,7 +11,7 @@ namespace System::Runtime::InteropServices {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3321))
 // CS Name: System.Runtime.InteropServices.OptionalAttribute
-class CORDL_TYPE OptionalAttribute : public ::System::Attribute {
+class CORDL_TYPE OptionalAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr OptionalAttribute(OptionalAttribute const& ) noexcept = default;
 constexpr OptionalAttribute(OptionalAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OptionalAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit OptionalAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::InteropServices
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::InteropServices::OptionalAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::OptionalAttribute, "System.Runtime.InteropServices", "OptionalAttribute");
+NEED_NO_BOX(System::Runtime::InteropServices::OptionalAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::OptionalAttribute, "System.Runtime.InteropServices", "OptionalAttribute");

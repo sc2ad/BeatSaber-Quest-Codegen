@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__MissionObjectiveChecker_def.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
 class GameEnergyCounter;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5193))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5188))
 // CS Name: EnergyMissionObjectiveChecker
-class CORDL_TYPE EnergyMissionObjectiveChecker : public ::GlobalNamespace::MissionObjectiveChecker {
+class CORDL_TYPE EnergyMissionObjectiveChecker : public GlobalNamespace::MissionObjectiveChecker {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr EnergyMissionObjectiveChecker(EnergyMissionObjectiveChecker const& ) n
 constexpr EnergyMissionObjectiveChecker(EnergyMissionObjectiveChecker&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EnergyMissionObjectiveChecker(void* ptr) noexcept : ::GlobalNamespace::MissionObjectiveChecker(ptr) {
+constexpr explicit EnergyMissionObjectiveChecker(void* ptr) noexcept : GlobalNamespace::MissionObjectiveChecker(ptr) {
 }
 
 
@@ -52,11 +51,11 @@ constexpr explicit EnergyMissionObjectiveChecker(void* ptr) noexcept : ::GlobalN
 
 // Fields
 
- ::GlobalNamespace::GameEnergyCounter __declspec(property(get=__get__energyCounter, put=__set__energyCounter))  _energyCounter;
+ GlobalNamespace::GameEnergyCounter __declspec(property(get=__get__energyCounter, put=__set__energyCounter))  _energyCounter;
 
-constexpr void __set__energyCounter(::GlobalNamespace::GameEnergyCounter value) ;
+constexpr void __set__energyCounter(GlobalNamespace::GameEnergyCounter value) ;
 
-constexpr ::GlobalNamespace::GameEnergyCounter __get__energyCounter() const;
+constexpr GlobalNamespace::GameEnergyCounter __get__energyCounter() const;
 
 
 // Methods
@@ -83,6 +82,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::EnergyMissionObjectiveChecker);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EnergyMissionObjectiveChecker, "", "EnergyMissionObjectiveChecker");
+NEED_NO_BOX(GlobalNamespace::EnergyMissionObjectiveChecker);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnergyMissionObjectiveChecker, "", "EnergyMissionObjectiveChecker");

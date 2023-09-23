@@ -2,25 +2,24 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
-namespace Zenject {
-class SignalBus;
-}
 namespace System {
 class Type;
 }
 namespace Zenject {
 class SignalBindingBindInfo;
 }
+namespace System {
+class IDisposable;
+}
 namespace Zenject {
-class InjectTypeInfo;
+class SignalBus;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace System {
-class IDisposable;
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -35,8 +34,8 @@ namespace Zenject {
 class CORDL_TYPE SignalCallbackWrapper : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -71,23 +70,23 @@ constexpr explicit SignalCallbackWrapper(void* ptr) noexcept : ::bs_hook::Il2Cpp
 
 // Fields
 
- ::Zenject::SignalBus __declspec(property(get=__get__signalBus, put=__set__signalBus))  _signalBus;
+ Zenject::SignalBus __declspec(property(get=__get__signalBus, put=__set__signalBus))  _signalBus;
 
-constexpr void __set__signalBus(::Zenject::SignalBus value) ;
+constexpr void __set__signalBus(Zenject::SignalBus value) ;
 
-constexpr ::Zenject::SignalBus __get__signalBus() const;
+constexpr Zenject::SignalBus __get__signalBus() const;
 
- ::System::Action_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get__action, put=__set__action))  _action;
+ System::Action_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get__action, put=__set__action))  _action;
 
-constexpr void __set__action(::System::Action_1<::bs_hook::Il2CppWrapperType> value) ;
+constexpr void __set__action(System::Action_1<::bs_hook::Il2CppWrapperType> value) ;
 
-constexpr ::System::Action_1<::bs_hook::Il2CppWrapperType> __get__action() const;
+constexpr System::Action_1<::bs_hook::Il2CppWrapperType> __get__action() const;
 
- ::System::Type __declspec(property(get=__get__signalType, put=__set__signalType))  _signalType;
+ System::Type __declspec(property(get=__get__signalType, put=__set__signalType))  _signalType;
 
-constexpr void __set__signalType(::System::Type value) ;
+constexpr void __set__signalType(System::Type value) ;
 
-constexpr ::System::Type __get__signalType() const;
+constexpr System::Type __get__signalType() const;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=__get__identifier, put=__set__identifier))  _identifier;
 
@@ -98,11 +97,11 @@ constexpr ::bs_hook::Il2CppWrapperType __get__identifier() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "::Zenject::SignalBindingBindInfo", modifiers: "", def_value: None }, CppParam { name: "action", ty: "::System::Action_1<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }, CppParam { name: "signalBus", ty: "::Zenject::SignalBus", modifiers: "", def_value: None }]
-explicit SignalCallbackWrapper(::Zenject::SignalBindingBindInfo bindInfo, ::System::Action_1<::bs_hook::Il2CppWrapperType> action, ::Zenject::SignalBus signalBus) ;
+// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::SignalBindingBindInfo", modifiers: "", def_value: None }, CppParam { name: "action", ty: "System::Action_1<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }, CppParam { name: "signalBus", ty: "Zenject::SignalBus", modifiers: "", def_value: None }]
+explicit SignalCallbackWrapper(Zenject::SignalBindingBindInfo bindInfo, System::Action_1<::bs_hook::Il2CppWrapperType> action, Zenject::SignalBus signalBus) ;
 
 /// @brief Method .ctor addr 0x2d48734 size 0xc8 virtual false final false
- void _ctor(::Zenject::SignalBindingBindInfo bindInfo, ::System::Action_1<::bs_hook::Il2CppWrapperType> action, ::Zenject::SignalBus signalBus) ;
+ void _ctor(Zenject::SignalBindingBindInfo bindInfo, System::Action_1<::bs_hook::Il2CppWrapperType> action, Zenject::SignalBus signalBus) ;
 
 /// @brief Method OnSignalFired addr 0x2d487fc size 0x24 virtual false final false
  void OnSignalFired(::bs_hook::Il2CppWrapperType signal) ;
@@ -114,12 +113,11 @@ explicit SignalCallbackWrapper(::Zenject::SignalBindingBindInfo bindInfo, ::Syst
 static ::bs_hook::Il2CppWrapperType __zenCreate(::ArrayW<::bs_hook::Il2CppWrapperType> P_0) ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x2d48a38 size 0x394 virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::SignalCallbackWrapper);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::SignalCallbackWrapper, "Zenject", "SignalCallbackWrapper");
+NEED_NO_BOX(Zenject::SignalCallbackWrapper);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::SignalCallbackWrapper, "Zenject", "SignalCallbackWrapper");

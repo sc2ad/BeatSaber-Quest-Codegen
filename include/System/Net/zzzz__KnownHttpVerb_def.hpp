@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Collections::Specialized {
 class ListDictionary;
 }
@@ -82,47 +81,47 @@ constexpr void __set_ExpectNoContentResponse(bool value) ;
 
 constexpr bool __get_ExpectNoContentResponse() const;
 
-static ::System::Collections::Specialized::ListDictionary __declspec(property(get=__get_NamedHeaders, put=__set_NamedHeaders))  NamedHeaders;
+static System::Collections::Specialized::ListDictionary __declspec(property(get=__get_NamedHeaders, put=__set_NamedHeaders))  NamedHeaders;
 
-static void __set_NamedHeaders(::System::Collections::Specialized::ListDictionary value) ;
+static void __set_NamedHeaders(System::Collections::Specialized::ListDictionary value) ;
 
-static ::System::Collections::Specialized::ListDictionary __get_NamedHeaders() ;
+static System::Collections::Specialized::ListDictionary __get_NamedHeaders() ;
 
-static ::System::Net::KnownHttpVerb __declspec(property(get=__get_Get, put=__set_Get))  Get;
+static System::Net::KnownHttpVerb __declspec(property(get=__get_Get, put=__set_Get))  Get;
 
-static void __set_Get(::System::Net::KnownHttpVerb value) ;
+static void __set_Get(System::Net::KnownHttpVerb value) ;
 
-static ::System::Net::KnownHttpVerb __get_Get() ;
+static System::Net::KnownHttpVerb __get_Get() ;
 
-static ::System::Net::KnownHttpVerb __declspec(property(get=__get_Connect, put=__set_Connect))  Connect;
+static System::Net::KnownHttpVerb __declspec(property(get=__get_Connect, put=__set_Connect))  Connect;
 
-static void __set_Connect(::System::Net::KnownHttpVerb value) ;
+static void __set_Connect(System::Net::KnownHttpVerb value) ;
 
-static ::System::Net::KnownHttpVerb __get_Connect() ;
+static System::Net::KnownHttpVerb __get_Connect() ;
 
-static ::System::Net::KnownHttpVerb __declspec(property(get=__get_Head, put=__set_Head))  Head;
+static System::Net::KnownHttpVerb __declspec(property(get=__get_Head, put=__set_Head))  Head;
 
-static void __set_Head(::System::Net::KnownHttpVerb value) ;
+static void __set_Head(System::Net::KnownHttpVerb value) ;
 
-static ::System::Net::KnownHttpVerb __get_Head() ;
+static System::Net::KnownHttpVerb __get_Head() ;
 
-static ::System::Net::KnownHttpVerb __declspec(property(get=__get_Put, put=__set_Put))  Put;
+static System::Net::KnownHttpVerb __declspec(property(get=__get_Put, put=__set_Put))  Put;
 
-static void __set_Put(::System::Net::KnownHttpVerb value) ;
+static void __set_Put(System::Net::KnownHttpVerb value) ;
 
-static ::System::Net::KnownHttpVerb __get_Put() ;
+static System::Net::KnownHttpVerb __get_Put() ;
 
-static ::System::Net::KnownHttpVerb __declspec(property(get=__get_Post, put=__set_Post))  Post;
+static System::Net::KnownHttpVerb __declspec(property(get=__get_Post, put=__set_Post))  Post;
 
-static void __set_Post(::System::Net::KnownHttpVerb value) ;
+static void __set_Post(System::Net::KnownHttpVerb value) ;
 
-static ::System::Net::KnownHttpVerb __get_Post() ;
+static System::Net::KnownHttpVerb __get_Post() ;
 
-static ::System::Net::KnownHttpVerb __declspec(property(get=__get_MkCol, put=__set_MkCol))  MkCol;
+static System::Net::KnownHttpVerb __declspec(property(get=__get_MkCol, put=__set_MkCol))  MkCol;
 
-static void __set_MkCol(::System::Net::KnownHttpVerb value) ;
+static void __set_MkCol(System::Net::KnownHttpVerb value) ;
 
-static ::System::Net::KnownHttpVerb __get_MkCol() ;
+static System::Net::KnownHttpVerb __get_MkCol() ;
 
 
 // Methods
@@ -134,12 +133,11 @@ explicit KnownHttpVerb(::StringW name, bool requireContentBody, bool contentBody
  void _ctor(::StringW name, bool requireContentBody, bool contentBodyNotAllowed, bool connectRequest, bool expectNoContentResponse) ;
 
 /// @brief Method Parse addr 0x280d268 size 0xc8 virtual false final false
-static ::System::Net::KnownHttpVerb Parse(::StringW name) ;
+static System::Net::KnownHttpVerb Parse(::StringW name) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::KnownHttpVerb);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::KnownHttpVerb, "System.Net", "KnownHttpVerb");
+NEED_NO_BOX(System::Net::KnownHttpVerb);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::KnownHttpVerb, "System.Net", "KnownHttpVerb");

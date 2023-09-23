@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Math::Raw {
 class Interleave;
@@ -105,6 +104,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Math::Raw
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Math::Raw::Interleave);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::Raw::Interleave, "Org.BouncyCastle.Math.Raw", "Interleave");
+NEED_NO_BOX(Org::BouncyCastle::Math::Raw::Interleave);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Raw::Interleave, "Org.BouncyCastle.Math.Raw", "Interleave");

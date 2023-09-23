@@ -5,18 +5,17 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-class AsyncCallback;
-}
-namespace System::IO {
-struct SeekOrigin;
-}
 namespace System::IO {
 class Stream;
 }
 namespace System {
 class IAsyncResult;
+}
+namespace System::IO {
+struct SeekOrigin;
+}
+namespace System {
+class AsyncCallback;
 }
 // Forward declare root types
 namespace System::Net {
@@ -28,7 +27,7 @@ namespace System::Net {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3604))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8049))
 // CS Name: System.Net.RequestStream
-class CORDL_TYPE RequestStream : public ::System::IO::Stream {
+class CORDL_TYPE RequestStream : public System::IO::Stream {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -43,7 +42,7 @@ constexpr RequestStream(RequestStream const& ) noexcept = default;
 constexpr RequestStream(RequestStream&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RequestStream(void* ptr) noexcept : ::System::IO::Stream(ptr) {
+constexpr explicit RequestStream(void* ptr) noexcept : System::IO::Stream(ptr) {
 }
 
 
@@ -94,11 +93,11 @@ constexpr void __set_disposed(bool value) ;
 
 constexpr bool __get_disposed() const;
 
- ::System::IO::Stream __declspec(property(get=__get_stream, put=__set_stream))  stream;
+ System::IO::Stream __declspec(property(get=__get_stream, put=__set_stream))  stream;
 
-constexpr void __set_stream(::System::IO::Stream value) ;
+constexpr void __set_stream(System::IO::Stream value) ;
 
-constexpr ::System::IO::Stream __get_stream() const;
+constexpr System::IO::Stream __get_stream() const;
 
 
 // Properties
@@ -116,17 +115,17 @@ constexpr ::System::IO::Stream __get_stream() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
-explicit RequestStream(::System::IO::Stream stream, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t length) ;
+// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
+explicit RequestStream(System::IO::Stream stream, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t length) ;
 
 /// @brief Method .ctor addr 0x2843050 size 0x8 virtual false final false
- void _ctor(::System::IO::Stream stream, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t length) ;
+ void _ctor(System::IO::Stream stream, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t length) ;
 
-// Ctor Parameters [CppParam { name: "stream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "contentlength", ty: "int64_t", modifiers: "", def_value: None }]
-explicit RequestStream(::System::IO::Stream stream, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t length, int64_t contentlength) ;
+// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "contentlength", ty: "int64_t", modifiers: "", def_value: None }]
+explicit RequestStream(System::IO::Stream stream, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t length, int64_t contentlength) ;
 
 /// @brief Method .ctor addr 0x2843058 size 0x98 virtual false final false
- void _ctor(::System::IO::Stream stream, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t length, int64_t contentlength) ;
+ void _ctor(System::IO::Stream stream, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t length, int64_t contentlength) ;
 
 /// @brief Method get_CanRead addr 0x28430f0 size 0x8 virtual true final false
  bool get_CanRead() ;
@@ -159,13 +158,13 @@ explicit RequestStream(::System::IO::Stream stream, ::ArrayW<uint8_t> buffer, in
  int32_t Read(ByRef<::ArrayW<uint8_t>> buffer, int32_t offset, int32_t count) ;
 
 /// @brief Method BeginRead addr 0x2843590 size 0x20c virtual true final false
- ::System::IAsyncResult BeginRead(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, ::System::AsyncCallback cback, ::bs_hook::Il2CppWrapperType state) ;
+ System::IAsyncResult BeginRead(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, System::AsyncCallback cback, ::bs_hook::Il2CppWrapperType state) ;
 
 /// @brief Method EndRead addr 0x284379c size 0x29c virtual true final false
- int32_t EndRead(::System::IAsyncResult ares) ;
+ int32_t EndRead(System::IAsyncResult ares) ;
 
 /// @brief Method Seek addr 0x2843a38 size 0x40 virtual true final false
- int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin) ;
+ int64_t Seek(int64_t offset, System::IO::SeekOrigin origin) ;
 
 /// @brief Method SetLength addr 0x2843a78 size 0x40 virtual true final false
  void SetLength(int64_t value) ;
@@ -174,15 +173,14 @@ explicit RequestStream(::System::IO::Stream stream, ::ArrayW<uint8_t> buffer, in
  void Write(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count) ;
 
 /// @brief Method BeginWrite addr 0x2843af8 size 0x40 virtual true final false
- ::System::IAsyncResult BeginWrite(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, ::System::AsyncCallback cback, ::bs_hook::Il2CppWrapperType state) ;
+ System::IAsyncResult BeginWrite(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, System::AsyncCallback cback, ::bs_hook::Il2CppWrapperType state) ;
 
 /// @brief Method EndWrite addr 0x2843b38 size 0x40 virtual true final false
- void EndWrite(::System::IAsyncResult async_result) ;
+ void EndWrite(System::IAsyncResult async_result) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::RequestStream);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::RequestStream, "System.Net", "RequestStream");
+NEED_NO_BOX(System::Net::RequestStream);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::RequestStream, "System.Net", "RequestStream");

@@ -6,49 +6,62 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRPlugin__SpaceQueryResult;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace GlobalNamespace {
-class OVRScenePrefabOverride;
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
 class OVRScenePlane;
-}
-namespace GlobalNamespace {
-class OVRCameraRig;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace GlobalNamespace {
-class OVRSceneAnchor;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace System {
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections::Generic {
 template<typename T>
-class Comparison_1;
+class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
+}
+namespace GlobalNamespace {
+class OVRCameraRig;
+}
+namespace System {
+class Action;
 }
 namespace System {
 template<typename T>
 struct Nullable_1;
 }
 namespace GlobalNamespace {
-struct OVRSpace;
+class OVRScenePrefabOverride;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRPlugin__SpaceComponentType;
+struct OVRSpace;
 }
-namespace System {
-class Action;
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__SpaceComponentType;
+}
+namespace GlobalNamespace {
+class OVRSceneAnchor;
 }
 namespace System {
 struct Guid;
@@ -57,51 +70,37 @@ namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
 }
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class IEnumerator;
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__SpaceQueryResult;
 }
 namespace System {
-class IDisposable;
+template<typename T>
+class Comparison_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRSceneManager__QueryMode;
+struct GlobalNamespace__OVRSceneManager__QueryMode;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRSceneManager__Classification;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRSceneManager__Development;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRSceneManager__RoomLayoutInformation;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRSceneManager____c__DisplayClass47_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d;
 }
 namespace GlobalNamespace {
 class OVRSceneManager;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__OVRSceneManager__Classification;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__OVRSceneManager__Development;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__OVRSceneManager__RoomLayoutInformation;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__OVRSceneManager____c__DisplayClass47_0;
-}
-namespace GlobalNamespace {
-class ______GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRSceneManager__LogForwarder;
+struct GlobalNamespace__OVRSceneManager__LogForwarder;
 }
 // Type: ::Classification
 namespace GlobalNamespace {
@@ -109,37 +108,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8819))
 // CS Name: OVRSceneManager::Classification
-class CORDL_TYPE ____GlobalNamespace__OVRSceneManager__Classification : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__OVRSceneManager__Classification : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____GlobalNamespace__OVRSceneManager__Classification() = default;
+virtual ~GlobalNamespace__OVRSceneManager__Classification() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OVRSceneManager__Classification", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__OVRSceneManager__Classification(____GlobalNamespace__OVRSceneManager__Classification const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OVRSceneManager__Classification", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__OVRSceneManager__Classification(GlobalNamespace__OVRSceneManager__Classification const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OVRSceneManager__Classification", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__OVRSceneManager__Classification(____GlobalNamespace__OVRSceneManager__Classification&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OVRSceneManager__Classification", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__OVRSceneManager__Classification(GlobalNamespace__OVRSceneManager__Classification&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVRSceneManager__Classification(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__OVRSceneManager__Classification(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__OVRSceneManager__Classification& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__OVRSceneManager__Classification& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OVRSceneManager__Classification& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__OVRSceneManager__Classification& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OVRSceneManager__Classification& operator=(____GlobalNamespace__OVRSceneManager__Classification&& o) noexcept = default;
-  constexpr ____GlobalNamespace__OVRSceneManager__Classification& operator=(____GlobalNamespace__OVRSceneManager__Classification const& o) noexcept = default;
+  constexpr GlobalNamespace__OVRSceneManager__Classification& operator=(GlobalNamespace__OVRSceneManager__Classification&& o) noexcept = default;
+  constexpr GlobalNamespace__OVRSceneManager__Classification& operator=(GlobalNamespace__OVRSceneManager__Classification const& o) noexcept = default;
                 
 
 
@@ -184,22 +183,22 @@ static constexpr ::ConstString  Lamp{u"LAMP"};
 /// @brief Field Plant offset 0
 static constexpr ::ConstString  Plant{u"PLANT"};
 
-static ::System::Collections::Generic::IReadOnlyList_1<::StringW> __declspec(property(get=__get__List_k__BackingField, put=__set__List_k__BackingField))  _List_k__BackingField;
+static System::Collections::Generic::IReadOnlyList_1<::StringW> __declspec(property(get=__get__List_k__BackingField, put=__set__List_k__BackingField))  _List_k__BackingField;
 
-static void __set__List_k__BackingField(::System::Collections::Generic::IReadOnlyList_1<::StringW> value) ;
+static void __set__List_k__BackingField(System::Collections::Generic::IReadOnlyList_1<::StringW> value) ;
 
-static ::System::Collections::Generic::IReadOnlyList_1<::StringW> __get__List_k__BackingField() ;
+static System::Collections::Generic::IReadOnlyList_1<::StringW> __get__List_k__BackingField() ;
 
 
 // Properties
 
-static ::System::Collections::Generic::IReadOnlyList_1<::StringW> __declspec(property(get=get_List))  List;
+static System::Collections::Generic::IReadOnlyList_1<::StringW> __declspec(property(get=get_List))  List;
 
 
 // Methods
 
 /// @brief Method get_List addr 0x2608b5c size 0x58 virtual false final false
-static ::System::Collections::Generic::IReadOnlyList_1<::StringW> get_List() ;
+static System::Collections::Generic::IReadOnlyList_1<::StringW> get_List() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -211,65 +210,65 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8820))
 // CS Name: OVRSceneManager::RoomLayoutInformation
-class CORDL_TYPE ____GlobalNamespace__OVRSceneManager__RoomLayoutInformation : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__OVRSceneManager__RoomLayoutInformation : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____GlobalNamespace__OVRSceneManager__RoomLayoutInformation() = default;
+virtual ~GlobalNamespace__OVRSceneManager__RoomLayoutInformation() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OVRSceneManager__RoomLayoutInformation", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__OVRSceneManager__RoomLayoutInformation(____GlobalNamespace__OVRSceneManager__RoomLayoutInformation const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OVRSceneManager__RoomLayoutInformation", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__OVRSceneManager__RoomLayoutInformation(GlobalNamespace__OVRSceneManager__RoomLayoutInformation const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OVRSceneManager__RoomLayoutInformation", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__OVRSceneManager__RoomLayoutInformation(____GlobalNamespace__OVRSceneManager__RoomLayoutInformation&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OVRSceneManager__RoomLayoutInformation", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__OVRSceneManager__RoomLayoutInformation(GlobalNamespace__OVRSceneManager__RoomLayoutInformation&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVRSceneManager__RoomLayoutInformation(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__OVRSceneManager__RoomLayoutInformation(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__OVRSceneManager__RoomLayoutInformation& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__OVRSceneManager__RoomLayoutInformation& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OVRSceneManager__RoomLayoutInformation& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__OVRSceneManager__RoomLayoutInformation& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OVRSceneManager__RoomLayoutInformation& operator=(____GlobalNamespace__OVRSceneManager__RoomLayoutInformation&& o) noexcept = default;
-  constexpr ____GlobalNamespace__OVRSceneManager__RoomLayoutInformation& operator=(____GlobalNamespace__OVRSceneManager__RoomLayoutInformation const& o) noexcept = default;
+  constexpr GlobalNamespace__OVRSceneManager__RoomLayoutInformation& operator=(GlobalNamespace__OVRSceneManager__RoomLayoutInformation&& o) noexcept = default;
+  constexpr GlobalNamespace__OVRSceneManager__RoomLayoutInformation& operator=(GlobalNamespace__OVRSceneManager__RoomLayoutInformation const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::GlobalNamespace::OVRScenePlane __declspec(property(get=__get_Floor, put=__set_Floor))  Floor;
+ GlobalNamespace::OVRScenePlane __declspec(property(get=__get_Floor, put=__set_Floor))  Floor;
 
-constexpr void __set_Floor(::GlobalNamespace::OVRScenePlane value) ;
+constexpr void __set_Floor(GlobalNamespace::OVRScenePlane value) ;
 
-constexpr ::GlobalNamespace::OVRScenePlane __get_Floor() const;
+constexpr GlobalNamespace::OVRScenePlane __get_Floor() const;
 
- ::GlobalNamespace::OVRScenePlane __declspec(property(get=__get_Ceiling, put=__set_Ceiling))  Ceiling;
+ GlobalNamespace::OVRScenePlane __declspec(property(get=__get_Ceiling, put=__set_Ceiling))  Ceiling;
 
-constexpr void __set_Ceiling(::GlobalNamespace::OVRScenePlane value) ;
+constexpr void __set_Ceiling(GlobalNamespace::OVRScenePlane value) ;
 
-constexpr ::GlobalNamespace::OVRScenePlane __get_Ceiling() const;
+constexpr GlobalNamespace::OVRScenePlane __get_Ceiling() const;
 
- ::System::Collections::Generic::List_1<::GlobalNamespace::OVRScenePlane> __declspec(property(get=__get_Walls, put=__set_Walls))  Walls;
+ System::Collections::Generic::List_1<GlobalNamespace::OVRScenePlane> __declspec(property(get=__get_Walls, put=__set_Walls))  Walls;
 
-constexpr void __set_Walls(::System::Collections::Generic::List_1<::GlobalNamespace::OVRScenePlane> value) ;
+constexpr void __set_Walls(System::Collections::Generic::List_1<GlobalNamespace::OVRScenePlane> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::OVRScenePlane> __get_Walls() const;
+constexpr System::Collections::Generic::List_1<GlobalNamespace::OVRScenePlane> __get_Walls() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__OVRSceneManager__RoomLayoutInformation() ;
+explicit GlobalNamespace__OVRSceneManager__RoomLayoutInformation() ;
 
 /// @brief Method .ctor addr 0x260618c size 0x7c virtual false final false
  void _ctor() ;
@@ -284,20 +283,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8821))
 // CS Name: OVRSceneManager::QueryMode
-struct CORDL_TYPE ____GlobalNamespace__OVRSceneManager__QueryMode : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__OVRSceneManager__QueryMode : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__OVRSceneManager__QueryMode(int32_t value__) noexcept;
+constexpr GlobalNamespace__OVRSceneManager__QueryMode(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__OVRSceneManager__QueryMode(____GlobalNamespace__OVRSceneManager__QueryMode const&) = default;
-                    constexpr ____GlobalNamespace__OVRSceneManager__QueryMode(____GlobalNamespace__OVRSceneManager__QueryMode&&) = default;
-                    constexpr ____GlobalNamespace__OVRSceneManager__QueryMode& operator=(____GlobalNamespace__OVRSceneManager__QueryMode const& o) {
+                    constexpr GlobalNamespace__OVRSceneManager__QueryMode(GlobalNamespace__OVRSceneManager__QueryMode const&) = default;
+                    constexpr GlobalNamespace__OVRSceneManager__QueryMode(GlobalNamespace__OVRSceneManager__QueryMode&&) = default;
+                    constexpr GlobalNamespace__OVRSceneManager__QueryMode& operator=(GlobalNamespace__OVRSceneManager__QueryMode const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__OVRSceneManager__QueryMode& operator=(____GlobalNamespace__OVRSceneManager__QueryMode&& o) noexcept {
+                    constexpr GlobalNamespace__OVRSceneManager__QueryMode& operator=(GlobalNamespace__OVRSceneManager__QueryMode&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -310,7 +309,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVRSceneManager__QueryMode(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__OVRSceneManager__QueryMode(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -318,7 +317,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__OVRSceneManager__QueryMode_Unwrapped : int32_t {
+enum class __GlobalNamespace__OVRSceneManager__QueryMode_Unwrapped : int32_t {
 __QueryAllAnchors = 0,
 __QueryByUuid = 1,
 __QueryAllBounded2DEnabled = 2,
@@ -327,8 +326,8 @@ __QueryAllRoomLayoutEnabledForRoomBox = 4,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__OVRSceneManager__QueryMode_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__OVRSceneManager__QueryMode_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__OVRSceneManager__QueryMode_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__OVRSceneManager__QueryMode_Unwrapped>(__instance);
 }
 
 
@@ -341,19 +340,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field QueryAllAnchors offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRSceneManager__QueryMode const QueryAllAnchors;
+static GlobalNamespace::GlobalNamespace__OVRSceneManager__QueryMode const QueryAllAnchors;
 
 /// @brief Field QueryByUuid offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRSceneManager__QueryMode const QueryByUuid;
+static GlobalNamespace::GlobalNamespace__OVRSceneManager__QueryMode const QueryByUuid;
 
 /// @brief Field QueryAllBounded2DEnabled offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRSceneManager__QueryMode const QueryAllBounded2DEnabled;
+static GlobalNamespace::GlobalNamespace__OVRSceneManager__QueryMode const QueryAllBounded2DEnabled;
 
 /// @brief Field QueryAllRoomLayoutEnabledForAllEntitiesInside offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRSceneManager__QueryMode const QueryAllRoomLayoutEnabledForAllEntitiesInside;
+static GlobalNamespace::GlobalNamespace__OVRSceneManager__QueryMode const QueryAllRoomLayoutEnabledForAllEntitiesInside;
 
 /// @brief Field QueryAllRoomLayoutEnabledForRoomBox offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRSceneManager__QueryMode const QueryAllRoomLayoutEnabledForRoomBox;
+static GlobalNamespace::GlobalNamespace__OVRSceneManager__QueryMode const QueryAllRoomLayoutEnabledForRoomBox;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -365,17 +364,17 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8822))
 // CS Name: OVRSceneManager::LogForwarder
-struct CORDL_TYPE ____GlobalNamespace__OVRSceneManager__LogForwarder : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__OVRSceneManager__LogForwarder : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 
-                    constexpr ____GlobalNamespace__OVRSceneManager__LogForwarder(____GlobalNamespace__OVRSceneManager__LogForwarder const&) = default;
-                    constexpr ____GlobalNamespace__OVRSceneManager__LogForwarder(____GlobalNamespace__OVRSceneManager__LogForwarder&&) = default;
-                    constexpr ____GlobalNamespace__OVRSceneManager__LogForwarder& operator=(____GlobalNamespace__OVRSceneManager__LogForwarder const& o) {
+                    constexpr GlobalNamespace__OVRSceneManager__LogForwarder(GlobalNamespace__OVRSceneManager__LogForwarder const&) = default;
+                    constexpr GlobalNamespace__OVRSceneManager__LogForwarder(GlobalNamespace__OVRSceneManager__LogForwarder&&) = default;
+                    constexpr GlobalNamespace__OVRSceneManager__LogForwarder& operator=(GlobalNamespace__OVRSceneManager__LogForwarder const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__OVRSceneManager__LogForwarder& operator=(____GlobalNamespace__OVRSceneManager__LogForwarder&& o) noexcept {
+                    constexpr GlobalNamespace__OVRSceneManager__LogForwarder& operator=(GlobalNamespace__OVRSceneManager__LogForwarder&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -388,7 +387,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x1};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVRSceneManager__LogForwarder(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__OVRSceneManager__LogForwarder(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -418,37 +417,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8823))
 // CS Name: OVRSceneManager::Development
-class CORDL_TYPE ____GlobalNamespace__OVRSceneManager__Development : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__OVRSceneManager__Development : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____GlobalNamespace__OVRSceneManager__Development() = default;
+virtual ~GlobalNamespace__OVRSceneManager__Development() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OVRSceneManager__Development", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__OVRSceneManager__Development(____GlobalNamespace__OVRSceneManager__Development const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OVRSceneManager__Development", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__OVRSceneManager__Development(GlobalNamespace__OVRSceneManager__Development const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OVRSceneManager__Development", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__OVRSceneManager__Development(____GlobalNamespace__OVRSceneManager__Development&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OVRSceneManager__Development", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__OVRSceneManager__Development(GlobalNamespace__OVRSceneManager__Development&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVRSceneManager__Development(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__OVRSceneManager__Development(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__OVRSceneManager__Development& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__OVRSceneManager__Development& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OVRSceneManager__Development& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__OVRSceneManager__Development& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OVRSceneManager__Development& operator=(____GlobalNamespace__OVRSceneManager__Development&& o) noexcept = default;
-  constexpr ____GlobalNamespace__OVRSceneManager__Development& operator=(____GlobalNamespace__OVRSceneManager__Development const& o) noexcept = default;
+  constexpr GlobalNamespace__OVRSceneManager__Development& operator=(GlobalNamespace__OVRSceneManager__Development&& o) noexcept = default;
+  constexpr GlobalNamespace__OVRSceneManager__Development& operator=(GlobalNamespace__OVRSceneManager__Development const& o) noexcept = default;
                 
 
 
@@ -473,52 +472,52 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8824))
 // CS Name: OVRSceneManager::<>c__DisplayClass47_0::<<ProcessQueryResult>g__EnabledComponents|0>d
-class CORDL_TYPE ______GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerable_1<::StringW>
-constexpr operator  ::System::Collections::Generic::IEnumerable_1<::StringW>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerable_1<::StringW>
+constexpr operator  System::Collections::Generic::IEnumerable_1<::StringW>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::StringW>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::StringW>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::StringW>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::StringW>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~______GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d() = default;
+virtual ~GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "______GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d", modifiers: " const&", def_value: None }]
-constexpr ______GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d(______GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d(GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "______GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d", modifiers: "&&", def_value: None }]
-constexpr ______GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d(______GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d(GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ______GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ______GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ______GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ______GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d& operator=(______GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d&& o) noexcept = default;
-  constexpr ______GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d& operator=(______GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d const& o) noexcept = default;
+  constexpr GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d& operator=(GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d&& o) noexcept = default;
+  constexpr GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d& operator=(GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d const& o) noexcept = default;
                 
 
 
@@ -542,11 +541,11 @@ constexpr void __set___l__initialThreadId(int32_t value) ;
 
 constexpr int32_t __get___l__initialThreadId() const;
 
- ::GlobalNamespace::____GlobalNamespace__OVRSceneManager____c__DisplayClass47_0 __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::GlobalNamespace__OVRSceneManager____c__DisplayClass47_0 __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::____GlobalNamespace__OVRSceneManager____c__DisplayClass47_0 value) ;
+constexpr void __set___4__this(GlobalNamespace::GlobalNamespace__OVRSceneManager____c__DisplayClass47_0 value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVRSceneManager____c__DisplayClass47_0 __get___4__this() const;
+constexpr GlobalNamespace::GlobalNamespace__OVRSceneManager____c__DisplayClass47_0 __get___4__this() const;
 
 
 // Properties
@@ -559,7 +558,7 @@ constexpr ::GlobalNamespace::____GlobalNamespace__OVRSceneManager____c__DisplayC
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ______GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d(int32_t __1__state) ;
+explicit GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2609190 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -580,10 +579,10 @@ explicit ______GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____Proces
  ::bs_hook::Il2CppWrapperType System_Collections_IEnumerator_get_Current() ;
 
 /// @brief Method System.Collections.Generic.IEnumerable<System.String>.GetEnumerator addr 0x2609434 size 0xa4 virtual true final true
- ::System::Collections::Generic::IEnumerator_1<::StringW> System_Collections_Generic_IEnumerable_System_String__GetEnumerator() ;
+ System::Collections::Generic::IEnumerator_1<::StringW> System_Collections_Generic_IEnumerable_System_String__GetEnumerator() ;
 
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x26094d8 size 0x4 virtual true final true
- ::System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
+ System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -595,39 +594,39 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8825))
 // CS Name: OVRSceneManager::<>c__DisplayClass47_0
-class CORDL_TYPE ____GlobalNamespace__OVRSceneManager____c__DisplayClass47_0 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__OVRSceneManager____c__DisplayClass47_0 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using __ProcessQueryResult_g__EnabledComponents_0_d = ::GlobalNamespace::______GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d;
+using __ProcessQueryResult_g__EnabledComponents_0_d = GlobalNamespace::GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____GlobalNamespace__OVRSceneManager____c__DisplayClass47_0() = default;
+virtual ~GlobalNamespace__OVRSceneManager____c__DisplayClass47_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OVRSceneManager____c__DisplayClass47_0", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__OVRSceneManager____c__DisplayClass47_0(____GlobalNamespace__OVRSceneManager____c__DisplayClass47_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OVRSceneManager____c__DisplayClass47_0", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__OVRSceneManager____c__DisplayClass47_0(GlobalNamespace__OVRSceneManager____c__DisplayClass47_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OVRSceneManager____c__DisplayClass47_0", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__OVRSceneManager____c__DisplayClass47_0(____GlobalNamespace__OVRSceneManager____c__DisplayClass47_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OVRSceneManager____c__DisplayClass47_0", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__OVRSceneManager____c__DisplayClass47_0(GlobalNamespace__OVRSceneManager____c__DisplayClass47_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVRSceneManager____c__DisplayClass47_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__OVRSceneManager____c__DisplayClass47_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__OVRSceneManager____c__DisplayClass47_0& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__OVRSceneManager____c__DisplayClass47_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OVRSceneManager____c__DisplayClass47_0& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__OVRSceneManager____c__DisplayClass47_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OVRSceneManager____c__DisplayClass47_0& operator=(____GlobalNamespace__OVRSceneManager____c__DisplayClass47_0&& o) noexcept = default;
-  constexpr ____GlobalNamespace__OVRSceneManager____c__DisplayClass47_0& operator=(____GlobalNamespace__OVRSceneManager____c__DisplayClass47_0 const& o) noexcept = default;
+  constexpr GlobalNamespace__OVRSceneManager____c__DisplayClass47_0& operator=(GlobalNamespace__OVRSceneManager____c__DisplayClass47_0&& o) noexcept = default;
+  constexpr GlobalNamespace__OVRSceneManager____c__DisplayClass47_0& operator=(GlobalNamespace__OVRSceneManager____c__DisplayClass47_0 const& o) noexcept = default;
                 
 
 
@@ -661,13 +660,13 @@ constexpr bool __get_roomLayoutEnabled() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__OVRSceneManager____c__DisplayClass47_0() ;
+explicit GlobalNamespace__OVRSceneManager____c__DisplayClass47_0() ;
 
 /// @brief Method .ctor addr 0x2608848 size 0x8 virtual false final false
  void _ctor() ;
 
 /// @brief Method <ProcessQueryResult>g__EnabledComponents|0 addr 0x2608850 size 0x78 virtual false final false
- ::System::Collections::Generic::IEnumerable_1<::StringW> _ProcessQueryResult_g__EnabledComponents_0() ;
+ System::Collections::Generic::IEnumerable_1<::StringW> _ProcessQueryResult_g__EnabledComponents_0() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -679,20 +678,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8826))
 // CS Name: OVRSceneManager
-class CORDL_TYPE OVRSceneManager : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OVRSceneManager : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using __c__DisplayClass47_0 = ::GlobalNamespace::____GlobalNamespace__OVRSceneManager____c__DisplayClass47_0;
+using __c__DisplayClass47_0 = GlobalNamespace::GlobalNamespace__OVRSceneManager____c__DisplayClass47_0;
 
-using Development = ::GlobalNamespace::____GlobalNamespace__OVRSceneManager__Development;
+using Development = GlobalNamespace::GlobalNamespace__OVRSceneManager__Development;
 
-using LogForwarder = ::GlobalNamespace::____GlobalNamespace__OVRSceneManager__LogForwarder;
+using LogForwarder = GlobalNamespace::GlobalNamespace__OVRSceneManager__LogForwarder;
 
-using QueryMode = ::GlobalNamespace::____GlobalNamespace__OVRSceneManager__QueryMode;
+using QueryMode = GlobalNamespace::GlobalNamespace__OVRSceneManager__QueryMode;
 
-using RoomLayoutInformation = ::GlobalNamespace::____GlobalNamespace__OVRSceneManager__RoomLayoutInformation;
+using RoomLayoutInformation = GlobalNamespace::GlobalNamespace__OVRSceneManager__RoomLayoutInformation;
 
-using Classification = ::GlobalNamespace::____GlobalNamespace__OVRSceneManager__Classification;
+using Classification = GlobalNamespace::GlobalNamespace__OVRSceneManager__Classification;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xb8};
@@ -706,7 +705,7 @@ constexpr OVRSceneManager(OVRSceneManager const& ) noexcept = default;
 constexpr OVRSceneManager(OVRSceneManager&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OVRSceneManager(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OVRSceneManager(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -727,23 +726,23 @@ constexpr explicit OVRSceneManager(void* ptr) noexcept : ::UnityEngine::MonoBeha
 
 // Fields
 
- ::GlobalNamespace::OVRSceneAnchor __declspec(property(get=__get_PlanePrefab, put=__set_PlanePrefab))  PlanePrefab;
+ GlobalNamespace::OVRSceneAnchor __declspec(property(get=__get_PlanePrefab, put=__set_PlanePrefab))  PlanePrefab;
 
-constexpr void __set_PlanePrefab(::GlobalNamespace::OVRSceneAnchor value) ;
+constexpr void __set_PlanePrefab(GlobalNamespace::OVRSceneAnchor value) ;
 
-constexpr ::GlobalNamespace::OVRSceneAnchor __get_PlanePrefab() const;
+constexpr GlobalNamespace::OVRSceneAnchor __get_PlanePrefab() const;
 
- ::GlobalNamespace::OVRSceneAnchor __declspec(property(get=__get_VolumePrefab, put=__set_VolumePrefab))  VolumePrefab;
+ GlobalNamespace::OVRSceneAnchor __declspec(property(get=__get_VolumePrefab, put=__set_VolumePrefab))  VolumePrefab;
 
-constexpr void __set_VolumePrefab(::GlobalNamespace::OVRSceneAnchor value) ;
+constexpr void __set_VolumePrefab(GlobalNamespace::OVRSceneAnchor value) ;
 
-constexpr ::GlobalNamespace::OVRSceneAnchor __get_VolumePrefab() const;
+constexpr GlobalNamespace::OVRSceneAnchor __get_VolumePrefab() const;
 
- ::System::Collections::Generic::List_1<::GlobalNamespace::OVRScenePrefabOverride> __declspec(property(get=__get_PrefabOverrides, put=__set_PrefabOverrides))  PrefabOverrides;
+ System::Collections::Generic::List_1<GlobalNamespace::OVRScenePrefabOverride> __declspec(property(get=__get_PrefabOverrides, put=__set_PrefabOverrides))  PrefabOverrides;
 
-constexpr void __set_PrefabOverrides(::System::Collections::Generic::List_1<::GlobalNamespace::OVRScenePrefabOverride> value) ;
+constexpr void __set_PrefabOverrides(System::Collections::Generic::List_1<GlobalNamespace::OVRScenePrefabOverride> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::OVRScenePrefabOverride> __get_PrefabOverrides() const;
+constexpr System::Collections::Generic::List_1<GlobalNamespace::OVRScenePrefabOverride> __get_PrefabOverrides() const;
 
  bool __declspec(property(get=__get_VerboseLogging, put=__set_VerboseLogging))  VerboseLogging;
 
@@ -757,59 +756,59 @@ constexpr void __set_MaxSceneAnchorUpdatesPerFrame(int32_t value) ;
 
 constexpr int32_t __get_MaxSceneAnchorUpdatesPerFrame() const;
 
- ::System::Action __declspec(property(get=__get_SceneModelLoadedSuccessfully, put=__set_SceneModelLoadedSuccessfully))  SceneModelLoadedSuccessfully;
+ System::Action __declspec(property(get=__get_SceneModelLoadedSuccessfully, put=__set_SceneModelLoadedSuccessfully))  SceneModelLoadedSuccessfully;
 
-constexpr void __set_SceneModelLoadedSuccessfully(::System::Action value) ;
+constexpr void __set_SceneModelLoadedSuccessfully(System::Action value) ;
 
-constexpr ::System::Action __get_SceneModelLoadedSuccessfully() const;
+constexpr System::Action __get_SceneModelLoadedSuccessfully() const;
 
- ::System::Action __declspec(property(get=__get_NoSceneModelToLoad, put=__set_NoSceneModelToLoad))  NoSceneModelToLoad;
+ System::Action __declspec(property(get=__get_NoSceneModelToLoad, put=__set_NoSceneModelToLoad))  NoSceneModelToLoad;
 
-constexpr void __set_NoSceneModelToLoad(::System::Action value) ;
+constexpr void __set_NoSceneModelToLoad(System::Action value) ;
 
-constexpr ::System::Action __get_NoSceneModelToLoad() const;
+constexpr System::Action __get_NoSceneModelToLoad() const;
 
- ::System::Action __declspec(property(get=__get_SceneCaptureReturnedWithoutError, put=__set_SceneCaptureReturnedWithoutError))  SceneCaptureReturnedWithoutError;
+ System::Action __declspec(property(get=__get_SceneCaptureReturnedWithoutError, put=__set_SceneCaptureReturnedWithoutError))  SceneCaptureReturnedWithoutError;
 
-constexpr void __set_SceneCaptureReturnedWithoutError(::System::Action value) ;
+constexpr void __set_SceneCaptureReturnedWithoutError(System::Action value) ;
 
-constexpr ::System::Action __get_SceneCaptureReturnedWithoutError() const;
+constexpr System::Action __get_SceneCaptureReturnedWithoutError() const;
 
- ::System::Action __declspec(property(get=__get_UnexpectedErrorWithSceneCapture, put=__set_UnexpectedErrorWithSceneCapture))  UnexpectedErrorWithSceneCapture;
+ System::Action __declspec(property(get=__get_UnexpectedErrorWithSceneCapture, put=__set_UnexpectedErrorWithSceneCapture))  UnexpectedErrorWithSceneCapture;
 
-constexpr void __set_UnexpectedErrorWithSceneCapture(::System::Action value) ;
+constexpr void __set_UnexpectedErrorWithSceneCapture(System::Action value) ;
 
-constexpr ::System::Action __get_UnexpectedErrorWithSceneCapture() const;
+constexpr System::Action __get_UnexpectedErrorWithSceneCapture() const;
 
- ::GlobalNamespace::____GlobalNamespace__OVRSceneManager__RoomLayoutInformation __declspec(property(get=__get_RoomLayout, put=__set_RoomLayout))  RoomLayout;
+ GlobalNamespace::GlobalNamespace__OVRSceneManager__RoomLayoutInformation __declspec(property(get=__get_RoomLayout, put=__set_RoomLayout))  RoomLayout;
 
-constexpr void __set_RoomLayout(::GlobalNamespace::____GlobalNamespace__OVRSceneManager__RoomLayoutInformation value) ;
+constexpr void __set_RoomLayout(GlobalNamespace::GlobalNamespace__OVRSceneManager__RoomLayoutInformation value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVRSceneManager__RoomLayoutInformation __get_RoomLayout() const;
+constexpr GlobalNamespace::GlobalNamespace__OVRSceneManager__RoomLayoutInformation __get_RoomLayout() const;
 
- ::System::Collections::Generic::Dictionary_2<::System::Guid,int32_t> __declspec(property(get=__get__orderedRoomGuids, put=__set__orderedRoomGuids))  _orderedRoomGuids;
+ System::Collections::Generic::Dictionary_2<System::Guid,int32_t> __declspec(property(get=__get__orderedRoomGuids, put=__set__orderedRoomGuids))  _orderedRoomGuids;
 
-constexpr void __set__orderedRoomGuids(::System::Collections::Generic::Dictionary_2<::System::Guid,int32_t> value) ;
+constexpr void __set__orderedRoomGuids(System::Collections::Generic::Dictionary_2<System::Guid,int32_t> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::System::Guid,int32_t> __get__orderedRoomGuids() const;
+constexpr System::Collections::Generic::Dictionary_2<System::Guid,int32_t> __get__orderedRoomGuids() const;
 
- ::System::Comparison_1<::GlobalNamespace::OVRScenePlane> __declspec(property(get=__get__wallOrderComparer, put=__set__wallOrderComparer))  _wallOrderComparer;
+ System::Comparison_1<GlobalNamespace::OVRScenePlane> __declspec(property(get=__get__wallOrderComparer, put=__set__wallOrderComparer))  _wallOrderComparer;
 
-constexpr void __set__wallOrderComparer(::System::Comparison_1<::GlobalNamespace::OVRScenePlane> value) ;
+constexpr void __set__wallOrderComparer(System::Comparison_1<GlobalNamespace::OVRScenePlane> value) ;
 
-constexpr ::System::Comparison_1<::GlobalNamespace::OVRScenePlane> __get__wallOrderComparer() const;
+constexpr System::Comparison_1<GlobalNamespace::OVRScenePlane> __get__wallOrderComparer() const;
 
- ::System::Collections::Generic::List_1<::System::Guid> __declspec(property(get=__get__uuidsToQuery, put=__set__uuidsToQuery))  _uuidsToQuery;
+ System::Collections::Generic::List_1<System::Guid> __declspec(property(get=__get__uuidsToQuery, put=__set__uuidsToQuery))  _uuidsToQuery;
 
-constexpr void __set__uuidsToQuery(::System::Collections::Generic::List_1<::System::Guid> value) ;
+constexpr void __set__uuidsToQuery(System::Collections::Generic::List_1<System::Guid> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::System::Guid> __get__uuidsToQuery() const;
+constexpr System::Collections::Generic::List_1<System::Guid> __get__uuidsToQuery() const;
 
- ::GlobalNamespace::____GlobalNamespace__OVRSceneManager__QueryMode __declspec(property(get=__get__currentQueryMode, put=__set__currentQueryMode))  _currentQueryMode;
+ GlobalNamespace::GlobalNamespace__OVRSceneManager__QueryMode __declspec(property(get=__get__currentQueryMode, put=__set__currentQueryMode))  _currentQueryMode;
 
-constexpr void __set__currentQueryMode(::GlobalNamespace::____GlobalNamespace__OVRSceneManager__QueryMode value) ;
+constexpr void __set__currentQueryMode(GlobalNamespace::GlobalNamespace__OVRSceneManager__QueryMode value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVRSceneManager__QueryMode __get__currentQueryMode() const;
+constexpr GlobalNamespace::GlobalNamespace__OVRSceneManager__QueryMode __get__currentQueryMode() const;
 
  uint64_t __declspec(property(get=__get__sceneCaptureRequestId, put=__set__sceneCaptureRequestId))  _sceneCaptureRequestId;
 
@@ -817,23 +816,23 @@ constexpr void __set__sceneCaptureRequestId(uint64_t value) ;
 
 constexpr uint64_t __get__sceneCaptureRequestId() const;
 
- ::System::Collections::Generic::HashSet_1<uint64_t> __declspec(property(get=__get__individualRequestIds, put=__set__individualRequestIds))  _individualRequestIds;
+ System::Collections::Generic::HashSet_1<uint64_t> __declspec(property(get=__get__individualRequestIds, put=__set__individualRequestIds))  _individualRequestIds;
 
-constexpr void __set__individualRequestIds(::System::Collections::Generic::HashSet_1<uint64_t> value) ;
+constexpr void __set__individualRequestIds(System::Collections::Generic::HashSet_1<uint64_t> value) ;
 
-constexpr ::System::Collections::Generic::HashSet_1<uint64_t> __get__individualRequestIds() const;
+constexpr System::Collections::Generic::HashSet_1<uint64_t> __get__individualRequestIds() const;
 
- ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRSpace,::GlobalNamespace::____GlobalNamespace__OVRPlugin__SpaceQueryResult> __declspec(property(get=__get__pendingLocatable, put=__set__pendingLocatable))  _pendingLocatable;
+ System::Collections::Generic::Dictionary_2<GlobalNamespace::OVRSpace,GlobalNamespace::GlobalNamespace__OVRPlugin__SpaceQueryResult> __declspec(property(get=__get__pendingLocatable, put=__set__pendingLocatable))  _pendingLocatable;
 
-constexpr void __set__pendingLocatable(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRSpace,::GlobalNamespace::____GlobalNamespace__OVRPlugin__SpaceQueryResult> value) ;
+constexpr void __set__pendingLocatable(System::Collections::Generic::Dictionary_2<GlobalNamespace::OVRSpace,GlobalNamespace::GlobalNamespace__OVRPlugin__SpaceQueryResult> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRSpace,::GlobalNamespace::____GlobalNamespace__OVRPlugin__SpaceQueryResult> __get__pendingLocatable() const;
+constexpr System::Collections::Generic::Dictionary_2<GlobalNamespace::OVRSpace,GlobalNamespace::GlobalNamespace__OVRPlugin__SpaceQueryResult> __get__pendingLocatable() const;
 
- ::GlobalNamespace::OVRCameraRig __declspec(property(get=__get__cameraRig, put=__set__cameraRig))  _cameraRig;
+ GlobalNamespace::OVRCameraRig __declspec(property(get=__get__cameraRig, put=__set__cameraRig))  _cameraRig;
 
-constexpr void __set__cameraRig(::GlobalNamespace::OVRCameraRig value) ;
+constexpr void __set__cameraRig(GlobalNamespace::OVRCameraRig value) ;
 
-constexpr ::GlobalNamespace::OVRCameraRig __get__cameraRig() const;
+constexpr GlobalNamespace::OVRCameraRig __get__cameraRig() const;
 
  int32_t __declspec(property(get=__get__sceneAnchorUpdateIndex, put=__set__sceneAnchorUpdateIndex))  _sceneAnchorUpdateIndex;
 
@@ -841,11 +840,11 @@ constexpr void __set__sceneAnchorUpdateIndex(int32_t value) ;
 
 constexpr int32_t __get__sceneAnchorUpdateIndex() const;
 
- ::System::Collections::Generic::HashSet_1<::System::Guid> __declspec(property(get=__get__uuidSet, put=__set__uuidSet))  _uuidSet;
+ System::Collections::Generic::HashSet_1<System::Guid> __declspec(property(get=__get__uuidSet, put=__set__uuidSet))  _uuidSet;
 
-constexpr void __set__uuidSet(::System::Collections::Generic::HashSet_1<::System::Guid> value) ;
+constexpr void __set__uuidSet(System::Collections::Generic::HashSet_1<System::Guid> value) ;
 
-constexpr ::System::Collections::Generic::HashSet_1<::System::Guid> __get__uuidSet() const;
+constexpr System::Collections::Generic::HashSet_1<System::Guid> __get__uuidSet() const;
 
  bool __declspec(property(get=__get__sceneLoadComplete, put=__set__sceneLoadComplete))  _sceneLoadComplete;
 
@@ -856,19 +855,19 @@ constexpr bool __get__sceneLoadComplete() const;
 
 // Properties
 
- ::System::Nullable_1<::GlobalNamespace::____GlobalNamespace__OVRSceneManager__LogForwarder> __declspec(property(get=get_Verbose))  Verbose;
+ System::Nullable_1<GlobalNamespace::GlobalNamespace__OVRSceneManager__LogForwarder> __declspec(property(get=get_Verbose))  Verbose;
 
 
 // Methods
 
 /// @brief Method get_Verbose addr 0x2604eb4 size 0x68 virtual false final false
- ::System::Nullable_1<::GlobalNamespace::____GlobalNamespace__OVRSceneManager__LogForwarder> get_Verbose() ;
+ System::Nullable_1<GlobalNamespace::GlobalNamespace__OVRSceneManager__LogForwarder> get_Verbose() ;
 
 /// @brief Method Awake addr 0x2604f1c size 0x178 virtual false final false
  void Awake() ;
 
 /// @brief Method OnTrackingSpaceChanged addr 0x2605148 size 0x4 virtual false final false
-static void OnTrackingSpaceChanged(::UnityEngine::Transform trackingSpace) ;
+static void OnTrackingSpaceChanged(UnityEngine::Transform trackingSpace) ;
 
 /// @brief Method Update addr 0x26052e0 size 0x4 virtual false final false
  void Update() ;
@@ -886,7 +885,7 @@ static void UpdateAllSceneAnchors() ;
  bool RequestSceneCapture() ;
 
 /// @brief Method RequestSceneCapture addr 0x26058c8 size 0x2d8 virtual false final false
- bool RequestSceneCapture(::System::Collections::Generic::IEnumerable_1<::StringW> requestedAnchorClassifications) ;
+ bool RequestSceneCapture(System::Collections::Generic::IEnumerable_1<::StringW> requestedAnchorClassifications) ;
 
 /// @brief Method RequestSceneCapture addr 0x260585c size 0x6c virtual false final false
  bool RequestSceneCapture(::StringW requestString) ;
@@ -901,16 +900,16 @@ static void UpdateAllSceneAnchors() ;
  bool LoadSpatialEntities() ;
 
 /// @brief Method EnableComponentIfNecessary addr 0x2606fe0 size 0x338 virtual false final false
- bool EnableComponentIfNecessary(::GlobalNamespace::OVRSpace space, ::System::Guid uuid, ::GlobalNamespace::____GlobalNamespace__OVRPlugin__SpaceComponentType componentType) ;
+ bool EnableComponentIfNecessary(GlobalNamespace::OVRSpace space, System::Guid uuid, GlobalNamespace::GlobalNamespace__OVRPlugin__SpaceComponentType componentType) ;
 
 /// @brief Method OVRManager_SceneCaptureComplete addr 0x2607318 size 0x114 virtual false final false
  void OVRManager_SceneCaptureComplete(uint64_t requestId, bool result) ;
 
 /// @brief Method IsComponentEnabled addr 0x260742c size 0x88 virtual false final false
-static bool IsComponentEnabled(::GlobalNamespace::OVRSpace space, ::GlobalNamespace::____GlobalNamespace__OVRPlugin__SpaceComponentType componentType) ;
+static bool IsComponentEnabled(GlobalNamespace::OVRSpace space, GlobalNamespace::GlobalNamespace__OVRPlugin__SpaceComponentType componentType) ;
 
 /// @brief Method InstantiateSceneAnchor addr 0x26074b4 size 0x6c0 virtual false final false
- ::GlobalNamespace::OVRSceneAnchor InstantiateSceneAnchor(::GlobalNamespace::OVRSpace space, ::System::Guid uuid, ::GlobalNamespace::OVRSceneAnchor prefab) ;
+ GlobalNamespace::OVRSceneAnchor InstantiateSceneAnchor(GlobalNamespace::OVRSpace space, System::Guid uuid, GlobalNamespace::OVRSceneAnchor prefab) ;
 
 /// @brief Method OVRManager_SpaceQueryComplete addr 0x2607b74 size 0x294 virtual false final false
  void OVRManager_SpaceQueryComplete(uint64_t requestId, bool result) ;
@@ -919,10 +918,10 @@ static bool IsComponentEnabled(::GlobalNamespace::OVRSpace space, ::GlobalNamesp
  void CheckForCompletion() ;
 
 /// @brief Method OVRManager_SpaceSetComponentStatusComplete addr 0x2608760 size 0xe8 virtual false final false
- void OVRManager_SpaceSetComponentStatusComplete(uint64_t requestId, bool result, ::GlobalNamespace::OVRSpace space, ::System::Guid uuid, ::GlobalNamespace::____GlobalNamespace__OVRPlugin__SpaceComponentType componentType, bool isEnabled) ;
+ void OVRManager_SpaceSetComponentStatusComplete(uint64_t requestId, bool result, GlobalNamespace::OVRSpace space, System::Guid uuid, GlobalNamespace::GlobalNamespace__OVRPlugin__SpaceComponentType componentType, bool isEnabled) ;
 
 /// @brief Method ProcessQueryResult addr 0x2607e08 size 0x88c virtual false final false
- void ProcessQueryResult(::GlobalNamespace::____GlobalNamespace__OVRPlugin__SpaceQueryResult queryResult) ;
+ void ProcessQueryResult(GlobalNamespace::GlobalNamespace__OVRPlugin__SpaceQueryResult queryResult) ;
 
 // Ctor Parameters []
 explicit OVRSceneManager() ;
@@ -931,27 +930,26 @@ explicit OVRSceneManager() ;
  void _ctor() ;
 
 /// @brief Method <Awake>b__28_0 addr 0x2608a68 size 0x60 virtual false final false
- int32_t _Awake_b__28_0(::GlobalNamespace::OVRScenePlane planeA, ::GlobalNamespace::OVRScenePlane planeB) ;
+ int32_t _Awake_b__28_0(GlobalNamespace::OVRScenePlane planeA, GlobalNamespace::OVRScenePlane planeB) ;
 
 /// @brief Method <Awake>g__TryGetUuid|28_1 addr 0x2608ac8 size 0x94 virtual false final false
- bool _Awake_g__TryGetUuid_28_1(::GlobalNamespace::OVRScenePlane plane, ByRef<int32_t> index) ;
+ bool _Awake_g__TryGetUuid_28_1(GlobalNamespace::OVRScenePlane plane, ByRef<int32_t> index) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVRSceneManager__QueryMode, "", "OVRSceneManager/QueryMode");
-NEED_NO_BOX(::GlobalNamespace::OVRSceneManager);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRSceneManager, "", "OVRSceneManager");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__OVRSceneManager__Classification);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVRSceneManager__Classification, "", "OVRSceneManager/Classification");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__OVRSceneManager__Development);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVRSceneManager__Development, "", "OVRSceneManager/Development");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__OVRSceneManager__RoomLayoutInformation);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVRSceneManager__RoomLayoutInformation, "", "OVRSceneManager/RoomLayoutInformation");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__OVRSceneManager____c__DisplayClass47_0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVRSceneManager____c__DisplayClass47_0, "", "OVRSceneManager/<>c__DisplayClass47_0");
-NEED_NO_BOX(::GlobalNamespace::______GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::______GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d, "", "OVRSceneManager/<>c__DisplayClass47_0/<<ProcessQueryResult>g__EnabledComponents|0>d");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVRSceneManager__LogForwarder, "", "OVRSceneManager/LogForwarder");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRSceneManager__QueryMode, "", "OVRSceneManager/QueryMode");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__OVRSceneManager__Classification);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRSceneManager__Classification, "", "OVRSceneManager/Classification");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__OVRSceneManager__Development);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRSceneManager__Development, "", "OVRSceneManager/Development");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__OVRSceneManager__RoomLayoutInformation);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRSceneManager__RoomLayoutInformation, "", "OVRSceneManager/RoomLayoutInformation");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__OVRSceneManager____c__DisplayClass47_0);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRSceneManager____c__DisplayClass47_0, "", "OVRSceneManager/<>c__DisplayClass47_0");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d, "", "OVRSceneManager/<>c__DisplayClass47_0/<<ProcessQueryResult>g__EnabledComponents|0>d");
+NEED_NO_BOX(GlobalNamespace::OVRSceneManager);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSceneManager, "", "OVRSceneManager");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRSceneManager__LogForwarder, "", "OVRSceneManager/LogForwarder");

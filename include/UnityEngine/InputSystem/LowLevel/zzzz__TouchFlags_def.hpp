@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
 struct TouchFlags;
@@ -71,26 +70,25 @@ constexpr void __set_value__(uint8_t value) ;
 constexpr uint8_t __get_value__() const;
 
 /// @brief Field IndirectTouch offset 0
-static ::UnityEngine::InputSystem::LowLevel::TouchFlags const IndirectTouch;
+static UnityEngine::InputSystem::LowLevel::TouchFlags const IndirectTouch;
 
 /// @brief Field PrimaryTouch offset 0
-static ::UnityEngine::InputSystem::LowLevel::TouchFlags const PrimaryTouch;
+static UnityEngine::InputSystem::LowLevel::TouchFlags const PrimaryTouch;
 
 /// @brief Field TapPress offset 0
-static ::UnityEngine::InputSystem::LowLevel::TouchFlags const TapPress;
+static UnityEngine::InputSystem::LowLevel::TouchFlags const TapPress;
 
 /// @brief Field TapRelease offset 0
-static ::UnityEngine::InputSystem::LowLevel::TouchFlags const TapRelease;
+static UnityEngine::InputSystem::LowLevel::TouchFlags const TapRelease;
 
 /// @brief Field OrphanedPrimaryTouch offset 0
-static ::UnityEngine::InputSystem::LowLevel::TouchFlags const OrphanedPrimaryTouch;
+static UnityEngine::InputSystem::LowLevel::TouchFlags const OrphanedPrimaryTouch;
 
 /// @brief Field BeganInSameFrame offset 0
-static ::UnityEngine::InputSystem::LowLevel::TouchFlags const BeganInSameFrame;
+static UnityEngine::InputSystem::LowLevel::TouchFlags const BeganInSameFrame;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::LowLevel
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::TouchFlags, "UnityEngine.InputSystem.LowLevel", "TouchFlags");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::LowLevel::TouchFlags, "UnityEngine.InputSystem.LowLevel", "TouchFlags");

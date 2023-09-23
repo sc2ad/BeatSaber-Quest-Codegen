@@ -3,18 +3,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-class Type;
-}
-namespace System::Reflection {
-class ParameterInfo;
-}
 namespace System::Reflection {
 class MethodInfo;
 }
 namespace System::Reflection {
 class SignatureType;
+}
+namespace System {
+class Type;
+}
+namespace System::Reflection {
+class ParameterInfo;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -63,36 +62,35 @@ constexpr explicit SignatureTypeExtensions(void* ptr) noexcept : ::bs_hook::Il2C
 // Methods
 
 /// @brief Method MatchesParameterTypeExactly addr 0x237e90c size 0xb4 virtual false final false
-static bool MatchesParameterTypeExactly(::System::Type pattern, ::System::Reflection::ParameterInfo parameter) ;
+static bool MatchesParameterTypeExactly(System::Type pattern, System::Reflection::ParameterInfo parameter) ;
 
 /// @brief Method MatchesExactly addr 0x237e9c0 size 0x3a8 virtual false final false
-static bool MatchesExactly(::System::Reflection::SignatureType pattern, ::System::Type actual) ;
+static bool MatchesExactly(System::Reflection::SignatureType pattern, System::Type actual) ;
 
 /// @brief Method TryResolveAgainstGenericMethod addr 0x237ed68 size 0x38 virtual false final false
-static ::System::Type TryResolveAgainstGenericMethod(::System::Reflection::SignatureType signatureType, ::System::Reflection::MethodInfo genericMethod) ;
+static System::Type TryResolveAgainstGenericMethod(System::Reflection::SignatureType signatureType, System::Reflection::MethodInfo genericMethod) ;
 
 /// @brief Method TryResolve addr 0x237eda0 size 0x3bc virtual false final false
-static ::System::Type TryResolve(::System::Reflection::SignatureType signatureType, ::ArrayW<::System::Type> genericMethodParameters) ;
+static System::Type TryResolve(System::Reflection::SignatureType signatureType, ::ArrayW<System::Type> genericMethodParameters) ;
 
 /// @brief Method TryMakeArrayType addr 0x237f15c size 0x9c virtual false final false
-static ::System::Type TryMakeArrayType(::System::Type type) ;
+static System::Type TryMakeArrayType(System::Type type) ;
 
 /// @brief Method TryMakeArrayType addr 0x237f1f8 size 0x9c virtual false final false
-static ::System::Type TryMakeArrayType(::System::Type type, int32_t rank) ;
+static System::Type TryMakeArrayType(System::Type type, int32_t rank) ;
 
 /// @brief Method TryMakeByRefType addr 0x237f294 size 0x9c virtual false final false
-static ::System::Type TryMakeByRefType(::System::Type type) ;
+static System::Type TryMakeByRefType(System::Type type) ;
 
 /// @brief Method TryMakePointerType addr 0x237f330 size 0x9c virtual false final false
-static ::System::Type TryMakePointerType(::System::Type type) ;
+static System::Type TryMakePointerType(System::Type type) ;
 
 /// @brief Method TryMakeGenericType addr 0x237f3cc size 0x9c virtual false final false
-static ::System::Type TryMakeGenericType(::System::Type type, ::ArrayW<::System::Type> instantiation) ;
+static System::Type TryMakeGenericType(System::Type type, ::ArrayW<System::Type> instantiation) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Reflection
-} // end anonymous namespace
-NEED_NO_BOX(::System::Reflection::SignatureTypeExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::SignatureTypeExtensions, "System.Reflection", "SignatureTypeExtensions");
+NEED_NO_BOX(System::Reflection::SignatureTypeExtensions);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::SignatureTypeExtensions, "System.Reflection", "SignatureTypeExtensions");

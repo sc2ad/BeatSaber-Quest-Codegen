@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Rendering {
 struct PassType;
@@ -80,53 +79,52 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Normal offset 0
-static ::UnityEngine::Rendering::PassType const Normal;
+static UnityEngine::Rendering::PassType const Normal;
 
 /// @brief Field Vertex offset 0
-static ::UnityEngine::Rendering::PassType const Vertex;
+static UnityEngine::Rendering::PassType const Vertex;
 
 /// @brief Field VertexLM offset 0
-static ::UnityEngine::Rendering::PassType const VertexLM;
+static UnityEngine::Rendering::PassType const VertexLM;
 
 /// @brief Field VertexLMRGBM offset 0
-static ::UnityEngine::Rendering::PassType const VertexLMRGBM;
+static UnityEngine::Rendering::PassType const VertexLMRGBM;
 
 /// @brief Field ForwardBase offset 0
-static ::UnityEngine::Rendering::PassType const ForwardBase;
+static UnityEngine::Rendering::PassType const ForwardBase;
 
 /// @brief Field ForwardAdd offset 0
-static ::UnityEngine::Rendering::PassType const ForwardAdd;
+static UnityEngine::Rendering::PassType const ForwardAdd;
 
 /// @brief Field LightPrePassBase offset 0
-static ::UnityEngine::Rendering::PassType const LightPrePassBase;
+static UnityEngine::Rendering::PassType const LightPrePassBase;
 
 /// @brief Field LightPrePassFinal offset 0
-static ::UnityEngine::Rendering::PassType const LightPrePassFinal;
+static UnityEngine::Rendering::PassType const LightPrePassFinal;
 
 /// @brief Field ShadowCaster offset 0
-static ::UnityEngine::Rendering::PassType const ShadowCaster;
+static UnityEngine::Rendering::PassType const ShadowCaster;
 
 /// @brief Field Deferred offset 0
-static ::UnityEngine::Rendering::PassType const Deferred;
+static UnityEngine::Rendering::PassType const Deferred;
 
 /// @brief Field Meta offset 0
-static ::UnityEngine::Rendering::PassType const Meta;
+static UnityEngine::Rendering::PassType const Meta;
 
 /// @brief Field MotionVectors offset 0
-static ::UnityEngine::Rendering::PassType const MotionVectors;
+static UnityEngine::Rendering::PassType const MotionVectors;
 
 /// @brief Field ScriptableRenderPipeline offset 0
-static ::UnityEngine::Rendering::PassType const ScriptableRenderPipeline;
+static UnityEngine::Rendering::PassType const ScriptableRenderPipeline;
 
 /// @brief Field ScriptableRenderPipelineDefaultUnlit offset 0
-static ::UnityEngine::Rendering::PassType const ScriptableRenderPipelineDefaultUnlit;
+static UnityEngine::Rendering::PassType const ScriptableRenderPipelineDefaultUnlit;
 
 /// @brief Field GrabPass offset 0
-static ::UnityEngine::Rendering::PassType const GrabPass;
+static UnityEngine::Rendering::PassType const GrabPass;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Rendering
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::PassType, "UnityEngine.Rendering", "PassType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::PassType, "UnityEngine.Rendering", "PassType");

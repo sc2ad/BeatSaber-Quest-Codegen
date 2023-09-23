@@ -1,15 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
+namespace GlobalNamespace {
+class BloomPrePassEffectContainerSO;
+}
 namespace UnityEngine {
 class RenderTexture;
 }
 namespace GlobalNamespace {
 class BloomPrePassRendererSO;
-}
-namespace GlobalNamespace {
-class BloomPrePassEffectContainerSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14650))
 // CS Name: SceneCameraBloomPrePass
-class CORDL_TYPE SceneCameraBloomPrePass : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SceneCameraBloomPrePass : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr SceneCameraBloomPrePass(SceneCameraBloomPrePass const& ) noexcept = de
 constexpr SceneCameraBloomPrePass(SceneCameraBloomPrePass&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SceneCameraBloomPrePass(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SceneCameraBloomPrePass(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -57,23 +56,23 @@ constexpr explicit SceneCameraBloomPrePass(void* ptr) noexcept : ::UnityEngine::
 
 // Fields
 
- ::GlobalNamespace::BloomPrePassRendererSO __declspec(property(get=__get__bloomPrepassRenderer, put=__set__bloomPrepassRenderer))  _bloomPrepassRenderer;
+ GlobalNamespace::BloomPrePassRendererSO __declspec(property(get=__get__bloomPrepassRenderer, put=__set__bloomPrepassRenderer))  _bloomPrepassRenderer;
 
-constexpr void __set__bloomPrepassRenderer(::GlobalNamespace::BloomPrePassRendererSO value) ;
+constexpr void __set__bloomPrepassRenderer(GlobalNamespace::BloomPrePassRendererSO value) ;
 
-constexpr ::GlobalNamespace::BloomPrePassRendererSO __get__bloomPrepassRenderer() const;
+constexpr GlobalNamespace::BloomPrePassRendererSO __get__bloomPrepassRenderer() const;
 
- ::GlobalNamespace::BloomPrePassEffectContainerSO __declspec(property(get=__get__bloomPrePassEffectContainer, put=__set__bloomPrePassEffectContainer))  _bloomPrePassEffectContainer;
+ GlobalNamespace::BloomPrePassEffectContainerSO __declspec(property(get=__get__bloomPrePassEffectContainer, put=__set__bloomPrePassEffectContainer))  _bloomPrePassEffectContainer;
 
-constexpr void __set__bloomPrePassEffectContainer(::GlobalNamespace::BloomPrePassEffectContainerSO value) ;
+constexpr void __set__bloomPrePassEffectContainer(GlobalNamespace::BloomPrePassEffectContainerSO value) ;
 
-constexpr ::GlobalNamespace::BloomPrePassEffectContainerSO __get__bloomPrePassEffectContainer() const;
+constexpr GlobalNamespace::BloomPrePassEffectContainerSO __get__bloomPrePassEffectContainer() const;
 
- ::UnityEngine::RenderTexture __declspec(property(get=__get__bloomPrepassRenderTexture, put=__set__bloomPrepassRenderTexture))  _bloomPrepassRenderTexture;
+ UnityEngine::RenderTexture __declspec(property(get=__get__bloomPrepassRenderTexture, put=__set__bloomPrepassRenderTexture))  _bloomPrepassRenderTexture;
 
-constexpr void __set__bloomPrepassRenderTexture(::UnityEngine::RenderTexture value) ;
+constexpr void __set__bloomPrepassRenderTexture(UnityEngine::RenderTexture value) ;
 
-constexpr ::UnityEngine::RenderTexture __get__bloomPrepassRenderTexture() const;
+constexpr UnityEngine::RenderTexture __get__bloomPrepassRenderTexture() const;
 
 
 // Methods
@@ -88,6 +87,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SceneCameraBloomPrePass);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SceneCameraBloomPrePass, "", "SceneCameraBloomPrePass");
+NEED_NO_BOX(GlobalNamespace::SceneCameraBloomPrePass);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SceneCameraBloomPrePass, "", "SceneCameraBloomPrePass");

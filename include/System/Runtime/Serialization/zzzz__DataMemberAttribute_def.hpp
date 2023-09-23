@@ -3,7 +3,6 @@
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Runtime::Serialization {
 class DataMemberAttribute;
@@ -14,7 +13,7 @@ namespace System::Runtime::Serialization {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16063))
 // CS Name: System.Runtime.Serialization.DataMemberAttribute
-class CORDL_TYPE DataMemberAttribute : public ::System::Attribute {
+class CORDL_TYPE DataMemberAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr DataMemberAttribute(DataMemberAttribute const& ) noexcept = default;
 constexpr DataMemberAttribute(DataMemberAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DataMemberAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit DataMemberAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -104,6 +103,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::DataMemberAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::DataMemberAttribute, "System.Runtime.Serialization", "DataMemberAttribute");
+NEED_NO_BOX(System::Runtime::Serialization::DataMemberAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::DataMemberAttribute, "System.Runtime.Serialization", "DataMemberAttribute");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 struct ConsoleModifiers;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Alt offset 0
-static ::System::ConsoleModifiers const Alt;
+static System::ConsoleModifiers const Alt;
 
 /// @brief Field Shift offset 0
-static ::System::ConsoleModifiers const Shift;
+static System::ConsoleModifiers const Shift;
 
 /// @brief Field Control offset 0
-static ::System::ConsoleModifiers const Control;
+static System::ConsoleModifiers const Control;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::ConsoleModifiers, "System", "ConsoleModifiers");
+DEFINE_IL2CPP_ARG_TYPE(System::ConsoleModifiers, "System", "ConsoleModifiers");

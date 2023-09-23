@@ -2,21 +2,20 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__TableCell_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace UnityEngine::UI {
 class Image;
 }
-namespace System::Threading {
-class CancellationTokenSource;
-}
 namespace HMUI {
-struct ____HMUI__SelectableCell__TransitionType;
+struct HMUI__SelectableCell__TransitionType;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace TMPro {
 class TextMeshProUGUI;
 }
-namespace UnityEngine {
-struct Color;
+namespace System::Threading {
+class CancellationTokenSource;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,7 +27,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13715))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5534))
 // CS Name: PackLevelListHeaderTableCell
-class CORDL_TYPE PackLevelListHeaderTableCell : public ::HMUI::TableCell {
+class CORDL_TYPE PackLevelListHeaderTableCell : public HMUI::TableCell {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -43,7 +42,7 @@ constexpr PackLevelListHeaderTableCell(PackLevelListHeaderTableCell const& ) noe
 constexpr PackLevelListHeaderTableCell(PackLevelListHeaderTableCell&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PackLevelListHeaderTableCell(void* ptr) noexcept : ::HMUI::TableCell(ptr) {
+constexpr explicit PackLevelListHeaderTableCell(void* ptr) noexcept : HMUI::TableCell(ptr) {
 }
 
 
@@ -64,41 +63,41 @@ constexpr explicit PackLevelListHeaderTableCell(void* ptr) noexcept : ::HMUI::Ta
 
 // Fields
 
- ::UnityEngine::Color __declspec(property(get=__get__selectedHighlightElementsColor, put=__set__selectedHighlightElementsColor))  _selectedHighlightElementsColor;
+ UnityEngine::Color __declspec(property(get=__get__selectedHighlightElementsColor, put=__set__selectedHighlightElementsColor))  _selectedHighlightElementsColor;
 
-constexpr void __set__selectedHighlightElementsColor(::UnityEngine::Color value) ;
+constexpr void __set__selectedHighlightElementsColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__selectedHighlightElementsColor() const;
+constexpr UnityEngine::Color __get__selectedHighlightElementsColor() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__text, put=__set__text))  _text;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__text, put=__set__text))  _text;
 
-constexpr void __set__text(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__text(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__text() const;
+constexpr TMPro::TextMeshProUGUI __get__text() const;
 
- ::UnityEngine::UI::Image __declspec(property(get=__get__bgImage, put=__set__bgImage))  _bgImage;
+ UnityEngine::UI::Image __declspec(property(get=__get__bgImage, put=__set__bgImage))  _bgImage;
 
-constexpr void __set__bgImage(::UnityEngine::UI::Image value) ;
+constexpr void __set__bgImage(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get__bgImage() const;
+constexpr UnityEngine::UI::Image __get__bgImage() const;
 
- ::UnityEngine::UI::Image __declspec(property(get=__get__highlightImage, put=__set__highlightImage))  _highlightImage;
+ UnityEngine::UI::Image __declspec(property(get=__get__highlightImage, put=__set__highlightImage))  _highlightImage;
 
-constexpr void __set__highlightImage(::UnityEngine::UI::Image value) ;
+constexpr void __set__highlightImage(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get__highlightImage() const;
+constexpr UnityEngine::UI::Image __get__highlightImage() const;
 
- ::UnityEngine::UI::Image __declspec(property(get=__get__arrowImage, put=__set__arrowImage))  _arrowImage;
+ UnityEngine::UI::Image __declspec(property(get=__get__arrowImage, put=__set__arrowImage))  _arrowImage;
 
-constexpr void __set__arrowImage(::UnityEngine::UI::Image value) ;
+constexpr void __set__arrowImage(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get__arrowImage() const;
+constexpr UnityEngine::UI::Image __get__arrowImage() const;
 
- ::System::Threading::CancellationTokenSource __declspec(property(get=__get__cancellationTokenSource, put=__set__cancellationTokenSource))  _cancellationTokenSource;
+ System::Threading::CancellationTokenSource __declspec(property(get=__get__cancellationTokenSource, put=__set__cancellationTokenSource))  _cancellationTokenSource;
 
-constexpr void __set__cancellationTokenSource(::System::Threading::CancellationTokenSource value) ;
+constexpr void __set__cancellationTokenSource(System::Threading::CancellationTokenSource value) ;
 
-constexpr ::System::Threading::CancellationTokenSource __get__cancellationTokenSource() const;
+constexpr System::Threading::CancellationTokenSource __get__cancellationTokenSource() const;
 
 
 // Properties
@@ -115,10 +114,10 @@ constexpr ::System::Threading::CancellationTokenSource __get__cancellationTokenS
  ::StringW get_text() ;
 
 /// @brief Method SelectionDidChange addr 0x2127008 size 0x4 virtual true final false
- void SelectionDidChange(::HMUI::____HMUI__SelectableCell__TransitionType transitionType) ;
+ void SelectionDidChange(HMUI::HMUI__SelectableCell__TransitionType transitionType) ;
 
 /// @brief Method HighlightDidChange addr 0x2127094 size 0x4 virtual true final false
- void HighlightDidChange(::HMUI::____HMUI__SelectableCell__TransitionType transitionType) ;
+ void HighlightDidChange(HMUI::HMUI__SelectableCell__TransitionType transitionType) ;
 
 /// @brief Method RefreshVisuals addr 0x212700c size 0x88 virtual false final false
  void RefreshVisuals() ;
@@ -133,6 +132,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PackLevelListHeaderTableCell);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PackLevelListHeaderTableCell, "", "PackLevelListHeaderTableCell");
+NEED_NO_BOX(GlobalNamespace::PackLevelListHeaderTableCell);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PackLevelListHeaderTableCell, "", "PackLevelListHeaderTableCell");

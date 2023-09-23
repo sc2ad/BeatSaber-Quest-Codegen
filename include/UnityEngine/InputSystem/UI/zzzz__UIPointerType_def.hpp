@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem::UI {
 struct UIPointerType;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::InputSystem::UI::UIPointerType const None;
+static UnityEngine::InputSystem::UI::UIPointerType const None;
 
 /// @brief Field MouseOrPen offset 0
-static ::UnityEngine::InputSystem::UI::UIPointerType const MouseOrPen;
+static UnityEngine::InputSystem::UI::UIPointerType const MouseOrPen;
 
 /// @brief Field Touch offset 0
-static ::UnityEngine::InputSystem::UI::UIPointerType const Touch;
+static UnityEngine::InputSystem::UI::UIPointerType const Touch;
 
 /// @brief Field Tracked offset 0
-static ::UnityEngine::InputSystem::UI::UIPointerType const Tracked;
+static UnityEngine::InputSystem::UI::UIPointerType const Tracked;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::UI
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::UI::UIPointerType, "UnityEngine.InputSystem.UI", "UIPointerType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::UI::UIPointerType, "UnityEngine.InputSystem.UI", "UIPointerType");

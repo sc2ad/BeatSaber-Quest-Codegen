@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace OVR::OpenVR {
 struct EVRTrackedCameraFrameType;
 }
@@ -22,8 +21,8 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE CameraVideoStreamFrameHeader_t : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "eFrameType", ty: "::OVR::OpenVR::EVRTrackedCameraFrameType", modifiers: "", def_value: None }, CppParam { name: "nWidth", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "nHeight", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "nBytesPerPixel", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "nFrameSequence", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "standingTrackedDevicePose", ty: "::OVR::OpenVR::TrackedDevicePose_t", modifiers: "", def_value: None }]
-constexpr CameraVideoStreamFrameHeader_t(::OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, uint32_t nWidth, uint32_t nHeight, uint32_t nBytesPerPixel, uint32_t nFrameSequence, ::OVR::OpenVR::TrackedDevicePose_t standingTrackedDevicePose) noexcept;
+// Ctor Parameters [CppParam { name: "eFrameType", ty: "OVR::OpenVR::EVRTrackedCameraFrameType", modifiers: "", def_value: None }, CppParam { name: "nWidth", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "nHeight", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "nBytesPerPixel", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "nFrameSequence", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "standingTrackedDevicePose", ty: "OVR::OpenVR::TrackedDevicePose_t", modifiers: "", def_value: None }]
+constexpr CameraVideoStreamFrameHeader_t(OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, uint32_t nWidth, uint32_t nHeight, uint32_t nBytesPerPixel, uint32_t nFrameSequence, OVR::OpenVR::TrackedDevicePose_t standingTrackedDevicePose) noexcept;
 
 
                     constexpr CameraVideoStreamFrameHeader_t(CameraVideoStreamFrameHeader_t const&) = default;
@@ -56,11 +55,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::OVR::OpenVR::EVRTrackedCameraFrameType __declspec(property(get=__get_eFrameType, put=__set_eFrameType))  eFrameType;
+ OVR::OpenVR::EVRTrackedCameraFrameType __declspec(property(get=__get_eFrameType, put=__set_eFrameType))  eFrameType;
 
-constexpr void __set_eFrameType(::OVR::OpenVR::EVRTrackedCameraFrameType value) ;
+constexpr void __set_eFrameType(OVR::OpenVR::EVRTrackedCameraFrameType value) ;
 
-constexpr ::OVR::OpenVR::EVRTrackedCameraFrameType __get_eFrameType() const;
+constexpr OVR::OpenVR::EVRTrackedCameraFrameType __get_eFrameType() const;
 
  uint32_t __declspec(property(get=__get_nWidth, put=__set_nWidth))  nWidth;
 
@@ -86,15 +85,14 @@ constexpr void __set_nFrameSequence(uint32_t value) ;
 
 constexpr uint32_t __get_nFrameSequence() const;
 
- ::OVR::OpenVR::TrackedDevicePose_t __declspec(property(get=__get_standingTrackedDevicePose, put=__set_standingTrackedDevicePose))  standingTrackedDevicePose;
+ OVR::OpenVR::TrackedDevicePose_t __declspec(property(get=__get_standingTrackedDevicePose, put=__set_standingTrackedDevicePose))  standingTrackedDevicePose;
 
-constexpr void __set_standingTrackedDevicePose(::OVR::OpenVR::TrackedDevicePose_t value) ;
+constexpr void __set_standingTrackedDevicePose(OVR::OpenVR::TrackedDevicePose_t value) ;
 
-constexpr ::OVR::OpenVR::TrackedDevicePose_t __get_standingTrackedDevicePose() const;
+constexpr OVR::OpenVR::TrackedDevicePose_t __get_standingTrackedDevicePose() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::CameraVideoStreamFrameHeader_t, "OVR.OpenVR", "CameraVideoStreamFrameHeader_t");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CameraVideoStreamFrameHeader_t, "OVR.OpenVR", "CameraVideoStreamFrameHeader_t");

@@ -2,16 +2,15 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
+namespace LiteNetLib {
+class NetPeer;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class Queue_1;
 }
 namespace LiteNetLib {
 class NetPacket;
-}
-namespace LiteNetLib {
-class NetPeer;
 }
 // Forward declare root types
 namespace LiteNetLib {
@@ -59,23 +58,23 @@ constexpr explicit BaseChannel(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 
 // Fields
 
- ::LiteNetLib::BaseChannel __declspec(property(get=__get_Next, put=__set_Next))  Next;
+ LiteNetLib::BaseChannel __declspec(property(get=__get_Next, put=__set_Next))  Next;
 
-constexpr void __set_Next(::LiteNetLib::BaseChannel value) ;
+constexpr void __set_Next(LiteNetLib::BaseChannel value) ;
 
-constexpr ::LiteNetLib::BaseChannel __get_Next() const;
+constexpr LiteNetLib::BaseChannel __get_Next() const;
 
- ::LiteNetLib::NetPeer __declspec(property(get=__get_Peer, put=__set_Peer))  Peer;
+ LiteNetLib::NetPeer __declspec(property(get=__get_Peer, put=__set_Peer))  Peer;
 
-constexpr void __set_Peer(::LiteNetLib::NetPeer value) ;
+constexpr void __set_Peer(LiteNetLib::NetPeer value) ;
 
-constexpr ::LiteNetLib::NetPeer __get_Peer() const;
+constexpr LiteNetLib::NetPeer __get_Peer() const;
 
- ::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket> __declspec(property(get=__get_OutgoingQueue, put=__set_OutgoingQueue))  OutgoingQueue;
+ System::Collections::Generic::Queue_1<LiteNetLib::NetPacket> __declspec(property(get=__get_OutgoingQueue, put=__set_OutgoingQueue))  OutgoingQueue;
 
-constexpr void __set_OutgoingQueue(::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket> value) ;
+constexpr void __set_OutgoingQueue(System::Collections::Generic::Queue_1<LiteNetLib::NetPacket> value) ;
 
-constexpr ::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket> __get_OutgoingQueue() const;
+constexpr System::Collections::Generic::Queue_1<LiteNetLib::NetPacket> __get_OutgoingQueue() const;
 
 
 // Properties
@@ -85,28 +84,27 @@ constexpr ::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket> __get
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "peer", ty: "::LiteNetLib::NetPeer", modifiers: "", def_value: None }]
-explicit BaseChannel(::LiteNetLib::NetPeer peer) ;
+// Ctor Parameters [CppParam { name: "peer", ty: "LiteNetLib::NetPeer", modifiers: "", def_value: None }]
+explicit BaseChannel(LiteNetLib::NetPeer peer) ;
 
 /// @brief Method .ctor addr 0x208485c size 0x94 virtual false final false
- void _ctor(::LiteNetLib::NetPeer peer) ;
+ void _ctor(LiteNetLib::NetPeer peer) ;
 
 /// @brief Method get_PacketsInQueue addr 0x20848f0 size 0x48 virtual false final false
  int32_t get_PacketsInQueue() ;
 
 /// @brief Method AddToQueue addr 0x2084938 size 0xfc virtual false final false
- void AddToQueue(::LiteNetLib::NetPacket packet) ;
+ void AddToQueue(LiteNetLib::NetPacket packet) ;
 
 /// @brief Method SendNextPackets addr 0x0 size 0xffffffffffffffff virtual true final false
  void SendNextPackets() ;
 
 /// @brief Method ProcessPacket addr 0x0 size 0xffffffffffffffff virtual true final false
- bool ProcessPacket(::LiteNetLib::NetPacket packet) ;
+ bool ProcessPacket(LiteNetLib::NetPacket packet) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib
-} // end anonymous namespace
-NEED_NO_BOX(::LiteNetLib::BaseChannel);
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::BaseChannel, "LiteNetLib", "BaseChannel");
+NEED_NO_BOX(LiteNetLib::BaseChannel);
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::BaseChannel, "LiteNetLib", "BaseChannel");

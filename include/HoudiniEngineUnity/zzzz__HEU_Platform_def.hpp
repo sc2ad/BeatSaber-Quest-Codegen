@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Text {
 class StringBuilder;
 }
@@ -112,7 +111,7 @@ static void SetHoudiniEnginePath() ;
 static ::StringW GetAllFoldersInPath(::StringW path) ;
 
 /// @brief Method GetAllFoldersInPathHelper addr 0x20171a4 size 0x15c virtual false final false
-static void GetAllFoldersInPathHelper(::StringW inPath, ::System::Text::StringBuilder pathBuilder) ;
+static void GetAllFoldersInPathHelper(::StringW inPath, System::Text::StringBuilder pathBuilder) ;
 
 /// @brief Method GetFilesInFolder addr 0x2017300 size 0x134 virtual false final false
 static ::ArrayW<::StringW> GetFilesInFolder(::StringW folderPath, ::StringW searchPattern, bool bRecursive) ;
@@ -187,6 +186,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_Platform);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_Platform, "HoudiniEngineUnity", "HEU_Platform");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_Platform);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Platform, "HoudiniEngineUnity", "HEU_Platform");

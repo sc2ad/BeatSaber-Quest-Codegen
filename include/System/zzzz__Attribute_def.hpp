@@ -3,27 +3,26 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::Reflection {
 class MemberInfo;
-}
-namespace System::Reflection {
-class PropertyInfo;
-}
-namespace System {
-class Type;
 }
 namespace System::Reflection {
 class Module;
 }
 namespace System::Reflection {
+class Assembly;
+}
+namespace System::Reflection {
 class ParameterInfo;
+}
+namespace System::Reflection {
+class PropertyInfo;
 }
 namespace System::Reflection {
 class EventInfo;
 }
-namespace System::Reflection {
-class Assembly;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System {
@@ -77,70 +76,70 @@ constexpr explicit Attribute(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 // Methods
 
 /// @brief Method InternalGetCustomAttributes addr 0x246b86c size 0xac virtual false final false
-static ::ArrayW<::System::Attribute> InternalGetCustomAttributes(::System::Reflection::PropertyInfo element, ::System::Type type, bool inherit) ;
+static ::ArrayW<System::Attribute> InternalGetCustomAttributes(System::Reflection::PropertyInfo element, System::Type type, bool inherit) ;
 
 /// @brief Method InternalGetCustomAttributes addr 0x246b918 size 0xac virtual false final false
-static ::ArrayW<::System::Attribute> InternalGetCustomAttributes(::System::Reflection::EventInfo element, ::System::Type type, bool inherit) ;
+static ::ArrayW<System::Attribute> InternalGetCustomAttributes(System::Reflection::EventInfo element, System::Type type, bool inherit) ;
 
 /// @brief Method InternalParamGetCustomAttributes addr 0x246b9c4 size 0x51c virtual false final false
-static ::ArrayW<::System::Attribute> InternalParamGetCustomAttributes(::System::Reflection::ParameterInfo parameter, ::System::Type attributeType, bool inherit) ;
+static ::ArrayW<System::Attribute> InternalParamGetCustomAttributes(System::Reflection::ParameterInfo parameter, System::Type attributeType, bool inherit) ;
 
 /// @brief Method InternalIsDefined addr 0x246bee0 size 0x70 virtual false final false
-static bool InternalIsDefined(::System::Reflection::PropertyInfo element, ::System::Type attributeType, bool inherit) ;
+static bool InternalIsDefined(System::Reflection::PropertyInfo element, System::Type attributeType, bool inherit) ;
 
 /// @brief Method InternalIsDefined addr 0x246bf50 size 0x70 virtual false final false
-static bool InternalIsDefined(::System::Reflection::EventInfo element, ::System::Type attributeType, bool inherit) ;
+static bool InternalIsDefined(System::Reflection::EventInfo element, System::Type attributeType, bool inherit) ;
 
 /// @brief Method GetCustomAttributes addr 0x246bfc0 size 0x8 virtual false final false
-static ::ArrayW<::System::Attribute> GetCustomAttributes(::System::Reflection::MemberInfo element, ::System::Type type) ;
+static ::ArrayW<System::Attribute> GetCustomAttributes(System::Reflection::MemberInfo element, System::Type type) ;
 
 /// @brief Method GetCustomAttributes addr 0x246bfc8 size 0x304 virtual false final false
-static ::ArrayW<::System::Attribute> GetCustomAttributes(::System::Reflection::MemberInfo element, ::System::Type type, bool inherit) ;
+static ::ArrayW<System::Attribute> GetCustomAttributes(System::Reflection::MemberInfo element, System::Type type, bool inherit) ;
 
 /// @brief Method GetCustomAttributes addr 0x246c2cc size 0x244 virtual false final false
-static ::ArrayW<::System::Attribute> GetCustomAttributes(::System::Reflection::MemberInfo element, bool inherit) ;
+static ::ArrayW<System::Attribute> GetCustomAttributes(System::Reflection::MemberInfo element, bool inherit) ;
 
 /// @brief Method IsDefined addr 0x246c510 size 0x8 virtual false final false
-static bool IsDefined(::System::Reflection::MemberInfo element, ::System::Type attributeType) ;
+static bool IsDefined(System::Reflection::MemberInfo element, System::Type attributeType) ;
 
 /// @brief Method IsDefined addr 0x246c518 size 0x2e4 virtual false final false
-static bool IsDefined(::System::Reflection::MemberInfo element, ::System::Type attributeType, bool inherit) ;
+static bool IsDefined(System::Reflection::MemberInfo element, System::Type attributeType, bool inherit) ;
 
 /// @brief Method GetCustomAttribute addr 0x246c7fc size 0x8 virtual false final false
-static ::System::Attribute GetCustomAttribute(::System::Reflection::MemberInfo element, ::System::Type attributeType) ;
+static System::Attribute GetCustomAttribute(System::Reflection::MemberInfo element, System::Type attributeType) ;
 
 /// @brief Method GetCustomAttribute addr 0x246c804 size 0x94 virtual false final false
-static ::System::Attribute GetCustomAttribute(::System::Reflection::MemberInfo element, ::System::Type attributeType, bool inherit) ;
+static System::Attribute GetCustomAttribute(System::Reflection::MemberInfo element, System::Type attributeType, bool inherit) ;
 
 /// @brief Method GetCustomAttributes addr 0x246c898 size 0x2c8 virtual false final false
-static ::ArrayW<::System::Attribute> GetCustomAttributes(::System::Reflection::ParameterInfo element, ::System::Type attributeType, bool inherit) ;
+static ::ArrayW<System::Attribute> GetCustomAttributes(System::Reflection::ParameterInfo element, System::Type attributeType, bool inherit) ;
 
 /// @brief Method GetCustomAttributes addr 0x246cb60 size 0x1d8 virtual false final false
-static ::ArrayW<::System::Attribute> GetCustomAttributes(::System::Reflection::ParameterInfo element, bool inherit) ;
+static ::ArrayW<System::Attribute> GetCustomAttributes(System::Reflection::ParameterInfo element, bool inherit) ;
 
 /// @brief Method GetCustomAttributes addr 0x246cd38 size 0x160 virtual false final false
-static ::ArrayW<::System::Attribute> GetCustomAttributes(::System::Reflection::Module element, bool inherit) ;
+static ::ArrayW<System::Attribute> GetCustomAttributes(System::Reflection::Module element, bool inherit) ;
 
 /// @brief Method GetCustomAttributes addr 0x246ce98 size 0x260 virtual false final false
-static ::ArrayW<::System::Attribute> GetCustomAttributes(::System::Reflection::Module element, ::System::Type attributeType, bool inherit) ;
+static ::ArrayW<System::Attribute> GetCustomAttributes(System::Reflection::Module element, System::Type attributeType, bool inherit) ;
 
 /// @brief Method GetCustomAttributes addr 0x246d0f8 size 0x8 virtual false final false
-static ::ArrayW<::System::Attribute> GetCustomAttributes(::System::Reflection::Assembly element, ::System::Type attributeType) ;
+static ::ArrayW<System::Attribute> GetCustomAttributes(System::Reflection::Assembly element, System::Type attributeType) ;
 
 /// @brief Method GetCustomAttributes addr 0x246d100 size 0x23c virtual false final false
-static ::ArrayW<::System::Attribute> GetCustomAttributes(::System::Reflection::Assembly element, ::System::Type attributeType, bool inherit) ;
+static ::ArrayW<System::Attribute> GetCustomAttributes(System::Reflection::Assembly element, System::Type attributeType, bool inherit) ;
 
 /// @brief Method GetCustomAttributes addr 0x246d33c size 0x8 virtual false final false
-static ::ArrayW<::System::Attribute> GetCustomAttributes(::System::Reflection::Assembly element) ;
+static ::ArrayW<System::Attribute> GetCustomAttributes(System::Reflection::Assembly element) ;
 
 /// @brief Method GetCustomAttributes addr 0x246d344 size 0x134 virtual false final false
-static ::ArrayW<::System::Attribute> GetCustomAttributes(::System::Reflection::Assembly element, bool inherit) ;
+static ::ArrayW<System::Attribute> GetCustomAttributes(System::Reflection::Assembly element, bool inherit) ;
 
 /// @brief Method GetCustomAttribute addr 0x246d478 size 0x8 virtual false final false
-static ::System::Attribute GetCustomAttribute(::System::Reflection::Assembly element, ::System::Type attributeType) ;
+static System::Attribute GetCustomAttribute(System::Reflection::Assembly element, System::Type attributeType) ;
 
 /// @brief Method GetCustomAttribute addr 0x246d480 size 0x94 virtual false final false
-static ::System::Attribute GetCustomAttribute(::System::Reflection::Assembly element, ::System::Type attributeType, bool inherit) ;
+static System::Attribute GetCustomAttribute(System::Reflection::Assembly element, System::Type attributeType, bool inherit) ;
 
 // Ctor Parameters []
 explicit Attribute() ;
@@ -170,6 +169,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::Attribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Attribute, "System", "Attribute");
+NEED_NO_BOX(System::Attribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Attribute, "System", "Attribute");

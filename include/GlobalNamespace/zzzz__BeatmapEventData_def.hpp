@@ -3,7 +3,6 @@
 #include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class BeatmapEventData;
@@ -14,7 +13,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14901))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14912))
 // CS Name: BeatmapEventData
-class CORDL_TYPE BeatmapEventData : public ::GlobalNamespace::BeatmapDataItem {
+class CORDL_TYPE BeatmapEventData : public GlobalNamespace::BeatmapDataItem {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr BeatmapEventData(BeatmapEventData const& ) noexcept = default;
 constexpr BeatmapEventData(BeatmapEventData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BeatmapEventData(void* ptr) noexcept : ::GlobalNamespace::BeatmapDataItem(ptr) {
+constexpr explicit BeatmapEventData(void* ptr) noexcept : GlobalNamespace::BeatmapDataItem(ptr) {
 }
 
 
@@ -50,39 +49,39 @@ constexpr explicit BeatmapEventData(void* ptr) noexcept : ::GlobalNamespace::Bea
 
 // Fields
 
- ::GlobalNamespace::BeatmapEventData __declspec(property(get=__get__previousSameTypeEventData_k__BackingField, put=__set__previousSameTypeEventData_k__BackingField))  _previousSameTypeEventData_k__BackingField;
+ GlobalNamespace::BeatmapEventData __declspec(property(get=__get__previousSameTypeEventData_k__BackingField, put=__set__previousSameTypeEventData_k__BackingField))  _previousSameTypeEventData_k__BackingField;
 
-constexpr void __set__previousSameTypeEventData_k__BackingField(::GlobalNamespace::BeatmapEventData value) ;
+constexpr void __set__previousSameTypeEventData_k__BackingField(GlobalNamespace::BeatmapEventData value) ;
 
-constexpr ::GlobalNamespace::BeatmapEventData __get__previousSameTypeEventData_k__BackingField() const;
+constexpr GlobalNamespace::BeatmapEventData __get__previousSameTypeEventData_k__BackingField() const;
 
- ::GlobalNamespace::BeatmapEventData __declspec(property(get=__get__nextSameTypeEventData_k__BackingField, put=__set__nextSameTypeEventData_k__BackingField))  _nextSameTypeEventData_k__BackingField;
+ GlobalNamespace::BeatmapEventData __declspec(property(get=__get__nextSameTypeEventData_k__BackingField, put=__set__nextSameTypeEventData_k__BackingField))  _nextSameTypeEventData_k__BackingField;
 
-constexpr void __set__nextSameTypeEventData_k__BackingField(::GlobalNamespace::BeatmapEventData value) ;
+constexpr void __set__nextSameTypeEventData_k__BackingField(GlobalNamespace::BeatmapEventData value) ;
 
-constexpr ::GlobalNamespace::BeatmapEventData __get__nextSameTypeEventData_k__BackingField() const;
+constexpr GlobalNamespace::BeatmapEventData __get__nextSameTypeEventData_k__BackingField() const;
 
 
 // Properties
 
- ::GlobalNamespace::BeatmapEventData __declspec(property(get=get_previousSameTypeEventData, put=set_previousSameTypeEventData))  previousSameTypeEventData;
+ GlobalNamespace::BeatmapEventData __declspec(property(get=get_previousSameTypeEventData, put=set_previousSameTypeEventData))  previousSameTypeEventData;
 
- ::GlobalNamespace::BeatmapEventData __declspec(property(get=get_nextSameTypeEventData, put=set_nextSameTypeEventData))  nextSameTypeEventData;
+ GlobalNamespace::BeatmapEventData __declspec(property(get=get_nextSameTypeEventData, put=set_nextSameTypeEventData))  nextSameTypeEventData;
 
 
 // Methods
 
 /// @brief Method get_previousSameTypeEventData addr 0xd919b8 size 0x8 virtual false final false
- ::GlobalNamespace::BeatmapEventData get_previousSameTypeEventData() ;
+ GlobalNamespace::BeatmapEventData get_previousSameTypeEventData() ;
 
 /// @brief Method set_previousSameTypeEventData addr 0xd919c0 size 0x8 virtual false final false
- void set_previousSameTypeEventData(::GlobalNamespace::BeatmapEventData value) ;
+ void set_previousSameTypeEventData(GlobalNamespace::BeatmapEventData value) ;
 
 /// @brief Method get_nextSameTypeEventData addr 0xd919c8 size 0x8 virtual false final false
- ::GlobalNamespace::BeatmapEventData get_nextSameTypeEventData() ;
+ GlobalNamespace::BeatmapEventData get_nextSameTypeEventData() ;
 
 /// @brief Method set_nextSameTypeEventData addr 0xd919d0 size 0x8 virtual false final false
- void set_nextSameTypeEventData(::GlobalNamespace::BeatmapEventData value) ;
+ void set_nextSameTypeEventData(GlobalNamespace::BeatmapEventData value) ;
 
 // Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "executionOrder", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "subtypeIdentifier", ty: "int32_t", modifiers: "", def_value: None }]
 explicit BeatmapEventData(float_t time, int32_t executionOrder, int32_t subtypeIdentifier) ;
@@ -91,24 +90,23 @@ explicit BeatmapEventData(float_t time, int32_t executionOrder, int32_t subtypeI
  void _ctor(float_t time, int32_t executionOrder, int32_t subtypeIdentifier) ;
 
 /// @brief Method __ConnectWithPreviousSameTypeEventData addr 0xd919d8 size 0x10 virtual false final false
- void __ConnectWithPreviousSameTypeEventData(::GlobalNamespace::BeatmapEventData newPreviousSameTypeEvent) ;
+ void __ConnectWithPreviousSameTypeEventData(GlobalNamespace::BeatmapEventData newPreviousSameTypeEvent) ;
 
 /// @brief Method __ConnectWithNextSameTypeEventData addr 0xd919e8 size 0x10 virtual false final false
- void __ConnectWithNextSameTypeEventData(::GlobalNamespace::BeatmapEventData newNextSameTypeEvent) ;
+ void __ConnectWithNextSameTypeEventData(GlobalNamespace::BeatmapEventData newNextSameTypeEvent) ;
 
 /// @brief Method __ResetConnections addr 0xd919f8 size 0x8 virtual false final false
  void __ResetConnections() ;
 
 /// @brief Method GetDefault addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::BeatmapEventData GetDefault() ;
+ GlobalNamespace::BeatmapEventData GetDefault() ;
 
 /// @brief Method GetDefault addr 0xd91a00 size 0x2c virtual false final false
- ::GlobalNamespace::BeatmapEventData GetDefault(::GlobalNamespace::BeatmapEventData nextData) ;
+ GlobalNamespace::BeatmapEventData GetDefault(GlobalNamespace::BeatmapEventData nextData) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BeatmapEventData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapEventData, "", "BeatmapEventData");
+NEED_NO_BOX(GlobalNamespace::BeatmapEventData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEventData, "", "BeatmapEventData");

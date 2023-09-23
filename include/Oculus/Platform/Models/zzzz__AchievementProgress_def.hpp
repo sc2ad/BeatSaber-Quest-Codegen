@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 struct DateTime;
 }
@@ -77,11 +76,11 @@ constexpr void __set_Name(::StringW value) ;
 
 constexpr ::StringW __get_Name() const;
 
- ::System::DateTime __declspec(property(get=__get_UnlockTime, put=__set_UnlockTime))  UnlockTime;
+ System::DateTime __declspec(property(get=__get_UnlockTime, put=__set_UnlockTime))  UnlockTime;
 
-constexpr void __set_UnlockTime(::System::DateTime value) ;
+constexpr void __set_UnlockTime(System::DateTime value) ;
 
-constexpr ::System::DateTime __get_UnlockTime() const;
+constexpr System::DateTime __get_UnlockTime() const;
 
 
 // Methods
@@ -96,6 +95,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::AchievementProgress);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::AchievementProgress, "Oculus.Platform.Models", "AchievementProgress");
+NEED_NO_BOX(Oculus::Platform::Models::AchievementProgress);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AchievementProgress, "Oculus.Platform.Models", "AchievementProgress");

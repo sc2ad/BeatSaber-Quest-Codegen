@@ -4,34 +4,33 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto::Engines {
-class ThreefishEngine;
+namespace Org::BouncyCastle::Utilities {
+class IMemoable;
 }
 namespace System::Collections {
 class IDictionary;
 }
-namespace Org::BouncyCastle::Utilities {
-class IMemoable;
+namespace Org::BouncyCastle::Crypto::Engines {
+class ThreefishEngine;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class SkeinParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Digests {
+class Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration;
+}
+namespace Org::BouncyCastle::Crypto::Digests {
+class Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter;
+}
+namespace Org::BouncyCastle::Crypto::Digests {
+class Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI;
+}
+namespace Org::BouncyCastle::Crypto::Digests {
+class Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak;
+}
+namespace Org::BouncyCastle::Crypto::Digests {
 class SkeinEngine;
-}
-namespace Org::BouncyCastle::Crypto::Digests {
-class ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration;
-}
-namespace Org::BouncyCastle::Crypto::Digests {
-class ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter;
-}
-namespace Org::BouncyCastle::Crypto::Digests {
-class ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI;
-}
-namespace Org::BouncyCastle::Crypto::Digests {
-class ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak;
 }
 // Type: ::Configuration
 namespace Org::BouncyCastle::Crypto::Digests {
@@ -39,37 +38,37 @@ namespace Org::BouncyCastle::Crypto::Digests {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(777))
 // CS Name: Org.BouncyCastle.Crypto.Digests.SkeinEngine::Configuration
-class CORDL_TYPE ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration() = default;
+virtual ~Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration", modifiers: " const&", def_value: None }]
-constexpr ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration(____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration", modifiers: " const&", def_value: None }]
+constexpr Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration(Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration", modifiers: "&&", def_value: None }]
-constexpr ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration(____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration", modifiers: "&&", def_value: None }]
+constexpr Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration(Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration& operator=(std::nullptr_t) noexcept {
+  constexpr Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration& operator=(void* o) noexcept {
+  constexpr Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration& operator=(____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration&& o) noexcept = default;
-  constexpr ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration& operator=(____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration const& o) noexcept = default;
+  constexpr Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration& operator=(Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration&& o) noexcept = default;
+  constexpr Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration& operator=(Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration const& o) noexcept = default;
                 
 
 
@@ -90,7 +89,7 @@ constexpr ::ArrayW<uint8_t> __get_bytes() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "outputSizeBits", ty: "int64_t", modifiers: "", def_value: None }]
-explicit ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration(int64_t outputSizeBits) ;
+explicit Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration(int64_t outputSizeBits) ;
 
 /// @brief Method .ctor addr 0xe1aba8 size 0x148 virtual false final false
  void _ctor(int64_t outputSizeBits) ;
@@ -108,37 +107,37 @@ namespace Org::BouncyCastle::Crypto::Digests {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(778))
 // CS Name: Org.BouncyCastle.Crypto.Digests.SkeinEngine::Parameter
-class CORDL_TYPE ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter() = default;
+virtual ~Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter", modifiers: " const&", def_value: None }]
-constexpr ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter(____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter", modifiers: " const&", def_value: None }]
+constexpr Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter(Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter", modifiers: "&&", def_value: None }]
-constexpr ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter(____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter", modifiers: "&&", def_value: None }]
+constexpr Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter(Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter& operator=(std::nullptr_t) noexcept {
+  constexpr Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter& operator=(void* o) noexcept {
+  constexpr Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter& operator=(____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter&& o) noexcept = default;
-  constexpr ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter& operator=(____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter const& o) noexcept = default;
+  constexpr Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter& operator=(Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter&& o) noexcept = default;
+  constexpr Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter& operator=(Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter const& o) noexcept = default;
                 
 
 
@@ -167,7 +166,7 @@ constexpr ::ArrayW<uint8_t> __get_value() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "type", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter(int32_t type, ::ArrayW<uint8_t> value) ;
+explicit Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter(int32_t type, ::ArrayW<uint8_t> value) ;
 
 /// @brief Method .ctor addr 0xe1ab28 size 0x30 virtual false final false
  void _ctor(int32_t type, ::ArrayW<uint8_t> value) ;
@@ -188,37 +187,37 @@ namespace Org::BouncyCastle::Crypto::Digests {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(779))
 // CS Name: Org.BouncyCastle.Crypto.Digests.SkeinEngine::UbiTweak
-class CORDL_TYPE ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak() = default;
+virtual ~Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak", modifiers: " const&", def_value: None }]
-constexpr ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak(____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak", modifiers: " const&", def_value: None }]
+constexpr Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak(Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak", modifiers: "&&", def_value: None }]
-constexpr ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak(____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak", modifiers: "&&", def_value: None }]
+constexpr Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak(Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak& operator=(std::nullptr_t) noexcept {
+  constexpr Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak& operator=(void* o) noexcept {
+  constexpr Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak& operator=(____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak&& o) noexcept = default;
-  constexpr ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak& operator=(____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak const& o) noexcept = default;
+  constexpr Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak& operator=(Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak&& o) noexcept = default;
+  constexpr Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak& operator=(Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak const& o) noexcept = default;
                 
 
 
@@ -258,13 +257,13 @@ constexpr bool __get_extendedPosition() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak() ;
+explicit Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak() ;
 
 /// @brief Method .ctor addr 0xe1b170 size 0x60 virtual false final false
  void _ctor() ;
 
 /// @brief Method Reset addr 0xe1b20c size 0x88 virtual false final false
- void Reset(::Org::BouncyCastle::Crypto::Digests::____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak tweak) ;
+ void Reset(Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak tweak) ;
 
 /// @brief Method Reset addr 0xe1b1d0 size 0x3c virtual false final false
  void Reset() ;
@@ -306,53 +305,53 @@ namespace Org::BouncyCastle::Crypto::Digests {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(780))
 // CS Name: Org.BouncyCastle.Crypto.Digests.SkeinEngine::UBI
-class CORDL_TYPE ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
 
-virtual ~____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI() = default;
+virtual ~Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI", modifiers: " const&", def_value: None }]
-constexpr ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI(____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI", modifiers: " const&", def_value: None }]
+constexpr Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI(Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI", modifiers: "&&", def_value: None }]
-constexpr ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI(____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI", modifiers: "&&", def_value: None }]
+constexpr Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI(Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI& operator=(std::nullptr_t) noexcept {
+  constexpr Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI& operator=(void* o) noexcept {
+  constexpr Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI& operator=(____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI&& o) noexcept = default;
-  constexpr ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI& operator=(____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI const& o) noexcept = default;
+  constexpr Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI& operator=(Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI&& o) noexcept = default;
+  constexpr Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI& operator=(Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::Org::BouncyCastle::Crypto::Digests::____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak __declspec(property(get=__get_tweak, put=__set_tweak))  tweak;
+ Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak __declspec(property(get=__get_tweak, put=__set_tweak))  tweak;
 
-constexpr void __set_tweak(::Org::BouncyCastle::Crypto::Digests::____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak value) ;
+constexpr void __set_tweak(Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Digests::____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak __get_tweak() const;
+constexpr Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak __get_tweak() const;
 
- ::Org::BouncyCastle::Crypto::Digests::SkeinEngine __declspec(property(get=__get_engine, put=__set_engine))  engine;
+ Org::BouncyCastle::Crypto::Digests::SkeinEngine __declspec(property(get=__get_engine, put=__set_engine))  engine;
 
-constexpr void __set_engine(::Org::BouncyCastle::Crypto::Digests::SkeinEngine value) ;
+constexpr void __set_engine(Org::BouncyCastle::Crypto::Digests::SkeinEngine value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Digests::SkeinEngine __get_engine() const;
+constexpr Org::BouncyCastle::Crypto::Digests::SkeinEngine __get_engine() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get_currentBlock, put=__set_currentBlock))  currentBlock;
 
@@ -375,14 +374,14 @@ constexpr ::ArrayW<uint64_t> __get_message() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "engine", ty: "::Org::BouncyCastle::Crypto::Digests::SkeinEngine", modifiers: "", def_value: None }, CppParam { name: "blockSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI(::Org::BouncyCastle::Crypto::Digests::SkeinEngine engine, int32_t blockSize) ;
+// Ctor Parameters [CppParam { name: "engine", ty: "Org::BouncyCastle::Crypto::Digests::SkeinEngine", modifiers: "", def_value: None }, CppParam { name: "blockSize", ty: "int32_t", modifiers: "", def_value: None }]
+explicit Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI(Org::BouncyCastle::Crypto::Digests::SkeinEngine engine, int32_t blockSize) ;
 
 /// @brief Method .ctor addr 0xe19e50 size 0xd8 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::Digests::SkeinEngine engine, int32_t blockSize) ;
+ void _ctor(Org::BouncyCastle::Crypto::Digests::SkeinEngine engine, int32_t blockSize) ;
 
 /// @brief Method Reset addr 0xe1a02c size 0xac virtual false final false
- void Reset(::Org::BouncyCastle::Crypto::Digests::____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI ubi) ;
+ void Reset(Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI ubi) ;
 
 /// @brief Method Reset addr 0xe1ae38 size 0x40 virtual false final false
  void Reset(int32_t type) ;
@@ -409,16 +408,16 @@ namespace Org::BouncyCastle::Crypto::Digests {
 class CORDL_TYPE SkeinEngine : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using UBI = ::Org::BouncyCastle::Crypto::Digests::____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI;
+using UBI = Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI;
 
-using UbiTweak = ::Org::BouncyCastle::Crypto::Digests::____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak;
+using UbiTweak = Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak;
 
-using Parameter = ::Org::BouncyCastle::Crypto::Digests::____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter;
+using Parameter = Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter;
 
-using Configuration = ::Org::BouncyCastle::Crypto::Digests::____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration;
+using Configuration = Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration;
 
-/// @brief Convert operator to ::Org::BouncyCastle::Utilities::IMemoable
-constexpr operator  ::Org::BouncyCastle::Utilities::IMemoable() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Utilities::IMemoable
+constexpr operator  Org::BouncyCastle::Utilities::IMemoable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x58};
@@ -474,17 +473,17 @@ static constexpr int32_t  PARAM_TYPE_MESSAGE{48};
 /// @brief Field PARAM_TYPE_OUTPUT offset 0
 static constexpr int32_t  PARAM_TYPE_OUTPUT{63};
 
-static ::System::Collections::IDictionary __declspec(property(get=__get_INITIAL_STATES, put=__set_INITIAL_STATES))  INITIAL_STATES;
+static System::Collections::IDictionary __declspec(property(get=__get_INITIAL_STATES, put=__set_INITIAL_STATES))  INITIAL_STATES;
 
-static void __set_INITIAL_STATES(::System::Collections::IDictionary value) ;
+static void __set_INITIAL_STATES(System::Collections::IDictionary value) ;
 
-static ::System::Collections::IDictionary __get_INITIAL_STATES() ;
+static System::Collections::IDictionary __get_INITIAL_STATES() ;
 
- ::Org::BouncyCastle::Crypto::Engines::ThreefishEngine __declspec(property(get=__get_threefish, put=__set_threefish))  threefish;
+ Org::BouncyCastle::Crypto::Engines::ThreefishEngine __declspec(property(get=__get_threefish, put=__set_threefish))  threefish;
 
-constexpr void __set_threefish(::Org::BouncyCastle::Crypto::Engines::ThreefishEngine value) ;
+constexpr void __set_threefish(Org::BouncyCastle::Crypto::Engines::ThreefishEngine value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Engines::ThreefishEngine __get_threefish() const;
+constexpr Org::BouncyCastle::Crypto::Engines::ThreefishEngine __get_threefish() const;
 
  int32_t __declspec(property(get=__get_outputSizeBytes, put=__set_outputSizeBytes))  outputSizeBytes;
 
@@ -510,23 +509,23 @@ constexpr void __set_key(::ArrayW<uint8_t> value) ;
 
 constexpr ::ArrayW<uint8_t> __get_key() const;
 
- ::ArrayW<::Org::BouncyCastle::Crypto::Digests::____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter> __declspec(property(get=__get_preMessageParameters, put=__set_preMessageParameters))  preMessageParameters;
+ ::ArrayW<Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter> __declspec(property(get=__get_preMessageParameters, put=__set_preMessageParameters))  preMessageParameters;
 
-constexpr void __set_preMessageParameters(::ArrayW<::Org::BouncyCastle::Crypto::Digests::____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter> value) ;
+constexpr void __set_preMessageParameters(::ArrayW<Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter> value) ;
 
-constexpr ::ArrayW<::Org::BouncyCastle::Crypto::Digests::____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter> __get_preMessageParameters() const;
+constexpr ::ArrayW<Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter> __get_preMessageParameters() const;
 
- ::ArrayW<::Org::BouncyCastle::Crypto::Digests::____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter> __declspec(property(get=__get_postMessageParameters, put=__set_postMessageParameters))  postMessageParameters;
+ ::ArrayW<Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter> __declspec(property(get=__get_postMessageParameters, put=__set_postMessageParameters))  postMessageParameters;
 
-constexpr void __set_postMessageParameters(::ArrayW<::Org::BouncyCastle::Crypto::Digests::____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter> value) ;
+constexpr void __set_postMessageParameters(::ArrayW<Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter> value) ;
 
-constexpr ::ArrayW<::Org::BouncyCastle::Crypto::Digests::____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter> __get_postMessageParameters() const;
+constexpr ::ArrayW<Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter> __get_postMessageParameters() const;
 
- ::Org::BouncyCastle::Crypto::Digests::____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI __declspec(property(get=__get_ubi, put=__set_ubi))  ubi;
+ Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI __declspec(property(get=__get_ubi, put=__set_ubi))  ubi;
 
-constexpr void __set_ubi(::Org::BouncyCastle::Crypto::Digests::____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI value) ;
+constexpr void __set_ubi(Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Digests::____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI __get_ubi() const;
+constexpr Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI __get_ubi() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get_singleByte, put=__set_singleByte))  singleByte;
 
@@ -556,23 +555,23 @@ explicit SkeinEngine(int32_t blockSizeBits, int32_t outputSizeBits) ;
 /// @brief Method .ctor addr 0xe18fcc size 0x190 virtual false final false
  void _ctor(int32_t blockSizeBits, int32_t outputSizeBits) ;
 
-// Ctor Parameters [CppParam { name: "engine", ty: "::Org::BouncyCastle::Crypto::Digests::SkeinEngine", modifiers: "", def_value: None }]
-explicit SkeinEngine(::Org::BouncyCastle::Crypto::Digests::SkeinEngine engine) ;
+// Ctor Parameters [CppParam { name: "engine", ty: "Org::BouncyCastle::Crypto::Digests::SkeinEngine", modifiers: "", def_value: None }]
+explicit SkeinEngine(Org::BouncyCastle::Crypto::Digests::SkeinEngine engine) ;
 
 /// @brief Method .ctor addr 0xe191ec size 0x58 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::Digests::SkeinEngine engine) ;
+ void _ctor(Org::BouncyCastle::Crypto::Digests::SkeinEngine engine) ;
 
 /// @brief Method CopyIn addr 0xe19f28 size 0x104 virtual false final false
- void CopyIn(::Org::BouncyCastle::Crypto::Digests::SkeinEngine engine) ;
+ void CopyIn(Org::BouncyCastle::Crypto::Digests::SkeinEngine engine) ;
 
 /// @brief Method Clone addr 0xe1a0d8 size 0xa0 virtual false final false
-static ::ArrayW<::Org::BouncyCastle::Crypto::Digests::____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter> Clone(::ArrayW<::Org::BouncyCastle::Crypto::Digests::____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter> data, ::ArrayW<::Org::BouncyCastle::Crypto::Digests::____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter> existing) ;
+static ::ArrayW<Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter> Clone(::ArrayW<Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter> data, ::ArrayW<Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter> existing) ;
 
 /// @brief Method Copy addr 0xe1a178 size 0x60 virtual true final true
- ::Org::BouncyCastle::Utilities::IMemoable Copy() ;
+ Org::BouncyCastle::Utilities::IMemoable Copy() ;
 
 /// @brief Method Reset addr 0xe192d0 size 0x124 virtual true final true
- void Reset(::Org::BouncyCastle::Utilities::IMemoable other) ;
+ void Reset(Org::BouncyCastle::Utilities::IMemoable other) ;
 
 /// @brief Method get_OutputSize addr 0xe1a1d8 size 0x8 virtual false final false
  int32_t get_OutputSize() ;
@@ -581,10 +580,10 @@ static ::ArrayW<::Org::BouncyCastle::Crypto::Digests::____Org__BouncyCastle__Cry
  int32_t get_BlockSize() ;
 
 /// @brief Method Init addr 0xe19684 size 0xb8 virtual false final false
- void Init(::Org::BouncyCastle::Crypto::Parameters::SkeinParameters parameters) ;
+ void Init(Org::BouncyCastle::Crypto::Parameters::SkeinParameters parameters) ;
 
 /// @brief Method InitParams addr 0xe1a1e0 size 0x678 virtual false final false
- void InitParams(::System::Collections::IDictionary parameters) ;
+ void InitParams(System::Collections::IDictionary parameters) ;
 
 /// @brief Method CreateInitialState addr 0xe1a858 size 0x2b8 virtual false final false
  void CreateInitialState() ;
@@ -620,14 +619,13 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Digests
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::SkeinEngine);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Digests::SkeinEngine, "Org.BouncyCastle.Crypto.Digests", "SkeinEngine");
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Digests::____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration, "Org.BouncyCastle.Crypto.Digests", "SkeinEngine/Configuration");
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Digests::____Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter, "Org.BouncyCastle.Crypto.Digests", "SkeinEngine/Parameter");
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Digests::____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI, "Org.BouncyCastle.Crypto.Digests", "SkeinEngine/UBI");
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Digests::____Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak, "Org.BouncyCastle.Crypto.Digests", "SkeinEngine/UbiTweak");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration, "Org.BouncyCastle.Crypto.Digests", "SkeinEngine/Configuration");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter, "Org.BouncyCastle.Crypto.Digests", "SkeinEngine/Parameter");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI, "Org.BouncyCastle.Crypto.Digests", "SkeinEngine/UBI");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak, "Org.BouncyCastle.Crypto.Digests", "SkeinEngine/UbiTweak");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Digests::SkeinEngine);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::SkeinEngine, "Org.BouncyCastle.Crypto.Digests", "SkeinEngine");

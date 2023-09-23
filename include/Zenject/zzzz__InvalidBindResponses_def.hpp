@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Zenject {
 struct InvalidBindResponses;
@@ -67,14 +66,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Assert offset 0
-static ::Zenject::InvalidBindResponses const Assert;
+static Zenject::InvalidBindResponses const Assert;
 
 /// @brief Field Skip offset 0
-static ::Zenject::InvalidBindResponses const Skip;
+static Zenject::InvalidBindResponses const Skip;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::InvalidBindResponses, "Zenject", "InvalidBindResponses");
+DEFINE_IL2CPP_ARG_TYPE(Zenject::InvalidBindResponses, "Zenject", "InvalidBindResponses");

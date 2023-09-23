@@ -5,9 +5,8 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
-class IFormatProvider;
+class Type;
 }
 namespace System {
 struct TypeCode;
@@ -19,14 +18,14 @@ namespace System {
 struct Decimal;
 }
 namespace System {
-class Type;
+struct DateTime;
 }
 namespace System {
 template<typename T>
 class IEquatable_1;
 }
 namespace System {
-struct DateTime;
+class IFormatProvider;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -41,14 +40,14 @@ namespace UnityEngine::InputSystem::Utilities {
 struct CORDL_TYPE PrimitiveValue : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::PrimitiveValue>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::PrimitiveValue>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::InputSystem::Utilities::PrimitiveValue>
+constexpr operator  System::IEquatable_1<UnityEngine::InputSystem::Utilities::PrimitiveValue>() const;
 
-/// @brief Convert operator to ::System::IConvertible
-constexpr operator  ::System::IConvertible() const;
+/// @brief Convert operator to System::IConvertible
+constexpr operator  System::IConvertible() const;
 
-// Ctor Parameters [CppParam { name: "m_Type", ty: "::System::TypeCode", modifiers: "", def_value: None }, CppParam { name: "m_BoolValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_CharValue", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "m_ByteValue", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "m_SByteValue", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "m_ShortValue", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "m_UShortValue", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "m_IntValue", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_UIntValue", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_LongValue", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "m_ULongValue", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "m_FloatValue", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_DoubleValue", ty: "double_t", modifiers: "", def_value: None }]
-constexpr PrimitiveValue(::System::TypeCode m_Type, bool m_BoolValue, char16_t m_CharValue, uint8_t m_ByteValue, int8_t m_SByteValue, int16_t m_ShortValue, uint16_t m_UShortValue, int32_t m_IntValue, uint32_t m_UIntValue, int64_t m_LongValue, uint64_t m_ULongValue, float_t m_FloatValue, double_t m_DoubleValue) noexcept;
+// Ctor Parameters [CppParam { name: "m_Type", ty: "System::TypeCode", modifiers: "", def_value: None }, CppParam { name: "m_BoolValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_CharValue", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "m_ByteValue", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "m_SByteValue", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "m_ShortValue", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "m_UShortValue", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "m_IntValue", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_UIntValue", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_LongValue", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "m_ULongValue", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "m_FloatValue", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_DoubleValue", ty: "double_t", modifiers: "", def_value: None }]
+constexpr PrimitiveValue(System::TypeCode m_Type, bool m_BoolValue, char16_t m_CharValue, uint8_t m_ByteValue, int8_t m_SByteValue, int16_t m_ShortValue, uint16_t m_UShortValue, int32_t m_IntValue, uint32_t m_UIntValue, int64_t m_LongValue, uint64_t m_ULongValue, float_t m_FloatValue, double_t m_DoubleValue) noexcept;
 
 
                     constexpr PrimitiveValue(PrimitiveValue const&) = default;
@@ -81,11 +80,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::TypeCode __declspec(property(get=__get_m_Type, put=__set_m_Type))  m_Type;
+ System::TypeCode __declspec(property(get=__get_m_Type, put=__set_m_Type))  m_Type;
 
-constexpr void __set_m_Type(::System::TypeCode value) ;
+constexpr void __set_m_Type(System::TypeCode value) ;
 
-constexpr ::System::TypeCode __get_m_Type() const;
+constexpr System::TypeCode __get_m_Type() const;
 
  bool __declspec(property(get=__get_m_BoolValue, put=__set_m_BoolValue))  m_BoolValue;
 
@@ -164,7 +163,7 @@ constexpr double_t __get_m_DoubleValue() const;
 
  void* __declspec(property(get=get_valuePtr))  valuePtr;
 
- ::System::TypeCode __declspec(property(get=get_type))  type;
+ System::TypeCode __declspec(property(get=get_type))  type;
 
  bool __declspec(property(get=get_isEmpty))  isEmpty;
 
@@ -175,7 +174,7 @@ constexpr double_t __get_m_DoubleValue() const;
  void* get_valuePtr() ;
 
 /// @brief Method get_type addr 0x2983d38 size 0x8 virtual false final false
- ::System::TypeCode get_type() ;
+ System::TypeCode get_type() ;
 
 /// @brief Method get_isEmpty addr 0x29775cc size 0x10 virtual false final false
  bool get_isEmpty() ;
@@ -217,19 +216,19 @@ constexpr double_t __get_m_DoubleValue() const;
  void _ctor(double_t value) ;
 
 /// @brief Method ConvertTo addr 0x298209c size 0x1f8 virtual false final false
- ::UnityEngine::InputSystem::Utilities::PrimitiveValue ConvertTo(::System::TypeCode type) ;
+ UnityEngine::InputSystem::Utilities::PrimitiveValue ConvertTo(System::TypeCode type) ;
 
 /// @brief Method Equals addr 0x298429c size 0x4c virtual true final true
- bool Equals(::UnityEngine::InputSystem::Utilities::PrimitiveValue other) ;
+ bool Equals(UnityEngine::InputSystem::Utilities::PrimitiveValue other) ;
 
 /// @brief Method Equals addr 0x29842e8 size 0x218 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method op_Equality addr 0x29822f0 size 0x2c virtual false final false
-static bool op_Equality(::UnityEngine::InputSystem::Utilities::PrimitiveValue left, ::UnityEngine::InputSystem::Utilities::PrimitiveValue right) ;
+static bool op_Equality(UnityEngine::InputSystem::Utilities::PrimitiveValue left, UnityEngine::InputSystem::Utilities::PrimitiveValue right) ;
 
 /// @brief Method op_Inequality addr 0x2984ae8 size 0x30 virtual false final false
-static bool op_Inequality(::UnityEngine::InputSystem::Utilities::PrimitiveValue left, ::UnityEngine::InputSystem::Utilities::PrimitiveValue right) ;
+static bool op_Inequality(UnityEngine::InputSystem::Utilities::PrimitiveValue left, UnityEngine::InputSystem::Utilities::PrimitiveValue right) ;
 
 /// @brief Method GetHashCode addr 0x2982408 size 0x88 virtual true final false
  int32_t GetHashCode() ;
@@ -238,144 +237,143 @@ static bool op_Inequality(::UnityEngine::InputSystem::Utilities::PrimitiveValue 
  ::StringW ToString() ;
 
 /// @brief Method FromString addr 0x2982904 size 0x2f4 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::PrimitiveValue FromString(::StringW value) ;
+static UnityEngine::InputSystem::Utilities::PrimitiveValue FromString(::StringW value) ;
 
 /// @brief Method GetTypeCode addr 0x2984ee8 size 0x8 virtual true final true
- ::System::TypeCode GetTypeCode() ;
+ System::TypeCode GetTypeCode() ;
 
 /// @brief Method ToBoolean addr 0x2983e44 size 0x158 virtual true final true
- bool ToBoolean(::System::IFormatProvider provider) ;
+ bool ToBoolean(System::IFormatProvider provider) ;
 
 /// @brief Method ToByte addr 0x2983fe8 size 0x10 virtual true final true
- uint8_t ToByte(::System::IFormatProvider provider) ;
+ uint8_t ToByte(System::IFormatProvider provider) ;
 
 /// @brief Method ToChar addr 0x2983f9c size 0x38 virtual true final true
- char16_t ToChar(::System::IFormatProvider provider) ;
+ char16_t ToChar(System::IFormatProvider provider) ;
 
 /// @brief Method ToDateTime addr 0x2984ef0 size 0x50 virtual true final true
- ::System::DateTime ToDateTime(::System::IFormatProvider provider) ;
+ System::DateTime ToDateTime(System::IFormatProvider provider) ;
 
 /// @brief Method ToDecimal addr 0x2984f40 size 0x4c virtual true final true
- ::System::Decimal ToDecimal(::System::IFormatProvider provider) ;
+ System::Decimal ToDecimal(System::IFormatProvider provider) ;
 
 /// @brief Method ToDouble addr 0x29841dc size 0xa8 virtual true final true
- double_t ToDouble(::System::IFormatProvider provider) ;
+ double_t ToDouble(System::IFormatProvider provider) ;
 
 /// @brief Method ToInt16 addr 0x2984030 size 0x10 virtual true final true
- int16_t ToInt16(::System::IFormatProvider provider) ;
+ int16_t ToInt16(System::IFormatProvider provider) ;
 
 /// @brief Method ToInt32 addr 0x2984054 size 0x10 virtual true final true
- int32_t ToInt32(::System::IFormatProvider provider) ;
+ int32_t ToInt32(System::IFormatProvider provider) ;
 
 /// @brief Method ToInt64 addr 0x2984078 size 0xa0 virtual true final true
- int64_t ToInt64(::System::IFormatProvider provider) ;
+ int64_t ToInt64(System::IFormatProvider provider) ;
 
 /// @brief Method ToSByte addr 0x298400c size 0x10 virtual true final true
- int8_t ToSByte(::System::IFormatProvider provider) ;
+ int8_t ToSByte(System::IFormatProvider provider) ;
 
 /// @brief Method ToSingle addr 0x29775dc size 0x14 virtual true final true
- float_t ToSingle(::System::IFormatProvider provider) ;
+ float_t ToSingle(System::IFormatProvider provider) ;
 
 /// @brief Method ToString addr 0x2984f8c size 0x4 virtual true final true
- ::StringW ToString(::System::IFormatProvider provider) ;
+ ::StringW ToString(System::IFormatProvider provider) ;
 
 /// @brief Method ToType addr 0x2984f90 size 0x40 virtual true final true
- ::bs_hook::Il2CppWrapperType ToType(::System::Type conversionType, ::System::IFormatProvider provider) ;
+ ::bs_hook::Il2CppWrapperType ToType(System::Type conversionType, System::IFormatProvider provider) ;
 
 /// @brief Method ToUInt16 addr 0x2984fd0 size 0x10 virtual true final true
- uint16_t ToUInt16(::System::IFormatProvider provider) ;
+ uint16_t ToUInt16(System::IFormatProvider provider) ;
 
 /// @brief Method ToUInt32 addr 0x2984fe0 size 0x10 virtual true final true
- uint32_t ToUInt32(::System::IFormatProvider provider) ;
+ uint32_t ToUInt32(System::IFormatProvider provider) ;
 
 /// @brief Method ToUInt64 addr 0x2984130 size 0x94 virtual true final true
- uint64_t ToUInt64(::System::IFormatProvider provider) ;
+ uint64_t ToUInt64(System::IFormatProvider provider) ;
 
 /// @brief Method ToObject addr 0x2982ee0 size 0x1b0 virtual false final false
  ::bs_hook::Il2CppWrapperType ToObject() ;
 
 /// @brief Method From addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TValue>
-static ::UnityEngine::InputSystem::Utilities::PrimitiveValue From(TValue value) ;
+static UnityEngine::InputSystem::Utilities::PrimitiveValue From(TValue value) ;
 
 /// @brief Method FromObject addr 0x2984500 size 0x5e8 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::PrimitiveValue FromObject(::bs_hook::Il2CppWrapperType value) ;
+static UnityEngine::InputSystem::Utilities::PrimitiveValue FromObject(::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method op_Implicit addr 0x29828f0 size 0x14 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::PrimitiveValue op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue(bool value) ;
+static UnityEngine::InputSystem::Utilities::PrimitiveValue op_Implicit_UnityEngine__InputSystem__Utilities__PrimitiveValue(bool value) ;
 
 /// @brief Method op_Implicit addr 0x2983fd4 size 0x14 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::PrimitiveValue op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue(char16_t value) ;
+static UnityEngine::InputSystem::Utilities::PrimitiveValue op_Implicit_UnityEngine__InputSystem__Utilities__PrimitiveValue(char16_t value) ;
 
 /// @brief Method op_Implicit addr 0x2983ff8 size 0x14 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::PrimitiveValue op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue(uint8_t value) ;
+static UnityEngine::InputSystem::Utilities::PrimitiveValue op_Implicit_UnityEngine__InputSystem__Utilities__PrimitiveValue(uint8_t value) ;
 
 /// @brief Method op_Implicit addr 0x298401c size 0x14 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::PrimitiveValue op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue(int8_t value) ;
+static UnityEngine::InputSystem::Utilities::PrimitiveValue op_Implicit_UnityEngine__InputSystem__Utilities__PrimitiveValue(int8_t value) ;
 
 /// @brief Method op_Implicit addr 0x2984040 size 0x14 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::PrimitiveValue op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue(int16_t value) ;
+static UnityEngine::InputSystem::Utilities::PrimitiveValue op_Implicit_UnityEngine__InputSystem__Utilities__PrimitiveValue(int16_t value) ;
 
 /// @brief Method op_Implicit addr 0x2984ff0 size 0x14 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::PrimitiveValue op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue(uint16_t value) ;
+static UnityEngine::InputSystem::Utilities::PrimitiveValue op_Implicit_UnityEngine__InputSystem__Utilities__PrimitiveValue(uint16_t value) ;
 
 /// @brief Method op_Implicit addr 0x2984064 size 0x14 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::PrimitiveValue op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue(int32_t value) ;
+static UnityEngine::InputSystem::Utilities::PrimitiveValue op_Implicit_UnityEngine__InputSystem__Utilities__PrimitiveValue(int32_t value) ;
 
 /// @brief Method op_Implicit addr 0x2985004 size 0x14 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::PrimitiveValue op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue(uint32_t value) ;
+static UnityEngine::InputSystem::Utilities::PrimitiveValue op_Implicit_UnityEngine__InputSystem__Utilities__PrimitiveValue(uint32_t value) ;
 
 /// @brief Method op_Implicit addr 0x2984118 size 0x18 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::PrimitiveValue op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue(int64_t value) ;
+static UnityEngine::InputSystem::Utilities::PrimitiveValue op_Implicit_UnityEngine__InputSystem__Utilities__PrimitiveValue(int64_t value) ;
 
 /// @brief Method op_Implicit addr 0x29841c4 size 0x18 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::PrimitiveValue op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue(uint64_t value) ;
+static UnityEngine::InputSystem::Utilities::PrimitiveValue op_Implicit_UnityEngine__InputSystem__Utilities__PrimitiveValue(uint64_t value) ;
 
 /// @brief Method op_Implicit addr 0x2977648 size 0x14 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::PrimitiveValue op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue(float_t value) ;
+static UnityEngine::InputSystem::Utilities::PrimitiveValue op_Implicit_UnityEngine__InputSystem__Utilities__PrimitiveValue(float_t value) ;
 
 /// @brief Method op_Implicit addr 0x2984284 size 0x18 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::PrimitiveValue op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue(double_t value) ;
+static UnityEngine::InputSystem::Utilities::PrimitiveValue op_Implicit_UnityEngine__InputSystem__Utilities__PrimitiveValue(double_t value) ;
 
 /// @brief Method FromBoolean addr 0x2985018 size 0x14 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::PrimitiveValue FromBoolean(bool value) ;
+static UnityEngine::InputSystem::Utilities::PrimitiveValue FromBoolean(bool value) ;
 
 /// @brief Method FromChar addr 0x298502c size 0x14 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::PrimitiveValue FromChar(char16_t value) ;
+static UnityEngine::InputSystem::Utilities::PrimitiveValue FromChar(char16_t value) ;
 
 /// @brief Method FromByte addr 0x2985040 size 0x14 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::PrimitiveValue FromByte(uint8_t value) ;
+static UnityEngine::InputSystem::Utilities::PrimitiveValue FromByte(uint8_t value) ;
 
 /// @brief Method FromSByte addr 0x2985054 size 0x14 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::PrimitiveValue FromSByte(int8_t value) ;
+static UnityEngine::InputSystem::Utilities::PrimitiveValue FromSByte(int8_t value) ;
 
 /// @brief Method FromInt16 addr 0x2985068 size 0x14 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::PrimitiveValue FromInt16(int16_t value) ;
+static UnityEngine::InputSystem::Utilities::PrimitiveValue FromInt16(int16_t value) ;
 
 /// @brief Method FromUInt16 addr 0x298507c size 0x14 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::PrimitiveValue FromUInt16(uint16_t value) ;
+static UnityEngine::InputSystem::Utilities::PrimitiveValue FromUInt16(uint16_t value) ;
 
 /// @brief Method FromInt32 addr 0x2985090 size 0x14 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::PrimitiveValue FromInt32(int32_t value) ;
+static UnityEngine::InputSystem::Utilities::PrimitiveValue FromInt32(int32_t value) ;
 
 /// @brief Method FromUInt32 addr 0x29850a4 size 0x14 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::PrimitiveValue FromUInt32(uint32_t value) ;
+static UnityEngine::InputSystem::Utilities::PrimitiveValue FromUInt32(uint32_t value) ;
 
 /// @brief Method FromInt64 addr 0x29850b8 size 0x18 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::PrimitiveValue FromInt64(int64_t value) ;
+static UnityEngine::InputSystem::Utilities::PrimitiveValue FromInt64(int64_t value) ;
 
 /// @brief Method FromUInt64 addr 0x29850d0 size 0x18 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::PrimitiveValue FromUInt64(uint64_t value) ;
+static UnityEngine::InputSystem::Utilities::PrimitiveValue FromUInt64(uint64_t value) ;
 
 /// @brief Method FromSingle addr 0x29850e8 size 0x14 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::PrimitiveValue FromSingle(float_t value) ;
+static UnityEngine::InputSystem::Utilities::PrimitiveValue FromSingle(float_t value) ;
 
 /// @brief Method FromDouble addr 0x29850fc size 0x18 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::PrimitiveValue FromDouble(double_t value) ;
+static UnityEngine::InputSystem::Utilities::PrimitiveValue FromDouble(double_t value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Utilities
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Utilities::PrimitiveValue, "UnityEngine.InputSystem.Utilities", "PrimitiveValue");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Utilities::PrimitiveValue, "UnityEngine.InputSystem.Utilities", "PrimitiveValue");

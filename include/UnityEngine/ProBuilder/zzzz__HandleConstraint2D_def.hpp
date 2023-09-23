@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Vector2;
 }
@@ -65,11 +64,11 @@ constexpr void __set_y(int32_t value) ;
 
 constexpr int32_t __get_y() const;
 
-static ::UnityEngine::ProBuilder::HandleConstraint2D __declspec(property(get=__get_None, put=__set_None))  None;
+static UnityEngine::ProBuilder::HandleConstraint2D __declspec(property(get=__get_None, put=__set_None))  None;
 
-static void __set_None(::UnityEngine::ProBuilder::HandleConstraint2D value) ;
+static void __set_None(UnityEngine::ProBuilder::HandleConstraint2D value) ;
 
-static ::UnityEngine::ProBuilder::HandleConstraint2D __get_None() ;
+static UnityEngine::ProBuilder::HandleConstraint2D __get_None() ;
 
 
 // Methods
@@ -81,19 +80,19 @@ explicit HandleConstraint2D(int32_t x, int32_t y) ;
  void _ctor(int32_t x, int32_t y) ;
 
 /// @brief Method Inverse addr 0x29aeafc size 0x80 virtual false final false
- ::UnityEngine::ProBuilder::HandleConstraint2D Inverse() ;
+ UnityEngine::ProBuilder::HandleConstraint2D Inverse() ;
 
 /// @brief Method Mask addr 0x29aeb7c size 0x18 virtual false final false
- ::UnityEngine::Vector2 Mask(::UnityEngine::Vector2 v) ;
+ UnityEngine::Vector2 Mask(UnityEngine::Vector2 v) ;
 
 /// @brief Method InverseMask addr 0x29aeb94 size 0x28 virtual false final false
- ::UnityEngine::Vector2 InverseMask(::UnityEngine::Vector2 v) ;
+ UnityEngine::Vector2 InverseMask(UnityEngine::Vector2 v) ;
 
 /// @brief Method op_Equality addr 0x29aebbc size 0x40 virtual false final false
-static bool op_Equality(::UnityEngine::ProBuilder::HandleConstraint2D a, ::UnityEngine::ProBuilder::HandleConstraint2D b) ;
+static bool op_Equality(UnityEngine::ProBuilder::HandleConstraint2D a, UnityEngine::ProBuilder::HandleConstraint2D b) ;
 
 /// @brief Method op_Inequality addr 0x29aebfc size 0x40 virtual false final false
-static bool op_Inequality(::UnityEngine::ProBuilder::HandleConstraint2D a, ::UnityEngine::ProBuilder::HandleConstraint2D b) ;
+static bool op_Inequality(UnityEngine::ProBuilder::HandleConstraint2D a, UnityEngine::ProBuilder::HandleConstraint2D b) ;
 
 /// @brief Method GetHashCode addr 0x29aec3c size 0x8 virtual true final false
  int32_t GetHashCode() ;
@@ -108,6 +107,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::HandleConstraint2D);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::HandleConstraint2D, "UnityEngine.ProBuilder", "HandleConstraint2D");
+NEED_NO_BOX(UnityEngine::ProBuilder::HandleConstraint2D);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::HandleConstraint2D, "UnityEngine.ProBuilder", "HandleConstraint2D");

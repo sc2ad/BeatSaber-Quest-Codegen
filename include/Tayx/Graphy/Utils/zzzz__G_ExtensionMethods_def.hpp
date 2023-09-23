@@ -2,16 +2,15 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class GameObject;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine::UI {
 class Image;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Utils {
@@ -60,18 +59,17 @@ constexpr explicit G_ExtensionMethods(void* ptr) noexcept : ::bs_hook::Il2CppWra
 // Methods
 
 /// @brief Method SetAllActive addr 0x2872fc8 size 0x164 virtual false final false
-static ::System::Collections::Generic::List_1<::UnityEngine::GameObject> SetAllActive(::System::Collections::Generic::List_1<::UnityEngine::GameObject> gameObjects, bool active) ;
+static System::Collections::Generic::List_1<UnityEngine::GameObject> SetAllActive(System::Collections::Generic::List_1<UnityEngine::GameObject> gameObjects, bool active) ;
 
 /// @brief Method SetOneActive addr 0x287312c size 0xb4 virtual false final false
-static ::System::Collections::Generic::List_1<::UnityEngine::UI::Image> SetOneActive(::System::Collections::Generic::List_1<::UnityEngine::UI::Image> images, int32_t active) ;
+static System::Collections::Generic::List_1<UnityEngine::UI::Image> SetOneActive(System::Collections::Generic::List_1<UnityEngine::UI::Image> images, int32_t active) ;
 
 /// @brief Method SetAllActive addr 0x28731e0 size 0x17c virtual false final false
-static ::System::Collections::Generic::List_1<::UnityEngine::UI::Image> SetAllActive(::System::Collections::Generic::List_1<::UnityEngine::UI::Image> images, bool active) ;
+static System::Collections::Generic::List_1<UnityEngine::UI::Image> SetAllActive(System::Collections::Generic::List_1<UnityEngine::UI::Image> images, bool active) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Tayx::Graphy::Utils
-} // end anonymous namespace
-NEED_NO_BOX(::Tayx::Graphy::Utils::G_ExtensionMethods);
-DEFINE_IL2CPP_ARG_TYPE(::Tayx::Graphy::Utils::G_ExtensionMethods, "Tayx.Graphy.Utils", "G_ExtensionMethods");
+NEED_NO_BOX(Tayx::Graphy::Utils::G_ExtensionMethods);
+DEFINE_IL2CPP_ARG_TYPE(Tayx::Graphy::Utils::G_ExtensionMethods, "Tayx.Graphy.Utils", "G_ExtensionMethods");

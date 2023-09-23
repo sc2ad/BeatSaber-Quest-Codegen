@@ -2,12 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace Oculus::Platform::Models {
-class Room;
-}
 namespace Oculus::Platform::Models {
 class User;
+}
+namespace Oculus::Platform::Models {
+class Room;
 }
 // Forward declare root types
 namespace Oculus::Platform::Models {
@@ -55,23 +54,23 @@ constexpr explicit UserAndRoom(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 
 // Fields
 
- ::Oculus::Platform::Models::Room __declspec(property(get=__get_RoomOptional, put=__set_RoomOptional))  RoomOptional;
+ Oculus::Platform::Models::Room __declspec(property(get=__get_RoomOptional, put=__set_RoomOptional))  RoomOptional;
 
-constexpr void __set_RoomOptional(::Oculus::Platform::Models::Room value) ;
+constexpr void __set_RoomOptional(Oculus::Platform::Models::Room value) ;
 
-constexpr ::Oculus::Platform::Models::Room __get_RoomOptional() const;
+constexpr Oculus::Platform::Models::Room __get_RoomOptional() const;
 
- ::Oculus::Platform::Models::Room __declspec(property(get=__get_Room, put=__set_Room))  Room;
+ Oculus::Platform::Models::Room __declspec(property(get=__get_Room, put=__set_Room))  Room;
 
-constexpr void __set_Room(::Oculus::Platform::Models::Room value) ;
+constexpr void __set_Room(Oculus::Platform::Models::Room value) ;
 
-constexpr ::Oculus::Platform::Models::Room __get_Room() const;
+constexpr Oculus::Platform::Models::Room __get_Room() const;
 
- ::Oculus::Platform::Models::User __declspec(property(get=__get_User, put=__set_User))  User;
+ Oculus::Platform::Models::User __declspec(property(get=__get_User, put=__set_User))  User;
 
-constexpr void __set_User(::Oculus::Platform::Models::User value) ;
+constexpr void __set_User(Oculus::Platform::Models::User value) ;
 
-constexpr ::Oculus::Platform::Models::User __get_User() const;
+constexpr Oculus::Platform::Models::User __get_User() const;
 
 
 // Methods
@@ -86,6 +85,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::UserAndRoom);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::UserAndRoom, "Oculus.Platform.Models", "UserAndRoom");
+NEED_NO_BOX(Oculus::Platform::Models::UserAndRoom);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::UserAndRoom, "Oculus.Platform.Models", "UserAndRoom");

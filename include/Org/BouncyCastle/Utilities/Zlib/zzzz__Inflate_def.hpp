@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Utilities::Zlib {
-class ZStream;
-}
 namespace Org::BouncyCastle::Utilities::Zlib {
 class InfBlocks;
+}
+namespace Org::BouncyCastle::Utilities::Zlib {
+class ZStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Zlib {
@@ -191,11 +190,11 @@ constexpr void __set_wbits(int32_t value) ;
 
 constexpr int32_t __get_wbits() const;
 
- ::Org::BouncyCastle::Utilities::Zlib::InfBlocks __declspec(property(get=__get_blocks, put=__set_blocks))  blocks;
+ Org::BouncyCastle::Utilities::Zlib::InfBlocks __declspec(property(get=__get_blocks, put=__set_blocks))  blocks;
 
-constexpr void __set_blocks(::Org::BouncyCastle::Utilities::Zlib::InfBlocks value) ;
+constexpr void __set_blocks(Org::BouncyCastle::Utilities::Zlib::InfBlocks value) ;
 
-constexpr ::Org::BouncyCastle::Utilities::Zlib::InfBlocks __get_blocks() const;
+constexpr Org::BouncyCastle::Utilities::Zlib::InfBlocks __get_blocks() const;
 
 static ::ArrayW<uint8_t> __declspec(property(get=__get_mark, put=__set_mark))  mark;
 
@@ -207,25 +206,25 @@ static ::ArrayW<uint8_t> __get_mark() ;
 // Methods
 
 /// @brief Method inflateReset addr 0x10dc060 size 0x54 virtual false final false
- int32_t inflateReset(::Org::BouncyCastle::Utilities::Zlib::ZStream z) ;
+ int32_t inflateReset(Org::BouncyCastle::Utilities::Zlib::ZStream z) ;
 
 /// @brief Method inflateEnd addr 0x10dc0b4 size 0x38 virtual false final false
- int32_t inflateEnd(::Org::BouncyCastle::Utilities::Zlib::ZStream z) ;
+ int32_t inflateEnd(Org::BouncyCastle::Utilities::Zlib::ZStream z) ;
 
 /// @brief Method inflateInit addr 0x10dc0ec size 0xd8 virtual false final false
- int32_t inflateInit(::Org::BouncyCastle::Utilities::Zlib::ZStream z, int32_t w) ;
+ int32_t inflateInit(Org::BouncyCastle::Utilities::Zlib::ZStream z, int32_t w) ;
 
 /// @brief Method inflate addr 0x10dc1c4 size 0x670 virtual false final false
- int32_t inflate(::Org::BouncyCastle::Utilities::Zlib::ZStream z, int32_t f) ;
+ int32_t inflate(Org::BouncyCastle::Utilities::Zlib::ZStream z, int32_t f) ;
 
 /// @brief Method inflateSetDictionary addr 0x10dc834 size 0x104 virtual false final false
- int32_t inflateSetDictionary(::Org::BouncyCastle::Utilities::Zlib::ZStream z, ::ArrayW<uint8_t> dictionary, int32_t dictLength) ;
+ int32_t inflateSetDictionary(Org::BouncyCastle::Utilities::Zlib::ZStream z, ::ArrayW<uint8_t> dictionary, int32_t dictLength) ;
 
 /// @brief Method inflateSync addr 0x10dc938 size 0x1c0 virtual false final false
- int32_t inflateSync(::Org::BouncyCastle::Utilities::Zlib::ZStream z) ;
+ int32_t inflateSync(Org::BouncyCastle::Utilities::Zlib::ZStream z) ;
 
 /// @brief Method inflateSyncPoint addr 0x10dcaf8 size 0x2c virtual false final false
- int32_t inflateSyncPoint(::Org::BouncyCastle::Utilities::Zlib::ZStream z) ;
+ int32_t inflateSyncPoint(Org::BouncyCastle::Utilities::Zlib::ZStream z) ;
 
 // Ctor Parameters []
 explicit Inflate() ;
@@ -237,6 +236,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities::Zlib
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::Zlib::Inflate);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Zlib::Inflate, "Org.BouncyCastle.Utilities.Zlib", "Inflate");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Zlib::Inflate);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Zlib::Inflate, "Org.BouncyCastle.Utilities.Zlib", "Inflate");

@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_def.hpp"
 #include "Oculus/Platform/Models/zzzz__LinkedAccount_def.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class LinkedAccountList;
@@ -11,10 +10,10 @@ class LinkedAccountList;
 // Type: Oculus.Platform.Models::LinkedAccountList
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13410)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1140 }), TypeDefinitionIndex(TypeDefinitionIndex(13431))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13410)), TypeDefinitionIndex(TypeDefinitionIndex(13431)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1140 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13432))
 // CS Name: Oculus.Platform.Models.LinkedAccountList
-class CORDL_TYPE LinkedAccountList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::LinkedAccount> {
+class CORDL_TYPE LinkedAccountList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::LinkedAccount> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr LinkedAccountList(LinkedAccountList const& ) noexcept = default;
 constexpr LinkedAccountList(LinkedAccountList&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LinkedAccountList(void* ptr) noexcept : ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::LinkedAccount>(ptr) {
+constexpr explicit LinkedAccountList(void* ptr) noexcept : Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::LinkedAccount>(ptr) {
 }
 
 
@@ -60,6 +59,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::LinkedAccountList);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::LinkedAccountList, "Oculus.Platform.Models", "LinkedAccountList");
+NEED_NO_BOX(Oculus::Platform::Models::LinkedAccountList);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LinkedAccountList, "Oculus.Platform.Models", "LinkedAccountList");

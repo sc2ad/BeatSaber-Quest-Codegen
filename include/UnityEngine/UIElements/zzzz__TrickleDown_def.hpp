@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 struct TrickleDown;
@@ -67,14 +66,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field NoTrickleDown offset 0
-static ::UnityEngine::UIElements::TrickleDown const NoTrickleDown;
+static UnityEngine::UIElements::TrickleDown const NoTrickleDown;
 
 /// @brief Field TrickleDown offset 0
-static ::UnityEngine::UIElements::TrickleDown const TrickleDown;
+static UnityEngine::UIElements::TrickleDown const TrickleDown;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::TrickleDown, "UnityEngine.UIElements", "TrickleDown");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::TrickleDown, "UnityEngine.UIElements", "TrickleDown");

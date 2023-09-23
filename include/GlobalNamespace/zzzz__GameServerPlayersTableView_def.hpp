@@ -5,12 +5,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
-class PreviewDifficultyBeatmap;
+class GameplayModifiers;
 }
 namespace GlobalNamespace {
 class AdditionalContentModel;
+}
+namespace GlobalNamespace {
+class GameServerPlayerTableCell;
+}
+namespace GlobalNamespace {
+class ILobbyPlayersDataModel;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 class ILobbyPlayerData;
@@ -20,35 +28,26 @@ template<typename T>
 class Action_1;
 }
 namespace HMUI {
-class TableCell;
-}
-namespace GlobalNamespace {
-class ILobbyPlayersDataModel;
+class HMUI__TableView__IDataSource;
 }
 namespace HMUI {
 class TableView;
 }
-namespace Zenject {
-class DiContainer;
-}
-namespace GlobalNamespace {
-class GameServerPlayerTableCell;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace UnityEngine {
-class GameObject;
-}
 namespace HMUI {
-class ____HMUI__TableView__IDataSource;
+class TableCell;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace GlobalNamespace {
+class PreviewDifficultyBeatmap;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -60,11 +59,11 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5868))
 // CS Name: GameServerPlayersTableView
-class CORDL_TYPE GameServerPlayersTableView : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE GameServerPlayersTableView : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-/// @brief Convert operator to ::HMUI::____HMUI__TableView__IDataSource
-constexpr operator  ::HMUI::____HMUI__TableView__IDataSource() const noexcept;
+/// @brief Convert operator to HMUI::HMUI__TableView__IDataSource
+constexpr operator  HMUI::HMUI__TableView__IDataSource() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x90};
@@ -78,7 +77,7 @@ constexpr GameServerPlayersTableView(GameServerPlayersTableView const& ) noexcep
 constexpr GameServerPlayersTableView(GameServerPlayersTableView&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GameServerPlayersTableView(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit GameServerPlayersTableView(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -108,71 +107,71 @@ static constexpr ::ConstString  kNoSongsCellId{u"NoSongCell"};
 /// @brief Field kNoModifiersCellId offset 0
 static constexpr ::ConstString  kNoModifiersCellId{u"NoModifierCell"};
 
- ::HMUI::TableView __declspec(property(get=__get__tableView, put=__set__tableView))  _tableView;
+ HMUI::TableView __declspec(property(get=__get__tableView, put=__set__tableView))  _tableView;
 
-constexpr void __set__tableView(::HMUI::TableView value) ;
+constexpr void __set__tableView(HMUI::TableView value) ;
 
-constexpr ::HMUI::TableView __get__tableView() const;
+constexpr HMUI::TableView __get__tableView() const;
 
- ::GlobalNamespace::GameServerPlayerTableCell __declspec(property(get=__get__gameServerPlayerCellPrefab, put=__set__gameServerPlayerCellPrefab))  _gameServerPlayerCellPrefab;
+ GlobalNamespace::GameServerPlayerTableCell __declspec(property(get=__get__gameServerPlayerCellPrefab, put=__set__gameServerPlayerCellPrefab))  _gameServerPlayerCellPrefab;
 
-constexpr void __set__gameServerPlayerCellPrefab(::GlobalNamespace::GameServerPlayerTableCell value) ;
+constexpr void __set__gameServerPlayerCellPrefab(GlobalNamespace::GameServerPlayerTableCell value) ;
 
-constexpr ::GlobalNamespace::GameServerPlayerTableCell __get__gameServerPlayerCellPrefab() const;
+constexpr GlobalNamespace::GameServerPlayerTableCell __get__gameServerPlayerCellPrefab() const;
 
- ::GlobalNamespace::GameServerPlayerTableCell __declspec(property(get=__get__gameServerPlayerCellWithoutSongsPrefab, put=__set__gameServerPlayerCellWithoutSongsPrefab))  _gameServerPlayerCellWithoutSongsPrefab;
+ GlobalNamespace::GameServerPlayerTableCell __declspec(property(get=__get__gameServerPlayerCellWithoutSongsPrefab, put=__set__gameServerPlayerCellWithoutSongsPrefab))  _gameServerPlayerCellWithoutSongsPrefab;
 
-constexpr void __set__gameServerPlayerCellWithoutSongsPrefab(::GlobalNamespace::GameServerPlayerTableCell value) ;
+constexpr void __set__gameServerPlayerCellWithoutSongsPrefab(GlobalNamespace::GameServerPlayerTableCell value) ;
 
-constexpr ::GlobalNamespace::GameServerPlayerTableCell __get__gameServerPlayerCellWithoutSongsPrefab() const;
+constexpr GlobalNamespace::GameServerPlayerTableCell __get__gameServerPlayerCellWithoutSongsPrefab() const;
 
- ::GlobalNamespace::GameServerPlayerTableCell __declspec(property(get=__get__gameServerPlayerCellWithoutModifiersPrefab, put=__set__gameServerPlayerCellWithoutModifiersPrefab))  _gameServerPlayerCellWithoutModifiersPrefab;
+ GlobalNamespace::GameServerPlayerTableCell __declspec(property(get=__get__gameServerPlayerCellWithoutModifiersPrefab, put=__set__gameServerPlayerCellWithoutModifiersPrefab))  _gameServerPlayerCellWithoutModifiersPrefab;
 
-constexpr void __set__gameServerPlayerCellWithoutModifiersPrefab(::GlobalNamespace::GameServerPlayerTableCell value) ;
+constexpr void __set__gameServerPlayerCellWithoutModifiersPrefab(GlobalNamespace::GameServerPlayerTableCell value) ;
 
-constexpr ::GlobalNamespace::GameServerPlayerTableCell __get__gameServerPlayerCellWithoutModifiersPrefab() const;
+constexpr GlobalNamespace::GameServerPlayerTableCell __get__gameServerPlayerCellWithoutModifiersPrefab() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get__tableHeaderSongGo, put=__set__tableHeaderSongGo))  _tableHeaderSongGo;
+ UnityEngine::GameObject __declspec(property(get=__get__tableHeaderSongGo, put=__set__tableHeaderSongGo))  _tableHeaderSongGo;
 
-constexpr void __set__tableHeaderSongGo(::UnityEngine::GameObject value) ;
+constexpr void __set__tableHeaderSongGo(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__tableHeaderSongGo() const;
+constexpr UnityEngine::GameObject __get__tableHeaderSongGo() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get__tableHeaderModifiersGo, put=__set__tableHeaderModifiersGo))  _tableHeaderModifiersGo;
+ UnityEngine::GameObject __declspec(property(get=__get__tableHeaderModifiersGo, put=__set__tableHeaderModifiersGo))  _tableHeaderModifiersGo;
 
-constexpr void __set__tableHeaderModifiersGo(::UnityEngine::GameObject value) ;
+constexpr void __set__tableHeaderModifiersGo(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__tableHeaderModifiersGo() const;
+constexpr UnityEngine::GameObject __get__tableHeaderModifiersGo() const;
 
- ::Zenject::DiContainer __declspec(property(get=__get__container, put=__set__container))  _container;
+ Zenject::DiContainer __declspec(property(get=__get__container, put=__set__container))  _container;
 
-constexpr void __set__container(::Zenject::DiContainer value) ;
+constexpr void __set__container(Zenject::DiContainer value) ;
 
-constexpr ::Zenject::DiContainer __get__container() const;
+constexpr Zenject::DiContainer __get__container() const;
 
- ::GlobalNamespace::AdditionalContentModel __declspec(property(get=__get__additionalContentModel, put=__set__additionalContentModel))  _additionalContentModel;
+ GlobalNamespace::AdditionalContentModel __declspec(property(get=__get__additionalContentModel, put=__set__additionalContentModel))  _additionalContentModel;
 
-constexpr void __set__additionalContentModel(::GlobalNamespace::AdditionalContentModel value) ;
+constexpr void __set__additionalContentModel(GlobalNamespace::AdditionalContentModel value) ;
 
-constexpr ::GlobalNamespace::AdditionalContentModel __get__additionalContentModel() const;
+constexpr GlobalNamespace::AdditionalContentModel __get__additionalContentModel() const;
 
- ::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap> __declspec(property(get=__get_selectSuggestedLevelEvent, put=__set_selectSuggestedLevelEvent))  selectSuggestedLevelEvent;
+ System::Action_1<GlobalNamespace::PreviewDifficultyBeatmap> __declspec(property(get=__get_selectSuggestedLevelEvent, put=__set_selectSuggestedLevelEvent))  selectSuggestedLevelEvent;
 
-constexpr void __set_selectSuggestedLevelEvent(::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap> value) ;
+constexpr void __set_selectSuggestedLevelEvent(System::Action_1<GlobalNamespace::PreviewDifficultyBeatmap> value) ;
 
-constexpr ::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap> __get_selectSuggestedLevelEvent() const;
+constexpr System::Action_1<GlobalNamespace::PreviewDifficultyBeatmap> __get_selectSuggestedLevelEvent() const;
 
- ::System::Action_1<::GlobalNamespace::GameplayModifiers> __declspec(property(get=__get_selectSuggestedGameplayModifiersEvent, put=__set_selectSuggestedGameplayModifiersEvent))  selectSuggestedGameplayModifiersEvent;
+ System::Action_1<GlobalNamespace::GameplayModifiers> __declspec(property(get=__get_selectSuggestedGameplayModifiersEvent, put=__set_selectSuggestedGameplayModifiersEvent))  selectSuggestedGameplayModifiersEvent;
 
-constexpr void __set_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers> value) ;
+constexpr void __set_selectSuggestedGameplayModifiersEvent(System::Action_1<GlobalNamespace::GameplayModifiers> value) ;
 
-constexpr ::System::Action_1<::GlobalNamespace::GameplayModifiers> __get_selectSuggestedGameplayModifiersEvent() const;
+constexpr System::Action_1<GlobalNamespace::GameplayModifiers> __get_selectSuggestedGameplayModifiersEvent() const;
 
- ::System::Action_1<::StringW> __declspec(property(get=__get_kickPlayerEvent, put=__set_kickPlayerEvent))  kickPlayerEvent;
+ System::Action_1<::StringW> __declspec(property(get=__get_kickPlayerEvent, put=__set_kickPlayerEvent))  kickPlayerEvent;
 
-constexpr void __set_kickPlayerEvent(::System::Action_1<::StringW> value) ;
+constexpr void __set_kickPlayerEvent(System::Action_1<::StringW> value) ;
 
-constexpr ::System::Action_1<::StringW> __get_kickPlayerEvent() const;
+constexpr System::Action_1<::StringW> __get_kickPlayerEvent() const;
 
  bool __declspec(property(get=__get__initialized, put=__set__initialized))  _initialized;
 
@@ -204,23 +203,23 @@ constexpr void __set__showModifierSelection(bool value) ;
 
 constexpr bool __get__showModifierSelection() const;
 
- ::GlobalNamespace::IConnectedPlayer __declspec(property(get=__get__selectedPlayer, put=__set__selectedPlayer))  _selectedPlayer;
+ GlobalNamespace::IConnectedPlayer __declspec(property(get=__get__selectedPlayer, put=__set__selectedPlayer))  _selectedPlayer;
 
-constexpr void __set__selectedPlayer(::GlobalNamespace::IConnectedPlayer value) ;
+constexpr void __set__selectedPlayer(GlobalNamespace::IConnectedPlayer value) ;
 
-constexpr ::GlobalNamespace::IConnectedPlayer __get__selectedPlayer() const;
+constexpr GlobalNamespace::IConnectedPlayer __get__selectedPlayer() const;
 
- ::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer> __declspec(property(get=__get__sortedConnectedPlayers, put=__set__sortedConnectedPlayers))  _sortedConnectedPlayers;
+ System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer> __declspec(property(get=__get__sortedConnectedPlayers, put=__set__sortedConnectedPlayers))  _sortedConnectedPlayers;
 
-constexpr void __set__sortedConnectedPlayers(::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer> value) ;
+constexpr void __set__sortedConnectedPlayers(System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer> __get__sortedConnectedPlayers() const;
+constexpr System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer> __get__sortedConnectedPlayers() const;
 
- ::GlobalNamespace::ILobbyPlayersDataModel __declspec(property(get=__get__lobbyPlayersDataModel, put=__set__lobbyPlayersDataModel))  _lobbyPlayersDataModel;
+ GlobalNamespace::ILobbyPlayersDataModel __declspec(property(get=__get__lobbyPlayersDataModel, put=__set__lobbyPlayersDataModel))  _lobbyPlayersDataModel;
 
-constexpr void __set__lobbyPlayersDataModel(::GlobalNamespace::ILobbyPlayersDataModel value) ;
+constexpr void __set__lobbyPlayersDataModel(GlobalNamespace::ILobbyPlayersDataModel value) ;
 
-constexpr ::GlobalNamespace::ILobbyPlayersDataModel __get__lobbyPlayersDataModel() const;
+constexpr GlobalNamespace::ILobbyPlayersDataModel __get__lobbyPlayersDataModel() const;
 
 
 // Properties
@@ -231,22 +230,22 @@ constexpr ::GlobalNamespace::ILobbyPlayersDataModel __get__lobbyPlayersDataModel
 // Methods
 
 /// @brief Method add_selectSuggestedLevelEvent addr 0x217a2a8 size 0xb0 virtual false final false
- void add_selectSuggestedLevelEvent(::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap> value) ;
+ void add_selectSuggestedLevelEvent(System::Action_1<GlobalNamespace::PreviewDifficultyBeatmap> value) ;
 
 /// @brief Method remove_selectSuggestedLevelEvent addr 0x217acdc size 0xb0 virtual false final false
- void remove_selectSuggestedLevelEvent(::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap> value) ;
+ void remove_selectSuggestedLevelEvent(System::Action_1<GlobalNamespace::PreviewDifficultyBeatmap> value) ;
 
 /// @brief Method add_selectSuggestedGameplayModifiersEvent addr 0x217a358 size 0xb0 virtual false final false
- void add_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers> value) ;
+ void add_selectSuggestedGameplayModifiersEvent(System::Action_1<GlobalNamespace::GameplayModifiers> value) ;
 
 /// @brief Method remove_selectSuggestedGameplayModifiersEvent addr 0x217ad8c size 0xb0 virtual false final false
- void remove_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers> value) ;
+ void remove_selectSuggestedGameplayModifiersEvent(System::Action_1<GlobalNamespace::GameplayModifiers> value) ;
 
 /// @brief Method add_kickPlayerEvent addr 0x217a408 size 0xb0 virtual false final false
- void add_kickPlayerEvent(::System::Action_1<::StringW> value) ;
+ void add_kickPlayerEvent(System::Action_1<::StringW> value) ;
 
 /// @brief Method remove_kickPlayerEvent addr 0x217ae3c size 0xb0 virtual false final false
- void remove_kickPlayerEvent(::System::Action_1<::StringW> value) ;
+ void remove_kickPlayerEvent(System::Action_1<::StringW> value) ;
 
 /// @brief Method CellSize addr 0x2186858 size 0xc virtual true final true
  float_t CellSize() ;
@@ -258,13 +257,13 @@ constexpr ::GlobalNamespace::ILobbyPlayersDataModel __get__lobbyPlayersDataModel
  ::StringW get_currentCellId() ;
 
 /// @brief Method GetCurrentPrefab addr 0x2186930 size 0x9c virtual false final false
- ::GlobalNamespace::GameServerPlayerTableCell GetCurrentPrefab() ;
+ GlobalNamespace::GameServerPlayerTableCell GetCurrentPrefab() ;
 
 /// @brief Method CellForIdx addr 0x21869cc size 0x500 virtual true final true
- ::HMUI::TableCell CellForIdx(::HMUI::TableView tableView, int32_t idx) ;
+ HMUI::TableCell CellForIdx(HMUI::TableView tableView, int32_t idx) ;
 
 /// @brief Method TryGetLobbyPlayerData addr 0x2186ecc size 0x164 virtual false final false
- bool TryGetLobbyPlayerData(int32_t idx, ByRef<::GlobalNamespace::IConnectedPlayer> player, ByRef<::GlobalNamespace::ILobbyPlayerData> playerData) ;
+ bool TryGetLobbyPlayerData(int32_t idx, ByRef<GlobalNamespace::IConnectedPlayer> player, ByRef<GlobalNamespace::ILobbyPlayerData> playerData) ;
 
 /// @brief Method HandleCellUseBeatmap addr 0x2187030 size 0x268 virtual false final false
  void HandleCellUseBeatmap(int32_t idx) ;
@@ -276,7 +275,7 @@ constexpr ::GlobalNamespace::ILobbyPlayersDataModel __get__lobbyPlayersDataModel
  void HandleCellKickPlayer(int32_t idx) ;
 
 /// @brief Method SetData addr 0x217aef8 size 0xbc virtual false final false
- void SetData(::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer> sortedPlayers, ::GlobalNamespace::ILobbyPlayersDataModel lobbyPlayersDataModel, bool hasKickPermissions, bool allowSelection, bool showSongSelection, bool showModifierSelection, bool clearSelection) ;
+ void SetData(System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer> sortedPlayers, GlobalNamespace::ILobbyPlayersDataModel lobbyPlayersDataModel, bool hasKickPermissions, bool allowSelection, bool showSongSelection, bool showModifierSelection, bool clearSelection) ;
 
 /// @brief Method Init addr 0x21875e8 size 0x3c virtual false final false
  void Init() ;
@@ -291,6 +290,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::GameServerPlayersTableView);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameServerPlayersTableView, "", "GameServerPlayersTableView");
+NEED_NO_BOX(GlobalNamespace::GameServerPlayersTableView);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerPlayersTableView, "", "GameServerPlayersTableView");

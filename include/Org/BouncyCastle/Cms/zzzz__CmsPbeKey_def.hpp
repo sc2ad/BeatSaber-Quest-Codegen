@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
@@ -27,8 +26,8 @@ namespace Org::BouncyCastle::Cms {
 class CORDL_TYPE CmsPbeKey : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::ICipherParameters
-constexpr operator  ::Org::BouncyCastle::Crypto::ICipherParameters() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::ICipherParameters
+constexpr operator  Org::BouncyCastle::Crypto::ICipherParameters() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -103,11 +102,11 @@ explicit CmsPbeKey(::StringW password, ::ArrayW<uint8_t> salt, int32_t iteration
 /// @brief Method .ctor addr 0x1159940 size 0x44 virtual false final false
  void _ctor(::StringW password, ::ArrayW<uint8_t> salt, int32_t iterationCount) ;
 
-// Ctor Parameters [CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "keyDerivationAlgorithm", ty: "::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }]
-explicit CmsPbeKey(::StringW password, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyDerivationAlgorithm) ;
+// Ctor Parameters [CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "keyDerivationAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }]
+explicit CmsPbeKey(::StringW password, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyDerivationAlgorithm) ;
 
 /// @brief Method .ctor addr 0x1159a78 size 0x3c virtual false final false
- void _ctor(::StringW password, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyDerivationAlgorithm) ;
+ void _ctor(::StringW password, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyDerivationAlgorithm) ;
 
 // Ctor Parameters [CppParam { name: "password", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "iterationCount", ty: "int32_t", modifiers: "", def_value: None }]
 explicit CmsPbeKey(::ArrayW<char16_t> password, ::ArrayW<uint8_t> salt, int32_t iterationCount) ;
@@ -115,11 +114,11 @@ explicit CmsPbeKey(::ArrayW<char16_t> password, ::ArrayW<uint8_t> salt, int32_t 
 /// @brief Method .ctor addr 0x1159984 size 0xf4 virtual false final false
  void _ctor(::ArrayW<char16_t> password, ::ArrayW<uint8_t> salt, int32_t iterationCount) ;
 
-// Ctor Parameters [CppParam { name: "password", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "keyDerivationAlgorithm", ty: "::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }]
-explicit CmsPbeKey(::ArrayW<char16_t> password, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyDerivationAlgorithm) ;
+// Ctor Parameters [CppParam { name: "password", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "keyDerivationAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }]
+explicit CmsPbeKey(::ArrayW<char16_t> password, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyDerivationAlgorithm) ;
 
 /// @brief Method .ctor addr 0x1159ab4 size 0x210 virtual false final false
- void _ctor(::ArrayW<char16_t> password, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyDerivationAlgorithm) ;
+ void _ctor(::ArrayW<char16_t> password, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyDerivationAlgorithm) ;
 
 /// @brief Method Finalize addr 0x1159cc4 size 0xac virtual true final false
  void Finalize() ;
@@ -146,12 +145,11 @@ explicit CmsPbeKey(::ArrayW<char16_t> password, ::Org::BouncyCastle::Asn1::X509:
  ::ArrayW<uint8_t> GetEncoded() ;
 
 /// @brief Method GetEncoded addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Crypto::Parameters::KeyParameter GetEncoded(::StringW algorithmOid) ;
+ Org::BouncyCastle::Crypto::Parameters::KeyParameter GetEncoded(::StringW algorithmOid) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Cms
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Cms::CmsPbeKey);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::CmsPbeKey, "Org.BouncyCastle.Cms", "CmsPbeKey");
+NEED_NO_BOX(Org::BouncyCastle::Cms::CmsPbeKey);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Cms::CmsPbeKey, "Org.BouncyCastle.Cms", "CmsPbeKey");

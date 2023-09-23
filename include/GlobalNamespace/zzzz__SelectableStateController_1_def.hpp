@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__SelectableStateController_def.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 template<typename T>
@@ -17,10 +16,10 @@ namespace GlobalNamespace {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5559)), TypeDefinitionIndex(TypeDefinitionIndex(5558))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5558)), TypeDefinitionIndex(TypeDefinitionIndex(5559))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5559), inst: 2 })
 // CS Name: SelectableStateController`1
-class CORDL_TYPE SelectableStateController_1<T> : public ::GlobalNamespace::SelectableStateController {
+class CORDL_TYPE SelectableStateController_1<T> : public GlobalNamespace::SelectableStateController {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr SelectableStateController_1(SelectableStateController_1 const& ) noexc
 constexpr SelectableStateController_1(SelectableStateController_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SelectableStateController_1(void* ptr) noexcept : ::GlobalNamespace::SelectableStateController(ptr) {
+constexpr explicit SelectableStateController_1(void* ptr) noexcept : GlobalNamespace::SelectableStateController(ptr) {
 }
 
 
@@ -75,5 +74,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::SelectableStateController_1, "", "SelectableStateController`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::SelectableStateController_1, "", "SelectableStateController`1");

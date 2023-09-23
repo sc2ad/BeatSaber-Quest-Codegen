@@ -1,20 +1,19 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Oculus::Platform {
 template<typename T>
 class Request_1;
 }
-namespace Oculus::Platform::Models {
-class Party;
-}
 namespace Oculus::Platform {
 template<typename T>
-class ____Oculus__Platform__Message_1__Callback;
+class Oculus__Platform__Message_1__Callback;
 }
 namespace Oculus::Platform::Models {
 class PartyUpdateNotification;
+}
+namespace Oculus::Platform::Models {
+class Party;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -63,15 +62,14 @@ constexpr explicit Parties(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(pt
 // Methods
 
 /// @brief Method GetCurrent addr 0x2596a0c size 0x15c virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Party> GetCurrent() ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::Party> GetCurrent() ;
 
 /// @brief Method SetPartyUpdateNotificationCallback addr 0x2596b68 size 0x74 virtual false final false
-static void SetPartyUpdateNotificationCallback(::Oculus::Platform::____Oculus__Platform__Message_1__Callback<::Oculus::Platform::Models::PartyUpdateNotification> callback) ;
+static void SetPartyUpdateNotificationCallback(Oculus::Platform::Oculus__Platform__Message_1__Callback<Oculus::Platform::Models::PartyUpdateNotification> callback) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Parties);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Parties, "Oculus.Platform", "Parties");
+NEED_NO_BOX(Oculus::Platform::Parties);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Parties, "Oculus.Platform", "Parties");

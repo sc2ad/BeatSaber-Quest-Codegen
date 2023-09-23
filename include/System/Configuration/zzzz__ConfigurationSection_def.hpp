@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/Configuration/zzzz__ConfigurationElement_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Configuration {
 class ConfigurationElement;
 }
@@ -22,7 +21,7 @@ namespace System::Configuration {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16072))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16073))
 // CS Name: System.Configuration.ConfigurationSection
-class CORDL_TYPE ConfigurationSection : public ::System::Configuration::ConfigurationElement {
+class CORDL_TYPE ConfigurationSection : public System::Configuration::ConfigurationElement {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr ConfigurationSection(ConfigurationSection const& ) noexcept = default;
 constexpr ConfigurationSection(ConfigurationSection&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ConfigurationSection(void* ptr) noexcept : ::System::Configuration::ConfigurationElement(ptr) {
+constexpr explicit ConfigurationSection(void* ptr) noexcept : System::Configuration::ConfigurationElement(ptr) {
 }
 
 
@@ -59,7 +58,7 @@ constexpr explicit ConfigurationSection(void* ptr) noexcept : ::System::Configur
 // Methods
 
 /// @brief Method DeserializeSection addr 0x267b498 size 0x38 virtual true final false
- void DeserializeSection(::System::Xml::XmlReader reader) ;
+ void DeserializeSection(System::Xml::XmlReader reader) ;
 
 /// @brief Method IsModified addr 0x267b4d0 size 0x38 virtual true final false
  bool IsModified() ;
@@ -68,12 +67,11 @@ constexpr explicit ConfigurationSection(void* ptr) noexcept : ::System::Configur
  void ResetModified() ;
 
 /// @brief Method SerializeSection addr 0x267b540 size 0x38 virtual true final false
- ::StringW SerializeSection(::System::Configuration::ConfigurationElement parentElement, ::StringW name, ::System::Configuration::ConfigurationSaveMode saveMode) ;
+ ::StringW SerializeSection(System::Configuration::ConfigurationElement parentElement, ::StringW name, System::Configuration::ConfigurationSaveMode saveMode) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Configuration
-} // end anonymous namespace
-NEED_NO_BOX(::System::Configuration::ConfigurationSection);
-DEFINE_IL2CPP_ARG_TYPE(::System::Configuration::ConfigurationSection, "System.Configuration", "ConfigurationSection");
+NEED_NO_BOX(System::Configuration::ConfigurationSection);
+DEFINE_IL2CPP_ARG_TYPE(System::Configuration::ConfigurationSection, "System.Configuration", "ConfigurationSection");

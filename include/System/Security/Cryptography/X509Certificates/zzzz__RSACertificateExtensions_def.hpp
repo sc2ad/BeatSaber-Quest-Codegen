@@ -1,12 +1,11 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2;
-}
 namespace System::Security::Cryptography {
 class RSA;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate2;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -55,12 +54,11 @@ constexpr explicit RSACertificateExtensions(void* ptr) noexcept : ::bs_hook::Il2
 // Methods
 
 /// @brief Method GetRSAPublicKey addr 0x2680a50 size 0xe4 virtual false final false
-static ::System::Security::Cryptography::RSA GetRSAPublicKey(::System::Security::Cryptography::X509Certificates::X509Certificate2 certificate) ;
+static System::Security::Cryptography::RSA GetRSAPublicKey(System::Security::Cryptography::X509Certificates::X509Certificate2 certificate) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography::X509Certificates
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::X509Certificates::RSACertificateExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::X509Certificates::RSACertificateExtensions, "System.Security.Cryptography.X509Certificates", "RSACertificateExtensions");
+NEED_NO_BOX(System::Security::Cryptography::X509Certificates::RSACertificateExtensions);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::RSACertificateExtensions, "System.Security.Cryptography.X509Certificates", "RSACertificateExtensions");

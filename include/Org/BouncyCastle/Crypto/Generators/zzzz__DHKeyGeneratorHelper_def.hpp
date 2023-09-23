@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
@@ -57,11 +56,11 @@ constexpr explicit DHKeyGeneratorHelper(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 // Fields
 
-static ::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper __declspec(property(get=__get_Instance, put=__set_Instance))  Instance;
+static Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper __declspec(property(get=__get_Instance, put=__set_Instance))  Instance;
 
-static void __set_Instance(::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper value) ;
+static void __set_Instance(Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper value) ;
 
-static ::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper __get_Instance() ;
+static Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper __get_Instance() ;
 
 
 // Methods
@@ -73,15 +72,14 @@ explicit DHKeyGeneratorHelper() ;
  void _ctor() ;
 
 /// @brief Method CalculatePrivate addr 0xe6b308 size 0x1c4 virtual false final false
- ::Org::BouncyCastle::Math::BigInteger CalculatePrivate(::Org::BouncyCastle::Crypto::Parameters::DHParameters dhParams, ::Org::BouncyCastle::Security::SecureRandom random) ;
+ Org::BouncyCastle::Math::BigInteger CalculatePrivate(Org::BouncyCastle::Crypto::Parameters::DHParameters dhParams, Org::BouncyCastle::Security::SecureRandom random) ;
 
 /// @brief Method CalculatePublic addr 0xe6b4cc size 0x2c virtual false final false
- ::Org::BouncyCastle::Math::BigInteger CalculatePublic(::Org::BouncyCastle::Crypto::Parameters::DHParameters dhParams, ::Org::BouncyCastle::Math::BigInteger x) ;
+ Org::BouncyCastle::Math::BigInteger CalculatePublic(Org::BouncyCastle::Crypto::Parameters::DHParameters dhParams, Org::BouncyCastle::Math::BigInteger x) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Generators
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper, "Org.BouncyCastle.Crypto.Generators", "DHKeyGeneratorHelper");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper, "Org.BouncyCastle.Crypto.Generators", "DHKeyGeneratorHelper");

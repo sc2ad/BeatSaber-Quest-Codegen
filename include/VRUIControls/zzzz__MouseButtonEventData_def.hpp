@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace UnityEngine::EventSystems {
-struct ____UnityEngine__EventSystems__PointerEventData__FramePressState;
-}
 namespace UnityEngine::EventSystems {
 class PointerEventData;
+}
+namespace UnityEngine::EventSystems {
+struct UnityEngine__EventSystems__PointerEventData__FramePressState;
 }
 // Forward declare root types
 namespace VRUIControls {
@@ -54,17 +53,17 @@ constexpr explicit MouseButtonEventData(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 // Fields
 
- ::UnityEngine::EventSystems::____UnityEngine__EventSystems__PointerEventData__FramePressState __declspec(property(get=__get_buttonState, put=__set_buttonState))  buttonState;
+ UnityEngine::EventSystems::UnityEngine__EventSystems__PointerEventData__FramePressState __declspec(property(get=__get_buttonState, put=__set_buttonState))  buttonState;
 
-constexpr void __set_buttonState(::UnityEngine::EventSystems::____UnityEngine__EventSystems__PointerEventData__FramePressState value) ;
+constexpr void __set_buttonState(UnityEngine::EventSystems::UnityEngine__EventSystems__PointerEventData__FramePressState value) ;
 
-constexpr ::UnityEngine::EventSystems::____UnityEngine__EventSystems__PointerEventData__FramePressState __get_buttonState() const;
+constexpr UnityEngine::EventSystems::UnityEngine__EventSystems__PointerEventData__FramePressState __get_buttonState() const;
 
- ::UnityEngine::EventSystems::PointerEventData __declspec(property(get=__get_buttonData, put=__set_buttonData))  buttonData;
+ UnityEngine::EventSystems::PointerEventData __declspec(property(get=__get_buttonData, put=__set_buttonData))  buttonData;
 
-constexpr void __set_buttonData(::UnityEngine::EventSystems::PointerEventData value) ;
+constexpr void __set_buttonData(UnityEngine::EventSystems::PointerEventData value) ;
 
-constexpr ::UnityEngine::EventSystems::PointerEventData __get_buttonData() const;
+constexpr UnityEngine::EventSystems::PointerEventData __get_buttonData() const;
 
 
 // Methods
@@ -85,6 +84,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def VRUIControls
-} // end anonymous namespace
-NEED_NO_BOX(::VRUIControls::MouseButtonEventData);
-DEFINE_IL2CPP_ARG_TYPE(::VRUIControls::MouseButtonEventData, "VRUIControls", "MouseButtonEventData");
+NEED_NO_BOX(VRUIControls::MouseButtonEventData);
+DEFINE_IL2CPP_ARG_TYPE(VRUIControls::MouseButtonEventData, "VRUIControls", "MouseButtonEventData");

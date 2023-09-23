@@ -4,18 +4,17 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct FontStyle;
 }
 namespace UnityEngine {
-class Font;
+struct TextAnchor;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine {
-struct TextAnchor;
+class Font;
 }
 namespace UnityEngine {
 struct Rect;
@@ -36,8 +35,8 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE CursorPositionStylePainterParameters : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "rect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "font", ty: "::UnityEngine::Font", modifiers: "", def_value: None }, CppParam { name: "fontSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fontStyle", ty: "::UnityEngine::FontStyle", modifiers: "", def_value: None }, CppParam { name: "anchor", ty: "::UnityEngine::TextAnchor", modifiers: "", def_value: None }, CppParam { name: "wordWrapWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "richText", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "cursorIndex", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr CursorPositionStylePainterParameters(::UnityEngine::Rect rect, ::StringW text, ::UnityEngine::Font font, int32_t fontSize, ::UnityEngine::FontStyle fontStyle, ::UnityEngine::TextAnchor anchor, float_t wordWrapWidth, bool richText, int32_t cursorIndex) noexcept;
+// Ctor Parameters [CppParam { name: "rect", ty: "UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "font", ty: "UnityEngine::Font", modifiers: "", def_value: None }, CppParam { name: "fontSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fontStyle", ty: "UnityEngine::FontStyle", modifiers: "", def_value: None }, CppParam { name: "anchor", ty: "UnityEngine::TextAnchor", modifiers: "", def_value: None }, CppParam { name: "wordWrapWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "richText", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "cursorIndex", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr CursorPositionStylePainterParameters(UnityEngine::Rect rect, ::StringW text, UnityEngine::Font font, int32_t fontSize, UnityEngine::FontStyle fontStyle, UnityEngine::TextAnchor anchor, float_t wordWrapWidth, bool richText, int32_t cursorIndex) noexcept;
 
 
                     constexpr CursorPositionStylePainterParameters(CursorPositionStylePainterParameters const&) = default;
@@ -70,11 +69,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Rect __declspec(property(get=__get_rect, put=__set_rect))  rect;
+ UnityEngine::Rect __declspec(property(get=__get_rect, put=__set_rect))  rect;
 
-constexpr void __set_rect(::UnityEngine::Rect value) ;
+constexpr void __set_rect(UnityEngine::Rect value) ;
 
-constexpr ::UnityEngine::Rect __get_rect() const;
+constexpr UnityEngine::Rect __get_rect() const;
 
  ::StringW __declspec(property(get=__get_text, put=__set_text))  text;
 
@@ -82,11 +81,11 @@ constexpr void __set_text(::StringW value) ;
 
 constexpr ::StringW __get_text() const;
 
- ::UnityEngine::Font __declspec(property(get=__get_font, put=__set_font))  font;
+ UnityEngine::Font __declspec(property(get=__get_font, put=__set_font))  font;
 
-constexpr void __set_font(::UnityEngine::Font value) ;
+constexpr void __set_font(UnityEngine::Font value) ;
 
-constexpr ::UnityEngine::Font __get_font() const;
+constexpr UnityEngine::Font __get_font() const;
 
  int32_t __declspec(property(get=__get_fontSize, put=__set_fontSize))  fontSize;
 
@@ -94,17 +93,17 @@ constexpr void __set_fontSize(int32_t value) ;
 
 constexpr int32_t __get_fontSize() const;
 
- ::UnityEngine::FontStyle __declspec(property(get=__get_fontStyle, put=__set_fontStyle))  fontStyle;
+ UnityEngine::FontStyle __declspec(property(get=__get_fontStyle, put=__set_fontStyle))  fontStyle;
 
-constexpr void __set_fontStyle(::UnityEngine::FontStyle value) ;
+constexpr void __set_fontStyle(UnityEngine::FontStyle value) ;
 
-constexpr ::UnityEngine::FontStyle __get_fontStyle() const;
+constexpr UnityEngine::FontStyle __get_fontStyle() const;
 
- ::UnityEngine::TextAnchor __declspec(property(get=__get_anchor, put=__set_anchor))  anchor;
+ UnityEngine::TextAnchor __declspec(property(get=__get_anchor, put=__set_anchor))  anchor;
 
-constexpr void __set_anchor(::UnityEngine::TextAnchor value) ;
+constexpr void __set_anchor(UnityEngine::TextAnchor value) ;
 
-constexpr ::UnityEngine::TextAnchor __get_anchor() const;
+constexpr UnityEngine::TextAnchor __get_anchor() const;
 
  float_t __declspec(property(get=__get_wordWrapWidth, put=__set_wordWrapWidth))  wordWrapWidth;
 
@@ -128,14 +127,13 @@ constexpr int32_t __get_cursorIndex() const;
 // Methods
 
 /// @brief Method GetDefault addr 0x2c3df18 size 0x148 virtual false final false
-static ::UnityEngine::UIElements::CursorPositionStylePainterParameters GetDefault(::UnityEngine::UIElements::VisualElement ve, ::StringW text) ;
+static UnityEngine::UIElements::CursorPositionStylePainterParameters GetDefault(UnityEngine::UIElements::VisualElement ve, ::StringW text) ;
 
 /// @brief Method GetTextNativeSettings addr 0x2c3e060 size 0x50 virtual false final false
- ::UnityEngine::UIElements::TextNativeSettings GetTextNativeSettings(float_t scaling) ;
+ UnityEngine::UIElements::TextNativeSettings GetTextNativeSettings(float_t scaling) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::CursorPositionStylePainterParameters, "UnityEngine.UIElements", "CursorPositionStylePainterParameters");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::CursorPositionStylePainterParameters, "UnityEngine.UIElements", "CursorPositionStylePainterParameters");

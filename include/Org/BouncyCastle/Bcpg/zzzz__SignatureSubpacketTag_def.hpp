@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
 struct SignatureSubpacketTag;
@@ -89,80 +88,79 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field CreationTime offset 0
-static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const CreationTime;
+static Org::BouncyCastle::Bcpg::SignatureSubpacketTag const CreationTime;
 
 /// @brief Field ExpireTime offset 0
-static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const ExpireTime;
+static Org::BouncyCastle::Bcpg::SignatureSubpacketTag const ExpireTime;
 
 /// @brief Field Exportable offset 0
-static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const Exportable;
+static Org::BouncyCastle::Bcpg::SignatureSubpacketTag const Exportable;
 
 /// @brief Field TrustSig offset 0
-static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const TrustSig;
+static Org::BouncyCastle::Bcpg::SignatureSubpacketTag const TrustSig;
 
 /// @brief Field RegExp offset 0
-static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const RegExp;
+static Org::BouncyCastle::Bcpg::SignatureSubpacketTag const RegExp;
 
 /// @brief Field Revocable offset 0
-static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const Revocable;
+static Org::BouncyCastle::Bcpg::SignatureSubpacketTag const Revocable;
 
 /// @brief Field KeyExpireTime offset 0
-static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const KeyExpireTime;
+static Org::BouncyCastle::Bcpg::SignatureSubpacketTag const KeyExpireTime;
 
 /// @brief Field Placeholder offset 0
-static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const Placeholder;
+static Org::BouncyCastle::Bcpg::SignatureSubpacketTag const Placeholder;
 
 /// @brief Field PreferredSymmetricAlgorithms offset 0
-static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const PreferredSymmetricAlgorithms;
+static Org::BouncyCastle::Bcpg::SignatureSubpacketTag const PreferredSymmetricAlgorithms;
 
 /// @brief Field RevocationKey offset 0
-static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const RevocationKey;
+static Org::BouncyCastle::Bcpg::SignatureSubpacketTag const RevocationKey;
 
 /// @brief Field IssuerKeyId offset 0
-static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const IssuerKeyId;
+static Org::BouncyCastle::Bcpg::SignatureSubpacketTag const IssuerKeyId;
 
 /// @brief Field NotationData offset 0
-static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const NotationData;
+static Org::BouncyCastle::Bcpg::SignatureSubpacketTag const NotationData;
 
 /// @brief Field PreferredHashAlgorithms offset 0
-static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const PreferredHashAlgorithms;
+static Org::BouncyCastle::Bcpg::SignatureSubpacketTag const PreferredHashAlgorithms;
 
 /// @brief Field PreferredCompressionAlgorithms offset 0
-static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const PreferredCompressionAlgorithms;
+static Org::BouncyCastle::Bcpg::SignatureSubpacketTag const PreferredCompressionAlgorithms;
 
 /// @brief Field KeyServerPreferences offset 0
-static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const KeyServerPreferences;
+static Org::BouncyCastle::Bcpg::SignatureSubpacketTag const KeyServerPreferences;
 
 /// @brief Field PreferredKeyServer offset 0
-static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const PreferredKeyServer;
+static Org::BouncyCastle::Bcpg::SignatureSubpacketTag const PreferredKeyServer;
 
 /// @brief Field PrimaryUserId offset 0
-static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const PrimaryUserId;
+static Org::BouncyCastle::Bcpg::SignatureSubpacketTag const PrimaryUserId;
 
 /// @brief Field PolicyUrl offset 0
-static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const PolicyUrl;
+static Org::BouncyCastle::Bcpg::SignatureSubpacketTag const PolicyUrl;
 
 /// @brief Field KeyFlags offset 0
-static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const KeyFlags;
+static Org::BouncyCastle::Bcpg::SignatureSubpacketTag const KeyFlags;
 
 /// @brief Field SignerUserId offset 0
-static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const SignerUserId;
+static Org::BouncyCastle::Bcpg::SignatureSubpacketTag const SignerUserId;
 
 /// @brief Field RevocationReason offset 0
-static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const RevocationReason;
+static Org::BouncyCastle::Bcpg::SignatureSubpacketTag const RevocationReason;
 
 /// @brief Field Features offset 0
-static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const Features;
+static Org::BouncyCastle::Bcpg::SignatureSubpacketTag const Features;
 
 /// @brief Field SignatureTarget offset 0
-static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const SignatureTarget;
+static Org::BouncyCastle::Bcpg::SignatureSubpacketTag const SignatureTarget;
 
 /// @brief Field EmbeddedSignature offset 0
-static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const EmbeddedSignature;
+static Org::BouncyCastle::Bcpg::SignatureSubpacketTag const EmbeddedSignature;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag, "Org.BouncyCastle.Bcpg", "SignatureSubpacketTag");
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::SignatureSubpacketTag, "Org.BouncyCastle.Bcpg", "SignatureSubpacketTag");

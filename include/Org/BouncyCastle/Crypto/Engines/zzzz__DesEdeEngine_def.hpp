@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
@@ -18,7 +17,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(839))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(840))
 // CS Name: Org.BouncyCastle.Crypto.Engines.DesEdeEngine
-class CORDL_TYPE DesEdeEngine : public ::Org::BouncyCastle::Crypto::Engines::DesEngine {
+class CORDL_TYPE DesEdeEngine : public Org::BouncyCastle::Crypto::Engines::DesEngine {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr DesEdeEngine(DesEdeEngine const& ) noexcept = default;
 constexpr DesEdeEngine(DesEdeEngine&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DesEdeEngine(void* ptr) noexcept : ::Org::BouncyCastle::Crypto::Engines::DesEngine(ptr) {
+constexpr explicit DesEdeEngine(void* ptr) noexcept : Org::BouncyCastle::Crypto::Engines::DesEngine(ptr) {
 }
 
 
@@ -87,7 +86,7 @@ constexpr bool __get_forEncryption() const;
 // Methods
 
 /// @brief Method Init addr 0xe3f414 size 0x2a4 virtual true final false
- void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method get_AlgorithmName addr 0xe3f6b8 size 0x40 virtual true final false
  ::StringW get_AlgorithmName() ;
@@ -111,6 +110,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Engines
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::DesEdeEngine);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Engines::DesEdeEngine, "Org.BouncyCastle.Crypto.Engines", "DesEdeEngine");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Engines::DesEdeEngine);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::DesEdeEngine, "Org.BouncyCastle.Crypto.Engines", "DesEdeEngine");

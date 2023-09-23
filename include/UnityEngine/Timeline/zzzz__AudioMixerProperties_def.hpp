@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_def.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine::Playables {
 struct FrameData;
 }
@@ -19,7 +18,7 @@ namespace UnityEngine::Timeline {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10361))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14077))
 // CS Name: UnityEngine.Timeline.AudioMixerProperties
-class CORDL_TYPE AudioMixerProperties : public ::UnityEngine::Playables::PlayableBehaviour {
+class CORDL_TYPE AudioMixerProperties : public UnityEngine::Playables::PlayableBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr AudioMixerProperties(AudioMixerProperties const& ) noexcept = default;
 constexpr AudioMixerProperties(AudioMixerProperties&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AudioMixerProperties(void* ptr) noexcept : ::UnityEngine::Playables::PlayableBehaviour(ptr) {
+constexpr explicit AudioMixerProperties(void* ptr) noexcept : UnityEngine::Playables::PlayableBehaviour(ptr) {
 }
 
 
@@ -77,7 +76,7 @@ constexpr float_t __get_spatialBlend() const;
 // Methods
 
 /// @brief Method PrepareFrame addr 0x2ac9154 size 0x234 virtual true final false
- void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info) ;
+ void PrepareFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info) ;
 
 // Ctor Parameters []
 explicit AudioMixerProperties() ;
@@ -89,6 +88,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Timeline::AudioMixerProperties);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::AudioMixerProperties, "UnityEngine.Timeline", "AudioMixerProperties");
+NEED_NO_BOX(UnityEngine::Timeline::AudioMixerProperties);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AudioMixerProperties, "UnityEngine.Timeline", "AudioMixerProperties");

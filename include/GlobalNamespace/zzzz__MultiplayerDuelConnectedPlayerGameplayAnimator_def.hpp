@@ -1,15 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerGameplayAnimator_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class ScaleAnimator;
-}
 namespace GlobalNamespace {
 class MultiplayerConnectedPlayerLevelFailController;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__MultiplayerController__State;
+class ScaleAnimator;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__MultiplayerController__State;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5306))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5229))
 // CS Name: MultiplayerDuelConnectedPlayerGameplayAnimator
-class CORDL_TYPE MultiplayerDuelConnectedPlayerGameplayAnimator : public ::GlobalNamespace::MultiplayerGameplayAnimator {
+class CORDL_TYPE MultiplayerDuelConnectedPlayerGameplayAnimator : public GlobalNamespace::MultiplayerGameplayAnimator {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr MultiplayerDuelConnectedPlayerGameplayAnimator(MultiplayerDuelConnecte
 constexpr MultiplayerDuelConnectedPlayerGameplayAnimator(MultiplayerDuelConnectedPlayerGameplayAnimator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerDuelConnectedPlayerGameplayAnimator(void* ptr) noexcept : ::GlobalNamespace::MultiplayerGameplayAnimator(ptr) {
+constexpr explicit MultiplayerDuelConnectedPlayerGameplayAnimator(void* ptr) noexcept : GlobalNamespace::MultiplayerGameplayAnimator(ptr) {
 }
 
 
@@ -57,17 +56,17 @@ constexpr explicit MultiplayerDuelConnectedPlayerGameplayAnimator(void* ptr) noe
 
 // Fields
 
- ::GlobalNamespace::ScaleAnimator __declspec(property(get=__get__avatarScaleAnimator, put=__set__avatarScaleAnimator))  _avatarScaleAnimator;
+ GlobalNamespace::ScaleAnimator __declspec(property(get=__get__avatarScaleAnimator, put=__set__avatarScaleAnimator))  _avatarScaleAnimator;
 
-constexpr void __set__avatarScaleAnimator(::GlobalNamespace::ScaleAnimator value) ;
+constexpr void __set__avatarScaleAnimator(GlobalNamespace::ScaleAnimator value) ;
 
-constexpr ::GlobalNamespace::ScaleAnimator __get__avatarScaleAnimator() const;
+constexpr GlobalNamespace::ScaleAnimator __get__avatarScaleAnimator() const;
 
- ::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController __declspec(property(get=__get__failController, put=__set__failController))  _failController;
+ GlobalNamespace::MultiplayerConnectedPlayerLevelFailController __declspec(property(get=__get__failController, put=__set__failController))  _failController;
 
-constexpr void __set__failController(::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController value) ;
+constexpr void __set__failController(GlobalNamespace::MultiplayerConnectedPlayerLevelFailController value) ;
 
-constexpr ::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController __get__failController() const;
+constexpr GlobalNamespace::MultiplayerConnectedPlayerLevelFailController __get__failController() const;
 
 
 // Methods
@@ -82,7 +81,7 @@ constexpr ::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController __get
  void AnimateNewLeaderSelected(bool isLeading) ;
 
 /// @brief Method HandleStateChanged addr 0x20e183c size 0x110 virtual true final false
- void HandleStateChanged(::GlobalNamespace::____GlobalNamespace__MultiplayerController__State state) ;
+ void HandleStateChanged(GlobalNamespace::GlobalNamespace__MultiplayerController__State state) ;
 
 /// @brief Method HandlePlayerDidFail addr 0x20e194c size 0x4 virtual false final false
  void HandlePlayerDidFail() ;
@@ -97,6 +96,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator, "", "MultiplayerDuelConnectedPlayerGameplayAnimator");
+NEED_NO_BOX(GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator, "", "MultiplayerDuelConnectedPlayerGameplayAnimator");

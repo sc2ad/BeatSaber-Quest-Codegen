@@ -1,17 +1,16 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
 namespace System {
 class Type;
 }
 namespace GlobalNamespace {
 template<typename TOut,typename TParam>
 class DataItemConvertor_2;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -67,11 +66,11 @@ constexpr explicit DataConvertor_2(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Fields
 
- ::System::Collections::Generic::Dictionary_2<::System::Type,::GlobalNamespace::DataItemConvertor_2<T,TParam>> __declspec(property(get=__get__convertors, put=__set__convertors))  _convertors;
+ System::Collections::Generic::Dictionary_2<System::Type,GlobalNamespace::DataItemConvertor_2<T,TParam>> __declspec(property(get=__get__convertors, put=__set__convertors))  _convertors;
 
-constexpr void __set__convertors(::System::Collections::Generic::Dictionary_2<::System::Type,::GlobalNamespace::DataItemConvertor_2<T,TParam>> value) ;
+constexpr void __set__convertors(System::Collections::Generic::Dictionary_2<System::Type,GlobalNamespace::DataItemConvertor_2<T,TParam>> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::System::Type,::GlobalNamespace::DataItemConvertor_2<T,TParam>> __get__convertors() const;
+constexpr System::Collections::Generic::Dictionary_2<System::Type,GlobalNamespace::DataItemConvertor_2<T,TParam>> __get__convertors() const;
 
 
 // Methods
@@ -80,7 +79,7 @@ constexpr ::System::Collections::Generic::Dictionary_2<::System::Type,::GlobalNa
  T ProcessItem(::bs_hook::Il2CppWrapperType item, TParam param) ;
 
 /// @brief Method AddConvertor addr 0x0 size 0xffffffffffffffff virtual false final false
- void AddConvertor(::GlobalNamespace::DataItemConvertor_2<T,TParam> dataItemConvertor) ;
+ void AddConvertor(GlobalNamespace::DataItemConvertor_2<T,TParam> dataItemConvertor) ;
 
 // Ctor Parameters []
 explicit DataConvertor_2() ;
@@ -92,5 +91,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::DataConvertor_2, "", "DataConvertor`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::DataConvertor_2, "", "DataConvertor`2");

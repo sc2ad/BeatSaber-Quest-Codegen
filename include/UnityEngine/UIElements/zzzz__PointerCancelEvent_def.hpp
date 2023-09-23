@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerEventBase_1_def.hpp"
-namespace {
 namespace UnityEngine::UIElements {
 class IPanel;
 }
@@ -15,7 +14,7 @@ namespace UnityEngine::UIElements {
 // Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7297), inst: 4680 }), TypeDefinitionIndex(TypeDefinitionIndex(7297))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7302))
 // CS Name: UnityEngine.UIElements.PointerCancelEvent
-class CORDL_TYPE PointerCancelEvent : public ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::PointerCancelEvent> {
+class CORDL_TYPE PointerCancelEvent : public UnityEngine::UIElements::PointerEventBase_1<UnityEngine::UIElements::PointerCancelEvent> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr PointerCancelEvent(PointerCancelEvent const& ) noexcept = default;
 constexpr PointerCancelEvent(PointerCancelEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PointerCancelEvent(void* ptr) noexcept : ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::PointerCancelEvent>(ptr) {
+constexpr explicit PointerCancelEvent(void* ptr) noexcept : UnityEngine::UIElements::PointerEventBase_1<UnityEngine::UIElements::PointerCancelEvent>(ptr) {
 }
 
 
@@ -64,12 +63,11 @@ explicit PointerCancelEvent() ;
  void _ctor() ;
 
 /// @brief Method PostDispatch addr 0x2cd8f20 size 0x330 virtual true final false
- void PostDispatch(::UnityEngine::UIElements::IPanel panel) ;
+ void PostDispatch(UnityEngine::UIElements::IPanel panel) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::PointerCancelEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::PointerCancelEvent, "UnityEngine.UIElements", "PointerCancelEvent");
+NEED_NO_BOX(UnityEngine::UIElements::PointerCancelEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::PointerCancelEvent, "UnityEngine.UIElements", "PointerCancelEvent");

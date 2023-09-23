@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class ModifierSpec;
 }
-namespace System {
-class Type;
-}
 namespace System::Text {
 class StringBuilder;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System {
@@ -26,8 +25,8 @@ namespace System {
 class CORDL_TYPE PointerSpec : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::ModifierSpec
-constexpr operator  ::System::ModifierSpec() const noexcept;
+/// @brief Convert operator to System::ModifierSpec
+constexpr operator  System::ModifierSpec() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -78,10 +77,10 @@ explicit PointerSpec(int32_t pointer_level) ;
  void _ctor(int32_t pointer_level) ;
 
 /// @brief Method Resolve addr 0x249864c size 0x54 virtual true final true
- ::System::Type Resolve(::System::Type type) ;
+ System::Type Resolve(System::Type type) ;
 
 /// @brief Method Append addr 0x24986a0 size 0x28 virtual true final true
- ::System::Text::StringBuilder Append(::System::Text::StringBuilder sb) ;
+ System::Text::StringBuilder Append(System::Text::StringBuilder sb) ;
 
 /// @brief Method ToString addr 0x24986c8 size 0x1074 virtual true final false
  ::StringW ToString() ;
@@ -90,6 +89,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::PointerSpec);
-DEFINE_IL2CPP_ARG_TYPE(::System::PointerSpec, "System", "PointerSpec");
+NEED_NO_BOX(System::PointerSpec);
+DEFINE_IL2CPP_ARG_TYPE(System::PointerSpec, "System", "PointerSpec");

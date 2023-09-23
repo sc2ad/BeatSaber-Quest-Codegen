@@ -3,7 +3,6 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class LightGroupSO;
@@ -14,7 +13,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14671))
 // CS Name: LightGroupSO
-class CORDL_TYPE LightGroupSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE LightGroupSO : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr LightGroupSO(LightGroupSO const& ) noexcept = default;
 constexpr LightGroupSO(LightGroupSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LightGroupSO(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit LightGroupSO(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -138,6 +137,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LightGroupSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightGroupSO, "", "LightGroupSO");
+NEED_NO_BOX(GlobalNamespace::LightGroupSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightGroupSO, "", "LightGroupSO");

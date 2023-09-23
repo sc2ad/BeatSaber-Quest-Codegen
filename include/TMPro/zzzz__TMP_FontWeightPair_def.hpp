@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
 namespace TMPro {
 class TMP_FontAsset;
 }
@@ -18,8 +17,8 @@ namespace TMPro {
 struct CORDL_TYPE TMP_FontWeightPair : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "regularTypeface", ty: "::TMPro::TMP_FontAsset", modifiers: "", def_value: None }, CppParam { name: "italicTypeface", ty: "::TMPro::TMP_FontAsset", modifiers: "", def_value: None }]
-constexpr TMP_FontWeightPair(::TMPro::TMP_FontAsset regularTypeface, ::TMPro::TMP_FontAsset italicTypeface) noexcept;
+// Ctor Parameters [CppParam { name: "regularTypeface", ty: "TMPro::TMP_FontAsset", modifiers: "", def_value: None }, CppParam { name: "italicTypeface", ty: "TMPro::TMP_FontAsset", modifiers: "", def_value: None }]
+constexpr TMP_FontWeightPair(TMPro::TMP_FontAsset regularTypeface, TMPro::TMP_FontAsset italicTypeface) noexcept;
 
 
                     constexpr TMP_FontWeightPair(TMP_FontWeightPair const&) = default;
@@ -52,21 +51,20 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::TMPro::TMP_FontAsset __declspec(property(get=__get_regularTypeface, put=__set_regularTypeface))  regularTypeface;
+ TMPro::TMP_FontAsset __declspec(property(get=__get_regularTypeface, put=__set_regularTypeface))  regularTypeface;
 
-constexpr void __set_regularTypeface(::TMPro::TMP_FontAsset value) ;
+constexpr void __set_regularTypeface(TMPro::TMP_FontAsset value) ;
 
-constexpr ::TMPro::TMP_FontAsset __get_regularTypeface() const;
+constexpr TMPro::TMP_FontAsset __get_regularTypeface() const;
 
- ::TMPro::TMP_FontAsset __declspec(property(get=__get_italicTypeface, put=__set_italicTypeface))  italicTypeface;
+ TMPro::TMP_FontAsset __declspec(property(get=__get_italicTypeface, put=__set_italicTypeface))  italicTypeface;
 
-constexpr void __set_italicTypeface(::TMPro::TMP_FontAsset value) ;
+constexpr void __set_italicTypeface(TMPro::TMP_FontAsset value) ;
 
-constexpr ::TMPro::TMP_FontAsset __get_italicTypeface() const;
+constexpr TMPro::TMP_FontAsset __get_italicTypeface() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_FontWeightPair, "TMPro", "TMP_FontWeightPair");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontWeightPair, "TMPro", "TMP_FontWeightPair");

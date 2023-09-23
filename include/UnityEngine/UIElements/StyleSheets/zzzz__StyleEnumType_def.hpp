@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {
 struct StyleEnumType;
@@ -83,62 +82,61 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Align offset 0
-static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const Align;
+static UnityEngine::UIElements::StyleSheets::StyleEnumType const Align;
 
 /// @brief Field DisplayStyle offset 0
-static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const DisplayStyle;
+static UnityEngine::UIElements::StyleSheets::StyleEnumType const DisplayStyle;
 
 /// @brief Field EasingMode offset 0
-static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const EasingMode;
+static UnityEngine::UIElements::StyleSheets::StyleEnumType const EasingMode;
 
 /// @brief Field FlexDirection offset 0
-static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const FlexDirection;
+static UnityEngine::UIElements::StyleSheets::StyleEnumType const FlexDirection;
 
 /// @brief Field FontStyle offset 0
-static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const FontStyle;
+static UnityEngine::UIElements::StyleSheets::StyleEnumType const FontStyle;
 
 /// @brief Field Justify offset 0
-static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const Justify;
+static UnityEngine::UIElements::StyleSheets::StyleEnumType const Justify;
 
 /// @brief Field Overflow offset 0
-static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const Overflow;
+static UnityEngine::UIElements::StyleSheets::StyleEnumType const Overflow;
 
 /// @brief Field OverflowClipBox offset 0
-static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const OverflowClipBox;
+static UnityEngine::UIElements::StyleSheets::StyleEnumType const OverflowClipBox;
 
 /// @brief Field OverflowInternal offset 0
-static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const OverflowInternal;
+static UnityEngine::UIElements::StyleSheets::StyleEnumType const OverflowInternal;
 
 /// @brief Field Position offset 0
-static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const Position;
+static UnityEngine::UIElements::StyleSheets::StyleEnumType const Position;
 
 /// @brief Field ScaleMode offset 0
-static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const ScaleMode;
+static UnityEngine::UIElements::StyleSheets::StyleEnumType const ScaleMode;
 
 /// @brief Field TextAnchor offset 0
-static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const TextAnchor;
+static UnityEngine::UIElements::StyleSheets::StyleEnumType const TextAnchor;
 
 /// @brief Field TextOverflow offset 0
-static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const TextOverflow;
+static UnityEngine::UIElements::StyleSheets::StyleEnumType const TextOverflow;
 
 /// @brief Field TextOverflowPosition offset 0
-static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const TextOverflowPosition;
+static UnityEngine::UIElements::StyleSheets::StyleEnumType const TextOverflowPosition;
 
 /// @brief Field TransformOriginOffset offset 0
-static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const TransformOriginOffset;
+static UnityEngine::UIElements::StyleSheets::StyleEnumType const TransformOriginOffset;
 
 /// @brief Field Visibility offset 0
-static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const Visibility;
+static UnityEngine::UIElements::StyleSheets::StyleEnumType const Visibility;
 
 /// @brief Field WhiteSpace offset 0
-static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const WhiteSpace;
+static UnityEngine::UIElements::StyleSheets::StyleEnumType const WhiteSpace;
 
 /// @brief Field Wrap offset 0
-static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const Wrap;
+static UnityEngine::UIElements::StyleSheets::StyleEnumType const Wrap;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::StyleSheets
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::StyleEnumType, "UnityEngine.UIElements.StyleSheets", "StyleEnumType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::StyleSheets::StyleEnumType, "UnityEngine.UIElements.StyleSheets", "StyleEnumType");

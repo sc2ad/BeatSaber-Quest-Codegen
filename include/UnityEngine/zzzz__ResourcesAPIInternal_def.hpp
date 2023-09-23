@@ -3,18 +3,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace System {
+class Type;
+}
 namespace UnityEngine {
-class Object;
+class Shader;
 }
 namespace UnityEngine {
 class ResourceRequest;
 }
 namespace UnityEngine {
-class Shader;
-}
-namespace System {
-class Type;
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -63,27 +62,26 @@ constexpr explicit ResourcesAPIInternal(void* ptr) noexcept : ::bs_hook::Il2CppW
 // Methods
 
 /// @brief Method FindObjectsOfTypeAll addr 0x2b67a1c size 0x3c virtual false final false
-static ::ArrayW<::UnityEngine::Object> FindObjectsOfTypeAll(::System::Type type) ;
+static ::ArrayW<UnityEngine::Object> FindObjectsOfTypeAll(System::Type type) ;
 
 /// @brief Method FindShaderByName addr 0x2b67a58 size 0x3c virtual false final false
-static ::UnityEngine::Shader FindShaderByName(::StringW name) ;
+static UnityEngine::Shader FindShaderByName(::StringW name) ;
 
 /// @brief Method Load addr 0x2b67a94 size 0x44 virtual false final false
-static ::UnityEngine::Object Load(::StringW path, ::System::Type systemTypeInstance) ;
+static UnityEngine::Object Load(::StringW path, System::Type systemTypeInstance) ;
 
 /// @brief Method LoadAll addr 0x2b67ad8 size 0x44 virtual false final false
-static ::ArrayW<::UnityEngine::Object> LoadAll(::StringW path, ::System::Type systemTypeInstance) ;
+static ::ArrayW<UnityEngine::Object> LoadAll(::StringW path, System::Type systemTypeInstance) ;
 
 /// @brief Method LoadAsyncInternal addr 0x2b67b1c size 0x44 virtual false final false
-static ::UnityEngine::ResourceRequest LoadAsyncInternal(::StringW path, ::System::Type type) ;
+static UnityEngine::ResourceRequest LoadAsyncInternal(::StringW path, System::Type type) ;
 
 /// @brief Method UnloadAsset addr 0x2b67b60 size 0x3c virtual false final false
-static void UnloadAsset(::UnityEngine::Object assetToUnload) ;
+static void UnloadAsset(UnityEngine::Object assetToUnload) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ResourcesAPIInternal);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourcesAPIInternal, "UnityEngine", "ResourcesAPIInternal");
+NEED_NO_BOX(UnityEngine::ResourcesAPIInternal);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourcesAPIInternal, "UnityEngine", "ResourcesAPIInternal");

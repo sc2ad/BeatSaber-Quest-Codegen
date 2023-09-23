@@ -3,7 +3,6 @@
 #include "GlobalNamespace/zzzz__SimpleDialogPromptViewController_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 struct DisconnectedReason;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 class ConnectionErrorDialogViewController;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0;
+class GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0;
 }
 // Type: ::<>c__DisplayClass0_0
 namespace GlobalNamespace {
@@ -23,53 +22,53 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5709))
 // CS Name: ConnectionErrorDialogViewController::<>c__DisplayClass0_0
-class CORDL_TYPE ____GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0() = default;
+virtual ~GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0(____GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0(GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0(____GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0(GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0& operator=(____GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0&& o) noexcept = default;
-  constexpr ____GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0& operator=(____GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0 const& o) noexcept = default;
+  constexpr GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0& operator=(GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0&& o) noexcept = default;
+  constexpr GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0& operator=(GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Action __declspec(property(get=__get_buttonAction, put=__set_buttonAction))  buttonAction;
+ System::Action __declspec(property(get=__get_buttonAction, put=__set_buttonAction))  buttonAction;
 
-constexpr void __set_buttonAction(::System::Action value) ;
+constexpr void __set_buttonAction(System::Action value) ;
 
-constexpr ::System::Action __get_buttonAction() const;
+constexpr System::Action __get_buttonAction() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0() ;
+explicit GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0() ;
 
 /// @brief Method .ctor addr 0x21575dc size 0x8 virtual false final false
  void _ctor() ;
@@ -87,10 +86,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5850))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5710))
 // CS Name: ConnectionErrorDialogViewController
-class CORDL_TYPE ConnectionErrorDialogViewController : public ::GlobalNamespace::SimpleDialogPromptViewController {
+class CORDL_TYPE ConnectionErrorDialogViewController : public GlobalNamespace::SimpleDialogPromptViewController {
 public:
 // Declarations
-using __c__DisplayClass0_0 = ::GlobalNamespace::____GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0;
+using __c__DisplayClass0_0 = GlobalNamespace::GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x98};
@@ -104,7 +103,7 @@ constexpr ConnectionErrorDialogViewController(ConnectionErrorDialogViewControlle
 constexpr ConnectionErrorDialogViewController(ConnectionErrorDialogViewController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ConnectionErrorDialogViewController(void* ptr) noexcept : ::GlobalNamespace::SimpleDialogPromptViewController(ptr) {
+constexpr explicit ConnectionErrorDialogViewController(void* ptr) noexcept : GlobalNamespace::SimpleDialogPromptViewController(ptr) {
 }
 
 
@@ -126,7 +125,7 @@ constexpr explicit ConnectionErrorDialogViewController(void* ptr) noexcept : ::G
 // Methods
 
 /// @brief Method Init addr 0x2157444 size 0x198 virtual false final false
- void Init(::GlobalNamespace::DisconnectedReason reason, ::System::Action buttonAction) ;
+ void Init(GlobalNamespace::DisconnectedReason reason, System::Action buttonAction) ;
 
 // Ctor Parameters []
 explicit ConnectionErrorDialogViewController() ;
@@ -138,8 +137,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ConnectionErrorDialogViewController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ConnectionErrorDialogViewController, "", "ConnectionErrorDialogViewController");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0, "", "ConnectionErrorDialogViewController/<>c__DisplayClass0_0");
+NEED_NO_BOX(GlobalNamespace::ConnectionErrorDialogViewController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectionErrorDialogViewController, "", "ConnectionErrorDialogViewController");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0, "", "ConnectionErrorDialogViewController/<>c__DisplayClass0_0");

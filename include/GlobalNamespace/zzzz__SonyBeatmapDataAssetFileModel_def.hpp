@@ -3,36 +3,35 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-class IBeatmapDataAssetFileModel;
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace System::Threading {
-struct CancellationToken;
-}
 namespace GlobalNamespace {
 struct LevelDataAssetDownloadUpdate;
 }
 namespace GlobalNamespace {
-struct GetAssetBundleFileResult;
+class IBeatmapDataAssetFileModel;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace GlobalNamespace {
+struct GetAssetBundleFileResult;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct AsyncTaskMethodBuilder_1;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
@@ -43,7 +42,7 @@ namespace GlobalNamespace {
 class SonyBeatmapDataAssetFileModel;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3;
+struct GlobalNamespace__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3;
 }
 // Type: ::<GetAssetBundleFileForPreviewLevelAsync>d__3
 namespace GlobalNamespace {
@@ -51,23 +50,23 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4669))
 // CS Name: SonyBeatmapDataAssetFileModel::<GetAssetBundleFileForPreviewLevelAsync>d__3
-struct CORDL_TYPE ____GlobalNamespace__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3 : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3 : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::CompilerServices::IAsyncStateMachine
-constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine() const;
+/// @brief Convert operator to System::Runtime::CompilerServices::IAsyncStateMachine
+constexpr operator  System::Runtime::CompilerServices::IAsyncStateMachine() const;
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::GetAssetBundleFileResult>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::GetAssetBundleFileResult>", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::GetAssetBundleFileResult> __t__builder, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::GetAssetBundleFileResult> __u__1) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::GetAssetBundleFileResult>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::GetAssetBundleFileResult>", modifiers: "", def_value: None }]
+constexpr GlobalNamespace__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3(int32_t __1__state, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::GetAssetBundleFileResult> __t__builder, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::GetAssetBundleFileResult> __u__1) noexcept;
 
 
-                    constexpr ____GlobalNamespace__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3(____GlobalNamespace__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3 const&) = default;
-                    constexpr ____GlobalNamespace__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3(____GlobalNamespace__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3&&) = default;
-                    constexpr ____GlobalNamespace__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3& operator=(____GlobalNamespace__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3 const& o) {
+                    constexpr GlobalNamespace__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3(GlobalNamespace__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3 const&) = default;
+                    constexpr GlobalNamespace__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3(GlobalNamespace__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3&&) = default;
+                    constexpr GlobalNamespace__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3& operator=(GlobalNamespace__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3 const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3& operator=(____GlobalNamespace__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3&& o) noexcept {
+                    constexpr GlobalNamespace__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3& operator=(GlobalNamespace__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -80,7 +79,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x28};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -97,17 +96,17 @@ constexpr void __set___1__state(int32_t value) ;
 
 constexpr int32_t __get___1__state() const;
 
- ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::GetAssetBundleFileResult> __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
+ System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::GetAssetBundleFileResult> __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
 
-constexpr void __set___t__builder(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::GetAssetBundleFileResult> value) ;
+constexpr void __set___t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::GetAssetBundleFileResult> value) ;
 
-constexpr ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::GetAssetBundleFileResult> __get___t__builder() const;
+constexpr System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::GetAssetBundleFileResult> __get___t__builder() const;
 
- ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::GetAssetBundleFileResult> __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
+ System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::GetAssetBundleFileResult> __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
 
-constexpr void __set___u__1(::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::GetAssetBundleFileResult> value) ;
+constexpr void __set___u__1(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::GetAssetBundleFileResult> value) ;
 
-constexpr ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::GetAssetBundleFileResult> __get___u__1() const;
+constexpr System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::GetAssetBundleFileResult> __get___u__1() const;
 
 
 // Methods
@@ -116,7 +115,7 @@ constexpr ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::
  void MoveNext() ;
 
 /// @brief Method SetStateMachine addr 0x221b970 size 0x58 virtual true final true
- void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
+ void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -131,10 +130,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE SonyBeatmapDataAssetFileModel : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using _GetAssetBundleFileForPreviewLevelAsync_d__3 = ::GlobalNamespace::____GlobalNamespace__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3;
+using _GetAssetBundleFileForPreviewLevelAsync_d__3 = GlobalNamespace::GlobalNamespace__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3;
 
-/// @brief Convert operator to ::GlobalNamespace::IBeatmapDataAssetFileModel
-constexpr operator  ::GlobalNamespace::IBeatmapDataAssetFileModel() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IBeatmapDataAssetFileModel
+constexpr operator  GlobalNamespace::IBeatmapDataAssetFileModel() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -169,26 +168,26 @@ constexpr explicit SonyBeatmapDataAssetFileModel(void* ptr) noexcept : ::bs_hook
 
 // Fields
 
- ::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate> __declspec(property(get=__get_levelDataAssetDownloadUpdateEvent, put=__set_levelDataAssetDownloadUpdateEvent))  levelDataAssetDownloadUpdateEvent;
+ System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate> __declspec(property(get=__get_levelDataAssetDownloadUpdateEvent, put=__set_levelDataAssetDownloadUpdateEvent))  levelDataAssetDownloadUpdateEvent;
 
-constexpr void __set_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate> value) ;
+constexpr void __set_levelDataAssetDownloadUpdateEvent(System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate> value) ;
 
-constexpr ::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate> __get_levelDataAssetDownloadUpdateEvent() const;
+constexpr System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate> __get_levelDataAssetDownloadUpdateEvent() const;
 
 
 // Methods
 
 /// @brief Method add_levelDataAssetDownloadUpdateEvent addr 0x221b47c size 0xb0 virtual true final true
- void add_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate> value) ;
+ void add_levelDataAssetDownloadUpdateEvent(System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate> value) ;
 
 /// @brief Method remove_levelDataAssetDownloadUpdateEvent addr 0x221b52c size 0xb0 virtual true final true
- void remove_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate> value) ;
+ void remove_levelDataAssetDownloadUpdateEvent(System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate> value) ;
 
 /// @brief Method GetAssetBundleFileForPreviewLevelAsync addr 0x221b5dc size 0xec virtual true final true
- ::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult> GetAssetBundleFileForPreviewLevelAsync(::GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, ::System::Threading::CancellationToken cancellationToken) ;
+ System::Threading::Tasks::Task_1<GlobalNamespace::GetAssetBundleFileResult> GetAssetBundleFileForPreviewLevelAsync(GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, System::Threading::CancellationToken cancellationToken) ;
 
 /// @brief Method TryDeleteAssetBundleFileForPreviewLevelAsync addr 0x221b6c8 size 0x68 virtual true final true
- ::System::Threading::Tasks::Task_1<bool> TryDeleteAssetBundleFileForPreviewLevelAsync(::GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, ::System::Threading::CancellationToken cancellationToken) ;
+ System::Threading::Tasks::Task_1<bool> TryDeleteAssetBundleFileForPreviewLevelAsync(GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, System::Threading::CancellationToken cancellationToken) ;
 
 // Ctor Parameters []
 explicit SonyBeatmapDataAssetFileModel() ;
@@ -200,7 +199,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SonyBeatmapDataAssetFileModel);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SonyBeatmapDataAssetFileModel, "", "SonyBeatmapDataAssetFileModel");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3, "", "SonyBeatmapDataAssetFileModel/<GetAssetBundleFileForPreviewLevelAsync>d__3");
+NEED_NO_BOX(GlobalNamespace::SonyBeatmapDataAssetFileModel);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SonyBeatmapDataAssetFileModel, "", "SonyBeatmapDataAssetFileModel");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3, "", "SonyBeatmapDataAssetFileModel/<GetAssetBundleFileForPreviewLevelAsync>d__3");

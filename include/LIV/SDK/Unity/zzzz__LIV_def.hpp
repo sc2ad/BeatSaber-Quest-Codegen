@@ -5,51 +5,50 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace LIV::SDK::Unity {
-struct INVALIDATION_FLAGS;
-}
 namespace System {
-class Action;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-class Coroutine;
+template<typename T>
+class Action_1;
 }
 namespace UnityEngine {
 class Camera;
 }
 namespace UnityEngine {
-struct Matrix4x4;
+class Coroutine;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace LIV::SDK::Unity {
+class SDKRender;
 }
 namespace UnityEngine {
 struct LayerMask;
 }
 namespace LIV::SDK::Unity {
-class SDKRender;
+struct INVALIDATION_FLAGS;
+}
+namespace UnityEngine {
+struct Matrix4x4;
 }
 namespace System {
-template<typename T>
-class Action_1;
+class Action;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace LIV::SDK::Unity {
 class LIV;
 }
 namespace LIV::SDK::Unity {
-class ____LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68;
+class LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68;
 }
 // Type: ::<WaitForUnityEndOfFrame>d__68
 namespace LIV::SDK::Unity {
@@ -57,46 +56,46 @@ namespace LIV::SDK::Unity {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15141))
 // CS Name: LIV.SDK.Unity.LIV::<WaitForUnityEndOfFrame>d__68
-class CORDL_TYPE ____LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68() = default;
+virtual ~LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68", modifiers: " const&", def_value: None }]
-constexpr ____LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68(____LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68", modifiers: " const&", def_value: None }]
+constexpr LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68(LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68", modifiers: "&&", def_value: None }]
-constexpr ____LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68(____LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68", modifiers: "&&", def_value: None }]
+constexpr LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68(LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68& operator=(std::nullptr_t) noexcept {
+  constexpr LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68& operator=(void* o) noexcept {
+  constexpr LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68& operator=(____LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68&& o) noexcept = default;
-  constexpr ____LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68& operator=(____LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68 const& o) noexcept = default;
+  constexpr LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68& operator=(LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68&& o) noexcept = default;
+  constexpr LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68& operator=(LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68 const& o) noexcept = default;
                 
 
 
@@ -114,11 +113,11 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::LIV::SDK::Unity::LIV __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ LIV::SDK::Unity::LIV __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::LIV::SDK::Unity::LIV value) ;
+constexpr void __set___4__this(LIV::SDK::Unity::LIV value) ;
 
-constexpr ::LIV::SDK::Unity::LIV __get___4__this() const;
+constexpr LIV::SDK::Unity::LIV __get___4__this() const;
 
 
 // Properties
@@ -131,7 +130,7 @@ constexpr ::LIV::SDK::Unity::LIV __get___4__this() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68(int32_t __1__state) ;
+explicit LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x209b6d4 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -161,10 +160,10 @@ namespace LIV::SDK::Unity {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15142))
 // CS Name: LIV.SDK.Unity.LIV
-class CORDL_TYPE LIV : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE LIV : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using _WaitForUnityEndOfFrame_d__68 = ::LIV::SDK::Unity::____LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68;
+using _WaitForUnityEndOfFrame_d__68 = LIV::SDK::Unity::LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xd0};
@@ -178,7 +177,7 @@ constexpr LIV(LIV const& ) noexcept = default;
 constexpr LIV(LIV&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LIV(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit LIV(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -199,77 +198,77 @@ constexpr explicit LIV(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
 
 // Fields
 
- ::System::Action __declspec(property(get=__get_onActivate, put=__set_onActivate))  onActivate;
+ System::Action __declspec(property(get=__get_onActivate, put=__set_onActivate))  onActivate;
 
-constexpr void __set_onActivate(::System::Action value) ;
+constexpr void __set_onActivate(System::Action value) ;
 
-constexpr ::System::Action __get_onActivate() const;
+constexpr System::Action __get_onActivate() const;
 
- ::System::Action_1<::LIV::SDK::Unity::SDKRender> __declspec(property(get=__get_onPreRender, put=__set_onPreRender))  onPreRender;
+ System::Action_1<LIV::SDK::Unity::SDKRender> __declspec(property(get=__get_onPreRender, put=__set_onPreRender))  onPreRender;
 
-constexpr void __set_onPreRender(::System::Action_1<::LIV::SDK::Unity::SDKRender> value) ;
+constexpr void __set_onPreRender(System::Action_1<LIV::SDK::Unity::SDKRender> value) ;
 
-constexpr ::System::Action_1<::LIV::SDK::Unity::SDKRender> __get_onPreRender() const;
+constexpr System::Action_1<LIV::SDK::Unity::SDKRender> __get_onPreRender() const;
 
- ::System::Action_1<::LIV::SDK::Unity::SDKRender> __declspec(property(get=__get_onPreRenderBackground, put=__set_onPreRenderBackground))  onPreRenderBackground;
+ System::Action_1<LIV::SDK::Unity::SDKRender> __declspec(property(get=__get_onPreRenderBackground, put=__set_onPreRenderBackground))  onPreRenderBackground;
 
-constexpr void __set_onPreRenderBackground(::System::Action_1<::LIV::SDK::Unity::SDKRender> value) ;
+constexpr void __set_onPreRenderBackground(System::Action_1<LIV::SDK::Unity::SDKRender> value) ;
 
-constexpr ::System::Action_1<::LIV::SDK::Unity::SDKRender> __get_onPreRenderBackground() const;
+constexpr System::Action_1<LIV::SDK::Unity::SDKRender> __get_onPreRenderBackground() const;
 
- ::System::Action_1<::LIV::SDK::Unity::SDKRender> __declspec(property(get=__get_onPostRenderBackground, put=__set_onPostRenderBackground))  onPostRenderBackground;
+ System::Action_1<LIV::SDK::Unity::SDKRender> __declspec(property(get=__get_onPostRenderBackground, put=__set_onPostRenderBackground))  onPostRenderBackground;
 
-constexpr void __set_onPostRenderBackground(::System::Action_1<::LIV::SDK::Unity::SDKRender> value) ;
+constexpr void __set_onPostRenderBackground(System::Action_1<LIV::SDK::Unity::SDKRender> value) ;
 
-constexpr ::System::Action_1<::LIV::SDK::Unity::SDKRender> __get_onPostRenderBackground() const;
+constexpr System::Action_1<LIV::SDK::Unity::SDKRender> __get_onPostRenderBackground() const;
 
- ::System::Action_1<::LIV::SDK::Unity::SDKRender> __declspec(property(get=__get_onPreRenderForeground, put=__set_onPreRenderForeground))  onPreRenderForeground;
+ System::Action_1<LIV::SDK::Unity::SDKRender> __declspec(property(get=__get_onPreRenderForeground, put=__set_onPreRenderForeground))  onPreRenderForeground;
 
-constexpr void __set_onPreRenderForeground(::System::Action_1<::LIV::SDK::Unity::SDKRender> value) ;
+constexpr void __set_onPreRenderForeground(System::Action_1<LIV::SDK::Unity::SDKRender> value) ;
 
-constexpr ::System::Action_1<::LIV::SDK::Unity::SDKRender> __get_onPreRenderForeground() const;
+constexpr System::Action_1<LIV::SDK::Unity::SDKRender> __get_onPreRenderForeground() const;
 
- ::System::Action_1<::LIV::SDK::Unity::SDKRender> __declspec(property(get=__get_onPostRenderForeground, put=__set_onPostRenderForeground))  onPostRenderForeground;
+ System::Action_1<LIV::SDK::Unity::SDKRender> __declspec(property(get=__get_onPostRenderForeground, put=__set_onPostRenderForeground))  onPostRenderForeground;
 
-constexpr void __set_onPostRenderForeground(::System::Action_1<::LIV::SDK::Unity::SDKRender> value) ;
+constexpr void __set_onPostRenderForeground(System::Action_1<LIV::SDK::Unity::SDKRender> value) ;
 
-constexpr ::System::Action_1<::LIV::SDK::Unity::SDKRender> __get_onPostRenderForeground() const;
+constexpr System::Action_1<LIV::SDK::Unity::SDKRender> __get_onPostRenderForeground() const;
 
- ::System::Action_1<::LIV::SDK::Unity::SDKRender> __declspec(property(get=__get_onPostRender, put=__set_onPostRender))  onPostRender;
+ System::Action_1<LIV::SDK::Unity::SDKRender> __declspec(property(get=__get_onPostRender, put=__set_onPostRender))  onPostRender;
 
-constexpr void __set_onPostRender(::System::Action_1<::LIV::SDK::Unity::SDKRender> value) ;
+constexpr void __set_onPostRender(System::Action_1<LIV::SDK::Unity::SDKRender> value) ;
 
-constexpr ::System::Action_1<::LIV::SDK::Unity::SDKRender> __get_onPostRender() const;
+constexpr System::Action_1<LIV::SDK::Unity::SDKRender> __get_onPostRender() const;
 
- ::System::Action __declspec(property(get=__get_onDeactivate, put=__set_onDeactivate))  onDeactivate;
+ System::Action __declspec(property(get=__get_onDeactivate, put=__set_onDeactivate))  onDeactivate;
 
-constexpr void __set_onDeactivate(::System::Action value) ;
+constexpr void __set_onDeactivate(System::Action value) ;
 
-constexpr ::System::Action __get_onDeactivate() const;
+constexpr System::Action __get_onDeactivate() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__stage, put=__set__stage))  _stage;
+ UnityEngine::Transform __declspec(property(get=__get__stage, put=__set__stage))  _stage;
 
-constexpr void __set__stage(::UnityEngine::Transform value) ;
+constexpr void __set__stage(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__stage() const;
+constexpr UnityEngine::Transform __get__stage() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__stageTransform, put=__set__stageTransform))  _stageTransform;
+ UnityEngine::Transform __declspec(property(get=__get__stageTransform, put=__set__stageTransform))  _stageTransform;
 
-constexpr void __set__stageTransform(::UnityEngine::Transform value) ;
+constexpr void __set__stageTransform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__stageTransform() const;
+constexpr UnityEngine::Transform __get__stageTransform() const;
 
- ::UnityEngine::Camera __declspec(property(get=__get__HMDCamera, put=__set__HMDCamera))  _HMDCamera;
+ UnityEngine::Camera __declspec(property(get=__get__HMDCamera, put=__set__HMDCamera))  _HMDCamera;
 
-constexpr void __set__HMDCamera(::UnityEngine::Camera value) ;
+constexpr void __set__HMDCamera(UnityEngine::Camera value) ;
 
-constexpr ::UnityEngine::Camera __get__HMDCamera() const;
+constexpr UnityEngine::Camera __get__HMDCamera() const;
 
- ::UnityEngine::Camera __declspec(property(get=__get__MRCameraPrefab, put=__set__MRCameraPrefab))  _MRCameraPrefab;
+ UnityEngine::Camera __declspec(property(get=__get__MRCameraPrefab, put=__set__MRCameraPrefab))  _MRCameraPrefab;
 
-constexpr void __set__MRCameraPrefab(::UnityEngine::Camera value) ;
+constexpr void __set__MRCameraPrefab(UnityEngine::Camera value) ;
 
-constexpr ::UnityEngine::Camera __get__MRCameraPrefab() const;
+constexpr UnityEngine::Camera __get__MRCameraPrefab() const;
 
  bool __declspec(property(get=__get__disableStandardAssets, put=__set__disableStandardAssets))  _disableStandardAssets;
 
@@ -277,11 +276,11 @@ constexpr void __set__disableStandardAssets(bool value) ;
 
 constexpr bool __get__disableStandardAssets() const;
 
- ::UnityEngine::LayerMask __declspec(property(get=__get__spectatorLayerMask, put=__set__spectatorLayerMask))  _spectatorLayerMask;
+ UnityEngine::LayerMask __declspec(property(get=__get__spectatorLayerMask, put=__set__spectatorLayerMask))  _spectatorLayerMask;
 
-constexpr void __set__spectatorLayerMask(::UnityEngine::LayerMask value) ;
+constexpr void __set__spectatorLayerMask(UnityEngine::LayerMask value) ;
 
-constexpr ::UnityEngine::LayerMask __get__spectatorLayerMask() const;
+constexpr UnityEngine::LayerMask __get__spectatorLayerMask() const;
 
  ::ArrayW<::StringW> __declspec(property(get=__get__excludeBehaviours, put=__set__excludeBehaviours))  _excludeBehaviours;
 
@@ -301,11 +300,11 @@ constexpr void __set__isActive(bool value) ;
 
 constexpr bool __get__isActive() const;
 
- ::LIV::SDK::Unity::SDKRender __declspec(property(get=__get__render, put=__set__render))  _render;
+ LIV::SDK::Unity::SDKRender __declspec(property(get=__get__render, put=__set__render))  _render;
 
-constexpr void __set__render(::LIV::SDK::Unity::SDKRender value) ;
+constexpr void __set__render(LIV::SDK::Unity::SDKRender value) ;
 
-constexpr ::LIV::SDK::Unity::SDKRender __get__render() const;
+constexpr LIV::SDK::Unity::SDKRender __get__render() const;
 
  bool __declspec(property(get=__get__wasReady, put=__set__wasReady))  _wasReady;
 
@@ -313,29 +312,29 @@ constexpr void __set__wasReady(bool value) ;
 
 constexpr bool __get__wasReady() const;
 
- ::LIV::SDK::Unity::INVALIDATION_FLAGS __declspec(property(get=__get__invalidate, put=__set__invalidate))  _invalidate;
+ LIV::SDK::Unity::INVALIDATION_FLAGS __declspec(property(get=__get__invalidate, put=__set__invalidate))  _invalidate;
 
-constexpr void __set__invalidate(::LIV::SDK::Unity::INVALIDATION_FLAGS value) ;
+constexpr void __set__invalidate(LIV::SDK::Unity::INVALIDATION_FLAGS value) ;
 
-constexpr ::LIV::SDK::Unity::INVALIDATION_FLAGS __get__invalidate() const;
+constexpr LIV::SDK::Unity::INVALIDATION_FLAGS __get__invalidate() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__stageCandidate, put=__set__stageCandidate))  _stageCandidate;
+ UnityEngine::Transform __declspec(property(get=__get__stageCandidate, put=__set__stageCandidate))  _stageCandidate;
 
-constexpr void __set__stageCandidate(::UnityEngine::Transform value) ;
+constexpr void __set__stageCandidate(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__stageCandidate() const;
+constexpr UnityEngine::Transform __get__stageCandidate() const;
 
- ::UnityEngine::Camera __declspec(property(get=__get__HMDCameraCandidate, put=__set__HMDCameraCandidate))  _HMDCameraCandidate;
+ UnityEngine::Camera __declspec(property(get=__get__HMDCameraCandidate, put=__set__HMDCameraCandidate))  _HMDCameraCandidate;
 
-constexpr void __set__HMDCameraCandidate(::UnityEngine::Camera value) ;
+constexpr void __set__HMDCameraCandidate(UnityEngine::Camera value) ;
 
-constexpr ::UnityEngine::Camera __get__HMDCameraCandidate() const;
+constexpr UnityEngine::Camera __get__HMDCameraCandidate() const;
 
- ::UnityEngine::Camera __declspec(property(get=__get__MRCameraPrefabCandidate, put=__set__MRCameraPrefabCandidate))  _MRCameraPrefabCandidate;
+ UnityEngine::Camera __declspec(property(get=__get__MRCameraPrefabCandidate, put=__set__MRCameraPrefabCandidate))  _MRCameraPrefabCandidate;
 
-constexpr void __set__MRCameraPrefabCandidate(::UnityEngine::Camera value) ;
+constexpr void __set__MRCameraPrefabCandidate(UnityEngine::Camera value) ;
 
-constexpr ::UnityEngine::Camera __get__MRCameraPrefabCandidate() const;
+constexpr UnityEngine::Camera __get__MRCameraPrefabCandidate() const;
 
  ::ArrayW<::StringW> __declspec(property(get=__get__excludeBehavioursCandidate, put=__set__excludeBehavioursCandidate))  _excludeBehavioursCandidate;
 
@@ -349,32 +348,32 @@ constexpr void __set__enabled(bool value) ;
 
 constexpr bool __get__enabled() const;
 
- ::UnityEngine::Coroutine __declspec(property(get=__get__waitForEndOfFrameCoroutine, put=__set__waitForEndOfFrameCoroutine))  _waitForEndOfFrameCoroutine;
+ UnityEngine::Coroutine __declspec(property(get=__get__waitForEndOfFrameCoroutine, put=__set__waitForEndOfFrameCoroutine))  _waitForEndOfFrameCoroutine;
 
-constexpr void __set__waitForEndOfFrameCoroutine(::UnityEngine::Coroutine value) ;
+constexpr void __set__waitForEndOfFrameCoroutine(UnityEngine::Coroutine value) ;
 
-constexpr ::UnityEngine::Coroutine __get__waitForEndOfFrameCoroutine() const;
+constexpr UnityEngine::Coroutine __get__waitForEndOfFrameCoroutine() const;
 
 
 // Properties
 
- ::UnityEngine::Transform __declspec(property(get=get_stage, put=set_stage))  stage;
+ UnityEngine::Transform __declspec(property(get=get_stage, put=set_stage))  stage;
 
- ::UnityEngine::Transform __declspec(property(get=get_trackedSpaceOrigin, put=set_trackedSpaceOrigin))  trackedSpaceOrigin;
+ UnityEngine::Transform __declspec(property(get=get_trackedSpaceOrigin, put=set_trackedSpaceOrigin))  trackedSpaceOrigin;
 
- ::UnityEngine::Matrix4x4 __declspec(property(get=get_stageLocalToWorldMatrix))  stageLocalToWorldMatrix;
+ UnityEngine::Matrix4x4 __declspec(property(get=get_stageLocalToWorldMatrix))  stageLocalToWorldMatrix;
 
- ::UnityEngine::Matrix4x4 __declspec(property(get=get_stageWorldToLocalMatrix))  stageWorldToLocalMatrix;
+ UnityEngine::Matrix4x4 __declspec(property(get=get_stageWorldToLocalMatrix))  stageWorldToLocalMatrix;
 
- ::UnityEngine::Transform __declspec(property(get=get_stageTransform, put=set_stageTransform))  stageTransform;
+ UnityEngine::Transform __declspec(property(get=get_stageTransform, put=set_stageTransform))  stageTransform;
 
- ::UnityEngine::Camera __declspec(property(get=get_HMDCamera, put=set_HMDCamera))  HMDCamera;
+ UnityEngine::Camera __declspec(property(get=get_HMDCamera, put=set_HMDCamera))  HMDCamera;
 
- ::UnityEngine::Camera __declspec(property(get=get_MRCameraPrefab, put=set_MRCameraPrefab))  MRCameraPrefab;
+ UnityEngine::Camera __declspec(property(get=get_MRCameraPrefab, put=set_MRCameraPrefab))  MRCameraPrefab;
 
  bool __declspec(property(get=get_disableStandardAssets, put=set_disableStandardAssets))  disableStandardAssets;
 
- ::UnityEngine::LayerMask __declspec(property(get=get_spectatorLayerMask, put=set_spectatorLayerMask))  spectatorLayerMask;
+ UnityEngine::LayerMask __declspec(property(get=get_spectatorLayerMask, put=set_spectatorLayerMask))  spectatorLayerMask;
 
  ::ArrayW<::StringW> __declspec(property(get=get_excludeBehaviours, put=set_excludeBehaviours))  excludeBehaviours;
 
@@ -386,46 +385,46 @@ constexpr ::UnityEngine::Coroutine __get__waitForEndOfFrameCoroutine() const;
 
  bool __declspec(property(get=get__isReady))  _isReady;
 
- ::LIV::SDK::Unity::SDKRender __declspec(property(get=get_render))  render;
+ LIV::SDK::Unity::SDKRender __declspec(property(get=get_render))  render;
 
 
 // Methods
 
 /// @brief Method get_stage addr 0x209ae58 size 0x90 virtual false final false
- ::UnityEngine::Transform get_stage() ;
+ UnityEngine::Transform get_stage() ;
 
 /// @brief Method set_stage addr 0x209aee8 size 0x90 virtual false final false
- void set_stage(::UnityEngine::Transform value) ;
+ void set_stage(UnityEngine::Transform value) ;
 
 /// @brief Method get_trackedSpaceOrigin addr 0x209af8c size 0x4 virtual false final false
- ::UnityEngine::Transform get_trackedSpaceOrigin() ;
+ UnityEngine::Transform get_trackedSpaceOrigin() ;
 
 /// @brief Method set_trackedSpaceOrigin addr 0x209af90 size 0x4 virtual false final false
- void set_trackedSpaceOrigin(::UnityEngine::Transform value) ;
+ void set_trackedSpaceOrigin(UnityEngine::Transform value) ;
 
 /// @brief Method get_stageLocalToWorldMatrix addr 0x209af94 size 0xf8 virtual false final false
- ::UnityEngine::Matrix4x4 get_stageLocalToWorldMatrix() ;
+ UnityEngine::Matrix4x4 get_stageLocalToWorldMatrix() ;
 
 /// @brief Method get_stageWorldToLocalMatrix addr 0x209b08c size 0xf8 virtual false final false
- ::UnityEngine::Matrix4x4 get_stageWorldToLocalMatrix() ;
+ UnityEngine::Matrix4x4 get_stageWorldToLocalMatrix() ;
 
 /// @brief Method get_stageTransform addr 0x209b184 size 0x8 virtual false final false
- ::UnityEngine::Transform get_stageTransform() ;
+ UnityEngine::Transform get_stageTransform() ;
 
 /// @brief Method set_stageTransform addr 0x209b18c size 0x8 virtual false final false
- void set_stageTransform(::UnityEngine::Transform value) ;
+ void set_stageTransform(UnityEngine::Transform value) ;
 
 /// @brief Method get_HMDCamera addr 0x209b194 size 0x8 virtual false final false
- ::UnityEngine::Camera get_HMDCamera() ;
+ UnityEngine::Camera get_HMDCamera() ;
 
 /// @brief Method set_HMDCamera addr 0x209b19c size 0xec virtual false final false
- void set_HMDCamera(::UnityEngine::Camera value) ;
+ void set_HMDCamera(UnityEngine::Camera value) ;
 
 /// @brief Method get_MRCameraPrefab addr 0x209b288 size 0x8 virtual false final false
- ::UnityEngine::Camera get_MRCameraPrefab() ;
+ UnityEngine::Camera get_MRCameraPrefab() ;
 
 /// @brief Method set_MRCameraPrefab addr 0x209b290 size 0x84 virtual false final false
- void set_MRCameraPrefab(::UnityEngine::Camera value) ;
+ void set_MRCameraPrefab(UnityEngine::Camera value) ;
 
 /// @brief Method get_disableStandardAssets addr 0x209b314 size 0x8 virtual false final false
  bool get_disableStandardAssets() ;
@@ -434,10 +433,10 @@ constexpr ::UnityEngine::Coroutine __get__waitForEndOfFrameCoroutine() const;
  void set_disableStandardAssets(bool value) ;
 
 /// @brief Method get_spectatorLayerMask addr 0x209b328 size 0x8 virtual false final false
- ::UnityEngine::LayerMask get_spectatorLayerMask() ;
+ UnityEngine::LayerMask get_spectatorLayerMask() ;
 
 /// @brief Method set_spectatorLayerMask addr 0x209b330 size 0x8 virtual false final false
- void set_spectatorLayerMask(::UnityEngine::LayerMask value) ;
+ void set_spectatorLayerMask(UnityEngine::LayerMask value) ;
 
 /// @brief Method get_excludeBehaviours addr 0x209b338 size 0x8 virtual false final false
  ::ArrayW<::StringW> get_excludeBehaviours() ;
@@ -461,7 +460,7 @@ constexpr ::UnityEngine::Coroutine __get__waitForEndOfFrameCoroutine() const;
  bool get__isReady() ;
 
 /// @brief Method get_render addr 0x209b57c size 0x8 virtual false final false
- ::LIV::SDK::Unity::SDKRender get_render() ;
+ LIV::SDK::Unity::SDKRender get_render() ;
 
 /// @brief Method OnEnable addr 0x209b584 size 0xc virtual false final false
  void OnEnable() ;
@@ -473,7 +472,7 @@ constexpr ::UnityEngine::Coroutine __get__waitForEndOfFrameCoroutine() const;
  void OnDisable() ;
 
 /// @brief Method WaitForUnityEndOfFrame addr 0x209b66c size 0x68 virtual false final false
- ::System::Collections::IEnumerator WaitForUnityEndOfFrame() ;
+ System::Collections::IEnumerator WaitForUnityEndOfFrame() ;
 
 /// @brief Method Activate addr 0x209b6fc size 0x18 virtual false final false
  void Activate() ;
@@ -518,8 +517,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def LIV::SDK::Unity
-} // end anonymous namespace
-NEED_NO_BOX(::LIV::SDK::Unity::LIV);
-DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::LIV, "LIV.SDK.Unity", "LIV");
-NEED_NO_BOX(::LIV::SDK::Unity::____LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68);
-DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::____LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68, "LIV.SDK.Unity", "LIV/<WaitForUnityEndOfFrame>d__68");
+NEED_NO_BOX(LIV::SDK::Unity::LIV);
+DEFINE_IL2CPP_ARG_TYPE(LIV::SDK::Unity::LIV, "LIV.SDK.Unity", "LIV");
+NEED_NO_BOX(LIV::SDK::Unity::LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68);
+DEFINE_IL2CPP_ARG_TYPE(LIV::SDK::Unity::LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68, "LIV.SDK.Unity", "LIV/<WaitForUnityEndOfFrame>d__68");

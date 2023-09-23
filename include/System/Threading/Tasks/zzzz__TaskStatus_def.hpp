@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Threading::Tasks {
 struct TaskStatus;
@@ -73,32 +72,31 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Created offset 0
-static ::System::Threading::Tasks::TaskStatus const Created;
+static System::Threading::Tasks::TaskStatus const Created;
 
 /// @brief Field WaitingForActivation offset 0
-static ::System::Threading::Tasks::TaskStatus const WaitingForActivation;
+static System::Threading::Tasks::TaskStatus const WaitingForActivation;
 
 /// @brief Field WaitingToRun offset 0
-static ::System::Threading::Tasks::TaskStatus const WaitingToRun;
+static System::Threading::Tasks::TaskStatus const WaitingToRun;
 
 /// @brief Field Running offset 0
-static ::System::Threading::Tasks::TaskStatus const Running;
+static System::Threading::Tasks::TaskStatus const Running;
 
 /// @brief Field WaitingForChildrenToComplete offset 0
-static ::System::Threading::Tasks::TaskStatus const WaitingForChildrenToComplete;
+static System::Threading::Tasks::TaskStatus const WaitingForChildrenToComplete;
 
 /// @brief Field RanToCompletion offset 0
-static ::System::Threading::Tasks::TaskStatus const RanToCompletion;
+static System::Threading::Tasks::TaskStatus const RanToCompletion;
 
 /// @brief Field Canceled offset 0
-static ::System::Threading::Tasks::TaskStatus const Canceled;
+static System::Threading::Tasks::TaskStatus const Canceled;
 
 /// @brief Field Faulted offset 0
-static ::System::Threading::Tasks::TaskStatus const Faulted;
+static System::Threading::Tasks::TaskStatus const Faulted;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Threading::Tasks
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::TaskStatus, "System.Threading.Tasks", "TaskStatus");
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskStatus, "System.Threading.Tasks", "TaskStatus");

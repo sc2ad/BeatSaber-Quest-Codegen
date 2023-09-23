@@ -2,21 +2,20 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/Schema/zzzz__InteriorNode_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace System::Xml::Schema {
-class SyntaxTreeNode;
-}
-namespace System::Xml::Schema {
-class SymbolsDictionary;
+class InteriorNode;
 }
 namespace System::Xml::Schema {
 class BitSet;
 }
 namespace System::Xml::Schema {
-class InteriorNode;
+class Positions;
 }
 namespace System::Xml::Schema {
-class Positions;
+class SyntaxTreeNode;
+}
+namespace System::Xml::Schema {
+class SymbolsDictionary;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -28,7 +27,7 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11544))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11547))
 // CS Name: System.Xml.Schema.ChoiceNode
-class CORDL_TYPE ChoiceNode : public ::System::Xml::Schema::InteriorNode {
+class CORDL_TYPE ChoiceNode : public System::Xml::Schema::InteriorNode {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -43,7 +42,7 @@ constexpr ChoiceNode(ChoiceNode const& ) noexcept = default;
 constexpr ChoiceNode(ChoiceNode&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ChoiceNode(void* ptr) noexcept : ::System::Xml::Schema::InteriorNode(ptr) {
+constexpr explicit ChoiceNode(void* ptr) noexcept : System::Xml::Schema::InteriorNode(ptr) {
 }
 
 
@@ -70,16 +69,16 @@ constexpr explicit ChoiceNode(void* ptr) noexcept : ::System::Xml::Schema::Inter
 // Methods
 
 /// @brief Method ConstructChildPos addr 0x271af6c size 0xdc virtual false final false
-static void ConstructChildPos(::System::Xml::Schema::SyntaxTreeNode child, ::System::Xml::Schema::BitSet firstpos, ::System::Xml::Schema::BitSet lastpos, ::ArrayW<::System::Xml::Schema::BitSet> followpos) ;
+static void ConstructChildPos(System::Xml::Schema::SyntaxTreeNode child, System::Xml::Schema::BitSet firstpos, System::Xml::Schema::BitSet lastpos, ::ArrayW<System::Xml::Schema::BitSet> followpos) ;
 
 /// @brief Method ConstructPos addr 0x271b048 size 0x118 virtual true final false
- void ConstructPos(::System::Xml::Schema::BitSet firstpos, ::System::Xml::Schema::BitSet lastpos, ::ArrayW<::System::Xml::Schema::BitSet> followpos) ;
+ void ConstructPos(System::Xml::Schema::BitSet firstpos, System::Xml::Schema::BitSet lastpos, ::ArrayW<System::Xml::Schema::BitSet> followpos) ;
 
 /// @brief Method get_IsNullable addr 0x271b160 size 0x90 virtual true final false
  bool get_IsNullable() ;
 
 /// @brief Method ExpandTree addr 0x271b1f0 size 0x4 virtual true final false
- void ExpandTree(::System::Xml::Schema::InteriorNode parent, ::System::Xml::Schema::SymbolsDictionary symbols, ::System::Xml::Schema::Positions positions) ;
+ void ExpandTree(System::Xml::Schema::InteriorNode parent, System::Xml::Schema::SymbolsDictionary symbols, System::Xml::Schema::Positions positions) ;
 
 // Ctor Parameters []
 explicit ChoiceNode() ;
@@ -91,6 +90,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::ChoiceNode);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::ChoiceNode, "System.Xml.Schema", "ChoiceNode");
+NEED_NO_BOX(System::Xml::Schema::ChoiceNode);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::ChoiceNode, "System.Xml.Schema", "ChoiceNode");

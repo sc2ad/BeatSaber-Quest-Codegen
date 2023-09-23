@@ -3,16 +3,15 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace UnityEngine::ProBuilder {
 struct BezierPoint;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -24,7 +23,7 @@ namespace UnityEngine::ProBuilder {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12046))
 // CS Name: UnityEngine.ProBuilder.BezierShape
-class CORDL_TYPE BezierShape : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE BezierShape : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr BezierShape(BezierShape const& ) noexcept = default;
 constexpr BezierShape(BezierShape&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BezierShape(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit BezierShape(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -60,11 +59,11 @@ constexpr explicit BezierShape(void* ptr) noexcept : ::UnityEngine::MonoBehaviou
 
 // Fields
 
- ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::BezierPoint> __declspec(property(get=__get_points, put=__set_points))  points;
+ System::Collections::Generic::List_1<UnityEngine::ProBuilder::BezierPoint> __declspec(property(get=__get_points, put=__set_points))  points;
 
-constexpr void __set_points(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::BezierPoint> value) ;
+constexpr void __set_points(System::Collections::Generic::List_1<UnityEngine::ProBuilder::BezierPoint> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::BezierPoint> __get_points() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::ProBuilder::BezierPoint> __get_points() const;
 
  bool __declspec(property(get=__get_closeLoop, put=__set_closeLoop))  closeLoop;
 
@@ -102,18 +101,18 @@ constexpr void __set_m_IsEditing(bool value) ;
 
 constexpr bool __get_m_IsEditing() const;
 
- ::UnityEngine::ProBuilder::ProBuilderMesh __declspec(property(get=__get_m_Mesh, put=__set_m_Mesh))  m_Mesh;
+ UnityEngine::ProBuilder::ProBuilderMesh __declspec(property(get=__get_m_Mesh, put=__set_m_Mesh))  m_Mesh;
 
-constexpr void __set_m_Mesh(::UnityEngine::ProBuilder::ProBuilderMesh value) ;
+constexpr void __set_m_Mesh(UnityEngine::ProBuilder::ProBuilderMesh value) ;
 
-constexpr ::UnityEngine::ProBuilder::ProBuilderMesh __get_m_Mesh() const;
+constexpr UnityEngine::ProBuilder::ProBuilderMesh __get_m_Mesh() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_isEditing, put=set_isEditing))  isEditing;
 
- ::UnityEngine::ProBuilder::ProBuilderMesh __declspec(property(get=get_mesh, put=set_mesh))  mesh;
+ UnityEngine::ProBuilder::ProBuilderMesh __declspec(property(get=get_mesh, put=set_mesh))  mesh;
 
 
 // Methods
@@ -125,10 +124,10 @@ constexpr ::UnityEngine::ProBuilder::ProBuilderMesh __get_m_Mesh() const;
  void set_isEditing(bool value) ;
 
 /// @brief Method get_mesh addr 0x29a47c4 size 0x94 virtual false final false
- ::UnityEngine::ProBuilder::ProBuilderMesh get_mesh() ;
+ UnityEngine::ProBuilder::ProBuilderMesh get_mesh() ;
 
 /// @brief Method set_mesh addr 0x29a4858 size 0x8 virtual false final false
- void set_mesh(::UnityEngine::ProBuilder::ProBuilderMesh value) ;
+ void set_mesh(UnityEngine::ProBuilder::ProBuilderMesh value) ;
 
 /// @brief Method Init addr 0x29a4860 size 0x260 virtual false final false
  void Init() ;
@@ -146,6 +145,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::BezierShape);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::BezierShape, "UnityEngine.ProBuilder", "BezierShape");
+NEED_NO_BOX(UnityEngine::ProBuilder::BezierShape);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::BezierShape, "UnityEngine.ProBuilder", "BezierShape");

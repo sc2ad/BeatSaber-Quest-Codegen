@@ -4,10 +4,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyCollection_1;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -19,21 +25,14 @@ class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IReadOnlyCollection_1;
-}
-namespace System::Collections {
-class IEnumerable;
+class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class ICollection_1;
 }
 namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+class IEnumerable;
 }
 namespace System {
 class IDisposable;
@@ -45,7 +44,7 @@ struct ArraySegment_1;
 }
 namespace System {
 template<typename T>
-struct ____System__ArraySegment_1__Enumerator;
+struct System__ArraySegment_1__Enumerator;
 }
 namespace System {
 template<::cordl_internals::il2cpp_reference_type T>
@@ -57,11 +56,11 @@ struct ArraySegment_1<uint8_t>;
 }
 namespace System {
 template<::cordl_internals::il2cpp_reference_type T>
-struct ____System__ArraySegment_1__Enumerator<T>;
+struct System__ArraySegment_1__Enumerator<T>;
 }
 namespace System {
 template<>
-struct ____System__ArraySegment_1__Enumerator<uint8_t>;
+struct System__ArraySegment_1__Enumerator<uint8_t>;
 }
 // Type: ::Enumerator
 // Type: System::ArraySegment`1
@@ -70,32 +69,32 @@ namespace System {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2348)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2348))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2348), inst: 2 })
 // CS Name: System.ArraySegment`1::Enumerator
-struct CORDL_TYPE ____System__ArraySegment_1__Enumerator<T> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE System__ArraySegment_1__Enumerator<T> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<T>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<T>() const;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<T>
+constexpr operator  System::Collections::Generic::IEnumerator_1<T>() const;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const;
 
 // Ctor Parameters [CppParam { name: "_array", ty: "::ArrayW<T>", modifiers: "", def_value: None }, CppParam { name: "_start", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_end", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_current", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____System__ArraySegment_1__Enumerator(::ArrayW<T> _array, int32_t _start, int32_t _end, int32_t _current) noexcept;
+constexpr System__ArraySegment_1__Enumerator(::ArrayW<T> _array, int32_t _start, int32_t _end, int32_t _current) noexcept;
 
 
-                    constexpr ____System__ArraySegment_1__Enumerator(____System__ArraySegment_1__Enumerator const&) = default;
-                    constexpr ____System__ArraySegment_1__Enumerator(____System__ArraySegment_1__Enumerator&&) = default;
-                    constexpr ____System__ArraySegment_1__Enumerator& operator=(____System__ArraySegment_1__Enumerator const& o) {
+                    constexpr System__ArraySegment_1__Enumerator(System__ArraySegment_1__Enumerator const&) = default;
+                    constexpr System__ArraySegment_1__Enumerator(System__ArraySegment_1__Enumerator&&) = default;
+                    constexpr System__ArraySegment_1__Enumerator& operator=(System__ArraySegment_1__Enumerator const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__ArraySegment_1__Enumerator& operator=(____System__ArraySegment_1__Enumerator&& o) noexcept {
+                    constexpr System__ArraySegment_1__Enumerator& operator=(System__ArraySegment_1__Enumerator&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -108,7 +107,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x20};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__ArraySegment_1__Enumerator(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__ArraySegment_1__Enumerator(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -154,7 +153,7 @@ constexpr int32_t __get__current() const;
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::ArraySegment_1<T> arraySegment) ;
+ void _ctor(System::ArraySegment_1<T> arraySegment) ;
 
 /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
  bool MoveNext() ;
@@ -180,32 +179,32 @@ namespace System {
 // cpp template
 template<>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2348)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2348))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2348), inst: 717 })
 // CS Name: System.ArraySegment`1::Enumerator
-struct CORDL_TYPE ____System__ArraySegment_1__Enumerator<uint8_t> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE System__ArraySegment_1__Enumerator<uint8_t> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<uint8_t>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<uint8_t>() const;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<uint8_t>
+constexpr operator  System::Collections::Generic::IEnumerator_1<uint8_t>() const;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const;
 
 // Ctor Parameters [CppParam { name: "_array", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "_start", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_end", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_current", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____System__ArraySegment_1__Enumerator(::ArrayW<uint8_t> _array, int32_t _start, int32_t _end, int32_t _current) noexcept;
+constexpr System__ArraySegment_1__Enumerator(::ArrayW<uint8_t> _array, int32_t _start, int32_t _end, int32_t _current) noexcept;
 
 
-                    constexpr ____System__ArraySegment_1__Enumerator(____System__ArraySegment_1__Enumerator const&) = default;
-                    constexpr ____System__ArraySegment_1__Enumerator(____System__ArraySegment_1__Enumerator&&) = default;
-                    constexpr ____System__ArraySegment_1__Enumerator& operator=(____System__ArraySegment_1__Enumerator const& o) {
+                    constexpr System__ArraySegment_1__Enumerator(System__ArraySegment_1__Enumerator const&) = default;
+                    constexpr System__ArraySegment_1__Enumerator(System__ArraySegment_1__Enumerator&&) = default;
+                    constexpr System__ArraySegment_1__Enumerator& operator=(System__ArraySegment_1__Enumerator const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__ArraySegment_1__Enumerator& operator=(____System__ArraySegment_1__Enumerator&& o) noexcept {
+                    constexpr System__ArraySegment_1__Enumerator& operator=(System__ArraySegment_1__Enumerator&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -218,7 +217,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x20};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__ArraySegment_1__Enumerator(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__ArraySegment_1__Enumerator(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -264,7 +263,7 @@ constexpr int32_t __get__current() const;
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::ArraySegment_1<uint8_t> arraySegment) ;
+ void _ctor(System::ArraySegment_1<uint8_t> arraySegment) ;
 
 /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
  bool MoveNext() ;
@@ -296,25 +295,25 @@ template<::cordl_internals::il2cpp_reference_type T>
 struct CORDL_TYPE ArraySegment_1<T> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-using Enumerator = ::System::____System__ArraySegment_1__Enumerator<T>;
+using Enumerator = System::System__ArraySegment_1__Enumerator<T>;
 
-/// @brief Convert operator to ::System::Collections::Generic::IList_1<T>
-constexpr operator  ::System::Collections::Generic::IList_1<T>() const;
+/// @brief Convert operator to System::Collections::Generic::IList_1<T>
+constexpr operator  System::Collections::Generic::IList_1<T>() const;
 
-/// @brief Convert operator to ::System::Collections::Generic::ICollection_1<T>
-constexpr operator  ::System::Collections::Generic::ICollection_1<T>() const;
+/// @brief Convert operator to System::Collections::Generic::ICollection_1<T>
+constexpr operator  System::Collections::Generic::ICollection_1<T>() const;
 
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerable_1<T>
-constexpr operator  ::System::Collections::Generic::IEnumerable_1<T>() const;
+/// @brief Convert operator to System::Collections::Generic::IEnumerable_1<T>
+constexpr operator  System::Collections::Generic::IEnumerable_1<T>() const;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const;
 
-/// @brief Convert operator to ::System::Collections::Generic::IReadOnlyList_1<T>
-constexpr operator  ::System::Collections::Generic::IReadOnlyList_1<T>() const;
+/// @brief Convert operator to System::Collections::Generic::IReadOnlyList_1<T>
+constexpr operator  System::Collections::Generic::IReadOnlyList_1<T>() const;
 
-/// @brief Convert operator to ::System::Collections::Generic::IReadOnlyCollection_1<T>
-constexpr operator  ::System::Collections::Generic::IReadOnlyCollection_1<T>() const;
+/// @brief Convert operator to System::Collections::Generic::IReadOnlyCollection_1<T>
+constexpr operator  System::Collections::Generic::IReadOnlyCollection_1<T>() const;
 
 // Ctor Parameters [CppParam { name: "_array", ty: "::ArrayW<T>", modifiers: "", def_value: None }, CppParam { name: "_offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_count", ty: "int32_t", modifiers: "", def_value: None }]
 constexpr ArraySegment_1(::ArrayW<T> _array, int32_t _offset, int32_t _count) noexcept;
@@ -350,11 +349,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
-static ::System::ArraySegment_1<T> __declspec(property(get=__get__Empty_k__BackingField, put=__set__Empty_k__BackingField))  _Empty_k__BackingField;
+static System::ArraySegment_1<T> __declspec(property(get=__get__Empty_k__BackingField, put=__set__Empty_k__BackingField))  _Empty_k__BackingField;
 
-static void __set__Empty_k__BackingField(::System::ArraySegment_1<T> value) ;
+static void __set__Empty_k__BackingField(System::ArraySegment_1<T> value) ;
 
-static ::System::ArraySegment_1<T> __get__Empty_k__BackingField() ;
+static System::ArraySegment_1<T> __get__Empty_k__BackingField() ;
 
  ::ArrayW<T> __declspec(property(get=__get__array, put=__set__array))  _array;
 
@@ -377,7 +376,7 @@ constexpr int32_t __get__count() const;
 
 // Properties
 
-static ::System::ArraySegment_1<T> __declspec(property(get=get_Empty))  Empty;
+static System::ArraySegment_1<T> __declspec(property(get=get_Empty))  Empty;
 
  ::ArrayW<T> __declspec(property(get=get_Array))  Array;
 
@@ -395,7 +394,7 @@ static ::System::ArraySegment_1<T> __declspec(property(get=get_Empty))  Empty;
 // Methods
 
 /// @brief Method get_Empty addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::ArraySegment_1<T> get_Empty() ;
+static System::ArraySegment_1<T> get_Empty() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::ArrayW<T> array) ;
@@ -413,7 +412,7 @@ static ::System::ArraySegment_1<T> get_Empty() ;
  int32_t get_Count() ;
 
 /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::____System__ArraySegment_1__Enumerator<T> GetEnumerator() ;
+ System::System__ArraySegment_1__Enumerator<T> GetEnumerator() ;
 
 /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t GetHashCode() ;
@@ -425,7 +424,7 @@ static ::System::ArraySegment_1<T> get_Empty() ;
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual false final false
- bool Equals(::System::ArraySegment_1<T> obj) ;
+ bool Equals(System::ArraySegment_1<T> obj) ;
 
 /// @brief Method System.Collections.Generic.IList<T>.get_Item addr 0x0 size 0xffffffffffffffff virtual true final true
  T System_Collections_Generic_IList_T__get_Item(int32_t index) ;
@@ -461,10 +460,10 @@ static ::System::ArraySegment_1<T> get_Empty() ;
  bool System_Collections_Generic_ICollection_T__Remove(T item) ;
 
 /// @brief Method System.Collections.Generic.IEnumerable<T>.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Collections::Generic::IEnumerator_1<T> System_Collections_Generic_IEnumerable_T__GetEnumerator() ;
+ System::Collections::Generic::IEnumerator_1<T> System_Collections_Generic_IEnumerable_T__GetEnumerator() ;
 
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
+ System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
 /// @brief Method ThrowInvalidOperationIfDefault addr 0x0 size 0xffffffffffffffff virtual false final false
  void ThrowInvalidOperationIfDefault() ;
@@ -478,31 +477,31 @@ namespace System {
 // cpp template
 template<>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2349))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2349)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2349), inst: 717 })
 // CS Name: System.ArraySegment`1
 struct CORDL_TYPE ArraySegment_1<uint8_t> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-using Enumerator = ::System::____System__ArraySegment_1__Enumerator<uint8_t>;
+using Enumerator = System::System__ArraySegment_1__Enumerator<uint8_t>;
 
-/// @brief Convert operator to ::System::Collections::Generic::IList_1<uint8_t>
-constexpr operator  ::System::Collections::Generic::IList_1<uint8_t>() const;
+/// @brief Convert operator to System::Collections::Generic::IList_1<uint8_t>
+constexpr operator  System::Collections::Generic::IList_1<uint8_t>() const;
 
-/// @brief Convert operator to ::System::Collections::Generic::ICollection_1<uint8_t>
-constexpr operator  ::System::Collections::Generic::ICollection_1<uint8_t>() const;
+/// @brief Convert operator to System::Collections::Generic::ICollection_1<uint8_t>
+constexpr operator  System::Collections::Generic::ICollection_1<uint8_t>() const;
 
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerable_1<uint8_t>
-constexpr operator  ::System::Collections::Generic::IEnumerable_1<uint8_t>() const;
+/// @brief Convert operator to System::Collections::Generic::IEnumerable_1<uint8_t>
+constexpr operator  System::Collections::Generic::IEnumerable_1<uint8_t>() const;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const;
 
-/// @brief Convert operator to ::System::Collections::Generic::IReadOnlyList_1<uint8_t>
-constexpr operator  ::System::Collections::Generic::IReadOnlyList_1<uint8_t>() const;
+/// @brief Convert operator to System::Collections::Generic::IReadOnlyList_1<uint8_t>
+constexpr operator  System::Collections::Generic::IReadOnlyList_1<uint8_t>() const;
 
-/// @brief Convert operator to ::System::Collections::Generic::IReadOnlyCollection_1<uint8_t>
-constexpr operator  ::System::Collections::Generic::IReadOnlyCollection_1<uint8_t>() const;
+/// @brief Convert operator to System::Collections::Generic::IReadOnlyCollection_1<uint8_t>
+constexpr operator  System::Collections::Generic::IReadOnlyCollection_1<uint8_t>() const;
 
 // Ctor Parameters [CppParam { name: "_array", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "_offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_count", ty: "int32_t", modifiers: "", def_value: None }]
 constexpr ArraySegment_1(::ArrayW<uint8_t> _array, int32_t _offset, int32_t _count) noexcept;
@@ -538,11 +537,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
-static ::System::ArraySegment_1<uint8_t> __declspec(property(get=__get__Empty_k__BackingField, put=__set__Empty_k__BackingField))  _Empty_k__BackingField;
+static System::ArraySegment_1<uint8_t> __declspec(property(get=__get__Empty_k__BackingField, put=__set__Empty_k__BackingField))  _Empty_k__BackingField;
 
-static void __set__Empty_k__BackingField(::System::ArraySegment_1<uint8_t> value) ;
+static void __set__Empty_k__BackingField(System::ArraySegment_1<uint8_t> value) ;
 
-static ::System::ArraySegment_1<uint8_t> __get__Empty_k__BackingField() ;
+static System::ArraySegment_1<uint8_t> __get__Empty_k__BackingField() ;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get__array, put=__set__array))  _array;
 
@@ -565,7 +564,7 @@ constexpr int32_t __get__count() const;
 
 // Properties
 
-static ::System::ArraySegment_1<uint8_t> __declspec(property(get=get_Empty))  Empty;
+static System::ArraySegment_1<uint8_t> __declspec(property(get=get_Empty))  Empty;
 
  ::ArrayW<uint8_t> __declspec(property(get=get_Array))  Array;
 
@@ -583,7 +582,7 @@ static ::System::ArraySegment_1<uint8_t> __declspec(property(get=get_Empty))  Em
 // Methods
 
 /// @brief Method get_Empty addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::ArraySegment_1<uint8_t> get_Empty() ;
+static System::ArraySegment_1<uint8_t> get_Empty() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::ArrayW<uint8_t> array) ;
@@ -601,7 +600,7 @@ static ::System::ArraySegment_1<uint8_t> get_Empty() ;
  int32_t get_Count() ;
 
 /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::____System__ArraySegment_1__Enumerator<uint8_t> GetEnumerator() ;
+ System::System__ArraySegment_1__Enumerator<uint8_t> GetEnumerator() ;
 
 /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t GetHashCode() ;
@@ -613,7 +612,7 @@ static ::System::ArraySegment_1<uint8_t> get_Empty() ;
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual false final false
- bool Equals(::System::ArraySegment_1<uint8_t> obj) ;
+ bool Equals(System::ArraySegment_1<uint8_t> obj) ;
 
 /// @brief Method System.Collections.Generic.IList<T>.get_Item addr 0x0 size 0xffffffffffffffff virtual true final true
  uint8_t System_Collections_Generic_IList_T__get_Item(int32_t index) ;
@@ -649,10 +648,10 @@ static ::System::ArraySegment_1<uint8_t> get_Empty() ;
  bool System_Collections_Generic_ICollection_T__Remove(uint8_t item) ;
 
 /// @brief Method System.Collections.Generic.IEnumerable<T>.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Collections::Generic::IEnumerator_1<uint8_t> System_Collections_Generic_IEnumerable_T__GetEnumerator() ;
+ System::Collections::Generic::IEnumerator_1<uint8_t> System_Collections_Generic_IEnumerable_T__GetEnumerator() ;
 
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
+ System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
 /// @brief Method ThrowInvalidOperationIfDefault addr 0x0 size 0xffffffffffffffff virtual false final false
  void ThrowInvalidOperationIfDefault() ;
@@ -661,6 +660,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::ArraySegment_1, "System", "ArraySegment`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::____System__ArraySegment_1__Enumerator, "System", "ArraySegment`1/Enumerator");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::ArraySegment_1, "System", "ArraySegment`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::System__ArraySegment_1__Enumerator, "System", "ArraySegment`1/Enumerator");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Mono::Globalization::Unicode {
 class TailoringInfo;
@@ -86,6 +85,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Globalization::Unicode
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Globalization::Unicode::TailoringInfo);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Globalization::Unicode::TailoringInfo, "Mono.Globalization.Unicode", "TailoringInfo");
+NEED_NO_BOX(Mono::Globalization::Unicode::TailoringInfo);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::TailoringInfo, "Mono.Globalization.Unicode", "TailoringInfo");

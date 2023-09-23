@@ -4,20 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-struct OVRPose;
-}
-namespace GlobalNamespace {
-class OVRCameraRig;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace System {
-template<typename T>
-struct Nullable_1;
-}
 namespace System {
 class Action;
 }
@@ -31,6 +17,19 @@ namespace System {
 template<typename T>
 class Action_1;
 }
+namespace GlobalNamespace {
+class OVRCameraRig;
+}
+namespace System {
+template<typename T>
+struct Nullable_1;
+}
+namespace GlobalNamespace {
+struct OVRPose;
+}
+namespace UnityEngine {
+class Transform;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class OVRPlayerController;
@@ -41,7 +40,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8943))
 // CS Name: OVRPlayerController
-class CORDL_TYPE OVRPlayerController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OVRPlayerController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -56,7 +55,7 @@ constexpr OVRPlayerController(OVRPlayerController const& ) noexcept = default;
 constexpr OVRPlayerController(OVRPlayerController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OVRPlayerController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OVRPlayerController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -161,11 +160,11 @@ constexpr void __set_CameraHeight(float_t value) ;
 
 constexpr float_t __get_CameraHeight() const;
 
- ::System::Action_1<::UnityEngine::Transform> __declspec(property(get=__get_TransformUpdated, put=__set_TransformUpdated))  TransformUpdated;
+ System::Action_1<UnityEngine::Transform> __declspec(property(get=__get_TransformUpdated, put=__set_TransformUpdated))  TransformUpdated;
 
-constexpr void __set_TransformUpdated(::System::Action_1<::UnityEngine::Transform> value) ;
+constexpr void __set_TransformUpdated(System::Action_1<UnityEngine::Transform> value) ;
 
-constexpr ::System::Action_1<::UnityEngine::Transform> __get_TransformUpdated() const;
+constexpr System::Action_1<UnityEngine::Transform> __get_TransformUpdated() const;
 
  bool __declspec(property(get=__get_Teleported, put=__set_Teleported))  Teleported;
 
@@ -173,17 +172,17 @@ constexpr void __set_Teleported(bool value) ;
 
 constexpr bool __get_Teleported() const;
 
- ::System::Action __declspec(property(get=__get_CameraUpdated, put=__set_CameraUpdated))  CameraUpdated;
+ System::Action __declspec(property(get=__get_CameraUpdated, put=__set_CameraUpdated))  CameraUpdated;
 
-constexpr void __set_CameraUpdated(::System::Action value) ;
+constexpr void __set_CameraUpdated(System::Action value) ;
 
-constexpr ::System::Action __get_CameraUpdated() const;
+constexpr System::Action __get_CameraUpdated() const;
 
- ::System::Action __declspec(property(get=__get_PreCharacterMove, put=__set_PreCharacterMove))  PreCharacterMove;
+ System::Action __declspec(property(get=__get_PreCharacterMove, put=__set_PreCharacterMove))  PreCharacterMove;
 
-constexpr void __set_PreCharacterMove(::System::Action value) ;
+constexpr void __set_PreCharacterMove(System::Action value) ;
 
-constexpr ::System::Action __get_PreCharacterMove() const;
+constexpr System::Action __get_PreCharacterMove() const;
 
  bool __declspec(property(get=__get_EnableLinearMovement, put=__set_EnableLinearMovement))  EnableLinearMovement;
 
@@ -203,17 +202,17 @@ constexpr void __set_RotationEitherThumbstick(bool value) ;
 
 constexpr bool __get_RotationEitherThumbstick() const;
 
- ::UnityEngine::CharacterController __declspec(property(get=__get_Controller, put=__set_Controller))  Controller;
+ UnityEngine::CharacterController __declspec(property(get=__get_Controller, put=__set_Controller))  Controller;
 
-constexpr void __set_Controller(::UnityEngine::CharacterController value) ;
+constexpr void __set_Controller(UnityEngine::CharacterController value) ;
 
-constexpr ::UnityEngine::CharacterController __get_Controller() const;
+constexpr UnityEngine::CharacterController __get_Controller() const;
 
- ::GlobalNamespace::OVRCameraRig __declspec(property(get=__get_CameraRig, put=__set_CameraRig))  CameraRig;
+ GlobalNamespace::OVRCameraRig __declspec(property(get=__get_CameraRig, put=__set_CameraRig))  CameraRig;
 
-constexpr void __set_CameraRig(::GlobalNamespace::OVRCameraRig value) ;
+constexpr void __set_CameraRig(GlobalNamespace::OVRCameraRig value) ;
 
-constexpr ::GlobalNamespace::OVRCameraRig __get_CameraRig() const;
+constexpr GlobalNamespace::OVRCameraRig __get_CameraRig() const;
 
  float_t __declspec(property(get=__get_MoveScale, put=__set_MoveScale))  MoveScale;
 
@@ -221,11 +220,11 @@ constexpr void __set_MoveScale(float_t value) ;
 
 constexpr float_t __get_MoveScale() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_MoveThrottle, put=__set_MoveThrottle))  MoveThrottle;
+ UnityEngine::Vector3 __declspec(property(get=__get_MoveThrottle, put=__set_MoveThrottle))  MoveThrottle;
 
-constexpr void __set_MoveThrottle(::UnityEngine::Vector3 value) ;
+constexpr void __set_MoveThrottle(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_MoveThrottle() const;
+constexpr UnityEngine::Vector3 __get_MoveThrottle() const;
 
  float_t __declspec(property(get=__get_FallSpeed, put=__set_FallSpeed))  FallSpeed;
 
@@ -233,11 +232,11 @@ constexpr void __set_FallSpeed(float_t value) ;
 
 constexpr float_t __get_FallSpeed() const;
 
- ::System::Nullable_1<::GlobalNamespace::OVRPose> __declspec(property(get=__get_InitialPose, put=__set_InitialPose))  InitialPose;
+ System::Nullable_1<GlobalNamespace::OVRPose> __declspec(property(get=__get_InitialPose, put=__set_InitialPose))  InitialPose;
 
-constexpr void __set_InitialPose(::System::Nullable_1<::GlobalNamespace::OVRPose> value) ;
+constexpr void __set_InitialPose(System::Nullable_1<GlobalNamespace::OVRPose> value) ;
 
-constexpr ::System::Nullable_1<::GlobalNamespace::OVRPose> __get_InitialPose() const;
+constexpr System::Nullable_1<GlobalNamespace::OVRPose> __get_InitialPose() const;
 
  float_t __declspec(property(get=__get__InitialYRotation_k__BackingField, put=__set__InitialYRotation_k__BackingField))  _InitialYRotation_k__BackingField;
 
@@ -314,22 +313,22 @@ constexpr bool __get_playerControllerEnabled() const;
 // Methods
 
 /// @brief Method add_TransformUpdated addr 0x262b890 size 0xb0 virtual false final false
- void add_TransformUpdated(::System::Action_1<::UnityEngine::Transform> value) ;
+ void add_TransformUpdated(System::Action_1<UnityEngine::Transform> value) ;
 
 /// @brief Method remove_TransformUpdated addr 0x262b940 size 0xb0 virtual false final false
- void remove_TransformUpdated(::System::Action_1<::UnityEngine::Transform> value) ;
+ void remove_TransformUpdated(System::Action_1<UnityEngine::Transform> value) ;
 
 /// @brief Method add_CameraUpdated addr 0x262b9f0 size 0x9c virtual false final false
- void add_CameraUpdated(::System::Action value) ;
+ void add_CameraUpdated(System::Action value) ;
 
 /// @brief Method remove_CameraUpdated addr 0x262ba8c size 0x9c virtual false final false
- void remove_CameraUpdated(::System::Action value) ;
+ void remove_CameraUpdated(System::Action value) ;
 
 /// @brief Method add_PreCharacterMove addr 0x262bb28 size 0x9c virtual false final false
- void add_PreCharacterMove(::System::Action value) ;
+ void add_PreCharacterMove(System::Action value) ;
 
 /// @brief Method remove_PreCharacterMove addr 0x262bbc4 size 0x9c virtual false final false
- void remove_PreCharacterMove(::System::Action value) ;
+ void remove_PreCharacterMove(System::Action value) ;
 
 /// @brief Method get_InitialYRotation addr 0x262bc60 size 0x8 virtual false final false
  float_t get_InitialYRotation() ;
@@ -359,7 +358,7 @@ constexpr bool __get_playerControllerEnabled() const;
  void UpdateMovement() ;
 
 /// @brief Method UpdateTransform addr 0x262d61c size 0x188 virtual false final false
- void UpdateTransform(::GlobalNamespace::OVRCameraRig rig) ;
+ void UpdateTransform(GlobalNamespace::OVRCameraRig rig) ;
 
 /// @brief Method Jump addr 0x262d7a4 size 0x80 virtual false final false
  bool Jump() ;
@@ -404,6 +403,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OVRPlayerController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlayerController, "", "OVRPlayerController");
+NEED_NO_BOX(GlobalNamespace::OVRPlayerController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlayerController, "", "OVRPlayerController");

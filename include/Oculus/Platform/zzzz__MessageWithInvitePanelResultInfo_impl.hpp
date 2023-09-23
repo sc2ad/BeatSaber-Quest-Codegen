@@ -1,18 +1,17 @@
 #pragma once
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
-namespace {
 #include "Oculus/Platform/zzzz__MessageWithInvitePanelResultInfo_def.hpp"
 #include "Oculus/Platform/Models/zzzz__InvitePanelResultInfo_def.hpp"
-//  Writing Method size for method: ::Oculus::Platform::MessageWithInvitePanelResultInfo._ctor
+//  Writing Method size for method: Oculus::Platform::MessageWithInvitePanelResultInfo._ctor
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithInvitePanelResultInfo::*)(::cordl_internals::intptr_t)>(&::Oculus::Platform::MessageWithInvitePanelResultInfo::_ctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithInvitePanelResultInfo::*)(::cordl_internals::intptr_t)>(&Oculus::Platform::MessageWithInvitePanelResultInfo::_ctor)> {
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x257e740;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithInvitePanelResultInfo>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::MessageWithInvitePanelResultInfo>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
@@ -20,67 +19,66 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Ocu
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Oculus::Platform::MessageWithInvitePanelResultInfo.GetInvitePanelResultInfo
+//  Writing Method size for method: Oculus::Platform::MessageWithInvitePanelResultInfo.GetInvitePanelResultInfo
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::InvitePanelResultInfo (::Oculus::Platform::MessageWithInvitePanelResultInfo::*)()>(&::Oculus::Platform::MessageWithInvitePanelResultInfo::GetInvitePanelResultInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::InvitePanelResultInfo (Oculus::Platform::MessageWithInvitePanelResultInfo::*)()>(&Oculus::Platform::MessageWithInvitePanelResultInfo::GetInvitePanelResultInfo)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x25815b0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(::Oculus::Platform::MessageWithInvitePanelResultInfo),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithInvitePanelResultInfo>::get(),
+                                classof(Oculus::Platform::MessageWithInvitePanelResultInfo),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::MessageWithInvitePanelResultInfo>::get(),
                                   39
                                 ));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Oculus::Platform::MessageWithInvitePanelResultInfo.GetDataFromMessage
+//  Writing Method size for method: Oculus::Platform::MessageWithInvitePanelResultInfo.GetDataFromMessage
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::InvitePanelResultInfo (::Oculus::Platform::MessageWithInvitePanelResultInfo::*)(::cordl_internals::intptr_t)>(&::Oculus::Platform::MessageWithInvitePanelResultInfo::GetDataFromMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::InvitePanelResultInfo (Oculus::Platform::MessageWithInvitePanelResultInfo::*)(::cordl_internals::intptr_t)>(&Oculus::Platform::MessageWithInvitePanelResultInfo::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x25815ec;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(::Oculus::Platform::MessageWithInvitePanelResultInfo),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithInvitePanelResultInfo>::get(),
+                                classof(Oculus::Platform::MessageWithInvitePanelResultInfo),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::MessageWithInvitePanelResultInfo>::get(),
                                   89
                                 ));
     return ___internal_method;
   }
 };
 // Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- ::Oculus::Platform::MessageWithInvitePanelResultInfo::MessageWithInvitePanelResultInfo(::cordl_internals::intptr_t c_message)  : ::Oculus::Platform::Message_1<::Oculus::Platform::Models::InvitePanelResultInfo>(THROW_UNLESS(::il2cpp_utils::New<MessageWithInvitePanelResultInfo>(c_message))) {}
- void ::Oculus::Platform::MessageWithInvitePanelResultInfo::_ctor(::cordl_internals::intptr_t c_message)  {
+ Oculus::Platform::MessageWithInvitePanelResultInfo::MessageWithInvitePanelResultInfo(::cordl_internals::intptr_t c_message)  : Oculus::Platform::Message_1<Oculus::Platform::Models::InvitePanelResultInfo>(THROW_UNLESS(::il2cpp_utils::New<MessageWithInvitePanelResultInfo>(c_message))) {}
+ void Oculus::Platform::MessageWithInvitePanelResultInfo::_ctor(::cordl_internals::intptr_t c_message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithInvitePanelResultInfo>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::MessageWithInvitePanelResultInfo>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, c_message);
 }
- ::Oculus::Platform::Models::InvitePanelResultInfo ::Oculus::Platform::MessageWithInvitePanelResultInfo::GetInvitePanelResultInfo()  {
+ Oculus::Platform::Models::InvitePanelResultInfo Oculus::Platform::MessageWithInvitePanelResultInfo::GetInvitePanelResultInfo()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithInvitePanelResultInfo>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::MessageWithInvitePanelResultInfo>::get(),
                             "GetInvitePanelResultInfo",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
-return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Models::InvitePanelResultInfo, false>(const_cast<void*>(instance), ___internal_method);
+return ::cordl_internals::RunMethodRethrow<Oculus::Platform::Models::InvitePanelResultInfo, false>(const_cast<void*>(instance), ___internal_method);
 }
- ::Oculus::Platform::Models::InvitePanelResultInfo ::Oculus::Platform::MessageWithInvitePanelResultInfo::GetDataFromMessage(::cordl_internals::intptr_t c_message)  {
+ Oculus::Platform::Models::InvitePanelResultInfo Oculus::Platform::MessageWithInvitePanelResultInfo::GetDataFromMessage(::cordl_internals::intptr_t c_message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithInvitePanelResultInfo>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::MessageWithInvitePanelResultInfo>::get(),
                             "GetDataFromMessage",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Models::InvitePanelResultInfo, false>(const_cast<void*>(instance), ___internal_method, c_message);
+return ::cordl_internals::RunMethodRethrow<Oculus::Platform::Models::InvitePanelResultInfo, false>(const_cast<void*>(instance), ___internal_method, c_message);
 }
-} // end anonymous namespace

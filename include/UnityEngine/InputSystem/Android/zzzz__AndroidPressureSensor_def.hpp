@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/zzzz__PressureSensor_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem::Android {
 class AndroidPressureSensor;
@@ -12,7 +11,7 @@ namespace UnityEngine::InputSystem::Android {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6365))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6519))
 // CS Name: UnityEngine.InputSystem.Android.AndroidPressureSensor
-class CORDL_TYPE AndroidPressureSensor : public ::UnityEngine::InputSystem::PressureSensor {
+class CORDL_TYPE AndroidPressureSensor : public UnityEngine::InputSystem::PressureSensor {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr AndroidPressureSensor(AndroidPressureSensor const& ) noexcept = defaul
 constexpr AndroidPressureSensor(AndroidPressureSensor&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AndroidPressureSensor(void* ptr) noexcept : ::UnityEngine::InputSystem::PressureSensor(ptr) {
+constexpr explicit AndroidPressureSensor(void* ptr) noexcept : UnityEngine::InputSystem::PressureSensor(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Android
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Android::AndroidPressureSensor);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Android::AndroidPressureSensor, "UnityEngine.InputSystem.Android", "AndroidPressureSensor");
+NEED_NO_BOX(UnityEngine::InputSystem::Android::AndroidPressureSensor);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Android::AndroidPressureSensor, "UnityEngine.InputSystem.Android", "AndroidPressureSensor");

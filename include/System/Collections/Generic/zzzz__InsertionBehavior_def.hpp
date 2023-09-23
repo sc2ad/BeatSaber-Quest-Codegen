@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Collections::Generic {
 struct InsertionBehavior;
@@ -68,17 +67,16 @@ constexpr void __set_value__(uint8_t value) ;
 constexpr uint8_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::Collections::Generic::InsertionBehavior const None;
+static System::Collections::Generic::InsertionBehavior const None;
 
 /// @brief Field OverwriteExisting offset 0
-static ::System::Collections::Generic::InsertionBehavior const OverwriteExisting;
+static System::Collections::Generic::InsertionBehavior const OverwriteExisting;
 
 /// @brief Field ThrowOnExisting offset 0
-static ::System::Collections::Generic::InsertionBehavior const ThrowOnExisting;
+static System::Collections::Generic::InsertionBehavior const ThrowOnExisting;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Collections::Generic
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Generic::InsertionBehavior, "System.Collections.Generic", "InsertionBehavior");
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::InsertionBehavior, "System.Collections.Generic", "InsertionBehavior");

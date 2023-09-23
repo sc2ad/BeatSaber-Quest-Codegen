@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 struct SongSelectionMode;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Vote offset 0
-static ::GlobalNamespace::SongSelectionMode const Vote;
+static GlobalNamespace::SongSelectionMode const Vote;
 
 /// @brief Field Random offset 0
-static ::GlobalNamespace::SongSelectionMode const Random;
+static GlobalNamespace::SongSelectionMode const Random;
 
 /// @brief Field OwnerPicks offset 0
-static ::GlobalNamespace::SongSelectionMode const OwnerPicks;
+static GlobalNamespace::SongSelectionMode const OwnerPicks;
 
 /// @brief Field RandomPlayerPicks offset 0
-static ::GlobalNamespace::SongSelectionMode const RandomPlayerPicks;
+static GlobalNamespace::SongSelectionMode const RandomPlayerPicks;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SongSelectionMode, "", "SongSelectionMode");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongSelectionMode, "", "SongSelectionMode");

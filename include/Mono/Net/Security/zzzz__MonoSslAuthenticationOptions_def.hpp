@@ -2,21 +2,20 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
-}
-namespace System::Security::Authentication {
-struct SslProtocols;
-}
-namespace System::Net::Security {
-struct EncryptionPolicy;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateCollection;
 }
 namespace System::Net::Security {
 class ServerCertSelectionCallback;
+}
+namespace System::Security::Authentication {
+struct SslProtocols;
+}
+namespace System::Net::Security {
+struct EncryptionPolicy;
 }
 namespace System::Security::Cryptography::X509Certificates {
 struct X509RevocationMode;
@@ -67,32 +66,32 @@ constexpr explicit MonoSslAuthenticationOptions(void* ptr) noexcept : ::bs_hook:
 
 // Fields
 
- ::System::Net::Security::ServerCertSelectionCallback __declspec(property(get=__get__ServerCertSelectionDelegate_k__BackingField, put=__set__ServerCertSelectionDelegate_k__BackingField))  _ServerCertSelectionDelegate_k__BackingField;
+ System::Net::Security::ServerCertSelectionCallback __declspec(property(get=__get__ServerCertSelectionDelegate_k__BackingField, put=__set__ServerCertSelectionDelegate_k__BackingField))  _ServerCertSelectionDelegate_k__BackingField;
 
-constexpr void __set__ServerCertSelectionDelegate_k__BackingField(::System::Net::Security::ServerCertSelectionCallback value) ;
+constexpr void __set__ServerCertSelectionDelegate_k__BackingField(System::Net::Security::ServerCertSelectionCallback value) ;
 
-constexpr ::System::Net::Security::ServerCertSelectionCallback __get__ServerCertSelectionDelegate_k__BackingField() const;
+constexpr System::Net::Security::ServerCertSelectionCallback __get__ServerCertSelectionDelegate_k__BackingField() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_ServerMode))  ServerMode;
 
- ::System::Security::Authentication::SslProtocols __declspec(property(get=get_EnabledSslProtocols, put=set_EnabledSslProtocols))  EnabledSslProtocols;
+ System::Security::Authentication::SslProtocols __declspec(property(get=get_EnabledSslProtocols, put=set_EnabledSslProtocols))  EnabledSslProtocols;
 
- ::System::Net::Security::EncryptionPolicy __declspec(property(put=set_EncryptionPolicy))  EncryptionPolicy;
+ System::Net::Security::EncryptionPolicy __declspec(property(put=set_EncryptionPolicy))  EncryptionPolicy;
 
- ::System::Security::Cryptography::X509Certificates::X509RevocationMode __declspec(property(put=set_CertificateRevocationCheckMode))  CertificateRevocationCheckMode;
+ System::Security::Cryptography::X509Certificates::X509RevocationMode __declspec(property(put=set_CertificateRevocationCheckMode))  CertificateRevocationCheckMode;
 
  ::StringW __declspec(property(get=get_TargetHost, put=set_TargetHost))  TargetHost;
 
- ::System::Security::Cryptography::X509Certificates::X509Certificate __declspec(property(get=get_ServerCertificate, put=set_ServerCertificate))  ServerCertificate;
+ System::Security::Cryptography::X509Certificates::X509Certificate __declspec(property(get=get_ServerCertificate, put=set_ServerCertificate))  ServerCertificate;
 
- ::System::Security::Cryptography::X509Certificates::X509CertificateCollection __declspec(property(get=get_ClientCertificates, put=set_ClientCertificates))  ClientCertificates;
+ System::Security::Cryptography::X509Certificates::X509CertificateCollection __declspec(property(get=get_ClientCertificates, put=set_ClientCertificates))  ClientCertificates;
 
  bool __declspec(property(get=get_ClientCertificateRequired, put=set_ClientCertificateRequired))  ClientCertificateRequired;
 
- ::System::Net::Security::ServerCertSelectionCallback __declspec(property(get=get_ServerCertSelectionDelegate))  ServerCertSelectionDelegate;
+ System::Net::Security::ServerCertSelectionCallback __declspec(property(get=get_ServerCertSelectionDelegate))  ServerCertSelectionDelegate;
 
 
 // Methods
@@ -101,16 +100,16 @@ constexpr ::System::Net::Security::ServerCertSelectionCallback __get__ServerCert
  bool get_ServerMode() ;
 
 /// @brief Method get_EnabledSslProtocols addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Security::Authentication::SslProtocols get_EnabledSslProtocols() ;
+ System::Security::Authentication::SslProtocols get_EnabledSslProtocols() ;
 
 /// @brief Method set_EnabledSslProtocols addr 0x0 size 0xffffffffffffffff virtual true final false
- void set_EnabledSslProtocols(::System::Security::Authentication::SslProtocols value) ;
+ void set_EnabledSslProtocols(System::Security::Authentication::SslProtocols value) ;
 
 /// @brief Method set_EncryptionPolicy addr 0x0 size 0xffffffffffffffff virtual true final false
- void set_EncryptionPolicy(::System::Net::Security::EncryptionPolicy value) ;
+ void set_EncryptionPolicy(System::Net::Security::EncryptionPolicy value) ;
 
 /// @brief Method set_CertificateRevocationCheckMode addr 0x0 size 0xffffffffffffffff virtual true final false
- void set_CertificateRevocationCheckMode(::System::Security::Cryptography::X509Certificates::X509RevocationMode value) ;
+ void set_CertificateRevocationCheckMode(System::Security::Cryptography::X509Certificates::X509RevocationMode value) ;
 
 /// @brief Method get_TargetHost addr 0x0 size 0xffffffffffffffff virtual true final false
  ::StringW get_TargetHost() ;
@@ -119,16 +118,16 @@ constexpr ::System::Net::Security::ServerCertSelectionCallback __get__ServerCert
  void set_TargetHost(::StringW value) ;
 
 /// @brief Method get_ServerCertificate addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Security::Cryptography::X509Certificates::X509Certificate get_ServerCertificate() ;
+ System::Security::Cryptography::X509Certificates::X509Certificate get_ServerCertificate() ;
 
 /// @brief Method set_ServerCertificate addr 0x0 size 0xffffffffffffffff virtual true final false
- void set_ServerCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate value) ;
+ void set_ServerCertificate(System::Security::Cryptography::X509Certificates::X509Certificate value) ;
 
 /// @brief Method get_ClientCertificates addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Security::Cryptography::X509Certificates::X509CertificateCollection get_ClientCertificates() ;
+ System::Security::Cryptography::X509Certificates::X509CertificateCollection get_ClientCertificates() ;
 
 /// @brief Method set_ClientCertificates addr 0x0 size 0xffffffffffffffff virtual true final false
- void set_ClientCertificates(::System::Security::Cryptography::X509Certificates::X509CertificateCollection value) ;
+ void set_ClientCertificates(System::Security::Cryptography::X509Certificates::X509CertificateCollection value) ;
 
 /// @brief Method get_ClientCertificateRequired addr 0x0 size 0xffffffffffffffff virtual true final false
  bool get_ClientCertificateRequired() ;
@@ -137,7 +136,7 @@ constexpr ::System::Net::Security::ServerCertSelectionCallback __get__ServerCert
  void set_ClientCertificateRequired(bool value) ;
 
 /// @brief Method get_ServerCertSelectionDelegate addr 0x269262c size 0x8 virtual false final false
- ::System::Net::Security::ServerCertSelectionCallback get_ServerCertSelectionDelegate() ;
+ System::Net::Security::ServerCertSelectionCallback get_ServerCertSelectionDelegate() ;
 
 // Ctor Parameters []
 explicit MonoSslAuthenticationOptions() ;
@@ -149,6 +148,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Net::Security
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Net::Security::MonoSslAuthenticationOptions);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Net::Security::MonoSslAuthenticationOptions, "Mono.Net.Security", "MonoSslAuthenticationOptions");
+NEED_NO_BOX(Mono::Net::Security::MonoSslAuthenticationOptions);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MonoSslAuthenticationOptions, "Mono.Net.Security", "MonoSslAuthenticationOptions");

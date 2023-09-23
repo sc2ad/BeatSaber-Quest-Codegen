@@ -2,13 +2,12 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardTableView_def.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__LocalLeaderboardsModel__ScoreData;
+class GlobalNamespace__LocalLeaderboardsModel__ScoreData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,7 +19,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5876))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5882))
 // CS Name: LocalLeaderboardTableView
-class CORDL_TYPE LocalLeaderboardTableView : public ::GlobalNamespace::LeaderboardTableView {
+class CORDL_TYPE LocalLeaderboardTableView : public GlobalNamespace::LeaderboardTableView {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr LocalLeaderboardTableView(LocalLeaderboardTableView const& ) noexcept 
 constexpr LocalLeaderboardTableView(LocalLeaderboardTableView&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LocalLeaderboardTableView(void* ptr) noexcept : ::GlobalNamespace::LeaderboardTableView(ptr) {
+constexpr explicit LocalLeaderboardTableView(void* ptr) noexcept : GlobalNamespace::LeaderboardTableView(ptr) {
 }
 
 
@@ -57,7 +56,7 @@ constexpr explicit LocalLeaderboardTableView(void* ptr) noexcept : ::GlobalNames
 // Methods
 
 /// @brief Method SetScores addr 0x218c470 size 0x28c virtual false final false
- void SetScores(::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__LocalLeaderboardsModel__ScoreData> scores, int32_t specialScorePos, int32_t maxNumberOfCells) ;
+ void SetScores(System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__ScoreData> scores, int32_t specialScorePos, int32_t maxNumberOfCells) ;
 
 // Ctor Parameters []
 explicit LocalLeaderboardTableView() ;
@@ -69,6 +68,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LocalLeaderboardTableView);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LocalLeaderboardTableView, "", "LocalLeaderboardTableView");
+NEED_NO_BOX(GlobalNamespace::LocalLeaderboardTableView);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalLeaderboardTableView, "", "LocalLeaderboardTableView");

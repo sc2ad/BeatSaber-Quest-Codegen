@@ -2,21 +2,20 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseVisualTreeUpdater_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace UnityEngine::UIElements {
 class BaseVisualElementPanel;
+}
+namespace Unity::Profiling {
+struct ProfilerMarker;
+}
+namespace UnityEngine::UIElements {
+struct HierarchyChangeType;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
 struct VersionChangeType;
-}
-namespace UnityEngine::UIElements {
-struct HierarchyChangeType;
-}
-namespace Unity::Profiling {
-struct ProfilerMarker;
 }
 namespace UnityEngine::UIElements::UIR {
 class RenderChain;
@@ -31,7 +30,7 @@ namespace UnityEngine::UIElements {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6838))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7426))
 // CS Name: UnityEngine.UIElements.UIRRepaintUpdater
-class CORDL_TYPE UIRRepaintUpdater : public ::UnityEngine::UIElements::BaseVisualTreeUpdater {
+class CORDL_TYPE UIRRepaintUpdater : public UnityEngine::UIElements::BaseVisualTreeUpdater {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -46,7 +45,7 @@ constexpr UIRRepaintUpdater(UIRRepaintUpdater const& ) noexcept = default;
 constexpr UIRRepaintUpdater(UIRRepaintUpdater&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UIRRepaintUpdater(void* ptr) noexcept : ::UnityEngine::UIElements::BaseVisualTreeUpdater(ptr) {
+constexpr explicit UIRRepaintUpdater(void* ptr) noexcept : UnityEngine::UIElements::BaseVisualTreeUpdater(ptr) {
 }
 
 
@@ -67,17 +66,17 @@ constexpr explicit UIRRepaintUpdater(void* ptr) noexcept : ::UnityEngine::UIElem
 
 // Fields
 
- ::UnityEngine::UIElements::BaseVisualElementPanel __declspec(property(get=__get_attachedPanel, put=__set_attachedPanel))  attachedPanel;
+ UnityEngine::UIElements::BaseVisualElementPanel __declspec(property(get=__get_attachedPanel, put=__set_attachedPanel))  attachedPanel;
 
-constexpr void __set_attachedPanel(::UnityEngine::UIElements::BaseVisualElementPanel value) ;
+constexpr void __set_attachedPanel(UnityEngine::UIElements::BaseVisualElementPanel value) ;
 
-constexpr ::UnityEngine::UIElements::BaseVisualElementPanel __get_attachedPanel() const;
+constexpr UnityEngine::UIElements::BaseVisualElementPanel __get_attachedPanel() const;
 
- ::UnityEngine::UIElements::UIR::RenderChain __declspec(property(get=__get_renderChain, put=__set_renderChain))  renderChain;
+ UnityEngine::UIElements::UIR::RenderChain __declspec(property(get=__get_renderChain, put=__set_renderChain))  renderChain;
 
-constexpr void __set_renderChain(::UnityEngine::UIElements::UIR::RenderChain value) ;
+constexpr void __set_renderChain(UnityEngine::UIElements::UIR::RenderChain value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::RenderChain __get_renderChain() const;
+constexpr UnityEngine::UIElements::UIR::RenderChain __get_renderChain() const;
 
 static ::StringW __declspec(property(get=__get_s_Description, put=__set_s_Description))  s_Description;
 
@@ -85,11 +84,11 @@ static void __set_s_Description(::StringW value) ;
 
 static ::StringW __get_s_Description() ;
 
-static ::Unity::Profiling::ProfilerMarker __declspec(property(get=__get_s_ProfilerMarker, put=__set_s_ProfilerMarker))  s_ProfilerMarker;
+static Unity::Profiling::ProfilerMarker __declspec(property(get=__get_s_ProfilerMarker, put=__set_s_ProfilerMarker))  s_ProfilerMarker;
 
-static void __set_s_ProfilerMarker(::Unity::Profiling::ProfilerMarker value) ;
+static void __set_s_ProfilerMarker(Unity::Profiling::ProfilerMarker value) ;
 
-static ::Unity::Profiling::ProfilerMarker __get_s_ProfilerMarker() ;
+static Unity::Profiling::ProfilerMarker __get_s_ProfilerMarker() ;
 
  bool __declspec(property(get=__get__drawStats_k__BackingField, put=__set__drawStats_k__BackingField))  _drawStats_k__BackingField;
 
@@ -112,7 +111,7 @@ constexpr bool __get__disposed_k__BackingField() const;
 
 // Properties
 
- ::Unity::Profiling::ProfilerMarker __declspec(property(get=get_profilerMarker))  profilerMarker;
+ Unity::Profiling::ProfilerMarker __declspec(property(get=get_profilerMarker))  profilerMarker;
 
  bool __declspec(property(get=get_drawStats))  drawStats;
 
@@ -130,7 +129,7 @@ explicit UIRRepaintUpdater() ;
  void _ctor() ;
 
 /// @brief Method get_profilerMarker addr 0x2d002c0 size 0x58 virtual true final false
- ::Unity::Profiling::ProfilerMarker get_profilerMarker() ;
+ Unity::Profiling::ProfilerMarker get_profilerMarker() ;
 
 /// @brief Method get_drawStats addr 0x2d00318 size 0x8 virtual false final false
  bool get_drawStats() ;
@@ -139,19 +138,19 @@ explicit UIRRepaintUpdater() ;
  bool get_breakBatches() ;
 
 /// @brief Method OnVersionChanged addr 0x2d00328 size 0xf8 virtual true final false
- void OnVersionChanged(::UnityEngine::UIElements::VisualElement ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType) ;
+ void OnVersionChanged(UnityEngine::UIElements::VisualElement ve, UnityEngine::UIElements::VersionChangeType versionChangeType) ;
 
 /// @brief Method Update addr 0x2d00420 size 0xbc virtual true final false
  void Update() ;
 
 /// @brief Method CreateRenderChain addr 0x2d00598 size 0x78 virtual true final false
- ::UnityEngine::UIElements::UIR::RenderChain CreateRenderChain() ;
+ UnityEngine::UIElements::UIR::RenderChain CreateRenderChain() ;
 
 /// @brief Method OnGraphicsResourcesRecreate addr 0x2d0071c size 0x1d0 virtual false final false
 static void OnGraphicsResourcesRecreate(bool recreate) ;
 
 /// @brief Method OnPanelChanged addr 0x2d0093c size 0x18 virtual false final false
- void OnPanelChanged(::UnityEngine::UIElements::BaseVisualElementPanel obj) ;
+ void OnPanelChanged(UnityEngine::UIElements::BaseVisualElementPanel obj) ;
 
 /// @brief Method AttachToPanel addr 0x2d00af8 size 0x1f4 virtual false final false
  void AttachToPanel() ;
@@ -169,7 +168,7 @@ static void OnGraphicsResourcesRecreate(bool recreate) ;
  void OnPanelAtlasChanged() ;
 
 /// @brief Method OnPanelHierarchyChanged addr 0x2d010c8 size 0x38 virtual false final false
- void OnPanelHierarchyChanged(::UnityEngine::UIElements::VisualElement ve, ::UnityEngine::UIElements::HierarchyChangeType changeType) ;
+ void OnPanelHierarchyChanged(UnityEngine::UIElements::VisualElement ve, UnityEngine::UIElements::HierarchyChangeType changeType) ;
 
 /// @brief Method OnPanelStandardShaderChanged addr 0x2d00cec size 0x1a4 virtual false final false
  void OnPanelStandardShaderChanged() ;
@@ -178,7 +177,7 @@ static void OnGraphicsResourcesRecreate(bool recreate) ;
  void OnPanelStandardWorldSpaceShaderChanged() ;
 
 /// @brief Method ResetAllElementsDataRecursive addr 0x2d01034 size 0x90 virtual false final false
- void ResetAllElementsDataRecursive(::UnityEngine::UIElements::VisualElement ve) ;
+ void ResetAllElementsDataRecursive(UnityEngine::UIElements::VisualElement ve) ;
 
 /// @brief Method get_disposed addr 0x2d01100 size 0x8 virtual false final false
  bool get_disposed() ;
@@ -193,6 +192,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::UIRRepaintUpdater);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIRRepaintUpdater, "UnityEngine.UIElements", "UIRRepaintUpdater");
+NEED_NO_BOX(UnityEngine::UIElements::UIRRepaintUpdater);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIRRepaintUpdater, "UnityEngine.UIElements", "UIRRepaintUpdater");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem {
 struct InputActionChange;
@@ -74,35 +73,34 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field ActionEnabled offset 0
-static ::UnityEngine::InputSystem::InputActionChange const ActionEnabled;
+static UnityEngine::InputSystem::InputActionChange const ActionEnabled;
 
 /// @brief Field ActionDisabled offset 0
-static ::UnityEngine::InputSystem::InputActionChange const ActionDisabled;
+static UnityEngine::InputSystem::InputActionChange const ActionDisabled;
 
 /// @brief Field ActionMapEnabled offset 0
-static ::UnityEngine::InputSystem::InputActionChange const ActionMapEnabled;
+static UnityEngine::InputSystem::InputActionChange const ActionMapEnabled;
 
 /// @brief Field ActionMapDisabled offset 0
-static ::UnityEngine::InputSystem::InputActionChange const ActionMapDisabled;
+static UnityEngine::InputSystem::InputActionChange const ActionMapDisabled;
 
 /// @brief Field ActionStarted offset 0
-static ::UnityEngine::InputSystem::InputActionChange const ActionStarted;
+static UnityEngine::InputSystem::InputActionChange const ActionStarted;
 
 /// @brief Field ActionPerformed offset 0
-static ::UnityEngine::InputSystem::InputActionChange const ActionPerformed;
+static UnityEngine::InputSystem::InputActionChange const ActionPerformed;
 
 /// @brief Field ActionCanceled offset 0
-static ::UnityEngine::InputSystem::InputActionChange const ActionCanceled;
+static UnityEngine::InputSystem::InputActionChange const ActionCanceled;
 
 /// @brief Field BoundControlsAboutToChange offset 0
-static ::UnityEngine::InputSystem::InputActionChange const BoundControlsAboutToChange;
+static UnityEngine::InputSystem::InputActionChange const BoundControlsAboutToChange;
 
 /// @brief Field BoundControlsChanged offset 0
-static ::UnityEngine::InputSystem::InputActionChange const BoundControlsChanged;
+static UnityEngine::InputSystem::InputActionChange const BoundControlsChanged;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::InputActionChange, "UnityEngine.InputSystem", "InputActionChange");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::InputActionChange, "UnityEngine.InputSystem", "InputActionChange");

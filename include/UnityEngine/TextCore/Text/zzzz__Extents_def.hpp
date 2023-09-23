@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
-namespace {
 namespace UnityEngine {
 struct Vector2;
 }
@@ -19,8 +18,8 @@ namespace UnityEngine::TextCore::Text {
 struct CORDL_TYPE Extents : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "min", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "max", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }]
-constexpr Extents(::UnityEngine::Vector2 min, ::UnityEngine::Vector2 max) noexcept;
+// Ctor Parameters [CppParam { name: "min", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "max", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }]
+constexpr Extents(UnityEngine::Vector2 min, UnityEngine::Vector2 max) noexcept;
 
 
                     constexpr Extents(Extents const&) = default;
@@ -53,17 +52,17 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_min, put=__set_min))  min;
+ UnityEngine::Vector2 __declspec(property(get=__get_min, put=__set_min))  min;
 
-constexpr void __set_min(::UnityEngine::Vector2 value) ;
+constexpr void __set_min(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_min() const;
+constexpr UnityEngine::Vector2 __get_min() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_max, put=__set_max))  max;
+ UnityEngine::Vector2 __declspec(property(get=__get_max, put=__set_max))  max;
 
-constexpr void __set_max(::UnityEngine::Vector2 value) ;
+constexpr void __set_max(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_max() const;
+constexpr UnityEngine::Vector2 __get_max() const;
 
 
 // Methods
@@ -75,5 +74,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::Text
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::Extents, "UnityEngine.TextCore.Text", "Extents");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Text::Extents, "UnityEngine.TextCore.Text", "Extents");

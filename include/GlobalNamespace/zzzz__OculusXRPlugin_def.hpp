@@ -2,9 +2,8 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRPlugin__Bool;
+struct GlobalNamespace__OVRPlugin__Bool;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -59,7 +58,7 @@ static void SetColorScale(float_t x, float_t y, float_t z, float_t w) ;
 static void SetColorOffset(float_t x, float_t y, float_t z, float_t w) ;
 
 /// @brief Method SetSpaceWarp addr 0x2618f5c size 0x7c virtual false final false
-static void SetSpaceWarp(::GlobalNamespace::____GlobalNamespace__OVRPlugin__Bool on) ;
+static void SetSpaceWarp(GlobalNamespace::GlobalNamespace__OVRPlugin__Bool on) ;
 
 /// @brief Method SetAppSpacePosition addr 0x2618fd8 size 0x90 virtual false final false
 static void SetAppSpacePosition(float_t x, float_t y, float_t z) ;
@@ -71,6 +70,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OculusXRPlugin);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OculusXRPlugin, "", "OculusXRPlugin");
+NEED_NO_BOX(GlobalNamespace::OculusXRPlugin);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusXRPlugin, "", "OculusXRPlugin");

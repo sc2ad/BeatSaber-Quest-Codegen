@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
@@ -53,13 +52,13 @@ constexpr explicit HierarchyTraversal(void* ptr) noexcept : ::bs_hook::Il2CppWra
 // Methods
 
 /// @brief Method Traverse addr 0x2c6b210 size 0x10 virtual true final false
- void Traverse(::UnityEngine::UIElements::VisualElement element) ;
+ void Traverse(UnityEngine::UIElements::VisualElement element) ;
 
 /// @brief Method TraverseRecursive addr 0x0 size 0xffffffffffffffff virtual true final false
- void TraverseRecursive(::UnityEngine::UIElements::VisualElement element, int32_t depth) ;
+ void TraverseRecursive(UnityEngine::UIElements::VisualElement element, int32_t depth) ;
 
 /// @brief Method Recurse addr 0x2c6b220 size 0xd0 virtual false final false
- void Recurse(::UnityEngine::UIElements::VisualElement element, int32_t depth) ;
+ void Recurse(UnityEngine::UIElements::VisualElement element, int32_t depth) ;
 
 // Ctor Parameters []
 explicit HierarchyTraversal() ;
@@ -71,6 +70,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::StyleSheets
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::StyleSheets::HierarchyTraversal);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::HierarchyTraversal, "UnityEngine.UIElements.StyleSheets", "HierarchyTraversal");
+NEED_NO_BOX(UnityEngine::UIElements::StyleSheets::HierarchyTraversal);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::StyleSheets::HierarchyTraversal, "UnityEngine.UIElements.StyleSheets", "HierarchyTraversal");

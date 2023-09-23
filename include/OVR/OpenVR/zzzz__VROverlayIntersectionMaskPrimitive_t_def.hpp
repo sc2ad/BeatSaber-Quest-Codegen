@@ -1,12 +1,11 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
-namespace OVR::OpenVR {
-struct EVROverlayIntersectionMaskPrimitiveType;
-}
 namespace OVR::OpenVR {
 struct VROverlayIntersectionMaskPrimitive_Data_t;
+}
+namespace OVR::OpenVR {
+struct EVROverlayIntersectionMaskPrimitiveType;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -21,8 +20,8 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE VROverlayIntersectionMaskPrimitive_t : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "m_nPrimitiveType", ty: "::OVR::OpenVR::EVROverlayIntersectionMaskPrimitiveType", modifiers: "", def_value: None }, CppParam { name: "m_Primitive", ty: "::OVR::OpenVR::VROverlayIntersectionMaskPrimitive_Data_t", modifiers: "", def_value: None }]
-constexpr VROverlayIntersectionMaskPrimitive_t(::OVR::OpenVR::EVROverlayIntersectionMaskPrimitiveType m_nPrimitiveType, ::OVR::OpenVR::VROverlayIntersectionMaskPrimitive_Data_t m_Primitive) noexcept;
+// Ctor Parameters [CppParam { name: "m_nPrimitiveType", ty: "OVR::OpenVR::EVROverlayIntersectionMaskPrimitiveType", modifiers: "", def_value: None }, CppParam { name: "m_Primitive", ty: "OVR::OpenVR::VROverlayIntersectionMaskPrimitive_Data_t", modifiers: "", def_value: None }]
+constexpr VROverlayIntersectionMaskPrimitive_t(OVR::OpenVR::EVROverlayIntersectionMaskPrimitiveType m_nPrimitiveType, OVR::OpenVR::VROverlayIntersectionMaskPrimitive_Data_t m_Primitive) noexcept;
 
 
                     constexpr VROverlayIntersectionMaskPrimitive_t(VROverlayIntersectionMaskPrimitive_t const&) = default;
@@ -55,21 +54,20 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::OVR::OpenVR::EVROverlayIntersectionMaskPrimitiveType __declspec(property(get=__get_m_nPrimitiveType, put=__set_m_nPrimitiveType))  m_nPrimitiveType;
+ OVR::OpenVR::EVROverlayIntersectionMaskPrimitiveType __declspec(property(get=__get_m_nPrimitiveType, put=__set_m_nPrimitiveType))  m_nPrimitiveType;
 
-constexpr void __set_m_nPrimitiveType(::OVR::OpenVR::EVROverlayIntersectionMaskPrimitiveType value) ;
+constexpr void __set_m_nPrimitiveType(OVR::OpenVR::EVROverlayIntersectionMaskPrimitiveType value) ;
 
-constexpr ::OVR::OpenVR::EVROverlayIntersectionMaskPrimitiveType __get_m_nPrimitiveType() const;
+constexpr OVR::OpenVR::EVROverlayIntersectionMaskPrimitiveType __get_m_nPrimitiveType() const;
 
- ::OVR::OpenVR::VROverlayIntersectionMaskPrimitive_Data_t __declspec(property(get=__get_m_Primitive, put=__set_m_Primitive))  m_Primitive;
+ OVR::OpenVR::VROverlayIntersectionMaskPrimitive_Data_t __declspec(property(get=__get_m_Primitive, put=__set_m_Primitive))  m_Primitive;
 
-constexpr void __set_m_Primitive(::OVR::OpenVR::VROverlayIntersectionMaskPrimitive_Data_t value) ;
+constexpr void __set_m_Primitive(OVR::OpenVR::VROverlayIntersectionMaskPrimitive_Data_t value) ;
 
-constexpr ::OVR::OpenVR::VROverlayIntersectionMaskPrimitive_Data_t __get_m_Primitive() const;
+constexpr OVR::OpenVR::VROverlayIntersectionMaskPrimitive_Data_t __get_m_Primitive() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::VROverlayIntersectionMaskPrimitive_t, "OVR.OpenVR", "VROverlayIntersectionMaskPrimitive_t");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VROverlayIntersectionMaskPrimitive_t, "OVR.OpenVR", "VROverlayIntersectionMaskPrimitive_t");

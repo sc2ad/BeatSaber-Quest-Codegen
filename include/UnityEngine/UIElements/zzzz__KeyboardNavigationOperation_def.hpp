@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 struct KeyboardNavigationOperation;
@@ -75,38 +74,37 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::UIElements::KeyboardNavigationOperation const None;
+static UnityEngine::UIElements::KeyboardNavigationOperation const None;
 
 /// @brief Field SelectAll offset 0
-static ::UnityEngine::UIElements::KeyboardNavigationOperation const SelectAll;
+static UnityEngine::UIElements::KeyboardNavigationOperation const SelectAll;
 
 /// @brief Field Cancel offset 0
-static ::UnityEngine::UIElements::KeyboardNavigationOperation const Cancel;
+static UnityEngine::UIElements::KeyboardNavigationOperation const Cancel;
 
 /// @brief Field Submit offset 0
-static ::UnityEngine::UIElements::KeyboardNavigationOperation const Submit;
+static UnityEngine::UIElements::KeyboardNavigationOperation const Submit;
 
 /// @brief Field Previous offset 0
-static ::UnityEngine::UIElements::KeyboardNavigationOperation const Previous;
+static UnityEngine::UIElements::KeyboardNavigationOperation const Previous;
 
 /// @brief Field Next offset 0
-static ::UnityEngine::UIElements::KeyboardNavigationOperation const Next;
+static UnityEngine::UIElements::KeyboardNavigationOperation const Next;
 
 /// @brief Field PageUp offset 0
-static ::UnityEngine::UIElements::KeyboardNavigationOperation const PageUp;
+static UnityEngine::UIElements::KeyboardNavigationOperation const PageUp;
 
 /// @brief Field PageDown offset 0
-static ::UnityEngine::UIElements::KeyboardNavigationOperation const PageDown;
+static UnityEngine::UIElements::KeyboardNavigationOperation const PageDown;
 
 /// @brief Field Begin offset 0
-static ::UnityEngine::UIElements::KeyboardNavigationOperation const Begin;
+static UnityEngine::UIElements::KeyboardNavigationOperation const Begin;
 
 /// @brief Field End offset 0
-static ::UnityEngine::UIElements::KeyboardNavigationOperation const End;
+static UnityEngine::UIElements::KeyboardNavigationOperation const End;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::KeyboardNavigationOperation, "UnityEngine.UIElements", "KeyboardNavigationOperation");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::KeyboardNavigationOperation, "UnityEngine.UIElements", "KeyboardNavigationOperation");

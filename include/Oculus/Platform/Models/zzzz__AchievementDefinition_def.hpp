@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform {
 struct AchievementType;
 }
@@ -53,11 +52,11 @@ constexpr explicit AchievementDefinition(void* ptr) noexcept : ::bs_hook::Il2Cpp
 
 // Fields
 
- ::Oculus::Platform::AchievementType __declspec(property(get=__get_Type, put=__set_Type))  Type;
+ Oculus::Platform::AchievementType __declspec(property(get=__get_Type, put=__set_Type))  Type;
 
-constexpr void __set_Type(::Oculus::Platform::AchievementType value) ;
+constexpr void __set_Type(Oculus::Platform::AchievementType value) ;
 
-constexpr ::Oculus::Platform::AchievementType __get_Type() const;
+constexpr Oculus::Platform::AchievementType __get_Type() const;
 
  ::StringW __declspec(property(get=__get_Name, put=__set_Name))  Name;
 
@@ -90,6 +89,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::AchievementDefinition);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::AchievementDefinition, "Oculus.Platform.Models", "AchievementDefinition");
+NEED_NO_BOX(Oculus::Platform::Models::AchievementDefinition);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AchievementDefinition, "Oculus.Platform.Models", "AchievementDefinition");

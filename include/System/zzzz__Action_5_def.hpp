@@ -3,7 +3,6 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 template<typename T1,typename T2,typename T3,typename T4,typename T5>
@@ -22,7 +21,7 @@ template<::cordl_internals::il2cpp_reference_type T1,::cordl_internals::il2cpp_r
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2327)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2327), inst: 5938 })
 // CS Name: System.Action`5
-class CORDL_TYPE Action_5<T1,T2,T3,T4,T5> : public ::System::MulticastDelegate {
+class CORDL_TYPE Action_5<T1,T2,T3,T4,T5> : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr Action_5(Action_5 const& ) noexcept = default;
 constexpr Action_5(Action_5&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Action_5(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit Action_5(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -71,5 +70,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Action_5, "System", "Action`5");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Action_5, "System", "Action`5");

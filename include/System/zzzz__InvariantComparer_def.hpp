@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace System::Collections {
-class IComparer;
-}
 namespace System::Globalization {
 class CompareInfo;
+}
+namespace System::Collections {
+class IComparer;
 }
 // Forward declare root types
 namespace System {
@@ -22,8 +21,8 @@ namespace System {
 class CORDL_TYPE InvariantComparer : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::IComparer
-constexpr operator  ::System::Collections::IComparer() const noexcept;
+/// @brief Convert operator to System::Collections::IComparer
+constexpr operator  System::Collections::IComparer() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -58,17 +57,17 @@ constexpr explicit InvariantComparer(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 
 // Fields
 
- ::System::Globalization::CompareInfo __declspec(property(get=__get_m_compareInfo, put=__set_m_compareInfo))  m_compareInfo;
+ System::Globalization::CompareInfo __declspec(property(get=__get_m_compareInfo, put=__set_m_compareInfo))  m_compareInfo;
 
-constexpr void __set_m_compareInfo(::System::Globalization::CompareInfo value) ;
+constexpr void __set_m_compareInfo(System::Globalization::CompareInfo value) ;
 
-constexpr ::System::Globalization::CompareInfo __get_m_compareInfo() const;
+constexpr System::Globalization::CompareInfo __get_m_compareInfo() const;
 
-static ::System::InvariantComparer __declspec(property(get=__get_Default, put=__set_Default))  Default;
+static System::InvariantComparer __declspec(property(get=__get_Default, put=__set_Default))  Default;
 
-static void __set_Default(::System::InvariantComparer value) ;
+static void __set_Default(System::InvariantComparer value) ;
 
-static ::System::InvariantComparer __get_Default() ;
+static System::InvariantComparer __get_Default() ;
 
 
 // Methods
@@ -86,6 +85,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::InvariantComparer);
-DEFINE_IL2CPP_ARG_TYPE(::System::InvariantComparer, "System", "InvariantComparer");
+NEED_NO_BOX(System::InvariantComparer);
+DEFINE_IL2CPP_ARG_TYPE(System::InvariantComparer, "System", "InvariantComparer");

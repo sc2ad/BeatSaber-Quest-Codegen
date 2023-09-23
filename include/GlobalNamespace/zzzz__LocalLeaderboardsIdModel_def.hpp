@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
@@ -53,7 +52,7 @@ constexpr explicit LocalLeaderboardsIdModel(void* ptr) noexcept : ::bs_hook::Il2
 // Methods
 
 /// @brief Method GetLocalLeaderboardID addr 0x21c3bc4 size 0x8 virtual false final false
-static ::StringW GetLocalLeaderboardID(::GlobalNamespace::IDifficultyBeatmap difficultyBeatmap) ;
+static ::StringW GetLocalLeaderboardID(GlobalNamespace::IDifficultyBeatmap difficultyBeatmap) ;
 
 // Ctor Parameters []
 explicit LocalLeaderboardsIdModel() ;
@@ -65,6 +64,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LocalLeaderboardsIdModel);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LocalLeaderboardsIdModel, "", "LocalLeaderboardsIdModel");
+NEED_NO_BOX(GlobalNamespace::LocalLeaderboardsIdModel);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalLeaderboardsIdModel, "", "LocalLeaderboardsIdModel");

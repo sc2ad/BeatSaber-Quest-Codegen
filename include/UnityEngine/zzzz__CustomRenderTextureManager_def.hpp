@@ -1,13 +1,12 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace UnityEngine {
-class CustomRenderTexture;
-}
 namespace System {
 template<typename T>
 class Action_1;
+}
+namespace UnityEngine {
+class CustomRenderTexture;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -55,31 +54,30 @@ constexpr explicit CustomRenderTextureManager(void* ptr) noexcept : ::bs_hook::I
 
 // Fields
 
-static ::System::Action_1<::UnityEngine::CustomRenderTexture> __declspec(property(get=__get_textureLoaded, put=__set_textureLoaded))  textureLoaded;
+static System::Action_1<UnityEngine::CustomRenderTexture> __declspec(property(get=__get_textureLoaded, put=__set_textureLoaded))  textureLoaded;
 
-static void __set_textureLoaded(::System::Action_1<::UnityEngine::CustomRenderTexture> value) ;
+static void __set_textureLoaded(System::Action_1<UnityEngine::CustomRenderTexture> value) ;
 
-static ::System::Action_1<::UnityEngine::CustomRenderTexture> __get_textureLoaded() ;
+static System::Action_1<UnityEngine::CustomRenderTexture> __get_textureLoaded() ;
 
-static ::System::Action_1<::UnityEngine::CustomRenderTexture> __declspec(property(get=__get_textureUnloaded, put=__set_textureUnloaded))  textureUnloaded;
+static System::Action_1<UnityEngine::CustomRenderTexture> __declspec(property(get=__get_textureUnloaded, put=__set_textureUnloaded))  textureUnloaded;
 
-static void __set_textureUnloaded(::System::Action_1<::UnityEngine::CustomRenderTexture> value) ;
+static void __set_textureUnloaded(System::Action_1<UnityEngine::CustomRenderTexture> value) ;
 
-static ::System::Action_1<::UnityEngine::CustomRenderTexture> __get_textureUnloaded() ;
+static System::Action_1<UnityEngine::CustomRenderTexture> __get_textureUnloaded() ;
 
 
 // Methods
 
 /// @brief Method InvokeOnTextureLoaded_Internal addr 0x2b407a4 size 0x6c virtual false final false
-static void InvokeOnTextureLoaded_Internal(::UnityEngine::CustomRenderTexture source) ;
+static void InvokeOnTextureLoaded_Internal(UnityEngine::CustomRenderTexture source) ;
 
 /// @brief Method InvokeOnTextureUnloaded_Internal addr 0x2b40810 size 0x6c virtual false final false
-static void InvokeOnTextureUnloaded_Internal(::UnityEngine::CustomRenderTexture source) ;
+static void InvokeOnTextureUnloaded_Internal(UnityEngine::CustomRenderTexture source) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::CustomRenderTextureManager);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::CustomRenderTextureManager, "UnityEngine", "CustomRenderTextureManager");
+NEED_NO_BOX(UnityEngine::CustomRenderTextureManager);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CustomRenderTextureManager, "UnityEngine", "CustomRenderTextureManager");

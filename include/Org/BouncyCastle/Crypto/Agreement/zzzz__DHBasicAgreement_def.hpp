@@ -2,9 +2,8 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto {
-class IBasicAgreement;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DHParameters;
@@ -12,8 +11,8 @@ class DHParameters;
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Crypto {
+class IBasicAgreement;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DHPrivateKeyParameters;
@@ -31,8 +30,8 @@ namespace Org::BouncyCastle::Crypto::Agreement {
 class CORDL_TYPE DHBasicAgreement : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IBasicAgreement
-constexpr operator  ::Org::BouncyCastle::Crypto::IBasicAgreement() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IBasicAgreement
+constexpr operator  Org::BouncyCastle::Crypto::IBasicAgreement() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -67,29 +66,29 @@ constexpr explicit DHBasicAgreement(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
- ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters __declspec(property(get=__get_key, put=__set_key))  key;
+ Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters __declspec(property(get=__get_key, put=__set_key))  key;
 
-constexpr void __set_key(::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters value) ;
+constexpr void __set_key(Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters __get_key() const;
+constexpr Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters __get_key() const;
 
- ::Org::BouncyCastle::Crypto::Parameters::DHParameters __declspec(property(get=__get_dhParams, put=__set_dhParams))  dhParams;
+ Org::BouncyCastle::Crypto::Parameters::DHParameters __declspec(property(get=__get_dhParams, put=__set_dhParams))  dhParams;
 
-constexpr void __set_dhParams(::Org::BouncyCastle::Crypto::Parameters::DHParameters value) ;
+constexpr void __set_dhParams(Org::BouncyCastle::Crypto::Parameters::DHParameters value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Parameters::DHParameters __get_dhParams() const;
+constexpr Org::BouncyCastle::Crypto::Parameters::DHParameters __get_dhParams() const;
 
 
 // Methods
 
 /// @brief Method Init addr 0x118e798 size 0x13c virtual true final false
- void Init(::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method GetFieldSize addr 0x118e8d4 size 0x44 virtual true final false
  int32_t GetFieldSize() ;
 
 /// @brief Method CalculateAgreement addr 0x118e918 size 0x27c virtual true final false
- ::Org::BouncyCastle::Math::BigInteger CalculateAgreement(::Org::BouncyCastle::Crypto::ICipherParameters pubKey) ;
+ Org::BouncyCastle::Math::BigInteger CalculateAgreement(Org::BouncyCastle::Crypto::ICipherParameters pubKey) ;
 
 // Ctor Parameters []
 explicit DHBasicAgreement() ;
@@ -101,6 +100,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Agreement
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement, "Org.BouncyCastle.Crypto.Agreement", "DHBasicAgreement");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement, "Org.BouncyCastle.Crypto.Agreement", "DHBasicAgreement");

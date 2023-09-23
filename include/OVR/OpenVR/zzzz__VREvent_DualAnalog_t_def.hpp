@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 #include <cstddef>
-namespace {
 namespace OVR::OpenVR {
 struct EDualAnalogWhich;
 }
@@ -19,8 +18,8 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE VREvent_DualAnalog_t : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "transformedX", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "transformedY", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "which", ty: "::OVR::OpenVR::EDualAnalogWhich", modifiers: "", def_value: None }]
-constexpr VREvent_DualAnalog_t(float_t x, float_t y, float_t transformedX, float_t transformedY, ::OVR::OpenVR::EDualAnalogWhich which) noexcept;
+// Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "transformedX", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "transformedY", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "which", ty: "OVR::OpenVR::EDualAnalogWhich", modifiers: "", def_value: None }]
+constexpr VREvent_DualAnalog_t(float_t x, float_t y, float_t transformedX, float_t transformedY, OVR::OpenVR::EDualAnalogWhich which) noexcept;
 
 
                     constexpr VREvent_DualAnalog_t(VREvent_DualAnalog_t const&) = default;
@@ -77,15 +76,14 @@ constexpr void __set_transformedY(float_t value) ;
 
 constexpr float_t __get_transformedY() const;
 
- ::OVR::OpenVR::EDualAnalogWhich __declspec(property(get=__get_which, put=__set_which))  which;
+ OVR::OpenVR::EDualAnalogWhich __declspec(property(get=__get_which, put=__set_which))  which;
 
-constexpr void __set_which(::OVR::OpenVR::EDualAnalogWhich value) ;
+constexpr void __set_which(OVR::OpenVR::EDualAnalogWhich value) ;
 
-constexpr ::OVR::OpenVR::EDualAnalogWhich __get_which() const;
+constexpr OVR::OpenVR::EDualAnalogWhich __get_which() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::VREvent_DualAnalog_t, "OVR.OpenVR", "VREvent_DualAnalog_t");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_DualAnalog_t, "OVR.OpenVR", "VREvent_DualAnalog_t");

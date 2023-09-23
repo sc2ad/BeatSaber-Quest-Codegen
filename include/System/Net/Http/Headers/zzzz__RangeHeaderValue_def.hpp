@@ -4,9 +4,12 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class ICloneable;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -14,10 +17,6 @@ class ICollection_1;
 }
 namespace System::Net::Http::Headers {
 class RangeItemHeaderValue;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -32,8 +31,8 @@ namespace System::Net::Http::Headers {
 class CORDL_TYPE RangeHeaderValue : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::ICloneable
-constexpr operator  ::System::ICloneable() const noexcept;
+/// @brief Convert operator to System::ICloneable
+constexpr operator  System::ICloneable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -68,11 +67,11 @@ constexpr explicit RangeHeaderValue(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
- ::System::Collections::Generic::List_1<::System::Net::Http::Headers::RangeItemHeaderValue> __declspec(property(get=__get_ranges, put=__set_ranges))  ranges;
+ System::Collections::Generic::List_1<System::Net::Http::Headers::RangeItemHeaderValue> __declspec(property(get=__get_ranges, put=__set_ranges))  ranges;
 
-constexpr void __set_ranges(::System::Collections::Generic::List_1<::System::Net::Http::Headers::RangeItemHeaderValue> value) ;
+constexpr void __set_ranges(System::Collections::Generic::List_1<System::Net::Http::Headers::RangeItemHeaderValue> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::System::Net::Http::Headers::RangeItemHeaderValue> __get_ranges() const;
+constexpr System::Collections::Generic::List_1<System::Net::Http::Headers::RangeItemHeaderValue> __get_ranges() const;
 
  ::StringW __declspec(property(get=__get_unit, put=__set_unit))  unit;
 
@@ -83,7 +82,7 @@ constexpr ::StringW __get_unit() const;
 
 // Properties
 
- ::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::RangeItemHeaderValue> __declspec(property(get=get_Ranges))  Ranges;
+ System::Collections::Generic::ICollection_1<System::Net::Http::Headers::RangeItemHeaderValue> __declspec(property(get=get_Ranges))  Ranges;
 
  ::StringW __declspec(property(get=get_Unit))  Unit;
 
@@ -96,14 +95,14 @@ explicit RangeHeaderValue() ;
 /// @brief Method .ctor addr 0x26ae778 size 0x54 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "source", ty: "::System::Net::Http::Headers::RangeHeaderValue", modifiers: "", def_value: None }]
-explicit RangeHeaderValue(::System::Net::Http::Headers::RangeHeaderValue source) ;
+// Ctor Parameters [CppParam { name: "source", ty: "System::Net::Http::Headers::RangeHeaderValue", modifiers: "", def_value: None }]
+explicit RangeHeaderValue(System::Net::Http::Headers::RangeHeaderValue source) ;
 
 /// @brief Method .ctor addr 0x26ae7cc size 0x1e8 virtual false final false
- void _ctor(::System::Net::Http::Headers::RangeHeaderValue source) ;
+ void _ctor(System::Net::Http::Headers::RangeHeaderValue source) ;
 
 /// @brief Method get_Ranges addr 0x26ae9b4 size 0x80 virtual false final false
- ::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::RangeItemHeaderValue> get_Ranges() ;
+ System::Collections::Generic::ICollection_1<System::Net::Http::Headers::RangeItemHeaderValue> get_Ranges() ;
 
 /// @brief Method get_Unit addr 0x26aea34 size 0x8 virtual false final false
  ::StringW get_Unit() ;
@@ -118,7 +117,7 @@ explicit RangeHeaderValue(::System::Net::Http::Headers::RangeHeaderValue source)
  int32_t GetHashCode() ;
 
 /// @brief Method TryParse addr 0x26aebe0 size 0x544 virtual false final false
-static bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::RangeHeaderValue> parsedValue) ;
+static bool TryParse(::StringW input, ByRef<System::Net::Http::Headers::RangeHeaderValue> parsedValue) ;
 
 /// @brief Method ToString addr 0x26af280 size 0x1a0 virtual true final false
  ::StringW ToString() ;
@@ -127,6 +126,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Http::Headers
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Http::Headers::RangeHeaderValue);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::RangeHeaderValue, "System.Net.Http.Headers", "RangeHeaderValue");
+NEED_NO_BOX(System::Net::Http::Headers::RangeHeaderValue);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::RangeHeaderValue, "System.Net.Http.Headers", "RangeHeaderValue");

@@ -3,12 +3,11 @@
 #include "System/Xml/zzzz__HtmlUtf8RawTextWriter_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Xml {
-class XmlWriterSettings;
-}
 namespace System::IO {
 class Stream;
+}
+namespace System::Xml {
+class XmlWriterSettings;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -20,7 +19,7 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11361))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11362))
 // CS Name: System.Xml.HtmlUtf8RawTextWriterIndent
-class CORDL_TYPE HtmlUtf8RawTextWriterIndent : public ::System::Xml::HtmlUtf8RawTextWriter {
+class CORDL_TYPE HtmlUtf8RawTextWriterIndent : public System::Xml::HtmlUtf8RawTextWriter {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr HtmlUtf8RawTextWriterIndent(HtmlUtf8RawTextWriterIndent const& ) noexc
 constexpr HtmlUtf8RawTextWriterIndent(HtmlUtf8RawTextWriterIndent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HtmlUtf8RawTextWriterIndent(void* ptr) noexcept : ::System::Xml::HtmlUtf8RawTextWriter(ptr) {
+constexpr explicit HtmlUtf8RawTextWriterIndent(void* ptr) noexcept : System::Xml::HtmlUtf8RawTextWriter(ptr) {
 }
 
 
@@ -83,11 +82,11 @@ constexpr bool __get_newLineOnAttributes() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "::System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
-explicit HtmlUtf8RawTextWriterIndent(::System::IO::Stream stream, ::System::Xml::XmlWriterSettings settings) ;
+// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
+explicit HtmlUtf8RawTextWriterIndent(System::IO::Stream stream, System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method .ctor addr 0x26c0bd8 size 0x4c virtual false final false
- void _ctor(::System::IO::Stream stream, ::System::Xml::XmlWriterSettings settings) ;
+ void _ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method WriteDocType addr 0x26c0c4c size 0x1c virtual true final false
  void WriteDocType(::StringW name, ::StringW pubid, ::StringW sysid, ::StringW subset) ;
@@ -108,7 +107,7 @@ explicit HtmlUtf8RawTextWriterIndent(::System::IO::Stream stream, ::System::Xml:
  void FlushBuffer() ;
 
 /// @brief Method Init addr 0x26c0c24 size 0x28 virtual false final false
- void Init(::System::Xml::XmlWriterSettings settings) ;
+ void Init(System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method WriteIndent addr 0x26c0e0c size 0x50 virtual false final false
  void WriteIndent() ;
@@ -117,6 +116,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::HtmlUtf8RawTextWriterIndent);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::HtmlUtf8RawTextWriterIndent, "System.Xml", "HtmlUtf8RawTextWriterIndent");
+NEED_NO_BOX(System::Xml::HtmlUtf8RawTextWriterIndent);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::HtmlUtf8RawTextWriterIndent, "System.Xml", "HtmlUtf8RawTextWriterIndent");

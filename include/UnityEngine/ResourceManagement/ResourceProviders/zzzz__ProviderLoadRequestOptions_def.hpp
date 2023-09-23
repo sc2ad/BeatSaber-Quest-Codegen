@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 class ProviderLoadRequestOptions;
@@ -72,7 +71,7 @@ constexpr int32_t __get_m_WebRequestTimeout() const;
 // Methods
 
 /// @brief Method Copy addr 0x2a40a40 size 0x80 virtual false final false
- ::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions Copy() ;
+ UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions Copy() ;
 
 /// @brief Method get_IgnoreFailures addr 0x2a40ac0 size 0x8 virtual false final false
  bool get_IgnoreFailures() ;
@@ -96,6 +95,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ResourceManagement::ResourceProviders
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions, "UnityEngine.ResourceManagement.ResourceProviders", "ProviderLoadRequestOptions");
+NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions, "UnityEngine.ResourceManagement.ResourceProviders", "ProviderLoadRequestOptions");

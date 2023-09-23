@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Playables {
 struct PlayState;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Paused offset 0
-static ::UnityEngine::Playables::PlayState const Paused;
+static UnityEngine::Playables::PlayState const Paused;
 
 /// @brief Field Playing offset 0
-static ::UnityEngine::Playables::PlayState const Playing;
+static UnityEngine::Playables::PlayState const Playing;
 
 /// @brief Field Delayed offset 0
-static ::UnityEngine::Playables::PlayState const Delayed;
+static UnityEngine::Playables::PlayState const Delayed;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Playables
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Playables::PlayState, "UnityEngine.Playables", "PlayState");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayState, "UnityEngine.Playables", "PlayState");

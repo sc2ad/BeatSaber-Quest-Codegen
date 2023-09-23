@@ -3,7 +3,6 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace TMPro {
 class TextMeshProUGUI;
 }
@@ -17,7 +16,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13757))
 // CS Name: DroppedFramesLabel
-class CORDL_TYPE DroppedFramesLabel : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE DroppedFramesLabel : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr DroppedFramesLabel(DroppedFramesLabel const& ) noexcept = default;
 constexpr DroppedFramesLabel(DroppedFramesLabel&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DroppedFramesLabel(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit DroppedFramesLabel(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -53,11 +52,11 @@ constexpr explicit DroppedFramesLabel(void* ptr) noexcept : ::UnityEngine::MonoB
 
 // Fields
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__text, put=__set__text))  _text;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__text, put=__set__text))  _text;
 
-constexpr void __set__text(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__text(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__text() const;
+constexpr TMPro::TextMeshProUGUI __get__text() const;
 
  int32_t __declspec(property(get=__get__expectedFrameRate, put=__set__expectedFrameRate))  _expectedFrameRate;
 
@@ -123,6 +122,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::DroppedFramesLabel);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DroppedFramesLabel, "", "DroppedFramesLabel");
+NEED_NO_BOX(GlobalNamespace::DroppedFramesLabel);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DroppedFramesLabel, "", "DroppedFramesLabel");

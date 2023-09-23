@@ -3,7 +3,6 @@
 #include "Zenject/zzzz__ScriptableObjectInstallerBase_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace Zenject {
 class InjectTypeInfo;
 }
@@ -17,7 +16,7 @@ namespace Zenject {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11096))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11089))
 // CS Name: Zenject.ScriptableObjectInstaller
-class CORDL_TYPE ScriptableObjectInstaller : public ::Zenject::ScriptableObjectInstallerBase {
+class CORDL_TYPE ScriptableObjectInstaller : public Zenject::ScriptableObjectInstallerBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr ScriptableObjectInstaller(ScriptableObjectInstaller const& ) noexcept 
 constexpr ScriptableObjectInstaller(ScriptableObjectInstaller&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ScriptableObjectInstaller(void* ptr) noexcept : ::Zenject::ScriptableObjectInstallerBase(ptr) {
+constexpr explicit ScriptableObjectInstaller(void* ptr) noexcept : Zenject::ScriptableObjectInstallerBase(ptr) {
 }
 
 
@@ -63,12 +62,11 @@ explicit ScriptableObjectInstaller() ;
 static ::bs_hook::Il2CppWrapperType __zenCreate(::ArrayW<::bs_hook::Il2CppWrapperType> P_0) ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x2d7c050 size 0x1c0 virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::ScriptableObjectInstaller);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::ScriptableObjectInstaller, "Zenject", "ScriptableObjectInstaller");
+NEED_NO_BOX(Zenject::ScriptableObjectInstaller);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::ScriptableObjectInstaller, "Zenject", "ScriptableObjectInstaller");

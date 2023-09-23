@@ -3,18 +3,17 @@
 #include "GlobalNamespace/zzzz__RuntimeLightWithIds_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
-namespace {
-namespace UnityEngine {
-struct ____UnityEngine__ParticleSystem__MainModule;
-}
-namespace UnityEngine {
-class ParticleSystem;
-}
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
-struct ____UnityEngine__ParticleSystem__Particle;
+struct UnityEngine__ParticleSystem__Particle;
+}
+namespace UnityEngine {
+struct UnityEngine__ParticleSystem__MainModule;
+}
+namespace UnityEngine {
+class ParticleSystem;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,7 +25,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14713))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14709))
 // CS Name: ParticleSystemLightWithIds
-class CORDL_TYPE ParticleSystemLightWithIds : public ::GlobalNamespace::RuntimeLightWithIds {
+class CORDL_TYPE ParticleSystemLightWithIds : public GlobalNamespace::RuntimeLightWithIds {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -41,7 +40,7 @@ constexpr ParticleSystemLightWithIds(ParticleSystemLightWithIds const& ) noexcep
 constexpr ParticleSystemLightWithIds(ParticleSystemLightWithIds&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ParticleSystemLightWithIds(void* ptr) noexcept : ::GlobalNamespace::RuntimeLightWithIds(ptr) {
+constexpr explicit ParticleSystemLightWithIds(void* ptr) noexcept : GlobalNamespace::RuntimeLightWithIds(ptr) {
 }
 
 
@@ -62,11 +61,11 @@ constexpr explicit ParticleSystemLightWithIds(void* ptr) noexcept : ::GlobalName
 
 // Fields
 
- ::UnityEngine::ParticleSystem __declspec(property(get=__get__particleSystem, put=__set__particleSystem))  _particleSystem;
+ UnityEngine::ParticleSystem __declspec(property(get=__get__particleSystem, put=__set__particleSystem))  _particleSystem;
 
-constexpr void __set__particleSystem(::UnityEngine::ParticleSystem value) ;
+constexpr void __set__particleSystem(UnityEngine::ParticleSystem value) ;
 
-constexpr ::UnityEngine::ParticleSystem __get__particleSystem() const;
+constexpr UnityEngine::ParticleSystem __get__particleSystem() const;
 
  bool __declspec(property(get=__get__setOnlyOnce, put=__set__setOnlyOnce))  _setOnlyOnce;
 
@@ -86,17 +85,17 @@ constexpr void __set__minAlpha(float_t value) ;
 
 constexpr float_t __get__minAlpha() const;
 
- ::UnityEngine::____UnityEngine__ParticleSystem__MainModule __declspec(property(get=__get__mainModule, put=__set__mainModule))  _mainModule;
+ UnityEngine::UnityEngine__ParticleSystem__MainModule __declspec(property(get=__get__mainModule, put=__set__mainModule))  _mainModule;
 
-constexpr void __set__mainModule(::UnityEngine::____UnityEngine__ParticleSystem__MainModule value) ;
+constexpr void __set__mainModule(UnityEngine::UnityEngine__ParticleSystem__MainModule value) ;
 
-constexpr ::UnityEngine::____UnityEngine__ParticleSystem__MainModule __get__mainModule() const;
+constexpr UnityEngine::UnityEngine__ParticleSystem__MainModule __get__mainModule() const;
 
- ::ArrayW<::UnityEngine::____UnityEngine__ParticleSystem__Particle> __declspec(property(get=__get__particles, put=__set__particles))  _particles;
+ ::ArrayW<UnityEngine::UnityEngine__ParticleSystem__Particle> __declspec(property(get=__get__particles, put=__set__particles))  _particles;
 
-constexpr void __set__particles(::ArrayW<::UnityEngine::____UnityEngine__ParticleSystem__Particle> value) ;
+constexpr void __set__particles(::ArrayW<UnityEngine::UnityEngine__ParticleSystem__Particle> value) ;
 
-constexpr ::ArrayW<::UnityEngine::____UnityEngine__ParticleSystem__Particle> __get__particles() const;
+constexpr ::ArrayW<UnityEngine::UnityEngine__ParticleSystem__Particle> __get__particles() const;
 
 
 // Methods
@@ -105,7 +104,7 @@ constexpr ::ArrayW<::UnityEngine::____UnityEngine__ParticleSystem__Particle> __g
  void Awake() ;
 
 /// @brief Method ColorWasSet addr 0x1f9fb38 size 0x460 virtual true final false
- void ColorWasSet(::UnityEngine::Color color) ;
+ void ColorWasSet(UnityEngine::Color color) ;
 
 // Ctor Parameters []
 explicit ParticleSystemLightWithIds() ;
@@ -117,6 +116,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ParticleSystemLightWithIds);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ParticleSystemLightWithIds, "", "ParticleSystemLightWithIds");
+NEED_NO_BOX(GlobalNamespace::ParticleSystemLightWithIds);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ParticleSystemLightWithIds, "", "ParticleSystemLightWithIds");

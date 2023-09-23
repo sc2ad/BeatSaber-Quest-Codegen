@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include <cmath>
-namespace {
-namespace GlobalNamespace {
-class TransitionTimingSO;
-}
 namespace GlobalNamespace {
 struct EaseType;
+}
+namespace GlobalNamespace {
+class TransitionTimingSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5545))
 // CS Name: BaseTransitionSO
-class CORDL_TYPE BaseTransitionSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE BaseTransitionSO : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr BaseTransitionSO(BaseTransitionSO const& ) noexcept = default;
 constexpr BaseTransitionSO(BaseTransitionSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BaseTransitionSO(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit BaseTransitionSO(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -55,16 +54,16 @@ constexpr explicit BaseTransitionSO(void* ptr) noexcept : ::GlobalNamespace::Per
 
 // Fields
 
- ::GlobalNamespace::TransitionTimingSO __declspec(property(get=__get__transitionTiming, put=__set__transitionTiming))  _transitionTiming;
+ GlobalNamespace::TransitionTimingSO __declspec(property(get=__get__transitionTiming, put=__set__transitionTiming))  _transitionTiming;
 
-constexpr void __set__transitionTiming(::GlobalNamespace::TransitionTimingSO value) ;
+constexpr void __set__transitionTiming(GlobalNamespace::TransitionTimingSO value) ;
 
-constexpr ::GlobalNamespace::TransitionTimingSO __get__transitionTiming() const;
+constexpr GlobalNamespace::TransitionTimingSO __get__transitionTiming() const;
 
 
 // Properties
 
- ::GlobalNamespace::EaseType __declspec(property(get=get_easeType))  easeType;
+ GlobalNamespace::EaseType __declspec(property(get=get_easeType))  easeType;
 
  float_t __declspec(property(get=get_easeDuration))  easeDuration;
 
@@ -72,7 +71,7 @@ constexpr ::GlobalNamespace::TransitionTimingSO __get__transitionTiming() const;
 // Methods
 
 /// @brief Method get_easeType addr 0x2127e70 size 0x1c virtual false final false
- ::GlobalNamespace::EaseType get_easeType() ;
+ GlobalNamespace::EaseType get_easeType() ;
 
 /// @brief Method get_easeDuration addr 0x2127e8c size 0x1c virtual false final false
  float_t get_easeDuration() ;
@@ -87,6 +86,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BaseTransitionSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BaseTransitionSO, "", "BaseTransitionSO");
+NEED_NO_BOX(GlobalNamespace::BaseTransitionSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseTransitionSO, "", "BaseTransitionSO");

@@ -4,13 +4,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace System {
 template<typename T>
 class IEquatable_1;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -28,11 +27,11 @@ namespace UnityEngine {
 struct CORDL_TYPE Pose : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::Pose>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::Pose>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::Pose>
+constexpr operator  System::IEquatable_1<UnityEngine::Pose>() const;
 
-// Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }]
-constexpr Pose(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation) noexcept;
+// Ctor Parameters [CppParam { name: "position", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "UnityEngine::Quaternion", modifiers: "", def_value: None }]
+constexpr Pose(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation) noexcept;
 
 
                     constexpr Pose(Pose const&) = default;
@@ -65,54 +64,54 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_position, put=__set_position))  position;
+ UnityEngine::Vector3 __declspec(property(get=__get_position, put=__set_position))  position;
 
-constexpr void __set_position(::UnityEngine::Vector3 value) ;
+constexpr void __set_position(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_position() const;
+constexpr UnityEngine::Vector3 __get_position() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get_rotation, put=__set_rotation))  rotation;
+ UnityEngine::Quaternion __declspec(property(get=__get_rotation, put=__set_rotation))  rotation;
 
-constexpr void __set_rotation(::UnityEngine::Quaternion value) ;
+constexpr void __set_rotation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get_rotation() const;
+constexpr UnityEngine::Quaternion __get_rotation() const;
 
-static ::UnityEngine::Pose __declspec(property(get=__get_k_Identity, put=__set_k_Identity))  k_Identity;
+static UnityEngine::Pose __declspec(property(get=__get_k_Identity, put=__set_k_Identity))  k_Identity;
 
-static void __set_k_Identity(::UnityEngine::Pose value) ;
+static void __set_k_Identity(UnityEngine::Pose value) ;
 
-static ::UnityEngine::Pose __get_k_Identity() ;
+static UnityEngine::Pose __get_k_Identity() ;
 
 
 // Properties
 
- ::UnityEngine::Vector3 __declspec(property(get=get_forward))  forward;
+ UnityEngine::Vector3 __declspec(property(get=get_forward))  forward;
 
-static ::UnityEngine::Pose __declspec(property(get=get_identity))  identity;
+static UnityEngine::Pose __declspec(property(get=get_identity))  identity;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x2b2c16c size 0x14 virtual false final false
- void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation) ;
+ void _ctor(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation) ;
 
 /// @brief Method ToString addr 0x2b2c180 size 0xf4 virtual true final false
  ::StringW ToString() ;
 
 /// @brief Method GetTransformedBy addr 0x2b2c274 size 0xe4 virtual false final false
- ::UnityEngine::Pose GetTransformedBy(::UnityEngine::Pose lhs) ;
+ UnityEngine::Pose GetTransformedBy(UnityEngine::Pose lhs) ;
 
 /// @brief Method get_forward addr 0x2b2c358 size 0x70 virtual false final false
- ::UnityEngine::Vector3 get_forward() ;
+ UnityEngine::Vector3 get_forward() ;
 
 /// @brief Method get_identity addr 0x2b2c3c8 size 0x68 virtual false final false
-static ::UnityEngine::Pose get_identity() ;
+static UnityEngine::Pose get_identity() ;
 
 /// @brief Method Equals addr 0x2b2c430 size 0x90 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x2b2c4c0 size 0x84 virtual true final true
- bool Equals(::UnityEngine::Pose other) ;
+ bool Equals(UnityEngine::Pose other) ;
 
 /// @brief Method GetHashCode addr 0x2b2c544 size 0xac virtual true final false
  int32_t GetHashCode() ;
@@ -121,5 +120,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Pose, "UnityEngine", "Pose");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Pose, "UnityEngine", "Pose");

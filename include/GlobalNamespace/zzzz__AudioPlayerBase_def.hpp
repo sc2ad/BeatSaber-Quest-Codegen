@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 class AudioClip;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4035))
 // CS Name: AudioPlayerBase
-class CORDL_TYPE AudioPlayerBase : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE AudioPlayerBase : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr AudioPlayerBase(AudioPlayerBase const& ) noexcept = default;
 constexpr AudioPlayerBase(AudioPlayerBase&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AudioPlayerBase(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit AudioPlayerBase(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -52,13 +51,13 @@ constexpr explicit AudioPlayerBase(void* ptr) noexcept : ::UnityEngine::MonoBeha
 
 // Properties
 
- ::UnityEngine::AudioClip __declspec(property(get=get_activeAudioClip))  activeAudioClip;
+ UnityEngine::AudioClip __declspec(property(get=get_activeAudioClip))  activeAudioClip;
 
 
 // Methods
 
 /// @brief Method get_activeAudioClip addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::AudioClip get_activeAudioClip() ;
+ UnityEngine::AudioClip get_activeAudioClip() ;
 
 /// @brief Method FadeOut addr 0x0 size 0xffffffffffffffff virtual true final false
  void FadeOut(float_t duration) ;
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::AudioPlayerBase);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AudioPlayerBase, "", "AudioPlayerBase");
+NEED_NO_BOX(GlobalNamespace::AudioPlayerBase);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioPlayerBase, "", "AudioPlayerBase");

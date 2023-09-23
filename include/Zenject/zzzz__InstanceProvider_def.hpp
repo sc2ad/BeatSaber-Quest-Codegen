@@ -2,28 +2,27 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace {
+namespace Zenject {
+class IProvider;
+}
 namespace System {
 class Type;
-}
-namespace Zenject {
-struct TypeValuePair;
 }
 namespace Zenject {
 class InjectContext;
 }
 namespace Zenject {
-class IProvider;
-}
-namespace Zenject {
 class DiContainer;
-}
-namespace System {
-class Action;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace Zenject {
+struct TypeValuePair;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace Zenject {
@@ -38,8 +37,8 @@ namespace Zenject {
 class CORDL_TYPE InstanceProvider : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Zenject::IProvider
-constexpr operator  ::Zenject::IProvider() const noexcept;
+/// @brief Convert operator to Zenject::IProvider
+constexpr operator  Zenject::IProvider() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -80,17 +79,17 @@ constexpr void __set__instance(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get__instance() const;
 
- ::System::Type __declspec(property(get=__get__instanceType, put=__set__instanceType))  _instanceType;
+ System::Type __declspec(property(get=__get__instanceType, put=__set__instanceType))  _instanceType;
 
-constexpr void __set__instanceType(::System::Type value) ;
+constexpr void __set__instanceType(System::Type value) ;
 
-constexpr ::System::Type __get__instanceType() const;
+constexpr System::Type __get__instanceType() const;
 
- ::Zenject::DiContainer __declspec(property(get=__get__container, put=__set__container))  _container;
+ Zenject::DiContainer __declspec(property(get=__get__container, put=__set__container))  _container;
 
-constexpr void __set__container(::Zenject::DiContainer value) ;
+constexpr void __set__container(Zenject::DiContainer value) ;
 
-constexpr ::Zenject::DiContainer __get__container() const;
+constexpr Zenject::DiContainer __get__container() const;
 
 
 // Properties
@@ -102,11 +101,11 @@ constexpr ::Zenject::DiContainer __get__container() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "instanceType", ty: "::System::Type", modifiers: "", def_value: None }, CppParam { name: "instance", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "container", ty: "::Zenject::DiContainer", modifiers: "", def_value: None }]
-explicit InstanceProvider(::System::Type instanceType, ::bs_hook::Il2CppWrapperType instance, ::Zenject::DiContainer container) ;
+// Ctor Parameters [CppParam { name: "instanceType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "instance", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }]
+explicit InstanceProvider(System::Type instanceType, ::bs_hook::Il2CppWrapperType instance, Zenject::DiContainer container) ;
 
 /// @brief Method .ctor addr 0x2d8e44c size 0x3c virtual false final false
- void _ctor(::System::Type instanceType, ::bs_hook::Il2CppWrapperType instance, ::Zenject::DiContainer container) ;
+ void _ctor(System::Type instanceType, ::bs_hook::Il2CppWrapperType instance, Zenject::DiContainer container) ;
 
 /// @brief Method get_IsCached addr 0x2d8e488 size 0x8 virtual true final true
  bool get_IsCached() ;
@@ -115,10 +114,10 @@ explicit InstanceProvider(::System::Type instanceType, ::bs_hook::Il2CppWrapperT
  bool get_TypeVariesBasedOnMemberType() ;
 
 /// @brief Method GetInstanceType addr 0x2d8e498 size 0x8 virtual true final true
- ::System::Type GetInstanceType(::Zenject::InjectContext context) ;
+ System::Type GetInstanceType(Zenject::InjectContext context) ;
 
 /// @brief Method GetAllInstancesWithInjectSplit addr 0x2d8e4a0 size 0x1a4 virtual true final true
- void GetAllInstancesWithInjectSplit(::Zenject::InjectContext context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair> args, ByRef<::System::Action> injectAction, ::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> buffer) ;
+ void GetAllInstancesWithInjectSplit(Zenject::InjectContext context, System::Collections::Generic::List_1<Zenject::TypeValuePair> args, ByRef<System::Action> injectAction, System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> buffer) ;
 
 /// @brief Method <GetAllInstancesWithInjectSplit>b__9_0 addr 0x2d8e644 size 0x54 virtual false final false
  void _GetAllInstancesWithInjectSplit_b__9_0() ;
@@ -127,6 +126,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::InstanceProvider);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::InstanceProvider, "Zenject", "InstanceProvider");
+NEED_NO_BOX(Zenject::InstanceProvider);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::InstanceProvider, "Zenject", "InstanceProvider");

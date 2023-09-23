@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 class AnimationCurve;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Keyframe;
 }
 namespace UnityEngine {
-struct Keyframe;
+struct Quaternion;
 }
 // Forward declare root types
 namespace RootMotion {
@@ -60,24 +59,23 @@ constexpr explicit BakerUtilities(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 // Methods
 
 /// @brief Method ReduceKeyframes addr 0x11a82ec size 0x38 virtual false final false
-static void ReduceKeyframes(::UnityEngine::AnimationCurve curve, float_t maxError) ;
+static void ReduceKeyframes(UnityEngine::AnimationCurve curve, float_t maxError) ;
 
 /// @brief Method GetReducedKeyframes addr 0x11a8324 size 0x3c4 virtual false final false
-static ::ArrayW<::UnityEngine::Keyframe> GetReducedKeyframes(::UnityEngine::AnimationCurve curve, float_t maxError) ;
+static ::ArrayW<UnityEngine::Keyframe> GetReducedKeyframes(UnityEngine::AnimationCurve curve, float_t maxError) ;
 
 /// @brief Method SetLoopFrame addr 0x11a86e8 size 0x1e0 virtual false final false
-static void SetLoopFrame(float_t time, ::UnityEngine::AnimationCurve curve) ;
+static void SetLoopFrame(float_t time, UnityEngine::AnimationCurve curve) ;
 
 /// @brief Method SetTangentMode addr 0x11a88c8 size 0x4 virtual false final false
-static void SetTangentMode(::UnityEngine::AnimationCurve curve) ;
+static void SetTangentMode(UnityEngine::AnimationCurve curve) ;
 
 /// @brief Method EnsureQuaternionContinuity addr 0x11a88cc size 0x194 virtual false final false
-static ::UnityEngine::Quaternion EnsureQuaternionContinuity(::UnityEngine::Quaternion lastQ, ::UnityEngine::Quaternion q) ;
+static UnityEngine::Quaternion EnsureQuaternionContinuity(UnityEngine::Quaternion lastQ, UnityEngine::Quaternion q) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::BakerUtilities);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::BakerUtilities, "RootMotion", "BakerUtilities");
+NEED_NO_BOX(RootMotion::BakerUtilities);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::BakerUtilities, "RootMotion", "BakerUtilities");

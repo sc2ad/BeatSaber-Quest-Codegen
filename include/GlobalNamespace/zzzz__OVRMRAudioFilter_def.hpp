@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 class OVRExternalComposition;
 }
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8443))
 // CS Name: OVRMRAudioFilter
-class CORDL_TYPE OVRMRAudioFilter : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OVRMRAudioFilter : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr OVRMRAudioFilter(OVRMRAudioFilter const& ) noexcept = default;
 constexpr OVRMRAudioFilter(OVRMRAudioFilter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OVRMRAudioFilter(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OVRMRAudioFilter(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -60,11 +59,11 @@ constexpr void __set_running(bool value) ;
 
 constexpr bool __get_running() const;
 
- ::GlobalNamespace::OVRExternalComposition __declspec(property(get=__get_composition, put=__set_composition))  composition;
+ GlobalNamespace::OVRExternalComposition __declspec(property(get=__get_composition, put=__set_composition))  composition;
 
-constexpr void __set_composition(::GlobalNamespace::OVRExternalComposition value) ;
+constexpr void __set_composition(GlobalNamespace::OVRExternalComposition value) ;
 
-constexpr ::GlobalNamespace::OVRExternalComposition __get_composition() const;
+constexpr GlobalNamespace::OVRExternalComposition __get_composition() const;
 
 
 // Methods
@@ -85,6 +84,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OVRMRAudioFilter);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRMRAudioFilter, "", "OVRMRAudioFilter");
+NEED_NO_BOX(GlobalNamespace::OVRMRAudioFilter);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMRAudioFilter, "", "OVRMRAudioFilter");

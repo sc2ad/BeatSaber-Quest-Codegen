@@ -4,12 +4,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct TextureFormat;
 }
-namespace UnityEngine::Profiling::Memory::Experimental {
-class MetaData;
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
 }
 namespace UnityEngine::Profiling::Experimental {
 struct DebugScreenCapture;
@@ -19,12 +19,11 @@ template<typename T>
 class Action_1;
 }
 namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
-namespace System {
 template<typename T1,typename T2,typename T3>
 class Action_3;
+}
+namespace UnityEngine::Profiling::Memory::Experimental {
+class MetaData;
 }
 // Forward declare root types
 namespace UnityEngine::Profiling::Memory::Experimental {
@@ -72,23 +71,23 @@ constexpr explicit MemoryProfiler(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
-static ::System::Action_2<::StringW,bool> __declspec(property(get=__get_m_SnapshotFinished, put=__set_m_SnapshotFinished))  m_SnapshotFinished;
+static System::Action_2<::StringW,bool> __declspec(property(get=__get_m_SnapshotFinished, put=__set_m_SnapshotFinished))  m_SnapshotFinished;
 
-static void __set_m_SnapshotFinished(::System::Action_2<::StringW,bool> value) ;
+static void __set_m_SnapshotFinished(System::Action_2<::StringW,bool> value) ;
 
-static ::System::Action_2<::StringW,bool> __get_m_SnapshotFinished() ;
+static System::Action_2<::StringW,bool> __get_m_SnapshotFinished() ;
 
-static ::System::Action_3<::StringW,bool,::UnityEngine::Profiling::Experimental::DebugScreenCapture> __declspec(property(get=__get_m_SaveScreenshotToDisk, put=__set_m_SaveScreenshotToDisk))  m_SaveScreenshotToDisk;
+static System::Action_3<::StringW,bool,UnityEngine::Profiling::Experimental::DebugScreenCapture> __declspec(property(get=__get_m_SaveScreenshotToDisk, put=__set_m_SaveScreenshotToDisk))  m_SaveScreenshotToDisk;
 
-static void __set_m_SaveScreenshotToDisk(::System::Action_3<::StringW,bool,::UnityEngine::Profiling::Experimental::DebugScreenCapture> value) ;
+static void __set_m_SaveScreenshotToDisk(System::Action_3<::StringW,bool,UnityEngine::Profiling::Experimental::DebugScreenCapture> value) ;
 
-static ::System::Action_3<::StringW,bool,::UnityEngine::Profiling::Experimental::DebugScreenCapture> __get_m_SaveScreenshotToDisk() ;
+static System::Action_3<::StringW,bool,UnityEngine::Profiling::Experimental::DebugScreenCapture> __get_m_SaveScreenshotToDisk() ;
 
-static ::System::Action_1<::UnityEngine::Profiling::Memory::Experimental::MetaData> __declspec(property(get=__get_createMetaData, put=__set_createMetaData))  createMetaData;
+static System::Action_1<UnityEngine::Profiling::Memory::Experimental::MetaData> __declspec(property(get=__get_createMetaData, put=__set_createMetaData))  createMetaData;
 
-static void __set_createMetaData(::System::Action_1<::UnityEngine::Profiling::Memory::Experimental::MetaData> value) ;
+static void __set_createMetaData(System::Action_1<UnityEngine::Profiling::Memory::Experimental::MetaData> value) ;
 
-static ::System::Action_1<::UnityEngine::Profiling::Memory::Experimental::MetaData> __get_createMetaData() ;
+static System::Action_1<UnityEngine::Profiling::Memory::Experimental::MetaData> __get_createMetaData() ;
 
 
 // Methods
@@ -106,12 +105,11 @@ static int32_t WriteStringToByteArray(::ArrayW<uint8_t> array, int32_t offset, :
 static void FinalizeSnapshot(::StringW path, bool result) ;
 
 /// @brief Method SaveScreenshotToDisk addr 0x2b6edb0 size 0xfc virtual false final false
-static void SaveScreenshotToDisk(::StringW path, bool result, ::cordl_internals::intptr_t pixelsPtr, int32_t pixelsCount, ::UnityEngine::TextureFormat format, int32_t width, int32_t height) ;
+static void SaveScreenshotToDisk(::StringW path, bool result, ::cordl_internals::intptr_t pixelsPtr, int32_t pixelsCount, UnityEngine::TextureFormat format, int32_t width, int32_t height) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Profiling::Memory::Experimental
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Profiling::Memory::Experimental::MemoryProfiler);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Profiling::Memory::Experimental::MemoryProfiler, "UnityEngine.Profiling.Memory.Experimental", "MemoryProfiler");
+NEED_NO_BOX(UnityEngine::Profiling::Memory::Experimental::MemoryProfiler);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Profiling::Memory::Experimental::MemoryProfiler, "UnityEngine.Profiling.Memory.Experimental", "MemoryProfiler");

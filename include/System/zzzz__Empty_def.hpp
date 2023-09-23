@@ -2,15 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
 }
 // Forward declare root types
 namespace System {
@@ -25,8 +24,8 @@ namespace System {
 class CORDL_TYPE Empty : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::Serialization::ISerializable
-constexpr operator  ::System::Runtime::Serialization::ISerializable() const noexcept;
+/// @brief Convert operator to System::Runtime::Serialization::ISerializable
+constexpr operator  System::Runtime::Serialization::ISerializable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -61,11 +60,11 @@ constexpr explicit Empty(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr)
 
 // Fields
 
-static ::System::Empty __declspec(property(get=__get_Value, put=__set_Value))  Value;
+static System::Empty __declspec(property(get=__get_Value, put=__set_Value))  Value;
 
-static void __set_Value(::System::Empty value) ;
+static void __set_Value(System::Empty value) ;
 
-static ::System::Empty __get_Value() ;
+static System::Empty __get_Value() ;
 
 
 // Methods
@@ -80,12 +79,11 @@ explicit Empty() ;
  ::StringW ToString() ;
 
 /// @brief Method GetObjectData addr 0x247389c size 0x6c virtual true final true
- void GetObjectData(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void GetObjectData(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::Empty);
-DEFINE_IL2CPP_ARG_TYPE(::System::Empty, "System", "Empty");
+NEED_NO_BOX(System::Empty);
+DEFINE_IL2CPP_ARG_TYPE(System::Empty, "System", "Empty");

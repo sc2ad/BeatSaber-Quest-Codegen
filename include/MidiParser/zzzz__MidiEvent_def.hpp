@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace MidiParser {
 struct MetaEventType;
 }
@@ -86,7 +85,7 @@ constexpr int32_t __get_Arg3() const;
 
 // Properties
 
- ::MidiParser::MetaEventType __declspec(property(get=get_MetaEventType))  MetaEventType;
+ MidiParser::MetaEventType __declspec(property(get=get_MetaEventType))  MetaEventType;
 
  int32_t __declspec(property(get=get_Channel))  Channel;
 
@@ -100,7 +99,7 @@ constexpr int32_t __get_Arg3() const;
 // Methods
 
 /// @brief Method get_MetaEventType addr 0x227900c size 0x8 virtual false final false
- ::MidiParser::MetaEventType get_MetaEventType() ;
+ MidiParser::MetaEventType get_MetaEventType() ;
 
 /// @brief Method get_Channel addr 0x2279014 size 0x8 virtual false final false
  int32_t get_Channel() ;
@@ -118,5 +117,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def MidiParser
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::MidiParser::MidiEvent, "MidiParser", "MidiEvent");
+DEFINE_IL2CPP_ARG_TYPE(MidiParser::MidiEvent, "MidiParser", "MidiEvent");

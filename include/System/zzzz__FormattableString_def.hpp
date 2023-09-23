@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-class IFormattable;
-}
 namespace System {
 class IFormatProvider;
+}
+namespace System {
+class IFormattable;
 }
 // Forward declare root types
 namespace System {
@@ -24,8 +23,8 @@ namespace System {
 class CORDL_TYPE FormattableString : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IFormattable
-constexpr operator  ::System::IFormattable() const noexcept;
+/// @brief Convert operator to System::IFormattable
+constexpr operator  System::IFormattable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -80,10 +79,10 @@ constexpr explicit FormattableString(void* ptr) noexcept : ::bs_hook::Il2CppWrap
  ::bs_hook::Il2CppWrapperType GetArgument(int32_t index) ;
 
 /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
- ::StringW ToString(::System::IFormatProvider formatProvider) ;
+ ::StringW ToString(System::IFormatProvider formatProvider) ;
 
 /// @brief Method System.IFormattable.ToString addr 0x242944c size 0x14 virtual true final true
- ::StringW System_IFormattable_ToString(::StringW ignored, ::System::IFormatProvider formatProvider) ;
+ ::StringW System_IFormattable_ToString(::StringW ignored, System::IFormatProvider formatProvider) ;
 
 /// @brief Method ToString addr 0x2429460 size 0x68 virtual true final false
  ::StringW ToString() ;
@@ -98,6 +97,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::FormattableString);
-DEFINE_IL2CPP_ARG_TYPE(::System::FormattableString, "System", "FormattableString");
+NEED_NO_BOX(System::FormattableString);
+DEFINE_IL2CPP_ARG_TYPE(System::FormattableString, "System", "FormattableString");

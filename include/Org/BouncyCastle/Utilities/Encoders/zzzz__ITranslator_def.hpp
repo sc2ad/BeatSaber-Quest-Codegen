@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Encoders {
 class ITranslator;
@@ -41,6 +40,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities::Encoders
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::Encoders::ITranslator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Encoders::ITranslator, "Org.BouncyCastle.Utilities.Encoders", "ITranslator");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Encoders::ITranslator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Encoders::ITranslator, "Org.BouncyCastle.Utilities.Encoders", "ITranslator");

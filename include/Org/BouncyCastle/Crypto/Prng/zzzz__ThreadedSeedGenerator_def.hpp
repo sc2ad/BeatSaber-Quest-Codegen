@@ -3,13 +3,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Prng {
-class ThreadedSeedGenerator;
+class Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator;
 }
 namespace Org::BouncyCastle::Crypto::Prng {
-class ____Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator;
+class ThreadedSeedGenerator;
 }
 // Type: ::SeedGenerator
 namespace Org::BouncyCastle::Crypto::Prng {
@@ -17,37 +16,37 @@ namespace Org::BouncyCastle::Crypto::Prng {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1117))
 // CS Name: Org.BouncyCastle.Crypto.Prng.ThreadedSeedGenerator::SeedGenerator
-class CORDL_TYPE ____Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator() = default;
+virtual ~Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator", modifiers: " const&", def_value: None }]
-constexpr ____Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator(____Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator", modifiers: " const&", def_value: None }]
+constexpr Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator(Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator", modifiers: "&&", def_value: None }]
-constexpr ____Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator(____Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator", modifiers: "&&", def_value: None }]
+constexpr Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator(Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator& operator=(std::nullptr_t) noexcept {
+  constexpr Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator& operator=(void* o) noexcept {
+  constexpr Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator& operator=(____Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator&& o) noexcept = default;
-  constexpr ____Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator& operator=(____Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator const& o) noexcept = default;
+  constexpr Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator& operator=(Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator&& o) noexcept = default;
+  constexpr Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator& operator=(Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator const& o) noexcept = default;
                 
 
 
@@ -78,7 +77,7 @@ constexpr bool __get_stop() const;
  ::ArrayW<uint8_t> DoGenerateSeed(int32_t numBytes, bool fast) ;
 
 // Ctor Parameters []
-explicit ____Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator() ;
+explicit Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator() ;
 
 /// @brief Method .ctor addr 0xeb6b0c size 0x28 virtual false final false
  void _ctor() ;
@@ -96,7 +95,7 @@ namespace Org::BouncyCastle::Crypto::Prng {
 class CORDL_TYPE ThreadedSeedGenerator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using SeedGenerator = ::Org::BouncyCastle::Crypto::Prng::____Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator;
+using SeedGenerator = Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -144,8 +143,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Prng
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator, "Org.BouncyCastle.Crypto.Prng", "ThreadedSeedGenerator");
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Prng::____Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Prng::____Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator, "Org.BouncyCastle.Crypto.Prng", "ThreadedSeedGenerator/SeedGenerator");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator, "Org.BouncyCastle.Crypto.Prng", "ThreadedSeedGenerator/SeedGenerator");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator, "Org.BouncyCastle.Crypto.Prng", "ThreadedSeedGenerator");

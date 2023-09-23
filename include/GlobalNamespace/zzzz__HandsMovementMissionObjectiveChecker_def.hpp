@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__SimpleValueMissionObjectiveChecker_def.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
 class SaberActivityCounter;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5198))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5191))
 // CS Name: HandsMovementMissionObjectiveChecker
-class CORDL_TYPE HandsMovementMissionObjectiveChecker : public ::GlobalNamespace::SimpleValueMissionObjectiveChecker {
+class CORDL_TYPE HandsMovementMissionObjectiveChecker : public GlobalNamespace::SimpleValueMissionObjectiveChecker {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr HandsMovementMissionObjectiveChecker(HandsMovementMissionObjectiveChec
 constexpr HandsMovementMissionObjectiveChecker(HandsMovementMissionObjectiveChecker&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HandsMovementMissionObjectiveChecker(void* ptr) noexcept : ::GlobalNamespace::SimpleValueMissionObjectiveChecker(ptr) {
+constexpr explicit HandsMovementMissionObjectiveChecker(void* ptr) noexcept : GlobalNamespace::SimpleValueMissionObjectiveChecker(ptr) {
 }
 
 
@@ -52,11 +51,11 @@ constexpr explicit HandsMovementMissionObjectiveChecker(void* ptr) noexcept : ::
 
 // Fields
 
- ::GlobalNamespace::SaberActivityCounter __declspec(property(get=__get__saberActivityCounter, put=__set__saberActivityCounter))  _saberActivityCounter;
+ GlobalNamespace::SaberActivityCounter __declspec(property(get=__get__saberActivityCounter, put=__set__saberActivityCounter))  _saberActivityCounter;
 
-constexpr void __set__saberActivityCounter(::GlobalNamespace::SaberActivityCounter value) ;
+constexpr void __set__saberActivityCounter(GlobalNamespace::SaberActivityCounter value) ;
 
-constexpr ::GlobalNamespace::SaberActivityCounter __get__saberActivityCounter() const;
+constexpr GlobalNamespace::SaberActivityCounter __get__saberActivityCounter() const;
 
 
 // Methods
@@ -80,6 +79,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::HandsMovementMissionObjectiveChecker);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::HandsMovementMissionObjectiveChecker, "", "HandsMovementMissionObjectiveChecker");
+NEED_NO_BOX(GlobalNamespace::HandsMovementMissionObjectiveChecker);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HandsMovementMissionObjectiveChecker, "", "HandsMovementMissionObjectiveChecker");

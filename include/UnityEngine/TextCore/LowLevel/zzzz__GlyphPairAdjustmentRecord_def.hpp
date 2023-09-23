@@ -3,16 +3,15 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System {
-template<typename T>
-class IEquatable_1;
-}
 namespace UnityEngine::TextCore::LowLevel {
 struct GlyphAdjustmentRecord;
 }
 namespace UnityEngine::TextCore::LowLevel {
 struct FontFeatureLookupFlags;
+}
+namespace System {
+template<typename T>
+class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::LowLevel {
@@ -27,11 +26,11 @@ namespace UnityEngine::TextCore::LowLevel {
 struct CORDL_TYPE GlyphPairAdjustmentRecord : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>
+constexpr operator  System::IEquatable_1<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>() const;
 
-// Ctor Parameters [CppParam { name: "m_FirstAdjustmentRecord", ty: "::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord", modifiers: "", def_value: None }, CppParam { name: "m_SecondAdjustmentRecord", ty: "::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord", modifiers: "", def_value: None }, CppParam { name: "m_FeatureLookupFlags", ty: "::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags", modifiers: "", def_value: None }]
-constexpr GlyphPairAdjustmentRecord(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord m_FirstAdjustmentRecord, ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord m_SecondAdjustmentRecord, ::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags m_FeatureLookupFlags) noexcept;
+// Ctor Parameters [CppParam { name: "m_FirstAdjustmentRecord", ty: "UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord", modifiers: "", def_value: None }, CppParam { name: "m_SecondAdjustmentRecord", ty: "UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord", modifiers: "", def_value: None }, CppParam { name: "m_FeatureLookupFlags", ty: "UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags", modifiers: "", def_value: None }]
+constexpr GlyphPairAdjustmentRecord(UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord m_FirstAdjustmentRecord, UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord m_SecondAdjustmentRecord, UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags m_FeatureLookupFlags) noexcept;
 
 
                     constexpr GlyphPairAdjustmentRecord(GlyphPairAdjustmentRecord const&) = default;
@@ -64,39 +63,39 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord __declspec(property(get=__get_m_FirstAdjustmentRecord, put=__set_m_FirstAdjustmentRecord))  m_FirstAdjustmentRecord;
+ UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord __declspec(property(get=__get_m_FirstAdjustmentRecord, put=__set_m_FirstAdjustmentRecord))  m_FirstAdjustmentRecord;
 
-constexpr void __set_m_FirstAdjustmentRecord(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord value) ;
+constexpr void __set_m_FirstAdjustmentRecord(UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord value) ;
 
-constexpr ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord __get_m_FirstAdjustmentRecord() const;
+constexpr UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord __get_m_FirstAdjustmentRecord() const;
 
- ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord __declspec(property(get=__get_m_SecondAdjustmentRecord, put=__set_m_SecondAdjustmentRecord))  m_SecondAdjustmentRecord;
+ UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord __declspec(property(get=__get_m_SecondAdjustmentRecord, put=__set_m_SecondAdjustmentRecord))  m_SecondAdjustmentRecord;
 
-constexpr void __set_m_SecondAdjustmentRecord(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord value) ;
+constexpr void __set_m_SecondAdjustmentRecord(UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord value) ;
 
-constexpr ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord __get_m_SecondAdjustmentRecord() const;
+constexpr UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord __get_m_SecondAdjustmentRecord() const;
 
- ::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags __declspec(property(get=__get_m_FeatureLookupFlags, put=__set_m_FeatureLookupFlags))  m_FeatureLookupFlags;
+ UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags __declspec(property(get=__get_m_FeatureLookupFlags, put=__set_m_FeatureLookupFlags))  m_FeatureLookupFlags;
 
-constexpr void __set_m_FeatureLookupFlags(::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags value) ;
+constexpr void __set_m_FeatureLookupFlags(UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags value) ;
 
-constexpr ::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags __get_m_FeatureLookupFlags() const;
+constexpr UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags __get_m_FeatureLookupFlags() const;
 
 
 // Properties
 
- ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord __declspec(property(get=get_firstAdjustmentRecord))  firstAdjustmentRecord;
+ UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord __declspec(property(get=get_firstAdjustmentRecord))  firstAdjustmentRecord;
 
- ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord __declspec(property(get=get_secondAdjustmentRecord))  secondAdjustmentRecord;
+ UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord __declspec(property(get=get_secondAdjustmentRecord))  secondAdjustmentRecord;
 
 
 // Methods
 
 /// @brief Method get_firstAdjustmentRecord addr 0x2baca64 size 0x14 virtual false final false
- ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord get_firstAdjustmentRecord() ;
+ UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord get_firstAdjustmentRecord() ;
 
 /// @brief Method get_secondAdjustmentRecord addr 0x2baca78 size 0x14 virtual false final false
- ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord get_secondAdjustmentRecord() ;
+ UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord get_secondAdjustmentRecord() ;
 
 /// @brief Method GetHashCode addr 0x2baca8c size 0x6c virtual true final false
  int32_t GetHashCode() ;
@@ -105,11 +104,10 @@ constexpr ::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags __get_m_Feat
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x2bacb78 size 0xa4 virtual true final true
- bool Equals(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord other) ;
+ bool Equals(UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord other) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::LowLevel
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, "UnityEngine.TextCore.LowLevel", "GlyphPairAdjustmentRecord");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, "UnityEngine.TextCore.LowLevel", "GlyphPairAdjustmentRecord");

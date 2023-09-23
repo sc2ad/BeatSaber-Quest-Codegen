@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
 class ChaChaEngine;
@@ -15,7 +14,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(836))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(838))
 // CS Name: Org.BouncyCastle.Crypto.Engines.ChaChaEngine
-class CORDL_TYPE ChaChaEngine : public ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine {
+class CORDL_TYPE ChaChaEngine : public Org::BouncyCastle::Crypto::Engines::Salsa20Engine {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr ChaChaEngine(ChaChaEngine const& ) noexcept = default;
 constexpr ChaChaEngine(ChaChaEngine&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ChaChaEngine(void* ptr) noexcept : ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine(ptr) {
+constexpr explicit ChaChaEngine(void* ptr) noexcept : Org::BouncyCastle::Crypto::Engines::Salsa20Engine(ptr) {
 }
 
 
@@ -90,6 +89,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Engines
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::ChaChaEngine);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Engines::ChaChaEngine, "Org.BouncyCastle.Crypto.Engines", "ChaChaEngine");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Engines::ChaChaEngine);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::ChaChaEngine, "Org.BouncyCastle.Crypto.Engines", "ChaChaEngine");

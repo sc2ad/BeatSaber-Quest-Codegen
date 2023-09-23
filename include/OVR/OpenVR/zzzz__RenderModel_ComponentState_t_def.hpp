@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace OVR::OpenVR {
 struct HmdMatrix34_t;
 }
@@ -19,8 +18,8 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE RenderModel_ComponentState_t : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "mTrackingToComponentRenderModel", ty: "::OVR::OpenVR::HmdMatrix34_t", modifiers: "", def_value: None }, CppParam { name: "mTrackingToComponentLocal", ty: "::OVR::OpenVR::HmdMatrix34_t", modifiers: "", def_value: None }, CppParam { name: "uProperties", ty: "uint32_t", modifiers: "", def_value: None }]
-constexpr RenderModel_ComponentState_t(::OVR::OpenVR::HmdMatrix34_t mTrackingToComponentRenderModel, ::OVR::OpenVR::HmdMatrix34_t mTrackingToComponentLocal, uint32_t uProperties) noexcept;
+// Ctor Parameters [CppParam { name: "mTrackingToComponentRenderModel", ty: "OVR::OpenVR::HmdMatrix34_t", modifiers: "", def_value: None }, CppParam { name: "mTrackingToComponentLocal", ty: "OVR::OpenVR::HmdMatrix34_t", modifiers: "", def_value: None }, CppParam { name: "uProperties", ty: "uint32_t", modifiers: "", def_value: None }]
+constexpr RenderModel_ComponentState_t(OVR::OpenVR::HmdMatrix34_t mTrackingToComponentRenderModel, OVR::OpenVR::HmdMatrix34_t mTrackingToComponentLocal, uint32_t uProperties) noexcept;
 
 
                     constexpr RenderModel_ComponentState_t(RenderModel_ComponentState_t const&) = default;
@@ -53,17 +52,17 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::OVR::OpenVR::HmdMatrix34_t __declspec(property(get=__get_mTrackingToComponentRenderModel, put=__set_mTrackingToComponentRenderModel))  mTrackingToComponentRenderModel;
+ OVR::OpenVR::HmdMatrix34_t __declspec(property(get=__get_mTrackingToComponentRenderModel, put=__set_mTrackingToComponentRenderModel))  mTrackingToComponentRenderModel;
 
-constexpr void __set_mTrackingToComponentRenderModel(::OVR::OpenVR::HmdMatrix34_t value) ;
+constexpr void __set_mTrackingToComponentRenderModel(OVR::OpenVR::HmdMatrix34_t value) ;
 
-constexpr ::OVR::OpenVR::HmdMatrix34_t __get_mTrackingToComponentRenderModel() const;
+constexpr OVR::OpenVR::HmdMatrix34_t __get_mTrackingToComponentRenderModel() const;
 
- ::OVR::OpenVR::HmdMatrix34_t __declspec(property(get=__get_mTrackingToComponentLocal, put=__set_mTrackingToComponentLocal))  mTrackingToComponentLocal;
+ OVR::OpenVR::HmdMatrix34_t __declspec(property(get=__get_mTrackingToComponentLocal, put=__set_mTrackingToComponentLocal))  mTrackingToComponentLocal;
 
-constexpr void __set_mTrackingToComponentLocal(::OVR::OpenVR::HmdMatrix34_t value) ;
+constexpr void __set_mTrackingToComponentLocal(OVR::OpenVR::HmdMatrix34_t value) ;
 
-constexpr ::OVR::OpenVR::HmdMatrix34_t __get_mTrackingToComponentLocal() const;
+constexpr OVR::OpenVR::HmdMatrix34_t __get_mTrackingToComponentLocal() const;
 
  uint32_t __declspec(property(get=__get_uProperties, put=__set_uProperties))  uProperties;
 
@@ -75,5 +74,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::RenderModel_ComponentState_t, "OVR.OpenVR", "RenderModel_ComponentState_t");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::RenderModel_ComponentState_t, "OVR.OpenVR", "RenderModel_ComponentState_t");

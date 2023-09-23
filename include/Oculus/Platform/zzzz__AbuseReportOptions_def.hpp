@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform {
 struct AbuseReportType;
 }
@@ -71,10 +70,10 @@ explicit AbuseReportOptions() ;
  void SetPreventPeopleChooser(bool value) ;
 
 /// @brief Method SetReportType addr 0x25521d0 size 0x68 virtual false final false
- void SetReportType(::Oculus::Platform::AbuseReportType value) ;
+ void SetReportType(Oculus::Platform::AbuseReportType value) ;
 
 /// @brief Method op_Explicit addr 0x25522bc size 0x58 virtual false final false
-static ::cordl_internals::intptr_t op_Explicit___cordl_internals__intptr_t(::Oculus::Platform::AbuseReportOptions options) ;
+static ::cordl_internals::intptr_t op_Explicit___cordl_internals__intptr_t(Oculus::Platform::AbuseReportOptions options) ;
 
 /// @brief Method Finalize addr 0x2552314 size 0xd4 virtual true final false
  void Finalize() ;
@@ -83,6 +82,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::AbuseReportOptions);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::AbuseReportOptions, "Oculus.Platform", "AbuseReportOptions");
+NEED_NO_BOX(Oculus::Platform::AbuseReportOptions);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::AbuseReportOptions, "Oculus.Platform", "AbuseReportOptions");

@@ -3,7 +3,6 @@
 #include "System/Net/NetworkInformation/zzzz__NetworkInterfaceFactory_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net::NetworkInformation {
 class UnixNetworkInterfaceAPI;
@@ -14,7 +13,7 @@ namespace System::Net::NetworkInformation {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8134))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8142))
 // CS Name: System.Net.NetworkInformation.UnixNetworkInterfaceAPI
-class CORDL_TYPE UnixNetworkInterfaceAPI : public ::System::Net::NetworkInformation::NetworkInterfaceFactory {
+class CORDL_TYPE UnixNetworkInterfaceAPI : public System::Net::NetworkInformation::NetworkInterfaceFactory {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr UnixNetworkInterfaceAPI(UnixNetworkInterfaceAPI const& ) noexcept = de
 constexpr UnixNetworkInterfaceAPI(UnixNetworkInterfaceAPI&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UnixNetworkInterfaceAPI(void* ptr) noexcept : ::System::Net::NetworkInformation::NetworkInterfaceFactory(ptr) {
+constexpr explicit UnixNetworkInterfaceAPI(void* ptr) noexcept : System::Net::NetworkInformation::NetworkInterfaceFactory(ptr) {
 }
 
 
@@ -66,6 +65,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::NetworkInformation
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::NetworkInformation::UnixNetworkInterfaceAPI);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::UnixNetworkInterfaceAPI, "System.Net.NetworkInformation", "UnixNetworkInterfaceAPI");
+NEED_NO_BOX(System::Net::NetworkInformation::UnixNetworkInterfaceAPI);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::UnixNetworkInterfaceAPI, "System.Net.NetworkInformation", "UnixNetworkInterfaceAPI");

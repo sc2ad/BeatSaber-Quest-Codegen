@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem::Android::LowLevel {
 struct AndroidInputSource;
@@ -74,35 +73,34 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Keyboard offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Keyboard;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Keyboard;
 
 /// @brief Field Dpad offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Dpad;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Dpad;
 
 /// @brief Field Gamepad offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Gamepad;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Gamepad;
 
 /// @brief Field Touchscreen offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Touchscreen;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Touchscreen;
 
 /// @brief Field Mouse offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Mouse;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Mouse;
 
 /// @brief Field Stylus offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Stylus;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Stylus;
 
 /// @brief Field Trackball offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Trackball;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Trackball;
 
 /// @brief Field Touchpad offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Touchpad;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Touchpad;
 
 /// @brief Field Joystick offset 0
-static ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Joystick;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Joystick;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Android::LowLevel
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource, "UnityEngine.InputSystem.Android.LowLevel", "AndroidInputSource");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource, "UnityEngine.InputSystem.Android.LowLevel", "AndroidInputSource");

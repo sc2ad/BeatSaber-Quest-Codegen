@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace Oculus::Platform {
 template<typename T>
 class Request_1;
@@ -54,12 +53,11 @@ constexpr explicit CloudStorage2(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 // Methods
 
 /// @brief Method GetUserDirectoryPath addr 0x2593b1c size 0x15c virtual false final false
-static ::Oculus::Platform::Request_1<::StringW> GetUserDirectoryPath() ;
+static Oculus::Platform::Request_1<::StringW> GetUserDirectoryPath() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::CloudStorage2);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::CloudStorage2, "Oculus.Platform", "CloudStorage2");
+NEED_NO_BOX(Oculus::Platform::CloudStorage2);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CloudStorage2, "Oculus.Platform", "CloudStorage2");

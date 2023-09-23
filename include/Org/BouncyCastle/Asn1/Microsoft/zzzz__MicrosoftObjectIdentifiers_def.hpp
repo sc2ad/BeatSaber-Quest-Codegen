@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
@@ -51,47 +50,47 @@ constexpr explicit MicrosoftObjectIdentifiers(void* ptr) noexcept : ::bs_hook::I
 
 // Fields
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_Microsoft, put=__set_Microsoft))  Microsoft;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_Microsoft, put=__set_Microsoft))  Microsoft;
 
-static void __set_Microsoft(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_Microsoft(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_Microsoft() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_Microsoft() ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_MicrosoftCertTemplateV1, put=__set_MicrosoftCertTemplateV1))  MicrosoftCertTemplateV1;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_MicrosoftCertTemplateV1, put=__set_MicrosoftCertTemplateV1))  MicrosoftCertTemplateV1;
 
-static void __set_MicrosoftCertTemplateV1(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_MicrosoftCertTemplateV1(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_MicrosoftCertTemplateV1() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_MicrosoftCertTemplateV1() ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_MicrosoftCAVersion, put=__set_MicrosoftCAVersion))  MicrosoftCAVersion;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_MicrosoftCAVersion, put=__set_MicrosoftCAVersion))  MicrosoftCAVersion;
 
-static void __set_MicrosoftCAVersion(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_MicrosoftCAVersion(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_MicrosoftCAVersion() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_MicrosoftCAVersion() ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_MicrosoftPrevCACertHash, put=__set_MicrosoftPrevCACertHash))  MicrosoftPrevCACertHash;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_MicrosoftPrevCACertHash, put=__set_MicrosoftPrevCACertHash))  MicrosoftPrevCACertHash;
 
-static void __set_MicrosoftPrevCACertHash(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_MicrosoftPrevCACertHash(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_MicrosoftPrevCACertHash() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_MicrosoftPrevCACertHash() ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_MicrosoftCrlNextPublish, put=__set_MicrosoftCrlNextPublish))  MicrosoftCrlNextPublish;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_MicrosoftCrlNextPublish, put=__set_MicrosoftCrlNextPublish))  MicrosoftCrlNextPublish;
 
-static void __set_MicrosoftCrlNextPublish(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_MicrosoftCrlNextPublish(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_MicrosoftCrlNextPublish() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_MicrosoftCrlNextPublish() ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_MicrosoftCertTemplateV2, put=__set_MicrosoftCertTemplateV2))  MicrosoftCertTemplateV2;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_MicrosoftCertTemplateV2, put=__set_MicrosoftCertTemplateV2))  MicrosoftCertTemplateV2;
 
-static void __set_MicrosoftCertTemplateV2(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_MicrosoftCertTemplateV2(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_MicrosoftCertTemplateV2() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_MicrosoftCertTemplateV2() ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_MicrosoftAppPolicies, put=__set_MicrosoftAppPolicies))  MicrosoftAppPolicies;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_MicrosoftAppPolicies, put=__set_MicrosoftAppPolicies))  MicrosoftAppPolicies;
 
-static void __set_MicrosoftAppPolicies(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_MicrosoftAppPolicies(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_MicrosoftAppPolicies() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_MicrosoftAppPolicies() ;
 
 
 // Methods
@@ -106,6 +105,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::Microsoft
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::Microsoft::MicrosoftObjectIdentifiers);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Microsoft::MicrosoftObjectIdentifiers, "Org.BouncyCastle.Asn1.Microsoft", "MicrosoftObjectIdentifiers");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Microsoft::MicrosoftObjectIdentifiers);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Microsoft::MicrosoftObjectIdentifiers, "Org.BouncyCastle.Asn1.Microsoft", "MicrosoftObjectIdentifiers");

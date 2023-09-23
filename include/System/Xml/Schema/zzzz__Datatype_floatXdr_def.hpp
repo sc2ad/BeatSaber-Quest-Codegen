@@ -3,7 +3,6 @@
 #include "System/Xml/Schema/zzzz__Datatype_float_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Xml {
 class IXmlNamespaceResolver;
 }
@@ -20,7 +19,7 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11571))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11620))
 // CS Name: System.Xml.Schema.Datatype_floatXdr
-class CORDL_TYPE Datatype_floatXdr : public ::System::Xml::Schema::Datatype_float {
+class CORDL_TYPE Datatype_floatXdr : public System::Xml::Schema::Datatype_float {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr Datatype_floatXdr(Datatype_floatXdr const& ) noexcept = default;
 constexpr Datatype_floatXdr(Datatype_floatXdr&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Datatype_floatXdr(void* ptr) noexcept : ::System::Xml::Schema::Datatype_float(ptr) {
+constexpr explicit Datatype_floatXdr(void* ptr) noexcept : System::Xml::Schema::Datatype_float(ptr) {
 }
 
 
@@ -57,7 +56,7 @@ constexpr explicit Datatype_floatXdr(void* ptr) noexcept : ::System::Xml::Schema
 // Methods
 
 /// @brief Method ParseValue addr 0x272b344 size 0x27c virtual true final false
- ::bs_hook::Il2CppWrapperType ParseValue(::StringW s, ::System::Xml::XmlNameTable nameTable, ::System::Xml::IXmlNamespaceResolver nsmgr) ;
+ ::bs_hook::Il2CppWrapperType ParseValue(::StringW s, System::Xml::XmlNameTable nameTable, System::Xml::IXmlNamespaceResolver nsmgr) ;
 
 // Ctor Parameters []
 explicit Datatype_floatXdr() ;
@@ -69,6 +68,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::Datatype_floatXdr);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::Datatype_floatXdr, "System.Xml.Schema", "Datatype_floatXdr");
+NEED_NO_BOX(System::Xml::Schema::Datatype_floatXdr);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::Datatype_floatXdr, "System.Xml.Schema", "Datatype_floatXdr");

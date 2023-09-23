@@ -2,7 +2,12 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace {
+namespace System {
+class Type;
+}
+namespace UnityEngine {
+class GameObject;
+}
 namespace Zenject {
 class IProvider;
 }
@@ -10,20 +15,14 @@ namespace Zenject {
 class InjectContext;
 }
 namespace System {
-class Type;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace System {
 class Action;
 }
 namespace Zenject {
 struct TypeValuePair;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -38,8 +37,8 @@ namespace Zenject {
 class CORDL_TYPE GetFromGameObjectComponentProvider : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Zenject::IProvider
-constexpr operator  ::Zenject::IProvider() const noexcept;
+/// @brief Convert operator to Zenject::IProvider
+constexpr operator  Zenject::IProvider() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -74,17 +73,17 @@ constexpr explicit GetFromGameObjectComponentProvider(void* ptr) noexcept : ::bs
 
 // Fields
 
- ::UnityEngine::GameObject __declspec(property(get=__get__gameObject, put=__set__gameObject))  _gameObject;
+ UnityEngine::GameObject __declspec(property(get=__get__gameObject, put=__set__gameObject))  _gameObject;
 
-constexpr void __set__gameObject(::UnityEngine::GameObject value) ;
+constexpr void __set__gameObject(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__gameObject() const;
+constexpr UnityEngine::GameObject __get__gameObject() const;
 
- ::System::Type __declspec(property(get=__get__componentType, put=__set__componentType))  _componentType;
+ System::Type __declspec(property(get=__get__componentType, put=__set__componentType))  _componentType;
 
-constexpr void __set__componentType(::System::Type value) ;
+constexpr void __set__componentType(System::Type value) ;
 
-constexpr ::System::Type __get__componentType() const;
+constexpr System::Type __get__componentType() const;
 
  bool __declspec(property(get=__get__matchSingle, put=__set__matchSingle))  _matchSingle;
 
@@ -102,11 +101,11 @@ constexpr bool __get__matchSingle() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "componentType", ty: "::System::Type", modifiers: "", def_value: None }, CppParam { name: "gameObject", ty: "::UnityEngine::GameObject", modifiers: "", def_value: None }, CppParam { name: "matchSingle", ty: "bool", modifiers: "", def_value: None }]
-explicit GetFromGameObjectComponentProvider(::System::Type componentType, ::UnityEngine::GameObject gameObject, bool matchSingle) ;
+// Ctor Parameters [CppParam { name: "componentType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "gameObject", ty: "UnityEngine::GameObject", modifiers: "", def_value: None }, CppParam { name: "matchSingle", ty: "bool", modifiers: "", def_value: None }]
+explicit GetFromGameObjectComponentProvider(System::Type componentType, UnityEngine::GameObject gameObject, bool matchSingle) ;
 
 /// @brief Method .ctor addr 0x2d8d710 size 0x3c virtual false final false
- void _ctor(::System::Type componentType, ::UnityEngine::GameObject gameObject, bool matchSingle) ;
+ void _ctor(System::Type componentType, UnityEngine::GameObject gameObject, bool matchSingle) ;
 
 /// @brief Method get_IsCached addr 0x2d8d74c size 0x8 virtual true final true
  bool get_IsCached() ;
@@ -115,15 +114,14 @@ explicit GetFromGameObjectComponentProvider(::System::Type componentType, ::Unit
  bool get_TypeVariesBasedOnMemberType() ;
 
 /// @brief Method GetInstanceType addr 0x2d8d75c size 0x8 virtual true final true
- ::System::Type GetInstanceType(::Zenject::InjectContext context) ;
+ System::Type GetInstanceType(Zenject::InjectContext context) ;
 
 /// @brief Method GetAllInstancesWithInjectSplit addr 0x2d8d764 size 0x1b4 virtual true final true
- void GetAllInstancesWithInjectSplit(::Zenject::InjectContext context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair> args, ByRef<::System::Action> injectAction, ::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> buffer) ;
+ void GetAllInstancesWithInjectSplit(Zenject::InjectContext context, System::Collections::Generic::List_1<Zenject::TypeValuePair> args, ByRef<System::Action> injectAction, System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> buffer) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::GetFromGameObjectComponentProvider);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::GetFromGameObjectComponentProvider, "Zenject", "GetFromGameObjectComponentProvider");
+NEED_NO_BOX(Zenject::GetFromGameObjectComponentProvider);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::GetFromGameObjectComponentProvider, "Zenject", "GetFromGameObjectComponentProvider");

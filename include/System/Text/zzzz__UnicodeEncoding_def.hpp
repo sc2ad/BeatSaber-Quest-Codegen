@@ -6,29 +6,28 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-template<typename T>
-struct ReadOnlySpan_1;
-}
 namespace System::Text {
 class DecoderNLS;
 }
 namespace System::Text {
-class EncoderNLS;
+class Decoder;
 }
 namespace System::Text {
 class Encoder;
 }
 namespace System::Text {
-class Decoder;
+class EncoderNLS;
+}
+namespace System {
+template<typename T>
+struct ReadOnlySpan_1;
 }
 // Forward declare root types
 namespace System::Text {
-class UnicodeEncoding;
+class System__Text__UnicodeEncoding__Decoder;
 }
 namespace System::Text {
-class ____System__Text__UnicodeEncoding__Decoder;
+class UnicodeEncoding;
 }
 // Type: ::Decoder
 namespace System::Text {
@@ -36,37 +35,37 @@ namespace System::Text {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2831))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2862))
 // CS Name: System.Text.UnicodeEncoding::Decoder
-class CORDL_TYPE ____System__Text__UnicodeEncoding__Decoder : public ::System::Text::DecoderNLS {
+class CORDL_TYPE System__Text__UnicodeEncoding__Decoder : public System::Text::DecoderNLS {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
 
-virtual ~____System__Text__UnicodeEncoding__Decoder() = default;
+virtual ~System__Text__UnicodeEncoding__Decoder() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Text__UnicodeEncoding__Decoder", modifiers: " const&", def_value: None }]
-constexpr ____System__Text__UnicodeEncoding__Decoder(____System__Text__UnicodeEncoding__Decoder const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Text__UnicodeEncoding__Decoder", modifiers: " const&", def_value: None }]
+constexpr System__Text__UnicodeEncoding__Decoder(System__Text__UnicodeEncoding__Decoder const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Text__UnicodeEncoding__Decoder", modifiers: "&&", def_value: None }]
-constexpr ____System__Text__UnicodeEncoding__Decoder(____System__Text__UnicodeEncoding__Decoder&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Text__UnicodeEncoding__Decoder", modifiers: "&&", def_value: None }]
+constexpr System__Text__UnicodeEncoding__Decoder(System__Text__UnicodeEncoding__Decoder&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Text__UnicodeEncoding__Decoder(void* ptr) noexcept : ::System::Text::DecoderNLS(ptr) {
+constexpr explicit System__Text__UnicodeEncoding__Decoder(void* ptr) noexcept : System::Text::DecoderNLS(ptr) {
 }
 
 
-  constexpr ____System__Text__UnicodeEncoding__Decoder& operator=(std::nullptr_t) noexcept {
+  constexpr System__Text__UnicodeEncoding__Decoder& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Text__UnicodeEncoding__Decoder& operator=(void* o) noexcept {
+  constexpr System__Text__UnicodeEncoding__Decoder& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Text__UnicodeEncoding__Decoder& operator=(____System__Text__UnicodeEncoding__Decoder&& o) noexcept = default;
-  constexpr ____System__Text__UnicodeEncoding__Decoder& operator=(____System__Text__UnicodeEncoding__Decoder const& o) noexcept = default;
+  constexpr System__Text__UnicodeEncoding__Decoder& operator=(System__Text__UnicodeEncoding__Decoder&& o) noexcept = default;
+  constexpr System__Text__UnicodeEncoding__Decoder& operator=(System__Text__UnicodeEncoding__Decoder const& o) noexcept = default;
                 
 
 
@@ -92,11 +91,11 @@ constexpr char16_t __get_lastChar() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "encoding", ty: "::System::Text::UnicodeEncoding", modifiers: "", def_value: None }]
-explicit ____System__Text__UnicodeEncoding__Decoder(::System::Text::UnicodeEncoding encoding) ;
+// Ctor Parameters [CppParam { name: "encoding", ty: "System::Text::UnicodeEncoding", modifiers: "", def_value: None }]
+explicit System__Text__UnicodeEncoding__Decoder(System::Text::UnicodeEncoding encoding) ;
 
 /// @brief Method .ctor addr 0x22dcad0 size 0x10 virtual false final false
- void _ctor(::System::Text::UnicodeEncoding encoding) ;
+ void _ctor(System::Text::UnicodeEncoding encoding) ;
 
 /// @brief Method Reset addr 0x22dcae0 size 0x28 virtual true final false
  void Reset() ;
@@ -114,10 +113,10 @@ namespace System::Text {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2870))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2863))
 // CS Name: System.Text.UnicodeEncoding
-class CORDL_TYPE UnicodeEncoding : public ::System::Text::Encoding {
+class CORDL_TYPE UnicodeEncoding : public System::Text::Encoding {
 public:
 // Declarations
-using Decoder = ::System::Text::____System__Text__UnicodeEncoding__Decoder;
+using Decoder = System::Text::System__Text__UnicodeEncoding__Decoder;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -131,7 +130,7 @@ constexpr UnicodeEncoding(UnicodeEncoding const& ) noexcept = default;
 constexpr UnicodeEncoding(UnicodeEncoding&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UnicodeEncoding(void* ptr) noexcept : ::System::Text::Encoding(ptr) {
+constexpr explicit UnicodeEncoding(void* ptr) noexcept : System::Text::Encoding(ptr) {
 }
 
 
@@ -152,17 +151,17 @@ constexpr explicit UnicodeEncoding(void* ptr) noexcept : ::System::Text::Encodin
 
 // Fields
 
-static ::System::Text::UnicodeEncoding __declspec(property(get=__get_s_bigEndianDefault, put=__set_s_bigEndianDefault))  s_bigEndianDefault;
+static System::Text::UnicodeEncoding __declspec(property(get=__get_s_bigEndianDefault, put=__set_s_bigEndianDefault))  s_bigEndianDefault;
 
-static void __set_s_bigEndianDefault(::System::Text::UnicodeEncoding value) ;
+static void __set_s_bigEndianDefault(System::Text::UnicodeEncoding value) ;
 
-static ::System::Text::UnicodeEncoding __get_s_bigEndianDefault() ;
+static System::Text::UnicodeEncoding __get_s_bigEndianDefault() ;
 
-static ::System::Text::UnicodeEncoding __declspec(property(get=__get_s_littleEndianDefault, put=__set_s_littleEndianDefault))  s_littleEndianDefault;
+static System::Text::UnicodeEncoding __declspec(property(get=__get_s_littleEndianDefault, put=__set_s_littleEndianDefault))  s_littleEndianDefault;
 
-static void __set_s_littleEndianDefault(::System::Text::UnicodeEncoding value) ;
+static void __set_s_littleEndianDefault(System::Text::UnicodeEncoding value) ;
 
-static ::System::Text::UnicodeEncoding __get_s_littleEndianDefault() ;
+static System::Text::UnicodeEncoding __get_s_littleEndianDefault() ;
 
 static ::ArrayW<uint8_t> __declspec(property(get=__get_s_bigEndianPreamble, put=__set_s_bigEndianPreamble))  s_bigEndianPreamble;
 
@@ -203,7 +202,7 @@ static uint64_t __get_highLowPatternMask() ;
 
 // Properties
 
- ::System::ReadOnlySpan_1<uint8_t> __declspec(property(get=get_Preamble))  Preamble;
+ System::ReadOnlySpan_1<uint8_t> __declspec(property(get=get_Preamble))  Preamble;
 
 
 // Methods
@@ -263,28 +262,28 @@ explicit UnicodeEncoding(bool bigEndian, bool byteOrderMark, bool throwOnInvalid
  ::StringW GetString(::ArrayW<uint8_t> bytes, int32_t index, int32_t count) ;
 
 /// @brief Method GetByteCount addr 0x22d95cc size 0x56c virtual true final false
- int32_t GetByteCount(void* chars, int32_t count, ::System::Text::EncoderNLS encoder) ;
+ int32_t GetByteCount(void* chars, int32_t count, System::Text::EncoderNLS encoder) ;
 
 /// @brief Method GetBytes addr 0x22d9b38 size 0x734 virtual true final false
- int32_t GetBytes(void* chars, int32_t charCount, void* bytes, int32_t byteCount, ::System::Text::EncoderNLS encoder) ;
+ int32_t GetBytes(void* chars, int32_t charCount, void* bytes, int32_t byteCount, System::Text::EncoderNLS encoder) ;
 
 /// @brief Method GetCharCount addr 0x22da26c size 0x6c0 virtual true final false
- int32_t GetCharCount(void* bytes, int32_t count, ::System::Text::DecoderNLS baseDecoder) ;
+ int32_t GetCharCount(void* bytes, int32_t count, System::Text::DecoderNLS baseDecoder) ;
 
 /// @brief Method GetChars addr 0x22da92c size 0x920 virtual true final false
- int32_t GetChars(void* bytes, int32_t byteCount, void* chars, int32_t charCount, ::System::Text::DecoderNLS baseDecoder) ;
+ int32_t GetChars(void* bytes, int32_t byteCount, void* chars, int32_t charCount, System::Text::DecoderNLS baseDecoder) ;
 
 /// @brief Method GetEncoder addr 0x22db24c size 0x64 virtual true final false
- ::System::Text::Encoder GetEncoder() ;
+ System::Text::Encoder GetEncoder() ;
 
 /// @brief Method GetDecoder addr 0x22db2b0 size 0x64 virtual true final false
- ::System::Text::Decoder GetDecoder() ;
+ System::Text::Decoder GetDecoder() ;
 
 /// @brief Method GetPreamble addr 0x22db314 size 0xfc virtual true final false
  ::ArrayW<uint8_t> GetPreamble() ;
 
 /// @brief Method get_Preamble addr 0x22db410 size 0x170 virtual true final false
- ::System::ReadOnlySpan_1<uint8_t> get_Preamble() ;
+ System::ReadOnlySpan_1<uint8_t> get_Preamble() ;
 
 /// @brief Method GetMaxByteCount addr 0x22db580 size 0x108 virtual true final false
  int32_t GetMaxByteCount(int32_t charCount) ;
@@ -302,8 +301,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Text
-} // end anonymous namespace
-NEED_NO_BOX(::System::Text::UnicodeEncoding);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::UnicodeEncoding, "System.Text", "UnicodeEncoding");
-NEED_NO_BOX(::System::Text::____System__Text__UnicodeEncoding__Decoder);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::____System__Text__UnicodeEncoding__Decoder, "System.Text", "UnicodeEncoding/Decoder");
+NEED_NO_BOX(System::Text::System__Text__UnicodeEncoding__Decoder);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::System__Text__UnicodeEncoding__Decoder, "System.Text", "UnicodeEncoding/Decoder");
+NEED_NO_BOX(System::Text::UnicodeEncoding);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::UnicodeEncoding, "System.Text", "UnicodeEncoding");

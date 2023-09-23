@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace UnityEngine {
 class AnimationClip;
 }
@@ -16,7 +15,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10142))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15032))
 // CS Name: UnityEngine.RuntimeAnimatorController
-class CORDL_TYPE RuntimeAnimatorController : public ::UnityEngine::Object {
+class CORDL_TYPE RuntimeAnimatorController : public UnityEngine::Object {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr RuntimeAnimatorController(RuntimeAnimatorController const& ) noexcept 
 constexpr RuntimeAnimatorController(RuntimeAnimatorController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RuntimeAnimatorController(void* ptr) noexcept : ::UnityEngine::Object(ptr) {
+constexpr explicit RuntimeAnimatorController(void* ptr) noexcept : UnityEngine::Object(ptr) {
 }
 
 
@@ -52,7 +51,7 @@ constexpr explicit RuntimeAnimatorController(void* ptr) noexcept : ::UnityEngine
 
 // Properties
 
- ::ArrayW<::UnityEngine::AnimationClip> __declspec(property(get=get_animationClips))  animationClips;
+ ::ArrayW<UnityEngine::AnimationClip> __declspec(property(get=get_animationClips))  animationClips;
 
 
 // Methods
@@ -64,12 +63,11 @@ explicit RuntimeAnimatorController() ;
  void _ctor() ;
 
 /// @brief Method get_animationClips addr 0x2b1a3d4 size 0x3c virtual false final false
- ::ArrayW<::UnityEngine::AnimationClip> get_animationClips() ;
+ ::ArrayW<UnityEngine::AnimationClip> get_animationClips() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::RuntimeAnimatorController);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::RuntimeAnimatorController, "UnityEngine", "RuntimeAnimatorController");
+NEED_NO_BOX(UnityEngine::RuntimeAnimatorController);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RuntimeAnimatorController, "UnityEngine", "RuntimeAnimatorController");

@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__LivestreamingVideoStats_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
 class LivestreamingVideoStats;
 }
@@ -14,10 +13,10 @@ class MessageWithLivestreamingVideoStats;
 // Type: Oculus.Platform::MessageWithLivestreamingVideoStats
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13436)), TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4455 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4455 }), TypeDefinitionIndex(TypeDefinitionIndex(13436)), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13251))
 // CS Name: Oculus.Platform.MessageWithLivestreamingVideoStats
-class CORDL_TYPE MessageWithLivestreamingVideoStats : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LivestreamingVideoStats> {
+class CORDL_TYPE MessageWithLivestreamingVideoStats : public Oculus::Platform::Message_1<Oculus::Platform::Models::LivestreamingVideoStats> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr MessageWithLivestreamingVideoStats(MessageWithLivestreamingVideoStats 
 constexpr MessageWithLivestreamingVideoStats(MessageWithLivestreamingVideoStats&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MessageWithLivestreamingVideoStats(void* ptr) noexcept : ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LivestreamingVideoStats>(ptr) {
+constexpr explicit MessageWithLivestreamingVideoStats(void* ptr) noexcept : Oculus::Platform::Message_1<Oculus::Platform::Models::LivestreamingVideoStats>(ptr) {
 }
 
 
@@ -60,15 +59,14 @@ explicit MessageWithLivestreamingVideoStats(::cordl_internals::intptr_t c_messag
  void _ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method GetLivestreamingVideoStats addr 0x2582188 size 0x3c virtual true final false
- ::Oculus::Platform::Models::LivestreamingVideoStats GetLivestreamingVideoStats() ;
+ Oculus::Platform::Models::LivestreamingVideoStats GetLivestreamingVideoStats() ;
 
 /// @brief Method GetDataFromMessage addr 0x25821c4 size 0x9c virtual true final false
- ::Oculus::Platform::Models::LivestreamingVideoStats GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
+ Oculus::Platform::Models::LivestreamingVideoStats GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::MessageWithLivestreamingVideoStats);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithLivestreamingVideoStats, "Oculus.Platform", "MessageWithLivestreamingVideoStats");
+NEED_NO_BOX(Oculus::Platform::MessageWithLivestreamingVideoStats);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithLivestreamingVideoStats, "Oculus.Platform", "MessageWithLivestreamingVideoStats");

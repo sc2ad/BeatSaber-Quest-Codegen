@@ -5,15 +5,14 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventBuffer;
-}
 namespace UnityEngineInternal::Input {
 struct NativeInputEvent;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventBuffer;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -28,8 +27,8 @@ namespace UnityEngine::InputSystem::LowLevel {
 struct CORDL_TYPE InputEvent : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "m_Event", ty: "::UnityEngineInternal::Input::NativeInputEvent", modifiers: "", def_value: None }]
-constexpr InputEvent(::UnityEngineInternal::Input::NativeInputEvent m_Event) noexcept;
+// Ctor Parameters [CppParam { name: "m_Event", ty: "UnityEngineInternal::Input::NativeInputEvent", modifiers: "", def_value: None }]
+constexpr InputEvent(UnityEngineInternal::Input::NativeInputEvent m_Event) noexcept;
 
 
                     constexpr InputEvent(InputEvent const&) = default;
@@ -77,16 +76,16 @@ static constexpr int32_t  InvalidEventId{0};
 /// @brief Field kAlignment offset 0
 static constexpr int32_t  kAlignment{4};
 
- ::UnityEngineInternal::Input::NativeInputEvent __declspec(property(get=__get_m_Event, put=__set_m_Event))  m_Event;
+ UnityEngineInternal::Input::NativeInputEvent __declspec(property(get=__get_m_Event, put=__set_m_Event))  m_Event;
 
-constexpr void __set_m_Event(::UnityEngineInternal::Input::NativeInputEvent value) ;
+constexpr void __set_m_Event(UnityEngineInternal::Input::NativeInputEvent value) ;
 
-constexpr ::UnityEngineInternal::Input::NativeInputEvent __get_m_Event() const;
+constexpr UnityEngineInternal::Input::NativeInputEvent __get_m_Event() const;
 
 
 // Properties
 
- ::UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_type, put=set_type))  type;
+ UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_type, put=set_type))  type;
 
  uint32_t __declspec(property(get=get_sizeInBytes, put=set_sizeInBytes))  sizeInBytes;
 
@@ -104,10 +103,10 @@ constexpr ::UnityEngineInternal::Input::NativeInputEvent __get_m_Event() const;
 // Methods
 
 /// @brief Method get_type addr 0x2957764 size 0x8 virtual false final false
- ::UnityEngine::InputSystem::Utilities::FourCC get_type() ;
+ UnityEngine::InputSystem::Utilities::FourCC get_type() ;
 
 /// @brief Method set_type addr 0x295776c size 0x8 virtual false final false
- void set_type(::UnityEngine::InputSystem::Utilities::FourCC value) ;
+ void set_type(UnityEngine::InputSystem::Utilities::FourCC value) ;
 
 /// @brief Method get_sizeInBytes addr 0x29568c4 size 0x8 virtual false final false
  uint32_t get_sizeInBytes() ;
@@ -140,7 +139,7 @@ constexpr ::UnityEngineInternal::Input::NativeInputEvent __get_m_Event() const;
  void set_internalTime(double_t value) ;
 
 /// @brief Method .ctor addr 0x2957094 size 0x104 virtual false final false
- void _ctor(::UnityEngine::InputSystem::Utilities::FourCC type, int32_t sizeInBytes, int32_t deviceId, double_t time) ;
+ void _ctor(UnityEngine::InputSystem::Utilities::FourCC type, int32_t sizeInBytes, int32_t deviceId, double_t time) ;
 
 /// @brief Method get_handled addr 0x2957910 size 0xc virtual false final false
  bool get_handled() ;
@@ -155,7 +154,7 @@ constexpr ::UnityEngineInternal::Input::NativeInputEvent __get_m_Event() const;
 static void* GetNextInMemory(void* currentPtr) ;
 
 /// @brief Method GetNextInMemoryChecked addr 0x2957bbc size 0xf0 virtual false final false
-static void* GetNextInMemoryChecked(void* currentPtr, ByRef<::UnityEngine::InputSystem::LowLevel::InputEventBuffer> buffer) ;
+static void* GetNextInMemoryChecked(void* currentPtr, ByRef<UnityEngine::InputSystem::LowLevel::InputEventBuffer> buffer) ;
 
 /// @brief Method Equals addr 0x2957d34 size 0x54 virtual false final false
 static bool Equals(void* first, void* second) ;
@@ -164,5 +163,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::LowLevel
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::InputEvent, "UnityEngine.InputSystem.LowLevel", "InputEvent");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::LowLevel::InputEvent, "UnityEngine.InputSystem.LowLevel", "InputEvent");

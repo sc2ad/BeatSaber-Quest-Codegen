@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Net::Sockets {
 struct IPProtectionLevel;
 }
@@ -51,11 +50,11 @@ constexpr explicit SettingsSectionInternal(void* ptr) noexcept : ::bs_hook::Il2C
 
 // Fields
 
-static ::System::Net::Configuration::SettingsSectionInternal __declspec(property(get=__get_instance, put=__set_instance))  instance;
+static System::Net::Configuration::SettingsSectionInternal __declspec(property(get=__get_instance, put=__set_instance))  instance;
 
-static void __set_instance(::System::Net::Configuration::SettingsSectionInternal value) ;
+static void __set_instance(System::Net::Configuration::SettingsSectionInternal value) ;
 
-static ::System::Net::Configuration::SettingsSectionInternal __get_instance() ;
+static System::Net::Configuration::SettingsSectionInternal __get_instance() ;
 
  bool __declspec(property(get=__get_HttpListenerUnescapeRequestUrl, put=__set_HttpListenerUnescapeRequestUrl))  HttpListenerUnescapeRequestUrl;
 
@@ -63,16 +62,16 @@ constexpr void __set_HttpListenerUnescapeRequestUrl(bool value) ;
 
 constexpr bool __get_HttpListenerUnescapeRequestUrl() const;
 
- ::System::Net::Sockets::IPProtectionLevel __declspec(property(get=__get_IPProtectionLevel, put=__set_IPProtectionLevel))  IPProtectionLevel;
+ System::Net::Sockets::IPProtectionLevel __declspec(property(get=__get_IPProtectionLevel, put=__set_IPProtectionLevel))  IPProtectionLevel;
 
-constexpr void __set_IPProtectionLevel(::System::Net::Sockets::IPProtectionLevel value) ;
+constexpr void __set_IPProtectionLevel(System::Net::Sockets::IPProtectionLevel value) ;
 
-constexpr ::System::Net::Sockets::IPProtectionLevel __get_IPProtectionLevel() const;
+constexpr System::Net::Sockets::IPProtectionLevel __get_IPProtectionLevel() const;
 
 
 // Properties
 
-static ::System::Net::Configuration::SettingsSectionInternal __declspec(property(get=get_Section))  Section;
+static System::Net::Configuration::SettingsSectionInternal __declspec(property(get=get_Section))  Section;
 
  bool __declspec(property(get=get_Ipv6Enabled))  Ipv6Enabled;
 
@@ -80,7 +79,7 @@ static ::System::Net::Configuration::SettingsSectionInternal __declspec(property
 // Methods
 
 /// @brief Method get_Section addr 0x285e6d0 size 0x58 virtual false final false
-static ::System::Net::Configuration::SettingsSectionInternal get_Section() ;
+static System::Net::Configuration::SettingsSectionInternal get_Section() ;
 
 /// @brief Method get_Ipv6Enabled addr 0x285e728 size 0x8 virtual false final false
  bool get_Ipv6Enabled() ;
@@ -95,6 +94,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Configuration
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Configuration::SettingsSectionInternal);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Configuration::SettingsSectionInternal, "System.Net.Configuration", "SettingsSectionInternal");
+NEED_NO_BOX(System::Net::Configuration::SettingsSectionInternal);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::SettingsSectionInternal, "System.Net.Configuration", "SettingsSectionInternal");

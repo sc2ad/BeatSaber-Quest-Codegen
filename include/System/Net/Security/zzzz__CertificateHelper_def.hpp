@@ -1,15 +1,14 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
+namespace System::Security::Cryptography::X509Certificates {
+class X509CertificateCollection;
+}
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate2Collection;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate2;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateCollection;
 }
 // Forward declare root types
 namespace System::Net::Security {
@@ -58,18 +57,17 @@ constexpr explicit CertificateHelper(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 // Methods
 
 /// @brief Method GetEligibleClientCertificate addr 0x276c724 size 0x1ac virtual false final false
-static ::System::Security::Cryptography::X509Certificates::X509Certificate2 GetEligibleClientCertificate() ;
+static System::Security::Cryptography::X509Certificates::X509Certificate2 GetEligibleClientCertificate() ;
 
 /// @brief Method GetEligibleClientCertificate addr 0x276ca54 size 0x94 virtual false final false
-static ::System::Security::Cryptography::X509Certificates::X509Certificate2 GetEligibleClientCertificate(::System::Security::Cryptography::X509Certificates::X509CertificateCollection candidateCerts) ;
+static System::Security::Cryptography::X509Certificates::X509Certificate2 GetEligibleClientCertificate(System::Security::Cryptography::X509Certificates::X509CertificateCollection candidateCerts) ;
 
 /// @brief Method GetEligibleClientCertificate addr 0x276c8d0 size 0x184 virtual false final false
-static ::System::Security::Cryptography::X509Certificates::X509Certificate2 GetEligibleClientCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection candidateCerts) ;
+static System::Security::Cryptography::X509Certificates::X509Certificate2 GetEligibleClientCertificate(System::Security::Cryptography::X509Certificates::X509Certificate2Collection candidateCerts) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Security
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Security::CertificateHelper);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Security::CertificateHelper, "System.Net.Security", "CertificateHelper");
+NEED_NO_BOX(System::Net::Security::CertificateHelper);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Security::CertificateHelper, "System.Net.Security", "CertificateHelper");

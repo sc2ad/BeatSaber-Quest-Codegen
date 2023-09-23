@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 class IEquatable_1;
@@ -21,8 +20,8 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE TimerState : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::UIElements::TimerState>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::UIElements::TimerState>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::UIElements::TimerState>
+constexpr operator  System::IEquatable_1<UnityEngine::UIElements::TimerState>() const;
 
 // Ctor Parameters [CppParam { name: "_start_k__BackingField", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "_now_k__BackingField", ty: "int64_t", modifiers: "", def_value: None }]
 constexpr TimerState(int64_t _start_k__BackingField, int64_t _now_k__BackingField) noexcept;
@@ -101,7 +100,7 @@ constexpr int64_t __get__now_k__BackingField() const;
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x2c8ed64 size 0x24 virtual true final true
- bool Equals(::UnityEngine::UIElements::TimerState other) ;
+ bool Equals(UnityEngine::UIElements::TimerState other) ;
 
 /// @brief Method GetHashCode addr 0x2c8ed88 size 0x7c virtual true final false
  int32_t GetHashCode() ;
@@ -110,5 +109,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::TimerState, "UnityEngine.UIElements", "TimerState");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::TimerState, "UnityEngine.UIElements", "TimerState");

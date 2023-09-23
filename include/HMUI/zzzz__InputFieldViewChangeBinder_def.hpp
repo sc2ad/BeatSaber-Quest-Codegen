@@ -1,25 +1,24 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace HMUI {
-class InputFieldView;
-}
 namespace System {
 template<typename T1,typename T2>
 class Tuple_2;
 }
-namespace System {
+namespace System::Collections::Generic {
 template<typename T>
-class Action_1;
+class List_1;
 }
 namespace UnityEngine::Events {
 template<typename T0>
 class UnityAction_1;
 }
-namespace System::Collections::Generic {
+namespace HMUI {
+class InputFieldView;
+}
+namespace System {
 template<typename T>
-class List_1;
+class Action_1;
 }
 // Forward declare root types
 namespace HMUI {
@@ -67,11 +66,11 @@ constexpr explicit InputFieldViewChangeBinder(void* ptr) noexcept : ::bs_hook::I
 
 // Fields
 
- ::System::Collections::Generic::List_1<::System::Tuple_2<::HMUI::InputFieldView,::UnityEngine::Events::UnityAction_1<::HMUI::InputFieldView>>> __declspec(property(get=__get__bindings, put=__set__bindings))  _bindings;
+ System::Collections::Generic::List_1<System::Tuple_2<HMUI::InputFieldView,UnityEngine::Events::UnityAction_1<HMUI::InputFieldView>>> __declspec(property(get=__get__bindings, put=__set__bindings))  _bindings;
 
-constexpr void __set__bindings(::System::Collections::Generic::List_1<::System::Tuple_2<::HMUI::InputFieldView,::UnityEngine::Events::UnityAction_1<::HMUI::InputFieldView>>> value) ;
+constexpr void __set__bindings(System::Collections::Generic::List_1<System::Tuple_2<HMUI::InputFieldView,UnityEngine::Events::UnityAction_1<HMUI::InputFieldView>>> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::System::Tuple_2<::HMUI::InputFieldView,::UnityEngine::Events::UnityAction_1<::HMUI::InputFieldView>>> __get__bindings() const;
+constexpr System::Collections::Generic::List_1<System::Tuple_2<HMUI::InputFieldView,UnityEngine::Events::UnityAction_1<HMUI::InputFieldView>>> __get__bindings() const;
 
  bool __declspec(property(get=__get__enabled, put=__set__enabled))  _enabled;
 
@@ -92,10 +91,10 @@ explicit InputFieldViewChangeBinder() ;
  void Init() ;
 
 /// @brief Method AddBindings addr 0x1fa6240 size 0x164 virtual false final false
- void AddBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::HMUI::InputFieldView,::System::Action_1<::HMUI::InputFieldView>>> bindings) ;
+ void AddBindings(System::Collections::Generic::List_1<System::Tuple_2<HMUI::InputFieldView,System::Action_1<HMUI::InputFieldView>>> bindings) ;
 
 /// @brief Method AddBinding addr 0x1fa63a4 size 0xd8 virtual false final false
- void AddBinding(::HMUI::InputFieldView inputField, ::System::Action_1<::HMUI::InputFieldView> action) ;
+ void AddBinding(HMUI::InputFieldView inputField, System::Action_1<HMUI::InputFieldView> action) ;
 
 /// @brief Method ClearBindings addr 0x1fa647c size 0x234 virtual false final false
  void ClearBindings() ;
@@ -110,6 +109,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HMUI
-} // end anonymous namespace
-NEED_NO_BOX(::HMUI::InputFieldViewChangeBinder);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::InputFieldViewChangeBinder, "HMUI", "InputFieldViewChangeBinder");
+NEED_NO_BOX(HMUI::InputFieldViewChangeBinder);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldViewChangeBinder, "HMUI", "InputFieldViewChangeBinder");

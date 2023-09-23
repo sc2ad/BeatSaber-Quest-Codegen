@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/zzzz__Sensor_def.hpp"
-namespace {
 namespace UnityEngine::InputSystem::Controls {
 class IntegerControl;
 }
@@ -15,7 +14,7 @@ namespace UnityEngine::InputSystem {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6357))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6369))
 // CS Name: UnityEngine.InputSystem.StepCounter
-class CORDL_TYPE StepCounter : public ::UnityEngine::InputSystem::Sensor {
+class CORDL_TYPE StepCounter : public UnityEngine::InputSystem::Sensor {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr StepCounter(StepCounter const& ) noexcept = default;
 constexpr StepCounter(StepCounter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit StepCounter(void* ptr) noexcept : ::UnityEngine::InputSystem::Sensor(ptr) {
+constexpr explicit StepCounter(void* ptr) noexcept : UnityEngine::InputSystem::Sensor(ptr) {
 }
 
 
@@ -51,39 +50,39 @@ constexpr explicit StepCounter(void* ptr) noexcept : ::UnityEngine::InputSystem:
 
 // Fields
 
- ::UnityEngine::InputSystem::Controls::IntegerControl __declspec(property(get=__get__stepCounter_k__BackingField, put=__set__stepCounter_k__BackingField))  _stepCounter_k__BackingField;
+ UnityEngine::InputSystem::Controls::IntegerControl __declspec(property(get=__get__stepCounter_k__BackingField, put=__set__stepCounter_k__BackingField))  _stepCounter_k__BackingField;
 
-constexpr void __set__stepCounter_k__BackingField(::UnityEngine::InputSystem::Controls::IntegerControl value) ;
+constexpr void __set__stepCounter_k__BackingField(UnityEngine::InputSystem::Controls::IntegerControl value) ;
 
-constexpr ::UnityEngine::InputSystem::Controls::IntegerControl __get__stepCounter_k__BackingField() const;
+constexpr UnityEngine::InputSystem::Controls::IntegerControl __get__stepCounter_k__BackingField() const;
 
-static ::UnityEngine::InputSystem::StepCounter __declspec(property(get=__get__current_k__BackingField, put=__set__current_k__BackingField))  _current_k__BackingField;
+static UnityEngine::InputSystem::StepCounter __declspec(property(get=__get__current_k__BackingField, put=__set__current_k__BackingField))  _current_k__BackingField;
 
-static void __set__current_k__BackingField(::UnityEngine::InputSystem::StepCounter value) ;
+static void __set__current_k__BackingField(UnityEngine::InputSystem::StepCounter value) ;
 
-static ::UnityEngine::InputSystem::StepCounter __get__current_k__BackingField() ;
+static UnityEngine::InputSystem::StepCounter __get__current_k__BackingField() ;
 
 
 // Properties
 
- ::UnityEngine::InputSystem::Controls::IntegerControl __declspec(property(get=get_stepCounter, put=set_stepCounter))  stepCounter;
+ UnityEngine::InputSystem::Controls::IntegerControl __declspec(property(get=get_stepCounter, put=set_stepCounter))  stepCounter;
 
-static ::UnityEngine::InputSystem::StepCounter __declspec(property(get=get_current, put=set_current))  current;
+static UnityEngine::InputSystem::StepCounter __declspec(property(get=get_current, put=set_current))  current;
 
 
 // Methods
 
 /// @brief Method get_stepCounter addr 0x2916838 size 0x8 virtual false final false
- ::UnityEngine::InputSystem::Controls::IntegerControl get_stepCounter() ;
+ UnityEngine::InputSystem::Controls::IntegerControl get_stepCounter() ;
 
 /// @brief Method set_stepCounter addr 0x2916840 size 0x8 virtual false final false
- void set_stepCounter(::UnityEngine::InputSystem::Controls::IntegerControl value) ;
+ void set_stepCounter(UnityEngine::InputSystem::Controls::IntegerControl value) ;
 
 /// @brief Method get_current addr 0x2916848 size 0x48 virtual false final false
-static ::UnityEngine::InputSystem::StepCounter get_current() ;
+static UnityEngine::InputSystem::StepCounter get_current() ;
 
 /// @brief Method set_current addr 0x2916890 size 0x4c virtual false final false
-static void set_current(::UnityEngine::InputSystem::StepCounter value) ;
+static void set_current(UnityEngine::InputSystem::StepCounter value) ;
 
 /// @brief Method MakeCurrent addr 0x29168dc size 0x54 virtual true final false
  void MakeCurrent() ;
@@ -104,6 +103,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::StepCounter);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::StepCounter, "UnityEngine.InputSystem", "StepCounter");
+NEED_NO_BOX(UnityEngine::InputSystem::StepCounter);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::StepCounter, "UnityEngine.InputSystem", "StepCounter");

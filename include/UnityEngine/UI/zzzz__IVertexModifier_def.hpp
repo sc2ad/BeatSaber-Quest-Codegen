@@ -1,6 +1,5 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace UnityEngine {
 struct UIVertex;
 }
@@ -31,12 +30,11 @@ constexpr explicit IVertexModifier(void* ptr) noexcept : ::cordl_internals::Inte
 // Methods
 
 /// @brief Method ModifyVertices addr 0x0 size 0xffffffffffffffff virtual true final false
- void ModifyVertices(::System::Collections::Generic::List_1<::UnityEngine::UIVertex> verts) ;
+ void ModifyVertices(System::Collections::Generic::List_1<UnityEngine::UIVertex> verts) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UI
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UI::IVertexModifier);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::IVertexModifier, "UnityEngine.UI", "IVertexModifier");
+NEED_NO_BOX(UnityEngine::UI::IVertexModifier);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::IVertexModifier, "UnityEngine.UI", "IVertexModifier");

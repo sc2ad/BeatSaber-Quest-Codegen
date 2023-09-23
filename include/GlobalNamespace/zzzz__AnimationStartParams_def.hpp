@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 class Animation;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13767))
 // CS Name: AnimationStartParams
-class CORDL_TYPE AnimationStartParams : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE AnimationStartParams : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr AnimationStartParams(AnimationStartParams const& ) noexcept = default;
 constexpr AnimationStartParams(AnimationStartParams&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AnimationStartParams(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit AnimationStartParams(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -64,11 +63,11 @@ constexpr void __set__speed(float_t value) ;
 
 constexpr float_t __get__speed() const;
 
- ::UnityEngine::Animation __declspec(property(get=__get__animation, put=__set__animation))  _animation;
+ UnityEngine::Animation __declspec(property(get=__get__animation, put=__set__animation))  _animation;
 
-constexpr void __set__animation(::UnityEngine::Animation value) ;
+constexpr void __set__animation(UnityEngine::Animation value) ;
 
-constexpr ::UnityEngine::Animation __get__animation() const;
+constexpr UnityEngine::Animation __get__animation() const;
 
 
 // Methods
@@ -86,6 +85,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::AnimationStartParams);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AnimationStartParams, "", "AnimationStartParams");
+NEED_NO_BOX(GlobalNamespace::AnimationStartParams);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnimationStartParams, "", "AnimationStartParams");

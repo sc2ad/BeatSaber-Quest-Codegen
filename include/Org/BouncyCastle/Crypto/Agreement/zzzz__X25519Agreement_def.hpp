@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class X25519PrivateKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class IRawAgreement;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Agreement {
@@ -26,8 +25,8 @@ namespace Org::BouncyCastle::Crypto::Agreement {
 class CORDL_TYPE X25519Agreement : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IRawAgreement
-constexpr operator  ::Org::BouncyCastle::Crypto::IRawAgreement() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IRawAgreement
+constexpr operator  Org::BouncyCastle::Crypto::IRawAgreement() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -62,11 +61,11 @@ constexpr explicit X25519Agreement(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Fields
 
- ::Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters __declspec(property(get=__get_privateKey, put=__set_privateKey))  privateKey;
+ Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters __declspec(property(get=__get_privateKey, put=__set_privateKey))  privateKey;
 
-constexpr void __set_privateKey(::Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters value) ;
+constexpr void __set_privateKey(Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters __get_privateKey() const;
+constexpr Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters __get_privateKey() const;
 
 
 // Properties
@@ -77,13 +76,13 @@ constexpr ::Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters __
 // Methods
 
 /// @brief Method Init addr 0x119203c size 0x74 virtual true final true
- void Init(::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method get_AgreementSize addr 0x11920b0 size 0x58 virtual true final true
  int32_t get_AgreementSize() ;
 
 /// @brief Method CalculateAgreement addr 0x1192108 size 0x8c virtual true final true
- void CalculateAgreement(::Org::BouncyCastle::Crypto::ICipherParameters publicKey, ::ArrayW<uint8_t> buf, int32_t off) ;
+ void CalculateAgreement(Org::BouncyCastle::Crypto::ICipherParameters publicKey, ::ArrayW<uint8_t> buf, int32_t off) ;
 
 // Ctor Parameters []
 explicit X25519Agreement() ;
@@ -95,6 +94,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Agreement
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Agreement::X25519Agreement);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Agreement::X25519Agreement, "Org.BouncyCastle.Crypto.Agreement", "X25519Agreement");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Agreement::X25519Agreement);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Agreement::X25519Agreement, "Org.BouncyCastle.Crypto.Agreement", "X25519Agreement");

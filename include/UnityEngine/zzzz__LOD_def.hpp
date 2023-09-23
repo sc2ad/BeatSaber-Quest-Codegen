@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstddef>
-namespace {
 namespace UnityEngine {
 class Renderer;
 }
@@ -20,8 +19,8 @@ namespace UnityEngine {
 struct CORDL_TYPE LOD : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "screenRelativeTransitionHeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "fadeTransitionWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "renderers", ty: "::ArrayW<::UnityEngine::Renderer>", modifiers: "", def_value: None }]
-constexpr LOD(float_t screenRelativeTransitionHeight, float_t fadeTransitionWidth, ::ArrayW<::UnityEngine::Renderer> renderers) noexcept;
+// Ctor Parameters [CppParam { name: "screenRelativeTransitionHeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "fadeTransitionWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "renderers", ty: "::ArrayW<UnityEngine::Renderer>", modifiers: "", def_value: None }]
+constexpr LOD(float_t screenRelativeTransitionHeight, float_t fadeTransitionWidth, ::ArrayW<UnityEngine::Renderer> renderers) noexcept;
 
 
                     constexpr LOD(LOD const&) = default;
@@ -66,21 +65,20 @@ constexpr void __set_fadeTransitionWidth(float_t value) ;
 
 constexpr float_t __get_fadeTransitionWidth() const;
 
- ::ArrayW<::UnityEngine::Renderer> __declspec(property(get=__get_renderers, put=__set_renderers))  renderers;
+ ::ArrayW<UnityEngine::Renderer> __declspec(property(get=__get_renderers, put=__set_renderers))  renderers;
 
-constexpr void __set_renderers(::ArrayW<::UnityEngine::Renderer> value) ;
+constexpr void __set_renderers(::ArrayW<UnityEngine::Renderer> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Renderer> __get_renderers() const;
+constexpr ::ArrayW<UnityEngine::Renderer> __get_renderers() const;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x2b40ecc size 0x10 virtual false final false
- void _ctor(float_t screenRelativeTransitionHeight, ::ArrayW<::UnityEngine::Renderer> renderers) ;
+ void _ctor(float_t screenRelativeTransitionHeight, ::ArrayW<UnityEngine::Renderer> renderers) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::LOD, "UnityEngine", "LOD");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LOD, "UnityEngine", "LOD");

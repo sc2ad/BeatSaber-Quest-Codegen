@@ -2,12 +2,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace System::Collections {
-class IHashCodeProvider;
-}
 namespace System::Collections {
 class IEqualityComparer;
+}
+namespace System::Collections {
+class IHashCodeProvider;
 }
 namespace System::Collections {
 class IComparer;
@@ -25,8 +24,8 @@ namespace System::Collections {
 class CORDL_TYPE CompatibleComparer : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::IEqualityComparer
-constexpr operator  ::System::Collections::IEqualityComparer() const noexcept;
+/// @brief Convert operator to System::Collections::IEqualityComparer
+constexpr operator  System::Collections::IEqualityComparer() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -61,39 +60,39 @@ constexpr explicit CompatibleComparer(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Fields
 
- ::System::Collections::IHashCodeProvider __declspec(property(get=__get__hcp, put=__set__hcp))  _hcp;
+ System::Collections::IHashCodeProvider __declspec(property(get=__get__hcp, put=__set__hcp))  _hcp;
 
-constexpr void __set__hcp(::System::Collections::IHashCodeProvider value) ;
+constexpr void __set__hcp(System::Collections::IHashCodeProvider value) ;
 
-constexpr ::System::Collections::IHashCodeProvider __get__hcp() const;
+constexpr System::Collections::IHashCodeProvider __get__hcp() const;
 
- ::System::Collections::IComparer __declspec(property(get=__get__comparer, put=__set__comparer))  _comparer;
+ System::Collections::IComparer __declspec(property(get=__get__comparer, put=__set__comparer))  _comparer;
 
-constexpr void __set__comparer(::System::Collections::IComparer value) ;
+constexpr void __set__comparer(System::Collections::IComparer value) ;
 
-constexpr ::System::Collections::IComparer __get__comparer() const;
+constexpr System::Collections::IComparer __get__comparer() const;
 
 
 // Properties
 
- ::System::Collections::IHashCodeProvider __declspec(property(get=get_HashCodeProvider))  HashCodeProvider;
+ System::Collections::IHashCodeProvider __declspec(property(get=get_HashCodeProvider))  HashCodeProvider;
 
- ::System::Collections::IComparer __declspec(property(get=get_Comparer))  Comparer;
+ System::Collections::IComparer __declspec(property(get=get_Comparer))  Comparer;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "hashCodeProvider", ty: "::System::Collections::IHashCodeProvider", modifiers: "", def_value: None }, CppParam { name: "comparer", ty: "::System::Collections::IComparer", modifiers: "", def_value: None }]
-explicit CompatibleComparer(::System::Collections::IHashCodeProvider hashCodeProvider, ::System::Collections::IComparer comparer) ;
+// Ctor Parameters [CppParam { name: "hashCodeProvider", ty: "System::Collections::IHashCodeProvider", modifiers: "", def_value: None }, CppParam { name: "comparer", ty: "System::Collections::IComparer", modifiers: "", def_value: None }]
+explicit CompatibleComparer(System::Collections::IHashCodeProvider hashCodeProvider, System::Collections::IComparer comparer) ;
 
 /// @brief Method .ctor addr 0x240fd70 size 0x2c virtual false final false
- void _ctor(::System::Collections::IHashCodeProvider hashCodeProvider, ::System::Collections::IComparer comparer) ;
+ void _ctor(System::Collections::IHashCodeProvider hashCodeProvider, System::Collections::IComparer comparer) ;
 
 /// @brief Method get_HashCodeProvider addr 0x240fd9c size 0x8 virtual false final false
- ::System::Collections::IHashCodeProvider get_HashCodeProvider() ;
+ System::Collections::IHashCodeProvider get_HashCodeProvider() ;
 
 /// @brief Method get_Comparer addr 0x240fda4 size 0x8 virtual false final false
- ::System::Collections::IComparer get_Comparer() ;
+ System::Collections::IComparer get_Comparer() ;
 
 /// @brief Method Equals addr 0x240fdac size 0x18 virtual true final true
  bool Equals(::bs_hook::Il2CppWrapperType a, ::bs_hook::Il2CppWrapperType b) ;
@@ -108,6 +107,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Collections
-} // end anonymous namespace
-NEED_NO_BOX(::System::Collections::CompatibleComparer);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::CompatibleComparer, "System.Collections", "CompatibleComparer");
+NEED_NO_BOX(System::Collections::CompatibleComparer);
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::CompatibleComparer, "System.Collections", "CompatibleComparer");

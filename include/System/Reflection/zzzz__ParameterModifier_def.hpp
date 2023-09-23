@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
-namespace {
 // Forward declare root types
 namespace System::Reflection {
 struct ParameterModifier;
@@ -60,5 +59,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Reflection
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::ParameterModifier, "System.Reflection", "ParameterModifier");
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ParameterModifier, "System.Reflection", "ParameterModifier");

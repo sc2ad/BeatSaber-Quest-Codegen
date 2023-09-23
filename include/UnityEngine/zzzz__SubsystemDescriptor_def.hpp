@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace UnityEngine {
-class ISubsystem;
-}
 namespace UnityEngine {
 class ISubsystemDescriptor;
+}
+namespace UnityEngine {
+class ISubsystem;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -22,8 +21,8 @@ namespace UnityEngine {
 class CORDL_TYPE SubsystemDescriptor : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::ISubsystemDescriptor
-constexpr operator  ::UnityEngine::ISubsystemDescriptor() const noexcept;
+/// @brief Convert operator to UnityEngine::ISubsystemDescriptor
+constexpr operator  UnityEngine::ISubsystemDescriptor() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -76,10 +75,10 @@ constexpr ::StringW __get__id_k__BackingField() const;
  ::StringW get_id() ;
 
 /// @brief Method UnityEngine.ISubsystemDescriptor.Create addr 0x2ba301c size 0xc virtual true final true
- ::UnityEngine::ISubsystem UnityEngine_ISubsystemDescriptor_Create() ;
+ UnityEngine::ISubsystem UnityEngine_ISubsystemDescriptor_Create() ;
 
 /// @brief Method CreateImpl addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::ISubsystem CreateImpl() ;
+ UnityEngine::ISubsystem CreateImpl() ;
 
 // Ctor Parameters []
 explicit SubsystemDescriptor() ;
@@ -91,6 +90,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::SubsystemDescriptor);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SubsystemDescriptor, "UnityEngine", "SubsystemDescriptor");
+NEED_NO_BOX(UnityEngine::SubsystemDescriptor);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SubsystemDescriptor, "UnityEngine", "SubsystemDescriptor");

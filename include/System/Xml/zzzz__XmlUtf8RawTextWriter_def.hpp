@@ -5,18 +5,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Text {
-class Encoding;
-}
 namespace System::Xml {
 struct XmlStandalone;
 }
 namespace System::Xml {
-class XmlWriterSettings;
-}
-namespace System::Xml {
 struct XmlCharType;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System::Text {
+class Encoding;
 }
 namespace System::Xml {
 struct XmlOutputMethod;
@@ -24,8 +23,8 @@ struct XmlOutputMethod;
 namespace System::Xml {
 struct NewLineHandling;
 }
-namespace System::IO {
-class Stream;
+namespace System::Xml {
+class XmlWriterSettings;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -37,7 +36,7 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11397))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11417))
 // CS Name: System.Xml.XmlUtf8RawTextWriter
-class CORDL_TYPE XmlUtf8RawTextWriter : public ::System::Xml::XmlRawWriter {
+class CORDL_TYPE XmlUtf8RawTextWriter : public System::Xml::XmlRawWriter {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -52,7 +51,7 @@ constexpr XmlUtf8RawTextWriter(XmlUtf8RawTextWriter const& ) noexcept = default;
 constexpr XmlUtf8RawTextWriter(XmlUtf8RawTextWriter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XmlUtf8RawTextWriter(void* ptr) noexcept : ::System::Xml::XmlRawWriter(ptr) {
+constexpr explicit XmlUtf8RawTextWriter(void* ptr) noexcept : System::Xml::XmlRawWriter(ptr) {
 }
 
 
@@ -85,23 +84,23 @@ constexpr void __set_bufBytes(::ArrayW<uint8_t> value) ;
 
 constexpr ::ArrayW<uint8_t> __get_bufBytes() const;
 
- ::System::IO::Stream __declspec(property(get=__get_stream, put=__set_stream))  stream;
+ System::IO::Stream __declspec(property(get=__get_stream, put=__set_stream))  stream;
 
-constexpr void __set_stream(::System::IO::Stream value) ;
+constexpr void __set_stream(System::IO::Stream value) ;
 
-constexpr ::System::IO::Stream __get_stream() const;
+constexpr System::IO::Stream __get_stream() const;
 
- ::System::Text::Encoding __declspec(property(get=__get_encoding, put=__set_encoding))  encoding;
+ System::Text::Encoding __declspec(property(get=__get_encoding, put=__set_encoding))  encoding;
 
-constexpr void __set_encoding(::System::Text::Encoding value) ;
+constexpr void __set_encoding(System::Text::Encoding value) ;
 
-constexpr ::System::Text::Encoding __get_encoding() const;
+constexpr System::Text::Encoding __get_encoding() const;
 
- ::System::Xml::XmlCharType __declspec(property(get=__get_xmlCharType, put=__set_xmlCharType))  xmlCharType;
+ System::Xml::XmlCharType __declspec(property(get=__get_xmlCharType, put=__set_xmlCharType))  xmlCharType;
 
-constexpr void __set_xmlCharType(::System::Xml::XmlCharType value) ;
+constexpr void __set_xmlCharType(System::Xml::XmlCharType value) ;
 
-constexpr ::System::Xml::XmlCharType __get_xmlCharType() const;
+constexpr System::Xml::XmlCharType __get_xmlCharType() const;
 
  int32_t __declspec(property(get=__get_bufPos, put=__set_bufPos))  bufPos;
 
@@ -157,11 +156,11 @@ constexpr void __set_inAttributeValue(bool value) ;
 
 constexpr bool __get_inAttributeValue() const;
 
- ::System::Xml::NewLineHandling __declspec(property(get=__get_newLineHandling, put=__set_newLineHandling))  newLineHandling;
+ System::Xml::NewLineHandling __declspec(property(get=__get_newLineHandling, put=__set_newLineHandling))  newLineHandling;
 
-constexpr void __set_newLineHandling(::System::Xml::NewLineHandling value) ;
+constexpr void __set_newLineHandling(System::Xml::NewLineHandling value) ;
 
-constexpr ::System::Xml::NewLineHandling __get_newLineHandling() const;
+constexpr System::Xml::NewLineHandling __get_newLineHandling() const;
 
  bool __declspec(property(get=__get_closeOutput, put=__set_closeOutput))  closeOutput;
 
@@ -187,17 +186,17 @@ constexpr void __set_checkCharacters(bool value) ;
 
 constexpr bool __get_checkCharacters() const;
 
- ::System::Xml::XmlStandalone __declspec(property(get=__get_standalone, put=__set_standalone))  standalone;
+ System::Xml::XmlStandalone __declspec(property(get=__get_standalone, put=__set_standalone))  standalone;
 
-constexpr void __set_standalone(::System::Xml::XmlStandalone value) ;
+constexpr void __set_standalone(System::Xml::XmlStandalone value) ;
 
-constexpr ::System::Xml::XmlStandalone __get_standalone() const;
+constexpr System::Xml::XmlStandalone __get_standalone() const;
 
- ::System::Xml::XmlOutputMethod __declspec(property(get=__get_outputMethod, put=__set_outputMethod))  outputMethod;
+ System::Xml::XmlOutputMethod __declspec(property(get=__get_outputMethod, put=__set_outputMethod))  outputMethod;
 
-constexpr void __set_outputMethod(::System::Xml::XmlOutputMethod value) ;
+constexpr void __set_outputMethod(System::Xml::XmlOutputMethod value) ;
 
-constexpr ::System::Xml::XmlOutputMethod __get_outputMethod() const;
+constexpr System::Xml::XmlOutputMethod __get_outputMethod() const;
 
  bool __declspec(property(get=__get_autoXmlDeclaration, put=__set_autoXmlDeclaration))  autoXmlDeclaration;
 
@@ -219,20 +218,20 @@ constexpr bool __get_mergeCDataSections() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "settings", ty: "::System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
-explicit XmlUtf8RawTextWriter(::System::Xml::XmlWriterSettings settings) ;
+// Ctor Parameters [CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
+explicit XmlUtf8RawTextWriter(System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method .ctor addr 0x26e1a84 size 0xdc virtual false final false
- void _ctor(::System::Xml::XmlWriterSettings settings) ;
+ void _ctor(System::Xml::XmlWriterSettings settings) ;
 
-// Ctor Parameters [CppParam { name: "stream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "::System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
-explicit XmlUtf8RawTextWriter(::System::IO::Stream stream, ::System::Xml::XmlWriterSettings settings) ;
+// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
+explicit XmlUtf8RawTextWriter(System::IO::Stream stream, System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method .ctor addr 0x26e1ec0 size 0x144 virtual false final false
- void _ctor(::System::IO::Stream stream, ::System::Xml::XmlWriterSettings settings) ;
+ void _ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method WriteXmlDeclaration addr 0x26e2004 size 0x160 virtual true final false
- void WriteXmlDeclaration(::System::Xml::XmlStandalone standalone) ;
+ void WriteXmlDeclaration(System::Xml::XmlStandalone standalone) ;
 
 /// @brief Method WriteXmlDeclaration addr 0x26e21a0 size 0x78 virtual true final false
  void WriteXmlDeclaration(::StringW xmldecl) ;
@@ -394,6 +393,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::XmlUtf8RawTextWriter);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlUtf8RawTextWriter, "System.Xml", "XmlUtf8RawTextWriter");
+NEED_NO_BOX(System::Xml::XmlUtf8RawTextWriter);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlUtf8RawTextWriter, "System.Xml", "XmlUtf8RawTextWriter");

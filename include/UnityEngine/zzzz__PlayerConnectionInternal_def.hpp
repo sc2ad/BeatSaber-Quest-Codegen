@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 class IPlayerEditorConnectionNative;
 }
@@ -24,8 +23,8 @@ namespace UnityEngine {
 class CORDL_TYPE PlayerConnectionInternal : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::IPlayerEditorConnectionNative
-constexpr operator  ::UnityEngine::IPlayerEditorConnectionNative() const noexcept;
+/// @brief Convert operator to UnityEngine::IPlayerEditorConnectionNative
+constexpr operator  UnityEngine::IPlayerEditorConnectionNative() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -61,19 +60,19 @@ constexpr explicit PlayerConnectionInternal(void* ptr) noexcept : ::bs_hook::Il2
 // Methods
 
 /// @brief Method UnityEngine.IPlayerEditorConnectionNative.SendMessage addr 0x2b4e350 size 0x12c virtual true final true
- void UnityEngine_IPlayerEditorConnectionNative_SendMessage(::System::Guid messageId, ::ArrayW<uint8_t> data, int32_t playerId) ;
+ void UnityEngine_IPlayerEditorConnectionNative_SendMessage(System::Guid messageId, ::ArrayW<uint8_t> data, int32_t playerId) ;
 
 /// @brief Method UnityEngine.IPlayerEditorConnectionNative.TrySendMessage addr 0x2b4e4d0 size 0x130 virtual true final true
- bool UnityEngine_IPlayerEditorConnectionNative_TrySendMessage(::System::Guid messageId, ::ArrayW<uint8_t> data, int32_t playerId) ;
+ bool UnityEngine_IPlayerEditorConnectionNative_TrySendMessage(System::Guid messageId, ::ArrayW<uint8_t> data, int32_t playerId) ;
 
 /// @brief Method UnityEngine.IPlayerEditorConnectionNative.Poll addr 0x2b4e654 size 0x28 virtual true final true
  void UnityEngine_IPlayerEditorConnectionNative_Poll() ;
 
 /// @brief Method UnityEngine.IPlayerEditorConnectionNative.RegisterInternal addr 0x2b4e6a4 size 0x84 virtual true final true
- void UnityEngine_IPlayerEditorConnectionNative_RegisterInternal(::System::Guid messageId) ;
+ void UnityEngine_IPlayerEditorConnectionNative_RegisterInternal(System::Guid messageId) ;
 
 /// @brief Method UnityEngine.IPlayerEditorConnectionNative.UnregisterInternal addr 0x2b4e764 size 0x84 virtual true final true
- void UnityEngine_IPlayerEditorConnectionNative_UnregisterInternal(::System::Guid messageId) ;
+ void UnityEngine_IPlayerEditorConnectionNative_UnregisterInternal(System::Guid messageId) ;
 
 /// @brief Method UnityEngine.IPlayerEditorConnectionNative.Initialize addr 0x2b4e824 size 0x28 virtual true final true
  void UnityEngine_IPlayerEditorConnectionNative_Initialize() ;
@@ -118,6 +117,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::PlayerConnectionInternal);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerConnectionInternal, "UnityEngine", "PlayerConnectionInternal");
+NEED_NO_BOX(UnityEngine::PlayerConnectionInternal);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerConnectionInternal, "UnityEngine", "PlayerConnectionInternal");

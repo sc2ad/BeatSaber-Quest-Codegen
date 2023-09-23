@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct TextureFormat;
 }
@@ -23,8 +22,8 @@ namespace GlobalNamespace {
 struct CORDL_TYPE OVRTextureData : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "format", ty: "::GlobalNamespace::OVRTextureFormat", modifiers: "", def_value: None }, CppParam { name: "transcodedFormat", ty: "::UnityEngine::TextureFormat", modifiers: "", def_value: None }]
-constexpr OVRTextureData(::ArrayW<uint8_t> data, int32_t width, int32_t height, ::GlobalNamespace::OVRTextureFormat format, ::UnityEngine::TextureFormat transcodedFormat) noexcept;
+// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "format", ty: "GlobalNamespace::OVRTextureFormat", modifiers: "", def_value: None }, CppParam { name: "transcodedFormat", ty: "UnityEngine::TextureFormat", modifiers: "", def_value: None }]
+constexpr OVRTextureData(::ArrayW<uint8_t> data, int32_t width, int32_t height, GlobalNamespace::OVRTextureFormat format, UnityEngine::TextureFormat transcodedFormat) noexcept;
 
 
                     constexpr OVRTextureData(OVRTextureData const&) = default;
@@ -75,21 +74,20 @@ constexpr void __set_height(int32_t value) ;
 
 constexpr int32_t __get_height() const;
 
- ::GlobalNamespace::OVRTextureFormat __declspec(property(get=__get_format, put=__set_format))  format;
+ GlobalNamespace::OVRTextureFormat __declspec(property(get=__get_format, put=__set_format))  format;
 
-constexpr void __set_format(::GlobalNamespace::OVRTextureFormat value) ;
+constexpr void __set_format(GlobalNamespace::OVRTextureFormat value) ;
 
-constexpr ::GlobalNamespace::OVRTextureFormat __get_format() const;
+constexpr GlobalNamespace::OVRTextureFormat __get_format() const;
 
- ::UnityEngine::TextureFormat __declspec(property(get=__get_transcodedFormat, put=__set_transcodedFormat))  transcodedFormat;
+ UnityEngine::TextureFormat __declspec(property(get=__get_transcodedFormat, put=__set_transcodedFormat))  transcodedFormat;
 
-constexpr void __set_transcodedFormat(::UnityEngine::TextureFormat value) ;
+constexpr void __set_transcodedFormat(UnityEngine::TextureFormat value) ;
 
-constexpr ::UnityEngine::TextureFormat __get_transcodedFormat() const;
+constexpr UnityEngine::TextureFormat __get_transcodedFormat() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRTextureData, "", "OVRTextureData");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRTextureData, "", "OVRTextureData");

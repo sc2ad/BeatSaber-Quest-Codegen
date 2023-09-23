@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Net {
 class CookieTokenizer;
 }
@@ -55,11 +54,11 @@ constexpr explicit CookieParser(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 
 // Fields
 
- ::System::Net::CookieTokenizer __declspec(property(get=__get_m_tokenizer, put=__set_m_tokenizer))  m_tokenizer;
+ System::Net::CookieTokenizer __declspec(property(get=__get_m_tokenizer, put=__set_m_tokenizer))  m_tokenizer;
 
-constexpr void __set_m_tokenizer(::System::Net::CookieTokenizer value) ;
+constexpr void __set_m_tokenizer(System::Net::CookieTokenizer value) ;
 
-constexpr ::System::Net::CookieTokenizer __get_m_tokenizer() const;
+constexpr System::Net::CookieTokenizer __get_m_tokenizer() const;
 
 
 // Methods
@@ -71,7 +70,7 @@ explicit CookieParser(::StringW cookieString) ;
  void _ctor(::StringW cookieString) ;
 
 /// @brief Method Get addr 0x281bff4 size 0x55c virtual false final false
- ::System::Net::Cookie Get() ;
+ System::Net::Cookie Get() ;
 
 /// @brief Method CheckQuoted addr 0x281a65c size 0xc4 virtual false final false
 static ::StringW CheckQuoted(::StringW value) ;
@@ -80,6 +79,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::CookieParser);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::CookieParser, "System.Net", "CookieParser");
+NEED_NO_BOX(System::Net::CookieParser);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieParser, "System.Net", "CookieParser");

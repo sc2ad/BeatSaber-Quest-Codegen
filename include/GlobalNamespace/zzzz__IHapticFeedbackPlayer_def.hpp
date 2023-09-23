@@ -1,11 +1,10 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
-namespace UnityEngine::XR {
-struct XRNode;
-}
 namespace Libraries::HM::HMLib::VR {
 class HapticPresetSO;
+}
+namespace UnityEngine::XR {
+struct XRNode;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,15 +29,14 @@ constexpr explicit IHapticFeedbackPlayer(void* ptr) noexcept : ::cordl_internals
 // Methods
 
 /// @brief Method PlayHapticFeedback addr 0x0 size 0xffffffffffffffff virtual true final false
- void PlayHapticFeedback(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO hapticPreset) ;
+ void PlayHapticFeedback(UnityEngine::XR::XRNode node, Libraries::HM::HMLib::VR::HapticPresetSO hapticPreset) ;
 
 /// @brief Method CanPlayHapticPreset addr 0x0 size 0xffffffffffffffff virtual true final false
- bool CanPlayHapticPreset(::Libraries::HM::HMLib::VR::HapticPresetSO hapticPreset) ;
+ bool CanPlayHapticPreset(Libraries::HM::HMLib::VR::HapticPresetSO hapticPreset) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IHapticFeedbackPlayer);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IHapticFeedbackPlayer, "", "IHapticFeedbackPlayer");
+NEED_NO_BOX(GlobalNamespace::IHapticFeedbackPlayer);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IHapticFeedbackPlayer, "", "IHapticFeedbackPlayer");

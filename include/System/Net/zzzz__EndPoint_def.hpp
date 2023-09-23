@@ -1,12 +1,11 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace System::Net::Sockets {
-struct AddressFamily;
-}
 namespace System::Net {
 class SocketAddress;
+}
+namespace System::Net::Sockets {
+struct AddressFamily;
 }
 // Forward declare root types
 namespace System::Net {
@@ -54,19 +53,19 @@ constexpr explicit EndPoint(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(p
 
 // Properties
 
- ::System::Net::Sockets::AddressFamily __declspec(property(get=get_AddressFamily))  AddressFamily;
+ System::Net::Sockets::AddressFamily __declspec(property(get=get_AddressFamily))  AddressFamily;
 
 
 // Methods
 
 /// @brief Method get_AddressFamily addr 0x280a00c size 0x28 virtual true final false
- ::System::Net::Sockets::AddressFamily get_AddressFamily() ;
+ System::Net::Sockets::AddressFamily get_AddressFamily() ;
 
 /// @brief Method Serialize addr 0x280a034 size 0x28 virtual true final false
- ::System::Net::SocketAddress Serialize() ;
+ System::Net::SocketAddress Serialize() ;
 
 /// @brief Method Create addr 0x280a05c size 0x28 virtual true final false
- ::System::Net::EndPoint Create(::System::Net::SocketAddress socketAddress) ;
+ System::Net::EndPoint Create(System::Net::SocketAddress socketAddress) ;
 
 // Ctor Parameters []
 explicit EndPoint() ;
@@ -78,6 +77,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::EndPoint);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::EndPoint, "System.Net", "EndPoint");
+NEED_NO_BOX(System::Net::EndPoint);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::EndPoint, "System.Net", "EndPoint");

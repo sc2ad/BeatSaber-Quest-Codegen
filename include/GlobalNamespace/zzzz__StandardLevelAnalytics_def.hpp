@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class IAnalyticsModel;
 }
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4007))
 // CS Name: StandardLevelAnalytics
-class CORDL_TYPE StandardLevelAnalytics : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE StandardLevelAnalytics : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr StandardLevelAnalytics(StandardLevelAnalytics const& ) noexcept = defa
 constexpr StandardLevelAnalytics(StandardLevelAnalytics&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit StandardLevelAnalytics(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit StandardLevelAnalytics(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -57,17 +56,17 @@ constexpr explicit StandardLevelAnalytics(void* ptr) noexcept : ::UnityEngine::M
 
 // Fields
 
- ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO __declspec(property(get=__get__standardLevelScenesTransitionSetupData, put=__set__standardLevelScenesTransitionSetupData))  _standardLevelScenesTransitionSetupData;
+ GlobalNamespace::StandardLevelScenesTransitionSetupDataSO __declspec(property(get=__get__standardLevelScenesTransitionSetupData, put=__set__standardLevelScenesTransitionSetupData))  _standardLevelScenesTransitionSetupData;
 
-constexpr void __set__standardLevelScenesTransitionSetupData(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO value) ;
+constexpr void __set__standardLevelScenesTransitionSetupData(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO value) ;
 
-constexpr ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO __get__standardLevelScenesTransitionSetupData() const;
+constexpr GlobalNamespace::StandardLevelScenesTransitionSetupDataSO __get__standardLevelScenesTransitionSetupData() const;
 
- ::GlobalNamespace::IAnalyticsModel __declspec(property(get=__get__analyticsModel, put=__set__analyticsModel))  _analyticsModel;
+ GlobalNamespace::IAnalyticsModel __declspec(property(get=__get__analyticsModel, put=__set__analyticsModel))  _analyticsModel;
 
-constexpr void __set__analyticsModel(::GlobalNamespace::IAnalyticsModel value) ;
+constexpr void __set__analyticsModel(GlobalNamespace::IAnalyticsModel value) ;
 
-constexpr ::GlobalNamespace::IAnalyticsModel __get__analyticsModel() const;
+constexpr GlobalNamespace::IAnalyticsModel __get__analyticsModel() const;
 
 
 // Methods
@@ -79,7 +78,7 @@ constexpr ::GlobalNamespace::IAnalyticsModel __get__analyticsModel() const;
  void OnDestroy() ;
 
 /// @brief Method HandleStandardLevelDidFinishEvent addr 0x20b3368 size 0x644 virtual false final false
- void HandleStandardLevelDidFinishEvent(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO standardLevelScenesTransitionSetupData, ::GlobalNamespace::LevelCompletionResults levelCompletionResults) ;
+ void HandleStandardLevelDidFinishEvent(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO standardLevelScenesTransitionSetupData, GlobalNamespace::LevelCompletionResults levelCompletionResults) ;
 
 // Ctor Parameters []
 explicit StandardLevelAnalytics() ;
@@ -91,6 +90,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::StandardLevelAnalytics);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StandardLevelAnalytics, "", "StandardLevelAnalytics");
+NEED_NO_BOX(GlobalNamespace::StandardLevelAnalytics);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelAnalytics, "", "StandardLevelAnalytics");

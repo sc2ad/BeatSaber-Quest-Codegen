@@ -3,10 +3,9 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
-class ____System__Collections__Generic__SortedSet_1__Node;
+class System__Collections__Generic__SortedSet_1__Node;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
@@ -30,7 +29,7 @@ template<::cordl_internals::il2cpp_reference_type T>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610)), TypeDefinitionIndex(TypeDefinitionIndex(8394))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8394), inst: 2 })
 // CS Name: System.Collections.Generic.TreeWalkPredicate`1
-class CORDL_TYPE TreeWalkPredicate_1<T> : public ::System::MulticastDelegate {
+class CORDL_TYPE TreeWalkPredicate_1<T> : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -45,7 +44,7 @@ constexpr TreeWalkPredicate_1(TreeWalkPredicate_1 const& ) noexcept = default;
 constexpr TreeWalkPredicate_1(TreeWalkPredicate_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TreeWalkPredicate_1(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit TreeWalkPredicate_1(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -73,7 +72,7 @@ explicit TreeWalkPredicate_1(::bs_hook::Il2CppWrapperType object, ::cordl_intern
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
- bool Invoke(::System::Collections::Generic::____System__Collections__Generic__SortedSet_1__Node<T> node) ;
+ bool Invoke(System::Collections::Generic::System__Collections__Generic__SortedSet_1__Node<T> node) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -84,10 +83,10 @@ namespace System::Collections::Generic {
 // cpp template
 template<>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610)), TypeDefinitionIndex(TypeDefinitionIndex(8394))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8394)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8394), inst: 729 })
 // CS Name: System.Collections.Generic.TreeWalkPredicate`1
-class CORDL_TYPE TreeWalkPredicate_1<uint32_t> : public ::System::MulticastDelegate {
+class CORDL_TYPE TreeWalkPredicate_1<uint32_t> : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -102,7 +101,7 @@ constexpr TreeWalkPredicate_1(TreeWalkPredicate_1 const& ) noexcept = default;
 constexpr TreeWalkPredicate_1(TreeWalkPredicate_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TreeWalkPredicate_1(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit TreeWalkPredicate_1(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -130,11 +129,10 @@ explicit TreeWalkPredicate_1(::bs_hook::Il2CppWrapperType object, ::cordl_intern
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
- bool Invoke(::System::Collections::Generic::____System__Collections__Generic__SortedSet_1__Node<uint32_t> node) ;
+ bool Invoke(System::Collections::Generic::System__Collections__Generic__SortedSet_1__Node<uint32_t> node) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Collections::Generic
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Generic::TreeWalkPredicate_1, "System.Collections.Generic", "TreeWalkPredicate`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::TreeWalkPredicate_1, "System.Collections.Generic", "TreeWalkPredicate`1");

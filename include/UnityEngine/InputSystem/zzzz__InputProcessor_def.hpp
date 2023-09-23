@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class Type;
 }
@@ -58,23 +57,23 @@ constexpr explicit InputProcessor(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
-static ::UnityEngine::InputSystem::Utilities::TypeTable __declspec(property(get=__get_s_Processors, put=__set_s_Processors))  s_Processors;
+static UnityEngine::InputSystem::Utilities::TypeTable __declspec(property(get=__get_s_Processors, put=__set_s_Processors))  s_Processors;
 
-static void __set_s_Processors(::UnityEngine::InputSystem::Utilities::TypeTable value) ;
+static void __set_s_Processors(UnityEngine::InputSystem::Utilities::TypeTable value) ;
 
-static ::UnityEngine::InputSystem::Utilities::TypeTable __get_s_Processors() ;
+static UnityEngine::InputSystem::Utilities::TypeTable __get_s_Processors() ;
 
 
 // Methods
 
 /// @brief Method ProcessAsObject addr 0x0 size 0xffffffffffffffff virtual true final false
- ::bs_hook::Il2CppWrapperType ProcessAsObject(::bs_hook::Il2CppWrapperType value, ::UnityEngine::InputSystem::InputControl control) ;
+ ::bs_hook::Il2CppWrapperType ProcessAsObject(::bs_hook::Il2CppWrapperType value, UnityEngine::InputSystem::InputControl control) ;
 
 /// @brief Method Process addr 0x0 size 0xffffffffffffffff virtual true final false
- void Process(void* buffer, int32_t bufferSize, ::UnityEngine::InputSystem::InputControl control) ;
+ void Process(void* buffer, int32_t bufferSize, UnityEngine::InputSystem::InputControl control) ;
 
 /// @brief Method GetValueTypeFromType addr 0x28d6c78 size 0xf4 virtual false final false
-static ::System::Type GetValueTypeFromType(::System::Type processorType) ;
+static System::Type GetValueTypeFromType(System::Type processorType) ;
 
 // Ctor Parameters []
 explicit InputProcessor() ;
@@ -86,6 +85,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::InputProcessor);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::InputProcessor, "UnityEngine.InputSystem", "InputProcessor");
+NEED_NO_BOX(UnityEngine::InputSystem::InputProcessor);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::InputProcessor, "UnityEngine.InputSystem", "InputProcessor");

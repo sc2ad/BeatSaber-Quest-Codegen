@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
 }
@@ -18,7 +17,7 @@ namespace Org::BouncyCastle::Bcpg {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(557))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(573))
 // CS Name: Org.BouncyCastle.Bcpg.LiteralDataPacket
-class CORDL_TYPE LiteralDataPacket : public ::Org::BouncyCastle::Bcpg::InputStreamPacket {
+class CORDL_TYPE LiteralDataPacket : public Org::BouncyCastle::Bcpg::InputStreamPacket {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr LiteralDataPacket(LiteralDataPacket const& ) noexcept = default;
 constexpr LiteralDataPacket(LiteralDataPacket&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LiteralDataPacket(void* ptr) noexcept : ::Org::BouncyCastle::Bcpg::InputStreamPacket(ptr) {
+constexpr explicit LiteralDataPacket(void* ptr) noexcept : Org::BouncyCastle::Bcpg::InputStreamPacket(ptr) {
 }
 
 
@@ -84,11 +83,11 @@ constexpr int64_t __get_modDate() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "::Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
-explicit LiteralDataPacket(::Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
+explicit LiteralDataPacket(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
 /// @brief Method .ctor addr 0x11449e8 size 0x1bc virtual false final false
- void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+ void _ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
 /// @brief Method get_Format addr 0x1147ad8 size 0x8 virtual false final false
  int32_t get_Format() ;
@@ -106,6 +105,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::LiteralDataPacket);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::LiteralDataPacket, "Org.BouncyCastle.Bcpg", "LiteralDataPacket");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::LiteralDataPacket);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::LiteralDataPacket, "Org.BouncyCastle.Bcpg", "LiteralDataPacket");

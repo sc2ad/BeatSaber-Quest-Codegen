@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace Org::BouncyCastle::Crypto {
+class IBlockCipher;
+}
 namespace System::Collections {
 class IDictionary;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
-}
-namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -27,8 +26,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
 class CORDL_TYPE Gost28147Engine : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IBlockCipher
-constexpr operator  ::Org::BouncyCastle::Crypto::IBlockCipher() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IBlockCipher
+constexpr operator  Org::BouncyCastle::Crypto::IBlockCipher() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -132,11 +131,11 @@ static void __set_DSbox_A(::ArrayW<uint8_t> value) ;
 
 static ::ArrayW<uint8_t> __get_DSbox_A() ;
 
-static ::System::Collections::IDictionary __declspec(property(get=__get_sBoxes, put=__set_sBoxes))  sBoxes;
+static System::Collections::IDictionary __declspec(property(get=__get_sBoxes, put=__set_sBoxes))  sBoxes;
 
-static void __set_sBoxes(::System::Collections::IDictionary value) ;
+static void __set_sBoxes(System::Collections::IDictionary value) ;
 
-static ::System::Collections::IDictionary __get_sBoxes() ;
+static System::Collections::IDictionary __get_sBoxes() ;
 
 
 // Properties
@@ -158,7 +157,7 @@ explicit Gost28147Engine() ;
  void _ctor() ;
 
 /// @brief Method Init addr 0xe44f2c size 0x264 virtual true final false
- void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method get_AlgorithmName addr 0xe452c4 size 0x40 virtual true final false
  ::StringW get_AlgorithmName() ;
@@ -200,6 +199,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Engines
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::Gost28147Engine);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Engines::Gost28147Engine, "Org.BouncyCastle.Crypto.Engines", "Gost28147Engine");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Engines::Gost28147Engine);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::Gost28147Engine, "Org.BouncyCastle.Crypto.Engines", "Gost28147Engine");

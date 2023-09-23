@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Runtime::InteropServices {
 class SafeHandle;
 }
@@ -69,11 +68,10 @@ static T __get_s_invalidHandle() ;
 // Methods
 
 /// @brief Method IsCachedInvalidHandle addr 0x0 size 0xffffffffffffffff virtual false final false
-static bool IsCachedInvalidHandle(::System::Runtime::InteropServices::SafeHandle handle) ;
+static bool IsCachedInvalidHandle(System::Runtime::InteropServices::SafeHandle handle) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Microsoft::Win32::SafeHandles
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Microsoft::Win32::SafeHandles::SafeHandleCache_1, "Microsoft.Win32.SafeHandles", "SafeHandleCache`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Microsoft::Win32::SafeHandles::SafeHandleCache_1, "Microsoft.Win32.SafeHandles", "SafeHandleCache`1");

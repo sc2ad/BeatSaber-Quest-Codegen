@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 struct NoteLineLayer;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Base offset 0
-static ::GlobalNamespace::NoteLineLayer const Base;
+static GlobalNamespace::NoteLineLayer const Base;
 
 /// @brief Field Upper offset 0
-static ::GlobalNamespace::NoteLineLayer const Upper;
+static GlobalNamespace::NoteLineLayer const Upper;
 
 /// @brief Field Top offset 0
-static ::GlobalNamespace::NoteLineLayer const Top;
+static GlobalNamespace::NoteLineLayer const Top;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoteLineLayer, "", "NoteLineLayer");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteLineLayer, "", "NoteLineLayer");

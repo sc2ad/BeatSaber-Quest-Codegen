@@ -1,6 +1,5 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace UnityEngine::EventSystems {
 class IEventSystemHandler;
 }
@@ -20,8 +19,8 @@ namespace UnityEngine::EventSystems {
 class CORDL_TYPE IDropHandler : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::EventSystems::IEventSystemHandler
-constexpr operator  ::UnityEngine::EventSystems::IEventSystemHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IEventSystemHandler
+constexpr operator  UnityEngine::EventSystems::IEventSystemHandler() const noexcept;
 
 ~IDropHandler() = default;
 
@@ -33,12 +32,11 @@ constexpr explicit IDropHandler(void* ptr) noexcept : ::cordl_internals::Interfa
 // Methods
 
 /// @brief Method OnDrop addr 0x0 size 0xffffffffffffffff virtual true final false
- void OnDrop(::UnityEngine::EventSystems::PointerEventData eventData) ;
+ void OnDrop(UnityEngine::EventSystems::PointerEventData eventData) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::EventSystems
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::EventSystems::IDropHandler);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::IDropHandler, "UnityEngine.EventSystems", "IDropHandler");
+NEED_NO_BOX(UnityEngine::EventSystems::IDropHandler);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::IDropHandler, "UnityEngine.EventSystems", "IDropHandler");

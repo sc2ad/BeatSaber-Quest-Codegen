@@ -3,13 +3,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace UnityEngine {
+class Object;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEqualityComparer_1;
-}
-namespace UnityEngine {
-class Object;
 }
 // Forward declare root types
 namespace UnityEngine::Assertions {
@@ -84,7 +83,7 @@ template<typename T>
 static void IsNull(T value, ::StringW message) ;
 
 /// @brief Method IsNull addr 0x2b70fc4 size 0xbc virtual false final false
-static void IsNull(::UnityEngine::Object value, ::StringW message) ;
+static void IsNull(UnityEngine::Object value, ::StringW message) ;
 
 /// @brief Method IsNotNull addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
@@ -95,7 +94,7 @@ template<typename T>
 static void IsNotNull(T value, ::StringW message) ;
 
 /// @brief Method IsNotNull addr 0x2b711e8 size 0xbc virtual false final false
-static void IsNotNull(::UnityEngine::Object value, ::StringW message) ;
+static void IsNotNull(UnityEngine::Object value, ::StringW message) ;
 
 /// @brief Method Fail addr 0x2b70e1c size 0x128 virtual false final false
 static void Fail(::StringW message, ::StringW userMessage) ;
@@ -110,10 +109,10 @@ static void AreEqual(T expected, T actual, ::StringW message) ;
 
 /// @brief Method AreEqual addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static void AreEqual(T expected, T actual, ::StringW message, ::System::Collections::Generic::IEqualityComparer_1<T> comparer) ;
+static void AreEqual(T expected, T actual, ::StringW message, System::Collections::Generic::IEqualityComparer_1<T> comparer) ;
 
 /// @brief Method AreEqual addr 0x2b71318 size 0xc8 virtual false final false
-static void AreEqual(::UnityEngine::Object expected, ::UnityEngine::Object actual, ::StringW message) ;
+static void AreEqual(UnityEngine::Object expected, UnityEngine::Object actual, ::StringW message) ;
 
 /// @brief Method AreNotEqual addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
@@ -125,10 +124,10 @@ static void AreNotEqual(T expected, T actual, ::StringW message) ;
 
 /// @brief Method AreNotEqual addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static void AreNotEqual(T expected, T actual, ::StringW message, ::System::Collections::Generic::IEqualityComparer_1<T> comparer) ;
+static void AreNotEqual(T expected, T actual, ::StringW message, System::Collections::Generic::IEqualityComparer_1<T> comparer) ;
 
 /// @brief Method AreNotEqual addr 0x2b715d4 size 0xc8 virtual false final false
-static void AreNotEqual(::UnityEngine::Object expected, ::UnityEngine::Object actual, ::StringW message) ;
+static void AreNotEqual(UnityEngine::Object expected, UnityEngine::Object actual, ::StringW message) ;
 
 /// @brief Method AreEqual addr 0x2b7169c size 0x8c virtual false final false
 static void AreEqual(int32_t expected, int32_t actual) ;
@@ -137,6 +136,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Assertions
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Assertions::Assert);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Assertions::Assert, "UnityEngine.Assertions", "Assert");
+NEED_NO_BOX(UnityEngine::Assertions::Assert);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Assertions::Assert, "UnityEngine.Assertions", "Assert");

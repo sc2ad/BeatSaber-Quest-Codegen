@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace Org::BouncyCastle::Asn1 {
+class IAsn1Choice;
+}
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1String;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -24,11 +23,11 @@ namespace Org::BouncyCastle::Asn1::X509 {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(356))
 // CS Name: Org.BouncyCastle.Asn1.X509.DisplayText
-class CORDL_TYPE DisplayText : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
+class CORDL_TYPE DisplayText : public Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Asn1::IAsn1Choice
-constexpr operator  ::Org::BouncyCastle::Asn1::IAsn1Choice() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Asn1::IAsn1Choice
+constexpr operator  Org::BouncyCastle::Asn1::IAsn1Choice() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -42,7 +41,7 @@ constexpr DisplayText(DisplayText const& ) noexcept = default;
 constexpr DisplayText(DisplayText&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DisplayText(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
+constexpr explicit DisplayText(void* ptr) noexcept : Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
 }
 
 
@@ -84,11 +83,11 @@ constexpr void __set_contentType(int32_t value) ;
 
 constexpr int32_t __get_contentType() const;
 
- ::Org::BouncyCastle::Asn1::IAsn1String __declspec(property(get=__get_contents, put=__set_contents))  contents;
+ Org::BouncyCastle::Asn1::IAsn1String __declspec(property(get=__get_contents, put=__set_contents))  contents;
 
-constexpr void __set_contents(::Org::BouncyCastle::Asn1::IAsn1String value) ;
+constexpr void __set_contents(Org::BouncyCastle::Asn1::IAsn1String value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::IAsn1String __get_contents() const;
+constexpr Org::BouncyCastle::Asn1::IAsn1String __get_contents() const;
 
 
 // Methods
@@ -105,17 +104,17 @@ explicit DisplayText(::StringW text) ;
 /// @brief Method .ctor addr 0x1101904 size 0xa4 virtual false final false
  void _ctor(::StringW text) ;
 
-// Ctor Parameters [CppParam { name: "contents", ty: "::Org::BouncyCastle::Asn1::IAsn1String", modifiers: "", def_value: None }]
-explicit DisplayText(::Org::BouncyCastle::Asn1::IAsn1String contents) ;
+// Ctor Parameters [CppParam { name: "contents", ty: "Org::BouncyCastle::Asn1::IAsn1String", modifiers: "", def_value: None }]
+explicit DisplayText(Org::BouncyCastle::Asn1::IAsn1String contents) ;
 
 /// @brief Method .ctor addr 0x11019a8 size 0x28 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::IAsn1String contents) ;
+ void _ctor(Org::BouncyCastle::Asn1::IAsn1String contents) ;
 
 /// @brief Method GetInstance addr 0x11019d0 size 0x180 virtual false final false
-static ::Org::BouncyCastle::Asn1::X509::DisplayText GetInstance(::bs_hook::Il2CppWrapperType obj) ;
+static Org::BouncyCastle::Asn1::X509::DisplayText GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method ToAsn1Object addr 0x1101b50 size 0x78 virtual true final false
- ::Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
+ Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
 
 /// @brief Method GetString addr 0x1101bc8 size 0xa0 virtual false final false
  ::StringW GetString() ;
@@ -124,6 +123,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::X509
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::DisplayText);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X509::DisplayText, "Org.BouncyCastle.Asn1.X509", "DisplayText");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::DisplayText);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::DisplayText, "Org.BouncyCastle.Asn1.X509", "DisplayText");

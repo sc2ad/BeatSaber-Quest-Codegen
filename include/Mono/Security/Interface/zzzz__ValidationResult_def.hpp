@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 struct Nullable_1;
@@ -74,11 +73,11 @@ constexpr void __set_error_code(int32_t value) ;
 
 constexpr int32_t __get_error_code() const;
 
- ::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors> __declspec(property(get=__get_policy_errors, put=__set_policy_errors))  policy_errors;
+ System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors> __declspec(property(get=__get_policy_errors, put=__set_policy_errors))  policy_errors;
 
-constexpr void __set_policy_errors(::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors> value) ;
+constexpr void __set_policy_errors(System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors> value) ;
 
-constexpr ::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors> __get_policy_errors() const;
+constexpr System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors> __get_policy_errors() const;
 
 
 // Properties
@@ -90,11 +89,11 @@ constexpr ::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors>
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "trusted", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "user_denied", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "error_code", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "policy_errors", ty: "::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors>", modifiers: "", def_value: None }]
-explicit ValidationResult(bool trusted, bool user_denied, int32_t error_code, ::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors> policy_errors) ;
+// Ctor Parameters [CppParam { name: "trusted", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "user_denied", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "error_code", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "policy_errors", ty: "System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors>", modifiers: "", def_value: None }]
+explicit ValidationResult(bool trusted, bool user_denied, int32_t error_code, System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors> policy_errors) ;
 
 /// @brief Method .ctor addr 0x2295440 size 0x48 virtual false final false
- void _ctor(bool trusted, bool user_denied, int32_t error_code, ::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors> policy_errors) ;
+ void _ctor(bool trusted, bool user_denied, int32_t error_code, System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors> policy_errors) ;
 
 /// @brief Method get_Trusted addr 0x2295488 size 0x8 virtual false final false
  bool get_Trusted() ;
@@ -106,6 +105,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Security::Interface
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Security::Interface::ValidationResult);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Interface::ValidationResult, "Mono.Security.Interface", "ValidationResult");
+NEED_NO_BOX(Mono::Security::Interface::ValidationResult);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::ValidationResult, "Mono.Security.Interface", "ValidationResult");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
@@ -13,7 +12,7 @@ class IdentityFunction_1;
 }
 namespace System::Linq {
 template<typename TElement>
-class ____System__Linq__IdentityFunction_1____c;
+class System__Linq__IdentityFunction_1____c;
 }
 namespace System::Linq {
 template<::cordl_internals::il2cpp_reference_type TElement>
@@ -21,7 +20,7 @@ class IdentityFunction_1<TElement>;
 }
 namespace System::Linq {
 template<::cordl_internals::il2cpp_reference_type TElement>
-class ____System__Linq__IdentityFunction_1____c<TElement>;
+class System__Linq__IdentityFunction_1____c<TElement>;
 }
 // Type: ::<>c
 // Type: System.Linq::IdentityFunction`1
@@ -33,59 +32,59 @@ template<::cordl_internals::il2cpp_reference_type TElement>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14560))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14560), inst: 2 })
 // CS Name: System.Linq.IdentityFunction`1::<>c
-class CORDL_TYPE ____System__Linq__IdentityFunction_1____c<TElement> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Linq__IdentityFunction_1____c<TElement> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____System__Linq__IdentityFunction_1____c() = default;
+virtual ~System__Linq__IdentityFunction_1____c() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Linq__IdentityFunction_1____c", modifiers: " const&", def_value: None }]
-constexpr ____System__Linq__IdentityFunction_1____c(____System__Linq__IdentityFunction_1____c const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Linq__IdentityFunction_1____c", modifiers: " const&", def_value: None }]
+constexpr System__Linq__IdentityFunction_1____c(System__Linq__IdentityFunction_1____c const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Linq__IdentityFunction_1____c", modifiers: "&&", def_value: None }]
-constexpr ____System__Linq__IdentityFunction_1____c(____System__Linq__IdentityFunction_1____c&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Linq__IdentityFunction_1____c", modifiers: "&&", def_value: None }]
+constexpr System__Linq__IdentityFunction_1____c(System__Linq__IdentityFunction_1____c&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Linq__IdentityFunction_1____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Linq__IdentityFunction_1____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Linq__IdentityFunction_1____c& operator=(std::nullptr_t) noexcept {
+  constexpr System__Linq__IdentityFunction_1____c& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Linq__IdentityFunction_1____c& operator=(void* o) noexcept {
+  constexpr System__Linq__IdentityFunction_1____c& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Linq__IdentityFunction_1____c& operator=(____System__Linq__IdentityFunction_1____c&& o) noexcept = default;
-  constexpr ____System__Linq__IdentityFunction_1____c& operator=(____System__Linq__IdentityFunction_1____c const& o) noexcept = default;
+  constexpr System__Linq__IdentityFunction_1____c& operator=(System__Linq__IdentityFunction_1____c&& o) noexcept = default;
+  constexpr System__Linq__IdentityFunction_1____c& operator=(System__Linq__IdentityFunction_1____c const& o) noexcept = default;
                 
 
 
 // Fields
 
-static ::System::Linq::____System__Linq__IdentityFunction_1____c<TElement> __declspec(property(get=__get___9, put=__set___9))  __9;
+static System::Linq::System__Linq__IdentityFunction_1____c<TElement> __declspec(property(get=__get___9, put=__set___9))  __9;
 
-static void __set___9(::System::Linq::____System__Linq__IdentityFunction_1____c<TElement> value) ;
+static void __set___9(System::Linq::System__Linq__IdentityFunction_1____c<TElement> value) ;
 
-static ::System::Linq::____System__Linq__IdentityFunction_1____c<TElement> __get___9() ;
+static System::Linq::System__Linq__IdentityFunction_1____c<TElement> __get___9() ;
 
-static ::System::Func_2<TElement,TElement> __declspec(property(get=__get___9__1_0, put=__set___9__1_0))  __9__1_0;
+static System::Func_2<TElement,TElement> __declspec(property(get=__get___9__1_0, put=__set___9__1_0))  __9__1_0;
 
-static void __set___9__1_0(::System::Func_2<TElement,TElement> value) ;
+static void __set___9__1_0(System::Func_2<TElement,TElement> value) ;
 
-static ::System::Func_2<TElement,TElement> __get___9__1_0() ;
+static System::Func_2<TElement,TElement> __get___9__1_0() ;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____System__Linq__IdentityFunction_1____c() ;
+explicit System__Linq__IdentityFunction_1____c() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -108,7 +107,7 @@ template<::cordl_internals::il2cpp_reference_type TElement>
 class CORDL_TYPE IdentityFunction_1<TElement> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using __c = ::System::Linq::____System__Linq__IdentityFunction_1____c<TElement>;
+using __c = System::Linq::System__Linq__IdentityFunction_1____c<TElement>;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -143,18 +142,17 @@ constexpr explicit IdentityFunction_1(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Properties
 
-static ::System::Func_2<TElement,TElement> __declspec(property(get=get_Instance))  Instance;
+static System::Func_2<TElement,TElement> __declspec(property(get=get_Instance))  Instance;
 
 
 // Methods
 
 /// @brief Method get_Instance addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Func_2<TElement,TElement> get_Instance() ;
+static System::Func_2<TElement,TElement> get_Instance() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Linq
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Linq::IdentityFunction_1, "System.Linq", "IdentityFunction`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Linq::____System__Linq__IdentityFunction_1____c, "System.Linq", "IdentityFunction`1/<>c");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Linq::IdentityFunction_1, "System.Linq", "IdentityFunction`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Linq::System__Linq__IdentityFunction_1____c, "System.Linq", "IdentityFunction`1/<>c");

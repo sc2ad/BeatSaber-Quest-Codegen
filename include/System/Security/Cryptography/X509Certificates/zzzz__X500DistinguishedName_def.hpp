@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Security::Cryptography::X509Certificates {
 struct X500DistinguishedNameFlags;
 }
@@ -18,7 +17,7 @@ namespace System::Security::Cryptography::X509Certificates {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7828))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7842))
 // CS Name: System.Security.Cryptography.X509Certificates.X500DistinguishedName
-class CORDL_TYPE X500DistinguishedName : public ::System::Security::Cryptography::AsnEncodedData {
+class CORDL_TYPE X500DistinguishedName : public System::Security::Cryptography::AsnEncodedData {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr X500DistinguishedName(X500DistinguishedName const& ) noexcept = defaul
 constexpr X500DistinguishedName(X500DistinguishedName&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit X500DistinguishedName(void* ptr) noexcept : ::System::Security::Cryptography::AsnEncodedData(ptr) {
+constexpr explicit X500DistinguishedName(void* ptr) noexcept : System::Security::Cryptography::AsnEncodedData(ptr) {
 }
 
 
@@ -84,13 +83,13 @@ explicit X500DistinguishedName(::ArrayW<uint8_t> encodedDistinguishedName) ;
  ::StringW get_Name() ;
 
 /// @brief Method Decode addr 0x27e5fd4 size 0x158 virtual false final false
- ::StringW Decode(::System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags flag) ;
+ ::StringW Decode(System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags flag) ;
 
 /// @brief Method Format addr 0x27e61a0 size 0x5c virtual true final false
  ::StringW Format(bool multiLine) ;
 
 /// @brief Method GetSeparator addr 0x27e612c size 0x74 virtual false final false
-static ::StringW GetSeparator(::System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags flag) ;
+static ::StringW GetSeparator(System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags flag) ;
 
 /// @brief Method DecodeRawData addr 0x27e5ed4 size 0xf8 virtual false final false
  void DecodeRawData() ;
@@ -99,12 +98,11 @@ static ::StringW GetSeparator(::System::Security::Cryptography::X509Certificates
 static ::StringW Canonize(::StringW s) ;
 
 /// @brief Method AreEqual addr 0x27e63c8 size 0x1f4 virtual false final false
-static bool AreEqual(::System::Security::Cryptography::X509Certificates::X500DistinguishedName name1, ::System::Security::Cryptography::X509Certificates::X500DistinguishedName name2) ;
+static bool AreEqual(System::Security::Cryptography::X509Certificates::X500DistinguishedName name1, System::Security::Cryptography::X509Certificates::X500DistinguishedName name2) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography::X509Certificates
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::X509Certificates::X500DistinguishedName);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::X509Certificates::X500DistinguishedName, "System.Security.Cryptography.X509Certificates", "X500DistinguishedName");
+NEED_NO_BOX(System::Security::Cryptography::X509Certificates::X500DistinguishedName);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X500DistinguishedName, "System.Security.Cryptography.X509Certificates", "X500DistinguishedName");

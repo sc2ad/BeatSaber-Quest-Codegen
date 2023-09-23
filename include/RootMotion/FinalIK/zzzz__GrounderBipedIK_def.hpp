@@ -4,9 +4,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace RootMotion::FinalIK {
-class BipedIK;
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace RootMotion::FinalIK {
 class IKSolverLimb;
@@ -14,11 +13,11 @@ class IKSolverLimb;
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine {
-class Transform;
+namespace RootMotion::FinalIK {
+class BipedIK;
 }
 namespace UnityEngine {
-struct Quaternion;
+class Transform;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -30,7 +29,7 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12460))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12461))
 // CS Name: RootMotion.FinalIK.GrounderBipedIK
-class CORDL_TYPE GrounderBipedIK : public ::RootMotion::FinalIK::Grounder {
+class CORDL_TYPE GrounderBipedIK : public RootMotion::FinalIK::Grounder {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -45,7 +44,7 @@ constexpr GrounderBipedIK(GrounderBipedIK const& ) noexcept = default;
 constexpr GrounderBipedIK(GrounderBipedIK&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GrounderBipedIK(void* ptr) noexcept : ::RootMotion::FinalIK::Grounder(ptr) {
+constexpr explicit GrounderBipedIK(void* ptr) noexcept : RootMotion::FinalIK::Grounder(ptr) {
 }
 
 
@@ -66,11 +65,11 @@ constexpr explicit GrounderBipedIK(void* ptr) noexcept : ::RootMotion::FinalIK::
 
 // Fields
 
- ::RootMotion::FinalIK::BipedIK __declspec(property(get=__get_ik, put=__set_ik))  ik;
+ RootMotion::FinalIK::BipedIK __declspec(property(get=__get_ik, put=__set_ik))  ik;
 
-constexpr void __set_ik(::RootMotion::FinalIK::BipedIK value) ;
+constexpr void __set_ik(RootMotion::FinalIK::BipedIK value) ;
 
-constexpr ::RootMotion::FinalIK::BipedIK __get_ik() const;
+constexpr RootMotion::FinalIK::BipedIK __get_ik() const;
 
  float_t __declspec(property(get=__get_spineBend, put=__set_spineBend))  spineBend;
 
@@ -84,35 +83,35 @@ constexpr void __set_spineSpeed(float_t value) ;
 
 constexpr float_t __get_spineSpeed() const;
 
- ::ArrayW<::UnityEngine::Transform> __declspec(property(get=__get_feet, put=__set_feet))  feet;
+ ::ArrayW<UnityEngine::Transform> __declspec(property(get=__get_feet, put=__set_feet))  feet;
 
-constexpr void __set_feet(::ArrayW<::UnityEngine::Transform> value) ;
+constexpr void __set_feet(::ArrayW<UnityEngine::Transform> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Transform> __get_feet() const;
+constexpr ::ArrayW<UnityEngine::Transform> __get_feet() const;
 
- ::ArrayW<::UnityEngine::Quaternion> __declspec(property(get=__get_footRotations, put=__set_footRotations))  footRotations;
+ ::ArrayW<UnityEngine::Quaternion> __declspec(property(get=__get_footRotations, put=__set_footRotations))  footRotations;
 
-constexpr void __set_footRotations(::ArrayW<::UnityEngine::Quaternion> value) ;
+constexpr void __set_footRotations(::ArrayW<UnityEngine::Quaternion> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Quaternion> __get_footRotations() const;
+constexpr ::ArrayW<UnityEngine::Quaternion> __get_footRotations() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_animatedPelvisLocalPosition, put=__set_animatedPelvisLocalPosition))  animatedPelvisLocalPosition;
+ UnityEngine::Vector3 __declspec(property(get=__get_animatedPelvisLocalPosition, put=__set_animatedPelvisLocalPosition))  animatedPelvisLocalPosition;
 
-constexpr void __set_animatedPelvisLocalPosition(::UnityEngine::Vector3 value) ;
+constexpr void __set_animatedPelvisLocalPosition(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_animatedPelvisLocalPosition() const;
+constexpr UnityEngine::Vector3 __get_animatedPelvisLocalPosition() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_solvedPelvisLocalPosition, put=__set_solvedPelvisLocalPosition))  solvedPelvisLocalPosition;
+ UnityEngine::Vector3 __declspec(property(get=__get_solvedPelvisLocalPosition, put=__set_solvedPelvisLocalPosition))  solvedPelvisLocalPosition;
 
-constexpr void __set_solvedPelvisLocalPosition(::UnityEngine::Vector3 value) ;
+constexpr void __set_solvedPelvisLocalPosition(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_solvedPelvisLocalPosition() const;
+constexpr UnityEngine::Vector3 __get_solvedPelvisLocalPosition() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_spineOffset, put=__set_spineOffset))  spineOffset;
+ UnityEngine::Vector3 __declspec(property(get=__get_spineOffset, put=__set_spineOffset))  spineOffset;
 
-constexpr void __set_spineOffset(::UnityEngine::Vector3 value) ;
+constexpr void __set_spineOffset(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_spineOffset() const;
+constexpr UnityEngine::Vector3 __get_spineOffset() const;
 
  float_t __declspec(property(get=__get_lastWeight, put=__set_lastWeight))  lastWeight;
 
@@ -148,7 +147,7 @@ constexpr float_t __get_lastWeight() const;
  void OnSolverUpdate() ;
 
 /// @brief Method SetLegIK addr 0x11bafac size 0xc0 virtual false final false
- void SetLegIK(::RootMotion::FinalIK::IKSolverLimb limb, int32_t index) ;
+ void SetLegIK(RootMotion::FinalIK::IKSolverLimb limb, int32_t index) ;
 
 /// @brief Method OnPostSolverUpdate addr 0x11bb06c size 0x1d0 virtual false final false
  void OnPostSolverUpdate() ;
@@ -166,6 +165,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::GrounderBipedIK);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::GrounderBipedIK, "RootMotion.FinalIK", "GrounderBipedIK");
+NEED_NO_BOX(RootMotion::FinalIK::GrounderBipedIK);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GrounderBipedIK, "RootMotion.FinalIK", "GrounderBipedIK");

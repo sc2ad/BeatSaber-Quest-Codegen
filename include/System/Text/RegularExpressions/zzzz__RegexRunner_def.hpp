@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace System {
+struct TimeSpan;
+}
 namespace System::Text::RegularExpressions {
 class Match;
 }
 namespace System::Text::RegularExpressions {
 class Regex;
-}
-namespace System {
-struct TimeSpan;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {
@@ -132,17 +131,17 @@ constexpr void __set_runtrackcount(int32_t value) ;
 
 constexpr int32_t __get_runtrackcount() const;
 
- ::System::Text::RegularExpressions::Match __declspec(property(get=__get_runmatch, put=__set_runmatch))  runmatch;
+ System::Text::RegularExpressions::Match __declspec(property(get=__get_runmatch, put=__set_runmatch))  runmatch;
 
-constexpr void __set_runmatch(::System::Text::RegularExpressions::Match value) ;
+constexpr void __set_runmatch(System::Text::RegularExpressions::Match value) ;
 
-constexpr ::System::Text::RegularExpressions::Match __get_runmatch() const;
+constexpr System::Text::RegularExpressions::Match __get_runmatch() const;
 
- ::System::Text::RegularExpressions::Regex __declspec(property(get=__get_runregex, put=__set_runregex))  runregex;
+ System::Text::RegularExpressions::Regex __declspec(property(get=__get_runregex, put=__set_runregex))  runregex;
 
-constexpr void __set_runregex(::System::Text::RegularExpressions::Regex value) ;
+constexpr void __set_runregex(System::Text::RegularExpressions::Regex value) ;
 
-constexpr ::System::Text::RegularExpressions::Regex __get_runregex() const;
+constexpr System::Text::RegularExpressions::Regex __get_runregex() const;
 
  int32_t __declspec(property(get=__get__timeout, put=__set__timeout))  _timeout;
 
@@ -181,7 +180,7 @@ explicit RegexRunner() ;
  void _ctor() ;
 
 /// @brief Method Scan addr 0x27d698c size 0x304 virtual false final false
- ::System::Text::RegularExpressions::Match Scan(::System::Text::RegularExpressions::Regex regex, ::StringW text, int32_t textbeg, int32_t textend, int32_t textstart, int32_t prevlen, bool quick, ::System::TimeSpan timeout) ;
+ System::Text::RegularExpressions::Match Scan(System::Text::RegularExpressions::Regex regex, ::StringW text, int32_t textbeg, int32_t textend, int32_t textstart, int32_t prevlen, bool quick, System::TimeSpan timeout) ;
 
 /// @brief Method StartTimeoutWatch addr 0x27d6c90 size 0x34 virtual false final false
  void StartTimeoutWatch() ;
@@ -205,7 +204,7 @@ explicit RegexRunner() ;
  void InitMatch() ;
 
 /// @brief Method TidyMatch addr 0x27d6ea0 size 0x44 virtual false final false
- ::System::Text::RegularExpressions::Match TidyMatch(bool quick) ;
+ System::Text::RegularExpressions::Match TidyMatch(bool quick) ;
 
 /// @brief Method EnsureStorage addr 0x27ccf38 size 0x48 virtual false final false
  void EnsureStorage() ;
@@ -256,6 +255,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Text::RegularExpressions
-} // end anonymous namespace
-NEED_NO_BOX(::System::Text::RegularExpressions::RegexRunner);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::RegularExpressions::RegexRunner, "System.Text.RegularExpressions", "RegexRunner");
+NEED_NO_BOX(System::Text::RegularExpressions::RegexRunner);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexRunner, "System.Text.RegularExpressions", "RegexRunner");

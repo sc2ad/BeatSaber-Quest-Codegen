@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class IXof;
 }
@@ -24,14 +23,14 @@ namespace Org::BouncyCastle::Crypto::Digests {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(755))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(774))
 // CS Name: Org.BouncyCastle.Crypto.Digests.ShakeDigest
-class CORDL_TYPE ShakeDigest : public ::Org::BouncyCastle::Crypto::Digests::KeccakDigest {
+class CORDL_TYPE ShakeDigest : public Org::BouncyCastle::Crypto::Digests::KeccakDigest {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IXof
-constexpr operator  ::Org::BouncyCastle::Crypto::IXof() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IXof
+constexpr operator  Org::BouncyCastle::Crypto::IXof() const noexcept;
 
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IDigest
-constexpr operator  ::Org::BouncyCastle::Crypto::IDigest() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IDigest
+constexpr operator  Org::BouncyCastle::Crypto::IDigest() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -45,7 +44,7 @@ constexpr ShakeDigest(ShakeDigest const& ) noexcept = default;
 constexpr ShakeDigest(ShakeDigest&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ShakeDigest(void* ptr) noexcept : ::Org::BouncyCastle::Crypto::Digests::KeccakDigest(ptr) {
+constexpr explicit ShakeDigest(void* ptr) noexcept : Org::BouncyCastle::Crypto::Digests::KeccakDigest(ptr) {
 }
 
 
@@ -86,11 +85,11 @@ explicit ShakeDigest(int32_t bitLength) ;
 /// @brief Method .ctor addr 0xe1838c size 0x78 virtual false final false
  void _ctor(int32_t bitLength) ;
 
-// Ctor Parameters [CppParam { name: "source", ty: "::Org::BouncyCastle::Crypto::Digests::ShakeDigest", modifiers: "", def_value: None }]
-explicit ShakeDigest(::Org::BouncyCastle::Crypto::Digests::ShakeDigest source) ;
+// Ctor Parameters [CppParam { name: "source", ty: "Org::BouncyCastle::Crypto::Digests::ShakeDigest", modifiers: "", def_value: None }]
+explicit ShakeDigest(Org::BouncyCastle::Crypto::Digests::ShakeDigest source) ;
 
 /// @brief Method .ctor addr 0xe18404 size 0x68 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::Digests::ShakeDigest source) ;
+ void _ctor(Org::BouncyCastle::Crypto::Digests::ShakeDigest source) ;
 
 /// @brief Method get_AlgorithmName addr 0xe1846c size 0x84 virtual true final false
  ::StringW get_AlgorithmName() ;
@@ -111,12 +110,11 @@ explicit ShakeDigest(::Org::BouncyCastle::Crypto::Digests::ShakeDigest source) ;
  int32_t DoFinal(::ArrayW<uint8_t> output, int32_t outOff, int32_t outLen, uint8_t partialByte, int32_t partialBits) ;
 
 /// @brief Method Copy addr 0xe18770 size 0x60 virtual true final false
- ::Org::BouncyCastle::Utilities::IMemoable Copy() ;
+ Org::BouncyCastle::Utilities::IMemoable Copy() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Digests
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::ShakeDigest);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Digests::ShakeDigest, "Org.BouncyCastle.Crypto.Digests", "ShakeDigest");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Digests::ShakeDigest);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::ShakeDigest, "Org.BouncyCastle.Crypto.Digests", "ShakeDigest");

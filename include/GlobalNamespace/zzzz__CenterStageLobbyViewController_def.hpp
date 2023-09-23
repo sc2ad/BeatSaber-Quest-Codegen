@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class ModifiersSelectionView;
 }
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13656))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5804))
 // CS Name: CenterStageLobbyViewController
-class CORDL_TYPE CenterStageLobbyViewController : public ::HMUI::ViewController {
+class CORDL_TYPE CenterStageLobbyViewController : public HMUI::ViewController {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr CenterStageLobbyViewController(CenterStageLobbyViewController const& )
 constexpr CenterStageLobbyViewController(CenterStageLobbyViewController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CenterStageLobbyViewController(void* ptr) noexcept : ::HMUI::ViewController(ptr) {
+constexpr explicit CenterStageLobbyViewController(void* ptr) noexcept : HMUI::ViewController(ptr) {
 }
 
 
@@ -57,23 +56,23 @@ constexpr explicit CenterStageLobbyViewController(void* ptr) noexcept : ::HMUI::
 
 // Fields
 
- ::GlobalNamespace::BeatmapSelectionView __declspec(property(get=__get__beatmapSelectionView, put=__set__beatmapSelectionView))  _beatmapSelectionView;
+ GlobalNamespace::BeatmapSelectionView __declspec(property(get=__get__beatmapSelectionView, put=__set__beatmapSelectionView))  _beatmapSelectionView;
 
-constexpr void __set__beatmapSelectionView(::GlobalNamespace::BeatmapSelectionView value) ;
+constexpr void __set__beatmapSelectionView(GlobalNamespace::BeatmapSelectionView value) ;
 
-constexpr ::GlobalNamespace::BeatmapSelectionView __get__beatmapSelectionView() const;
+constexpr GlobalNamespace::BeatmapSelectionView __get__beatmapSelectionView() const;
 
- ::GlobalNamespace::ModifiersSelectionView __declspec(property(get=__get__modifiersSelectionView, put=__set__modifiersSelectionView))  _modifiersSelectionView;
+ GlobalNamespace::ModifiersSelectionView __declspec(property(get=__get__modifiersSelectionView, put=__set__modifiersSelectionView))  _modifiersSelectionView;
 
-constexpr void __set__modifiersSelectionView(::GlobalNamespace::ModifiersSelectionView value) ;
+constexpr void __set__modifiersSelectionView(GlobalNamespace::ModifiersSelectionView value) ;
 
-constexpr ::GlobalNamespace::ModifiersSelectionView __get__modifiersSelectionView() const;
+constexpr GlobalNamespace::ModifiersSelectionView __get__modifiersSelectionView() const;
 
 
 // Methods
 
 /// @brief Method SetLevelGameplaySetupData addr 0x2175aec size 0x13c virtual false final false
- void SetLevelGameplaySetupData(::GlobalNamespace::ILevelGameplaySetupData levelGameplaySetupData) ;
+ void SetLevelGameplaySetupData(GlobalNamespace::ILevelGameplaySetupData levelGameplaySetupData) ;
 
 // Ctor Parameters []
 explicit CenterStageLobbyViewController() ;
@@ -85,6 +84,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::CenterStageLobbyViewController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CenterStageLobbyViewController, "", "CenterStageLobbyViewController");
+NEED_NO_BOX(GlobalNamespace::CenterStageLobbyViewController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CenterStageLobbyViewController, "", "CenterStageLobbyViewController");

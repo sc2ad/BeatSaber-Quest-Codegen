@@ -1,15 +1,14 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
-namespace System::Runtime::CompilerServices {
-class ICriticalNotifyCompletion;
-}
 namespace System::Threading::Tasks {
 class Task;
 }
 namespace System {
 class Action;
+}
+namespace System::Runtime::CompilerServices {
+class ICriticalNotifyCompletion;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
@@ -24,11 +23,11 @@ namespace System::Threading::Tasks {
 struct CORDL_TYPE ForceAsyncAwaiter : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::CompilerServices::ICriticalNotifyCompletion
-constexpr operator  ::System::Runtime::CompilerServices::ICriticalNotifyCompletion() const;
+/// @brief Convert operator to System::Runtime::CompilerServices::ICriticalNotifyCompletion
+constexpr operator  System::Runtime::CompilerServices::ICriticalNotifyCompletion() const;
 
-// Ctor Parameters [CppParam { name: "_task", ty: "::System::Threading::Tasks::Task", modifiers: "", def_value: None }]
-constexpr ForceAsyncAwaiter(::System::Threading::Tasks::Task _task) noexcept;
+// Ctor Parameters [CppParam { name: "_task", ty: "System::Threading::Tasks::Task", modifiers: "", def_value: None }]
+constexpr ForceAsyncAwaiter(System::Threading::Tasks::Task _task) noexcept;
 
 
                     constexpr ForceAsyncAwaiter(ForceAsyncAwaiter const&) = default;
@@ -61,11 +60,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::Threading::Tasks::Task __declspec(property(get=__get__task, put=__set__task))  _task;
+ System::Threading::Tasks::Task __declspec(property(get=__get__task, put=__set__task))  _task;
 
-constexpr void __set__task(::System::Threading::Tasks::Task value) ;
+constexpr void __set__task(System::Threading::Tasks::Task value) ;
 
-constexpr ::System::Threading::Tasks::Task __get__task() const;
+constexpr System::Threading::Tasks::Task __get__task() const;
 
 
 // Properties
@@ -76,10 +75,10 @@ constexpr ::System::Threading::Tasks::Task __get__task() const;
 // Methods
 
 /// @brief Method .ctor addr 0x24b4c2c size 0x8 virtual false final false
- void _ctor(::System::Threading::Tasks::Task task) ;
+ void _ctor(System::Threading::Tasks::Task task) ;
 
 /// @brief Method GetAwaiter addr 0x24b4c34 size 0x8 virtual false final false
- ::System::Threading::Tasks::ForceAsyncAwaiter GetAwaiter() ;
+ System::Threading::Tasks::ForceAsyncAwaiter GetAwaiter() ;
 
 /// @brief Method get_IsCompleted addr 0x24b4c3c size 0x8 virtual false final false
  bool get_IsCompleted() ;
@@ -88,11 +87,10 @@ constexpr ::System::Threading::Tasks::Task __get__task() const;
  void GetResult() ;
 
 /// @brief Method UnsafeOnCompleted addr 0x24b4c70 size 0x58 virtual true final true
- void UnsafeOnCompleted(::System::Action action) ;
+ void UnsafeOnCompleted(System::Action action) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Threading::Tasks
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::ForceAsyncAwaiter, "System.Threading.Tasks", "ForceAsyncAwaiter");
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::ForceAsyncAwaiter, "System.Threading.Tasks", "ForceAsyncAwaiter");

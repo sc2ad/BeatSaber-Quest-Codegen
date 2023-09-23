@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class Version;
 }
@@ -11,7 +10,7 @@ namespace GlobalNamespace {
 class BeatmapSaveDataHelpers;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData;
+class GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData;
 }
 // Type: ::VersionSerializedData
 namespace GlobalNamespace {
@@ -19,37 +18,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14955))
 // CS Name: BeatmapSaveDataHelpers::VersionSerializedData
-class CORDL_TYPE ____GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData() = default;
+virtual ~GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData(____GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData(GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData(____GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData(GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData& operator=(____GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData&& o) noexcept = default;
-  constexpr ____GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData& operator=(____GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData const& o) noexcept = default;
+  constexpr GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData& operator=(GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData&& o) noexcept = default;
+  constexpr GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData& operator=(GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData const& o) noexcept = default;
                 
 
 
@@ -79,7 +78,7 @@ constexpr ::StringW __get_version() const;
  ::StringW get_v() ;
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData() ;
+explicit GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData() ;
 
 /// @brief Method .ctor addr 0xd98654 size 0x8 virtual false final false
  void _ctor() ;
@@ -97,7 +96,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapSaveDataHelpers : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using VersionSerializedData = ::GlobalNamespace::____GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData;
+using VersionSerializedData = GlobalNamespace::GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -133,14 +132,13 @@ constexpr explicit BeatmapSaveDataHelpers(void* ptr) noexcept : ::bs_hook::Il2Cp
 // Methods
 
 /// @brief Method GetVersion addr 0xd98578 size 0xac virtual false final false
-static ::System::Version GetVersion(::StringW data) ;
+static System::Version GetVersion(::StringW data) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BeatmapSaveDataHelpers);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapSaveDataHelpers, "", "BeatmapSaveDataHelpers");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData, "", "BeatmapSaveDataHelpers/VersionSerializedData");
+NEED_NO_BOX(GlobalNamespace::BeatmapSaveDataHelpers);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSaveDataHelpers, "", "BeatmapSaveDataHelpers");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData, "", "BeatmapSaveDataHelpers/VersionSerializedData");

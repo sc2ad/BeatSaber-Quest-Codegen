@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__EventArgs_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace System::ComponentModel {
 class PropertyChangedEventArgs;
@@ -13,7 +12,7 @@ namespace System::ComponentModel {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2376))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8317))
 // CS Name: System.ComponentModel.PropertyChangedEventArgs
-class CORDL_TYPE PropertyChangedEventArgs : public ::System::EventArgs {
+class CORDL_TYPE PropertyChangedEventArgs : public System::EventArgs {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr PropertyChangedEventArgs(PropertyChangedEventArgs const& ) noexcept = 
 constexpr PropertyChangedEventArgs(PropertyChangedEventArgs&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PropertyChangedEventArgs(void* ptr) noexcept : ::System::EventArgs(ptr) {
+constexpr explicit PropertyChangedEventArgs(void* ptr) noexcept : System::EventArgs(ptr) {
 }
 
 
@@ -68,6 +67,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::PropertyChangedEventArgs);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::PropertyChangedEventArgs, "System.ComponentModel", "PropertyChangedEventArgs");
+NEED_NO_BOX(System::ComponentModel::PropertyChangedEventArgs);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::PropertyChangedEventArgs, "System.ComponentModel", "PropertyChangedEventArgs");

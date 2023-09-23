@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Utilities {
 class IMemoable;
 }
@@ -18,7 +17,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(750))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(766))
 // CS Name: Org.BouncyCastle.Crypto.Digests.Sha1Digest
-class CORDL_TYPE Sha1Digest : public ::Org::BouncyCastle::Crypto::Digests::GeneralDigest {
+class CORDL_TYPE Sha1Digest : public Org::BouncyCastle::Crypto::Digests::GeneralDigest {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr Sha1Digest(Sha1Digest const& ) noexcept = default;
 constexpr Sha1Digest(Sha1Digest&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Sha1Digest(void* ptr) noexcept : ::Org::BouncyCastle::Crypto::Digests::GeneralDigest(ptr) {
+constexpr explicit Sha1Digest(void* ptr) noexcept : Org::BouncyCastle::Crypto::Digests::GeneralDigest(ptr) {
 }
 
 
@@ -125,14 +124,14 @@ explicit Sha1Digest() ;
 /// @brief Method .ctor addr 0xe151ac size 0x6c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "t", ty: "::Org::BouncyCastle::Crypto::Digests::Sha1Digest", modifiers: "", def_value: None }]
-explicit Sha1Digest(::Org::BouncyCastle::Crypto::Digests::Sha1Digest t) ;
+// Ctor Parameters [CppParam { name: "t", ty: "Org::BouncyCastle::Crypto::Digests::Sha1Digest", modifiers: "", def_value: None }]
+explicit Sha1Digest(Org::BouncyCastle::Crypto::Digests::Sha1Digest t) ;
 
 /// @brief Method .ctor addr 0xe15218 size 0x74 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::Digests::Sha1Digest t) ;
+ void _ctor(Org::BouncyCastle::Crypto::Digests::Sha1Digest t) ;
 
 /// @brief Method CopyIn addr 0xe1528c size 0x64 virtual false final false
- void CopyIn(::Org::BouncyCastle::Crypto::Digests::Sha1Digest t) ;
+ void CopyIn(Org::BouncyCastle::Crypto::Digests::Sha1Digest t) ;
 
 /// @brief Method get_AlgorithmName addr 0xe152f0 size 0x40 virtual true final false
  ::StringW get_AlgorithmName() ;
@@ -165,15 +164,14 @@ static uint32_t G(uint32_t u, uint32_t v, uint32_t w) ;
  void ProcessBlock() ;
 
 /// @brief Method Copy addr 0xe15a80 size 0x60 virtual true final false
- ::Org::BouncyCastle::Utilities::IMemoable Copy() ;
+ Org::BouncyCastle::Utilities::IMemoable Copy() ;
 
 /// @brief Method Reset addr 0xe15ae0 size 0x84 virtual true final false
- void Reset(::Org::BouncyCastle::Utilities::IMemoable other) ;
+ void Reset(Org::BouncyCastle::Utilities::IMemoable other) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Digests
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::Sha1Digest);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Digests::Sha1Digest, "Org.BouncyCastle.Crypto.Digests", "Sha1Digest");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Digests::Sha1Digest);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::Sha1Digest, "Org.BouncyCastle.Crypto.Digests", "Sha1Digest");

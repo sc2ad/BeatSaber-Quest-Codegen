@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/Timeline/zzzz__ControlTrack_def.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class CustomControlTrack;
@@ -12,7 +11,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14086))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6062))
 // CS Name: CustomControlTrack
-class CORDL_TYPE CustomControlTrack : public ::UnityEngine::Timeline::ControlTrack {
+class CORDL_TYPE CustomControlTrack : public UnityEngine::Timeline::ControlTrack {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr CustomControlTrack(CustomControlTrack const& ) noexcept = default;
 constexpr CustomControlTrack(CustomControlTrack&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CustomControlTrack(void* ptr) noexcept : ::UnityEngine::Timeline::ControlTrack(ptr) {
+constexpr explicit CustomControlTrack(void* ptr) noexcept : UnityEngine::Timeline::ControlTrack(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::CustomControlTrack);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CustomControlTrack, "", "CustomControlTrack");
+NEED_NO_BOX(GlobalNamespace::CustomControlTrack);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomControlTrack, "", "CustomControlTrack");

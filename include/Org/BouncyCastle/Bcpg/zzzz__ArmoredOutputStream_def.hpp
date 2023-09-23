@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace System::IO {
+class Stream;
+}
 namespace Org::BouncyCastle::Bcpg {
 struct HashAlgorithmTag;
 }
 namespace System::Collections {
 class IDictionary;
-}
-namespace System::IO {
-class Stream;
 }
 namespace Org::BouncyCastle::Bcpg {
 class Crc24;
@@ -27,7 +26,7 @@ namespace Org::BouncyCastle::Bcpg {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(484))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(551))
 // CS Name: Org.BouncyCastle.Bcpg.ArmoredOutputStream
-class CORDL_TYPE ArmoredOutputStream : public ::Org::BouncyCastle::Utilities::IO::BaseOutputStream {
+class CORDL_TYPE ArmoredOutputStream : public Org::BouncyCastle::Utilities::IO::BaseOutputStream {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -42,7 +41,7 @@ constexpr ArmoredOutputStream(ArmoredOutputStream const& ) noexcept = default;
 constexpr ArmoredOutputStream(ArmoredOutputStream&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ArmoredOutputStream(void* ptr) noexcept : ::Org::BouncyCastle::Utilities::IO::BaseOutputStream(ptr) {
+constexpr explicit ArmoredOutputStream(void* ptr) noexcept : Org::BouncyCastle::Utilities::IO::BaseOutputStream(ptr) {
 }
 
 
@@ -75,11 +74,11 @@ static void __set_encodingTable(::ArrayW<uint8_t> value) ;
 
 static ::ArrayW<uint8_t> __get_encodingTable() ;
 
- ::System::IO::Stream __declspec(property(get=__get_outStream, put=__set_outStream))  outStream;
+ System::IO::Stream __declspec(property(get=__get_outStream, put=__set_outStream))  outStream;
 
-constexpr void __set_outStream(::System::IO::Stream value) ;
+constexpr void __set_outStream(System::IO::Stream value) ;
 
-constexpr ::System::IO::Stream __get_outStream() const;
+constexpr System::IO::Stream __get_outStream() const;
 
  ::ArrayW<int32_t> __declspec(property(get=__get_buf, put=__set_buf))  buf;
 
@@ -93,11 +92,11 @@ constexpr void __set_bufPtr(int32_t value) ;
 
 constexpr int32_t __get_bufPtr() const;
 
- ::Org::BouncyCastle::Bcpg::Crc24 __declspec(property(get=__get_crc, put=__set_crc))  crc;
+ Org::BouncyCastle::Bcpg::Crc24 __declspec(property(get=__get_crc, put=__set_crc))  crc;
 
-constexpr void __set_crc(::Org::BouncyCastle::Bcpg::Crc24 value) ;
+constexpr void __set_crc(Org::BouncyCastle::Bcpg::Crc24 value) ;
 
-constexpr ::Org::BouncyCastle::Bcpg::Crc24 __get_crc() const;
+constexpr Org::BouncyCastle::Bcpg::Crc24 __get_crc() const;
 
  int32_t __declspec(property(get=__get_chunkCount, put=__set_chunkCount))  chunkCount;
 
@@ -171,29 +170,29 @@ static void __set_Version(::StringW value) ;
 
 static ::StringW __get_Version() ;
 
- ::System::Collections::IDictionary __declspec(property(get=__get_headers, put=__set_headers))  headers;
+ System::Collections::IDictionary __declspec(property(get=__get_headers, put=__set_headers))  headers;
 
-constexpr void __set_headers(::System::Collections::IDictionary value) ;
+constexpr void __set_headers(System::Collections::IDictionary value) ;
 
-constexpr ::System::Collections::IDictionary __get_headers() const;
+constexpr System::Collections::IDictionary __get_headers() const;
 
 
 // Methods
 
 /// @brief Method Encode addr 0x114054c size 0x2f4 virtual false final false
-static void Encode(::System::IO::Stream outStream, ::ArrayW<int32_t> data, int32_t len) ;
+static void Encode(System::IO::Stream outStream, ::ArrayW<int32_t> data, int32_t len) ;
 
-// Ctor Parameters [CppParam { name: "outStream", ty: "::System::IO::Stream", modifiers: "", def_value: None }]
-explicit ArmoredOutputStream(::System::IO::Stream outStream) ;
+// Ctor Parameters [CppParam { name: "outStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
+explicit ArmoredOutputStream(System::IO::Stream outStream) ;
 
 /// @brief Method .ctor addr 0x1140840 size 0x12c virtual false final false
- void _ctor(::System::IO::Stream outStream) ;
+ void _ctor(System::IO::Stream outStream) ;
 
-// Ctor Parameters [CppParam { name: "outStream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "headers", ty: "::System::Collections::IDictionary", modifiers: "", def_value: None }]
-explicit ArmoredOutputStream(::System::IO::Stream outStream, ::System::Collections::IDictionary headers) ;
+// Ctor Parameters [CppParam { name: "outStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "headers", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }]
+explicit ArmoredOutputStream(System::IO::Stream outStream, System::Collections::IDictionary headers) ;
 
 /// @brief Method .ctor addr 0x1140c20 size 0x548 virtual false final false
- void _ctor(::System::IO::Stream outStream, ::System::Collections::IDictionary headers) ;
+ void _ctor(System::IO::Stream outStream, System::Collections::IDictionary headers) ;
 
 /// @brief Method SetHeader addr 0x114096c size 0x2b4 virtual false final false
  void SetHeader(::StringW name, ::StringW val) ;
@@ -205,7 +204,7 @@ explicit ArmoredOutputStream(::System::IO::Stream outStream, ::System::Collectio
  void ResetHeaders() ;
 
 /// @brief Method BeginClearText addr 0x11415a8 size 0x1dc virtual false final false
- void BeginClearText(::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm) ;
+ void BeginClearText(Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm) ;
 
 /// @brief Method EndClearText addr 0x11417c8 size 0x8 virtual false final false
  void EndClearText() ;
@@ -229,6 +228,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::ArmoredOutputStream);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::ArmoredOutputStream, "Org.BouncyCastle.Bcpg", "ArmoredOutputStream");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::ArmoredOutputStream);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::ArmoredOutputStream, "Org.BouncyCastle.Bcpg", "ArmoredOutputStream");

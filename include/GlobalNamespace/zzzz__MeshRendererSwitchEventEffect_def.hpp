@@ -2,21 +2,20 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace GlobalNamespace {
-struct BasicBeatmapEventType;
+class BasicBeatmapEventData;
 }
 namespace UnityEngine {
 class MeshRenderer;
+}
+namespace GlobalNamespace {
+struct BasicBeatmapEventType;
 }
 namespace GlobalNamespace {
 class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
-}
-namespace GlobalNamespace {
-class BasicBeatmapEventData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,7 +27,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5055))
 // CS Name: MeshRendererSwitchEventEffect
-class CORDL_TYPE MeshRendererSwitchEventEffect : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MeshRendererSwitchEventEffect : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -43,7 +42,7 @@ constexpr MeshRendererSwitchEventEffect(MeshRendererSwitchEventEffect const& ) n
 constexpr MeshRendererSwitchEventEffect(MeshRendererSwitchEventEffect&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MeshRendererSwitchEventEffect(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MeshRendererSwitchEventEffect(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -64,35 +63,35 @@ constexpr explicit MeshRendererSwitchEventEffect(void* ptr) noexcept : ::UnityEn
 
 // Fields
 
- ::GlobalNamespace::BasicBeatmapEventType __declspec(property(get=__get__beatmapEvent, put=__set__beatmapEvent))  _beatmapEvent;
+ GlobalNamespace::BasicBeatmapEventType __declspec(property(get=__get__beatmapEvent, put=__set__beatmapEvent))  _beatmapEvent;
 
-constexpr void __set__beatmapEvent(::GlobalNamespace::BasicBeatmapEventType value) ;
+constexpr void __set__beatmapEvent(GlobalNamespace::BasicBeatmapEventType value) ;
 
-constexpr ::GlobalNamespace::BasicBeatmapEventType __get__beatmapEvent() const;
+constexpr GlobalNamespace::BasicBeatmapEventType __get__beatmapEvent() const;
 
- ::ArrayW<::UnityEngine::MeshRenderer> __declspec(property(get=__get__deactivateOnBoostRenderers, put=__set__deactivateOnBoostRenderers))  _deactivateOnBoostRenderers;
+ ::ArrayW<UnityEngine::MeshRenderer> __declspec(property(get=__get__deactivateOnBoostRenderers, put=__set__deactivateOnBoostRenderers))  _deactivateOnBoostRenderers;
 
-constexpr void __set__deactivateOnBoostRenderers(::ArrayW<::UnityEngine::MeshRenderer> value) ;
+constexpr void __set__deactivateOnBoostRenderers(::ArrayW<UnityEngine::MeshRenderer> value) ;
 
-constexpr ::ArrayW<::UnityEngine::MeshRenderer> __get__deactivateOnBoostRenderers() const;
+constexpr ::ArrayW<UnityEngine::MeshRenderer> __get__deactivateOnBoostRenderers() const;
 
- ::ArrayW<::UnityEngine::MeshRenderer> __declspec(property(get=__get__activateOnBoostRenderers, put=__set__activateOnBoostRenderers))  _activateOnBoostRenderers;
+ ::ArrayW<UnityEngine::MeshRenderer> __declspec(property(get=__get__activateOnBoostRenderers, put=__set__activateOnBoostRenderers))  _activateOnBoostRenderers;
 
-constexpr void __set__activateOnBoostRenderers(::ArrayW<::UnityEngine::MeshRenderer> value) ;
+constexpr void __set__activateOnBoostRenderers(::ArrayW<UnityEngine::MeshRenderer> value) ;
 
-constexpr ::ArrayW<::UnityEngine::MeshRenderer> __get__activateOnBoostRenderers() const;
+constexpr ::ArrayW<UnityEngine::MeshRenderer> __get__activateOnBoostRenderers() const;
 
- ::GlobalNamespace::BeatmapCallbacksController __declspec(property(get=__get__beatmapCallbacksController, put=__set__beatmapCallbacksController))  _beatmapCallbacksController;
+ GlobalNamespace::BeatmapCallbacksController __declspec(property(get=__get__beatmapCallbacksController, put=__set__beatmapCallbacksController))  _beatmapCallbacksController;
 
-constexpr void __set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController value) ;
+constexpr void __set__beatmapCallbacksController(GlobalNamespace::BeatmapCallbacksController value) ;
 
-constexpr ::GlobalNamespace::BeatmapCallbacksController __get__beatmapCallbacksController() const;
+constexpr GlobalNamespace::BeatmapCallbacksController __get__beatmapCallbacksController() const;
 
- ::GlobalNamespace::BeatmapDataCallbackWrapper __declspec(property(get=__get__beatmapDataCallbackWrapper, put=__set__beatmapDataCallbackWrapper))  _beatmapDataCallbackWrapper;
+ GlobalNamespace::BeatmapDataCallbackWrapper __declspec(property(get=__get__beatmapDataCallbackWrapper, put=__set__beatmapDataCallbackWrapper))  _beatmapDataCallbackWrapper;
 
-constexpr void __set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper value) ;
+constexpr void __set__beatmapDataCallbackWrapper(GlobalNamespace::BeatmapDataCallbackWrapper value) ;
 
-constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallbackWrapper() const;
+constexpr GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallbackWrapper() const;
 
 
 // Methods
@@ -104,7 +103,7 @@ constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallba
  void OnDestroy() ;
 
 /// @brief Method HandleBeatmapEvent addr 0x22644cc size 0x20 virtual false final false
- void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData basicBeatmapEventData) ;
+ void HandleBeatmapEvent(GlobalNamespace::BasicBeatmapEventData basicBeatmapEventData) ;
 
 /// @brief Method ToggleObjects addr 0x22644ec size 0xc4 virtual false final false
  void ToggleObjects(bool isBoostOn) ;
@@ -119,6 +118,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MeshRendererSwitchEventEffect);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MeshRendererSwitchEventEffect, "", "MeshRendererSwitchEventEffect");
+NEED_NO_BOX(GlobalNamespace::MeshRendererSwitchEventEffect);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MeshRendererSwitchEventEffect, "", "MeshRendererSwitchEventEffect");

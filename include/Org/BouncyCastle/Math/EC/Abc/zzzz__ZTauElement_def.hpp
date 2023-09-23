@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
@@ -51,31 +50,30 @@ constexpr explicit ZTauElement(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 
 // Fields
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_u, put=__set_u))  u;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_u, put=__set_u))  u;
 
-constexpr void __set_u(::Org::BouncyCastle::Math::BigInteger value) ;
+constexpr void __set_u(Org::BouncyCastle::Math::BigInteger value) ;
 
-constexpr ::Org::BouncyCastle::Math::BigInteger __get_u() const;
+constexpr Org::BouncyCastle::Math::BigInteger __get_u() const;
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_v, put=__set_v))  v;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_v, put=__set_v))  v;
 
-constexpr void __set_v(::Org::BouncyCastle::Math::BigInteger value) ;
+constexpr void __set_v(Org::BouncyCastle::Math::BigInteger value) ;
 
-constexpr ::Org::BouncyCastle::Math::BigInteger __get_v() const;
+constexpr Org::BouncyCastle::Math::BigInteger __get_v() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "u", ty: "::Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "v", ty: "::Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit ZTauElement(::Org::BouncyCastle::Math::BigInteger u, ::Org::BouncyCastle::Math::BigInteger v) ;
+// Ctor Parameters [CppParam { name: "u", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "v", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
+explicit ZTauElement(Org::BouncyCastle::Math::BigInteger u, Org::BouncyCastle::Math::BigInteger v) ;
 
 /// @brief Method .ctor addr 0xf3a7f0 size 0x2c virtual false final false
- void _ctor(::Org::BouncyCastle::Math::BigInteger u, ::Org::BouncyCastle::Math::BigInteger v) ;
+ void _ctor(Org::BouncyCastle::Math::BigInteger u, Org::BouncyCastle::Math::BigInteger v) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Math::EC::Abc
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Abc::ZTauElement);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Abc::ZTauElement, "Org.BouncyCastle.Math.EC.Abc", "ZTauElement");
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Abc::ZTauElement);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Abc::ZTauElement, "Org.BouncyCastle.Math.EC.Abc", "ZTauElement");

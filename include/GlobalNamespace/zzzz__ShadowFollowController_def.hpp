@@ -1,15 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace UnityEngine {
 class SpriteRenderer;
 }
 namespace UnityEngine {
-class Transform;
+struct Vector2;
 }
 namespace UnityEngine {
-struct Vector2;
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4106))
 // CS Name: ShadowFollowController
-class CORDL_TYPE ShadowFollowController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ShadowFollowController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr ShadowFollowController(ShadowFollowController const& ) noexcept = defa
 constexpr ShadowFollowController(ShadowFollowController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ShadowFollowController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ShadowFollowController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -57,47 +56,47 @@ constexpr explicit ShadowFollowController(void* ptr) noexcept : ::UnityEngine::M
 
 // Fields
 
- ::UnityEngine::Transform __declspec(property(get=__get__shadowTransform, put=__set__shadowTransform))  _shadowTransform;
+ UnityEngine::Transform __declspec(property(get=__get__shadowTransform, put=__set__shadowTransform))  _shadowTransform;
 
-constexpr void __set__shadowTransform(::UnityEngine::Transform value) ;
+constexpr void __set__shadowTransform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__shadowTransform() const;
+constexpr UnityEngine::Transform __get__shadowTransform() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__targetTransform, put=__set__targetTransform))  _targetTransform;
+ UnityEngine::Transform __declspec(property(get=__get__targetTransform, put=__set__targetTransform))  _targetTransform;
 
-constexpr void __set__targetTransform(::UnityEngine::Transform value) ;
+constexpr void __set__targetTransform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__targetTransform() const;
+constexpr UnityEngine::Transform __get__targetTransform() const;
 
- ::UnityEngine::SpriteRenderer __declspec(property(get=__get__shadowSpriteRenderer, put=__set__shadowSpriteRenderer))  _shadowSpriteRenderer;
+ UnityEngine::SpriteRenderer __declspec(property(get=__get__shadowSpriteRenderer, put=__set__shadowSpriteRenderer))  _shadowSpriteRenderer;
 
-constexpr void __set__shadowSpriteRenderer(::UnityEngine::SpriteRenderer value) ;
+constexpr void __set__shadowSpriteRenderer(UnityEngine::SpriteRenderer value) ;
 
-constexpr ::UnityEngine::SpriteRenderer __get__shadowSpriteRenderer() const;
+constexpr UnityEngine::SpriteRenderer __get__shadowSpriteRenderer() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get__shadowHeightRange, put=__set__shadowHeightRange))  _shadowHeightRange;
+ UnityEngine::Vector2 __declspec(property(get=__get__shadowHeightRange, put=__set__shadowHeightRange))  _shadowHeightRange;
 
-constexpr void __set__shadowHeightRange(::UnityEngine::Vector2 value) ;
+constexpr void __set__shadowHeightRange(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get__shadowHeightRange() const;
+constexpr UnityEngine::Vector2 __get__shadowHeightRange() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get__shadowSizeRange, put=__set__shadowSizeRange))  _shadowSizeRange;
+ UnityEngine::Vector2 __declspec(property(get=__get__shadowSizeRange, put=__set__shadowSizeRange))  _shadowSizeRange;
 
-constexpr void __set__shadowSizeRange(::UnityEngine::Vector2 value) ;
+constexpr void __set__shadowSizeRange(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get__shadowSizeRange() const;
+constexpr UnityEngine::Vector2 __get__shadowSizeRange() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get__shadowAlphaRange, put=__set__shadowAlphaRange))  _shadowAlphaRange;
+ UnityEngine::Vector2 __declspec(property(get=__get__shadowAlphaRange, put=__set__shadowAlphaRange))  _shadowAlphaRange;
 
-constexpr void __set__shadowAlphaRange(::UnityEngine::Vector2 value) ;
+constexpr void __set__shadowAlphaRange(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get__shadowAlphaRange() const;
+constexpr UnityEngine::Vector2 __get__shadowAlphaRange() const;
 
 
 // Methods
 
 /// @brief Method SetTargetTransform addr 0x20c5844 size 0x8 virtual false final false
- void SetTargetTransform(::UnityEngine::Transform target) ;
+ void SetTargetTransform(UnityEngine::Transform target) ;
 
 /// @brief Method Update addr 0x20c584c size 0xe0 virtual false final false
  void Update() ;
@@ -112,6 +111,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ShadowFollowController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ShadowFollowController, "", "ShadowFollowController");
+NEED_NO_BOX(GlobalNamespace::ShadowFollowController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShadowFollowController, "", "ShadowFollowController");

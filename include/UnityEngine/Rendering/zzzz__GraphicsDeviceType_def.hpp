@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Rendering {
 struct GraphicsDeviceType;
@@ -89,80 +88,79 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field OpenGL2 offset 0
-static ::UnityEngine::Rendering::GraphicsDeviceType const OpenGL2;
+static UnityEngine::Rendering::GraphicsDeviceType const OpenGL2;
 
 /// @brief Field Direct3D9 offset 0
-static ::UnityEngine::Rendering::GraphicsDeviceType const Direct3D9;
+static UnityEngine::Rendering::GraphicsDeviceType const Direct3D9;
 
 /// @brief Field Direct3D11 offset 0
-static ::UnityEngine::Rendering::GraphicsDeviceType const Direct3D11;
+static UnityEngine::Rendering::GraphicsDeviceType const Direct3D11;
 
 /// @brief Field PlayStation3 offset 0
-static ::UnityEngine::Rendering::GraphicsDeviceType const PlayStation3;
+static UnityEngine::Rendering::GraphicsDeviceType const PlayStation3;
 
 /// @brief Field Null offset 0
-static ::UnityEngine::Rendering::GraphicsDeviceType const Null;
+static UnityEngine::Rendering::GraphicsDeviceType const Null;
 
 /// @brief Field Xbox360 offset 0
-static ::UnityEngine::Rendering::GraphicsDeviceType const Xbox360;
+static UnityEngine::Rendering::GraphicsDeviceType const Xbox360;
 
 /// @brief Field OpenGLES2 offset 0
-static ::UnityEngine::Rendering::GraphicsDeviceType const OpenGLES2;
+static UnityEngine::Rendering::GraphicsDeviceType const OpenGLES2;
 
 /// @brief Field OpenGLES3 offset 0
-static ::UnityEngine::Rendering::GraphicsDeviceType const OpenGLES3;
+static UnityEngine::Rendering::GraphicsDeviceType const OpenGLES3;
 
 /// @brief Field PlayStationVita offset 0
-static ::UnityEngine::Rendering::GraphicsDeviceType const PlayStationVita;
+static UnityEngine::Rendering::GraphicsDeviceType const PlayStationVita;
 
 /// @brief Field PlayStation4 offset 0
-static ::UnityEngine::Rendering::GraphicsDeviceType const PlayStation4;
+static UnityEngine::Rendering::GraphicsDeviceType const PlayStation4;
 
 /// @brief Field XboxOne offset 0
-static ::UnityEngine::Rendering::GraphicsDeviceType const XboxOne;
+static UnityEngine::Rendering::GraphicsDeviceType const XboxOne;
 
 /// @brief Field PlayStationMobile offset 0
-static ::UnityEngine::Rendering::GraphicsDeviceType const PlayStationMobile;
+static UnityEngine::Rendering::GraphicsDeviceType const PlayStationMobile;
 
 /// @brief Field Metal offset 0
-static ::UnityEngine::Rendering::GraphicsDeviceType const Metal;
+static UnityEngine::Rendering::GraphicsDeviceType const Metal;
 
 /// @brief Field OpenGLCore offset 0
-static ::UnityEngine::Rendering::GraphicsDeviceType const OpenGLCore;
+static UnityEngine::Rendering::GraphicsDeviceType const OpenGLCore;
 
 /// @brief Field Direct3D12 offset 0
-static ::UnityEngine::Rendering::GraphicsDeviceType const Direct3D12;
+static UnityEngine::Rendering::GraphicsDeviceType const Direct3D12;
 
 /// @brief Field N3DS offset 0
-static ::UnityEngine::Rendering::GraphicsDeviceType const N3DS;
+static UnityEngine::Rendering::GraphicsDeviceType const N3DS;
 
 /// @brief Field Vulkan offset 0
-static ::UnityEngine::Rendering::GraphicsDeviceType const Vulkan;
+static UnityEngine::Rendering::GraphicsDeviceType const Vulkan;
 
 /// @brief Field Switch offset 0
-static ::UnityEngine::Rendering::GraphicsDeviceType const Switch;
+static UnityEngine::Rendering::GraphicsDeviceType const Switch;
 
 /// @brief Field XboxOneD3D12 offset 0
-static ::UnityEngine::Rendering::GraphicsDeviceType const XboxOneD3D12;
+static UnityEngine::Rendering::GraphicsDeviceType const XboxOneD3D12;
 
 /// @brief Field GameCoreXboxOne offset 0
-static ::UnityEngine::Rendering::GraphicsDeviceType const GameCoreXboxOne;
+static UnityEngine::Rendering::GraphicsDeviceType const GameCoreXboxOne;
 
 /// @brief Field GameCoreScarlett offset 0
-static ::UnityEngine::Rendering::GraphicsDeviceType const GameCoreScarlett;
+static UnityEngine::Rendering::GraphicsDeviceType const GameCoreScarlett;
 
 /// @brief Field GameCoreXboxSeries offset 0
-static ::UnityEngine::Rendering::GraphicsDeviceType const GameCoreXboxSeries;
+static UnityEngine::Rendering::GraphicsDeviceType const GameCoreXboxSeries;
 
 /// @brief Field PlayStation5 offset 0
-static ::UnityEngine::Rendering::GraphicsDeviceType const PlayStation5;
+static UnityEngine::Rendering::GraphicsDeviceType const PlayStation5;
 
 /// @brief Field PlayStation5NGGC offset 0
-static ::UnityEngine::Rendering::GraphicsDeviceType const PlayStation5NGGC;
+static UnityEngine::Rendering::GraphicsDeviceType const PlayStation5NGGC;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Rendering
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::GraphicsDeviceType, "UnityEngine.Rendering", "GraphicsDeviceType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::GraphicsDeviceType, "UnityEngine.Rendering", "GraphicsDeviceType");

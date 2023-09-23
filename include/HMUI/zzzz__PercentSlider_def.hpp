@@ -3,7 +3,6 @@
 #include "HMUI/zzzz__RangeValuesTextSlider_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
 // Forward declare root types
 namespace HMUI {
 class PercentSlider;
@@ -14,7 +13,7 @@ namespace HMUI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13610))
 // CS Name: HMUI.PercentSlider
-class CORDL_TYPE PercentSlider : public ::HMUI::RangeValuesTextSlider {
+class CORDL_TYPE PercentSlider : public HMUI::RangeValuesTextSlider {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr PercentSlider(PercentSlider const& ) noexcept = default;
 constexpr PercentSlider(PercentSlider&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PercentSlider(void* ptr) noexcept : ::HMUI::RangeValuesTextSlider(ptr) {
+constexpr explicit PercentSlider(void* ptr) noexcept : HMUI::RangeValuesTextSlider(ptr) {
 }
 
 
@@ -63,6 +62,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HMUI
-} // end anonymous namespace
-NEED_NO_BOX(::HMUI::PercentSlider);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::PercentSlider, "HMUI", "PercentSlider");
+NEED_NO_BOX(HMUI::PercentSlider);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::PercentSlider, "HMUI", "PercentSlider");

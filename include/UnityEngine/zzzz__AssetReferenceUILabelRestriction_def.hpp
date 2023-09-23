@@ -3,7 +3,6 @@
 #include "UnityEngine/zzzz__AssetReferenceUIRestriction_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace UnityEngine {
 class Object;
 }
@@ -17,7 +16,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14326))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14327))
 // CS Name: UnityEngine.AssetReferenceUILabelRestriction
-class CORDL_TYPE AssetReferenceUILabelRestriction : public ::UnityEngine::AssetReferenceUIRestriction {
+class CORDL_TYPE AssetReferenceUILabelRestriction : public UnityEngine::AssetReferenceUIRestriction {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr AssetReferenceUILabelRestriction(AssetReferenceUILabelRestriction cons
 constexpr AssetReferenceUILabelRestriction(AssetReferenceUILabelRestriction&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AssetReferenceUILabelRestriction(void* ptr) noexcept : ::UnityEngine::AssetReferenceUIRestriction(ptr) {
+constexpr explicit AssetReferenceUILabelRestriction(void* ptr) noexcept : UnityEngine::AssetReferenceUIRestriction(ptr) {
 }
 
 
@@ -75,7 +74,7 @@ explicit AssetReferenceUILabelRestriction(::ArrayW<::StringW> allowedLabels) ;
  void _ctor(::ArrayW<::StringW> allowedLabels) ;
 
 /// @brief Method ValidateAsset addr 0x287d6d4 size 0x8 virtual true final false
- bool ValidateAsset(::UnityEngine::Object obj) ;
+ bool ValidateAsset(UnityEngine::Object obj) ;
 
 /// @brief Method ValidateAsset addr 0x287d6dc size 0x8 virtual true final false
  bool ValidateAsset(::StringW path) ;
@@ -87,6 +86,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AssetReferenceUILabelRestriction);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AssetReferenceUILabelRestriction, "UnityEngine", "AssetReferenceUILabelRestriction");
+NEED_NO_BOX(UnityEngine::AssetReferenceUILabelRestriction);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AssetReferenceUILabelRestriction, "UnityEngine", "AssetReferenceUILabelRestriction");

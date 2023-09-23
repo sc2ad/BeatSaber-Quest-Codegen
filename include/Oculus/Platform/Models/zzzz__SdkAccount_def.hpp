@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform {
 struct SdkAccountType;
 }
@@ -52,11 +51,11 @@ constexpr explicit SdkAccount(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType
 
 // Fields
 
- ::Oculus::Platform::SdkAccountType __declspec(property(get=__get_AccountType, put=__set_AccountType))  AccountType;
+ Oculus::Platform::SdkAccountType __declspec(property(get=__get_AccountType, put=__set_AccountType))  AccountType;
 
-constexpr void __set_AccountType(::Oculus::Platform::SdkAccountType value) ;
+constexpr void __set_AccountType(Oculus::Platform::SdkAccountType value) ;
 
-constexpr ::Oculus::Platform::SdkAccountType __get_AccountType() const;
+constexpr Oculus::Platform::SdkAccountType __get_AccountType() const;
 
  uint64_t __declspec(property(get=__get_UserId, put=__set_UserId))  UserId;
 
@@ -77,6 +76,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::SdkAccount);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::SdkAccount, "Oculus.Platform.Models", "SdkAccount");
+NEED_NO_BOX(Oculus::Platform::Models::SdkAccount);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::SdkAccount, "Oculus.Platform.Models", "SdkAccount");

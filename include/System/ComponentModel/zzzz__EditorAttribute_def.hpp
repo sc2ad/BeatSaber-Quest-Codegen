@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::ComponentModel {
 class EditorAttribute;
@@ -15,7 +14,7 @@ namespace System::ComponentModel {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8273))
 // CS Name: System.ComponentModel.EditorAttribute
-class CORDL_TYPE EditorAttribute : public ::System::Attribute {
+class CORDL_TYPE EditorAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr EditorAttribute(EditorAttribute const& ) noexcept = default;
 constexpr EditorAttribute(EditorAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EditorAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit EditorAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -106,6 +105,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::EditorAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::EditorAttribute, "System.ComponentModel", "EditorAttribute");
+NEED_NO_BOX(System::ComponentModel::EditorAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::EditorAttribute, "System.ComponentModel", "EditorAttribute");

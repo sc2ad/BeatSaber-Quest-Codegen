@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Net {
 struct HttpStatusCode;
 }
@@ -54,7 +53,7 @@ constexpr explicit HttpStatusDescription(void* ptr) noexcept : ::bs_hook::Il2Cpp
 // Methods
 
 /// @brief Method Get addr 0x27f6f84 size 0x4 virtual false final false
-static ::StringW Get(::System::Net::HttpStatusCode code) ;
+static ::StringW Get(System::Net::HttpStatusCode code) ;
 
 /// @brief Method Get addr 0x27f6f88 size 0x698 virtual false final false
 static ::StringW Get(int32_t code) ;
@@ -63,6 +62,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::HttpStatusDescription);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::HttpStatusDescription, "System.Net", "HttpStatusDescription");
+NEED_NO_BOX(System::Net::HttpStatusDescription);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpStatusDescription, "System.Net", "HttpStatusDescription");

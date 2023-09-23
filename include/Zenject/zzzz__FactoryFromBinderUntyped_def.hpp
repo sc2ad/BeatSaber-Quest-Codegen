@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__FactoryFromBinderBase_def.hpp"
-namespace {
-namespace System {
-class Type;
-}
 namespace Zenject {
 class BindInfo;
+}
+namespace System {
+class Type;
 }
 namespace Zenject {
 class FactoryBindInfo;
@@ -24,7 +23,7 @@ namespace Zenject {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10788))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10773))
 // CS Name: Zenject.FactoryFromBinderUntyped
-class CORDL_TYPE FactoryFromBinderUntyped : public ::Zenject::FactoryFromBinderBase {
+class CORDL_TYPE FactoryFromBinderUntyped : public Zenject::FactoryFromBinderBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr FactoryFromBinderUntyped(FactoryFromBinderUntyped const& ) noexcept = 
 constexpr FactoryFromBinderUntyped(FactoryFromBinderUntyped&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FactoryFromBinderUntyped(void* ptr) noexcept : ::Zenject::FactoryFromBinderBase(ptr) {
+constexpr explicit FactoryFromBinderUntyped(void* ptr) noexcept : Zenject::FactoryFromBinderBase(ptr) {
 }
 
 
@@ -60,16 +59,15 @@ constexpr explicit FactoryFromBinderUntyped(void* ptr) noexcept : ::Zenject::Fac
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindContainer", ty: "::Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "contractType", ty: "::System::Type", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "::Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "factoryBindInfo", ty: "::Zenject::FactoryBindInfo", modifiers: "", def_value: None }]
-explicit FactoryFromBinderUntyped(::Zenject::DiContainer bindContainer, ::System::Type contractType, ::Zenject::BindInfo bindInfo, ::Zenject::FactoryBindInfo factoryBindInfo) ;
+// Ctor Parameters [CppParam { name: "bindContainer", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "contractType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "factoryBindInfo", ty: "Zenject::FactoryBindInfo", modifiers: "", def_value: None }]
+explicit FactoryFromBinderUntyped(Zenject::DiContainer bindContainer, System::Type contractType, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;
 
 /// @brief Method .ctor addr 0x2d525d8 size 0x4 virtual false final false
- void _ctor(::Zenject::DiContainer bindContainer, ::System::Type contractType, ::Zenject::BindInfo bindInfo, ::Zenject::FactoryBindInfo factoryBindInfo) ;
+ void _ctor(Zenject::DiContainer bindContainer, System::Type contractType, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::FactoryFromBinderUntyped);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::FactoryFromBinderUntyped, "Zenject", "FactoryFromBinderUntyped");
+NEED_NO_BOX(Zenject::FactoryFromBinderUntyped);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::FactoryFromBinderUntyped, "Zenject", "FactoryFromBinderUntyped");

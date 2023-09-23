@@ -4,60 +4,59 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
-template<typename T>
-class Comparison_1;
+class IDisposable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+namespace System {
+template<typename T>
+class Comparison_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-class IDisposable;
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 // Forward declare root types
+namespace GlobalNamespace {
+template<typename T>
+class GlobalNamespace__OrderedSet_1__Node;
+}
+namespace GlobalNamespace {
+template<typename T>
+class GlobalNamespace__OrderedSet_1___GetEnumerator_d__23;
+}
 namespace GlobalNamespace {
 template<typename T>
 class OrderedSet_1;
 }
 namespace GlobalNamespace {
 template<typename T>
-class ____GlobalNamespace__OrderedSet_1__Node;
+struct GlobalNamespace__OrderedSet_1__ProcessOrder;
 }
 namespace GlobalNamespace {
-template<typename T>
-class ____GlobalNamespace__OrderedSet_1___GetEnumerator_d__23;
+template<::cordl_internals::il2cpp_reference_type T>
+class GlobalNamespace__OrderedSet_1__Node<T>;
 }
 namespace GlobalNamespace {
-template<typename T>
-struct ____GlobalNamespace__OrderedSet_1__ProcessOrder;
+template<::cordl_internals::il2cpp_reference_type T>
+class GlobalNamespace__OrderedSet_1___GetEnumerator_d__23<T>;
 }
 namespace GlobalNamespace {
 template<::cordl_internals::il2cpp_reference_type T>
 class OrderedSet_1<T>;
-}
-namespace GlobalNamespace {
-template<::cordl_internals::il2cpp_reference_type T>
-class ____GlobalNamespace__OrderedSet_1__Node<T>;
-}
-namespace GlobalNamespace {
-template<::cordl_internals::il2cpp_reference_type T>
-class ____GlobalNamespace__OrderedSet_1___GetEnumerator_d__23<T>;
 }
 // Type: ::ProcessOrder
 namespace GlobalNamespace {
@@ -67,20 +66,20 @@ template<typename T>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12843))
 // CS Name: OrderedSet`1::ProcessOrder
-struct CORDL_TYPE ____GlobalNamespace__OrderedSet_1__ProcessOrder : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__OrderedSet_1__ProcessOrder : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__OrderedSet_1__ProcessOrder(int32_t value__) noexcept;
+constexpr GlobalNamespace__OrderedSet_1__ProcessOrder(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__OrderedSet_1__ProcessOrder(____GlobalNamespace__OrderedSet_1__ProcessOrder const&) = default;
-                    constexpr ____GlobalNamespace__OrderedSet_1__ProcessOrder(____GlobalNamespace__OrderedSet_1__ProcessOrder&&) = default;
-                    constexpr ____GlobalNamespace__OrderedSet_1__ProcessOrder& operator=(____GlobalNamespace__OrderedSet_1__ProcessOrder const& o) {
+                    constexpr GlobalNamespace__OrderedSet_1__ProcessOrder(GlobalNamespace__OrderedSet_1__ProcessOrder const&) = default;
+                    constexpr GlobalNamespace__OrderedSet_1__ProcessOrder(GlobalNamespace__OrderedSet_1__ProcessOrder&&) = default;
+                    constexpr GlobalNamespace__OrderedSet_1__ProcessOrder& operator=(GlobalNamespace__OrderedSet_1__ProcessOrder const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__OrderedSet_1__ProcessOrder& operator=(____GlobalNamespace__OrderedSet_1__ProcessOrder&& o) noexcept {
+                    constexpr GlobalNamespace__OrderedSet_1__ProcessOrder& operator=(GlobalNamespace__OrderedSet_1__ProcessOrder&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -93,7 +92,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x8};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OrderedSet_1__ProcessOrder(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__OrderedSet_1__ProcessOrder(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -101,15 +100,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__OrderedSet_1__ProcessOrder_Unwrapped : int32_t {
+enum class __GlobalNamespace__OrderedSet_1__ProcessOrder_Unwrapped : int32_t {
 __Lifo = 0,
 __Fifo = 1,
 __DontCare = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__OrderedSet_1__ProcessOrder_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__OrderedSet_1__ProcessOrder_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__OrderedSet_1__ProcessOrder_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__OrderedSet_1__ProcessOrder_Unwrapped>(__instance);
 }
 
 
@@ -122,13 +121,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Lifo offset 0
-static ::GlobalNamespace::____GlobalNamespace__OrderedSet_1__ProcessOrder<T> const Lifo;
+static GlobalNamespace::GlobalNamespace__OrderedSet_1__ProcessOrder<T> const Lifo;
 
 /// @brief Field Fifo offset 0
-static ::GlobalNamespace::____GlobalNamespace__OrderedSet_1__ProcessOrder<T> const Fifo;
+static GlobalNamespace::GlobalNamespace__OrderedSet_1__ProcessOrder<T> const Fifo;
 
 /// @brief Field DontCare offset 0
-static ::GlobalNamespace::____GlobalNamespace__OrderedSet_1__ProcessOrder<T> const DontCare;
+static GlobalNamespace::GlobalNamespace__OrderedSet_1__ProcessOrder<T> const DontCare;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -145,37 +144,37 @@ template<::cordl_internals::il2cpp_reference_type T>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12844))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12844), inst: 2 })
 // CS Name: OrderedSet`1::Node
-class CORDL_TYPE ____GlobalNamespace__OrderedSet_1__Node<T> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__OrderedSet_1__Node<T> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
 
-virtual ~____GlobalNamespace__OrderedSet_1__Node() = default;
+virtual ~GlobalNamespace__OrderedSet_1__Node() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OrderedSet_1__Node", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__OrderedSet_1__Node(____GlobalNamespace__OrderedSet_1__Node const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OrderedSet_1__Node", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__OrderedSet_1__Node(GlobalNamespace__OrderedSet_1__Node const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OrderedSet_1__Node", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__OrderedSet_1__Node(____GlobalNamespace__OrderedSet_1__Node&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OrderedSet_1__Node", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__OrderedSet_1__Node(GlobalNamespace__OrderedSet_1__Node&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OrderedSet_1__Node(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__OrderedSet_1__Node(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__OrderedSet_1__Node& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__OrderedSet_1__Node& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OrderedSet_1__Node& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__OrderedSet_1__Node& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OrderedSet_1__Node& operator=(____GlobalNamespace__OrderedSet_1__Node&& o) noexcept = default;
-  constexpr ____GlobalNamespace__OrderedSet_1__Node& operator=(____GlobalNamespace__OrderedSet_1__Node const& o) noexcept = default;
+  constexpr GlobalNamespace__OrderedSet_1__Node& operator=(GlobalNamespace__OrderedSet_1__Node&& o) noexcept = default;
+  constexpr GlobalNamespace__OrderedSet_1__Node& operator=(GlobalNamespace__OrderedSet_1__Node const& o) noexcept = default;
                 
 
 
@@ -187,17 +186,17 @@ constexpr void __set_value(T value) ;
 
 constexpr T __get_value() const;
 
- ::GlobalNamespace::____GlobalNamespace__OrderedSet_1__Node<T> __declspec(property(get=__get_previous, put=__set_previous))  previous;
+ GlobalNamespace::GlobalNamespace__OrderedSet_1__Node<T> __declspec(property(get=__get_previous, put=__set_previous))  previous;
 
-constexpr void __set_previous(::GlobalNamespace::____GlobalNamespace__OrderedSet_1__Node<T> value) ;
+constexpr void __set_previous(GlobalNamespace::GlobalNamespace__OrderedSet_1__Node<T> value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OrderedSet_1__Node<T> __get_previous() const;
+constexpr GlobalNamespace::GlobalNamespace__OrderedSet_1__Node<T> __get_previous() const;
 
- ::GlobalNamespace::____GlobalNamespace__OrderedSet_1__Node<T> __declspec(property(get=__get_next, put=__set_next))  next;
+ GlobalNamespace::GlobalNamespace__OrderedSet_1__Node<T> __declspec(property(get=__get_next, put=__set_next))  next;
 
-constexpr void __set_next(::GlobalNamespace::____GlobalNamespace__OrderedSet_1__Node<T> value) ;
+constexpr void __set_next(GlobalNamespace::GlobalNamespace__OrderedSet_1__Node<T> value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OrderedSet_1__Node<T> __get_next() const;
+constexpr GlobalNamespace::GlobalNamespace__OrderedSet_1__Node<T> __get_next() const;
 
  bool __declspec(property(get=__get_isRemoved, put=__set_isRemoved))  isRemoved;
 
@@ -215,7 +214,7 @@ constexpr int32_t __get_clearCount() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "value", ty: "T", modifiers: "", def_value: None }, CppParam { name: "clearCount", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__OrderedSet_1__Node(T value, int32_t clearCount) ;
+explicit GlobalNamespace__OrderedSet_1__Node(T value, int32_t clearCount) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(T value, int32_t clearCount) ;
@@ -232,46 +231,46 @@ template<::cordl_internals::il2cpp_reference_type T>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12845))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12845), inst: 2 })
 // CS Name: OrderedSet`1::<GetEnumerator>d__23
-class CORDL_TYPE ____GlobalNamespace__OrderedSet_1___GetEnumerator_d__23<T> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__OrderedSet_1___GetEnumerator_d__23<T> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<T>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<T>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<T>
+constexpr operator  System::Collections::Generic::IEnumerator_1<T>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____GlobalNamespace__OrderedSet_1___GetEnumerator_d__23() = default;
+virtual ~GlobalNamespace__OrderedSet_1___GetEnumerator_d__23() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OrderedSet_1___GetEnumerator_d__23", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__OrderedSet_1___GetEnumerator_d__23(____GlobalNamespace__OrderedSet_1___GetEnumerator_d__23 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OrderedSet_1___GetEnumerator_d__23", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__OrderedSet_1___GetEnumerator_d__23(GlobalNamespace__OrderedSet_1___GetEnumerator_d__23 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OrderedSet_1___GetEnumerator_d__23", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__OrderedSet_1___GetEnumerator_d__23(____GlobalNamespace__OrderedSet_1___GetEnumerator_d__23&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OrderedSet_1___GetEnumerator_d__23", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__OrderedSet_1___GetEnumerator_d__23(GlobalNamespace__OrderedSet_1___GetEnumerator_d__23&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OrderedSet_1___GetEnumerator_d__23(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__OrderedSet_1___GetEnumerator_d__23(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__OrderedSet_1___GetEnumerator_d__23& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__OrderedSet_1___GetEnumerator_d__23& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OrderedSet_1___GetEnumerator_d__23& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__OrderedSet_1___GetEnumerator_d__23& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OrderedSet_1___GetEnumerator_d__23& operator=(____GlobalNamespace__OrderedSet_1___GetEnumerator_d__23&& o) noexcept = default;
-  constexpr ____GlobalNamespace__OrderedSet_1___GetEnumerator_d__23& operator=(____GlobalNamespace__OrderedSet_1___GetEnumerator_d__23 const& o) noexcept = default;
+  constexpr GlobalNamespace__OrderedSet_1___GetEnumerator_d__23& operator=(GlobalNamespace__OrderedSet_1___GetEnumerator_d__23&& o) noexcept = default;
+  constexpr GlobalNamespace__OrderedSet_1___GetEnumerator_d__23& operator=(GlobalNamespace__OrderedSet_1___GetEnumerator_d__23 const& o) noexcept = default;
                 
 
 
@@ -289,17 +288,17 @@ constexpr void __set___2__current(T value) ;
 
 constexpr T __get___2__current() const;
 
- ::GlobalNamespace::OrderedSet_1<T> __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::OrderedSet_1<T> __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::OrderedSet_1<T> value) ;
+constexpr void __set___4__this(GlobalNamespace::OrderedSet_1<T> value) ;
 
-constexpr ::GlobalNamespace::OrderedSet_1<T> __get___4__this() const;
+constexpr GlobalNamespace::OrderedSet_1<T> __get___4__this() const;
 
- ::GlobalNamespace::____GlobalNamespace__OrderedSet_1__Node<T> __declspec(property(get=__get__next_5__2, put=__set__next_5__2))  _next_5__2;
+ GlobalNamespace::GlobalNamespace__OrderedSet_1__Node<T> __declspec(property(get=__get__next_5__2, put=__set__next_5__2))  _next_5__2;
 
-constexpr void __set__next_5__2(::GlobalNamespace::____GlobalNamespace__OrderedSet_1__Node<T> value) ;
+constexpr void __set__next_5__2(GlobalNamespace::GlobalNamespace__OrderedSet_1__Node<T> value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OrderedSet_1__Node<T> __get__next_5__2() const;
+constexpr GlobalNamespace::GlobalNamespace__OrderedSet_1__Node<T> __get__next_5__2() const;
 
 
 // Properties
@@ -312,7 +311,7 @@ constexpr ::GlobalNamespace::____GlobalNamespace__OrderedSet_1__Node<T> __get__n
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__OrderedSet_1___GetEnumerator_d__23(int32_t __1__state) ;
+explicit GlobalNamespace__OrderedSet_1___GetEnumerator_d__23(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -347,17 +346,17 @@ template<::cordl_internals::il2cpp_reference_type T>
 class CORDL_TYPE OrderedSet_1<T> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using _GetEnumerator_d__23 = ::GlobalNamespace::____GlobalNamespace__OrderedSet_1___GetEnumerator_d__23<T>;
+using _GetEnumerator_d__23 = GlobalNamespace::GlobalNamespace__OrderedSet_1___GetEnumerator_d__23<T>;
 
-using Node = ::GlobalNamespace::____GlobalNamespace__OrderedSet_1__Node<T>;
+using Node = GlobalNamespace::GlobalNamespace__OrderedSet_1__Node<T>;
 
-using ProcessOrder = ::GlobalNamespace::____GlobalNamespace__OrderedSet_1__ProcessOrder<T>;
+using ProcessOrder = GlobalNamespace::GlobalNamespace__OrderedSet_1__ProcessOrder<T>;
 
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerable_1<T>
-constexpr operator  ::System::Collections::Generic::IEnumerable_1<T>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerable_1<T>
+constexpr operator  System::Collections::Generic::IEnumerable_1<T>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -392,35 +391,35 @@ constexpr explicit OrderedSet_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 
 // Fields
 
- ::System::Comparison_1<T> __declspec(property(get=__get__comparison, put=__set__comparison))  _comparison;
+ System::Comparison_1<T> __declspec(property(get=__get__comparison, put=__set__comparison))  _comparison;
 
-constexpr void __set__comparison(::System::Comparison_1<T> value) ;
+constexpr void __set__comparison(System::Comparison_1<T> value) ;
 
-constexpr ::System::Comparison_1<T> __get__comparison() const;
+constexpr System::Comparison_1<T> __get__comparison() const;
 
- ::GlobalNamespace::____GlobalNamespace__OrderedSet_1__ProcessOrder<T> __declspec(property(get=__get__processOrder, put=__set__processOrder))  _processOrder;
+ GlobalNamespace::GlobalNamespace__OrderedSet_1__ProcessOrder<T> __declspec(property(get=__get__processOrder, put=__set__processOrder))  _processOrder;
 
-constexpr void __set__processOrder(::GlobalNamespace::____GlobalNamespace__OrderedSet_1__ProcessOrder<T> value) ;
+constexpr void __set__processOrder(GlobalNamespace::GlobalNamespace__OrderedSet_1__ProcessOrder<T> value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OrderedSet_1__ProcessOrder<T> __get__processOrder() const;
+constexpr GlobalNamespace::GlobalNamespace__OrderedSet_1__ProcessOrder<T> __get__processOrder() const;
 
- ::System::Collections::Generic::Dictionary_2<T,::GlobalNamespace::____GlobalNamespace__OrderedSet_1__Node<T>> __declspec(property(get=__get__sortIndices, put=__set__sortIndices))  _sortIndices;
+ System::Collections::Generic::Dictionary_2<T,GlobalNamespace::GlobalNamespace__OrderedSet_1__Node<T>> __declspec(property(get=__get__sortIndices, put=__set__sortIndices))  _sortIndices;
 
-constexpr void __set__sortIndices(::System::Collections::Generic::Dictionary_2<T,::GlobalNamespace::____GlobalNamespace__OrderedSet_1__Node<T>> value) ;
+constexpr void __set__sortIndices(System::Collections::Generic::Dictionary_2<T,GlobalNamespace::GlobalNamespace__OrderedSet_1__Node<T>> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<T,::GlobalNamespace::____GlobalNamespace__OrderedSet_1__Node<T>> __get__sortIndices() const;
+constexpr System::Collections::Generic::Dictionary_2<T,GlobalNamespace::GlobalNamespace__OrderedSet_1__Node<T>> __get__sortIndices() const;
 
- ::GlobalNamespace::____GlobalNamespace__OrderedSet_1__Node<T> __declspec(property(get=__get__head, put=__set__head))  _head;
+ GlobalNamespace::GlobalNamespace__OrderedSet_1__Node<T> __declspec(property(get=__get__head, put=__set__head))  _head;
 
-constexpr void __set__head(::GlobalNamespace::____GlobalNamespace__OrderedSet_1__Node<T> value) ;
+constexpr void __set__head(GlobalNamespace::GlobalNamespace__OrderedSet_1__Node<T> value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OrderedSet_1__Node<T> __get__head() const;
+constexpr GlobalNamespace::GlobalNamespace__OrderedSet_1__Node<T> __get__head() const;
 
- ::GlobalNamespace::____GlobalNamespace__OrderedSet_1__Node<T> __declspec(property(get=__get__tail, put=__set__tail))  _tail;
+ GlobalNamespace::GlobalNamespace__OrderedSet_1__Node<T> __declspec(property(get=__get__tail, put=__set__tail))  _tail;
 
-constexpr void __set__tail(::GlobalNamespace::____GlobalNamespace__OrderedSet_1__Node<T> value) ;
+constexpr void __set__tail(GlobalNamespace::GlobalNamespace__OrderedSet_1__Node<T> value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OrderedSet_1__Node<T> __get__tail() const;
+constexpr GlobalNamespace::GlobalNamespace__OrderedSet_1__Node<T> __get__tail() const;
 
  int32_t __declspec(property(get=__get__clearCount, put=__set__clearCount))  _clearCount;
 
@@ -439,11 +438,11 @@ constexpr int32_t __get__clearCount() const;
 /// @brief Method get_count addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t get_count() ;
 
-// Ctor Parameters [CppParam { name: "comparison", ty: "::System::Comparison_1<T>", modifiers: "", def_value: None }, CppParam { name: "processOrder", ty: "::GlobalNamespace::____GlobalNamespace__OrderedSet_1__ProcessOrder<T>", modifiers: "", def_value: None }]
-explicit OrderedSet_1(::System::Comparison_1<T> comparison, ::GlobalNamespace::____GlobalNamespace__OrderedSet_1__ProcessOrder<T> processOrder) ;
+// Ctor Parameters [CppParam { name: "comparison", ty: "System::Comparison_1<T>", modifiers: "", def_value: None }, CppParam { name: "processOrder", ty: "GlobalNamespace::GlobalNamespace__OrderedSet_1__ProcessOrder<T>", modifiers: "", def_value: None }]
+explicit OrderedSet_1(System::Comparison_1<T> comparison, GlobalNamespace::GlobalNamespace__OrderedSet_1__ProcessOrder<T> processOrder) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Comparison_1<T> comparison, ::GlobalNamespace::____GlobalNamespace__OrderedSet_1__ProcessOrder<T> processOrder) ;
+ void _ctor(System::Comparison_1<T> comparison, GlobalNamespace::GlobalNamespace__OrderedSet_1__ProcessOrder<T> processOrder) ;
 
 /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
  void Add(T item) ;
@@ -461,31 +460,31 @@ explicit OrderedSet_1(::System::Comparison_1<T> comparison, ::GlobalNamespace::_
  void UpdateSortedPosition(T item) ;
 
 /// @brief Method AppendNode addr 0x0 size 0xffffffffffffffff virtual false final false
- void AppendNode(::GlobalNamespace::____GlobalNamespace__OrderedSet_1__Node<T> node) ;
+ void AppendNode(GlobalNamespace::GlobalNamespace__OrderedSet_1__Node<T> node) ;
 
 /// @brief Method AppendNodeUnchecked addr 0x0 size 0xffffffffffffffff virtual false final false
- void AppendNodeUnchecked(::GlobalNamespace::____GlobalNamespace__OrderedSet_1__Node<T> node) ;
+ void AppendNodeUnchecked(GlobalNamespace::GlobalNamespace__OrderedSet_1__Node<T> node) ;
 
 /// @brief Method PrependNode addr 0x0 size 0xffffffffffffffff virtual false final false
- void PrependNode(::GlobalNamespace::____GlobalNamespace__OrderedSet_1__Node<T> node) ;
+ void PrependNode(GlobalNamespace::GlobalNamespace__OrderedSet_1__Node<T> node) ;
 
 /// @brief Method PrependNodeUnchecked addr 0x0 size 0xffffffffffffffff virtual false final false
- void PrependNodeUnchecked(::GlobalNamespace::____GlobalNamespace__OrderedSet_1__Node<T> node) ;
+ void PrependNodeUnchecked(GlobalNamespace::GlobalNamespace__OrderedSet_1__Node<T> node) ;
 
 /// @brief Method SwapNodes addr 0x0 size 0xffffffffffffffff virtual false final false
- void SwapNodes(::GlobalNamespace::____GlobalNamespace__OrderedSet_1__Node<T> previous, ::GlobalNamespace::____GlobalNamespace__OrderedSet_1__Node<T> next) ;
+ void SwapNodes(GlobalNamespace::GlobalNamespace__OrderedSet_1__Node<T> previous, GlobalNamespace::GlobalNamespace__OrderedSet_1__Node<T> next) ;
 
 /// @brief Method RemoveNode addr 0x0 size 0xffffffffffffffff virtual false final false
- void RemoveNode(::GlobalNamespace::____GlobalNamespace__OrderedSet_1__Node<T> node) ;
+ void RemoveNode(GlobalNamespace::GlobalNamespace__OrderedSet_1__Node<T> node) ;
 
 /// @brief Method UpdateSortedPosition addr 0x0 size 0xffffffffffffffff virtual false final false
- void UpdateSortedPosition(::GlobalNamespace::____GlobalNamespace__OrderedSet_1__Node<T> node) ;
+ void UpdateSortedPosition(GlobalNamespace::GlobalNamespace__OrderedSet_1__Node<T> node) ;
 
 /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Collections::Generic::IEnumerator_1<T> GetEnumerator() ;
+ System::Collections::Generic::IEnumerator_1<T> GetEnumerator() ;
 
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
+ System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
 /// @brief Method GetFirstOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
  T GetFirstOrDefault() ;
@@ -497,8 +496,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::OrderedSet_1, "", "OrderedSet`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::____GlobalNamespace__OrderedSet_1__Node, "", "OrderedSet`1/Node");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::____GlobalNamespace__OrderedSet_1___GetEnumerator_d__23, "", "OrderedSet`1/<GetEnumerator>d__23");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::GlobalNamespace::____GlobalNamespace__OrderedSet_1__ProcessOrder, "", "OrderedSet`1/ProcessOrder");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::GlobalNamespace__OrderedSet_1__Node, "", "OrderedSet`1/Node");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::GlobalNamespace__OrderedSet_1___GetEnumerator_d__23, "", "OrderedSet`1/<GetEnumerator>d__23");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::OrderedSet_1, "", "OrderedSet`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(GlobalNamespace::GlobalNamespace__OrderedSet_1__ProcessOrder, "", "OrderedSet`1/ProcessOrder");

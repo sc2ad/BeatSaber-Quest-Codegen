@@ -5,30 +5,17 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine::UI {
-class Selectable;
-}
-namespace UnityEngine::EventSystems {
-class AxisEventData;
-}
-namespace UnityEngine::UI {
-class Image;
-}
 namespace UnityEngine::EventSystems {
 class IEventSystemHandler;
 }
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine::EventSystems {
-class IInitializePotentialDragHandler;
-}
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::UI {
 class ICanvasElement;
+}
+namespace UnityEngine::UI {
+class Selectable;
+}
+namespace UnityEngine::UI {
+struct CanvasUpdate;
 }
 namespace UnityEngine {
 struct DrivenRectTransformTracker;
@@ -37,29 +24,41 @@ namespace UnityEngine::EventSystems {
 class IDragHandler;
 }
 namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
+namespace UnityEngine {
 class RectTransform;
+}
+namespace UnityEngine::UI {
+class Image;
+}
+namespace UnityEngine::EventSystems {
+class IInitializePotentialDragHandler;
 }
 namespace UnityEngine {
 class Transform;
 }
-namespace UnityEngine::UI {
-struct CanvasUpdate;
+namespace UnityEngine::EventSystems {
+class AxisEventData;
 }
 namespace UnityEngine {
 class Camera;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
-struct ____UnityEngine__UI__Slider__Axis;
+struct UnityEngine__UI__Slider__Axis;
 }
 namespace UnityEngine::UI {
-struct ____UnityEngine__UI__Slider__Direction;
+struct UnityEngine__UI__Slider__Direction;
 }
 namespace UnityEngine::UI {
 class Slider;
 }
 namespace UnityEngine::UI {
-class ____UnityEngine__UI__Slider__SliderEvent;
+class UnityEngine__UI__Slider__SliderEvent;
 }
 // Type: ::Direction
 namespace UnityEngine::UI {
@@ -67,20 +66,20 @@ namespace UnityEngine::UI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13060))
 // CS Name: UnityEngine.UI.Slider::Direction
-struct CORDL_TYPE ____UnityEngine__UI__Slider__Direction : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__UI__Slider__Direction : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__UI__Slider__Direction(int32_t value__) noexcept;
+constexpr UnityEngine__UI__Slider__Direction(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__UI__Slider__Direction(____UnityEngine__UI__Slider__Direction const&) = default;
-                    constexpr ____UnityEngine__UI__Slider__Direction(____UnityEngine__UI__Slider__Direction&&) = default;
-                    constexpr ____UnityEngine__UI__Slider__Direction& operator=(____UnityEngine__UI__Slider__Direction const& o) {
+                    constexpr UnityEngine__UI__Slider__Direction(UnityEngine__UI__Slider__Direction const&) = default;
+                    constexpr UnityEngine__UI__Slider__Direction(UnityEngine__UI__Slider__Direction&&) = default;
+                    constexpr UnityEngine__UI__Slider__Direction& operator=(UnityEngine__UI__Slider__Direction const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__UI__Slider__Direction& operator=(____UnityEngine__UI__Slider__Direction&& o) noexcept {
+                    constexpr UnityEngine__UI__Slider__Direction& operator=(UnityEngine__UI__Slider__Direction&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -93,7 +92,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UI__Slider__Direction(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__UI__Slider__Direction(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -101,7 +100,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__UI__Slider__Direction_Unwrapped : int32_t {
+enum class __UnityEngine__UI__Slider__Direction_Unwrapped : int32_t {
 __LeftToRight = 0,
 __RightToLeft = 1,
 __BottomToTop = 2,
@@ -109,8 +108,8 @@ __TopToBottom = 3,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__UI__Slider__Direction_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__UI__Slider__Direction_Unwrapped>(__instance);
+constexpr operator __UnityEngine__UI__Slider__Direction_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__UI__Slider__Direction_Unwrapped>(__instance);
 }
 
 
@@ -123,16 +122,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field LeftToRight offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__Slider__Direction const LeftToRight;
+static UnityEngine::UI::UnityEngine__UI__Slider__Direction const LeftToRight;
 
 /// @brief Field RightToLeft offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__Slider__Direction const RightToLeft;
+static UnityEngine::UI::UnityEngine__UI__Slider__Direction const RightToLeft;
 
 /// @brief Field BottomToTop offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__Slider__Direction const BottomToTop;
+static UnityEngine::UI::UnityEngine__UI__Slider__Direction const BottomToTop;
 
 /// @brief Field TopToBottom offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__Slider__Direction const TopToBottom;
+static UnityEngine::UI::UnityEngine__UI__Slider__Direction const TopToBottom;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -144,44 +143,44 @@ namespace UnityEngine::UI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 374 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13061))
 // CS Name: UnityEngine.UI.Slider::SliderEvent
-class CORDL_TYPE ____UnityEngine__UI__Slider__SliderEvent : public ::UnityEngine::Events::UnityEvent_1<float_t> {
+class CORDL_TYPE UnityEngine__UI__Slider__SliderEvent : public UnityEngine::Events::UnityEvent_1<float_t> {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____UnityEngine__UI__Slider__SliderEvent() = default;
+virtual ~UnityEngine__UI__Slider__SliderEvent() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UI__Slider__SliderEvent", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__UI__Slider__SliderEvent(____UnityEngine__UI__Slider__SliderEvent const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UI__Slider__SliderEvent", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__UI__Slider__SliderEvent(UnityEngine__UI__Slider__SliderEvent const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UI__Slider__SliderEvent", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__UI__Slider__SliderEvent(____UnityEngine__UI__Slider__SliderEvent&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UI__Slider__SliderEvent", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__UI__Slider__SliderEvent(UnityEngine__UI__Slider__SliderEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UI__Slider__SliderEvent(void* ptr) noexcept : ::UnityEngine::Events::UnityEvent_1<float_t>(ptr) {
+constexpr explicit UnityEngine__UI__Slider__SliderEvent(void* ptr) noexcept : UnityEngine::Events::UnityEvent_1<float_t>(ptr) {
 }
 
 
-  constexpr ____UnityEngine__UI__Slider__SliderEvent& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__UI__Slider__SliderEvent& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__UI__Slider__SliderEvent& operator=(void* o) noexcept {
+  constexpr UnityEngine__UI__Slider__SliderEvent& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__UI__Slider__SliderEvent& operator=(____UnityEngine__UI__Slider__SliderEvent&& o) noexcept = default;
-  constexpr ____UnityEngine__UI__Slider__SliderEvent& operator=(____UnityEngine__UI__Slider__SliderEvent const& o) noexcept = default;
+  constexpr UnityEngine__UI__Slider__SliderEvent& operator=(UnityEngine__UI__Slider__SliderEvent&& o) noexcept = default;
+  constexpr UnityEngine__UI__Slider__SliderEvent& operator=(UnityEngine__UI__Slider__SliderEvent const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__UI__Slider__SliderEvent() ;
+explicit UnityEngine__UI__Slider__SliderEvent() ;
 
 /// @brief Method .ctor addr 0x2c0fcd0 size 0x48 virtual false final false
  void _ctor() ;
@@ -196,20 +195,20 @@ namespace UnityEngine::UI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13062))
 // CS Name: UnityEngine.UI.Slider::Axis
-struct CORDL_TYPE ____UnityEngine__UI__Slider__Axis : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__UI__Slider__Axis : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__UI__Slider__Axis(int32_t value__) noexcept;
+constexpr UnityEngine__UI__Slider__Axis(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__UI__Slider__Axis(____UnityEngine__UI__Slider__Axis const&) = default;
-                    constexpr ____UnityEngine__UI__Slider__Axis(____UnityEngine__UI__Slider__Axis&&) = default;
-                    constexpr ____UnityEngine__UI__Slider__Axis& operator=(____UnityEngine__UI__Slider__Axis const& o) {
+                    constexpr UnityEngine__UI__Slider__Axis(UnityEngine__UI__Slider__Axis const&) = default;
+                    constexpr UnityEngine__UI__Slider__Axis(UnityEngine__UI__Slider__Axis&&) = default;
+                    constexpr UnityEngine__UI__Slider__Axis& operator=(UnityEngine__UI__Slider__Axis const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__UI__Slider__Axis& operator=(____UnityEngine__UI__Slider__Axis&& o) noexcept {
+                    constexpr UnityEngine__UI__Slider__Axis& operator=(UnityEngine__UI__Slider__Axis&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -222,7 +221,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UI__Slider__Axis(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__UI__Slider__Axis(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -230,14 +229,14 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__UI__Slider__Axis_Unwrapped : int32_t {
+enum class __UnityEngine__UI__Slider__Axis_Unwrapped : int32_t {
 __Horizontal = 0,
 __Vertical = 1,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__UI__Slider__Axis_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__UI__Slider__Axis_Unwrapped>(__instance);
+constexpr operator __UnityEngine__UI__Slider__Axis_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__UI__Slider__Axis_Unwrapped>(__instance);
 }
 
 
@@ -250,10 +249,10 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Horizontal offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__Slider__Axis const Horizontal;
+static UnityEngine::UI::UnityEngine__UI__Slider__Axis const Horizontal;
 
 /// @brief Field Vertical offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__Slider__Axis const Vertical;
+static UnityEngine::UI::UnityEngine__UI__Slider__Axis const Vertical;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -265,26 +264,26 @@ namespace UnityEngine::UI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13058))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13063))
 // CS Name: UnityEngine.UI.Slider
-class CORDL_TYPE Slider : public ::UnityEngine::UI::Selectable {
+class CORDL_TYPE Slider : public UnityEngine::UI::Selectable {
 public:
 // Declarations
-using Axis = ::UnityEngine::UI::____UnityEngine__UI__Slider__Axis;
+using Axis = UnityEngine::UI::UnityEngine__UI__Slider__Axis;
 
-using SliderEvent = ::UnityEngine::UI::____UnityEngine__UI__Slider__SliderEvent;
+using SliderEvent = UnityEngine::UI::UnityEngine__UI__Slider__SliderEvent;
 
-using Direction = ::UnityEngine::UI::____UnityEngine__UI__Slider__Direction;
+using Direction = UnityEngine::UI::UnityEngine__UI__Slider__Direction;
 
-/// @brief Convert operator to ::UnityEngine::EventSystems::IDragHandler
-constexpr operator  ::UnityEngine::EventSystems::IDragHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IDragHandler
+constexpr operator  UnityEngine::EventSystems::IDragHandler() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::EventSystems::IEventSystemHandler
-constexpr operator  ::UnityEngine::EventSystems::IEventSystemHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IEventSystemHandler
+constexpr operator  UnityEngine::EventSystems::IEventSystemHandler() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::EventSystems::IInitializePotentialDragHandler
-constexpr operator  ::UnityEngine::EventSystems::IInitializePotentialDragHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IInitializePotentialDragHandler
+constexpr operator  UnityEngine::EventSystems::IInitializePotentialDragHandler() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::UI::ICanvasElement
-constexpr operator  ::UnityEngine::UI::ICanvasElement() const noexcept;
+/// @brief Convert operator to UnityEngine::UI::ICanvasElement
+constexpr operator  UnityEngine::UI::ICanvasElement() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x160};
@@ -298,7 +297,7 @@ constexpr Slider(Slider const& ) noexcept = default;
 constexpr Slider(Slider&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Slider(void* ptr) noexcept : ::UnityEngine::UI::Selectable(ptr) {
+constexpr explicit Slider(void* ptr) noexcept : UnityEngine::UI::Selectable(ptr) {
 }
 
 
@@ -319,23 +318,23 @@ constexpr explicit Slider(void* ptr) noexcept : ::UnityEngine::UI::Selectable(pt
 
 // Fields
 
- ::UnityEngine::RectTransform __declspec(property(get=__get_m_FillRect, put=__set_m_FillRect))  m_FillRect;
+ UnityEngine::RectTransform __declspec(property(get=__get_m_FillRect, put=__set_m_FillRect))  m_FillRect;
 
-constexpr void __set_m_FillRect(::UnityEngine::RectTransform value) ;
+constexpr void __set_m_FillRect(UnityEngine::RectTransform value) ;
 
-constexpr ::UnityEngine::RectTransform __get_m_FillRect() const;
+constexpr UnityEngine::RectTransform __get_m_FillRect() const;
 
- ::UnityEngine::RectTransform __declspec(property(get=__get_m_HandleRect, put=__set_m_HandleRect))  m_HandleRect;
+ UnityEngine::RectTransform __declspec(property(get=__get_m_HandleRect, put=__set_m_HandleRect))  m_HandleRect;
 
-constexpr void __set_m_HandleRect(::UnityEngine::RectTransform value) ;
+constexpr void __set_m_HandleRect(UnityEngine::RectTransform value) ;
 
-constexpr ::UnityEngine::RectTransform __get_m_HandleRect() const;
+constexpr UnityEngine::RectTransform __get_m_HandleRect() const;
 
- ::UnityEngine::UI::____UnityEngine__UI__Slider__Direction __declspec(property(get=__get_m_Direction, put=__set_m_Direction))  m_Direction;
+ UnityEngine::UI::UnityEngine__UI__Slider__Direction __declspec(property(get=__get_m_Direction, put=__set_m_Direction))  m_Direction;
 
-constexpr void __set_m_Direction(::UnityEngine::UI::____UnityEngine__UI__Slider__Direction value) ;
+constexpr void __set_m_Direction(UnityEngine::UI::UnityEngine__UI__Slider__Direction value) ;
 
-constexpr ::UnityEngine::UI::____UnityEngine__UI__Slider__Direction __get_m_Direction() const;
+constexpr UnityEngine::UI::UnityEngine__UI__Slider__Direction __get_m_Direction() const;
 
  float_t __declspec(property(get=__get_m_MinValue, put=__set_m_MinValue))  m_MinValue;
 
@@ -361,53 +360,53 @@ constexpr void __set_m_Value(float_t value) ;
 
 constexpr float_t __get_m_Value() const;
 
- ::UnityEngine::UI::____UnityEngine__UI__Slider__SliderEvent __declspec(property(get=__get_m_OnValueChanged, put=__set_m_OnValueChanged))  m_OnValueChanged;
+ UnityEngine::UI::UnityEngine__UI__Slider__SliderEvent __declspec(property(get=__get_m_OnValueChanged, put=__set_m_OnValueChanged))  m_OnValueChanged;
 
-constexpr void __set_m_OnValueChanged(::UnityEngine::UI::____UnityEngine__UI__Slider__SliderEvent value) ;
+constexpr void __set_m_OnValueChanged(UnityEngine::UI::UnityEngine__UI__Slider__SliderEvent value) ;
 
-constexpr ::UnityEngine::UI::____UnityEngine__UI__Slider__SliderEvent __get_m_OnValueChanged() const;
+constexpr UnityEngine::UI::UnityEngine__UI__Slider__SliderEvent __get_m_OnValueChanged() const;
 
- ::UnityEngine::UI::Image __declspec(property(get=__get_m_FillImage, put=__set_m_FillImage))  m_FillImage;
+ UnityEngine::UI::Image __declspec(property(get=__get_m_FillImage, put=__set_m_FillImage))  m_FillImage;
 
-constexpr void __set_m_FillImage(::UnityEngine::UI::Image value) ;
+constexpr void __set_m_FillImage(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get_m_FillImage() const;
+constexpr UnityEngine::UI::Image __get_m_FillImage() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_m_FillTransform, put=__set_m_FillTransform))  m_FillTransform;
+ UnityEngine::Transform __declspec(property(get=__get_m_FillTransform, put=__set_m_FillTransform))  m_FillTransform;
 
-constexpr void __set_m_FillTransform(::UnityEngine::Transform value) ;
+constexpr void __set_m_FillTransform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_m_FillTransform() const;
+constexpr UnityEngine::Transform __get_m_FillTransform() const;
 
- ::UnityEngine::RectTransform __declspec(property(get=__get_m_FillContainerRect, put=__set_m_FillContainerRect))  m_FillContainerRect;
+ UnityEngine::RectTransform __declspec(property(get=__get_m_FillContainerRect, put=__set_m_FillContainerRect))  m_FillContainerRect;
 
-constexpr void __set_m_FillContainerRect(::UnityEngine::RectTransform value) ;
+constexpr void __set_m_FillContainerRect(UnityEngine::RectTransform value) ;
 
-constexpr ::UnityEngine::RectTransform __get_m_FillContainerRect() const;
+constexpr UnityEngine::RectTransform __get_m_FillContainerRect() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_m_HandleTransform, put=__set_m_HandleTransform))  m_HandleTransform;
+ UnityEngine::Transform __declspec(property(get=__get_m_HandleTransform, put=__set_m_HandleTransform))  m_HandleTransform;
 
-constexpr void __set_m_HandleTransform(::UnityEngine::Transform value) ;
+constexpr void __set_m_HandleTransform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_m_HandleTransform() const;
+constexpr UnityEngine::Transform __get_m_HandleTransform() const;
 
- ::UnityEngine::RectTransform __declspec(property(get=__get_m_HandleContainerRect, put=__set_m_HandleContainerRect))  m_HandleContainerRect;
+ UnityEngine::RectTransform __declspec(property(get=__get_m_HandleContainerRect, put=__set_m_HandleContainerRect))  m_HandleContainerRect;
 
-constexpr void __set_m_HandleContainerRect(::UnityEngine::RectTransform value) ;
+constexpr void __set_m_HandleContainerRect(UnityEngine::RectTransform value) ;
 
-constexpr ::UnityEngine::RectTransform __get_m_HandleContainerRect() const;
+constexpr UnityEngine::RectTransform __get_m_HandleContainerRect() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_m_Offset, put=__set_m_Offset))  m_Offset;
+ UnityEngine::Vector2 __declspec(property(get=__get_m_Offset, put=__set_m_Offset))  m_Offset;
 
-constexpr void __set_m_Offset(::UnityEngine::Vector2 value) ;
+constexpr void __set_m_Offset(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_m_Offset() const;
+constexpr UnityEngine::Vector2 __get_m_Offset() const;
 
- ::UnityEngine::DrivenRectTransformTracker __declspec(property(get=__get_m_Tracker, put=__set_m_Tracker))  m_Tracker;
+ UnityEngine::DrivenRectTransformTracker __declspec(property(get=__get_m_Tracker, put=__set_m_Tracker))  m_Tracker;
 
-constexpr void __set_m_Tracker(::UnityEngine::DrivenRectTransformTracker value) ;
+constexpr void __set_m_Tracker(UnityEngine::DrivenRectTransformTracker value) ;
 
-constexpr ::UnityEngine::DrivenRectTransformTracker __get_m_Tracker() const;
+constexpr UnityEngine::DrivenRectTransformTracker __get_m_Tracker() const;
 
  bool __declspec(property(get=__get_m_DelayedUpdateVisuals, put=__set_m_DelayedUpdateVisuals))  m_DelayedUpdateVisuals;
 
@@ -418,11 +417,11 @@ constexpr bool __get_m_DelayedUpdateVisuals() const;
 
 // Properties
 
- ::UnityEngine::RectTransform __declspec(property(get=get_fillRect, put=set_fillRect))  fillRect;
+ UnityEngine::RectTransform __declspec(property(get=get_fillRect, put=set_fillRect))  fillRect;
 
- ::UnityEngine::RectTransform __declspec(property(get=get_handleRect, put=set_handleRect))  handleRect;
+ UnityEngine::RectTransform __declspec(property(get=get_handleRect, put=set_handleRect))  handleRect;
 
- ::UnityEngine::UI::____UnityEngine__UI__Slider__Direction __declspec(property(get=get_direction, put=set_direction))  direction;
+ UnityEngine::UI::UnityEngine__UI__Slider__Direction __declspec(property(get=get_direction, put=set_direction))  direction;
 
  float_t __declspec(property(get=get_minValue, put=set_minValue))  minValue;
 
@@ -434,11 +433,11 @@ constexpr bool __get_m_DelayedUpdateVisuals() const;
 
  float_t __declspec(property(get=get_normalizedValue, put=set_normalizedValue))  normalizedValue;
 
- ::UnityEngine::UI::____UnityEngine__UI__Slider__SliderEvent __declspec(property(get=get_onValueChanged, put=set_onValueChanged))  onValueChanged;
+ UnityEngine::UI::UnityEngine__UI__Slider__SliderEvent __declspec(property(get=get_onValueChanged, put=set_onValueChanged))  onValueChanged;
 
  float_t __declspec(property(get=get_stepSize))  stepSize;
 
- ::UnityEngine::UI::____UnityEngine__UI__Slider__Axis __declspec(property(get=get_axis))  axis;
+ UnityEngine::UI::UnityEngine__UI__Slider__Axis __declspec(property(get=get_axis))  axis;
 
  bool __declspec(property(get=get_reverseValue))  reverseValue;
 
@@ -446,22 +445,22 @@ constexpr bool __get_m_DelayedUpdateVisuals() const;
 // Methods
 
 /// @brief Method get_fillRect addr 0x2c0f114 size 0x8 virtual false final false
- ::UnityEngine::RectTransform get_fillRect() ;
+ UnityEngine::RectTransform get_fillRect() ;
 
 /// @brief Method set_fillRect addr 0x2c0f11c size 0x7c virtual false final false
- void set_fillRect(::UnityEngine::RectTransform value) ;
+ void set_fillRect(UnityEngine::RectTransform value) ;
 
 /// @brief Method get_handleRect addr 0x2c0f724 size 0x8 virtual false final false
- ::UnityEngine::RectTransform get_handleRect() ;
+ UnityEngine::RectTransform get_handleRect() ;
 
 /// @brief Method set_handleRect addr 0x2c0f72c size 0x7c virtual false final false
- void set_handleRect(::UnityEngine::RectTransform value) ;
+ void set_handleRect(UnityEngine::RectTransform value) ;
 
 /// @brief Method get_direction addr 0x2c0f7a8 size 0x8 virtual false final false
- ::UnityEngine::UI::____UnityEngine__UI__Slider__Direction get_direction() ;
+ UnityEngine::UI::UnityEngine__UI__Slider__Direction get_direction() ;
 
 /// @brief Method set_direction addr 0x2c0f7b0 size 0x74 virtual false final false
- void set_direction(::UnityEngine::UI::____UnityEngine__UI__Slider__Direction value) ;
+ void set_direction(UnityEngine::UI::UnityEngine__UI__Slider__Direction value) ;
 
 /// @brief Method get_minValue addr 0x2c0f824 size 0x8 virtual false final false
  float_t get_minValue() ;
@@ -497,10 +496,10 @@ constexpr bool __get_m_DelayedUpdateVisuals() const;
  void set_normalizedValue(float_t value) ;
 
 /// @brief Method get_onValueChanged addr 0x2c0fbd0 size 0x8 virtual false final false
- ::UnityEngine::UI::____UnityEngine__UI__Slider__SliderEvent get_onValueChanged() ;
+ UnityEngine::UI::UnityEngine__UI__Slider__SliderEvent get_onValueChanged() ;
 
 /// @brief Method set_onValueChanged addr 0x2c0fbd8 size 0x8 virtual false final false
- void set_onValueChanged(::UnityEngine::UI::____UnityEngine__UI__Slider__SliderEvent value) ;
+ void set_onValueChanged(UnityEngine::UI::UnityEngine__UI__Slider__SliderEvent value) ;
 
 /// @brief Method get_stepSize addr 0x2c0fbe0 size 0x2c virtual false final false
  float_t get_stepSize() ;
@@ -512,7 +511,7 @@ explicit Slider() ;
  void _ctor() ;
 
 /// @brief Method Rebuild addr 0x2c0fd18 size 0x4 virtual true final false
- void Rebuild(::UnityEngine::UI::CanvasUpdate executing) ;
+ void Rebuild(UnityEngine::UI::CanvasUpdate executing) ;
 
 /// @brief Method LayoutComplete addr 0x2c0fd1c size 0x4 virtual true final false
  void LayoutComplete() ;
@@ -545,7 +544,7 @@ explicit Slider() ;
  void OnRectTransformDimensionsChange() ;
 
 /// @brief Method get_axis addr 0x2c10078 size 0x10 virtual false final false
- ::UnityEngine::UI::____UnityEngine__UI__Slider__Axis get_axis() ;
+ UnityEngine::UI::UnityEngine__UI__Slider__Axis get_axis() ;
 
 /// @brief Method get_reverseValue addr 0x2c10064 size 0x14 virtual false final false
  bool get_reverseValue() ;
@@ -554,49 +553,48 @@ explicit Slider() ;
  void UpdateVisuals() ;
 
 /// @brief Method UpdateDrag addr 0x2c10184 size 0x238 virtual false final false
- void UpdateDrag(::UnityEngine::EventSystems::PointerEventData eventData, ::UnityEngine::Camera cam) ;
+ void UpdateDrag(UnityEngine::EventSystems::PointerEventData eventData, UnityEngine::Camera cam) ;
 
 /// @brief Method MayDrag addr 0x2c103bc size 0x64 virtual false final false
- bool MayDrag(::UnityEngine::EventSystems::PointerEventData eventData) ;
+ bool MayDrag(UnityEngine::EventSystems::PointerEventData eventData) ;
 
 /// @brief Method OnPointerDown addr 0x2c10420 size 0x1b8 virtual true final false
- void OnPointerDown(::UnityEngine::EventSystems::PointerEventData eventData) ;
+ void OnPointerDown(UnityEngine::EventSystems::PointerEventData eventData) ;
 
 /// @brief Method OnDrag addr 0x2c105d8 size 0x50 virtual true final false
- void OnDrag(::UnityEngine::EventSystems::PointerEventData eventData) ;
+ void OnDrag(UnityEngine::EventSystems::PointerEventData eventData) ;
 
 /// @brief Method OnMove addr 0x2c10628 size 0x24c virtual true final false
- void OnMove(::UnityEngine::EventSystems::AxisEventData eventData) ;
+ void OnMove(UnityEngine::EventSystems::AxisEventData eventData) ;
 
 /// @brief Method FindSelectableOnLeft addr 0x2c10874 size 0x24 virtual true final false
- ::UnityEngine::UI::Selectable FindSelectableOnLeft() ;
+ UnityEngine::UI::Selectable FindSelectableOnLeft() ;
 
 /// @brief Method FindSelectableOnRight addr 0x2c10898 size 0x24 virtual true final false
- ::UnityEngine::UI::Selectable FindSelectableOnRight() ;
+ UnityEngine::UI::Selectable FindSelectableOnRight() ;
 
 /// @brief Method FindSelectableOnUp addr 0x2c108bc size 0x24 virtual true final false
- ::UnityEngine::UI::Selectable FindSelectableOnUp() ;
+ UnityEngine::UI::Selectable FindSelectableOnUp() ;
 
 /// @brief Method FindSelectableOnDown addr 0x2c108e0 size 0x24 virtual true final false
- ::UnityEngine::UI::Selectable FindSelectableOnDown() ;
+ UnityEngine::UI::Selectable FindSelectableOnDown() ;
 
 /// @brief Method OnInitializePotentialDrag addr 0x2c10904 size 0x18 virtual true final false
- void OnInitializePotentialDrag(::UnityEngine::EventSystems::PointerEventData eventData) ;
+ void OnInitializePotentialDrag(UnityEngine::EventSystems::PointerEventData eventData) ;
 
 /// @brief Method SetDirection addr 0x2c1091c size 0x178 virtual false final false
- void SetDirection(::UnityEngine::UI::____UnityEngine__UI__Slider__Direction direction, bool includeRectLayouts) ;
+ void SetDirection(UnityEngine::UI::UnityEngine__UI__Slider__Direction direction, bool includeRectLayouts) ;
 
 /// @brief Method UnityEngine.UI.ICanvasElement.get_transform addr 0x2c10a94 size 0x8 virtual true final true
- ::UnityEngine::Transform UnityEngine_UI_ICanvasElement_get_transform() ;
+ UnityEngine::Transform UnityEngine_UI_ICanvasElement_get_transform() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UI
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::____UnityEngine__UI__Slider__Axis, "UnityEngine.UI", "Slider/Axis");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::____UnityEngine__UI__Slider__Direction, "UnityEngine.UI", "Slider/Direction");
-NEED_NO_BOX(::UnityEngine::UI::Slider);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::Slider, "UnityEngine.UI", "Slider");
-NEED_NO_BOX(::UnityEngine::UI::____UnityEngine__UI__Slider__SliderEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::____UnityEngine__UI__Slider__SliderEvent, "UnityEngine.UI", "Slider/SliderEvent");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::UnityEngine__UI__Slider__Axis, "UnityEngine.UI", "Slider/Axis");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::UnityEngine__UI__Slider__Direction, "UnityEngine.UI", "Slider/Direction");
+NEED_NO_BOX(UnityEngine::UI::Slider);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Slider, "UnityEngine.UI", "Slider");
+NEED_NO_BOX(UnityEngine::UI::UnityEngine__UI__Slider__SliderEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::UnityEngine__UI__Slider__SliderEvent, "UnityEngine.UI", "Slider/SliderEvent");

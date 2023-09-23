@@ -5,10 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System {
-class IComparable;
-}
 namespace System {
 template<typename T>
 class IComparable_1;
@@ -16,6 +12,9 @@ class IComparable_1;
 namespace System {
 template<typename T>
 class IEquatable_1;
+}
+namespace System {
+class IComparable;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -30,14 +29,14 @@ namespace UnityEngine {
 struct CORDL_TYPE Hash128 : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IComparable
-constexpr operator  ::System::IComparable() const;
+/// @brief Convert operator to System::IComparable
+constexpr operator  System::IComparable() const;
 
-/// @brief Convert operator to ::System::IComparable_1<::UnityEngine::Hash128>
-constexpr operator  ::System::IComparable_1<::UnityEngine::Hash128>() const;
+/// @brief Convert operator to System::IComparable_1<UnityEngine::Hash128>
+constexpr operator  System::IComparable_1<UnityEngine::Hash128>() const;
 
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::Hash128>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::Hash128>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::Hash128>
+constexpr operator  System::IEquatable_1<UnityEngine::Hash128>() const;
 
 // Ctor Parameters [CppParam { name: "u64_0", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "u64_1", ty: "uint64_t", modifiers: "", def_value: None }]
 constexpr Hash128(uint64_t u64_0, uint64_t u64_1) noexcept;
@@ -97,28 +96,28 @@ constexpr uint64_t __get_u64_1() const;
  bool get_isValid() ;
 
 /// @brief Method CompareTo addr 0x2b675b8 size 0x38 virtual true final true
- int32_t CompareTo(::UnityEngine::Hash128 rhs) ;
+ int32_t CompareTo(UnityEngine::Hash128 rhs) ;
 
 /// @brief Method ToString addr 0x2b6763c size 0xc virtual true final false
  ::StringW ToString() ;
 
 /// @brief Method Parse addr 0x2b67688 size 0x54 virtual false final false
-static ::UnityEngine::Hash128 Parse(::StringW hashString) ;
+static UnityEngine::Hash128 Parse(::StringW hashString) ;
 
 /// @brief Method Hash128ToStringImpl addr 0x2b67648 size 0x40 virtual false final false
-static ::StringW Hash128ToStringImpl(::UnityEngine::Hash128 hash) ;
+static ::StringW Hash128ToStringImpl(UnityEngine::Hash128 hash) ;
 
 /// @brief Method ComputeFromString addr 0x2b6775c size 0x44 virtual false final false
-static void ComputeFromString(::StringW data, ByRef<::UnityEngine::Hash128> hash) ;
+static void ComputeFromString(::StringW data, ByRef<UnityEngine::Hash128> hash) ;
 
 /// @brief Method Compute addr 0x2b677a0 size 0x54 virtual false final false
-static ::UnityEngine::Hash128 Compute(::StringW data) ;
+static UnityEngine::Hash128 Compute(::StringW data) ;
 
 /// @brief Method Equals addr 0x2b677f4 size 0x84 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x2b67890 size 0x1c virtual true final true
- bool Equals(::UnityEngine::Hash128 obj) ;
+ bool Equals(UnityEngine::Hash128 obj) ;
 
 /// @brief Method GetHashCode addr 0x2b678ac size 0x34 virtual true final false
  int32_t GetHashCode() ;
@@ -127,23 +126,22 @@ static ::UnityEngine::Hash128 Compute(::StringW data) ;
  int32_t CompareTo(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method op_Equality addr 0x2b67878 size 0x18 virtual false final false
-static bool op_Equality(::UnityEngine::Hash128 hash1, ::UnityEngine::Hash128 hash2) ;
+static bool op_Equality(UnityEngine::Hash128 hash1, UnityEngine::Hash128 hash2) ;
 
 /// @brief Method op_LessThan addr 0x2b675f0 size 0x18 virtual false final false
-static bool op_LessThan(::UnityEngine::Hash128 x, ::UnityEngine::Hash128 y) ;
+static bool op_LessThan(UnityEngine::Hash128 x, UnityEngine::Hash128 y) ;
 
 /// @brief Method op_GreaterThan addr 0x2b67608 size 0x34 virtual false final false
-static bool op_GreaterThan(::UnityEngine::Hash128 x, ::UnityEngine::Hash128 y) ;
+static bool op_GreaterThan(UnityEngine::Hash128 x, UnityEngine::Hash128 y) ;
 
 /// @brief Method Parse_Injected addr 0x2b676dc size 0x44 virtual false final false
-static void Parse_Injected(::StringW hashString, ByRef<::UnityEngine::Hash128> ret) ;
+static void Parse_Injected(::StringW hashString, ByRef<UnityEngine::Hash128> ret) ;
 
 /// @brief Method Hash128ToStringImpl_Injected addr 0x2b67720 size 0x3c virtual false final false
-static ::StringW Hash128ToStringImpl_Injected(ByRef<::UnityEngine::Hash128> hash) ;
+static ::StringW Hash128ToStringImpl_Injected(ByRef<UnityEngine::Hash128> hash) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Hash128, "UnityEngine", "Hash128");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Hash128, "UnityEngine", "Hash128");

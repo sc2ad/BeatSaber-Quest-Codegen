@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRFeature_def.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Meta::XR {
 class MetaXRFeature;
@@ -13,7 +12,7 @@ namespace Meta::XR {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14201))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9523))
 // CS Name: Meta.XR.MetaXRFeature
-class CORDL_TYPE MetaXRFeature : public ::UnityEngine::XR::OpenXR::Features::OpenXRFeature {
+class CORDL_TYPE MetaXRFeature : public UnityEngine::XR::OpenXR::Features::OpenXRFeature {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr MetaXRFeature(MetaXRFeature const& ) noexcept = default;
 constexpr MetaXRFeature(MetaXRFeature&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MetaXRFeature(void* ptr) noexcept : ::UnityEngine::XR::OpenXR::Features::OpenXRFeature(ptr) {
+constexpr explicit MetaXRFeature(void* ptr) noexcept : UnityEngine::XR::OpenXR::Features::OpenXRFeature(ptr) {
 }
 
 
@@ -95,6 +94,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Meta::XR
-} // end anonymous namespace
-NEED_NO_BOX(::Meta::XR::MetaXRFeature);
-DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::MetaXRFeature, "Meta.XR", "MetaXRFeature");
+NEED_NO_BOX(Meta::XR::MetaXRFeature);
+DEFINE_IL2CPP_ARG_TYPE(Meta::XR::MetaXRFeature, "Meta.XR", "MetaXRFeature");

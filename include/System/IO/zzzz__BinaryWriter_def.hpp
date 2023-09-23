@@ -5,15 +5,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace System::IO {
-class Stream;
-}
 namespace System::Text {
 class Encoder;
 }
 namespace System::Text {
 class Encoding;
+}
+namespace System::IO {
+class Stream;
 }
 namespace System {
 class IDisposable;
@@ -31,8 +30,8 @@ namespace System::IO {
 class CORDL_TYPE BinaryWriter : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
@@ -67,17 +66,17 @@ constexpr explicit BinaryWriter(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 
 // Fields
 
-static ::System::IO::BinaryWriter __declspec(property(get=__get_Null, put=__set_Null))  Null;
+static System::IO::BinaryWriter __declspec(property(get=__get_Null, put=__set_Null))  Null;
 
-static void __set_Null(::System::IO::BinaryWriter value) ;
+static void __set_Null(System::IO::BinaryWriter value) ;
 
-static ::System::IO::BinaryWriter __get_Null() ;
+static System::IO::BinaryWriter __get_Null() ;
 
- ::System::IO::Stream __declspec(property(get=__get_OutStream, put=__set_OutStream))  OutStream;
+ System::IO::Stream __declspec(property(get=__get_OutStream, put=__set_OutStream))  OutStream;
 
-constexpr void __set_OutStream(::System::IO::Stream value) ;
+constexpr void __set_OutStream(System::IO::Stream value) ;
 
-constexpr ::System::IO::Stream __get_OutStream() const;
+constexpr System::IO::Stream __get_OutStream() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get__buffer, put=__set__buffer))  _buffer;
 
@@ -85,17 +84,17 @@ constexpr void __set__buffer(::ArrayW<uint8_t> value) ;
 
 constexpr ::ArrayW<uint8_t> __get__buffer() const;
 
- ::System::Text::Encoding __declspec(property(get=__get__encoding, put=__set__encoding))  _encoding;
+ System::Text::Encoding __declspec(property(get=__get__encoding, put=__set__encoding))  _encoding;
 
-constexpr void __set__encoding(::System::Text::Encoding value) ;
+constexpr void __set__encoding(System::Text::Encoding value) ;
 
-constexpr ::System::Text::Encoding __get__encoding() const;
+constexpr System::Text::Encoding __get__encoding() const;
 
- ::System::Text::Encoder __declspec(property(get=__get__encoder, put=__set__encoder))  _encoder;
+ System::Text::Encoder __declspec(property(get=__get__encoder, put=__set__encoder))  _encoder;
 
-constexpr void __set__encoder(::System::Text::Encoder value) ;
+constexpr void __set__encoder(System::Text::Encoder value) ;
 
-constexpr ::System::Text::Encoder __get__encoder() const;
+constexpr System::Text::Encoder __get__encoder() const;
 
  bool __declspec(property(get=__get__leaveOpen, put=__set__leaveOpen))  _leaveOpen;
 
@@ -124,23 +123,23 @@ explicit BinaryWriter() ;
 /// @brief Method .ctor addr 0x23ca0e8 size 0xec virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "output", ty: "::System::IO::Stream", modifiers: "", def_value: None }]
-explicit BinaryWriter(::System::IO::Stream output) ;
+// Ctor Parameters [CppParam { name: "output", ty: "System::IO::Stream", modifiers: "", def_value: None }]
+explicit BinaryWriter(System::IO::Stream output) ;
 
 /// @brief Method .ctor addr 0x23ca1d4 size 0x80 virtual false final false
- void _ctor(::System::IO::Stream output) ;
+ void _ctor(System::IO::Stream output) ;
 
-// Ctor Parameters [CppParam { name: "output", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "::System::Text::Encoding", modifiers: "", def_value: None }]
-explicit BinaryWriter(::System::IO::Stream output, ::System::Text::Encoding encoding) ;
+// Ctor Parameters [CppParam { name: "output", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
+explicit BinaryWriter(System::IO::Stream output, System::Text::Encoding encoding) ;
 
 /// @brief Method .ctor addr 0x23ca3cc size 0x8 virtual false final false
- void _ctor(::System::IO::Stream output, ::System::Text::Encoding encoding) ;
+ void _ctor(System::IO::Stream output, System::Text::Encoding encoding) ;
 
-// Ctor Parameters [CppParam { name: "output", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "::System::Text::Encoding", modifiers: "", def_value: None }, CppParam { name: "leaveOpen", ty: "bool", modifiers: "", def_value: None }]
-explicit BinaryWriter(::System::IO::Stream output, ::System::Text::Encoding encoding, bool leaveOpen) ;
+// Ctor Parameters [CppParam { name: "output", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }, CppParam { name: "leaveOpen", ty: "bool", modifiers: "", def_value: None }]
+explicit BinaryWriter(System::IO::Stream output, System::Text::Encoding encoding, bool leaveOpen) ;
 
 /// @brief Method .ctor addr 0x23ca254 size 0x178 virtual false final false
- void _ctor(::System::IO::Stream output, ::System::Text::Encoding encoding, bool leaveOpen) ;
+ void _ctor(System::IO::Stream output, System::Text::Encoding encoding, bool leaveOpen) ;
 
 /// @brief Method Close addr 0x23ca3d4 size 0x10 virtual true final false
  void Close() ;
@@ -209,6 +208,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::IO
-} // end anonymous namespace
-NEED_NO_BOX(::System::IO::BinaryWriter);
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::BinaryWriter, "System.IO", "BinaryWriter");
+NEED_NO_BOX(System::IO::BinaryWriter);
+DEFINE_IL2CPP_ARG_TYPE(System::IO::BinaryWriter, "System.IO", "BinaryWriter");

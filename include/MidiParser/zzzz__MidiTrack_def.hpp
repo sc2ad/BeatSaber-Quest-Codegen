@@ -2,13 +2,12 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace MidiParser {
-struct MidiEvent;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace MidiParser {
+struct MidiEvent;
 }
 // Forward declare root types
 namespace MidiParser {
@@ -62,11 +61,11 @@ constexpr void __set_Index(int32_t value) ;
 
 constexpr int32_t __get_Index() const;
 
- ::System::Collections::Generic::List_1<::MidiParser::MidiEvent> __declspec(property(get=__get_MidiEvents, put=__set_MidiEvents))  MidiEvents;
+ System::Collections::Generic::List_1<MidiParser::MidiEvent> __declspec(property(get=__get_MidiEvents, put=__set_MidiEvents))  MidiEvents;
 
-constexpr void __set_MidiEvents(::System::Collections::Generic::List_1<::MidiParser::MidiEvent> value) ;
+constexpr void __set_MidiEvents(System::Collections::Generic::List_1<MidiParser::MidiEvent> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::MidiParser::MidiEvent> __get_MidiEvents() const;
+constexpr System::Collections::Generic::List_1<MidiParser::MidiEvent> __get_MidiEvents() const;
 
 
 // Methods
@@ -81,6 +80,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def MidiParser
-} // end anonymous namespace
-NEED_NO_BOX(::MidiParser::MidiTrack);
-DEFINE_IL2CPP_ARG_TYPE(::MidiParser::MidiTrack, "MidiParser", "MidiTrack");
+NEED_NO_BOX(MidiParser::MidiTrack);
+DEFINE_IL2CPP_ARG_TYPE(MidiParser::MidiTrack, "MidiParser", "MidiTrack");

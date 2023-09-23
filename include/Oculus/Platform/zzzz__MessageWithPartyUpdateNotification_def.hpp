@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__PartyUpdateNotification_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
 class PartyUpdateNotification;
 }
@@ -14,10 +13,10 @@ class MessageWithPartyUpdateNotification;
 // Type: Oculus.Platform::MessageWithPartyUpdateNotification
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 949 }), TypeDefinitionIndex(TypeDefinitionIndex(13458)), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(13458)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 949 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13266))
 // CS Name: Oculus.Platform.MessageWithPartyUpdateNotification
-class CORDL_TYPE MessageWithPartyUpdateNotification : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::PartyUpdateNotification> {
+class CORDL_TYPE MessageWithPartyUpdateNotification : public Oculus::Platform::Message_1<Oculus::Platform::Models::PartyUpdateNotification> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr MessageWithPartyUpdateNotification(MessageWithPartyUpdateNotification 
 constexpr MessageWithPartyUpdateNotification(MessageWithPartyUpdateNotification&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MessageWithPartyUpdateNotification(void* ptr) noexcept : ::Oculus::Platform::Message_1<::Oculus::Platform::Models::PartyUpdateNotification>(ptr) {
+constexpr explicit MessageWithPartyUpdateNotification(void* ptr) noexcept : Oculus::Platform::Message_1<Oculus::Platform::Models::PartyUpdateNotification>(ptr) {
 }
 
 
@@ -60,15 +59,14 @@ explicit MessageWithPartyUpdateNotification(::cordl_internals::intptr_t c_messag
  void _ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method GetPartyUpdateNotification addr 0x2582fe8 size 0x3c virtual true final false
- ::Oculus::Platform::Models::PartyUpdateNotification GetPartyUpdateNotification() ;
+ Oculus::Platform::Models::PartyUpdateNotification GetPartyUpdateNotification() ;
 
 /// @brief Method GetDataFromMessage addr 0x2583024 size 0x9c virtual true final false
- ::Oculus::Platform::Models::PartyUpdateNotification GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
+ Oculus::Platform::Models::PartyUpdateNotification GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::MessageWithPartyUpdateNotification);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithPartyUpdateNotification, "Oculus.Platform", "MessageWithPartyUpdateNotification");
+NEED_NO_BOX(Oculus::Platform::MessageWithPartyUpdateNotification);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithPartyUpdateNotification, "Oculus.Platform", "MessageWithPartyUpdateNotification");

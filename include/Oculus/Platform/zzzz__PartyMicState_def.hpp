@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform {
 struct PartyMicState;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::Oculus::Platform::PartyMicState const Unknown;
+static Oculus::Platform::PartyMicState const Unknown;
 
 /// @brief Field Party offset 0
-static ::Oculus::Platform::PartyMicState const Party;
+static Oculus::Platform::PartyMicState const Party;
 
 /// @brief Field App offset 0
-static ::Oculus::Platform::PartyMicState const App;
+static Oculus::Platform::PartyMicState const App;
 
 /// @brief Field Mute offset 0
-static ::Oculus::Platform::PartyMicState const Mute;
+static Oculus::Platform::PartyMicState const Mute;
 
 /// @brief Field Inactive offset 0
-static ::Oculus::Platform::PartyMicState const Inactive;
+static Oculus::Platform::PartyMicState const Inactive;
 
 /// @brief Field InputShared offset 0
-static ::Oculus::Platform::PartyMicState const InputShared;
+static Oculus::Platform::PartyMicState const InputShared;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::PartyMicState, "Oculus.Platform", "PartyMicState");
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PartyMicState, "Oculus.Platform", "PartyMicState");

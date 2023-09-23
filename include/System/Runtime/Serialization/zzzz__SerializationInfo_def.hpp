@@ -6,7 +6,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace System::Runtime::Serialization {
+class IFormatterConverter;
+}
 namespace System {
 class Type;
 }
@@ -14,14 +16,11 @@ namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfoEnumerator;
-}
 namespace System {
 struct DateTime;
 }
 namespace System::Runtime::Serialization {
-class IFormatterConverter;
+class SerializationInfoEnumerator;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -90,17 +89,17 @@ constexpr void __set_m_data(::ArrayW<::bs_hook::Il2CppWrapperType> value) ;
 
 constexpr ::ArrayW<::bs_hook::Il2CppWrapperType> __get_m_data() const;
 
- ::ArrayW<::System::Type> __declspec(property(get=__get_m_types, put=__set_m_types))  m_types;
+ ::ArrayW<System::Type> __declspec(property(get=__get_m_types, put=__set_m_types))  m_types;
 
-constexpr void __set_m_types(::ArrayW<::System::Type> value) ;
+constexpr void __set_m_types(::ArrayW<System::Type> value) ;
 
-constexpr ::ArrayW<::System::Type> __get_m_types() const;
+constexpr ::ArrayW<System::Type> __get_m_types() const;
 
- ::System::Collections::Generic::Dictionary_2<::StringW,int32_t> __declspec(property(get=__get_m_nameToIndex, put=__set_m_nameToIndex))  m_nameToIndex;
+ System::Collections::Generic::Dictionary_2<::StringW,int32_t> __declspec(property(get=__get_m_nameToIndex, put=__set_m_nameToIndex))  m_nameToIndex;
 
-constexpr void __set_m_nameToIndex(::System::Collections::Generic::Dictionary_2<::StringW,int32_t> value) ;
+constexpr void __set_m_nameToIndex(System::Collections::Generic::Dictionary_2<::StringW,int32_t> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::StringW,int32_t> __get_m_nameToIndex() const;
+constexpr System::Collections::Generic::Dictionary_2<::StringW,int32_t> __get_m_nameToIndex() const;
 
  int32_t __declspec(property(get=__get_m_currMember, put=__set_m_currMember))  m_currMember;
 
@@ -108,11 +107,11 @@ constexpr void __set_m_currMember(int32_t value) ;
 
 constexpr int32_t __get_m_currMember() const;
 
- ::System::Runtime::Serialization::IFormatterConverter __declspec(property(get=__get_m_converter, put=__set_m_converter))  m_converter;
+ System::Runtime::Serialization::IFormatterConverter __declspec(property(get=__get_m_converter, put=__set_m_converter))  m_converter;
 
-constexpr void __set_m_converter(::System::Runtime::Serialization::IFormatterConverter value) ;
+constexpr void __set_m_converter(System::Runtime::Serialization::IFormatterConverter value) ;
 
-constexpr ::System::Runtime::Serialization::IFormatterConverter __get_m_converter() const;
+constexpr System::Runtime::Serialization::IFormatterConverter __get_m_converter() const;
 
  ::StringW __declspec(property(get=__get_m_fullTypeName, put=__set_m_fullTypeName))  m_fullTypeName;
 
@@ -126,11 +125,11 @@ constexpr void __set_m_assemName(::StringW value) ;
 
 constexpr ::StringW __get_m_assemName() const;
 
- ::System::Type __declspec(property(get=__get_objectType, put=__set_objectType))  objectType;
+ System::Type __declspec(property(get=__get_objectType, put=__set_objectType))  objectType;
 
-constexpr void __set_objectType(::System::Type value) ;
+constexpr void __set_objectType(System::Type value) ;
 
-constexpr ::System::Type __get_objectType() const;
+constexpr System::Type __get_objectType() const;
 
  bool __declspec(property(get=__get_isFullTypeNameSetExplicit, put=__set_isFullTypeNameSetExplicit))  isFullTypeNameSetExplicit;
 
@@ -159,7 +158,7 @@ constexpr bool __get_requireSameTokenInPartialTrust() const;
 
  int32_t __declspec(property(get=get_MemberCount))  MemberCount;
 
- ::System::Type __declspec(property(get=get_ObjectType))  ObjectType;
+ System::Type __declspec(property(get=get_ObjectType))  ObjectType;
 
  bool __declspec(property(get=get_IsFullTypeNameSetExplicit))  IsFullTypeNameSetExplicit;
 
@@ -168,17 +167,17 @@ constexpr bool __get_requireSameTokenInPartialTrust() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "::System::Type", modifiers: "", def_value: None }, CppParam { name: "converter", ty: "::System::Runtime::Serialization::IFormatterConverter", modifiers: "", def_value: None }]
-explicit SerializationInfo(::System::Type type, ::System::Runtime::Serialization::IFormatterConverter converter) ;
+// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "converter", ty: "System::Runtime::Serialization::IFormatterConverter", modifiers: "", def_value: None }]
+explicit SerializationInfo(System::Type type, System::Runtime::Serialization::IFormatterConverter converter) ;
 
 /// @brief Method .ctor addr 0x2351e70 size 0x8 virtual false final false
- void _ctor(::System::Type type, ::System::Runtime::Serialization::IFormatterConverter converter) ;
+ void _ctor(System::Type type, System::Runtime::Serialization::IFormatterConverter converter) ;
 
-// Ctor Parameters [CppParam { name: "type", ty: "::System::Type", modifiers: "", def_value: None }, CppParam { name: "converter", ty: "::System::Runtime::Serialization::IFormatterConverter", modifiers: "", def_value: None }, CppParam { name: "requireSameTokenInPartialTrust", ty: "bool", modifiers: "", def_value: None }]
-explicit SerializationInfo(::System::Type type, ::System::Runtime::Serialization::IFormatterConverter converter, bool requireSameTokenInPartialTrust) ;
+// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "converter", ty: "System::Runtime::Serialization::IFormatterConverter", modifiers: "", def_value: None }, CppParam { name: "requireSameTokenInPartialTrust", ty: "bool", modifiers: "", def_value: None }]
+explicit SerializationInfo(System::Type type, System::Runtime::Serialization::IFormatterConverter converter, bool requireSameTokenInPartialTrust) ;
 
 /// @brief Method .ctor addr 0x2351e78 size 0x1e0 virtual false final false
- void _ctor(::System::Type type, ::System::Runtime::Serialization::IFormatterConverter converter, bool requireSameTokenInPartialTrust) ;
+ void _ctor(System::Type type, System::Runtime::Serialization::IFormatterConverter converter, bool requireSameTokenInPartialTrust) ;
 
 /// @brief Method get_FullTypeName addr 0x2352058 size 0x8 virtual false final false
  ::StringW get_FullTypeName() ;
@@ -187,7 +186,7 @@ explicit SerializationInfo(::System::Type type, ::System::Runtime::Serialization
  ::StringW get_AssemblyName() ;
 
 /// @brief Method SetType addr 0x2351328 size 0x138 virtual false final false
- void SetType(::System::Type type) ;
+ void SetType(System::Type type) ;
 
 /// @brief Method Compare addr 0x235206c size 0x88 virtual false final false
 static bool Compare(::ArrayW<uint8_t> a, ::ArrayW<uint8_t> b) ;
@@ -202,7 +201,7 @@ static bool IsAssemblyNameAssignmentSafe(::StringW originalAssemblyName, ::Strin
  int32_t get_MemberCount() ;
 
 /// @brief Method get_ObjectType addr 0x2352230 size 0x8 virtual false final false
- ::System::Type get_ObjectType() ;
+ System::Type get_ObjectType() ;
 
 /// @brief Method get_IsFullTypeNameSetExplicit addr 0x2352238 size 0x8 virtual false final false
  bool get_IsFullTypeNameSetExplicit() ;
@@ -211,13 +210,13 @@ static bool IsAssemblyNameAssignmentSafe(::StringW originalAssemblyName, ::Strin
  bool get_IsAssemblyNameSetExplicit() ;
 
 /// @brief Method GetEnumerator addr 0x2352248 size 0x94 virtual false final false
- ::System::Runtime::Serialization::SerializationInfoEnumerator GetEnumerator() ;
+ System::Runtime::Serialization::SerializationInfoEnumerator GetEnumerator() ;
 
 /// @brief Method ExpandArrays addr 0x23522dc size 0x10c virtual false final false
  void ExpandArrays() ;
 
 /// @brief Method AddValue addr 0x23512a4 size 0x84 virtual false final false
- void AddValue(::StringW name, ::bs_hook::Il2CppWrapperType value, ::System::Type type) ;
+ void AddValue(::StringW name, ::bs_hook::Il2CppWrapperType value, System::Type type) ;
 
 /// @brief Method AddValue addr 0x23525c4 size 0xb8 virtual false final false
  void AddValue(::StringW name, ::bs_hook::Il2CppWrapperType value) ;
@@ -244,28 +243,28 @@ static bool IsAssemblyNameAssignmentSafe(::StringW originalAssemblyName, ::Strin
  void AddValue(::StringW name, float_t value) ;
 
 /// @brief Method AddValue addr 0x2352c50 size 0xd4 virtual false final false
- void AddValue(::StringW name, ::System::DateTime value) ;
+ void AddValue(::StringW name, System::DateTime value) ;
 
 /// @brief Method AddValueInternal addr 0x23523e8 size 0x1dc virtual false final false
- void AddValueInternal(::StringW name, ::bs_hook::Il2CppWrapperType value, ::System::Type type) ;
+ void AddValueInternal(::StringW name, ::bs_hook::Il2CppWrapperType value, System::Type type) ;
 
 /// @brief Method UpdateValue addr 0x234e6e8 size 0xe4 virtual false final false
- void UpdateValue(::StringW name, ::bs_hook::Il2CppWrapperType value, ::System::Type type) ;
+ void UpdateValue(::StringW name, ::bs_hook::Il2CppWrapperType value, System::Type type) ;
 
 /// @brief Method FindElement addr 0x2352d24 size 0xc8 virtual false final false
  int32_t FindElement(::StringW name) ;
 
 /// @brief Method GetElement addr 0x2352dec size 0x104 virtual false final false
- ::bs_hook::Il2CppWrapperType GetElement(::StringW name, ByRef<::System::Type> foundType) ;
+ ::bs_hook::Il2CppWrapperType GetElement(::StringW name, ByRef<System::Type> foundType) ;
 
 /// @brief Method GetElementNoThrow addr 0x2352ef0 size 0x7c virtual false final false
- ::bs_hook::Il2CppWrapperType GetElementNoThrow(::StringW name, ByRef<::System::Type> foundType) ;
+ ::bs_hook::Il2CppWrapperType GetElementNoThrow(::StringW name, ByRef<System::Type> foundType) ;
 
 /// @brief Method GetValue addr 0x2350f0c size 0x214 virtual false final false
- ::bs_hook::Il2CppWrapperType GetValue(::StringW name, ::System::Type type) ;
+ ::bs_hook::Il2CppWrapperType GetValue(::StringW name, System::Type type) ;
 
 /// @brief Method GetValueNoThrow addr 0x2350e04 size 0x108 virtual false final false
- ::bs_hook::Il2CppWrapperType GetValueNoThrow(::StringW name, ::System::Type type) ;
+ ::bs_hook::Il2CppWrapperType GetValueNoThrow(::StringW name, System::Type type) ;
 
 /// @brief Method GetBoolean addr 0x2352f6c size 0x180 virtual false final false
  bool GetBoolean(::StringW name) ;
@@ -286,6 +285,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::SerializationInfo);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::SerializationInfo, "System.Runtime.Serialization", "SerializationInfo");
+NEED_NO_BOX(System::Runtime::Serialization::SerializationInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationInfo, "System.Runtime.Serialization", "SerializationInfo");

@@ -3,13 +3,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace Oculus::Platform {
+class ApplicationOptions;
+}
 namespace Oculus::Platform {
 template<typename T>
 class Request_1;
-}
-namespace Oculus::Platform {
-class ApplicationOptions;
 }
 namespace Oculus::Platform::Models {
 class ApplicationVersion;
@@ -61,15 +60,14 @@ constexpr explicit Application(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 // Methods
 
 /// @brief Method GetVersion addr 0x2590538 size 0x158 virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ApplicationVersion> GetVersion() ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::ApplicationVersion> GetVersion() ;
 
 /// @brief Method LaunchOtherApp addr 0x2590690 size 0x1b0 virtual false final false
-static ::Oculus::Platform::Request_1<::StringW> LaunchOtherApp(uint64_t appID, ::Oculus::Platform::ApplicationOptions deeplink_options) ;
+static Oculus::Platform::Request_1<::StringW> LaunchOtherApp(uint64_t appID, Oculus::Platform::ApplicationOptions deeplink_options) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Application);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Application, "Oculus.Platform", "Application");
+NEED_NO_BOX(Oculus::Platform::Application);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Application, "Oculus.Platform", "Application");

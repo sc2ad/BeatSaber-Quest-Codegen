@@ -1,9 +1,8 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Newtonsoft::Json::Serialization {
-class JsonContract;
+struct ResolverContractKey;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -13,7 +12,7 @@ namespace Newtonsoft::Json::Utilities {
 class PropertyNameTable;
 }
 namespace Newtonsoft::Json::Serialization {
-struct ResolverContractKey;
+class JsonContract;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -61,17 +60,17 @@ constexpr explicit DefaultContractResolverState(void* ptr) noexcept : ::bs_hook:
 
 // Fields
 
- ::System::Collections::Generic::Dictionary_2<::Newtonsoft::Json::Serialization::ResolverContractKey,::Newtonsoft::Json::Serialization::JsonContract> __declspec(property(get=__get_ContractCache, put=__set_ContractCache))  ContractCache;
+ System::Collections::Generic::Dictionary_2<Newtonsoft::Json::Serialization::ResolverContractKey,Newtonsoft::Json::Serialization::JsonContract> __declspec(property(get=__get_ContractCache, put=__set_ContractCache))  ContractCache;
 
-constexpr void __set_ContractCache(::System::Collections::Generic::Dictionary_2<::Newtonsoft::Json::Serialization::ResolverContractKey,::Newtonsoft::Json::Serialization::JsonContract> value) ;
+constexpr void __set_ContractCache(System::Collections::Generic::Dictionary_2<Newtonsoft::Json::Serialization::ResolverContractKey,Newtonsoft::Json::Serialization::JsonContract> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::Newtonsoft::Json::Serialization::ResolverContractKey,::Newtonsoft::Json::Serialization::JsonContract> __get_ContractCache() const;
+constexpr System::Collections::Generic::Dictionary_2<Newtonsoft::Json::Serialization::ResolverContractKey,Newtonsoft::Json::Serialization::JsonContract> __get_ContractCache() const;
 
- ::Newtonsoft::Json::Utilities::PropertyNameTable __declspec(property(get=__get_NameTable, put=__set_NameTable))  NameTable;
+ Newtonsoft::Json::Utilities::PropertyNameTable __declspec(property(get=__get_NameTable, put=__set_NameTable))  NameTable;
 
-constexpr void __set_NameTable(::Newtonsoft::Json::Utilities::PropertyNameTable value) ;
+constexpr void __set_NameTable(Newtonsoft::Json::Utilities::PropertyNameTable value) ;
 
-constexpr ::Newtonsoft::Json::Utilities::PropertyNameTable __get_NameTable() const;
+constexpr Newtonsoft::Json::Utilities::PropertyNameTable __get_NameTable() const;
 
 
 // Methods
@@ -86,6 +85,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Serialization
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Serialization::DefaultContractResolverState);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::DefaultContractResolverState, "Newtonsoft.Json.Serialization", "DefaultContractResolverState");
+NEED_NO_BOX(Newtonsoft::Json::Serialization::DefaultContractResolverState);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Serialization::DefaultContractResolverState, "Newtonsoft.Json.Serialization", "DefaultContractResolverState");

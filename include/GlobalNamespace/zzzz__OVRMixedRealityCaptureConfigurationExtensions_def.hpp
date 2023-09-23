@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace GlobalNamespace {
 class OVRMixedRealityCaptureConfiguration;
 }
@@ -52,15 +51,14 @@ constexpr explicit OVRMixedRealityCaptureConfigurationExtensions(void* ptr) noex
 // Methods
 
 /// @brief Method ApplyTo addr 0x2626988 size 0x4 virtual false final false
-static void ApplyTo(::GlobalNamespace::OVRMixedRealityCaptureConfiguration dest, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration source) ;
+static void ApplyTo(GlobalNamespace::OVRMixedRealityCaptureConfiguration dest, GlobalNamespace::OVRMixedRealityCaptureConfiguration source) ;
 
 /// @brief Method ReadFrom addr 0x262698c size 0x1428 virtual false final false
-static void ReadFrom(::GlobalNamespace::OVRMixedRealityCaptureConfiguration dest, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration source) ;
+static void ReadFrom(GlobalNamespace::OVRMixedRealityCaptureConfiguration dest, GlobalNamespace::OVRMixedRealityCaptureConfiguration source) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OVRMixedRealityCaptureConfigurationExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRMixedRealityCaptureConfigurationExtensions, "", "OVRMixedRealityCaptureConfigurationExtensions");
+NEED_NO_BOX(GlobalNamespace::OVRMixedRealityCaptureConfigurationExtensions);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedRealityCaptureConfigurationExtensions, "", "OVRMixedRealityCaptureConfigurationExtensions");

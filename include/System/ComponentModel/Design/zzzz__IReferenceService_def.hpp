@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class Type;
 }
@@ -36,12 +35,11 @@ constexpr explicit IReferenceService(void* ptr) noexcept : ::cordl_internals::In
  ::StringW GetName(::bs_hook::Il2CppWrapperType reference) ;
 
 /// @brief Method GetReferences addr 0x0 size 0xffffffffffffffff virtual true final false
- ::ArrayW<::bs_hook::Il2CppWrapperType> GetReferences(::System::Type baseType) ;
+ ::ArrayW<::bs_hook::Il2CppWrapperType> GetReferences(System::Type baseType) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel::Design
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::Design::IReferenceService);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::Design::IReferenceService, "System.ComponentModel.Design", "IReferenceService");
+NEED_NO_BOX(System::ComponentModel::Design::IReferenceService);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::Design::IReferenceService, "System.ComponentModel.Design", "IReferenceService");

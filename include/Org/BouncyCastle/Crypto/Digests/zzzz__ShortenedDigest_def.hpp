@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
@@ -21,8 +20,8 @@ namespace Org::BouncyCastle::Crypto::Digests {
 class CORDL_TYPE ShortenedDigest : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IDigest
-constexpr operator  ::Org::BouncyCastle::Crypto::IDigest() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IDigest
+constexpr operator  Org::BouncyCastle::Crypto::IDigest() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -57,11 +56,11 @@ constexpr explicit ShortenedDigest(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Fields
 
- ::Org::BouncyCastle::Crypto::IDigest __declspec(property(get=__get_baseDigest, put=__set_baseDigest))  baseDigest;
+ Org::BouncyCastle::Crypto::IDigest __declspec(property(get=__get_baseDigest, put=__set_baseDigest))  baseDigest;
 
-constexpr void __set_baseDigest(::Org::BouncyCastle::Crypto::IDigest value) ;
+constexpr void __set_baseDigest(Org::BouncyCastle::Crypto::IDigest value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IDigest __get_baseDigest() const;
+constexpr Org::BouncyCastle::Crypto::IDigest __get_baseDigest() const;
 
  int32_t __declspec(property(get=__get_length, put=__set_length))  length;
 
@@ -77,11 +76,11 @@ constexpr int32_t __get_length() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "baseDigest", ty: "::Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ShortenedDigest(::Org::BouncyCastle::Crypto::IDigest baseDigest, int32_t length) ;
+// Ctor Parameters [CppParam { name: "baseDigest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
+explicit ShortenedDigest(Org::BouncyCastle::Crypto::IDigest baseDigest, int32_t length) ;
 
 /// @brief Method .ctor addr 0xe187d0 size 0x150 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IDigest baseDigest, int32_t length) ;
+ void _ctor(Org::BouncyCastle::Crypto::IDigest baseDigest, int32_t length) ;
 
 /// @brief Method get_AlgorithmName addr 0xe18920 size 0x1f0 virtual true final true
  ::StringW get_AlgorithmName() ;
@@ -108,6 +107,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Digests
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::ShortenedDigest);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Digests::ShortenedDigest, "Org.BouncyCastle.Crypto.Digests", "ShortenedDigest");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Digests::ShortenedDigest);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::ShortenedDigest, "Org.BouncyCastle.Crypto.Digests", "ShortenedDigest");

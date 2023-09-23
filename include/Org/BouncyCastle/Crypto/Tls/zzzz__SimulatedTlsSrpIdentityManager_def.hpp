@@ -3,21 +3,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSrpIdentityManager;
-}
-namespace Org::BouncyCastle::Crypto::Agreement::Srp {
-class Srp6VerifierGenerator;
+class TlsSrpLoginParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class IMac;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSrpLoginParameters;
+class TlsSrpIdentityManager;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class Srp6GroupParameters;
+}
+namespace Org::BouncyCastle::Crypto::Agreement::Srp {
+class Srp6VerifierGenerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -32,8 +31,8 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE SimulatedTlsSrpIdentityManager : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager
-constexpr operator  ::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager
+constexpr operator  Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -80,43 +79,42 @@ static void __set_PREFIX_SALT(::ArrayW<uint8_t> value) ;
 
 static ::ArrayW<uint8_t> __get_PREFIX_SALT() ;
 
- ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters __declspec(property(get=__get_mGroup, put=__set_mGroup))  mGroup;
+ Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters __declspec(property(get=__get_mGroup, put=__set_mGroup))  mGroup;
 
-constexpr void __set_mGroup(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters value) ;
+constexpr void __set_mGroup(Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters __get_mGroup() const;
+constexpr Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters __get_mGroup() const;
 
- ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator __declspec(property(get=__get_mVerifierGenerator, put=__set_mVerifierGenerator))  mVerifierGenerator;
+ Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator __declspec(property(get=__get_mVerifierGenerator, put=__set_mVerifierGenerator))  mVerifierGenerator;
 
-constexpr void __set_mVerifierGenerator(::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator value) ;
+constexpr void __set_mVerifierGenerator(Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator __get_mVerifierGenerator() const;
+constexpr Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator __get_mVerifierGenerator() const;
 
- ::Org::BouncyCastle::Crypto::IMac __declspec(property(get=__get_mMac, put=__set_mMac))  mMac;
+ Org::BouncyCastle::Crypto::IMac __declspec(property(get=__get_mMac, put=__set_mMac))  mMac;
 
-constexpr void __set_mMac(::Org::BouncyCastle::Crypto::IMac value) ;
+constexpr void __set_mMac(Org::BouncyCastle::Crypto::IMac value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IMac __get_mMac() const;
+constexpr Org::BouncyCastle::Crypto::IMac __get_mMac() const;
 
 
 // Methods
 
 /// @brief Method GetRfc5054Default addr 0xf09aa0 size 0x17c virtual false final false
-static ::Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager GetRfc5054Default(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters group, ::ArrayW<uint8_t> seedKey) ;
+static Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager GetRfc5054Default(Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters group, ::ArrayW<uint8_t> seedKey) ;
 
-// Ctor Parameters [CppParam { name: "group", ty: "::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters", modifiers: "", def_value: None }, CppParam { name: "verifierGenerator", ty: "::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator", modifiers: "", def_value: None }, CppParam { name: "mac", ty: "::Org::BouncyCastle::Crypto::IMac", modifiers: "", def_value: None }]
-explicit SimulatedTlsSrpIdentityManager(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters group, ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator verifierGenerator, ::Org::BouncyCastle::Crypto::IMac mac) ;
+// Ctor Parameters [CppParam { name: "group", ty: "Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters", modifiers: "", def_value: None }, CppParam { name: "verifierGenerator", ty: "Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator", modifiers: "", def_value: None }, CppParam { name: "mac", ty: "Org::BouncyCastle::Crypto::IMac", modifiers: "", def_value: None }]
+explicit SimulatedTlsSrpIdentityManager(Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters group, Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator verifierGenerator, Org::BouncyCastle::Crypto::IMac mac) ;
 
 /// @brief Method .ctor addr 0xf09c1c size 0x3c virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters group, ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator verifierGenerator, ::Org::BouncyCastle::Crypto::IMac mac) ;
+ void _ctor(Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters group, Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator verifierGenerator, Org::BouncyCastle::Crypto::IMac mac) ;
 
 /// @brief Method GetLoginParameters addr 0xf09c58 size 0x4bc virtual true final false
- ::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters GetLoginParameters(::ArrayW<uint8_t> identity) ;
+ Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters GetLoginParameters(::ArrayW<uint8_t> identity) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager, "Org.BouncyCastle.Crypto.Tls", "SimulatedTlsSrpIdentityManager");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager, "Org.BouncyCastle.Crypto.Tls", "SimulatedTlsSrpIdentityManager");

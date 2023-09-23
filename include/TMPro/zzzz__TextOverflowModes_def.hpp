@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace TMPro {
 struct TextOverflowModes;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Overflow offset 0
-static ::TMPro::TextOverflowModes const Overflow;
+static TMPro::TextOverflowModes const Overflow;
 
 /// @brief Field Ellipsis offset 0
-static ::TMPro::TextOverflowModes const Ellipsis;
+static TMPro::TextOverflowModes const Ellipsis;
 
 /// @brief Field Masking offset 0
-static ::TMPro::TextOverflowModes const Masking;
+static TMPro::TextOverflowModes const Masking;
 
 /// @brief Field Truncate offset 0
-static ::TMPro::TextOverflowModes const Truncate;
+static TMPro::TextOverflowModes const Truncate;
 
 /// @brief Field ScrollRect offset 0
-static ::TMPro::TextOverflowModes const ScrollRect;
+static TMPro::TextOverflowModes const ScrollRect;
 
 /// @brief Field Page offset 0
-static ::TMPro::TextOverflowModes const Page;
+static TMPro::TextOverflowModes const Page;
 
 /// @brief Field Linked offset 0
-static ::TMPro::TextOverflowModes const Linked;
+static TMPro::TextOverflowModes const Linked;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::TextOverflowModes, "TMPro", "TextOverflowModes");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TextOverflowModes, "TMPro", "TextOverflowModes");

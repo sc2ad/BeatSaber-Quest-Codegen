@@ -3,22 +3,21 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
 class MultiplayerScoreProvider;
 }
 namespace GlobalNamespace {
 class MultiplayerController;
 }
-namespace GlobalNamespace {
-class ____GlobalNamespace__MultiplayerScoreProvider__RankedPlayer;
-}
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__MultiplayerController__State;
+struct GlobalNamespace__MultiplayerController__State;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerScoreProvider__RankedPlayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,7 +29,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5315))
 // CS Name: MultiplayerLeadPlayerProvider
-class CORDL_TYPE MultiplayerLeadPlayerProvider : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerLeadPlayerProvider : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -45,7 +44,7 @@ constexpr MultiplayerLeadPlayerProvider(MultiplayerLeadPlayerProvider const& ) n
 constexpr MultiplayerLeadPlayerProvider(MultiplayerLeadPlayerProvider&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerLeadPlayerProvider(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerLeadPlayerProvider(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -78,23 +77,23 @@ constexpr void __set__timeToLooseLead(float_t value) ;
 
 constexpr float_t __get__timeToLooseLead() const;
 
- ::GlobalNamespace::MultiplayerScoreProvider __declspec(property(get=__get__scoreProvider, put=__set__scoreProvider))  _scoreProvider;
+ GlobalNamespace::MultiplayerScoreProvider __declspec(property(get=__get__scoreProvider, put=__set__scoreProvider))  _scoreProvider;
 
-constexpr void __set__scoreProvider(::GlobalNamespace::MultiplayerScoreProvider value) ;
+constexpr void __set__scoreProvider(GlobalNamespace::MultiplayerScoreProvider value) ;
 
-constexpr ::GlobalNamespace::MultiplayerScoreProvider __get__scoreProvider() const;
+constexpr GlobalNamespace::MultiplayerScoreProvider __get__scoreProvider() const;
 
- ::GlobalNamespace::MultiplayerController __declspec(property(get=__get__multiplayerController, put=__set__multiplayerController))  _multiplayerController;
+ GlobalNamespace::MultiplayerController __declspec(property(get=__get__multiplayerController, put=__set__multiplayerController))  _multiplayerController;
 
-constexpr void __set__multiplayerController(::GlobalNamespace::MultiplayerController value) ;
+constexpr void __set__multiplayerController(GlobalNamespace::MultiplayerController value) ;
 
-constexpr ::GlobalNamespace::MultiplayerController __get__multiplayerController() const;
+constexpr GlobalNamespace::MultiplayerController __get__multiplayerController() const;
 
- ::System::Action_1<::StringW> __declspec(property(get=__get_newLeaderWasSelectedEvent, put=__set_newLeaderWasSelectedEvent))  newLeaderWasSelectedEvent;
+ System::Action_1<::StringW> __declspec(property(get=__get_newLeaderWasSelectedEvent, put=__set_newLeaderWasSelectedEvent))  newLeaderWasSelectedEvent;
 
-constexpr void __set_newLeaderWasSelectedEvent(::System::Action_1<::StringW> value) ;
+constexpr void __set_newLeaderWasSelectedEvent(System::Action_1<::StringW> value) ;
 
-constexpr ::System::Action_1<::StringW> __get_newLeaderWasSelectedEvent() const;
+constexpr System::Action_1<::StringW> __get_newLeaderWasSelectedEvent() const;
 
  float_t __declspec(property(get=__get__currentLeadingPlayerStartTime, put=__set__currentLeadingPlayerStartTime))  _currentLeadingPlayerStartTime;
 
@@ -102,26 +101,26 @@ constexpr void __set__currentLeadingPlayerStartTime(float_t value) ;
 
 constexpr float_t __get__currentLeadingPlayerStartTime() const;
 
- ::GlobalNamespace::____GlobalNamespace__MultiplayerScoreProvider__RankedPlayer __declspec(property(get=__get__currentlyDisplayedUser, put=__set__currentlyDisplayedUser))  _currentlyDisplayedUser;
+ GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider__RankedPlayer __declspec(property(get=__get__currentlyDisplayedUser, put=__set__currentlyDisplayedUser))  _currentlyDisplayedUser;
 
-constexpr void __set__currentlyDisplayedUser(::GlobalNamespace::____GlobalNamespace__MultiplayerScoreProvider__RankedPlayer value) ;
+constexpr void __set__currentlyDisplayedUser(GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider__RankedPlayer value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__MultiplayerScoreProvider__RankedPlayer __get__currentlyDisplayedUser() const;
+constexpr GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider__RankedPlayer __get__currentlyDisplayedUser() const;
 
- ::GlobalNamespace::____GlobalNamespace__MultiplayerScoreProvider__RankedPlayer __declspec(property(get=__get__currentlyLeadingUser, put=__set__currentlyLeadingUser))  _currentlyLeadingUser;
+ GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider__RankedPlayer __declspec(property(get=__get__currentlyLeadingUser, put=__set__currentlyLeadingUser))  _currentlyLeadingUser;
 
-constexpr void __set__currentlyLeadingUser(::GlobalNamespace::____GlobalNamespace__MultiplayerScoreProvider__RankedPlayer value) ;
+constexpr void __set__currentlyLeadingUser(GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider__RankedPlayer value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__MultiplayerScoreProvider__RankedPlayer __get__currentlyLeadingUser() const;
+constexpr GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider__RankedPlayer __get__currentlyLeadingUser() const;
 
 
 // Methods
 
 /// @brief Method add_newLeaderWasSelectedEvent addr 0x20f78e4 size 0xb0 virtual false final false
- void add_newLeaderWasSelectedEvent(::System::Action_1<::StringW> value) ;
+ void add_newLeaderWasSelectedEvent(System::Action_1<::StringW> value) ;
 
 /// @brief Method remove_newLeaderWasSelectedEvent addr 0x20f7834 size 0xb0 virtual false final false
- void remove_newLeaderWasSelectedEvent(::System::Action_1<::StringW> value) ;
+ void remove_newLeaderWasSelectedEvent(System::Action_1<::StringW> value) ;
 
 /// @brief Method Start addr 0x20fa8ec size 0xb0 virtual false final false
  void Start() ;
@@ -139,10 +138,10 @@ constexpr ::GlobalNamespace::____GlobalNamespace__MultiplayerScoreProvider__Rank
  void StartProviding() ;
 
 /// @brief Method HandleStateChanged addr 0x20fa99c size 0x10 virtual false final false
- void HandleStateChanged(::GlobalNamespace::____GlobalNamespace__MultiplayerController__State state) ;
+ void HandleStateChanged(GlobalNamespace::GlobalNamespace__MultiplayerController__State state) ;
 
 /// @brief Method HandleFirstPlayerDidChange addr 0x20face4 size 0xf4 virtual false final false
- void HandleFirstPlayerDidChange(::GlobalNamespace::____GlobalNamespace__MultiplayerScoreProvider__RankedPlayer firstPlayer) ;
+ void HandleFirstPlayerDidChange(GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider__RankedPlayer firstPlayer) ;
 
 // Ctor Parameters []
 explicit MultiplayerLeadPlayerProvider() ;
@@ -154,6 +153,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerLeadPlayerProvider);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerLeadPlayerProvider, "", "MultiplayerLeadPlayerProvider");
+NEED_NO_BOX(GlobalNamespace::MultiplayerLeadPlayerProvider);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLeadPlayerProvider, "", "MultiplayerLeadPlayerProvider");

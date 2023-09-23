@@ -3,10 +3,9 @@
 #include "GlobalNamespace/zzzz__MenuDestination_def.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
-struct ____GlobalNamespace__SelectSubMenuDestination__Destination;
+struct GlobalNamespace__SelectSubMenuDestination__Destination;
 }
 namespace GlobalNamespace {
 class SelectSubMenuDestination;
@@ -17,20 +16,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4185))
 // CS Name: SelectSubMenuDestination::Destination
-struct CORDL_TYPE ____GlobalNamespace__SelectSubMenuDestination__Destination : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__SelectSubMenuDestination__Destination : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__SelectSubMenuDestination__Destination(int32_t value__) noexcept;
+constexpr GlobalNamespace__SelectSubMenuDestination__Destination(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__SelectSubMenuDestination__Destination(____GlobalNamespace__SelectSubMenuDestination__Destination const&) = default;
-                    constexpr ____GlobalNamespace__SelectSubMenuDestination__Destination(____GlobalNamespace__SelectSubMenuDestination__Destination&&) = default;
-                    constexpr ____GlobalNamespace__SelectSubMenuDestination__Destination& operator=(____GlobalNamespace__SelectSubMenuDestination__Destination const& o) {
+                    constexpr GlobalNamespace__SelectSubMenuDestination__Destination(GlobalNamespace__SelectSubMenuDestination__Destination const&) = default;
+                    constexpr GlobalNamespace__SelectSubMenuDestination__Destination(GlobalNamespace__SelectSubMenuDestination__Destination&&) = default;
+                    constexpr GlobalNamespace__SelectSubMenuDestination__Destination& operator=(GlobalNamespace__SelectSubMenuDestination__Destination const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__SelectSubMenuDestination__Destination& operator=(____GlobalNamespace__SelectSubMenuDestination__Destination&& o) noexcept {
+                    constexpr GlobalNamespace__SelectSubMenuDestination__Destination& operator=(GlobalNamespace__SelectSubMenuDestination__Destination&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -43,7 +42,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__SelectSubMenuDestination__Destination(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__SelectSubMenuDestination__Destination(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -51,7 +50,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__SelectSubMenuDestination__Destination_Unwrapped : int32_t {
+enum class __GlobalNamespace__SelectSubMenuDestination__Destination_Unwrapped : int32_t {
 __MainMenu = 0,
 __Campaign = 1,
 __SoloFreePlay = 2,
@@ -62,8 +61,8 @@ __Multiplayer = 6,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__SelectSubMenuDestination__Destination_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__SelectSubMenuDestination__Destination_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__SelectSubMenuDestination__Destination_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__SelectSubMenuDestination__Destination_Unwrapped>(__instance);
 }
 
 
@@ -76,25 +75,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field MainMenu offset 0
-static ::GlobalNamespace::____GlobalNamespace__SelectSubMenuDestination__Destination const MainMenu;
+static GlobalNamespace::GlobalNamespace__SelectSubMenuDestination__Destination const MainMenu;
 
 /// @brief Field Campaign offset 0
-static ::GlobalNamespace::____GlobalNamespace__SelectSubMenuDestination__Destination const Campaign;
+static GlobalNamespace::GlobalNamespace__SelectSubMenuDestination__Destination const Campaign;
 
 /// @brief Field SoloFreePlay offset 0
-static ::GlobalNamespace::____GlobalNamespace__SelectSubMenuDestination__Destination const SoloFreePlay;
+static GlobalNamespace::GlobalNamespace__SelectSubMenuDestination__Destination const SoloFreePlay;
 
 /// @brief Field PartyFreePlay offset 0
-static ::GlobalNamespace::____GlobalNamespace__SelectSubMenuDestination__Destination const PartyFreePlay;
+static GlobalNamespace::GlobalNamespace__SelectSubMenuDestination__Destination const PartyFreePlay;
 
 /// @brief Field Settings offset 0
-static ::GlobalNamespace::____GlobalNamespace__SelectSubMenuDestination__Destination const Settings;
+static GlobalNamespace::GlobalNamespace__SelectSubMenuDestination__Destination const Settings;
 
 /// @brief Field Tutorial offset 0
-static ::GlobalNamespace::____GlobalNamespace__SelectSubMenuDestination__Destination const Tutorial;
+static GlobalNamespace::GlobalNamespace__SelectSubMenuDestination__Destination const Tutorial;
 
 /// @brief Field Multiplayer offset 0
-static ::GlobalNamespace::____GlobalNamespace__SelectSubMenuDestination__Destination const Multiplayer;
+static GlobalNamespace::GlobalNamespace__SelectSubMenuDestination__Destination const Multiplayer;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -106,10 +105,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4184))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4186))
 // CS Name: SelectSubMenuDestination
-class CORDL_TYPE SelectSubMenuDestination : public ::GlobalNamespace::MenuDestination {
+class CORDL_TYPE SelectSubMenuDestination : public GlobalNamespace::MenuDestination {
 public:
 // Declarations
-using Destination = ::GlobalNamespace::____GlobalNamespace__SelectSubMenuDestination__Destination;
+using Destination = GlobalNamespace::GlobalNamespace__SelectSubMenuDestination__Destination;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -123,7 +122,7 @@ constexpr SelectSubMenuDestination(SelectSubMenuDestination const& ) noexcept = 
 constexpr SelectSubMenuDestination(SelectSubMenuDestination&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SelectSubMenuDestination(void* ptr) noexcept : ::GlobalNamespace::MenuDestination(ptr) {
+constexpr explicit SelectSubMenuDestination(void* ptr) noexcept : GlobalNamespace::MenuDestination(ptr) {
 }
 
 
@@ -144,26 +143,25 @@ constexpr explicit SelectSubMenuDestination(void* ptr) noexcept : ::GlobalNamesp
 
 // Fields
 
- ::GlobalNamespace::____GlobalNamespace__SelectSubMenuDestination__Destination __declspec(property(get=__get_menuDestination, put=__set_menuDestination))  menuDestination;
+ GlobalNamespace::GlobalNamespace__SelectSubMenuDestination__Destination __declspec(property(get=__get_menuDestination, put=__set_menuDestination))  menuDestination;
 
-constexpr void __set_menuDestination(::GlobalNamespace::____GlobalNamespace__SelectSubMenuDestination__Destination value) ;
+constexpr void __set_menuDestination(GlobalNamespace::GlobalNamespace__SelectSubMenuDestination__Destination value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__SelectSubMenuDestination__Destination __get_menuDestination() const;
+constexpr GlobalNamespace::GlobalNamespace__SelectSubMenuDestination__Destination __get_menuDestination() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "menuDestination", ty: "::GlobalNamespace::____GlobalNamespace__SelectSubMenuDestination__Destination", modifiers: "", def_value: None }]
-explicit SelectSubMenuDestination(::GlobalNamespace::____GlobalNamespace__SelectSubMenuDestination__Destination menuDestination) ;
+// Ctor Parameters [CppParam { name: "menuDestination", ty: "GlobalNamespace::GlobalNamespace__SelectSubMenuDestination__Destination", modifiers: "", def_value: None }]
+explicit SelectSubMenuDestination(GlobalNamespace::GlobalNamespace__SelectSubMenuDestination__Destination menuDestination) ;
 
 /// @brief Method .ctor addr 0x21bc718 size 0x28 virtual false final false
- void _ctor(::GlobalNamespace::____GlobalNamespace__SelectSubMenuDestination__Destination menuDestination) ;
+ void _ctor(GlobalNamespace::GlobalNamespace__SelectSubMenuDestination__Destination menuDestination) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__SelectSubMenuDestination__Destination, "", "SelectSubMenuDestination/Destination");
-NEED_NO_BOX(::GlobalNamespace::SelectSubMenuDestination);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SelectSubMenuDestination, "", "SelectSubMenuDestination");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__SelectSubMenuDestination__Destination, "", "SelectSubMenuDestination/Destination");
+NEED_NO_BOX(GlobalNamespace::SelectSubMenuDestination);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectSubMenuDestination, "", "SelectSubMenuDestination");

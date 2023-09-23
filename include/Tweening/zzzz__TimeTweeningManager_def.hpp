@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Tweening/zzzz__TweeningManager_def.hpp"
 #include <cmath>
-namespace {
 // Forward declare root types
 namespace Tweening {
 class TimeTweeningManager;
@@ -13,7 +12,7 @@ namespace Tweening {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15938))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15935))
 // CS Name: Tweening.TimeTweeningManager
-class CORDL_TYPE TimeTweeningManager : public ::Tweening::TweeningManager {
+class CORDL_TYPE TimeTweeningManager : public Tweening::TweeningManager {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr TimeTweeningManager(TimeTweeningManager const& ) noexcept = default;
 constexpr TimeTweeningManager(TimeTweeningManager&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TimeTweeningManager(void* ptr) noexcept : ::Tweening::TweeningManager(ptr) {
+constexpr explicit TimeTweeningManager(void* ptr) noexcept : Tweening::TweeningManager(ptr) {
 }
 
 
@@ -62,6 +61,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Tweening
-} // end anonymous namespace
-NEED_NO_BOX(::Tweening::TimeTweeningManager);
-DEFINE_IL2CPP_ARG_TYPE(::Tweening::TimeTweeningManager, "Tweening", "TimeTweeningManager");
+NEED_NO_BOX(Tweening::TimeTweeningManager);
+DEFINE_IL2CPP_ARG_TYPE(Tweening::TimeTweeningManager, "Tweening", "TimeTweeningManager");

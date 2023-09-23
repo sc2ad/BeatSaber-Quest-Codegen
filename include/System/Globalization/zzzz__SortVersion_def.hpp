@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 struct Guid;
 }
@@ -58,16 +57,15 @@ constexpr void __set_m_NlsVersion(int32_t value) ;
 
 constexpr int32_t __get_m_NlsVersion() const;
 
- ::System::Guid __declspec(property(get=__get_m_SortId, put=__set_m_SortId))  m_SortId;
+ System::Guid __declspec(property(get=__get_m_SortId, put=__set_m_SortId))  m_SortId;
 
-constexpr void __set_m_SortId(::System::Guid value) ;
+constexpr void __set_m_SortId(System::Guid value) ;
 
-constexpr ::System::Guid __get_m_SortId() const;
+constexpr System::Guid __get_m_SortId() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Globalization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Globalization::SortVersion);
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::SortVersion, "System.Globalization", "SortVersion");
+NEED_NO_BOX(System::Globalization::SortVersion);
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::SortVersion, "System.Globalization", "SortVersion");

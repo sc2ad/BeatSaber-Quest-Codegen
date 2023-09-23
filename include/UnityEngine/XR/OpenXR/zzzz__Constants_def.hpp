@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::XR::OpenXR {
 class Constants;
@@ -55,6 +54,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR::OpenXR
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::XR::OpenXR::Constants);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::Constants, "UnityEngine.XR.OpenXR", "Constants");
+NEED_NO_BOX(UnityEngine::XR::OpenXR::Constants);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::OpenXR::Constants, "UnityEngine.XR.OpenXR", "Constants");

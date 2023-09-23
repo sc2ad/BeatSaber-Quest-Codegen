@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
-namespace {
 // Forward declare root types
 namespace System::Text::RegularExpressions {
 struct RegexPrefix;
@@ -56,11 +55,11 @@ constexpr void __set__CaseInsensitive_k__BackingField(bool value) ;
 
 constexpr bool __get__CaseInsensitive_k__BackingField() const;
 
-static ::System::Text::RegularExpressions::RegexPrefix __declspec(property(get=__get__Empty_k__BackingField, put=__set__Empty_k__BackingField))  _Empty_k__BackingField;
+static System::Text::RegularExpressions::RegexPrefix __declspec(property(get=__get__Empty_k__BackingField, put=__set__Empty_k__BackingField))  _Empty_k__BackingField;
 
-static void __set__Empty_k__BackingField(::System::Text::RegularExpressions::RegexPrefix value) ;
+static void __set__Empty_k__BackingField(System::Text::RegularExpressions::RegexPrefix value) ;
 
-static ::System::Text::RegularExpressions::RegexPrefix __get__Empty_k__BackingField() ;
+static System::Text::RegularExpressions::RegexPrefix __get__Empty_k__BackingField() ;
 
  ::StringW __declspec(property(get=__get__Prefix_k__BackingField, put=__set__Prefix_k__BackingField))  _Prefix_k__BackingField;
 
@@ -73,7 +72,7 @@ constexpr ::StringW __get__Prefix_k__BackingField() const;
 
  bool __declspec(property(get=get_CaseInsensitive))  CaseInsensitive;
 
-static ::System::Text::RegularExpressions::RegexPrefix __declspec(property(get=get_Empty))  Empty;
+static System::Text::RegularExpressions::RegexPrefix __declspec(property(get=get_Empty))  Empty;
 
  ::StringW __declspec(property(get=get_Prefix))  Prefix;
 
@@ -87,7 +86,7 @@ static ::System::Text::RegularExpressions::RegexPrefix __declspec(property(get=g
  bool get_CaseInsensitive() ;
 
 /// @brief Method get_Empty addr 0x27d6034 size 0x58 virtual false final false
-static ::System::Text::RegularExpressions::RegexPrefix get_Empty() ;
+static System::Text::RegularExpressions::RegexPrefix get_Empty() ;
 
 /// @brief Method get_Prefix addr 0x27d608c size 0x8 virtual false final false
  ::StringW get_Prefix() ;
@@ -96,5 +95,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Text::RegularExpressions
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::RegularExpressions::RegexPrefix, "System.Text.RegularExpressions", "RegexPrefix");
+DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexPrefix, "System.Text.RegularExpressions", "RegexPrefix");

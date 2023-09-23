@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace TMPro {
 class TMP_InputValidator;
@@ -15,7 +14,7 @@ namespace TMPro {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10151))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12335))
 // CS Name: TMPro.TMP_InputValidator
-class CORDL_TYPE TMP_InputValidator : public ::UnityEngine::ScriptableObject {
+class CORDL_TYPE TMP_InputValidator : public UnityEngine::ScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr TMP_InputValidator(TMP_InputValidator const& ) noexcept = default;
 constexpr TMP_InputValidator(TMP_InputValidator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TMP_InputValidator(void* ptr) noexcept : ::UnityEngine::ScriptableObject(ptr) {
+constexpr explicit TMP_InputValidator(void* ptr) noexcept : UnityEngine::ScriptableObject(ptr) {
 }
 
 
@@ -64,6 +63,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-NEED_NO_BOX(::TMPro::TMP_InputValidator);
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_InputValidator, "TMPro", "TMP_InputValidator");
+NEED_NO_BOX(TMPro::TMP_InputValidator);
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputValidator, "TMPro", "TMP_InputValidator");

@@ -3,18 +3,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Crypto {
-class BufferedBlockCipher;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Crypto {
+class BufferedBlockCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Utilities {
@@ -78,15 +77,14 @@ explicit CipherFactory() ;
  void _ctor() ;
 
 /// @brief Method CreateContentCipher addr 0xf335f4 size 0x758 virtual false final false
-static ::bs_hook::Il2CppWrapperType CreateContentCipher(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters encKey, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier encryptionAlgID) ;
+static ::bs_hook::Il2CppWrapperType CreateContentCipher(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters encKey, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier encryptionAlgID) ;
 
 /// @brief Method CreateCipher addr 0xf33d4c size 0x3b8 virtual false final false
-static ::Org::BouncyCastle::Crypto::BufferedBlockCipher CreateCipher(::Org::BouncyCastle::Asn1::DerObjectIdentifier algorithm) ;
+static Org::BouncyCastle::Crypto::BufferedBlockCipher CreateCipher(Org::BouncyCastle::Asn1::DerObjectIdentifier algorithm) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Utilities
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Utilities::CipherFactory);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Utilities::CipherFactory, "Org.BouncyCastle.Crypto.Utilities", "CipherFactory");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Utilities::CipherFactory);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Utilities::CipherFactory, "Org.BouncyCastle.Crypto.Utilities", "CipherFactory");

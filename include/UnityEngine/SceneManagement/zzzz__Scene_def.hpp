@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -111,13 +110,13 @@ static void GetRootGameObjectsInternal(int32_t sceneHandle, ::bs_hook::Il2CppWra
  int32_t get_rootCount() ;
 
 /// @brief Method GetRootGameObjects addr 0x2b785c4 size 0xd8 virtual false final false
- ::ArrayW<::UnityEngine::GameObject> GetRootGameObjects() ;
+ ::ArrayW<UnityEngine::GameObject> GetRootGameObjects() ;
 
 /// @brief Method GetRootGameObjects addr 0x2b7869c size 0x274 virtual false final false
- void GetRootGameObjects(::System::Collections::Generic::List_1<::UnityEngine::GameObject> rootGameObjects) ;
+ void GetRootGameObjects(System::Collections::Generic::List_1<UnityEngine::GameObject> rootGameObjects) ;
 
 /// @brief Method op_Equality addr 0x2b78910 size 0xc virtual false final false
-static bool op_Equality(::UnityEngine::SceneManagement::Scene lhs, ::UnityEngine::SceneManagement::Scene rhs) ;
+static bool op_Equality(UnityEngine::SceneManagement::Scene lhs, UnityEngine::SceneManagement::Scene rhs) ;
 
 /// @brief Method GetHashCode addr 0x2b7891c size 0x8 virtual true final false
  int32_t GetHashCode() ;
@@ -129,5 +128,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::SceneManagement
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SceneManagement::Scene, "UnityEngine.SceneManagement", "Scene");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SceneManagement::Scene, "UnityEngine.SceneManagement", "Scene");

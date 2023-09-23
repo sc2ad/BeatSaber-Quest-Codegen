@@ -1,24 +1,23 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "Mono/Net/Security/zzzz__MobileAuthenticatedStream_def.hpp"
-namespace {
-namespace Mono::Net::Security {
-class MobileTlsContext;
+namespace Mono::Security::Interface {
+class MonoTlsSettings;
 }
 namespace System::Net::Security {
 class SslStream;
 }
 namespace Mono::Net::Security {
-class MonoSslAuthenticationOptions;
+class MobileTlsContext;
 }
 namespace System::IO {
 class Stream;
 }
-namespace Mono::Security::Interface {
-class MonoTlsSettings;
-}
 namespace Mono::Net::Security {
 class MobileTlsProvider;
+}
+namespace Mono::Net::Security {
+class MonoSslAuthenticationOptions;
 }
 // Forward declare root types
 namespace Mono::Unity {
@@ -30,7 +29,7 @@ namespace Mono::Unity {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7687))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7664))
 // CS Name: Mono.Unity.UnityTlsStream
-class CORDL_TYPE UnityTlsStream : public ::Mono::Net::Security::MobileAuthenticatedStream {
+class CORDL_TYPE UnityTlsStream : public Mono::Net::Security::MobileAuthenticatedStream {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -45,7 +44,7 @@ constexpr UnityTlsStream(UnityTlsStream const& ) noexcept = default;
 constexpr UnityTlsStream(UnityTlsStream&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UnityTlsStream(void* ptr) noexcept : ::Mono::Net::Security::MobileAuthenticatedStream(ptr) {
+constexpr explicit UnityTlsStream(void* ptr) noexcept : Mono::Net::Security::MobileAuthenticatedStream(ptr) {
 }
 
 
@@ -66,19 +65,18 @@ constexpr explicit UnityTlsStream(void* ptr) noexcept : ::Mono::Net::Security::M
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "innerStream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "leaveInnerStreamOpen", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "owner", ty: "::System::Net::Security::SslStream", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "::Mono::Security::Interface::MonoTlsSettings", modifiers: "", def_value: None }, CppParam { name: "provider", ty: "::Mono::Net::Security::MobileTlsProvider", modifiers: "", def_value: None }]
-explicit UnityTlsStream(::System::IO::Stream innerStream, bool leaveInnerStreamOpen, ::System::Net::Security::SslStream owner, ::Mono::Security::Interface::MonoTlsSettings settings, ::Mono::Net::Security::MobileTlsProvider provider) ;
+// Ctor Parameters [CppParam { name: "innerStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "leaveInnerStreamOpen", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "owner", ty: "System::Net::Security::SslStream", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "Mono::Security::Interface::MonoTlsSettings", modifiers: "", def_value: None }, CppParam { name: "provider", ty: "Mono::Net::Security::MobileTlsProvider", modifiers: "", def_value: None }]
+explicit UnityTlsStream(System::IO::Stream innerStream, bool leaveInnerStreamOpen, System::Net::Security::SslStream owner, Mono::Security::Interface::MonoTlsSettings settings, Mono::Net::Security::MobileTlsProvider provider) ;
 
 /// @brief Method .ctor addr 0x268b378 size 0x94 virtual false final false
- void _ctor(::System::IO::Stream innerStream, bool leaveInnerStreamOpen, ::System::Net::Security::SslStream owner, ::Mono::Security::Interface::MonoTlsSettings settings, ::Mono::Net::Security::MobileTlsProvider provider) ;
+ void _ctor(System::IO::Stream innerStream, bool leaveInnerStreamOpen, System::Net::Security::SslStream owner, Mono::Security::Interface::MonoTlsSettings settings, Mono::Net::Security::MobileTlsProvider provider) ;
 
 /// @brief Method CreateContext addr 0x268bec8 size 0x70 virtual true final false
- ::Mono::Net::Security::MobileTlsContext CreateContext(::Mono::Net::Security::MonoSslAuthenticationOptions options) ;
+ Mono::Net::Security::MobileTlsContext CreateContext(Mono::Net::Security::MonoSslAuthenticationOptions options) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Unity
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Unity::UnityTlsStream);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Unity::UnityTlsStream, "Mono.Unity", "UnityTlsStream");
+NEED_NO_BOX(Mono::Unity::UnityTlsStream);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTlsStream, "Mono.Unity", "UnityTlsStream");

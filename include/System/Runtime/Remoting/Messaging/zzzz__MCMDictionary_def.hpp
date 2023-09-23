@@ -3,7 +3,6 @@
 #include "System/Runtime/Remoting/Messaging/zzzz__MessageDictionary_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Runtime::Remoting::Messaging {
 class IMethodMessage;
 }
@@ -17,7 +16,7 @@ namespace System::Runtime::Remoting::Messaging {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3173))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3171))
 // CS Name: System.Runtime.Remoting.Messaging.MCMDictionary
-class CORDL_TYPE MCMDictionary : public ::System::Runtime::Remoting::Messaging::MessageDictionary {
+class CORDL_TYPE MCMDictionary : public System::Runtime::Remoting::Messaging::MessageDictionary {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr MCMDictionary(MCMDictionary const& ) noexcept = default;
 constexpr MCMDictionary(MCMDictionary&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MCMDictionary(void* ptr) noexcept : ::System::Runtime::Remoting::Messaging::MessageDictionary(ptr) {
+constexpr explicit MCMDictionary(void* ptr) noexcept : System::Runtime::Remoting::Messaging::MessageDictionary(ptr) {
 }
 
 
@@ -62,16 +61,15 @@ static ::ArrayW<::StringW> __get_InternalKeys() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "message", ty: "::System::Runtime::Remoting::Messaging::IMethodMessage", modifiers: "", def_value: None }]
-explicit MCMDictionary(::System::Runtime::Remoting::Messaging::IMethodMessage message) ;
+// Ctor Parameters [CppParam { name: "message", ty: "System::Runtime::Remoting::Messaging::IMethodMessage", modifiers: "", def_value: None }]
+explicit MCMDictionary(System::Runtime::Remoting::Messaging::IMethodMessage message) ;
 
 /// @brief Method .ctor addr 0x2341f58 size 0x7c virtual false final false
- void _ctor(::System::Runtime::Remoting::Messaging::IMethodMessage message) ;
+ void _ctor(System::Runtime::Remoting::Messaging::IMethodMessage message) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Messaging
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Messaging::MCMDictionary);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::MCMDictionary, "System.Runtime.Remoting.Messaging", "MCMDictionary");
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::MCMDictionary);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::MCMDictionary, "System.Runtime.Remoting.Messaging", "MCMDictionary");

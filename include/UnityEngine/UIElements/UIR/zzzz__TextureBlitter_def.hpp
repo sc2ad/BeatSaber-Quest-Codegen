@@ -4,9 +4,27 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
+namespace Unity::Profiling {
+struct ProfilerMarker;
+}
 namespace UnityEngine {
 struct Vector2Int;
+}
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine {
+class RenderTexture;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+class MaterialPropertyBlock;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace UnityEngine {
 struct RectInt;
@@ -19,33 +37,14 @@ namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
-class MaterialPropertyBlock;
-}
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
 class Texture;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace Unity::Profiling {
-struct ProfilerMarker;
-}
-namespace UnityEngine {
-class RenderTexture;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
 class TextureBlitter;
 }
 namespace UnityEngine::UIElements::UIR {
-struct ____UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo;
+struct UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo;
 }
 // Type: ::BlitInfo
 namespace UnityEngine::UIElements::UIR {
@@ -53,20 +52,20 @@ namespace UnityEngine::UIElements::UIR {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7486))
 // CS Name: UnityEngine.UIElements.UIR.TextureBlitter::BlitInfo
-struct CORDL_TYPE ____UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "src", ty: "::UnityEngine::Texture", modifiers: "", def_value: None }, CppParam { name: "srcRect", ty: "::UnityEngine::RectInt", modifiers: "", def_value: None }, CppParam { name: "dstPos", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None }, CppParam { name: "border", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "tint", ty: "::UnityEngine::Color", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo(::UnityEngine::Texture src, ::UnityEngine::RectInt srcRect, ::UnityEngine::Vector2Int dstPos, int32_t border, ::UnityEngine::Color tint) noexcept;
+// Ctor Parameters [CppParam { name: "src", ty: "UnityEngine::Texture", modifiers: "", def_value: None }, CppParam { name: "srcRect", ty: "UnityEngine::RectInt", modifiers: "", def_value: None }, CppParam { name: "dstPos", ty: "UnityEngine::Vector2Int", modifiers: "", def_value: None }, CppParam { name: "border", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "tint", ty: "UnityEngine::Color", modifiers: "", def_value: None }]
+constexpr UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo(UnityEngine::Texture src, UnityEngine::RectInt srcRect, UnityEngine::Vector2Int dstPos, int32_t border, UnityEngine::Color tint) noexcept;
 
 
-                    constexpr ____UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo(____UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo const&) = default;
-                    constexpr ____UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo(____UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo&&) = default;
-                    constexpr ____UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo& operator=(____UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo const& o) {
+                    constexpr UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo(UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo const&) = default;
+                    constexpr UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo(UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo&&) = default;
+                    constexpr UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo& operator=(UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo& operator=(____UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo&& o) noexcept {
+                    constexpr UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo& operator=(UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -79,7 +78,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x38};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -90,23 +89,23 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Texture __declspec(property(get=__get_src, put=__set_src))  src;
+ UnityEngine::Texture __declspec(property(get=__get_src, put=__set_src))  src;
 
-constexpr void __set_src(::UnityEngine::Texture value) ;
+constexpr void __set_src(UnityEngine::Texture value) ;
 
-constexpr ::UnityEngine::Texture __get_src() const;
+constexpr UnityEngine::Texture __get_src() const;
 
- ::UnityEngine::RectInt __declspec(property(get=__get_srcRect, put=__set_srcRect))  srcRect;
+ UnityEngine::RectInt __declspec(property(get=__get_srcRect, put=__set_srcRect))  srcRect;
 
-constexpr void __set_srcRect(::UnityEngine::RectInt value) ;
+constexpr void __set_srcRect(UnityEngine::RectInt value) ;
 
-constexpr ::UnityEngine::RectInt __get_srcRect() const;
+constexpr UnityEngine::RectInt __get_srcRect() const;
 
- ::UnityEngine::Vector2Int __declspec(property(get=__get_dstPos, put=__set_dstPos))  dstPos;
+ UnityEngine::Vector2Int __declspec(property(get=__get_dstPos, put=__set_dstPos))  dstPos;
 
-constexpr void __set_dstPos(::UnityEngine::Vector2Int value) ;
+constexpr void __set_dstPos(UnityEngine::Vector2Int value) ;
 
-constexpr ::UnityEngine::Vector2Int __get_dstPos() const;
+constexpr UnityEngine::Vector2Int __get_dstPos() const;
 
  int32_t __declspec(property(get=__get_border, put=__set_border))  border;
 
@@ -114,11 +113,11 @@ constexpr void __set_border(int32_t value) ;
 
 constexpr int32_t __get_border() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_tint, put=__set_tint))  tint;
+ UnityEngine::Color __declspec(property(get=__get_tint, put=__set_tint))  tint;
 
-constexpr void __set_tint(::UnityEngine::Color value) ;
+constexpr void __set_tint(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_tint() const;
+constexpr UnityEngine::Color __get_tint() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -133,10 +132,10 @@ namespace UnityEngine::UIElements::UIR {
 class CORDL_TYPE TextureBlitter : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using BlitInfo = ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo;
+using BlitInfo = UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x50};
@@ -177,47 +176,47 @@ static void __set_k_TextureIds(::ArrayW<int32_t> value) ;
 
 static ::ArrayW<int32_t> __get_k_TextureIds() ;
 
-static ::Unity::Profiling::ProfilerMarker __declspec(property(get=__get_s_CommitSampler, put=__set_s_CommitSampler))  s_CommitSampler;
+static Unity::Profiling::ProfilerMarker __declspec(property(get=__get_s_CommitSampler, put=__set_s_CommitSampler))  s_CommitSampler;
 
-static void __set_s_CommitSampler(::Unity::Profiling::ProfilerMarker value) ;
+static void __set_s_CommitSampler(Unity::Profiling::ProfilerMarker value) ;
 
-static ::Unity::Profiling::ProfilerMarker __get_s_CommitSampler() ;
+static Unity::Profiling::ProfilerMarker __get_s_CommitSampler() ;
 
- ::ArrayW<::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo> __declspec(property(get=__get_m_SingleBlit, put=__set_m_SingleBlit))  m_SingleBlit;
+ ::ArrayW<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo> __declspec(property(get=__get_m_SingleBlit, put=__set_m_SingleBlit))  m_SingleBlit;
 
-constexpr void __set_m_SingleBlit(::ArrayW<::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo> value) ;
+constexpr void __set_m_SingleBlit(::ArrayW<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo> value) ;
 
-constexpr ::ArrayW<::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo> __get_m_SingleBlit() const;
+constexpr ::ArrayW<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo> __get_m_SingleBlit() const;
 
- ::UnityEngine::Material __declspec(property(get=__get_m_BlitMaterial, put=__set_m_BlitMaterial))  m_BlitMaterial;
+ UnityEngine::Material __declspec(property(get=__get_m_BlitMaterial, put=__set_m_BlitMaterial))  m_BlitMaterial;
 
-constexpr void __set_m_BlitMaterial(::UnityEngine::Material value) ;
+constexpr void __set_m_BlitMaterial(UnityEngine::Material value) ;
 
-constexpr ::UnityEngine::Material __get_m_BlitMaterial() const;
+constexpr UnityEngine::Material __get_m_BlitMaterial() const;
 
- ::UnityEngine::MaterialPropertyBlock __declspec(property(get=__get_m_Properties, put=__set_m_Properties))  m_Properties;
+ UnityEngine::MaterialPropertyBlock __declspec(property(get=__get_m_Properties, put=__set_m_Properties))  m_Properties;
 
-constexpr void __set_m_Properties(::UnityEngine::MaterialPropertyBlock value) ;
+constexpr void __set_m_Properties(UnityEngine::MaterialPropertyBlock value) ;
 
-constexpr ::UnityEngine::MaterialPropertyBlock __get_m_Properties() const;
+constexpr UnityEngine::MaterialPropertyBlock __get_m_Properties() const;
 
- ::UnityEngine::RectInt __declspec(property(get=__get_m_Viewport, put=__set_m_Viewport))  m_Viewport;
+ UnityEngine::RectInt __declspec(property(get=__get_m_Viewport, put=__set_m_Viewport))  m_Viewport;
 
-constexpr void __set_m_Viewport(::UnityEngine::RectInt value) ;
+constexpr void __set_m_Viewport(UnityEngine::RectInt value) ;
 
-constexpr ::UnityEngine::RectInt __get_m_Viewport() const;
+constexpr UnityEngine::RectInt __get_m_Viewport() const;
 
- ::UnityEngine::RenderTexture __declspec(property(get=__get_m_PrevRT, put=__set_m_PrevRT))  m_PrevRT;
+ UnityEngine::RenderTexture __declspec(property(get=__get_m_PrevRT, put=__set_m_PrevRT))  m_PrevRT;
 
-constexpr void __set_m_PrevRT(::UnityEngine::RenderTexture value) ;
+constexpr void __set_m_PrevRT(UnityEngine::RenderTexture value) ;
 
-constexpr ::UnityEngine::RenderTexture __get_m_PrevRT() const;
+constexpr UnityEngine::RenderTexture __get_m_PrevRT() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo> __declspec(property(get=__get_m_PendingBlits, put=__set_m_PendingBlits))  m_PendingBlits;
+ System::Collections::Generic::List_1<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo> __declspec(property(get=__get_m_PendingBlits, put=__set_m_PendingBlits))  m_PendingBlits;
 
-constexpr void __set_m_PendingBlits(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo> value) ;
+constexpr void __set_m_PendingBlits(System::Collections::Generic::List_1<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo> __get_m_PendingBlits() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo> __get_m_PendingBlits() const;
 
  bool __declspec(property(get=__get__disposed_k__BackingField, put=__set__disposed_k__BackingField))  _disposed_k__BackingField;
 
@@ -252,19 +251,19 @@ explicit TextureBlitter(int32_t capacity) ;
  void _ctor(int32_t capacity) ;
 
 /// @brief Method QueueBlit addr 0x2d07478 size 0x1a4 virtual false final false
- void QueueBlit(::UnityEngine::Texture src, ::UnityEngine::RectInt srcRect, ::UnityEngine::Vector2Int dstPos, bool addBorder, ::UnityEngine::Color tint) ;
+ void QueueBlit(UnityEngine::Texture src, UnityEngine::RectInt srcRect, UnityEngine::Vector2Int dstPos, bool addBorder, UnityEngine::Color tint) ;
 
 /// @brief Method BlitOneNow addr 0x2d07cfc size 0xe4 virtual false final false
- void BlitOneNow(::UnityEngine::RenderTexture dst, ::UnityEngine::Texture src, ::UnityEngine::RectInt srcRect, ::UnityEngine::Vector2Int dstPos, bool addBorder, ::UnityEngine::Color tint) ;
+ void BlitOneNow(UnityEngine::RenderTexture dst, UnityEngine::Texture src, UnityEngine::RectInt srcRect, UnityEngine::Vector2Int dstPos, bool addBorder, UnityEngine::Color tint) ;
 
 /// @brief Method Commit addr 0x2d07ad8 size 0xec virtual false final false
- void Commit(::UnityEngine::RenderTexture dst) ;
+ void Commit(UnityEngine::RenderTexture dst) ;
 
 /// @brief Method BeginBlit addr 0x2d1589c size 0x1fc virtual false final false
- void BeginBlit(::UnityEngine::RenderTexture dst) ;
+ void BeginBlit(UnityEngine::RenderTexture dst) ;
 
 /// @brief Method DoBlit addr 0x2d15a98 size 0x51c virtual false final false
- void DoBlit(::System::Collections::Generic::IList_1<::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo> blitInfos, int32_t startIndex) ;
+ void DoBlit(System::Collections::Generic::IList_1<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo> blitInfos, int32_t startIndex) ;
 
 /// @brief Method EndBlit addr 0x2d15fb4 size 0xe0 virtual false final false
  void EndBlit() ;
@@ -273,7 +272,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::UIR
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::UIR::TextureBlitter);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::TextureBlitter, "UnityEngine.UIElements.UIR", "TextureBlitter");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo, "UnityEngine.UIElements.UIR", "TextureBlitter/BlitInfo");
+NEED_NO_BOX(UnityEngine::UIElements::UIR::TextureBlitter);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::TextureBlitter, "UnityEngine.UIElements.UIR", "TextureBlitter");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo, "UnityEngine.UIElements.UIR", "TextureBlitter/BlitInfo");

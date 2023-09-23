@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::Text {
 class EncoderFallback;
 }
@@ -57,24 +56,24 @@ constexpr explicit Encoder(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(pt
 
 // Fields
 
- ::System::Text::EncoderFallback __declspec(property(get=__get__fallback, put=__set__fallback))  _fallback;
+ System::Text::EncoderFallback __declspec(property(get=__get__fallback, put=__set__fallback))  _fallback;
 
-constexpr void __set__fallback(::System::Text::EncoderFallback value) ;
+constexpr void __set__fallback(System::Text::EncoderFallback value) ;
 
-constexpr ::System::Text::EncoderFallback __get__fallback() const;
+constexpr System::Text::EncoderFallback __get__fallback() const;
 
- ::System::Text::EncoderFallbackBuffer __declspec(property(get=__get__fallbackBuffer, put=__set__fallbackBuffer))  _fallbackBuffer;
+ System::Text::EncoderFallbackBuffer __declspec(property(get=__get__fallbackBuffer, put=__set__fallbackBuffer))  _fallbackBuffer;
 
-constexpr void __set__fallbackBuffer(::System::Text::EncoderFallbackBuffer value) ;
+constexpr void __set__fallbackBuffer(System::Text::EncoderFallbackBuffer value) ;
 
-constexpr ::System::Text::EncoderFallbackBuffer __get__fallbackBuffer() const;
+constexpr System::Text::EncoderFallbackBuffer __get__fallbackBuffer() const;
 
 
 // Properties
 
- ::System::Text::EncoderFallback __declspec(property(get=get_Fallback))  Fallback;
+ System::Text::EncoderFallback __declspec(property(get=get_Fallback))  Fallback;
 
- ::System::Text::EncoderFallbackBuffer __declspec(property(get=get_FallbackBuffer))  FallbackBuffer;
+ System::Text::EncoderFallbackBuffer __declspec(property(get=get_FallbackBuffer))  FallbackBuffer;
 
  bool __declspec(property(get=get_InternalHasFallbackBuffer))  InternalHasFallbackBuffer;
 
@@ -88,10 +87,10 @@ explicit Encoder() ;
  void _ctor() ;
 
 /// @brief Method get_Fallback addr 0x24c44d8 size 0x8 virtual false final false
- ::System::Text::EncoderFallback get_Fallback() ;
+ System::Text::EncoderFallback get_Fallback() ;
 
 /// @brief Method get_FallbackBuffer addr 0x24c0e34 size 0x3c virtual false final false
- ::System::Text::EncoderFallbackBuffer get_FallbackBuffer() ;
+ System::Text::EncoderFallbackBuffer get_FallbackBuffer() ;
 
 /// @brief Method get_InternalHasFallbackBuffer addr 0x24c0e24 size 0x10 virtual false final false
  bool get_InternalHasFallbackBuffer() ;
@@ -121,6 +120,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Text
-} // end anonymous namespace
-NEED_NO_BOX(::System::Text::Encoder);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::Encoder, "System.Text", "Encoder");
+NEED_NO_BOX(System::Text::Encoder);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::Encoder, "System.Text", "Encoder");

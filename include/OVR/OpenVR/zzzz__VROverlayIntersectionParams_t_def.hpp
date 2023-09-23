@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
 namespace OVR::OpenVR {
 struct HmdVector3_t;
 }
@@ -21,8 +20,8 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE VROverlayIntersectionParams_t : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "vSource", ty: "::OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: None }, CppParam { name: "vDirection", ty: "::OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: None }, CppParam { name: "eOrigin", ty: "::OVR::OpenVR::ETrackingUniverseOrigin", modifiers: "", def_value: None }]
-constexpr VROverlayIntersectionParams_t(::OVR::OpenVR::HmdVector3_t vSource, ::OVR::OpenVR::HmdVector3_t vDirection, ::OVR::OpenVR::ETrackingUniverseOrigin eOrigin) noexcept;
+// Ctor Parameters [CppParam { name: "vSource", ty: "OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: None }, CppParam { name: "vDirection", ty: "OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: None }, CppParam { name: "eOrigin", ty: "OVR::OpenVR::ETrackingUniverseOrigin", modifiers: "", def_value: None }]
+constexpr VROverlayIntersectionParams_t(OVR::OpenVR::HmdVector3_t vSource, OVR::OpenVR::HmdVector3_t vDirection, OVR::OpenVR::ETrackingUniverseOrigin eOrigin) noexcept;
 
 
                     constexpr VROverlayIntersectionParams_t(VROverlayIntersectionParams_t const&) = default;
@@ -55,27 +54,26 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::OVR::OpenVR::HmdVector3_t __declspec(property(get=__get_vSource, put=__set_vSource))  vSource;
+ OVR::OpenVR::HmdVector3_t __declspec(property(get=__get_vSource, put=__set_vSource))  vSource;
 
-constexpr void __set_vSource(::OVR::OpenVR::HmdVector3_t value) ;
+constexpr void __set_vSource(OVR::OpenVR::HmdVector3_t value) ;
 
-constexpr ::OVR::OpenVR::HmdVector3_t __get_vSource() const;
+constexpr OVR::OpenVR::HmdVector3_t __get_vSource() const;
 
- ::OVR::OpenVR::HmdVector3_t __declspec(property(get=__get_vDirection, put=__set_vDirection))  vDirection;
+ OVR::OpenVR::HmdVector3_t __declspec(property(get=__get_vDirection, put=__set_vDirection))  vDirection;
 
-constexpr void __set_vDirection(::OVR::OpenVR::HmdVector3_t value) ;
+constexpr void __set_vDirection(OVR::OpenVR::HmdVector3_t value) ;
 
-constexpr ::OVR::OpenVR::HmdVector3_t __get_vDirection() const;
+constexpr OVR::OpenVR::HmdVector3_t __get_vDirection() const;
 
- ::OVR::OpenVR::ETrackingUniverseOrigin __declspec(property(get=__get_eOrigin, put=__set_eOrigin))  eOrigin;
+ OVR::OpenVR::ETrackingUniverseOrigin __declspec(property(get=__get_eOrigin, put=__set_eOrigin))  eOrigin;
 
-constexpr void __set_eOrigin(::OVR::OpenVR::ETrackingUniverseOrigin value) ;
+constexpr void __set_eOrigin(OVR::OpenVR::ETrackingUniverseOrigin value) ;
 
-constexpr ::OVR::OpenVR::ETrackingUniverseOrigin __get_eOrigin() const;
+constexpr OVR::OpenVR::ETrackingUniverseOrigin __get_eOrigin() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::VROverlayIntersectionParams_t, "OVR.OpenVR", "VROverlayIntersectionParams_t");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VROverlayIntersectionParams_t, "OVR.OpenVR", "VROverlayIntersectionParams_t");

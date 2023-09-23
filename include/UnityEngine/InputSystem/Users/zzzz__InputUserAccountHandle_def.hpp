@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 class IEquatable_1;
@@ -22,8 +21,8 @@ namespace UnityEngine::InputSystem::Users {
 struct CORDL_TYPE InputUserAccountHandle : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::InputSystem::Users::InputUserAccountHandle>
+constexpr operator  System::IEquatable_1<UnityEngine::InputSystem::Users::InputUserAccountHandle>() const;
 
 // Ctor Parameters [CppParam { name: "m_ApiName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Handle", ty: "uint64_t", modifiers: "", def_value: None }]
 constexpr InputUserAccountHandle(::StringW m_ApiName, uint64_t m_Handle) noexcept;
@@ -94,16 +93,16 @@ constexpr uint64_t __get_m_Handle() const;
  ::StringW ToString() ;
 
 /// @brief Method Equals addr 0x293bb1c size 0xb0 virtual true final true
- bool Equals(::UnityEngine::InputSystem::Users::InputUserAccountHandle other) ;
+ bool Equals(UnityEngine::InputSystem::Users::InputUserAccountHandle other) ;
 
 /// @brief Method Equals addr 0x293bbcc size 0x78 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method op_Equality addr 0x293b8b4 size 0x2c virtual false final false
-static bool op_Equality(::UnityEngine::InputSystem::Users::InputUserAccountHandle left, ::UnityEngine::InputSystem::Users::InputUserAccountHandle right) ;
+static bool op_Equality(UnityEngine::InputSystem::Users::InputUserAccountHandle left, UnityEngine::InputSystem::Users::InputUserAccountHandle right) ;
 
 /// @brief Method op_Inequality addr 0x293bc44 size 0x30 virtual false final false
-static bool op_Inequality(::UnityEngine::InputSystem::Users::InputUserAccountHandle left, ::UnityEngine::InputSystem::Users::InputUserAccountHandle right) ;
+static bool op_Inequality(UnityEngine::InputSystem::Users::InputUserAccountHandle left, UnityEngine::InputSystem::Users::InputUserAccountHandle right) ;
 
 /// @brief Method GetHashCode addr 0x293bc74 size 0x58 virtual true final false
  int32_t GetHashCode() ;
@@ -112,5 +111,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Users
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Users::InputUserAccountHandle, "UnityEngine.InputSystem.Users", "InputUserAccountHandle");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Users::InputUserAccountHandle, "UnityEngine.InputSystem.Users", "InputUserAccountHandle");

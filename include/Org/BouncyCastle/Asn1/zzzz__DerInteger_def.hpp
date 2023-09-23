@@ -5,18 +5,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerOutputStream;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -28,7 +27,7 @@ namespace Org::BouncyCastle::Asn1 {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(31))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(123))
 // CS Name: Org.BouncyCastle.Asn1.DerInteger
-class CORDL_TYPE DerInteger : public ::Org::BouncyCastle::Asn1::Asn1Object {
+class CORDL_TYPE DerInteger : public Org::BouncyCastle::Asn1::Asn1Object {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -43,7 +42,7 @@ constexpr DerInteger(DerInteger const& ) noexcept = default;
 constexpr DerInteger(DerInteger&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DerInteger(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::Asn1Object(ptr) {
+constexpr explicit DerInteger(void* ptr) noexcept : Org::BouncyCastle::Asn1::Asn1Object(ptr) {
 }
 
 
@@ -88,9 +87,9 @@ constexpr int32_t __get_start() const;
 
 // Properties
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_PositiveValue))  PositiveValue;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_PositiveValue))  PositiveValue;
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_Value))  Value;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_Value))  Value;
 
  int32_t __declspec(property(get=get_IntPositiveValueExact))  IntPositiveValueExact;
 
@@ -105,10 +104,10 @@ constexpr int32_t __get_start() const;
 static bool AllowUnsafe() ;
 
 /// @brief Method GetInstance addr 0xdf44b8 size 0xf0 virtual false final false
-static ::Org::BouncyCastle::Asn1::DerInteger GetInstance(::bs_hook::Il2CppWrapperType obj) ;
+static Org::BouncyCastle::Asn1::DerInteger GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method GetInstance addr 0xdf70e8 size 0x124 virtual false final false
-static ::Org::BouncyCastle::Asn1::DerInteger GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool isExplicit) ;
+static Org::BouncyCastle::Asn1::DerInteger GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool isExplicit) ;
 
 // Ctor Parameters [CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: None }]
 explicit DerInteger(int32_t value) ;
@@ -122,11 +121,11 @@ explicit DerInteger(int64_t value) ;
 /// @brief Method .ctor addr 0xdfaab8 size 0x8c virtual false final false
  void _ctor(int64_t value) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "::Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit DerInteger(::Org::BouncyCastle::Math::BigInteger value) ;
+// Ctor Parameters [CppParam { name: "value", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
+explicit DerInteger(Org::BouncyCastle::Math::BigInteger value) ;
 
 /// @brief Method .ctor addr 0xdfab44 size 0x88 virtual false final false
- void _ctor(::Org::BouncyCastle::Math::BigInteger value) ;
+ void _ctor(Org::BouncyCastle::Math::BigInteger value) ;
 
 // Ctor Parameters [CppParam { name: "bytes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
 explicit DerInteger(::ArrayW<uint8_t> bytes) ;
@@ -141,13 +140,13 @@ explicit DerInteger(::ArrayW<uint8_t> bytes, bool clone) ;
  void _ctor(::ArrayW<uint8_t> bytes, bool clone) ;
 
 /// @brief Method get_PositiveValue addr 0xdfadb0 size 0x6c virtual false final false
- ::Org::BouncyCastle::Math::BigInteger get_PositiveValue() ;
+ Org::BouncyCastle::Math::BigInteger get_PositiveValue() ;
 
 /// @brief Method get_Value addr 0xdfae1c size 0x68 virtual false final false
- ::Org::BouncyCastle::Math::BigInteger get_Value() ;
+ Org::BouncyCastle::Math::BigInteger get_Value() ;
 
 /// @brief Method HasValue addr 0xdfae84 size 0x74 virtual false final false
- bool HasValue(::Org::BouncyCastle::Math::BigInteger x) ;
+ bool HasValue(Org::BouncyCastle::Math::BigInteger x) ;
 
 /// @brief Method get_IntPositiveValueExact addr 0xdfafcc size 0x9c virtual false final false
  int32_t get_IntPositiveValueExact() ;
@@ -159,13 +158,13 @@ explicit DerInteger(::ArrayW<uint8_t> bytes, bool clone) ;
  int64_t get_LongValueExact() ;
 
 /// @brief Method Encode addr 0xdfb1c0 size 0x28 virtual true final false
- void Encode(::Org::BouncyCastle::Asn1::DerOutputStream derOut) ;
+ void Encode(Org::BouncyCastle::Asn1::DerOutputStream derOut) ;
 
 /// @brief Method Asn1GetHashCode addr 0xdfb1e8 size 0x5c virtual true final false
  int32_t Asn1GetHashCode() ;
 
 /// @brief Method Asn1Equals addr 0xdfb244 size 0xc8 virtual true final false
- bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object asn1Object) ;
+ bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object asn1Object) ;
 
 /// @brief Method ToString addr 0xdfb30c size 0x20 virtual true final false
  ::StringW ToString() ;
@@ -186,6 +185,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::DerInteger);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::DerInteger, "Org.BouncyCastle.Asn1", "DerInteger");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::DerInteger);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerInteger, "Org.BouncyCastle.Asn1", "DerInteger");

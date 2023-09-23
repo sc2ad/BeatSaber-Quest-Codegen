@@ -2,12 +2,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace OVR::OpenVR {
-struct ETextureType;
-}
 namespace OVR::OpenVR {
 struct EColorSpace;
+}
+namespace OVR::OpenVR {
+struct ETextureType;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -22,8 +21,8 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE Texture_t : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "handle", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "eType", ty: "::OVR::OpenVR::ETextureType", modifiers: "", def_value: None }, CppParam { name: "eColorSpace", ty: "::OVR::OpenVR::EColorSpace", modifiers: "", def_value: None }]
-constexpr Texture_t(::cordl_internals::intptr_t handle, ::OVR::OpenVR::ETextureType eType, ::OVR::OpenVR::EColorSpace eColorSpace) noexcept;
+// Ctor Parameters [CppParam { name: "handle", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "eType", ty: "OVR::OpenVR::ETextureType", modifiers: "", def_value: None }, CppParam { name: "eColorSpace", ty: "OVR::OpenVR::EColorSpace", modifiers: "", def_value: None }]
+constexpr Texture_t(::cordl_internals::intptr_t handle, OVR::OpenVR::ETextureType eType, OVR::OpenVR::EColorSpace eColorSpace) noexcept;
 
 
                     constexpr Texture_t(Texture_t const&) = default;
@@ -62,21 +61,20 @@ constexpr void __set_handle(::cordl_internals::intptr_t value) ;
 
 constexpr ::cordl_internals::intptr_t __get_handle() const;
 
- ::OVR::OpenVR::ETextureType __declspec(property(get=__get_eType, put=__set_eType))  eType;
+ OVR::OpenVR::ETextureType __declspec(property(get=__get_eType, put=__set_eType))  eType;
 
-constexpr void __set_eType(::OVR::OpenVR::ETextureType value) ;
+constexpr void __set_eType(OVR::OpenVR::ETextureType value) ;
 
-constexpr ::OVR::OpenVR::ETextureType __get_eType() const;
+constexpr OVR::OpenVR::ETextureType __get_eType() const;
 
- ::OVR::OpenVR::EColorSpace __declspec(property(get=__get_eColorSpace, put=__set_eColorSpace))  eColorSpace;
+ OVR::OpenVR::EColorSpace __declspec(property(get=__get_eColorSpace, put=__set_eColorSpace))  eColorSpace;
 
-constexpr void __set_eColorSpace(::OVR::OpenVR::EColorSpace value) ;
+constexpr void __set_eColorSpace(OVR::OpenVR::EColorSpace value) ;
 
-constexpr ::OVR::OpenVR::EColorSpace __get_eColorSpace() const;
+constexpr OVR::OpenVR::EColorSpace __get_eColorSpace() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::Texture_t, "OVR.OpenVR", "Texture_t");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::Texture_t, "OVR.OpenVR", "Texture_t");

@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 struct ExpressionMultiplierType;
 }
@@ -19,8 +18,8 @@ namespace UnityEngine::UIElements::StyleSheets::Syntax {
 struct CORDL_TYPE ExpressionMultiplier : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "m_Type", ty: "::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType", modifiers: "", def_value: None }, CppParam { name: "min", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "max", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ExpressionMultiplier(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType m_Type, int32_t min, int32_t max) noexcept;
+// Ctor Parameters [CppParam { name: "m_Type", ty: "UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType", modifiers: "", def_value: None }, CppParam { name: "min", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "max", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr ExpressionMultiplier(UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType m_Type, int32_t min, int32_t max) noexcept;
 
 
                     constexpr ExpressionMultiplier(ExpressionMultiplier const&) = default;
@@ -56,11 +55,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 /// @brief Field Infinity offset 0
 static constexpr int32_t  Infinity{100};
 
- ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType __declspec(property(get=__get_m_Type, put=__set_m_Type))  m_Type;
+ UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType __declspec(property(get=__get_m_Type, put=__set_m_Type))  m_Type;
 
-constexpr void __set_m_Type(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType value) ;
+constexpr void __set_m_Type(UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType value) ;
 
-constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType __get_m_Type() const;
+constexpr UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType __get_m_Type() const;
 
  int32_t __declspec(property(get=__get_min, put=__set_min))  min;
 
@@ -77,26 +76,25 @@ constexpr int32_t __get_max() const;
 
 // Properties
 
- ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType __declspec(property(get=get_type, put=set_type))  type;
+ UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType __declspec(property(get=get_type, put=set_type))  type;
 
 
 // Methods
 
 /// @brief Method get_type addr 0x2c77b48 size 0x8 virtual false final false
- ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType get_type() ;
+ UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType get_type() ;
 
 /// @brief Method set_type addr 0x2c7eac4 size 0x4 virtual false final false
- void set_type(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType value) ;
+ void set_type(UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType value) ;
 
 /// @brief Method .ctor addr 0x2c7ed34 size 0x10 virtual false final false
- void _ctor(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType type) ;
+ void _ctor(UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType type) ;
 
 /// @brief Method SetType addr 0x2c7ed44 size 0x1054 virtual false final false
- void SetType(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType value) ;
+ void SetType(UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::StyleSheets::Syntax
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier, "UnityEngine.UIElements.StyleSheets.Syntax", "ExpressionMultiplier");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier, "UnityEngine.UIElements.StyleSheets.Syntax", "ExpressionMultiplier");

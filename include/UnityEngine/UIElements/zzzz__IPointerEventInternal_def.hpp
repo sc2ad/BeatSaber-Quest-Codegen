@@ -1,6 +1,5 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class IPointerEventInternal;
@@ -46,6 +45,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::IPointerEventInternal);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::IPointerEventInternal, "UnityEngine.UIElements", "IPointerEventInternal");
+NEED_NO_BOX(UnityEngine::UIElements::IPointerEventInternal);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::IPointerEventInternal, "UnityEngine.UIElements", "IPointerEventInternal");

@@ -5,38 +5,37 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace UnityEngine {
+struct Vector2;
+}
 namespace UnityEngine {
 class Material;
+}
+namespace UnityEngine {
+class Mesh;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine {
-class Mesh;
-}
-namespace UnityEngine {
 class MaterialPropertyBlock;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine {
 struct Vector4;
 }
 namespace UnityEngine {
-struct Color;
+struct Matrix4x4;
 }
 // Forward declare root types
 namespace GlobalNamespace {
 class BlocksBlade;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__BlocksBlade__Element;
+class GlobalNamespace__BlocksBlade__Element;
 }
 // Type: ::Element
 namespace GlobalNamespace {
@@ -44,37 +43,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5372))
 // CS Name: BlocksBlade::Element
-class CORDL_TYPE ____GlobalNamespace__BlocksBlade__Element : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__BlocksBlade__Element : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____GlobalNamespace__BlocksBlade__Element() = default;
+virtual ~GlobalNamespace__BlocksBlade__Element() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__BlocksBlade__Element", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__BlocksBlade__Element(____GlobalNamespace__BlocksBlade__Element const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__BlocksBlade__Element", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__BlocksBlade__Element(GlobalNamespace__BlocksBlade__Element const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__BlocksBlade__Element", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__BlocksBlade__Element(____GlobalNamespace__BlocksBlade__Element&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__BlocksBlade__Element", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__BlocksBlade__Element(GlobalNamespace__BlocksBlade__Element&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__BlocksBlade__Element(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__BlocksBlade__Element(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__BlocksBlade__Element& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__BlocksBlade__Element& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__BlocksBlade__Element& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__BlocksBlade__Element& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__BlocksBlade__Element& operator=(____GlobalNamespace__BlocksBlade__Element&& o) noexcept = default;
-  constexpr ____GlobalNamespace__BlocksBlade__Element& operator=(____GlobalNamespace__BlocksBlade__Element const& o) noexcept = default;
+  constexpr GlobalNamespace__BlocksBlade__Element& operator=(GlobalNamespace__BlocksBlade__Element&& o) noexcept = default;
+  constexpr GlobalNamespace__BlocksBlade__Element& operator=(GlobalNamespace__BlocksBlade__Element const& o) noexcept = default;
                 
 
 
@@ -96,7 +95,7 @@ constexpr float_t __get_velocity() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__BlocksBlade__Element() ;
+explicit GlobalNamespace__BlocksBlade__Element() ;
 
 /// @brief Method .ctor addr 0x2109cfc size 0x8 virtual false final false
  void _ctor() ;
@@ -111,10 +110,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5373))
 // CS Name: BlocksBlade
-class CORDL_TYPE BlocksBlade : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE BlocksBlade : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using Element = ::GlobalNamespace::____GlobalNamespace__BlocksBlade__Element;
+using Element = GlobalNamespace::GlobalNamespace__BlocksBlade__Element;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x90};
@@ -128,7 +127,7 @@ constexpr BlocksBlade(BlocksBlade const& ) noexcept = default;
 constexpr BlocksBlade(BlocksBlade&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BlocksBlade(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit BlocksBlade(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -149,17 +148,17 @@ constexpr explicit BlocksBlade(void* ptr) noexcept : ::UnityEngine::MonoBehaviou
 
 // Fields
 
- ::UnityEngine::Mesh __declspec(property(get=__get__elementMesh, put=__set__elementMesh))  _elementMesh;
+ UnityEngine::Mesh __declspec(property(get=__get__elementMesh, put=__set__elementMesh))  _elementMesh;
 
-constexpr void __set__elementMesh(::UnityEngine::Mesh value) ;
+constexpr void __set__elementMesh(UnityEngine::Mesh value) ;
 
-constexpr ::UnityEngine::Mesh __get__elementMesh() const;
+constexpr UnityEngine::Mesh __get__elementMesh() const;
 
- ::UnityEngine::Material __declspec(property(get=__get__material, put=__set__material))  _material;
+ UnityEngine::Material __declspec(property(get=__get__material, put=__set__material))  _material;
 
-constexpr void __set__material(::UnityEngine::Material value) ;
+constexpr void __set__material(UnityEngine::Material value) ;
 
-constexpr ::UnityEngine::Material __get__material() const;
+constexpr UnityEngine::Material __get__material() const;
 
  int32_t __declspec(property(get=__get__numberOfElements, put=__set__numberOfElements))  _numberOfElements;
 
@@ -209,47 +208,47 @@ constexpr void __set__maxElementLength(float_t value) ;
 
 constexpr float_t __get__maxElementLength() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__color_k__BackingField, put=__set__color_k__BackingField))  _color_k__BackingField;
+ UnityEngine::Color __declspec(property(get=__get__color_k__BackingField, put=__set__color_k__BackingField))  _color_k__BackingField;
 
-constexpr void __set__color_k__BackingField(::UnityEngine::Color value) ;
+constexpr void __set__color_k__BackingField(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__color_k__BackingField() const;
+constexpr UnityEngine::Color __get__color_k__BackingField() const;
 
- ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__BlocksBlade__Element> __declspec(property(get=__get__elements, put=__set__elements))  _elements;
+ System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__BlocksBlade__Element> __declspec(property(get=__get__elements, put=__set__elements))  _elements;
 
-constexpr void __set__elements(::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__BlocksBlade__Element> value) ;
+constexpr void __set__elements(System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__BlocksBlade__Element> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__BlocksBlade__Element> __get__elements() const;
+constexpr System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__BlocksBlade__Element> __get__elements() const;
 
- ::ArrayW<::UnityEngine::Vector4> __declspec(property(get=__get__positions, put=__set__positions))  _positions;
+ ::ArrayW<UnityEngine::Vector4> __declspec(property(get=__get__positions, put=__set__positions))  _positions;
 
-constexpr void __set__positions(::ArrayW<::UnityEngine::Vector4> value) ;
+constexpr void __set__positions(::ArrayW<UnityEngine::Vector4> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector4> __get__positions() const;
+constexpr ::ArrayW<UnityEngine::Vector4> __get__positions() const;
 
- ::ArrayW<::UnityEngine::Vector4> __declspec(property(get=__get__sizes, put=__set__sizes))  _sizes;
+ ::ArrayW<UnityEngine::Vector4> __declspec(property(get=__get__sizes, put=__set__sizes))  _sizes;
 
-constexpr void __set__sizes(::ArrayW<::UnityEngine::Vector4> value) ;
+constexpr void __set__sizes(::ArrayW<UnityEngine::Vector4> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector4> __get__sizes() const;
+constexpr ::ArrayW<UnityEngine::Vector4> __get__sizes() const;
 
- ::ArrayW<::UnityEngine::Vector4> __declspec(property(get=__get__colors, put=__set__colors))  _colors;
+ ::ArrayW<UnityEngine::Vector4> __declspec(property(get=__get__colors, put=__set__colors))  _colors;
 
-constexpr void __set__colors(::ArrayW<::UnityEngine::Vector4> value) ;
+constexpr void __set__colors(::ArrayW<UnityEngine::Vector4> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector4> __get__colors() const;
+constexpr ::ArrayW<UnityEngine::Vector4> __get__colors() const;
 
- ::ArrayW<::UnityEngine::Matrix4x4> __declspec(property(get=__get__matrices, put=__set__matrices))  _matrices;
+ ::ArrayW<UnityEngine::Matrix4x4> __declspec(property(get=__get__matrices, put=__set__matrices))  _matrices;
 
-constexpr void __set__matrices(::ArrayW<::UnityEngine::Matrix4x4> value) ;
+constexpr void __set__matrices(::ArrayW<UnityEngine::Matrix4x4> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Matrix4x4> __get__matrices() const;
+constexpr ::ArrayW<UnityEngine::Matrix4x4> __get__matrices() const;
 
- ::UnityEngine::MaterialPropertyBlock __declspec(property(get=__get__materialPropertyBlock, put=__set__materialPropertyBlock))  _materialPropertyBlock;
+ UnityEngine::MaterialPropertyBlock __declspec(property(get=__get__materialPropertyBlock, put=__set__materialPropertyBlock))  _materialPropertyBlock;
 
-constexpr void __set__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock value) ;
+constexpr void __set__materialPropertyBlock(UnityEngine::MaterialPropertyBlock value) ;
 
-constexpr ::UnityEngine::MaterialPropertyBlock __get__materialPropertyBlock() const;
+constexpr UnityEngine::MaterialPropertyBlock __get__materialPropertyBlock() const;
 
 static int32_t __declspec(property(get=__get__positionPropertyID, put=__set__positionPropertyID))  _positionPropertyID;
 
@@ -284,16 +283,16 @@ constexpr int32_t __get__layer() const;
 
 // Properties
 
- ::UnityEngine::Color __declspec(property(get=get_color, put=set_color))  color;
+ UnityEngine::Color __declspec(property(get=get_color, put=set_color))  color;
 
 
 // Methods
 
 /// @brief Method get_color addr 0x2109aac size 0xc virtual false final false
- ::UnityEngine::Color get_color() ;
+ UnityEngine::Color get_color() ;
 
 /// @brief Method set_color addr 0x2109ab8 size 0xc virtual false final false
- void set_color(::UnityEngine::Color value) ;
+ void set_color(UnityEngine::Color value) ;
 
 /// @brief Method Start addr 0x2109ac4 size 0x238 virtual false final false
  void Start() ;
@@ -302,10 +301,10 @@ constexpr int32_t __get__layer() const;
  void Update() ;
 
 /// @brief Method SetUpElement addr 0x2109d04 size 0x164 virtual false final false
- void SetUpElement(::GlobalNamespace::____GlobalNamespace__BlocksBlade__Element element, float_t velocity, ::UnityEngine::Color color) ;
+ void SetUpElement(GlobalNamespace::GlobalNamespace__BlocksBlade__Element element, float_t velocity, UnityEngine::Color color) ;
 
 /// @brief Method RandomPointOnCircle addr 0x210a2c0 size 0x4c virtual false final false
- ::UnityEngine::Vector2 RandomPointOnCircle(float_t radius) ;
+ UnityEngine::Vector2 RandomPointOnCircle(float_t radius) ;
 
 // Ctor Parameters []
 explicit BlocksBlade() ;
@@ -317,8 +316,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BlocksBlade);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BlocksBlade, "", "BlocksBlade");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__BlocksBlade__Element);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__BlocksBlade__Element, "", "BlocksBlade/Element");
+NEED_NO_BOX(GlobalNamespace::BlocksBlade);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BlocksBlade, "", "BlocksBlade");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__BlocksBlade__Element);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__BlocksBlade__Element, "", "BlocksBlade/Element");

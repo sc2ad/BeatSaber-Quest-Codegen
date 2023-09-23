@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto::Paddings {
 class IBlockCipherPadding;
 }
@@ -24,8 +23,8 @@ namespace Org::BouncyCastle::Crypto::Paddings {
 class CORDL_TYPE TbcPadding : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding
-constexpr operator  ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding
+constexpr operator  Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -69,7 +68,7 @@ constexpr explicit TbcPadding(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType
  ::StringW get_PaddingName() ;
 
 /// @brief Method Init addr 0xea2100 size 0x4 virtual true final false
- void Init(::Org::BouncyCastle::Security::SecureRandom random) ;
+ void Init(Org::BouncyCastle::Security::SecureRandom random) ;
 
 /// @brief Method AddPadding addr 0xea2104 size 0x88 virtual true final false
  int32_t AddPadding(::ArrayW<uint8_t> input, int32_t inOff) ;
@@ -87,6 +86,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Paddings
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Paddings::TbcPadding);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Paddings::TbcPadding, "Org.BouncyCastle.Crypto.Paddings", "TbcPadding");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Paddings::TbcPadding);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Paddings::TbcPadding, "Org.BouncyCastle.Crypto.Paddings", "TbcPadding");

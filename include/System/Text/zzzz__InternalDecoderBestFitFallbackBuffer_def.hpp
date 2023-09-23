@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::Text {
 class InternalDecoderBestFitFallback;
 }
@@ -18,7 +17,7 @@ namespace System::Text {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2830))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2825))
 // CS Name: System.Text.InternalDecoderBestFitFallbackBuffer
-class CORDL_TYPE InternalDecoderBestFitFallbackBuffer : public ::System::Text::DecoderFallbackBuffer {
+class CORDL_TYPE InternalDecoderBestFitFallbackBuffer : public System::Text::DecoderFallbackBuffer {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr InternalDecoderBestFitFallbackBuffer(InternalDecoderBestFitFallbackBuf
 constexpr InternalDecoderBestFitFallbackBuffer(InternalDecoderBestFitFallbackBuffer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit InternalDecoderBestFitFallbackBuffer(void* ptr) noexcept : ::System::Text::DecoderFallbackBuffer(ptr) {
+constexpr explicit InternalDecoderBestFitFallbackBuffer(void* ptr) noexcept : System::Text::DecoderFallbackBuffer(ptr) {
 }
 
 
@@ -72,11 +71,11 @@ constexpr void __set__iSize(int32_t value) ;
 
 constexpr int32_t __get__iSize() const;
 
- ::System::Text::InternalDecoderBestFitFallback __declspec(property(get=__get__oFallback, put=__set__oFallback))  _oFallback;
+ System::Text::InternalDecoderBestFitFallback __declspec(property(get=__get__oFallback, put=__set__oFallback))  _oFallback;
 
-constexpr void __set__oFallback(::System::Text::InternalDecoderBestFitFallback value) ;
+constexpr void __set__oFallback(System::Text::InternalDecoderBestFitFallback value) ;
 
-constexpr ::System::Text::InternalDecoderBestFitFallback __get__oFallback() const;
+constexpr System::Text::InternalDecoderBestFitFallback __get__oFallback() const;
 
 static ::bs_hook::Il2CppWrapperType __declspec(property(get=__get_s_InternalSyncObject, put=__set_s_InternalSyncObject))  s_InternalSyncObject;
 
@@ -97,11 +96,11 @@ static ::bs_hook::Il2CppWrapperType __declspec(property(get=get_InternalSyncObje
 /// @brief Method get_InternalSyncObject addr 0x24c2858 size 0x9c virtual false final false
 static ::bs_hook::Il2CppWrapperType get_InternalSyncObject() ;
 
-// Ctor Parameters [CppParam { name: "fallback", ty: "::System::Text::InternalDecoderBestFitFallback", modifiers: "", def_value: None }]
-explicit InternalDecoderBestFitFallbackBuffer(::System::Text::InternalDecoderBestFitFallback fallback) ;
+// Ctor Parameters [CppParam { name: "fallback", ty: "System::Text::InternalDecoderBestFitFallback", modifiers: "", def_value: None }]
+explicit InternalDecoderBestFitFallbackBuffer(System::Text::InternalDecoderBestFitFallback fallback) ;
 
 /// @brief Method .ctor addr 0x24c265c size 0x128 virtual false final false
- void _ctor(::System::Text::InternalDecoderBestFitFallback fallback) ;
+ void _ctor(System::Text::InternalDecoderBestFitFallback fallback) ;
 
 /// @brief Method Fallback addr 0x24c28fc size 0x40 virtual true final false
  bool Fallback(::ArrayW<uint8_t> bytesUnknown, int32_t index) ;
@@ -125,6 +124,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Text
-} // end anonymous namespace
-NEED_NO_BOX(::System::Text::InternalDecoderBestFitFallbackBuffer);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::InternalDecoderBestFitFallbackBuffer, "System.Text", "InternalDecoderBestFitFallbackBuffer");
+NEED_NO_BOX(System::Text::InternalDecoderBestFitFallbackBuffer);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::InternalDecoderBestFitFallbackBuffer, "System.Text", "InternalDecoderBestFitFallbackBuffer");

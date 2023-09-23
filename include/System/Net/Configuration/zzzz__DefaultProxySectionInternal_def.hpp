@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Net {
 class IWebProxy;
 }
@@ -51,11 +50,11 @@ constexpr explicit DefaultProxySectionInternal(void* ptr) noexcept : ::bs_hook::
 
 // Fields
 
- ::System::Net::IWebProxy __declspec(property(get=__get_webProxy, put=__set_webProxy))  webProxy;
+ System::Net::IWebProxy __declspec(property(get=__get_webProxy, put=__set_webProxy))  webProxy;
 
-constexpr void __set_webProxy(::System::Net::IWebProxy value) ;
+constexpr void __set_webProxy(System::Net::IWebProxy value) ;
 
-constexpr ::System::Net::IWebProxy __get_webProxy() const;
+constexpr System::Net::IWebProxy __get_webProxy() const;
 
 static ::bs_hook::Il2CppWrapperType __declspec(property(get=__get_classSyncObject, put=__set_classSyncObject))  classSyncObject;
 
@@ -68,25 +67,25 @@ static ::bs_hook::Il2CppWrapperType __get_classSyncObject() ;
 
 static ::bs_hook::Il2CppWrapperType __declspec(property(get=get_ClassSyncObject))  ClassSyncObject;
 
- ::System::Net::IWebProxy __declspec(property(get=get_WebProxy))  WebProxy;
+ System::Net::IWebProxy __declspec(property(get=get_WebProxy))  WebProxy;
 
 
 // Methods
 
 /// @brief Method GetDefaultProxy_UsingOldMonoCode addr 0x285e4fc size 0x8 virtual false final false
-static ::System::Net::IWebProxy GetDefaultProxy_UsingOldMonoCode() ;
+static System::Net::IWebProxy GetDefaultProxy_UsingOldMonoCode() ;
 
 /// @brief Method GetSystemWebProxy addr 0x285e504 size 0x8 virtual false final false
-static ::System::Net::IWebProxy GetSystemWebProxy() ;
+static System::Net::IWebProxy GetSystemWebProxy() ;
 
 /// @brief Method get_ClassSyncObject addr 0x285e50c size 0xa0 virtual false final false
 static ::bs_hook::Il2CppWrapperType get_ClassSyncObject() ;
 
 /// @brief Method GetSection addr 0x285e5ac size 0x114 virtual false final false
-static ::System::Net::Configuration::DefaultProxySectionInternal GetSection() ;
+static System::Net::Configuration::DefaultProxySectionInternal GetSection() ;
 
 /// @brief Method get_WebProxy addr 0x285e6c8 size 0x8 virtual false final false
- ::System::Net::IWebProxy get_WebProxy() ;
+ System::Net::IWebProxy get_WebProxy() ;
 
 // Ctor Parameters []
 explicit DefaultProxySectionInternal() ;
@@ -98,6 +97,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Configuration
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Configuration::DefaultProxySectionInternal);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Configuration::DefaultProxySectionInternal, "System.Net.Configuration", "DefaultProxySectionInternal");
+NEED_NO_BOX(System::Net::Configuration::DefaultProxySectionInternal);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::DefaultProxySectionInternal, "System.Net.Configuration", "DefaultProxySectionInternal");

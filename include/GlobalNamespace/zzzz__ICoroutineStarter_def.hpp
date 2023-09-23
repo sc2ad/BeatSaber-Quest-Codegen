@@ -1,6 +1,5 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace UnityEngine {
 class Coroutine;
 }
@@ -30,15 +29,14 @@ constexpr explicit ICoroutineStarter(void* ptr) noexcept : ::cordl_internals::In
 // Methods
 
 /// @brief Method StartCoroutine addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Coroutine StartCoroutine(::System::Collections::IEnumerator routine) ;
+ UnityEngine::Coroutine StartCoroutine(System::Collections::IEnumerator routine) ;
 
 /// @brief Method StopCoroutine addr 0x0 size 0xffffffffffffffff virtual true final false
- void StopCoroutine(::UnityEngine::Coroutine routine) ;
+ void StopCoroutine(UnityEngine::Coroutine routine) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ICoroutineStarter);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ICoroutineStarter, "", "ICoroutineStarter");
+NEED_NO_BOX(GlobalNamespace::ICoroutineStarter);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ICoroutineStarter, "", "ICoroutineStarter");

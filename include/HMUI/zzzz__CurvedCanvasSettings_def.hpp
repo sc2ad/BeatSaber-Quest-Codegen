@@ -2,18 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UI/zzzz__Graphic_def.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
-class Transform;
+struct Vector3;
 }
 namespace UnityEngine::UI {
 class VertexHelper;
 }
 namespace UnityEngine {
-struct Vector3;
+class Transform;
 }
 // Forward declare root types
 namespace HMUI {
@@ -25,7 +24,7 @@ namespace HMUI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12981))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13579))
 // CS Name: HMUI.CurvedCanvasSettings
-class CORDL_TYPE CurvedCanvasSettings : public ::UnityEngine::UI::Graphic {
+class CORDL_TYPE CurvedCanvasSettings : public UnityEngine::UI::Graphic {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr CurvedCanvasSettings(CurvedCanvasSettings const& ) noexcept = default;
 constexpr CurvedCanvasSettings(CurvedCanvasSettings&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CurvedCanvasSettings(void* ptr) noexcept : ::UnityEngine::UI::Graphic(ptr) {
+constexpr explicit CurvedCanvasSettings(void* ptr) noexcept : UnityEngine::UI::Graphic(ptr) {
 }
 
 
@@ -94,13 +93,13 @@ static constexpr float_t  kMaxElementWidth{10};
  void Start() ;
 
 /// @brief Method OnPopulateMesh addr 0x1fa8728 size 0x198 virtual true final false
- void OnPopulateMesh(::UnityEngine::UI::VertexHelper vh) ;
+ void OnPopulateMesh(UnityEngine::UI::VertexHelper vh) ;
 
 /// @brief Method TransformPointFromCanvasTo3D addr 0x1fa88c0 size 0x40 virtual false final false
- ::UnityEngine::Vector3 TransformPointFromCanvasTo3D(::UnityEngine::Vector2 point) ;
+ UnityEngine::Vector3 TransformPointFromCanvasTo3D(UnityEngine::Vector2 point) ;
 
 /// @brief Method RebuildAndSetup addr 0x1fa8594 size 0xf0 virtual false final false
-static void RebuildAndSetup(::UnityEngine::Transform t) ;
+static void RebuildAndSetup(UnityEngine::Transform t) ;
 
 // Ctor Parameters []
 explicit CurvedCanvasSettings() ;
@@ -112,6 +111,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HMUI
-} // end anonymous namespace
-NEED_NO_BOX(::HMUI::CurvedCanvasSettings);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::CurvedCanvasSettings, "HMUI", "CurvedCanvasSettings");
+NEED_NO_BOX(HMUI::CurvedCanvasSettings);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::CurvedCanvasSettings, "HMUI", "CurvedCanvasSettings");

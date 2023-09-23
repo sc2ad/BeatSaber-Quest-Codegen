@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Threading {
 class ReaderWriterCount;
@@ -73,11 +72,11 @@ constexpr void __set_upgradecount(int32_t value) ;
 
 constexpr int32_t __get_upgradecount() const;
 
- ::System::Threading::ReaderWriterCount __declspec(property(get=__get_next, put=__set_next))  next;
+ System::Threading::ReaderWriterCount __declspec(property(get=__get_next, put=__set_next))  next;
 
-constexpr void __set_next(::System::Threading::ReaderWriterCount value) ;
+constexpr void __set_next(System::Threading::ReaderWriterCount value) ;
 
-constexpr ::System::Threading::ReaderWriterCount __get_next() const;
+constexpr System::Threading::ReaderWriterCount __get_next() const;
 
 
 // Methods
@@ -92,6 +91,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Threading
-} // end anonymous namespace
-NEED_NO_BOX(::System::Threading::ReaderWriterCount);
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::ReaderWriterCount, "System.Threading", "ReaderWriterCount");
+NEED_NO_BOX(System::Threading::ReaderWriterCount);
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::ReaderWriterCount, "System.Threading", "ReaderWriterCount");

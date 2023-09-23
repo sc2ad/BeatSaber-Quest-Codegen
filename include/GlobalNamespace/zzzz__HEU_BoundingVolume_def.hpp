@@ -1,16 +1,15 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
+namespace UnityEngine {
+class GameObject;
+}
 namespace UnityEngine {
 class Collider;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace UnityEngine {
-class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,7 +21,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9527))
 // CS Name: HEU_BoundingVolume
-class CORDL_TYPE HEU_BoundingVolume : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE HEU_BoundingVolume : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr HEU_BoundingVolume(HEU_BoundingVolume const& ) noexcept = default;
 constexpr HEU_BoundingVolume(HEU_BoundingVolume&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HEU_BoundingVolume(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit HEU_BoundingVolume(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -58,16 +57,16 @@ constexpr explicit HEU_BoundingVolume(void* ptr) noexcept : ::UnityEngine::MonoB
 
 // Properties
 
- ::UnityEngine::Collider __declspec(property(get=get_BoundingCollider))  BoundingCollider;
+ UnityEngine::Collider __declspec(property(get=get_BoundingCollider))  BoundingCollider;
 
 
 // Methods
 
 /// @brief Method get_BoundingCollider addr 0x1fd73e8 size 0x48 virtual false final false
- ::UnityEngine::Collider get_BoundingCollider() ;
+ UnityEngine::Collider get_BoundingCollider() ;
 
 /// @brief Method GetAllIntersectingObjects addr 0x1fd7430 size 0x2b4 virtual false final false
- ::System::Collections::Generic::List_1<::UnityEngine::GameObject> GetAllIntersectingObjects() ;
+ System::Collections::Generic::List_1<UnityEngine::GameObject> GetAllIntersectingObjects() ;
 
 // Ctor Parameters []
 explicit HEU_BoundingVolume() ;
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::HEU_BoundingVolume);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::HEU_BoundingVolume, "", "HEU_BoundingVolume");
+NEED_NO_BOX(GlobalNamespace::HEU_BoundingVolume);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HEU_BoundingVolume, "", "HEU_BoundingVolume");

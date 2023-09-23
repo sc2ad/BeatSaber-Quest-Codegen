@@ -3,18 +3,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class Object;
-}
-namespace UnityEngine::Playables {
-struct Playable;
-}
 namespace UnityEngine::Playables {
 class INotification;
 }
 namespace UnityEngine::Playables {
 class INotificationReceiver;
+}
+namespace UnityEngine {
+class Object;
+}
+namespace UnityEngine::Playables {
+struct Playable;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {
@@ -64,15 +63,15 @@ constexpr explicit PlayableOutputExtensions(void* ptr) noexcept : ::bs_hook::Il2
 
 /// @brief Method SetReferenceObject addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename U>
-static void SetReferenceObject(U output, ::UnityEngine::Object value) ;
+static void SetReferenceObject(U output, UnityEngine::Object value) ;
 
 /// @brief Method SetUserData addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename U>
-static void SetUserData(U output, ::UnityEngine::Object value) ;
+static void SetUserData(U output, UnityEngine::Object value) ;
 
 /// @brief Method GetSourcePlayable addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename U>
-static ::UnityEngine::Playables::Playable GetSourcePlayable(U output) ;
+static UnityEngine::Playables::Playable GetSourcePlayable(U output) ;
 
 /// @brief Method SetSourcePlayable addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename U,typename V>
@@ -88,16 +87,15 @@ static void SetWeight(U output, float_t value) ;
 
 /// @brief Method PushNotification addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename U>
-static void PushNotification(U output, ::UnityEngine::Playables::Playable origin, ::UnityEngine::Playables::INotification notification, ::bs_hook::Il2CppWrapperType context) ;
+static void PushNotification(U output, UnityEngine::Playables::Playable origin, UnityEngine::Playables::INotification notification, ::bs_hook::Il2CppWrapperType context) ;
 
 /// @brief Method AddNotificationReceiver addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename U>
-static void AddNotificationReceiver(U output, ::UnityEngine::Playables::INotificationReceiver receiver) ;
+static void AddNotificationReceiver(U output, UnityEngine::Playables::INotificationReceiver receiver) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Playables
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Playables::PlayableOutputExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Playables::PlayableOutputExtensions, "UnityEngine.Playables", "PlayableOutputExtensions");
+NEED_NO_BOX(UnityEngine::Playables::PlayableOutputExtensions);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableOutputExtensions, "UnityEngine.Playables", "PlayableOutputExtensions");

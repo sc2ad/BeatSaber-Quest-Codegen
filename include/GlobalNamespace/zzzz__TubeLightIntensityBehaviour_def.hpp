@@ -4,18 +4,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
-namespace {
+namespace UnityEngine::Playables {
+struct FrameData;
+}
 namespace UnityEngine::Playables {
 struct Playable;
 }
 namespace GlobalNamespace {
-class TubeBloomPrePassLight;
-}
-namespace GlobalNamespace {
 class DirectionalLight;
 }
-namespace UnityEngine::Playables {
-struct FrameData;
+namespace GlobalNamespace {
+class TubeBloomPrePassLight;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,7 +26,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10361))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6077))
 // CS Name: TubeLightIntensityBehaviour
-class CORDL_TYPE TubeLightIntensityBehaviour : public ::UnityEngine::Playables::PlayableBehaviour {
+class CORDL_TYPE TubeLightIntensityBehaviour : public UnityEngine::Playables::PlayableBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -42,7 +41,7 @@ constexpr TubeLightIntensityBehaviour(TubeLightIntensityBehaviour const& ) noexc
 constexpr TubeLightIntensityBehaviour(TubeLightIntensityBehaviour&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TubeLightIntensityBehaviour(void* ptr) noexcept : ::UnityEngine::Playables::PlayableBehaviour(ptr) {
+constexpr explicit TubeLightIntensityBehaviour(void* ptr) noexcept : UnityEngine::Playables::PlayableBehaviour(ptr) {
 }
 
 
@@ -123,17 +122,17 @@ constexpr void __set__originalLaserIntensity(float_t value) ;
 
 constexpr float_t __get__originalLaserIntensity() const;
 
- ::ArrayW<::GlobalNamespace::TubeBloomPrePassLight> __declspec(property(get=__get__tubeLights, put=__set__tubeLights))  _tubeLights;
+ ::ArrayW<GlobalNamespace::TubeBloomPrePassLight> __declspec(property(get=__get__tubeLights, put=__set__tubeLights))  _tubeLights;
 
-constexpr void __set__tubeLights(::ArrayW<::GlobalNamespace::TubeBloomPrePassLight> value) ;
+constexpr void __set__tubeLights(::ArrayW<GlobalNamespace::TubeBloomPrePassLight> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::TubeBloomPrePassLight> __get__tubeLights() const;
+constexpr ::ArrayW<GlobalNamespace::TubeBloomPrePassLight> __get__tubeLights() const;
 
- ::ArrayW<::GlobalNamespace::DirectionalLight> __declspec(property(get=__get__directionalLights, put=__set__directionalLights))  _directionalLights;
+ ::ArrayW<GlobalNamespace::DirectionalLight> __declspec(property(get=__get__directionalLights, put=__set__directionalLights))  _directionalLights;
 
-constexpr void __set__directionalLights(::ArrayW<::GlobalNamespace::DirectionalLight> value) ;
+constexpr void __set__directionalLights(::ArrayW<GlobalNamespace::DirectionalLight> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::DirectionalLight> __get__directionalLights() const;
+constexpr ::ArrayW<GlobalNamespace::DirectionalLight> __get__directionalLights() const;
 
  bool __declspec(property(get=__get__started, put=__set__started))  _started;
 
@@ -163,13 +162,13 @@ constexpr float_t __get__firstFrameLaserIntensity() const;
 // Methods
 
 /// @brief Method ProcessFrame addr 0x21b385c size 0x370 virtual true final false
- void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::bs_hook::Il2CppWrapperType playerData) ;
+ void ProcessFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info, ::bs_hook::Il2CppWrapperType playerData) ;
 
 /// @brief Method EnableObjects addr 0x21b3bcc size 0xd4 virtual false final false
  void EnableObjects(bool on) ;
 
 /// @brief Method OnPlayableDestroy addr 0x21b3ca0 size 0xcc virtual true final false
- void OnPlayableDestroy(::UnityEngine::Playables::Playable playable) ;
+ void OnPlayableDestroy(UnityEngine::Playables::Playable playable) ;
 
 // Ctor Parameters []
 explicit TubeLightIntensityBehaviour() ;
@@ -181,6 +180,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::TubeLightIntensityBehaviour);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TubeLightIntensityBehaviour, "", "TubeLightIntensityBehaviour");
+NEED_NO_BOX(GlobalNamespace::TubeLightIntensityBehaviour);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TubeLightIntensityBehaviour, "", "TubeLightIntensityBehaviour");

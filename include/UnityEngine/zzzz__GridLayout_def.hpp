@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__Behaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace {
 namespace UnityEngine {
 struct Vector3Int;
 }
@@ -19,7 +18,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10129))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16008))
 // CS Name: UnityEngine.GridLayout
-class CORDL_TYPE GridLayout : public ::UnityEngine::Behaviour {
+class CORDL_TYPE GridLayout : public UnityEngine::Behaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr GridLayout(GridLayout const& ) noexcept = default;
 constexpr GridLayout(GridLayout&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GridLayout(void* ptr) noexcept : ::UnityEngine::Behaviour(ptr) {
+constexpr explicit GridLayout(void* ptr) noexcept : UnityEngine::Behaviour(ptr) {
 }
 
 
@@ -56,7 +55,7 @@ constexpr explicit GridLayout(void* ptr) noexcept : ::UnityEngine::Behaviour(ptr
 // Methods
 
 /// @brief Method CellToLocal addr 0x2b82cdc size 0x68 virtual false final false
- ::UnityEngine::Vector3 CellToLocal(::UnityEngine::Vector3Int cellPosition) ;
+ UnityEngine::Vector3 CellToLocal(UnityEngine::Vector3Int cellPosition) ;
 
 /// @brief Method DoNothing addr 0x2b82d98 size 0x4 virtual false final false
  void DoNothing() ;
@@ -68,12 +67,11 @@ explicit GridLayout() ;
  void _ctor() ;
 
 /// @brief Method CellToLocal_Injected addr 0x2b82d44 size 0x54 virtual false final false
- void CellToLocal_Injected(ByRef<::UnityEngine::Vector3Int> cellPosition, ByRef<::UnityEngine::Vector3> ret) ;
+ void CellToLocal_Injected(ByRef<UnityEngine::Vector3Int> cellPosition, ByRef<UnityEngine::Vector3> ret) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::GridLayout);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::GridLayout, "UnityEngine", "GridLayout");
+NEED_NO_BOX(UnityEngine::GridLayout);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GridLayout, "UnityEngine", "GridLayout");

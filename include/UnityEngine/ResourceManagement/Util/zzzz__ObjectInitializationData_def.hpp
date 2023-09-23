@@ -2,15 +2,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
-namespace {
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct AsyncOperationHandle;
 }
-namespace UnityEngine::ResourceManagement::Util {
-struct SerializedType;
-}
 namespace UnityEngine::ResourceManagement {
 class ResourceManager;
+}
+namespace UnityEngine::ResourceManagement::Util {
+struct SerializedType;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {
@@ -25,8 +24,8 @@ namespace UnityEngine::ResourceManagement::Util {
 struct CORDL_TYPE ObjectInitializationData : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "m_Id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_ObjectType", ty: "::UnityEngine::ResourceManagement::Util::SerializedType", modifiers: "", def_value: None }, CppParam { name: "m_Data", ty: "::StringW", modifiers: "", def_value: None }]
-constexpr ObjectInitializationData(::StringW m_Id, ::UnityEngine::ResourceManagement::Util::SerializedType m_ObjectType, ::StringW m_Data) noexcept;
+// Ctor Parameters [CppParam { name: "m_Id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_ObjectType", ty: "UnityEngine::ResourceManagement::Util::SerializedType", modifiers: "", def_value: None }, CppParam { name: "m_Data", ty: "::StringW", modifiers: "", def_value: None }]
+constexpr ObjectInitializationData(::StringW m_Id, UnityEngine::ResourceManagement::Util::SerializedType m_ObjectType, ::StringW m_Data) noexcept;
 
 
                     constexpr ObjectInitializationData(ObjectInitializationData const&) = default;
@@ -65,11 +64,11 @@ constexpr void __set_m_Id(::StringW value) ;
 
 constexpr ::StringW __get_m_Id() const;
 
- ::UnityEngine::ResourceManagement::Util::SerializedType __declspec(property(get=__get_m_ObjectType, put=__set_m_ObjectType))  m_ObjectType;
+ UnityEngine::ResourceManagement::Util::SerializedType __declspec(property(get=__get_m_ObjectType, put=__set_m_ObjectType))  m_ObjectType;
 
-constexpr void __set_m_ObjectType(::UnityEngine::ResourceManagement::Util::SerializedType value) ;
+constexpr void __set_m_ObjectType(UnityEngine::ResourceManagement::Util::SerializedType value) ;
 
-constexpr ::UnityEngine::ResourceManagement::Util::SerializedType __get_m_ObjectType() const;
+constexpr UnityEngine::ResourceManagement::Util::SerializedType __get_m_ObjectType() const;
 
  ::StringW __declspec(property(get=__get_m_Data, put=__set_m_Data))  m_Data;
 
@@ -82,7 +81,7 @@ constexpr ::StringW __get_m_Data() const;
 
  ::StringW __declspec(property(get=get_Id))  Id;
 
- ::UnityEngine::ResourceManagement::Util::SerializedType __declspec(property(get=get_ObjectType))  ObjectType;
+ UnityEngine::ResourceManagement::Util::SerializedType __declspec(property(get=get_ObjectType))  ObjectType;
 
  ::StringW __declspec(property(get=get_Data))  Data;
 
@@ -93,7 +92,7 @@ constexpr ::StringW __get_m_Data() const;
  ::StringW get_Id() ;
 
 /// @brief Method get_ObjectType addr 0x2a3ae6c size 0x10 virtual false final false
- ::UnityEngine::ResourceManagement::Util::SerializedType get_ObjectType() ;
+ UnityEngine::ResourceManagement::Util::SerializedType get_ObjectType() ;
 
 /// @brief Method get_Data addr 0x2a3ae7c size 0x8 virtual false final false
  ::StringW get_Data() ;
@@ -106,11 +105,10 @@ template<typename TObject>
  TObject CreateInstance(::StringW idOverride) ;
 
 /// @brief Method GetAsyncInitHandle addr 0x2a3af1c size 0x24c virtual false final false
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle GetAsyncInitHandle(::UnityEngine::ResourceManagement::ResourceManager rm, ::StringW idOverride) ;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle GetAsyncInitHandle(UnityEngine::ResourceManagement::ResourceManager rm, ::StringW idOverride) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ResourceManagement::Util
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::Util::ObjectInitializationData, "UnityEngine.ResourceManagement.Util", "ObjectInitializationData");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::ObjectInitializationData, "UnityEngine.ResourceManagement.Util", "ObjectInitializationData");

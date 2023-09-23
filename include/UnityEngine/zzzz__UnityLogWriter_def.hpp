@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Text {
 class Encoding;
 }
@@ -18,7 +17,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3572))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9995))
 // CS Name: UnityEngine.UnityLogWriter
-class CORDL_TYPE UnityLogWriter : public ::System::IO::TextWriter {
+class CORDL_TYPE UnityLogWriter : public System::IO::TextWriter {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr UnityLogWriter(UnityLogWriter const& ) noexcept = default;
 constexpr UnityLogWriter(UnityLogWriter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UnityLogWriter(void* ptr) noexcept : ::System::IO::TextWriter(ptr) {
+constexpr explicit UnityLogWriter(void* ptr) noexcept : System::IO::TextWriter(ptr) {
 }
 
 
@@ -54,7 +53,7 @@ constexpr explicit UnityLogWriter(void* ptr) noexcept : ::System::IO::TextWriter
 
 // Properties
 
- ::System::Text::Encoding __declspec(property(get=get_Encoding))  Encoding;
+ System::Text::Encoding __declspec(property(get=get_Encoding))  Encoding;
 
 
 // Methods
@@ -69,7 +68,7 @@ static void WriteStringToUnityLogImpl(::StringW s) ;
 static void Init() ;
 
 /// @brief Method get_Encoding addr 0x2b2b7a4 size 0x8 virtual true final false
- ::System::Text::Encoding get_Encoding() ;
+ System::Text::Encoding get_Encoding() ;
 
 /// @brief Method Write addr 0x2b2b7ac size 0x54 virtual true final false
  void Write(char16_t value) ;
@@ -90,6 +89,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UnityLogWriter);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UnityLogWriter, "UnityEngine", "UnityLogWriter");
+NEED_NO_BOX(UnityEngine::UnityLogWriter);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnityLogWriter, "UnityEngine", "UnityLogWriter");

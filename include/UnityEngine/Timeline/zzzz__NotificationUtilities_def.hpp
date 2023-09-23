@@ -2,29 +2,28 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace UnityEngine::Timeline {
-class IMarker;
-}
 namespace UnityEngine::Playables {
-struct PlayableGraph;
+struct DirectorWrapMode;
 }
 namespace UnityEngine::Playables {
 template<typename T>
 struct ScriptPlayable_1;
 }
+namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
 namespace UnityEngine::Timeline {
 class TimeNotificationBehaviour;
 }
-namespace UnityEngine::Playables {
-struct DirectorWrapMode;
-}
 namespace System {
 class Type;
+}
+namespace UnityEngine::Timeline {
+class IMarker;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -73,15 +72,14 @@ constexpr explicit NotificationUtilities(void* ptr) noexcept : ::bs_hook::Il2Cpp
 // Methods
 
 /// @brief Method CreateNotificationsPlayable addr 0x2ad8434 size 0x6e0 virtual false final false
-static ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::TimeNotificationBehaviour> CreateNotificationsPlayable(::UnityEngine::Playables::PlayableGraph graph, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::IMarker> markers, double_t duration, ::UnityEngine::Playables::DirectorWrapMode extrapolationMode) ;
+static UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::TimeNotificationBehaviour> CreateNotificationsPlayable(UnityEngine::Playables::PlayableGraph graph, System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::IMarker> markers, double_t duration, UnityEngine::Playables::DirectorWrapMode extrapolationMode) ;
 
 /// @brief Method TrackTypeSupportsNotifications addr 0x2ad8b14 size 0x18c virtual false final false
-static bool TrackTypeSupportsNotifications(::System::Type type) ;
+static bool TrackTypeSupportsNotifications(System::Type type) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Timeline::NotificationUtilities);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::NotificationUtilities, "UnityEngine.Timeline", "NotificationUtilities");
+NEED_NO_BOX(UnityEngine::Timeline::NotificationUtilities);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::NotificationUtilities, "UnityEngine.Timeline", "NotificationUtilities");

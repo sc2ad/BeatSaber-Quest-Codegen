@@ -3,15 +3,14 @@
 #include "System/Collections/Generic/zzzz__EqualityComparer_1_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Runtime::Serialization {
-class ISerializable;
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+class ISerializable;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
@@ -23,14 +22,14 @@ namespace System::Collections::Generic {
 // cpp template
 template<typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3854), inst: 1619 }), TypeDefinitionIndex(TypeDefinitionIndex(3854))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3854)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3854), inst: 1619 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3862))
 // CS Name: System.Collections.Generic.LongEnumEqualityComparer`1
-class CORDL_TYPE LongEnumEqualityComparer_1 : public ::System::Collections::Generic::EqualityComparer_1<T> {
+class CORDL_TYPE LongEnumEqualityComparer_1 : public System::Collections::Generic::EqualityComparer_1<T> {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::Serialization::ISerializable
-constexpr operator  ::System::Runtime::Serialization::ISerializable() const noexcept;
+/// @brief Convert operator to System::Runtime::Serialization::ISerializable
+constexpr operator  System::Runtime::Serialization::ISerializable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -44,7 +43,7 @@ constexpr LongEnumEqualityComparer_1(LongEnumEqualityComparer_1 const& ) noexcep
 constexpr LongEnumEqualityComparer_1(LongEnumEqualityComparer_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LongEnumEqualityComparer_1(void* ptr) noexcept : ::System::Collections::Generic::EqualityComparer_1<T>(ptr) {
+constexpr explicit LongEnumEqualityComparer_1(void* ptr) noexcept : System::Collections::Generic::EqualityComparer_1<T>(ptr) {
 }
 
 
@@ -83,18 +82,17 @@ explicit LongEnumEqualityComparer_1() ;
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "information", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit LongEnumEqualityComparer_1(::System::Runtime::Serialization::SerializationInfo information, ::System::Runtime::Serialization::StreamingContext context) ;
+// Ctor Parameters [CppParam { name: "information", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit LongEnumEqualityComparer_1(System::Runtime::Serialization::SerializationInfo information, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo information, ::System::Runtime::Serialization::StreamingContext context) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo information, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method GetObjectData addr 0x0 size 0xffffffffffffffff virtual true final true
- void GetObjectData(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void GetObjectData(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Collections::Generic
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Generic::LongEnumEqualityComparer_1, "System.Collections.Generic", "LongEnumEqualityComparer`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::LongEnumEqualityComparer_1, "System.Collections.Generic", "LongEnumEqualityComparer`1");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class Type;
 }
@@ -34,7 +33,7 @@ constexpr explicit IMemoryPool(void* ptr) noexcept : ::cordl_internals::Interfac
 
  int32_t __declspec(property(get=get_NumInactive))  NumInactive;
 
- ::System::Type __declspec(property(get=get_ItemType))  ItemType;
+ System::Type __declspec(property(get=get_ItemType))  ItemType;
 
 
 // Methods
@@ -49,7 +48,7 @@ constexpr explicit IMemoryPool(void* ptr) noexcept : ::cordl_internals::Interfac
  int32_t get_NumInactive() ;
 
 /// @brief Method get_ItemType addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Type get_ItemType() ;
+ System::Type get_ItemType() ;
 
 /// @brief Method Resize addr 0x0 size 0xffffffffffffffff virtual true final false
  void Resize(int32_t desiredPoolSize) ;
@@ -70,6 +69,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::IMemoryPool);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::IMemoryPool, "Zenject", "IMemoryPool");
+NEED_NO_BOX(Zenject::IMemoryPool);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::IMemoryPool, "Zenject", "IMemoryPool");

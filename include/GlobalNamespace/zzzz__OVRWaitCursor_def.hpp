@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8977))
 // CS Name: OVRWaitCursor
-class CORDL_TYPE OVRWaitCursor : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OVRWaitCursor : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr OVRWaitCursor(OVRWaitCursor const& ) noexcept = default;
 constexpr OVRWaitCursor(OVRWaitCursor&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OVRWaitCursor(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OVRWaitCursor(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit OVRWaitCursor(void* ptr) noexcept : ::UnityEngine::MonoBehavi
 
 // Fields
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_rotateSpeeds, put=__set_rotateSpeeds))  rotateSpeeds;
+ UnityEngine::Vector3 __declspec(property(get=__get_rotateSpeeds, put=__set_rotateSpeeds))  rotateSpeeds;
 
-constexpr void __set_rotateSpeeds(::UnityEngine::Vector3 value) ;
+constexpr void __set_rotateSpeeds(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_rotateSpeeds() const;
+constexpr UnityEngine::Vector3 __get_rotateSpeeds() const;
 
 
 // Methods
@@ -73,6 +72,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OVRWaitCursor);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRWaitCursor, "", "OVRWaitCursor");
+NEED_NO_BOX(GlobalNamespace::OVRWaitCursor);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRWaitCursor, "", "OVRWaitCursor");

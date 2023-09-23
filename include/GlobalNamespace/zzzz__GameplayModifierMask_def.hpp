@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 struct GameplayModifierMask;
@@ -83,62 +82,61 @@ constexpr void __set_value__(uint16_t value) ;
 constexpr uint16_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::GlobalNamespace::GameplayModifierMask const None;
+static GlobalNamespace::GameplayModifierMask const None;
 
 /// @brief Field BatteryEnergy offset 0
-static ::GlobalNamespace::GameplayModifierMask const BatteryEnergy;
+static GlobalNamespace::GameplayModifierMask const BatteryEnergy;
 
 /// @brief Field NoFail offset 0
-static ::GlobalNamespace::GameplayModifierMask const NoFail;
+static GlobalNamespace::GameplayModifierMask const NoFail;
 
 /// @brief Field InstaFail offset 0
-static ::GlobalNamespace::GameplayModifierMask const InstaFail;
+static GlobalNamespace::GameplayModifierMask const InstaFail;
 
 /// @brief Field NoObstacles offset 0
-static ::GlobalNamespace::GameplayModifierMask const NoObstacles;
+static GlobalNamespace::GameplayModifierMask const NoObstacles;
 
 /// @brief Field NoBombs offset 0
-static ::GlobalNamespace::GameplayModifierMask const NoBombs;
+static GlobalNamespace::GameplayModifierMask const NoBombs;
 
 /// @brief Field FastNotes offset 0
-static ::GlobalNamespace::GameplayModifierMask const FastNotes;
+static GlobalNamespace::GameplayModifierMask const FastNotes;
 
 /// @brief Field StrictAngles offset 0
-static ::GlobalNamespace::GameplayModifierMask const StrictAngles;
+static GlobalNamespace::GameplayModifierMask const StrictAngles;
 
 /// @brief Field DisappearingArrows offset 0
-static ::GlobalNamespace::GameplayModifierMask const DisappearingArrows;
+static GlobalNamespace::GameplayModifierMask const DisappearingArrows;
 
 /// @brief Field FasterSong offset 0
-static ::GlobalNamespace::GameplayModifierMask const FasterSong;
+static GlobalNamespace::GameplayModifierMask const FasterSong;
 
 /// @brief Field SlowerSong offset 0
-static ::GlobalNamespace::GameplayModifierMask const SlowerSong;
+static GlobalNamespace::GameplayModifierMask const SlowerSong;
 
 /// @brief Field NoArrows offset 0
-static ::GlobalNamespace::GameplayModifierMask const NoArrows;
+static GlobalNamespace::GameplayModifierMask const NoArrows;
 
 /// @brief Field GhostNotes offset 0
-static ::GlobalNamespace::GameplayModifierMask const GhostNotes;
+static GlobalNamespace::GameplayModifierMask const GhostNotes;
 
 /// @brief Field SuperFastSong offset 0
-static ::GlobalNamespace::GameplayModifierMask const SuperFastSong;
+static GlobalNamespace::GameplayModifierMask const SuperFastSong;
 
 /// @brief Field ProMode offset 0
-static ::GlobalNamespace::GameplayModifierMask const ProMode;
+static GlobalNamespace::GameplayModifierMask const ProMode;
 
 /// @brief Field ZenMode offset 0
-static ::GlobalNamespace::GameplayModifierMask const ZenMode;
+static GlobalNamespace::GameplayModifierMask const ZenMode;
 
 /// @brief Field SmallCubes offset 0
-static ::GlobalNamespace::GameplayModifierMask const SmallCubes;
+static GlobalNamespace::GameplayModifierMask const SmallCubes;
 
 /// @brief Field All offset 0
-static ::GlobalNamespace::GameplayModifierMask const All;
+static GlobalNamespace::GameplayModifierMask const All;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameplayModifierMask, "", "GameplayModifierMask");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifierMask, "", "GameplayModifierMask");

@@ -3,25 +3,24 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine::Pool {
-template<typename T>
-class IObjectPool_1;
+namespace System {
+class IDisposable;
 }
 namespace System {
 template<typename TResult>
 class Func_1;
 }
-namespace System {
-class IDisposable;
+namespace UnityEngine::Pool {
+template<typename T>
+struct PooledObject_1;
+}
+namespace UnityEngine::Pool {
+template<typename T>
+class IObjectPool_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace UnityEngine::Pool {
-template<typename T>
-struct PooledObject_1;
 }
 namespace System {
 template<typename T>
@@ -48,11 +47,11 @@ template<::cordl_internals::il2cpp_reference_type T>
 class CORDL_TYPE ObjectPool_1<T> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::Pool::IObjectPool_1<T>
-constexpr operator  ::UnityEngine::Pool::IObjectPool_1<T>() const noexcept;
+/// @brief Convert operator to UnityEngine::Pool::IObjectPool_1<T>
+constexpr operator  UnityEngine::Pool::IObjectPool_1<T>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x50};
@@ -87,35 +86,35 @@ constexpr explicit ObjectPool_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 
 // Fields
 
- ::System::Collections::Generic::List_1<T> __declspec(property(get=__get_m_List, put=__set_m_List))  m_List;
+ System::Collections::Generic::List_1<T> __declspec(property(get=__get_m_List, put=__set_m_List))  m_List;
 
-constexpr void __set_m_List(::System::Collections::Generic::List_1<T> value) ;
+constexpr void __set_m_List(System::Collections::Generic::List_1<T> value) ;
 
-constexpr ::System::Collections::Generic::List_1<T> __get_m_List() const;
+constexpr System::Collections::Generic::List_1<T> __get_m_List() const;
 
- ::System::Func_1<T> __declspec(property(get=__get_m_CreateFunc, put=__set_m_CreateFunc))  m_CreateFunc;
+ System::Func_1<T> __declspec(property(get=__get_m_CreateFunc, put=__set_m_CreateFunc))  m_CreateFunc;
 
-constexpr void __set_m_CreateFunc(::System::Func_1<T> value) ;
+constexpr void __set_m_CreateFunc(System::Func_1<T> value) ;
 
-constexpr ::System::Func_1<T> __get_m_CreateFunc() const;
+constexpr System::Func_1<T> __get_m_CreateFunc() const;
 
- ::System::Action_1<T> __declspec(property(get=__get_m_ActionOnGet, put=__set_m_ActionOnGet))  m_ActionOnGet;
+ System::Action_1<T> __declspec(property(get=__get_m_ActionOnGet, put=__set_m_ActionOnGet))  m_ActionOnGet;
 
-constexpr void __set_m_ActionOnGet(::System::Action_1<T> value) ;
+constexpr void __set_m_ActionOnGet(System::Action_1<T> value) ;
 
-constexpr ::System::Action_1<T> __get_m_ActionOnGet() const;
+constexpr System::Action_1<T> __get_m_ActionOnGet() const;
 
- ::System::Action_1<T> __declspec(property(get=__get_m_ActionOnRelease, put=__set_m_ActionOnRelease))  m_ActionOnRelease;
+ System::Action_1<T> __declspec(property(get=__get_m_ActionOnRelease, put=__set_m_ActionOnRelease))  m_ActionOnRelease;
 
-constexpr void __set_m_ActionOnRelease(::System::Action_1<T> value) ;
+constexpr void __set_m_ActionOnRelease(System::Action_1<T> value) ;
 
-constexpr ::System::Action_1<T> __get_m_ActionOnRelease() const;
+constexpr System::Action_1<T> __get_m_ActionOnRelease() const;
 
- ::System::Action_1<T> __declspec(property(get=__get_m_ActionOnDestroy, put=__set_m_ActionOnDestroy))  m_ActionOnDestroy;
+ System::Action_1<T> __declspec(property(get=__get_m_ActionOnDestroy, put=__set_m_ActionOnDestroy))  m_ActionOnDestroy;
 
-constexpr void __set_m_ActionOnDestroy(::System::Action_1<T> value) ;
+constexpr void __set_m_ActionOnDestroy(System::Action_1<T> value) ;
 
-constexpr ::System::Action_1<T> __get_m_ActionOnDestroy() const;
+constexpr System::Action_1<T> __get_m_ActionOnDestroy() const;
 
  int32_t __declspec(property(get=__get_m_MaxSize, put=__set_m_MaxSize))  m_MaxSize;
 
@@ -154,17 +153,17 @@ constexpr int32_t __get__CountAll_k__BackingField() const;
 /// @brief Method get_CountInactive addr 0x0 size 0xffffffffffffffff virtual true final true
  int32_t get_CountInactive() ;
 
-// Ctor Parameters [CppParam { name: "createFunc", ty: "::System::Func_1<T>", modifiers: "", def_value: None }, CppParam { name: "actionOnGet", ty: "::System::Action_1<T>", modifiers: "", def_value: None }, CppParam { name: "actionOnRelease", ty: "::System::Action_1<T>", modifiers: "", def_value: None }, CppParam { name: "actionOnDestroy", ty: "::System::Action_1<T>", modifiers: "", def_value: None }, CppParam { name: "collectionCheck", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "defaultCapacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ObjectPool_1(::System::Func_1<T> createFunc, ::System::Action_1<T> actionOnGet, ::System::Action_1<T> actionOnRelease, ::System::Action_1<T> actionOnDestroy, bool collectionCheck, int32_t defaultCapacity, int32_t maxSize) ;
+// Ctor Parameters [CppParam { name: "createFunc", ty: "System::Func_1<T>", modifiers: "", def_value: None }, CppParam { name: "actionOnGet", ty: "System::Action_1<T>", modifiers: "", def_value: None }, CppParam { name: "actionOnRelease", ty: "System::Action_1<T>", modifiers: "", def_value: None }, CppParam { name: "actionOnDestroy", ty: "System::Action_1<T>", modifiers: "", def_value: None }, CppParam { name: "collectionCheck", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "defaultCapacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxSize", ty: "int32_t", modifiers: "", def_value: None }]
+explicit ObjectPool_1(System::Func_1<T> createFunc, System::Action_1<T> actionOnGet, System::Action_1<T> actionOnRelease, System::Action_1<T> actionOnDestroy, bool collectionCheck, int32_t defaultCapacity, int32_t maxSize) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Func_1<T> createFunc, ::System::Action_1<T> actionOnGet, ::System::Action_1<T> actionOnRelease, ::System::Action_1<T> actionOnDestroy, bool collectionCheck, int32_t defaultCapacity, int32_t maxSize) ;
+ void _ctor(System::Func_1<T> createFunc, System::Action_1<T> actionOnGet, System::Action_1<T> actionOnRelease, System::Action_1<T> actionOnDestroy, bool collectionCheck, int32_t defaultCapacity, int32_t maxSize) ;
 
 /// @brief Method Get addr 0x0 size 0xffffffffffffffff virtual true final true
  T Get() ;
 
 /// @brief Method Get addr 0x0 size 0xffffffffffffffff virtual true final true
- ::UnityEngine::Pool::PooledObject_1<T> Get(ByRef<T> v) ;
+ UnityEngine::Pool::PooledObject_1<T> Get(ByRef<T> v) ;
 
 /// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual true final true
  void Release(T element) ;
@@ -179,5 +178,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Pool
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::Pool::ObjectPool_1, "UnityEngine.Pool", "ObjectPool`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::Pool::ObjectPool_1, "UnityEngine.Pool", "ObjectPool`1");

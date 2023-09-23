@@ -3,7 +3,6 @@
 #include "System/Security/Cryptography/zzzz__Aes_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::Security::Cryptography {
 struct CipherMode;
 }
@@ -26,7 +25,7 @@ namespace System::Security::Cryptography {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2913))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14531))
 // CS Name: System.Security.Cryptography.AesManaged
-class CORDL_TYPE AesManaged : public ::System::Security::Cryptography::Aes {
+class CORDL_TYPE AesManaged : public System::Security::Cryptography::Aes {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -41,7 +40,7 @@ constexpr AesManaged(AesManaged const& ) noexcept = default;
 constexpr AesManaged(AesManaged&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AesManaged(void* ptr) noexcept : ::System::Security::Cryptography::Aes(ptr) {
+constexpr explicit AesManaged(void* ptr) noexcept : System::Security::Cryptography::Aes(ptr) {
 }
 
 
@@ -62,11 +61,11 @@ constexpr explicit AesManaged(void* ptr) noexcept : ::System::Security::Cryptogr
 
 // Fields
 
- ::System::Security::Cryptography::RijndaelManaged __declspec(property(get=__get_m_rijndael, put=__set_m_rijndael))  m_rijndael;
+ System::Security::Cryptography::RijndaelManaged __declspec(property(get=__get_m_rijndael, put=__set_m_rijndael))  m_rijndael;
 
-constexpr void __set_m_rijndael(::System::Security::Cryptography::RijndaelManaged value) ;
+constexpr void __set_m_rijndael(System::Security::Cryptography::RijndaelManaged value) ;
 
-constexpr ::System::Security::Cryptography::RijndaelManaged __get_m_rijndael() const;
+constexpr System::Security::Cryptography::RijndaelManaged __get_m_rijndael() const;
 
 
 // Properties
@@ -79,9 +78,9 @@ constexpr ::System::Security::Cryptography::RijndaelManaged __get_m_rijndael() c
 
  int32_t __declspec(property(get=get_KeySize, put=set_KeySize))  KeySize;
 
- ::System::Security::Cryptography::CipherMode __declspec(property(get=get_Mode, put=set_Mode))  Mode;
+ System::Security::Cryptography::CipherMode __declspec(property(get=get_Mode, put=set_Mode))  Mode;
 
- ::System::Security::Cryptography::PaddingMode __declspec(property(get=get_Padding, put=set_Padding))  Padding;
+ System::Security::Cryptography::PaddingMode __declspec(property(get=get_Padding, put=set_Padding))  Padding;
 
 
 // Methods
@@ -114,28 +113,28 @@ explicit AesManaged() ;
  void set_KeySize(int32_t value) ;
 
 /// @brief Method get_Mode addr 0x267ba04 size 0x24 virtual true final false
- ::System::Security::Cryptography::CipherMode get_Mode() ;
+ System::Security::Cryptography::CipherMode get_Mode() ;
 
 /// @brief Method set_Mode addr 0x267ba28 size 0x88 virtual true final false
- void set_Mode(::System::Security::Cryptography::CipherMode value) ;
+ void set_Mode(System::Security::Cryptography::CipherMode value) ;
 
 /// @brief Method get_Padding addr 0x267bab0 size 0x24 virtual true final false
- ::System::Security::Cryptography::PaddingMode get_Padding() ;
+ System::Security::Cryptography::PaddingMode get_Padding() ;
 
 /// @brief Method set_Padding addr 0x267bad4 size 0x24 virtual true final false
- void set_Padding(::System::Security::Cryptography::PaddingMode value) ;
+ void set_Padding(System::Security::Cryptography::PaddingMode value) ;
 
 /// @brief Method CreateDecryptor addr 0x267baf8 size 0x24 virtual true final false
- ::System::Security::Cryptography::ICryptoTransform CreateDecryptor() ;
+ System::Security::Cryptography::ICryptoTransform CreateDecryptor() ;
 
 /// @brief Method CreateDecryptor addr 0x267bb1c size 0x14c virtual true final false
- ::System::Security::Cryptography::ICryptoTransform CreateDecryptor(::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv) ;
+ System::Security::Cryptography::ICryptoTransform CreateDecryptor(::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv) ;
 
 /// @brief Method CreateEncryptor addr 0x267bc68 size 0x24 virtual true final false
- ::System::Security::Cryptography::ICryptoTransform CreateEncryptor() ;
+ System::Security::Cryptography::ICryptoTransform CreateEncryptor() ;
 
 /// @brief Method CreateEncryptor addr 0x267bc8c size 0x14c virtual true final false
- ::System::Security::Cryptography::ICryptoTransform CreateEncryptor(::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv) ;
+ System::Security::Cryptography::ICryptoTransform CreateEncryptor(::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv) ;
 
 /// @brief Method Dispose addr 0x267bdd8 size 0x130 virtual true final false
  void Dispose(bool disposing) ;
@@ -150,6 +149,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::AesManaged);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::AesManaged, "System.Security.Cryptography", "AesManaged");
+NEED_NO_BOX(System::Security::Cryptography::AesManaged);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::AesManaged, "System.Security.Cryptography", "AesManaged");

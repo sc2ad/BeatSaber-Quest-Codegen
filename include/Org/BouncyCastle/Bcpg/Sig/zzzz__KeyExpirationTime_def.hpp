@@ -3,7 +3,6 @@
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacket_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::Sig {
 class KeyExpirationTime;
@@ -14,7 +13,7 @@ namespace Org::BouncyCastle::Bcpg::Sig {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(531))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(536))
 // CS Name: Org.BouncyCastle.Bcpg.Sig.KeyExpirationTime
-class CORDL_TYPE KeyExpirationTime : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
+class CORDL_TYPE KeyExpirationTime : public Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr KeyExpirationTime(KeyExpirationTime const& ) noexcept = default;
 constexpr KeyExpirationTime(KeyExpirationTime&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit KeyExpirationTime(void* ptr) noexcept : ::Org::BouncyCastle::Bcpg::SignatureSubpacket(ptr) {
+constexpr explicit KeyExpirationTime(void* ptr) noexcept : Org::BouncyCastle::Bcpg::SignatureSubpacket(ptr) {
 }
 
 
@@ -77,6 +76,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg::Sig
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::Sig::KeyExpirationTime);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::Sig::KeyExpirationTime, "Org.BouncyCastle.Bcpg.Sig", "KeyExpirationTime");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::Sig::KeyExpirationTime);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::Sig::KeyExpirationTime, "Org.BouncyCastle.Bcpg.Sig", "KeyExpirationTime");

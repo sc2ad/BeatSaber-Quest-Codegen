@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 #include <cstddef>
-namespace {
 namespace UnityEngine {
 struct Vector2;
 }
@@ -10,10 +9,10 @@ namespace UnityEngine {
 struct Color32;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Vector4;
 }
 namespace UnityEngine {
-struct Vector4;
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -28,8 +27,8 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE Vertex : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "tint", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "uv", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "xformClipPages", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "ids", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "opacityColorPages", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "circle", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "textureId", ty: "float_t", modifiers: "", def_value: None }]
-constexpr Vertex(::UnityEngine::Vector3 position, ::UnityEngine::Color32 tint, ::UnityEngine::Vector2 uv, ::UnityEngine::Color32 xformClipPages, ::UnityEngine::Color32 ids, ::UnityEngine::Color32 flags, ::UnityEngine::Color32 opacityColorPages, ::UnityEngine::Vector4 circle, float_t textureId) noexcept;
+// Ctor Parameters [CppParam { name: "position", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "tint", ty: "UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "uv", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "xformClipPages", ty: "UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "ids", ty: "UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "opacityColorPages", ty: "UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "circle", ty: "UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "textureId", ty: "float_t", modifiers: "", def_value: None }]
+constexpr Vertex(UnityEngine::Vector3 position, UnityEngine::Color32 tint, UnityEngine::Vector2 uv, UnityEngine::Color32 xformClipPages, UnityEngine::Color32 ids, UnityEngine::Color32 flags, UnityEngine::Color32 opacityColorPages, UnityEngine::Vector4 circle, float_t textureId) noexcept;
 
 
                     constexpr Vertex(Vertex const&) = default;
@@ -68,53 +67,53 @@ static void __set_nearZ(float_t value) ;
 
 static float_t __get_nearZ() ;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_position, put=__set_position))  position;
+ UnityEngine::Vector3 __declspec(property(get=__get_position, put=__set_position))  position;
 
-constexpr void __set_position(::UnityEngine::Vector3 value) ;
+constexpr void __set_position(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_position() const;
+constexpr UnityEngine::Vector3 __get_position() const;
 
- ::UnityEngine::Color32 __declspec(property(get=__get_tint, put=__set_tint))  tint;
+ UnityEngine::Color32 __declspec(property(get=__get_tint, put=__set_tint))  tint;
 
-constexpr void __set_tint(::UnityEngine::Color32 value) ;
+constexpr void __set_tint(UnityEngine::Color32 value) ;
 
-constexpr ::UnityEngine::Color32 __get_tint() const;
+constexpr UnityEngine::Color32 __get_tint() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_uv, put=__set_uv))  uv;
+ UnityEngine::Vector2 __declspec(property(get=__get_uv, put=__set_uv))  uv;
 
-constexpr void __set_uv(::UnityEngine::Vector2 value) ;
+constexpr void __set_uv(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_uv() const;
+constexpr UnityEngine::Vector2 __get_uv() const;
 
- ::UnityEngine::Color32 __declspec(property(get=__get_xformClipPages, put=__set_xformClipPages))  xformClipPages;
+ UnityEngine::Color32 __declspec(property(get=__get_xformClipPages, put=__set_xformClipPages))  xformClipPages;
 
-constexpr void __set_xformClipPages(::UnityEngine::Color32 value) ;
+constexpr void __set_xformClipPages(UnityEngine::Color32 value) ;
 
-constexpr ::UnityEngine::Color32 __get_xformClipPages() const;
+constexpr UnityEngine::Color32 __get_xformClipPages() const;
 
- ::UnityEngine::Color32 __declspec(property(get=__get_ids, put=__set_ids))  ids;
+ UnityEngine::Color32 __declspec(property(get=__get_ids, put=__set_ids))  ids;
 
-constexpr void __set_ids(::UnityEngine::Color32 value) ;
+constexpr void __set_ids(UnityEngine::Color32 value) ;
 
-constexpr ::UnityEngine::Color32 __get_ids() const;
+constexpr UnityEngine::Color32 __get_ids() const;
 
- ::UnityEngine::Color32 __declspec(property(get=__get_flags, put=__set_flags))  flags;
+ UnityEngine::Color32 __declspec(property(get=__get_flags, put=__set_flags))  flags;
 
-constexpr void __set_flags(::UnityEngine::Color32 value) ;
+constexpr void __set_flags(UnityEngine::Color32 value) ;
 
-constexpr ::UnityEngine::Color32 __get_flags() const;
+constexpr UnityEngine::Color32 __get_flags() const;
 
- ::UnityEngine::Color32 __declspec(property(get=__get_opacityColorPages, put=__set_opacityColorPages))  opacityColorPages;
+ UnityEngine::Color32 __declspec(property(get=__get_opacityColorPages, put=__set_opacityColorPages))  opacityColorPages;
 
-constexpr void __set_opacityColorPages(::UnityEngine::Color32 value) ;
+constexpr void __set_opacityColorPages(UnityEngine::Color32 value) ;
 
-constexpr ::UnityEngine::Color32 __get_opacityColorPages() const;
+constexpr UnityEngine::Color32 __get_opacityColorPages() const;
 
- ::UnityEngine::Vector4 __declspec(property(get=__get_circle, put=__set_circle))  circle;
+ UnityEngine::Vector4 __declspec(property(get=__get_circle, put=__set_circle))  circle;
 
-constexpr void __set_circle(::UnityEngine::Vector4 value) ;
+constexpr void __set_circle(UnityEngine::Vector4 value) ;
 
-constexpr ::UnityEngine::Vector4 __get_circle() const;
+constexpr UnityEngine::Vector4 __get_circle() const;
 
  float_t __declspec(property(get=__get_textureId, put=__set_textureId))  textureId;
 
@@ -126,5 +125,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Vertex, "UnityEngine.UIElements", "Vertex");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::Vertex, "UnityEngine.UIElements", "Vertex");

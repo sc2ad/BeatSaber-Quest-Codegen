@@ -4,13 +4,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine {
-class Animator;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
@@ -18,12 +11,18 @@ class IEnumerator_1;
 namespace System {
 class IDisposable;
 }
+namespace System::Collections {
+class IEnumerator;
+}
+namespace UnityEngine {
+class Animator;
+}
 // Forward declare root types
 namespace GlobalNamespace {
-class ShowHideAnimationController;
+class GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9;
+class ShowHideAnimationController;
 }
 // Type: ::<DeactivateSelfAfterDelayCoroutine>d__9
 namespace GlobalNamespace {
@@ -31,46 +30,46 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13829))
 // CS Name: ShowHideAnimationController::<DeactivateSelfAfterDelayCoroutine>d__9
-class CORDL_TYPE ____GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9() = default;
+virtual ~GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9(____GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9(GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9(____GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9(GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9& operator=(____GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9&& o) noexcept = default;
-  constexpr ____GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9& operator=(____GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9 const& o) noexcept = default;
+  constexpr GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9& operator=(GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9&& o) noexcept = default;
+  constexpr GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9& operator=(GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9 const& o) noexcept = default;
                 
 
 
@@ -94,11 +93,11 @@ constexpr void __set_delay(float_t value) ;
 
 constexpr float_t __get_delay() const;
 
- ::GlobalNamespace::ShowHideAnimationController __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::ShowHideAnimationController __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::ShowHideAnimationController value) ;
+constexpr void __set___4__this(GlobalNamespace::ShowHideAnimationController value) ;
 
-constexpr ::GlobalNamespace::ShowHideAnimationController __get___4__this() const;
+constexpr GlobalNamespace::ShowHideAnimationController __get___4__this() const;
 
 
 // Properties
@@ -111,7 +110,7 @@ constexpr ::GlobalNamespace::ShowHideAnimationController __get___4__this() const
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9(int32_t __1__state) ;
+explicit GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1f7aec4 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -141,10 +140,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13830))
 // CS Name: ShowHideAnimationController
-class CORDL_TYPE ShowHideAnimationController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ShowHideAnimationController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using _DeactivateSelfAfterDelayCoroutine_d__9 = ::GlobalNamespace::____GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9;
+using _DeactivateSelfAfterDelayCoroutine_d__9 = GlobalNamespace::GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -158,7 +157,7 @@ constexpr ShowHideAnimationController(ShowHideAnimationController const& ) noexc
 constexpr ShowHideAnimationController(ShowHideAnimationController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ShowHideAnimationController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ShowHideAnimationController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -179,11 +178,11 @@ constexpr explicit ShowHideAnimationController(void* ptr) noexcept : ::UnityEngi
 
 // Fields
 
- ::UnityEngine::Animator __declspec(property(get=__get__animator, put=__set__animator))  _animator;
+ UnityEngine::Animator __declspec(property(get=__get__animator, put=__set__animator))  _animator;
 
-constexpr void __set__animator(::UnityEngine::Animator value) ;
+constexpr void __set__animator(UnityEngine::Animator value) ;
 
-constexpr ::UnityEngine::Animator __get__animator() const;
+constexpr UnityEngine::Animator __get__animator() const;
 
  bool __declspec(property(get=__get__deactivateSelfAfterDelay, put=__set__deactivateSelfAfterDelay))  _deactivateSelfAfterDelay;
 
@@ -227,7 +226,7 @@ constexpr int32_t __get__showAnimatorParam() const;
  void Awake() ;
 
 /// @brief Method DeactivateSelfAfterDelayCoroutine addr 0x1f7ae4c size 0x78 virtual false final false
- ::System::Collections::IEnumerator DeactivateSelfAfterDelayCoroutine(float_t delay) ;
+ System::Collections::IEnumerator DeactivateSelfAfterDelayCoroutine(float_t delay) ;
 
 // Ctor Parameters []
 explicit ShowHideAnimationController() ;
@@ -239,8 +238,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ShowHideAnimationController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ShowHideAnimationController, "", "ShowHideAnimationController");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9, "", "ShowHideAnimationController/<DeactivateSelfAfterDelayCoroutine>d__9");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9, "", "ShowHideAnimationController/<DeactivateSelfAfterDelayCoroutine>d__9");
+NEED_NO_BOX(GlobalNamespace::ShowHideAnimationController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShowHideAnimationController, "", "ShowHideAnimationController");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
 struct EntityType;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Detail offset 0
-static ::UnityEngine::ProBuilder::EntityType const Detail;
+static UnityEngine::ProBuilder::EntityType const Detail;
 
 /// @brief Field Occluder offset 0
-static ::UnityEngine::ProBuilder::EntityType const Occluder;
+static UnityEngine::ProBuilder::EntityType const Occluder;
 
 /// @brief Field Trigger offset 0
-static ::UnityEngine::ProBuilder::EntityType const Trigger;
+static UnityEngine::ProBuilder::EntityType const Trigger;
 
 /// @brief Field Collider offset 0
-static ::UnityEngine::ProBuilder::EntityType const Collider;
+static UnityEngine::ProBuilder::EntityType const Collider;
 
 /// @brief Field Mover offset 0
-static ::UnityEngine::ProBuilder::EntityType const Mover;
+static UnityEngine::ProBuilder::EntityType const Mover;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::EntityType, "UnityEngine.ProBuilder", "EntityType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::EntityType, "UnityEngine.ProBuilder", "EntityType");

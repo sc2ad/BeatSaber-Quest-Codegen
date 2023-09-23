@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class RandomValueToShader;
@@ -13,7 +12,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14656))
 // CS Name: RandomValueToShader
-class CORDL_TYPE RandomValueToShader : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE RandomValueToShader : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr RandomValueToShader(RandomValueToShader const& ) noexcept = default;
 constexpr RandomValueToShader(RandomValueToShader&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RandomValueToShader(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit RandomValueToShader(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -77,6 +76,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::RandomValueToShader);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RandomValueToShader, "", "RandomValueToShader");
+NEED_NO_BOX(GlobalNamespace::RandomValueToShader);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RandomValueToShader, "", "RandomValueToShader");

@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 struct DataType;
@@ -76,41 +75,40 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::DataType const None;
+static UnityEngine::UIElements::StyleSheets::Syntax::DataType const None;
 
 /// @brief Field Number offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::DataType const Number;
+static UnityEngine::UIElements::StyleSheets::Syntax::DataType const Number;
 
 /// @brief Field Integer offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::DataType const Integer;
+static UnityEngine::UIElements::StyleSheets::Syntax::DataType const Integer;
 
 /// @brief Field Length offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::DataType const Length;
+static UnityEngine::UIElements::StyleSheets::Syntax::DataType const Length;
 
 /// @brief Field Percentage offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::DataType const Percentage;
+static UnityEngine::UIElements::StyleSheets::Syntax::DataType const Percentage;
 
 /// @brief Field Color offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::DataType const Color;
+static UnityEngine::UIElements::StyleSheets::Syntax::DataType const Color;
 
 /// @brief Field Resource offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::DataType const Resource;
+static UnityEngine::UIElements::StyleSheets::Syntax::DataType const Resource;
 
 /// @brief Field Url offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::DataType const Url;
+static UnityEngine::UIElements::StyleSheets::Syntax::DataType const Url;
 
 /// @brief Field Time offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::DataType const Time;
+static UnityEngine::UIElements::StyleSheets::Syntax::DataType const Time;
 
 /// @brief Field Angle offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::DataType const Angle;
+static UnityEngine::UIElements::StyleSheets::Syntax::DataType const Angle;
 
 /// @brief Field CustomIdent offset 0
-static ::UnityEngine::UIElements::StyleSheets::Syntax::DataType const CustomIdent;
+static UnityEngine::UIElements::StyleSheets::Syntax::DataType const CustomIdent;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::StyleSheets::Syntax
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::Syntax::DataType, "UnityEngine.UIElements.StyleSheets.Syntax", "DataType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::StyleSheets::Syntax::DataType, "UnityEngine.UIElements.StyleSheets.Syntax", "DataType");

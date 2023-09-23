@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform {
 struct RichPresenceExtraContext;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::Oculus::Platform::RichPresenceExtraContext const Unknown;
+static Oculus::Platform::RichPresenceExtraContext const Unknown;
 
 /// @brief Field None offset 0
-static ::Oculus::Platform::RichPresenceExtraContext const None;
+static Oculus::Platform::RichPresenceExtraContext const None;
 
 /// @brief Field CurrentCapacity offset 0
-static ::Oculus::Platform::RichPresenceExtraContext const CurrentCapacity;
+static Oculus::Platform::RichPresenceExtraContext const CurrentCapacity;
 
 /// @brief Field StartedAgo offset 0
-static ::Oculus::Platform::RichPresenceExtraContext const StartedAgo;
+static Oculus::Platform::RichPresenceExtraContext const StartedAgo;
 
 /// @brief Field EndingIn offset 0
-static ::Oculus::Platform::RichPresenceExtraContext const EndingIn;
+static Oculus::Platform::RichPresenceExtraContext const EndingIn;
 
 /// @brief Field LookingForAMatch offset 0
-static ::Oculus::Platform::RichPresenceExtraContext const LookingForAMatch;
+static Oculus::Platform::RichPresenceExtraContext const LookingForAMatch;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::RichPresenceExtraContext, "Oculus.Platform", "RichPresenceExtraContext");
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::RichPresenceExtraContext, "Oculus.Platform", "RichPresenceExtraContext");

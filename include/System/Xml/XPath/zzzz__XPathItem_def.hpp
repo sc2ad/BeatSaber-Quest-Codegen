@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace System::Xml::Schema {
+class XmlSchemaType;
+}
 namespace System {
 class Type;
 }
 namespace System {
 struct DateTime;
-}
-namespace System::Xml::Schema {
-class XmlSchemaType;
 }
 namespace System::Xml {
 class IXmlNamespaceResolver;
@@ -63,17 +62,17 @@ constexpr explicit XPathItem(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 
 // Properties
 
- ::System::Xml::Schema::XmlSchemaType __declspec(property(get=get_XmlType))  XmlType;
+ System::Xml::Schema::XmlSchemaType __declspec(property(get=get_XmlType))  XmlType;
 
  ::StringW __declspec(property(get=get_Value))  Value;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_TypedValue))  TypedValue;
 
- ::System::Type __declspec(property(get=get_ValueType))  ValueType;
+ System::Type __declspec(property(get=get_ValueType))  ValueType;
 
  bool __declspec(property(get=get_ValueAsBoolean))  ValueAsBoolean;
 
- ::System::DateTime __declspec(property(get=get_ValueAsDateTime))  ValueAsDateTime;
+ System::DateTime __declspec(property(get=get_ValueAsDateTime))  ValueAsDateTime;
 
  double_t __declspec(property(get=get_ValueAsDouble))  ValueAsDouble;
 
@@ -85,7 +84,7 @@ constexpr explicit XPathItem(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 // Methods
 
 /// @brief Method get_XmlType addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Xml::Schema::XmlSchemaType get_XmlType() ;
+ System::Xml::Schema::XmlSchemaType get_XmlType() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual true final false
  ::StringW get_Value() ;
@@ -94,13 +93,13 @@ constexpr explicit XPathItem(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
  ::bs_hook::Il2CppWrapperType get_TypedValue() ;
 
 /// @brief Method get_ValueType addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Type get_ValueType() ;
+ System::Type get_ValueType() ;
 
 /// @brief Method get_ValueAsBoolean addr 0x0 size 0xffffffffffffffff virtual true final false
  bool get_ValueAsBoolean() ;
 
 /// @brief Method get_ValueAsDateTime addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::DateTime get_ValueAsDateTime() ;
+ System::DateTime get_ValueAsDateTime() ;
 
 /// @brief Method get_ValueAsDouble addr 0x0 size 0xffffffffffffffff virtual true final false
  double_t get_ValueAsDouble() ;
@@ -112,10 +111,10 @@ constexpr explicit XPathItem(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
  int64_t get_ValueAsLong() ;
 
 /// @brief Method ValueAs addr 0x27164f8 size 0x14 virtual true final false
- ::bs_hook::Il2CppWrapperType ValueAs(::System::Type returnType) ;
+ ::bs_hook::Il2CppWrapperType ValueAs(System::Type returnType) ;
 
 /// @brief Method ValueAs addr 0x0 size 0xffffffffffffffff virtual true final false
- ::bs_hook::Il2CppWrapperType ValueAs(::System::Type returnType, ::System::Xml::IXmlNamespaceResolver nsResolver) ;
+ ::bs_hook::Il2CppWrapperType ValueAs(System::Type returnType, System::Xml::IXmlNamespaceResolver nsResolver) ;
 
 // Ctor Parameters []
 explicit XPathItem() ;
@@ -127,6 +126,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::XPath
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::XPath::XPathItem);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XPath::XPathItem, "System.Xml.XPath", "XPathItem");
+NEED_NO_BOX(System::Xml::XPath::XPathItem);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XPath::XPathItem, "System.Xml.XPath", "XPathItem");

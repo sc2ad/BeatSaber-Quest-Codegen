@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace HoudiniEngineUnity {
 class HEU_OutputAttribute;
 }
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9529))
 // CS Name: HEU_ExampleInstanceCustomAttribute
-class CORDL_TYPE HEU_ExampleInstanceCustomAttribute : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE HEU_ExampleInstanceCustomAttribute : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr HEU_ExampleInstanceCustomAttribute(HEU_ExampleInstanceCustomAttribute 
 constexpr HEU_ExampleInstanceCustomAttribute(HEU_ExampleInstanceCustomAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HEU_ExampleInstanceCustomAttribute(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit HEU_ExampleInstanceCustomAttribute(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -62,7 +61,7 @@ template<typename T>
 static void LogArray(::StringW name, ::ArrayW<T> arr, int32_t tupleSize) ;
 
 /// @brief Method LogAttr addr 0x1fd95e8 size 0x154 virtual false final false
-static void LogAttr(::HoudiniEngineUnity::HEU_OutputAttribute outAttr) ;
+static void LogAttr(HoudiniEngineUnity::HEU_OutputAttribute outAttr) ;
 
 // Ctor Parameters []
 explicit HEU_ExampleInstanceCustomAttribute() ;
@@ -74,6 +73,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::HEU_ExampleInstanceCustomAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::HEU_ExampleInstanceCustomAttribute, "", "HEU_ExampleInstanceCustomAttribute");
+NEED_NO_BOX(GlobalNamespace::HEU_ExampleInstanceCustomAttribute);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HEU_ExampleInstanceCustomAttribute, "", "HEU_ExampleInstanceCustomAttribute");

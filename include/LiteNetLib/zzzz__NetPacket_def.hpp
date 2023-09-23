@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace LiteNetLib {
 struct PacketProperty;
 }
@@ -80,7 +79,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_UserData() const;
 
 // Properties
 
- ::LiteNetLib::PacketProperty __declspec(property(get=get_Property, put=set_Property))  Property;
+ LiteNetLib::PacketProperty __declspec(property(get=get_Property, put=set_Property))  Property;
 
  uint8_t __declspec(property(get=get_ConnectionNumber, put=set_ConnectionNumber))  ConnectionNumber;
 
@@ -100,10 +99,10 @@ constexpr ::bs_hook::Il2CppWrapperType __get_UserData() const;
 // Methods
 
 /// @brief Method get_Property addr 0x208c428 size 0x2c virtual false final false
- ::LiteNetLib::PacketProperty get_Property() ;
+ LiteNetLib::PacketProperty get_Property() ;
 
 /// @brief Method set_Property addr 0x208e03c size 0x34 virtual false final false
- void set_Property(::LiteNetLib::PacketProperty value) ;
+ void set_Property(LiteNetLib::PacketProperty value) ;
 
 /// @brief Method get_ConnectionNumber addr 0x208f3c8 size 0x2c virtual false final false
  uint8_t get_ConnectionNumber() ;
@@ -153,14 +152,14 @@ explicit NetPacket(int32_t size) ;
 /// @brief Method .ctor addr 0x208f670 size 0x6c virtual false final false
  void _ctor(int32_t size) ;
 
-// Ctor Parameters [CppParam { name: "property", ty: "::LiteNetLib::PacketProperty", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }]
-explicit NetPacket(::LiteNetLib::PacketProperty property, int32_t size) ;
+// Ctor Parameters [CppParam { name: "property", ty: "LiteNetLib::PacketProperty", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }]
+explicit NetPacket(LiteNetLib::PacketProperty property, int32_t size) ;
 
 /// @brief Method .ctor addr 0x208f6dc size 0xcc virtual false final false
- void _ctor(::LiteNetLib::PacketProperty property, int32_t size) ;
+ void _ctor(LiteNetLib::PacketProperty property, int32_t size) ;
 
 /// @brief Method GetHeaderSize addr 0x208e010 size 0x2c virtual false final false
-static int32_t GetHeaderSize(::LiteNetLib::PacketProperty property) ;
+static int32_t GetHeaderSize(LiteNetLib::PacketProperty property) ;
 
 /// @brief Method GetHeaderSize addr 0x2088c30 size 0x88 virtual false final false
  int32_t GetHeaderSize() ;
@@ -172,6 +171,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib
-} // end anonymous namespace
-NEED_NO_BOX(::LiteNetLib::NetPacket);
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::NetPacket, "LiteNetLib", "NetPacket");
+NEED_NO_BOX(LiteNetLib::NetPacket);
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPacket, "LiteNetLib", "NetPacket");

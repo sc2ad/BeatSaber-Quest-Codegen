@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace HMUI {
-struct ____HMUI__SelectableCell__TransitionType;
-}
 namespace UnityEngine {
 class AnimationClip;
+}
+namespace HMUI {
+struct HMUI__SelectableCell__TransitionType;
 }
 namespace HMUI {
 class SelectableCell;
@@ -22,7 +21,7 @@ namespace HMUI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13705))
 // CS Name: HMUI.SelectableCellStaticAnimations
-class CORDL_TYPE SelectableCellStaticAnimations : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SelectableCellStaticAnimations : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr SelectableCellStaticAnimations(SelectableCellStaticAnimations const& )
 constexpr SelectableCellStaticAnimations(SelectableCellStaticAnimations&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SelectableCellStaticAnimations(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SelectableCellStaticAnimations(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -58,35 +57,35 @@ constexpr explicit SelectableCellStaticAnimations(void* ptr) noexcept : ::UnityE
 
 // Fields
 
- ::HMUI::SelectableCell __declspec(property(get=__get__selectableCell, put=__set__selectableCell))  _selectableCell;
+ HMUI::SelectableCell __declspec(property(get=__get__selectableCell, put=__set__selectableCell))  _selectableCell;
 
-constexpr void __set__selectableCell(::HMUI::SelectableCell value) ;
+constexpr void __set__selectableCell(HMUI::SelectableCell value) ;
 
-constexpr ::HMUI::SelectableCell __get__selectableCell() const;
+constexpr HMUI::SelectableCell __get__selectableCell() const;
 
- ::UnityEngine::AnimationClip __declspec(property(get=__get__normalAnimationClip, put=__set__normalAnimationClip))  _normalAnimationClip;
+ UnityEngine::AnimationClip __declspec(property(get=__get__normalAnimationClip, put=__set__normalAnimationClip))  _normalAnimationClip;
 
-constexpr void __set__normalAnimationClip(::UnityEngine::AnimationClip value) ;
+constexpr void __set__normalAnimationClip(UnityEngine::AnimationClip value) ;
 
-constexpr ::UnityEngine::AnimationClip __get__normalAnimationClip() const;
+constexpr UnityEngine::AnimationClip __get__normalAnimationClip() const;
 
- ::UnityEngine::AnimationClip __declspec(property(get=__get__highlightedAnimationClip, put=__set__highlightedAnimationClip))  _highlightedAnimationClip;
+ UnityEngine::AnimationClip __declspec(property(get=__get__highlightedAnimationClip, put=__set__highlightedAnimationClip))  _highlightedAnimationClip;
 
-constexpr void __set__highlightedAnimationClip(::UnityEngine::AnimationClip value) ;
+constexpr void __set__highlightedAnimationClip(UnityEngine::AnimationClip value) ;
 
-constexpr ::UnityEngine::AnimationClip __get__highlightedAnimationClip() const;
+constexpr UnityEngine::AnimationClip __get__highlightedAnimationClip() const;
 
- ::UnityEngine::AnimationClip __declspec(property(get=__get__selectedAnimationClip, put=__set__selectedAnimationClip))  _selectedAnimationClip;
+ UnityEngine::AnimationClip __declspec(property(get=__get__selectedAnimationClip, put=__set__selectedAnimationClip))  _selectedAnimationClip;
 
-constexpr void __set__selectedAnimationClip(::UnityEngine::AnimationClip value) ;
+constexpr void __set__selectedAnimationClip(UnityEngine::AnimationClip value) ;
 
-constexpr ::UnityEngine::AnimationClip __get__selectedAnimationClip() const;
+constexpr UnityEngine::AnimationClip __get__selectedAnimationClip() const;
 
- ::UnityEngine::AnimationClip __declspec(property(get=__get__selectedAndHighlightedAnimationClip, put=__set__selectedAndHighlightedAnimationClip))  _selectedAndHighlightedAnimationClip;
+ UnityEngine::AnimationClip __declspec(property(get=__get__selectedAndHighlightedAnimationClip, put=__set__selectedAndHighlightedAnimationClip))  _selectedAndHighlightedAnimationClip;
 
-constexpr void __set__selectedAndHighlightedAnimationClip(::UnityEngine::AnimationClip value) ;
+constexpr void __set__selectedAndHighlightedAnimationClip(UnityEngine::AnimationClip value) ;
 
-constexpr ::UnityEngine::AnimationClip __get__selectedAndHighlightedAnimationClip() const;
+constexpr UnityEngine::AnimationClip __get__selectedAndHighlightedAnimationClip() const;
 
 
 // Methods
@@ -101,10 +100,10 @@ constexpr ::UnityEngine::AnimationClip __get__selectedAndHighlightedAnimationCli
  void OnDestroy() ;
 
 /// @brief Method HandleSelectionDidChange addr 0x1fd27dc size 0x4 virtual false final false
- void HandleSelectionDidChange(::HMUI::SelectableCell selectableCell, ::HMUI::____HMUI__SelectableCell__TransitionType transitionType, ::bs_hook::Il2CppWrapperType changeOwner) ;
+ void HandleSelectionDidChange(HMUI::SelectableCell selectableCell, HMUI::HMUI__SelectableCell__TransitionType transitionType, ::bs_hook::Il2CppWrapperType changeOwner) ;
 
 /// @brief Method HandleHighlightDidChange addr 0x1fd27e0 size 0x4 virtual false final false
- void HandleHighlightDidChange(::HMUI::SelectableCell selectableCell, ::HMUI::____HMUI__SelectableCell__TransitionType transitionType) ;
+ void HandleHighlightDidChange(HMUI::SelectableCell selectableCell, HMUI::HMUI__SelectableCell__TransitionType transitionType) ;
 
 /// @brief Method RefreshVisuals addr 0x1fd268c size 0x64 virtual false final false
  void RefreshVisuals() ;
@@ -119,6 +118,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HMUI
-} // end anonymous namespace
-NEED_NO_BOX(::HMUI::SelectableCellStaticAnimations);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::SelectableCellStaticAnimations, "HMUI", "SelectableCellStaticAnimations");
+NEED_NO_BOX(HMUI::SelectableCellStaticAnimations);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::SelectableCellStaticAnimations, "HMUI", "SelectableCellStaticAnimations");

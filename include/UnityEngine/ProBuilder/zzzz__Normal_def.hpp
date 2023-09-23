@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine {
 struct Vector4;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace System {
 template<typename T>
@@ -27,11 +26,11 @@ namespace UnityEngine::ProBuilder {
 struct CORDL_TYPE Normal : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::ProBuilder::Normal>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::ProBuilder::Normal>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::ProBuilder::Normal>
+constexpr operator  System::IEquatable_1<UnityEngine::ProBuilder::Normal>() const;
 
-// Ctor Parameters [CppParam { name: "_normal_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "_tangent_k__BackingField", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "_bitangent_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
-constexpr Normal(::UnityEngine::Vector3 _normal_k__BackingField, ::UnityEngine::Vector4 _tangent_k__BackingField, ::UnityEngine::Vector3 _bitangent_k__BackingField) noexcept;
+// Ctor Parameters [CppParam { name: "_normal_k__BackingField", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "_tangent_k__BackingField", ty: "UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "_bitangent_k__BackingField", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }]
+constexpr Normal(UnityEngine::Vector3 _normal_k__BackingField, UnityEngine::Vector4 _tangent_k__BackingField, UnityEngine::Vector3 _bitangent_k__BackingField) noexcept;
 
 
                     constexpr Normal(Normal const&) = default;
@@ -64,53 +63,53 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__normal_k__BackingField, put=__set__normal_k__BackingField))  _normal_k__BackingField;
+ UnityEngine::Vector3 __declspec(property(get=__get__normal_k__BackingField, put=__set__normal_k__BackingField))  _normal_k__BackingField;
 
-constexpr void __set__normal_k__BackingField(::UnityEngine::Vector3 value) ;
+constexpr void __set__normal_k__BackingField(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__normal_k__BackingField() const;
+constexpr UnityEngine::Vector3 __get__normal_k__BackingField() const;
 
- ::UnityEngine::Vector4 __declspec(property(get=__get__tangent_k__BackingField, put=__set__tangent_k__BackingField))  _tangent_k__BackingField;
+ UnityEngine::Vector4 __declspec(property(get=__get__tangent_k__BackingField, put=__set__tangent_k__BackingField))  _tangent_k__BackingField;
 
-constexpr void __set__tangent_k__BackingField(::UnityEngine::Vector4 value) ;
+constexpr void __set__tangent_k__BackingField(UnityEngine::Vector4 value) ;
 
-constexpr ::UnityEngine::Vector4 __get__tangent_k__BackingField() const;
+constexpr UnityEngine::Vector4 __get__tangent_k__BackingField() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__bitangent_k__BackingField, put=__set__bitangent_k__BackingField))  _bitangent_k__BackingField;
+ UnityEngine::Vector3 __declspec(property(get=__get__bitangent_k__BackingField, put=__set__bitangent_k__BackingField))  _bitangent_k__BackingField;
 
-constexpr void __set__bitangent_k__BackingField(::UnityEngine::Vector3 value) ;
+constexpr void __set__bitangent_k__BackingField(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__bitangent_k__BackingField() const;
+constexpr UnityEngine::Vector3 __get__bitangent_k__BackingField() const;
 
 
 // Properties
 
- ::UnityEngine::Vector3 __declspec(property(get=get_normal, put=set_normal))  normal;
+ UnityEngine::Vector3 __declspec(property(get=get_normal, put=set_normal))  normal;
 
- ::UnityEngine::Vector4 __declspec(property(get=get_tangent, put=set_tangent))  tangent;
+ UnityEngine::Vector4 __declspec(property(get=get_tangent, put=set_tangent))  tangent;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_bitangent, put=set_bitangent))  bitangent;
+ UnityEngine::Vector3 __declspec(property(get=get_bitangent, put=set_bitangent))  bitangent;
 
 
 // Methods
 
 /// @brief Method get_normal addr 0x29c0120 size 0xc virtual false final false
- ::UnityEngine::Vector3 get_normal() ;
+ UnityEngine::Vector3 get_normal() ;
 
 /// @brief Method set_normal addr 0x29c012c size 0xc virtual false final false
- void set_normal(::UnityEngine::Vector3 value) ;
+ void set_normal(UnityEngine::Vector3 value) ;
 
 /// @brief Method get_tangent addr 0x29c0138 size 0xc virtual false final false
- ::UnityEngine::Vector4 get_tangent() ;
+ UnityEngine::Vector4 get_tangent() ;
 
 /// @brief Method set_tangent addr 0x29c0144 size 0xc virtual false final false
- void set_tangent(::UnityEngine::Vector4 value) ;
+ void set_tangent(UnityEngine::Vector4 value) ;
 
 /// @brief Method get_bitangent addr 0x29c0150 size 0xc virtual false final false
- ::UnityEngine::Vector3 get_bitangent() ;
+ UnityEngine::Vector3 get_bitangent() ;
 
 /// @brief Method set_bitangent addr 0x29c015c size 0xc virtual false final false
- void set_bitangent(::UnityEngine::Vector3 value) ;
+ void set_bitangent(UnityEngine::Vector3 value) ;
 
 /// @brief Method Equals addr 0x29c0168 size 0x90 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -119,17 +118,16 @@ constexpr ::UnityEngine::Vector3 __get__bitangent_k__BackingField() const;
  int32_t GetHashCode() ;
 
 /// @brief Method Equals addr 0x29c01f8 size 0x98 virtual true final true
- bool Equals(::UnityEngine::ProBuilder::Normal other) ;
+ bool Equals(UnityEngine::ProBuilder::Normal other) ;
 
 /// @brief Method op_Equality addr 0x29c02f4 size 0x30 virtual false final false
-static bool op_Equality(::UnityEngine::ProBuilder::Normal a, ::UnityEngine::ProBuilder::Normal b) ;
+static bool op_Equality(UnityEngine::ProBuilder::Normal a, UnityEngine::ProBuilder::Normal b) ;
 
 /// @brief Method op_Inequality addr 0x29c0324 size 0x48 virtual false final false
-static bool op_Inequality(::UnityEngine::ProBuilder::Normal a, ::UnityEngine::ProBuilder::Normal b) ;
+static bool op_Inequality(UnityEngine::ProBuilder::Normal a, UnityEngine::ProBuilder::Normal b) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Normal, "UnityEngine.ProBuilder", "Normal");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Normal, "UnityEngine.ProBuilder", "Normal");

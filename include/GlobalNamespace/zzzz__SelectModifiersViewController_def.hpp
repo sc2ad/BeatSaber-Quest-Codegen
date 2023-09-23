@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
 namespace GlobalNamespace {
 class GameplayModifiersPanelController;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13656))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5816))
 // CS Name: SelectModifiersViewController
-class CORDL_TYPE SelectModifiersViewController : public ::HMUI::ViewController {
+class CORDL_TYPE SelectModifiersViewController : public HMUI::ViewController {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr SelectModifiersViewController(SelectModifiersViewController const& ) n
 constexpr SelectModifiersViewController(SelectModifiersViewController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SelectModifiersViewController(void* ptr) noexcept : ::HMUI::ViewController(ptr) {
+constexpr explicit SelectModifiersViewController(void* ptr) noexcept : HMUI::ViewController(ptr) {
 }
 
 
@@ -54,25 +53,25 @@ constexpr explicit SelectModifiersViewController(void* ptr) noexcept : ::HMUI::V
 
 // Fields
 
- ::GlobalNamespace::GameplayModifiersPanelController __declspec(property(get=__get__gameplayModifiersPanelController, put=__set__gameplayModifiersPanelController))  _gameplayModifiersPanelController;
+ GlobalNamespace::GameplayModifiersPanelController __declspec(property(get=__get__gameplayModifiersPanelController, put=__set__gameplayModifiersPanelController))  _gameplayModifiersPanelController;
 
-constexpr void __set__gameplayModifiersPanelController(::GlobalNamespace::GameplayModifiersPanelController value) ;
+constexpr void __set__gameplayModifiersPanelController(GlobalNamespace::GameplayModifiersPanelController value) ;
 
-constexpr ::GlobalNamespace::GameplayModifiersPanelController __get__gameplayModifiersPanelController() const;
+constexpr GlobalNamespace::GameplayModifiersPanelController __get__gameplayModifiersPanelController() const;
 
 
 // Properties
 
- ::GlobalNamespace::GameplayModifiers __declspec(property(get=get_gameplayModifiers))  gameplayModifiers;
+ GlobalNamespace::GameplayModifiers __declspec(property(get=get_gameplayModifiers))  gameplayModifiers;
 
 
 // Methods
 
 /// @brief Method get_gameplayModifiers addr 0x2179124 size 0x1c virtual false final false
- ::GlobalNamespace::GameplayModifiers get_gameplayModifiers() ;
+ GlobalNamespace::GameplayModifiers get_gameplayModifiers() ;
 
 /// @brief Method Setup addr 0x2179140 size 0x1c virtual false final false
- void Setup(::GlobalNamespace::GameplayModifiers gameplayModifiers) ;
+ void Setup(GlobalNamespace::GameplayModifiers gameplayModifiers) ;
 
 /// @brief Method DidActivate addr 0x217915c size 0xa0 virtual true final false
  void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) ;
@@ -87,6 +86,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SelectModifiersViewController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SelectModifiersViewController, "", "SelectModifiersViewController");
+NEED_NO_BOX(GlobalNamespace::SelectModifiersViewController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectModifiersViewController, "", "SelectModifiersViewController");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 struct DragVisualMode;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::UIElements::DragVisualMode const None;
+static UnityEngine::UIElements::DragVisualMode const None;
 
 /// @brief Field Copy offset 0
-static ::UnityEngine::UIElements::DragVisualMode const Copy;
+static UnityEngine::UIElements::DragVisualMode const Copy;
 
 /// @brief Field Move offset 0
-static ::UnityEngine::UIElements::DragVisualMode const Move;
+static UnityEngine::UIElements::DragVisualMode const Move;
 
 /// @brief Field Rejected offset 0
-static ::UnityEngine::UIElements::DragVisualMode const Rejected;
+static UnityEngine::UIElements::DragVisualMode const Rejected;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::DragVisualMode, "UnityEngine.UIElements", "DragVisualMode");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::DragVisualMode, "UnityEngine.UIElements", "DragVisualMode");

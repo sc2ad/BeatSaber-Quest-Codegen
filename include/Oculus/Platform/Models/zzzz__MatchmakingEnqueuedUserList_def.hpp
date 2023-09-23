@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_def.hpp"
 #include "Oculus/Platform/Models/zzzz__MatchmakingEnqueuedUser_def.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class MatchmakingEnqueuedUserList;
@@ -11,10 +10,10 @@ class MatchmakingEnqueuedUserList;
 // Type: Oculus.Platform.Models::MatchmakingEnqueuedUserList
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1142 }), TypeDefinitionIndex(TypeDefinitionIndex(13410)), TypeDefinitionIndex(TypeDefinitionIndex(13441))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13410)), TypeDefinitionIndex(TypeDefinitionIndex(13441)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1142 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13442))
 // CS Name: Oculus.Platform.Models.MatchmakingEnqueuedUserList
-class CORDL_TYPE MatchmakingEnqueuedUserList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::MatchmakingEnqueuedUser> {
+class CORDL_TYPE MatchmakingEnqueuedUserList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::MatchmakingEnqueuedUser> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr MatchmakingEnqueuedUserList(MatchmakingEnqueuedUserList const& ) noexc
 constexpr MatchmakingEnqueuedUserList(MatchmakingEnqueuedUserList&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MatchmakingEnqueuedUserList(void* ptr) noexcept : ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::MatchmakingEnqueuedUser>(ptr) {
+constexpr explicit MatchmakingEnqueuedUserList(void* ptr) noexcept : Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::MatchmakingEnqueuedUser>(ptr) {
 }
 
 
@@ -60,6 +59,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::MatchmakingEnqueuedUserList);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::MatchmakingEnqueuedUserList, "Oculus.Platform.Models", "MatchmakingEnqueuedUserList");
+NEED_NO_BOX(Oculus::Platform::Models::MatchmakingEnqueuedUserList);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::MatchmakingEnqueuedUserList, "Oculus.Platform.Models", "MatchmakingEnqueuedUserList");

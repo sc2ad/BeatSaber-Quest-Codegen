@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class Exception;
 }
@@ -16,7 +15,7 @@ namespace Org::BouncyCastle::Ocsp {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2560))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1612))
 // CS Name: Org.BouncyCastle.Ocsp.OcspException
-class CORDL_TYPE OcspException : public ::System::Exception {
+class CORDL_TYPE OcspException : public System::Exception {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr OcspException(OcspException const& ) noexcept = default;
 constexpr OcspException(OcspException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OcspException(void* ptr) noexcept : ::System::Exception(ptr) {
+constexpr explicit OcspException(void* ptr) noexcept : System::Exception(ptr) {
 }
 
 
@@ -64,16 +63,15 @@ explicit OcspException(::StringW message) ;
 /// @brief Method .ctor addr 0x1013434 size 0x68 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "e", ty: "::System::Exception", modifiers: "", def_value: None }]
-explicit OcspException(::StringW message, ::System::Exception e) ;
+// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "e", ty: "System::Exception", modifiers: "", def_value: None }]
+explicit OcspException(::StringW message, System::Exception e) ;
 
 /// @brief Method .ctor addr 0x100fc38 size 0x70 virtual false final false
- void _ctor(::StringW message, ::System::Exception e) ;
+ void _ctor(::StringW message, System::Exception e) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Ocsp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Ocsp::OcspException);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Ocsp::OcspException, "Org.BouncyCastle.Ocsp", "OcspException");
+NEED_NO_BOX(Org::BouncyCastle::Ocsp::OcspException);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Ocsp::OcspException, "Org.BouncyCastle.Ocsp", "OcspException");

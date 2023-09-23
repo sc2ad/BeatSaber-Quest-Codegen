@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class OVRAutoDestroyInMRC;
@@ -12,7 +11,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8878))
 // CS Name: OVRAutoDestroyInMRC
-class CORDL_TYPE OVRAutoDestroyInMRC : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OVRAutoDestroyInMRC : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr OVRAutoDestroyInMRC(OVRAutoDestroyInMRC const& ) noexcept = default;
 constexpr OVRAutoDestroyInMRC(OVRAutoDestroyInMRC&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OVRAutoDestroyInMRC(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OVRAutoDestroyInMRC(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -64,6 +63,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OVRAutoDestroyInMRC);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRAutoDestroyInMRC, "", "OVRAutoDestroyInMRC");
+NEED_NO_BOX(GlobalNamespace::OVRAutoDestroyInMRC);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRAutoDestroyInMRC, "", "OVRAutoDestroyInMRC");

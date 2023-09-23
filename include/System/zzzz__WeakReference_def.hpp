@@ -1,18 +1,17 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class ISerializable;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System::Runtime::InteropServices {
 struct GCHandle;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System {
@@ -27,8 +26,8 @@ namespace System {
 class CORDL_TYPE WeakReference : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::Serialization::ISerializable
-constexpr operator  ::System::Runtime::Serialization::ISerializable() const noexcept;
+/// @brief Convert operator to System::Runtime::Serialization::ISerializable
+constexpr operator  System::Runtime::Serialization::ISerializable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -69,11 +68,11 @@ constexpr void __set_isLongReference(bool value) ;
 
 constexpr bool __get_isLongReference() const;
 
- ::System::Runtime::InteropServices::GCHandle __declspec(property(get=__get_gcHandle, put=__set_gcHandle))  gcHandle;
+ System::Runtime::InteropServices::GCHandle __declspec(property(get=__get_gcHandle, put=__set_gcHandle))  gcHandle;
 
-constexpr void __set_gcHandle(::System::Runtime::InteropServices::GCHandle value) ;
+constexpr void __set_gcHandle(System::Runtime::InteropServices::GCHandle value) ;
 
-constexpr ::System::Runtime::InteropServices::GCHandle __get_gcHandle() const;
+constexpr System::Runtime::InteropServices::GCHandle __get_gcHandle() const;
 
 
 // Properties
@@ -108,11 +107,11 @@ explicit WeakReference(::bs_hook::Il2CppWrapperType target, bool trackResurrecti
 /// @brief Method .ctor addr 0x249bd00 size 0x34 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType target, bool trackResurrection) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit WeakReference(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit WeakReference(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x249bd34 size 0x138 virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method get_IsAlive addr 0x249be6c size 0x20 virtual true final false
  bool get_IsAlive() ;
@@ -130,12 +129,11 @@ explicit WeakReference(::System::Runtime::Serialization::SerializationInfo info,
  void Finalize() ;
 
 /// @brief Method GetObjectData addr 0x249bf70 size 0x184 virtual true final false
- void GetObjectData(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void GetObjectData(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::WeakReference);
-DEFINE_IL2CPP_ARG_TYPE(::System::WeakReference, "System", "WeakReference");
+NEED_NO_BOX(System::WeakReference);
+DEFINE_IL2CPP_ARG_TYPE(System::WeakReference, "System", "WeakReference");

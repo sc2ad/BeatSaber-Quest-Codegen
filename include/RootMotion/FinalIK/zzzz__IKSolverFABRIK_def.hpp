@@ -5,12 +5,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__IKSolver__IterationDelegate;
+}
 namespace UnityEngine {
 struct Quaternion;
-}
-namespace RootMotion::FinalIK {
-class ____RootMotion__FinalIK__IKSolver__IterationDelegate;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -25,7 +24,7 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12516))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12510))
 // CS Name: RootMotion.FinalIK.IKSolverFABRIK
-class CORDL_TYPE IKSolverFABRIK : public ::RootMotion::FinalIK::IKSolverHeuristic {
+class CORDL_TYPE IKSolverFABRIK : public RootMotion::FinalIK::IKSolverHeuristic {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr IKSolverFABRIK(IKSolverFABRIK const& ) noexcept = default;
 constexpr IKSolverFABRIK(IKSolverFABRIK&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit IKSolverFABRIK(void* ptr) noexcept : ::RootMotion::FinalIK::IKSolverHeuristic(ptr) {
+constexpr explicit IKSolverFABRIK(void* ptr) noexcept : RootMotion::FinalIK::IKSolverHeuristic(ptr) {
 }
 
 
@@ -61,11 +60,11 @@ constexpr explicit IKSolverFABRIK(void* ptr) noexcept : ::RootMotion::FinalIK::I
 
 // Fields
 
- ::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__IterationDelegate __declspec(property(get=__get_OnPreIteration, put=__set_OnPreIteration))  OnPreIteration;
+ RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__IterationDelegate __declspec(property(get=__get_OnPreIteration, put=__set_OnPreIteration))  OnPreIteration;
 
-constexpr void __set_OnPreIteration(::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__IterationDelegate value) ;
+constexpr void __set_OnPreIteration(RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__IterationDelegate value) ;
 
-constexpr ::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__IterationDelegate __get_OnPreIteration() const;
+constexpr RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__IterationDelegate __get_OnPreIteration() const;
 
  ::ArrayW<bool> __declspec(property(get=__get_limitedBones, put=__set_limitedBones))  limitedBones;
 
@@ -73,11 +72,11 @@ constexpr void __set_limitedBones(::ArrayW<bool> value) ;
 
 constexpr ::ArrayW<bool> __get_limitedBones() const;
 
- ::ArrayW<::UnityEngine::Vector3> __declspec(property(get=__get_solverLocalPositions, put=__set_solverLocalPositions))  solverLocalPositions;
+ ::ArrayW<UnityEngine::Vector3> __declspec(property(get=__get_solverLocalPositions, put=__set_solverLocalPositions))  solverLocalPositions;
 
-constexpr void __set_solverLocalPositions(::ArrayW<::UnityEngine::Vector3> value) ;
+constexpr void __set_solverLocalPositions(::ArrayW<UnityEngine::Vector3> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector3> __get_solverLocalPositions() const;
+constexpr ::ArrayW<UnityEngine::Vector3> __get_solverLocalPositions() const;
 
 
 // Properties
@@ -88,13 +87,13 @@ constexpr ::ArrayW<::UnityEngine::Vector3> __get_solverLocalPositions() const;
 // Methods
 
 /// @brief Method SolveForward addr 0x11d7de8 size 0xd8 virtual false final false
- void SolveForward(::UnityEngine::Vector3 position) ;
+ void SolveForward(UnityEngine::Vector3 position) ;
 
 /// @brief Method SolveBackward addr 0x11d83c8 size 0xd8 virtual false final false
- void SolveBackward(::UnityEngine::Vector3 position) ;
+ void SolveBackward(UnityEngine::Vector3 position) ;
 
 /// @brief Method GetIKPosition addr 0x11d84f8 size 0x88 virtual true final false
- ::UnityEngine::Vector3 GetIKPosition() ;
+ UnityEngine::Vector3 GetIKPosition() ;
 
 /// @brief Method OnInitiate addr 0x11d8580 size 0x270 virtual true final false
  void OnInitiate() ;
@@ -106,7 +105,7 @@ constexpr ::ArrayW<::UnityEngine::Vector3> __get_solverLocalPositions() const;
  bool get_boneLengthCanBeZero() ;
 
 /// @brief Method SolveJoint addr 0x11d8db8 size 0x11c virtual false final false
- ::UnityEngine::Vector3 SolveJoint(::UnityEngine::Vector3 pos1, ::UnityEngine::Vector3 pos2, float_t length) ;
+ UnityEngine::Vector3 SolveJoint(UnityEngine::Vector3 pos1, UnityEngine::Vector3 pos2, float_t length) ;
 
 /// @brief Method OnPreSolve addr 0x11d7ec0 size 0x39c virtual false final false
  void OnPreSolve() ;
@@ -115,43 +114,43 @@ constexpr ::ArrayW<::UnityEngine::Vector3> __get_solverLocalPositions() const;
  void OnPostSolve() ;
 
 /// @brief Method Solve addr 0x11d8d68 size 0x48 virtual false final false
- void Solve(::UnityEngine::Vector3 targetPosition) ;
+ void Solve(UnityEngine::Vector3 targetPosition) ;
 
 /// @brief Method ForwardReach addr 0x11d825c size 0x16c virtual false final false
- void ForwardReach(::UnityEngine::Vector3 position) ;
+ void ForwardReach(UnityEngine::Vector3 position) ;
 
 /// @brief Method SolverMove addr 0x11d9464 size 0x68 virtual false final false
- void SolverMove(int32_t index, ::UnityEngine::Vector3 offset) ;
+ void SolverMove(int32_t index, UnityEngine::Vector3 offset) ;
 
 /// @brief Method SolverRotate addr 0x11d94cc size 0xd0 virtual false final false
- void SolverRotate(int32_t index, ::UnityEngine::Quaternion rotation, bool recursive) ;
+ void SolverRotate(int32_t index, UnityEngine::Quaternion rotation, bool recursive) ;
 
 /// @brief Method SolverRotateChildren addr 0x11d959c size 0xc8 virtual false final false
- void SolverRotateChildren(int32_t index, ::UnityEngine::Quaternion rotation) ;
+ void SolverRotateChildren(int32_t index, UnityEngine::Quaternion rotation) ;
 
 /// @brief Method SolverMoveChildrenAroundPoint addr 0x11d9664 size 0xf0 virtual false final false
- void SolverMoveChildrenAroundPoint(int32_t index, ::UnityEngine::Quaternion rotation) ;
+ void SolverMoveChildrenAroundPoint(int32_t index, UnityEngine::Quaternion rotation) ;
 
 /// @brief Method GetParentSolverRotation addr 0x11d87f0 size 0x144 virtual false final false
- ::UnityEngine::Quaternion GetParentSolverRotation(int32_t index) ;
+ UnityEngine::Quaternion GetParentSolverRotation(int32_t index) ;
 
 /// @brief Method GetParentSolverPosition addr 0x11d8934 size 0x144 virtual false final false
- ::UnityEngine::Vector3 GetParentSolverPosition(int32_t index) ;
+ UnityEngine::Vector3 GetParentSolverPosition(int32_t index) ;
 
 /// @brief Method GetLimitedRotation addr 0x11d9754 size 0x1c0 virtual false final false
- ::UnityEngine::Quaternion GetLimitedRotation(int32_t index, ::UnityEngine::Quaternion q, ByRef<bool> changed) ;
+ UnityEngine::Quaternion GetLimitedRotation(int32_t index, UnityEngine::Quaternion q, ByRef<bool> changed) ;
 
 /// @brief Method LimitForward addr 0x11d9054 size 0x410 virtual false final false
  void LimitForward(int32_t rotateBone, int32_t limitBone) ;
 
 /// @brief Method BackwardReach addr 0x11d84a0 size 0x10 virtual false final false
- void BackwardReach(::UnityEngine::Vector3 position) ;
+ void BackwardReach(UnityEngine::Vector3 position) ;
 
 /// @brief Method BackwardReachUnlimited addr 0x11d9dc4 size 0xb8 virtual false final false
- void BackwardReachUnlimited(::UnityEngine::Vector3 position) ;
+ void BackwardReachUnlimited(UnityEngine::Vector3 position) ;
 
 /// @brief Method BackwardReachLimited addr 0x11d9914 size 0x4b0 virtual false final false
- void BackwardReachLimited(::UnityEngine::Vector3 position) ;
+ void BackwardReachLimited(UnityEngine::Vector3 position) ;
 
 /// @brief Method MapToSolverPositions addr 0x11d8ed4 size 0xd0 virtual false final false
  void MapToSolverPositions() ;
@@ -169,6 +168,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::IKSolverFABRIK);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::IKSolverFABRIK, "RootMotion.FinalIK", "IKSolverFABRIK");
+NEED_NO_BOX(RootMotion::FinalIK::IKSolverFABRIK);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverFABRIK, "RootMotion.FinalIK", "IKSolverFABRIK");

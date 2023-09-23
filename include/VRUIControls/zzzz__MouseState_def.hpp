@@ -1,22 +1,21 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
+namespace UnityEngine::EventSystems {
+struct UnityEngine__EventSystems__PointerEventData__FramePressState;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine::EventSystems {
-struct ____UnityEngine__EventSystems__PointerEventData__InputButton;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
+struct UnityEngine__EventSystems__PointerEventData__InputButton;
 }
 namespace VRUIControls {
 class ButtonState;
-}
-namespace UnityEngine::EventSystems {
-struct ____UnityEngine__EventSystems__PointerEventData__FramePressState;
 }
 // Forward declare root types
 namespace VRUIControls {
@@ -64,11 +63,11 @@ constexpr explicit MouseState(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType
 
 // Fields
 
- ::System::Collections::Generic::List_1<::VRUIControls::ButtonState> __declspec(property(get=__get__trackedButtons, put=__set__trackedButtons))  _trackedButtons;
+ System::Collections::Generic::List_1<VRUIControls::ButtonState> __declspec(property(get=__get__trackedButtons, put=__set__trackedButtons))  _trackedButtons;
 
-constexpr void __set__trackedButtons(::System::Collections::Generic::List_1<::VRUIControls::ButtonState> value) ;
+constexpr void __set__trackedButtons(System::Collections::Generic::List_1<VRUIControls::ButtonState> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::VRUIControls::ButtonState> __get__trackedButtons() const;
+constexpr System::Collections::Generic::List_1<VRUIControls::ButtonState> __get__trackedButtons() const;
 
 
 // Methods
@@ -80,10 +79,10 @@ constexpr ::System::Collections::Generic::List_1<::VRUIControls::ButtonState> __
  bool AnyReleasesThisFrame() ;
 
 /// @brief Method GetButtonState addr 0x2d3ae2c size 0x19c virtual false final false
- ::VRUIControls::ButtonState GetButtonState(::UnityEngine::EventSystems::____UnityEngine__EventSystems__PointerEventData__InputButton button) ;
+ VRUIControls::ButtonState GetButtonState(UnityEngine::EventSystems::UnityEngine__EventSystems__PointerEventData__InputButton button) ;
 
 /// @brief Method SetButtonState addr 0x2d3afc8 size 0x38 virtual false final false
- void SetButtonState(::UnityEngine::EventSystems::____UnityEngine__EventSystems__PointerEventData__InputButton button, ::UnityEngine::EventSystems::____UnityEngine__EventSystems__PointerEventData__FramePressState stateForMouseButton, ::UnityEngine::EventSystems::PointerEventData data) ;
+ void SetButtonState(UnityEngine::EventSystems::UnityEngine__EventSystems__PointerEventData__InputButton button, UnityEngine::EventSystems::UnityEngine__EventSystems__PointerEventData__FramePressState stateForMouseButton, UnityEngine::EventSystems::PointerEventData data) ;
 
 // Ctor Parameters []
 explicit MouseState() ;
@@ -95,6 +94,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def VRUIControls
-} // end anonymous namespace
-NEED_NO_BOX(::VRUIControls::MouseState);
-DEFINE_IL2CPP_ARG_TYPE(::VRUIControls::MouseState, "VRUIControls", "MouseState");
+NEED_NO_BOX(VRUIControls::MouseState);
+DEFINE_IL2CPP_ARG_TYPE(VRUIControls::MouseState, "VRUIControls", "MouseState");

@@ -3,18 +3,17 @@
 #include "System/Security/AccessControl/zzzz__QualifiedAce_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::Security::AccessControl {
-struct AceType;
+struct AceQualifier;
 }
 namespace System::Security::AccessControl {
 struct AceFlags;
 }
-namespace System::Security::AccessControl {
-struct AceQualifier;
-}
 namespace System::Security::Principal {
 class SecurityIdentifier;
+}
+namespace System::Security::AccessControl {
+struct AceType;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {
@@ -26,7 +25,7 @@ namespace System::Security::AccessControl {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3042))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3019))
 // CS Name: System.Security.AccessControl.CommonAce
-class CORDL_TYPE CommonAce : public ::System::Security::AccessControl::QualifiedAce {
+class CORDL_TYPE CommonAce : public System::Security::AccessControl::QualifiedAce {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -41,7 +40,7 @@ constexpr CommonAce(CommonAce const& ) noexcept = default;
 constexpr CommonAce(CommonAce&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CommonAce(void* ptr) noexcept : ::System::Security::AccessControl::QualifiedAce(ptr) {
+constexpr explicit CommonAce(void* ptr) noexcept : System::Security::AccessControl::QualifiedAce(ptr) {
 }
 
 
@@ -67,11 +66,11 @@ constexpr explicit CommonAce(void* ptr) noexcept : ::System::Security::AccessCon
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "flags", ty: "::System::Security::AccessControl::AceFlags", modifiers: "", def_value: None }, CppParam { name: "qualifier", ty: "::System::Security::AccessControl::AceQualifier", modifiers: "", def_value: None }, CppParam { name: "accessMask", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sid", ty: "::System::Security::Principal::SecurityIdentifier", modifiers: "", def_value: None }, CppParam { name: "isCallback", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "opaque", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit CommonAce(::System::Security::AccessControl::AceFlags flags, ::System::Security::AccessControl::AceQualifier qualifier, int32_t accessMask, ::System::Security::Principal::SecurityIdentifier sid, bool isCallback, ::ArrayW<uint8_t> opaque) ;
+// Ctor Parameters [CppParam { name: "flags", ty: "System::Security::AccessControl::AceFlags", modifiers: "", def_value: None }, CppParam { name: "qualifier", ty: "System::Security::AccessControl::AceQualifier", modifiers: "", def_value: None }, CppParam { name: "accessMask", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sid", ty: "System::Security::Principal::SecurityIdentifier", modifiers: "", def_value: None }, CppParam { name: "isCallback", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "opaque", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
+explicit CommonAce(System::Security::AccessControl::AceFlags flags, System::Security::AccessControl::AceQualifier qualifier, int32_t accessMask, System::Security::Principal::SecurityIdentifier sid, bool isCallback, ::ArrayW<uint8_t> opaque) ;
 
 /// @brief Method .ctor addr 0x23157f4 size 0x60 virtual false final false
- void _ctor(::System::Security::AccessControl::AceFlags flags, ::System::Security::AccessControl::AceQualifier qualifier, int32_t accessMask, ::System::Security::Principal::SecurityIdentifier sid, bool isCallback, ::ArrayW<uint8_t> opaque) ;
+ void _ctor(System::Security::AccessControl::AceFlags flags, System::Security::AccessControl::AceQualifier qualifier, int32_t accessMask, System::Security::Principal::SecurityIdentifier sid, bool isCallback, ::ArrayW<uint8_t> opaque) ;
 
 // Ctor Parameters [CppParam { name: "binaryForm", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }]
 explicit CommonAce(::ArrayW<uint8_t> binaryForm, int32_t offset) ;
@@ -86,12 +85,11 @@ explicit CommonAce(::ArrayW<uint8_t> binaryForm, int32_t offset) ;
  void GetBinaryForm(::ArrayW<uint8_t> binaryForm, int32_t offset) ;
 
 /// @brief Method ConvertType addr 0x2315854 size 0x110 virtual false final false
-static ::System::Security::AccessControl::AceType ConvertType(::System::Security::AccessControl::AceQualifier qualifier, bool isCallback) ;
+static System::Security::AccessControl::AceType ConvertType(System::Security::AccessControl::AceQualifier qualifier, bool isCallback) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::AccessControl
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::AccessControl::CommonAce);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::AccessControl::CommonAce, "System.Security.AccessControl", "CommonAce");
+NEED_NO_BOX(System::Security::AccessControl::CommonAce);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::AccessControl::CommonAce, "System.Security.AccessControl", "CommonAce");

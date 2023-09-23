@@ -1,15 +1,15 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
-namespace {
+namespace GlobalNamespace {
+class BeatmapDifficultyDropdown;
+}
 namespace GlobalNamespace {
 class MultiplayerModeSettings;
 }
-namespace GlobalNamespace {
-class QuickPlaySongPacksDropdown;
-}
-namespace UnityEngine::UI {
-class Toggle;
+namespace System {
+template<typename T>
+class Action_1;
 }
 namespace GlobalNamespace {
 class QuickPlaySetupData;
@@ -17,12 +17,11 @@ class QuickPlaySetupData;
 namespace UnityEngine::UI {
 class Button;
 }
-namespace System {
-template<typename T>
-class Action_1;
-}
 namespace GlobalNamespace {
-class BeatmapDifficultyDropdown;
+class QuickPlaySongPacksDropdown;
+}
+namespace UnityEngine::UI {
+class Toggle;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,7 +33,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13656))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5811))
 // CS Name: JoinQuickPlayViewController
-class CORDL_TYPE JoinQuickPlayViewController : public ::HMUI::ViewController {
+class CORDL_TYPE JoinQuickPlayViewController : public HMUI::ViewController {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -49,7 +48,7 @@ constexpr JoinQuickPlayViewController(JoinQuickPlayViewController const& ) noexc
 constexpr JoinQuickPlayViewController(JoinQuickPlayViewController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit JoinQuickPlayViewController(void* ptr) noexcept : ::HMUI::ViewController(ptr) {
+constexpr explicit JoinQuickPlayViewController(void* ptr) noexcept : HMUI::ViewController(ptr) {
 }
 
 
@@ -70,67 +69,67 @@ constexpr explicit JoinQuickPlayViewController(void* ptr) noexcept : ::HMUI::Vie
 
 // Fields
 
- ::GlobalNamespace::BeatmapDifficultyDropdown __declspec(property(get=__get__beatmapDifficultyDropdown, put=__set__beatmapDifficultyDropdown))  _beatmapDifficultyDropdown;
+ GlobalNamespace::BeatmapDifficultyDropdown __declspec(property(get=__get__beatmapDifficultyDropdown, put=__set__beatmapDifficultyDropdown))  _beatmapDifficultyDropdown;
 
-constexpr void __set__beatmapDifficultyDropdown(::GlobalNamespace::BeatmapDifficultyDropdown value) ;
+constexpr void __set__beatmapDifficultyDropdown(GlobalNamespace::BeatmapDifficultyDropdown value) ;
 
-constexpr ::GlobalNamespace::BeatmapDifficultyDropdown __get__beatmapDifficultyDropdown() const;
+constexpr GlobalNamespace::BeatmapDifficultyDropdown __get__beatmapDifficultyDropdown() const;
 
- ::GlobalNamespace::QuickPlaySongPacksDropdown __declspec(property(get=__get__songPacksDropdown, put=__set__songPacksDropdown))  _songPacksDropdown;
+ GlobalNamespace::QuickPlaySongPacksDropdown __declspec(property(get=__get__songPacksDropdown, put=__set__songPacksDropdown))  _songPacksDropdown;
 
-constexpr void __set__songPacksDropdown(::GlobalNamespace::QuickPlaySongPacksDropdown value) ;
+constexpr void __set__songPacksDropdown(GlobalNamespace::QuickPlaySongPacksDropdown value) ;
 
-constexpr ::GlobalNamespace::QuickPlaySongPacksDropdown __get__songPacksDropdown() const;
+constexpr GlobalNamespace::QuickPlaySongPacksDropdown __get__songPacksDropdown() const;
 
- ::UnityEngine::UI::Toggle __declspec(property(get=__get__levelSelectionToggle, put=__set__levelSelectionToggle))  _levelSelectionToggle;
+ UnityEngine::UI::Toggle __declspec(property(get=__get__levelSelectionToggle, put=__set__levelSelectionToggle))  _levelSelectionToggle;
 
-constexpr void __set__levelSelectionToggle(::UnityEngine::UI::Toggle value) ;
+constexpr void __set__levelSelectionToggle(UnityEngine::UI::Toggle value) ;
 
-constexpr ::UnityEngine::UI::Toggle __get__levelSelectionToggle() const;
+constexpr UnityEngine::UI::Toggle __get__levelSelectionToggle() const;
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__joinButton, put=__set__joinButton))  _joinButton;
+ UnityEngine::UI::Button __declspec(property(get=__get__joinButton, put=__set__joinButton))  _joinButton;
 
-constexpr void __set__joinButton(::UnityEngine::UI::Button value) ;
+constexpr void __set__joinButton(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__joinButton() const;
+constexpr UnityEngine::UI::Button __get__joinButton() const;
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__cancelJoinButton, put=__set__cancelJoinButton))  _cancelJoinButton;
+ UnityEngine::UI::Button __declspec(property(get=__get__cancelJoinButton, put=__set__cancelJoinButton))  _cancelJoinButton;
 
-constexpr void __set__cancelJoinButton(::UnityEngine::UI::Button value) ;
+constexpr void __set__cancelJoinButton(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__cancelJoinButton() const;
+constexpr UnityEngine::UI::Button __get__cancelJoinButton() const;
 
- ::System::Action_1<bool> __declspec(property(get=__get_didFinishEvent, put=__set_didFinishEvent))  didFinishEvent;
+ System::Action_1<bool> __declspec(property(get=__get_didFinishEvent, put=__set_didFinishEvent))  didFinishEvent;
 
-constexpr void __set_didFinishEvent(::System::Action_1<bool> value) ;
+constexpr void __set_didFinishEvent(System::Action_1<bool> value) ;
 
-constexpr ::System::Action_1<bool> __get_didFinishEvent() const;
+constexpr System::Action_1<bool> __get_didFinishEvent() const;
 
- ::GlobalNamespace::MultiplayerModeSettings __declspec(property(get=__get__multiplayerModeSettings, put=__set__multiplayerModeSettings))  _multiplayerModeSettings;
+ GlobalNamespace::MultiplayerModeSettings __declspec(property(get=__get__multiplayerModeSettings, put=__set__multiplayerModeSettings))  _multiplayerModeSettings;
 
-constexpr void __set__multiplayerModeSettings(::GlobalNamespace::MultiplayerModeSettings value) ;
+constexpr void __set__multiplayerModeSettings(GlobalNamespace::MultiplayerModeSettings value) ;
 
-constexpr ::GlobalNamespace::MultiplayerModeSettings __get__multiplayerModeSettings() const;
+constexpr GlobalNamespace::MultiplayerModeSettings __get__multiplayerModeSettings() const;
 
 
 // Properties
 
- ::GlobalNamespace::MultiplayerModeSettings __declspec(property(get=get_multiplayerModeSettings))  multiplayerModeSettings;
+ GlobalNamespace::MultiplayerModeSettings __declspec(property(get=get_multiplayerModeSettings))  multiplayerModeSettings;
 
 
 // Methods
 
 /// @brief Method add_didFinishEvent addr 0x2176cb0 size 0xb0 virtual false final false
- void add_didFinishEvent(::System::Action_1<bool> value) ;
+ void add_didFinishEvent(System::Action_1<bool> value) ;
 
 /// @brief Method remove_didFinishEvent addr 0x2176d60 size 0xb0 virtual false final false
- void remove_didFinishEvent(::System::Action_1<bool> value) ;
+ void remove_didFinishEvent(System::Action_1<bool> value) ;
 
 /// @brief Method get_multiplayerModeSettings addr 0x2176e10 size 0x8 virtual false final false
- ::GlobalNamespace::MultiplayerModeSettings get_multiplayerModeSettings() ;
+ GlobalNamespace::MultiplayerModeSettings get_multiplayerModeSettings() ;
 
 /// @brief Method Setup addr 0x2176e18 size 0x90 virtual false final false
- void Setup(::GlobalNamespace::QuickPlaySetupData quickPlaySetupData, ::GlobalNamespace::MultiplayerModeSettings multiplayerModeSettings) ;
+ void Setup(GlobalNamespace::QuickPlaySetupData quickPlaySetupData, GlobalNamespace::MultiplayerModeSettings multiplayerModeSettings) ;
 
 /// @brief Method DidActivate addr 0x2176ea8 size 0x128 virtual true final false
  void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) ;
@@ -154,6 +153,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::JoinQuickPlayViewController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::JoinQuickPlayViewController, "", "JoinQuickPlayViewController");
+NEED_NO_BOX(GlobalNamespace::JoinQuickPlayViewController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::JoinQuickPlayViewController, "", "JoinQuickPlayViewController");

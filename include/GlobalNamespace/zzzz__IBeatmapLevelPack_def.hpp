@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace GlobalNamespace {
 class IAnnotatedBeatmapLevelCollection;
 }
@@ -18,8 +17,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE IBeatmapLevelPack : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IAnnotatedBeatmapLevelCollection
-constexpr operator  ::GlobalNamespace::IAnnotatedBeatmapLevelCollection() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IAnnotatedBeatmapLevelCollection
+constexpr operator  GlobalNamespace::IAnnotatedBeatmapLevelCollection() const noexcept;
 
 ~IBeatmapLevelPack() = default;
 
@@ -52,6 +51,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IBeatmapLevelPack);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IBeatmapLevelPack, "", "IBeatmapLevelPack");
+NEED_NO_BOX(GlobalNamespace::IBeatmapLevelPack);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IBeatmapLevelPack, "", "IBeatmapLevelPack");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Xml::Schema {
 class XmlSchemaObjectCollection;
 }
@@ -52,13 +51,13 @@ constexpr explicit XmlSchemaObject(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 // Methods
 
 /// @brief Method OnAdd addr 0x27352b0 size 0x4 virtual true final false
- void OnAdd(::System::Xml::Schema::XmlSchemaObjectCollection container, ::bs_hook::Il2CppWrapperType item) ;
+ void OnAdd(System::Xml::Schema::XmlSchemaObjectCollection container, ::bs_hook::Il2CppWrapperType item) ;
 
 /// @brief Method OnRemove addr 0x27352b4 size 0x4 virtual true final false
- void OnRemove(::System::Xml::Schema::XmlSchemaObjectCollection container, ::bs_hook::Il2CppWrapperType item) ;
+ void OnRemove(System::Xml::Schema::XmlSchemaObjectCollection container, ::bs_hook::Il2CppWrapperType item) ;
 
 /// @brief Method OnClear addr 0x27352b8 size 0x4 virtual true final false
- void OnClear(::System::Xml::Schema::XmlSchemaObjectCollection container) ;
+ void OnClear(System::Xml::Schema::XmlSchemaObjectCollection container) ;
 
 // Ctor Parameters []
 explicit XmlSchemaObject() ;
@@ -70,6 +69,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::XmlSchemaObject);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlSchemaObject, "System.Xml.Schema", "XmlSchemaObject");
+NEED_NO_BOX(System::Xml::Schema::XmlSchemaObject);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::XmlSchemaObject, "System.Xml.Schema", "XmlSchemaObject");

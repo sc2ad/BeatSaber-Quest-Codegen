@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
 struct RefreshMask;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field UV offset 0
-static ::UnityEngine::ProBuilder::RefreshMask const UV;
+static UnityEngine::ProBuilder::RefreshMask const UV;
 
 /// @brief Field Colors offset 0
-static ::UnityEngine::ProBuilder::RefreshMask const Colors;
+static UnityEngine::ProBuilder::RefreshMask const Colors;
 
 /// @brief Field Normals offset 0
-static ::UnityEngine::ProBuilder::RefreshMask const Normals;
+static UnityEngine::ProBuilder::RefreshMask const Normals;
 
 /// @brief Field Tangents offset 0
-static ::UnityEngine::ProBuilder::RefreshMask const Tangents;
+static UnityEngine::ProBuilder::RefreshMask const Tangents;
 
 /// @brief Field Collisions offset 0
-static ::UnityEngine::ProBuilder::RefreshMask const Collisions;
+static UnityEngine::ProBuilder::RefreshMask const Collisions;
 
 /// @brief Field Bounds offset 0
-static ::UnityEngine::ProBuilder::RefreshMask const Bounds;
+static UnityEngine::ProBuilder::RefreshMask const Bounds;
 
 /// @brief Field All offset 0
-static ::UnityEngine::ProBuilder::RefreshMask const All;
+static UnityEngine::ProBuilder::RefreshMask const All;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::RefreshMask, "UnityEngine.ProBuilder", "RefreshMask");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::RefreshMask, "UnityEngine.ProBuilder", "RefreshMask");

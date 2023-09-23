@@ -3,7 +3,6 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace GlobalNamespace {
 class ICommandLineArgsProvider;
 }
@@ -20,11 +19,11 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6032))
 // CS Name: CustomizableEnvironmentCommandLineArgsProviderSO
-class CORDL_TYPE CustomizableEnvironmentCommandLineArgsProviderSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE CustomizableEnvironmentCommandLineArgsProviderSO : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::ICommandLineArgsProvider
-constexpr operator  ::GlobalNamespace::ICommandLineArgsProvider() const noexcept;
+/// @brief Convert operator to GlobalNamespace::ICommandLineArgsProvider
+constexpr operator  GlobalNamespace::ICommandLineArgsProvider() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -38,7 +37,7 @@ constexpr CustomizableEnvironmentCommandLineArgsProviderSO(CustomizableEnvironme
 constexpr CustomizableEnvironmentCommandLineArgsProviderSO(CustomizableEnvironmentCommandLineArgsProviderSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CustomizableEnvironmentCommandLineArgsProviderSO(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit CustomizableEnvironmentCommandLineArgsProviderSO(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -77,11 +76,11 @@ constexpr void __set__customCommandLineArgs(::StringW value) ;
 
 constexpr ::StringW __get__customCommandLineArgs() const;
 
-static ::GlobalNamespace::EnvironmentCommandLineArgsProvider __declspec(property(get=__get__environmentCommandLineArgsProvider, put=__set__environmentCommandLineArgsProvider))  _environmentCommandLineArgsProvider;
+static GlobalNamespace::EnvironmentCommandLineArgsProvider __declspec(property(get=__get__environmentCommandLineArgsProvider, put=__set__environmentCommandLineArgsProvider))  _environmentCommandLineArgsProvider;
 
-static void __set__environmentCommandLineArgsProvider(::GlobalNamespace::EnvironmentCommandLineArgsProvider value) ;
+static void __set__environmentCommandLineArgsProvider(GlobalNamespace::EnvironmentCommandLineArgsProvider value) ;
 
-static ::GlobalNamespace::EnvironmentCommandLineArgsProvider __get__environmentCommandLineArgsProvider() ;
+static GlobalNamespace::EnvironmentCommandLineArgsProvider __get__environmentCommandLineArgsProvider() ;
 
 
 // Methods
@@ -99,6 +98,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO, "", "CustomizableEnvironmentCommandLineArgsProviderSO");
+NEED_NO_BOX(GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO, "", "CustomizableEnvironmentCommandLineArgsProviderSO");

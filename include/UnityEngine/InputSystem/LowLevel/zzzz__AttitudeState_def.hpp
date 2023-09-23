@@ -1,15 +1,14 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
+namespace UnityEngine {
+struct Quaternion;
+}
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateTypeInfo;
-}
-namespace UnityEngine {
-struct Quaternion;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -24,11 +23,11 @@ namespace UnityEngine::InputSystem::LowLevel {
 struct CORDL_TYPE AttitudeState : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo
-constexpr operator  ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo() const;
+/// @brief Convert operator to UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo
+constexpr operator  UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo() const;
 
-// Ctor Parameters [CppParam { name: "attitude", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }]
-constexpr AttitudeState(::UnityEngine::Quaternion attitude) noexcept;
+// Ctor Parameters [CppParam { name: "attitude", ty: "UnityEngine::Quaternion", modifiers: "", def_value: None }]
+constexpr AttitudeState(UnityEngine::Quaternion attitude) noexcept;
 
 
                     constexpr AttitudeState(AttitudeState const&) = default;
@@ -61,31 +60,30 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Quaternion __declspec(property(get=__get_attitude, put=__set_attitude))  attitude;
+ UnityEngine::Quaternion __declspec(property(get=__get_attitude, put=__set_attitude))  attitude;
 
-constexpr void __set_attitude(::UnityEngine::Quaternion value) ;
+constexpr void __set_attitude(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get_attitude() const;
+constexpr UnityEngine::Quaternion __get_attitude() const;
 
 
 // Properties
 
-static ::UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_kFormat))  kFormat;
+static UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_kFormat))  kFormat;
 
- ::UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_format))  format;
+ UnityEngine::InputSystem::Utilities::FourCC __declspec(property(get=get_format))  format;
 
 
 // Methods
 
 /// @brief Method get_kFormat addr 0x295632c size 0x30 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::FourCC get_kFormat() ;
+static UnityEngine::InputSystem::Utilities::FourCC get_kFormat() ;
 
 /// @brief Method get_format addr 0x295635c size 0x30 virtual true final true
- ::UnityEngine::InputSystem::Utilities::FourCC get_format() ;
+ UnityEngine::InputSystem::Utilities::FourCC get_format() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::LowLevel
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::AttitudeState, "UnityEngine.InputSystem.LowLevel", "AttitudeState");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::LowLevel::AttitudeState, "UnityEngine.InputSystem.LowLevel", "AttitudeState");

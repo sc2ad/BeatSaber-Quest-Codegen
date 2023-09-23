@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Reflection {
 struct TypeAttributes;
@@ -97,104 +96,103 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field VisibilityMask offset 0
-static ::System::Reflection::TypeAttributes const VisibilityMask;
+static System::Reflection::TypeAttributes const VisibilityMask;
 
 /// @brief Field NotPublic offset 0
-static ::System::Reflection::TypeAttributes const NotPublic;
+static System::Reflection::TypeAttributes const NotPublic;
 
 /// @brief Field Public offset 0
-static ::System::Reflection::TypeAttributes const Public;
+static System::Reflection::TypeAttributes const Public;
 
 /// @brief Field NestedPublic offset 0
-static ::System::Reflection::TypeAttributes const NestedPublic;
+static System::Reflection::TypeAttributes const NestedPublic;
 
 /// @brief Field NestedPrivate offset 0
-static ::System::Reflection::TypeAttributes const NestedPrivate;
+static System::Reflection::TypeAttributes const NestedPrivate;
 
 /// @brief Field NestedFamily offset 0
-static ::System::Reflection::TypeAttributes const NestedFamily;
+static System::Reflection::TypeAttributes const NestedFamily;
 
 /// @brief Field NestedAssembly offset 0
-static ::System::Reflection::TypeAttributes const NestedAssembly;
+static System::Reflection::TypeAttributes const NestedAssembly;
 
 /// @brief Field NestedFamANDAssem offset 0
-static ::System::Reflection::TypeAttributes const NestedFamANDAssem;
+static System::Reflection::TypeAttributes const NestedFamANDAssem;
 
 /// @brief Field NestedFamORAssem offset 0
-static ::System::Reflection::TypeAttributes const NestedFamORAssem;
+static System::Reflection::TypeAttributes const NestedFamORAssem;
 
 /// @brief Field LayoutMask offset 0
-static ::System::Reflection::TypeAttributes const LayoutMask;
+static System::Reflection::TypeAttributes const LayoutMask;
 
 /// @brief Field AutoLayout offset 0
-static ::System::Reflection::TypeAttributes const AutoLayout;
+static System::Reflection::TypeAttributes const AutoLayout;
 
 /// @brief Field SequentialLayout offset 0
-static ::System::Reflection::TypeAttributes const SequentialLayout;
+static System::Reflection::TypeAttributes const SequentialLayout;
 
 /// @brief Field ExplicitLayout offset 0
-static ::System::Reflection::TypeAttributes const ExplicitLayout;
+static System::Reflection::TypeAttributes const ExplicitLayout;
 
 /// @brief Field ClassSemanticsMask offset 0
-static ::System::Reflection::TypeAttributes const ClassSemanticsMask;
+static System::Reflection::TypeAttributes const ClassSemanticsMask;
 
 /// @brief Field Class offset 0
-static ::System::Reflection::TypeAttributes const Class;
+static System::Reflection::TypeAttributes const Class;
 
 /// @brief Field Interface offset 0
-static ::System::Reflection::TypeAttributes const Interface;
+static System::Reflection::TypeAttributes const Interface;
 
 /// @brief Field Abstract offset 0
-static ::System::Reflection::TypeAttributes const Abstract;
+static System::Reflection::TypeAttributes const Abstract;
 
 /// @brief Field Sealed offset 0
-static ::System::Reflection::TypeAttributes const Sealed;
+static System::Reflection::TypeAttributes const Sealed;
 
 /// @brief Field SpecialName offset 0
-static ::System::Reflection::TypeAttributes const SpecialName;
+static System::Reflection::TypeAttributes const SpecialName;
 
 /// @brief Field Import offset 0
-static ::System::Reflection::TypeAttributes const Import;
+static System::Reflection::TypeAttributes const Import;
 
 /// @brief Field Serializable offset 0
-static ::System::Reflection::TypeAttributes const Serializable;
+static System::Reflection::TypeAttributes const Serializable;
 
 /// @brief Field WindowsRuntime offset 0
-static ::System::Reflection::TypeAttributes const WindowsRuntime;
+static System::Reflection::TypeAttributes const WindowsRuntime;
 
 /// @brief Field StringFormatMask offset 0
-static ::System::Reflection::TypeAttributes const StringFormatMask;
+static System::Reflection::TypeAttributes const StringFormatMask;
 
 /// @brief Field AnsiClass offset 0
-static ::System::Reflection::TypeAttributes const AnsiClass;
+static System::Reflection::TypeAttributes const AnsiClass;
 
 /// @brief Field UnicodeClass offset 0
-static ::System::Reflection::TypeAttributes const UnicodeClass;
+static System::Reflection::TypeAttributes const UnicodeClass;
 
 /// @brief Field AutoClass offset 0
-static ::System::Reflection::TypeAttributes const AutoClass;
+static System::Reflection::TypeAttributes const AutoClass;
 
 /// @brief Field CustomFormatClass offset 0
-static ::System::Reflection::TypeAttributes const CustomFormatClass;
+static System::Reflection::TypeAttributes const CustomFormatClass;
 
 /// @brief Field CustomFormatMask offset 0
-static ::System::Reflection::TypeAttributes const CustomFormatMask;
+static System::Reflection::TypeAttributes const CustomFormatMask;
 
 /// @brief Field BeforeFieldInit offset 0
-static ::System::Reflection::TypeAttributes const BeforeFieldInit;
+static System::Reflection::TypeAttributes const BeforeFieldInit;
 
 /// @brief Field RTSpecialName offset 0
-static ::System::Reflection::TypeAttributes const RTSpecialName;
+static System::Reflection::TypeAttributes const RTSpecialName;
 
 /// @brief Field HasSecurity offset 0
-static ::System::Reflection::TypeAttributes const HasSecurity;
+static System::Reflection::TypeAttributes const HasSecurity;
 
 /// @brief Field ReservedMask offset 0
-static ::System::Reflection::TypeAttributes const ReservedMask;
+static System::Reflection::TypeAttributes const ReservedMask;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Reflection
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::TypeAttributes, "System.Reflection", "TypeAttributes");
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::TypeAttributes, "System.Reflection", "TypeAttributes");

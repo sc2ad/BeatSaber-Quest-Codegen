@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 struct ConnectionFailedReason;
@@ -81,56 +80,55 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::GlobalNamespace::ConnectionFailedReason const None;
+static GlobalNamespace::ConnectionFailedReason const None;
 
 /// @brief Field Unknown offset 0
-static ::GlobalNamespace::ConnectionFailedReason const Unknown;
+static GlobalNamespace::ConnectionFailedReason const Unknown;
 
 /// @brief Field ConnectionCanceled offset 0
-static ::GlobalNamespace::ConnectionFailedReason const ConnectionCanceled;
+static GlobalNamespace::ConnectionFailedReason const ConnectionCanceled;
 
 /// @brief Field ServerUnreachable offset 0
-static ::GlobalNamespace::ConnectionFailedReason const ServerUnreachable;
+static GlobalNamespace::ConnectionFailedReason const ServerUnreachable;
 
 /// @brief Field ServerAlreadyExists offset 0
-static ::GlobalNamespace::ConnectionFailedReason const ServerAlreadyExists;
+static GlobalNamespace::ConnectionFailedReason const ServerAlreadyExists;
 
 /// @brief Field ServerDoesNotExist offset 0
-static ::GlobalNamespace::ConnectionFailedReason const ServerDoesNotExist;
+static GlobalNamespace::ConnectionFailedReason const ServerDoesNotExist;
 
 /// @brief Field ServerAtCapacity offset 0
-static ::GlobalNamespace::ConnectionFailedReason const ServerAtCapacity;
+static GlobalNamespace::ConnectionFailedReason const ServerAtCapacity;
 
 /// @brief Field VersionMismatch offset 0
-static ::GlobalNamespace::ConnectionFailedReason const VersionMismatch;
+static GlobalNamespace::ConnectionFailedReason const VersionMismatch;
 
 /// @brief Field InvalidPassword offset 0
-static ::GlobalNamespace::ConnectionFailedReason const InvalidPassword;
+static GlobalNamespace::ConnectionFailedReason const InvalidPassword;
 
 /// @brief Field MultiplayerApiUnreachable offset 0
-static ::GlobalNamespace::ConnectionFailedReason const MultiplayerApiUnreachable;
+static GlobalNamespace::ConnectionFailedReason const MultiplayerApiUnreachable;
 
 /// @brief Field AuthenticationFailed offset 0
-static ::GlobalNamespace::ConnectionFailedReason const AuthenticationFailed;
+static GlobalNamespace::ConnectionFailedReason const AuthenticationFailed;
 
 /// @brief Field NetworkNotConnected offset 0
-static ::GlobalNamespace::ConnectionFailedReason const NetworkNotConnected;
+static GlobalNamespace::ConnectionFailedReason const NetworkNotConnected;
 
 /// @brief Field CertificateValidationFailed offset 0
-static ::GlobalNamespace::ConnectionFailedReason const CertificateValidationFailed;
+static GlobalNamespace::ConnectionFailedReason const CertificateValidationFailed;
 
 /// @brief Field ServerIsTerminating offset 0
-static ::GlobalNamespace::ConnectionFailedReason const ServerIsTerminating;
+static GlobalNamespace::ConnectionFailedReason const ServerIsTerminating;
 
 /// @brief Field Timeout offset 0
-static ::GlobalNamespace::ConnectionFailedReason const Timeout;
+static GlobalNamespace::ConnectionFailedReason const Timeout;
 
 /// @brief Field FailedToFindMatch offset 0
-static ::GlobalNamespace::ConnectionFailedReason const FailedToFindMatch;
+static GlobalNamespace::ConnectionFailedReason const FailedToFindMatch;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ConnectionFailedReason, "", "ConnectionFailedReason");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectionFailedReason, "", "ConnectionFailedReason");

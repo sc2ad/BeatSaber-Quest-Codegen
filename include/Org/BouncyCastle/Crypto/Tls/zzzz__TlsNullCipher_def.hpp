@@ -3,10 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipher;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsContext;
 }
@@ -15,6 +11,9 @@ class TlsMac;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -29,8 +28,8 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE TlsNullCipher : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Tls::TlsCipher
-constexpr operator  ::Org::BouncyCastle::Crypto::Tls::TlsCipher() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Tls::TlsCipher
+constexpr operator  Org::BouncyCastle::Crypto::Tls::TlsCipher() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -65,38 +64,38 @@ constexpr explicit TlsNullCipher(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 
 // Fields
 
- ::Org::BouncyCastle::Crypto::Tls::TlsContext __declspec(property(get=__get_context, put=__set_context))  context;
+ Org::BouncyCastle::Crypto::Tls::TlsContext __declspec(property(get=__get_context, put=__set_context))  context;
 
-constexpr void __set_context(::Org::BouncyCastle::Crypto::Tls::TlsContext value) ;
+constexpr void __set_context(Org::BouncyCastle::Crypto::Tls::TlsContext value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext __get_context() const;
+constexpr Org::BouncyCastle::Crypto::Tls::TlsContext __get_context() const;
 
- ::Org::BouncyCastle::Crypto::Tls::TlsMac __declspec(property(get=__get_writeMac, put=__set_writeMac))  writeMac;
+ Org::BouncyCastle::Crypto::Tls::TlsMac __declspec(property(get=__get_writeMac, put=__set_writeMac))  writeMac;
 
-constexpr void __set_writeMac(::Org::BouncyCastle::Crypto::Tls::TlsMac value) ;
+constexpr void __set_writeMac(Org::BouncyCastle::Crypto::Tls::TlsMac value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::TlsMac __get_writeMac() const;
+constexpr Org::BouncyCastle::Crypto::Tls::TlsMac __get_writeMac() const;
 
- ::Org::BouncyCastle::Crypto::Tls::TlsMac __declspec(property(get=__get_readMac, put=__set_readMac))  readMac;
+ Org::BouncyCastle::Crypto::Tls::TlsMac __declspec(property(get=__get_readMac, put=__set_readMac))  readMac;
 
-constexpr void __set_readMac(::Org::BouncyCastle::Crypto::Tls::TlsMac value) ;
+constexpr void __set_readMac(Org::BouncyCastle::Crypto::Tls::TlsMac value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::TlsMac __get_readMac() const;
+constexpr Org::BouncyCastle::Crypto::Tls::TlsMac __get_readMac() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "context", ty: "::Org::BouncyCastle::Crypto::Tls::TlsContext", modifiers: "", def_value: None }]
-explicit TlsNullCipher(::Org::BouncyCastle::Crypto::Tls::TlsContext context) ;
+// Ctor Parameters [CppParam { name: "context", ty: "Org::BouncyCastle::Crypto::Tls::TlsContext", modifiers: "", def_value: None }]
+explicit TlsNullCipher(Org::BouncyCastle::Crypto::Tls::TlsContext context) ;
 
 /// @brief Method .ctor addr 0xf21ba4 size 0x2c virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext context) ;
+ void _ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context) ;
 
-// Ctor Parameters [CppParam { name: "context", ty: "::Org::BouncyCastle::Crypto::Tls::TlsContext", modifiers: "", def_value: None }, CppParam { name: "clientWriteDigest", ty: "::Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "serverWriteDigest", ty: "::Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
-explicit TlsNullCipher(::Org::BouncyCastle::Crypto::Tls::TlsContext context, ::Org::BouncyCastle::Crypto::IDigest clientWriteDigest, ::Org::BouncyCastle::Crypto::IDigest serverWriteDigest) ;
+// Ctor Parameters [CppParam { name: "context", ty: "Org::BouncyCastle::Crypto::Tls::TlsContext", modifiers: "", def_value: None }, CppParam { name: "clientWriteDigest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "serverWriteDigest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
+explicit TlsNullCipher(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::IDigest clientWriteDigest, Org::BouncyCastle::Crypto::IDigest serverWriteDigest) ;
 
 /// @brief Method .ctor addr 0xf21bd0 size 0x458 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext context, ::Org::BouncyCastle::Crypto::IDigest clientWriteDigest, ::Org::BouncyCastle::Crypto::IDigest serverWriteDigest) ;
+ void _ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::IDigest clientWriteDigest, Org::BouncyCastle::Crypto::IDigest serverWriteDigest) ;
 
 /// @brief Method GetPlaintextLimit addr 0xf221c8 size 0x2c virtual true final false
  int32_t GetPlaintextLimit(int32_t ciphertextLimit) ;
@@ -111,6 +110,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsNullCipher);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::TlsNullCipher, "Org.BouncyCastle.Crypto.Tls", "TlsNullCipher");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::TlsNullCipher);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::TlsNullCipher, "Org.BouncyCastle.Crypto.Tls", "TlsNullCipher");

@@ -3,9 +3,8 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
-struct ____System__DateTimeParse__TM;
+struct System__DateTimeParse__TM;
 }
 // Forward declare root types
 namespace System {
@@ -20,8 +19,8 @@ namespace System {
 struct CORDL_TYPE DateTimeRawInfo : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "num", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "numCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "month", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "year", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "dayOfWeek", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "era", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "timeMark", ty: "::System::____System__DateTimeParse__TM", modifiers: "", def_value: None }, CppParam { name: "fraction", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "hasSameDateAndTimeSeparators", ty: "bool", modifiers: "", def_value: None }]
-constexpr DateTimeRawInfo(void* num, int32_t numCount, int32_t month, int32_t year, int32_t dayOfWeek, int32_t era, ::System::____System__DateTimeParse__TM timeMark, double_t fraction, bool hasSameDateAndTimeSeparators) noexcept;
+// Ctor Parameters [CppParam { name: "num", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "numCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "month", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "year", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "dayOfWeek", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "era", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "timeMark", ty: "System::System__DateTimeParse__TM", modifiers: "", def_value: None }, CppParam { name: "fraction", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "hasSameDateAndTimeSeparators", ty: "bool", modifiers: "", def_value: None }]
+constexpr DateTimeRawInfo(void* num, int32_t numCount, int32_t month, int32_t year, int32_t dayOfWeek, int32_t era, System::System__DateTimeParse__TM timeMark, double_t fraction, bool hasSameDateAndTimeSeparators) noexcept;
 
 
                     constexpr DateTimeRawInfo(DateTimeRawInfo const&) = default;
@@ -90,11 +89,11 @@ constexpr void __set_era(int32_t value) ;
 
 constexpr int32_t __get_era() const;
 
- ::System::____System__DateTimeParse__TM __declspec(property(get=__get_timeMark, put=__set_timeMark))  timeMark;
+ System::System__DateTimeParse__TM __declspec(property(get=__get_timeMark, put=__set_timeMark))  timeMark;
 
-constexpr void __set_timeMark(::System::____System__DateTimeParse__TM value) ;
+constexpr void __set_timeMark(System::System__DateTimeParse__TM value) ;
 
-constexpr ::System::____System__DateTimeParse__TM __get_timeMark() const;
+constexpr System::System__DateTimeParse__TM __get_timeMark() const;
 
  double_t __declspec(property(get=__get_fraction, put=__set_fraction))  fraction;
 
@@ -124,5 +123,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::DateTimeRawInfo, "System", "DateTimeRawInfo");
+DEFINE_IL2CPP_ARG_TYPE(System::DateTimeRawInfo, "System", "DateTimeRawInfo");

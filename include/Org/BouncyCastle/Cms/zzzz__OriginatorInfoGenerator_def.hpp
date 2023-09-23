@@ -1,15 +1,14 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace System::Collections {
-class IList;
+namespace Org::BouncyCastle::Asn1::Cms {
+class OriginatorInfo;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class OriginatorInfo;
+namespace System::Collections {
+class IList;
 }
 namespace Org::BouncyCastle::X509::Store {
 class IX509Store;
@@ -60,46 +59,45 @@ constexpr explicit OriginatorInfoGenerator(void* ptr) noexcept : ::bs_hook::Il2C
 
 // Fields
 
- ::System::Collections::IList __declspec(property(get=__get_origCerts, put=__set_origCerts))  origCerts;
+ System::Collections::IList __declspec(property(get=__get_origCerts, put=__set_origCerts))  origCerts;
 
-constexpr void __set_origCerts(::System::Collections::IList value) ;
+constexpr void __set_origCerts(System::Collections::IList value) ;
 
-constexpr ::System::Collections::IList __get_origCerts() const;
+constexpr System::Collections::IList __get_origCerts() const;
 
- ::System::Collections::IList __declspec(property(get=__get_origCrls, put=__set_origCrls))  origCrls;
+ System::Collections::IList __declspec(property(get=__get_origCrls, put=__set_origCrls))  origCrls;
 
-constexpr void __set_origCrls(::System::Collections::IList value) ;
+constexpr void __set_origCrls(System::Collections::IList value) ;
 
-constexpr ::System::Collections::IList __get_origCrls() const;
+constexpr System::Collections::IList __get_origCrls() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "origCert", ty: "::Org::BouncyCastle::X509::X509Certificate", modifiers: "", def_value: None }]
-explicit OriginatorInfoGenerator(::Org::BouncyCastle::X509::X509Certificate origCert) ;
+// Ctor Parameters [CppParam { name: "origCert", ty: "Org::BouncyCastle::X509::X509Certificate", modifiers: "", def_value: None }]
+explicit OriginatorInfoGenerator(Org::BouncyCastle::X509::X509Certificate origCert) ;
 
 /// @brief Method .ctor addr 0x117b774 size 0x110 virtual false final false
- void _ctor(::Org::BouncyCastle::X509::X509Certificate origCert) ;
+ void _ctor(Org::BouncyCastle::X509::X509Certificate origCert) ;
 
-// Ctor Parameters [CppParam { name: "origCerts", ty: "::Org::BouncyCastle::X509::Store::IX509Store", modifiers: "", def_value: None }]
-explicit OriginatorInfoGenerator(::Org::BouncyCastle::X509::Store::IX509Store origCerts) ;
+// Ctor Parameters [CppParam { name: "origCerts", ty: "Org::BouncyCastle::X509::Store::IX509Store", modifiers: "", def_value: None }]
+explicit OriginatorInfoGenerator(Org::BouncyCastle::X509::Store::IX509Store origCerts) ;
 
 /// @brief Method .ctor addr 0x117b884 size 0x30 virtual false final false
- void _ctor(::Org::BouncyCastle::X509::Store::IX509Store origCerts) ;
+ void _ctor(Org::BouncyCastle::X509::Store::IX509Store origCerts) ;
 
-// Ctor Parameters [CppParam { name: "origCerts", ty: "::Org::BouncyCastle::X509::Store::IX509Store", modifiers: "", def_value: None }, CppParam { name: "origCrls", ty: "::Org::BouncyCastle::X509::Store::IX509Store", modifiers: "", def_value: None }]
-explicit OriginatorInfoGenerator(::Org::BouncyCastle::X509::Store::IX509Store origCerts, ::Org::BouncyCastle::X509::Store::IX509Store origCrls) ;
+// Ctor Parameters [CppParam { name: "origCerts", ty: "Org::BouncyCastle::X509::Store::IX509Store", modifiers: "", def_value: None }, CppParam { name: "origCrls", ty: "Org::BouncyCastle::X509::Store::IX509Store", modifiers: "", def_value: None }]
+explicit OriginatorInfoGenerator(Org::BouncyCastle::X509::Store::IX509Store origCerts, Org::BouncyCastle::X509::Store::IX509Store origCrls) ;
 
 /// @brief Method .ctor addr 0x117b8b4 size 0x4c virtual false final false
- void _ctor(::Org::BouncyCastle::X509::Store::IX509Store origCerts, ::Org::BouncyCastle::X509::Store::IX509Store origCrls) ;
+ void _ctor(Org::BouncyCastle::X509::Store::IX509Store origCerts, Org::BouncyCastle::X509::Store::IX509Store origCrls) ;
 
 /// @brief Method Generate addr 0x117b900 size 0x90 virtual true final false
- ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo Generate() ;
+ Org::BouncyCastle::Asn1::Cms::OriginatorInfo Generate() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Cms
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Cms::OriginatorInfoGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::OriginatorInfoGenerator, "Org.BouncyCastle.Cms", "OriginatorInfoGenerator");
+NEED_NO_BOX(Org::BouncyCastle::Cms::OriginatorInfoGenerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Cms::OriginatorInfoGenerator, "Org.BouncyCastle.Cms", "OriginatorInfoGenerator");

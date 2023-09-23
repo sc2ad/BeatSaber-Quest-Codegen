@@ -6,44 +6,43 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace System {
-struct DateTimeOffset;
+struct Decimal;
 }
 namespace Newtonsoft::Json {
-class JsonReaderException;
-}
-namespace System {
 template<typename T>
-struct Nullable_1;
+class IArrayPool_1;
 }
 namespace Newtonsoft::Json::Utilities {
-struct StringBuffer;
-}
-namespace System {
-struct DateTime;
-}
-namespace Newtonsoft::Json {
-class IJsonLineInfo;
+struct StringReference;
 }
 namespace Newtonsoft::Json::Utilities {
 class PropertyNameTable;
 }
 namespace System {
-struct Decimal;
+struct DateTimeOffset;
 }
 namespace Newtonsoft::Json {
 struct ReadType;
 }
-namespace System::IO {
-class TextReader;
-}
 namespace Newtonsoft::Json::Utilities {
-struct StringReference;
+struct StringBuffer;
 }
 namespace Newtonsoft::Json {
+class JsonReaderException;
+}
+namespace Newtonsoft::Json {
+class IJsonLineInfo;
+}
+namespace System {
 template<typename T>
-class IArrayPool_1;
+struct Nullable_1;
+}
+namespace System {
+struct DateTime;
+}
+namespace System::IO {
+class TextReader;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {
@@ -55,11 +54,11 @@ namespace Newtonsoft::Json {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11775))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11766))
 // CS Name: Newtonsoft.Json.JsonTextReader
-class CORDL_TYPE JsonTextReader : public ::Newtonsoft::Json::JsonReader {
+class CORDL_TYPE JsonTextReader : public Newtonsoft::Json::JsonReader {
 public:
 // Declarations
-/// @brief Convert operator to ::Newtonsoft::Json::IJsonLineInfo
-constexpr operator  ::Newtonsoft::Json::IJsonLineInfo() const noexcept;
+/// @brief Convert operator to Newtonsoft::Json::IJsonLineInfo
+constexpr operator  Newtonsoft::Json::IJsonLineInfo() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xd0};
@@ -73,7 +72,7 @@ constexpr JsonTextReader(JsonTextReader const& ) noexcept = default;
 constexpr JsonTextReader(JsonTextReader&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit JsonTextReader(void* ptr) noexcept : ::Newtonsoft::Json::JsonReader(ptr) {
+constexpr explicit JsonTextReader(void* ptr) noexcept : Newtonsoft::Json::JsonReader(ptr) {
 }
 
 
@@ -100,11 +99,11 @@ static constexpr char16_t  UnicodeReplacementChar{�};
 /// @brief Field MaximumJavascriptIntegerCharacterLength offset 0
 static constexpr int32_t  MaximumJavascriptIntegerCharacterLength{380};
 
- ::System::IO::TextReader __declspec(property(get=__get__reader, put=__set__reader))  _reader;
+ System::IO::TextReader __declspec(property(get=__get__reader, put=__set__reader))  _reader;
 
-constexpr void __set__reader(::System::IO::TextReader value) ;
+constexpr void __set__reader(System::IO::TextReader value) ;
 
-constexpr ::System::IO::TextReader __get__reader() const;
+constexpr System::IO::TextReader __get__reader() const;
 
  ::ArrayW<char16_t> __declspec(property(get=__get__chars, put=__set__chars))  _chars;
 
@@ -142,34 +141,34 @@ constexpr void __set__isEndOfFile(bool value) ;
 
 constexpr bool __get__isEndOfFile() const;
 
- ::Newtonsoft::Json::Utilities::StringBuffer __declspec(property(get=__get__stringBuffer, put=__set__stringBuffer))  _stringBuffer;
+ Newtonsoft::Json::Utilities::StringBuffer __declspec(property(get=__get__stringBuffer, put=__set__stringBuffer))  _stringBuffer;
 
-constexpr void __set__stringBuffer(::Newtonsoft::Json::Utilities::StringBuffer value) ;
+constexpr void __set__stringBuffer(Newtonsoft::Json::Utilities::StringBuffer value) ;
 
-constexpr ::Newtonsoft::Json::Utilities::StringBuffer __get__stringBuffer() const;
+constexpr Newtonsoft::Json::Utilities::StringBuffer __get__stringBuffer() const;
 
- ::Newtonsoft::Json::Utilities::StringReference __declspec(property(get=__get__stringReference, put=__set__stringReference))  _stringReference;
+ Newtonsoft::Json::Utilities::StringReference __declspec(property(get=__get__stringReference, put=__set__stringReference))  _stringReference;
 
-constexpr void __set__stringReference(::Newtonsoft::Json::Utilities::StringReference value) ;
+constexpr void __set__stringReference(Newtonsoft::Json::Utilities::StringReference value) ;
 
-constexpr ::Newtonsoft::Json::Utilities::StringReference __get__stringReference() const;
+constexpr Newtonsoft::Json::Utilities::StringReference __get__stringReference() const;
 
- ::Newtonsoft::Json::IArrayPool_1<char16_t> __declspec(property(get=__get__arrayPool, put=__set__arrayPool))  _arrayPool;
+ Newtonsoft::Json::IArrayPool_1<char16_t> __declspec(property(get=__get__arrayPool, put=__set__arrayPool))  _arrayPool;
 
-constexpr void __set__arrayPool(::Newtonsoft::Json::IArrayPool_1<char16_t> value) ;
+constexpr void __set__arrayPool(Newtonsoft::Json::IArrayPool_1<char16_t> value) ;
 
-constexpr ::Newtonsoft::Json::IArrayPool_1<char16_t> __get__arrayPool() const;
+constexpr Newtonsoft::Json::IArrayPool_1<char16_t> __get__arrayPool() const;
 
- ::Newtonsoft::Json::Utilities::PropertyNameTable __declspec(property(get=__get_NameTable, put=__set_NameTable))  NameTable;
+ Newtonsoft::Json::Utilities::PropertyNameTable __declspec(property(get=__get_NameTable, put=__set_NameTable))  NameTable;
 
-constexpr void __set_NameTable(::Newtonsoft::Json::Utilities::PropertyNameTable value) ;
+constexpr void __set_NameTable(Newtonsoft::Json::Utilities::PropertyNameTable value) ;
 
-constexpr ::Newtonsoft::Json::Utilities::PropertyNameTable __get_NameTable() const;
+constexpr Newtonsoft::Json::Utilities::PropertyNameTable __get_NameTable() const;
 
 
 // Properties
 
- ::Newtonsoft::Json::IArrayPool_1<char16_t> __declspec(property(get=get_ArrayPool, put=set_ArrayPool))  ArrayPool;
+ Newtonsoft::Json::IArrayPool_1<char16_t> __declspec(property(get=get_ArrayPool, put=set_ArrayPool))  ArrayPool;
 
  int32_t __declspec(property(get=get_LineNumber))  LineNumber;
 
@@ -178,17 +177,17 @@ constexpr ::Newtonsoft::Json::Utilities::PropertyNameTable __get_NameTable() con
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "reader", ty: "::System::IO::TextReader", modifiers: "", def_value: None }]
-explicit JsonTextReader(::System::IO::TextReader reader) ;
+// Ctor Parameters [CppParam { name: "reader", ty: "System::IO::TextReader", modifiers: "", def_value: None }]
+explicit JsonTextReader(System::IO::TextReader reader) ;
 
 /// @brief Method .ctor addr 0x24c984c size 0x9c virtual false final false
- void _ctor(::System::IO::TextReader reader) ;
+ void _ctor(System::IO::TextReader reader) ;
 
 /// @brief Method get_ArrayPool addr 0x24c9920 size 0x8 virtual false final false
- ::Newtonsoft::Json::IArrayPool_1<char16_t> get_ArrayPool() ;
+ Newtonsoft::Json::IArrayPool_1<char16_t> get_ArrayPool() ;
 
 /// @brief Method set_ArrayPool addr 0x24c9928 size 0x60 virtual false final false
- void set_ArrayPool(::Newtonsoft::Json::IArrayPool_1<char16_t> value) ;
+ void set_ArrayPool(Newtonsoft::Json::IArrayPool_1<char16_t> value) ;
 
 /// @brief Method EnsureBufferNotEmpty addr 0x24c9988 size 0x54 virtual false final false
  void EnsureBufferNotEmpty() ;
@@ -197,7 +196,7 @@ explicit JsonTextReader(::System::IO::TextReader reader) ;
  void OnNewLine(int32_t pos) ;
 
 /// @brief Method ParseString addr 0x24c99ec size 0x3b8 virtual false final false
- void ParseString(char16_t quote, ::Newtonsoft::Json::ReadType readType) ;
+ void ParseString(char16_t quote, Newtonsoft::Json::ReadType readType) ;
 
 /// @brief Method BlockCopyChars addr 0x24ca4e4 size 0x14 virtual false final false
 static void BlockCopyChars(::ArrayW<char16_t> src, int32_t srcOffset, ::ArrayW<char16_t> dst, int32_t dstOffset, int32_t count) ;
@@ -221,10 +220,10 @@ static void BlockCopyChars(::ArrayW<char16_t> src, int32_t srcOffset, ::ArrayW<c
  bool Read() ;
 
 /// @brief Method ReadAsInt32 addr 0x24cb5e8 size 0x90 virtual true final false
- ::System::Nullable_1<int32_t> ReadAsInt32() ;
+ System::Nullable_1<int32_t> ReadAsInt32() ;
 
 /// @brief Method ReadAsDateTime addr 0x24cbb30 size 0x90 virtual true final false
- ::System::Nullable_1<::System::DateTime> ReadAsDateTime() ;
+ System::Nullable_1<System::DateTime> ReadAsDateTime() ;
 
 /// @brief Method ReadAsString addr 0x24cc2d0 size 0x64 virtual true final false
  ::StringW ReadAsString() ;
@@ -233,28 +232,28 @@ static void BlockCopyChars(::ArrayW<char16_t> src, int32_t srcOffset, ::ArrayW<c
  ::ArrayW<uint8_t> ReadAsBytes() ;
 
 /// @brief Method ReadStringValue addr 0x24cbbc0 size 0x710 virtual false final false
- ::bs_hook::Il2CppWrapperType ReadStringValue(::Newtonsoft::Json::ReadType readType) ;
+ ::bs_hook::Il2CppWrapperType ReadStringValue(Newtonsoft::Json::ReadType readType) ;
 
 /// @brief Method CreateUnexpectedCharacterException addr 0x24ccdc4 size 0xd0 virtual false final false
- ::Newtonsoft::Json::JsonReaderException CreateUnexpectedCharacterException(char16_t c) ;
+ Newtonsoft::Json::JsonReaderException CreateUnexpectedCharacterException(char16_t c) ;
 
 /// @brief Method ReadAsBoolean addr 0x24ce81c size 0x4e0 virtual true final false
- ::System::Nullable_1<bool> ReadAsBoolean() ;
+ System::Nullable_1<bool> ReadAsBoolean() ;
 
 /// @brief Method ProcessValueComma addr 0x24ccd6c size 0x58 virtual false final false
  void ProcessValueComma() ;
 
 /// @brief Method ReadNumberValue addr 0x24cb678 size 0x4b8 virtual false final false
- ::bs_hook::Il2CppWrapperType ReadNumberValue(::Newtonsoft::Json::ReadType readType) ;
+ ::bs_hook::Il2CppWrapperType ReadNumberValue(Newtonsoft::Json::ReadType readType) ;
 
 /// @brief Method ReadAsDateTimeOffset addr 0x24cf5c4 size 0xcc virtual true final false
- ::System::Nullable_1<::System::DateTimeOffset> ReadAsDateTimeOffset() ;
+ System::Nullable_1<System::DateTimeOffset> ReadAsDateTimeOffset() ;
 
 /// @brief Method ReadAsDecimal addr 0x24cf690 size 0xcc virtual true final false
- ::System::Nullable_1<::System::Decimal> ReadAsDecimal() ;
+ System::Nullable_1<System::Decimal> ReadAsDecimal() ;
 
 /// @brief Method ReadAsDouble addr 0x24cf75c size 0xb4 virtual true final false
- ::System::Nullable_1<double_t> ReadAsDouble() ;
+ System::Nullable_1<double_t> ReadAsDouble() ;
 
 /// @brief Method HandleNull addr 0x24ccc9c size 0xd0 virtual false final false
  void HandleNull() ;
@@ -314,7 +313,7 @@ static void BlockCopyChars(::ArrayW<char16_t> src, int32_t srcOffset, ::ArrayW<c
  void ParseConstructor() ;
 
 /// @brief Method ParseNumber addr 0x24cd6d0 size 0xde0 virtual false final false
- void ParseNumber(::Newtonsoft::Json::ReadType readType) ;
+ void ParseNumber(Newtonsoft::Json::ReadType readType) ;
 
 /// @brief Method ParseComment addr 0x24cb354 size 0x28c virtual false final false
  void ParseComment(bool setToken) ;
@@ -344,13 +343,13 @@ static void BlockCopyChars(::ArrayW<char16_t> src, int32_t srcOffset, ::ArrayW<c
  void ParseFalse() ;
 
 /// @brief Method ParseNumberNegativeInfinity addr 0x24cd570 size 0x160 virtual false final false
- ::bs_hook::Il2CppWrapperType ParseNumberNegativeInfinity(::Newtonsoft::Json::ReadType readType) ;
+ ::bs_hook::Il2CppWrapperType ParseNumberNegativeInfinity(Newtonsoft::Json::ReadType readType) ;
 
 /// @brief Method ParseNumberPositiveInfinity addr 0x24ce55c size 0x160 virtual false final false
- ::bs_hook::Il2CppWrapperType ParseNumberPositiveInfinity(::Newtonsoft::Json::ReadType readType) ;
+ ::bs_hook::Il2CppWrapperType ParseNumberPositiveInfinity(Newtonsoft::Json::ReadType readType) ;
 
 /// @brief Method ParseNumberNaN addr 0x24ce6bc size 0x160 virtual false final false
- ::bs_hook::Il2CppWrapperType ParseNumberNaN(::Newtonsoft::Json::ReadType readType) ;
+ ::bs_hook::Il2CppWrapperType ParseNumberNaN(Newtonsoft::Json::ReadType readType) ;
 
 /// @brief Method Close addr 0x24d096c size 0x60 virtual true final false
  void Close() ;
@@ -368,6 +367,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::JsonTextReader);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonTextReader, "Newtonsoft.Json", "JsonTextReader");
+NEED_NO_BOX(Newtonsoft::Json::JsonTextReader);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::JsonTextReader, "Newtonsoft.Json", "JsonTextReader");

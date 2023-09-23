@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::ComponentModel {
 class DesignerCategoryAttribute;
@@ -15,7 +14,7 @@ namespace System::ComponentModel {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8241))
 // CS Name: System.ComponentModel.DesignerCategoryAttribute
-class CORDL_TYPE DesignerCategoryAttribute : public ::System::Attribute {
+class CORDL_TYPE DesignerCategoryAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr DesignerCategoryAttribute(DesignerCategoryAttribute const& ) noexcept 
 constexpr DesignerCategoryAttribute(DesignerCategoryAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DesignerCategoryAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit DesignerCategoryAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -51,29 +50,29 @@ constexpr explicit DesignerCategoryAttribute(void* ptr) noexcept : ::System::Att
 
 // Fields
 
-static ::System::ComponentModel::DesignerCategoryAttribute __declspec(property(get=__get_Component, put=__set_Component))  Component;
+static System::ComponentModel::DesignerCategoryAttribute __declspec(property(get=__get_Component, put=__set_Component))  Component;
 
-static void __set_Component(::System::ComponentModel::DesignerCategoryAttribute value) ;
+static void __set_Component(System::ComponentModel::DesignerCategoryAttribute value) ;
 
-static ::System::ComponentModel::DesignerCategoryAttribute __get_Component() ;
+static System::ComponentModel::DesignerCategoryAttribute __get_Component() ;
 
-static ::System::ComponentModel::DesignerCategoryAttribute __declspec(property(get=__get_Default, put=__set_Default))  Default;
+static System::ComponentModel::DesignerCategoryAttribute __declspec(property(get=__get_Default, put=__set_Default))  Default;
 
-static void __set_Default(::System::ComponentModel::DesignerCategoryAttribute value) ;
+static void __set_Default(System::ComponentModel::DesignerCategoryAttribute value) ;
 
-static ::System::ComponentModel::DesignerCategoryAttribute __get_Default() ;
+static System::ComponentModel::DesignerCategoryAttribute __get_Default() ;
 
-static ::System::ComponentModel::DesignerCategoryAttribute __declspec(property(get=__get_Form, put=__set_Form))  Form;
+static System::ComponentModel::DesignerCategoryAttribute __declspec(property(get=__get_Form, put=__set_Form))  Form;
 
-static void __set_Form(::System::ComponentModel::DesignerCategoryAttribute value) ;
+static void __set_Form(System::ComponentModel::DesignerCategoryAttribute value) ;
 
-static ::System::ComponentModel::DesignerCategoryAttribute __get_Form() ;
+static System::ComponentModel::DesignerCategoryAttribute __get_Form() ;
 
-static ::System::ComponentModel::DesignerCategoryAttribute __declspec(property(get=__get_Generic, put=__set_Generic))  Generic;
+static System::ComponentModel::DesignerCategoryAttribute __declspec(property(get=__get_Generic, put=__set_Generic))  Generic;
 
-static void __set_Generic(::System::ComponentModel::DesignerCategoryAttribute value) ;
+static void __set_Generic(System::ComponentModel::DesignerCategoryAttribute value) ;
 
-static ::System::ComponentModel::DesignerCategoryAttribute __get_Generic() ;
+static System::ComponentModel::DesignerCategoryAttribute __get_Generic() ;
 
  ::StringW __declspec(property(get=__get__Category_k__BackingField, put=__set__Category_k__BackingField))  _Category_k__BackingField;
 
@@ -122,6 +121,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::DesignerCategoryAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::DesignerCategoryAttribute, "System.ComponentModel", "DesignerCategoryAttribute");
+NEED_NO_BOX(System::ComponentModel::DesignerCategoryAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::DesignerCategoryAttribute, "System.ComponentModel", "DesignerCategoryAttribute");

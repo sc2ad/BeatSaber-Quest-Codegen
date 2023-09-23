@@ -2,16 +2,15 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System::Threading::Tasks {
-template<typename TResult>
-struct ValueTask_1;
-}
 namespace System {
 class Action;
 }
 namespace System::Runtime::CompilerServices {
 class ICriticalNotifyCompletion;
+}
+namespace System::Threading::Tasks {
+template<typename TResult>
+struct ValueTask_1;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
@@ -38,11 +37,11 @@ template<::cordl_internals::il2cpp_reference_type TResult>
 struct CORDL_TYPE ValueTaskAwaiter_1<TResult> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::CompilerServices::ICriticalNotifyCompletion
-constexpr operator  ::System::Runtime::CompilerServices::ICriticalNotifyCompletion() const;
+/// @brief Convert operator to System::Runtime::CompilerServices::ICriticalNotifyCompletion
+constexpr operator  System::Runtime::CompilerServices::ICriticalNotifyCompletion() const;
 
-// Ctor Parameters [CppParam { name: "_value", ty: "::System::Threading::Tasks::ValueTask_1<TResult>", modifiers: "", def_value: None }]
-constexpr ValueTaskAwaiter_1(::System::Threading::Tasks::ValueTask_1<TResult> _value) noexcept;
+// Ctor Parameters [CppParam { name: "_value", ty: "System::Threading::Tasks::ValueTask_1<TResult>", modifiers: "", def_value: None }]
+constexpr ValueTaskAwaiter_1(System::Threading::Tasks::ValueTask_1<TResult> _value) noexcept;
 
 
                     constexpr ValueTaskAwaiter_1(ValueTaskAwaiter_1 const&) = default;
@@ -75,11 +74,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::Threading::Tasks::ValueTask_1<TResult> __declspec(property(get=__get__value, put=__set__value))  _value;
+ System::Threading::Tasks::ValueTask_1<TResult> __declspec(property(get=__get__value, put=__set__value))  _value;
 
-constexpr void __set__value(::System::Threading::Tasks::ValueTask_1<TResult> value) ;
+constexpr void __set__value(System::Threading::Tasks::ValueTask_1<TResult> value) ;
 
-constexpr ::System::Threading::Tasks::ValueTask_1<TResult> __get__value() const;
+constexpr System::Threading::Tasks::ValueTask_1<TResult> __get__value() const;
 
 
 // Properties
@@ -90,7 +89,7 @@ constexpr ::System::Threading::Tasks::ValueTask_1<TResult> __get__value() const;
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Threading::Tasks::ValueTask_1<TResult> value) ;
+ void _ctor(System::Threading::Tasks::ValueTask_1<TResult> value) ;
 
 /// @brief Method get_IsCompleted addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_IsCompleted() ;
@@ -99,7 +98,7 @@ constexpr ::System::Threading::Tasks::ValueTask_1<TResult> __get__value() const;
  TResult GetResult() ;
 
 /// @brief Method UnsafeOnCompleted addr 0x0 size 0xffffffffffffffff virtual true final true
- void UnsafeOnCompleted(::System::Action continuation) ;
+ void UnsafeOnCompleted(System::Action continuation) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -116,11 +115,11 @@ template<>
 struct CORDL_TYPE ValueTaskAwaiter_1<int32_t> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::CompilerServices::ICriticalNotifyCompletion
-constexpr operator  ::System::Runtime::CompilerServices::ICriticalNotifyCompletion() const;
+/// @brief Convert operator to System::Runtime::CompilerServices::ICriticalNotifyCompletion
+constexpr operator  System::Runtime::CompilerServices::ICriticalNotifyCompletion() const;
 
-// Ctor Parameters [CppParam { name: "_value", ty: "::System::Threading::Tasks::ValueTask_1<int32_t>", modifiers: "", def_value: None }]
-constexpr ValueTaskAwaiter_1(::System::Threading::Tasks::ValueTask_1<int32_t> _value) noexcept;
+// Ctor Parameters [CppParam { name: "_value", ty: "System::Threading::Tasks::ValueTask_1<int32_t>", modifiers: "", def_value: None }]
+constexpr ValueTaskAwaiter_1(System::Threading::Tasks::ValueTask_1<int32_t> _value) noexcept;
 
 
                     constexpr ValueTaskAwaiter_1(ValueTaskAwaiter_1 const&) = default;
@@ -153,11 +152,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::Threading::Tasks::ValueTask_1<int32_t> __declspec(property(get=__get__value, put=__set__value))  _value;
+ System::Threading::Tasks::ValueTask_1<int32_t> __declspec(property(get=__get__value, put=__set__value))  _value;
 
-constexpr void __set__value(::System::Threading::Tasks::ValueTask_1<int32_t> value) ;
+constexpr void __set__value(System::Threading::Tasks::ValueTask_1<int32_t> value) ;
 
-constexpr ::System::Threading::Tasks::ValueTask_1<int32_t> __get__value() const;
+constexpr System::Threading::Tasks::ValueTask_1<int32_t> __get__value() const;
 
 
 // Properties
@@ -168,7 +167,7 @@ constexpr ::System::Threading::Tasks::ValueTask_1<int32_t> __get__value() const;
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Threading::Tasks::ValueTask_1<int32_t> value) ;
+ void _ctor(System::Threading::Tasks::ValueTask_1<int32_t> value) ;
 
 /// @brief Method get_IsCompleted addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_IsCompleted() ;
@@ -177,11 +176,10 @@ constexpr ::System::Threading::Tasks::ValueTask_1<int32_t> __get__value() const;
  int32_t GetResult() ;
 
 /// @brief Method UnsafeOnCompleted addr 0x0 size 0xffffffffffffffff virtual true final true
- void UnsafeOnCompleted(::System::Action continuation) ;
+ void UnsafeOnCompleted(System::Action continuation) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::CompilerServices
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Runtime::CompilerServices::ValueTaskAwaiter_1, "System.Runtime.CompilerServices", "ValueTaskAwaiter`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::Runtime::CompilerServices::ValueTaskAwaiter_1, "System.Runtime.CompilerServices", "ValueTaskAwaiter`1");

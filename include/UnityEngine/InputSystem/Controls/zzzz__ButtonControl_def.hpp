@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__AxisControl_def.hpp"
 #include <cmath>
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
@@ -13,7 +12,7 @@ namespace UnityEngine::InputSystem::Controls {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6711))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6712))
 // CS Name: UnityEngine.InputSystem.Controls.ButtonControl
-class CORDL_TYPE ButtonControl : public ::UnityEngine::InputSystem::Controls::AxisControl {
+class CORDL_TYPE ButtonControl : public UnityEngine::InputSystem::Controls::AxisControl {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr ButtonControl(ButtonControl const& ) noexcept = default;
 constexpr ButtonControl(ButtonControl&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ButtonControl(void* ptr) noexcept : ::UnityEngine::InputSystem::Controls::AxisControl(ptr) {
+constexpr explicit ButtonControl(void* ptr) noexcept : UnityEngine::InputSystem::Controls::AxisControl(ptr) {
 }
 
 
@@ -109,6 +108,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Controls
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Controls::ButtonControl);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Controls::ButtonControl, "UnityEngine.InputSystem.Controls", "ButtonControl");
+NEED_NO_BOX(UnityEngine::InputSystem::Controls::ButtonControl);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Controls::ButtonControl, "UnityEngine.InputSystem.Controls", "ButtonControl");

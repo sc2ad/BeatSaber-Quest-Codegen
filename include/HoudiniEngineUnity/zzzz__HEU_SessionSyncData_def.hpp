@@ -5,7 +5,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace HoudiniEngineUnity {
 struct HAPI_Viewport;
 }
@@ -14,7 +13,7 @@ struct HAPI_SessionSyncInfo;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
-struct ____HoudiniEngineUnity__HEU_SessionSyncData__Status;
+struct HoudiniEngineUnity__HEU_SessionSyncData__Status;
 }
 namespace HoudiniEngineUnity {
 class HEU_SessionSyncData;
@@ -25,20 +24,20 @@ namespace HoudiniEngineUnity {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9730))
 // CS Name: HoudiniEngineUnity.HEU_SessionSyncData::Status
-struct CORDL_TYPE ____HoudiniEngineUnity__HEU_SessionSyncData__Status : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE HoudiniEngineUnity__HEU_SessionSyncData__Status : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____HoudiniEngineUnity__HEU_SessionSyncData__Status(int32_t value__) noexcept;
+constexpr HoudiniEngineUnity__HEU_SessionSyncData__Status(int32_t value__) noexcept;
 
 
-                    constexpr ____HoudiniEngineUnity__HEU_SessionSyncData__Status(____HoudiniEngineUnity__HEU_SessionSyncData__Status const&) = default;
-                    constexpr ____HoudiniEngineUnity__HEU_SessionSyncData__Status(____HoudiniEngineUnity__HEU_SessionSyncData__Status&&) = default;
-                    constexpr ____HoudiniEngineUnity__HEU_SessionSyncData__Status& operator=(____HoudiniEngineUnity__HEU_SessionSyncData__Status const& o) {
+                    constexpr HoudiniEngineUnity__HEU_SessionSyncData__Status(HoudiniEngineUnity__HEU_SessionSyncData__Status const&) = default;
+                    constexpr HoudiniEngineUnity__HEU_SessionSyncData__Status(HoudiniEngineUnity__HEU_SessionSyncData__Status&&) = default;
+                    constexpr HoudiniEngineUnity__HEU_SessionSyncData__Status& operator=(HoudiniEngineUnity__HEU_SessionSyncData__Status const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____HoudiniEngineUnity__HEU_SessionSyncData__Status& operator=(____HoudiniEngineUnity__HEU_SessionSyncData__Status&& o) noexcept {
+                    constexpr HoudiniEngineUnity__HEU_SessionSyncData__Status& operator=(HoudiniEngineUnity__HEU_SessionSyncData__Status&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -51,7 +50,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____HoudiniEngineUnity__HEU_SessionSyncData__Status(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit HoudiniEngineUnity__HEU_SessionSyncData__Status(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -59,7 +58,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______HoudiniEngineUnity__HEU_SessionSyncData__Status_Unwrapped : int32_t {
+enum class __HoudiniEngineUnity__HEU_SessionSyncData__Status_Unwrapped : int32_t {
 __Stopped = 0,
 __Started = 1,
 __Connecting = 2,
@@ -68,8 +67,8 @@ __Connected = 4,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______HoudiniEngineUnity__HEU_SessionSyncData__Status_Unwrapped () const noexcept {
-return std::bit_cast<______HoudiniEngineUnity__HEU_SessionSyncData__Status_Unwrapped>(__instance);
+constexpr operator __HoudiniEngineUnity__HEU_SessionSyncData__Status_Unwrapped () const noexcept {
+return std::bit_cast<__HoudiniEngineUnity__HEU_SessionSyncData__Status_Unwrapped>(__instance);
 }
 
 
@@ -82,19 +81,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Stopped offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_SessionSyncData__Status const Stopped;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_SessionSyncData__Status const Stopped;
 
 /// @brief Field Started offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_SessionSyncData__Status const Started;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_SessionSyncData__Status const Started;
 
 /// @brief Field Connecting offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_SessionSyncData__Status const Connecting;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_SessionSyncData__Status const Connecting;
 
 /// @brief Field Initializing offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_SessionSyncData__Status const Initializing;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_SessionSyncData__Status const Initializing;
 
 /// @brief Field Connected offset 0
-static ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_SessionSyncData__Status const Connected;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_SessionSyncData__Status const Connected;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -109,7 +108,7 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE HEU_SessionSyncData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using Status = ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_SessionSyncData__Status;
+using Status = HoudiniEngineUnity::HoudiniEngineUnity__HEU_SessionSyncData__Status;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x68};
@@ -180,17 +179,17 @@ constexpr void __set__validForConnection(bool value) ;
 
 constexpr bool __get__validForConnection() const;
 
- ::HoudiniEngineUnity::HAPI_Viewport __declspec(property(get=__get__viewportHAPI, put=__set__viewportHAPI))  _viewportHAPI;
+ HoudiniEngineUnity::HAPI_Viewport __declspec(property(get=__get__viewportHAPI, put=__set__viewportHAPI))  _viewportHAPI;
 
-constexpr void __set__viewportHAPI(::HoudiniEngineUnity::HAPI_Viewport value) ;
+constexpr void __set__viewportHAPI(HoudiniEngineUnity::HAPI_Viewport value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_Viewport __get__viewportHAPI() const;
+constexpr HoudiniEngineUnity::HAPI_Viewport __get__viewportHAPI() const;
 
- ::HoudiniEngineUnity::HAPI_Viewport __declspec(property(get=__get__viewportLocal, put=__set__viewportLocal))  _viewportLocal;
+ HoudiniEngineUnity::HAPI_Viewport __declspec(property(get=__get__viewportLocal, put=__set__viewportLocal))  _viewportLocal;
 
-constexpr void __set__viewportLocal(::HoudiniEngineUnity::HAPI_Viewport value) ;
+constexpr void __set__viewportLocal(HoudiniEngineUnity::HAPI_Viewport value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_Viewport __get__viewportLocal() const;
+constexpr HoudiniEngineUnity::HAPI_Viewport __get__viewportLocal() const;
 
  bool __declspec(property(get=__get__viewportJustUpdated, put=__set__viewportJustUpdated))  _viewportJustUpdated;
 
@@ -198,25 +197,25 @@ constexpr void __set__viewportJustUpdated(bool value) ;
 
 constexpr bool __get__viewportJustUpdated() const;
 
- ::HoudiniEngineUnity::HAPI_SessionSyncInfo __declspec(property(get=__get__syncInfo, put=__set__syncInfo))  _syncInfo;
+ HoudiniEngineUnity::HAPI_SessionSyncInfo __declspec(property(get=__get__syncInfo, put=__set__syncInfo))  _syncInfo;
 
-constexpr void __set__syncInfo(::HoudiniEngineUnity::HAPI_SessionSyncInfo value) ;
+constexpr void __set__syncInfo(HoudiniEngineUnity::HAPI_SessionSyncInfo value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_SessionSyncInfo __get__syncInfo() const;
+constexpr HoudiniEngineUnity::HAPI_SessionSyncInfo __get__syncInfo() const;
 
 
 // Properties
 
- ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_SessionSyncData__Status __declspec(property(get=get_SyncStatus, put=set_SyncStatus))  SyncStatus;
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_SessionSyncData__Status __declspec(property(get=get_SyncStatus, put=set_SyncStatus))  SyncStatus;
 
 
 // Methods
 
 /// @brief Method get_SyncStatus addr 0x2033b4c size 0x14 virtual false final false
- ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_SessionSyncData__Status get_SyncStatus() ;
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_SessionSyncData__Status get_SyncStatus() ;
 
 /// @brief Method set_SyncStatus addr 0x2033b60 size 0xc virtual false final false
- void set_SyncStatus(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_SessionSyncData__Status value) ;
+ void set_SyncStatus(HoudiniEngineUnity::HoudiniEngineUnity__HEU_SessionSyncData__Status value) ;
 
 // Ctor Parameters []
 explicit HEU_SessionSyncData() ;
@@ -228,7 +227,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_SessionSyncData__Status, "HoudiniEngineUnity", "HEU_SessionSyncData/Status");
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_SessionSyncData);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_SessionSyncData, "HoudiniEngineUnity", "HEU_SessionSyncData");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HoudiniEngineUnity__HEU_SessionSyncData__Status, "HoudiniEngineUnity", "HEU_SessionSyncData/Status");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_SessionSyncData);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_SessionSyncData, "HoudiniEngineUnity", "HEU_SessionSyncData");

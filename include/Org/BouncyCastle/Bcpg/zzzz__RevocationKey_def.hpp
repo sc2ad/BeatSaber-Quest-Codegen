@@ -3,12 +3,11 @@
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacket_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Bcpg {
-struct PublicKeyAlgorithmTag;
-}
 namespace Org::BouncyCastle::Bcpg {
 struct RevocationKeyTag;
+}
+namespace Org::BouncyCastle::Bcpg {
+struct PublicKeyAlgorithmTag;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -20,7 +19,7 @@ namespace Org::BouncyCastle::Bcpg {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(531))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(542))
 // CS Name: Org.BouncyCastle.Bcpg.RevocationKey
-class CORDL_TYPE RevocationKey : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
+class CORDL_TYPE RevocationKey : public Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr RevocationKey(RevocationKey const& ) noexcept = default;
 constexpr RevocationKey(RevocationKey&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RevocationKey(void* ptr) noexcept : ::Org::BouncyCastle::Bcpg::SignatureSubpacket(ptr) {
+constexpr explicit RevocationKey(void* ptr) noexcept : Org::BouncyCastle::Bcpg::SignatureSubpacket(ptr) {
 }
 
 
@@ -56,9 +55,9 @@ constexpr explicit RevocationKey(void* ptr) noexcept : ::Org::BouncyCastle::Bcpg
 
 // Properties
 
- ::Org::BouncyCastle::Bcpg::RevocationKeyTag __declspec(property(get=get_SignatureClass))  SignatureClass;
+ Org::BouncyCastle::Bcpg::RevocationKeyTag __declspec(property(get=get_SignatureClass))  SignatureClass;
 
- ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag __declspec(property(get=get_Algorithm))  Algorithm;
+ Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag __declspec(property(get=get_Algorithm))  Algorithm;
 
 
 // Methods
@@ -69,20 +68,20 @@ explicit RevocationKey(bool isCritical, bool isLongLength, ::ArrayW<uint8_t> dat
 /// @brief Method .ctor addr 0x113e62c size 0x48 virtual false final false
  void _ctor(bool isCritical, bool isLongLength, ::ArrayW<uint8_t> data) ;
 
-// Ctor Parameters [CppParam { name: "isCritical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "signatureClass", ty: "::Org::BouncyCastle::Bcpg::RevocationKeyTag", modifiers: "", def_value: None }, CppParam { name: "keyAlgorithm", ty: "::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "fingerprint", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit RevocationKey(bool isCritical, ::Org::BouncyCastle::Bcpg::RevocationKeyTag signatureClass, ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, ::ArrayW<uint8_t> fingerprint) ;
+// Ctor Parameters [CppParam { name: "isCritical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "signatureClass", ty: "Org::BouncyCastle::Bcpg::RevocationKeyTag", modifiers: "", def_value: None }, CppParam { name: "keyAlgorithm", ty: "Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "fingerprint", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
+explicit RevocationKey(bool isCritical, Org::BouncyCastle::Bcpg::RevocationKeyTag signatureClass, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, ::ArrayW<uint8_t> fingerprint) ;
 
 /// @brief Method .ctor addr 0x113e674 size 0x54 virtual false final false
- void _ctor(bool isCritical, ::Org::BouncyCastle::Bcpg::RevocationKeyTag signatureClass, ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, ::ArrayW<uint8_t> fingerprint) ;
+ void _ctor(bool isCritical, Org::BouncyCastle::Bcpg::RevocationKeyTag signatureClass, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, ::ArrayW<uint8_t> fingerprint) ;
 
 /// @brief Method CreateData addr 0x113e6c8 size 0xac virtual false final false
-static ::ArrayW<uint8_t> CreateData(::Org::BouncyCastle::Bcpg::RevocationKeyTag signatureClass, ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, ::ArrayW<uint8_t> fingerprint) ;
+static ::ArrayW<uint8_t> CreateData(Org::BouncyCastle::Bcpg::RevocationKeyTag signatureClass, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, ::ArrayW<uint8_t> fingerprint) ;
 
 /// @brief Method get_SignatureClass addr 0x113e774 size 0x28 virtual true final false
- ::Org::BouncyCastle::Bcpg::RevocationKeyTag get_SignatureClass() ;
+ Org::BouncyCastle::Bcpg::RevocationKeyTag get_SignatureClass() ;
 
 /// @brief Method get_Algorithm addr 0x113e79c size 0x2c virtual true final false
- ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag get_Algorithm() ;
+ Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag get_Algorithm() ;
 
 /// @brief Method GetFingerprint addr 0x113e7c8 size 0x8c virtual true final false
  ::ArrayW<uint8_t> GetFingerprint() ;
@@ -91,6 +90,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::RevocationKey);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::RevocationKey, "Org.BouncyCastle.Bcpg", "RevocationKey");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::RevocationKey);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::RevocationKey, "Org.BouncyCastle.Bcpg", "RevocationKey");

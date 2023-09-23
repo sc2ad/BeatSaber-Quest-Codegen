@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 // Forward declare root types
 namespace System::Reflection::Emit {
 class SignatureHelper;
@@ -49,6 +48,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Reflection::Emit
-} // end anonymous namespace
-NEED_NO_BOX(::System::Reflection::Emit::SignatureHelper);
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::Emit::SignatureHelper, "System.Reflection.Emit", "SignatureHelper");
+NEED_NO_BOX(System::Reflection::Emit::SignatureHelper);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::SignatureHelper, "System.Reflection.Emit", "SignatureHelper");

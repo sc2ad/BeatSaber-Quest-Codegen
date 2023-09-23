@@ -2,12 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace Mono::Net::Security {
-class MobileTlsProvider;
-}
 namespace System {
 struct Guid;
+}
+namespace Mono::Net::Security {
+class MobileTlsProvider;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -75,53 +74,53 @@ static void __set_initialized(bool value) ;
 
 static bool __get_initialized() ;
 
-static ::Mono::Net::Security::MobileTlsProvider __declspec(property(get=__get_defaultProvider, put=__set_defaultProvider))  defaultProvider;
+static Mono::Net::Security::MobileTlsProvider __declspec(property(get=__get_defaultProvider, put=__set_defaultProvider))  defaultProvider;
 
-static void __set_defaultProvider(::Mono::Net::Security::MobileTlsProvider value) ;
+static void __set_defaultProvider(Mono::Net::Security::MobileTlsProvider value) ;
 
-static ::Mono::Net::Security::MobileTlsProvider __get_defaultProvider() ;
+static Mono::Net::Security::MobileTlsProvider __get_defaultProvider() ;
 
-static ::System::Collections::Generic::Dictionary_2<::StringW,::System::Tuple_2<::System::Guid,::StringW>> __declspec(property(get=__get_providerRegistration, put=__set_providerRegistration))  providerRegistration;
+static System::Collections::Generic::Dictionary_2<::StringW,System::Tuple_2<System::Guid,::StringW>> __declspec(property(get=__get_providerRegistration, put=__set_providerRegistration))  providerRegistration;
 
-static void __set_providerRegistration(::System::Collections::Generic::Dictionary_2<::StringW,::System::Tuple_2<::System::Guid,::StringW>> value) ;
+static void __set_providerRegistration(System::Collections::Generic::Dictionary_2<::StringW,System::Tuple_2<System::Guid,::StringW>> value) ;
 
-static ::System::Collections::Generic::Dictionary_2<::StringW,::System::Tuple_2<::System::Guid,::StringW>> __get_providerRegistration() ;
+static System::Collections::Generic::Dictionary_2<::StringW,System::Tuple_2<System::Guid,::StringW>> __get_providerRegistration() ;
 
-static ::System::Collections::Generic::Dictionary_2<::System::Guid,::Mono::Net::Security::MobileTlsProvider> __declspec(property(get=__get_providerCache, put=__set_providerCache))  providerCache;
+static System::Collections::Generic::Dictionary_2<System::Guid,Mono::Net::Security::MobileTlsProvider> __declspec(property(get=__get_providerCache, put=__set_providerCache))  providerCache;
 
-static void __set_providerCache(::System::Collections::Generic::Dictionary_2<::System::Guid,::Mono::Net::Security::MobileTlsProvider> value) ;
+static void __set_providerCache(System::Collections::Generic::Dictionary_2<System::Guid,Mono::Net::Security::MobileTlsProvider> value) ;
 
-static ::System::Collections::Generic::Dictionary_2<::System::Guid,::Mono::Net::Security::MobileTlsProvider> __get_providerCache() ;
+static System::Collections::Generic::Dictionary_2<System::Guid,Mono::Net::Security::MobileTlsProvider> __get_providerCache() ;
 
-static ::System::Guid __declspec(property(get=__get_UnityTlsId, put=__set_UnityTlsId))  UnityTlsId;
+static System::Guid __declspec(property(get=__get_UnityTlsId, put=__set_UnityTlsId))  UnityTlsId;
 
-static void __set_UnityTlsId(::System::Guid value) ;
+static void __set_UnityTlsId(System::Guid value) ;
 
-static ::System::Guid __get_UnityTlsId() ;
+static System::Guid __get_UnityTlsId() ;
 
-static ::System::Guid __declspec(property(get=__get_AppleTlsId, put=__set_AppleTlsId))  AppleTlsId;
+static System::Guid __declspec(property(get=__get_AppleTlsId, put=__set_AppleTlsId))  AppleTlsId;
 
-static void __set_AppleTlsId(::System::Guid value) ;
+static void __set_AppleTlsId(System::Guid value) ;
 
-static ::System::Guid __get_AppleTlsId() ;
+static System::Guid __get_AppleTlsId() ;
 
-static ::System::Guid __declspec(property(get=__get_BtlsId, put=__set_BtlsId))  BtlsId;
+static System::Guid __declspec(property(get=__get_BtlsId, put=__set_BtlsId))  BtlsId;
 
-static void __set_BtlsId(::System::Guid value) ;
+static void __set_BtlsId(System::Guid value) ;
 
-static ::System::Guid __get_BtlsId() ;
+static System::Guid __get_BtlsId() ;
 
 
 // Methods
 
 /// @brief Method GetProviderInternal addr 0x268e9ac size 0x11c virtual false final false
-static ::Mono::Net::Security::MobileTlsProvider GetProviderInternal() ;
+static Mono::Net::Security::MobileTlsProvider GetProviderInternal() ;
 
 /// @brief Method InitializeInternal addr 0x2692a20 size 0x3ac virtual false final false
 static void InitializeInternal() ;
 
 /// @brief Method LookupProvider addr 0x269316c size 0x594 virtual false final false
-static ::Mono::Net::Security::MobileTlsProvider LookupProvider(::StringW name, bool throwOnError) ;
+static Mono::Net::Security::MobileTlsProvider LookupProvider(::StringW name, bool throwOnError) ;
 
 /// @brief Method InitializeProviderRegistration addr 0x2692dcc size 0x20c virtual false final false
 static void InitializeProviderRegistration() ;
@@ -133,15 +132,14 @@ static void PopulateUnityProviders() ;
 static void PopulateProviders() ;
 
 /// @brief Method CreateDefaultProviderImpl addr 0x2692fd8 size 0x194 virtual false final false
-static ::Mono::Net::Security::MobileTlsProvider CreateDefaultProviderImpl() ;
+static Mono::Net::Security::MobileTlsProvider CreateDefaultProviderImpl() ;
 
 /// @brief Method GetProvider addr 0x269388c size 0x4c virtual false final false
-static ::Mono::Net::Security::MobileTlsProvider GetProvider() ;
+static Mono::Net::Security::MobileTlsProvider GetProvider() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Net::Security
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Net::Security::MonoTlsProviderFactory);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Net::Security::MonoTlsProviderFactory, "Mono.Net.Security", "MonoTlsProviderFactory");
+NEED_NO_BOX(Mono::Net::Security::MonoTlsProviderFactory);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MonoTlsProviderFactory, "Mono.Net.Security", "MonoTlsProviderFactory");

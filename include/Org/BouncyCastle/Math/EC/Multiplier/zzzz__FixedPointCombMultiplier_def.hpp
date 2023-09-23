@@ -1,12 +1,11 @@
 #pragma once
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__AbstractECMultiplier_def.hpp"
-namespace {
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Multiplier {
@@ -18,7 +17,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1527))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1529))
 // CS Name: Org.BouncyCastle.Math.EC.Multiplier.FixedPointCombMultiplier
-class CORDL_TYPE FixedPointCombMultiplier : public ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier {
+class CORDL_TYPE FixedPointCombMultiplier : public Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr FixedPointCombMultiplier(FixedPointCombMultiplier const& ) noexcept = 
 constexpr FixedPointCombMultiplier(FixedPointCombMultiplier&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FixedPointCombMultiplier(void* ptr) noexcept : ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier(ptr) {
+constexpr explicit FixedPointCombMultiplier(void* ptr) noexcept : Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier(ptr) {
 }
 
 
@@ -55,7 +54,7 @@ constexpr explicit FixedPointCombMultiplier(void* ptr) noexcept : ::Org::BouncyC
 // Methods
 
 /// @brief Method MultiplyPositive addr 0xfa8cb0 size 0x2a8 virtual true final false
- ::Org::BouncyCastle::Math::EC::ECPoint MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint p, ::Org::BouncyCastle::Math::BigInteger k) ;
+ Org::BouncyCastle::Math::EC::ECPoint MultiplyPositive(Org::BouncyCastle::Math::EC::ECPoint p, Org::BouncyCastle::Math::BigInteger k) ;
 
 // Ctor Parameters []
 explicit FixedPointCombMultiplier() ;
@@ -67,6 +66,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Math::EC::Multiplier
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Multiplier::FixedPointCombMultiplier);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Multiplier::FixedPointCombMultiplier, "Org.BouncyCastle.Math.EC.Multiplier", "FixedPointCombMultiplier");
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Multiplier::FixedPointCombMultiplier);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::FixedPointCombMultiplier, "Org.BouncyCastle.Math.EC.Multiplier", "FixedPointCombMultiplier");

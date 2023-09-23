@@ -3,7 +3,6 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class BakedLightWithIdBase;
@@ -14,7 +13,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15295))
 // CS Name: BakedLightWithIdBase
-class CORDL_TYPE BakedLightWithIdBase : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE BakedLightWithIdBase : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr BakedLightWithIdBase(BakedLightWithIdBase const& ) noexcept = default;
 constexpr BakedLightWithIdBase(BakedLightWithIdBase&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BakedLightWithIdBase(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit BakedLightWithIdBase(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -71,6 +70,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BakedLightWithIdBase);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BakedLightWithIdBase, "", "BakedLightWithIdBase");
+NEED_NO_BOX(GlobalNamespace::BakedLightWithIdBase);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BakedLightWithIdBase, "", "BakedLightWithIdBase");

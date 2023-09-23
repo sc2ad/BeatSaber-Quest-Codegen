@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace TMPro {
 class TMP_Text;
 }
@@ -20,8 +19,8 @@ namespace TMPro {
 struct CORDL_TYPE TMP_WordInfo : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "textComponent", ty: "::TMPro::TMP_Text", modifiers: "", def_value: None }, CppParam { name: "firstCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lastCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "characterCount", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr TMP_WordInfo(::TMPro::TMP_Text textComponent, int32_t firstCharacterIndex, int32_t lastCharacterIndex, int32_t characterCount) noexcept;
+// Ctor Parameters [CppParam { name: "textComponent", ty: "TMPro::TMP_Text", modifiers: "", def_value: None }, CppParam { name: "firstCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lastCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "characterCount", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr TMP_WordInfo(TMPro::TMP_Text textComponent, int32_t firstCharacterIndex, int32_t lastCharacterIndex, int32_t characterCount) noexcept;
 
 
                     constexpr TMP_WordInfo(TMP_WordInfo const&) = default;
@@ -54,11 +53,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::TMPro::TMP_Text __declspec(property(get=__get_textComponent, put=__set_textComponent))  textComponent;
+ TMPro::TMP_Text __declspec(property(get=__get_textComponent, put=__set_textComponent))  textComponent;
 
-constexpr void __set_textComponent(::TMPro::TMP_Text value) ;
+constexpr void __set_textComponent(TMPro::TMP_Text value) ;
 
-constexpr ::TMPro::TMP_Text __get_textComponent() const;
+constexpr TMPro::TMP_Text __get_textComponent() const;
 
  int32_t __declspec(property(get=__get_firstCharacterIndex, put=__set_firstCharacterIndex))  firstCharacterIndex;
 
@@ -88,5 +87,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_WordInfo, "TMPro", "TMP_WordInfo");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_WordInfo, "TMPro", "TMP_WordInfo");

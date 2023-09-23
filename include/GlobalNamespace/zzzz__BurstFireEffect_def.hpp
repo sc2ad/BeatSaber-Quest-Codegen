@@ -2,7 +2,9 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__FireEffect_def.hpp"
 #include <cmath>
-namespace {
+namespace GlobalNamespace {
+class LightColorBeatmapEventData;
+}
 namespace UnityEngine {
 class AnimationCurve;
 }
@@ -11,9 +13,6 @@ class FloatTween;
 }
 namespace GlobalNamespace {
 class IAudioTimeSource;
-}
-namespace GlobalNamespace {
-class LightColorBeatmapEventData;
 }
 namespace Tweening {
 class SongTimeTweeningManager;
@@ -28,7 +27,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3989))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3987))
 // CS Name: BurstFireEffect
-class CORDL_TYPE BurstFireEffect : public ::GlobalNamespace::FireEffect {
+class CORDL_TYPE BurstFireEffect : public GlobalNamespace::FireEffect {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -43,7 +42,7 @@ constexpr BurstFireEffect(BurstFireEffect const& ) noexcept = default;
 constexpr BurstFireEffect(BurstFireEffect&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BurstFireEffect(void* ptr) noexcept : ::GlobalNamespace::FireEffect(ptr) {
+constexpr explicit BurstFireEffect(void* ptr) noexcept : GlobalNamespace::FireEffect(ptr) {
 }
 
 
@@ -70,35 +69,35 @@ constexpr void __set__fadeOutDuration(float_t value) ;
 
 constexpr float_t __get__fadeOutDuration() const;
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get__flipbookFadeOutCurve, put=__set__flipbookFadeOutCurve))  _flipbookFadeOutCurve;
+ UnityEngine::AnimationCurve __declspec(property(get=__get__flipbookFadeOutCurve, put=__set__flipbookFadeOutCurve))  _flipbookFadeOutCurve;
 
-constexpr void __set__flipbookFadeOutCurve(::UnityEngine::AnimationCurve value) ;
+constexpr void __set__flipbookFadeOutCurve(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get__flipbookFadeOutCurve() const;
+constexpr UnityEngine::AnimationCurve __get__flipbookFadeOutCurve() const;
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get__bloomFadeOutCurve, put=__set__bloomFadeOutCurve))  _bloomFadeOutCurve;
+ UnityEngine::AnimationCurve __declspec(property(get=__get__bloomFadeOutCurve, put=__set__bloomFadeOutCurve))  _bloomFadeOutCurve;
 
-constexpr void __set__bloomFadeOutCurve(::UnityEngine::AnimationCurve value) ;
+constexpr void __set__bloomFadeOutCurve(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get__bloomFadeOutCurve() const;
+constexpr UnityEngine::AnimationCurve __get__bloomFadeOutCurve() const;
 
- ::GlobalNamespace::IAudioTimeSource __declspec(property(get=__get__audioTimeSource, put=__set__audioTimeSource))  _audioTimeSource;
+ GlobalNamespace::IAudioTimeSource __declspec(property(get=__get__audioTimeSource, put=__set__audioTimeSource))  _audioTimeSource;
 
-constexpr void __set__audioTimeSource(::GlobalNamespace::IAudioTimeSource value) ;
+constexpr void __set__audioTimeSource(GlobalNamespace::IAudioTimeSource value) ;
 
-constexpr ::GlobalNamespace::IAudioTimeSource __get__audioTimeSource() const;
+constexpr GlobalNamespace::IAudioTimeSource __get__audioTimeSource() const;
 
- ::Tweening::SongTimeTweeningManager __declspec(property(get=__get__songTimeTweeningManager, put=__set__songTimeTweeningManager))  _songTimeTweeningManager;
+ Tweening::SongTimeTweeningManager __declspec(property(get=__get__songTimeTweeningManager, put=__set__songTimeTweeningManager))  _songTimeTweeningManager;
 
-constexpr void __set__songTimeTweeningManager(::Tweening::SongTimeTweeningManager value) ;
+constexpr void __set__songTimeTweeningManager(Tweening::SongTimeTweeningManager value) ;
 
-constexpr ::Tweening::SongTimeTweeningManager __get__songTimeTweeningManager() const;
+constexpr Tweening::SongTimeTweeningManager __get__songTimeTweeningManager() const;
 
- ::Tweening::FloatTween __declspec(property(get=__get__fadeOutTween, put=__set__fadeOutTween))  _fadeOutTween;
+ Tweening::FloatTween __declspec(property(get=__get__fadeOutTween, put=__set__fadeOutTween))  _fadeOutTween;
 
-constexpr void __set__fadeOutTween(::Tweening::FloatTween value) ;
+constexpr void __set__fadeOutTween(Tweening::FloatTween value) ;
 
-constexpr ::Tweening::FloatTween __get__fadeOutTween() const;
+constexpr Tweening::FloatTween __get__fadeOutTween() const;
 
 
 // Methods
@@ -113,7 +112,7 @@ constexpr ::Tweening::FloatTween __get__fadeOutTween() const;
  void OnDestroy() ;
 
 /// @brief Method HandleColorChangeBeatmapEvent addr 0x20ae494 size 0x134 virtual true final false
- void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData e) ;
+ void HandleColorChangeBeatmapEvent(GlobalNamespace::LightColorBeatmapEventData e) ;
 
 /// @brief Method StartEffect addr 0x20ae5f4 size 0xd4 virtual false final false
  void StartEffect(float_t time) ;
@@ -137,6 +136,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BurstFireEffect);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BurstFireEffect, "", "BurstFireEffect");
+NEED_NO_BOX(GlobalNamespace::BurstFireEffect);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BurstFireEffect, "", "BurstFireEffect");

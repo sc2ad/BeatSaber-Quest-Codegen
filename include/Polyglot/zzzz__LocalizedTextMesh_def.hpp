@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace Polyglot {
 class ILocalize;
 }
@@ -25,11 +24,11 @@ namespace Polyglot {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15542))
 // CS Name: Polyglot.LocalizedTextMesh
-class CORDL_TYPE LocalizedTextMesh : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE LocalizedTextMesh : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-/// @brief Convert operator to ::Polyglot::ILocalize
-constexpr operator  ::Polyglot::ILocalize() const noexcept;
+/// @brief Convert operator to Polyglot::ILocalize
+constexpr operator  Polyglot::ILocalize() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -43,7 +42,7 @@ constexpr LocalizedTextMesh(LocalizedTextMesh const& ) noexcept = default;
 constexpr LocalizedTextMesh(LocalizedTextMesh&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LocalizedTextMesh(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit LocalizedTextMesh(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -64,11 +63,11 @@ constexpr explicit LocalizedTextMesh(void* ptr) noexcept : ::UnityEngine::MonoBe
 
 // Fields
 
- ::UnityEngine::TextMesh __declspec(property(get=__get_text, put=__set_text))  text;
+ UnityEngine::TextMesh __declspec(property(get=__get_text, put=__set_text))  text;
 
-constexpr void __set_text(::UnityEngine::TextMesh value) ;
+constexpr void __set_text(UnityEngine::TextMesh value) ;
 
-constexpr ::UnityEngine::TextMesh __get_text() const;
+constexpr UnityEngine::TextMesh __get_text() const;
 
  ::StringW __declspec(property(get=__get_key, put=__set_key))  key;
 
@@ -97,13 +96,13 @@ constexpr ::StringW __get_key() const;
  void OnLocalize() ;
 
 /// @brief Method IsOppositeDirection addr 0x267475c size 0x2c virtual false final false
- bool IsOppositeDirection(::UnityEngine::TextAlignment alignment, ::Polyglot::LanguageDirection direction) ;
+ bool IsOppositeDirection(UnityEngine::TextAlignment alignment, Polyglot::LanguageDirection direction) ;
 
 /// @brief Method IsAlignmentRight addr 0x2674788 size 0xc virtual false final false
- bool IsAlignmentRight(::UnityEngine::TextAlignment alignment) ;
+ bool IsAlignmentRight(UnityEngine::TextAlignment alignment) ;
 
 /// @brief Method IsAlignmentLeft addr 0x2674794 size 0xc virtual false final false
- bool IsAlignmentLeft(::UnityEngine::TextAlignment alignment) ;
+ bool IsAlignmentLeft(UnityEngine::TextAlignment alignment) ;
 
 // Ctor Parameters []
 explicit LocalizedTextMesh() ;
@@ -115,6 +114,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Polyglot
-} // end anonymous namespace
-NEED_NO_BOX(::Polyglot::LocalizedTextMesh);
-DEFINE_IL2CPP_ARG_TYPE(::Polyglot::LocalizedTextMesh, "Polyglot", "LocalizedTextMesh");
+NEED_NO_BOX(Polyglot::LocalizedTextMesh);
+DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizedTextMesh, "Polyglot", "LocalizedTextMesh");

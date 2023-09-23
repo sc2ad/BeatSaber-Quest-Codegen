@@ -1,28 +1,27 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-class IPrefabProvider;
+struct TypeValuePair;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace Zenject {
-class ISubContainerCreator;
+class InjectContext;
+}
+namespace Zenject {
+class IPrefabProvider;
+}
+namespace Zenject {
+class DiContainer;
 }
 namespace Zenject {
 class GameObjectCreationParameters;
 }
 namespace Zenject {
-struct TypeValuePair;
-}
-namespace Zenject {
-class InjectContext;
+class ISubContainerCreator;
 }
 // Forward declare root types
 namespace Zenject {
@@ -37,8 +36,8 @@ namespace Zenject {
 class CORDL_TYPE SubContainerCreatorByNewPrefab : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Zenject::ISubContainerCreator
-constexpr operator  ::Zenject::ISubContainerCreator() const noexcept;
+/// @brief Convert operator to Zenject::ISubContainerCreator
+constexpr operator  Zenject::ISubContainerCreator() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -73,40 +72,39 @@ constexpr explicit SubContainerCreatorByNewPrefab(void* ptr) noexcept : ::bs_hoo
 
 // Fields
 
- ::Zenject::GameObjectCreationParameters __declspec(property(get=__get__gameObjectBindInfo, put=__set__gameObjectBindInfo))  _gameObjectBindInfo;
+ Zenject::GameObjectCreationParameters __declspec(property(get=__get__gameObjectBindInfo, put=__set__gameObjectBindInfo))  _gameObjectBindInfo;
 
-constexpr void __set__gameObjectBindInfo(::Zenject::GameObjectCreationParameters value) ;
+constexpr void __set__gameObjectBindInfo(Zenject::GameObjectCreationParameters value) ;
 
-constexpr ::Zenject::GameObjectCreationParameters __get__gameObjectBindInfo() const;
+constexpr Zenject::GameObjectCreationParameters __get__gameObjectBindInfo() const;
 
- ::Zenject::IPrefabProvider __declspec(property(get=__get__prefabProvider, put=__set__prefabProvider))  _prefabProvider;
+ Zenject::IPrefabProvider __declspec(property(get=__get__prefabProvider, put=__set__prefabProvider))  _prefabProvider;
 
-constexpr void __set__prefabProvider(::Zenject::IPrefabProvider value) ;
+constexpr void __set__prefabProvider(Zenject::IPrefabProvider value) ;
 
-constexpr ::Zenject::IPrefabProvider __get__prefabProvider() const;
+constexpr Zenject::IPrefabProvider __get__prefabProvider() const;
 
- ::Zenject::DiContainer __declspec(property(get=__get__container, put=__set__container))  _container;
+ Zenject::DiContainer __declspec(property(get=__get__container, put=__set__container))  _container;
 
-constexpr void __set__container(::Zenject::DiContainer value) ;
+constexpr void __set__container(Zenject::DiContainer value) ;
 
-constexpr ::Zenject::DiContainer __get__container() const;
+constexpr Zenject::DiContainer __get__container() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "::Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "prefabProvider", ty: "::Zenject::IPrefabProvider", modifiers: "", def_value: None }, CppParam { name: "gameObjectBindInfo", ty: "::Zenject::GameObjectCreationParameters", modifiers: "", def_value: None }]
-explicit SubContainerCreatorByNewPrefab(::Zenject::DiContainer container, ::Zenject::IPrefabProvider prefabProvider, ::Zenject::GameObjectCreationParameters gameObjectBindInfo) ;
+// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "prefabProvider", ty: "Zenject::IPrefabProvider", modifiers: "", def_value: None }, CppParam { name: "gameObjectBindInfo", ty: "Zenject::GameObjectCreationParameters", modifiers: "", def_value: None }]
+explicit SubContainerCreatorByNewPrefab(Zenject::DiContainer container, Zenject::IPrefabProvider prefabProvider, Zenject::GameObjectCreationParameters gameObjectBindInfo) ;
 
 /// @brief Method .ctor addr 0x2d92aa8 size 0x3c virtual false final false
- void _ctor(::Zenject::DiContainer container, ::Zenject::IPrefabProvider prefabProvider, ::Zenject::GameObjectCreationParameters gameObjectBindInfo) ;
+ void _ctor(Zenject::DiContainer container, Zenject::IPrefabProvider prefabProvider, Zenject::GameObjectCreationParameters gameObjectBindInfo) ;
 
 /// @brief Method CreateSubContainer addr 0x2d92ae4 size 0x1a4 virtual true final true
- ::Zenject::DiContainer CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair> args, ::Zenject::InjectContext parentContext) ;
+ Zenject::DiContainer CreateSubContainer(System::Collections::Generic::List_1<Zenject::TypeValuePair> args, Zenject::InjectContext parentContext) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::SubContainerCreatorByNewPrefab);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::SubContainerCreatorByNewPrefab, "Zenject", "SubContainerCreatorByNewPrefab");
+NEED_NO_BOX(Zenject::SubContainerCreatorByNewPrefab);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByNewPrefab, "Zenject", "SubContainerCreatorByNewPrefab");

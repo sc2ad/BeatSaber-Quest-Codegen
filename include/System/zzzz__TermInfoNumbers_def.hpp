@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 struct TermInfoNumbers;
@@ -99,110 +98,109 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Columns offset 0
-static ::System::TermInfoNumbers const Columns;
+static System::TermInfoNumbers const Columns;
 
 /// @brief Field InitTabs offset 0
-static ::System::TermInfoNumbers const InitTabs;
+static System::TermInfoNumbers const InitTabs;
 
 /// @brief Field Lines offset 0
-static ::System::TermInfoNumbers const Lines;
+static System::TermInfoNumbers const Lines;
 
 /// @brief Field LinesOfMemory offset 0
-static ::System::TermInfoNumbers const LinesOfMemory;
+static System::TermInfoNumbers const LinesOfMemory;
 
 /// @brief Field MagicCookieGlitch offset 0
-static ::System::TermInfoNumbers const MagicCookieGlitch;
+static System::TermInfoNumbers const MagicCookieGlitch;
 
 /// @brief Field PaddingBaudRate offset 0
-static ::System::TermInfoNumbers const PaddingBaudRate;
+static System::TermInfoNumbers const PaddingBaudRate;
 
 /// @brief Field VirtualTerminal offset 0
-static ::System::TermInfoNumbers const VirtualTerminal;
+static System::TermInfoNumbers const VirtualTerminal;
 
 /// @brief Field WidthStatusLine offset 0
-static ::System::TermInfoNumbers const WidthStatusLine;
+static System::TermInfoNumbers const WidthStatusLine;
 
 /// @brief Field NumLabels offset 0
-static ::System::TermInfoNumbers const NumLabels;
+static System::TermInfoNumbers const NumLabels;
 
 /// @brief Field LabelHeight offset 0
-static ::System::TermInfoNumbers const LabelHeight;
+static System::TermInfoNumbers const LabelHeight;
 
 /// @brief Field LabelWidth offset 0
-static ::System::TermInfoNumbers const LabelWidth;
+static System::TermInfoNumbers const LabelWidth;
 
 /// @brief Field MaxAttributes offset 0
-static ::System::TermInfoNumbers const MaxAttributes;
+static System::TermInfoNumbers const MaxAttributes;
 
 /// @brief Field MaximumWindows offset 0
-static ::System::TermInfoNumbers const MaximumWindows;
+static System::TermInfoNumbers const MaximumWindows;
 
 /// @brief Field MaxColors offset 0
-static ::System::TermInfoNumbers const MaxColors;
+static System::TermInfoNumbers const MaxColors;
 
 /// @brief Field MaxPairs offset 0
-static ::System::TermInfoNumbers const MaxPairs;
+static System::TermInfoNumbers const MaxPairs;
 
 /// @brief Field NoColorVideo offset 0
-static ::System::TermInfoNumbers const NoColorVideo;
+static System::TermInfoNumbers const NoColorVideo;
 
 /// @brief Field BufferCapacity offset 0
-static ::System::TermInfoNumbers const BufferCapacity;
+static System::TermInfoNumbers const BufferCapacity;
 
 /// @brief Field DotVertSpacing offset 0
-static ::System::TermInfoNumbers const DotVertSpacing;
+static System::TermInfoNumbers const DotVertSpacing;
 
 /// @brief Field DotHorzSpacing offset 0
-static ::System::TermInfoNumbers const DotHorzSpacing;
+static System::TermInfoNumbers const DotHorzSpacing;
 
 /// @brief Field MaxMicroAddress offset 0
-static ::System::TermInfoNumbers const MaxMicroAddress;
+static System::TermInfoNumbers const MaxMicroAddress;
 
 /// @brief Field MaxMicroJump offset 0
-static ::System::TermInfoNumbers const MaxMicroJump;
+static System::TermInfoNumbers const MaxMicroJump;
 
 /// @brief Field MicroColSize offset 0
-static ::System::TermInfoNumbers const MicroColSize;
+static System::TermInfoNumbers const MicroColSize;
 
 /// @brief Field MicroLineSize offset 0
-static ::System::TermInfoNumbers const MicroLineSize;
+static System::TermInfoNumbers const MicroLineSize;
 
 /// @brief Field NumberOfPins offset 0
-static ::System::TermInfoNumbers const NumberOfPins;
+static System::TermInfoNumbers const NumberOfPins;
 
 /// @brief Field OutputResChar offset 0
-static ::System::TermInfoNumbers const OutputResChar;
+static System::TermInfoNumbers const OutputResChar;
 
 /// @brief Field OutputResLine offset 0
-static ::System::TermInfoNumbers const OutputResLine;
+static System::TermInfoNumbers const OutputResLine;
 
 /// @brief Field OutputResHorzInch offset 0
-static ::System::TermInfoNumbers const OutputResHorzInch;
+static System::TermInfoNumbers const OutputResHorzInch;
 
 /// @brief Field OutputResVertInch offset 0
-static ::System::TermInfoNumbers const OutputResVertInch;
+static System::TermInfoNumbers const OutputResVertInch;
 
 /// @brief Field PrintRate offset 0
-static ::System::TermInfoNumbers const PrintRate;
+static System::TermInfoNumbers const PrintRate;
 
 /// @brief Field WideCharSize offset 0
-static ::System::TermInfoNumbers const WideCharSize;
+static System::TermInfoNumbers const WideCharSize;
 
 /// @brief Field Buttons offset 0
-static ::System::TermInfoNumbers const Buttons;
+static System::TermInfoNumbers const Buttons;
 
 /// @brief Field BitImageEntwining offset 0
-static ::System::TermInfoNumbers const BitImageEntwining;
+static System::TermInfoNumbers const BitImageEntwining;
 
 /// @brief Field BitImageType offset 0
-static ::System::TermInfoNumbers const BitImageType;
+static System::TermInfoNumbers const BitImageType;
 
 /// @brief Field Last offset 0
-static ::System::TermInfoNumbers const Last;
+static System::TermInfoNumbers const Last;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::TermInfoNumbers, "System", "TermInfoNumbers");
+DEFINE_IL2CPP_ARG_TYPE(System::TermInfoNumbers, "System", "TermInfoNumbers");

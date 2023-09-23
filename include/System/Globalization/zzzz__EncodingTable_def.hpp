@@ -4,12 +4,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Globalization {
 class CodePageDataItem;
-}
-namespace System::Globalization {
-struct InternalCodePageDataItem;
 }
 namespace System::Globalization {
 struct InternalEncodingDataItem;
@@ -17,6 +13,9 @@ struct InternalEncodingDataItem;
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
+}
+namespace System::Globalization {
+struct InternalCodePageDataItem;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -64,17 +63,17 @@ constexpr explicit EncodingTable(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 
 // Fields
 
-static ::ArrayW<::System::Globalization::InternalEncodingDataItem> __declspec(property(get=__get_encodingDataPtr, put=__set_encodingDataPtr))  encodingDataPtr;
+static ::ArrayW<System::Globalization::InternalEncodingDataItem> __declspec(property(get=__get_encodingDataPtr, put=__set_encodingDataPtr))  encodingDataPtr;
 
-static void __set_encodingDataPtr(::ArrayW<::System::Globalization::InternalEncodingDataItem> value) ;
+static void __set_encodingDataPtr(::ArrayW<System::Globalization::InternalEncodingDataItem> value) ;
 
-static ::ArrayW<::System::Globalization::InternalEncodingDataItem> __get_encodingDataPtr() ;
+static ::ArrayW<System::Globalization::InternalEncodingDataItem> __get_encodingDataPtr() ;
 
-static ::ArrayW<::System::Globalization::InternalCodePageDataItem> __declspec(property(get=__get_codePageDataPtr, put=__set_codePageDataPtr))  codePageDataPtr;
+static ::ArrayW<System::Globalization::InternalCodePageDataItem> __declspec(property(get=__get_codePageDataPtr, put=__set_codePageDataPtr))  codePageDataPtr;
 
-static void __set_codePageDataPtr(::ArrayW<::System::Globalization::InternalCodePageDataItem> value) ;
+static void __set_codePageDataPtr(::ArrayW<System::Globalization::InternalCodePageDataItem> value) ;
 
-static ::ArrayW<::System::Globalization::InternalCodePageDataItem> __get_codePageDataPtr() ;
+static ::ArrayW<System::Globalization::InternalCodePageDataItem> __get_codePageDataPtr() ;
 
 static int32_t __declspec(property(get=__get_lastEncodingItem, put=__set_lastEncodingItem))  lastEncodingItem;
 
@@ -82,17 +81,17 @@ static void __set_lastEncodingItem(int32_t value) ;
 
 static int32_t __get_lastEncodingItem() ;
 
-static ::System::Collections::Generic::Dictionary_2<::StringW,int32_t> __declspec(property(get=__get_hashByName, put=__set_hashByName))  hashByName;
+static System::Collections::Generic::Dictionary_2<::StringW,int32_t> __declspec(property(get=__get_hashByName, put=__set_hashByName))  hashByName;
 
-static void __set_hashByName(::System::Collections::Generic::Dictionary_2<::StringW,int32_t> value) ;
+static void __set_hashByName(System::Collections::Generic::Dictionary_2<::StringW,int32_t> value) ;
 
-static ::System::Collections::Generic::Dictionary_2<::StringW,int32_t> __get_hashByName() ;
+static System::Collections::Generic::Dictionary_2<::StringW,int32_t> __get_hashByName() ;
 
-static ::System::Collections::Generic::Dictionary_2<int32_t,::System::Globalization::CodePageDataItem> __declspec(property(get=__get_hashByCodePage, put=__set_hashByCodePage))  hashByCodePage;
+static System::Collections::Generic::Dictionary_2<int32_t,System::Globalization::CodePageDataItem> __declspec(property(get=__get_hashByCodePage, put=__set_hashByCodePage))  hashByCodePage;
 
-static void __set_hashByCodePage(::System::Collections::Generic::Dictionary_2<int32_t,::System::Globalization::CodePageDataItem> value) ;
+static void __set_hashByCodePage(System::Collections::Generic::Dictionary_2<int32_t,System::Globalization::CodePageDataItem> value) ;
 
-static ::System::Collections::Generic::Dictionary_2<int32_t,::System::Globalization::CodePageDataItem> __get_hashByCodePage() ;
+static System::Collections::Generic::Dictionary_2<int32_t,System::Globalization::CodePageDataItem> __get_hashByCodePage() ;
 
 
 // Methods
@@ -101,10 +100,10 @@ static ::System::Collections::Generic::Dictionary_2<int32_t,::System::Globalizat
 static int32_t GetNumEncodingItems() ;
 
 /// @brief Method ENC addr 0x23fe0c8 size 0x8 virtual false final false
-static ::System::Globalization::InternalEncodingDataItem ENC(::StringW name, uint16_t cp) ;
+static System::Globalization::InternalEncodingDataItem ENC(::StringW name, uint16_t cp) ;
 
 /// @brief Method MapCodePageDataItem addr 0x23fe0d0 size 0x14 virtual false final false
-static ::System::Globalization::InternalCodePageDataItem MapCodePageDataItem(uint16_t cp, uint16_t fcp, ::StringW names, uint32_t flags) ;
+static System::Globalization::InternalCodePageDataItem MapCodePageDataItem(uint16_t cp, uint16_t fcp, ::StringW names, uint32_t flags) ;
 
 /// @brief Method internalGetCodePageFromName addr 0x240359c size 0x254 virtual false final false
 static int32_t internalGetCodePageFromName(::StringW name) ;
@@ -113,12 +112,11 @@ static int32_t internalGetCodePageFromName(::StringW name) ;
 static int32_t GetCodePageFromName(::StringW name) ;
 
 /// @brief Method GetCodePageDataItem addr 0x2403a74 size 0x2e8 virtual false final false
-static ::System::Globalization::CodePageDataItem GetCodePageDataItem(int32_t codepage) ;
+static System::Globalization::CodePageDataItem GetCodePageDataItem(int32_t codepage) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Globalization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Globalization::EncodingTable);
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::EncodingTable, "System.Globalization", "EncodingTable");
+NEED_NO_BOX(System::Globalization::EncodingTable);
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::EncodingTable, "System.Globalization", "EncodingTable");

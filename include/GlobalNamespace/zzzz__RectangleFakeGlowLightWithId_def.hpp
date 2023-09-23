@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
 class RectangleFakeGlow;
 }
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14703))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5091))
 // CS Name: RectangleFakeGlowLightWithId
-class CORDL_TYPE RectangleFakeGlowLightWithId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
+class CORDL_TYPE RectangleFakeGlowLightWithId : public GlobalNamespace::LightWithIdMonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr RectangleFakeGlowLightWithId(RectangleFakeGlowLightWithId const& ) noe
 constexpr RectangleFakeGlowLightWithId(RectangleFakeGlowLightWithId&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RectangleFakeGlowLightWithId(void* ptr) noexcept : ::GlobalNamespace::LightWithIdMonoBehaviour(ptr) {
+constexpr explicit RectangleFakeGlowLightWithId(void* ptr) noexcept : GlobalNamespace::LightWithIdMonoBehaviour(ptr) {
 }
 
 
@@ -67,25 +66,25 @@ constexpr void __set__alphaMul(float_t value) ;
 
 constexpr float_t __get__alphaMul() const;
 
- ::GlobalNamespace::RectangleFakeGlow __declspec(property(get=__get__rectangleFakeGlow, put=__set__rectangleFakeGlow))  _rectangleFakeGlow;
+ GlobalNamespace::RectangleFakeGlow __declspec(property(get=__get__rectangleFakeGlow, put=__set__rectangleFakeGlow))  _rectangleFakeGlow;
 
-constexpr void __set__rectangleFakeGlow(::GlobalNamespace::RectangleFakeGlow value) ;
+constexpr void __set__rectangleFakeGlow(GlobalNamespace::RectangleFakeGlow value) ;
 
-constexpr ::GlobalNamespace::RectangleFakeGlow __get__rectangleFakeGlow() const;
+constexpr GlobalNamespace::RectangleFakeGlow __get__rectangleFakeGlow() const;
 
 
 // Properties
 
- ::UnityEngine::Color __declspec(property(get=get_color))  color;
+ UnityEngine::Color __declspec(property(get=get_color))  color;
 
 
 // Methods
 
 /// @brief Method get_color addr 0x226a244 size 0x20 virtual false final false
- ::UnityEngine::Color get_color() ;
+ UnityEngine::Color get_color() ;
 
 /// @brief Method ColorWasSet addr 0x226a264 size 0x2c virtual true final false
- void ColorWasSet(::UnityEngine::Color color) ;
+ void ColorWasSet(UnityEngine::Color color) ;
 
 // Ctor Parameters []
 explicit RectangleFakeGlowLightWithId() ;
@@ -97,6 +96,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::RectangleFakeGlowLightWithId);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RectangleFakeGlowLightWithId, "", "RectangleFakeGlowLightWithId");
+NEED_NO_BOX(GlobalNamespace::RectangleFakeGlowLightWithId);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RectangleFakeGlowLightWithId, "", "RectangleFakeGlowLightWithId");

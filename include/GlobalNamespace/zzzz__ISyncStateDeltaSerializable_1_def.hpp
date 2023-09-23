@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 struct SyncStateId;
 }
@@ -30,7 +29,7 @@ constexpr explicit ISyncStateDeltaSerializable_1(void* ptr) noexcept : ::cordl_i
 
 // Properties
 
- ::GlobalNamespace::SyncStateId __declspec(property(get=get_baseId, put=set_baseId))  baseId;
+ GlobalNamespace::SyncStateId __declspec(property(get=get_baseId, put=set_baseId))  baseId;
 
  int32_t __declspec(property(get=get_timeOffsetMs, put=set_timeOffsetMs))  timeOffsetMs;
 
@@ -40,10 +39,10 @@ constexpr explicit ISyncStateDeltaSerializable_1(void* ptr) noexcept : ::cordl_i
 // Methods
 
 /// @brief Method get_baseId addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::SyncStateId get_baseId() ;
+ GlobalNamespace::SyncStateId get_baseId() ;
 
 /// @brief Method set_baseId addr 0x0 size 0xffffffffffffffff virtual true final false
- void set_baseId(::GlobalNamespace::SyncStateId value) ;
+ void set_baseId(GlobalNamespace::SyncStateId value) ;
 
 /// @brief Method get_timeOffsetMs addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t get_timeOffsetMs() ;
@@ -61,5 +60,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::ISyncStateDeltaSerializable_1, "", "ISyncStateDeltaSerializable`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::ISyncStateDeltaSerializable_1, "", "ISyncStateDeltaSerializable`1");

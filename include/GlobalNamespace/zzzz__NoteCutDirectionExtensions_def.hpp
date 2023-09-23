@@ -2,7 +2,9 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
+namespace UnityEngine {
+struct Vector3;
+}
 namespace GlobalNamespace {
 struct NoteCutDirection;
 }
@@ -11,9 +13,6 @@ struct Vector2;
 }
 namespace UnityEngine {
 struct Quaternion;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -62,36 +61,35 @@ constexpr explicit NoteCutDirectionExtensions(void* ptr) noexcept : ::bs_hook::I
 // Methods
 
 /// @brief Method Direction addr 0xd93bf4 size 0x2c virtual false final false
-static ::UnityEngine::Vector2 Direction(::GlobalNamespace::NoteCutDirection cutDirection) ;
+static UnityEngine::Vector2 Direction(GlobalNamespace::NoteCutDirection cutDirection) ;
 
 /// @brief Method RotationAngle addr 0xd93c20 size 0x20 virtual false final false
-static float_t RotationAngle(::GlobalNamespace::NoteCutDirection cutDirection) ;
+static float_t RotationAngle(GlobalNamespace::NoteCutDirection cutDirection) ;
 
 /// @brief Method Rotation addr 0xd93c40 size 0x38 virtual false final false
-static ::UnityEngine::Quaternion Rotation(::GlobalNamespace::NoteCutDirection cutDirection, float_t offset) ;
+static UnityEngine::Quaternion Rotation(GlobalNamespace::NoteCutDirection cutDirection, float_t offset) ;
 
 /// @brief Method IsMainDirection addr 0xd93c78 size 0xc virtual false final false
-static bool IsMainDirection(::GlobalNamespace::NoteCutDirection cutDirection) ;
+static bool IsMainDirection(GlobalNamespace::NoteCutDirection cutDirection) ;
 
 /// @brief Method MainNoteCutDirectionFromCutDirAngle addr 0xd93c84 size 0x80 virtual false final false
-static ::GlobalNamespace::NoteCutDirection MainNoteCutDirectionFromCutDirAngle(float_t angle) ;
+static GlobalNamespace::NoteCutDirection MainNoteCutDirectionFromCutDirAngle(float_t angle) ;
 
 /// @brief Method Mirrored addr 0xd93d04 size 0x1c virtual false final false
-static ::GlobalNamespace::NoteCutDirection Mirrored(::GlobalNamespace::NoteCutDirection cutDirection) ;
+static GlobalNamespace::NoteCutDirection Mirrored(GlobalNamespace::NoteCutDirection cutDirection) ;
 
 /// @brief Method Opposite addr 0xd93d20 size 0x18 virtual false final false
-static ::GlobalNamespace::NoteCutDirection Opposite(::GlobalNamespace::NoteCutDirection cutDirection) ;
+static GlobalNamespace::NoteCutDirection Opposite(GlobalNamespace::NoteCutDirection cutDirection) ;
 
 /// @brief Method IsOnSamePlane addr 0xd93d38 size 0xd0 virtual false final false
-static bool IsOnSamePlane(::GlobalNamespace::NoteCutDirection noteCutDirection1, ::GlobalNamespace::NoteCutDirection noteCutDirection2) ;
+static bool IsOnSamePlane(GlobalNamespace::NoteCutDirection noteCutDirection1, GlobalNamespace::NoteCutDirection noteCutDirection2) ;
 
 /// @brief Method NoteCutDirectionFromDirection addr 0xd93e08 size 0x218 virtual false final false
-static ::GlobalNamespace::NoteCutDirection NoteCutDirectionFromDirection(::UnityEngine::Vector3 direction) ;
+static GlobalNamespace::NoteCutDirection NoteCutDirectionFromDirection(UnityEngine::Vector3 direction) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::NoteCutDirectionExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoteCutDirectionExtensions, "", "NoteCutDirectionExtensions");
+NEED_NO_BOX(GlobalNamespace::NoteCutDirectionExtensions);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutDirectionExtensions, "", "NoteCutDirectionExtensions");

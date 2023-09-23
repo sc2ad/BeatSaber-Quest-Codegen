@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Security {
 class SecurityElement;
 }
@@ -89,18 +88,17 @@ static int32_t EncodedStringSize(::StringW str) ;
  void AddToken(uint8_t b, ByRef<int32_t> position) ;
 
 /// @brief Method GetRootElement addr 0x22e4a24 size 0x1c virtual false final false
- ::System::Security::SecurityElement GetRootElement() ;
+ System::Security::SecurityElement GetRootElement() ;
 
 /// @brief Method GetElement addr 0x22e4a40 size 0x1c virtual false final false
- ::System::Security::SecurityElement GetElement(int32_t position, bool bCreate) ;
+ System::Security::SecurityElement GetElement(int32_t position, bool bCreate) ;
 
 /// @brief Method InternalGetElement addr 0x22e4a5c size 0x208 virtual false final false
- ::System::Security::SecurityElement InternalGetElement(ByRef<int32_t> position, bool bCreate) ;
+ System::Security::SecurityElement InternalGetElement(ByRef<int32_t> position, bool bCreate) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::SecurityDocument);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::SecurityDocument, "System.Security", "SecurityDocument");
+NEED_NO_BOX(System::Security::SecurityDocument);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::SecurityDocument, "System.Security", "SecurityDocument");

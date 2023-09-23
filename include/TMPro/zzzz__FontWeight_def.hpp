@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace TMPro {
 struct FontWeight;
@@ -74,35 +73,34 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Thin offset 0
-static ::TMPro::FontWeight const Thin;
+static TMPro::FontWeight const Thin;
 
 /// @brief Field ExtraLight offset 0
-static ::TMPro::FontWeight const ExtraLight;
+static TMPro::FontWeight const ExtraLight;
 
 /// @brief Field Light offset 0
-static ::TMPro::FontWeight const Light;
+static TMPro::FontWeight const Light;
 
 /// @brief Field Regular offset 0
-static ::TMPro::FontWeight const Regular;
+static TMPro::FontWeight const Regular;
 
 /// @brief Field Medium offset 0
-static ::TMPro::FontWeight const Medium;
+static TMPro::FontWeight const Medium;
 
 /// @brief Field SemiBold offset 0
-static ::TMPro::FontWeight const SemiBold;
+static TMPro::FontWeight const SemiBold;
 
 /// @brief Field Bold offset 0
-static ::TMPro::FontWeight const Bold;
+static TMPro::FontWeight const Bold;
 
 /// @brief Field Heavy offset 0
-static ::TMPro::FontWeight const Heavy;
+static TMPro::FontWeight const Heavy;
 
 /// @brief Field Black offset 0
-static ::TMPro::FontWeight const Black;
+static TMPro::FontWeight const Black;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::FontWeight, "TMPro", "FontWeight");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::FontWeight, "TMPro", "FontWeight");

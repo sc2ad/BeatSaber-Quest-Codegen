@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Mono::Math {
 class BigInteger;
 }
@@ -23,7 +22,7 @@ namespace Mono::Security::Cryptography {
 class DSAManaged;
 }
 namespace Mono::Security::Cryptography {
-class ____Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler;
+class Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler;
 }
 // Type: ::KeyGeneratedEventHandler
 namespace Mono::Security::Cryptography {
@@ -31,50 +30,50 @@ namespace Mono::Security::Cryptography {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2285))
 // CS Name: Mono.Security.Cryptography.DSAManaged::KeyGeneratedEventHandler
-class CORDL_TYPE ____Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler : public ::System::MulticastDelegate {
+class CORDL_TYPE Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x80};
 
-virtual ~____Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler() = default;
+virtual ~Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler", modifiers: " const&", def_value: None }]
-constexpr ____Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler(____Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler", modifiers: " const&", def_value: None }]
+constexpr Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler(Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler", modifiers: "&&", def_value: None }]
-constexpr ____Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler(____Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler", modifiers: "&&", def_value: None }]
+constexpr Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler(Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
-  constexpr ____Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler& operator=(std::nullptr_t) noexcept {
+  constexpr Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler& operator=(void* o) noexcept {
+  constexpr Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler& operator=(____Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler&& o) noexcept = default;
-  constexpr ____Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler& operator=(____Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler const& o) noexcept = default;
+  constexpr Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler& operator=(Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler&& o) noexcept = default;
+  constexpr Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler& operator=(Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit ____Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+explicit Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x22bad78 size 0x130 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x22baea8 size 0x14 virtual true final false
- void Invoke(::bs_hook::Il2CppWrapperType sender, ::System::EventArgs e) ;
+ void Invoke(::bs_hook::Il2CppWrapperType sender, System::EventArgs e) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -86,10 +85,10 @@ namespace Mono::Security::Cryptography {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2927))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2286))
 // CS Name: Mono.Security.Cryptography.DSAManaged
-class CORDL_TYPE DSAManaged : public ::System::Security::Cryptography::DSA {
+class CORDL_TYPE DSAManaged : public System::Security::Cryptography::DSA {
 public:
 // Declarations
-using KeyGeneratedEventHandler = ::Mono::Security::Cryptography::____Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler;
+using KeyGeneratedEventHandler = Mono::Security::Cryptography::Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x78};
@@ -103,7 +102,7 @@ constexpr DSAManaged(DSAManaged const& ) noexcept = default;
 constexpr DSAManaged(DSAManaged&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DSAManaged(void* ptr) noexcept : ::System::Security::Cryptography::DSA(ptr) {
+constexpr explicit DSAManaged(void* ptr) noexcept : System::Security::Cryptography::DSA(ptr) {
 }
 
 
@@ -136,47 +135,47 @@ constexpr void __set_m_disposed(bool value) ;
 
 constexpr bool __get_m_disposed() const;
 
- ::Mono::Math::BigInteger __declspec(property(get=__get_p, put=__set_p))  p;
+ Mono::Math::BigInteger __declspec(property(get=__get_p, put=__set_p))  p;
 
-constexpr void __set_p(::Mono::Math::BigInteger value) ;
+constexpr void __set_p(Mono::Math::BigInteger value) ;
 
-constexpr ::Mono::Math::BigInteger __get_p() const;
+constexpr Mono::Math::BigInteger __get_p() const;
 
- ::Mono::Math::BigInteger __declspec(property(get=__get_q, put=__set_q))  q;
+ Mono::Math::BigInteger __declspec(property(get=__get_q, put=__set_q))  q;
 
-constexpr void __set_q(::Mono::Math::BigInteger value) ;
+constexpr void __set_q(Mono::Math::BigInteger value) ;
 
-constexpr ::Mono::Math::BigInteger __get_q() const;
+constexpr Mono::Math::BigInteger __get_q() const;
 
- ::Mono::Math::BigInteger __declspec(property(get=__get_g, put=__set_g))  g;
+ Mono::Math::BigInteger __declspec(property(get=__get_g, put=__set_g))  g;
 
-constexpr void __set_g(::Mono::Math::BigInteger value) ;
+constexpr void __set_g(Mono::Math::BigInteger value) ;
 
-constexpr ::Mono::Math::BigInteger __get_g() const;
+constexpr Mono::Math::BigInteger __get_g() const;
 
- ::Mono::Math::BigInteger __declspec(property(get=__get_x, put=__set_x))  x;
+ Mono::Math::BigInteger __declspec(property(get=__get_x, put=__set_x))  x;
 
-constexpr void __set_x(::Mono::Math::BigInteger value) ;
+constexpr void __set_x(Mono::Math::BigInteger value) ;
 
-constexpr ::Mono::Math::BigInteger __get_x() const;
+constexpr Mono::Math::BigInteger __get_x() const;
 
- ::Mono::Math::BigInteger __declspec(property(get=__get_y, put=__set_y))  y;
+ Mono::Math::BigInteger __declspec(property(get=__get_y, put=__set_y))  y;
 
-constexpr void __set_y(::Mono::Math::BigInteger value) ;
+constexpr void __set_y(Mono::Math::BigInteger value) ;
 
-constexpr ::Mono::Math::BigInteger __get_y() const;
+constexpr Mono::Math::BigInteger __get_y() const;
 
- ::Mono::Math::BigInteger __declspec(property(get=__get_j, put=__set_j))  j;
+ Mono::Math::BigInteger __declspec(property(get=__get_j, put=__set_j))  j;
 
-constexpr void __set_j(::Mono::Math::BigInteger value) ;
+constexpr void __set_j(Mono::Math::BigInteger value) ;
 
-constexpr ::Mono::Math::BigInteger __get_j() const;
+constexpr Mono::Math::BigInteger __get_j() const;
 
- ::Mono::Math::BigInteger __declspec(property(get=__get_seed, put=__set_seed))  seed;
+ Mono::Math::BigInteger __declspec(property(get=__get_seed, put=__set_seed))  seed;
 
-constexpr void __set_seed(::Mono::Math::BigInteger value) ;
+constexpr void __set_seed(Mono::Math::BigInteger value) ;
 
-constexpr ::Mono::Math::BigInteger __get_seed() const;
+constexpr Mono::Math::BigInteger __get_seed() const;
 
  int32_t __declspec(property(get=__get_counter, put=__set_counter))  counter;
 
@@ -190,22 +189,22 @@ constexpr void __set_j_missing(bool value) ;
 
 constexpr bool __get_j_missing() const;
 
- ::System::Security::Cryptography::RandomNumberGenerator __declspec(property(get=__get_rng, put=__set_rng))  rng;
+ System::Security::Cryptography::RandomNumberGenerator __declspec(property(get=__get_rng, put=__set_rng))  rng;
 
-constexpr void __set_rng(::System::Security::Cryptography::RandomNumberGenerator value) ;
+constexpr void __set_rng(System::Security::Cryptography::RandomNumberGenerator value) ;
 
-constexpr ::System::Security::Cryptography::RandomNumberGenerator __get_rng() const;
+constexpr System::Security::Cryptography::RandomNumberGenerator __get_rng() const;
 
- ::Mono::Security::Cryptography::____Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler __declspec(property(get=__get_KeyGenerated, put=__set_KeyGenerated))  KeyGenerated;
+ Mono::Security::Cryptography::Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler __declspec(property(get=__get_KeyGenerated, put=__set_KeyGenerated))  KeyGenerated;
 
-constexpr void __set_KeyGenerated(::Mono::Security::Cryptography::____Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler value) ;
+constexpr void __set_KeyGenerated(Mono::Security::Cryptography::Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler value) ;
 
-constexpr ::Mono::Security::Cryptography::____Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler __get_KeyGenerated() const;
+constexpr Mono::Security::Cryptography::Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler __get_KeyGenerated() const;
 
 
 // Properties
 
- ::System::Security::Cryptography::RandomNumberGenerator __declspec(property(get=get_Random))  Random;
+ System::Security::Cryptography::RandomNumberGenerator __declspec(property(get=get_Random))  Random;
 
  int32_t __declspec(property(get=get_KeySize))  KeySize;
 
@@ -236,7 +235,7 @@ explicit DSAManaged(int32_t dwKeySize) ;
  void GenerateParams(int32_t keyLength) ;
 
 /// @brief Method get_Random addr 0x22b9bac size 0x20 virtual false final false
- ::System::Security::Cryptography::RandomNumberGenerator get_Random() ;
+ System::Security::Cryptography::RandomNumberGenerator get_Random() ;
 
 /// @brief Method get_KeySize addr 0x22b9ee0 size 0x2c virtual true final false
  int32_t get_KeySize() ;
@@ -248,10 +247,10 @@ explicit DSAManaged(int32_t dwKeySize) ;
  ::ArrayW<uint8_t> NormalizeArray(::ArrayW<uint8_t> array) ;
 
 /// @brief Method ExportParameters addr 0x22ba024 size 0x278 virtual true final false
- ::System::Security::Cryptography::DSAParameters ExportParameters(bool includePrivateParameters) ;
+ System::Security::Cryptography::DSAParameters ExportParameters(bool includePrivateParameters) ;
 
 /// @brief Method ImportParameters addr 0x22ba308 size 0x2a8 virtual true final false
- void ImportParameters(::System::Security::Cryptography::DSAParameters parameters) ;
+ void ImportParameters(System::Security::Cryptography::DSAParameters parameters) ;
 
 /// @brief Method VerifySignature addr 0x22ba5b0 size 0x4c0 virtual true final false
  bool VerifySignature(::ArrayW<uint8_t> rgbHash, ::ArrayW<uint8_t> rgbSignature) ;
@@ -260,17 +259,16 @@ explicit DSAManaged(int32_t dwKeySize) ;
  void Dispose(bool disposing) ;
 
 /// @brief Method add_KeyGenerated addr 0x22bac40 size 0x9c virtual false final false
- void add_KeyGenerated(::Mono::Security::Cryptography::____Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler value) ;
+ void add_KeyGenerated(Mono::Security::Cryptography::Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler value) ;
 
 /// @brief Method remove_KeyGenerated addr 0x22bacdc size 0x9c virtual false final false
- void remove_KeyGenerated(::Mono::Security::Cryptography::____Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler value) ;
+ void remove_KeyGenerated(Mono::Security::Cryptography::Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Security::Cryptography::DSAManaged);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Cryptography::DSAManaged, "Mono.Security.Cryptography", "DSAManaged");
-NEED_NO_BOX(::Mono::Security::Cryptography::____Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Cryptography::____Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler, "Mono.Security.Cryptography", "DSAManaged/KeyGeneratedEventHandler");
+NEED_NO_BOX(Mono::Security::Cryptography::DSAManaged);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::DSAManaged, "Mono.Security.Cryptography", "DSAManaged");
+NEED_NO_BOX(Mono::Security::Cryptography::Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler, "Mono.Security.Cryptography", "DSAManaged/KeyGeneratedEventHandler");

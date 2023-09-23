@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Runtime::InteropServices {
 struct VarEnum;
@@ -109,140 +108,139 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field VT_EMPTY offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_EMPTY;
+static System::Runtime::InteropServices::VarEnum const VT_EMPTY;
 
 /// @brief Field VT_NULL offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_NULL;
+static System::Runtime::InteropServices::VarEnum const VT_NULL;
 
 /// @brief Field VT_I2 offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_I2;
+static System::Runtime::InteropServices::VarEnum const VT_I2;
 
 /// @brief Field VT_I4 offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_I4;
+static System::Runtime::InteropServices::VarEnum const VT_I4;
 
 /// @brief Field VT_R4 offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_R4;
+static System::Runtime::InteropServices::VarEnum const VT_R4;
 
 /// @brief Field VT_R8 offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_R8;
+static System::Runtime::InteropServices::VarEnum const VT_R8;
 
 /// @brief Field VT_CY offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_CY;
+static System::Runtime::InteropServices::VarEnum const VT_CY;
 
 /// @brief Field VT_DATE offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_DATE;
+static System::Runtime::InteropServices::VarEnum const VT_DATE;
 
 /// @brief Field VT_BSTR offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_BSTR;
+static System::Runtime::InteropServices::VarEnum const VT_BSTR;
 
 /// @brief Field VT_DISPATCH offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_DISPATCH;
+static System::Runtime::InteropServices::VarEnum const VT_DISPATCH;
 
 /// @brief Field VT_ERROR offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_ERROR;
+static System::Runtime::InteropServices::VarEnum const VT_ERROR;
 
 /// @brief Field VT_BOOL offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_BOOL;
+static System::Runtime::InteropServices::VarEnum const VT_BOOL;
 
 /// @brief Field VT_VARIANT offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_VARIANT;
+static System::Runtime::InteropServices::VarEnum const VT_VARIANT;
 
 /// @brief Field VT_UNKNOWN offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_UNKNOWN;
+static System::Runtime::InteropServices::VarEnum const VT_UNKNOWN;
 
 /// @brief Field VT_DECIMAL offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_DECIMAL;
+static System::Runtime::InteropServices::VarEnum const VT_DECIMAL;
 
 /// @brief Field VT_I1 offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_I1;
+static System::Runtime::InteropServices::VarEnum const VT_I1;
 
 /// @brief Field VT_UI1 offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_UI1;
+static System::Runtime::InteropServices::VarEnum const VT_UI1;
 
 /// @brief Field VT_UI2 offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_UI2;
+static System::Runtime::InteropServices::VarEnum const VT_UI2;
 
 /// @brief Field VT_UI4 offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_UI4;
+static System::Runtime::InteropServices::VarEnum const VT_UI4;
 
 /// @brief Field VT_I8 offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_I8;
+static System::Runtime::InteropServices::VarEnum const VT_I8;
 
 /// @brief Field VT_UI8 offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_UI8;
+static System::Runtime::InteropServices::VarEnum const VT_UI8;
 
 /// @brief Field VT_INT offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_INT;
+static System::Runtime::InteropServices::VarEnum const VT_INT;
 
 /// @brief Field VT_UINT offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_UINT;
+static System::Runtime::InteropServices::VarEnum const VT_UINT;
 
 /// @brief Field VT_VOID offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_VOID;
+static System::Runtime::InteropServices::VarEnum const VT_VOID;
 
 /// @brief Field VT_HRESULT offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_HRESULT;
+static System::Runtime::InteropServices::VarEnum const VT_HRESULT;
 
 /// @brief Field VT_PTR offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_PTR;
+static System::Runtime::InteropServices::VarEnum const VT_PTR;
 
 /// @brief Field VT_SAFEARRAY offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_SAFEARRAY;
+static System::Runtime::InteropServices::VarEnum const VT_SAFEARRAY;
 
 /// @brief Field VT_CARRAY offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_CARRAY;
+static System::Runtime::InteropServices::VarEnum const VT_CARRAY;
 
 /// @brief Field VT_USERDEFINED offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_USERDEFINED;
+static System::Runtime::InteropServices::VarEnum const VT_USERDEFINED;
 
 /// @brief Field VT_LPSTR offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_LPSTR;
+static System::Runtime::InteropServices::VarEnum const VT_LPSTR;
 
 /// @brief Field VT_LPWSTR offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_LPWSTR;
+static System::Runtime::InteropServices::VarEnum const VT_LPWSTR;
 
 /// @brief Field VT_RECORD offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_RECORD;
+static System::Runtime::InteropServices::VarEnum const VT_RECORD;
 
 /// @brief Field VT_FILETIME offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_FILETIME;
+static System::Runtime::InteropServices::VarEnum const VT_FILETIME;
 
 /// @brief Field VT_BLOB offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_BLOB;
+static System::Runtime::InteropServices::VarEnum const VT_BLOB;
 
 /// @brief Field VT_STREAM offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_STREAM;
+static System::Runtime::InteropServices::VarEnum const VT_STREAM;
 
 /// @brief Field VT_STORAGE offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_STORAGE;
+static System::Runtime::InteropServices::VarEnum const VT_STORAGE;
 
 /// @brief Field VT_STREAMED_OBJECT offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_STREAMED_OBJECT;
+static System::Runtime::InteropServices::VarEnum const VT_STREAMED_OBJECT;
 
 /// @brief Field VT_STORED_OBJECT offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_STORED_OBJECT;
+static System::Runtime::InteropServices::VarEnum const VT_STORED_OBJECT;
 
 /// @brief Field VT_BLOB_OBJECT offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_BLOB_OBJECT;
+static System::Runtime::InteropServices::VarEnum const VT_BLOB_OBJECT;
 
 /// @brief Field VT_CF offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_CF;
+static System::Runtime::InteropServices::VarEnum const VT_CF;
 
 /// @brief Field VT_CLSID offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_CLSID;
+static System::Runtime::InteropServices::VarEnum const VT_CLSID;
 
 /// @brief Field VT_VECTOR offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_VECTOR;
+static System::Runtime::InteropServices::VarEnum const VT_VECTOR;
 
 /// @brief Field VT_ARRAY offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_ARRAY;
+static System::Runtime::InteropServices::VarEnum const VT_ARRAY;
 
 /// @brief Field VT_BYREF offset 0
-static ::System::Runtime::InteropServices::VarEnum const VT_BYREF;
+static System::Runtime::InteropServices::VarEnum const VT_BYREF;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::InteropServices
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::VarEnum, "System.Runtime.InteropServices", "VarEnum");
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::VarEnum, "System.Runtime.InteropServices", "VarEnum");

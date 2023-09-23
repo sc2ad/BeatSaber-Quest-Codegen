@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
@@ -73,18 +72,17 @@ static ::ArrayW<char16_t> __get_s_simpleWildcardChars() ;
 static ::StringW TranslateWin32Expression(::StringW expression) ;
 
 /// @brief Method MatchesWin32Expression addr 0x23d6794 size 0x88 virtual false final false
-static bool MatchesWin32Expression(::System::ReadOnlySpan_1<char16_t> expression, ::System::ReadOnlySpan_1<char16_t> name, bool ignoreCase) ;
+static bool MatchesWin32Expression(System::ReadOnlySpan_1<char16_t> expression, System::ReadOnlySpan_1<char16_t> name, bool ignoreCase) ;
 
 /// @brief Method MatchesSimpleExpression addr 0x23d670c size 0x88 virtual false final false
-static bool MatchesSimpleExpression(::System::ReadOnlySpan_1<char16_t> expression, ::System::ReadOnlySpan_1<char16_t> name, bool ignoreCase) ;
+static bool MatchesSimpleExpression(System::ReadOnlySpan_1<char16_t> expression, System::ReadOnlySpan_1<char16_t> name, bool ignoreCase) ;
 
 /// @brief Method MatchPattern addr 0x23d784c size 0x754 virtual false final false
-static bool MatchPattern(::System::ReadOnlySpan_1<char16_t> expression, ::System::ReadOnlySpan_1<char16_t> name, bool ignoreCase, bool useExtendedWildcards) ;
+static bool MatchPattern(System::ReadOnlySpan_1<char16_t> expression, System::ReadOnlySpan_1<char16_t> name, bool ignoreCase, bool useExtendedWildcards) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::IO::Enumeration
-} // end anonymous namespace
-NEED_NO_BOX(::System::IO::Enumeration::FileSystemName);
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::Enumeration::FileSystemName, "System.IO.Enumeration", "FileSystemName");
+NEED_NO_BOX(System::IO::Enumeration::FileSystemName);
+DEFINE_IL2CPP_ARG_TYPE(System::IO::Enumeration::FileSystemName, "System.IO.Enumeration", "FileSystemName");

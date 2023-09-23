@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct ETrackedDeviceClass;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Invalid offset 0
-static ::OVR::OpenVR::ETrackedDeviceClass const Invalid;
+static OVR::OpenVR::ETrackedDeviceClass const Invalid;
 
 /// @brief Field HMD offset 0
-static ::OVR::OpenVR::ETrackedDeviceClass const HMD;
+static OVR::OpenVR::ETrackedDeviceClass const HMD;
 
 /// @brief Field Controller offset 0
-static ::OVR::OpenVR::ETrackedDeviceClass const Controller;
+static OVR::OpenVR::ETrackedDeviceClass const Controller;
 
 /// @brief Field GenericTracker offset 0
-static ::OVR::OpenVR::ETrackedDeviceClass const GenericTracker;
+static OVR::OpenVR::ETrackedDeviceClass const GenericTracker;
 
 /// @brief Field TrackingReference offset 0
-static ::OVR::OpenVR::ETrackedDeviceClass const TrackingReference;
+static OVR::OpenVR::ETrackedDeviceClass const TrackingReference;
 
 /// @brief Field DisplayRedirect offset 0
-static ::OVR::OpenVR::ETrackedDeviceClass const DisplayRedirect;
+static OVR::OpenVR::ETrackedDeviceClass const DisplayRedirect;
 
 /// @brief Field Max offset 0
-static ::OVR::OpenVR::ETrackedDeviceClass const Max;
+static OVR::OpenVR::ETrackedDeviceClass const Max;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::ETrackedDeviceClass, "OVR.OpenVR", "ETrackedDeviceClass");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::ETrackedDeviceClass, "OVR.OpenVR", "ETrackedDeviceClass");

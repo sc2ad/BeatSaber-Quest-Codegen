@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstddef>
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HAPI_BoxInfo;
@@ -79,5 +78,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_BoxInfo, "HoudiniEngineUnity", "HAPI_BoxInfo");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_BoxInfo, "HoudiniEngineUnity", "HAPI_BoxInfo");

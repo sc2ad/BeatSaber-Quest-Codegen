@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -54,31 +53,30 @@ constexpr explicit TQ(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 
 // Fields
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_t, put=__set_t))  t;
+ UnityEngine::Vector3 __declspec(property(get=__get_t, put=__set_t))  t;
 
-constexpr void __set_t(::UnityEngine::Vector3 value) ;
+constexpr void __set_t(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_t() const;
+constexpr UnityEngine::Vector3 __get_t() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get_q, put=__set_q))  q;
+ UnityEngine::Quaternion __declspec(property(get=__get_q, put=__set_q))  q;
 
-constexpr void __set_q(::UnityEngine::Quaternion value) ;
+constexpr void __set_q(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get_q() const;
+constexpr UnityEngine::Quaternion __get_q() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "translation", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }]
-explicit TQ(::UnityEngine::Vector3 translation, ::UnityEngine::Quaternion rotation) ;
+// Ctor Parameters [CppParam { name: "translation", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "UnityEngine::Quaternion", modifiers: "", def_value: None }]
+explicit TQ(UnityEngine::Vector3 translation, UnityEngine::Quaternion rotation) ;
 
 /// @brief Method .ctor addr 0x11a79d8 size 0x64 virtual false final false
- void _ctor(::UnityEngine::Vector3 translation, ::UnityEngine::Quaternion rotation) ;
+ void _ctor(UnityEngine::Vector3 translation, UnityEngine::Quaternion rotation) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::TQ);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::TQ, "RootMotion", "TQ");
+NEED_NO_BOX(RootMotion::TQ);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::TQ, "RootMotion", "TQ");

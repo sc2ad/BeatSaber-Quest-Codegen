@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {
 struct JTokenType;
@@ -83,62 +82,61 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::Newtonsoft::Json::Linq::JTokenType const None;
+static Newtonsoft::Json::Linq::JTokenType const None;
 
 /// @brief Field Object offset 0
-static ::Newtonsoft::Json::Linq::JTokenType const Object;
+static Newtonsoft::Json::Linq::JTokenType const Object;
 
 /// @brief Field Array offset 0
-static ::Newtonsoft::Json::Linq::JTokenType const Array;
+static Newtonsoft::Json::Linq::JTokenType const Array;
 
 /// @brief Field Constructor offset 0
-static ::Newtonsoft::Json::Linq::JTokenType const Constructor;
+static Newtonsoft::Json::Linq::JTokenType const Constructor;
 
 /// @brief Field Property offset 0
-static ::Newtonsoft::Json::Linq::JTokenType const Property;
+static Newtonsoft::Json::Linq::JTokenType const Property;
 
 /// @brief Field Comment offset 0
-static ::Newtonsoft::Json::Linq::JTokenType const Comment;
+static Newtonsoft::Json::Linq::JTokenType const Comment;
 
 /// @brief Field Integer offset 0
-static ::Newtonsoft::Json::Linq::JTokenType const Integer;
+static Newtonsoft::Json::Linq::JTokenType const Integer;
 
 /// @brief Field Float offset 0
-static ::Newtonsoft::Json::Linq::JTokenType const Float;
+static Newtonsoft::Json::Linq::JTokenType const Float;
 
 /// @brief Field String offset 0
-static ::Newtonsoft::Json::Linq::JTokenType const String;
+static Newtonsoft::Json::Linq::JTokenType const String;
 
 /// @brief Field Boolean offset 0
-static ::Newtonsoft::Json::Linq::JTokenType const Boolean;
+static Newtonsoft::Json::Linq::JTokenType const Boolean;
 
 /// @brief Field Null offset 0
-static ::Newtonsoft::Json::Linq::JTokenType const Null;
+static Newtonsoft::Json::Linq::JTokenType const Null;
 
 /// @brief Field Undefined offset 0
-static ::Newtonsoft::Json::Linq::JTokenType const Undefined;
+static Newtonsoft::Json::Linq::JTokenType const Undefined;
 
 /// @brief Field Date offset 0
-static ::Newtonsoft::Json::Linq::JTokenType const Date;
+static Newtonsoft::Json::Linq::JTokenType const Date;
 
 /// @brief Field Raw offset 0
-static ::Newtonsoft::Json::Linq::JTokenType const Raw;
+static Newtonsoft::Json::Linq::JTokenType const Raw;
 
 /// @brief Field Bytes offset 0
-static ::Newtonsoft::Json::Linq::JTokenType const Bytes;
+static Newtonsoft::Json::Linq::JTokenType const Bytes;
 
 /// @brief Field Guid offset 0
-static ::Newtonsoft::Json::Linq::JTokenType const Guid;
+static Newtonsoft::Json::Linq::JTokenType const Guid;
 
 /// @brief Field Uri offset 0
-static ::Newtonsoft::Json::Linq::JTokenType const Uri;
+static Newtonsoft::Json::Linq::JTokenType const Uri;
 
 /// @brief Field TimeSpan offset 0
-static ::Newtonsoft::Json::Linq::JTokenType const TimeSpan;
+static Newtonsoft::Json::Linq::JTokenType const TimeSpan;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Linq
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Linq::JTokenType, "Newtonsoft.Json.Linq", "JTokenType");
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Linq::JTokenType, "Newtonsoft.Json.Linq", "JTokenType");

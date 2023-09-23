@@ -3,40 +3,39 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-template<typename K,typename V>
-class HMCache_2;
-}
-namespace UnityEngine {
-class Texture2D;
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace GlobalNamespace {
-class ICoroutineStarter;
-}
 namespace System {
 class IDisposable;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
+namespace System::Collections {
+class IEnumerator;
+}
+namespace UnityEngine {
+class Texture2D;
 }
 namespace UnityEngine::Networking {
 class UnityWebRequest;
 }
-// Forward declare root types
 namespace GlobalNamespace {
-class SimpleTextureLoader;
+template<typename K,typename V>
+class HMCache_2;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3;
+class ICoroutineStarter;
+}
+// Forward declare root types
+namespace GlobalNamespace {
+class GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3;
+}
+namespace GlobalNamespace {
+class SimpleTextureLoader;
 }
 // Type: ::<LoadTextureCoroutine>d__3
 namespace GlobalNamespace {
@@ -44,46 +43,46 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5469))
 // CS Name: SimpleTextureLoader::<LoadTextureCoroutine>d__3
-class CORDL_TYPE ____GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
 
-virtual ~____GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3() = default;
+virtual ~GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3(____GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3(GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3(____GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3(GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3& operator=(____GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3&& o) noexcept = default;
-  constexpr ____GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3& operator=(____GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3 const& o) noexcept = default;
+  constexpr GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3& operator=(GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3&& o) noexcept = default;
+  constexpr GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3& operator=(GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3 const& o) noexcept = default;
                 
 
 
@@ -107,11 +106,11 @@ constexpr void __set_useCache(bool value) ;
 
 constexpr bool __get_useCache() const;
 
- ::GlobalNamespace::SimpleTextureLoader __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::SimpleTextureLoader __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::SimpleTextureLoader value) ;
+constexpr void __set___4__this(GlobalNamespace::SimpleTextureLoader value) ;
 
-constexpr ::GlobalNamespace::SimpleTextureLoader __get___4__this() const;
+constexpr GlobalNamespace::SimpleTextureLoader __get___4__this() const;
 
  ::StringW __declspec(property(get=__get_filePath, put=__set_filePath))  filePath;
 
@@ -119,17 +118,17 @@ constexpr void __set_filePath(::StringW value) ;
 
 constexpr ::StringW __get_filePath() const;
 
- ::System::Action_1<::UnityEngine::Texture2D> __declspec(property(get=__get_finishedCallback, put=__set_finishedCallback))  finishedCallback;
+ System::Action_1<UnityEngine::Texture2D> __declspec(property(get=__get_finishedCallback, put=__set_finishedCallback))  finishedCallback;
 
-constexpr void __set_finishedCallback(::System::Action_1<::UnityEngine::Texture2D> value) ;
+constexpr void __set_finishedCallback(System::Action_1<UnityEngine::Texture2D> value) ;
 
-constexpr ::System::Action_1<::UnityEngine::Texture2D> __get_finishedCallback() const;
+constexpr System::Action_1<UnityEngine::Texture2D> __get_finishedCallback() const;
 
- ::UnityEngine::Networking::UnityWebRequest __declspec(property(get=__get__uwr_5__2, put=__set__uwr_5__2))  _uwr_5__2;
+ UnityEngine::Networking::UnityWebRequest __declspec(property(get=__get__uwr_5__2, put=__set__uwr_5__2))  _uwr_5__2;
 
-constexpr void __set__uwr_5__2(::UnityEngine::Networking::UnityWebRequest value) ;
+constexpr void __set__uwr_5__2(UnityEngine::Networking::UnityWebRequest value) ;
 
-constexpr ::UnityEngine::Networking::UnityWebRequest __get__uwr_5__2() const;
+constexpr UnityEngine::Networking::UnityWebRequest __get__uwr_5__2() const;
 
 
 // Properties
@@ -142,7 +141,7 @@ constexpr ::UnityEngine::Networking::UnityWebRequest __get__uwr_5__2() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3(int32_t __1__state) ;
+explicit GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2116c38 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -178,7 +177,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE SimpleTextureLoader : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using _LoadTextureCoroutine_d__3 = ::GlobalNamespace::____GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3;
+using _LoadTextureCoroutine_d__3 = GlobalNamespace::GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -213,26 +212,26 @@ constexpr explicit SimpleTextureLoader(void* ptr) noexcept : ::bs_hook::Il2CppWr
 
 // Fields
 
- ::GlobalNamespace::HMCache_2<::StringW,::UnityEngine::Texture2D> __declspec(property(get=__get__cache, put=__set__cache))  _cache;
+ GlobalNamespace::HMCache_2<::StringW,UnityEngine::Texture2D> __declspec(property(get=__get__cache, put=__set__cache))  _cache;
 
-constexpr void __set__cache(::GlobalNamespace::HMCache_2<::StringW,::UnityEngine::Texture2D> value) ;
+constexpr void __set__cache(GlobalNamespace::HMCache_2<::StringW,UnityEngine::Texture2D> value) ;
 
-constexpr ::GlobalNamespace::HMCache_2<::StringW,::UnityEngine::Texture2D> __get__cache() const;
+constexpr GlobalNamespace::HMCache_2<::StringW,UnityEngine::Texture2D> __get__cache() const;
 
- ::GlobalNamespace::ICoroutineStarter __declspec(property(get=__get__coroutineStarter, put=__set__coroutineStarter))  _coroutineStarter;
+ GlobalNamespace::ICoroutineStarter __declspec(property(get=__get__coroutineStarter, put=__set__coroutineStarter))  _coroutineStarter;
 
-constexpr void __set__coroutineStarter(::GlobalNamespace::ICoroutineStarter value) ;
+constexpr void __set__coroutineStarter(GlobalNamespace::ICoroutineStarter value) ;
 
-constexpr ::GlobalNamespace::ICoroutineStarter __get__coroutineStarter() const;
+constexpr GlobalNamespace::ICoroutineStarter __get__coroutineStarter() const;
 
 
 // Methods
 
 /// @brief Method LoadTexture addr 0x2116ad8 size 0xd0 virtual false final false
- void LoadTexture(::StringW filePath, bool useCache, ::System::Action_1<::UnityEngine::Texture2D> finishedCallback) ;
+ void LoadTexture(::StringW filePath, bool useCache, System::Action_1<UnityEngine::Texture2D> finishedCallback) ;
 
 /// @brief Method LoadTextureCoroutine addr 0x2116ba8 size 0x90 virtual false final false
- ::System::Collections::IEnumerator LoadTextureCoroutine(::StringW filePath, bool useCache, ::System::Action_1<::UnityEngine::Texture2D> finishedCallback) ;
+ System::Collections::IEnumerator LoadTextureCoroutine(::StringW filePath, bool useCache, System::Action_1<UnityEngine::Texture2D> finishedCallback) ;
 
 // Ctor Parameters []
 explicit SimpleTextureLoader() ;
@@ -244,8 +243,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SimpleTextureLoader);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SimpleTextureLoader, "", "SimpleTextureLoader");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3, "", "SimpleTextureLoader/<LoadTextureCoroutine>d__3");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3, "", "SimpleTextureLoader/<LoadTextureCoroutine>d__3");
+NEED_NO_BOX(GlobalNamespace::SimpleTextureLoader);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleTextureLoader, "", "SimpleTextureLoader");

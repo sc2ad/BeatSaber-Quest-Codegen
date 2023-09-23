@@ -6,22 +6,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace System {
+struct DateTime;
+}
 namespace System {
 template<typename T>
 struct Span_1;
 }
 namespace System {
-class Type;
+template<typename T>
+struct ReadOnlySpan_1;
 }
 namespace System {
-class IFormatProvider;
-}
-namespace System {
-struct Decimal;
-}
-namespace System {
-struct DateTime;
+class IConvertible;
 }
 namespace System {
 struct Base64FormattingOptions;
@@ -30,11 +27,13 @@ namespace System {
 struct TypeCode;
 }
 namespace System {
-class IConvertible;
+class Type;
 }
 namespace System {
-template<typename T>
-struct ReadOnlySpan_1;
+struct Decimal;
+}
+namespace System {
+class IFormatProvider;
 }
 // Forward declare root types
 namespace System {
@@ -88,17 +87,17 @@ static void __set_s_decodingMap(::ArrayW<int8_t> value) ;
 
 static ::ArrayW<int8_t> __get_s_decodingMap() ;
 
-static ::ArrayW<::System::Type> __declspec(property(get=__get_ConvertTypes, put=__set_ConvertTypes))  ConvertTypes;
+static ::ArrayW<System::Type> __declspec(property(get=__get_ConvertTypes, put=__set_ConvertTypes))  ConvertTypes;
 
-static void __set_ConvertTypes(::ArrayW<::System::Type> value) ;
+static void __set_ConvertTypes(::ArrayW<System::Type> value) ;
 
-static ::ArrayW<::System::Type> __get_ConvertTypes() ;
+static ::ArrayW<System::Type> __get_ConvertTypes() ;
 
-static ::System::Type __declspec(property(get=__get_EnumType, put=__set_EnumType))  EnumType;
+static System::Type __declspec(property(get=__get_EnumType, put=__set_EnumType))  EnumType;
 
-static void __set_EnumType(::System::Type value) ;
+static void __set_EnumType(System::Type value) ;
 
-static ::System::Type __get_EnumType() ;
+static System::Type __get_EnumType() ;
 
 static ::ArrayW<char16_t> __declspec(property(get=__get_base64Table, put=__set_base64Table))  base64Table;
 
@@ -116,7 +115,7 @@ static ::bs_hook::Il2CppWrapperType __get_DBNull() ;
 // Methods
 
 /// @brief Method TryDecodeFromUtf16 addr 0x23ba950 size 0x374 virtual false final false
-static bool TryDecodeFromUtf16(::System::ReadOnlySpan_1<char16_t> utf16, ::System::Span_1<uint8_t> bytes, ByRef<int32_t> consumed, ByRef<int32_t> written) ;
+static bool TryDecodeFromUtf16(System::ReadOnlySpan_1<char16_t> utf16, System::Span_1<uint8_t> bytes, ByRef<int32_t> consumed, ByRef<int32_t> written) ;
 
 /// @brief Method Decode addr 0x23bacc4 size 0x50 virtual false final false
 static int32_t Decode(ByRef<char16_t> encodedChars, ByRef<int8_t> decodingMap) ;
@@ -125,19 +124,19 @@ static int32_t Decode(ByRef<char16_t> encodedChars, ByRef<int8_t> decodingMap) ;
 static void WriteThreeLowOrderBytes(ByRef<uint8_t> destination, int32_t value) ;
 
 /// @brief Method GetTypeCode addr 0x23bad2c size 0xc4 virtual false final false
-static ::System::TypeCode GetTypeCode(::bs_hook::Il2CppWrapperType value) ;
+static System::TypeCode GetTypeCode(::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method ChangeType addr 0x23badf0 size 0x848 virtual false final false
-static ::bs_hook::Il2CppWrapperType ChangeType(::bs_hook::Il2CppWrapperType value, ::System::TypeCode typeCode, ::System::IFormatProvider provider) ;
+static ::bs_hook::Il2CppWrapperType ChangeType(::bs_hook::Il2CppWrapperType value, System::TypeCode typeCode, System::IFormatProvider provider) ;
 
 /// @brief Method DefaultToType addr 0x23b6b24 size 0xd14 virtual false final false
-static ::bs_hook::Il2CppWrapperType DefaultToType(::System::IConvertible value, ::System::Type targetType, ::System::IFormatProvider provider) ;
+static ::bs_hook::Il2CppWrapperType DefaultToType(System::IConvertible value, System::Type targetType, System::IFormatProvider provider) ;
 
 /// @brief Method ChangeType addr 0x23bb638 size 0x9c virtual false final false
-static ::bs_hook::Il2CppWrapperType ChangeType(::bs_hook::Il2CppWrapperType value, ::System::Type conversionType) ;
+static ::bs_hook::Il2CppWrapperType ChangeType(::bs_hook::Il2CppWrapperType value, System::Type conversionType) ;
 
 /// @brief Method ChangeType addr 0x23bb6d4 size 0xbfc virtual false final false
-static ::bs_hook::Il2CppWrapperType ChangeType(::bs_hook::Il2CppWrapperType value, ::System::Type conversionType, ::System::IFormatProvider provider) ;
+static ::bs_hook::Il2CppWrapperType ChangeType(::bs_hook::Il2CppWrapperType value, System::Type conversionType, System::IFormatProvider provider) ;
 
 /// @brief Method ThrowCharOverflowException addr 0x23bc2d0 size 0x50 virtual false final false
 static void ThrowCharOverflowException() ;
@@ -170,7 +169,7 @@ static void ThrowUInt64OverflowException() ;
 static bool ToBoolean(::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method ToBoolean addr 0x23bc694 size 0x104 virtual false final false
-static bool ToBoolean(::bs_hook::Il2CppWrapperType value, ::System::IFormatProvider provider) ;
+static bool ToBoolean(::bs_hook::Il2CppWrapperType value, System::IFormatProvider provider) ;
 
 /// @brief Method ToBoolean addr 0x23bc798 size 0xc virtual false final false
 static bool ToBoolean(int8_t value) ;
@@ -200,7 +199,7 @@ static bool ToBoolean(uint64_t value) ;
 static bool ToBoolean(::StringW value) ;
 
 /// @brief Method ToBoolean addr 0x23bc854 size 0x68 virtual false final false
-static bool ToBoolean(::StringW value, ::System::IFormatProvider provider) ;
+static bool ToBoolean(::StringW value, System::IFormatProvider provider) ;
 
 /// @brief Method ToBoolean addr 0x23bc8bc size 0xc virtual false final false
 static bool ToBoolean(float_t value) ;
@@ -209,13 +208,13 @@ static bool ToBoolean(float_t value) ;
 static bool ToBoolean(double_t value) ;
 
 /// @brief Method ToBoolean addr 0x23bc8d4 size 0x74 virtual false final false
-static bool ToBoolean(::System::Decimal value) ;
+static bool ToBoolean(System::Decimal value) ;
 
 /// @brief Method ToChar addr 0x23bc948 size 0xf4 virtual false final false
 static char16_t ToChar(::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method ToChar addr 0x23bca3c size 0x104 virtual false final false
-static char16_t ToChar(::bs_hook::Il2CppWrapperType value, ::System::IFormatProvider provider) ;
+static char16_t ToChar(::bs_hook::Il2CppWrapperType value, System::IFormatProvider provider) ;
 
 /// @brief Method ToChar addr 0x23bcb40 size 0x54 virtual false final false
 static char16_t ToChar(int8_t value) ;
@@ -245,13 +244,13 @@ static char16_t ToChar(uint64_t value) ;
 static char16_t ToChar(::StringW value) ;
 
 /// @brief Method ToChar addr 0x23bcda4 size 0xa4 virtual false final false
-static char16_t ToChar(::StringW value, ::System::IFormatProvider provider) ;
+static char16_t ToChar(::StringW value, System::IFormatProvider provider) ;
 
 /// @brief Method ToSByte addr 0x23bce48 size 0xf4 virtual false final false
 static int8_t ToSByte(::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method ToSByte addr 0x23bcf3c size 0x104 virtual false final false
-static int8_t ToSByte(::bs_hook::Il2CppWrapperType value, ::System::IFormatProvider provider) ;
+static int8_t ToSByte(::bs_hook::Il2CppWrapperType value, System::IFormatProvider provider) ;
 
 /// @brief Method ToSByte addr 0x23b657c size 0x8 virtual false final false
 static int8_t ToSByte(bool value) ;
@@ -287,16 +286,16 @@ static int8_t ToSByte(float_t value) ;
 static int8_t ToSByte(double_t value) ;
 
 /// @brief Method ToSByte addr 0x23bd414 size 0x74 virtual false final false
-static int8_t ToSByte(::System::Decimal value) ;
+static int8_t ToSByte(System::Decimal value) ;
 
 /// @brief Method ToSByte addr 0x23bd488 size 0x10 virtual false final false
-static int8_t ToSByte(::StringW value, ::System::IFormatProvider provider) ;
+static int8_t ToSByte(::StringW value, System::IFormatProvider provider) ;
 
 /// @brief Method ToByte addr 0x23bd498 size 0xf4 virtual false final false
 static uint8_t ToByte(::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method ToByte addr 0x23bd58c size 0x104 virtual false final false
-static uint8_t ToByte(::bs_hook::Il2CppWrapperType value, ::System::IFormatProvider provider) ;
+static uint8_t ToByte(::bs_hook::Il2CppWrapperType value, System::IFormatProvider provider) ;
 
 /// @brief Method ToByte addr 0x23b65e0 size 0x8 virtual false final false
 static uint8_t ToByte(bool value) ;
@@ -332,19 +331,19 @@ static uint8_t ToByte(float_t value) ;
 static uint8_t ToByte(double_t value) ;
 
 /// @brief Method ToByte addr 0x23bd9bc size 0x74 virtual false final false
-static uint8_t ToByte(::System::Decimal value) ;
+static uint8_t ToByte(System::Decimal value) ;
 
 /// @brief Method ToByte addr 0x23bda30 size 0x74 virtual false final false
 static uint8_t ToByte(::StringW value) ;
 
 /// @brief Method ToByte addr 0x23bdaa4 size 0x14 virtual false final false
-static uint8_t ToByte(::StringW value, ::System::IFormatProvider provider) ;
+static uint8_t ToByte(::StringW value, System::IFormatProvider provider) ;
 
 /// @brief Method ToInt16 addr 0x23bdab8 size 0xf4 virtual false final false
 static int16_t ToInt16(::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method ToInt16 addr 0x23bdbac size 0x104 virtual false final false
-static int16_t ToInt16(::bs_hook::Il2CppWrapperType value, ::System::IFormatProvider provider) ;
+static int16_t ToInt16(::bs_hook::Il2CppWrapperType value, System::IFormatProvider provider) ;
 
 /// @brief Method ToInt16 addr 0x23b6644 size 0x8 virtual false final false
 static int16_t ToInt16(bool value) ;
@@ -380,16 +379,16 @@ static int16_t ToInt16(float_t value) ;
 static int16_t ToInt16(double_t value) ;
 
 /// @brief Method ToInt16 addr 0x23bdf2c size 0x74 virtual false final false
-static int16_t ToInt16(::System::Decimal value) ;
+static int16_t ToInt16(System::Decimal value) ;
 
 /// @brief Method ToInt16 addr 0x23bdfa0 size 0x18 virtual false final false
-static int16_t ToInt16(::StringW value, ::System::IFormatProvider provider) ;
+static int16_t ToInt16(::StringW value, System::IFormatProvider provider) ;
 
 /// @brief Method ToUInt16 addr 0x23bdfb8 size 0xf4 virtual false final false
 static uint16_t ToUInt16(::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method ToUInt16 addr 0x23be0ac size 0x104 virtual false final false
-static uint16_t ToUInt16(::bs_hook::Il2CppWrapperType value, ::System::IFormatProvider provider) ;
+static uint16_t ToUInt16(::bs_hook::Il2CppWrapperType value, System::IFormatProvider provider) ;
 
 /// @brief Method ToUInt16 addr 0x23b66a8 size 0x8 virtual false final false
 static uint16_t ToUInt16(bool value) ;
@@ -425,16 +424,16 @@ static uint16_t ToUInt16(float_t value) ;
 static uint16_t ToUInt16(double_t value) ;
 
 /// @brief Method ToUInt16 addr 0x23be478 size 0x74 virtual false final false
-static uint16_t ToUInt16(::System::Decimal value) ;
+static uint16_t ToUInt16(System::Decimal value) ;
 
 /// @brief Method ToUInt16 addr 0x23be4ec size 0x18 virtual false final false
-static uint16_t ToUInt16(::StringW value, ::System::IFormatProvider provider) ;
+static uint16_t ToUInt16(::StringW value, System::IFormatProvider provider) ;
 
 /// @brief Method ToInt32 addr 0x23be504 size 0xf4 virtual false final false
 static int32_t ToInt32(::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method ToInt32 addr 0x23be5f8 size 0x104 virtual false final false
-static int32_t ToInt32(::bs_hook::Il2CppWrapperType value, ::System::IFormatProvider provider) ;
+static int32_t ToInt32(::bs_hook::Il2CppWrapperType value, System::IFormatProvider provider) ;
 
 /// @brief Method ToInt32 addr 0x23b670c size 0x8 virtual false final false
 static int32_t ToInt32(bool value) ;
@@ -467,19 +466,19 @@ static int32_t ToInt32(float_t value) ;
 static int32_t ToInt32(double_t value) ;
 
 /// @brief Method ToInt32 addr 0x23be86c size 0x74 virtual false final false
-static int32_t ToInt32(::System::Decimal value) ;
+static int32_t ToInt32(System::Decimal value) ;
 
 /// @brief Method ToInt32 addr 0x23be8e0 size 0x78 virtual false final false
 static int32_t ToInt32(::StringW value) ;
 
 /// @brief Method ToInt32 addr 0x23be958 size 0x18 virtual false final false
-static int32_t ToInt32(::StringW value, ::System::IFormatProvider provider) ;
+static int32_t ToInt32(::StringW value, System::IFormatProvider provider) ;
 
 /// @brief Method ToUInt32 addr 0x23be970 size 0xf4 virtual false final false
 static uint32_t ToUInt32(::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method ToUInt32 addr 0x23bea64 size 0x104 virtual false final false
-static uint32_t ToUInt32(::bs_hook::Il2CppWrapperType value, ::System::IFormatProvider provider) ;
+static uint32_t ToUInt32(::bs_hook::Il2CppWrapperType value, System::IFormatProvider provider) ;
 
 /// @brief Method ToUInt32 addr 0x23b6770 size 0x8 virtual false final false
 static uint32_t ToUInt32(bool value) ;
@@ -515,16 +514,16 @@ static uint32_t ToUInt32(float_t value) ;
 static uint32_t ToUInt32(double_t value) ;
 
 /// @brief Method ToUInt32 addr 0x23bee20 size 0x74 virtual false final false
-static uint32_t ToUInt32(::System::Decimal value) ;
+static uint32_t ToUInt32(System::Decimal value) ;
 
 /// @brief Method ToUInt32 addr 0x23bee94 size 0x18 virtual false final false
-static uint32_t ToUInt32(::StringW value, ::System::IFormatProvider provider) ;
+static uint32_t ToUInt32(::StringW value, System::IFormatProvider provider) ;
 
 /// @brief Method ToInt64 addr 0x23beeac size 0xf4 virtual false final false
 static int64_t ToInt64(::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method ToInt64 addr 0x23befa0 size 0x104 virtual false final false
-static int64_t ToInt64(::bs_hook::Il2CppWrapperType value, ::System::IFormatProvider provider) ;
+static int64_t ToInt64(::bs_hook::Il2CppWrapperType value, System::IFormatProvider provider) ;
 
 /// @brief Method ToInt64 addr 0x23b67d4 size 0x8 virtual false final false
 static int64_t ToInt64(bool value) ;
@@ -560,19 +559,19 @@ static int64_t ToInt64(float_t value) ;
 static int64_t ToInt64(double_t value) ;
 
 /// @brief Method ToInt64 addr 0x23bf28c size 0x74 virtual false final false
-static int64_t ToInt64(::System::Decimal value) ;
+static int64_t ToInt64(System::Decimal value) ;
 
 /// @brief Method ToInt64 addr 0x23bf300 size 0x78 virtual false final false
 static int64_t ToInt64(::StringW value) ;
 
 /// @brief Method ToInt64 addr 0x23bf378 size 0x18 virtual false final false
-static int64_t ToInt64(::StringW value, ::System::IFormatProvider provider) ;
+static int64_t ToInt64(::StringW value, System::IFormatProvider provider) ;
 
 /// @brief Method ToUInt64 addr 0x23bf390 size 0xf4 virtual false final false
 static uint64_t ToUInt64(::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method ToUInt64 addr 0x23bf484 size 0x104 virtual false final false
-static uint64_t ToUInt64(::bs_hook::Il2CppWrapperType value, ::System::IFormatProvider provider) ;
+static uint64_t ToUInt64(::bs_hook::Il2CppWrapperType value, System::IFormatProvider provider) ;
 
 /// @brief Method ToUInt64 addr 0x23b6838 size 0x8 virtual false final false
 static uint64_t ToUInt64(bool value) ;
@@ -608,16 +607,16 @@ static uint64_t ToUInt64(float_t value) ;
 static uint64_t ToUInt64(double_t value) ;
 
 /// @brief Method ToUInt64 addr 0x23bf848 size 0x74 virtual false final false
-static uint64_t ToUInt64(::System::Decimal value) ;
+static uint64_t ToUInt64(System::Decimal value) ;
 
 /// @brief Method ToUInt64 addr 0x23bf8bc size 0x18 virtual false final false
-static uint64_t ToUInt64(::StringW value, ::System::IFormatProvider provider) ;
+static uint64_t ToUInt64(::StringW value, System::IFormatProvider provider) ;
 
 /// @brief Method ToSingle addr 0x23bf8d4 size 0xf4 virtual false final false
 static float_t ToSingle(::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method ToSingle addr 0x23bf9c8 size 0x104 virtual false final false
-static float_t ToSingle(::bs_hook::Il2CppWrapperType value, ::System::IFormatProvider provider) ;
+static float_t ToSingle(::bs_hook::Il2CppWrapperType value, System::IFormatProvider provider) ;
 
 /// @brief Method ToSingle addr 0x23bfacc size 0xc virtual false final false
 static float_t ToSingle(int8_t value) ;
@@ -647,13 +646,13 @@ static float_t ToSingle(uint64_t value) ;
 static float_t ToSingle(double_t value) ;
 
 /// @brief Method ToSingle addr 0x23bfb20 size 0x68 virtual false final false
-static float_t ToSingle(::System::Decimal value) ;
+static float_t ToSingle(System::Decimal value) ;
 
 /// @brief Method ToSingle addr 0x23bfb88 size 0x78 virtual false final false
 static float_t ToSingle(::StringW value) ;
 
 /// @brief Method ToSingle addr 0x23bfc00 size 0x1c virtual false final false
-static float_t ToSingle(::StringW value, ::System::IFormatProvider provider) ;
+static float_t ToSingle(::StringW value, System::IFormatProvider provider) ;
 
 /// @brief Method ToSingle addr 0x23b68a4 size 0x14 virtual false final false
 static float_t ToSingle(bool value) ;
@@ -662,7 +661,7 @@ static float_t ToSingle(bool value) ;
 static double_t ToDouble(::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method ToDouble addr 0x23bfd10 size 0x104 virtual false final false
-static double_t ToDouble(::bs_hook::Il2CppWrapperType value, ::System::IFormatProvider provider) ;
+static double_t ToDouble(::bs_hook::Il2CppWrapperType value, System::IFormatProvider provider) ;
 
 /// @brief Method ToDouble addr 0x23bfe14 size 0xc virtual false final false
 static double_t ToDouble(int8_t value) ;
@@ -692,73 +691,73 @@ static double_t ToDouble(uint64_t value) ;
 static double_t ToDouble(float_t value) ;
 
 /// @brief Method ToDouble addr 0x23bfe60 size 0x68 virtual false final false
-static double_t ToDouble(::System::Decimal value) ;
+static double_t ToDouble(System::Decimal value) ;
 
 /// @brief Method ToDouble addr 0x23bfec8 size 0x1c virtual false final false
-static double_t ToDouble(::StringW value, ::System::IFormatProvider provider) ;
+static double_t ToDouble(::StringW value, System::IFormatProvider provider) ;
 
 /// @brief Method ToDouble addr 0x23b691c size 0x14 virtual false final false
 static double_t ToDouble(bool value) ;
 
 /// @brief Method ToDecimal addr 0x23bfee4 size 0x128 virtual false final false
-static ::System::Decimal ToDecimal(::bs_hook::Il2CppWrapperType value, ::System::IFormatProvider provider) ;
+static System::Decimal ToDecimal(::bs_hook::Il2CppWrapperType value, System::IFormatProvider provider) ;
 
 /// @brief Method ToDecimal addr 0x23c000c size 0x58 virtual false final false
-static ::System::Decimal ToDecimal(int8_t value) ;
+static System::Decimal ToDecimal(int8_t value) ;
 
 /// @brief Method ToDecimal addr 0x23b8678 size 0x58 virtual false final false
-static ::System::Decimal ToDecimal(uint8_t value) ;
+static System::Decimal ToDecimal(uint8_t value) ;
 
 /// @brief Method ToDecimal addr 0x23c0064 size 0x58 virtual false final false
-static ::System::Decimal ToDecimal(int16_t value) ;
+static System::Decimal ToDecimal(int16_t value) ;
 
 /// @brief Method ToDecimal addr 0x23c00bc size 0x58 virtual false final false
-static ::System::Decimal ToDecimal(uint16_t value) ;
+static System::Decimal ToDecimal(uint16_t value) ;
 
 /// @brief Method ToDecimal addr 0x23c0114 size 0x58 virtual false final false
-static ::System::Decimal ToDecimal(int32_t value) ;
+static System::Decimal ToDecimal(int32_t value) ;
 
 /// @brief Method ToDecimal addr 0x23c016c size 0x58 virtual false final false
-static ::System::Decimal ToDecimal(uint32_t value) ;
+static System::Decimal ToDecimal(uint32_t value) ;
 
 /// @brief Method ToDecimal addr 0x23c01c4 size 0x58 virtual false final false
-static ::System::Decimal ToDecimal(int64_t value) ;
+static System::Decimal ToDecimal(int64_t value) ;
 
 /// @brief Method ToDecimal addr 0x23c021c size 0x58 virtual false final false
-static ::System::Decimal ToDecimal(uint64_t value) ;
+static System::Decimal ToDecimal(uint64_t value) ;
 
 /// @brief Method ToDecimal addr 0x23c0274 size 0x60 virtual false final false
-static ::System::Decimal ToDecimal(float_t value) ;
+static System::Decimal ToDecimal(float_t value) ;
 
 /// @brief Method ToDecimal addr 0x23c02d4 size 0x60 virtual false final false
-static ::System::Decimal ToDecimal(double_t value) ;
+static System::Decimal ToDecimal(double_t value) ;
 
 /// @brief Method ToDecimal addr 0x23c0334 size 0x88 virtual false final false
-static ::System::Decimal ToDecimal(::StringW value, ::System::IFormatProvider provider) ;
+static System::Decimal ToDecimal(::StringW value, System::IFormatProvider provider) ;
 
 /// @brief Method ToDecimal addr 0x23b698c size 0x5c virtual false final false
-static ::System::Decimal ToDecimal(bool value) ;
+static System::Decimal ToDecimal(bool value) ;
 
 /// @brief Method ToDateTime addr 0x23c03bc size 0x130 virtual false final false
-static ::System::DateTime ToDateTime(::bs_hook::Il2CppWrapperType value, ::System::IFormatProvider provider) ;
+static System::DateTime ToDateTime(::bs_hook::Il2CppWrapperType value, System::IFormatProvider provider) ;
 
 /// @brief Method ToDateTime addr 0x23c04ec size 0x90 virtual false final false
-static ::System::DateTime ToDateTime(::StringW value, ::System::IFormatProvider provider) ;
+static System::DateTime ToDateTime(::StringW value, System::IFormatProvider provider) ;
 
 /// @brief Method ToString addr 0x23c057c size 0x1a0 virtual false final false
-static ::StringW ToString(::bs_hook::Il2CppWrapperType value, ::System::IFormatProvider provider) ;
+static ::StringW ToString(::bs_hook::Il2CppWrapperType value, System::IFormatProvider provider) ;
 
 /// @brief Method ToString addr 0x23c071c size 0x1c virtual false final false
 static ::StringW ToString(bool value) ;
 
 /// @brief Method ToString addr 0x23c0738 size 0x18 virtual false final false
-static ::StringW ToString(char16_t value, ::System::IFormatProvider provider) ;
+static ::StringW ToString(char16_t value, System::IFormatProvider provider) ;
 
 /// @brief Method ToString addr 0x23c0750 size 0x68 virtual false final false
 static ::StringW ToString(int32_t value) ;
 
 /// @brief Method ToString addr 0x23c07b8 size 0x1c virtual false final false
-static ::StringW ToString(int32_t value, ::System::IFormatProvider provider) ;
+static ::StringW ToString(int32_t value, System::IFormatProvider provider) ;
 
 /// @brief Method ToString addr 0x23c07d4 size 0x68 virtual false final false
 static ::StringW ToString(int64_t value) ;
@@ -803,16 +802,16 @@ static ::StringW ToBase64String(::ArrayW<uint8_t> inArray) ;
 static ::StringW ToBase64String(::ArrayW<uint8_t> inArray, int32_t offset, int32_t length) ;
 
 /// @brief Method ToBase64String addr 0x23c143c size 0x1b4 virtual false final false
-static ::StringW ToBase64String(::ArrayW<uint8_t> inArray, int32_t offset, int32_t length, ::System::Base64FormattingOptions options) ;
+static ::StringW ToBase64String(::ArrayW<uint8_t> inArray, int32_t offset, int32_t length, System::Base64FormattingOptions options) ;
 
 /// @brief Method ToBase64String addr 0x23c1218 size 0x1b4 virtual false final false
-static ::StringW ToBase64String(::System::ReadOnlySpan_1<uint8_t> bytes, ::System::Base64FormattingOptions options) ;
+static ::StringW ToBase64String(System::ReadOnlySpan_1<uint8_t> bytes, System::Base64FormattingOptions options) ;
 
 /// @brief Method ToBase64CharArray addr 0x23c18ec size 0x88 virtual false final false
 static int32_t ToBase64CharArray(::ArrayW<uint8_t> inArray, int32_t offsetIn, int32_t length, ::ArrayW<char16_t> outArray, int32_t offsetOut) ;
 
 /// @brief Method ToBase64CharArray addr 0x23c1974 size 0x32c virtual false final false
-static int32_t ToBase64CharArray(::ArrayW<uint8_t> inArray, int32_t offsetIn, int32_t length, ::ArrayW<char16_t> outArray, int32_t offsetOut, ::System::Base64FormattingOptions options) ;
+static int32_t ToBase64CharArray(::ArrayW<uint8_t> inArray, int32_t offsetIn, int32_t length, ::ArrayW<char16_t> outArray, int32_t offsetOut, System::Base64FormattingOptions options) ;
 
 /// @brief Method ConvertToBase64Array addr 0x23c16a8 size 0x244 virtual false final false
 static int32_t ConvertToBase64Array(void* outChars, void* inData, int32_t offset, int32_t length, bool insertLineBreaks) ;
@@ -824,10 +823,10 @@ static int32_t ToBase64_CalculateAndValidateOutputLength(int32_t inputLength, bo
 static ::ArrayW<uint8_t> FromBase64String(::StringW s) ;
 
 /// @brief Method TryFromBase64Chars addr 0x23c1f00 size 0x4f8 virtual false final false
-static bool TryFromBase64Chars(::System::ReadOnlySpan_1<char16_t> chars, ::System::Span_1<uint8_t> bytes, ByRef<int32_t> bytesWritten) ;
+static bool TryFromBase64Chars(System::ReadOnlySpan_1<char16_t> chars, System::Span_1<uint8_t> bytes, ByRef<int32_t> bytesWritten) ;
 
 /// @brief Method CopyToTempBufferWithoutWhiteSpace addr 0x23c23f8 size 0x120 virtual false final false
-static void CopyToTempBufferWithoutWhiteSpace(::System::ReadOnlySpan_1<char16_t> chars, ::System::Span_1<char16_t> tempBuffer, ByRef<int32_t> consumed, ByRef<int32_t> charsWritten) ;
+static void CopyToTempBufferWithoutWhiteSpace(System::ReadOnlySpan_1<char16_t> chars, System::Span_1<char16_t> tempBuffer, ByRef<int32_t> consumed, ByRef<int32_t> charsWritten) ;
 
 /// @brief Method IsSpace addr 0x23c2518 size 0x38 virtual false final false
 static bool IsSpace(char16_t c) ;
@@ -845,6 +844,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::Convert);
-DEFINE_IL2CPP_ARG_TYPE(::System::Convert, "System", "Convert");
+NEED_NO_BOX(System::Convert);
+DEFINE_IL2CPP_ARG_TYPE(System::Convert, "System", "Convert");

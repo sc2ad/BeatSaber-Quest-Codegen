@@ -3,7 +3,6 @@
 #include "HMUI/zzzz__TableCell_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Color;
 }
@@ -23,7 +22,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13715))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5523))
 // CS Name: LeaderboardTableCell
-class CORDL_TYPE LeaderboardTableCell : public ::HMUI::TableCell {
+class CORDL_TYPE LeaderboardTableCell : public HMUI::TableCell {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr LeaderboardTableCell(LeaderboardTableCell const& ) noexcept = default;
 constexpr LeaderboardTableCell(LeaderboardTableCell&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LeaderboardTableCell(void* ptr) noexcept : ::HMUI::TableCell(ptr) {
+constexpr explicit LeaderboardTableCell(void* ptr) noexcept : HMUI::TableCell(ptr) {
 }
 
 
@@ -59,47 +58,47 @@ constexpr explicit LeaderboardTableCell(void* ptr) noexcept : ::HMUI::TableCell(
 
 // Fields
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__rankText, put=__set__rankText))  _rankText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__rankText, put=__set__rankText))  _rankText;
 
-constexpr void __set__rankText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__rankText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__rankText() const;
+constexpr TMPro::TextMeshProUGUI __get__rankText() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__playerNameText, put=__set__playerNameText))  _playerNameText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__playerNameText, put=__set__playerNameText))  _playerNameText;
 
-constexpr void __set__playerNameText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__playerNameText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__playerNameText() const;
+constexpr TMPro::TextMeshProUGUI __get__playerNameText() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__scoreText, put=__set__scoreText))  _scoreText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__scoreText, put=__set__scoreText))  _scoreText;
 
-constexpr void __set__scoreText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__scoreText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__scoreText() const;
+constexpr TMPro::TextMeshProUGUI __get__scoreText() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__fullComboText, put=__set__fullComboText))  _fullComboText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__fullComboText, put=__set__fullComboText))  _fullComboText;
 
-constexpr void __set__fullComboText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__fullComboText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__fullComboText() const;
+constexpr TMPro::TextMeshProUGUI __get__fullComboText() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__normalColor, put=__set__normalColor))  _normalColor;
+ UnityEngine::Color __declspec(property(get=__get__normalColor, put=__set__normalColor))  _normalColor;
 
-constexpr void __set__normalColor(::UnityEngine::Color value) ;
+constexpr void __set__normalColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__normalColor() const;
+constexpr UnityEngine::Color __get__normalColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__specialScoreColor, put=__set__specialScoreColor))  _specialScoreColor;
+ UnityEngine::Color __declspec(property(get=__get__specialScoreColor, put=__set__specialScoreColor))  _specialScoreColor;
 
-constexpr void __set__specialScoreColor(::UnityEngine::Color value) ;
+constexpr void __set__specialScoreColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__specialScoreColor() const;
+constexpr UnityEngine::Color __get__specialScoreColor() const;
 
- ::UnityEngine::UI::Image __declspec(property(get=__get__separatorImage, put=__set__separatorImage))  _separatorImage;
+ UnityEngine::UI::Image __declspec(property(get=__get__separatorImage, put=__set__separatorImage))  _separatorImage;
 
-constexpr void __set__separatorImage(::UnityEngine::UI::Image value) ;
+constexpr void __set__separatorImage(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get__separatorImage() const;
+constexpr UnityEngine::UI::Image __get__separatorImage() const;
 
 
 // Properties
@@ -147,6 +146,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LeaderboardTableCell);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LeaderboardTableCell, "", "LeaderboardTableCell");
+NEED_NO_BOX(GlobalNamespace::LeaderboardTableCell);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardTableCell, "", "LeaderboardTableCell");

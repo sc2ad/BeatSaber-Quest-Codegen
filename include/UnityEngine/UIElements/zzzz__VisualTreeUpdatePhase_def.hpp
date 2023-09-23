@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 struct VisualTreeUpdatePhase;
@@ -73,32 +72,31 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field ViewData offset 0
-static ::UnityEngine::UIElements::VisualTreeUpdatePhase const ViewData;
+static UnityEngine::UIElements::VisualTreeUpdatePhase const ViewData;
 
 /// @brief Field Bindings offset 0
-static ::UnityEngine::UIElements::VisualTreeUpdatePhase const Bindings;
+static UnityEngine::UIElements::VisualTreeUpdatePhase const Bindings;
 
 /// @brief Field Animation offset 0
-static ::UnityEngine::UIElements::VisualTreeUpdatePhase const Animation;
+static UnityEngine::UIElements::VisualTreeUpdatePhase const Animation;
 
 /// @brief Field Styles offset 0
-static ::UnityEngine::UIElements::VisualTreeUpdatePhase const Styles;
+static UnityEngine::UIElements::VisualTreeUpdatePhase const Styles;
 
 /// @brief Field Layout offset 0
-static ::UnityEngine::UIElements::VisualTreeUpdatePhase const Layout;
+static UnityEngine::UIElements::VisualTreeUpdatePhase const Layout;
 
 /// @brief Field TransformClip offset 0
-static ::UnityEngine::UIElements::VisualTreeUpdatePhase const TransformClip;
+static UnityEngine::UIElements::VisualTreeUpdatePhase const TransformClip;
 
 /// @brief Field Repaint offset 0
-static ::UnityEngine::UIElements::VisualTreeUpdatePhase const Repaint;
+static UnityEngine::UIElements::VisualTreeUpdatePhase const Repaint;
 
 /// @brief Field Count offset 0
-static ::UnityEngine::UIElements::VisualTreeUpdatePhase const Count;
+static UnityEngine::UIElements::VisualTreeUpdatePhase const Count;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::VisualTreeUpdatePhase, "UnityEngine.UIElements", "VisualTreeUpdatePhase");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::VisualTreeUpdatePhase, "UnityEngine.UIElements", "VisualTreeUpdatePhase");

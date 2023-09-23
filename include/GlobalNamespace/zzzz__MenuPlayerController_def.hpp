@@ -1,18 +1,17 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class Transform;
-}
 namespace GlobalNamespace {
 class VRController;
 }
 namespace UnityEngine {
 struct Quaternion;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,7 +23,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5624))
 // CS Name: MenuPlayerController
-class CORDL_TYPE MenuPlayerController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MenuPlayerController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr MenuPlayerController(MenuPlayerController const& ) noexcept = default;
 constexpr MenuPlayerController(MenuPlayerController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MenuPlayerController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MenuPlayerController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -60,49 +59,49 @@ constexpr explicit MenuPlayerController(void* ptr) noexcept : ::UnityEngine::Mon
 
 // Fields
 
- ::GlobalNamespace::VRController __declspec(property(get=__get__leftController, put=__set__leftController))  _leftController;
+ GlobalNamespace::VRController __declspec(property(get=__get__leftController, put=__set__leftController))  _leftController;
 
-constexpr void __set__leftController(::GlobalNamespace::VRController value) ;
+constexpr void __set__leftController(GlobalNamespace::VRController value) ;
 
-constexpr ::GlobalNamespace::VRController __get__leftController() const;
+constexpr GlobalNamespace::VRController __get__leftController() const;
 
- ::GlobalNamespace::VRController __declspec(property(get=__get__rightController, put=__set__rightController))  _rightController;
+ GlobalNamespace::VRController __declspec(property(get=__get__rightController, put=__set__rightController))  _rightController;
 
-constexpr void __set__rightController(::GlobalNamespace::VRController value) ;
+constexpr void __set__rightController(GlobalNamespace::VRController value) ;
 
-constexpr ::GlobalNamespace::VRController __get__rightController() const;
+constexpr GlobalNamespace::VRController __get__rightController() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__headTransform, put=__set__headTransform))  _headTransform;
+ UnityEngine::Transform __declspec(property(get=__get__headTransform, put=__set__headTransform))  _headTransform;
 
-constexpr void __set__headTransform(::UnityEngine::Transform value) ;
+constexpr void __set__headTransform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__headTransform() const;
+constexpr UnityEngine::Transform __get__headTransform() const;
 
 
 // Properties
 
- ::GlobalNamespace::VRController __declspec(property(get=get_leftController))  leftController;
+ GlobalNamespace::VRController __declspec(property(get=get_leftController))  leftController;
 
- ::GlobalNamespace::VRController __declspec(property(get=get_rightController))  rightController;
+ GlobalNamespace::VRController __declspec(property(get=get_rightController))  rightController;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_headPos))  headPos;
+ UnityEngine::Vector3 __declspec(property(get=get_headPos))  headPos;
 
- ::UnityEngine::Quaternion __declspec(property(get=get_headRot))  headRot;
+ UnityEngine::Quaternion __declspec(property(get=get_headRot))  headRot;
 
 
 // Methods
 
 /// @brief Method get_leftController addr 0x2147128 size 0x8 virtual false final false
- ::GlobalNamespace::VRController get_leftController() ;
+ GlobalNamespace::VRController get_leftController() ;
 
 /// @brief Method get_rightController addr 0x2147130 size 0x8 virtual false final false
- ::GlobalNamespace::VRController get_rightController() ;
+ GlobalNamespace::VRController get_rightController() ;
 
 /// @brief Method get_headPos addr 0x2147138 size 0x1c virtual false final false
- ::UnityEngine::Vector3 get_headPos() ;
+ UnityEngine::Vector3 get_headPos() ;
 
 /// @brief Method get_headRot addr 0x2147154 size 0x1c virtual false final false
- ::UnityEngine::Quaternion get_headRot() ;
+ UnityEngine::Quaternion get_headRot() ;
 
 // Ctor Parameters []
 explicit MenuPlayerController() ;
@@ -114,6 +113,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MenuPlayerController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MenuPlayerController, "", "MenuPlayerController");
+NEED_NO_BOX(GlobalNamespace::MenuPlayerController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuPlayerController, "", "MenuPlayerController");

@@ -1,19 +1,18 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace Zenject {
-class InjectTypeInfo;
-}
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace Zenject {
+class NoTransitionInstaller;
+}
+namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-class NoTransitionInstaller;
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -25,7 +24,7 @@ namespace Zenject {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11117))
 // CS Name: Zenject.NoTransitionContext
-class CORDL_TYPE NoTransitionContext : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE NoTransitionContext : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr NoTransitionContext(NoTransitionContext const& ) noexcept = default;
 constexpr NoTransitionContext(NoTransitionContext&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NoTransitionContext(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit NoTransitionContext(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -61,27 +60,27 @@ constexpr explicit NoTransitionContext(void* ptr) noexcept : ::UnityEngine::Mono
 
 // Fields
 
- ::Zenject::NoTransitionInstaller __declspec(property(get=__get__noScenesTransitionInstaller, put=__set__noScenesTransitionInstaller))  _noScenesTransitionInstaller;
+ Zenject::NoTransitionInstaller __declspec(property(get=__get__noScenesTransitionInstaller, put=__set__noScenesTransitionInstaller))  _noScenesTransitionInstaller;
 
-constexpr void __set__noScenesTransitionInstaller(::Zenject::NoTransitionInstaller value) ;
+constexpr void __set__noScenesTransitionInstaller(Zenject::NoTransitionInstaller value) ;
 
-constexpr ::Zenject::NoTransitionInstaller __get__noScenesTransitionInstaller() const;
+constexpr Zenject::NoTransitionInstaller __get__noScenesTransitionInstaller() const;
 
 
 // Properties
 
- ::System::Action_1<::Zenject::DiContainer> __declspec(property(get=get_installMethod))  installMethod;
+ System::Action_1<Zenject::DiContainer> __declspec(property(get=get_installMethod))  installMethod;
 
- ::System::Action_1<::Zenject::DiContainer> __declspec(property(get=get_postInstallMethod))  postInstallMethod;
+ System::Action_1<Zenject::DiContainer> __declspec(property(get=get_postInstallMethod))  postInstallMethod;
 
 
 // Methods
 
 /// @brief Method get_installMethod addr 0x2d8b48c size 0x74 virtual false final false
- ::System::Action_1<::Zenject::DiContainer> get_installMethod() ;
+ System::Action_1<Zenject::DiContainer> get_installMethod() ;
 
 /// @brief Method get_postInstallMethod addr 0x2d8b500 size 0x74 virtual false final false
- ::System::Action_1<::Zenject::DiContainer> get_postInstallMethod() ;
+ System::Action_1<Zenject::DiContainer> get_postInstallMethod() ;
 
 /// @brief Method Awake addr 0x2d8b574 size 0x78 virtual false final false
  void Awake() ;
@@ -93,12 +92,11 @@ explicit NoTransitionContext() ;
  void _ctor() ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x2d8b5f4 size 0x178 virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::NoTransitionContext);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::NoTransitionContext, "Zenject", "NoTransitionContext");
+NEED_NO_BOX(Zenject::NoTransitionContext);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::NoTransitionContext, "Zenject", "NoTransitionContext");

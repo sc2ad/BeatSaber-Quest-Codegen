@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System::Net {
 struct CookieToken;
 }
@@ -14,7 +13,7 @@ namespace System::Net {
 class CookieTokenizer;
 }
 namespace System::Net {
-struct ____System__Net__CookieTokenizer__RecognizedAttribute;
+struct System__Net__CookieTokenizer__RecognizedAttribute;
 }
 // Type: ::RecognizedAttribute
 namespace System::Net {
@@ -22,20 +21,20 @@ namespace System::Net {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7973))
 // CS Name: System.Net.CookieTokenizer::RecognizedAttribute
-struct CORDL_TYPE ____System__Net__CookieTokenizer__RecognizedAttribute : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE System__Net__CookieTokenizer__RecognizedAttribute : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "m_name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_token", ty: "::System::Net::CookieToken", modifiers: "", def_value: None }]
-constexpr ____System__Net__CookieTokenizer__RecognizedAttribute(::StringW m_name, ::System::Net::CookieToken m_token) noexcept;
+// Ctor Parameters [CppParam { name: "m_name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_token", ty: "System::Net::CookieToken", modifiers: "", def_value: None }]
+constexpr System__Net__CookieTokenizer__RecognizedAttribute(::StringW m_name, System::Net::CookieToken m_token) noexcept;
 
 
-                    constexpr ____System__Net__CookieTokenizer__RecognizedAttribute(____System__Net__CookieTokenizer__RecognizedAttribute const&) = default;
-                    constexpr ____System__Net__CookieTokenizer__RecognizedAttribute(____System__Net__CookieTokenizer__RecognizedAttribute&&) = default;
-                    constexpr ____System__Net__CookieTokenizer__RecognizedAttribute& operator=(____System__Net__CookieTokenizer__RecognizedAttribute const& o) {
+                    constexpr System__Net__CookieTokenizer__RecognizedAttribute(System__Net__CookieTokenizer__RecognizedAttribute const&) = default;
+                    constexpr System__Net__CookieTokenizer__RecognizedAttribute(System__Net__CookieTokenizer__RecognizedAttribute&&) = default;
+                    constexpr System__Net__CookieTokenizer__RecognizedAttribute& operator=(System__Net__CookieTokenizer__RecognizedAttribute const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Net__CookieTokenizer__RecognizedAttribute& operator=(____System__Net__CookieTokenizer__RecognizedAttribute&& o) noexcept {
+                    constexpr System__Net__CookieTokenizer__RecognizedAttribute& operator=(System__Net__CookieTokenizer__RecognizedAttribute&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -48,7 +47,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x10};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Net__CookieTokenizer__RecognizedAttribute(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Net__CookieTokenizer__RecognizedAttribute(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -65,25 +64,25 @@ constexpr void __set_m_name(::StringW value) ;
 
 constexpr ::StringW __get_m_name() const;
 
- ::System::Net::CookieToken __declspec(property(get=__get_m_token, put=__set_m_token))  m_token;
+ System::Net::CookieToken __declspec(property(get=__get_m_token, put=__set_m_token))  m_token;
 
-constexpr void __set_m_token(::System::Net::CookieToken value) ;
+constexpr void __set_m_token(System::Net::CookieToken value) ;
 
-constexpr ::System::Net::CookieToken __get_m_token() const;
+constexpr System::Net::CookieToken __get_m_token() const;
 
 
 // Properties
 
- ::System::Net::CookieToken __declspec(property(get=get_Token))  Token;
+ System::Net::CookieToken __declspec(property(get=get_Token))  Token;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x281bf68 size 0xc virtual false final false
- void _ctor(::StringW name, ::System::Net::CookieToken token) ;
+ void _ctor(::StringW name, System::Net::CookieToken token) ;
 
 /// @brief Method get_Token addr 0x281bf74 size 0x8 virtual false final false
- ::System::Net::CookieToken get_Token() ;
+ System::Net::CookieToken get_Token() ;
 
 /// @brief Method IsEqualTo addr 0x281bc34 size 0x24 virtual false final false
  bool IsEqualTo(::StringW value) ;
@@ -101,7 +100,7 @@ namespace System::Net {
 class CORDL_TYPE CookieTokenizer : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using RecognizedAttribute = ::System::Net::____System__Net__CookieTokenizer__RecognizedAttribute;
+using RecognizedAttribute = System::Net::System__Net__CookieTokenizer__RecognizedAttribute;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
@@ -172,11 +171,11 @@ constexpr void __set_m_start(int32_t value) ;
 
 constexpr int32_t __get_m_start() const;
 
- ::System::Net::CookieToken __declspec(property(get=__get_m_token, put=__set_m_token))  m_token;
+ System::Net::CookieToken __declspec(property(get=__get_m_token, put=__set_m_token))  m_token;
 
-constexpr void __set_m_token(::System::Net::CookieToken value) ;
+constexpr void __set_m_token(System::Net::CookieToken value) ;
 
-constexpr ::System::Net::CookieToken __get_m_token() const;
+constexpr System::Net::CookieToken __get_m_token() const;
 
  int32_t __declspec(property(get=__get_m_tokenLength, put=__set_m_tokenLength))  m_tokenLength;
 
@@ -196,17 +195,17 @@ constexpr void __set_m_value(::StringW value) ;
 
 constexpr ::StringW __get_m_value() const;
 
-static ::ArrayW<::System::Net::____System__Net__CookieTokenizer__RecognizedAttribute> __declspec(property(get=__get_RecognizedAttributes, put=__set_RecognizedAttributes))  RecognizedAttributes;
+static ::ArrayW<System::Net::System__Net__CookieTokenizer__RecognizedAttribute> __declspec(property(get=__get_RecognizedAttributes, put=__set_RecognizedAttributes))  RecognizedAttributes;
 
-static void __set_RecognizedAttributes(::ArrayW<::System::Net::____System__Net__CookieTokenizer__RecognizedAttribute> value) ;
+static void __set_RecognizedAttributes(::ArrayW<System::Net::System__Net__CookieTokenizer__RecognizedAttribute> value) ;
 
-static ::ArrayW<::System::Net::____System__Net__CookieTokenizer__RecognizedAttribute> __get_RecognizedAttributes() ;
+static ::ArrayW<System::Net::System__Net__CookieTokenizer__RecognizedAttribute> __get_RecognizedAttributes() ;
 
-static ::ArrayW<::System::Net::____System__Net__CookieTokenizer__RecognizedAttribute> __declspec(property(get=__get_RecognizedServerAttributes, put=__set_RecognizedServerAttributes))  RecognizedServerAttributes;
+static ::ArrayW<System::Net::System__Net__CookieTokenizer__RecognizedAttribute> __declspec(property(get=__get_RecognizedServerAttributes, put=__set_RecognizedServerAttributes))  RecognizedServerAttributes;
 
-static void __set_RecognizedServerAttributes(::ArrayW<::System::Net::____System__Net__CookieTokenizer__RecognizedAttribute> value) ;
+static void __set_RecognizedServerAttributes(::ArrayW<System::Net::System__Net__CookieTokenizer__RecognizedAttribute> value) ;
 
-static ::ArrayW<::System::Net::____System__Net__CookieTokenizer__RecognizedAttribute> __get_RecognizedServerAttributes() ;
+static ::ArrayW<System::Net::System__Net__CookieTokenizer__RecognizedAttribute> __get_RecognizedServerAttributes() ;
 
 
 // Properties
@@ -219,7 +218,7 @@ static ::ArrayW<::System::Net::____System__Net__CookieTokenizer__RecognizedAttri
 
  bool __declspec(property(get=get_Quoted, put=set_Quoted))  Quoted;
 
- ::System::Net::CookieToken __declspec(property(get=get_Token, put=set_Token))  Token;
+ System::Net::CookieToken __declspec(property(get=get_Token, put=set_Token))  Token;
 
  ::StringW __declspec(property(get=get_Value, put=set_Value))  Value;
 
@@ -254,10 +253,10 @@ explicit CookieTokenizer(::StringW tokenStream) ;
  void set_Quoted(bool value) ;
 
 /// @brief Method get_Token addr 0x281b5c4 size 0x8 virtual false final false
- ::System::Net::CookieToken get_Token() ;
+ System::Net::CookieToken get_Token() ;
 
 /// @brief Method set_Token addr 0x281b5cc size 0x8 virtual false final false
- void set_Token(::System::Net::CookieToken value) ;
+ void set_Token(System::Net::CookieToken value) ;
 
 /// @brief Method get_Value addr 0x281b5d4 size 0x8 virtual false final false
  ::StringW get_Value() ;
@@ -269,22 +268,21 @@ explicit CookieTokenizer(::StringW tokenStream) ;
  ::StringW Extract() ;
 
 /// @brief Method FindNext addr 0x281b66c size 0x2a4 virtual false final false
- ::System::Net::CookieToken FindNext(bool ignoreComma, bool ignoreEquals) ;
+ System::Net::CookieToken FindNext(bool ignoreComma, bool ignoreEquals) ;
 
 /// @brief Method Next addr 0x281b910 size 0x100 virtual false final false
- ::System::Net::CookieToken Next(bool first, bool parseResponseCookies) ;
+ System::Net::CookieToken Next(bool first, bool parseResponseCookies) ;
 
 /// @brief Method Reset addr 0x281ba10 size 0x68 virtual false final false
  void Reset() ;
 
 /// @brief Method TokenFromName addr 0x281ba78 size 0x1bc virtual false final false
- ::System::Net::CookieToken TokenFromName(bool parseResponseCookies) ;
+ System::Net::CookieToken TokenFromName(bool parseResponseCookies) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::CookieTokenizer);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::CookieTokenizer, "System.Net", "CookieTokenizer");
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::____System__Net__CookieTokenizer__RecognizedAttribute, "System.Net", "CookieTokenizer/RecognizedAttribute");
+NEED_NO_BOX(System::Net::CookieTokenizer);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieTokenizer, "System.Net", "CookieTokenizer");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::System__Net__CookieTokenizer__RecognizedAttribute, "System.Net", "CookieTokenizer/RecognizedAttribute");

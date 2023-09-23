@@ -4,18 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
 namespace System {
 class Exception;
 }
 namespace System::Xml::Schema {
 class XmlSchemaObject;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -27,7 +26,7 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2480))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11668))
 // CS Name: System.Xml.Schema.XmlSchemaException
-class CORDL_TYPE XmlSchemaException : public ::System::SystemException {
+class CORDL_TYPE XmlSchemaException : public System::SystemException {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -42,7 +41,7 @@ constexpr XmlSchemaException(XmlSchemaException const& ) noexcept = default;
 constexpr XmlSchemaException(XmlSchemaException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XmlSchemaException(void* ptr) noexcept : ::System::SystemException(ptr) {
+constexpr explicit XmlSchemaException(void* ptr) noexcept : System::SystemException(ptr) {
 }
 
 
@@ -93,11 +92,11 @@ constexpr void __set_linePosition(int32_t value) ;
 
 constexpr int32_t __get_linePosition() const;
 
- ::System::Xml::Schema::XmlSchemaObject __declspec(property(get=__get_sourceSchemaObject, put=__set_sourceSchemaObject))  sourceSchemaObject;
+ System::Xml::Schema::XmlSchemaObject __declspec(property(get=__get_sourceSchemaObject, put=__set_sourceSchemaObject))  sourceSchemaObject;
 
-constexpr void __set_sourceSchemaObject(::System::Xml::Schema::XmlSchemaObject value) ;
+constexpr void __set_sourceSchemaObject(System::Xml::Schema::XmlSchemaObject value) ;
 
-constexpr ::System::Xml::Schema::XmlSchemaObject __get_sourceSchemaObject() const;
+constexpr System::Xml::Schema::XmlSchemaObject __get_sourceSchemaObject() const;
 
  ::StringW __declspec(property(get=__get_message, put=__set_message))  message;
 
@@ -113,14 +112,14 @@ constexpr ::StringW __get_message() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "info", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit XmlSchemaException(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit XmlSchemaException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x27348d4 size 0x3b8 virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method GetObjectData addr 0x2734d50 size 0x170 virtual true final false
- void GetObjectData(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void GetObjectData(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 // Ctor Parameters []
 explicit XmlSchemaException() ;
@@ -134,17 +133,17 @@ explicit XmlSchemaException(::StringW message) ;
 /// @brief Method .ctor addr 0x2734ed4 size 0x10 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "::System::Exception", modifiers: "", def_value: None }]
-explicit XmlSchemaException(::StringW message, ::System::Exception innerException) ;
+// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
+explicit XmlSchemaException(::StringW message, System::Exception innerException) ;
 
 /// @brief Method .ctor addr 0x272b2e4 size 0xc virtual false final false
- void _ctor(::StringW message, ::System::Exception innerException) ;
+ void _ctor(::StringW message, System::Exception innerException) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "::System::Exception", modifiers: "", def_value: None }, CppParam { name: "lineNumber", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linePosition", ty: "int32_t", modifiers: "", def_value: None }]
-explicit XmlSchemaException(::StringW message, ::System::Exception innerException, int32_t lineNumber, int32_t linePosition) ;
+// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }, CppParam { name: "lineNumber", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linePosition", ty: "int32_t", modifiers: "", def_value: None }]
+explicit XmlSchemaException(::StringW message, System::Exception innerException, int32_t lineNumber, int32_t linePosition) ;
 
 /// @brief Method .ctor addr 0x2734ee4 size 0x124 virtual false final false
- void _ctor(::StringW message, ::System::Exception innerException, int32_t lineNumber, int32_t linePosition) ;
+ void _ctor(::StringW message, System::Exception innerException, int32_t lineNumber, int32_t linePosition) ;
 
 // Ctor Parameters [CppParam { name: "res", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "arg", ty: "::StringW", modifiers: "", def_value: None }]
 explicit XmlSchemaException(::StringW res, ::StringW arg) ;
@@ -158,11 +157,11 @@ explicit XmlSchemaException(::StringW res, ::StringW arg, ::StringW sourceUri, i
 /// @brief Method .ctor addr 0x2735090 size 0xf4 virtual false final false
  void _ctor(::StringW res, ::StringW arg, ::StringW sourceUri, int32_t lineNumber, int32_t linePosition) ;
 
-// Ctor Parameters [CppParam { name: "res", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "args", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "::System::Exception", modifiers: "", def_value: None }, CppParam { name: "sourceUri", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "lineNumber", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linePosition", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "source", ty: "::System::Xml::Schema::XmlSchemaObject", modifiers: "", def_value: None }]
-explicit XmlSchemaException(::StringW res, ::ArrayW<::StringW> args, ::System::Exception innerException, ::StringW sourceUri, int32_t lineNumber, int32_t linePosition, ::System::Xml::Schema::XmlSchemaObject source) ;
+// Ctor Parameters [CppParam { name: "res", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "args", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }, CppParam { name: "sourceUri", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "lineNumber", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linePosition", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "source", ty: "System::Xml::Schema::XmlSchemaObject", modifiers: "", def_value: None }]
+explicit XmlSchemaException(::StringW res, ::ArrayW<::StringW> args, System::Exception innerException, ::StringW sourceUri, int32_t lineNumber, int32_t linePosition, System::Xml::Schema::XmlSchemaObject source) ;
 
 /// @brief Method .ctor addr 0x2735008 size 0x88 virtual false final false
- void _ctor(::StringW res, ::ArrayW<::StringW> args, ::System::Exception innerException, ::StringW sourceUri, int32_t lineNumber, int32_t linePosition, ::System::Xml::Schema::XmlSchemaObject source) ;
+ void _ctor(::StringW res, ::ArrayW<::StringW> args, System::Exception innerException, ::StringW sourceUri, int32_t lineNumber, int32_t linePosition, System::Xml::Schema::XmlSchemaObject source) ;
 
 /// @brief Method CreateMessage addr 0x2734c8c size 0xc4 virtual false final false
 static ::StringW CreateMessage(::StringW res, ::ArrayW<::StringW> args) ;
@@ -174,6 +173,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::XmlSchemaException);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlSchemaException, "System.Xml.Schema", "XmlSchemaException");
+NEED_NO_BOX(System::Xml::Schema::XmlSchemaException);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::XmlSchemaException, "System.Xml.Schema", "XmlSchemaException");

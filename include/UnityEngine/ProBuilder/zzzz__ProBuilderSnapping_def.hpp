@@ -3,22 +3,21 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct Vector3;
+namespace UnityEngine::ProBuilder {
+struct Vector3Mask;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace UnityEngine::ProBuilder {
-struct Vector3Mask;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 struct Ray;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -73,27 +72,26 @@ static constexpr float_t  k_MaxRaySnapDistance{inf};
 // Methods
 
 /// @brief Method IsCardinalDirection addr 0x29cb790 size 0x1e8 virtual false final false
-static bool IsCardinalDirection(::UnityEngine::Vector3 direction) ;
+static bool IsCardinalDirection(UnityEngine::Vector3 direction) ;
 
 /// @brief Method Snap addr 0x29cb978 size 0xa0 virtual false final false
 static float_t Snap(float_t val, float_t snap) ;
 
 /// @brief Method Snap addr 0x29cba18 size 0xa0 virtual false final false
-static ::UnityEngine::Vector3 Snap(::UnityEngine::Vector3 val, ::UnityEngine::Vector3 snap) ;
+static UnityEngine::Vector3 Snap(UnityEngine::Vector3 val, UnityEngine::Vector3 snap) ;
 
 /// @brief Method SnapVertices addr 0x29cbab8 size 0x3d0 virtual false final false
-static void SnapVertices(::UnityEngine::ProBuilder::ProBuilderMesh mesh, ::System::Collections::Generic::IEnumerable_1<int32_t> indexes, ::UnityEngine::Vector3 snap) ;
+static void SnapVertices(UnityEngine::ProBuilder::ProBuilderMesh mesh, System::Collections::Generic::IEnumerable_1<int32_t> indexes, UnityEngine::Vector3 snap) ;
 
 /// @brief Method GetSnappingMaskBasedOnNormalVector addr 0x29cbe88 size 0xd0 virtual false final false
-static ::UnityEngine::Vector3 GetSnappingMaskBasedOnNormalVector(::UnityEngine::Vector3 normal) ;
+static UnityEngine::Vector3 GetSnappingMaskBasedOnNormalVector(UnityEngine::Vector3 normal) ;
 
 /// @brief Method SnapValueOnRay addr 0x29cbf58 size 0x4bc virtual false final false
-static ::UnityEngine::Vector3 SnapValueOnRay(::UnityEngine::Ray ray, float_t distance, float_t snap, ::UnityEngine::ProBuilder::Vector3Mask mask) ;
+static UnityEngine::Vector3 SnapValueOnRay(UnityEngine::Ray ray, float_t distance, float_t snap, UnityEngine::ProBuilder::Vector3Mask mask) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::ProBuilderSnapping);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::ProBuilderSnapping, "UnityEngine.ProBuilder", "ProBuilderSnapping");
+NEED_NO_BOX(UnityEngine::ProBuilder::ProBuilderSnapping);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ProBuilderSnapping, "UnityEngine.ProBuilder", "ProBuilderSnapping");

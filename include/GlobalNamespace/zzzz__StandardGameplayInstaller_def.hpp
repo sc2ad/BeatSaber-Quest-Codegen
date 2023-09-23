@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class StandardGameplaySceneSetupData;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11080))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5489))
 // CS Name: StandardGameplayInstaller
-class CORDL_TYPE StandardGameplayInstaller : public ::Zenject::MonoInstaller {
+class CORDL_TYPE StandardGameplayInstaller : public Zenject::MonoInstaller {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr StandardGameplayInstaller(StandardGameplayInstaller const& ) noexcept 
 constexpr StandardGameplayInstaller(StandardGameplayInstaller&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit StandardGameplayInstaller(void* ptr) noexcept : ::Zenject::MonoInstaller(ptr) {
+constexpr explicit StandardGameplayInstaller(void* ptr) noexcept : Zenject::MonoInstaller(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit StandardGameplayInstaller(void* ptr) noexcept : ::Zenject::Mo
 
 // Fields
 
- ::GlobalNamespace::StandardGameplaySceneSetupData __declspec(property(get=__get__standardSceneSetupData, put=__set__standardSceneSetupData))  _standardSceneSetupData;
+ GlobalNamespace::StandardGameplaySceneSetupData __declspec(property(get=__get__standardSceneSetupData, put=__set__standardSceneSetupData))  _standardSceneSetupData;
 
-constexpr void __set__standardSceneSetupData(::GlobalNamespace::StandardGameplaySceneSetupData value) ;
+constexpr void __set__standardSceneSetupData(GlobalNamespace::StandardGameplaySceneSetupData value) ;
 
-constexpr ::GlobalNamespace::StandardGameplaySceneSetupData __get__standardSceneSetupData() const;
+constexpr GlobalNamespace::StandardGameplaySceneSetupData __get__standardSceneSetupData() const;
 
 
 // Methods
@@ -73,6 +72,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::StandardGameplayInstaller);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StandardGameplayInstaller, "", "StandardGameplayInstaller");
+NEED_NO_BOX(GlobalNamespace::StandardGameplayInstaller);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardGameplayInstaller, "", "StandardGameplayInstaller");

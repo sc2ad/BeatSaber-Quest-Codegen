@@ -3,12 +3,11 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace UnityEngine::UI {
 class Image;
@@ -23,7 +22,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5138))
 // CS Name: MultiplayerLeaderboardPanelItem
-class CORDL_TYPE MultiplayerLeaderboardPanelItem : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerLeaderboardPanelItem : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr MultiplayerLeaderboardPanelItem(MultiplayerLeaderboardPanelItem const&
 constexpr MultiplayerLeaderboardPanelItem(MultiplayerLeaderboardPanelItem&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerLeaderboardPanelItem(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerLeaderboardPanelItem(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -59,53 +58,53 @@ constexpr explicit MultiplayerLeaderboardPanelItem(void* ptr) noexcept : ::Unity
 
 // Fields
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__playerNameText, put=__set__playerNameText))  _playerNameText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__playerNameText, put=__set__playerNameText))  _playerNameText;
 
-constexpr void __set__playerNameText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__playerNameText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__playerNameText() const;
+constexpr TMPro::TextMeshProUGUI __get__playerNameText() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__scoreText, put=__set__scoreText))  _scoreText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__scoreText, put=__set__scoreText))  _scoreText;
 
-constexpr void __set__scoreText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__scoreText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__scoreText() const;
+constexpr TMPro::TextMeshProUGUI __get__scoreText() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__positionText, put=__set__positionText))  _positionText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__positionText, put=__set__positionText))  _positionText;
 
-constexpr void __set__positionText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__positionText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__positionText() const;
+constexpr TMPro::TextMeshProUGUI __get__positionText() const;
 
- ::UnityEngine::UI::Image __declspec(property(get=__get__backgroundImage, put=__set__backgroundImage))  _backgroundImage;
+ UnityEngine::UI::Image __declspec(property(get=__get__backgroundImage, put=__set__backgroundImage))  _backgroundImage;
 
-constexpr void __set__backgroundImage(::UnityEngine::UI::Image value) ;
+constexpr void __set__backgroundImage(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get__backgroundImage() const;
+constexpr UnityEngine::UI::Image __get__backgroundImage() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__normalPlayerTextColor, put=__set__normalPlayerTextColor))  _normalPlayerTextColor;
+ UnityEngine::Color __declspec(property(get=__get__normalPlayerTextColor, put=__set__normalPlayerTextColor))  _normalPlayerTextColor;
 
-constexpr void __set__normalPlayerTextColor(::UnityEngine::Color value) ;
+constexpr void __set__normalPlayerTextColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__normalPlayerTextColor() const;
+constexpr UnityEngine::Color __get__normalPlayerTextColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__failedPlayerTextColor, put=__set__failedPlayerTextColor))  _failedPlayerTextColor;
+ UnityEngine::Color __declspec(property(get=__get__failedPlayerTextColor, put=__set__failedPlayerTextColor))  _failedPlayerTextColor;
 
-constexpr void __set__failedPlayerTextColor(::UnityEngine::Color value) ;
+constexpr void __set__failedPlayerTextColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__failedPlayerTextColor() const;
+constexpr UnityEngine::Color __get__failedPlayerTextColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__firstPlayerBackgroundColor, put=__set__firstPlayerBackgroundColor))  _firstPlayerBackgroundColor;
+ UnityEngine::Color __declspec(property(get=__get__firstPlayerBackgroundColor, put=__set__firstPlayerBackgroundColor))  _firstPlayerBackgroundColor;
 
-constexpr void __set__firstPlayerBackgroundColor(::UnityEngine::Color value) ;
+constexpr void __set__firstPlayerBackgroundColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__firstPlayerBackgroundColor() const;
+constexpr UnityEngine::Color __get__firstPlayerBackgroundColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__lastPlayerBackgroundColor, put=__set__lastPlayerBackgroundColor))  _lastPlayerBackgroundColor;
+ UnityEngine::Color __declspec(property(get=__get__lastPlayerBackgroundColor, put=__set__lastPlayerBackgroundColor))  _lastPlayerBackgroundColor;
 
-constexpr void __set__lastPlayerBackgroundColor(::UnityEngine::Color value) ;
+constexpr void __set__lastPlayerBackgroundColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__lastPlayerBackgroundColor() const;
+constexpr UnityEngine::Color __get__lastPlayerBackgroundColor() const;
 
  int32_t __declspec(property(get=__get__prevPosition, put=__set__prevPosition))  _prevPosition;
 
@@ -161,6 +160,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerLeaderboardPanelItem);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerLeaderboardPanelItem, "", "MultiplayerLeaderboardPanelItem");
+NEED_NO_BOX(GlobalNamespace::MultiplayerLeaderboardPanelItem);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLeaderboardPanelItem, "", "MultiplayerLeaderboardPanelItem");

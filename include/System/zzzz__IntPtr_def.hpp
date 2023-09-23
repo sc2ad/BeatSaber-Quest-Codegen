@@ -4,9 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System::Runtime::Serialization {
 class ISerializable;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System {
 template<typename T>
@@ -14,9 +16,6 @@ class IEquatable_1;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
 }
 // Forward declare root types
 namespace System {
@@ -31,11 +30,11 @@ namespace System {
 struct CORDL_TYPE IntPtr : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::Serialization::ISerializable
-constexpr operator  ::System::Runtime::Serialization::ISerializable() const;
+/// @brief Convert operator to System::Runtime::Serialization::ISerializable
+constexpr operator  System::Runtime::Serialization::ISerializable() const;
 
-/// @brief Convert operator to ::System::IEquatable_1<::cordl_internals::intptr_t>
-constexpr operator  ::System::IEquatable_1<::cordl_internals::intptr_t>() const;
+/// @brief Convert operator to System::IEquatable_1<::cordl_internals::intptr_t>
+constexpr operator  System::IEquatable_1<::cordl_internals::intptr_t>() const;
 
 // Ctor Parameters [CppParam { name: "m_value", ty: "void*", modifiers: "", def_value: None }]
 constexpr IntPtr(void* m_value) noexcept;
@@ -101,13 +100,13 @@ static int32_t __declspec(property(get=get_Size))  Size;
  void _ctor(void* value) ;
 
 /// @brief Method .ctor addr 0x248bc68 size 0x60 virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method get_Size addr 0x248bcc8 size 0x8 virtual false final false
 static int32_t get_Size() ;
 
 /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData addr 0x248bcd0 size 0xa4 virtual true final true
- void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method Equals addr 0x248bd7c size 0x78 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -173,5 +172,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::IntPtr, "System", "IntPtr");
+DEFINE_IL2CPP_ARG_TYPE(System::IntPtr, "System", "IntPtr");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/Security/Principal/zzzz__GenericIdentity_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace System::Net {
 class HttpListenerBasicIdentity;
@@ -13,7 +12,7 @@ namespace System::Net {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2990))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8023))
 // CS Name: System.Net.HttpListenerBasicIdentity
-class CORDL_TYPE HttpListenerBasicIdentity : public ::System::Security::Principal::GenericIdentity {
+class CORDL_TYPE HttpListenerBasicIdentity : public System::Security::Principal::GenericIdentity {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr HttpListenerBasicIdentity(HttpListenerBasicIdentity const& ) noexcept 
 constexpr HttpListenerBasicIdentity(HttpListenerBasicIdentity&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HttpListenerBasicIdentity(void* ptr) noexcept : ::System::Security::Principal::GenericIdentity(ptr) {
+constexpr explicit HttpListenerBasicIdentity(void* ptr) noexcept : System::Security::Principal::GenericIdentity(ptr) {
 }
 
 
@@ -68,6 +67,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::HttpListenerBasicIdentity);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::HttpListenerBasicIdentity, "System.Net", "HttpListenerBasicIdentity");
+NEED_NO_BOX(System::Net::HttpListenerBasicIdentity);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListenerBasicIdentity, "System.Net", "HttpListenerBasicIdentity");

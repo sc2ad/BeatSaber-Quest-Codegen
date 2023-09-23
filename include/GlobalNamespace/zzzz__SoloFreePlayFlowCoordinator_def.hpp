@@ -3,7 +3,9 @@
 #include "GlobalNamespace/zzzz__SinglePlayerLevelSelectionFlowCoordinator_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace GlobalNamespace {
+class ResultsViewController;
+}
 namespace GlobalNamespace {
 class LeaderboardViewController;
 }
@@ -11,10 +13,7 @@ namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
-class PlatformLeaderboardViewController;
-}
-namespace GlobalNamespace {
-class PlatformLeaderboardsModel;
+class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
 class GameplayModifiers;
@@ -23,29 +22,29 @@ namespace GlobalNamespace {
 class PlayerLevelStatsData;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
-class RunLevelMenuDestination;
-}
-namespace GlobalNamespace {
-class LevelCompletionResults;
-}
-namespace GlobalNamespace {
 class MenuLightsManager;
 }
 namespace GlobalNamespace {
 class MenuLightsPresetSO;
 }
 namespace GlobalNamespace {
-class ResultsViewController;
+class RunLevelMenuDestination;
+}
+namespace GlobalNamespace {
+class PlatformLeaderboardViewController;
+}
+namespace GlobalNamespace {
+class PlatformLeaderboardsModel;
+}
+namespace GlobalNamespace {
+class LevelCompletionResults;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-class SoloFreePlayFlowCoordinator;
+class GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0;
+class SoloFreePlayFlowCoordinator;
 }
 // Type: ::<>c__DisplayClass21_0
 namespace GlobalNamespace {
@@ -53,59 +52,59 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5616))
 // CS Name: SoloFreePlayFlowCoordinator::<>c__DisplayClass21_0
-class CORDL_TYPE ____GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0() = default;
+virtual ~GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0(____GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0(GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0(____GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0(GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0& operator=(____GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0&& o) noexcept = default;
-  constexpr ____GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0& operator=(____GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0 const& o) noexcept = default;
+  constexpr GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0& operator=(GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0&& o) noexcept = default;
+  constexpr GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0& operator=(GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::GlobalNamespace::SoloFreePlayFlowCoordinator __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::SoloFreePlayFlowCoordinator __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::SoloFreePlayFlowCoordinator value) ;
+constexpr void __set___4__this(GlobalNamespace::SoloFreePlayFlowCoordinator value) ;
 
-constexpr ::GlobalNamespace::SoloFreePlayFlowCoordinator __get___4__this() const;
+constexpr GlobalNamespace::SoloFreePlayFlowCoordinator __get___4__this() const;
 
- ::GlobalNamespace::ResultsViewController __declspec(property(get=__get_resultsViewController, put=__set_resultsViewController))  resultsViewController;
+ GlobalNamespace::ResultsViewController __declspec(property(get=__get_resultsViewController, put=__set_resultsViewController))  resultsViewController;
 
-constexpr void __set_resultsViewController(::GlobalNamespace::ResultsViewController value) ;
+constexpr void __set_resultsViewController(GlobalNamespace::ResultsViewController value) ;
 
-constexpr ::GlobalNamespace::ResultsViewController __get_resultsViewController() const;
+constexpr GlobalNamespace::ResultsViewController __get_resultsViewController() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0() ;
+explicit GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0() ;
 
 /// @brief Method .ctor addr 0x21466c4 size 0x8 virtual false final false
  void _ctor() ;
@@ -123,10 +122,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5615))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5617))
 // CS Name: SoloFreePlayFlowCoordinator
-class CORDL_TYPE SoloFreePlayFlowCoordinator : public ::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator {
+class CORDL_TYPE SoloFreePlayFlowCoordinator : public GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator {
 public:
 // Declarations
-using __c__DisplayClass21_0 = ::GlobalNamespace::____GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0;
+using __c__DisplayClass21_0 = GlobalNamespace::GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x148};
@@ -140,7 +139,7 @@ constexpr SoloFreePlayFlowCoordinator(SoloFreePlayFlowCoordinator const& ) noexc
 constexpr SoloFreePlayFlowCoordinator(SoloFreePlayFlowCoordinator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SoloFreePlayFlowCoordinator(void* ptr) noexcept : ::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator(ptr) {
+constexpr explicit SoloFreePlayFlowCoordinator(void* ptr) noexcept : GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator(ptr) {
 }
 
 
@@ -161,54 +160,54 @@ constexpr explicit SoloFreePlayFlowCoordinator(void* ptr) noexcept : ::GlobalNam
 
 // Fields
 
- ::GlobalNamespace::MenuLightsPresetSO __declspec(property(get=__get__defaultLightsPreset, put=__set__defaultLightsPreset))  _defaultLightsPreset;
+ GlobalNamespace::MenuLightsPresetSO __declspec(property(get=__get__defaultLightsPreset, put=__set__defaultLightsPreset))  _defaultLightsPreset;
 
-constexpr void __set__defaultLightsPreset(::GlobalNamespace::MenuLightsPresetSO value) ;
+constexpr void __set__defaultLightsPreset(GlobalNamespace::MenuLightsPresetSO value) ;
 
-constexpr ::GlobalNamespace::MenuLightsPresetSO __get__defaultLightsPreset() const;
+constexpr GlobalNamespace::MenuLightsPresetSO __get__defaultLightsPreset() const;
 
- ::GlobalNamespace::MenuLightsPresetSO __declspec(property(get=__get__resultsClearedLightsPreset, put=__set__resultsClearedLightsPreset))  _resultsClearedLightsPreset;
+ GlobalNamespace::MenuLightsPresetSO __declspec(property(get=__get__resultsClearedLightsPreset, put=__set__resultsClearedLightsPreset))  _resultsClearedLightsPreset;
 
-constexpr void __set__resultsClearedLightsPreset(::GlobalNamespace::MenuLightsPresetSO value) ;
+constexpr void __set__resultsClearedLightsPreset(GlobalNamespace::MenuLightsPresetSO value) ;
 
-constexpr ::GlobalNamespace::MenuLightsPresetSO __get__resultsClearedLightsPreset() const;
+constexpr GlobalNamespace::MenuLightsPresetSO __get__resultsClearedLightsPreset() const;
 
- ::GlobalNamespace::MenuLightsPresetSO __declspec(property(get=__get__resultsFailedLightsPreset, put=__set__resultsFailedLightsPreset))  _resultsFailedLightsPreset;
+ GlobalNamespace::MenuLightsPresetSO __declspec(property(get=__get__resultsFailedLightsPreset, put=__set__resultsFailedLightsPreset))  _resultsFailedLightsPreset;
 
-constexpr void __set__resultsFailedLightsPreset(::GlobalNamespace::MenuLightsPresetSO value) ;
+constexpr void __set__resultsFailedLightsPreset(GlobalNamespace::MenuLightsPresetSO value) ;
 
-constexpr ::GlobalNamespace::MenuLightsPresetSO __get__resultsFailedLightsPreset() const;
+constexpr GlobalNamespace::MenuLightsPresetSO __get__resultsFailedLightsPreset() const;
 
- ::GlobalNamespace::MenuLightsManager __declspec(property(get=__get__menuLightsManager, put=__set__menuLightsManager))  _menuLightsManager;
+ GlobalNamespace::MenuLightsManager __declspec(property(get=__get__menuLightsManager, put=__set__menuLightsManager))  _menuLightsManager;
 
-constexpr void __set__menuLightsManager(::GlobalNamespace::MenuLightsManager value) ;
+constexpr void __set__menuLightsManager(GlobalNamespace::MenuLightsManager value) ;
 
-constexpr ::GlobalNamespace::MenuLightsManager __get__menuLightsManager() const;
+constexpr GlobalNamespace::MenuLightsManager __get__menuLightsManager() const;
 
- ::GlobalNamespace::ResultsViewController __declspec(property(get=__get__resultsViewController, put=__set__resultsViewController))  _resultsViewController;
+ GlobalNamespace::ResultsViewController __declspec(property(get=__get__resultsViewController, put=__set__resultsViewController))  _resultsViewController;
 
-constexpr void __set__resultsViewController(::GlobalNamespace::ResultsViewController value) ;
+constexpr void __set__resultsViewController(GlobalNamespace::ResultsViewController value) ;
 
-constexpr ::GlobalNamespace::ResultsViewController __get__resultsViewController() const;
+constexpr GlobalNamespace::ResultsViewController __get__resultsViewController() const;
 
- ::GlobalNamespace::PlatformLeaderboardViewController __declspec(property(get=__get__platformLeaderboardViewController, put=__set__platformLeaderboardViewController))  _platformLeaderboardViewController;
+ GlobalNamespace::PlatformLeaderboardViewController __declspec(property(get=__get__platformLeaderboardViewController, put=__set__platformLeaderboardViewController))  _platformLeaderboardViewController;
 
-constexpr void __set__platformLeaderboardViewController(::GlobalNamespace::PlatformLeaderboardViewController value) ;
+constexpr void __set__platformLeaderboardViewController(GlobalNamespace::PlatformLeaderboardViewController value) ;
 
-constexpr ::GlobalNamespace::PlatformLeaderboardViewController __get__platformLeaderboardViewController() const;
+constexpr GlobalNamespace::PlatformLeaderboardViewController __get__platformLeaderboardViewController() const;
 
- ::GlobalNamespace::PlatformLeaderboardsModel __declspec(property(get=__get__platformLeaderboardsModel, put=__set__platformLeaderboardsModel))  _platformLeaderboardsModel;
+ GlobalNamespace::PlatformLeaderboardsModel __declspec(property(get=__get__platformLeaderboardsModel, put=__set__platformLeaderboardsModel))  _platformLeaderboardsModel;
 
-constexpr void __set__platformLeaderboardsModel(::GlobalNamespace::PlatformLeaderboardsModel value) ;
+constexpr void __set__platformLeaderboardsModel(GlobalNamespace::PlatformLeaderboardsModel value) ;
 
-constexpr ::GlobalNamespace::PlatformLeaderboardsModel __get__platformLeaderboardsModel() const;
+constexpr GlobalNamespace::PlatformLeaderboardsModel __get__platformLeaderboardsModel() const;
 
 
 // Properties
 
  ::StringW __declspec(property(get=get_gameMode))  gameMode;
 
- ::GlobalNamespace::LeaderboardViewController __declspec(property(get=get_leaderboardViewController))  leaderboardViewController;
+ GlobalNamespace::LeaderboardViewController __declspec(property(get=get_leaderboardViewController))  leaderboardViewController;
 
  bool __declspec(property(get=get_showBackButtonForMainViewController))  showBackButtonForMainViewController;
 
@@ -221,7 +220,7 @@ constexpr ::GlobalNamespace::PlatformLeaderboardsModel __get__platformLeaderboar
  ::StringW get_gameMode() ;
 
 /// @brief Method get_leaderboardViewController addr 0x21460e4 size 0x8 virtual true final false
- ::GlobalNamespace::LeaderboardViewController get_leaderboardViewController() ;
+ GlobalNamespace::LeaderboardViewController get_leaderboardViewController() ;
 
 /// @brief Method get_showBackButtonForMainViewController addr 0x21460ec size 0x8 virtual true final false
  bool get_showBackButtonForMainViewController() ;
@@ -236,22 +235,22 @@ constexpr ::GlobalNamespace::PlatformLeaderboardsModel __get__platformLeaderboar
  void SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate(bool removedFromHierarchy) ;
 
 /// @brief Method ProcessLevelCompletionResultsAfterLevelDidFinish addr 0x21463e8 size 0x170 virtual true final false
- void ProcessLevelCompletionResultsAfterLevelDidFinish(::GlobalNamespace::LevelCompletionResults levelCompletionResults, ::GlobalNamespace::IReadonlyBeatmapData transformedBeatmapData, ::GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, ::GlobalNamespace::GameplayModifiers gameplayModifiers, bool practice) ;
+ void ProcessLevelCompletionResultsAfterLevelDidFinish(GlobalNamespace::LevelCompletionResults levelCompletionResults, GlobalNamespace::IReadonlyBeatmapData transformedBeatmapData, GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, GlobalNamespace::GameplayModifiers gameplayModifiers, bool practice) ;
 
 /// @brief Method IsNewHighScore addr 0x2146558 size 0x28 virtual false final false
- bool IsNewHighScore(::GlobalNamespace::PlayerLevelStatsData playerLevelStats, ::GlobalNamespace::LevelCompletionResults levelCompletionResults) ;
+ bool IsNewHighScore(GlobalNamespace::PlayerLevelStatsData playerLevelStats, GlobalNamespace::LevelCompletionResults levelCompletionResults) ;
 
 /// @brief Method Refresh addr 0x2146580 size 0x40 virtual true final false
  void Refresh() ;
 
 /// @brief Method HandleResultsViewControllerContinueButtonPressed addr 0x21465c0 size 0x3c virtual false final false
- void HandleResultsViewControllerContinueButtonPressed(::GlobalNamespace::ResultsViewController viewController) ;
+ void HandleResultsViewControllerContinueButtonPressed(GlobalNamespace::ResultsViewController viewController) ;
 
 /// @brief Method HandleResultsViewControllerRestartButtonPressed addr 0x21465fc size 0xc8 virtual false final false
- void HandleResultsViewControllerRestartButtonPressed(::GlobalNamespace::ResultsViewController resultsViewController) ;
+ void HandleResultsViewControllerRestartButtonPressed(GlobalNamespace::ResultsViewController resultsViewController) ;
 
 /// @brief Method __SetupFromDestination addr 0x21466cc size 0x318 virtual false final false
- void __SetupFromDestination(::GlobalNamespace::RunLevelMenuDestination runLevelMenuDestination) ;
+ void __SetupFromDestination(GlobalNamespace::RunLevelMenuDestination runLevelMenuDestination) ;
 
 // Ctor Parameters []
 explicit SoloFreePlayFlowCoordinator() ;
@@ -263,8 +262,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SoloFreePlayFlowCoordinator);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SoloFreePlayFlowCoordinator, "", "SoloFreePlayFlowCoordinator");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0, "", "SoloFreePlayFlowCoordinator/<>c__DisplayClass21_0");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0, "", "SoloFreePlayFlowCoordinator/<>c__DisplayClass21_0");
+NEED_NO_BOX(GlobalNamespace::SoloFreePlayFlowCoordinator);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SoloFreePlayFlowCoordinator, "", "SoloFreePlayFlowCoordinator");

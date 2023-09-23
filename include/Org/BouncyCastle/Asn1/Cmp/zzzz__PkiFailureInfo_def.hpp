@@ -3,7 +3,6 @@
 #include "Org/BouncyCastle/Asn1/zzzz__DerBitString_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Asn1 {
 class DerBitString;
 }
@@ -17,7 +16,7 @@ namespace Org::BouncyCastle::Asn1::Cmp {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(34))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(35))
 // CS Name: Org.BouncyCastle.Asn1.Cmp.PkiFailureInfo
-class CORDL_TYPE PkiFailureInfo : public ::Org::BouncyCastle::Asn1::DerBitString {
+class CORDL_TYPE PkiFailureInfo : public Org::BouncyCastle::Asn1::DerBitString {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr PkiFailureInfo(PkiFailureInfo const& ) noexcept = default;
 constexpr PkiFailureInfo(PkiFailureInfo&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PkiFailureInfo(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::DerBitString(ptr) {
+constexpr explicit PkiFailureInfo(void* ptr) noexcept : Org::BouncyCastle::Asn1::DerBitString(ptr) {
 }
 
 
@@ -143,11 +142,11 @@ explicit PkiFailureInfo(int32_t info) ;
 /// @brief Method .ctor addr 0xdde154 size 0x64 virtual false final false
  void _ctor(int32_t info) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "::Org::BouncyCastle::Asn1::DerBitString", modifiers: "", def_value: None }]
-explicit PkiFailureInfo(::Org::BouncyCastle::Asn1::DerBitString info) ;
+// Ctor Parameters [CppParam { name: "info", ty: "Org::BouncyCastle::Asn1::DerBitString", modifiers: "", def_value: None }]
+explicit PkiFailureInfo(Org::BouncyCastle::Asn1::DerBitString info) ;
 
 /// @brief Method .ctor addr 0xdde1b8 size 0x90 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::DerBitString info) ;
+ void _ctor(Org::BouncyCastle::Asn1::DerBitString info) ;
 
 /// @brief Method ToString addr 0xdde248 size 0x98 virtual true final false
  ::StringW ToString() ;
@@ -156,6 +155,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::Cmp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cmp::PkiFailureInfo);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Cmp::PkiFailureInfo, "Org.BouncyCastle.Asn1.Cmp", "PkiFailureInfo");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Cmp::PkiFailureInfo);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Cmp::PkiFailureInfo, "Org.BouncyCastle.Asn1.Cmp", "PkiFailureInfo");

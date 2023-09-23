@@ -3,15 +3,8 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace Oculus::Platform {
 class Request;
-}
-namespace Oculus::Platform::Models {
-class Purchase;
-}
-namespace Oculus::Platform::Models {
-class PurchaseList;
 }
 namespace Oculus::Platform {
 template<typename T>
@@ -19,6 +12,12 @@ class Request_1;
 }
 namespace Oculus::Platform::Models {
 class ProductList;
+}
+namespace Oculus::Platform::Models {
+class PurchaseList;
+}
+namespace Oculus::Platform::Models {
+class Purchase;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -67,30 +66,29 @@ constexpr explicit IAP(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 // Methods
 
 /// @brief Method ConsumePurchase addr 0x25954ec size 0x150 virtual false final false
-static ::Oculus::Platform::Request ConsumePurchase(::StringW sku) ;
+static Oculus::Platform::Request ConsumePurchase(::StringW sku) ;
 
 /// @brief Method GetProductsBySKU addr 0x259563c size 0x178 virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ProductList> GetProductsBySKU(::ArrayW<::StringW> skus) ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::ProductList> GetProductsBySKU(::ArrayW<::StringW> skus) ;
 
 /// @brief Method GetViewerPurchases addr 0x25957b4 size 0x15c virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PurchaseList> GetViewerPurchases() ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::PurchaseList> GetViewerPurchases() ;
 
 /// @brief Method GetViewerPurchasesDurableCache addr 0x2595910 size 0x15c virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PurchaseList> GetViewerPurchasesDurableCache() ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::PurchaseList> GetViewerPurchasesDurableCache() ;
 
 /// @brief Method LaunchCheckoutFlow addr 0x2595a6c size 0x1bc virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Purchase> LaunchCheckoutFlow(::StringW sku) ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::Purchase> LaunchCheckoutFlow(::StringW sku) ;
 
 /// @brief Method GetNextProductListPage addr 0x2595c28 size 0x1e0 virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ProductList> GetNextProductListPage(::Oculus::Platform::Models::ProductList list) ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::ProductList> GetNextProductListPage(Oculus::Platform::Models::ProductList list) ;
 
 /// @brief Method GetNextPurchaseListPage addr 0x2595e08 size 0x1e0 virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PurchaseList> GetNextPurchaseListPage(::Oculus::Platform::Models::PurchaseList list) ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::PurchaseList> GetNextPurchaseListPage(Oculus::Platform::Models::PurchaseList list) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::IAP);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::IAP, "Oculus.Platform", "IAP");
+NEED_NO_BOX(Oculus::Platform::IAP);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::IAP, "Oculus.Platform", "IAP");

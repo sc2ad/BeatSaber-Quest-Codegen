@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace System::Runtime::Serialization::Formatters::Binary {
 struct InternalPrimitiveTypeE;
 }
@@ -58,11 +57,11 @@ constexpr explicit PrimitiveArray(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
- ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE __declspec(property(get=__get_code, put=__set_code))  code;
+ System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE __declspec(property(get=__get_code, put=__set_code))  code;
 
-constexpr void __set_code(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE value) ;
+constexpr void __set_code(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE value) ;
 
-constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE __get_code() const;
+constexpr System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE __get_code() const;
 
  ::ArrayW<bool> __declspec(property(get=__get_booleanA, put=__set_booleanA))  booleanA;
 
@@ -133,14 +132,14 @@ constexpr ::ArrayW<uint64_t> __get_uint64A() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "code", ty: "::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE", modifiers: "", def_value: None }, CppParam { name: "array", ty: "::System::Array", modifiers: "", def_value: None }]
-explicit PrimitiveArray(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, ::System::Array array) ;
+// Ctor Parameters [CppParam { name: "code", ty: "System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE", modifiers: "", def_value: None }, CppParam { name: "array", ty: "System::Array", modifiers: "", def_value: None }]
+explicit PrimitiveArray(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, System::Array array) ;
 
 /// @brief Method .ctor addr 0x2361a40 size 0x34 virtual false final false
- void _ctor(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, ::System::Array array) ;
+ void _ctor(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, System::Array array) ;
 
 /// @brief Method Init addr 0x2369f7c size 0x320 virtual false final false
- void Init(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, ::System::Array array) ;
+ void Init(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, System::Array array) ;
 
 /// @brief Method SetValue addr 0x2362348 size 0x3bc virtual false final false
  void SetValue(::StringW value, int32_t index) ;
@@ -149,6 +148,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization::Formatters::Binary
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray, "System.Runtime.Serialization.Formatters.Binary", "PrimitiveArray");
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::PrimitiveArray);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::PrimitiveArray, "System.Runtime.Serialization.Formatters.Binary", "PrimitiveArray");

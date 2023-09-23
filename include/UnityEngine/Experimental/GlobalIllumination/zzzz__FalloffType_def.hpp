@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Experimental::GlobalIllumination {
 struct FalloffType;
@@ -70,23 +69,22 @@ constexpr void __set_value__(uint8_t value) ;
 constexpr uint8_t __get_value__() const;
 
 /// @brief Field InverseSquared offset 0
-static ::UnityEngine::Experimental::GlobalIllumination::FalloffType const InverseSquared;
+static UnityEngine::Experimental::GlobalIllumination::FalloffType const InverseSquared;
 
 /// @brief Field InverseSquaredNoRangeAttenuation offset 0
-static ::UnityEngine::Experimental::GlobalIllumination::FalloffType const InverseSquaredNoRangeAttenuation;
+static UnityEngine::Experimental::GlobalIllumination::FalloffType const InverseSquaredNoRangeAttenuation;
 
 /// @brief Field Linear offset 0
-static ::UnityEngine::Experimental::GlobalIllumination::FalloffType const Linear;
+static UnityEngine::Experimental::GlobalIllumination::FalloffType const Linear;
 
 /// @brief Field Legacy offset 0
-static ::UnityEngine::Experimental::GlobalIllumination::FalloffType const Legacy;
+static UnityEngine::Experimental::GlobalIllumination::FalloffType const Legacy;
 
 /// @brief Field Undefined offset 0
-static ::UnityEngine::Experimental::GlobalIllumination::FalloffType const Undefined;
+static UnityEngine::Experimental::GlobalIllumination::FalloffType const Undefined;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Experimental::GlobalIllumination
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::GlobalIllumination::FalloffType, "UnityEngine.Experimental.GlobalIllumination", "FalloffType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::FalloffType, "UnityEngine.Experimental.GlobalIllumination", "FalloffType");

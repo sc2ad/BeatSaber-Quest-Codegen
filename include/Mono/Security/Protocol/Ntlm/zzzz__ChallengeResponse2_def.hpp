@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Mono::Security::Protocol::Ntlm {
 struct NtlmAuthLevel;
 }
@@ -86,10 +85,10 @@ static ::ArrayW<uint8_t> Compute_NTLM(::StringW password, ::ArrayW<uint8_t> chal
 static void Compute_NTLMv2_Session(::StringW password, ::ArrayW<uint8_t> challenge, ByRef<::ArrayW<uint8_t>> lm, ByRef<::ArrayW<uint8_t>> ntlm) ;
 
 /// @brief Method Compute_NTLMv2 addr 0x2292eec size 0x434 virtual false final false
-static ::ArrayW<uint8_t> Compute_NTLMv2(::Mono::Security::Protocol::Ntlm::Type2Message type2, ::StringW username, ::StringW password, ::StringW domain) ;
+static ::ArrayW<uint8_t> Compute_NTLMv2(Mono::Security::Protocol::Ntlm::Type2Message type2, ::StringW username, ::StringW password, ::StringW domain) ;
 
 /// @brief Method Compute addr 0x2293410 size 0x1e8 virtual false final false
-static void Compute(::Mono::Security::Protocol::Ntlm::Type2Message type2, ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel level, ::StringW username, ::StringW password, ::StringW domain, ByRef<::ArrayW<uint8_t>> lm, ByRef<::ArrayW<uint8_t>> ntlm) ;
+static void Compute(Mono::Security::Protocol::Ntlm::Type2Message type2, Mono::Security::Protocol::Ntlm::NtlmAuthLevel level, ::StringW username, ::StringW password, ::StringW domain, ByRef<::ArrayW<uint8_t>> lm, ByRef<::ArrayW<uint8_t>> ntlm) ;
 
 /// @brief Method GetResponse addr 0x22928bc size 0x2f4 virtual false final false
 static ::ArrayW<uint8_t> GetResponse(::ArrayW<uint8_t> challenge, ::ArrayW<uint8_t> pwd) ;
@@ -104,6 +103,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Security::Protocol::Ntlm
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Security::Protocol::Ntlm::ChallengeResponse2);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Protocol::Ntlm::ChallengeResponse2, "Mono.Security.Protocol.Ntlm", "ChallengeResponse2");
+NEED_NO_BOX(Mono::Security::Protocol::Ntlm::ChallengeResponse2);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::ChallengeResponse2, "Mono.Security.Protocol.Ntlm", "ChallengeResponse2");

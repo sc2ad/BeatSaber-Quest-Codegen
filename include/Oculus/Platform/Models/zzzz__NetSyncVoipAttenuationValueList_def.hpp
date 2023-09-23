@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_def.hpp"
 #include "Oculus/Platform/Models/zzzz__NetSyncVoipAttenuationValue_def.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class NetSyncVoipAttenuationValueList;
@@ -11,10 +10,10 @@ class NetSyncVoipAttenuationValueList;
 // Type: Oculus.Platform.Models::NetSyncVoipAttenuationValueList
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1144 }), TypeDefinitionIndex(TypeDefinitionIndex(13452)), TypeDefinitionIndex(TypeDefinitionIndex(13410))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13410)), TypeDefinitionIndex(TypeDefinitionIndex(13452)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1144 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13453))
 // CS Name: Oculus.Platform.Models.NetSyncVoipAttenuationValueList
-class CORDL_TYPE NetSyncVoipAttenuationValueList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::NetSyncVoipAttenuationValue> {
+class CORDL_TYPE NetSyncVoipAttenuationValueList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::NetSyncVoipAttenuationValue> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr NetSyncVoipAttenuationValueList(NetSyncVoipAttenuationValueList const&
 constexpr NetSyncVoipAttenuationValueList(NetSyncVoipAttenuationValueList&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NetSyncVoipAttenuationValueList(void* ptr) noexcept : ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::NetSyncVoipAttenuationValue>(ptr) {
+constexpr explicit NetSyncVoipAttenuationValueList(void* ptr) noexcept : Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::NetSyncVoipAttenuationValue>(ptr) {
 }
 
 
@@ -60,6 +59,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::NetSyncVoipAttenuationValueList);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::NetSyncVoipAttenuationValueList, "Oculus.Platform.Models", "NetSyncVoipAttenuationValueList");
+NEED_NO_BOX(Oculus::Platform::Models::NetSyncVoipAttenuationValueList);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::NetSyncVoipAttenuationValueList, "Oculus.Platform.Models", "NetSyncVoipAttenuationValueList");

@@ -2,15 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
-namespace System {
-class IDisposable;
-}
 namespace GlobalNamespace {
 class IUnityXRHapticsHandler;
 }
 namespace UnityEngine::XR {
 struct XRNode;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,11 +24,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE DefaultUnityXRHapticsHandler : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IUnityXRHapticsHandler
-constexpr operator  ::GlobalNamespace::IUnityXRHapticsHandler() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IUnityXRHapticsHandler
+constexpr operator  GlobalNamespace::IUnityXRHapticsHandler() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -64,20 +63,20 @@ constexpr explicit DefaultUnityXRHapticsHandler(void* ptr) noexcept : ::bs_hook:
 
 // Fields
 
- ::UnityEngine::XR::XRNode __declspec(property(get=__get__node, put=__set__node))  _node;
+ UnityEngine::XR::XRNode __declspec(property(get=__get__node, put=__set__node))  _node;
 
-constexpr void __set__node(::UnityEngine::XR::XRNode value) ;
+constexpr void __set__node(UnityEngine::XR::XRNode value) ;
 
-constexpr ::UnityEngine::XR::XRNode __get__node() const;
+constexpr UnityEngine::XR::XRNode __get__node() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "node", ty: "::UnityEngine::XR::XRNode", modifiers: "", def_value: None }]
-explicit DefaultUnityXRHapticsHandler(::UnityEngine::XR::XRNode node) ;
+// Ctor Parameters [CppParam { name: "node", ty: "UnityEngine::XR::XRNode", modifiers: "", def_value: None }]
+explicit DefaultUnityXRHapticsHandler(UnityEngine::XR::XRNode node) ;
 
 /// @brief Method .ctor addr 0x1f84ed4 size 0x28 virtual false final false
- void _ctor(::UnityEngine::XR::XRNode node) ;
+ void _ctor(UnityEngine::XR::XRNode node) ;
 
 /// @brief Method Destroy addr 0x1f84efc size 0x4 virtual false final false
  void Destroy() ;
@@ -95,6 +94,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::DefaultUnityXRHapticsHandler);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DefaultUnityXRHapticsHandler, "", "DefaultUnityXRHapticsHandler");
+NEED_NO_BOX(GlobalNamespace::DefaultUnityXRHapticsHandler);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DefaultUnityXRHapticsHandler, "", "DefaultUnityXRHapticsHandler");

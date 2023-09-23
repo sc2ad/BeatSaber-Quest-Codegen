@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
 namespace Org::BouncyCastle::Crypto {
 class IAsymmetricBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Encodings {
@@ -27,8 +26,8 @@ namespace Org::BouncyCastle::Crypto::Encodings {
 class CORDL_TYPE ISO9796d1Encoding : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher
-constexpr operator  ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IAsymmetricBlockCipher
+constexpr operator  Org::BouncyCastle::Crypto::IAsymmetricBlockCipher() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -63,17 +62,17 @@ constexpr explicit ISO9796d1Encoding(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 
 // Fields
 
-static ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_Sixteen, put=__set_Sixteen))  Sixteen;
+static Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_Sixteen, put=__set_Sixteen))  Sixteen;
 
-static void __set_Sixteen(::Org::BouncyCastle::Math::BigInteger value) ;
+static void __set_Sixteen(Org::BouncyCastle::Math::BigInteger value) ;
 
-static ::Org::BouncyCastle::Math::BigInteger __get_Sixteen() ;
+static Org::BouncyCastle::Math::BigInteger __get_Sixteen() ;
 
-static ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_Six, put=__set_Six))  Six;
+static Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_Six, put=__set_Six))  Six;
 
-static void __set_Six(::Org::BouncyCastle::Math::BigInteger value) ;
+static void __set_Six(Org::BouncyCastle::Math::BigInteger value) ;
 
-static ::Org::BouncyCastle::Math::BigInteger __get_Six() ;
+static Org::BouncyCastle::Math::BigInteger __get_Six() ;
 
 static ::ArrayW<uint8_t> __declspec(property(get=__get_shadows, put=__set_shadows))  shadows;
 
@@ -87,11 +86,11 @@ static void __set_inverse(::ArrayW<uint8_t> value) ;
 
 static ::ArrayW<uint8_t> __get_inverse() ;
 
- ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher __declspec(property(get=__get_engine, put=__set_engine))  engine;
+ Org::BouncyCastle::Crypto::IAsymmetricBlockCipher __declspec(property(get=__get_engine, put=__set_engine))  engine;
 
-constexpr void __set_engine(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher value) ;
+constexpr void __set_engine(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher __get_engine() const;
+constexpr Org::BouncyCastle::Crypto::IAsymmetricBlockCipher __get_engine() const;
 
  bool __declspec(property(get=__get_forEncryption, put=__set_forEncryption))  forEncryption;
 
@@ -111,11 +110,11 @@ constexpr void __set_padBits(int32_t value) ;
 
 constexpr int32_t __get_padBits() const;
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_modulus, put=__set_modulus))  modulus;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_modulus, put=__set_modulus))  modulus;
 
-constexpr void __set_modulus(::Org::BouncyCastle::Math::BigInteger value) ;
+constexpr void __set_modulus(Org::BouncyCastle::Math::BigInteger value) ;
 
-constexpr ::Org::BouncyCastle::Math::BigInteger __get_modulus() const;
+constexpr Org::BouncyCastle::Math::BigInteger __get_modulus() const;
 
 
 // Properties
@@ -125,20 +124,20 @@ constexpr ::Org::BouncyCastle::Math::BigInteger __get_modulus() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }]
-explicit ISO9796d1Encoding(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher) ;
+// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }]
+explicit ISO9796d1Encoding(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher) ;
 
 /// @brief Method .ctor addr 0xe25ee8 size 0x2c virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher) ;
+ void _ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher) ;
 
 /// @brief Method get_AlgorithmName addr 0xe25f14 size 0xc0 virtual true final true
  ::StringW get_AlgorithmName() ;
 
 /// @brief Method GetUnderlyingCipher addr 0xe25fd4 size 0x8 virtual false final false
- ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher GetUnderlyingCipher() ;
+ Org::BouncyCastle::Crypto::IAsymmetricBlockCipher GetUnderlyingCipher() ;
 
 /// @brief Method Init addr 0xe25fdc size 0x1ac virtual true final true
- void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method GetInputBlockSize addr 0xe26188 size 0xc4 virtual true final true
  int32_t GetInputBlockSize() ;
@@ -165,6 +164,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Encodings
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding, "Org.BouncyCastle.Crypto.Encodings", "ISO9796d1Encoding");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding, "Org.BouncyCastle.Crypto.Encodings", "ISO9796d1Encoding");

@@ -1,6 +1,5 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace System {
 template<typename T>
 class Action_1;
@@ -31,14 +30,13 @@ constexpr explicit ICubeNoteControllerInitializable_1(void* ptr) noexcept : ::co
 // Methods
 
 /// @brief Method add_cubeNoteControllerDidInitEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void add_cubeNoteControllerDidInitEvent(::System::Action_1<T> value) ;
+ void add_cubeNoteControllerDidInitEvent(System::Action_1<T> value) ;
 
 /// @brief Method remove_cubeNoteControllerDidInitEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- void remove_cubeNoteControllerDidInitEvent(::System::Action_1<T> value) ;
+ void remove_cubeNoteControllerDidInitEvent(System::Action_1<T> value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::ICubeNoteControllerInitializable_1, "", "ICubeNoteControllerInitializable`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::ICubeNoteControllerInitializable_1, "", "ICubeNoteControllerInitializable`1");

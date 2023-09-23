@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
@@ -16,7 +15,7 @@ namespace HMUI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13590))
 // CS Name: HMUI.Interactable
-class CORDL_TYPE Interactable : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE Interactable : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr Interactable(Interactable const& ) noexcept = default;
 constexpr Interactable(Interactable&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Interactable(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit Interactable(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -58,11 +57,11 @@ constexpr void __set__interactable(bool value) ;
 
 constexpr bool __get__interactable() const;
 
- ::System::Action_2<::HMUI::Interactable,bool> __declspec(property(get=__get_interactableChangeEvent, put=__set_interactableChangeEvent))  interactableChangeEvent;
+ System::Action_2<HMUI::Interactable,bool> __declspec(property(get=__get_interactableChangeEvent, put=__set_interactableChangeEvent))  interactableChangeEvent;
 
-constexpr void __set_interactableChangeEvent(::System::Action_2<::HMUI::Interactable,bool> value) ;
+constexpr void __set_interactableChangeEvent(System::Action_2<HMUI::Interactable,bool> value) ;
 
-constexpr ::System::Action_2<::HMUI::Interactable,bool> __get_interactableChangeEvent() const;
+constexpr System::Action_2<HMUI::Interactable,bool> __get_interactableChangeEvent() const;
 
 
 // Properties
@@ -73,10 +72,10 @@ constexpr ::System::Action_2<::HMUI::Interactable,bool> __get_interactableChange
 // Methods
 
 /// @brief Method add_interactableChangeEvent addr 0x1faa864 size 0xb0 virtual false final false
- void add_interactableChangeEvent(::System::Action_2<::HMUI::Interactable,bool> value) ;
+ void add_interactableChangeEvent(System::Action_2<HMUI::Interactable,bool> value) ;
 
 /// @brief Method remove_interactableChangeEvent addr 0x1faa914 size 0xb0 virtual false final false
- void remove_interactableChangeEvent(::System::Action_2<::HMUI::Interactable,bool> value) ;
+ void remove_interactableChangeEvent(System::Action_2<HMUI::Interactable,bool> value) ;
 
 /// @brief Method get_interactable addr 0x1faa9c4 size 0x8 virtual false final false
  bool get_interactable() ;
@@ -94,6 +93,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HMUI
-} // end anonymous namespace
-NEED_NO_BOX(::HMUI::Interactable);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::Interactable, "HMUI", "Interactable");
+NEED_NO_BOX(HMUI::Interactable);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::Interactable, "HMUI", "Interactable");

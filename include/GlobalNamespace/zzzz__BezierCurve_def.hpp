@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -18,8 +17,8 @@ namespace GlobalNamespace {
 struct CORDL_TYPE BezierCurve : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "p0", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "p1", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "p2", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "p3", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
-constexpr BezierCurve(::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2, ::UnityEngine::Vector3 p3) noexcept;
+// Ctor Parameters [CppParam { name: "p0", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "p1", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "p2", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "p3", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }]
+constexpr BezierCurve(UnityEngine::Vector3 p0, UnityEngine::Vector3 p1, UnityEngine::Vector3 p2, UnityEngine::Vector3 p3) noexcept;
 
 
                     constexpr BezierCurve(BezierCurve const&) = default;
@@ -52,39 +51,38 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_p0, put=__set_p0))  p0;
+ UnityEngine::Vector3 __declspec(property(get=__get_p0, put=__set_p0))  p0;
 
-constexpr void __set_p0(::UnityEngine::Vector3 value) ;
+constexpr void __set_p0(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_p0() const;
+constexpr UnityEngine::Vector3 __get_p0() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_p1, put=__set_p1))  p1;
+ UnityEngine::Vector3 __declspec(property(get=__get_p1, put=__set_p1))  p1;
 
-constexpr void __set_p1(::UnityEngine::Vector3 value) ;
+constexpr void __set_p1(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_p1() const;
+constexpr UnityEngine::Vector3 __get_p1() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_p2, put=__set_p2))  p2;
+ UnityEngine::Vector3 __declspec(property(get=__get_p2, put=__set_p2))  p2;
 
-constexpr void __set_p2(::UnityEngine::Vector3 value) ;
+constexpr void __set_p2(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_p2() const;
+constexpr UnityEngine::Vector3 __get_p2() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_p3, put=__set_p3))  p3;
+ UnityEngine::Vector3 __declspec(property(get=__get_p3, put=__set_p3))  p3;
 
-constexpr void __set_p3(::UnityEngine::Vector3 value) ;
+constexpr void __set_p3(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_p3() const;
+constexpr UnityEngine::Vector3 __get_p3() const;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x20ab564 size 0x30 virtual false final false
- void _ctor(::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2, ::UnityEngine::Vector3 p3) ;
+ void _ctor(UnityEngine::Vector3 p0, UnityEngine::Vector3 p1, UnityEngine::Vector3 p2, UnityEngine::Vector3 p3) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BezierCurve, "", "BezierCurve");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BezierCurve, "", "BezierCurve");

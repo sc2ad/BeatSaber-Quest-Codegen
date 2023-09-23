@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Zenject {
 class BindInfo;
 }
@@ -51,31 +50,31 @@ constexpr explicit IfNotBoundBinder(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
- ::Zenject::BindInfo __declspec(property(get=__get__BindInfo_k__BackingField, put=__set__BindInfo_k__BackingField))  _BindInfo_k__BackingField;
+ Zenject::BindInfo __declspec(property(get=__get__BindInfo_k__BackingField, put=__set__BindInfo_k__BackingField))  _BindInfo_k__BackingField;
 
-constexpr void __set__BindInfo_k__BackingField(::Zenject::BindInfo value) ;
+constexpr void __set__BindInfo_k__BackingField(Zenject::BindInfo value) ;
 
-constexpr ::Zenject::BindInfo __get__BindInfo_k__BackingField() const;
+constexpr Zenject::BindInfo __get__BindInfo_k__BackingField() const;
 
 
 // Properties
 
- ::Zenject::BindInfo __declspec(property(get=get_BindInfo, put=set_BindInfo))  BindInfo;
+ Zenject::BindInfo __declspec(property(get=get_BindInfo, put=set_BindInfo))  BindInfo;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "::Zenject::BindInfo", modifiers: "", def_value: None }]
-explicit IfNotBoundBinder(::Zenject::BindInfo bindInfo) ;
+// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }]
+explicit IfNotBoundBinder(Zenject::BindInfo bindInfo) ;
 
 /// @brief Method .ctor addr 0x2d61ca4 size 0x28 virtual false final false
- void _ctor(::Zenject::BindInfo bindInfo) ;
+ void _ctor(Zenject::BindInfo bindInfo) ;
 
 /// @brief Method get_BindInfo addr 0x2d61ccc size 0x8 virtual false final false
- ::Zenject::BindInfo get_BindInfo() ;
+ Zenject::BindInfo get_BindInfo() ;
 
 /// @brief Method set_BindInfo addr 0x2d61cd4 size 0x8 virtual false final false
- void set_BindInfo(::Zenject::BindInfo value) ;
+ void set_BindInfo(Zenject::BindInfo value) ;
 
 /// @brief Method IfNotBound addr 0x2d61cdc size 0x20 virtual false final false
  void IfNotBound() ;
@@ -84,6 +83,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::IfNotBoundBinder);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::IfNotBoundBinder, "Zenject", "IfNotBoundBinder");
+NEED_NO_BOX(Zenject::IfNotBoundBinder);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::IfNotBoundBinder, "Zenject", "IfNotBoundBinder");

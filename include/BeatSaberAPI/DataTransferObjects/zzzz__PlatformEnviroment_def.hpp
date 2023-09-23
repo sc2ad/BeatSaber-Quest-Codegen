@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace BeatSaberAPI::DataTransferObjects {
 struct PlatformEnviroment;
@@ -68,17 +67,16 @@ constexpr void __set_value__(uint8_t value) ;
 constexpr uint8_t __get_value__() const;
 
 /// @brief Field Test offset 0
-static ::BeatSaberAPI::DataTransferObjects::PlatformEnviroment const Test;
+static BeatSaberAPI::DataTransferObjects::PlatformEnviroment const Test;
 
 /// @brief Field Developer offset 0
-static ::BeatSaberAPI::DataTransferObjects::PlatformEnviroment const Developer;
+static BeatSaberAPI::DataTransferObjects::PlatformEnviroment const Developer;
 
 /// @brief Field Production offset 0
-static ::BeatSaberAPI::DataTransferObjects::PlatformEnviroment const Production;
+static BeatSaberAPI::DataTransferObjects::PlatformEnviroment const Production;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def BeatSaberAPI::DataTransferObjects
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaberAPI::DataTransferObjects::PlatformEnviroment, "BeatSaberAPI.DataTransferObjects", "PlatformEnviroment");
+DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::PlatformEnviroment, "BeatSaberAPI.DataTransferObjects", "PlatformEnviroment");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventDataProcessor_1_def.hpp"
 #include "GlobalNamespace/zzzz__ColorBoostBeatmapEventData_def.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class ColorBoostBeatmapEventDataProcessor;
@@ -10,10 +9,10 @@ class ColorBoostBeatmapEventDataProcessor;
 // Type: ::ColorBoostBeatmapEventDataProcessor
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14915)), TypeDefinitionIndex(TypeDefinitionIndex(14924)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14924), inst: 919 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14915)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14924), inst: 919 }), TypeDefinitionIndex(TypeDefinitionIndex(14924))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14925))
 // CS Name: ColorBoostBeatmapEventDataProcessor
-class CORDL_TYPE ColorBoostBeatmapEventDataProcessor : public ::GlobalNamespace::BeatmapEventDataProcessor_1<::GlobalNamespace::ColorBoostBeatmapEventData> {
+class CORDL_TYPE ColorBoostBeatmapEventDataProcessor : public GlobalNamespace::BeatmapEventDataProcessor_1<GlobalNamespace::ColorBoostBeatmapEventData> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr ColorBoostBeatmapEventDataProcessor(ColorBoostBeatmapEventDataProcesso
 constexpr ColorBoostBeatmapEventDataProcessor(ColorBoostBeatmapEventDataProcessor&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ColorBoostBeatmapEventDataProcessor(void* ptr) noexcept : ::GlobalNamespace::BeatmapEventDataProcessor_1<::GlobalNamespace::ColorBoostBeatmapEventData>(ptr) {
+constexpr explicit ColorBoostBeatmapEventDataProcessor(void* ptr) noexcept : GlobalNamespace::BeatmapEventDataProcessor_1<GlobalNamespace::ColorBoostBeatmapEventData>(ptr) {
 }
 
 
@@ -59,6 +58,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ColorBoostBeatmapEventDataProcessor);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ColorBoostBeatmapEventDataProcessor, "", "ColorBoostBeatmapEventDataProcessor");
+NEED_NO_BOX(GlobalNamespace::ColorBoostBeatmapEventDataProcessor);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorBoostBeatmapEventDataProcessor, "", "ColorBoostBeatmapEventDataProcessor");

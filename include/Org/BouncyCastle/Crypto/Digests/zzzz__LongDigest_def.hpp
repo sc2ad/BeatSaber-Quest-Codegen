@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
@@ -24,11 +23,11 @@ namespace Org::BouncyCastle::Crypto::Digests {
 class CORDL_TYPE LongDigest : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IDigest
-constexpr operator  ::Org::BouncyCastle::Crypto::IDigest() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IDigest
+constexpr operator  Org::BouncyCastle::Crypto::IDigest() const noexcept;
 
-/// @brief Convert operator to ::Org::BouncyCastle::Utilities::IMemoable
-constexpr operator  ::Org::BouncyCastle::Utilities::IMemoable() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Utilities::IMemoable
+constexpr operator  Org::BouncyCastle::Utilities::IMemoable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x88};
@@ -173,14 +172,14 @@ explicit LongDigest() ;
 /// @brief Method .ctor addr 0x119b578 size 0xa0 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "t", ty: "::Org::BouncyCastle::Crypto::Digests::LongDigest", modifiers: "", def_value: None }]
-explicit LongDigest(::Org::BouncyCastle::Crypto::Digests::LongDigest t) ;
+// Ctor Parameters [CppParam { name: "t", ty: "Org::BouncyCastle::Crypto::Digests::LongDigest", modifiers: "", def_value: None }]
+explicit LongDigest(Org::BouncyCastle::Crypto::Digests::LongDigest t) ;
 
 /// @brief Method .ctor addr 0x119b618 size 0xac virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::Digests::LongDigest t) ;
+ void _ctor(Org::BouncyCastle::Crypto::Digests::LongDigest t) ;
 
 /// @brief Method CopyIn addr 0x119b6c4 size 0x9c virtual false final false
- void CopyIn(::Org::BouncyCastle::Crypto::Digests::LongDigest t) ;
+ void CopyIn(Org::BouncyCastle::Crypto::Digests::LongDigest t) ;
 
 /// @brief Method Update addr 0x119b760 size 0x74 virtual true final true
  void Update(uint8_t input) ;
@@ -237,15 +236,14 @@ static uint64_t Sigma1(uint64_t x) ;
  int32_t DoFinal(::ArrayW<uint8_t> output, int32_t outOff) ;
 
 /// @brief Method Copy addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Utilities::IMemoable Copy() ;
+ Org::BouncyCastle::Utilities::IMemoable Copy() ;
 
 /// @brief Method Reset addr 0x0 size 0xffffffffffffffff virtual true final false
- void Reset(::Org::BouncyCastle::Utilities::IMemoable t) ;
+ void Reset(Org::BouncyCastle::Utilities::IMemoable t) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Digests
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::LongDigest);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Digests::LongDigest, "Org.BouncyCastle.Crypto.Digests", "LongDigest");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Digests::LongDigest);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::LongDigest, "Org.BouncyCastle.Crypto.Digests", "LongDigest");

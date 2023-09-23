@@ -3,19 +3,18 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace HoudiniEngineUnity {
-struct ____HoudiniEngineUnity__HEU_InputNode__InputObjectType;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace HoudiniEngineUnity {
 class HEU_InputAssetPreset;
 }
 namespace HoudiniEngineUnity {
-class HEU_InputObjectPreset;
+struct HoudiniEngineUnity__HEU_InputNode__InputObjectType;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace HoudiniEngineUnity {
+class HEU_InputObjectPreset;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -63,17 +62,17 @@ constexpr explicit HEU_InputPreset(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Fields
 
- ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_InputNode__InputObjectType __declspec(property(get=__get__inputObjectType, put=__set__inputObjectType))  _inputObjectType;
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputNode__InputObjectType __declspec(property(get=__get__inputObjectType, put=__set__inputObjectType))  _inputObjectType;
 
-constexpr void __set__inputObjectType(::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_InputNode__InputObjectType value) ;
+constexpr void __set__inputObjectType(HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputNode__InputObjectType value) ;
 
-constexpr ::HoudiniEngineUnity::____HoudiniEngineUnity__HEU_InputNode__InputObjectType __get__inputObjectType() const;
+constexpr HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputNode__InputObjectType __get__inputObjectType() const;
 
- ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectPreset> __declspec(property(get=__get__inputObjectPresets, put=__set__inputObjectPresets))  _inputObjectPresets;
+ System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputObjectPreset> __declspec(property(get=__get__inputObjectPresets, put=__set__inputObjectPresets))  _inputObjectPresets;
 
-constexpr void __set__inputObjectPresets(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectPreset> value) ;
+constexpr void __set__inputObjectPresets(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputObjectPreset> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectPreset> __get__inputObjectPresets() const;
+constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputObjectPreset> __get__inputObjectPresets() const;
 
  ::StringW __declspec(property(get=__get__inputAssetName, put=__set__inputAssetName))  _inputAssetName;
 
@@ -105,11 +104,11 @@ constexpr void __set__packGeometryBeforeMerging(bool value) ;
 
 constexpr bool __get__packGeometryBeforeMerging() const;
 
- ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputAssetPreset> __declspec(property(get=__get__inputAssetPresets, put=__set__inputAssetPresets))  _inputAssetPresets;
+ System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputAssetPreset> __declspec(property(get=__get__inputAssetPresets, put=__set__inputAssetPresets))  _inputAssetPresets;
 
-constexpr void __set__inputAssetPresets(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputAssetPreset> value) ;
+constexpr void __set__inputAssetPresets(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputAssetPreset> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputAssetPreset> __get__inputAssetPresets() const;
+constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputAssetPreset> __get__inputAssetPresets() const;
 
 
 // Methods
@@ -124,6 +123,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_InputPreset);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_InputPreset, "HoudiniEngineUnity", "HEU_InputPreset");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_InputPreset);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputPreset, "HoudiniEngineUnity", "HEU_InputPreset");

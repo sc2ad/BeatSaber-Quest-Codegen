@@ -3,33 +3,32 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System::ComponentModel {
-class PropertyDescriptorCollection;
-}
-namespace System::ComponentModel {
-class EventDescriptor;
-}
-namespace System {
-class Type;
-}
-namespace System::ComponentModel {
-class TypeConverter;
-}
-namespace System::ComponentModel {
-class ICustomTypeDescriptor;
-}
 namespace System {
 class Attribute;
 }
 namespace System::ComponentModel {
-class PropertyDescriptor;
+class AttributeCollection;
 }
 namespace System::ComponentModel {
 class EventDescriptorCollection;
 }
 namespace System::ComponentModel {
-class AttributeCollection;
+class TypeConverter;
+}
+namespace System::ComponentModel {
+class EventDescriptor;
+}
+namespace System::ComponentModel {
+class ICustomTypeDescriptor;
+}
+namespace System::ComponentModel {
+class PropertyDescriptorCollection;
+}
+namespace System {
+class Type;
+}
+namespace System::ComponentModel {
+class PropertyDescriptor;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -44,8 +43,8 @@ namespace System::ComponentModel {
 class CORDL_TYPE CustomTypeDescriptor : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::ComponentModel::ICustomTypeDescriptor
-constexpr operator  ::System::ComponentModel::ICustomTypeDescriptor() const noexcept;
+/// @brief Convert operator to System::ComponentModel::ICustomTypeDescriptor
+constexpr operator  System::ComponentModel::ICustomTypeDescriptor() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -80,11 +79,11 @@ constexpr explicit CustomTypeDescriptor(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 // Fields
 
- ::System::ComponentModel::ICustomTypeDescriptor __declspec(property(get=__get__parent, put=__set__parent))  _parent;
+ System::ComponentModel::ICustomTypeDescriptor __declspec(property(get=__get__parent, put=__set__parent))  _parent;
 
-constexpr void __set__parent(::System::ComponentModel::ICustomTypeDescriptor value) ;
+constexpr void __set__parent(System::ComponentModel::ICustomTypeDescriptor value) ;
 
-constexpr ::System::ComponentModel::ICustomTypeDescriptor __get__parent() const;
+constexpr System::ComponentModel::ICustomTypeDescriptor __get__parent() const;
 
 
 // Methods
@@ -96,7 +95,7 @@ explicit CustomTypeDescriptor() ;
  void _ctor() ;
 
 /// @brief Method GetAttributes addr 0x277a2cc size 0xd8 virtual true final false
- ::System::ComponentModel::AttributeCollection GetAttributes() ;
+ System::ComponentModel::AttributeCollection GetAttributes() ;
 
 /// @brief Method GetClassName addr 0x277a3a4 size 0xb0 virtual true final false
  ::StringW GetClassName() ;
@@ -105,36 +104,35 @@ explicit CustomTypeDescriptor() ;
  ::StringW GetComponentName() ;
 
 /// @brief Method GetConverter addr 0x277a504 size 0xe0 virtual true final false
- ::System::ComponentModel::TypeConverter GetConverter() ;
+ System::ComponentModel::TypeConverter GetConverter() ;
 
 /// @brief Method GetDefaultEvent addr 0x277a5e4 size 0xb0 virtual true final false
- ::System::ComponentModel::EventDescriptor GetDefaultEvent() ;
+ System::ComponentModel::EventDescriptor GetDefaultEvent() ;
 
 /// @brief Method GetDefaultProperty addr 0x277a694 size 0xb0 virtual true final false
- ::System::ComponentModel::PropertyDescriptor GetDefaultProperty() ;
+ System::ComponentModel::PropertyDescriptor GetDefaultProperty() ;
 
 /// @brief Method GetEditor addr 0x277a744 size 0xb8 virtual true final false
- ::bs_hook::Il2CppWrapperType GetEditor(::System::Type editorBaseType) ;
+ ::bs_hook::Il2CppWrapperType GetEditor(System::Type editorBaseType) ;
 
 /// @brief Method GetEvents addr 0x277a7fc size 0xdc virtual true final false
- ::System::ComponentModel::EventDescriptorCollection GetEvents() ;
+ System::ComponentModel::EventDescriptorCollection GetEvents() ;
 
 /// @brief Method GetEvents addr 0x277a8d8 size 0xe4 virtual true final false
- ::System::ComponentModel::EventDescriptorCollection GetEvents(::ArrayW<::System::Attribute> attributes) ;
+ System::ComponentModel::EventDescriptorCollection GetEvents(::ArrayW<System::Attribute> attributes) ;
 
 /// @brief Method GetProperties addr 0x277a9bc size 0xdc virtual true final false
- ::System::ComponentModel::PropertyDescriptorCollection GetProperties() ;
+ System::ComponentModel::PropertyDescriptorCollection GetProperties() ;
 
 /// @brief Method GetProperties addr 0x277aa98 size 0xe4 virtual true final false
- ::System::ComponentModel::PropertyDescriptorCollection GetProperties(::ArrayW<::System::Attribute> attributes) ;
+ System::ComponentModel::PropertyDescriptorCollection GetProperties(::ArrayW<System::Attribute> attributes) ;
 
 /// @brief Method GetPropertyOwner addr 0x277ab7c size 0xb8 virtual true final false
- ::bs_hook::Il2CppWrapperType GetPropertyOwner(::System::ComponentModel::PropertyDescriptor pd) ;
+ ::bs_hook::Il2CppWrapperType GetPropertyOwner(System::ComponentModel::PropertyDescriptor pd) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::CustomTypeDescriptor);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::CustomTypeDescriptor, "System.ComponentModel", "CustomTypeDescriptor");
+NEED_NO_BOX(System::ComponentModel::CustomTypeDescriptor);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::CustomTypeDescriptor, "System.ComponentModel", "CustomTypeDescriptor");

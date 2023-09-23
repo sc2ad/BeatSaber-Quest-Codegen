@@ -3,21 +3,20 @@
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct Bounds;
-}
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine::ProBuilder::Shapes {
 class Shape;
 }
 namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct Bounds;
+}
+namespace UnityEngine {
 struct Quaternion;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {
@@ -29,7 +28,7 @@ namespace UnityEngine::ProBuilder::Shapes {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12175))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12167))
 // CS Name: UnityEngine.ProBuilder.Shapes.Cone
-class CORDL_TYPE Cone : public ::UnityEngine::ProBuilder::Shapes::Shape {
+class CORDL_TYPE Cone : public UnityEngine::ProBuilder::Shapes::Shape {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -44,7 +43,7 @@ constexpr Cone(Cone const& ) noexcept = default;
 constexpr Cone(Cone&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Cone(void* ptr) noexcept : ::UnityEngine::ProBuilder::Shapes::Shape(ptr) {
+constexpr explicit Cone(void* ptr) noexcept : UnityEngine::ProBuilder::Shapes::Shape(ptr) {
 }
 
 
@@ -87,13 +86,13 @@ constexpr bool __get_m_Smooth() const;
 // Methods
 
 /// @brief Method CopyShape addr 0x29f2170 size 0x84 virtual true final false
- void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape shape) ;
+ void CopyShape(UnityEngine::ProBuilder::Shapes::Shape shape) ;
 
 /// @brief Method UpdateBounds addr 0x29f21f4 size 0x174 virtual true final false
- ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds) ;
+ UnityEngine::Bounds UpdateBounds(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::Vector3 size, UnityEngine::Quaternion rotation, UnityEngine::Bounds bounds) ;
 
 /// @brief Method RebuildMesh addr 0x29f2368 size 0xc4c virtual true final false
- ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation) ;
+ UnityEngine::Bounds RebuildMesh(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::Vector3 size, UnityEngine::Quaternion rotation) ;
 
 // Ctor Parameters []
 explicit Cone() ;
@@ -105,6 +104,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder::Shapes
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::Shapes::Cone);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Shapes::Cone, "UnityEngine.ProBuilder.Shapes", "Cone");
+NEED_NO_BOX(UnityEngine::ProBuilder::Shapes::Cone);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Shapes::Cone, "UnityEngine.ProBuilder.Shapes", "Cone");

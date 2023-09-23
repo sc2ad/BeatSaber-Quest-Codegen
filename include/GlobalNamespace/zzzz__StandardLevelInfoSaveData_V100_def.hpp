@@ -5,19 +5,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 class StandardLevelInfoSaveData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
+class GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck;
+}
+namespace GlobalNamespace {
 class StandardLevelInfoSaveData_V100;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck;
 }
 // Type: ::DifficultyBeatmap
 namespace GlobalNamespace {
@@ -25,37 +24,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4444))
 // CS Name: StandardLevelInfoSaveData_V100::DifficultyBeatmap
-class CORDL_TYPE ____GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap() = default;
+virtual ~GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap(____GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap(GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap(____GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap(GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap& operator=(____GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap&& o) noexcept = default;
-  constexpr ____GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap& operator=(____GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap const& o) noexcept = default;
+  constexpr GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap& operator=(GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap&& o) noexcept = default;
+  constexpr GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap& operator=(GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap const& o) noexcept = default;
                 
 
 
@@ -123,7 +122,7 @@ constexpr int32_t __get__noteJumpStartBeatOffset() const;
  int32_t get_noteJumpStartBeatOffset() ;
 
 // Ctor Parameters [CppParam { name: "difficultyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "difficultyRank", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "beatmapFilename", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "noteJumpMovementSpeed", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "noteJumpStartBeatOffset", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap(::StringW difficultyName, int32_t difficultyRank, ::StringW beatmapFilename, float_t noteJumpMovementSpeed, int32_t noteJumpStartBeatOffset) ;
+explicit GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap(::StringW difficultyName, int32_t difficultyRank, ::StringW beatmapFilename, float_t noteJumpMovementSpeed, int32_t noteJumpStartBeatOffset) ;
 
 /// @brief Method .ctor addr 0x21ef5e0 size 0x58 virtual false final false
  void _ctor(::StringW difficultyName, int32_t difficultyRank, ::StringW beatmapFilename, float_t noteJumpMovementSpeed, int32_t noteJumpStartBeatOffset) ;
@@ -138,37 +137,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4445))
 // CS Name: StandardLevelInfoSaveData_V100::VersionCheck
-class CORDL_TYPE ____GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck() = default;
+virtual ~GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck(____GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck(GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck(____GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck(GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck& operator=(____GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck&& o) noexcept = default;
-  constexpr ____GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck& operator=(____GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck const& o) noexcept = default;
+  constexpr GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck& operator=(GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck&& o) noexcept = default;
+  constexpr GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck& operator=(GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck const& o) noexcept = default;
                 
 
 
@@ -192,7 +191,7 @@ constexpr ::StringW __get__version() const;
  ::StringW get_version() ;
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck() ;
+explicit GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck() ;
 
 /// @brief Method .ctor addr 0x21ef640 size 0x8 virtual false final false
  void _ctor() ;
@@ -210,9 +209,9 @@ namespace GlobalNamespace {
 class CORDL_TYPE StandardLevelInfoSaveData_V100 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using VersionCheck = ::GlobalNamespace::____GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck;
+using VersionCheck = GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck;
 
-using DifficultyBeatmap = ::GlobalNamespace::____GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap;
+using DifficultyBeatmap = GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x70};
@@ -334,11 +333,11 @@ constexpr void __set__environmentName(::StringW value) ;
 
 constexpr ::StringW __get__environmentName() const;
 
- ::ArrayW<::GlobalNamespace::____GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap> __declspec(property(get=__get__difficultyBeatmaps, put=__set__difficultyBeatmaps))  _difficultyBeatmaps;
+ ::ArrayW<GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap> __declspec(property(get=__get__difficultyBeatmaps, put=__set__difficultyBeatmaps))  _difficultyBeatmaps;
 
-constexpr void __set__difficultyBeatmaps(::ArrayW<::GlobalNamespace::____GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap> value) ;
+constexpr void __set__difficultyBeatmaps(::ArrayW<GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::____GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap> __get__difficultyBeatmaps() const;
+constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap> __get__difficultyBeatmaps() const;
 
 
 // Properties
@@ -371,7 +370,7 @@ constexpr ::ArrayW<::GlobalNamespace::____GlobalNamespace__StandardLevelInfoSave
 
  ::StringW __declspec(property(get=get_environmentName))  environmentName;
 
- ::ArrayW<::GlobalNamespace::____GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap> __declspec(property(get=get_difficultyBeatmaps))  difficultyBeatmaps;
+ ::ArrayW<GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap> __declspec(property(get=get_difficultyBeatmaps))  difficultyBeatmaps;
 
  bool __declspec(property(get=get_hasAllData))  hasAllData;
 
@@ -421,13 +420,13 @@ constexpr ::ArrayW<::GlobalNamespace::____GlobalNamespace__StandardLevelInfoSave
  ::StringW get_environmentName() ;
 
 /// @brief Method get_difficultyBeatmaps addr 0x21ef2e8 size 0x8 virtual false final false
- ::ArrayW<::GlobalNamespace::____GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap> get_difficultyBeatmaps() ;
+ ::ArrayW<GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap> get_difficultyBeatmaps() ;
 
-// Ctor Parameters [CppParam { name: "songName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "songSubName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "songAuthorName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "levelAuthorName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "beatsPerMinute", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "songTimeOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "shuffle", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "shufflePeriod", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "previewStartTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "previewDuration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "songFilename", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "coverImageFilename", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "difficultyBeatmaps", ty: "::ArrayW<::GlobalNamespace::____GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap>", modifiers: "", def_value: None }]
-explicit StandardLevelInfoSaveData_V100(::StringW songName, ::StringW songSubName, ::StringW songAuthorName, ::StringW levelAuthorName, float_t beatsPerMinute, float_t songTimeOffset, float_t shuffle, float_t shufflePeriod, float_t previewStartTime, float_t previewDuration, ::StringW songFilename, ::StringW coverImageFilename, ::ArrayW<::GlobalNamespace::____GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap> difficultyBeatmaps) ;
+// Ctor Parameters [CppParam { name: "songName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "songSubName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "songAuthorName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "levelAuthorName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "beatsPerMinute", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "songTimeOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "shuffle", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "shufflePeriod", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "previewStartTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "previewDuration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "songFilename", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "coverImageFilename", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "difficultyBeatmaps", ty: "::ArrayW<GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap>", modifiers: "", def_value: None }]
+explicit StandardLevelInfoSaveData_V100(::StringW songName, ::StringW songSubName, ::StringW songAuthorName, ::StringW levelAuthorName, float_t beatsPerMinute, float_t songTimeOffset, float_t shuffle, float_t shufflePeriod, float_t previewStartTime, float_t previewDuration, ::StringW songFilename, ::StringW coverImageFilename, ::ArrayW<GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap> difficultyBeatmaps) ;
 
 /// @brief Method .ctor addr 0x21ef2f0 size 0xdc virtual false final false
- void _ctor(::StringW songName, ::StringW songSubName, ::StringW songAuthorName, ::StringW levelAuthorName, float_t beatsPerMinute, float_t songTimeOffset, float_t shuffle, float_t shufflePeriod, float_t previewStartTime, float_t previewDuration, ::StringW songFilename, ::StringW coverImageFilename, ::ArrayW<::GlobalNamespace::____GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap> difficultyBeatmaps) ;
+ void _ctor(::StringW songName, ::StringW songSubName, ::StringW songAuthorName, ::StringW levelAuthorName, float_t beatsPerMinute, float_t songTimeOffset, float_t shuffle, float_t shufflePeriod, float_t previewStartTime, float_t previewDuration, ::StringW songFilename, ::StringW coverImageFilename, ::ArrayW<GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap> difficultyBeatmaps) ;
 
 /// @brief Method get_hasAllData addr 0x21ef3cc size 0x64 virtual false final false
  bool get_hasAllData() ;
@@ -439,16 +438,15 @@ explicit StandardLevelInfoSaveData_V100(::StringW songName, ::StringW songSubNam
  ::StringW SerializeToJSONString() ;
 
 /// @brief Method DeserializeFromJSONString addr 0x21ef440 size 0x178 virtual false final false
-static ::GlobalNamespace::StandardLevelInfoSaveData DeserializeFromJSONString(::StringW stringData) ;
+static GlobalNamespace::StandardLevelInfoSaveData DeserializeFromJSONString(::StringW stringData) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::StandardLevelInfoSaveData_V100);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StandardLevelInfoSaveData_V100, "", "StandardLevelInfoSaveData_V100");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap, "", "StandardLevelInfoSaveData_V100/DifficultyBeatmap");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck, "", "StandardLevelInfoSaveData_V100/VersionCheck");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap, "", "StandardLevelInfoSaveData_V100/DifficultyBeatmap");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck, "", "StandardLevelInfoSaveData_V100/VersionCheck");
+NEED_NO_BOX(GlobalNamespace::StandardLevelInfoSaveData_V100);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelInfoSaveData_V100, "", "StandardLevelInfoSaveData_V100");

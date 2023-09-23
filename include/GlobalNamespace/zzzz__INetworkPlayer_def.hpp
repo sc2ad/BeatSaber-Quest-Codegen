@@ -2,15 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
 namespace GlobalNamespace {
 struct BeatmapLevelSelectionMask;
 }
 namespace GlobalNamespace {
 struct GameplayServerConfiguration;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -44,11 +43,11 @@ constexpr explicit INetworkPlayer(void* ptr) noexcept : ::cordl_internals::Inter
 
  bool __declspec(property(get=get_isMyPartyOwner))  isMyPartyOwner;
 
- ::GlobalNamespace::IConnectedPlayer __declspec(property(get=get_connectedPlayer))  connectedPlayer;
+ GlobalNamespace::IConnectedPlayer __declspec(property(get=get_connectedPlayer))  connectedPlayer;
 
- ::GlobalNamespace::GameplayServerConfiguration __declspec(property(get=get_configuration))  configuration;
+ GlobalNamespace::GameplayServerConfiguration __declspec(property(get=get_configuration))  configuration;
 
- ::GlobalNamespace::BeatmapLevelSelectionMask __declspec(property(get=get_selectionMask))  selectionMask;
+ GlobalNamespace::BeatmapLevelSelectionMask __declspec(property(get=get_selectionMask))  selectionMask;
 
  bool __declspec(property(get=get_canJoin))  canJoin;
 
@@ -87,13 +86,13 @@ constexpr explicit INetworkPlayer(void* ptr) noexcept : ::cordl_internals::Inter
  bool get_isMyPartyOwner() ;
 
 /// @brief Method get_connectedPlayer addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::IConnectedPlayer get_connectedPlayer() ;
+ GlobalNamespace::IConnectedPlayer get_connectedPlayer() ;
 
 /// @brief Method get_configuration addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::GameplayServerConfiguration get_configuration() ;
+ GlobalNamespace::GameplayServerConfiguration get_configuration() ;
 
 /// @brief Method get_selectionMask addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask() ;
+ GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask() ;
 
 /// @brief Method get_canJoin addr 0x0 size 0xffffffffffffffff virtual true final false
  bool get_canJoin() ;
@@ -153,6 +152,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::INetworkPlayer);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::INetworkPlayer, "", "INetworkPlayer");
+NEED_NO_BOX(GlobalNamespace::INetworkPlayer);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INetworkPlayer, "", "INetworkPlayer");

@@ -1,18 +1,17 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Security/zzzz__CodeAccessPermission_def.hpp"
-namespace {
-namespace System::Security::Permissions {
-struct PermissionState;
-}
-namespace System::Security {
-class IPermission;
-}
 namespace System::Security {
 class SecurityElement;
 }
 namespace System::Security::Permissions {
 struct SecurityPermissionFlag;
+}
+namespace System::Security {
+class IPermission;
+}
+namespace System::Security::Permissions {
+struct PermissionState;
 }
 // Forward declare root types
 namespace System::Security::Permissions {
@@ -24,7 +23,7 @@ namespace System::Security::Permissions {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2878))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2902))
 // CS Name: System.Security.Permissions.SecurityPermission
-class CORDL_TYPE SecurityPermission : public ::System::Security::CodeAccessPermission {
+class CORDL_TYPE SecurityPermission : public System::Security::CodeAccessPermission {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr SecurityPermission(SecurityPermission const& ) noexcept = default;
 constexpr SecurityPermission(SecurityPermission&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SecurityPermission(void* ptr) noexcept : ::System::Security::CodeAccessPermission(ptr) {
+constexpr explicit SecurityPermission(void* ptr) noexcept : System::Security::CodeAccessPermission(ptr) {
 }
 
 
@@ -60,54 +59,53 @@ constexpr explicit SecurityPermission(void* ptr) noexcept : ::System::Security::
 
 // Fields
 
- ::System::Security::Permissions::SecurityPermissionFlag __declspec(property(get=__get_flags, put=__set_flags))  flags;
+ System::Security::Permissions::SecurityPermissionFlag __declspec(property(get=__get_flags, put=__set_flags))  flags;
 
-constexpr void __set_flags(::System::Security::Permissions::SecurityPermissionFlag value) ;
+constexpr void __set_flags(System::Security::Permissions::SecurityPermissionFlag value) ;
 
-constexpr ::System::Security::Permissions::SecurityPermissionFlag __get_flags() const;
+constexpr System::Security::Permissions::SecurityPermissionFlag __get_flags() const;
 
 
 // Properties
 
- ::System::Security::Permissions::SecurityPermissionFlag __declspec(property(put=set_Flags))  Flags;
+ System::Security::Permissions::SecurityPermissionFlag __declspec(property(put=set_Flags))  Flags;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "state", ty: "::System::Security::Permissions::PermissionState", modifiers: "", def_value: None }]
-explicit SecurityPermission(::System::Security::Permissions::PermissionState state) ;
+// Ctor Parameters [CppParam { name: "state", ty: "System::Security::Permissions::PermissionState", modifiers: "", def_value: None }]
+explicit SecurityPermission(System::Security::Permissions::PermissionState state) ;
 
 /// @brief Method .ctor addr 0x22eac50 size 0x40 virtual false final false
- void _ctor(::System::Security::Permissions::PermissionState state) ;
+ void _ctor(System::Security::Permissions::PermissionState state) ;
 
-// Ctor Parameters [CppParam { name: "flag", ty: "::System::Security::Permissions::SecurityPermissionFlag", modifiers: "", def_value: None }]
-explicit SecurityPermission(::System::Security::Permissions::SecurityPermissionFlag flag) ;
+// Ctor Parameters [CppParam { name: "flag", ty: "System::Security::Permissions::SecurityPermissionFlag", modifiers: "", def_value: None }]
+explicit SecurityPermission(System::Security::Permissions::SecurityPermissionFlag flag) ;
 
 /// @brief Method .ctor addr 0x22eac90 size 0x2c virtual false final false
- void _ctor(::System::Security::Permissions::SecurityPermissionFlag flag) ;
+ void _ctor(System::Security::Permissions::SecurityPermissionFlag flag) ;
 
 /// @brief Method set_Flags addr 0x22eacbc size 0xb8 virtual false final false
- void set_Flags(::System::Security::Permissions::SecurityPermissionFlag value) ;
+ void set_Flags(System::Security::Permissions::SecurityPermissionFlag value) ;
 
 /// @brief Method IsUnrestricted addr 0x22ead74 size 0x14 virtual true final true
  bool IsUnrestricted() ;
 
 /// @brief Method IsSubsetOf addr 0x22ead88 size 0x58 virtual true final false
- bool IsSubsetOf(::System::Security::IPermission target) ;
+ bool IsSubsetOf(System::Security::IPermission target) ;
 
 /// @brief Method ToXml addr 0x22eae94 size 0xec virtual true final false
- ::System::Security::SecurityElement ToXml() ;
+ System::Security::SecurityElement ToXml() ;
 
 /// @brief Method IsEmpty addr 0x22eae84 size 0x10 virtual false final false
  bool IsEmpty() ;
 
 /// @brief Method Cast addr 0x22eade0 size 0xa4 virtual false final false
- ::System::Security::Permissions::SecurityPermission Cast(::System::Security::IPermission target) ;
+ System::Security::Permissions::SecurityPermission Cast(System::Security::IPermission target) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Permissions
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Permissions::SecurityPermission);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Permissions::SecurityPermission, "System.Security.Permissions", "SecurityPermission");
+NEED_NO_BOX(System::Security::Permissions::SecurityPermission);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Permissions::SecurityPermission, "System.Security.Permissions", "SecurityPermission");

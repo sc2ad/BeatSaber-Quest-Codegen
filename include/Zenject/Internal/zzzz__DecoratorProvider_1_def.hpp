@@ -1,33 +1,32 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
 namespace Zenject {
 template<typename TParam1,typename TValue>
 class IFactory_2;
 }
 namespace Zenject {
-class InjectContext;
-}
-namespace System {
-struct Guid;
-}
-namespace Zenject {
 class DiContainer;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
 }
 namespace Zenject {
 class IProvider;
 }
 namespace Zenject::Internal {
 class IDecoratorProvider;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace Zenject {
+class InjectContext;
+}
+namespace System {
+struct Guid;
 }
 // Forward declare root types
 namespace Zenject::Internal {
@@ -50,8 +49,8 @@ template<::cordl_internals::il2cpp_reference_type TContract>
 class CORDL_TYPE DecoratorProvider_1<TContract> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Zenject::Internal::IDecoratorProvider
-constexpr operator  ::Zenject::Internal::IDecoratorProvider() const noexcept;
+/// @brief Convert operator to Zenject::Internal::IDecoratorProvider
+constexpr operator  Zenject::Internal::IDecoratorProvider() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -86,57 +85,56 @@ constexpr explicit DecoratorProvider_1(void* ptr) noexcept : ::bs_hook::Il2CppWr
 
 // Fields
 
- ::System::Collections::Generic::Dictionary_2<::Zenject::IProvider,::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType>> __declspec(property(get=__get__cachedInstances, put=__set__cachedInstances))  _cachedInstances;
+ System::Collections::Generic::Dictionary_2<Zenject::IProvider,System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType>> __declspec(property(get=__get__cachedInstances, put=__set__cachedInstances))  _cachedInstances;
 
-constexpr void __set__cachedInstances(::System::Collections::Generic::Dictionary_2<::Zenject::IProvider,::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType>> value) ;
+constexpr void __set__cachedInstances(System::Collections::Generic::Dictionary_2<Zenject::IProvider,System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType>> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::Zenject::IProvider,::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType>> __get__cachedInstances() const;
+constexpr System::Collections::Generic::Dictionary_2<Zenject::IProvider,System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType>> __get__cachedInstances() const;
 
- ::Zenject::DiContainer __declspec(property(get=__get__container, put=__set__container))  _container;
+ Zenject::DiContainer __declspec(property(get=__get__container, put=__set__container))  _container;
 
-constexpr void __set__container(::Zenject::DiContainer value) ;
+constexpr void __set__container(Zenject::DiContainer value) ;
 
-constexpr ::Zenject::DiContainer __get__container() const;
+constexpr Zenject::DiContainer __get__container() const;
 
- ::System::Collections::Generic::List_1<::System::Guid> __declspec(property(get=__get__factoryBindIds, put=__set__factoryBindIds))  _factoryBindIds;
+ System::Collections::Generic::List_1<System::Guid> __declspec(property(get=__get__factoryBindIds, put=__set__factoryBindIds))  _factoryBindIds;
 
-constexpr void __set__factoryBindIds(::System::Collections::Generic::List_1<::System::Guid> value) ;
+constexpr void __set__factoryBindIds(System::Collections::Generic::List_1<System::Guid> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::System::Guid> __get__factoryBindIds() const;
+constexpr System::Collections::Generic::List_1<System::Guid> __get__factoryBindIds() const;
 
- ::System::Collections::Generic::List_1<::Zenject::IFactory_2<TContract,TContract>> __declspec(property(get=__get__decoratorFactories, put=__set__decoratorFactories))  _decoratorFactories;
+ System::Collections::Generic::List_1<Zenject::IFactory_2<TContract,TContract>> __declspec(property(get=__get__decoratorFactories, put=__set__decoratorFactories))  _decoratorFactories;
 
-constexpr void __set__decoratorFactories(::System::Collections::Generic::List_1<::Zenject::IFactory_2<TContract,TContract>> value) ;
+constexpr void __set__decoratorFactories(System::Collections::Generic::List_1<Zenject::IFactory_2<TContract,TContract>> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::Zenject::IFactory_2<TContract,TContract>> __get__decoratorFactories() const;
+constexpr System::Collections::Generic::List_1<Zenject::IFactory_2<TContract,TContract>> __get__decoratorFactories() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "::Zenject::DiContainer", modifiers: "", def_value: None }]
-explicit DecoratorProvider_1(::Zenject::DiContainer container) ;
+// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }]
+explicit DecoratorProvider_1(Zenject::DiContainer container) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::Zenject::DiContainer container) ;
+ void _ctor(Zenject::DiContainer container) ;
 
 /// @brief Method AddFactoryId addr 0x0 size 0xffffffffffffffff virtual false final false
- void AddFactoryId(::System::Guid factoryBindId) ;
+ void AddFactoryId(System::Guid factoryBindId) ;
 
 /// @brief Method LazyInitializeDecoratorFactories addr 0x0 size 0xffffffffffffffff virtual false final false
  void LazyInitializeDecoratorFactories() ;
 
 /// @brief Method GetAllInstances addr 0x0 size 0xffffffffffffffff virtual true final true
- void GetAllInstances(::Zenject::IProvider provider, ::Zenject::InjectContext context, ::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> buffer) ;
+ void GetAllInstances(Zenject::IProvider provider, Zenject::InjectContext context, System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> buffer) ;
 
 /// @brief Method WrapProviderInstances addr 0x0 size 0xffffffffffffffff virtual false final false
- void WrapProviderInstances(::Zenject::IProvider provider, ::Zenject::InjectContext context, ::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> buffer) ;
+ void WrapProviderInstances(Zenject::IProvider provider, Zenject::InjectContext context, System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> buffer) ;
 
 /// @brief Method DecorateInstance addr 0x0 size 0xffffffffffffffff virtual false final false
- ::bs_hook::Il2CppWrapperType DecorateInstance(::bs_hook::Il2CppWrapperType instance, ::Zenject::InjectContext context) ;
+ ::bs_hook::Il2CppWrapperType DecorateInstance(::bs_hook::Il2CppWrapperType instance, Zenject::InjectContext context) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject::Internal
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::Internal::DecoratorProvider_1, "Zenject.Internal", "DecoratorProvider`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::Internal::DecoratorProvider_1, "Zenject.Internal", "DecoratorProvider`1");

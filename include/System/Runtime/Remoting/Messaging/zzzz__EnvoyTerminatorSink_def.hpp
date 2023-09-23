@@ -1,15 +1,14 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
+}
 namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessageCtrl;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -24,8 +23,8 @@ namespace System::Runtime::Remoting::Messaging {
 class CORDL_TYPE EnvoyTerminatorSink : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::Remoting::Messaging::IMessageSink
-constexpr operator  ::System::Runtime::Remoting::Messaging::IMessageSink() const noexcept;
+/// @brief Convert operator to System::Runtime::Remoting::Messaging::IMessageSink
+constexpr operator  System::Runtime::Remoting::Messaging::IMessageSink() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -60,20 +59,20 @@ constexpr explicit EnvoyTerminatorSink(void* ptr) noexcept : ::bs_hook::Il2CppWr
 
 // Fields
 
-static ::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink __declspec(property(get=__get_Instance, put=__set_Instance))  Instance;
+static System::Runtime::Remoting::Messaging::EnvoyTerminatorSink __declspec(property(get=__get_Instance, put=__set_Instance))  Instance;
 
-static void __set_Instance(::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink value) ;
+static void __set_Instance(System::Runtime::Remoting::Messaging::EnvoyTerminatorSink value) ;
 
-static ::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink __get_Instance() ;
+static System::Runtime::Remoting::Messaging::EnvoyTerminatorSink __get_Instance() ;
 
 
 // Methods
 
 /// @brief Method SyncProcessMessage addr 0x23411ac size 0xb4 virtual true final true
- ::System::Runtime::Remoting::Messaging::IMessage SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage msg) ;
+ System::Runtime::Remoting::Messaging::IMessage SyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage msg) ;
 
 /// @brief Method AsyncProcessMessage addr 0x2341260 size 0xc0 virtual true final true
- ::System::Runtime::Remoting::Messaging::IMessageCtrl AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage msg, ::System::Runtime::Remoting::Messaging::IMessageSink replySink) ;
+ System::Runtime::Remoting::Messaging::IMessageCtrl AsyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage msg, System::Runtime::Remoting::Messaging::IMessageSink replySink) ;
 
 // Ctor Parameters []
 explicit EnvoyTerminatorSink() ;
@@ -85,6 +84,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Messaging
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink, "System.Runtime.Remoting.Messaging", "EnvoyTerminatorSink");
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::EnvoyTerminatorSink);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::EnvoyTerminatorSink, "System.Runtime.Remoting.Messaging", "EnvoyTerminatorSink");

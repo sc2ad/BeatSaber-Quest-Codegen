@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputRuntime;
 }
@@ -55,12 +54,11 @@ constexpr explicit InputRuntimeExtensions(void* ptr) noexcept : ::bs_hook::Il2Cp
 
 /// @brief Method DeviceCommand addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TCommand>
-static int64_t DeviceCommand(::UnityEngine::InputSystem::LowLevel::IInputRuntime runtime, int32_t deviceId, ByRef<TCommand> command) ;
+static int64_t DeviceCommand(UnityEngine::InputSystem::LowLevel::IInputRuntime runtime, int32_t deviceId, ByRef<TCommand> command) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::LowLevel
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::LowLevel::InputRuntimeExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::InputRuntimeExtensions, "UnityEngine.InputSystem.LowLevel", "InputRuntimeExtensions");
+NEED_NO_BOX(UnityEngine::InputSystem::LowLevel::InputRuntimeExtensions);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::LowLevel::InputRuntimeExtensions, "UnityEngine.InputSystem.LowLevel", "InputRuntimeExtensions");

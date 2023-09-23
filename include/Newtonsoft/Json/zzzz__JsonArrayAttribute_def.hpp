@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "Newtonsoft/Json/zzzz__JsonContainerAttribute_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace Newtonsoft::Json {
 class JsonArrayAttribute;
@@ -13,7 +12,7 @@ namespace Newtonsoft::Json {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11757))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11756))
 // CS Name: Newtonsoft.Json.JsonArrayAttribute
-class CORDL_TYPE JsonArrayAttribute : public ::Newtonsoft::Json::JsonContainerAttribute {
+class CORDL_TYPE JsonArrayAttribute : public Newtonsoft::Json::JsonContainerAttribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr JsonArrayAttribute(JsonArrayAttribute const& ) noexcept = default;
 constexpr JsonArrayAttribute(JsonArrayAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit JsonArrayAttribute(void* ptr) noexcept : ::Newtonsoft::Json::JsonContainerAttribute(ptr) {
+constexpr explicit JsonArrayAttribute(void* ptr) noexcept : Newtonsoft::Json::JsonContainerAttribute(ptr) {
 }
 
 
@@ -91,6 +90,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::JsonArrayAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonArrayAttribute, "Newtonsoft.Json", "JsonArrayAttribute");
+NEED_NO_BOX(Newtonsoft::Json::JsonArrayAttribute);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::JsonArrayAttribute, "Newtonsoft.Json", "JsonArrayAttribute");

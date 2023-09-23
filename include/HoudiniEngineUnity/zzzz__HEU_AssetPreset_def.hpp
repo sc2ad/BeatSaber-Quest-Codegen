@@ -4,16 +4,15 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace HoudiniEngineUnity {
-class HEU_VolumeCachePreset;
+class HEU_InputPreset;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace HoudiniEngineUnity {
-class HEU_InputPreset;
+class HEU_VolumeCachePreset;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -85,29 +84,29 @@ constexpr void __set__parameterPreset(::ArrayW<uint8_t> value) ;
 
 constexpr ::ArrayW<uint8_t> __get__parameterPreset() const;
 
- ::System::Collections::Generic::List_1<::StringW> __declspec(property(get=__get__curveNames, put=__set__curveNames))  _curveNames;
+ System::Collections::Generic::List_1<::StringW> __declspec(property(get=__get__curveNames, put=__set__curveNames))  _curveNames;
 
-constexpr void __set__curveNames(::System::Collections::Generic::List_1<::StringW> value) ;
+constexpr void __set__curveNames(System::Collections::Generic::List_1<::StringW> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::StringW> __get__curveNames() const;
+constexpr System::Collections::Generic::List_1<::StringW> __get__curveNames() const;
 
- ::System::Collections::Generic::List_1<::ArrayW<uint8_t>> __declspec(property(get=__get__curvePresets, put=__set__curvePresets))  _curvePresets;
+ System::Collections::Generic::List_1<::ArrayW<uint8_t>> __declspec(property(get=__get__curvePresets, put=__set__curvePresets))  _curvePresets;
 
-constexpr void __set__curvePresets(::System::Collections::Generic::List_1<::ArrayW<uint8_t>> value) ;
+constexpr void __set__curvePresets(System::Collections::Generic::List_1<::ArrayW<uint8_t>> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::ArrayW<uint8_t>> __get__curvePresets() const;
+constexpr System::Collections::Generic::List_1<::ArrayW<uint8_t>> __get__curvePresets() const;
 
- ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset> __declspec(property(get=__get_inputPresets, put=__set_inputPresets))  inputPresets;
+ System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputPreset> __declspec(property(get=__get_inputPresets, put=__set_inputPresets))  inputPresets;
 
-constexpr void __set_inputPresets(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset> value) ;
+constexpr void __set_inputPresets(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputPreset> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset> __get_inputPresets() const;
+constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputPreset> __get_inputPresets() const;
 
- ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset> __declspec(property(get=__get_volumeCachePresets, put=__set_volumeCachePresets))  volumeCachePresets;
+ System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCachePreset> __declspec(property(get=__get_volumeCachePresets, put=__set_volumeCachePresets))  volumeCachePresets;
 
-constexpr void __set_volumeCachePresets(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset> value) ;
+constexpr void __set_volumeCachePresets(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCachePreset> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset> __get_volumeCachePresets() const;
+constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCachePreset> __get_volumeCachePresets() const;
 
 
 // Methods
@@ -122,6 +121,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_AssetPreset);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_AssetPreset, "HoudiniEngineUnity", "HEU_AssetPreset");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_AssetPreset);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_AssetPreset, "HoudiniEngineUnity", "HEU_AssetPreset");

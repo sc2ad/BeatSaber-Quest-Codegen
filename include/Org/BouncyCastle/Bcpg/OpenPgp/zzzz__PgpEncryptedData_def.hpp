@@ -4,19 +4,18 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Bcpg {
-class InputStreamPacket;
-}
 namespace System::IO {
 class Stream;
 }
+namespace Org::BouncyCastle::Bcpg {
+class InputStreamPacket;
+}
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpEncryptedData;
+class Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class ____Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream;
+class PgpEncryptedData;
 }
 // Type: ::TruncatedStream
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -24,37 +23,37 @@ namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(498))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1637))
 // CS Name: Org.BouncyCastle.Bcpg.OpenPgp.PgpEncryptedData::TruncatedStream
-class CORDL_TYPE ____Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream : public ::Org::BouncyCastle::Utilities::IO::BaseInputStream {
+class CORDL_TYPE Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream : public Org::BouncyCastle::Utilities::IO::BaseInputStream {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
 
-virtual ~____Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream() = default;
+virtual ~Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream", modifiers: " const&", def_value: None }]
-constexpr ____Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream(____Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream", modifiers: " const&", def_value: None }]
+constexpr Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream(Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream", modifiers: "&&", def_value: None }]
-constexpr ____Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream(____Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream", modifiers: "&&", def_value: None }]
+constexpr Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream(Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream(void* ptr) noexcept : ::Org::BouncyCastle::Utilities::IO::BaseInputStream(ptr) {
+constexpr explicit Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream(void* ptr) noexcept : Org::BouncyCastle::Utilities::IO::BaseInputStream(ptr) {
 }
 
 
-  constexpr ____Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream& operator=(std::nullptr_t) noexcept {
+  constexpr Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream& operator=(void* o) noexcept {
+  constexpr Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream& operator=(____Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream&& o) noexcept = default;
-  constexpr ____Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream& operator=(____Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream const& o) noexcept = default;
+  constexpr Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream& operator=(Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream&& o) noexcept = default;
+  constexpr Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream& operator=(Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream const& o) noexcept = default;
                 
 
 
@@ -69,11 +68,11 @@ static constexpr int32_t  LookAheadBufSize{512};
 /// @brief Field LookAheadBufLimit offset 0
 static constexpr int32_t  LookAheadBufLimit{490};
 
- ::System::IO::Stream __declspec(property(get=__get_inStr, put=__set_inStr))  inStr;
+ System::IO::Stream __declspec(property(get=__get_inStr, put=__set_inStr))  inStr;
 
-constexpr void __set_inStr(::System::IO::Stream value) ;
+constexpr void __set_inStr(System::IO::Stream value) ;
 
-constexpr ::System::IO::Stream __get_inStr() const;
+constexpr System::IO::Stream __get_inStr() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get_lookAhead, put=__set_lookAhead))  lookAhead;
 
@@ -96,11 +95,11 @@ constexpr int32_t __get_bufEnd() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "inStr", ty: "::System::IO::Stream", modifiers: "", def_value: None }]
-explicit ____Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream(::System::IO::Stream inStr) ;
+// Ctor Parameters [CppParam { name: "inStr", ty: "System::IO::Stream", modifiers: "", def_value: None }]
+explicit Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream(System::IO::Stream inStr) ;
 
 /// @brief Method .ctor addr 0x101d7a8 size 0xd8 virtual false final false
- void _ctor(::System::IO::Stream inStr) ;
+ void _ctor(System::IO::Stream inStr) ;
 
 /// @brief Method FillBuffer addr 0x101d880 size 0x58 virtual false final false
  int32_t FillBuffer() ;
@@ -127,7 +126,7 @@ namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class CORDL_TYPE PgpEncryptedData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using TruncatedStream = ::Org::BouncyCastle::Bcpg::OpenPgp::____Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream;
+using TruncatedStream = Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -162,35 +161,35 @@ constexpr explicit PgpEncryptedData(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
- ::Org::BouncyCastle::Bcpg::InputStreamPacket __declspec(property(get=__get_encData, put=__set_encData))  encData;
+ Org::BouncyCastle::Bcpg::InputStreamPacket __declspec(property(get=__get_encData, put=__set_encData))  encData;
 
-constexpr void __set_encData(::Org::BouncyCastle::Bcpg::InputStreamPacket value) ;
+constexpr void __set_encData(Org::BouncyCastle::Bcpg::InputStreamPacket value) ;
 
-constexpr ::Org::BouncyCastle::Bcpg::InputStreamPacket __get_encData() const;
+constexpr Org::BouncyCastle::Bcpg::InputStreamPacket __get_encData() const;
 
- ::System::IO::Stream __declspec(property(get=__get_encStream, put=__set_encStream))  encStream;
+ System::IO::Stream __declspec(property(get=__get_encStream, put=__set_encStream))  encStream;
 
-constexpr void __set_encStream(::System::IO::Stream value) ;
+constexpr void __set_encStream(System::IO::Stream value) ;
 
-constexpr ::System::IO::Stream __get_encStream() const;
+constexpr System::IO::Stream __get_encStream() const;
 
- ::Org::BouncyCastle::Bcpg::OpenPgp::____Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream __declspec(property(get=__get_truncStream, put=__set_truncStream))  truncStream;
+ Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream __declspec(property(get=__get_truncStream, put=__set_truncStream))  truncStream;
 
-constexpr void __set_truncStream(::Org::BouncyCastle::Bcpg::OpenPgp::____Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream value) ;
+constexpr void __set_truncStream(Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream value) ;
 
-constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::____Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream __get_truncStream() const;
+constexpr Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream __get_truncStream() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "encData", ty: "::Org::BouncyCastle::Bcpg::InputStreamPacket", modifiers: "", def_value: None }]
-explicit PgpEncryptedData(::Org::BouncyCastle::Bcpg::InputStreamPacket encData) ;
+// Ctor Parameters [CppParam { name: "encData", ty: "Org::BouncyCastle::Bcpg::InputStreamPacket", modifiers: "", def_value: None }]
+explicit PgpEncryptedData(Org::BouncyCastle::Bcpg::InputStreamPacket encData) ;
 
 /// @brief Method .ctor addr 0x101d414 size 0x28 virtual false final false
- void _ctor(::Org::BouncyCastle::Bcpg::InputStreamPacket encData) ;
+ void _ctor(Org::BouncyCastle::Bcpg::InputStreamPacket encData) ;
 
 /// @brief Method GetInputStream addr 0x101d43c size 0x1c virtual true final false
- ::System::IO::Stream GetInputStream() ;
+ System::IO::Stream GetInputStream() ;
 
 /// @brief Method IsIntegrityProtected addr 0x101d458 size 0x7c virtual false final false
  bool IsIntegrityProtected() ;
@@ -202,8 +201,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg::OpenPgp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData, "Org.BouncyCastle.Bcpg.OpenPgp", "PgpEncryptedData");
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::OpenPgp::____Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::OpenPgp::____Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream, "Org.BouncyCastle.Bcpg.OpenPgp", "PgpEncryptedData/TruncatedStream");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream, "Org.BouncyCastle.Bcpg.OpenPgp", "PgpEncryptedData/TruncatedStream");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData, "Org.BouncyCastle.Bcpg.OpenPgp", "PgpEncryptedData");

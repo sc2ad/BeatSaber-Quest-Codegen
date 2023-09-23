@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Security/zzzz__GeneralSecurityException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class Exception;
 }
@@ -16,7 +15,7 @@ namespace Org::BouncyCastle::Pkix {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1717))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1718))
 // CS Name: Org.BouncyCastle.Pkix.PkixCertPathBuilderException
-class CORDL_TYPE PkixCertPathBuilderException : public ::Org::BouncyCastle::Security::GeneralSecurityException {
+class CORDL_TYPE PkixCertPathBuilderException : public Org::BouncyCastle::Security::GeneralSecurityException {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr PkixCertPathBuilderException(PkixCertPathBuilderException const& ) noe
 constexpr PkixCertPathBuilderException(PkixCertPathBuilderException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PkixCertPathBuilderException(void* ptr) noexcept : ::Org::BouncyCastle::Security::GeneralSecurityException(ptr) {
+constexpr explicit PkixCertPathBuilderException(void* ptr) noexcept : Org::BouncyCastle::Security::GeneralSecurityException(ptr) {
 }
 
 
@@ -64,16 +63,15 @@ explicit PkixCertPathBuilderException(::StringW message) ;
 /// @brief Method .ctor addr 0x105d4a0 size 0x4 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "exception", ty: "::System::Exception", modifiers: "", def_value: None }]
-explicit PkixCertPathBuilderException(::StringW message, ::System::Exception exception) ;
+// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "exception", ty: "System::Exception", modifiers: "", def_value: None }]
+explicit PkixCertPathBuilderException(::StringW message, System::Exception exception) ;
 
 /// @brief Method .ctor addr 0x105dcac size 0x4 virtual false final false
- void _ctor(::StringW message, ::System::Exception exception) ;
+ void _ctor(::StringW message, System::Exception exception) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Pkix
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Pkix::PkixCertPathBuilderException);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Pkix::PkixCertPathBuilderException, "Org.BouncyCastle.Pkix", "PkixCertPathBuilderException");
+NEED_NO_BOX(Org::BouncyCastle::Pkix::PkixCertPathBuilderException);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Pkix::PkixCertPathBuilderException, "Org.BouncyCastle.Pkix", "PkixCertPathBuilderException");

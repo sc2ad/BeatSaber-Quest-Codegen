@@ -1,6 +1,5 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
@@ -24,6 +23,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::ICipherParameters);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::ICipherParameters, "Org.BouncyCastle.Crypto", "ICipherParameters");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::ICipherParameters);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::ICipherParameters, "Org.BouncyCastle.Crypto", "ICipherParameters");

@@ -1,6 +1,5 @@
 #pragma once
 #include "../../../../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace Org::BouncyCastle::Math::EC {
 class ECPointMap;
 }
@@ -26,7 +25,7 @@ constexpr explicit ECEndomorphism(void* ptr) noexcept : ::cordl_internals::Inter
 
 // Properties
 
- ::Org::BouncyCastle::Math::EC::ECPointMap __declspec(property(get=get_PointMap))  PointMap;
+ Org::BouncyCastle::Math::EC::ECPointMap __declspec(property(get=get_PointMap))  PointMap;
 
  bool __declspec(property(get=get_HasEfficientPointMap))  HasEfficientPointMap;
 
@@ -34,7 +33,7 @@ constexpr explicit ECEndomorphism(void* ptr) noexcept : ::cordl_internals::Inter
 // Methods
 
 /// @brief Method get_PointMap addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Math::EC::ECPointMap get_PointMap() ;
+ Org::BouncyCastle::Math::EC::ECPointMap get_PointMap() ;
 
 /// @brief Method get_HasEfficientPointMap addr 0x0 size 0xffffffffffffffff virtual true final false
  bool get_HasEfficientPointMap() ;
@@ -43,6 +42,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Math::EC::Endo
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism, "Org.BouncyCastle.Math.EC.Endo", "ECEndomorphism");
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism, "Org.BouncyCastle.Math.EC.Endo", "ECEndomorphism");

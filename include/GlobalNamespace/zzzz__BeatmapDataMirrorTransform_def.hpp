@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
@@ -14,7 +13,7 @@ namespace GlobalNamespace {
 class BeatmapDataMirrorTransform;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0;
+class GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0;
 }
 // Type: ::<>c__DisplayClass0_0
 namespace GlobalNamespace {
@@ -22,37 +21,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4155))
 // CS Name: BeatmapDataMirrorTransform::<>c__DisplayClass0_0
-class CORDL_TYPE ____GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0() = default;
+virtual ~GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0(____GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0(GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0(____GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0(GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0& operator=(____GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0&& o) noexcept = default;
-  constexpr ____GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0& operator=(____GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0 const& o) noexcept = default;
+  constexpr GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0& operator=(GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0&& o) noexcept = default;
+  constexpr GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0& operator=(GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0 const& o) noexcept = default;
                 
 
 
@@ -68,13 +67,13 @@ constexpr int32_t __get_numberOfLines() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0() ;
+explicit GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0() ;
 
 /// @brief Method .ctor addr 0x21b9adc size 0x8 virtual false final false
  void _ctor() ;
 
 /// @brief Method <CreateTransformedData>g__ProcessData|0 addr 0x21b9ae4 size 0xe0 virtual false final false
- ::GlobalNamespace::BeatmapDataItem _CreateTransformedData_g__ProcessData_0(::GlobalNamespace::BeatmapDataItem beatmapDataItem) ;
+ GlobalNamespace::BeatmapDataItem _CreateTransformedData_g__ProcessData_0(GlobalNamespace::BeatmapDataItem beatmapDataItem) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -89,7 +88,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapDataMirrorTransform : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using __c__DisplayClass0_0 = ::GlobalNamespace::____GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0;
+using __c__DisplayClass0_0 = GlobalNamespace::GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -125,14 +124,13 @@ constexpr explicit BeatmapDataMirrorTransform(void* ptr) noexcept : ::bs_hook::I
 // Methods
 
 /// @brief Method CreateTransformedData addr 0x21b994c size 0x190 virtual false final false
-static ::GlobalNamespace::IReadonlyBeatmapData CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData beatmapData) ;
+static GlobalNamespace::IReadonlyBeatmapData CreateTransformedData(GlobalNamespace::IReadonlyBeatmapData beatmapData) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BeatmapDataMirrorTransform);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapDataMirrorTransform, "", "BeatmapDataMirrorTransform");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0, "", "BeatmapDataMirrorTransform/<>c__DisplayClass0_0");
+NEED_NO_BOX(GlobalNamespace::BeatmapDataMirrorTransform);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataMirrorTransform, "", "BeatmapDataMirrorTransform");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0, "", "BeatmapDataMirrorTransform/<>c__DisplayClass0_0");

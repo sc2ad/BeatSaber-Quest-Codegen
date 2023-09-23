@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Oculus::Platform::Models {
-class AchievementUpdate;
-}
 namespace Oculus::Platform::Models {
 class AchievementProgressList;
 }
 namespace Oculus::Platform::Models {
 class AchievementDefinitionList;
+}
+namespace Oculus::Platform::Models {
+class AchievementUpdate;
 }
 namespace Oculus::Platform {
 template<typename T>
@@ -65,36 +64,35 @@ constexpr explicit Achievements(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 // Methods
 
 /// @brief Method AddCount addr 0x258f7a8 size 0x170 virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementUpdate> AddCount(::StringW name, uint64_t count) ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementUpdate> AddCount(::StringW name, uint64_t count) ;
 
 /// @brief Method AddFields addr 0x258f918 size 0x170 virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementUpdate> AddFields(::StringW name, ::StringW fields) ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementUpdate> AddFields(::StringW name, ::StringW fields) ;
 
 /// @brief Method GetAllDefinitions addr 0x258fa88 size 0x158 virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementDefinitionList> GetAllDefinitions() ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementDefinitionList> GetAllDefinitions() ;
 
 /// @brief Method GetAllProgress addr 0x258fbe0 size 0x158 virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementProgressList> GetAllProgress() ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementProgressList> GetAllProgress() ;
 
 /// @brief Method GetDefinitionsByName addr 0x258fd38 size 0x174 virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementDefinitionList> GetDefinitionsByName(::ArrayW<::StringW> names) ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementDefinitionList> GetDefinitionsByName(::ArrayW<::StringW> names) ;
 
 /// @brief Method GetProgressByName addr 0x258feac size 0x174 virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementProgressList> GetProgressByName(::ArrayW<::StringW> names) ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementProgressList> GetProgressByName(::ArrayW<::StringW> names) ;
 
 /// @brief Method Unlock addr 0x2590020 size 0x160 virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementUpdate> Unlock(::StringW name) ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementUpdate> Unlock(::StringW name) ;
 
 /// @brief Method GetNextAchievementDefinitionListPage addr 0x2590180 size 0x1dc virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementDefinitionList> GetNextAchievementDefinitionListPage(::Oculus::Platform::Models::AchievementDefinitionList list) ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementDefinitionList> GetNextAchievementDefinitionListPage(Oculus::Platform::Models::AchievementDefinitionList list) ;
 
 /// @brief Method GetNextAchievementProgressListPage addr 0x259035c size 0x1dc virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementProgressList> GetNextAchievementProgressListPage(::Oculus::Platform::Models::AchievementProgressList list) ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementProgressList> GetNextAchievementProgressListPage(Oculus::Platform::Models::AchievementProgressList list) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Achievements);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Achievements, "Oculus.Platform", "Achievements");
+NEED_NO_BOX(Oculus::Platform::Achievements);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Achievements, "Oculus.Platform", "Achievements");

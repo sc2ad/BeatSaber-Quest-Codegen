@@ -5,7 +5,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Vector2;
 }
@@ -26,11 +25,11 @@ namespace UnityEngine::ProBuilder {
 struct CORDL_TYPE IntVec2 : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::ProBuilder::IntVec2>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::ProBuilder::IntVec2>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::ProBuilder::IntVec2>
+constexpr operator  System::IEquatable_1<UnityEngine::ProBuilder::IntVec2>() const;
 
-// Ctor Parameters [CppParam { name: "value", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }]
-constexpr IntVec2(::UnityEngine::Vector2 value) noexcept;
+// Ctor Parameters [CppParam { name: "value", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }]
+constexpr IntVec2(UnityEngine::Vector2 value) noexcept;
 
 
                     constexpr IntVec2(IntVec2 const&) = default;
@@ -63,11 +62,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_value, put=__set_value))  value;
+ UnityEngine::Vector2 __declspec(property(get=__get_value, put=__set_value))  value;
 
-constexpr void __set_value(::UnityEngine::Vector2 value) ;
+constexpr void __set_value(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_value() const;
+constexpr UnityEngine::Vector2 __get_value() const;
 
 
 // Properties
@@ -86,22 +85,22 @@ constexpr ::UnityEngine::Vector2 __get_value() const;
  float_t get_y() ;
 
 /// @brief Method .ctor addr 0x29b2de0 size 0x8 virtual false final false
- void _ctor(::UnityEngine::Vector2 vector) ;
+ void _ctor(UnityEngine::Vector2 vector) ;
 
 /// @brief Method ToString addr 0x29b2de8 size 0xa0 virtual true final false
  ::StringW ToString() ;
 
 /// @brief Method op_Equality addr 0x29b2e88 size 0x24 virtual false final false
-static bool op_Equality(::UnityEngine::ProBuilder::IntVec2 a, ::UnityEngine::ProBuilder::IntVec2 b) ;
+static bool op_Equality(UnityEngine::ProBuilder::IntVec2 a, UnityEngine::ProBuilder::IntVec2 b) ;
 
 /// @brief Method op_Inequality addr 0x29b2f18 size 0x28 virtual false final false
-static bool op_Inequality(::UnityEngine::ProBuilder::IntVec2 a, ::UnityEngine::ProBuilder::IntVec2 b) ;
+static bool op_Inequality(UnityEngine::ProBuilder::IntVec2 a, UnityEngine::ProBuilder::IntVec2 b) ;
 
 /// @brief Method Equals addr 0x29b2eac size 0x6c virtual true final true
- bool Equals(::UnityEngine::ProBuilder::IntVec2 p) ;
+ bool Equals(UnityEngine::ProBuilder::IntVec2 p) ;
 
 /// @brief Method Equals addr 0x29b2fa8 size 0x6c virtual false final false
- bool Equals(::UnityEngine::Vector2 p) ;
+ bool Equals(UnityEngine::Vector2 p) ;
 
 /// @brief Method Equals addr 0x29b3014 size 0xbc virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType b) ;
@@ -113,14 +112,13 @@ static bool op_Inequality(::UnityEngine::ProBuilder::IntVec2 a, ::UnityEngine::P
 static int32_t round(float_t v) ;
 
 /// @brief Method op_Implicit addr 0x29b30dc size 0x4 virtual false final false
-static ::UnityEngine::Vector2 op_Implicit___UnityEngine__Vector2(::UnityEngine::ProBuilder::IntVec2 p) ;
+static UnityEngine::Vector2 op_Implicit_UnityEngine__Vector2(UnityEngine::ProBuilder::IntVec2 p) ;
 
 /// @brief Method op_Implicit addr 0x29b30e0 size 0x4 virtual false final false
-static ::UnityEngine::ProBuilder::IntVec2 op_Implicit___UnityEngine__ProBuilder__IntVec2(::UnityEngine::Vector2 p) ;
+static UnityEngine::ProBuilder::IntVec2 op_Implicit_UnityEngine__ProBuilder__IntVec2(UnityEngine::Vector2 p) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::IntVec2, "UnityEngine.ProBuilder", "IntVec2");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::IntVec2, "UnityEngine.ProBuilder", "IntVec2");

@@ -3,7 +3,6 @@
 #include "System/Security/Cryptography/zzzz__SHA1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security::Cryptography {
 class SHA1Managed;
@@ -14,7 +13,7 @@ namespace System::Security::Cryptography {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2954))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2955))
 // CS Name: System.Security.Cryptography.SHA1Managed
-class CORDL_TYPE SHA1Managed : public ::System::Security::Cryptography::SHA1 {
+class CORDL_TYPE SHA1Managed : public System::Security::Cryptography::SHA1 {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr SHA1Managed(SHA1Managed const& ) noexcept = default;
 constexpr SHA1Managed(SHA1Managed&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SHA1Managed(void* ptr) noexcept : ::System::Security::Cryptography::SHA1(ptr) {
+constexpr explicit SHA1Managed(void* ptr) noexcept : System::Security::Cryptography::SHA1(ptr) {
 }
 
 
@@ -111,6 +110,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::SHA1Managed);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::SHA1Managed, "System.Security.Cryptography", "SHA1Managed");
+NEED_NO_BOX(System::Security::Cryptography::SHA1Managed);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SHA1Managed, "System.Security.Cryptography", "SHA1Managed");

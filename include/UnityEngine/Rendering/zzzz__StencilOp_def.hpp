@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Rendering {
 struct StencilOp;
@@ -73,32 +72,31 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Keep offset 0
-static ::UnityEngine::Rendering::StencilOp const Keep;
+static UnityEngine::Rendering::StencilOp const Keep;
 
 /// @brief Field Zero offset 0
-static ::UnityEngine::Rendering::StencilOp const Zero;
+static UnityEngine::Rendering::StencilOp const Zero;
 
 /// @brief Field Replace offset 0
-static ::UnityEngine::Rendering::StencilOp const Replace;
+static UnityEngine::Rendering::StencilOp const Replace;
 
 /// @brief Field IncrementSaturate offset 0
-static ::UnityEngine::Rendering::StencilOp const IncrementSaturate;
+static UnityEngine::Rendering::StencilOp const IncrementSaturate;
 
 /// @brief Field DecrementSaturate offset 0
-static ::UnityEngine::Rendering::StencilOp const DecrementSaturate;
+static UnityEngine::Rendering::StencilOp const DecrementSaturate;
 
 /// @brief Field Invert offset 0
-static ::UnityEngine::Rendering::StencilOp const Invert;
+static UnityEngine::Rendering::StencilOp const Invert;
 
 /// @brief Field IncrementWrap offset 0
-static ::UnityEngine::Rendering::StencilOp const IncrementWrap;
+static UnityEngine::Rendering::StencilOp const IncrementWrap;
 
 /// @brief Field DecrementWrap offset 0
-static ::UnityEngine::Rendering::StencilOp const DecrementWrap;
+static UnityEngine::Rendering::StencilOp const DecrementWrap;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Rendering
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::StencilOp, "UnityEngine.Rendering", "StencilOp");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::StencilOp, "UnityEngine.Rendering", "StencilOp");

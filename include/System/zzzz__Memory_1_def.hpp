@@ -5,21 +5,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System {
-template<typename T>
-struct ReadOnlyMemory_1;
-}
-namespace System::Buffers {
-struct MemoryHandle;
-}
 namespace System {
 template<typename T>
 class IEquatable_1;
 }
 namespace System {
 template<typename T>
+struct ReadOnlyMemory_1;
+}
+namespace System {
+template<typename T>
 struct Span_1;
+}
+namespace System::Buffers {
+struct MemoryHandle;
 }
 // Forward declare root types
 namespace System {
@@ -46,8 +45,8 @@ template<::cordl_internals::il2cpp_reference_type T>
 struct CORDL_TYPE Memory_1<T> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::System::Memory_1<T>>
-constexpr operator  ::System::IEquatable_1<::System::Memory_1<T>>() const;
+/// @brief Convert operator to System::IEquatable_1<System::Memory_1<T>>
+constexpr operator  System::IEquatable_1<System::Memory_1<T>>() const;
 
 // Ctor Parameters [CppParam { name: "_object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_length", ty: "int32_t", modifiers: "", def_value: None }]
 constexpr Memory_1(::bs_hook::Il2CppWrapperType _object, int32_t _index, int32_t _length) noexcept;
@@ -109,7 +108,7 @@ static constexpr int32_t  RemoveFlagsBitMask{2147483647};
 
  int32_t __declspec(property(get=get_Length))  Length;
 
- ::System::Span_1<T> __declspec(property(get=get_Span))  Span;
+ System::Span_1<T> __declspec(property(get=get_Span))  Span;
 
 
 // Methods
@@ -124,10 +123,10 @@ static constexpr int32_t  RemoveFlagsBitMask{2147483647};
  void _ctor(::bs_hook::Il2CppWrapperType obj, int32_t start, int32_t length) ;
 
 /// @brief Method op_Implicit addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Memory_1<T> op_Implicit___System__Memory_1_T_(::ArrayW<T> array) ;
+static System::Memory_1<T> op_Implicit_System__Memory_1_T_(::ArrayW<T> array) ;
 
 /// @brief Method op_Implicit addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::ReadOnlyMemory_1<T> op_Implicit___System__ReadOnlyMemory_1_T_(::System::Memory_1<T> memory) ;
+static System::ReadOnlyMemory_1<T> op_Implicit_System__ReadOnlyMemory_1_T_(System::Memory_1<T> memory) ;
 
 /// @brief Method get_Length addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t get_Length() ;
@@ -136,16 +135,16 @@ static ::System::ReadOnlyMemory_1<T> op_Implicit___System__ReadOnlyMemory_1_T_(:
  ::StringW ToString() ;
 
 /// @brief Method Slice addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Memory_1<T> Slice(int32_t start) ;
+ System::Memory_1<T> Slice(int32_t start) ;
 
 /// @brief Method Slice addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Memory_1<T> Slice(int32_t start, int32_t length) ;
+ System::Memory_1<T> Slice(int32_t start, int32_t length) ;
 
 /// @brief Method get_Span addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Span_1<T> get_Span() ;
+ System::Span_1<T> get_Span() ;
 
 /// @brief Method Pin addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Buffers::MemoryHandle Pin() ;
+ System::Buffers::MemoryHandle Pin() ;
 
 /// @brief Method ToArray addr 0x0 size 0xffffffffffffffff virtual false final false
  ::ArrayW<T> ToArray() ;
@@ -154,7 +153,7 @@ static ::System::ReadOnlyMemory_1<T> op_Implicit___System__ReadOnlyMemory_1_T_(:
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final true
- bool Equals(::System::Memory_1<T> other) ;
+ bool Equals(System::Memory_1<T> other) ;
 
 /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t GetHashCode() ;
@@ -174,14 +173,14 @@ namespace System {
 // cpp template
 template<>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2436))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2436)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2436), inst: 717 })
 // CS Name: System.Memory`1
 struct CORDL_TYPE Memory_1<uint8_t> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::System::Memory_1<uint8_t>>
-constexpr operator  ::System::IEquatable_1<::System::Memory_1<uint8_t>>() const;
+/// @brief Convert operator to System::IEquatable_1<System::Memory_1<uint8_t>>
+constexpr operator  System::IEquatable_1<System::Memory_1<uint8_t>>() const;
 
 // Ctor Parameters [CppParam { name: "_object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_length", ty: "int32_t", modifiers: "", def_value: None }]
 constexpr Memory_1(::bs_hook::Il2CppWrapperType _object, int32_t _index, int32_t _length) noexcept;
@@ -243,7 +242,7 @@ static constexpr int32_t  RemoveFlagsBitMask{2147483647};
 
  int32_t __declspec(property(get=get_Length))  Length;
 
- ::System::Span_1<uint8_t> __declspec(property(get=get_Span))  Span;
+ System::Span_1<uint8_t> __declspec(property(get=get_Span))  Span;
 
 
 // Methods
@@ -258,10 +257,10 @@ static constexpr int32_t  RemoveFlagsBitMask{2147483647};
  void _ctor(::bs_hook::Il2CppWrapperType obj, int32_t start, int32_t length) ;
 
 /// @brief Method op_Implicit addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::Memory_1<uint8_t> op_Implicit___System__Memory_1_uint8_t_(::ArrayW<uint8_t> array) ;
+static System::Memory_1<uint8_t> op_Implicit_System__Memory_1_uint8_t_(::ArrayW<uint8_t> array) ;
 
 /// @brief Method op_Implicit addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::System::ReadOnlyMemory_1<uint8_t> op_Implicit___System__ReadOnlyMemory_1_uint8_t_(::System::Memory_1<uint8_t> memory) ;
+static System::ReadOnlyMemory_1<uint8_t> op_Implicit_System__ReadOnlyMemory_1_uint8_t_(System::Memory_1<uint8_t> memory) ;
 
 /// @brief Method get_Length addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t get_Length() ;
@@ -270,16 +269,16 @@ static ::System::ReadOnlyMemory_1<uint8_t> op_Implicit___System__ReadOnlyMemory_
  ::StringW ToString() ;
 
 /// @brief Method Slice addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Memory_1<uint8_t> Slice(int32_t start) ;
+ System::Memory_1<uint8_t> Slice(int32_t start) ;
 
 /// @brief Method Slice addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Memory_1<uint8_t> Slice(int32_t start, int32_t length) ;
+ System::Memory_1<uint8_t> Slice(int32_t start, int32_t length) ;
 
 /// @brief Method get_Span addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Span_1<uint8_t> get_Span() ;
+ System::Span_1<uint8_t> get_Span() ;
 
 /// @brief Method Pin addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Buffers::MemoryHandle Pin() ;
+ System::Buffers::MemoryHandle Pin() ;
 
 /// @brief Method ToArray addr 0x0 size 0xffffffffffffffff virtual false final false
  ::ArrayW<uint8_t> ToArray() ;
@@ -288,7 +287,7 @@ static ::System::ReadOnlyMemory_1<uint8_t> op_Implicit___System__ReadOnlyMemory_
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final true
- bool Equals(::System::Memory_1<uint8_t> other) ;
+ bool Equals(System::Memory_1<uint8_t> other) ;
 
 /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t GetHashCode() ;
@@ -303,5 +302,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Memory_1, "System", "Memory`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::Memory_1, "System", "Memory`1");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
 namespace UnityEngine {
 struct EventType;
 }
@@ -98,14 +97,13 @@ constexpr bool __get__wantsLessLayoutEvents_k__BackingField() const;
  bool get_wantsLessLayoutEvents() ;
 
 /// @brief Method WantsEvent addr 0x2b86330 size 0x30 virtual false final false
- bool WantsEvent(::UnityEngine::EventType type) ;
+ bool WantsEvent(UnityEngine::EventType type) ;
 
 /// @brief Method WantsLayoutPass addr 0x2b86360 size 0x94 virtual false final false
- bool WantsLayoutPass(::UnityEngine::EventType type) ;
+ bool WantsLayoutPass(UnityEngine::EventType type) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventInterests, "UnityEngine", "EventInterests");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventInterests, "UnityEngine", "EventInterests");

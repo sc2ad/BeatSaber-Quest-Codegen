@@ -3,17 +3,16 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-template<typename T>
-struct ArraySegment_1;
+namespace System::Buffers {
+struct MemoryHandle;
 }
 namespace System {
 template<typename T>
 struct Span_1;
 }
-namespace System::Buffers {
-struct MemoryHandle;
+namespace System {
+template<typename T>
+struct ArraySegment_1;
 }
 // Forward declare root types
 namespace System::Buffers {
@@ -74,13 +73,13 @@ constexpr explicit MemoryManager_1(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 // Methods
 
 /// @brief Method GetSpan addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Span_1<T> GetSpan() ;
+ System::Span_1<T> GetSpan() ;
 
 /// @brief Method Pin addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Buffers::MemoryHandle Pin(int32_t elementIndex) ;
+ System::Buffers::MemoryHandle Pin(int32_t elementIndex) ;
 
 /// @brief Method TryGetArray addr 0x0 size 0xffffffffffffffff virtual true final false
- bool TryGetArray(ByRef<::System::ArraySegment_1<T>> segment) ;
+ bool TryGetArray(ByRef<System::ArraySegment_1<T>> segment) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -131,17 +130,16 @@ constexpr explicit MemoryManager_1(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 // Methods
 
 /// @brief Method GetSpan addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Span_1<uint8_t> GetSpan() ;
+ System::Span_1<uint8_t> GetSpan() ;
 
 /// @brief Method Pin addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Buffers::MemoryHandle Pin(int32_t elementIndex) ;
+ System::Buffers::MemoryHandle Pin(int32_t elementIndex) ;
 
 /// @brief Method TryGetArray addr 0x0 size 0xffffffffffffffff virtual true final false
- bool TryGetArray(ByRef<::System::ArraySegment_1<uint8_t>> segment) ;
+ bool TryGetArray(ByRef<System::ArraySegment_1<uint8_t>> segment) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Buffers
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Buffers::MemoryManager_1, "System.Buffers", "MemoryManager`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Buffers::MemoryManager_1, "System.Buffers", "MemoryManager`1");

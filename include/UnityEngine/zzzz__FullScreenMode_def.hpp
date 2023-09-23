@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct FullScreenMode;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field ExclusiveFullScreen offset 0
-static ::UnityEngine::FullScreenMode const ExclusiveFullScreen;
+static UnityEngine::FullScreenMode const ExclusiveFullScreen;
 
 /// @brief Field FullScreenWindow offset 0
-static ::UnityEngine::FullScreenMode const FullScreenWindow;
+static UnityEngine::FullScreenMode const FullScreenWindow;
 
 /// @brief Field MaximizedWindow offset 0
-static ::UnityEngine::FullScreenMode const MaximizedWindow;
+static UnityEngine::FullScreenMode const MaximizedWindow;
 
 /// @brief Field Windowed offset 0
-static ::UnityEngine::FullScreenMode const Windowed;
+static UnityEngine::FullScreenMode const Windowed;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::FullScreenMode, "UnityEngine", "FullScreenMode");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::FullScreenMode, "UnityEngine", "FullScreenMode");

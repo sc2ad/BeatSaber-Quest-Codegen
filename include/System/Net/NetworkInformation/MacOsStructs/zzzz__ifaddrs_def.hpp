@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net::NetworkInformation::MacOsStructs {
 struct ifaddrs;
@@ -97,5 +96,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net::NetworkInformation::MacOsStructs
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::MacOsStructs::ifaddrs, "System.Net.NetworkInformation.MacOsStructs", "ifaddrs");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MacOsStructs::ifaddrs, "System.Net.NetworkInformation.MacOsStructs", "ifaddrs");

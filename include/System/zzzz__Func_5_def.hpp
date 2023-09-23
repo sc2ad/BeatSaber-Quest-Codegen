@@ -3,9 +3,8 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::IO {
-struct ____System__IO__Stream__ReadWriteParameters;
+struct System__IO__Stream__ReadWriteParameters;
 }
 // Forward declare root types
 namespace System {
@@ -17,12 +16,12 @@ template<::cordl_internals::il2cpp_reference_type T1,::cordl_internals::il2cpp_r
 class Func_5<T1,int32_t,T3,T4,TResult>;
 }
 namespace System {
-template<::cordl_internals::il2cpp_reference_type T1,::cordl_internals::il2cpp_reference_type T3,::cordl_internals::il2cpp_reference_type T4,::cordl_internals::il2cpp_reference_type TResult>
-class Func_5<T1,::System::IO::____System__IO__Stream__ReadWriteParameters,T3,T4,TResult>;
-}
-namespace System {
 template<::cordl_internals::il2cpp_reference_type T1,::cordl_internals::il2cpp_reference_type T2,::cordl_internals::il2cpp_reference_type T3,::cordl_internals::il2cpp_reference_type T4,::cordl_internals::il2cpp_reference_type TResult>
 class Func_5<T1,T2,T3,T4,TResult>;
+}
+namespace System {
+template<::cordl_internals::il2cpp_reference_type T1,::cordl_internals::il2cpp_reference_type T3,::cordl_internals::il2cpp_reference_type T4,::cordl_internals::il2cpp_reference_type TResult>
+class Func_5<T1,System::IO::System__IO__Stream__ReadWriteParameters,T3,T4,TResult>;
 }
 // Type: System::Func`5
 // Type: System::Func`5
@@ -30,10 +29,10 @@ namespace System {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T1,::cordl_internals::il2cpp_reference_type T2,::cordl_internals::il2cpp_reference_type T3,::cordl_internals::il2cpp_reference_type T4,::cordl_internals::il2cpp_reference_type TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2335)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610)), TypeDefinitionIndex(TypeDefinitionIndex(2335))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2335), inst: 5938 })
 // CS Name: System.Func`5
-class CORDL_TYPE Func_5<T1,T2,T3,T4,TResult> : public ::System::MulticastDelegate {
+class CORDL_TYPE Func_5<T1,T2,T3,T4,TResult> : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -48,7 +47,7 @@ constexpr Func_5(Func_5 const& ) noexcept = default;
 constexpr Func_5(Func_5&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Func_5(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit Func_5(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -90,7 +89,7 @@ template<::cordl_internals::il2cpp_reference_type T1,::cordl_internals::il2cpp_r
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2335)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2335), inst: 7451 })
 // CS Name: System.Func`5
-class CORDL_TYPE Func_5<T1,int32_t,T3,T4,TResult> : public ::System::MulticastDelegate {
+class CORDL_TYPE Func_5<T1,int32_t,T3,T4,TResult> : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -105,7 +104,7 @@ constexpr Func_5(Func_5 const& ) noexcept = default;
 constexpr Func_5(Func_5&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Func_5(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit Func_5(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -147,7 +146,7 @@ template<::cordl_internals::il2cpp_reference_type T1,::cordl_internals::il2cpp_r
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2335)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2335), inst: 7452 })
 // CS Name: System.Func`5
-class CORDL_TYPE Func_5<T1,::System::IO::____System__IO__Stream__ReadWriteParameters,T3,T4,TResult> : public ::System::MulticastDelegate {
+class CORDL_TYPE Func_5<T1,System::IO::System__IO__Stream__ReadWriteParameters,T3,T4,TResult> : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -162,7 +161,7 @@ constexpr Func_5(Func_5 const& ) noexcept = default;
 constexpr Func_5(Func_5&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Func_5(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit Func_5(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -190,11 +189,10 @@ explicit Func_5(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
- TResult Invoke(T1 arg1, ::System::IO::____System__IO__Stream__ReadWriteParameters arg2, T3 arg3, T4 arg4) ;
+ TResult Invoke(T1 arg1, System::IO::System__IO__Stream__ReadWriteParameters arg2, T3 arg3, T4 arg4) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Func_5, "System", "Func`5");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Func_5, "System", "Func`5");

@@ -3,7 +3,6 @@
 #include "Org/BouncyCastle/Utilities/IO/zzzz__BaseInputStream_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::IO {
 class Stream;
 }
@@ -17,7 +16,7 @@ namespace Org::BouncyCastle::Utilities::IO {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(498))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1814))
 // CS Name: Org.BouncyCastle.Utilities.IO.TeeInputStream
-class CORDL_TYPE TeeInputStream : public ::Org::BouncyCastle::Utilities::IO::BaseInputStream {
+class CORDL_TYPE TeeInputStream : public Org::BouncyCastle::Utilities::IO::BaseInputStream {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr TeeInputStream(TeeInputStream const& ) noexcept = default;
 constexpr TeeInputStream(TeeInputStream&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TeeInputStream(void* ptr) noexcept : ::Org::BouncyCastle::Utilities::IO::BaseInputStream(ptr) {
+constexpr explicit TeeInputStream(void* ptr) noexcept : Org::BouncyCastle::Utilities::IO::BaseInputStream(ptr) {
 }
 
 
@@ -53,26 +52,26 @@ constexpr explicit TeeInputStream(void* ptr) noexcept : ::Org::BouncyCastle::Uti
 
 // Fields
 
- ::System::IO::Stream __declspec(property(get=__get_input, put=__set_input))  input;
+ System::IO::Stream __declspec(property(get=__get_input, put=__set_input))  input;
 
-constexpr void __set_input(::System::IO::Stream value) ;
+constexpr void __set_input(System::IO::Stream value) ;
 
-constexpr ::System::IO::Stream __get_input() const;
+constexpr System::IO::Stream __get_input() const;
 
- ::System::IO::Stream __declspec(property(get=__get_tee, put=__set_tee))  tee;
+ System::IO::Stream __declspec(property(get=__get_tee, put=__set_tee))  tee;
 
-constexpr void __set_tee(::System::IO::Stream value) ;
+constexpr void __set_tee(System::IO::Stream value) ;
 
-constexpr ::System::IO::Stream __get_tee() const;
+constexpr System::IO::Stream __get_tee() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "input", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "tee", ty: "::System::IO::Stream", modifiers: "", def_value: None }]
-explicit TeeInputStream(::System::IO::Stream input, ::System::IO::Stream tee) ;
+// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "tee", ty: "System::IO::Stream", modifiers: "", def_value: None }]
+explicit TeeInputStream(System::IO::Stream input, System::IO::Stream tee) ;
 
 /// @brief Method .ctor addr 0x10d40f0 size 0x2c virtual false final false
- void _ctor(::System::IO::Stream input, ::System::IO::Stream tee) ;
+ void _ctor(System::IO::Stream input, System::IO::Stream tee) ;
 
 /// @brief Method Close addr 0x10d411c size 0x74 virtual true final false
  void Close() ;
@@ -87,6 +86,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities::IO
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::IO::TeeInputStream);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::IO::TeeInputStream, "Org.BouncyCastle.Utilities.IO", "TeeInputStream");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::IO::TeeInputStream);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::TeeInputStream, "Org.BouncyCastle.Utilities.IO", "TeeInputStream");

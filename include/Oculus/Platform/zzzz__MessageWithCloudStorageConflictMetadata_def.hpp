@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__CloudStorageConflictMetadata_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
 class CloudStorageConflictMetadata;
 }
@@ -17,7 +16,7 @@ namespace Oculus::Platform {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(13405)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4440 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13228))
 // CS Name: Oculus.Platform.MessageWithCloudStorageConflictMetadata
-class CORDL_TYPE MessageWithCloudStorageConflictMetadata : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::CloudStorageConflictMetadata> {
+class CORDL_TYPE MessageWithCloudStorageConflictMetadata : public Oculus::Platform::Message_1<Oculus::Platform::Models::CloudStorageConflictMetadata> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr MessageWithCloudStorageConflictMetadata(MessageWithCloudStorageConflic
 constexpr MessageWithCloudStorageConflictMetadata(MessageWithCloudStorageConflictMetadata&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MessageWithCloudStorageConflictMetadata(void* ptr) noexcept : ::Oculus::Platform::Message_1<::Oculus::Platform::Models::CloudStorageConflictMetadata>(ptr) {
+constexpr explicit MessageWithCloudStorageConflictMetadata(void* ptr) noexcept : Oculus::Platform::Message_1<Oculus::Platform::Models::CloudStorageConflictMetadata>(ptr) {
 }
 
 
@@ -60,15 +59,14 @@ explicit MessageWithCloudStorageConflictMetadata(::cordl_internals::intptr_t c_m
  void _ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method GetCloudStorageConflictMetadata addr 0x2580c90 size 0x3c virtual true final false
- ::Oculus::Platform::Models::CloudStorageConflictMetadata GetCloudStorageConflictMetadata() ;
+ Oculus::Platform::Models::CloudStorageConflictMetadata GetCloudStorageConflictMetadata() ;
 
 /// @brief Method GetDataFromMessage addr 0x2580ccc size 0x9c virtual true final false
- ::Oculus::Platform::Models::CloudStorageConflictMetadata GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
+ Oculus::Platform::Models::CloudStorageConflictMetadata GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::MessageWithCloudStorageConflictMetadata);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithCloudStorageConflictMetadata, "Oculus.Platform", "MessageWithCloudStorageConflictMetadata");
+NEED_NO_BOX(Oculus::Platform::MessageWithCloudStorageConflictMetadata);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithCloudStorageConflictMetadata, "Oculus.Platform", "MessageWithCloudStorageConflictMetadata");

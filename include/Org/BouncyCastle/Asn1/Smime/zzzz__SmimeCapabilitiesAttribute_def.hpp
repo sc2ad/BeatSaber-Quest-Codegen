@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AttributeX509_def.hpp"
-namespace {
 namespace Org::BouncyCastle::Asn1::Smime {
 class SmimeCapabilityVector;
 }
@@ -15,7 +14,7 @@ namespace Org::BouncyCastle::Asn1::Smime {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(293))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(294))
 // CS Name: Org.BouncyCastle.Asn1.Smime.SmimeCapabilitiesAttribute
-class CORDL_TYPE SmimeCapabilitiesAttribute : public ::Org::BouncyCastle::Asn1::X509::AttributeX509 {
+class CORDL_TYPE SmimeCapabilitiesAttribute : public Org::BouncyCastle::Asn1::X509::AttributeX509 {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr SmimeCapabilitiesAttribute(SmimeCapabilitiesAttribute const& ) noexcep
 constexpr SmimeCapabilitiesAttribute(SmimeCapabilitiesAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SmimeCapabilitiesAttribute(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::X509::AttributeX509(ptr) {
+constexpr explicit SmimeCapabilitiesAttribute(void* ptr) noexcept : Org::BouncyCastle::Asn1::X509::AttributeX509(ptr) {
 }
 
 
@@ -51,16 +50,15 @@ constexpr explicit SmimeCapabilitiesAttribute(void* ptr) noexcept : ::Org::Bounc
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "capabilities", ty: "::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector", modifiers: "", def_value: None }]
-explicit SmimeCapabilitiesAttribute(::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector capabilities) ;
+// Ctor Parameters [CppParam { name: "capabilities", ty: "Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector", modifiers: "", def_value: None }]
+explicit SmimeCapabilitiesAttribute(Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector capabilities) ;
 
 /// @brief Method .ctor addr 0xfe7464 size 0xe4 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector capabilities) ;
+ void _ctor(Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector capabilities) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::Smime
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::Smime::SmimeCapabilitiesAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Smime::SmimeCapabilitiesAttribute, "Org.BouncyCastle.Asn1.Smime", "SmimeCapabilitiesAttribute");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Smime::SmimeCapabilitiesAttribute);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Smime::SmimeCapabilitiesAttribute, "Org.BouncyCastle.Asn1.Smime", "SmimeCapabilitiesAttribute");

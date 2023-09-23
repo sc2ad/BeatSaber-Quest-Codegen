@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
-namespace LiteNetLib {
-struct DisconnectReason;
-}
 namespace LiteNetLib {
 class NetPacketReader;
+}
+namespace LiteNetLib {
+struct DisconnectReason;
 }
 namespace System::Net::Sockets {
 struct SocketError;
@@ -24,8 +23,8 @@ namespace LiteNetLib {
 struct CORDL_TYPE DisconnectInfo : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "Reason", ty: "::LiteNetLib::DisconnectReason", modifiers: "", def_value: None }, CppParam { name: "SocketErrorCode", ty: "::System::Net::Sockets::SocketError", modifiers: "", def_value: None }, CppParam { name: "AdditionalData", ty: "::LiteNetLib::NetPacketReader", modifiers: "", def_value: None }]
-constexpr DisconnectInfo(::LiteNetLib::DisconnectReason Reason, ::System::Net::Sockets::SocketError SocketErrorCode, ::LiteNetLib::NetPacketReader AdditionalData) noexcept;
+// Ctor Parameters [CppParam { name: "Reason", ty: "LiteNetLib::DisconnectReason", modifiers: "", def_value: None }, CppParam { name: "SocketErrorCode", ty: "System::Net::Sockets::SocketError", modifiers: "", def_value: None }, CppParam { name: "AdditionalData", ty: "LiteNetLib::NetPacketReader", modifiers: "", def_value: None }]
+constexpr DisconnectInfo(LiteNetLib::DisconnectReason Reason, System::Net::Sockets::SocketError SocketErrorCode, LiteNetLib::NetPacketReader AdditionalData) noexcept;
 
 
                     constexpr DisconnectInfo(DisconnectInfo const&) = default;
@@ -58,27 +57,26 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::LiteNetLib::DisconnectReason __declspec(property(get=__get_Reason, put=__set_Reason))  Reason;
+ LiteNetLib::DisconnectReason __declspec(property(get=__get_Reason, put=__set_Reason))  Reason;
 
-constexpr void __set_Reason(::LiteNetLib::DisconnectReason value) ;
+constexpr void __set_Reason(LiteNetLib::DisconnectReason value) ;
 
-constexpr ::LiteNetLib::DisconnectReason __get_Reason() const;
+constexpr LiteNetLib::DisconnectReason __get_Reason() const;
 
- ::System::Net::Sockets::SocketError __declspec(property(get=__get_SocketErrorCode, put=__set_SocketErrorCode))  SocketErrorCode;
+ System::Net::Sockets::SocketError __declspec(property(get=__get_SocketErrorCode, put=__set_SocketErrorCode))  SocketErrorCode;
 
-constexpr void __set_SocketErrorCode(::System::Net::Sockets::SocketError value) ;
+constexpr void __set_SocketErrorCode(System::Net::Sockets::SocketError value) ;
 
-constexpr ::System::Net::Sockets::SocketError __get_SocketErrorCode() const;
+constexpr System::Net::Sockets::SocketError __get_SocketErrorCode() const;
 
- ::LiteNetLib::NetPacketReader __declspec(property(get=__get_AdditionalData, put=__set_AdditionalData))  AdditionalData;
+ LiteNetLib::NetPacketReader __declspec(property(get=__get_AdditionalData, put=__set_AdditionalData))  AdditionalData;
 
-constexpr void __set_AdditionalData(::LiteNetLib::NetPacketReader value) ;
+constexpr void __set_AdditionalData(LiteNetLib::NetPacketReader value) ;
 
-constexpr ::LiteNetLib::NetPacketReader __get_AdditionalData() const;
+constexpr LiteNetLib::NetPacketReader __get_AdditionalData() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::DisconnectInfo, "LiteNetLib", "DisconnectInfo");
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::DisconnectInfo, "LiteNetLib", "DisconnectInfo");

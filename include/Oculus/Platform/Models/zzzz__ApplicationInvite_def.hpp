@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
 class Destination;
 }
@@ -56,17 +55,17 @@ constexpr explicit ApplicationInvite(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 
 // Fields
 
- ::Oculus::Platform::Models::Destination __declspec(property(get=__get_DestinationOptional, put=__set_DestinationOptional))  DestinationOptional;
+ Oculus::Platform::Models::Destination __declspec(property(get=__get_DestinationOptional, put=__set_DestinationOptional))  DestinationOptional;
 
-constexpr void __set_DestinationOptional(::Oculus::Platform::Models::Destination value) ;
+constexpr void __set_DestinationOptional(Oculus::Platform::Models::Destination value) ;
 
-constexpr ::Oculus::Platform::Models::Destination __get_DestinationOptional() const;
+constexpr Oculus::Platform::Models::Destination __get_DestinationOptional() const;
 
- ::Oculus::Platform::Models::Destination __declspec(property(get=__get_Destination, put=__set_Destination))  Destination;
+ Oculus::Platform::Models::Destination __declspec(property(get=__get_Destination, put=__set_Destination))  Destination;
 
-constexpr void __set_Destination(::Oculus::Platform::Models::Destination value) ;
+constexpr void __set_Destination(Oculus::Platform::Models::Destination value) ;
 
-constexpr ::Oculus::Platform::Models::Destination __get_Destination() const;
+constexpr Oculus::Platform::Models::Destination __get_Destination() const;
 
  uint64_t __declspec(property(get=__get_ID, put=__set_ID))  ID;
 
@@ -92,17 +91,17 @@ constexpr void __set_MatchSessionId(::StringW value) ;
 
 constexpr ::StringW __get_MatchSessionId() const;
 
- ::Oculus::Platform::Models::User __declspec(property(get=__get_RecipientOptional, put=__set_RecipientOptional))  RecipientOptional;
+ Oculus::Platform::Models::User __declspec(property(get=__get_RecipientOptional, put=__set_RecipientOptional))  RecipientOptional;
 
-constexpr void __set_RecipientOptional(::Oculus::Platform::Models::User value) ;
+constexpr void __set_RecipientOptional(Oculus::Platform::Models::User value) ;
 
-constexpr ::Oculus::Platform::Models::User __get_RecipientOptional() const;
+constexpr Oculus::Platform::Models::User __get_RecipientOptional() const;
 
- ::Oculus::Platform::Models::User __declspec(property(get=__get_Recipient, put=__set_Recipient))  Recipient;
+ Oculus::Platform::Models::User __declspec(property(get=__get_Recipient, put=__set_Recipient))  Recipient;
 
-constexpr void __set_Recipient(::Oculus::Platform::Models::User value) ;
+constexpr void __set_Recipient(Oculus::Platform::Models::User value) ;
 
-constexpr ::Oculus::Platform::Models::User __get_Recipient() const;
+constexpr Oculus::Platform::Models::User __get_Recipient() const;
 
 
 // Methods
@@ -117,6 +116,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::ApplicationInvite);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::ApplicationInvite, "Oculus.Platform.Models", "ApplicationInvite");
+NEED_NO_BOX(Oculus::Platform::Models::ApplicationInvite);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::ApplicationInvite, "Oculus.Platform.Models", "ApplicationInvite");

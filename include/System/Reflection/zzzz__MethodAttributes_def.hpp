@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Reflection {
 struct MethodAttributes;
@@ -89,80 +88,79 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field MemberAccessMask offset 0
-static ::System::Reflection::MethodAttributes const MemberAccessMask;
+static System::Reflection::MethodAttributes const MemberAccessMask;
 
 /// @brief Field PrivateScope offset 0
-static ::System::Reflection::MethodAttributes const PrivateScope;
+static System::Reflection::MethodAttributes const PrivateScope;
 
 /// @brief Field Private offset 0
-static ::System::Reflection::MethodAttributes const Private;
+static System::Reflection::MethodAttributes const Private;
 
 /// @brief Field FamANDAssem offset 0
-static ::System::Reflection::MethodAttributes const FamANDAssem;
+static System::Reflection::MethodAttributes const FamANDAssem;
 
 /// @brief Field Assembly offset 0
-static ::System::Reflection::MethodAttributes const Assembly;
+static System::Reflection::MethodAttributes const Assembly;
 
 /// @brief Field Family offset 0
-static ::System::Reflection::MethodAttributes const Family;
+static System::Reflection::MethodAttributes const Family;
 
 /// @brief Field FamORAssem offset 0
-static ::System::Reflection::MethodAttributes const FamORAssem;
+static System::Reflection::MethodAttributes const FamORAssem;
 
 /// @brief Field Public offset 0
-static ::System::Reflection::MethodAttributes const Public;
+static System::Reflection::MethodAttributes const Public;
 
 /// @brief Field Static offset 0
-static ::System::Reflection::MethodAttributes const Static;
+static System::Reflection::MethodAttributes const Static;
 
 /// @brief Field Final offset 0
-static ::System::Reflection::MethodAttributes const Final;
+static System::Reflection::MethodAttributes const Final;
 
 /// @brief Field Virtual offset 0
-static ::System::Reflection::MethodAttributes const Virtual;
+static System::Reflection::MethodAttributes const Virtual;
 
 /// @brief Field HideBySig offset 0
-static ::System::Reflection::MethodAttributes const HideBySig;
+static System::Reflection::MethodAttributes const HideBySig;
 
 /// @brief Field CheckAccessOnOverride offset 0
-static ::System::Reflection::MethodAttributes const CheckAccessOnOverride;
+static System::Reflection::MethodAttributes const CheckAccessOnOverride;
 
 /// @brief Field VtableLayoutMask offset 0
-static ::System::Reflection::MethodAttributes const VtableLayoutMask;
+static System::Reflection::MethodAttributes const VtableLayoutMask;
 
 /// @brief Field ReuseSlot offset 0
-static ::System::Reflection::MethodAttributes const ReuseSlot;
+static System::Reflection::MethodAttributes const ReuseSlot;
 
 /// @brief Field NewSlot offset 0
-static ::System::Reflection::MethodAttributes const NewSlot;
+static System::Reflection::MethodAttributes const NewSlot;
 
 /// @brief Field Abstract offset 0
-static ::System::Reflection::MethodAttributes const Abstract;
+static System::Reflection::MethodAttributes const Abstract;
 
 /// @brief Field SpecialName offset 0
-static ::System::Reflection::MethodAttributes const SpecialName;
+static System::Reflection::MethodAttributes const SpecialName;
 
 /// @brief Field PinvokeImpl offset 0
-static ::System::Reflection::MethodAttributes const PinvokeImpl;
+static System::Reflection::MethodAttributes const PinvokeImpl;
 
 /// @brief Field UnmanagedExport offset 0
-static ::System::Reflection::MethodAttributes const UnmanagedExport;
+static System::Reflection::MethodAttributes const UnmanagedExport;
 
 /// @brief Field RTSpecialName offset 0
-static ::System::Reflection::MethodAttributes const RTSpecialName;
+static System::Reflection::MethodAttributes const RTSpecialName;
 
 /// @brief Field HasSecurity offset 0
-static ::System::Reflection::MethodAttributes const HasSecurity;
+static System::Reflection::MethodAttributes const HasSecurity;
 
 /// @brief Field RequireSecObject offset 0
-static ::System::Reflection::MethodAttributes const RequireSecObject;
+static System::Reflection::MethodAttributes const RequireSecObject;
 
 /// @brief Field ReservedMask offset 0
-static ::System::Reflection::MethodAttributes const ReservedMask;
+static System::Reflection::MethodAttributes const ReservedMask;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Reflection
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::MethodAttributes, "System.Reflection", "MethodAttributes");
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MethodAttributes, "System.Reflection", "MethodAttributes");

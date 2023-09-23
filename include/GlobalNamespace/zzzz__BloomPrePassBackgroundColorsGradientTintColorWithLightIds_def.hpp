@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class BloomPrePassBackgroundColorsGradient;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace GlobalNamespace {
+class BloomPrePassBackgroundColorsGradient;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14703))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14676))
 // CS Name: BloomPrePassBackgroundColorsGradientTintColorWithLightIds
-class CORDL_TYPE BloomPrePassBackgroundColorsGradientTintColorWithLightIds : public ::GlobalNamespace::LightWithIdMonoBehaviour {
+class CORDL_TYPE BloomPrePassBackgroundColorsGradientTintColorWithLightIds : public GlobalNamespace::LightWithIdMonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr BloomPrePassBackgroundColorsGradientTintColorWithLightIds(BloomPrePass
 constexpr BloomPrePassBackgroundColorsGradientTintColorWithLightIds(BloomPrePassBackgroundColorsGradientTintColorWithLightIds&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BloomPrePassBackgroundColorsGradientTintColorWithLightIds(void* ptr) noexcept : ::GlobalNamespace::LightWithIdMonoBehaviour(ptr) {
+constexpr explicit BloomPrePassBackgroundColorsGradientTintColorWithLightIds(void* ptr) noexcept : GlobalNamespace::LightWithIdMonoBehaviour(ptr) {
 }
 
 
@@ -54,17 +53,17 @@ constexpr explicit BloomPrePassBackgroundColorsGradientTintColorWithLightIds(voi
 
 // Fields
 
- ::GlobalNamespace::BloomPrePassBackgroundColorsGradient __declspec(property(get=__get__bloomPrePassBackgroundColorsGradient, put=__set__bloomPrePassBackgroundColorsGradient))  _bloomPrePassBackgroundColorsGradient;
+ GlobalNamespace::BloomPrePassBackgroundColorsGradient __declspec(property(get=__get__bloomPrePassBackgroundColorsGradient, put=__set__bloomPrePassBackgroundColorsGradient))  _bloomPrePassBackgroundColorsGradient;
 
-constexpr void __set__bloomPrePassBackgroundColorsGradient(::GlobalNamespace::BloomPrePassBackgroundColorsGradient value) ;
+constexpr void __set__bloomPrePassBackgroundColorsGradient(GlobalNamespace::BloomPrePassBackgroundColorsGradient value) ;
 
-constexpr ::GlobalNamespace::BloomPrePassBackgroundColorsGradient __get__bloomPrePassBackgroundColorsGradient() const;
+constexpr GlobalNamespace::BloomPrePassBackgroundColorsGradient __get__bloomPrePassBackgroundColorsGradient() const;
 
 
 // Methods
 
 /// @brief Method ColorWasSet addr 0x1f9c58c size 0x20 virtual true final false
- void ColorWasSet(::UnityEngine::Color color) ;
+ void ColorWasSet(UnityEngine::Color color) ;
 
 // Ctor Parameters []
 explicit BloomPrePassBackgroundColorsGradientTintColorWithLightIds() ;
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds, "", "BloomPrePassBackgroundColorsGradientTintColorWithLightIds");
+NEED_NO_BOX(GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds, "", "BloomPrePassBackgroundColorsGradientTintColorWithLightIds");

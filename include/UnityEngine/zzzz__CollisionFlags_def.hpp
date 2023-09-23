@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct CollisionFlags;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::CollisionFlags const None;
+static UnityEngine::CollisionFlags const None;
 
 /// @brief Field Sides offset 0
-static ::UnityEngine::CollisionFlags const Sides;
+static UnityEngine::CollisionFlags const Sides;
 
 /// @brief Field Above offset 0
-static ::UnityEngine::CollisionFlags const Above;
+static UnityEngine::CollisionFlags const Above;
 
 /// @brief Field Below offset 0
-static ::UnityEngine::CollisionFlags const Below;
+static UnityEngine::CollisionFlags const Below;
 
 /// @brief Field CollidedSides offset 0
-static ::UnityEngine::CollisionFlags const CollidedSides;
+static UnityEngine::CollisionFlags const CollidedSides;
 
 /// @brief Field CollidedAbove offset 0
-static ::UnityEngine::CollisionFlags const CollidedAbove;
+static UnityEngine::CollisionFlags const CollidedAbove;
 
 /// @brief Field CollidedBelow offset 0
-static ::UnityEngine::CollisionFlags const CollidedBelow;
+static UnityEngine::CollisionFlags const CollidedBelow;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::CollisionFlags, "UnityEngine", "CollisionFlags");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CollisionFlags, "UnityEngine", "CollisionFlags");

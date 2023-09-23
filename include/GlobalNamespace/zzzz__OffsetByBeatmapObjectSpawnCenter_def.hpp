@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
 class BeatmapObjectSpawnCenter;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4810))
 // CS Name: OffsetByBeatmapObjectSpawnCenter
-class CORDL_TYPE OffsetByBeatmapObjectSpawnCenter : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OffsetByBeatmapObjectSpawnCenter : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr OffsetByBeatmapObjectSpawnCenter(OffsetByBeatmapObjectSpawnCenter cons
 constexpr OffsetByBeatmapObjectSpawnCenter(OffsetByBeatmapObjectSpawnCenter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OffsetByBeatmapObjectSpawnCenter(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OffsetByBeatmapObjectSpawnCenter(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -52,11 +51,11 @@ constexpr explicit OffsetByBeatmapObjectSpawnCenter(void* ptr) noexcept : ::Unit
 
 // Fields
 
- ::GlobalNamespace::BeatmapObjectSpawnCenter __declspec(property(get=__get__spawnCenter, put=__set__spawnCenter))  _spawnCenter;
+ GlobalNamespace::BeatmapObjectSpawnCenter __declspec(property(get=__get__spawnCenter, put=__set__spawnCenter))  _spawnCenter;
 
-constexpr void __set__spawnCenter(::GlobalNamespace::BeatmapObjectSpawnCenter value) ;
+constexpr void __set__spawnCenter(GlobalNamespace::BeatmapObjectSpawnCenter value) ;
 
-constexpr ::GlobalNamespace::BeatmapObjectSpawnCenter __get__spawnCenter() const;
+constexpr GlobalNamespace::BeatmapObjectSpawnCenter __get__spawnCenter() const;
 
 
 // Methods
@@ -77,6 +76,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OffsetByBeatmapObjectSpawnCenter);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OffsetByBeatmapObjectSpawnCenter, "", "OffsetByBeatmapObjectSpawnCenter");
+NEED_NO_BOX(GlobalNamespace::OffsetByBeatmapObjectSpawnCenter);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OffsetByBeatmapObjectSpawnCenter, "", "OffsetByBeatmapObjectSpawnCenter");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 struct MultiplayerLobbyState;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::GlobalNamespace::MultiplayerLobbyState const None;
+static GlobalNamespace::MultiplayerLobbyState const None;
 
 /// @brief Field LobbySetup offset 0
-static ::GlobalNamespace::MultiplayerLobbyState const LobbySetup;
+static GlobalNamespace::MultiplayerLobbyState const LobbySetup;
 
 /// @brief Field LobbyCountdown offset 0
-static ::GlobalNamespace::MultiplayerLobbyState const LobbyCountdown;
+static GlobalNamespace::MultiplayerLobbyState const LobbyCountdown;
 
 /// @brief Field GameStarting offset 0
-static ::GlobalNamespace::MultiplayerLobbyState const GameStarting;
+static GlobalNamespace::MultiplayerLobbyState const GameStarting;
 
 /// @brief Field GameRunning offset 0
-static ::GlobalNamespace::MultiplayerLobbyState const GameRunning;
+static GlobalNamespace::MultiplayerLobbyState const GameRunning;
 
 /// @brief Field Error offset 0
-static ::GlobalNamespace::MultiplayerLobbyState const Error;
+static GlobalNamespace::MultiplayerLobbyState const Error;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerLobbyState, "", "MultiplayerLobbyState");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyState, "", "MultiplayerLobbyState");

@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 class IEquatable_1;
@@ -26,11 +25,11 @@ struct InputFeatureUsage_1<T>;
 }
 namespace UnityEngine::XR {
 template<>
-struct InputFeatureUsage_1<::UnityEngine::Quaternion>;
+struct InputFeatureUsage_1<UnityEngine::Quaternion>;
 }
 namespace UnityEngine::XR {
 template<>
-struct InputFeatureUsage_1<::UnityEngine::Vector3>;
+struct InputFeatureUsage_1<UnityEngine::Vector3>;
 }
 namespace UnityEngine::XR {
 template<>
@@ -48,8 +47,8 @@ template<::cordl_internals::il2cpp_reference_type T>
 struct CORDL_TYPE InputFeatureUsage_1<T> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage_1<T>>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage_1<T>>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::XR::InputFeatureUsage_1<T>>
+constexpr operator  System::IEquatable_1<UnityEngine::XR::InputFeatureUsage_1<T>>() const;
 
 // Ctor Parameters [CppParam { name: "_name_k__BackingField", ty: "::StringW", modifiers: "", def_value: None }]
 constexpr InputFeatureUsage_1(::StringW _name_k__BackingField) noexcept;
@@ -112,7 +111,7 @@ constexpr ::StringW __get__name_k__BackingField() const;
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final true
- bool Equals(::UnityEngine::XR::InputFeatureUsage_1<T> other) ;
+ bool Equals(UnityEngine::XR::InputFeatureUsage_1<T> other) ;
 
 /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t GetHashCode() ;
@@ -132,8 +131,8 @@ template<>
 struct CORDL_TYPE InputFeatureUsage_1<bool> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage_1<bool>>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage_1<bool>>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::XR::InputFeatureUsage_1<bool>>
+constexpr operator  System::IEquatable_1<UnityEngine::XR::InputFeatureUsage_1<bool>>() const;
 
 // Ctor Parameters [CppParam { name: "_name_k__BackingField", ty: "::StringW", modifiers: "", def_value: None }]
 constexpr InputFeatureUsage_1(::StringW _name_k__BackingField) noexcept;
@@ -196,7 +195,7 @@ constexpr ::StringW __get__name_k__BackingField() const;
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final true
- bool Equals(::UnityEngine::XR::InputFeatureUsage_1<bool> other) ;
+ bool Equals(UnityEngine::XR::InputFeatureUsage_1<bool> other) ;
 
 /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t GetHashCode() ;
@@ -210,14 +209,14 @@ namespace UnityEngine::XR {
 // cpp template
 template<>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(15569))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15569)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15569), inst: 394 })
 // CS Name: UnityEngine.XR.InputFeatureUsage`1
-struct CORDL_TYPE InputFeatureUsage_1<::UnityEngine::Vector3> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE InputFeatureUsage_1<UnityEngine::Vector3> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage_1<::UnityEngine::Vector3>>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage_1<::UnityEngine::Vector3>>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::XR::InputFeatureUsage_1<UnityEngine::Vector3>>
+constexpr operator  System::IEquatable_1<UnityEngine::XR::InputFeatureUsage_1<UnityEngine::Vector3>>() const;
 
 // Ctor Parameters [CppParam { name: "_name_k__BackingField", ty: "::StringW", modifiers: "", def_value: None }]
 constexpr InputFeatureUsage_1(::StringW _name_k__BackingField) noexcept;
@@ -280,7 +279,7 @@ constexpr ::StringW __get__name_k__BackingField() const;
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final true
- bool Equals(::UnityEngine::XR::InputFeatureUsage_1<::UnityEngine::Vector3> other) ;
+ bool Equals(UnityEngine::XR::InputFeatureUsage_1<UnityEngine::Vector3> other) ;
 
 /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t GetHashCode() ;
@@ -294,14 +293,14 @@ namespace UnityEngine::XR {
 // cpp template
 template<>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(15569))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15569)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15569), inst: 3222 })
 // CS Name: UnityEngine.XR.InputFeatureUsage`1
-struct CORDL_TYPE InputFeatureUsage_1<::UnityEngine::Quaternion> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE InputFeatureUsage_1<UnityEngine::Quaternion> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage_1<::UnityEngine::Quaternion>>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage_1<::UnityEngine::Quaternion>>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::XR::InputFeatureUsage_1<UnityEngine::Quaternion>>
+constexpr operator  System::IEquatable_1<UnityEngine::XR::InputFeatureUsage_1<UnityEngine::Quaternion>>() const;
 
 // Ctor Parameters [CppParam { name: "_name_k__BackingField", ty: "::StringW", modifiers: "", def_value: None }]
 constexpr InputFeatureUsage_1(::StringW _name_k__BackingField) noexcept;
@@ -364,7 +363,7 @@ constexpr ::StringW __get__name_k__BackingField() const;
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final true
- bool Equals(::UnityEngine::XR::InputFeatureUsage_1<::UnityEngine::Quaternion> other) ;
+ bool Equals(UnityEngine::XR::InputFeatureUsage_1<UnityEngine::Quaternion> other) ;
 
 /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t GetHashCode() ;
@@ -373,5 +372,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::UnityEngine::XR::InputFeatureUsage_1, "UnityEngine.XR", "InputFeatureUsage`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(UnityEngine::XR::InputFeatureUsage_1, "UnityEngine.XR", "InputFeatureUsage`1");

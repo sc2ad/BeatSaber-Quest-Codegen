@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace GlobalNamespace {
-struct ____GlobalNamespace__GameplayServerFiniteStateMachine__InitParams;
-}
 namespace GlobalNamespace {
 class GameplayServerFiniteStateMachine;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__GameplayServerFiniteStateMachine__InitParams;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -55,12 +54,11 @@ constexpr explicit GameplayServerFiniteStateMachineFactory(void* ptr) noexcept :
 // Methods
 
 /// @brief Method Create addr 0xdaf104 size 0x1ac virtual false final false
-static ::GlobalNamespace::GameplayServerFiniteStateMachine Create(::GlobalNamespace::____GlobalNamespace__GameplayServerFiniteStateMachine__InitParams initParams) ;
+static GlobalNamespace::GameplayServerFiniteStateMachine Create(GlobalNamespace::GlobalNamespace__GameplayServerFiniteStateMachine__InitParams initParams) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::GameplayServerFiniteStateMachineFactory);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameplayServerFiniteStateMachineFactory, "", "GameplayServerFiniteStateMachineFactory");
+NEED_NO_BOX(GlobalNamespace::GameplayServerFiniteStateMachineFactory);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayServerFiniteStateMachineFactory, "", "GameplayServerFiniteStateMachineFactory");

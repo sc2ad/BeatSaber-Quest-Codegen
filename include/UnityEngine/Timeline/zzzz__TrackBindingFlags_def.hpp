@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Timeline {
 struct TrackBindingFlags;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::Timeline::TrackBindingFlags const None;
+static UnityEngine::Timeline::TrackBindingFlags const None;
 
 /// @brief Field AllowCreateComponent offset 0
-static ::UnityEngine::Timeline::TrackBindingFlags const AllowCreateComponent;
+static UnityEngine::Timeline::TrackBindingFlags const AllowCreateComponent;
 
 /// @brief Field All offset 0
-static ::UnityEngine::Timeline::TrackBindingFlags const All;
+static UnityEngine::Timeline::TrackBindingFlags const All;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::TrackBindingFlags, "UnityEngine.Timeline", "TrackBindingFlags");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackBindingFlags, "UnityEngine.Timeline", "TrackBindingFlags");

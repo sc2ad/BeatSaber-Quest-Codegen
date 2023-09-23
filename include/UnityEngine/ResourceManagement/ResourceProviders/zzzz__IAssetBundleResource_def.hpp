@@ -1,6 +1,5 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace UnityEngine {
 class AssetBundle;
 }
@@ -27,12 +26,11 @@ constexpr explicit IAssetBundleResource(void* ptr) noexcept : ::cordl_internals:
 // Methods
 
 /// @brief Method GetAssetBundle addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::AssetBundle GetAssetBundle() ;
+ UnityEngine::AssetBundle GetAssetBundle() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ResourceManagement::ResourceProviders
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource, "UnityEngine.ResourceManagement.ResourceProviders", "IAssetBundleResource");
+NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource, "UnityEngine.ResourceManagement.ResourceProviders", "IAssetBundleResource");

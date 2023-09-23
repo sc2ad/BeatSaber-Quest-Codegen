@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct FFTWindow;
 }
@@ -19,7 +18,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15607))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15608))
 // CS Name: UnityEngine.AudioListener
-class CORDL_TYPE AudioListener : public ::UnityEngine::AudioBehaviour {
+class CORDL_TYPE AudioListener : public UnityEngine::AudioBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr AudioListener(AudioListener const& ) noexcept = default;
 constexpr AudioListener(AudioListener&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AudioListener(void* ptr) noexcept : ::UnityEngine::AudioBehaviour(ptr) {
+constexpr explicit AudioListener(void* ptr) noexcept : UnityEngine::AudioBehaviour(ptr) {
 }
 
 
@@ -64,7 +63,7 @@ static bool __declspec(property(get=get_pause, put=set_pause))  pause;
 static void GetOutputDataHelper(ByRef<::ArrayW<float_t>> samples, int32_t channel) ;
 
 /// @brief Method GetSpectrumDataHelper addr 0x2b25874 size 0x54 virtual false final false
-static void GetSpectrumDataHelper(ByRef<::ArrayW<float_t>> samples, int32_t channel, ::UnityEngine::FFTWindow window) ;
+static void GetSpectrumDataHelper(ByRef<::ArrayW<float_t>> samples, int32_t channel, UnityEngine::FFTWindow window) ;
 
 /// @brief Method get_pause addr 0x2b258c8 size 0x28 virtual false final false
 static bool get_pause() ;
@@ -76,12 +75,11 @@ static void set_pause(bool value) ;
 static void GetOutputData(::ArrayW<float_t> samples, int32_t channel) ;
 
 /// @brief Method GetSpectrumData addr 0x2b25970 size 0x54 virtual false final false
-static void GetSpectrumData(::ArrayW<float_t> samples, int32_t channel, ::UnityEngine::FFTWindow window) ;
+static void GetSpectrumData(::ArrayW<float_t> samples, int32_t channel, UnityEngine::FFTWindow window) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AudioListener);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AudioListener, "UnityEngine", "AudioListener");
+NEED_NO_BOX(UnityEngine::AudioListener);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioListener, "UnityEngine", "AudioListener");

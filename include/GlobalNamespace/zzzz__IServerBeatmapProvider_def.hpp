@@ -2,16 +2,15 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace GlobalNamespace {
+struct SongPackMask;
+}
 namespace GlobalNamespace {
 struct BeatmapLevelSelectionMask;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
-}
-namespace GlobalNamespace {
-struct SongPackMask;
 }
 namespace GlobalNamespace {
 class BeatmapIdentifierNetSerializable;
@@ -39,15 +38,14 @@ constexpr explicit IServerBeatmapProvider(void* ptr) noexcept : ::cordl_internal
 // Methods
 
 /// @brief Method VerifyBeatmapForSelectionMask addr 0x0 size 0xffffffffffffffff virtual true final false
- bool VerifyBeatmapForSelectionMask(::GlobalNamespace::BeatmapIdentifierNetSerializable beatmapId, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask) ;
+ bool VerifyBeatmapForSelectionMask(GlobalNamespace::BeatmapIdentifierNetSerializable beatmapId, GlobalNamespace::BeatmapLevelSelectionMask selectionMask) ;
 
 /// @brief Method SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::BeatmapIdentifierNetSerializable SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks(int32_t playerCount, ::System::Collections::Generic::Dictionary_2<::StringW,::GlobalNamespace::BeatmapIdentifierNetSerializable> beatmapsSuggestedByPlayers, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::System::Collections::Generic::Dictionary_2<::StringW,::GlobalNamespace::SongPackMask> playerOwnedSongPacks) ;
+ GlobalNamespace::BeatmapIdentifierNetSerializable SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks(int32_t playerCount, System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::BeatmapIdentifierNetSerializable> beatmapsSuggestedByPlayers, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::SongPackMask> playerOwnedSongPacks) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IServerBeatmapProvider);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IServerBeatmapProvider, "", "IServerBeatmapProvider");
+NEED_NO_BOX(GlobalNamespace::IServerBeatmapProvider);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IServerBeatmapProvider, "", "IServerBeatmapProvider");

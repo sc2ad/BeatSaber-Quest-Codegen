@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
 namespace System {
 class IDisposable;
 }
@@ -30,11 +29,11 @@ template<::cordl_internals::il2cpp_reference_type T>
 struct CORDL_TYPE PooledObject_1<T> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const;
 
-// Ctor Parameters [CppParam { name: "m_ToReturn", ty: "T", modifiers: "", def_value: None }, CppParam { name: "m_Pool", ty: "::UnityEngine::Pool::IObjectPool_1<T>", modifiers: "", def_value: None }]
-constexpr PooledObject_1(T m_ToReturn, ::UnityEngine::Pool::IObjectPool_1<T> m_Pool) noexcept;
+// Ctor Parameters [CppParam { name: "m_ToReturn", ty: "T", modifiers: "", def_value: None }, CppParam { name: "m_Pool", ty: "UnityEngine::Pool::IObjectPool_1<T>", modifiers: "", def_value: None }]
+constexpr PooledObject_1(T m_ToReturn, UnityEngine::Pool::IObjectPool_1<T> m_Pool) noexcept;
 
 
                     constexpr PooledObject_1(PooledObject_1 const&) = default;
@@ -73,17 +72,17 @@ constexpr void __set_m_ToReturn(T value) ;
 
 constexpr T __get_m_ToReturn() const;
 
- ::UnityEngine::Pool::IObjectPool_1<T> __declspec(property(get=__get_m_Pool, put=__set_m_Pool))  m_Pool;
+ UnityEngine::Pool::IObjectPool_1<T> __declspec(property(get=__get_m_Pool, put=__set_m_Pool))  m_Pool;
 
-constexpr void __set_m_Pool(::UnityEngine::Pool::IObjectPool_1<T> value) ;
+constexpr void __set_m_Pool(UnityEngine::Pool::IObjectPool_1<T> value) ;
 
-constexpr ::UnityEngine::Pool::IObjectPool_1<T> __get_m_Pool() const;
+constexpr UnityEngine::Pool::IObjectPool_1<T> __get_m_Pool() const;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(T value, ::UnityEngine::Pool::IObjectPool_1<T> pool) ;
+ void _ctor(T value, UnityEngine::Pool::IObjectPool_1<T> pool) ;
 
 /// @brief Method System.IDisposable.Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
  void System_IDisposable_Dispose() ;
@@ -92,5 +91,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Pool
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::UnityEngine::Pool::PooledObject_1, "UnityEngine.Pool", "PooledObject`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(UnityEngine::Pool::PooledObject_1, "UnityEngine.Pool", "PooledObject`1");

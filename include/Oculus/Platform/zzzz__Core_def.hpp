@@ -2,20 +2,19 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace Oculus::Platform {
+struct InitConfigOptions;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace Oculus::Platform {
-struct InitConfigOptions;
+namespace Oculus::Platform::Models {
+class PlatformInitialize;
 }
 namespace Oculus::Platform {
 template<typename T>
 class Request_1;
-}
-namespace Oculus::Platform::Models {
-class PlatformInitialize;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -94,10 +93,10 @@ static void ForceInitialized() ;
 static ::StringW getAppID(::StringW appId) ;
 
 /// @brief Method AsyncInitialize addr 0x25855cc size 0x2cc virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize> AsyncInitialize(::StringW appId) ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::PlatformInitialize> AsyncInitialize(::StringW appId) ;
 
 /// @brief Method AsyncInitialize addr 0x2585898 size 0x260 virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize> AsyncInitialize(::StringW accessToken, ::System::Collections::Generic::Dictionary_2<::Oculus::Platform::InitConfigOptions,bool> initConfigOptions, ::StringW appId) ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::PlatformInitialize> AsyncInitialize(::StringW accessToken, System::Collections::Generic::Dictionary_2<Oculus::Platform::InitConfigOptions,bool> initConfigOptions, ::StringW appId) ;
 
 /// @brief Method Initialize addr 0x2585af8 size 0x30c virtual false final false
 static void Initialize(::StringW appId) ;
@@ -115,6 +114,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Core);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Core, "Oculus.Platform", "Core");
+NEED_NO_BOX(Oculus::Platform::Core);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Core, "Oculus.Platform", "Core");

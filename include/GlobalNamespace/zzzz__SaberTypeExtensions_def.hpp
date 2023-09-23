@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace GlobalNamespace {
-struct ColorType;
-}
 namespace UnityEngine::XR {
 struct XRNode;
+}
+namespace GlobalNamespace {
+struct ColorType;
 }
 namespace GlobalNamespace {
 struct SaberType;
@@ -58,21 +57,20 @@ constexpr explicit SaberTypeExtensions(void* ptr) noexcept : ::bs_hook::Il2CppWr
 // Methods
 
 /// @brief Method MatchesColorType addr 0x1216f30 size 0x28 virtual false final false
-static bool MatchesColorType(::GlobalNamespace::SaberType saberType, ::GlobalNamespace::ColorType colorType) ;
+static bool MatchesColorType(GlobalNamespace::SaberType saberType, GlobalNamespace::ColorType colorType) ;
 
 /// @brief Method Node addr 0x12196b4 size 0x10 virtual false final false
-static ::UnityEngine::XR::XRNode Node(::GlobalNamespace::SaberType saberType) ;
+static UnityEngine::XR::XRNode Node(GlobalNamespace::SaberType saberType) ;
 
 /// @brief Method MainSaber addr 0x12196c4 size 0xc virtual false final false
-static ::GlobalNamespace::SaberType MainSaber(bool leftHanded) ;
+static GlobalNamespace::SaberType MainSaber(bool leftHanded) ;
 
 /// @brief Method ToSaberType addr 0x12196d0 size 0x88 virtual false final false
-static ::GlobalNamespace::SaberType ToSaberType(::GlobalNamespace::ColorType colorType) ;
+static GlobalNamespace::SaberType ToSaberType(GlobalNamespace::ColorType colorType) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SaberTypeExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SaberTypeExtensions, "", "SaberTypeExtensions");
+NEED_NO_BOX(GlobalNamespace::SaberTypeExtensions);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberTypeExtensions, "", "SaberTypeExtensions");

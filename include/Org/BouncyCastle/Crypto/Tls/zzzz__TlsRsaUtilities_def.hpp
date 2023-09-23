@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class RsaKeyParameters;
 }
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsContext;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -60,10 +59,10 @@ constexpr explicit TlsRsaUtilities(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 // Methods
 
 /// @brief Method GenerateEncryptedPreMasterSecret addr 0xf235a4 size 0x3f4 virtual false final false
-static ::ArrayW<uint8_t> GenerateEncryptedPreMasterSecret(::Org::BouncyCastle::Crypto::Tls::TlsContext context, ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters rsaServerPublicKey, ::System::IO::Stream output) ;
+static ::ArrayW<uint8_t> GenerateEncryptedPreMasterSecret(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters rsaServerPublicKey, System::IO::Stream output) ;
 
 /// @brief Method SafeDecryptPreMasterSecret addr 0xf251fc size 0x428 virtual false final false
-static ::ArrayW<uint8_t> SafeDecryptPreMasterSecret(::Org::BouncyCastle::Crypto::Tls::TlsContext context, ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters rsaServerPrivateKey, ::ArrayW<uint8_t> encryptedPreMasterSecret) ;
+static ::ArrayW<uint8_t> SafeDecryptPreMasterSecret(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters rsaServerPrivateKey, ::ArrayW<uint8_t> encryptedPreMasterSecret) ;
 
 // Ctor Parameters []
 explicit TlsRsaUtilities() ;
@@ -75,6 +74,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsRsaUtilities);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::TlsRsaUtilities, "Org.BouncyCastle.Crypto.Tls", "TlsRsaUtilities");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::TlsRsaUtilities);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::TlsRsaUtilities, "Org.BouncyCastle.Crypto.Tls", "TlsRsaUtilities");

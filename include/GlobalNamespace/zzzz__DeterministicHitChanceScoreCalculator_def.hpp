@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-class IMockPlayerScoreCalculator;
-}
 namespace GlobalNamespace {
 class MockNoteData;
+}
+namespace GlobalNamespace {
+class IMockPlayerScoreCalculator;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,8 +22,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE DeterministicHitChanceScoreCalculator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IMockPlayerScoreCalculator
-constexpr operator  ::GlobalNamespace::IMockPlayerScoreCalculator() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IMockPlayerScoreCalculator
+constexpr operator  GlobalNamespace::IMockPlayerScoreCalculator() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -84,12 +83,11 @@ explicit DeterministicHitChanceScoreCalculator(float_t hitChance) ;
  void _ctor(float_t hitChance) ;
 
 /// @brief Method GetScoreForNote addr 0x20e9ba8 size 0x30 virtual true final true
- int32_t GetScoreForNote(::GlobalNamespace::MockNoteData noteData) ;
+ int32_t GetScoreForNote(GlobalNamespace::MockNoteData noteData) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::DeterministicHitChanceScoreCalculator);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DeterministicHitChanceScoreCalculator, "", "DeterministicHitChanceScoreCalculator");
+NEED_NO_BOX(GlobalNamespace::DeterministicHitChanceScoreCalculator);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DeterministicHitChanceScoreCalculator, "", "DeterministicHitChanceScoreCalculator");

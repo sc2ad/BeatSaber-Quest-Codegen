@@ -3,7 +3,6 @@
 #include "Mono/Security/X509/zzzz__X509Extension_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Mono::Security::X509 {
 class X509Extension;
 }
@@ -17,7 +16,7 @@ namespace Mono::Security::X509::Extensions {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13967))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13973))
 // CS Name: Mono.Security.X509.Extensions.BasicConstraintsExtension
-class CORDL_TYPE BasicConstraintsExtension : public ::Mono::Security::X509::X509Extension {
+class CORDL_TYPE BasicConstraintsExtension : public Mono::Security::X509::X509Extension {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr BasicConstraintsExtension(BasicConstraintsExtension const& ) noexcept 
 constexpr BasicConstraintsExtension(BasicConstraintsExtension&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BasicConstraintsExtension(void* ptr) noexcept : ::Mono::Security::X509::X509Extension(ptr) {
+constexpr explicit BasicConstraintsExtension(void* ptr) noexcept : Mono::Security::X509::X509Extension(ptr) {
 }
 
 
@@ -73,11 +72,11 @@ constexpr int32_t __get_pathLenConstraint() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "extension", ty: "::Mono::Security::X509::X509Extension", modifiers: "", def_value: None }]
-explicit BasicConstraintsExtension(::Mono::Security::X509::X509Extension extension) ;
+// Ctor Parameters [CppParam { name: "extension", ty: "Mono::Security::X509::X509Extension", modifiers: "", def_value: None }]
+explicit BasicConstraintsExtension(Mono::Security::X509::X509Extension extension) ;
 
 /// @brief Method .ctor addr 0x228f514 size 0x4 virtual false final false
- void _ctor(::Mono::Security::X509::X509Extension extension) ;
+ void _ctor(Mono::Security::X509::X509Extension extension) ;
 
 /// @brief Method Decode addr 0x2291104 size 0x138 virtual true final false
  void Decode() ;
@@ -95,6 +94,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Security::X509::Extensions
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Security::X509::Extensions::BasicConstraintsExtension);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::X509::Extensions::BasicConstraintsExtension, "Mono.Security.X509.Extensions", "BasicConstraintsExtension");
+NEED_NO_BOX(Mono::Security::X509::Extensions::BasicConstraintsExtension);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::Extensions::BasicConstraintsExtension, "Mono.Security.X509.Extensions", "BasicConstraintsExtension");

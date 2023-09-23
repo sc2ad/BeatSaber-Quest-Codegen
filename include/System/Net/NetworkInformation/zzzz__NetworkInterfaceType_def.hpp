@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net::NetworkInformation {
 struct NetworkInterfaceType;
@@ -93,92 +92,91 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::System::Net::NetworkInformation::NetworkInterfaceType const Unknown;
+static System::Net::NetworkInformation::NetworkInterfaceType const Unknown;
 
 /// @brief Field Ethernet offset 0
-static ::System::Net::NetworkInformation::NetworkInterfaceType const Ethernet;
+static System::Net::NetworkInformation::NetworkInterfaceType const Ethernet;
 
 /// @brief Field TokenRing offset 0
-static ::System::Net::NetworkInformation::NetworkInterfaceType const TokenRing;
+static System::Net::NetworkInformation::NetworkInterfaceType const TokenRing;
 
 /// @brief Field Fddi offset 0
-static ::System::Net::NetworkInformation::NetworkInterfaceType const Fddi;
+static System::Net::NetworkInformation::NetworkInterfaceType const Fddi;
 
 /// @brief Field BasicIsdn offset 0
-static ::System::Net::NetworkInformation::NetworkInterfaceType const BasicIsdn;
+static System::Net::NetworkInformation::NetworkInterfaceType const BasicIsdn;
 
 /// @brief Field PrimaryIsdn offset 0
-static ::System::Net::NetworkInformation::NetworkInterfaceType const PrimaryIsdn;
+static System::Net::NetworkInformation::NetworkInterfaceType const PrimaryIsdn;
 
 /// @brief Field Ppp offset 0
-static ::System::Net::NetworkInformation::NetworkInterfaceType const Ppp;
+static System::Net::NetworkInformation::NetworkInterfaceType const Ppp;
 
 /// @brief Field Loopback offset 0
-static ::System::Net::NetworkInformation::NetworkInterfaceType const Loopback;
+static System::Net::NetworkInformation::NetworkInterfaceType const Loopback;
 
 /// @brief Field Ethernet3Megabit offset 0
-static ::System::Net::NetworkInformation::NetworkInterfaceType const Ethernet3Megabit;
+static System::Net::NetworkInformation::NetworkInterfaceType const Ethernet3Megabit;
 
 /// @brief Field Slip offset 0
-static ::System::Net::NetworkInformation::NetworkInterfaceType const Slip;
+static System::Net::NetworkInformation::NetworkInterfaceType const Slip;
 
 /// @brief Field Atm offset 0
-static ::System::Net::NetworkInformation::NetworkInterfaceType const Atm;
+static System::Net::NetworkInformation::NetworkInterfaceType const Atm;
 
 /// @brief Field GenericModem offset 0
-static ::System::Net::NetworkInformation::NetworkInterfaceType const GenericModem;
+static System::Net::NetworkInformation::NetworkInterfaceType const GenericModem;
 
 /// @brief Field FastEthernetT offset 0
-static ::System::Net::NetworkInformation::NetworkInterfaceType const FastEthernetT;
+static System::Net::NetworkInformation::NetworkInterfaceType const FastEthernetT;
 
 /// @brief Field Isdn offset 0
-static ::System::Net::NetworkInformation::NetworkInterfaceType const Isdn;
+static System::Net::NetworkInformation::NetworkInterfaceType const Isdn;
 
 /// @brief Field FastEthernetFx offset 0
-static ::System::Net::NetworkInformation::NetworkInterfaceType const FastEthernetFx;
+static System::Net::NetworkInformation::NetworkInterfaceType const FastEthernetFx;
 
 /// @brief Field Wireless80211 offset 0
-static ::System::Net::NetworkInformation::NetworkInterfaceType const Wireless80211;
+static System::Net::NetworkInformation::NetworkInterfaceType const Wireless80211;
 
 /// @brief Field AsymmetricDsl offset 0
-static ::System::Net::NetworkInformation::NetworkInterfaceType const AsymmetricDsl;
+static System::Net::NetworkInformation::NetworkInterfaceType const AsymmetricDsl;
 
 /// @brief Field RateAdaptDsl offset 0
-static ::System::Net::NetworkInformation::NetworkInterfaceType const RateAdaptDsl;
+static System::Net::NetworkInformation::NetworkInterfaceType const RateAdaptDsl;
 
 /// @brief Field SymmetricDsl offset 0
-static ::System::Net::NetworkInformation::NetworkInterfaceType const SymmetricDsl;
+static System::Net::NetworkInformation::NetworkInterfaceType const SymmetricDsl;
 
 /// @brief Field VeryHighSpeedDsl offset 0
-static ::System::Net::NetworkInformation::NetworkInterfaceType const VeryHighSpeedDsl;
+static System::Net::NetworkInformation::NetworkInterfaceType const VeryHighSpeedDsl;
 
 /// @brief Field IPOverAtm offset 0
-static ::System::Net::NetworkInformation::NetworkInterfaceType const IPOverAtm;
+static System::Net::NetworkInformation::NetworkInterfaceType const IPOverAtm;
 
 /// @brief Field GigabitEthernet offset 0
-static ::System::Net::NetworkInformation::NetworkInterfaceType const GigabitEthernet;
+static System::Net::NetworkInformation::NetworkInterfaceType const GigabitEthernet;
 
 /// @brief Field Tunnel offset 0
-static ::System::Net::NetworkInformation::NetworkInterfaceType const Tunnel;
+static System::Net::NetworkInformation::NetworkInterfaceType const Tunnel;
 
 /// @brief Field MultiRateSymmetricDsl offset 0
-static ::System::Net::NetworkInformation::NetworkInterfaceType const MultiRateSymmetricDsl;
+static System::Net::NetworkInformation::NetworkInterfaceType const MultiRateSymmetricDsl;
 
 /// @brief Field HighPerformanceSerialBus offset 0
-static ::System::Net::NetworkInformation::NetworkInterfaceType const HighPerformanceSerialBus;
+static System::Net::NetworkInformation::NetworkInterfaceType const HighPerformanceSerialBus;
 
 /// @brief Field Wman offset 0
-static ::System::Net::NetworkInformation::NetworkInterfaceType const Wman;
+static System::Net::NetworkInformation::NetworkInterfaceType const Wman;
 
 /// @brief Field Wwanpp offset 0
-static ::System::Net::NetworkInformation::NetworkInterfaceType const Wwanpp;
+static System::Net::NetworkInformation::NetworkInterfaceType const Wwanpp;
 
 /// @brief Field Wwanpp2 offset 0
-static ::System::Net::NetworkInformation::NetworkInterfaceType const Wwanpp2;
+static System::Net::NetworkInformation::NetworkInterfaceType const Wwanpp2;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net::NetworkInformation
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::NetworkInterfaceType, "System.Net.NetworkInformation", "NetworkInterfaceType");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::NetworkInterfaceType, "System.Net.NetworkInformation", "NetworkInterfaceType");

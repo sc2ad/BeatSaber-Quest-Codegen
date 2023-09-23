@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class Stack_1;
@@ -61,11 +60,11 @@ constexpr explicit ObjectPool_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 
 // Fields
 
- ::System::Collections::Generic::Stack_1<T> __declspec(property(get=__get_m_Stack, put=__set_m_Stack))  m_Stack;
+ System::Collections::Generic::Stack_1<T> __declspec(property(get=__get_m_Stack, put=__set_m_Stack))  m_Stack;
 
-constexpr void __set_m_Stack(::System::Collections::Generic::Stack_1<T> value) ;
+constexpr void __set_m_Stack(System::Collections::Generic::Stack_1<T> value) ;
 
-constexpr ::System::Collections::Generic::Stack_1<T> __get_m_Stack() const;
+constexpr System::Collections::Generic::Stack_1<T> __get_m_Stack() const;
 
  int32_t __declspec(property(get=__get_m_MaxSize, put=__set_m_MaxSize))  m_MaxSize;
 
@@ -106,5 +105,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::ObjectPool_1, "UnityEngine.UIElements", "ObjectPool`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::UIElements::ObjectPool_1, "UnityEngine.UIElements", "ObjectPool`1");

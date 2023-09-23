@@ -3,10 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
 namespace Org::BouncyCastle::Cms {
 class CmsProcessable;
 }
@@ -15,6 +11,9 @@ class CmsReadable;
 }
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -29,11 +28,11 @@ namespace Org::BouncyCastle::Cms {
 class CORDL_TYPE CmsProcessableByteArray : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Cms::CmsProcessable
-constexpr operator  ::Org::BouncyCastle::Cms::CmsProcessable() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Cms::CmsProcessable
+constexpr operator  Org::BouncyCastle::Cms::CmsProcessable() const noexcept;
 
-/// @brief Convert operator to ::Org::BouncyCastle::Cms::CmsReadable
-constexpr operator  ::Org::BouncyCastle::Cms::CmsReadable() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Cms::CmsReadable
+constexpr operator  Org::BouncyCastle::Cms::CmsReadable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -68,11 +67,11 @@ constexpr explicit CmsProcessableByteArray(void* ptr) noexcept : ::bs_hook::Il2C
 
 // Fields
 
- ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_type, put=__set_type))  type;
+ Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_type, put=__set_type))  type;
 
-constexpr void __set_type(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+constexpr void __set_type(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_type() const;
+constexpr Org::BouncyCastle::Asn1::DerObjectIdentifier __get_type() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get_bytes, put=__set_bytes))  bytes;
 
@@ -83,7 +82,7 @@ constexpr ::ArrayW<uint8_t> __get_bytes() const;
 
 // Properties
 
- ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=get_Type))  Type;
+ Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=get_Type))  Type;
 
 
 // Methods
@@ -94,20 +93,20 @@ explicit CmsProcessableByteArray(::ArrayW<uint8_t> bytes) ;
 /// @brief Method .ctor addr 0x1159e70 size 0x78 virtual false final false
  void _ctor(::ArrayW<uint8_t> bytes) ;
 
-// Ctor Parameters [CppParam { name: "type", ty: "::Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "bytes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit CmsProcessableByteArray(::Org::BouncyCastle::Asn1::DerObjectIdentifier type, ::ArrayW<uint8_t> bytes) ;
+// Ctor Parameters [CppParam { name: "type", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "bytes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
+explicit CmsProcessableByteArray(Org::BouncyCastle::Asn1::DerObjectIdentifier type, ::ArrayW<uint8_t> bytes) ;
 
 /// @brief Method .ctor addr 0x1159ee8 size 0x2c virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier type, ::ArrayW<uint8_t> bytes) ;
+ void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier type, ::ArrayW<uint8_t> bytes) ;
 
 /// @brief Method get_Type addr 0x1159f14 size 0x8 virtual false final false
- ::Org::BouncyCastle::Asn1::DerObjectIdentifier get_Type() ;
+ Org::BouncyCastle::Asn1::DerObjectIdentifier get_Type() ;
 
 /// @brief Method GetInputStream addr 0x1159f1c size 0x6c virtual true final false
- ::System::IO::Stream GetInputStream() ;
+ System::IO::Stream GetInputStream() ;
 
 /// @brief Method Write addr 0x1159f88 size 0x38 virtual true final false
- void Write(::System::IO::Stream zOut) ;
+ void Write(System::IO::Stream zOut) ;
 
 /// @brief Method GetContent addr 0x1159fc0 size 0x1c virtual true final false
  ::bs_hook::Il2CppWrapperType GetContent() ;
@@ -116,6 +115,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Cms
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Cms::CmsProcessableByteArray);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::CmsProcessableByteArray, "Org.BouncyCastle.Cms", "CmsProcessableByteArray");
+NEED_NO_BOX(Org::BouncyCastle::Cms::CmsProcessableByteArray);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Cms::CmsProcessableByteArray, "Org.BouncyCastle.Cms", "CmsProcessableByteArray");

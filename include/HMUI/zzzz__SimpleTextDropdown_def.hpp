@@ -4,28 +4,27 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-class SimpleTextTableCell;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace HMUI {
 class DropdownWithTableView;
 }
 namespace HMUI {
-class TableCell;
+class TableView;
+}
+namespace GlobalNamespace {
+class SimpleTextTableCell;
 }
 namespace HMUI {
-class ____HMUI__TableView__IDataSource;
+class HMUI__TableView__IDataSource;
+}
+namespace HMUI {
+class TableCell;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
-}
-namespace HMUI {
-class TableView;
 }
 // Forward declare root types
 namespace HMUI {
@@ -37,11 +36,11 @@ namespace HMUI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13675))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13707))
 // CS Name: HMUI.SimpleTextDropdown
-class CORDL_TYPE SimpleTextDropdown : public ::HMUI::DropdownWithTableView {
+class CORDL_TYPE SimpleTextDropdown : public HMUI::DropdownWithTableView {
 public:
 // Declarations
-/// @brief Convert operator to ::HMUI::____HMUI__TableView__IDataSource
-constexpr operator  ::HMUI::____HMUI__TableView__IDataSource() const noexcept;
+/// @brief Convert operator to HMUI::HMUI__TableView__IDataSource
+constexpr operator  HMUI::HMUI__TableView__IDataSource() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x70};
@@ -55,7 +54,7 @@ constexpr SimpleTextDropdown(SimpleTextDropdown const& ) noexcept = default;
 constexpr SimpleTextDropdown(SimpleTextDropdown&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SimpleTextDropdown(void* ptr) noexcept : ::HMUI::DropdownWithTableView(ptr) {
+constexpr explicit SimpleTextDropdown(void* ptr) noexcept : HMUI::DropdownWithTableView(ptr) {
 }
 
 
@@ -76,17 +75,17 @@ constexpr explicit SimpleTextDropdown(void* ptr) noexcept : ::HMUI::DropdownWith
 
 // Fields
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__text, put=__set__text))  _text;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__text, put=__set__text))  _text;
 
-constexpr void __set__text(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__text(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__text() const;
+constexpr TMPro::TextMeshProUGUI __get__text() const;
 
- ::GlobalNamespace::SimpleTextTableCell __declspec(property(get=__get__cellPrefab, put=__set__cellPrefab))  _cellPrefab;
+ GlobalNamespace::SimpleTextTableCell __declspec(property(get=__get__cellPrefab, put=__set__cellPrefab))  _cellPrefab;
 
-constexpr void __set__cellPrefab(::GlobalNamespace::SimpleTextTableCell value) ;
+constexpr void __set__cellPrefab(GlobalNamespace::SimpleTextTableCell value) ;
 
-constexpr ::GlobalNamespace::SimpleTextTableCell __get__cellPrefab() const;
+constexpr GlobalNamespace::SimpleTextTableCell __get__cellPrefab() const;
 
  float_t __declspec(property(get=__get__cellSize, put=__set__cellSize))  _cellSize;
 
@@ -97,11 +96,11 @@ constexpr float_t __get__cellSize() const;
 /// @brief Field kCellReuseIdentifier offset 0
 static constexpr ::ConstString  kCellReuseIdentifier{u"Cell"};
 
- ::System::Collections::Generic::IReadOnlyList_1<::StringW> __declspec(property(get=__get__texts, put=__set__texts))  _texts;
+ System::Collections::Generic::IReadOnlyList_1<::StringW> __declspec(property(get=__get__texts, put=__set__texts))  _texts;
 
-constexpr void __set__texts(::System::Collections::Generic::IReadOnlyList_1<::StringW> value) ;
+constexpr void __set__texts(System::Collections::Generic::IReadOnlyList_1<::StringW> value) ;
 
-constexpr ::System::Collections::Generic::IReadOnlyList_1<::StringW> __get__texts() const;
+constexpr System::Collections::Generic::IReadOnlyList_1<::StringW> __get__texts() const;
 
  bool __declspec(property(get=__get__initialized, put=__set__initialized))  _initialized;
 
@@ -119,10 +118,10 @@ constexpr bool __get__initialized() const;
  void OnDestroy() ;
 
 /// @brief Method Init addr 0x1fd2974 size 0x40 virtual false final false
- void Init(::HMUI::____HMUI__TableView__IDataSource initTableViewDataSource) ;
+ void Init(HMUI::HMUI__TableView__IDataSource initTableViewDataSource) ;
 
 /// @brief Method SetTexts addr 0x1fd29b4 size 0x1a0 virtual false final false
- void SetTexts(::System::Collections::Generic::IReadOnlyList_1<::StringW> texts) ;
+ void SetTexts(System::Collections::Generic::IReadOnlyList_1<::StringW> texts) ;
 
 /// @brief Method SelectCellWithIdx addr 0x1fd2b54 size 0x1ec virtual true final false
  void SelectCellWithIdx(int32_t idx) ;
@@ -134,10 +133,10 @@ constexpr bool __get__initialized() const;
  int32_t NumberOfCells() ;
 
 /// @brief Method CellForIdx addr 0x1fd2df4 size 0x1bc virtual true final true
- ::HMUI::TableCell CellForIdx(::HMUI::TableView tableView, int32_t idx) ;
+ HMUI::TableCell CellForIdx(HMUI::TableView tableView, int32_t idx) ;
 
 /// @brief Method HandleDidSelectCellWithIdx addr 0x1fd309c size 0x14c virtual false final false
- void HandleDidSelectCellWithIdx(::HMUI::DropdownWithTableView dropdownWithTableView, int32_t idx) ;
+ void HandleDidSelectCellWithIdx(HMUI::DropdownWithTableView dropdownWithTableView, int32_t idx) ;
 
 // Ctor Parameters []
 explicit SimpleTextDropdown() ;
@@ -149,6 +148,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HMUI
-} // end anonymous namespace
-NEED_NO_BOX(::HMUI::SimpleTextDropdown);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::SimpleTextDropdown, "HMUI", "SimpleTextDropdown");
+NEED_NO_BOX(HMUI::SimpleTextDropdown);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::SimpleTextDropdown, "HMUI", "SimpleTextDropdown");

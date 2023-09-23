@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System {
-class Type;
-}
 namespace System::Reflection {
 struct GenericParameterAttributes;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Mono {
@@ -66,9 +65,9 @@ constexpr void* __get_value() const;
 
 // Properties
 
- ::ArrayW<::System::Type> __declspec(property(get=get_Constraints))  Constraints;
+ ::ArrayW<System::Type> __declspec(property(get=get_Constraints))  Constraints;
 
- ::System::Reflection::GenericParameterAttributes __declspec(property(get=get_Attributes))  Attributes;
+ System::Reflection::GenericParameterAttributes __declspec(property(get=get_Attributes))  Attributes;
 
 
 // Methods
@@ -77,13 +76,13 @@ constexpr void* __get_value() const;
  void _ctor(::cordl_internals::intptr_t ptr) ;
 
 /// @brief Method get_Constraints addr 0x22a5070 size 0x4 virtual false final false
- ::ArrayW<::System::Type> get_Constraints() ;
+ ::ArrayW<System::Type> get_Constraints() ;
 
 /// @brief Method get_Attributes addr 0x22a51a0 size 0x1c virtual false final false
- ::System::Reflection::GenericParameterAttributes get_Attributes() ;
+ System::Reflection::GenericParameterAttributes get_Attributes() ;
 
 /// @brief Method GetConstraints addr 0x22a5074 size 0x12c virtual false final false
- ::ArrayW<::System::Type> GetConstraints() ;
+ ::ArrayW<System::Type> GetConstraints() ;
 
 /// @brief Method GetConstraintsCount addr 0x22a51bc size 0x40 virtual false final false
  int32_t GetConstraintsCount() ;
@@ -92,5 +91,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Mono
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Mono::RuntimeGenericParamInfoHandle, "Mono", "RuntimeGenericParamInfoHandle");
+DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeGenericParamInfoHandle, "Mono", "RuntimeGenericParamInfoHandle");

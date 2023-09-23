@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_dateTimeBase_def.hpp"
-namespace {
 namespace System::Xml::Schema {
 struct XmlTypeCode;
 }
@@ -15,7 +14,7 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11577))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11586))
 // CS Name: System.Xml.Schema.Datatype_year
-class CORDL_TYPE Datatype_year : public ::System::Xml::Schema::Datatype_dateTimeBase {
+class CORDL_TYPE Datatype_year : public System::Xml::Schema::Datatype_dateTimeBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr Datatype_year(Datatype_year const& ) noexcept = default;
 constexpr Datatype_year(Datatype_year&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Datatype_year(void* ptr) noexcept : ::System::Xml::Schema::Datatype_dateTimeBase(ptr) {
+constexpr explicit Datatype_year(void* ptr) noexcept : System::Xml::Schema::Datatype_dateTimeBase(ptr) {
 }
 
 
@@ -51,13 +50,13 @@ constexpr explicit Datatype_year(void* ptr) noexcept : ::System::Xml::Schema::Da
 
 // Properties
 
- ::System::Xml::Schema::XmlTypeCode __declspec(property(get=get_TypeCode))  TypeCode;
+ System::Xml::Schema::XmlTypeCode __declspec(property(get=get_TypeCode))  TypeCode;
 
 
 // Methods
 
 /// @brief Method get_TypeCode addr 0x2726740 size 0x8 virtual true final false
- ::System::Xml::Schema::XmlTypeCode get_TypeCode() ;
+ System::Xml::Schema::XmlTypeCode get_TypeCode() ;
 
 // Ctor Parameters []
 explicit Datatype_year() ;
@@ -69,6 +68,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::Datatype_year);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::Datatype_year, "System.Xml.Schema", "Datatype_year");
+NEED_NO_BOX(System::Xml::Schema::Datatype_year);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::Datatype_year, "System.Xml.Schema", "Datatype_year");

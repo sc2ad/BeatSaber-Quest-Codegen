@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
@@ -55,26 +54,26 @@ constexpr explicit SurrogateKey(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 
 // Fields
 
- ::System::Type __declspec(property(get=__get_m_type, put=__set_m_type))  m_type;
+ System::Type __declspec(property(get=__get_m_type, put=__set_m_type))  m_type;
 
-constexpr void __set_m_type(::System::Type value) ;
+constexpr void __set_m_type(System::Type value) ;
 
-constexpr ::System::Type __get_m_type() const;
+constexpr System::Type __get_m_type() const;
 
- ::System::Runtime::Serialization::StreamingContext __declspec(property(get=__get_m_context, put=__set_m_context))  m_context;
+ System::Runtime::Serialization::StreamingContext __declspec(property(get=__get_m_context, put=__set_m_context))  m_context;
 
-constexpr void __set_m_context(::System::Runtime::Serialization::StreamingContext value) ;
+constexpr void __set_m_context(System::Runtime::Serialization::StreamingContext value) ;
 
-constexpr ::System::Runtime::Serialization::StreamingContext __get_m_context() const;
+constexpr System::Runtime::Serialization::StreamingContext __get_m_context() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "::System::Type", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit SurrogateKey(::System::Type type, ::System::Runtime::Serialization::StreamingContext context) ;
+// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit SurrogateKey(System::Type type, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x2353958 size 0x3c virtual false final false
- void _ctor(::System::Type type, ::System::Runtime::Serialization::StreamingContext context) ;
+ void _ctor(System::Type type, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method GetHashCode addr 0x2353b90 size 0x20 virtual true final false
  int32_t GetHashCode() ;
@@ -83,6 +82,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::SurrogateKey);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::SurrogateKey, "System.Runtime.Serialization", "SurrogateKey");
+NEED_NO_BOX(System::Runtime::Serialization::SurrogateKey);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SurrogateKey, "System.Runtime.Serialization", "SurrogateKey");

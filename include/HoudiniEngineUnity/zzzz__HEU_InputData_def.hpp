@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace UnityEngine {
 class GameObject;
 }
@@ -51,11 +50,11 @@ constexpr explicit HEU_InputData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 
 // Fields
 
- ::UnityEngine::GameObject __declspec(property(get=__get__inputObject, put=__set__inputObject))  _inputObject;
+ UnityEngine::GameObject __declspec(property(get=__get__inputObject, put=__set__inputObject))  _inputObject;
 
-constexpr void __set__inputObject(::UnityEngine::GameObject value) ;
+constexpr void __set__inputObject(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__inputObject() const;
+constexpr UnityEngine::GameObject __get__inputObject() const;
 
 
 // Methods
@@ -70,6 +69,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_InputData);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_InputData, "HoudiniEngineUnity", "HEU_InputData");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_InputData);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputData, "HoudiniEngineUnity", "HEU_InputData");

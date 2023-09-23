@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__BaseStateTransition_1_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class SpriteSwapTransitionSO;
 }
@@ -16,10 +15,10 @@ class SpriteSwapGraphicViewStateTransition;
 // Type: ::SpriteSwapGraphicViewStateTransition
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5544), inst: 894 }), TypeDefinitionIndex(TypeDefinitionIndex(12994)), TypeDefinitionIndex(TypeDefinitionIndex(5544))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5544)), TypeDefinitionIndex(TypeDefinitionIndex(12994)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5544), inst: 894 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5563))
 // CS Name: SpriteSwapGraphicViewStateTransition
-class CORDL_TYPE SpriteSwapGraphicViewStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityEngine::UI::Image> {
+class CORDL_TYPE SpriteSwapGraphicViewStateTransition : public GlobalNamespace::BaseStateTransition_1<UnityEngine::UI::Image> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr SpriteSwapGraphicViewStateTransition(SpriteSwapGraphicViewStateTransit
 constexpr SpriteSwapGraphicViewStateTransition(SpriteSwapGraphicViewStateTransition&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SpriteSwapGraphicViewStateTransition(void* ptr) noexcept : ::GlobalNamespace::BaseStateTransition_1<::UnityEngine::UI::Image>(ptr) {
+constexpr explicit SpriteSwapGraphicViewStateTransition(void* ptr) noexcept : GlobalNamespace::BaseStateTransition_1<UnityEngine::UI::Image>(ptr) {
 }
 
 
@@ -55,22 +54,22 @@ constexpr explicit SpriteSwapGraphicViewStateTransition(void* ptr) noexcept : ::
 
 // Fields
 
- ::GlobalNamespace::SpriteSwapTransitionSO __declspec(property(get=__get__transition, put=__set__transition))  _transition;
+ GlobalNamespace::SpriteSwapTransitionSO __declspec(property(get=__get__transition, put=__set__transition))  _transition;
 
-constexpr void __set__transition(::GlobalNamespace::SpriteSwapTransitionSO value) ;
+constexpr void __set__transition(GlobalNamespace::SpriteSwapTransitionSO value) ;
 
-constexpr ::GlobalNamespace::SpriteSwapTransitionSO __get__transition() const;
+constexpr GlobalNamespace::SpriteSwapTransitionSO __get__transition() const;
 
 
 // Properties
 
- ::GlobalNamespace::BaseTransitionSO __declspec(property(get=get_transition))  transition;
+ GlobalNamespace::BaseTransitionSO __declspec(property(get=get_transition))  transition;
 
 
 // Methods
 
 /// @brief Method get_transition addr 0x212c0c4 size 0x8 virtual true final false
- ::GlobalNamespace::BaseTransitionSO get_transition() ;
+ GlobalNamespace::BaseTransitionSO get_transition() ;
 
 /// @brief Method TransitionToNormalState addr 0x212c0cc size 0xc virtual true final false
  void TransitionToNormalState() ;
@@ -118,6 +117,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SpriteSwapGraphicViewStateTransition);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SpriteSwapGraphicViewStateTransition, "", "SpriteSwapGraphicViewStateTransition");
+NEED_NO_BOX(GlobalNamespace::SpriteSwapGraphicViewStateTransition);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpriteSwapGraphicViewStateTransition, "", "SpriteSwapGraphicViewStateTransition");

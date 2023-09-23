@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 struct PropagationPhase;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::UIElements::PropagationPhase const None;
+static UnityEngine::UIElements::PropagationPhase const None;
 
 /// @brief Field TrickleDown offset 0
-static ::UnityEngine::UIElements::PropagationPhase const TrickleDown;
+static UnityEngine::UIElements::PropagationPhase const TrickleDown;
 
 /// @brief Field AtTarget offset 0
-static ::UnityEngine::UIElements::PropagationPhase const AtTarget;
+static UnityEngine::UIElements::PropagationPhase const AtTarget;
 
 /// @brief Field DefaultActionAtTarget offset 0
-static ::UnityEngine::UIElements::PropagationPhase const DefaultActionAtTarget;
+static UnityEngine::UIElements::PropagationPhase const DefaultActionAtTarget;
 
 /// @brief Field BubbleUp offset 0
-static ::UnityEngine::UIElements::PropagationPhase const BubbleUp;
+static UnityEngine::UIElements::PropagationPhase const BubbleUp;
 
 /// @brief Field DefaultAction offset 0
-static ::UnityEngine::UIElements::PropagationPhase const DefaultAction;
+static UnityEngine::UIElements::PropagationPhase const DefaultAction;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::PropagationPhase, "UnityEngine.UIElements", "PropagationPhase");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::PropagationPhase, "UnityEngine.UIElements", "PropagationPhase");

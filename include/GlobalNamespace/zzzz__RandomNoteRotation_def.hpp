@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class NoteControllerBase;
-}
 namespace GlobalNamespace {
 class INoteControllerDidInitEvent;
+}
+namespace GlobalNamespace {
+class NoteControllerBase;
 }
 namespace UnityEngine {
 class Transform;
@@ -21,11 +20,11 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4901))
 // CS Name: RandomNoteRotation
-class CORDL_TYPE RandomNoteRotation : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE RandomNoteRotation : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::INoteControllerDidInitEvent
-constexpr operator  ::GlobalNamespace::INoteControllerDidInitEvent() const noexcept;
+/// @brief Convert operator to GlobalNamespace::INoteControllerDidInitEvent
+constexpr operator  GlobalNamespace::INoteControllerDidInitEvent() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -39,7 +38,7 @@ constexpr RandomNoteRotation(RandomNoteRotation const& ) noexcept = default;
 constexpr RandomNoteRotation(RandomNoteRotation&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RandomNoteRotation(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit RandomNoteRotation(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -60,17 +59,17 @@ constexpr explicit RandomNoteRotation(void* ptr) noexcept : ::UnityEngine::MonoB
 
 // Fields
 
- ::GlobalNamespace::NoteControllerBase __declspec(property(get=__get__noteController, put=__set__noteController))  _noteController;
+ GlobalNamespace::NoteControllerBase __declspec(property(get=__get__noteController, put=__set__noteController))  _noteController;
 
-constexpr void __set__noteController(::GlobalNamespace::NoteControllerBase value) ;
+constexpr void __set__noteController(GlobalNamespace::NoteControllerBase value) ;
 
-constexpr ::GlobalNamespace::NoteControllerBase __get__noteController() const;
+constexpr GlobalNamespace::NoteControllerBase __get__noteController() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
+ UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
 
-constexpr void __set__transform(::UnityEngine::Transform value) ;
+constexpr void __set__transform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__transform() const;
+constexpr UnityEngine::Transform __get__transform() const;
 
 
 // Methods
@@ -82,7 +81,7 @@ constexpr ::UnityEngine::Transform __get__transform() const;
  void OnDestroy() ;
 
 /// @brief Method HandleNoteControllerDidInit addr 0x2243840 size 0x28 virtual true final true
- void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase noteController) ;
+ void HandleNoteControllerDidInit(GlobalNamespace::NoteControllerBase noteController) ;
 
 // Ctor Parameters []
 explicit RandomNoteRotation() ;
@@ -94,6 +93,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::RandomNoteRotation);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RandomNoteRotation, "", "RandomNoteRotation");
+NEED_NO_BOX(GlobalNamespace::RandomNoteRotation);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RandomNoteRotation, "", "RandomNoteRotation");

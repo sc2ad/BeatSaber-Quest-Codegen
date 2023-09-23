@@ -3,7 +3,6 @@
 #include "System/Runtime/ConstrainedExecution/zzzz__CriticalFinalizerObject_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class IDisposable;
 }
@@ -17,11 +16,11 @@ namespace System::Runtime::InteropServices {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3347))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3328))
 // CS Name: System.Runtime.InteropServices.SafeHandle
-class CORDL_TYPE SafeHandle : public ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject {
+class CORDL_TYPE SafeHandle : public System::Runtime::ConstrainedExecution::CriticalFinalizerObject {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -35,7 +34,7 @@ constexpr SafeHandle(SafeHandle const& ) noexcept = default;
 constexpr SafeHandle(SafeHandle&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SafeHandle(void* ptr) noexcept : ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject(ptr) {
+constexpr explicit SafeHandle(void* ptr) noexcept : System::Runtime::ConstrainedExecution::CriticalFinalizerObject(ptr) {
 }
 
 
@@ -151,6 +150,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::InteropServices
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::InteropServices::SafeHandle);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::SafeHandle, "System.Runtime.InteropServices", "SafeHandle");
+NEED_NO_BOX(System::Runtime::InteropServices::SafeHandle);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::SafeHandle, "System.Runtime.InteropServices", "SafeHandle");

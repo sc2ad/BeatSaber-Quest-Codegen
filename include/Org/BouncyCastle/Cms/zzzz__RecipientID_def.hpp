@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
 class RecipientID;
@@ -15,7 +14,7 @@ namespace Org::BouncyCastle::Cms {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(678))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(686))
 // CS Name: Org.BouncyCastle.Cms.RecipientID
-class CORDL_TYPE RecipientID : public ::Org::BouncyCastle::X509::Store::X509CertStoreSelector {
+class CORDL_TYPE RecipientID : public Org::BouncyCastle::X509::Store::X509CertStoreSelector {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr RecipientID(RecipientID const& ) noexcept = default;
 constexpr RecipientID(RecipientID&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RecipientID(void* ptr) noexcept : ::Org::BouncyCastle::X509::Store::X509CertStoreSelector(ptr) {
+constexpr explicit RecipientID(void* ptr) noexcept : Org::BouncyCastle::X509::Store::X509CertStoreSelector(ptr) {
 }
 
 
@@ -87,6 +86,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Cms
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Cms::RecipientID);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::RecipientID, "Org.BouncyCastle.Cms", "RecipientID");
+NEED_NO_BOX(Org::BouncyCastle::Cms::RecipientID);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Cms::RecipientID, "Org.BouncyCastle.Cms", "RecipientID");

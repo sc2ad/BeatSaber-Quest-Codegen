@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform {
 struct RoomType;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::Oculus::Platform::RoomType const Unknown;
+static Oculus::Platform::RoomType const Unknown;
 
 /// @brief Field Matchmaking offset 0
-static ::Oculus::Platform::RoomType const Matchmaking;
+static Oculus::Platform::RoomType const Matchmaking;
 
 /// @brief Field Moderated offset 0
-static ::Oculus::Platform::RoomType const Moderated;
+static Oculus::Platform::RoomType const Moderated;
 
 /// @brief Field Private offset 0
-static ::Oculus::Platform::RoomType const Private;
+static Oculus::Platform::RoomType const Private;
 
 /// @brief Field Solo offset 0
-static ::Oculus::Platform::RoomType const Solo;
+static Oculus::Platform::RoomType const Solo;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::RoomType, "Oculus.Platform", "RoomType");
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::RoomType, "Oculus.Platform", "RoomType");

@@ -1,11 +1,10 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
-namespace {
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System {
 class IDisposable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
@@ -23,11 +22,11 @@ template<typename T>
 class CORDL_TYPE IEnumerator_1 : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
 ~IEnumerator_1() = default;
 
@@ -50,5 +49,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Collections::Generic
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Generic::IEnumerator_1, "System.Collections.Generic", "IEnumerator`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::IEnumerator_1, "System.Collections.Generic", "IEnumerator`1");

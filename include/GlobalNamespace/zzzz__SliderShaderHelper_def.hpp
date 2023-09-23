@@ -3,18 +3,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine {
 class MaterialPropertyBlock;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace GlobalNamespace {
 class SliderController;
 }
 namespace UnityEngine {
-struct Color;
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -150,33 +149,32 @@ static int32_t __get_saberAttractionMultiplier() ;
 // Methods
 
 /// @brief Method SetTimeSinceHeadNoteJump addr 0x224c600 size 0x7c virtual false final false
-static void SetTimeSinceHeadNoteJump(::UnityEngine::MaterialPropertyBlock materialPropertyBlock, float_t time) ;
+static void SetTimeSinceHeadNoteJump(UnityEngine::MaterialPropertyBlock materialPropertyBlock, float_t time) ;
 
 /// @brief Method SetTailHeadNoteJumpOffsetDifference addr 0x224c67c size 0x7c virtual false final false
-static void SetTailHeadNoteJumpOffsetDifference(::UnityEngine::MaterialPropertyBlock materialPropertyBlock, float_t tailHeadNoteJumpOffsetDifference) ;
+static void SetTailHeadNoteJumpOffsetDifference(UnityEngine::MaterialPropertyBlock materialPropertyBlock, float_t tailHeadNoteJumpOffsetDifference) ;
 
 /// @brief Method SetSaberAttractionPoint addr 0x224c6f8 size 0x98 virtual false final false
-static void SetSaberAttractionPoint(::UnityEngine::MaterialPropertyBlock materialPropertyBlock, ::UnityEngine::Vector3 attractPoint) ;
+static void SetSaberAttractionPoint(UnityEngine::MaterialPropertyBlock materialPropertyBlock, UnityEngine::Vector3 attractPoint) ;
 
 /// @brief Method EnableSaberAttraction addr 0x223e168 size 0x88 virtual false final false
-static void EnableSaberAttraction(::UnityEngine::MaterialPropertyBlock materialPropertyBlock, bool enableSaberAttraction) ;
+static void EnableSaberAttraction(UnityEngine::MaterialPropertyBlock materialPropertyBlock, bool enableSaberAttraction) ;
 
 /// @brief Method SetColor addr 0x224c790 size 0x9c virtual false final false
-static void SetColor(::UnityEngine::MaterialPropertyBlock materialPropertyBlock, ::UnityEngine::Color color) ;
+static void SetColor(UnityEngine::MaterialPropertyBlock materialPropertyBlock, UnityEngine::Color color) ;
 
 /// @brief Method SetInitialProperties addr 0x224c82c size 0x260 virtual false final false
-static void SetInitialProperties(::UnityEngine::MaterialPropertyBlock materialPropertyBlock, ::UnityEngine::Color sliderColor, float_t headNoteGravity, float_t tailNoteGravity, float_t noteJumpMovementSpeed, float_t jumpDistance, float_t sliderZLength, float_t sliderLength, bool hasHeadNote, bool hasTailNote, float_t randomValue) ;
+static void SetInitialProperties(UnityEngine::MaterialPropertyBlock materialPropertyBlock, UnityEngine::Color sliderColor, float_t headNoteGravity, float_t tailNoteGravity, float_t noteJumpMovementSpeed, float_t jumpDistance, float_t sliderZLength, float_t sliderLength, bool hasHeadNote, bool hasTailNote, float_t randomValue) ;
 
 /// @brief Method SetInitialProperties addr 0x223e010 size 0x158 virtual false final false
-static void SetInitialProperties(::UnityEngine::MaterialPropertyBlock materialPropertyBlock, ::GlobalNamespace::SliderController sliderController, float_t noteJumpMovementSpeed) ;
+static void SetInitialProperties(UnityEngine::MaterialPropertyBlock materialPropertyBlock, GlobalNamespace::SliderController sliderController, float_t noteJumpMovementSpeed) ;
 
 /// @brief Method UpdateMaterialPropertyBlock addr 0x223e1f0 size 0x160 virtual false final false
-static void UpdateMaterialPropertyBlock(::UnityEngine::MaterialPropertyBlock materialPropertyBlock, ::GlobalNamespace::SliderController sliderController, float_t timeSinceHeadNoteJump, float_t jumpOffsetY) ;
+static void UpdateMaterialPropertyBlock(UnityEngine::MaterialPropertyBlock materialPropertyBlock, GlobalNamespace::SliderController sliderController, float_t timeSinceHeadNoteJump, float_t jumpOffsetY) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SliderShaderHelper);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SliderShaderHelper, "", "SliderShaderHelper");
+NEED_NO_BOX(GlobalNamespace::SliderShaderHelper);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SliderShaderHelper, "", "SliderShaderHelper");

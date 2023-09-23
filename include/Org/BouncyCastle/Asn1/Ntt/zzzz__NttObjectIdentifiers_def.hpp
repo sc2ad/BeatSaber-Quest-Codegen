@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
@@ -51,41 +50,41 @@ constexpr explicit NttObjectIdentifiers(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 // Fields
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_IdCamellia128Cbc, put=__set_IdCamellia128Cbc))  IdCamellia128Cbc;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_IdCamellia128Cbc, put=__set_IdCamellia128Cbc))  IdCamellia128Cbc;
 
-static void __set_IdCamellia128Cbc(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_IdCamellia128Cbc(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_IdCamellia128Cbc() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_IdCamellia128Cbc() ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_IdCamellia192Cbc, put=__set_IdCamellia192Cbc))  IdCamellia192Cbc;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_IdCamellia192Cbc, put=__set_IdCamellia192Cbc))  IdCamellia192Cbc;
 
-static void __set_IdCamellia192Cbc(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_IdCamellia192Cbc(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_IdCamellia192Cbc() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_IdCamellia192Cbc() ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_IdCamellia256Cbc, put=__set_IdCamellia256Cbc))  IdCamellia256Cbc;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_IdCamellia256Cbc, put=__set_IdCamellia256Cbc))  IdCamellia256Cbc;
 
-static void __set_IdCamellia256Cbc(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_IdCamellia256Cbc(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_IdCamellia256Cbc() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_IdCamellia256Cbc() ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_IdCamellia128Wrap, put=__set_IdCamellia128Wrap))  IdCamellia128Wrap;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_IdCamellia128Wrap, put=__set_IdCamellia128Wrap))  IdCamellia128Wrap;
 
-static void __set_IdCamellia128Wrap(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_IdCamellia128Wrap(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_IdCamellia128Wrap() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_IdCamellia128Wrap() ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_IdCamellia192Wrap, put=__set_IdCamellia192Wrap))  IdCamellia192Wrap;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_IdCamellia192Wrap, put=__set_IdCamellia192Wrap))  IdCamellia192Wrap;
 
-static void __set_IdCamellia192Wrap(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_IdCamellia192Wrap(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_IdCamellia192Wrap() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_IdCamellia192Wrap() ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_IdCamellia256Wrap, put=__set_IdCamellia256Wrap))  IdCamellia256Wrap;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_IdCamellia256Wrap, put=__set_IdCamellia256Wrap))  IdCamellia256Wrap;
 
-static void __set_IdCamellia256Wrap(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_IdCamellia256Wrap(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_IdCamellia256Wrap() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_IdCamellia256Wrap() ;
 
 
 // Methods
@@ -100,6 +99,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::Ntt
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::Ntt::NttObjectIdentifiers);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Ntt::NttObjectIdentifiers, "Org.BouncyCastle.Asn1.Ntt", "NttObjectIdentifiers");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Ntt::NttObjectIdentifiers);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Ntt::NttObjectIdentifiers, "Org.BouncyCastle.Asn1.Ntt", "NttObjectIdentifiers");

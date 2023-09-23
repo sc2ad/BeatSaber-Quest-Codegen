@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 // Forward declare root types
 namespace Oculus::Platform {
 class CallbackRunner;
@@ -12,7 +11,7 @@ namespace Oculus::Platform {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13169))
 // CS Name: Oculus.Platform.CallbackRunner
-class CORDL_TYPE CallbackRunner : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE CallbackRunner : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr CallbackRunner(CallbackRunner const& ) noexcept = default;
 constexpr CallbackRunner(CallbackRunner&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CallbackRunner(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit CallbackRunner(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -82,6 +81,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::CallbackRunner);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::CallbackRunner, "Oculus.Platform", "CallbackRunner");
+NEED_NO_BOX(Oculus::Platform::CallbackRunner);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CallbackRunner, "Oculus.Platform", "CallbackRunner");

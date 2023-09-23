@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct EventType;
@@ -103,122 +102,121 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field MouseDown offset 0
-static ::UnityEngine::EventType const MouseDown;
+static UnityEngine::EventType const MouseDown;
 
 /// @brief Field MouseUp offset 0
-static ::UnityEngine::EventType const MouseUp;
+static UnityEngine::EventType const MouseUp;
 
 /// @brief Field MouseMove offset 0
-static ::UnityEngine::EventType const MouseMove;
+static UnityEngine::EventType const MouseMove;
 
 /// @brief Field MouseDrag offset 0
-static ::UnityEngine::EventType const MouseDrag;
+static UnityEngine::EventType const MouseDrag;
 
 /// @brief Field KeyDown offset 0
-static ::UnityEngine::EventType const KeyDown;
+static UnityEngine::EventType const KeyDown;
 
 /// @brief Field KeyUp offset 0
-static ::UnityEngine::EventType const KeyUp;
+static UnityEngine::EventType const KeyUp;
 
 /// @brief Field ScrollWheel offset 0
-static ::UnityEngine::EventType const ScrollWheel;
+static UnityEngine::EventType const ScrollWheel;
 
 /// @brief Field Repaint offset 0
-static ::UnityEngine::EventType const Repaint;
+static UnityEngine::EventType const Repaint;
 
 /// @brief Field Layout offset 0
-static ::UnityEngine::EventType const Layout;
+static UnityEngine::EventType const Layout;
 
 /// @brief Field DragUpdated offset 0
-static ::UnityEngine::EventType const DragUpdated;
+static UnityEngine::EventType const DragUpdated;
 
 /// @brief Field DragPerform offset 0
-static ::UnityEngine::EventType const DragPerform;
+static UnityEngine::EventType const DragPerform;
 
 /// @brief Field DragExited offset 0
-static ::UnityEngine::EventType const DragExited;
+static UnityEngine::EventType const DragExited;
 
 /// @brief Field Ignore offset 0
-static ::UnityEngine::EventType const Ignore;
+static UnityEngine::EventType const Ignore;
 
 /// @brief Field Used offset 0
-static ::UnityEngine::EventType const Used;
+static UnityEngine::EventType const Used;
 
 /// @brief Field ValidateCommand offset 0
-static ::UnityEngine::EventType const ValidateCommand;
+static UnityEngine::EventType const ValidateCommand;
 
 /// @brief Field ExecuteCommand offset 0
-static ::UnityEngine::EventType const ExecuteCommand;
+static UnityEngine::EventType const ExecuteCommand;
 
 /// @brief Field ContextClick offset 0
-static ::UnityEngine::EventType const ContextClick;
+static UnityEngine::EventType const ContextClick;
 
 /// @brief Field MouseEnterWindow offset 0
-static ::UnityEngine::EventType const MouseEnterWindow;
+static UnityEngine::EventType const MouseEnterWindow;
 
 /// @brief Field MouseLeaveWindow offset 0
-static ::UnityEngine::EventType const MouseLeaveWindow;
+static UnityEngine::EventType const MouseLeaveWindow;
 
 /// @brief Field TouchDown offset 0
-static ::UnityEngine::EventType const TouchDown;
+static UnityEngine::EventType const TouchDown;
 
 /// @brief Field TouchUp offset 0
-static ::UnityEngine::EventType const TouchUp;
+static UnityEngine::EventType const TouchUp;
 
 /// @brief Field TouchMove offset 0
-static ::UnityEngine::EventType const TouchMove;
+static UnityEngine::EventType const TouchMove;
 
 /// @brief Field TouchEnter offset 0
-static ::UnityEngine::EventType const TouchEnter;
+static UnityEngine::EventType const TouchEnter;
 
 /// @brief Field TouchLeave offset 0
-static ::UnityEngine::EventType const TouchLeave;
+static UnityEngine::EventType const TouchLeave;
 
 /// @brief Field TouchStationary offset 0
-static ::UnityEngine::EventType const TouchStationary;
+static UnityEngine::EventType const TouchStationary;
 
 /// @brief Field mouseDown offset 0
-static ::UnityEngine::EventType const mouseDown;
+static UnityEngine::EventType const mouseDown;
 
 /// @brief Field mouseUp offset 0
-static ::UnityEngine::EventType const mouseUp;
+static UnityEngine::EventType const mouseUp;
 
 /// @brief Field mouseMove offset 0
-static ::UnityEngine::EventType const mouseMove;
+static UnityEngine::EventType const mouseMove;
 
 /// @brief Field mouseDrag offset 0
-static ::UnityEngine::EventType const mouseDrag;
+static UnityEngine::EventType const mouseDrag;
 
 /// @brief Field keyDown offset 0
-static ::UnityEngine::EventType const keyDown;
+static UnityEngine::EventType const keyDown;
 
 /// @brief Field keyUp offset 0
-static ::UnityEngine::EventType const keyUp;
+static UnityEngine::EventType const keyUp;
 
 /// @brief Field scrollWheel offset 0
-static ::UnityEngine::EventType const scrollWheel;
+static UnityEngine::EventType const scrollWheel;
 
 /// @brief Field repaint offset 0
-static ::UnityEngine::EventType const repaint;
+static UnityEngine::EventType const repaint;
 
 /// @brief Field layout offset 0
-static ::UnityEngine::EventType const layout;
+static UnityEngine::EventType const layout;
 
 /// @brief Field dragUpdated offset 0
-static ::UnityEngine::EventType const dragUpdated;
+static UnityEngine::EventType const dragUpdated;
 
 /// @brief Field dragPerform offset 0
-static ::UnityEngine::EventType const dragPerform;
+static UnityEngine::EventType const dragPerform;
 
 /// @brief Field ignore offset 0
-static ::UnityEngine::EventType const ignore;
+static UnityEngine::EventType const ignore;
 
 /// @brief Field used offset 0
-static ::UnityEngine::EventType const used;
+static UnityEngine::EventType const used;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventType, "UnityEngine", "EventType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventType, "UnityEngine", "EventType");

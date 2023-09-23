@@ -2,15 +2,17 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace UnityEngine::UIElements {
-struct StyleLength;
+struct Length;
 }
 namespace UnityEngine::UIElements {
 struct Rotate;
 }
 namespace UnityEngine::UIElements {
 struct StyleKeyword;
+}
+namespace UnityEngine::Yoga {
+struct YogaValue;
 }
 namespace UnityEngine::UIElements {
 struct Scale;
@@ -19,18 +21,15 @@ namespace UnityEngine::UIElements {
 template<typename T>
 class IStyleValue_1;
 }
-namespace UnityEngine::Yoga {
-struct YogaValue;
-}
 namespace UnityEngine::UIElements {
-struct Translate;
+struct StyleLength;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine::UIElements {
-struct Length;
+struct Translate;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -80,34 +79,33 @@ constexpr explicit StyleValueExtensions(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 /// @brief Method DebugString addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static ::StringW DebugString(::UnityEngine::UIElements::IStyleValue_1<T> styleValue) ;
+static ::StringW DebugString(UnityEngine::UIElements::IStyleValue_1<T> styleValue) ;
 
 /// @brief Method ToYogaValue addr 0x2cf9988 size 0x14c virtual false final false
-static ::UnityEngine::Yoga::YogaValue ToYogaValue(::UnityEngine::UIElements::Length length) ;
+static UnityEngine::Yoga::YogaValue ToYogaValue(UnityEngine::UIElements::Length length) ;
 
 /// @brief Method ToLength addr 0x2cf9ad4 size 0x108 virtual false final false
-static ::UnityEngine::UIElements::Length ToLength(::UnityEngine::UIElements::StyleKeyword keyword) ;
+static UnityEngine::UIElements::Length ToLength(UnityEngine::UIElements::StyleKeyword keyword) ;
 
 /// @brief Method ToRotate addr 0x2cf9bec size 0x17c virtual false final false
-static ::UnityEngine::UIElements::Rotate ToRotate(::UnityEngine::UIElements::StyleKeyword keyword) ;
+static UnityEngine::UIElements::Rotate ToRotate(UnityEngine::UIElements::StyleKeyword keyword) ;
 
 /// @brief Method ToScale addr 0x2cf9d68 size 0x104 virtual false final false
-static ::UnityEngine::UIElements::Scale ToScale(::UnityEngine::UIElements::StyleKeyword keyword) ;
+static UnityEngine::UIElements::Scale ToScale(UnityEngine::UIElements::StyleKeyword keyword) ;
 
 /// @brief Method ToTranslate addr 0x2cf9e84 size 0x150 virtual false final false
-static ::UnityEngine::UIElements::Translate ToTranslate(::UnityEngine::UIElements::StyleKeyword keyword) ;
+static UnityEngine::UIElements::Translate ToTranslate(UnityEngine::UIElements::StyleKeyword keyword) ;
 
 /// @brief Method ToLength addr 0x2cf9ff0 size 0x20 virtual false final false
-static ::UnityEngine::UIElements::Length ToLength(::UnityEngine::UIElements::StyleLength styleLength) ;
+static UnityEngine::UIElements::Length ToLength(UnityEngine::UIElements::StyleLength styleLength) ;
 
 /// @brief Method CopyFrom addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static void CopyFrom(::System::Collections::Generic::List_1<T> list, ::System::Collections::Generic::List_1<T> other) ;
+static void CopyFrom(System::Collections::Generic::List_1<T> list, System::Collections::Generic::List_1<T> other) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::StyleValueExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleValueExtensions, "UnityEngine.UIElements", "StyleValueExtensions");
+NEED_NO_BOX(UnityEngine::UIElements::StyleValueExtensions);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::StyleValueExtensions, "UnityEngine.UIElements", "StyleValueExtensions");

@@ -5,29 +5,28 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPermissionsRequester__Permission;
+}
 namespace UnityEngine {
 class Transform;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRPlugin__EyeGazesState;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRPermissionsRequester__Permission;
+struct GlobalNamespace__OVRPlugin__EyeGazesState;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVREyeGaze__EyeId;
+struct GlobalNamespace__OVREyeGaze__EyeId;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OVREyeGaze__EyeTrackingMode;
+struct GlobalNamespace__OVREyeGaze__EyeTrackingMode;
 }
 namespace GlobalNamespace {
 class OVREyeGaze;
@@ -38,20 +37,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8461))
 // CS Name: OVREyeGaze::EyeId
-struct CORDL_TYPE ____GlobalNamespace__OVREyeGaze__EyeId : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__OVREyeGaze__EyeId : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__OVREyeGaze__EyeId(int32_t value__) noexcept;
+constexpr GlobalNamespace__OVREyeGaze__EyeId(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__OVREyeGaze__EyeId(____GlobalNamespace__OVREyeGaze__EyeId const&) = default;
-                    constexpr ____GlobalNamespace__OVREyeGaze__EyeId(____GlobalNamespace__OVREyeGaze__EyeId&&) = default;
-                    constexpr ____GlobalNamespace__OVREyeGaze__EyeId& operator=(____GlobalNamespace__OVREyeGaze__EyeId const& o) {
+                    constexpr GlobalNamespace__OVREyeGaze__EyeId(GlobalNamespace__OVREyeGaze__EyeId const&) = default;
+                    constexpr GlobalNamespace__OVREyeGaze__EyeId(GlobalNamespace__OVREyeGaze__EyeId&&) = default;
+                    constexpr GlobalNamespace__OVREyeGaze__EyeId& operator=(GlobalNamespace__OVREyeGaze__EyeId const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__OVREyeGaze__EyeId& operator=(____GlobalNamespace__OVREyeGaze__EyeId&& o) noexcept {
+                    constexpr GlobalNamespace__OVREyeGaze__EyeId& operator=(GlobalNamespace__OVREyeGaze__EyeId&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -64,7 +63,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVREyeGaze__EyeId(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__OVREyeGaze__EyeId(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -72,14 +71,14 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__OVREyeGaze__EyeId_Unwrapped : int32_t {
+enum class __GlobalNamespace__OVREyeGaze__EyeId_Unwrapped : int32_t {
 __Left = 0,
 __Right = 1,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__OVREyeGaze__EyeId_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__OVREyeGaze__EyeId_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__OVREyeGaze__EyeId_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__OVREyeGaze__EyeId_Unwrapped>(__instance);
 }
 
 
@@ -92,10 +91,10 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Left offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVREyeGaze__EyeId const Left;
+static GlobalNamespace::GlobalNamespace__OVREyeGaze__EyeId const Left;
 
 /// @brief Field Right offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVREyeGaze__EyeId const Right;
+static GlobalNamespace::GlobalNamespace__OVREyeGaze__EyeId const Right;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -107,20 +106,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8462))
 // CS Name: OVREyeGaze::EyeTrackingMode
-struct CORDL_TYPE ____GlobalNamespace__OVREyeGaze__EyeTrackingMode : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__OVREyeGaze__EyeTrackingMode : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__OVREyeGaze__EyeTrackingMode(int32_t value__) noexcept;
+constexpr GlobalNamespace__OVREyeGaze__EyeTrackingMode(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__OVREyeGaze__EyeTrackingMode(____GlobalNamespace__OVREyeGaze__EyeTrackingMode const&) = default;
-                    constexpr ____GlobalNamespace__OVREyeGaze__EyeTrackingMode(____GlobalNamespace__OVREyeGaze__EyeTrackingMode&&) = default;
-                    constexpr ____GlobalNamespace__OVREyeGaze__EyeTrackingMode& operator=(____GlobalNamespace__OVREyeGaze__EyeTrackingMode const& o) {
+                    constexpr GlobalNamespace__OVREyeGaze__EyeTrackingMode(GlobalNamespace__OVREyeGaze__EyeTrackingMode const&) = default;
+                    constexpr GlobalNamespace__OVREyeGaze__EyeTrackingMode(GlobalNamespace__OVREyeGaze__EyeTrackingMode&&) = default;
+                    constexpr GlobalNamespace__OVREyeGaze__EyeTrackingMode& operator=(GlobalNamespace__OVREyeGaze__EyeTrackingMode const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__OVREyeGaze__EyeTrackingMode& operator=(____GlobalNamespace__OVREyeGaze__EyeTrackingMode&& o) noexcept {
+                    constexpr GlobalNamespace__OVREyeGaze__EyeTrackingMode& operator=(GlobalNamespace__OVREyeGaze__EyeTrackingMode&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -133,7 +132,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVREyeGaze__EyeTrackingMode(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__OVREyeGaze__EyeTrackingMode(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -141,15 +140,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__OVREyeGaze__EyeTrackingMode_Unwrapped : int32_t {
+enum class __GlobalNamespace__OVREyeGaze__EyeTrackingMode_Unwrapped : int32_t {
 __HeadSpace = 0,
 __WorldSpace = 1,
 __TrackingSpace = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__OVREyeGaze__EyeTrackingMode_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__OVREyeGaze__EyeTrackingMode_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__OVREyeGaze__EyeTrackingMode_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__OVREyeGaze__EyeTrackingMode_Unwrapped>(__instance);
 }
 
 
@@ -162,13 +161,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field HeadSpace offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVREyeGaze__EyeTrackingMode const HeadSpace;
+static GlobalNamespace::GlobalNamespace__OVREyeGaze__EyeTrackingMode const HeadSpace;
 
 /// @brief Field WorldSpace offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVREyeGaze__EyeTrackingMode const WorldSpace;
+static GlobalNamespace::GlobalNamespace__OVREyeGaze__EyeTrackingMode const WorldSpace;
 
 /// @brief Field TrackingSpace offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVREyeGaze__EyeTrackingMode const TrackingSpace;
+static GlobalNamespace::GlobalNamespace__OVREyeGaze__EyeTrackingMode const TrackingSpace;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -180,12 +179,12 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8463))
 // CS Name: OVREyeGaze
-class CORDL_TYPE OVREyeGaze : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OVREyeGaze : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using EyeTrackingMode = ::GlobalNamespace::____GlobalNamespace__OVREyeGaze__EyeTrackingMode;
+using EyeTrackingMode = GlobalNamespace::GlobalNamespace__OVREyeGaze__EyeTrackingMode;
 
-using EyeId = ::GlobalNamespace::____GlobalNamespace__OVREyeGaze__EyeId;
+using EyeId = GlobalNamespace::GlobalNamespace__OVREyeGaze__EyeId;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x68};
@@ -199,7 +198,7 @@ constexpr OVREyeGaze(OVREyeGaze const& ) noexcept = default;
 constexpr OVREyeGaze(OVREyeGaze&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OVREyeGaze(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OVREyeGaze(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -220,11 +219,11 @@ constexpr explicit OVREyeGaze(void* ptr) noexcept : ::UnityEngine::MonoBehaviour
 
 // Fields
 
- ::GlobalNamespace::____GlobalNamespace__OVREyeGaze__EyeId __declspec(property(get=__get_Eye, put=__set_Eye))  Eye;
+ GlobalNamespace::GlobalNamespace__OVREyeGaze__EyeId __declspec(property(get=__get_Eye, put=__set_Eye))  Eye;
 
-constexpr void __set_Eye(::GlobalNamespace::____GlobalNamespace__OVREyeGaze__EyeId value) ;
+constexpr void __set_Eye(GlobalNamespace::GlobalNamespace__OVREyeGaze__EyeId value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVREyeGaze__EyeId __get_Eye() const;
+constexpr GlobalNamespace::GlobalNamespace__OVREyeGaze__EyeId __get_Eye() const;
 
  float_t __declspec(property(get=__get__Confidence_k__BackingField, put=__set__Confidence_k__BackingField))  _Confidence_k__BackingField;
 
@@ -250,44 +249,44 @@ constexpr void __set_ApplyRotation(bool value) ;
 
 constexpr bool __get_ApplyRotation() const;
 
- ::GlobalNamespace::____GlobalNamespace__OVRPlugin__EyeGazesState __declspec(property(get=__get__currentEyeGazesState, put=__set__currentEyeGazesState))  _currentEyeGazesState;
+ GlobalNamespace::GlobalNamespace__OVRPlugin__EyeGazesState __declspec(property(get=__get__currentEyeGazesState, put=__set__currentEyeGazesState))  _currentEyeGazesState;
 
-constexpr void __set__currentEyeGazesState(::GlobalNamespace::____GlobalNamespace__OVRPlugin__EyeGazesState value) ;
+constexpr void __set__currentEyeGazesState(GlobalNamespace::GlobalNamespace__OVRPlugin__EyeGazesState value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVRPlugin__EyeGazesState __get__currentEyeGazesState() const;
+constexpr GlobalNamespace::GlobalNamespace__OVRPlugin__EyeGazesState __get__currentEyeGazesState() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_ReferenceFrame, put=__set_ReferenceFrame))  ReferenceFrame;
+ UnityEngine::Transform __declspec(property(get=__get_ReferenceFrame, put=__set_ReferenceFrame))  ReferenceFrame;
 
-constexpr void __set_ReferenceFrame(::UnityEngine::Transform value) ;
+constexpr void __set_ReferenceFrame(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_ReferenceFrame() const;
+constexpr UnityEngine::Transform __get_ReferenceFrame() const;
 
- ::GlobalNamespace::____GlobalNamespace__OVREyeGaze__EyeTrackingMode __declspec(property(get=__get_TrackingMode, put=__set_TrackingMode))  TrackingMode;
+ GlobalNamespace::GlobalNamespace__OVREyeGaze__EyeTrackingMode __declspec(property(get=__get_TrackingMode, put=__set_TrackingMode))  TrackingMode;
 
-constexpr void __set_TrackingMode(::GlobalNamespace::____GlobalNamespace__OVREyeGaze__EyeTrackingMode value) ;
+constexpr void __set_TrackingMode(GlobalNamespace::GlobalNamespace__OVREyeGaze__EyeTrackingMode value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVREyeGaze__EyeTrackingMode __get_TrackingMode() const;
+constexpr GlobalNamespace::GlobalNamespace__OVREyeGaze__EyeTrackingMode __get_TrackingMode() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get__initialRotationOffset, put=__set__initialRotationOffset))  _initialRotationOffset;
+ UnityEngine::Quaternion __declspec(property(get=__get__initialRotationOffset, put=__set__initialRotationOffset))  _initialRotationOffset;
 
-constexpr void __set__initialRotationOffset(::UnityEngine::Quaternion value) ;
+constexpr void __set__initialRotationOffset(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get__initialRotationOffset() const;
+constexpr UnityEngine::Quaternion __get__initialRotationOffset() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__viewTransform, put=__set__viewTransform))  _viewTransform;
+ UnityEngine::Transform __declspec(property(get=__get__viewTransform, put=__set__viewTransform))  _viewTransform;
 
-constexpr void __set__viewTransform(::UnityEngine::Transform value) ;
+constexpr void __set__viewTransform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__viewTransform() const;
+constexpr UnityEngine::Transform __get__viewTransform() const;
 
 /// @brief Field EyeTrackingPermission offset 0
-static ::GlobalNamespace::____GlobalNamespace__OVRPermissionsRequester__Permission const EyeTrackingPermission;
+static GlobalNamespace::GlobalNamespace__OVRPermissionsRequester__Permission const EyeTrackingPermission;
 
- ::System::Action_1<::StringW> __declspec(property(get=__get__onPermissionGranted, put=__set__onPermissionGranted))  _onPermissionGranted;
+ System::Action_1<::StringW> __declspec(property(get=__get__onPermissionGranted, put=__set__onPermissionGranted))  _onPermissionGranted;
 
-constexpr void __set__onPermissionGranted(::System::Action_1<::StringW> value) ;
+constexpr void __set__onPermissionGranted(System::Action_1<::StringW> value) ;
 
-constexpr ::System::Action_1<::StringW> __get__onPermissionGranted() const;
+constexpr System::Action_1<::StringW> __get__onPermissionGranted() const;
 
 static int32_t __declspec(property(get=__get__trackingInstanceCount, put=__set__trackingInstanceCount))  _trackingInstanceCount;
 
@@ -339,7 +338,7 @@ static int32_t __get__trackingInstanceCount() ;
  void Update() ;
 
 /// @brief Method CalculateEyeRotation addr 0x25afc1c size 0x1c0 virtual false final false
- ::UnityEngine::Quaternion CalculateEyeRotation(::UnityEngine::Quaternion eyeRotation) ;
+ UnityEngine::Quaternion CalculateEyeRotation(UnityEngine::Quaternion eyeRotation) ;
 
 /// @brief Method PrepareHeadDirection addr 0x25af554 size 0x284 virtual false final false
  void PrepareHeadDirection() ;
@@ -354,8 +353,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVREyeGaze__EyeId, "", "OVREyeGaze/EyeId");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVREyeGaze__EyeTrackingMode, "", "OVREyeGaze/EyeTrackingMode");
-NEED_NO_BOX(::GlobalNamespace::OVREyeGaze);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVREyeGaze, "", "OVREyeGaze");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVREyeGaze__EyeId, "", "OVREyeGaze/EyeId");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVREyeGaze__EyeTrackingMode, "", "OVREyeGaze/EyeTrackingMode");
+NEED_NO_BOX(GlobalNamespace::OVREyeGaze);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVREyeGaze, "", "OVREyeGaze");

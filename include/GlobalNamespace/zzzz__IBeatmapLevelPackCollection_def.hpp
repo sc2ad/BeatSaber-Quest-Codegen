@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace GlobalNamespace {
 class IBeatmapLevelPack;
 }
@@ -27,18 +26,17 @@ constexpr explicit IBeatmapLevelPackCollection(void* ptr) noexcept : ::cordl_int
 
 // Properties
 
- ::ArrayW<::GlobalNamespace::IBeatmapLevelPack> __declspec(property(get=get_beatmapLevelPacks))  beatmapLevelPacks;
+ ::ArrayW<GlobalNamespace::IBeatmapLevelPack> __declspec(property(get=get_beatmapLevelPacks))  beatmapLevelPacks;
 
 
 // Methods
 
 /// @brief Method get_beatmapLevelPacks addr 0x0 size 0xffffffffffffffff virtual true final false
- ::ArrayW<::GlobalNamespace::IBeatmapLevelPack> get_beatmapLevelPacks() ;
+ ::ArrayW<GlobalNamespace::IBeatmapLevelPack> get_beatmapLevelPacks() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IBeatmapLevelPackCollection);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IBeatmapLevelPackCollection, "", "IBeatmapLevelPackCollection");
+NEED_NO_BOX(GlobalNamespace::IBeatmapLevelPackCollection);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IBeatmapLevelPackCollection, "", "IBeatmapLevelPackCollection");

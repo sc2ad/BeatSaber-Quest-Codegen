@@ -5,12 +5,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace System {
-class Type;
-}
 namespace UnityEngine {
 class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -22,7 +21,7 @@ namespace UnityEngine::UIElements {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6957))
 // CS Name: UnityEngine.UIElements.LoadResourceFunction
-class CORDL_TYPE LoadResourceFunction : public ::System::MulticastDelegate {
+class CORDL_TYPE LoadResourceFunction : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr LoadResourceFunction(LoadResourceFunction const& ) noexcept = default;
 constexpr LoadResourceFunction(LoadResourceFunction&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LoadResourceFunction(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit LoadResourceFunction(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -65,12 +64,11 @@ explicit LoadResourceFunction(::bs_hook::Il2CppWrapperType object, ::cordl_inter
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x2c50dc8 size 0x14 virtual true final false
- ::UnityEngine::Object Invoke(::StringW pathName, ::System::Type type, float_t dpiScaling) ;
+ UnityEngine::Object Invoke(::StringW pathName, System::Type type, float_t dpiScaling) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::LoadResourceFunction);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::LoadResourceFunction, "UnityEngine.UIElements", "LoadResourceFunction");
+NEED_NO_BOX(UnityEngine::UIElements::LoadResourceFunction);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::LoadResourceFunction, "UnityEngine.UIElements", "LoadResourceFunction");

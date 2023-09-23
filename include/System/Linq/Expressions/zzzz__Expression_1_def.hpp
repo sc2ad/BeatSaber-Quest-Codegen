@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Linq/Expressions/zzzz__LambdaExpression_def.hpp"
-namespace {
 // Forward declare root types
 namespace System::Linq::Expressions {
 template<typename TDelegate>
@@ -15,7 +14,7 @@ template<typename TDelegate>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14584))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14585))
 // CS Name: System.Linq.Expressions.Expression`1
-class CORDL_TYPE Expression_1 : public ::System::Linq::Expressions::LambdaExpression {
+class CORDL_TYPE Expression_1 : public System::Linq::Expressions::LambdaExpression {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr Expression_1(Expression_1 const& ) noexcept = default;
 constexpr Expression_1(Expression_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Expression_1(void* ptr) noexcept : ::System::Linq::Expressions::LambdaExpression(ptr) {
+constexpr explicit Expression_1(void* ptr) noexcept : System::Linq::Expressions::LambdaExpression(ptr) {
 }
 
 
@@ -52,5 +51,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Linq::Expressions
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Linq::Expressions::Expression_1, "System.Linq.Expressions", "Expression`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Linq::Expressions::Expression_1, "System.Linq.Expressions", "Expression`1");

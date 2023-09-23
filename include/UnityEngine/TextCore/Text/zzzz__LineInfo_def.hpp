@@ -3,12 +3,11 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine::TextCore::Text {
-struct Extents;
-}
 namespace UnityEngine::TextCore::Text {
 struct TextAlignment;
+}
+namespace UnityEngine::TextCore::Text {
+struct Extents;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -23,8 +22,8 @@ namespace UnityEngine::TextCore::Text {
 struct CORDL_TYPE LineInfo : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "controlCharacterCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "characterCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "visibleCharacterCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "spaceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "visibleSpaceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "wordCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstVisibleCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lastCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lastVisibleCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "lineHeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "ascender", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "baseline", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "descender", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "maxAdvance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "width", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "marginLeft", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "marginRight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "alignment", ty: "::UnityEngine::TextCore::Text::TextAlignment", modifiers: "", def_value: None }, CppParam { name: "lineExtents", ty: "::UnityEngine::TextCore::Text::Extents", modifiers: "", def_value: None }]
-constexpr LineInfo(int32_t controlCharacterCount, int32_t characterCount, int32_t visibleCharacterCount, int32_t spaceCount, int32_t visibleSpaceCount, int32_t wordCount, int32_t firstCharacterIndex, int32_t firstVisibleCharacterIndex, int32_t lastCharacterIndex, int32_t lastVisibleCharacterIndex, float_t length, float_t lineHeight, float_t ascender, float_t baseline, float_t descender, float_t maxAdvance, float_t width, float_t marginLeft, float_t marginRight, ::UnityEngine::TextCore::Text::TextAlignment alignment, ::UnityEngine::TextCore::Text::Extents lineExtents) noexcept;
+// Ctor Parameters [CppParam { name: "controlCharacterCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "characterCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "visibleCharacterCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "spaceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "visibleSpaceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "wordCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstVisibleCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lastCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lastVisibleCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "lineHeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "ascender", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "baseline", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "descender", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "maxAdvance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "width", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "marginLeft", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "marginRight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "alignment", ty: "UnityEngine::TextCore::Text::TextAlignment", modifiers: "", def_value: None }, CppParam { name: "lineExtents", ty: "UnityEngine::TextCore::Text::Extents", modifiers: "", def_value: None }]
+constexpr LineInfo(int32_t controlCharacterCount, int32_t characterCount, int32_t visibleCharacterCount, int32_t spaceCount, int32_t visibleSpaceCount, int32_t wordCount, int32_t firstCharacterIndex, int32_t firstVisibleCharacterIndex, int32_t lastCharacterIndex, int32_t lastVisibleCharacterIndex, float_t length, float_t lineHeight, float_t ascender, float_t baseline, float_t descender, float_t maxAdvance, float_t width, float_t marginLeft, float_t marginRight, UnityEngine::TextCore::Text::TextAlignment alignment, UnityEngine::TextCore::Text::Extents lineExtents) noexcept;
 
 
                     constexpr LineInfo(LineInfo const&) = default;
@@ -171,21 +170,20 @@ constexpr void __set_marginRight(float_t value) ;
 
 constexpr float_t __get_marginRight() const;
 
- ::UnityEngine::TextCore::Text::TextAlignment __declspec(property(get=__get_alignment, put=__set_alignment))  alignment;
+ UnityEngine::TextCore::Text::TextAlignment __declspec(property(get=__get_alignment, put=__set_alignment))  alignment;
 
-constexpr void __set_alignment(::UnityEngine::TextCore::Text::TextAlignment value) ;
+constexpr void __set_alignment(UnityEngine::TextCore::Text::TextAlignment value) ;
 
-constexpr ::UnityEngine::TextCore::Text::TextAlignment __get_alignment() const;
+constexpr UnityEngine::TextCore::Text::TextAlignment __get_alignment() const;
 
- ::UnityEngine::TextCore::Text::Extents __declspec(property(get=__get_lineExtents, put=__set_lineExtents))  lineExtents;
+ UnityEngine::TextCore::Text::Extents __declspec(property(get=__get_lineExtents, put=__set_lineExtents))  lineExtents;
 
-constexpr void __set_lineExtents(::UnityEngine::TextCore::Text::Extents value) ;
+constexpr void __set_lineExtents(UnityEngine::TextCore::Text::Extents value) ;
 
-constexpr ::UnityEngine::TextCore::Text::Extents __get_lineExtents() const;
+constexpr UnityEngine::TextCore::Text::Extents __get_lineExtents() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::Text
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::LineInfo, "UnityEngine.TextCore.Text", "LineInfo");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Text::LineInfo, "UnityEngine.TextCore.Text", "LineInfo");

@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 class IEquatable_1;
@@ -22,8 +21,8 @@ namespace UnityEngine::InputSystem::Utilities {
 struct CORDL_TYPE FourCC : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::FourCC>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::FourCC>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::InputSystem::Utilities::FourCC>
+constexpr operator  System::IEquatable_1<UnityEngine::InputSystem::Utilities::FourCC>() const;
 
 // Ctor Parameters [CppParam { name: "m_Code", ty: "int32_t", modifiers: "", def_value: None }]
 constexpr FourCC(int32_t m_Code) noexcept;
@@ -78,16 +77,16 @@ constexpr int32_t __get_m_Code() const;
  void _ctor(::StringW str) ;
 
 /// @brief Method op_Implicit addr 0x297d2d8 size 0x4 virtual false final false
-static int32_t op_Implicit_int32_t(::UnityEngine::InputSystem::Utilities::FourCC fourCC) ;
+static int32_t op_Implicit_int32_t(UnityEngine::InputSystem::Utilities::FourCC fourCC) ;
 
 /// @brief Method op_Implicit addr 0x297d2dc size 0x8 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::FourCC op_Implicit___UnityEngine__InputSystem__Utilities__FourCC(int32_t i) ;
+static UnityEngine::InputSystem::Utilities::FourCC op_Implicit_UnityEngine__InputSystem__Utilities__FourCC(int32_t i) ;
 
 /// @brief Method ToString addr 0x297d2e4 size 0x1b0 virtual true final false
  ::StringW ToString() ;
 
 /// @brief Method Equals addr 0x297d494 size 0x10 virtual true final true
- bool Equals(::UnityEngine::InputSystem::Utilities::FourCC other) ;
+ bool Equals(UnityEngine::InputSystem::Utilities::FourCC other) ;
 
 /// @brief Method Equals addr 0x297d4a4 size 0x78 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -96,20 +95,19 @@ static ::UnityEngine::InputSystem::Utilities::FourCC op_Implicit___UnityEngine__
  int32_t GetHashCode() ;
 
 /// @brief Method op_Equality addr 0x297d524 size 0xc virtual false final false
-static bool op_Equality(::UnityEngine::InputSystem::Utilities::FourCC left, ::UnityEngine::InputSystem::Utilities::FourCC right) ;
+static bool op_Equality(UnityEngine::InputSystem::Utilities::FourCC left, UnityEngine::InputSystem::Utilities::FourCC right) ;
 
 /// @brief Method op_Inequality addr 0x297d530 size 0xc virtual false final false
-static bool op_Inequality(::UnityEngine::InputSystem::Utilities::FourCC left, ::UnityEngine::InputSystem::Utilities::FourCC right) ;
+static bool op_Inequality(UnityEngine::InputSystem::Utilities::FourCC left, UnityEngine::InputSystem::Utilities::FourCC right) ;
 
 /// @brief Method FromInt32 addr 0x297d53c size 0x8 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::FourCC FromInt32(int32_t i) ;
+static UnityEngine::InputSystem::Utilities::FourCC FromInt32(int32_t i) ;
 
 /// @brief Method ToInt32 addr 0x297d544 size 0x4 virtual false final false
-static int32_t ToInt32(::UnityEngine::InputSystem::Utilities::FourCC fourCC) ;
+static int32_t ToInt32(UnityEngine::InputSystem::Utilities::FourCC fourCC) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Utilities
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Utilities::FourCC, "UnityEngine.InputSystem.Utilities", "FourCC");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Utilities::FourCC, "UnityEngine.InputSystem.Utilities", "FourCC");

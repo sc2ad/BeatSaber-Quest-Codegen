@@ -1,15 +1,14 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Color32;
 }
 namespace UnityEngine {
-struct Color32;
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -24,8 +23,8 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE TextVertex : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "color", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "uv0", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }]
-constexpr TextVertex(::UnityEngine::Vector3 position, ::UnityEngine::Color32 color, ::UnityEngine::Vector2 uv0) noexcept;
+// Ctor Parameters [CppParam { name: "position", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "color", ty: "UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "uv0", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }]
+constexpr TextVertex(UnityEngine::Vector3 position, UnityEngine::Color32 color, UnityEngine::Vector2 uv0) noexcept;
 
 
                     constexpr TextVertex(TextVertex const&) = default;
@@ -58,27 +57,26 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_position, put=__set_position))  position;
+ UnityEngine::Vector3 __declspec(property(get=__get_position, put=__set_position))  position;
 
-constexpr void __set_position(::UnityEngine::Vector3 value) ;
+constexpr void __set_position(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_position() const;
+constexpr UnityEngine::Vector3 __get_position() const;
 
- ::UnityEngine::Color32 __declspec(property(get=__get_color, put=__set_color))  color;
+ UnityEngine::Color32 __declspec(property(get=__get_color, put=__set_color))  color;
 
-constexpr void __set_color(::UnityEngine::Color32 value) ;
+constexpr void __set_color(UnityEngine::Color32 value) ;
 
-constexpr ::UnityEngine::Color32 __get_color() const;
+constexpr UnityEngine::Color32 __get_color() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_uv0, put=__set_uv0))  uv0;
+ UnityEngine::Vector2 __declspec(property(get=__get_uv0, put=__set_uv0))  uv0;
 
-constexpr void __set_uv0(::UnityEngine::Vector2 value) ;
+constexpr void __set_uv0(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_uv0() const;
+constexpr UnityEngine::Vector2 __get_uv0() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::TextVertex, "UnityEngine.UIElements", "TextVertex");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::TextVertex, "UnityEngine.UIElements", "TextVertex");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class MultiplayerLevelSceneSetupData;
 }
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11080))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5486))
 // CS Name: MultiplayerLocalPlayerInstaller
-class CORDL_TYPE MultiplayerLocalPlayerInstaller : public ::Zenject::MonoInstaller {
+class CORDL_TYPE MultiplayerLocalPlayerInstaller : public Zenject::MonoInstaller {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr MultiplayerLocalPlayerInstaller(MultiplayerLocalPlayerInstaller const&
 constexpr MultiplayerLocalPlayerInstaller(MultiplayerLocalPlayerInstaller&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerLocalPlayerInstaller(void* ptr) noexcept : ::Zenject::MonoInstaller(ptr) {
+constexpr explicit MultiplayerLocalPlayerInstaller(void* ptr) noexcept : Zenject::MonoInstaller(ptr) {
 }
 
 
@@ -57,23 +56,23 @@ constexpr explicit MultiplayerLocalPlayerInstaller(void* ptr) noexcept : ::Zenje
 
 // Fields
 
- ::GlobalNamespace::MultiplayerLevelSceneSetupData __declspec(property(get=__get__levelSceneSetupData, put=__set__levelSceneSetupData))  _levelSceneSetupData;
+ GlobalNamespace::MultiplayerLevelSceneSetupData __declspec(property(get=__get__levelSceneSetupData, put=__set__levelSceneSetupData))  _levelSceneSetupData;
 
-constexpr void __set__levelSceneSetupData(::GlobalNamespace::MultiplayerLevelSceneSetupData value) ;
+constexpr void __set__levelSceneSetupData(GlobalNamespace::MultiplayerLevelSceneSetupData value) ;
 
-constexpr ::GlobalNamespace::MultiplayerLevelSceneSetupData __get__levelSceneSetupData() const;
+constexpr GlobalNamespace::MultiplayerLevelSceneSetupData __get__levelSceneSetupData() const;
 
- ::GlobalNamespace::IMultiplayerSessionManager __declspec(property(get=__get__multiplayerSessionManager, put=__set__multiplayerSessionManager))  _multiplayerSessionManager;
+ GlobalNamespace::IMultiplayerSessionManager __declspec(property(get=__get__multiplayerSessionManager, put=__set__multiplayerSessionManager))  _multiplayerSessionManager;
 
-constexpr void __set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager value) ;
+constexpr void __set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager value) ;
 
-constexpr ::GlobalNamespace::IMultiplayerSessionManager __get__multiplayerSessionManager() const;
+constexpr GlobalNamespace::IMultiplayerSessionManager __get__multiplayerSessionManager() const;
 
- ::GlobalNamespace::MultiplayerPlayerStartState __declspec(property(get=__get__startState, put=__set__startState))  _startState;
+ GlobalNamespace::MultiplayerPlayerStartState __declspec(property(get=__get__startState, put=__set__startState))  _startState;
 
-constexpr void __set__startState(::GlobalNamespace::MultiplayerPlayerStartState value) ;
+constexpr void __set__startState(GlobalNamespace::MultiplayerPlayerStartState value) ;
 
-constexpr ::GlobalNamespace::MultiplayerPlayerStartState __get__startState() const;
+constexpr GlobalNamespace::MultiplayerPlayerStartState __get__startState() const;
 
 
 // Methods
@@ -91,6 +90,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerLocalPlayerInstaller);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerLocalPlayerInstaller, "", "MultiplayerLocalPlayerInstaller");
+NEED_NO_BOX(GlobalNamespace::MultiplayerLocalPlayerInstaller);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalPlayerInstaller, "", "MultiplayerLocalPlayerInstaller");

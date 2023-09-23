@@ -5,18 +5,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class Animator;
+namespace RootMotion::FinalIK {
+class IK;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace UnityEngine {
+class Animator;
+}
+namespace UnityEngine {
 struct AnimatorUpdateMode;
 }
-namespace RootMotion::FinalIK {
-class IK;
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine {
 class Transform;
@@ -25,36 +27,33 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-struct Quaternion;
+class Collider;
 }
 namespace UnityEngine {
 class Rigidbody;
 }
 namespace UnityEngine {
-class Collider;
-}
-namespace UnityEngine {
 class Joint;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
 class RagdollUtility;
 }
 namespace RootMotion::FinalIK {
-class ____RootMotion__FinalIK__RagdollUtility__Child;
+class RootMotion__FinalIK__RagdollUtility__Child;
 }
 namespace RootMotion::FinalIK {
-class ____RootMotion__FinalIK__RagdollUtility__Rigidbone;
+class RootMotion__FinalIK__RagdollUtility__Rigidbone;
 }
 namespace RootMotion::FinalIK {
-class ____RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21;
+class RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21;
 }
 // Type: ::Rigidbone
 namespace RootMotion::FinalIK {
@@ -62,71 +61,71 @@ namespace RootMotion::FinalIK {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12560))
 // CS Name: RootMotion.FinalIK.RagdollUtility::Rigidbone
-class CORDL_TYPE ____RootMotion__FinalIK__RagdollUtility__Rigidbone : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE RootMotion__FinalIK__RagdollUtility__Rigidbone : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x78};
 
-virtual ~____RootMotion__FinalIK__RagdollUtility__Rigidbone() = default;
+virtual ~RootMotion__FinalIK__RagdollUtility__Rigidbone() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____RootMotion__FinalIK__RagdollUtility__Rigidbone", modifiers: " const&", def_value: None }]
-constexpr ____RootMotion__FinalIK__RagdollUtility__Rigidbone(____RootMotion__FinalIK__RagdollUtility__Rigidbone const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "RootMotion__FinalIK__RagdollUtility__Rigidbone", modifiers: " const&", def_value: None }]
+constexpr RootMotion__FinalIK__RagdollUtility__Rigidbone(RootMotion__FinalIK__RagdollUtility__Rigidbone const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____RootMotion__FinalIK__RagdollUtility__Rigidbone", modifiers: "&&", def_value: None }]
-constexpr ____RootMotion__FinalIK__RagdollUtility__Rigidbone(____RootMotion__FinalIK__RagdollUtility__Rigidbone&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "RootMotion__FinalIK__RagdollUtility__Rigidbone", modifiers: "&&", def_value: None }]
+constexpr RootMotion__FinalIK__RagdollUtility__Rigidbone(RootMotion__FinalIK__RagdollUtility__Rigidbone&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____RootMotion__FinalIK__RagdollUtility__Rigidbone(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit RootMotion__FinalIK__RagdollUtility__Rigidbone(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____RootMotion__FinalIK__RagdollUtility__Rigidbone& operator=(std::nullptr_t) noexcept {
+  constexpr RootMotion__FinalIK__RagdollUtility__Rigidbone& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____RootMotion__FinalIK__RagdollUtility__Rigidbone& operator=(void* o) noexcept {
+  constexpr RootMotion__FinalIK__RagdollUtility__Rigidbone& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____RootMotion__FinalIK__RagdollUtility__Rigidbone& operator=(____RootMotion__FinalIK__RagdollUtility__Rigidbone&& o) noexcept = default;
-  constexpr ____RootMotion__FinalIK__RagdollUtility__Rigidbone& operator=(____RootMotion__FinalIK__RagdollUtility__Rigidbone const& o) noexcept = default;
+  constexpr RootMotion__FinalIK__RagdollUtility__Rigidbone& operator=(RootMotion__FinalIK__RagdollUtility__Rigidbone&& o) noexcept = default;
+  constexpr RootMotion__FinalIK__RagdollUtility__Rigidbone& operator=(RootMotion__FinalIK__RagdollUtility__Rigidbone const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::UnityEngine::Rigidbody __declspec(property(get=__get_r, put=__set_r))  r;
+ UnityEngine::Rigidbody __declspec(property(get=__get_r, put=__set_r))  r;
 
-constexpr void __set_r(::UnityEngine::Rigidbody value) ;
+constexpr void __set_r(UnityEngine::Rigidbody value) ;
 
-constexpr ::UnityEngine::Rigidbody __get_r() const;
+constexpr UnityEngine::Rigidbody __get_r() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_t, put=__set_t))  t;
+ UnityEngine::Transform __declspec(property(get=__get_t, put=__set_t))  t;
 
-constexpr void __set_t(::UnityEngine::Transform value) ;
+constexpr void __set_t(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_t() const;
+constexpr UnityEngine::Transform __get_t() const;
 
- ::UnityEngine::Collider __declspec(property(get=__get_collider, put=__set_collider))  collider;
+ UnityEngine::Collider __declspec(property(get=__get_collider, put=__set_collider))  collider;
 
-constexpr void __set_collider(::UnityEngine::Collider value) ;
+constexpr void __set_collider(UnityEngine::Collider value) ;
 
-constexpr ::UnityEngine::Collider __get_collider() const;
+constexpr UnityEngine::Collider __get_collider() const;
 
- ::UnityEngine::Joint __declspec(property(get=__get_joint, put=__set_joint))  joint;
+ UnityEngine::Joint __declspec(property(get=__get_joint, put=__set_joint))  joint;
 
-constexpr void __set_joint(::UnityEngine::Joint value) ;
+constexpr void __set_joint(UnityEngine::Joint value) ;
 
-constexpr ::UnityEngine::Joint __get_joint() const;
+constexpr UnityEngine::Joint __get_joint() const;
 
- ::UnityEngine::Rigidbody __declspec(property(get=__get_c, put=__set_c))  c;
+ UnityEngine::Rigidbody __declspec(property(get=__get_c, put=__set_c))  c;
 
-constexpr void __set_c(::UnityEngine::Rigidbody value) ;
+constexpr void __set_c(UnityEngine::Rigidbody value) ;
 
-constexpr ::UnityEngine::Rigidbody __get_c() const;
+constexpr UnityEngine::Rigidbody __get_c() const;
 
  bool __declspec(property(get=__get_updateAnchor, put=__set_updateAnchor))  updateAnchor;
 
@@ -134,17 +133,17 @@ constexpr void __set_updateAnchor(bool value) ;
 
 constexpr bool __get_updateAnchor() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_deltaPosition, put=__set_deltaPosition))  deltaPosition;
+ UnityEngine::Vector3 __declspec(property(get=__get_deltaPosition, put=__set_deltaPosition))  deltaPosition;
 
-constexpr void __set_deltaPosition(::UnityEngine::Vector3 value) ;
+constexpr void __set_deltaPosition(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_deltaPosition() const;
+constexpr UnityEngine::Vector3 __get_deltaPosition() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get_deltaRotation, put=__set_deltaRotation))  deltaRotation;
+ UnityEngine::Quaternion __declspec(property(get=__get_deltaRotation, put=__set_deltaRotation))  deltaRotation;
 
-constexpr void __set_deltaRotation(::UnityEngine::Quaternion value) ;
+constexpr void __set_deltaRotation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get_deltaRotation() const;
+constexpr UnityEngine::Quaternion __get_deltaRotation() const;
 
  float_t __declspec(property(get=__get_deltaTime, put=__set_deltaTime))  deltaTime;
 
@@ -152,26 +151,26 @@ constexpr void __set_deltaTime(float_t value) ;
 
 constexpr float_t __get_deltaTime() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_lastPosition, put=__set_lastPosition))  lastPosition;
+ UnityEngine::Vector3 __declspec(property(get=__get_lastPosition, put=__set_lastPosition))  lastPosition;
 
-constexpr void __set_lastPosition(::UnityEngine::Vector3 value) ;
+constexpr void __set_lastPosition(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_lastPosition() const;
+constexpr UnityEngine::Vector3 __get_lastPosition() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get_lastRotation, put=__set_lastRotation))  lastRotation;
+ UnityEngine::Quaternion __declspec(property(get=__get_lastRotation, put=__set_lastRotation))  lastRotation;
 
-constexpr void __set_lastRotation(::UnityEngine::Quaternion value) ;
+constexpr void __set_lastRotation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get_lastRotation() const;
+constexpr UnityEngine::Quaternion __get_lastRotation() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "r", ty: "::UnityEngine::Rigidbody", modifiers: "", def_value: None }]
-explicit ____RootMotion__FinalIK__RagdollUtility__Rigidbone(::UnityEngine::Rigidbody r) ;
+// Ctor Parameters [CppParam { name: "r", ty: "UnityEngine::Rigidbody", modifiers: "", def_value: None }]
+explicit RootMotion__FinalIK__RagdollUtility__Rigidbone(UnityEngine::Rigidbody r) ;
 
 /// @brief Method .ctor addr 0x1201828 size 0x154 virtual false final false
- void _ctor(::UnityEngine::Rigidbody r) ;
+ void _ctor(UnityEngine::Rigidbody r) ;
 
 /// @brief Method RecordVelocity addr 0x1202370 size 0xd4 virtual false final false
  void RecordVelocity() ;
@@ -189,68 +188,68 @@ namespace RootMotion::FinalIK {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12561))
 // CS Name: RootMotion.FinalIK.RagdollUtility::Child
-class CORDL_TYPE ____RootMotion__FinalIK__RagdollUtility__Child : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE RootMotion__FinalIK__RagdollUtility__Child : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
 
-virtual ~____RootMotion__FinalIK__RagdollUtility__Child() = default;
+virtual ~RootMotion__FinalIK__RagdollUtility__Child() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____RootMotion__FinalIK__RagdollUtility__Child", modifiers: " const&", def_value: None }]
-constexpr ____RootMotion__FinalIK__RagdollUtility__Child(____RootMotion__FinalIK__RagdollUtility__Child const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "RootMotion__FinalIK__RagdollUtility__Child", modifiers: " const&", def_value: None }]
+constexpr RootMotion__FinalIK__RagdollUtility__Child(RootMotion__FinalIK__RagdollUtility__Child const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____RootMotion__FinalIK__RagdollUtility__Child", modifiers: "&&", def_value: None }]
-constexpr ____RootMotion__FinalIK__RagdollUtility__Child(____RootMotion__FinalIK__RagdollUtility__Child&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "RootMotion__FinalIK__RagdollUtility__Child", modifiers: "&&", def_value: None }]
+constexpr RootMotion__FinalIK__RagdollUtility__Child(RootMotion__FinalIK__RagdollUtility__Child&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____RootMotion__FinalIK__RagdollUtility__Child(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit RootMotion__FinalIK__RagdollUtility__Child(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____RootMotion__FinalIK__RagdollUtility__Child& operator=(std::nullptr_t) noexcept {
+  constexpr RootMotion__FinalIK__RagdollUtility__Child& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____RootMotion__FinalIK__RagdollUtility__Child& operator=(void* o) noexcept {
+  constexpr RootMotion__FinalIK__RagdollUtility__Child& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____RootMotion__FinalIK__RagdollUtility__Child& operator=(____RootMotion__FinalIK__RagdollUtility__Child&& o) noexcept = default;
-  constexpr ____RootMotion__FinalIK__RagdollUtility__Child& operator=(____RootMotion__FinalIK__RagdollUtility__Child const& o) noexcept = default;
+  constexpr RootMotion__FinalIK__RagdollUtility__Child& operator=(RootMotion__FinalIK__RagdollUtility__Child&& o) noexcept = default;
+  constexpr RootMotion__FinalIK__RagdollUtility__Child& operator=(RootMotion__FinalIK__RagdollUtility__Child const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::UnityEngine::Transform __declspec(property(get=__get_t, put=__set_t))  t;
+ UnityEngine::Transform __declspec(property(get=__get_t, put=__set_t))  t;
 
-constexpr void __set_t(::UnityEngine::Transform value) ;
+constexpr void __set_t(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_t() const;
+constexpr UnityEngine::Transform __get_t() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_localPosition, put=__set_localPosition))  localPosition;
+ UnityEngine::Vector3 __declspec(property(get=__get_localPosition, put=__set_localPosition))  localPosition;
 
-constexpr void __set_localPosition(::UnityEngine::Vector3 value) ;
+constexpr void __set_localPosition(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_localPosition() const;
+constexpr UnityEngine::Vector3 __get_localPosition() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get_localRotation, put=__set_localRotation))  localRotation;
+ UnityEngine::Quaternion __declspec(property(get=__get_localRotation, put=__set_localRotation))  localRotation;
 
-constexpr void __set_localRotation(::UnityEngine::Quaternion value) ;
+constexpr void __set_localRotation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get_localRotation() const;
+constexpr UnityEngine::Quaternion __get_localRotation() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "transform", ty: "::UnityEngine::Transform", modifiers: "", def_value: None }]
-explicit ____RootMotion__FinalIK__RagdollUtility__Child(::UnityEngine::Transform transform) ;
+// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
+explicit RootMotion__FinalIK__RagdollUtility__Child(UnityEngine::Transform transform) ;
 
 /// @brief Method .ctor addr 0x120197c size 0x5c virtual false final false
- void _ctor(::UnityEngine::Transform transform) ;
+ void _ctor(UnityEngine::Transform transform) ;
 
 /// @brief Method FixTransform addr 0x1202488 size 0x110 virtual false final false
  void FixTransform(float_t weight) ;
@@ -268,46 +267,46 @@ namespace RootMotion::FinalIK {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12562))
 // CS Name: RootMotion.FinalIK.RagdollUtility::<DisableRagdollSmooth>d__21
-class CORDL_TYPE ____RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21() = default;
+virtual ~RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21", modifiers: " const&", def_value: None }]
-constexpr ____RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21(____RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21", modifiers: " const&", def_value: None }]
+constexpr RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21(RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21", modifiers: "&&", def_value: None }]
-constexpr ____RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21(____RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21", modifiers: "&&", def_value: None }]
+constexpr RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21(RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21& operator=(std::nullptr_t) noexcept {
+  constexpr RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21& operator=(void* o) noexcept {
+  constexpr RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21& operator=(____RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21&& o) noexcept = default;
-  constexpr ____RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21& operator=(____RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21 const& o) noexcept = default;
+  constexpr RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21& operator=(RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21&& o) noexcept = default;
+  constexpr RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21& operator=(RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21 const& o) noexcept = default;
                 
 
 
@@ -325,11 +324,11 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::RootMotion::FinalIK::RagdollUtility __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ RootMotion::FinalIK::RagdollUtility __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::RootMotion::FinalIK::RagdollUtility value) ;
+constexpr void __set___4__this(RootMotion::FinalIK::RagdollUtility value) ;
 
-constexpr ::RootMotion::FinalIK::RagdollUtility __get___4__this() const;
+constexpr RootMotion::FinalIK::RagdollUtility __get___4__this() const;
 
 
 // Properties
@@ -342,7 +341,7 @@ constexpr ::RootMotion::FinalIK::RagdollUtility __get___4__this() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21(int32_t __1__state) ;
+explicit RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x12019d8 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -372,14 +371,14 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12563))
 // CS Name: RootMotion.FinalIK.RagdollUtility
-class CORDL_TYPE RagdollUtility : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE RagdollUtility : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using _DisableRagdollSmooth_d__21 = ::RootMotion::FinalIK::____RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21;
+using _DisableRagdollSmooth_d__21 = RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21;
 
-using Child = ::RootMotion::FinalIK::____RootMotion__FinalIK__RagdollUtility__Child;
+using Child = RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility__Child;
 
-using Rigidbone = ::RootMotion::FinalIK::____RootMotion__FinalIK__RagdollUtility__Rigidbone;
+using Rigidbone = RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility__Rigidbone;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x78};
@@ -393,7 +392,7 @@ constexpr RagdollUtility(RagdollUtility const& ) noexcept = default;
 constexpr RagdollUtility(RagdollUtility&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RagdollUtility(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit RagdollUtility(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -414,11 +413,11 @@ constexpr explicit RagdollUtility(void* ptr) noexcept : ::UnityEngine::MonoBehav
 
 // Fields
 
- ::RootMotion::FinalIK::IK __declspec(property(get=__get_ik, put=__set_ik))  ik;
+ RootMotion::FinalIK::IK __declspec(property(get=__get_ik, put=__set_ik))  ik;
 
-constexpr void __set_ik(::RootMotion::FinalIK::IK value) ;
+constexpr void __set_ik(RootMotion::FinalIK::IK value) ;
 
-constexpr ::RootMotion::FinalIK::IK __get_ik() const;
+constexpr RootMotion::FinalIK::IK __get_ik() const;
 
  float_t __declspec(property(get=__get_ragdollToAnimationTime, put=__set_ragdollToAnimationTime))  ragdollToAnimationTime;
 
@@ -444,23 +443,23 @@ constexpr void __set_applyAngularVelocity(float_t value) ;
 
 constexpr float_t __get_applyAngularVelocity() const;
 
- ::UnityEngine::Animator __declspec(property(get=__get_animator, put=__set_animator))  animator;
+ UnityEngine::Animator __declspec(property(get=__get_animator, put=__set_animator))  animator;
 
-constexpr void __set_animator(::UnityEngine::Animator value) ;
+constexpr void __set_animator(UnityEngine::Animator value) ;
 
-constexpr ::UnityEngine::Animator __get_animator() const;
+constexpr UnityEngine::Animator __get_animator() const;
 
- ::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__RagdollUtility__Rigidbone> __declspec(property(get=__get_rigidbones, put=__set_rigidbones))  rigidbones;
+ ::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility__Rigidbone> __declspec(property(get=__get_rigidbones, put=__set_rigidbones))  rigidbones;
 
-constexpr void __set_rigidbones(::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__RagdollUtility__Rigidbone> value) ;
+constexpr void __set_rigidbones(::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility__Rigidbone> value) ;
 
-constexpr ::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__RagdollUtility__Rigidbone> __get_rigidbones() const;
+constexpr ::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility__Rigidbone> __get_rigidbones() const;
 
- ::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__RagdollUtility__Child> __declspec(property(get=__get_children, put=__set_children))  children;
+ ::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility__Child> __declspec(property(get=__get_children, put=__set_children))  children;
 
-constexpr void __set_children(::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__RagdollUtility__Child> value) ;
+constexpr void __set_children(::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility__Child> value) ;
 
-constexpr ::ArrayW<::RootMotion::FinalIK::____RootMotion__FinalIK__RagdollUtility__Child> __get_children() const;
+constexpr ::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility__Child> __get_children() const;
 
  bool __declspec(property(get=__get_enableRagdollFlag, put=__set_enableRagdollFlag))  enableRagdollFlag;
 
@@ -468,17 +467,17 @@ constexpr void __set_enableRagdollFlag(bool value) ;
 
 constexpr bool __get_enableRagdollFlag() const;
 
- ::UnityEngine::AnimatorUpdateMode __declspec(property(get=__get_animatorUpdateMode, put=__set_animatorUpdateMode))  animatorUpdateMode;
+ UnityEngine::AnimatorUpdateMode __declspec(property(get=__get_animatorUpdateMode, put=__set_animatorUpdateMode))  animatorUpdateMode;
 
-constexpr void __set_animatorUpdateMode(::UnityEngine::AnimatorUpdateMode value) ;
+constexpr void __set_animatorUpdateMode(UnityEngine::AnimatorUpdateMode value) ;
 
-constexpr ::UnityEngine::AnimatorUpdateMode __get_animatorUpdateMode() const;
+constexpr UnityEngine::AnimatorUpdateMode __get_animatorUpdateMode() const;
 
- ::ArrayW<::RootMotion::FinalIK::IK> __declspec(property(get=__get_allIKComponents, put=__set_allIKComponents))  allIKComponents;
+ ::ArrayW<RootMotion::FinalIK::IK> __declspec(property(get=__get_allIKComponents, put=__set_allIKComponents))  allIKComponents;
 
-constexpr void __set_allIKComponents(::ArrayW<::RootMotion::FinalIK::IK> value) ;
+constexpr void __set_allIKComponents(::ArrayW<RootMotion::FinalIK::IK> value) ;
 
-constexpr ::ArrayW<::RootMotion::FinalIK::IK> __get_allIKComponents() const;
+constexpr ::ArrayW<RootMotion::FinalIK::IK> __get_allIKComponents() const;
 
  ::ArrayW<bool> __declspec(property(get=__get_fixTransforms, put=__set_fixTransforms))  fixTransforms;
 
@@ -530,7 +529,7 @@ constexpr ::ArrayW<bool> __get_disabledIKComponents() const;
  void Start() ;
 
 /// @brief Method DisableRagdollSmooth addr 0x12013b4 size 0x68 virtual false final false
- ::System::Collections::IEnumerator DisableRagdollSmooth() ;
+ System::Collections::IEnumerator DisableRagdollSmooth() ;
 
 /// @brief Method Update addr 0x1201a00 size 0x228 virtual false final false
  void Update() ;
@@ -581,12 +580,11 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::RagdollUtility);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::RagdollUtility, "RootMotion.FinalIK", "RagdollUtility");
-NEED_NO_BOX(::RootMotion::FinalIK::____RootMotion__FinalIK__RagdollUtility__Child);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::____RootMotion__FinalIK__RagdollUtility__Child, "RootMotion.FinalIK", "RagdollUtility/Child");
-NEED_NO_BOX(::RootMotion::FinalIK::____RootMotion__FinalIK__RagdollUtility__Rigidbone);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::____RootMotion__FinalIK__RagdollUtility__Rigidbone, "RootMotion.FinalIK", "RagdollUtility/Rigidbone");
-NEED_NO_BOX(::RootMotion::FinalIK::____RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::____RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21, "RootMotion.FinalIK", "RagdollUtility/<DisableRagdollSmooth>d__21");
+NEED_NO_BOX(RootMotion::FinalIK::RagdollUtility);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RagdollUtility, "RootMotion.FinalIK", "RagdollUtility");
+NEED_NO_BOX(RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility__Child);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility__Child, "RootMotion.FinalIK", "RagdollUtility/Child");
+NEED_NO_BOX(RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility__Rigidbone);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility__Rigidbone, "RootMotion.FinalIK", "RagdollUtility/Rigidbone");
+NEED_NO_BOX(RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21, "RootMotion.FinalIK", "RagdollUtility/<DisableRagdollSmooth>d__21");

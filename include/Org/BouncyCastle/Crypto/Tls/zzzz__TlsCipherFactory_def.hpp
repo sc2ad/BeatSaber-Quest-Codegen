@@ -1,12 +1,11 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCipher;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsContext;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -31,12 +30,11 @@ constexpr explicit TlsCipherFactory(void* ptr) noexcept : ::cordl_internals::Int
 // Methods
 
 /// @brief Method CreateCipher addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Crypto::Tls::TlsCipher CreateCipher(::Org::BouncyCastle::Crypto::Tls::TlsContext context, int32_t encryptionAlgorithm, int32_t macAlgorithm) ;
+ Org::BouncyCastle::Crypto::Tls::TlsCipher CreateCipher(Org::BouncyCastle::Crypto::Tls::TlsContext context, int32_t encryptionAlgorithm, int32_t macAlgorithm) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory, "Org.BouncyCastle.Crypto.Tls", "TlsCipherFactory");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory, "Org.BouncyCastle.Crypto.Tls", "TlsCipherFactory");

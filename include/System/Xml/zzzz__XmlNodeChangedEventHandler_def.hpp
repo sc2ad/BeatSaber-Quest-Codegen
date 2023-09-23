@@ -3,7 +3,6 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Xml {
 class XmlNodeChangedEventArgs;
 }
@@ -17,7 +16,7 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11464))
 // CS Name: System.Xml.XmlNodeChangedEventHandler
-class CORDL_TYPE XmlNodeChangedEventHandler : public ::System::MulticastDelegate {
+class CORDL_TYPE XmlNodeChangedEventHandler : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr XmlNodeChangedEventHandler(XmlNodeChangedEventHandler const& ) noexcep
 constexpr XmlNodeChangedEventHandler(XmlNodeChangedEventHandler&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XmlNodeChangedEventHandler(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit XmlNodeChangedEventHandler(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -60,12 +59,11 @@ explicit XmlNodeChangedEventHandler(::bs_hook::Il2CppWrapperType object, ::cordl
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x26fdfec size 0x14 virtual true final false
- void Invoke(::bs_hook::Il2CppWrapperType sender, ::System::Xml::XmlNodeChangedEventArgs e) ;
+ void Invoke(::bs_hook::Il2CppWrapperType sender, System::Xml::XmlNodeChangedEventArgs e) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::XmlNodeChangedEventHandler);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlNodeChangedEventHandler, "System.Xml", "XmlNodeChangedEventHandler");
+NEED_NO_BOX(System::Xml::XmlNodeChangedEventHandler);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlNodeChangedEventHandler, "System.Xml", "XmlNodeChangedEventHandler");

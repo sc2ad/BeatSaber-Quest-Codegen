@@ -2,7 +2,12 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace {
+namespace UnityEngine::UIElements {
+struct StyleFloat;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct StylePropertyId;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -10,14 +15,8 @@ class List_1;
 namespace UnityEngine::UIElements::StyleSheets {
 struct StyleValue;
 }
-namespace UnityEngine::UIElements::StyleSheets {
-struct StylePropertyId;
-}
 namespace UnityEngine::UIElements {
 struct StyleLength;
-}
-namespace UnityEngine::UIElements {
-struct StyleFloat;
 }
 namespace UnityEngine::UIElements {
 struct StyleInt;
@@ -68,29 +67,29 @@ constexpr explicit StyleValueCollection(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 // Fields
 
- ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StyleValue> __declspec(property(get=__get_m_Values, put=__set_m_Values))  m_Values;
+ System::Collections::Generic::List_1<UnityEngine::UIElements::StyleSheets::StyleValue> __declspec(property(get=__get_m_Values, put=__set_m_Values))  m_Values;
 
-constexpr void __set_m_Values(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StyleValue> value) ;
+constexpr void __set_m_Values(System::Collections::Generic::List_1<UnityEngine::UIElements::StyleSheets::StyleValue> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StyleValue> __get_m_Values() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::UIElements::StyleSheets::StyleValue> __get_m_Values() const;
 
 
 // Methods
 
 /// @brief Method GetStyleLength addr 0x2cfa624 size 0x74 virtual false final false
- ::UnityEngine::UIElements::StyleLength GetStyleLength(::UnityEngine::UIElements::StyleSheets::StylePropertyId id) ;
+ UnityEngine::UIElements::StyleLength GetStyleLength(UnityEngine::UIElements::StyleSheets::StylePropertyId id) ;
 
 /// @brief Method GetStyleFloat addr 0x2cfa858 size 0x58 virtual false final false
- ::UnityEngine::UIElements::StyleFloat GetStyleFloat(::UnityEngine::UIElements::StyleSheets::StylePropertyId id) ;
+ UnityEngine::UIElements::StyleFloat GetStyleFloat(UnityEngine::UIElements::StyleSheets::StylePropertyId id) ;
 
 /// @brief Method GetStyleInt addr 0x2cfa8b0 size 0x74 virtual false final false
- ::UnityEngine::UIElements::StyleInt GetStyleInt(::UnityEngine::UIElements::StyleSheets::StylePropertyId id) ;
+ UnityEngine::UIElements::StyleInt GetStyleInt(UnityEngine::UIElements::StyleSheets::StylePropertyId id) ;
 
 /// @brief Method TryGetStyleValue addr 0x2cfa698 size 0x1c0 virtual false final false
- bool TryGetStyleValue(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ByRef<::UnityEngine::UIElements::StyleSheets::StyleValue> value) ;
+ bool TryGetStyleValue(UnityEngine::UIElements::StyleSheets::StylePropertyId id, ByRef<UnityEngine::UIElements::StyleSheets::StyleValue> value) ;
 
 /// @brief Method SetStyleValue addr 0x2cfa934 size 0x1fc virtual false final false
- void SetStyleValue(::UnityEngine::UIElements::StyleSheets::StyleValue value) ;
+ void SetStyleValue(UnityEngine::UIElements::StyleSheets::StyleValue value) ;
 
 // Ctor Parameters []
 explicit StyleValueCollection() ;
@@ -102,6 +101,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::StyleValueCollection);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleValueCollection, "UnityEngine.UIElements", "StyleValueCollection");
+NEED_NO_BOX(UnityEngine::UIElements::StyleValueCollection);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::StyleValueCollection, "UnityEngine.UIElements", "StyleValueCollection");

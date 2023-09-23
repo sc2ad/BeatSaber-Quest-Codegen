@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::Text {
 class Encoding;
 }
@@ -104,18 +103,17 @@ static ::ArrayW<uint8_t> __get_equal() ;
 
 // Properties
 
-static ::System::Text::Encoding __declspec(property(get=get_DefaultEncoding))  DefaultEncoding;
+static System::Text::Encoding __declspec(property(get=get_DefaultEncoding))  DefaultEncoding;
 
 
 // Methods
 
 /// @brief Method get_DefaultEncoding addr 0x2d34774 size 0x8 virtual false final false
-static ::System::Text::Encoding get_DefaultEncoding() ;
+static System::Text::Encoding get_DefaultEncoding() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::WWWForm);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::WWWForm, "UnityEngine", "WWWForm");
+NEED_NO_BOX(UnityEngine::WWWForm);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WWWForm, "UnityEngine", "WWWForm");

@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-class IFormattable;
-}
 namespace UnityEngine {
 struct Rect;
 }
 namespace System {
 class IFormatProvider;
+}
+namespace System {
+class IFormattable;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -27,8 +26,8 @@ namespace UnityEngine {
 class CORDL_TYPE RectOffset : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IFormattable
-constexpr operator  ::System::IFormattable() const noexcept;
+/// @brief Convert operator to System::IFormattable
+constexpr operator  System::IFormattable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -118,7 +117,7 @@ explicit RectOffset(int32_t left, int32_t right, int32_t top, int32_t bottom) ;
  ::StringW ToString() ;
 
 /// @brief Method ToString addr 0x2b51ab8 size 0x29c virtual true final true
- ::StringW ToString(::StringW format, ::System::IFormatProvider formatProvider) ;
+ ::StringW ToString(::StringW format, System::IFormatProvider formatProvider) ;
 
 /// @brief Method Destroy addr 0x2b517e8 size 0xa0 virtual false final false
  void Destroy() ;
@@ -160,15 +159,14 @@ static void InternalDestroy(::cordl_internals::intptr_t ptr) ;
  int32_t get_vertical() ;
 
 /// @brief Method Remove addr 0x2b51ef8 size 0x64 virtual false final false
- ::UnityEngine::Rect Remove(::UnityEngine::Rect rect) ;
+ UnityEngine::Rect Remove(UnityEngine::Rect rect) ;
 
 /// @brief Method Remove_Injected addr 0x2b51f5c size 0x54 virtual false final false
- void Remove_Injected(ByRef<::UnityEngine::Rect> rect, ByRef<::UnityEngine::Rect> ret) ;
+ void Remove_Injected(ByRef<UnityEngine::Rect> rect, ByRef<UnityEngine::Rect> ret) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::RectOffset);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::RectOffset, "UnityEngine", "RectOffset");
+NEED_NO_BOX(UnityEngine::RectOffset);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RectOffset, "UnityEngine", "RectOffset");

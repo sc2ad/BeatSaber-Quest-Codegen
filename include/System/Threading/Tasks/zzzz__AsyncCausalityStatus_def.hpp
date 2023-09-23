@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Threading::Tasks {
 struct AsyncCausalityStatus;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Started offset 0
-static ::System::Threading::Tasks::AsyncCausalityStatus const Started;
+static System::Threading::Tasks::AsyncCausalityStatus const Started;
 
 /// @brief Field Completed offset 0
-static ::System::Threading::Tasks::AsyncCausalityStatus const Completed;
+static System::Threading::Tasks::AsyncCausalityStatus const Completed;
 
 /// @brief Field Canceled offset 0
-static ::System::Threading::Tasks::AsyncCausalityStatus const Canceled;
+static System::Threading::Tasks::AsyncCausalityStatus const Canceled;
 
 /// @brief Field Error offset 0
-static ::System::Threading::Tasks::AsyncCausalityStatus const Error;
+static System::Threading::Tasks::AsyncCausalityStatus const Error;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Threading::Tasks
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::AsyncCausalityStatus, "System.Threading.Tasks", "AsyncCausalityStatus");
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::AsyncCausalityStatus, "System.Threading.Tasks", "AsyncCausalityStatus");

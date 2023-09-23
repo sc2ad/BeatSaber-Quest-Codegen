@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace GlobalNamespace {
 class SonyPublisherSKUSettingsSO;
 }
@@ -53,10 +52,10 @@ constexpr explicit SonyPublishingHelper(void* ptr) noexcept : ::bs_hook::Il2CppW
 // Methods
 
 /// @brief Method GetServiceId addr 0x221c2d0 size 0x28 virtual false final false
-static ::StringW GetServiceId(::GlobalNamespace::SonyPublisherSKUSettingsSO sonyPublisherSKUSettings) ;
+static ::StringW GetServiceId(GlobalNamespace::SonyPublisherSKUSettingsSO sonyPublisherSKUSettings) ;
 
 /// @brief Method GetContentId addr 0x221c318 size 0x20 virtual false final false
-static ::StringW GetContentId(::GlobalNamespace::SonyPublisherSKUSettingsSO sonyPublisherSKUSettings) ;
+static ::StringW GetContentId(GlobalNamespace::SonyPublisherSKUSettingsSO sonyPublisherSKUSettings) ;
 
 /// @brief Method GetContentId addr 0x221c36c size 0x5c virtual false final false
 static ::StringW GetContentId(::StringW serviceId, ::StringW productLabel) ;
@@ -80,6 +79,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SonyPublishingHelper);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SonyPublishingHelper, "", "SonyPublishingHelper");
+NEED_NO_BOX(GlobalNamespace::SonyPublishingHelper);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SonyPublishingHelper, "", "SonyPublishingHelper");

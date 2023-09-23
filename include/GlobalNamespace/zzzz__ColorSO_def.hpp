@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
-namespace {
 namespace UnityEngine {
 struct Color;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16038))
 // CS Name: ColorSO
-class CORDL_TYPE ColorSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE ColorSO : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr ColorSO(ColorSO const& ) noexcept = default;
 constexpr ColorSO(ColorSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ColorSO(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit ColorSO(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -51,16 +50,16 @@ constexpr explicit ColorSO(void* ptr) noexcept : ::GlobalNamespace::PersistentSc
 
 // Properties
 
- ::UnityEngine::Color __declspec(property(get=get_color))  color;
+ UnityEngine::Color __declspec(property(get=get_color))  color;
 
 
 // Methods
 
 /// @brief Method get_color addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Color get_color() ;
+ UnityEngine::Color get_color() ;
 
 /// @brief Method op_Implicit addr 0x11a35b4 size 0x8c virtual false final false
-static ::UnityEngine::Color op_Implicit___UnityEngine__Color(::GlobalNamespace::ColorSO c) ;
+static UnityEngine::Color op_Implicit_UnityEngine__Color(GlobalNamespace::ColorSO c) ;
 
 // Ctor Parameters []
 explicit ColorSO() ;
@@ -72,6 +71,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ColorSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ColorSO, "", "ColorSO");
+NEED_NO_BOX(GlobalNamespace::ColorSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSO, "", "ColorSO");

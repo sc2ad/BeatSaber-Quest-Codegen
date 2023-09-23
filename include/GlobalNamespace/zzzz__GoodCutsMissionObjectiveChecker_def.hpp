@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__SimpleValueMissionObjectiveChecker_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace {
 namespace GlobalNamespace {
 struct NoteCutInfo;
 }
@@ -22,7 +21,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5198))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5190))
 // CS Name: GoodCutsMissionObjectiveChecker
-class CORDL_TYPE GoodCutsMissionObjectiveChecker : public ::GlobalNamespace::SimpleValueMissionObjectiveChecker {
+class CORDL_TYPE GoodCutsMissionObjectiveChecker : public GlobalNamespace::SimpleValueMissionObjectiveChecker {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr GoodCutsMissionObjectiveChecker(GoodCutsMissionObjectiveChecker const&
 constexpr GoodCutsMissionObjectiveChecker(GoodCutsMissionObjectiveChecker&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GoodCutsMissionObjectiveChecker(void* ptr) noexcept : ::GlobalNamespace::SimpleValueMissionObjectiveChecker(ptr) {
+constexpr explicit GoodCutsMissionObjectiveChecker(void* ptr) noexcept : GlobalNamespace::SimpleValueMissionObjectiveChecker(ptr) {
 }
 
 
@@ -58,11 +57,11 @@ constexpr explicit GoodCutsMissionObjectiveChecker(void* ptr) noexcept : ::Globa
 
 // Fields
 
- ::GlobalNamespace::BeatmapObjectManager __declspec(property(get=__get__beatmapObjectManager, put=__set__beatmapObjectManager))  _beatmapObjectManager;
+ GlobalNamespace::BeatmapObjectManager __declspec(property(get=__get__beatmapObjectManager, put=__set__beatmapObjectManager))  _beatmapObjectManager;
 
-constexpr void __set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager value) ;
+constexpr void __set__beatmapObjectManager(GlobalNamespace::BeatmapObjectManager value) ;
 
-constexpr ::GlobalNamespace::BeatmapObjectManager __get__beatmapObjectManager() const;
+constexpr GlobalNamespace::BeatmapObjectManager __get__beatmapObjectManager() const;
 
 
 // Methods
@@ -74,7 +73,7 @@ constexpr ::GlobalNamespace::BeatmapObjectManager __get__beatmapObjectManager() 
  void OnDestroy() ;
 
 /// @brief Method HandleNoteWasCut addr 0x20d67fc size 0x8c virtual false final false
- void HandleNoteWasCut(::GlobalNamespace::NoteController noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo) ;
+ void HandleNoteWasCut(GlobalNamespace::NoteController noteController, ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo) ;
 
 // Ctor Parameters []
 explicit GoodCutsMissionObjectiveChecker() ;
@@ -86,6 +85,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::GoodCutsMissionObjectiveChecker);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GoodCutsMissionObjectiveChecker, "", "GoodCutsMissionObjectiveChecker");
+NEED_NO_BOX(GlobalNamespace::GoodCutsMissionObjectiveChecker);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GoodCutsMissionObjectiveChecker, "", "GoodCutsMissionObjectiveChecker");

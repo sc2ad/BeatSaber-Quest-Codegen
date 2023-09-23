@@ -2,15 +2,14 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
-namespace GlobalNamespace {
-class AvatarPartsModel;
+namespace DataModels::PlayerAvatar {
+class RandomizeAvatarColorMap;
 }
 namespace GlobalNamespace {
 class AvatarData;
 }
-namespace DataModels::PlayerAvatar {
-class RandomizeAvatarColorMap;
+namespace GlobalNamespace {
+class AvatarPartsModel;
 }
 // Forward declare root types
 namespace DataModels::PlayerAvatar {
@@ -58,28 +57,27 @@ constexpr explicit AvatarRandomizer(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
-static ::ArrayW<::DataModels::PlayerAvatar::RandomizeAvatarColorMap> __declspec(property(get=__get__randomizeColorsParamsCollection, put=__set__randomizeColorsParamsCollection))  _randomizeColorsParamsCollection;
+static ::ArrayW<DataModels::PlayerAvatar::RandomizeAvatarColorMap> __declspec(property(get=__get__randomizeColorsParamsCollection, put=__set__randomizeColorsParamsCollection))  _randomizeColorsParamsCollection;
 
-static void __set__randomizeColorsParamsCollection(::ArrayW<::DataModels::PlayerAvatar::RandomizeAvatarColorMap> value) ;
+static void __set__randomizeColorsParamsCollection(::ArrayW<DataModels::PlayerAvatar::RandomizeAvatarColorMap> value) ;
 
-static ::ArrayW<::DataModels::PlayerAvatar::RandomizeAvatarColorMap> __get__randomizeColorsParamsCollection() ;
+static ::ArrayW<DataModels::PlayerAvatar::RandomizeAvatarColorMap> __get__randomizeColorsParamsCollection() ;
 
 
 // Methods
 
 /// @brief Method RandomizeAll addr 0x21d518c size 0x6c virtual false final false
-static void RandomizeAll(::GlobalNamespace::AvatarData avatarData, ::GlobalNamespace::AvatarPartsModel avatarPartsModel) ;
+static void RandomizeAll(GlobalNamespace::AvatarData avatarData, GlobalNamespace::AvatarPartsModel avatarPartsModel) ;
 
 /// @brief Method RandomizeModels addr 0x21d51f8 size 0x15c virtual false final false
-static void RandomizeModels(::GlobalNamespace::AvatarData avatarData, ::GlobalNamespace::AvatarPartsModel avatarPartsModel) ;
+static void RandomizeModels(GlobalNamespace::AvatarData avatarData, GlobalNamespace::AvatarPartsModel avatarPartsModel) ;
 
 /// @brief Method RandomizeColors addr 0x21d5354 size 0x29c virtual false final false
-static void RandomizeColors(::GlobalNamespace::AvatarData avatarData) ;
+static void RandomizeColors(GlobalNamespace::AvatarData avatarData) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def DataModels::PlayerAvatar
-} // end anonymous namespace
-NEED_NO_BOX(::DataModels::PlayerAvatar::AvatarRandomizer);
-DEFINE_IL2CPP_ARG_TYPE(::DataModels::PlayerAvatar::AvatarRandomizer, "DataModels.PlayerAvatar", "AvatarRandomizer");
+NEED_NO_BOX(DataModels::PlayerAvatar::AvatarRandomizer);
+DEFINE_IL2CPP_ARG_TYPE(DataModels::PlayerAvatar::AvatarRandomizer, "DataModels.PlayerAvatar", "AvatarRandomizer");

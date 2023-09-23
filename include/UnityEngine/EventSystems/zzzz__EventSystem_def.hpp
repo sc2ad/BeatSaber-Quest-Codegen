@@ -5,29 +5,28 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine::EventSystems {
-struct RaycastResult;
-}
 namespace UnityEngine::UIElements {
 class BaseRuntimePanel;
 }
-namespace System {
-template<typename T>
-class Comparison_1;
-}
 namespace UnityEngine::EventSystems {
-class BaseEventData;
+class PointerEventData;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+struct RaycastResult;
+}
+namespace UnityEngine::EventSystems {
+class BaseEventData;
+}
+namespace System {
+template<typename T>
+class Comparison_1;
 }
 namespace UnityEngine::EventSystems {
 class BaseInputModule;
@@ -37,10 +36,10 @@ namespace UnityEngine::EventSystems {
 class EventSystem;
 }
 namespace UnityEngine::EventSystems {
-class ____UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0;
+class UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0;
 }
 namespace UnityEngine::EventSystems {
-struct ____UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig;
+struct UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig;
 }
 // Type: ::UIToolkitOverrideConfig
 namespace UnityEngine::EventSystems {
@@ -48,20 +47,20 @@ namespace UnityEngine::EventSystems {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13128))
 // CS Name: UnityEngine.EventSystems.EventSystem::UIToolkitOverrideConfig
-struct CORDL_TYPE ____UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "activeEventSystem", ty: "::UnityEngine::EventSystems::EventSystem", modifiers: "", def_value: None }, CppParam { name: "sendEvents", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "createPanelGameObjectsOnStart", ty: "bool", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig(::UnityEngine::EventSystems::EventSystem activeEventSystem, bool sendEvents, bool createPanelGameObjectsOnStart) noexcept;
+// Ctor Parameters [CppParam { name: "activeEventSystem", ty: "UnityEngine::EventSystems::EventSystem", modifiers: "", def_value: None }, CppParam { name: "sendEvents", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "createPanelGameObjectsOnStart", ty: "bool", modifiers: "", def_value: None }]
+constexpr UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig(UnityEngine::EventSystems::EventSystem activeEventSystem, bool sendEvents, bool createPanelGameObjectsOnStart) noexcept;
 
 
-                    constexpr ____UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig(____UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig const&) = default;
-                    constexpr ____UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig(____UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig&&) = default;
-                    constexpr ____UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig& operator=(____UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig const& o) {
+                    constexpr UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig(UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig const&) = default;
+                    constexpr UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig(UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig&&) = default;
+                    constexpr UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig& operator=(UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig& operator=(____UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig&& o) noexcept {
+                    constexpr UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig& operator=(UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -74,7 +73,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x10};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -85,11 +84,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::EventSystems::EventSystem __declspec(property(get=__get_activeEventSystem, put=__set_activeEventSystem))  activeEventSystem;
+ UnityEngine::EventSystems::EventSystem __declspec(property(get=__get_activeEventSystem, put=__set_activeEventSystem))  activeEventSystem;
 
-constexpr void __set_activeEventSystem(::UnityEngine::EventSystems::EventSystem value) ;
+constexpr void __set_activeEventSystem(UnityEngine::EventSystems::EventSystem value) ;
 
-constexpr ::UnityEngine::EventSystems::EventSystem __get_activeEventSystem() const;
+constexpr UnityEngine::EventSystems::EventSystem __get_activeEventSystem() const;
 
  bool __declspec(property(get=__get_sendEvents, put=__set_sendEvents))  sendEvents;
 
@@ -113,53 +112,53 @@ namespace UnityEngine::EventSystems {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13129))
 // CS Name: UnityEngine.EventSystems.EventSystem::<>c__DisplayClass52_0
-class CORDL_TYPE ____UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0() = default;
+virtual ~UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0(____UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0(UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0(____UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0(UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0& operator=(void* o) noexcept {
+  constexpr UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0& operator=(____UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0&& o) noexcept = default;
-  constexpr ____UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0& operator=(____UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0 const& o) noexcept = default;
+  constexpr UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0& operator=(UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0&& o) noexcept = default;
+  constexpr UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0& operator=(UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::UnityEngine::GameObject __declspec(property(get=__get_go, put=__set_go))  go;
+ UnityEngine::GameObject __declspec(property(get=__get_go, put=__set_go))  go;
 
-constexpr void __set_go(::UnityEngine::GameObject value) ;
+constexpr void __set_go(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get_go() const;
+constexpr UnityEngine::GameObject __get_go() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0() ;
+explicit UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0() ;
 
 /// @brief Method .ctor addr 0x2c1e8d8 size 0x8 virtual false final false
  void _ctor() ;
@@ -177,12 +176,12 @@ namespace UnityEngine::EventSystems {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13153))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13130))
 // CS Name: UnityEngine.EventSystems.EventSystem
-class CORDL_TYPE EventSystem : public ::UnityEngine::EventSystems::UIBehaviour {
+class CORDL_TYPE EventSystem : public UnityEngine::EventSystems::UIBehaviour {
 public:
 // Declarations
-using __c__DisplayClass52_0 = ::UnityEngine::EventSystems::____UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0;
+using __c__DisplayClass52_0 = UnityEngine::EventSystems::UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0;
 
-using UIToolkitOverrideConfig = ::UnityEngine::EventSystems::____UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig;
+using UIToolkitOverrideConfig = UnityEngine::EventSystems::UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x50};
@@ -196,7 +195,7 @@ constexpr EventSystem(EventSystem const& ) noexcept = default;
 constexpr EventSystem(EventSystem&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EventSystem(void* ptr) noexcept : ::UnityEngine::EventSystems::UIBehaviour(ptr) {
+constexpr explicit EventSystem(void* ptr) noexcept : UnityEngine::EventSystems::UIBehaviour(ptr) {
 }
 
 
@@ -217,29 +216,29 @@ constexpr explicit EventSystem(void* ptr) noexcept : ::UnityEngine::EventSystems
 
 // Fields
 
- ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::BaseInputModule> __declspec(property(get=__get_m_SystemInputModules, put=__set_m_SystemInputModules))  m_SystemInputModules;
+ System::Collections::Generic::List_1<UnityEngine::EventSystems::BaseInputModule> __declspec(property(get=__get_m_SystemInputModules, put=__set_m_SystemInputModules))  m_SystemInputModules;
 
-constexpr void __set_m_SystemInputModules(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::BaseInputModule> value) ;
+constexpr void __set_m_SystemInputModules(System::Collections::Generic::List_1<UnityEngine::EventSystems::BaseInputModule> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::BaseInputModule> __get_m_SystemInputModules() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::EventSystems::BaseInputModule> __get_m_SystemInputModules() const;
 
- ::UnityEngine::EventSystems::BaseInputModule __declspec(property(get=__get_m_CurrentInputModule, put=__set_m_CurrentInputModule))  m_CurrentInputModule;
+ UnityEngine::EventSystems::BaseInputModule __declspec(property(get=__get_m_CurrentInputModule, put=__set_m_CurrentInputModule))  m_CurrentInputModule;
 
-constexpr void __set_m_CurrentInputModule(::UnityEngine::EventSystems::BaseInputModule value) ;
+constexpr void __set_m_CurrentInputModule(UnityEngine::EventSystems::BaseInputModule value) ;
 
-constexpr ::UnityEngine::EventSystems::BaseInputModule __get_m_CurrentInputModule() const;
+constexpr UnityEngine::EventSystems::BaseInputModule __get_m_CurrentInputModule() const;
 
-static ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::EventSystem> __declspec(property(get=__get_m_EventSystems, put=__set_m_EventSystems))  m_EventSystems;
+static System::Collections::Generic::List_1<UnityEngine::EventSystems::EventSystem> __declspec(property(get=__get_m_EventSystems, put=__set_m_EventSystems))  m_EventSystems;
 
-static void __set_m_EventSystems(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::EventSystem> value) ;
+static void __set_m_EventSystems(System::Collections::Generic::List_1<UnityEngine::EventSystems::EventSystem> value) ;
 
-static ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::EventSystem> __get_m_EventSystems() ;
+static System::Collections::Generic::List_1<UnityEngine::EventSystems::EventSystem> __get_m_EventSystems() ;
 
- ::UnityEngine::GameObject __declspec(property(get=__get_m_FirstSelected, put=__set_m_FirstSelected))  m_FirstSelected;
+ UnityEngine::GameObject __declspec(property(get=__get_m_FirstSelected, put=__set_m_FirstSelected))  m_FirstSelected;
 
-constexpr void __set_m_FirstSelected(::UnityEngine::GameObject value) ;
+constexpr void __set_m_FirstSelected(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get_m_FirstSelected() const;
+constexpr UnityEngine::GameObject __get_m_FirstSelected() const;
 
  bool __declspec(property(get=__get_m_sendNavigationEvents, put=__set_m_sendNavigationEvents))  m_sendNavigationEvents;
 
@@ -253,11 +252,11 @@ constexpr void __set_m_DragThreshold(int32_t value) ;
 
 constexpr int32_t __get_m_DragThreshold() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get_m_CurrentSelected, put=__set_m_CurrentSelected))  m_CurrentSelected;
+ UnityEngine::GameObject __declspec(property(get=__get_m_CurrentSelected, put=__set_m_CurrentSelected))  m_CurrentSelected;
 
-constexpr void __set_m_CurrentSelected(::UnityEngine::GameObject value) ;
+constexpr void __set_m_CurrentSelected(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get_m_CurrentSelected() const;
+constexpr UnityEngine::GameObject __get_m_CurrentSelected() const;
 
  bool __declspec(property(get=__get_m_HasFocus, put=__set_m_HasFocus))  m_HasFocus;
 
@@ -271,46 +270,46 @@ constexpr void __set_m_SelectionGuard(bool value) ;
 
 constexpr bool __get_m_SelectionGuard() const;
 
- ::UnityEngine::EventSystems::BaseEventData __declspec(property(get=__get_m_DummyData, put=__set_m_DummyData))  m_DummyData;
+ UnityEngine::EventSystems::BaseEventData __declspec(property(get=__get_m_DummyData, put=__set_m_DummyData))  m_DummyData;
 
-constexpr void __set_m_DummyData(::UnityEngine::EventSystems::BaseEventData value) ;
+constexpr void __set_m_DummyData(UnityEngine::EventSystems::BaseEventData value) ;
 
-constexpr ::UnityEngine::EventSystems::BaseEventData __get_m_DummyData() const;
+constexpr UnityEngine::EventSystems::BaseEventData __get_m_DummyData() const;
 
-static ::System::Comparison_1<::UnityEngine::EventSystems::RaycastResult> __declspec(property(get=__get_s_RaycastComparer, put=__set_s_RaycastComparer))  s_RaycastComparer;
+static System::Comparison_1<UnityEngine::EventSystems::RaycastResult> __declspec(property(get=__get_s_RaycastComparer, put=__set_s_RaycastComparer))  s_RaycastComparer;
 
-static void __set_s_RaycastComparer(::System::Comparison_1<::UnityEngine::EventSystems::RaycastResult> value) ;
+static void __set_s_RaycastComparer(System::Comparison_1<UnityEngine::EventSystems::RaycastResult> value) ;
 
-static ::System::Comparison_1<::UnityEngine::EventSystems::RaycastResult> __get_s_RaycastComparer() ;
+static System::Comparison_1<UnityEngine::EventSystems::RaycastResult> __get_s_RaycastComparer() ;
 
-static ::UnityEngine::EventSystems::____UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig __declspec(property(get=__get_s_UIToolkitOverride, put=__set_s_UIToolkitOverride))  s_UIToolkitOverride;
+static UnityEngine::EventSystems::UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig __declspec(property(get=__get_s_UIToolkitOverride, put=__set_s_UIToolkitOverride))  s_UIToolkitOverride;
 
-static void __set_s_UIToolkitOverride(::UnityEngine::EventSystems::____UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig value) ;
+static void __set_s_UIToolkitOverride(UnityEngine::EventSystems::UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig value) ;
 
-static ::UnityEngine::EventSystems::____UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig __get_s_UIToolkitOverride() ;
+static UnityEngine::EventSystems::UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig __get_s_UIToolkitOverride() ;
 
 
 // Properties
 
-static ::UnityEngine::EventSystems::EventSystem __declspec(property(get=get_current, put=set_current))  current;
+static UnityEngine::EventSystems::EventSystem __declspec(property(get=get_current, put=set_current))  current;
 
  bool __declspec(property(get=get_sendNavigationEvents, put=set_sendNavigationEvents))  sendNavigationEvents;
 
  int32_t __declspec(property(get=get_pixelDragThreshold, put=set_pixelDragThreshold))  pixelDragThreshold;
 
- ::UnityEngine::EventSystems::BaseInputModule __declspec(property(get=get_currentInputModule))  currentInputModule;
+ UnityEngine::EventSystems::BaseInputModule __declspec(property(get=get_currentInputModule))  currentInputModule;
 
- ::UnityEngine::GameObject __declspec(property(get=get_firstSelectedGameObject, put=set_firstSelectedGameObject))  firstSelectedGameObject;
+ UnityEngine::GameObject __declspec(property(get=get_firstSelectedGameObject, put=set_firstSelectedGameObject))  firstSelectedGameObject;
 
- ::UnityEngine::GameObject __declspec(property(get=get_currentSelectedGameObject))  currentSelectedGameObject;
+ UnityEngine::GameObject __declspec(property(get=get_currentSelectedGameObject))  currentSelectedGameObject;
 
- ::UnityEngine::GameObject __declspec(property(get=get_lastSelectedGameObject))  lastSelectedGameObject;
+ UnityEngine::GameObject __declspec(property(get=get_lastSelectedGameObject))  lastSelectedGameObject;
 
  bool __declspec(property(get=get_isFocused))  isFocused;
 
  bool __declspec(property(get=get_alreadySelecting))  alreadySelecting;
 
- ::UnityEngine::EventSystems::BaseEventData __declspec(property(get=get_baseEventDataCache))  baseEventDataCache;
+ UnityEngine::EventSystems::BaseEventData __declspec(property(get=get_baseEventDataCache))  baseEventDataCache;
 
  bool __declspec(property(get=get_isUIToolkitActiveEventSystem))  isUIToolkitActiveEventSystem;
 
@@ -322,10 +321,10 @@ static ::UnityEngine::EventSystems::EventSystem __declspec(property(get=get_curr
 // Methods
 
 /// @brief Method get_current addr 0x2c1d71c size 0xc4 virtual false final false
-static ::UnityEngine::EventSystems::EventSystem get_current() ;
+static UnityEngine::EventSystems::EventSystem get_current() ;
 
 /// @brief Method set_current addr 0x2c1d7e0 size 0x194 virtual false final false
-static void set_current(::UnityEngine::EventSystems::EventSystem value) ;
+static void set_current(UnityEngine::EventSystems::EventSystem value) ;
 
 /// @brief Method get_sendNavigationEvents addr 0x2c1d974 size 0x8 virtual false final false
  bool get_sendNavigationEvents() ;
@@ -340,19 +339,19 @@ static void set_current(::UnityEngine::EventSystems::EventSystem value) ;
  void set_pixelDragThreshold(int32_t value) ;
 
 /// @brief Method get_currentInputModule addr 0x2c1d998 size 0x8 virtual false final false
- ::UnityEngine::EventSystems::BaseInputModule get_currentInputModule() ;
+ UnityEngine::EventSystems::BaseInputModule get_currentInputModule() ;
 
 /// @brief Method get_firstSelectedGameObject addr 0x2c1d9a0 size 0x8 virtual false final false
- ::UnityEngine::GameObject get_firstSelectedGameObject() ;
+ UnityEngine::GameObject get_firstSelectedGameObject() ;
 
 /// @brief Method set_firstSelectedGameObject addr 0x2c1d9a8 size 0x8 virtual false final false
- void set_firstSelectedGameObject(::UnityEngine::GameObject value) ;
+ void set_firstSelectedGameObject(UnityEngine::GameObject value) ;
 
 /// @brief Method get_currentSelectedGameObject addr 0x2c1d9b0 size 0x8 virtual false final false
- ::UnityEngine::GameObject get_currentSelectedGameObject() ;
+ UnityEngine::GameObject get_currentSelectedGameObject() ;
 
 /// @brief Method get_lastSelectedGameObject addr 0x2c1d9b8 size 0x8 virtual false final false
- ::UnityEngine::GameObject get_lastSelectedGameObject() ;
+ UnityEngine::GameObject get_lastSelectedGameObject() ;
 
 /// @brief Method get_isFocused addr 0x2c1d9c0 size 0x8 virtual false final false
  bool get_isFocused() ;
@@ -370,19 +369,19 @@ explicit EventSystem() ;
  bool get_alreadySelecting() ;
 
 /// @brief Method SetSelectedGameObject addr 0x2c1c2e0 size 0x224 virtual false final false
- void SetSelectedGameObject(::UnityEngine::GameObject selected, ::UnityEngine::EventSystems::BaseEventData pointer) ;
+ void SetSelectedGameObject(UnityEngine::GameObject selected, UnityEngine::EventSystems::BaseEventData pointer) ;
 
 /// @brief Method get_baseEventDataCache addr 0x2c1dba0 size 0x70 virtual false final false
- ::UnityEngine::EventSystems::BaseEventData get_baseEventDataCache() ;
+ UnityEngine::EventSystems::BaseEventData get_baseEventDataCache() ;
 
 /// @brief Method SetSelectedGameObject addr 0x2c19834 size 0x2c virtual false final false
- void SetSelectedGameObject(::UnityEngine::GameObject selected) ;
+ void SetSelectedGameObject(UnityEngine::GameObject selected) ;
 
 /// @brief Method RaycastComparer addr 0x2c1dc10 size 0x364 virtual false final false
-static int32_t RaycastComparer(::UnityEngine::EventSystems::RaycastResult lhs, ::UnityEngine::EventSystems::RaycastResult rhs) ;
+static int32_t RaycastComparer(UnityEngine::EventSystems::RaycastResult lhs, UnityEngine::EventSystems::RaycastResult rhs) ;
 
 /// @brief Method RaycastAll addr 0x2c1e02c size 0x1f0 virtual false final false
- void RaycastAll(::UnityEngine::EventSystems::PointerEventData eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult> raycastResults) ;
+ void RaycastAll(UnityEngine::EventSystems::PointerEventData eventData, System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult> raycastResults) ;
 
 /// @brief Method IsPointerOverGameObject addr 0x2c1e21c size 0x8 virtual false final false
  bool IsPointerOverGameObject() ;
@@ -400,10 +399,10 @@ static int32_t RaycastComparer(::UnityEngine::EventSystems::RaycastResult lhs, :
  bool get_createUIToolkitPanelGameObjectsOnStart() ;
 
 /// @brief Method SetUITookitEventSystemOverride addr 0x2c1e4a0 size 0x19c virtual false final false
-static void SetUITookitEventSystemOverride(::UnityEngine::EventSystems::EventSystem activeEventSystem, bool sendEvents, bool createPanelGameObjectsOnStart) ;
+static void SetUITookitEventSystemOverride(UnityEngine::EventSystems::EventSystem activeEventSystem, bool sendEvents, bool createPanelGameObjectsOnStart) ;
 
 /// @brief Method CreateUIToolkitPanelGameObject addr 0x2c1e63c size 0x29c virtual false final false
- void CreateUIToolkitPanelGameObject(::UnityEngine::UIElements::BaseRuntimePanel panel) ;
+ void CreateUIToolkitPanelGameObject(UnityEngine::UIElements::BaseRuntimePanel panel) ;
 
 /// @brief Method Start addr 0x2c1e8e0 size 0x23c virtual true final false
  void Start() ;
@@ -427,7 +426,7 @@ static void SetUITookitEventSystemOverride(::UnityEngine::EventSystems::EventSys
  void Update() ;
 
 /// @brief Method ChangeEventModule addr 0x2c1f154 size 0xf8 virtual false final false
- void ChangeEventModule(::UnityEngine::EventSystems::BaseInputModule module) ;
+ void ChangeEventModule(UnityEngine::EventSystems::BaseInputModule module) ;
 
 /// @brief Method ToString addr 0x2c1f24c size 0x158 virtual true final false
  ::StringW ToString() ;
@@ -436,9 +435,8 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::EventSystems
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::EventSystems::EventSystem);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::EventSystem, "UnityEngine.EventSystems", "EventSystem");
-NEED_NO_BOX(::UnityEngine::EventSystems::____UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::____UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0, "UnityEngine.EventSystems", "EventSystem/<>c__DisplayClass52_0");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::____UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig, "UnityEngine.EventSystems", "EventSystem/UIToolkitOverrideConfig");
+NEED_NO_BOX(UnityEngine::EventSystems::EventSystem);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::EventSystem, "UnityEngine.EventSystems", "EventSystem");
+NEED_NO_BOX(UnityEngine::EventSystems::UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0, "UnityEngine.EventSystems", "EventSystem/<>c__DisplayClass52_0");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig, "UnityEngine.EventSystems", "EventSystem/UIToolkitOverrideConfig");

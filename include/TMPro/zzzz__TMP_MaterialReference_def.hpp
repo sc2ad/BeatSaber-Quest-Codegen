@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 class Material;
 }
@@ -19,8 +18,8 @@ namespace TMPro {
 struct CORDL_TYPE TMP_MaterialReference : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "material", ty: "::UnityEngine::Material", modifiers: "", def_value: None }, CppParam { name: "referenceCount", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr TMP_MaterialReference(::UnityEngine::Material material, int32_t referenceCount) noexcept;
+// Ctor Parameters [CppParam { name: "material", ty: "UnityEngine::Material", modifiers: "", def_value: None }, CppParam { name: "referenceCount", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr TMP_MaterialReference(UnityEngine::Material material, int32_t referenceCount) noexcept;
 
 
                     constexpr TMP_MaterialReference(TMP_MaterialReference const&) = default;
@@ -53,11 +52,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Material __declspec(property(get=__get_material, put=__set_material))  material;
+ UnityEngine::Material __declspec(property(get=__get_material, put=__set_material))  material;
 
-constexpr void __set_material(::UnityEngine::Material value) ;
+constexpr void __set_material(UnityEngine::Material value) ;
 
-constexpr ::UnityEngine::Material __get_material() const;
+constexpr UnityEngine::Material __get_material() const;
 
  int32_t __declspec(property(get=__get_referenceCount, put=__set_referenceCount))  referenceCount;
 
@@ -69,5 +68,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_MaterialReference, "TMPro", "TMP_MaterialReference");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_MaterialReference, "TMPro", "TMP_MaterialReference");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Security/Cryptography/zzzz__SignatureDescription_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace System::Security::Cryptography {
 class RSAPKCS1SignatureDescription;
@@ -13,7 +12,7 @@ namespace System::Security::Cryptography {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2962))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2963))
 // CS Name: System.Security.Cryptography.RSAPKCS1SignatureDescription
-class CORDL_TYPE RSAPKCS1SignatureDescription : public ::System::Security::Cryptography::SignatureDescription {
+class CORDL_TYPE RSAPKCS1SignatureDescription : public System::Security::Cryptography::SignatureDescription {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr RSAPKCS1SignatureDescription(RSAPKCS1SignatureDescription const& ) noe
 constexpr RSAPKCS1SignatureDescription(RSAPKCS1SignatureDescription&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RSAPKCS1SignatureDescription(void* ptr) noexcept : ::System::Security::Cryptography::SignatureDescription(ptr) {
+constexpr explicit RSAPKCS1SignatureDescription(void* ptr) noexcept : System::Security::Cryptography::SignatureDescription(ptr) {
 }
 
 
@@ -68,6 +67,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::RSAPKCS1SignatureDescription);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::RSAPKCS1SignatureDescription, "System.Security.Cryptography", "RSAPKCS1SignatureDescription");
+NEED_NO_BOX(System::Security::Cryptography::RSAPKCS1SignatureDescription);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSAPKCS1SignatureDescription, "System.Security.Cryptography", "RSAPKCS1SignatureDescription");

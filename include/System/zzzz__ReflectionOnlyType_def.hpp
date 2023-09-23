@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__RuntimeType_def.hpp"
-namespace {
 namespace System {
 struct RuntimeTypeHandle;
 }
@@ -15,7 +14,7 @@ namespace System {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2566))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2567))
 // CS Name: System.ReflectionOnlyType
-class CORDL_TYPE ReflectionOnlyType : public ::System::RuntimeType {
+class CORDL_TYPE ReflectionOnlyType : public System::RuntimeType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr ReflectionOnlyType(ReflectionOnlyType const& ) noexcept = default;
 constexpr ReflectionOnlyType(ReflectionOnlyType&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ReflectionOnlyType(void* ptr) noexcept : ::System::RuntimeType(ptr) {
+constexpr explicit ReflectionOnlyType(void* ptr) noexcept : System::RuntimeType(ptr) {
 }
 
 
@@ -51,7 +50,7 @@ constexpr explicit ReflectionOnlyType(void* ptr) noexcept : ::System::RuntimeTyp
 
 // Properties
 
- ::System::RuntimeTypeHandle __declspec(property(get=get_TypeHandle))  TypeHandle;
+ System::RuntimeTypeHandle __declspec(property(get=get_TypeHandle))  TypeHandle;
 
 
 // Methods
@@ -63,12 +62,11 @@ explicit ReflectionOnlyType() ;
  void _ctor() ;
 
 /// @brief Method get_TypeHandle addr 0x2483464 size 0x58 virtual true final false
- ::System::RuntimeTypeHandle get_TypeHandle() ;
+ System::RuntimeTypeHandle get_TypeHandle() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::ReflectionOnlyType);
-DEFINE_IL2CPP_ARG_TYPE(::System::ReflectionOnlyType, "System", "ReflectionOnlyType");
+NEED_NO_BOX(System::ReflectionOnlyType);
+DEFINE_IL2CPP_ARG_TYPE(System::ReflectionOnlyType, "System", "ReflectionOnlyType");

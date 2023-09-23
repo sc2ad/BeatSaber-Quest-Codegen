@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace TMPro {
 struct TextureMappingOptions;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Character offset 0
-static ::TMPro::TextureMappingOptions const Character;
+static TMPro::TextureMappingOptions const Character;
 
 /// @brief Field Line offset 0
-static ::TMPro::TextureMappingOptions const Line;
+static TMPro::TextureMappingOptions const Line;
 
 /// @brief Field Paragraph offset 0
-static ::TMPro::TextureMappingOptions const Paragraph;
+static TMPro::TextureMappingOptions const Paragraph;
 
 /// @brief Field MatchAspect offset 0
-static ::TMPro::TextureMappingOptions const MatchAspect;
+static TMPro::TextureMappingOptions const MatchAspect;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::TextureMappingOptions, "TMPro", "TextureMappingOptions");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TextureMappingOptions, "TMPro", "TextureMappingOptions");

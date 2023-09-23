@@ -3,7 +3,6 @@
 #include "Mono/Security/Cryptography/zzzz__SymmetricTransform_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::Security::Cryptography {
 class SymmetricAlgorithm;
 }
@@ -17,7 +16,7 @@ namespace System::Security::Cryptography {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2284))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2974))
 // CS Name: System.Security.Cryptography.DESTransform
-class CORDL_TYPE DESTransform : public ::Mono::Security::Cryptography::SymmetricTransform {
+class CORDL_TYPE DESTransform : public Mono::Security::Cryptography::SymmetricTransform {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr DESTransform(DESTransform const& ) noexcept = default;
 constexpr DESTransform(DESTransform&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DESTransform(void* ptr) noexcept : ::Mono::Security::Cryptography::SymmetricTransform(ptr) {
+constexpr explicit DESTransform(void* ptr) noexcept : Mono::Security::Cryptography::SymmetricTransform(ptr) {
 }
 
 
@@ -134,11 +133,11 @@ static ::ArrayW<uint32_t> __get_fpTab() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "symmAlgo", ty: "::System::Security::Cryptography::SymmetricAlgorithm", modifiers: "", def_value: None }, CppParam { name: "encryption", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit DESTransform(::System::Security::Cryptography::SymmetricAlgorithm symmAlgo, bool encryption, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv) ;
+// Ctor Parameters [CppParam { name: "symmAlgo", ty: "System::Security::Cryptography::SymmetricAlgorithm", modifiers: "", def_value: None }, CppParam { name: "encryption", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
+explicit DESTransform(System::Security::Cryptography::SymmetricAlgorithm symmAlgo, bool encryption, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv) ;
 
 /// @brief Method .ctor addr 0x23040c4 size 0x228 virtual false final false
- void _ctor(::System::Security::Cryptography::SymmetricAlgorithm symmAlgo, bool encryption, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv) ;
+ void _ctor(System::Security::Cryptography::SymmetricAlgorithm symmAlgo, bool encryption, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv) ;
 
 /// @brief Method CipherFunct addr 0x2304750 size 0x230 virtual false final false
  uint32_t CipherFunct(uint32_t r, int32_t n) ;
@@ -165,6 +164,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::DESTransform);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::DESTransform, "System.Security.Cryptography", "DESTransform");
+NEED_NO_BOX(System::Security::Cryptography::DESTransform);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::DESTransform, "System.Security.Cryptography", "DESTransform");

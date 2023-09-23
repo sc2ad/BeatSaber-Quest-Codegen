@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace BGNet::Core {
 class ITimeProvider;
 }
@@ -51,18 +50,17 @@ constexpr explicit DefaultTimeProvider(void* ptr) noexcept : ::bs_hook::Il2CppWr
 
 // Properties
 
-static ::BGNet::Core::ITimeProvider __declspec(property(get=get_instance))  instance;
+static BGNet::Core::ITimeProvider __declspec(property(get=get_instance))  instance;
 
 
 // Methods
 
 /// @brief Method get_instance addr 0xdd1038 size 0x58 virtual false final false
-static ::BGNet::Core::ITimeProvider get_instance() ;
+static BGNet::Core::ITimeProvider get_instance() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def BGNet::Core
-} // end anonymous namespace
-NEED_NO_BOX(::BGNet::Core::DefaultTimeProvider);
-DEFINE_IL2CPP_ARG_TYPE(::BGNet::Core::DefaultTimeProvider, "BGNet.Core", "DefaultTimeProvider");
+NEED_NO_BOX(BGNet::Core::DefaultTimeProvider);
+DEFINE_IL2CPP_ARG_TYPE(BGNet::Core::DefaultTimeProvider, "BGNet.Core", "DefaultTimeProvider");

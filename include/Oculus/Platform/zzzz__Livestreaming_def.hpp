@@ -1,13 +1,12 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace Oculus::Platform {
-template<typename T>
-class ____Oculus__Platform__Message_1__Callback;
-}
 namespace Oculus::Platform::Models {
 class LivestreamingStatus;
+}
+namespace Oculus::Platform {
+template<typename T>
+class Oculus__Platform__Message_1__Callback;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -56,12 +55,11 @@ constexpr explicit Livestreaming(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 // Methods
 
 /// @brief Method SetStatusUpdateNotificationCallback addr 0x25962a8 size 0x74 virtual false final false
-static void SetStatusUpdateNotificationCallback(::Oculus::Platform::____Oculus__Platform__Message_1__Callback<::Oculus::Platform::Models::LivestreamingStatus> callback) ;
+static void SetStatusUpdateNotificationCallback(Oculus::Platform::Oculus__Platform__Message_1__Callback<Oculus::Platform::Models::LivestreamingStatus> callback) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Livestreaming);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Livestreaming, "Oculus.Platform", "Livestreaming");
+NEED_NO_BOX(Oculus::Platform::Livestreaming);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Livestreaming, "Oculus.Platform", "Livestreaming");

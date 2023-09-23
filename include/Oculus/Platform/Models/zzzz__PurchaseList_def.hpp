@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_def.hpp"
 #include "Oculus/Platform/Models/zzzz__Purchase_def.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class PurchaseList;
@@ -11,10 +10,10 @@ class PurchaseList;
 // Type: Oculus.Platform.Models::PurchaseList
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13410)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1147 }), TypeDefinitionIndex(TypeDefinitionIndex(13465))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1147 }), TypeDefinitionIndex(TypeDefinitionIndex(13410)), TypeDefinitionIndex(TypeDefinitionIndex(13465))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13466))
 // CS Name: Oculus.Platform.Models.PurchaseList
-class CORDL_TYPE PurchaseList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::Purchase> {
+class CORDL_TYPE PurchaseList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::Purchase> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr PurchaseList(PurchaseList const& ) noexcept = default;
 constexpr PurchaseList(PurchaseList&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PurchaseList(void* ptr) noexcept : ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::Purchase>(ptr) {
+constexpr explicit PurchaseList(void* ptr) noexcept : Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::Purchase>(ptr) {
 }
 
 
@@ -60,6 +59,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::PurchaseList);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::PurchaseList, "Oculus.Platform.Models", "PurchaseList");
+NEED_NO_BOX(Oculus::Platform::Models::PurchaseList);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::PurchaseList, "Oculus.Platform.Models", "PurchaseList");

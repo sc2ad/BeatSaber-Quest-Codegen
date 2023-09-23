@@ -5,15 +5,27 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine::UI {
-class Toggle;
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine::UI {
+class Toggle;
+}
+namespace UnityEngine::UI {
 class Button;
+}
+namespace UnityEngine::UI {
+class InputField;
 }
 namespace UnityEngine::UI {
 class Text;
@@ -21,25 +33,12 @@ class Text;
 namespace GlobalNamespace {
 class OVRTrackedKeyboard;
 }
-namespace UnityEngine::UI {
-class InputField;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
-}
 // Forward declare root types
 namespace GlobalNamespace {
-class OVRTrackedKeyboardSampleControls;
+class GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19;
+class OVRTrackedKeyboardSampleControls;
 }
 // Type: ::<SetShaderCoroutine>d__19
 namespace GlobalNamespace {
@@ -47,46 +46,46 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8872))
 // CS Name: OVRTrackedKeyboardSampleControls::<SetShaderCoroutine>d__19
-class CORDL_TYPE ____GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
 
-virtual ~____GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19() = default;
+virtual ~GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19(____GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19(GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19(____GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19(GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19& operator=(____GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19&& o) noexcept = default;
-  constexpr ____GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19& operator=(____GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19 const& o) noexcept = default;
+  constexpr GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19& operator=(GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19&& o) noexcept = default;
+  constexpr GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19& operator=(GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19 const& o) noexcept = default;
                 
 
 
@@ -104,11 +103,11 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::GlobalNamespace::OVRTrackedKeyboardSampleControls __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::OVRTrackedKeyboardSampleControls __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::OVRTrackedKeyboardSampleControls value) ;
+constexpr void __set___4__this(GlobalNamespace::OVRTrackedKeyboardSampleControls value) ;
 
-constexpr ::GlobalNamespace::OVRTrackedKeyboardSampleControls __get___4__this() const;
+constexpr GlobalNamespace::OVRTrackedKeyboardSampleControls __get___4__this() const;
 
  ::StringW __declspec(property(get=__get_shaderName, put=__set_shaderName))  shaderName;
 
@@ -133,7 +132,7 @@ constexpr bool __get__trackingWasEnabled_5__2() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19(int32_t __1__state) ;
+explicit GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2618434 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -163,10 +162,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8873))
 // CS Name: OVRTrackedKeyboardSampleControls
-class CORDL_TYPE OVRTrackedKeyboardSampleControls : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OVRTrackedKeyboardSampleControls : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using _SetShaderCoroutine_d__19 = ::GlobalNamespace::____GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19;
+using _SetShaderCoroutine_d__19 = GlobalNamespace::GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x90};
@@ -180,7 +179,7 @@ constexpr OVRTrackedKeyboardSampleControls(OVRTrackedKeyboardSampleControls cons
 constexpr OVRTrackedKeyboardSampleControls(OVRTrackedKeyboardSampleControls&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OVRTrackedKeyboardSampleControls(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OVRTrackedKeyboardSampleControls(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -201,83 +200,83 @@ constexpr explicit OVRTrackedKeyboardSampleControls(void* ptr) noexcept : ::Unit
 
 // Fields
 
- ::GlobalNamespace::OVRTrackedKeyboard __declspec(property(get=__get_trackedKeyboard, put=__set_trackedKeyboard))  trackedKeyboard;
+ GlobalNamespace::OVRTrackedKeyboard __declspec(property(get=__get_trackedKeyboard, put=__set_trackedKeyboard))  trackedKeyboard;
 
-constexpr void __set_trackedKeyboard(::GlobalNamespace::OVRTrackedKeyboard value) ;
+constexpr void __set_trackedKeyboard(GlobalNamespace::OVRTrackedKeyboard value) ;
 
-constexpr ::GlobalNamespace::OVRTrackedKeyboard __get_trackedKeyboard() const;
+constexpr GlobalNamespace::OVRTrackedKeyboard __get_trackedKeyboard() const;
 
- ::UnityEngine::UI::InputField __declspec(property(get=__get_StartingFocusField, put=__set_StartingFocusField))  StartingFocusField;
+ UnityEngine::UI::InputField __declspec(property(get=__get_StartingFocusField, put=__set_StartingFocusField))  StartingFocusField;
 
-constexpr void __set_StartingFocusField(::UnityEngine::UI::InputField value) ;
+constexpr void __set_StartingFocusField(UnityEngine::UI::InputField value) ;
 
-constexpr ::UnityEngine::UI::InputField __get_StartingFocusField() const;
+constexpr UnityEngine::UI::InputField __get_StartingFocusField() const;
 
- ::UnityEngine::UI::Text __declspec(property(get=__get_NameValue, put=__set_NameValue))  NameValue;
+ UnityEngine::UI::Text __declspec(property(get=__get_NameValue, put=__set_NameValue))  NameValue;
 
-constexpr void __set_NameValue(::UnityEngine::UI::Text value) ;
+constexpr void __set_NameValue(UnityEngine::UI::Text value) ;
 
-constexpr ::UnityEngine::UI::Text __get_NameValue() const;
+constexpr UnityEngine::UI::Text __get_NameValue() const;
 
- ::UnityEngine::UI::Text __declspec(property(get=__get_ConnectedValue, put=__set_ConnectedValue))  ConnectedValue;
+ UnityEngine::UI::Text __declspec(property(get=__get_ConnectedValue, put=__set_ConnectedValue))  ConnectedValue;
 
-constexpr void __set_ConnectedValue(::UnityEngine::UI::Text value) ;
+constexpr void __set_ConnectedValue(UnityEngine::UI::Text value) ;
 
-constexpr ::UnityEngine::UI::Text __get_ConnectedValue() const;
+constexpr UnityEngine::UI::Text __get_ConnectedValue() const;
 
- ::UnityEngine::UI::Text __declspec(property(get=__get_StateValue, put=__set_StateValue))  StateValue;
+ UnityEngine::UI::Text __declspec(property(get=__get_StateValue, put=__set_StateValue))  StateValue;
 
-constexpr void __set_StateValue(::UnityEngine::UI::Text value) ;
+constexpr void __set_StateValue(UnityEngine::UI::Text value) ;
 
-constexpr ::UnityEngine::UI::Text __get_StateValue() const;
+constexpr UnityEngine::UI::Text __get_StateValue() const;
 
- ::UnityEngine::UI::Text __declspec(property(get=__get_SelectKeyboardValue, put=__set_SelectKeyboardValue))  SelectKeyboardValue;
+ UnityEngine::UI::Text __declspec(property(get=__get_SelectKeyboardValue, put=__set_SelectKeyboardValue))  SelectKeyboardValue;
 
-constexpr void __set_SelectKeyboardValue(::UnityEngine::UI::Text value) ;
+constexpr void __set_SelectKeyboardValue(UnityEngine::UI::Text value) ;
 
-constexpr ::UnityEngine::UI::Text __get_SelectKeyboardValue() const;
+constexpr UnityEngine::UI::Text __get_SelectKeyboardValue() const;
 
- ::UnityEngine::UI::Text __declspec(property(get=__get_TypeValue, put=__set_TypeValue))  TypeValue;
+ UnityEngine::UI::Text __declspec(property(get=__get_TypeValue, put=__set_TypeValue))  TypeValue;
 
-constexpr void __set_TypeValue(::UnityEngine::UI::Text value) ;
+constexpr void __set_TypeValue(UnityEngine::UI::Text value) ;
 
-constexpr ::UnityEngine::UI::Text __get_TypeValue() const;
+constexpr UnityEngine::UI::Text __get_TypeValue() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_GoodStateColor, put=__set_GoodStateColor))  GoodStateColor;
+ UnityEngine::Color __declspec(property(get=__get_GoodStateColor, put=__set_GoodStateColor))  GoodStateColor;
 
-constexpr void __set_GoodStateColor(::UnityEngine::Color value) ;
+constexpr void __set_GoodStateColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_GoodStateColor() const;
+constexpr UnityEngine::Color __get_GoodStateColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_BadStateColor, put=__set_BadStateColor))  BadStateColor;
+ UnityEngine::Color __declspec(property(get=__get_BadStateColor, put=__set_BadStateColor))  BadStateColor;
 
-constexpr void __set_BadStateColor(::UnityEngine::Color value) ;
+constexpr void __set_BadStateColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_BadStateColor() const;
+constexpr UnityEngine::Color __get_BadStateColor() const;
 
- ::UnityEngine::UI::Toggle __declspec(property(get=__get_TrackingToggle, put=__set_TrackingToggle))  TrackingToggle;
+ UnityEngine::UI::Toggle __declspec(property(get=__get_TrackingToggle, put=__set_TrackingToggle))  TrackingToggle;
 
-constexpr void __set_TrackingToggle(::UnityEngine::UI::Toggle value) ;
+constexpr void __set_TrackingToggle(UnityEngine::UI::Toggle value) ;
 
-constexpr ::UnityEngine::UI::Toggle __get_TrackingToggle() const;
+constexpr UnityEngine::UI::Toggle __get_TrackingToggle() const;
 
- ::UnityEngine::UI::Toggle __declspec(property(get=__get_ConnectionToggle, put=__set_ConnectionToggle))  ConnectionToggle;
+ UnityEngine::UI::Toggle __declspec(property(get=__get_ConnectionToggle, put=__set_ConnectionToggle))  ConnectionToggle;
 
-constexpr void __set_ConnectionToggle(::UnityEngine::UI::Toggle value) ;
+constexpr void __set_ConnectionToggle(UnityEngine::UI::Toggle value) ;
 
-constexpr ::UnityEngine::UI::Toggle __get_ConnectionToggle() const;
+constexpr UnityEngine::UI::Toggle __get_ConnectionToggle() const;
 
- ::UnityEngine::UI::Toggle __declspec(property(get=__get_RemoteKeyboardToggle, put=__set_RemoteKeyboardToggle))  RemoteKeyboardToggle;
+ UnityEngine::UI::Toggle __declspec(property(get=__get_RemoteKeyboardToggle, put=__set_RemoteKeyboardToggle))  RemoteKeyboardToggle;
 
-constexpr void __set_RemoteKeyboardToggle(::UnityEngine::UI::Toggle value) ;
+constexpr void __set_RemoteKeyboardToggle(UnityEngine::UI::Toggle value) ;
 
-constexpr ::UnityEngine::UI::Toggle __get_RemoteKeyboardToggle() const;
+constexpr UnityEngine::UI::Toggle __get_RemoteKeyboardToggle() const;
 
- ::ArrayW<::UnityEngine::UI::Button> __declspec(property(get=__get_ShaderButtons, put=__set_ShaderButtons))  ShaderButtons;
+ ::ArrayW<UnityEngine::UI::Button> __declspec(property(get=__get_ShaderButtons, put=__set_ShaderButtons))  ShaderButtons;
 
-constexpr void __set_ShaderButtons(::ArrayW<::UnityEngine::UI::Button> value) ;
+constexpr void __set_ShaderButtons(::ArrayW<UnityEngine::UI::Button> value) ;
 
-constexpr ::ArrayW<::UnityEngine::UI::Button> __get_ShaderButtons() const;
+constexpr ::ArrayW<UnityEngine::UI::Button> __get_ShaderButtons() const;
 
 
 // Methods
@@ -301,7 +300,7 @@ constexpr ::ArrayW<::UnityEngine::UI::Button> __get_ShaderButtons() const;
  void SetDiffuseShader() ;
 
 /// @brief Method SetShaderCoroutine addr 0x2618368 size 0x74 virtual false final false
- ::System::Collections::IEnumerator SetShaderCoroutine(::StringW shaderName) ;
+ System::Collections::IEnumerator SetShaderCoroutine(::StringW shaderName) ;
 
 /// @brief Method LaunchKeyboardSelection addr 0x261845c size 0x48 virtual false final false
  void LaunchKeyboardSelection() ;
@@ -322,8 +321,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OVRTrackedKeyboardSampleControls);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRTrackedKeyboardSampleControls, "", "OVRTrackedKeyboardSampleControls");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19, "", "OVRTrackedKeyboardSampleControls/<SetShaderCoroutine>d__19");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19, "", "OVRTrackedKeyboardSampleControls/<SetShaderCoroutine>d__19");
+NEED_NO_BOX(GlobalNamespace::OVRTrackedKeyboardSampleControls);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRTrackedKeyboardSampleControls, "", "OVRTrackedKeyboardSampleControls");

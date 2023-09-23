@@ -3,16 +3,12 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
-namespace UnityEngine {
-struct Color;
-}
 namespace Tweening {
 template<typename T>
 class Tween_1;
 }
-namespace Tweening {
-class TimeTweeningManager;
+namespace GlobalNamespace {
+struct EaseType;
 }
 namespace TMPro {
 class TextMeshProUGUI;
@@ -20,8 +16,11 @@ class TextMeshProUGUI;
 namespace UnityEngine {
 struct Vector3;
 }
-namespace GlobalNamespace {
-struct EaseType;
+namespace UnityEngine {
+struct Color;
+}
+namespace Tweening {
+class TimeTweeningManager;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -36,7 +35,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5337))
 // CS Name: MultiplayerScoreItem
-class CORDL_TYPE MultiplayerScoreItem : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerScoreItem : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -51,7 +50,7 @@ constexpr MultiplayerScoreItem(MultiplayerScoreItem const& ) noexcept = default;
 constexpr MultiplayerScoreItem(MultiplayerScoreItem&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerScoreItem(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerScoreItem(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -72,35 +71,35 @@ constexpr explicit MultiplayerScoreItem(void* ptr) noexcept : ::UnityEngine::Mon
 
 // Fields
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__scoreText, put=__set__scoreText))  _scoreText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__scoreText, put=__set__scoreText))  _scoreText;
 
-constexpr void __set__scoreText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__scoreText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__scoreText() const;
+constexpr TMPro::TextMeshProUGUI __get__scoreText() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__nameText, put=__set__nameText))  _nameText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__nameText, put=__set__nameText))  _nameText;
 
-constexpr void __set__nameText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__nameText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__nameText() const;
+constexpr TMPro::TextMeshProUGUI __get__nameText() const;
 
- ::Tweening::TimeTweeningManager __declspec(property(get=__get__tweeningManager, put=__set__tweeningManager))  _tweeningManager;
+ Tweening::TimeTweeningManager __declspec(property(get=__get__tweeningManager, put=__set__tweeningManager))  _tweeningManager;
 
-constexpr void __set__tweeningManager(::Tweening::TimeTweeningManager value) ;
+constexpr void __set__tweeningManager(Tweening::TimeTweeningManager value) ;
 
-constexpr ::Tweening::TimeTweeningManager __get__tweeningManager() const;
+constexpr Tweening::TimeTweeningManager __get__tweeningManager() const;
 
- ::Tweening::Tween_1<::UnityEngine::Color> __declspec(property(get=__get__nameColorTween, put=__set__nameColorTween))  _nameColorTween;
+ Tweening::Tween_1<UnityEngine::Color> __declspec(property(get=__get__nameColorTween, put=__set__nameColorTween))  _nameColorTween;
 
-constexpr void __set__nameColorTween(::Tweening::Tween_1<::UnityEngine::Color> value) ;
+constexpr void __set__nameColorTween(Tweening::Tween_1<UnityEngine::Color> value) ;
 
-constexpr ::Tweening::Tween_1<::UnityEngine::Color> __get__nameColorTween() const;
+constexpr Tweening::Tween_1<UnityEngine::Color> __get__nameColorTween() const;
 
- ::Tweening::Tween_1<::UnityEngine::Color> __declspec(property(get=__get__scoreColorTween, put=__set__scoreColorTween))  _scoreColorTween;
+ Tweening::Tween_1<UnityEngine::Color> __declspec(property(get=__get__scoreColorTween, put=__set__scoreColorTween))  _scoreColorTween;
 
-constexpr void __set__scoreColorTween(::Tweening::Tween_1<::UnityEngine::Color> value) ;
+constexpr void __set__scoreColorTween(Tweening::Tween_1<UnityEngine::Color> value) ;
 
-constexpr ::Tweening::Tween_1<::UnityEngine::Color> __get__scoreColorTween() const;
+constexpr Tweening::Tween_1<UnityEngine::Color> __get__scoreColorTween() const;
 
 
 // Methods
@@ -112,10 +111,10 @@ constexpr ::Tweening::Tween_1<::UnityEngine::Color> __get__scoreColorTween() con
  void OnDestroy() ;
 
 /// @brief Method SetPositionAndRotation addr 0x210172c size 0x78 virtual false final false
- void SetPositionAndRotation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation) ;
+ void SetPositionAndRotation(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation) ;
 
 /// @brief Method AnimateColors addr 0x21017a4 size 0x114 virtual false final false
- void AnimateColors(::UnityEngine::Color nameColor, ::UnityEngine::Color scoreColor, float_t duration, ::GlobalNamespace::EaseType easeType) ;
+ void AnimateColors(UnityEngine::Color nameColor, UnityEngine::Color scoreColor, float_t duration, GlobalNamespace::EaseType easeType) ;
 
 /// @brief Method SetName addr 0x21018b8 size 0x24 virtual false final false
  void SetName(::StringW text) ;
@@ -130,15 +129,14 @@ explicit MultiplayerScoreItem() ;
  void _ctor() ;
 
 /// @brief Method <Awake>b__5_0 addr 0x2101908 size 0x24 virtual false final false
- void _Awake_b__5_0(::UnityEngine::Color val) ;
+ void _Awake_b__5_0(UnityEngine::Color val) ;
 
 /// @brief Method <Awake>b__5_1 addr 0x210192c size 0x24 virtual false final false
- void _Awake_b__5_1(::UnityEngine::Color val) ;
+ void _Awake_b__5_1(UnityEngine::Color val) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerScoreItem);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerScoreItem, "", "MultiplayerScoreItem");
+NEED_NO_BOX(GlobalNamespace::MultiplayerScoreItem);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerScoreItem, "", "MultiplayerScoreItem");

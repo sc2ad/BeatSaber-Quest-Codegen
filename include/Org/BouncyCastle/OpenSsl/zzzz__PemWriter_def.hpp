@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace System::IO {
 class TextWriter;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::OpenSsl {
@@ -21,7 +20,7 @@ namespace Org::BouncyCastle::OpenSsl {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1690))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1691))
 // CS Name: Org.BouncyCastle.OpenSsl.PemWriter
-class CORDL_TYPE PemWriter : public ::Org::BouncyCastle::Utilities::IO::Pem::PemWriter {
+class CORDL_TYPE PemWriter : public Org::BouncyCastle::Utilities::IO::Pem::PemWriter {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr PemWriter(PemWriter const& ) noexcept = default;
 constexpr PemWriter(PemWriter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PemWriter(void* ptr) noexcept : ::Org::BouncyCastle::Utilities::IO::Pem::PemWriter(ptr) {
+constexpr explicit PemWriter(void* ptr) noexcept : Org::BouncyCastle::Utilities::IO::Pem::PemWriter(ptr) {
 }
 
 
@@ -57,22 +56,21 @@ constexpr explicit PemWriter(void* ptr) noexcept : ::Org::BouncyCastle::Utilitie
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "writer", ty: "::System::IO::TextWriter", modifiers: "", def_value: None }]
-explicit PemWriter(::System::IO::TextWriter writer) ;
+// Ctor Parameters [CppParam { name: "writer", ty: "System::IO::TextWriter", modifiers: "", def_value: None }]
+explicit PemWriter(System::IO::TextWriter writer) ;
 
 /// @brief Method .ctor addr 0x1048c0c size 0x4 virtual false final false
- void _ctor(::System::IO::TextWriter writer) ;
+ void _ctor(System::IO::TextWriter writer) ;
 
 /// @brief Method WriteObject addr 0x1048c10 size 0x170 virtual false final false
  void WriteObject(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method WriteObject addr 0x1048d80 size 0x8c virtual false final false
- void WriteObject(::bs_hook::Il2CppWrapperType obj, ::StringW algorithm, ::ArrayW<char16_t> password, ::Org::BouncyCastle::Security::SecureRandom random) ;
+ void WriteObject(::bs_hook::Il2CppWrapperType obj, ::StringW algorithm, ::ArrayW<char16_t> password, Org::BouncyCastle::Security::SecureRandom random) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::OpenSsl
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::OpenSsl::PemWriter);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::OpenSsl::PemWriter, "Org.BouncyCastle.OpenSsl", "PemWriter");
+NEED_NO_BOX(Org::BouncyCastle::OpenSsl::PemWriter);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::OpenSsl::PemWriter, "Org.BouncyCastle.OpenSsl", "PemWriter");

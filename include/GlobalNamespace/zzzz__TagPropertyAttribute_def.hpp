@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_def.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class TagPropertyAttribute;
@@ -12,7 +11,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10112))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13838))
 // CS Name: TagPropertyAttribute
-class CORDL_TYPE TagPropertyAttribute : public ::UnityEngine::PropertyAttribute {
+class CORDL_TYPE TagPropertyAttribute : public UnityEngine::PropertyAttribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr TagPropertyAttribute(TagPropertyAttribute const& ) noexcept = default;
 constexpr TagPropertyAttribute(TagPropertyAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TagPropertyAttribute(void* ptr) noexcept : ::UnityEngine::PropertyAttribute(ptr) {
+constexpr explicit TagPropertyAttribute(void* ptr) noexcept : UnityEngine::PropertyAttribute(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::TagPropertyAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TagPropertyAttribute, "", "TagPropertyAttribute");
+NEED_NO_BOX(GlobalNamespace::TagPropertyAttribute);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TagPropertyAttribute, "", "TagPropertyAttribute");

@@ -3,17 +3,16 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System {
-template<typename T>
-class IEquatable_1;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace UnityEngine::ProBuilder {
 struct Edge;
+}
+namespace System {
+template<typename T>
+class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -28,8 +27,8 @@ namespace UnityEngine::ProBuilder {
 struct CORDL_TYPE Triangle : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::ProBuilder::Triangle>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::ProBuilder::Triangle>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::ProBuilder::Triangle>
+constexpr operator  System::IEquatable_1<UnityEngine::ProBuilder::Triangle>() const;
 
 // Ctor Parameters [CppParam { name: "m_A", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_B", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_C", ty: "int32_t", modifiers: "", def_value: None }]
 constexpr Triangle(int32_t m_A, int32_t m_B, int32_t m_C) noexcept;
@@ -92,7 +91,7 @@ constexpr int32_t __get_m_C() const;
 
  int32_t __declspec(property(get=get_c))  c;
 
- ::System::Collections::Generic::IEnumerable_1<int32_t> __declspec(property(get=get_indices))  indices;
+ System::Collections::Generic::IEnumerable_1<int32_t> __declspec(property(get=get_indices))  indices;
 
 
 // Methods
@@ -107,13 +106,13 @@ constexpr int32_t __get_m_C() const;
  int32_t get_c() ;
 
 /// @brief Method get_indices addr 0x29e8044 size 0x88 virtual false final false
- ::System::Collections::Generic::IEnumerable_1<int32_t> get_indices() ;
+ System::Collections::Generic::IEnumerable_1<int32_t> get_indices() ;
 
 /// @brief Method .ctor addr 0x29e80cc size 0xc virtual false final false
  void _ctor(int32_t a, int32_t b, int32_t c) ;
 
 /// @brief Method Equals addr 0x29e80d8 size 0x34 virtual true final true
- bool Equals(::UnityEngine::ProBuilder::Triangle other) ;
+ bool Equals(UnityEngine::ProBuilder::Triangle other) ;
 
 /// @brief Method Equals addr 0x29e810c size 0x98 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -122,14 +121,13 @@ constexpr int32_t __get_m_C() const;
  int32_t GetHashCode() ;
 
 /// @brief Method IsAdjacent addr 0x29e81c4 size 0x94 virtual false final false
- bool IsAdjacent(::UnityEngine::ProBuilder::Triangle other) ;
+ bool IsAdjacent(UnityEngine::ProBuilder::Triangle other) ;
 
 /// @brief Method ContainsEdge addr 0x29e8258 size 0x100 virtual false final false
- bool ContainsEdge(::UnityEngine::ProBuilder::Edge edge) ;
+ bool ContainsEdge(UnityEngine::ProBuilder::Edge edge) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Triangle, "UnityEngine.ProBuilder", "Triangle");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Triangle, "UnityEngine.ProBuilder", "Triangle");

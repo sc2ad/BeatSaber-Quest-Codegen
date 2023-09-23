@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security::AccessControl {
 struct ResourceType;
@@ -78,47 +77,46 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::System::Security::AccessControl::ResourceType const Unknown;
+static System::Security::AccessControl::ResourceType const Unknown;
 
 /// @brief Field FileObject offset 0
-static ::System::Security::AccessControl::ResourceType const FileObject;
+static System::Security::AccessControl::ResourceType const FileObject;
 
 /// @brief Field Service offset 0
-static ::System::Security::AccessControl::ResourceType const Service;
+static System::Security::AccessControl::ResourceType const Service;
 
 /// @brief Field Printer offset 0
-static ::System::Security::AccessControl::ResourceType const Printer;
+static System::Security::AccessControl::ResourceType const Printer;
 
 /// @brief Field RegistryKey offset 0
-static ::System::Security::AccessControl::ResourceType const RegistryKey;
+static System::Security::AccessControl::ResourceType const RegistryKey;
 
 /// @brief Field LMShare offset 0
-static ::System::Security::AccessControl::ResourceType const LMShare;
+static System::Security::AccessControl::ResourceType const LMShare;
 
 /// @brief Field KernelObject offset 0
-static ::System::Security::AccessControl::ResourceType const KernelObject;
+static System::Security::AccessControl::ResourceType const KernelObject;
 
 /// @brief Field WindowObject offset 0
-static ::System::Security::AccessControl::ResourceType const WindowObject;
+static System::Security::AccessControl::ResourceType const WindowObject;
 
 /// @brief Field DSObject offset 0
-static ::System::Security::AccessControl::ResourceType const DSObject;
+static System::Security::AccessControl::ResourceType const DSObject;
 
 /// @brief Field DSObjectAll offset 0
-static ::System::Security::AccessControl::ResourceType const DSObjectAll;
+static System::Security::AccessControl::ResourceType const DSObjectAll;
 
 /// @brief Field ProviderDefined offset 0
-static ::System::Security::AccessControl::ResourceType const ProviderDefined;
+static System::Security::AccessControl::ResourceType const ProviderDefined;
 
 /// @brief Field WmiGuidObject offset 0
-static ::System::Security::AccessControl::ResourceType const WmiGuidObject;
+static System::Security::AccessControl::ResourceType const WmiGuidObject;
 
 /// @brief Field RegistryWow6432Key offset 0
-static ::System::Security::AccessControl::ResourceType const RegistryWow6432Key;
+static System::Security::AccessControl::ResourceType const RegistryWow6432Key;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Security::AccessControl
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::AccessControl::ResourceType, "System.Security.AccessControl", "ResourceType");
+DEFINE_IL2CPP_ARG_TYPE(System::Security::AccessControl::ResourceType, "System.Security.AccessControl", "ResourceType");

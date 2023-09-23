@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class Exception;
 }
@@ -16,7 +15,7 @@ namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1635))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1636))
 // CS Name: Org.BouncyCastle.Bcpg.OpenPgp.PgpDataValidationException
-class CORDL_TYPE PgpDataValidationException : public ::Org::BouncyCastle::Bcpg::OpenPgp::PgpException {
+class CORDL_TYPE PgpDataValidationException : public Org::BouncyCastle::Bcpg::OpenPgp::PgpException {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr PgpDataValidationException(PgpDataValidationException const& ) noexcep
 constexpr PgpDataValidationException(PgpDataValidationException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PgpDataValidationException(void* ptr) noexcept : ::Org::BouncyCastle::Bcpg::OpenPgp::PgpException(ptr) {
+constexpr explicit PgpDataValidationException(void* ptr) noexcept : Org::BouncyCastle::Bcpg::OpenPgp::PgpException(ptr) {
 }
 
 
@@ -64,16 +63,15 @@ explicit PgpDataValidationException(::StringW message) ;
 /// @brief Method .ctor addr 0x101d40c size 0x4 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "exception", ty: "::System::Exception", modifiers: "", def_value: None }]
-explicit PgpDataValidationException(::StringW message, ::System::Exception exception) ;
+// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "exception", ty: "System::Exception", modifiers: "", def_value: None }]
+explicit PgpDataValidationException(::StringW message, System::Exception exception) ;
 
 /// @brief Method .ctor addr 0x101d410 size 0x4 virtual false final false
- void _ctor(::StringW message, ::System::Exception exception) ;
+ void _ctor(::StringW message, System::Exception exception) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg::OpenPgp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::OpenPgp::PgpDataValidationException);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::OpenPgp::PgpDataValidationException, "Org.BouncyCastle.Bcpg.OpenPgp", "PgpDataValidationException");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::OpenPgp::PgpDataValidationException);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::OpenPgp::PgpDataValidationException, "Org.BouncyCastle.Bcpg.OpenPgp", "PgpDataValidationException");

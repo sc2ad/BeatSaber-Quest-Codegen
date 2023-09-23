@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Security::Cryptography {
 struct DSAParameters;
 }
@@ -18,7 +17,7 @@ namespace System::Security::Cryptography {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2914))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2927))
 // CS Name: System.Security.Cryptography.DSA
-class CORDL_TYPE DSA : public ::System::Security::Cryptography::AsymmetricAlgorithm {
+class CORDL_TYPE DSA : public System::Security::Cryptography::AsymmetricAlgorithm {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr DSA(DSA const& ) noexcept = default;
 constexpr DSA(DSA&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DSA(void* ptr) noexcept : ::System::Security::Cryptography::AsymmetricAlgorithm(ptr) {
+constexpr explicit DSA(void* ptr) noexcept : System::Security::Cryptography::AsymmetricAlgorithm(ptr) {
 }
 
 
@@ -61,7 +60,7 @@ explicit DSA() ;
  void _ctor() ;
 
 /// @brief Method Create addr 0x22f1fb8 size 0x5c virtual false final false
-static ::System::Security::Cryptography::DSA Create() ;
+static System::Security::Cryptography::DSA Create() ;
 
 /// @brief Method VerifySignature addr 0x0 size 0xffffffffffffffff virtual true final false
  bool VerifySignature(::ArrayW<uint8_t> rgbHash, ::ArrayW<uint8_t> rgbSignature) ;
@@ -73,15 +72,14 @@ static ::System::Security::Cryptography::DSA Create() ;
  ::StringW ToXmlString(bool includePrivateParameters) ;
 
 /// @brief Method ExportParameters addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Security::Cryptography::DSAParameters ExportParameters(bool includePrivateParameters) ;
+ System::Security::Cryptography::DSAParameters ExportParameters(bool includePrivateParameters) ;
 
 /// @brief Method ImportParameters addr 0x0 size 0xffffffffffffffff virtual true final false
- void ImportParameters(::System::Security::Cryptography::DSAParameters parameters) ;
+ void ImportParameters(System::Security::Cryptography::DSAParameters parameters) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::DSA);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::DSA, "System.Security.Cryptography", "DSA");
+NEED_NO_BOX(System::Security::Cryptography::DSA);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::DSA, "System.Security.Cryptography", "DSA");

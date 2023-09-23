@@ -3,12 +3,11 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace RootMotion::FinalIK {
-class VRIK;
-}
 namespace UnityEngine {
 class Renderer;
+}
+namespace RootMotion::FinalIK {
+class VRIK;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -20,7 +19,7 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12615))
 // CS Name: RootMotion.FinalIK.VRIKLODController
-class CORDL_TYPE VRIKLODController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE VRIKLODController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr VRIKLODController(VRIKLODController const& ) noexcept = default;
 constexpr VRIKLODController(VRIKLODController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit VRIKLODController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit VRIKLODController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -56,11 +55,11 @@ constexpr explicit VRIKLODController(void* ptr) noexcept : ::UnityEngine::MonoBe
 
 // Fields
 
- ::UnityEngine::Renderer __declspec(property(get=__get_LODRenderer, put=__set_LODRenderer))  LODRenderer;
+ UnityEngine::Renderer __declspec(property(get=__get_LODRenderer, put=__set_LODRenderer))  LODRenderer;
 
-constexpr void __set_LODRenderer(::UnityEngine::Renderer value) ;
+constexpr void __set_LODRenderer(UnityEngine::Renderer value) ;
 
-constexpr ::UnityEngine::Renderer __get_LODRenderer() const;
+constexpr UnityEngine::Renderer __get_LODRenderer() const;
 
  float_t __declspec(property(get=__get_LODDistance, put=__set_LODDistance))  LODDistance;
 
@@ -74,11 +73,11 @@ constexpr void __set_allowCulled(bool value) ;
 
 constexpr bool __get_allowCulled() const;
 
- ::RootMotion::FinalIK::VRIK __declspec(property(get=__get_ik, put=__set_ik))  ik;
+ RootMotion::FinalIK::VRIK __declspec(property(get=__get_ik, put=__set_ik))  ik;
 
-constexpr void __set_ik(::RootMotion::FinalIK::VRIK value) ;
+constexpr void __set_ik(RootMotion::FinalIK::VRIK value) ;
 
-constexpr ::RootMotion::FinalIK::VRIK __get_ik() const;
+constexpr RootMotion::FinalIK::VRIK __get_ik() const;
 
 
 // Methods
@@ -102,6 +101,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::VRIKLODController);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::VRIKLODController, "RootMotion.FinalIK", "VRIKLODController");
+NEED_NO_BOX(RootMotion::FinalIK::VRIKLODController);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIKLODController, "RootMotion.FinalIK", "VRIKLODController");

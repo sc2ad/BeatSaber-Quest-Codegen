@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace UnityEngine {
-class Transform;
-}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8887))
 // CS Name: OVRCursor
-class CORDL_TYPE OVRCursor : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OVRCursor : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr OVRCursor(OVRCursor const& ) noexcept = default;
 constexpr OVRCursor(OVRCursor&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OVRCursor(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OVRCursor(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -55,10 +54,10 @@ constexpr explicit OVRCursor(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(
 // Methods
 
 /// @brief Method SetCursorRay addr 0x0 size 0xffffffffffffffff virtual true final false
- void SetCursorRay(::UnityEngine::Transform ray) ;
+ void SetCursorRay(UnityEngine::Transform ray) ;
 
 /// @brief Method SetCursorStartDest addr 0x0 size 0xffffffffffffffff virtual true final false
- void SetCursorStartDest(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 dest, ::UnityEngine::Vector3 normal) ;
+ void SetCursorStartDest(UnityEngine::Vector3 start, UnityEngine::Vector3 dest, UnityEngine::Vector3 normal) ;
 
 // Ctor Parameters []
 explicit OVRCursor() ;
@@ -70,6 +69,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OVRCursor);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRCursor, "", "OVRCursor");
+NEED_NO_BOX(GlobalNamespace::OVRCursor);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRCursor, "", "OVRCursor");

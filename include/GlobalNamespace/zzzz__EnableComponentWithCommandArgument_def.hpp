@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace UnityEngine {
 class Behaviour;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13791))
 // CS Name: EnableComponentWithCommandArgument
-class CORDL_TYPE EnableComponentWithCommandArgument : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE EnableComponentWithCommandArgument : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr EnableComponentWithCommandArgument(EnableComponentWithCommandArgument 
 constexpr EnableComponentWithCommandArgument(EnableComponentWithCommandArgument&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EnableComponentWithCommandArgument(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit EnableComponentWithCommandArgument(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -58,11 +57,11 @@ constexpr void __set__argument(::StringW value) ;
 
 constexpr ::StringW __get__argument() const;
 
- ::UnityEngine::Behaviour __declspec(property(get=__get__component, put=__set__component))  _component;
+ UnityEngine::Behaviour __declspec(property(get=__get__component, put=__set__component))  _component;
 
-constexpr void __set__component(::UnityEngine::Behaviour value) ;
+constexpr void __set__component(UnityEngine::Behaviour value) ;
 
-constexpr ::UnityEngine::Behaviour __get__component() const;
+constexpr UnityEngine::Behaviour __get__component() const;
 
 
 // Methods
@@ -80,6 +79,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::EnableComponentWithCommandArgument);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EnableComponentWithCommandArgument, "", "EnableComponentWithCommandArgument");
+NEED_NO_BOX(GlobalNamespace::EnableComponentWithCommandArgument);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnableComponentWithCommandArgument, "", "EnableComponentWithCommandArgument");

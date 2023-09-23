@@ -2,9 +2,12 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonContainerContract_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Reflection {
 class ConstructorInfo;
+}
+namespace System {
+template<typename TResult>
+class Func_1;
 }
 namespace System {
 class Type;
@@ -14,10 +17,6 @@ class IList;
 }
 namespace Newtonsoft::Json::Utilities {
 class IWrappedCollection;
-}
-namespace System {
-template<typename TResult>
-class Func_1;
 }
 namespace Newtonsoft::Json::Serialization {
 template<typename T>
@@ -33,7 +32,7 @@ namespace Newtonsoft::Json::Serialization {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11849))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11877))
 // CS Name: Newtonsoft.Json.Serialization.JsonArrayContract
-class CORDL_TYPE JsonArrayContract : public ::Newtonsoft::Json::Serialization::JsonContainerContract {
+class CORDL_TYPE JsonArrayContract : public Newtonsoft::Json::Serialization::JsonContainerContract {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -48,7 +47,7 @@ constexpr JsonArrayContract(JsonArrayContract const& ) noexcept = default;
 constexpr JsonArrayContract(JsonArrayContract&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit JsonArrayContract(void* ptr) noexcept : ::Newtonsoft::Json::Serialization::JsonContainerContract(ptr) {
+constexpr explicit JsonArrayContract(void* ptr) noexcept : Newtonsoft::Json::Serialization::JsonContainerContract(ptr) {
 }
 
 
@@ -69,11 +68,11 @@ constexpr explicit JsonArrayContract(void* ptr) noexcept : ::Newtonsoft::Json::S
 
 // Fields
 
- ::System::Type __declspec(property(get=__get__CollectionItemType_k__BackingField, put=__set__CollectionItemType_k__BackingField))  _CollectionItemType_k__BackingField;
+ System::Type __declspec(property(get=__get__CollectionItemType_k__BackingField, put=__set__CollectionItemType_k__BackingField))  _CollectionItemType_k__BackingField;
 
-constexpr void __set__CollectionItemType_k__BackingField(::System::Type value) ;
+constexpr void __set__CollectionItemType_k__BackingField(System::Type value) ;
 
-constexpr ::System::Type __get__CollectionItemType_k__BackingField() const;
+constexpr System::Type __get__CollectionItemType_k__BackingField() const;
 
  bool __declspec(property(get=__get__IsMultidimensionalArray_k__BackingField, put=__set__IsMultidimensionalArray_k__BackingField))  _IsMultidimensionalArray_k__BackingField;
 
@@ -81,29 +80,29 @@ constexpr void __set__IsMultidimensionalArray_k__BackingField(bool value) ;
 
 constexpr bool __get__IsMultidimensionalArray_k__BackingField() const;
 
- ::System::Type __declspec(property(get=__get__genericCollectionDefinitionType, put=__set__genericCollectionDefinitionType))  _genericCollectionDefinitionType;
+ System::Type __declspec(property(get=__get__genericCollectionDefinitionType, put=__set__genericCollectionDefinitionType))  _genericCollectionDefinitionType;
 
-constexpr void __set__genericCollectionDefinitionType(::System::Type value) ;
+constexpr void __set__genericCollectionDefinitionType(System::Type value) ;
 
-constexpr ::System::Type __get__genericCollectionDefinitionType() const;
+constexpr System::Type __get__genericCollectionDefinitionType() const;
 
- ::System::Type __declspec(property(get=__get__genericWrapperType, put=__set__genericWrapperType))  _genericWrapperType;
+ System::Type __declspec(property(get=__get__genericWrapperType, put=__set__genericWrapperType))  _genericWrapperType;
 
-constexpr void __set__genericWrapperType(::System::Type value) ;
+constexpr void __set__genericWrapperType(System::Type value) ;
 
-constexpr ::System::Type __get__genericWrapperType() const;
+constexpr System::Type __get__genericWrapperType() const;
 
- ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get__genericWrapperCreator, put=__set__genericWrapperCreator))  _genericWrapperCreator;
+ Newtonsoft::Json::Serialization::ObjectConstructor_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get__genericWrapperCreator, put=__set__genericWrapperCreator))  _genericWrapperCreator;
 
-constexpr void __set__genericWrapperCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::bs_hook::Il2CppWrapperType> value) ;
+constexpr void __set__genericWrapperCreator(Newtonsoft::Json::Serialization::ObjectConstructor_1<::bs_hook::Il2CppWrapperType> value) ;
 
-constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::bs_hook::Il2CppWrapperType> __get__genericWrapperCreator() const;
+constexpr Newtonsoft::Json::Serialization::ObjectConstructor_1<::bs_hook::Il2CppWrapperType> __get__genericWrapperCreator() const;
 
- ::System::Func_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get__genericTemporaryCollectionCreator, put=__set__genericTemporaryCollectionCreator))  _genericTemporaryCollectionCreator;
+ System::Func_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get__genericTemporaryCollectionCreator, put=__set__genericTemporaryCollectionCreator))  _genericTemporaryCollectionCreator;
 
-constexpr void __set__genericTemporaryCollectionCreator(::System::Func_1<::bs_hook::Il2CppWrapperType> value) ;
+constexpr void __set__genericTemporaryCollectionCreator(System::Func_1<::bs_hook::Il2CppWrapperType> value) ;
 
-constexpr ::System::Func_1<::bs_hook::Il2CppWrapperType> __get__genericTemporaryCollectionCreator() const;
+constexpr System::Func_1<::bs_hook::Il2CppWrapperType> __get__genericTemporaryCollectionCreator() const;
 
  bool __declspec(property(get=__get__IsArray_k__BackingField, put=__set__IsArray_k__BackingField))  _IsArray_k__BackingField;
 
@@ -123,23 +122,23 @@ constexpr void __set__CanDeserialize_k__BackingField(bool value) ;
 
 constexpr bool __get__CanDeserialize_k__BackingField() const;
 
- ::System::Reflection::ConstructorInfo __declspec(property(get=__get__parameterizedConstructor, put=__set__parameterizedConstructor))  _parameterizedConstructor;
+ System::Reflection::ConstructorInfo __declspec(property(get=__get__parameterizedConstructor, put=__set__parameterizedConstructor))  _parameterizedConstructor;
 
-constexpr void __set__parameterizedConstructor(::System::Reflection::ConstructorInfo value) ;
+constexpr void __set__parameterizedConstructor(System::Reflection::ConstructorInfo value) ;
 
-constexpr ::System::Reflection::ConstructorInfo __get__parameterizedConstructor() const;
+constexpr System::Reflection::ConstructorInfo __get__parameterizedConstructor() const;
 
- ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get__parameterizedCreator, put=__set__parameterizedCreator))  _parameterizedCreator;
+ Newtonsoft::Json::Serialization::ObjectConstructor_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get__parameterizedCreator, put=__set__parameterizedCreator))  _parameterizedCreator;
 
-constexpr void __set__parameterizedCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::bs_hook::Il2CppWrapperType> value) ;
+constexpr void __set__parameterizedCreator(Newtonsoft::Json::Serialization::ObjectConstructor_1<::bs_hook::Il2CppWrapperType> value) ;
 
-constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::bs_hook::Il2CppWrapperType> __get__parameterizedCreator() const;
+constexpr Newtonsoft::Json::Serialization::ObjectConstructor_1<::bs_hook::Il2CppWrapperType> __get__parameterizedCreator() const;
 
- ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get__overrideCreator, put=__set__overrideCreator))  _overrideCreator;
+ Newtonsoft::Json::Serialization::ObjectConstructor_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get__overrideCreator, put=__set__overrideCreator))  _overrideCreator;
 
-constexpr void __set__overrideCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::bs_hook::Il2CppWrapperType> value) ;
+constexpr void __set__overrideCreator(Newtonsoft::Json::Serialization::ObjectConstructor_1<::bs_hook::Il2CppWrapperType> value) ;
 
-constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::bs_hook::Il2CppWrapperType> __get__overrideCreator() const;
+constexpr Newtonsoft::Json::Serialization::ObjectConstructor_1<::bs_hook::Il2CppWrapperType> __get__overrideCreator() const;
 
  bool __declspec(property(get=__get__HasParameterizedCreator_k__BackingField, put=__set__HasParameterizedCreator_k__BackingField))  _HasParameterizedCreator_k__BackingField;
 
@@ -150,7 +149,7 @@ constexpr bool __get__HasParameterizedCreator_k__BackingField() const;
 
 // Properties
 
- ::System::Type __declspec(property(get=get_CollectionItemType, put=set_CollectionItemType))  CollectionItemType;
+ System::Type __declspec(property(get=get_CollectionItemType, put=set_CollectionItemType))  CollectionItemType;
 
  bool __declspec(property(get=get_IsMultidimensionalArray, put=set_IsMultidimensionalArray))  IsMultidimensionalArray;
 
@@ -160,9 +159,9 @@ constexpr bool __get__HasParameterizedCreator_k__BackingField() const;
 
  bool __declspec(property(get=get_CanDeserialize, put=set_CanDeserialize))  CanDeserialize;
 
- ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=get_ParameterizedCreator))  ParameterizedCreator;
+ Newtonsoft::Json::Serialization::ObjectConstructor_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=get_ParameterizedCreator))  ParameterizedCreator;
 
- ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=get_OverrideCreator, put=set_OverrideCreator))  OverrideCreator;
+ Newtonsoft::Json::Serialization::ObjectConstructor_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=get_OverrideCreator, put=set_OverrideCreator))  OverrideCreator;
 
  bool __declspec(property(get=get_HasParameterizedCreator, put=set_HasParameterizedCreator))  HasParameterizedCreator;
 
@@ -172,10 +171,10 @@ constexpr bool __get__HasParameterizedCreator_k__BackingField() const;
 // Methods
 
 /// @brief Method get_CollectionItemType addr 0x24ff914 size 0x8 virtual false final false
- ::System::Type get_CollectionItemType() ;
+ System::Type get_CollectionItemType() ;
 
 /// @brief Method set_CollectionItemType addr 0x24ff91c size 0x8 virtual false final false
- void set_CollectionItemType(::System::Type value) ;
+ void set_CollectionItemType(System::Type value) ;
 
 /// @brief Method get_IsMultidimensionalArray addr 0x24ff924 size 0x8 virtual false final false
  bool get_IsMultidimensionalArray() ;
@@ -202,13 +201,13 @@ constexpr bool __get__HasParameterizedCreator_k__BackingField() const;
  void set_CanDeserialize(bool value) ;
 
 /// @brief Method get_ParameterizedCreator addr 0x24ff974 size 0x7c virtual false final false
- ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::bs_hook::Il2CppWrapperType> get_ParameterizedCreator() ;
+ Newtonsoft::Json::Serialization::ObjectConstructor_1<::bs_hook::Il2CppWrapperType> get_ParameterizedCreator() ;
 
 /// @brief Method get_OverrideCreator addr 0x24ff9f0 size 0x8 virtual false final false
- ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::bs_hook::Il2CppWrapperType> get_OverrideCreator() ;
+ Newtonsoft::Json::Serialization::ObjectConstructor_1<::bs_hook::Il2CppWrapperType> get_OverrideCreator() ;
 
 /// @brief Method set_OverrideCreator addr 0x24fce28 size 0x10 virtual false final false
- void set_OverrideCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::bs_hook::Il2CppWrapperType> value) ;
+ void set_OverrideCreator(Newtonsoft::Json::Serialization::ObjectConstructor_1<::bs_hook::Il2CppWrapperType> value) ;
 
 /// @brief Method get_HasParameterizedCreator addr 0x24ff9f8 size 0x8 virtual false final false
  bool get_HasParameterizedCreator() ;
@@ -219,22 +218,21 @@ constexpr bool __get__HasParameterizedCreator_k__BackingField() const;
 /// @brief Method get_HasParameterizedCreatorInternal addr 0x24ffa0c size 0x28 virtual false final false
  bool get_HasParameterizedCreatorInternal() ;
 
-// Ctor Parameters [CppParam { name: "underlyingType", ty: "::System::Type", modifiers: "", def_value: None }]
-explicit JsonArrayContract(::System::Type underlyingType) ;
+// Ctor Parameters [CppParam { name: "underlyingType", ty: "System::Type", modifiers: "", def_value: None }]
+explicit JsonArrayContract(System::Type underlyingType) ;
 
 /// @brief Method .ctor addr 0x24fc590 size 0x898 virtual false final false
- void _ctor(::System::Type underlyingType) ;
+ void _ctor(System::Type underlyingType) ;
 
 /// @brief Method CreateWrapper addr 0x24ffa90 size 0x3c0 virtual false final false
- ::Newtonsoft::Json::Utilities::IWrappedCollection CreateWrapper(::bs_hook::Il2CppWrapperType list) ;
+ Newtonsoft::Json::Utilities::IWrappedCollection CreateWrapper(::bs_hook::Il2CppWrapperType list) ;
 
 /// @brief Method CreateTemporaryCollection addr 0x24ffe50 size 0x22c virtual false final false
- ::System::Collections::IList CreateTemporaryCollection() ;
+ System::Collections::IList CreateTemporaryCollection() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Serialization
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Serialization::JsonArrayContract);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::JsonArrayContract, "Newtonsoft.Json.Serialization", "JsonArrayContract");
+NEED_NO_BOX(Newtonsoft::Json::Serialization::JsonArrayContract);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Serialization::JsonArrayContract, "Newtonsoft.Json.Serialization", "JsonArrayContract");

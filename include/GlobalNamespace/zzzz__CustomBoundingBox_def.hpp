@@ -1,15 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace UnityEngine {
 class MeshFilter;
 }
 namespace UnityEngine {
-struct Vector3;
+class MeshRenderer;
 }
 namespace UnityEngine {
-class MeshRenderer;
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13787))
 // CS Name: CustomBoundingBox
-class CORDL_TYPE CustomBoundingBox : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE CustomBoundingBox : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr CustomBoundingBox(CustomBoundingBox const& ) noexcept = default;
 constexpr CustomBoundingBox(CustomBoundingBox&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CustomBoundingBox(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit CustomBoundingBox(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -57,29 +56,29 @@ constexpr explicit CustomBoundingBox(void* ptr) noexcept : ::UnityEngine::MonoBe
 
 // Fields
 
- ::UnityEngine::MeshFilter __declspec(property(get=__get__meshFilter, put=__set__meshFilter))  _meshFilter;
+ UnityEngine::MeshFilter __declspec(property(get=__get__meshFilter, put=__set__meshFilter))  _meshFilter;
 
-constexpr void __set__meshFilter(::UnityEngine::MeshFilter value) ;
+constexpr void __set__meshFilter(UnityEngine::MeshFilter value) ;
 
-constexpr ::UnityEngine::MeshFilter __get__meshFilter() const;
+constexpr UnityEngine::MeshFilter __get__meshFilter() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__boundingBoxCenter, put=__set__boundingBoxCenter))  _boundingBoxCenter;
+ UnityEngine::Vector3 __declspec(property(get=__get__boundingBoxCenter, put=__set__boundingBoxCenter))  _boundingBoxCenter;
 
-constexpr void __set__boundingBoxCenter(::UnityEngine::Vector3 value) ;
+constexpr void __set__boundingBoxCenter(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__boundingBoxCenter() const;
+constexpr UnityEngine::Vector3 __get__boundingBoxCenter() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__boundingBoxSize, put=__set__boundingBoxSize))  _boundingBoxSize;
+ UnityEngine::Vector3 __declspec(property(get=__get__boundingBoxSize, put=__set__boundingBoxSize))  _boundingBoxSize;
 
-constexpr void __set__boundingBoxSize(::UnityEngine::Vector3 value) ;
+constexpr void __set__boundingBoxSize(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__boundingBoxSize() const;
+constexpr UnityEngine::Vector3 __get__boundingBoxSize() const;
 
- ::UnityEngine::MeshRenderer __declspec(property(get=__get__meshRenderer, put=__set__meshRenderer))  _meshRenderer;
+ UnityEngine::MeshRenderer __declspec(property(get=__get__meshRenderer, put=__set__meshRenderer))  _meshRenderer;
 
-constexpr void __set__meshRenderer(::UnityEngine::MeshRenderer value) ;
+constexpr void __set__meshRenderer(UnityEngine::MeshRenderer value) ;
 
-constexpr ::UnityEngine::MeshRenderer __get__meshRenderer() const;
+constexpr UnityEngine::MeshRenderer __get__meshRenderer() const;
 
 
 // Methods
@@ -97,6 +96,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::CustomBoundingBox);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CustomBoundingBox, "", "CustomBoundingBox");
+NEED_NO_BOX(GlobalNamespace::CustomBoundingBox);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomBoundingBox, "", "CustomBoundingBox");

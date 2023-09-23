@@ -1,11 +1,10 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
-namespace {
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherBuilder;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto {
@@ -20,8 +19,8 @@ namespace Org::BouncyCastle::Crypto {
 class CORDL_TYPE ICipherBuilderWithKey : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::ICipherBuilder
-constexpr operator  ::Org::BouncyCastle::Crypto::ICipherBuilder() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::ICipherBuilder
+constexpr operator  Org::BouncyCastle::Crypto::ICipherBuilder() const noexcept;
 
 ~ICipherBuilderWithKey() = default;
 
@@ -32,18 +31,17 @@ constexpr explicit ICipherBuilderWithKey(void* ptr) noexcept : ::cordl_internals
 
 // Properties
 
- ::Org::BouncyCastle::Crypto::ICipherParameters __declspec(property(get=get_Key))  Key;
+ Org::BouncyCastle::Crypto::ICipherParameters __declspec(property(get=get_Key))  Key;
 
 
 // Methods
 
 /// @brief Method get_Key addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Crypto::ICipherParameters get_Key() ;
+ Org::BouncyCastle::Crypto::ICipherParameters get_Key() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::ICipherBuilderWithKey);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::ICipherBuilderWithKey, "Org.BouncyCastle.Crypto", "ICipherBuilderWithKey");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::ICipherBuilderWithKey);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::ICipherBuilderWithKey, "Org.BouncyCastle.Crypto", "ICipherBuilderWithKey");

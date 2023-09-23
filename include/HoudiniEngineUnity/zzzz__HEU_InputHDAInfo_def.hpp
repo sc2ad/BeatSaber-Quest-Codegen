@@ -2,13 +2,12 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class GameObject;
-}
 namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivable_1;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -23,8 +22,8 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE HEU_InputHDAInfo : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputHDAInfo>
-constexpr operator  ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputHDAInfo>() const noexcept;
+/// @brief Convert operator to HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InputHDAInfo>
+constexpr operator  HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InputHDAInfo>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -59,17 +58,17 @@ constexpr explicit HEU_InputHDAInfo(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
- ::UnityEngine::GameObject __declspec(property(get=__get__pendingGO, put=__set__pendingGO))  _pendingGO;
+ UnityEngine::GameObject __declspec(property(get=__get__pendingGO, put=__set__pendingGO))  _pendingGO;
 
-constexpr void __set__pendingGO(::UnityEngine::GameObject value) ;
+constexpr void __set__pendingGO(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__pendingGO() const;
+constexpr UnityEngine::GameObject __get__pendingGO() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get__connectedGO, put=__set__connectedGO))  _connectedGO;
+ UnityEngine::GameObject __declspec(property(get=__get__connectedGO, put=__set__connectedGO))  _connectedGO;
 
-constexpr void __set__connectedGO(::UnityEngine::GameObject value) ;
+constexpr void __set__connectedGO(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__connectedGO() const;
+constexpr UnityEngine::GameObject __get__connectedGO() const;
 
  int32_t __declspec(property(get=__get__connectedInputNodeID, put=__set__connectedInputNodeID))  _connectedInputNodeID;
 
@@ -81,10 +80,10 @@ constexpr int32_t __get__connectedInputNodeID() const;
 // Methods
 
 /// @brief Method CopyTo addr 0x1ffd310 size 0x24 virtual false final false
- void CopyTo(::HoudiniEngineUnity::HEU_InputHDAInfo destInfo) ;
+ void CopyTo(HoudiniEngineUnity::HEU_InputHDAInfo destInfo) ;
 
 /// @brief Method IsEquivalentTo addr 0x1ffe9e8 size 0x130 virtual true final true
- bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InputHDAInfo other) ;
+ bool IsEquivalentTo(HoudiniEngineUnity::HEU_InputHDAInfo other) ;
 
 // Ctor Parameters []
 explicit HEU_InputHDAInfo() ;
@@ -96,6 +95,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_InputHDAInfo);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_InputHDAInfo, "HoudiniEngineUnity", "HEU_InputHDAInfo");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_InputHDAInfo);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputHDAInfo, "HoudiniEngineUnity", "HEU_InputHDAInfo");

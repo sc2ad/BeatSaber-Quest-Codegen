@@ -7,34 +7,33 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
-class Transform;
+struct Vector3;
 }
-namespace UnityEngine {
-class RectTransform;
+namespace TMPro {
+class TMP_Text;
 }
-namespace UnityEngine {
-class Camera;
+namespace TMPro {
+struct CaretPosition;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
-struct Vector3;
+class RectTransform;
 }
-namespace TMPro {
-struct CaretPosition;
+namespace UnityEngine {
+class Transform;
 }
-namespace TMPro {
-class TMP_Text;
+namespace UnityEngine {
+class Camera;
 }
 // Forward declare root types
 namespace TMPro {
 class TMP_TextUtilities;
 }
 namespace TMPro {
-struct ____TMPro__TMP_TextUtilities__LineSegment;
+struct TMPro__TMP_TextUtilities__LineSegment;
 }
 // Type: ::LineSegment
 namespace TMPro {
@@ -42,20 +41,20 @@ namespace TMPro {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12398))
 // CS Name: TMPro.TMP_TextUtilities::LineSegment
-struct CORDL_TYPE ____TMPro__TMP_TextUtilities__LineSegment : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE TMPro__TMP_TextUtilities__LineSegment : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "Point1", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "Point2", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
-constexpr ____TMPro__TMP_TextUtilities__LineSegment(::UnityEngine::Vector3 Point1, ::UnityEngine::Vector3 Point2) noexcept;
+// Ctor Parameters [CppParam { name: "Point1", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "Point2", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }]
+constexpr TMPro__TMP_TextUtilities__LineSegment(UnityEngine::Vector3 Point1, UnityEngine::Vector3 Point2) noexcept;
 
 
-                    constexpr ____TMPro__TMP_TextUtilities__LineSegment(____TMPro__TMP_TextUtilities__LineSegment const&) = default;
-                    constexpr ____TMPro__TMP_TextUtilities__LineSegment(____TMPro__TMP_TextUtilities__LineSegment&&) = default;
-                    constexpr ____TMPro__TMP_TextUtilities__LineSegment& operator=(____TMPro__TMP_TextUtilities__LineSegment const& o) {
+                    constexpr TMPro__TMP_TextUtilities__LineSegment(TMPro__TMP_TextUtilities__LineSegment const&) = default;
+                    constexpr TMPro__TMP_TextUtilities__LineSegment(TMPro__TMP_TextUtilities__LineSegment&&) = default;
+                    constexpr TMPro__TMP_TextUtilities__LineSegment& operator=(TMPro__TMP_TextUtilities__LineSegment const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____TMPro__TMP_TextUtilities__LineSegment& operator=(____TMPro__TMP_TextUtilities__LineSegment&& o) noexcept {
+                    constexpr TMPro__TMP_TextUtilities__LineSegment& operator=(TMPro__TMP_TextUtilities__LineSegment&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -68,7 +67,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x18};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____TMPro__TMP_TextUtilities__LineSegment(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit TMPro__TMP_TextUtilities__LineSegment(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -79,23 +78,23 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_Point1, put=__set_Point1))  Point1;
+ UnityEngine::Vector3 __declspec(property(get=__get_Point1, put=__set_Point1))  Point1;
 
-constexpr void __set_Point1(::UnityEngine::Vector3 value) ;
+constexpr void __set_Point1(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_Point1() const;
+constexpr UnityEngine::Vector3 __get_Point1() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_Point2, put=__set_Point2))  Point2;
+ UnityEngine::Vector3 __declspec(property(get=__get_Point2, put=__set_Point2))  Point2;
 
-constexpr void __set_Point2(::UnityEngine::Vector3 value) ;
+constexpr void __set_Point2(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_Point2() const;
+constexpr UnityEngine::Vector3 __get_Point2() const;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x2ab4494 size 0x10 virtual false final false
- void _ctor(::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2) ;
+ void _ctor(UnityEngine::Vector3 p1, UnityEngine::Vector3 p2) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -110,7 +109,7 @@ namespace TMPro {
 class CORDL_TYPE TMP_TextUtilities : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using LineSegment = ::TMPro::____TMPro__TMP_TextUtilities__LineSegment;
+using LineSegment = TMPro::TMPro__TMP_TextUtilities__LineSegment;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -145,11 +144,11 @@ constexpr explicit TMP_TextUtilities(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 
 // Fields
 
-static ::ArrayW<::UnityEngine::Vector3> __declspec(property(get=__get_m_rectWorldCorners, put=__set_m_rectWorldCorners))  m_rectWorldCorners;
+static ::ArrayW<UnityEngine::Vector3> __declspec(property(get=__get_m_rectWorldCorners, put=__set_m_rectWorldCorners))  m_rectWorldCorners;
 
-static void __set_m_rectWorldCorners(::ArrayW<::UnityEngine::Vector3> value) ;
+static void __set_m_rectWorldCorners(::ArrayW<UnityEngine::Vector3> value) ;
 
-static ::ArrayW<::UnityEngine::Vector3> __get_m_rectWorldCorners() ;
+static ::ArrayW<UnityEngine::Vector3> __get_m_rectWorldCorners() ;
 
 /// @brief Field k_lookupStringL offset 0
 static constexpr ::ConstString  k_lookupStringL{u"-------------------------------- !-#$%&-()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[-]^_`abcdefghijklmnopqrstuvwxyz{|}~-"};
@@ -161,52 +160,52 @@ static constexpr ::ConstString  k_lookupStringU{u"------------------------------
 // Methods
 
 /// @brief Method GetCursorIndexFromPosition addr 0x2ab170c size 0x164 virtual false final false
-static int32_t GetCursorIndexFromPosition(::TMPro::TMP_Text textComponent, ::UnityEngine::Vector3 position, ::UnityEngine::Camera camera) ;
+static int32_t GetCursorIndexFromPosition(TMPro::TMP_Text textComponent, UnityEngine::Vector3 position, UnityEngine::Camera camera) ;
 
 /// @brief Method GetCursorIndexFromPosition addr 0x2ab1da8 size 0x1e0 virtual false final false
-static int32_t GetCursorIndexFromPosition(::TMPro::TMP_Text textComponent, ::UnityEngine::Vector3 position, ::UnityEngine::Camera camera, ByRef<::TMPro::CaretPosition> cursor) ;
+static int32_t GetCursorIndexFromPosition(TMPro::TMP_Text textComponent, UnityEngine::Vector3 position, UnityEngine::Camera camera, ByRef<TMPro::CaretPosition> cursor) ;
 
 /// @brief Method FindNearestLine addr 0x2ab1f88 size 0x180 virtual false final false
-static int32_t FindNearestLine(::TMPro::TMP_Text text, ::UnityEngine::Vector3 position, ::UnityEngine::Camera camera) ;
+static int32_t FindNearestLine(TMPro::TMP_Text text, UnityEngine::Vector3 position, UnityEngine::Camera camera) ;
 
 /// @brief Method FindNearestCharacterOnLine addr 0x2ab2108 size 0x378 virtual false final false
-static int32_t FindNearestCharacterOnLine(::TMPro::TMP_Text text, ::UnityEngine::Vector3 position, int32_t line, ::UnityEngine::Camera camera, bool visibleOnly) ;
+static int32_t FindNearestCharacterOnLine(TMPro::TMP_Text text, UnityEngine::Vector3 position, int32_t line, UnityEngine::Camera camera, bool visibleOnly) ;
 
 /// @brief Method IsIntersectingRectTransform addr 0x2ab2608 size 0x11c virtual false final false
-static bool IsIntersectingRectTransform(::UnityEngine::RectTransform rectTransform, ::UnityEngine::Vector3 position, ::UnityEngine::Camera camera) ;
+static bool IsIntersectingRectTransform(UnityEngine::RectTransform rectTransform, UnityEngine::Vector3 position, UnityEngine::Camera camera) ;
 
 /// @brief Method FindIntersectingCharacter addr 0x2ab2724 size 0x20c virtual false final false
-static int32_t FindIntersectingCharacter(::TMPro::TMP_Text text, ::UnityEngine::Vector3 position, ::UnityEngine::Camera camera, bool visibleOnly) ;
+static int32_t FindIntersectingCharacter(TMPro::TMP_Text text, UnityEngine::Vector3 position, UnityEngine::Camera camera, bool visibleOnly) ;
 
 /// @brief Method FindNearestCharacter addr 0x2ab1870 size 0x33c virtual false final false
-static int32_t FindNearestCharacter(::TMPro::TMP_Text text, ::UnityEngine::Vector3 position, ::UnityEngine::Camera camera, bool visibleOnly) ;
+static int32_t FindNearestCharacter(TMPro::TMP_Text text, UnityEngine::Vector3 position, UnityEngine::Camera camera, bool visibleOnly) ;
 
 /// @brief Method FindIntersectingWord addr 0x2ab2930 size 0x414 virtual false final false
-static int32_t FindIntersectingWord(::TMPro::TMP_Text text, ::UnityEngine::Vector3 position, ::UnityEngine::Camera camera) ;
+static int32_t FindIntersectingWord(TMPro::TMP_Text text, UnityEngine::Vector3 position, UnityEngine::Camera camera) ;
 
 /// @brief Method FindNearestWord addr 0x2ab2d44 size 0x5c8 virtual false final false
-static int32_t FindNearestWord(::TMPro::TMP_Text text, ::UnityEngine::Vector3 position, ::UnityEngine::Camera camera) ;
+static int32_t FindNearestWord(TMPro::TMP_Text text, UnityEngine::Vector3 position, UnityEngine::Camera camera) ;
 
 /// @brief Method FindIntersectingLine addr 0x2ab330c size 0x158 virtual false final false
-static int32_t FindIntersectingLine(::TMPro::TMP_Text text, ::UnityEngine::Vector3 position, ::UnityEngine::Camera camera) ;
+static int32_t FindIntersectingLine(TMPro::TMP_Text text, UnityEngine::Vector3 position, UnityEngine::Camera camera) ;
 
 /// @brief Method FindIntersectingLink addr 0x2ab3464 size 0x33c virtual false final false
-static int32_t FindIntersectingLink(::TMPro::TMP_Text text, ::UnityEngine::Vector3 position, ::UnityEngine::Camera camera) ;
+static int32_t FindIntersectingLink(TMPro::TMP_Text text, UnityEngine::Vector3 position, UnityEngine::Camera camera) ;
 
 /// @brief Method FindNearestLink addr 0x2ab37a0 size 0x71c virtual false final false
-static int32_t FindNearestLink(::TMPro::TMP_Text text, ::UnityEngine::Vector3 position, ::UnityEngine::Camera camera) ;
+static int32_t FindNearestLink(TMPro::TMP_Text text, UnityEngine::Vector3 position, UnityEngine::Camera camera) ;
 
 /// @brief Method PointIntersectRectangle addr 0x2ab2480 size 0xc0 virtual false final false
-static bool PointIntersectRectangle(::UnityEngine::Vector3 m, ::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::UnityEngine::Vector3 c, ::UnityEngine::Vector3 d) ;
+static bool PointIntersectRectangle(UnityEngine::Vector3 m, UnityEngine::Vector3 a, UnityEngine::Vector3 b, UnityEngine::Vector3 c, UnityEngine::Vector3 d) ;
 
 /// @brief Method ScreenPointToWorldPointInRectangle addr 0x2ab1bac size 0x1fc virtual false final false
-static bool ScreenPointToWorldPointInRectangle(::UnityEngine::Transform transform, ::UnityEngine::Vector2 screenPoint, ::UnityEngine::Camera cam, ByRef<::UnityEngine::Vector3> worldPoint) ;
+static bool ScreenPointToWorldPointInRectangle(UnityEngine::Transform transform, UnityEngine::Vector2 screenPoint, UnityEngine::Camera cam, ByRef<UnityEngine::Vector3> worldPoint) ;
 
 /// @brief Method IntersectLinePlane addr 0x2ab3ebc size 0x16c virtual false final false
-static bool IntersectLinePlane(::TMPro::____TMPro__TMP_TextUtilities__LineSegment line, ::UnityEngine::Vector3 point, ::UnityEngine::Vector3 normal, ByRef<::UnityEngine::Vector3> intersectingPoint) ;
+static bool IntersectLinePlane(TMPro::TMPro__TMP_TextUtilities__LineSegment line, UnityEngine::Vector3 point, UnityEngine::Vector3 normal, ByRef<UnityEngine::Vector3> intersectingPoint) ;
 
 /// @brief Method DistanceToLine addr 0x2ab2540 size 0xc8 virtual false final false
-static float_t DistanceToLine(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::UnityEngine::Vector3 point) ;
+static float_t DistanceToLine(UnityEngine::Vector3 a, UnityEngine::Vector3 b, UnityEngine::Vector3 point) ;
 
 /// @brief Method ToLowerFast addr 0x2ab4028 size 0x74 virtual false final false
 static char16_t ToLowerFast(char16_t c) ;
@@ -236,7 +235,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-NEED_NO_BOX(::TMPro::TMP_TextUtilities);
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_TextUtilities, "TMPro", "TMP_TextUtilities");
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::____TMPro__TMP_TextUtilities__LineSegment, "TMPro", "TMP_TextUtilities/LineSegment");
+NEED_NO_BOX(TMPro::TMP_TextUtilities);
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextUtilities, "TMPro", "TMP_TextUtilities");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMPro__TMP_TextUtilities__LineSegment, "TMPro", "TMP_TextUtilities/LineSegment");

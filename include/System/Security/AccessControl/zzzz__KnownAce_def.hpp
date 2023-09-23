@@ -3,15 +3,14 @@
 #include "System/Security/AccessControl/zzzz__GenericAce_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
+namespace System::Security::AccessControl {
+struct AceType;
+}
 namespace System::Security::Principal {
 class SecurityIdentifier;
 }
 namespace System::Security::AccessControl {
 struct AceFlags;
-}
-namespace System::Security::AccessControl {
-struct AceType;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {
@@ -23,7 +22,7 @@ namespace System::Security::AccessControl {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3031))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3035))
 // CS Name: System.Security.AccessControl.KnownAce
-class CORDL_TYPE KnownAce : public ::System::Security::AccessControl::GenericAce {
+class CORDL_TYPE KnownAce : public System::Security::AccessControl::GenericAce {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr KnownAce(KnownAce const& ) noexcept = default;
 constexpr KnownAce(KnownAce&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit KnownAce(void* ptr) noexcept : ::System::Security::AccessControl::GenericAce(ptr) {
+constexpr explicit KnownAce(void* ptr) noexcept : System::Security::AccessControl::GenericAce(ptr) {
 }
 
 
@@ -65,27 +64,27 @@ constexpr void __set_access_mask(int32_t value) ;
 
 constexpr int32_t __get_access_mask() const;
 
- ::System::Security::Principal::SecurityIdentifier __declspec(property(get=__get_identifier, put=__set_identifier))  identifier;
+ System::Security::Principal::SecurityIdentifier __declspec(property(get=__get_identifier, put=__set_identifier))  identifier;
 
-constexpr void __set_identifier(::System::Security::Principal::SecurityIdentifier value) ;
+constexpr void __set_identifier(System::Security::Principal::SecurityIdentifier value) ;
 
-constexpr ::System::Security::Principal::SecurityIdentifier __get_identifier() const;
+constexpr System::Security::Principal::SecurityIdentifier __get_identifier() const;
 
 
 // Properties
 
  int32_t __declspec(property(get=get_AccessMask, put=set_AccessMask))  AccessMask;
 
- ::System::Security::Principal::SecurityIdentifier __declspec(property(get=get_SecurityIdentifier, put=set_SecurityIdentifier))  SecurityIdentifier;
+ System::Security::Principal::SecurityIdentifier __declspec(property(get=get_SecurityIdentifier, put=set_SecurityIdentifier))  SecurityIdentifier;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "::System::Security::AccessControl::AceType", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "::System::Security::AccessControl::AceFlags", modifiers: "", def_value: None }]
-explicit KnownAce(::System::Security::AccessControl::AceType type, ::System::Security::AccessControl::AceFlags flags) ;
+// Ctor Parameters [CppParam { name: "type", ty: "System::Security::AccessControl::AceType", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "System::Security::AccessControl::AceFlags", modifiers: "", def_value: None }]
+explicit KnownAce(System::Security::AccessControl::AceType type, System::Security::AccessControl::AceFlags flags) ;
 
 /// @brief Method .ctor addr 0x2318c94 size 0x4 virtual false final false
- void _ctor(::System::Security::AccessControl::AceType type, ::System::Security::AccessControl::AceFlags flags) ;
+ void _ctor(System::Security::AccessControl::AceType type, System::Security::AccessControl::AceFlags flags) ;
 
 // Ctor Parameters [CppParam { name: "binaryForm", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }]
 explicit KnownAce(::ArrayW<uint8_t> binaryForm, int32_t offset) ;
@@ -100,15 +99,14 @@ explicit KnownAce(::ArrayW<uint8_t> binaryForm, int32_t offset) ;
  void set_AccessMask(int32_t value) ;
 
 /// @brief Method get_SecurityIdentifier addr 0x2318cac size 0x8 virtual false final false
- ::System::Security::Principal::SecurityIdentifier get_SecurityIdentifier() ;
+ System::Security::Principal::SecurityIdentifier get_SecurityIdentifier() ;
 
 /// @brief Method set_SecurityIdentifier addr 0x2318cb4 size 0x8 virtual false final false
- void set_SecurityIdentifier(::System::Security::Principal::SecurityIdentifier value) ;
+ void set_SecurityIdentifier(System::Security::Principal::SecurityIdentifier value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::AccessControl
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::AccessControl::KnownAce);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::AccessControl::KnownAce, "System.Security.AccessControl", "KnownAce");
+NEED_NO_BOX(System::Security::AccessControl::KnownAce);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::AccessControl::KnownAce, "System.Security.AccessControl", "KnownAce");

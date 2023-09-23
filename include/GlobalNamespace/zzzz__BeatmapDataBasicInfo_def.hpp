@@ -3,13 +3,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace GlobalNamespace {
+class IBeatmapDataBasicInfo;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
-}
-namespace GlobalNamespace {
-class IBeatmapDataBasicInfo;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,8 +23,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapDataBasicInfo : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IBeatmapDataBasicInfo
-constexpr operator  ::GlobalNamespace::IBeatmapDataBasicInfo() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IBeatmapDataBasicInfo
+constexpr operator  GlobalNamespace::IBeatmapDataBasicInfo() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -84,11 +83,11 @@ constexpr void __set__bombsCount_k__BackingField(int32_t value) ;
 
 constexpr int32_t __get__bombsCount_k__BackingField() const;
 
- ::System::Collections::Generic::IEnumerable_1<::StringW> __declspec(property(get=__get__specialBasicBeatmapEventKeywords_k__BackingField, put=__set__specialBasicBeatmapEventKeywords_k__BackingField))  _specialBasicBeatmapEventKeywords_k__BackingField;
+ System::Collections::Generic::IEnumerable_1<::StringW> __declspec(property(get=__get__specialBasicBeatmapEventKeywords_k__BackingField, put=__set__specialBasicBeatmapEventKeywords_k__BackingField))  _specialBasicBeatmapEventKeywords_k__BackingField;
 
-constexpr void __set__specialBasicBeatmapEventKeywords_k__BackingField(::System::Collections::Generic::IEnumerable_1<::StringW> value) ;
+constexpr void __set__specialBasicBeatmapEventKeywords_k__BackingField(System::Collections::Generic::IEnumerable_1<::StringW> value) ;
 
-constexpr ::System::Collections::Generic::IEnumerable_1<::StringW> __get__specialBasicBeatmapEventKeywords_k__BackingField() const;
+constexpr System::Collections::Generic::IEnumerable_1<::StringW> __get__specialBasicBeatmapEventKeywords_k__BackingField() const;
 
 
 // Properties
@@ -101,7 +100,7 @@ constexpr ::System::Collections::Generic::IEnumerable_1<::StringW> __get__specia
 
  int32_t __declspec(property(get=get_bombsCount))  bombsCount;
 
- ::System::Collections::Generic::IEnumerable_1<::StringW> __declspec(property(get=get_specialBasicBeatmapEventKeywords))  specialBasicBeatmapEventKeywords;
+ System::Collections::Generic::IEnumerable_1<::StringW> __declspec(property(get=get_specialBasicBeatmapEventKeywords))  specialBasicBeatmapEventKeywords;
 
 
 // Methods
@@ -119,18 +118,17 @@ constexpr ::System::Collections::Generic::IEnumerable_1<::StringW> __get__specia
  int32_t get_bombsCount() ;
 
 /// @brief Method get_specialBasicBeatmapEventKeywords addr 0x21cabc4 size 0x8 virtual true final true
- ::System::Collections::Generic::IEnumerable_1<::StringW> get_specialBasicBeatmapEventKeywords() ;
+ System::Collections::Generic::IEnumerable_1<::StringW> get_specialBasicBeatmapEventKeywords() ;
 
-// Ctor Parameters [CppParam { name: "numberOfLines", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cuttableNotesCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "obstaclesCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "bombsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "specialBasicBeatmapEventKeywords", ty: "::System::Collections::Generic::IEnumerable_1<::StringW>", modifiers: "", def_value: None }]
-explicit BeatmapDataBasicInfo(int32_t numberOfLines, int32_t cuttableNotesCount, int32_t obstaclesCount, int32_t bombsCount, ::System::Collections::Generic::IEnumerable_1<::StringW> specialBasicBeatmapEventKeywords) ;
+// Ctor Parameters [CppParam { name: "numberOfLines", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cuttableNotesCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "obstaclesCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "bombsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "specialBasicBeatmapEventKeywords", ty: "System::Collections::Generic::IEnumerable_1<::StringW>", modifiers: "", def_value: None }]
+explicit BeatmapDataBasicInfo(int32_t numberOfLines, int32_t cuttableNotesCount, int32_t obstaclesCount, int32_t bombsCount, System::Collections::Generic::IEnumerable_1<::StringW> specialBasicBeatmapEventKeywords) ;
 
 /// @brief Method .ctor addr 0x21cabcc size 0x50 virtual false final false
- void _ctor(int32_t numberOfLines, int32_t cuttableNotesCount, int32_t obstaclesCount, int32_t bombsCount, ::System::Collections::Generic::IEnumerable_1<::StringW> specialBasicBeatmapEventKeywords) ;
+ void _ctor(int32_t numberOfLines, int32_t cuttableNotesCount, int32_t obstaclesCount, int32_t bombsCount, System::Collections::Generic::IEnumerable_1<::StringW> specialBasicBeatmapEventKeywords) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BeatmapDataBasicInfo);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapDataBasicInfo, "", "BeatmapDataBasicInfo");
+NEED_NO_BOX(GlobalNamespace::BeatmapDataBasicInfo);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataBasicInfo, "", "BeatmapDataBasicInfo");

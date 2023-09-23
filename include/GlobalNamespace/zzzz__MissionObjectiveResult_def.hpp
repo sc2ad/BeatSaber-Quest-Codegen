@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 class MissionObjective;
 }
@@ -52,11 +51,11 @@ constexpr explicit MissionObjectiveResult(void* ptr) noexcept : ::bs_hook::Il2Cp
 
 // Fields
 
- ::GlobalNamespace::MissionObjective __declspec(property(get=__get__missionObjective_k__BackingField, put=__set__missionObjective_k__BackingField))  _missionObjective_k__BackingField;
+ GlobalNamespace::MissionObjective __declspec(property(get=__get__missionObjective_k__BackingField, put=__set__missionObjective_k__BackingField))  _missionObjective_k__BackingField;
 
-constexpr void __set__missionObjective_k__BackingField(::GlobalNamespace::MissionObjective value) ;
+constexpr void __set__missionObjective_k__BackingField(GlobalNamespace::MissionObjective value) ;
 
-constexpr ::GlobalNamespace::MissionObjective __get__missionObjective_k__BackingField() const;
+constexpr GlobalNamespace::MissionObjective __get__missionObjective_k__BackingField() const;
 
  bool __declspec(property(get=__get__cleared_k__BackingField, put=__set__cleared_k__BackingField))  _cleared_k__BackingField;
 
@@ -73,7 +72,7 @@ constexpr int32_t __get__value_k__BackingField() const;
 
 // Properties
 
- ::GlobalNamespace::MissionObjective __declspec(property(get=get_missionObjective, put=set_missionObjective))  missionObjective;
+ GlobalNamespace::MissionObjective __declspec(property(get=get_missionObjective, put=set_missionObjective))  missionObjective;
 
  bool __declspec(property(get=get_cleared, put=set_cleared))  cleared;
 
@@ -83,10 +82,10 @@ constexpr int32_t __get__value_k__BackingField() const;
 // Methods
 
 /// @brief Method get_missionObjective addr 0x21f11d4 size 0x8 virtual false final false
- ::GlobalNamespace::MissionObjective get_missionObjective() ;
+ GlobalNamespace::MissionObjective get_missionObjective() ;
 
 /// @brief Method set_missionObjective addr 0x21f11dc size 0x8 virtual false final false
- void set_missionObjective(::GlobalNamespace::MissionObjective value) ;
+ void set_missionObjective(GlobalNamespace::MissionObjective value) ;
 
 /// @brief Method get_cleared addr 0x21f11e4 size 0x8 virtual false final false
  bool get_cleared() ;
@@ -100,16 +99,15 @@ constexpr int32_t __get__value_k__BackingField() const;
 /// @brief Method set_value addr 0x21f1200 size 0x8 virtual false final false
  void set_value(int32_t value) ;
 
-// Ctor Parameters [CppParam { name: "missionObjective", ty: "::GlobalNamespace::MissionObjective", modifiers: "", def_value: None }, CppParam { name: "cleared", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: None }]
-explicit MissionObjectiveResult(::GlobalNamespace::MissionObjective missionObjective, bool cleared, int32_t value) ;
+// Ctor Parameters [CppParam { name: "missionObjective", ty: "GlobalNamespace::MissionObjective", modifiers: "", def_value: None }, CppParam { name: "cleared", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: None }]
+explicit MissionObjectiveResult(GlobalNamespace::MissionObjective missionObjective, bool cleared, int32_t value) ;
 
 /// @brief Method .ctor addr 0x21f1208 size 0x44 virtual false final false
- void _ctor(::GlobalNamespace::MissionObjective missionObjective, bool cleared, int32_t value) ;
+ void _ctor(GlobalNamespace::MissionObjective missionObjective, bool cleared, int32_t value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MissionObjectiveResult);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionObjectiveResult, "", "MissionObjectiveResult");
+NEED_NO_BOX(GlobalNamespace::MissionObjectiveResult);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveResult, "", "MissionObjectiveResult");

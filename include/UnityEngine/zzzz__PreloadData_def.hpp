@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 class PreloadData;
@@ -12,7 +11,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10142))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10214))
 // CS Name: UnityEngine.PreloadData
-class CORDL_TYPE PreloadData : public ::UnityEngine::Object {
+class CORDL_TYPE PreloadData : public UnityEngine::Object {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr PreloadData(PreloadData const& ) noexcept = default;
 constexpr PreloadData(PreloadData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PreloadData(void* ptr) noexcept : ::UnityEngine::Object(ptr) {
+constexpr explicit PreloadData(void* ptr) noexcept : UnityEngine::Object(ptr) {
 }
 
 
@@ -55,6 +54,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::PreloadData);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PreloadData, "UnityEngine", "PreloadData");
+NEED_NO_BOX(UnityEngine::PreloadData);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PreloadData, "UnityEngine", "PreloadData");

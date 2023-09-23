@@ -2,13 +2,12 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
+namespace System {
+class Exception;
+}
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
-}
-namespace System {
-class Exception;
 }
 namespace System::Threading {
 struct CancellationToken;
@@ -36,15 +35,15 @@ class TaskCompletionSource_1<TResult>;
 }
 namespace System::Threading::Tasks {
 template<>
-class TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>;
+class TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>;
 }
 namespace System::Threading::Tasks {
 template<>
-class TaskCompletionSource_1<::System::Int32Enum>;
+class TaskCompletionSource_1<System::Int32Enum>;
 }
 namespace System::Threading::Tasks {
 template<>
-class TaskCompletionSource_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>;
+class TaskCompletionSource_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>;
 }
 namespace System::Threading::Tasks {
 template<>
@@ -103,16 +102,16 @@ constexpr explicit TaskCompletionSource_1(void* ptr) noexcept : ::bs_hook::Il2Cp
 
 // Fields
 
- ::System::Threading::Tasks::Task_1<TResult> __declspec(property(get=__get__task, put=__set__task))  _task;
+ System::Threading::Tasks::Task_1<TResult> __declspec(property(get=__get__task, put=__set__task))  _task;
 
-constexpr void __set__task(::System::Threading::Tasks::Task_1<TResult> value) ;
+constexpr void __set__task(System::Threading::Tasks::Task_1<TResult> value) ;
 
-constexpr ::System::Threading::Tasks::Task_1<TResult> __get__task() const;
+constexpr System::Threading::Tasks::Task_1<TResult> __get__task() const;
 
 
 // Properties
 
- ::System::Threading::Tasks::Task_1<TResult> __declspec(property(get=get_Task))  Task;
+ System::Threading::Tasks::Task_1<TResult> __declspec(property(get=get_Task))  Task;
 
 
 // Methods
@@ -123,11 +122,11 @@ explicit TaskCompletionSource_1() ;
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "creationOptions", ty: "::System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }]
-explicit TaskCompletionSource_1(::System::Threading::Tasks::TaskCreationOptions creationOptions) ;
+// Ctor Parameters [CppParam { name: "creationOptions", ty: "System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }]
+explicit TaskCompletionSource_1(System::Threading::Tasks::TaskCreationOptions creationOptions) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Threading::Tasks::TaskCreationOptions creationOptions) ;
+ void _ctor(System::Threading::Tasks::TaskCreationOptions creationOptions) ;
 
 // Ctor Parameters [CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
 explicit TaskCompletionSource_1(::bs_hook::Il2CppWrapperType state) ;
@@ -135,20 +134,20 @@ explicit TaskCompletionSource_1(::bs_hook::Il2CppWrapperType state) ;
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType state) ;
 
-// Ctor Parameters [CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "creationOptions", ty: "::System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }]
-explicit TaskCompletionSource_1(::bs_hook::Il2CppWrapperType state, ::System::Threading::Tasks::TaskCreationOptions creationOptions) ;
+// Ctor Parameters [CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "creationOptions", ty: "System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }]
+explicit TaskCompletionSource_1(::bs_hook::Il2CppWrapperType state, System::Threading::Tasks::TaskCreationOptions creationOptions) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::bs_hook::Il2CppWrapperType state, ::System::Threading::Tasks::TaskCreationOptions creationOptions) ;
+ void _ctor(::bs_hook::Il2CppWrapperType state, System::Threading::Tasks::TaskCreationOptions creationOptions) ;
 
 /// @brief Method get_Task addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Threading::Tasks::Task_1<TResult> get_Task() ;
+ System::Threading::Tasks::Task_1<TResult> get_Task() ;
 
 /// @brief Method SpinUntilCompleted addr 0x0 size 0xffffffffffffffff virtual false final false
  void SpinUntilCompleted() ;
 
 /// @brief Method TrySetException addr 0x0 size 0xffffffffffffffff virtual false final false
- bool TrySetException(::System::Exception exception) ;
+ bool TrySetException(System::Exception exception) ;
 
 /// @brief Method TrySetResult addr 0x0 size 0xffffffffffffffff virtual false final false
  bool TrySetResult(TResult result) ;
@@ -160,7 +159,7 @@ explicit TaskCompletionSource_1(::bs_hook::Il2CppWrapperType state, ::System::Th
  bool TrySetCanceled() ;
 
 /// @brief Method TrySetCanceled addr 0x0 size 0xffffffffffffffff virtual false final false
- bool TrySetCanceled(::System::Threading::CancellationToken cancellationToken) ;
+ bool TrySetCanceled(System::Threading::CancellationToken cancellationToken) ;
 
 /// @brief Method SetCanceled addr 0x0 size 0xffffffffffffffff virtual false final false
  void SetCanceled() ;
@@ -213,16 +212,16 @@ constexpr explicit TaskCompletionSource_1(void* ptr) noexcept : ::bs_hook::Il2Cp
 
 // Fields
 
- ::System::Threading::Tasks::Task_1<int32_t> __declspec(property(get=__get__task, put=__set__task))  _task;
+ System::Threading::Tasks::Task_1<int32_t> __declspec(property(get=__get__task, put=__set__task))  _task;
 
-constexpr void __set__task(::System::Threading::Tasks::Task_1<int32_t> value) ;
+constexpr void __set__task(System::Threading::Tasks::Task_1<int32_t> value) ;
 
-constexpr ::System::Threading::Tasks::Task_1<int32_t> __get__task() const;
+constexpr System::Threading::Tasks::Task_1<int32_t> __get__task() const;
 
 
 // Properties
 
- ::System::Threading::Tasks::Task_1<int32_t> __declspec(property(get=get_Task))  Task;
+ System::Threading::Tasks::Task_1<int32_t> __declspec(property(get=get_Task))  Task;
 
 
 // Methods
@@ -233,11 +232,11 @@ explicit TaskCompletionSource_1() ;
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "creationOptions", ty: "::System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }]
-explicit TaskCompletionSource_1(::System::Threading::Tasks::TaskCreationOptions creationOptions) ;
+// Ctor Parameters [CppParam { name: "creationOptions", ty: "System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }]
+explicit TaskCompletionSource_1(System::Threading::Tasks::TaskCreationOptions creationOptions) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Threading::Tasks::TaskCreationOptions creationOptions) ;
+ void _ctor(System::Threading::Tasks::TaskCreationOptions creationOptions) ;
 
 // Ctor Parameters [CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
 explicit TaskCompletionSource_1(::bs_hook::Il2CppWrapperType state) ;
@@ -245,20 +244,20 @@ explicit TaskCompletionSource_1(::bs_hook::Il2CppWrapperType state) ;
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType state) ;
 
-// Ctor Parameters [CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "creationOptions", ty: "::System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }]
-explicit TaskCompletionSource_1(::bs_hook::Il2CppWrapperType state, ::System::Threading::Tasks::TaskCreationOptions creationOptions) ;
+// Ctor Parameters [CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "creationOptions", ty: "System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }]
+explicit TaskCompletionSource_1(::bs_hook::Il2CppWrapperType state, System::Threading::Tasks::TaskCreationOptions creationOptions) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::bs_hook::Il2CppWrapperType state, ::System::Threading::Tasks::TaskCreationOptions creationOptions) ;
+ void _ctor(::bs_hook::Il2CppWrapperType state, System::Threading::Tasks::TaskCreationOptions creationOptions) ;
 
 /// @brief Method get_Task addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Threading::Tasks::Task_1<int32_t> get_Task() ;
+ System::Threading::Tasks::Task_1<int32_t> get_Task() ;
 
 /// @brief Method SpinUntilCompleted addr 0x0 size 0xffffffffffffffff virtual false final false
  void SpinUntilCompleted() ;
 
 /// @brief Method TrySetException addr 0x0 size 0xffffffffffffffff virtual false final false
- bool TrySetException(::System::Exception exception) ;
+ bool TrySetException(System::Exception exception) ;
 
 /// @brief Method TrySetResult addr 0x0 size 0xffffffffffffffff virtual false final false
  bool TrySetResult(int32_t result) ;
@@ -270,7 +269,7 @@ explicit TaskCompletionSource_1(::bs_hook::Il2CppWrapperType state, ::System::Th
  bool TrySetCanceled() ;
 
 /// @brief Method TrySetCanceled addr 0x0 size 0xffffffffffffffff virtual false final false
- bool TrySetCanceled(::System::Threading::CancellationToken cancellationToken) ;
+ bool TrySetCanceled(System::Threading::CancellationToken cancellationToken) ;
 
 /// @brief Method SetCanceled addr 0x0 size 0xffffffffffffffff virtual false final false
  void SetCanceled() ;
@@ -323,16 +322,16 @@ constexpr explicit TaskCompletionSource_1(void* ptr) noexcept : ::bs_hook::Il2Cp
 
 // Fields
 
- ::System::Threading::Tasks::Task_1<bool> __declspec(property(get=__get__task, put=__set__task))  _task;
+ System::Threading::Tasks::Task_1<bool> __declspec(property(get=__get__task, put=__set__task))  _task;
 
-constexpr void __set__task(::System::Threading::Tasks::Task_1<bool> value) ;
+constexpr void __set__task(System::Threading::Tasks::Task_1<bool> value) ;
 
-constexpr ::System::Threading::Tasks::Task_1<bool> __get__task() const;
+constexpr System::Threading::Tasks::Task_1<bool> __get__task() const;
 
 
 // Properties
 
- ::System::Threading::Tasks::Task_1<bool> __declspec(property(get=get_Task))  Task;
+ System::Threading::Tasks::Task_1<bool> __declspec(property(get=get_Task))  Task;
 
 
 // Methods
@@ -343,11 +342,11 @@ explicit TaskCompletionSource_1() ;
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "creationOptions", ty: "::System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }]
-explicit TaskCompletionSource_1(::System::Threading::Tasks::TaskCreationOptions creationOptions) ;
+// Ctor Parameters [CppParam { name: "creationOptions", ty: "System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }]
+explicit TaskCompletionSource_1(System::Threading::Tasks::TaskCreationOptions creationOptions) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Threading::Tasks::TaskCreationOptions creationOptions) ;
+ void _ctor(System::Threading::Tasks::TaskCreationOptions creationOptions) ;
 
 // Ctor Parameters [CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
 explicit TaskCompletionSource_1(::bs_hook::Il2CppWrapperType state) ;
@@ -355,20 +354,20 @@ explicit TaskCompletionSource_1(::bs_hook::Il2CppWrapperType state) ;
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType state) ;
 
-// Ctor Parameters [CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "creationOptions", ty: "::System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }]
-explicit TaskCompletionSource_1(::bs_hook::Il2CppWrapperType state, ::System::Threading::Tasks::TaskCreationOptions creationOptions) ;
+// Ctor Parameters [CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "creationOptions", ty: "System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }]
+explicit TaskCompletionSource_1(::bs_hook::Il2CppWrapperType state, System::Threading::Tasks::TaskCreationOptions creationOptions) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::bs_hook::Il2CppWrapperType state, ::System::Threading::Tasks::TaskCreationOptions creationOptions) ;
+ void _ctor(::bs_hook::Il2CppWrapperType state, System::Threading::Tasks::TaskCreationOptions creationOptions) ;
 
 /// @brief Method get_Task addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Threading::Tasks::Task_1<bool> get_Task() ;
+ System::Threading::Tasks::Task_1<bool> get_Task() ;
 
 /// @brief Method SpinUntilCompleted addr 0x0 size 0xffffffffffffffff virtual false final false
  void SpinUntilCompleted() ;
 
 /// @brief Method TrySetException addr 0x0 size 0xffffffffffffffff virtual false final false
- bool TrySetException(::System::Exception exception) ;
+ bool TrySetException(System::Exception exception) ;
 
 /// @brief Method TrySetResult addr 0x0 size 0xffffffffffffffff virtual false final false
  bool TrySetResult(bool result) ;
@@ -380,7 +379,7 @@ explicit TaskCompletionSource_1(::bs_hook::Il2CppWrapperType state, ::System::Th
  bool TrySetCanceled() ;
 
 /// @brief Method TrySetCanceled addr 0x0 size 0xffffffffffffffff virtual false final false
- bool TrySetCanceled(::System::Threading::CancellationToken cancellationToken) ;
+ bool TrySetCanceled(System::Threading::CancellationToken cancellationToken) ;
 
 /// @brief Method SetCanceled addr 0x0 size 0xffffffffffffffff virtual false final false
  void SetCanceled() ;
@@ -397,7 +396,7 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2756))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2756), inst: 772 })
 // CS Name: System.Threading.Tasks.TaskCompletionSource`1
-class CORDL_TYPE TaskCompletionSource_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE TaskCompletionSource_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -433,16 +432,16 @@ constexpr explicit TaskCompletionSource_1(void* ptr) noexcept : ::bs_hook::Il2Cp
 
 // Fields
 
- ::System::Threading::Tasks::Task_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> __declspec(property(get=__get__task, put=__set__task))  _task;
+ System::Threading::Tasks::Task_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> __declspec(property(get=__get__task, put=__set__task))  _task;
 
-constexpr void __set__task(::System::Threading::Tasks::Task_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> value) ;
+constexpr void __set__task(System::Threading::Tasks::Task_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> value) ;
 
-constexpr ::System::Threading::Tasks::Task_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> __get__task() const;
+constexpr System::Threading::Tasks::Task_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> __get__task() const;
 
 
 // Properties
 
- ::System::Threading::Tasks::Task_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> __declspec(property(get=get_Task))  Task;
+ System::Threading::Tasks::Task_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> __declspec(property(get=get_Task))  Task;
 
 
 // Methods
@@ -453,11 +452,11 @@ explicit TaskCompletionSource_1() ;
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "creationOptions", ty: "::System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }]
-explicit TaskCompletionSource_1(::System::Threading::Tasks::TaskCreationOptions creationOptions) ;
+// Ctor Parameters [CppParam { name: "creationOptions", ty: "System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }]
+explicit TaskCompletionSource_1(System::Threading::Tasks::TaskCreationOptions creationOptions) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Threading::Tasks::TaskCreationOptions creationOptions) ;
+ void _ctor(System::Threading::Tasks::TaskCreationOptions creationOptions) ;
 
 // Ctor Parameters [CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
 explicit TaskCompletionSource_1(::bs_hook::Il2CppWrapperType state) ;
@@ -465,32 +464,32 @@ explicit TaskCompletionSource_1(::bs_hook::Il2CppWrapperType state) ;
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType state) ;
 
-// Ctor Parameters [CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "creationOptions", ty: "::System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }]
-explicit TaskCompletionSource_1(::bs_hook::Il2CppWrapperType state, ::System::Threading::Tasks::TaskCreationOptions creationOptions) ;
+// Ctor Parameters [CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "creationOptions", ty: "System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }]
+explicit TaskCompletionSource_1(::bs_hook::Il2CppWrapperType state, System::Threading::Tasks::TaskCreationOptions creationOptions) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::bs_hook::Il2CppWrapperType state, ::System::Threading::Tasks::TaskCreationOptions creationOptions) ;
+ void _ctor(::bs_hook::Il2CppWrapperType state, System::Threading::Tasks::TaskCreationOptions creationOptions) ;
 
 /// @brief Method get_Task addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Threading::Tasks::Task_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> get_Task() ;
+ System::Threading::Tasks::Task_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> get_Task() ;
 
 /// @brief Method SpinUntilCompleted addr 0x0 size 0xffffffffffffffff virtual false final false
  void SpinUntilCompleted() ;
 
 /// @brief Method TrySetException addr 0x0 size 0xffffffffffffffff virtual false final false
- bool TrySetException(::System::Exception exception) ;
+ bool TrySetException(System::Exception exception) ;
 
 /// @brief Method TrySetResult addr 0x0 size 0xffffffffffffffff virtual false final false
- bool TrySetResult(::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance result) ;
+ bool TrySetResult(UnityEngine::ResourceManagement::ResourceProviders::SceneInstance result) ;
 
 /// @brief Method SetResult addr 0x0 size 0xffffffffffffffff virtual false final false
- void SetResult(::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance result) ;
+ void SetResult(UnityEngine::ResourceManagement::ResourceProviders::SceneInstance result) ;
 
 /// @brief Method TrySetCanceled addr 0x0 size 0xffffffffffffffff virtual false final false
  bool TrySetCanceled() ;
 
 /// @brief Method TrySetCanceled addr 0x0 size 0xffffffffffffffff virtual false final false
- bool TrySetCanceled(::System::Threading::CancellationToken cancellationToken) ;
+ bool TrySetCanceled(System::Threading::CancellationToken cancellationToken) ;
 
 /// @brief Method SetCanceled addr 0x0 size 0xffffffffffffffff virtual false final false
  void SetCanceled() ;
@@ -543,16 +542,16 @@ constexpr explicit TaskCompletionSource_1(void* ptr) noexcept : ::bs_hook::Il2Cp
 
 // Fields
 
- ::System::Threading::Tasks::Task_1<int64_t> __declspec(property(get=__get__task, put=__set__task))  _task;
+ System::Threading::Tasks::Task_1<int64_t> __declspec(property(get=__get__task, put=__set__task))  _task;
 
-constexpr void __set__task(::System::Threading::Tasks::Task_1<int64_t> value) ;
+constexpr void __set__task(System::Threading::Tasks::Task_1<int64_t> value) ;
 
-constexpr ::System::Threading::Tasks::Task_1<int64_t> __get__task() const;
+constexpr System::Threading::Tasks::Task_1<int64_t> __get__task() const;
 
 
 // Properties
 
- ::System::Threading::Tasks::Task_1<int64_t> __declspec(property(get=get_Task))  Task;
+ System::Threading::Tasks::Task_1<int64_t> __declspec(property(get=get_Task))  Task;
 
 
 // Methods
@@ -563,11 +562,11 @@ explicit TaskCompletionSource_1() ;
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "creationOptions", ty: "::System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }]
-explicit TaskCompletionSource_1(::System::Threading::Tasks::TaskCreationOptions creationOptions) ;
+// Ctor Parameters [CppParam { name: "creationOptions", ty: "System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }]
+explicit TaskCompletionSource_1(System::Threading::Tasks::TaskCreationOptions creationOptions) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Threading::Tasks::TaskCreationOptions creationOptions) ;
+ void _ctor(System::Threading::Tasks::TaskCreationOptions creationOptions) ;
 
 // Ctor Parameters [CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
 explicit TaskCompletionSource_1(::bs_hook::Il2CppWrapperType state) ;
@@ -575,20 +574,20 @@ explicit TaskCompletionSource_1(::bs_hook::Il2CppWrapperType state) ;
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType state) ;
 
-// Ctor Parameters [CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "creationOptions", ty: "::System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }]
-explicit TaskCompletionSource_1(::bs_hook::Il2CppWrapperType state, ::System::Threading::Tasks::TaskCreationOptions creationOptions) ;
+// Ctor Parameters [CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "creationOptions", ty: "System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }]
+explicit TaskCompletionSource_1(::bs_hook::Il2CppWrapperType state, System::Threading::Tasks::TaskCreationOptions creationOptions) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::bs_hook::Il2CppWrapperType state, ::System::Threading::Tasks::TaskCreationOptions creationOptions) ;
+ void _ctor(::bs_hook::Il2CppWrapperType state, System::Threading::Tasks::TaskCreationOptions creationOptions) ;
 
 /// @brief Method get_Task addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Threading::Tasks::Task_1<int64_t> get_Task() ;
+ System::Threading::Tasks::Task_1<int64_t> get_Task() ;
 
 /// @brief Method SpinUntilCompleted addr 0x0 size 0xffffffffffffffff virtual false final false
  void SpinUntilCompleted() ;
 
 /// @brief Method TrySetException addr 0x0 size 0xffffffffffffffff virtual false final false
- bool TrySetException(::System::Exception exception) ;
+ bool TrySetException(System::Exception exception) ;
 
 /// @brief Method TrySetResult addr 0x0 size 0xffffffffffffffff virtual false final false
  bool TrySetResult(int64_t result) ;
@@ -600,7 +599,7 @@ explicit TaskCompletionSource_1(::bs_hook::Il2CppWrapperType state, ::System::Th
  bool TrySetCanceled() ;
 
 /// @brief Method TrySetCanceled addr 0x0 size 0xffffffffffffffff virtual false final false
- bool TrySetCanceled(::System::Threading::CancellationToken cancellationToken) ;
+ bool TrySetCanceled(System::Threading::CancellationToken cancellationToken) ;
 
 /// @brief Method SetCanceled addr 0x0 size 0xffffffffffffffff virtual false final false
  void SetCanceled() ;
@@ -617,7 +616,7 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2756))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2756), inst: 852 })
 // CS Name: System.Threading.Tasks.TaskCompletionSource`1
-class CORDL_TYPE TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -653,16 +652,16 @@ constexpr explicit TaskCompletionSource_1(void* ptr) noexcept : ::bs_hook::Il2Cp
 
 // Fields
 
- ::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult> __declspec(property(get=__get__task, put=__set__task))  _task;
+ System::Threading::Tasks::Task_1<GlobalNamespace::GetAssetBundleFileResult> __declspec(property(get=__get__task, put=__set__task))  _task;
 
-constexpr void __set__task(::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult> value) ;
+constexpr void __set__task(System::Threading::Tasks::Task_1<GlobalNamespace::GetAssetBundleFileResult> value) ;
 
-constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult> __get__task() const;
+constexpr System::Threading::Tasks::Task_1<GlobalNamespace::GetAssetBundleFileResult> __get__task() const;
 
 
 // Properties
 
- ::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult> __declspec(property(get=get_Task))  Task;
+ System::Threading::Tasks::Task_1<GlobalNamespace::GetAssetBundleFileResult> __declspec(property(get=get_Task))  Task;
 
 
 // Methods
@@ -673,11 +672,11 @@ explicit TaskCompletionSource_1() ;
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "creationOptions", ty: "::System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }]
-explicit TaskCompletionSource_1(::System::Threading::Tasks::TaskCreationOptions creationOptions) ;
+// Ctor Parameters [CppParam { name: "creationOptions", ty: "System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }]
+explicit TaskCompletionSource_1(System::Threading::Tasks::TaskCreationOptions creationOptions) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Threading::Tasks::TaskCreationOptions creationOptions) ;
+ void _ctor(System::Threading::Tasks::TaskCreationOptions creationOptions) ;
 
 // Ctor Parameters [CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
 explicit TaskCompletionSource_1(::bs_hook::Il2CppWrapperType state) ;
@@ -685,32 +684,32 @@ explicit TaskCompletionSource_1(::bs_hook::Il2CppWrapperType state) ;
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType state) ;
 
-// Ctor Parameters [CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "creationOptions", ty: "::System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }]
-explicit TaskCompletionSource_1(::bs_hook::Il2CppWrapperType state, ::System::Threading::Tasks::TaskCreationOptions creationOptions) ;
+// Ctor Parameters [CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "creationOptions", ty: "System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }]
+explicit TaskCompletionSource_1(::bs_hook::Il2CppWrapperType state, System::Threading::Tasks::TaskCreationOptions creationOptions) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::bs_hook::Il2CppWrapperType state, ::System::Threading::Tasks::TaskCreationOptions creationOptions) ;
+ void _ctor(::bs_hook::Il2CppWrapperType state, System::Threading::Tasks::TaskCreationOptions creationOptions) ;
 
 /// @brief Method get_Task addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult> get_Task() ;
+ System::Threading::Tasks::Task_1<GlobalNamespace::GetAssetBundleFileResult> get_Task() ;
 
 /// @brief Method SpinUntilCompleted addr 0x0 size 0xffffffffffffffff virtual false final false
  void SpinUntilCompleted() ;
 
 /// @brief Method TrySetException addr 0x0 size 0xffffffffffffffff virtual false final false
- bool TrySetException(::System::Exception exception) ;
+ bool TrySetException(System::Exception exception) ;
 
 /// @brief Method TrySetResult addr 0x0 size 0xffffffffffffffff virtual false final false
- bool TrySetResult(::GlobalNamespace::GetAssetBundleFileResult result) ;
+ bool TrySetResult(GlobalNamespace::GetAssetBundleFileResult result) ;
 
 /// @brief Method SetResult addr 0x0 size 0xffffffffffffffff virtual false final false
- void SetResult(::GlobalNamespace::GetAssetBundleFileResult result) ;
+ void SetResult(GlobalNamespace::GetAssetBundleFileResult result) ;
 
 /// @brief Method TrySetCanceled addr 0x0 size 0xffffffffffffffff virtual false final false
  bool TrySetCanceled() ;
 
 /// @brief Method TrySetCanceled addr 0x0 size 0xffffffffffffffff virtual false final false
- bool TrySetCanceled(::System::Threading::CancellationToken cancellationToken) ;
+ bool TrySetCanceled(System::Threading::CancellationToken cancellationToken) ;
 
 /// @brief Method SetCanceled addr 0x0 size 0xffffffffffffffff virtual false final false
  void SetCanceled() ;
@@ -727,7 +726,7 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2756))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2756), inst: 4825 })
 // CS Name: System.Threading.Tasks.TaskCompletionSource`1
-class CORDL_TYPE TaskCompletionSource_1<::System::Int32Enum> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE TaskCompletionSource_1<System::Int32Enum> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -763,16 +762,16 @@ constexpr explicit TaskCompletionSource_1(void* ptr) noexcept : ::bs_hook::Il2Cp
 
 // Fields
 
- ::System::Threading::Tasks::Task_1<::System::Int32Enum> __declspec(property(get=__get__task, put=__set__task))  _task;
+ System::Threading::Tasks::Task_1<System::Int32Enum> __declspec(property(get=__get__task, put=__set__task))  _task;
 
-constexpr void __set__task(::System::Threading::Tasks::Task_1<::System::Int32Enum> value) ;
+constexpr void __set__task(System::Threading::Tasks::Task_1<System::Int32Enum> value) ;
 
-constexpr ::System::Threading::Tasks::Task_1<::System::Int32Enum> __get__task() const;
+constexpr System::Threading::Tasks::Task_1<System::Int32Enum> __get__task() const;
 
 
 // Properties
 
- ::System::Threading::Tasks::Task_1<::System::Int32Enum> __declspec(property(get=get_Task))  Task;
+ System::Threading::Tasks::Task_1<System::Int32Enum> __declspec(property(get=get_Task))  Task;
 
 
 // Methods
@@ -783,11 +782,11 @@ explicit TaskCompletionSource_1() ;
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "creationOptions", ty: "::System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }]
-explicit TaskCompletionSource_1(::System::Threading::Tasks::TaskCreationOptions creationOptions) ;
+// Ctor Parameters [CppParam { name: "creationOptions", ty: "System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }]
+explicit TaskCompletionSource_1(System::Threading::Tasks::TaskCreationOptions creationOptions) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Threading::Tasks::TaskCreationOptions creationOptions) ;
+ void _ctor(System::Threading::Tasks::TaskCreationOptions creationOptions) ;
 
 // Ctor Parameters [CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
 explicit TaskCompletionSource_1(::bs_hook::Il2CppWrapperType state) ;
@@ -795,32 +794,32 @@ explicit TaskCompletionSource_1(::bs_hook::Il2CppWrapperType state) ;
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType state) ;
 
-// Ctor Parameters [CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "creationOptions", ty: "::System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }]
-explicit TaskCompletionSource_1(::bs_hook::Il2CppWrapperType state, ::System::Threading::Tasks::TaskCreationOptions creationOptions) ;
+// Ctor Parameters [CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "creationOptions", ty: "System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }]
+explicit TaskCompletionSource_1(::bs_hook::Il2CppWrapperType state, System::Threading::Tasks::TaskCreationOptions creationOptions) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::bs_hook::Il2CppWrapperType state, ::System::Threading::Tasks::TaskCreationOptions creationOptions) ;
+ void _ctor(::bs_hook::Il2CppWrapperType state, System::Threading::Tasks::TaskCreationOptions creationOptions) ;
 
 /// @brief Method get_Task addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Threading::Tasks::Task_1<::System::Int32Enum> get_Task() ;
+ System::Threading::Tasks::Task_1<System::Int32Enum> get_Task() ;
 
 /// @brief Method SpinUntilCompleted addr 0x0 size 0xffffffffffffffff virtual false final false
  void SpinUntilCompleted() ;
 
 /// @brief Method TrySetException addr 0x0 size 0xffffffffffffffff virtual false final false
- bool TrySetException(::System::Exception exception) ;
+ bool TrySetException(System::Exception exception) ;
 
 /// @brief Method TrySetResult addr 0x0 size 0xffffffffffffffff virtual false final false
- bool TrySetResult(::System::Int32Enum result) ;
+ bool TrySetResult(System::Int32Enum result) ;
 
 /// @brief Method SetResult addr 0x0 size 0xffffffffffffffff virtual false final false
- void SetResult(::System::Int32Enum result) ;
+ void SetResult(System::Int32Enum result) ;
 
 /// @brief Method TrySetCanceled addr 0x0 size 0xffffffffffffffff virtual false final false
  bool TrySetCanceled() ;
 
 /// @brief Method TrySetCanceled addr 0x0 size 0xffffffffffffffff virtual false final false
- bool TrySetCanceled(::System::Threading::CancellationToken cancellationToken) ;
+ bool TrySetCanceled(System::Threading::CancellationToken cancellationToken) ;
 
 /// @brief Method SetCanceled addr 0x0 size 0xffffffffffffffff virtual false final false
  void SetCanceled() ;
@@ -829,5 +828,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Threading::Tasks
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Threading::Tasks::TaskCompletionSource_1, "System.Threading.Tasks", "TaskCompletionSource`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Threading::Tasks::TaskCompletionSource_1, "System.Threading.Tasks", "TaskCompletionSource`1");

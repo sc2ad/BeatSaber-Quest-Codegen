@@ -1,9 +1,7 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace GlobalNamespace {
-template<typename T>
-class ILazyCopyHashSet_1;
+class NoteData;
 }
 namespace GlobalNamespace {
 class INoteControllerNoteDidStartDissolvingEvent;
@@ -12,7 +10,8 @@ namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
-class NoteData;
+template<typename T>
+class ILazyCopyHashSet_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -36,28 +35,27 @@ constexpr explicit INoteMirrorable(void* ptr) noexcept : ::cordl_internals::Inte
 
 // Properties
 
- ::UnityEngine::Transform __declspec(property(get=get_noteTransform))  noteTransform;
+ UnityEngine::Transform __declspec(property(get=get_noteTransform))  noteTransform;
 
- ::GlobalNamespace::NoteData __declspec(property(get=get_noteData))  noteData;
+ GlobalNamespace::NoteData __declspec(property(get=get_noteData))  noteData;
 
- ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent> __declspec(property(get=get_noteDidStartDissolvingEvent))  noteDidStartDissolvingEvent;
+ GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent> __declspec(property(get=get_noteDidStartDissolvingEvent))  noteDidStartDissolvingEvent;
 
 
 // Methods
 
 /// @brief Method get_noteTransform addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Transform get_noteTransform() ;
+ UnityEngine::Transform get_noteTransform() ;
 
 /// @brief Method get_noteData addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::NoteData get_noteData() ;
+ GlobalNamespace::NoteData get_noteData() ;
 
 /// @brief Method get_noteDidStartDissolvingEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent> get_noteDidStartDissolvingEvent() ;
+ GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent> get_noteDidStartDissolvingEvent() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::INoteMirrorable);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::INoteMirrorable, "", "INoteMirrorable");
+NEED_NO_BOX(GlobalNamespace::INoteMirrorable);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INoteMirrorable, "", "INoteMirrorable");

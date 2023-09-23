@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security::Permissions {
 struct SecurityPermissionFlag;
@@ -81,56 +80,55 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field NoFlags offset 0
-static ::System::Security::Permissions::SecurityPermissionFlag const NoFlags;
+static System::Security::Permissions::SecurityPermissionFlag const NoFlags;
 
 /// @brief Field Assertion offset 0
-static ::System::Security::Permissions::SecurityPermissionFlag const Assertion;
+static System::Security::Permissions::SecurityPermissionFlag const Assertion;
 
 /// @brief Field UnmanagedCode offset 0
-static ::System::Security::Permissions::SecurityPermissionFlag const UnmanagedCode;
+static System::Security::Permissions::SecurityPermissionFlag const UnmanagedCode;
 
 /// @brief Field SkipVerification offset 0
-static ::System::Security::Permissions::SecurityPermissionFlag const SkipVerification;
+static System::Security::Permissions::SecurityPermissionFlag const SkipVerification;
 
 /// @brief Field Execution offset 0
-static ::System::Security::Permissions::SecurityPermissionFlag const Execution;
+static System::Security::Permissions::SecurityPermissionFlag const Execution;
 
 /// @brief Field ControlThread offset 0
-static ::System::Security::Permissions::SecurityPermissionFlag const ControlThread;
+static System::Security::Permissions::SecurityPermissionFlag const ControlThread;
 
 /// @brief Field ControlEvidence offset 0
-static ::System::Security::Permissions::SecurityPermissionFlag const ControlEvidence;
+static System::Security::Permissions::SecurityPermissionFlag const ControlEvidence;
 
 /// @brief Field ControlPolicy offset 0
-static ::System::Security::Permissions::SecurityPermissionFlag const ControlPolicy;
+static System::Security::Permissions::SecurityPermissionFlag const ControlPolicy;
 
 /// @brief Field SerializationFormatter offset 0
-static ::System::Security::Permissions::SecurityPermissionFlag const SerializationFormatter;
+static System::Security::Permissions::SecurityPermissionFlag const SerializationFormatter;
 
 /// @brief Field ControlDomainPolicy offset 0
-static ::System::Security::Permissions::SecurityPermissionFlag const ControlDomainPolicy;
+static System::Security::Permissions::SecurityPermissionFlag const ControlDomainPolicy;
 
 /// @brief Field ControlPrincipal offset 0
-static ::System::Security::Permissions::SecurityPermissionFlag const ControlPrincipal;
+static System::Security::Permissions::SecurityPermissionFlag const ControlPrincipal;
 
 /// @brief Field ControlAppDomain offset 0
-static ::System::Security::Permissions::SecurityPermissionFlag const ControlAppDomain;
+static System::Security::Permissions::SecurityPermissionFlag const ControlAppDomain;
 
 /// @brief Field RemotingConfiguration offset 0
-static ::System::Security::Permissions::SecurityPermissionFlag const RemotingConfiguration;
+static System::Security::Permissions::SecurityPermissionFlag const RemotingConfiguration;
 
 /// @brief Field Infrastructure offset 0
-static ::System::Security::Permissions::SecurityPermissionFlag const Infrastructure;
+static System::Security::Permissions::SecurityPermissionFlag const Infrastructure;
 
 /// @brief Field BindingRedirects offset 0
-static ::System::Security::Permissions::SecurityPermissionFlag const BindingRedirects;
+static System::Security::Permissions::SecurityPermissionFlag const BindingRedirects;
 
 /// @brief Field AllFlags offset 0
-static ::System::Security::Permissions::SecurityPermissionFlag const AllFlags;
+static System::Security::Permissions::SecurityPermissionFlag const AllFlags;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Security::Permissions
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Permissions::SecurityPermissionFlag, "System.Security.Permissions", "SecurityPermissionFlag");
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Permissions::SecurityPermissionFlag, "System.Security.Permissions", "SecurityPermissionFlag");

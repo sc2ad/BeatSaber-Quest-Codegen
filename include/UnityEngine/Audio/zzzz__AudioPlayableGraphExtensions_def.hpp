@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
 namespace UnityEngine::Playables {
 struct PlayableOutputHandle;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
 }
 // Forward declare root types
 namespace UnityEngine::Audio {
@@ -57,12 +56,11 @@ constexpr explicit AudioPlayableGraphExtensions(void* ptr) noexcept : ::bs_hook:
 // Methods
 
 /// @brief Method InternalCreateAudioOutput addr 0x2b265dc size 0x54 virtual false final false
-static bool InternalCreateAudioOutput(ByRef<::UnityEngine::Playables::PlayableGraph> graph, ::StringW name, ByRef<::UnityEngine::Playables::PlayableOutputHandle> handle) ;
+static bool InternalCreateAudioOutput(ByRef<UnityEngine::Playables::PlayableGraph> graph, ::StringW name, ByRef<UnityEngine::Playables::PlayableOutputHandle> handle) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Audio
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Audio::AudioPlayableGraphExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Audio::AudioPlayableGraphExtensions, "UnityEngine.Audio", "AudioPlayableGraphExtensions");
+NEED_NO_BOX(UnityEngine::Audio::AudioPlayableGraphExtensions);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioPlayableGraphExtensions, "UnityEngine.Audio", "AudioPlayableGraphExtensions");

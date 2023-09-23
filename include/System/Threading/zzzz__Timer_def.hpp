@@ -4,39 +4,38 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System {
-struct TimeSpan;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Threading {
-class TimerCallback;
-}
-namespace System::Threading {
-class ManualResetEvent;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace System::Collections {
-class IComparer;
+namespace System::Threading {
+class ManualResetEvent;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+struct TimeSpan;
+}
+namespace System::Threading {
+class TimerCallback;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IComparer_1;
 }
+namespace System::Collections {
+class IComparer;
+}
 // Forward declare root types
+namespace System::Threading {
+class System__Threading__Timer__Scheduler;
+}
 namespace System::Threading {
 class Timer;
 }
 namespace System::Threading {
-class ____System__Threading__Timer__Scheduler;
-}
-namespace System::Threading {
-struct ____System__Threading__Timer__TimerComparer;
+struct System__Threading__Timer__TimerComparer;
 }
 // Type: ::TimerComparer
 namespace System::Threading {
@@ -44,23 +43,23 @@ namespace System::Threading {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2747))
 // CS Name: System.Threading.Timer::TimerComparer
-struct CORDL_TYPE ____System__Threading__Timer__TimerComparer : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE System__Threading__Timer__TimerComparer : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::IComparer
-constexpr operator  ::System::Collections::IComparer() const;
+/// @brief Convert operator to System::Collections::IComparer
+constexpr operator  System::Collections::IComparer() const;
 
-/// @brief Convert operator to ::System::Collections::Generic::IComparer_1<::System::Threading::Timer>
-constexpr operator  ::System::Collections::Generic::IComparer_1<::System::Threading::Timer>() const;
+/// @brief Convert operator to System::Collections::Generic::IComparer_1<System::Threading::Timer>
+constexpr operator  System::Collections::Generic::IComparer_1<System::Threading::Timer>() const;
 
 
-                    constexpr ____System__Threading__Timer__TimerComparer(____System__Threading__Timer__TimerComparer const&) = default;
-                    constexpr ____System__Threading__Timer__TimerComparer(____System__Threading__Timer__TimerComparer&&) = default;
-                    constexpr ____System__Threading__Timer__TimerComparer& operator=(____System__Threading__Timer__TimerComparer const& o) {
+                    constexpr System__Threading__Timer__TimerComparer(System__Threading__Timer__TimerComparer const&) = default;
+                    constexpr System__Threading__Timer__TimerComparer(System__Threading__Timer__TimerComparer&&) = default;
+                    constexpr System__Threading__Timer__TimerComparer& operator=(System__Threading__Timer__TimerComparer const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Threading__Timer__TimerComparer& operator=(____System__Threading__Timer__TimerComparer&& o) noexcept {
+                    constexpr System__Threading__Timer__TimerComparer& operator=(System__Threading__Timer__TimerComparer&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -73,7 +72,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x1};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Threading__Timer__TimerComparer(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Threading__Timer__TimerComparer(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -88,7 +87,7 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
  int32_t System_Collections_IComparer_Compare(::bs_hook::Il2CppWrapperType x, ::bs_hook::Il2CppWrapperType y) ;
 
 /// @brief Method Compare addr 0x24b2b3c size 0x70 virtual true final true
- int32_t Compare(::System::Threading::Timer tx, ::System::Threading::Timer ty) ;
+ int32_t Compare(System::Threading::Timer tx, System::Threading::Timer ty) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -100,47 +99,47 @@ namespace System::Threading {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2748))
 // CS Name: System.Threading.Timer::Scheduler
-class CORDL_TYPE ____System__Threading__Timer__Scheduler : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Threading__Timer__Scheduler : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____System__Threading__Timer__Scheduler() = default;
+virtual ~System__Threading__Timer__Scheduler() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Threading__Timer__Scheduler", modifiers: " const&", def_value: None }]
-constexpr ____System__Threading__Timer__Scheduler(____System__Threading__Timer__Scheduler const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Threading__Timer__Scheduler", modifiers: " const&", def_value: None }]
+constexpr System__Threading__Timer__Scheduler(System__Threading__Timer__Scheduler const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Threading__Timer__Scheduler", modifiers: "&&", def_value: None }]
-constexpr ____System__Threading__Timer__Scheduler(____System__Threading__Timer__Scheduler&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Threading__Timer__Scheduler", modifiers: "&&", def_value: None }]
+constexpr System__Threading__Timer__Scheduler(System__Threading__Timer__Scheduler&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Threading__Timer__Scheduler(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Threading__Timer__Scheduler(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Threading__Timer__Scheduler& operator=(std::nullptr_t) noexcept {
+  constexpr System__Threading__Timer__Scheduler& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Threading__Timer__Scheduler& operator=(void* o) noexcept {
+  constexpr System__Threading__Timer__Scheduler& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Threading__Timer__Scheduler& operator=(____System__Threading__Timer__Scheduler&& o) noexcept = default;
-  constexpr ____System__Threading__Timer__Scheduler& operator=(____System__Threading__Timer__Scheduler const& o) noexcept = default;
+  constexpr System__Threading__Timer__Scheduler& operator=(System__Threading__Timer__Scheduler&& o) noexcept = default;
+  constexpr System__Threading__Timer__Scheduler& operator=(System__Threading__Timer__Scheduler const& o) noexcept = default;
                 
 
 
 // Fields
 
-static ::System::Threading::____System__Threading__Timer__Scheduler __declspec(property(get=__get_instance, put=__set_instance))  instance;
+static System::Threading::System__Threading__Timer__Scheduler __declspec(property(get=__get_instance, put=__set_instance))  instance;
 
-static void __set_instance(::System::Threading::____System__Threading__Timer__Scheduler value) ;
+static void __set_instance(System::Threading::System__Threading__Timer__Scheduler value) ;
 
-static ::System::Threading::____System__Threading__Timer__Scheduler __get_instance() ;
+static System::Threading::System__Threading__Timer__Scheduler __get_instance() ;
 
  bool __declspec(property(get=__get_needReSort, put=__set_needReSort))  needReSort;
 
@@ -148,11 +147,11 @@ constexpr void __set_needReSort(bool value) ;
 
 constexpr bool __get_needReSort() const;
 
- ::System::Collections::Generic::List_1<::System::Threading::Timer> __declspec(property(get=__get_list, put=__set_list))  list;
+ System::Collections::Generic::List_1<System::Threading::Timer> __declspec(property(get=__get_list, put=__set_list))  list;
 
-constexpr void __set_list(::System::Collections::Generic::List_1<::System::Threading::Timer> value) ;
+constexpr void __set_list(System::Collections::Generic::List_1<System::Threading::Timer> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::System::Threading::Timer> __get_list() const;
+constexpr System::Collections::Generic::List_1<System::Threading::Timer> __get_list() const;
 
  int64_t __declspec(property(get=__get_current_next_run, put=__set_current_next_run))  current_next_run;
 
@@ -160,16 +159,16 @@ constexpr void __set_current_next_run(int64_t value) ;
 
 constexpr int64_t __get_current_next_run() const;
 
- ::System::Threading::ManualResetEvent __declspec(property(get=__get_changed, put=__set_changed))  changed;
+ System::Threading::ManualResetEvent __declspec(property(get=__get_changed, put=__set_changed))  changed;
 
-constexpr void __set_changed(::System::Threading::ManualResetEvent value) ;
+constexpr void __set_changed(System::Threading::ManualResetEvent value) ;
 
-constexpr ::System::Threading::ManualResetEvent __get_changed() const;
+constexpr System::Threading::ManualResetEvent __get_changed() const;
 
 
 // Properties
 
-static ::System::Threading::____System__Threading__Timer__Scheduler __declspec(property(get=get_Instance))  Instance;
+static System::Threading::System__Threading__Timer__Scheduler __declspec(property(get=get_Instance))  Instance;
 
 
 // Methods
@@ -184,31 +183,31 @@ static ::System::Threading::____System__Threading__Timer__Scheduler __declspec(p
  void SchedulerThread() ;
 
 /// @brief Method get_Instance addr 0x24b3108 size 0x58 virtual false final false
-static ::System::Threading::____System__Threading__Timer__Scheduler get_Instance() ;
+static System::Threading::System__Threading__Timer__Scheduler get_Instance() ;
 
 // Ctor Parameters []
-explicit ____System__Threading__Timer__Scheduler() ;
+explicit System__Threading__Timer__Scheduler() ;
 
 /// @brief Method .ctor addr 0x24b3160 size 0x9c virtual false final false
  void _ctor() ;
 
 /// @brief Method Remove addr 0x24b2840 size 0xcc virtual false final false
- void Remove(::System::Threading::Timer timer) ;
+ void Remove(System::Threading::Timer timer) ;
 
 /// @brief Method Change addr 0x24b2910 size 0x190 virtual false final false
- void Change(::System::Threading::Timer timer, int64_t new_next_run) ;
+ void Change(System::Threading::Timer timer, int64_t new_next_run) ;
 
 /// @brief Method Add addr 0x24b322c size 0xf0 virtual false final false
- void Add(::System::Threading::Timer timer) ;
+ void Add(System::Threading::Timer timer) ;
 
 /// @brief Method InternalRemove addr 0x24b31fc size 0x30 virtual false final false
- void InternalRemove(::System::Threading::Timer timer) ;
+ void InternalRemove(System::Threading::Timer timer) ;
 
 /// @brief Method TimerCB addr 0x24b331c size 0x78 virtual false final false
 static void TimerCB(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method FireTimer addr 0x24b3394 size 0xc8 virtual false final false
- void FireTimer(::System::Threading::Timer timer) ;
+ void FireTimer(System::Threading::Timer timer) ;
 
 /// @brief Method RunSchedulerLoop addr 0x24b2df4 size 0x314 virtual false final false
  int32_t RunSchedulerLoop() ;
@@ -223,15 +222,15 @@ namespace System::Threading {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2604))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2749))
 // CS Name: System.Threading.Timer
-class CORDL_TYPE Timer : public ::System::MarshalByRefObject {
+class CORDL_TYPE Timer : public System::MarshalByRefObject {
 public:
 // Declarations
-using Scheduler = ::System::Threading::____System__Threading__Timer__Scheduler;
+using Scheduler = System::Threading::System__Threading__Timer__Scheduler;
 
-using TimerComparer = ::System::Threading::____System__Threading__Timer__TimerComparer;
+using TimerComparer = System::Threading::System__Threading__Timer__TimerComparer;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
@@ -245,7 +244,7 @@ constexpr Timer(Timer const& ) noexcept = default;
 constexpr Timer(Timer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Timer(void* ptr) noexcept : ::System::MarshalByRefObject(ptr) {
+constexpr explicit Timer(void* ptr) noexcept : System::MarshalByRefObject(ptr) {
 }
 
 
@@ -266,11 +265,11 @@ constexpr explicit Timer(void* ptr) noexcept : ::System::MarshalByRefObject(ptr)
 
 // Fields
 
- ::System::Threading::TimerCallback __declspec(property(get=__get_callback, put=__set_callback))  callback;
+ System::Threading::TimerCallback __declspec(property(get=__get_callback, put=__set_callback))  callback;
 
-constexpr void __set_callback(::System::Threading::TimerCallback value) ;
+constexpr void __set_callback(System::Threading::TimerCallback value) ;
 
-constexpr ::System::Threading::TimerCallback __get_callback() const;
+constexpr System::Threading::TimerCallback __get_callback() const;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=__get_state, put=__set_state))  state;
 
@@ -320,34 +319,34 @@ static constexpr int64_t  MaxValue{4294967294};
 
 // Properties
 
-static ::System::Threading::____System__Threading__Timer__Scheduler __declspec(property(get=get_scheduler))  scheduler;
+static System::Threading::System__Threading__Timer__Scheduler __declspec(property(get=get_scheduler))  scheduler;
 
 
 // Methods
 
 /// @brief Method get_scheduler addr 0x24b23b8 size 0x88 virtual false final false
-static ::System::Threading::____System__Threading__Timer__Scheduler get_scheduler() ;
+static System::Threading::System__Threading__Timer__Scheduler get_scheduler() ;
 
-// Ctor Parameters [CppParam { name: "callback", ty: "::System::Threading::TimerCallback", modifiers: "", def_value: None }, CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "dueTime", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "period", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Timer(::System::Threading::TimerCallback callback, ::bs_hook::Il2CppWrapperType state, int32_t dueTime, int32_t period) ;
+// Ctor Parameters [CppParam { name: "callback", ty: "System::Threading::TimerCallback", modifiers: "", def_value: None }, CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "dueTime", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "period", ty: "int32_t", modifiers: "", def_value: None }]
+explicit Timer(System::Threading::TimerCallback callback, ::bs_hook::Il2CppWrapperType state, int32_t dueTime, int32_t period) ;
 
 /// @brief Method .ctor addr 0x24b2440 size 0x4c virtual false final false
- void _ctor(::System::Threading::TimerCallback callback, ::bs_hook::Il2CppWrapperType state, int32_t dueTime, int32_t period) ;
+ void _ctor(System::Threading::TimerCallback callback, ::bs_hook::Il2CppWrapperType state, int32_t dueTime, int32_t period) ;
 
-// Ctor Parameters [CppParam { name: "callback", ty: "::System::Threading::TimerCallback", modifiers: "", def_value: None }, CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "dueTime", ty: "::System::TimeSpan", modifiers: "", def_value: None }, CppParam { name: "period", ty: "::System::TimeSpan", modifiers: "", def_value: None }]
-explicit Timer(::System::Threading::TimerCallback callback, ::bs_hook::Il2CppWrapperType state, ::System::TimeSpan dueTime, ::System::TimeSpan period) ;
+// Ctor Parameters [CppParam { name: "callback", ty: "System::Threading::TimerCallback", modifiers: "", def_value: None }, CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "dueTime", ty: "System::TimeSpan", modifiers: "", def_value: None }, CppParam { name: "period", ty: "System::TimeSpan", modifiers: "", def_value: None }]
+explicit Timer(System::Threading::TimerCallback callback, ::bs_hook::Il2CppWrapperType state, System::TimeSpan dueTime, System::TimeSpan period) ;
 
 /// @brief Method .ctor addr 0x24b2500 size 0x90 virtual false final false
- void _ctor(::System::Threading::TimerCallback callback, ::bs_hook::Il2CppWrapperType state, ::System::TimeSpan dueTime, ::System::TimeSpan period) ;
+ void _ctor(System::Threading::TimerCallback callback, ::bs_hook::Il2CppWrapperType state, System::TimeSpan dueTime, System::TimeSpan period) ;
 
 /// @brief Method Init addr 0x24b248c size 0x74 virtual false final false
- void Init(::System::Threading::TimerCallback callback, ::bs_hook::Il2CppWrapperType state, int64_t dueTime, int64_t period) ;
+ void Init(System::Threading::TimerCallback callback, ::bs_hook::Il2CppWrapperType state, int64_t dueTime, int64_t period) ;
 
 /// @brief Method Change addr 0x24b2770 size 0x20 virtual false final false
  bool Change(int32_t dueTime, int32_t period) ;
 
 /// @brief Method Change addr 0x24b2790 size 0x78 virtual false final false
- bool Change(::System::TimeSpan dueTime, ::System::TimeSpan period) ;
+ bool Change(System::TimeSpan dueTime, System::TimeSpan period) ;
 
 /// @brief Method Dispose addr 0x24b2808 size 0x38 virtual true final true
  void Dispose() ;
@@ -365,9 +364,8 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Threading
-} // end anonymous namespace
-NEED_NO_BOX(::System::Threading::Timer);
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Timer, "System.Threading", "Timer");
-NEED_NO_BOX(::System::Threading::____System__Threading__Timer__Scheduler);
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::____System__Threading__Timer__Scheduler, "System.Threading", "Timer/Scheduler");
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::____System__Threading__Timer__TimerComparer, "System.Threading", "Timer/TimerComparer");
+NEED_NO_BOX(System::Threading::System__Threading__Timer__Scheduler);
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::System__Threading__Timer__Scheduler, "System.Threading", "Timer/Scheduler");
+NEED_NO_BOX(System::Threading::Timer);
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::Timer, "System.Threading", "Timer");
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::System__Threading__Timer__TimerComparer, "System.Threading", "Timer/TimerComparer");

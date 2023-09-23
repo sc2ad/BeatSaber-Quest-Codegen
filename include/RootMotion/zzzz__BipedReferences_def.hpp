@@ -6,31 +6,30 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
-namespace {
 namespace UnityEngine {
-struct Vector3;
+class Animator;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace RootMotion {
-struct ____RootMotion__BipedNaming__BoneSide;
+struct RootMotion__BipedNaming__BoneType;
+}
+namespace RootMotion {
+struct RootMotion__BipedNaming__BoneSide;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-class Animator;
-}
-namespace RootMotion {
-struct ____RootMotion__BipedNaming__BoneType;
+struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion {
 class BipedReferences;
 }
 namespace RootMotion {
-struct ____RootMotion__BipedReferences__AutoDetectParams;
+struct RootMotion__BipedReferences__AutoDetectParams;
 }
 // Type: ::AutoDetectParams
 namespace RootMotion {
@@ -38,20 +37,20 @@ namespace RootMotion {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12429))
 // CS Name: RootMotion.BipedReferences::AutoDetectParams
-struct CORDL_TYPE ____RootMotion__BipedReferences__AutoDetectParams : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE RootMotion__BipedReferences__AutoDetectParams : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "legsParentInSpine", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "includeEyes", ty: "bool", modifiers: "", def_value: None }]
-constexpr ____RootMotion__BipedReferences__AutoDetectParams(bool legsParentInSpine, bool includeEyes) noexcept;
+constexpr RootMotion__BipedReferences__AutoDetectParams(bool legsParentInSpine, bool includeEyes) noexcept;
 
 
-                    constexpr ____RootMotion__BipedReferences__AutoDetectParams(____RootMotion__BipedReferences__AutoDetectParams const&) = default;
-                    constexpr ____RootMotion__BipedReferences__AutoDetectParams(____RootMotion__BipedReferences__AutoDetectParams&&) = default;
-                    constexpr ____RootMotion__BipedReferences__AutoDetectParams& operator=(____RootMotion__BipedReferences__AutoDetectParams const& o) {
+                    constexpr RootMotion__BipedReferences__AutoDetectParams(RootMotion__BipedReferences__AutoDetectParams const&) = default;
+                    constexpr RootMotion__BipedReferences__AutoDetectParams(RootMotion__BipedReferences__AutoDetectParams&&) = default;
+                    constexpr RootMotion__BipedReferences__AutoDetectParams& operator=(RootMotion__BipedReferences__AutoDetectParams const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____RootMotion__BipedReferences__AutoDetectParams& operator=(____RootMotion__BipedReferences__AutoDetectParams&& o) noexcept {
+                    constexpr RootMotion__BipedReferences__AutoDetectParams& operator=(RootMotion__BipedReferences__AutoDetectParams&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -64,7 +63,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x2};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____RootMotion__BipedReferences__AutoDetectParams(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit RootMotion__BipedReferences__AutoDetectParams(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -90,7 +89,7 @@ constexpr bool __get_includeEyes() const;
 
 // Properties
 
-static ::RootMotion::____RootMotion__BipedReferences__AutoDetectParams __declspec(property(get=get_Default))  Default;
+static RootMotion::RootMotion__BipedReferences__AutoDetectParams __declspec(property(get=get_Default))  Default;
 
 
 // Methods
@@ -99,7 +98,7 @@ static ::RootMotion::____RootMotion__BipedReferences__AutoDetectParams __declspe
  void _ctor(bool legsParentInSpine, bool includeEyes) ;
 
 /// @brief Method get_Default addr 0x11b2a40 size 0x8 virtual false final false
-static ::RootMotion::____RootMotion__BipedReferences__AutoDetectParams get_Default() ;
+static RootMotion::RootMotion__BipedReferences__AutoDetectParams get_Default() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -114,7 +113,7 @@ namespace RootMotion {
 class CORDL_TYPE BipedReferences : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using AutoDetectParams = ::RootMotion::____RootMotion__BipedReferences__AutoDetectParams;
+using AutoDetectParams = RootMotion::RootMotion__BipedReferences__AutoDetectParams;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x98};
@@ -149,107 +148,107 @@ constexpr explicit BipedReferences(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Fields
 
- ::UnityEngine::Transform __declspec(property(get=__get_root, put=__set_root))  root;
+ UnityEngine::Transform __declspec(property(get=__get_root, put=__set_root))  root;
 
-constexpr void __set_root(::UnityEngine::Transform value) ;
+constexpr void __set_root(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_root() const;
+constexpr UnityEngine::Transform __get_root() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_pelvis, put=__set_pelvis))  pelvis;
+ UnityEngine::Transform __declspec(property(get=__get_pelvis, put=__set_pelvis))  pelvis;
 
-constexpr void __set_pelvis(::UnityEngine::Transform value) ;
+constexpr void __set_pelvis(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_pelvis() const;
+constexpr UnityEngine::Transform __get_pelvis() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_leftThigh, put=__set_leftThigh))  leftThigh;
+ UnityEngine::Transform __declspec(property(get=__get_leftThigh, put=__set_leftThigh))  leftThigh;
 
-constexpr void __set_leftThigh(::UnityEngine::Transform value) ;
+constexpr void __set_leftThigh(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_leftThigh() const;
+constexpr UnityEngine::Transform __get_leftThigh() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_leftCalf, put=__set_leftCalf))  leftCalf;
+ UnityEngine::Transform __declspec(property(get=__get_leftCalf, put=__set_leftCalf))  leftCalf;
 
-constexpr void __set_leftCalf(::UnityEngine::Transform value) ;
+constexpr void __set_leftCalf(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_leftCalf() const;
+constexpr UnityEngine::Transform __get_leftCalf() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_leftFoot, put=__set_leftFoot))  leftFoot;
+ UnityEngine::Transform __declspec(property(get=__get_leftFoot, put=__set_leftFoot))  leftFoot;
 
-constexpr void __set_leftFoot(::UnityEngine::Transform value) ;
+constexpr void __set_leftFoot(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_leftFoot() const;
+constexpr UnityEngine::Transform __get_leftFoot() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_rightThigh, put=__set_rightThigh))  rightThigh;
+ UnityEngine::Transform __declspec(property(get=__get_rightThigh, put=__set_rightThigh))  rightThigh;
 
-constexpr void __set_rightThigh(::UnityEngine::Transform value) ;
+constexpr void __set_rightThigh(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_rightThigh() const;
+constexpr UnityEngine::Transform __get_rightThigh() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_rightCalf, put=__set_rightCalf))  rightCalf;
+ UnityEngine::Transform __declspec(property(get=__get_rightCalf, put=__set_rightCalf))  rightCalf;
 
-constexpr void __set_rightCalf(::UnityEngine::Transform value) ;
+constexpr void __set_rightCalf(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_rightCalf() const;
+constexpr UnityEngine::Transform __get_rightCalf() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_rightFoot, put=__set_rightFoot))  rightFoot;
+ UnityEngine::Transform __declspec(property(get=__get_rightFoot, put=__set_rightFoot))  rightFoot;
 
-constexpr void __set_rightFoot(::UnityEngine::Transform value) ;
+constexpr void __set_rightFoot(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_rightFoot() const;
+constexpr UnityEngine::Transform __get_rightFoot() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_leftUpperArm, put=__set_leftUpperArm))  leftUpperArm;
+ UnityEngine::Transform __declspec(property(get=__get_leftUpperArm, put=__set_leftUpperArm))  leftUpperArm;
 
-constexpr void __set_leftUpperArm(::UnityEngine::Transform value) ;
+constexpr void __set_leftUpperArm(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_leftUpperArm() const;
+constexpr UnityEngine::Transform __get_leftUpperArm() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_leftForearm, put=__set_leftForearm))  leftForearm;
+ UnityEngine::Transform __declspec(property(get=__get_leftForearm, put=__set_leftForearm))  leftForearm;
 
-constexpr void __set_leftForearm(::UnityEngine::Transform value) ;
+constexpr void __set_leftForearm(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_leftForearm() const;
+constexpr UnityEngine::Transform __get_leftForearm() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_leftHand, put=__set_leftHand))  leftHand;
+ UnityEngine::Transform __declspec(property(get=__get_leftHand, put=__set_leftHand))  leftHand;
 
-constexpr void __set_leftHand(::UnityEngine::Transform value) ;
+constexpr void __set_leftHand(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_leftHand() const;
+constexpr UnityEngine::Transform __get_leftHand() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_rightUpperArm, put=__set_rightUpperArm))  rightUpperArm;
+ UnityEngine::Transform __declspec(property(get=__get_rightUpperArm, put=__set_rightUpperArm))  rightUpperArm;
 
-constexpr void __set_rightUpperArm(::UnityEngine::Transform value) ;
+constexpr void __set_rightUpperArm(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_rightUpperArm() const;
+constexpr UnityEngine::Transform __get_rightUpperArm() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_rightForearm, put=__set_rightForearm))  rightForearm;
+ UnityEngine::Transform __declspec(property(get=__get_rightForearm, put=__set_rightForearm))  rightForearm;
 
-constexpr void __set_rightForearm(::UnityEngine::Transform value) ;
+constexpr void __set_rightForearm(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_rightForearm() const;
+constexpr UnityEngine::Transform __get_rightForearm() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_rightHand, put=__set_rightHand))  rightHand;
+ UnityEngine::Transform __declspec(property(get=__get_rightHand, put=__set_rightHand))  rightHand;
 
-constexpr void __set_rightHand(::UnityEngine::Transform value) ;
+constexpr void __set_rightHand(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_rightHand() const;
+constexpr UnityEngine::Transform __get_rightHand() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_head, put=__set_head))  head;
+ UnityEngine::Transform __declspec(property(get=__get_head, put=__set_head))  head;
 
-constexpr void __set_head(::UnityEngine::Transform value) ;
+constexpr void __set_head(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_head() const;
+constexpr UnityEngine::Transform __get_head() const;
 
- ::ArrayW<::UnityEngine::Transform> __declspec(property(get=__get_spine, put=__set_spine))  spine;
+ ::ArrayW<UnityEngine::Transform> __declspec(property(get=__get_spine, put=__set_spine))  spine;
 
-constexpr void __set_spine(::ArrayW<::UnityEngine::Transform> value) ;
+constexpr void __set_spine(::ArrayW<UnityEngine::Transform> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Transform> __get_spine() const;
+constexpr ::ArrayW<UnityEngine::Transform> __get_spine() const;
 
- ::ArrayW<::UnityEngine::Transform> __declspec(property(get=__get_eyes, put=__set_eyes))  eyes;
+ ::ArrayW<UnityEngine::Transform> __declspec(property(get=__get_eyes, put=__set_eyes))  eyes;
 
-constexpr void __set_eyes(::ArrayW<::UnityEngine::Transform> value) ;
+constexpr void __set_eyes(::ArrayW<UnityEngine::Transform> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Transform> __get_eyes() const;
+constexpr ::ArrayW<UnityEngine::Transform> __get_eyes() const;
 
 
 // Properties
@@ -271,64 +270,64 @@ constexpr ::ArrayW<::UnityEngine::Transform> __get_eyes() const;
  bool IsEmpty(bool includeRoot) ;
 
 /// @brief Method Contains addr 0x11af81c size 0x390 virtual true final false
- bool Contains(::UnityEngine::Transform t, bool ignoreRoot) ;
+ bool Contains(UnityEngine::Transform t, bool ignoreRoot) ;
 
 /// @brief Method AutoDetectReferences addr 0x11afbac size 0x1f8 virtual false final false
-static bool AutoDetectReferences(ByRef<::RootMotion::BipedReferences> references, ::UnityEngine::Transform root, ::RootMotion::____RootMotion__BipedReferences__AutoDetectParams autoDetectParams) ;
+static bool AutoDetectReferences(ByRef<RootMotion::BipedReferences> references, UnityEngine::Transform root, RootMotion::RootMotion__BipedReferences__AutoDetectParams autoDetectParams) ;
 
 /// @brief Method DetectReferencesByNaming addr 0x11b01d0 size 0x748 virtual false final false
-static void DetectReferencesByNaming(ByRef<::RootMotion::BipedReferences> references, ::UnityEngine::Transform root, ::RootMotion::____RootMotion__BipedReferences__AutoDetectParams autoDetectParams) ;
+static void DetectReferencesByNaming(ByRef<RootMotion::BipedReferences> references, UnityEngine::Transform root, RootMotion::RootMotion__BipedReferences__AutoDetectParams autoDetectParams) ;
 
 /// @brief Method AssignHumanoidReferences addr 0x11afe0c size 0x3c4 virtual false final false
-static void AssignHumanoidReferences(ByRef<::RootMotion::BipedReferences> references, ::UnityEngine::Animator animator, ::RootMotion::____RootMotion__BipedReferences__AutoDetectParams autoDetectParams) ;
+static void AssignHumanoidReferences(ByRef<RootMotion::BipedReferences> references, UnityEngine::Animator animator, RootMotion::RootMotion__BipedReferences__AutoDetectParams autoDetectParams) ;
 
 /// @brief Method SetupError addr 0x11b09cc size 0xe0 virtual false final false
-static bool SetupError(::RootMotion::BipedReferences references, ByRef<::StringW> errorMessage) ;
+static bool SetupError(RootMotion::BipedReferences references, ByRef<::StringW> errorMessage) ;
 
 /// @brief Method SetupWarning addr 0x11b0aac size 0x9c virtual false final false
-static bool SetupWarning(::RootMotion::BipedReferences references, ByRef<::StringW> warningMessage) ;
+static bool SetupWarning(RootMotion::BipedReferences references, ByRef<::StringW> warningMessage) ;
 
 /// @brief Method IsNeckBone addr 0x11b1524 size 0xe0 virtual false final false
-static bool IsNeckBone(::UnityEngine::Transform bone, ::UnityEngine::Transform leftUpperArm) ;
+static bool IsNeckBone(UnityEngine::Transform bone, UnityEngine::Transform leftUpperArm) ;
 
 /// @brief Method AddBoneToEyes addr 0x11b1344 size 0xf4 virtual false final false
-static bool AddBoneToEyes(::UnityEngine::Transform bone, ByRef<::RootMotion::BipedReferences> references, ::RootMotion::____RootMotion__BipedReferences__AutoDetectParams autoDetectParams) ;
+static bool AddBoneToEyes(UnityEngine::Transform bone, ByRef<RootMotion::BipedReferences> references, RootMotion::RootMotion__BipedReferences__AutoDetectParams autoDetectParams) ;
 
 /// @brief Method AddBoneToSpine addr 0x11b10e4 size 0x150 virtual false final false
-static bool AddBoneToSpine(::UnityEngine::Transform bone, ByRef<::RootMotion::BipedReferences> references, ::RootMotion::____RootMotion__BipedReferences__AutoDetectParams autoDetectParams) ;
+static bool AddBoneToSpine(UnityEngine::Transform bone, ByRef<RootMotion::BipedReferences> references, RootMotion::RootMotion__BipedReferences__AutoDetectParams autoDetectParams) ;
 
 /// @brief Method DetectLimb addr 0x11b0b48 size 0xdc virtual false final false
-static void DetectLimb(::RootMotion::____RootMotion__BipedNaming__BoneType boneType, ::RootMotion::____RootMotion__BipedNaming__BoneSide boneSide, ByRef<::UnityEngine::Transform> firstBone, ByRef<::UnityEngine::Transform> secondBone, ByRef<::UnityEngine::Transform> lastBone, ::ArrayW<::UnityEngine::Transform> transforms) ;
+static void DetectLimb(RootMotion::RootMotion__BipedNaming__BoneType boneType, RootMotion::RootMotion__BipedNaming__BoneSide boneSide, ByRef<UnityEngine::Transform> firstBone, ByRef<UnityEngine::Transform> secondBone, ByRef<UnityEngine::Transform> lastBone, ::ArrayW<UnityEngine::Transform> transforms) ;
 
 /// @brief Method AddBoneToHierarchy addr 0x11b1438 size 0xec virtual false final false
-static void AddBoneToHierarchy(ByRef<::ArrayW<::UnityEngine::Transform>> bones, ::UnityEngine::Transform transform) ;
+static void AddBoneToHierarchy(ByRef<::ArrayW<UnityEngine::Transform>> bones, UnityEngine::Transform transform) ;
 
 /// @brief Method LimbError addr 0x11b1604 size 0x580 virtual false final false
-static bool LimbError(::UnityEngine::Transform bone1, ::UnityEngine::Transform bone2, ::UnityEngine::Transform bone3, ByRef<::StringW> errorMessage) ;
+static bool LimbError(UnityEngine::Transform bone1, UnityEngine::Transform bone2, UnityEngine::Transform bone3, ByRef<::StringW> errorMessage) ;
 
 /// @brief Method LimbWarning addr 0x11b20c4 size 0x2d4 virtual false final false
-static bool LimbWarning(::UnityEngine::Transform bone1, ::UnityEngine::Transform bone2, ::UnityEngine::Transform bone3, ByRef<::StringW> warningMessage) ;
+static bool LimbWarning(UnityEngine::Transform bone1, UnityEngine::Transform bone2, UnityEngine::Transform bone3, ByRef<::StringW> warningMessage) ;
 
 /// @brief Method SpineError addr 0x11b1b84 size 0x354 virtual false final false
-static bool SpineError(::RootMotion::BipedReferences references, ByRef<::StringW> errorMessage) ;
+static bool SpineError(RootMotion::BipedReferences references, ByRef<::StringW> errorMessage) ;
 
 /// @brief Method SpineWarning addr 0x11b2398 size 0x8 virtual false final false
-static bool SpineWarning(::RootMotion::BipedReferences references, ByRef<::StringW> warningMessage) ;
+static bool SpineWarning(RootMotion::BipedReferences references, ByRef<::StringW> warningMessage) ;
 
 /// @brief Method EyesError addr 0x11b1ed8 size 0x1ec virtual false final false
-static bool EyesError(::RootMotion::BipedReferences references, ByRef<::StringW> errorMessage) ;
+static bool EyesError(RootMotion::BipedReferences references, ByRef<::StringW> errorMessage) ;
 
 /// @brief Method EyesWarning addr 0x11b23a0 size 0x8 virtual false final false
-static bool EyesWarning(::RootMotion::BipedReferences references, ByRef<::StringW> warningMessage) ;
+static bool EyesWarning(RootMotion::BipedReferences references, ByRef<::StringW> warningMessage) ;
 
 /// @brief Method RootHeightWarning addr 0x11b23a8 size 0x1b4 virtual false final false
-static bool RootHeightWarning(::RootMotion::BipedReferences references, ByRef<::StringW> warningMessage) ;
+static bool RootHeightWarning(RootMotion::BipedReferences references, ByRef<::StringW> warningMessage) ;
 
 /// @brief Method FacingAxisWarning addr 0x11b255c size 0x2d8 virtual false final false
-static bool FacingAxisWarning(::RootMotion::BipedReferences references, ByRef<::StringW> warningMessage) ;
+static bool FacingAxisWarning(RootMotion::BipedReferences references, ByRef<::StringW> warningMessage) ;
 
 /// @brief Method GetVerticalOffset addr 0x11b29c4 size 0x68 virtual false final false
-static float_t GetVerticalOffset(::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2, ::UnityEngine::Quaternion rotation) ;
+static float_t GetVerticalOffset(UnityEngine::Vector3 p1, UnityEngine::Vector3 p2, UnityEngine::Quaternion rotation) ;
 
 // Ctor Parameters []
 explicit BipedReferences() ;
@@ -340,7 +339,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::BipedReferences);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::BipedReferences, "RootMotion", "BipedReferences");
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::____RootMotion__BipedReferences__AutoDetectParams, "RootMotion", "BipedReferences/AutoDetectParams");
+NEED_NO_BOX(RootMotion::BipedReferences);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedReferences, "RootMotion", "BipedReferences");
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::RootMotion__BipedReferences__AutoDetectParams, "RootMotion", "BipedReferences/AutoDetectParams");

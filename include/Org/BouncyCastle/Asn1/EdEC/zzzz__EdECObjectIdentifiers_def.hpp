@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
@@ -51,35 +50,35 @@ constexpr explicit EdECObjectIdentifiers(void* ptr) noexcept : ::bs_hook::Il2Cpp
 
 // Fields
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_id_edwards_curve_algs, put=__set_id_edwards_curve_algs))  id_edwards_curve_algs;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_id_edwards_curve_algs, put=__set_id_edwards_curve_algs))  id_edwards_curve_algs;
 
-static void __set_id_edwards_curve_algs(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_id_edwards_curve_algs(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_id_edwards_curve_algs() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_id_edwards_curve_algs() ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_id_X25519, put=__set_id_X25519))  id_X25519;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_id_X25519, put=__set_id_X25519))  id_X25519;
 
-static void __set_id_X25519(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_id_X25519(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_id_X25519() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_id_X25519() ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_id_X448, put=__set_id_X448))  id_X448;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_id_X448, put=__set_id_X448))  id_X448;
 
-static void __set_id_X448(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_id_X448(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_id_X448() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_id_X448() ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_id_Ed25519, put=__set_id_Ed25519))  id_Ed25519;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_id_Ed25519, put=__set_id_Ed25519))  id_Ed25519;
 
-static void __set_id_Ed25519(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_id_Ed25519(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_id_Ed25519() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_id_Ed25519() ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_id_Ed448, put=__set_id_Ed448))  id_Ed448;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_id_Ed448, put=__set_id_Ed448))  id_Ed448;
 
-static void __set_id_Ed448(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_id_Ed448(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_id_Ed448() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_id_Ed448() ;
 
 
 // Methods
@@ -94,6 +93,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::EdEC
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::EdEC::EdECObjectIdentifiers);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::EdEC::EdECObjectIdentifiers, "Org.BouncyCastle.Asn1.EdEC", "EdECObjectIdentifiers");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::EdEC::EdECObjectIdentifiers);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::EdEC::EdECObjectIdentifiers, "Org.BouncyCastle.Asn1.EdEC", "EdECObjectIdentifiers");

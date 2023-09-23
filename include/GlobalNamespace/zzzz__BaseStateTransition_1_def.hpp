@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__BaseStateTransition_def.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 template<typename T>
@@ -17,10 +16,10 @@ namespace GlobalNamespace {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5543)), TypeDefinitionIndex(TypeDefinitionIndex(5544))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5544)), TypeDefinitionIndex(TypeDefinitionIndex(5543))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5544), inst: 2 })
 // CS Name: BaseStateTransition`1
-class CORDL_TYPE BaseStateTransition_1<T> : public ::GlobalNamespace::BaseStateTransition {
+class CORDL_TYPE BaseStateTransition_1<T> : public GlobalNamespace::BaseStateTransition {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr BaseStateTransition_1(BaseStateTransition_1 const& ) noexcept = defaul
 constexpr BaseStateTransition_1(BaseStateTransition_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BaseStateTransition_1(void* ptr) noexcept : ::GlobalNamespace::BaseStateTransition(ptr) {
+constexpr explicit BaseStateTransition_1(void* ptr) noexcept : GlobalNamespace::BaseStateTransition(ptr) {
 }
 
 
@@ -75,5 +74,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::BaseStateTransition_1, "", "BaseStateTransition`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::BaseStateTransition_1, "", "BaseStateTransition`1");

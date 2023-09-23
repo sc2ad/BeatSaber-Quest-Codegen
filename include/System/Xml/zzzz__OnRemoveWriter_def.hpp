@@ -3,7 +3,6 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Xml {
 class XmlRawWriter;
 }
@@ -17,7 +16,7 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11372))
 // CS Name: System.Xml.OnRemoveWriter
-class CORDL_TYPE OnRemoveWriter : public ::System::MulticastDelegate {
+class CORDL_TYPE OnRemoveWriter : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr OnRemoveWriter(OnRemoveWriter const& ) noexcept = default;
 constexpr OnRemoveWriter(OnRemoveWriter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OnRemoveWriter(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit OnRemoveWriter(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -60,12 +59,11 @@ explicit OnRemoveWriter(::bs_hook::Il2CppWrapperType object, ::cordl_internals::
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x26c113c size 0x14 virtual true final false
- void Invoke(::System::Xml::XmlRawWriter writer) ;
+ void Invoke(System::Xml::XmlRawWriter writer) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::OnRemoveWriter);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::OnRemoveWriter, "System.Xml", "OnRemoveWriter");
+NEED_NO_BOX(System::Xml::OnRemoveWriter);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::OnRemoveWriter, "System.Xml", "OnRemoveWriter");

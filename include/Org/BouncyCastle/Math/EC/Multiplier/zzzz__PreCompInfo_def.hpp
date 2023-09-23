@@ -1,6 +1,5 @@
 #pragma once
 #include "../../../../../cordl_internals/cordl_internals.hpp"
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class PreCompInfo;
@@ -24,6 +23,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Math::EC::Multiplier
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo, "Org.BouncyCastle.Math.EC.Multiplier", "PreCompInfo");
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo, "Org.BouncyCastle.Math.EC.Multiplier", "PreCompInfo");

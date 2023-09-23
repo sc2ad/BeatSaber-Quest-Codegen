@@ -3,9 +3,8 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine::TextCore {
-struct GlyphMetrics;
+struct GlyphRect;
 }
 namespace UnityEngine::TextCore::LowLevel {
 struct GlyphMarshallingStruct;
@@ -14,7 +13,7 @@ namespace UnityEngine::TextCore {
 struct GlyphClassDefinitionType;
 }
 namespace UnityEngine::TextCore {
-struct GlyphRect;
+struct GlyphMetrics;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore {
@@ -68,17 +67,17 @@ constexpr void __set_m_Index(uint32_t value) ;
 
 constexpr uint32_t __get_m_Index() const;
 
- ::UnityEngine::TextCore::GlyphMetrics __declspec(property(get=__get_m_Metrics, put=__set_m_Metrics))  m_Metrics;
+ UnityEngine::TextCore::GlyphMetrics __declspec(property(get=__get_m_Metrics, put=__set_m_Metrics))  m_Metrics;
 
-constexpr void __set_m_Metrics(::UnityEngine::TextCore::GlyphMetrics value) ;
+constexpr void __set_m_Metrics(UnityEngine::TextCore::GlyphMetrics value) ;
 
-constexpr ::UnityEngine::TextCore::GlyphMetrics __get_m_Metrics() const;
+constexpr UnityEngine::TextCore::GlyphMetrics __get_m_Metrics() const;
 
- ::UnityEngine::TextCore::GlyphRect __declspec(property(get=__get_m_GlyphRect, put=__set_m_GlyphRect))  m_GlyphRect;
+ UnityEngine::TextCore::GlyphRect __declspec(property(get=__get_m_GlyphRect, put=__set_m_GlyphRect))  m_GlyphRect;
 
-constexpr void __set_m_GlyphRect(::UnityEngine::TextCore::GlyphRect value) ;
+constexpr void __set_m_GlyphRect(UnityEngine::TextCore::GlyphRect value) ;
 
-constexpr ::UnityEngine::TextCore::GlyphRect __get_m_GlyphRect() const;
+constexpr UnityEngine::TextCore::GlyphRect __get_m_GlyphRect() const;
 
  float_t __declspec(property(get=__get_m_Scale, put=__set_m_Scale))  m_Scale;
 
@@ -92,20 +91,20 @@ constexpr void __set_m_AtlasIndex(int32_t value) ;
 
 constexpr int32_t __get_m_AtlasIndex() const;
 
- ::UnityEngine::TextCore::GlyphClassDefinitionType __declspec(property(get=__get_m_ClassDefinitionType, put=__set_m_ClassDefinitionType))  m_ClassDefinitionType;
+ UnityEngine::TextCore::GlyphClassDefinitionType __declspec(property(get=__get_m_ClassDefinitionType, put=__set_m_ClassDefinitionType))  m_ClassDefinitionType;
 
-constexpr void __set_m_ClassDefinitionType(::UnityEngine::TextCore::GlyphClassDefinitionType value) ;
+constexpr void __set_m_ClassDefinitionType(UnityEngine::TextCore::GlyphClassDefinitionType value) ;
 
-constexpr ::UnityEngine::TextCore::GlyphClassDefinitionType __get_m_ClassDefinitionType() const;
+constexpr UnityEngine::TextCore::GlyphClassDefinitionType __get_m_ClassDefinitionType() const;
 
 
 // Properties
 
  uint32_t __declspec(property(get=get_index, put=set_index))  index;
 
- ::UnityEngine::TextCore::GlyphMetrics __declspec(property(get=get_metrics, put=set_metrics))  metrics;
+ UnityEngine::TextCore::GlyphMetrics __declspec(property(get=get_metrics, put=set_metrics))  metrics;
 
- ::UnityEngine::TextCore::GlyphRect __declspec(property(get=get_glyphRect, put=set_glyphRect))  glyphRect;
+ UnityEngine::TextCore::GlyphRect __declspec(property(get=get_glyphRect, put=set_glyphRect))  glyphRect;
 
  float_t __declspec(property(get=get_scale, put=set_scale))  scale;
 
@@ -121,16 +120,16 @@ constexpr ::UnityEngine::TextCore::GlyphClassDefinitionType __get_m_ClassDefinit
  void set_index(uint32_t value) ;
 
 /// @brief Method get_metrics addr 0x2baa80c size 0x14 virtual false final false
- ::UnityEngine::TextCore::GlyphMetrics get_metrics() ;
+ UnityEngine::TextCore::GlyphMetrics get_metrics() ;
 
 /// @brief Method set_metrics addr 0x2baa820 size 0x14 virtual false final false
- void set_metrics(::UnityEngine::TextCore::GlyphMetrics value) ;
+ void set_metrics(UnityEngine::TextCore::GlyphMetrics value) ;
 
 /// @brief Method get_glyphRect addr 0x2baa834 size 0xc virtual false final false
- ::UnityEngine::TextCore::GlyphRect get_glyphRect() ;
+ UnityEngine::TextCore::GlyphRect get_glyphRect() ;
 
 /// @brief Method set_glyphRect addr 0x2baa840 size 0x8 virtual false final false
- void set_glyphRect(::UnityEngine::TextCore::GlyphRect value) ;
+ void set_glyphRect(UnityEngine::TextCore::GlyphRect value) ;
 
 /// @brief Method get_scale addr 0x2baa848 size 0x8 virtual false final false
  float_t get_scale() ;
@@ -150,22 +149,21 @@ explicit Glyph() ;
 /// @brief Method .ctor addr 0x2baa868 size 0x28 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "glyphStruct", ty: "::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct", modifiers: "", def_value: None }]
-explicit Glyph(::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct glyphStruct) ;
+// Ctor Parameters [CppParam { name: "glyphStruct", ty: "UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct", modifiers: "", def_value: None }]
+explicit Glyph(UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct glyphStruct) ;
 
 /// @brief Method .ctor addr 0x2baa890 size 0x8c virtual false final false
- void _ctor(::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct glyphStruct) ;
+ void _ctor(UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct glyphStruct) ;
 
-// Ctor Parameters [CppParam { name: "index", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "metrics", ty: "::UnityEngine::TextCore::GlyphMetrics", modifiers: "", def_value: None }, CppParam { name: "glyphRect", ty: "::UnityEngine::TextCore::GlyphRect", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "atlasIndex", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Glyph(uint32_t index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex) ;
+// Ctor Parameters [CppParam { name: "index", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "metrics", ty: "UnityEngine::TextCore::GlyphMetrics", modifiers: "", def_value: None }, CppParam { name: "glyphRect", ty: "UnityEngine::TextCore::GlyphRect", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "atlasIndex", ty: "int32_t", modifiers: "", def_value: None }]
+explicit Glyph(uint32_t index, UnityEngine::TextCore::GlyphMetrics metrics, UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex) ;
 
 /// @brief Method .ctor addr 0x2baa91c size 0x70 virtual false final false
- void _ctor(uint32_t index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex) ;
+ void _ctor(uint32_t index, UnityEngine::TextCore::GlyphMetrics metrics, UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::TextCore::Glyph);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Glyph, "UnityEngine.TextCore", "Glyph");
+NEED_NO_BOX(UnityEngine::TextCore::Glyph);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Glyph, "UnityEngine.TextCore", "Glyph");

@@ -3,15 +3,14 @@
 #include "UnityEngine/UIElements/zzzz__BaseVisualTreeUpdater_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace Unity::Profiling {
+struct ProfilerMarker;
+}
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
 struct VersionChangeType;
-}
-namespace Unity::Profiling {
-struct ProfilerMarker;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -23,7 +22,7 @@ namespace UnityEngine::UIElements {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6838))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6869))
 // CS Name: UnityEngine.UIElements.VisualTreeTransformClipUpdater
-class CORDL_TYPE VisualTreeTransformClipUpdater : public ::UnityEngine::UIElements::BaseVisualTreeUpdater {
+class CORDL_TYPE VisualTreeTransformClipUpdater : public UnityEngine::UIElements::BaseVisualTreeUpdater {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr VisualTreeTransformClipUpdater(VisualTreeTransformClipUpdater const& )
 constexpr VisualTreeTransformClipUpdater(VisualTreeTransformClipUpdater&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit VisualTreeTransformClipUpdater(void* ptr) noexcept : ::UnityEngine::UIElements::BaseVisualTreeUpdater(ptr) {
+constexpr explicit VisualTreeTransformClipUpdater(void* ptr) noexcept : UnityEngine::UIElements::BaseVisualTreeUpdater(ptr) {
 }
 
 
@@ -77,31 +76,31 @@ static void __set_s_Description(::StringW value) ;
 
 static ::StringW __get_s_Description() ;
 
-static ::Unity::Profiling::ProfilerMarker __declspec(property(get=__get_s_ProfilerMarker, put=__set_s_ProfilerMarker))  s_ProfilerMarker;
+static Unity::Profiling::ProfilerMarker __declspec(property(get=__get_s_ProfilerMarker, put=__set_s_ProfilerMarker))  s_ProfilerMarker;
 
-static void __set_s_ProfilerMarker(::Unity::Profiling::ProfilerMarker value) ;
+static void __set_s_ProfilerMarker(Unity::Profiling::ProfilerMarker value) ;
 
-static ::Unity::Profiling::ProfilerMarker __get_s_ProfilerMarker() ;
+static Unity::Profiling::ProfilerMarker __get_s_ProfilerMarker() ;
 
 
 // Properties
 
- ::Unity::Profiling::ProfilerMarker __declspec(property(get=get_profilerMarker))  profilerMarker;
+ Unity::Profiling::ProfilerMarker __declspec(property(get=get_profilerMarker))  profilerMarker;
 
 
 // Methods
 
 /// @brief Method get_profilerMarker addr 0x2c41368 size 0x58 virtual true final false
- ::Unity::Profiling::ProfilerMarker get_profilerMarker() ;
+ Unity::Profiling::ProfilerMarker get_profilerMarker() ;
 
 /// @brief Method OnVersionChanged addr 0x2c413c0 size 0xf4 virtual true final false
- void OnVersionChanged(::UnityEngine::UIElements::VisualElement ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType) ;
+ void OnVersionChanged(UnityEngine::UIElements::VisualElement ve, UnityEngine::UIElements::VersionChangeType versionChangeType) ;
 
 /// @brief Method DirtyHierarchy addr 0x2c414b4 size 0x154 virtual false final false
-static void DirtyHierarchy(::UnityEngine::UIElements::VisualElement ve, bool mustDirtyWorldTransform, bool mustDirtyWorldClip) ;
+static void DirtyHierarchy(UnityEngine::UIElements::VisualElement ve, bool mustDirtyWorldTransform, bool mustDirtyWorldClip) ;
 
 /// @brief Method DirtyBoundingBoxHierarchy addr 0x2c41608 size 0xa8 virtual false final false
-static void DirtyBoundingBoxHierarchy(::UnityEngine::UIElements::VisualElement ve) ;
+static void DirtyBoundingBoxHierarchy(UnityEngine::UIElements::VisualElement ve) ;
 
 /// @brief Method Update addr 0x2c416b0 size 0x64 virtual true final false
  void Update() ;
@@ -116,6 +115,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::VisualTreeTransformClipUpdater);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::VisualTreeTransformClipUpdater, "UnityEngine.UIElements", "VisualTreeTransformClipUpdater");
+NEED_NO_BOX(UnityEngine::UIElements::VisualTreeTransformClipUpdater);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::VisualTreeTransformClipUpdater, "UnityEngine.UIElements", "VisualTreeTransformClipUpdater");

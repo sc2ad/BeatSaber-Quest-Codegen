@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 #include <cstddef>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct GradientAlphaKey;
@@ -72,5 +71,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::GradientAlphaKey, "UnityEngine", "GradientAlphaKey");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GradientAlphaKey, "UnityEngine", "GradientAlphaKey");

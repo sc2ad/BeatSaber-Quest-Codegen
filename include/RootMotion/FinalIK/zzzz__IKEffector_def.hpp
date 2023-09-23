@@ -6,24 +6,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace RootMotion::FinalIK {
+class IKSolverFullBody;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__IKSolver__Node;
+}
 namespace UnityEngine {
 class Transform;
 }
 namespace RootMotion::FinalIK {
 class IKSolver;
-}
-namespace RootMotion::FinalIK {
-class ____RootMotion__FinalIK__IKSolver__Node;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace RootMotion::FinalIK {
-class IKSolverFullBody;
-}
-namespace UnityEngine {
-struct Quaternion;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -71,17 +70,17 @@ constexpr explicit IKEffector(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType
 
 // Fields
 
- ::UnityEngine::Transform __declspec(property(get=__get_bone, put=__set_bone))  bone;
+ UnityEngine::Transform __declspec(property(get=__get_bone, put=__set_bone))  bone;
 
-constexpr void __set_bone(::UnityEngine::Transform value) ;
+constexpr void __set_bone(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_bone() const;
+constexpr UnityEngine::Transform __get_bone() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_target, put=__set_target))  target;
+ UnityEngine::Transform __declspec(property(get=__get_target, put=__set_target))  target;
 
-constexpr void __set_target(::UnityEngine::Transform value) ;
+constexpr void __set_target(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_target() const;
+constexpr UnityEngine::Transform __get_target() const;
 
  float_t __declspec(property(get=__get_positionWeight, put=__set_positionWeight))  positionWeight;
 
@@ -95,23 +94,23 @@ constexpr void __set_rotationWeight(float_t value) ;
 
 constexpr float_t __get_rotationWeight() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_position, put=__set_position))  position;
+ UnityEngine::Vector3 __declspec(property(get=__get_position, put=__set_position))  position;
 
-constexpr void __set_position(::UnityEngine::Vector3 value) ;
+constexpr void __set_position(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_position() const;
+constexpr UnityEngine::Vector3 __get_position() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get_rotation, put=__set_rotation))  rotation;
+ UnityEngine::Quaternion __declspec(property(get=__get_rotation, put=__set_rotation))  rotation;
 
-constexpr void __set_rotation(::UnityEngine::Quaternion value) ;
+constexpr void __set_rotation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get_rotation() const;
+constexpr UnityEngine::Quaternion __get_rotation() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_positionOffset, put=__set_positionOffset))  positionOffset;
+ UnityEngine::Vector3 __declspec(property(get=__get_positionOffset, put=__set_positionOffset))  positionOffset;
 
-constexpr void __set_positionOffset(::UnityEngine::Vector3 value) ;
+constexpr void __set_positionOffset(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_positionOffset() const;
+constexpr UnityEngine::Vector3 __get_positionOffset() const;
 
  bool __declspec(property(get=__get__isEndEffector_k__BackingField, put=__set__isEndEffector_k__BackingField))  _isEndEffector_k__BackingField;
 
@@ -131,35 +130,35 @@ constexpr void __set_maintainRelativePositionWeight(float_t value) ;
 
 constexpr float_t __get_maintainRelativePositionWeight() const;
 
- ::ArrayW<::UnityEngine::Transform> __declspec(property(get=__get_childBones, put=__set_childBones))  childBones;
+ ::ArrayW<UnityEngine::Transform> __declspec(property(get=__get_childBones, put=__set_childBones))  childBones;
 
-constexpr void __set_childBones(::ArrayW<::UnityEngine::Transform> value) ;
+constexpr void __set_childBones(::ArrayW<UnityEngine::Transform> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Transform> __get_childBones() const;
+constexpr ::ArrayW<UnityEngine::Transform> __get_childBones() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_planeBone1, put=__set_planeBone1))  planeBone1;
+ UnityEngine::Transform __declspec(property(get=__get_planeBone1, put=__set_planeBone1))  planeBone1;
 
-constexpr void __set_planeBone1(::UnityEngine::Transform value) ;
+constexpr void __set_planeBone1(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_planeBone1() const;
+constexpr UnityEngine::Transform __get_planeBone1() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_planeBone2, put=__set_planeBone2))  planeBone2;
+ UnityEngine::Transform __declspec(property(get=__get_planeBone2, put=__set_planeBone2))  planeBone2;
 
-constexpr void __set_planeBone2(::UnityEngine::Transform value) ;
+constexpr void __set_planeBone2(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_planeBone2() const;
+constexpr UnityEngine::Transform __get_planeBone2() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get_planeBone3, put=__set_planeBone3))  planeBone3;
+ UnityEngine::Transform __declspec(property(get=__get_planeBone3, put=__set_planeBone3))  planeBone3;
 
-constexpr void __set_planeBone3(::UnityEngine::Transform value) ;
+constexpr void __set_planeBone3(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_planeBone3() const;
+constexpr UnityEngine::Transform __get_planeBone3() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get_planeRotationOffset, put=__set_planeRotationOffset))  planeRotationOffset;
+ UnityEngine::Quaternion __declspec(property(get=__get_planeRotationOffset, put=__set_planeRotationOffset))  planeRotationOffset;
 
-constexpr void __set_planeRotationOffset(::UnityEngine::Quaternion value) ;
+constexpr void __set_planeRotationOffset(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get_planeRotationOffset() const;
+constexpr UnityEngine::Quaternion __get_planeRotationOffset() const;
 
  float_t __declspec(property(get=__get_posW, put=__set_posW))  posW;
 
@@ -173,11 +172,11 @@ constexpr void __set_rotW(float_t value) ;
 
 constexpr float_t __get_rotW() const;
 
- ::ArrayW<::UnityEngine::Vector3> __declspec(property(get=__get_localPositions, put=__set_localPositions))  localPositions;
+ ::ArrayW<UnityEngine::Vector3> __declspec(property(get=__get_localPositions, put=__set_localPositions))  localPositions;
 
-constexpr void __set_localPositions(::ArrayW<::UnityEngine::Vector3> value) ;
+constexpr void __set_localPositions(::ArrayW<UnityEngine::Vector3> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector3> __get_localPositions() const;
+constexpr ::ArrayW<UnityEngine::Vector3> __get_localPositions() const;
 
  bool __declspec(property(get=__get_usePlaneNodes, put=__set_usePlaneNodes))  usePlaneNodes;
 
@@ -185,17 +184,17 @@ constexpr void __set_usePlaneNodes(bool value) ;
 
 constexpr bool __get_usePlaneNodes() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get_animatedPlaneRotation, put=__set_animatedPlaneRotation))  animatedPlaneRotation;
+ UnityEngine::Quaternion __declspec(property(get=__get_animatedPlaneRotation, put=__set_animatedPlaneRotation))  animatedPlaneRotation;
 
-constexpr void __set_animatedPlaneRotation(::UnityEngine::Quaternion value) ;
+constexpr void __set_animatedPlaneRotation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get_animatedPlaneRotation() const;
+constexpr UnityEngine::Quaternion __get_animatedPlaneRotation() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_animatedPosition, put=__set_animatedPosition))  animatedPosition;
+ UnityEngine::Vector3 __declspec(property(get=__get_animatedPosition, put=__set_animatedPosition))  animatedPosition;
 
-constexpr void __set_animatedPosition(::UnityEngine::Vector3 value) ;
+constexpr void __set_animatedPosition(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_animatedPosition() const;
+constexpr UnityEngine::Vector3 __get_animatedPosition() const;
 
  bool __declspec(property(get=__get_firstUpdate, put=__set_firstUpdate))  firstUpdate;
 
@@ -272,7 +271,7 @@ constexpr ::ArrayW<int32_t> __get_childNodeIndexes() const;
 // Methods
 
 /// @brief Method GetNode addr 0x11ce308 size 0x5c virtual false final false
- ::RootMotion::FinalIK::____RootMotion__FinalIK__IKSolver__Node GetNode(::RootMotion::FinalIK::IKSolverFullBody solver) ;
+ RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Node GetNode(RootMotion::FinalIK::IKSolverFullBody solver) ;
 
 /// @brief Method get_isEndEffector addr 0x11ce364 size 0x8 virtual false final false
  bool get_isEndEffector() ;
@@ -289,43 +288,42 @@ explicit IKEffector() ;
 /// @brief Method .ctor addr 0x11ce3fc size 0x1a0 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "bone", ty: "::UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "childBones", ty: "::ArrayW<::UnityEngine::Transform>", modifiers: "", def_value: None }]
-explicit IKEffector(::UnityEngine::Transform bone, ::ArrayW<::UnityEngine::Transform> childBones) ;
+// Ctor Parameters [CppParam { name: "bone", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "childBones", ty: "::ArrayW<UnityEngine::Transform>", modifiers: "", def_value: None }]
+explicit IKEffector(UnityEngine::Transform bone, ::ArrayW<UnityEngine::Transform> childBones) ;
 
 /// @brief Method .ctor addr 0x11ce59c size 0x1bc virtual false final false
- void _ctor(::UnityEngine::Transform bone, ::ArrayW<::UnityEngine::Transform> childBones) ;
+ void _ctor(UnityEngine::Transform bone, ::ArrayW<UnityEngine::Transform> childBones) ;
 
 /// @brief Method IsValid addr 0x11ce758 size 0x2f4 virtual false final false
- bool IsValid(::RootMotion::FinalIK::IKSolver solver, ByRef<::StringW> message) ;
+ bool IsValid(RootMotion::FinalIK::IKSolver solver, ByRef<::StringW> message) ;
 
 /// @brief Method Initiate addr 0x11cea4c size 0x28c virtual false final false
- void Initiate(::RootMotion::FinalIK::IKSolverFullBody solver) ;
+ void Initiate(RootMotion::FinalIK::IKSolverFullBody solver) ;
 
 /// @brief Method ResetOffset addr 0x11ced4c size 0x118 virtual false final false
- void ResetOffset(::RootMotion::FinalIK::IKSolverFullBody solver) ;
+ void ResetOffset(RootMotion::FinalIK::IKSolverFullBody solver) ;
 
 /// @brief Method SetToTarget addr 0x11ceeb4 size 0x9c virtual false final false
  void SetToTarget() ;
 
 /// @brief Method OnPreSolve addr 0x11cef50 size 0x6a0 virtual false final false
- void OnPreSolve(::RootMotion::FinalIK::IKSolverFullBody solver) ;
+ void OnPreSolve(RootMotion::FinalIK::IKSolverFullBody solver) ;
 
 /// @brief Method OnPostWrite addr 0x11cf5f0 size 0x58 virtual false final false
  void OnPostWrite() ;
 
 /// @brief Method GetPlaneRotation addr 0x11cf648 size 0x1c8 virtual false final false
- ::UnityEngine::Quaternion GetPlaneRotation(::RootMotion::FinalIK::IKSolverFullBody solver) ;
+ UnityEngine::Quaternion GetPlaneRotation(RootMotion::FinalIK::IKSolverFullBody solver) ;
 
 /// @brief Method Update addr 0x11cf810 size 0x248 virtual false final false
- void Update(::RootMotion::FinalIK::IKSolverFullBody solver) ;
+ void Update(RootMotion::FinalIK::IKSolverFullBody solver) ;
 
 /// @brief Method GetPosition addr 0x11cfa58 size 0x2b0 virtual false final false
- ::UnityEngine::Vector3 GetPosition(::RootMotion::FinalIK::IKSolverFullBody solver, ByRef<::UnityEngine::Quaternion> planeRotationOffset) ;
+ UnityEngine::Vector3 GetPosition(RootMotion::FinalIK::IKSolverFullBody solver, ByRef<UnityEngine::Quaternion> planeRotationOffset) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::IKEffector);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::IKEffector, "RootMotion.FinalIK", "IKEffector");
+NEED_NO_BOX(RootMotion::FinalIK::IKEffector);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKEffector, "RootMotion.FinalIK", "IKEffector");

@@ -5,18 +5,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
-namespace Org::BouncyCastle::Utilities::IO::Pem {
-class PemObjectGenerator;
-}
 namespace Org::BouncyCastle::Utilities::IO::Pem {
 class PemObject;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::Utilities::IO::Pem {
+class PemObjectGenerator;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::OpenSsl {
@@ -31,8 +30,8 @@ namespace Org::BouncyCastle::OpenSsl {
 class CORDL_TYPE MiscPemGenerator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator
-constexpr operator  ::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator
+constexpr operator  Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -85,11 +84,11 @@ constexpr void __set_password(::ArrayW<char16_t> value) ;
 
 constexpr ::ArrayW<char16_t> __get_password() const;
 
- ::Org::BouncyCastle::Security::SecureRandom __declspec(property(get=__get_random, put=__set_random))  random;
+ Org::BouncyCastle::Security::SecureRandom __declspec(property(get=__get_random, put=__set_random))  random;
 
-constexpr void __set_random(::Org::BouncyCastle::Security::SecureRandom value) ;
+constexpr void __set_random(Org::BouncyCastle::Security::SecureRandom value) ;
 
-constexpr ::Org::BouncyCastle::Security::SecureRandom __get_random() const;
+constexpr Org::BouncyCastle::Security::SecureRandom __get_random() const;
 
 
 // Methods
@@ -100,28 +99,27 @@ explicit MiscPemGenerator(::bs_hook::Il2CppWrapperType obj) ;
 /// @brief Method .ctor addr 0x1043c68 size 0x28 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "obj", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "algorithm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "random", ty: "::Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit MiscPemGenerator(::bs_hook::Il2CppWrapperType obj, ::StringW algorithm, ::ArrayW<char16_t> password, ::Org::BouncyCastle::Security::SecureRandom random) ;
+// Ctor Parameters [CppParam { name: "obj", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "algorithm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
+explicit MiscPemGenerator(::bs_hook::Il2CppWrapperType obj, ::StringW algorithm, ::ArrayW<char16_t> password, Org::BouncyCastle::Security::SecureRandom random) ;
 
 /// @brief Method .ctor addr 0x1043c90 size 0x40 virtual false final false
- void _ctor(::bs_hook::Il2CppWrapperType obj, ::StringW algorithm, ::ArrayW<char16_t> password, ::Org::BouncyCastle::Security::SecureRandom random) ;
+ void _ctor(::bs_hook::Il2CppWrapperType obj, ::StringW algorithm, ::ArrayW<char16_t> password, Org::BouncyCastle::Security::SecureRandom random) ;
 
 /// @brief Method CreatePemObject addr 0x1043cd0 size 0x66c virtual false final false
-static ::Org::BouncyCastle::Utilities::IO::Pem::PemObject CreatePemObject(::bs_hook::Il2CppWrapperType obj) ;
+static Org::BouncyCastle::Utilities::IO::Pem::PemObject CreatePemObject(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method CreatePemObject addr 0x1044824 size 0x5c4 virtual false final false
-static ::Org::BouncyCastle::Utilities::IO::Pem::PemObject CreatePemObject(::bs_hook::Il2CppWrapperType obj, ::StringW algorithm, ::ArrayW<char16_t> password, ::Org::BouncyCastle::Security::SecureRandom random) ;
+static Org::BouncyCastle::Utilities::IO::Pem::PemObject CreatePemObject(::bs_hook::Il2CppWrapperType obj, ::StringW algorithm, ::ArrayW<char16_t> password, Org::BouncyCastle::Security::SecureRandom random) ;
 
 /// @brief Method EncodePrivateKey addr 0x104433c size 0x4e8 virtual false final false
-static ::ArrayW<uint8_t> EncodePrivateKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter akp, ByRef<::StringW> keyType) ;
+static ::ArrayW<uint8_t> EncodePrivateKey(Org::BouncyCastle::Crypto::AsymmetricKeyParameter akp, ByRef<::StringW> keyType) ;
 
 /// @brief Method Generate addr 0x10452e4 size 0xf4 virtual true final true
- ::Org::BouncyCastle::Utilities::IO::Pem::PemObject Generate() ;
+ Org::BouncyCastle::Utilities::IO::Pem::PemObject Generate() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::OpenSsl
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::OpenSsl::MiscPemGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::OpenSsl::MiscPemGenerator, "Org.BouncyCastle.OpenSsl", "MiscPemGenerator");
+NEED_NO_BOX(Org::BouncyCastle::OpenSsl::MiscPemGenerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::OpenSsl::MiscPemGenerator, "Org.BouncyCastle.OpenSsl", "MiscPemGenerator");

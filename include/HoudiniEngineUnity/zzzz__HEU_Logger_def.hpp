@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class Exception;
 }
@@ -72,7 +71,7 @@ static void LogError(::StringW text) ;
 static void LogErrorFormat(::StringW text, ::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
 
 /// @brief Method LogError addr 0x205e698 size 0x8c virtual false final false
-static void LogError(::System::Exception ex) ;
+static void LogError(System::Exception ex) ;
 
 /// @brief Method LogAssertion addr 0x205e724 size 0x4 virtual false final false
 static void LogAssertion(::StringW text) ;
@@ -96,6 +95,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_Logger);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_Logger, "HoudiniEngineUnity", "HEU_Logger");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_Logger);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Logger, "HoudiniEngineUnity", "HEU_Logger");

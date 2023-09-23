@@ -3,7 +3,6 @@
 #include "Mono/Net/Security/zzzz__BufferOffsetSize_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Mono::Net::Security {
 class BufferOffsetSize2;
@@ -14,7 +13,7 @@ namespace Mono::Net::Security {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7666))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7667))
 // CS Name: Mono.Net.Security.BufferOffsetSize2
-class CORDL_TYPE BufferOffsetSize2 : public ::Mono::Net::Security::BufferOffsetSize {
+class CORDL_TYPE BufferOffsetSize2 : public Mono::Net::Security::BufferOffsetSize {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr BufferOffsetSize2(BufferOffsetSize2 const& ) noexcept = default;
 constexpr BufferOffsetSize2(BufferOffsetSize2&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BufferOffsetSize2(void* ptr) noexcept : ::Mono::Net::Security::BufferOffsetSize(ptr) {
+constexpr explicit BufferOffsetSize2(void* ptr) noexcept : Mono::Net::Security::BufferOffsetSize(ptr) {
 }
 
 
@@ -78,6 +77,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Net::Security
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Net::Security::BufferOffsetSize2);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Net::Security::BufferOffsetSize2, "Mono.Net.Security", "BufferOffsetSize2");
+NEED_NO_BOX(Mono::Net::Security::BufferOffsetSize2);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::BufferOffsetSize2, "Mono.Net.Security", "BufferOffsetSize2");

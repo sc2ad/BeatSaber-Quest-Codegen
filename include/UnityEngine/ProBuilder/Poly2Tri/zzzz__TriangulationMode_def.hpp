@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {
 struct TriangulationMode;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unconstrained offset 0
-static ::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode const Unconstrained;
+static UnityEngine::ProBuilder::Poly2Tri::TriangulationMode const Unconstrained;
 
 /// @brief Field Constrained offset 0
-static ::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode const Constrained;
+static UnityEngine::ProBuilder::Poly2Tri::TriangulationMode const Constrained;
 
 /// @brief Field Polygon offset 0
-static ::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode const Polygon;
+static UnityEngine::ProBuilder::Poly2Tri::TriangulationMode const Polygon;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder::Poly2Tri
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationMode");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::TriangulationMode, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationMode");

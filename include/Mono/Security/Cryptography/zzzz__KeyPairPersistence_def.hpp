@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Security::Cryptography {
 class CspParameters;
 }
@@ -76,11 +75,11 @@ static void __set__machinePath(::StringW value) ;
 
 static ::StringW __get__machinePath() ;
 
- ::System::Security::Cryptography::CspParameters __declspec(property(get=__get__params, put=__set__params))  _params;
+ System::Security::Cryptography::CspParameters __declspec(property(get=__get__params, put=__set__params))  _params;
 
-constexpr void __set__params(::System::Security::Cryptography::CspParameters value) ;
+constexpr void __set__params(System::Security::Cryptography::CspParameters value) ;
 
-constexpr ::System::Security::Cryptography::CspParameters __get__params() const;
+constexpr System::Security::Cryptography::CspParameters __get__params() const;
 
  ::StringW __declspec(property(get=__get__keyvalue, put=__set__keyvalue))  _keyvalue;
 
@@ -128,17 +127,17 @@ static ::StringW __declspec(property(get=get_MachinePath))  MachinePath;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "parameters", ty: "::System::Security::Cryptography::CspParameters", modifiers: "", def_value: None }]
-explicit KeyPairPersistence(::System::Security::Cryptography::CspParameters parameters) ;
+// Ctor Parameters [CppParam { name: "parameters", ty: "System::Security::Cryptography::CspParameters", modifiers: "", def_value: None }]
+explicit KeyPairPersistence(System::Security::Cryptography::CspParameters parameters) ;
 
 /// @brief Method .ctor addr 0x22b18ac size 0x8 virtual false final false
- void _ctor(::System::Security::Cryptography::CspParameters parameters) ;
+ void _ctor(System::Security::Cryptography::CspParameters parameters) ;
 
-// Ctor Parameters [CppParam { name: "parameters", ty: "::System::Security::Cryptography::CspParameters", modifiers: "", def_value: None }, CppParam { name: "keyPair", ty: "::StringW", modifiers: "", def_value: None }]
-explicit KeyPairPersistence(::System::Security::Cryptography::CspParameters parameters, ::StringW keyPair) ;
+// Ctor Parameters [CppParam { name: "parameters", ty: "System::Security::Cryptography::CspParameters", modifiers: "", def_value: None }, CppParam { name: "keyPair", ty: "::StringW", modifiers: "", def_value: None }]
+explicit KeyPairPersistence(System::Security::Cryptography::CspParameters parameters, ::StringW keyPair) ;
 
 /// @brief Method .ctor addr 0x22b18b4 size 0x84 virtual false final false
- void _ctor(::System::Security::Cryptography::CspParameters parameters, ::StringW keyPair) ;
+ void _ctor(System::Security::Cryptography::CspParameters parameters, ::StringW keyPair) ;
 
 /// @brief Method get_Filename addr 0x22b19d0 size 0x18c virtual false final false
  ::StringW get_Filename() ;
@@ -207,7 +206,7 @@ static bool IsMachineProtected(::StringW path) ;
  ::StringW get_ContainerName() ;
 
 /// @brief Method Copy addr 0x22b1938 size 0x98 virtual false final false
- ::System::Security::Cryptography::CspParameters Copy(::System::Security::Cryptography::CspParameters p) ;
+ System::Security::Cryptography::CspParameters Copy(System::Security::Cryptography::CspParameters p) ;
 
 /// @brief Method FromXml addr 0x22b28e8 size 0x11c virtual false final false
  void FromXml(::StringW xml) ;
@@ -219,6 +218,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Security::Cryptography::KeyPairPersistence);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Cryptography::KeyPairPersistence, "Mono.Security.Cryptography", "KeyPairPersistence");
+NEED_NO_BOX(Mono::Security::Cryptography::KeyPairPersistence);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::KeyPairPersistence, "Mono.Security.Cryptography", "KeyPairPersistence");

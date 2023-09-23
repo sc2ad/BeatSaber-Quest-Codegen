@@ -2,10 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
 namespace GlobalNamespace {
 class MultiplayerBadgeAwardData;
 }
@@ -14,6 +10,9 @@ class IComparable;
 }
 namespace GlobalNamespace {
 class MultiplayerLevelCompletionResults;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,8 +27,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE MultiplayerPlayerResultsData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IComparable
-constexpr operator  ::System::IComparable() const noexcept;
+/// @brief Convert operator to System::IComparable
+constexpr operator  System::IComparable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -64,32 +63,32 @@ constexpr explicit MultiplayerPlayerResultsData(void* ptr) noexcept : ::bs_hook:
 
 // Fields
 
- ::GlobalNamespace::IConnectedPlayer __declspec(property(get=__get_connectedPlayer, put=__set_connectedPlayer))  connectedPlayer;
+ GlobalNamespace::IConnectedPlayer __declspec(property(get=__get_connectedPlayer, put=__set_connectedPlayer))  connectedPlayer;
 
-constexpr void __set_connectedPlayer(::GlobalNamespace::IConnectedPlayer value) ;
+constexpr void __set_connectedPlayer(GlobalNamespace::IConnectedPlayer value) ;
 
-constexpr ::GlobalNamespace::IConnectedPlayer __get_connectedPlayer() const;
+constexpr GlobalNamespace::IConnectedPlayer __get_connectedPlayer() const;
 
- ::GlobalNamespace::MultiplayerLevelCompletionResults __declspec(property(get=__get_multiplayerLevelCompletionResults, put=__set_multiplayerLevelCompletionResults))  multiplayerLevelCompletionResults;
+ GlobalNamespace::MultiplayerLevelCompletionResults __declspec(property(get=__get_multiplayerLevelCompletionResults, put=__set_multiplayerLevelCompletionResults))  multiplayerLevelCompletionResults;
 
-constexpr void __set_multiplayerLevelCompletionResults(::GlobalNamespace::MultiplayerLevelCompletionResults value) ;
+constexpr void __set_multiplayerLevelCompletionResults(GlobalNamespace::MultiplayerLevelCompletionResults value) ;
 
-constexpr ::GlobalNamespace::MultiplayerLevelCompletionResults __get_multiplayerLevelCompletionResults() const;
+constexpr GlobalNamespace::MultiplayerLevelCompletionResults __get_multiplayerLevelCompletionResults() const;
 
- ::GlobalNamespace::MultiplayerBadgeAwardData __declspec(property(get=__get_badge, put=__set_badge))  badge;
+ GlobalNamespace::MultiplayerBadgeAwardData __declspec(property(get=__get_badge, put=__set_badge))  badge;
 
-constexpr void __set_badge(::GlobalNamespace::MultiplayerBadgeAwardData value) ;
+constexpr void __set_badge(GlobalNamespace::MultiplayerBadgeAwardData value) ;
 
-constexpr ::GlobalNamespace::MultiplayerBadgeAwardData __get_badge() const;
+constexpr GlobalNamespace::MultiplayerBadgeAwardData __get_badge() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "connectedPlayer", ty: "::GlobalNamespace::IConnectedPlayer", modifiers: "", def_value: None }, CppParam { name: "multiplayerLevelCompletionResults", ty: "::GlobalNamespace::MultiplayerLevelCompletionResults", modifiers: "", def_value: None }]
-explicit MultiplayerPlayerResultsData(::GlobalNamespace::IConnectedPlayer connectedPlayer, ::GlobalNamespace::MultiplayerLevelCompletionResults multiplayerLevelCompletionResults) ;
+// Ctor Parameters [CppParam { name: "connectedPlayer", ty: "GlobalNamespace::IConnectedPlayer", modifiers: "", def_value: None }, CppParam { name: "multiplayerLevelCompletionResults", ty: "GlobalNamespace::MultiplayerLevelCompletionResults", modifiers: "", def_value: None }]
+explicit MultiplayerPlayerResultsData(GlobalNamespace::IConnectedPlayer connectedPlayer, GlobalNamespace::MultiplayerLevelCompletionResults multiplayerLevelCompletionResults) ;
 
 /// @brief Method .ctor addr 0x20ffaa4 size 0x2c virtual false final false
- void _ctor(::GlobalNamespace::IConnectedPlayer connectedPlayer, ::GlobalNamespace::MultiplayerLevelCompletionResults multiplayerLevelCompletionResults) ;
+ void _ctor(GlobalNamespace::IConnectedPlayer connectedPlayer, GlobalNamespace::MultiplayerLevelCompletionResults multiplayerLevelCompletionResults) ;
 
 /// @brief Method CompareTo addr 0x20ffad0 size 0x1e0 virtual true final true
  int32_t CompareTo(::bs_hook::Il2CppWrapperType obj) ;
@@ -98,6 +97,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerPlayerResultsData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerPlayerResultsData, "", "MultiplayerPlayerResultsData");
+NEED_NO_BOX(GlobalNamespace::MultiplayerPlayerResultsData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerPlayerResultsData, "", "MultiplayerPlayerResultsData");

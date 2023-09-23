@@ -5,16 +5,15 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace Newtonsoft::Json {
+struct StringEscapeHandling;
+}
 namespace System::IO {
 class TextWriter;
 }
 namespace Newtonsoft::Json {
 template<typename T>
 class IArrayPool_1;
-}
-namespace Newtonsoft::Json {
-struct StringEscapeHandling;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
@@ -90,21 +89,20 @@ static constexpr ::ConstString  EscapedUnicodeText{u"!"};
 // Methods
 
 /// @brief Method GetCharEscapeFlags addr 0x24eb79c size 0x98 virtual false final false
-static ::ArrayW<bool> GetCharEscapeFlags(::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling, char16_t quoteChar) ;
+static ::ArrayW<bool> GetCharEscapeFlags(Newtonsoft::Json::StringEscapeHandling stringEscapeHandling, char16_t quoteChar) ;
 
 /// @brief Method ShouldEscapeJavaScriptString addr 0x24eb834 size 0x88 virtual false final false
 static bool ShouldEscapeJavaScriptString(::StringW s, ::ArrayW<bool> charEscapeFlags) ;
 
 /// @brief Method WriteEscapedJavaScriptString addr 0x24eb8bc size 0x4ec virtual false final false
-static void WriteEscapedJavaScriptString(::System::IO::TextWriter writer, ::StringW s, char16_t delimiter, bool appendDelimiters, ::ArrayW<bool> charEscapeFlags, ::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling, ::Newtonsoft::Json::IArrayPool_1<char16_t> bufferPool, ByRef<::ArrayW<char16_t>> writeBuffer) ;
+static void WriteEscapedJavaScriptString(System::IO::TextWriter writer, ::StringW s, char16_t delimiter, bool appendDelimiters, ::ArrayW<bool> charEscapeFlags, Newtonsoft::Json::StringEscapeHandling stringEscapeHandling, Newtonsoft::Json::IArrayPool_1<char16_t> bufferPool, ByRef<::ArrayW<char16_t>> writeBuffer) ;
 
 /// @brief Method ToEscapedJavaScriptString addr 0x24ebe60 size 0x24c virtual false final false
-static ::StringW ToEscapedJavaScriptString(::StringW value, char16_t delimiter, bool appendDelimiters, ::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling) ;
+static ::StringW ToEscapedJavaScriptString(::StringW value, char16_t delimiter, bool appendDelimiters, Newtonsoft::Json::StringEscapeHandling stringEscapeHandling) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Utilities
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Utilities::JavaScriptUtils);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::JavaScriptUtils, "Newtonsoft.Json.Utilities", "JavaScriptUtils");
+NEED_NO_BOX(Newtonsoft::Json::Utilities::JavaScriptUtils);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::JavaScriptUtils, "Newtonsoft.Json.Utilities", "JavaScriptUtils");

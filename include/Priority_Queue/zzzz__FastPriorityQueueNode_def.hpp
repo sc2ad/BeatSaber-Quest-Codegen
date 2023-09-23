@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Priority_Queue {
 class FastPriorityQueueNode;
@@ -94,6 +93,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Priority_Queue
-} // end anonymous namespace
-NEED_NO_BOX(::Priority_Queue::FastPriorityQueueNode);
-DEFINE_IL2CPP_ARG_TYPE(::Priority_Queue::FastPriorityQueueNode, "Priority_Queue", "FastPriorityQueueNode");
+NEED_NO_BOX(Priority_Queue::FastPriorityQueueNode);
+DEFINE_IL2CPP_ARG_TYPE(Priority_Queue::FastPriorityQueueNode, "Priority_Queue", "FastPriorityQueueNode");

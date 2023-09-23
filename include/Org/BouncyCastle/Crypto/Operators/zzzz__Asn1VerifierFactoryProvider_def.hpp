@@ -1,9 +1,8 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Org::BouncyCastle::Crypto {
-class IVerifierFactoryProvider;
+class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Crypto {
 class IVerifierFactory;
@@ -12,7 +11,7 @@ namespace System::Collections {
 class IEnumerable;
 }
 namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+class IVerifierFactoryProvider;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Operators {
@@ -27,8 +26,8 @@ namespace Org::BouncyCastle::Crypto::Operators {
 class CORDL_TYPE Asn1VerifierFactoryProvider : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IVerifierFactoryProvider
-constexpr operator  ::Org::BouncyCastle::Crypto::IVerifierFactoryProvider() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IVerifierFactoryProvider
+constexpr operator  Org::BouncyCastle::Crypto::IVerifierFactoryProvider() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -63,36 +62,35 @@ constexpr explicit Asn1VerifierFactoryProvider(void* ptr) noexcept : ::bs_hook::
 
 // Fields
 
- ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter __declspec(property(get=__get_publicKey, put=__set_publicKey))  publicKey;
+ Org::BouncyCastle::Crypto::AsymmetricKeyParameter __declspec(property(get=__get_publicKey, put=__set_publicKey))  publicKey;
 
-constexpr void __set_publicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter value) ;
+constexpr void __set_publicKey(Org::BouncyCastle::Crypto::AsymmetricKeyParameter value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter __get_publicKey() const;
+constexpr Org::BouncyCastle::Crypto::AsymmetricKeyParameter __get_publicKey() const;
 
 
 // Properties
 
- ::System::Collections::IEnumerable __declspec(property(get=get_SignatureAlgNames))  SignatureAlgNames;
+ System::Collections::IEnumerable __declspec(property(get=get_SignatureAlgNames))  SignatureAlgNames;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "publicKey", ty: "::Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
-explicit Asn1VerifierFactoryProvider(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey) ;
+// Ctor Parameters [CppParam { name: "publicKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
+explicit Asn1VerifierFactoryProvider(Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey) ;
 
 /// @brief Method .ctor addr 0xe9ff1c size 0x28 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey) ;
+ void _ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey) ;
 
 /// @brief Method CreateVerifierFactory addr 0xe9ff44 size 0xc4 virtual true final true
- ::Org::BouncyCastle::Crypto::IVerifierFactory CreateVerifierFactory(::bs_hook::Il2CppWrapperType algorithmDetails) ;
+ Org::BouncyCastle::Crypto::IVerifierFactory CreateVerifierFactory(::bs_hook::Il2CppWrapperType algorithmDetails) ;
 
 /// @brief Method get_SignatureAlgNames addr 0xea0008 size 0x4c virtual false final false
- ::System::Collections::IEnumerable get_SignatureAlgNames() ;
+ System::Collections::IEnumerable get_SignatureAlgNames() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Operators
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactoryProvider);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactoryProvider, "Org.BouncyCastle.Crypto.Operators", "Asn1VerifierFactoryProvider");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactoryProvider);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactoryProvider, "Org.BouncyCastle.Crypto.Operators", "Asn1VerifierFactoryProvider");

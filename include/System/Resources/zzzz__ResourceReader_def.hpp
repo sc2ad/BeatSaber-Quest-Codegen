@@ -5,25 +5,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Resources {
-struct ResourceLocator;
-}
-namespace System::Collections {
-class IDictionaryEnumerator;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace System::Resources {
-class IResourceReader;
-}
 namespace System::IO {
-class BinaryReader;
+class UnmanagedMemoryStream;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class BinaryFormatter;
@@ -32,10 +15,22 @@ namespace System::IO {
 class Stream;
 }
 namespace System::Collections {
-class IEnumerator;
+class IDictionaryEnumerator;
+}
+namespace System::IO {
+class BinaryReader;
+}
+namespace System::Resources {
+struct ResourceLocator;
 }
 namespace System::Resources {
 struct ResourceTypeCode;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Resources {
+class IResourceReader;
 }
 namespace System {
 class RuntimeType;
@@ -43,8 +38,12 @@ class RuntimeType;
 namespace System {
 class IDisposable;
 }
-namespace System::IO {
-class UnmanagedMemoryStream;
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace System::Collections {
 struct DictionaryEntry;
@@ -54,7 +53,7 @@ namespace System::Resources {
 class ResourceReader;
 }
 namespace System::Resources {
-class ____System__Resources__ResourceReader__ResourceEnumerator;
+class System__Resources__ResourceReader__ResourceEnumerator;
 }
 // Type: ::ResourceEnumerator
 namespace System::Resources {
@@ -62,53 +61,53 @@ namespace System::Resources {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3432))
 // CS Name: System.Resources.ResourceReader::ResourceEnumerator
-class CORDL_TYPE ____System__Resources__ResourceReader__ResourceEnumerator : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Resources__ResourceReader__ResourceEnumerator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::IDictionaryEnumerator
-constexpr operator  ::System::Collections::IDictionaryEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IDictionaryEnumerator
+constexpr operator  System::Collections::IDictionaryEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____System__Resources__ResourceReader__ResourceEnumerator() = default;
+virtual ~System__Resources__ResourceReader__ResourceEnumerator() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Resources__ResourceReader__ResourceEnumerator", modifiers: " const&", def_value: None }]
-constexpr ____System__Resources__ResourceReader__ResourceEnumerator(____System__Resources__ResourceReader__ResourceEnumerator const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Resources__ResourceReader__ResourceEnumerator", modifiers: " const&", def_value: None }]
+constexpr System__Resources__ResourceReader__ResourceEnumerator(System__Resources__ResourceReader__ResourceEnumerator const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Resources__ResourceReader__ResourceEnumerator", modifiers: "&&", def_value: None }]
-constexpr ____System__Resources__ResourceReader__ResourceEnumerator(____System__Resources__ResourceReader__ResourceEnumerator&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Resources__ResourceReader__ResourceEnumerator", modifiers: "&&", def_value: None }]
+constexpr System__Resources__ResourceReader__ResourceEnumerator(System__Resources__ResourceReader__ResourceEnumerator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Resources__ResourceReader__ResourceEnumerator(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Resources__ResourceReader__ResourceEnumerator(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Resources__ResourceReader__ResourceEnumerator& operator=(std::nullptr_t) noexcept {
+  constexpr System__Resources__ResourceReader__ResourceEnumerator& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Resources__ResourceReader__ResourceEnumerator& operator=(void* o) noexcept {
+  constexpr System__Resources__ResourceReader__ResourceEnumerator& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Resources__ResourceReader__ResourceEnumerator& operator=(____System__Resources__ResourceReader__ResourceEnumerator&& o) noexcept = default;
-  constexpr ____System__Resources__ResourceReader__ResourceEnumerator& operator=(____System__Resources__ResourceReader__ResourceEnumerator const& o) noexcept = default;
+  constexpr System__Resources__ResourceReader__ResourceEnumerator& operator=(System__Resources__ResourceReader__ResourceEnumerator&& o) noexcept = default;
+  constexpr System__Resources__ResourceReader__ResourceEnumerator& operator=(System__Resources__ResourceReader__ResourceEnumerator const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Resources::ResourceReader __declspec(property(get=__get__reader, put=__set__reader))  _reader;
+ System::Resources::ResourceReader __declspec(property(get=__get__reader, put=__set__reader))  _reader;
 
-constexpr void __set__reader(::System::Resources::ResourceReader value) ;
+constexpr void __set__reader(System::Resources::ResourceReader value) ;
 
-constexpr ::System::Resources::ResourceReader __get__reader() const;
+constexpr System::Resources::ResourceReader __get__reader() const;
 
  bool __declspec(property(get=__get__currentIsValid, put=__set__currentIsValid))  _currentIsValid;
 
@@ -137,18 +136,18 @@ constexpr int32_t __get__dataPosition() const;
 
  int32_t __declspec(property(get=get_DataPosition))  DataPosition;
 
- ::System::Collections::DictionaryEntry __declspec(property(get=get_Entry))  Entry;
+ System::Collections::DictionaryEntry __declspec(property(get=get_Entry))  Entry;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "reader", ty: "::System::Resources::ResourceReader", modifiers: "", def_value: None }]
-explicit ____System__Resources__ResourceReader__ResourceEnumerator(::System::Resources::ResourceReader reader) ;
+// Ctor Parameters [CppParam { name: "reader", ty: "System::Resources::ResourceReader", modifiers: "", def_value: None }]
+explicit System__Resources__ResourceReader__ResourceEnumerator(System::Resources::ResourceReader reader) ;
 
 /// @brief Method .ctor addr 0x2374960 size 0x34 virtual false final false
- void _ctor(::System::Resources::ResourceReader reader) ;
+ void _ctor(System::Resources::ResourceReader reader) ;
 
 /// @brief Method MoveNext addr 0x2377cd0 size 0x5c virtual true final true
  bool MoveNext() ;
@@ -163,7 +162,7 @@ explicit ____System__Resources__ResourceReader__ResourceEnumerator(::System::Res
  int32_t get_DataPosition() ;
 
 /// @brief Method get_Entry addr 0x2377e48 size 0x344 virtual true final true
- ::System::Collections::DictionaryEntry get_Entry() ;
+ System::Collections::DictionaryEntry get_Entry() ;
 
 /// @brief Method get_Value addr 0x2378194 size 0xb0 virtual true final true
  ::bs_hook::Il2CppWrapperType get_Value() ;
@@ -184,16 +183,16 @@ namespace System::Resources {
 class CORDL_TYPE ResourceReader : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using ResourceEnumerator = ::System::Resources::____System__Resources__ResourceReader__ResourceEnumerator;
+using ResourceEnumerator = System::Resources::System__Resources__ResourceReader__ResourceEnumerator;
 
-/// @brief Convert operator to ::System::Resources::IResourceReader
-constexpr operator  ::System::Resources::IResourceReader() const noexcept;
+/// @brief Convert operator to System::Resources::IResourceReader
+constexpr operator  System::Resources::IResourceReader() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x80};
@@ -228,17 +227,17 @@ constexpr explicit ResourceReader(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
- ::System::IO::BinaryReader __declspec(property(get=__get__store, put=__set__store))  _store;
+ System::IO::BinaryReader __declspec(property(get=__get__store, put=__set__store))  _store;
 
-constexpr void __set__store(::System::IO::BinaryReader value) ;
+constexpr void __set__store(System::IO::BinaryReader value) ;
 
-constexpr ::System::IO::BinaryReader __get__store() const;
+constexpr System::IO::BinaryReader __get__store() const;
 
- ::System::Collections::Generic::Dictionary_2<::StringW,::System::Resources::ResourceLocator> __declspec(property(get=__get__resCache, put=__set__resCache))  _resCache;
+ System::Collections::Generic::Dictionary_2<::StringW,System::Resources::ResourceLocator> __declspec(property(get=__get__resCache, put=__set__resCache))  _resCache;
 
-constexpr void __set__resCache(::System::Collections::Generic::Dictionary_2<::StringW,::System::Resources::ResourceLocator> value) ;
+constexpr void __set__resCache(System::Collections::Generic::Dictionary_2<::StringW,System::Resources::ResourceLocator> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::StringW,::System::Resources::ResourceLocator> __get__resCache() const;
+constexpr System::Collections::Generic::Dictionary_2<::StringW,System::Resources::ResourceLocator> __get__resCache() const;
 
  int64_t __declspec(property(get=__get__nameSectionOffset, put=__set__nameSectionOffset))  _nameSectionOffset;
 
@@ -276,11 +275,11 @@ constexpr void __set__namePositionsPtr(void* value) ;
 
 constexpr void* __get__namePositionsPtr() const;
 
- ::ArrayW<::System::RuntimeType> __declspec(property(get=__get__typeTable, put=__set__typeTable))  _typeTable;
+ ::ArrayW<System::RuntimeType> __declspec(property(get=__get__typeTable, put=__set__typeTable))  _typeTable;
 
-constexpr void __set__typeTable(::ArrayW<::System::RuntimeType> value) ;
+constexpr void __set__typeTable(::ArrayW<System::RuntimeType> value) ;
 
-constexpr ::ArrayW<::System::RuntimeType> __get__typeTable() const;
+constexpr ::ArrayW<System::RuntimeType> __get__typeTable() const;
 
  ::ArrayW<int32_t> __declspec(property(get=__get__typeNamePositions, put=__set__typeNamePositions))  _typeNamePositions;
 
@@ -288,11 +287,11 @@ constexpr void __set__typeNamePositions(::ArrayW<int32_t> value) ;
 
 constexpr ::ArrayW<int32_t> __get__typeNamePositions() const;
 
- ::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter __declspec(property(get=__get__objFormatter, put=__set__objFormatter))  _objFormatter;
+ System::Runtime::Serialization::Formatters::Binary::BinaryFormatter __declspec(property(get=__get__objFormatter, put=__set__objFormatter))  _objFormatter;
 
-constexpr void __set__objFormatter(::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter value) ;
+constexpr void __set__objFormatter(System::Runtime::Serialization::Formatters::Binary::BinaryFormatter value) ;
 
-constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter __get__objFormatter() const;
+constexpr System::Runtime::Serialization::Formatters::Binary::BinaryFormatter __get__objFormatter() const;
 
  int32_t __declspec(property(get=__get__numResources, put=__set__numResources))  _numResources;
 
@@ -300,11 +299,11 @@ constexpr void __set__numResources(int32_t value) ;
 
 constexpr int32_t __get__numResources() const;
 
- ::System::IO::UnmanagedMemoryStream __declspec(property(get=__get__ums, put=__set__ums))  _ums;
+ System::IO::UnmanagedMemoryStream __declspec(property(get=__get__ums, put=__set__ums))  _ums;
 
-constexpr void __set__ums(::System::IO::UnmanagedMemoryStream value) ;
+constexpr void __set__ums(System::IO::UnmanagedMemoryStream value) ;
 
-constexpr ::System::IO::UnmanagedMemoryStream __get__ums() const;
+constexpr System::IO::UnmanagedMemoryStream __get__ums() const;
 
  int32_t __declspec(property(get=__get__version, put=__set__version))  _version;
 
@@ -315,11 +314,11 @@ constexpr int32_t __get__version() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "resCache", ty: "::System::Collections::Generic::Dictionary_2<::StringW,::System::Resources::ResourceLocator>", modifiers: "", def_value: None }]
-explicit ResourceReader(::System::IO::Stream stream, ::System::Collections::Generic::Dictionary_2<::StringW,::System::Resources::ResourceLocator> resCache) ;
+// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "resCache", ty: "System::Collections::Generic::Dictionary_2<::StringW,System::Resources::ResourceLocator>", modifiers: "", def_value: None }]
+explicit ResourceReader(System::IO::Stream stream, System::Collections::Generic::Dictionary_2<::StringW,System::Resources::ResourceLocator> resCache) ;
 
 /// @brief Method .ctor addr 0x2374350 size 0xec virtual false final false
- void _ctor(::System::IO::Stream stream, ::System::Collections::Generic::Dictionary_2<::StringW,::System::Resources::ResourceLocator> resCache) ;
+ void _ctor(System::IO::Stream stream, System::Collections::Generic::Dictionary_2<::StringW,System::Resources::ResourceLocator> resCache) ;
 
 /// @brief Method Close addr 0x23745b0 size 0x3c virtual true final true
  void Close() ;
@@ -343,13 +342,13 @@ static int32_t ReadUnalignedI4(void* p) ;
  int32_t GetNamePosition(int32_t index) ;
 
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x237488c size 0x4 virtual true final true
- ::System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
+ System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
 /// @brief Method GetEnumerator addr 0x2374890 size 0xd0 virtual true final true
- ::System::Collections::IDictionaryEnumerator GetEnumerator() ;
+ System::Collections::IDictionaryEnumerator GetEnumerator() ;
 
 /// @brief Method GetEnumeratorInternal addr 0x2374994 size 0x70 virtual false final false
- ::System::Resources::____System__Resources__ResourceReader__ResourceEnumerator GetEnumeratorInternal() ;
+ System::Resources::System__Resources__ResourceReader__ResourceEnumerator GetEnumeratorInternal() ;
 
 /// @brief Method FindPosForResource addr 0x2374a04 size 0x3d4 virtual false final false
  int32_t FindPosForResource(::StringW name) ;
@@ -370,7 +369,7 @@ static int32_t ReadUnalignedI4(void* p) ;
  ::bs_hook::Il2CppWrapperType LoadObject(int32_t pos) ;
 
 /// @brief Method LoadObject addr 0x2376418 size 0x98 virtual false final false
- ::bs_hook::Il2CppWrapperType LoadObject(int32_t pos, ByRef<::System::Resources::ResourceTypeCode> typeCode) ;
+ ::bs_hook::Il2CppWrapperType LoadObject(int32_t pos, ByRef<System::Resources::ResourceTypeCode> typeCode) ;
 
 /// @brief Method LoadObjectV1 addr 0x2375b78 size 0x100 virtual false final false
  ::bs_hook::Il2CppWrapperType LoadObjectV1(int32_t pos) ;
@@ -379,10 +378,10 @@ static int32_t ReadUnalignedI4(void* p) ;
  ::bs_hook::Il2CppWrapperType _LoadObjectV1(int32_t pos) ;
 
 /// @brief Method LoadObjectV2 addr 0x2375c78 size 0x100 virtual false final false
- ::bs_hook::Il2CppWrapperType LoadObjectV2(int32_t pos, ByRef<::System::Resources::ResourceTypeCode> typeCode) ;
+ ::bs_hook::Il2CppWrapperType LoadObjectV2(int32_t pos, ByRef<System::Resources::ResourceTypeCode> typeCode) ;
 
 /// @brief Method _LoadObjectV2 addr 0x2376ec0 size 0x738 virtual false final false
- ::bs_hook::Il2CppWrapperType _LoadObjectV2(int32_t pos, ByRef<::System::Resources::ResourceTypeCode> typeCode) ;
+ ::bs_hook::Il2CppWrapperType _LoadObjectV2(int32_t pos, ByRef<System::Resources::ResourceTypeCode> typeCode) ;
 
 /// @brief Method DeserializeObject addr 0x2376ce8 size 0x1d8 virtual false final false
  ::bs_hook::Il2CppWrapperType DeserializeObject(int32_t typeIndex) ;
@@ -394,14 +393,13 @@ static int32_t ReadUnalignedI4(void* p) ;
  void _ReadResources() ;
 
 /// @brief Method FindType addr 0x2376028 size 0x3c4 virtual false final false
- ::System::RuntimeType FindType(int32_t typeIndex) ;
+ System::RuntimeType FindType(int32_t typeIndex) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Resources
-} // end anonymous namespace
-NEED_NO_BOX(::System::Resources::ResourceReader);
-DEFINE_IL2CPP_ARG_TYPE(::System::Resources::ResourceReader, "System.Resources", "ResourceReader");
-NEED_NO_BOX(::System::Resources::____System__Resources__ResourceReader__ResourceEnumerator);
-DEFINE_IL2CPP_ARG_TYPE(::System::Resources::____System__Resources__ResourceReader__ResourceEnumerator, "System.Resources", "ResourceReader/ResourceEnumerator");
+NEED_NO_BOX(System::Resources::ResourceReader);
+DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceReader, "System.Resources", "ResourceReader");
+NEED_NO_BOX(System::Resources::System__Resources__ResourceReader__ResourceEnumerator);
+DEFINE_IL2CPP_ARG_TYPE(System::Resources::System__Resources__ResourceReader__ResourceEnumerator, "System.Resources", "ResourceReader/ResourceEnumerator");

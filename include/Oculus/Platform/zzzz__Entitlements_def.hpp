@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Oculus::Platform {
 class Request;
 }
@@ -52,12 +51,11 @@ constexpr explicit Entitlements(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 // Methods
 
 /// @brief Method IsUserEntitledToApplication addr 0x2593c78 size 0x148 virtual false final false
-static ::Oculus::Platform::Request IsUserEntitledToApplication() ;
+static Oculus::Platform::Request IsUserEntitledToApplication() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Entitlements);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Entitlements, "Oculus.Platform", "Entitlements");
+NEED_NO_BOX(Oculus::Platform::Entitlements);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Entitlements, "Oculus.Platform", "Entitlements");

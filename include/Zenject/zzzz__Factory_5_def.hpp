@@ -3,7 +3,6 @@
 #include "Zenject/zzzz__PlaceholderFactory_5_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace Zenject {
 class InjectTypeInfo;
 }
@@ -22,10 +21,10 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TParam2,::cordl_internals::il2cpp_reference_type TParam3,::cordl_internals::il2cpp_reference_type TParam4,::cordl_internals::il2cpp_reference_type TValue>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10956), inst: 3396 }), TypeDefinitionIndex(TypeDefinitionIndex(10957)), TypeDefinitionIndex(TypeDefinitionIndex(10956))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10956)), TypeDefinitionIndex(TypeDefinitionIndex(10957)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10956), inst: 3396 })}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10957), inst: 5938 })
 // CS Name: Zenject.Factory`5
-class CORDL_TYPE Factory_5<TParam1,TParam2,TParam3,TParam4,TValue> : public ::Zenject::PlaceholderFactory_5<TParam1,TParam2,TParam3,TParam4,TValue> {
+class CORDL_TYPE Factory_5<TParam1,TParam2,TParam3,TParam4,TValue> : public Zenject::PlaceholderFactory_5<TParam1,TParam2,TParam3,TParam4,TValue> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr Factory_5(Factory_5 const& ) noexcept = default;
 constexpr Factory_5(Factory_5&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Factory_5(void* ptr) noexcept : ::Zenject::PlaceholderFactory_5<TParam1,TParam2,TParam3,TParam4,TValue>(ptr) {
+constexpr explicit Factory_5(void* ptr) noexcept : Zenject::PlaceholderFactory_5<TParam1,TParam2,TParam3,TParam4,TValue>(ptr) {
 }
 
 
@@ -71,11 +70,10 @@ explicit Factory_5() ;
 static ::bs_hook::Il2CppWrapperType __zenCreate(::ArrayW<::bs_hook::Il2CppWrapperType> P_0) ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::Factory_5, "Zenject", "Factory`5");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::Factory_5, "Zenject", "Factory`5");

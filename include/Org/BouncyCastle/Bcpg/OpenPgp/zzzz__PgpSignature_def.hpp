@@ -4,12 +4,32 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Bcpg {
-class SignatureSubpacket;
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpSignatureSubpacketVector;
 }
 namespace Org::BouncyCastle::Bcpg {
 class Packet;
+}
+namespace Org::BouncyCastle::Bcpg {
+struct HashAlgorithmTag;
+}
+namespace System {
+struct DateTime;
+}
+namespace System::IO {
+class Stream;
+}
+namespace Org::BouncyCastle::Bcpg {
+class TrustPacket;
+}
+namespace Org::BouncyCastle::Bcpg {
+class SignaturePacket;
+}
+namespace Org::BouncyCastle::Bcpg {
+class SignatureSubpacket;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpUserAttributeSubpacketVector;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct PublicKeyAlgorithmTag;
@@ -17,32 +37,11 @@ struct PublicKeyAlgorithmTag;
 namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
 }
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpUserAttributeSubpacketVector;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpSignatureSubpacketVector;
-}
-namespace System {
-struct DateTime;
-}
-namespace Org::BouncyCastle::Bcpg {
-class SignaturePacket;
-}
-namespace Org::BouncyCastle::Bcpg {
-struct HashAlgorithmTag;
-}
 namespace Org::BouncyCastle::Crypto {
 class ISigner;
 }
-namespace Org::BouncyCastle::Bcpg {
-class TrustPacket;
-}
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class PgpPublicKey;
-}
-namespace System::IO {
-class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -132,11 +131,11 @@ static constexpr int32_t  CertificationRevocation{48};
 /// @brief Field Timestamp offset 0
 static constexpr int32_t  Timestamp{64};
 
- ::Org::BouncyCastle::Bcpg::SignaturePacket __declspec(property(get=__get_sigPck, put=__set_sigPck))  sigPck;
+ Org::BouncyCastle::Bcpg::SignaturePacket __declspec(property(get=__get_sigPck, put=__set_sigPck))  sigPck;
 
-constexpr void __set_sigPck(::Org::BouncyCastle::Bcpg::SignaturePacket value) ;
+constexpr void __set_sigPck(Org::BouncyCastle::Bcpg::SignaturePacket value) ;
 
-constexpr ::Org::BouncyCastle::Bcpg::SignaturePacket __get_sigPck() const;
+constexpr Org::BouncyCastle::Bcpg::SignaturePacket __get_sigPck() const;
 
  int32_t __declspec(property(get=__get_signatureType, put=__set_signatureType))  signatureType;
 
@@ -144,17 +143,17 @@ constexpr void __set_signatureType(int32_t value) ;
 
 constexpr int32_t __get_signatureType() const;
 
- ::Org::BouncyCastle::Bcpg::TrustPacket __declspec(property(get=__get_trustPck, put=__set_trustPck))  trustPck;
+ Org::BouncyCastle::Bcpg::TrustPacket __declspec(property(get=__get_trustPck, put=__set_trustPck))  trustPck;
 
-constexpr void __set_trustPck(::Org::BouncyCastle::Bcpg::TrustPacket value) ;
+constexpr void __set_trustPck(Org::BouncyCastle::Bcpg::TrustPacket value) ;
 
-constexpr ::Org::BouncyCastle::Bcpg::TrustPacket __get_trustPck() const;
+constexpr Org::BouncyCastle::Bcpg::TrustPacket __get_trustPck() const;
 
- ::Org::BouncyCastle::Crypto::ISigner __declspec(property(get=__get_sig, put=__set_sig))  sig;
+ Org::BouncyCastle::Crypto::ISigner __declspec(property(get=__get_sig, put=__set_sig))  sig;
 
-constexpr void __set_sig(::Org::BouncyCastle::Crypto::ISigner value) ;
+constexpr void __set_sig(Org::BouncyCastle::Crypto::ISigner value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::ISigner __get_sig() const;
+constexpr Org::BouncyCastle::Crypto::ISigner __get_sig() const;
 
  uint8_t __declspec(property(get=__get_lastb, put=__set_lastb))  lastb;
 
@@ -167,15 +166,15 @@ constexpr uint8_t __get_lastb() const;
 
  int32_t __declspec(property(get=get_Version))  Version;
 
- ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag __declspec(property(get=get_KeyAlgorithm))  KeyAlgorithm;
+ Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag __declspec(property(get=get_KeyAlgorithm))  KeyAlgorithm;
 
- ::Org::BouncyCastle::Bcpg::HashAlgorithmTag __declspec(property(get=get_HashAlgorithm))  HashAlgorithm;
+ Org::BouncyCastle::Bcpg::HashAlgorithmTag __declspec(property(get=get_HashAlgorithm))  HashAlgorithm;
 
  int32_t __declspec(property(get=get_SignatureType))  SignatureType;
 
  int64_t __declspec(property(get=get_KeyId))  KeyId;
 
- ::System::DateTime __declspec(property(get=get_CreationTime))  CreationTime;
+ System::DateTime __declspec(property(get=get_CreationTime))  CreationTime;
 
  bool __declspec(property(get=get_HasSubpackets))  HasSubpackets;
 
@@ -183,25 +182,25 @@ constexpr uint8_t __get_lastb() const;
 // Methods
 
 /// @brief Method Cast addr 0x103bf54 size 0xd0 virtual false final false
-static ::Org::BouncyCastle::Bcpg::SignaturePacket Cast(::Org::BouncyCastle::Bcpg::Packet packet) ;
+static Org::BouncyCastle::Bcpg::SignaturePacket Cast(Org::BouncyCastle::Bcpg::Packet packet) ;
 
-// Ctor Parameters [CppParam { name: "bcpgInput", ty: "::Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
-explicit PgpSignature(::Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput) ;
+// Ctor Parameters [CppParam { name: "bcpgInput", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
+explicit PgpSignature(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput) ;
 
 /// @brief Method .ctor addr 0x103c024 size 0x34 virtual false final false
- void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput) ;
+ void _ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput) ;
 
-// Ctor Parameters [CppParam { name: "sigPacket", ty: "::Org::BouncyCastle::Bcpg::SignaturePacket", modifiers: "", def_value: None }]
-explicit PgpSignature(::Org::BouncyCastle::Bcpg::SignaturePacket sigPacket) ;
+// Ctor Parameters [CppParam { name: "sigPacket", ty: "Org::BouncyCastle::Bcpg::SignaturePacket", modifiers: "", def_value: None }]
+explicit PgpSignature(Org::BouncyCastle::Bcpg::SignaturePacket sigPacket) ;
 
 /// @brief Method .ctor addr 0x103c058 size 0x8 virtual false final false
- void _ctor(::Org::BouncyCastle::Bcpg::SignaturePacket sigPacket) ;
+ void _ctor(Org::BouncyCastle::Bcpg::SignaturePacket sigPacket) ;
 
-// Ctor Parameters [CppParam { name: "sigPacket", ty: "::Org::BouncyCastle::Bcpg::SignaturePacket", modifiers: "", def_value: None }, CppParam { name: "trustPacket", ty: "::Org::BouncyCastle::Bcpg::TrustPacket", modifiers: "", def_value: None }]
-explicit PgpSignature(::Org::BouncyCastle::Bcpg::SignaturePacket sigPacket, ::Org::BouncyCastle::Bcpg::TrustPacket trustPacket) ;
+// Ctor Parameters [CppParam { name: "sigPacket", ty: "Org::BouncyCastle::Bcpg::SignaturePacket", modifiers: "", def_value: None }, CppParam { name: "trustPacket", ty: "Org::BouncyCastle::Bcpg::TrustPacket", modifiers: "", def_value: None }]
+explicit PgpSignature(Org::BouncyCastle::Bcpg::SignaturePacket sigPacket, Org::BouncyCastle::Bcpg::TrustPacket trustPacket) ;
 
 /// @brief Method .ctor addr 0x103c060 size 0x88 virtual false final false
- void _ctor(::Org::BouncyCastle::Bcpg::SignaturePacket sigPacket, ::Org::BouncyCastle::Bcpg::TrustPacket trustPacket) ;
+ void _ctor(Org::BouncyCastle::Bcpg::SignaturePacket sigPacket, Org::BouncyCastle::Bcpg::TrustPacket trustPacket) ;
 
 /// @brief Method GetSig addr 0x103c0e8 size 0x7c virtual false final false
  void GetSig() ;
@@ -210,16 +209,16 @@ explicit PgpSignature(::Org::BouncyCastle::Bcpg::SignaturePacket sigPacket, ::Or
  int32_t get_Version() ;
 
 /// @brief Method get_KeyAlgorithm addr 0x103c300 size 0x1c virtual false final false
- ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag get_KeyAlgorithm() ;
+ Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag get_KeyAlgorithm() ;
 
 /// @brief Method get_HashAlgorithm addr 0x103c31c size 0x1c virtual false final false
- ::Org::BouncyCastle::Bcpg::HashAlgorithmTag get_HashAlgorithm() ;
+ Org::BouncyCastle::Bcpg::HashAlgorithmTag get_HashAlgorithm() ;
 
 /// @brief Method IsCertification addr 0x103c338 size 0x28 virtual false final false
  bool IsCertification() ;
 
 /// @brief Method InitVerify addr 0x103c38c size 0x1a4 virtual false final false
- void InitVerify(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey pubKey) ;
+ void InitVerify(Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey pubKey) ;
 
 /// @brief Method Update addr 0x103c530 size 0xcc virtual false final false
  void Update(uint8_t b) ;
@@ -243,19 +242,19 @@ explicit PgpSignature(::Org::BouncyCastle::Bcpg::SignaturePacket sigPacket, ::Or
  void UpdateWithIdData(int32_t header, ::ArrayW<uint8_t> idBytes) ;
 
 /// @brief Method UpdateWithPublicKey addr 0x103ce20 size 0xc0 virtual false final false
- void UpdateWithPublicKey(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey key) ;
+ void UpdateWithPublicKey(Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey key) ;
 
 /// @brief Method VerifyCertification addr 0x103cfdc size 0x27c virtual false final false
- bool VerifyCertification(::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector userAttributes, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey key) ;
+ bool VerifyCertification(Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector userAttributes, Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey key) ;
 
 /// @brief Method VerifyCertification addr 0x103d258 size 0x108 virtual false final false
- bool VerifyCertification(::StringW id, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey key) ;
+ bool VerifyCertification(::StringW id, Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey key) ;
 
 /// @brief Method VerifyCertification addr 0x103d360 size 0xf8 virtual false final false
- bool VerifyCertification(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey masterKey, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey pubKey) ;
+ bool VerifyCertification(Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey masterKey, Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey pubKey) ;
 
 /// @brief Method VerifyCertification addr 0x103d458 size 0x144 virtual false final false
- bool VerifyCertification(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey pubKey) ;
+ bool VerifyCertification(Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey pubKey) ;
 
 /// @brief Method get_SignatureType addr 0x103c360 size 0x1c virtual false final false
  int32_t get_SignatureType() ;
@@ -264,10 +263,10 @@ explicit PgpSignature(::Org::BouncyCastle::Bcpg::SignaturePacket sigPacket, ::Or
  int64_t get_KeyId() ;
 
 /// @brief Method GetCreationTime addr 0x103d5b8 size 0x4 virtual false final false
- ::System::DateTime GetCreationTime() ;
+ System::DateTime GetCreationTime() ;
 
 /// @brief Method get_CreationTime addr 0x103d5bc size 0x68 virtual false final false
- ::System::DateTime get_CreationTime() ;
+ System::DateTime get_CreationTime() ;
 
 /// @brief Method GetSignatureTrailer addr 0x103ca64 size 0x1c virtual false final false
  ::ArrayW<uint8_t> GetSignatureTrailer() ;
@@ -276,13 +275,13 @@ explicit PgpSignature(::Org::BouncyCastle::Bcpg::SignaturePacket sigPacket, ::Or
  bool get_HasSubpackets() ;
 
 /// @brief Method GetHashedSubPackets addr 0x103d658 size 0x1c virtual false final false
- ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector GetHashedSubPackets() ;
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector GetHashedSubPackets() ;
 
 /// @brief Method GetUnhashedSubPackets addr 0x103d6e4 size 0x1c virtual false final false
- ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector GetUnhashedSubPackets() ;
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector GetUnhashedSubPackets() ;
 
 /// @brief Method createSubpacketVector addr 0x103d674 size 0x70 virtual false final false
- ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector createSubpacketVector(::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket> pcks) ;
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector createSubpacketVector(::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> pcks) ;
 
 /// @brief Method GetSignature addr 0x103ca80 size 0x2d0 virtual false final false
  ::ArrayW<uint8_t> GetSignature() ;
@@ -291,10 +290,10 @@ explicit PgpSignature(::Org::BouncyCastle::Bcpg::SignaturePacket sigPacket, ::Or
  ::ArrayW<uint8_t> GetEncoded() ;
 
 /// @brief Method Encode addr 0x1035d30 size 0x58 virtual false final false
- void Encode(::System::IO::Stream outStream) ;
+ void Encode(System::IO::Stream outStream) ;
 
 /// @brief Method GetEncodedPublicKey addr 0x103cee0 size 0xfc virtual false final false
- ::ArrayW<uint8_t> GetEncodedPublicKey(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey pubKey) ;
+ ::ArrayW<uint8_t> GetEncodedPublicKey(Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey pubKey) ;
 
 /// @brief Method IsCertification addr 0x103c37c size 0x10 virtual false final false
 static bool IsCertification(int32_t signatureType) ;
@@ -303,6 +302,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg::OpenPgp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature, "Org.BouncyCastle.Bcpg.OpenPgp", "PgpSignature");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature, "Org.BouncyCastle.Bcpg.OpenPgp", "PgpSignature");

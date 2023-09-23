@@ -3,13 +3,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-class Type;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceLocations {
@@ -37,7 +36,7 @@ constexpr explicit IResourceLocation(void* ptr) noexcept : ::cordl_internals::In
 
  ::StringW __declspec(property(get=get_ProviderId))  ProviderId;
 
- ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> __declspec(property(get=get_Dependencies))  Dependencies;
+ System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> __declspec(property(get=get_Dependencies))  Dependencies;
 
  int32_t __declspec(property(get=get_DependencyHashCode))  DependencyHashCode;
 
@@ -47,7 +46,7 @@ constexpr explicit IResourceLocation(void* ptr) noexcept : ::cordl_internals::In
 
  ::StringW __declspec(property(get=get_PrimaryKey))  PrimaryKey;
 
- ::System::Type __declspec(property(get=get_ResourceType))  ResourceType;
+ System::Type __declspec(property(get=get_ResourceType))  ResourceType;
 
 
 // Methods
@@ -59,10 +58,10 @@ constexpr explicit IResourceLocation(void* ptr) noexcept : ::cordl_internals::In
  ::StringW get_ProviderId() ;
 
 /// @brief Method get_Dependencies addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> get_Dependencies() ;
+ System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> get_Dependencies() ;
 
 /// @brief Method Hash addr 0x0 size 0xffffffffffffffff virtual true final false
- int32_t Hash(::System::Type resultType) ;
+ int32_t Hash(System::Type resultType) ;
 
 /// @brief Method get_DependencyHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t get_DependencyHashCode() ;
@@ -77,12 +76,11 @@ constexpr explicit IResourceLocation(void* ptr) noexcept : ::cordl_internals::In
  ::StringW get_PrimaryKey() ;
 
 /// @brief Method get_ResourceType addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Type get_ResourceType() ;
+ System::Type get_ResourceType() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ResourceManagement::ResourceLocations
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation, "UnityEngine.ResourceManagement.ResourceLocations", "IResourceLocation");
+NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation, "UnityEngine.ResourceManagement.ResourceLocations", "IResourceLocation");

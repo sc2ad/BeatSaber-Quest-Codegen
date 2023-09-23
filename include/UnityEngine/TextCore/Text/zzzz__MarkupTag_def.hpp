@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
 struct MarkupTag;
@@ -191,386 +190,385 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field BOLD offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const BOLD;
+static UnityEngine::TextCore::Text::MarkupTag const BOLD;
 
 /// @brief Field SLASH_BOLD offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_BOLD;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_BOLD;
 
 /// @brief Field ITALIC offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const ITALIC;
+static UnityEngine::TextCore::Text::MarkupTag const ITALIC;
 
 /// @brief Field SLASH_ITALIC offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_ITALIC;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_ITALIC;
 
 /// @brief Field UNDERLINE offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const UNDERLINE;
+static UnityEngine::TextCore::Text::MarkupTag const UNDERLINE;
 
 /// @brief Field SLASH_UNDERLINE offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_UNDERLINE;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_UNDERLINE;
 
 /// @brief Field STRIKETHROUGH offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const STRIKETHROUGH;
+static UnityEngine::TextCore::Text::MarkupTag const STRIKETHROUGH;
 
 /// @brief Field SLASH_STRIKETHROUGH offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_STRIKETHROUGH;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_STRIKETHROUGH;
 
 /// @brief Field MARK offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const MARK;
+static UnityEngine::TextCore::Text::MarkupTag const MARK;
 
 /// @brief Field SLASH_MARK offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_MARK;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_MARK;
 
 /// @brief Field SUBSCRIPT offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SUBSCRIPT;
+static UnityEngine::TextCore::Text::MarkupTag const SUBSCRIPT;
 
 /// @brief Field SLASH_SUBSCRIPT offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_SUBSCRIPT;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_SUBSCRIPT;
 
 /// @brief Field SUPERSCRIPT offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SUPERSCRIPT;
+static UnityEngine::TextCore::Text::MarkupTag const SUPERSCRIPT;
 
 /// @brief Field SLASH_SUPERSCRIPT offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_SUPERSCRIPT;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_SUPERSCRIPT;
 
 /// @brief Field COLOR offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const COLOR;
+static UnityEngine::TextCore::Text::MarkupTag const COLOR;
 
 /// @brief Field SLASH_COLOR offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_COLOR;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_COLOR;
 
 /// @brief Field ALPHA offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const ALPHA;
+static UnityEngine::TextCore::Text::MarkupTag const ALPHA;
 
 /// @brief Field A offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const A;
+static UnityEngine::TextCore::Text::MarkupTag const A;
 
 /// @brief Field SLASH_A offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_A;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_A;
 
 /// @brief Field SIZE offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SIZE;
+static UnityEngine::TextCore::Text::MarkupTag const SIZE;
 
 /// @brief Field SLASH_SIZE offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_SIZE;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_SIZE;
 
 /// @brief Field SPRITE offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SPRITE;
+static UnityEngine::TextCore::Text::MarkupTag const SPRITE;
 
 /// @brief Field NO_BREAK offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const NO_BREAK;
+static UnityEngine::TextCore::Text::MarkupTag const NO_BREAK;
 
 /// @brief Field SLASH_NO_BREAK offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_NO_BREAK;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_NO_BREAK;
 
 /// @brief Field STYLE offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const STYLE;
+static UnityEngine::TextCore::Text::MarkupTag const STYLE;
 
 /// @brief Field SLASH_STYLE offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_STYLE;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_STYLE;
 
 /// @brief Field FONT offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const FONT;
+static UnityEngine::TextCore::Text::MarkupTag const FONT;
 
 /// @brief Field SLASH_FONT offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_FONT;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_FONT;
 
 /// @brief Field SLASH_MATERIAL offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_MATERIAL;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_MATERIAL;
 
 /// @brief Field LINK offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const LINK;
+static UnityEngine::TextCore::Text::MarkupTag const LINK;
 
 /// @brief Field SLASH_LINK offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_LINK;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_LINK;
 
 /// @brief Field FONT_WEIGHT offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const FONT_WEIGHT;
+static UnityEngine::TextCore::Text::MarkupTag const FONT_WEIGHT;
 
 /// @brief Field SLASH_FONT_WEIGHT offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_FONT_WEIGHT;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_FONT_WEIGHT;
 
 /// @brief Field NO_PARSE offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const NO_PARSE;
+static UnityEngine::TextCore::Text::MarkupTag const NO_PARSE;
 
 /// @brief Field SLASH_NO_PARSE offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_NO_PARSE;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_NO_PARSE;
 
 /// @brief Field POSITION offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const POSITION;
+static UnityEngine::TextCore::Text::MarkupTag const POSITION;
 
 /// @brief Field SLASH_POSITION offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_POSITION;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_POSITION;
 
 /// @brief Field VERTICAL_OFFSET offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const VERTICAL_OFFSET;
+static UnityEngine::TextCore::Text::MarkupTag const VERTICAL_OFFSET;
 
 /// @brief Field SLASH_VERTICAL_OFFSET offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_VERTICAL_OFFSET;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_VERTICAL_OFFSET;
 
 /// @brief Field SPACE offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SPACE;
+static UnityEngine::TextCore::Text::MarkupTag const SPACE;
 
 /// @brief Field SLASH_SPACE offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_SPACE;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_SPACE;
 
 /// @brief Field PAGE offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const PAGE;
+static UnityEngine::TextCore::Text::MarkupTag const PAGE;
 
 /// @brief Field SLASH_PAGE offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_PAGE;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_PAGE;
 
 /// @brief Field ALIGN offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const ALIGN;
+static UnityEngine::TextCore::Text::MarkupTag const ALIGN;
 
 /// @brief Field SLASH_ALIGN offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_ALIGN;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_ALIGN;
 
 /// @brief Field WIDTH offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const WIDTH;
+static UnityEngine::TextCore::Text::MarkupTag const WIDTH;
 
 /// @brief Field SLASH_WIDTH offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_WIDTH;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_WIDTH;
 
 /// @brief Field GRADIENT offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const GRADIENT;
+static UnityEngine::TextCore::Text::MarkupTag const GRADIENT;
 
 /// @brief Field SLASH_GRADIENT offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_GRADIENT;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_GRADIENT;
 
 /// @brief Field CHARACTER_SPACE offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const CHARACTER_SPACE;
+static UnityEngine::TextCore::Text::MarkupTag const CHARACTER_SPACE;
 
 /// @brief Field SLASH_CHARACTER_SPACE offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_CHARACTER_SPACE;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_CHARACTER_SPACE;
 
 /// @brief Field MONOSPACE offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const MONOSPACE;
+static UnityEngine::TextCore::Text::MarkupTag const MONOSPACE;
 
 /// @brief Field SLASH_MONOSPACE offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_MONOSPACE;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_MONOSPACE;
 
 /// @brief Field CLASS offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const CLASS;
+static UnityEngine::TextCore::Text::MarkupTag const CLASS;
 
 /// @brief Field INDENT offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const INDENT;
+static UnityEngine::TextCore::Text::MarkupTag const INDENT;
 
 /// @brief Field SLASH_INDENT offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_INDENT;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_INDENT;
 
 /// @brief Field LINE_INDENT offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const LINE_INDENT;
+static UnityEngine::TextCore::Text::MarkupTag const LINE_INDENT;
 
 /// @brief Field SLASH_LINE_INDENT offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_LINE_INDENT;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_LINE_INDENT;
 
 /// @brief Field MARGIN offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const MARGIN;
+static UnityEngine::TextCore::Text::MarkupTag const MARGIN;
 
 /// @brief Field SLASH_MARGIN offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_MARGIN;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_MARGIN;
 
 /// @brief Field MARGIN_LEFT offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const MARGIN_LEFT;
+static UnityEngine::TextCore::Text::MarkupTag const MARGIN_LEFT;
 
 /// @brief Field MARGIN_RIGHT offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const MARGIN_RIGHT;
+static UnityEngine::TextCore::Text::MarkupTag const MARGIN_RIGHT;
 
 /// @brief Field LINE_HEIGHT offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const LINE_HEIGHT;
+static UnityEngine::TextCore::Text::MarkupTag const LINE_HEIGHT;
 
 /// @brief Field SLASH_LINE_HEIGHT offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_LINE_HEIGHT;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_LINE_HEIGHT;
 
 /// @brief Field ACTION offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const ACTION;
+static UnityEngine::TextCore::Text::MarkupTag const ACTION;
 
 /// @brief Field SLASH_ACTION offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_ACTION;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_ACTION;
 
 /// @brief Field SCALE offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SCALE;
+static UnityEngine::TextCore::Text::MarkupTag const SCALE;
 
 /// @brief Field SLASH_SCALE offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_SCALE;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_SCALE;
 
 /// @brief Field ROTATE offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const ROTATE;
+static UnityEngine::TextCore::Text::MarkupTag const ROTATE;
 
 /// @brief Field SLASH_ROTATE offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_ROTATE;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_ROTATE;
 
 /// @brief Field LOWERCASE offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const LOWERCASE;
+static UnityEngine::TextCore::Text::MarkupTag const LOWERCASE;
 
 /// @brief Field SLASH_LOWERCASE offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_LOWERCASE;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_LOWERCASE;
 
 /// @brief Field ALLCAPS offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const ALLCAPS;
+static UnityEngine::TextCore::Text::MarkupTag const ALLCAPS;
 
 /// @brief Field SLASH_ALLCAPS offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_ALLCAPS;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_ALLCAPS;
 
 /// @brief Field UPPERCASE offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const UPPERCASE;
+static UnityEngine::TextCore::Text::MarkupTag const UPPERCASE;
 
 /// @brief Field SLASH_UPPERCASE offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_UPPERCASE;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_UPPERCASE;
 
 /// @brief Field SMALLCAPS offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SMALLCAPS;
+static UnityEngine::TextCore::Text::MarkupTag const SMALLCAPS;
 
 /// @brief Field SLASH_SMALLCAPS offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_SMALLCAPS;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_SMALLCAPS;
 
 /// @brief Field LIGA offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const LIGA;
+static UnityEngine::TextCore::Text::MarkupTag const LIGA;
 
 /// @brief Field SLASH_LIGA offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_LIGA;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_LIGA;
 
 /// @brief Field FRAC offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const FRAC;
+static UnityEngine::TextCore::Text::MarkupTag const FRAC;
 
 /// @brief Field SLASH_FRAC offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_FRAC;
+static UnityEngine::TextCore::Text::MarkupTag const SLASH_FRAC;
 
 /// @brief Field NAME offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const NAME;
+static UnityEngine::TextCore::Text::MarkupTag const NAME;
 
 /// @brief Field INDEX offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const INDEX;
+static UnityEngine::TextCore::Text::MarkupTag const INDEX;
 
 /// @brief Field TINT offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const TINT;
+static UnityEngine::TextCore::Text::MarkupTag const TINT;
 
 /// @brief Field ANIM offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const ANIM;
+static UnityEngine::TextCore::Text::MarkupTag const ANIM;
 
 /// @brief Field MATERIAL offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const MATERIAL;
+static UnityEngine::TextCore::Text::MarkupTag const MATERIAL;
 
 /// @brief Field HREF offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const HREF;
+static UnityEngine::TextCore::Text::MarkupTag const HREF;
 
 /// @brief Field ANGLE offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const ANGLE;
+static UnityEngine::TextCore::Text::MarkupTag const ANGLE;
 
 /// @brief Field RED offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const RED;
+static UnityEngine::TextCore::Text::MarkupTag const RED;
 
 /// @brief Field GREEN offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const GREEN;
+static UnityEngine::TextCore::Text::MarkupTag const GREEN;
 
 /// @brief Field BLUE offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const BLUE;
+static UnityEngine::TextCore::Text::MarkupTag const BLUE;
 
 /// @brief Field YELLOW offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const YELLOW;
+static UnityEngine::TextCore::Text::MarkupTag const YELLOW;
 
 /// @brief Field ORANGE offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const ORANGE;
+static UnityEngine::TextCore::Text::MarkupTag const ORANGE;
 
 /// @brief Field BLACK offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const BLACK;
+static UnityEngine::TextCore::Text::MarkupTag const BLACK;
 
 /// @brief Field WHITE offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const WHITE;
+static UnityEngine::TextCore::Text::MarkupTag const WHITE;
 
 /// @brief Field PURPLE offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const PURPLE;
+static UnityEngine::TextCore::Text::MarkupTag const PURPLE;
 
 /// @brief Field BR offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const BR;
+static UnityEngine::TextCore::Text::MarkupTag const BR;
 
 /// @brief Field ZWSP offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const ZWSP;
+static UnityEngine::TextCore::Text::MarkupTag const ZWSP;
 
 /// @brief Field NBSP offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const NBSP;
+static UnityEngine::TextCore::Text::MarkupTag const NBSP;
 
 /// @brief Field SHY offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const SHY;
+static UnityEngine::TextCore::Text::MarkupTag const SHY;
 
 /// @brief Field LEFT offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const LEFT;
+static UnityEngine::TextCore::Text::MarkupTag const LEFT;
 
 /// @brief Field RIGHT offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const RIGHT;
+static UnityEngine::TextCore::Text::MarkupTag const RIGHT;
 
 /// @brief Field CENTER offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const CENTER;
+static UnityEngine::TextCore::Text::MarkupTag const CENTER;
 
 /// @brief Field JUSTIFIED offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const JUSTIFIED;
+static UnityEngine::TextCore::Text::MarkupTag const JUSTIFIED;
 
 /// @brief Field FLUSH offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const FLUSH;
+static UnityEngine::TextCore::Text::MarkupTag const FLUSH;
 
 /// @brief Field NONE offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const NONE;
+static UnityEngine::TextCore::Text::MarkupTag const NONE;
 
 /// @brief Field PLUS offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const PLUS;
+static UnityEngine::TextCore::Text::MarkupTag const PLUS;
 
 /// @brief Field MINUS offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const MINUS;
+static UnityEngine::TextCore::Text::MarkupTag const MINUS;
 
 /// @brief Field PX offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const PX;
+static UnityEngine::TextCore::Text::MarkupTag const PX;
 
 /// @brief Field PLUS_PX offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const PLUS_PX;
+static UnityEngine::TextCore::Text::MarkupTag const PLUS_PX;
 
 /// @brief Field MINUS_PX offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const MINUS_PX;
+static UnityEngine::TextCore::Text::MarkupTag const MINUS_PX;
 
 /// @brief Field EM offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const EM;
+static UnityEngine::TextCore::Text::MarkupTag const EM;
 
 /// @brief Field PLUS_EM offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const PLUS_EM;
+static UnityEngine::TextCore::Text::MarkupTag const PLUS_EM;
 
 /// @brief Field MINUS_EM offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const MINUS_EM;
+static UnityEngine::TextCore::Text::MarkupTag const MINUS_EM;
 
 /// @brief Field PCT offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const PCT;
+static UnityEngine::TextCore::Text::MarkupTag const PCT;
 
 /// @brief Field PLUS_PCT offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const PLUS_PCT;
+static UnityEngine::TextCore::Text::MarkupTag const PLUS_PCT;
 
 /// @brief Field MINUS_PCT offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const MINUS_PCT;
+static UnityEngine::TextCore::Text::MarkupTag const MINUS_PCT;
 
 /// @brief Field PERCENTAGE offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const PERCENTAGE;
+static UnityEngine::TextCore::Text::MarkupTag const PERCENTAGE;
 
 /// @brief Field PLUS_PERCENTAGE offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const PLUS_PERCENTAGE;
+static UnityEngine::TextCore::Text::MarkupTag const PLUS_PERCENTAGE;
 
 /// @brief Field MINUS_PERCENTAGE offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const MINUS_PERCENTAGE;
+static UnityEngine::TextCore::Text::MarkupTag const MINUS_PERCENTAGE;
 
 /// @brief Field TRUE offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const TRUE;
+static UnityEngine::TextCore::Text::MarkupTag const TRUE;
 
 /// @brief Field FALSE offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const FALSE;
+static UnityEngine::TextCore::Text::MarkupTag const FALSE;
 
 /// @brief Field INVALID offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const INVALID;
+static UnityEngine::TextCore::Text::MarkupTag const INVALID;
 
 /// @brief Field NORMAL offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const NORMAL;
+static UnityEngine::TextCore::Text::MarkupTag const NORMAL;
 
 /// @brief Field DEFAULT offset 0
-static ::UnityEngine::TextCore::Text::MarkupTag const DEFAULT;
+static UnityEngine::TextCore::Text::MarkupTag const DEFAULT;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::Text
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::MarkupTag, "UnityEngine.TextCore.Text", "MarkupTag");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Text::MarkupTag, "UnityEngine.TextCore.Text", "MarkupTag");

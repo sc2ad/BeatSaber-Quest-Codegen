@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Zenject {
 class ISubContainerCreator;
 }
@@ -9,10 +8,10 @@ namespace Zenject {
 struct TypeValuePair;
 }
 namespace Zenject {
-class DiContainer;
+class InjectContext;
 }
 namespace Zenject {
-class InjectContext;
+class DiContainer;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -31,8 +30,8 @@ namespace Zenject {
 class CORDL_TYPE SubContainerCreatorByInstance : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Zenject::ISubContainerCreator
-constexpr operator  ::Zenject::ISubContainerCreator() const noexcept;
+/// @brief Convert operator to Zenject::ISubContainerCreator
+constexpr operator  Zenject::ISubContainerCreator() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -67,28 +66,27 @@ constexpr explicit SubContainerCreatorByInstance(void* ptr) noexcept : ::bs_hook
 
 // Fields
 
- ::Zenject::DiContainer __declspec(property(get=__get__subcontainer, put=__set__subcontainer))  _subcontainer;
+ Zenject::DiContainer __declspec(property(get=__get__subcontainer, put=__set__subcontainer))  _subcontainer;
 
-constexpr void __set__subcontainer(::Zenject::DiContainer value) ;
+constexpr void __set__subcontainer(Zenject::DiContainer value) ;
 
-constexpr ::Zenject::DiContainer __get__subcontainer() const;
+constexpr Zenject::DiContainer __get__subcontainer() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "subcontainer", ty: "::Zenject::DiContainer", modifiers: "", def_value: None }]
-explicit SubContainerCreatorByInstance(::Zenject::DiContainer subcontainer) ;
+// Ctor Parameters [CppParam { name: "subcontainer", ty: "Zenject::DiContainer", modifiers: "", def_value: None }]
+explicit SubContainerCreatorByInstance(Zenject::DiContainer subcontainer) ;
 
 /// @brief Method .ctor addr 0x2d920e4 size 0x28 virtual false final false
- void _ctor(::Zenject::DiContainer subcontainer) ;
+ void _ctor(Zenject::DiContainer subcontainer) ;
 
 /// @brief Method CreateSubContainer addr 0x2d9210c size 0x68 virtual true final true
- ::Zenject::DiContainer CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair> args, ::Zenject::InjectContext context) ;
+ Zenject::DiContainer CreateSubContainer(System::Collections::Generic::List_1<Zenject::TypeValuePair> args, Zenject::InjectContext context) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::SubContainerCreatorByInstance);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::SubContainerCreatorByInstance, "Zenject", "SubContainerCreatorByInstance");
+NEED_NO_BOX(Zenject::SubContainerCreatorByInstance);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByInstance, "Zenject", "SubContainerCreatorByInstance");

@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 class Coroutine;
 }
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System {
 class Action;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -26,13 +25,13 @@ namespace UnityEngine::XR::OpenXR {
 class OpenXRRestarter;
 }
 namespace UnityEngine::XR::OpenXR {
-class ____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25;
+class UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25;
 }
 namespace UnityEngine::XR::OpenXR {
-class ____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24;
+class UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24;
 }
 namespace UnityEngine::XR::OpenXR {
-class ____UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26;
+class UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26;
 }
 // Type: ::<PauseAndShutdownAndRestartCoroutine>d__24
 namespace UnityEngine::XR::OpenXR {
@@ -40,46 +39,46 @@ namespace UnityEngine::XR::OpenXR {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14170))
 // CS Name: UnityEngine.XR.OpenXR.OpenXRRestarter::<PauseAndShutdownAndRestartCoroutine>d__24
-class CORDL_TYPE ____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24() = default;
+virtual ~UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24(____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24(UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24(____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24(UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24& operator=(void* o) noexcept {
+  constexpr UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24& operator=(____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24&& o) noexcept = default;
-  constexpr ____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24& operator=(____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24 const& o) noexcept = default;
+  constexpr UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24& operator=(UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24&& o) noexcept = default;
+  constexpr UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24& operator=(UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24 const& o) noexcept = default;
                 
 
 
@@ -103,11 +102,11 @@ constexpr void __set_pauseTimeInSeconds(float_t value) ;
 
 constexpr float_t __get_pauseTimeInSeconds() const;
 
- ::UnityEngine::XR::OpenXR::OpenXRRestarter __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ UnityEngine::XR::OpenXR::OpenXRRestarter __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::UnityEngine::XR::OpenXR::OpenXRRestarter value) ;
+constexpr void __set___4__this(UnityEngine::XR::OpenXR::OpenXRRestarter value) ;
 
-constexpr ::UnityEngine::XR::OpenXR::OpenXRRestarter __get___4__this() const;
+constexpr UnityEngine::XR::OpenXR::OpenXRRestarter __get___4__this() const;
 
 
 // Properties
@@ -120,7 +119,7 @@ constexpr ::UnityEngine::XR::OpenXR::OpenXRRestarter __get___4__this() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24(int32_t __1__state) ;
+explicit UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2aeb6a8 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -153,46 +152,46 @@ namespace UnityEngine::XR::OpenXR {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14171))
 // CS Name: UnityEngine.XR.OpenXR.OpenXRRestarter::<PauseAndRetryInitializationCoroutine>d__25
-class CORDL_TYPE ____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25() = default;
+virtual ~UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25(____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25(UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25(____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25(UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25& operator=(void* o) noexcept {
+  constexpr UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25& operator=(____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25&& o) noexcept = default;
-  constexpr ____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25& operator=(____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25 const& o) noexcept = default;
+  constexpr UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25& operator=(UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25&& o) noexcept = default;
+  constexpr UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25& operator=(UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25 const& o) noexcept = default;
                 
 
 
@@ -216,11 +215,11 @@ constexpr void __set_pauseTimeInSeconds(float_t value) ;
 
 constexpr float_t __get_pauseTimeInSeconds() const;
 
- ::UnityEngine::XR::OpenXR::OpenXRRestarter __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ UnityEngine::XR::OpenXR::OpenXRRestarter __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::UnityEngine::XR::OpenXR::OpenXRRestarter value) ;
+constexpr void __set___4__this(UnityEngine::XR::OpenXR::OpenXRRestarter value) ;
 
-constexpr ::UnityEngine::XR::OpenXR::OpenXRRestarter __get___4__this() const;
+constexpr UnityEngine::XR::OpenXR::OpenXRRestarter __get___4__this() const;
 
 
 // Properties
@@ -233,7 +232,7 @@ constexpr ::UnityEngine::XR::OpenXR::OpenXRRestarter __get___4__this() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25(int32_t __1__state) ;
+explicit UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2aeb6d0 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -266,46 +265,46 @@ namespace UnityEngine::XR::OpenXR {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14172))
 // CS Name: UnityEngine.XR.OpenXR.OpenXRRestarter::<RestartCoroutine>d__26
-class CORDL_TYPE ____UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
 
-virtual ~____UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26() = default;
+virtual ~UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26(____UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26(UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26(____UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26(UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26& operator=(void* o) noexcept {
+  constexpr UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26& operator=(____UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26&& o) noexcept = default;
-  constexpr ____UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26& operator=(____UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26 const& o) noexcept = default;
+  constexpr UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26& operator=(UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26&& o) noexcept = default;
+  constexpr UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26& operator=(UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26 const& o) noexcept = default;
                 
 
 
@@ -329,11 +328,11 @@ constexpr void __set_shouldShutdown(bool value) ;
 
 constexpr bool __get_shouldShutdown() const;
 
- ::UnityEngine::XR::OpenXR::OpenXRRestarter __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ UnityEngine::XR::OpenXR::OpenXRRestarter __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::UnityEngine::XR::OpenXR::OpenXRRestarter value) ;
+constexpr void __set___4__this(UnityEngine::XR::OpenXR::OpenXRRestarter value) ;
 
-constexpr ::UnityEngine::XR::OpenXR::OpenXRRestarter __get___4__this() const;
+constexpr UnityEngine::XR::OpenXR::OpenXRRestarter __get___4__this() const;
 
  bool __declspec(property(get=__get_shouldRestart, put=__set_shouldRestart))  shouldRestart;
 
@@ -352,7 +351,7 @@ constexpr bool __get_shouldRestart() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26(int32_t __1__state) ;
+explicit UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2aeb6f8 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -385,14 +384,14 @@ namespace UnityEngine::XR::OpenXR {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14173))
 // CS Name: UnityEngine.XR.OpenXR.OpenXRRestarter
-class CORDL_TYPE OpenXRRestarter : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OpenXRRestarter : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using _RestartCoroutine_d__26 = ::UnityEngine::XR::OpenXR::____UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26;
+using _RestartCoroutine_d__26 = UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26;
 
-using _PauseAndRetryInitializationCoroutine_d__25 = ::UnityEngine::XR::OpenXR::____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25;
+using _PauseAndRetryInitializationCoroutine_d__25 = UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25;
 
-using _PauseAndShutdownAndRestartCoroutine_d__24 = ::UnityEngine::XR::OpenXR::____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24;
+using _PauseAndShutdownAndRestartCoroutine_d__24 = UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
@@ -406,7 +405,7 @@ constexpr OpenXRRestarter(OpenXRRestarter const& ) noexcept = default;
 constexpr OpenXRRestarter(OpenXRRestarter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OpenXRRestarter(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OpenXRRestarter(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -427,47 +426,47 @@ constexpr explicit OpenXRRestarter(void* ptr) noexcept : ::UnityEngine::MonoBeha
 
 // Fields
 
- ::System::Action __declspec(property(get=__get_onAfterRestart, put=__set_onAfterRestart))  onAfterRestart;
+ System::Action __declspec(property(get=__get_onAfterRestart, put=__set_onAfterRestart))  onAfterRestart;
 
-constexpr void __set_onAfterRestart(::System::Action value) ;
+constexpr void __set_onAfterRestart(System::Action value) ;
 
-constexpr ::System::Action __get_onAfterRestart() const;
+constexpr System::Action __get_onAfterRestart() const;
 
- ::System::Action __declspec(property(get=__get_onAfterShutdown, put=__set_onAfterShutdown))  onAfterShutdown;
+ System::Action __declspec(property(get=__get_onAfterShutdown, put=__set_onAfterShutdown))  onAfterShutdown;
 
-constexpr void __set_onAfterShutdown(::System::Action value) ;
+constexpr void __set_onAfterShutdown(System::Action value) ;
 
-constexpr ::System::Action __get_onAfterShutdown() const;
+constexpr System::Action __get_onAfterShutdown() const;
 
- ::System::Action __declspec(property(get=__get_onQuit, put=__set_onQuit))  onQuit;
+ System::Action __declspec(property(get=__get_onQuit, put=__set_onQuit))  onQuit;
 
-constexpr void __set_onQuit(::System::Action value) ;
+constexpr void __set_onQuit(System::Action value) ;
 
-constexpr ::System::Action __get_onQuit() const;
+constexpr System::Action __get_onQuit() const;
 
- ::System::Action __declspec(property(get=__get_onAfterCoroutine, put=__set_onAfterCoroutine))  onAfterCoroutine;
+ System::Action __declspec(property(get=__get_onAfterCoroutine, put=__set_onAfterCoroutine))  onAfterCoroutine;
 
-constexpr void __set_onAfterCoroutine(::System::Action value) ;
+constexpr void __set_onAfterCoroutine(System::Action value) ;
 
-constexpr ::System::Action __get_onAfterCoroutine() const;
+constexpr System::Action __get_onAfterCoroutine() const;
 
- ::System::Action __declspec(property(get=__get_onAfterSuccessfulRestart, put=__set_onAfterSuccessfulRestart))  onAfterSuccessfulRestart;
+ System::Action __declspec(property(get=__get_onAfterSuccessfulRestart, put=__set_onAfterSuccessfulRestart))  onAfterSuccessfulRestart;
 
-constexpr void __set_onAfterSuccessfulRestart(::System::Action value) ;
+constexpr void __set_onAfterSuccessfulRestart(System::Action value) ;
 
-constexpr ::System::Action __get_onAfterSuccessfulRestart() const;
+constexpr System::Action __get_onAfterSuccessfulRestart() const;
 
-static ::UnityEngine::XR::OpenXR::OpenXRRestarter __declspec(property(get=__get_s_Instance, put=__set_s_Instance))  s_Instance;
+static UnityEngine::XR::OpenXR::OpenXRRestarter __declspec(property(get=__get_s_Instance, put=__set_s_Instance))  s_Instance;
 
-static void __set_s_Instance(::UnityEngine::XR::OpenXR::OpenXRRestarter value) ;
+static void __set_s_Instance(UnityEngine::XR::OpenXR::OpenXRRestarter value) ;
 
-static ::UnityEngine::XR::OpenXR::OpenXRRestarter __get_s_Instance() ;
+static UnityEngine::XR::OpenXR::OpenXRRestarter __get_s_Instance() ;
 
- ::UnityEngine::Coroutine __declspec(property(get=__get_m_Coroutine, put=__set_m_Coroutine))  m_Coroutine;
+ UnityEngine::Coroutine __declspec(property(get=__get_m_Coroutine, put=__set_m_Coroutine))  m_Coroutine;
 
-constexpr void __set_m_Coroutine(::UnityEngine::Coroutine value) ;
+constexpr void __set_m_Coroutine(UnityEngine::Coroutine value) ;
 
-constexpr ::UnityEngine::Coroutine __get_m_Coroutine() const;
+constexpr UnityEngine::Coroutine __get_m_Coroutine() const;
 
 static int32_t __declspec(property(get=__get_m_pauseAndRestartAttempts, put=__set_m_pauseAndRestartAttempts))  m_pauseAndRestartAttempts;
 
@@ -490,7 +489,7 @@ static float_t __declspec(property(get=get_TimeBetweenRestartAttempts, put=set_T
 
 static int32_t __declspec(property(get=get_PauseAndRestartAttempts))  PauseAndRestartAttempts;
 
-static ::UnityEngine::XR::OpenXR::OpenXRRestarter __declspec(property(get=get_Instance))  Instance;
+static UnityEngine::XR::OpenXR::OpenXRRestarter __declspec(property(get=get_Instance))  Instance;
 
 
 // Methods
@@ -511,7 +510,7 @@ static void set_TimeBetweenRestartAttempts(float_t value) ;
 static int32_t get_PauseAndRestartAttempts() ;
 
 /// @brief Method get_Instance addr 0x2aea550 size 0x1b0 virtual false final false
-static ::UnityEngine::XR::OpenXR::OpenXRRestarter get_Instance() ;
+static UnityEngine::XR::OpenXR::OpenXRRestarter get_Instance() ;
 
 /// @brief Method Shutdown addr 0x2aeadd0 size 0x140 virtual false final false
  void Shutdown() ;
@@ -526,13 +525,13 @@ static ::UnityEngine::XR::OpenXR::OpenXRRestarter get_Instance() ;
  void PauseAndRetryInitialization() ;
 
 /// @brief Method PauseAndShutdownAndRestartCoroutine addr 0x2aeb5b8 size 0x78 virtual false final false
- ::System::Collections::IEnumerator PauseAndShutdownAndRestartCoroutine(float_t pauseTimeInSeconds) ;
+ System::Collections::IEnumerator PauseAndShutdownAndRestartCoroutine(float_t pauseTimeInSeconds) ;
 
 /// @brief Method PauseAndRetryInitializationCoroutine addr 0x2aeb630 size 0x78 virtual false final false
- ::System::Collections::IEnumerator PauseAndRetryInitializationCoroutine(float_t pauseTimeInSeconds) ;
+ System::Collections::IEnumerator PauseAndRetryInitializationCoroutine(float_t pauseTimeInSeconds) ;
 
 /// @brief Method RestartCoroutine addr 0x2aeb530 size 0x88 virtual false final false
- ::System::Collections::IEnumerator RestartCoroutine(bool shouldRestart, bool shouldShutdown) ;
+ System::Collections::IEnumerator RestartCoroutine(bool shouldRestart, bool shouldShutdown) ;
 
 // Ctor Parameters []
 explicit OpenXRRestarter() ;
@@ -544,12 +543,11 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR::OpenXR
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::XR::OpenXR::OpenXRRestarter);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::OpenXRRestarter, "UnityEngine.XR.OpenXR", "OpenXRRestarter");
-NEED_NO_BOX(::UnityEngine::XR::OpenXR::____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25, "UnityEngine.XR.OpenXR", "OpenXRRestarter/<PauseAndRetryInitializationCoroutine>d__25");
-NEED_NO_BOX(::UnityEngine::XR::OpenXR::____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::____UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24, "UnityEngine.XR.OpenXR", "OpenXRRestarter/<PauseAndShutdownAndRestartCoroutine>d__24");
-NEED_NO_BOX(::UnityEngine::XR::OpenXR::____UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::____UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26, "UnityEngine.XR.OpenXR", "OpenXRRestarter/<RestartCoroutine>d__26");
+NEED_NO_BOX(UnityEngine::XR::OpenXR::OpenXRRestarter);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::OpenXR::OpenXRRestarter, "UnityEngine.XR.OpenXR", "OpenXRRestarter");
+NEED_NO_BOX(UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25, "UnityEngine.XR.OpenXR", "OpenXRRestarter/<PauseAndRetryInitializationCoroutine>d__25");
+NEED_NO_BOX(UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24, "UnityEngine.XR.OpenXR", "OpenXRRestarter/<PauseAndShutdownAndRestartCoroutine>d__24");
+NEED_NO_BOX(UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26, "UnityEngine.XR.OpenXR", "OpenXRRestarter/<RestartCoroutine>d__26");

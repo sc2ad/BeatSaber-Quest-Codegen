@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace TMPro {
 struct TMP_VertexDataUpdateFlags;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::TMPro::TMP_VertexDataUpdateFlags const None;
+static TMPro::TMP_VertexDataUpdateFlags const None;
 
 /// @brief Field Vertices offset 0
-static ::TMPro::TMP_VertexDataUpdateFlags const Vertices;
+static TMPro::TMP_VertexDataUpdateFlags const Vertices;
 
 /// @brief Field Uv0 offset 0
-static ::TMPro::TMP_VertexDataUpdateFlags const Uv0;
+static TMPro::TMP_VertexDataUpdateFlags const Uv0;
 
 /// @brief Field Uv2 offset 0
-static ::TMPro::TMP_VertexDataUpdateFlags const Uv2;
+static TMPro::TMP_VertexDataUpdateFlags const Uv2;
 
 /// @brief Field Uv4 offset 0
-static ::TMPro::TMP_VertexDataUpdateFlags const Uv4;
+static TMPro::TMP_VertexDataUpdateFlags const Uv4;
 
 /// @brief Field Colors32 offset 0
-static ::TMPro::TMP_VertexDataUpdateFlags const Colors32;
+static TMPro::TMP_VertexDataUpdateFlags const Colors32;
 
 /// @brief Field All offset 0
-static ::TMPro::TMP_VertexDataUpdateFlags const All;
+static TMPro::TMP_VertexDataUpdateFlags const All;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_VertexDataUpdateFlags, "TMPro", "TMP_VertexDataUpdateFlags");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_VertexDataUpdateFlags, "TMPro", "TMP_VertexDataUpdateFlags");

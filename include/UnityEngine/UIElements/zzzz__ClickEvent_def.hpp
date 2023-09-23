@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerEventBase_1_def.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine::UIElements {
 class PointerUpEvent;
 }
@@ -16,7 +15,7 @@ namespace UnityEngine::UIElements {
 // Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7297), inst: 4679 }), TypeDefinitionIndex(TypeDefinitionIndex(7297))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7303))
 // CS Name: UnityEngine.UIElements.ClickEvent
-class CORDL_TYPE ClickEvent : public ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::ClickEvent> {
+class CORDL_TYPE ClickEvent : public UnityEngine::UIElements::PointerEventBase_1<UnityEngine::UIElements::ClickEvent> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr ClickEvent(ClickEvent const& ) noexcept = default;
 constexpr ClickEvent(ClickEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ClickEvent(void* ptr) noexcept : ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::ClickEvent>(ptr) {
+constexpr explicit ClickEvent(void* ptr) noexcept : UnityEngine::UIElements::PointerEventBase_1<UnityEngine::UIElements::ClickEvent>(ptr) {
 }
 
 
@@ -65,12 +64,11 @@ explicit ClickEvent() ;
  void _ctor() ;
 
 /// @brief Method GetPooled addr 0x2cd9308 size 0x70 virtual false final false
-static ::UnityEngine::UIElements::ClickEvent GetPooled(::UnityEngine::UIElements::PointerUpEvent pointerEvent, int32_t clickCount) ;
+static UnityEngine::UIElements::ClickEvent GetPooled(UnityEngine::UIElements::PointerUpEvent pointerEvent, int32_t clickCount) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::ClickEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ClickEvent, "UnityEngine.UIElements", "ClickEvent");
+NEED_NO_BOX(UnityEngine::UIElements::ClickEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::ClickEvent, "UnityEngine.UIElements", "ClickEvent");

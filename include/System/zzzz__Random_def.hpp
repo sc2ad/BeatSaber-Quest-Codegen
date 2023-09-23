@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 class Random;
@@ -78,17 +77,17 @@ constexpr void __set__seedArray(::ArrayW<int32_t> value) ;
 
 constexpr ::ArrayW<int32_t> __get__seedArray() const;
 
-static ::System::Random __declspec(property(get=__get_t_threadRandom, put=__set_t_threadRandom))  t_threadRandom;
+static System::Random __declspec(property(get=__get_t_threadRandom, put=__set_t_threadRandom))  t_threadRandom;
 
-static void __set_t_threadRandom(::System::Random value) ;
+static void __set_t_threadRandom(System::Random value) ;
 
-static ::System::Random __get_t_threadRandom() ;
+static System::Random __get_t_threadRandom() ;
 
-static ::System::Random __declspec(property(get=__get_s_globalRandom, put=__set_s_globalRandom))  s_globalRandom;
+static System::Random __declspec(property(get=__get_s_globalRandom, put=__set_s_globalRandom))  s_globalRandom;
 
-static void __set_s_globalRandom(::System::Random value) ;
+static void __set_s_globalRandom(System::Random value) ;
 
-static ::System::Random __get_s_globalRandom() ;
+static System::Random __get_s_globalRandom() ;
 
 
 // Methods
@@ -139,6 +138,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::Random);
-DEFINE_IL2CPP_ARG_TYPE(::System::Random, "System", "Random");
+NEED_NO_BOX(System::Random);
+DEFINE_IL2CPP_ARG_TYPE(System::Random, "System", "Random");

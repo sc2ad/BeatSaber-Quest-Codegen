@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__MemberAccessException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System {
@@ -19,7 +18,7 @@ namespace System {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2435))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2380))
 // CS Name: System.FieldAccessException
-class CORDL_TYPE FieldAccessException : public ::System::MemberAccessException {
+class CORDL_TYPE FieldAccessException : public System::MemberAccessException {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr FieldAccessException(FieldAccessException const& ) noexcept = default;
 constexpr FieldAccessException(FieldAccessException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FieldAccessException(void* ptr) noexcept : ::System::MemberAccessException(ptr) {
+constexpr explicit FieldAccessException(void* ptr) noexcept : System::MemberAccessException(ptr) {
 }
 
 
@@ -67,16 +66,15 @@ explicit FieldAccessException(::StringW message) ;
 /// @brief Method .ctor addr 0x242936c size 0x24 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit FieldAccessException(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit FieldAccessException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x2429390 size 0x8 virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::FieldAccessException);
-DEFINE_IL2CPP_ARG_TYPE(::System::FieldAccessException, "System", "FieldAccessException");
+NEED_NO_BOX(System::FieldAccessException);
+DEFINE_IL2CPP_ARG_TYPE(System::FieldAccessException, "System", "FieldAccessException");

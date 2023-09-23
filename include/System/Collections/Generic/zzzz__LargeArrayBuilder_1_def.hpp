@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 struct ArrayBuilder_1;
@@ -28,14 +27,14 @@ namespace System::Collections::Generic {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3832)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(3832))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3832), inst: 2 })
 // CS Name: System.Collections.Generic.LargeArrayBuilder`1
 struct CORDL_TYPE LargeArrayBuilder_1<T> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "_maxCapacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_first", ty: "::ArrayW<T>", modifiers: "", def_value: None }, CppParam { name: "_buffers", ty: "::System::Collections::Generic::ArrayBuilder_1<::ArrayW<T>>", modifiers: "", def_value: None }, CppParam { name: "_current", ty: "::ArrayW<T>", modifiers: "", def_value: None }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_count", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr LargeArrayBuilder_1(int32_t _maxCapacity, ::ArrayW<T> _first, ::System::Collections::Generic::ArrayBuilder_1<::ArrayW<T>> _buffers, ::ArrayW<T> _current, int32_t _index, int32_t _count) noexcept;
+// Ctor Parameters [CppParam { name: "_maxCapacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_first", ty: "::ArrayW<T>", modifiers: "", def_value: None }, CppParam { name: "_buffers", ty: "System::Collections::Generic::ArrayBuilder_1<::ArrayW<T>>", modifiers: "", def_value: None }, CppParam { name: "_current", ty: "::ArrayW<T>", modifiers: "", def_value: None }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_count", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr LargeArrayBuilder_1(int32_t _maxCapacity, ::ArrayW<T> _first, System::Collections::Generic::ArrayBuilder_1<::ArrayW<T>> _buffers, ::ArrayW<T> _current, int32_t _index, int32_t _count) noexcept;
 
 
                     constexpr LargeArrayBuilder_1(LargeArrayBuilder_1 const&) = default;
@@ -80,11 +79,11 @@ constexpr void __set__first(::ArrayW<T> value) ;
 
 constexpr ::ArrayW<T> __get__first() const;
 
- ::System::Collections::Generic::ArrayBuilder_1<::ArrayW<T>> __declspec(property(get=__get__buffers, put=__set__buffers))  _buffers;
+ System::Collections::Generic::ArrayBuilder_1<::ArrayW<T>> __declspec(property(get=__get__buffers, put=__set__buffers))  _buffers;
 
-constexpr void __set__buffers(::System::Collections::Generic::ArrayBuilder_1<::ArrayW<T>> value) ;
+constexpr void __set__buffers(System::Collections::Generic::ArrayBuilder_1<::ArrayW<T>> value) ;
 
-constexpr ::System::Collections::Generic::ArrayBuilder_1<::ArrayW<T>> __get__buffers() const;
+constexpr System::Collections::Generic::ArrayBuilder_1<::ArrayW<T>> __get__buffers() const;
 
  ::ArrayW<T> __declspec(property(get=__get__current, put=__set__current))  _current;
 
@@ -114,7 +113,7 @@ constexpr int32_t __get__count() const;
  void _ctor(int32_t maxCapacity) ;
 
 /// @brief Method AddRange addr 0x0 size 0xffffffffffffffff virtual false final false
- void AddRange(::System::Collections::Generic::IEnumerable_1<T> items) ;
+ void AddRange(System::Collections::Generic::IEnumerable_1<T> items) ;
 
 /// @brief Method AddWithBufferAllocation addr 0x0 size 0xffffffffffffffff virtual false final false
  void AddWithBufferAllocation(T item, ByRef<::ArrayW<T>> destination, ByRef<int32_t> index) ;
@@ -138,5 +137,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Collections::Generic
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Collections::Generic::LargeArrayBuilder_1, "System.Collections.Generic", "LargeArrayBuilder`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::Collections::Generic::LargeArrayBuilder_1, "System.Collections.Generic", "LargeArrayBuilder`1");

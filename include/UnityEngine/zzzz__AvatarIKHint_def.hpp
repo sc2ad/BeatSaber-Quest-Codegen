@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct AvatarIKHint;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field LeftKnee offset 0
-static ::UnityEngine::AvatarIKHint const LeftKnee;
+static UnityEngine::AvatarIKHint const LeftKnee;
 
 /// @brief Field RightKnee offset 0
-static ::UnityEngine::AvatarIKHint const RightKnee;
+static UnityEngine::AvatarIKHint const RightKnee;
 
 /// @brief Field LeftElbow offset 0
-static ::UnityEngine::AvatarIKHint const LeftElbow;
+static UnityEngine::AvatarIKHint const LeftElbow;
 
 /// @brief Field RightElbow offset 0
-static ::UnityEngine::AvatarIKHint const RightElbow;
+static UnityEngine::AvatarIKHint const RightElbow;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AvatarIKHint, "UnityEngine", "AvatarIKHint");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AvatarIKHint, "UnityEngine", "AvatarIKHint");

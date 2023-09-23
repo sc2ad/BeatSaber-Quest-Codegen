@@ -2,18 +2,17 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class Attribute;
+}
+namespace System::Runtime::InteropServices {
+struct CharSet;
 }
 namespace System::Runtime::InteropServices {
 struct CallingConvention;
 }
 namespace System::Reflection {
 class RuntimeMethodInfo;
-}
-namespace System::Runtime::InteropServices {
-struct CharSet;
 }
 // Forward declare root types
 namespace System::Runtime::InteropServices {
@@ -25,7 +24,7 @@ namespace System::Runtime::InteropServices {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3324))
 // CS Name: System.Runtime.InteropServices.DllImportAttribute
-class CORDL_TYPE DllImportAttribute : public ::System::Attribute {
+class CORDL_TYPE DllImportAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr DllImportAttribute(DllImportAttribute const& ) noexcept = default;
 constexpr DllImportAttribute(DllImportAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DllImportAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit DllImportAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -73,11 +72,11 @@ constexpr void __set_EntryPoint(::StringW value) ;
 
 constexpr ::StringW __get_EntryPoint() const;
 
- ::System::Runtime::InteropServices::CharSet __declspec(property(get=__get_CharSet, put=__set_CharSet))  CharSet;
+ System::Runtime::InteropServices::CharSet __declspec(property(get=__get_CharSet, put=__set_CharSet))  CharSet;
 
-constexpr void __set_CharSet(::System::Runtime::InteropServices::CharSet value) ;
+constexpr void __set_CharSet(System::Runtime::InteropServices::CharSet value) ;
 
-constexpr ::System::Runtime::InteropServices::CharSet __get_CharSet() const;
+constexpr System::Runtime::InteropServices::CharSet __get_CharSet() const;
 
  bool __declspec(property(get=__get_SetLastError, put=__set_SetLastError))  SetLastError;
 
@@ -97,11 +96,11 @@ constexpr void __set_PreserveSig(bool value) ;
 
 constexpr bool __get_PreserveSig() const;
 
- ::System::Runtime::InteropServices::CallingConvention __declspec(property(get=__get_CallingConvention, put=__set_CallingConvention))  CallingConvention;
+ System::Runtime::InteropServices::CallingConvention __declspec(property(get=__get_CallingConvention, put=__set_CallingConvention))  CallingConvention;
 
-constexpr void __set_CallingConvention(::System::Runtime::InteropServices::CallingConvention value) ;
+constexpr void __set_CallingConvention(System::Runtime::InteropServices::CallingConvention value) ;
 
-constexpr ::System::Runtime::InteropServices::CallingConvention __get_CallingConvention() const;
+constexpr System::Runtime::InteropServices::CallingConvention __get_CallingConvention() const;
 
  bool __declspec(property(get=__get_BestFitMapping, put=__set_BestFitMapping))  BestFitMapping;
 
@@ -124,16 +123,16 @@ constexpr bool __get_ThrowOnUnmappableChar() const;
 // Methods
 
 /// @brief Method GetCustomAttribute addr 0x236ace0 size 0x1b8 virtual false final false
-static ::System::Attribute GetCustomAttribute(::System::Reflection::RuntimeMethodInfo method) ;
+static System::Attribute GetCustomAttribute(System::Reflection::RuntimeMethodInfo method) ;
 
 /// @brief Method IsDefined addr 0x236af24 size 0x28 virtual false final false
-static bool IsDefined(::System::Reflection::RuntimeMethodInfo method) ;
+static bool IsDefined(System::Reflection::RuntimeMethodInfo method) ;
 
-// Ctor Parameters [CppParam { name: "dllName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "entryPoint", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "charSet", ty: "::System::Runtime::InteropServices::CharSet", modifiers: "", def_value: None }, CppParam { name: "exactSpelling", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "setLastError", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "preserveSig", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "callingConvention", ty: "::System::Runtime::InteropServices::CallingConvention", modifiers: "", def_value: None }, CppParam { name: "bestFitMapping", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "throwOnUnmappableChar", ty: "bool", modifiers: "", def_value: None }]
-explicit DllImportAttribute(::StringW dllName, ::StringW entryPoint, ::System::Runtime::InteropServices::CharSet charSet, bool exactSpelling, bool setLastError, bool preserveSig, ::System::Runtime::InteropServices::CallingConvention callingConvention, bool bestFitMapping, bool throwOnUnmappableChar) ;
+// Ctor Parameters [CppParam { name: "dllName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "entryPoint", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "charSet", ty: "System::Runtime::InteropServices::CharSet", modifiers: "", def_value: None }, CppParam { name: "exactSpelling", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "setLastError", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "preserveSig", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "callingConvention", ty: "System::Runtime::InteropServices::CallingConvention", modifiers: "", def_value: None }, CppParam { name: "bestFitMapping", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "throwOnUnmappableChar", ty: "bool", modifiers: "", def_value: None }]
+explicit DllImportAttribute(::StringW dllName, ::StringW entryPoint, System::Runtime::InteropServices::CharSet charSet, bool exactSpelling, bool setLastError, bool preserveSig, System::Runtime::InteropServices::CallingConvention callingConvention, bool bestFitMapping, bool throwOnUnmappableChar) ;
 
 /// @brief Method .ctor addr 0x236ae98 size 0x8c virtual false final false
- void _ctor(::StringW dllName, ::StringW entryPoint, ::System::Runtime::InteropServices::CharSet charSet, bool exactSpelling, bool setLastError, bool preserveSig, ::System::Runtime::InteropServices::CallingConvention callingConvention, bool bestFitMapping, bool throwOnUnmappableChar) ;
+ void _ctor(::StringW dllName, ::StringW entryPoint, System::Runtime::InteropServices::CharSet charSet, bool exactSpelling, bool setLastError, bool preserveSig, System::Runtime::InteropServices::CallingConvention callingConvention, bool bestFitMapping, bool throwOnUnmappableChar) ;
 
 // Ctor Parameters [CppParam { name: "dllName", ty: "::StringW", modifiers: "", def_value: None }]
 explicit DllImportAttribute(::StringW dllName) ;
@@ -148,6 +147,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::InteropServices
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::InteropServices::DllImportAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::DllImportAttribute, "System.Runtime.InteropServices", "DllImportAttribute");
+NEED_NO_BOX(System::Runtime::InteropServices::DllImportAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::DllImportAttribute, "System.Runtime.InteropServices", "DllImportAttribute");

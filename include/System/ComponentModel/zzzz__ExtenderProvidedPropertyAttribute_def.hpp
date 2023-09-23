@@ -3,15 +3,14 @@
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-class Type;
+namespace System::ComponentModel {
+class IExtenderProvider;
 }
 namespace System::ComponentModel {
 class PropertyDescriptor;
 }
-namespace System::ComponentModel {
-class IExtenderProvider;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -23,7 +22,7 @@ namespace System::ComponentModel {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8279))
 // CS Name: System.ComponentModel.ExtenderProvidedPropertyAttribute
-class CORDL_TYPE ExtenderProvidedPropertyAttribute : public ::System::Attribute {
+class CORDL_TYPE ExtenderProvidedPropertyAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr ExtenderProvidedPropertyAttribute(ExtenderProvidedPropertyAttribute co
 constexpr ExtenderProvidedPropertyAttribute(ExtenderProvidedPropertyAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ExtenderProvidedPropertyAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit ExtenderProvidedPropertyAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -59,38 +58,38 @@ constexpr explicit ExtenderProvidedPropertyAttribute(void* ptr) noexcept : ::Sys
 
 // Fields
 
- ::System::ComponentModel::PropertyDescriptor __declspec(property(get=__get__ExtenderProperty_k__BackingField, put=__set__ExtenderProperty_k__BackingField))  _ExtenderProperty_k__BackingField;
+ System::ComponentModel::PropertyDescriptor __declspec(property(get=__get__ExtenderProperty_k__BackingField, put=__set__ExtenderProperty_k__BackingField))  _ExtenderProperty_k__BackingField;
 
-constexpr void __set__ExtenderProperty_k__BackingField(::System::ComponentModel::PropertyDescriptor value) ;
+constexpr void __set__ExtenderProperty_k__BackingField(System::ComponentModel::PropertyDescriptor value) ;
 
-constexpr ::System::ComponentModel::PropertyDescriptor __get__ExtenderProperty_k__BackingField() const;
+constexpr System::ComponentModel::PropertyDescriptor __get__ExtenderProperty_k__BackingField() const;
 
- ::System::ComponentModel::IExtenderProvider __declspec(property(get=__get__Provider_k__BackingField, put=__set__Provider_k__BackingField))  _Provider_k__BackingField;
+ System::ComponentModel::IExtenderProvider __declspec(property(get=__get__Provider_k__BackingField, put=__set__Provider_k__BackingField))  _Provider_k__BackingField;
 
-constexpr void __set__Provider_k__BackingField(::System::ComponentModel::IExtenderProvider value) ;
+constexpr void __set__Provider_k__BackingField(System::ComponentModel::IExtenderProvider value) ;
 
-constexpr ::System::ComponentModel::IExtenderProvider __get__Provider_k__BackingField() const;
+constexpr System::ComponentModel::IExtenderProvider __get__Provider_k__BackingField() const;
 
- ::System::Type __declspec(property(get=__get__ReceiverType_k__BackingField, put=__set__ReceiverType_k__BackingField))  _ReceiverType_k__BackingField;
+ System::Type __declspec(property(get=__get__ReceiverType_k__BackingField, put=__set__ReceiverType_k__BackingField))  _ReceiverType_k__BackingField;
 
-constexpr void __set__ReceiverType_k__BackingField(::System::Type value) ;
+constexpr void __set__ReceiverType_k__BackingField(System::Type value) ;
 
-constexpr ::System::Type __get__ReceiverType_k__BackingField() const;
+constexpr System::Type __get__ReceiverType_k__BackingField() const;
 
 
 // Properties
 
- ::System::ComponentModel::PropertyDescriptor __declspec(property(get=get_ExtenderProperty, put=set_ExtenderProperty))  ExtenderProperty;
+ System::ComponentModel::PropertyDescriptor __declspec(property(get=get_ExtenderProperty, put=set_ExtenderProperty))  ExtenderProperty;
 
- ::System::ComponentModel::IExtenderProvider __declspec(property(get=get_Provider, put=set_Provider))  Provider;
+ System::ComponentModel::IExtenderProvider __declspec(property(get=get_Provider, put=set_Provider))  Provider;
 
- ::System::Type __declspec(property(get=get_ReceiverType, put=set_ReceiverType))  ReceiverType;
+ System::Type __declspec(property(get=get_ReceiverType, put=set_ReceiverType))  ReceiverType;
 
 
 // Methods
 
 /// @brief Method Create addr 0x277d964 size 0x78 virtual false final false
-static ::System::ComponentModel::ExtenderProvidedPropertyAttribute Create(::System::ComponentModel::PropertyDescriptor extenderProperty, ::System::Type receiverType, ::System::ComponentModel::IExtenderProvider provider) ;
+static System::ComponentModel::ExtenderProvidedPropertyAttribute Create(System::ComponentModel::PropertyDescriptor extenderProperty, System::Type receiverType, System::ComponentModel::IExtenderProvider provider) ;
 
 // Ctor Parameters []
 explicit ExtenderProvidedPropertyAttribute() ;
@@ -99,22 +98,22 @@ explicit ExtenderProvidedPropertyAttribute() ;
  void _ctor() ;
 
 /// @brief Method get_ExtenderProperty addr 0x277ddcc size 0x8 virtual false final false
- ::System::ComponentModel::PropertyDescriptor get_ExtenderProperty() ;
+ System::ComponentModel::PropertyDescriptor get_ExtenderProperty() ;
 
 /// @brief Method set_ExtenderProperty addr 0x277ddd4 size 0x8 virtual false final false
- void set_ExtenderProperty(::System::ComponentModel::PropertyDescriptor value) ;
+ void set_ExtenderProperty(System::ComponentModel::PropertyDescriptor value) ;
 
 /// @brief Method get_Provider addr 0x277dddc size 0x8 virtual false final false
- ::System::ComponentModel::IExtenderProvider get_Provider() ;
+ System::ComponentModel::IExtenderProvider get_Provider() ;
 
 /// @brief Method set_Provider addr 0x277dde4 size 0x8 virtual false final false
- void set_Provider(::System::ComponentModel::IExtenderProvider value) ;
+ void set_Provider(System::ComponentModel::IExtenderProvider value) ;
 
 /// @brief Method get_ReceiverType addr 0x277ddec size 0x8 virtual false final false
- ::System::Type get_ReceiverType() ;
+ System::Type get_ReceiverType() ;
 
 /// @brief Method set_ReceiverType addr 0x277ddf4 size 0x8 virtual false final false
- void set_ReceiverType(::System::Type value) ;
+ void set_ReceiverType(System::Type value) ;
 
 /// @brief Method Equals addr 0x277ddfc size 0xd4 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -129,6 +128,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::ExtenderProvidedPropertyAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::ExtenderProvidedPropertyAttribute, "System.ComponentModel", "ExtenderProvidedPropertyAttribute");
+NEED_NO_BOX(System::ComponentModel::ExtenderProvidedPropertyAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::ExtenderProvidedPropertyAttribute, "System.ComponentModel", "ExtenderProvidedPropertyAttribute");

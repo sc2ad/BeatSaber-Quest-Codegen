@@ -1,18 +1,17 @@
 #pragma once
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__AbstractECMultiplier_def.hpp"
-namespace {
+namespace Org::BouncyCastle::Math::EC::Endo {
+class GlvEndomorphism;
+}
 namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
+class ECPoint;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
-}
-namespace Org::BouncyCastle::Math::EC::Endo {
-class GlvEndomorphism;
+class ECCurve;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Multiplier {
@@ -24,7 +23,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1527))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1533))
 // CS Name: Org.BouncyCastle.Math.EC.Multiplier.GlvMultiplier
-class CORDL_TYPE GlvMultiplier : public ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier {
+class CORDL_TYPE GlvMultiplier : public Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr GlvMultiplier(GlvMultiplier const& ) noexcept = default;
 constexpr GlvMultiplier(GlvMultiplier&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GlvMultiplier(void* ptr) noexcept : ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier(ptr) {
+constexpr explicit GlvMultiplier(void* ptr) noexcept : Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier(ptr) {
 }
 
 
@@ -60,34 +59,33 @@ constexpr explicit GlvMultiplier(void* ptr) noexcept : ::Org::BouncyCastle::Math
 
 // Fields
 
- ::Org::BouncyCastle::Math::EC::ECCurve __declspec(property(get=__get_curve, put=__set_curve))  curve;
+ Org::BouncyCastle::Math::EC::ECCurve __declspec(property(get=__get_curve, put=__set_curve))  curve;
 
-constexpr void __set_curve(::Org::BouncyCastle::Math::EC::ECCurve value) ;
+constexpr void __set_curve(Org::BouncyCastle::Math::EC::ECCurve value) ;
 
-constexpr ::Org::BouncyCastle::Math::EC::ECCurve __get_curve() const;
+constexpr Org::BouncyCastle::Math::EC::ECCurve __get_curve() const;
 
- ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism __declspec(property(get=__get_glvEndomorphism, put=__set_glvEndomorphism))  glvEndomorphism;
+ Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism __declspec(property(get=__get_glvEndomorphism, put=__set_glvEndomorphism))  glvEndomorphism;
 
-constexpr void __set_glvEndomorphism(::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism value) ;
+constexpr void __set_glvEndomorphism(Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism value) ;
 
-constexpr ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism __get_glvEndomorphism() const;
+constexpr Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism __get_glvEndomorphism() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "curve", ty: "::Org::BouncyCastle::Math::EC::ECCurve", modifiers: "", def_value: None }, CppParam { name: "glvEndomorphism", ty: "::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism", modifiers: "", def_value: None }]
-explicit GlvMultiplier(::Org::BouncyCastle::Math::EC::ECCurve curve, ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism glvEndomorphism) ;
+// Ctor Parameters [CppParam { name: "curve", ty: "Org::BouncyCastle::Math::EC::ECCurve", modifiers: "", def_value: None }, CppParam { name: "glvEndomorphism", ty: "Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism", modifiers: "", def_value: None }]
+explicit GlvMultiplier(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism glvEndomorphism) ;
 
 /// @brief Method .ctor addr 0xfa9734 size 0xa8 virtual false final false
- void _ctor(::Org::BouncyCastle::Math::EC::ECCurve curve, ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism glvEndomorphism) ;
+ void _ctor(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism glvEndomorphism) ;
 
 /// @brief Method MultiplyPositive addr 0xfa97dc size 0x26c virtual true final false
- ::Org::BouncyCastle::Math::EC::ECPoint MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint p, ::Org::BouncyCastle::Math::BigInteger k) ;
+ Org::BouncyCastle::Math::EC::ECPoint MultiplyPositive(Org::BouncyCastle::Math::EC::ECPoint p, Org::BouncyCastle::Math::BigInteger k) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Math::EC::Multiplier
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier, "Org.BouncyCastle.Math.EC.Multiplier", "GlvMultiplier");
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier, "Org.BouncyCastle.Math.EC.Multiplier", "GlvMultiplier");

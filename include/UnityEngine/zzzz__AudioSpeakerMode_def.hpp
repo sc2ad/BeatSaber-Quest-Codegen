@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct AudioSpeakerMode;
@@ -73,32 +72,31 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Raw offset 0
-static ::UnityEngine::AudioSpeakerMode const Raw;
+static UnityEngine::AudioSpeakerMode const Raw;
 
 /// @brief Field Mono offset 0
-static ::UnityEngine::AudioSpeakerMode const Mono;
+static UnityEngine::AudioSpeakerMode const Mono;
 
 /// @brief Field Stereo offset 0
-static ::UnityEngine::AudioSpeakerMode const Stereo;
+static UnityEngine::AudioSpeakerMode const Stereo;
 
 /// @brief Field Quad offset 0
-static ::UnityEngine::AudioSpeakerMode const Quad;
+static UnityEngine::AudioSpeakerMode const Quad;
 
 /// @brief Field Surround offset 0
-static ::UnityEngine::AudioSpeakerMode const Surround;
+static UnityEngine::AudioSpeakerMode const Surround;
 
 /// @brief Field Mode5point1 offset 0
-static ::UnityEngine::AudioSpeakerMode const Mode5point1;
+static UnityEngine::AudioSpeakerMode const Mode5point1;
 
 /// @brief Field Mode7point1 offset 0
-static ::UnityEngine::AudioSpeakerMode const Mode7point1;
+static UnityEngine::AudioSpeakerMode const Mode7point1;
 
 /// @brief Field Prologic offset 0
-static ::UnityEngine::AudioSpeakerMode const Prologic;
+static UnityEngine::AudioSpeakerMode const Prologic;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AudioSpeakerMode, "UnityEngine", "AudioSpeakerMode");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioSpeakerMode, "UnityEngine", "AudioSpeakerMode");

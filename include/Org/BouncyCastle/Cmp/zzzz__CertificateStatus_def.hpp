@@ -1,24 +1,23 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace Org::BouncyCastle::Cms {
-class DefaultSignatureAlgorithmIdentifierFinder;
-}
-namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiStatusInfo;
-}
-namespace Org::BouncyCastle::Cms {
-class DefaultDigestAlgorithmIdentifierFinder;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
+class PkiStatusInfo;
+}
+namespace Org::BouncyCastle::Asn1::Cmp {
 class CertStatus;
+}
+namespace Org::BouncyCastle::Cms {
+class DefaultSignatureAlgorithmIdentifierFinder;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::Cms {
+class DefaultDigestAlgorithmIdentifierFinder;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cmp {
@@ -66,53 +65,52 @@ constexpr explicit CertificateStatus(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 
 // Fields
 
-static ::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder __declspec(property(get=__get_sigAlgFinder, put=__set_sigAlgFinder))  sigAlgFinder;
+static Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder __declspec(property(get=__get_sigAlgFinder, put=__set_sigAlgFinder))  sigAlgFinder;
 
-static void __set_sigAlgFinder(::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder value) ;
+static void __set_sigAlgFinder(Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder value) ;
 
-static ::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder __get_sigAlgFinder() ;
+static Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder __get_sigAlgFinder() ;
 
- ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder __declspec(property(get=__get_digestAlgFinder, put=__set_digestAlgFinder))  digestAlgFinder;
+ Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder __declspec(property(get=__get_digestAlgFinder, put=__set_digestAlgFinder))  digestAlgFinder;
 
-constexpr void __set_digestAlgFinder(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder value) ;
+constexpr void __set_digestAlgFinder(Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder value) ;
 
-constexpr ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder __get_digestAlgFinder() const;
+constexpr Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder __get_digestAlgFinder() const;
 
- ::Org::BouncyCastle::Asn1::Cmp::CertStatus __declspec(property(get=__get_certStatus, put=__set_certStatus))  certStatus;
+ Org::BouncyCastle::Asn1::Cmp::CertStatus __declspec(property(get=__get_certStatus, put=__set_certStatus))  certStatus;
 
-constexpr void __set_certStatus(::Org::BouncyCastle::Asn1::Cmp::CertStatus value) ;
+constexpr void __set_certStatus(Org::BouncyCastle::Asn1::Cmp::CertStatus value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::Cmp::CertStatus __get_certStatus() const;
+constexpr Org::BouncyCastle::Asn1::Cmp::CertStatus __get_certStatus() const;
 
 
 // Properties
 
- ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo __declspec(property(get=get_PkiStatusInfo))  PkiStatusInfo;
+ Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo __declspec(property(get=get_PkiStatusInfo))  PkiStatusInfo;
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_CertRequestId))  CertRequestId;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_CertRequestId))  CertRequestId;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "digestAlgFinder", ty: "::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder", modifiers: "", def_value: None }, CppParam { name: "certStatus", ty: "::Org::BouncyCastle::Asn1::Cmp::CertStatus", modifiers: "", def_value: None }]
-explicit CertificateStatus(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder digestAlgFinder, ::Org::BouncyCastle::Asn1::Cmp::CertStatus certStatus) ;
+// Ctor Parameters [CppParam { name: "digestAlgFinder", ty: "Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder", modifiers: "", def_value: None }, CppParam { name: "certStatus", ty: "Org::BouncyCastle::Asn1::Cmp::CertStatus", modifiers: "", def_value: None }]
+explicit CertificateStatus(Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder digestAlgFinder, Org::BouncyCastle::Asn1::Cmp::CertStatus certStatus) ;
 
 /// @brief Method .ctor addr 0x114b35c size 0x2c virtual false final false
- void _ctor(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder digestAlgFinder, ::Org::BouncyCastle::Asn1::Cmp::CertStatus certStatus) ;
+ void _ctor(Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder digestAlgFinder, Org::BouncyCastle::Asn1::Cmp::CertStatus certStatus) ;
 
 /// @brief Method get_PkiStatusInfo addr 0x114bae8 size 0x20 virtual false final false
- ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo get_PkiStatusInfo() ;
+ Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo get_PkiStatusInfo() ;
 
 /// @brief Method get_CertRequestId addr 0x114bb08 size 0x2c virtual false final false
- ::Org::BouncyCastle::Math::BigInteger get_CertRequestId() ;
+ Org::BouncyCastle::Math::BigInteger get_CertRequestId() ;
 
 /// @brief Method IsVerified addr 0x114bb34 size 0x1f0 virtual false final false
- bool IsVerified(::Org::BouncyCastle::X509::X509Certificate cert) ;
+ bool IsVerified(Org::BouncyCastle::X509::X509Certificate cert) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Cmp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Cmp::CertificateStatus);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cmp::CertificateStatus, "Org.BouncyCastle.Cmp", "CertificateStatus");
+NEED_NO_BOX(Org::BouncyCastle::Cmp::CertificateStatus);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Cmp::CertificateStatus, "Org.BouncyCastle.Cmp", "CertificateStatus");

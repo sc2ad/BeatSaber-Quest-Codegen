@@ -4,9 +4,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
-struct Vector3;
+class Camera;
 }
 namespace UnityEngine {
 struct KeyCode;
@@ -15,7 +14,7 @@ namespace UnityEngine {
 class Cubemap;
 }
 namespace UnityEngine {
-class Camera;
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,7 +26,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8886))
 // CS Name: OVRCubemapCapture
-class CORDL_TYPE OVRCubemapCapture : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OVRCubemapCapture : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -42,7 +41,7 @@ constexpr OVRCubemapCapture(OVRCubemapCapture const& ) noexcept = default;
 constexpr OVRCubemapCapture(OVRCubemapCapture&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OVRCubemapCapture(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OVRCubemapCapture(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -81,11 +80,11 @@ constexpr void __set_autoTriggerElapse(float_t value) ;
 
 constexpr float_t __get_autoTriggerElapse() const;
 
- ::UnityEngine::KeyCode __declspec(property(get=__get_triggeredByKey, put=__set_triggeredByKey))  triggeredByKey;
+ UnityEngine::KeyCode __declspec(property(get=__get_triggeredByKey, put=__set_triggeredByKey))  triggeredByKey;
 
-constexpr void __set_triggeredByKey(::UnityEngine::KeyCode value) ;
+constexpr void __set_triggeredByKey(UnityEngine::KeyCode value) ;
 
-constexpr ::UnityEngine::KeyCode __get_triggeredByKey() const;
+constexpr UnityEngine::KeyCode __get_triggeredByKey() const;
 
  ::StringW __declspec(property(get=__get_pathName, put=__set_pathName))  pathName;
 
@@ -106,13 +105,13 @@ constexpr int32_t __get_cubemapSize() const;
  void Update() ;
 
 /// @brief Method TriggerCubemapCapture addr 0x261dca4 size 0x2b0 virtual false final false
-static void TriggerCubemapCapture(::UnityEngine::Vector3 capturePos, int32_t cubemapSize, ::StringW pathName) ;
+static void TriggerCubemapCapture(UnityEngine::Vector3 capturePos, int32_t cubemapSize, ::StringW pathName) ;
 
 /// @brief Method RenderIntoCubemap addr 0x261df54 size 0x580 virtual false final false
-static void RenderIntoCubemap(::UnityEngine::Camera ownerCamera, ::UnityEngine::Cubemap outCubemap) ;
+static void RenderIntoCubemap(UnityEngine::Camera ownerCamera, UnityEngine::Cubemap outCubemap) ;
 
 /// @brief Method SaveCubemapCapture addr 0x261e4d4 size 0x774 virtual false final false
-static bool SaveCubemapCapture(::UnityEngine::Cubemap cubemap, ::StringW pathName) ;
+static bool SaveCubemapCapture(UnityEngine::Cubemap cubemap, ::StringW pathName) ;
 
 // Ctor Parameters []
 explicit OVRCubemapCapture() ;
@@ -124,6 +123,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OVRCubemapCapture);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRCubemapCapture, "", "OVRCubemapCapture");
+NEED_NO_BOX(GlobalNamespace::OVRCubemapCapture);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRCubemapCapture, "", "OVRCubemapCapture");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Yoga {
 struct YogaEdge;
@@ -74,35 +73,34 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Left offset 0
-static ::UnityEngine::Yoga::YogaEdge const Left;
+static UnityEngine::Yoga::YogaEdge const Left;
 
 /// @brief Field Top offset 0
-static ::UnityEngine::Yoga::YogaEdge const Top;
+static UnityEngine::Yoga::YogaEdge const Top;
 
 /// @brief Field Right offset 0
-static ::UnityEngine::Yoga::YogaEdge const Right;
+static UnityEngine::Yoga::YogaEdge const Right;
 
 /// @brief Field Bottom offset 0
-static ::UnityEngine::Yoga::YogaEdge const Bottom;
+static UnityEngine::Yoga::YogaEdge const Bottom;
 
 /// @brief Field Start offset 0
-static ::UnityEngine::Yoga::YogaEdge const Start;
+static UnityEngine::Yoga::YogaEdge const Start;
 
 /// @brief Field End offset 0
-static ::UnityEngine::Yoga::YogaEdge const End;
+static UnityEngine::Yoga::YogaEdge const End;
 
 /// @brief Field Horizontal offset 0
-static ::UnityEngine::Yoga::YogaEdge const Horizontal;
+static UnityEngine::Yoga::YogaEdge const Horizontal;
 
 /// @brief Field Vertical offset 0
-static ::UnityEngine::Yoga::YogaEdge const Vertical;
+static UnityEngine::Yoga::YogaEdge const Vertical;
 
 /// @brief Field All offset 0
-static ::UnityEngine::Yoga::YogaEdge const All;
+static UnityEngine::Yoga::YogaEdge const All;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Yoga
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Yoga::YogaEdge, "UnityEngine.Yoga", "YogaEdge");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Yoga::YogaEdge, "UnityEngine.Yoga", "YogaEdge");

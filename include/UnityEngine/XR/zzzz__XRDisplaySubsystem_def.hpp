@@ -6,7 +6,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 class Action_1;
@@ -14,24 +13,24 @@ class Action_1;
 namespace UnityEngine {
 class Transform;
 }
-namespace UnityEngine::Rendering {
-struct RenderTargetIdentifier;
-}
 namespace UnityEngine {
 struct RenderTextureDescriptor;
 }
+namespace UnityEngine::Rendering {
+struct RenderTargetIdentifier;
+}
 // Forward declare root types
 namespace UnityEngine::XR {
-struct ____UnityEngine__XR__XRDisplaySubsystem__LateLatchNode;
+struct UnityEngine__XR__XRDisplaySubsystem__LateLatchNode;
 }
 namespace UnityEngine::XR {
 class XRDisplaySubsystem;
 }
 namespace UnityEngine::XR {
-struct ____UnityEngine__XR__XRDisplaySubsystem__XRMirrorViewBlitDesc;
+struct UnityEngine__XR__XRDisplaySubsystem__XRMirrorViewBlitDesc;
 }
 namespace UnityEngine::XR {
-struct ____UnityEngine__XR__XRDisplaySubsystem__XRRenderPass;
+struct UnityEngine__XR__XRDisplaySubsystem__XRRenderPass;
 }
 // Type: ::LateLatchNode
 namespace UnityEngine::XR {
@@ -39,20 +38,20 @@ namespace UnityEngine::XR {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15591))
 // CS Name: UnityEngine.XR.XRDisplaySubsystem::LateLatchNode
-struct CORDL_TYPE ____UnityEngine__XR__XRDisplaySubsystem__LateLatchNode : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__XR__XRDisplaySubsystem__LateLatchNode : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__XR__XRDisplaySubsystem__LateLatchNode(int32_t value__) noexcept;
+constexpr UnityEngine__XR__XRDisplaySubsystem__LateLatchNode(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__XR__XRDisplaySubsystem__LateLatchNode(____UnityEngine__XR__XRDisplaySubsystem__LateLatchNode const&) = default;
-                    constexpr ____UnityEngine__XR__XRDisplaySubsystem__LateLatchNode(____UnityEngine__XR__XRDisplaySubsystem__LateLatchNode&&) = default;
-                    constexpr ____UnityEngine__XR__XRDisplaySubsystem__LateLatchNode& operator=(____UnityEngine__XR__XRDisplaySubsystem__LateLatchNode const& o) {
+                    constexpr UnityEngine__XR__XRDisplaySubsystem__LateLatchNode(UnityEngine__XR__XRDisplaySubsystem__LateLatchNode const&) = default;
+                    constexpr UnityEngine__XR__XRDisplaySubsystem__LateLatchNode(UnityEngine__XR__XRDisplaySubsystem__LateLatchNode&&) = default;
+                    constexpr UnityEngine__XR__XRDisplaySubsystem__LateLatchNode& operator=(UnityEngine__XR__XRDisplaySubsystem__LateLatchNode const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__XR__XRDisplaySubsystem__LateLatchNode& operator=(____UnityEngine__XR__XRDisplaySubsystem__LateLatchNode&& o) noexcept {
+                    constexpr UnityEngine__XR__XRDisplaySubsystem__LateLatchNode& operator=(UnityEngine__XR__XRDisplaySubsystem__LateLatchNode&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -65,7 +64,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__XR__XRDisplaySubsystem__LateLatchNode(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__XR__XRDisplaySubsystem__LateLatchNode(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -73,15 +72,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__XR__XRDisplaySubsystem__LateLatchNode_Unwrapped : int32_t {
+enum class __UnityEngine__XR__XRDisplaySubsystem__LateLatchNode_Unwrapped : int32_t {
 __Head = 0,
 __LeftHand = 1,
 __RightHand = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__XR__XRDisplaySubsystem__LateLatchNode_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__XR__XRDisplaySubsystem__LateLatchNode_Unwrapped>(__instance);
+constexpr operator __UnityEngine__XR__XRDisplaySubsystem__LateLatchNode_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__XR__XRDisplaySubsystem__LateLatchNode_Unwrapped>(__instance);
 }
 
 
@@ -94,13 +93,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Head offset 0
-static ::UnityEngine::XR::____UnityEngine__XR__XRDisplaySubsystem__LateLatchNode const Head;
+static UnityEngine::XR::UnityEngine__XR__XRDisplaySubsystem__LateLatchNode const Head;
 
 /// @brief Field LeftHand offset 0
-static ::UnityEngine::XR::____UnityEngine__XR__XRDisplaySubsystem__LateLatchNode const LeftHand;
+static UnityEngine::XR::UnityEngine__XR__XRDisplaySubsystem__LateLatchNode const LeftHand;
 
 /// @brief Field RightHand offset 0
-static ::UnityEngine::XR::____UnityEngine__XR__XRDisplaySubsystem__LateLatchNode const RightHand;
+static UnityEngine::XR::UnityEngine__XR__XRDisplaySubsystem__LateLatchNode const RightHand;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -112,20 +111,20 @@ namespace UnityEngine::XR {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15592))
 // CS Name: UnityEngine.XR.XRDisplaySubsystem::XRRenderPass
-struct CORDL_TYPE ____UnityEngine__XR__XRDisplaySubsystem__XRRenderPass : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__XR__XRDisplaySubsystem__XRRenderPass : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "displaySubsystemInstance", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "renderPassIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "renderTarget", ty: "::UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: None }, CppParam { name: "renderTargetDesc", ty: "::UnityEngine::RenderTextureDescriptor", modifiers: "", def_value: None }, CppParam { name: "hasMotionVectorPass", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "motionVectorRenderTarget", ty: "::UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: None }, CppParam { name: "motionVectorRenderTargetDesc", ty: "::UnityEngine::RenderTextureDescriptor", modifiers: "", def_value: None }, CppParam { name: "shouldFillOutDepth", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "cullingPassIndex", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__XR__XRDisplaySubsystem__XRRenderPass(::cordl_internals::intptr_t displaySubsystemInstance, int32_t renderPassIndex, ::UnityEngine::Rendering::RenderTargetIdentifier renderTarget, ::UnityEngine::RenderTextureDescriptor renderTargetDesc, bool hasMotionVectorPass, ::UnityEngine::Rendering::RenderTargetIdentifier motionVectorRenderTarget, ::UnityEngine::RenderTextureDescriptor motionVectorRenderTargetDesc, bool shouldFillOutDepth, int32_t cullingPassIndex) noexcept;
+// Ctor Parameters [CppParam { name: "displaySubsystemInstance", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "renderPassIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "renderTarget", ty: "UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: None }, CppParam { name: "renderTargetDesc", ty: "UnityEngine::RenderTextureDescriptor", modifiers: "", def_value: None }, CppParam { name: "hasMotionVectorPass", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "motionVectorRenderTarget", ty: "UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: None }, CppParam { name: "motionVectorRenderTargetDesc", ty: "UnityEngine::RenderTextureDescriptor", modifiers: "", def_value: None }, CppParam { name: "shouldFillOutDepth", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "cullingPassIndex", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr UnityEngine__XR__XRDisplaySubsystem__XRRenderPass(::cordl_internals::intptr_t displaySubsystemInstance, int32_t renderPassIndex, UnityEngine::Rendering::RenderTargetIdentifier renderTarget, UnityEngine::RenderTextureDescriptor renderTargetDesc, bool hasMotionVectorPass, UnityEngine::Rendering::RenderTargetIdentifier motionVectorRenderTarget, UnityEngine::RenderTextureDescriptor motionVectorRenderTargetDesc, bool shouldFillOutDepth, int32_t cullingPassIndex) noexcept;
 
 
-                    constexpr ____UnityEngine__XR__XRDisplaySubsystem__XRRenderPass(____UnityEngine__XR__XRDisplaySubsystem__XRRenderPass const&) = default;
-                    constexpr ____UnityEngine__XR__XRDisplaySubsystem__XRRenderPass(____UnityEngine__XR__XRDisplaySubsystem__XRRenderPass&&) = default;
-                    constexpr ____UnityEngine__XR__XRDisplaySubsystem__XRRenderPass& operator=(____UnityEngine__XR__XRDisplaySubsystem__XRRenderPass const& o) {
+                    constexpr UnityEngine__XR__XRDisplaySubsystem__XRRenderPass(UnityEngine__XR__XRDisplaySubsystem__XRRenderPass const&) = default;
+                    constexpr UnityEngine__XR__XRDisplaySubsystem__XRRenderPass(UnityEngine__XR__XRDisplaySubsystem__XRRenderPass&&) = default;
+                    constexpr UnityEngine__XR__XRDisplaySubsystem__XRRenderPass& operator=(UnityEngine__XR__XRDisplaySubsystem__XRRenderPass const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__XR__XRDisplaySubsystem__XRRenderPass& operator=(____UnityEngine__XR__XRDisplaySubsystem__XRRenderPass&& o) noexcept {
+                    constexpr UnityEngine__XR__XRDisplaySubsystem__XRRenderPass& operator=(UnityEngine__XR__XRDisplaySubsystem__XRRenderPass&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -138,7 +137,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0xd8};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__XR__XRDisplaySubsystem__XRRenderPass(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__XR__XRDisplaySubsystem__XRRenderPass(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -161,17 +160,17 @@ constexpr void __set_renderPassIndex(int32_t value) ;
 
 constexpr int32_t __get_renderPassIndex() const;
 
- ::UnityEngine::Rendering::RenderTargetIdentifier __declspec(property(get=__get_renderTarget, put=__set_renderTarget))  renderTarget;
+ UnityEngine::Rendering::RenderTargetIdentifier __declspec(property(get=__get_renderTarget, put=__set_renderTarget))  renderTarget;
 
-constexpr void __set_renderTarget(::UnityEngine::Rendering::RenderTargetIdentifier value) ;
+constexpr void __set_renderTarget(UnityEngine::Rendering::RenderTargetIdentifier value) ;
 
-constexpr ::UnityEngine::Rendering::RenderTargetIdentifier __get_renderTarget() const;
+constexpr UnityEngine::Rendering::RenderTargetIdentifier __get_renderTarget() const;
 
- ::UnityEngine::RenderTextureDescriptor __declspec(property(get=__get_renderTargetDesc, put=__set_renderTargetDesc))  renderTargetDesc;
+ UnityEngine::RenderTextureDescriptor __declspec(property(get=__get_renderTargetDesc, put=__set_renderTargetDesc))  renderTargetDesc;
 
-constexpr void __set_renderTargetDesc(::UnityEngine::RenderTextureDescriptor value) ;
+constexpr void __set_renderTargetDesc(UnityEngine::RenderTextureDescriptor value) ;
 
-constexpr ::UnityEngine::RenderTextureDescriptor __get_renderTargetDesc() const;
+constexpr UnityEngine::RenderTextureDescriptor __get_renderTargetDesc() const;
 
  bool __declspec(property(get=__get_hasMotionVectorPass, put=__set_hasMotionVectorPass))  hasMotionVectorPass;
 
@@ -179,17 +178,17 @@ constexpr void __set_hasMotionVectorPass(bool value) ;
 
 constexpr bool __get_hasMotionVectorPass() const;
 
- ::UnityEngine::Rendering::RenderTargetIdentifier __declspec(property(get=__get_motionVectorRenderTarget, put=__set_motionVectorRenderTarget))  motionVectorRenderTarget;
+ UnityEngine::Rendering::RenderTargetIdentifier __declspec(property(get=__get_motionVectorRenderTarget, put=__set_motionVectorRenderTarget))  motionVectorRenderTarget;
 
-constexpr void __set_motionVectorRenderTarget(::UnityEngine::Rendering::RenderTargetIdentifier value) ;
+constexpr void __set_motionVectorRenderTarget(UnityEngine::Rendering::RenderTargetIdentifier value) ;
 
-constexpr ::UnityEngine::Rendering::RenderTargetIdentifier __get_motionVectorRenderTarget() const;
+constexpr UnityEngine::Rendering::RenderTargetIdentifier __get_motionVectorRenderTarget() const;
 
- ::UnityEngine::RenderTextureDescriptor __declspec(property(get=__get_motionVectorRenderTargetDesc, put=__set_motionVectorRenderTargetDesc))  motionVectorRenderTargetDesc;
+ UnityEngine::RenderTextureDescriptor __declspec(property(get=__get_motionVectorRenderTargetDesc, put=__set_motionVectorRenderTargetDesc))  motionVectorRenderTargetDesc;
 
-constexpr void __set_motionVectorRenderTargetDesc(::UnityEngine::RenderTextureDescriptor value) ;
+constexpr void __set_motionVectorRenderTargetDesc(UnityEngine::RenderTextureDescriptor value) ;
 
-constexpr ::UnityEngine::RenderTextureDescriptor __get_motionVectorRenderTargetDesc() const;
+constexpr UnityEngine::RenderTextureDescriptor __get_motionVectorRenderTargetDesc() const;
 
  bool __declspec(property(get=__get_shouldFillOutDepth, put=__set_shouldFillOutDepth))  shouldFillOutDepth;
 
@@ -213,20 +212,20 @@ namespace UnityEngine::XR {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15593))
 // CS Name: UnityEngine.XR.XRDisplaySubsystem::XRMirrorViewBlitDesc
-struct CORDL_TYPE ____UnityEngine__XR__XRDisplaySubsystem__XRMirrorViewBlitDesc : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__XR__XRDisplaySubsystem__XRMirrorViewBlitDesc : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "displaySubsystemInstance", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "nativeBlitAvailable", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "nativeBlitInvalidStates", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "blitParamsCount", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__XR__XRDisplaySubsystem__XRMirrorViewBlitDesc(::cordl_internals::intptr_t displaySubsystemInstance, bool nativeBlitAvailable, bool nativeBlitInvalidStates, int32_t blitParamsCount) noexcept;
+constexpr UnityEngine__XR__XRDisplaySubsystem__XRMirrorViewBlitDesc(::cordl_internals::intptr_t displaySubsystemInstance, bool nativeBlitAvailable, bool nativeBlitInvalidStates, int32_t blitParamsCount) noexcept;
 
 
-                    constexpr ____UnityEngine__XR__XRDisplaySubsystem__XRMirrorViewBlitDesc(____UnityEngine__XR__XRDisplaySubsystem__XRMirrorViewBlitDesc const&) = default;
-                    constexpr ____UnityEngine__XR__XRDisplaySubsystem__XRMirrorViewBlitDesc(____UnityEngine__XR__XRDisplaySubsystem__XRMirrorViewBlitDesc&&) = default;
-                    constexpr ____UnityEngine__XR__XRDisplaySubsystem__XRMirrorViewBlitDesc& operator=(____UnityEngine__XR__XRDisplaySubsystem__XRMirrorViewBlitDesc const& o) {
+                    constexpr UnityEngine__XR__XRDisplaySubsystem__XRMirrorViewBlitDesc(UnityEngine__XR__XRDisplaySubsystem__XRMirrorViewBlitDesc const&) = default;
+                    constexpr UnityEngine__XR__XRDisplaySubsystem__XRMirrorViewBlitDesc(UnityEngine__XR__XRDisplaySubsystem__XRMirrorViewBlitDesc&&) = default;
+                    constexpr UnityEngine__XR__XRDisplaySubsystem__XRMirrorViewBlitDesc& operator=(UnityEngine__XR__XRDisplaySubsystem__XRMirrorViewBlitDesc const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__XR__XRDisplaySubsystem__XRMirrorViewBlitDesc& operator=(____UnityEngine__XR__XRDisplaySubsystem__XRMirrorViewBlitDesc&& o) noexcept {
+                    constexpr UnityEngine__XR__XRDisplaySubsystem__XRMirrorViewBlitDesc& operator=(UnityEngine__XR__XRDisplaySubsystem__XRMirrorViewBlitDesc&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -239,7 +238,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x10};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__XR__XRDisplaySubsystem__XRMirrorViewBlitDesc(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__XR__XRDisplaySubsystem__XRMirrorViewBlitDesc(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -281,17 +280,17 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 // Type: UnityEngine.XR::XRDisplaySubsystem
 namespace UnityEngine::XR {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15849), inst: 3778 }), TypeDefinitionIndex(TypeDefinitionIndex(15849)), TypeDefinitionIndex(TypeDefinitionIndex(15590))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15590)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15849), inst: 3778 }), TypeDefinitionIndex(TypeDefinitionIndex(15849))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15594))
 // CS Name: UnityEngine.XR.XRDisplaySubsystem
-class CORDL_TYPE XRDisplaySubsystem : public ::UnityEngine::IntegratedSubsystem_1<::UnityEngine::XR::XRDisplaySubsystemDescriptor> {
+class CORDL_TYPE XRDisplaySubsystem : public UnityEngine::IntegratedSubsystem_1<UnityEngine::XR::XRDisplaySubsystemDescriptor> {
 public:
 // Declarations
-using XRMirrorViewBlitDesc = ::UnityEngine::XR::____UnityEngine__XR__XRDisplaySubsystem__XRMirrorViewBlitDesc;
+using XRMirrorViewBlitDesc = UnityEngine::XR::UnityEngine__XR__XRDisplaySubsystem__XRMirrorViewBlitDesc;
 
-using XRRenderPass = ::UnityEngine::XR::____UnityEngine__XR__XRDisplaySubsystem__XRRenderPass;
+using XRRenderPass = UnityEngine::XR::UnityEngine__XR__XRDisplaySubsystem__XRRenderPass;
 
-using LateLatchNode = ::UnityEngine::XR::____UnityEngine__XR__XRDisplaySubsystem__LateLatchNode;
+using LateLatchNode = UnityEngine::XR::UnityEngine__XR__XRDisplaySubsystem__LateLatchNode;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -305,7 +304,7 @@ constexpr XRDisplaySubsystem(XRDisplaySubsystem const& ) noexcept = default;
 constexpr XRDisplaySubsystem(XRDisplaySubsystem&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XRDisplaySubsystem(void* ptr) noexcept : ::UnityEngine::IntegratedSubsystem_1<::UnityEngine::XR::XRDisplaySubsystemDescriptor>(ptr) {
+constexpr explicit XRDisplaySubsystem(void* ptr) noexcept : UnityEngine::IntegratedSubsystem_1<UnityEngine::XR::XRDisplaySubsystemDescriptor>(ptr) {
 }
 
 
@@ -326,11 +325,11 @@ constexpr explicit XRDisplaySubsystem(void* ptr) noexcept : ::UnityEngine::Integ
 
 // Fields
 
- ::System::Action_1<bool> __declspec(property(get=__get_displayFocusChanged, put=__set_displayFocusChanged))  displayFocusChanged;
+ System::Action_1<bool> __declspec(property(get=__get_displayFocusChanged, put=__set_displayFocusChanged))  displayFocusChanged;
 
-constexpr void __set_displayFocusChanged(::System::Action_1<bool> value) ;
+constexpr void __set_displayFocusChanged(System::Action_1<bool> value) ;
 
-constexpr ::System::Action_1<bool> __get_displayFocusChanged() const;
+constexpr System::Action_1<bool> __get_displayFocusChanged() const;
 
 
 // Methods
@@ -339,7 +338,7 @@ constexpr ::System::Action_1<bool> __get_displayFocusChanged() const;
  void InvokeDisplayFocusChanged(bool focus) ;
 
 /// @brief Method MarkTransformLateLatched addr 0x2d3aa20 size 0x54 virtual false final false
- void MarkTransformLateLatched(::UnityEngine::Transform transform, ::UnityEngine::XR::____UnityEngine__XR__XRDisplaySubsystem__LateLatchNode nodeType) ;
+ void MarkTransformLateLatched(UnityEngine::Transform transform, UnityEngine::XR::UnityEngine__XR__XRDisplaySubsystem__LateLatchNode nodeType) ;
 
 /// @brief Method TryGetAppGPUTimeLastFrame addr 0x2d3aa74 size 0x44 virtual false final false
  bool TryGetAppGPUTimeLastFrame(ByRef<float_t> gpuTimeLastFrame) ;
@@ -363,9 +362,8 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::____UnityEngine__XR__XRDisplaySubsystem__LateLatchNode, "UnityEngine.XR", "XRDisplaySubsystem/LateLatchNode");
-NEED_NO_BOX(::UnityEngine::XR::XRDisplaySubsystem);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::XRDisplaySubsystem, "UnityEngine.XR", "XRDisplaySubsystem");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::____UnityEngine__XR__XRDisplaySubsystem__XRMirrorViewBlitDesc, "UnityEngine.XR", "XRDisplaySubsystem/XRMirrorViewBlitDesc");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::____UnityEngine__XR__XRDisplaySubsystem__XRRenderPass, "UnityEngine.XR", "XRDisplaySubsystem/XRRenderPass");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::UnityEngine__XR__XRDisplaySubsystem__LateLatchNode, "UnityEngine.XR", "XRDisplaySubsystem/LateLatchNode");
+NEED_NO_BOX(UnityEngine::XR::XRDisplaySubsystem);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRDisplaySubsystem, "UnityEngine.XR", "XRDisplaySubsystem");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::UnityEngine__XR__XRDisplaySubsystem__XRMirrorViewBlitDesc, "UnityEngine.XR", "XRDisplaySubsystem/XRMirrorViewBlitDesc");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::UnityEngine__XR__XRDisplaySubsystem__XRRenderPass, "UnityEngine.XR", "XRDisplaySubsystem/XRRenderPass");

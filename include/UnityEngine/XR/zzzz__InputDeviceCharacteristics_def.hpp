@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::XR {
 struct InputDeviceCharacteristics;
@@ -77,44 +76,43 @@ constexpr void __set_value__(uint32_t value) ;
 constexpr uint32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::XR::InputDeviceCharacteristics const None;
+static UnityEngine::XR::InputDeviceCharacteristics const None;
 
 /// @brief Field HeadMounted offset 0
-static ::UnityEngine::XR::InputDeviceCharacteristics const HeadMounted;
+static UnityEngine::XR::InputDeviceCharacteristics const HeadMounted;
 
 /// @brief Field Camera offset 0
-static ::UnityEngine::XR::InputDeviceCharacteristics const Camera;
+static UnityEngine::XR::InputDeviceCharacteristics const Camera;
 
 /// @brief Field HeldInHand offset 0
-static ::UnityEngine::XR::InputDeviceCharacteristics const HeldInHand;
+static UnityEngine::XR::InputDeviceCharacteristics const HeldInHand;
 
 /// @brief Field HandTracking offset 0
-static ::UnityEngine::XR::InputDeviceCharacteristics const HandTracking;
+static UnityEngine::XR::InputDeviceCharacteristics const HandTracking;
 
 /// @brief Field EyeTracking offset 0
-static ::UnityEngine::XR::InputDeviceCharacteristics const EyeTracking;
+static UnityEngine::XR::InputDeviceCharacteristics const EyeTracking;
 
 /// @brief Field TrackedDevice offset 0
-static ::UnityEngine::XR::InputDeviceCharacteristics const TrackedDevice;
+static UnityEngine::XR::InputDeviceCharacteristics const TrackedDevice;
 
 /// @brief Field Controller offset 0
-static ::UnityEngine::XR::InputDeviceCharacteristics const Controller;
+static UnityEngine::XR::InputDeviceCharacteristics const Controller;
 
 /// @brief Field TrackingReference offset 0
-static ::UnityEngine::XR::InputDeviceCharacteristics const TrackingReference;
+static UnityEngine::XR::InputDeviceCharacteristics const TrackingReference;
 
 /// @brief Field Left offset 0
-static ::UnityEngine::XR::InputDeviceCharacteristics const Left;
+static UnityEngine::XR::InputDeviceCharacteristics const Left;
 
 /// @brief Field Right offset 0
-static ::UnityEngine::XR::InputDeviceCharacteristics const Right;
+static UnityEngine::XR::InputDeviceCharacteristics const Right;
 
 /// @brief Field Simulated6DOF offset 0
-static ::UnityEngine::XR::InputDeviceCharacteristics const Simulated6DOF;
+static UnityEngine::XR::InputDeviceCharacteristics const Simulated6DOF;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::InputDeviceCharacteristics, "UnityEngine.XR", "InputDeviceCharacteristics");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::InputDeviceCharacteristics, "UnityEngine.XR", "InputDeviceCharacteristics");

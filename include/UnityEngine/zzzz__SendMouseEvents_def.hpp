@@ -5,10 +5,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System {
-template<typename TResult>
-class Func_1;
+namespace UnityEngine {
+class Camera;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -17,8 +15,9 @@ struct KeyValuePair_2;
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine {
-class Camera;
+namespace System {
+template<typename TResult>
+class Func_1;
 }
 namespace UnityEngine {
 class GameObject;
@@ -28,7 +27,7 @@ namespace UnityEngine {
 class SendMouseEvents;
 }
 namespace UnityEngine {
-struct ____UnityEngine__SendMouseEvents__HitInfo;
+struct UnityEngine__SendMouseEvents__HitInfo;
 }
 // Type: ::HitInfo
 namespace UnityEngine {
@@ -36,20 +35,20 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15840))
 // CS Name: UnityEngine.SendMouseEvents::HitInfo
-struct CORDL_TYPE ____UnityEngine__SendMouseEvents__HitInfo : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__SendMouseEvents__HitInfo : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "target", ty: "::UnityEngine::GameObject", modifiers: "", def_value: None }, CppParam { name: "camera", ty: "::UnityEngine::Camera", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__SendMouseEvents__HitInfo(::UnityEngine::GameObject target, ::UnityEngine::Camera camera) noexcept;
+// Ctor Parameters [CppParam { name: "target", ty: "UnityEngine::GameObject", modifiers: "", def_value: None }, CppParam { name: "camera", ty: "UnityEngine::Camera", modifiers: "", def_value: None }]
+constexpr UnityEngine__SendMouseEvents__HitInfo(UnityEngine::GameObject target, UnityEngine::Camera camera) noexcept;
 
 
-                    constexpr ____UnityEngine__SendMouseEvents__HitInfo(____UnityEngine__SendMouseEvents__HitInfo const&) = default;
-                    constexpr ____UnityEngine__SendMouseEvents__HitInfo(____UnityEngine__SendMouseEvents__HitInfo&&) = default;
-                    constexpr ____UnityEngine__SendMouseEvents__HitInfo& operator=(____UnityEngine__SendMouseEvents__HitInfo const& o) {
+                    constexpr UnityEngine__SendMouseEvents__HitInfo(UnityEngine__SendMouseEvents__HitInfo const&) = default;
+                    constexpr UnityEngine__SendMouseEvents__HitInfo(UnityEngine__SendMouseEvents__HitInfo&&) = default;
+                    constexpr UnityEngine__SendMouseEvents__HitInfo& operator=(UnityEngine__SendMouseEvents__HitInfo const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__SendMouseEvents__HitInfo& operator=(____UnityEngine__SendMouseEvents__HitInfo&& o) noexcept {
+                    constexpr UnityEngine__SendMouseEvents__HitInfo& operator=(UnityEngine__SendMouseEvents__HitInfo&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -62,7 +61,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x10};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__SendMouseEvents__HitInfo(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__SendMouseEvents__HitInfo(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -73,17 +72,17 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::GameObject __declspec(property(get=__get_target, put=__set_target))  target;
+ UnityEngine::GameObject __declspec(property(get=__get_target, put=__set_target))  target;
 
-constexpr void __set_target(::UnityEngine::GameObject value) ;
+constexpr void __set_target(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get_target() const;
+constexpr UnityEngine::GameObject __get_target() const;
 
- ::UnityEngine::Camera __declspec(property(get=__get_camera, put=__set_camera))  camera;
+ UnityEngine::Camera __declspec(property(get=__get_camera, put=__set_camera))  camera;
 
-constexpr void __set_camera(::UnityEngine::Camera value) ;
+constexpr void __set_camera(UnityEngine::Camera value) ;
 
-constexpr ::UnityEngine::Camera __get_camera() const;
+constexpr UnityEngine::Camera __get_camera() const;
 
 
 // Methods
@@ -92,10 +91,10 @@ constexpr ::UnityEngine::Camera __get_camera() const;
  void SendMessage(::StringW name) ;
 
 /// @brief Method op_Implicit addr 0x2b9786c size 0xa0 virtual false final false
-static bool op_Implicit_bool(::UnityEngine::____UnityEngine__SendMouseEvents__HitInfo exists) ;
+static bool op_Implicit_bool(UnityEngine::UnityEngine__SendMouseEvents__HitInfo exists) ;
 
 /// @brief Method Compare addr 0x2b97930 size 0xb4 virtual false final false
-static bool Compare(::UnityEngine::____UnityEngine__SendMouseEvents__HitInfo lhs, ::UnityEngine::____UnityEngine__SendMouseEvents__HitInfo rhs) ;
+static bool Compare(UnityEngine::UnityEngine__SendMouseEvents__HitInfo lhs, UnityEngine::UnityEngine__SendMouseEvents__HitInfo rhs) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -110,7 +109,7 @@ namespace UnityEngine {
 class CORDL_TYPE SendMouseEvents : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using HitInfo = ::UnityEngine::____UnityEngine__SendMouseEvents__HitInfo;
+using HitInfo = UnityEngine::UnityEngine__SendMouseEvents__HitInfo;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -151,41 +150,41 @@ static void __set_s_MouseUsed(bool value) ;
 
 static bool __get_s_MouseUsed() ;
 
-static ::ArrayW<::UnityEngine::____UnityEngine__SendMouseEvents__HitInfo> __declspec(property(get=__get_m_LastHit, put=__set_m_LastHit))  m_LastHit;
+static ::ArrayW<UnityEngine::UnityEngine__SendMouseEvents__HitInfo> __declspec(property(get=__get_m_LastHit, put=__set_m_LastHit))  m_LastHit;
 
-static void __set_m_LastHit(::ArrayW<::UnityEngine::____UnityEngine__SendMouseEvents__HitInfo> value) ;
+static void __set_m_LastHit(::ArrayW<UnityEngine::UnityEngine__SendMouseEvents__HitInfo> value) ;
 
-static ::ArrayW<::UnityEngine::____UnityEngine__SendMouseEvents__HitInfo> __get_m_LastHit() ;
+static ::ArrayW<UnityEngine::UnityEngine__SendMouseEvents__HitInfo> __get_m_LastHit() ;
 
-static ::ArrayW<::UnityEngine::____UnityEngine__SendMouseEvents__HitInfo> __declspec(property(get=__get_m_MouseDownHit, put=__set_m_MouseDownHit))  m_MouseDownHit;
+static ::ArrayW<UnityEngine::UnityEngine__SendMouseEvents__HitInfo> __declspec(property(get=__get_m_MouseDownHit, put=__set_m_MouseDownHit))  m_MouseDownHit;
 
-static void __set_m_MouseDownHit(::ArrayW<::UnityEngine::____UnityEngine__SendMouseEvents__HitInfo> value) ;
+static void __set_m_MouseDownHit(::ArrayW<UnityEngine::UnityEngine__SendMouseEvents__HitInfo> value) ;
 
-static ::ArrayW<::UnityEngine::____UnityEngine__SendMouseEvents__HitInfo> __get_m_MouseDownHit() ;
+static ::ArrayW<UnityEngine::UnityEngine__SendMouseEvents__HitInfo> __get_m_MouseDownHit() ;
 
-static ::ArrayW<::UnityEngine::____UnityEngine__SendMouseEvents__HitInfo> __declspec(property(get=__get_m_CurrentHit, put=__set_m_CurrentHit))  m_CurrentHit;
+static ::ArrayW<UnityEngine::UnityEngine__SendMouseEvents__HitInfo> __declspec(property(get=__get_m_CurrentHit, put=__set_m_CurrentHit))  m_CurrentHit;
 
-static void __set_m_CurrentHit(::ArrayW<::UnityEngine::____UnityEngine__SendMouseEvents__HitInfo> value) ;
+static void __set_m_CurrentHit(::ArrayW<UnityEngine::UnityEngine__SendMouseEvents__HitInfo> value) ;
 
-static ::ArrayW<::UnityEngine::____UnityEngine__SendMouseEvents__HitInfo> __get_m_CurrentHit() ;
+static ::ArrayW<UnityEngine::UnityEngine__SendMouseEvents__HitInfo> __get_m_CurrentHit() ;
 
-static ::ArrayW<::UnityEngine::Camera> __declspec(property(get=__get_m_Cameras, put=__set_m_Cameras))  m_Cameras;
+static ::ArrayW<UnityEngine::Camera> __declspec(property(get=__get_m_Cameras, put=__set_m_Cameras))  m_Cameras;
 
-static void __set_m_Cameras(::ArrayW<::UnityEngine::Camera> value) ;
+static void __set_m_Cameras(::ArrayW<UnityEngine::Camera> value) ;
 
-static ::ArrayW<::UnityEngine::Camera> __get_m_Cameras() ;
+static ::ArrayW<UnityEngine::Camera> __get_m_Cameras() ;
 
-static ::System::Func_1<::System::Collections::Generic::KeyValuePair_2<int32_t,::UnityEngine::Vector2>> __declspec(property(get=__get_s_GetMouseState, put=__set_s_GetMouseState))  s_GetMouseState;
+static System::Func_1<System::Collections::Generic::KeyValuePair_2<int32_t,UnityEngine::Vector2>> __declspec(property(get=__get_s_GetMouseState, put=__set_s_GetMouseState))  s_GetMouseState;
 
-static void __set_s_GetMouseState(::System::Func_1<::System::Collections::Generic::KeyValuePair_2<int32_t,::UnityEngine::Vector2>> value) ;
+static void __set_s_GetMouseState(System::Func_1<System::Collections::Generic::KeyValuePair_2<int32_t,UnityEngine::Vector2>> value) ;
 
-static ::System::Func_1<::System::Collections::Generic::KeyValuePair_2<int32_t,::UnityEngine::Vector2>> __get_s_GetMouseState() ;
+static System::Func_1<System::Collections::Generic::KeyValuePair_2<int32_t,UnityEngine::Vector2>> __get_s_GetMouseState() ;
 
-static ::UnityEngine::Vector2 __declspec(property(get=__get_s_MousePosition, put=__set_s_MousePosition))  s_MousePosition;
+static UnityEngine::Vector2 __declspec(property(get=__get_s_MousePosition, put=__set_s_MousePosition))  s_MousePosition;
 
-static void __set_s_MousePosition(::UnityEngine::Vector2 value) ;
+static void __set_s_MousePosition(UnityEngine::Vector2 value) ;
 
-static ::UnityEngine::Vector2 __get_s_MousePosition() ;
+static UnityEngine::Vector2 __get_s_MousePosition() ;
 
 static bool __declspec(property(get=__get_s_MouseButtonPressedThisFrame, put=__set_s_MouseButtonPressedThisFrame))  s_MouseButtonPressedThisFrame;
 
@@ -212,13 +211,12 @@ static void SetMouseMoved() ;
 static void DoSendMouseEvents(int32_t skipRTCameras) ;
 
 /// @brief Method SendEvents addr 0x2b9744c size 0x420 virtual false final false
-static void SendEvents(int32_t i, ::UnityEngine::____UnityEngine__SendMouseEvents__HitInfo hit) ;
+static void SendEvents(int32_t i, UnityEngine::UnityEngine__SendMouseEvents__HitInfo hit) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::SendMouseEvents);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SendMouseEvents, "UnityEngine", "SendMouseEvents");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::____UnityEngine__SendMouseEvents__HitInfo, "UnityEngine", "SendMouseEvents/HitInfo");
+NEED_NO_BOX(UnityEngine::SendMouseEvents);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SendMouseEvents, "UnityEngine", "SendMouseEvents");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnityEngine__SendMouseEvents__HitInfo, "UnityEngine", "SendMouseEvents/HitInfo");

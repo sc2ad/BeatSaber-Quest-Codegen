@@ -1,15 +1,14 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-namespace {
 namespace System::Collections {
 class Hashtable;
 }
-namespace System::Collections {
-class IDictionary;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace System::Collections {
+class IDictionary;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
@@ -24,7 +23,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(375))
 // CS Name: Org.BouncyCastle.Asn1.X509.PolicyMappings
-class CORDL_TYPE PolicyMappings : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
+class CORDL_TYPE PolicyMappings : public Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr PolicyMappings(PolicyMappings const& ) noexcept = default;
 constexpr PolicyMappings(PolicyMappings&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PolicyMappings(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
+constexpr explicit PolicyMappings(void* ptr) noexcept : Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
 }
 
 
@@ -60,40 +59,39 @@ constexpr explicit PolicyMappings(void* ptr) noexcept : ::Org::BouncyCastle::Asn
 
 // Fields
 
- ::Org::BouncyCastle::Asn1::Asn1Sequence __declspec(property(get=__get_seq, put=__set_seq))  seq;
+ Org::BouncyCastle::Asn1::Asn1Sequence __declspec(property(get=__get_seq, put=__set_seq))  seq;
 
-constexpr void __set_seq(::Org::BouncyCastle::Asn1::Asn1Sequence value) ;
+constexpr void __set_seq(Org::BouncyCastle::Asn1::Asn1Sequence value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence __get_seq() const;
+constexpr Org::BouncyCastle::Asn1::Asn1Sequence __get_seq() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seq", ty: "::Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit PolicyMappings(::Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
+explicit PolicyMappings(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0x110a3c8 size 0x28 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+ void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "mappings", ty: "::System::Collections::Hashtable", modifiers: "", def_value: None }]
-explicit PolicyMappings(::System::Collections::Hashtable mappings) ;
+// Ctor Parameters [CppParam { name: "mappings", ty: "System::Collections::Hashtable", modifiers: "", def_value: None }]
+explicit PolicyMappings(System::Collections::Hashtable mappings) ;
 
 /// @brief Method .ctor addr 0x110a3f0 size 0x4 virtual false final false
- void _ctor(::System::Collections::Hashtable mappings) ;
+ void _ctor(System::Collections::Hashtable mappings) ;
 
-// Ctor Parameters [CppParam { name: "mappings", ty: "::System::Collections::IDictionary", modifiers: "", def_value: None }]
-explicit PolicyMappings(::System::Collections::IDictionary mappings) ;
+// Ctor Parameters [CppParam { name: "mappings", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }]
+explicit PolicyMappings(System::Collections::IDictionary mappings) ;
 
 /// @brief Method .ctor addr 0x110a3f4 size 0x5ec virtual false final false
- void _ctor(::System::Collections::IDictionary mappings) ;
+ void _ctor(System::Collections::IDictionary mappings) ;
 
 /// @brief Method ToAsn1Object addr 0x110a9e0 size 0x8 virtual true final false
- ::Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
+ Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::X509
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::PolicyMappings);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X509::PolicyMappings, "Org.BouncyCastle.Asn1.X509", "PolicyMappings");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::PolicyMappings);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::PolicyMappings, "Org.BouncyCastle.Asn1.X509", "PolicyMappings");

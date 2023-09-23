@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 struct DiscoveryPolicy;
@@ -68,17 +67,16 @@ constexpr void __set_value__(uint8_t value) ;
 constexpr uint8_t __get_value__() const;
 
 /// @brief Field Hidden offset 0
-static ::GlobalNamespace::DiscoveryPolicy const Hidden;
+static GlobalNamespace::DiscoveryPolicy const Hidden;
 
 /// @brief Field WithCode offset 0
-static ::GlobalNamespace::DiscoveryPolicy const WithCode;
+static GlobalNamespace::DiscoveryPolicy const WithCode;
 
 /// @brief Field Public offset 0
-static ::GlobalNamespace::DiscoveryPolicy const Public;
+static GlobalNamespace::DiscoveryPolicy const Public;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DiscoveryPolicy, "", "DiscoveryPolicy");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DiscoveryPolicy, "", "DiscoveryPolicy");

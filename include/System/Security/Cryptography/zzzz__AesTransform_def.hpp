@@ -3,7 +3,6 @@
 #include "Mono/Security/Cryptography/zzzz__SymmetricTransform_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::Security::Cryptography {
 class Aes;
 }
@@ -17,7 +16,7 @@ namespace System::Security::Cryptography {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2284))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14533))
 // CS Name: System.Security.Cryptography.AesTransform
-class CORDL_TYPE AesTransform : public ::Mono::Security::Cryptography::SymmetricTransform {
+class CORDL_TYPE AesTransform : public Mono::Security::Cryptography::SymmetricTransform {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr AesTransform(AesTransform const& ) noexcept = default;
 constexpr AesTransform(AesTransform&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AesTransform(void* ptr) noexcept : ::Mono::Security::Cryptography::SymmetricTransform(ptr) {
+constexpr explicit AesTransform(void* ptr) noexcept : Mono::Security::Cryptography::SymmetricTransform(ptr) {
 }
 
 
@@ -140,11 +139,11 @@ static ::ArrayW<uint32_t> __get_iT3() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "algo", ty: "::System::Security::Cryptography::Aes", modifiers: "", def_value: None }, CppParam { name: "encryption", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit AesTransform(::System::Security::Cryptography::Aes algo, bool encryption, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv) ;
+// Ctor Parameters [CppParam { name: "algo", ty: "System::Security::Cryptography::Aes", modifiers: "", def_value: None }, CppParam { name: "encryption", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
+explicit AesTransform(System::Security::Cryptography::Aes algo, bool encryption, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv) ;
 
 /// @brief Method .ctor addr 0x267c0f8 size 0x6f4 virtual false final false
- void _ctor(::System::Security::Cryptography::Aes algo, bool encryption, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv) ;
+ void _ctor(System::Security::Cryptography::Aes algo, bool encryption, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv) ;
 
 /// @brief Method ECB addr 0x267cb08 size 0x14 virtual true final false
  void ECB(::ArrayW<uint8_t> input, ::ArrayW<uint8_t> output) ;
@@ -162,6 +161,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::AesTransform);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::AesTransform, "System.Security.Cryptography", "AesTransform");
+NEED_NO_BOX(System::Security::Cryptography::AesTransform);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::AesTransform, "System.Security.Cryptography", "AesTransform");

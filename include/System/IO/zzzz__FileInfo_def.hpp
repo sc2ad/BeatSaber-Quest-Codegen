@@ -3,18 +3,17 @@
 #include "System/IO/zzzz__FileSystemInfo_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace System::IO {
+class StreamWriter;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::IO {
 class FileStream;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::IO {
-class StreamWriter;
 }
 // Forward declare root types
 namespace System::IO {
@@ -26,7 +25,7 @@ namespace System::IO {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3582))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3579))
 // CS Name: System.IO.FileInfo
-class CORDL_TYPE FileInfo : public ::System::IO::FileSystemInfo {
+class CORDL_TYPE FileInfo : public System::IO::FileSystemInfo {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -41,7 +40,7 @@ constexpr FileInfo(FileInfo const& ) noexcept = default;
 constexpr FileInfo(FileInfo&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FileInfo(void* ptr) noexcept : ::System::IO::FileSystemInfo(ptr) {
+constexpr explicit FileInfo(void* ptr) noexcept : System::IO::FileSystemInfo(ptr) {
 }
 
 
@@ -91,22 +90,22 @@ explicit FileInfo(::StringW originalPath, ::StringW fullPath, ::StringW fileName
  int64_t get_Length() ;
 
 /// @brief Method CreateText addr 0x239e380 size 0x68 virtual false final false
- ::System::IO::StreamWriter CreateText() ;
+ System::IO::StreamWriter CreateText() ;
 
 /// @brief Method AppendText addr 0x239e3e8 size 0x68 virtual false final false
- ::System::IO::StreamWriter AppendText() ;
+ System::IO::StreamWriter AppendText() ;
 
 /// @brief Method Delete addr 0x239e450 size 0x8 virtual true final false
  void Delete() ;
 
 /// @brief Method OpenRead addr 0x239e458 size 0x7c virtual false final false
- ::System::IO::FileStream OpenRead() ;
+ System::IO::FileStream OpenRead() ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit FileInfo(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit FileInfo(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x239e4d4 size 0x4 virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method get_Name addr 0x239e4d8 size 0x8 virtual true final false
  ::StringW get_Name() ;
@@ -115,6 +114,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::IO
-} // end anonymous namespace
-NEED_NO_BOX(::System::IO::FileInfo);
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::FileInfo, "System.IO", "FileInfo");
+NEED_NO_BOX(System::IO::FileInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::IO::FileInfo, "System.IO", "FileInfo");

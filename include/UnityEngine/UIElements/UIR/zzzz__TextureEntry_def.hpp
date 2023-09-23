@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
 namespace UnityEngine::UIElements {
 struct TextureId;
 }
@@ -21,8 +20,8 @@ namespace UnityEngine::UIElements::UIR {
 struct CORDL_TYPE TextureEntry : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "source", ty: "::UnityEngine::Texture", modifiers: "", def_value: None }, CppParam { name: "actual", ty: "::UnityEngine::UIElements::TextureId", modifiers: "", def_value: None }, CppParam { name: "replaced", ty: "bool", modifiers: "", def_value: None }]
-constexpr TextureEntry(::UnityEngine::Texture source, ::UnityEngine::UIElements::TextureId actual, bool replaced) noexcept;
+// Ctor Parameters [CppParam { name: "source", ty: "UnityEngine::Texture", modifiers: "", def_value: None }, CppParam { name: "actual", ty: "UnityEngine::UIElements::TextureId", modifiers: "", def_value: None }, CppParam { name: "replaced", ty: "bool", modifiers: "", def_value: None }]
+constexpr TextureEntry(UnityEngine::Texture source, UnityEngine::UIElements::TextureId actual, bool replaced) noexcept;
 
 
                     constexpr TextureEntry(TextureEntry const&) = default;
@@ -55,17 +54,17 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Texture __declspec(property(get=__get_source, put=__set_source))  source;
+ UnityEngine::Texture __declspec(property(get=__get_source, put=__set_source))  source;
 
-constexpr void __set_source(::UnityEngine::Texture value) ;
+constexpr void __set_source(UnityEngine::Texture value) ;
 
-constexpr ::UnityEngine::Texture __get_source() const;
+constexpr UnityEngine::Texture __get_source() const;
 
- ::UnityEngine::UIElements::TextureId __declspec(property(get=__get_actual, put=__set_actual))  actual;
+ UnityEngine::UIElements::TextureId __declspec(property(get=__get_actual, put=__set_actual))  actual;
 
-constexpr void __set_actual(::UnityEngine::UIElements::TextureId value) ;
+constexpr void __set_actual(UnityEngine::UIElements::TextureId value) ;
 
-constexpr ::UnityEngine::UIElements::TextureId __get_actual() const;
+constexpr UnityEngine::UIElements::TextureId __get_actual() const;
 
  bool __declspec(property(get=__get_replaced, put=__set_replaced))  replaced;
 
@@ -77,5 +76,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::UIR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::TextureEntry, "UnityEngine.UIElements.UIR", "TextureEntry");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::TextureEntry, "UnityEngine.UIElements.UIR", "TextureEntry");

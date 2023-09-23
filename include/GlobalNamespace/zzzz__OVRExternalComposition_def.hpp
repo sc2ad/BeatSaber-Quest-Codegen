@@ -6,34 +6,33 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 class GameObject;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRManager__CompositionMethod;
+}
+namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine {
+class AudioListener;
+}
+namespace GlobalNamespace {
+class OVRMixedRealityCaptureConfiguration;
+}
+namespace GlobalNamespace {
+class OVRMRAudioFilter;
+}
+namespace UnityEngine {
+class RenderTexture;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
-class OVRMRAudioFilter;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRManager__CompositionMethod;
-}
-namespace UnityEngine {
-class Camera;
-}
-namespace UnityEngine {
-class RenderTexture;
-}
-namespace GlobalNamespace {
-class OVRMixedRealityCaptureConfiguration;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__OVRManager__TrackingOrigin;
-}
-namespace UnityEngine {
-class AudioListener;
+struct GlobalNamespace__OVRManager__TrackingOrigin;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -45,7 +44,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8439))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8442))
 // CS Name: OVRExternalComposition
-class CORDL_TYPE OVRExternalComposition : public ::GlobalNamespace::OVRComposition {
+class CORDL_TYPE OVRExternalComposition : public GlobalNamespace::OVRComposition {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -60,7 +59,7 @@ constexpr OVRExternalComposition(OVRExternalComposition const& ) noexcept = defa
 constexpr OVRExternalComposition(OVRExternalComposition&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OVRExternalComposition(void* ptr) noexcept : ::GlobalNamespace::OVRComposition(ptr) {
+constexpr explicit OVRExternalComposition(void* ptr) noexcept : GlobalNamespace::OVRComposition(ptr) {
 }
 
 
@@ -81,35 +80,35 @@ constexpr explicit OVRExternalComposition(void* ptr) noexcept : ::GlobalNamespac
 
 // Fields
 
- ::UnityEngine::GameObject __declspec(property(get=__get_previousMainCameraObject, put=__set_previousMainCameraObject))  previousMainCameraObject;
+ UnityEngine::GameObject __declspec(property(get=__get_previousMainCameraObject, put=__set_previousMainCameraObject))  previousMainCameraObject;
 
-constexpr void __set_previousMainCameraObject(::UnityEngine::GameObject value) ;
+constexpr void __set_previousMainCameraObject(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get_previousMainCameraObject() const;
+constexpr UnityEngine::GameObject __get_previousMainCameraObject() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get_foregroundCameraGameObject, put=__set_foregroundCameraGameObject))  foregroundCameraGameObject;
+ UnityEngine::GameObject __declspec(property(get=__get_foregroundCameraGameObject, put=__set_foregroundCameraGameObject))  foregroundCameraGameObject;
 
-constexpr void __set_foregroundCameraGameObject(::UnityEngine::GameObject value) ;
+constexpr void __set_foregroundCameraGameObject(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get_foregroundCameraGameObject() const;
+constexpr UnityEngine::GameObject __get_foregroundCameraGameObject() const;
 
- ::UnityEngine::Camera __declspec(property(get=__get_foregroundCamera, put=__set_foregroundCamera))  foregroundCamera;
+ UnityEngine::Camera __declspec(property(get=__get_foregroundCamera, put=__set_foregroundCamera))  foregroundCamera;
 
-constexpr void __set_foregroundCamera(::UnityEngine::Camera value) ;
+constexpr void __set_foregroundCamera(UnityEngine::Camera value) ;
 
-constexpr ::UnityEngine::Camera __get_foregroundCamera() const;
+constexpr UnityEngine::Camera __get_foregroundCamera() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get_backgroundCameraGameObject, put=__set_backgroundCameraGameObject))  backgroundCameraGameObject;
+ UnityEngine::GameObject __declspec(property(get=__get_backgroundCameraGameObject, put=__set_backgroundCameraGameObject))  backgroundCameraGameObject;
 
-constexpr void __set_backgroundCameraGameObject(::UnityEngine::GameObject value) ;
+constexpr void __set_backgroundCameraGameObject(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get_backgroundCameraGameObject() const;
+constexpr UnityEngine::GameObject __get_backgroundCameraGameObject() const;
 
- ::UnityEngine::Camera __declspec(property(get=__get_backgroundCamera, put=__set_backgroundCamera))  backgroundCamera;
+ UnityEngine::Camera __declspec(property(get=__get_backgroundCamera, put=__set_backgroundCamera))  backgroundCamera;
 
-constexpr void __set_backgroundCamera(::UnityEngine::Camera value) ;
+constexpr void __set_backgroundCamera(UnityEngine::Camera value) ;
 
-constexpr ::UnityEngine::Camera __get_backgroundCamera() const;
+constexpr UnityEngine::Camera __get_backgroundCamera() const;
 
  float_t __declspec(property(get=__get_fpsThreshold, put=__set_fpsThreshold))  fpsThreshold;
 
@@ -129,23 +128,23 @@ constexpr void __set_renderCombinedFrame(bool value) ;
 
 constexpr bool __get_renderCombinedFrame() const;
 
- ::UnityEngine::AudioListener __declspec(property(get=__get_audioListener, put=__set_audioListener))  audioListener;
+ UnityEngine::AudioListener __declspec(property(get=__get_audioListener, put=__set_audioListener))  audioListener;
 
-constexpr void __set_audioListener(::UnityEngine::AudioListener value) ;
+constexpr void __set_audioListener(UnityEngine::AudioListener value) ;
 
-constexpr ::UnityEngine::AudioListener __get_audioListener() const;
+constexpr UnityEngine::AudioListener __get_audioListener() const;
 
- ::GlobalNamespace::OVRMRAudioFilter __declspec(property(get=__get_audioFilter, put=__set_audioFilter))  audioFilter;
+ GlobalNamespace::OVRMRAudioFilter __declspec(property(get=__get_audioFilter, put=__set_audioFilter))  audioFilter;
 
-constexpr void __set_audioFilter(::GlobalNamespace::OVRMRAudioFilter value) ;
+constexpr void __set_audioFilter(GlobalNamespace::OVRMRAudioFilter value) ;
 
-constexpr ::GlobalNamespace::OVRMRAudioFilter __get_audioFilter() const;
+constexpr GlobalNamespace::OVRMRAudioFilter __get_audioFilter() const;
 
- ::ArrayW<::UnityEngine::RenderTexture> __declspec(property(get=__get_mrcRenderTextureArray, put=__set_mrcRenderTextureArray))  mrcRenderTextureArray;
+ ::ArrayW<UnityEngine::RenderTexture> __declspec(property(get=__get_mrcRenderTextureArray, put=__set_mrcRenderTextureArray))  mrcRenderTextureArray;
 
-constexpr void __set_mrcRenderTextureArray(::ArrayW<::UnityEngine::RenderTexture> value) ;
+constexpr void __set_mrcRenderTextureArray(::ArrayW<UnityEngine::RenderTexture> value) ;
 
-constexpr ::ArrayW<::UnityEngine::RenderTexture> __get_mrcRenderTextureArray() const;
+constexpr ::ArrayW<UnityEngine::RenderTexture> __get_mrcRenderTextureArray() const;
 
  int32_t __declspec(property(get=__get_frameIndex, put=__set_frameIndex))  frameIndex;
 
@@ -159,11 +158,11 @@ constexpr void __set_lastMrcEncodeFrameSyncId(int32_t value) ;
 
 constexpr int32_t __get_lastMrcEncodeFrameSyncId() const;
 
- ::ArrayW<::UnityEngine::RenderTexture> __declspec(property(get=__get_mrcForegroundRenderTextureArray, put=__set_mrcForegroundRenderTextureArray))  mrcForegroundRenderTextureArray;
+ ::ArrayW<UnityEngine::RenderTexture> __declspec(property(get=__get_mrcForegroundRenderTextureArray, put=__set_mrcForegroundRenderTextureArray))  mrcForegroundRenderTextureArray;
 
-constexpr void __set_mrcForegroundRenderTextureArray(::ArrayW<::UnityEngine::RenderTexture> value) ;
+constexpr void __set_mrcForegroundRenderTextureArray(::ArrayW<UnityEngine::RenderTexture> value) ;
 
-constexpr ::ArrayW<::UnityEngine::RenderTexture> __get_mrcForegroundRenderTextureArray() const;
+constexpr ::ArrayW<UnityEngine::RenderTexture> __get_mrcForegroundRenderTextureArray() const;
 
  ::ArrayW<double_t> __declspec(property(get=__get_cameraPoseTimeArray, put=__set_cameraPoseTimeArray))  cameraPoseTimeArray;
 
@@ -183,11 +182,11 @@ constexpr void __set_audioDataLock(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get_audioDataLock() const;
 
- ::System::Collections::Generic::List_1<float_t> __declspec(property(get=__get_cachedAudioData, put=__set_cachedAudioData))  cachedAudioData;
+ System::Collections::Generic::List_1<float_t> __declspec(property(get=__get_cachedAudioData, put=__set_cachedAudioData))  cachedAudioData;
 
-constexpr void __set_cachedAudioData(::System::Collections::Generic::List_1<float_t> value) ;
+constexpr void __set_cachedAudioData(System::Collections::Generic::List_1<float_t> value) ;
 
-constexpr ::System::Collections::Generic::List_1<float_t> __get_cachedAudioData() const;
+constexpr System::Collections::Generic::List_1<float_t> __get_cachedAudioData() const;
 
  int32_t __declspec(property(get=__get_cachedChannels, put=__set_cachedChannels))  cachedChannels;
 
@@ -199,19 +198,19 @@ constexpr int32_t __get_cachedChannels() const;
 // Methods
 
 /// @brief Method CompositionMethod addr 0x25a620c size 0x8 virtual true final false
- ::GlobalNamespace::____GlobalNamespace__OVRManager__CompositionMethod CompositionMethod() ;
+ GlobalNamespace::GlobalNamespace__OVRManager__CompositionMethod CompositionMethod() ;
 
-// Ctor Parameters [CppParam { name: "parentObject", ty: "::UnityEngine::GameObject", modifiers: "", def_value: None }, CppParam { name: "mainCamera", ty: "::UnityEngine::Camera", modifiers: "", def_value: None }, CppParam { name: "configuration", ty: "::GlobalNamespace::OVRMixedRealityCaptureConfiguration", modifiers: "", def_value: None }]
-explicit OVRExternalComposition(::UnityEngine::GameObject parentObject, ::UnityEngine::Camera mainCamera, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration configuration) ;
+// Ctor Parameters [CppParam { name: "parentObject", ty: "UnityEngine::GameObject", modifiers: "", def_value: None }, CppParam { name: "mainCamera", ty: "UnityEngine::Camera", modifiers: "", def_value: None }, CppParam { name: "configuration", ty: "GlobalNamespace::OVRMixedRealityCaptureConfiguration", modifiers: "", def_value: None }]
+explicit OVRExternalComposition(UnityEngine::GameObject parentObject, UnityEngine::Camera mainCamera, GlobalNamespace::OVRMixedRealityCaptureConfiguration configuration) ;
 
 /// @brief Method .ctor addr 0x25a6214 size 0x4bc virtual false final false
- void _ctor(::UnityEngine::GameObject parentObject, ::UnityEngine::Camera mainCamera, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration configuration) ;
+ void _ctor(UnityEngine::GameObject parentObject, UnityEngine::Camera mainCamera, GlobalNamespace::OVRMixedRealityCaptureConfiguration configuration) ;
 
 /// @brief Method RefreshCameraObjects addr 0x25a66d0 size 0xbf4 virtual false final false
- void RefreshCameraObjects(::UnityEngine::GameObject parentObject, ::UnityEngine::Camera mainCamera, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration configuration) ;
+ void RefreshCameraObjects(UnityEngine::GameObject parentObject, UnityEngine::Camera mainCamera, GlobalNamespace::OVRMixedRealityCaptureConfiguration configuration) ;
 
 /// @brief Method RefreshAudioFilter addr 0x25a72c4 size 0x5b0 virtual false final false
- void RefreshAudioFilter(::UnityEngine::Camera mainCamera) ;
+ void RefreshAudioFilter(UnityEngine::Camera mainCamera) ;
 
 /// @brief Method CastMrcFrame addr 0x25a79a8 size 0x200 virtual false final false
  int32_t CastMrcFrame(int32_t castTextureIndex) ;
@@ -220,7 +219,7 @@ explicit OVRExternalComposition(::UnityEngine::GameObject parentObject, ::UnityE
  void SetCameraTargetTexture(int32_t drawTextureIndex) ;
 
 /// @brief Method Update addr 0x25a7f64 size 0xc90 virtual true final false
- void Update(::UnityEngine::GameObject gameObject, ::UnityEngine::Camera mainCamera, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration configuration, ::GlobalNamespace::____GlobalNamespace__OVRManager__TrackingOrigin trackingOrigin, float_t displayFrequency) ;
+ void Update(UnityEngine::GameObject gameObject, UnityEngine::Camera mainCamera, GlobalNamespace::OVRMixedRealityCaptureConfiguration configuration, GlobalNamespace::GlobalNamespace__OVRManager__TrackingOrigin trackingOrigin, float_t displayFrequency) ;
 
 /// @brief Method CleanupAudioFilter addr 0x25a7874 size 0x134 virtual false final false
  void CleanupAudioFilter() ;
@@ -238,6 +237,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OVRExternalComposition);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRExternalComposition, "", "OVRExternalComposition");
+NEED_NO_BOX(GlobalNamespace::OVRExternalComposition);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRExternalComposition, "", "OVRExternalComposition");

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 struct Nullable_1;
@@ -61,13 +60,13 @@ static int32_t IntLength(uint64_t i) ;
 static char16_t IntToHex(int32_t n) ;
 
 /// @brief Method Min addr 0x24ed3d4 size 0xe0 virtual false final false
-static ::System::Nullable_1<int32_t> Min(::System::Nullable_1<int32_t> val1, ::System::Nullable_1<int32_t> val2) ;
+static System::Nullable_1<int32_t> Min(System::Nullable_1<int32_t> val1, System::Nullable_1<int32_t> val2) ;
 
 /// @brief Method Max addr 0x24ed4b4 size 0xe0 virtual false final false
-static ::System::Nullable_1<int32_t> Max(::System::Nullable_1<int32_t> val1, ::System::Nullable_1<int32_t> val2) ;
+static System::Nullable_1<int32_t> Max(System::Nullable_1<int32_t> val1, System::Nullable_1<int32_t> val2) ;
 
 /// @brief Method Max addr 0x24ed594 size 0xfc virtual false final false
-static ::System::Nullable_1<double_t> Max(::System::Nullable_1<double_t> val1, ::System::Nullable_1<double_t> val2) ;
+static System::Nullable_1<double_t> Max(System::Nullable_1<double_t> val1, System::Nullable_1<double_t> val2) ;
 
 /// @brief Method ApproxEquals addr 0x24ed690 size 0xa8 virtual false final false
 static bool ApproxEquals(double_t d1, double_t d2) ;
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Utilities
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Utilities::MathUtils);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::MathUtils, "Newtonsoft.Json.Utilities", "MathUtils");
+NEED_NO_BOX(Newtonsoft::Json::Utilities::MathUtils);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::MathUtils, "Newtonsoft.Json.Utilities", "MathUtils");

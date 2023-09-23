@@ -3,18 +3,17 @@
 #include "GlobalNamespace/zzzz__SliderInteractionEffect_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
-class ColorManager;
-}
-namespace UnityEngine {
-struct Color;
+class SaberManager;
 }
 namespace UnityEngine {
 class ParticleSystem;
 }
 namespace GlobalNamespace {
-class SaberManager;
+class ColorManager;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace GlobalNamespace {
 class Saber;
@@ -29,7 +28,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4934))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4940))
 // CS Name: SliderParticleInteractionEffect
-class CORDL_TYPE SliderParticleInteractionEffect : public ::GlobalNamespace::SliderInteractionEffect {
+class CORDL_TYPE SliderParticleInteractionEffect : public GlobalNamespace::SliderInteractionEffect {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -44,7 +43,7 @@ constexpr SliderParticleInteractionEffect(SliderParticleInteractionEffect const&
 constexpr SliderParticleInteractionEffect(SliderParticleInteractionEffect&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SliderParticleInteractionEffect(void* ptr) noexcept : ::GlobalNamespace::SliderInteractionEffect(ptr) {
+constexpr explicit SliderParticleInteractionEffect(void* ptr) noexcept : GlobalNamespace::SliderInteractionEffect(ptr) {
 }
 
 
@@ -65,35 +64,35 @@ constexpr explicit SliderParticleInteractionEffect(void* ptr) noexcept : ::Globa
 
 // Fields
 
- ::ArrayW<::UnityEngine::ParticleSystem> __declspec(property(get=__get__particleSystems, put=__set__particleSystems))  _particleSystems;
+ ::ArrayW<UnityEngine::ParticleSystem> __declspec(property(get=__get__particleSystems, put=__set__particleSystems))  _particleSystems;
 
-constexpr void __set__particleSystems(::ArrayW<::UnityEngine::ParticleSystem> value) ;
+constexpr void __set__particleSystems(::ArrayW<UnityEngine::ParticleSystem> value) ;
 
-constexpr ::ArrayW<::UnityEngine::ParticleSystem> __get__particleSystems() const;
+constexpr ::ArrayW<UnityEngine::ParticleSystem> __get__particleSystems() const;
 
- ::GlobalNamespace::ColorManager __declspec(property(get=__get__colorManager, put=__set__colorManager))  _colorManager;
+ GlobalNamespace::ColorManager __declspec(property(get=__get__colorManager, put=__set__colorManager))  _colorManager;
 
-constexpr void __set__colorManager(::GlobalNamespace::ColorManager value) ;
+constexpr void __set__colorManager(GlobalNamespace::ColorManager value) ;
 
-constexpr ::GlobalNamespace::ColorManager __get__colorManager() const;
+constexpr GlobalNamespace::ColorManager __get__colorManager() const;
 
- ::GlobalNamespace::SaberManager __declspec(property(get=__get__saberManager, put=__set__saberManager))  _saberManager;
+ GlobalNamespace::SaberManager __declspec(property(get=__get__saberManager, put=__set__saberManager))  _saberManager;
 
-constexpr void __set__saberManager(::GlobalNamespace::SaberManager value) ;
+constexpr void __set__saberManager(GlobalNamespace::SaberManager value) ;
 
-constexpr ::GlobalNamespace::SaberManager __get__saberManager() const;
+constexpr GlobalNamespace::SaberManager __get__saberManager() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__startColor, put=__set__startColor))  _startColor;
+ UnityEngine::Color __declspec(property(get=__get__startColor, put=__set__startColor))  _startColor;
 
-constexpr void __set__startColor(::UnityEngine::Color value) ;
+constexpr void __set__startColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__startColor() const;
+constexpr UnityEngine::Color __get__startColor() const;
 
- ::GlobalNamespace::Saber __declspec(property(get=__get__saber, put=__set__saber))  _saber;
+ GlobalNamespace::Saber __declspec(property(get=__get__saber, put=__set__saber))  _saber;
 
-constexpr void __set__saber(::GlobalNamespace::Saber value) ;
+constexpr void __set__saber(GlobalNamespace::Saber value) ;
 
-constexpr ::GlobalNamespace::Saber __get__saber() const;
+constexpr GlobalNamespace::Saber __get__saber() const;
 
 
 // Methods
@@ -105,7 +104,7 @@ constexpr ::GlobalNamespace::Saber __get__saber() const;
  void Update() ;
 
 /// @brief Method SetPSStartColor addr 0x224c36c size 0xd4 virtual false final false
- void SetPSStartColor(::UnityEngine::Color color) ;
+ void SetPSStartColor(UnityEngine::Color color) ;
 
 /// @brief Method StartEffect addr 0x224c4ac size 0xb8 virtual true final false
  void StartEffect(float_t saberInteractionParam) ;
@@ -123,6 +122,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SliderParticleInteractionEffect);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SliderParticleInteractionEffect, "", "SliderParticleInteractionEffect");
+NEED_NO_BOX(GlobalNamespace::SliderParticleInteractionEffect);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SliderParticleInteractionEffect, "", "SliderParticleInteractionEffect");

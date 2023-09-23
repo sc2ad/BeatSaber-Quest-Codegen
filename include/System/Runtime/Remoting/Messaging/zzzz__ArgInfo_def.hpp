@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::Reflection {
 class MethodBase;
 }
@@ -68,20 +67,20 @@ constexpr void __set__inoutArgCount(int32_t value) ;
 
 constexpr int32_t __get__inoutArgCount() const;
 
- ::System::Reflection::MethodBase __declspec(property(get=__get__method, put=__set__method))  _method;
+ System::Reflection::MethodBase __declspec(property(get=__get__method, put=__set__method))  _method;
 
-constexpr void __set__method(::System::Reflection::MethodBase value) ;
+constexpr void __set__method(System::Reflection::MethodBase value) ;
 
-constexpr ::System::Reflection::MethodBase __get__method() const;
+constexpr System::Reflection::MethodBase __get__method() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "method", ty: "::System::Reflection::MethodBase", modifiers: "", def_value: None }, CppParam { name: "type", ty: "::System::Runtime::Remoting::Messaging::ArgInfoType", modifiers: "", def_value: None }]
-explicit ArgInfo(::System::Reflection::MethodBase method, ::System::Runtime::Remoting::Messaging::ArgInfoType type) ;
+// Ctor Parameters [CppParam { name: "method", ty: "System::Reflection::MethodBase", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Runtime::Remoting::Messaging::ArgInfoType", modifiers: "", def_value: None }]
+explicit ArgInfo(System::Reflection::MethodBase method, System::Runtime::Remoting::Messaging::ArgInfoType type) ;
 
 /// @brief Method .ctor addr 0x233b358 size 0x1b4 virtual false final false
- void _ctor(::System::Reflection::MethodBase method, ::System::Runtime::Remoting::Messaging::ArgInfoType type) ;
+ void _ctor(System::Reflection::MethodBase method, System::Runtime::Remoting::Messaging::ArgInfoType type) ;
 
 /// @brief Method GetInOutArgs addr 0x233b50c size 0x100 virtual false final false
  ::ArrayW<::bs_hook::Il2CppWrapperType> GetInOutArgs(::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
@@ -90,6 +89,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Messaging
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Messaging::ArgInfo);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::ArgInfo, "System.Runtime.Remoting.Messaging", "ArgInfo");
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::ArgInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ArgInfo, "System.Runtime.Remoting.Messaging", "ArgInfo");

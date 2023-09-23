@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace GlobalNamespace {
 class StepValuePicker;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5684))
 // CS Name: IncDecSettingsController
-class CORDL_TYPE IncDecSettingsController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE IncDecSettingsController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr IncDecSettingsController(IncDecSettingsController const& ) noexcept = 
 constexpr IncDecSettingsController(IncDecSettingsController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit IncDecSettingsController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit IncDecSettingsController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -52,11 +51,11 @@ constexpr explicit IncDecSettingsController(void* ptr) noexcept : ::UnityEngine:
 
 // Fields
 
- ::GlobalNamespace::StepValuePicker __declspec(property(get=__get__stepValuePicker, put=__set__stepValuePicker))  _stepValuePicker;
+ GlobalNamespace::StepValuePicker __declspec(property(get=__get__stepValuePicker, put=__set__stepValuePicker))  _stepValuePicker;
 
-constexpr void __set__stepValuePicker(::GlobalNamespace::StepValuePicker value) ;
+constexpr void __set__stepValuePicker(GlobalNamespace::StepValuePicker value) ;
 
-constexpr ::GlobalNamespace::StepValuePicker __get__stepValuePicker() const;
+constexpr GlobalNamespace::StepValuePicker __get__stepValuePicker() const;
 
 
 // Properties
@@ -101,6 +100,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IncDecSettingsController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IncDecSettingsController, "", "IncDecSettingsController");
+NEED_NO_BOX(GlobalNamespace::IncDecSettingsController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IncDecSettingsController, "", "IncDecSettingsController");

@@ -2,13 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-class AudioSource;
-}
 namespace UnityEngine {
 class RectTransform;
 }
@@ -16,7 +9,13 @@ namespace UnityEngine::UI {
 class Image;
 }
 namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
 struct Color;
+}
+namespace UnityEngine {
+class AudioSource;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,7 +27,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5493))
 // CS Name: VisualMetronome
-class CORDL_TYPE VisualMetronome : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE VisualMetronome : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -43,7 +42,7 @@ constexpr VisualMetronome(VisualMetronome const& ) noexcept = default;
 constexpr VisualMetronome(VisualMetronome&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit VisualMetronome(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit VisualMetronome(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -64,11 +63,11 @@ constexpr explicit VisualMetronome(void* ptr) noexcept : ::UnityEngine::MonoBeha
 
 // Fields
 
- ::UnityEngine::AudioSource __declspec(property(get=__get__audioSource, put=__set__audioSource))  _audioSource;
+ UnityEngine::AudioSource __declspec(property(get=__get__audioSource, put=__set__audioSource))  _audioSource;
 
-constexpr void __set__audioSource(::UnityEngine::AudioSource value) ;
+constexpr void __set__audioSource(UnityEngine::AudioSource value) ;
 
-constexpr ::UnityEngine::AudioSource __get__audioSource() const;
+constexpr UnityEngine::AudioSource __get__audioSource() const;
 
  float_t __declspec(property(get=__get__leftPadding, put=__set__leftPadding))  _leftPadding;
 
@@ -82,29 +81,29 @@ constexpr void __set__rightPadding(float_t value) ;
 
 constexpr float_t __get__rightPadding() const;
 
- ::UnityEngine::RectTransform __declspec(property(get=__get__ticker, put=__set__ticker))  _ticker;
+ UnityEngine::RectTransform __declspec(property(get=__get__ticker, put=__set__ticker))  _ticker;
 
-constexpr void __set__ticker(::UnityEngine::RectTransform value) ;
+constexpr void __set__ticker(UnityEngine::RectTransform value) ;
 
-constexpr ::UnityEngine::RectTransform __get__ticker() const;
+constexpr UnityEngine::RectTransform __get__ticker() const;
 
- ::UnityEngine::RectTransform __declspec(property(get=__get__movingTicker, put=__set__movingTicker))  _movingTicker;
+ UnityEngine::RectTransform __declspec(property(get=__get__movingTicker, put=__set__movingTicker))  _movingTicker;
 
-constexpr void __set__movingTicker(::UnityEngine::RectTransform value) ;
+constexpr void __set__movingTicker(UnityEngine::RectTransform value) ;
 
-constexpr ::UnityEngine::RectTransform __get__movingTicker() const;
+constexpr UnityEngine::RectTransform __get__movingTicker() const;
 
- ::UnityEngine::UI::Image __declspec(property(get=__get__tickerImage, put=__set__tickerImage))  _tickerImage;
+ UnityEngine::UI::Image __declspec(property(get=__get__tickerImage, put=__set__tickerImage))  _tickerImage;
 
-constexpr void __set__tickerImage(::UnityEngine::UI::Image value) ;
+constexpr void __set__tickerImage(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get__tickerImage() const;
+constexpr UnityEngine::UI::Image __get__tickerImage() const;
 
- ::UnityEngine::UI::Image __declspec(property(get=__get__movingTickerImage, put=__set__movingTickerImage))  _movingTickerImage;
+ UnityEngine::UI::Image __declspec(property(get=__get__movingTickerImage, put=__set__movingTickerImage))  _movingTickerImage;
 
-constexpr void __set__movingTickerImage(::UnityEngine::UI::Image value) ;
+constexpr void __set__movingTickerImage(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get__movingTickerImage() const;
+constexpr UnityEngine::UI::Image __get__movingTickerImage() const;
 
  float_t __declspec(property(get=__get__metronomeInterval, put=__set__metronomeInterval))  _metronomeInterval;
 
@@ -112,23 +111,23 @@ constexpr void __set__metronomeInterval(float_t value) ;
 
 constexpr float_t __get__metronomeInterval() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get__normalTickerSize, put=__set__normalTickerSize))  _normalTickerSize;
+ UnityEngine::Vector2 __declspec(property(get=__get__normalTickerSize, put=__set__normalTickerSize))  _normalTickerSize;
 
-constexpr void __set__normalTickerSize(::UnityEngine::Vector2 value) ;
+constexpr void __set__normalTickerSize(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get__normalTickerSize() const;
+constexpr UnityEngine::Vector2 __get__normalTickerSize() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get__tickTickerSize0, put=__set__tickTickerSize0))  _tickTickerSize0;
+ UnityEngine::Vector2 __declspec(property(get=__get__tickTickerSize0, put=__set__tickTickerSize0))  _tickTickerSize0;
 
-constexpr void __set__tickTickerSize0(::UnityEngine::Vector2 value) ;
+constexpr void __set__tickTickerSize0(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get__tickTickerSize0() const;
+constexpr UnityEngine::Vector2 __get__tickTickerSize0() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get__tickTickerSize1, put=__set__tickTickerSize1))  _tickTickerSize1;
+ UnityEngine::Vector2 __declspec(property(get=__get__tickTickerSize1, put=__set__tickTickerSize1))  _tickTickerSize1;
 
-constexpr void __set__tickTickerSize1(::UnityEngine::Vector2 value) ;
+constexpr void __set__tickTickerSize1(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get__tickTickerSize1() const;
+constexpr UnityEngine::Vector2 __get__tickTickerSize1() const;
 
  float_t __declspec(property(get=__get__smooth, put=__set__smooth))  _smooth;
 
@@ -163,9 +162,9 @@ constexpr bool __get__dontTickThisFrame() const;
 
 // Properties
 
- ::UnityEngine::Color __declspec(property(put=set_tickerColor))  tickerColor;
+ UnityEngine::Color __declspec(property(put=set_tickerColor))  tickerColor;
 
- ::UnityEngine::Color __declspec(property(put=set_movingTickerColor))  movingTickerColor;
+ UnityEngine::Color __declspec(property(put=set_movingTickerColor))  movingTickerColor;
 
  float_t __declspec(property(get=get_zeroOffset, put=set_zeroOffset))  zeroOffset;
 
@@ -173,10 +172,10 @@ constexpr bool __get__dontTickThisFrame() const;
 // Methods
 
 /// @brief Method set_tickerColor addr 0x211c72c size 0x24 virtual false final false
- void set_tickerColor(::UnityEngine::Color value) ;
+ void set_tickerColor(UnityEngine::Color value) ;
 
 /// @brief Method set_movingTickerColor addr 0x211c750 size 0x24 virtual false final false
- void set_movingTickerColor(::UnityEngine::Color value) ;
+ void set_movingTickerColor(UnityEngine::Color value) ;
 
 /// @brief Method set_zeroOffset addr 0x211c774 size 0x10 virtual false final false
  void set_zeroOffset(float_t value) ;
@@ -209,6 +208,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::VisualMetronome);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::VisualMetronome, "", "VisualMetronome");
+NEED_NO_BOX(GlobalNamespace::VisualMetronome);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VisualMetronome, "", "VisualMetronome");

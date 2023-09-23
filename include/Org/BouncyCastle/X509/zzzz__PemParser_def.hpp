@@ -2,12 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {
@@ -89,15 +88,14 @@ explicit PemParser(::StringW type) ;
  void _ctor(::StringW type) ;
 
 /// @brief Method ReadLine addr 0x10e99f4 size 0xd0 virtual false final false
- ::StringW ReadLine(::System::IO::Stream inStream) ;
+ ::StringW ReadLine(System::IO::Stream inStream) ;
 
 /// @brief Method ReadPemObject addr 0x10e9ac4 size 0x1214 virtual false final false
- ::Org::BouncyCastle::Asn1::Asn1Sequence ReadPemObject(::System::IO::Stream inStream) ;
+ Org::BouncyCastle::Asn1::Asn1Sequence ReadPemObject(System::IO::Stream inStream) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::X509
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::X509::PemParser);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::X509::PemParser, "Org.BouncyCastle.X509", "PemParser");
+NEED_NO_BOX(Org::BouncyCastle::X509::PemParser);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::PemParser, "Org.BouncyCastle.X509", "PemParser");

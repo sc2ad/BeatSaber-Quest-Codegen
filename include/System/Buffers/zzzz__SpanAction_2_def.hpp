@@ -3,7 +3,6 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 struct Span_1;
@@ -30,24 +29,24 @@ template<typename T,typename TArg>
 class SpanAction_2;
 }
 namespace System::Buffers {
-template<::cordl_internals::il2cpp_reference_type T,::cordl_internals::il2cpp_reference_type TArg>
-class SpanAction_2<T,TArg>;
-}
-namespace System::Buffers {
 template<::cordl_internals::il2cpp_reference_type TArg>
 class SpanAction_2<char16_t,TArg>;
 }
 namespace System::Buffers {
-template<>
-class SpanAction_2<char16_t,::System::ValueTuple_3<::bs_hook::Il2CppWrapperType,int32_t,int32_t>>;
+template<::cordl_internals::il2cpp_reference_type T,::cordl_internals::il2cpp_reference_type TArg>
+class SpanAction_2<T,TArg>;
 }
 namespace System::Buffers {
 template<>
-class SpanAction_2<char16_t,::System::ValueTuple_5<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool>>;
+class SpanAction_2<char16_t,System::ValueTuple_3<::bs_hook::Il2CppWrapperType,int32_t,int32_t>>;
 }
 namespace System::Buffers {
 template<>
-class SpanAction_2<char16_t,::System::ValueTuple_8<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool,::System::ValueTuple_1<bool>>>;
+class SpanAction_2<char16_t,System::ValueTuple_5<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool>>;
+}
+namespace System::Buffers {
+template<>
+class SpanAction_2<char16_t,System::ValueTuple_8<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool,System::ValueTuple_1<bool>>>;
 }
 // Type: System.Buffers::SpanAction`2
 // Type: System.Buffers::SpanAction`2
@@ -58,7 +57,7 @@ template<::cordl_internals::il2cpp_reference_type T,::cordl_internals::il2cpp_re
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3864)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3864), inst: 80 })
 // CS Name: System.Buffers.SpanAction`2
-class CORDL_TYPE SpanAction_2<T,TArg> : public ::System::MulticastDelegate {
+class CORDL_TYPE SpanAction_2<T,TArg> : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -73,7 +72,7 @@ constexpr SpanAction_2(SpanAction_2 const& ) noexcept = default;
 constexpr SpanAction_2(SpanAction_2&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SpanAction_2(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit SpanAction_2(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -101,7 +100,7 @@ explicit SpanAction_2(::bs_hook::Il2CppWrapperType object, ::cordl_internals::in
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
- void Invoke(::System::Span_1<T> span, TArg arg) ;
+ void Invoke(System::Span_1<T> span, TArg arg) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -115,7 +114,7 @@ template<::cordl_internals::il2cpp_reference_type TArg>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610)), TypeDefinitionIndex(TypeDefinitionIndex(3864))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3864), inst: 1526 })
 // CS Name: System.Buffers.SpanAction`2
-class CORDL_TYPE SpanAction_2<char16_t,TArg> : public ::System::MulticastDelegate {
+class CORDL_TYPE SpanAction_2<char16_t,TArg> : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -130,7 +129,7 @@ constexpr SpanAction_2(SpanAction_2 const& ) noexcept = default;
 constexpr SpanAction_2(SpanAction_2&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SpanAction_2(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit SpanAction_2(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -158,7 +157,7 @@ explicit SpanAction_2(::bs_hook::Il2CppWrapperType object, ::cordl_internals::in
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
- void Invoke(::System::Span_1<char16_t> span, TArg arg) ;
+ void Invoke(System::Span_1<char16_t> span, TArg arg) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -172,7 +171,7 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610)), TypeDefinitionIndex(TypeDefinitionIndex(3864))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3864), inst: 4832 })
 // CS Name: System.Buffers.SpanAction`2
-class CORDL_TYPE SpanAction_2<char16_t,::System::ValueTuple_5<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool>> : public ::System::MulticastDelegate {
+class CORDL_TYPE SpanAction_2<char16_t,System::ValueTuple_5<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool>> : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -187,7 +186,7 @@ constexpr SpanAction_2(SpanAction_2 const& ) noexcept = default;
 constexpr SpanAction_2(SpanAction_2&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SpanAction_2(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit SpanAction_2(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -215,7 +214,7 @@ explicit SpanAction_2(::bs_hook::Il2CppWrapperType object, ::cordl_internals::in
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
- void Invoke(::System::Span_1<char16_t> span, ::System::ValueTuple_5<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool> arg) ;
+ void Invoke(System::Span_1<char16_t> span, System::ValueTuple_5<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool> arg) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -229,7 +228,7 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3864)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3864), inst: 4833 })
 // CS Name: System.Buffers.SpanAction`2
-class CORDL_TYPE SpanAction_2<char16_t,::System::ValueTuple_8<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool,::System::ValueTuple_1<bool>>> : public ::System::MulticastDelegate {
+class CORDL_TYPE SpanAction_2<char16_t,System::ValueTuple_8<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool,System::ValueTuple_1<bool>>> : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -244,7 +243,7 @@ constexpr SpanAction_2(SpanAction_2 const& ) noexcept = default;
 constexpr SpanAction_2(SpanAction_2&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SpanAction_2(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit SpanAction_2(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -272,7 +271,7 @@ explicit SpanAction_2(::bs_hook::Il2CppWrapperType object, ::cordl_internals::in
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
- void Invoke(::System::Span_1<char16_t> span, ::System::ValueTuple_8<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool,::System::ValueTuple_1<bool>> arg) ;
+ void Invoke(System::Span_1<char16_t> span, System::ValueTuple_8<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool,System::ValueTuple_1<bool>> arg) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -283,10 +282,10 @@ namespace System::Buffers {
 // cpp template
 template<>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610)), TypeDefinitionIndex(TypeDefinitionIndex(3864))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3864)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3864), inst: 7502 })
 // CS Name: System.Buffers.SpanAction`2
-class CORDL_TYPE SpanAction_2<char16_t,::System::ValueTuple_3<::bs_hook::Il2CppWrapperType,int32_t,int32_t>> : public ::System::MulticastDelegate {
+class CORDL_TYPE SpanAction_2<char16_t,System::ValueTuple_3<::bs_hook::Il2CppWrapperType,int32_t,int32_t>> : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -301,7 +300,7 @@ constexpr SpanAction_2(SpanAction_2 const& ) noexcept = default;
 constexpr SpanAction_2(SpanAction_2&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SpanAction_2(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit SpanAction_2(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -329,11 +328,10 @@ explicit SpanAction_2(::bs_hook::Il2CppWrapperType object, ::cordl_internals::in
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
- void Invoke(::System::Span_1<char16_t> span, ::System::ValueTuple_3<::bs_hook::Il2CppWrapperType,int32_t,int32_t> arg) ;
+ void Invoke(System::Span_1<char16_t> span, System::ValueTuple_3<::bs_hook::Il2CppWrapperType,int32_t,int32_t> arg) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Buffers
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Buffers::SpanAction_2, "System.Buffers", "SpanAction`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Buffers::SpanAction_2, "System.Buffers", "SpanAction`2");

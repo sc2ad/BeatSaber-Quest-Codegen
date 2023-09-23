@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Runtime::Remoting::Activation {
 class IActivator;
 }
@@ -25,8 +24,8 @@ namespace System::Runtime::Remoting::Activation {
 class CORDL_TYPE AppDomainLevelActivator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::Remoting::Activation::IActivator
-constexpr operator  ::System::Runtime::Remoting::Activation::IActivator() const noexcept;
+/// @brief Convert operator to System::Runtime::Remoting::Activation::IActivator
+constexpr operator  System::Runtime::Remoting::Activation::IActivator() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -67,36 +66,35 @@ constexpr void __set__activationUrl(::StringW value) ;
 
 constexpr ::StringW __get__activationUrl() const;
 
- ::System::Runtime::Remoting::Activation::IActivator __declspec(property(get=__get__next, put=__set__next))  _next;
+ System::Runtime::Remoting::Activation::IActivator __declspec(property(get=__get__next, put=__set__next))  _next;
 
-constexpr void __set__next(::System::Runtime::Remoting::Activation::IActivator value) ;
+constexpr void __set__next(System::Runtime::Remoting::Activation::IActivator value) ;
 
-constexpr ::System::Runtime::Remoting::Activation::IActivator __get__next() const;
+constexpr System::Runtime::Remoting::Activation::IActivator __get__next() const;
 
 
 // Properties
 
- ::System::Runtime::Remoting::Activation::IActivator __declspec(property(get=get_NextActivator))  NextActivator;
+ System::Runtime::Remoting::Activation::IActivator __declspec(property(get=get_NextActivator))  NextActivator;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "activationUrl", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "next", ty: "::System::Runtime::Remoting::Activation::IActivator", modifiers: "", def_value: None }]
-explicit AppDomainLevelActivator(::StringW activationUrl, ::System::Runtime::Remoting::Activation::IActivator next) ;
+// Ctor Parameters [CppParam { name: "activationUrl", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "next", ty: "System::Runtime::Remoting::Activation::IActivator", modifiers: "", def_value: None }]
+explicit AppDomainLevelActivator(::StringW activationUrl, System::Runtime::Remoting::Activation::IActivator next) ;
 
 /// @brief Method .ctor addr 0x23382c0 size 0x2c virtual false final false
- void _ctor(::StringW activationUrl, ::System::Runtime::Remoting::Activation::IActivator next) ;
+ void _ctor(::StringW activationUrl, System::Runtime::Remoting::Activation::IActivator next) ;
 
 /// @brief Method get_NextActivator addr 0x2338860 size 0x8 virtual true final true
- ::System::Runtime::Remoting::Activation::IActivator get_NextActivator() ;
+ System::Runtime::Remoting::Activation::IActivator get_NextActivator() ;
 
 /// @brief Method Activate addr 0x2338868 size 0x4dc virtual true final true
- ::System::Runtime::Remoting::Activation::IConstructionReturnMessage Activate(::System::Runtime::Remoting::Activation::IConstructionCallMessage ctorCall) ;
+ System::Runtime::Remoting::Activation::IConstructionReturnMessage Activate(System::Runtime::Remoting::Activation::IConstructionCallMessage ctorCall) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Activation
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Activation::AppDomainLevelActivator);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Activation::AppDomainLevelActivator, "System.Runtime.Remoting.Activation", "AppDomainLevelActivator");
+NEED_NO_BOX(System::Runtime::Remoting::Activation::AppDomainLevelActivator);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Activation::AppDomainLevelActivator, "System.Runtime.Remoting.Activation", "AppDomainLevelActivator");

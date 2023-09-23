@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 struct AlternatingRowBackground;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::UIElements::AlternatingRowBackground const None;
+static UnityEngine::UIElements::AlternatingRowBackground const None;
 
 /// @brief Field ContentOnly offset 0
-static ::UnityEngine::UIElements::AlternatingRowBackground const ContentOnly;
+static UnityEngine::UIElements::AlternatingRowBackground const ContentOnly;
 
 /// @brief Field All offset 0
-static ::UnityEngine::UIElements::AlternatingRowBackground const All;
+static UnityEngine::UIElements::AlternatingRowBackground const All;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::AlternatingRowBackground, "UnityEngine.UIElements", "AlternatingRowBackground");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::AlternatingRowBackground, "UnityEngine.UIElements", "AlternatingRowBackground");

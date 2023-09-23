@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 struct NoteLineLayer;
 }
@@ -65,11 +64,11 @@ constexpr void __set__lineIndex_k__BackingField(int32_t value) ;
 
 constexpr int32_t __get__lineIndex_k__BackingField() const;
 
- ::GlobalNamespace::NoteLineLayer __declspec(property(get=__get__lineLayer_k__BackingField, put=__set__lineLayer_k__BackingField))  _lineLayer_k__BackingField;
+ GlobalNamespace::NoteLineLayer __declspec(property(get=__get__lineLayer_k__BackingField, put=__set__lineLayer_k__BackingField))  _lineLayer_k__BackingField;
 
-constexpr void __set__lineLayer_k__BackingField(::GlobalNamespace::NoteLineLayer value) ;
+constexpr void __set__lineLayer_k__BackingField(GlobalNamespace::NoteLineLayer value) ;
 
-constexpr ::GlobalNamespace::NoteLineLayer __get__lineLayer_k__BackingField() const;
+constexpr GlobalNamespace::NoteLineLayer __get__lineLayer_k__BackingField() const;
 
  float_t __declspec(property(get=__get__duration_k__BackingField, put=__set__duration_k__BackingField))  _duration_k__BackingField;
 
@@ -90,7 +89,7 @@ constexpr int32_t __get__width_k__BackingField() const;
 
  int32_t __declspec(property(get=get_lineIndex, put=set_lineIndex))  lineIndex;
 
- ::GlobalNamespace::NoteLineLayer __declspec(property(get=get_lineLayer, put=set_lineLayer))  lineLayer;
+ GlobalNamespace::NoteLineLayer __declspec(property(get=get_lineLayer, put=set_lineLayer))  lineLayer;
 
  float_t __declspec(property(get=get_duration, put=set_duration))  duration;
 
@@ -112,10 +111,10 @@ constexpr int32_t __get__width_k__BackingField() const;
  void set_lineIndex(int32_t value) ;
 
 /// @brief Method get_lineLayer addr 0x2279734 size 0x8 virtual false final false
- ::GlobalNamespace::NoteLineLayer get_lineLayer() ;
+ GlobalNamespace::NoteLineLayer get_lineLayer() ;
 
 /// @brief Method set_lineLayer addr 0x227973c size 0x8 virtual false final false
- void set_lineLayer(::GlobalNamespace::NoteLineLayer value) ;
+ void set_lineLayer(GlobalNamespace::NoteLineLayer value) ;
 
 /// @brief Method get_duration addr 0x2279744 size 0x8 virtual false final false
  float_t get_duration() ;
@@ -139,6 +138,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MockObstacleData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MockObstacleData, "", "MockObstacleData");
+NEED_NO_BOX(GlobalNamespace::MockObstacleData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockObstacleData, "", "MockObstacleData");

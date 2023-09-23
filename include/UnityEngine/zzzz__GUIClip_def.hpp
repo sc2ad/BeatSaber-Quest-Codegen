@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Rect;
 }
@@ -19,7 +18,7 @@ namespace UnityEngine {
 class GUIClip;
 }
 namespace UnityEngine {
-struct ____UnityEngine__GUIClip__ParentClipScope;
+struct UnityEngine__GUIClip__ParentClipScope;
 }
 // Type: ::ParentClipScope
 namespace UnityEngine {
@@ -27,23 +26,23 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14759))
 // CS Name: UnityEngine.GUIClip::ParentClipScope
-struct CORDL_TYPE ____UnityEngine__GUIClip__ParentClipScope : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__GUIClip__ParentClipScope : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const;
 
 // Ctor Parameters [CppParam { name: "m_Disposed", ty: "bool", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__GUIClip__ParentClipScope(bool m_Disposed) noexcept;
+constexpr UnityEngine__GUIClip__ParentClipScope(bool m_Disposed) noexcept;
 
 
-                    constexpr ____UnityEngine__GUIClip__ParentClipScope(____UnityEngine__GUIClip__ParentClipScope const&) = default;
-                    constexpr ____UnityEngine__GUIClip__ParentClipScope(____UnityEngine__GUIClip__ParentClipScope&&) = default;
-                    constexpr ____UnityEngine__GUIClip__ParentClipScope& operator=(____UnityEngine__GUIClip__ParentClipScope const& o) {
+                    constexpr UnityEngine__GUIClip__ParentClipScope(UnityEngine__GUIClip__ParentClipScope const&) = default;
+                    constexpr UnityEngine__GUIClip__ParentClipScope(UnityEngine__GUIClip__ParentClipScope&&) = default;
+                    constexpr UnityEngine__GUIClip__ParentClipScope& operator=(UnityEngine__GUIClip__ParentClipScope const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__GUIClip__ParentClipScope& operator=(____UnityEngine__GUIClip__ParentClipScope&& o) noexcept {
+                    constexpr UnityEngine__GUIClip__ParentClipScope& operator=(UnityEngine__GUIClip__ParentClipScope&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -56,7 +55,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x1};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__GUIClip__ParentClipScope(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__GUIClip__ParentClipScope(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -77,7 +76,7 @@ constexpr bool __get_m_Disposed() const;
 // Methods
 
 /// @brief Method .ctor addr 0x2b8626c size 0x54 virtual false final false
- void _ctor(::UnityEngine::Matrix4x4 objectTransform, ::UnityEngine::Rect clipRect) ;
+ void _ctor(UnityEngine::Matrix4x4 objectTransform, UnityEngine::Rect clipRect) ;
 
 /// @brief Method Dispose addr 0x2b862c0 size 0x40 virtual true final true
  void Dispose() ;
@@ -95,7 +94,7 @@ namespace UnityEngine {
 class CORDL_TYPE GUIClip : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using ParentClipScope = ::UnityEngine::____UnityEngine__GUIClip__ParentClipScope;
+using ParentClipScope = UnityEngine::UnityEngine__GUIClip__ParentClipScope;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -130,13 +129,13 @@ constexpr explicit GUIClip(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(pt
 
 // Properties
 
-static ::UnityEngine::Rect __declspec(property(get=get_visibleRect))  visibleRect;
+static UnityEngine::Rect __declspec(property(get=get_visibleRect))  visibleRect;
 
 
 // Methods
 
 /// @brief Method get_visibleRect addr 0x2b84f7c size 0x48 virtual false final false
-static ::UnityEngine::Rect get_visibleRect() ;
+static UnityEngine::Rect get_visibleRect() ;
 
 /// @brief Method Internal_Pop addr 0x2b8608c size 0x28 virtual false final false
 static void Internal_Pop() ;
@@ -145,37 +144,36 @@ static void Internal_Pop() ;
 static int32_t Internal_GetCount() ;
 
 /// @brief Method GetMatrix addr 0x2b846cc size 0x64 virtual false final false
-static ::UnityEngine::Matrix4x4 GetMatrix() ;
+static UnityEngine::Matrix4x4 GetMatrix() ;
 
 /// @brief Method SetMatrix addr 0x2b8477c size 0x3c virtual false final false
-static void SetMatrix(::UnityEngine::Matrix4x4 m) ;
+static void SetMatrix(UnityEngine::Matrix4x4 m) ;
 
 /// @brief Method Internal_PushParentClip addr 0x2b86154 size 0x40 virtual false final false
-static void Internal_PushParentClip(::UnityEngine::Matrix4x4 objectTransform, ::UnityEngine::Rect clipRect) ;
+static void Internal_PushParentClip(UnityEngine::Matrix4x4 objectTransform, UnityEngine::Rect clipRect) ;
 
 /// @brief Method Internal_PushParentClip addr 0x2b86194 size 0x5c virtual false final false
-static void Internal_PushParentClip(::UnityEngine::Matrix4x4 renderTransform, ::UnityEngine::Matrix4x4 inputTransform, ::UnityEngine::Rect clipRect) ;
+static void Internal_PushParentClip(UnityEngine::Matrix4x4 renderTransform, UnityEngine::Matrix4x4 inputTransform, UnityEngine::Rect clipRect) ;
 
 /// @brief Method Internal_PopParentClip addr 0x2b86244 size 0x28 virtual false final false
 static void Internal_PopParentClip() ;
 
 /// @brief Method get_visibleRect_Injected addr 0x2b86050 size 0x3c virtual false final false
-static void get_visibleRect_Injected(ByRef<::UnityEngine::Rect> ret) ;
+static void get_visibleRect_Injected(ByRef<UnityEngine::Rect> ret) ;
 
 /// @brief Method GetMatrix_Injected addr 0x2b860dc size 0x3c virtual false final false
-static void GetMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> ret) ;
+static void GetMatrix_Injected(ByRef<UnityEngine::Matrix4x4> ret) ;
 
 /// @brief Method SetMatrix_Injected addr 0x2b86118 size 0x3c virtual false final false
-static void SetMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> m) ;
+static void SetMatrix_Injected(ByRef<UnityEngine::Matrix4x4> m) ;
 
 /// @brief Method Internal_PushParentClip_Injected addr 0x2b861f0 size 0x54 virtual false final false
-static void Internal_PushParentClip_Injected(ByRef<::UnityEngine::Matrix4x4> renderTransform, ByRef<::UnityEngine::Matrix4x4> inputTransform, ByRef<::UnityEngine::Rect> clipRect) ;
+static void Internal_PushParentClip_Injected(ByRef<UnityEngine::Matrix4x4> renderTransform, ByRef<UnityEngine::Matrix4x4> inputTransform, ByRef<UnityEngine::Rect> clipRect) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::GUIClip);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::GUIClip, "UnityEngine", "GUIClip");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::____UnityEngine__GUIClip__ParentClipScope, "UnityEngine", "GUIClip/ParentClipScope");
+NEED_NO_BOX(UnityEngine::GUIClip);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIClip, "UnityEngine", "GUIClip");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnityEngine__GUIClip__ParentClipScope, "UnityEngine", "GUIClip/ParentClipScope");

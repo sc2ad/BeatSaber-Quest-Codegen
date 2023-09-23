@@ -4,34 +4,33 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System {
 class Attribute;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class Hashtable;
-}
-namespace System::Collections {
 class ICollection;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
 class Type;
 }
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System {
 class Array;
+}
+namespace System::Collections {
+class Hashtable;
 }
 // Forward declare root types
 namespace System::ComponentModel {
 class AttributeCollection;
 }
 namespace System::ComponentModel {
-struct ____System__ComponentModel__AttributeCollection__AttributeEntry;
+struct System__ComponentModel__AttributeCollection__AttributeEntry;
 }
 // Type: ::AttributeEntry
 namespace System::ComponentModel {
@@ -39,20 +38,20 @@ namespace System::ComponentModel {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8255))
 // CS Name: System.ComponentModel.AttributeCollection::AttributeEntry
-struct CORDL_TYPE ____System__ComponentModel__AttributeCollection__AttributeEntry : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE System__ComponentModel__AttributeCollection__AttributeEntry : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "type", ty: "::System::Type", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____System__ComponentModel__AttributeCollection__AttributeEntry(::System::Type type, int32_t index) noexcept;
+// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr System__ComponentModel__AttributeCollection__AttributeEntry(System::Type type, int32_t index) noexcept;
 
 
-                    constexpr ____System__ComponentModel__AttributeCollection__AttributeEntry(____System__ComponentModel__AttributeCollection__AttributeEntry const&) = default;
-                    constexpr ____System__ComponentModel__AttributeCollection__AttributeEntry(____System__ComponentModel__AttributeCollection__AttributeEntry&&) = default;
-                    constexpr ____System__ComponentModel__AttributeCollection__AttributeEntry& operator=(____System__ComponentModel__AttributeCollection__AttributeEntry const& o) {
+                    constexpr System__ComponentModel__AttributeCollection__AttributeEntry(System__ComponentModel__AttributeCollection__AttributeEntry const&) = default;
+                    constexpr System__ComponentModel__AttributeCollection__AttributeEntry(System__ComponentModel__AttributeCollection__AttributeEntry&&) = default;
+                    constexpr System__ComponentModel__AttributeCollection__AttributeEntry& operator=(System__ComponentModel__AttributeCollection__AttributeEntry const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__ComponentModel__AttributeCollection__AttributeEntry& operator=(____System__ComponentModel__AttributeCollection__AttributeEntry&& o) noexcept {
+                    constexpr System__ComponentModel__AttributeCollection__AttributeEntry& operator=(System__ComponentModel__AttributeCollection__AttributeEntry&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -65,7 +64,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x10};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__ComponentModel__AttributeCollection__AttributeEntry(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__ComponentModel__AttributeCollection__AttributeEntry(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -76,11 +75,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::Type __declspec(property(get=__get_type, put=__set_type))  type;
+ System::Type __declspec(property(get=__get_type, put=__set_type))  type;
 
-constexpr void __set_type(::System::Type value) ;
+constexpr void __set_type(System::Type value) ;
 
-constexpr ::System::Type __get_type() const;
+constexpr System::Type __get_type() const;
 
  int32_t __declspec(property(get=__get_index, put=__set_index))  index;
 
@@ -101,13 +100,13 @@ namespace System::ComponentModel {
 class CORDL_TYPE AttributeCollection : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using AttributeEntry = ::System::ComponentModel::____System__ComponentModel__AttributeCollection__AttributeEntry;
+using AttributeEntry = System::ComponentModel::System__ComponentModel__AttributeCollection__AttributeEntry;
 
-/// @brief Convert operator to ::System::Collections::ICollection
-constexpr operator  ::System::Collections::ICollection() const noexcept;
+/// @brief Convert operator to System::Collections::ICollection
+constexpr operator  System::Collections::ICollection() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -142,23 +141,23 @@ constexpr explicit AttributeCollection(void* ptr) noexcept : ::bs_hook::Il2CppWr
 
 // Fields
 
-static ::System::ComponentModel::AttributeCollection __declspec(property(get=__get_Empty, put=__set_Empty))  Empty;
+static System::ComponentModel::AttributeCollection __declspec(property(get=__get_Empty, put=__set_Empty))  Empty;
 
-static void __set_Empty(::System::ComponentModel::AttributeCollection value) ;
+static void __set_Empty(System::ComponentModel::AttributeCollection value) ;
 
-static ::System::ComponentModel::AttributeCollection __get_Empty() ;
+static System::ComponentModel::AttributeCollection __get_Empty() ;
 
-static ::System::Collections::Hashtable __declspec(property(get=__get_s_defaultAttributes, put=__set_s_defaultAttributes))  s_defaultAttributes;
+static System::Collections::Hashtable __declspec(property(get=__get_s_defaultAttributes, put=__set_s_defaultAttributes))  s_defaultAttributes;
 
-static void __set_s_defaultAttributes(::System::Collections::Hashtable value) ;
+static void __set_s_defaultAttributes(System::Collections::Hashtable value) ;
 
-static ::System::Collections::Hashtable __get_s_defaultAttributes() ;
+static System::Collections::Hashtable __get_s_defaultAttributes() ;
 
- ::ArrayW<::System::Attribute> __declspec(property(get=__get__attributes, put=__set__attributes))  _attributes;
+ ::ArrayW<System::Attribute> __declspec(property(get=__get__attributes, put=__set__attributes))  _attributes;
 
-constexpr void __set__attributes(::ArrayW<::System::Attribute> value) ;
+constexpr void __set__attributes(::ArrayW<System::Attribute> value) ;
 
-constexpr ::ArrayW<::System::Attribute> __get__attributes() const;
+constexpr ::ArrayW<System::Attribute> __get__attributes() const;
 
 static ::bs_hook::Il2CppWrapperType __declspec(property(get=__get_s_internalSyncObject, put=__set_s_internalSyncObject))  s_internalSyncObject;
 
@@ -166,11 +165,11 @@ static void __set_s_internalSyncObject(::bs_hook::Il2CppWrapperType value) ;
 
 static ::bs_hook::Il2CppWrapperType __get_s_internalSyncObject() ;
 
- ::ArrayW<::System::ComponentModel::____System__ComponentModel__AttributeCollection__AttributeEntry> __declspec(property(get=__get__foundAttributeTypes, put=__set__foundAttributeTypes))  _foundAttributeTypes;
+ ::ArrayW<System::ComponentModel::System__ComponentModel__AttributeCollection__AttributeEntry> __declspec(property(get=__get__foundAttributeTypes, put=__set__foundAttributeTypes))  _foundAttributeTypes;
 
-constexpr void __set__foundAttributeTypes(::ArrayW<::System::ComponentModel::____System__ComponentModel__AttributeCollection__AttributeEntry> value) ;
+constexpr void __set__foundAttributeTypes(::ArrayW<System::ComponentModel::System__ComponentModel__AttributeCollection__AttributeEntry> value) ;
 
-constexpr ::ArrayW<::System::ComponentModel::____System__ComponentModel__AttributeCollection__AttributeEntry> __get__foundAttributeTypes() const;
+constexpr ::ArrayW<System::ComponentModel::System__ComponentModel__AttributeCollection__AttributeEntry> __get__foundAttributeTypes() const;
 
  int32_t __declspec(property(get=__get__index, put=__set__index))  _index;
 
@@ -181,11 +180,11 @@ constexpr int32_t __get__index() const;
 
 // Properties
 
- ::ArrayW<::System::Attribute> __declspec(property(get=get_Attributes))  Attributes;
+ ::ArrayW<System::Attribute> __declspec(property(get=get_Attributes))  Attributes;
 
  int32_t __declspec(property(get=get_Count))  Count;
 
- ::System::Attribute __declspec(property(get=get_Item))  Item;
+ System::Attribute __declspec(property(get=get_Item))  Item;
 
  bool __declspec(property(get=System_Collections_ICollection_get_IsSynchronized))  System_Collections_ICollection_IsSynchronized;
 
@@ -196,29 +195,29 @@ constexpr int32_t __get__index() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "attributes", ty: "::ArrayW<::System::Attribute>", modifiers: "", def_value: None }]
-explicit AttributeCollection(::ArrayW<::System::Attribute> attributes) ;
+// Ctor Parameters [CppParam { name: "attributes", ty: "::ArrayW<System::Attribute>", modifiers: "", def_value: None }]
+explicit AttributeCollection(::ArrayW<System::Attribute> attributes) ;
 
 /// @brief Method .ctor addr 0x2772f08 size 0x124 virtual false final false
- void _ctor(::ArrayW<::System::Attribute> attributes) ;
+ void _ctor(::ArrayW<System::Attribute> attributes) ;
 
 /// @brief Method get_Attributes addr 0x277302c size 0x8 virtual true final false
- ::ArrayW<::System::Attribute> get_Attributes() ;
+ ::ArrayW<System::Attribute> get_Attributes() ;
 
 /// @brief Method get_Count addr 0x2773034 size 0x24 virtual false final false
  int32_t get_Count() ;
 
 /// @brief Method get_Item addr 0x2773058 size 0x4d8 virtual true final false
- ::System::Attribute get_Item(::System::Type attributeType) ;
+ System::Attribute get_Item(System::Type attributeType) ;
 
 /// @brief Method Contains addr 0x2773a80 size 0x60 virtual false final false
- bool Contains(::System::Attribute attribute) ;
+ bool Contains(System::Attribute attribute) ;
 
 /// @brief Method GetDefaultAttribute addr 0x2773530 size 0x550 virtual false final false
- ::System::Attribute GetDefaultAttribute(::System::Type attributeType) ;
+ System::Attribute GetDefaultAttribute(System::Type attributeType) ;
 
 /// @brief Method GetEnumerator addr 0x2773ae0 size 0x24 virtual false final false
- ::System::Collections::IEnumerator GetEnumerator() ;
+ System::Collections::IEnumerator GetEnumerator() ;
 
 /// @brief Method System.Collections.ICollection.get_IsSynchronized addr 0x2773b04 size 0x8 virtual true final true
  bool System_Collections_ICollection_get_IsSynchronized() ;
@@ -230,16 +229,15 @@ explicit AttributeCollection(::ArrayW<::System::Attribute> attributes) ;
  int32_t System_Collections_ICollection_get_Count() ;
 
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x2773b38 size 0x4 virtual true final true
- ::System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
+ System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
 /// @brief Method CopyTo addr 0x2773b3c size 0x6c virtual true final true
- void CopyTo(::System::Array array, int32_t index) ;
+ void CopyTo(System::Array array, int32_t index) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::AttributeCollection);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::AttributeCollection, "System.ComponentModel", "AttributeCollection");
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::____System__ComponentModel__AttributeCollection__AttributeEntry, "System.ComponentModel", "AttributeCollection/AttributeEntry");
+NEED_NO_BOX(System::ComponentModel::AttributeCollection);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::AttributeCollection, "System.ComponentModel", "AttributeCollection");
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::System__ComponentModel__AttributeCollection__AttributeEntry, "System.ComponentModel", "AttributeCollection/AttributeEntry");

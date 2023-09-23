@@ -3,15 +3,14 @@
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__UnmodifiableList_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class Array;
 }
 namespace System::Collections {
-class IList;
+class IEnumerator;
 }
 namespace System::Collections {
-class IEnumerator;
+class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Collections {
@@ -23,7 +22,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1787))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1788))
 // CS Name: Org.BouncyCastle.Utilities.Collections.UnmodifiableListProxy
-class CORDL_TYPE UnmodifiableListProxy : public ::Org::BouncyCastle::Utilities::Collections::UnmodifiableList {
+class CORDL_TYPE UnmodifiableListProxy : public Org::BouncyCastle::Utilities::Collections::UnmodifiableList {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr UnmodifiableListProxy(UnmodifiableListProxy const& ) noexcept = defaul
 constexpr UnmodifiableListProxy(UnmodifiableListProxy&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UnmodifiableListProxy(void* ptr) noexcept : ::Org::BouncyCastle::Utilities::Collections::UnmodifiableList(ptr) {
+constexpr explicit UnmodifiableListProxy(void* ptr) noexcept : Org::BouncyCastle::Utilities::Collections::UnmodifiableList(ptr) {
 }
 
 
@@ -59,11 +58,11 @@ constexpr explicit UnmodifiableListProxy(void* ptr) noexcept : ::Org::BouncyCast
 
 // Fields
 
- ::System::Collections::IList __declspec(property(get=__get_l, put=__set_l))  l;
+ System::Collections::IList __declspec(property(get=__get_l, put=__set_l))  l;
 
-constexpr void __set_l(::System::Collections::IList value) ;
+constexpr void __set_l(System::Collections::IList value) ;
 
-constexpr ::System::Collections::IList __get_l() const;
+constexpr System::Collections::IList __get_l() const;
 
 
 // Properties
@@ -79,23 +78,23 @@ constexpr ::System::Collections::IList __get_l() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "l", ty: "::System::Collections::IList", modifiers: "", def_value: None }]
-explicit UnmodifiableListProxy(::System::Collections::IList l) ;
+// Ctor Parameters [CppParam { name: "l", ty: "System::Collections::IList", modifiers: "", def_value: None }]
+explicit UnmodifiableListProxy(System::Collections::IList l) ;
 
 /// @brief Method .ctor addr 0x10cb3a8 size 0x28 virtual false final false
- void _ctor(::System::Collections::IList l) ;
+ void _ctor(System::Collections::IList l) ;
 
 /// @brief Method Contains addr 0x10ce8f8 size 0xac virtual true final false
  bool Contains(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method CopyTo addr 0x10ce9a4 size 0xb8 virtual true final false
- void CopyTo(::System::Array array, int32_t index) ;
+ void CopyTo(System::Array array, int32_t index) ;
 
 /// @brief Method get_Count addr 0x10cea5c size 0xa4 virtual true final false
  int32_t get_Count() ;
 
 /// @brief Method GetEnumerator addr 0x10ceb00 size 0xa0 virtual true final false
- ::System::Collections::IEnumerator GetEnumerator() ;
+ System::Collections::IEnumerator GetEnumerator() ;
 
 /// @brief Method IndexOf addr 0x10ceba0 size 0xac virtual true final false
  int32_t IndexOf(::bs_hook::Il2CppWrapperType o) ;
@@ -116,6 +115,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities::Collections
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy, "Org.BouncyCastle.Utilities.Collections", "UnmodifiableListProxy");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy, "Org.BouncyCastle.Utilities.Collections", "UnmodifiableListProxy");

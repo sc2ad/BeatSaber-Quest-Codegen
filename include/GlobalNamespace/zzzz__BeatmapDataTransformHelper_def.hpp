@@ -3,19 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-class IReadonlyBeatmapData;
-}
-namespace GlobalNamespace {
-class MainSettingsModelSO;
-}
-namespace GlobalNamespace {
-struct NoteCutDirection;
-}
-namespace GlobalNamespace {
-struct EnvironmentEffectsFilterPreset;
-}
 namespace GlobalNamespace {
 class BeatmapData;
 }
@@ -23,13 +10,25 @@ namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
-class EnvironmentIntensityReductionOptions;
-}
-namespace GlobalNamespace {
 class GameplayModifiers;
 }
 namespace GlobalNamespace {
 struct NoteLineLayer;
+}
+namespace GlobalNamespace {
+class EnvironmentIntensityReductionOptions;
+}
+namespace GlobalNamespace {
+struct NoteCutDirection;
+}
+namespace GlobalNamespace {
+class IReadonlyBeatmapData;
+}
+namespace GlobalNamespace {
+class MainSettingsModelSO;
+}
+namespace GlobalNamespace {
+struct EnvironmentEffectsFilterPreset;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -78,21 +77,20 @@ constexpr explicit BeatmapDataTransformHelper(void* ptr) noexcept : ::bs_hook::I
 // Methods
 
 /// @brief Method CreateTransformedBeatmapData addr 0x21baf90 size 0x198 virtual false final false
-static ::GlobalNamespace::IReadonlyBeatmapData CreateTransformedBeatmapData(::GlobalNamespace::IReadonlyBeatmapData beatmapData, ::GlobalNamespace::IPreviewBeatmapLevel beatmapLevel, ::GlobalNamespace::GameplayModifiers gameplayModifiers, bool leftHanded, ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterPreset, ::GlobalNamespace::EnvironmentIntensityReductionOptions environmentIntensityReductionOptions, ::GlobalNamespace::MainSettingsModelSO mainSettingsModel) ;
+static GlobalNamespace::IReadonlyBeatmapData CreateTransformedBeatmapData(GlobalNamespace::IReadonlyBeatmapData beatmapData, GlobalNamespace::IPreviewBeatmapLevel beatmapLevel, GlobalNamespace::GameplayModifiers gameplayModifiers, bool leftHanded, GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterPreset, GlobalNamespace::EnvironmentIntensityReductionOptions environmentIntensityReductionOptions, GlobalNamespace::MainSettingsModelSO mainSettingsModel) ;
 
 /// @brief Method AddTestBurstSlider addr 0x21bb220 size 0xe4 virtual false final false
-static void AddTestBurstSlider(float_t time, float_t duration, int32_t headLineIndex, ::GlobalNamespace::NoteLineLayer headNoteLineLayer, ::GlobalNamespace::NoteCutDirection headCutDirection, int32_t tailLineIndex, ::GlobalNamespace::NoteLineLayer tailNoteLineLayer, ::GlobalNamespace::NoteCutDirection tailCutDirection, int32_t sliceCount, float_t squishAmount, ::GlobalNamespace::BeatmapData beatmapData) ;
+static void AddTestBurstSlider(float_t time, float_t duration, int32_t headLineIndex, GlobalNamespace::NoteLineLayer headNoteLineLayer, GlobalNamespace::NoteCutDirection headCutDirection, int32_t tailLineIndex, GlobalNamespace::NoteLineLayer tailNoteLineLayer, GlobalNamespace::NoteCutDirection tailCutDirection, int32_t sliceCount, float_t squishAmount, GlobalNamespace::BeatmapData beatmapData) ;
 
 /// @brief Method AddTestSlider addr 0x21bb304 size 0x17c virtual false final false
-static void AddTestSlider(float_t time, float_t duration, int32_t headLineIndex, ::GlobalNamespace::NoteLineLayer headNoteLineLayer, ::GlobalNamespace::NoteCutDirection headCutDirection, float_t headControlPointLength, int32_t tailLineIndex, ::GlobalNamespace::NoteLineLayer tailNoteLineLayer, ::GlobalNamespace::NoteCutDirection tailCutDirection, float_t tailControlPointLength, bool hasHeadNote, bool hasTailNote, ::GlobalNamespace::BeatmapData beatmapData) ;
+static void AddTestSlider(float_t time, float_t duration, int32_t headLineIndex, GlobalNamespace::NoteLineLayer headNoteLineLayer, GlobalNamespace::NoteCutDirection headCutDirection, float_t headControlPointLength, int32_t tailLineIndex, GlobalNamespace::NoteLineLayer tailNoteLineLayer, GlobalNamespace::NoteCutDirection tailCutDirection, float_t tailControlPointLength, bool hasHeadNote, bool hasTailNote, GlobalNamespace::BeatmapData beatmapData) ;
 
 /// @brief Method IsObstaclesMergingNeeded addr 0x21bb214 size 0xc virtual false final false
-static bool IsObstaclesMergingNeeded(::GlobalNamespace::IPreviewBeatmapLevel beatmapLevel, bool screenDisplacementEffectsEnabled) ;
+static bool IsObstaclesMergingNeeded(GlobalNamespace::IPreviewBeatmapLevel beatmapLevel, bool screenDisplacementEffectsEnabled) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BeatmapDataTransformHelper);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapDataTransformHelper, "", "BeatmapDataTransformHelper");
+NEED_NO_BOX(GlobalNamespace::BeatmapDataTransformHelper);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataTransformHelper, "", "BeatmapDataTransformHelper");

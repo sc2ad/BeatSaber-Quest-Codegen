@@ -3,15 +3,14 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-class TrailElementCollection;
-}
 namespace GlobalNamespace {
 class SaberTrailRenderer;
 }
 namespace UnityEngine {
 struct Color;
+}
+namespace GlobalNamespace {
+class TrailElementCollection;
 }
 namespace GlobalNamespace {
 class IBladeMovementData;
@@ -29,7 +28,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4989))
 // CS Name: SaberTrail
-class CORDL_TYPE SaberTrail : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SaberTrail : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -44,7 +43,7 @@ constexpr SaberTrail(SaberTrail const& ) noexcept = default;
 constexpr SaberTrail(SaberTrail&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SaberTrail(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SaberTrail(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -65,11 +64,11 @@ constexpr explicit SaberTrail(void* ptr) noexcept : ::UnityEngine::MonoBehaviour
 
 // Fields
 
- ::GlobalNamespace::SaberTrailRenderer __declspec(property(get=__get__trailRendererPrefab, put=__set__trailRendererPrefab))  _trailRendererPrefab;
+ GlobalNamespace::SaberTrailRenderer __declspec(property(get=__get__trailRendererPrefab, put=__set__trailRendererPrefab))  _trailRendererPrefab;
 
-constexpr void __set__trailRendererPrefab(::GlobalNamespace::SaberTrailRenderer value) ;
+constexpr void __set__trailRendererPrefab(GlobalNamespace::SaberTrailRenderer value) ;
 
-constexpr ::GlobalNamespace::SaberTrailRenderer __get__trailRendererPrefab() const;
+constexpr GlobalNamespace::SaberTrailRenderer __get__trailRendererPrefab() const;
 
  float_t __declspec(property(get=__get__trailDuration, put=__set__trailDuration))  _trailDuration;
 
@@ -101,11 +100,11 @@ constexpr void __set__colorOverwrite(bool value) ;
 
 constexpr bool __get__colorOverwrite() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__forcedColor, put=__set__forcedColor))  _forcedColor;
+ UnityEngine::Color __declspec(property(get=__get__forcedColor, put=__set__forcedColor))  _forcedColor;
 
-constexpr void __set__forcedColor(::UnityEngine::Color value) ;
+constexpr void __set__forcedColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__forcedColor() const;
+constexpr UnityEngine::Color __get__forcedColor() const;
 
 /// @brief Field kIgnoredFramesCount offset 0
 static constexpr int32_t  kIgnoredFramesCount{4};
@@ -116,17 +115,17 @@ static constexpr int32_t  kSnapshotCapacityMargin{3};
 /// @brief Field kScaleCheckFramesInterval offset 0
 static constexpr int32_t  kScaleCheckFramesInterval{10};
 
- ::UnityEngine::Color __declspec(property(get=__get__color, put=__set__color))  _color;
+ UnityEngine::Color __declspec(property(get=__get__color, put=__set__color))  _color;
 
-constexpr void __set__color(::UnityEngine::Color value) ;
+constexpr void __set__color(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__color() const;
+constexpr UnityEngine::Color __get__color() const;
 
- ::GlobalNamespace::IBladeMovementData __declspec(property(get=__get__movementData, put=__set__movementData))  _movementData;
+ GlobalNamespace::IBladeMovementData __declspec(property(get=__get__movementData, put=__set__movementData))  _movementData;
 
-constexpr void __set__movementData(::GlobalNamespace::IBladeMovementData value) ;
+constexpr void __set__movementData(GlobalNamespace::IBladeMovementData value) ;
 
-constexpr ::GlobalNamespace::IBladeMovementData __get__movementData() const;
+constexpr GlobalNamespace::IBladeMovementData __get__movementData() const;
 
  float_t __declspec(property(get=__get__lastTrailElementTime, put=__set__lastTrailElementTime))  _lastTrailElementTime;
 
@@ -134,17 +133,17 @@ constexpr void __set__lastTrailElementTime(float_t value) ;
 
 constexpr float_t __get__lastTrailElementTime() const;
 
- ::GlobalNamespace::SaberTrailRenderer __declspec(property(get=__get__trailRenderer, put=__set__trailRenderer))  _trailRenderer;
+ GlobalNamespace::SaberTrailRenderer __declspec(property(get=__get__trailRenderer, put=__set__trailRenderer))  _trailRenderer;
 
-constexpr void __set__trailRenderer(::GlobalNamespace::SaberTrailRenderer value) ;
+constexpr void __set__trailRenderer(GlobalNamespace::SaberTrailRenderer value) ;
 
-constexpr ::GlobalNamespace::SaberTrailRenderer __get__trailRenderer() const;
+constexpr GlobalNamespace::SaberTrailRenderer __get__trailRenderer() const;
 
- ::GlobalNamespace::TrailElementCollection __declspec(property(get=__get__trailElementCollection, put=__set__trailElementCollection))  _trailElementCollection;
+ GlobalNamespace::TrailElementCollection __declspec(property(get=__get__trailElementCollection, put=__set__trailElementCollection))  _trailElementCollection;
 
-constexpr void __set__trailElementCollection(::GlobalNamespace::TrailElementCollection value) ;
+constexpr void __set__trailElementCollection(GlobalNamespace::TrailElementCollection value) ;
 
-constexpr ::GlobalNamespace::TrailElementCollection __get__trailElementCollection() const;
+constexpr GlobalNamespace::TrailElementCollection __get__trailElementCollection() const;
 
  float_t __declspec(property(get=__get__sampleStep, put=__set__sampleStep))  _sampleStep;
 
@@ -183,7 +182,7 @@ constexpr bool __get__inited() const;
  void Awake() ;
 
 /// @brief Method Setup addr 0x22557c4 size 0x20 virtual false final false
- void Setup(::UnityEngine::Color color, ::GlobalNamespace::IBladeMovementData movementData) ;
+ void Setup(UnityEngine::Color color, GlobalNamespace::IBladeMovementData movementData) ;
 
 /// @brief Method Init addr 0x22557e4 size 0x280 virtual false final false
  void Init() ;
@@ -204,7 +203,7 @@ constexpr bool __get__inited() const;
  void OnDestroy() ;
 
 /// @brief Method GetTrailWidth addr 0x2255c14 size 0x84 virtual false final false
- float_t GetTrailWidth(::GlobalNamespace::BladeMovementDataElement lastAddedData) ;
+ float_t GetTrailWidth(GlobalNamespace::BladeMovementDataElement lastAddedData) ;
 
 /// @brief Method OnDrawGizmosSelected addr 0x22566b8 size 0x1d4 virtual false final false
  void OnDrawGizmosSelected() ;
@@ -219,6 +218,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SaberTrail);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SaberTrail, "", "SaberTrail");
+NEED_NO_BOX(GlobalNamespace::SaberTrail);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberTrail, "", "SaberTrail");

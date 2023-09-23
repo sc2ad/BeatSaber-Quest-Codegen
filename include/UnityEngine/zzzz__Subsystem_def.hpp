@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace UnityEngine {
 class ISubsystem;
 }
@@ -18,8 +17,8 @@ namespace UnityEngine {
 class CORDL_TYPE Subsystem : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::ISubsystem
-constexpr operator  ::UnityEngine::ISubsystem() const noexcept;
+/// @brief Convert operator to UnityEngine::ISubsystem
+constexpr operator  UnityEngine::ISubsystem() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Subsystem);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Subsystem, "UnityEngine", "Subsystem");
+NEED_NO_BOX(UnityEngine::Subsystem);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Subsystem, "UnityEngine", "Subsystem");

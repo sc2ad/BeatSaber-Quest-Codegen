@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__AbuseReportRecording_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
 class AbuseReportRecording;
 }
@@ -14,10 +13,10 @@ class MessageWithAbuseReportRecording;
 // Type: Oculus.Platform::MessageWithAbuseReportRecording
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4423 }), TypeDefinitionIndex(TypeDefinitionIndex(13379))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(13379)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4423 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13208))
 // CS Name: Oculus.Platform.MessageWithAbuseReportRecording
-class CORDL_TYPE MessageWithAbuseReportRecording : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AbuseReportRecording> {
+class CORDL_TYPE MessageWithAbuseReportRecording : public Oculus::Platform::Message_1<Oculus::Platform::Models::AbuseReportRecording> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr MessageWithAbuseReportRecording(MessageWithAbuseReportRecording const&
 constexpr MessageWithAbuseReportRecording(MessageWithAbuseReportRecording&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MessageWithAbuseReportRecording(void* ptr) noexcept : ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AbuseReportRecording>(ptr) {
+constexpr explicit MessageWithAbuseReportRecording(void* ptr) noexcept : Oculus::Platform::Message_1<Oculus::Platform::Models::AbuseReportRecording>(ptr) {
 }
 
 
@@ -60,15 +59,14 @@ explicit MessageWithAbuseReportRecording(::cordl_internals::intptr_t c_message) 
  void _ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method GetAbuseReportRecording addr 0x257fb58 size 0x3c virtual true final false
- ::Oculus::Platform::Models::AbuseReportRecording GetAbuseReportRecording() ;
+ Oculus::Platform::Models::AbuseReportRecording GetAbuseReportRecording() ;
 
 /// @brief Method GetDataFromMessage addr 0x257fb94 size 0x9c virtual true final false
- ::Oculus::Platform::Models::AbuseReportRecording GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
+ Oculus::Platform::Models::AbuseReportRecording GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::MessageWithAbuseReportRecording);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithAbuseReportRecording, "Oculus.Platform", "MessageWithAbuseReportRecording");
+NEED_NO_BOX(Oculus::Platform::MessageWithAbuseReportRecording);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithAbuseReportRecording, "Oculus.Platform", "MessageWithAbuseReportRecording");

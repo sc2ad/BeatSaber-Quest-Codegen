@@ -4,46 +4,45 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct Color;
-}
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine::UI {
-struct CanvasUpdate;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace UnityEngine {
 struct DrivenRectTransformTracker;
 }
 namespace UnityEngine::EventSystems {
-class IDragHandler;
-}
-namespace UnityEngine::EventSystems {
-class IBeginDragHandler;
-}
-namespace UnityEngine::UI {
-class ICanvasElement;
+class PointerEventData;
 }
 namespace UnityEngine::EventSystems {
 class IInitializePotentialDragHandler;
 }
 namespace UnityEngine::EventSystems {
+class IDragHandler;
+}
+namespace UnityEngine::UI {
+class ICanvasElement;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine::UI {
+struct CanvasUpdate;
+}
+namespace UnityEngine::EventSystems {
 class IEventSystemHandler;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine::EventSystems {
+class IBeginDragHandler;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
 }
 namespace UnityEngine::UI {
 class Graphic;
@@ -58,23 +57,23 @@ namespace HMUI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13058))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13613))
 // CS Name: HMUI.TextSlider
-class CORDL_TYPE TextSlider : public ::UnityEngine::UI::Selectable {
+class CORDL_TYPE TextSlider : public UnityEngine::UI::Selectable {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::EventSystems::IBeginDragHandler
-constexpr operator  ::UnityEngine::EventSystems::IBeginDragHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IBeginDragHandler
+constexpr operator  UnityEngine::EventSystems::IBeginDragHandler() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::EventSystems::IEventSystemHandler
-constexpr operator  ::UnityEngine::EventSystems::IEventSystemHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IEventSystemHandler
+constexpr operator  UnityEngine::EventSystems::IEventSystemHandler() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::EventSystems::IDragHandler
-constexpr operator  ::UnityEngine::EventSystems::IDragHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IDragHandler
+constexpr operator  UnityEngine::EventSystems::IDragHandler() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::EventSystems::IInitializePotentialDragHandler
-constexpr operator  ::UnityEngine::EventSystems::IInitializePotentialDragHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IInitializePotentialDragHandler
+constexpr operator  UnityEngine::EventSystems::IInitializePotentialDragHandler() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::UI::ICanvasElement
-constexpr operator  ::UnityEngine::UI::ICanvasElement() const noexcept;
+/// @brief Convert operator to UnityEngine::UI::ICanvasElement
+constexpr operator  UnityEngine::UI::ICanvasElement() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x140};
@@ -88,7 +87,7 @@ constexpr TextSlider(TextSlider const& ) noexcept = default;
 constexpr TextSlider(TextSlider&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TextSlider(void* ptr) noexcept : ::UnityEngine::UI::Selectable(ptr) {
+constexpr explicit TextSlider(void* ptr) noexcept : UnityEngine::UI::Selectable(ptr) {
 }
 
 
@@ -109,17 +108,17 @@ constexpr explicit TextSlider(void* ptr) noexcept : ::UnityEngine::UI::Selectabl
 
 // Fields
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__valueText, put=__set__valueText))  _valueText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__valueText, put=__set__valueText))  _valueText;
 
-constexpr void __set__valueText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__valueText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__valueText() const;
+constexpr TMPro::TextMeshProUGUI __get__valueText() const;
 
- ::UnityEngine::RectTransform __declspec(property(get=__get__handleRect, put=__set__handleRect))  _handleRect;
+ UnityEngine::RectTransform __declspec(property(get=__get__handleRect, put=__set__handleRect))  _handleRect;
 
-constexpr void __set__handleRect(::UnityEngine::RectTransform value) ;
+constexpr void __set__handleRect(UnityEngine::RectTransform value) ;
 
-constexpr ::UnityEngine::RectTransform __get__handleRect() const;
+constexpr UnityEngine::RectTransform __get__handleRect() const;
 
  bool __declspec(property(get=__get__enableDragging, put=__set__enableDragging))  _enableDragging;
 
@@ -157,38 +156,38 @@ constexpr void __set__normalizedValue(float_t value) ;
 
 constexpr float_t __get__normalizedValue() const;
 
- ::System::Action_2<::HMUI::TextSlider,float_t> __declspec(property(get=__get_normalizedValueDidChangeEvent, put=__set_normalizedValueDidChangeEvent))  normalizedValueDidChangeEvent;
+ System::Action_2<HMUI::TextSlider,float_t> __declspec(property(get=__get_normalizedValueDidChangeEvent, put=__set_normalizedValueDidChangeEvent))  normalizedValueDidChangeEvent;
 
-constexpr void __set_normalizedValueDidChangeEvent(::System::Action_2<::HMUI::TextSlider,float_t> value) ;
+constexpr void __set_normalizedValueDidChangeEvent(System::Action_2<HMUI::TextSlider,float_t> value) ;
 
-constexpr ::System::Action_2<::HMUI::TextSlider,float_t> __get_normalizedValueDidChangeEvent() const;
+constexpr System::Action_2<HMUI::TextSlider,float_t> __get_normalizedValueDidChangeEvent() const;
 
- ::UnityEngine::RectTransform __declspec(property(get=__get__containerRect, put=__set__containerRect))  _containerRect;
+ UnityEngine::RectTransform __declspec(property(get=__get__containerRect, put=__set__containerRect))  _containerRect;
 
-constexpr void __set__containerRect(::UnityEngine::RectTransform value) ;
+constexpr void __set__containerRect(UnityEngine::RectTransform value) ;
 
-constexpr ::UnityEngine::RectTransform __get__containerRect() const;
+constexpr UnityEngine::RectTransform __get__containerRect() const;
 
- ::UnityEngine::UI::Graphic __declspec(property(get=__get__handleGraphic, put=__set__handleGraphic))  _handleGraphic;
+ UnityEngine::UI::Graphic __declspec(property(get=__get__handleGraphic, put=__set__handleGraphic))  _handleGraphic;
 
-constexpr void __set__handleGraphic(::UnityEngine::UI::Graphic value) ;
+constexpr void __set__handleGraphic(UnityEngine::UI::Graphic value) ;
 
-constexpr ::UnityEngine::UI::Graphic __get__handleGraphic() const;
+constexpr UnityEngine::UI::Graphic __get__handleGraphic() const;
 
- ::UnityEngine::DrivenRectTransformTracker __declspec(property(get=__get__tracker, put=__set__tracker))  _tracker;
+ UnityEngine::DrivenRectTransformTracker __declspec(property(get=__get__tracker, put=__set__tracker))  _tracker;
 
-constexpr void __set__tracker(::UnityEngine::DrivenRectTransformTracker value) ;
+constexpr void __set__tracker(UnityEngine::DrivenRectTransformTracker value) ;
 
-constexpr ::UnityEngine::DrivenRectTransformTracker __get__tracker() const;
+constexpr UnityEngine::DrivenRectTransformTracker __get__tracker() const;
 
 
 // Properties
 
- ::UnityEngine::Color __declspec(property(put=set_valueTextColor))  valueTextColor;
+ UnityEngine::Color __declspec(property(put=set_valueTextColor))  valueTextColor;
 
- ::UnityEngine::RectTransform __declspec(property(get=get_handleRect, put=set_handleRect))  handleRect;
+ UnityEngine::RectTransform __declspec(property(get=get_handleRect, put=set_handleRect))  handleRect;
 
- ::UnityEngine::Color __declspec(property(put=set_handleColor))  handleColor;
+ UnityEngine::Color __declspec(property(put=set_handleColor))  handleColor;
 
  float_t __declspec(property(get=get_handleSize, put=set_handleSize))  handleSize;
 
@@ -204,16 +203,16 @@ constexpr ::UnityEngine::DrivenRectTransformTracker __get__tracker() const;
 // Methods
 
 /// @brief Method set_valueTextColor addr 0x1faeee0 size 0x24 virtual false final false
- void set_valueTextColor(::UnityEngine::Color value) ;
+ void set_valueTextColor(UnityEngine::Color value) ;
 
 /// @brief Method get_handleRect addr 0x1fb064c size 0x8 virtual false final false
- ::UnityEngine::RectTransform get_handleRect() ;
+ UnityEngine::RectTransform get_handleRect() ;
 
 /// @brief Method set_handleRect addr 0x1fb0654 size 0x88 virtual false final false
- void set_handleRect(::UnityEngine::RectTransform value) ;
+ void set_handleRect(UnityEngine::RectTransform value) ;
 
 /// @brief Method set_handleColor addr 0x1faee1c size 0xc4 virtual false final false
- void set_handleColor(::UnityEngine::Color value) ;
+ void set_handleColor(UnityEngine::Color value) ;
 
 /// @brief Method get_handleSize addr 0x1fb0814 size 0x8 virtual false final false
  float_t get_handleSize() ;
@@ -246,13 +245,13 @@ constexpr ::UnityEngine::DrivenRectTransformTracker __get__tracker() const;
  void set_normalizedValue(float_t value) ;
 
 /// @brief Method add_normalizedValueDidChangeEvent addr 0x1fae5ac size 0xb4 virtual false final false
- void add_normalizedValueDidChangeEvent(::System::Action_2<::HMUI::TextSlider,float_t> value) ;
+ void add_normalizedValueDidChangeEvent(System::Action_2<HMUI::TextSlider,float_t> value) ;
 
 /// @brief Method remove_normalizedValueDidChangeEvent addr 0x1fae6ec size 0xb4 virtual false final false
- void remove_normalizedValueDidChangeEvent(::System::Action_2<::HMUI::TextSlider,float_t> value) ;
+ void remove_normalizedValueDidChangeEvent(System::Action_2<HMUI::TextSlider,float_t> value) ;
 
 /// @brief Method Rebuild addr 0x1fb0a48 size 0x4 virtual true final false
- void Rebuild(::UnityEngine::UI::CanvasUpdate executing) ;
+ void Rebuild(UnityEngine::UI::CanvasUpdate executing) ;
 
 /// @brief Method LayoutComplete addr 0x1fb0a4c size 0x4 virtual true final false
  void LayoutComplete() ;
@@ -282,22 +281,22 @@ constexpr ::UnityEngine::DrivenRectTransformTracker __get__tracker() const;
  void UpdateVisuals() ;
 
 /// @brief Method UpdateDrag addr 0x1fb0afc size 0x2e0 virtual false final false
- void UpdateDrag(::UnityEngine::EventSystems::PointerEventData eventData) ;
+ void UpdateDrag(UnityEngine::EventSystems::PointerEventData eventData) ;
 
 /// @brief Method MayDrag addr 0x1fb0ddc size 0x64 virtual false final false
- bool MayDrag(::UnityEngine::EventSystems::PointerEventData eventData) ;
+ bool MayDrag(UnityEngine::EventSystems::PointerEventData eventData) ;
 
 /// @brief Method OnBeginDrag addr 0x1fb0e40 size 0x88 virtual true final false
- void OnBeginDrag(::UnityEngine::EventSystems::PointerEventData eventData) ;
+ void OnBeginDrag(UnityEngine::EventSystems::PointerEventData eventData) ;
 
 /// @brief Method OnDrag addr 0x1fb0ec8 size 0x98 virtual true final false
- void OnDrag(::UnityEngine::EventSystems::PointerEventData eventData) ;
+ void OnDrag(UnityEngine::EventSystems::PointerEventData eventData) ;
 
 /// @brief Method OnPointerDown addr 0x1fb0f60 size 0xa0 virtual true final false
- void OnPointerDown(::UnityEngine::EventSystems::PointerEventData eventData) ;
+ void OnPointerDown(UnityEngine::EventSystems::PointerEventData eventData) ;
 
 /// @brief Method OnInitializePotentialDrag addr 0x1fb1000 size 0x18 virtual true final false
- void OnInitializePotentialDrag(::UnityEngine::EventSystems::PointerEventData eventData) ;
+ void OnInitializePotentialDrag(UnityEngine::EventSystems::PointerEventData eventData) ;
 
 /// @brief Method TextForNormalizedValue addr 0x1fb1018 size 0x1c virtual true final false
  ::StringW TextForNormalizedValue(float_t normalizedValue) ;
@@ -309,12 +308,11 @@ explicit TextSlider() ;
  void _ctor() ;
 
 /// @brief Method UnityEngine.UI.ICanvasElement.get_transform addr 0x1fb1034 size 0x8 virtual true final true
- ::UnityEngine::Transform UnityEngine_UI_ICanvasElement_get_transform() ;
+ UnityEngine::Transform UnityEngine_UI_ICanvasElement_get_transform() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HMUI
-} // end anonymous namespace
-NEED_NO_BOX(::HMUI::TextSlider);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::TextSlider, "HMUI", "TextSlider");
+NEED_NO_BOX(HMUI::TextSlider);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::TextSlider, "HMUI", "TextSlider");

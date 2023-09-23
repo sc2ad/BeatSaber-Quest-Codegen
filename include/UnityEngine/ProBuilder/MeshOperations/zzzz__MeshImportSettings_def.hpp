@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
 // Forward declare root types
 namespace UnityEngine::ProBuilder::MeshOperations {
 class MeshImportSettings;
@@ -111,6 +110,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder::MeshOperations
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings, "UnityEngine.ProBuilder.MeshOperations", "MeshImportSettings");
+NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::MeshImportSettings);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::MeshImportSettings, "UnityEngine.ProBuilder.MeshOperations", "MeshImportSettings");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Xml::Schema {
 struct Position;
 }
@@ -55,16 +54,16 @@ constexpr explicit Positions(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 
 // Fields
 
- ::System::Collections::ArrayList __declspec(property(get=__get_positions, put=__set_positions))  positions;
+ System::Collections::ArrayList __declspec(property(get=__get_positions, put=__set_positions))  positions;
 
-constexpr void __set_positions(::System::Collections::ArrayList value) ;
+constexpr void __set_positions(System::Collections::ArrayList value) ;
 
-constexpr ::System::Collections::ArrayList __get_positions() const;
+constexpr System::Collections::ArrayList __get_positions() const;
 
 
 // Properties
 
- ::System::Xml::Schema::Position __declspec(property(get=get_Item))  Item;
+ System::Xml::Schema::Position __declspec(property(get=get_Item))  Item;
 
  int32_t __declspec(property(get=get_Count))  Count;
 
@@ -75,7 +74,7 @@ constexpr ::System::Collections::ArrayList __get_positions() const;
  int32_t Add(int32_t symbol, ::bs_hook::Il2CppWrapperType particle) ;
 
 /// @brief Method get_Item addr 0x271a144 size 0x90 virtual false final false
- ::System::Xml::Schema::Position get_Item(int32_t pos) ;
+ System::Xml::Schema::Position get_Item(int32_t pos) ;
 
 /// @brief Method get_Count addr 0x271a1d4 size 0x24 virtual false final false
  int32_t get_Count() ;
@@ -90,6 +89,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::Positions);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::Positions, "System.Xml.Schema", "Positions");
+NEED_NO_BOX(System::Xml::Schema::Positions);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::Positions, "System.Xml.Schema", "Positions");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace ENet {
 struct PacketFlags;
@@ -73,32 +72,31 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::ENet::PacketFlags const None;
+static ENet::PacketFlags const None;
 
 /// @brief Field Reliable offset 0
-static ::ENet::PacketFlags const Reliable;
+static ENet::PacketFlags const Reliable;
 
 /// @brief Field Unsequenced offset 0
-static ::ENet::PacketFlags const Unsequenced;
+static ENet::PacketFlags const Unsequenced;
 
 /// @brief Field NoAllocate offset 0
-static ::ENet::PacketFlags const NoAllocate;
+static ENet::PacketFlags const NoAllocate;
 
 /// @brief Field UnreliableFragmented offset 0
-static ::ENet::PacketFlags const UnreliableFragmented;
+static ENet::PacketFlags const UnreliableFragmented;
 
 /// @brief Field Instant offset 0
-static ::ENet::PacketFlags const Instant;
+static ENet::PacketFlags const Instant;
 
 /// @brief Field Unthrottled offset 0
-static ::ENet::PacketFlags const Unthrottled;
+static ENet::PacketFlags const Unthrottled;
 
 /// @brief Field Sent offset 0
-static ::ENet::PacketFlags const Sent;
+static ENet::PacketFlags const Sent;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def ENet
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::ENet::PacketFlags, "ENet", "PacketFlags");
+DEFINE_IL2CPP_ARG_TYPE(ENet::PacketFlags, "ENet", "PacketFlags");

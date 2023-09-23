@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 // Forward declare root types
 namespace System {
 class CLSCompliantAttribute;
@@ -12,7 +11,7 @@ namespace System {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2361))
 // CS Name: System.CLSCompliantAttribute
-class CORDL_TYPE CLSCompliantAttribute : public ::System::Attribute {
+class CORDL_TYPE CLSCompliantAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr CLSCompliantAttribute(CLSCompliantAttribute const& ) noexcept = defaul
 constexpr CLSCompliantAttribute(CLSCompliantAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CLSCompliantAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit CLSCompliantAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -67,6 +66,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::CLSCompliantAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::CLSCompliantAttribute, "System", "CLSCompliantAttribute");
+NEED_NO_BOX(System::CLSCompliantAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::CLSCompliantAttribute, "System", "CLSCompliantAttribute");

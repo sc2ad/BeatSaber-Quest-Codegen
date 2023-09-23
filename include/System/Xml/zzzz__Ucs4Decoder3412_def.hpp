@@ -3,7 +3,6 @@
 #include "System/Xml/zzzz__Ucs4Decoder_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Xml {
 class Ucs4Decoder3412;
@@ -14,7 +13,7 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11504))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11508))
 // CS Name: System.Xml.Ucs4Decoder3412
-class CORDL_TYPE Ucs4Decoder3412 : public ::System::Xml::Ucs4Decoder {
+class CORDL_TYPE Ucs4Decoder3412 : public System::Xml::Ucs4Decoder {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr Ucs4Decoder3412(Ucs4Decoder3412 const& ) noexcept = default;
 constexpr Ucs4Decoder3412(Ucs4Decoder3412&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Ucs4Decoder3412(void* ptr) noexcept : ::System::Xml::Ucs4Decoder(ptr) {
+constexpr explicit Ucs4Decoder3412(void* ptr) noexcept : System::Xml::Ucs4Decoder(ptr) {
 }
 
 
@@ -63,6 +62,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Ucs4Decoder3412);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Ucs4Decoder3412, "System.Xml", "Ucs4Decoder3412");
+NEED_NO_BOX(System::Xml::Ucs4Decoder3412);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Ucs4Decoder3412, "System.Xml", "Ucs4Decoder3412");

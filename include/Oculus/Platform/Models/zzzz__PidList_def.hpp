@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_def.hpp"
 #include "Oculus/Platform/Models/zzzz__Pid_def.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class PidList;
@@ -14,7 +13,7 @@ namespace Oculus::Platform::Models {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13410)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1145 }), TypeDefinitionIndex(TypeDefinitionIndex(13459))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13460))
 // CS Name: Oculus.Platform.Models.PidList
-class CORDL_TYPE PidList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::Pid> {
+class CORDL_TYPE PidList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::Pid> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr PidList(PidList const& ) noexcept = default;
 constexpr PidList(PidList&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PidList(void* ptr) noexcept : ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::Pid>(ptr) {
+constexpr explicit PidList(void* ptr) noexcept : Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::Pid>(ptr) {
 }
 
 
@@ -60,6 +59,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::PidList);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::PidList, "Oculus.Platform.Models", "PidList");
+NEED_NO_BOX(Oculus::Platform::Models::PidList);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::PidList, "Oculus.Platform.Models", "PidList");

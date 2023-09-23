@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace BGNet::Core {
-class ITimeProvider;
-}
 namespace System::Diagnostics {
 class Stopwatch;
+}
+namespace BGNet::Core {
+class ITimeProvider;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,8 +22,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE MonotonicTimeProvider : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::BGNet::Core::ITimeProvider
-constexpr operator  ::BGNet::Core::ITimeProvider() const noexcept;
+/// @brief Convert operator to BGNet::Core::ITimeProvider
+constexpr operator  BGNet::Core::ITimeProvider() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -71,17 +70,17 @@ constexpr void __set__startTicks(int64_t value) ;
 
 constexpr int64_t __get__startTicks() const;
 
- ::System::Diagnostics::Stopwatch __declspec(property(get=__get__stopwatch, put=__set__stopwatch))  _stopwatch;
+ System::Diagnostics::Stopwatch __declspec(property(get=__get__stopwatch, put=__set__stopwatch))  _stopwatch;
 
-constexpr void __set__stopwatch(::System::Diagnostics::Stopwatch value) ;
+constexpr void __set__stopwatch(System::Diagnostics::Stopwatch value) ;
 
-constexpr ::System::Diagnostics::Stopwatch __get__stopwatch() const;
+constexpr System::Diagnostics::Stopwatch __get__stopwatch() const;
 
-static ::GlobalNamespace::MonotonicTimeProvider __declspec(property(get=__get_instance, put=__set_instance))  instance;
+static GlobalNamespace::MonotonicTimeProvider __declspec(property(get=__get_instance, put=__set_instance))  instance;
 
-static void __set_instance(::GlobalNamespace::MonotonicTimeProvider value) ;
+static void __set_instance(GlobalNamespace::MonotonicTimeProvider value) ;
 
-static ::GlobalNamespace::MonotonicTimeProvider __get_instance() ;
+static GlobalNamespace::MonotonicTimeProvider __get_instance() ;
 
 
 // Methods
@@ -102,6 +101,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MonotonicTimeProvider);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MonotonicTimeProvider, "", "MonotonicTimeProvider");
+NEED_NO_BOX(GlobalNamespace::MonotonicTimeProvider);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MonotonicTimeProvider, "", "MonotonicTimeProvider");

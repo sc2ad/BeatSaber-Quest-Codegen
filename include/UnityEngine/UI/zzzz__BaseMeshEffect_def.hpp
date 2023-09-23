@@ -1,15 +1,14 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_def.hpp"
-namespace {
+namespace UnityEngine {
+class Mesh;
+}
 namespace UnityEngine::UI {
 class IMeshModifier;
 }
 namespace UnityEngine::UI {
 class Graphic;
-}
-namespace UnityEngine {
-class Mesh;
 }
 namespace UnityEngine::UI {
 class VertexHelper;
@@ -24,11 +23,11 @@ namespace UnityEngine::UI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13153))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13082))
 // CS Name: UnityEngine.UI.BaseMeshEffect
-class CORDL_TYPE BaseMeshEffect : public ::UnityEngine::EventSystems::UIBehaviour {
+class CORDL_TYPE BaseMeshEffect : public UnityEngine::EventSystems::UIBehaviour {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::UI::IMeshModifier
-constexpr operator  ::UnityEngine::UI::IMeshModifier() const noexcept;
+/// @brief Convert operator to UnityEngine::UI::IMeshModifier
+constexpr operator  UnityEngine::UI::IMeshModifier() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -42,7 +41,7 @@ constexpr BaseMeshEffect(BaseMeshEffect const& ) noexcept = default;
 constexpr BaseMeshEffect(BaseMeshEffect&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BaseMeshEffect(void* ptr) noexcept : ::UnityEngine::EventSystems::UIBehaviour(ptr) {
+constexpr explicit BaseMeshEffect(void* ptr) noexcept : UnityEngine::EventSystems::UIBehaviour(ptr) {
 }
 
 
@@ -63,22 +62,22 @@ constexpr explicit BaseMeshEffect(void* ptr) noexcept : ::UnityEngine::EventSyst
 
 // Fields
 
- ::UnityEngine::UI::Graphic __declspec(property(get=__get_m_Graphic, put=__set_m_Graphic))  m_Graphic;
+ UnityEngine::UI::Graphic __declspec(property(get=__get_m_Graphic, put=__set_m_Graphic))  m_Graphic;
 
-constexpr void __set_m_Graphic(::UnityEngine::UI::Graphic value) ;
+constexpr void __set_m_Graphic(UnityEngine::UI::Graphic value) ;
 
-constexpr ::UnityEngine::UI::Graphic __get_m_Graphic() const;
+constexpr UnityEngine::UI::Graphic __get_m_Graphic() const;
 
 
 // Properties
 
- ::UnityEngine::UI::Graphic __declspec(property(get=get_graphic))  graphic;
+ UnityEngine::UI::Graphic __declspec(property(get=get_graphic))  graphic;
 
 
 // Methods
 
 /// @brief Method get_graphic addr 0x2c17360 size 0x94 virtual false final false
- ::UnityEngine::UI::Graphic get_graphic() ;
+ UnityEngine::UI::Graphic get_graphic() ;
 
 /// @brief Method OnEnable addr 0x2c173f4 size 0xa8 virtual true final false
  void OnEnable() ;
@@ -90,10 +89,10 @@ constexpr ::UnityEngine::UI::Graphic __get_m_Graphic() const;
  void OnDidApplyAnimationProperties() ;
 
 /// @brief Method ModifyMesh addr 0x2c175d4 size 0x1a8 virtual true final false
- void ModifyMesh(::UnityEngine::Mesh mesh) ;
+ void ModifyMesh(UnityEngine::Mesh mesh) ;
 
 /// @brief Method ModifyMesh addr 0x0 size 0xffffffffffffffff virtual true final false
- void ModifyMesh(::UnityEngine::UI::VertexHelper vh) ;
+ void ModifyMesh(UnityEngine::UI::VertexHelper vh) ;
 
 // Ctor Parameters []
 explicit BaseMeshEffect() ;
@@ -105,6 +104,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UI
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UI::BaseMeshEffect);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::BaseMeshEffect, "UnityEngine.UI", "BaseMeshEffect");
+NEED_NO_BOX(UnityEngine::UI::BaseMeshEffect);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::BaseMeshEffect, "UnityEngine.UI", "BaseMeshEffect");

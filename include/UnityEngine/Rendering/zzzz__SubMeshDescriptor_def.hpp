@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct Bounds;
-}
 namespace UnityEngine {
 struct MeshTopology;
+}
+namespace UnityEngine {
+struct Bounds;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -23,8 +22,8 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE SubMeshDescriptor : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "_bounds_k__BackingField", ty: "::UnityEngine::Bounds", modifiers: "", def_value: None }, CppParam { name: "_topology_k__BackingField", ty: "::UnityEngine::MeshTopology", modifiers: "", def_value: None }, CppParam { name: "_indexStart_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_indexCount_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_baseVertex_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_firstVertex_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_vertexCount_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr SubMeshDescriptor(::UnityEngine::Bounds _bounds_k__BackingField, ::UnityEngine::MeshTopology _topology_k__BackingField, int32_t _indexStart_k__BackingField, int32_t _indexCount_k__BackingField, int32_t _baseVertex_k__BackingField, int32_t _firstVertex_k__BackingField, int32_t _vertexCount_k__BackingField) noexcept;
+// Ctor Parameters [CppParam { name: "_bounds_k__BackingField", ty: "UnityEngine::Bounds", modifiers: "", def_value: None }, CppParam { name: "_topology_k__BackingField", ty: "UnityEngine::MeshTopology", modifiers: "", def_value: None }, CppParam { name: "_indexStart_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_indexCount_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_baseVertex_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_firstVertex_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_vertexCount_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr SubMeshDescriptor(UnityEngine::Bounds _bounds_k__BackingField, UnityEngine::MeshTopology _topology_k__BackingField, int32_t _indexStart_k__BackingField, int32_t _indexCount_k__BackingField, int32_t _baseVertex_k__BackingField, int32_t _firstVertex_k__BackingField, int32_t _vertexCount_k__BackingField) noexcept;
 
 
                     constexpr SubMeshDescriptor(SubMeshDescriptor const&) = default;
@@ -57,17 +56,17 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Bounds __declspec(property(get=__get__bounds_k__BackingField, put=__set__bounds_k__BackingField))  _bounds_k__BackingField;
+ UnityEngine::Bounds __declspec(property(get=__get__bounds_k__BackingField, put=__set__bounds_k__BackingField))  _bounds_k__BackingField;
 
-constexpr void __set__bounds_k__BackingField(::UnityEngine::Bounds value) ;
+constexpr void __set__bounds_k__BackingField(UnityEngine::Bounds value) ;
 
-constexpr ::UnityEngine::Bounds __get__bounds_k__BackingField() const;
+constexpr UnityEngine::Bounds __get__bounds_k__BackingField() const;
 
- ::UnityEngine::MeshTopology __declspec(property(get=__get__topology_k__BackingField, put=__set__topology_k__BackingField))  _topology_k__BackingField;
+ UnityEngine::MeshTopology __declspec(property(get=__get__topology_k__BackingField, put=__set__topology_k__BackingField))  _topology_k__BackingField;
 
-constexpr void __set__topology_k__BackingField(::UnityEngine::MeshTopology value) ;
+constexpr void __set__topology_k__BackingField(UnityEngine::MeshTopology value) ;
 
-constexpr ::UnityEngine::MeshTopology __get__topology_k__BackingField() const;
+constexpr UnityEngine::MeshTopology __get__topology_k__BackingField() const;
 
  int32_t __declspec(property(get=__get__indexStart_k__BackingField, put=__set__indexStart_k__BackingField))  _indexStart_k__BackingField;
 
@@ -102,9 +101,9 @@ constexpr int32_t __get__vertexCount_k__BackingField() const;
 
 // Properties
 
- ::UnityEngine::Bounds __declspec(property(get=get_bounds, put=set_bounds))  bounds;
+ UnityEngine::Bounds __declspec(property(get=get_bounds, put=set_bounds))  bounds;
 
- ::UnityEngine::MeshTopology __declspec(property(get=get_topology, put=set_topology))  topology;
+ UnityEngine::MeshTopology __declspec(property(get=get_topology, put=set_topology))  topology;
 
  int32_t __declspec(property(get=get_indexStart, put=set_indexStart))  indexStart;
 
@@ -120,19 +119,19 @@ constexpr int32_t __get__vertexCount_k__BackingField() const;
 // Methods
 
 /// @brief Method .ctor addr 0x2b73a54 size 0x18 virtual false final false
- void _ctor(int32_t indexStart, int32_t indexCount, ::UnityEngine::MeshTopology topology) ;
+ void _ctor(int32_t indexStart, int32_t indexCount, UnityEngine::MeshTopology topology) ;
 
 /// @brief Method get_bounds addr 0x2b73a6c size 0x14 virtual false final false
- ::UnityEngine::Bounds get_bounds() ;
+ UnityEngine::Bounds get_bounds() ;
 
 /// @brief Method set_bounds addr 0x2b73a80 size 0x14 virtual false final false
- void set_bounds(::UnityEngine::Bounds value) ;
+ void set_bounds(UnityEngine::Bounds value) ;
 
 /// @brief Method get_topology addr 0x2b73a94 size 0x8 virtual false final false
- ::UnityEngine::MeshTopology get_topology() ;
+ UnityEngine::MeshTopology get_topology() ;
 
 /// @brief Method set_topology addr 0x2b73a9c size 0x8 virtual false final false
- void set_topology(::UnityEngine::MeshTopology value) ;
+ void set_topology(UnityEngine::MeshTopology value) ;
 
 /// @brief Method get_indexStart addr 0x2b73aa4 size 0x8 virtual false final false
  int32_t get_indexStart() ;
@@ -171,5 +170,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Rendering
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::SubMeshDescriptor, "UnityEngine.Rendering", "SubMeshDescriptor");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::SubMeshDescriptor, "UnityEngine.Rendering", "SubMeshDescriptor");

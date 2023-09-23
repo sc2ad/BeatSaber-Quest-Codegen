@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseEventBase_1_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class MouseOutEvent;
@@ -9,10 +8,10 @@ class MouseOutEvent;
 // Type: UnityEngine.UIElements::MouseOutEvent
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7314)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7314), inst: 4511 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7314), inst: 4511 }), TypeDefinitionIndex(TypeDefinitionIndex(7314))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7325))
 // CS Name: UnityEngine.UIElements.MouseOutEvent
-class CORDL_TYPE MouseOutEvent : public ::UnityEngine::UIElements::MouseEventBase_1<::UnityEngine::UIElements::MouseOutEvent> {
+class CORDL_TYPE MouseOutEvent : public UnityEngine::UIElements::MouseEventBase_1<UnityEngine::UIElements::MouseOutEvent> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr MouseOutEvent(MouseOutEvent const& ) noexcept = default;
 constexpr MouseOutEvent(MouseOutEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MouseOutEvent(void* ptr) noexcept : ::UnityEngine::UIElements::MouseEventBase_1<::UnityEngine::UIElements::MouseOutEvent>(ptr) {
+constexpr explicit MouseOutEvent(void* ptr) noexcept : UnityEngine::UIElements::MouseEventBase_1<UnityEngine::UIElements::MouseOutEvent>(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::MouseOutEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::MouseOutEvent, "UnityEngine.UIElements", "MouseOutEvent");
+NEED_NO_BOX(UnityEngine::UIElements::MouseOutEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::MouseOutEvent, "UnityEngine.UIElements", "MouseOutEvent");

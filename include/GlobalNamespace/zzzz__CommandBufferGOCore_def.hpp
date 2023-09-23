@@ -1,28 +1,27 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+namespace UnityEngine::Rendering {
+class CommandBuffer;
 }
 namespace UnityEngine::Rendering {
 struct CameraEvent;
 }
 namespace UnityEngine {
-class Camera;
+class Material;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace UnityEngine {
 class Mesh;
-}
-namespace UnityEngine::Rendering {
-class CommandBuffer;
 }
 namespace GlobalNamespace {
 class CommandBufferOwners;
 }
 namespace UnityEngine {
-class Material;
+class Camera;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,7 +33,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15299))
 // CS Name: CommandBufferGOCore
-class CORDL_TYPE CommandBufferGOCore : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE CommandBufferGOCore : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -49,7 +48,7 @@ constexpr CommandBufferGOCore(CommandBufferGOCore const& ) noexcept = default;
 constexpr CommandBufferGOCore(CommandBufferGOCore&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CommandBufferGOCore(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit CommandBufferGOCore(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -70,23 +69,23 @@ constexpr explicit CommandBufferGOCore(void* ptr) noexcept : ::UnityEngine::Mono
 
 // Fields
 
- ::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera,::GlobalNamespace::CommandBufferOwners> __declspec(property(get=__get__cameras, put=__set__cameras))  _cameras;
+ System::Collections::Generic::Dictionary_2<UnityEngine::Camera,GlobalNamespace::CommandBufferOwners> __declspec(property(get=__get__cameras, put=__set__cameras))  _cameras;
 
-constexpr void __set__cameras(::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera,::GlobalNamespace::CommandBufferOwners> value) ;
+constexpr void __set__cameras(System::Collections::Generic::Dictionary_2<UnityEngine::Camera,GlobalNamespace::CommandBufferOwners> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera,::GlobalNamespace::CommandBufferOwners> __get__cameras() const;
+constexpr System::Collections::Generic::Dictionary_2<UnityEngine::Camera,GlobalNamespace::CommandBufferOwners> __get__cameras() const;
 
-static ::UnityEngine::Material __declspec(property(get=__get__material, put=__set__material))  _material;
+static UnityEngine::Material __declspec(property(get=__get__material, put=__set__material))  _material;
 
-static void __set__material(::UnityEngine::Material value) ;
+static void __set__material(UnityEngine::Material value) ;
 
-static ::UnityEngine::Material __get__material() ;
+static UnityEngine::Material __get__material() ;
 
- ::UnityEngine::Mesh __declspec(property(get=__get__mesh, put=__set__mesh))  _mesh;
+ UnityEngine::Mesh __declspec(property(get=__get__mesh, put=__set__mesh))  _mesh;
 
-constexpr void __set__mesh(::UnityEngine::Mesh value) ;
+constexpr void __set__mesh(UnityEngine::Mesh value) ;
 
-constexpr ::UnityEngine::Mesh __get__mesh() const;
+constexpr UnityEngine::Mesh __get__mesh() const;
 
 
 // Methods
@@ -101,13 +100,13 @@ constexpr ::UnityEngine::Mesh __get__mesh() const;
  void OnWillRenderObject() ;
 
 /// @brief Method CommandBufferCameraEvent addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Rendering::CameraEvent CommandBufferCameraEvent() ;
+ UnityEngine::Rendering::CameraEvent CommandBufferCameraEvent() ;
 
 /// @brief Method CreateCommandBuffer addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Rendering::CommandBuffer CreateCommandBuffer(::UnityEngine::Camera camera) ;
+ UnityEngine::Rendering::CommandBuffer CreateCommandBuffer(UnityEngine::Camera camera) ;
 
 /// @brief Method CamerasDict addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera,::GlobalNamespace::CommandBufferOwners> CamerasDict() ;
+ System::Collections::Generic::Dictionary_2<UnityEngine::Camera,GlobalNamespace::CommandBufferOwners> CamerasDict() ;
 
 // Ctor Parameters []
 explicit CommandBufferGOCore() ;
@@ -119,6 +118,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::CommandBufferGOCore);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CommandBufferGOCore, "", "CommandBufferGOCore");
+NEED_NO_BOX(GlobalNamespace::CommandBufferGOCore);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CommandBufferGOCore, "", "CommandBufferGOCore");

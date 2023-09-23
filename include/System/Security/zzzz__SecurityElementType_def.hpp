@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security {
 struct SecurityElementType;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Regular offset 0
-static ::System::Security::SecurityElementType const Regular;
+static System::Security::SecurityElementType const Regular;
 
 /// @brief Field Format offset 0
-static ::System::Security::SecurityElementType const Format;
+static System::Security::SecurityElementType const Format;
 
 /// @brief Field Comment offset 0
-static ::System::Security::SecurityElementType const Comment;
+static System::Security::SecurityElementType const Comment;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Security
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::SecurityElementType, "System.Security", "SecurityElementType");
+DEFINE_IL2CPP_ARG_TYPE(System::Security::SecurityElementType, "System.Security", "SecurityElementType");

@@ -3,18 +3,17 @@
 #include "System/Globalization/zzzz__Calendar_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
+namespace System {
+struct DateTime;
+}
+namespace System::Globalization {
+class EraInfo;
+}
 namespace System::Globalization {
 class GregorianCalendarHelper;
 }
 namespace System {
-struct DateTime;
-}
-namespace System {
 struct DayOfWeek;
-}
-namespace System::Globalization {
-class EraInfo;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -26,7 +25,7 @@ namespace System::Globalization {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3681))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3692))
 // CS Name: System.Globalization.ThaiBuddhistCalendar
-class CORDL_TYPE ThaiBuddhistCalendar : public ::System::Globalization::Calendar {
+class CORDL_TYPE ThaiBuddhistCalendar : public System::Globalization::Calendar {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -41,7 +40,7 @@ constexpr ThaiBuddhistCalendar(ThaiBuddhistCalendar const& ) noexcept = default;
 constexpr ThaiBuddhistCalendar(ThaiBuddhistCalendar&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ThaiBuddhistCalendar(void* ptr) noexcept : ::System::Globalization::Calendar(ptr) {
+constexpr explicit ThaiBuddhistCalendar(void* ptr) noexcept : System::Globalization::Calendar(ptr) {
 }
 
 
@@ -62,24 +61,24 @@ constexpr explicit ThaiBuddhistCalendar(void* ptr) noexcept : ::System::Globaliz
 
 // Fields
 
-static ::ArrayW<::System::Globalization::EraInfo> __declspec(property(get=__get_thaiBuddhistEraInfo, put=__set_thaiBuddhistEraInfo))  thaiBuddhistEraInfo;
+static ::ArrayW<System::Globalization::EraInfo> __declspec(property(get=__get_thaiBuddhistEraInfo, put=__set_thaiBuddhistEraInfo))  thaiBuddhistEraInfo;
 
-static void __set_thaiBuddhistEraInfo(::ArrayW<::System::Globalization::EraInfo> value) ;
+static void __set_thaiBuddhistEraInfo(::ArrayW<System::Globalization::EraInfo> value) ;
 
-static ::ArrayW<::System::Globalization::EraInfo> __get_thaiBuddhistEraInfo() ;
+static ::ArrayW<System::Globalization::EraInfo> __get_thaiBuddhistEraInfo() ;
 
- ::System::Globalization::GregorianCalendarHelper __declspec(property(get=__get_helper, put=__set_helper))  helper;
+ System::Globalization::GregorianCalendarHelper __declspec(property(get=__get_helper, put=__set_helper))  helper;
 
-constexpr void __set_helper(::System::Globalization::GregorianCalendarHelper value) ;
+constexpr void __set_helper(System::Globalization::GregorianCalendarHelper value) ;
 
-constexpr ::System::Globalization::GregorianCalendarHelper __get_helper() const;
+constexpr System::Globalization::GregorianCalendarHelper __get_helper() const;
 
 
 // Properties
 
- ::System::DateTime __declspec(property(get=get_MinSupportedDateTime))  MinSupportedDateTime;
+ System::DateTime __declspec(property(get=get_MinSupportedDateTime))  MinSupportedDateTime;
 
- ::System::DateTime __declspec(property(get=get_MaxSupportedDateTime))  MaxSupportedDateTime;
+ System::DateTime __declspec(property(get=get_MaxSupportedDateTime))  MaxSupportedDateTime;
 
  int32_t __declspec(property(get=get_ID))  ID;
 
@@ -91,10 +90,10 @@ constexpr ::System::Globalization::GregorianCalendarHelper __get_helper() const;
 // Methods
 
 /// @brief Method get_MinSupportedDateTime addr 0x23fadac size 0x58 virtual true final false
- ::System::DateTime get_MinSupportedDateTime() ;
+ System::DateTime get_MinSupportedDateTime() ;
 
 /// @brief Method get_MaxSupportedDateTime addr 0x23fae04 size 0x58 virtual true final false
- ::System::DateTime get_MaxSupportedDateTime() ;
+ System::DateTime get_MaxSupportedDateTime() ;
 
 // Ctor Parameters []
 explicit ThaiBuddhistCalendar() ;
@@ -112,28 +111,28 @@ explicit ThaiBuddhistCalendar() ;
  int32_t GetDaysInYear(int32_t year, int32_t era) ;
 
 /// @brief Method GetDayOfMonth addr 0x23faf40 size 0x1c virtual true final false
- int32_t GetDayOfMonth(::System::DateTime time) ;
+ int32_t GetDayOfMonth(System::DateTime time) ;
 
 /// @brief Method GetDayOfWeek addr 0x23faf5c size 0x1c virtual true final false
- ::System::DayOfWeek GetDayOfWeek(::System::DateTime time) ;
+ System::DayOfWeek GetDayOfWeek(System::DateTime time) ;
 
 /// @brief Method GetMonthsInYear addr 0x23faf78 size 0x1c virtual true final false
  int32_t GetMonthsInYear(int32_t year, int32_t era) ;
 
 /// @brief Method GetEra addr 0x23faf94 size 0x1c virtual true final false
- int32_t GetEra(::System::DateTime time) ;
+ int32_t GetEra(System::DateTime time) ;
 
 /// @brief Method GetMonth addr 0x23fafb0 size 0x1c virtual true final false
- int32_t GetMonth(::System::DateTime time) ;
+ int32_t GetMonth(System::DateTime time) ;
 
 /// @brief Method GetYear addr 0x23fafcc size 0x1c virtual true final false
- int32_t GetYear(::System::DateTime time) ;
+ int32_t GetYear(System::DateTime time) ;
 
 /// @brief Method IsLeapYear addr 0x23fafe8 size 0x1c virtual true final false
  bool IsLeapYear(int32_t year, int32_t era) ;
 
 /// @brief Method ToDateTime addr 0x23fb004 size 0x24 virtual true final false
- ::System::DateTime ToDateTime(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond, int32_t era) ;
+ System::DateTime ToDateTime(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond, int32_t era) ;
 
 /// @brief Method get_Eras addr 0x23fb028 size 0x1c virtual true final false
  ::ArrayW<int32_t> get_Eras() ;
@@ -151,6 +150,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Globalization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Globalization::ThaiBuddhistCalendar);
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::ThaiBuddhistCalendar, "System.Globalization", "ThaiBuddhistCalendar");
+NEED_NO_BOX(System::Globalization::ThaiBuddhistCalendar);
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::ThaiBuddhistCalendar, "System.Globalization", "ThaiBuddhistCalendar");

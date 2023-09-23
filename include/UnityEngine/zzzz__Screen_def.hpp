@@ -5,15 +5,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Resolution;
 }
 namespace UnityEngine {
-struct ScreenOrientation;
+struct FullScreenMode;
 }
 namespace UnityEngine {
-struct FullScreenMode;
+struct ScreenOrientation;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -67,13 +66,13 @@ static int32_t __declspec(property(get=get_height))  height;
 
 static float_t __declspec(property(get=get_dpi))  dpi;
 
-static ::UnityEngine::ScreenOrientation __declspec(property(get=get_orientation))  orientation;
+static UnityEngine::ScreenOrientation __declspec(property(get=get_orientation))  orientation;
 
-static ::UnityEngine::Resolution __declspec(property(get=get_currentResolution))  currentResolution;
+static UnityEngine::Resolution __declspec(property(get=get_currentResolution))  currentResolution;
 
 static bool __declspec(property(get=get_fullScreen, put=set_fullScreen))  fullScreen;
 
-static ::ArrayW<::UnityEngine::Resolution> __declspec(property(get=get_resolutions))  resolutions;
+static ::ArrayW<UnityEngine::Resolution> __declspec(property(get=get_resolutions))  resolutions;
 
 
 // Methods
@@ -88,13 +87,13 @@ static int32_t get_height() ;
 static float_t get_dpi() ;
 
 /// @brief Method GetScreenOrientation addr 0x2b4201c size 0x28 virtual false final false
-static ::UnityEngine::ScreenOrientation GetScreenOrientation() ;
+static UnityEngine::ScreenOrientation GetScreenOrientation() ;
 
 /// @brief Method get_orientation addr 0x2b42044 size 0x28 virtual false final false
-static ::UnityEngine::ScreenOrientation get_orientation() ;
+static UnityEngine::ScreenOrientation get_orientation() ;
 
 /// @brief Method get_currentResolution addr 0x2b4206c size 0x4c virtual false final false
-static ::UnityEngine::Resolution get_currentResolution() ;
+static UnityEngine::Resolution get_currentResolution() ;
 
 /// @brief Method get_fullScreen addr 0x2b420f4 size 0x28 virtual false final false
 static bool get_fullScreen() ;
@@ -103,7 +102,7 @@ static bool get_fullScreen() ;
 static void set_fullScreen(bool value) ;
 
 /// @brief Method SetResolution addr 0x2b42158 size 0x5c virtual false final false
-static void SetResolution(int32_t width, int32_t height, ::UnityEngine::FullScreenMode fullscreenMode, int32_t preferredRefreshRate) ;
+static void SetResolution(int32_t width, int32_t height, UnityEngine::FullScreenMode fullscreenMode, int32_t preferredRefreshRate) ;
 
 /// @brief Method SetResolution addr 0x2b421b4 size 0x64 virtual false final false
 static void SetResolution(int32_t width, int32_t height, bool fullscreen, int32_t preferredRefreshRate) ;
@@ -112,15 +111,14 @@ static void SetResolution(int32_t width, int32_t height, bool fullscreen, int32_
 static void SetResolution(int32_t width, int32_t height, bool fullscreen) ;
 
 /// @brief Method get_resolutions addr 0x2b42278 size 0x28 virtual false final false
-static ::ArrayW<::UnityEngine::Resolution> get_resolutions() ;
+static ::ArrayW<UnityEngine::Resolution> get_resolutions() ;
 
 /// @brief Method get_currentResolution_Injected addr 0x2b420b8 size 0x3c virtual false final false
-static void get_currentResolution_Injected(ByRef<::UnityEngine::Resolution> ret) ;
+static void get_currentResolution_Injected(ByRef<UnityEngine::Resolution> ret) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Screen);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Screen, "UnityEngine", "Screen");
+NEED_NO_BOX(UnityEngine::Screen);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Screen, "UnityEngine", "Screen");

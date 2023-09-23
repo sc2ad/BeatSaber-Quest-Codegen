@@ -3,23 +3,22 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Events {
 template<typename T0,typename T1,typename T2>
 class UnityAction_3;
 }
 namespace UnityEngine::Events {
-template<::cordl_internals::il2cpp_reference_type T0,::cordl_internals::il2cpp_reference_type T1,::cordl_internals::il2cpp_reference_type T2>
-class UnityAction_3<T0,T1,T2>;
+template<::cordl_internals::il2cpp_reference_type T0>
+class UnityAction_3<T0,int32_t,int32_t>;
 }
 namespace UnityEngine::Events {
 template<::cordl_internals::il2cpp_reference_type T0,::cordl_internals::il2cpp_reference_type T2>
 class UnityAction_3<T0,bool,T2>;
 }
 namespace UnityEngine::Events {
-template<::cordl_internals::il2cpp_reference_type T0>
-class UnityAction_3<T0,int32_t,int32_t>;
+template<::cordl_internals::il2cpp_reference_type T0,::cordl_internals::il2cpp_reference_type T1,::cordl_internals::il2cpp_reference_type T2>
+class UnityAction_3<T0,T1,T2>;
 }
 // Type: UnityEngine.Events::UnityAction`3
 // Type: UnityEngine.Events::UnityAction`3
@@ -30,7 +29,7 @@ template<::cordl_internals::il2cpp_reference_type T0>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10402)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10402), inst: 5153 })
 // CS Name: UnityEngine.Events.UnityAction`3
-class CORDL_TYPE UnityAction_3<T0,int32_t,int32_t> : public ::System::MulticastDelegate {
+class CORDL_TYPE UnityAction_3<T0,int32_t,int32_t> : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -45,7 +44,7 @@ constexpr UnityAction_3(UnityAction_3 const& ) noexcept = default;
 constexpr UnityAction_3(UnityAction_3&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UnityAction_3(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit UnityAction_3(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -84,10 +83,10 @@ namespace UnityEngine::Events {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T0,::cordl_internals::il2cpp_reference_type T1,::cordl_internals::il2cpp_reference_type T2>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610)), TypeDefinitionIndex(TypeDefinitionIndex(10402))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10402)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10402), inst: 5155 })
 // CS Name: UnityEngine.Events.UnityAction`3
-class CORDL_TYPE UnityAction_3<T0,T1,T2> : public ::System::MulticastDelegate {
+class CORDL_TYPE UnityAction_3<T0,T1,T2> : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -102,7 +101,7 @@ constexpr UnityAction_3(UnityAction_3 const& ) noexcept = default;
 constexpr UnityAction_3(UnityAction_3&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UnityAction_3(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit UnityAction_3(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -144,7 +143,7 @@ template<::cordl_internals::il2cpp_reference_type T0,::cordl_internals::il2cpp_r
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610)), TypeDefinitionIndex(TypeDefinitionIndex(10402))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10402), inst: 7476 })
 // CS Name: UnityEngine.Events.UnityAction`3
-class CORDL_TYPE UnityAction_3<T0,bool,T2> : public ::System::MulticastDelegate {
+class CORDL_TYPE UnityAction_3<T0,bool,T2> : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -159,7 +158,7 @@ constexpr UnityAction_3(UnityAction_3 const& ) noexcept = default;
 constexpr UnityAction_3(UnityAction_3&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UnityAction_3(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit UnityAction_3(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -193,5 +192,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Events
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::Events::UnityAction_3, "UnityEngine.Events", "UnityAction`3");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::Events::UnityAction_3, "UnityEngine.Events", "UnityAction`3");

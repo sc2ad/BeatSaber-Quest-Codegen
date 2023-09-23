@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class IDisposable;
 }
@@ -21,8 +20,8 @@ namespace Mono::Security::Protocol::Ntlm {
 class CORDL_TYPE ChallengeResponse : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -153,6 +152,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Security::Protocol::Ntlm
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Security::Protocol::Ntlm::ChallengeResponse);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Protocol::Ntlm::ChallengeResponse, "Mono.Security.Protocol.Ntlm", "ChallengeResponse");
+NEED_NO_BOX(Mono::Security::Protocol::Ntlm::ChallengeResponse);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::ChallengeResponse, "Mono.Security.Protocol.Ntlm", "ChallengeResponse");

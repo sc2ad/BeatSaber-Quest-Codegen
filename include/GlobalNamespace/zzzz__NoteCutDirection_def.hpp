@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 struct NoteCutDirection;
@@ -75,38 +74,37 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Up offset 0
-static ::GlobalNamespace::NoteCutDirection const Up;
+static GlobalNamespace::NoteCutDirection const Up;
 
 /// @brief Field Down offset 0
-static ::GlobalNamespace::NoteCutDirection const Down;
+static GlobalNamespace::NoteCutDirection const Down;
 
 /// @brief Field Left offset 0
-static ::GlobalNamespace::NoteCutDirection const Left;
+static GlobalNamespace::NoteCutDirection const Left;
 
 /// @brief Field Right offset 0
-static ::GlobalNamespace::NoteCutDirection const Right;
+static GlobalNamespace::NoteCutDirection const Right;
 
 /// @brief Field UpLeft offset 0
-static ::GlobalNamespace::NoteCutDirection const UpLeft;
+static GlobalNamespace::NoteCutDirection const UpLeft;
 
 /// @brief Field UpRight offset 0
-static ::GlobalNamespace::NoteCutDirection const UpRight;
+static GlobalNamespace::NoteCutDirection const UpRight;
 
 /// @brief Field DownLeft offset 0
-static ::GlobalNamespace::NoteCutDirection const DownLeft;
+static GlobalNamespace::NoteCutDirection const DownLeft;
 
 /// @brief Field DownRight offset 0
-static ::GlobalNamespace::NoteCutDirection const DownRight;
+static GlobalNamespace::NoteCutDirection const DownRight;
 
 /// @brief Field Any offset 0
-static ::GlobalNamespace::NoteCutDirection const Any;
+static GlobalNamespace::NoteCutDirection const Any;
 
 /// @brief Field None offset 0
-static ::GlobalNamespace::NoteCutDirection const None;
+static GlobalNamespace::NoteCutDirection const None;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoteCutDirection, "", "NoteCutDirection");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutDirection, "", "NoteCutDirection");

@@ -1,30 +1,29 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class GameplayCoreSceneSetupData;
-}
-namespace GlobalNamespace {
-class BeatLine;
-}
-namespace GlobalNamespace {
-class ObstacleController;
 }
 namespace GlobalNamespace {
 class BombNoteController;
 }
 namespace GlobalNamespace {
+class BurstSliderGameNoteController;
+}
+namespace GlobalNamespace {
 class GameNoteController;
 }
 namespace GlobalNamespace {
-class NoteLineConnectionController;
+class ObstacleController;
 }
 namespace GlobalNamespace {
 class SliderController;
 }
 namespace GlobalNamespace {
-class BurstSliderGameNoteController;
+class NoteLineConnectionController;
+}
+namespace GlobalNamespace {
+class BeatLine;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -36,7 +35,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11080))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5475))
 // CS Name: BeatmapObjectsInstaller
-class CORDL_TYPE BeatmapObjectsInstaller : public ::Zenject::MonoInstaller {
+class CORDL_TYPE BeatmapObjectsInstaller : public Zenject::MonoInstaller {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -51,7 +50,7 @@ constexpr BeatmapObjectsInstaller(BeatmapObjectsInstaller const& ) noexcept = de
 constexpr BeatmapObjectsInstaller(BeatmapObjectsInstaller&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BeatmapObjectsInstaller(void* ptr) noexcept : ::Zenject::MonoInstaller(ptr) {
+constexpr explicit BeatmapObjectsInstaller(void* ptr) noexcept : Zenject::MonoInstaller(ptr) {
 }
 
 
@@ -72,83 +71,83 @@ constexpr explicit BeatmapObjectsInstaller(void* ptr) noexcept : ::Zenject::Mono
 
 // Fields
 
- ::GlobalNamespace::GameNoteController __declspec(property(get=__get__normalBasicNotePrefab, put=__set__normalBasicNotePrefab))  _normalBasicNotePrefab;
+ GlobalNamespace::GameNoteController __declspec(property(get=__get__normalBasicNotePrefab, put=__set__normalBasicNotePrefab))  _normalBasicNotePrefab;
 
-constexpr void __set__normalBasicNotePrefab(::GlobalNamespace::GameNoteController value) ;
+constexpr void __set__normalBasicNotePrefab(GlobalNamespace::GameNoteController value) ;
 
-constexpr ::GlobalNamespace::GameNoteController __get__normalBasicNotePrefab() const;
+constexpr GlobalNamespace::GameNoteController __get__normalBasicNotePrefab() const;
 
- ::GlobalNamespace::GameNoteController __declspec(property(get=__get__proModeNotePrefab, put=__set__proModeNotePrefab))  _proModeNotePrefab;
+ GlobalNamespace::GameNoteController __declspec(property(get=__get__proModeNotePrefab, put=__set__proModeNotePrefab))  _proModeNotePrefab;
 
-constexpr void __set__proModeNotePrefab(::GlobalNamespace::GameNoteController value) ;
+constexpr void __set__proModeNotePrefab(GlobalNamespace::GameNoteController value) ;
 
-constexpr ::GlobalNamespace::GameNoteController __get__proModeNotePrefab() const;
+constexpr GlobalNamespace::GameNoteController __get__proModeNotePrefab() const;
 
- ::GlobalNamespace::GameNoteController __declspec(property(get=__get__burstSliderHeadNotePrefab, put=__set__burstSliderHeadNotePrefab))  _burstSliderHeadNotePrefab;
+ GlobalNamespace::GameNoteController __declspec(property(get=__get__burstSliderHeadNotePrefab, put=__set__burstSliderHeadNotePrefab))  _burstSliderHeadNotePrefab;
 
-constexpr void __set__burstSliderHeadNotePrefab(::GlobalNamespace::GameNoteController value) ;
+constexpr void __set__burstSliderHeadNotePrefab(GlobalNamespace::GameNoteController value) ;
 
-constexpr ::GlobalNamespace::GameNoteController __get__burstSliderHeadNotePrefab() const;
+constexpr GlobalNamespace::GameNoteController __get__burstSliderHeadNotePrefab() const;
 
- ::GlobalNamespace::BurstSliderGameNoteController __declspec(property(get=__get__burstSliderNotePrefab, put=__set__burstSliderNotePrefab))  _burstSliderNotePrefab;
+ GlobalNamespace::BurstSliderGameNoteController __declspec(property(get=__get__burstSliderNotePrefab, put=__set__burstSliderNotePrefab))  _burstSliderNotePrefab;
 
-constexpr void __set__burstSliderNotePrefab(::GlobalNamespace::BurstSliderGameNoteController value) ;
+constexpr void __set__burstSliderNotePrefab(GlobalNamespace::BurstSliderGameNoteController value) ;
 
-constexpr ::GlobalNamespace::BurstSliderGameNoteController __get__burstSliderNotePrefab() const;
+constexpr GlobalNamespace::BurstSliderGameNoteController __get__burstSliderNotePrefab() const;
 
- ::GlobalNamespace::BurstSliderGameNoteController __declspec(property(get=__get__burstSliderFillPrefab, put=__set__burstSliderFillPrefab))  _burstSliderFillPrefab;
+ GlobalNamespace::BurstSliderGameNoteController __declspec(property(get=__get__burstSliderFillPrefab, put=__set__burstSliderFillPrefab))  _burstSliderFillPrefab;
 
-constexpr void __set__burstSliderFillPrefab(::GlobalNamespace::BurstSliderGameNoteController value) ;
+constexpr void __set__burstSliderFillPrefab(GlobalNamespace::BurstSliderGameNoteController value) ;
 
-constexpr ::GlobalNamespace::BurstSliderGameNoteController __get__burstSliderFillPrefab() const;
+constexpr GlobalNamespace::BurstSliderGameNoteController __get__burstSliderFillPrefab() const;
 
- ::GlobalNamespace::BombNoteController __declspec(property(get=__get__bombNotePrefab, put=__set__bombNotePrefab))  _bombNotePrefab;
+ GlobalNamespace::BombNoteController __declspec(property(get=__get__bombNotePrefab, put=__set__bombNotePrefab))  _bombNotePrefab;
 
-constexpr void __set__bombNotePrefab(::GlobalNamespace::BombNoteController value) ;
+constexpr void __set__bombNotePrefab(GlobalNamespace::BombNoteController value) ;
 
-constexpr ::GlobalNamespace::BombNoteController __get__bombNotePrefab() const;
+constexpr GlobalNamespace::BombNoteController __get__bombNotePrefab() const;
 
- ::GlobalNamespace::ObstacleController __declspec(property(get=__get__obstaclePrefab, put=__set__obstaclePrefab))  _obstaclePrefab;
+ GlobalNamespace::ObstacleController __declspec(property(get=__get__obstaclePrefab, put=__set__obstaclePrefab))  _obstaclePrefab;
 
-constexpr void __set__obstaclePrefab(::GlobalNamespace::ObstacleController value) ;
+constexpr void __set__obstaclePrefab(GlobalNamespace::ObstacleController value) ;
 
-constexpr ::GlobalNamespace::ObstacleController __get__obstaclePrefab() const;
+constexpr GlobalNamespace::ObstacleController __get__obstaclePrefab() const;
 
- ::GlobalNamespace::SliderController __declspec(property(get=__get__sliderShortPrefab, put=__set__sliderShortPrefab))  _sliderShortPrefab;
+ GlobalNamespace::SliderController __declspec(property(get=__get__sliderShortPrefab, put=__set__sliderShortPrefab))  _sliderShortPrefab;
 
-constexpr void __set__sliderShortPrefab(::GlobalNamespace::SliderController value) ;
+constexpr void __set__sliderShortPrefab(GlobalNamespace::SliderController value) ;
 
-constexpr ::GlobalNamespace::SliderController __get__sliderShortPrefab() const;
+constexpr GlobalNamespace::SliderController __get__sliderShortPrefab() const;
 
- ::GlobalNamespace::SliderController __declspec(property(get=__get__sliderMediumPrefab, put=__set__sliderMediumPrefab))  _sliderMediumPrefab;
+ GlobalNamespace::SliderController __declspec(property(get=__get__sliderMediumPrefab, put=__set__sliderMediumPrefab))  _sliderMediumPrefab;
 
-constexpr void __set__sliderMediumPrefab(::GlobalNamespace::SliderController value) ;
+constexpr void __set__sliderMediumPrefab(GlobalNamespace::SliderController value) ;
 
-constexpr ::GlobalNamespace::SliderController __get__sliderMediumPrefab() const;
+constexpr GlobalNamespace::SliderController __get__sliderMediumPrefab() const;
 
- ::GlobalNamespace::SliderController __declspec(property(get=__get__sliderLongPrefab, put=__set__sliderLongPrefab))  _sliderLongPrefab;
+ GlobalNamespace::SliderController __declspec(property(get=__get__sliderLongPrefab, put=__set__sliderLongPrefab))  _sliderLongPrefab;
 
-constexpr void __set__sliderLongPrefab(::GlobalNamespace::SliderController value) ;
+constexpr void __set__sliderLongPrefab(GlobalNamespace::SliderController value) ;
 
-constexpr ::GlobalNamespace::SliderController __get__sliderLongPrefab() const;
+constexpr GlobalNamespace::SliderController __get__sliderLongPrefab() const;
 
- ::GlobalNamespace::NoteLineConnectionController __declspec(property(get=__get__noteLineConnectionControllerPrefab, put=__set__noteLineConnectionControllerPrefab))  _noteLineConnectionControllerPrefab;
+ GlobalNamespace::NoteLineConnectionController __declspec(property(get=__get__noteLineConnectionControllerPrefab, put=__set__noteLineConnectionControllerPrefab))  _noteLineConnectionControllerPrefab;
 
-constexpr void __set__noteLineConnectionControllerPrefab(::GlobalNamespace::NoteLineConnectionController value) ;
+constexpr void __set__noteLineConnectionControllerPrefab(GlobalNamespace::NoteLineConnectionController value) ;
 
-constexpr ::GlobalNamespace::NoteLineConnectionController __get__noteLineConnectionControllerPrefab() const;
+constexpr GlobalNamespace::NoteLineConnectionController __get__noteLineConnectionControllerPrefab() const;
 
- ::GlobalNamespace::BeatLine __declspec(property(get=__get__beatLinePrefab, put=__set__beatLinePrefab))  _beatLinePrefab;
+ GlobalNamespace::BeatLine __declspec(property(get=__get__beatLinePrefab, put=__set__beatLinePrefab))  _beatLinePrefab;
 
-constexpr void __set__beatLinePrefab(::GlobalNamespace::BeatLine value) ;
+constexpr void __set__beatLinePrefab(GlobalNamespace::BeatLine value) ;
 
-constexpr ::GlobalNamespace::BeatLine __get__beatLinePrefab() const;
+constexpr GlobalNamespace::BeatLine __get__beatLinePrefab() const;
 
- ::GlobalNamespace::GameplayCoreSceneSetupData __declspec(property(get=__get__sceneSetupData, put=__set__sceneSetupData))  _sceneSetupData;
+ GlobalNamespace::GameplayCoreSceneSetupData __declspec(property(get=__get__sceneSetupData, put=__set__sceneSetupData))  _sceneSetupData;
 
-constexpr void __set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData value) ;
+constexpr void __set__sceneSetupData(GlobalNamespace::GameplayCoreSceneSetupData value) ;
 
-constexpr ::GlobalNamespace::GameplayCoreSceneSetupData __get__sceneSetupData() const;
+constexpr GlobalNamespace::GameplayCoreSceneSetupData __get__sceneSetupData() const;
 
 
 // Methods
@@ -166,6 +165,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BeatmapObjectsInstaller);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapObjectsInstaller, "", "BeatmapObjectsInstaller");
+NEED_NO_BOX(GlobalNamespace::BeatmapObjectsInstaller);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectsInstaller, "", "BeatmapObjectsInstaller");

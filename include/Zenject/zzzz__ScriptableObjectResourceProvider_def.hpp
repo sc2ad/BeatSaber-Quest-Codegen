@@ -4,7 +4,19 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class IProvider;
+}
+namespace System {
+class Action;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
 namespace System {
 class Type;
 }
@@ -15,25 +27,12 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace Zenject {
-struct TypeValuePair;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace System {
-class Action;
-}
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
 namespace Zenject {
-class IProvider;
+struct TypeValuePair;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -43,7 +42,7 @@ namespace Zenject {
 class ScriptableObjectResourceProvider;
 }
 namespace Zenject {
-class ____Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0;
+class Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0;
 }
 // Type: ::<>c__DisplayClass13_0
 namespace Zenject {
@@ -51,71 +50,71 @@ namespace Zenject {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11181))
 // CS Name: Zenject.ScriptableObjectResourceProvider::<>c__DisplayClass13_0
-class CORDL_TYPE ____Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0() = default;
+virtual ~Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0", modifiers: " const&", def_value: None }]
-constexpr ____Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0(____Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0", modifiers: " const&", def_value: None }]
+constexpr Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0(Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0", modifiers: "&&", def_value: None }]
-constexpr ____Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0(____Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0", modifiers: "&&", def_value: None }]
+constexpr Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0(Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0& operator=(std::nullptr_t) noexcept {
+  constexpr Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0& operator=(void* o) noexcept {
+  constexpr Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0& operator=(____Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0&& o) noexcept = default;
-  constexpr ____Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0& operator=(____Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0 const& o) noexcept = default;
+  constexpr Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0& operator=(Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0&& o) noexcept = default;
+  constexpr Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0& operator=(Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get_buffer, put=__set_buffer))  buffer;
+ System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get_buffer, put=__set_buffer))  buffer;
 
-constexpr void __set_buffer(::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> value) ;
+constexpr void __set_buffer(System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> __get_buffer() const;
+constexpr System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> __get_buffer() const;
 
- ::Zenject::ScriptableObjectResourceProvider __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ Zenject::ScriptableObjectResourceProvider __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::Zenject::ScriptableObjectResourceProvider value) ;
+constexpr void __set___4__this(Zenject::ScriptableObjectResourceProvider value) ;
 
-constexpr ::Zenject::ScriptableObjectResourceProvider __get___4__this() const;
+constexpr Zenject::ScriptableObjectResourceProvider __get___4__this() const;
 
- ::System::Collections::Generic::List_1<::Zenject::TypeValuePair> __declspec(property(get=__get_args, put=__set_args))  args;
+ System::Collections::Generic::List_1<Zenject::TypeValuePair> __declspec(property(get=__get_args, put=__set_args))  args;
 
-constexpr void __set_args(::System::Collections::Generic::List_1<::Zenject::TypeValuePair> value) ;
+constexpr void __set_args(System::Collections::Generic::List_1<Zenject::TypeValuePair> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair> __get_args() const;
+constexpr System::Collections::Generic::List_1<Zenject::TypeValuePair> __get_args() const;
 
- ::Zenject::InjectContext __declspec(property(get=__get_context, put=__set_context))  context;
+ Zenject::InjectContext __declspec(property(get=__get_context, put=__set_context))  context;
 
-constexpr void __set_context(::Zenject::InjectContext value) ;
+constexpr void __set_context(Zenject::InjectContext value) ;
 
-constexpr ::Zenject::InjectContext __get_context() const;
+constexpr Zenject::InjectContext __get_context() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0() ;
+explicit Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0() ;
 
 /// @brief Method .ctor addr 0x2d916b8 size 0x8 virtual false final false
  void _ctor() ;
@@ -127,7 +126,7 @@ explicit ____Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0() 
 static ::bs_hook::Il2CppWrapperType __zenCreate(::ArrayW<::bs_hook::Il2CppWrapperType> P_0) ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x2d918ac size 0x1c0 virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -142,10 +141,10 @@ namespace Zenject {
 class CORDL_TYPE ScriptableObjectResourceProvider : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using __c__DisplayClass13_0 = ::Zenject::____Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0;
+using __c__DisplayClass13_0 = Zenject::Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0;
 
-/// @brief Convert operator to ::Zenject::IProvider
-constexpr operator  ::Zenject::IProvider() const noexcept;
+/// @brief Convert operator to Zenject::IProvider
+constexpr operator  Zenject::IProvider() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
@@ -180,17 +179,17 @@ constexpr explicit ScriptableObjectResourceProvider(void* ptr) noexcept : ::bs_h
 
 // Fields
 
- ::Zenject::DiContainer __declspec(property(get=__get__container, put=__set__container))  _container;
+ Zenject::DiContainer __declspec(property(get=__get__container, put=__set__container))  _container;
 
-constexpr void __set__container(::Zenject::DiContainer value) ;
+constexpr void __set__container(Zenject::DiContainer value) ;
 
-constexpr ::Zenject::DiContainer __get__container() const;
+constexpr Zenject::DiContainer __get__container() const;
 
- ::System::Type __declspec(property(get=__get__resourceType, put=__set__resourceType))  _resourceType;
+ System::Type __declspec(property(get=__get__resourceType, put=__set__resourceType))  _resourceType;
 
-constexpr void __set__resourceType(::System::Type value) ;
+constexpr void __set__resourceType(System::Type value) ;
 
-constexpr ::System::Type __get__resourceType() const;
+constexpr System::Type __get__resourceType() const;
 
  ::StringW __declspec(property(get=__get__resourcePath, put=__set__resourcePath))  _resourcePath;
 
@@ -198,11 +197,11 @@ constexpr void __set__resourcePath(::StringW value) ;
 
 constexpr ::StringW __get__resourcePath() const;
 
- ::System::Collections::Generic::List_1<::Zenject::TypeValuePair> __declspec(property(get=__get__extraArguments, put=__set__extraArguments))  _extraArguments;
+ System::Collections::Generic::List_1<Zenject::TypeValuePair> __declspec(property(get=__get__extraArguments, put=__set__extraArguments))  _extraArguments;
 
-constexpr void __set__extraArguments(::System::Collections::Generic::List_1<::Zenject::TypeValuePair> value) ;
+constexpr void __set__extraArguments(System::Collections::Generic::List_1<Zenject::TypeValuePair> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair> __get__extraArguments() const;
+constexpr System::Collections::Generic::List_1<Zenject::TypeValuePair> __get__extraArguments() const;
 
  bool __declspec(property(get=__get__createNew, put=__set__createNew))  _createNew;
 
@@ -216,11 +215,11 @@ constexpr void __set__concreteIdentifier(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get__concreteIdentifier() const;
 
- ::System::Action_2<::Zenject::InjectContext,::bs_hook::Il2CppWrapperType> __declspec(property(get=__get__instantiateCallback, put=__set__instantiateCallback))  _instantiateCallback;
+ System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> __declspec(property(get=__get__instantiateCallback, put=__set__instantiateCallback))  _instantiateCallback;
 
-constexpr void __set__instantiateCallback(::System::Action_2<::Zenject::InjectContext,::bs_hook::Il2CppWrapperType> value) ;
+constexpr void __set__instantiateCallback(System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> value) ;
 
-constexpr ::System::Action_2<::Zenject::InjectContext,::bs_hook::Il2CppWrapperType> __get__instantiateCallback() const;
+constexpr System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> __get__instantiateCallback() const;
 
 
 // Properties
@@ -232,11 +231,11 @@ constexpr ::System::Action_2<::Zenject::InjectContext,::bs_hook::Il2CppWrapperTy
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "resourcePath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "resourceType", ty: "::System::Type", modifiers: "", def_value: None }, CppParam { name: "container", ty: "::Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "extraArguments", ty: "::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>", modifiers: "", def_value: None }, CppParam { name: "createNew", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "concreteIdentifier", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "instantiateCallback", ty: "::System::Action_2<::Zenject::InjectContext,::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
-explicit ScriptableObjectResourceProvider(::StringW resourcePath, ::System::Type resourceType, ::Zenject::DiContainer container, ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair> extraArguments, bool createNew, ::bs_hook::Il2CppWrapperType concreteIdentifier, ::System::Action_2<::Zenject::InjectContext,::bs_hook::Il2CppWrapperType> instantiateCallback) ;
+// Ctor Parameters [CppParam { name: "resourcePath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "resourceType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "extraArguments", ty: "System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>", modifiers: "", def_value: None }, CppParam { name: "createNew", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "concreteIdentifier", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "instantiateCallback", ty: "System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
+explicit ScriptableObjectResourceProvider(::StringW resourcePath, System::Type resourceType, Zenject::DiContainer container, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair> extraArguments, bool createNew, ::bs_hook::Il2CppWrapperType concreteIdentifier, System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> instantiateCallback) ;
 
 /// @brief Method .ctor addr 0x2d91378 size 0xc8 virtual false final false
- void _ctor(::StringW resourcePath, ::System::Type resourceType, ::Zenject::DiContainer container, ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair> extraArguments, bool createNew, ::bs_hook::Il2CppWrapperType concreteIdentifier, ::System::Action_2<::Zenject::InjectContext,::bs_hook::Il2CppWrapperType> instantiateCallback) ;
+ void _ctor(::StringW resourcePath, System::Type resourceType, Zenject::DiContainer container, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair> extraArguments, bool createNew, ::bs_hook::Il2CppWrapperType concreteIdentifier, System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> instantiateCallback) ;
 
 /// @brief Method get_IsCached addr 0x2d91440 size 0x8 virtual true final true
  bool get_IsCached() ;
@@ -245,17 +244,16 @@ explicit ScriptableObjectResourceProvider(::StringW resourcePath, ::System::Type
  bool get_TypeVariesBasedOnMemberType() ;
 
 /// @brief Method GetInstanceType addr 0x2d91450 size 0x8 virtual true final true
- ::System::Type GetInstanceType(::Zenject::InjectContext context) ;
+ System::Type GetInstanceType(Zenject::InjectContext context) ;
 
 /// @brief Method GetAllInstancesWithInjectSplit addr 0x2d91458 size 0x260 virtual true final true
- void GetAllInstancesWithInjectSplit(::Zenject::InjectContext context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair> args, ByRef<::System::Action> injectAction, ::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> buffer) ;
+ void GetAllInstancesWithInjectSplit(Zenject::InjectContext context, System::Collections::Generic::List_1<Zenject::TypeValuePair> args, ByRef<System::Action> injectAction, System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> buffer) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::ScriptableObjectResourceProvider);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::ScriptableObjectResourceProvider, "Zenject", "ScriptableObjectResourceProvider");
-NEED_NO_BOX(::Zenject::____Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::____Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0, "Zenject", "ScriptableObjectResourceProvider/<>c__DisplayClass13_0");
+NEED_NO_BOX(Zenject::ScriptableObjectResourceProvider);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::ScriptableObjectResourceProvider, "Zenject", "ScriptableObjectResourceProvider");
+NEED_NO_BOX(Zenject::Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0, "Zenject", "ScriptableObjectResourceProvider/<>c__DisplayClass13_0");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Color;
 }
@@ -47,12 +46,11 @@ constexpr explicit ILightWithId(void* ptr) noexcept : ::cordl_internals::Interfa
  int32_t get_lightId() ;
 
 /// @brief Method ColorWasSet addr 0x0 size 0xffffffffffffffff virtual true final false
- void ColorWasSet(::UnityEngine::Color color) ;
+ void ColorWasSet(UnityEngine::Color color) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ILightWithId);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ILightWithId, "", "ILightWithId");
+NEED_NO_BOX(GlobalNamespace::ILightWithId);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ILightWithId, "", "ILightWithId");

@@ -3,9 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
-namespace System::Threading {
-struct CancellationToken;
+namespace UnityEngine {
+class Sprite;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
@@ -14,15 +13,15 @@ class Task_1;
 namespace GlobalNamespace {
 class PreviewDifficultyBeatmapSet;
 }
-namespace UnityEngine {
-class Sprite;
-}
-namespace GlobalNamespace {
-class EnvironmentInfoSO;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace GlobalNamespace {
+class EnvironmentInfoSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -70,13 +69,13 @@ constexpr explicit IPreviewBeatmapLevel(void* ptr) noexcept : ::cordl_internals:
 
  float_t __declspec(property(get=get_songDuration))  songDuration;
 
- ::GlobalNamespace::EnvironmentInfoSO __declspec(property(get=get_environmentInfo))  environmentInfo;
+ GlobalNamespace::EnvironmentInfoSO __declspec(property(get=get_environmentInfo))  environmentInfo;
 
- ::GlobalNamespace::EnvironmentInfoSO __declspec(property(get=get_allDirectionsEnvironmentInfo))  allDirectionsEnvironmentInfo;
+ GlobalNamespace::EnvironmentInfoSO __declspec(property(get=get_allDirectionsEnvironmentInfo))  allDirectionsEnvironmentInfo;
 
- ::ArrayW<::GlobalNamespace::EnvironmentInfoSO> __declspec(property(get=get_environmentInfos))  environmentInfos;
+ ::ArrayW<GlobalNamespace::EnvironmentInfoSO> __declspec(property(get=get_environmentInfos))  environmentInfos;
 
- ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet> __declspec(property(get=get_previewDifficultyBeatmapSets))  previewDifficultyBeatmapSets;
+ System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PreviewDifficultyBeatmapSet> __declspec(property(get=get_previewDifficultyBeatmapSets))  previewDifficultyBeatmapSets;
 
 
 // Methods
@@ -118,24 +117,23 @@ constexpr explicit IPreviewBeatmapLevel(void* ptr) noexcept : ::cordl_internals:
  float_t get_songDuration() ;
 
 /// @brief Method get_environmentInfo addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::EnvironmentInfoSO get_environmentInfo() ;
+ GlobalNamespace::EnvironmentInfoSO get_environmentInfo() ;
 
 /// @brief Method get_allDirectionsEnvironmentInfo addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::EnvironmentInfoSO get_allDirectionsEnvironmentInfo() ;
+ GlobalNamespace::EnvironmentInfoSO get_allDirectionsEnvironmentInfo() ;
 
 /// @brief Method get_environmentInfos addr 0x0 size 0xffffffffffffffff virtual true final false
- ::ArrayW<::GlobalNamespace::EnvironmentInfoSO> get_environmentInfos() ;
+ ::ArrayW<GlobalNamespace::EnvironmentInfoSO> get_environmentInfos() ;
 
 /// @brief Method get_previewDifficultyBeatmapSets addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet> get_previewDifficultyBeatmapSets() ;
+ System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PreviewDifficultyBeatmapSet> get_previewDifficultyBeatmapSets() ;
 
 /// @brief Method GetCoverImageAsync addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite> GetCoverImageAsync(::System::Threading::CancellationToken cancellationToken) ;
+ System::Threading::Tasks::Task_1<UnityEngine::Sprite> GetCoverImageAsync(System::Threading::CancellationToken cancellationToken) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IPreviewBeatmapLevel);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IPreviewBeatmapLevel, "", "IPreviewBeatmapLevel");
+NEED_NO_BOX(GlobalNamespace::IPreviewBeatmapLevel);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IPreviewBeatmapLevel, "", "IPreviewBeatmapLevel");

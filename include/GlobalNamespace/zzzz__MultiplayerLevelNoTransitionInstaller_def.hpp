@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__NoTransitionInstaller_def.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class MultiplayerLevelNoTransitionInstaller;
@@ -12,7 +11,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11118))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6093))
 // CS Name: MultiplayerLevelNoTransitionInstaller
-class CORDL_TYPE MultiplayerLevelNoTransitionInstaller : public ::Zenject::NoTransitionInstaller {
+class CORDL_TYPE MultiplayerLevelNoTransitionInstaller : public Zenject::NoTransitionInstaller {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr MultiplayerLevelNoTransitionInstaller(MultiplayerLevelNoTransitionInst
 constexpr MultiplayerLevelNoTransitionInstaller(MultiplayerLevelNoTransitionInstaller&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerLevelNoTransitionInstaller(void* ptr) noexcept : ::Zenject::NoTransitionInstaller(ptr) {
+constexpr explicit MultiplayerLevelNoTransitionInstaller(void* ptr) noexcept : Zenject::NoTransitionInstaller(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerLevelNoTransitionInstaller);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerLevelNoTransitionInstaller, "", "MultiplayerLevelNoTransitionInstaller");
+NEED_NO_BOX(GlobalNamespace::MultiplayerLevelNoTransitionInstaller);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelNoTransitionInstaller, "", "MultiplayerLevelNoTransitionInstaller");

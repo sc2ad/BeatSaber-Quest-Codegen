@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace System::Collections {
-class IList;
-}
 namespace System::IO {
 class Stream;
+}
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -56,34 +55,34 @@ constexpr explicit ServerNameList(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
- ::System::Collections::IList __declspec(property(get=__get_mServerNameList, put=__set_mServerNameList))  mServerNameList;
+ System::Collections::IList __declspec(property(get=__get_mServerNameList, put=__set_mServerNameList))  mServerNameList;
 
-constexpr void __set_mServerNameList(::System::Collections::IList value) ;
+constexpr void __set_mServerNameList(System::Collections::IList value) ;
 
-constexpr ::System::Collections::IList __get_mServerNameList() const;
+constexpr System::Collections::IList __get_mServerNameList() const;
 
 
 // Properties
 
- ::System::Collections::IList __declspec(property(get=get_ServerNames))  ServerNames;
+ System::Collections::IList __declspec(property(get=get_ServerNames))  ServerNames;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "serverNameList", ty: "::System::Collections::IList", modifiers: "", def_value: None }]
-explicit ServerNameList(::System::Collections::IList serverNameList) ;
+// Ctor Parameters [CppParam { name: "serverNameList", ty: "System::Collections::IList", modifiers: "", def_value: None }]
+explicit ServerNameList(System::Collections::IList serverNameList) ;
 
 /// @brief Method .ctor addr 0xf0809c size 0x78 virtual false final false
- void _ctor(::System::Collections::IList serverNameList) ;
+ void _ctor(System::Collections::IList serverNameList) ;
 
 /// @brief Method get_ServerNames addr 0xf08114 size 0x8 virtual true final false
- ::System::Collections::IList get_ServerNames() ;
+ System::Collections::IList get_ServerNames() ;
 
 /// @brief Method Encode addr 0xf0811c size 0x4bc virtual true final false
- void Encode(::System::IO::Stream output) ;
+ void Encode(System::IO::Stream output) ;
 
 /// @brief Method Parse addr 0xf08674 size 0x29c virtual false final false
-static ::Org::BouncyCastle::Crypto::Tls::ServerNameList Parse(::System::IO::Stream input) ;
+static Org::BouncyCastle::Crypto::Tls::ServerNameList Parse(System::IO::Stream input) ;
 
 /// @brief Method CheckNameType addr 0xf085d8 size 0x9c virtual false final false
 static ::ArrayW<uint8_t> CheckNameType(::ArrayW<uint8_t> nameTypesSeen, uint8_t nameType) ;
@@ -92,6 +91,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::ServerNameList);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::ServerNameList, "Org.BouncyCastle.Crypto.Tls", "ServerNameList");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::ServerNameList);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::ServerNameList, "Org.BouncyCastle.Crypto.Tls", "ServerNameList");

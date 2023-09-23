@@ -2,7 +2,6 @@
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
 struct InternalArrayTypeE;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Empty offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE const Empty;
+static System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE const Empty;
 
 /// @brief Field Single offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE const Single;
+static System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE const Single;
 
 /// @brief Field Jagged offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE const Jagged;
+static System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE const Jagged;
 
 /// @brief Field Rectangular offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE const Rectangular;
+static System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE const Rectangular;
 
 /// @brief Field Base64 offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE const Base64;
+static System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE const Base64;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization::Formatters::Binary
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE, "System.Runtime.Serialization.Formatters.Binary", "InternalArrayTypeE");
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE, "System.Runtime.Serialization.Formatters.Binary", "InternalArrayTypeE");

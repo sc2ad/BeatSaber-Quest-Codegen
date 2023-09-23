@@ -4,20 +4,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class IDictionary_2;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace System::Security::Claims {
 class ClaimsIdentity;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class IDictionary_2;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Security::Claims {
@@ -101,11 +100,11 @@ constexpr void __set_m_userSerializationData(::ArrayW<uint8_t> value) ;
 
 constexpr ::ArrayW<uint8_t> __get_m_userSerializationData() const;
 
- ::System::Collections::Generic::Dictionary_2<::StringW,::StringW> __declspec(property(get=__get_m_properties, put=__set_m_properties))  m_properties;
+ System::Collections::Generic::Dictionary_2<::StringW,::StringW> __declspec(property(get=__get_m_properties, put=__set_m_properties))  m_properties;
 
-constexpr void __set_m_properties(::System::Collections::Generic::Dictionary_2<::StringW,::StringW> value) ;
+constexpr void __set_m_properties(System::Collections::Generic::Dictionary_2<::StringW,::StringW> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::StringW,::StringW> __get_m_properties() const;
+constexpr System::Collections::Generic::Dictionary_2<::StringW,::StringW> __get_m_properties() const;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=__get_m_propertyLock, put=__set_m_propertyLock))  m_propertyLock;
 
@@ -113,18 +112,18 @@ constexpr void __set_m_propertyLock(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get_m_propertyLock() const;
 
- ::System::Security::Claims::ClaimsIdentity __declspec(property(get=__get_m_subject, put=__set_m_subject))  m_subject;
+ System::Security::Claims::ClaimsIdentity __declspec(property(get=__get_m_subject, put=__set_m_subject))  m_subject;
 
-constexpr void __set_m_subject(::System::Security::Claims::ClaimsIdentity value) ;
+constexpr void __set_m_subject(System::Security::Claims::ClaimsIdentity value) ;
 
-constexpr ::System::Security::Claims::ClaimsIdentity __get_m_subject() const;
+constexpr System::Security::Claims::ClaimsIdentity __get_m_subject() const;
 
 
 // Properties
 
- ::System::Collections::Generic::IDictionary_2<::StringW,::StringW> __declspec(property(get=get_Properties))  Properties;
+ System::Collections::Generic::IDictionary_2<::StringW,::StringW> __declspec(property(get=get_Properties))  Properties;
 
- ::System::Security::Claims::ClaimsIdentity __declspec(property(get=get_Subject, put=set_Subject))  Subject;
+ System::Security::Claims::ClaimsIdentity __declspec(property(get=get_Subject, put=set_Subject))  Subject;
 
  ::StringW __declspec(property(get=get_Type))  Type;
 
@@ -133,35 +132,35 @@ constexpr ::System::Security::Claims::ClaimsIdentity __get_m_subject() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "valueType", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "issuer", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "originalIssuer", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "subject", ty: "::System::Security::Claims::ClaimsIdentity", modifiers: "", def_value: None }]
-explicit Claim(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, ::System::Security::Claims::ClaimsIdentity subject) ;
+// Ctor Parameters [CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "valueType", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "issuer", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "originalIssuer", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "subject", ty: "System::Security::Claims::ClaimsIdentity", modifiers: "", def_value: None }]
+explicit Claim(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, System::Security::Claims::ClaimsIdentity subject) ;
 
 /// @brief Method .ctor addr 0x230b7e4 size 0x20 virtual false final false
- void _ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, ::System::Security::Claims::ClaimsIdentity subject) ;
+ void _ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, System::Security::Claims::ClaimsIdentity subject) ;
 
-// Ctor Parameters [CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "valueType", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "issuer", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "originalIssuer", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "subject", ty: "::System::Security::Claims::ClaimsIdentity", modifiers: "", def_value: None }, CppParam { name: "propertyKey", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "propertyValue", ty: "::StringW", modifiers: "", def_value: None }]
-explicit Claim(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, ::System::Security::Claims::ClaimsIdentity subject, ::StringW propertyKey, ::StringW propertyValue) ;
+// Ctor Parameters [CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "valueType", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "issuer", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "originalIssuer", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "subject", ty: "System::Security::Claims::ClaimsIdentity", modifiers: "", def_value: None }, CppParam { name: "propertyKey", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "propertyValue", ty: "::StringW", modifiers: "", def_value: None }]
+explicit Claim(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, System::Security::Claims::ClaimsIdentity subject, ::StringW propertyKey, ::StringW propertyValue) ;
 
 /// @brief Method .ctor addr 0x2310538 size 0x258 virtual false final false
- void _ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, ::System::Security::Claims::ClaimsIdentity subject, ::StringW propertyKey, ::StringW propertyValue) ;
+ void _ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, System::Security::Claims::ClaimsIdentity subject, ::StringW propertyKey, ::StringW propertyValue) ;
 
-// Ctor Parameters [CppParam { name: "other", ty: "::System::Security::Claims::Claim", modifiers: "", def_value: None }, CppParam { name: "subject", ty: "::System::Security::Claims::ClaimsIdentity", modifiers: "", def_value: None }]
-explicit Claim(::System::Security::Claims::Claim other, ::System::Security::Claims::ClaimsIdentity subject) ;
+// Ctor Parameters [CppParam { name: "other", ty: "System::Security::Claims::Claim", modifiers: "", def_value: None }, CppParam { name: "subject", ty: "System::Security::Claims::ClaimsIdentity", modifiers: "", def_value: None }]
+explicit Claim(System::Security::Claims::Claim other, System::Security::Claims::ClaimsIdentity subject) ;
 
 /// @brief Method .ctor addr 0x23108c8 size 0x314 virtual false final false
- void _ctor(::System::Security::Claims::Claim other, ::System::Security::Claims::ClaimsIdentity subject) ;
+ void _ctor(System::Security::Claims::Claim other, System::Security::Claims::ClaimsIdentity subject) ;
 
 /// @brief Method OnDeserializedMethod addr 0x2310bdc size 0x60 virtual false final false
- void OnDeserializedMethod(::System::Runtime::Serialization::StreamingContext context) ;
+ void OnDeserializedMethod(System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method get_Properties addr 0x2310790 size 0x138 virtual false final false
- ::System::Collections::Generic::IDictionary_2<::StringW,::StringW> get_Properties() ;
+ System::Collections::Generic::IDictionary_2<::StringW,::StringW> get_Properties() ;
 
 /// @brief Method get_Subject addr 0x2310c3c size 0x8 virtual false final false
- ::System::Security::Claims::ClaimsIdentity get_Subject() ;
+ System::Security::Claims::ClaimsIdentity get_Subject() ;
 
 /// @brief Method set_Subject addr 0x2310c44 size 0x8 virtual false final false
- void set_Subject(::System::Security::Claims::ClaimsIdentity value) ;
+ void set_Subject(System::Security::Claims::ClaimsIdentity value) ;
 
 /// @brief Method get_Type addr 0x2310c4c size 0x8 virtual false final false
  ::StringW get_Type() ;
@@ -170,7 +169,7 @@ explicit Claim(::System::Security::Claims::Claim other, ::System::Security::Clai
  ::StringW get_Value() ;
 
 /// @brief Method Clone addr 0x2310c5c size 0x70 virtual true final false
- ::System::Security::Claims::Claim Clone(::System::Security::Claims::ClaimsIdentity identity) ;
+ System::Security::Claims::Claim Clone(System::Security::Claims::ClaimsIdentity identity) ;
 
 /// @brief Method ToString addr 0x2310ccc size 0x78 virtual true final false
  ::StringW ToString() ;
@@ -179,6 +178,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Claims
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Claims::Claim);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Claims::Claim, "System.Security.Claims", "Claim");
+NEED_NO_BOX(System::Security::Claims::Claim);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Claims::Claim, "System.Security.Claims", "Claim");

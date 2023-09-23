@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::Timeline {
 class CustomSignalEventDrawer;
@@ -12,7 +11,7 @@ namespace UnityEngine::Timeline {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10112))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14102))
 // CS Name: UnityEngine.Timeline.CustomSignalEventDrawer
-class CORDL_TYPE CustomSignalEventDrawer : public ::UnityEngine::PropertyAttribute {
+class CORDL_TYPE CustomSignalEventDrawer : public UnityEngine::PropertyAttribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr CustomSignalEventDrawer(CustomSignalEventDrawer const& ) noexcept = de
 constexpr CustomSignalEventDrawer(CustomSignalEventDrawer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CustomSignalEventDrawer(void* ptr) noexcept : ::UnityEngine::PropertyAttribute(ptr) {
+constexpr explicit CustomSignalEventDrawer(void* ptr) noexcept : UnityEngine::PropertyAttribute(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Timeline::CustomSignalEventDrawer);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::CustomSignalEventDrawer, "UnityEngine.Timeline", "CustomSignalEventDrawer");
+NEED_NO_BOX(UnityEngine::Timeline::CustomSignalEventDrawer);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::CustomSignalEventDrawer, "UnityEngine.Timeline", "CustomSignalEventDrawer");

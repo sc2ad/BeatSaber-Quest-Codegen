@@ -5,31 +5,30 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
-class Exception;
+class Version;
 }
 namespace System {
 struct PlatformID;
+}
+namespace System {
+class OperatingSystem;
+}
+namespace System {
+struct EnvironmentVariableTarget;
 }
 namespace System::Collections {
 class IDictionary;
 }
 namespace System {
-struct EnvironmentVariableTarget;
-}
-namespace System {
-class Version;
-}
-namespace System {
-class OperatingSystem;
+class Exception;
 }
 // Forward declare root types
 namespace System {
-struct ____System__Environment__SpecialFolder;
+struct System__Environment__SpecialFolder;
 }
 namespace System {
-struct ____System__Environment__SpecialFolderOption;
+struct System__Environment__SpecialFolderOption;
 }
 namespace System {
 class Environment;
@@ -40,20 +39,20 @@ namespace System {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2576))
 // CS Name: System.Environment::SpecialFolder
-struct CORDL_TYPE ____System__Environment__SpecialFolder : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE System__Environment__SpecialFolder : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____System__Environment__SpecialFolder(int32_t value__) noexcept;
+constexpr System__Environment__SpecialFolder(int32_t value__) noexcept;
 
 
-                    constexpr ____System__Environment__SpecialFolder(____System__Environment__SpecialFolder const&) = default;
-                    constexpr ____System__Environment__SpecialFolder(____System__Environment__SpecialFolder&&) = default;
-                    constexpr ____System__Environment__SpecialFolder& operator=(____System__Environment__SpecialFolder const& o) {
+                    constexpr System__Environment__SpecialFolder(System__Environment__SpecialFolder const&) = default;
+                    constexpr System__Environment__SpecialFolder(System__Environment__SpecialFolder&&) = default;
+                    constexpr System__Environment__SpecialFolder& operator=(System__Environment__SpecialFolder const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Environment__SpecialFolder& operator=(____System__Environment__SpecialFolder&& o) noexcept {
+                    constexpr System__Environment__SpecialFolder& operator=(System__Environment__SpecialFolder&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -66,7 +65,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Environment__SpecialFolder(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Environment__SpecialFolder(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -74,7 +73,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______System__Environment__SpecialFolder_Unwrapped : int32_t {
+enum class __System__Environment__SpecialFolder_Unwrapped : int32_t {
 __MyDocuments = 5,
 __Desktop = 0,
 __MyComputer = 17,
@@ -125,8 +124,8 @@ __CDBurning = 59,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______System__Environment__SpecialFolder_Unwrapped () const noexcept {
-return std::bit_cast<______System__Environment__SpecialFolder_Unwrapped>(__instance);
+constexpr operator __System__Environment__SpecialFolder_Unwrapped () const noexcept {
+return std::bit_cast<__System__Environment__SpecialFolder_Unwrapped>(__instance);
 }
 
 
@@ -139,145 +138,145 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field MyDocuments offset 0
-static ::System::____System__Environment__SpecialFolder const MyDocuments;
+static System::System__Environment__SpecialFolder const MyDocuments;
 
 /// @brief Field Desktop offset 0
-static ::System::____System__Environment__SpecialFolder const Desktop;
+static System::System__Environment__SpecialFolder const Desktop;
 
 /// @brief Field MyComputer offset 0
-static ::System::____System__Environment__SpecialFolder const MyComputer;
+static System::System__Environment__SpecialFolder const MyComputer;
 
 /// @brief Field Programs offset 0
-static ::System::____System__Environment__SpecialFolder const Programs;
+static System::System__Environment__SpecialFolder const Programs;
 
 /// @brief Field Personal offset 0
-static ::System::____System__Environment__SpecialFolder const Personal;
+static System::System__Environment__SpecialFolder const Personal;
 
 /// @brief Field Favorites offset 0
-static ::System::____System__Environment__SpecialFolder const Favorites;
+static System::System__Environment__SpecialFolder const Favorites;
 
 /// @brief Field Startup offset 0
-static ::System::____System__Environment__SpecialFolder const Startup;
+static System::System__Environment__SpecialFolder const Startup;
 
 /// @brief Field Recent offset 0
-static ::System::____System__Environment__SpecialFolder const Recent;
+static System::System__Environment__SpecialFolder const Recent;
 
 /// @brief Field SendTo offset 0
-static ::System::____System__Environment__SpecialFolder const SendTo;
+static System::System__Environment__SpecialFolder const SendTo;
 
 /// @brief Field StartMenu offset 0
-static ::System::____System__Environment__SpecialFolder const StartMenu;
+static System::System__Environment__SpecialFolder const StartMenu;
 
 /// @brief Field MyMusic offset 0
-static ::System::____System__Environment__SpecialFolder const MyMusic;
+static System::System__Environment__SpecialFolder const MyMusic;
 
 /// @brief Field DesktopDirectory offset 0
-static ::System::____System__Environment__SpecialFolder const DesktopDirectory;
+static System::System__Environment__SpecialFolder const DesktopDirectory;
 
 /// @brief Field Templates offset 0
-static ::System::____System__Environment__SpecialFolder const Templates;
+static System::System__Environment__SpecialFolder const Templates;
 
 /// @brief Field ApplicationData offset 0
-static ::System::____System__Environment__SpecialFolder const ApplicationData;
+static System::System__Environment__SpecialFolder const ApplicationData;
 
 /// @brief Field LocalApplicationData offset 0
-static ::System::____System__Environment__SpecialFolder const LocalApplicationData;
+static System::System__Environment__SpecialFolder const LocalApplicationData;
 
 /// @brief Field InternetCache offset 0
-static ::System::____System__Environment__SpecialFolder const InternetCache;
+static System::System__Environment__SpecialFolder const InternetCache;
 
 /// @brief Field Cookies offset 0
-static ::System::____System__Environment__SpecialFolder const Cookies;
+static System::System__Environment__SpecialFolder const Cookies;
 
 /// @brief Field History offset 0
-static ::System::____System__Environment__SpecialFolder const History;
+static System::System__Environment__SpecialFolder const History;
 
 /// @brief Field CommonApplicationData offset 0
-static ::System::____System__Environment__SpecialFolder const CommonApplicationData;
+static System::System__Environment__SpecialFolder const CommonApplicationData;
 
 /// @brief Field System offset 0
-static ::System::____System__Environment__SpecialFolder const System;
+static System::System__Environment__SpecialFolder const System;
 
 /// @brief Field ProgramFiles offset 0
-static ::System::____System__Environment__SpecialFolder const ProgramFiles;
+static System::System__Environment__SpecialFolder const ProgramFiles;
 
 /// @brief Field MyPictures offset 0
-static ::System::____System__Environment__SpecialFolder const MyPictures;
+static System::System__Environment__SpecialFolder const MyPictures;
 
 /// @brief Field CommonProgramFiles offset 0
-static ::System::____System__Environment__SpecialFolder const CommonProgramFiles;
+static System::System__Environment__SpecialFolder const CommonProgramFiles;
 
 /// @brief Field MyVideos offset 0
-static ::System::____System__Environment__SpecialFolder const MyVideos;
+static System::System__Environment__SpecialFolder const MyVideos;
 
 /// @brief Field NetworkShortcuts offset 0
-static ::System::____System__Environment__SpecialFolder const NetworkShortcuts;
+static System::System__Environment__SpecialFolder const NetworkShortcuts;
 
 /// @brief Field Fonts offset 0
-static ::System::____System__Environment__SpecialFolder const Fonts;
+static System::System__Environment__SpecialFolder const Fonts;
 
 /// @brief Field CommonStartMenu offset 0
-static ::System::____System__Environment__SpecialFolder const CommonStartMenu;
+static System::System__Environment__SpecialFolder const CommonStartMenu;
 
 /// @brief Field CommonPrograms offset 0
-static ::System::____System__Environment__SpecialFolder const CommonPrograms;
+static System::System__Environment__SpecialFolder const CommonPrograms;
 
 /// @brief Field CommonStartup offset 0
-static ::System::____System__Environment__SpecialFolder const CommonStartup;
+static System::System__Environment__SpecialFolder const CommonStartup;
 
 /// @brief Field CommonDesktopDirectory offset 0
-static ::System::____System__Environment__SpecialFolder const CommonDesktopDirectory;
+static System::System__Environment__SpecialFolder const CommonDesktopDirectory;
 
 /// @brief Field PrinterShortcuts offset 0
-static ::System::____System__Environment__SpecialFolder const PrinterShortcuts;
+static System::System__Environment__SpecialFolder const PrinterShortcuts;
 
 /// @brief Field Windows offset 0
-static ::System::____System__Environment__SpecialFolder const Windows;
+static System::System__Environment__SpecialFolder const Windows;
 
 /// @brief Field UserProfile offset 0
-static ::System::____System__Environment__SpecialFolder const UserProfile;
+static System::System__Environment__SpecialFolder const UserProfile;
 
 /// @brief Field SystemX86 offset 0
-static ::System::____System__Environment__SpecialFolder const SystemX86;
+static System::System__Environment__SpecialFolder const SystemX86;
 
 /// @brief Field ProgramFilesX86 offset 0
-static ::System::____System__Environment__SpecialFolder const ProgramFilesX86;
+static System::System__Environment__SpecialFolder const ProgramFilesX86;
 
 /// @brief Field CommonProgramFilesX86 offset 0
-static ::System::____System__Environment__SpecialFolder const CommonProgramFilesX86;
+static System::System__Environment__SpecialFolder const CommonProgramFilesX86;
 
 /// @brief Field CommonTemplates offset 0
-static ::System::____System__Environment__SpecialFolder const CommonTemplates;
+static System::System__Environment__SpecialFolder const CommonTemplates;
 
 /// @brief Field CommonDocuments offset 0
-static ::System::____System__Environment__SpecialFolder const CommonDocuments;
+static System::System__Environment__SpecialFolder const CommonDocuments;
 
 /// @brief Field CommonAdminTools offset 0
-static ::System::____System__Environment__SpecialFolder const CommonAdminTools;
+static System::System__Environment__SpecialFolder const CommonAdminTools;
 
 /// @brief Field AdminTools offset 0
-static ::System::____System__Environment__SpecialFolder const AdminTools;
+static System::System__Environment__SpecialFolder const AdminTools;
 
 /// @brief Field CommonMusic offset 0
-static ::System::____System__Environment__SpecialFolder const CommonMusic;
+static System::System__Environment__SpecialFolder const CommonMusic;
 
 /// @brief Field CommonPictures offset 0
-static ::System::____System__Environment__SpecialFolder const CommonPictures;
+static System::System__Environment__SpecialFolder const CommonPictures;
 
 /// @brief Field CommonVideos offset 0
-static ::System::____System__Environment__SpecialFolder const CommonVideos;
+static System::System__Environment__SpecialFolder const CommonVideos;
 
 /// @brief Field Resources offset 0
-static ::System::____System__Environment__SpecialFolder const Resources;
+static System::System__Environment__SpecialFolder const Resources;
 
 /// @brief Field LocalizedResources offset 0
-static ::System::____System__Environment__SpecialFolder const LocalizedResources;
+static System::System__Environment__SpecialFolder const LocalizedResources;
 
 /// @brief Field CommonOemLinks offset 0
-static ::System::____System__Environment__SpecialFolder const CommonOemLinks;
+static System::System__Environment__SpecialFolder const CommonOemLinks;
 
 /// @brief Field CDBurning offset 0
-static ::System::____System__Environment__SpecialFolder const CDBurning;
+static System::System__Environment__SpecialFolder const CDBurning;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -289,20 +288,20 @@ namespace System {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2577))
 // CS Name: System.Environment::SpecialFolderOption
-struct CORDL_TYPE ____System__Environment__SpecialFolderOption : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE System__Environment__SpecialFolderOption : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____System__Environment__SpecialFolderOption(int32_t value__) noexcept;
+constexpr System__Environment__SpecialFolderOption(int32_t value__) noexcept;
 
 
-                    constexpr ____System__Environment__SpecialFolderOption(____System__Environment__SpecialFolderOption const&) = default;
-                    constexpr ____System__Environment__SpecialFolderOption(____System__Environment__SpecialFolderOption&&) = default;
-                    constexpr ____System__Environment__SpecialFolderOption& operator=(____System__Environment__SpecialFolderOption const& o) {
+                    constexpr System__Environment__SpecialFolderOption(System__Environment__SpecialFolderOption const&) = default;
+                    constexpr System__Environment__SpecialFolderOption(System__Environment__SpecialFolderOption&&) = default;
+                    constexpr System__Environment__SpecialFolderOption& operator=(System__Environment__SpecialFolderOption const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Environment__SpecialFolderOption& operator=(____System__Environment__SpecialFolderOption&& o) noexcept {
+                    constexpr System__Environment__SpecialFolderOption& operator=(System__Environment__SpecialFolderOption&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -315,7 +314,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Environment__SpecialFolderOption(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Environment__SpecialFolderOption(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -323,15 +322,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______System__Environment__SpecialFolderOption_Unwrapped : int32_t {
+enum class __System__Environment__SpecialFolderOption_Unwrapped : int32_t {
 __None = 0,
 __DoNotVerify = 16384,
 __Create = 32768,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______System__Environment__SpecialFolderOption_Unwrapped () const noexcept {
-return std::bit_cast<______System__Environment__SpecialFolderOption_Unwrapped>(__instance);
+constexpr operator __System__Environment__SpecialFolderOption_Unwrapped () const noexcept {
+return std::bit_cast<__System__Environment__SpecialFolderOption_Unwrapped>(__instance);
 }
 
 
@@ -344,13 +343,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::____System__Environment__SpecialFolderOption const None;
+static System::System__Environment__SpecialFolderOption const None;
 
 /// @brief Field DoNotVerify offset 0
-static ::System::____System__Environment__SpecialFolderOption const DoNotVerify;
+static System::System__Environment__SpecialFolderOption const DoNotVerify;
 
 /// @brief Field Create offset 0
-static ::System::____System__Environment__SpecialFolderOption const Create;
+static System::System__Environment__SpecialFolderOption const Create;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -365,9 +364,9 @@ namespace System {
 class CORDL_TYPE Environment : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using SpecialFolderOption = ::System::____System__Environment__SpecialFolderOption;
+using SpecialFolderOption = System::System__Environment__SpecialFolderOption;
 
-using SpecialFolder = ::System::____System__Environment__SpecialFolder;
+using SpecialFolder = System::System__Environment__SpecialFolder;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -411,11 +410,11 @@ static void __set_nl(::StringW value) ;
 
 static ::StringW __get_nl() ;
 
-static ::System::OperatingSystem __declspec(property(get=__get_os, put=__set_os))  os;
+static System::OperatingSystem __declspec(property(get=__get_os, put=__set_os))  os;
 
-static void __set_os(::System::OperatingSystem value) ;
+static void __set_os(System::OperatingSystem value) ;
 
-static ::System::OperatingSystem __get_os() ;
+static System::OperatingSystem __get_os() ;
 
 
 // Properties
@@ -430,9 +429,9 @@ static ::StringW __declspec(property(get=get_MachineName))  MachineName;
 
 static ::StringW __declspec(property(get=get_NewLine))  NewLine;
 
-static ::System::PlatformID __declspec(property(get=get_Platform))  Platform;
+static System::PlatformID __declspec(property(get=get_Platform))  Platform;
 
-static ::System::OperatingSystem __declspec(property(get=get_OSVersion))  OSVersion;
+static System::OperatingSystem __declspec(property(get=get_OSVersion))  OSVersion;
 
 static ::StringW __declspec(property(get=get_StackTrace))  StackTrace;
 
@@ -479,16 +478,16 @@ static ::StringW GetNewLine() ;
 static ::StringW get_NewLine() ;
 
 /// @brief Method get_Platform addr 0x2486cd4 size 0x4 virtual false final false
-static ::System::PlatformID get_Platform() ;
+static System::PlatformID get_Platform() ;
 
 /// @brief Method GetOSVersionString addr 0x2486cd8 size 0x4 virtual false final false
 static ::StringW GetOSVersionString() ;
 
 /// @brief Method get_OSVersion addr 0x2486cdc size 0xbc virtual false final false
-static ::System::OperatingSystem get_OSVersion() ;
+static System::OperatingSystem get_OSVersion() ;
 
 /// @brief Method CreateVersionFromString addr 0x2486d98 size 0x21c virtual false final false
-static ::System::Version CreateVersionFromString(::StringW info) ;
+static System::Version CreateVersionFromString(::StringW info) ;
 
 /// @brief Method get_StackTrace addr 0x2486fb4 size 0x6c virtual false final false
 static ::StringW get_StackTrace() ;
@@ -518,25 +517,25 @@ static ::StringW internalGetEnvironmentVariable(::StringW variable) ;
 static ::StringW GetEnvironmentVariable(::StringW variable) ;
 
 /// @brief Method GetEnvironmentVariables addr 0x2487104 size 0xcc virtual false final false
-static ::System::Collections::IDictionary GetEnvironmentVariables() ;
+static System::Collections::IDictionary GetEnvironmentVariables() ;
 
 /// @brief Method GetFolderPath addr 0x24871d4 size 0x8 virtual false final false
-static ::StringW GetFolderPath(::System::____System__Environment__SpecialFolder folder) ;
+static ::StringW GetFolderPath(System::System__Environment__SpecialFolder folder) ;
 
 /// @brief Method GetWindowsFolderPath addr 0x2487210 size 0x4 virtual false final false
 static ::StringW GetWindowsFolderPath(int32_t folder) ;
 
 /// @brief Method GetFolderPath addr 0x24871dc size 0x34 virtual false final false
-static ::StringW GetFolderPath(::System::____System__Environment__SpecialFolder folder, ::System::____System__Environment__SpecialFolderOption option) ;
+static ::StringW GetFolderPath(System::System__Environment__SpecialFolder folder, System::System__Environment__SpecialFolderOption option) ;
 
 /// @brief Method ReadXdgUserDir addr 0x24876cc size 0x474 virtual false final false
 static ::StringW ReadXdgUserDir(::StringW config_dir, ::StringW home_dir, ::StringW key, ::StringW fallback) ;
 
 /// @brief Method UnixGetFolderPath addr 0x248722c size 0x4a0 virtual false final false
-static ::StringW UnixGetFolderPath(::System::____System__Environment__SpecialFolder folder, ::System::____System__Environment__SpecialFolderOption option) ;
+static ::StringW UnixGetFolderPath(System::System__Environment__SpecialFolder folder, System::System__Environment__SpecialFolderOption option) ;
 
 /// @brief Method GetEnvironmentVariable addr 0x2487b44 size 0x10 virtual false final false
-static ::StringW GetEnvironmentVariable(::StringW variable, ::System::EnvironmentVariableTarget target) ;
+static ::StringW GetEnvironmentVariable(::StringW variable, System::EnvironmentVariableTarget target) ;
 
 /// @brief Method SetEnvironmentVariable addr 0x2487b54 size 0x17c virtual false final false
 static void SetEnvironmentVariable(::StringW variable, ::StringW value) ;
@@ -548,10 +547,10 @@ static void InternalSetEnvironmentVariable(void* variable, int32_t variable_leng
 static void InternalSetEnvironmentVariable(::StringW variable, ::StringW value) ;
 
 /// @brief Method FailFast addr 0x2487d44 size 0x8 virtual false final false
-static void FailFast(::StringW message, ::System::Exception exception) ;
+static void FailFast(::StringW message, System::Exception exception) ;
 
 /// @brief Method FailFast addr 0x2487d4c size 0x4 virtual false final false
-static void FailFast(::StringW message, ::System::Exception exception, ::StringW errorSource) ;
+static void FailFast(::StringW message, System::Exception exception, ::StringW errorSource) ;
 
 /// @brief Method get_ProcessorCount addr 0x2487d50 size 0x4 virtual false final false
 static int32_t get_ProcessorCount() ;
@@ -578,14 +577,13 @@ static int32_t GetPageSize() ;
 static bool get_IsUnix() ;
 
 /// @brief Method GetStackTrace addr 0x2487d98 size 0x98 virtual false final false
-static ::StringW GetStackTrace(::System::Exception e, bool needFileInfo) ;
+static ::StringW GetStackTrace(System::Exception e, bool needFileInfo) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::____System__Environment__SpecialFolder, "System", "Environment/SpecialFolder");
-DEFINE_IL2CPP_ARG_TYPE(::System::____System__Environment__SpecialFolderOption, "System", "Environment/SpecialFolderOption");
-NEED_NO_BOX(::System::Environment);
-DEFINE_IL2CPP_ARG_TYPE(::System::Environment, "System", "Environment");
+DEFINE_IL2CPP_ARG_TYPE(System::System__Environment__SpecialFolder, "System", "Environment/SpecialFolder");
+DEFINE_IL2CPP_ARG_TYPE(System::System__Environment__SpecialFolderOption, "System", "Environment/SpecialFolderOption");
+NEED_NO_BOX(System::Environment);
+DEFINE_IL2CPP_ARG_TYPE(System::Environment, "System", "Environment");

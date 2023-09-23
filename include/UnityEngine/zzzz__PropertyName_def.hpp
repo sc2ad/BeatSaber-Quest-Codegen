@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 class IEquatable_1;
@@ -22,8 +21,8 @@ namespace UnityEngine {
 struct CORDL_TYPE PropertyName : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::PropertyName>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::PropertyName>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::PropertyName>
+constexpr operator  System::IEquatable_1<UnityEngine::PropertyName>() const;
 
 // Ctor Parameters [CppParam { name: "id", ty: "int32_t", modifiers: "", def_value: None }]
 constexpr PropertyName(int32_t id) noexcept;
@@ -72,13 +71,13 @@ constexpr int32_t __get_id() const;
  void _ctor(::StringW name) ;
 
 /// @brief Method .ctor addr 0x2b514e8 size 0x8 virtual false final false
- void _ctor(::UnityEngine::PropertyName other) ;
+ void _ctor(UnityEngine::PropertyName other) ;
 
 /// @brief Method IsNullOrEmpty addr 0x2b514f0 size 0xc virtual false final false
-static bool IsNullOrEmpty(::UnityEngine::PropertyName prop) ;
+static bool IsNullOrEmpty(UnityEngine::PropertyName prop) ;
 
 /// @brief Method op_Equality addr 0x2b514fc size 0xc virtual false final false
-static bool op_Equality(::UnityEngine::PropertyName lhs, ::UnityEngine::PropertyName rhs) ;
+static bool op_Equality(UnityEngine::PropertyName lhs, UnityEngine::PropertyName rhs) ;
 
 /// @brief Method GetHashCode addr 0x2b51508 size 0x8 virtual true final false
  int32_t GetHashCode() ;
@@ -87,10 +86,10 @@ static bool op_Equality(::UnityEngine::PropertyName lhs, ::UnityEngine::Property
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
 
 /// @brief Method Equals addr 0x2b51588 size 0x10 virtual true final true
- bool Equals(::UnityEngine::PropertyName other) ;
+ bool Equals(UnityEngine::PropertyName other) ;
 
 /// @brief Method op_Implicit addr 0x2b51598 size 0x4c virtual false final false
-static ::UnityEngine::PropertyName op_Implicit___UnityEngine__PropertyName(::StringW name) ;
+static UnityEngine::PropertyName op_Implicit_UnityEngine__PropertyName(::StringW name) ;
 
 /// @brief Method ToString addr 0x2b515e4 size 0x84 virtual true final false
  ::StringW ToString() ;
@@ -99,5 +98,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PropertyName, "UnityEngine", "PropertyName");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PropertyName, "UnityEngine", "PropertyName");

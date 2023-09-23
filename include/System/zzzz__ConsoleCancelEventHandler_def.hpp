@@ -3,7 +3,6 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class ConsoleCancelEventArgs;
 }
@@ -17,7 +16,7 @@ namespace System {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2515))
 // CS Name: System.ConsoleCancelEventHandler
-class CORDL_TYPE ConsoleCancelEventHandler : public ::System::MulticastDelegate {
+class CORDL_TYPE ConsoleCancelEventHandler : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr ConsoleCancelEventHandler(ConsoleCancelEventHandler const& ) noexcept 
 constexpr ConsoleCancelEventHandler(ConsoleCancelEventHandler&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ConsoleCancelEventHandler(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit ConsoleCancelEventHandler(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -60,12 +59,11 @@ explicit ConsoleCancelEventHandler(::bs_hook::Il2CppWrapperType object, ::cordl_
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x2461860 size 0x14 virtual true final false
- void Invoke(::bs_hook::Il2CppWrapperType sender, ::System::ConsoleCancelEventArgs e) ;
+ void Invoke(::bs_hook::Il2CppWrapperType sender, System::ConsoleCancelEventArgs e) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::ConsoleCancelEventHandler);
-DEFINE_IL2CPP_ARG_TYPE(::System::ConsoleCancelEventHandler, "System", "ConsoleCancelEventHandler");
+NEED_NO_BOX(System::ConsoleCancelEventHandler);
+DEFINE_IL2CPP_ARG_TYPE(System::ConsoleCancelEventHandler, "System", "ConsoleCancelEventHandler");

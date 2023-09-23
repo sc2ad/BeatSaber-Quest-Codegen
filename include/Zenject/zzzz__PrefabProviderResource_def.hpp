@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace UnityEngine {
 class Object;
 }
@@ -22,8 +21,8 @@ namespace Zenject {
 class CORDL_TYPE PrefabProviderResource : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Zenject::IPrefabProvider
-constexpr operator  ::Zenject::IPrefabProvider() const noexcept;
+/// @brief Convert operator to Zenject::IPrefabProvider
+constexpr operator  Zenject::IPrefabProvider() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -74,12 +73,11 @@ explicit PrefabProviderResource(::StringW resourcePath) ;
  void _ctor(::StringW resourcePath) ;
 
 /// @brief Method GetPrefab addr 0x2d90720 size 0xcc virtual true final true
- ::UnityEngine::Object GetPrefab() ;
+ UnityEngine::Object GetPrefab() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::PrefabProviderResource);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::PrefabProviderResource, "Zenject", "PrefabProviderResource");
+NEED_NO_BOX(Zenject::PrefabProviderResource);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::PrefabProviderResource, "Zenject", "PrefabProviderResource");

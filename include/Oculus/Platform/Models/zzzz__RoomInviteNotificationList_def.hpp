@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_def.hpp"
 #include "Oculus/Platform/Models/zzzz__RoomInviteNotification_def.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class RoomInviteNotificationList;
@@ -11,10 +10,10 @@ class RoomInviteNotificationList;
 // Type: Oculus.Platform.Models::RoomInviteNotificationList
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 953 }), TypeDefinitionIndex(TypeDefinitionIndex(13410)), TypeDefinitionIndex(TypeDefinitionIndex(13470))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13410)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 953 }), TypeDefinitionIndex(TypeDefinitionIndex(13470))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13471))
 // CS Name: Oculus.Platform.Models.RoomInviteNotificationList
-class CORDL_TYPE RoomInviteNotificationList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::RoomInviteNotification> {
+class CORDL_TYPE RoomInviteNotificationList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::RoomInviteNotification> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr RoomInviteNotificationList(RoomInviteNotificationList const& ) noexcep
 constexpr RoomInviteNotificationList(RoomInviteNotificationList&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RoomInviteNotificationList(void* ptr) noexcept : ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::RoomInviteNotification>(ptr) {
+constexpr explicit RoomInviteNotificationList(void* ptr) noexcept : Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::RoomInviteNotification>(ptr) {
 }
 
 
@@ -60,6 +59,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::RoomInviteNotificationList);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::RoomInviteNotificationList, "Oculus.Platform.Models", "RoomInviteNotificationList");
+NEED_NO_BOX(Oculus::Platform::Models::RoomInviteNotificationList);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::RoomInviteNotificationList, "Oculus.Platform.Models", "RoomInviteNotificationList");

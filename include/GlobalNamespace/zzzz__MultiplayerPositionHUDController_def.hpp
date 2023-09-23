@@ -3,24 +3,23 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-class ____GlobalNamespace__CoreGameHUDController__InitData;
-}
-namespace UnityEngine {
-class CanvasGroup;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace UnityEngine {
 class GameObject;
 }
 namespace GlobalNamespace {
-class MultiplayerScoreProvider;
+class MultiplayerPlayersManager;
+}
+namespace UnityEngine {
+class CanvasGroup;
 }
 namespace GlobalNamespace {
-class MultiplayerPlayersManager;
+class GlobalNamespace__CoreGameHUDController__InitData;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace GlobalNamespace {
+class MultiplayerScoreProvider;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,7 +31,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5139))
 // CS Name: MultiplayerPositionHUDController
-class CORDL_TYPE MultiplayerPositionHUDController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerPositionHUDController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -47,7 +46,7 @@ constexpr MultiplayerPositionHUDController(MultiplayerPositionHUDController cons
 constexpr MultiplayerPositionHUDController(MultiplayerPositionHUDController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerPositionHUDController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerPositionHUDController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -68,47 +67,47 @@ constexpr explicit MultiplayerPositionHUDController(void* ptr) noexcept : ::Unit
 
 // Fields
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__playerCountText, put=__set__playerCountText))  _playerCountText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__playerCountText, put=__set__playerCountText))  _playerCountText;
 
-constexpr void __set__playerCountText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__playerCountText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__playerCountText() const;
+constexpr TMPro::TextMeshProUGUI __get__playerCountText() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__positionText, put=__set__positionText))  _positionText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__positionText, put=__set__positionText))  _positionText;
 
-constexpr void __set__positionText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__positionText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__positionText() const;
+constexpr TMPro::TextMeshProUGUI __get__positionText() const;
 
- ::UnityEngine::CanvasGroup __declspec(property(get=__get__canvasGroup, put=__set__canvasGroup))  _canvasGroup;
+ UnityEngine::CanvasGroup __declspec(property(get=__get__canvasGroup, put=__set__canvasGroup))  _canvasGroup;
 
-constexpr void __set__canvasGroup(::UnityEngine::CanvasGroup value) ;
+constexpr void __set__canvasGroup(UnityEngine::CanvasGroup value) ;
 
-constexpr ::UnityEngine::CanvasGroup __get__canvasGroup() const;
+constexpr UnityEngine::CanvasGroup __get__canvasGroup() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get__firstPlayerAnimationGo, put=__set__firstPlayerAnimationGo))  _firstPlayerAnimationGo;
+ UnityEngine::GameObject __declspec(property(get=__get__firstPlayerAnimationGo, put=__set__firstPlayerAnimationGo))  _firstPlayerAnimationGo;
 
-constexpr void __set__firstPlayerAnimationGo(::UnityEngine::GameObject value) ;
+constexpr void __set__firstPlayerAnimationGo(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__firstPlayerAnimationGo() const;
+constexpr UnityEngine::GameObject __get__firstPlayerAnimationGo() const;
 
- ::GlobalNamespace::MultiplayerScoreProvider __declspec(property(get=__get__scoreProvider, put=__set__scoreProvider))  _scoreProvider;
+ GlobalNamespace::MultiplayerScoreProvider __declspec(property(get=__get__scoreProvider, put=__set__scoreProvider))  _scoreProvider;
 
-constexpr void __set__scoreProvider(::GlobalNamespace::MultiplayerScoreProvider value) ;
+constexpr void __set__scoreProvider(GlobalNamespace::MultiplayerScoreProvider value) ;
 
-constexpr ::GlobalNamespace::MultiplayerScoreProvider __get__scoreProvider() const;
+constexpr GlobalNamespace::MultiplayerScoreProvider __get__scoreProvider() const;
 
- ::GlobalNamespace::MultiplayerPlayersManager __declspec(property(get=__get__playersManager, put=__set__playersManager))  _playersManager;
+ GlobalNamespace::MultiplayerPlayersManager __declspec(property(get=__get__playersManager, put=__set__playersManager))  _playersManager;
 
-constexpr void __set__playersManager(::GlobalNamespace::MultiplayerPlayersManager value) ;
+constexpr void __set__playersManager(GlobalNamespace::MultiplayerPlayersManager value) ;
 
-constexpr ::GlobalNamespace::MultiplayerPlayersManager __get__playersManager() const;
+constexpr GlobalNamespace::MultiplayerPlayersManager __get__playersManager() const;
 
- ::GlobalNamespace::____GlobalNamespace__CoreGameHUDController__InitData __declspec(property(get=__get__initData, put=__set__initData))  _initData;
+ GlobalNamespace::GlobalNamespace__CoreGameHUDController__InitData __declspec(property(get=__get__initData, put=__set__initData))  _initData;
 
-constexpr void __set__initData(::GlobalNamespace::____GlobalNamespace__CoreGameHUDController__InitData value) ;
+constexpr void __set__initData(GlobalNamespace::GlobalNamespace__CoreGameHUDController__InitData value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__CoreGameHUDController__InitData __get__initData() const;
+constexpr GlobalNamespace::GlobalNamespace__CoreGameHUDController__InitData __get__initData() const;
 
  int32_t __declspec(property(get=__get__prevPosition, put=__set__prevPosition))  _prevPosition;
 
@@ -143,6 +142,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerPositionHUDController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerPositionHUDController, "", "MultiplayerPositionHUDController");
+NEED_NO_BOX(GlobalNamespace::MultiplayerPositionHUDController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerPositionHUDController, "", "MultiplayerPositionHUDController");

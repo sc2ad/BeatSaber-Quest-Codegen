@@ -4,7 +4,36 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace OVR::OpenVR {
+class CVRChaperoneSetup;
+}
+namespace OVR::OpenVR {
+class CVRSettings;
+}
+namespace OVR::OpenVR {
+class CVRSpatialAnchors;
+}
+namespace OVR::OpenVR {
+class CVRApplications;
+}
+namespace OVR::OpenVR {
+class CVRInput;
+}
+namespace OVR::OpenVR {
+class CVRRenderModels;
+}
+namespace OVR::OpenVR {
+class CVRScreenshots;
+}
+namespace OVR::OpenVR {
+class CVRTrackedCamera;
+}
+namespace OVR::OpenVR {
+class CVRExtendedDisplay;
+}
+namespace OVR::OpenVR {
+class CVRCompositor;
+}
 namespace OVR::OpenVR {
 class CVRChaperone;
 }
@@ -15,47 +44,17 @@ namespace OVR::OpenVR {
 class CVRSystem;
 }
 namespace OVR::OpenVR {
-class CVRRenderModels;
-}
-namespace OVR::OpenVR {
-class CVRCompositor;
-}
-namespace OVR::OpenVR {
-class CVRExtendedDisplay;
-}
-namespace OVR::OpenVR {
 struct EVRApplicationType;
-}
-namespace OVR::OpenVR {
-class CVRChaperoneSetup;
-}
-namespace OVR::OpenVR {
-class CVRSpatialAnchors;
-}
-namespace OVR::OpenVR {
-class CVRSettings;
-}
-namespace OVR::OpenVR {
-class CVRApplications;
-}
-namespace OVR::OpenVR {
-class CVRInput;
 }
 namespace OVR::OpenVR {
 struct EVRInitError;
 }
-namespace OVR::OpenVR {
-class CVRTrackedCamera;
-}
-namespace OVR::OpenVR {
-class CVRScreenshots;
-}
 // Forward declare root types
 namespace OVR::OpenVR {
-class OpenVR;
+class OVR__OpenVR__OpenVR__COpenVRContext;
 }
 namespace OVR::OpenVR {
-class ____OVR__OpenVR__OpenVR__COpenVRContext;
+class OpenVR;
 }
 // Type: ::COpenVRContext
 namespace OVR::OpenVR {
@@ -63,125 +62,125 @@ namespace OVR::OpenVR {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9511))
 // CS Name: OVR.OpenVR.OpenVR::COpenVRContext
-class CORDL_TYPE ____OVR__OpenVR__OpenVR__COpenVRContext : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE OVR__OpenVR__OpenVR__COpenVRContext : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x78};
 
-virtual ~____OVR__OpenVR__OpenVR__COpenVRContext() = default;
+virtual ~OVR__OpenVR__OpenVR__COpenVRContext() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____OVR__OpenVR__OpenVR__COpenVRContext", modifiers: " const&", def_value: None }]
-constexpr ____OVR__OpenVR__OpenVR__COpenVRContext(____OVR__OpenVR__OpenVR__COpenVRContext const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "OVR__OpenVR__OpenVR__COpenVRContext", modifiers: " const&", def_value: None }]
+constexpr OVR__OpenVR__OpenVR__COpenVRContext(OVR__OpenVR__OpenVR__COpenVRContext const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____OVR__OpenVR__OpenVR__COpenVRContext", modifiers: "&&", def_value: None }]
-constexpr ____OVR__OpenVR__OpenVR__COpenVRContext(____OVR__OpenVR__OpenVR__COpenVRContext&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "OVR__OpenVR__OpenVR__COpenVRContext", modifiers: "&&", def_value: None }]
+constexpr OVR__OpenVR__OpenVR__COpenVRContext(OVR__OpenVR__OpenVR__COpenVRContext&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____OVR__OpenVR__OpenVR__COpenVRContext(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit OVR__OpenVR__OpenVR__COpenVRContext(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____OVR__OpenVR__OpenVR__COpenVRContext& operator=(std::nullptr_t) noexcept {
+  constexpr OVR__OpenVR__OpenVR__COpenVRContext& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____OVR__OpenVR__OpenVR__COpenVRContext& operator=(void* o) noexcept {
+  constexpr OVR__OpenVR__OpenVR__COpenVRContext& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____OVR__OpenVR__OpenVR__COpenVRContext& operator=(____OVR__OpenVR__OpenVR__COpenVRContext&& o) noexcept = default;
-  constexpr ____OVR__OpenVR__OpenVR__COpenVRContext& operator=(____OVR__OpenVR__OpenVR__COpenVRContext const& o) noexcept = default;
+  constexpr OVR__OpenVR__OpenVR__COpenVRContext& operator=(OVR__OpenVR__OpenVR__COpenVRContext&& o) noexcept = default;
+  constexpr OVR__OpenVR__OpenVR__COpenVRContext& operator=(OVR__OpenVR__OpenVR__COpenVRContext const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::OVR::OpenVR::CVRSystem __declspec(property(get=__get_m_pVRSystem, put=__set_m_pVRSystem))  m_pVRSystem;
+ OVR::OpenVR::CVRSystem __declspec(property(get=__get_m_pVRSystem, put=__set_m_pVRSystem))  m_pVRSystem;
 
-constexpr void __set_m_pVRSystem(::OVR::OpenVR::CVRSystem value) ;
+constexpr void __set_m_pVRSystem(OVR::OpenVR::CVRSystem value) ;
 
-constexpr ::OVR::OpenVR::CVRSystem __get_m_pVRSystem() const;
+constexpr OVR::OpenVR::CVRSystem __get_m_pVRSystem() const;
 
- ::OVR::OpenVR::CVRChaperone __declspec(property(get=__get_m_pVRChaperone, put=__set_m_pVRChaperone))  m_pVRChaperone;
+ OVR::OpenVR::CVRChaperone __declspec(property(get=__get_m_pVRChaperone, put=__set_m_pVRChaperone))  m_pVRChaperone;
 
-constexpr void __set_m_pVRChaperone(::OVR::OpenVR::CVRChaperone value) ;
+constexpr void __set_m_pVRChaperone(OVR::OpenVR::CVRChaperone value) ;
 
-constexpr ::OVR::OpenVR::CVRChaperone __get_m_pVRChaperone() const;
+constexpr OVR::OpenVR::CVRChaperone __get_m_pVRChaperone() const;
 
- ::OVR::OpenVR::CVRChaperoneSetup __declspec(property(get=__get_m_pVRChaperoneSetup, put=__set_m_pVRChaperoneSetup))  m_pVRChaperoneSetup;
+ OVR::OpenVR::CVRChaperoneSetup __declspec(property(get=__get_m_pVRChaperoneSetup, put=__set_m_pVRChaperoneSetup))  m_pVRChaperoneSetup;
 
-constexpr void __set_m_pVRChaperoneSetup(::OVR::OpenVR::CVRChaperoneSetup value) ;
+constexpr void __set_m_pVRChaperoneSetup(OVR::OpenVR::CVRChaperoneSetup value) ;
 
-constexpr ::OVR::OpenVR::CVRChaperoneSetup __get_m_pVRChaperoneSetup() const;
+constexpr OVR::OpenVR::CVRChaperoneSetup __get_m_pVRChaperoneSetup() const;
 
- ::OVR::OpenVR::CVRCompositor __declspec(property(get=__get_m_pVRCompositor, put=__set_m_pVRCompositor))  m_pVRCompositor;
+ OVR::OpenVR::CVRCompositor __declspec(property(get=__get_m_pVRCompositor, put=__set_m_pVRCompositor))  m_pVRCompositor;
 
-constexpr void __set_m_pVRCompositor(::OVR::OpenVR::CVRCompositor value) ;
+constexpr void __set_m_pVRCompositor(OVR::OpenVR::CVRCompositor value) ;
 
-constexpr ::OVR::OpenVR::CVRCompositor __get_m_pVRCompositor() const;
+constexpr OVR::OpenVR::CVRCompositor __get_m_pVRCompositor() const;
 
- ::OVR::OpenVR::CVROverlay __declspec(property(get=__get_m_pVROverlay, put=__set_m_pVROverlay))  m_pVROverlay;
+ OVR::OpenVR::CVROverlay __declspec(property(get=__get_m_pVROverlay, put=__set_m_pVROverlay))  m_pVROverlay;
 
-constexpr void __set_m_pVROverlay(::OVR::OpenVR::CVROverlay value) ;
+constexpr void __set_m_pVROverlay(OVR::OpenVR::CVROverlay value) ;
 
-constexpr ::OVR::OpenVR::CVROverlay __get_m_pVROverlay() const;
+constexpr OVR::OpenVR::CVROverlay __get_m_pVROverlay() const;
 
- ::OVR::OpenVR::CVRRenderModels __declspec(property(get=__get_m_pVRRenderModels, put=__set_m_pVRRenderModels))  m_pVRRenderModels;
+ OVR::OpenVR::CVRRenderModels __declspec(property(get=__get_m_pVRRenderModels, put=__set_m_pVRRenderModels))  m_pVRRenderModels;
 
-constexpr void __set_m_pVRRenderModels(::OVR::OpenVR::CVRRenderModels value) ;
+constexpr void __set_m_pVRRenderModels(OVR::OpenVR::CVRRenderModels value) ;
 
-constexpr ::OVR::OpenVR::CVRRenderModels __get_m_pVRRenderModels() const;
+constexpr OVR::OpenVR::CVRRenderModels __get_m_pVRRenderModels() const;
 
- ::OVR::OpenVR::CVRExtendedDisplay __declspec(property(get=__get_m_pVRExtendedDisplay, put=__set_m_pVRExtendedDisplay))  m_pVRExtendedDisplay;
+ OVR::OpenVR::CVRExtendedDisplay __declspec(property(get=__get_m_pVRExtendedDisplay, put=__set_m_pVRExtendedDisplay))  m_pVRExtendedDisplay;
 
-constexpr void __set_m_pVRExtendedDisplay(::OVR::OpenVR::CVRExtendedDisplay value) ;
+constexpr void __set_m_pVRExtendedDisplay(OVR::OpenVR::CVRExtendedDisplay value) ;
 
-constexpr ::OVR::OpenVR::CVRExtendedDisplay __get_m_pVRExtendedDisplay() const;
+constexpr OVR::OpenVR::CVRExtendedDisplay __get_m_pVRExtendedDisplay() const;
 
- ::OVR::OpenVR::CVRSettings __declspec(property(get=__get_m_pVRSettings, put=__set_m_pVRSettings))  m_pVRSettings;
+ OVR::OpenVR::CVRSettings __declspec(property(get=__get_m_pVRSettings, put=__set_m_pVRSettings))  m_pVRSettings;
 
-constexpr void __set_m_pVRSettings(::OVR::OpenVR::CVRSettings value) ;
+constexpr void __set_m_pVRSettings(OVR::OpenVR::CVRSettings value) ;
 
-constexpr ::OVR::OpenVR::CVRSettings __get_m_pVRSettings() const;
+constexpr OVR::OpenVR::CVRSettings __get_m_pVRSettings() const;
 
- ::OVR::OpenVR::CVRApplications __declspec(property(get=__get_m_pVRApplications, put=__set_m_pVRApplications))  m_pVRApplications;
+ OVR::OpenVR::CVRApplications __declspec(property(get=__get_m_pVRApplications, put=__set_m_pVRApplications))  m_pVRApplications;
 
-constexpr void __set_m_pVRApplications(::OVR::OpenVR::CVRApplications value) ;
+constexpr void __set_m_pVRApplications(OVR::OpenVR::CVRApplications value) ;
 
-constexpr ::OVR::OpenVR::CVRApplications __get_m_pVRApplications() const;
+constexpr OVR::OpenVR::CVRApplications __get_m_pVRApplications() const;
 
- ::OVR::OpenVR::CVRScreenshots __declspec(property(get=__get_m_pVRScreenshots, put=__set_m_pVRScreenshots))  m_pVRScreenshots;
+ OVR::OpenVR::CVRScreenshots __declspec(property(get=__get_m_pVRScreenshots, put=__set_m_pVRScreenshots))  m_pVRScreenshots;
 
-constexpr void __set_m_pVRScreenshots(::OVR::OpenVR::CVRScreenshots value) ;
+constexpr void __set_m_pVRScreenshots(OVR::OpenVR::CVRScreenshots value) ;
 
-constexpr ::OVR::OpenVR::CVRScreenshots __get_m_pVRScreenshots() const;
+constexpr OVR::OpenVR::CVRScreenshots __get_m_pVRScreenshots() const;
 
- ::OVR::OpenVR::CVRTrackedCamera __declspec(property(get=__get_m_pVRTrackedCamera, put=__set_m_pVRTrackedCamera))  m_pVRTrackedCamera;
+ OVR::OpenVR::CVRTrackedCamera __declspec(property(get=__get_m_pVRTrackedCamera, put=__set_m_pVRTrackedCamera))  m_pVRTrackedCamera;
 
-constexpr void __set_m_pVRTrackedCamera(::OVR::OpenVR::CVRTrackedCamera value) ;
+constexpr void __set_m_pVRTrackedCamera(OVR::OpenVR::CVRTrackedCamera value) ;
 
-constexpr ::OVR::OpenVR::CVRTrackedCamera __get_m_pVRTrackedCamera() const;
+constexpr OVR::OpenVR::CVRTrackedCamera __get_m_pVRTrackedCamera() const;
 
- ::OVR::OpenVR::CVRInput __declspec(property(get=__get_m_pVRInput, put=__set_m_pVRInput))  m_pVRInput;
+ OVR::OpenVR::CVRInput __declspec(property(get=__get_m_pVRInput, put=__set_m_pVRInput))  m_pVRInput;
 
-constexpr void __set_m_pVRInput(::OVR::OpenVR::CVRInput value) ;
+constexpr void __set_m_pVRInput(OVR::OpenVR::CVRInput value) ;
 
-constexpr ::OVR::OpenVR::CVRInput __get_m_pVRInput() const;
+constexpr OVR::OpenVR::CVRInput __get_m_pVRInput() const;
 
- ::OVR::OpenVR::CVRSpatialAnchors __declspec(property(get=__get_m_pVRSpatialAnchors, put=__set_m_pVRSpatialAnchors))  m_pVRSpatialAnchors;
+ OVR::OpenVR::CVRSpatialAnchors __declspec(property(get=__get_m_pVRSpatialAnchors, put=__set_m_pVRSpatialAnchors))  m_pVRSpatialAnchors;
 
-constexpr void __set_m_pVRSpatialAnchors(::OVR::OpenVR::CVRSpatialAnchors value) ;
+constexpr void __set_m_pVRSpatialAnchors(OVR::OpenVR::CVRSpatialAnchors value) ;
 
-constexpr ::OVR::OpenVR::CVRSpatialAnchors __get_m_pVRSpatialAnchors() const;
+constexpr OVR::OpenVR::CVRSpatialAnchors __get_m_pVRSpatialAnchors() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____OVR__OpenVR__OpenVR__COpenVRContext() ;
+explicit OVR__OpenVR__OpenVR__COpenVRContext() ;
 
 /// @brief Method .ctor addr 0x26699b4 size 0x2c virtual false final false
  void _ctor() ;
@@ -193,43 +192,43 @@ explicit ____OVR__OpenVR__OpenVR__COpenVRContext() ;
  void CheckClear() ;
 
 /// @brief Method VRSystem addr 0x26699f8 size 0xe4 virtual false final false
- ::OVR::OpenVR::CVRSystem VRSystem() ;
+ OVR::OpenVR::CVRSystem VRSystem() ;
 
 /// @brief Method VRChaperone addr 0x2669af4 size 0xe4 virtual false final false
- ::OVR::OpenVR::CVRChaperone VRChaperone() ;
+ OVR::OpenVR::CVRChaperone VRChaperone() ;
 
 /// @brief Method VRChaperoneSetup addr 0x2669bf0 size 0xe4 virtual false final false
- ::OVR::OpenVR::CVRChaperoneSetup VRChaperoneSetup() ;
+ OVR::OpenVR::CVRChaperoneSetup VRChaperoneSetup() ;
 
 /// @brief Method VRCompositor addr 0x2669cec size 0xe4 virtual false final false
- ::OVR::OpenVR::CVRCompositor VRCompositor() ;
+ OVR::OpenVR::CVRCompositor VRCompositor() ;
 
 /// @brief Method VROverlay addr 0x2669de8 size 0xe4 virtual false final false
- ::OVR::OpenVR::CVROverlay VROverlay() ;
+ OVR::OpenVR::CVROverlay VROverlay() ;
 
 /// @brief Method VRRenderModels addr 0x2669ee4 size 0xe4 virtual false final false
- ::OVR::OpenVR::CVRRenderModels VRRenderModels() ;
+ OVR::OpenVR::CVRRenderModels VRRenderModels() ;
 
 /// @brief Method VRExtendedDisplay addr 0x2669fe0 size 0xe4 virtual false final false
- ::OVR::OpenVR::CVRExtendedDisplay VRExtendedDisplay() ;
+ OVR::OpenVR::CVRExtendedDisplay VRExtendedDisplay() ;
 
 /// @brief Method VRSettings addr 0x266a0dc size 0xe4 virtual false final false
- ::OVR::OpenVR::CVRSettings VRSettings() ;
+ OVR::OpenVR::CVRSettings VRSettings() ;
 
 /// @brief Method VRApplications addr 0x266a1d8 size 0xe4 virtual false final false
- ::OVR::OpenVR::CVRApplications VRApplications() ;
+ OVR::OpenVR::CVRApplications VRApplications() ;
 
 /// @brief Method VRScreenshots addr 0x266a2d4 size 0xe4 virtual false final false
- ::OVR::OpenVR::CVRScreenshots VRScreenshots() ;
+ OVR::OpenVR::CVRScreenshots VRScreenshots() ;
 
 /// @brief Method VRTrackedCamera addr 0x266a3d0 size 0xe4 virtual false final false
- ::OVR::OpenVR::CVRTrackedCamera VRTrackedCamera() ;
+ OVR::OpenVR::CVRTrackedCamera VRTrackedCamera() ;
 
 /// @brief Method VRInput addr 0x266a4cc size 0xe4 virtual false final false
- ::OVR::OpenVR::CVRInput VRInput() ;
+ OVR::OpenVR::CVRInput VRInput() ;
 
 /// @brief Method VRSpatialAnchors addr 0x266a5c8 size 0xe4 virtual false final false
- ::OVR::OpenVR::CVRSpatialAnchors VRSpatialAnchors() ;
+ OVR::OpenVR::CVRSpatialAnchors VRSpatialAnchors() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -244,7 +243,7 @@ namespace OVR::OpenVR {
 class CORDL_TYPE OpenVR : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using COpenVRContext = ::OVR::OpenVR::____OVR__OpenVR__OpenVR__COpenVRContext;
+using COpenVRContext = OVR::OpenVR::OVR__OpenVR__OpenVR__COpenVRContext;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -945,53 +944,53 @@ static uint32_t __get__VRToken_k__BackingField() ;
 /// @brief Field FnTable_Prefix offset 0
 static constexpr ::ConstString  FnTable_Prefix{u"FnTable:"};
 
-static ::OVR::OpenVR::____OVR__OpenVR__OpenVR__COpenVRContext __declspec(property(get=__get__OpenVRInternal_ModuleContext, put=__set__OpenVRInternal_ModuleContext))  _OpenVRInternal_ModuleContext;
+static OVR::OpenVR::OVR__OpenVR__OpenVR__COpenVRContext __declspec(property(get=__get__OpenVRInternal_ModuleContext, put=__set__OpenVRInternal_ModuleContext))  _OpenVRInternal_ModuleContext;
 
-static void __set__OpenVRInternal_ModuleContext(::OVR::OpenVR::____OVR__OpenVR__OpenVR__COpenVRContext value) ;
+static void __set__OpenVRInternal_ModuleContext(OVR::OpenVR::OVR__OpenVR__OpenVR__COpenVRContext value) ;
 
-static ::OVR::OpenVR::____OVR__OpenVR__OpenVR__COpenVRContext __get__OpenVRInternal_ModuleContext() ;
+static OVR::OpenVR::OVR__OpenVR__OpenVR__COpenVRContext __get__OpenVRInternal_ModuleContext() ;
 
 
 // Properties
 
 static uint32_t __declspec(property(get=get_VRToken, put=set_VRToken))  VRToken;
 
-static ::OVR::OpenVR::____OVR__OpenVR__OpenVR__COpenVRContext __declspec(property(get=get_OpenVRInternal_ModuleContext))  OpenVRInternal_ModuleContext;
+static OVR::OpenVR::OVR__OpenVR__OpenVR__COpenVRContext __declspec(property(get=get_OpenVRInternal_ModuleContext))  OpenVRInternal_ModuleContext;
 
-static ::OVR::OpenVR::CVRSystem __declspec(property(get=get_System))  System;
+static OVR::OpenVR::CVRSystem __declspec(property(get=get_System))  System;
 
-static ::OVR::OpenVR::CVRChaperone __declspec(property(get=get_Chaperone))  Chaperone;
+static OVR::OpenVR::CVRChaperone __declspec(property(get=get_Chaperone))  Chaperone;
 
-static ::OVR::OpenVR::CVRChaperoneSetup __declspec(property(get=get_ChaperoneSetup))  ChaperoneSetup;
+static OVR::OpenVR::CVRChaperoneSetup __declspec(property(get=get_ChaperoneSetup))  ChaperoneSetup;
 
-static ::OVR::OpenVR::CVRCompositor __declspec(property(get=get_Compositor))  Compositor;
+static OVR::OpenVR::CVRCompositor __declspec(property(get=get_Compositor))  Compositor;
 
-static ::OVR::OpenVR::CVROverlay __declspec(property(get=get_Overlay))  Overlay;
+static OVR::OpenVR::CVROverlay __declspec(property(get=get_Overlay))  Overlay;
 
-static ::OVR::OpenVR::CVRRenderModels __declspec(property(get=get_RenderModels))  RenderModels;
+static OVR::OpenVR::CVRRenderModels __declspec(property(get=get_RenderModels))  RenderModels;
 
-static ::OVR::OpenVR::CVRExtendedDisplay __declspec(property(get=get_ExtendedDisplay))  ExtendedDisplay;
+static OVR::OpenVR::CVRExtendedDisplay __declspec(property(get=get_ExtendedDisplay))  ExtendedDisplay;
 
-static ::OVR::OpenVR::CVRSettings __declspec(property(get=get_Settings))  Settings;
+static OVR::OpenVR::CVRSettings __declspec(property(get=get_Settings))  Settings;
 
-static ::OVR::OpenVR::CVRApplications __declspec(property(get=get_Applications))  Applications;
+static OVR::OpenVR::CVRApplications __declspec(property(get=get_Applications))  Applications;
 
-static ::OVR::OpenVR::CVRScreenshots __declspec(property(get=get_Screenshots))  Screenshots;
+static OVR::OpenVR::CVRScreenshots __declspec(property(get=get_Screenshots))  Screenshots;
 
-static ::OVR::OpenVR::CVRTrackedCamera __declspec(property(get=get_TrackedCamera))  TrackedCamera;
+static OVR::OpenVR::CVRTrackedCamera __declspec(property(get=get_TrackedCamera))  TrackedCamera;
 
-static ::OVR::OpenVR::CVRInput __declspec(property(get=get_Input))  Input;
+static OVR::OpenVR::CVRInput __declspec(property(get=get_Input))  Input;
 
-static ::OVR::OpenVR::CVRSpatialAnchors __declspec(property(get=get_SpatialAnchors))  SpatialAnchors;
+static OVR::OpenVR::CVRSpatialAnchors __declspec(property(get=get_SpatialAnchors))  SpatialAnchors;
 
 
 // Methods
 
 /// @brief Method InitInternal addr 0x26697f8 size 0x4 virtual false final false
-static uint32_t InitInternal(ByRef<::OVR::OpenVR::EVRInitError> peError, ::OVR::OpenVR::EVRApplicationType eApplicationType) ;
+static uint32_t InitInternal(ByRef<OVR::OpenVR::EVRInitError> peError, OVR::OpenVR::EVRApplicationType eApplicationType) ;
 
 /// @brief Method InitInternal2 addr 0x26697fc size 0x4 virtual false final false
-static uint32_t InitInternal2(ByRef<::OVR::OpenVR::EVRInitError> peError, ::OVR::OpenVR::EVRApplicationType eApplicationType, ::StringW pchStartupInfo) ;
+static uint32_t InitInternal2(ByRef<OVR::OpenVR::EVRInitError> peError, OVR::OpenVR::EVRApplicationType eApplicationType, ::StringW pchStartupInfo) ;
 
 /// @brief Method ShutdownInternal addr 0x2669800 size 0x4 virtual false final false
 static void ShutdownInternal() ;
@@ -1003,10 +1002,10 @@ static bool IsHmdPresent() ;
 static bool IsRuntimeInstalled() ;
 
 /// @brief Method GetStringForHmdError addr 0x266980c size 0x68 virtual false final false
-static ::StringW GetStringForHmdError(::OVR::OpenVR::EVRInitError error) ;
+static ::StringW GetStringForHmdError(OVR::OpenVR::EVRInitError error) ;
 
 /// @brief Method GetGenericInterface addr 0x2669874 size 0x4 virtual false final false
-static ::cordl_internals::intptr_t GetGenericInterface(::StringW pchInterfaceVersion, ByRef<::OVR::OpenVR::EVRInitError> peError) ;
+static ::cordl_internals::intptr_t GetGenericInterface(::StringW pchInterfaceVersion, ByRef<OVR::OpenVR::EVRInitError> peError) ;
 
 /// @brief Method IsInterfaceVersionValid addr 0x2669878 size 0x4 virtual false final false
 static bool IsInterfaceVersionValid(::StringW pchInterfaceVersion) ;
@@ -1021,49 +1020,49 @@ static uint32_t get_VRToken() ;
 static void set_VRToken(uint32_t value) ;
 
 /// @brief Method get_OpenVRInternal_ModuleContext addr 0x2669914 size 0xa0 virtual false final false
-static ::OVR::OpenVR::____OVR__OpenVR__OpenVR__COpenVRContext get_OpenVRInternal_ModuleContext() ;
+static OVR::OpenVR::OVR__OpenVR__OpenVR__COpenVRContext get_OpenVRInternal_ModuleContext() ;
 
 /// @brief Method get_System addr 0x26699e0 size 0x18 virtual false final false
-static ::OVR::OpenVR::CVRSystem get_System() ;
+static OVR::OpenVR::CVRSystem get_System() ;
 
 /// @brief Method get_Chaperone addr 0x2669adc size 0x18 virtual false final false
-static ::OVR::OpenVR::CVRChaperone get_Chaperone() ;
+static OVR::OpenVR::CVRChaperone get_Chaperone() ;
 
 /// @brief Method get_ChaperoneSetup addr 0x2669bd8 size 0x18 virtual false final false
-static ::OVR::OpenVR::CVRChaperoneSetup get_ChaperoneSetup() ;
+static OVR::OpenVR::CVRChaperoneSetup get_ChaperoneSetup() ;
 
 /// @brief Method get_Compositor addr 0x2669cd4 size 0x18 virtual false final false
-static ::OVR::OpenVR::CVRCompositor get_Compositor() ;
+static OVR::OpenVR::CVRCompositor get_Compositor() ;
 
 /// @brief Method get_Overlay addr 0x2669dd0 size 0x18 virtual false final false
-static ::OVR::OpenVR::CVROverlay get_Overlay() ;
+static OVR::OpenVR::CVROverlay get_Overlay() ;
 
 /// @brief Method get_RenderModels addr 0x2669ecc size 0x18 virtual false final false
-static ::OVR::OpenVR::CVRRenderModels get_RenderModels() ;
+static OVR::OpenVR::CVRRenderModels get_RenderModels() ;
 
 /// @brief Method get_ExtendedDisplay addr 0x2669fc8 size 0x18 virtual false final false
-static ::OVR::OpenVR::CVRExtendedDisplay get_ExtendedDisplay() ;
+static OVR::OpenVR::CVRExtendedDisplay get_ExtendedDisplay() ;
 
 /// @brief Method get_Settings addr 0x266a0c4 size 0x18 virtual false final false
-static ::OVR::OpenVR::CVRSettings get_Settings() ;
+static OVR::OpenVR::CVRSettings get_Settings() ;
 
 /// @brief Method get_Applications addr 0x266a1c0 size 0x18 virtual false final false
-static ::OVR::OpenVR::CVRApplications get_Applications() ;
+static OVR::OpenVR::CVRApplications get_Applications() ;
 
 /// @brief Method get_Screenshots addr 0x266a2bc size 0x18 virtual false final false
-static ::OVR::OpenVR::CVRScreenshots get_Screenshots() ;
+static OVR::OpenVR::CVRScreenshots get_Screenshots() ;
 
 /// @brief Method get_TrackedCamera addr 0x266a3b8 size 0x18 virtual false final false
-static ::OVR::OpenVR::CVRTrackedCamera get_TrackedCamera() ;
+static OVR::OpenVR::CVRTrackedCamera get_TrackedCamera() ;
 
 /// @brief Method get_Input addr 0x266a4b4 size 0x18 virtual false final false
-static ::OVR::OpenVR::CVRInput get_Input() ;
+static OVR::OpenVR::CVRInput get_Input() ;
 
 /// @brief Method get_SpatialAnchors addr 0x266a5b0 size 0x18 virtual false final false
-static ::OVR::OpenVR::CVRSpatialAnchors get_SpatialAnchors() ;
+static OVR::OpenVR::CVRSpatialAnchors get_SpatialAnchors() ;
 
 /// @brief Method Init addr 0x266a6ac size 0x18c virtual false final false
-static ::OVR::OpenVR::CVRSystem Init(ByRef<::OVR::OpenVR::EVRInitError> peError, ::OVR::OpenVR::EVRApplicationType eApplicationType, ::StringW pchStartupInfo) ;
+static OVR::OpenVR::CVRSystem Init(ByRef<OVR::OpenVR::EVRInitError> peError, OVR::OpenVR::EVRApplicationType eApplicationType, ::StringW pchStartupInfo) ;
 
 /// @brief Method Shutdown addr 0x266a850 size 0x4 virtual false final false
 static void Shutdown() ;
@@ -1078,8 +1077,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-NEED_NO_BOX(::OVR::OpenVR::OpenVR);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::OpenVR, "OVR.OpenVR", "OpenVR");
-NEED_NO_BOX(::OVR::OpenVR::____OVR__OpenVR__OpenVR__COpenVRContext);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::____OVR__OpenVR__OpenVR__COpenVRContext, "OVR.OpenVR", "OpenVR/COpenVRContext");
+NEED_NO_BOX(OVR::OpenVR::OVR__OpenVR__OpenVR__COpenVRContext);
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::OVR__OpenVR__OpenVR__COpenVRContext, "OVR.OpenVR", "OpenVR/COpenVRContext");
+NEED_NO_BOX(OVR::OpenVR::OpenVR);
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::OpenVR, "OVR.OpenVR", "OpenVR");

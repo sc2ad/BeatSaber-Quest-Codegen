@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateCollection;
 }
@@ -55,15 +54,14 @@ constexpr explicit CertHelper(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType
 // Methods
 
 /// @brief Method AddCertificatesToNativeChain addr 0x2685c8c size 0x1d8 virtual false final false
-static void AddCertificatesToNativeChain(void* nativeCertificateChain, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection certificates, void* errorState) ;
+static void AddCertificatesToNativeChain(void* nativeCertificateChain, System::Security::Cryptography::X509Certificates::X509CertificateCollection certificates, void* errorState) ;
 
 /// @brief Method AddCertificateToNativeChain addr 0x2685e64 size 0x1c0 virtual false final false
-static void AddCertificateToNativeChain(void* nativeCertificateChain, ::System::Security::Cryptography::X509Certificates::X509Certificate certificate, void* errorState) ;
+static void AddCertificateToNativeChain(void* nativeCertificateChain, System::Security::Cryptography::X509Certificates::X509Certificate certificate, void* errorState) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Unity
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Unity::CertHelper);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Unity::CertHelper, "Mono.Unity", "CertHelper");
+NEED_NO_BOX(Mono::Unity::CertHelper);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::CertHelper, "Mono.Unity", "CertHelper");

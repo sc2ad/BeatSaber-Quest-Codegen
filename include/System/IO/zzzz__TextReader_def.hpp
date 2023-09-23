@@ -4,19 +4,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class IDisposable;
 }
 // Forward declare root types
 namespace System::IO {
+class System__IO__TextReader__NullTextReader;
+}
+namespace System::IO {
+class System__IO__TextReader__SyncTextReader;
+}
+namespace System::IO {
 class TextReader;
-}
-namespace System::IO {
-class ____System__IO__TextReader__NullTextReader;
-}
-namespace System::IO {
-class ____System__IO__TextReader__SyncTextReader;
 }
 // Type: System.IO::TextReader
 namespace System::IO {
@@ -24,15 +23,15 @@ namespace System::IO {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2604))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3569))
 // CS Name: System.IO.TextReader
-class CORDL_TYPE TextReader : public ::System::MarshalByRefObject {
+class CORDL_TYPE TextReader : public System::MarshalByRefObject {
 public:
 // Declarations
-using SyncTextReader = ::System::IO::____System__IO__TextReader__SyncTextReader;
+using SyncTextReader = System::IO::System__IO__TextReader__SyncTextReader;
 
-using NullTextReader = ::System::IO::____System__IO__TextReader__NullTextReader;
+using NullTextReader = System::IO::System__IO__TextReader__NullTextReader;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -46,7 +45,7 @@ constexpr TextReader(TextReader const& ) noexcept = default;
 constexpr TextReader(TextReader&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TextReader(void* ptr) noexcept : ::System::MarshalByRefObject(ptr) {
+constexpr explicit TextReader(void* ptr) noexcept : System::MarshalByRefObject(ptr) {
 }
 
 
@@ -67,11 +66,11 @@ constexpr explicit TextReader(void* ptr) noexcept : ::System::MarshalByRefObject
 
 // Fields
 
-static ::System::IO::TextReader __declspec(property(get=__get_Null, put=__set_Null))  Null;
+static System::IO::TextReader __declspec(property(get=__get_Null, put=__set_Null))  Null;
 
-static void __set_Null(::System::IO::TextReader value) ;
+static void __set_Null(System::IO::TextReader value) ;
 
-static ::System::IO::TextReader __get_Null() ;
+static System::IO::TextReader __get_Null() ;
 
 
 // Methods
@@ -107,7 +106,7 @@ explicit TextReader() ;
  ::StringW ReadLine() ;
 
 /// @brief Method Synchronized addr 0x23976a0 size 0xc0 virtual false final false
-static ::System::IO::TextReader Synchronized(::System::IO::TextReader reader) ;
+static System::IO::TextReader Synchronized(System::IO::TextReader reader) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -119,44 +118,44 @@ namespace System::IO {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3569))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3567))
 // CS Name: System.IO.TextReader::NullTextReader
-class CORDL_TYPE ____System__IO__TextReader__NullTextReader : public ::System::IO::TextReader {
+class CORDL_TYPE System__IO__TextReader__NullTextReader : public System::IO::TextReader {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____System__IO__TextReader__NullTextReader() = default;
+virtual ~System__IO__TextReader__NullTextReader() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__IO__TextReader__NullTextReader", modifiers: " const&", def_value: None }]
-constexpr ____System__IO__TextReader__NullTextReader(____System__IO__TextReader__NullTextReader const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__IO__TextReader__NullTextReader", modifiers: " const&", def_value: None }]
+constexpr System__IO__TextReader__NullTextReader(System__IO__TextReader__NullTextReader const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__IO__TextReader__NullTextReader", modifiers: "&&", def_value: None }]
-constexpr ____System__IO__TextReader__NullTextReader(____System__IO__TextReader__NullTextReader&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__IO__TextReader__NullTextReader", modifiers: "&&", def_value: None }]
+constexpr System__IO__TextReader__NullTextReader(System__IO__TextReader__NullTextReader&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__IO__TextReader__NullTextReader(void* ptr) noexcept : ::System::IO::TextReader(ptr) {
+constexpr explicit System__IO__TextReader__NullTextReader(void* ptr) noexcept : System::IO::TextReader(ptr) {
 }
 
 
-  constexpr ____System__IO__TextReader__NullTextReader& operator=(std::nullptr_t) noexcept {
+  constexpr System__IO__TextReader__NullTextReader& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__IO__TextReader__NullTextReader& operator=(void* o) noexcept {
+  constexpr System__IO__TextReader__NullTextReader& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__IO__TextReader__NullTextReader& operator=(____System__IO__TextReader__NullTextReader&& o) noexcept = default;
-  constexpr ____System__IO__TextReader__NullTextReader& operator=(____System__IO__TextReader__NullTextReader const& o) noexcept = default;
+  constexpr System__IO__TextReader__NullTextReader& operator=(System__IO__TextReader__NullTextReader&& o) noexcept = default;
+  constexpr System__IO__TextReader__NullTextReader& operator=(System__IO__TextReader__NullTextReader const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____System__IO__TextReader__NullTextReader() ;
+explicit System__IO__TextReader__NullTextReader() ;
 
 /// @brief Method .ctor addr 0x2397840 size 0x58 virtual false final false
  void _ctor() ;
@@ -177,56 +176,56 @@ namespace System::IO {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3569))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3568))
 // CS Name: System.IO.TextReader::SyncTextReader
-class CORDL_TYPE ____System__IO__TextReader__SyncTextReader : public ::System::IO::TextReader {
+class CORDL_TYPE System__IO__TextReader__SyncTextReader : public System::IO::TextReader {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____System__IO__TextReader__SyncTextReader() = default;
+virtual ~System__IO__TextReader__SyncTextReader() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__IO__TextReader__SyncTextReader", modifiers: " const&", def_value: None }]
-constexpr ____System__IO__TextReader__SyncTextReader(____System__IO__TextReader__SyncTextReader const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__IO__TextReader__SyncTextReader", modifiers: " const&", def_value: None }]
+constexpr System__IO__TextReader__SyncTextReader(System__IO__TextReader__SyncTextReader const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__IO__TextReader__SyncTextReader", modifiers: "&&", def_value: None }]
-constexpr ____System__IO__TextReader__SyncTextReader(____System__IO__TextReader__SyncTextReader&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__IO__TextReader__SyncTextReader", modifiers: "&&", def_value: None }]
+constexpr System__IO__TextReader__SyncTextReader(System__IO__TextReader__SyncTextReader&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__IO__TextReader__SyncTextReader(void* ptr) noexcept : ::System::IO::TextReader(ptr) {
+constexpr explicit System__IO__TextReader__SyncTextReader(void* ptr) noexcept : System::IO::TextReader(ptr) {
 }
 
 
-  constexpr ____System__IO__TextReader__SyncTextReader& operator=(std::nullptr_t) noexcept {
+  constexpr System__IO__TextReader__SyncTextReader& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__IO__TextReader__SyncTextReader& operator=(void* o) noexcept {
+  constexpr System__IO__TextReader__SyncTextReader& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__IO__TextReader__SyncTextReader& operator=(____System__IO__TextReader__SyncTextReader&& o) noexcept = default;
-  constexpr ____System__IO__TextReader__SyncTextReader& operator=(____System__IO__TextReader__SyncTextReader const& o) noexcept = default;
+  constexpr System__IO__TextReader__SyncTextReader& operator=(System__IO__TextReader__SyncTextReader&& o) noexcept = default;
+  constexpr System__IO__TextReader__SyncTextReader& operator=(System__IO__TextReader__SyncTextReader const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::IO::TextReader __declspec(property(get=__get__in, put=__set__in))  _in;
+ System::IO::TextReader __declspec(property(get=__get__in, put=__set__in))  _in;
 
-constexpr void __set__in(::System::IO::TextReader value) ;
+constexpr void __set__in(System::IO::TextReader value) ;
 
-constexpr ::System::IO::TextReader __get__in() const;
+constexpr System::IO::TextReader __get__in() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "t", ty: "::System::IO::TextReader", modifiers: "", def_value: None }]
-explicit ____System__IO__TextReader__SyncTextReader(::System::IO::TextReader t) ;
+// Ctor Parameters [CppParam { name: "t", ty: "System::IO::TextReader", modifiers: "", def_value: None }]
+explicit System__IO__TextReader__SyncTextReader(System::IO::TextReader t) ;
 
 /// @brief Method .ctor addr 0x2397760 size 0x6c virtual false final false
- void _ctor(::System::IO::TextReader t) ;
+ void _ctor(System::IO::TextReader t) ;
 
 /// @brief Method Close addr 0x23978a8 size 0x20 virtual true final false
  void Close() ;
@@ -253,10 +252,9 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::IO
-} // end anonymous namespace
-NEED_NO_BOX(::System::IO::TextReader);
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::TextReader, "System.IO", "TextReader");
-NEED_NO_BOX(::System::IO::____System__IO__TextReader__NullTextReader);
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::____System__IO__TextReader__NullTextReader, "System.IO", "TextReader/NullTextReader");
-NEED_NO_BOX(::System::IO::____System__IO__TextReader__SyncTextReader);
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::____System__IO__TextReader__SyncTextReader, "System.IO", "TextReader/SyncTextReader");
+NEED_NO_BOX(System::IO::System__IO__TextReader__NullTextReader);
+DEFINE_IL2CPP_ARG_TYPE(System::IO::System__IO__TextReader__NullTextReader, "System.IO", "TextReader/NullTextReader");
+NEED_NO_BOX(System::IO::System__IO__TextReader__SyncTextReader);
+DEFINE_IL2CPP_ARG_TYPE(System::IO::System__IO__TextReader__SyncTextReader, "System.IO", "TextReader/SyncTextReader");
+NEED_NO_BOX(System::IO::TextReader);
+DEFINE_IL2CPP_ARG_TYPE(System::IO::TextReader, "System.IO", "TextReader");

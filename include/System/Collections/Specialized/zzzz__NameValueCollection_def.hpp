@@ -4,21 +4,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace System::Collections {
+class IEqualityComparer;
+}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
-}
-namespace System::Collections {
-class ArrayList;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
-namespace System::Collections {
-class IEqualityComparer;
-}
 namespace System {
 class DBNull;
+}
+namespace System::Collections {
+class ArrayList;
 }
 // Forward declare root types
 namespace System::Collections::Specialized {
@@ -30,7 +29,7 @@ namespace System::Collections::Specialized {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8373))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8364))
 // CS Name: System.Collections.Specialized.NameValueCollection
-class CORDL_TYPE NameValueCollection : public ::System::Collections::Specialized::NameObjectCollectionBase {
+class CORDL_TYPE NameValueCollection : public System::Collections::Specialized::NameObjectCollectionBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -45,7 +44,7 @@ constexpr NameValueCollection(NameValueCollection const& ) noexcept = default;
 constexpr NameValueCollection(NameValueCollection&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NameValueCollection(void* ptr) noexcept : ::System::Collections::Specialized::NameObjectCollectionBase(ptr) {
+constexpr explicit NameValueCollection(void* ptr) noexcept : System::Collections::Specialized::NameObjectCollectionBase(ptr) {
 }
 
 
@@ -98,26 +97,26 @@ explicit NameValueCollection(int32_t capacity) ;
 /// @brief Method .ctor addr 0x27aa230 size 0x64 virtual false final false
  void _ctor(int32_t capacity) ;
 
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "equalityComparer", ty: "::System::Collections::IEqualityComparer", modifiers: "", def_value: None }]
-explicit NameValueCollection(int32_t capacity, ::System::Collections::IEqualityComparer equalityComparer) ;
+// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "equalityComparer", ty: "System::Collections::IEqualityComparer", modifiers: "", def_value: None }]
+explicit NameValueCollection(int32_t capacity, System::Collections::IEqualityComparer equalityComparer) ;
 
 /// @brief Method .ctor addr 0x27aa344 size 0x74 virtual false final false
- void _ctor(int32_t capacity, ::System::Collections::IEqualityComparer equalityComparer) ;
+ void _ctor(int32_t capacity, System::Collections::IEqualityComparer equalityComparer) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit NameValueCollection(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit NameValueCollection(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x27aa3e4 size 0x6c virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method InvalidateCachedArrays addr 0x27aa478 size 0x8 virtual false final false
  void InvalidateCachedArrays() ;
 
 /// @brief Method GetAsOneString addr 0x27aa480 size 0x1a0 virtual false final false
-static ::StringW GetAsOneString(::System::Collections::ArrayList list) ;
+static ::StringW GetAsOneString(System::Collections::ArrayList list) ;
 
 /// @brief Method GetAsStringArray addr 0x27aa620 size 0xa0 virtual false final false
-static ::ArrayW<::StringW> GetAsStringArray(::System::Collections::ArrayList list) ;
+static ::ArrayW<::StringW> GetAsStringArray(System::Collections::ArrayList list) ;
 
 /// @brief Method Add addr 0x27aa6c0 size 0x16c virtual true final false
  void Add(::StringW name, ::StringW value) ;
@@ -149,16 +148,15 @@ static ::ArrayW<::StringW> GetAsStringArray(::System::Collections::ArrayList lis
 /// @brief Method GetKey addr 0x27ab034 size 0x4 virtual true final false
  ::StringW GetKey(int32_t index) ;
 
-// Ctor Parameters [CppParam { name: "dummy", ty: "::System::DBNull", modifiers: "", def_value: None }]
-explicit NameValueCollection(::System::DBNull dummy) ;
+// Ctor Parameters [CppParam { name: "dummy", ty: "System::DBNull", modifiers: "", def_value: None }]
+explicit NameValueCollection(System::DBNull dummy) ;
 
 /// @brief Method .ctor addr 0x27ab0d4 size 0x58 virtual false final false
- void _ctor(::System::DBNull dummy) ;
+ void _ctor(System::DBNull dummy) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Collections::Specialized
-} // end anonymous namespace
-NEED_NO_BOX(::System::Collections::Specialized::NameValueCollection);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Specialized::NameValueCollection, "System.Collections.Specialized", "NameValueCollection");
+NEED_NO_BOX(System::Collections::Specialized::NameValueCollection);
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::NameValueCollection, "System.Collections.Specialized", "NameValueCollection");

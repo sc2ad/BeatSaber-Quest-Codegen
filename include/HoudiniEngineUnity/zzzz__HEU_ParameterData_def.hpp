@@ -5,9 +5,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Color;
+}
+namespace UnityEngine {
+class AnimationCurve;
 }
 namespace UnityEngine {
 class GUIContent;
@@ -15,8 +17,8 @@ class GUIContent;
 namespace HoudiniEngineUnity {
 struct HAPI_ParmInfo;
 }
-namespace HoudiniEngineUnity {
-class HEU_InputNode;
+namespace UnityEngine {
+class Gradient;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -26,11 +28,8 @@ namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivable_1;
 }
-namespace UnityEngine {
-class Gradient;
-}
-namespace UnityEngine {
-class AnimationCurve;
+namespace HoudiniEngineUnity {
+class HEU_InputNode;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -48,8 +47,8 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE HEU_ParameterData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterData>
-constexpr operator  ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterData>() const noexcept;
+/// @brief Convert operator to HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_ParameterData>
+constexpr operator  HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_ParameterData>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x150};
@@ -108,11 +107,11 @@ constexpr void __set__help(::StringW value) ;
 
 constexpr ::StringW __get__help() const;
 
- ::System::Collections::Generic::List_1<int32_t> __declspec(property(get=__get__childParameterIDs, put=__set__childParameterIDs))  _childParameterIDs;
+ System::Collections::Generic::List_1<int32_t> __declspec(property(get=__get__childParameterIDs, put=__set__childParameterIDs))  _childParameterIDs;
 
-constexpr void __set__childParameterIDs(::System::Collections::Generic::List_1<int32_t> value) ;
+constexpr void __set__childParameterIDs(System::Collections::Generic::List_1<int32_t> value) ;
 
-constexpr ::System::Collections::Generic::List_1<int32_t> __get__childParameterIDs() const;
+constexpr System::Collections::Generic::List_1<int32_t> __get__childParameterIDs() const;
 
  int32_t __declspec(property(get=__get__choiceValue, put=__set__choiceValue))  _choiceValue;
 
@@ -144,29 +143,29 @@ constexpr void __set__toggle(bool value) ;
 
 constexpr bool __get__toggle() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__color, put=__set__color))  _color;
+ UnityEngine::Color __declspec(property(get=__get__color, put=__set__color))  _color;
 
-constexpr void __set__color(::UnityEngine::Color value) ;
+constexpr void __set__color(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__color() const;
+constexpr UnityEngine::Color __get__color() const;
 
- ::UnityEngine::Gradient __declspec(property(get=__get__gradient, put=__set__gradient))  _gradient;
+ UnityEngine::Gradient __declspec(property(get=__get__gradient, put=__set__gradient))  _gradient;
 
-constexpr void __set__gradient(::UnityEngine::Gradient value) ;
+constexpr void __set__gradient(UnityEngine::Gradient value) ;
 
-constexpr ::UnityEngine::Gradient __get__gradient() const;
+constexpr UnityEngine::Gradient __get__gradient() const;
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get__animCurve, put=__set__animCurve))  _animCurve;
+ UnityEngine::AnimationCurve __declspec(property(get=__get__animCurve, put=__set__animCurve))  _animCurve;
 
-constexpr void __set__animCurve(::UnityEngine::AnimationCurve value) ;
+constexpr void __set__animCurve(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get__animCurve() const;
+constexpr UnityEngine::AnimationCurve __get__animCurve() const;
 
- ::ArrayW<::UnityEngine::GUIContent> __declspec(property(get=__get__choiceLabels, put=__set__choiceLabels))  _choiceLabels;
+ ::ArrayW<UnityEngine::GUIContent> __declspec(property(get=__get__choiceLabels, put=__set__choiceLabels))  _choiceLabels;
 
-constexpr void __set__choiceLabels(::ArrayW<::UnityEngine::GUIContent> value) ;
+constexpr void __set__choiceLabels(::ArrayW<UnityEngine::GUIContent> value) ;
 
-constexpr ::ArrayW<::UnityEngine::GUIContent> __get__choiceLabels() const;
+constexpr ::ArrayW<UnityEngine::GUIContent> __get__choiceLabels() const;
 
  ::ArrayW<::StringW> __declspec(property(get=__get__choiceStringValues, put=__set__choiceStringValues))  _choiceStringValues;
 
@@ -180,11 +179,11 @@ constexpr void __set__choiceIntValues(::ArrayW<int32_t> value) ;
 
 constexpr ::ArrayW<int32_t> __get__choiceIntValues() const;
 
- ::HoudiniEngineUnity::HAPI_ParmInfo __declspec(property(get=__get__parmInfo, put=__set__parmInfo))  _parmInfo;
+ HoudiniEngineUnity::HAPI_ParmInfo __declspec(property(get=__get__parmInfo, put=__set__parmInfo))  _parmInfo;
 
-constexpr void __set__parmInfo(::HoudiniEngineUnity::HAPI_ParmInfo value) ;
+constexpr void __set__parmInfo(HoudiniEngineUnity::HAPI_ParmInfo value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_ParmInfo __get__parmInfo() const;
+constexpr HoudiniEngineUnity::HAPI_ParmInfo __get__parmInfo() const;
 
  bool __declspec(property(get=__get__showChildren, put=__set__showChildren))  _showChildren;
 
@@ -210,11 +209,11 @@ constexpr void __set__tabSelectedIndex(int32_t value) ;
 
 constexpr int32_t __get__tabSelectedIndex() const;
 
- ::HoudiniEngineUnity::HEU_InputNode __declspec(property(get=__get__paramInputNode, put=__set__paramInputNode))  _paramInputNode;
+ HoudiniEngineUnity::HEU_InputNode __declspec(property(get=__get__paramInputNode, put=__set__paramInputNode))  _paramInputNode;
 
-constexpr void __set__paramInputNode(::HoudiniEngineUnity::HEU_InputNode value) ;
+constexpr void __set__paramInputNode(HoudiniEngineUnity::HEU_InputNode value) ;
 
-constexpr ::HoudiniEngineUnity::HEU_InputNode __get__paramInputNode() const;
+constexpr HoudiniEngineUnity::HEU_InputNode __get__paramInputNode() const;
 
  bool __declspec(property(get=__get__hasAssetPathTag, put=__set__hasAssetPathTag))  _hasAssetPathTag;
 
@@ -328,13 +327,13 @@ constexpr bool __get__hasAssetPathTag() const;
  bool IsColor() ;
 
 /// @brief Method ToVector3 addr 0x201fc98 size 0x84 virtual false final false
- ::UnityEngine::Vector3 ToVector3() ;
+ UnityEngine::Vector3 ToVector3() ;
 
 /// @brief Method IsAssetPath addr 0x201fd1c size 0x8 virtual false final false
  bool IsAssetPath() ;
 
 /// @brief Method IsEquivalentTo addr 0x201fd24 size 0x71c virtual true final true
- bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ParameterData other) ;
+ bool IsEquivalentTo(HoudiniEngineUnity::HEU_ParameterData other) ;
 
 // Ctor Parameters []
 explicit HEU_ParameterData() ;
@@ -346,6 +345,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_ParameterData);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_ParameterData, "HoudiniEngineUnity", "HEU_ParameterData");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_ParameterData);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ParameterData, "HoudiniEngineUnity", "HEU_ParameterData");

@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 template<typename TResult>
 class Func_1;
@@ -56,17 +55,17 @@ constexpr explicit OpenXRRuntime(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 
 // Fields
 
-static ::System::Func_1<bool> __declspec(property(get=__get_wantsToQuit, put=__set_wantsToQuit))  wantsToQuit;
+static System::Func_1<bool> __declspec(property(get=__get_wantsToQuit, put=__set_wantsToQuit))  wantsToQuit;
 
-static void __set_wantsToQuit(::System::Func_1<bool> value) ;
+static void __set_wantsToQuit(System::Func_1<bool> value) ;
 
-static ::System::Func_1<bool> __get_wantsToQuit() ;
+static System::Func_1<bool> __get_wantsToQuit() ;
 
-static ::System::Func_1<bool> __declspec(property(get=__get_wantsToRestart, put=__set_wantsToRestart))  wantsToRestart;
+static System::Func_1<bool> __declspec(property(get=__get_wantsToRestart, put=__set_wantsToRestart))  wantsToRestart;
 
-static void __set_wantsToRestart(::System::Func_1<bool> value) ;
+static void __set_wantsToRestart(System::Func_1<bool> value) ;
 
-static ::System::Func_1<bool> __get_wantsToRestart() ;
+static System::Func_1<bool> __get_wantsToRestart() ;
 
 /// @brief Field LibraryName offset 0
 static constexpr ::ConstString  LibraryName{u"UnityOpenXR"};
@@ -112,16 +111,16 @@ static ::ArrayW<::StringW> GetEnabledExtensions() ;
 static ::ArrayW<::StringW> GetAvailableExtensions() ;
 
 /// @brief Method add_wantsToQuit addr 0x2aecd8c size 0xcc virtual false final false
-static void add_wantsToQuit(::System::Func_1<bool> value) ;
+static void add_wantsToQuit(System::Func_1<bool> value) ;
 
 /// @brief Method remove_wantsToQuit addr 0x2aece58 size 0xcc virtual false final false
-static void remove_wantsToQuit(::System::Func_1<bool> value) ;
+static void remove_wantsToQuit(System::Func_1<bool> value) ;
 
 /// @brief Method add_wantsToRestart addr 0x2aecf24 size 0xd0 virtual false final false
-static void add_wantsToRestart(::System::Func_1<bool> value) ;
+static void add_wantsToRestart(System::Func_1<bool> value) ;
 
 /// @brief Method remove_wantsToRestart addr 0x2aecff4 size 0xd0 virtual false final false
-static void remove_wantsToRestart(::System::Func_1<bool> value) ;
+static void remove_wantsToRestart(System::Func_1<bool> value) ;
 
 /// @brief Method get_retryInitializationOnFormFactorErrors addr 0x2aed0c4 size 0x4 virtual false final false
 static bool get_retryInitializationOnFormFactorErrors() ;
@@ -130,7 +129,7 @@ static bool get_retryInitializationOnFormFactorErrors() ;
 static void set_retryInitializationOnFormFactorErrors(bool value) ;
 
 /// @brief Method InvokeEvent addr 0x2aed1bc size 0x1ac virtual false final false
-static bool InvokeEvent(::System::Func_1<bool> func) ;
+static bool InvokeEvent(System::Func_1<bool> func) ;
 
 /// @brief Method ShouldQuit addr 0x2aec2f0 size 0x48 virtual false final false
 static bool ShouldQuit() ;
@@ -193,6 +192,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR::OpenXR
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::XR::OpenXR::OpenXRRuntime);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::OpenXRRuntime, "UnityEngine.XR.OpenXR", "OpenXRRuntime");
+NEED_NO_BOX(UnityEngine::XR::OpenXR::OpenXRRuntime);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::OpenXR::OpenXRRuntime, "UnityEngine.XR.OpenXR", "OpenXRRuntime");

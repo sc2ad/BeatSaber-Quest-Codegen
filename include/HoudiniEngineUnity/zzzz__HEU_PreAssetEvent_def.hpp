@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_PreAssetEventData_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_1_def.hpp"
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 class HEU_PreAssetEvent;
@@ -10,10 +9,10 @@ class HEU_PreAssetEvent;
 // Type: HoudiniEngineUnity::HEU_PreAssetEvent
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 5064 }), TypeDefinitionIndex(TypeDefinitionIndex(9540))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 5064 }), TypeDefinitionIndex(TypeDefinitionIndex(9540)), TypeDefinitionIndex(TypeDefinitionIndex(10401))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9547))
 // CS Name: HoudiniEngineUnity.HEU_PreAssetEvent
-class CORDL_TYPE HEU_PreAssetEvent : public ::UnityEngine::Events::UnityEvent_1<::HoudiniEngineUnity::HEU_PreAssetEventData> {
+class CORDL_TYPE HEU_PreAssetEvent : public UnityEngine::Events::UnityEvent_1<HoudiniEngineUnity::HEU_PreAssetEventData> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr HEU_PreAssetEvent(HEU_PreAssetEvent const& ) noexcept = default;
 constexpr HEU_PreAssetEvent(HEU_PreAssetEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HEU_PreAssetEvent(void* ptr) noexcept : ::UnityEngine::Events::UnityEvent_1<::HoudiniEngineUnity::HEU_PreAssetEventData>(ptr) {
+constexpr explicit HEU_PreAssetEvent(void* ptr) noexcept : UnityEngine::Events::UnityEvent_1<HoudiniEngineUnity::HEU_PreAssetEventData>(ptr) {
 }
 
 
@@ -59,6 +58,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_PreAssetEvent);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_PreAssetEvent, "HoudiniEngineUnity", "HEU_PreAssetEvent");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_PreAssetEvent);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_PreAssetEvent, "HoudiniEngineUnity", "HEU_PreAssetEvent");

@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__AudioPlayerBase_def.hpp"
 #include <cmath>
-namespace {
-namespace UnityEngine {
-class AudioClip;
-}
 namespace UnityEngine {
 class AudioSource;
+}
+namespace UnityEngine {
+class AudioClip;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4035))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4062))
 // CS Name: SimpleAudioPlayer
-class CORDL_TYPE SimpleAudioPlayer : public ::GlobalNamespace::AudioPlayerBase {
+class CORDL_TYPE SimpleAudioPlayer : public GlobalNamespace::AudioPlayerBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr SimpleAudioPlayer(SimpleAudioPlayer const& ) noexcept = default;
 constexpr SimpleAudioPlayer(SimpleAudioPlayer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SimpleAudioPlayer(void* ptr) noexcept : ::GlobalNamespace::AudioPlayerBase(ptr) {
+constexpr explicit SimpleAudioPlayer(void* ptr) noexcept : GlobalNamespace::AudioPlayerBase(ptr) {
 }
 
 
@@ -55,17 +54,17 @@ constexpr explicit SimpleAudioPlayer(void* ptr) noexcept : ::GlobalNamespace::Au
 
 // Fields
 
- ::UnityEngine::AudioClip __declspec(property(get=__get__audioClip, put=__set__audioClip))  _audioClip;
+ UnityEngine::AudioClip __declspec(property(get=__get__audioClip, put=__set__audioClip))  _audioClip;
 
-constexpr void __set__audioClip(::UnityEngine::AudioClip value) ;
+constexpr void __set__audioClip(UnityEngine::AudioClip value) ;
 
-constexpr ::UnityEngine::AudioClip __get__audioClip() const;
+constexpr UnityEngine::AudioClip __get__audioClip() const;
 
- ::UnityEngine::AudioSource __declspec(property(get=__get__audioSource, put=__set__audioSource))  _audioSource;
+ UnityEngine::AudioSource __declspec(property(get=__get__audioSource, put=__set__audioSource))  _audioSource;
 
-constexpr void __set__audioSource(::UnityEngine::AudioSource value) ;
+constexpr void __set__audioSource(UnityEngine::AudioSource value) ;
 
-constexpr ::UnityEngine::AudioSource __get__audioSource() const;
+constexpr UnityEngine::AudioSource __get__audioSource() const;
 
  float_t __declspec(property(get=__get__targetVolume, put=__set__targetVolume))  _targetVolume;
 
@@ -94,13 +93,13 @@ constexpr bool __get__fadingIn() const;
 
 // Properties
 
- ::UnityEngine::AudioClip __declspec(property(get=get_activeAudioClip))  activeAudioClip;
+ UnityEngine::AudioClip __declspec(property(get=get_activeAudioClip))  activeAudioClip;
 
 
 // Methods
 
 /// @brief Method get_activeAudioClip addr 0x20bdb30 size 0x8 virtual true final false
- ::UnityEngine::AudioClip get_activeAudioClip() ;
+ UnityEngine::AudioClip get_activeAudioClip() ;
 
 /// @brief Method Start addr 0x20bdb38 size 0x80 virtual false final false
  void Start() ;
@@ -130,6 +129,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SimpleAudioPlayer);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SimpleAudioPlayer, "", "SimpleAudioPlayer");
+NEED_NO_BOX(GlobalNamespace::SimpleAudioPlayer);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleAudioPlayer, "", "SimpleAudioPlayer");

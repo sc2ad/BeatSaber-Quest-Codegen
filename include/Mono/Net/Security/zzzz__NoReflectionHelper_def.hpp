@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 // Forward declare root types
 namespace Mono::Net::Security {
 class NoReflectionHelper;
@@ -55,6 +54,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Net::Security
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Net::Security::NoReflectionHelper);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Net::Security::NoReflectionHelper, "Mono.Net.Security", "NoReflectionHelper");
+NEED_NO_BOX(Mono::Net::Security::NoReflectionHelper);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::NoReflectionHelper, "Mono.Net.Security", "NoReflectionHelper");

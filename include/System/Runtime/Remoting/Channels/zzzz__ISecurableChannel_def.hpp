@@ -1,6 +1,5 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
-namespace {
 // Forward declare root types
 namespace System::Runtime::Remoting::Channels {
 class ISecurableChannel;
@@ -35,6 +34,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Channels
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Channels::ISecurableChannel);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Channels::ISecurableChannel, "System.Runtime.Remoting.Channels", "ISecurableChannel");
+NEED_NO_BOX(System::Runtime::Remoting::Channels::ISecurableChannel);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::ISecurableChannel, "System.Runtime.Remoting.Channels", "ISecurableChannel");

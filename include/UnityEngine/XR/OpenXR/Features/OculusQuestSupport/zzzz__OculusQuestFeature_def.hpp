@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRFeature_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::XR::OpenXR::Features::OculusQuestSupport {
 class OculusQuestFeature;
@@ -12,7 +11,7 @@ namespace UnityEngine::XR::OpenXR::Features::OculusQuestSupport {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14201))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16103))
 // CS Name: UnityEngine.XR.OpenXR.Features.OculusQuestSupport.OculusQuestFeature
-class CORDL_TYPE OculusQuestFeature : public ::UnityEngine::XR::OpenXR::Features::OpenXRFeature {
+class CORDL_TYPE OculusQuestFeature : public UnityEngine::XR::OpenXR::Features::OpenXRFeature {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr OculusQuestFeature(OculusQuestFeature const& ) noexcept = default;
 constexpr OculusQuestFeature(OculusQuestFeature&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OculusQuestFeature(void* ptr) noexcept : ::UnityEngine::XR::OpenXR::Features::OpenXRFeature(ptr) {
+constexpr explicit OculusQuestFeature(void* ptr) noexcept : UnityEngine::XR::OpenXR::Features::OpenXRFeature(ptr) {
 }
 
 
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR::OpenXR::Features::OculusQuestSupport
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::XR::OpenXR::Features::OculusQuestSupport::OculusQuestFeature);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::Features::OculusQuestSupport::OculusQuestFeature, "UnityEngine.XR.OpenXR.Features.OculusQuestSupport", "OculusQuestFeature");
+NEED_NO_BOX(UnityEngine::XR::OpenXR::Features::OculusQuestSupport::OculusQuestFeature);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::OpenXR::Features::OculusQuestSupport::OculusQuestFeature, "UnityEngine.XR.OpenXR.Features.OculusQuestSupport", "OculusQuestFeature");

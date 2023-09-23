@@ -3,18 +3,20 @@
 #include "Zenject/zzzz__NoTransitionInstaller_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace Zenject {
+class DiContainer;
+}
 namespace GlobalNamespace {
 class BeatmapLevelSO;
 }
 namespace GlobalNamespace {
-class ColorSchemeSO;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
+struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
 class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class MissionLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
@@ -23,13 +25,10 @@ namespace GlobalNamespace {
 class MissionObjective;
 }
 namespace GlobalNamespace {
-class MissionLevelScenesTransitionSetupDataSO;
-}
-namespace Zenject {
-class DiContainer;
+class ColorSchemeSO;
 }
 namespace GlobalNamespace {
-struct BeatmapDifficulty;
+class PlayerSpecificSettings;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -41,7 +40,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11118))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6092))
 // CS Name: MissionLevelNoTransitionInstaller
-class CORDL_TYPE MissionLevelNoTransitionInstaller : public ::Zenject::NoTransitionInstaller {
+class CORDL_TYPE MissionLevelNoTransitionInstaller : public Zenject::NoTransitionInstaller {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -56,7 +55,7 @@ constexpr MissionLevelNoTransitionInstaller(MissionLevelNoTransitionInstaller co
 constexpr MissionLevelNoTransitionInstaller(MissionLevelNoTransitionInstaller&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MissionLevelNoTransitionInstaller(void* ptr) noexcept : ::Zenject::NoTransitionInstaller(ptr) {
+constexpr explicit MissionLevelNoTransitionInstaller(void* ptr) noexcept : Zenject::NoTransitionInstaller(ptr) {
 }
 
 
@@ -77,47 +76,47 @@ constexpr explicit MissionLevelNoTransitionInstaller(void* ptr) noexcept : ::Zen
 
 // Fields
 
- ::GlobalNamespace::BeatmapLevelSO __declspec(property(get=__get__beatmapLevel, put=__set__beatmapLevel))  _beatmapLevel;
+ GlobalNamespace::BeatmapLevelSO __declspec(property(get=__get__beatmapLevel, put=__set__beatmapLevel))  _beatmapLevel;
 
-constexpr void __set__beatmapLevel(::GlobalNamespace::BeatmapLevelSO value) ;
+constexpr void __set__beatmapLevel(GlobalNamespace::BeatmapLevelSO value) ;
 
-constexpr ::GlobalNamespace::BeatmapLevelSO __get__beatmapLevel() const;
+constexpr GlobalNamespace::BeatmapLevelSO __get__beatmapLevel() const;
 
- ::GlobalNamespace::BeatmapCharacteristicSO __declspec(property(get=__get__beatmapCharacteristic, put=__set__beatmapCharacteristic))  _beatmapCharacteristic;
+ GlobalNamespace::BeatmapCharacteristicSO __declspec(property(get=__get__beatmapCharacteristic, put=__set__beatmapCharacteristic))  _beatmapCharacteristic;
 
-constexpr void __set__beatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO value) ;
+constexpr void __set__beatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO value) ;
 
-constexpr ::GlobalNamespace::BeatmapCharacteristicSO __get__beatmapCharacteristic() const;
+constexpr GlobalNamespace::BeatmapCharacteristicSO __get__beatmapCharacteristic() const;
 
- ::GlobalNamespace::BeatmapDifficulty __declspec(property(get=__get__beatmapDifficulty, put=__set__beatmapDifficulty))  _beatmapDifficulty;
+ GlobalNamespace::BeatmapDifficulty __declspec(property(get=__get__beatmapDifficulty, put=__set__beatmapDifficulty))  _beatmapDifficulty;
 
-constexpr void __set__beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value) ;
+constexpr void __set__beatmapDifficulty(GlobalNamespace::BeatmapDifficulty value) ;
 
-constexpr ::GlobalNamespace::BeatmapDifficulty __get__beatmapDifficulty() const;
+constexpr GlobalNamespace::BeatmapDifficulty __get__beatmapDifficulty() const;
 
- ::GlobalNamespace::ColorSchemeSO __declspec(property(get=__get__colorScheme, put=__set__colorScheme))  _colorScheme;
+ GlobalNamespace::ColorSchemeSO __declspec(property(get=__get__colorScheme, put=__set__colorScheme))  _colorScheme;
 
-constexpr void __set__colorScheme(::GlobalNamespace::ColorSchemeSO value) ;
+constexpr void __set__colorScheme(GlobalNamespace::ColorSchemeSO value) ;
 
-constexpr ::GlobalNamespace::ColorSchemeSO __get__colorScheme() const;
+constexpr GlobalNamespace::ColorSchemeSO __get__colorScheme() const;
 
- ::ArrayW<::GlobalNamespace::MissionObjective> __declspec(property(get=__get__missionObjectives, put=__set__missionObjectives))  _missionObjectives;
+ ::ArrayW<GlobalNamespace::MissionObjective> __declspec(property(get=__get__missionObjectives, put=__set__missionObjectives))  _missionObjectives;
 
-constexpr void __set__missionObjectives(::ArrayW<::GlobalNamespace::MissionObjective> value) ;
+constexpr void __set__missionObjectives(::ArrayW<GlobalNamespace::MissionObjective> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::MissionObjective> __get__missionObjectives() const;
+constexpr ::ArrayW<GlobalNamespace::MissionObjective> __get__missionObjectives() const;
 
- ::GlobalNamespace::GameplayModifiers __declspec(property(get=__get__gameplayModifiers, put=__set__gameplayModifiers))  _gameplayModifiers;
+ GlobalNamespace::GameplayModifiers __declspec(property(get=__get__gameplayModifiers, put=__set__gameplayModifiers))  _gameplayModifiers;
 
-constexpr void __set__gameplayModifiers(::GlobalNamespace::GameplayModifiers value) ;
+constexpr void __set__gameplayModifiers(GlobalNamespace::GameplayModifiers value) ;
 
-constexpr ::GlobalNamespace::GameplayModifiers __get__gameplayModifiers() const;
+constexpr GlobalNamespace::GameplayModifiers __get__gameplayModifiers() const;
 
- ::GlobalNamespace::PlayerSpecificSettings __declspec(property(get=__get__playerSpecificSettings, put=__set__playerSpecificSettings))  _playerSpecificSettings;
+ GlobalNamespace::PlayerSpecificSettings __declspec(property(get=__get__playerSpecificSettings, put=__set__playerSpecificSettings))  _playerSpecificSettings;
 
-constexpr void __set__playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings value) ;
+constexpr void __set__playerSpecificSettings(GlobalNamespace::PlayerSpecificSettings value) ;
 
-constexpr ::GlobalNamespace::PlayerSpecificSettings __get__playerSpecificSettings() const;
+constexpr GlobalNamespace::PlayerSpecificSettings __get__playerSpecificSettings() const;
 
  ::StringW __declspec(property(get=__get__backButtonText, put=__set__backButtonText))  _backButtonText;
 
@@ -125,17 +124,17 @@ constexpr void __set__backButtonText(::StringW value) ;
 
 constexpr ::StringW __get__backButtonText() const;
 
- ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO __declspec(property(get=__get__scenesTransitionSetupData, put=__set__scenesTransitionSetupData))  _scenesTransitionSetupData;
+ GlobalNamespace::MissionLevelScenesTransitionSetupDataSO __declspec(property(get=__get__scenesTransitionSetupData, put=__set__scenesTransitionSetupData))  _scenesTransitionSetupData;
 
-constexpr void __set__scenesTransitionSetupData(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO value) ;
+constexpr void __set__scenesTransitionSetupData(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO value) ;
 
-constexpr ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO __get__scenesTransitionSetupData() const;
+constexpr GlobalNamespace::MissionLevelScenesTransitionSetupDataSO __get__scenesTransitionSetupData() const;
 
 
 // Methods
 
 /// @brief Method InstallBindings addr 0x21b65f0 size 0xc4 virtual true final false
- void InstallBindings(::Zenject::DiContainer container) ;
+ void InstallBindings(Zenject::DiContainer container) ;
 
 // Ctor Parameters []
 explicit MissionLevelNoTransitionInstaller() ;
@@ -147,6 +146,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MissionLevelNoTransitionInstaller);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionLevelNoTransitionInstaller, "", "MissionLevelNoTransitionInstaller");
+NEED_NO_BOX(GlobalNamespace::MissionLevelNoTransitionInstaller);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelNoTransitionInstaller, "", "MissionLevelNoTransitionInstaller");

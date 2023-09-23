@@ -6,18 +6,26 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine::Rendering {
-struct RenderTextureSubElement;
+namespace UnityEngine {
+struct FilterMode;
 }
 namespace UnityEngine {
-class Renderer;
+class MaterialPropertyBlock;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace UnityEngine {
+struct Matrix4x4;
 }
 namespace UnityEngine::Rendering {
 struct RenderTargetIdentifier;
 }
-namespace UnityEngine {
-class MaterialPropertyBlock;
+namespace UnityEngine::Rendering {
+struct RenderBufferLoadAction;
+}
+namespace UnityEngine::Rendering {
+struct RenderBufferStoreAction;
 }
 namespace UnityEngine::Rendering {
 struct CommandBufferExecutionFlags;
@@ -29,34 +37,25 @@ namespace UnityEngine::Experimental::Rendering {
 struct GraphicsFormat;
 }
 namespace UnityEngine {
-struct FilterMode;
-}
-namespace UnityEngine::Rendering {
-struct RenderBufferStoreAction;
-}
-namespace UnityEngine::Rendering {
-struct RenderBufferLoadAction;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine {
-class Mesh;
-}
-namespace UnityEngine {
 class Material;
 }
 namespace UnityEngine {
 struct RenderTextureMemoryless;
 }
 namespace UnityEngine {
-struct RenderTextureFormat;
-}
-namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
 struct Vector4;
+}
+namespace UnityEngine::Rendering {
+struct RenderTextureSubElement;
+}
+namespace UnityEngine {
+class Renderer;
+}
+namespace UnityEngine {
+struct RenderTextureFormat;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -71,8 +70,8 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE CommandBuffer : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -134,34 +133,34 @@ static ::cordl_internals::intptr_t InitBuffer() ;
  void Clear() ;
 
 /// @brief Method Internal_DrawMesh addr 0x2b71e38 size 0x84 virtual false final false
- void Internal_DrawMesh(::UnityEngine::Mesh mesh, ::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material material, int32_t submeshIndex, int32_t shaderPass, ::UnityEngine::MaterialPropertyBlock properties) ;
+ void Internal_DrawMesh(UnityEngine::Mesh mesh, UnityEngine::Matrix4x4 matrix, UnityEngine::Material material, int32_t submeshIndex, int32_t shaderPass, UnityEngine::MaterialPropertyBlock properties) ;
 
 /// @brief Method Internal_DrawRenderer addr 0x2b71f40 size 0x6c virtual false final false
- void Internal_DrawRenderer(::UnityEngine::Renderer renderer, ::UnityEngine::Material material, int32_t submeshIndex, int32_t shaderPass) ;
+ void Internal_DrawRenderer(UnityEngine::Renderer renderer, UnityEngine::Material material, int32_t submeshIndex, int32_t shaderPass) ;
 
 /// @brief Method Internal_DrawMeshInstanced addr 0x2b71fac size 0x8c virtual false final false
- void Internal_DrawMeshInstanced(::UnityEngine::Mesh mesh, int32_t submeshIndex, ::UnityEngine::Material material, int32_t shaderPass, ::ArrayW<::UnityEngine::Matrix4x4> matrices, int32_t count, ::UnityEngine::MaterialPropertyBlock properties) ;
+ void Internal_DrawMeshInstanced(UnityEngine::Mesh mesh, int32_t submeshIndex, UnityEngine::Material material, int32_t shaderPass, ::ArrayW<UnityEngine::Matrix4x4> matrices, int32_t count, UnityEngine::MaterialPropertyBlock properties) ;
 
 /// @brief Method CopyTexture_Internal addr 0x2b72038 size 0xc8 virtual false final false
- void CopyTexture_Internal(ByRef<::UnityEngine::Rendering::RenderTargetIdentifier> src, int32_t srcElement, int32_t srcMip, int32_t srcX, int32_t srcY, int32_t srcWidth, int32_t srcHeight, ByRef<::UnityEngine::Rendering::RenderTargetIdentifier> dst, int32_t dstElement, int32_t dstMip, int32_t dstX, int32_t dstY, int32_t mode) ;
+ void CopyTexture_Internal(ByRef<UnityEngine::Rendering::RenderTargetIdentifier> src, int32_t srcElement, int32_t srcMip, int32_t srcX, int32_t srcY, int32_t srcWidth, int32_t srcHeight, ByRef<UnityEngine::Rendering::RenderTargetIdentifier> dst, int32_t dstElement, int32_t dstMip, int32_t dstX, int32_t dstY, int32_t mode) ;
 
 /// @brief Method Blit_Identifier addr 0x2b72100 size 0xa0 virtual false final false
- void Blit_Identifier(ByRef<::UnityEngine::Rendering::RenderTargetIdentifier> source, ByRef<::UnityEngine::Rendering::RenderTargetIdentifier> dest, ::UnityEngine::Material mat, int32_t pass, ::UnityEngine::Vector2 scale, ::UnityEngine::Vector2 offset, int32_t sourceDepthSlice, int32_t destDepthSlice) ;
+ void Blit_Identifier(ByRef<UnityEngine::Rendering::RenderTargetIdentifier> source, ByRef<UnityEngine::Rendering::RenderTargetIdentifier> dest, UnityEngine::Material mat, int32_t pass, UnityEngine::Vector2 scale, UnityEngine::Vector2 offset, int32_t sourceDepthSlice, int32_t destDepthSlice) ;
 
 /// @brief Method GetTemporaryRT addr 0x2b7223c size 0xbc virtual false final false
- void GetTemporaryRT(int32_t nameID, int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::FilterMode filter, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, int32_t antiAliasing, bool enableRandomWrite, ::UnityEngine::RenderTextureMemoryless memorylessMode, bool useDynamicScale) ;
+ void GetTemporaryRT(int32_t nameID, int32_t width, int32_t height, int32_t depthBuffer, UnityEngine::FilterMode filter, UnityEngine::Experimental::Rendering::GraphicsFormat format, int32_t antiAliasing, bool enableRandomWrite, UnityEngine::RenderTextureMemoryless memorylessMode, bool useDynamicScale) ;
 
 /// @brief Method GetTemporaryRT addr 0x2b722f8 size 0xac virtual false final false
- void GetTemporaryRT(int32_t nameID, int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::FilterMode filter, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, int32_t antiAliasing, bool enableRandomWrite, ::UnityEngine::RenderTextureMemoryless memorylessMode) ;
+ void GetTemporaryRT(int32_t nameID, int32_t width, int32_t height, int32_t depthBuffer, UnityEngine::FilterMode filter, UnityEngine::Experimental::Rendering::GraphicsFormat format, int32_t antiAliasing, bool enableRandomWrite, UnityEngine::RenderTextureMemoryless memorylessMode) ;
 
 /// @brief Method GetTemporaryRT addr 0x2b723a4 size 0xa4 virtual false final false
- void GetTemporaryRT(int32_t nameID, int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::FilterMode filter, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, int32_t antiAliasing) ;
+ void GetTemporaryRT(int32_t nameID, int32_t width, int32_t height, int32_t depthBuffer, UnityEngine::FilterMode filter, UnityEngine::Experimental::Rendering::GraphicsFormat format, int32_t antiAliasing) ;
 
 /// @brief Method GetTemporaryRT addr 0x2b72448 size 0xa0 virtual false final false
- void GetTemporaryRT(int32_t nameID, int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::FilterMode filter, ::UnityEngine::Experimental::Rendering::GraphicsFormat format) ;
+ void GetTemporaryRT(int32_t nameID, int32_t width, int32_t height, int32_t depthBuffer, UnityEngine::FilterMode filter, UnityEngine::Experimental::Rendering::GraphicsFormat format) ;
 
 /// @brief Method GetTemporaryRT addr 0x2b724e8 size 0xec virtual false final false
- void GetTemporaryRT(int32_t nameID, int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::FilterMode filter, ::UnityEngine::RenderTextureFormat format) ;
+ void GetTemporaryRT(int32_t nameID, int32_t width, int32_t height, int32_t depthBuffer, UnityEngine::FilterMode filter, UnityEngine::RenderTextureFormat format) ;
 
 /// @brief Method ReleaseTemporaryRT addr 0x2b725d4 size 0x44 virtual false final false
  void ReleaseTemporaryRT(int32_t nameID) ;
@@ -170,22 +169,22 @@ static ::cordl_internals::intptr_t InitBuffer() ;
  void SetGlobalFloat(int32_t nameID, float_t value) ;
 
 /// @brief Method SetGlobalVector addr 0x2b7266c size 0x5c virtual false final false
- void SetGlobalVector(int32_t nameID, ::UnityEngine::Vector4 value) ;
+ void SetGlobalVector(int32_t nameID, UnityEngine::Vector4 value) ;
 
 /// @brief Method SetViewProjectionMatrices addr 0x2b7271c size 0x54 virtual false final false
- void SetViewProjectionMatrices(::UnityEngine::Matrix4x4 view, ::UnityEngine::Matrix4x4 proj) ;
+ void SetViewProjectionMatrices(UnityEngine::Matrix4x4 view, UnityEngine::Matrix4x4 proj) ;
 
 /// @brief Method ValidateAgainstExecutionFlags addr 0x2b727c4 size 0x54 virtual false final false
- bool ValidateAgainstExecutionFlags(::UnityEngine::Rendering::CommandBufferExecutionFlags requiredFlags, ::UnityEngine::Rendering::CommandBufferExecutionFlags invalidFlags) ;
+ bool ValidateAgainstExecutionFlags(UnityEngine::Rendering::CommandBufferExecutionFlags requiredFlags, UnityEngine::Rendering::CommandBufferExecutionFlags invalidFlags) ;
 
 /// @brief Method SetGlobalTexture_Impl addr 0x2b72818 size 0x5c virtual false final false
- void SetGlobalTexture_Impl(int32_t nameID, ByRef<::UnityEngine::Rendering::RenderTargetIdentifier> rt, ::UnityEngine::Rendering::RenderTextureSubElement element) ;
+ void SetGlobalTexture_Impl(int32_t nameID, ByRef<UnityEngine::Rendering::RenderTargetIdentifier> rt, UnityEngine::Rendering::RenderTextureSubElement element) ;
 
 /// @brief Method SetRenderTarget addr 0x2b72874 size 0xa0 virtual false final false
- void SetRenderTarget(::UnityEngine::Rendering::RenderTargetIdentifier rt) ;
+ void SetRenderTarget(UnityEngine::Rendering::RenderTargetIdentifier rt) ;
 
 /// @brief Method SetRenderTargetSingle_Internal addr 0x2b72914 size 0x74 virtual false final false
- void SetRenderTargetSingle_Internal(::UnityEngine::Rendering::RenderTargetIdentifier rt, ::UnityEngine::Rendering::RenderBufferLoadAction colorLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction colorStoreAction, ::UnityEngine::Rendering::RenderBufferLoadAction depthLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction depthStoreAction) ;
+ void SetRenderTargetSingle_Internal(UnityEngine::Rendering::RenderTargetIdentifier rt, UnityEngine::Rendering::RenderBufferLoadAction colorLoadAction, UnityEngine::Rendering::RenderBufferStoreAction colorStoreAction, UnityEngine::Rendering::RenderBufferLoadAction depthLoadAction, UnityEngine::Rendering::RenderBufferStoreAction depthStoreAction) ;
 
 /// @brief Method Finalize addr 0x2b729fc size 0x98 virtual true final false
  void Finalize() ;
@@ -203,60 +202,59 @@ explicit CommandBuffer() ;
  void _ctor() ;
 
 /// @brief Method DrawMesh addr 0x2b72bb8 size 0x284 virtual false final false
- void DrawMesh(::UnityEngine::Mesh mesh, ::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material material, int32_t submeshIndex, int32_t shaderPass, ::UnityEngine::MaterialPropertyBlock properties) ;
+ void DrawMesh(UnityEngine::Mesh mesh, UnityEngine::Matrix4x4 matrix, UnityEngine::Material material, int32_t submeshIndex, int32_t shaderPass, UnityEngine::MaterialPropertyBlock properties) ;
 
 /// @brief Method DrawMesh addr 0x2b72e3c size 0x30 virtual false final false
- void DrawMesh(::UnityEngine::Mesh mesh, ::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material material, int32_t submeshIndex, int32_t shaderPass) ;
+ void DrawMesh(UnityEngine::Mesh mesh, UnityEngine::Matrix4x4 matrix, UnityEngine::Material material, int32_t submeshIndex, int32_t shaderPass) ;
 
 /// @brief Method DrawMesh addr 0x2b72e6c size 0x34 virtual false final false
- void DrawMesh(::UnityEngine::Mesh mesh, ::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material material, int32_t submeshIndex) ;
+ void DrawMesh(UnityEngine::Mesh mesh, UnityEngine::Matrix4x4 matrix, UnityEngine::Material material, int32_t submeshIndex) ;
 
 /// @brief Method DrawMesh addr 0x2b72ea0 size 0x38 virtual false final false
- void DrawMesh(::UnityEngine::Mesh mesh, ::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material material) ;
+ void DrawMesh(UnityEngine::Mesh mesh, UnityEngine::Matrix4x4 matrix, UnityEngine::Material material) ;
 
 /// @brief Method DrawRenderer addr 0x2b72ed8 size 0x214 virtual false final false
- void DrawRenderer(::UnityEngine::Renderer renderer, ::UnityEngine::Material material, int32_t submeshIndex, int32_t shaderPass) ;
+ void DrawRenderer(UnityEngine::Renderer renderer, UnityEngine::Material material, int32_t submeshIndex, int32_t shaderPass) ;
 
 /// @brief Method DrawMeshInstanced addr 0x2b730ec size 0x3a8 virtual false final false
- void DrawMeshInstanced(::UnityEngine::Mesh mesh, int32_t submeshIndex, ::UnityEngine::Material material, int32_t shaderPass, ::ArrayW<::UnityEngine::Matrix4x4> matrices, int32_t count, ::UnityEngine::MaterialPropertyBlock properties) ;
+ void DrawMeshInstanced(UnityEngine::Mesh mesh, int32_t submeshIndex, UnityEngine::Material material, int32_t shaderPass, ::ArrayW<UnityEngine::Matrix4x4> matrices, int32_t count, UnityEngine::MaterialPropertyBlock properties) ;
 
 /// @brief Method CopyTexture addr 0x2b73494 size 0x94 virtual false final false
- void CopyTexture(::UnityEngine::Rendering::RenderTargetIdentifier src, ::UnityEngine::Rendering::RenderTargetIdentifier dst) ;
+ void CopyTexture(UnityEngine::Rendering::RenderTargetIdentifier src, UnityEngine::Rendering::RenderTargetIdentifier dst) ;
 
 /// @brief Method Blit addr 0x2b73528 size 0x8c virtual false final false
- void Blit(::UnityEngine::Rendering::RenderTargetIdentifier source, ::UnityEngine::Rendering::RenderTargetIdentifier dest) ;
+ void Blit(UnityEngine::Rendering::RenderTargetIdentifier source, UnityEngine::Rendering::RenderTargetIdentifier dest) ;
 
 /// @brief Method Blit addr 0x2b735b4 size 0x90 virtual false final false
- void Blit(::UnityEngine::Rendering::RenderTargetIdentifier source, ::UnityEngine::Rendering::RenderTargetIdentifier dest, ::UnityEngine::Material mat) ;
+ void Blit(UnityEngine::Rendering::RenderTargetIdentifier source, UnityEngine::Rendering::RenderTargetIdentifier dest, UnityEngine::Material mat) ;
 
 /// @brief Method Blit addr 0x2b73644 size 0x9c virtual false final false
- void Blit(::UnityEngine::Rendering::RenderTargetIdentifier source, ::UnityEngine::Rendering::RenderTargetIdentifier dest, ::UnityEngine::Material mat, int32_t pass) ;
+ void Blit(UnityEngine::Rendering::RenderTargetIdentifier source, UnityEngine::Rendering::RenderTargetIdentifier dest, UnityEngine::Material mat, int32_t pass) ;
 
 /// @brief Method SetGlobalTexture addr 0x2b736e0 size 0x78 virtual false final false
- void SetGlobalTexture(::StringW name, ::UnityEngine::Rendering::RenderTargetIdentifier value) ;
+ void SetGlobalTexture(::StringW name, UnityEngine::Rendering::RenderTargetIdentifier value) ;
 
 /// @brief Method SetGlobalTexture addr 0x2b73758 size 0x5c virtual false final false
- void SetGlobalTexture(int32_t nameID, ::UnityEngine::Rendering::RenderTargetIdentifier value, ::UnityEngine::Rendering::RenderTextureSubElement element) ;
+ void SetGlobalTexture(int32_t nameID, UnityEngine::Rendering::RenderTargetIdentifier value, UnityEngine::Rendering::RenderTextureSubElement element) ;
 
 /// @brief Method Internal_DrawMesh_Injected addr 0x2b71ebc size 0x84 virtual false final false
- void Internal_DrawMesh_Injected(::UnityEngine::Mesh mesh, ByRef<::UnityEngine::Matrix4x4> matrix, ::UnityEngine::Material material, int32_t submeshIndex, int32_t shaderPass, ::UnityEngine::MaterialPropertyBlock properties) ;
+ void Internal_DrawMesh_Injected(UnityEngine::Mesh mesh, ByRef<UnityEngine::Matrix4x4> matrix, UnityEngine::Material material, int32_t submeshIndex, int32_t shaderPass, UnityEngine::MaterialPropertyBlock properties) ;
 
 /// @brief Method Blit_Identifier_Injected addr 0x2b721a0 size 0x9c virtual false final false
- void Blit_Identifier_Injected(ByRef<::UnityEngine::Rendering::RenderTargetIdentifier> source, ByRef<::UnityEngine::Rendering::RenderTargetIdentifier> dest, ::UnityEngine::Material mat, int32_t pass, ByRef<::UnityEngine::Vector2> scale, ByRef<::UnityEngine::Vector2> offset, int32_t sourceDepthSlice, int32_t destDepthSlice) ;
+ void Blit_Identifier_Injected(ByRef<UnityEngine::Rendering::RenderTargetIdentifier> source, ByRef<UnityEngine::Rendering::RenderTargetIdentifier> dest, UnityEngine::Material mat, int32_t pass, ByRef<UnityEngine::Vector2> scale, ByRef<UnityEngine::Vector2> offset, int32_t sourceDepthSlice, int32_t destDepthSlice) ;
 
 /// @brief Method SetGlobalVector_Injected addr 0x2b726c8 size 0x54 virtual false final false
- void SetGlobalVector_Injected(int32_t nameID, ByRef<::UnityEngine::Vector4> value) ;
+ void SetGlobalVector_Injected(int32_t nameID, ByRef<UnityEngine::Vector4> value) ;
 
 /// @brief Method SetViewProjectionMatrices_Injected addr 0x2b72770 size 0x54 virtual false final false
- void SetViewProjectionMatrices_Injected(ByRef<::UnityEngine::Matrix4x4> view, ByRef<::UnityEngine::Matrix4x4> proj) ;
+ void SetViewProjectionMatrices_Injected(ByRef<UnityEngine::Matrix4x4> view, ByRef<UnityEngine::Matrix4x4> proj) ;
 
 /// @brief Method SetRenderTargetSingle_Internal_Injected addr 0x2b72988 size 0x74 virtual false final false
- void SetRenderTargetSingle_Internal_Injected(ByRef<::UnityEngine::Rendering::RenderTargetIdentifier> rt, ::UnityEngine::Rendering::RenderBufferLoadAction colorLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction colorStoreAction, ::UnityEngine::Rendering::RenderBufferLoadAction depthLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction depthStoreAction) ;
+ void SetRenderTargetSingle_Internal_Injected(ByRef<UnityEngine::Rendering::RenderTargetIdentifier> rt, UnityEngine::Rendering::RenderBufferLoadAction colorLoadAction, UnityEngine::Rendering::RenderBufferStoreAction colorStoreAction, UnityEngine::Rendering::RenderBufferLoadAction depthLoadAction, UnityEngine::Rendering::RenderBufferStoreAction depthStoreAction) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Rendering
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Rendering::CommandBuffer);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::CommandBuffer, "UnityEngine.Rendering", "CommandBuffer");
+NEED_NO_BOX(UnityEngine::Rendering::CommandBuffer);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::CommandBuffer, "UnityEngine.Rendering", "CommandBuffer");

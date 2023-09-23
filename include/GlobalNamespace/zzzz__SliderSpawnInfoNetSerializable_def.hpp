@@ -3,33 +3,32 @@
 #include "GlobalNamespace/zzzz__PoolableSerializable_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-struct ____GlobalNamespace__SliderData__Type;
-}
-namespace GlobalNamespace {
-struct NoteCutDirection;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace GlobalNamespace {
-struct SliderMidAnchorMode;
-}
-namespace GlobalNamespace {
-struct ColorType;
-}
 namespace GlobalNamespace {
 struct NoteLineLayer;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__SliderData__Type;
+}
+namespace GlobalNamespace {
+struct Vector3Serializable;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
 namespace GlobalNamespace {
-struct Vector3Serializable;
+struct SliderMidAnchorMode;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace GlobalNamespace {
+struct NoteCutDirection;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace GlobalNamespace {
+struct ColorType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -41,7 +40,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15122))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15135))
 // CS Name: SliderSpawnInfoNetSerializable
-class CORDL_TYPE SliderSpawnInfoNetSerializable : public ::GlobalNamespace::PoolableSerializable {
+class CORDL_TYPE SliderSpawnInfoNetSerializable : public GlobalNamespace::PoolableSerializable {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -56,7 +55,7 @@ constexpr SliderSpawnInfoNetSerializable(SliderSpawnInfoNetSerializable const& )
 constexpr SliderSpawnInfoNetSerializable(SliderSpawnInfoNetSerializable&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SliderSpawnInfoNetSerializable(void* ptr) noexcept : ::GlobalNamespace::PoolableSerializable(ptr) {
+constexpr explicit SliderSpawnInfoNetSerializable(void* ptr) noexcept : GlobalNamespace::PoolableSerializable(ptr) {
 }
 
 
@@ -77,17 +76,17 @@ constexpr explicit SliderSpawnInfoNetSerializable(void* ptr) noexcept : ::Global
 
 // Fields
 
- ::GlobalNamespace::ColorType __declspec(property(get=__get_colorType, put=__set_colorType))  colorType;
+ GlobalNamespace::ColorType __declspec(property(get=__get_colorType, put=__set_colorType))  colorType;
 
-constexpr void __set_colorType(::GlobalNamespace::ColorType value) ;
+constexpr void __set_colorType(GlobalNamespace::ColorType value) ;
 
-constexpr ::GlobalNamespace::ColorType __get_colorType() const;
+constexpr GlobalNamespace::ColorType __get_colorType() const;
 
- ::GlobalNamespace::____GlobalNamespace__SliderData__Type __declspec(property(get=__get_sliderType, put=__set_sliderType))  sliderType;
+ GlobalNamespace::GlobalNamespace__SliderData__Type __declspec(property(get=__get_sliderType, put=__set_sliderType))  sliderType;
 
-constexpr void __set_sliderType(::GlobalNamespace::____GlobalNamespace__SliderData__Type value) ;
+constexpr void __set_sliderType(GlobalNamespace::GlobalNamespace__SliderData__Type value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__SliderData__Type __get_sliderType() const;
+constexpr GlobalNamespace::GlobalNamespace__SliderData__Type __get_sliderType() const;
 
  bool __declspec(property(get=__get_hasHeadNote, put=__set_hasHeadNote))  hasHeadNote;
 
@@ -107,17 +106,17 @@ constexpr void __set_headLineIndex(int32_t value) ;
 
 constexpr int32_t __get_headLineIndex() const;
 
- ::GlobalNamespace::NoteLineLayer __declspec(property(get=__get_headLineLayer, put=__set_headLineLayer))  headLineLayer;
+ GlobalNamespace::NoteLineLayer __declspec(property(get=__get_headLineLayer, put=__set_headLineLayer))  headLineLayer;
 
-constexpr void __set_headLineLayer(::GlobalNamespace::NoteLineLayer value) ;
+constexpr void __set_headLineLayer(GlobalNamespace::NoteLineLayer value) ;
 
-constexpr ::GlobalNamespace::NoteLineLayer __get_headLineLayer() const;
+constexpr GlobalNamespace::NoteLineLayer __get_headLineLayer() const;
 
- ::GlobalNamespace::NoteLineLayer __declspec(property(get=__get_headBeforeJumpLineLayer, put=__set_headBeforeJumpLineLayer))  headBeforeJumpLineLayer;
+ GlobalNamespace::NoteLineLayer __declspec(property(get=__get_headBeforeJumpLineLayer, put=__set_headBeforeJumpLineLayer))  headBeforeJumpLineLayer;
 
-constexpr void __set_headBeforeJumpLineLayer(::GlobalNamespace::NoteLineLayer value) ;
+constexpr void __set_headBeforeJumpLineLayer(GlobalNamespace::NoteLineLayer value) ;
 
-constexpr ::GlobalNamespace::NoteLineLayer __get_headBeforeJumpLineLayer() const;
+constexpr GlobalNamespace::NoteLineLayer __get_headBeforeJumpLineLayer() const;
 
  float_t __declspec(property(get=__get_headControlPointLengthMultiplier, put=__set_headControlPointLengthMultiplier))  headControlPointLengthMultiplier;
 
@@ -125,11 +124,11 @@ constexpr void __set_headControlPointLengthMultiplier(float_t value) ;
 
 constexpr float_t __get_headControlPointLengthMultiplier() const;
 
- ::GlobalNamespace::NoteCutDirection __declspec(property(get=__get_headCutDirection, put=__set_headCutDirection))  headCutDirection;
+ GlobalNamespace::NoteCutDirection __declspec(property(get=__get_headCutDirection, put=__set_headCutDirection))  headCutDirection;
 
-constexpr void __set_headCutDirection(::GlobalNamespace::NoteCutDirection value) ;
+constexpr void __set_headCutDirection(GlobalNamespace::NoteCutDirection value) ;
 
-constexpr ::GlobalNamespace::NoteCutDirection __get_headCutDirection() const;
+constexpr GlobalNamespace::NoteCutDirection __get_headCutDirection() const;
 
  float_t __declspec(property(get=__get_headCutDirectionAngleOffset, put=__set_headCutDirectionAngleOffset))  headCutDirectionAngleOffset;
 
@@ -155,17 +154,17 @@ constexpr void __set_tailLineIndex(int32_t value) ;
 
 constexpr int32_t __get_tailLineIndex() const;
 
- ::GlobalNamespace::NoteLineLayer __declspec(property(get=__get_tailLineLayer, put=__set_tailLineLayer))  tailLineLayer;
+ GlobalNamespace::NoteLineLayer __declspec(property(get=__get_tailLineLayer, put=__set_tailLineLayer))  tailLineLayer;
 
-constexpr void __set_tailLineLayer(::GlobalNamespace::NoteLineLayer value) ;
+constexpr void __set_tailLineLayer(GlobalNamespace::NoteLineLayer value) ;
 
-constexpr ::GlobalNamespace::NoteLineLayer __get_tailLineLayer() const;
+constexpr GlobalNamespace::NoteLineLayer __get_tailLineLayer() const;
 
- ::GlobalNamespace::NoteLineLayer __declspec(property(get=__get_tailBeforeJumpLineLayer, put=__set_tailBeforeJumpLineLayer))  tailBeforeJumpLineLayer;
+ GlobalNamespace::NoteLineLayer __declspec(property(get=__get_tailBeforeJumpLineLayer, put=__set_tailBeforeJumpLineLayer))  tailBeforeJumpLineLayer;
 
-constexpr void __set_tailBeforeJumpLineLayer(::GlobalNamespace::NoteLineLayer value) ;
+constexpr void __set_tailBeforeJumpLineLayer(GlobalNamespace::NoteLineLayer value) ;
 
-constexpr ::GlobalNamespace::NoteLineLayer __get_tailBeforeJumpLineLayer() const;
+constexpr GlobalNamespace::NoteLineLayer __get_tailBeforeJumpLineLayer() const;
 
  float_t __declspec(property(get=__get_tailControlPointLengthMultiplier, put=__set_tailControlPointLengthMultiplier))  tailControlPointLengthMultiplier;
 
@@ -173,11 +172,11 @@ constexpr void __set_tailControlPointLengthMultiplier(float_t value) ;
 
 constexpr float_t __get_tailControlPointLengthMultiplier() const;
 
- ::GlobalNamespace::NoteCutDirection __declspec(property(get=__get_tailCutDirection, put=__set_tailCutDirection))  tailCutDirection;
+ GlobalNamespace::NoteCutDirection __declspec(property(get=__get_tailCutDirection, put=__set_tailCutDirection))  tailCutDirection;
 
-constexpr void __set_tailCutDirection(::GlobalNamespace::NoteCutDirection value) ;
+constexpr void __set_tailCutDirection(GlobalNamespace::NoteCutDirection value) ;
 
-constexpr ::GlobalNamespace::NoteCutDirection __get_tailCutDirection() const;
+constexpr GlobalNamespace::NoteCutDirection __get_tailCutDirection() const;
 
  float_t __declspec(property(get=__get_tailCutDirectionAngleOffset, put=__set_tailCutDirectionAngleOffset))  tailCutDirectionAngleOffset;
 
@@ -185,11 +184,11 @@ constexpr void __set_tailCutDirectionAngleOffset(float_t value) ;
 
 constexpr float_t __get_tailCutDirectionAngleOffset() const;
 
- ::GlobalNamespace::SliderMidAnchorMode __declspec(property(get=__get_midAnchorMode, put=__set_midAnchorMode))  midAnchorMode;
+ GlobalNamespace::SliderMidAnchorMode __declspec(property(get=__get_midAnchorMode, put=__set_midAnchorMode))  midAnchorMode;
 
-constexpr void __set_midAnchorMode(::GlobalNamespace::SliderMidAnchorMode value) ;
+constexpr void __set_midAnchorMode(GlobalNamespace::SliderMidAnchorMode value) ;
 
-constexpr ::GlobalNamespace::SliderMidAnchorMode __get_midAnchorMode() const;
+constexpr GlobalNamespace::SliderMidAnchorMode __get_midAnchorMode() const;
 
  int32_t __declspec(property(get=__get_sliceCount, put=__set_sliceCount))  sliceCount;
 
@@ -203,23 +202,23 @@ constexpr void __set_squishAmount(float_t value) ;
 
 constexpr float_t __get_squishAmount() const;
 
- ::GlobalNamespace::Vector3Serializable __declspec(property(get=__get_headMoveStartPos, put=__set_headMoveStartPos))  headMoveStartPos;
+ GlobalNamespace::Vector3Serializable __declspec(property(get=__get_headMoveStartPos, put=__set_headMoveStartPos))  headMoveStartPos;
 
-constexpr void __set_headMoveStartPos(::GlobalNamespace::Vector3Serializable value) ;
+constexpr void __set_headMoveStartPos(GlobalNamespace::Vector3Serializable value) ;
 
-constexpr ::GlobalNamespace::Vector3Serializable __get_headMoveStartPos() const;
+constexpr GlobalNamespace::Vector3Serializable __get_headMoveStartPos() const;
 
- ::GlobalNamespace::Vector3Serializable __declspec(property(get=__get_headJumpStartPos, put=__set_headJumpStartPos))  headJumpStartPos;
+ GlobalNamespace::Vector3Serializable __declspec(property(get=__get_headJumpStartPos, put=__set_headJumpStartPos))  headJumpStartPos;
 
-constexpr void __set_headJumpStartPos(::GlobalNamespace::Vector3Serializable value) ;
+constexpr void __set_headJumpStartPos(GlobalNamespace::Vector3Serializable value) ;
 
-constexpr ::GlobalNamespace::Vector3Serializable __get_headJumpStartPos() const;
+constexpr GlobalNamespace::Vector3Serializable __get_headJumpStartPos() const;
 
- ::GlobalNamespace::Vector3Serializable __declspec(property(get=__get_headJumpEndPos, put=__set_headJumpEndPos))  headJumpEndPos;
+ GlobalNamespace::Vector3Serializable __declspec(property(get=__get_headJumpEndPos, put=__set_headJumpEndPos))  headJumpEndPos;
 
-constexpr void __set_headJumpEndPos(::GlobalNamespace::Vector3Serializable value) ;
+constexpr void __set_headJumpEndPos(GlobalNamespace::Vector3Serializable value) ;
 
-constexpr ::GlobalNamespace::Vector3Serializable __get_headJumpEndPos() const;
+constexpr GlobalNamespace::Vector3Serializable __get_headJumpEndPos() const;
 
  float_t __declspec(property(get=__get_headJumpGravity, put=__set_headJumpGravity))  headJumpGravity;
 
@@ -227,23 +226,23 @@ constexpr void __set_headJumpGravity(float_t value) ;
 
 constexpr float_t __get_headJumpGravity() const;
 
- ::GlobalNamespace::Vector3Serializable __declspec(property(get=__get_tailMoveStartPos, put=__set_tailMoveStartPos))  tailMoveStartPos;
+ GlobalNamespace::Vector3Serializable __declspec(property(get=__get_tailMoveStartPos, put=__set_tailMoveStartPos))  tailMoveStartPos;
 
-constexpr void __set_tailMoveStartPos(::GlobalNamespace::Vector3Serializable value) ;
+constexpr void __set_tailMoveStartPos(GlobalNamespace::Vector3Serializable value) ;
 
-constexpr ::GlobalNamespace::Vector3Serializable __get_tailMoveStartPos() const;
+constexpr GlobalNamespace::Vector3Serializable __get_tailMoveStartPos() const;
 
- ::GlobalNamespace::Vector3Serializable __declspec(property(get=__get_tailJumpStartPos, put=__set_tailJumpStartPos))  tailJumpStartPos;
+ GlobalNamespace::Vector3Serializable __declspec(property(get=__get_tailJumpStartPos, put=__set_tailJumpStartPos))  tailJumpStartPos;
 
-constexpr void __set_tailJumpStartPos(::GlobalNamespace::Vector3Serializable value) ;
+constexpr void __set_tailJumpStartPos(GlobalNamespace::Vector3Serializable value) ;
 
-constexpr ::GlobalNamespace::Vector3Serializable __get_tailJumpStartPos() const;
+constexpr GlobalNamespace::Vector3Serializable __get_tailJumpStartPos() const;
 
- ::GlobalNamespace::Vector3Serializable __declspec(property(get=__get_tailJumpEndPos, put=__set_tailJumpEndPos))  tailJumpEndPos;
+ GlobalNamespace::Vector3Serializable __declspec(property(get=__get_tailJumpEndPos, put=__set_tailJumpEndPos))  tailJumpEndPos;
 
-constexpr void __set_tailJumpEndPos(::GlobalNamespace::Vector3Serializable value) ;
+constexpr void __set_tailJumpEndPos(GlobalNamespace::Vector3Serializable value) ;
 
-constexpr ::GlobalNamespace::Vector3Serializable __get_tailJumpEndPos() const;
+constexpr GlobalNamespace::Vector3Serializable __get_tailJumpEndPos() const;
 
  float_t __declspec(property(get=__get_tailJumpGravity, put=__set_tailJumpGravity))  tailJumpGravity;
 
@@ -273,10 +272,10 @@ constexpr float_t __get_rotation() const;
 // Methods
 
 /// @brief Method Obtain addr 0x121bee8 size 0x64 virtual false final false
-static ::GlobalNamespace::SliderSpawnInfoNetSerializable Obtain() ;
+static GlobalNamespace::SliderSpawnInfoNetSerializable Obtain() ;
 
 /// @brief Method Init addr 0x121bf4c size 0x244 virtual false final false
- ::GlobalNamespace::SliderSpawnInfoNetSerializable Init(::GlobalNamespace::ColorType colorType, ::GlobalNamespace::____GlobalNamespace__SliderData__Type sliderType, bool hasHeadNote, float_t headTime, int32_t headLineIndex, ::GlobalNamespace::NoteLineLayer headLineLayer, ::GlobalNamespace::NoteLineLayer headBeforeJumpLineLayer, float_t headControlPointLengthMultiplier, ::GlobalNamespace::NoteCutDirection headCutDirection, float_t headCutDirectionAngleOffset, bool hasTailNote, float_t tailTime, int32_t tailLineIndex, ::GlobalNamespace::NoteLineLayer tailLineLayer, ::GlobalNamespace::NoteLineLayer tailBeforeJumpLineLayer, float_t tailControlPointLengthMultiplier, ::GlobalNamespace::NoteCutDirection tailCutDirection, float_t tailCutDirectionAngleOffset, ::GlobalNamespace::SliderMidAnchorMode midAnchorMode, int32_t sliceCount, float_t squishAmount, ::UnityEngine::Vector3 headMoveStartPos, ::UnityEngine::Vector3 headJumpStartPos, ::UnityEngine::Vector3 headJumpEndPos, float_t headJumpGravity, ::UnityEngine::Vector3 tailMoveStartPos, ::UnityEngine::Vector3 tailJumpStartPos, ::UnityEngine::Vector3 tailJumpEndPos, float_t tailJumpGravity, float_t moveDuration, float_t jumpDuration, float_t rotation) ;
+ GlobalNamespace::SliderSpawnInfoNetSerializable Init(GlobalNamespace::ColorType colorType, GlobalNamespace::GlobalNamespace__SliderData__Type sliderType, bool hasHeadNote, float_t headTime, int32_t headLineIndex, GlobalNamespace::NoteLineLayer headLineLayer, GlobalNamespace::NoteLineLayer headBeforeJumpLineLayer, float_t headControlPointLengthMultiplier, GlobalNamespace::NoteCutDirection headCutDirection, float_t headCutDirectionAngleOffset, bool hasTailNote, float_t tailTime, int32_t tailLineIndex, GlobalNamespace::NoteLineLayer tailLineLayer, GlobalNamespace::NoteLineLayer tailBeforeJumpLineLayer, float_t tailControlPointLengthMultiplier, GlobalNamespace::NoteCutDirection tailCutDirection, float_t tailCutDirectionAngleOffset, GlobalNamespace::SliderMidAnchorMode midAnchorMode, int32_t sliceCount, float_t squishAmount, UnityEngine::Vector3 headMoveStartPos, UnityEngine::Vector3 headJumpStartPos, UnityEngine::Vector3 headJumpEndPos, float_t headJumpGravity, UnityEngine::Vector3 tailMoveStartPos, UnityEngine::Vector3 tailJumpStartPos, UnityEngine::Vector3 tailJumpEndPos, float_t tailJumpGravity, float_t moveDuration, float_t jumpDuration, float_t rotation) ;
 
 // Ctor Parameters []
 explicit SliderSpawnInfoNetSerializable() ;
@@ -285,15 +284,14 @@ explicit SliderSpawnInfoNetSerializable() ;
  void _ctor() ;
 
 /// @brief Method Serialize addr 0x121c1e8 size 0x238 virtual true final false
- void Serialize(::LiteNetLib::Utils::NetDataWriter writer) ;
+ void Serialize(LiteNetLib::Utils::NetDataWriter writer) ;
 
 /// @brief Method Deserialize addr 0x121c420 size 0x274 virtual true final false
- void Deserialize(::LiteNetLib::Utils::NetDataReader reader) ;
+ void Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SliderSpawnInfoNetSerializable);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SliderSpawnInfoNetSerializable, "", "SliderSpawnInfoNetSerializable");
+NEED_NO_BOX(GlobalNamespace::SliderSpawnInfoNetSerializable);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SliderSpawnInfoNetSerializable, "", "SliderSpawnInfoNetSerializable");

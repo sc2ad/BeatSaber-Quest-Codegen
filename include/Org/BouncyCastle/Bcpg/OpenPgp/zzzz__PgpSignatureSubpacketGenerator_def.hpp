@@ -4,12 +4,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-struct DateTime;
-}
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpSignature;
+class PgpSignatureSubpacketVector;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct RevocationReasonTag;
@@ -17,11 +13,14 @@ struct RevocationReasonTag;
 namespace System::Collections {
 class IList;
 }
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpSignature;
+}
+namespace System {
+struct DateTime;
+}
 namespace Org::BouncyCastle::Bcpg {
 struct PublicKeyAlgorithmTag;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpSignatureSubpacketVector;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -69,11 +68,11 @@ constexpr explicit PgpSignatureSubpacketGenerator(void* ptr) noexcept : ::bs_hoo
 
 // Fields
 
- ::System::Collections::IList __declspec(property(get=__get_list, put=__set_list))  list;
+ System::Collections::IList __declspec(property(get=__get_list, put=__set_list))  list;
 
-constexpr void __set_list(::System::Collections::IList value) ;
+constexpr void __set_list(System::Collections::IList value) ;
 
-constexpr ::System::Collections::IList __get_list() const;
+constexpr System::Collections::IList __get_list() const;
 
 
 // Methods
@@ -97,7 +96,7 @@ constexpr ::System::Collections::IList __get_list() const;
  void SetSignatureExpirationTime(bool isCritical, int64_t seconds) ;
 
 /// @brief Method SetSignatureCreationTime addr 0x103f758 size 0xec virtual false final false
- void SetSignatureCreationTime(bool isCritical, ::System::DateTime date) ;
+ void SetSignatureCreationTime(bool isCritical, System::DateTime date) ;
 
 /// @brief Method SetPreferredHashAlgorithms addr 0x103f844 size 0xf0 virtual false final false
  void SetPreferredHashAlgorithms(bool isCritical, ::ArrayW<int32_t> algorithms) ;
@@ -118,7 +117,7 @@ constexpr ::System::Collections::IList __get_list() const;
  void SetSignerUserId(bool isCritical, ::ArrayW<uint8_t> rawUserId) ;
 
 /// @brief Method SetEmbeddedSignature addr 0x103fe7c size 0x160 virtual false final false
- void SetEmbeddedSignature(bool isCritical, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature pgpSignature) ;
+ void SetEmbeddedSignature(bool isCritical, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature pgpSignature) ;
 
 /// @brief Method SetPrimaryUserId addr 0x103ffdc size 0xec virtual false final false
  void SetPrimaryUserId(bool isCritical, bool isPrimaryUserId) ;
@@ -127,16 +126,16 @@ constexpr ::System::Collections::IList __get_list() const;
  void SetNotationData(bool isCritical, bool isHumanReadable, ::StringW notationName, ::StringW notationValue) ;
 
 /// @brief Method SetRevocationReason addr 0x10401cc size 0xfc virtual false final false
- void SetRevocationReason(bool isCritical, ::Org::BouncyCastle::Bcpg::RevocationReasonTag reason, ::StringW description) ;
+ void SetRevocationReason(bool isCritical, Org::BouncyCastle::Bcpg::RevocationReasonTag reason, ::StringW description) ;
 
 /// @brief Method SetRevocationKey addr 0x10402c8 size 0x100 virtual false final false
- void SetRevocationKey(bool isCritical, ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, ::ArrayW<uint8_t> fingerprint) ;
+ void SetRevocationKey(bool isCritical, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, ::ArrayW<uint8_t> fingerprint) ;
 
 /// @brief Method SetIssuerKeyID addr 0x10403c8 size 0xec virtual false final false
  void SetIssuerKeyID(bool isCritical, int64_t keyID) ;
 
 /// @brief Method Generate addr 0x10404b4 size 0x2c8 virtual false final false
- ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector Generate() ;
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector Generate() ;
 
 // Ctor Parameters []
 explicit PgpSignatureSubpacketGenerator() ;
@@ -148,6 +147,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg::OpenPgp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketGenerator, "Org.BouncyCastle.Bcpg.OpenPgp", "PgpSignatureSubpacketGenerator");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketGenerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketGenerator, "Org.BouncyCastle.Bcpg.OpenPgp", "PgpSignatureSubpacketGenerator");

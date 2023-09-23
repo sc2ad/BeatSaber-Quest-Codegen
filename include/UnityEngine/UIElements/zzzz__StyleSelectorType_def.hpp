@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 struct StyleSelectorType;
@@ -73,32 +72,31 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::UnityEngine::UIElements::StyleSelectorType const Unknown;
+static UnityEngine::UIElements::StyleSelectorType const Unknown;
 
 /// @brief Field Wildcard offset 0
-static ::UnityEngine::UIElements::StyleSelectorType const Wildcard;
+static UnityEngine::UIElements::StyleSelectorType const Wildcard;
 
 /// @brief Field Type offset 0
-static ::UnityEngine::UIElements::StyleSelectorType const Type;
+static UnityEngine::UIElements::StyleSelectorType const Type;
 
 /// @brief Field Class offset 0
-static ::UnityEngine::UIElements::StyleSelectorType const Class;
+static UnityEngine::UIElements::StyleSelectorType const Class;
 
 /// @brief Field PseudoClass offset 0
-static ::UnityEngine::UIElements::StyleSelectorType const PseudoClass;
+static UnityEngine::UIElements::StyleSelectorType const PseudoClass;
 
 /// @brief Field RecursivePseudoClass offset 0
-static ::UnityEngine::UIElements::StyleSelectorType const RecursivePseudoClass;
+static UnityEngine::UIElements::StyleSelectorType const RecursivePseudoClass;
 
 /// @brief Field ID offset 0
-static ::UnityEngine::UIElements::StyleSelectorType const ID;
+static UnityEngine::UIElements::StyleSelectorType const ID;
 
 /// @brief Field Predicate offset 0
-static ::UnityEngine::UIElements::StyleSelectorType const Predicate;
+static UnityEngine::UIElements::StyleSelectorType const Predicate;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSelectorType, "UnityEngine.UIElements", "StyleSelectorType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::StyleSelectorType, "UnityEngine.UIElements", "StyleSelectorType");

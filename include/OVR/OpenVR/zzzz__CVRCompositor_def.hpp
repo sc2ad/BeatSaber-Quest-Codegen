@@ -5,33 +5,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace OVR::OpenVR {
-struct EVRCompositorError;
-}
 namespace OVR::OpenVR {
 struct IVRCompositor;
 }
 namespace OVR::OpenVR {
-struct Texture_t;
-}
-namespace OVR::OpenVR {
-struct Compositor_FrameTiming;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace OVR::OpenVR {
-struct Compositor_CumulativeStats;
-}
-namespace OVR::OpenVR {
-struct TrackedDevicePose_t;
-}
-namespace OVR::OpenVR {
-struct EVRCompositorTimingMode;
-}
-namespace OVR::OpenVR {
 struct EVRSubmitFlags;
+}
+namespace OVR::OpenVR {
+struct EVREye;
 }
 namespace OVR::OpenVR {
 struct HmdColor_t;
@@ -40,10 +21,28 @@ namespace OVR::OpenVR {
 struct VRTextureBounds_t;
 }
 namespace OVR::OpenVR {
+struct TrackedDevicePose_t;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace OVR::OpenVR {
+struct EVRCompositorTimingMode;
+}
+namespace OVR::OpenVR {
+struct Compositor_FrameTiming;
+}
+namespace OVR::OpenVR {
+struct Compositor_CumulativeStats;
+}
+namespace OVR::OpenVR {
+struct Texture_t;
+}
+namespace OVR::OpenVR {
 struct ETrackingUniverseOrigin;
 }
 namespace OVR::OpenVR {
-struct EVREye;
+struct EVRCompositorError;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -91,11 +90,11 @@ constexpr explicit CVRCompositor(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 
 // Fields
 
- ::OVR::OpenVR::IVRCompositor __declspec(property(get=__get_FnTable, put=__set_FnTable))  FnTable;
+ OVR::OpenVR::IVRCompositor __declspec(property(get=__get_FnTable, put=__set_FnTable))  FnTable;
 
-constexpr void __set_FnTable(::OVR::OpenVR::IVRCompositor value) ;
+constexpr void __set_FnTable(OVR::OpenVR::IVRCompositor value) ;
 
-constexpr ::OVR::OpenVR::IVRCompositor __get_FnTable() const;
+constexpr OVR::OpenVR::IVRCompositor __get_FnTable() const;
 
 
 // Methods
@@ -107,22 +106,22 @@ explicit CVRCompositor(::cordl_internals::intptr_t pInterface) ;
  void _ctor(::cordl_internals::intptr_t pInterface) ;
 
 /// @brief Method SetTrackingSpace addr 0x26659f8 size 0x24 virtual false final false
- void SetTrackingSpace(::OVR::OpenVR::ETrackingUniverseOrigin eOrigin) ;
+ void SetTrackingSpace(OVR::OpenVR::ETrackingUniverseOrigin eOrigin) ;
 
 /// @brief Method GetTrackingSpace addr 0x2665a1c size 0x24 virtual false final false
- ::OVR::OpenVR::ETrackingUniverseOrigin GetTrackingSpace() ;
+ OVR::OpenVR::ETrackingUniverseOrigin GetTrackingSpace() ;
 
 /// @brief Method WaitGetPoses addr 0x2665a40 size 0x38 virtual false final false
- ::OVR::OpenVR::EVRCompositorError WaitGetPoses(::ArrayW<::OVR::OpenVR::TrackedDevicePose_t> pRenderPoseArray, ::ArrayW<::OVR::OpenVR::TrackedDevicePose_t> pGamePoseArray) ;
+ OVR::OpenVR::EVRCompositorError WaitGetPoses(::ArrayW<OVR::OpenVR::TrackedDevicePose_t> pRenderPoseArray, ::ArrayW<OVR::OpenVR::TrackedDevicePose_t> pGamePoseArray) ;
 
 /// @brief Method GetLastPoses addr 0x2665a78 size 0x38 virtual false final false
- ::OVR::OpenVR::EVRCompositorError GetLastPoses(::ArrayW<::OVR::OpenVR::TrackedDevicePose_t> pRenderPoseArray, ::ArrayW<::OVR::OpenVR::TrackedDevicePose_t> pGamePoseArray) ;
+ OVR::OpenVR::EVRCompositorError GetLastPoses(::ArrayW<OVR::OpenVR::TrackedDevicePose_t> pRenderPoseArray, ::ArrayW<OVR::OpenVR::TrackedDevicePose_t> pGamePoseArray) ;
 
 /// @brief Method GetLastPoseForTrackedDeviceIndex addr 0x2665ab0 size 0x24 virtual false final false
- ::OVR::OpenVR::EVRCompositorError GetLastPoseForTrackedDeviceIndex(uint32_t unDeviceIndex, ByRef<::OVR::OpenVR::TrackedDevicePose_t> pOutputPose, ByRef<::OVR::OpenVR::TrackedDevicePose_t> pOutputGamePose) ;
+ OVR::OpenVR::EVRCompositorError GetLastPoseForTrackedDeviceIndex(uint32_t unDeviceIndex, ByRef<OVR::OpenVR::TrackedDevicePose_t> pOutputPose, ByRef<OVR::OpenVR::TrackedDevicePose_t> pOutputGamePose) ;
 
 /// @brief Method Submit addr 0x2665ad4 size 0x24 virtual false final false
- ::OVR::OpenVR::EVRCompositorError Submit(::OVR::OpenVR::EVREye eEye, ByRef<::OVR::OpenVR::Texture_t> pTexture, ByRef<::OVR::OpenVR::VRTextureBounds_t> pBounds, ::OVR::OpenVR::EVRSubmitFlags nSubmitFlags) ;
+ OVR::OpenVR::EVRCompositorError Submit(OVR::OpenVR::EVREye eEye, ByRef<OVR::OpenVR::Texture_t> pTexture, ByRef<OVR::OpenVR::VRTextureBounds_t> pBounds, OVR::OpenVR::EVRSubmitFlags nSubmitFlags) ;
 
 /// @brief Method ClearLastSubmittedFrame addr 0x2665af8 size 0x24 virtual false final false
  void ClearLastSubmittedFrame() ;
@@ -131,22 +130,22 @@ explicit CVRCompositor(::cordl_internals::intptr_t pInterface) ;
  void PostPresentHandoff() ;
 
 /// @brief Method GetFrameTiming addr 0x2665b40 size 0x24 virtual false final false
- bool GetFrameTiming(ByRef<::OVR::OpenVR::Compositor_FrameTiming> pTiming, uint32_t unFramesAgo) ;
+ bool GetFrameTiming(ByRef<OVR::OpenVR::Compositor_FrameTiming> pTiming, uint32_t unFramesAgo) ;
 
 /// @brief Method GetFrameTimings addr 0x2665b64 size 0x24 virtual false final false
- uint32_t GetFrameTimings(ByRef<::OVR::OpenVR::Compositor_FrameTiming> pTiming, uint32_t nFrames) ;
+ uint32_t GetFrameTimings(ByRef<OVR::OpenVR::Compositor_FrameTiming> pTiming, uint32_t nFrames) ;
 
 /// @brief Method GetFrameTimeRemaining addr 0x2665b88 size 0x24 virtual false final false
  float_t GetFrameTimeRemaining() ;
 
 /// @brief Method GetCumulativeStats addr 0x2665bac size 0x24 virtual false final false
- void GetCumulativeStats(ByRef<::OVR::OpenVR::Compositor_CumulativeStats> pStats, uint32_t nStatsSizeInBytes) ;
+ void GetCumulativeStats(ByRef<OVR::OpenVR::Compositor_CumulativeStats> pStats, uint32_t nStatsSizeInBytes) ;
 
 /// @brief Method FadeToColor addr 0x2665bd0 size 0x28 virtual false final false
  void FadeToColor(float_t fSeconds, float_t fRed, float_t fGreen, float_t fBlue, float_t fAlpha, bool bBackground) ;
 
 /// @brief Method GetCurrentFadeColor addr 0x2665bf8 size 0x28 virtual false final false
- ::OVR::OpenVR::HmdColor_t GetCurrentFadeColor(bool bBackground) ;
+ OVR::OpenVR::HmdColor_t GetCurrentFadeColor(bool bBackground) ;
 
 /// @brief Method FadeGrid addr 0x2665c20 size 0x28 virtual false final false
  void FadeGrid(float_t fSeconds, bool bFadeIn) ;
@@ -155,7 +154,7 @@ explicit CVRCompositor(::cordl_internals::intptr_t pInterface) ;
  float_t GetCurrentGridAlpha() ;
 
 /// @brief Method SetSkyboxOverride addr 0x2665c6c size 0x2c virtual false final false
- ::OVR::OpenVR::EVRCompositorError SetSkyboxOverride(::ArrayW<::OVR::OpenVR::Texture_t> pTextures) ;
+ OVR::OpenVR::EVRCompositorError SetSkyboxOverride(::ArrayW<OVR::OpenVR::Texture_t> pTextures) ;
 
 /// @brief Method ClearSkyboxOverride addr 0x2665c98 size 0x24 virtual false final false
  void ClearSkyboxOverride() ;
@@ -206,13 +205,13 @@ explicit CVRCompositor(::cordl_internals::intptr_t pInterface) ;
  void SuspendRendering(bool bSuspend) ;
 
 /// @brief Method GetMirrorTextureD3D11 addr 0x2665ee0 size 0x24 virtual false final false
- ::OVR::OpenVR::EVRCompositorError GetMirrorTextureD3D11(::OVR::OpenVR::EVREye eEye, ::cordl_internals::intptr_t pD3D11DeviceOrResource, ByRef<::cordl_internals::intptr_t> ppD3D11ShaderResourceView) ;
+ OVR::OpenVR::EVRCompositorError GetMirrorTextureD3D11(OVR::OpenVR::EVREye eEye, ::cordl_internals::intptr_t pD3D11DeviceOrResource, ByRef<::cordl_internals::intptr_t> ppD3D11ShaderResourceView) ;
 
 /// @brief Method ReleaseMirrorTextureD3D11 addr 0x2665f04 size 0x24 virtual false final false
  void ReleaseMirrorTextureD3D11(::cordl_internals::intptr_t pD3D11ShaderResourceView) ;
 
 /// @brief Method GetMirrorTextureGL addr 0x2665f28 size 0x28 virtual false final false
- ::OVR::OpenVR::EVRCompositorError GetMirrorTextureGL(::OVR::OpenVR::EVREye eEye, ByRef<uint32_t> pglTextureId, ::cordl_internals::intptr_t pglSharedTextureHandle) ;
+ OVR::OpenVR::EVRCompositorError GetMirrorTextureGL(OVR::OpenVR::EVREye eEye, ByRef<uint32_t> pglTextureId, ::cordl_internals::intptr_t pglSharedTextureHandle) ;
 
 /// @brief Method ReleaseSharedGLTexture addr 0x2665f50 size 0x24 virtual false final false
  bool ReleaseSharedGLTexture(uint32_t glTextureId, ::cordl_internals::intptr_t glSharedTextureHandle) ;
@@ -224,21 +223,20 @@ explicit CVRCompositor(::cordl_internals::intptr_t pInterface) ;
  void UnlockGLSharedTextureForAccess(::cordl_internals::intptr_t glSharedTextureHandle) ;
 
 /// @brief Method GetVulkanInstanceExtensionsRequired addr 0x2665fbc size 0x24 virtual false final false
- uint32_t GetVulkanInstanceExtensionsRequired(::System::Text::StringBuilder pchValue, uint32_t unBufferSize) ;
+ uint32_t GetVulkanInstanceExtensionsRequired(System::Text::StringBuilder pchValue, uint32_t unBufferSize) ;
 
 /// @brief Method GetVulkanDeviceExtensionsRequired addr 0x2665fe0 size 0x24 virtual false final false
- uint32_t GetVulkanDeviceExtensionsRequired(::cordl_internals::intptr_t pPhysicalDevice, ::System::Text::StringBuilder pchValue, uint32_t unBufferSize) ;
+ uint32_t GetVulkanDeviceExtensionsRequired(::cordl_internals::intptr_t pPhysicalDevice, System::Text::StringBuilder pchValue, uint32_t unBufferSize) ;
 
 /// @brief Method SetExplicitTimingMode addr 0x2666004 size 0x24 virtual false final false
- void SetExplicitTimingMode(::OVR::OpenVR::EVRCompositorTimingMode eTimingMode) ;
+ void SetExplicitTimingMode(OVR::OpenVR::EVRCompositorTimingMode eTimingMode) ;
 
 /// @brief Method SubmitExplicitTimingData addr 0x2666028 size 0x24 virtual false final false
- ::OVR::OpenVR::EVRCompositorError SubmitExplicitTimingData() ;
+ OVR::OpenVR::EVRCompositorError SubmitExplicitTimingData() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-NEED_NO_BOX(::OVR::OpenVR::CVRCompositor);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::CVRCompositor, "OVR.OpenVR", "CVRCompositor");
+NEED_NO_BOX(OVR::OpenVR::CVRCompositor);
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRCompositor, "OVR.OpenVR", "CVRCompositor");

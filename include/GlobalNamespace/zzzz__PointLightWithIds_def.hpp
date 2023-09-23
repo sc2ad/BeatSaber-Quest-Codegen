@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__RuntimeLightWithIds_def.hpp"
-namespace {
 namespace UnityEngine {
 struct Color;
 }
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14713))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14710))
 // CS Name: PointLightWithIds
-class CORDL_TYPE PointLightWithIds : public ::GlobalNamespace::RuntimeLightWithIds {
+class CORDL_TYPE PointLightWithIds : public GlobalNamespace::RuntimeLightWithIds {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr PointLightWithIds(PointLightWithIds const& ) noexcept = default;
 constexpr PointLightWithIds(PointLightWithIds&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PointLightWithIds(void* ptr) noexcept : ::GlobalNamespace::RuntimeLightWithIds(ptr) {
+constexpr explicit PointLightWithIds(void* ptr) noexcept : GlobalNamespace::RuntimeLightWithIds(ptr) {
 }
 
 
@@ -54,17 +53,17 @@ constexpr explicit PointLightWithIds(void* ptr) noexcept : ::GlobalNamespace::Ru
 
 // Fields
 
- ::GlobalNamespace::PointLight __declspec(property(get=__get__pointLight, put=__set__pointLight))  _pointLight;
+ GlobalNamespace::PointLight __declspec(property(get=__get__pointLight, put=__set__pointLight))  _pointLight;
 
-constexpr void __set__pointLight(::GlobalNamespace::PointLight value) ;
+constexpr void __set__pointLight(GlobalNamespace::PointLight value) ;
 
-constexpr ::GlobalNamespace::PointLight __get__pointLight() const;
+constexpr GlobalNamespace::PointLight __get__pointLight() const;
 
 
 // Methods
 
 /// @brief Method ColorWasSet addr 0x1f9ffb0 size 0x20 virtual true final false
- void ColorWasSet(::UnityEngine::Color color) ;
+ void ColorWasSet(UnityEngine::Color color) ;
 
 // Ctor Parameters []
 explicit PointLightWithIds() ;
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PointLightWithIds);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PointLightWithIds, "", "PointLightWithIds");
+NEED_NO_BOX(GlobalNamespace::PointLightWithIds);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PointLightWithIds, "", "PointLightWithIds");

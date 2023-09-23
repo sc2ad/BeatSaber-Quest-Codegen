@@ -3,7 +3,6 @@
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeHandleZeroOrMinusOneIsInvalid_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class InvalidOperationException;
 }
@@ -17,7 +16,7 @@ namespace System::Runtime::InteropServices {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2301))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3303))
 // CS Name: System.Runtime.InteropServices.SafeBuffer
-class CORDL_TYPE SafeBuffer : public ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid {
+class CORDL_TYPE SafeBuffer : public Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr SafeBuffer(SafeBuffer const& ) noexcept = default;
 constexpr SafeBuffer(SafeBuffer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SafeBuffer(void* ptr) noexcept : ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid(ptr) {
+constexpr explicit SafeBuffer(void* ptr) noexcept : Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid(ptr) {
 }
 
 
@@ -75,12 +74,11 @@ constexpr ::cordl_internals::uintptr_t __get__numBytes() const;
  void ReleasePointer() ;
 
 /// @brief Method NotInitialized addr 0x236a6d8 size 0x74 virtual false final false
-static ::System::InvalidOperationException NotInitialized() ;
+static System::InvalidOperationException NotInitialized() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::InteropServices
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::InteropServices::SafeBuffer);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::SafeBuffer, "System.Runtime.InteropServices", "SafeBuffer");
+NEED_NO_BOX(System::Runtime::InteropServices::SafeBuffer);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::SafeBuffer, "System.Runtime.InteropServices", "SafeBuffer");

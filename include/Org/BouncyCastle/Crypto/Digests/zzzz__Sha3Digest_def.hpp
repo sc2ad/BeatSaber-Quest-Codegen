@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Utilities {
 class IMemoable;
 }
@@ -18,7 +17,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(755))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(770))
 // CS Name: Org.BouncyCastle.Crypto.Digests.Sha3Digest
-class CORDL_TYPE Sha3Digest : public ::Org::BouncyCastle::Crypto::Digests::KeccakDigest {
+class CORDL_TYPE Sha3Digest : public Org::BouncyCastle::Crypto::Digests::KeccakDigest {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr Sha3Digest(Sha3Digest const& ) noexcept = default;
 constexpr Sha3Digest(Sha3Digest&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Sha3Digest(void* ptr) noexcept : ::Org::BouncyCastle::Crypto::Digests::KeccakDigest(ptr) {
+constexpr explicit Sha3Digest(void* ptr) noexcept : Org::BouncyCastle::Crypto::Digests::KeccakDigest(ptr) {
 }
 
 
@@ -74,11 +73,11 @@ explicit Sha3Digest(int32_t bitLength) ;
 /// @brief Method .ctor addr 0xe17508 size 0x78 virtual false final false
  void _ctor(int32_t bitLength) ;
 
-// Ctor Parameters [CppParam { name: "source", ty: "::Org::BouncyCastle::Crypto::Digests::Sha3Digest", modifiers: "", def_value: None }]
-explicit Sha3Digest(::Org::BouncyCastle::Crypto::Digests::Sha3Digest source) ;
+// Ctor Parameters [CppParam { name: "source", ty: "Org::BouncyCastle::Crypto::Digests::Sha3Digest", modifiers: "", def_value: None }]
+explicit Sha3Digest(Org::BouncyCastle::Crypto::Digests::Sha3Digest source) ;
 
 /// @brief Method .ctor addr 0xe17580 size 0x68 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::Digests::Sha3Digest source) ;
+ void _ctor(Org::BouncyCastle::Crypto::Digests::Sha3Digest source) ;
 
 /// @brief Method get_AlgorithmName addr 0xe175e8 size 0x84 virtual true final false
  ::StringW get_AlgorithmName() ;
@@ -90,12 +89,11 @@ explicit Sha3Digest(::Org::BouncyCastle::Crypto::Digests::Sha3Digest source) ;
  int32_t DoFinal(::ArrayW<uint8_t> output, int32_t outOff, uint8_t partialByte, int32_t partialBits) ;
 
 /// @brief Method Copy addr 0xe17790 size 0x60 virtual true final false
- ::Org::BouncyCastle::Utilities::IMemoable Copy() ;
+ Org::BouncyCastle::Utilities::IMemoable Copy() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Digests
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::Sha3Digest);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Digests::Sha3Digest, "Org.BouncyCastle.Crypto.Digests", "Sha3Digest");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Digests::Sha3Digest);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::Sha3Digest, "Org.BouncyCastle.Crypto.Digests", "Sha3Digest");

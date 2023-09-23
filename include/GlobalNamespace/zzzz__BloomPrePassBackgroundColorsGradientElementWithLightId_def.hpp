@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 class BloomPrePassBackgroundColorsGradient;
 }
@@ -17,7 +16,7 @@ namespace GlobalNamespace {
 class BloomPrePassBackgroundColorsGradientElementWithLightId;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements;
+class GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements;
 }
 // Type: ::Elements
 namespace GlobalNamespace {
@@ -25,37 +24,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14673))
 // CS Name: BloomPrePassBackgroundColorsGradientElementWithLightId::Elements
-class CORDL_TYPE ____GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements() = default;
+virtual ~GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements(____GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements(GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements(____GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements(GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements& operator=(____GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements&& o) noexcept = default;
-  constexpr ____GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements& operator=(____GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements const& o) noexcept = default;
+  constexpr GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements& operator=(GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements&& o) noexcept = default;
+  constexpr GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements& operator=(GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements const& o) noexcept = default;
                 
 
 
@@ -83,7 +82,7 @@ constexpr float_t __get_minIntensity() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements() ;
+explicit GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements() ;
 
 /// @brief Method .ctor addr 0x1f9c4dc size 0x10 virtual false final false
  void _ctor() ;
@@ -98,10 +97,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14703))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14674))
 // CS Name: BloomPrePassBackgroundColorsGradientElementWithLightId
-class CORDL_TYPE BloomPrePassBackgroundColorsGradientElementWithLightId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
+class CORDL_TYPE BloomPrePassBackgroundColorsGradientElementWithLightId : public GlobalNamespace::LightWithIdMonoBehaviour {
 public:
 // Declarations
-using Elements = ::GlobalNamespace::____GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements;
+using Elements = GlobalNamespace::GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -115,7 +114,7 @@ constexpr BloomPrePassBackgroundColorsGradientElementWithLightId(BloomPrePassBac
 constexpr BloomPrePassBackgroundColorsGradientElementWithLightId(BloomPrePassBackgroundColorsGradientElementWithLightId&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BloomPrePassBackgroundColorsGradientElementWithLightId(void* ptr) noexcept : ::GlobalNamespace::LightWithIdMonoBehaviour(ptr) {
+constexpr explicit BloomPrePassBackgroundColorsGradientElementWithLightId(void* ptr) noexcept : GlobalNamespace::LightWithIdMonoBehaviour(ptr) {
 }
 
 
@@ -136,23 +135,23 @@ constexpr explicit BloomPrePassBackgroundColorsGradientElementWithLightId(void* 
 
 // Fields
 
- ::GlobalNamespace::BloomPrePassBackgroundColorsGradient __declspec(property(get=__get__bloomPrePassBackgroundColorsGradient, put=__set__bloomPrePassBackgroundColorsGradient))  _bloomPrePassBackgroundColorsGradient;
+ GlobalNamespace::BloomPrePassBackgroundColorsGradient __declspec(property(get=__get__bloomPrePassBackgroundColorsGradient, put=__set__bloomPrePassBackgroundColorsGradient))  _bloomPrePassBackgroundColorsGradient;
 
-constexpr void __set__bloomPrePassBackgroundColorsGradient(::GlobalNamespace::BloomPrePassBackgroundColorsGradient value) ;
+constexpr void __set__bloomPrePassBackgroundColorsGradient(GlobalNamespace::BloomPrePassBackgroundColorsGradient value) ;
 
-constexpr ::GlobalNamespace::BloomPrePassBackgroundColorsGradient __get__bloomPrePassBackgroundColorsGradient() const;
+constexpr GlobalNamespace::BloomPrePassBackgroundColorsGradient __get__bloomPrePassBackgroundColorsGradient() const;
 
- ::ArrayW<::GlobalNamespace::____GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements> __declspec(property(get=__get__elements, put=__set__elements))  _elements;
+ ::ArrayW<GlobalNamespace::GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements> __declspec(property(get=__get__elements, put=__set__elements))  _elements;
 
-constexpr void __set__elements(::ArrayW<::GlobalNamespace::____GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements> value) ;
+constexpr void __set__elements(::ArrayW<GlobalNamespace::GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::____GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements> __get__elements() const;
+constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements> __get__elements() const;
 
 
 // Methods
 
 /// @brief Method ColorWasSet addr 0x1f9c410 size 0xac virtual true final false
- void ColorWasSet(::UnityEngine::Color color) ;
+ void ColorWasSet(UnityEngine::Color color) ;
 
 // Ctor Parameters []
 explicit BloomPrePassBackgroundColorsGradientElementWithLightId() ;
@@ -164,8 +163,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId, "", "BloomPrePassBackgroundColorsGradientElementWithLightId");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements, "", "BloomPrePassBackgroundColorsGradientElementWithLightId/Elements");
+NEED_NO_BOX(GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId, "", "BloomPrePassBackgroundColorsGradientElementWithLightId");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements, "", "BloomPrePassBackgroundColorsGradientElementWithLightId/Elements");

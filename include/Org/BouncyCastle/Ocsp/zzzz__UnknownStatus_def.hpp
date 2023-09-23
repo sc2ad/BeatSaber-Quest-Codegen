@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Ocsp/zzzz__CertificateStatus_def.hpp"
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Ocsp {
 class UnknownStatus;
@@ -12,7 +11,7 @@ namespace Org::BouncyCastle::Ocsp {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1626))
 // CS Name: Org.BouncyCastle.Ocsp.UnknownStatus
-class CORDL_TYPE UnknownStatus : public ::Org::BouncyCastle::Ocsp::CertificateStatus {
+class CORDL_TYPE UnknownStatus : public Org::BouncyCastle::Ocsp::CertificateStatus {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr UnknownStatus(UnknownStatus const& ) noexcept = default;
 constexpr UnknownStatus(UnknownStatus&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UnknownStatus(void* ptr) noexcept : ::Org::BouncyCastle::Ocsp::CertificateStatus(ptr) {
+constexpr explicit UnknownStatus(void* ptr) noexcept : Org::BouncyCastle::Ocsp::CertificateStatus(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Ocsp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Ocsp::UnknownStatus);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Ocsp::UnknownStatus, "Org.BouncyCastle.Ocsp", "UnknownStatus");
+NEED_NO_BOX(Org::BouncyCastle::Ocsp::UnknownStatus);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Ocsp::UnknownStatus, "Org.BouncyCastle.Ocsp", "UnknownStatus");

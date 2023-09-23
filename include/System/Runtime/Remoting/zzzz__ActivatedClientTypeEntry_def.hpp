@@ -3,12 +3,11 @@
 #include "System/Runtime/Remoting/zzzz__TypeEntry_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System {
-class Type;
-}
 namespace System::Runtime::Remoting::Contexts {
 class IContextAttribute;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {
@@ -20,7 +19,7 @@ namespace System::Runtime::Remoting {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3075))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3049))
 // CS Name: System.Runtime.Remoting.ActivatedClientTypeEntry
-class CORDL_TYPE ActivatedClientTypeEntry : public ::System::Runtime::Remoting::TypeEntry {
+class CORDL_TYPE ActivatedClientTypeEntry : public System::Runtime::Remoting::TypeEntry {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr ActivatedClientTypeEntry(ActivatedClientTypeEntry const& ) noexcept = 
 constexpr ActivatedClientTypeEntry(ActivatedClientTypeEntry&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ActivatedClientTypeEntry(void* ptr) noexcept : ::System::Runtime::Remoting::TypeEntry(ptr) {
+constexpr explicit ActivatedClientTypeEntry(void* ptr) noexcept : System::Runtime::Remoting::TypeEntry(ptr) {
 }
 
 
@@ -62,20 +61,20 @@ constexpr void __set_applicationUrl(::StringW value) ;
 
 constexpr ::StringW __get_applicationUrl() const;
 
- ::System::Type __declspec(property(get=__get_obj_type, put=__set_obj_type))  obj_type;
+ System::Type __declspec(property(get=__get_obj_type, put=__set_obj_type))  obj_type;
 
-constexpr void __set_obj_type(::System::Type value) ;
+constexpr void __set_obj_type(System::Type value) ;
 
-constexpr ::System::Type __get_obj_type() const;
+constexpr System::Type __get_obj_type() const;
 
 
 // Properties
 
  ::StringW __declspec(property(get=get_ApplicationUrl))  ApplicationUrl;
 
- ::ArrayW<::System::Runtime::Remoting::Contexts::IContextAttribute> __declspec(property(get=get_ContextAttributes))  ContextAttributes;
+ ::ArrayW<System::Runtime::Remoting::Contexts::IContextAttribute> __declspec(property(get=get_ContextAttributes))  ContextAttributes;
 
- ::System::Type __declspec(property(get=get_ObjectType))  ObjectType;
+ System::Type __declspec(property(get=get_ObjectType))  ObjectType;
 
 
 // Methods
@@ -90,10 +89,10 @@ explicit ActivatedClientTypeEntry(::StringW typeName, ::StringW assemblyName, ::
  ::StringW get_ApplicationUrl() ;
 
 /// @brief Method get_ContextAttributes addr 0x2319c98 size 0x8 virtual false final false
- ::ArrayW<::System::Runtime::Remoting::Contexts::IContextAttribute> get_ContextAttributes() ;
+ ::ArrayW<System::Runtime::Remoting::Contexts::IContextAttribute> get_ContextAttributes() ;
 
 /// @brief Method get_ObjectType addr 0x2319ca0 size 0x8 virtual false final false
- ::System::Type get_ObjectType() ;
+ System::Type get_ObjectType() ;
 
 /// @brief Method ToString addr 0x2319ca8 size 0x14 virtual true final false
  ::StringW ToString() ;
@@ -102,6 +101,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::ActivatedClientTypeEntry);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::ActivatedClientTypeEntry, "System.Runtime.Remoting", "ActivatedClientTypeEntry");
+NEED_NO_BOX(System::Runtime::Remoting::ActivatedClientTypeEntry);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ActivatedClientTypeEntry, "System.Runtime.Remoting", "ActivatedClientTypeEntry");

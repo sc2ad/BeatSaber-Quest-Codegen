@@ -4,41 +4,40 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace System::Collections {
-class IEnumerator;
-}
 namespace GlobalNamespace {
-class MainEffectController;
-}
-namespace UnityEngine {
-class RenderTexture;
-}
-namespace UnityEngine {
-class Texture2D;
-}
-namespace GlobalNamespace {
-class ScreenCaptureCache;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__ScreenCaptureCache__ScreenshotType;
-}
-namespace System {
-class IDisposable;
+struct GlobalNamespace__ScreenCaptureCache__ScreenshotType;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine {
+class RenderTexture;
+}
+namespace GlobalNamespace {
+class ScreenCaptureCache;
+}
+namespace GlobalNamespace {
+class MainEffectController;
+}
+namespace UnityEngine {
+class Texture2D;
+}
 // Forward declare root types
 namespace GlobalNamespace {
+class GlobalNamespace__ScreenCaptureAfterDelay__InitData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6;
+}
+namespace GlobalNamespace {
 class ScreenCaptureAfterDelay;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__ScreenCaptureAfterDelay__InitData;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6;
 }
 // Type: ::InitData
 namespace GlobalNamespace {
@@ -46,47 +45,47 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15324))
 // CS Name: ScreenCaptureAfterDelay::InitData
-class CORDL_TYPE ____GlobalNamespace__ScreenCaptureAfterDelay__InitData : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__ScreenCaptureAfterDelay__InitData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____GlobalNamespace__ScreenCaptureAfterDelay__InitData() = default;
+virtual ~GlobalNamespace__ScreenCaptureAfterDelay__InitData() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__ScreenCaptureAfterDelay__InitData", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__ScreenCaptureAfterDelay__InitData(____GlobalNamespace__ScreenCaptureAfterDelay__InitData const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__ScreenCaptureAfterDelay__InitData", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__ScreenCaptureAfterDelay__InitData(GlobalNamespace__ScreenCaptureAfterDelay__InitData const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__ScreenCaptureAfterDelay__InitData", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__ScreenCaptureAfterDelay__InitData(____GlobalNamespace__ScreenCaptureAfterDelay__InitData&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__ScreenCaptureAfterDelay__InitData", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__ScreenCaptureAfterDelay__InitData(GlobalNamespace__ScreenCaptureAfterDelay__InitData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__ScreenCaptureAfterDelay__InitData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__ScreenCaptureAfterDelay__InitData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__ScreenCaptureAfterDelay__InitData& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__ScreenCaptureAfterDelay__InitData& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__ScreenCaptureAfterDelay__InitData& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__ScreenCaptureAfterDelay__InitData& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__ScreenCaptureAfterDelay__InitData& operator=(____GlobalNamespace__ScreenCaptureAfterDelay__InitData&& o) noexcept = default;
-  constexpr ____GlobalNamespace__ScreenCaptureAfterDelay__InitData& operator=(____GlobalNamespace__ScreenCaptureAfterDelay__InitData const& o) noexcept = default;
+  constexpr GlobalNamespace__ScreenCaptureAfterDelay__InitData& operator=(GlobalNamespace__ScreenCaptureAfterDelay__InitData&& o) noexcept = default;
+  constexpr GlobalNamespace__ScreenCaptureAfterDelay__InitData& operator=(GlobalNamespace__ScreenCaptureAfterDelay__InitData const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::GlobalNamespace::____GlobalNamespace__ScreenCaptureCache__ScreenshotType __declspec(property(get=__get_screenshotType, put=__set_screenshotType))  screenshotType;
+ GlobalNamespace::GlobalNamespace__ScreenCaptureCache__ScreenshotType __declspec(property(get=__get_screenshotType, put=__set_screenshotType))  screenshotType;
 
-constexpr void __set_screenshotType(::GlobalNamespace::____GlobalNamespace__ScreenCaptureCache__ScreenshotType value) ;
+constexpr void __set_screenshotType(GlobalNamespace::GlobalNamespace__ScreenCaptureCache__ScreenshotType value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__ScreenCaptureCache__ScreenshotType __get_screenshotType() const;
+constexpr GlobalNamespace::GlobalNamespace__ScreenCaptureCache__ScreenshotType __get_screenshotType() const;
 
  float_t __declspec(property(get=__get_screenCaptureTime, put=__set_screenCaptureTime))  screenCaptureTime;
 
@@ -109,11 +108,11 @@ constexpr int32_t __get_pixelsHeight() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "screenshotType", ty: "::GlobalNamespace::____GlobalNamespace__ScreenCaptureCache__ScreenshotType", modifiers: "", def_value: None }, CppParam { name: "screenCaptureTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "pixelsWidth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "pixelsHeight", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__ScreenCaptureAfterDelay__InitData(::GlobalNamespace::____GlobalNamespace__ScreenCaptureCache__ScreenshotType screenshotType, float_t screenCaptureTime, int32_t pixelsWidth, int32_t pixelsHeight) ;
+// Ctor Parameters [CppParam { name: "screenshotType", ty: "GlobalNamespace::GlobalNamespace__ScreenCaptureCache__ScreenshotType", modifiers: "", def_value: None }, CppParam { name: "screenCaptureTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "pixelsWidth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "pixelsHeight", ty: "int32_t", modifiers: "", def_value: None }]
+explicit GlobalNamespace__ScreenCaptureAfterDelay__InitData(GlobalNamespace::GlobalNamespace__ScreenCaptureCache__ScreenshotType screenshotType, float_t screenCaptureTime, int32_t pixelsWidth, int32_t pixelsHeight) ;
 
 /// @brief Method .ctor addr 0x267a388 size 0x60 virtual false final false
- void _ctor(::GlobalNamespace::____GlobalNamespace__ScreenCaptureCache__ScreenshotType screenshotType, float_t screenCaptureTime, int32_t pixelsWidth, int32_t pixelsHeight) ;
+ void _ctor(GlobalNamespace::GlobalNamespace__ScreenCaptureCache__ScreenshotType screenshotType, float_t screenCaptureTime, int32_t pixelsWidth, int32_t pixelsHeight) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -125,46 +124,46 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15325))
 // CS Name: ScreenCaptureAfterDelay::<Start>d__6
-class CORDL_TYPE ____GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6() = default;
+virtual ~GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6(____GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6(GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6(____GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6(GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6& operator=(____GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6&& o) noexcept = default;
-  constexpr ____GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6& operator=(____GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6 const& o) noexcept = default;
+  constexpr GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6& operator=(GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6&& o) noexcept = default;
+  constexpr GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6& operator=(GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6 const& o) noexcept = default;
                 
 
 
@@ -182,11 +181,11 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::GlobalNamespace::ScreenCaptureAfterDelay __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::ScreenCaptureAfterDelay __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::ScreenCaptureAfterDelay value) ;
+constexpr void __set___4__this(GlobalNamespace::ScreenCaptureAfterDelay value) ;
 
-constexpr ::GlobalNamespace::ScreenCaptureAfterDelay __get___4__this() const;
+constexpr GlobalNamespace::ScreenCaptureAfterDelay __get___4__this() const;
 
 
 // Properties
@@ -199,7 +198,7 @@ constexpr ::GlobalNamespace::ScreenCaptureAfterDelay __get___4__this() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6(int32_t __1__state) ;
+explicit GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2679fbc size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -229,12 +228,12 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15326))
 // CS Name: ScreenCaptureAfterDelay
-class CORDL_TYPE ScreenCaptureAfterDelay : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ScreenCaptureAfterDelay : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using _Start_d__6 = ::GlobalNamespace::____GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6;
+using _Start_d__6 = GlobalNamespace::GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6;
 
-using InitData = ::GlobalNamespace::____GlobalNamespace__ScreenCaptureAfterDelay__InitData;
+using InitData = GlobalNamespace::GlobalNamespace__ScreenCaptureAfterDelay__InitData;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -248,7 +247,7 @@ constexpr ScreenCaptureAfterDelay(ScreenCaptureAfterDelay const& ) noexcept = de
 constexpr ScreenCaptureAfterDelay(ScreenCaptureAfterDelay&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ScreenCaptureAfterDelay(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ScreenCaptureAfterDelay(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -269,47 +268,47 @@ constexpr explicit ScreenCaptureAfterDelay(void* ptr) noexcept : ::UnityEngine::
 
 // Fields
 
- ::GlobalNamespace::MainEffectController __declspec(property(get=__get__mainEffectController, put=__set__mainEffectController))  _mainEffectController;
+ GlobalNamespace::MainEffectController __declspec(property(get=__get__mainEffectController, put=__set__mainEffectController))  _mainEffectController;
 
-constexpr void __set__mainEffectController(::GlobalNamespace::MainEffectController value) ;
+constexpr void __set__mainEffectController(GlobalNamespace::MainEffectController value) ;
 
-constexpr ::GlobalNamespace::MainEffectController __get__mainEffectController() const;
+constexpr GlobalNamespace::MainEffectController __get__mainEffectController() const;
 
- ::GlobalNamespace::ScreenCaptureCache __declspec(property(get=__get__screenCaptureCache, put=__set__screenCaptureCache))  _screenCaptureCache;
+ GlobalNamespace::ScreenCaptureCache __declspec(property(get=__get__screenCaptureCache, put=__set__screenCaptureCache))  _screenCaptureCache;
 
-constexpr void __set__screenCaptureCache(::GlobalNamespace::ScreenCaptureCache value) ;
+constexpr void __set__screenCaptureCache(GlobalNamespace::ScreenCaptureCache value) ;
 
-constexpr ::GlobalNamespace::ScreenCaptureCache __get__screenCaptureCache() const;
+constexpr GlobalNamespace::ScreenCaptureCache __get__screenCaptureCache() const;
 
- ::GlobalNamespace::____GlobalNamespace__ScreenCaptureAfterDelay__InitData __declspec(property(get=__get__initData, put=__set__initData))  _initData;
+ GlobalNamespace::GlobalNamespace__ScreenCaptureAfterDelay__InitData __declspec(property(get=__get__initData, put=__set__initData))  _initData;
 
-constexpr void __set__initData(::GlobalNamespace::____GlobalNamespace__ScreenCaptureAfterDelay__InitData value) ;
+constexpr void __set__initData(GlobalNamespace::GlobalNamespace__ScreenCaptureAfterDelay__InitData value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__ScreenCaptureAfterDelay__InitData __get__initData() const;
+constexpr GlobalNamespace::GlobalNamespace__ScreenCaptureAfterDelay__InitData __get__initData() const;
 
- ::UnityEngine::Texture2D __declspec(property(get=__get__captureTexture, put=__set__captureTexture))  _captureTexture;
+ UnityEngine::Texture2D __declspec(property(get=__get__captureTexture, put=__set__captureTexture))  _captureTexture;
 
-constexpr void __set__captureTexture(::UnityEngine::Texture2D value) ;
+constexpr void __set__captureTexture(UnityEngine::Texture2D value) ;
 
-constexpr ::UnityEngine::Texture2D __get__captureTexture() const;
+constexpr UnityEngine::Texture2D __get__captureTexture() const;
 
- ::UnityEngine::RenderTexture __declspec(property(get=__get__captureRenderTexture, put=__set__captureRenderTexture))  _captureRenderTexture;
+ UnityEngine::RenderTexture __declspec(property(get=__get__captureRenderTexture, put=__set__captureRenderTexture))  _captureRenderTexture;
 
-constexpr void __set__captureRenderTexture(::UnityEngine::RenderTexture value) ;
+constexpr void __set__captureRenderTexture(UnityEngine::RenderTexture value) ;
 
-constexpr ::UnityEngine::RenderTexture __get__captureRenderTexture() const;
+constexpr UnityEngine::RenderTexture __get__captureRenderTexture() const;
 
 
 // Methods
 
 /// @brief Method Start addr 0x2679f54 size 0x68 virtual false final false
- ::System::Collections::IEnumerator Start() ;
+ System::Collections::IEnumerator Start() ;
 
 /// @brief Method OnDestroy addr 0x2679fe4 size 0xe0 virtual false final false
  void OnDestroy() ;
 
 /// @brief Method HandleMainEffectControllerAfterImageEffectEvent addr 0x267a0c4 size 0x210 virtual false final false
- void HandleMainEffectControllerAfterImageEffectEvent(::UnityEngine::RenderTexture renderTexture) ;
+ void HandleMainEffectControllerAfterImageEffectEvent(UnityEngine::RenderTexture renderTexture) ;
 
 // Ctor Parameters []
 explicit ScreenCaptureAfterDelay() ;
@@ -321,10 +320,9 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ScreenCaptureAfterDelay);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ScreenCaptureAfterDelay, "", "ScreenCaptureAfterDelay");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__ScreenCaptureAfterDelay__InitData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__ScreenCaptureAfterDelay__InitData, "", "ScreenCaptureAfterDelay/InitData");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6, "", "ScreenCaptureAfterDelay/<Start>d__6");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__ScreenCaptureAfterDelay__InitData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__ScreenCaptureAfterDelay__InitData, "", "ScreenCaptureAfterDelay/InitData");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6, "", "ScreenCaptureAfterDelay/<Start>d__6");
+NEED_NO_BOX(GlobalNamespace::ScreenCaptureAfterDelay);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenCaptureAfterDelay, "", "ScreenCaptureAfterDelay");

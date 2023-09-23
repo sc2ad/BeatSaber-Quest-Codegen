@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__BaseTransitionSO_def.hpp"
 #include <cmath>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class CanvasGroupTransitionSO;
@@ -13,7 +12,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5545))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5547))
 // CS Name: CanvasGroupTransitionSO
-class CORDL_TYPE CanvasGroupTransitionSO : public ::GlobalNamespace::BaseTransitionSO {
+class CORDL_TYPE CanvasGroupTransitionSO : public GlobalNamespace::BaseTransitionSO {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr CanvasGroupTransitionSO(CanvasGroupTransitionSO const& ) noexcept = de
 constexpr CanvasGroupTransitionSO(CanvasGroupTransitionSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CanvasGroupTransitionSO(void* ptr) noexcept : ::GlobalNamespace::BaseTransitionSO(ptr) {
+constexpr explicit CanvasGroupTransitionSO(void* ptr) noexcept : GlobalNamespace::BaseTransitionSO(ptr) {
 }
 
 
@@ -131,6 +130,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::CanvasGroupTransitionSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CanvasGroupTransitionSO, "", "CanvasGroupTransitionSO");
+NEED_NO_BOX(GlobalNamespace::CanvasGroupTransitionSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CanvasGroupTransitionSO, "", "CanvasGroupTransitionSO");

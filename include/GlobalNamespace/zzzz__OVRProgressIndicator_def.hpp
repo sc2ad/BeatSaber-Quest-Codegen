@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 class MeshRenderer;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8945))
 // CS Name: OVRProgressIndicator
-class CORDL_TYPE OVRProgressIndicator : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE OVRProgressIndicator : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr OVRProgressIndicator(OVRProgressIndicator const& ) noexcept = default;
 constexpr OVRProgressIndicator(OVRProgressIndicator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OVRProgressIndicator(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit OVRProgressIndicator(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -52,11 +51,11 @@ constexpr explicit OVRProgressIndicator(void* ptr) noexcept : ::UnityEngine::Mon
 
 // Fields
 
- ::UnityEngine::MeshRenderer __declspec(property(get=__get_progressImage, put=__set_progressImage))  progressImage;
+ UnityEngine::MeshRenderer __declspec(property(get=__get_progressImage, put=__set_progressImage))  progressImage;
 
-constexpr void __set_progressImage(::UnityEngine::MeshRenderer value) ;
+constexpr void __set_progressImage(UnityEngine::MeshRenderer value) ;
 
-constexpr ::UnityEngine::MeshRenderer __get_progressImage() const;
+constexpr UnityEngine::MeshRenderer __get_progressImage() const;
 
  float_t __declspec(property(get=__get_currentProgress, put=__set_currentProgress))  currentProgress;
 
@@ -83,6 +82,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OVRProgressIndicator);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRProgressIndicator, "", "OVRProgressIndicator");
+NEED_NO_BOX(GlobalNamespace::OVRProgressIndicator);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRProgressIndicator, "", "OVRProgressIndicator");

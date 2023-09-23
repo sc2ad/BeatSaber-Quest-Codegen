@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Text {
 class Encoding;
 }
@@ -25,7 +24,7 @@ namespace System::IO {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3565))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3622))
 // CS Name: System.IO.CStreamReader
-class CORDL_TYPE CStreamReader : public ::System::IO::StreamReader {
+class CORDL_TYPE CStreamReader : public System::IO::StreamReader {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr CStreamReader(CStreamReader const& ) noexcept = default;
 constexpr CStreamReader(CStreamReader&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CStreamReader(void* ptr) noexcept : ::System::IO::StreamReader(ptr) {
+constexpr explicit CStreamReader(void* ptr) noexcept : System::IO::StreamReader(ptr) {
 }
 
 
@@ -61,20 +60,20 @@ constexpr explicit CStreamReader(void* ptr) noexcept : ::System::IO::StreamReade
 
 // Fields
 
- ::System::TermInfoDriver __declspec(property(get=__get_driver, put=__set_driver))  driver;
+ System::TermInfoDriver __declspec(property(get=__get_driver, put=__set_driver))  driver;
 
-constexpr void __set_driver(::System::TermInfoDriver value) ;
+constexpr void __set_driver(System::TermInfoDriver value) ;
 
-constexpr ::System::TermInfoDriver __get_driver() const;
+constexpr System::TermInfoDriver __get_driver() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "::System::Text::Encoding", modifiers: "", def_value: None }]
-explicit CStreamReader(::System::IO::Stream stream, ::System::Text::Encoding encoding) ;
+// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
+explicit CStreamReader(System::IO::Stream stream, System::Text::Encoding encoding) ;
 
 /// @brief Method .ctor addr 0x23d47d0 size 0x114 virtual false final false
- void _ctor(::System::IO::Stream stream, ::System::Text::Encoding encoding) ;
+ void _ctor(System::IO::Stream stream, System::Text::Encoding encoding) ;
 
 /// @brief Method Peek addr 0x23d48e4 size 0x88 virtual true final false
  int32_t Peek() ;
@@ -95,6 +94,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::IO
-} // end anonymous namespace
-NEED_NO_BOX(::System::IO::CStreamReader);
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::CStreamReader, "System.IO", "CStreamReader");
+NEED_NO_BOX(System::IO::CStreamReader);
+DEFINE_IL2CPP_ARG_TYPE(System::IO::CStreamReader, "System.IO", "CStreamReader");

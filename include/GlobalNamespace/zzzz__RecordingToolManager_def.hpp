@@ -2,24 +2,23 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace GlobalNamespace {
-class ____GlobalNamespace__ObjectsMovementRecorder__InitData;
+class RecordingToolSettings;
 }
 namespace GlobalNamespace {
-class IPosesSerializer;
+class GlobalNamespace__ObjectsMovementRecorder__InitData;
 }
 namespace GlobalNamespace {
 class MenuDestination;
 }
 namespace GlobalNamespace {
-class ProgramArguments;
-}
-namespace GlobalNamespace {
-class RecordingToolSettings;
-}
-namespace GlobalNamespace {
 class ListLogger;
+}
+namespace GlobalNamespace {
+class IBeatSaberLogger;
+}
+namespace GlobalNamespace {
+class ProgramArguments;
 }
 namespace GlobalNamespace {
 class RecordingToolResourceContainerSO;
@@ -28,7 +27,7 @@ namespace GlobalNamespace {
 class BeatmapCharacteristicCollection;
 }
 namespace GlobalNamespace {
-class IBeatSaberLogger;
+class IPosesSerializer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -91,41 +90,41 @@ constexpr void __set__configJsonData(::StringW value) ;
 
 constexpr ::StringW __get__configJsonData() const;
 
- ::GlobalNamespace::RecordingToolSettings __declspec(property(get=__get__recordingToolSettings, put=__set__recordingToolSettings))  _recordingToolSettings;
+ GlobalNamespace::RecordingToolSettings __declspec(property(get=__get__recordingToolSettings, put=__set__recordingToolSettings))  _recordingToolSettings;
 
-constexpr void __set__recordingToolSettings(::GlobalNamespace::RecordingToolSettings value) ;
+constexpr void __set__recordingToolSettings(GlobalNamespace::RecordingToolSettings value) ;
 
-constexpr ::GlobalNamespace::RecordingToolSettings __get__recordingToolSettings() const;
+constexpr GlobalNamespace::RecordingToolSettings __get__recordingToolSettings() const;
 
- ::GlobalNamespace::____GlobalNamespace__ObjectsMovementRecorder__InitData __declspec(property(get=__get__objectsMovementRecorderInitData, put=__set__objectsMovementRecorderInitData))  _objectsMovementRecorderInitData;
+ GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__InitData __declspec(property(get=__get__objectsMovementRecorderInitData, put=__set__objectsMovementRecorderInitData))  _objectsMovementRecorderInitData;
 
-constexpr void __set__objectsMovementRecorderInitData(::GlobalNamespace::____GlobalNamespace__ObjectsMovementRecorder__InitData value) ;
+constexpr void __set__objectsMovementRecorderInitData(GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__InitData value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__ObjectsMovementRecorder__InitData __get__objectsMovementRecorderInitData() const;
+constexpr GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__InitData __get__objectsMovementRecorderInitData() const;
 
- ::GlobalNamespace::MenuDestination __declspec(property(get=__get__menuDestination, put=__set__menuDestination))  _menuDestination;
+ GlobalNamespace::MenuDestination __declspec(property(get=__get__menuDestination, put=__set__menuDestination))  _menuDestination;
 
-constexpr void __set__menuDestination(::GlobalNamespace::MenuDestination value) ;
+constexpr void __set__menuDestination(GlobalNamespace::MenuDestination value) ;
 
-constexpr ::GlobalNamespace::MenuDestination __get__menuDestination() const;
+constexpr GlobalNamespace::MenuDestination __get__menuDestination() const;
 
- ::GlobalNamespace::ListLogger __declspec(property(get=__get__listLogger, put=__set__listLogger))  _listLogger;
+ GlobalNamespace::ListLogger __declspec(property(get=__get__listLogger, put=__set__listLogger))  _listLogger;
 
-constexpr void __set__listLogger(::GlobalNamespace::ListLogger value) ;
+constexpr void __set__listLogger(GlobalNamespace::ListLogger value) ;
 
-constexpr ::GlobalNamespace::ListLogger __get__listLogger() const;
+constexpr GlobalNamespace::ListLogger __get__listLogger() const;
 
- ::GlobalNamespace::IBeatSaberLogger __declspec(property(get=__get__logger, put=__set__logger))  _logger;
+ GlobalNamespace::IBeatSaberLogger __declspec(property(get=__get__logger, put=__set__logger))  _logger;
 
-constexpr void __set__logger(::GlobalNamespace::IBeatSaberLogger value) ;
+constexpr void __set__logger(GlobalNamespace::IBeatSaberLogger value) ;
 
-constexpr ::GlobalNamespace::IBeatSaberLogger __get__logger() const;
+constexpr GlobalNamespace::IBeatSaberLogger __get__logger() const;
 
- ::GlobalNamespace::IPosesSerializer __declspec(property(get=__get__posesSerializer, put=__set__posesSerializer))  _posesSerializer;
+ GlobalNamespace::IPosesSerializer __declspec(property(get=__get__posesSerializer, put=__set__posesSerializer))  _posesSerializer;
 
-constexpr void __set__posesSerializer(::GlobalNamespace::IPosesSerializer value) ;
+constexpr void __set__posesSerializer(GlobalNamespace::IPosesSerializer value) ;
 
-constexpr ::GlobalNamespace::IPosesSerializer __get__posesSerializer() const;
+constexpr GlobalNamespace::IPosesSerializer __get__posesSerializer() const;
 
 
 // Properties
@@ -136,17 +135,17 @@ constexpr ::GlobalNamespace::IPosesSerializer __get__posesSerializer() const;
 
  ::StringW __declspec(property(get=get_configJsonData))  configJsonData;
 
- ::GlobalNamespace::RecordingToolSettings __declspec(property(get=get_recordingToolSettings))  recordingToolSettings;
+ GlobalNamespace::RecordingToolSettings __declspec(property(get=get_recordingToolSettings))  recordingToolSettings;
 
- ::GlobalNamespace::____GlobalNamespace__ObjectsMovementRecorder__InitData __declspec(property(get=get_objectsMovementRecorderInitData))  objectsMovementRecorderInitData;
+ GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__InitData __declspec(property(get=get_objectsMovementRecorderInitData))  objectsMovementRecorderInitData;
 
- ::GlobalNamespace::MenuDestination __declspec(property(get=get_menuDestination))  menuDestination;
+ GlobalNamespace::MenuDestination __declspec(property(get=get_menuDestination))  menuDestination;
 
- ::GlobalNamespace::ListLogger __declspec(property(get=get_listLogger))  listLogger;
+ GlobalNamespace::ListLogger __declspec(property(get=get_listLogger))  listLogger;
 
- ::GlobalNamespace::IBeatSaberLogger __declspec(property(get=get_logger))  logger;
+ GlobalNamespace::IBeatSaberLogger __declspec(property(get=get_logger))  logger;
 
- ::GlobalNamespace::IPosesSerializer __declspec(property(get=get_posesSerializer))  posesSerializer;
+ GlobalNamespace::IPosesSerializer __declspec(property(get=get_posesSerializer))  posesSerializer;
 
 
 // Methods
@@ -161,33 +160,32 @@ constexpr ::GlobalNamespace::IPosesSerializer __get__posesSerializer() const;
  ::StringW get_configJsonData() ;
 
 /// @brief Method get_recordingToolSettings addr 0x21abf68 size 0x8 virtual false final false
- ::GlobalNamespace::RecordingToolSettings get_recordingToolSettings() ;
+ GlobalNamespace::RecordingToolSettings get_recordingToolSettings() ;
 
 /// @brief Method get_objectsMovementRecorderInitData addr 0x21abf70 size 0x8 virtual false final false
- ::GlobalNamespace::____GlobalNamespace__ObjectsMovementRecorder__InitData get_objectsMovementRecorderInitData() ;
+ GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__InitData get_objectsMovementRecorderInitData() ;
 
 /// @brief Method get_menuDestination addr 0x21abf78 size 0x8 virtual false final false
- ::GlobalNamespace::MenuDestination get_menuDestination() ;
+ GlobalNamespace::MenuDestination get_menuDestination() ;
 
 /// @brief Method get_listLogger addr 0x21abf80 size 0x8 virtual false final false
- ::GlobalNamespace::ListLogger get_listLogger() ;
+ GlobalNamespace::ListLogger get_listLogger() ;
 
 /// @brief Method get_logger addr 0x21abf88 size 0x8 virtual false final false
- ::GlobalNamespace::IBeatSaberLogger get_logger() ;
+ GlobalNamespace::IBeatSaberLogger get_logger() ;
 
 /// @brief Method get_posesSerializer addr 0x21abf90 size 0x8 virtual false final false
- ::GlobalNamespace::IPosesSerializer get_posesSerializer() ;
+ GlobalNamespace::IPosesSerializer get_posesSerializer() ;
 
-// Ctor Parameters [CppParam { name: "programArguments", ty: "::GlobalNamespace::ProgramArguments", modifiers: "", def_value: None }, CppParam { name: "resourceContainer", ty: "::GlobalNamespace::RecordingToolResourceContainerSO", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristicCollection", ty: "::GlobalNamespace::BeatmapCharacteristicCollection", modifiers: "", def_value: None }]
-explicit RecordingToolManager(::GlobalNamespace::ProgramArguments programArguments, ::GlobalNamespace::RecordingToolResourceContainerSO resourceContainer, ::GlobalNamespace::BeatmapCharacteristicCollection beatmapCharacteristicCollection) ;
+// Ctor Parameters [CppParam { name: "programArguments", ty: "GlobalNamespace::ProgramArguments", modifiers: "", def_value: None }, CppParam { name: "resourceContainer", ty: "GlobalNamespace::RecordingToolResourceContainerSO", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristicCollection", ty: "GlobalNamespace::BeatmapCharacteristicCollection", modifiers: "", def_value: None }]
+explicit RecordingToolManager(GlobalNamespace::ProgramArguments programArguments, GlobalNamespace::RecordingToolResourceContainerSO resourceContainer, GlobalNamespace::BeatmapCharacteristicCollection beatmapCharacteristicCollection) ;
 
 /// @brief Method .ctor addr 0x21abc90 size 0x2b8 virtual false final false
- void _ctor(::GlobalNamespace::ProgramArguments programArguments, ::GlobalNamespace::RecordingToolResourceContainerSO resourceContainer, ::GlobalNamespace::BeatmapCharacteristicCollection beatmapCharacteristicCollection) ;
+ void _ctor(GlobalNamespace::ProgramArguments programArguments, GlobalNamespace::RecordingToolResourceContainerSO resourceContainer, GlobalNamespace::BeatmapCharacteristicCollection beatmapCharacteristicCollection) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::RecordingToolManager);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RecordingToolManager, "", "RecordingToolManager");
+NEED_NO_BOX(GlobalNamespace::RecordingToolManager);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RecordingToolManager, "", "RecordingToolManager");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UI/zzzz__MaskableGraphic_def.hpp"
-namespace {
 namespace UnityEngine {
 struct Rect;
 }
@@ -15,7 +14,7 @@ namespace TMPro {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13038))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12355))
 // CS Name: TMPro.TMP_SelectionCaret
-class CORDL_TYPE TMP_SelectionCaret : public ::UnityEngine::UI::MaskableGraphic {
+class CORDL_TYPE TMP_SelectionCaret : public UnityEngine::UI::MaskableGraphic {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr TMP_SelectionCaret(TMP_SelectionCaret const& ) noexcept = default;
 constexpr TMP_SelectionCaret(TMP_SelectionCaret&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TMP_SelectionCaret(void* ptr) noexcept : ::UnityEngine::UI::MaskableGraphic(ptr) {
+constexpr explicit TMP_SelectionCaret(void* ptr) noexcept : UnityEngine::UI::MaskableGraphic(ptr) {
 }
 
 
@@ -52,7 +51,7 @@ constexpr explicit TMP_SelectionCaret(void* ptr) noexcept : ::UnityEngine::UI::M
 // Methods
 
 /// @brief Method Cull addr 0x2aa8178 size 0xd0 virtual true final false
- void Cull(::UnityEngine::Rect clipRect, bool validRect) ;
+ void Cull(UnityEngine::Rect clipRect, bool validRect) ;
 
 /// @brief Method UpdateGeometry addr 0x2aa8248 size 0x4 virtual true final false
  void UpdateGeometry() ;
@@ -67,6 +66,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-NEED_NO_BOX(::TMPro::TMP_SelectionCaret);
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_SelectionCaret, "TMPro", "TMP_SelectionCaret");
+NEED_NO_BOX(TMPro::TMP_SelectionCaret);
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SelectionCaret, "TMPro", "TMP_SelectionCaret");

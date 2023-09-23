@@ -3,19 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System::Collections {
-class IEnumerator;
-}
-namespace Newtonsoft::Json::Linq {
-class JToken;
-}
 namespace System::Collections {
 class IEnumerable;
 }
 namespace Newtonsoft::Json::Linq {
-template<typename T>
-class IJEnumerable_1;
+class JToken;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -24,6 +16,13 @@ class IEnumerable_1;
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
+}
+namespace Newtonsoft::Json::Linq {
+template<typename T>
+class IJEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {
@@ -46,17 +45,17 @@ template<::cordl_internals::il2cpp_reference_type T>
 struct CORDL_TYPE JEnumerable_1<T> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::Newtonsoft::Json::Linq::IJEnumerable_1<T>
-constexpr operator  ::Newtonsoft::Json::Linq::IJEnumerable_1<T>() const;
+/// @brief Convert operator to Newtonsoft::Json::Linq::IJEnumerable_1<T>
+constexpr operator  Newtonsoft::Json::Linq::IJEnumerable_1<T>() const;
 
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerable_1<T>
-constexpr operator  ::System::Collections::Generic::IEnumerable_1<T>() const;
+/// @brief Convert operator to System::Collections::Generic::IEnumerable_1<T>
+constexpr operator  System::Collections::Generic::IEnumerable_1<T>() const;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const;
 
-// Ctor Parameters [CppParam { name: "_enumerable", ty: "::System::Collections::Generic::IEnumerable_1<T>", modifiers: "", def_value: None }]
-constexpr JEnumerable_1(::System::Collections::Generic::IEnumerable_1<T> _enumerable) noexcept;
+// Ctor Parameters [CppParam { name: "_enumerable", ty: "System::Collections::Generic::IEnumerable_1<T>", modifiers: "", def_value: None }]
+constexpr JEnumerable_1(System::Collections::Generic::IEnumerable_1<T> _enumerable) noexcept;
 
 
                     constexpr JEnumerable_1(JEnumerable_1 const&) = default;
@@ -89,40 +88,40 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
-static ::Newtonsoft::Json::Linq::JEnumerable_1<T> __declspec(property(get=__get_Empty, put=__set_Empty))  Empty;
+static Newtonsoft::Json::Linq::JEnumerable_1<T> __declspec(property(get=__get_Empty, put=__set_Empty))  Empty;
 
-static void __set_Empty(::Newtonsoft::Json::Linq::JEnumerable_1<T> value) ;
+static void __set_Empty(Newtonsoft::Json::Linq::JEnumerable_1<T> value) ;
 
-static ::Newtonsoft::Json::Linq::JEnumerable_1<T> __get_Empty() ;
+static Newtonsoft::Json::Linq::JEnumerable_1<T> __get_Empty() ;
 
- ::System::Collections::Generic::IEnumerable_1<T> __declspec(property(get=__get__enumerable, put=__set__enumerable))  _enumerable;
+ System::Collections::Generic::IEnumerable_1<T> __declspec(property(get=__get__enumerable, put=__set__enumerable))  _enumerable;
 
-constexpr void __set__enumerable(::System::Collections::Generic::IEnumerable_1<T> value) ;
+constexpr void __set__enumerable(System::Collections::Generic::IEnumerable_1<T> value) ;
 
-constexpr ::System::Collections::Generic::IEnumerable_1<T> __get__enumerable() const;
+constexpr System::Collections::Generic::IEnumerable_1<T> __get__enumerable() const;
 
 
 // Properties
 
- ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken> __declspec(property(get=get_Item))  Item;
+ Newtonsoft::Json::Linq::IJEnumerable_1<Newtonsoft::Json::Linq::JToken> __declspec(property(get=get_Item))  Item;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Collections::Generic::IEnumerable_1<T> enumerable) ;
+ void _ctor(System::Collections::Generic::IEnumerable_1<T> enumerable) ;
 
 /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Collections::Generic::IEnumerator_1<T> GetEnumerator() ;
+ System::Collections::Generic::IEnumerator_1<T> GetEnumerator() ;
 
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
+ System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
 /// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual true final true
- ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken> get_Item(::bs_hook::Il2CppWrapperType key) ;
+ Newtonsoft::Json::Linq::IJEnumerable_1<Newtonsoft::Json::Linq::JToken> get_Item(::bs_hook::Il2CppWrapperType key) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual false final false
- bool Equals(::Newtonsoft::Json::Linq::JEnumerable_1<T> other) ;
+ bool Equals(Newtonsoft::Json::Linq::JEnumerable_1<T> other) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -134,5 +133,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Linq
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::Newtonsoft::Json::Linq::JEnumerable_1, "Newtonsoft.Json.Linq", "JEnumerable`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(Newtonsoft::Json::Linq::JEnumerable_1, "Newtonsoft.Json.Linq", "JEnumerable`1");

@@ -6,24 +6,21 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine::Networking {
-class DownloadHandlerAssetBundle;
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct DownloadStatus;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace UnityEngine {
+class AssetBundleRequest;
+}
+namespace UnityEngine {
+class AssetBundle;
 }
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct ProvideHandle;
-}
-namespace UnityEngine::ResourceManagement {
-class IUpdateReceiver;
-}
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
-}
-namespace UnityEngine::Networking {
-class UnityWebRequest;
 }
 namespace UnityEngine {
 class AsyncOperation;
@@ -31,31 +28,33 @@ class AsyncOperation;
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 class IAssetBundleResource;
 }
-namespace UnityEngine::Networking {
-class UnityWebRequestAsyncOperation;
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct ProvideHandle;
 }
 namespace UnityEngine::ResourceManagement {
 class WebRequestQueueOperation;
 }
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace UnityEngine {
-class AssetBundle;
-}
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 class AssetBundleRequestOptions;
 }
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct DownloadStatus;
+namespace UnityEngine::Networking {
+class UnityWebRequestAsyncOperation;
 }
-namespace UnityEngine {
-class AssetBundleRequest;
+namespace UnityEngine::Networking {
+class DownloadHandlerAssetBundle;
+}
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
+}
+namespace UnityEngine::Networking {
+class UnityWebRequest;
+}
+namespace UnityEngine::ResourceManagement {
+class IUpdateReceiver;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct ____UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType;
+struct UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 class AssetBundleResource;
@@ -66,20 +65,20 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14273))
 // CS Name: UnityEngine.ResourceManagement.ResourceProviders.AssetBundleResource::LoadType
-struct CORDL_TYPE ____UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType(int32_t value__) noexcept;
+constexpr UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType(____UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType const&) = default;
-                    constexpr ____UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType(____UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType&&) = default;
-                    constexpr ____UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType& operator=(____UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType const& o) {
+                    constexpr UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType(UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType const&) = default;
+                    constexpr UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType(UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType&&) = default;
+                    constexpr UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType& operator=(UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType& operator=(____UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType&& o) noexcept {
+                    constexpr UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType& operator=(UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -92,7 +91,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -100,15 +99,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType_Unwrapped : int32_t {
+enum class __UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType_Unwrapped : int32_t {
 __None = 0,
 __Local = 1,
 __Web = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType_Unwrapped>(__instance);
+constexpr operator __UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType_Unwrapped>(__instance);
 }
 
 
@@ -121,13 +120,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::ResourceManagement::ResourceProviders::____UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType const None;
+static UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType const None;
 
 /// @brief Field Local offset 0
-static ::UnityEngine::ResourceManagement::ResourceProviders::____UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType const Local;
+static UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType const Local;
 
 /// @brief Field Web offset 0
-static ::UnityEngine::ResourceManagement::ResourceProviders::____UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType const Web;
+static UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType const Web;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -142,13 +141,13 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
 class CORDL_TYPE AssetBundleResource : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using LoadType = ::UnityEngine::ResourceManagement::ResourceProviders::____UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType;
+using LoadType = UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType;
 
-/// @brief Convert operator to ::UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource
-constexpr operator  ::UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource() const noexcept;
+/// @brief Convert operator to UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource
+constexpr operator  UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::ResourceManagement::IUpdateReceiver
-constexpr operator  ::UnityEngine::ResourceManagement::IUpdateReceiver() const noexcept;
+/// @brief Convert operator to UnityEngine::ResourceManagement::IUpdateReceiver
+constexpr operator  UnityEngine::ResourceManagement::IUpdateReceiver() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x98};
@@ -183,41 +182,41 @@ constexpr explicit AssetBundleResource(void* ptr) noexcept : ::bs_hook::Il2CppWr
 
 // Fields
 
- ::UnityEngine::AssetBundle __declspec(property(get=__get_m_AssetBundle, put=__set_m_AssetBundle))  m_AssetBundle;
+ UnityEngine::AssetBundle __declspec(property(get=__get_m_AssetBundle, put=__set_m_AssetBundle))  m_AssetBundle;
 
-constexpr void __set_m_AssetBundle(::UnityEngine::AssetBundle value) ;
+constexpr void __set_m_AssetBundle(UnityEngine::AssetBundle value) ;
 
-constexpr ::UnityEngine::AssetBundle __get_m_AssetBundle() const;
+constexpr UnityEngine::AssetBundle __get_m_AssetBundle() const;
 
- ::UnityEngine::Networking::DownloadHandlerAssetBundle __declspec(property(get=__get_m_downloadHandler, put=__set_m_downloadHandler))  m_downloadHandler;
+ UnityEngine::Networking::DownloadHandlerAssetBundle __declspec(property(get=__get_m_downloadHandler, put=__set_m_downloadHandler))  m_downloadHandler;
 
-constexpr void __set_m_downloadHandler(::UnityEngine::Networking::DownloadHandlerAssetBundle value) ;
+constexpr void __set_m_downloadHandler(UnityEngine::Networking::DownloadHandlerAssetBundle value) ;
 
-constexpr ::UnityEngine::Networking::DownloadHandlerAssetBundle __get_m_downloadHandler() const;
+constexpr UnityEngine::Networking::DownloadHandlerAssetBundle __get_m_downloadHandler() const;
 
- ::UnityEngine::AsyncOperation __declspec(property(get=__get_m_RequestOperation, put=__set_m_RequestOperation))  m_RequestOperation;
+ UnityEngine::AsyncOperation __declspec(property(get=__get_m_RequestOperation, put=__set_m_RequestOperation))  m_RequestOperation;
 
-constexpr void __set_m_RequestOperation(::UnityEngine::AsyncOperation value) ;
+constexpr void __set_m_RequestOperation(UnityEngine::AsyncOperation value) ;
 
-constexpr ::UnityEngine::AsyncOperation __get_m_RequestOperation() const;
+constexpr UnityEngine::AsyncOperation __get_m_RequestOperation() const;
 
- ::UnityEngine::ResourceManagement::WebRequestQueueOperation __declspec(property(get=__get_m_WebRequestQueueOperation, put=__set_m_WebRequestQueueOperation))  m_WebRequestQueueOperation;
+ UnityEngine::ResourceManagement::WebRequestQueueOperation __declspec(property(get=__get_m_WebRequestQueueOperation, put=__set_m_WebRequestQueueOperation))  m_WebRequestQueueOperation;
 
-constexpr void __set_m_WebRequestQueueOperation(::UnityEngine::ResourceManagement::WebRequestQueueOperation value) ;
+constexpr void __set_m_WebRequestQueueOperation(UnityEngine::ResourceManagement::WebRequestQueueOperation value) ;
 
-constexpr ::UnityEngine::ResourceManagement::WebRequestQueueOperation __get_m_WebRequestQueueOperation() const;
+constexpr UnityEngine::ResourceManagement::WebRequestQueueOperation __get_m_WebRequestQueueOperation() const;
 
- ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle __declspec(property(get=__get_m_ProvideHandle, put=__set_m_ProvideHandle))  m_ProvideHandle;
+ UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle __declspec(property(get=__get_m_ProvideHandle, put=__set_m_ProvideHandle))  m_ProvideHandle;
 
-constexpr void __set_m_ProvideHandle(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle value) ;
+constexpr void __set_m_ProvideHandle(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle value) ;
 
-constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle __get_m_ProvideHandle() const;
+constexpr UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle __get_m_ProvideHandle() const;
 
- ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions __declspec(property(get=__get_m_Options, put=__set_m_Options))  m_Options;
+ UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions __declspec(property(get=__get_m_Options, put=__set_m_Options))  m_Options;
 
-constexpr void __set_m_Options(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions value) ;
+constexpr void __set_m_Options(UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions value) ;
 
-constexpr ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions __get_m_Options() const;
+constexpr UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions __get_m_Options() const;
 
  bool __declspec(property(get=__get_m_WebRequestCompletedCallbackCalled, put=__set_m_WebRequestCompletedCallbackCalled))  m_WebRequestCompletedCallbackCalled;
 
@@ -258,11 +257,11 @@ constexpr void __set_m_TransformedInternalId(::StringW value) ;
 
 constexpr ::StringW __get_m_TransformedInternalId() const;
 
- ::UnityEngine::AssetBundleRequest __declspec(property(get=__get_m_PreloadRequest, put=__set_m_PreloadRequest))  m_PreloadRequest;
+ UnityEngine::AssetBundleRequest __declspec(property(get=__get_m_PreloadRequest, put=__set_m_PreloadRequest))  m_PreloadRequest;
 
-constexpr void __set_m_PreloadRequest(::UnityEngine::AssetBundleRequest value) ;
+constexpr void __set_m_PreloadRequest(UnityEngine::AssetBundleRequest value) ;
 
-constexpr ::UnityEngine::AssetBundleRequest __get_m_PreloadRequest() const;
+constexpr UnityEngine::AssetBundleRequest __get_m_PreloadRequest() const;
 
  bool __declspec(property(get=__get_m_PreloadCompleted, put=__set_m_PreloadCompleted))  m_PreloadCompleted;
 
@@ -305,55 +304,55 @@ constexpr int32_t __get_m_TimeoutOverFrames() const;
  int64_t get_BytesToDownload() ;
 
 /// @brief Method CreateWebRequest addr 0x2a3c2c0 size 0x28 virtual false final false
- ::UnityEngine::Networking::UnityWebRequest CreateWebRequest(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation loc) ;
+ UnityEngine::Networking::UnityWebRequest CreateWebRequest(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation loc) ;
 
 /// @brief Method CreateWebRequest addr 0x2a3c2e8 size 0x1bc virtual false final false
- ::UnityEngine::Networking::UnityWebRequest CreateWebRequest(::StringW url) ;
+ UnityEngine::Networking::UnityWebRequest CreateWebRequest(::StringW url) ;
 
 /// @brief Method GetAssetPreloadRequest addr 0x2a3c4a4 size 0x124 virtual false final false
- ::UnityEngine::AssetBundleRequest GetAssetPreloadRequest() ;
+ UnityEngine::AssetBundleRequest GetAssetPreloadRequest() ;
 
 /// @brief Method PercentComplete addr 0x2a3c6c0 size 0x18 virtual false final false
  float_t PercentComplete() ;
 
 /// @brief Method GetDownloadStatus addr 0x2a3c6d8 size 0x150 virtual false final false
- ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus() ;
+ UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus() ;
 
 /// @brief Method GetAssetBundle addr 0x2a3c5c8 size 0xf8 virtual true final true
- ::UnityEngine::AssetBundle GetAssetBundle() ;
+ UnityEngine::AssetBundle GetAssetBundle() ;
 
 /// @brief Method Start addr 0x2a3c828 size 0x238 virtual false final false
- void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle) ;
+ void Start(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle) ;
 
 /// @brief Method WaitForCompletionHandler addr 0x2a3cff4 size 0x240 virtual false final false
  bool WaitForCompletionHandler() ;
 
 /// @brief Method AddCallbackInvokeIfDone addr 0x2a3d824 size 0x60 virtual false final false
- void AddCallbackInvokeIfDone(::UnityEngine::AsyncOperation operation, ::System::Action_1<::UnityEngine::AsyncOperation> callback) ;
+ void AddCallbackInvokeIfDone(UnityEngine::AsyncOperation operation, System::Action_1<UnityEngine::AsyncOperation> callback) ;
 
 /// @brief Method GetLoadInfo addr 0x2a3d884 size 0x30 virtual false final false
-static void GetLoadInfo(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle handle, ByRef<::UnityEngine::ResourceManagement::ResourceProviders::____UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType> loadType, ByRef<::StringW> path) ;
+static void GetLoadInfo(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle handle, ByRef<UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType> loadType, ByRef<::StringW> path) ;
 
 /// @brief Method GetLoadInfo addr 0x2a3d8b4 size 0x1f4 virtual false final false
-static void GetLoadInfo(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location, ::UnityEngine::ResourceManagement::ResourceManager resourceManager, ByRef<::UnityEngine::ResourceManagement::ResourceProviders::____UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType> loadType, ByRef<::StringW> path) ;
+static void GetLoadInfo(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location, UnityEngine::ResourceManagement::ResourceManager resourceManager, ByRef<UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType> loadType, ByRef<::StringW> path) ;
 
 /// @brief Method BeginOperation addr 0x2a3cc7c size 0x378 virtual false final false
  void BeginOperation() ;
 
 /// @brief Method BeginWebRequestOperation addr 0x2a3daa8 size 0xec virtual false final false
- void BeginWebRequestOperation(::UnityEngine::AsyncOperation asyncOp) ;
+ void BeginWebRequestOperation(UnityEngine::AsyncOperation asyncOp) ;
 
 /// @brief Method Update addr 0x2a3db94 size 0x120 virtual true final true
  void Update(float_t unscaledDeltaTime) ;
 
 /// @brief Method LocalRequestOperationCompleted addr 0x2a3dcb4 size 0x8c virtual false final false
- void LocalRequestOperationCompleted(::UnityEngine::AsyncOperation op) ;
+ void LocalRequestOperationCompleted(UnityEngine::AsyncOperation op) ;
 
 /// @brief Method CompleteBundleLoad addr 0x2a3dd40 size 0x13c virtual false final false
- void CompleteBundleLoad(::UnityEngine::AssetBundle bundle) ;
+ void CompleteBundleLoad(UnityEngine::AssetBundle bundle) ;
 
 /// @brief Method WebRequestOperationCompleted addr 0x2a3d234 size 0x5f0 virtual false final false
- void WebRequestOperationCompleted(::UnityEngine::AsyncOperation op) ;
+ void WebRequestOperationCompleted(UnityEngine::AsyncOperation op) ;
 
 /// @brief Method Unload addr 0x2a3de7c size 0xa0 virtual false final false
  void Unload() ;
@@ -365,16 +364,15 @@ explicit AssetBundleResource() ;
  void _ctor() ;
 
 /// @brief Method <GetAssetPreloadRequest>b__25_0 addr 0x2a3df24 size 0xc virtual false final false
- void _GetAssetPreloadRequest_b__25_0(::UnityEngine::AsyncOperation operation) ;
+ void _GetAssetPreloadRequest_b__25_0(UnityEngine::AsyncOperation operation) ;
 
 /// @brief Method <BeginOperation>b__34_0 addr 0x2a3df30 size 0x4 virtual false final false
- void _BeginOperation_b__34_0(::UnityEngine::Networking::UnityWebRequestAsyncOperation asyncOp) ;
+ void _BeginOperation_b__34_0(UnityEngine::Networking::UnityWebRequestAsyncOperation asyncOp) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ResourceManagement::ResourceProviders
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceProviders::____UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType, "UnityEngine.ResourceManagement.ResourceProviders", "AssetBundleResource/LoadType");
-NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource, "UnityEngine.ResourceManagement.ResourceProviders", "AssetBundleResource");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType, "UnityEngine.ResourceManagement.ResourceProviders", "AssetBundleResource/LoadType");
+NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource, "UnityEngine.ResourceManagement.ResourceProviders", "AssetBundleResource");

@@ -4,27 +4,26 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Tsp {
-class GenTimeAccuracy;
-}
-namespace System {
-struct DateTime;
-}
 namespace Org::BouncyCastle::Asn1::Tsp {
 class Accuracy;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralName;
+namespace System {
+struct DateTime;
+}
+namespace Org::BouncyCastle::Asn1::Tsp {
+class TstInfo;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Asn1::Tsp {
-class TstInfo;
+namespace Org::BouncyCastle::Tsp {
+class GenTimeAccuracy;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class GeneralName;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Tsp {
@@ -72,78 +71,78 @@ constexpr explicit TimeStampTokenInfo(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Fields
 
- ::Org::BouncyCastle::Asn1::Tsp::TstInfo __declspec(property(get=__get_tstInfo, put=__set_tstInfo))  tstInfo;
+ Org::BouncyCastle::Asn1::Tsp::TstInfo __declspec(property(get=__get_tstInfo, put=__set_tstInfo))  tstInfo;
 
-constexpr void __set_tstInfo(::Org::BouncyCastle::Asn1::Tsp::TstInfo value) ;
+constexpr void __set_tstInfo(Org::BouncyCastle::Asn1::Tsp::TstInfo value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::Tsp::TstInfo __get_tstInfo() const;
+constexpr Org::BouncyCastle::Asn1::Tsp::TstInfo __get_tstInfo() const;
 
- ::System::DateTime __declspec(property(get=__get_genTime, put=__set_genTime))  genTime;
+ System::DateTime __declspec(property(get=__get_genTime, put=__set_genTime))  genTime;
 
-constexpr void __set_genTime(::System::DateTime value) ;
+constexpr void __set_genTime(System::DateTime value) ;
 
-constexpr ::System::DateTime __get_genTime() const;
+constexpr System::DateTime __get_genTime() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_IsOrdered))  IsOrdered;
 
- ::Org::BouncyCastle::Asn1::Tsp::Accuracy __declspec(property(get=get_Accuracy))  Accuracy;
+ Org::BouncyCastle::Asn1::Tsp::Accuracy __declspec(property(get=get_Accuracy))  Accuracy;
 
- ::System::DateTime __declspec(property(get=get_GenTime))  GenTime;
+ System::DateTime __declspec(property(get=get_GenTime))  GenTime;
 
- ::Org::BouncyCastle::Tsp::GenTimeAccuracy __declspec(property(get=get_GenTimeAccuracy))  GenTimeAccuracy;
+ Org::BouncyCastle::Tsp::GenTimeAccuracy __declspec(property(get=get_GenTimeAccuracy))  GenTimeAccuracy;
 
  ::StringW __declspec(property(get=get_Policy))  Policy;
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_SerialNumber))  SerialNumber;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_SerialNumber))  SerialNumber;
 
- ::Org::BouncyCastle::Asn1::X509::GeneralName __declspec(property(get=get_Tsa))  Tsa;
+ Org::BouncyCastle::Asn1::X509::GeneralName __declspec(property(get=get_Tsa))  Tsa;
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_Nonce))  Nonce;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_Nonce))  Nonce;
 
- ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __declspec(property(get=get_HashAlgorithm))  HashAlgorithm;
+ Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __declspec(property(get=get_HashAlgorithm))  HashAlgorithm;
 
  ::StringW __declspec(property(get=get_MessageImprintAlgOid))  MessageImprintAlgOid;
 
- ::Org::BouncyCastle::Asn1::Tsp::TstInfo __declspec(property(get=get_TstInfo))  TstInfo;
+ Org::BouncyCastle::Asn1::Tsp::TstInfo __declspec(property(get=get_TstInfo))  TstInfo;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "tstInfo", ty: "::Org::BouncyCastle::Asn1::Tsp::TstInfo", modifiers: "", def_value: None }]
-explicit TimeStampTokenInfo(::Org::BouncyCastle::Asn1::Tsp::TstInfo tstInfo) ;
+// Ctor Parameters [CppParam { name: "tstInfo", ty: "Org::BouncyCastle::Asn1::Tsp::TstInfo", modifiers: "", def_value: None }]
+explicit TimeStampTokenInfo(Org::BouncyCastle::Asn1::Tsp::TstInfo tstInfo) ;
 
 /// @brief Method .ctor addr 0x10c6878 size 0x134 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::Tsp::TstInfo tstInfo) ;
+ void _ctor(Org::BouncyCastle::Asn1::Tsp::TstInfo tstInfo) ;
 
 /// @brief Method get_IsOrdered addr 0x10c7bf0 size 0x24 virtual false final false
  bool get_IsOrdered() ;
 
 /// @brief Method get_Accuracy addr 0x10c7c14 size 0x1c virtual false final false
- ::Org::BouncyCastle::Asn1::Tsp::Accuracy get_Accuracy() ;
+ Org::BouncyCastle::Asn1::Tsp::Accuracy get_Accuracy() ;
 
 /// @brief Method get_GenTime addr 0x10c7c30 size 0x8 virtual false final false
- ::System::DateTime get_GenTime() ;
+ System::DateTime get_GenTime() ;
 
 /// @brief Method get_GenTimeAccuracy addr 0x10c7c38 size 0x7c virtual false final false
- ::Org::BouncyCastle::Tsp::GenTimeAccuracy get_GenTimeAccuracy() ;
+ Org::BouncyCastle::Tsp::GenTimeAccuracy get_GenTimeAccuracy() ;
 
 /// @brief Method get_Policy addr 0x10c4ec8 size 0x24 virtual false final false
  ::StringW get_Policy() ;
 
 /// @brief Method get_SerialNumber addr 0x10c7cb4 size 0x24 virtual false final false
- ::Org::BouncyCastle::Math::BigInteger get_SerialNumber() ;
+ Org::BouncyCastle::Math::BigInteger get_SerialNumber() ;
 
 /// @brief Method get_Tsa addr 0x10c7cd8 size 0x1c virtual false final false
- ::Org::BouncyCastle::Asn1::X509::GeneralName get_Tsa() ;
+ Org::BouncyCastle::Asn1::X509::GeneralName get_Tsa() ;
 
 /// @brief Method get_Nonce addr 0x10c4e04 size 0x2c virtual false final false
- ::Org::BouncyCastle::Math::BigInteger get_Nonce() ;
+ Org::BouncyCastle::Math::BigInteger get_Nonce() ;
 
 /// @brief Method get_HashAlgorithm addr 0x10c7cf4 size 0x24 virtual false final false
- ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier get_HashAlgorithm() ;
+ Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier get_HashAlgorithm() ;
 
 /// @brief Method get_MessageImprintAlgOid addr 0x10c4e70 size 0x3c virtual false final false
  ::StringW get_MessageImprintAlgOid() ;
@@ -155,12 +154,11 @@ explicit TimeStampTokenInfo(::Org::BouncyCastle::Asn1::Tsp::TstInfo tstInfo) ;
  ::ArrayW<uint8_t> GetEncoded() ;
 
 /// @brief Method get_TstInfo addr 0x10c7d34 size 0x8 virtual false final false
- ::Org::BouncyCastle::Asn1::Tsp::TstInfo get_TstInfo() ;
+ Org::BouncyCastle::Asn1::Tsp::TstInfo get_TstInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Tsp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Tsp::TimeStampTokenInfo);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Tsp::TimeStampTokenInfo, "Org.BouncyCastle.Tsp", "TimeStampTokenInfo");
+NEED_NO_BOX(Org::BouncyCastle::Tsp::TimeStampTokenInfo);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Tsp::TimeStampTokenInfo, "Org.BouncyCastle.Tsp", "TimeStampTokenInfo");

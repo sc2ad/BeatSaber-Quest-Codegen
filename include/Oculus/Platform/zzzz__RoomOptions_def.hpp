@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Oculus::Platform {
-struct TimeWindow;
-}
 namespace Oculus::Platform {
 struct UserOrdering;
+}
+namespace Oculus::Platform {
+struct TimeWindow;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -84,10 +83,10 @@ explicit RoomOptions() ;
  void SetMaxUserResults(uint32_t value) ;
 
 /// @brief Method SetOrdering addr 0x2599a94 size 0x6c virtual false final false
- void SetOrdering(::Oculus::Platform::UserOrdering value) ;
+ void SetOrdering(Oculus::Platform::UserOrdering value) ;
 
 /// @brief Method SetRecentlyMetTimeWindow addr 0x2599b00 size 0x6c virtual false final false
- void SetRecentlyMetTimeWindow(::Oculus::Platform::TimeWindow value) ;
+ void SetRecentlyMetTimeWindow(Oculus::Platform::TimeWindow value) ;
 
 /// @brief Method SetRoomId addr 0x2599b6c size 0x6c virtual false final false
  void SetRoomId(uint64_t value) ;
@@ -96,7 +95,7 @@ explicit RoomOptions() ;
  void SetTurnOffUpdates(bool value) ;
 
 /// @brief Method op_Explicit addr 0x2599c44 size 0x58 virtual false final false
-static ::cordl_internals::intptr_t op_Explicit___cordl_internals__intptr_t(::Oculus::Platform::RoomOptions options) ;
+static ::cordl_internals::intptr_t op_Explicit___cordl_internals__intptr_t(Oculus::Platform::RoomOptions options) ;
 
 /// @brief Method Finalize addr 0x2599c9c size 0xd8 virtual true final false
  void Finalize() ;
@@ -105,6 +104,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::RoomOptions);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::RoomOptions, "Oculus.Platform", "RoomOptions");
+NEED_NO_BOX(Oculus::Platform::RoomOptions);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::RoomOptions, "Oculus.Platform", "RoomOptions");

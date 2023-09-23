@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__Renderer_def.hpp"
-namespace {
 namespace UnityEngine::U2D {
 class SpriteAtlas;
 }
@@ -15,7 +14,7 @@ namespace UnityEngine::Tilemaps {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10006))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15824))
 // CS Name: UnityEngine.Tilemaps.TilemapRenderer
-class CORDL_TYPE TilemapRenderer : public ::UnityEngine::Renderer {
+class CORDL_TYPE TilemapRenderer : public UnityEngine::Renderer {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr TilemapRenderer(TilemapRenderer const& ) noexcept = default;
 constexpr TilemapRenderer(TilemapRenderer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TilemapRenderer(void* ptr) noexcept : ::UnityEngine::Renderer(ptr) {
+constexpr explicit TilemapRenderer(void* ptr) noexcept : UnityEngine::Renderer(ptr) {
 }
 
 
@@ -58,12 +57,11 @@ constexpr explicit TilemapRenderer(void* ptr) noexcept : ::UnityEngine::Renderer
  void UnregisterSpriteAtlasRegistered() ;
 
 /// @brief Method OnSpriteAtlasRegistered addr 0x2bd7078 size 0x44 virtual false final false
- void OnSpriteAtlasRegistered(::UnityEngine::U2D::SpriteAtlas atlas) ;
+ void OnSpriteAtlasRegistered(UnityEngine::U2D::SpriteAtlas atlas) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Tilemaps
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Tilemaps::TilemapRenderer);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Tilemaps::TilemapRenderer, "UnityEngine.Tilemaps", "TilemapRenderer");
+NEED_NO_BOX(UnityEngine::Tilemaps::TilemapRenderer);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Tilemaps::TilemapRenderer, "UnityEngine.Tilemaps", "TilemapRenderer");

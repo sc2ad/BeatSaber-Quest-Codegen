@@ -3,9 +3,8 @@
 #include "System/Xml/Schema/zzzz__SyntaxTreeNode_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::Xml::Schema {
-class Positions;
+class SymbolsDictionary;
 }
 namespace System::Xml::Schema {
 class BitSet;
@@ -14,7 +13,7 @@ namespace System::Xml::Schema {
 class InteriorNode;
 }
 namespace System::Xml::Schema {
-class SymbolsDictionary;
+class Positions;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -26,7 +25,7 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11541))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11542))
 // CS Name: System.Xml.Schema.LeafNode
-class CORDL_TYPE LeafNode : public ::System::Xml::Schema::SyntaxTreeNode {
+class CORDL_TYPE LeafNode : public System::Xml::Schema::SyntaxTreeNode {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -41,7 +40,7 @@ constexpr LeafNode(LeafNode const& ) noexcept = default;
 constexpr LeafNode(LeafNode&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LeafNode(void* ptr) noexcept : ::System::Xml::Schema::SyntaxTreeNode(ptr) {
+constexpr explicit LeafNode(void* ptr) noexcept : System::Xml::Schema::SyntaxTreeNode(ptr) {
 }
 
 
@@ -91,10 +90,10 @@ explicit LeafNode(int32_t pos) ;
  void set_Pos(int32_t value) ;
 
 /// @brief Method ExpandTree addr 0x271a2a8 size 0x4 virtual true final false
- void ExpandTree(::System::Xml::Schema::InteriorNode parent, ::System::Xml::Schema::SymbolsDictionary symbols, ::System::Xml::Schema::Positions positions) ;
+ void ExpandTree(System::Xml::Schema::InteriorNode parent, System::Xml::Schema::SymbolsDictionary symbols, System::Xml::Schema::Positions positions) ;
 
 /// @brief Method ConstructPos addr 0x271a2ac size 0x40 virtual true final false
- void ConstructPos(::System::Xml::Schema::BitSet firstpos, ::System::Xml::Schema::BitSet lastpos, ::ArrayW<::System::Xml::Schema::BitSet> followpos) ;
+ void ConstructPos(System::Xml::Schema::BitSet firstpos, System::Xml::Schema::BitSet lastpos, ::ArrayW<System::Xml::Schema::BitSet> followpos) ;
 
 /// @brief Method get_IsNullable addr 0x271a2ec size 0x8 virtual true final false
  bool get_IsNullable() ;
@@ -103,6 +102,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::LeafNode);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::LeafNode, "System.Xml.Schema", "LeafNode");
+NEED_NO_BOX(System::Xml::Schema::LeafNode);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::LeafNode, "System.Xml.Schema", "LeafNode");

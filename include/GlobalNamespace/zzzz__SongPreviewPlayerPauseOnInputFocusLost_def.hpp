@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class AudioPlayerBase;
 }
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4068))
 // CS Name: SongPreviewPlayerPauseOnInputFocusLost
-class CORDL_TYPE SongPreviewPlayerPauseOnInputFocusLost : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SongPreviewPlayerPauseOnInputFocusLost : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr SongPreviewPlayerPauseOnInputFocusLost(SongPreviewPlayerPauseOnInputFo
 constexpr SongPreviewPlayerPauseOnInputFocusLost(SongPreviewPlayerPauseOnInputFocusLost&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SongPreviewPlayerPauseOnInputFocusLost(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SongPreviewPlayerPauseOnInputFocusLost(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -54,17 +53,17 @@ constexpr explicit SongPreviewPlayerPauseOnInputFocusLost(void* ptr) noexcept : 
 
 // Fields
 
- ::GlobalNamespace::AudioPlayerBase __declspec(property(get=__get__songPreviewPlayer, put=__set__songPreviewPlayer))  _songPreviewPlayer;
+ GlobalNamespace::AudioPlayerBase __declspec(property(get=__get__songPreviewPlayer, put=__set__songPreviewPlayer))  _songPreviewPlayer;
 
-constexpr void __set__songPreviewPlayer(::GlobalNamespace::AudioPlayerBase value) ;
+constexpr void __set__songPreviewPlayer(GlobalNamespace::AudioPlayerBase value) ;
 
-constexpr ::GlobalNamespace::AudioPlayerBase __get__songPreviewPlayer() const;
+constexpr GlobalNamespace::AudioPlayerBase __get__songPreviewPlayer() const;
 
- ::GlobalNamespace::IVRPlatformHelper __declspec(property(get=__get__vrPlatformHelper, put=__set__vrPlatformHelper))  _vrPlatformHelper;
+ GlobalNamespace::IVRPlatformHelper __declspec(property(get=__get__vrPlatformHelper, put=__set__vrPlatformHelper))  _vrPlatformHelper;
 
-constexpr void __set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper value) ;
+constexpr void __set__vrPlatformHelper(GlobalNamespace::IVRPlatformHelper value) ;
 
-constexpr ::GlobalNamespace::IVRPlatformHelper __get__vrPlatformHelper() const;
+constexpr GlobalNamespace::IVRPlatformHelper __get__vrPlatformHelper() const;
 
 
 // Methods
@@ -91,6 +90,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost, "", "SongPreviewPlayerPauseOnInputFocusLost");
+NEED_NO_BOX(GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost, "", "SongPreviewPlayerPauseOnInputFocusLost");

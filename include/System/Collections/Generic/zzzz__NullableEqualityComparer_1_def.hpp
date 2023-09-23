@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 struct Nullable_1;
@@ -20,10 +19,10 @@ namespace System::Collections::Generic {
 // cpp template
 template<typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2447)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 3123 }), TypeDefinitionIndex(TypeDefinitionIndex(3854)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3854), inst: 1621 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3854)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 3123 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3854), inst: 1621 }), TypeDefinitionIndex(TypeDefinitionIndex(2447))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3856))
 // CS Name: System.Collections.Generic.NullableEqualityComparer`1
-class CORDL_TYPE NullableEqualityComparer_1 : public ::System::Collections::Generic::EqualityComparer_1<::System::Nullable_1<T>> {
+class CORDL_TYPE NullableEqualityComparer_1 : public System::Collections::Generic::EqualityComparer_1<System::Nullable_1<T>> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr NullableEqualityComparer_1(NullableEqualityComparer_1 const& ) noexcep
 constexpr NullableEqualityComparer_1(NullableEqualityComparer_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NullableEqualityComparer_1(void* ptr) noexcept : ::System::Collections::Generic::EqualityComparer_1<::System::Nullable_1<T>>(ptr) {
+constexpr explicit NullableEqualityComparer_1(void* ptr) noexcept : System::Collections::Generic::EqualityComparer_1<System::Nullable_1<T>>(ptr) {
 }
 
 
@@ -60,16 +59,16 @@ constexpr explicit NullableEqualityComparer_1(void* ptr) noexcept : ::System::Co
 // Methods
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
- bool Equals(::System::Nullable_1<T> x, ::System::Nullable_1<T> y) ;
+ bool Equals(System::Nullable_1<T> x, System::Nullable_1<T> y) ;
 
 /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
- int32_t GetHashCode(::System::Nullable_1<T> obj) ;
+ int32_t GetHashCode(System::Nullable_1<T> obj) ;
 
 /// @brief Method IndexOf addr 0x0 size 0xffffffffffffffff virtual true final false
- int32_t IndexOf(::ArrayW<::System::Nullable_1<T>> array, ::System::Nullable_1<T> value, int32_t startIndex, int32_t count) ;
+ int32_t IndexOf(::ArrayW<System::Nullable_1<T>> array, System::Nullable_1<T> value, int32_t startIndex, int32_t count) ;
 
 /// @brief Method LastIndexOf addr 0x0 size 0xffffffffffffffff virtual true final false
- int32_t LastIndexOf(::ArrayW<::System::Nullable_1<T>> array, ::System::Nullable_1<T> value, int32_t startIndex, int32_t count) ;
+ int32_t LastIndexOf(::ArrayW<System::Nullable_1<T>> array, System::Nullable_1<T> value, int32_t startIndex, int32_t count) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -87,5 +86,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Collections::Generic
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Generic::NullableEqualityComparer_1, "System.Collections.Generic", "NullableEqualityComparer`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::NullableEqualityComparer_1, "System.Collections.Generic", "NullableEqualityComparer`1");

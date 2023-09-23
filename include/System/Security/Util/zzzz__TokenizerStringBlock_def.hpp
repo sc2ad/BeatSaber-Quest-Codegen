@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace System::Security::Util {
 class TokenizerStringBlock;
@@ -56,11 +55,11 @@ constexpr void __set_m_block(::ArrayW<::StringW> value) ;
 
 constexpr ::ArrayW<::StringW> __get_m_block() const;
 
- ::System::Security::Util::TokenizerStringBlock __declspec(property(get=__get_m_next, put=__set_m_next))  m_next;
+ System::Security::Util::TokenizerStringBlock __declspec(property(get=__get_m_next, put=__set_m_next))  m_next;
 
-constexpr void __set_m_next(::System::Security::Util::TokenizerStringBlock value) ;
+constexpr void __set_m_next(System::Security::Util::TokenizerStringBlock value) ;
 
-constexpr ::System::Security::Util::TokenizerStringBlock __get_m_next() const;
+constexpr System::Security::Util::TokenizerStringBlock __get_m_next() const;
 
 
 // Methods
@@ -75,6 +74,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Util
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Util::TokenizerStringBlock);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Util::TokenizerStringBlock, "System.Security.Util", "TokenizerStringBlock");
+NEED_NO_BOX(System::Security::Util::TokenizerStringBlock);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::TokenizerStringBlock, "System.Security.Util", "TokenizerStringBlock");

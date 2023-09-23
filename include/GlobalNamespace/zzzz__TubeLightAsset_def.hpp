@@ -1,16 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_def.hpp"
-namespace {
-namespace UnityEngine::Playables {
-struct Playable;
-}
-namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
-namespace UnityEngine::Timeline {
-struct ClipCaps;
-}
 namespace GlobalNamespace {
 class TubeLightBehaviour;
 }
@@ -19,6 +9,15 @@ class ITimelineClipAsset;
 }
 namespace UnityEngine {
 class GameObject;
+}
+namespace UnityEngine::Playables {
+struct Playable;
+}
+namespace UnityEngine::Timeline {
+struct ClipCaps;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,11 +29,11 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10358))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6073))
 // CS Name: TubeLightAsset
-class CORDL_TYPE TubeLightAsset : public ::UnityEngine::Playables::PlayableAsset {
+class CORDL_TYPE TubeLightAsset : public UnityEngine::Playables::PlayableAsset {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::Timeline::ITimelineClipAsset
-constexpr operator  ::UnityEngine::Timeline::ITimelineClipAsset() const noexcept;
+/// @brief Convert operator to UnityEngine::Timeline::ITimelineClipAsset
+constexpr operator  UnityEngine::Timeline::ITimelineClipAsset() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -48,7 +47,7 @@ constexpr TubeLightAsset(TubeLightAsset const& ) noexcept = default;
 constexpr TubeLightAsset(TubeLightAsset&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TubeLightAsset(void* ptr) noexcept : ::UnityEngine::Playables::PlayableAsset(ptr) {
+constexpr explicit TubeLightAsset(void* ptr) noexcept : UnityEngine::Playables::PlayableAsset(ptr) {
 }
 
 
@@ -69,25 +68,25 @@ constexpr explicit TubeLightAsset(void* ptr) noexcept : ::UnityEngine::Playables
 
 // Fields
 
- ::GlobalNamespace::TubeLightBehaviour __declspec(property(get=__get__template, put=__set__template))  _template;
+ GlobalNamespace::TubeLightBehaviour __declspec(property(get=__get__template, put=__set__template))  _template;
 
-constexpr void __set__template(::GlobalNamespace::TubeLightBehaviour value) ;
+constexpr void __set__template(GlobalNamespace::TubeLightBehaviour value) ;
 
-constexpr ::GlobalNamespace::TubeLightBehaviour __get__template() const;
+constexpr GlobalNamespace::TubeLightBehaviour __get__template() const;
 
 
 // Properties
 
- ::UnityEngine::Timeline::ClipCaps __declspec(property(get=get_clipCaps))  clipCaps;
+ UnityEngine::Timeline::ClipCaps __declspec(property(get=get_clipCaps))  clipCaps;
 
 
 // Methods
 
 /// @brief Method get_clipCaps addr 0x21b3210 size 0x8 virtual true final true
- ::UnityEngine::Timeline::ClipCaps get_clipCaps() ;
+ UnityEngine::Timeline::ClipCaps get_clipCaps() ;
 
 /// @brief Method CreatePlayable addr 0x21b3218 size 0xa8 virtual true final false
- ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject go) ;
+ UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject go) ;
 
 // Ctor Parameters []
 explicit TubeLightAsset() ;
@@ -99,6 +98,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::TubeLightAsset);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TubeLightAsset, "", "TubeLightAsset");
+NEED_NO_BOX(GlobalNamespace::TubeLightAsset);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TubeLightAsset, "", "TubeLightAsset");

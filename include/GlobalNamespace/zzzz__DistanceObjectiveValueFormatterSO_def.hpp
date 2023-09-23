@@ -3,7 +3,6 @@
 #include "GlobalNamespace/zzzz__ObjectiveValueFormatterSO_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class DistanceObjectiveValueFormatterSO;
@@ -14,7 +13,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4474))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4465))
 // CS Name: DistanceObjectiveValueFormatterSO
-class CORDL_TYPE DistanceObjectiveValueFormatterSO : public ::GlobalNamespace::ObjectiveValueFormatterSO {
+class CORDL_TYPE DistanceObjectiveValueFormatterSO : public GlobalNamespace::ObjectiveValueFormatterSO {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr DistanceObjectiveValueFormatterSO(DistanceObjectiveValueFormatterSO co
 constexpr DistanceObjectiveValueFormatterSO(DistanceObjectiveValueFormatterSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DistanceObjectiveValueFormatterSO(void* ptr) noexcept : ::GlobalNamespace::ObjectiveValueFormatterSO(ptr) {
+constexpr explicit DistanceObjectiveValueFormatterSO(void* ptr) noexcept : GlobalNamespace::ObjectiveValueFormatterSO(ptr) {
 }
 
 
@@ -63,6 +62,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::DistanceObjectiveValueFormatterSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DistanceObjectiveValueFormatterSO, "", "DistanceObjectiveValueFormatterSO");
+NEED_NO_BOX(GlobalNamespace::DistanceObjectiveValueFormatterSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DistanceObjectiveValueFormatterSO, "", "DistanceObjectiveValueFormatterSO");

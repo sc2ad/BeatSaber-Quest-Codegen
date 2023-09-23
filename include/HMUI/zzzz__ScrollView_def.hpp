@@ -6,72 +6,71 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct Vector3;
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
+}
+namespace HMUI {
+class ButtonBinder;
 }
 namespace UnityEngine {
 class RectTransform;
 }
-namespace HMUI {
-class ItemForFocussedScrolling;
-}
-namespace HMUI {
-class EventSystemListener;
-}
-namespace HMUI {
-class VerticalScrollIndicator;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace GlobalNamespace {
-class IVRPlatformHelper;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace HMUI {
-class ButtonBinder;
+class VerticalScrollIndicator;
+}
+namespace HMUI {
+class ItemForFocussedScrolling;
 }
 namespace UnityEngine::UI {
 class Button;
 }
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
+namespace GlobalNamespace {
+class IVRPlatformHelper;
+}
+namespace HMUI {
+class EventSystemListener;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace HMUI {
-struct ____HMUI__ScrollView__ScrollDirection;
+struct HMUI__ScrollView__ScrollDirection;
 }
 namespace HMUI {
-struct ____HMUI__ScrollView__ScrollType;
+struct HMUI__ScrollView__ScrollType;
 }
 namespace HMUI {
-struct ____HMUI__ScrollView__ScrollViewDirection;
+struct HMUI__ScrollView__ScrollViewDirection;
+}
+namespace HMUI {
+class HMUI__ScrollView____c;
+}
+namespace HMUI {
+class HMUI__ScrollView____c__DisplayClass55_0;
+}
+namespace HMUI {
+class HMUI__ScrollView____c__DisplayClass56_0;
+}
+namespace HMUI {
+class HMUI__ScrollView____c__DisplayClass61_0;
+}
+namespace HMUI {
+class HMUI__ScrollView____c__DisplayClass61_1;
 }
 namespace HMUI {
 class ScrollView;
-}
-namespace HMUI {
-class ____HMUI__ScrollView____c;
-}
-namespace HMUI {
-class ____HMUI__ScrollView____c__DisplayClass55_0;
-}
-namespace HMUI {
-class ____HMUI__ScrollView____c__DisplayClass56_0;
-}
-namespace HMUI {
-class ____HMUI__ScrollView____c__DisplayClass61_0;
-}
-namespace HMUI {
-class ____HMUI__ScrollView____c__DisplayClass61_1;
 }
 // Type: ::ScrollType
 namespace HMUI {
@@ -79,20 +78,20 @@ namespace HMUI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13691))
 // CS Name: HMUI.ScrollView::ScrollType
-struct CORDL_TYPE ____HMUI__ScrollView__ScrollType : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE HMUI__ScrollView__ScrollType : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____HMUI__ScrollView__ScrollType(int32_t value__) noexcept;
+constexpr HMUI__ScrollView__ScrollType(int32_t value__) noexcept;
 
 
-                    constexpr ____HMUI__ScrollView__ScrollType(____HMUI__ScrollView__ScrollType const&) = default;
-                    constexpr ____HMUI__ScrollView__ScrollType(____HMUI__ScrollView__ScrollType&&) = default;
-                    constexpr ____HMUI__ScrollView__ScrollType& operator=(____HMUI__ScrollView__ScrollType const& o) {
+                    constexpr HMUI__ScrollView__ScrollType(HMUI__ScrollView__ScrollType const&) = default;
+                    constexpr HMUI__ScrollView__ScrollType(HMUI__ScrollView__ScrollType&&) = default;
+                    constexpr HMUI__ScrollView__ScrollType& operator=(HMUI__ScrollView__ScrollType const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____HMUI__ScrollView__ScrollType& operator=(____HMUI__ScrollView__ScrollType&& o) noexcept {
+                    constexpr HMUI__ScrollView__ScrollType& operator=(HMUI__ScrollView__ScrollType&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -105,7 +104,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____HMUI__ScrollView__ScrollType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit HMUI__ScrollView__ScrollType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -113,15 +112,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______HMUI__ScrollView__ScrollType_Unwrapped : int32_t {
+enum class __HMUI__ScrollView__ScrollType_Unwrapped : int32_t {
 __PageSize = 0,
 __FixedCellSize = 1,
 __FocusItems = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______HMUI__ScrollView__ScrollType_Unwrapped () const noexcept {
-return std::bit_cast<______HMUI__ScrollView__ScrollType_Unwrapped>(__instance);
+constexpr operator __HMUI__ScrollView__ScrollType_Unwrapped () const noexcept {
+return std::bit_cast<__HMUI__ScrollView__ScrollType_Unwrapped>(__instance);
 }
 
 
@@ -134,13 +133,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field PageSize offset 0
-static ::HMUI::____HMUI__ScrollView__ScrollType const PageSize;
+static HMUI::HMUI__ScrollView__ScrollType const PageSize;
 
 /// @brief Field FixedCellSize offset 0
-static ::HMUI::____HMUI__ScrollView__ScrollType const FixedCellSize;
+static HMUI::HMUI__ScrollView__ScrollType const FixedCellSize;
 
 /// @brief Field FocusItems offset 0
-static ::HMUI::____HMUI__ScrollView__ScrollType const FocusItems;
+static HMUI::HMUI__ScrollView__ScrollType const FocusItems;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -152,20 +151,20 @@ namespace HMUI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13692))
 // CS Name: HMUI.ScrollView::ScrollDirection
-struct CORDL_TYPE ____HMUI__ScrollView__ScrollDirection : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE HMUI__ScrollView__ScrollDirection : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____HMUI__ScrollView__ScrollDirection(int32_t value__) noexcept;
+constexpr HMUI__ScrollView__ScrollDirection(int32_t value__) noexcept;
 
 
-                    constexpr ____HMUI__ScrollView__ScrollDirection(____HMUI__ScrollView__ScrollDirection const&) = default;
-                    constexpr ____HMUI__ScrollView__ScrollDirection(____HMUI__ScrollView__ScrollDirection&&) = default;
-                    constexpr ____HMUI__ScrollView__ScrollDirection& operator=(____HMUI__ScrollView__ScrollDirection const& o) {
+                    constexpr HMUI__ScrollView__ScrollDirection(HMUI__ScrollView__ScrollDirection const&) = default;
+                    constexpr HMUI__ScrollView__ScrollDirection(HMUI__ScrollView__ScrollDirection&&) = default;
+                    constexpr HMUI__ScrollView__ScrollDirection& operator=(HMUI__ScrollView__ScrollDirection const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____HMUI__ScrollView__ScrollDirection& operator=(____HMUI__ScrollView__ScrollDirection&& o) noexcept {
+                    constexpr HMUI__ScrollView__ScrollDirection& operator=(HMUI__ScrollView__ScrollDirection&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -178,7 +177,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____HMUI__ScrollView__ScrollDirection(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit HMUI__ScrollView__ScrollDirection(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -186,7 +185,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______HMUI__ScrollView__ScrollDirection_Unwrapped : int32_t {
+enum class __HMUI__ScrollView__ScrollDirection_Unwrapped : int32_t {
 __None = 0,
 __Up = 1,
 __Down = 2,
@@ -195,8 +194,8 @@ __Right = 4,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______HMUI__ScrollView__ScrollDirection_Unwrapped () const noexcept {
-return std::bit_cast<______HMUI__ScrollView__ScrollDirection_Unwrapped>(__instance);
+constexpr operator __HMUI__ScrollView__ScrollDirection_Unwrapped () const noexcept {
+return std::bit_cast<__HMUI__ScrollView__ScrollDirection_Unwrapped>(__instance);
 }
 
 
@@ -209,19 +208,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::HMUI::____HMUI__ScrollView__ScrollDirection const None;
+static HMUI::HMUI__ScrollView__ScrollDirection const None;
 
 /// @brief Field Up offset 0
-static ::HMUI::____HMUI__ScrollView__ScrollDirection const Up;
+static HMUI::HMUI__ScrollView__ScrollDirection const Up;
 
 /// @brief Field Down offset 0
-static ::HMUI::____HMUI__ScrollView__ScrollDirection const Down;
+static HMUI::HMUI__ScrollView__ScrollDirection const Down;
 
 /// @brief Field Left offset 0
-static ::HMUI::____HMUI__ScrollView__ScrollDirection const Left;
+static HMUI::HMUI__ScrollView__ScrollDirection const Left;
 
 /// @brief Field Right offset 0
-static ::HMUI::____HMUI__ScrollView__ScrollDirection const Right;
+static HMUI::HMUI__ScrollView__ScrollDirection const Right;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -233,20 +232,20 @@ namespace HMUI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13693))
 // CS Name: HMUI.ScrollView::ScrollViewDirection
-struct CORDL_TYPE ____HMUI__ScrollView__ScrollViewDirection : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE HMUI__ScrollView__ScrollViewDirection : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____HMUI__ScrollView__ScrollViewDirection(int32_t value__) noexcept;
+constexpr HMUI__ScrollView__ScrollViewDirection(int32_t value__) noexcept;
 
 
-                    constexpr ____HMUI__ScrollView__ScrollViewDirection(____HMUI__ScrollView__ScrollViewDirection const&) = default;
-                    constexpr ____HMUI__ScrollView__ScrollViewDirection(____HMUI__ScrollView__ScrollViewDirection&&) = default;
-                    constexpr ____HMUI__ScrollView__ScrollViewDirection& operator=(____HMUI__ScrollView__ScrollViewDirection const& o) {
+                    constexpr HMUI__ScrollView__ScrollViewDirection(HMUI__ScrollView__ScrollViewDirection const&) = default;
+                    constexpr HMUI__ScrollView__ScrollViewDirection(HMUI__ScrollView__ScrollViewDirection&&) = default;
+                    constexpr HMUI__ScrollView__ScrollViewDirection& operator=(HMUI__ScrollView__ScrollViewDirection const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____HMUI__ScrollView__ScrollViewDirection& operator=(____HMUI__ScrollView__ScrollViewDirection&& o) noexcept {
+                    constexpr HMUI__ScrollView__ScrollViewDirection& operator=(HMUI__ScrollView__ScrollViewDirection&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -259,7 +258,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____HMUI__ScrollView__ScrollViewDirection(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit HMUI__ScrollView__ScrollViewDirection(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -267,14 +266,14 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______HMUI__ScrollView__ScrollViewDirection_Unwrapped : int32_t {
+enum class __HMUI__ScrollView__ScrollViewDirection_Unwrapped : int32_t {
 __Vertical = 0,
 __Horizontal = 1,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______HMUI__ScrollView__ScrollViewDirection_Unwrapped () const noexcept {
-return std::bit_cast<______HMUI__ScrollView__ScrollViewDirection_Unwrapped>(__instance);
+constexpr operator __HMUI__ScrollView__ScrollViewDirection_Unwrapped () const noexcept {
+return std::bit_cast<__HMUI__ScrollView__ScrollViewDirection_Unwrapped>(__instance);
 }
 
 
@@ -287,10 +286,10 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Vertical offset 0
-static ::HMUI::____HMUI__ScrollView__ScrollViewDirection const Vertical;
+static HMUI::HMUI__ScrollView__ScrollViewDirection const Vertical;
 
 /// @brief Field Horizontal offset 0
-static ::HMUI::____HMUI__ScrollView__ScrollViewDirection const Horizontal;
+static HMUI::HMUI__ScrollView__ScrollViewDirection const Horizontal;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -302,65 +301,65 @@ namespace HMUI {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13694))
 // CS Name: HMUI.ScrollView::<>c
-class CORDL_TYPE ____HMUI__ScrollView____c : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE HMUI__ScrollView____c : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____HMUI__ScrollView____c() = default;
+virtual ~HMUI__ScrollView____c() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____HMUI__ScrollView____c", modifiers: " const&", def_value: None }]
-constexpr ____HMUI__ScrollView____c(____HMUI__ScrollView____c const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "HMUI__ScrollView____c", modifiers: " const&", def_value: None }]
+constexpr HMUI__ScrollView____c(HMUI__ScrollView____c const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____HMUI__ScrollView____c", modifiers: "&&", def_value: None }]
-constexpr ____HMUI__ScrollView____c(____HMUI__ScrollView____c&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "HMUI__ScrollView____c", modifiers: "&&", def_value: None }]
+constexpr HMUI__ScrollView____c(HMUI__ScrollView____c&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____HMUI__ScrollView____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit HMUI__ScrollView____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____HMUI__ScrollView____c& operator=(std::nullptr_t) noexcept {
+  constexpr HMUI__ScrollView____c& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____HMUI__ScrollView____c& operator=(void* o) noexcept {
+  constexpr HMUI__ScrollView____c& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____HMUI__ScrollView____c& operator=(____HMUI__ScrollView____c&& o) noexcept = default;
-  constexpr ____HMUI__ScrollView____c& operator=(____HMUI__ScrollView____c const& o) noexcept = default;
+  constexpr HMUI__ScrollView____c& operator=(HMUI__ScrollView____c&& o) noexcept = default;
+  constexpr HMUI__ScrollView____c& operator=(HMUI__ScrollView____c const& o) noexcept = default;
                 
 
 
 // Fields
 
-static ::HMUI::____HMUI__ScrollView____c __declspec(property(get=__get___9, put=__set___9))  __9;
+static HMUI::HMUI__ScrollView____c __declspec(property(get=__get___9, put=__set___9))  __9;
 
-static void __set___9(::HMUI::____HMUI__ScrollView____c value) ;
+static void __set___9(HMUI::HMUI__ScrollView____c value) ;
 
-static ::HMUI::____HMUI__ScrollView____c __get___9() ;
+static HMUI::HMUI__ScrollView____c __get___9() ;
 
-static ::System::Func_2<float_t,float_t> __declspec(property(get=__get___9__42_1, put=__set___9__42_1))  __9__42_1;
+static System::Func_2<float_t,float_t> __declspec(property(get=__get___9__42_1, put=__set___9__42_1))  __9__42_1;
 
-static void __set___9__42_1(::System::Func_2<float_t,float_t> value) ;
+static void __set___9__42_1(System::Func_2<float_t,float_t> value) ;
 
-static ::System::Func_2<float_t,float_t> __get___9__42_1() ;
+static System::Func_2<float_t,float_t> __get___9__42_1() ;
 
-static ::System::Func_2<float_t,float_t> __declspec(property(get=__get___9__42_3, put=__set___9__42_3))  __9__42_3;
+static System::Func_2<float_t,float_t> __declspec(property(get=__get___9__42_3, put=__set___9__42_3))  __9__42_3;
 
-static void __set___9__42_3(::System::Func_2<float_t,float_t> value) ;
+static void __set___9__42_3(System::Func_2<float_t,float_t> value) ;
 
-static ::System::Func_2<float_t,float_t> __get___9__42_3() ;
+static System::Func_2<float_t,float_t> __get___9__42_3() ;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____HMUI__ScrollView____c() ;
+explicit HMUI__ScrollView____c() ;
 
 /// @brief Method .ctor addr 0x1fd1570 size 0x8 virtual false final false
  void _ctor() ;
@@ -381,37 +380,37 @@ namespace HMUI {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13695))
 // CS Name: HMUI.ScrollView::<>c__DisplayClass55_0
-class CORDL_TYPE ____HMUI__ScrollView____c__DisplayClass55_0 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE HMUI__ScrollView____c__DisplayClass55_0 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____HMUI__ScrollView____c__DisplayClass55_0() = default;
+virtual ~HMUI__ScrollView____c__DisplayClass55_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____HMUI__ScrollView____c__DisplayClass55_0", modifiers: " const&", def_value: None }]
-constexpr ____HMUI__ScrollView____c__DisplayClass55_0(____HMUI__ScrollView____c__DisplayClass55_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "HMUI__ScrollView____c__DisplayClass55_0", modifiers: " const&", def_value: None }]
+constexpr HMUI__ScrollView____c__DisplayClass55_0(HMUI__ScrollView____c__DisplayClass55_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____HMUI__ScrollView____c__DisplayClass55_0", modifiers: "&&", def_value: None }]
-constexpr ____HMUI__ScrollView____c__DisplayClass55_0(____HMUI__ScrollView____c__DisplayClass55_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "HMUI__ScrollView____c__DisplayClass55_0", modifiers: "&&", def_value: None }]
+constexpr HMUI__ScrollView____c__DisplayClass55_0(HMUI__ScrollView____c__DisplayClass55_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____HMUI__ScrollView____c__DisplayClass55_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit HMUI__ScrollView____c__DisplayClass55_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____HMUI__ScrollView____c__DisplayClass55_0& operator=(std::nullptr_t) noexcept {
+  constexpr HMUI__ScrollView____c__DisplayClass55_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____HMUI__ScrollView____c__DisplayClass55_0& operator=(void* o) noexcept {
+  constexpr HMUI__ScrollView____c__DisplayClass55_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____HMUI__ScrollView____c__DisplayClass55_0& operator=(____HMUI__ScrollView____c__DisplayClass55_0&& o) noexcept = default;
-  constexpr ____HMUI__ScrollView____c__DisplayClass55_0& operator=(____HMUI__ScrollView____c__DisplayClass55_0 const& o) noexcept = default;
+  constexpr HMUI__ScrollView____c__DisplayClass55_0& operator=(HMUI__ScrollView____c__DisplayClass55_0&& o) noexcept = default;
+  constexpr HMUI__ScrollView____c__DisplayClass55_0& operator=(HMUI__ScrollView____c__DisplayClass55_0 const& o) noexcept = default;
                 
 
 
@@ -427,7 +426,7 @@ constexpr float_t __get_threshold() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____HMUI__ScrollView____c__DisplayClass55_0() ;
+explicit HMUI__ScrollView____c__DisplayClass55_0() ;
 
 /// @brief Method .ctor addr 0x1fd10cc size 0x8 virtual false final false
  void _ctor() ;
@@ -445,37 +444,37 @@ namespace HMUI {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13696))
 // CS Name: HMUI.ScrollView::<>c__DisplayClass56_0
-class CORDL_TYPE ____HMUI__ScrollView____c__DisplayClass56_0 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE HMUI__ScrollView____c__DisplayClass56_0 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____HMUI__ScrollView____c__DisplayClass56_0() = default;
+virtual ~HMUI__ScrollView____c__DisplayClass56_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____HMUI__ScrollView____c__DisplayClass56_0", modifiers: " const&", def_value: None }]
-constexpr ____HMUI__ScrollView____c__DisplayClass56_0(____HMUI__ScrollView____c__DisplayClass56_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "HMUI__ScrollView____c__DisplayClass56_0", modifiers: " const&", def_value: None }]
+constexpr HMUI__ScrollView____c__DisplayClass56_0(HMUI__ScrollView____c__DisplayClass56_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____HMUI__ScrollView____c__DisplayClass56_0", modifiers: "&&", def_value: None }]
-constexpr ____HMUI__ScrollView____c__DisplayClass56_0(____HMUI__ScrollView____c__DisplayClass56_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "HMUI__ScrollView____c__DisplayClass56_0", modifiers: "&&", def_value: None }]
+constexpr HMUI__ScrollView____c__DisplayClass56_0(HMUI__ScrollView____c__DisplayClass56_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____HMUI__ScrollView____c__DisplayClass56_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit HMUI__ScrollView____c__DisplayClass56_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____HMUI__ScrollView____c__DisplayClass56_0& operator=(std::nullptr_t) noexcept {
+  constexpr HMUI__ScrollView____c__DisplayClass56_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____HMUI__ScrollView____c__DisplayClass56_0& operator=(void* o) noexcept {
+  constexpr HMUI__ScrollView____c__DisplayClass56_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____HMUI__ScrollView____c__DisplayClass56_0& operator=(____HMUI__ScrollView____c__DisplayClass56_0&& o) noexcept = default;
-  constexpr ____HMUI__ScrollView____c__DisplayClass56_0& operator=(____HMUI__ScrollView____c__DisplayClass56_0 const& o) noexcept = default;
+  constexpr HMUI__ScrollView____c__DisplayClass56_0& operator=(HMUI__ScrollView____c__DisplayClass56_0&& o) noexcept = default;
+  constexpr HMUI__ScrollView____c__DisplayClass56_0& operator=(HMUI__ScrollView____c__DisplayClass56_0 const& o) noexcept = default;
                 
 
 
@@ -491,7 +490,7 @@ constexpr float_t __get_threshold() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____HMUI__ScrollView____c__DisplayClass56_0() ;
+explicit HMUI__ScrollView____c__DisplayClass56_0() ;
 
 /// @brief Method .ctor addr 0x1fd13e8 size 0x8 virtual false final false
  void _ctor() ;
@@ -509,37 +508,37 @@ namespace HMUI {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13697))
 // CS Name: HMUI.ScrollView::<>c__DisplayClass61_0
-class CORDL_TYPE ____HMUI__ScrollView____c__DisplayClass61_0 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE HMUI__ScrollView____c__DisplayClass61_0 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____HMUI__ScrollView____c__DisplayClass61_0() = default;
+virtual ~HMUI__ScrollView____c__DisplayClass61_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____HMUI__ScrollView____c__DisplayClass61_0", modifiers: " const&", def_value: None }]
-constexpr ____HMUI__ScrollView____c__DisplayClass61_0(____HMUI__ScrollView____c__DisplayClass61_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "HMUI__ScrollView____c__DisplayClass61_0", modifiers: " const&", def_value: None }]
+constexpr HMUI__ScrollView____c__DisplayClass61_0(HMUI__ScrollView____c__DisplayClass61_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____HMUI__ScrollView____c__DisplayClass61_0", modifiers: "&&", def_value: None }]
-constexpr ____HMUI__ScrollView____c__DisplayClass61_0(____HMUI__ScrollView____c__DisplayClass61_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "HMUI__ScrollView____c__DisplayClass61_0", modifiers: "&&", def_value: None }]
+constexpr HMUI__ScrollView____c__DisplayClass61_0(HMUI__ScrollView____c__DisplayClass61_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____HMUI__ScrollView____c__DisplayClass61_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit HMUI__ScrollView____c__DisplayClass61_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____HMUI__ScrollView____c__DisplayClass61_0& operator=(std::nullptr_t) noexcept {
+  constexpr HMUI__ScrollView____c__DisplayClass61_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____HMUI__ScrollView____c__DisplayClass61_0& operator=(void* o) noexcept {
+  constexpr HMUI__ScrollView____c__DisplayClass61_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____HMUI__ScrollView____c__DisplayClass61_0& operator=(____HMUI__ScrollView____c__DisplayClass61_0&& o) noexcept = default;
-  constexpr ____HMUI__ScrollView____c__DisplayClass61_0& operator=(____HMUI__ScrollView____c__DisplayClass61_0 const& o) noexcept = default;
+  constexpr HMUI__ScrollView____c__DisplayClass61_0& operator=(HMUI__ScrollView____c__DisplayClass61_0&& o) noexcept = default;
+  constexpr HMUI__ScrollView____c__DisplayClass61_0& operator=(HMUI__ScrollView____c__DisplayClass61_0 const& o) noexcept = default;
                 
 
 
@@ -555,7 +554,7 @@ constexpr float_t __get_threshold() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____HMUI__ScrollView____c__DisplayClass61_0() ;
+explicit HMUI__ScrollView____c__DisplayClass61_0() ;
 
 /// @brief Method .ctor addr 0x1fd145c size 0x8 virtual false final false
  void _ctor() ;
@@ -573,37 +572,37 @@ namespace HMUI {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13698))
 // CS Name: HMUI.ScrollView::<>c__DisplayClass61_1
-class CORDL_TYPE ____HMUI__ScrollView____c__DisplayClass61_1 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE HMUI__ScrollView____c__DisplayClass61_1 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____HMUI__ScrollView____c__DisplayClass61_1() = default;
+virtual ~HMUI__ScrollView____c__DisplayClass61_1() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____HMUI__ScrollView____c__DisplayClass61_1", modifiers: " const&", def_value: None }]
-constexpr ____HMUI__ScrollView____c__DisplayClass61_1(____HMUI__ScrollView____c__DisplayClass61_1 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "HMUI__ScrollView____c__DisplayClass61_1", modifiers: " const&", def_value: None }]
+constexpr HMUI__ScrollView____c__DisplayClass61_1(HMUI__ScrollView____c__DisplayClass61_1 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____HMUI__ScrollView____c__DisplayClass61_1", modifiers: "&&", def_value: None }]
-constexpr ____HMUI__ScrollView____c__DisplayClass61_1(____HMUI__ScrollView____c__DisplayClass61_1&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "HMUI__ScrollView____c__DisplayClass61_1", modifiers: "&&", def_value: None }]
+constexpr HMUI__ScrollView____c__DisplayClass61_1(HMUI__ScrollView____c__DisplayClass61_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____HMUI__ScrollView____c__DisplayClass61_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit HMUI__ScrollView____c__DisplayClass61_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____HMUI__ScrollView____c__DisplayClass61_1& operator=(std::nullptr_t) noexcept {
+  constexpr HMUI__ScrollView____c__DisplayClass61_1& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____HMUI__ScrollView____c__DisplayClass61_1& operator=(void* o) noexcept {
+  constexpr HMUI__ScrollView____c__DisplayClass61_1& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____HMUI__ScrollView____c__DisplayClass61_1& operator=(____HMUI__ScrollView____c__DisplayClass61_1&& o) noexcept = default;
-  constexpr ____HMUI__ScrollView____c__DisplayClass61_1& operator=(____HMUI__ScrollView____c__DisplayClass61_1 const& o) noexcept = default;
+  constexpr HMUI__ScrollView____c__DisplayClass61_1& operator=(HMUI__ScrollView____c__DisplayClass61_1&& o) noexcept = default;
+  constexpr HMUI__ScrollView____c__DisplayClass61_1& operator=(HMUI__ScrollView____c__DisplayClass61_1 const& o) noexcept = default;
                 
 
 
@@ -619,7 +618,7 @@ constexpr float_t __get_threshold() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____HMUI__ScrollView____c__DisplayClass61_1() ;
+explicit HMUI__ScrollView____c__DisplayClass61_1() ;
 
 /// @brief Method .ctor addr 0x1fd1464 size 0x8 virtual false final false
  void _ctor() ;
@@ -637,24 +636,24 @@ namespace HMUI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13699))
 // CS Name: HMUI.ScrollView
-class CORDL_TYPE ScrollView : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ScrollView : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using __c__DisplayClass61_1 = ::HMUI::____HMUI__ScrollView____c__DisplayClass61_1;
+using __c__DisplayClass61_1 = HMUI::HMUI__ScrollView____c__DisplayClass61_1;
 
-using __c__DisplayClass61_0 = ::HMUI::____HMUI__ScrollView____c__DisplayClass61_0;
+using __c__DisplayClass61_0 = HMUI::HMUI__ScrollView____c__DisplayClass61_0;
 
-using __c__DisplayClass56_0 = ::HMUI::____HMUI__ScrollView____c__DisplayClass56_0;
+using __c__DisplayClass56_0 = HMUI::HMUI__ScrollView____c__DisplayClass56_0;
 
-using __c__DisplayClass55_0 = ::HMUI::____HMUI__ScrollView____c__DisplayClass55_0;
+using __c__DisplayClass55_0 = HMUI::HMUI__ScrollView____c__DisplayClass55_0;
 
-using __c = ::HMUI::____HMUI__ScrollView____c;
+using __c = HMUI::HMUI__ScrollView____c;
 
-using ScrollViewDirection = ::HMUI::____HMUI__ScrollView__ScrollViewDirection;
+using ScrollViewDirection = HMUI::HMUI__ScrollView__ScrollViewDirection;
 
-using ScrollDirection = ::HMUI::____HMUI__ScrollView__ScrollDirection;
+using ScrollDirection = HMUI::HMUI__ScrollView__ScrollDirection;
 
-using ScrollType = ::HMUI::____HMUI__ScrollView__ScrollType;
+using ScrollType = HMUI::HMUI__ScrollView__ScrollType;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xa0};
@@ -668,7 +667,7 @@ constexpr ScrollView(ScrollView const& ) noexcept = default;
 constexpr ScrollView(ScrollView&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ScrollView(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ScrollView(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -689,41 +688,41 @@ constexpr explicit ScrollView(void* ptr) noexcept : ::UnityEngine::MonoBehaviour
 
 // Fields
 
- ::UnityEngine::RectTransform __declspec(property(get=__get__viewport, put=__set__viewport))  _viewport;
+ UnityEngine::RectTransform __declspec(property(get=__get__viewport, put=__set__viewport))  _viewport;
 
-constexpr void __set__viewport(::UnityEngine::RectTransform value) ;
+constexpr void __set__viewport(UnityEngine::RectTransform value) ;
 
-constexpr ::UnityEngine::RectTransform __get__viewport() const;
+constexpr UnityEngine::RectTransform __get__viewport() const;
 
- ::UnityEngine::RectTransform __declspec(property(get=__get__contentRectTransform, put=__set__contentRectTransform))  _contentRectTransform;
+ UnityEngine::RectTransform __declspec(property(get=__get__contentRectTransform, put=__set__contentRectTransform))  _contentRectTransform;
 
-constexpr void __set__contentRectTransform(::UnityEngine::RectTransform value) ;
+constexpr void __set__contentRectTransform(UnityEngine::RectTransform value) ;
 
-constexpr ::UnityEngine::RectTransform __get__contentRectTransform() const;
+constexpr UnityEngine::RectTransform __get__contentRectTransform() const;
 
- ::HMUI::____HMUI__ScrollView__ScrollViewDirection __declspec(property(get=__get__scrollViewDirection, put=__set__scrollViewDirection))  _scrollViewDirection;
+ HMUI::HMUI__ScrollView__ScrollViewDirection __declspec(property(get=__get__scrollViewDirection, put=__set__scrollViewDirection))  _scrollViewDirection;
 
-constexpr void __set__scrollViewDirection(::HMUI::____HMUI__ScrollView__ScrollViewDirection value) ;
+constexpr void __set__scrollViewDirection(HMUI::HMUI__ScrollView__ScrollViewDirection value) ;
 
-constexpr ::HMUI::____HMUI__ScrollView__ScrollViewDirection __get__scrollViewDirection() const;
+constexpr HMUI::HMUI__ScrollView__ScrollViewDirection __get__scrollViewDirection() const;
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__pageUpButton, put=__set__pageUpButton))  _pageUpButton;
+ UnityEngine::UI::Button __declspec(property(get=__get__pageUpButton, put=__set__pageUpButton))  _pageUpButton;
 
-constexpr void __set__pageUpButton(::UnityEngine::UI::Button value) ;
+constexpr void __set__pageUpButton(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__pageUpButton() const;
+constexpr UnityEngine::UI::Button __get__pageUpButton() const;
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__pageDownButton, put=__set__pageDownButton))  _pageDownButton;
+ UnityEngine::UI::Button __declspec(property(get=__get__pageDownButton, put=__set__pageDownButton))  _pageDownButton;
 
-constexpr void __set__pageDownButton(::UnityEngine::UI::Button value) ;
+constexpr void __set__pageDownButton(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__pageDownButton() const;
+constexpr UnityEngine::UI::Button __get__pageDownButton() const;
 
- ::HMUI::VerticalScrollIndicator __declspec(property(get=__get__verticalScrollIndicator, put=__set__verticalScrollIndicator))  _verticalScrollIndicator;
+ HMUI::VerticalScrollIndicator __declspec(property(get=__get__verticalScrollIndicator, put=__set__verticalScrollIndicator))  _verticalScrollIndicator;
 
-constexpr void __set__verticalScrollIndicator(::HMUI::VerticalScrollIndicator value) ;
+constexpr void __set__verticalScrollIndicator(HMUI::VerticalScrollIndicator value) ;
 
-constexpr ::HMUI::VerticalScrollIndicator __get__verticalScrollIndicator() const;
+constexpr HMUI::VerticalScrollIndicator __get__verticalScrollIndicator() const;
 
  float_t __declspec(property(get=__get__smooth, put=__set__smooth))  _smooth;
 
@@ -743,11 +742,11 @@ constexpr void __set__joystickQuickSnapMaxTime(float_t value) ;
 
 constexpr float_t __get__joystickQuickSnapMaxTime() const;
 
- ::HMUI::____HMUI__ScrollView__ScrollType __declspec(property(get=__get__scrollType, put=__set__scrollType))  _scrollType;
+ HMUI::HMUI__ScrollView__ScrollType __declspec(property(get=__get__scrollType, put=__set__scrollType))  _scrollType;
 
-constexpr void __set__scrollType(::HMUI::____HMUI__ScrollView__ScrollType value) ;
+constexpr void __set__scrollType(HMUI::HMUI__ScrollView__ScrollType value) ;
 
-constexpr ::HMUI::____HMUI__ScrollView__ScrollType __get__scrollType() const;
+constexpr HMUI::HMUI__ScrollView__ScrollType __get__scrollType() const;
 
  float_t __declspec(property(get=__get__fixedCellSize, put=__set__fixedCellSize))  _fixedCellSize;
 
@@ -788,23 +787,23 @@ constexpr bool __get__shouldAnimate() const;
 /// @brief Field kThumbstickThreshold offset 0
 static constexpr float_t  kThumbstickThreshold{0.01};
 
- ::GlobalNamespace::IVRPlatformHelper __declspec(property(get=__get__platformHelper, put=__set__platformHelper))  _platformHelper;
+ GlobalNamespace::IVRPlatformHelper __declspec(property(get=__get__platformHelper, put=__set__platformHelper))  _platformHelper;
 
-constexpr void __set__platformHelper(::GlobalNamespace::IVRPlatformHelper value) ;
+constexpr void __set__platformHelper(GlobalNamespace::IVRPlatformHelper value) ;
 
-constexpr ::GlobalNamespace::IVRPlatformHelper __get__platformHelper() const;
+constexpr GlobalNamespace::IVRPlatformHelper __get__platformHelper() const;
 
- ::System::Action_1<float_t> __declspec(property(get=__get_scrollPositionChangedEvent, put=__set_scrollPositionChangedEvent))  scrollPositionChangedEvent;
+ System::Action_1<float_t> __declspec(property(get=__get_scrollPositionChangedEvent, put=__set_scrollPositionChangedEvent))  scrollPositionChangedEvent;
 
-constexpr void __set_scrollPositionChangedEvent(::System::Action_1<float_t> value) ;
+constexpr void __set_scrollPositionChangedEvent(System::Action_1<float_t> value) ;
 
-constexpr ::System::Action_1<float_t> __get_scrollPositionChangedEvent() const;
+constexpr System::Action_1<float_t> __get_scrollPositionChangedEvent() const;
 
- ::HMUI::ButtonBinder __declspec(property(get=__get__buttonBinder, put=__set__buttonBinder))  _buttonBinder;
+ HMUI::ButtonBinder __declspec(property(get=__get__buttonBinder, put=__set__buttonBinder))  _buttonBinder;
 
-constexpr void __set__buttonBinder(::HMUI::ButtonBinder value) ;
+constexpr void __set__buttonBinder(HMUI::ButtonBinder value) ;
 
-constexpr ::HMUI::ButtonBinder __get__buttonBinder() const;
+constexpr HMUI::ButtonBinder __get__buttonBinder() const;
 
  float_t __declspec(property(get=__get__destinationPos, put=__set__destinationPos))  _destinationPos;
 
@@ -818,17 +817,17 @@ constexpr void __set__scrollFocusPositions(::ArrayW<float_t> value) ;
 
 constexpr ::ArrayW<float_t> __get__scrollFocusPositions() const;
 
- ::HMUI::EventSystemListener __declspec(property(get=__get__eventSystemListener, put=__set__eventSystemListener))  _eventSystemListener;
+ HMUI::EventSystemListener __declspec(property(get=__get__eventSystemListener, put=__set__eventSystemListener))  _eventSystemListener;
 
-constexpr void __set__eventSystemListener(::HMUI::EventSystemListener value) ;
+constexpr void __set__eventSystemListener(HMUI::EventSystemListener value) ;
 
-constexpr ::HMUI::EventSystemListener __get__eventSystemListener() const;
+constexpr HMUI::EventSystemListener __get__eventSystemListener() const;
 
- ::HMUI::____HMUI__ScrollView__ScrollDirection __declspec(property(get=__get__lastJoystickScrollDirection, put=__set__lastJoystickScrollDirection))  _lastJoystickScrollDirection;
+ HMUI::HMUI__ScrollView__ScrollDirection __declspec(property(get=__get__lastJoystickScrollDirection, put=__set__lastJoystickScrollDirection))  _lastJoystickScrollDirection;
 
-constexpr void __set__lastJoystickScrollDirection(::HMUI::____HMUI__ScrollView__ScrollDirection value) ;
+constexpr void __set__lastJoystickScrollDirection(HMUI::HMUI__ScrollView__ScrollDirection value) ;
 
-constexpr ::HMUI::____HMUI__ScrollView__ScrollDirection __get__lastJoystickScrollDirection() const;
+constexpr HMUI::HMUI__ScrollView__ScrollDirection __get__lastJoystickScrollDirection() const;
 
  float_t __declspec(property(get=__get__joystickScrollStartTime, put=__set__joystickScrollStartTime))  _joystickScrollStartTime;
 
@@ -839,9 +838,9 @@ constexpr float_t __get__joystickScrollStartTime() const;
 
 // Properties
 
- ::UnityEngine::RectTransform __declspec(property(get=get_viewportTransform))  viewportTransform;
+ UnityEngine::RectTransform __declspec(property(get=get_viewportTransform))  viewportTransform;
 
- ::UnityEngine::RectTransform __declspec(property(get=get_contentTransform))  contentTransform;
+ UnityEngine::RectTransform __declspec(property(get=get_contentTransform))  contentTransform;
 
  float_t __declspec(property(get=get_position))  position;
 
@@ -855,16 +854,16 @@ constexpr float_t __get__joystickScrollStartTime() const;
 // Methods
 
 /// @brief Method add_scrollPositionChangedEvent addr 0x1fcf658 size 0xb0 virtual false final false
- void add_scrollPositionChangedEvent(::System::Action_1<float_t> value) ;
+ void add_scrollPositionChangedEvent(System::Action_1<float_t> value) ;
 
 /// @brief Method remove_scrollPositionChangedEvent addr 0x1fcf708 size 0xb0 virtual false final false
- void remove_scrollPositionChangedEvent(::System::Action_1<float_t> value) ;
+ void remove_scrollPositionChangedEvent(System::Action_1<float_t> value) ;
 
 /// @brief Method get_viewportTransform addr 0x1fcf7b8 size 0x8 virtual false final false
- ::UnityEngine::RectTransform get_viewportTransform() ;
+ UnityEngine::RectTransform get_viewportTransform() ;
 
 /// @brief Method get_contentTransform addr 0x1fcf7c0 size 0x8 virtual false final false
- ::UnityEngine::RectTransform get_contentTransform() ;
+ UnityEngine::RectTransform get_contentTransform() ;
 
 /// @brief Method get_position addr 0x1fcf7c8 size 0x30 virtual false final false
  float_t get_position() ;
@@ -900,16 +899,16 @@ constexpr float_t __get__joystickScrollStartTime() const;
  void ScrollToEnd(bool animated) ;
 
 /// @brief Method ScrollToWorldPosition addr 0x1fd0bc0 size 0x48 virtual false final false
- void ScrollToWorldPosition(::UnityEngine::Vector3 worldPosition, float_t pageRelativePosition, bool animated) ;
+ void ScrollToWorldPosition(UnityEngine::Vector3 worldPosition, float_t pageRelativePosition, bool animated) ;
 
 /// @brief Method ScrollToWorldPositionIfOutsideArea addr 0x1fd0cb8 size 0xb0 virtual false final false
- void ScrollToWorldPositionIfOutsideArea(::UnityEngine::Vector3 worldPosition, float_t pageRelativePosition, float_t relativeBoundaryStart, float_t relativeBoundaryEnd, bool animated) ;
+ void ScrollToWorldPositionIfOutsideArea(UnityEngine::Vector3 worldPosition, float_t pageRelativePosition, float_t relativeBoundaryStart, float_t relativeBoundaryEnd, bool animated) ;
 
 /// @brief Method ScrollTo addr 0x1fcf58c size 0xc4 virtual false final false
  void ScrollTo(float_t destinationPos, bool animated) ;
 
 /// @brief Method WorldPositionToScrollViewPosition addr 0x1fd0c08 size 0xb0 virtual false final false
- ::UnityEngine::Vector2 WorldPositionToScrollViewPosition(::UnityEngine::Vector3 worldPosition) ;
+ UnityEngine::Vector2 WorldPositionToScrollViewPosition(UnityEngine::Vector3 worldPosition) ;
 
 /// @brief Method SetDestinationPos addr 0x1fd0d68 size 0x54 virtual false final false
  void SetDestinationPos(float_t value) ;
@@ -927,19 +926,19 @@ constexpr float_t __get__joystickScrollStartTime() const;
  void RefreshButtons() ;
 
 /// @brief Method HandlePointerDidEnter addr 0x1fd13f0 size 0x14 virtual false final false
- void HandlePointerDidEnter(::UnityEngine::EventSystems::PointerEventData eventData) ;
+ void HandlePointerDidEnter(UnityEngine::EventSystems::PointerEventData eventData) ;
 
 /// @brief Method HandlePointerDidExit addr 0x1fd1404 size 0x8 virtual false final false
- void HandlePointerDidExit(::UnityEngine::EventSystems::PointerEventData eventData) ;
+ void HandlePointerDidExit(UnityEngine::EventSystems::PointerEventData eventData) ;
 
 /// @brief Method HandleJoystickWasNotCenteredThisFrame addr 0x1fd01f8 size 0xf4 virtual false final false
- void HandleJoystickWasNotCenteredThisFrame(::UnityEngine::Vector2 deltaPos) ;
+ void HandleJoystickWasNotCenteredThisFrame(UnityEngine::Vector2 deltaPos) ;
 
 /// @brief Method HandleJoystickWasCenteredThisFrame addr 0x1fd02ec size 0x454 virtual false final false
  void HandleJoystickWasCenteredThisFrame() ;
 
 /// @brief Method ResolveScrollDirection addr 0x1fd140c size 0x50 virtual false final false
- ::HMUI::____HMUI__ScrollView__ScrollDirection ResolveScrollDirection(::UnityEngine::Vector2 deltaPos) ;
+ HMUI::HMUI__ScrollView__ScrollDirection ResolveScrollDirection(UnityEngine::Vector2 deltaPos) ;
 
 // Ctor Parameters []
 explicit ScrollView() ;
@@ -948,28 +947,27 @@ explicit ScrollView() ;
  void _ctor() ;
 
 /// @brief Method <Awake>b__42_0 addr 0x1fd149c size 0x3c virtual false final false
- float_t _Awake_b__42_0(::HMUI::ItemForFocussedScrolling item) ;
+ float_t _Awake_b__42_0(HMUI::ItemForFocussedScrolling item) ;
 
 /// @brief Method <Awake>b__42_2 addr 0x1fd14d8 size 0x34 virtual false final false
- float_t _Awake_b__42_2(::HMUI::ItemForFocussedScrolling item) ;
+ float_t _Awake_b__42_2(HMUI::ItemForFocussedScrolling item) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HMUI
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::____HMUI__ScrollView__ScrollDirection, "HMUI", "ScrollView/ScrollDirection");
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::____HMUI__ScrollView__ScrollType, "HMUI", "ScrollView/ScrollType");
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::____HMUI__ScrollView__ScrollViewDirection, "HMUI", "ScrollView/ScrollViewDirection");
-NEED_NO_BOX(::HMUI::ScrollView);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::ScrollView, "HMUI", "ScrollView");
-NEED_NO_BOX(::HMUI::____HMUI__ScrollView____c);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::____HMUI__ScrollView____c, "HMUI", "ScrollView/<>c");
-NEED_NO_BOX(::HMUI::____HMUI__ScrollView____c__DisplayClass55_0);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::____HMUI__ScrollView____c__DisplayClass55_0, "HMUI", "ScrollView/<>c__DisplayClass55_0");
-NEED_NO_BOX(::HMUI::____HMUI__ScrollView____c__DisplayClass56_0);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::____HMUI__ScrollView____c__DisplayClass56_0, "HMUI", "ScrollView/<>c__DisplayClass56_0");
-NEED_NO_BOX(::HMUI::____HMUI__ScrollView____c__DisplayClass61_0);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::____HMUI__ScrollView____c__DisplayClass61_0, "HMUI", "ScrollView/<>c__DisplayClass61_0");
-NEED_NO_BOX(::HMUI::____HMUI__ScrollView____c__DisplayClass61_1);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::____HMUI__ScrollView____c__DisplayClass61_1, "HMUI", "ScrollView/<>c__DisplayClass61_1");
+DEFINE_IL2CPP_ARG_TYPE(HMUI::HMUI__ScrollView__ScrollDirection, "HMUI", "ScrollView/ScrollDirection");
+DEFINE_IL2CPP_ARG_TYPE(HMUI::HMUI__ScrollView__ScrollType, "HMUI", "ScrollView/ScrollType");
+DEFINE_IL2CPP_ARG_TYPE(HMUI::HMUI__ScrollView__ScrollViewDirection, "HMUI", "ScrollView/ScrollViewDirection");
+NEED_NO_BOX(HMUI::HMUI__ScrollView____c);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::HMUI__ScrollView____c, "HMUI", "ScrollView/<>c");
+NEED_NO_BOX(HMUI::HMUI__ScrollView____c__DisplayClass55_0);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::HMUI__ScrollView____c__DisplayClass55_0, "HMUI", "ScrollView/<>c__DisplayClass55_0");
+NEED_NO_BOX(HMUI::HMUI__ScrollView____c__DisplayClass56_0);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::HMUI__ScrollView____c__DisplayClass56_0, "HMUI", "ScrollView/<>c__DisplayClass56_0");
+NEED_NO_BOX(HMUI::HMUI__ScrollView____c__DisplayClass61_0);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::HMUI__ScrollView____c__DisplayClass61_0, "HMUI", "ScrollView/<>c__DisplayClass61_0");
+NEED_NO_BOX(HMUI::HMUI__ScrollView____c__DisplayClass61_1);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::HMUI__ScrollView____c__DisplayClass61_1, "HMUI", "ScrollView/<>c__DisplayClass61_1");
+NEED_NO_BOX(HMUI::ScrollView);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView, "HMUI", "ScrollView");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
-namespace {
 namespace HMUI {
 class TextPageScrollView;
 }
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13656))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5834))
 // CS Name: RecordingToolConfigViewController
-class CORDL_TYPE RecordingToolConfigViewController : public ::HMUI::ViewController {
+class CORDL_TYPE RecordingToolConfigViewController : public HMUI::ViewController {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr RecordingToolConfigViewController(RecordingToolConfigViewController co
 constexpr RecordingToolConfigViewController(RecordingToolConfigViewController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RecordingToolConfigViewController(void* ptr) noexcept : ::HMUI::ViewController(ptr) {
+constexpr explicit RecordingToolConfigViewController(void* ptr) noexcept : HMUI::ViewController(ptr) {
 }
 
 
@@ -54,17 +53,17 @@ constexpr explicit RecordingToolConfigViewController(void* ptr) noexcept : ::HMU
 
 // Fields
 
- ::HMUI::TextPageScrollView __declspec(property(get=__get__textPageScrollView, put=__set__textPageScrollView))  _textPageScrollView;
+ HMUI::TextPageScrollView __declspec(property(get=__get__textPageScrollView, put=__set__textPageScrollView))  _textPageScrollView;
 
-constexpr void __set__textPageScrollView(::HMUI::TextPageScrollView value) ;
+constexpr void __set__textPageScrollView(HMUI::TextPageScrollView value) ;
 
-constexpr ::HMUI::TextPageScrollView __get__textPageScrollView() const;
+constexpr HMUI::TextPageScrollView __get__textPageScrollView() const;
 
- ::GlobalNamespace::RecordingToolManager __declspec(property(get=__get__recordingToolManager, put=__set__recordingToolManager))  _recordingToolManager;
+ GlobalNamespace::RecordingToolManager __declspec(property(get=__get__recordingToolManager, put=__set__recordingToolManager))  _recordingToolManager;
 
-constexpr void __set__recordingToolManager(::GlobalNamespace::RecordingToolManager value) ;
+constexpr void __set__recordingToolManager(GlobalNamespace::RecordingToolManager value) ;
 
-constexpr ::GlobalNamespace::RecordingToolManager __get__recordingToolManager() const;
+constexpr GlobalNamespace::RecordingToolManager __get__recordingToolManager() const;
 
 
 // Methods
@@ -82,6 +81,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::RecordingToolConfigViewController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RecordingToolConfigViewController, "", "RecordingToolConfigViewController");
+NEED_NO_BOX(GlobalNamespace::RecordingToolConfigViewController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RecordingToolConfigViewController, "", "RecordingToolConfigViewController");

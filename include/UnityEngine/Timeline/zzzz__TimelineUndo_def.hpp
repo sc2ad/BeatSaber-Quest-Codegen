@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace UnityEngine {
 class Object;
 }
@@ -57,16 +56,16 @@ constexpr explicit TimelineUndo(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 // Methods
 
 /// @brief Method PushDestroyUndo addr 0x2ad9d40 size 0x88 virtual false final false
-static void PushDestroyUndo(::UnityEngine::Timeline::TimelineAsset timeline, ::UnityEngine::Object thingToDirty, ::UnityEngine::Object objectToDestroy) ;
+static void PushDestroyUndo(UnityEngine::Timeline::TimelineAsset timeline, UnityEngine::Object thingToDirty, UnityEngine::Object objectToDestroy) ;
 
 /// @brief Method PushUndo addr 0x2ad9dc8 size 0x4 virtual false final false
-static void PushUndo(::ArrayW<::UnityEngine::Object> thingsToDirty, ::StringW operation) ;
+static void PushUndo(::ArrayW<UnityEngine::Object> thingsToDirty, ::StringW operation) ;
 
 /// @brief Method PushUndo addr 0x2ad9dcc size 0x4 virtual false final false
-static void PushUndo(::UnityEngine::Object thingToDirty, ::StringW operation) ;
+static void PushUndo(UnityEngine::Object thingToDirty, ::StringW operation) ;
 
 /// @brief Method RegisterCreatedObjectUndo addr 0x2ad9dd0 size 0x4 virtual false final false
-static void RegisterCreatedObjectUndo(::UnityEngine::Object thingCreated, ::StringW operation) ;
+static void RegisterCreatedObjectUndo(UnityEngine::Object thingCreated, ::StringW operation) ;
 
 /// @brief Method UndoName addr 0x2ad9dd4 size 0x4c virtual false final false
 static ::StringW UndoName(::StringW name) ;
@@ -75,6 +74,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Timeline::TimelineUndo);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::TimelineUndo, "UnityEngine.Timeline", "TimelineUndo");
+NEED_NO_BOX(UnityEngine::Timeline::TimelineUndo);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineUndo, "UnityEngine.Timeline", "TimelineUndo");

@@ -4,18 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine::UI {
-class Image;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace UnityEngine {
 class Animator;
 }
 namespace GlobalNamespace {
 class IScoreController;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace UnityEngine::UI {
+class Image;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,7 +26,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5143))
 // CS Name: ScoreMultiplierUIController
-class CORDL_TYPE ScoreMultiplierUIController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ScoreMultiplierUIController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -42,7 +41,7 @@ constexpr ScoreMultiplierUIController(ScoreMultiplierUIController const& ) noexc
 constexpr ScoreMultiplierUIController(ScoreMultiplierUIController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ScoreMultiplierUIController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ScoreMultiplierUIController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -63,29 +62,29 @@ constexpr explicit ScoreMultiplierUIController(void* ptr) noexcept : ::UnityEngi
 
 // Fields
 
- ::ArrayW<::TMPro::TextMeshProUGUI> __declspec(property(get=__get__multiplierTexts, put=__set__multiplierTexts))  _multiplierTexts;
+ ::ArrayW<TMPro::TextMeshProUGUI> __declspec(property(get=__get__multiplierTexts, put=__set__multiplierTexts))  _multiplierTexts;
 
-constexpr void __set__multiplierTexts(::ArrayW<::TMPro::TextMeshProUGUI> value) ;
+constexpr void __set__multiplierTexts(::ArrayW<TMPro::TextMeshProUGUI> value) ;
 
-constexpr ::ArrayW<::TMPro::TextMeshProUGUI> __get__multiplierTexts() const;
+constexpr ::ArrayW<TMPro::TextMeshProUGUI> __get__multiplierTexts() const;
 
- ::UnityEngine::UI::Image __declspec(property(get=__get__multiplierProgressImage, put=__set__multiplierProgressImage))  _multiplierProgressImage;
+ UnityEngine::UI::Image __declspec(property(get=__get__multiplierProgressImage, put=__set__multiplierProgressImage))  _multiplierProgressImage;
 
-constexpr void __set__multiplierProgressImage(::UnityEngine::UI::Image value) ;
+constexpr void __set__multiplierProgressImage(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get__multiplierProgressImage() const;
+constexpr UnityEngine::UI::Image __get__multiplierProgressImage() const;
 
- ::UnityEngine::Animator __declspec(property(get=__get__multiplierAnimator, put=__set__multiplierAnimator))  _multiplierAnimator;
+ UnityEngine::Animator __declspec(property(get=__get__multiplierAnimator, put=__set__multiplierAnimator))  _multiplierAnimator;
 
-constexpr void __set__multiplierAnimator(::UnityEngine::Animator value) ;
+constexpr void __set__multiplierAnimator(UnityEngine::Animator value) ;
 
-constexpr ::UnityEngine::Animator __get__multiplierAnimator() const;
+constexpr UnityEngine::Animator __get__multiplierAnimator() const;
 
- ::GlobalNamespace::IScoreController __declspec(property(get=__get__scoreController, put=__set__scoreController))  _scoreController;
+ GlobalNamespace::IScoreController __declspec(property(get=__get__scoreController, put=__set__scoreController))  _scoreController;
 
-constexpr void __set__scoreController(::GlobalNamespace::IScoreController value) ;
+constexpr void __set__scoreController(GlobalNamespace::IScoreController value) ;
 
-constexpr ::GlobalNamespace::IScoreController __get__scoreController() const;
+constexpr GlobalNamespace::IScoreController __get__scoreController() const;
 
  int32_t __declspec(property(get=__get__prevMultiplier, put=__set__prevMultiplier))  _prevMultiplier;
 
@@ -139,6 +138,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ScoreMultiplierUIController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ScoreMultiplierUIController, "", "ScoreMultiplierUIController");
+NEED_NO_BOX(GlobalNamespace::ScoreMultiplierUIController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreMultiplierUIController, "", "ScoreMultiplierUIController");

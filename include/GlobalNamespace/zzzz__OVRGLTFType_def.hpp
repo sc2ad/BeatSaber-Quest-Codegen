@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 struct OVRGLTFType;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field NONE offset 0
-static ::GlobalNamespace::OVRGLTFType const NONE;
+static GlobalNamespace::OVRGLTFType const NONE;
 
 /// @brief Field SCALAR offset 0
-static ::GlobalNamespace::OVRGLTFType const SCALAR;
+static GlobalNamespace::OVRGLTFType const SCALAR;
 
 /// @brief Field VEC2 offset 0
-static ::GlobalNamespace::OVRGLTFType const VEC2;
+static GlobalNamespace::OVRGLTFType const VEC2;
 
 /// @brief Field VEC3 offset 0
-static ::GlobalNamespace::OVRGLTFType const VEC3;
+static GlobalNamespace::OVRGLTFType const VEC3;
 
 /// @brief Field VEC4 offset 0
-static ::GlobalNamespace::OVRGLTFType const VEC4;
+static GlobalNamespace::OVRGLTFType const VEC4;
 
 /// @brief Field MAT4 offset 0
-static ::GlobalNamespace::OVRGLTFType const MAT4;
+static GlobalNamespace::OVRGLTFType const MAT4;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRGLTFType, "", "OVRGLTFType");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRGLTFType, "", "OVRGLTFType");

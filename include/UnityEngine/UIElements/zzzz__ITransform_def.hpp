@@ -1,6 +1,5 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -26,26 +25,25 @@ constexpr explicit ITransform(void* ptr) noexcept : ::cordl_internals::Interface
 
 // Properties
 
- ::UnityEngine::Vector3 __declspec(property(get=get_position, put=set_position))  position;
+ UnityEngine::Vector3 __declspec(property(get=get_position, put=set_position))  position;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_scale))  scale;
+ UnityEngine::Vector3 __declspec(property(get=get_scale))  scale;
 
 
 // Methods
 
 /// @brief Method get_position addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Vector3 get_position() ;
+ UnityEngine::Vector3 get_position() ;
 
 /// @brief Method set_position addr 0x0 size 0xffffffffffffffff virtual true final false
- void set_position(::UnityEngine::Vector3 value) ;
+ void set_position(UnityEngine::Vector3 value) ;
 
 /// @brief Method get_scale addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Vector3 get_scale() ;
+ UnityEngine::Vector3 get_scale() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::ITransform);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ITransform, "UnityEngine.UIElements", "ITransform");
+NEED_NO_BOX(UnityEngine::UIElements::ITransform);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::ITransform, "UnityEngine.UIElements", "ITransform");

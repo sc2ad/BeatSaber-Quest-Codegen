@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class EnvironmentSceneSetupData;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11080))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5081))
 // CS Name: VideoProjectionInstaller
-class CORDL_TYPE VideoProjectionInstaller : public ::Zenject::MonoInstaller {
+class CORDL_TYPE VideoProjectionInstaller : public Zenject::MonoInstaller {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr VideoProjectionInstaller(VideoProjectionInstaller const& ) noexcept = 
 constexpr VideoProjectionInstaller(VideoProjectionInstaller&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit VideoProjectionInstaller(void* ptr) noexcept : ::Zenject::MonoInstaller(ptr) {
+constexpr explicit VideoProjectionInstaller(void* ptr) noexcept : Zenject::MonoInstaller(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit VideoProjectionInstaller(void* ptr) noexcept : ::Zenject::Mon
 
 // Fields
 
- ::GlobalNamespace::EnvironmentSceneSetupData __declspec(property(get=__get__sceneSetupData, put=__set__sceneSetupData))  _sceneSetupData;
+ GlobalNamespace::EnvironmentSceneSetupData __declspec(property(get=__get__sceneSetupData, put=__set__sceneSetupData))  _sceneSetupData;
 
-constexpr void __set__sceneSetupData(::GlobalNamespace::EnvironmentSceneSetupData value) ;
+constexpr void __set__sceneSetupData(GlobalNamespace::EnvironmentSceneSetupData value) ;
 
-constexpr ::GlobalNamespace::EnvironmentSceneSetupData __get__sceneSetupData() const;
+constexpr GlobalNamespace::EnvironmentSceneSetupData __get__sceneSetupData() const;
 
 
 // Methods
@@ -73,6 +72,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::VideoProjectionInstaller);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::VideoProjectionInstaller, "", "VideoProjectionInstaller");
+NEED_NO_BOX(GlobalNamespace::VideoProjectionInstaller);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VideoProjectionInstaller, "", "VideoProjectionInstaller");

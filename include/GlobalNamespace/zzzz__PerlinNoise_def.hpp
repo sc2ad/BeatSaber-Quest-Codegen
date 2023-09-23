@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class PerlinNoise;
@@ -94,6 +93,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PerlinNoise);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PerlinNoise, "", "PerlinNoise");
+NEED_NO_BOX(GlobalNamespace::PerlinNoise);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PerlinNoise, "", "PerlinNoise");

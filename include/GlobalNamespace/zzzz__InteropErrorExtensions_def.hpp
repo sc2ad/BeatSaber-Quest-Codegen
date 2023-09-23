@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace GlobalNamespace {
-struct ____GlobalNamespace__Interop__ErrorInfo;
+struct GlobalNamespace__Interop__ErrorInfo;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__Interop__Error;
+struct GlobalNamespace__Interop__Error;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -55,12 +54,11 @@ constexpr explicit InteropErrorExtensions(void* ptr) noexcept : ::bs_hook::Il2Cp
 // Methods
 
 /// @brief Method Info addr 0x22a4750 size 0x8 virtual false final false
-static ::GlobalNamespace::____GlobalNamespace__Interop__ErrorInfo Info(::GlobalNamespace::____GlobalNamespace__Interop__Error error) ;
+static GlobalNamespace::GlobalNamespace__Interop__ErrorInfo Info(GlobalNamespace::GlobalNamespace__Interop__Error error) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::InteropErrorExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::InteropErrorExtensions, "", "InteropErrorExtensions");
+NEED_NO_BOX(GlobalNamespace::InteropErrorExtensions);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::InteropErrorExtensions, "", "InteropErrorExtensions");

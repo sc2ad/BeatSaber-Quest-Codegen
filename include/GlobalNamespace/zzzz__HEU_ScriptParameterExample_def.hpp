@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
 namespace HoudiniEngineUnity {
 class HEU_HoudiniAsset;
 }
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9533))
 // CS Name: HEU_ScriptParameterExample
-class CORDL_TYPE HEU_ScriptParameterExample : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE HEU_ScriptParameterExample : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr HEU_ScriptParameterExample(HEU_ScriptParameterExample const& ) noexcep
 constexpr HEU_ScriptParameterExample(HEU_ScriptParameterExample&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HEU_ScriptParameterExample(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit HEU_ScriptParameterExample(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -55,17 +54,17 @@ constexpr explicit HEU_ScriptParameterExample(void* ptr) noexcept : ::UnityEngin
 
 // Fields
 
- ::UnityEngine::GameObject __declspec(property(get=__get__evergreenGameObject, put=__set__evergreenGameObject))  _evergreenGameObject;
+ UnityEngine::GameObject __declspec(property(get=__get__evergreenGameObject, put=__set__evergreenGameObject))  _evergreenGameObject;
 
-constexpr void __set__evergreenGameObject(::UnityEngine::GameObject value) ;
+constexpr void __set__evergreenGameObject(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__evergreenGameObject() const;
+constexpr UnityEngine::GameObject __get__evergreenGameObject() const;
 
- ::HoudiniEngineUnity::HEU_HoudiniAsset __declspec(property(get=__get__evergreenAsset, put=__set__evergreenAsset))  _evergreenAsset;
+ HoudiniEngineUnity::HEU_HoudiniAsset __declspec(property(get=__get__evergreenAsset, put=__set__evergreenAsset))  _evergreenAsset;
 
-constexpr void __set__evergreenAsset(::HoudiniEngineUnity::HEU_HoudiniAsset value) ;
+constexpr void __set__evergreenAsset(HoudiniEngineUnity::HEU_HoudiniAsset value) ;
 
-constexpr ::HoudiniEngineUnity::HEU_HoudiniAsset __get__evergreenAsset() const;
+constexpr HoudiniEngineUnity::HEU_HoudiniAsset __get__evergreenAsset() const;
 
  float_t __declspec(property(get=__get__updateRate, put=__set__updateRate))  _updateRate;
 
@@ -98,6 +97,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::HEU_ScriptParameterExample);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::HEU_ScriptParameterExample, "", "HEU_ScriptParameterExample");
+NEED_NO_BOX(GlobalNamespace::HEU_ScriptParameterExample);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HEU_ScriptParameterExample, "", "HEU_ScriptParameterExample");

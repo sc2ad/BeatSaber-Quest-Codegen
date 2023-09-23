@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace RootMotion::FinalIK {
 class IK;
 }
@@ -19,7 +18,7 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12479))
 // CS Name: RootMotion.FinalIK.IKExecutionOrder
-class CORDL_TYPE IKExecutionOrder : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE IKExecutionOrder : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr IKExecutionOrder(IKExecutionOrder const& ) noexcept = default;
 constexpr IKExecutionOrder(IKExecutionOrder&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit IKExecutionOrder(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit IKExecutionOrder(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -55,17 +54,17 @@ constexpr explicit IKExecutionOrder(void* ptr) noexcept : ::UnityEngine::MonoBeh
 
 // Fields
 
- ::ArrayW<::RootMotion::FinalIK::IK> __declspec(property(get=__get_IKComponents, put=__set_IKComponents))  IKComponents;
+ ::ArrayW<RootMotion::FinalIK::IK> __declspec(property(get=__get_IKComponents, put=__set_IKComponents))  IKComponents;
 
-constexpr void __set_IKComponents(::ArrayW<::RootMotion::FinalIK::IK> value) ;
+constexpr void __set_IKComponents(::ArrayW<RootMotion::FinalIK::IK> value) ;
 
-constexpr ::ArrayW<::RootMotion::FinalIK::IK> __get_IKComponents() const;
+constexpr ::ArrayW<RootMotion::FinalIK::IK> __get_IKComponents() const;
 
- ::UnityEngine::Animator __declspec(property(get=__get_animator, put=__set_animator))  animator;
+ UnityEngine::Animator __declspec(property(get=__get_animator, put=__set_animator))  animator;
 
-constexpr void __set_animator(::UnityEngine::Animator value) ;
+constexpr void __set_animator(UnityEngine::Animator value) ;
 
-constexpr ::UnityEngine::Animator __get_animator() const;
+constexpr UnityEngine::Animator __get_animator() const;
 
  bool __declspec(property(get=__get_fixedFrame, put=__set_fixedFrame))  fixedFrame;
 
@@ -109,6 +108,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::IKExecutionOrder);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::IKExecutionOrder, "RootMotion.FinalIK", "IKExecutionOrder");
+NEED_NO_BOX(RootMotion::FinalIK::IKExecutionOrder);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKExecutionOrder, "RootMotion.FinalIK", "IKExecutionOrder");

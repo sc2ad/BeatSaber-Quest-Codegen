@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__IntegratedSubsystem_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 template<typename TSubsystemDescriptor>
@@ -20,7 +19,7 @@ template<::cordl_internals::il2cpp_reference_type TSubsystemDescriptor>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15849)), TypeDefinitionIndex(TypeDefinitionIndex(15848))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15849), inst: 2 })
 // CS Name: UnityEngine.IntegratedSubsystem`1
-class CORDL_TYPE IntegratedSubsystem_1<TSubsystemDescriptor> : public ::UnityEngine::IntegratedSubsystem {
+class CORDL_TYPE IntegratedSubsystem_1<TSubsystemDescriptor> : public UnityEngine::IntegratedSubsystem {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr IntegratedSubsystem_1(IntegratedSubsystem_1 const& ) noexcept = defaul
 constexpr IntegratedSubsystem_1(IntegratedSubsystem_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit IntegratedSubsystem_1(void* ptr) noexcept : ::UnityEngine::IntegratedSubsystem(ptr) {
+constexpr explicit IntegratedSubsystem_1(void* ptr) noexcept : UnityEngine::IntegratedSubsystem(ptr) {
 }
 
 
@@ -79,5 +78,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::IntegratedSubsystem_1, "UnityEngine", "IntegratedSubsystem`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::IntegratedSubsystem_1, "UnityEngine", "IntegratedSubsystem`1");

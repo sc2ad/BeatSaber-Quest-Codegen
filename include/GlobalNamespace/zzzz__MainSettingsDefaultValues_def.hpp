@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 class MainSettingsModelSO;
 }
@@ -141,7 +140,7 @@ static constexpr int32_t  kDefaultPauseButtonPressDurationLevel{0};
 // Methods
 
 /// @brief Method SetFixedDefaultValues addr 0x21ef7e4 size 0x154 virtual false final false
-static void SetFixedDefaultValues(::GlobalNamespace::MainSettingsModelSO mainSettingsModel) ;
+static void SetFixedDefaultValues(GlobalNamespace::MainSettingsModelSO mainSettingsModel) ;
 
 // Ctor Parameters []
 explicit MainSettingsDefaultValues() ;
@@ -153,6 +152,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MainSettingsDefaultValues);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MainSettingsDefaultValues, "", "MainSettingsDefaultValues");
+NEED_NO_BOX(GlobalNamespace::MainSettingsDefaultValues);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsDefaultValues, "", "MainSettingsDefaultValues");

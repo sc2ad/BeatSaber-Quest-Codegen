@@ -4,33 +4,32 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace Tweening {
-class SongTimeTweeningManager;
-}
-namespace Tweening {
-class Vector3Tween;
-}
-namespace GlobalNamespace {
-class BeatmapCallbacksController;
-}
 namespace GlobalNamespace {
 struct BasicBeatmapEventType;
 }
-namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
-}
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine {
-class Transform;
 }
 namespace GlobalNamespace {
 struct EaseType;
 }
 namespace GlobalNamespace {
 class BasicBeatmapEventData;
+}
+namespace Tweening {
+class SongTimeTweeningManager;
+}
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace Tweening {
+class Vector3Tween;
+}
+namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -42,7 +41,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5071))
 // CS Name: SmoothStepPositionGroupEventEffect
-class CORDL_TYPE SmoothStepPositionGroupEventEffect : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SmoothStepPositionGroupEventEffect : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -57,7 +56,7 @@ constexpr SmoothStepPositionGroupEventEffect(SmoothStepPositionGroupEventEffect 
 constexpr SmoothStepPositionGroupEventEffect(SmoothStepPositionGroupEventEffect&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SmoothStepPositionGroupEventEffect(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SmoothStepPositionGroupEventEffect(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -78,17 +77,17 @@ constexpr explicit SmoothStepPositionGroupEventEffect(void* ptr) noexcept : ::Un
 
 // Fields
 
- ::GlobalNamespace::BasicBeatmapEventType __declspec(property(get=__get__event, put=__set__event))  _event;
+ GlobalNamespace::BasicBeatmapEventType __declspec(property(get=__get__event, put=__set__event))  _event;
 
-constexpr void __set__event(::GlobalNamespace::BasicBeatmapEventType value) ;
+constexpr void __set__event(GlobalNamespace::BasicBeatmapEventType value) ;
 
-constexpr ::GlobalNamespace::BasicBeatmapEventType __get__event() const;
+constexpr GlobalNamespace::BasicBeatmapEventType __get__event() const;
 
- ::ArrayW<::UnityEngine::Transform> __declspec(property(get=__get__elements, put=__set__elements))  _elements;
+ ::ArrayW<UnityEngine::Transform> __declspec(property(get=__get__elements, put=__set__elements))  _elements;
 
-constexpr void __set__elements(::ArrayW<::UnityEngine::Transform> value) ;
+constexpr void __set__elements(::ArrayW<UnityEngine::Transform> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Transform> __get__elements() const;
+constexpr ::ArrayW<UnityEngine::Transform> __get__elements() const;
 
  bool __declspec(property(get=__get__clampValue, put=__set__clampValue))  _clampValue;
 
@@ -108,17 +107,17 @@ constexpr void __set__eventValueMax(int32_t value) ;
 
 constexpr int32_t __get__eventValueMax() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__baseOffset, put=__set__baseOffset))  _baseOffset;
+ UnityEngine::Vector3 __declspec(property(get=__get__baseOffset, put=__set__baseOffset))  _baseOffset;
 
-constexpr void __set__baseOffset(::UnityEngine::Vector3 value) ;
+constexpr void __set__baseOffset(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__baseOffset() const;
+constexpr UnityEngine::Vector3 __get__baseOffset() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__movementVector, put=__set__movementVector))  _movementVector;
+ UnityEngine::Vector3 __declspec(property(get=__get__movementVector, put=__set__movementVector))  _movementVector;
 
-constexpr void __set__movementVector(::UnityEngine::Vector3 value) ;
+constexpr void __set__movementVector(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__movementVector() const;
+constexpr UnityEngine::Vector3 __get__movementVector() const;
 
  float_t __declspec(property(get=__get__stepSize, put=__set__stepSize))  _stepSize;
 
@@ -126,47 +125,47 @@ constexpr void __set__stepSize(float_t value) ;
 
 constexpr float_t __get__stepSize() const;
 
- ::GlobalNamespace::EaseType __declspec(property(get=__get__easeType, put=__set__easeType))  _easeType;
+ GlobalNamespace::EaseType __declspec(property(get=__get__easeType, put=__set__easeType))  _easeType;
 
-constexpr void __set__easeType(::GlobalNamespace::EaseType value) ;
+constexpr void __set__easeType(GlobalNamespace::EaseType value) ;
 
-constexpr ::GlobalNamespace::EaseType __get__easeType() const;
+constexpr GlobalNamespace::EaseType __get__easeType() const;
 
- ::GlobalNamespace::BeatmapCallbacksController __declspec(property(get=__get__beatmapCallbacksController, put=__set__beatmapCallbacksController))  _beatmapCallbacksController;
+ GlobalNamespace::BeatmapCallbacksController __declspec(property(get=__get__beatmapCallbacksController, put=__set__beatmapCallbacksController))  _beatmapCallbacksController;
 
-constexpr void __set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController value) ;
+constexpr void __set__beatmapCallbacksController(GlobalNamespace::BeatmapCallbacksController value) ;
 
-constexpr ::GlobalNamespace::BeatmapCallbacksController __get__beatmapCallbacksController() const;
+constexpr GlobalNamespace::BeatmapCallbacksController __get__beatmapCallbacksController() const;
 
- ::Tweening::SongTimeTweeningManager __declspec(property(get=__get__tweeningManager, put=__set__tweeningManager))  _tweeningManager;
+ Tweening::SongTimeTweeningManager __declspec(property(get=__get__tweeningManager, put=__set__tweeningManager))  _tweeningManager;
 
-constexpr void __set__tweeningManager(::Tweening::SongTimeTweeningManager value) ;
+constexpr void __set__tweeningManager(Tweening::SongTimeTweeningManager value) ;
 
-constexpr ::Tweening::SongTimeTweeningManager __get__tweeningManager() const;
+constexpr Tweening::SongTimeTweeningManager __get__tweeningManager() const;
 
- ::Tweening::Vector3Tween __declspec(property(get=__get__positionTween, put=__set__positionTween))  _positionTween;
+ Tweening::Vector3Tween __declspec(property(get=__get__positionTween, put=__set__positionTween))  _positionTween;
 
-constexpr void __set__positionTween(::Tweening::Vector3Tween value) ;
+constexpr void __set__positionTween(Tweening::Vector3Tween value) ;
 
-constexpr ::Tweening::Vector3Tween __get__positionTween() const;
+constexpr Tweening::Vector3Tween __get__positionTween() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
+ UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
 
-constexpr void __set__transform(::UnityEngine::Transform value) ;
+constexpr void __set__transform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__transform() const;
+constexpr UnityEngine::Transform __get__transform() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__startPos, put=__set__startPos))  _startPos;
+ UnityEngine::Vector3 __declspec(property(get=__get__startPos, put=__set__startPos))  _startPos;
 
-constexpr void __set__startPos(::UnityEngine::Vector3 value) ;
+constexpr void __set__startPos(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__startPos() const;
+constexpr UnityEngine::Vector3 __get__startPos() const;
 
- ::GlobalNamespace::BeatmapDataCallbackWrapper __declspec(property(get=__get__beatmapDataCallbackWrapper, put=__set__beatmapDataCallbackWrapper))  _beatmapDataCallbackWrapper;
+ GlobalNamespace::BeatmapDataCallbackWrapper __declspec(property(get=__get__beatmapDataCallbackWrapper, put=__set__beatmapDataCallbackWrapper))  _beatmapDataCallbackWrapper;
 
-constexpr void __set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper value) ;
+constexpr void __set__beatmapDataCallbackWrapper(GlobalNamespace::BeatmapDataCallbackWrapper value) ;
 
-constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallbackWrapper() const;
+constexpr GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallbackWrapper() const;
 
 
 // Methods
@@ -181,13 +180,13 @@ constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallba
  void OnDestroy() ;
 
 /// @brief Method HandleBeatmapEvent addr 0x2267bf0 size 0xdc virtual false final false
- void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData basicBeatmapEventData) ;
+ void HandleBeatmapEvent(GlobalNamespace::BasicBeatmapEventData basicBeatmapEventData) ;
 
 /// @brief Method GetPositionForValue addr 0x2267ccc size 0x5c virtual false final false
- ::UnityEngine::Vector3 GetPositionForValue(int32_t value) ;
+ UnityEngine::Vector3 GetPositionForValue(int32_t value) ;
 
 /// @brief Method SetPosition addr 0x2267d28 size 0x8c virtual false final false
- void SetPosition(::UnityEngine::Vector3 position) ;
+ void SetPosition(UnityEngine::Vector3 position) ;
 
 // Ctor Parameters []
 explicit SmoothStepPositionGroupEventEffect() ;
@@ -199,6 +198,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SmoothStepPositionGroupEventEffect);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SmoothStepPositionGroupEventEffect, "", "SmoothStepPositionGroupEventEffect");
+NEED_NO_BOX(GlobalNamespace::SmoothStepPositionGroupEventEffect);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SmoothStepPositionGroupEventEffect, "", "SmoothStepPositionGroupEventEffect");

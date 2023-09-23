@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 struct OffsetDirection;
@@ -74,35 +73,34 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Up offset 0
-static ::GlobalNamespace::OffsetDirection const Up;
+static GlobalNamespace::OffsetDirection const Up;
 
 /// @brief Field Down offset 0
-static ::GlobalNamespace::OffsetDirection const Down;
+static GlobalNamespace::OffsetDirection const Down;
 
 /// @brief Field Left offset 0
-static ::GlobalNamespace::OffsetDirection const Left;
+static GlobalNamespace::OffsetDirection const Left;
 
 /// @brief Field Right offset 0
-static ::GlobalNamespace::OffsetDirection const Right;
+static GlobalNamespace::OffsetDirection const Right;
 
 /// @brief Field UpLeft offset 0
-static ::GlobalNamespace::OffsetDirection const UpLeft;
+static GlobalNamespace::OffsetDirection const UpLeft;
 
 /// @brief Field UpRight offset 0
-static ::GlobalNamespace::OffsetDirection const UpRight;
+static GlobalNamespace::OffsetDirection const UpRight;
 
 /// @brief Field DownLeft offset 0
-static ::GlobalNamespace::OffsetDirection const DownLeft;
+static GlobalNamespace::OffsetDirection const DownLeft;
 
 /// @brief Field DownRight offset 0
-static ::GlobalNamespace::OffsetDirection const DownRight;
+static GlobalNamespace::OffsetDirection const DownRight;
 
 /// @brief Field None offset 0
-static ::GlobalNamespace::OffsetDirection const None;
+static GlobalNamespace::OffsetDirection const None;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OffsetDirection, "", "OffsetDirection");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OffsetDirection, "", "OffsetDirection");

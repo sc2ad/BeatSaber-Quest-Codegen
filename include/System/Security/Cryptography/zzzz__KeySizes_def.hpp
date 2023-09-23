@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security::Cryptography {
 class KeySizes;
@@ -99,12 +98,11 @@ explicit KeySizes(int32_t minSize, int32_t maxSize, int32_t skipSize) ;
  bool IsLegal(int32_t keySize) ;
 
 /// @brief Method IsLegalKeySize addr 0x22efe28 size 0x80 virtual false final false
-static bool IsLegalKeySize(::ArrayW<::System::Security::Cryptography::KeySizes> legalKeys, int32_t size) ;
+static bool IsLegalKeySize(::ArrayW<System::Security::Cryptography::KeySizes> legalKeys, int32_t size) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::KeySizes);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::KeySizes, "System.Security.Cryptography", "KeySizes");
+NEED_NO_BOX(System::Security::Cryptography::KeySizes);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::KeySizes, "System.Security.Cryptography", "KeySizes");

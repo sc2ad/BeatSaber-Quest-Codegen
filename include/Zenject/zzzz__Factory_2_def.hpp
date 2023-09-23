@@ -3,7 +3,6 @@
 #include "Zenject/zzzz__PlaceholderFactory_2_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace Zenject {
 class InjectTypeInfo;
 }
@@ -22,10 +21,10 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10948)), TypeDefinitionIndex(TypeDefinitionIndex(10947)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10947), inst: 3360 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10947)), TypeDefinitionIndex(TypeDefinitionIndex(10948)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10947), inst: 3360 })}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10948), inst: 80 })
 // CS Name: Zenject.Factory`2
-class CORDL_TYPE Factory_2<TParam1,TValue> : public ::Zenject::PlaceholderFactory_2<TParam1,TValue> {
+class CORDL_TYPE Factory_2<TParam1,TValue> : public Zenject::PlaceholderFactory_2<TParam1,TValue> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr Factory_2(Factory_2 const& ) noexcept = default;
 constexpr Factory_2(Factory_2&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Factory_2(void* ptr) noexcept : ::Zenject::PlaceholderFactory_2<TParam1,TValue>(ptr) {
+constexpr explicit Factory_2(void* ptr) noexcept : Zenject::PlaceholderFactory_2<TParam1,TValue>(ptr) {
 }
 
 
@@ -71,11 +70,10 @@ explicit Factory_2() ;
 static ::bs_hook::Il2CppWrapperType __zenCreate(::ArrayW<::bs_hook::Il2CppWrapperType> P_0) ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::Factory_2, "Zenject", "Factory`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::Factory_2, "Zenject", "Factory`2");

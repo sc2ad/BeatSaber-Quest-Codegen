@@ -2,18 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__TableCell_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
-namespace UnityEngine::UI {
-class Button;
+namespace GlobalNamespace {
+class INetworkPlayer;
 }
 namespace HMUI {
 class ButtonBinder;
 }
+namespace UnityEngine::UI {
+class Button;
+}
 namespace TMPro {
 class TextMeshProUGUI;
-}
-namespace GlobalNamespace {
-class INetworkPlayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,7 +24,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13715))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5672))
 // CS Name: NetworkPlayerOptionsTableCell
-class CORDL_TYPE NetworkPlayerOptionsTableCell : public ::HMUI::TableCell {
+class CORDL_TYPE NetworkPlayerOptionsTableCell : public HMUI::TableCell {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr NetworkPlayerOptionsTableCell(NetworkPlayerOptionsTableCell const& ) n
 constexpr NetworkPlayerOptionsTableCell(NetworkPlayerOptionsTableCell&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NetworkPlayerOptionsTableCell(void* ptr) noexcept : ::HMUI::TableCell(ptr) {
+constexpr explicit NetworkPlayerOptionsTableCell(void* ptr) noexcept : HMUI::TableCell(ptr) {
 }
 
 
@@ -61,43 +60,43 @@ constexpr explicit NetworkPlayerOptionsTableCell(void* ptr) noexcept : ::HMUI::T
 
 // Fields
 
- ::ArrayW<::UnityEngine::UI::Button> __declspec(property(get=__get__buttons, put=__set__buttons))  _buttons;
+ ::ArrayW<UnityEngine::UI::Button> __declspec(property(get=__get__buttons, put=__set__buttons))  _buttons;
 
-constexpr void __set__buttons(::ArrayW<::UnityEngine::UI::Button> value) ;
+constexpr void __set__buttons(::ArrayW<UnityEngine::UI::Button> value) ;
 
-constexpr ::ArrayW<::UnityEngine::UI::Button> __get__buttons() const;
+constexpr ::ArrayW<UnityEngine::UI::Button> __get__buttons() const;
 
- ::ArrayW<::TMPro::TextMeshProUGUI> __declspec(property(get=__get__buttonTexts, put=__set__buttonTexts))  _buttonTexts;
+ ::ArrayW<TMPro::TextMeshProUGUI> __declspec(property(get=__get__buttonTexts, put=__set__buttonTexts))  _buttonTexts;
 
-constexpr void __set__buttonTexts(::ArrayW<::TMPro::TextMeshProUGUI> value) ;
+constexpr void __set__buttonTexts(::ArrayW<TMPro::TextMeshProUGUI> value) ;
 
-constexpr ::ArrayW<::TMPro::TextMeshProUGUI> __get__buttonTexts() const;
+constexpr ::ArrayW<TMPro::TextMeshProUGUI> __get__buttonTexts() const;
 
- ::HMUI::ButtonBinder __declspec(property(get=__get__buttonBinder, put=__set__buttonBinder))  _buttonBinder;
+ HMUI::ButtonBinder __declspec(property(get=__get__buttonBinder, put=__set__buttonBinder))  _buttonBinder;
 
-constexpr void __set__buttonBinder(::HMUI::ButtonBinder value) ;
+constexpr void __set__buttonBinder(HMUI::ButtonBinder value) ;
 
-constexpr ::HMUI::ButtonBinder __get__buttonBinder() const;
+constexpr HMUI::ButtonBinder __get__buttonBinder() const;
 
- ::GlobalNamespace::INetworkPlayer __declspec(property(get=__get__player, put=__set__player))  _player;
+ GlobalNamespace::INetworkPlayer __declspec(property(get=__get__player, put=__set__player))  _player;
 
-constexpr void __set__player(::GlobalNamespace::INetworkPlayer value) ;
+constexpr void __set__player(GlobalNamespace::INetworkPlayer value) ;
 
-constexpr ::GlobalNamespace::INetworkPlayer __get__player() const;
+constexpr GlobalNamespace::INetworkPlayer __get__player() const;
 
 
 // Properties
 
- ::GlobalNamespace::INetworkPlayer __declspec(property(get=get_player, put=set_player))  player;
+ GlobalNamespace::INetworkPlayer __declspec(property(get=get_player, put=set_player))  player;
 
 
 // Methods
 
 /// @brief Method get_player addr 0x214fd10 size 0x8 virtual false final false
- ::GlobalNamespace::INetworkPlayer get_player() ;
+ GlobalNamespace::INetworkPlayer get_player() ;
 
 /// @brief Method set_player addr 0x214fd18 size 0x8 virtual false final false
- void set_player(::GlobalNamespace::INetworkPlayer value) ;
+ void set_player(GlobalNamespace::INetworkPlayer value) ;
 
 /// @brief Method Refresh addr 0x214fd20 size 0xb74 virtual false final false
  void Refresh() ;
@@ -130,6 +129,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::NetworkPlayerOptionsTableCell);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NetworkPlayerOptionsTableCell, "", "NetworkPlayerOptionsTableCell");
+NEED_NO_BOX(GlobalNamespace::NetworkPlayerOptionsTableCell);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayerOptionsTableCell, "", "NetworkPlayerOptionsTableCell");

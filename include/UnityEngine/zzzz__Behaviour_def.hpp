@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__Component_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 class Behaviour;
@@ -12,7 +11,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10179))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10129))
 // CS Name: UnityEngine.Behaviour
-class CORDL_TYPE Behaviour : public ::UnityEngine::Component {
+class CORDL_TYPE Behaviour : public UnityEngine::Component {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr Behaviour(Behaviour const& ) noexcept = default;
 constexpr Behaviour(Behaviour&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Behaviour(void* ptr) noexcept : ::UnityEngine::Component(ptr) {
+constexpr explicit Behaviour(void* ptr) noexcept : UnityEngine::Component(ptr) {
 }
 
 
@@ -74,6 +73,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Behaviour);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Behaviour, "UnityEngine", "Behaviour");
+NEED_NO_BOX(UnityEngine::Behaviour);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Behaviour, "UnityEngine", "Behaviour");

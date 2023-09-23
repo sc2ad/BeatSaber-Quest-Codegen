@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct Ray2D;
-}
 namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine {
+struct Ray2D;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -58,12 +57,11 @@ constexpr explicit Ray2DExtensions(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 // Methods
 
 /// @brief Method CircleIntersections addr 0x1f79d70 size 0x22c virtual false final false
-static int32_t CircleIntersections(::UnityEngine::Ray2D ray, ::UnityEngine::Vector2 circleCenter, float_t radius, ::ArrayW<float_t> distances) ;
+static int32_t CircleIntersections(UnityEngine::Ray2D ray, UnityEngine::Vector2 circleCenter, float_t radius, ::ArrayW<float_t> distances) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::Ray2DExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::Ray2DExtensions, "", "Ray2DExtensions");
+NEED_NO_BOX(GlobalNamespace::Ray2DExtensions);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Ray2DExtensions, "", "Ray2DExtensions");

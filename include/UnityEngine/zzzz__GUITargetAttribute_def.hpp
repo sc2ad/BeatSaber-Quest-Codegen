@@ -3,7 +3,6 @@
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class Type;
 }
@@ -17,7 +16,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14779))
 // CS Name: UnityEngine.GUITargetAttribute
-class CORDL_TYPE GUITargetAttribute : public ::System::Attribute {
+class CORDL_TYPE GUITargetAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr GUITargetAttribute(GUITargetAttribute const& ) noexcept = default;
 constexpr GUITargetAttribute(GUITargetAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GUITargetAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit GUITargetAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -63,12 +62,11 @@ constexpr int32_t __get_displayMask() const;
 // Methods
 
 /// @brief Method GetGUITargetAttrValue addr 0x2b9055c size 0x180 virtual false final false
-static int32_t GetGUITargetAttrValue(::System::Type klass, ::StringW methodName) ;
+static int32_t GetGUITargetAttrValue(System::Type klass, ::StringW methodName) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::GUITargetAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::GUITargetAttribute, "UnityEngine", "GUITargetAttribute");
+NEED_NO_BOX(UnityEngine::GUITargetAttribute);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUITargetAttribute, "UnityEngine", "GUITargetAttribute");

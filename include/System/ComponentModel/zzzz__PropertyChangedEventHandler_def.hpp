@@ -3,7 +3,6 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::ComponentModel {
 class PropertyChangedEventArgs;
 }
@@ -17,7 +16,7 @@ namespace System::ComponentModel {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8318))
 // CS Name: System.ComponentModel.PropertyChangedEventHandler
-class CORDL_TYPE PropertyChangedEventHandler : public ::System::MulticastDelegate {
+class CORDL_TYPE PropertyChangedEventHandler : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr PropertyChangedEventHandler(PropertyChangedEventHandler const& ) noexc
 constexpr PropertyChangedEventHandler(PropertyChangedEventHandler&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PropertyChangedEventHandler(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit PropertyChangedEventHandler(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -60,12 +59,11 @@ explicit PropertyChangedEventHandler(::bs_hook::Il2CppWrapperType object, ::cord
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x27871dc size 0x14 virtual true final false
- void Invoke(::bs_hook::Il2CppWrapperType sender, ::System::ComponentModel::PropertyChangedEventArgs e) ;
+ void Invoke(::bs_hook::Il2CppWrapperType sender, System::ComponentModel::PropertyChangedEventArgs e) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::PropertyChangedEventHandler);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::PropertyChangedEventHandler, "System.ComponentModel", "PropertyChangedEventHandler");
+NEED_NO_BOX(System::ComponentModel::PropertyChangedEventHandler);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::PropertyChangedEventHandler, "System.ComponentModel", "PropertyChangedEventHandler");

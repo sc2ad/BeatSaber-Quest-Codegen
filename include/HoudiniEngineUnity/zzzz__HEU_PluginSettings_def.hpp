@@ -4,16 +4,15 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace HoudiniEngineUnity {
-struct SessionMode;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace HoudiniEngineUnity {
+struct SessionMode;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -107,13 +106,13 @@ static ::StringW __declspec(property(get=get_UnityInstanceAttr, put=set_UnityIns
 
 static ::StringW __declspec(property(get=get_UnityInputMeshAttr, put=set_UnityInputMeshAttr))  UnityInputMeshAttr;
 
-static ::UnityEngine::Color __declspec(property(get=get_LineColor, put=set_LineColor))  LineColor;
+static UnityEngine::Color __declspec(property(get=get_LineColor, put=set_LineColor))  LineColor;
 
 static ::StringW __declspec(property(get=get_EditorOnly_Tag, put=set_EditorOnly_Tag))  EditorOnly_Tag;
 
 static ::StringW __declspec(property(get=get_HDAData_Name, put=set_HDAData_Name))  HDAData_Name;
 
-static ::HoudiniEngineUnity::SessionMode __declspec(property(get=get_Session_Mode, put=set_Session_Mode))  Session_Mode;
+static HoudiniEngineUnity::SessionMode __declspec(property(get=get_Session_Mode, put=set_Session_Mode))  Session_Mode;
 
 static ::StringW __declspec(property(get=get_Session_PipeName, put=set_Session_PipeName))  Session_PipeName;
 
@@ -131,7 +130,7 @@ static ::StringW __declspec(property(get=get_AssetCachePath, put=set_AssetCacheP
 
 static bool __declspec(property(get=get_UseFullPathNamesForOutput, put=set_UseFullPathNamesForOutput))  UseFullPathNamesForOutput;
 
-static ::System::Collections::Generic::List_1<::StringW> __declspec(property(get=get_HEngineToolsShelves, put=set_HEngineToolsShelves))  HEngineToolsShelves;
+static System::Collections::Generic::List_1<::StringW> __declspec(property(get=get_HEngineToolsShelves, put=set_HEngineToolsShelves))  HEngineToolsShelves;
 
 static int32_t __declspec(property(get=get_HEngineShelfSelectedIndex, put=set_HEngineShelfSelectedIndex))  HEngineShelfSelectedIndex;
 
@@ -327,10 +326,10 @@ static ::StringW get_UnityInputMeshAttr() ;
 static void set_UnityInputMeshAttr(::StringW value) ;
 
 /// @brief Method get_LineColor addr 0x2019854 size 0x80 virtual false final false
-static ::UnityEngine::Color get_LineColor() ;
+static UnityEngine::Color get_LineColor() ;
 
 /// @brief Method set_LineColor addr 0x20198d4 size 0x84 virtual false final false
-static void set_LineColor(::UnityEngine::Color value) ;
+static void set_LineColor(UnityEngine::Color value) ;
 
 /// @brief Method get_EditorOnly_Tag addr 0x2013ca8 size 0x78 virtual false final false
 static ::StringW get_EditorOnly_Tag() ;
@@ -345,10 +344,10 @@ static ::StringW get_HDAData_Name() ;
 static void set_HDAData_Name(::StringW value) ;
 
 /// @brief Method get_Session_Mode addr 0x2019aa0 size 0x68 virtual false final false
-static ::HoudiniEngineUnity::SessionMode get_Session_Mode() ;
+static HoudiniEngineUnity::SessionMode get_Session_Mode() ;
 
 /// @brief Method set_Session_Mode addr 0x2019bfc size 0x54 virtual false final false
-static void set_Session_Mode(::HoudiniEngineUnity::SessionMode value) ;
+static void set_Session_Mode(HoudiniEngineUnity::SessionMode value) ;
 
 /// @brief Method get_Session_PipeName addr 0x2019d20 size 0x78 virtual false final false
 static ::StringW get_Session_PipeName() ;
@@ -399,10 +398,10 @@ static bool get_UseFullPathNamesForOutput() ;
 static void set_UseFullPathNamesForOutput(bool value) ;
 
 /// @brief Method get_HEngineToolsShelves addr 0x201a324 size 0x60 virtual false final false
-static ::System::Collections::Generic::List_1<::StringW> get_HEngineToolsShelves() ;
+static System::Collections::Generic::List_1<::StringW> get_HEngineToolsShelves() ;
 
 /// @brief Method set_HEngineToolsShelves addr 0x201a550 size 0x58 virtual false final false
-static void set_HEngineToolsShelves(::System::Collections::Generic::List_1<::StringW> value) ;
+static void set_HEngineToolsShelves(System::Collections::Generic::List_1<::StringW> value) ;
 
 /// @brief Method get_HEngineShelfSelectedIndex addr 0x201a6fc size 0x60 virtual false final false
 static int32_t get_HEngineShelfSelectedIndex() ;
@@ -564,6 +563,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_PluginSettings);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_PluginSettings, "HoudiniEngineUnity", "HEU_PluginSettings");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_PluginSettings);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_PluginSettings, "HoudiniEngineUnity", "HEU_PluginSettings");

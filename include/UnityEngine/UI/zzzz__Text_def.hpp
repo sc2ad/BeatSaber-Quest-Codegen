@@ -5,15 +5,38 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
-struct FontStyle;
+struct VerticalWrapMode;
 }
 namespace UnityEngine::UI {
 class VertexHelper;
 }
 namespace UnityEngine {
-class Texture;
+class Material;
+}
+namespace UnityEngine {
+struct TextGenerationSettings;
+}
+namespace UnityEngine {
+struct UIVertex;
+}
+namespace UnityEngine {
+class TextGenerator;
+}
+namespace UnityEngine::UI {
+class FontData;
+}
+namespace UnityEngine {
+struct TextAnchor;
+}
+namespace UnityEngine {
+struct FontStyle;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct HorizontalWrapMode;
 }
 namespace UnityEngine {
 class Font;
@@ -22,31 +45,7 @@ namespace UnityEngine::UI {
 class ILayoutElement;
 }
 namespace UnityEngine {
-struct TextAnchor;
-}
-namespace UnityEngine {
-struct TextGenerationSettings;
-}
-namespace UnityEngine {
-struct VerticalWrapMode;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::UI {
-class FontData;
-}
-namespace UnityEngine {
-struct UIVertex;
-}
-namespace UnityEngine {
-struct HorizontalWrapMode;
-}
-namespace UnityEngine {
-class TextGenerator;
-}
-namespace UnityEngine {
-class Material;
+class Texture;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -58,11 +57,11 @@ namespace UnityEngine::UI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13038))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13067))
 // CS Name: UnityEngine.UI.Text
-class CORDL_TYPE Text : public ::UnityEngine::UI::MaskableGraphic {
+class CORDL_TYPE Text : public UnityEngine::UI::MaskableGraphic {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::UI::ILayoutElement
-constexpr operator  ::UnityEngine::UI::ILayoutElement() const noexcept;
+/// @brief Convert operator to UnityEngine::UI::ILayoutElement
+constexpr operator  UnityEngine::UI::ILayoutElement() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x100};
@@ -76,7 +75,7 @@ constexpr Text(Text const& ) noexcept = default;
 constexpr Text(Text&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Text(void* ptr) noexcept : ::UnityEngine::UI::MaskableGraphic(ptr) {
+constexpr explicit Text(void* ptr) noexcept : UnityEngine::UI::MaskableGraphic(ptr) {
 }
 
 
@@ -97,11 +96,11 @@ constexpr explicit Text(void* ptr) noexcept : ::UnityEngine::UI::MaskableGraphic
 
 // Fields
 
- ::UnityEngine::UI::FontData __declspec(property(get=__get_m_FontData, put=__set_m_FontData))  m_FontData;
+ UnityEngine::UI::FontData __declspec(property(get=__get_m_FontData, put=__set_m_FontData))  m_FontData;
 
-constexpr void __set_m_FontData(::UnityEngine::UI::FontData value) ;
+constexpr void __set_m_FontData(UnityEngine::UI::FontData value) ;
 
-constexpr ::UnityEngine::UI::FontData __get_m_FontData() const;
+constexpr UnityEngine::UI::FontData __get_m_FontData() const;
 
  ::StringW __declspec(property(get=__get_m_Text, put=__set_m_Text))  m_Text;
 
@@ -109,23 +108,23 @@ constexpr void __set_m_Text(::StringW value) ;
 
 constexpr ::StringW __get_m_Text() const;
 
- ::UnityEngine::TextGenerator __declspec(property(get=__get_m_TextCache, put=__set_m_TextCache))  m_TextCache;
+ UnityEngine::TextGenerator __declspec(property(get=__get_m_TextCache, put=__set_m_TextCache))  m_TextCache;
 
-constexpr void __set_m_TextCache(::UnityEngine::TextGenerator value) ;
+constexpr void __set_m_TextCache(UnityEngine::TextGenerator value) ;
 
-constexpr ::UnityEngine::TextGenerator __get_m_TextCache() const;
+constexpr UnityEngine::TextGenerator __get_m_TextCache() const;
 
- ::UnityEngine::TextGenerator __declspec(property(get=__get_m_TextCacheForLayout, put=__set_m_TextCacheForLayout))  m_TextCacheForLayout;
+ UnityEngine::TextGenerator __declspec(property(get=__get_m_TextCacheForLayout, put=__set_m_TextCacheForLayout))  m_TextCacheForLayout;
 
-constexpr void __set_m_TextCacheForLayout(::UnityEngine::TextGenerator value) ;
+constexpr void __set_m_TextCacheForLayout(UnityEngine::TextGenerator value) ;
 
-constexpr ::UnityEngine::TextGenerator __get_m_TextCacheForLayout() const;
+constexpr UnityEngine::TextGenerator __get_m_TextCacheForLayout() const;
 
-static ::UnityEngine::Material __declspec(property(get=__get_s_DefaultText, put=__set_s_DefaultText))  s_DefaultText;
+static UnityEngine::Material __declspec(property(get=__get_s_DefaultText, put=__set_s_DefaultText))  s_DefaultText;
 
-static void __set_s_DefaultText(::UnityEngine::Material value) ;
+static void __set_s_DefaultText(UnityEngine::Material value) ;
 
-static ::UnityEngine::Material __get_s_DefaultText() ;
+static UnityEngine::Material __get_s_DefaultText() ;
 
  bool __declspec(property(get=__get_m_DisableFontTextureRebuiltCallback, put=__set_m_DisableFontTextureRebuiltCallback))  m_DisableFontTextureRebuiltCallback;
 
@@ -133,22 +132,22 @@ constexpr void __set_m_DisableFontTextureRebuiltCallback(bool value) ;
 
 constexpr bool __get_m_DisableFontTextureRebuiltCallback() const;
 
- ::ArrayW<::UnityEngine::UIVertex> __declspec(property(get=__get_m_TempVerts, put=__set_m_TempVerts))  m_TempVerts;
+ ::ArrayW<UnityEngine::UIVertex> __declspec(property(get=__get_m_TempVerts, put=__set_m_TempVerts))  m_TempVerts;
 
-constexpr void __set_m_TempVerts(::ArrayW<::UnityEngine::UIVertex> value) ;
+constexpr void __set_m_TempVerts(::ArrayW<UnityEngine::UIVertex> value) ;
 
-constexpr ::ArrayW<::UnityEngine::UIVertex> __get_m_TempVerts() const;
+constexpr ::ArrayW<UnityEngine::UIVertex> __get_m_TempVerts() const;
 
 
 // Properties
 
- ::UnityEngine::TextGenerator __declspec(property(get=get_cachedTextGenerator))  cachedTextGenerator;
+ UnityEngine::TextGenerator __declspec(property(get=get_cachedTextGenerator))  cachedTextGenerator;
 
- ::UnityEngine::TextGenerator __declspec(property(get=get_cachedTextGeneratorForLayout))  cachedTextGeneratorForLayout;
+ UnityEngine::TextGenerator __declspec(property(get=get_cachedTextGeneratorForLayout))  cachedTextGeneratorForLayout;
 
- ::UnityEngine::Texture __declspec(property(get=get_mainTexture))  mainTexture;
+ UnityEngine::Texture __declspec(property(get=get_mainTexture))  mainTexture;
 
- ::UnityEngine::Font __declspec(property(get=get_font, put=set_font))  font;
+ UnityEngine::Font __declspec(property(get=get_font, put=set_font))  font;
 
  ::StringW __declspec(property(get=get_text, put=set_text))  text;
 
@@ -160,19 +159,19 @@ constexpr ::ArrayW<::UnityEngine::UIVertex> __get_m_TempVerts() const;
 
  int32_t __declspec(property(get=get_resizeTextMaxSize, put=set_resizeTextMaxSize))  resizeTextMaxSize;
 
- ::UnityEngine::TextAnchor __declspec(property(get=get_alignment, put=set_alignment))  alignment;
+ UnityEngine::TextAnchor __declspec(property(get=get_alignment, put=set_alignment))  alignment;
 
  bool __declspec(property(get=get_alignByGeometry, put=set_alignByGeometry))  alignByGeometry;
 
  int32_t __declspec(property(get=get_fontSize, put=set_fontSize))  fontSize;
 
- ::UnityEngine::HorizontalWrapMode __declspec(property(get=get_horizontalOverflow, put=set_horizontalOverflow))  horizontalOverflow;
+ UnityEngine::HorizontalWrapMode __declspec(property(get=get_horizontalOverflow, put=set_horizontalOverflow))  horizontalOverflow;
 
- ::UnityEngine::VerticalWrapMode __declspec(property(get=get_verticalOverflow, put=set_verticalOverflow))  verticalOverflow;
+ UnityEngine::VerticalWrapMode __declspec(property(get=get_verticalOverflow, put=set_verticalOverflow))  verticalOverflow;
 
  float_t __declspec(property(get=get_lineSpacing, put=set_lineSpacing))  lineSpacing;
 
- ::UnityEngine::FontStyle __declspec(property(get=get_fontStyle, put=set_fontStyle))  fontStyle;
+ UnityEngine::FontStyle __declspec(property(get=get_fontStyle, put=set_fontStyle))  fontStyle;
 
  float_t __declspec(property(get=get_pixelsPerUnit))  pixelsPerUnit;
 
@@ -200,22 +199,22 @@ explicit Text() ;
  void _ctor() ;
 
 /// @brief Method get_cachedTextGenerator addr 0x2c11a18 size 0x98 virtual false final false
- ::UnityEngine::TextGenerator get_cachedTextGenerator() ;
+ UnityEngine::TextGenerator get_cachedTextGenerator() ;
 
 /// @brief Method get_cachedTextGeneratorForLayout addr 0x2c11ab0 size 0x6c virtual false final false
- ::UnityEngine::TextGenerator get_cachedTextGeneratorForLayout() ;
+ UnityEngine::TextGenerator get_cachedTextGeneratorForLayout() ;
 
 /// @brief Method get_mainTexture addr 0x2c11b1c size 0x1a8 virtual true final false
- ::UnityEngine::Texture get_mainTexture() ;
+ UnityEngine::Texture get_mainTexture() ;
 
 /// @brief Method FontTextureChanged addr 0x2c11ce0 size 0x10c virtual false final false
  void FontTextureChanged() ;
 
 /// @brief Method get_font addr 0x2c11cc4 size 0x1c virtual false final false
- ::UnityEngine::Font get_font() ;
+ UnityEngine::Font get_font() ;
 
 /// @brief Method set_font addr 0x2c11dec size 0x10c virtual false final false
- void set_font(::UnityEngine::Font value) ;
+ void set_font(UnityEngine::Font value) ;
 
 /// @brief Method get_text addr 0x2c11ef8 size 0x8 virtual true final false
  ::StringW get_text() ;
@@ -248,10 +247,10 @@ explicit Text() ;
  void set_resizeTextMaxSize(int32_t value) ;
 
 /// @brief Method get_alignment addr 0x2c121a0 size 0x1c virtual false final false
- ::UnityEngine::TextAnchor get_alignment() ;
+ UnityEngine::TextAnchor get_alignment() ;
 
 /// @brief Method set_alignment addr 0x2c121bc size 0x54 virtual false final false
- void set_alignment(::UnityEngine::TextAnchor value) ;
+ void set_alignment(UnityEngine::TextAnchor value) ;
 
 /// @brief Method get_alignByGeometry addr 0x2c12210 size 0x1c virtual false final false
  bool get_alignByGeometry() ;
@@ -266,16 +265,16 @@ explicit Text() ;
  void set_fontSize(int32_t value) ;
 
 /// @brief Method get_horizontalOverflow addr 0x2c122e4 size 0x1c virtual false final false
- ::UnityEngine::HorizontalWrapMode get_horizontalOverflow() ;
+ UnityEngine::HorizontalWrapMode get_horizontalOverflow() ;
 
 /// @brief Method set_horizontalOverflow addr 0x2c12300 size 0x54 virtual false final false
- void set_horizontalOverflow(::UnityEngine::HorizontalWrapMode value) ;
+ void set_horizontalOverflow(UnityEngine::HorizontalWrapMode value) ;
 
 /// @brief Method get_verticalOverflow addr 0x2c12354 size 0x1c virtual false final false
- ::UnityEngine::VerticalWrapMode get_verticalOverflow() ;
+ UnityEngine::VerticalWrapMode get_verticalOverflow() ;
 
 /// @brief Method set_verticalOverflow addr 0x2c12370 size 0x54 virtual false final false
- void set_verticalOverflow(::UnityEngine::VerticalWrapMode value) ;
+ void set_verticalOverflow(UnityEngine::VerticalWrapMode value) ;
 
 /// @brief Method get_lineSpacing addr 0x2c123c4 size 0x1c virtual false final false
  float_t get_lineSpacing() ;
@@ -284,10 +283,10 @@ explicit Text() ;
  void set_lineSpacing(float_t value) ;
 
 /// @brief Method get_fontStyle addr 0x2c12434 size 0x1c virtual false final false
- ::UnityEngine::FontStyle get_fontStyle() ;
+ UnityEngine::FontStyle get_fontStyle() ;
 
 /// @brief Method set_fontStyle addr 0x2c12450 size 0x54 virtual false final false
- void set_fontStyle(::UnityEngine::FontStyle value) ;
+ void set_fontStyle(UnityEngine::FontStyle value) ;
 
 /// @brief Method get_pixelsPerUnit addr 0x2c124a4 size 0x148 virtual false final false
  float_t get_pixelsPerUnit() ;
@@ -308,13 +307,13 @@ explicit Text() ;
  void AssignDefaultFontIfNecessary() ;
 
 /// @brief Method GetGenerationSettings addr 0x2c12880 size 0x1ec virtual false final false
- ::UnityEngine::TextGenerationSettings GetGenerationSettings(::UnityEngine::Vector2 extents) ;
+ UnityEngine::TextGenerationSettings GetGenerationSettings(UnityEngine::Vector2 extents) ;
 
 /// @brief Method GetTextAnchorPivot addr 0x2c12a6c size 0x6c virtual false final false
-static ::UnityEngine::Vector2 GetTextAnchorPivot(::UnityEngine::TextAnchor anchor) ;
+static UnityEngine::Vector2 GetTextAnchorPivot(UnityEngine::TextAnchor anchor) ;
 
 /// @brief Method OnPopulateMesh addr 0x2c12ad8 size 0x5f0 virtual true final false
- void OnPopulateMesh(::UnityEngine::UI::VertexHelper toFill) ;
+ void OnPopulateMesh(UnityEngine::UI::VertexHelper toFill) ;
 
 /// @brief Method CalculateLayoutInputHorizontal addr 0x2c131d8 size 0x4 virtual true final false
  void CalculateLayoutInputHorizontal() ;
@@ -347,6 +346,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UI
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UI::Text);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::Text, "UnityEngine.UI", "Text");
+NEED_NO_BOX(UnityEngine::UI::Text);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Text, "UnityEngine.UI", "Text");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace LiteNetLib {
 struct NetLogLevel;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Warning offset 0
-static ::LiteNetLib::NetLogLevel const Warning;
+static LiteNetLib::NetLogLevel const Warning;
 
 /// @brief Field Error offset 0
-static ::LiteNetLib::NetLogLevel const Error;
+static LiteNetLib::NetLogLevel const Error;
 
 /// @brief Field Trace offset 0
-static ::LiteNetLib::NetLogLevel const Trace;
+static LiteNetLib::NetLogLevel const Trace;
 
 /// @brief Field Info offset 0
-static ::LiteNetLib::NetLogLevel const Info;
+static LiteNetLib::NetLogLevel const Info;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::NetLogLevel, "LiteNetLib", "NetLogLevel");
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetLogLevel, "LiteNetLib", "NetLogLevel");

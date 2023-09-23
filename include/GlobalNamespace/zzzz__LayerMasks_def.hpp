@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct LayerMask;
 }
@@ -53,29 +52,29 @@ constexpr explicit LayerMasks(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType
 
 // Fields
 
-static ::UnityEngine::LayerMask __declspec(property(get=__get_saberLayerMask, put=__set_saberLayerMask))  saberLayerMask;
+static UnityEngine::LayerMask __declspec(property(get=__get_saberLayerMask, put=__set_saberLayerMask))  saberLayerMask;
 
-static void __set_saberLayerMask(::UnityEngine::LayerMask value) ;
+static void __set_saberLayerMask(UnityEngine::LayerMask value) ;
 
-static ::UnityEngine::LayerMask __get_saberLayerMask() ;
+static UnityEngine::LayerMask __get_saberLayerMask() ;
 
-static ::UnityEngine::LayerMask __declspec(property(get=__get_noteLayerMask, put=__set_noteLayerMask))  noteLayerMask;
+static UnityEngine::LayerMask __declspec(property(get=__get_noteLayerMask, put=__set_noteLayerMask))  noteLayerMask;
 
-static void __set_noteLayerMask(::UnityEngine::LayerMask value) ;
+static void __set_noteLayerMask(UnityEngine::LayerMask value) ;
 
-static ::UnityEngine::LayerMask __get_noteLayerMask() ;
+static UnityEngine::LayerMask __get_noteLayerMask() ;
 
-static ::UnityEngine::LayerMask __declspec(property(get=__get_noteDebrisLayerMask, put=__set_noteDebrisLayerMask))  noteDebrisLayerMask;
+static UnityEngine::LayerMask __declspec(property(get=__get_noteDebrisLayerMask, put=__set_noteDebrisLayerMask))  noteDebrisLayerMask;
 
-static void __set_noteDebrisLayerMask(::UnityEngine::LayerMask value) ;
+static void __set_noteDebrisLayerMask(UnityEngine::LayerMask value) ;
 
-static ::UnityEngine::LayerMask __get_noteDebrisLayerMask() ;
+static UnityEngine::LayerMask __get_noteDebrisLayerMask() ;
 
-static ::UnityEngine::LayerMask __declspec(property(get=__get_cutEffectParticlesLayerMask, put=__set_cutEffectParticlesLayerMask))  cutEffectParticlesLayerMask;
+static UnityEngine::LayerMask __declspec(property(get=__get_cutEffectParticlesLayerMask, put=__set_cutEffectParticlesLayerMask))  cutEffectParticlesLayerMask;
 
-static void __set_cutEffectParticlesLayerMask(::UnityEngine::LayerMask value) ;
+static void __set_cutEffectParticlesLayerMask(UnityEngine::LayerMask value) ;
 
-static ::UnityEngine::LayerMask __get_cutEffectParticlesLayerMask() ;
+static UnityEngine::LayerMask __get_cutEffectParticlesLayerMask() ;
 
 static int32_t __declspec(property(get=__get_noteDebrisLayer, put=__set_noteDebrisLayer))  noteDebrisLayer;
 
@@ -93,10 +92,10 @@ static int32_t __get_cutEffectParticlesLayer() ;
 // Methods
 
 /// @brief Method GetLayerMask addr 0x11a37f4 size 0x30 virtual false final false
-static ::UnityEngine::LayerMask GetLayerMask(::StringW layerName) ;
+static UnityEngine::LayerMask GetLayerMask(::StringW layerName) ;
 
 /// @brief Method GetLayerMask addr 0x11a3824 size 0x28 virtual false final false
-static ::UnityEngine::LayerMask GetLayerMask(int32_t layerNum) ;
+static UnityEngine::LayerMask GetLayerMask(int32_t layerNum) ;
 
 /// @brief Method GetLayer addr 0x11a384c size 0x8 virtual false final false
 static int32_t GetLayer(::StringW layerName) ;
@@ -111,6 +110,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LayerMasks);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LayerMasks, "", "LayerMasks");
+NEED_NO_BOX(GlobalNamespace::LayerMasks);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LayerMasks, "", "LayerMasks");

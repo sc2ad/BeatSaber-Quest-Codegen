@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class Array;
 }
@@ -55,13 +54,13 @@ constexpr explicit Buffer(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr
 // Methods
 
 /// @brief Method InternalBlockCopy addr 0x246daf0 size 0x4 virtual false final false
-static bool InternalBlockCopy(::System::Array src, int32_t srcOffsetBytes, ::System::Array dst, int32_t dstOffsetBytes, int32_t byteCount) ;
+static bool InternalBlockCopy(System::Array src, int32_t srcOffsetBytes, System::Array dst, int32_t dstOffsetBytes, int32_t byteCount) ;
 
 /// @brief Method IndexOfByte addr 0x246daf4 size 0x110 virtual false final false
 static int32_t IndexOfByte(void* src, uint8_t value, int32_t index, int32_t count) ;
 
 /// @brief Method _ByteLength addr 0x246dc04 size 0x4 virtual false final false
-static int32_t _ByteLength(::System::Array array) ;
+static int32_t _ByteLength(System::Array array) ;
 
 /// @brief Method ZeroMemory addr 0x246dc08 size 0x24 virtual false final false
 static void ZeroMemory(void* src, int64_t len) ;
@@ -73,10 +72,10 @@ static void Memcpy(void* pDest, int32_t destIndex, ::ArrayW<uint8_t> src, int32_
 static void InternalMemcpy(void* dest, void* src, int32_t count) ;
 
 /// @brief Method ByteLength addr 0x246dcd0 size 0x9c virtual false final false
-static int32_t ByteLength(::System::Array array) ;
+static int32_t ByteLength(System::Array array) ;
 
 /// @brief Method BlockCopy addr 0x246dd6c size 0x1c0 virtual false final false
-static void BlockCopy(::System::Array src, int32_t srcOffset, ::System::Array dst, int32_t dstOffset, int32_t count) ;
+static void BlockCopy(System::Array src, int32_t srcOffset, System::Array dst, int32_t dstOffset, int32_t count) ;
 
 /// @brief Method MemoryCopy addr 0x246df2c size 0x80 virtual false final false
 static void MemoryCopy(void* source, void* destination, int64_t destinationSizeInBytes, int64_t sourceBytesToCopy) ;
@@ -104,6 +103,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::Buffer);
-DEFINE_IL2CPP_ARG_TYPE(::System::Buffer, "System", "Buffer");
+NEED_NO_BOX(System::Buffer);
+DEFINE_IL2CPP_ARG_TYPE(System::Buffer, "System", "Buffer");

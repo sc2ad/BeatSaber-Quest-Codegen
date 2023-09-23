@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Bcpg::Attr {
-struct ____Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format;
+namespace System::Collections {
+class IList;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class PgpUserAttributeSubpacketVector;
 }
-namespace System::Collections {
-class IList;
+namespace Org::BouncyCastle::Bcpg::Attr {
+struct Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -59,20 +58,20 @@ constexpr explicit PgpUserAttributeSubpacketVectorGenerator(void* ptr) noexcept 
 
 // Fields
 
- ::System::Collections::IList __declspec(property(get=__get_list, put=__set_list))  list;
+ System::Collections::IList __declspec(property(get=__get_list, put=__set_list))  list;
 
-constexpr void __set_list(::System::Collections::IList value) ;
+constexpr void __set_list(System::Collections::IList value) ;
 
-constexpr ::System::Collections::IList __get_list() const;
+constexpr System::Collections::IList __get_list() const;
 
 
 // Methods
 
 /// @brief Method SetImageAttribute addr 0x10415c4 size 0x150 virtual true final false
- void SetImageAttribute(::Org::BouncyCastle::Bcpg::Attr::____Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format imageType, ::ArrayW<uint8_t> imageData) ;
+ void SetImageAttribute(Org::BouncyCastle::Bcpg::Attr::Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format imageType, ::ArrayW<uint8_t> imageData) ;
 
 /// @brief Method Generate addr 0x1041714 size 0x2c8 virtual true final false
- ::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector Generate() ;
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector Generate() ;
 
 // Ctor Parameters []
 explicit PgpUserAttributeSubpacketVectorGenerator() ;
@@ -84,6 +83,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg::OpenPgp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVectorGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVectorGenerator, "Org.BouncyCastle.Bcpg.OpenPgp", "PgpUserAttributeSubpacketVectorGenerator");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVectorGenerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVectorGenerator, "Org.BouncyCastle.Bcpg.OpenPgp", "PgpUserAttributeSubpacketVectorGenerator");

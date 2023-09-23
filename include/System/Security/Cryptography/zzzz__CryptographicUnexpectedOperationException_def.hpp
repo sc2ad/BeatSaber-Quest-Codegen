@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Security/Cryptography/zzzz__CryptographicException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
@@ -19,7 +18,7 @@ namespace System::Security::Cryptography {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2920))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2921))
 // CS Name: System.Security.Cryptography.CryptographicUnexpectedOperationException
-class CORDL_TYPE CryptographicUnexpectedOperationException : public ::System::Security::Cryptography::CryptographicException {
+class CORDL_TYPE CryptographicUnexpectedOperationException : public System::Security::Cryptography::CryptographicException {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr CryptographicUnexpectedOperationException(CryptographicUnexpectedOpera
 constexpr CryptographicUnexpectedOperationException(CryptographicUnexpectedOperationException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CryptographicUnexpectedOperationException(void* ptr) noexcept : ::System::Security::Cryptography::CryptographicException(ptr) {
+constexpr explicit CryptographicUnexpectedOperationException(void* ptr) noexcept : System::Security::Cryptography::CryptographicException(ptr) {
 }
 
 
@@ -67,16 +66,15 @@ explicit CryptographicUnexpectedOperationException(::StringW message) ;
 /// @brief Method .ctor addr 0x22ef238 size 0x48 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit CryptographicUnexpectedOperationException(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit CryptographicUnexpectedOperationException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x22f0000 size 0x8 virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::CryptographicUnexpectedOperationException);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::CryptographicUnexpectedOperationException, "System.Security.Cryptography", "CryptographicUnexpectedOperationException");
+NEED_NO_BOX(System::Security::Cryptography::CryptographicUnexpectedOperationException);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CryptographicUnexpectedOperationException, "System.Security.Cryptography", "CryptographicUnexpectedOperationException");

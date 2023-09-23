@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__AssetFileDownloadResult_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
 class AssetFileDownloadResult;
 }
@@ -14,10 +13,10 @@ class MessageWithAssetFileDownloadResult;
 // Type: Oculus.Platform::MessageWithAssetFileDownloadResult
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(13392)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4432 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4432 }), TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(13392))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13218))
 // CS Name: Oculus.Platform.MessageWithAssetFileDownloadResult
-class CORDL_TYPE MessageWithAssetFileDownloadResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadResult> {
+class CORDL_TYPE MessageWithAssetFileDownloadResult : public Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDownloadResult> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr MessageWithAssetFileDownloadResult(MessageWithAssetFileDownloadResult 
 constexpr MessageWithAssetFileDownloadResult(MessageWithAssetFileDownloadResult&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MessageWithAssetFileDownloadResult(void* ptr) noexcept : ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadResult>(ptr) {
+constexpr explicit MessageWithAssetFileDownloadResult(void* ptr) noexcept : Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDownloadResult>(ptr) {
 }
 
 
@@ -60,15 +59,14 @@ explicit MessageWithAssetFileDownloadResult(::cordl_internals::intptr_t c_messag
  void _ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method GetAssetFileDownloadResult addr 0x25803c8 size 0x3c virtual true final false
- ::Oculus::Platform::Models::AssetFileDownloadResult GetAssetFileDownloadResult() ;
+ Oculus::Platform::Models::AssetFileDownloadResult GetAssetFileDownloadResult() ;
 
 /// @brief Method GetDataFromMessage addr 0x2580404 size 0x9c virtual true final false
- ::Oculus::Platform::Models::AssetFileDownloadResult GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
+ Oculus::Platform::Models::AssetFileDownloadResult GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::MessageWithAssetFileDownloadResult);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithAssetFileDownloadResult, "Oculus.Platform", "MessageWithAssetFileDownloadResult");
+NEED_NO_BOX(Oculus::Platform::MessageWithAssetFileDownloadResult);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithAssetFileDownloadResult, "Oculus.Platform", "MessageWithAssetFileDownloadResult");

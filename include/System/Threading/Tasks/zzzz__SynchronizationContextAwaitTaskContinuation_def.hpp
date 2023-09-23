@@ -2,28 +2,27 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Threading/Tasks/zzzz__AwaitTaskContinuation_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace System::Threading {
-class ContextCallback;
-}
 namespace System::Threading {
 class SynchronizationContext;
-}
-namespace System {
-class Action;
 }
 namespace System::Threading {
 class SendOrPostCallback;
 }
+namespace System {
+class Action;
+}
 namespace System::Threading::Tasks {
 class Task;
+}
+namespace System::Threading {
+class ContextCallback;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
 class SynchronizationContextAwaitTaskContinuation;
 }
 namespace System::Threading::Tasks {
-class ____System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c;
+class System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c;
 }
 // Type: ::<>c
 namespace System::Threading::Tasks {
@@ -31,53 +30,53 @@ namespace System::Threading::Tasks {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2799))
 // CS Name: System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation::<>c
-class CORDL_TYPE ____System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c() = default;
+virtual ~System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c", modifiers: " const&", def_value: None }]
-constexpr ____System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c(____System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c", modifiers: " const&", def_value: None }]
+constexpr System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c(System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c", modifiers: "&&", def_value: None }]
-constexpr ____System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c(____System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c", modifiers: "&&", def_value: None }]
+constexpr System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c(System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c& operator=(std::nullptr_t) noexcept {
+  constexpr System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c& operator=(void* o) noexcept {
+  constexpr System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c& operator=(____System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c&& o) noexcept = default;
-  constexpr ____System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c& operator=(____System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c const& o) noexcept = default;
+  constexpr System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c& operator=(System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c&& o) noexcept = default;
+  constexpr System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c& operator=(System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c const& o) noexcept = default;
                 
 
 
 // Fields
 
-static ::System::Threading::Tasks::____System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c __declspec(property(get=__get___9, put=__set___9))  __9;
+static System::Threading::Tasks::System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c __declspec(property(get=__get___9, put=__set___9))  __9;
 
-static void __set___9(::System::Threading::Tasks::____System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c value) ;
+static void __set___9(System::Threading::Tasks::System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c value) ;
 
-static ::System::Threading::Tasks::____System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c __get___9() ;
+static System::Threading::Tasks::System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c __get___9() ;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c() ;
+explicit System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c() ;
 
 /// @brief Method .ctor addr 0x24bd88c size 0x8 virtual false final false
  void _ctor() ;
@@ -95,10 +94,10 @@ namespace System::Threading::Tasks {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2803))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2800))
 // CS Name: System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation
-class CORDL_TYPE SynchronizationContextAwaitTaskContinuation : public ::System::Threading::Tasks::AwaitTaskContinuation {
+class CORDL_TYPE SynchronizationContextAwaitTaskContinuation : public System::Threading::Tasks::AwaitTaskContinuation {
 public:
 // Declarations
-using __c = ::System::Threading::Tasks::____System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c;
+using __c = System::Threading::Tasks::System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -112,7 +111,7 @@ constexpr SynchronizationContextAwaitTaskContinuation(SynchronizationContextAwai
 constexpr SynchronizationContextAwaitTaskContinuation(SynchronizationContextAwaitTaskContinuation&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SynchronizationContextAwaitTaskContinuation(void* ptr) noexcept : ::System::Threading::Tasks::AwaitTaskContinuation(ptr) {
+constexpr explicit SynchronizationContextAwaitTaskContinuation(void* ptr) noexcept : System::Threading::Tasks::AwaitTaskContinuation(ptr) {
 }
 
 
@@ -133,48 +132,47 @@ constexpr explicit SynchronizationContextAwaitTaskContinuation(void* ptr) noexce
 
 // Fields
 
-static ::System::Threading::SendOrPostCallback __declspec(property(get=__get_s_postCallback, put=__set_s_postCallback))  s_postCallback;
+static System::Threading::SendOrPostCallback __declspec(property(get=__get_s_postCallback, put=__set_s_postCallback))  s_postCallback;
 
-static void __set_s_postCallback(::System::Threading::SendOrPostCallback value) ;
+static void __set_s_postCallback(System::Threading::SendOrPostCallback value) ;
 
-static ::System::Threading::SendOrPostCallback __get_s_postCallback() ;
+static System::Threading::SendOrPostCallback __get_s_postCallback() ;
 
-static ::System::Threading::ContextCallback __declspec(property(get=__get_s_postActionCallback, put=__set_s_postActionCallback))  s_postActionCallback;
+static System::Threading::ContextCallback __declspec(property(get=__get_s_postActionCallback, put=__set_s_postActionCallback))  s_postActionCallback;
 
-static void __set_s_postActionCallback(::System::Threading::ContextCallback value) ;
+static void __set_s_postActionCallback(System::Threading::ContextCallback value) ;
 
-static ::System::Threading::ContextCallback __get_s_postActionCallback() ;
+static System::Threading::ContextCallback __get_s_postActionCallback() ;
 
- ::System::Threading::SynchronizationContext __declspec(property(get=__get_m_syncContext, put=__set_m_syncContext))  m_syncContext;
+ System::Threading::SynchronizationContext __declspec(property(get=__get_m_syncContext, put=__set_m_syncContext))  m_syncContext;
 
-constexpr void __set_m_syncContext(::System::Threading::SynchronizationContext value) ;
+constexpr void __set_m_syncContext(System::Threading::SynchronizationContext value) ;
 
-constexpr ::System::Threading::SynchronizationContext __get_m_syncContext() const;
+constexpr System::Threading::SynchronizationContext __get_m_syncContext() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "context", ty: "::System::Threading::SynchronizationContext", modifiers: "", def_value: None }, CppParam { name: "action", ty: "::System::Action", modifiers: "", def_value: None }, CppParam { name: "flowExecutionContext", ty: "bool", modifiers: "", def_value: None }]
-explicit SynchronizationContextAwaitTaskContinuation(::System::Threading::SynchronizationContext context, ::System::Action action, bool flowExecutionContext) ;
+// Ctor Parameters [CppParam { name: "context", ty: "System::Threading::SynchronizationContext", modifiers: "", def_value: None }, CppParam { name: "action", ty: "System::Action", modifiers: "", def_value: None }, CppParam { name: "flowExecutionContext", ty: "bool", modifiers: "", def_value: None }]
+explicit SynchronizationContextAwaitTaskContinuation(System::Threading::SynchronizationContext context, System::Action action, bool flowExecutionContext) ;
 
 /// @brief Method .ctor addr 0x24b92b8 size 0x30 virtual false final false
- void _ctor(::System::Threading::SynchronizationContext context, ::System::Action action, bool flowExecutionContext) ;
+ void _ctor(System::Threading::SynchronizationContext context, System::Action action, bool flowExecutionContext) ;
 
 /// @brief Method Run addr 0x24bd2a0 size 0x1ec virtual true final true
- void Run(::System::Threading::Tasks::Task ignored, bool canInlineContinuationTask) ;
+ void Run(System::Threading::Tasks::Task ignored, bool canInlineContinuationTask) ;
 
 /// @brief Method PostAction addr 0x24bd608 size 0x94 virtual false final false
 static void PostAction(::bs_hook::Il2CppWrapperType state) ;
 
 /// @brief Method GetPostActionCallback addr 0x24bd69c size 0xc8 virtual false final false
-static ::System::Threading::ContextCallback GetPostActionCallback() ;
+static System::Threading::ContextCallback GetPostActionCallback() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Threading::Tasks
-} // end anonymous namespace
-NEED_NO_BOX(::System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation);
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation, "System.Threading.Tasks", "SynchronizationContextAwaitTaskContinuation");
-NEED_NO_BOX(::System::Threading::Tasks::____System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c);
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::____System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c, "System.Threading.Tasks", "SynchronizationContextAwaitTaskContinuation/<>c");
+NEED_NO_BOX(System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation);
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation, "System.Threading.Tasks", "SynchronizationContextAwaitTaskContinuation");
+NEED_NO_BOX(System::Threading::Tasks::System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c);
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c, "System.Threading.Tasks", "SynchronizationContextAwaitTaskContinuation/<>c");

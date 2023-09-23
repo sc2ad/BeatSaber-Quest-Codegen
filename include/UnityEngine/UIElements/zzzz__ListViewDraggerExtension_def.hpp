@@ -2,12 +2,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine::UIElements {
-class ReusableCollectionItem;
-}
 namespace UnityEngine::UIElements {
 class BaseVerticalCollectionView;
+}
+namespace UnityEngine::UIElements {
+class ReusableCollectionItem;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -56,12 +55,11 @@ constexpr explicit ListViewDraggerExtension(void* ptr) noexcept : ::bs_hook::Il2
 // Methods
 
 /// @brief Method GetRecycledItemFromIndex addr 0x2c90ca0 size 0x348 virtual false final false
-static ::UnityEngine::UIElements::ReusableCollectionItem GetRecycledItemFromIndex(::UnityEngine::UIElements::BaseVerticalCollectionView listView, int32_t index) ;
+static UnityEngine::UIElements::ReusableCollectionItem GetRecycledItemFromIndex(UnityEngine::UIElements::BaseVerticalCollectionView listView, int32_t index) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::ListViewDraggerExtension);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ListViewDraggerExtension, "UnityEngine.UIElements", "ListViewDraggerExtension");
+NEED_NO_BOX(UnityEngine::UIElements::ListViewDraggerExtension);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::ListViewDraggerExtension, "UnityEngine.UIElements", "ListViewDraggerExtension");

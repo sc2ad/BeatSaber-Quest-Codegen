@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto {
-class IAsymmetricBlockCipher;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class IAsymmetricBlockCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto {
@@ -21,7 +20,7 @@ namespace Org::BouncyCastle::Crypto {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(965))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1343))
 // CS Name: Org.BouncyCastle.Crypto.BufferedAsymmetricBlockCipher
-class CORDL_TYPE BufferedAsymmetricBlockCipher : public ::Org::BouncyCastle::Crypto::BufferedCipherBase {
+class CORDL_TYPE BufferedAsymmetricBlockCipher : public Org::BouncyCastle::Crypto::BufferedCipherBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr BufferedAsymmetricBlockCipher(BufferedAsymmetricBlockCipher const& ) n
 constexpr BufferedAsymmetricBlockCipher(BufferedAsymmetricBlockCipher&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BufferedAsymmetricBlockCipher(void* ptr) noexcept : ::Org::BouncyCastle::Crypto::BufferedCipherBase(ptr) {
+constexpr explicit BufferedAsymmetricBlockCipher(void* ptr) noexcept : Org::BouncyCastle::Crypto::BufferedCipherBase(ptr) {
 }
 
 
@@ -57,11 +56,11 @@ constexpr explicit BufferedAsymmetricBlockCipher(void* ptr) noexcept : ::Org::Bo
 
 // Fields
 
- ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher __declspec(property(get=__get_cipher, put=__set_cipher))  cipher;
+ Org::BouncyCastle::Crypto::IAsymmetricBlockCipher __declspec(property(get=__get_cipher, put=__set_cipher))  cipher;
 
-constexpr void __set_cipher(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher value) ;
+constexpr void __set_cipher(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher __get_cipher() const;
+constexpr Org::BouncyCastle::Crypto::IAsymmetricBlockCipher __get_cipher() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get_buffer, put=__set_buffer))  buffer;
 
@@ -83,11 +82,11 @@ constexpr int32_t __get_bufOff() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }]
-explicit BufferedAsymmetricBlockCipher(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher) ;
+// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }]
+explicit BufferedAsymmetricBlockCipher(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher) ;
 
 /// @brief Method .ctor addr 0xf37218 size 0x6c virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher) ;
+ void _ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher) ;
 
 /// @brief Method GetBufferPosition addr 0xf37284 size 0x8 virtual false final false
  int32_t GetBufferPosition() ;
@@ -105,7 +104,7 @@ explicit BufferedAsymmetricBlockCipher(::Org::BouncyCastle::Crypto::IAsymmetricB
  int32_t GetUpdateOutputSize(int32_t length) ;
 
 /// @brief Method Init addr 0xf3747c size 0x16c virtual true final false
- void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method ProcessByte addr 0xf375e8 size 0x90 virtual true final false
  ::ArrayW<uint8_t> ProcessByte(uint8_t input) ;
@@ -126,6 +125,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher, "Org.BouncyCastle.Crypto", "BufferedAsymmetricBlockCipher");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher, "Org.BouncyCastle.Crypto", "BufferedAsymmetricBlockCipher");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security::Cryptography {
 struct CryptoStreamMode;
@@ -67,14 +66,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Read offset 0
-static ::System::Security::Cryptography::CryptoStreamMode const Read;
+static System::Security::Cryptography::CryptoStreamMode const Read;
 
 /// @brief Field Write offset 0
-static ::System::Security::Cryptography::CryptoStreamMode const Write;
+static System::Security::Cryptography::CryptoStreamMode const Write;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::CryptoStreamMode, "System.Security.Cryptography", "CryptoStreamMode");
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CryptoStreamMode, "System.Security.Cryptography", "CryptoStreamMode");

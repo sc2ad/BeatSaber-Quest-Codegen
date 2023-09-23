@@ -2,23 +2,22 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
-namespace UnityEngine {
-class Collider;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivable_1;
 }
 namespace UnityEngine {
 class GameObject;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+class Collider;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -33,8 +32,8 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE HEU_GeneratedOutputData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutputData>
-constexpr operator  ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutputData>() const noexcept;
+/// @brief Convert operator to HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_GeneratedOutputData>
+constexpr operator  HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_GeneratedOutputData>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -69,29 +68,29 @@ constexpr explicit HEU_GeneratedOutputData(void* ptr) noexcept : ::bs_hook::Il2C
 
 // Fields
 
- ::UnityEngine::GameObject __declspec(property(get=__get__gameObject, put=__set__gameObject))  _gameObject;
+ UnityEngine::GameObject __declspec(property(get=__get__gameObject, put=__set__gameObject))  _gameObject;
 
-constexpr void __set__gameObject(::UnityEngine::GameObject value) ;
+constexpr void __set__gameObject(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__gameObject() const;
+constexpr UnityEngine::GameObject __get__gameObject() const;
 
- ::ArrayW<::UnityEngine::Material> __declspec(property(get=__get__renderMaterials, put=__set__renderMaterials))  _renderMaterials;
+ ::ArrayW<UnityEngine::Material> __declspec(property(get=__get__renderMaterials, put=__set__renderMaterials))  _renderMaterials;
 
-constexpr void __set__renderMaterials(::ArrayW<::UnityEngine::Material> value) ;
+constexpr void __set__renderMaterials(::ArrayW<UnityEngine::Material> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Material> __get__renderMaterials() const;
+constexpr ::ArrayW<UnityEngine::Material> __get__renderMaterials() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::Collider> __declspec(property(get=__get__colliders, put=__set__colliders))  _colliders;
+ System::Collections::Generic::List_1<UnityEngine::Collider> __declspec(property(get=__get__colliders, put=__set__colliders))  _colliders;
 
-constexpr void __set__colliders(::System::Collections::Generic::List_1<::UnityEngine::Collider> value) ;
+constexpr void __set__colliders(System::Collections::Generic::List_1<UnityEngine::Collider> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Collider> __get__colliders() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::Collider> __get__colliders() const;
 
 
 // Methods
 
 /// @brief Method IsEquivalentTo addr 0x1fe38e0 size 0x1ec virtual true final true
- bool IsEquivalentTo(::HoudiniEngineUnity::HEU_GeneratedOutputData other) ;
+ bool IsEquivalentTo(HoudiniEngineUnity::HEU_GeneratedOutputData other) ;
 
 // Ctor Parameters []
 explicit HEU_GeneratedOutputData() ;
@@ -103,6 +102,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_GeneratedOutputData);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_GeneratedOutputData, "HoudiniEngineUnity", "HEU_GeneratedOutputData");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_GeneratedOutputData);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_GeneratedOutputData, "HoudiniEngineUnity", "HEU_GeneratedOutputData");

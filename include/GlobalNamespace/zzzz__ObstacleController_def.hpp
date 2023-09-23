@@ -6,12 +6,24 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class GameObject;
+namespace System {
+class IDisposable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
 }
 namespace GlobalNamespace {
-class ObstacleData;
+class StretchableObstacle;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace GlobalNamespace {
+class IBeatmapObjectController;
 }
 namespace UnityEngine {
 struct Color;
@@ -19,54 +31,41 @@ struct Color;
 namespace GlobalNamespace {
 class PlayerTransforms;
 }
+namespace UnityEngine {
+struct Quaternion;
+}
 namespace GlobalNamespace {
 class IAudioTimeSource;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace GlobalNamespace {
+class ObstacleData;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Bounds;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace GlobalNamespace {
+class ColorManager;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace GlobalNamespace {
-class IBeatmapObjectController;
-}
-namespace UnityEngine {
-struct Bounds;
-}
-namespace GlobalNamespace {
-class StretchableObstacle;
-}
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
-namespace GlobalNamespace {
-class ColorManager;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
-}
 // Forward declare root types
 namespace GlobalNamespace {
+class GlobalNamespace__ObstacleController__Pool;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__ObstacleController___DissolveCoroutine_d__65;
+}
+namespace GlobalNamespace {
 class ObstacleController;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__ObstacleController__Pool;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__ObstacleController___DissolveCoroutine_d__65;
 }
 // Type: ::ObstacleController
 namespace GlobalNamespace {
@@ -74,15 +73,15 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4909))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4908))
 // CS Name: ObstacleController
-class CORDL_TYPE ObstacleController : public ::GlobalNamespace::ObstacleControllerBase {
+class CORDL_TYPE ObstacleController : public GlobalNamespace::ObstacleControllerBase {
 public:
 // Declarations
-using _DissolveCoroutine_d__65 = ::GlobalNamespace::____GlobalNamespace__ObstacleController___DissolveCoroutine_d__65;
+using _DissolveCoroutine_d__65 = GlobalNamespace::GlobalNamespace__ObstacleController___DissolveCoroutine_d__65;
 
-using Pool = ::GlobalNamespace::____GlobalNamespace__ObstacleController__Pool;
+using Pool = GlobalNamespace::GlobalNamespace__ObstacleController__Pool;
 
-/// @brief Convert operator to ::GlobalNamespace::IBeatmapObjectController
-constexpr operator  ::GlobalNamespace::IBeatmapObjectController() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IBeatmapObjectController
+constexpr operator  GlobalNamespace::IBeatmapObjectController() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x120};
@@ -96,7 +95,7 @@ constexpr ObstacleController(ObstacleController const& ) noexcept = default;
 constexpr ObstacleController(ObstacleController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ObstacleController(void* ptr) noexcept : ::GlobalNamespace::ObstacleControllerBase(ptr) {
+constexpr explicit ObstacleController(void* ptr) noexcept : GlobalNamespace::ObstacleControllerBase(ptr) {
 }
 
 
@@ -117,11 +116,11 @@ constexpr explicit ObstacleController(void* ptr) noexcept : ::GlobalNamespace::O
 
 // Fields
 
- ::GlobalNamespace::StretchableObstacle __declspec(property(get=__get__stretchableObstacle, put=__set__stretchableObstacle))  _stretchableObstacle;
+ GlobalNamespace::StretchableObstacle __declspec(property(get=__get__stretchableObstacle, put=__set__stretchableObstacle))  _stretchableObstacle;
 
-constexpr void __set__stretchableObstacle(::GlobalNamespace::StretchableObstacle value) ;
+constexpr void __set__stretchableObstacle(GlobalNamespace::StretchableObstacle value) ;
 
-constexpr ::GlobalNamespace::StretchableObstacle __get__stretchableObstacle() const;
+constexpr GlobalNamespace::StretchableObstacle __get__stretchableObstacle() const;
 
  float_t __declspec(property(get=__get__endDistanceOffset, put=__set__endDistanceOffset))  _endDistanceOffset;
 
@@ -129,59 +128,59 @@ constexpr void __set__endDistanceOffset(float_t value) ;
 
 constexpr float_t __get__endDistanceOffset() const;
 
- ::ArrayW<::UnityEngine::GameObject> __declspec(property(get=__get__visualWrappers, put=__set__visualWrappers))  _visualWrappers;
+ ::ArrayW<UnityEngine::GameObject> __declspec(property(get=__get__visualWrappers, put=__set__visualWrappers))  _visualWrappers;
 
-constexpr void __set__visualWrappers(::ArrayW<::UnityEngine::GameObject> value) ;
+constexpr void __set__visualWrappers(::ArrayW<UnityEngine::GameObject> value) ;
 
-constexpr ::ArrayW<::UnityEngine::GameObject> __get__visualWrappers() const;
+constexpr ::ArrayW<UnityEngine::GameObject> __get__visualWrappers() const;
 
- ::GlobalNamespace::PlayerTransforms __declspec(property(get=__get__playerTransforms, put=__set__playerTransforms))  _playerTransforms;
+ GlobalNamespace::PlayerTransforms __declspec(property(get=__get__playerTransforms, put=__set__playerTransforms))  _playerTransforms;
 
-constexpr void __set__playerTransforms(::GlobalNamespace::PlayerTransforms value) ;
+constexpr void __set__playerTransforms(GlobalNamespace::PlayerTransforms value) ;
 
-constexpr ::GlobalNamespace::PlayerTransforms __get__playerTransforms() const;
+constexpr GlobalNamespace::PlayerTransforms __get__playerTransforms() const;
 
- ::GlobalNamespace::IAudioTimeSource __declspec(property(get=__get__audioTimeSyncController, put=__set__audioTimeSyncController))  _audioTimeSyncController;
+ GlobalNamespace::IAudioTimeSource __declspec(property(get=__get__audioTimeSyncController, put=__set__audioTimeSyncController))  _audioTimeSyncController;
 
-constexpr void __set__audioTimeSyncController(::GlobalNamespace::IAudioTimeSource value) ;
+constexpr void __set__audioTimeSyncController(GlobalNamespace::IAudioTimeSource value) ;
 
-constexpr ::GlobalNamespace::IAudioTimeSource __get__audioTimeSyncController() const;
+constexpr GlobalNamespace::IAudioTimeSource __get__audioTimeSyncController() const;
 
- ::GlobalNamespace::ColorManager __declspec(property(get=__get__colorManager, put=__set__colorManager))  _colorManager;
+ GlobalNamespace::ColorManager __declspec(property(get=__get__colorManager, put=__set__colorManager))  _colorManager;
 
-constexpr void __set__colorManager(::GlobalNamespace::ColorManager value) ;
+constexpr void __set__colorManager(GlobalNamespace::ColorManager value) ;
 
-constexpr ::GlobalNamespace::ColorManager __get__colorManager() const;
+constexpr GlobalNamespace::ColorManager __get__colorManager() const;
 
- ::System::Action_1<::GlobalNamespace::ObstacleController> __declspec(property(get=__get_finishedMovementEvent, put=__set_finishedMovementEvent))  finishedMovementEvent;
+ System::Action_1<GlobalNamespace::ObstacleController> __declspec(property(get=__get_finishedMovementEvent, put=__set_finishedMovementEvent))  finishedMovementEvent;
 
-constexpr void __set_finishedMovementEvent(::System::Action_1<::GlobalNamespace::ObstacleController> value) ;
+constexpr void __set_finishedMovementEvent(System::Action_1<GlobalNamespace::ObstacleController> value) ;
 
-constexpr ::System::Action_1<::GlobalNamespace::ObstacleController> __get_finishedMovementEvent() const;
+constexpr System::Action_1<GlobalNamespace::ObstacleController> __get_finishedMovementEvent() const;
 
- ::System::Action_1<::GlobalNamespace::ObstacleController> __declspec(property(get=__get_passedThreeQuartersOfMove2Event, put=__set_passedThreeQuartersOfMove2Event))  passedThreeQuartersOfMove2Event;
+ System::Action_1<GlobalNamespace::ObstacleController> __declspec(property(get=__get_passedThreeQuartersOfMove2Event, put=__set_passedThreeQuartersOfMove2Event))  passedThreeQuartersOfMove2Event;
 
-constexpr void __set_passedThreeQuartersOfMove2Event(::System::Action_1<::GlobalNamespace::ObstacleController> value) ;
+constexpr void __set_passedThreeQuartersOfMove2Event(System::Action_1<GlobalNamespace::ObstacleController> value) ;
 
-constexpr ::System::Action_1<::GlobalNamespace::ObstacleController> __get_passedThreeQuartersOfMove2Event() const;
+constexpr System::Action_1<GlobalNamespace::ObstacleController> __get_passedThreeQuartersOfMove2Event() const;
 
- ::System::Action_1<::GlobalNamespace::ObstacleController> __declspec(property(get=__get_passedAvoidedMarkEvent, put=__set_passedAvoidedMarkEvent))  passedAvoidedMarkEvent;
+ System::Action_1<GlobalNamespace::ObstacleController> __declspec(property(get=__get_passedAvoidedMarkEvent, put=__set_passedAvoidedMarkEvent))  passedAvoidedMarkEvent;
 
-constexpr void __set_passedAvoidedMarkEvent(::System::Action_1<::GlobalNamespace::ObstacleController> value) ;
+constexpr void __set_passedAvoidedMarkEvent(System::Action_1<GlobalNamespace::ObstacleController> value) ;
 
-constexpr ::System::Action_1<::GlobalNamespace::ObstacleController> __get_passedAvoidedMarkEvent() const;
+constexpr System::Action_1<GlobalNamespace::ObstacleController> __get_passedAvoidedMarkEvent() const;
 
- ::System::Action_1<::GlobalNamespace::ObstacleController> __declspec(property(get=__get_didDissolveEvent, put=__set_didDissolveEvent))  didDissolveEvent;
+ System::Action_1<GlobalNamespace::ObstacleController> __declspec(property(get=__get_didDissolveEvent, put=__set_didDissolveEvent))  didDissolveEvent;
 
-constexpr void __set_didDissolveEvent(::System::Action_1<::GlobalNamespace::ObstacleController> value) ;
+constexpr void __set_didDissolveEvent(System::Action_1<GlobalNamespace::ObstacleController> value) ;
 
-constexpr ::System::Action_1<::GlobalNamespace::ObstacleController> __get_didDissolveEvent() const;
+constexpr System::Action_1<GlobalNamespace::ObstacleController> __get_didDissolveEvent() const;
 
- ::System::Action_2<::GlobalNamespace::ObstacleController,float_t> __declspec(property(get=__get_didUpdateProgress, put=__set_didUpdateProgress))  didUpdateProgress;
+ System::Action_2<GlobalNamespace::ObstacleController,float_t> __declspec(property(get=__get_didUpdateProgress, put=__set_didUpdateProgress))  didUpdateProgress;
 
-constexpr void __set_didUpdateProgress(::System::Action_2<::GlobalNamespace::ObstacleController,float_t> value) ;
+constexpr void __set_didUpdateProgress(System::Action_2<GlobalNamespace::ObstacleController,float_t> value) ;
 
-constexpr ::System::Action_2<::GlobalNamespace::ObstacleController,float_t> __get_didUpdateProgress() const;
+constexpr System::Action_2<GlobalNamespace::ObstacleController,float_t> __get_didUpdateProgress() const;
 
 /// @brief Field kAvoidMarkTimeOffset offset 0
 static constexpr float_t  kAvoidMarkTimeOffset{0.15};
@@ -204,23 +203,23 @@ constexpr void __set__length(float_t value) ;
 
 constexpr float_t __get__length() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__startPos, put=__set__startPos))  _startPos;
+ UnityEngine::Vector3 __declspec(property(get=__get__startPos, put=__set__startPos))  _startPos;
 
-constexpr void __set__startPos(::UnityEngine::Vector3 value) ;
+constexpr void __set__startPos(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__startPos() const;
+constexpr UnityEngine::Vector3 __get__startPos() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__midPos, put=__set__midPos))  _midPos;
+ UnityEngine::Vector3 __declspec(property(get=__get__midPos, put=__set__midPos))  _midPos;
 
-constexpr void __set__midPos(::UnityEngine::Vector3 value) ;
+constexpr void __set__midPos(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__midPos() const;
+constexpr UnityEngine::Vector3 __get__midPos() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__endPos, put=__set__endPos))  _endPos;
+ UnityEngine::Vector3 __declspec(property(get=__get__endPos, put=__set__endPos))  _endPos;
 
-constexpr void __set__endPos(::UnityEngine::Vector3 value) ;
+constexpr void __set__endPos(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__endPos() const;
+constexpr UnityEngine::Vector3 __get__endPos() const;
 
  float_t __declspec(property(get=__get__move1Duration, put=__set__move1Duration))  _move1Duration;
 
@@ -270,11 +269,11 @@ constexpr void __set__finishMovementTime(float_t value) ;
 
 constexpr float_t __get__finishMovementTime() const;
 
- ::UnityEngine::Bounds __declspec(property(get=__get__bounds, put=__set__bounds))  _bounds;
+ UnityEngine::Bounds __declspec(property(get=__get__bounds, put=__set__bounds))  _bounds;
 
-constexpr void __set__bounds(::UnityEngine::Bounds value) ;
+constexpr void __set__bounds(UnityEngine::Bounds value) ;
 
-constexpr ::UnityEngine::Bounds __get__bounds() const;
+constexpr UnityEngine::Bounds __get__bounds() const;
 
  bool __declspec(property(get=__get__dissolving, put=__set__dissolving))  _dissolving;
 
@@ -282,36 +281,36 @@ constexpr void __set__dissolving(bool value) ;
 
 constexpr bool __get__dissolving() const;
 
- ::GlobalNamespace::ObstacleData __declspec(property(get=__get__obstacleData, put=__set__obstacleData))  _obstacleData;
+ GlobalNamespace::ObstacleData __declspec(property(get=__get__obstacleData, put=__set__obstacleData))  _obstacleData;
 
-constexpr void __set__obstacleData(::GlobalNamespace::ObstacleData value) ;
+constexpr void __set__obstacleData(GlobalNamespace::ObstacleData value) ;
 
-constexpr ::GlobalNamespace::ObstacleData __get__obstacleData() const;
+constexpr GlobalNamespace::ObstacleData __get__obstacleData() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__color, put=__set__color))  _color;
+ UnityEngine::Color __declspec(property(get=__get__color, put=__set__color))  _color;
 
-constexpr void __set__color(::UnityEngine::Color value) ;
+constexpr void __set__color(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__color() const;
+constexpr UnityEngine::Color __get__color() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get__worldRotation, put=__set__worldRotation))  _worldRotation;
+ UnityEngine::Quaternion __declspec(property(get=__get__worldRotation, put=__set__worldRotation))  _worldRotation;
 
-constexpr void __set__worldRotation(::UnityEngine::Quaternion value) ;
+constexpr void __set__worldRotation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get__worldRotation() const;
+constexpr UnityEngine::Quaternion __get__worldRotation() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get__inverseWorldRotation, put=__set__inverseWorldRotation))  _inverseWorldRotation;
+ UnityEngine::Quaternion __declspec(property(get=__get__inverseWorldRotation, put=__set__inverseWorldRotation))  _inverseWorldRotation;
 
-constexpr void __set__inverseWorldRotation(::UnityEngine::Quaternion value) ;
+constexpr void __set__inverseWorldRotation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get__inverseWorldRotation() const;
+constexpr UnityEngine::Quaternion __get__inverseWorldRotation() const;
 
 
 // Properties
 
- ::UnityEngine::Bounds __declspec(property(get=get_bounds))  bounds;
+ UnityEngine::Bounds __declspec(property(get=get_bounds))  bounds;
 
- ::GlobalNamespace::ObstacleData __declspec(property(get=get_obstacleData))  obstacleData;
+ GlobalNamespace::ObstacleData __declspec(property(get=get_obstacleData))  obstacleData;
 
  bool __declspec(property(get=get_hasPassedAvoidedMark))  hasPassedAvoidedMark;
 
@@ -325,46 +324,46 @@ constexpr ::UnityEngine::Quaternion __get__inverseWorldRotation() const;
 
  float_t __declspec(property(get=get_length))  length;
 
- ::UnityEngine::Color __declspec(property(get=get_color))  color;
+ UnityEngine::Color __declspec(property(get=get_color))  color;
 
 
 // Methods
 
 /// @brief Method add_finishedMovementEvent addr 0x2244aa0 size 0xb0 virtual false final false
- void add_finishedMovementEvent(::System::Action_1<::GlobalNamespace::ObstacleController> value) ;
+ void add_finishedMovementEvent(System::Action_1<GlobalNamespace::ObstacleController> value) ;
 
 /// @brief Method remove_finishedMovementEvent addr 0x2244b50 size 0xb0 virtual false final false
- void remove_finishedMovementEvent(::System::Action_1<::GlobalNamespace::ObstacleController> value) ;
+ void remove_finishedMovementEvent(System::Action_1<GlobalNamespace::ObstacleController> value) ;
 
 /// @brief Method add_passedThreeQuartersOfMove2Event addr 0x2244c00 size 0xb0 virtual false final false
- void add_passedThreeQuartersOfMove2Event(::System::Action_1<::GlobalNamespace::ObstacleController> value) ;
+ void add_passedThreeQuartersOfMove2Event(System::Action_1<GlobalNamespace::ObstacleController> value) ;
 
 /// @brief Method remove_passedThreeQuartersOfMove2Event addr 0x2244cb0 size 0xb0 virtual false final false
- void remove_passedThreeQuartersOfMove2Event(::System::Action_1<::GlobalNamespace::ObstacleController> value) ;
+ void remove_passedThreeQuartersOfMove2Event(System::Action_1<GlobalNamespace::ObstacleController> value) ;
 
 /// @brief Method add_passedAvoidedMarkEvent addr 0x2244d60 size 0xb0 virtual false final false
- void add_passedAvoidedMarkEvent(::System::Action_1<::GlobalNamespace::ObstacleController> value) ;
+ void add_passedAvoidedMarkEvent(System::Action_1<GlobalNamespace::ObstacleController> value) ;
 
 /// @brief Method remove_passedAvoidedMarkEvent addr 0x2244e10 size 0xb0 virtual false final false
- void remove_passedAvoidedMarkEvent(::System::Action_1<::GlobalNamespace::ObstacleController> value) ;
+ void remove_passedAvoidedMarkEvent(System::Action_1<GlobalNamespace::ObstacleController> value) ;
 
 /// @brief Method add_didDissolveEvent addr 0x2244ec0 size 0xb0 virtual false final false
- void add_didDissolveEvent(::System::Action_1<::GlobalNamespace::ObstacleController> value) ;
+ void add_didDissolveEvent(System::Action_1<GlobalNamespace::ObstacleController> value) ;
 
 /// @brief Method remove_didDissolveEvent addr 0x2244f70 size 0xb0 virtual false final false
- void remove_didDissolveEvent(::System::Action_1<::GlobalNamespace::ObstacleController> value) ;
+ void remove_didDissolveEvent(System::Action_1<GlobalNamespace::ObstacleController> value) ;
 
 /// @brief Method add_didUpdateProgress addr 0x2245020 size 0xb0 virtual false final false
- void add_didUpdateProgress(::System::Action_2<::GlobalNamespace::ObstacleController,float_t> value) ;
+ void add_didUpdateProgress(System::Action_2<GlobalNamespace::ObstacleController,float_t> value) ;
 
 /// @brief Method remove_didUpdateProgress addr 0x22450d0 size 0xb0 virtual false final false
- void remove_didUpdateProgress(::System::Action_2<::GlobalNamespace::ObstacleController,float_t> value) ;
+ void remove_didUpdateProgress(System::Action_2<GlobalNamespace::ObstacleController,float_t> value) ;
 
 /// @brief Method get_bounds addr 0x2245180 size 0x14 virtual false final false
- ::UnityEngine::Bounds get_bounds() ;
+ UnityEngine::Bounds get_bounds() ;
 
 /// @brief Method get_obstacleData addr 0x2245194 size 0x8 virtual false final false
- ::GlobalNamespace::ObstacleData get_obstacleData() ;
+ GlobalNamespace::ObstacleData get_obstacleData() ;
 
 /// @brief Method get_hasPassedAvoidedMark addr 0x224519c size 0x8 virtual false final false
  bool get_hasPassedAvoidedMark() ;
@@ -385,10 +384,10 @@ constexpr ::UnityEngine::Quaternion __get__inverseWorldRotation() const;
  float_t get_length() ;
 
 /// @brief Method get_color addr 0x22451cc size 0xc virtual false final false
- ::UnityEngine::Color get_color() ;
+ UnityEngine::Color get_color() ;
 
 /// @brief Method Init addr 0x22451d8 size 0x2d4 virtual true final false
- void Init(::GlobalNamespace::ObstacleData obstacleData, float_t worldRotation, ::UnityEngine::Vector3 startPos, ::UnityEngine::Vector3 midPos, ::UnityEngine::Vector3 endPos, float_t move1Duration, float_t move2Duration, float_t singleLineWidth, float_t height) ;
+ void Init(GlobalNamespace::ObstacleData obstacleData, float_t worldRotation, UnityEngine::Vector3 startPos, UnityEngine::Vector3 midPos, UnityEngine::Vector3 endPos, float_t move1Duration, float_t move2Duration, float_t singleLineWidth, float_t height) ;
 
 /// @brief Method Update addr 0x22454ac size 0xc virtual false final false
  void Update() ;
@@ -397,10 +396,10 @@ constexpr ::UnityEngine::Quaternion __get__inverseWorldRotation() const;
  void ManualUpdate() ;
 
 /// @brief Method GetPosForTime addr 0x22456a4 size 0x124 virtual false final false
- ::UnityEngine::Vector3 GetPosForTime(float_t time) ;
+ UnityEngine::Vector3 GetPosForTime(float_t time) ;
 
 /// @brief Method DissolveCoroutine addr 0x22457c8 size 0x78 virtual false final false
- ::System::Collections::IEnumerator DissolveCoroutine(float_t duration) ;
+ System::Collections::IEnumerator DissolveCoroutine(float_t duration) ;
 
 /// @brief Method Dissolve addr 0x2245868 size 0x38 virtual true final true
  void Dissolve(float_t duration) ;
@@ -424,47 +423,47 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Pool
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10992)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 356 }), TypeDefinitionIndex(TypeDefinitionIndex(4908))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4908)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 356 }), TypeDefinitionIndex(TypeDefinitionIndex(10992))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4906))
 // CS Name: ObstacleController::Pool
-class CORDL_TYPE ____GlobalNamespace__ObstacleController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::ObstacleController> {
+class CORDL_TYPE GlobalNamespace__ObstacleController__Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::ObstacleController> {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
 
-virtual ~____GlobalNamespace__ObstacleController__Pool() = default;
+virtual ~GlobalNamespace__ObstacleController__Pool() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__ObstacleController__Pool", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__ObstacleController__Pool(____GlobalNamespace__ObstacleController__Pool const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__ObstacleController__Pool", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__ObstacleController__Pool(GlobalNamespace__ObstacleController__Pool const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__ObstacleController__Pool", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__ObstacleController__Pool(____GlobalNamespace__ObstacleController__Pool&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__ObstacleController__Pool", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__ObstacleController__Pool(GlobalNamespace__ObstacleController__Pool&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__ObstacleController__Pool(void* ptr) noexcept : ::Zenject::MonoMemoryPool_1<::GlobalNamespace::ObstacleController>(ptr) {
+constexpr explicit GlobalNamespace__ObstacleController__Pool(void* ptr) noexcept : Zenject::MonoMemoryPool_1<GlobalNamespace::ObstacleController>(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__ObstacleController__Pool& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__ObstacleController__Pool& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__ObstacleController__Pool& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__ObstacleController__Pool& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__ObstacleController__Pool& operator=(____GlobalNamespace__ObstacleController__Pool&& o) noexcept = default;
-  constexpr ____GlobalNamespace__ObstacleController__Pool& operator=(____GlobalNamespace__ObstacleController__Pool const& o) noexcept = default;
+  constexpr GlobalNamespace__ObstacleController__Pool& operator=(GlobalNamespace__ObstacleController__Pool&& o) noexcept = default;
+  constexpr GlobalNamespace__ObstacleController__Pool& operator=(GlobalNamespace__ObstacleController__Pool const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__ObstacleController__Pool() ;
+explicit GlobalNamespace__ObstacleController__Pool() ;
 
 /// @brief Method .ctor addr 0x224592c size 0x48 virtual false final false
  void _ctor() ;
@@ -479,46 +478,46 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4907))
 // CS Name: ObstacleController::<DissolveCoroutine>d__65
-class CORDL_TYPE ____GlobalNamespace__ObstacleController___DissolveCoroutine_d__65 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__ObstacleController___DissolveCoroutine_d__65 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____GlobalNamespace__ObstacleController___DissolveCoroutine_d__65() = default;
+virtual ~GlobalNamespace__ObstacleController___DissolveCoroutine_d__65() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__ObstacleController___DissolveCoroutine_d__65", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__ObstacleController___DissolveCoroutine_d__65(____GlobalNamespace__ObstacleController___DissolveCoroutine_d__65 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__ObstacleController___DissolveCoroutine_d__65", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__ObstacleController___DissolveCoroutine_d__65(GlobalNamespace__ObstacleController___DissolveCoroutine_d__65 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__ObstacleController___DissolveCoroutine_d__65", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__ObstacleController___DissolveCoroutine_d__65(____GlobalNamespace__ObstacleController___DissolveCoroutine_d__65&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__ObstacleController___DissolveCoroutine_d__65", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__ObstacleController___DissolveCoroutine_d__65(GlobalNamespace__ObstacleController___DissolveCoroutine_d__65&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__ObstacleController___DissolveCoroutine_d__65(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__ObstacleController___DissolveCoroutine_d__65(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__ObstacleController___DissolveCoroutine_d__65& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__ObstacleController___DissolveCoroutine_d__65& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__ObstacleController___DissolveCoroutine_d__65& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__ObstacleController___DissolveCoroutine_d__65& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__ObstacleController___DissolveCoroutine_d__65& operator=(____GlobalNamespace__ObstacleController___DissolveCoroutine_d__65&& o) noexcept = default;
-  constexpr ____GlobalNamespace__ObstacleController___DissolveCoroutine_d__65& operator=(____GlobalNamespace__ObstacleController___DissolveCoroutine_d__65 const& o) noexcept = default;
+  constexpr GlobalNamespace__ObstacleController___DissolveCoroutine_d__65& operator=(GlobalNamespace__ObstacleController___DissolveCoroutine_d__65&& o) noexcept = default;
+  constexpr GlobalNamespace__ObstacleController___DissolveCoroutine_d__65& operator=(GlobalNamespace__ObstacleController___DissolveCoroutine_d__65 const& o) noexcept = default;
                 
 
 
@@ -536,11 +535,11 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::GlobalNamespace::ObstacleController __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::ObstacleController __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::ObstacleController value) ;
+constexpr void __set___4__this(GlobalNamespace::ObstacleController value) ;
 
-constexpr ::GlobalNamespace::ObstacleController __get___4__this() const;
+constexpr GlobalNamespace::ObstacleController __get___4__this() const;
 
  float_t __declspec(property(get=__get_duration, put=__set_duration))  duration;
 
@@ -559,7 +558,7 @@ constexpr float_t __get_duration() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__ObstacleController___DissolveCoroutine_d__65(int32_t __1__state) ;
+explicit GlobalNamespace__ObstacleController___DissolveCoroutine_d__65(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2245840 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -583,10 +582,9 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ObstacleController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ObstacleController, "", "ObstacleController");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__ObstacleController__Pool);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__ObstacleController__Pool, "", "ObstacleController/Pool");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__ObstacleController___DissolveCoroutine_d__65);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__ObstacleController___DissolveCoroutine_d__65, "", "ObstacleController/<DissolveCoroutine>d__65");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__ObstacleController__Pool);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__ObstacleController__Pool, "", "ObstacleController/Pool");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__ObstacleController___DissolveCoroutine_d__65);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__ObstacleController___DissolveCoroutine_d__65, "", "ObstacleController/<DissolveCoroutine>d__65");
+NEED_NO_BOX(GlobalNamespace::ObstacleController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleController, "", "ObstacleController");

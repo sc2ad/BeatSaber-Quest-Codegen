@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
-namespace RootMotion {
-struct InterpolationMode;
-}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace RootMotion {
+struct InterpolationMode;
 }
 // Forward declare root types
 namespace RootMotion {
@@ -56,10 +55,10 @@ constexpr explicit Interp(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr
 // Methods
 
 /// @brief Method Float addr 0x11b3218 size 0x400 virtual false final false
-static float_t Float(float_t t, ::RootMotion::InterpolationMode mode) ;
+static float_t Float(float_t t, RootMotion::InterpolationMode mode) ;
 
 /// @brief Method V3 addr 0x11b3ba0 size 0x70 virtual false final false
-static ::UnityEngine::Vector3 V3(::UnityEngine::Vector3 v1, ::UnityEngine::Vector3 v2, float_t t, ::RootMotion::InterpolationMode mode) ;
+static UnityEngine::Vector3 V3(UnityEngine::Vector3 v1, UnityEngine::Vector3 v2, float_t t, RootMotion::InterpolationMode mode) ;
 
 /// @brief Method LerpValue addr 0x11b3c10 size 0x70 virtual false final false
 static float_t LerpValue(float_t value, float_t target, float_t increaseSpeed, float_t decreaseSpeed) ;
@@ -155,6 +154,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::Interp);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::Interp, "RootMotion", "Interp");
+NEED_NO_BOX(RootMotion::Interp);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::Interp, "RootMotion", "Interp");

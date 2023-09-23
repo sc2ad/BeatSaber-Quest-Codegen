@@ -3,12 +3,11 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-class LightGroupSO;
-}
 namespace GlobalNamespace {
 class ColorArrayLightWithIds;
+}
+namespace GlobalNamespace {
+class LightGroupSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,7 +19,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14680))
 // CS Name: ColorArrayLightWithIdsGroupEntry
-class CORDL_TYPE ColorArrayLightWithIdsGroupEntry : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ColorArrayLightWithIdsGroupEntry : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr ColorArrayLightWithIdsGroupEntry(ColorArrayLightWithIdsGroupEntry cons
 constexpr ColorArrayLightWithIdsGroupEntry(ColorArrayLightWithIdsGroupEntry&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ColorArrayLightWithIdsGroupEntry(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ColorArrayLightWithIdsGroupEntry(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -56,17 +55,17 @@ constexpr explicit ColorArrayLightWithIdsGroupEntry(void* ptr) noexcept : ::Unit
 
 // Fields
 
- ::GlobalNamespace::ColorArrayLightWithIds __declspec(property(get=__get__colorArrayLightWithIds, put=__set__colorArrayLightWithIds))  _colorArrayLightWithIds;
+ GlobalNamespace::ColorArrayLightWithIds __declspec(property(get=__get__colorArrayLightWithIds, put=__set__colorArrayLightWithIds))  _colorArrayLightWithIds;
 
-constexpr void __set__colorArrayLightWithIds(::GlobalNamespace::ColorArrayLightWithIds value) ;
+constexpr void __set__colorArrayLightWithIds(GlobalNamespace::ColorArrayLightWithIds value) ;
 
-constexpr ::GlobalNamespace::ColorArrayLightWithIds __get__colorArrayLightWithIds() const;
+constexpr GlobalNamespace::ColorArrayLightWithIds __get__colorArrayLightWithIds() const;
 
- ::ArrayW<::GlobalNamespace::LightGroupSO> __declspec(property(get=__get__lightGroups, put=__set__lightGroups))  _lightGroups;
+ ::ArrayW<GlobalNamespace::LightGroupSO> __declspec(property(get=__get__lightGroups, put=__set__lightGroups))  _lightGroups;
 
-constexpr void __set__lightGroups(::ArrayW<::GlobalNamespace::LightGroupSO> value) ;
+constexpr void __set__lightGroups(::ArrayW<GlobalNamespace::LightGroupSO> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::LightGroupSO> __get__lightGroups() const;
+constexpr ::ArrayW<GlobalNamespace::LightGroupSO> __get__lightGroups() const;
 
  ::ArrayW<int32_t> __declspec(property(get=__get__excludedLightIds, put=__set__excludedLightIds))  _excludedLightIds;
 
@@ -77,13 +76,13 @@ constexpr ::ArrayW<int32_t> __get__excludedLightIds() const;
 
 // Properties
 
- ::ArrayW<::GlobalNamespace::LightGroupSO> __declspec(property(get=get_lightGroups))  lightGroups;
+ ::ArrayW<GlobalNamespace::LightGroupSO> __declspec(property(get=get_lightGroups))  lightGroups;
 
 
 // Methods
 
 /// @brief Method get_lightGroups addr 0x1f9cb7c size 0x8 virtual false final false
- ::ArrayW<::GlobalNamespace::LightGroupSO> get_lightGroups() ;
+ ::ArrayW<GlobalNamespace::LightGroupSO> get_lightGroups() ;
 
 // Ctor Parameters []
 explicit ColorArrayLightWithIdsGroupEntry() ;
@@ -95,6 +94,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ColorArrayLightWithIdsGroupEntry);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ColorArrayLightWithIdsGroupEntry, "", "ColorArrayLightWithIdsGroupEntry");
+NEED_NO_BOX(GlobalNamespace::ColorArrayLightWithIdsGroupEntry);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorArrayLightWithIdsGroupEntry, "", "ColorArrayLightWithIdsGroupEntry");

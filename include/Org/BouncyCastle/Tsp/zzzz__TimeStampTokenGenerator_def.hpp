@@ -3,33 +3,32 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralName;
-}
-namespace System {
-struct DateTime;
-}
 namespace Org::BouncyCastle::X509::Store {
 class IX509Store;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class AttributeTable;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
 }
+namespace System {
+struct DateTime;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class AttributeTable;
+}
 namespace Org::BouncyCastle::Tsp {
 class TimeStampRequest;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 namespace Org::BouncyCastle::Tsp {
 class TimeStampToken;
 }
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
+namespace Org::BouncyCastle::Asn1::X509 {
+class GeneralName;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Tsp {
@@ -101,11 +100,11 @@ constexpr void __set_ordering(bool value) ;
 
 constexpr bool __get_ordering() const;
 
- ::Org::BouncyCastle::Asn1::X509::GeneralName __declspec(property(get=__get_tsa, put=__set_tsa))  tsa;
+ Org::BouncyCastle::Asn1::X509::GeneralName __declspec(property(get=__get_tsa, put=__set_tsa))  tsa;
 
-constexpr void __set_tsa(::Org::BouncyCastle::Asn1::X509::GeneralName value) ;
+constexpr void __set_tsa(Org::BouncyCastle::Asn1::X509::GeneralName value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName __get_tsa() const;
+constexpr Org::BouncyCastle::Asn1::X509::GeneralName __get_tsa() const;
 
  ::StringW __declspec(property(get=__get_tsaPolicyOID, put=__set_tsaPolicyOID))  tsaPolicyOID;
 
@@ -113,17 +112,17 @@ constexpr void __set_tsaPolicyOID(::StringW value) ;
 
 constexpr ::StringW __get_tsaPolicyOID() const;
 
- ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter __declspec(property(get=__get_key, put=__set_key))  key;
+ Org::BouncyCastle::Crypto::AsymmetricKeyParameter __declspec(property(get=__get_key, put=__set_key))  key;
 
-constexpr void __set_key(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter value) ;
+constexpr void __set_key(Org::BouncyCastle::Crypto::AsymmetricKeyParameter value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter __get_key() const;
+constexpr Org::BouncyCastle::Crypto::AsymmetricKeyParameter __get_key() const;
 
- ::Org::BouncyCastle::X509::X509Certificate __declspec(property(get=__get_cert, put=__set_cert))  cert;
+ Org::BouncyCastle::X509::X509Certificate __declspec(property(get=__get_cert, put=__set_cert))  cert;
 
-constexpr void __set_cert(::Org::BouncyCastle::X509::X509Certificate value) ;
+constexpr void __set_cert(Org::BouncyCastle::X509::X509Certificate value) ;
 
-constexpr ::Org::BouncyCastle::X509::X509Certificate __get_cert() const;
+constexpr Org::BouncyCastle::X509::X509Certificate __get_cert() const;
 
  ::StringW __declspec(property(get=__get_digestOID, put=__set_digestOID))  digestOID;
 
@@ -131,50 +130,50 @@ constexpr void __set_digestOID(::StringW value) ;
 
 constexpr ::StringW __get_digestOID() const;
 
- ::Org::BouncyCastle::Asn1::Cms::AttributeTable __declspec(property(get=__get_signedAttr, put=__set_signedAttr))  signedAttr;
+ Org::BouncyCastle::Asn1::Cms::AttributeTable __declspec(property(get=__get_signedAttr, put=__set_signedAttr))  signedAttr;
 
-constexpr void __set_signedAttr(::Org::BouncyCastle::Asn1::Cms::AttributeTable value) ;
+constexpr void __set_signedAttr(Org::BouncyCastle::Asn1::Cms::AttributeTable value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::Cms::AttributeTable __get_signedAttr() const;
+constexpr Org::BouncyCastle::Asn1::Cms::AttributeTable __get_signedAttr() const;
 
- ::Org::BouncyCastle::Asn1::Cms::AttributeTable __declspec(property(get=__get_unsignedAttr, put=__set_unsignedAttr))  unsignedAttr;
+ Org::BouncyCastle::Asn1::Cms::AttributeTable __declspec(property(get=__get_unsignedAttr, put=__set_unsignedAttr))  unsignedAttr;
 
-constexpr void __set_unsignedAttr(::Org::BouncyCastle::Asn1::Cms::AttributeTable value) ;
+constexpr void __set_unsignedAttr(Org::BouncyCastle::Asn1::Cms::AttributeTable value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::Cms::AttributeTable __get_unsignedAttr() const;
+constexpr Org::BouncyCastle::Asn1::Cms::AttributeTable __get_unsignedAttr() const;
 
- ::Org::BouncyCastle::X509::Store::IX509Store __declspec(property(get=__get_x509Certs, put=__set_x509Certs))  x509Certs;
+ Org::BouncyCastle::X509::Store::IX509Store __declspec(property(get=__get_x509Certs, put=__set_x509Certs))  x509Certs;
 
-constexpr void __set_x509Certs(::Org::BouncyCastle::X509::Store::IX509Store value) ;
+constexpr void __set_x509Certs(Org::BouncyCastle::X509::Store::IX509Store value) ;
 
-constexpr ::Org::BouncyCastle::X509::Store::IX509Store __get_x509Certs() const;
+constexpr Org::BouncyCastle::X509::Store::IX509Store __get_x509Certs() const;
 
- ::Org::BouncyCastle::X509::Store::IX509Store __declspec(property(get=__get_x509Crls, put=__set_x509Crls))  x509Crls;
+ Org::BouncyCastle::X509::Store::IX509Store __declspec(property(get=__get_x509Crls, put=__set_x509Crls))  x509Crls;
 
-constexpr void __set_x509Crls(::Org::BouncyCastle::X509::Store::IX509Store value) ;
+constexpr void __set_x509Crls(Org::BouncyCastle::X509::Store::IX509Store value) ;
 
-constexpr ::Org::BouncyCastle::X509::Store::IX509Store __get_x509Crls() const;
+constexpr Org::BouncyCastle::X509::Store::IX509Store __get_x509Crls() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "key", ty: "::Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "cert", ty: "::Org::BouncyCastle::X509::X509Certificate", modifiers: "", def_value: None }, CppParam { name: "digestOID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "tsaPolicyOID", ty: "::StringW", modifiers: "", def_value: None }]
-explicit TimeStampTokenGenerator(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter key, ::Org::BouncyCastle::X509::X509Certificate cert, ::StringW digestOID, ::StringW tsaPolicyOID) ;
+// Ctor Parameters [CppParam { name: "key", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "cert", ty: "Org::BouncyCastle::X509::X509Certificate", modifiers: "", def_value: None }, CppParam { name: "digestOID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "tsaPolicyOID", ty: "::StringW", modifiers: "", def_value: None }]
+explicit TimeStampTokenGenerator(Org::BouncyCastle::Crypto::AsymmetricKeyParameter key, Org::BouncyCastle::X509::X509Certificate cert, ::StringW digestOID, ::StringW tsaPolicyOID) ;
 
 /// @brief Method .ctor addr 0x10c76f8 size 0xc virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter key, ::Org::BouncyCastle::X509::X509Certificate cert, ::StringW digestOID, ::StringW tsaPolicyOID) ;
+ void _ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter key, Org::BouncyCastle::X509::X509Certificate cert, ::StringW digestOID, ::StringW tsaPolicyOID) ;
 
-// Ctor Parameters [CppParam { name: "key", ty: "::Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "cert", ty: "::Org::BouncyCastle::X509::X509Certificate", modifiers: "", def_value: None }, CppParam { name: "digestOID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "tsaPolicyOID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "signedAttr", ty: "::Org::BouncyCastle::Asn1::Cms::AttributeTable", modifiers: "", def_value: None }, CppParam { name: "unsignedAttr", ty: "::Org::BouncyCastle::Asn1::Cms::AttributeTable", modifiers: "", def_value: None }]
-explicit TimeStampTokenGenerator(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter key, ::Org::BouncyCastle::X509::X509Certificate cert, ::StringW digestOID, ::StringW tsaPolicyOID, ::Org::BouncyCastle::Asn1::Cms::AttributeTable signedAttr, ::Org::BouncyCastle::Asn1::Cms::AttributeTable unsignedAttr) ;
+// Ctor Parameters [CppParam { name: "key", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "cert", ty: "Org::BouncyCastle::X509::X509Certificate", modifiers: "", def_value: None }, CppParam { name: "digestOID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "tsaPolicyOID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "signedAttr", ty: "Org::BouncyCastle::Asn1::Cms::AttributeTable", modifiers: "", def_value: None }, CppParam { name: "unsignedAttr", ty: "Org::BouncyCastle::Asn1::Cms::AttributeTable", modifiers: "", def_value: None }]
+explicit TimeStampTokenGenerator(Org::BouncyCastle::Crypto::AsymmetricKeyParameter key, Org::BouncyCastle::X509::X509Certificate cert, ::StringW digestOID, ::StringW tsaPolicyOID, Org::BouncyCastle::Asn1::Cms::AttributeTable signedAttr, Org::BouncyCastle::Asn1::Cms::AttributeTable unsignedAttr) ;
 
 /// @brief Method .ctor addr 0x10c7704 size 0x448 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter key, ::Org::BouncyCastle::X509::X509Certificate cert, ::StringW digestOID, ::StringW tsaPolicyOID, ::Org::BouncyCastle::Asn1::Cms::AttributeTable signedAttr, ::Org::BouncyCastle::Asn1::Cms::AttributeTable unsignedAttr) ;
+ void _ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter key, Org::BouncyCastle::X509::X509Certificate cert, ::StringW digestOID, ::StringW tsaPolicyOID, Org::BouncyCastle::Asn1::Cms::AttributeTable signedAttr, Org::BouncyCastle::Asn1::Cms::AttributeTable unsignedAttr) ;
 
 /// @brief Method SetCertificates addr 0x10c7b4c size 0x8 virtual false final false
- void SetCertificates(::Org::BouncyCastle::X509::Store::IX509Store certificates) ;
+ void SetCertificates(Org::BouncyCastle::X509::Store::IX509Store certificates) ;
 
 /// @brief Method SetCrls addr 0x10c7b54 size 0x8 virtual false final false
- void SetCrls(::Org::BouncyCastle::X509::Store::IX509Store crls) ;
+ void SetCrls(Org::BouncyCastle::X509::Store::IX509Store crls) ;
 
 /// @brief Method SetAccuracySeconds addr 0x10c7b5c size 0x8 virtual false final false
  void SetAccuracySeconds(int32_t accuracySeconds) ;
@@ -189,15 +188,14 @@ explicit TimeStampTokenGenerator(::Org::BouncyCastle::Crypto::AsymmetricKeyParam
  void SetOrdering(bool ordering) ;
 
 /// @brief Method SetTsa addr 0x10c7b80 size 0x8 virtual false final false
- void SetTsa(::Org::BouncyCastle::Asn1::X509::GeneralName tsa) ;
+ void SetTsa(Org::BouncyCastle::Asn1::X509::GeneralName tsa) ;
 
 /// @brief Method Generate addr 0x10c57a4 size 0x6a8 virtual false final false
- ::Org::BouncyCastle::Tsp::TimeStampToken Generate(::Org::BouncyCastle::Tsp::TimeStampRequest request, ::Org::BouncyCastle::Math::BigInteger serialNumber, ::System::DateTime genTime) ;
+ Org::BouncyCastle::Tsp::TimeStampToken Generate(Org::BouncyCastle::Tsp::TimeStampRequest request, Org::BouncyCastle::Math::BigInteger serialNumber, System::DateTime genTime) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Tsp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator, "Org.BouncyCastle.Tsp", "TimeStampTokenGenerator");
+NEED_NO_BOX(Org::BouncyCastle::Tsp::TimeStampTokenGenerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Tsp::TimeStampTokenGenerator, "Org.BouncyCastle.Tsp", "TimeStampTokenGenerator");

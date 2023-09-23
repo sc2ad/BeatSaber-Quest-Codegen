@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
 struct RenderDataDirtyTypes;
@@ -75,38 +74,37 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes const None;
+static UnityEngine::UIElements::UIR::RenderDataDirtyTypes const None;
 
 /// @brief Field Transform offset 0
-static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes const Transform;
+static UnityEngine::UIElements::UIR::RenderDataDirtyTypes const Transform;
 
 /// @brief Field ClipRectSize offset 0
-static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes const ClipRectSize;
+static UnityEngine::UIElements::UIR::RenderDataDirtyTypes const ClipRectSize;
 
 /// @brief Field Clipping offset 0
-static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes const Clipping;
+static UnityEngine::UIElements::UIR::RenderDataDirtyTypes const Clipping;
 
 /// @brief Field ClippingHierarchy offset 0
-static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes const ClippingHierarchy;
+static UnityEngine::UIElements::UIR::RenderDataDirtyTypes const ClippingHierarchy;
 
 /// @brief Field Visuals offset 0
-static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes const Visuals;
+static UnityEngine::UIElements::UIR::RenderDataDirtyTypes const Visuals;
 
 /// @brief Field VisualsHierarchy offset 0
-static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes const VisualsHierarchy;
+static UnityEngine::UIElements::UIR::RenderDataDirtyTypes const VisualsHierarchy;
 
 /// @brief Field Opacity offset 0
-static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes const Opacity;
+static UnityEngine::UIElements::UIR::RenderDataDirtyTypes const Opacity;
 
 /// @brief Field OpacityHierarchy offset 0
-static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes const OpacityHierarchy;
+static UnityEngine::UIElements::UIR::RenderDataDirtyTypes const OpacityHierarchy;
 
 /// @brief Field Color offset 0
-static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes const Color;
+static UnityEngine::UIElements::UIR::RenderDataDirtyTypes const Color;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::UIR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::RenderDataDirtyTypes, "UnityEngine.UIElements.UIR", "RenderDataDirtyTypes");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::RenderDataDirtyTypes, "UnityEngine.UIElements.UIR", "RenderDataDirtyTypes");

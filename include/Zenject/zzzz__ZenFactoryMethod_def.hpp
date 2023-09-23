@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class AsyncCallback;
 }
@@ -21,7 +20,7 @@ namespace Zenject {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15656))
 // CS Name: Zenject.ZenFactoryMethod
-class CORDL_TYPE ZenFactoryMethod : public ::System::MulticastDelegate {
+class CORDL_TYPE ZenFactoryMethod : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr ZenFactoryMethod(ZenFactoryMethod const& ) noexcept = default;
 constexpr ZenFactoryMethod(ZenFactoryMethod&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ZenFactoryMethod(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit ZenFactoryMethod(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -67,15 +66,14 @@ explicit ZenFactoryMethod(::bs_hook::Il2CppWrapperType object, ::cordl_internals
  ::bs_hook::Il2CppWrapperType Invoke(::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
 
 /// @brief Method BeginInvoke addr 0x2d405f8 size 0x20 virtual true final false
- ::System::IAsyncResult BeginInvoke(::ArrayW<::bs_hook::Il2CppWrapperType> args, ::System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
+ System::IAsyncResult BeginInvoke(::ArrayW<::bs_hook::Il2CppWrapperType> args, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
 
 /// @brief Method EndInvoke addr 0x2d40618 size 0xc virtual true final false
- ::bs_hook::Il2CppWrapperType EndInvoke(::System::IAsyncResult result) ;
+ ::bs_hook::Il2CppWrapperType EndInvoke(System::IAsyncResult result) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::ZenFactoryMethod);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::ZenFactoryMethod, "Zenject", "ZenFactoryMethod");
+NEED_NO_BOX(Zenject::ZenFactoryMethod);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenFactoryMethod, "Zenject", "ZenFactoryMethod");

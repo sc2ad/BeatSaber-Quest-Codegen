@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
 namespace UnityEngine {
 struct Color;
 }
@@ -18,8 +17,8 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE PanelClearSettings : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "clearDepthStencil", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "clearColor", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }]
-constexpr PanelClearSettings(bool clearDepthStencil, bool clearColor, ::UnityEngine::Color color) noexcept;
+// Ctor Parameters [CppParam { name: "clearDepthStencil", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "clearColor", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "color", ty: "UnityEngine::Color", modifiers: "", def_value: None }]
+constexpr PanelClearSettings(bool clearDepthStencil, bool clearColor, UnityEngine::Color color) noexcept;
 
 
                     constexpr PanelClearSettings(PanelClearSettings const&) = default;
@@ -64,15 +63,14 @@ constexpr void __set_clearColor(bool value) ;
 
 constexpr bool __get_clearColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_color, put=__set_color))  color;
+ UnityEngine::Color __declspec(property(get=__get_color, put=__set_color))  color;
 
-constexpr void __set_color(::UnityEngine::Color value) ;
+constexpr void __set_color(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_color() const;
+constexpr UnityEngine::Color __get_color() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::PanelClearSettings, "UnityEngine.UIElements", "PanelClearSettings");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::PanelClearSettings, "UnityEngine.UIElements", "PanelClearSettings");

@@ -3,17 +3,16 @@
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
+namespace UnityEngine::UI {
+class Button;
+}
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
-namespace UnityEngine::UI {
-class Button;
-}
 // Forward declare root types
 namespace GlobalNamespace {
-struct ____GlobalNamespace__SoloModeSelectionViewController__MenuType;
+struct GlobalNamespace__SoloModeSelectionViewController__MenuType;
 }
 namespace GlobalNamespace {
 class SoloModeSelectionViewController;
@@ -24,20 +23,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5851))
 // CS Name: SoloModeSelectionViewController::MenuType
-struct CORDL_TYPE ____GlobalNamespace__SoloModeSelectionViewController__MenuType : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__SoloModeSelectionViewController__MenuType : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__SoloModeSelectionViewController__MenuType(int32_t value__) noexcept;
+constexpr GlobalNamespace__SoloModeSelectionViewController__MenuType(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__SoloModeSelectionViewController__MenuType(____GlobalNamespace__SoloModeSelectionViewController__MenuType const&) = default;
-                    constexpr ____GlobalNamespace__SoloModeSelectionViewController__MenuType(____GlobalNamespace__SoloModeSelectionViewController__MenuType&&) = default;
-                    constexpr ____GlobalNamespace__SoloModeSelectionViewController__MenuType& operator=(____GlobalNamespace__SoloModeSelectionViewController__MenuType const& o) {
+                    constexpr GlobalNamespace__SoloModeSelectionViewController__MenuType(GlobalNamespace__SoloModeSelectionViewController__MenuType const&) = default;
+                    constexpr GlobalNamespace__SoloModeSelectionViewController__MenuType(GlobalNamespace__SoloModeSelectionViewController__MenuType&&) = default;
+                    constexpr GlobalNamespace__SoloModeSelectionViewController__MenuType& operator=(GlobalNamespace__SoloModeSelectionViewController__MenuType const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__SoloModeSelectionViewController__MenuType& operator=(____GlobalNamespace__SoloModeSelectionViewController__MenuType&& o) noexcept {
+                    constexpr GlobalNamespace__SoloModeSelectionViewController__MenuType& operator=(GlobalNamespace__SoloModeSelectionViewController__MenuType&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -50,7 +49,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__SoloModeSelectionViewController__MenuType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__SoloModeSelectionViewController__MenuType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -58,7 +57,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__SoloModeSelectionViewController__MenuType_Unwrapped : int32_t {
+enum class __GlobalNamespace__SoloModeSelectionViewController__MenuType_Unwrapped : int32_t {
 __FreePlayMode = 0,
 __NoArrowsMode = 1,
 __OneSaberMode = 2,
@@ -66,8 +65,8 @@ __Back = 3,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__SoloModeSelectionViewController__MenuType_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__SoloModeSelectionViewController__MenuType_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__SoloModeSelectionViewController__MenuType_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__SoloModeSelectionViewController__MenuType_Unwrapped>(__instance);
 }
 
 
@@ -80,16 +79,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field FreePlayMode offset 0
-static ::GlobalNamespace::____GlobalNamespace__SoloModeSelectionViewController__MenuType const FreePlayMode;
+static GlobalNamespace::GlobalNamespace__SoloModeSelectionViewController__MenuType const FreePlayMode;
 
 /// @brief Field NoArrowsMode offset 0
-static ::GlobalNamespace::____GlobalNamespace__SoloModeSelectionViewController__MenuType const NoArrowsMode;
+static GlobalNamespace::GlobalNamespace__SoloModeSelectionViewController__MenuType const NoArrowsMode;
 
 /// @brief Field OneSaberMode offset 0
-static ::GlobalNamespace::____GlobalNamespace__SoloModeSelectionViewController__MenuType const OneSaberMode;
+static GlobalNamespace::GlobalNamespace__SoloModeSelectionViewController__MenuType const OneSaberMode;
 
 /// @brief Field Back offset 0
-static ::GlobalNamespace::____GlobalNamespace__SoloModeSelectionViewController__MenuType const Back;
+static GlobalNamespace::GlobalNamespace__SoloModeSelectionViewController__MenuType const Back;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -101,10 +100,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13656))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5852))
 // CS Name: SoloModeSelectionViewController
-class CORDL_TYPE SoloModeSelectionViewController : public ::HMUI::ViewController {
+class CORDL_TYPE SoloModeSelectionViewController : public HMUI::ViewController {
 public:
 // Declarations
-using MenuType = ::GlobalNamespace::____GlobalNamespace__SoloModeSelectionViewController__MenuType;
+using MenuType = GlobalNamespace::GlobalNamespace__SoloModeSelectionViewController__MenuType;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x98};
@@ -118,7 +117,7 @@ constexpr SoloModeSelectionViewController(SoloModeSelectionViewController const&
 constexpr SoloModeSelectionViewController(SoloModeSelectionViewController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SoloModeSelectionViewController(void* ptr) noexcept : ::HMUI::ViewController(ptr) {
+constexpr explicit SoloModeSelectionViewController(void* ptr) noexcept : HMUI::ViewController(ptr) {
 }
 
 
@@ -139,50 +138,50 @@ constexpr explicit SoloModeSelectionViewController(void* ptr) noexcept : ::HMUI:
 
 // Fields
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__freePlayModeButton, put=__set__freePlayModeButton))  _freePlayModeButton;
+ UnityEngine::UI::Button __declspec(property(get=__get__freePlayModeButton, put=__set__freePlayModeButton))  _freePlayModeButton;
 
-constexpr void __set__freePlayModeButton(::UnityEngine::UI::Button value) ;
+constexpr void __set__freePlayModeButton(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__freePlayModeButton() const;
+constexpr UnityEngine::UI::Button __get__freePlayModeButton() const;
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__oneSaberModeButton, put=__set__oneSaberModeButton))  _oneSaberModeButton;
+ UnityEngine::UI::Button __declspec(property(get=__get__oneSaberModeButton, put=__set__oneSaberModeButton))  _oneSaberModeButton;
 
-constexpr void __set__oneSaberModeButton(::UnityEngine::UI::Button value) ;
+constexpr void __set__oneSaberModeButton(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__oneSaberModeButton() const;
+constexpr UnityEngine::UI::Button __get__oneSaberModeButton() const;
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__noArrowsModeButton, put=__set__noArrowsModeButton))  _noArrowsModeButton;
+ UnityEngine::UI::Button __declspec(property(get=__get__noArrowsModeButton, put=__set__noArrowsModeButton))  _noArrowsModeButton;
 
-constexpr void __set__noArrowsModeButton(::UnityEngine::UI::Button value) ;
+constexpr void __set__noArrowsModeButton(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__noArrowsModeButton() const;
+constexpr UnityEngine::UI::Button __get__noArrowsModeButton() const;
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__dismissButton, put=__set__dismissButton))  _dismissButton;
+ UnityEngine::UI::Button __declspec(property(get=__get__dismissButton, put=__set__dismissButton))  _dismissButton;
 
-constexpr void __set__dismissButton(::UnityEngine::UI::Button value) ;
+constexpr void __set__dismissButton(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__dismissButton() const;
+constexpr UnityEngine::UI::Button __get__dismissButton() const;
 
- ::System::Action_2<::GlobalNamespace::SoloModeSelectionViewController,::GlobalNamespace::____GlobalNamespace__SoloModeSelectionViewController__MenuType> __declspec(property(get=__get_didFinishEvent, put=__set_didFinishEvent))  didFinishEvent;
+ System::Action_2<GlobalNamespace::SoloModeSelectionViewController,GlobalNamespace::GlobalNamespace__SoloModeSelectionViewController__MenuType> __declspec(property(get=__get_didFinishEvent, put=__set_didFinishEvent))  didFinishEvent;
 
-constexpr void __set_didFinishEvent(::System::Action_2<::GlobalNamespace::SoloModeSelectionViewController,::GlobalNamespace::____GlobalNamespace__SoloModeSelectionViewController__MenuType> value) ;
+constexpr void __set_didFinishEvent(System::Action_2<GlobalNamespace::SoloModeSelectionViewController,GlobalNamespace::GlobalNamespace__SoloModeSelectionViewController__MenuType> value) ;
 
-constexpr ::System::Action_2<::GlobalNamespace::SoloModeSelectionViewController,::GlobalNamespace::____GlobalNamespace__SoloModeSelectionViewController__MenuType> __get_didFinishEvent() const;
+constexpr System::Action_2<GlobalNamespace::SoloModeSelectionViewController,GlobalNamespace::GlobalNamespace__SoloModeSelectionViewController__MenuType> __get_didFinishEvent() const;
 
 
 // Methods
 
 /// @brief Method add_didFinishEvent addr 0x2181e14 size 0xb0 virtual false final false
- void add_didFinishEvent(::System::Action_2<::GlobalNamespace::SoloModeSelectionViewController,::GlobalNamespace::____GlobalNamespace__SoloModeSelectionViewController__MenuType> value) ;
+ void add_didFinishEvent(System::Action_2<GlobalNamespace::SoloModeSelectionViewController,GlobalNamespace::GlobalNamespace__SoloModeSelectionViewController__MenuType> value) ;
 
 /// @brief Method remove_didFinishEvent addr 0x2181ec4 size 0xb0 virtual false final false
- void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::SoloModeSelectionViewController,::GlobalNamespace::____GlobalNamespace__SoloModeSelectionViewController__MenuType> value) ;
+ void remove_didFinishEvent(System::Action_2<GlobalNamespace::SoloModeSelectionViewController,GlobalNamespace::GlobalNamespace__SoloModeSelectionViewController__MenuType> value) ;
 
 /// @brief Method DidActivate addr 0x2181f74 size 0x1b0 virtual true final false
  void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) ;
 
 /// @brief Method HandleMenuButton addr 0x2182124 size 0x28 virtual false final false
- void HandleMenuButton(::GlobalNamespace::____GlobalNamespace__SoloModeSelectionViewController__MenuType subMenuType) ;
+ void HandleMenuButton(GlobalNamespace::GlobalNamespace__SoloModeSelectionViewController__MenuType subMenuType) ;
 
 // Ctor Parameters []
 explicit SoloModeSelectionViewController() ;
@@ -206,7 +205,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__SoloModeSelectionViewController__MenuType, "", "SoloModeSelectionViewController/MenuType");
-NEED_NO_BOX(::GlobalNamespace::SoloModeSelectionViewController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SoloModeSelectionViewController, "", "SoloModeSelectionViewController");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__SoloModeSelectionViewController__MenuType, "", "SoloModeSelectionViewController/MenuType");
+NEED_NO_BOX(GlobalNamespace::SoloModeSelectionViewController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SoloModeSelectionViewController, "", "SoloModeSelectionViewController");

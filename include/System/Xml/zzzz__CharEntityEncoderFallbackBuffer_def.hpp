@@ -3,7 +3,6 @@
 #include "System/Text/zzzz__EncoderFallbackBuffer_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Xml {
 class CharEntityEncoderFallback;
 }
@@ -17,7 +16,7 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2841))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11354))
 // CS Name: System.Xml.CharEntityEncoderFallbackBuffer
-class CORDL_TYPE CharEntityEncoderFallbackBuffer : public ::System::Text::EncoderFallbackBuffer {
+class CORDL_TYPE CharEntityEncoderFallbackBuffer : public System::Text::EncoderFallbackBuffer {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr CharEntityEncoderFallbackBuffer(CharEntityEncoderFallbackBuffer const&
 constexpr CharEntityEncoderFallbackBuffer(CharEntityEncoderFallbackBuffer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CharEntityEncoderFallbackBuffer(void* ptr) noexcept : ::System::Text::EncoderFallbackBuffer(ptr) {
+constexpr explicit CharEntityEncoderFallbackBuffer(void* ptr) noexcept : System::Text::EncoderFallbackBuffer(ptr) {
 }
 
 
@@ -53,11 +52,11 @@ constexpr explicit CharEntityEncoderFallbackBuffer(void* ptr) noexcept : ::Syste
 
 // Fields
 
- ::System::Xml::CharEntityEncoderFallback __declspec(property(get=__get_parent, put=__set_parent))  parent;
+ System::Xml::CharEntityEncoderFallback __declspec(property(get=__get_parent, put=__set_parent))  parent;
 
-constexpr void __set_parent(::System::Xml::CharEntityEncoderFallback value) ;
+constexpr void __set_parent(System::Xml::CharEntityEncoderFallback value) ;
 
-constexpr ::System::Xml::CharEntityEncoderFallback __get_parent() const;
+constexpr System::Xml::CharEntityEncoderFallback __get_parent() const;
 
  ::StringW __declspec(property(get=__get_charEntity, put=__set_charEntity))  charEntity;
 
@@ -79,11 +78,11 @@ constexpr int32_t __get_charEntityIndex() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "parent", ty: "::System::Xml::CharEntityEncoderFallback", modifiers: "", def_value: None }]
-explicit CharEntityEncoderFallbackBuffer(::System::Xml::CharEntityEncoderFallback parent) ;
+// Ctor Parameters [CppParam { name: "parent", ty: "System::Xml::CharEntityEncoderFallback", modifiers: "", def_value: None }]
+explicit CharEntityEncoderFallbackBuffer(System::Xml::CharEntityEncoderFallback parent) ;
 
 /// @brief Method .ctor addr 0x26bc0d4 size 0x74 virtual false final false
- void _ctor(::System::Xml::CharEntityEncoderFallback parent) ;
+ void _ctor(System::Xml::CharEntityEncoderFallback parent) ;
 
 /// @brief Method Fallback addr 0x26bc1cc size 0x1f0 virtual true final false
  bool Fallback(char16_t charUnknown, int32_t index) ;
@@ -110,6 +109,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::CharEntityEncoderFallbackBuffer);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::CharEntityEncoderFallbackBuffer, "System.Xml", "CharEntityEncoderFallbackBuffer");
+NEED_NO_BOX(System::Xml::CharEntityEncoderFallbackBuffer);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::CharEntityEncoderFallbackBuffer, "System.Xml", "CharEntityEncoderFallbackBuffer");

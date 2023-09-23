@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_def.hpp"
 #include <cmath>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Timeline {
 class AudioClipProperties;
@@ -13,7 +12,7 @@ namespace UnityEngine::Timeline {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10361))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14076))
 // CS Name: UnityEngine.Timeline.AudioClipProperties
-class CORDL_TYPE AudioClipProperties : public ::UnityEngine::Playables::PlayableBehaviour {
+class CORDL_TYPE AudioClipProperties : public UnityEngine::Playables::PlayableBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr AudioClipProperties(AudioClipProperties const& ) noexcept = default;
 constexpr AudioClipProperties(AudioClipProperties&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AudioClipProperties(void* ptr) noexcept : ::UnityEngine::Playables::PlayableBehaviour(ptr) {
+constexpr explicit AudioClipProperties(void* ptr) noexcept : UnityEngine::Playables::PlayableBehaviour(ptr) {
 }
 
 
@@ -68,6 +67,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Timeline::AudioClipProperties);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::AudioClipProperties, "UnityEngine.Timeline", "AudioClipProperties");
+NEED_NO_BOX(UnityEngine::Timeline::AudioClipProperties);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AudioClipProperties, "UnityEngine.Timeline", "AudioClipProperties");

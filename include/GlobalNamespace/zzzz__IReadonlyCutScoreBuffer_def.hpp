@@ -2,10 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-class ICutScoreBufferDidFinishReceiver;
-}
 namespace GlobalNamespace {
 struct NoteCutInfo;
 }
@@ -13,7 +9,10 @@ namespace GlobalNamespace {
 class ICutScoreBufferDidChangeReceiver;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__ScoreModel__NoteScoreDefinition;
+class ICutScoreBufferDidFinishReceiver;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__ScoreModel__NoteScoreDefinition;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -49,9 +48,9 @@ constexpr explicit IReadonlyCutScoreBuffer(void* ptr) noexcept : ::cordl_interna
 
  bool __declspec(property(get=get_isFinished))  isFinished;
 
- ::GlobalNamespace::____GlobalNamespace__ScoreModel__NoteScoreDefinition __declspec(property(get=get_noteScoreDefinition))  noteScoreDefinition;
+ GlobalNamespace::GlobalNamespace__ScoreModel__NoteScoreDefinition __declspec(property(get=get_noteScoreDefinition))  noteScoreDefinition;
 
- ::GlobalNamespace::NoteCutInfo __declspec(property(get=get_noteCutInfo))  noteCutInfo;
+ GlobalNamespace::NoteCutInfo __declspec(property(get=get_noteCutInfo))  noteCutInfo;
 
  float_t __declspec(property(get=get_beforeCutSwingRating))  beforeCutSwingRating;
 
@@ -79,10 +78,10 @@ constexpr explicit IReadonlyCutScoreBuffer(void* ptr) noexcept : ::cordl_interna
  bool get_isFinished() ;
 
 /// @brief Method get_noteScoreDefinition addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::____GlobalNamespace__ScoreModel__NoteScoreDefinition get_noteScoreDefinition() ;
+ GlobalNamespace::GlobalNamespace__ScoreModel__NoteScoreDefinition get_noteScoreDefinition() ;
 
 /// @brief Method get_noteCutInfo addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::NoteCutInfo get_noteCutInfo() ;
+ GlobalNamespace::NoteCutInfo get_noteCutInfo() ;
 
 /// @brief Method get_beforeCutSwingRating addr 0x0 size 0xffffffffffffffff virtual true final false
  float_t get_beforeCutSwingRating() ;
@@ -91,21 +90,20 @@ constexpr explicit IReadonlyCutScoreBuffer(void* ptr) noexcept : ::cordl_interna
  float_t get_afterCutSwingRating() ;
 
 /// @brief Method RegisterDidChangeReceiver addr 0x0 size 0xffffffffffffffff virtual true final false
- void RegisterDidChangeReceiver(::GlobalNamespace::ICutScoreBufferDidChangeReceiver receiver) ;
+ void RegisterDidChangeReceiver(GlobalNamespace::ICutScoreBufferDidChangeReceiver receiver) ;
 
 /// @brief Method RegisterDidFinishReceiver addr 0x0 size 0xffffffffffffffff virtual true final false
- void RegisterDidFinishReceiver(::GlobalNamespace::ICutScoreBufferDidFinishReceiver receiver) ;
+ void RegisterDidFinishReceiver(GlobalNamespace::ICutScoreBufferDidFinishReceiver receiver) ;
 
 /// @brief Method UnregisterDidChangeReceiver addr 0x0 size 0xffffffffffffffff virtual true final false
- void UnregisterDidChangeReceiver(::GlobalNamespace::ICutScoreBufferDidChangeReceiver receiver) ;
+ void UnregisterDidChangeReceiver(GlobalNamespace::ICutScoreBufferDidChangeReceiver receiver) ;
 
 /// @brief Method UnregisterDidFinishReceiver addr 0x0 size 0xffffffffffffffff virtual true final false
- void UnregisterDidFinishReceiver(::GlobalNamespace::ICutScoreBufferDidFinishReceiver receiver) ;
+ void UnregisterDidFinishReceiver(GlobalNamespace::ICutScoreBufferDidFinishReceiver receiver) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IReadonlyCutScoreBuffer);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IReadonlyCutScoreBuffer, "", "IReadonlyCutScoreBuffer");
+NEED_NO_BOX(GlobalNamespace::IReadonlyCutScoreBuffer);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IReadonlyCutScoreBuffer, "", "IReadonlyCutScoreBuffer");

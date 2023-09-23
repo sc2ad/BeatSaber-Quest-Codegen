@@ -4,18 +4,17 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct Rect;
-}
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-struct Color;
+struct Matrix4x4;
 }
 namespace UnityEngine {
-struct Matrix4x4;
+struct Rect;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -67,7 +66,7 @@ static bool __declspec(property(get=get_sRGBWrite, put=set_sRGBWrite))  sRGBWrit
 
 static bool __declspec(property(get=get_invertCulling, put=set_invertCulling))  invertCulling;
 
-static ::UnityEngine::Matrix4x4 __declspec(property(put=set_modelview))  modelview;
+static UnityEngine::Matrix4x4 __declspec(property(put=set_modelview))  modelview;
 
 
 // Methods
@@ -79,7 +78,7 @@ static void Vertex3(float_t x, float_t y, float_t z) ;
 static void TexCoord3(float_t x, float_t y, float_t z) ;
 
 /// @brief Method TexCoord addr 0x2b4c82c size 0x50 virtual false final false
-static void TexCoord(::UnityEngine::Vector3 v) ;
+static void TexCoord(UnityEngine::Vector3 v) ;
 
 /// @brief Method TexCoord2 addr 0x2b4c87c size 0x44 virtual false final false
 static void TexCoord2(float_t x, float_t y) ;
@@ -88,7 +87,7 @@ static void TexCoord2(float_t x, float_t y) ;
 static void ImmediateColor(float_t r, float_t g, float_t b, float_t a) ;
 
 /// @brief Method Color addr 0x2b4c918 size 0x58 virtual false final false
-static void Color(::UnityEngine::Color c) ;
+static void Color(UnityEngine::Color c) ;
 
 /// @brief Method get_sRGBWrite addr 0x2b4c970 size 0x28 virtual false final false
 static bool get_sRGBWrite() ;
@@ -106,10 +105,10 @@ static void set_invertCulling(bool value) ;
 static void Flush() ;
 
 /// @brief Method SetViewMatrix addr 0x2b4ca60 size 0x3c virtual false final false
-static void SetViewMatrix(::UnityEngine::Matrix4x4 m) ;
+static void SetViewMatrix(UnityEngine::Matrix4x4 m) ;
 
 /// @brief Method set_modelview addr 0x2b4cad8 size 0x4c virtual false final false
-static void set_modelview(::UnityEngine::Matrix4x4 value) ;
+static void set_modelview(UnityEngine::Matrix4x4 value) ;
 
 /// @brief Method PushMatrix addr 0x2b4cb24 size 0x28 virtual false final false
 static void PushMatrix() ;
@@ -121,7 +120,7 @@ static void PopMatrix() ;
 static void LoadOrtho() ;
 
 /// @brief Method LoadProjectionMatrix addr 0x2b4cb9c size 0x3c virtual false final false
-static void LoadProjectionMatrix(::UnityEngine::Matrix4x4 mat) ;
+static void LoadProjectionMatrix(UnityEngine::Matrix4x4 mat) ;
 
 /// @brief Method GLLoadPixelMatrixScript addr 0x2b4cc14 size 0x58 virtual false final false
 static void GLLoadPixelMatrixScript(float_t left, float_t right, float_t bottom, float_t top) ;
@@ -142,33 +141,32 @@ static void Begin(int32_t mode) ;
 static void End() ;
 
 /// @brief Method GLClear addr 0x2b4ce5c size 0x6c virtual false final false
-static void GLClear(bool clearDepth, bool clearColor, ::UnityEngine::Color backgroundColor, float_t depth) ;
+static void GLClear(bool clearDepth, bool clearColor, UnityEngine::Color backgroundColor, float_t depth) ;
 
 /// @brief Method Clear addr 0x2b4cf2c size 0xc virtual false final false
-static void Clear(bool clearDepth, bool clearColor, ::UnityEngine::Color backgroundColor, float_t depth) ;
+static void Clear(bool clearDepth, bool clearColor, UnityEngine::Color backgroundColor, float_t depth) ;
 
 /// @brief Method Clear addr 0x2b4cf38 size 0x10 virtual false final false
-static void Clear(bool clearDepth, bool clearColor, ::UnityEngine::Color backgroundColor) ;
+static void Clear(bool clearDepth, bool clearColor, UnityEngine::Color backgroundColor) ;
 
 /// @brief Method Viewport addr 0x2b4cf48 size 0x44 virtual false final false
-static void Viewport(::UnityEngine::Rect pixelRect) ;
+static void Viewport(UnityEngine::Rect pixelRect) ;
 
 /// @brief Method SetViewMatrix_Injected addr 0x2b4ca9c size 0x3c virtual false final false
-static void SetViewMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> m) ;
+static void SetViewMatrix_Injected(ByRef<UnityEngine::Matrix4x4> m) ;
 
 /// @brief Method LoadProjectionMatrix_Injected addr 0x2b4cbd8 size 0x3c virtual false final false
-static void LoadProjectionMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> mat) ;
+static void LoadProjectionMatrix_Injected(ByRef<UnityEngine::Matrix4x4> mat) ;
 
 /// @brief Method GLClear_Injected addr 0x2b4cec8 size 0x64 virtual false final false
-static void GLClear_Injected(bool clearDepth, bool clearColor, ByRef<::UnityEngine::Color> backgroundColor, float_t depth) ;
+static void GLClear_Injected(bool clearDepth, bool clearColor, ByRef<UnityEngine::Color> backgroundColor, float_t depth) ;
 
 /// @brief Method Viewport_Injected addr 0x2b4cf8c size 0x3c virtual false final false
-static void Viewport_Injected(ByRef<::UnityEngine::Rect> pixelRect) ;
+static void Viewport_Injected(ByRef<UnityEngine::Rect> pixelRect) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::GL);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::GL, "UnityEngine", "GL");
+NEED_NO_BOX(UnityEngine::GL);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GL, "UnityEngine", "GL");

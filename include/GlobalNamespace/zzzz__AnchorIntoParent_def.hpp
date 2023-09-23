@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace UnityEngine {
 class Transform;
 }
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5441))
 // CS Name: AnchorIntoParent
-class CORDL_TYPE AnchorIntoParent : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE AnchorIntoParent : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr AnchorIntoParent(AnchorIntoParent const& ) noexcept = default;
 constexpr AnchorIntoParent(AnchorIntoParent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AnchorIntoParent(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit AnchorIntoParent(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -54,17 +53,17 @@ constexpr explicit AnchorIntoParent(void* ptr) noexcept : ::UnityEngine::MonoBeh
 
 // Fields
 
- ::UnityEngine::Transform __declspec(property(get=__get__parentTransform, put=__set__parentTransform))  _parentTransform;
+ UnityEngine::Transform __declspec(property(get=__get__parentTransform, put=__set__parentTransform))  _parentTransform;
 
-constexpr void __set__parentTransform(::UnityEngine::Transform value) ;
+constexpr void __set__parentTransform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__parentTransform() const;
+constexpr UnityEngine::Transform __get__parentTransform() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__positionOffset, put=__set__positionOffset))  _positionOffset;
+ UnityEngine::Vector3 __declspec(property(get=__get__positionOffset, put=__set__positionOffset))  _positionOffset;
 
-constexpr void __set__positionOffset(::UnityEngine::Vector3 value) ;
+constexpr void __set__positionOffset(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__positionOffset() const;
+constexpr UnityEngine::Vector3 __get__positionOffset() const;
 
 
 // Methods
@@ -82,6 +81,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::AnchorIntoParent);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AnchorIntoParent, "", "AnchorIntoParent");
+NEED_NO_BOX(GlobalNamespace::AnchorIntoParent);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnchorIntoParent, "", "AnchorIntoParent");

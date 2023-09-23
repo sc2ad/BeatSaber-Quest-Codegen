@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
-namespace GlobalNamespace {
-class FloatSignal;
-}
 namespace GlobalNamespace {
 class FloatUnityEvent;
+}
+namespace GlobalNamespace {
+class FloatSignal;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13880))
 // CS Name: FloatSignalListener
-class CORDL_TYPE FloatSignalListener : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE FloatSignalListener : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr FloatSignalListener(FloatSignalListener const& ) noexcept = default;
 constexpr FloatSignalListener(FloatSignalListener&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FloatSignalListener(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit FloatSignalListener(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -55,17 +54,17 @@ constexpr explicit FloatSignalListener(void* ptr) noexcept : ::UnityEngine::Mono
 
 // Fields
 
- ::GlobalNamespace::FloatSignal __declspec(property(get=__get__floatSignal, put=__set__floatSignal))  _floatSignal;
+ GlobalNamespace::FloatSignal __declspec(property(get=__get__floatSignal, put=__set__floatSignal))  _floatSignal;
 
-constexpr void __set__floatSignal(::GlobalNamespace::FloatSignal value) ;
+constexpr void __set__floatSignal(GlobalNamespace::FloatSignal value) ;
 
-constexpr ::GlobalNamespace::FloatSignal __get__floatSignal() const;
+constexpr GlobalNamespace::FloatSignal __get__floatSignal() const;
 
- ::GlobalNamespace::FloatUnityEvent __declspec(property(get=__get__unityEvent, put=__set__unityEvent))  _unityEvent;
+ GlobalNamespace::FloatUnityEvent __declspec(property(get=__get__unityEvent, put=__set__unityEvent))  _unityEvent;
 
-constexpr void __set__unityEvent(::GlobalNamespace::FloatUnityEvent value) ;
+constexpr void __set__unityEvent(GlobalNamespace::FloatUnityEvent value) ;
 
-constexpr ::GlobalNamespace::FloatUnityEvent __get__unityEvent() const;
+constexpr GlobalNamespace::FloatUnityEvent __get__unityEvent() const;
 
 
 // Methods
@@ -89,6 +88,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::FloatSignalListener);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FloatSignalListener, "", "FloatSignalListener");
+NEED_NO_BOX(GlobalNamespace::FloatSignalListener);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FloatSignalListener, "", "FloatSignalListener");

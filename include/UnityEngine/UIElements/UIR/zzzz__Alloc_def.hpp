@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
 struct Alloc;
@@ -79,5 +78,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::UIR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::Alloc, "UnityEngine.UIElements.UIR", "Alloc");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::Alloc, "UnityEngine.UIElements.UIR", "Alloc");

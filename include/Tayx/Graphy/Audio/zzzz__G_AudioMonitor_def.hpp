@@ -4,24 +4,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine::SceneManagement {
-struct LoadSceneMode;
-}
-namespace Tayx::Graphy {
-struct ____Tayx__Graphy__GraphyManager__LookForAudioListener;
-}
 namespace UnityEngine {
-struct FFTWindow;
-}
-namespace UnityEngine::SceneManagement {
-struct Scene;
+class AudioListener;
 }
 namespace Tayx::Graphy {
 class GraphyManager;
 }
 namespace UnityEngine {
-class AudioListener;
+struct FFTWindow;
+}
+namespace Tayx::Graphy {
+struct Tayx__Graphy__GraphyManager__LookForAudioListener;
+}
+namespace UnityEngine::SceneManagement {
+struct Scene;
+}
+namespace UnityEngine::SceneManagement {
+struct LoadSceneMode;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Audio {
@@ -33,7 +32,7 @@ namespace Tayx::Graphy::Audio {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15210))
 // CS Name: Tayx.Graphy.Audio.G_AudioMonitor
-class CORDL_TYPE G_AudioMonitor : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE G_AudioMonitor : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -48,7 +47,7 @@ constexpr G_AudioMonitor(G_AudioMonitor const& ) noexcept = default;
 constexpr G_AudioMonitor(G_AudioMonitor&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit G_AudioMonitor(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit G_AudioMonitor(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -72,29 +71,29 @@ constexpr explicit G_AudioMonitor(void* ptr) noexcept : ::UnityEngine::MonoBehav
 /// @brief Field m_refValue offset 0
 static constexpr float_t  m_refValue{1};
 
- ::Tayx::Graphy::GraphyManager __declspec(property(get=__get_m_graphyManager, put=__set_m_graphyManager))  m_graphyManager;
+ Tayx::Graphy::GraphyManager __declspec(property(get=__get_m_graphyManager, put=__set_m_graphyManager))  m_graphyManager;
 
-constexpr void __set_m_graphyManager(::Tayx::Graphy::GraphyManager value) ;
+constexpr void __set_m_graphyManager(Tayx::Graphy::GraphyManager value) ;
 
-constexpr ::Tayx::Graphy::GraphyManager __get_m_graphyManager() const;
+constexpr Tayx::Graphy::GraphyManager __get_m_graphyManager() const;
 
- ::UnityEngine::AudioListener __declspec(property(get=__get_m_audioListener, put=__set_m_audioListener))  m_audioListener;
+ UnityEngine::AudioListener __declspec(property(get=__get_m_audioListener, put=__set_m_audioListener))  m_audioListener;
 
-constexpr void __set_m_audioListener(::UnityEngine::AudioListener value) ;
+constexpr void __set_m_audioListener(UnityEngine::AudioListener value) ;
 
-constexpr ::UnityEngine::AudioListener __get_m_audioListener() const;
+constexpr UnityEngine::AudioListener __get_m_audioListener() const;
 
- ::Tayx::Graphy::____Tayx__Graphy__GraphyManager__LookForAudioListener __declspec(property(get=__get_m_findAudioListenerInCameraIfNull, put=__set_m_findAudioListenerInCameraIfNull))  m_findAudioListenerInCameraIfNull;
+ Tayx::Graphy::Tayx__Graphy__GraphyManager__LookForAudioListener __declspec(property(get=__get_m_findAudioListenerInCameraIfNull, put=__set_m_findAudioListenerInCameraIfNull))  m_findAudioListenerInCameraIfNull;
 
-constexpr void __set_m_findAudioListenerInCameraIfNull(::Tayx::Graphy::____Tayx__Graphy__GraphyManager__LookForAudioListener value) ;
+constexpr void __set_m_findAudioListenerInCameraIfNull(Tayx::Graphy::Tayx__Graphy__GraphyManager__LookForAudioListener value) ;
 
-constexpr ::Tayx::Graphy::____Tayx__Graphy__GraphyManager__LookForAudioListener __get_m_findAudioListenerInCameraIfNull() const;
+constexpr Tayx::Graphy::Tayx__Graphy__GraphyManager__LookForAudioListener __get_m_findAudioListenerInCameraIfNull() const;
 
- ::UnityEngine::FFTWindow __declspec(property(get=__get_m_FFTWindow, put=__set_m_FFTWindow))  m_FFTWindow;
+ UnityEngine::FFTWindow __declspec(property(get=__get_m_FFTWindow, put=__set_m_FFTWindow))  m_FFTWindow;
 
-constexpr void __set_m_FFTWindow(::UnityEngine::FFTWindow value) ;
+constexpr void __set_m_FFTWindow(UnityEngine::FFTWindow value) ;
 
-constexpr ::UnityEngine::FFTWindow __get_m_FFTWindow() const;
+constexpr UnityEngine::FFTWindow __get_m_FFTWindow() const;
 
  int32_t __declspec(property(get=__get_m_spectrumSize, put=__set_m_spectrumSize))  m_spectrumSize;
 
@@ -174,10 +173,10 @@ constexpr float_t __get__MaxDB_k__BackingField() const;
  float_t dBNormalized(float_t db) ;
 
 /// @brief Method FindAudioListener addr 0x2877bdc size 0xb4 virtual false final false
- ::UnityEngine::AudioListener FindAudioListener() ;
+ UnityEngine::AudioListener FindAudioListener() ;
 
 /// @brief Method OnSceneLoaded addr 0x2877d34 size 0x24 virtual false final false
- void OnSceneLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode loadSceneMode) ;
+ void OnSceneLoaded(UnityEngine::SceneManagement::Scene scene, UnityEngine::SceneManagement::LoadSceneMode loadSceneMode) ;
 
 /// @brief Method Init addr 0x2877908 size 0xe8 virtual false final false
  void Init() ;
@@ -192,6 +191,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Tayx::Graphy::Audio
-} // end anonymous namespace
-NEED_NO_BOX(::Tayx::Graphy::Audio::G_AudioMonitor);
-DEFINE_IL2CPP_ARG_TYPE(::Tayx::Graphy::Audio::G_AudioMonitor, "Tayx.Graphy.Audio", "G_AudioMonitor");
+NEED_NO_BOX(Tayx::Graphy::Audio::G_AudioMonitor);
+DEFINE_IL2CPP_ARG_TYPE(Tayx::Graphy::Audio::G_AudioMonitor, "Tayx.Graphy.Audio", "G_AudioMonitor");

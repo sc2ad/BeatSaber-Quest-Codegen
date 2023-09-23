@@ -4,7 +4,9 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace System::Security::Util {
+class Tokenizer;
+}
 namespace System::Security {
 class SecurityElement;
 }
@@ -13,9 +15,6 @@ class SecurityDocument;
 }
 namespace System::Security::Util {
 class TokenizerStream;
-}
-namespace System::Security::Util {
-class Tokenizer;
 }
 // Forward declare root types
 namespace System::Security::Util {
@@ -63,38 +62,38 @@ constexpr explicit Parser(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr
 
 // Fields
 
- ::System::Security::SecurityDocument __declspec(property(get=__get__doc, put=__set__doc))  _doc;
+ System::Security::SecurityDocument __declspec(property(get=__get__doc, put=__set__doc))  _doc;
 
-constexpr void __set__doc(::System::Security::SecurityDocument value) ;
+constexpr void __set__doc(System::Security::SecurityDocument value) ;
 
-constexpr ::System::Security::SecurityDocument __get__doc() const;
+constexpr System::Security::SecurityDocument __get__doc() const;
 
- ::System::Security::Util::Tokenizer __declspec(property(get=__get__t, put=__set__t))  _t;
+ System::Security::Util::Tokenizer __declspec(property(get=__get__t, put=__set__t))  _t;
 
-constexpr void __set__t(::System::Security::Util::Tokenizer value) ;
+constexpr void __set__t(System::Security::Util::Tokenizer value) ;
 
-constexpr ::System::Security::Util::Tokenizer __get__t() const;
+constexpr System::Security::Util::Tokenizer __get__t() const;
 
 
 // Methods
 
 /// @brief Method GetTopElement addr 0x22e8670 size 0x28 virtual false final false
- ::System::Security::SecurityElement GetTopElement() ;
+ System::Security::SecurityElement GetTopElement() ;
 
 /// @brief Method GetRequiredSizes addr 0x22e8698 size 0x460 virtual false final false
- void GetRequiredSizes(::System::Security::Util::TokenizerStream stream, ByRef<int32_t> index) ;
+ void GetRequiredSizes(System::Security::Util::TokenizerStream stream, ByRef<int32_t> index) ;
 
 /// @brief Method DetermineFormat addr 0x22e8bf0 size 0x1b0 virtual false final false
- int32_t DetermineFormat(::System::Security::Util::TokenizerStream stream) ;
+ int32_t DetermineFormat(System::Security::Util::TokenizerStream stream) ;
 
 /// @brief Method ParseContents addr 0x22e9804 size 0x308 virtual false final false
  void ParseContents() ;
 
-// Ctor Parameters [CppParam { name: "t", ty: "::System::Security::Util::Tokenizer", modifiers: "", def_value: None }]
-explicit Parser(::System::Security::Util::Tokenizer t) ;
+// Ctor Parameters [CppParam { name: "t", ty: "System::Security::Util::Tokenizer", modifiers: "", def_value: None }]
+explicit Parser(System::Security::Util::Tokenizer t) ;
 
 /// @brief Method .ctor addr 0x22e9c40 size 0xa4 virtual false final false
- void _ctor(::System::Security::Util::Tokenizer t) ;
+ void _ctor(System::Security::Util::Tokenizer t) ;
 
 // Ctor Parameters [CppParam { name: "input", ty: "::StringW", modifiers: "", def_value: None }]
 explicit Parser(::StringW input) ;
@@ -106,6 +105,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Util
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Util::Parser);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Util::Parser, "System.Security.Util", "Parser");
+NEED_NO_BOX(System::Security::Util::Parser);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Parser, "System.Security.Util", "Parser");

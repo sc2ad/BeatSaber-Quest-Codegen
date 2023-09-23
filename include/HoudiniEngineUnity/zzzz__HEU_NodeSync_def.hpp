@@ -3,7 +3,6 @@
 #include "HoudiniEngineUnity/zzzz__HEU_BaseSync_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace HoudiniEngineUnity {
 class HEU_SessionBase;
 }
@@ -17,7 +16,7 @@ namespace HoudiniEngineUnity {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9734))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9737))
 // CS Name: HoudiniEngineUnity.HEU_NodeSync
-class CORDL_TYPE HEU_NodeSync : public ::HoudiniEngineUnity::HEU_BaseSync {
+class CORDL_TYPE HEU_NodeSync : public HoudiniEngineUnity::HEU_BaseSync {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr HEU_NodeSync(HEU_NodeSync const& ) noexcept = default;
 constexpr HEU_NodeSync(HEU_NodeSync&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HEU_NodeSync(void* ptr) noexcept : ::HoudiniEngineUnity::HEU_BaseSync(ptr) {
+constexpr explicit HEU_NodeSync(void* ptr) noexcept : HoudiniEngineUnity::HEU_BaseSync(ptr) {
 }
 
 
@@ -69,16 +68,16 @@ constexpr ::StringW __get__nodeSaveFilePath() const;
  void OnDestroy() ;
 
 /// @brief Method InitializeFromHoudini addr 0x20387ec size 0xac virtual false final false
- void InitializeFromHoudini(::HoudiniEngineUnity::HEU_SessionBase session, int32_t nodeID, ::StringW nodeName, ::StringW filePath) ;
+ void InitializeFromHoudini(HoudiniEngineUnity::HEU_SessionBase session, int32_t nodeID, ::StringW nodeName, ::StringW filePath) ;
 
 /// @brief Method SetupLoadTask addr 0x2038898 size 0x98 virtual true final false
- void SetupLoadTask(::HoudiniEngineUnity::HEU_SessionBase session) ;
+ void SetupLoadTask(HoudiniEngineUnity::HEU_SessionBase session) ;
 
 /// @brief Method SaveNodeToFile addr 0x2038944 size 0xa0 virtual false final false
  bool SaveNodeToFile(::StringW filePath) ;
 
 /// @brief Method CreateNodeSync addr 0x20389e4 size 0x2f8 virtual false final false
-static void CreateNodeSync(::HoudiniEngineUnity::HEU_SessionBase session, ::StringW opName, ::StringW nodeNabel) ;
+static void CreateNodeSync(HoudiniEngineUnity::HEU_SessionBase session, ::StringW opName, ::StringW nodeNabel) ;
 
 /// @brief Method Resync addr 0x2038cdc size 0x38 virtual true final false
  void Resync() ;
@@ -96,6 +95,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_NodeSync);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_NodeSync, "HoudiniEngineUnity", "HEU_NodeSync");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_NodeSync);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_NodeSync, "HoudiniEngineUnity", "HEU_NodeSync");

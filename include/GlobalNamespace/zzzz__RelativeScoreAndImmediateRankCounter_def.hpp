@@ -3,13 +3,6 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__RankModel__Rank;
-}
 namespace GlobalNamespace {
 class GameplayModifiersModelSO;
 }
@@ -18,6 +11,12 @@ class IScoreController;
 }
 namespace System {
 class Action;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__RankModel__Rank;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,7 +28,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5142))
 // CS Name: RelativeScoreAndImmediateRankCounter
-class CORDL_TYPE RelativeScoreAndImmediateRankCounter : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE RelativeScoreAndImmediateRankCounter : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -44,7 +43,7 @@ constexpr RelativeScoreAndImmediateRankCounter(RelativeScoreAndImmediateRankCoun
 constexpr RelativeScoreAndImmediateRankCounter(RelativeScoreAndImmediateRankCounter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RelativeScoreAndImmediateRankCounter(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit RelativeScoreAndImmediateRankCounter(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -65,29 +64,29 @@ constexpr explicit RelativeScoreAndImmediateRankCounter(void* ptr) noexcept : ::
 
 // Fields
 
- ::GlobalNamespace::GameplayModifiersModelSO __declspec(property(get=__get__gameplayModifiersModel, put=__set__gameplayModifiersModel))  _gameplayModifiersModel;
+ GlobalNamespace::GameplayModifiersModelSO __declspec(property(get=__get__gameplayModifiersModel, put=__set__gameplayModifiersModel))  _gameplayModifiersModel;
 
-constexpr void __set__gameplayModifiersModel(::GlobalNamespace::GameplayModifiersModelSO value) ;
+constexpr void __set__gameplayModifiersModel(GlobalNamespace::GameplayModifiersModelSO value) ;
 
-constexpr ::GlobalNamespace::GameplayModifiersModelSO __get__gameplayModifiersModel() const;
+constexpr GlobalNamespace::GameplayModifiersModelSO __get__gameplayModifiersModel() const;
 
- ::GlobalNamespace::IScoreController __declspec(property(get=__get__scoreController, put=__set__scoreController))  _scoreController;
+ GlobalNamespace::IScoreController __declspec(property(get=__get__scoreController, put=__set__scoreController))  _scoreController;
 
-constexpr void __set__scoreController(::GlobalNamespace::IScoreController value) ;
+constexpr void __set__scoreController(GlobalNamespace::IScoreController value) ;
 
-constexpr ::GlobalNamespace::IScoreController __get__scoreController() const;
+constexpr GlobalNamespace::IScoreController __get__scoreController() const;
 
- ::GlobalNamespace::GameplayModifiers __declspec(property(get=__get__gameplayModifiers, put=__set__gameplayModifiers))  _gameplayModifiers;
+ GlobalNamespace::GameplayModifiers __declspec(property(get=__get__gameplayModifiers, put=__set__gameplayModifiers))  _gameplayModifiers;
 
-constexpr void __set__gameplayModifiers(::GlobalNamespace::GameplayModifiers value) ;
+constexpr void __set__gameplayModifiers(GlobalNamespace::GameplayModifiers value) ;
 
-constexpr ::GlobalNamespace::GameplayModifiers __get__gameplayModifiers() const;
+constexpr GlobalNamespace::GameplayModifiers __get__gameplayModifiers() const;
 
- ::System::Action __declspec(property(get=__get_relativeScoreOrImmediateRankDidChangeEvent, put=__set_relativeScoreOrImmediateRankDidChangeEvent))  relativeScoreOrImmediateRankDidChangeEvent;
+ System::Action __declspec(property(get=__get_relativeScoreOrImmediateRankDidChangeEvent, put=__set_relativeScoreOrImmediateRankDidChangeEvent))  relativeScoreOrImmediateRankDidChangeEvent;
 
-constexpr void __set_relativeScoreOrImmediateRankDidChangeEvent(::System::Action value) ;
+constexpr void __set_relativeScoreOrImmediateRankDidChangeEvent(System::Action value) ;
 
-constexpr ::System::Action __get_relativeScoreOrImmediateRankDidChangeEvent() const;
+constexpr System::Action __get_relativeScoreOrImmediateRankDidChangeEvent() const;
 
  float_t __declspec(property(get=__get__relativeScore_k__BackingField, put=__set__relativeScore_k__BackingField))  _relativeScore_k__BackingField;
 
@@ -95,27 +94,27 @@ constexpr void __set__relativeScore_k__BackingField(float_t value) ;
 
 constexpr float_t __get__relativeScore_k__BackingField() const;
 
- ::GlobalNamespace::____GlobalNamespace__RankModel__Rank __declspec(property(get=__get__immediateRank_k__BackingField, put=__set__immediateRank_k__BackingField))  _immediateRank_k__BackingField;
+ GlobalNamespace::GlobalNamespace__RankModel__Rank __declspec(property(get=__get__immediateRank_k__BackingField, put=__set__immediateRank_k__BackingField))  _immediateRank_k__BackingField;
 
-constexpr void __set__immediateRank_k__BackingField(::GlobalNamespace::____GlobalNamespace__RankModel__Rank value) ;
+constexpr void __set__immediateRank_k__BackingField(GlobalNamespace::GlobalNamespace__RankModel__Rank value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__RankModel__Rank __get__immediateRank_k__BackingField() const;
+constexpr GlobalNamespace::GlobalNamespace__RankModel__Rank __get__immediateRank_k__BackingField() const;
 
 
 // Properties
 
  float_t __declspec(property(get=get_relativeScore, put=set_relativeScore))  relativeScore;
 
- ::GlobalNamespace::____GlobalNamespace__RankModel__Rank __declspec(property(get=get_immediateRank, put=set_immediateRank))  immediateRank;
+ GlobalNamespace::GlobalNamespace__RankModel__Rank __declspec(property(get=get_immediateRank, put=set_immediateRank))  immediateRank;
 
 
 // Methods
 
 /// @brief Method add_relativeScoreOrImmediateRankDidChangeEvent addr 0x2275a50 size 0x9c virtual false final false
- void add_relativeScoreOrImmediateRankDidChangeEvent(::System::Action value) ;
+ void add_relativeScoreOrImmediateRankDidChangeEvent(System::Action value) ;
 
 /// @brief Method remove_relativeScoreOrImmediateRankDidChangeEvent addr 0x2276e2c size 0x9c virtual false final false
- void remove_relativeScoreOrImmediateRankDidChangeEvent(::System::Action value) ;
+ void remove_relativeScoreOrImmediateRankDidChangeEvent(System::Action value) ;
 
 /// @brief Method get_relativeScore addr 0x2276ec8 size 0x8 virtual false final false
  float_t get_relativeScore() ;
@@ -124,10 +123,10 @@ constexpr ::GlobalNamespace::____GlobalNamespace__RankModel__Rank __get__immedia
  void set_relativeScore(float_t value) ;
 
 /// @brief Method get_immediateRank addr 0x2276ed8 size 0x8 virtual false final false
- ::GlobalNamespace::____GlobalNamespace__RankModel__Rank get_immediateRank() ;
+ GlobalNamespace::GlobalNamespace__RankModel__Rank get_immediateRank() ;
 
 /// @brief Method set_immediateRank addr 0x2276ee0 size 0x8 virtual false final false
- void set_immediateRank(::GlobalNamespace::____GlobalNamespace__RankModel__Rank value) ;
+ void set_immediateRank(GlobalNamespace::GlobalNamespace__RankModel__Rank value) ;
 
 /// @brief Method Start addr 0x2276ee8 size 0x138 virtual false final false
  void Start() ;
@@ -151,6 +150,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::RelativeScoreAndImmediateRankCounter);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RelativeScoreAndImmediateRankCounter, "", "RelativeScoreAndImmediateRankCounter");
+NEED_NO_BOX(GlobalNamespace::RelativeScoreAndImmediateRankCounter);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RelativeScoreAndImmediateRankCounter, "", "RelativeScoreAndImmediateRankCounter");

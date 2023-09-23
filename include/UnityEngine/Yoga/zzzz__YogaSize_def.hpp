@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 #include <cstddef>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Yoga {
 struct YogaSize;
@@ -66,5 +65,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Yoga
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Yoga::YogaSize, "UnityEngine.Yoga", "YogaSize");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Yoga::YogaSize, "UnityEngine.Yoga", "YogaSize");

@@ -1,7 +1,9 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
+namespace UnityEngine::SceneManagement {
+struct UnloadSceneOptions;
+}
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template<typename TObject>
 struct AsyncOperationHandle_1;
@@ -14,9 +16,6 @@ class ISceneProvider;
 }
 namespace UnityEngine::ResourceManagement {
 class ResourceManager;
-}
-namespace UnityEngine::SceneManagement {
-struct UnloadSceneOptions;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {
@@ -65,12 +64,11 @@ constexpr explicit SceneProviderExtensions(void* ptr) noexcept : ::bs_hook::Il2C
 // Methods
 
 /// @brief Method ReleaseScene addr 0x2a3fbc0 size 0x1f8 virtual false final false
-static ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> ReleaseScene(::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider provider, ::UnityEngine::ResourceManagement::ResourceManager resourceManager, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> sceneLoadHandle, ::UnityEngine::SceneManagement::UnloadSceneOptions unloadOptions) ;
+static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> ReleaseScene(UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider provider, UnityEngine::ResourceManagement::ResourceManager resourceManager, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> sceneLoadHandle, UnityEngine::SceneManagement::UnloadSceneOptions unloadOptions) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ResourceManagement::ResourceProviders
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceProviders::SceneProviderExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceProviders::SceneProviderExtensions, "UnityEngine.ResourceManagement.ResourceProviders", "SceneProviderExtensions");
+NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::SceneProviderExtensions);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::SceneProviderExtensions, "UnityEngine.ResourceManagement.ResourceProviders", "SceneProviderExtensions");

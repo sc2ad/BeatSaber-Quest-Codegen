@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::OpenSsl {
 class IPasswordFinder;
@@ -31,6 +30,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::OpenSsl
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::OpenSsl::IPasswordFinder);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::OpenSsl::IPasswordFinder, "Org.BouncyCastle.OpenSsl", "IPasswordFinder");
+NEED_NO_BOX(Org::BouncyCastle::OpenSsl::IPasswordFinder);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::OpenSsl::IPasswordFinder, "Org.BouncyCastle.OpenSsl", "IPasswordFinder");

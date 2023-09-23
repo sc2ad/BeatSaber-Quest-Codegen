@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Rendering {
 struct ColorWriteMask;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Alpha offset 0
-static ::UnityEngine::Rendering::ColorWriteMask const Alpha;
+static UnityEngine::Rendering::ColorWriteMask const Alpha;
 
 /// @brief Field Blue offset 0
-static ::UnityEngine::Rendering::ColorWriteMask const Blue;
+static UnityEngine::Rendering::ColorWriteMask const Blue;
 
 /// @brief Field Green offset 0
-static ::UnityEngine::Rendering::ColorWriteMask const Green;
+static UnityEngine::Rendering::ColorWriteMask const Green;
 
 /// @brief Field Red offset 0
-static ::UnityEngine::Rendering::ColorWriteMask const Red;
+static UnityEngine::Rendering::ColorWriteMask const Red;
 
 /// @brief Field All offset 0
-static ::UnityEngine::Rendering::ColorWriteMask const All;
+static UnityEngine::Rendering::ColorWriteMask const All;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Rendering
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::ColorWriteMask, "UnityEngine.Rendering", "ColorWriteMask");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::ColorWriteMask, "UnityEngine.Rendering", "ColorWriteMask");

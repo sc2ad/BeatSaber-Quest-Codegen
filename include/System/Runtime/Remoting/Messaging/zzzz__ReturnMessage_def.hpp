@@ -4,12 +4,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Runtime::Remoting::Messaging {
-class IMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
-class LogicalCallContext;
+class IMethodMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
 class MethodReturnDictionary;
@@ -17,32 +13,35 @@ class MethodReturnDictionary;
 namespace System::Runtime::Remoting {
 class Identity;
 }
-namespace System::Runtime::Remoting::Messaging {
-class ArgInfo;
-}
-namespace System {
-class Exception;
-}
 namespace System::Collections {
 class IDictionary;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IInternalMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMethodCallMessage;
 }
 namespace System {
-class Type;
+class Exception;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMethodReturnMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMethodMessage;
+class IInternalMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class ArgInfo;
 }
 namespace System::Reflection {
 class MethodBase;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class LogicalCallContext;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -57,17 +56,17 @@ namespace System::Runtime::Remoting::Messaging {
 class CORDL_TYPE ReturnMessage : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::Remoting::Messaging::IMethodReturnMessage
-constexpr operator  ::System::Runtime::Remoting::Messaging::IMethodReturnMessage() const noexcept;
+/// @brief Convert operator to System::Runtime::Remoting::Messaging::IMethodReturnMessage
+constexpr operator  System::Runtime::Remoting::Messaging::IMethodReturnMessage() const noexcept;
 
-/// @brief Convert operator to ::System::Runtime::Remoting::Messaging::IMethodMessage
-constexpr operator  ::System::Runtime::Remoting::Messaging::IMethodMessage() const noexcept;
+/// @brief Convert operator to System::Runtime::Remoting::Messaging::IMethodMessage
+constexpr operator  System::Runtime::Remoting::Messaging::IMethodMessage() const noexcept;
 
-/// @brief Convert operator to ::System::Runtime::Remoting::Messaging::IMessage
-constexpr operator  ::System::Runtime::Remoting::Messaging::IMessage() const noexcept;
+/// @brief Convert operator to System::Runtime::Remoting::Messaging::IMessage
+constexpr operator  System::Runtime::Remoting::Messaging::IMessage() const noexcept;
 
-/// @brief Convert operator to ::System::Runtime::Remoting::Messaging::IInternalMessage
-constexpr operator  ::System::Runtime::Remoting::Messaging::IInternalMessage() const noexcept;
+/// @brief Convert operator to System::Runtime::Remoting::Messaging::IInternalMessage
+constexpr operator  System::Runtime::Remoting::Messaging::IInternalMessage() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x78};
@@ -114,11 +113,11 @@ constexpr void __set__args(::ArrayW<::bs_hook::Il2CppWrapperType> value) ;
 
 constexpr ::ArrayW<::bs_hook::Il2CppWrapperType> __get__args() const;
 
- ::System::Runtime::Remoting::Messaging::LogicalCallContext __declspec(property(get=__get__callCtx, put=__set__callCtx))  _callCtx;
+ System::Runtime::Remoting::Messaging::LogicalCallContext __declspec(property(get=__get__callCtx, put=__set__callCtx))  _callCtx;
 
-constexpr void __set__callCtx(::System::Runtime::Remoting::Messaging::LogicalCallContext value) ;
+constexpr void __set__callCtx(System::Runtime::Remoting::Messaging::LogicalCallContext value) ;
 
-constexpr ::System::Runtime::Remoting::Messaging::LogicalCallContext __get__callCtx() const;
+constexpr System::Runtime::Remoting::Messaging::LogicalCallContext __get__callCtx() const;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=__get__returnValue, put=__set__returnValue))  _returnValue;
 
@@ -132,17 +131,17 @@ constexpr void __set__uri(::StringW value) ;
 
 constexpr ::StringW __get__uri() const;
 
- ::System::Exception __declspec(property(get=__get__exception, put=__set__exception))  _exception;
+ System::Exception __declspec(property(get=__get__exception, put=__set__exception))  _exception;
 
-constexpr void __set__exception(::System::Exception value) ;
+constexpr void __set__exception(System::Exception value) ;
 
-constexpr ::System::Exception __get__exception() const;
+constexpr System::Exception __get__exception() const;
 
- ::System::Reflection::MethodBase __declspec(property(get=__get__methodBase, put=__set__methodBase))  _methodBase;
+ System::Reflection::MethodBase __declspec(property(get=__get__methodBase, put=__set__methodBase))  _methodBase;
 
-constexpr void __set__methodBase(::System::Reflection::MethodBase value) ;
+constexpr void __set__methodBase(System::Reflection::MethodBase value) ;
 
-constexpr ::System::Reflection::MethodBase __get__methodBase() const;
+constexpr System::Reflection::MethodBase __get__methodBase() const;
 
  ::StringW __declspec(property(get=__get__methodName, put=__set__methodName))  _methodName;
 
@@ -150,11 +149,11 @@ constexpr void __set__methodName(::StringW value) ;
 
 constexpr ::StringW __get__methodName() const;
 
- ::ArrayW<::System::Type> __declspec(property(get=__get__methodSignature, put=__set__methodSignature))  _methodSignature;
+ ::ArrayW<System::Type> __declspec(property(get=__get__methodSignature, put=__set__methodSignature))  _methodSignature;
 
-constexpr void __set__methodSignature(::ArrayW<::System::Type> value) ;
+constexpr void __set__methodSignature(::ArrayW<System::Type> value) ;
 
-constexpr ::ArrayW<::System::Type> __get__methodSignature() const;
+constexpr ::ArrayW<System::Type> __get__methodSignature() const;
 
  ::StringW __declspec(property(get=__get__typeName, put=__set__typeName))  _typeName;
 
@@ -162,23 +161,23 @@ constexpr void __set__typeName(::StringW value) ;
 
 constexpr ::StringW __get__typeName() const;
 
- ::System::Runtime::Remoting::Messaging::MethodReturnDictionary __declspec(property(get=__get__properties, put=__set__properties))  _properties;
+ System::Runtime::Remoting::Messaging::MethodReturnDictionary __declspec(property(get=__get__properties, put=__set__properties))  _properties;
 
-constexpr void __set__properties(::System::Runtime::Remoting::Messaging::MethodReturnDictionary value) ;
+constexpr void __set__properties(System::Runtime::Remoting::Messaging::MethodReturnDictionary value) ;
 
-constexpr ::System::Runtime::Remoting::Messaging::MethodReturnDictionary __get__properties() const;
+constexpr System::Runtime::Remoting::Messaging::MethodReturnDictionary __get__properties() const;
 
- ::System::Runtime::Remoting::Identity __declspec(property(get=__get__targetIdentity, put=__set__targetIdentity))  _targetIdentity;
+ System::Runtime::Remoting::Identity __declspec(property(get=__get__targetIdentity, put=__set__targetIdentity))  _targetIdentity;
 
-constexpr void __set__targetIdentity(::System::Runtime::Remoting::Identity value) ;
+constexpr void __set__targetIdentity(System::Runtime::Remoting::Identity value) ;
 
-constexpr ::System::Runtime::Remoting::Identity __get__targetIdentity() const;
+constexpr System::Runtime::Remoting::Identity __get__targetIdentity() const;
 
- ::System::Runtime::Remoting::Messaging::ArgInfo __declspec(property(get=__get__inArgInfo, put=__set__inArgInfo))  _inArgInfo;
+ System::Runtime::Remoting::Messaging::ArgInfo __declspec(property(get=__get__inArgInfo, put=__set__inArgInfo))  _inArgInfo;
 
-constexpr void __set__inArgInfo(::System::Runtime::Remoting::Messaging::ArgInfo value) ;
+constexpr void __set__inArgInfo(System::Runtime::Remoting::Messaging::ArgInfo value) ;
 
-constexpr ::System::Runtime::Remoting::Messaging::ArgInfo __get__inArgInfo() const;
+constexpr System::Runtime::Remoting::Messaging::ArgInfo __get__inArgInfo() const;
 
 
 // Properties
@@ -187,15 +186,15 @@ constexpr ::System::Runtime::Remoting::Messaging::ArgInfo __get__inArgInfo() con
 
  ::ArrayW<::bs_hook::Il2CppWrapperType> __declspec(property(get=get_Args))  Args;
 
- ::System::Runtime::Remoting::Messaging::LogicalCallContext __declspec(property(get=get_LogicalCallContext))  LogicalCallContext;
+ System::Runtime::Remoting::Messaging::LogicalCallContext __declspec(property(get=get_LogicalCallContext))  LogicalCallContext;
 
- ::System::Reflection::MethodBase __declspec(property(get=get_MethodBase))  MethodBase;
+ System::Reflection::MethodBase __declspec(property(get=get_MethodBase))  MethodBase;
 
  ::StringW __declspec(property(get=get_MethodName))  MethodName;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_MethodSignature))  MethodSignature;
 
- ::System::Collections::IDictionary __declspec(property(get=get_Properties))  Properties;
+ System::Collections::IDictionary __declspec(property(get=get_Properties))  Properties;
 
  ::StringW __declspec(property(get=get_TypeName))  TypeName;
 
@@ -203,28 +202,28 @@ constexpr ::System::Runtime::Remoting::Messaging::ArgInfo __get__inArgInfo() con
 
  ::StringW __declspec(property(get=System_Runtime_Remoting_Messaging_IInternalMessage_get_Uri, put=System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri))  System_Runtime_Remoting_Messaging_IInternalMessage_Uri;
 
- ::System::Exception __declspec(property(get=get_Exception))  Exception;
+ System::Exception __declspec(property(get=get_Exception))  Exception;
 
  ::ArrayW<::bs_hook::Il2CppWrapperType> __declspec(property(get=get_OutArgs))  OutArgs;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_ReturnValue))  ReturnValue;
 
- ::System::Runtime::Remoting::Identity __declspec(property(get=System_Runtime_Remoting_Messaging_IInternalMessage_get_TargetIdentity, put=System_Runtime_Remoting_Messaging_IInternalMessage_set_TargetIdentity))  System_Runtime_Remoting_Messaging_IInternalMessage_TargetIdentity;
+ System::Runtime::Remoting::Identity __declspec(property(get=System_Runtime_Remoting_Messaging_IInternalMessage_get_TargetIdentity, put=System_Runtime_Remoting_Messaging_IInternalMessage_set_TargetIdentity))  System_Runtime_Remoting_Messaging_IInternalMessage_TargetIdentity;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "ret", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "outArgs", ty: "::ArrayW<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }, CppParam { name: "outArgsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "callCtx", ty: "::System::Runtime::Remoting::Messaging::LogicalCallContext", modifiers: "", def_value: None }, CppParam { name: "mcm", ty: "::System::Runtime::Remoting::Messaging::IMethodCallMessage", modifiers: "", def_value: None }]
-explicit ReturnMessage(::bs_hook::Il2CppWrapperType ret, ::ArrayW<::bs_hook::Il2CppWrapperType> outArgs, int32_t outArgsCount, ::System::Runtime::Remoting::Messaging::LogicalCallContext callCtx, ::System::Runtime::Remoting::Messaging::IMethodCallMessage mcm) ;
+// Ctor Parameters [CppParam { name: "ret", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "outArgs", ty: "::ArrayW<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }, CppParam { name: "outArgsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "callCtx", ty: "System::Runtime::Remoting::Messaging::LogicalCallContext", modifiers: "", def_value: None }, CppParam { name: "mcm", ty: "System::Runtime::Remoting::Messaging::IMethodCallMessage", modifiers: "", def_value: None }]
+explicit ReturnMessage(::bs_hook::Il2CppWrapperType ret, ::ArrayW<::bs_hook::Il2CppWrapperType> outArgs, int32_t outArgsCount, System::Runtime::Remoting::Messaging::LogicalCallContext callCtx, System::Runtime::Remoting::Messaging::IMethodCallMessage mcm) ;
 
 /// @brief Method .ctor addr 0x232bb94 size 0x168 virtual false final false
- void _ctor(::bs_hook::Il2CppWrapperType ret, ::ArrayW<::bs_hook::Il2CppWrapperType> outArgs, int32_t outArgsCount, ::System::Runtime::Remoting::Messaging::LogicalCallContext callCtx, ::System::Runtime::Remoting::Messaging::IMethodCallMessage mcm) ;
+ void _ctor(::bs_hook::Il2CppWrapperType ret, ::ArrayW<::bs_hook::Il2CppWrapperType> outArgs, int32_t outArgsCount, System::Runtime::Remoting::Messaging::LogicalCallContext callCtx, System::Runtime::Remoting::Messaging::IMethodCallMessage mcm) ;
 
-// Ctor Parameters [CppParam { name: "e", ty: "::System::Exception", modifiers: "", def_value: None }, CppParam { name: "mcm", ty: "::System::Runtime::Remoting::Messaging::IMethodCallMessage", modifiers: "", def_value: None }]
-explicit ReturnMessage(::System::Exception e, ::System::Runtime::Remoting::Messaging::IMethodCallMessage mcm) ;
+// Ctor Parameters [CppParam { name: "e", ty: "System::Exception", modifiers: "", def_value: None }, CppParam { name: "mcm", ty: "System::Runtime::Remoting::Messaging::IMethodCallMessage", modifiers: "", def_value: None }]
+explicit ReturnMessage(System::Exception e, System::Runtime::Remoting::Messaging::IMethodCallMessage mcm) ;
 
 /// @brief Method .ctor addr 0x232ba4c size 0x148 virtual false final false
- void _ctor(::System::Exception e, ::System::Runtime::Remoting::Messaging::IMethodCallMessage mcm) ;
+ void _ctor(System::Exception e, System::Runtime::Remoting::Messaging::IMethodCallMessage mcm) ;
 
 /// @brief Method get_ArgCount addr 0x2345d40 size 0x1c virtual true final true
  int32_t get_ArgCount() ;
@@ -233,10 +232,10 @@ explicit ReturnMessage(::System::Exception e, ::System::Runtime::Remoting::Messa
  ::ArrayW<::bs_hook::Il2CppWrapperType> get_Args() ;
 
 /// @brief Method get_LogicalCallContext addr 0x2345d64 size 0x6c virtual true final true
- ::System::Runtime::Remoting::Messaging::LogicalCallContext get_LogicalCallContext() ;
+ System::Runtime::Remoting::Messaging::LogicalCallContext get_LogicalCallContext() ;
 
 /// @brief Method get_MethodBase addr 0x2345dd0 size 0x8 virtual true final true
- ::System::Reflection::MethodBase get_MethodBase() ;
+ System::Reflection::MethodBase get_MethodBase() ;
 
 /// @brief Method get_MethodName addr 0x2345dd8 size 0x50 virtual true final true
  ::StringW get_MethodName() ;
@@ -245,7 +244,7 @@ explicit ReturnMessage(::System::Exception e, ::System::Runtime::Remoting::Messa
  ::bs_hook::Il2CppWrapperType get_MethodSignature() ;
 
 /// @brief Method get_Properties addr 0x2345f54 size 0x6c virtual true final false
- ::System::Collections::IDictionary get_Properties() ;
+ System::Collections::IDictionary get_Properties() ;
 
 /// @brief Method get_TypeName addr 0x2345fc0 size 0x64 virtual true final true
  ::StringW get_TypeName() ;
@@ -266,7 +265,7 @@ explicit ReturnMessage(::System::Exception e, ::System::Runtime::Remoting::Messa
  ::bs_hook::Il2CppWrapperType GetArg(int32_t argNum) ;
 
 /// @brief Method get_Exception addr 0x2346074 size 0x8 virtual true final true
- ::System::Exception get_Exception() ;
+ System::Exception get_Exception() ;
 
 /// @brief Method get_OutArgs addr 0x234607c size 0x98 virtual true final true
  ::ArrayW<::bs_hook::Il2CppWrapperType> get_OutArgs() ;
@@ -275,15 +274,14 @@ explicit ReturnMessage(::System::Exception e, ::System::Runtime::Remoting::Messa
  ::bs_hook::Il2CppWrapperType get_ReturnValue() ;
 
 /// @brief Method System.Runtime.Remoting.Messaging.IInternalMessage.get_TargetIdentity addr 0x234611c size 0x8 virtual true final true
- ::System::Runtime::Remoting::Identity System_Runtime_Remoting_Messaging_IInternalMessage_get_TargetIdentity() ;
+ System::Runtime::Remoting::Identity System_Runtime_Remoting_Messaging_IInternalMessage_get_TargetIdentity() ;
 
 /// @brief Method System.Runtime.Remoting.Messaging.IInternalMessage.set_TargetIdentity addr 0x2346124 size 0x1008 virtual true final true
- void System_Runtime_Remoting_Messaging_IInternalMessage_set_TargetIdentity(::System::Runtime::Remoting::Identity value) ;
+ void System_Runtime_Remoting_Messaging_IInternalMessage_set_TargetIdentity(System::Runtime::Remoting::Identity value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Messaging
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Messaging::ReturnMessage);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::ReturnMessage, "System.Runtime.Remoting.Messaging", "ReturnMessage");
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::ReturnMessage);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ReturnMessage, "System.Runtime.Remoting.Messaging", "ReturnMessage");

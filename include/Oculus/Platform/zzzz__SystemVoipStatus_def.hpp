@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform {
 struct SystemVoipStatus;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::Oculus::Platform::SystemVoipStatus const Unknown;
+static Oculus::Platform::SystemVoipStatus const Unknown;
 
 /// @brief Field Unavailable offset 0
-static ::Oculus::Platform::SystemVoipStatus const Unavailable;
+static Oculus::Platform::SystemVoipStatus const Unavailable;
 
 /// @brief Field Suppressed offset 0
-static ::Oculus::Platform::SystemVoipStatus const Suppressed;
+static Oculus::Platform::SystemVoipStatus const Suppressed;
 
 /// @brief Field Active offset 0
-static ::Oculus::Platform::SystemVoipStatus const Active;
+static Oculus::Platform::SystemVoipStatus const Active;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::SystemVoipStatus, "Oculus.Platform", "SystemVoipStatus");
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::SystemVoipStatus, "Oculus.Platform", "SystemVoipStatus");

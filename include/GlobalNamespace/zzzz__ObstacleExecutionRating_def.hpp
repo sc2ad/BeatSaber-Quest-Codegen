@@ -4,10 +4,9 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
-struct ____GlobalNamespace__ObstacleExecutionRating__Rating;
+struct GlobalNamespace__ObstacleExecutionRating__Rating;
 }
 namespace GlobalNamespace {
 class ObstacleExecutionRating;
@@ -18,20 +17,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4612))
 // CS Name: ObstacleExecutionRating::Rating
-struct CORDL_TYPE ____GlobalNamespace__ObstacleExecutionRating__Rating : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__ObstacleExecutionRating__Rating : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__ObstacleExecutionRating__Rating(int32_t value__) noexcept;
+constexpr GlobalNamespace__ObstacleExecutionRating__Rating(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__ObstacleExecutionRating__Rating(____GlobalNamespace__ObstacleExecutionRating__Rating const&) = default;
-                    constexpr ____GlobalNamespace__ObstacleExecutionRating__Rating(____GlobalNamespace__ObstacleExecutionRating__Rating&&) = default;
-                    constexpr ____GlobalNamespace__ObstacleExecutionRating__Rating& operator=(____GlobalNamespace__ObstacleExecutionRating__Rating const& o) {
+                    constexpr GlobalNamespace__ObstacleExecutionRating__Rating(GlobalNamespace__ObstacleExecutionRating__Rating const&) = default;
+                    constexpr GlobalNamespace__ObstacleExecutionRating__Rating(GlobalNamespace__ObstacleExecutionRating__Rating&&) = default;
+                    constexpr GlobalNamespace__ObstacleExecutionRating__Rating& operator=(GlobalNamespace__ObstacleExecutionRating__Rating const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__ObstacleExecutionRating__Rating& operator=(____GlobalNamespace__ObstacleExecutionRating__Rating&& o) noexcept {
+                    constexpr GlobalNamespace__ObstacleExecutionRating__Rating& operator=(GlobalNamespace__ObstacleExecutionRating__Rating&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -44,7 +43,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__ObstacleExecutionRating__Rating(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__ObstacleExecutionRating__Rating(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -52,14 +51,14 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__ObstacleExecutionRating__Rating_Unwrapped : int32_t {
+enum class __GlobalNamespace__ObstacleExecutionRating__Rating_Unwrapped : int32_t {
 __OK = 0,
 __NotGood = 1,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__ObstacleExecutionRating__Rating_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__ObstacleExecutionRating__Rating_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__ObstacleExecutionRating__Rating_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__ObstacleExecutionRating__Rating_Unwrapped>(__instance);
 }
 
 
@@ -72,10 +71,10 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field OK offset 0
-static ::GlobalNamespace::____GlobalNamespace__ObstacleExecutionRating__Rating const OK;
+static GlobalNamespace::GlobalNamespace__ObstacleExecutionRating__Rating const OK;
 
 /// @brief Field NotGood offset 0
-static ::GlobalNamespace::____GlobalNamespace__ObstacleExecutionRating__Rating const NotGood;
+static GlobalNamespace::GlobalNamespace__ObstacleExecutionRating__Rating const NotGood;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -87,10 +86,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4613))
 // CS Name: ObstacleExecutionRating
-class CORDL_TYPE ObstacleExecutionRating : public ::GlobalNamespace::BeatmapObjectExecutionRating {
+class CORDL_TYPE ObstacleExecutionRating : public GlobalNamespace::BeatmapObjectExecutionRating {
 public:
 // Declarations
-using Rating = ::GlobalNamespace::____GlobalNamespace__ObstacleExecutionRating__Rating;
+using Rating = GlobalNamespace::GlobalNamespace__ObstacleExecutionRating__Rating;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -104,7 +103,7 @@ constexpr ObstacleExecutionRating(ObstacleExecutionRating const& ) noexcept = de
 constexpr ObstacleExecutionRating(ObstacleExecutionRating&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ObstacleExecutionRating(void* ptr) noexcept : ::GlobalNamespace::BeatmapObjectExecutionRating(ptr) {
+constexpr explicit ObstacleExecutionRating(void* ptr) noexcept : GlobalNamespace::BeatmapObjectExecutionRating(ptr) {
 }
 
 
@@ -125,34 +124,33 @@ constexpr explicit ObstacleExecutionRating(void* ptr) noexcept : ::GlobalNamespa
 
 // Fields
 
- ::GlobalNamespace::____GlobalNamespace__ObstacleExecutionRating__Rating __declspec(property(get=__get__rating_k__BackingField, put=__set__rating_k__BackingField))  _rating_k__BackingField;
+ GlobalNamespace::GlobalNamespace__ObstacleExecutionRating__Rating __declspec(property(get=__get__rating_k__BackingField, put=__set__rating_k__BackingField))  _rating_k__BackingField;
 
-constexpr void __set__rating_k__BackingField(::GlobalNamespace::____GlobalNamespace__ObstacleExecutionRating__Rating value) ;
+constexpr void __set__rating_k__BackingField(GlobalNamespace::GlobalNamespace__ObstacleExecutionRating__Rating value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__ObstacleExecutionRating__Rating __get__rating_k__BackingField() const;
+constexpr GlobalNamespace::GlobalNamespace__ObstacleExecutionRating__Rating __get__rating_k__BackingField() const;
 
 
 // Properties
 
- ::GlobalNamespace::____GlobalNamespace__ObstacleExecutionRating__Rating __declspec(property(get=get_rating))  rating;
+ GlobalNamespace::GlobalNamespace__ObstacleExecutionRating__Rating __declspec(property(get=get_rating))  rating;
 
 
 // Methods
 
 /// @brief Method get_rating addr 0x2215fe8 size 0x8 virtual false final false
- ::GlobalNamespace::____GlobalNamespace__ObstacleExecutionRating__Rating get_rating() ;
+ GlobalNamespace::GlobalNamespace__ObstacleExecutionRating__Rating get_rating() ;
 
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rating", ty: "::GlobalNamespace::____GlobalNamespace__ObstacleExecutionRating__Rating", modifiers: "", def_value: None }]
-explicit ObstacleExecutionRating(float_t time, ::GlobalNamespace::____GlobalNamespace__ObstacleExecutionRating__Rating rating) ;
+// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rating", ty: "GlobalNamespace::GlobalNamespace__ObstacleExecutionRating__Rating", modifiers: "", def_value: None }]
+explicit ObstacleExecutionRating(float_t time, GlobalNamespace::GlobalNamespace__ObstacleExecutionRating__Rating rating) ;
 
 /// @brief Method .ctor addr 0x2215ff0 size 0x28 virtual false final false
- void _ctor(float_t time, ::GlobalNamespace::____GlobalNamespace__ObstacleExecutionRating__Rating rating) ;
+ void _ctor(float_t time, GlobalNamespace::GlobalNamespace__ObstacleExecutionRating__Rating rating) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__ObstacleExecutionRating__Rating, "", "ObstacleExecutionRating/Rating");
-NEED_NO_BOX(::GlobalNamespace::ObstacleExecutionRating);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ObstacleExecutionRating, "", "ObstacleExecutionRating");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__ObstacleExecutionRating__Rating, "", "ObstacleExecutionRating/Rating");
+NEED_NO_BOX(GlobalNamespace::ObstacleExecutionRating);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleExecutionRating, "", "ObstacleExecutionRating");

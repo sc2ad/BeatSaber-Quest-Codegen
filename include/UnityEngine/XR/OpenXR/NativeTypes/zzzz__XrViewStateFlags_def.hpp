@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::XR::OpenXR::NativeTypes {
 struct XrViewStateFlags;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrViewStateFlags const None;
+static UnityEngine::XR::OpenXR::NativeTypes::XrViewStateFlags const None;
 
 /// @brief Field OrientationValid offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrViewStateFlags const OrientationValid;
+static UnityEngine::XR::OpenXR::NativeTypes::XrViewStateFlags const OrientationValid;
 
 /// @brief Field PositionValid offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrViewStateFlags const PositionValid;
+static UnityEngine::XR::OpenXR::NativeTypes::XrViewStateFlags const PositionValid;
 
 /// @brief Field OrientationTracked offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrViewStateFlags const OrientationTracked;
+static UnityEngine::XR::OpenXR::NativeTypes::XrViewStateFlags const OrientationTracked;
 
 /// @brief Field PositionTracked offset 0
-static ::UnityEngine::XR::OpenXR::NativeTypes::XrViewStateFlags const PositionTracked;
+static UnityEngine::XR::OpenXR::NativeTypes::XrViewStateFlags const PositionTracked;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR::OpenXR::NativeTypes
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::NativeTypes::XrViewStateFlags, "UnityEngine.XR.OpenXR.NativeTypes", "XrViewStateFlags");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::OpenXR::NativeTypes::XrViewStateFlags, "UnityEngine.XR.OpenXR.NativeTypes", "XrViewStateFlags");

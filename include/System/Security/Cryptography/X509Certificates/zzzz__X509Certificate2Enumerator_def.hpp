@@ -1,15 +1,14 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2;
-}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate2Collection;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate2;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -24,8 +23,8 @@ namespace System::Security::Cryptography::X509Certificates {
 class CORDL_TYPE X509Certificate2Enumerator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -60,30 +59,30 @@ constexpr explicit X509Certificate2Enumerator(void* ptr) noexcept : ::bs_hook::I
 
 // Fields
 
- ::System::Collections::IEnumerator __declspec(property(get=__get_enumerator, put=__set_enumerator))  enumerator;
+ System::Collections::IEnumerator __declspec(property(get=__get_enumerator, put=__set_enumerator))  enumerator;
 
-constexpr void __set_enumerator(::System::Collections::IEnumerator value) ;
+constexpr void __set_enumerator(System::Collections::IEnumerator value) ;
 
-constexpr ::System::Collections::IEnumerator __get_enumerator() const;
+constexpr System::Collections::IEnumerator __get_enumerator() const;
 
 
 // Properties
 
- ::System::Security::Cryptography::X509Certificates::X509Certificate2 __declspec(property(get=get_Current))  Current;
+ System::Security::Cryptography::X509Certificates::X509Certificate2 __declspec(property(get=get_Current))  Current;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=System_Collections_IEnumerator_get_Current))  System_Collections_IEnumerator_Current;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "collection", ty: "::System::Security::Cryptography::X509Certificates::X509Certificate2Collection", modifiers: "", def_value: None }]
-explicit X509Certificate2Enumerator(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection collection) ;
+// Ctor Parameters [CppParam { name: "collection", ty: "System::Security::Cryptography::X509Certificates::X509Certificate2Collection", modifiers: "", def_value: None }]
+explicit X509Certificate2Enumerator(System::Security::Cryptography::X509Certificates::X509Certificate2Collection collection) ;
 
 /// @brief Method .ctor addr 0x27ea688 size 0xb4 virtual false final false
- void _ctor(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection collection) ;
+ void _ctor(System::Security::Cryptography::X509Certificates::X509Certificate2Collection collection) ;
 
 /// @brief Method get_Current addr 0x27ea7f0 size 0xf0 virtual false final false
- ::System::Security::Cryptography::X509Certificates::X509Certificate2 get_Current() ;
+ System::Security::Cryptography::X509Certificates::X509Certificate2 get_Current() ;
 
 /// @brief Method MoveNext addr 0x27ea8e0 size 0xa0 virtual false final false
  bool MoveNext() ;
@@ -101,6 +100,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography::X509Certificates
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator, "System.Security.Cryptography.X509Certificates", "X509Certificate2Enumerator");
+NEED_NO_BOX(System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator, "System.Security.Cryptography.X509Certificates", "X509Certificate2Enumerator");

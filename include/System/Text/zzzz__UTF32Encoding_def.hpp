@@ -6,13 +6,15 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-template<typename T>
-struct ReadOnlySpan_1;
+namespace System::Text {
+class Decoder;
 }
 namespace System::Text {
 class Encoder;
+}
+namespace System {
+template<typename T>
+struct ReadOnlySpan_1;
 }
 namespace System::Text {
 class DecoderNLS;
@@ -20,15 +22,12 @@ class DecoderNLS;
 namespace System::Text {
 class EncoderNLS;
 }
-namespace System::Text {
-class Decoder;
-}
 // Forward declare root types
 namespace System::Text {
-class UTF32Encoding;
+class System__Text__UTF32Encoding__UTF32Decoder;
 }
 namespace System::Text {
-class ____System__Text__UTF32Encoding__UTF32Decoder;
+class UTF32Encoding;
 }
 // Type: ::UTF32Decoder
 namespace System::Text {
@@ -36,37 +35,37 @@ namespace System::Text {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2831))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2851))
 // CS Name: System.Text.UTF32Encoding::UTF32Decoder
-class CORDL_TYPE ____System__Text__UTF32Encoding__UTF32Decoder : public ::System::Text::DecoderNLS {
+class CORDL_TYPE System__Text__UTF32Encoding__UTF32Decoder : public System::Text::DecoderNLS {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
 
-virtual ~____System__Text__UTF32Encoding__UTF32Decoder() = default;
+virtual ~System__Text__UTF32Encoding__UTF32Decoder() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Text__UTF32Encoding__UTF32Decoder", modifiers: " const&", def_value: None }]
-constexpr ____System__Text__UTF32Encoding__UTF32Decoder(____System__Text__UTF32Encoding__UTF32Decoder const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Text__UTF32Encoding__UTF32Decoder", modifiers: " const&", def_value: None }]
+constexpr System__Text__UTF32Encoding__UTF32Decoder(System__Text__UTF32Encoding__UTF32Decoder const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Text__UTF32Encoding__UTF32Decoder", modifiers: "&&", def_value: None }]
-constexpr ____System__Text__UTF32Encoding__UTF32Decoder(____System__Text__UTF32Encoding__UTF32Decoder&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Text__UTF32Encoding__UTF32Decoder", modifiers: "&&", def_value: None }]
+constexpr System__Text__UTF32Encoding__UTF32Decoder(System__Text__UTF32Encoding__UTF32Decoder&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Text__UTF32Encoding__UTF32Decoder(void* ptr) noexcept : ::System::Text::DecoderNLS(ptr) {
+constexpr explicit System__Text__UTF32Encoding__UTF32Decoder(void* ptr) noexcept : System::Text::DecoderNLS(ptr) {
 }
 
 
-  constexpr ____System__Text__UTF32Encoding__UTF32Decoder& operator=(std::nullptr_t) noexcept {
+  constexpr System__Text__UTF32Encoding__UTF32Decoder& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Text__UTF32Encoding__UTF32Decoder& operator=(void* o) noexcept {
+  constexpr System__Text__UTF32Encoding__UTF32Decoder& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Text__UTF32Encoding__UTF32Decoder& operator=(____System__Text__UTF32Encoding__UTF32Decoder&& o) noexcept = default;
-  constexpr ____System__Text__UTF32Encoding__UTF32Decoder& operator=(____System__Text__UTF32Encoding__UTF32Decoder const& o) noexcept = default;
+  constexpr System__Text__UTF32Encoding__UTF32Decoder& operator=(System__Text__UTF32Encoding__UTF32Decoder&& o) noexcept = default;
+  constexpr System__Text__UTF32Encoding__UTF32Decoder& operator=(System__Text__UTF32Encoding__UTF32Decoder const& o) noexcept = default;
                 
 
 
@@ -92,11 +91,11 @@ constexpr int32_t __get_readByteCount() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "encoding", ty: "::System::Text::UTF32Encoding", modifiers: "", def_value: None }]
-explicit ____System__Text__UTF32Encoding__UTF32Decoder(::System::Text::UTF32Encoding encoding) ;
+// Ctor Parameters [CppParam { name: "encoding", ty: "System::Text::UTF32Encoding", modifiers: "", def_value: None }]
+explicit System__Text__UTF32Encoding__UTF32Decoder(System::Text::UTF32Encoding encoding) ;
 
 /// @brief Method .ctor addr 0x22d2414 size 0x8 virtual false final false
- void _ctor(::System::Text::UTF32Encoding encoding) ;
+ void _ctor(System::Text::UTF32Encoding encoding) ;
 
 /// @brief Method Reset addr 0x22d2b4c size 0x20 virtual true final false
  void Reset() ;
@@ -114,10 +113,10 @@ namespace System::Text {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2870))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2852))
 // CS Name: System.Text.UTF32Encoding
-class CORDL_TYPE UTF32Encoding : public ::System::Text::Encoding {
+class CORDL_TYPE UTF32Encoding : public System::Text::Encoding {
 public:
 // Declarations
-using UTF32Decoder = ::System::Text::____System__Text__UTF32Encoding__UTF32Decoder;
+using UTF32Decoder = System::Text::System__Text__UTF32Encoding__UTF32Decoder;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -131,7 +130,7 @@ constexpr UTF32Encoding(UTF32Encoding const& ) noexcept = default;
 constexpr UTF32Encoding(UTF32Encoding&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UTF32Encoding(void* ptr) noexcept : ::System::Text::Encoding(ptr) {
+constexpr explicit UTF32Encoding(void* ptr) noexcept : System::Text::Encoding(ptr) {
 }
 
 
@@ -152,17 +151,17 @@ constexpr explicit UTF32Encoding(void* ptr) noexcept : ::System::Text::Encoding(
 
 // Fields
 
-static ::System::Text::UTF32Encoding __declspec(property(get=__get_s_default, put=__set_s_default))  s_default;
+static System::Text::UTF32Encoding __declspec(property(get=__get_s_default, put=__set_s_default))  s_default;
 
-static void __set_s_default(::System::Text::UTF32Encoding value) ;
+static void __set_s_default(System::Text::UTF32Encoding value) ;
 
-static ::System::Text::UTF32Encoding __get_s_default() ;
+static System::Text::UTF32Encoding __get_s_default() ;
 
-static ::System::Text::UTF32Encoding __declspec(property(get=__get_s_bigEndianDefault, put=__set_s_bigEndianDefault))  s_bigEndianDefault;
+static System::Text::UTF32Encoding __declspec(property(get=__get_s_bigEndianDefault, put=__set_s_bigEndianDefault))  s_bigEndianDefault;
 
-static void __set_s_bigEndianDefault(::System::Text::UTF32Encoding value) ;
+static void __set_s_bigEndianDefault(System::Text::UTF32Encoding value) ;
 
-static ::System::Text::UTF32Encoding __get_s_bigEndianDefault() ;
+static System::Text::UTF32Encoding __get_s_bigEndianDefault() ;
 
 static ::ArrayW<uint8_t> __declspec(property(get=__get_s_bigEndianPreamble, put=__set_s_bigEndianPreamble))  s_bigEndianPreamble;
 
@@ -197,7 +196,7 @@ constexpr bool __get__bigEndian() const;
 
 // Properties
 
- ::System::ReadOnlySpan_1<uint8_t> __declspec(property(get=get_Preamble))  Preamble;
+ System::ReadOnlySpan_1<uint8_t> __declspec(property(get=get_Preamble))  Preamble;
 
 
 // Methods
@@ -257,16 +256,16 @@ explicit UTF32Encoding(bool bigEndian, bool byteOrderMark, bool throwOnInvalidCh
  ::StringW GetString(::ArrayW<uint8_t> bytes, int32_t index, int32_t count) ;
 
 /// @brief Method GetByteCount addr 0x22d1590 size 0x2d8 virtual true final false
- int32_t GetByteCount(void* chars, int32_t count, ::System::Text::EncoderNLS encoder) ;
+ int32_t GetByteCount(void* chars, int32_t count, System::Text::EncoderNLS encoder) ;
 
 /// @brief Method GetBytes addr 0x22d1868 size 0x3c8 virtual true final false
- int32_t GetBytes(void* chars, int32_t charCount, void* bytes, int32_t byteCount, ::System::Text::EncoderNLS encoder) ;
+ int32_t GetBytes(void* chars, int32_t charCount, void* bytes, int32_t byteCount, System::Text::EncoderNLS encoder) ;
 
 /// @brief Method GetCharCount addr 0x22d1c4c size 0x348 virtual true final false
- int32_t GetCharCount(void* bytes, int32_t count, ::System::Text::DecoderNLS baseDecoder) ;
+ int32_t GetCharCount(void* bytes, int32_t count, System::Text::DecoderNLS baseDecoder) ;
 
 /// @brief Method GetChars addr 0x22d1f94 size 0x3fc virtual true final false
- int32_t GetChars(void* bytes, int32_t byteCount, void* chars, int32_t charCount, ::System::Text::DecoderNLS baseDecoder) ;
+ int32_t GetChars(void* bytes, int32_t byteCount, void* chars, int32_t charCount, System::Text::DecoderNLS baseDecoder) ;
 
 /// @brief Method GetSurrogate addr 0x22d1c30 size 0x1c virtual false final false
  uint32_t GetSurrogate(char16_t cHigh, char16_t cLow) ;
@@ -278,10 +277,10 @@ explicit UTF32Encoding(bool bigEndian, bool byteOrderMark, bool throwOnInvalidCh
  char16_t GetLowSurrogate(uint32_t iChar) ;
 
 /// @brief Method GetDecoder addr 0x22d23b0 size 0x64 virtual true final false
- ::System::Text::Decoder GetDecoder() ;
+ System::Text::Decoder GetDecoder() ;
 
 /// @brief Method GetEncoder addr 0x22d241c size 0x64 virtual true final false
- ::System::Text::Encoder GetEncoder() ;
+ System::Text::Encoder GetEncoder() ;
 
 /// @brief Method GetMaxByteCount addr 0x22d2480 size 0x108 virtual true final false
  int32_t GetMaxByteCount(int32_t charCount) ;
@@ -293,7 +292,7 @@ explicit UTF32Encoding(bool bigEndian, bool byteOrderMark, bool throwOnInvalidCh
  ::ArrayW<uint8_t> GetPreamble() ;
 
 /// @brief Method get_Preamble addr 0x22d275c size 0x170 virtual true final false
- ::System::ReadOnlySpan_1<uint8_t> get_Preamble() ;
+ System::ReadOnlySpan_1<uint8_t> get_Preamble() ;
 
 /// @brief Method Equals addr 0x22d28cc size 0xc4 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType value) ;
@@ -305,8 +304,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Text
-} // end anonymous namespace
-NEED_NO_BOX(::System::Text::UTF32Encoding);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::UTF32Encoding, "System.Text", "UTF32Encoding");
-NEED_NO_BOX(::System::Text::____System__Text__UTF32Encoding__UTF32Decoder);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::____System__Text__UTF32Encoding__UTF32Decoder, "System.Text", "UTF32Encoding/UTF32Decoder");
+NEED_NO_BOX(System::Text::System__Text__UTF32Encoding__UTF32Decoder);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::System__Text__UTF32Encoding__UTF32Decoder, "System.Text", "UTF32Encoding/UTF32Decoder");
+NEED_NO_BOX(System::Text::UTF32Encoding);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::UTF32Encoding, "System.Text", "UTF32Encoding");

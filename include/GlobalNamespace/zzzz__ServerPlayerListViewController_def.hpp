@@ -2,49 +2,48 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace GlobalNamespace {
-class GameplayModifiers;
+class IInvitePlatformHandler;
+}
+namespace GlobalNamespace {
+class PreviewDifficultyBeatmap;
+}
+namespace HMUI {
+class HoverHint;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace UnityEngine::UI {
-class Button;
-}
-namespace GlobalNamespace {
-class ILobbyPlayersDataModel;
-}
-namespace GlobalNamespace {
-class ILobbyStateDataModel;
-}
-namespace GlobalNamespace {
-class ILobbyGameStateController;
-}
-namespace GlobalNamespace {
-class IInvitePlatformHandler;
-}
-namespace GlobalNamespace {
-class LobbyPlayerPermissionsModel;
-}
-namespace HMUI {
-class HoverHint;
-}
-namespace GlobalNamespace {
-class PreviewDifficultyBeatmap;
-}
 namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-struct MultiplayerLobbyState;
+class GameServerPlayersTableView;
 }
 namespace HMUI {
 class ButtonBinder;
 }
 namespace GlobalNamespace {
-class GameServerPlayersTableView;
+class LobbyPlayerPermissionsModel;
+}
+namespace GlobalNamespace {
+class ILobbyStateDataModel;
+}
+namespace GlobalNamespace {
+struct MultiplayerLobbyState;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class ILobbyPlayersDataModel;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace GlobalNamespace {
+class ILobbyGameStateController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -56,7 +55,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13656))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5819))
 // CS Name: ServerPlayerListViewController
-class CORDL_TYPE ServerPlayerListViewController : public ::HMUI::ViewController {
+class CORDL_TYPE ServerPlayerListViewController : public HMUI::ViewController {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -71,7 +70,7 @@ constexpr ServerPlayerListViewController(ServerPlayerListViewController const& )
 constexpr ServerPlayerListViewController(ServerPlayerListViewController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ServerPlayerListViewController(void* ptr) noexcept : ::HMUI::ViewController(ptr) {
+constexpr explicit ServerPlayerListViewController(void* ptr) noexcept : HMUI::ViewController(ptr) {
 }
 
 
@@ -92,110 +91,110 @@ constexpr explicit ServerPlayerListViewController(void* ptr) noexcept : ::HMUI::
 
 // Fields
 
- ::GlobalNamespace::GameServerPlayersTableView __declspec(property(get=__get__gameServerPlayersTableView, put=__set__gameServerPlayersTableView))  _gameServerPlayersTableView;
+ GlobalNamespace::GameServerPlayersTableView __declspec(property(get=__get__gameServerPlayersTableView, put=__set__gameServerPlayersTableView))  _gameServerPlayersTableView;
 
-constexpr void __set__gameServerPlayersTableView(::GlobalNamespace::GameServerPlayersTableView value) ;
+constexpr void __set__gameServerPlayersTableView(GlobalNamespace::GameServerPlayersTableView value) ;
 
-constexpr ::GlobalNamespace::GameServerPlayersTableView __get__gameServerPlayersTableView() const;
+constexpr GlobalNamespace::GameServerPlayersTableView __get__gameServerPlayersTableView() const;
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__invitePlayerButton, put=__set__invitePlayerButton))  _invitePlayerButton;
+ UnityEngine::UI::Button __declspec(property(get=__get__invitePlayerButton, put=__set__invitePlayerButton))  _invitePlayerButton;
 
-constexpr void __set__invitePlayerButton(::UnityEngine::UI::Button value) ;
+constexpr void __set__invitePlayerButton(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__invitePlayerButton() const;
+constexpr UnityEngine::UI::Button __get__invitePlayerButton() const;
 
- ::HMUI::HoverHint __declspec(property(get=__get__cantInvitePlayerHoverHint, put=__set__cantInvitePlayerHoverHint))  _cantInvitePlayerHoverHint;
+ HMUI::HoverHint __declspec(property(get=__get__cantInvitePlayerHoverHint, put=__set__cantInvitePlayerHoverHint))  _cantInvitePlayerHoverHint;
 
-constexpr void __set__cantInvitePlayerHoverHint(::HMUI::HoverHint value) ;
+constexpr void __set__cantInvitePlayerHoverHint(HMUI::HoverHint value) ;
 
-constexpr ::HMUI::HoverHint __get__cantInvitePlayerHoverHint() const;
+constexpr HMUI::HoverHint __get__cantInvitePlayerHoverHint() const;
 
- ::GlobalNamespace::IInvitePlatformHandler __declspec(property(get=__get__invitePlatformHandler, put=__set__invitePlatformHandler))  _invitePlatformHandler;
+ GlobalNamespace::IInvitePlatformHandler __declspec(property(get=__get__invitePlatformHandler, put=__set__invitePlatformHandler))  _invitePlatformHandler;
 
-constexpr void __set__invitePlatformHandler(::GlobalNamespace::IInvitePlatformHandler value) ;
+constexpr void __set__invitePlatformHandler(GlobalNamespace::IInvitePlatformHandler value) ;
 
-constexpr ::GlobalNamespace::IInvitePlatformHandler __get__invitePlatformHandler() const;
+constexpr GlobalNamespace::IInvitePlatformHandler __get__invitePlatformHandler() const;
 
- ::GlobalNamespace::ILobbyPlayersDataModel __declspec(property(get=__get__lobbyPlayersDataModel, put=__set__lobbyPlayersDataModel))  _lobbyPlayersDataModel;
+ GlobalNamespace::ILobbyPlayersDataModel __declspec(property(get=__get__lobbyPlayersDataModel, put=__set__lobbyPlayersDataModel))  _lobbyPlayersDataModel;
 
-constexpr void __set__lobbyPlayersDataModel(::GlobalNamespace::ILobbyPlayersDataModel value) ;
+constexpr void __set__lobbyPlayersDataModel(GlobalNamespace::ILobbyPlayersDataModel value) ;
 
-constexpr ::GlobalNamespace::ILobbyPlayersDataModel __get__lobbyPlayersDataModel() const;
+constexpr GlobalNamespace::ILobbyPlayersDataModel __get__lobbyPlayersDataModel() const;
 
- ::GlobalNamespace::ILobbyStateDataModel __declspec(property(get=__get__lobbyStateDataModel, put=__set__lobbyStateDataModel))  _lobbyStateDataModel;
+ GlobalNamespace::ILobbyStateDataModel __declspec(property(get=__get__lobbyStateDataModel, put=__set__lobbyStateDataModel))  _lobbyStateDataModel;
 
-constexpr void __set__lobbyStateDataModel(::GlobalNamespace::ILobbyStateDataModel value) ;
+constexpr void __set__lobbyStateDataModel(GlobalNamespace::ILobbyStateDataModel value) ;
 
-constexpr ::GlobalNamespace::ILobbyStateDataModel __get__lobbyStateDataModel() const;
+constexpr GlobalNamespace::ILobbyStateDataModel __get__lobbyStateDataModel() const;
 
- ::GlobalNamespace::LobbyPlayerPermissionsModel __declspec(property(get=__get__lobbyPlayerPermissionsModel, put=__set__lobbyPlayerPermissionsModel))  _lobbyPlayerPermissionsModel;
+ GlobalNamespace::LobbyPlayerPermissionsModel __declspec(property(get=__get__lobbyPlayerPermissionsModel, put=__set__lobbyPlayerPermissionsModel))  _lobbyPlayerPermissionsModel;
 
-constexpr void __set__lobbyPlayerPermissionsModel(::GlobalNamespace::LobbyPlayerPermissionsModel value) ;
+constexpr void __set__lobbyPlayerPermissionsModel(GlobalNamespace::LobbyPlayerPermissionsModel value) ;
 
-constexpr ::GlobalNamespace::LobbyPlayerPermissionsModel __get__lobbyPlayerPermissionsModel() const;
+constexpr GlobalNamespace::LobbyPlayerPermissionsModel __get__lobbyPlayerPermissionsModel() const;
 
- ::GlobalNamespace::ILobbyGameStateController __declspec(property(get=__get__lobbyGameStateController, put=__set__lobbyGameStateController))  _lobbyGameStateController;
+ GlobalNamespace::ILobbyGameStateController __declspec(property(get=__get__lobbyGameStateController, put=__set__lobbyGameStateController))  _lobbyGameStateController;
 
-constexpr void __set__lobbyGameStateController(::GlobalNamespace::ILobbyGameStateController value) ;
+constexpr void __set__lobbyGameStateController(GlobalNamespace::ILobbyGameStateController value) ;
 
-constexpr ::GlobalNamespace::ILobbyGameStateController __get__lobbyGameStateController() const;
+constexpr GlobalNamespace::ILobbyGameStateController __get__lobbyGameStateController() const;
 
- ::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap> __declspec(property(get=__get_selectSuggestedBeatmapEvent, put=__set_selectSuggestedBeatmapEvent))  selectSuggestedBeatmapEvent;
+ System::Action_1<GlobalNamespace::PreviewDifficultyBeatmap> __declspec(property(get=__get_selectSuggestedBeatmapEvent, put=__set_selectSuggestedBeatmapEvent))  selectSuggestedBeatmapEvent;
 
-constexpr void __set_selectSuggestedBeatmapEvent(::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap> value) ;
+constexpr void __set_selectSuggestedBeatmapEvent(System::Action_1<GlobalNamespace::PreviewDifficultyBeatmap> value) ;
 
-constexpr ::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap> __get_selectSuggestedBeatmapEvent() const;
+constexpr System::Action_1<GlobalNamespace::PreviewDifficultyBeatmap> __get_selectSuggestedBeatmapEvent() const;
 
- ::System::Action_1<::GlobalNamespace::GameplayModifiers> __declspec(property(get=__get_selectSuggestedGameplayModifiersEvent, put=__set_selectSuggestedGameplayModifiersEvent))  selectSuggestedGameplayModifiersEvent;
+ System::Action_1<GlobalNamespace::GameplayModifiers> __declspec(property(get=__get_selectSuggestedGameplayModifiersEvent, put=__set_selectSuggestedGameplayModifiersEvent))  selectSuggestedGameplayModifiersEvent;
 
-constexpr void __set_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers> value) ;
+constexpr void __set_selectSuggestedGameplayModifiersEvent(System::Action_1<GlobalNamespace::GameplayModifiers> value) ;
 
-constexpr ::System::Action_1<::GlobalNamespace::GameplayModifiers> __get_selectSuggestedGameplayModifiersEvent() const;
+constexpr System::Action_1<GlobalNamespace::GameplayModifiers> __get_selectSuggestedGameplayModifiersEvent() const;
 
- ::System::Action_1<::StringW> __declspec(property(get=__get_kickPlayerEvent, put=__set_kickPlayerEvent))  kickPlayerEvent;
+ System::Action_1<::StringW> __declspec(property(get=__get_kickPlayerEvent, put=__set_kickPlayerEvent))  kickPlayerEvent;
 
-constexpr void __set_kickPlayerEvent(::System::Action_1<::StringW> value) ;
+constexpr void __set_kickPlayerEvent(System::Action_1<::StringW> value) ;
 
-constexpr ::System::Action_1<::StringW> __get_kickPlayerEvent() const;
+constexpr System::Action_1<::StringW> __get_kickPlayerEvent() const;
 
- ::System::Action __declspec(property(get=__get_didOpenInvitePanelEvent, put=__set_didOpenInvitePanelEvent))  didOpenInvitePanelEvent;
+ System::Action __declspec(property(get=__get_didOpenInvitePanelEvent, put=__set_didOpenInvitePanelEvent))  didOpenInvitePanelEvent;
 
-constexpr void __set_didOpenInvitePanelEvent(::System::Action value) ;
+constexpr void __set_didOpenInvitePanelEvent(System::Action value) ;
 
-constexpr ::System::Action __get_didOpenInvitePanelEvent() const;
+constexpr System::Action __get_didOpenInvitePanelEvent() const;
 
- ::HMUI::ButtonBinder __declspec(property(get=__get__buttonBinder, put=__set__buttonBinder))  _buttonBinder;
+ HMUI::ButtonBinder __declspec(property(get=__get__buttonBinder, put=__set__buttonBinder))  _buttonBinder;
 
-constexpr void __set__buttonBinder(::HMUI::ButtonBinder value) ;
+constexpr void __set__buttonBinder(HMUI::ButtonBinder value) ;
 
-constexpr ::HMUI::ButtonBinder __get__buttonBinder() const;
+constexpr HMUI::ButtonBinder __get__buttonBinder() const;
 
 
 // Methods
 
 /// @brief Method add_selectSuggestedBeatmapEvent addr 0x21799cc size 0xb0 virtual false final false
- void add_selectSuggestedBeatmapEvent(::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap> value) ;
+ void add_selectSuggestedBeatmapEvent(System::Action_1<GlobalNamespace::PreviewDifficultyBeatmap> value) ;
 
 /// @brief Method remove_selectSuggestedBeatmapEvent addr 0x2179a7c size 0xb0 virtual false final false
- void remove_selectSuggestedBeatmapEvent(::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap> value) ;
+ void remove_selectSuggestedBeatmapEvent(System::Action_1<GlobalNamespace::PreviewDifficultyBeatmap> value) ;
 
 /// @brief Method add_selectSuggestedGameplayModifiersEvent addr 0x2179b2c size 0xb0 virtual false final false
- void add_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers> value) ;
+ void add_selectSuggestedGameplayModifiersEvent(System::Action_1<GlobalNamespace::GameplayModifiers> value) ;
 
 /// @brief Method remove_selectSuggestedGameplayModifiersEvent addr 0x2179bdc size 0xb0 virtual false final false
- void remove_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers> value) ;
+ void remove_selectSuggestedGameplayModifiersEvent(System::Action_1<GlobalNamespace::GameplayModifiers> value) ;
 
 /// @brief Method add_kickPlayerEvent addr 0x2179c8c size 0xb0 virtual false final false
- void add_kickPlayerEvent(::System::Action_1<::StringW> value) ;
+ void add_kickPlayerEvent(System::Action_1<::StringW> value) ;
 
 /// @brief Method remove_kickPlayerEvent addr 0x2179d3c size 0xb0 virtual false final false
- void remove_kickPlayerEvent(::System::Action_1<::StringW> value) ;
+ void remove_kickPlayerEvent(System::Action_1<::StringW> value) ;
 
 /// @brief Method add_didOpenInvitePanelEvent addr 0x2179dec size 0x9c virtual false final false
- void add_didOpenInvitePanelEvent(::System::Action value) ;
+ void add_didOpenInvitePanelEvent(System::Action value) ;
 
 /// @brief Method remove_didOpenInvitePanelEvent addr 0x2179e88 size 0x9c virtual false final false
- void remove_didOpenInvitePanelEvent(::System::Action value) ;
+ void remove_didOpenInvitePanelEvent(System::Action value) ;
 
 /// @brief Method DidActivate addr 0x2179f24 size 0x384 virtual true final false
  void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) ;
@@ -207,7 +206,7 @@ constexpr ::HMUI::ButtonBinder __get__buttonBinder() const;
  void HandleLobbyPlayersDataDidChange(::StringW userId) ;
 
 /// @brief Method HandleLobbyGameStateControllerLobbyStateChanged addr 0x217aef0 size 0x4 virtual false final false
- void HandleLobbyGameStateControllerLobbyStateChanged(::GlobalNamespace::MultiplayerLobbyState _) ;
+ void HandleLobbyGameStateControllerLobbyStateChanged(GlobalNamespace::MultiplayerLobbyState _) ;
 
 /// @brief Method HandleLobbyPlayerPermissionChanged addr 0x217aef4 size 0x4 virtual false final false
  void HandleLobbyPlayerPermissionChanged() ;
@@ -216,10 +215,10 @@ constexpr ::HMUI::ButtonBinder __get__buttonBinder() const;
  void SetDataToTable() ;
 
 /// @brief Method HandleSelectSuggestedLevel addr 0x217afb4 size 0x1c virtual false final false
- void HandleSelectSuggestedLevel(::GlobalNamespace::PreviewDifficultyBeatmap beatmapLevel) ;
+ void HandleSelectSuggestedLevel(GlobalNamespace::PreviewDifficultyBeatmap beatmapLevel) ;
 
 /// @brief Method HandleSelectSuggestedGameplayModifiers addr 0x217afd0 size 0x1c virtual false final false
- void HandleSelectSuggestedGameplayModifiers(::GlobalNamespace::GameplayModifiers gameplayModifiers) ;
+ void HandleSelectSuggestedGameplayModifiers(GlobalNamespace::GameplayModifiers gameplayModifiers) ;
 
 /// @brief Method HandleKickPlayer addr 0x217afec size 0x1c virtual false final false
  void HandleKickPlayer(::StringW userId) ;
@@ -240,6 +239,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ServerPlayerListViewController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ServerPlayerListViewController, "", "ServerPlayerListViewController");
+NEED_NO_BOX(GlobalNamespace::ServerPlayerListViewController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ServerPlayerListViewController, "", "ServerPlayerListViewController");

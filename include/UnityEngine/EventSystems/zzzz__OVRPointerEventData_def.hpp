@@ -2,15 +2,14 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace UnityEngine {
+struct Vector2;
+}
 namespace UnityEngine {
 struct Ray;
 }
 namespace UnityEngine::EventSystems {
 class EventSystem;
-}
-namespace UnityEngine {
-struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -22,7 +21,7 @@ namespace UnityEngine::EventSystems {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13107))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9521))
 // CS Name: UnityEngine.EventSystems.OVRPointerEventData
-class CORDL_TYPE OVRPointerEventData : public ::UnityEngine::EventSystems::PointerEventData {
+class CORDL_TYPE OVRPointerEventData : public UnityEngine::EventSystems::PointerEventData {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr OVRPointerEventData(OVRPointerEventData const& ) noexcept = default;
 constexpr OVRPointerEventData(OVRPointerEventData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OVRPointerEventData(void* ptr) noexcept : ::UnityEngine::EventSystems::PointerEventData(ptr) {
+constexpr explicit OVRPointerEventData(void* ptr) noexcept : UnityEngine::EventSystems::PointerEventData(ptr) {
 }
 
 
@@ -58,26 +57,26 @@ constexpr explicit OVRPointerEventData(void* ptr) noexcept : ::UnityEngine::Even
 
 // Fields
 
- ::UnityEngine::Ray __declspec(property(get=__get_worldSpaceRay, put=__set_worldSpaceRay))  worldSpaceRay;
+ UnityEngine::Ray __declspec(property(get=__get_worldSpaceRay, put=__set_worldSpaceRay))  worldSpaceRay;
 
-constexpr void __set_worldSpaceRay(::UnityEngine::Ray value) ;
+constexpr void __set_worldSpaceRay(UnityEngine::Ray value) ;
 
-constexpr ::UnityEngine::Ray __get_worldSpaceRay() const;
+constexpr UnityEngine::Ray __get_worldSpaceRay() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_swipeStart, put=__set_swipeStart))  swipeStart;
+ UnityEngine::Vector2 __declspec(property(get=__get_swipeStart, put=__set_swipeStart))  swipeStart;
 
-constexpr void __set_swipeStart(::UnityEngine::Vector2 value) ;
+constexpr void __set_swipeStart(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_swipeStart() const;
+constexpr UnityEngine::Vector2 __get_swipeStart() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "eventSystem", ty: "::UnityEngine::EventSystems::EventSystem", modifiers: "", def_value: None }]
-explicit OVRPointerEventData(::UnityEngine::EventSystems::EventSystem eventSystem) ;
+// Ctor Parameters [CppParam { name: "eventSystem", ty: "UnityEngine::EventSystems::EventSystem", modifiers: "", def_value: None }]
+explicit OVRPointerEventData(UnityEngine::EventSystems::EventSystem eventSystem) ;
 
 /// @brief Method .ctor addr 0x266c67c size 0x8 virtual false final false
- void _ctor(::UnityEngine::EventSystems::EventSystem eventSystem) ;
+ void _ctor(UnityEngine::EventSystems::EventSystem eventSystem) ;
 
 /// @brief Method ToString addr 0x266e768 size 0x3b4 virtual true final false
  ::StringW ToString() ;
@@ -86,6 +85,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::EventSystems
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::EventSystems::OVRPointerEventData);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::OVRPointerEventData, "UnityEngine.EventSystems", "OVRPointerEventData");
+NEED_NO_BOX(UnityEngine::EventSystems::OVRPointerEventData);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::OVRPointerEventData, "UnityEngine.EventSystems", "OVRPointerEventData");

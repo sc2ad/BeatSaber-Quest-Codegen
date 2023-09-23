@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__StaticMemoryPool_2_def.hpp"
-namespace {
 // Forward declare root types
 namespace Zenject {
 template<typename TParam1,typename TValue>
@@ -17,10 +16,10 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11029)), TypeDefinitionIndex(TypeDefinitionIndex(11019)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11029), inst: 3499 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11029), inst: 3499 }), TypeDefinitionIndex(TypeDefinitionIndex(11019)), TypeDefinitionIndex(TypeDefinitionIndex(11029))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11019), inst: 80 })
 // CS Name: Zenject.PoolableStaticMemoryPool`2
-class CORDL_TYPE PoolableStaticMemoryPool_2<TParam1,TValue> : public ::Zenject::StaticMemoryPool_2<TParam1,TValue> {
+class CORDL_TYPE PoolableStaticMemoryPool_2<TParam1,TValue> : public Zenject::StaticMemoryPool_2<TParam1,TValue> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr PoolableStaticMemoryPool_2(PoolableStaticMemoryPool_2 const& ) noexcep
 constexpr PoolableStaticMemoryPool_2(PoolableStaticMemoryPool_2&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PoolableStaticMemoryPool_2(void* ptr) noexcept : ::Zenject::StaticMemoryPool_2<TParam1,TValue>(ptr) {
+constexpr explicit PoolableStaticMemoryPool_2(void* ptr) noexcept : Zenject::StaticMemoryPool_2<TParam1,TValue>(ptr) {
 }
 
 
@@ -72,5 +71,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::PoolableStaticMemoryPool_2, "Zenject", "PoolableStaticMemoryPool`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::PoolableStaticMemoryPool_2, "Zenject", "PoolableStaticMemoryPool`2");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
 class NetSyncSessionList;
 }
@@ -58,11 +57,11 @@ constexpr void __set_ConnectionId(int64_t value) ;
 
 constexpr int64_t __get_ConnectionId() const;
 
- ::Oculus::Platform::Models::NetSyncSessionList __declspec(property(get=__get_Sessions, put=__set_Sessions))  Sessions;
+ Oculus::Platform::Models::NetSyncSessionList __declspec(property(get=__get_Sessions, put=__set_Sessions))  Sessions;
 
-constexpr void __set_Sessions(::Oculus::Platform::Models::NetSyncSessionList value) ;
+constexpr void __set_Sessions(Oculus::Platform::Models::NetSyncSessionList value) ;
 
-constexpr ::Oculus::Platform::Models::NetSyncSessionList __get_Sessions() const;
+constexpr Oculus::Platform::Models::NetSyncSessionList __get_Sessions() const;
 
 
 // Methods
@@ -77,6 +76,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::NetSyncSessionsChangedNotification);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::NetSyncSessionsChangedNotification, "Oculus.Platform.Models", "NetSyncSessionsChangedNotification");
+NEED_NO_BOX(Oculus::Platform::Models::NetSyncSessionsChangedNotification);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::NetSyncSessionsChangedNotification, "Oculus.Platform.Models", "NetSyncSessionsChangedNotification");

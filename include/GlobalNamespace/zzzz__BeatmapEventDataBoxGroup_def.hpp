@@ -3,52 +3,51 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
-class BeatmapData;
-}
-namespace GlobalNamespace {
-class IBeatToTimeConvertor;
+class BeatmapEventData;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyCollection_1;
-}
-namespace System {
-template<typename T1,typename T2,typename T3>
-struct ValueTuple_3;
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace System {
 class Type;
 }
 namespace System {
-template<typename T>
-class IComparable_1;
+template<typename T1,typename T2,typename T3>
+struct ValueTuple_3;
 }
 namespace GlobalNamespace {
 class BeatmapEventDataBox;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
-class Dictionary_2;
+class IReadOnlyDictionary_2;
 }
-namespace GlobalNamespace {
-class BeatmapEventData;
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyCollection_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class IReadOnlyDictionary_2;
+namespace System {
+template<typename T>
+class IComparable_1;
+}
+namespace GlobalNamespace {
+class BeatmapData;
+}
+namespace GlobalNamespace {
+class IBeatToTimeConvertor;
 }
 // Forward declare root types
 namespace GlobalNamespace {
 class BeatmapEventDataBoxGroup;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData;
+class GlobalNamespace__BeatmapEventDataBoxGroup__ElementData;
 }
 // Type: ::ElementData
 namespace GlobalNamespace {
@@ -56,37 +55,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4324))
 // CS Name: BeatmapEventDataBoxGroup::ElementData
-class CORDL_TYPE ____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__BeatmapEventDataBoxGroup__ElementData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x50};
 
-virtual ~____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData() = default;
+virtual ~GlobalNamespace__BeatmapEventDataBoxGroup__ElementData() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData(____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__BeatmapEventDataBoxGroup__ElementData", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__BeatmapEventDataBoxGroup__ElementData(GlobalNamespace__BeatmapEventDataBoxGroup__ElementData const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData(____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__BeatmapEventDataBoxGroup__ElementData", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__BeatmapEventDataBoxGroup__ElementData(GlobalNamespace__BeatmapEventDataBoxGroup__ElementData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__BeatmapEventDataBoxGroup__ElementData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__BeatmapEventDataBoxGroup__ElementData& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__BeatmapEventDataBoxGroup__ElementData& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData& operator=(____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData&& o) noexcept = default;
-  constexpr ____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData& operator=(____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData const& o) noexcept = default;
+  constexpr GlobalNamespace__BeatmapEventDataBoxGroup__ElementData& operator=(GlobalNamespace__BeatmapEventDataBoxGroup__ElementData&& o) noexcept = default;
+  constexpr GlobalNamespace__BeatmapEventDataBoxGroup__ElementData& operator=(GlobalNamespace__BeatmapEventDataBoxGroup__ElementData const& o) noexcept = default;
                 
 
 
@@ -116,11 +115,11 @@ constexpr void __set_distributionOrderIndex(int32_t value) ;
 
 constexpr int32_t __get_distributionOrderIndex() const;
 
- ::System::Type __declspec(property(get=__get_eventBoxType, put=__set_eventBoxType))  eventBoxType;
+ System::Type __declspec(property(get=__get_eventBoxType, put=__set_eventBoxType))  eventBoxType;
 
-constexpr void __set_eventBoxType(::System::Type value) ;
+constexpr void __set_eventBoxType(System::Type value) ;
 
-constexpr ::System::Type __get_eventBoxType() const;
+constexpr System::Type __get_eventBoxType() const;
 
  int32_t __declspec(property(get=__get_eventBoxSubtypeIdentifier, put=__set_eventBoxSubtypeIdentifier))  eventBoxSubtypeIdentifier;
 
@@ -128,60 +127,60 @@ constexpr void __set_eventBoxSubtypeIdentifier(int32_t value) ;
 
 constexpr int32_t __get_eventBoxSubtypeIdentifier() const;
 
- ::GlobalNamespace::BeatmapEventDataBox __declspec(property(get=__get_eventBox, put=__set_eventBox))  eventBox;
+ GlobalNamespace::BeatmapEventDataBox __declspec(property(get=__get_eventBox, put=__set_eventBox))  eventBox;
 
-constexpr void __set_eventBox(::GlobalNamespace::BeatmapEventDataBox value) ;
+constexpr void __set_eventBox(GlobalNamespace::BeatmapEventDataBox value) ;
 
-constexpr ::GlobalNamespace::BeatmapEventDataBox __get_eventBox() const;
+constexpr GlobalNamespace::BeatmapEventDataBox __get_eventBox() const;
 
- ::GlobalNamespace::BeatmapEventDataBoxGroup __declspec(property(get=__get_boxGroup, put=__set_boxGroup))  boxGroup;
+ GlobalNamespace::BeatmapEventDataBoxGroup __declspec(property(get=__get_boxGroup, put=__set_boxGroup))  boxGroup;
 
-constexpr void __set_boxGroup(::GlobalNamespace::BeatmapEventDataBoxGroup value) ;
+constexpr void __set_boxGroup(GlobalNamespace::BeatmapEventDataBoxGroup value) ;
 
-constexpr ::GlobalNamespace::BeatmapEventDataBoxGroup __get_boxGroup() const;
+constexpr GlobalNamespace::BeatmapEventDataBoxGroup __get_boxGroup() const;
 
- ::GlobalNamespace::____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData __declspec(property(get=__get__next, put=__set__next))  _next;
+ GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroup__ElementData __declspec(property(get=__get__next, put=__set__next))  _next;
 
-constexpr void __set__next(::GlobalNamespace::____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData value) ;
+constexpr void __set__next(GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroup__ElementData value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData __get__next() const;
+constexpr GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroup__ElementData __get__next() const;
 
- ::GlobalNamespace::____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData __declspec(property(get=__get__previous, put=__set__previous))  _previous;
+ GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroup__ElementData __declspec(property(get=__get__previous, put=__set__previous))  _previous;
 
-constexpr void __set__previous(::GlobalNamespace::____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData value) ;
+constexpr void __set__previous(GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroup__ElementData value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData __get__previous() const;
+constexpr GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroup__ElementData __get__previous() const;
 
 
 // Properties
 
- ::GlobalNamespace::____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData __declspec(property(get=get_next))  next;
+ GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroup__ElementData __declspec(property(get=get_next))  next;
 
- ::GlobalNamespace::____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData __declspec(property(get=get_previous))  previous;
+ GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroup__ElementData __declspec(property(get=get_previous))  previous;
 
 
 // Methods
 
 /// @brief Method get_next addr 0x21db6a4 size 0x8 virtual false final false
- ::GlobalNamespace::____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData get_next() ;
+ GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroup__ElementData get_next() ;
 
 /// @brief Method get_previous addr 0x21db6ac size 0x8 virtual false final false
- ::GlobalNamespace::____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData get_previous() ;
+ GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroup__ElementData get_previous() ;
 
-// Ctor Parameters [CppParam { name: "boxGroup", ty: "::GlobalNamespace::BeatmapEventDataBoxGroup", modifiers: "", def_value: None }, CppParam { name: "eventBox", ty: "::GlobalNamespace::BeatmapEventDataBox", modifiers: "", def_value: None }, CppParam { name: "elementId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "durationOrderIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "distributionOrderIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "startBeat", ty: "float_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData(::GlobalNamespace::BeatmapEventDataBoxGroup boxGroup, ::GlobalNamespace::BeatmapEventDataBox eventBox, int32_t elementId, int32_t durationOrderIndex, int32_t distributionOrderIndex, float_t startBeat) ;
+// Ctor Parameters [CppParam { name: "boxGroup", ty: "GlobalNamespace::BeatmapEventDataBoxGroup", modifiers: "", def_value: None }, CppParam { name: "eventBox", ty: "GlobalNamespace::BeatmapEventDataBox", modifiers: "", def_value: None }, CppParam { name: "elementId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "durationOrderIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "distributionOrderIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "startBeat", ty: "float_t", modifiers: "", def_value: None }]
+explicit GlobalNamespace__BeatmapEventDataBoxGroup__ElementData(GlobalNamespace::BeatmapEventDataBoxGroup boxGroup, GlobalNamespace::BeatmapEventDataBox eventBox, int32_t elementId, int32_t durationOrderIndex, int32_t distributionOrderIndex, float_t startBeat) ;
 
 /// @brief Method .ctor addr 0x21db0e8 size 0x8c virtual false final false
- void _ctor(::GlobalNamespace::BeatmapEventDataBoxGroup boxGroup, ::GlobalNamespace::BeatmapEventDataBox eventBox, int32_t elementId, int32_t durationOrderIndex, int32_t distributionOrderIndex, float_t startBeat) ;
+ void _ctor(GlobalNamespace::BeatmapEventDataBoxGroup boxGroup, GlobalNamespace::BeatmapEventDataBox eventBox, int32_t elementId, int32_t durationOrderIndex, int32_t distributionOrderIndex, float_t startBeat) ;
 
 /// @brief Method ResetConnections addr 0x21db6b4 size 0x8 virtual false final false
  void ResetConnections() ;
 
 /// @brief Method ConnectWithPrevious addr 0x21db6bc size 0x10 virtual false final false
- void ConnectWithPrevious(::GlobalNamespace::____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData prevElementData) ;
+ void ConnectWithPrevious(GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroup__ElementData prevElementData) ;
 
 /// @brief Method ConnectWithNext addr 0x21db6cc size 0x10 virtual false final false
- void ConnectWithNext(::GlobalNamespace::____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData nextElementData) ;
+ void ConnectWithNext(GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroup__ElementData nextElementData) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -196,10 +195,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapEventDataBoxGroup : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using ElementData = ::GlobalNamespace::____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData;
+using ElementData = GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroup__ElementData;
 
-/// @brief Convert operator to ::System::IComparable_1<::GlobalNamespace::BeatmapEventDataBoxGroup>
-constexpr operator  ::System::IComparable_1<::GlobalNamespace::BeatmapEventDataBoxGroup>() const noexcept;
+/// @brief Convert operator to System::IComparable_1<GlobalNamespace::BeatmapEventDataBoxGroup>
+constexpr operator  System::IComparable_1<GlobalNamespace::BeatmapEventDataBoxGroup>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -240,59 +239,58 @@ constexpr void __set_beat(float_t value) ;
 
 constexpr float_t __get_beat() const;
 
- ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_3<int32_t,::System::Type,int32_t>,::GlobalNamespace::____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData> __declspec(property(get=__get__elementDataDict, put=__set__elementDataDict))  _elementDataDict;
+ System::Collections::Generic::Dictionary_2<System::ValueTuple_3<int32_t,System::Type,int32_t>,GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroup__ElementData> __declspec(property(get=__get__elementDataDict, put=__set__elementDataDict))  _elementDataDict;
 
-constexpr void __set__elementDataDict(::System::Collections::Generic::Dictionary_2<::System::ValueTuple_3<int32_t,::System::Type,int32_t>,::GlobalNamespace::____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData> value) ;
+constexpr void __set__elementDataDict(System::Collections::Generic::Dictionary_2<System::ValueTuple_3<int32_t,System::Type,int32_t>,GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroup__ElementData> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_3<int32_t,::System::Type,int32_t>,::GlobalNamespace::____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData> __get__elementDataDict() const;
+constexpr System::Collections::Generic::Dictionary_2<System::ValueTuple_3<int32_t,System::Type,int32_t>,GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroup__ElementData> __get__elementDataDict() const;
 
- ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData> __declspec(property(get=__get__unpackedBeatmapEventData, put=__set__unpackedBeatmapEventData))  _unpackedBeatmapEventData;
+ System::Collections::Generic::List_1<GlobalNamespace::BeatmapEventData> __declspec(property(get=__get__unpackedBeatmapEventData, put=__set__unpackedBeatmapEventData))  _unpackedBeatmapEventData;
 
-constexpr void __set__unpackedBeatmapEventData(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData> value) ;
+constexpr void __set__unpackedBeatmapEventData(System::Collections::Generic::List_1<GlobalNamespace::BeatmapEventData> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData> __get__unpackedBeatmapEventData() const;
+constexpr System::Collections::Generic::List_1<GlobalNamespace::BeatmapEventData> __get__unpackedBeatmapEventData() const;
 
- ::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBox> __declspec(property(get=__get__beatmapEventDataBoxList, put=__set__beatmapEventDataBoxList))  _beatmapEventDataBoxList;
+ System::Collections::Generic::IReadOnlyCollection_1<GlobalNamespace::BeatmapEventDataBox> __declspec(property(get=__get__beatmapEventDataBoxList, put=__set__beatmapEventDataBoxList))  _beatmapEventDataBoxList;
 
-constexpr void __set__beatmapEventDataBoxList(::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBox> value) ;
+constexpr void __set__beatmapEventDataBoxList(System::Collections::Generic::IReadOnlyCollection_1<GlobalNamespace::BeatmapEventDataBox> value) ;
 
-constexpr ::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBox> __get__beatmapEventDataBoxList() const;
+constexpr System::Collections::Generic::IReadOnlyCollection_1<GlobalNamespace::BeatmapEventDataBox> __get__beatmapEventDataBoxList() const;
 
 
 // Properties
 
- ::System::Collections::Generic::IReadOnlyDictionary_2<::System::ValueTuple_3<int32_t,::System::Type,int32_t>,::GlobalNamespace::____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData> __declspec(property(get=get_elementDataDict))  elementDataDict;
+ System::Collections::Generic::IReadOnlyDictionary_2<System::ValueTuple_3<int32_t,System::Type,int32_t>,GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroup__ElementData> __declspec(property(get=get_elementDataDict))  elementDataDict;
 
 
 // Methods
 
 /// @brief Method get_elementDataDict addr 0x21da8ec size 0x8 virtual false final false
- ::System::Collections::Generic::IReadOnlyDictionary_2<::System::ValueTuple_3<int32_t,::System::Type,int32_t>,::GlobalNamespace::____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData> get_elementDataDict() ;
+ System::Collections::Generic::IReadOnlyDictionary_2<System::ValueTuple_3<int32_t,System::Type,int32_t>,GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroup__ElementData> get_elementDataDict() ;
 
-// Ctor Parameters [CppParam { name: "beat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "beatmapEventDataBoxList", ty: "::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBox>", modifiers: "", def_value: None }]
-explicit BeatmapEventDataBoxGroup(float_t beat, ::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBox> beatmapEventDataBoxList) ;
+// Ctor Parameters [CppParam { name: "beat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "beatmapEventDataBoxList", ty: "System::Collections::Generic::IReadOnlyCollection_1<GlobalNamespace::BeatmapEventDataBox>", modifiers: "", def_value: None }]
+explicit BeatmapEventDataBoxGroup(float_t beat, System::Collections::Generic::IReadOnlyCollection_1<GlobalNamespace::BeatmapEventDataBox> beatmapEventDataBoxList) ;
 
 /// @brief Method .ctor addr 0x21da8f4 size 0x78c virtual false final false
- void _ctor(float_t beat, ::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBox> beatmapEventDataBoxList) ;
+ void _ctor(float_t beat, System::Collections::Generic::IReadOnlyCollection_1<GlobalNamespace::BeatmapEventDataBox> beatmapEventDataBoxList) ;
 
 /// @brief Method GetCopyWithNewBeat addr 0x21db174 size 0x74 virtual false final false
- ::GlobalNamespace::BeatmapEventDataBoxGroup GetCopyWithNewBeat(float_t newBeat) ;
+ GlobalNamespace::BeatmapEventDataBoxGroup GetCopyWithNewBeat(float_t newBeat) ;
 
 /// @brief Method RemoveBeatmapEventDataFromBeatmapData addr 0x21db1e8 size 0x194 virtual false final false
- void RemoveBeatmapEventDataFromBeatmapData(::GlobalNamespace::BeatmapData beatmapData) ;
+ void RemoveBeatmapEventDataFromBeatmapData(GlobalNamespace::BeatmapData beatmapData) ;
 
 /// @brief Method SyncWithBeatmapData addr 0x21db37c size 0x2f8 virtual false final false
- void SyncWithBeatmapData(int32_t groupId, ::GlobalNamespace::BeatmapData beatmapData, ::GlobalNamespace::IBeatToTimeConvertor beatToTimeConvertor) ;
+ void SyncWithBeatmapData(int32_t groupId, GlobalNamespace::BeatmapData beatmapData, GlobalNamespace::IBeatToTimeConvertor beatToTimeConvertor) ;
 
 /// @brief Method CompareTo addr 0x21db674 size 0x30 virtual true final true
- int32_t CompareTo(::GlobalNamespace::BeatmapEventDataBoxGroup b) ;
+ int32_t CompareTo(GlobalNamespace::BeatmapEventDataBoxGroup b) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BeatmapEventDataBoxGroup);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapEventDataBoxGroup, "", "BeatmapEventDataBoxGroup");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__BeatmapEventDataBoxGroup__ElementData, "", "BeatmapEventDataBoxGroup/ElementData");
+NEED_NO_BOX(GlobalNamespace::BeatmapEventDataBoxGroup);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEventDataBoxGroup, "", "BeatmapEventDataBoxGroup");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroup__ElementData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroup__ElementData, "", "BeatmapEventDataBoxGroup/ElementData");

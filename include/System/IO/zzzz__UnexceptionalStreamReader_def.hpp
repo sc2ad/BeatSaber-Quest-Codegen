@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::IO {
 class Stream;
 }
@@ -22,7 +21,7 @@ namespace System::IO {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3565))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3620))
 // CS Name: System.IO.UnexceptionalStreamReader
-class CORDL_TYPE UnexceptionalStreamReader : public ::System::IO::StreamReader {
+class CORDL_TYPE UnexceptionalStreamReader : public System::IO::StreamReader {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr UnexceptionalStreamReader(UnexceptionalStreamReader const& ) noexcept 
 constexpr UnexceptionalStreamReader(UnexceptionalStreamReader&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UnexceptionalStreamReader(void* ptr) noexcept : ::System::IO::StreamReader(ptr) {
+constexpr explicit UnexceptionalStreamReader(void* ptr) noexcept : System::IO::StreamReader(ptr) {
 }
 
 
@@ -73,11 +72,11 @@ static char16_t __get_newlineChar() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "::System::Text::Encoding", modifiers: "", def_value: None }]
-explicit UnexceptionalStreamReader(::System::IO::Stream stream, ::System::Text::Encoding encoding) ;
+// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
+explicit UnexceptionalStreamReader(System::IO::Stream stream, System::Text::Encoding encoding) ;
 
 /// @brief Method .ctor addr 0x23d3e04 size 0x70 virtual false final false
- void _ctor(::System::IO::Stream stream, ::System::Text::Encoding encoding) ;
+ void _ctor(System::IO::Stream stream, System::Text::Encoding encoding) ;
 
 /// @brief Method Peek addr 0x23d3e74 size 0x88 virtual true final false
  int32_t Peek() ;
@@ -101,6 +100,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::IO
-} // end anonymous namespace
-NEED_NO_BOX(::System::IO::UnexceptionalStreamReader);
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::UnexceptionalStreamReader, "System.IO", "UnexceptionalStreamReader");
+NEED_NO_BOX(System::IO::UnexceptionalStreamReader);
+DEFINE_IL2CPP_ARG_TYPE(System::IO::UnexceptionalStreamReader, "System.IO", "UnexceptionalStreamReader");

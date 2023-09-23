@@ -5,15 +5,14 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
-class ____GlobalNamespace__DefaultEnvironmentEvents__LightGroupFiltering;
+class GlobalNamespace__DefaultEnvironmentEvents__LightGroupEvent;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__DefaultEnvironmentEvents__LightGroupFiltering;
 }
 namespace GlobalNamespace {
 class IndexFilter;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__DefaultEnvironmentEvents__LightGroupEvent;
 }
 namespace GlobalNamespace {
 class BeatmapEventDataBoxGroup;
@@ -23,7 +22,7 @@ namespace GlobalNamespace {
 class BeatmapEventDataBoxGroupFactory;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0;
+struct GlobalNamespace__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0;
 }
 // Type: ::<>c__DisplayClass2_0
 namespace GlobalNamespace {
@@ -31,20 +30,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4326))
 // CS Name: BeatmapEventDataBoxGroupFactory::<>c__DisplayClass2_0
-struct CORDL_TYPE ____GlobalNamespace__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0 : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0 : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "numberOfElements", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0(int32_t numberOfElements) noexcept;
+constexpr GlobalNamespace__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0(int32_t numberOfElements) noexcept;
 
 
-                    constexpr ____GlobalNamespace__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0(____GlobalNamespace__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0 const&) = default;
-                    constexpr ____GlobalNamespace__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0(____GlobalNamespace__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0&&) = default;
-                    constexpr ____GlobalNamespace__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0& operator=(____GlobalNamespace__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0 const& o) {
+                    constexpr GlobalNamespace__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0(GlobalNamespace__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0 const&) = default;
+                    constexpr GlobalNamespace__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0(GlobalNamespace__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0&&) = default;
+                    constexpr GlobalNamespace__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0& operator=(GlobalNamespace__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0 const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0& operator=(____GlobalNamespace__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0&& o) noexcept {
+                    constexpr GlobalNamespace__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0& operator=(GlobalNamespace__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -57,7 +56,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -87,7 +86,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapEventDataBoxGroupFactory : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using __c__DisplayClass2_0 = ::GlobalNamespace::____GlobalNamespace__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0;
+using __c__DisplayClass2_0 = GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -123,22 +122,21 @@ constexpr explicit BeatmapEventDataBoxGroupFactory(void* ptr) noexcept : ::bs_ho
 // Methods
 
 /// @brief Method CreateExtendColorBeatmapEventDataBoxGroup addr 0x21db6dc size 0x1f8 virtual false final false
-static ::GlobalNamespace::BeatmapEventDataBoxGroup CreateExtendColorBeatmapEventDataBoxGroup(float_t beat, int32_t numberOfElements) ;
+static GlobalNamespace::BeatmapEventDataBoxGroup CreateExtendColorBeatmapEventDataBoxGroup(float_t beat, int32_t numberOfElements) ;
 
 /// @brief Method CreateExtendRotationBeatmapEventDataBoxGroup addr 0x21db9b4 size 0x30c virtual false final false
-static ::GlobalNamespace::BeatmapEventDataBoxGroup CreateExtendRotationBeatmapEventDataBoxGroup(float_t beat, int32_t numberOfElements) ;
+static GlobalNamespace::BeatmapEventDataBoxGroup CreateExtendRotationBeatmapEventDataBoxGroup(float_t beat, int32_t numberOfElements) ;
 
 /// @brief Method CreateSingleLightBeatmapEventDataBoxGroup addr 0x21d995c size 0x828 virtual false final false
-static ::GlobalNamespace::BeatmapEventDataBoxGroup CreateSingleLightBeatmapEventDataBoxGroup(float_t beat, int32_t numberOfElements, ::GlobalNamespace::____GlobalNamespace__DefaultEnvironmentEvents__LightGroupEvent lightGroupEvent) ;
+static GlobalNamespace::BeatmapEventDataBoxGroup CreateSingleLightBeatmapEventDataBoxGroup(float_t beat, int32_t numberOfElements, GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__LightGroupEvent lightGroupEvent) ;
 
 /// @brief Method <CreateSingleLightBeatmapEventDataBoxGroup>g__CreateIndexFilter|2_0 addr 0x21dbcc0 size 0x150 virtual false final false
-static ::GlobalNamespace::IndexFilter _CreateSingleLightBeatmapEventDataBoxGroup_g__CreateIndexFilter_2_0(::GlobalNamespace::____GlobalNamespace__DefaultEnvironmentEvents__LightGroupFiltering filtering, ByRef<::GlobalNamespace::____GlobalNamespace__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0> ) ;
+static GlobalNamespace::IndexFilter _CreateSingleLightBeatmapEventDataBoxGroup_g__CreateIndexFilter_2_0(GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__LightGroupFiltering filtering, ByRef<GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0> ) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BeatmapEventDataBoxGroupFactory);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapEventDataBoxGroupFactory, "", "BeatmapEventDataBoxGroupFactory");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0, "", "BeatmapEventDataBoxGroupFactory/<>c__DisplayClass2_0");
+NEED_NO_BOX(GlobalNamespace::BeatmapEventDataBoxGroupFactory);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEventDataBoxGroupFactory, "", "BeatmapEventDataBoxGroupFactory");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0, "", "BeatmapEventDataBoxGroupFactory/<>c__DisplayClass2_0");

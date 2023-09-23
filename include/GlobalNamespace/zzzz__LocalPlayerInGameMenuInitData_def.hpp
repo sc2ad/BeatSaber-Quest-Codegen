@@ -1,15 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace GlobalNamespace {
-struct BeatmapDifficulty;
-}
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
+struct BeatmapDifficulty;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -57,23 +56,23 @@ constexpr explicit LocalPlayerInGameMenuInitData(void* ptr) noexcept : ::bs_hook
 
 // Fields
 
- ::GlobalNamespace::IPreviewBeatmapLevel __declspec(property(get=__get_previewBeatmapLevel, put=__set_previewBeatmapLevel))  previewBeatmapLevel;
+ GlobalNamespace::IPreviewBeatmapLevel __declspec(property(get=__get_previewBeatmapLevel, put=__set_previewBeatmapLevel))  previewBeatmapLevel;
 
-constexpr void __set_previewBeatmapLevel(::GlobalNamespace::IPreviewBeatmapLevel value) ;
+constexpr void __set_previewBeatmapLevel(GlobalNamespace::IPreviewBeatmapLevel value) ;
 
-constexpr ::GlobalNamespace::IPreviewBeatmapLevel __get_previewBeatmapLevel() const;
+constexpr GlobalNamespace::IPreviewBeatmapLevel __get_previewBeatmapLevel() const;
 
- ::GlobalNamespace::BeatmapDifficulty __declspec(property(get=__get_beatmapDifficulty, put=__set_beatmapDifficulty))  beatmapDifficulty;
+ GlobalNamespace::BeatmapDifficulty __declspec(property(get=__get_beatmapDifficulty, put=__set_beatmapDifficulty))  beatmapDifficulty;
 
-constexpr void __set_beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value) ;
+constexpr void __set_beatmapDifficulty(GlobalNamespace::BeatmapDifficulty value) ;
 
-constexpr ::GlobalNamespace::BeatmapDifficulty __get_beatmapDifficulty() const;
+constexpr GlobalNamespace::BeatmapDifficulty __get_beatmapDifficulty() const;
 
- ::GlobalNamespace::BeatmapCharacteristicSO __declspec(property(get=__get_beatmapCharacteristic, put=__set_beatmapCharacteristic))  beatmapCharacteristic;
+ GlobalNamespace::BeatmapCharacteristicSO __declspec(property(get=__get_beatmapCharacteristic, put=__set_beatmapCharacteristic))  beatmapCharacteristic;
 
-constexpr void __set_beatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO value) ;
+constexpr void __set_beatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO value) ;
 
-constexpr ::GlobalNamespace::BeatmapCharacteristicSO __get_beatmapCharacteristic() const;
+constexpr GlobalNamespace::BeatmapCharacteristicSO __get_beatmapCharacteristic() const;
 
  bool __declspec(property(get=__get_hasSong, put=__set_hasSong))  hasSong;
 
@@ -84,16 +83,15 @@ constexpr bool __get_hasSong() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "previewBeatmapLevel", ty: "::GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "beatmapDifficulty", ty: "::GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristic", ty: "::GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }, CppParam { name: "hasSong", ty: "bool", modifiers: "", def_value: None }]
-explicit LocalPlayerInGameMenuInitData(::GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, bool hasSong) ;
+// Ctor Parameters [CppParam { name: "previewBeatmapLevel", ty: "GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "beatmapDifficulty", ty: "GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristic", ty: "GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }, CppParam { name: "hasSong", ty: "bool", modifiers: "", def_value: None }]
+explicit LocalPlayerInGameMenuInitData(GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, bool hasSong) ;
 
 /// @brief Method .ctor addr 0x20ce44c size 0x48 virtual false final false
- void _ctor(::GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, bool hasSong) ;
+ void _ctor(GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, bool hasSong) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LocalPlayerInGameMenuInitData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LocalPlayerInGameMenuInitData, "", "LocalPlayerInGameMenuInitData");
+NEED_NO_BOX(GlobalNamespace::LocalPlayerInGameMenuInitData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalPlayerInGameMenuInitData, "", "LocalPlayerInGameMenuInitData");

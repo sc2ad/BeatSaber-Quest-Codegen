@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
 class Exception;
 }
@@ -13,10 +12,10 @@ struct TimeSpan;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
-struct ____System__Xml__Schema__XsdDuration__DurationType;
+struct System__Xml__Schema__XsdDuration__DurationType;
 }
 namespace System::Xml::Schema {
-struct ____System__Xml__Schema__XsdDuration__Parts;
+struct System__Xml__Schema__XsdDuration__Parts;
 }
 namespace System::Xml::Schema {
 struct XsdDuration;
@@ -27,20 +26,20 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11706))
 // CS Name: System.Xml.Schema.XsdDuration::Parts
-struct CORDL_TYPE ____System__Xml__Schema__XsdDuration__Parts : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE System__Xml__Schema__XsdDuration__Parts : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____System__Xml__Schema__XsdDuration__Parts(int32_t value__) noexcept;
+constexpr System__Xml__Schema__XsdDuration__Parts(int32_t value__) noexcept;
 
 
-                    constexpr ____System__Xml__Schema__XsdDuration__Parts(____System__Xml__Schema__XsdDuration__Parts const&) = default;
-                    constexpr ____System__Xml__Schema__XsdDuration__Parts(____System__Xml__Schema__XsdDuration__Parts&&) = default;
-                    constexpr ____System__Xml__Schema__XsdDuration__Parts& operator=(____System__Xml__Schema__XsdDuration__Parts const& o) {
+                    constexpr System__Xml__Schema__XsdDuration__Parts(System__Xml__Schema__XsdDuration__Parts const&) = default;
+                    constexpr System__Xml__Schema__XsdDuration__Parts(System__Xml__Schema__XsdDuration__Parts&&) = default;
+                    constexpr System__Xml__Schema__XsdDuration__Parts& operator=(System__Xml__Schema__XsdDuration__Parts const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Xml__Schema__XsdDuration__Parts& operator=(____System__Xml__Schema__XsdDuration__Parts&& o) noexcept {
+                    constexpr System__Xml__Schema__XsdDuration__Parts& operator=(System__Xml__Schema__XsdDuration__Parts&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -53,7 +52,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Xml__Schema__XsdDuration__Parts(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Xml__Schema__XsdDuration__Parts(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -61,7 +60,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______System__Xml__Schema__XsdDuration__Parts_Unwrapped : int32_t {
+enum class __System__Xml__Schema__XsdDuration__Parts_Unwrapped : int32_t {
 __HasNone = 0,
 __HasYears = 1,
 __HasMonths = 2,
@@ -72,8 +71,8 @@ __HasSeconds = 32,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______System__Xml__Schema__XsdDuration__Parts_Unwrapped () const noexcept {
-return std::bit_cast<______System__Xml__Schema__XsdDuration__Parts_Unwrapped>(__instance);
+constexpr operator __System__Xml__Schema__XsdDuration__Parts_Unwrapped () const noexcept {
+return std::bit_cast<__System__Xml__Schema__XsdDuration__Parts_Unwrapped>(__instance);
 }
 
 
@@ -86,25 +85,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field HasNone offset 0
-static ::System::Xml::Schema::____System__Xml__Schema__XsdDuration__Parts const HasNone;
+static System::Xml::Schema::System__Xml__Schema__XsdDuration__Parts const HasNone;
 
 /// @brief Field HasYears offset 0
-static ::System::Xml::Schema::____System__Xml__Schema__XsdDuration__Parts const HasYears;
+static System::Xml::Schema::System__Xml__Schema__XsdDuration__Parts const HasYears;
 
 /// @brief Field HasMonths offset 0
-static ::System::Xml::Schema::____System__Xml__Schema__XsdDuration__Parts const HasMonths;
+static System::Xml::Schema::System__Xml__Schema__XsdDuration__Parts const HasMonths;
 
 /// @brief Field HasDays offset 0
-static ::System::Xml::Schema::____System__Xml__Schema__XsdDuration__Parts const HasDays;
+static System::Xml::Schema::System__Xml__Schema__XsdDuration__Parts const HasDays;
 
 /// @brief Field HasHours offset 0
-static ::System::Xml::Schema::____System__Xml__Schema__XsdDuration__Parts const HasHours;
+static System::Xml::Schema::System__Xml__Schema__XsdDuration__Parts const HasHours;
 
 /// @brief Field HasMinutes offset 0
-static ::System::Xml::Schema::____System__Xml__Schema__XsdDuration__Parts const HasMinutes;
+static System::Xml::Schema::System__Xml__Schema__XsdDuration__Parts const HasMinutes;
 
 /// @brief Field HasSeconds offset 0
-static ::System::Xml::Schema::____System__Xml__Schema__XsdDuration__Parts const HasSeconds;
+static System::Xml::Schema::System__Xml__Schema__XsdDuration__Parts const HasSeconds;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -116,20 +115,20 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11707))
 // CS Name: System.Xml.Schema.XsdDuration::DurationType
-struct CORDL_TYPE ____System__Xml__Schema__XsdDuration__DurationType : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE System__Xml__Schema__XsdDuration__DurationType : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____System__Xml__Schema__XsdDuration__DurationType(int32_t value__) noexcept;
+constexpr System__Xml__Schema__XsdDuration__DurationType(int32_t value__) noexcept;
 
 
-                    constexpr ____System__Xml__Schema__XsdDuration__DurationType(____System__Xml__Schema__XsdDuration__DurationType const&) = default;
-                    constexpr ____System__Xml__Schema__XsdDuration__DurationType(____System__Xml__Schema__XsdDuration__DurationType&&) = default;
-                    constexpr ____System__Xml__Schema__XsdDuration__DurationType& operator=(____System__Xml__Schema__XsdDuration__DurationType const& o) {
+                    constexpr System__Xml__Schema__XsdDuration__DurationType(System__Xml__Schema__XsdDuration__DurationType const&) = default;
+                    constexpr System__Xml__Schema__XsdDuration__DurationType(System__Xml__Schema__XsdDuration__DurationType&&) = default;
+                    constexpr System__Xml__Schema__XsdDuration__DurationType& operator=(System__Xml__Schema__XsdDuration__DurationType const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Xml__Schema__XsdDuration__DurationType& operator=(____System__Xml__Schema__XsdDuration__DurationType&& o) noexcept {
+                    constexpr System__Xml__Schema__XsdDuration__DurationType& operator=(System__Xml__Schema__XsdDuration__DurationType&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -142,7 +141,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Xml__Schema__XsdDuration__DurationType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Xml__Schema__XsdDuration__DurationType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -150,15 +149,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______System__Xml__Schema__XsdDuration__DurationType_Unwrapped : int32_t {
+enum class __System__Xml__Schema__XsdDuration__DurationType_Unwrapped : int32_t {
 __Duration = 0,
 __YearMonthDuration = 1,
 __DayTimeDuration = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______System__Xml__Schema__XsdDuration__DurationType_Unwrapped () const noexcept {
-return std::bit_cast<______System__Xml__Schema__XsdDuration__DurationType_Unwrapped>(__instance);
+constexpr operator __System__Xml__Schema__XsdDuration__DurationType_Unwrapped () const noexcept {
+return std::bit_cast<__System__Xml__Schema__XsdDuration__DurationType_Unwrapped>(__instance);
 }
 
 
@@ -171,13 +170,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Duration offset 0
-static ::System::Xml::Schema::____System__Xml__Schema__XsdDuration__DurationType const Duration;
+static System::Xml::Schema::System__Xml__Schema__XsdDuration__DurationType const Duration;
 
 /// @brief Field YearMonthDuration offset 0
-static ::System::Xml::Schema::____System__Xml__Schema__XsdDuration__DurationType const YearMonthDuration;
+static System::Xml::Schema::System__Xml__Schema__XsdDuration__DurationType const YearMonthDuration;
 
 /// @brief Field DayTimeDuration offset 0
-static ::System::Xml::Schema::____System__Xml__Schema__XsdDuration__DurationType const DayTimeDuration;
+static System::Xml::Schema::System__Xml__Schema__XsdDuration__DurationType const DayTimeDuration;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -192,9 +191,9 @@ namespace System::Xml::Schema {
 struct CORDL_TYPE XsdDuration : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-using DurationType = ::System::Xml::Schema::____System__Xml__Schema__XsdDuration__DurationType;
+using DurationType = System::Xml::Schema::System__Xml__Schema__XsdDuration__DurationType;
 
-using Parts = ::System::Xml::Schema::____System__Xml__Schema__XsdDuration__Parts;
+using Parts = System::Xml::Schema::System__Xml__Schema__XsdDuration__Parts;
 
 // Ctor Parameters [CppParam { name: "years", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "months", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "days", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "hours", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "minutes", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "seconds", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nanoseconds", ty: "uint32_t", modifiers: "", def_value: None }]
 constexpr XsdDuration(int32_t years, int32_t months, int32_t days, int32_t hours, int32_t minutes, int32_t seconds, uint32_t nanoseconds) noexcept;
@@ -298,13 +297,13 @@ constexpr uint32_t __get_nanoseconds() const;
  void _ctor(bool isNegative, int32_t years, int32_t months, int32_t days, int32_t hours, int32_t minutes, int32_t seconds, int32_t nanoseconds) ;
 
 /// @brief Method .ctor addr 0x2755cb8 size 0xd8 virtual false final false
- void _ctor(::System::TimeSpan timeSpan) ;
+ void _ctor(System::TimeSpan timeSpan) ;
 
 /// @brief Method .ctor addr 0x2755d90 size 0x180 virtual false final false
- void _ctor(::System::TimeSpan timeSpan, ::System::Xml::Schema::____System__Xml__Schema__XsdDuration__DurationType durationType) ;
+ void _ctor(System::TimeSpan timeSpan, System::Xml::Schema::System__Xml__Schema__XsdDuration__DurationType durationType) ;
 
 /// @brief Method .ctor addr 0x2755f10 size 0x8c virtual false final false
- void _ctor(::StringW s, ::System::Xml::Schema::____System__Xml__Schema__XsdDuration__DurationType durationType) ;
+ void _ctor(::StringW s, System::Xml::Schema::System__Xml__Schema__XsdDuration__DurationType durationType) ;
 
 /// @brief Method get_IsNegative addr 0x2756694 size 0xc virtual false final false
  bool get_IsNegative() ;
@@ -331,25 +330,25 @@ constexpr uint32_t __get_nanoseconds() const;
  int32_t get_Nanoseconds() ;
 
 /// @brief Method ToTimeSpan addr 0x27566d0 size 0x48 virtual false final false
- ::System::TimeSpan ToTimeSpan(::System::Xml::Schema::____System__Xml__Schema__XsdDuration__DurationType durationType) ;
+ System::TimeSpan ToTimeSpan(System::Xml::Schema::System__Xml__Schema__XsdDuration__DurationType durationType) ;
 
 /// @brief Method TryToTimeSpan addr 0x2756bf8 size 0xc virtual false final false
- ::System::Exception TryToTimeSpan(ByRef<::System::TimeSpan> result) ;
+ System::Exception TryToTimeSpan(ByRef<System::TimeSpan> result) ;
 
 /// @brief Method TryToTimeSpan addr 0x2756718 size 0x4e0 virtual false final false
- ::System::Exception TryToTimeSpan(::System::Xml::Schema::____System__Xml__Schema__XsdDuration__DurationType durationType, ByRef<::System::TimeSpan> result) ;
+ System::Exception TryToTimeSpan(System::Xml::Schema::System__Xml__Schema__XsdDuration__DurationType durationType, ByRef<System::TimeSpan> result) ;
 
 /// @brief Method ToString addr 0x2756c04 size 0x8 virtual true final false
  ::StringW ToString() ;
 
 /// @brief Method ToString addr 0x2756c0c size 0x3fc virtual false final false
- ::StringW ToString(::System::Xml::Schema::____System__Xml__Schema__XsdDuration__DurationType durationType) ;
+ ::StringW ToString(System::Xml::Schema::System__Xml__Schema__XsdDuration__DurationType durationType) ;
 
 /// @brief Method TryParse addr 0x2757008 size 0xc virtual false final false
-static ::System::Exception TryParse(::StringW s, ByRef<::System::Xml::Schema::XsdDuration> result) ;
+static System::Exception TryParse(::StringW s, ByRef<System::Xml::Schema::XsdDuration> result) ;
 
 /// @brief Method TryParse addr 0x2755f9c size 0x6ec virtual false final false
-static ::System::Exception TryParse(::StringW s, ::System::Xml::Schema::____System__Xml__Schema__XsdDuration__DurationType durationType, ByRef<::System::Xml::Schema::XsdDuration> result) ;
+static System::Exception TryParse(::StringW s, System::Xml::Schema::System__Xml__Schema__XsdDuration__DurationType durationType, ByRef<System::Xml::Schema::XsdDuration> result) ;
 
 /// @brief Method TryParseDigits addr 0x2757014 size 0x1bc virtual false final false
 static ::StringW TryParseDigits(::StringW s, ByRef<int32_t> offset, bool eatDigits, ByRef<int32_t> result, ByRef<int32_t> numDigits) ;
@@ -358,7 +357,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::____System__Xml__Schema__XsdDuration__DurationType, "System.Xml.Schema", "XsdDuration/DurationType");
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::____System__Xml__Schema__XsdDuration__Parts, "System.Xml.Schema", "XsdDuration/Parts");
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XsdDuration, "System.Xml.Schema", "XsdDuration");
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::System__Xml__Schema__XsdDuration__DurationType, "System.Xml.Schema", "XsdDuration/DurationType");
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::System__Xml__Schema__XsdDuration__Parts, "System.Xml.Schema", "XsdDuration/Parts");
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::XsdDuration, "System.Xml.Schema", "XsdDuration");

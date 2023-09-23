@@ -2,12 +2,11 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -22,8 +21,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
 class CORDL_TYPE ElGamalParameters : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::ICipherParameters
-constexpr operator  ::Org::BouncyCastle::Crypto::ICipherParameters() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::ICipherParameters
+constexpr operator  Org::BouncyCastle::Crypto::ICipherParameters() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -58,17 +57,17 @@ constexpr explicit ElGamalParameters(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 
 // Fields
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_p, put=__set_p))  p;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_p, put=__set_p))  p;
 
-constexpr void __set_p(::Org::BouncyCastle::Math::BigInteger value) ;
+constexpr void __set_p(Org::BouncyCastle::Math::BigInteger value) ;
 
-constexpr ::Org::BouncyCastle::Math::BigInteger __get_p() const;
+constexpr Org::BouncyCastle::Math::BigInteger __get_p() const;
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_g, put=__set_g))  g;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_g, put=__set_g))  g;
 
-constexpr void __set_g(::Org::BouncyCastle::Math::BigInteger value) ;
+constexpr void __set_g(Org::BouncyCastle::Math::BigInteger value) ;
 
-constexpr ::Org::BouncyCastle::Math::BigInteger __get_g() const;
+constexpr Org::BouncyCastle::Math::BigInteger __get_g() const;
 
  int32_t __declspec(property(get=__get_l, put=__set_l))  l;
 
@@ -79,32 +78,32 @@ constexpr int32_t __get_l() const;
 
 // Properties
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_P))  P;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_P))  P;
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_G))  G;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_G))  G;
 
  int32_t __declspec(property(get=get_L))  L;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "p", ty: "::Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "g", ty: "::Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit ElGamalParameters(::Org::BouncyCastle::Math::BigInteger p, ::Org::BouncyCastle::Math::BigInteger g) ;
+// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
+explicit ElGamalParameters(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g) ;
 
 /// @brief Method .ctor addr 0xea8684 size 0x8 virtual false final false
- void _ctor(::Org::BouncyCastle::Math::BigInteger p, ::Org::BouncyCastle::Math::BigInteger g) ;
+ void _ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g) ;
 
-// Ctor Parameters [CppParam { name: "p", ty: "::Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "g", ty: "::Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "l", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ElGamalParameters(::Org::BouncyCastle::Math::BigInteger p, ::Org::BouncyCastle::Math::BigInteger g, int32_t l) ;
+// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "l", ty: "int32_t", modifiers: "", def_value: None }]
+explicit ElGamalParameters(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g, int32_t l) ;
 
 /// @brief Method .ctor addr 0xea868c size 0xb4 virtual false final false
- void _ctor(::Org::BouncyCastle::Math::BigInteger p, ::Org::BouncyCastle::Math::BigInteger g, int32_t l) ;
+ void _ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g, int32_t l) ;
 
 /// @brief Method get_P addr 0xea8740 size 0x8 virtual false final false
- ::Org::BouncyCastle::Math::BigInteger get_P() ;
+ Org::BouncyCastle::Math::BigInteger get_P() ;
 
 /// @brief Method get_G addr 0xea8748 size 0x8 virtual false final false
- ::Org::BouncyCastle::Math::BigInteger get_G() ;
+ Org::BouncyCastle::Math::BigInteger get_G() ;
 
 /// @brief Method get_L addr 0xea8750 size 0x8 virtual false final false
  int32_t get_L() ;
@@ -113,7 +112,7 @@ explicit ElGamalParameters(::Org::BouncyCastle::Math::BigInteger p, ::Org::Bounc
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0xea87f4 size 0x74 virtual false final false
- bool Equals(::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters other) ;
+ bool Equals(Org::BouncyCastle::Crypto::Parameters::ElGamalParameters other) ;
 
 /// @brief Method GetHashCode addr 0xea8868 size 0x58 virtual true final false
  int32_t GetHashCode() ;
@@ -122,6 +121,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Parameters
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters, "Org.BouncyCastle.Crypto.Parameters", "ElGamalParameters");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::ElGamalParameters);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::ElGamalParameters, "Org.BouncyCastle.Crypto.Parameters", "ElGamalParameters");

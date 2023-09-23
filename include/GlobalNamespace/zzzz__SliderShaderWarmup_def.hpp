@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class SliderMeshController;
 }
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4942))
 // CS Name: SliderShaderWarmup
-class CORDL_TYPE SliderShaderWarmup : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SliderShaderWarmup : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr SliderShaderWarmup(SliderShaderWarmup const& ) noexcept = default;
 constexpr SliderShaderWarmup(SliderShaderWarmup&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SliderShaderWarmup(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SliderShaderWarmup(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -54,17 +53,17 @@ constexpr explicit SliderShaderWarmup(void* ptr) noexcept : ::UnityEngine::MonoB
 
 // Fields
 
- ::GlobalNamespace::SliderMeshController __declspec(property(get=__get__sliderMeshController, put=__set__sliderMeshController))  _sliderMeshController;
+ GlobalNamespace::SliderMeshController __declspec(property(get=__get__sliderMeshController, put=__set__sliderMeshController))  _sliderMeshController;
 
-constexpr void __set__sliderMeshController(::GlobalNamespace::SliderMeshController value) ;
+constexpr void __set__sliderMeshController(GlobalNamespace::SliderMeshController value) ;
 
-constexpr ::GlobalNamespace::SliderMeshController __get__sliderMeshController() const;
+constexpr GlobalNamespace::SliderMeshController __get__sliderMeshController() const;
 
- ::GlobalNamespace::MaterialPropertyBlockController __declspec(property(get=__get__materialPropertyBlockController, put=__set__materialPropertyBlockController))  _materialPropertyBlockController;
+ GlobalNamespace::MaterialPropertyBlockController __declspec(property(get=__get__materialPropertyBlockController, put=__set__materialPropertyBlockController))  _materialPropertyBlockController;
 
-constexpr void __set__materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController value) ;
+constexpr void __set__materialPropertyBlockController(GlobalNamespace::MaterialPropertyBlockController value) ;
 
-constexpr ::GlobalNamespace::MaterialPropertyBlockController __get__materialPropertyBlockController() const;
+constexpr GlobalNamespace::MaterialPropertyBlockController __get__materialPropertyBlockController() const;
 
 
 // Methods
@@ -82,6 +81,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SliderShaderWarmup);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SliderShaderWarmup, "", "SliderShaderWarmup");
+NEED_NO_BOX(GlobalNamespace::SliderShaderWarmup);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SliderShaderWarmup, "", "SliderShaderWarmup");

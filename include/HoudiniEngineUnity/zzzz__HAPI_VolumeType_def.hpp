@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HAPI_VolumeType;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field HAPI_VOLUMETYPE_INVALID offset 0
-static ::HoudiniEngineUnity::HAPI_VolumeType const HAPI_VOLUMETYPE_INVALID;
+static HoudiniEngineUnity::HAPI_VolumeType const HAPI_VOLUMETYPE_INVALID;
 
 /// @brief Field HAPI_VOLUMETYPE_HOUDINI offset 0
-static ::HoudiniEngineUnity::HAPI_VolumeType const HAPI_VOLUMETYPE_HOUDINI;
+static HoudiniEngineUnity::HAPI_VolumeType const HAPI_VOLUMETYPE_HOUDINI;
 
 /// @brief Field HAPI_VOLUMETYPE_VDB offset 0
-static ::HoudiniEngineUnity::HAPI_VolumeType const HAPI_VOLUMETYPE_VDB;
+static HoudiniEngineUnity::HAPI_VolumeType const HAPI_VOLUMETYPE_VDB;
 
 /// @brief Field HAPI_VOLUMETYPE_MAX offset 0
-static ::HoudiniEngineUnity::HAPI_VolumeType const HAPI_VOLUMETYPE_MAX;
+static HoudiniEngineUnity::HAPI_VolumeType const HAPI_VOLUMETYPE_MAX;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_VolumeType, "HoudiniEngineUnity", "HAPI_VolumeType");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_VolumeType, "HoudiniEngineUnity", "HAPI_VolumeType");

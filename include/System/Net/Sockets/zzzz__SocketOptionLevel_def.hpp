@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net::Sockets {
 struct SocketOptionLevel;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Socket offset 0
-static ::System::Net::Sockets::SocketOptionLevel const Socket;
+static System::Net::Sockets::SocketOptionLevel const Socket;
 
 /// @brief Field IP offset 0
-static ::System::Net::Sockets::SocketOptionLevel const IP;
+static System::Net::Sockets::SocketOptionLevel const IP;
 
 /// @brief Field IPv6 offset 0
-static ::System::Net::Sockets::SocketOptionLevel const IPv6;
+static System::Net::Sockets::SocketOptionLevel const IPv6;
 
 /// @brief Field Tcp offset 0
-static ::System::Net::Sockets::SocketOptionLevel const Tcp;
+static System::Net::Sockets::SocketOptionLevel const Tcp;
 
 /// @brief Field Udp offset 0
-static ::System::Net::Sockets::SocketOptionLevel const Udp;
+static System::Net::Sockets::SocketOptionLevel const Udp;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net::Sockets
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Sockets::SocketOptionLevel, "System.Net.Sockets", "SocketOptionLevel");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketOptionLevel, "System.Net.Sockets", "SocketOptionLevel");

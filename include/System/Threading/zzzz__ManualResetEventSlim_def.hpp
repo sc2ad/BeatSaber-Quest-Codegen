@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Threading {
 struct CancellationToken;
 }
@@ -11,10 +10,10 @@ template<typename T>
 class Action_1;
 }
 namespace System::Threading {
-class ManualResetEvent;
+class WaitHandle;
 }
 namespace System::Threading {
-class WaitHandle;
+class ManualResetEvent;
 }
 namespace System {
 class IDisposable;
@@ -32,8 +31,8 @@ namespace System::Threading {
 class CORDL_TYPE ManualResetEventSlim : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -77,11 +76,11 @@ constexpr void __set_m_lock(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get_m_lock() const;
 
- ::System::Threading::ManualResetEvent __declspec(property(get=__get_m_eventObj, put=__set_m_eventObj))  m_eventObj;
+ System::Threading::ManualResetEvent __declspec(property(get=__get_m_eventObj, put=__set_m_eventObj))  m_eventObj;
 
-constexpr void __set_m_eventObj(::System::Threading::ManualResetEvent value) ;
+constexpr void __set_m_eventObj(System::Threading::ManualResetEvent value) ;
 
-constexpr ::System::Threading::ManualResetEvent __get_m_eventObj() const;
+constexpr System::Threading::ManualResetEvent __get_m_eventObj() const;
 
  int32_t __declspec(property(get=__get_m_combinedState, put=__set_m_combinedState))  m_combinedState;
 
@@ -116,16 +115,16 @@ static constexpr int32_t  NumWaitersState_ShiftCount{0};
 /// @brief Field NumWaitersState_MaxValue offset 0
 static constexpr int32_t  NumWaitersState_MaxValue{524287};
 
-static ::System::Action_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get_s_cancellationTokenCallback, put=__set_s_cancellationTokenCallback))  s_cancellationTokenCallback;
+static System::Action_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get_s_cancellationTokenCallback, put=__set_s_cancellationTokenCallback))  s_cancellationTokenCallback;
 
-static void __set_s_cancellationTokenCallback(::System::Action_1<::bs_hook::Il2CppWrapperType> value) ;
+static void __set_s_cancellationTokenCallback(System::Action_1<::bs_hook::Il2CppWrapperType> value) ;
 
-static ::System::Action_1<::bs_hook::Il2CppWrapperType> __get_s_cancellationTokenCallback() ;
+static System::Action_1<::bs_hook::Il2CppWrapperType> __get_s_cancellationTokenCallback() ;
 
 
 // Properties
 
- ::System::Threading::WaitHandle __declspec(property(get=get_WaitHandle))  WaitHandle;
+ System::Threading::WaitHandle __declspec(property(get=get_WaitHandle))  WaitHandle;
 
  bool __declspec(property(get=get_IsSet, put=set_IsSet))  IsSet;
 
@@ -137,7 +136,7 @@ static ::System::Action_1<::bs_hook::Il2CppWrapperType> __get_s_cancellationToke
 // Methods
 
 /// @brief Method get_WaitHandle addr 0x24a3920 size 0x3c virtual false final false
- ::System::Threading::WaitHandle get_WaitHandle() ;
+ System::Threading::WaitHandle get_WaitHandle() ;
 
 /// @brief Method get_IsSet addr 0x24a3b28 size 0x5c virtual false final false
  bool get_IsSet() ;
@@ -185,7 +184,7 @@ explicit ManualResetEventSlim(bool initialState, int32_t spinCount) ;
  void Set(bool duringCancellation) ;
 
 /// @brief Method Wait addr 0x24a4340 size 0x450 virtual false final false
- bool Wait(int32_t millisecondsTimeout, ::System::Threading::CancellationToken cancellationToken) ;
+ bool Wait(int32_t millisecondsTimeout, System::Threading::CancellationToken cancellationToken) ;
 
 /// @brief Method Dispose addr 0x24a4888 size 0x6c virtual true final true
  void Dispose() ;
@@ -212,6 +211,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Threading
-} // end anonymous namespace
-NEED_NO_BOX(::System::Threading::ManualResetEventSlim);
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::ManualResetEventSlim, "System.Threading", "ManualResetEventSlim");
+NEED_NO_BOX(System::Threading::ManualResetEventSlim);
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::ManualResetEventSlim, "System.Threading", "ManualResetEventSlim");

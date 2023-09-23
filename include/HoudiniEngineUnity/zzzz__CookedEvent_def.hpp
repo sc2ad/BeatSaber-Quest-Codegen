@@ -4,7 +4,6 @@
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_3_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 class CookedEvent;
@@ -12,10 +11,10 @@ class CookedEvent;
 // Type: HoudiniEngineUnity::CookedEvent
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3828)), TypeDefinitionIndex(TypeDefinitionIndex(10138)), TypeDefinitionIndex(TypeDefinitionIndex(9580)), TypeDefinitionIndex(TypeDefinitionIndex(10403)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3828), inst: 298 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10403), inst: 5059 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10403), inst: 5059 }), TypeDefinitionIndex(TypeDefinitionIndex(10403)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3828), inst: 298 }), TypeDefinitionIndex(TypeDefinitionIndex(3828)), TypeDefinitionIndex(TypeDefinitionIndex(9580)), TypeDefinitionIndex(TypeDefinitionIndex(10138))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9543))
 // CS Name: HoudiniEngineUnity.CookedEvent
-class CORDL_TYPE CookedEvent : public ::UnityEngine::Events::UnityEvent_3<::HoudiniEngineUnity::HEU_HoudiniAsset,bool,::System::Collections::Generic::List_1<::UnityEngine::GameObject>> {
+class CORDL_TYPE CookedEvent : public UnityEngine::Events::UnityEvent_3<HoudiniEngineUnity::HEU_HoudiniAsset,bool,System::Collections::Generic::List_1<UnityEngine::GameObject>> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr CookedEvent(CookedEvent const& ) noexcept = default;
 constexpr CookedEvent(CookedEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CookedEvent(void* ptr) noexcept : ::UnityEngine::Events::UnityEvent_3<::HoudiniEngineUnity::HEU_HoudiniAsset,bool,::System::Collections::Generic::List_1<::UnityEngine::GameObject>>(ptr) {
+constexpr explicit CookedEvent(void* ptr) noexcept : UnityEngine::Events::UnityEvent_3<HoudiniEngineUnity::HEU_HoudiniAsset,bool,System::Collections::Generic::List_1<UnityEngine::GameObject>>(ptr) {
 }
 
 
@@ -61,6 +60,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::CookedEvent);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::CookedEvent, "HoudiniEngineUnity", "CookedEvent");
+NEED_NO_BOX(HoudiniEngineUnity::CookedEvent);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::CookedEvent, "HoudiniEngineUnity", "CookedEvent");

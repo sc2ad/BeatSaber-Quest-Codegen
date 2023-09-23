@@ -2,10 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
-namespace GlobalNamespace {
-class NoteJump;
-}
 namespace GlobalNamespace {
 class NoteControllerBase;
 }
@@ -14,6 +10,9 @@ class INoteControllerDidInitEvent;
 }
 namespace UnityEngine {
 class Transform;
+}
+namespace GlobalNamespace {
+class NoteJump;
 }
 namespace GlobalNamespace {
 class NoteController;
@@ -28,11 +27,11 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4895))
 // CS Name: NoteJumpStartScaleUp
-class CORDL_TYPE NoteJumpStartScaleUp : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE NoteJumpStartScaleUp : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::INoteControllerDidInitEvent
-constexpr operator  ::GlobalNamespace::INoteControllerDidInitEvent() const noexcept;
+/// @brief Convert operator to GlobalNamespace::INoteControllerDidInitEvent
+constexpr operator  GlobalNamespace::INoteControllerDidInitEvent() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -46,7 +45,7 @@ constexpr NoteJumpStartScaleUp(NoteJumpStartScaleUp const& ) noexcept = default;
 constexpr NoteJumpStartScaleUp(NoteJumpStartScaleUp&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NoteJumpStartScaleUp(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit NoteJumpStartScaleUp(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -73,23 +72,23 @@ constexpr void __set__fullScaleJumpPart(float_t value) ;
 
 constexpr float_t __get__fullScaleJumpPart() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__targetTransform, put=__set__targetTransform))  _targetTransform;
+ UnityEngine::Transform __declspec(property(get=__get__targetTransform, put=__set__targetTransform))  _targetTransform;
 
-constexpr void __set__targetTransform(::UnityEngine::Transform value) ;
+constexpr void __set__targetTransform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__targetTransform() const;
+constexpr UnityEngine::Transform __get__targetTransform() const;
 
- ::GlobalNamespace::NoteController __declspec(property(get=__get__noteController, put=__set__noteController))  _noteController;
+ GlobalNamespace::NoteController __declspec(property(get=__get__noteController, put=__set__noteController))  _noteController;
 
-constexpr void __set__noteController(::GlobalNamespace::NoteController value) ;
+constexpr void __set__noteController(GlobalNamespace::NoteController value) ;
 
-constexpr ::GlobalNamespace::NoteController __get__noteController() const;
+constexpr GlobalNamespace::NoteController __get__noteController() const;
 
- ::GlobalNamespace::NoteJump __declspec(property(get=__get__noteJump, put=__set__noteJump))  _noteJump;
+ GlobalNamespace::NoteJump __declspec(property(get=__get__noteJump, put=__set__noteJump))  _noteJump;
 
-constexpr void __set__noteJump(::GlobalNamespace::NoteJump value) ;
+constexpr void __set__noteJump(GlobalNamespace::NoteJump value) ;
 
-constexpr ::GlobalNamespace::NoteJump __get__noteJump() const;
+constexpr GlobalNamespace::NoteJump __get__noteJump() const;
 
 
 // Methods
@@ -107,7 +106,7 @@ constexpr ::GlobalNamespace::NoteJump __get__noteJump() const;
  void HandleNoteJumpDidUpdateProgress(float_t progress) ;
 
 /// @brief Method HandleNoteControllerDidInit addr 0x224255c size 0xd0 virtual true final true
- void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase noteController) ;
+ void HandleNoteControllerDidInit(GlobalNamespace::NoteControllerBase noteController) ;
 
 // Ctor Parameters []
 explicit NoteJumpStartScaleUp() ;
@@ -119,6 +118,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::NoteJumpStartScaleUp);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoteJumpStartScaleUp, "", "NoteJumpStartScaleUp");
+NEED_NO_BOX(GlobalNamespace::NoteJumpStartScaleUp);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteJumpStartScaleUp, "", "NoteJumpStartScaleUp");

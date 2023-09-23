@@ -4,17 +4,16 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 class IEquatable_1;
 }
 namespace System {
-class IComparable;
-}
-namespace System {
 template<typename T>
 class IComparable_1;
+}
+namespace System {
+class IComparable;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -29,14 +28,14 @@ namespace UnityEngine::ProBuilder {
 class CORDL_TYPE SemVer : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::ProBuilder::SemVer>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::ProBuilder::SemVer>() const noexcept;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::ProBuilder::SemVer>
+constexpr operator  System::IEquatable_1<UnityEngine::ProBuilder::SemVer>() const noexcept;
 
-/// @brief Convert operator to ::System::IComparable_1<::UnityEngine::ProBuilder::SemVer>
-constexpr operator  ::System::IComparable_1<::UnityEngine::ProBuilder::SemVer>() const noexcept;
+/// @brief Convert operator to System::IComparable_1<UnityEngine::ProBuilder::SemVer>
+constexpr operator  System::IComparable_1<UnityEngine::ProBuilder::SemVer>() const noexcept;
 
-/// @brief Convert operator to ::System::IComparable
-constexpr operator  ::System::IComparable() const noexcept;
+/// @brief Convert operator to System::IComparable
+constexpr operator  System::IComparable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -133,7 +132,7 @@ static constexpr ::ConstString  DefaultStringFormat{u"M.m.p-t.b"};
 
  ::StringW __declspec(property(get=get_date))  date;
 
- ::UnityEngine::ProBuilder::SemVer __declspec(property(get=get_MajorMinorPatch))  MajorMinorPatch;
+ UnityEngine::ProBuilder::SemVer __declspec(property(get=get_MajorMinorPatch))  MajorMinorPatch;
 
 
 // Methods
@@ -160,7 +159,7 @@ static constexpr ::ConstString  DefaultStringFormat{u"M.m.p-t.b"};
  ::StringW get_date() ;
 
 /// @brief Method get_MajorMinorPatch addr 0x29d7bf4 size 0x8c virtual false final false
- ::UnityEngine::ProBuilder::SemVer get_MajorMinorPatch() ;
+ UnityEngine::ProBuilder::SemVer get_MajorMinorPatch() ;
 
 // Ctor Parameters []
 explicit SemVer() ;
@@ -190,7 +189,7 @@ explicit SemVer(int32_t major, int32_t minor, int32_t patch, int32_t build, ::St
  int32_t GetHashCode() ;
 
 /// @brief Method Equals addr 0x29d824c size 0x204 virtual true final true
- bool Equals(::UnityEngine::ProBuilder::SemVer version) ;
+ bool Equals(UnityEngine::ProBuilder::SemVer version) ;
 
 /// @brief Method CompareTo addr 0x29d861c size 0x64 virtual true final true
  int32_t CompareTo(::bs_hook::Il2CppWrapperType obj) ;
@@ -199,25 +198,25 @@ explicit SemVer(int32_t major, int32_t minor, int32_t patch, int32_t build, ::St
 static int32_t WrapNoValue(int32_t value) ;
 
 /// @brief Method CompareTo addr 0x29d8680 size 0x1ac virtual true final true
- int32_t CompareTo(::UnityEngine::ProBuilder::SemVer version) ;
+ int32_t CompareTo(UnityEngine::ProBuilder::SemVer version) ;
 
 /// @brief Method op_Equality addr 0x29d883c size 0x14 virtual false final false
-static bool op_Equality(::UnityEngine::ProBuilder::SemVer left, ::UnityEngine::ProBuilder::SemVer right) ;
+static bool op_Equality(UnityEngine::ProBuilder::SemVer left, UnityEngine::ProBuilder::SemVer right) ;
 
 /// @brief Method op_Inequality addr 0x29d8850 size 0x28 virtual false final false
-static bool op_Inequality(::UnityEngine::ProBuilder::SemVer left, ::UnityEngine::ProBuilder::SemVer right) ;
+static bool op_Inequality(UnityEngine::ProBuilder::SemVer left, UnityEngine::ProBuilder::SemVer right) ;
 
 /// @brief Method op_LessThan addr 0x29d8878 size 0x24 virtual false final false
-static bool op_LessThan(::UnityEngine::ProBuilder::SemVer left, ::UnityEngine::ProBuilder::SemVer right) ;
+static bool op_LessThan(UnityEngine::ProBuilder::SemVer left, UnityEngine::ProBuilder::SemVer right) ;
 
 /// @brief Method op_GreaterThan addr 0x29d889c size 0x1c virtual false final false
-static bool op_GreaterThan(::UnityEngine::ProBuilder::SemVer left, ::UnityEngine::ProBuilder::SemVer right) ;
+static bool op_GreaterThan(UnityEngine::ProBuilder::SemVer left, UnityEngine::ProBuilder::SemVer right) ;
 
 /// @brief Method op_LessThanOrEqual addr 0x29d88b8 size 0x40 virtual false final false
-static bool op_LessThanOrEqual(::UnityEngine::ProBuilder::SemVer left, ::UnityEngine::ProBuilder::SemVer right) ;
+static bool op_LessThanOrEqual(UnityEngine::ProBuilder::SemVer left, UnityEngine::ProBuilder::SemVer right) ;
 
 /// @brief Method op_GreaterThanOrEqual addr 0x29d88f8 size 0x54 virtual false final false
-static bool op_GreaterThanOrEqual(::UnityEngine::ProBuilder::SemVer left, ::UnityEngine::ProBuilder::SemVer right) ;
+static bool op_GreaterThanOrEqual(UnityEngine::ProBuilder::SemVer left, UnityEngine::ProBuilder::SemVer right) ;
 
 /// @brief Method ToString addr 0x29d894c size 0x210 virtual false final false
  ::StringW ToString(::StringW format) ;
@@ -226,7 +225,7 @@ static bool op_GreaterThanOrEqual(::UnityEngine::ProBuilder::SemVer left, ::Unit
  ::StringW ToString() ;
 
 /// @brief Method TryGetVersionInfo addr 0x29d7dc8 size 0x3e4 virtual false final false
-static bool TryGetVersionInfo(::StringW input, ByRef<::UnityEngine::ProBuilder::SemVer> version) ;
+static bool TryGetVersionInfo(::StringW input, ByRef<UnityEngine::ProBuilder::SemVer> version) ;
 
 /// @brief Method GetBuildNumber addr 0x29d8d8c size 0xc8 virtual false final false
 static int32_t GetBuildNumber(::StringW input) ;
@@ -235,6 +234,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::SemVer);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::SemVer, "UnityEngine.ProBuilder", "SemVer");
+NEED_NO_BOX(UnityEngine::ProBuilder::SemVer);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SemVer, "UnityEngine.ProBuilder", "SemVer");

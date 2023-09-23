@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 namespace System {
 class Type;
 }
@@ -15,7 +14,7 @@ namespace UnityEngine::Timeline {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14074))
 // CS Name: UnityEngine.Timeline.TimelineHelpURLAttribute
-class CORDL_TYPE TimelineHelpURLAttribute : public ::System::Attribute {
+class CORDL_TYPE TimelineHelpURLAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr TimelineHelpURLAttribute(TimelineHelpURLAttribute const& ) noexcept = 
 constexpr TimelineHelpURLAttribute(TimelineHelpURLAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TimelineHelpURLAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit TimelineHelpURLAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -51,16 +50,15 @@ constexpr explicit TimelineHelpURLAttribute(void* ptr) noexcept : ::System::Attr
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "::System::Type", modifiers: "", def_value: None }]
-explicit TimelineHelpURLAttribute(::System::Type type) ;
+// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
+explicit TimelineHelpURLAttribute(System::Type type) ;
 
 /// @brief Method .ctor addr 0x2ac90ec size 0x8 virtual false final false
- void _ctor(::System::Type type) ;
+ void _ctor(System::Type type) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Timeline::TimelineHelpURLAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::TimelineHelpURLAttribute, "UnityEngine.Timeline", "TimelineHelpURLAttribute");
+NEED_NO_BOX(UnityEngine::Timeline::TimelineHelpURLAttribute);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineHelpURLAttribute, "UnityEngine.Timeline", "TimelineHelpURLAttribute");

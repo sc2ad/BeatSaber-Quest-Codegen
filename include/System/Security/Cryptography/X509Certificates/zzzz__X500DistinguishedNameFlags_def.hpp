@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
 struct X500DistinguishedNameFlags;
@@ -75,38 +74,37 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags const None;
+static System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags const None;
 
 /// @brief Field Reversed offset 0
-static ::System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags const Reversed;
+static System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags const Reversed;
 
 /// @brief Field UseSemicolons offset 0
-static ::System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags const UseSemicolons;
+static System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags const UseSemicolons;
 
 /// @brief Field DoNotUsePlusSign offset 0
-static ::System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags const DoNotUsePlusSign;
+static System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags const DoNotUsePlusSign;
 
 /// @brief Field DoNotUseQuotes offset 0
-static ::System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags const DoNotUseQuotes;
+static System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags const DoNotUseQuotes;
 
 /// @brief Field UseCommas offset 0
-static ::System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags const UseCommas;
+static System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags const UseCommas;
 
 /// @brief Field UseNewLines offset 0
-static ::System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags const UseNewLines;
+static System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags const UseNewLines;
 
 /// @brief Field UseUTF8Encoding offset 0
-static ::System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags const UseUTF8Encoding;
+static System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags const UseUTF8Encoding;
 
 /// @brief Field UseT61Encoding offset 0
-static ::System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags const UseT61Encoding;
+static System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags const UseT61Encoding;
 
 /// @brief Field ForceUTF8Encoding offset 0
-static ::System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags const ForceUTF8Encoding;
+static System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags const ForceUTF8Encoding;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography::X509Certificates
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags, "System.Security.Cryptography.X509Certificates", "X500DistinguishedNameFlags");
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags, "System.Security.Cryptography.X509Certificates", "X500DistinguishedNameFlags");

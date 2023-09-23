@@ -6,7 +6,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 class IComparable_1;
@@ -27,11 +26,11 @@ namespace System::Security::Principal {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2996))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2998))
 // CS Name: System.Security.Principal.SecurityIdentifier
-class CORDL_TYPE SecurityIdentifier : public ::System::Security::Principal::IdentityReference {
+class CORDL_TYPE SecurityIdentifier : public System::Security::Principal::IdentityReference {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IComparable_1<::System::Security::Principal::SecurityIdentifier>
-constexpr operator  ::System::IComparable_1<::System::Security::Principal::SecurityIdentifier>() const noexcept;
+/// @brief Convert operator to System::IComparable_1<System::Security::Principal::SecurityIdentifier>
+constexpr operator  System::IComparable_1<System::Security::Principal::SecurityIdentifier>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -45,7 +44,7 @@ constexpr SecurityIdentifier(SecurityIdentifier const& ) noexcept = default;
 constexpr SecurityIdentifier(SecurityIdentifier&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SecurityIdentifier(void* ptr) noexcept : ::System::Security::Principal::IdentityReference(ptr) {
+constexpr explicit SecurityIdentifier(void* ptr) noexcept : System::Security::Principal::IdentityReference(ptr) {
 }
 
 
@@ -125,13 +124,13 @@ explicit SecurityIdentifier(::ArrayW<uint8_t> binaryForm, int32_t offset) ;
  uint32_t GetSidSubAuthority(uint8_t index) ;
 
 /// @brief Method CompareTo addr 0x230cbd8 size 0x170 virtual true final true
- int32_t CompareTo(::System::Security::Principal::SecurityIdentifier sid) ;
+ int32_t CompareTo(System::Security::Principal::SecurityIdentifier sid) ;
 
 /// @brief Method Equals addr 0x230cdb0 size 0x64 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType o) ;
 
 /// @brief Method Equals addr 0x230ce14 size 0xa8 virtual false final false
- bool Equals(::System::Security::Principal::SecurityIdentifier sid) ;
+ bool Equals(System::Security::Principal::SecurityIdentifier sid) ;
 
 /// @brief Method GetBinaryForm addr 0x230cebc size 0xc8 virtual false final false
  void GetBinaryForm(::ArrayW<uint8_t> binaryForm, int32_t offset) ;
@@ -143,10 +142,10 @@ explicit SecurityIdentifier(::ArrayW<uint8_t> binaryForm, int32_t offset) ;
  ::StringW ToString() ;
 
 /// @brief Method Translate addr 0x230cfb8 size 0x22c virtual true final false
- ::System::Security::Principal::IdentityReference Translate(::System::Type targetType) ;
+ System::Security::Principal::IdentityReference Translate(System::Type targetType) ;
 
 /// @brief Method op_Equality addr 0x230cd48 size 0x68 virtual false final false
-static bool op_Equality(::System::Security::Principal::SecurityIdentifier left, ::System::Security::Principal::SecurityIdentifier right) ;
+static bool op_Equality(System::Security::Principal::SecurityIdentifier left, System::Security::Principal::SecurityIdentifier right) ;
 
 /// @brief Method ParseSddlForm addr 0x230c224 size 0x460 virtual false final false
 static ::ArrayW<uint8_t> ParseSddlForm(::StringW sddlForm) ;
@@ -161,6 +160,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Principal
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Principal::SecurityIdentifier);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Principal::SecurityIdentifier, "System.Security.Principal", "SecurityIdentifier");
+NEED_NO_BOX(System::Security::Principal::SecurityIdentifier);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::SecurityIdentifier, "System.Security.Principal", "SecurityIdentifier");

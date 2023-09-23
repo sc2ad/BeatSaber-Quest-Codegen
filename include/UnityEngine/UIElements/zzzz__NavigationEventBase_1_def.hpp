@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_1_def.hpp"
-namespace {
 namespace UnityEngine::UIElements {
 class INavigationEvent;
 }
@@ -20,14 +19,14 @@ namespace UnityEngine::UIElements {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7347)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7279), inst: 1632 }), TypeDefinitionIndex(TypeDefinitionIndex(7279))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7279)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7279), inst: 1632 }), TypeDefinitionIndex(TypeDefinitionIndex(7347))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7347), inst: 2 })
 // CS Name: UnityEngine.UIElements.NavigationEventBase`1
-class CORDL_TYPE NavigationEventBase_1<T> : public ::UnityEngine::UIElements::EventBase_1<T> {
+class CORDL_TYPE NavigationEventBase_1<T> : public UnityEngine::UIElements::EventBase_1<T> {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::UIElements::INavigationEvent
-constexpr operator  ::UnityEngine::UIElements::INavigationEvent() const noexcept;
+/// @brief Convert operator to UnityEngine::UIElements::INavigationEvent
+constexpr operator  UnityEngine::UIElements::INavigationEvent() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x80};
@@ -41,7 +40,7 @@ constexpr NavigationEventBase_1(NavigationEventBase_1 const& ) noexcept = defaul
 constexpr NavigationEventBase_1(NavigationEventBase_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NavigationEventBase_1(void* ptr) noexcept : ::UnityEngine::UIElements::EventBase_1<T>(ptr) {
+constexpr explicit NavigationEventBase_1(void* ptr) noexcept : UnityEngine::UIElements::EventBase_1<T>(ptr) {
 }
 
 
@@ -78,5 +77,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::NavigationEventBase_1, "UnityEngine.UIElements", "NavigationEventBase`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::UIElements::NavigationEventBase_1, "UnityEngine.UIElements", "NavigationEventBase`1");

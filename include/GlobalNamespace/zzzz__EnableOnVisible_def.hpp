@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace System {
 template<typename T>
 class Action_1;
@@ -20,7 +19,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13793))
 // CS Name: EnableOnVisible
-class CORDL_TYPE EnableOnVisible : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE EnableOnVisible : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr EnableOnVisible(EnableOnVisible const& ) noexcept = default;
 constexpr EnableOnVisible(EnableOnVisible&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EnableOnVisible(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit EnableOnVisible(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -56,26 +55,26 @@ constexpr explicit EnableOnVisible(void* ptr) noexcept : ::UnityEngine::MonoBeha
 
 // Fields
 
- ::System::Action_1<bool> __declspec(property(get=__get_VisibilityChangedEvent, put=__set_VisibilityChangedEvent))  VisibilityChangedEvent;
+ System::Action_1<bool> __declspec(property(get=__get_VisibilityChangedEvent, put=__set_VisibilityChangedEvent))  VisibilityChangedEvent;
 
-constexpr void __set_VisibilityChangedEvent(::System::Action_1<bool> value) ;
+constexpr void __set_VisibilityChangedEvent(System::Action_1<bool> value) ;
 
-constexpr ::System::Action_1<bool> __get_VisibilityChangedEvent() const;
+constexpr System::Action_1<bool> __get_VisibilityChangedEvent() const;
 
- ::ArrayW<::UnityEngine::Behaviour> __declspec(property(get=__get__components, put=__set__components))  _components;
+ ::ArrayW<UnityEngine::Behaviour> __declspec(property(get=__get__components, put=__set__components))  _components;
 
-constexpr void __set__components(::ArrayW<::UnityEngine::Behaviour> value) ;
+constexpr void __set__components(::ArrayW<UnityEngine::Behaviour> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Behaviour> __get__components() const;
+constexpr ::ArrayW<UnityEngine::Behaviour> __get__components() const;
 
 
 // Methods
 
 /// @brief Method add_VisibilityChangedEvent addr 0x1f76c68 size 0xb0 virtual false final false
- void add_VisibilityChangedEvent(::System::Action_1<bool> value) ;
+ void add_VisibilityChangedEvent(System::Action_1<bool> value) ;
 
 /// @brief Method remove_VisibilityChangedEvent addr 0x1f76d18 size 0xb0 virtual false final false
- void remove_VisibilityChangedEvent(::System::Action_1<bool> value) ;
+ void remove_VisibilityChangedEvent(System::Action_1<bool> value) ;
 
 /// @brief Method Awake addr 0x1f76dc8 size 0x64 virtual false final false
  void Awake() ;
@@ -96,6 +95,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::EnableOnVisible);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EnableOnVisible, "", "EnableOnVisible");
+NEED_NO_BOX(GlobalNamespace::EnableOnVisible);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnableOnVisible, "", "EnableOnVisible");

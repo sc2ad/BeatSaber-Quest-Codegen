@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 class HEU_Defines;
@@ -787,6 +786,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_Defines);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_Defines, "HoudiniEngineUnity", "HEU_Defines");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_Defines);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Defines, "HoudiniEngineUnity", "HEU_Defines");

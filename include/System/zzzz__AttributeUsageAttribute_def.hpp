@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 namespace System {
 struct AttributeTargets;
 }
@@ -15,7 +14,7 @@ namespace System {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2355))
 // CS Name: System.AttributeUsageAttribute
-class CORDL_TYPE AttributeUsageAttribute : public ::System::Attribute {
+class CORDL_TYPE AttributeUsageAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr AttributeUsageAttribute(AttributeUsageAttribute const& ) noexcept = de
 constexpr AttributeUsageAttribute(AttributeUsageAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AttributeUsageAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit AttributeUsageAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit AttributeUsageAttribute(void* ptr) noexcept : ::System::Attri
 
 // Fields
 
- ::System::AttributeTargets __declspec(property(get=__get__attributeTarget, put=__set__attributeTarget))  _attributeTarget;
+ System::AttributeTargets __declspec(property(get=__get__attributeTarget, put=__set__attributeTarget))  _attributeTarget;
 
-constexpr void __set__attributeTarget(::System::AttributeTargets value) ;
+constexpr void __set__attributeTarget(System::AttributeTargets value) ;
 
-constexpr ::System::AttributeTargets __get__attributeTarget() const;
+constexpr System::AttributeTargets __get__attributeTarget() const;
 
  bool __declspec(property(get=__get__allowMultiple, put=__set__allowMultiple))  _allowMultiple;
 
@@ -69,11 +68,11 @@ constexpr void __set__inherited(bool value) ;
 
 constexpr bool __get__inherited() const;
 
-static ::System::AttributeUsageAttribute __declspec(property(get=__get_Default, put=__set_Default))  Default;
+static System::AttributeUsageAttribute __declspec(property(get=__get_Default, put=__set_Default))  Default;
 
-static void __set_Default(::System::AttributeUsageAttribute value) ;
+static void __set_Default(System::AttributeUsageAttribute value) ;
 
-static ::System::AttributeUsageAttribute __get_Default() ;
+static System::AttributeUsageAttribute __get_Default() ;
 
 
 // Properties
@@ -85,11 +84,11 @@ static ::System::AttributeUsageAttribute __get_Default() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "validOn", ty: "::System::AttributeTargets", modifiers: "", def_value: None }]
-explicit AttributeUsageAttribute(::System::AttributeTargets validOn) ;
+// Ctor Parameters [CppParam { name: "validOn", ty: "System::AttributeTargets", modifiers: "", def_value: None }]
+explicit AttributeUsageAttribute(System::AttributeTargets validOn) ;
 
 /// @brief Method .ctor addr 0x23b4958 size 0x38 virtual false final false
- void _ctor(::System::AttributeTargets validOn) ;
+ void _ctor(System::AttributeTargets validOn) ;
 
 /// @brief Method get_AllowMultiple addr 0x23b4990 size 0x8 virtual false final false
  bool get_AllowMultiple() ;
@@ -107,6 +106,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::AttributeUsageAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::AttributeUsageAttribute, "System", "AttributeUsageAttribute");
+NEED_NO_BOX(System::AttributeUsageAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::AttributeUsageAttribute, "System", "AttributeUsageAttribute");

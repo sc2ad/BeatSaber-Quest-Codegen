@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Globalization {
 struct UnicodeCategory;
@@ -95,98 +94,97 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field UppercaseLetter offset 0
-static ::System::Globalization::UnicodeCategory const UppercaseLetter;
+static System::Globalization::UnicodeCategory const UppercaseLetter;
 
 /// @brief Field LowercaseLetter offset 0
-static ::System::Globalization::UnicodeCategory const LowercaseLetter;
+static System::Globalization::UnicodeCategory const LowercaseLetter;
 
 /// @brief Field TitlecaseLetter offset 0
-static ::System::Globalization::UnicodeCategory const TitlecaseLetter;
+static System::Globalization::UnicodeCategory const TitlecaseLetter;
 
 /// @brief Field ModifierLetter offset 0
-static ::System::Globalization::UnicodeCategory const ModifierLetter;
+static System::Globalization::UnicodeCategory const ModifierLetter;
 
 /// @brief Field OtherLetter offset 0
-static ::System::Globalization::UnicodeCategory const OtherLetter;
+static System::Globalization::UnicodeCategory const OtherLetter;
 
 /// @brief Field NonSpacingMark offset 0
-static ::System::Globalization::UnicodeCategory const NonSpacingMark;
+static System::Globalization::UnicodeCategory const NonSpacingMark;
 
 /// @brief Field SpacingCombiningMark offset 0
-static ::System::Globalization::UnicodeCategory const SpacingCombiningMark;
+static System::Globalization::UnicodeCategory const SpacingCombiningMark;
 
 /// @brief Field EnclosingMark offset 0
-static ::System::Globalization::UnicodeCategory const EnclosingMark;
+static System::Globalization::UnicodeCategory const EnclosingMark;
 
 /// @brief Field DecimalDigitNumber offset 0
-static ::System::Globalization::UnicodeCategory const DecimalDigitNumber;
+static System::Globalization::UnicodeCategory const DecimalDigitNumber;
 
 /// @brief Field LetterNumber offset 0
-static ::System::Globalization::UnicodeCategory const LetterNumber;
+static System::Globalization::UnicodeCategory const LetterNumber;
 
 /// @brief Field OtherNumber offset 0
-static ::System::Globalization::UnicodeCategory const OtherNumber;
+static System::Globalization::UnicodeCategory const OtherNumber;
 
 /// @brief Field SpaceSeparator offset 0
-static ::System::Globalization::UnicodeCategory const SpaceSeparator;
+static System::Globalization::UnicodeCategory const SpaceSeparator;
 
 /// @brief Field LineSeparator offset 0
-static ::System::Globalization::UnicodeCategory const LineSeparator;
+static System::Globalization::UnicodeCategory const LineSeparator;
 
 /// @brief Field ParagraphSeparator offset 0
-static ::System::Globalization::UnicodeCategory const ParagraphSeparator;
+static System::Globalization::UnicodeCategory const ParagraphSeparator;
 
 /// @brief Field Control offset 0
-static ::System::Globalization::UnicodeCategory const Control;
+static System::Globalization::UnicodeCategory const Control;
 
 /// @brief Field Format offset 0
-static ::System::Globalization::UnicodeCategory const Format;
+static System::Globalization::UnicodeCategory const Format;
 
 /// @brief Field Surrogate offset 0
-static ::System::Globalization::UnicodeCategory const Surrogate;
+static System::Globalization::UnicodeCategory const Surrogate;
 
 /// @brief Field PrivateUse offset 0
-static ::System::Globalization::UnicodeCategory const PrivateUse;
+static System::Globalization::UnicodeCategory const PrivateUse;
 
 /// @brief Field ConnectorPunctuation offset 0
-static ::System::Globalization::UnicodeCategory const ConnectorPunctuation;
+static System::Globalization::UnicodeCategory const ConnectorPunctuation;
 
 /// @brief Field DashPunctuation offset 0
-static ::System::Globalization::UnicodeCategory const DashPunctuation;
+static System::Globalization::UnicodeCategory const DashPunctuation;
 
 /// @brief Field OpenPunctuation offset 0
-static ::System::Globalization::UnicodeCategory const OpenPunctuation;
+static System::Globalization::UnicodeCategory const OpenPunctuation;
 
 /// @brief Field ClosePunctuation offset 0
-static ::System::Globalization::UnicodeCategory const ClosePunctuation;
+static System::Globalization::UnicodeCategory const ClosePunctuation;
 
 /// @brief Field InitialQuotePunctuation offset 0
-static ::System::Globalization::UnicodeCategory const InitialQuotePunctuation;
+static System::Globalization::UnicodeCategory const InitialQuotePunctuation;
 
 /// @brief Field FinalQuotePunctuation offset 0
-static ::System::Globalization::UnicodeCategory const FinalQuotePunctuation;
+static System::Globalization::UnicodeCategory const FinalQuotePunctuation;
 
 /// @brief Field OtherPunctuation offset 0
-static ::System::Globalization::UnicodeCategory const OtherPunctuation;
+static System::Globalization::UnicodeCategory const OtherPunctuation;
 
 /// @brief Field MathSymbol offset 0
-static ::System::Globalization::UnicodeCategory const MathSymbol;
+static System::Globalization::UnicodeCategory const MathSymbol;
 
 /// @brief Field CurrencySymbol offset 0
-static ::System::Globalization::UnicodeCategory const CurrencySymbol;
+static System::Globalization::UnicodeCategory const CurrencySymbol;
 
 /// @brief Field ModifierSymbol offset 0
-static ::System::Globalization::UnicodeCategory const ModifierSymbol;
+static System::Globalization::UnicodeCategory const ModifierSymbol;
 
 /// @brief Field OtherSymbol offset 0
-static ::System::Globalization::UnicodeCategory const OtherSymbol;
+static System::Globalization::UnicodeCategory const OtherSymbol;
 
 /// @brief Field OtherNotAssigned offset 0
-static ::System::Globalization::UnicodeCategory const OtherNotAssigned;
+static System::Globalization::UnicodeCategory const OtherNotAssigned;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Globalization
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::UnicodeCategory, "System.Globalization", "UnicodeCategory");
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::UnicodeCategory, "System.Globalization", "UnicodeCategory");

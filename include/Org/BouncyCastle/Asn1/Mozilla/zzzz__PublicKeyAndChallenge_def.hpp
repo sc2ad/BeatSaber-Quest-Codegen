@@ -2,15 +2,14 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerIA5String;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class DerIA5String;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class SubjectPublicKeyInfo;
@@ -25,7 +24,7 @@ namespace Org::BouncyCastle::Asn1::Mozilla {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(202))
 // CS Name: Org.BouncyCastle.Asn1.Mozilla.PublicKeyAndChallenge
-class CORDL_TYPE PublicKeyAndChallenge : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
+class CORDL_TYPE PublicKeyAndChallenge : public Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr PublicKeyAndChallenge(PublicKeyAndChallenge const& ) noexcept = defaul
 constexpr PublicKeyAndChallenge(PublicKeyAndChallenge&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PublicKeyAndChallenge(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
+constexpr explicit PublicKeyAndChallenge(void* ptr) noexcept : Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
 }
 
 
@@ -61,56 +60,55 @@ constexpr explicit PublicKeyAndChallenge(void* ptr) noexcept : ::Org::BouncyCast
 
 // Fields
 
- ::Org::BouncyCastle::Asn1::Asn1Sequence __declspec(property(get=__get_pkacSeq, put=__set_pkacSeq))  pkacSeq;
+ Org::BouncyCastle::Asn1::Asn1Sequence __declspec(property(get=__get_pkacSeq, put=__set_pkacSeq))  pkacSeq;
 
-constexpr void __set_pkacSeq(::Org::BouncyCastle::Asn1::Asn1Sequence value) ;
+constexpr void __set_pkacSeq(Org::BouncyCastle::Asn1::Asn1Sequence value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence __get_pkacSeq() const;
+constexpr Org::BouncyCastle::Asn1::Asn1Sequence __get_pkacSeq() const;
 
- ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo __declspec(property(get=__get_spki, put=__set_spki))  spki;
+ Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo __declspec(property(get=__get_spki, put=__set_spki))  spki;
 
-constexpr void __set_spki(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo value) ;
+constexpr void __set_spki(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo __get_spki() const;
+constexpr Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo __get_spki() const;
 
- ::Org::BouncyCastle::Asn1::DerIA5String __declspec(property(get=__get_challenge, put=__set_challenge))  challenge;
+ Org::BouncyCastle::Asn1::DerIA5String __declspec(property(get=__get_challenge, put=__set_challenge))  challenge;
 
-constexpr void __set_challenge(::Org::BouncyCastle::Asn1::DerIA5String value) ;
+constexpr void __set_challenge(Org::BouncyCastle::Asn1::DerIA5String value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::DerIA5String __get_challenge() const;
+constexpr Org::BouncyCastle::Asn1::DerIA5String __get_challenge() const;
 
 
 // Properties
 
- ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo __declspec(property(get=get_SubjectPublicKeyInfo))  SubjectPublicKeyInfo;
+ Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo __declspec(property(get=get_SubjectPublicKeyInfo))  SubjectPublicKeyInfo;
 
- ::Org::BouncyCastle::Asn1::DerIA5String __declspec(property(get=get_Challenge))  Challenge;
+ Org::BouncyCastle::Asn1::DerIA5String __declspec(property(get=get_Challenge))  Challenge;
 
 
 // Methods
 
 /// @brief Method GetInstance addr 0xeef3b4 size 0x190 virtual false final false
-static ::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge GetInstance(::bs_hook::Il2CppWrapperType obj) ;
+static Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "::Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit PublicKeyAndChallenge(::Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
+explicit PublicKeyAndChallenge(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xeef544 size 0x6c virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+ void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method ToAsn1Object addr 0xeef5b0 size 0x8 virtual true final false
- ::Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
+ Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
 
 /// @brief Method get_SubjectPublicKeyInfo addr 0xeef5b8 size 0x8 virtual false final false
- ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo get_SubjectPublicKeyInfo() ;
+ Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo get_SubjectPublicKeyInfo() ;
 
 /// @brief Method get_Challenge addr 0xeef5c0 size 0x8 virtual false final false
- ::Org::BouncyCastle::Asn1::DerIA5String get_Challenge() ;
+ Org::BouncyCastle::Asn1::DerIA5String get_Challenge() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::Mozilla
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge, "Org.BouncyCastle.Asn1.Mozilla", "PublicKeyAndChallenge");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge, "Org.BouncyCastle.Asn1.Mozilla", "PublicKeyAndChallenge");

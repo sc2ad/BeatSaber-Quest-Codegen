@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 class IntegratedSubsystem;
 }
@@ -13,13 +12,13 @@ namespace Unity::XR::Oculus {
 class Stats;
 }
 namespace Unity::XR::Oculus {
-class ____Unity__XR__Oculus__Stats__AdaptivePerformance;
+class Unity__XR__Oculus__Stats__AdaptivePerformance;
 }
 namespace Unity::XR::Oculus {
-class ____Unity__XR__Oculus__Stats__AppMetrics;
+class Unity__XR__Oculus__Stats__AppMetrics;
 }
 namespace Unity::XR::Oculus {
-class ____Unity__XR__Oculus__Stats__PerfMetrics;
+class Unity__XR__Oculus__Stats__PerfMetrics;
 }
 // Type: ::AdaptivePerformance
 namespace Unity::XR::Oculus {
@@ -27,37 +26,37 @@ namespace Unity::XR::Oculus {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15224))
 // CS Name: Unity.XR.Oculus.Stats::AdaptivePerformance
-class CORDL_TYPE ____Unity__XR__Oculus__Stats__AdaptivePerformance : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Unity__XR__Oculus__Stats__AdaptivePerformance : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____Unity__XR__Oculus__Stats__AdaptivePerformance() = default;
+virtual ~Unity__XR__Oculus__Stats__AdaptivePerformance() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Unity__XR__Oculus__Stats__AdaptivePerformance", modifiers: " const&", def_value: None }]
-constexpr ____Unity__XR__Oculus__Stats__AdaptivePerformance(____Unity__XR__Oculus__Stats__AdaptivePerformance const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Unity__XR__Oculus__Stats__AdaptivePerformance", modifiers: " const&", def_value: None }]
+constexpr Unity__XR__Oculus__Stats__AdaptivePerformance(Unity__XR__Oculus__Stats__AdaptivePerformance const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Unity__XR__Oculus__Stats__AdaptivePerformance", modifiers: "&&", def_value: None }]
-constexpr ____Unity__XR__Oculus__Stats__AdaptivePerformance(____Unity__XR__Oculus__Stats__AdaptivePerformance&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Unity__XR__Oculus__Stats__AdaptivePerformance", modifiers: "&&", def_value: None }]
+constexpr Unity__XR__Oculus__Stats__AdaptivePerformance(Unity__XR__Oculus__Stats__AdaptivePerformance&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Unity__XR__Oculus__Stats__AdaptivePerformance(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Unity__XR__Oculus__Stats__AdaptivePerformance(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Unity__XR__Oculus__Stats__AdaptivePerformance& operator=(std::nullptr_t) noexcept {
+  constexpr Unity__XR__Oculus__Stats__AdaptivePerformance& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Unity__XR__Oculus__Stats__AdaptivePerformance& operator=(void* o) noexcept {
+  constexpr Unity__XR__Oculus__Stats__AdaptivePerformance& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Unity__XR__Oculus__Stats__AdaptivePerformance& operator=(____Unity__XR__Oculus__Stats__AdaptivePerformance&& o) noexcept = default;
-  constexpr ____Unity__XR__Oculus__Stats__AdaptivePerformance& operator=(____Unity__XR__Oculus__Stats__AdaptivePerformance const& o) noexcept = default;
+  constexpr Unity__XR__Oculus__Stats__AdaptivePerformance& operator=(Unity__XR__Oculus__Stats__AdaptivePerformance&& o) noexcept = default;
+  constexpr Unity__XR__Oculus__Stats__AdaptivePerformance& operator=(Unity__XR__Oculus__Stats__AdaptivePerformance const& o) noexcept = default;
                 
 
 
@@ -126,37 +125,37 @@ namespace Unity::XR::Oculus {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15225))
 // CS Name: Unity.XR.Oculus.Stats::PerfMetrics
-class CORDL_TYPE ____Unity__XR__Oculus__Stats__PerfMetrics : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Unity__XR__Oculus__Stats__PerfMetrics : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____Unity__XR__Oculus__Stats__PerfMetrics() = default;
+virtual ~Unity__XR__Oculus__Stats__PerfMetrics() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Unity__XR__Oculus__Stats__PerfMetrics", modifiers: " const&", def_value: None }]
-constexpr ____Unity__XR__Oculus__Stats__PerfMetrics(____Unity__XR__Oculus__Stats__PerfMetrics const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Unity__XR__Oculus__Stats__PerfMetrics", modifiers: " const&", def_value: None }]
+constexpr Unity__XR__Oculus__Stats__PerfMetrics(Unity__XR__Oculus__Stats__PerfMetrics const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Unity__XR__Oculus__Stats__PerfMetrics", modifiers: "&&", def_value: None }]
-constexpr ____Unity__XR__Oculus__Stats__PerfMetrics(____Unity__XR__Oculus__Stats__PerfMetrics&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Unity__XR__Oculus__Stats__PerfMetrics", modifiers: "&&", def_value: None }]
+constexpr Unity__XR__Oculus__Stats__PerfMetrics(Unity__XR__Oculus__Stats__PerfMetrics&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Unity__XR__Oculus__Stats__PerfMetrics(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Unity__XR__Oculus__Stats__PerfMetrics(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Unity__XR__Oculus__Stats__PerfMetrics& operator=(std::nullptr_t) noexcept {
+  constexpr Unity__XR__Oculus__Stats__PerfMetrics& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Unity__XR__Oculus__Stats__PerfMetrics& operator=(void* o) noexcept {
+  constexpr Unity__XR__Oculus__Stats__PerfMetrics& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Unity__XR__Oculus__Stats__PerfMetrics& operator=(____Unity__XR__Oculus__Stats__PerfMetrics&& o) noexcept = default;
-  constexpr ____Unity__XR__Oculus__Stats__PerfMetrics& operator=(____Unity__XR__Oculus__Stats__PerfMetrics const& o) noexcept = default;
+  constexpr Unity__XR__Oculus__Stats__PerfMetrics& operator=(Unity__XR__Oculus__Stats__PerfMetrics&& o) noexcept = default;
+  constexpr Unity__XR__Oculus__Stats__PerfMetrics& operator=(Unity__XR__Oculus__Stats__PerfMetrics const& o) noexcept = default;
                 
 
 
@@ -223,37 +222,37 @@ namespace Unity::XR::Oculus {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15226))
 // CS Name: Unity.XR.Oculus.Stats::AppMetrics
-class CORDL_TYPE ____Unity__XR__Oculus__Stats__AppMetrics : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Unity__XR__Oculus__Stats__AppMetrics : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____Unity__XR__Oculus__Stats__AppMetrics() = default;
+virtual ~Unity__XR__Oculus__Stats__AppMetrics() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Unity__XR__Oculus__Stats__AppMetrics", modifiers: " const&", def_value: None }]
-constexpr ____Unity__XR__Oculus__Stats__AppMetrics(____Unity__XR__Oculus__Stats__AppMetrics const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Unity__XR__Oculus__Stats__AppMetrics", modifiers: " const&", def_value: None }]
+constexpr Unity__XR__Oculus__Stats__AppMetrics(Unity__XR__Oculus__Stats__AppMetrics const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Unity__XR__Oculus__Stats__AppMetrics", modifiers: "&&", def_value: None }]
-constexpr ____Unity__XR__Oculus__Stats__AppMetrics(____Unity__XR__Oculus__Stats__AppMetrics&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Unity__XR__Oculus__Stats__AppMetrics", modifiers: "&&", def_value: None }]
+constexpr Unity__XR__Oculus__Stats__AppMetrics(Unity__XR__Oculus__Stats__AppMetrics&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Unity__XR__Oculus__Stats__AppMetrics(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Unity__XR__Oculus__Stats__AppMetrics(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Unity__XR__Oculus__Stats__AppMetrics& operator=(std::nullptr_t) noexcept {
+  constexpr Unity__XR__Oculus__Stats__AppMetrics& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Unity__XR__Oculus__Stats__AppMetrics& operator=(void* o) noexcept {
+  constexpr Unity__XR__Oculus__Stats__AppMetrics& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Unity__XR__Oculus__Stats__AppMetrics& operator=(____Unity__XR__Oculus__Stats__AppMetrics&& o) noexcept = default;
-  constexpr ____Unity__XR__Oculus__Stats__AppMetrics& operator=(____Unity__XR__Oculus__Stats__AppMetrics const& o) noexcept = default;
+  constexpr Unity__XR__Oculus__Stats__AppMetrics& operator=(Unity__XR__Oculus__Stats__AppMetrics&& o) noexcept = default;
+  constexpr Unity__XR__Oculus__Stats__AppMetrics& operator=(Unity__XR__Oculus__Stats__AppMetrics const& o) noexcept = default;
                 
 
 
@@ -313,11 +312,11 @@ namespace Unity::XR::Oculus {
 class CORDL_TYPE Stats : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using AppMetrics = ::Unity::XR::Oculus::____Unity__XR__Oculus__Stats__AppMetrics;
+using AppMetrics = Unity::XR::Oculus::Unity__XR__Oculus__Stats__AppMetrics;
 
-using PerfMetrics = ::Unity::XR::Oculus::____Unity__XR__Oculus__Stats__PerfMetrics;
+using PerfMetrics = Unity::XR::Oculus::Unity__XR__Oculus__Stats__PerfMetrics;
 
-using AdaptivePerformance = ::Unity::XR::Oculus::____Unity__XR__Oculus__Stats__AdaptivePerformance;
+using AdaptivePerformance = Unity::XR::Oculus::Unity__XR__Oculus__Stats__AdaptivePerformance;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -352,11 +351,11 @@ constexpr explicit Stats(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr)
 
 // Fields
 
-static ::UnityEngine::IntegratedSubsystem __declspec(property(get=__get_m_Display, put=__set_m_Display))  m_Display;
+static UnityEngine::IntegratedSubsystem __declspec(property(get=__get_m_Display, put=__set_m_Display))  m_Display;
 
-static void __set_m_Display(::UnityEngine::IntegratedSubsystem value) ;
+static void __set_m_Display(UnityEngine::IntegratedSubsystem value) ;
 
-static ::UnityEngine::IntegratedSubsystem __get_m_Display() ;
+static UnityEngine::IntegratedSubsystem __get_m_Display() ;
 
 static ::StringW __declspec(property(get=__get_m_PluginVersion, put=__set_m_PluginVersion))  m_PluginVersion;
 
@@ -376,7 +375,7 @@ static ::StringW __declspec(property(get=get_PluginVersion))  PluginVersion;
 static ::StringW get_PluginVersion() ;
 
 /// @brief Method GetOculusDisplaySubsystem addr 0x2ae0378 size 0x344 virtual false final false
-static ::UnityEngine::IntegratedSubsystem GetOculusDisplaySubsystem() ;
+static UnityEngine::IntegratedSubsystem GetOculusDisplaySubsystem() ;
 
 // Ctor Parameters []
 explicit Stats() ;
@@ -388,12 +387,11 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Unity::XR::Oculus
-} // end anonymous namespace
-NEED_NO_BOX(::Unity::XR::Oculus::Stats);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::XR::Oculus::Stats, "Unity.XR.Oculus", "Stats");
-NEED_NO_BOX(::Unity::XR::Oculus::____Unity__XR__Oculus__Stats__AdaptivePerformance);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::XR::Oculus::____Unity__XR__Oculus__Stats__AdaptivePerformance, "Unity.XR.Oculus", "Stats/AdaptivePerformance");
-NEED_NO_BOX(::Unity::XR::Oculus::____Unity__XR__Oculus__Stats__AppMetrics);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::XR::Oculus::____Unity__XR__Oculus__Stats__AppMetrics, "Unity.XR.Oculus", "Stats/AppMetrics");
-NEED_NO_BOX(::Unity::XR::Oculus::____Unity__XR__Oculus__Stats__PerfMetrics);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::XR::Oculus::____Unity__XR__Oculus__Stats__PerfMetrics, "Unity.XR.Oculus", "Stats/PerfMetrics");
+NEED_NO_BOX(Unity::XR::Oculus::Stats);
+DEFINE_IL2CPP_ARG_TYPE(Unity::XR::Oculus::Stats, "Unity.XR.Oculus", "Stats");
+NEED_NO_BOX(Unity::XR::Oculus::Unity__XR__Oculus__Stats__AdaptivePerformance);
+DEFINE_IL2CPP_ARG_TYPE(Unity::XR::Oculus::Unity__XR__Oculus__Stats__AdaptivePerformance, "Unity.XR.Oculus", "Stats/AdaptivePerformance");
+NEED_NO_BOX(Unity::XR::Oculus::Unity__XR__Oculus__Stats__AppMetrics);
+DEFINE_IL2CPP_ARG_TYPE(Unity::XR::Oculus::Unity__XR__Oculus__Stats__AppMetrics, "Unity.XR.Oculus", "Stats/AppMetrics");
+NEED_NO_BOX(Unity::XR::Oculus::Unity__XR__Oculus__Stats__PerfMetrics);
+DEFINE_IL2CPP_ARG_TYPE(Unity::XR::Oculus::Unity__XR__Oculus__Stats__PerfMetrics, "Unity.XR.Oculus", "Stats/PerfMetrics");

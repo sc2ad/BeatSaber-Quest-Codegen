@@ -2,21 +2,20 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "Mono/Xml/zzzz__SmallXmlParser_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System::Collections {
-class Stack;
+namespace System::Security {
+class SecurityElement;
 }
 namespace Mono::Xml {
-class ____Mono__Xml__SmallXmlParser__IContentHandler;
+class Mono__Xml__SmallXmlParser__IContentHandler;
+}
+namespace System::Collections {
+class Stack;
 }
 namespace Mono::Xml {
 class SmallXmlParser;
 }
 namespace Mono::Xml {
-class ____Mono__Xml__SmallXmlParser__IAttrList;
-}
-namespace System::Security {
-class SecurityElement;
+class Mono__Xml__SmallXmlParser__IAttrList;
 }
 // Forward declare root types
 namespace Mono::Xml {
@@ -28,11 +27,11 @@ namespace Mono::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2254))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2250))
 // CS Name: Mono.Xml.SecurityParser
-class CORDL_TYPE SecurityParser : public ::Mono::Xml::SmallXmlParser {
+class CORDL_TYPE SecurityParser : public Mono::Xml::SmallXmlParser {
 public:
 // Declarations
-/// @brief Convert operator to ::Mono::Xml::____Mono__Xml__SmallXmlParser__IContentHandler
-constexpr operator  ::Mono::Xml::____Mono__Xml__SmallXmlParser__IContentHandler() const noexcept;
+/// @brief Convert operator to Mono::Xml::Mono__Xml__SmallXmlParser__IContentHandler
+constexpr operator  Mono::Xml::Mono__Xml__SmallXmlParser__IContentHandler() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x80};
@@ -46,7 +45,7 @@ constexpr SecurityParser(SecurityParser const& ) noexcept = default;
 constexpr SecurityParser(SecurityParser&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SecurityParser(void* ptr) noexcept : ::Mono::Xml::SmallXmlParser(ptr) {
+constexpr explicit SecurityParser(void* ptr) noexcept : Mono::Xml::SmallXmlParser(ptr) {
 }
 
 
@@ -67,23 +66,23 @@ constexpr explicit SecurityParser(void* ptr) noexcept : ::Mono::Xml::SmallXmlPar
 
 // Fields
 
- ::System::Security::SecurityElement __declspec(property(get=__get_root, put=__set_root))  root;
+ System::Security::SecurityElement __declspec(property(get=__get_root, put=__set_root))  root;
 
-constexpr void __set_root(::System::Security::SecurityElement value) ;
+constexpr void __set_root(System::Security::SecurityElement value) ;
 
-constexpr ::System::Security::SecurityElement __get_root() const;
+constexpr System::Security::SecurityElement __get_root() const;
 
- ::System::Security::SecurityElement __declspec(property(get=__get_current, put=__set_current))  current;
+ System::Security::SecurityElement __declspec(property(get=__get_current, put=__set_current))  current;
 
-constexpr void __set_current(::System::Security::SecurityElement value) ;
+constexpr void __set_current(System::Security::SecurityElement value) ;
 
-constexpr ::System::Security::SecurityElement __get_current() const;
+constexpr System::Security::SecurityElement __get_current() const;
 
- ::System::Collections::Stack __declspec(property(get=__get_stack, put=__set_stack))  stack;
+ System::Collections::Stack __declspec(property(get=__get_stack, put=__set_stack))  stack;
 
-constexpr void __set_stack(::System::Collections::Stack value) ;
+constexpr void __set_stack(System::Collections::Stack value) ;
 
-constexpr ::System::Collections::Stack __get_stack() const;
+constexpr System::Collections::Stack __get_stack() const;
 
 
 // Methods
@@ -98,10 +97,10 @@ explicit SecurityParser() ;
  void LoadXml(::StringW xml) ;
 
 /// @brief Method ToXml addr 0x22a5d54 size 0x8 virtual false final false
- ::System::Security::SecurityElement ToXml() ;
+ System::Security::SecurityElement ToXml() ;
 
 /// @brief Method OnStartParsing addr 0x22a5d5c size 0x4 virtual true final true
- void OnStartParsing(::Mono::Xml::SmallXmlParser parser) ;
+ void OnStartParsing(Mono::Xml::SmallXmlParser parser) ;
 
 /// @brief Method OnProcessingInstruction addr 0x22a5d60 size 0x4 virtual true final true
  void OnProcessingInstruction(::StringW name, ::StringW text) ;
@@ -110,7 +109,7 @@ explicit SecurityParser() ;
  void OnIgnorableWhitespace(::StringW s) ;
 
 /// @brief Method OnStartElement addr 0x22a5d68 size 0x27c virtual true final true
- void OnStartElement(::StringW name, ::Mono::Xml::____Mono__Xml__SmallXmlParser__IAttrList attrs) ;
+ void OnStartElement(::StringW name, Mono::Xml::Mono__Xml__SmallXmlParser__IAttrList attrs) ;
 
 /// @brief Method OnEndElement addr 0x22a5fe4 size 0x88 virtual true final true
  void OnEndElement(::StringW name) ;
@@ -119,12 +118,11 @@ explicit SecurityParser() ;
  void OnChars(::StringW ch) ;
 
 /// @brief Method OnEndParsing addr 0x22a60ec size 0x4 virtual true final true
- void OnEndParsing(::Mono::Xml::SmallXmlParser parser) ;
+ void OnEndParsing(Mono::Xml::SmallXmlParser parser) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Xml::SecurityParser);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Xml::SecurityParser, "Mono.Xml", "SecurityParser");
+NEED_NO_BOX(Mono::Xml::SecurityParser);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SecurityParser, "Mono.Xml", "SecurityParser");

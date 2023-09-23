@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {
 struct StylePropertyId;
@@ -153,272 +152,271 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Unknown;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const Unknown;
 
 /// @brief Field Custom offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Custom;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const Custom;
 
 /// @brief Field AlignContent offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const AlignContent;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const AlignContent;
 
 /// @brief Field AlignItems offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const AlignItems;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const AlignItems;
 
 /// @brief Field AlignSelf offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const AlignSelf;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const AlignSelf;
 
 /// @brief Field All offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const All;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const All;
 
 /// @brief Field BackgroundColor offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BackgroundColor;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const BackgroundColor;
 
 /// @brief Field BackgroundImage offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BackgroundImage;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const BackgroundImage;
 
 /// @brief Field BorderBottomColor offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderBottomColor;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderBottomColor;
 
 /// @brief Field BorderBottomLeftRadius offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderBottomLeftRadius;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderBottomLeftRadius;
 
 /// @brief Field BorderBottomRightRadius offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderBottomRightRadius;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderBottomRightRadius;
 
 /// @brief Field BorderBottomWidth offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderBottomWidth;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderBottomWidth;
 
 /// @brief Field BorderColor offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderColor;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderColor;
 
 /// @brief Field BorderLeftColor offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderLeftColor;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderLeftColor;
 
 /// @brief Field BorderLeftWidth offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderLeftWidth;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderLeftWidth;
 
 /// @brief Field BorderRadius offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderRadius;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderRadius;
 
 /// @brief Field BorderRightColor offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderRightColor;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderRightColor;
 
 /// @brief Field BorderRightWidth offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderRightWidth;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderRightWidth;
 
 /// @brief Field BorderTopColor offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderTopColor;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderTopColor;
 
 /// @brief Field BorderTopLeftRadius offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderTopLeftRadius;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderTopLeftRadius;
 
 /// @brief Field BorderTopRightRadius offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderTopRightRadius;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderTopRightRadius;
 
 /// @brief Field BorderTopWidth offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderTopWidth;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderTopWidth;
 
 /// @brief Field BorderWidth offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderWidth;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderWidth;
 
 /// @brief Field Bottom offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Bottom;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const Bottom;
 
 /// @brief Field Color offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Color;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const Color;
 
 /// @brief Field Cursor offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Cursor;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const Cursor;
 
 /// @brief Field Display offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Display;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const Display;
 
 /// @brief Field Flex offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Flex;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const Flex;
 
 /// @brief Field FlexBasis offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const FlexBasis;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const FlexBasis;
 
 /// @brief Field FlexDirection offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const FlexDirection;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const FlexDirection;
 
 /// @brief Field FlexGrow offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const FlexGrow;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const FlexGrow;
 
 /// @brief Field FlexShrink offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const FlexShrink;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const FlexShrink;
 
 /// @brief Field FlexWrap offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const FlexWrap;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const FlexWrap;
 
 /// @brief Field FontSize offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const FontSize;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const FontSize;
 
 /// @brief Field Height offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Height;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const Height;
 
 /// @brief Field JustifyContent offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const JustifyContent;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const JustifyContent;
 
 /// @brief Field Left offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Left;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const Left;
 
 /// @brief Field LetterSpacing offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const LetterSpacing;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const LetterSpacing;
 
 /// @brief Field Margin offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Margin;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const Margin;
 
 /// @brief Field MarginBottom offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const MarginBottom;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const MarginBottom;
 
 /// @brief Field MarginLeft offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const MarginLeft;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const MarginLeft;
 
 /// @brief Field MarginRight offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const MarginRight;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const MarginRight;
 
 /// @brief Field MarginTop offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const MarginTop;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const MarginTop;
 
 /// @brief Field MaxHeight offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const MaxHeight;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const MaxHeight;
 
 /// @brief Field MaxWidth offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const MaxWidth;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const MaxWidth;
 
 /// @brief Field MinHeight offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const MinHeight;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const MinHeight;
 
 /// @brief Field MinWidth offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const MinWidth;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const MinWidth;
 
 /// @brief Field Opacity offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Opacity;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const Opacity;
 
 /// @brief Field Overflow offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Overflow;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const Overflow;
 
 /// @brief Field Padding offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Padding;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const Padding;
 
 /// @brief Field PaddingBottom offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const PaddingBottom;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const PaddingBottom;
 
 /// @brief Field PaddingLeft offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const PaddingLeft;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const PaddingLeft;
 
 /// @brief Field PaddingRight offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const PaddingRight;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const PaddingRight;
 
 /// @brief Field PaddingTop offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const PaddingTop;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const PaddingTop;
 
 /// @brief Field Position offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Position;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const Position;
 
 /// @brief Field Right offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Right;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const Right;
 
 /// @brief Field Rotate offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Rotate;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const Rotate;
 
 /// @brief Field Scale offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Scale;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const Scale;
 
 /// @brief Field TextOverflow offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const TextOverflow;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const TextOverflow;
 
 /// @brief Field TextShadow offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const TextShadow;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const TextShadow;
 
 /// @brief Field Top offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Top;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const Top;
 
 /// @brief Field TransformOrigin offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const TransformOrigin;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const TransformOrigin;
 
 /// @brief Field Transition offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Transition;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const Transition;
 
 /// @brief Field TransitionDelay offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const TransitionDelay;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const TransitionDelay;
 
 /// @brief Field TransitionDuration offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const TransitionDuration;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const TransitionDuration;
 
 /// @brief Field TransitionProperty offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const TransitionProperty;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const TransitionProperty;
 
 /// @brief Field TransitionTimingFunction offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const TransitionTimingFunction;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const TransitionTimingFunction;
 
 /// @brief Field Translate offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Translate;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const Translate;
 
 /// @brief Field UnityBackgroundImageTintColor offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityBackgroundImageTintColor;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityBackgroundImageTintColor;
 
 /// @brief Field UnityBackgroundScaleMode offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityBackgroundScaleMode;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityBackgroundScaleMode;
 
 /// @brief Field UnityFont offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityFont;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityFont;
 
 /// @brief Field UnityFontDefinition offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityFontDefinition;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityFontDefinition;
 
 /// @brief Field UnityFontStyleAndWeight offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityFontStyleAndWeight;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityFontStyleAndWeight;
 
 /// @brief Field UnityOverflowClipBox offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityOverflowClipBox;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityOverflowClipBox;
 
 /// @brief Field UnityParagraphSpacing offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityParagraphSpacing;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityParagraphSpacing;
 
 /// @brief Field UnitySliceBottom offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnitySliceBottom;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const UnitySliceBottom;
 
 /// @brief Field UnitySliceLeft offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnitySliceLeft;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const UnitySliceLeft;
 
 /// @brief Field UnitySliceRight offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnitySliceRight;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const UnitySliceRight;
 
 /// @brief Field UnitySliceTop offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnitySliceTop;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const UnitySliceTop;
 
 /// @brief Field UnityTextAlign offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityTextAlign;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityTextAlign;
 
 /// @brief Field UnityTextOutline offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityTextOutline;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityTextOutline;
 
 /// @brief Field UnityTextOutlineColor offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityTextOutlineColor;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityTextOutlineColor;
 
 /// @brief Field UnityTextOutlineWidth offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityTextOutlineWidth;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityTextOutlineWidth;
 
 /// @brief Field UnityTextOverflowPosition offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityTextOverflowPosition;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityTextOverflowPosition;
 
 /// @brief Field Visibility offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Visibility;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const Visibility;
 
 /// @brief Field WhiteSpace offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const WhiteSpace;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const WhiteSpace;
 
 /// @brief Field Width offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Width;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const Width;
 
 /// @brief Field WordSpacing offset 0
-static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const WordSpacing;
+static UnityEngine::UIElements::StyleSheets::StylePropertyId const WordSpacing;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::StyleSheets
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::StylePropertyId, "UnityEngine.UIElements.StyleSheets", "StylePropertyId");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::StyleSheets::StylePropertyId, "UnityEngine.UIElements.StyleSheets", "StylePropertyId");

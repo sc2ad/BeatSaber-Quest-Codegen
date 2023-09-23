@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__VRControllerTransformOffset_def.hpp"
-namespace {
-namespace UnityEngine {
-struct Vector3;
-}
 namespace GlobalNamespace {
 class Vector3SO;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13939))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4802))
 // CS Name: VRControllersValueSOOffsets
-class CORDL_TYPE VRControllersValueSOOffsets : public ::GlobalNamespace::VRControllerTransformOffset {
+class CORDL_TYPE VRControllersValueSOOffsets : public GlobalNamespace::VRControllerTransformOffset {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr VRControllersValueSOOffsets(VRControllersValueSOOffsets const& ) noexc
 constexpr VRControllersValueSOOffsets(VRControllersValueSOOffsets&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit VRControllersValueSOOffsets(void* ptr) noexcept : ::GlobalNamespace::VRControllerTransformOffset(ptr) {
+constexpr explicit VRControllersValueSOOffsets(void* ptr) noexcept : GlobalNamespace::VRControllerTransformOffset(ptr) {
 }
 
 
@@ -54,33 +53,33 @@ constexpr explicit VRControllersValueSOOffsets(void* ptr) noexcept : ::GlobalNam
 
 // Fields
 
- ::GlobalNamespace::Vector3SO __declspec(property(get=__get__positionOffset, put=__set__positionOffset))  _positionOffset;
+ GlobalNamespace::Vector3SO __declspec(property(get=__get__positionOffset, put=__set__positionOffset))  _positionOffset;
 
-constexpr void __set__positionOffset(::GlobalNamespace::Vector3SO value) ;
+constexpr void __set__positionOffset(GlobalNamespace::Vector3SO value) ;
 
-constexpr ::GlobalNamespace::Vector3SO __get__positionOffset() const;
+constexpr GlobalNamespace::Vector3SO __get__positionOffset() const;
 
- ::GlobalNamespace::Vector3SO __declspec(property(get=__get__rotationOffset, put=__set__rotationOffset))  _rotationOffset;
+ GlobalNamespace::Vector3SO __declspec(property(get=__get__rotationOffset, put=__set__rotationOffset))  _rotationOffset;
 
-constexpr void __set__rotationOffset(::GlobalNamespace::Vector3SO value) ;
+constexpr void __set__rotationOffset(GlobalNamespace::Vector3SO value) ;
 
-constexpr ::GlobalNamespace::Vector3SO __get__rotationOffset() const;
+constexpr GlobalNamespace::Vector3SO __get__rotationOffset() const;
 
 
 // Properties
 
- ::UnityEngine::Vector3 __declspec(property(get=get_positionOffset))  positionOffset;
+ UnityEngine::Vector3 __declspec(property(get=get_positionOffset))  positionOffset;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_rotationOffset))  rotationOffset;
+ UnityEngine::Vector3 __declspec(property(get=get_rotationOffset))  rotationOffset;
 
 
 // Methods
 
 /// @brief Method get_positionOffset addr 0x222c8c4 size 0x4c virtual true final false
- ::UnityEngine::Vector3 get_positionOffset() ;
+ UnityEngine::Vector3 get_positionOffset() ;
 
 /// @brief Method get_rotationOffset addr 0x222c910 size 0x4c virtual true final false
- ::UnityEngine::Vector3 get_rotationOffset() ;
+ UnityEngine::Vector3 get_rotationOffset() ;
 
 // Ctor Parameters []
 explicit VRControllersValueSOOffsets() ;
@@ -92,6 +91,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::VRControllersValueSOOffsets);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::VRControllersValueSOOffsets, "", "VRControllersValueSOOffsets");
+NEED_NO_BOX(GlobalNamespace::VRControllersValueSOOffsets);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersValueSOOffsets, "", "VRControllersValueSOOffsets");

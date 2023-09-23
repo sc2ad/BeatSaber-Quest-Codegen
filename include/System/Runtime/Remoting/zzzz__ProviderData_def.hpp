@@ -2,12 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System::Collections {
-class Hashtable;
-}
 namespace System::Collections {
 class IList;
+}
+namespace System::Collections {
+class Hashtable;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {
@@ -73,23 +72,23 @@ constexpr void __set_Id(::StringW value) ;
 
 constexpr ::StringW __get_Id() const;
 
- ::System::Collections::Hashtable __declspec(property(get=__get_CustomProperties, put=__set_CustomProperties))  CustomProperties;
+ System::Collections::Hashtable __declspec(property(get=__get_CustomProperties, put=__set_CustomProperties))  CustomProperties;
 
-constexpr void __set_CustomProperties(::System::Collections::Hashtable value) ;
+constexpr void __set_CustomProperties(System::Collections::Hashtable value) ;
 
-constexpr ::System::Collections::Hashtable __get_CustomProperties() const;
+constexpr System::Collections::Hashtable __get_CustomProperties() const;
 
- ::System::Collections::IList __declspec(property(get=__get_CustomData, put=__set_CustomData))  CustomData;
+ System::Collections::IList __declspec(property(get=__get_CustomData, put=__set_CustomData))  CustomData;
 
-constexpr void __set_CustomData(::System::Collections::IList value) ;
+constexpr void __set_CustomData(System::Collections::IList value) ;
 
-constexpr ::System::Collections::IList __get_CustomData() const;
+constexpr System::Collections::IList __get_CustomData() const;
 
 
 // Methods
 
 /// @brief Method CopyFrom addr 0x231e00c size 0x704 virtual false final false
- void CopyFrom(::System::Runtime::Remoting::ProviderData other) ;
+ void CopyFrom(System::Runtime::Remoting::ProviderData other) ;
 
 // Ctor Parameters []
 explicit ProviderData() ;
@@ -101,6 +100,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::ProviderData);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::ProviderData, "System.Runtime.Remoting", "ProviderData");
+NEED_NO_BOX(System::Runtime::Remoting::ProviderData);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ProviderData, "System.Runtime.Remoting", "ProviderData");

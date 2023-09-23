@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XObjectWrapper_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Xml::Linq {
 class XProcessingInstruction;
 }
@@ -16,7 +15,7 @@ namespace Newtonsoft::Json::Converters {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12007))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12005))
 // CS Name: Newtonsoft.Json.Converters.XProcessingInstructionWrapper
-class CORDL_TYPE XProcessingInstructionWrapper : public ::Newtonsoft::Json::Converters::XObjectWrapper {
+class CORDL_TYPE XProcessingInstructionWrapper : public Newtonsoft::Json::Converters::XObjectWrapper {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr XProcessingInstructionWrapper(XProcessingInstructionWrapper const& ) n
 constexpr XProcessingInstructionWrapper(XProcessingInstructionWrapper&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XProcessingInstructionWrapper(void* ptr) noexcept : ::Newtonsoft::Json::Converters::XObjectWrapper(ptr) {
+constexpr explicit XProcessingInstructionWrapper(void* ptr) noexcept : Newtonsoft::Json::Converters::XObjectWrapper(ptr) {
 }
 
 
@@ -52,7 +51,7 @@ constexpr explicit XProcessingInstructionWrapper(void* ptr) noexcept : ::Newtons
 
 // Properties
 
- ::System::Xml::Linq::XProcessingInstruction __declspec(property(get=get_ProcessingInstruction))  ProcessingInstruction;
+ System::Xml::Linq::XProcessingInstruction __declspec(property(get=get_ProcessingInstruction))  ProcessingInstruction;
 
  ::StringW __declspec(property(get=get_LocalName))  LocalName;
 
@@ -62,13 +61,13 @@ constexpr explicit XProcessingInstructionWrapper(void* ptr) noexcept : ::Newtons
 // Methods
 
 /// @brief Method get_ProcessingInstruction addr 0x254486c size 0x78 virtual false final false
- ::System::Xml::Linq::XProcessingInstruction get_ProcessingInstruction() ;
+ System::Xml::Linq::XProcessingInstruction get_ProcessingInstruction() ;
 
-// Ctor Parameters [CppParam { name: "processingInstruction", ty: "::System::Xml::Linq::XProcessingInstruction", modifiers: "", def_value: None }]
-explicit XProcessingInstructionWrapper(::System::Xml::Linq::XProcessingInstruction processingInstruction) ;
+// Ctor Parameters [CppParam { name: "processingInstruction", ty: "System::Xml::Linq::XProcessingInstruction", modifiers: "", def_value: None }]
+explicit XProcessingInstructionWrapper(System::Xml::Linq::XProcessingInstruction processingInstruction) ;
 
 /// @brief Method .ctor addr 0x2543b48 size 0x6c virtual false final false
- void _ctor(::System::Xml::Linq::XProcessingInstruction processingInstruction) ;
+ void _ctor(System::Xml::Linq::XProcessingInstruction processingInstruction) ;
 
 /// @brief Method get_LocalName addr 0x25448e4 size 0x1c virtual true final false
  ::StringW get_LocalName() ;
@@ -83,6 +82,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Converters
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Converters::XProcessingInstructionWrapper);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Converters::XProcessingInstructionWrapper, "Newtonsoft.Json.Converters", "XProcessingInstructionWrapper");
+NEED_NO_BOX(Newtonsoft::Json::Converters::XProcessingInstructionWrapper);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Converters::XProcessingInstructionWrapper, "Newtonsoft.Json.Converters", "XProcessingInstructionWrapper");

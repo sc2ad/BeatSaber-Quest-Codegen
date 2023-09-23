@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class IDerivationParameters;
 }
@@ -23,8 +22,8 @@ namespace Org::BouncyCastle::Crypto::Agreement::Kdf {
 class CORDL_TYPE DHKdfParameters : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IDerivationParameters
-constexpr operator  ::Org::BouncyCastle::Crypto::IDerivationParameters() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IDerivationParameters
+constexpr operator  Org::BouncyCastle::Crypto::IDerivationParameters() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -59,11 +58,11 @@ constexpr explicit DHKdfParameters(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Fields
 
- ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_algorithm, put=__set_algorithm))  algorithm;
+ Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_algorithm, put=__set_algorithm))  algorithm;
 
-constexpr void __set_algorithm(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+constexpr void __set_algorithm(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_algorithm() const;
+constexpr Org::BouncyCastle::Asn1::DerObjectIdentifier __get_algorithm() const;
 
  int32_t __declspec(property(get=__get_keySize, put=__set_keySize))  keySize;
 
@@ -86,27 +85,27 @@ constexpr ::ArrayW<uint8_t> __get_extraInfo() const;
 
 // Properties
 
- ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=get_Algorithm))  Algorithm;
+ Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=get_Algorithm))  Algorithm;
 
  int32_t __declspec(property(get=get_KeySize))  KeySize;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "::Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "keySize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "z", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit DHKdfParameters(::Org::BouncyCastle::Asn1::DerObjectIdentifier algorithm, int32_t keySize, ::ArrayW<uint8_t> z) ;
+// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "keySize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "z", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
+explicit DHKdfParameters(Org::BouncyCastle::Asn1::DerObjectIdentifier algorithm, int32_t keySize, ::ArrayW<uint8_t> z) ;
 
 /// @brief Method .ctor addr 0x118bba4 size 0x40 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier algorithm, int32_t keySize, ::ArrayW<uint8_t> z) ;
+ void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier algorithm, int32_t keySize, ::ArrayW<uint8_t> z) ;
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "::Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "keySize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "z", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "extraInfo", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit DHKdfParameters(::Org::BouncyCastle::Asn1::DerObjectIdentifier algorithm, int32_t keySize, ::ArrayW<uint8_t> z, ::ArrayW<uint8_t> extraInfo) ;
+// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "keySize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "z", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "extraInfo", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
+explicit DHKdfParameters(Org::BouncyCastle::Asn1::DerObjectIdentifier algorithm, int32_t keySize, ::ArrayW<uint8_t> z, ::ArrayW<uint8_t> extraInfo) ;
 
 /// @brief Method .ctor addr 0x118bbe4 size 0x44 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier algorithm, int32_t keySize, ::ArrayW<uint8_t> z, ::ArrayW<uint8_t> extraInfo) ;
+ void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier algorithm, int32_t keySize, ::ArrayW<uint8_t> z, ::ArrayW<uint8_t> extraInfo) ;
 
 /// @brief Method get_Algorithm addr 0x118bc28 size 0x8 virtual false final false
- ::Org::BouncyCastle::Asn1::DerObjectIdentifier get_Algorithm() ;
+ Org::BouncyCastle::Asn1::DerObjectIdentifier get_Algorithm() ;
 
 /// @brief Method get_KeySize addr 0x118bc30 size 0x8 virtual false final false
  int32_t get_KeySize() ;
@@ -121,6 +120,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Agreement::Kdf
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters, "Org.BouncyCastle.Crypto.Agreement.Kdf", "DHKdfParameters");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters, "Org.BouncyCastle.Crypto.Agreement.Kdf", "DHKdfParameters");

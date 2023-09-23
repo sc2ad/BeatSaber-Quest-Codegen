@@ -4,32 +4,31 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 class OVRHapticsClip;
-}
-namespace GlobalNamespace {
-class OVRNativeBuffer;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace GlobalNamespace {
+class OVRNativeBuffer;
+}
 // Forward declare root types
 namespace GlobalNamespace {
+class GlobalNamespace__OVRHaptics__Config;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRHaptics__OVRHapticsChannel;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRHaptics__OVRHapticsOutput;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker;
+}
+namespace GlobalNamespace {
 class OVRHaptics;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__OVRHaptics__Config;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__OVRHaptics__OVRHapticsChannel;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__OVRHaptics__OVRHapticsOutput;
-}
-namespace GlobalNamespace {
-class ______GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker;
 }
 // Type: ::Config
 namespace GlobalNamespace {
@@ -37,37 +36,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8487))
 // CS Name: OVRHaptics::Config
-class CORDL_TYPE ____GlobalNamespace__OVRHaptics__Config : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__OVRHaptics__Config : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____GlobalNamespace__OVRHaptics__Config() = default;
+virtual ~GlobalNamespace__OVRHaptics__Config() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OVRHaptics__Config", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__OVRHaptics__Config(____GlobalNamespace__OVRHaptics__Config const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OVRHaptics__Config", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__OVRHaptics__Config(GlobalNamespace__OVRHaptics__Config const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OVRHaptics__Config", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__OVRHaptics__Config(____GlobalNamespace__OVRHaptics__Config&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OVRHaptics__Config", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__OVRHaptics__Config(GlobalNamespace__OVRHaptics__Config&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVRHaptics__Config(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__OVRHaptics__Config(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__OVRHaptics__Config& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__OVRHaptics__Config& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OVRHaptics__Config& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__OVRHaptics__Config& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OVRHaptics__Config& operator=(____GlobalNamespace__OVRHaptics__Config&& o) noexcept = default;
-  constexpr ____GlobalNamespace__OVRHaptics__Config& operator=(____GlobalNamespace__OVRHaptics__Config const& o) noexcept = default;
+  constexpr GlobalNamespace__OVRHaptics__Config& operator=(GlobalNamespace__OVRHaptics__Config&& o) noexcept = default;
+  constexpr GlobalNamespace__OVRHaptics__Config& operator=(GlobalNamespace__OVRHaptics__Config const& o) noexcept = default;
                 
 
 
@@ -176,65 +175,65 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8488))
 // CS Name: OVRHaptics::OVRHapticsChannel
-class CORDL_TYPE ____GlobalNamespace__OVRHaptics__OVRHapticsChannel : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__OVRHaptics__OVRHapticsChannel : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____GlobalNamespace__OVRHaptics__OVRHapticsChannel() = default;
+virtual ~GlobalNamespace__OVRHaptics__OVRHapticsChannel() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OVRHaptics__OVRHapticsChannel", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__OVRHaptics__OVRHapticsChannel(____GlobalNamespace__OVRHaptics__OVRHapticsChannel const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OVRHaptics__OVRHapticsChannel", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__OVRHaptics__OVRHapticsChannel(GlobalNamespace__OVRHaptics__OVRHapticsChannel const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OVRHaptics__OVRHapticsChannel", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__OVRHaptics__OVRHapticsChannel(____GlobalNamespace__OVRHaptics__OVRHapticsChannel&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OVRHaptics__OVRHapticsChannel", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__OVRHaptics__OVRHapticsChannel(GlobalNamespace__OVRHaptics__OVRHapticsChannel&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVRHaptics__OVRHapticsChannel(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__OVRHaptics__OVRHapticsChannel(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__OVRHaptics__OVRHapticsChannel& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__OVRHaptics__OVRHapticsChannel& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OVRHaptics__OVRHapticsChannel& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__OVRHaptics__OVRHapticsChannel& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OVRHaptics__OVRHapticsChannel& operator=(____GlobalNamespace__OVRHaptics__OVRHapticsChannel&& o) noexcept = default;
-  constexpr ____GlobalNamespace__OVRHaptics__OVRHapticsChannel& operator=(____GlobalNamespace__OVRHaptics__OVRHapticsChannel const& o) noexcept = default;
+  constexpr GlobalNamespace__OVRHaptics__OVRHapticsChannel& operator=(GlobalNamespace__OVRHaptics__OVRHapticsChannel&& o) noexcept = default;
+  constexpr GlobalNamespace__OVRHaptics__OVRHapticsChannel& operator=(GlobalNamespace__OVRHaptics__OVRHapticsChannel const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::GlobalNamespace::____GlobalNamespace__OVRHaptics__OVRHapticsOutput __declspec(property(get=__get_m_output, put=__set_m_output))  m_output;
+ GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsOutput __declspec(property(get=__get_m_output, put=__set_m_output))  m_output;
 
-constexpr void __set_m_output(::GlobalNamespace::____GlobalNamespace__OVRHaptics__OVRHapticsOutput value) ;
+constexpr void __set_m_output(GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsOutput value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVRHaptics__OVRHapticsOutput __get_m_output() const;
+constexpr GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsOutput __get_m_output() const;
 
 
 // Methods
 
 // Ctor Parameters [CppParam { name: "outputIndex", ty: "uint32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__OVRHaptics__OVRHapticsChannel(uint32_t outputIndex) ;
+explicit GlobalNamespace__OVRHaptics__OVRHapticsChannel(uint32_t outputIndex) ;
 
 /// @brief Method .ctor addr 0x25b9fb4 size 0x98 virtual false final false
  void _ctor(uint32_t outputIndex) ;
 
 /// @brief Method Preempt addr 0x25bafd0 size 0x18 virtual false final false
- void Preempt(::GlobalNamespace::OVRHapticsClip clip) ;
+ void Preempt(GlobalNamespace::OVRHapticsClip clip) ;
 
 /// @brief Method Queue addr 0x25bb108 size 0x18 virtual false final false
- void Queue(::GlobalNamespace::OVRHapticsClip clip) ;
+ void Queue(GlobalNamespace::OVRHapticsClip clip) ;
 
 /// @brief Method Mix addr 0x25bb208 size 0x18 virtual false final false
- void Mix(::GlobalNamespace::OVRHapticsClip clip) ;
+ void Mix(GlobalNamespace::OVRHapticsClip clip) ;
 
 /// @brief Method Clear addr 0x25bb6d8 size 0x18 virtual false final false
  void Clear() ;
@@ -249,37 +248,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8489))
 // CS Name: OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker
-class CORDL_TYPE ______GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~______GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker() = default;
+virtual ~GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "______GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker", modifiers: " const&", def_value: None }]
-constexpr ______GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker(______GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker(GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "______GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker", modifiers: "&&", def_value: None }]
-constexpr ______GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker(______GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker(GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ______GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ______GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ______GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ______GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker& operator=(______GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker&& o) noexcept = default;
-  constexpr ______GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker& operator=(______GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker const& o) noexcept = default;
+  constexpr GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker& operator=(GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker&& o) noexcept = default;
+  constexpr GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker& operator=(GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker const& o) noexcept = default;
                 
 
 
@@ -291,18 +290,18 @@ constexpr void __set__ReadCount_k__BackingField(int32_t value) ;
 
 constexpr int32_t __get__ReadCount_k__BackingField() const;
 
- ::GlobalNamespace::OVRHapticsClip __declspec(property(get=__get__Clip_k__BackingField, put=__set__Clip_k__BackingField))  _Clip_k__BackingField;
+ GlobalNamespace::OVRHapticsClip __declspec(property(get=__get__Clip_k__BackingField, put=__set__Clip_k__BackingField))  _Clip_k__BackingField;
 
-constexpr void __set__Clip_k__BackingField(::GlobalNamespace::OVRHapticsClip value) ;
+constexpr void __set__Clip_k__BackingField(GlobalNamespace::OVRHapticsClip value) ;
 
-constexpr ::GlobalNamespace::OVRHapticsClip __get__Clip_k__BackingField() const;
+constexpr GlobalNamespace::OVRHapticsClip __get__Clip_k__BackingField() const;
 
 
 // Properties
 
  int32_t __declspec(property(get=get_ReadCount, put=set_ReadCount))  ReadCount;
 
- ::GlobalNamespace::OVRHapticsClip __declspec(property(get=get_Clip, put=set_Clip))  Clip;
+ GlobalNamespace::OVRHapticsClip __declspec(property(get=get_Clip, put=set_Clip))  Clip;
 
 
 // Methods
@@ -314,16 +313,16 @@ constexpr ::GlobalNamespace::OVRHapticsClip __get__Clip_k__BackingField() const;
  void set_ReadCount(int32_t value) ;
 
 /// @brief Method get_Clip addr 0x25bbaa0 size 0x8 virtual false final false
- ::GlobalNamespace::OVRHapticsClip get_Clip() ;
+ GlobalNamespace::OVRHapticsClip get_Clip() ;
 
 /// @brief Method set_Clip addr 0x25bbaa8 size 0x8 virtual false final false
- void set_Clip(::GlobalNamespace::OVRHapticsClip value) ;
+ void set_Clip(GlobalNamespace::OVRHapticsClip value) ;
 
-// Ctor Parameters [CppParam { name: "clip", ty: "::GlobalNamespace::OVRHapticsClip", modifiers: "", def_value: None }]
-explicit ______GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker(::GlobalNamespace::OVRHapticsClip clip) ;
+// Ctor Parameters [CppParam { name: "clip", ty: "GlobalNamespace::OVRHapticsClip", modifiers: "", def_value: None }]
+explicit GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker(GlobalNamespace::OVRHapticsClip clip) ;
 
 /// @brief Method .ctor addr 0x25bb860 size 0x28 virtual false final false
- void _ctor(::GlobalNamespace::OVRHapticsClip clip) ;
+ void _ctor(GlobalNamespace::OVRHapticsClip clip) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -335,39 +334,39 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8490))
 // CS Name: OVRHaptics::OVRHapticsOutput
-class CORDL_TYPE ____GlobalNamespace__OVRHaptics__OVRHapticsOutput : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__OVRHaptics__OVRHapticsOutput : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using ClipPlaybackTracker = ::GlobalNamespace::______GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker;
+using ClipPlaybackTracker = GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x50};
 
-virtual ~____GlobalNamespace__OVRHaptics__OVRHapticsOutput() = default;
+virtual ~GlobalNamespace__OVRHaptics__OVRHapticsOutput() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OVRHaptics__OVRHapticsOutput", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__OVRHaptics__OVRHapticsOutput(____GlobalNamespace__OVRHaptics__OVRHapticsOutput const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OVRHaptics__OVRHapticsOutput", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__OVRHaptics__OVRHapticsOutput(GlobalNamespace__OVRHaptics__OVRHapticsOutput const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OVRHaptics__OVRHapticsOutput", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__OVRHaptics__OVRHapticsOutput(____GlobalNamespace__OVRHaptics__OVRHapticsOutput&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OVRHaptics__OVRHapticsOutput", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__OVRHaptics__OVRHapticsOutput(GlobalNamespace__OVRHaptics__OVRHapticsOutput&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVRHaptics__OVRHapticsOutput(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__OVRHaptics__OVRHapticsOutput(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__OVRHaptics__OVRHapticsOutput& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__OVRHaptics__OVRHapticsOutput& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OVRHaptics__OVRHapticsOutput& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__OVRHaptics__OVRHapticsOutput& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OVRHaptics__OVRHapticsOutput& operator=(____GlobalNamespace__OVRHaptics__OVRHapticsOutput&& o) noexcept = default;
-  constexpr ____GlobalNamespace__OVRHaptics__OVRHapticsOutput& operator=(____GlobalNamespace__OVRHaptics__OVRHapticsOutput const& o) noexcept = default;
+  constexpr GlobalNamespace__OVRHaptics__OVRHapticsOutput& operator=(GlobalNamespace__OVRHaptics__OVRHapticsOutput&& o) noexcept = default;
+  constexpr GlobalNamespace__OVRHaptics__OVRHapticsOutput& operator=(GlobalNamespace__OVRHaptics__OVRHapticsOutput const& o) noexcept = default;
                 
 
 
@@ -415,11 +414,11 @@ constexpr void __set_m_numUnderruns(int32_t value) ;
 
 constexpr int32_t __get_m_numUnderruns() const;
 
- ::System::Collections::Generic::List_1<::GlobalNamespace::______GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker> __declspec(property(get=__get_m_pendingClips, put=__set_m_pendingClips))  m_pendingClips;
+ System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker> __declspec(property(get=__get_m_pendingClips, put=__set_m_pendingClips))  m_pendingClips;
 
-constexpr void __set_m_pendingClips(::System::Collections::Generic::List_1<::GlobalNamespace::______GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker> value) ;
+constexpr void __set_m_pendingClips(System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::______GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker> __get_m_pendingClips() const;
+constexpr System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker> __get_m_pendingClips() const;
 
  uint32_t __declspec(property(get=__get_m_controller, put=__set_m_controller))  m_controller;
 
@@ -427,17 +426,17 @@ constexpr void __set_m_controller(uint32_t value) ;
 
 constexpr uint32_t __get_m_controller() const;
 
- ::GlobalNamespace::OVRNativeBuffer __declspec(property(get=__get_m_nativeBuffer, put=__set_m_nativeBuffer))  m_nativeBuffer;
+ GlobalNamespace::OVRNativeBuffer __declspec(property(get=__get_m_nativeBuffer, put=__set_m_nativeBuffer))  m_nativeBuffer;
 
-constexpr void __set_m_nativeBuffer(::GlobalNamespace::OVRNativeBuffer value) ;
+constexpr void __set_m_nativeBuffer(GlobalNamespace::OVRNativeBuffer value) ;
 
-constexpr ::GlobalNamespace::OVRNativeBuffer __get_m_nativeBuffer() const;
+constexpr GlobalNamespace::OVRNativeBuffer __get_m_nativeBuffer() const;
 
- ::GlobalNamespace::OVRHapticsClip __declspec(property(get=__get_m_paddingClip, put=__set_m_paddingClip))  m_paddingClip;
+ GlobalNamespace::OVRHapticsClip __declspec(property(get=__get_m_paddingClip, put=__set_m_paddingClip))  m_paddingClip;
 
-constexpr void __set_m_paddingClip(::GlobalNamespace::OVRHapticsClip value) ;
+constexpr void __set_m_paddingClip(GlobalNamespace::OVRHapticsClip value) ;
 
-constexpr ::GlobalNamespace::OVRHapticsClip __get_m_paddingClip() const;
+constexpr GlobalNamespace::OVRHapticsClip __get_m_paddingClip() const;
 
  int32_t __declspec(property(get=__get_PrevSampleRateHz, put=__set_PrevSampleRateHz))  PrevSampleRateHz;
 
@@ -449,7 +448,7 @@ constexpr int32_t __get_PrevSampleRateHz() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "controller", ty: "uint32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__OVRHaptics__OVRHapticsOutput(uint32_t controller) ;
+explicit GlobalNamespace__OVRHaptics__OVRHapticsOutput(uint32_t controller) ;
 
 /// @brief Method .ctor addr 0x25b9e10 size 0x1a4 virtual false final false
  void _ctor(uint32_t controller) ;
@@ -458,13 +457,13 @@ explicit ____GlobalNamespace__OVRHaptics__OVRHapticsOutput(uint32_t controller) 
  void Process() ;
 
 /// @brief Method Preempt addr 0x25bafe8 size 0x120 virtual false final false
- void Preempt(::GlobalNamespace::OVRHapticsClip clip) ;
+ void Preempt(GlobalNamespace::OVRHapticsClip clip) ;
 
 /// @brief Method Queue addr 0x25bb120 size 0xe8 virtual false final false
- void Queue(::GlobalNamespace::OVRHapticsClip clip) ;
+ void Queue(GlobalNamespace::OVRHapticsClip clip) ;
 
 /// @brief Method Mix addr 0x25bb220 size 0x4b8 virtual false final false
- void Mix(::GlobalNamespace::OVRHapticsClip clip) ;
+ void Mix(GlobalNamespace::OVRHapticsClip clip) ;
 
 /// @brief Method Clear addr 0x25bb6f0 size 0x70 virtual false final false
  void Clear() ;
@@ -482,11 +481,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRHaptics : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using OVRHapticsOutput = ::GlobalNamespace::____GlobalNamespace__OVRHaptics__OVRHapticsOutput;
+using OVRHapticsOutput = GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsOutput;
 
-using OVRHapticsChannel = ::GlobalNamespace::____GlobalNamespace__OVRHaptics__OVRHapticsChannel;
+using OVRHapticsChannel = GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsChannel;
 
-using Config = ::GlobalNamespace::____GlobalNamespace__OVRHaptics__Config;
+using Config = GlobalNamespace::GlobalNamespace__OVRHaptics__Config;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -521,29 +520,29 @@ constexpr explicit OVRHaptics(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType
 
 // Fields
 
-static ::ArrayW<::GlobalNamespace::____GlobalNamespace__OVRHaptics__OVRHapticsChannel> __declspec(property(get=__get_Channels, put=__set_Channels))  Channels;
+static ::ArrayW<GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsChannel> __declspec(property(get=__get_Channels, put=__set_Channels))  Channels;
 
-static void __set_Channels(::ArrayW<::GlobalNamespace::____GlobalNamespace__OVRHaptics__OVRHapticsChannel> value) ;
+static void __set_Channels(::ArrayW<GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsChannel> value) ;
 
-static ::ArrayW<::GlobalNamespace::____GlobalNamespace__OVRHaptics__OVRHapticsChannel> __get_Channels() ;
+static ::ArrayW<GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsChannel> __get_Channels() ;
 
-static ::GlobalNamespace::____GlobalNamespace__OVRHaptics__OVRHapticsChannel __declspec(property(get=__get_LeftChannel, put=__set_LeftChannel))  LeftChannel;
+static GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsChannel __declspec(property(get=__get_LeftChannel, put=__set_LeftChannel))  LeftChannel;
 
-static void __set_LeftChannel(::GlobalNamespace::____GlobalNamespace__OVRHaptics__OVRHapticsChannel value) ;
+static void __set_LeftChannel(GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsChannel value) ;
 
-static ::GlobalNamespace::____GlobalNamespace__OVRHaptics__OVRHapticsChannel __get_LeftChannel() ;
+static GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsChannel __get_LeftChannel() ;
 
-static ::GlobalNamespace::____GlobalNamespace__OVRHaptics__OVRHapticsChannel __declspec(property(get=__get_RightChannel, put=__set_RightChannel))  RightChannel;
+static GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsChannel __declspec(property(get=__get_RightChannel, put=__set_RightChannel))  RightChannel;
 
-static void __set_RightChannel(::GlobalNamespace::____GlobalNamespace__OVRHaptics__OVRHapticsChannel value) ;
+static void __set_RightChannel(GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsChannel value) ;
 
-static ::GlobalNamespace::____GlobalNamespace__OVRHaptics__OVRHapticsChannel __get_RightChannel() ;
+static GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsChannel __get_RightChannel() ;
 
-static ::ArrayW<::GlobalNamespace::____GlobalNamespace__OVRHaptics__OVRHapticsOutput> __declspec(property(get=__get_m_outputs, put=__set_m_outputs))  m_outputs;
+static ::ArrayW<GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsOutput> __declspec(property(get=__get_m_outputs, put=__set_m_outputs))  m_outputs;
 
-static void __set_m_outputs(::ArrayW<::GlobalNamespace::____GlobalNamespace__OVRHaptics__OVRHapticsOutput> value) ;
+static void __set_m_outputs(::ArrayW<GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsOutput> value) ;
 
-static ::ArrayW<::GlobalNamespace::____GlobalNamespace__OVRHaptics__OVRHapticsOutput> __get_m_outputs() ;
+static ::ArrayW<GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsOutput> __get_m_outputs() ;
 
 
 // Methods
@@ -555,14 +554,13 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OVRHaptics);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRHaptics, "", "OVRHaptics");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__OVRHaptics__Config);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVRHaptics__Config, "", "OVRHaptics/Config");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__OVRHaptics__OVRHapticsChannel);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVRHaptics__OVRHapticsChannel, "", "OVRHaptics/OVRHapticsChannel");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__OVRHaptics__OVRHapticsOutput);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVRHaptics__OVRHapticsOutput, "", "OVRHaptics/OVRHapticsOutput");
-NEED_NO_BOX(::GlobalNamespace::______GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::______GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker, "", "OVRHaptics/OVRHapticsOutput/ClipPlaybackTracker");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__OVRHaptics__Config);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRHaptics__Config, "", "OVRHaptics/Config");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsChannel);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsChannel, "", "OVRHaptics/OVRHapticsChannel");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsOutput);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsOutput, "", "OVRHaptics/OVRHapticsOutput");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker, "", "OVRHaptics/OVRHapticsOutput/ClipPlaybackTracker");
+NEED_NO_BOX(GlobalNamespace::OVRHaptics);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHaptics, "", "OVRHaptics");

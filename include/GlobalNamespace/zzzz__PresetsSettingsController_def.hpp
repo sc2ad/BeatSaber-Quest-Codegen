@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-class IntSO;
-}
 namespace GlobalNamespace {
 class NamedPresetsSO;
+}
+namespace GlobalNamespace {
+class IntSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5687))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5690))
 // CS Name: PresetsSettingsController
-class CORDL_TYPE PresetsSettingsController : public ::GlobalNamespace::ListSettingsController {
+class CORDL_TYPE PresetsSettingsController : public GlobalNamespace::ListSettingsController {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr PresetsSettingsController(PresetsSettingsController const& ) noexcept 
 constexpr PresetsSettingsController(PresetsSettingsController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PresetsSettingsController(void* ptr) noexcept : ::GlobalNamespace::ListSettingsController(ptr) {
+constexpr explicit PresetsSettingsController(void* ptr) noexcept : GlobalNamespace::ListSettingsController(ptr) {
 }
 
 
@@ -57,17 +56,17 @@ constexpr explicit PresetsSettingsController(void* ptr) noexcept : ::GlobalNames
 
 // Fields
 
- ::GlobalNamespace::IntSO __declspec(property(get=__get__settingsValue, put=__set__settingsValue))  _settingsValue;
+ GlobalNamespace::IntSO __declspec(property(get=__get__settingsValue, put=__set__settingsValue))  _settingsValue;
 
-constexpr void __set__settingsValue(::GlobalNamespace::IntSO value) ;
+constexpr void __set__settingsValue(GlobalNamespace::IntSO value) ;
 
-constexpr ::GlobalNamespace::IntSO __get__settingsValue() const;
+constexpr GlobalNamespace::IntSO __get__settingsValue() const;
 
- ::GlobalNamespace::NamedPresetsSO __declspec(property(get=__get__presets, put=__set__presets))  _presets;
+ GlobalNamespace::NamedPresetsSO __declspec(property(get=__get__presets, put=__set__presets))  _presets;
 
-constexpr void __set__presets(::GlobalNamespace::NamedPresetsSO value) ;
+constexpr void __set__presets(GlobalNamespace::NamedPresetsSO value) ;
 
-constexpr ::GlobalNamespace::NamedPresetsSO __get__presets() const;
+constexpr GlobalNamespace::NamedPresetsSO __get__presets() const;
 
  bool __declspec(property(get=__get__limitNumberOfElements, put=__set__limitNumberOfElements))  _limitNumberOfElements;
 
@@ -103,6 +102,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PresetsSettingsController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PresetsSettingsController, "", "PresetsSettingsController");
+NEED_NO_BOX(GlobalNamespace::PresetsSettingsController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PresetsSettingsController, "", "PresetsSettingsController");

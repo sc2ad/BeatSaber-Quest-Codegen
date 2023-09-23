@@ -1,14 +1,13 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace System::Threading::Tasks {
 class Task;
 }
-namespace GlobalNamespace {
-class IServerBeatmapProvider;
-}
 namespace System {
 class IDisposable;
+}
+namespace GlobalNamespace {
+class IServerBeatmapProvider;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,8 +22,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE IServerBeatmapProviderManager : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 ~IServerBeatmapProviderManager() = default;
 
@@ -36,15 +35,14 @@ constexpr explicit IServerBeatmapProviderManager(void* ptr) noexcept : ::cordl_i
 // Methods
 
 /// @brief Method GetServerBeatmapProvider addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::IServerBeatmapProvider GetServerBeatmapProvider() ;
+ GlobalNamespace::IServerBeatmapProvider GetServerBeatmapProvider() ;
 
 /// @brief Method RefreshAsync addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Threading::Tasks::Task RefreshAsync() ;
+ System::Threading::Tasks::Task RefreshAsync() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IServerBeatmapProviderManager);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IServerBeatmapProviderManager, "", "IServerBeatmapProviderManager");
+NEED_NO_BOX(GlobalNamespace::IServerBeatmapProviderManager);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IServerBeatmapProviderManager, "", "IServerBeatmapProviderManager");

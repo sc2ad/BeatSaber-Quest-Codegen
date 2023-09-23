@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Threading {
 class Thread;
 }
@@ -61,11 +60,11 @@ static void __set_OptimalMaxSpinWaitsPerSpinIteration(int32_t value) ;
 
 static int32_t __get_OptimalMaxSpinWaitsPerSpinIteration() ;
 
- ::System::Threading::Thread __declspec(property(get=__get_thread, put=__set_thread))  thread;
+ System::Threading::Thread __declspec(property(get=__get_thread, put=__set_thread))  thread;
 
-constexpr void __set_thread(::System::Threading::Thread value) ;
+constexpr void __set_thread(System::Threading::Thread value) ;
 
-constexpr ::System::Threading::Thread __get_thread() const;
+constexpr System::Threading::Thread __get_thread() const;
 
 
 // Properties
@@ -75,14 +74,14 @@ constexpr ::System::Threading::Thread __get_thread() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "t", ty: "::System::Threading::Thread", modifiers: "", def_value: None }]
-explicit RuntimeThread(::System::Threading::Thread t) ;
+// Ctor Parameters [CppParam { name: "t", ty: "System::Threading::Thread", modifiers: "", def_value: None }]
+explicit RuntimeThread(System::Threading::Thread t) ;
 
 /// @brief Method .ctor addr 0x22bf100 size 0x28 virtual false final false
- void _ctor(::System::Threading::Thread t) ;
+ void _ctor(System::Threading::Thread t) ;
 
 /// @brief Method Create addr 0x22bf128 size 0xa4 virtual false final false
-static ::Internal::Runtime::Augments::RuntimeThread Create(::System::Threading::ParameterizedThreadStart start, int32_t maxStackSize) ;
+static Internal::Runtime::Augments::RuntimeThread Create(System::Threading::ParameterizedThreadStart start, int32_t maxStackSize) ;
 
 /// @brief Method set_IsBackground addr 0x22bf1cc size 0x20 virtual false final false
  void set_IsBackground(bool value) ;
@@ -106,6 +105,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Internal::Runtime::Augments
-} // end anonymous namespace
-NEED_NO_BOX(::Internal::Runtime::Augments::RuntimeThread);
-DEFINE_IL2CPP_ARG_TYPE(::Internal::Runtime::Augments::RuntimeThread, "Internal.Runtime.Augments", "RuntimeThread");
+NEED_NO_BOX(Internal::Runtime::Augments::RuntimeThread);
+DEFINE_IL2CPP_ARG_TYPE(Internal::Runtime::Augments::RuntimeThread, "Internal.Runtime.Augments", "RuntimeThread");

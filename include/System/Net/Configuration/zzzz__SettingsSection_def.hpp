@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Configuration/zzzz__ConfigurationSection_def.hpp"
-namespace {
 namespace System::Configuration {
 class ConfigurationPropertyCollection;
 }
@@ -15,7 +14,7 @@ namespace System::Net::Configuration {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16073))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8425))
 // CS Name: System.Net.Configuration.SettingsSection
-class CORDL_TYPE SettingsSection : public ::System::Configuration::ConfigurationSection {
+class CORDL_TYPE SettingsSection : public System::Configuration::ConfigurationSection {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr SettingsSection(SettingsSection const& ) noexcept = default;
 constexpr SettingsSection(SettingsSection&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SettingsSection(void* ptr) noexcept : ::System::Configuration::ConfigurationSection(ptr) {
+constexpr explicit SettingsSection(void* ptr) noexcept : System::Configuration::ConfigurationSection(ptr) {
 }
 
 
@@ -51,7 +50,7 @@ constexpr explicit SettingsSection(void* ptr) noexcept : ::System::Configuration
 
 // Properties
 
- ::System::Configuration::ConfigurationPropertyCollection __declspec(property(get=get_Properties))  Properties;
+ System::Configuration::ConfigurationPropertyCollection __declspec(property(get=get_Properties))  Properties;
 
 
 // Methods
@@ -63,12 +62,11 @@ explicit SettingsSection() ;
  void _ctor() ;
 
 /// @brief Method get_Properties addr 0x27b2554 size 0x38 virtual true final false
- ::System::Configuration::ConfigurationPropertyCollection get_Properties() ;
+ System::Configuration::ConfigurationPropertyCollection get_Properties() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Configuration
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Configuration::SettingsSection);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Configuration::SettingsSection, "System.Net.Configuration", "SettingsSection");
+NEED_NO_BOX(System::Net::Configuration::SettingsSection);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::SettingsSection, "System.Net.Configuration", "SettingsSection");

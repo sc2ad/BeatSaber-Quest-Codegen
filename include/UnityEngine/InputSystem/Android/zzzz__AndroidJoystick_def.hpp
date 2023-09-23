@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/zzzz__Joystick_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem::Android {
 class AndroidJoystick;
@@ -12,7 +11,7 @@ namespace UnityEngine::InputSystem::Android {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6324))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6512))
 // CS Name: UnityEngine.InputSystem.Android.AndroidJoystick
-class CORDL_TYPE AndroidJoystick : public ::UnityEngine::InputSystem::Joystick {
+class CORDL_TYPE AndroidJoystick : public UnityEngine::InputSystem::Joystick {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr AndroidJoystick(AndroidJoystick const& ) noexcept = default;
 constexpr AndroidJoystick(AndroidJoystick&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AndroidJoystick(void* ptr) noexcept : ::UnityEngine::InputSystem::Joystick(ptr) {
+constexpr explicit AndroidJoystick(void* ptr) noexcept : UnityEngine::InputSystem::Joystick(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Android
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Android::AndroidJoystick);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Android::AndroidJoystick, "UnityEngine.InputSystem.Android", "AndroidJoystick");
+NEED_NO_BOX(UnityEngine::InputSystem::Android::AndroidJoystick);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Android::AndroidJoystick, "UnityEngine.InputSystem.Android", "AndroidJoystick");

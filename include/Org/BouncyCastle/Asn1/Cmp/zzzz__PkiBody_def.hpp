@@ -3,18 +3,17 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class IAsn1Choice;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {
@@ -26,11 +25,11 @@ namespace Org::BouncyCastle::Asn1::Cmp {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(29))
 // CS Name: Org.BouncyCastle.Asn1.Cmp.PkiBody
-class CORDL_TYPE PkiBody : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
+class CORDL_TYPE PkiBody : public Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Asn1::IAsn1Choice
-constexpr operator  ::Org::BouncyCastle::Asn1::IAsn1Choice() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Asn1::IAsn1Choice
+constexpr operator  Org::BouncyCastle::Asn1::IAsn1Choice() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -44,7 +43,7 @@ constexpr PkiBody(PkiBody const& ) noexcept = default;
 constexpr PkiBody(PkiBody&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PkiBody(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
+constexpr explicit PkiBody(void* ptr) noexcept : Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
 }
 
 
@@ -152,53 +151,52 @@ constexpr void __set_tagNo(int32_t value) ;
 
 constexpr int32_t __get_tagNo() const;
 
- ::Org::BouncyCastle::Asn1::Asn1Encodable __declspec(property(get=__get_body, put=__set_body))  body;
+ Org::BouncyCastle::Asn1::Asn1Encodable __declspec(property(get=__get_body, put=__set_body))  body;
 
-constexpr void __set_body(::Org::BouncyCastle::Asn1::Asn1Encodable value) ;
+constexpr void __set_body(Org::BouncyCastle::Asn1::Asn1Encodable value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable __get_body() const;
+constexpr Org::BouncyCastle::Asn1::Asn1Encodable __get_body() const;
 
 
 // Properties
 
  int32_t __declspec(property(get=get_Type))  Type;
 
- ::Org::BouncyCastle::Asn1::Asn1Encodable __declspec(property(get=get_Content))  Content;
+ Org::BouncyCastle::Asn1::Asn1Encodable __declspec(property(get=get_Content))  Content;
 
 
 // Methods
 
 /// @brief Method GetInstance addr 0xddbf7c size 0x188 virtual false final false
-static ::Org::BouncyCastle::Asn1::Cmp::PkiBody GetInstance(::bs_hook::Il2CppWrapperType obj) ;
+static Org::BouncyCastle::Asn1::Cmp::PkiBody GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "tagged", ty: "::Org::BouncyCastle::Asn1::Asn1TaggedObject", modifiers: "", def_value: None }]
-explicit PkiBody(::Org::BouncyCastle::Asn1::Asn1TaggedObject tagged) ;
+// Ctor Parameters [CppParam { name: "tagged", ty: "Org::BouncyCastle::Asn1::Asn1TaggedObject", modifiers: "", def_value: None }]
+explicit PkiBody(Org::BouncyCastle::Asn1::Asn1TaggedObject tagged) ;
 
 /// @brief Method .ctor addr 0xddc104 size 0x50 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject tagged) ;
+ void _ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject tagged) ;
 
-// Ctor Parameters [CppParam { name: "type", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "content", ty: "::Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit PkiBody(int32_t type, ::Org::BouncyCastle::Asn1::Asn1Encodable content) ;
+// Ctor Parameters [CppParam { name: "type", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "content", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
+explicit PkiBody(int32_t type, Org::BouncyCastle::Asn1::Asn1Encodable content) ;
 
 /// @brief Method .ctor addr 0xddc2b0 size 0x3c virtual false final false
- void _ctor(int32_t type, ::Org::BouncyCastle::Asn1::Asn1Encodable content) ;
+ void _ctor(int32_t type, Org::BouncyCastle::Asn1::Asn1Encodable content) ;
 
 /// @brief Method GetBodyForType addr 0xddc154 size 0x15c virtual false final false
-static ::Org::BouncyCastle::Asn1::Asn1Encodable GetBodyForType(int32_t type, ::Org::BouncyCastle::Asn1::Asn1Encodable o) ;
+static Org::BouncyCastle::Asn1::Asn1Encodable GetBodyForType(int32_t type, Org::BouncyCastle::Asn1::Asn1Encodable o) ;
 
 /// @brief Method get_Type addr 0xddd090 size 0x8 virtual true final false
  int32_t get_Type() ;
 
 /// @brief Method get_Content addr 0xddd098 size 0x8 virtual true final false
- ::Org::BouncyCastle::Asn1::Asn1Encodable get_Content() ;
+ Org::BouncyCastle::Asn1::Asn1Encodable get_Content() ;
 
 /// @brief Method ToAsn1Object addr 0xddd0a0 size 0x74 virtual true final false
- ::Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
+ Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::Cmp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cmp::PkiBody);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Cmp::PkiBody, "Org.BouncyCastle.Asn1.Cmp", "PkiBody");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Cmp::PkiBody);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Cmp::PkiBody, "Org.BouncyCastle.Asn1.Cmp", "PkiBody");

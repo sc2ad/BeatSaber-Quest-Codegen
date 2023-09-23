@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
-namespace GlobalNamespace {
-class IMultiplayerObservable;
-}
 namespace GlobalNamespace {
 class IConnectedPlayer;
+}
+namespace GlobalNamespace {
+class IMultiplayerObservable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,8 +21,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE MultiplayerConnectedPlayerObservable : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IMultiplayerObservable
-constexpr operator  ::GlobalNamespace::IMultiplayerObservable() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IMultiplayerObservable
+constexpr operator  GlobalNamespace::IMultiplayerObservable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -58,11 +57,11 @@ constexpr explicit MultiplayerConnectedPlayerObservable(void* ptr) noexcept : ::
 
 // Fields
 
- ::GlobalNamespace::IConnectedPlayer __declspec(property(get=__get__connectedPlayer, put=__set__connectedPlayer))  _connectedPlayer;
+ GlobalNamespace::IConnectedPlayer __declspec(property(get=__get__connectedPlayer, put=__set__connectedPlayer))  _connectedPlayer;
 
-constexpr void __set__connectedPlayer(::GlobalNamespace::IConnectedPlayer value) ;
+constexpr void __set__connectedPlayer(GlobalNamespace::IConnectedPlayer value) ;
 
-constexpr ::GlobalNamespace::IConnectedPlayer __get__connectedPlayer() const;
+constexpr GlobalNamespace::IConnectedPlayer __get__connectedPlayer() const;
 
 
 // Properties
@@ -74,11 +73,11 @@ constexpr ::GlobalNamespace::IConnectedPlayer __get__connectedPlayer() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "connectedPlayer", ty: "::GlobalNamespace::IConnectedPlayer", modifiers: "", def_value: None }]
-explicit MultiplayerConnectedPlayerObservable(::GlobalNamespace::IConnectedPlayer connectedPlayer) ;
+// Ctor Parameters [CppParam { name: "connectedPlayer", ty: "GlobalNamespace::IConnectedPlayer", modifiers: "", def_value: None }]
+explicit MultiplayerConnectedPlayerObservable(GlobalNamespace::IConnectedPlayer connectedPlayer) ;
 
 /// @brief Method .ctor addr 0x20f1690 size 0x28 virtual false final false
- void _ctor(::GlobalNamespace::IConnectedPlayer connectedPlayer) ;
+ void _ctor(GlobalNamespace::IConnectedPlayer connectedPlayer) ;
 
 /// @brief Method get_offsetSyncTime addr 0x20f16b8 size 0xa4 virtual true final true
  float_t get_offsetSyncTime() ;
@@ -90,6 +89,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerConnectedPlayerObservable);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerConnectedPlayerObservable, "", "MultiplayerConnectedPlayerObservable");
+NEED_NO_BOX(GlobalNamespace::MultiplayerConnectedPlayerObservable);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerObservable, "", "MultiplayerConnectedPlayerObservable");

@@ -5,13 +5,65 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
+namespace GlobalNamespace {
+template<typename T>
+class IConnectionInitParams_1;
+}
+namespace GlobalNamespace {
+class OculusNetworkPlayerModel;
+}
+namespace GlobalNamespace {
+class IConnection;
+}
+namespace BGNet::Core {
+struct DeliveryMethod;
+}
+namespace System {
+template<typename T>
+class IEquatable_1;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
 namespace GlobalNamespace {
 struct ConnectionFailedReason;
+}
+namespace GlobalNamespace {
+class IPollable;
+}
+namespace Oculus::Platform {
+template<typename T>
+class Message_1;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace Oculus::Platform {
+struct SendPolicy;
+}
+namespace System {
+template<typename T1,typename T2,typename T3>
+class Action_3;
+}
+namespace GlobalNamespace {
+struct DisconnectedReason;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace System {
+class Action;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace Oculus::Platform::Models {
+class NetworkingPeer;
 }
 namespace System {
 class IDisposable;
@@ -22,59 +74,6 @@ class IConnectionManager;
 namespace System {
 template<typename T>
 class Action_1;
-}
-namespace GlobalNamespace {
-struct DisconnectedReason;
-}
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
-namespace System {
-template<typename T1,typename T2,typename T3>
-class Action_3;
-}
-namespace Oculus::Platform::Models {
-class NetworkingPeer;
-}
-namespace GlobalNamespace {
-class IPollable;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class IConnection;
-}
-namespace GlobalNamespace {
-template<typename T>
-class IConnectionInitParams_1;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace Oculus::Platform {
-struct SendPolicy;
-}
-namespace GlobalNamespace {
-class OculusNetworkPlayerModel;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace Oculus::Platform {
-template<typename T>
-class Message_1;
-}
-namespace BGNet::Core {
-struct DeliveryMethod;
-}
-namespace System {
-template<typename T>
-class IEquatable_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
@@ -88,22 +87,22 @@ struct TaskAwaiter_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct ____GlobalNamespace__OculusConnectionManager__NetworkMode;
+struct GlobalNamespace__OculusConnectionManager__NetworkMode;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OculusConnectionManager__ConnectToServerParams;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OculusConnectionManager__OculusConnection;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OculusConnectionManager__StartServerParams;
 }
 namespace GlobalNamespace {
 class OculusConnectionManager;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__OculusConnectionManager__ConnectToServerParams;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__OculusConnectionManager__OculusConnection;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__OculusConnectionManager__StartServerParams;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__OculusConnectionManager___HandlePeerConnectionRequest_d__61;
+struct GlobalNamespace__OculusConnectionManager___HandlePeerConnectionRequest_d__61;
 }
 // Type: ::NetworkMode
 namespace GlobalNamespace {
@@ -111,20 +110,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4578))
 // CS Name: OculusConnectionManager::NetworkMode
-struct CORDL_TYPE ____GlobalNamespace__OculusConnectionManager__NetworkMode : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__OculusConnectionManager__NetworkMode : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__OculusConnectionManager__NetworkMode(int32_t value__) noexcept;
+constexpr GlobalNamespace__OculusConnectionManager__NetworkMode(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__OculusConnectionManager__NetworkMode(____GlobalNamespace__OculusConnectionManager__NetworkMode const&) = default;
-                    constexpr ____GlobalNamespace__OculusConnectionManager__NetworkMode(____GlobalNamespace__OculusConnectionManager__NetworkMode&&) = default;
-                    constexpr ____GlobalNamespace__OculusConnectionManager__NetworkMode& operator=(____GlobalNamespace__OculusConnectionManager__NetworkMode const& o) {
+                    constexpr GlobalNamespace__OculusConnectionManager__NetworkMode(GlobalNamespace__OculusConnectionManager__NetworkMode const&) = default;
+                    constexpr GlobalNamespace__OculusConnectionManager__NetworkMode(GlobalNamespace__OculusConnectionManager__NetworkMode&&) = default;
+                    constexpr GlobalNamespace__OculusConnectionManager__NetworkMode& operator=(GlobalNamespace__OculusConnectionManager__NetworkMode const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__OculusConnectionManager__NetworkMode& operator=(____GlobalNamespace__OculusConnectionManager__NetworkMode&& o) noexcept {
+                    constexpr GlobalNamespace__OculusConnectionManager__NetworkMode& operator=(GlobalNamespace__OculusConnectionManager__NetworkMode&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -137,7 +136,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OculusConnectionManager__NetworkMode(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__OculusConnectionManager__NetworkMode(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -145,15 +144,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__OculusConnectionManager__NetworkMode_Unwrapped : int32_t {
+enum class __GlobalNamespace__OculusConnectionManager__NetworkMode_Unwrapped : int32_t {
 __None = 0,
 __Client = 1,
 __Server = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__OculusConnectionManager__NetworkMode_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__OculusConnectionManager__NetworkMode_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__OculusConnectionManager__NetworkMode_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__OculusConnectionManager__NetworkMode_Unwrapped>(__instance);
 }
 
 
@@ -166,13 +165,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::GlobalNamespace::____GlobalNamespace__OculusConnectionManager__NetworkMode const None;
+static GlobalNamespace::GlobalNamespace__OculusConnectionManager__NetworkMode const None;
 
 /// @brief Field Client offset 0
-static ::GlobalNamespace::____GlobalNamespace__OculusConnectionManager__NetworkMode const Client;
+static GlobalNamespace::GlobalNamespace__OculusConnectionManager__NetworkMode const Client;
 
 /// @brief Field Server offset 0
-static ::GlobalNamespace::____GlobalNamespace__OculusConnectionManager__NetworkMode const Server;
+static GlobalNamespace::GlobalNamespace__OculusConnectionManager__NetworkMode const Server;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -184,43 +183,43 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4579))
 // CS Name: OculusConnectionManager::OculusConnection
-class CORDL_TYPE ____GlobalNamespace__OculusConnectionManager__OculusConnection : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__OculusConnectionManager__OculusConnection : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IConnection
-constexpr operator  ::GlobalNamespace::IConnection() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IConnection
+constexpr operator  GlobalNamespace::IConnection() const noexcept;
 
-/// @brief Convert operator to ::System::IEquatable_1<::GlobalNamespace::____GlobalNamespace__OculusConnectionManager__OculusConnection>
-constexpr operator  ::System::IEquatable_1<::GlobalNamespace::____GlobalNamespace__OculusConnectionManager__OculusConnection>() const noexcept;
+/// @brief Convert operator to System::IEquatable_1<GlobalNamespace::GlobalNamespace__OculusConnectionManager__OculusConnection>
+constexpr operator  System::IEquatable_1<GlobalNamespace::GlobalNamespace__OculusConnectionManager__OculusConnection>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____GlobalNamespace__OculusConnectionManager__OculusConnection() = default;
+virtual ~GlobalNamespace__OculusConnectionManager__OculusConnection() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OculusConnectionManager__OculusConnection", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__OculusConnectionManager__OculusConnection(____GlobalNamespace__OculusConnectionManager__OculusConnection const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OculusConnectionManager__OculusConnection", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__OculusConnectionManager__OculusConnection(GlobalNamespace__OculusConnectionManager__OculusConnection const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OculusConnectionManager__OculusConnection", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__OculusConnectionManager__OculusConnection(____GlobalNamespace__OculusConnectionManager__OculusConnection&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OculusConnectionManager__OculusConnection", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__OculusConnectionManager__OculusConnection(GlobalNamespace__OculusConnectionManager__OculusConnection&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OculusConnectionManager__OculusConnection(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__OculusConnectionManager__OculusConnection(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__OculusConnectionManager__OculusConnection& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__OculusConnectionManager__OculusConnection& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OculusConnectionManager__OculusConnection& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__OculusConnectionManager__OculusConnection& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OculusConnectionManager__OculusConnection& operator=(____GlobalNamespace__OculusConnectionManager__OculusConnection&& o) noexcept = default;
-  constexpr ____GlobalNamespace__OculusConnectionManager__OculusConnection& operator=(____GlobalNamespace__OculusConnectionManager__OculusConnection const& o) noexcept = default;
+  constexpr GlobalNamespace__OculusConnectionManager__OculusConnection& operator=(GlobalNamespace__OculusConnectionManager__OculusConnection&& o) noexcept = default;
+  constexpr GlobalNamespace__OculusConnectionManager__OculusConnection& operator=(GlobalNamespace__OculusConnectionManager__OculusConnection const& o) noexcept = default;
                 
 
 
@@ -277,19 +276,19 @@ constexpr bool __get__isConnectionOwner() const;
  bool get_isConnectionOwner() ;
 
 // Ctor Parameters [CppParam { name: "id", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "isConnectionOwner", ty: "bool", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__OculusConnectionManager__OculusConnection(uint64_t id, ::StringW userName, bool isConnectionOwner) ;
+explicit GlobalNamespace__OculusConnectionManager__OculusConnection(uint64_t id, ::StringW userName, bool isConnectionOwner) ;
 
 /// @brief Method .ctor addr 0x220bf5c size 0xac virtual false final false
  void _ctor(uint64_t id, ::StringW userName, bool isConnectionOwner) ;
 
 /// @brief Method Send addr 0x220c008 size 0x144 virtual true final true
- void Send(::LiteNetLib::Utils::NetDataWriter writer, ::BGNet::Core::DeliveryMethod deliveryMethod) ;
+ void Send(LiteNetLib::Utils::NetDataWriter writer, BGNet::Core::DeliveryMethod deliveryMethod) ;
 
 /// @brief Method Disconnect addr 0x220c14c size 0xc virtual true final true
  void Disconnect() ;
 
 /// @brief Method Equals addr 0x220c158 size 0x30 virtual true final true
- bool Equals(::GlobalNamespace::____GlobalNamespace__OculusConnectionManager__OculusConnection other) ;
+ bool Equals(GlobalNamespace::GlobalNamespace__OculusConnectionManager__OculusConnection other) ;
 
 /// @brief Method Equals addr 0x220c188 size 0x110 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -310,56 +309,56 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4580))
 // CS Name: OculusConnectionManager::StartServerParams
-class CORDL_TYPE ____GlobalNamespace__OculusConnectionManager__StartServerParams : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__OculusConnectionManager__StartServerParams : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::OculusConnectionManager>
-constexpr operator  ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::OculusConnectionManager>() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::OculusConnectionManager>
+constexpr operator  GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::OculusConnectionManager>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____GlobalNamespace__OculusConnectionManager__StartServerParams() = default;
+virtual ~GlobalNamespace__OculusConnectionManager__StartServerParams() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OculusConnectionManager__StartServerParams", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__OculusConnectionManager__StartServerParams(____GlobalNamespace__OculusConnectionManager__StartServerParams const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OculusConnectionManager__StartServerParams", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__OculusConnectionManager__StartServerParams(GlobalNamespace__OculusConnectionManager__StartServerParams const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OculusConnectionManager__StartServerParams", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__OculusConnectionManager__StartServerParams(____GlobalNamespace__OculusConnectionManager__StartServerParams&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OculusConnectionManager__StartServerParams", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__OculusConnectionManager__StartServerParams(GlobalNamespace__OculusConnectionManager__StartServerParams&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OculusConnectionManager__StartServerParams(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__OculusConnectionManager__StartServerParams(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__OculusConnectionManager__StartServerParams& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__OculusConnectionManager__StartServerParams& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OculusConnectionManager__StartServerParams& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__OculusConnectionManager__StartServerParams& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OculusConnectionManager__StartServerParams& operator=(____GlobalNamespace__OculusConnectionManager__StartServerParams&& o) noexcept = default;
-  constexpr ____GlobalNamespace__OculusConnectionManager__StartServerParams& operator=(____GlobalNamespace__OculusConnectionManager__StartServerParams const& o) noexcept = default;
+  constexpr GlobalNamespace__OculusConnectionManager__StartServerParams& operator=(GlobalNamespace__OculusConnectionManager__StartServerParams&& o) noexcept = default;
+  constexpr GlobalNamespace__OculusConnectionManager__StartServerParams& operator=(GlobalNamespace__OculusConnectionManager__StartServerParams const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::GlobalNamespace::OculusNetworkPlayerModel __declspec(property(get=__get_oculusNetworkPlayerModel, put=__set_oculusNetworkPlayerModel))  oculusNetworkPlayerModel;
+ GlobalNamespace::OculusNetworkPlayerModel __declspec(property(get=__get_oculusNetworkPlayerModel, put=__set_oculusNetworkPlayerModel))  oculusNetworkPlayerModel;
 
-constexpr void __set_oculusNetworkPlayerModel(::GlobalNamespace::OculusNetworkPlayerModel value) ;
+constexpr void __set_oculusNetworkPlayerModel(GlobalNamespace::OculusNetworkPlayerModel value) ;
 
-constexpr ::GlobalNamespace::OculusNetworkPlayerModel __get_oculusNetworkPlayerModel() const;
+constexpr GlobalNamespace::OculusNetworkPlayerModel __get_oculusNetworkPlayerModel() const;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__OculusConnectionManager__StartServerParams() ;
+explicit GlobalNamespace__OculusConnectionManager__StartServerParams() ;
 
 /// @brief Method .ctor addr 0x220c340 size 0x8 virtual false final false
  void _ctor() ;
@@ -374,50 +373,50 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4581))
 // CS Name: OculusConnectionManager::ConnectToServerParams
-class CORDL_TYPE ____GlobalNamespace__OculusConnectionManager__ConnectToServerParams : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__OculusConnectionManager__ConnectToServerParams : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::OculusConnectionManager>
-constexpr operator  ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::OculusConnectionManager>() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::OculusConnectionManager>
+constexpr operator  GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::OculusConnectionManager>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____GlobalNamespace__OculusConnectionManager__ConnectToServerParams() = default;
+virtual ~GlobalNamespace__OculusConnectionManager__ConnectToServerParams() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OculusConnectionManager__ConnectToServerParams", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__OculusConnectionManager__ConnectToServerParams(____GlobalNamespace__OculusConnectionManager__ConnectToServerParams const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OculusConnectionManager__ConnectToServerParams", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__OculusConnectionManager__ConnectToServerParams(GlobalNamespace__OculusConnectionManager__ConnectToServerParams const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OculusConnectionManager__ConnectToServerParams", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__OculusConnectionManager__ConnectToServerParams(____GlobalNamespace__OculusConnectionManager__ConnectToServerParams&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OculusConnectionManager__ConnectToServerParams", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__OculusConnectionManager__ConnectToServerParams(GlobalNamespace__OculusConnectionManager__ConnectToServerParams&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OculusConnectionManager__ConnectToServerParams(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__OculusConnectionManager__ConnectToServerParams(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__OculusConnectionManager__ConnectToServerParams& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__OculusConnectionManager__ConnectToServerParams& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OculusConnectionManager__ConnectToServerParams& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__OculusConnectionManager__ConnectToServerParams& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OculusConnectionManager__ConnectToServerParams& operator=(____GlobalNamespace__OculusConnectionManager__ConnectToServerParams&& o) noexcept = default;
-  constexpr ____GlobalNamespace__OculusConnectionManager__ConnectToServerParams& operator=(____GlobalNamespace__OculusConnectionManager__ConnectToServerParams const& o) noexcept = default;
+  constexpr GlobalNamespace__OculusConnectionManager__ConnectToServerParams& operator=(GlobalNamespace__OculusConnectionManager__ConnectToServerParams&& o) noexcept = default;
+  constexpr GlobalNamespace__OculusConnectionManager__ConnectToServerParams& operator=(GlobalNamespace__OculusConnectionManager__ConnectToServerParams const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::GlobalNamespace::OculusNetworkPlayerModel __declspec(property(get=__get_oculusNetworkPlayerModel, put=__set_oculusNetworkPlayerModel))  oculusNetworkPlayerModel;
+ GlobalNamespace::OculusNetworkPlayerModel __declspec(property(get=__get_oculusNetworkPlayerModel, put=__set_oculusNetworkPlayerModel))  oculusNetworkPlayerModel;
 
-constexpr void __set_oculusNetworkPlayerModel(::GlobalNamespace::OculusNetworkPlayerModel value) ;
+constexpr void __set_oculusNetworkPlayerModel(GlobalNamespace::OculusNetworkPlayerModel value) ;
 
-constexpr ::GlobalNamespace::OculusNetworkPlayerModel __get_oculusNetworkPlayerModel() const;
+constexpr GlobalNamespace::OculusNetworkPlayerModel __get_oculusNetworkPlayerModel() const;
 
  uint64_t __declspec(property(get=__get_serverId, put=__set_serverId))  serverId;
 
@@ -429,7 +428,7 @@ constexpr uint64_t __get_serverId() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__OculusConnectionManager__ConnectToServerParams() ;
+explicit GlobalNamespace__OculusConnectionManager__ConnectToServerParams() ;
 
 /// @brief Method .ctor addr 0x220c348 size 0x8 virtual false final false
  void _ctor() ;
@@ -444,23 +443,23 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4582))
 // CS Name: OculusConnectionManager::<HandlePeerConnectionRequest>d__61
-struct CORDL_TYPE ____GlobalNamespace__OculusConnectionManager___HandlePeerConnectionRequest_d__61 : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__OculusConnectionManager___HandlePeerConnectionRequest_d__61 : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::CompilerServices::IAsyncStateMachine
-constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine() const;
+/// @brief Convert operator to System::Runtime::CompilerServices::IAsyncStateMachine
+constexpr operator  System::Runtime::CompilerServices::IAsyncStateMachine() const;
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "message", ty: "::Oculus::Platform::Message_1<::Oculus::Platform::Models::NetworkingPeer>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::OculusConnectionManager", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__OculusConnectionManager___HandlePeerConnectionRequest_d__61(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::Oculus::Platform::Message_1<::Oculus::Platform::Models::NetworkingPeer> message, ::GlobalNamespace::OculusConnectionManager __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "message", ty: "Oculus::Platform::Message_1<Oculus::Platform::Models::NetworkingPeer>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "GlobalNamespace::OculusConnectionManager", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }]
+constexpr GlobalNamespace__OculusConnectionManager___HandlePeerConnectionRequest_d__61(int32_t __1__state, System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, Oculus::Platform::Message_1<Oculus::Platform::Models::NetworkingPeer> message, GlobalNamespace::OculusConnectionManager __4__this, System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
 
-                    constexpr ____GlobalNamespace__OculusConnectionManager___HandlePeerConnectionRequest_d__61(____GlobalNamespace__OculusConnectionManager___HandlePeerConnectionRequest_d__61 const&) = default;
-                    constexpr ____GlobalNamespace__OculusConnectionManager___HandlePeerConnectionRequest_d__61(____GlobalNamespace__OculusConnectionManager___HandlePeerConnectionRequest_d__61&&) = default;
-                    constexpr ____GlobalNamespace__OculusConnectionManager___HandlePeerConnectionRequest_d__61& operator=(____GlobalNamespace__OculusConnectionManager___HandlePeerConnectionRequest_d__61 const& o) {
+                    constexpr GlobalNamespace__OculusConnectionManager___HandlePeerConnectionRequest_d__61(GlobalNamespace__OculusConnectionManager___HandlePeerConnectionRequest_d__61 const&) = default;
+                    constexpr GlobalNamespace__OculusConnectionManager___HandlePeerConnectionRequest_d__61(GlobalNamespace__OculusConnectionManager___HandlePeerConnectionRequest_d__61&&) = default;
+                    constexpr GlobalNamespace__OculusConnectionManager___HandlePeerConnectionRequest_d__61& operator=(GlobalNamespace__OculusConnectionManager___HandlePeerConnectionRequest_d__61 const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__OculusConnectionManager___HandlePeerConnectionRequest_d__61& operator=(____GlobalNamespace__OculusConnectionManager___HandlePeerConnectionRequest_d__61&& o) noexcept {
+                    constexpr GlobalNamespace__OculusConnectionManager___HandlePeerConnectionRequest_d__61& operator=(GlobalNamespace__OculusConnectionManager___HandlePeerConnectionRequest_d__61&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -473,7 +472,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x40};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OculusConnectionManager___HandlePeerConnectionRequest_d__61(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__OculusConnectionManager___HandlePeerConnectionRequest_d__61(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -490,29 +489,29 @@ constexpr void __set___1__state(int32_t value) ;
 
 constexpr int32_t __get___1__state() const;
 
- ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
+ System::Runtime::CompilerServices::AsyncVoidMethodBuilder __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
 
-constexpr void __set___t__builder(::System::Runtime::CompilerServices::AsyncVoidMethodBuilder value) ;
+constexpr void __set___t__builder(System::Runtime::CompilerServices::AsyncVoidMethodBuilder value) ;
 
-constexpr ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __get___t__builder() const;
+constexpr System::Runtime::CompilerServices::AsyncVoidMethodBuilder __get___t__builder() const;
 
- ::Oculus::Platform::Message_1<::Oculus::Platform::Models::NetworkingPeer> __declspec(property(get=__get_message, put=__set_message))  message;
+ Oculus::Platform::Message_1<Oculus::Platform::Models::NetworkingPeer> __declspec(property(get=__get_message, put=__set_message))  message;
 
-constexpr void __set_message(::Oculus::Platform::Message_1<::Oculus::Platform::Models::NetworkingPeer> value) ;
+constexpr void __set_message(Oculus::Platform::Message_1<Oculus::Platform::Models::NetworkingPeer> value) ;
 
-constexpr ::Oculus::Platform::Message_1<::Oculus::Platform::Models::NetworkingPeer> __get_message() const;
+constexpr Oculus::Platform::Message_1<Oculus::Platform::Models::NetworkingPeer> __get_message() const;
 
- ::GlobalNamespace::OculusConnectionManager __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::OculusConnectionManager __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::OculusConnectionManager value) ;
+constexpr void __set___4__this(GlobalNamespace::OculusConnectionManager value) ;
 
-constexpr ::GlobalNamespace::OculusConnectionManager __get___4__this() const;
+constexpr GlobalNamespace::OculusConnectionManager __get___4__this() const;
 
- ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
+ System::Runtime::CompilerServices::TaskAwaiter_1<bool> __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
 
-constexpr void __set___u__1(::System::Runtime::CompilerServices::TaskAwaiter_1<bool> value) ;
+constexpr void __set___u__1(System::Runtime::CompilerServices::TaskAwaiter_1<bool> value) ;
 
-constexpr ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __get___u__1() const;
+constexpr System::Runtime::CompilerServices::TaskAwaiter_1<bool> __get___u__1() const;
 
 
 // Methods
@@ -521,7 +520,7 @@ constexpr ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __get___u__1(
  void MoveNext() ;
 
 /// @brief Method SetStateMachine addr 0x220c808 size 0xc virtual true final true
- void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
+ void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -536,24 +535,24 @@ namespace GlobalNamespace {
 class CORDL_TYPE OculusConnectionManager : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using _HandlePeerConnectionRequest_d__61 = ::GlobalNamespace::____GlobalNamespace__OculusConnectionManager___HandlePeerConnectionRequest_d__61;
+using _HandlePeerConnectionRequest_d__61 = GlobalNamespace::GlobalNamespace__OculusConnectionManager___HandlePeerConnectionRequest_d__61;
 
-using ConnectToServerParams = ::GlobalNamespace::____GlobalNamespace__OculusConnectionManager__ConnectToServerParams;
+using ConnectToServerParams = GlobalNamespace::GlobalNamespace__OculusConnectionManager__ConnectToServerParams;
 
-using StartServerParams = ::GlobalNamespace::____GlobalNamespace__OculusConnectionManager__StartServerParams;
+using StartServerParams = GlobalNamespace::GlobalNamespace__OculusConnectionManager__StartServerParams;
 
-using OculusConnection = ::GlobalNamespace::____GlobalNamespace__OculusConnectionManager__OculusConnection;
+using OculusConnection = GlobalNamespace::GlobalNamespace__OculusConnectionManager__OculusConnection;
 
-using NetworkMode = ::GlobalNamespace::____GlobalNamespace__OculusConnectionManager__NetworkMode;
+using NetworkMode = GlobalNamespace::GlobalNamespace__OculusConnectionManager__NetworkMode;
 
-/// @brief Convert operator to ::GlobalNamespace::IConnectionManager
-constexpr operator  ::GlobalNamespace::IConnectionManager() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IConnectionManager
+constexpr operator  GlobalNamespace::IConnectionManager() const noexcept;
 
-/// @brief Convert operator to ::GlobalNamespace::IPollable
-constexpr operator  ::GlobalNamespace::IPollable() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IPollable
+constexpr operator  GlobalNamespace::IPollable() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x78};
@@ -588,29 +587,29 @@ constexpr explicit OculusConnectionManager(void* ptr) noexcept : ::bs_hook::Il2C
 
 // Fields
 
- ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__OculusConnectionManager__OculusConnection> __declspec(property(get=__get__connections, put=__set__connections))  _connections;
+ System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__OculusConnectionManager__OculusConnection> __declspec(property(get=__get__connections, put=__set__connections))  _connections;
 
-constexpr void __set__connections(::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__OculusConnectionManager__OculusConnection> value) ;
+constexpr void __set__connections(System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__OculusConnectionManager__OculusConnection> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::____GlobalNamespace__OculusConnectionManager__OculusConnection> __get__connections() const;
+constexpr System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__OculusConnectionManager__OculusConnection> __get__connections() const;
 
- ::LiteNetLib::Utils::NetDataReader __declspec(property(get=__get__dataReader, put=__set__dataReader))  _dataReader;
+ LiteNetLib::Utils::NetDataReader __declspec(property(get=__get__dataReader, put=__set__dataReader))  _dataReader;
 
-constexpr void __set__dataReader(::LiteNetLib::Utils::NetDataReader value) ;
+constexpr void __set__dataReader(LiteNetLib::Utils::NetDataReader value) ;
 
-constexpr ::LiteNetLib::Utils::NetDataReader __get__dataReader() const;
+constexpr LiteNetLib::Utils::NetDataReader __get__dataReader() const;
 
- ::GlobalNamespace::OculusNetworkPlayerModel __declspec(property(get=__get__oculusNetworkPlayerModel, put=__set__oculusNetworkPlayerModel))  _oculusNetworkPlayerModel;
+ GlobalNamespace::OculusNetworkPlayerModel __declspec(property(get=__get__oculusNetworkPlayerModel, put=__set__oculusNetworkPlayerModel))  _oculusNetworkPlayerModel;
 
-constexpr void __set__oculusNetworkPlayerModel(::GlobalNamespace::OculusNetworkPlayerModel value) ;
+constexpr void __set__oculusNetworkPlayerModel(GlobalNamespace::OculusNetworkPlayerModel value) ;
 
-constexpr ::GlobalNamespace::OculusNetworkPlayerModel __get__oculusNetworkPlayerModel() const;
+constexpr GlobalNamespace::OculusNetworkPlayerModel __get__oculusNetworkPlayerModel() const;
 
- ::GlobalNamespace::____GlobalNamespace__OculusConnectionManager__NetworkMode __declspec(property(get=__get__mode, put=__set__mode))  _mode;
+ GlobalNamespace::GlobalNamespace__OculusConnectionManager__NetworkMode __declspec(property(get=__get__mode, put=__set__mode))  _mode;
 
-constexpr void __set__mode(::GlobalNamespace::____GlobalNamespace__OculusConnectionManager__NetworkMode value) ;
+constexpr void __set__mode(GlobalNamespace::GlobalNamespace__OculusConnectionManager__NetworkMode value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OculusConnectionManager__NetworkMode __get__mode() const;
+constexpr GlobalNamespace::GlobalNamespace__OculusConnectionManager__NetworkMode __get__mode() const;
 
  bool __declspec(property(get=__get__connectionEstablished, put=__set__connectionEstablished))  _connectionEstablished;
 
@@ -618,47 +617,47 @@ constexpr void __set__connectionEstablished(bool value) ;
 
 constexpr bool __get__connectionEstablished() const;
 
- ::System::Action __declspec(property(get=__get_onInitializedEvent, put=__set_onInitializedEvent))  onInitializedEvent;
+ System::Action __declspec(property(get=__get_onInitializedEvent, put=__set_onInitializedEvent))  onInitializedEvent;
 
-constexpr void __set_onInitializedEvent(::System::Action value) ;
+constexpr void __set_onInitializedEvent(System::Action value) ;
 
-constexpr ::System::Action __get_onInitializedEvent() const;
+constexpr System::Action __get_onInitializedEvent() const;
 
- ::System::Action __declspec(property(get=__get_onConnectedEvent, put=__set_onConnectedEvent))  onConnectedEvent;
+ System::Action __declspec(property(get=__get_onConnectedEvent, put=__set_onConnectedEvent))  onConnectedEvent;
 
-constexpr void __set_onConnectedEvent(::System::Action value) ;
+constexpr void __set_onConnectedEvent(System::Action value) ;
 
-constexpr ::System::Action __get_onConnectedEvent() const;
+constexpr System::Action __get_onConnectedEvent() const;
 
- ::System::Action_1<::GlobalNamespace::DisconnectedReason> __declspec(property(get=__get_onDisconnectedEvent, put=__set_onDisconnectedEvent))  onDisconnectedEvent;
+ System::Action_1<GlobalNamespace::DisconnectedReason> __declspec(property(get=__get_onDisconnectedEvent, put=__set_onDisconnectedEvent))  onDisconnectedEvent;
 
-constexpr void __set_onDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason> value) ;
+constexpr void __set_onDisconnectedEvent(System::Action_1<GlobalNamespace::DisconnectedReason> value) ;
 
-constexpr ::System::Action_1<::GlobalNamespace::DisconnectedReason> __get_onDisconnectedEvent() const;
+constexpr System::Action_1<GlobalNamespace::DisconnectedReason> __get_onDisconnectedEvent() const;
 
- ::System::Action_1<::GlobalNamespace::ConnectionFailedReason> __declspec(property(get=__get_onConnectionFailedEvent, put=__set_onConnectionFailedEvent))  onConnectionFailedEvent;
+ System::Action_1<GlobalNamespace::ConnectionFailedReason> __declspec(property(get=__get_onConnectionFailedEvent, put=__set_onConnectionFailedEvent))  onConnectionFailedEvent;
 
-constexpr void __set_onConnectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason> value) ;
+constexpr void __set_onConnectionFailedEvent(System::Action_1<GlobalNamespace::ConnectionFailedReason> value) ;
 
-constexpr ::System::Action_1<::GlobalNamespace::ConnectionFailedReason> __get_onConnectionFailedEvent() const;
+constexpr System::Action_1<GlobalNamespace::ConnectionFailedReason> __get_onConnectionFailedEvent() const;
 
- ::System::Action_1<::GlobalNamespace::IConnection> __declspec(property(get=__get_onConnectionConnectedEvent, put=__set_onConnectionConnectedEvent))  onConnectionConnectedEvent;
+ System::Action_1<GlobalNamespace::IConnection> __declspec(property(get=__get_onConnectionConnectedEvent, put=__set_onConnectionConnectedEvent))  onConnectionConnectedEvent;
 
-constexpr void __set_onConnectionConnectedEvent(::System::Action_1<::GlobalNamespace::IConnection> value) ;
+constexpr void __set_onConnectionConnectedEvent(System::Action_1<GlobalNamespace::IConnection> value) ;
 
-constexpr ::System::Action_1<::GlobalNamespace::IConnection> __get_onConnectionConnectedEvent() const;
+constexpr System::Action_1<GlobalNamespace::IConnection> __get_onConnectionConnectedEvent() const;
 
- ::System::Action_2<::GlobalNamespace::IConnection,::GlobalNamespace::DisconnectedReason> __declspec(property(get=__get_onConnectionDisconnectedEvent, put=__set_onConnectionDisconnectedEvent))  onConnectionDisconnectedEvent;
+ System::Action_2<GlobalNamespace::IConnection,GlobalNamespace::DisconnectedReason> __declspec(property(get=__get_onConnectionDisconnectedEvent, put=__set_onConnectionDisconnectedEvent))  onConnectionDisconnectedEvent;
 
-constexpr void __set_onConnectionDisconnectedEvent(::System::Action_2<::GlobalNamespace::IConnection,::GlobalNamespace::DisconnectedReason> value) ;
+constexpr void __set_onConnectionDisconnectedEvent(System::Action_2<GlobalNamespace::IConnection,GlobalNamespace::DisconnectedReason> value) ;
 
-constexpr ::System::Action_2<::GlobalNamespace::IConnection,::GlobalNamespace::DisconnectedReason> __get_onConnectionDisconnectedEvent() const;
+constexpr System::Action_2<GlobalNamespace::IConnection,GlobalNamespace::DisconnectedReason> __get_onConnectionDisconnectedEvent() const;
 
- ::System::Action_3<::GlobalNamespace::IConnection,::LiteNetLib::Utils::NetDataReader,::BGNet::Core::DeliveryMethod> __declspec(property(get=__get_onReceivedDataEvent, put=__set_onReceivedDataEvent))  onReceivedDataEvent;
+ System::Action_3<GlobalNamespace::IConnection,LiteNetLib::Utils::NetDataReader,BGNet::Core::DeliveryMethod> __declspec(property(get=__get_onReceivedDataEvent, put=__set_onReceivedDataEvent))  onReceivedDataEvent;
 
-constexpr void __set_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection,::LiteNetLib::Utils::NetDataReader,::BGNet::Core::DeliveryMethod> value) ;
+constexpr void __set_onReceivedDataEvent(System::Action_3<GlobalNamespace::IConnection,LiteNetLib::Utils::NetDataReader,BGNet::Core::DeliveryMethod> value) ;
 
-constexpr ::System::Action_3<::GlobalNamespace::IConnection,::LiteNetLib::Utils::NetDataReader,::BGNet::Core::DeliveryMethod> __get_onReceivedDataEvent() const;
+constexpr System::Action_3<GlobalNamespace::IConnection,LiteNetLib::Utils::NetDataReader,BGNet::Core::DeliveryMethod> __get_onReceivedDataEvent() const;
 
  bool __declspec(property(get=__get__isDisconnecting_k__BackingField, put=__set__isDisconnecting_k__BackingField))  _isDisconnecting_k__BackingField;
 
@@ -699,46 +698,46 @@ constexpr ::ArrayW<uint8_t> __get__buffer() const;
 // Methods
 
 /// @brief Method add_onInitializedEvent addr 0x22098b4 size 0x9c virtual true final true
- void add_onInitializedEvent(::System::Action value) ;
+ void add_onInitializedEvent(System::Action value) ;
 
 /// @brief Method remove_onInitializedEvent addr 0x2209950 size 0x9c virtual true final true
- void remove_onInitializedEvent(::System::Action value) ;
+ void remove_onInitializedEvent(System::Action value) ;
 
 /// @brief Method add_onConnectedEvent addr 0x22099ec size 0x9c virtual true final true
- void add_onConnectedEvent(::System::Action value) ;
+ void add_onConnectedEvent(System::Action value) ;
 
 /// @brief Method remove_onConnectedEvent addr 0x2209a88 size 0x9c virtual true final true
- void remove_onConnectedEvent(::System::Action value) ;
+ void remove_onConnectedEvent(System::Action value) ;
 
 /// @brief Method add_onDisconnectedEvent addr 0x2209b24 size 0xb0 virtual true final true
- void add_onDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason> value) ;
+ void add_onDisconnectedEvent(System::Action_1<GlobalNamespace::DisconnectedReason> value) ;
 
 /// @brief Method remove_onDisconnectedEvent addr 0x2209bd4 size 0xb0 virtual true final true
- void remove_onDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason> value) ;
+ void remove_onDisconnectedEvent(System::Action_1<GlobalNamespace::DisconnectedReason> value) ;
 
 /// @brief Method add_onConnectionFailedEvent addr 0x2209c84 size 0xb0 virtual true final true
- void add_onConnectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason> value) ;
+ void add_onConnectionFailedEvent(System::Action_1<GlobalNamespace::ConnectionFailedReason> value) ;
 
 /// @brief Method remove_onConnectionFailedEvent addr 0x2209d34 size 0xb0 virtual true final true
- void remove_onConnectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason> value) ;
+ void remove_onConnectionFailedEvent(System::Action_1<GlobalNamespace::ConnectionFailedReason> value) ;
 
 /// @brief Method add_onConnectionConnectedEvent addr 0x2209de4 size 0xb0 virtual true final true
- void add_onConnectionConnectedEvent(::System::Action_1<::GlobalNamespace::IConnection> value) ;
+ void add_onConnectionConnectedEvent(System::Action_1<GlobalNamespace::IConnection> value) ;
 
 /// @brief Method remove_onConnectionConnectedEvent addr 0x2209e94 size 0xb0 virtual true final true
- void remove_onConnectionConnectedEvent(::System::Action_1<::GlobalNamespace::IConnection> value) ;
+ void remove_onConnectionConnectedEvent(System::Action_1<GlobalNamespace::IConnection> value) ;
 
 /// @brief Method add_onConnectionDisconnectedEvent addr 0x2209f44 size 0xb0 virtual true final true
- void add_onConnectionDisconnectedEvent(::System::Action_2<::GlobalNamespace::IConnection,::GlobalNamespace::DisconnectedReason> value) ;
+ void add_onConnectionDisconnectedEvent(System::Action_2<GlobalNamespace::IConnection,GlobalNamespace::DisconnectedReason> value) ;
 
 /// @brief Method remove_onConnectionDisconnectedEvent addr 0x2209ff4 size 0xb0 virtual true final true
- void remove_onConnectionDisconnectedEvent(::System::Action_2<::GlobalNamespace::IConnection,::GlobalNamespace::DisconnectedReason> value) ;
+ void remove_onConnectionDisconnectedEvent(System::Action_2<GlobalNamespace::IConnection,GlobalNamespace::DisconnectedReason> value) ;
 
 /// @brief Method add_onReceivedDataEvent addr 0x220a0a4 size 0xb0 virtual true final true
- void add_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection,::LiteNetLib::Utils::NetDataReader,::BGNet::Core::DeliveryMethod> value) ;
+ void add_onReceivedDataEvent(System::Action_3<GlobalNamespace::IConnection,LiteNetLib::Utils::NetDataReader,BGNet::Core::DeliveryMethod> value) ;
 
 /// @brief Method remove_onReceivedDataEvent addr 0x220a154 size 0xb0 virtual true final true
- void remove_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection,::LiteNetLib::Utils::NetDataReader,::BGNet::Core::DeliveryMethod> value) ;
+ void remove_onReceivedDataEvent(System::Action_3<GlobalNamespace::IConnection,LiteNetLib::Utils::NetDataReader,BGNet::Core::DeliveryMethod> value) ;
 
 /// @brief Method get_userId addr 0x220a204 size 0xa8 virtual true final true
  ::StringW get_userId() ;
@@ -774,44 +773,44 @@ constexpr ::ArrayW<uint8_t> __get__buffer() const;
  int32_t get_connectionCount() ;
 
 /// @brief Method SendToAll addr 0x220a44c size 0x8 virtual true final true
- void SendToAll(::LiteNetLib::Utils::NetDataWriter writer, ::BGNet::Core::DeliveryMethod deliveryMethod) ;
+ void SendToAll(LiteNetLib::Utils::NetDataWriter writer, BGNet::Core::DeliveryMethod deliveryMethod) ;
 
 /// @brief Method SendToAll addr 0x220a454 size 0xd4 virtual true final true
- void SendToAll(::LiteNetLib::Utils::NetDataWriter writer, ::BGNet::Core::DeliveryMethod deliveryMethod, ::GlobalNamespace::IConnection excludingConnection) ;
+ void SendToAll(LiteNetLib::Utils::NetDataWriter writer, BGNet::Core::DeliveryMethod deliveryMethod, GlobalNamespace::IConnection excludingConnection) ;
 
 /// @brief Method PollUpdate addr 0x220a528 size 0xf8 virtual true final true
  void PollUpdate() ;
 
 /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final true
 template<typename T>
- bool Init(::GlobalNamespace::IConnectionInitParams_1<T> initParams) ;
+ bool Init(GlobalNamespace::IConnectionInitParams_1<T> initParams) ;
 
 /// @brief Method Disconnect addr 0x220a854 size 0x8 virtual true final true
- void Disconnect(::GlobalNamespace::DisconnectedReason disconnectedReason) ;
+ void Disconnect(GlobalNamespace::DisconnectedReason disconnectedReason) ;
 
 /// @brief Method DisconnectInternal addr 0x220a85c size 0x22c virtual false final false
- void DisconnectInternal(::GlobalNamespace::DisconnectedReason disconnectedReason, ::GlobalNamespace::ConnectionFailedReason connectionFailedReason) ;
+ void DisconnectInternal(GlobalNamespace::DisconnectedReason disconnectedReason, GlobalNamespace::ConnectionFailedReason connectionFailedReason) ;
 
 /// @brief Method Dispose addr 0x220aa88 size 0xc virtual true final true
  void Dispose() ;
 
 /// @brief Method DisposeAsync addr 0x220aa94 size 0x9c virtual true final true
- ::System::Threading::Tasks::Task DisposeAsync() ;
+ System::Threading::Tasks::Task DisposeAsync() ;
 
 /// @brief Method GetConnection addr 0x220ab30 size 0x58 virtual true final true
- ::GlobalNamespace::IConnection GetConnection(int32_t index) ;
+ GlobalNamespace::IConnection GetConnection(int32_t index) ;
 
 /// @brief Method HandlePeerConnectionRequest addr 0x220ab88 size 0x9c virtual false final false
- void HandlePeerConnectionRequest(::Oculus::Platform::Message_1<::Oculus::Platform::Models::NetworkingPeer> message) ;
+ void HandlePeerConnectionRequest(Oculus::Platform::Message_1<Oculus::Platform::Models::NetworkingPeer> message) ;
 
 /// @brief Method HandleConnectionStateChanged addr 0x220ac24 size 0x100 virtual false final false
- void HandleConnectionStateChanged(::Oculus::Platform::Message_1<::Oculus::Platform::Models::NetworkingPeer> message) ;
+ void HandleConnectionStateChanged(Oculus::Platform::Message_1<Oculus::Platform::Models::NetworkingPeer> message) ;
 
 /// @brief Method GetConnection addr 0x220a620 size 0x1b8 virtual false final false
- ::GlobalNamespace::____GlobalNamespace__OculusConnectionManager__OculusConnection GetConnection(uint64_t user) ;
+ GlobalNamespace::GlobalNamespace__OculusConnectionManager__OculusConnection GetConnection(uint64_t user) ;
 
 /// @brief Method RemoveConnection addr 0x220ad24 size 0x134 virtual false final false
- void RemoveConnection(uint64_t id, ::GlobalNamespace::DisconnectedReason reason) ;
+ void RemoveConnection(uint64_t id, GlobalNamespace::DisconnectedReason reason) ;
 
 /// @brief Method AcquireBuffer addr 0x220a7d8 size 0x6c virtual false final false
  ::ArrayW<uint8_t> AcquireBuffer(int32_t size) ;
@@ -820,13 +819,13 @@ template<typename T>
  void ReleaseBuffer(::ArrayW<uint8_t> buffer) ;
 
 /// @brief Method DeliveryMethodToSendPolicy addr 0x220ae58 size 0x10 virtual false final false
-static ::Oculus::Platform::SendPolicy DeliveryMethodToSendPolicy(::BGNet::Core::DeliveryMethod deliveryMethod) ;
+static Oculus::Platform::SendPolicy DeliveryMethodToSendPolicy(BGNet::Core::DeliveryMethod deliveryMethod) ;
 
 /// @brief Method SendPolicyToDeliveryMethod addr 0x220a844 size 0xc virtual false final false
-static ::BGNet::Core::DeliveryMethod SendPolicyToDeliveryMethod(::Oculus::Platform::SendPolicy sendPolicy) ;
+static BGNet::Core::DeliveryMethod SendPolicyToDeliveryMethod(Oculus::Platform::SendPolicy sendPolicy) ;
 
 /// @brief Method VoidHandler addr 0x220ae68 size 0x4 virtual false final false
-static void VoidHandler(::Oculus::Platform::Message_1<::Oculus::Platform::Models::NetworkingPeer> message) ;
+static void VoidHandler(Oculus::Platform::Message_1<Oculus::Platform::Models::NetworkingPeer> message) ;
 
 // Ctor Parameters []
 explicit OculusConnectionManager() ;
@@ -838,14 +837,13 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OculusConnectionManager__NetworkMode, "", "OculusConnectionManager/NetworkMode");
-NEED_NO_BOX(::GlobalNamespace::OculusConnectionManager);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OculusConnectionManager, "", "OculusConnectionManager");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__OculusConnectionManager__ConnectToServerParams);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OculusConnectionManager__ConnectToServerParams, "", "OculusConnectionManager/ConnectToServerParams");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__OculusConnectionManager__OculusConnection);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OculusConnectionManager__OculusConnection, "", "OculusConnectionManager/OculusConnection");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__OculusConnectionManager__StartServerParams);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OculusConnectionManager__StartServerParams, "", "OculusConnectionManager/StartServerParams");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OculusConnectionManager___HandlePeerConnectionRequest_d__61, "", "OculusConnectionManager/<HandlePeerConnectionRequest>d__61");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OculusConnectionManager__NetworkMode, "", "OculusConnectionManager/NetworkMode");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__OculusConnectionManager__ConnectToServerParams);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OculusConnectionManager__ConnectToServerParams, "", "OculusConnectionManager/ConnectToServerParams");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__OculusConnectionManager__OculusConnection);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OculusConnectionManager__OculusConnection, "", "OculusConnectionManager/OculusConnection");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__OculusConnectionManager__StartServerParams);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OculusConnectionManager__StartServerParams, "", "OculusConnectionManager/StartServerParams");
+NEED_NO_BOX(GlobalNamespace::OculusConnectionManager);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusConnectionManager, "", "OculusConnectionManager");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OculusConnectionManager___HandlePeerConnectionRequest_d__61, "", "OculusConnectionManager/<HandlePeerConnectionRequest>d__61");

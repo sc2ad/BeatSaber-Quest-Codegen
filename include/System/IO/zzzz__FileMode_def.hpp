@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::IO {
 struct FileMode;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field CreateNew offset 0
-static ::System::IO::FileMode const CreateNew;
+static System::IO::FileMode const CreateNew;
 
 /// @brief Field Create offset 0
-static ::System::IO::FileMode const Create;
+static System::IO::FileMode const Create;
 
 /// @brief Field Open offset 0
-static ::System::IO::FileMode const Open;
+static System::IO::FileMode const Open;
 
 /// @brief Field OpenOrCreate offset 0
-static ::System::IO::FileMode const OpenOrCreate;
+static System::IO::FileMode const OpenOrCreate;
 
 /// @brief Field Truncate offset 0
-static ::System::IO::FileMode const Truncate;
+static System::IO::FileMode const Truncate;
 
 /// @brief Field Append offset 0
-static ::System::IO::FileMode const Append;
+static System::IO::FileMode const Append;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::IO
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::FileMode, "System.IO", "FileMode");
+DEFINE_IL2CPP_ARG_TYPE(System::IO::FileMode, "System.IO", "FileMode");

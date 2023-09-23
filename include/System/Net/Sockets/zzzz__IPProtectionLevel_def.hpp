@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net::Sockets {
 struct IPProtectionLevel;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unspecified offset 0
-static ::System::Net::Sockets::IPProtectionLevel const Unspecified;
+static System::Net::Sockets::IPProtectionLevel const Unspecified;
 
 /// @brief Field Unrestricted offset 0
-static ::System::Net::Sockets::IPProtectionLevel const Unrestricted;
+static System::Net::Sockets::IPProtectionLevel const Unrestricted;
 
 /// @brief Field EdgeRestricted offset 0
-static ::System::Net::Sockets::IPProtectionLevel const EdgeRestricted;
+static System::Net::Sockets::IPProtectionLevel const EdgeRestricted;
 
 /// @brief Field Restricted offset 0
-static ::System::Net::Sockets::IPProtectionLevel const Restricted;
+static System::Net::Sockets::IPProtectionLevel const Restricted;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net::Sockets
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Sockets::IPProtectionLevel, "System.Net.Sockets", "IPProtectionLevel");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::IPProtectionLevel, "System.Net.Sockets", "IPProtectionLevel");

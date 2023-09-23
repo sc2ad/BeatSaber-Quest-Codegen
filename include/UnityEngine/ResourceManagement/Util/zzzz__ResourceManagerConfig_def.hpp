@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace UnityEngine {
-class Object;
-}
 namespace System {
 class Array;
+}
+namespace UnityEngine {
+class Object;
 }
 namespace System::Collections {
 class IList;
@@ -79,18 +78,18 @@ static bool ShouldPathUseWebRequest(::StringW path) ;
 static bool PlatformCanLoadLocallyFromUrlPath() ;
 
 /// @brief Method CreateArrayResult addr 0x2a3b470 size 0x1b8 virtual false final false
-static ::System::Array CreateArrayResult(::System::Type type, ::ArrayW<::UnityEngine::Object> allAssets) ;
+static System::Array CreateArrayResult(System::Type type, ::ArrayW<UnityEngine::Object> allAssets) ;
 
 /// @brief Method CreateArrayResult addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TObject>
-static TObject CreateArrayResult(::ArrayW<::UnityEngine::Object> allAssets) ;
+static TObject CreateArrayResult(::ArrayW<UnityEngine::Object> allAssets) ;
 
 /// @brief Method CreateListResult addr 0x2a3b628 size 0x1cc virtual false final false
-static ::System::Collections::IList CreateListResult(::System::Type type, ::ArrayW<::UnityEngine::Object> allAssets) ;
+static System::Collections::IList CreateListResult(System::Type type, ::ArrayW<UnityEngine::Object> allAssets) ;
 
 /// @brief Method CreateListResult addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename TObject>
-static TObject CreateListResult(::ArrayW<::UnityEngine::Object> allAssets) ;
+static TObject CreateListResult(::ArrayW<UnityEngine::Object> allAssets) ;
 
 /// @brief Method IsInstance addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T1,typename T2>
@@ -100,6 +99,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ResourceManagement::Util
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ResourceManagement::Util::ResourceManagerConfig);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::Util::ResourceManagerConfig, "UnityEngine.ResourceManagement.Util", "ResourceManagerConfig");
+NEED_NO_BOX(UnityEngine::ResourceManagement::Util::ResourceManagerConfig);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::ResourceManagerConfig, "UnityEngine.ResourceManagement.Util", "ResourceManagerConfig");

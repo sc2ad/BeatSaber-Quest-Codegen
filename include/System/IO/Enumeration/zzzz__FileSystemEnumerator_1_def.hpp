@@ -6,36 +6,35 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Collections::Generic {
-template<typename T>
-class Queue_1;
+namespace System::IO {
+class EnumerationOptions;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace GlobalNamespace {
+struct GlobalNamespace__Interop__Sys__DirectoryEntry;
 }
 namespace System::IO::Enumeration {
 struct FileSystemEntry;
 }
-namespace System::IO {
-class EnumerationOptions;
+namespace GlobalNamespace {
+struct GlobalNamespace__Interop__ErrorInfo;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
 }
-namespace GlobalNamespace {
-struct ______GlobalNamespace__Interop__Sys__DirectoryEntry;
-}
-namespace System {
-class IDisposable;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__Interop__ErrorInfo;
-}
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerator_1;
+class Queue_1;
 }
 // Forward declare root types
 namespace System::IO::Enumeration {
@@ -55,17 +54,17 @@ template<::cordl_internals::il2cpp_reference_type TResult>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3347)), TypeDefinitionIndex(TypeDefinitionIndex(3640))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3640), inst: 2 })
 // CS Name: System.IO.Enumeration.FileSystemEnumerator`1
-class CORDL_TYPE FileSystemEnumerator_1<TResult> : public ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject {
+class CORDL_TYPE FileSystemEnumerator_1<TResult> : public System::Runtime::ConstrainedExecution::CriticalFinalizerObject {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<TResult>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<TResult>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<TResult>
+constexpr operator  System::Collections::Generic::IEnumerator_1<TResult>() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x70};
@@ -79,7 +78,7 @@ constexpr FileSystemEnumerator_1(FileSystemEnumerator_1 const& ) noexcept = defa
 constexpr FileSystemEnumerator_1(FileSystemEnumerator_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FileSystemEnumerator_1(void* ptr) noexcept : ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject(ptr) {
+constexpr explicit FileSystemEnumerator_1(void* ptr) noexcept : System::Runtime::ConstrainedExecution::CriticalFinalizerObject(ptr) {
 }
 
 
@@ -112,11 +111,11 @@ constexpr void __set__rootDirectory(::StringW value) ;
 
 constexpr ::StringW __get__rootDirectory() const;
 
- ::System::IO::EnumerationOptions __declspec(property(get=__get__options, put=__set__options))  _options;
+ System::IO::EnumerationOptions __declspec(property(get=__get__options, put=__set__options))  _options;
 
-constexpr void __set__options(::System::IO::EnumerationOptions value) ;
+constexpr void __set__options(System::IO::EnumerationOptions value) ;
 
-constexpr ::System::IO::EnumerationOptions __get__options() const;
+constexpr System::IO::EnumerationOptions __get__options() const;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=__get__lock, put=__set__lock))  _lock;
 
@@ -142,17 +141,17 @@ constexpr void __set__lastEntryFound(bool value) ;
 
 constexpr bool __get__lastEntryFound() const;
 
- ::System::Collections::Generic::Queue_1<::StringW> __declspec(property(get=__get__pending, put=__set__pending))  _pending;
+ System::Collections::Generic::Queue_1<::StringW> __declspec(property(get=__get__pending, put=__set__pending))  _pending;
 
-constexpr void __set__pending(::System::Collections::Generic::Queue_1<::StringW> value) ;
+constexpr void __set__pending(System::Collections::Generic::Queue_1<::StringW> value) ;
 
-constexpr ::System::Collections::Generic::Queue_1<::StringW> __get__pending() const;
+constexpr System::Collections::Generic::Queue_1<::StringW> __get__pending() const;
 
- ::GlobalNamespace::______GlobalNamespace__Interop__Sys__DirectoryEntry __declspec(property(get=__get__entry, put=__set__entry))  _entry;
+ GlobalNamespace::GlobalNamespace__Interop__Sys__DirectoryEntry __declspec(property(get=__get__entry, put=__set__entry))  _entry;
 
-constexpr void __set__entry(::GlobalNamespace::______GlobalNamespace__Interop__Sys__DirectoryEntry value) ;
+constexpr void __set__entry(GlobalNamespace::GlobalNamespace__Interop__Sys__DirectoryEntry value) ;
 
-constexpr ::GlobalNamespace::______GlobalNamespace__Interop__Sys__DirectoryEntry __get__entry() const;
+constexpr GlobalNamespace::GlobalNamespace__Interop__Sys__DirectoryEntry __get__entry() const;
 
  TResult __declspec(property(get=__get__current, put=__set__current))  _current;
 
@@ -182,20 +181,20 @@ constexpr ::ArrayW<uint8_t> __get__entryBuffer() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "directory", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "options", ty: "::System::IO::EnumerationOptions", modifiers: "", def_value: None }]
-explicit FileSystemEnumerator_1(::StringW directory, ::System::IO::EnumerationOptions options) ;
+// Ctor Parameters [CppParam { name: "directory", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "options", ty: "System::IO::EnumerationOptions", modifiers: "", def_value: None }]
+explicit FileSystemEnumerator_1(::StringW directory, System::IO::EnumerationOptions options) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::StringW directory, ::System::IO::EnumerationOptions options) ;
+ void _ctor(::StringW directory, System::IO::EnumerationOptions options) ;
 
 /// @brief Method InternalContinueOnError addr 0x0 size 0xffffffffffffffff virtual false final false
- bool InternalContinueOnError(::GlobalNamespace::____GlobalNamespace__Interop__ErrorInfo info, bool ignoreNotFound) ;
+ bool InternalContinueOnError(GlobalNamespace::GlobalNamespace__Interop__ErrorInfo info, bool ignoreNotFound) ;
 
 /// @brief Method IsDirectoryNotFound addr 0x0 size 0xffffffffffffffff virtual false final false
-static bool IsDirectoryNotFound(::GlobalNamespace::____GlobalNamespace__Interop__ErrorInfo info) ;
+static bool IsDirectoryNotFound(GlobalNamespace::GlobalNamespace__Interop__ErrorInfo info) ;
 
 /// @brief Method IsAccessError addr 0x0 size 0xffffffffffffffff virtual false final false
-static bool IsAccessError(::GlobalNamespace::____GlobalNamespace__Interop__ErrorInfo info) ;
+static bool IsAccessError(GlobalNamespace::GlobalNamespace__Interop__ErrorInfo info) ;
 
 /// @brief Method CreateDirectoryHandle addr 0x0 size 0xffffffffffffffff virtual false final false
  ::cordl_internals::intptr_t CreateDirectoryHandle(::StringW path, bool ignoreNotFound) ;
@@ -219,16 +218,16 @@ static bool IsAccessError(::GlobalNamespace::____GlobalNamespace__Interop__Error
  void InternalDispose(bool disposing) ;
 
 /// @brief Method ShouldIncludeEntry addr 0x0 size 0xffffffffffffffff virtual true final false
- bool ShouldIncludeEntry(ByRef<::System::IO::Enumeration::FileSystemEntry> entry) ;
+ bool ShouldIncludeEntry(ByRef<System::IO::Enumeration::FileSystemEntry> entry) ;
 
 /// @brief Method ShouldRecurseIntoEntry addr 0x0 size 0xffffffffffffffff virtual true final false
- bool ShouldRecurseIntoEntry(ByRef<::System::IO::Enumeration::FileSystemEntry> entry) ;
+ bool ShouldRecurseIntoEntry(ByRef<System::IO::Enumeration::FileSystemEntry> entry) ;
 
 /// @brief Method TransformEntry addr 0x0 size 0xffffffffffffffff virtual true final false
- TResult TransformEntry(ByRef<::System::IO::Enumeration::FileSystemEntry> entry) ;
+ TResult TransformEntry(ByRef<System::IO::Enumeration::FileSystemEntry> entry) ;
 
 /// @brief Method OnDirectoryFinished addr 0x0 size 0xffffffffffffffff virtual true final false
- void OnDirectoryFinished(::System::ReadOnlySpan_1<char16_t> directory) ;
+ void OnDirectoryFinished(System::ReadOnlySpan_1<char16_t> directory) ;
 
 /// @brief Method ContinueOnError addr 0x0 size 0xffffffffffffffff virtual true final false
  bool ContinueOnError(int32_t error) ;
@@ -258,5 +257,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::IO::Enumeration
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::IO::Enumeration::FileSystemEnumerator_1, "System.IO.Enumeration", "FileSystemEnumerator`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::IO::Enumeration::FileSystemEnumerator_1, "System.IO.Enumeration", "FileSystemEnumerator`1");

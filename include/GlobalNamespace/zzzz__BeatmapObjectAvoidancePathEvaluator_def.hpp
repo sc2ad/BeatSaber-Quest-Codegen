@@ -2,18 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
-namespace GlobalNamespace {
-class BezierSplineEvaluator;
-}
-namespace GlobalNamespace {
-class IAudioTimeSource;
-}
 namespace UnityEngine {
 struct Vector3;
 }
 namespace GlobalNamespace {
 class PlayerTransforms;
+}
+namespace GlobalNamespace {
+class IAudioTimeSource;
+}
+namespace GlobalNamespace {
+class BezierSplineEvaluator;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -97,40 +96,39 @@ constexpr void __set__moveToPlayerHeadTParam(float_t value) ;
 
 constexpr float_t __get__moveToPlayerHeadTParam() const;
 
- ::GlobalNamespace::BezierSplineEvaluator __declspec(property(get=__get__pathBezierCurveEvaluator, put=__set__pathBezierCurveEvaluator))  _pathBezierCurveEvaluator;
+ GlobalNamespace::BezierSplineEvaluator __declspec(property(get=__get__pathBezierCurveEvaluator, put=__set__pathBezierCurveEvaluator))  _pathBezierCurveEvaluator;
 
-constexpr void __set__pathBezierCurveEvaluator(::GlobalNamespace::BezierSplineEvaluator value) ;
+constexpr void __set__pathBezierCurveEvaluator(GlobalNamespace::BezierSplineEvaluator value) ;
 
-constexpr ::GlobalNamespace::BezierSplineEvaluator __get__pathBezierCurveEvaluator() const;
+constexpr GlobalNamespace::BezierSplineEvaluator __get__pathBezierCurveEvaluator() const;
 
- ::GlobalNamespace::IAudioTimeSource __declspec(property(get=__get__audioTimeSource, put=__set__audioTimeSource))  _audioTimeSource;
+ GlobalNamespace::IAudioTimeSource __declspec(property(get=__get__audioTimeSource, put=__set__audioTimeSource))  _audioTimeSource;
 
-constexpr void __set__audioTimeSource(::GlobalNamespace::IAudioTimeSource value) ;
+constexpr void __set__audioTimeSource(GlobalNamespace::IAudioTimeSource value) ;
 
-constexpr ::GlobalNamespace::IAudioTimeSource __get__audioTimeSource() const;
+constexpr GlobalNamespace::IAudioTimeSource __get__audioTimeSource() const;
 
- ::GlobalNamespace::PlayerTransforms __declspec(property(get=__get__playerTransforms, put=__set__playerTransforms))  _playerTransforms;
+ GlobalNamespace::PlayerTransforms __declspec(property(get=__get__playerTransforms, put=__set__playerTransforms))  _playerTransforms;
 
-constexpr void __set__playerTransforms(::GlobalNamespace::PlayerTransforms value) ;
+constexpr void __set__playerTransforms(GlobalNamespace::PlayerTransforms value) ;
 
-constexpr ::GlobalNamespace::PlayerTransforms __get__playerTransforms() const;
+constexpr GlobalNamespace::PlayerTransforms __get__playerTransforms() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "audioTimeSource", ty: "::GlobalNamespace::IAudioTimeSource", modifiers: "", def_value: None }, CppParam { name: "playerTransforms", ty: "::GlobalNamespace::PlayerTransforms", modifiers: "", def_value: None }, CppParam { name: "pathBezierCurveEvaluator", ty: "::GlobalNamespace::BezierSplineEvaluator", modifiers: "", def_value: None }, CppParam { name: "jumpStartZ", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "jumpEndZ", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "yOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "zOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "noteJumpSeed", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "moveToPlayerHeadTParam", ty: "float_t", modifiers: "", def_value: None }]
-explicit BeatmapObjectAvoidancePathEvaluator(::GlobalNamespace::IAudioTimeSource audioTimeSource, ::GlobalNamespace::PlayerTransforms playerTransforms, ::GlobalNamespace::BezierSplineEvaluator pathBezierCurveEvaluator, float_t jumpStartZ, float_t jumpEndZ, float_t yOffset, float_t zOffset, float_t noteJumpSeed, float_t moveToPlayerHeadTParam) ;
+// Ctor Parameters [CppParam { name: "audioTimeSource", ty: "GlobalNamespace::IAudioTimeSource", modifiers: "", def_value: None }, CppParam { name: "playerTransforms", ty: "GlobalNamespace::PlayerTransforms", modifiers: "", def_value: None }, CppParam { name: "pathBezierCurveEvaluator", ty: "GlobalNamespace::BezierSplineEvaluator", modifiers: "", def_value: None }, CppParam { name: "jumpStartZ", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "jumpEndZ", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "yOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "zOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "noteJumpSeed", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "moveToPlayerHeadTParam", ty: "float_t", modifiers: "", def_value: None }]
+explicit BeatmapObjectAvoidancePathEvaluator(GlobalNamespace::IAudioTimeSource audioTimeSource, GlobalNamespace::PlayerTransforms playerTransforms, GlobalNamespace::BezierSplineEvaluator pathBezierCurveEvaluator, float_t jumpStartZ, float_t jumpEndZ, float_t yOffset, float_t zOffset, float_t noteJumpSeed, float_t moveToPlayerHeadTParam) ;
 
 /// @brief Method .ctor addr 0x20a48f4 size 0x78 virtual false final false
- void _ctor(::GlobalNamespace::IAudioTimeSource audioTimeSource, ::GlobalNamespace::PlayerTransforms playerTransforms, ::GlobalNamespace::BezierSplineEvaluator pathBezierCurveEvaluator, float_t jumpStartZ, float_t jumpEndZ, float_t yOffset, float_t zOffset, float_t noteJumpSeed, float_t moveToPlayerHeadTParam) ;
+ void _ctor(GlobalNamespace::IAudioTimeSource audioTimeSource, GlobalNamespace::PlayerTransforms playerTransforms, GlobalNamespace::BezierSplineEvaluator pathBezierCurveEvaluator, float_t jumpStartZ, float_t jumpEndZ, float_t yOffset, float_t zOffset, float_t noteJumpSeed, float_t moveToPlayerHeadTParam) ;
 
 /// @brief Method GetCurrentPathPosition addr 0x20a496c size 0x104 virtual false final false
- ::UnityEngine::Vector3 GetCurrentPathPosition() ;
+ UnityEngine::Vector3 GetCurrentPathPosition() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator, "", "BeatmapObjectAvoidancePathEvaluator");
+NEED_NO_BOX(GlobalNamespace::BeatmapObjectAvoidancePathEvaluator);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectAvoidancePathEvaluator, "", "BeatmapObjectAvoidancePathEvaluator");

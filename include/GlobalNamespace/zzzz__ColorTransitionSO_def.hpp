@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__BaseTransitionSO_def.hpp"
-namespace {
-namespace UnityEngine {
-struct Color;
-}
 namespace GlobalNamespace {
 class ColorSO;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5545))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5550))
 // CS Name: ColorTransitionSO
-class CORDL_TYPE ColorTransitionSO : public ::GlobalNamespace::BaseTransitionSO {
+class CORDL_TYPE ColorTransitionSO : public GlobalNamespace::BaseTransitionSO {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr ColorTransitionSO(ColorTransitionSO const& ) noexcept = default;
 constexpr ColorTransitionSO(ColorTransitionSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ColorTransitionSO(void* ptr) noexcept : ::GlobalNamespace::BaseTransitionSO(ptr) {
+constexpr explicit ColorTransitionSO(void* ptr) noexcept : GlobalNamespace::BaseTransitionSO(ptr) {
 }
 
 
@@ -54,77 +53,77 @@ constexpr explicit ColorTransitionSO(void* ptr) noexcept : ::GlobalNamespace::Ba
 
 // Fields
 
- ::GlobalNamespace::ColorSO __declspec(property(get=__get__normalColor, put=__set__normalColor))  _normalColor;
+ GlobalNamespace::ColorSO __declspec(property(get=__get__normalColor, put=__set__normalColor))  _normalColor;
 
-constexpr void __set__normalColor(::GlobalNamespace::ColorSO value) ;
+constexpr void __set__normalColor(GlobalNamespace::ColorSO value) ;
 
-constexpr ::GlobalNamespace::ColorSO __get__normalColor() const;
+constexpr GlobalNamespace::ColorSO __get__normalColor() const;
 
- ::GlobalNamespace::ColorSO __declspec(property(get=__get__highlightedColor, put=__set__highlightedColor))  _highlightedColor;
+ GlobalNamespace::ColorSO __declspec(property(get=__get__highlightedColor, put=__set__highlightedColor))  _highlightedColor;
 
-constexpr void __set__highlightedColor(::GlobalNamespace::ColorSO value) ;
+constexpr void __set__highlightedColor(GlobalNamespace::ColorSO value) ;
 
-constexpr ::GlobalNamespace::ColorSO __get__highlightedColor() const;
+constexpr GlobalNamespace::ColorSO __get__highlightedColor() const;
 
- ::GlobalNamespace::ColorSO __declspec(property(get=__get__pressedColor, put=__set__pressedColor))  _pressedColor;
+ GlobalNamespace::ColorSO __declspec(property(get=__get__pressedColor, put=__set__pressedColor))  _pressedColor;
 
-constexpr void __set__pressedColor(::GlobalNamespace::ColorSO value) ;
+constexpr void __set__pressedColor(GlobalNamespace::ColorSO value) ;
 
-constexpr ::GlobalNamespace::ColorSO __get__pressedColor() const;
+constexpr GlobalNamespace::ColorSO __get__pressedColor() const;
 
- ::GlobalNamespace::ColorSO __declspec(property(get=__get__disabledColor, put=__set__disabledColor))  _disabledColor;
+ GlobalNamespace::ColorSO __declspec(property(get=__get__disabledColor, put=__set__disabledColor))  _disabledColor;
 
-constexpr void __set__disabledColor(::GlobalNamespace::ColorSO value) ;
+constexpr void __set__disabledColor(GlobalNamespace::ColorSO value) ;
 
-constexpr ::GlobalNamespace::ColorSO __get__disabledColor() const;
+constexpr GlobalNamespace::ColorSO __get__disabledColor() const;
 
- ::GlobalNamespace::ColorSO __declspec(property(get=__get__selectedColor, put=__set__selectedColor))  _selectedColor;
+ GlobalNamespace::ColorSO __declspec(property(get=__get__selectedColor, put=__set__selectedColor))  _selectedColor;
 
-constexpr void __set__selectedColor(::GlobalNamespace::ColorSO value) ;
+constexpr void __set__selectedColor(GlobalNamespace::ColorSO value) ;
 
-constexpr ::GlobalNamespace::ColorSO __get__selectedColor() const;
+constexpr GlobalNamespace::ColorSO __get__selectedColor() const;
 
- ::GlobalNamespace::ColorSO __declspec(property(get=__get__selectedAndHighlightedColor, put=__set__selectedAndHighlightedColor))  _selectedAndHighlightedColor;
+ GlobalNamespace::ColorSO __declspec(property(get=__get__selectedAndHighlightedColor, put=__set__selectedAndHighlightedColor))  _selectedAndHighlightedColor;
 
-constexpr void __set__selectedAndHighlightedColor(::GlobalNamespace::ColorSO value) ;
+constexpr void __set__selectedAndHighlightedColor(GlobalNamespace::ColorSO value) ;
 
-constexpr ::GlobalNamespace::ColorSO __get__selectedAndHighlightedColor() const;
+constexpr GlobalNamespace::ColorSO __get__selectedAndHighlightedColor() const;
 
 
 // Properties
 
- ::UnityEngine::Color __declspec(property(get=get_normalColor))  normalColor;
+ UnityEngine::Color __declspec(property(get=get_normalColor))  normalColor;
 
- ::UnityEngine::Color __declspec(property(get=get_highlightedColor))  highlightedColor;
+ UnityEngine::Color __declspec(property(get=get_highlightedColor))  highlightedColor;
 
- ::UnityEngine::Color __declspec(property(get=get_pressedColor))  pressedColor;
+ UnityEngine::Color __declspec(property(get=get_pressedColor))  pressedColor;
 
- ::UnityEngine::Color __declspec(property(get=get_disabledColor))  disabledColor;
+ UnityEngine::Color __declspec(property(get=get_disabledColor))  disabledColor;
 
- ::UnityEngine::Color __declspec(property(get=get_selectedColor))  selectedColor;
+ UnityEngine::Color __declspec(property(get=get_selectedColor))  selectedColor;
 
- ::UnityEngine::Color __declspec(property(get=get_selectedAndHighlightedColor))  selectedAndHighlightedColor;
+ UnityEngine::Color __declspec(property(get=get_selectedAndHighlightedColor))  selectedAndHighlightedColor;
 
 
 // Methods
 
 /// @brief Method get_normalColor addr 0x2128384 size 0xc virtual false final false
- ::UnityEngine::Color get_normalColor() ;
+ UnityEngine::Color get_normalColor() ;
 
 /// @brief Method get_highlightedColor addr 0x21285f4 size 0xc virtual false final false
- ::UnityEngine::Color get_highlightedColor() ;
+ UnityEngine::Color get_highlightedColor() ;
 
 /// @brief Method get_pressedColor addr 0x212862c size 0xc virtual false final false
- ::UnityEngine::Color get_pressedColor() ;
+ UnityEngine::Color get_pressedColor() ;
 
 /// @brief Method get_disabledColor addr 0x2128664 size 0xc virtual false final false
- ::UnityEngine::Color get_disabledColor() ;
+ UnityEngine::Color get_disabledColor() ;
 
 /// @brief Method get_selectedColor addr 0x212869c size 0xc virtual false final false
- ::UnityEngine::Color get_selectedColor() ;
+ UnityEngine::Color get_selectedColor() ;
 
 /// @brief Method get_selectedAndHighlightedColor addr 0x21286d4 size 0xc virtual false final false
- ::UnityEngine::Color get_selectedAndHighlightedColor() ;
+ UnityEngine::Color get_selectedAndHighlightedColor() ;
 
 // Ctor Parameters []
 explicit ColorTransitionSO() ;
@@ -136,6 +135,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ColorTransitionSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ColorTransitionSO, "", "ColorTransitionSO");
+NEED_NO_BOX(GlobalNamespace::ColorTransitionSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorTransitionSO, "", "ColorTransitionSO");

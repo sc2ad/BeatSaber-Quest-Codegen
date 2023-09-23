@@ -5,17 +5,16 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System {
-template<typename T>
-class IEquatable_1;
-}
 namespace UnityEngine::UIElements {
 struct StyleKeyword;
 }
 namespace UnityEngine::UIElements {
 template<typename T>
 class IStyleValue_1;
+}
+namespace System {
+template<typename T>
+class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -30,14 +29,14 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE StyleFloat : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::UIElements::IStyleValue_1<float_t>
-constexpr operator  ::UnityEngine::UIElements::IStyleValue_1<float_t>() const;
+/// @brief Convert operator to UnityEngine::UIElements::IStyleValue_1<float_t>
+constexpr operator  UnityEngine::UIElements::IStyleValue_1<float_t>() const;
 
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::UIElements::StyleFloat>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::UIElements::StyleFloat>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::UIElements::StyleFloat>
+constexpr operator  System::IEquatable_1<UnityEngine::UIElements::StyleFloat>() const;
 
-// Ctor Parameters [CppParam { name: "m_Value", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Keyword", ty: "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: None }]
-constexpr StyleFloat(float_t m_Value, ::UnityEngine::UIElements::StyleKeyword m_Keyword) noexcept;
+// Ctor Parameters [CppParam { name: "m_Value", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Keyword", ty: "UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: None }]
+constexpr StyleFloat(float_t m_Value, UnityEngine::UIElements::StyleKeyword m_Keyword) noexcept;
 
 
                     constexpr StyleFloat(StyleFloat const&) = default;
@@ -76,18 +75,18 @@ constexpr void __set_m_Value(float_t value) ;
 
 constexpr float_t __get_m_Value() const;
 
- ::UnityEngine::UIElements::StyleKeyword __declspec(property(get=__get_m_Keyword, put=__set_m_Keyword))  m_Keyword;
+ UnityEngine::UIElements::StyleKeyword __declspec(property(get=__get_m_Keyword, put=__set_m_Keyword))  m_Keyword;
 
-constexpr void __set_m_Keyword(::UnityEngine::UIElements::StyleKeyword value) ;
+constexpr void __set_m_Keyword(UnityEngine::UIElements::StyleKeyword value) ;
 
-constexpr ::UnityEngine::UIElements::StyleKeyword __get_m_Keyword() const;
+constexpr UnityEngine::UIElements::StyleKeyword __get_m_Keyword() const;
 
 
 // Properties
 
  float_t __declspec(property(get=get_value))  value;
 
- ::UnityEngine::UIElements::StyleKeyword __declspec(property(get=get_keyword))  keyword;
+ UnityEngine::UIElements::StyleKeyword __declspec(property(get=get_keyword))  keyword;
 
 
 // Methods
@@ -96,28 +95,28 @@ constexpr ::UnityEngine::UIElements::StyleKeyword __get_m_Keyword() const;
  float_t get_value() ;
 
 /// @brief Method get_keyword addr 0x2cf94bc size 0x8 virtual true final true
- ::UnityEngine::UIElements::StyleKeyword get_keyword() ;
+ UnityEngine::UIElements::StyleKeyword get_keyword() ;
 
 /// @brief Method .ctor addr 0x2cf94c4 size 0xc virtual false final false
  void _ctor(float_t v) ;
 
 /// @brief Method .ctor addr 0x2cf94dc size 0x8 virtual false final false
- void _ctor(::UnityEngine::UIElements::StyleKeyword keyword) ;
+ void _ctor(UnityEngine::UIElements::StyleKeyword keyword) ;
 
 /// @brief Method .ctor addr 0x2cf94d0 size 0xc virtual false final false
- void _ctor(float_t v, ::UnityEngine::UIElements::StyleKeyword keyword) ;
+ void _ctor(float_t v, UnityEngine::UIElements::StyleKeyword keyword) ;
 
 /// @brief Method op_Equality addr 0x2cf94e4 size 0x28 virtual false final false
-static bool op_Equality(::UnityEngine::UIElements::StyleFloat lhs, ::UnityEngine::UIElements::StyleFloat rhs) ;
+static bool op_Equality(UnityEngine::UIElements::StyleFloat lhs, UnityEngine::UIElements::StyleFloat rhs) ;
 
 /// @brief Method op_Implicit addr 0x2cf950c size 0x8 virtual false final false
-static ::UnityEngine::UIElements::StyleFloat op_Implicit___UnityEngine__UIElements__StyleFloat(::UnityEngine::UIElements::StyleKeyword keyword) ;
+static UnityEngine::UIElements::StyleFloat op_Implicit_UnityEngine__UIElements__StyleFloat(UnityEngine::UIElements::StyleKeyword keyword) ;
 
 /// @brief Method op_Implicit addr 0x2cf9514 size 0x8 virtual false final false
-static ::UnityEngine::UIElements::StyleFloat op_Implicit___UnityEngine__UIElements__StyleFloat(float_t v) ;
+static UnityEngine::UIElements::StyleFloat op_Implicit_UnityEngine__UIElements__StyleFloat(float_t v) ;
 
 /// @brief Method Equals addr 0x2cf951c size 0x28 virtual true final true
- bool Equals(::UnityEngine::UIElements::StyleFloat other) ;
+ bool Equals(UnityEngine::UIElements::StyleFloat other) ;
 
 /// @brief Method Equals addr 0x2cf9544 size 0x8c virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -132,5 +131,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleFloat, "UnityEngine.UIElements", "StyleFloat");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::StyleFloat, "UnityEngine.UIElements", "StyleFloat");

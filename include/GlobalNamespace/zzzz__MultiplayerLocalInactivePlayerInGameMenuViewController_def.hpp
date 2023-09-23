@@ -2,27 +2,26 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
-namespace Polyglot {
-class LocalizedTextMeshProUGUI;
+namespace HMUI {
+class ButtonBinder;
 }
-namespace UnityEngine::UI {
-class Toggle;
-}
-namespace Tweening {
-class Tween;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-struct ____GlobalNamespace__MultiplayerController__State;
+namespace HMUI {
+class ToggleBinder;
 }
 namespace UnityEngine::UI {
 class Button;
 }
+namespace Polyglot {
+class LocalizedTextMeshProUGUI;
+}
 namespace UnityEngine {
 class CanvasGroup;
+}
+namespace GlobalNamespace {
+class MultiplayerController;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__MultiplayerController__State;
 }
 namespace GlobalNamespace {
 class LocalPlayerInGameMenuInitData;
@@ -30,17 +29,17 @@ class LocalPlayerInGameMenuInitData;
 namespace GlobalNamespace {
 class MultiplayerLocalPlayerDisconnectHelper;
 }
-namespace HMUI {
-class ToggleBinder;
-}
-namespace GlobalNamespace {
-class MultiplayerController;
-}
 namespace Tweening {
 class TimeTweeningManager;
 }
-namespace HMUI {
-class ButtonBinder;
+namespace UnityEngine {
+class GameObject;
+}
+namespace Tweening {
+class Tween;
+}
+namespace UnityEngine::UI {
+class Toggle;
 }
 namespace GlobalNamespace {
 class LevelBar;
@@ -58,7 +57,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5159))
 // CS Name: MultiplayerLocalInactivePlayerInGameMenuViewController
-class CORDL_TYPE MultiplayerLocalInactivePlayerInGameMenuViewController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerLocalInactivePlayerInGameMenuViewController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -73,7 +72,7 @@ constexpr MultiplayerLocalInactivePlayerInGameMenuViewController(MultiplayerLoca
 constexpr MultiplayerLocalInactivePlayerInGameMenuViewController(MultiplayerLocalInactivePlayerInGameMenuViewController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerLocalInactivePlayerInGameMenuViewController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerLocalInactivePlayerInGameMenuViewController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -94,101 +93,101 @@ constexpr explicit MultiplayerLocalInactivePlayerInGameMenuViewController(void* 
 
 // Fields
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__disconnectButton, put=__set__disconnectButton))  _disconnectButton;
+ UnityEngine::UI::Button __declspec(property(get=__get__disconnectButton, put=__set__disconnectButton))  _disconnectButton;
 
-constexpr void __set__disconnectButton(::UnityEngine::UI::Button value) ;
+constexpr void __set__disconnectButton(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__disconnectButton() const;
+constexpr UnityEngine::UI::Button __get__disconnectButton() const;
 
- ::Polyglot::LocalizedTextMeshProUGUI __declspec(property(get=__get__disconnectButtonLocalizedText, put=__set__disconnectButtonLocalizedText))  _disconnectButtonLocalizedText;
+ Polyglot::LocalizedTextMeshProUGUI __declspec(property(get=__get__disconnectButtonLocalizedText, put=__set__disconnectButtonLocalizedText))  _disconnectButtonLocalizedText;
 
-constexpr void __set__disconnectButtonLocalizedText(::Polyglot::LocalizedTextMeshProUGUI value) ;
+constexpr void __set__disconnectButtonLocalizedText(Polyglot::LocalizedTextMeshProUGUI value) ;
 
-constexpr ::Polyglot::LocalizedTextMeshProUGUI __get__disconnectButtonLocalizedText() const;
+constexpr Polyglot::LocalizedTextMeshProUGUI __get__disconnectButtonLocalizedText() const;
 
- ::UnityEngine::UI::Toggle __declspec(property(get=__get__detailsToggle, put=__set__detailsToggle))  _detailsToggle;
+ UnityEngine::UI::Toggle __declspec(property(get=__get__detailsToggle, put=__set__detailsToggle))  _detailsToggle;
 
-constexpr void __set__detailsToggle(::UnityEngine::UI::Toggle value) ;
+constexpr void __set__detailsToggle(UnityEngine::UI::Toggle value) ;
 
-constexpr ::UnityEngine::UI::Toggle __get__detailsToggle() const;
+constexpr UnityEngine::UI::Toggle __get__detailsToggle() const;
 
- ::UnityEngine::CanvasGroup __declspec(property(get=__get__globalCanvasGroup, put=__set__globalCanvasGroup))  _globalCanvasGroup;
+ UnityEngine::CanvasGroup __declspec(property(get=__get__globalCanvasGroup, put=__set__globalCanvasGroup))  _globalCanvasGroup;
 
-constexpr void __set__globalCanvasGroup(::UnityEngine::CanvasGroup value) ;
+constexpr void __set__globalCanvasGroup(UnityEngine::CanvasGroup value) ;
 
-constexpr ::UnityEngine::CanvasGroup __get__globalCanvasGroup() const;
+constexpr UnityEngine::CanvasGroup __get__globalCanvasGroup() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get__mainBar, put=__set__mainBar))  _mainBar;
+ UnityEngine::GameObject __declspec(property(get=__get__mainBar, put=__set__mainBar))  _mainBar;
 
-constexpr void __set__mainBar(::UnityEngine::GameObject value) ;
+constexpr void __set__mainBar(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__mainBar() const;
+constexpr UnityEngine::GameObject __get__mainBar() const;
 
- ::GlobalNamespace::DisconnectPromptView __declspec(property(get=__get__disconnectPromptView, put=__set__disconnectPromptView))  _disconnectPromptView;
+ GlobalNamespace::DisconnectPromptView __declspec(property(get=__get__disconnectPromptView, put=__set__disconnectPromptView))  _disconnectPromptView;
 
-constexpr void __set__disconnectPromptView(::GlobalNamespace::DisconnectPromptView value) ;
+constexpr void __set__disconnectPromptView(GlobalNamespace::DisconnectPromptView value) ;
 
-constexpr ::GlobalNamespace::DisconnectPromptView __get__disconnectPromptView() const;
+constexpr GlobalNamespace::DisconnectPromptView __get__disconnectPromptView() const;
 
- ::GlobalNamespace::LevelBar __declspec(property(get=__get__levelBar, put=__set__levelBar))  _levelBar;
+ GlobalNamespace::LevelBar __declspec(property(get=__get__levelBar, put=__set__levelBar))  _levelBar;
 
-constexpr void __set__levelBar(::GlobalNamespace::LevelBar value) ;
+constexpr void __set__levelBar(GlobalNamespace::LevelBar value) ;
 
-constexpr ::GlobalNamespace::LevelBar __get__levelBar() const;
+constexpr GlobalNamespace::LevelBar __get__levelBar() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get__dontOwnSongGameObject, put=__set__dontOwnSongGameObject))  _dontOwnSongGameObject;
+ UnityEngine::GameObject __declspec(property(get=__get__dontOwnSongGameObject, put=__set__dontOwnSongGameObject))  _dontOwnSongGameObject;
 
-constexpr void __set__dontOwnSongGameObject(::UnityEngine::GameObject value) ;
+constexpr void __set__dontOwnSongGameObject(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__dontOwnSongGameObject() const;
+constexpr UnityEngine::GameObject __get__dontOwnSongGameObject() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get__detailsGameObject, put=__set__detailsGameObject))  _detailsGameObject;
+ UnityEngine::GameObject __declspec(property(get=__get__detailsGameObject, put=__set__detailsGameObject))  _detailsGameObject;
 
-constexpr void __set__detailsGameObject(::UnityEngine::GameObject value) ;
+constexpr void __set__detailsGameObject(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__detailsGameObject() const;
+constexpr UnityEngine::GameObject __get__detailsGameObject() const;
 
- ::GlobalNamespace::LocalPlayerInGameMenuInitData __declspec(property(get=__get__localPlayerInGameMenuInitData, put=__set__localPlayerInGameMenuInitData))  _localPlayerInGameMenuInitData;
+ GlobalNamespace::LocalPlayerInGameMenuInitData __declspec(property(get=__get__localPlayerInGameMenuInitData, put=__set__localPlayerInGameMenuInitData))  _localPlayerInGameMenuInitData;
 
-constexpr void __set__localPlayerInGameMenuInitData(::GlobalNamespace::LocalPlayerInGameMenuInitData value) ;
+constexpr void __set__localPlayerInGameMenuInitData(GlobalNamespace::LocalPlayerInGameMenuInitData value) ;
 
-constexpr ::GlobalNamespace::LocalPlayerInGameMenuInitData __get__localPlayerInGameMenuInitData() const;
+constexpr GlobalNamespace::LocalPlayerInGameMenuInitData __get__localPlayerInGameMenuInitData() const;
 
- ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper __declspec(property(get=__get__disconnectHelper, put=__set__disconnectHelper))  _disconnectHelper;
+ GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper __declspec(property(get=__get__disconnectHelper, put=__set__disconnectHelper))  _disconnectHelper;
 
-constexpr void __set__disconnectHelper(::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper value) ;
+constexpr void __set__disconnectHelper(GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper value) ;
 
-constexpr ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper __get__disconnectHelper() const;
+constexpr GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper __get__disconnectHelper() const;
 
- ::GlobalNamespace::MultiplayerController __declspec(property(get=__get__multiplayerController, put=__set__multiplayerController))  _multiplayerController;
+ GlobalNamespace::MultiplayerController __declspec(property(get=__get__multiplayerController, put=__set__multiplayerController))  _multiplayerController;
 
-constexpr void __set__multiplayerController(::GlobalNamespace::MultiplayerController value) ;
+constexpr void __set__multiplayerController(GlobalNamespace::MultiplayerController value) ;
 
-constexpr ::GlobalNamespace::MultiplayerController __get__multiplayerController() const;
+constexpr GlobalNamespace::MultiplayerController __get__multiplayerController() const;
 
- ::Tweening::TimeTweeningManager __declspec(property(get=__get__tweeningManager, put=__set__tweeningManager))  _tweeningManager;
+ Tweening::TimeTweeningManager __declspec(property(get=__get__tweeningManager, put=__set__tweeningManager))  _tweeningManager;
 
-constexpr void __set__tweeningManager(::Tweening::TimeTweeningManager value) ;
+constexpr void __set__tweeningManager(Tweening::TimeTweeningManager value) ;
 
-constexpr ::Tweening::TimeTweeningManager __get__tweeningManager() const;
+constexpr Tweening::TimeTweeningManager __get__tweeningManager() const;
 
- ::HMUI::ButtonBinder __declspec(property(get=__get__buttonBinder, put=__set__buttonBinder))  _buttonBinder;
+ HMUI::ButtonBinder __declspec(property(get=__get__buttonBinder, put=__set__buttonBinder))  _buttonBinder;
 
-constexpr void __set__buttonBinder(::HMUI::ButtonBinder value) ;
+constexpr void __set__buttonBinder(HMUI::ButtonBinder value) ;
 
-constexpr ::HMUI::ButtonBinder __get__buttonBinder() const;
+constexpr HMUI::ButtonBinder __get__buttonBinder() const;
 
- ::HMUI::ToggleBinder __declspec(property(get=__get__toggleBinder, put=__set__toggleBinder))  _toggleBinder;
+ HMUI::ToggleBinder __declspec(property(get=__get__toggleBinder, put=__set__toggleBinder))  _toggleBinder;
 
-constexpr void __set__toggleBinder(::HMUI::ToggleBinder value) ;
+constexpr void __set__toggleBinder(HMUI::ToggleBinder value) ;
 
-constexpr ::HMUI::ToggleBinder __get__toggleBinder() const;
+constexpr HMUI::ToggleBinder __get__toggleBinder() const;
 
- ::Tweening::Tween __declspec(property(get=__get__fadeOutTween, put=__set__fadeOutTween))  _fadeOutTween;
+ Tweening::Tween __declspec(property(get=__get__fadeOutTween, put=__set__fadeOutTween))  _fadeOutTween;
 
-constexpr void __set__fadeOutTween(::Tweening::Tween value) ;
+constexpr void __set__fadeOutTween(Tweening::Tween value) ;
 
-constexpr ::Tweening::Tween __get__fadeOutTween() const;
+constexpr Tweening::Tween __get__fadeOutTween() const;
 
 
 // Methods
@@ -215,7 +214,7 @@ constexpr ::Tweening::Tween __get__fadeOutTween() const;
  void HandleDisconnectPromptViewDidViewFinish(bool disconnect) ;
 
 /// @brief Method HandleStateChanged addr 0x20d0c70 size 0x1c4 virtual false final false
- void HandleStateChanged(::GlobalNamespace::____GlobalNamespace__MultiplayerController__State state) ;
+ void HandleStateChanged(GlobalNamespace::GlobalNamespace__MultiplayerController__State state) ;
 
 // Ctor Parameters []
 explicit MultiplayerLocalInactivePlayerInGameMenuViewController() ;
@@ -236,6 +235,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController, "", "MultiplayerLocalInactivePlayerInGameMenuViewController");
+NEED_NO_BOX(GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController, "", "MultiplayerLocalInactivePlayerInGameMenuViewController");

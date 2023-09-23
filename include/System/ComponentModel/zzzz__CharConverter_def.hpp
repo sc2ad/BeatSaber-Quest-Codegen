@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System {
 class Type;
 }
@@ -22,7 +21,7 @@ namespace System::ComponentModel {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8331))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8261))
 // CS Name: System.ComponentModel.CharConverter
-class CORDL_TYPE CharConverter : public ::System::ComponentModel::TypeConverter {
+class CORDL_TYPE CharConverter : public System::ComponentModel::TypeConverter {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr CharConverter(CharConverter const& ) noexcept = default;
 constexpr CharConverter(CharConverter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CharConverter(void* ptr) noexcept : ::System::ComponentModel::TypeConverter(ptr) {
+constexpr explicit CharConverter(void* ptr) noexcept : System::ComponentModel::TypeConverter(ptr) {
 }
 
 
@@ -59,13 +58,13 @@ constexpr explicit CharConverter(void* ptr) noexcept : ::System::ComponentModel:
 // Methods
 
 /// @brief Method CanConvertFrom addr 0x2774a74 size 0xc8 virtual true final false
- bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext context, ::System::Type sourceType) ;
+ bool CanConvertFrom(System::ComponentModel::ITypeDescriptorContext context, System::Type sourceType) ;
 
 /// @brief Method ConvertTo addr 0x2774b3c size 0x130 virtual true final false
- ::bs_hook::Il2CppWrapperType ConvertTo(::System::ComponentModel::ITypeDescriptorContext context, ::System::Globalization::CultureInfo culture, ::bs_hook::Il2CppWrapperType value, ::System::Type destinationType) ;
+ ::bs_hook::Il2CppWrapperType ConvertTo(System::ComponentModel::ITypeDescriptorContext context, System::Globalization::CultureInfo culture, ::bs_hook::Il2CppWrapperType value, System::Type destinationType) ;
 
 /// @brief Method ConvertFrom addr 0x2774c6c size 0x188 virtual true final false
- ::bs_hook::Il2CppWrapperType ConvertFrom(::System::ComponentModel::ITypeDescriptorContext context, ::System::Globalization::CultureInfo culture, ::bs_hook::Il2CppWrapperType value) ;
+ ::bs_hook::Il2CppWrapperType ConvertFrom(System::ComponentModel::ITypeDescriptorContext context, System::Globalization::CultureInfo culture, ::bs_hook::Il2CppWrapperType value) ;
 
 // Ctor Parameters []
 explicit CharConverter() ;
@@ -77,6 +76,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::CharConverter);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::CharConverter, "System.ComponentModel", "CharConverter");
+NEED_NO_BOX(System::ComponentModel::CharConverter);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::CharConverter, "System.ComponentModel", "CharConverter");

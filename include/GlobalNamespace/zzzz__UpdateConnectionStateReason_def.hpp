@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 struct UpdateConnectionStateReason;
@@ -75,38 +74,37 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Init offset 0
-static ::GlobalNamespace::UpdateConnectionStateReason const Init;
+static GlobalNamespace::UpdateConnectionStateReason const Init;
 
 /// @brief Field PlayerOrderChanged offset 0
-static ::GlobalNamespace::UpdateConnectionStateReason const PlayerOrderChanged;
+static GlobalNamespace::UpdateConnectionStateReason const PlayerOrderChanged;
 
 /// @brief Field Connected offset 0
-static ::GlobalNamespace::UpdateConnectionStateReason const Connected;
+static GlobalNamespace::UpdateConnectionStateReason const Connected;
 
 /// @brief Field StartSession offset 0
-static ::GlobalNamespace::UpdateConnectionStateReason const StartSession;
+static GlobalNamespace::UpdateConnectionStateReason const StartSession;
 
 /// @brief Field StartDedicatedServer offset 0
-static ::GlobalNamespace::UpdateConnectionStateReason const StartDedicatedServer;
+static GlobalNamespace::UpdateConnectionStateReason const StartDedicatedServer;
 
 /// @brief Field SyncTimeInitialized offset 0
-static ::GlobalNamespace::UpdateConnectionStateReason const SyncTimeInitialized;
+static GlobalNamespace::UpdateConnectionStateReason const SyncTimeInitialized;
 
 /// @brief Field ManualDisconnect offset 0
-static ::GlobalNamespace::UpdateConnectionStateReason const ManualDisconnect;
+static GlobalNamespace::UpdateConnectionStateReason const ManualDisconnect;
 
 /// @brief Field RemoteDisconnect offset 0
-static ::GlobalNamespace::UpdateConnectionStateReason const RemoteDisconnect;
+static GlobalNamespace::UpdateConnectionStateReason const RemoteDisconnect;
 
 /// @brief Field ConnectionFailed offset 0
-static ::GlobalNamespace::UpdateConnectionStateReason const ConnectionFailed;
+static GlobalNamespace::UpdateConnectionStateReason const ConnectionFailed;
 
 /// @brief Field OnDestroy offset 0
-static ::GlobalNamespace::UpdateConnectionStateReason const OnDestroy;
+static GlobalNamespace::UpdateConnectionStateReason const OnDestroy;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::UpdateConnectionStateReason, "", "UpdateConnectionStateReason");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UpdateConnectionStateReason, "", "UpdateConnectionStateReason");

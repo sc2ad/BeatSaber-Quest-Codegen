@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::IO {
 class Stream;
 }
@@ -28,7 +27,7 @@ constexpr explicit CmsProcessable(void* ptr) noexcept : ::cordl_internals::Inter
 // Methods
 
 /// @brief Method Write addr 0x0 size 0xffffffffffffffff virtual true final false
- void Write(::System::IO::Stream outStream) ;
+ void Write(System::IO::Stream outStream) ;
 
 /// @brief Method GetContent addr 0x0 size 0xffffffffffffffff virtual true final false
  ::bs_hook::Il2CppWrapperType GetContent() ;
@@ -37,6 +36,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Cms
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Cms::CmsProcessable);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::CmsProcessable, "Org.BouncyCastle.Cms", "CmsProcessable");
+NEED_NO_BOX(Org::BouncyCastle::Cms::CmsProcessable);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Cms::CmsProcessable, "Org.BouncyCastle.Cms", "CmsProcessable");

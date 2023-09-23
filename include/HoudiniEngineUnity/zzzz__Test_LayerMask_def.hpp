@@ -1,13 +1,12 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
+namespace UnityEngine {
+struct LayerMask;
+}
 namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivable_1;
-}
-namespace UnityEngine {
-struct LayerMask;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -22,8 +21,8 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE Test_LayerMask : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LayerMask>
-constexpr operator  ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LayerMask>() const noexcept;
+/// @brief Convert operator to HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_LayerMask>
+constexpr operator  HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_LayerMask>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -58,28 +57,27 @@ constexpr explicit Test_LayerMask(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
- ::UnityEngine::LayerMask __declspec(property(get=__get_self, put=__set_self))  self;
+ UnityEngine::LayerMask __declspec(property(get=__get_self, put=__set_self))  self;
 
-constexpr void __set_self(::UnityEngine::LayerMask value) ;
+constexpr void __set_self(UnityEngine::LayerMask value) ;
 
-constexpr ::UnityEngine::LayerMask __get_self() const;
+constexpr UnityEngine::LayerMask __get_self() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "self", ty: "::UnityEngine::LayerMask", modifiers: "", def_value: None }]
-explicit Test_LayerMask(::UnityEngine::LayerMask self) ;
+// Ctor Parameters [CppParam { name: "self", ty: "UnityEngine::LayerMask", modifiers: "", def_value: None }]
+explicit Test_LayerMask(UnityEngine::LayerMask self) ;
 
 /// @brief Method .ctor addr 0x20740cc size 0x28 virtual false final false
- void _ctor(::UnityEngine::LayerMask self) ;
+ void _ctor(UnityEngine::LayerMask self) ;
 
 /// @brief Method IsEquivalentTo addr 0x20740f4 size 0xf8 virtual true final true
- bool IsEquivalentTo(::HoudiniEngineUnity::Test_LayerMask other) ;
+ bool IsEquivalentTo(HoudiniEngineUnity::Test_LayerMask other) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::Test_LayerMask);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::Test_LayerMask, "HoudiniEngineUnity", "Test_LayerMask");
+NEED_NO_BOX(HoudiniEngineUnity::Test_LayerMask);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_LayerMask, "HoudiniEngineUnity", "Test_LayerMask");

@@ -4,18 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
-namespace Org::BouncyCastle::Crypto {
-class IWrapper;
+class IBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
 }
 namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
+class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class IWrapper;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -30,8 +29,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
 class CORDL_TYPE Rfc3394WrapEngine : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IWrapper
-constexpr operator  ::Org::BouncyCastle::Crypto::IWrapper() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IWrapper
+constexpr operator  Org::BouncyCastle::Crypto::IWrapper() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -66,17 +65,17 @@ constexpr explicit Rfc3394WrapEngine(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 
 // Fields
 
- ::Org::BouncyCastle::Crypto::IBlockCipher __declspec(property(get=__get_engine, put=__set_engine))  engine;
+ Org::BouncyCastle::Crypto::IBlockCipher __declspec(property(get=__get_engine, put=__set_engine))  engine;
 
-constexpr void __set_engine(::Org::BouncyCastle::Crypto::IBlockCipher value) ;
+constexpr void __set_engine(Org::BouncyCastle::Crypto::IBlockCipher value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IBlockCipher __get_engine() const;
+constexpr Org::BouncyCastle::Crypto::IBlockCipher __get_engine() const;
 
- ::Org::BouncyCastle::Crypto::Parameters::KeyParameter __declspec(property(get=__get_param, put=__set_param))  param;
+ Org::BouncyCastle::Crypto::Parameters::KeyParameter __declspec(property(get=__get_param, put=__set_param))  param;
 
-constexpr void __set_param(::Org::BouncyCastle::Crypto::Parameters::KeyParameter value) ;
+constexpr void __set_param(Org::BouncyCastle::Crypto::Parameters::KeyParameter value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Parameters::KeyParameter __get_param() const;
+constexpr Org::BouncyCastle::Crypto::Parameters::KeyParameter __get_param() const;
 
  bool __declspec(property(get=__get_forWrapping, put=__set_forWrapping))  forWrapping;
 
@@ -98,14 +97,14 @@ constexpr ::ArrayW<uint8_t> __get_iv() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "engine", ty: "::Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
-explicit Rfc3394WrapEngine(::Org::BouncyCastle::Crypto::IBlockCipher engine) ;
+// Ctor Parameters [CppParam { name: "engine", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
+explicit Rfc3394WrapEngine(Org::BouncyCastle::Crypto::IBlockCipher engine) ;
 
 /// @brief Method .ctor addr 0xe2fb48 size 0x90 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher engine) ;
+ void _ctor(Org::BouncyCastle::Crypto::IBlockCipher engine) ;
 
 /// @brief Method Init addr 0xe2fbd8 size 0x214 virtual true final false
- void Init(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(bool forWrapping, Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method get_AlgorithmName addr 0xe2fdec size 0xa0 virtual true final false
  ::StringW get_AlgorithmName() ;
@@ -120,6 +119,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Engines
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::Rfc3394WrapEngine);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Engines::Rfc3394WrapEngine, "Org.BouncyCastle.Crypto.Engines", "Rfc3394WrapEngine");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Engines::Rfc3394WrapEngine);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::Rfc3394WrapEngine, "Org.BouncyCastle.Crypto.Engines", "Rfc3394WrapEngine");

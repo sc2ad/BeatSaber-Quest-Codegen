@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Net {
 class HttpListener;
 }
@@ -83,11 +82,11 @@ constexpr void __set_secure(bool value) ;
 
 constexpr bool __get_secure() const;
 
- ::System::Net::HttpListener __declspec(property(get=__get_Listener, put=__set_Listener))  Listener;
+ System::Net::HttpListener __declspec(property(get=__get_Listener, put=__set_Listener))  Listener;
 
-constexpr void __set_Listener(::System::Net::HttpListener value) ;
+constexpr void __set_Listener(System::Net::HttpListener value) ;
 
-constexpr ::System::Net::HttpListener __get_Listener() const;
+constexpr System::Net::HttpListener __get_Listener() const;
 
 
 // Properties
@@ -140,6 +139,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::ListenerPrefix);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::ListenerPrefix, "System.Net", "ListenerPrefix");
+NEED_NO_BOX(System::Net::ListenerPrefix);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::ListenerPrefix, "System.Net", "ListenerPrefix");

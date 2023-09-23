@@ -2,13 +2,12 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
+namespace UnityEngine::TextCore::LowLevel {
+struct GlyphPairAdjustmentRecord;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace UnityEngine::TextCore::LowLevel {
-struct GlyphPairAdjustmentRecord;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -23,7 +22,7 @@ namespace UnityEngine::TextCore::Text {
 class FontFeatureTable;
 }
 namespace UnityEngine::TextCore::Text {
-class ____UnityEngine__TextCore__Text__FontFeatureTable____c;
+class UnityEngine__TextCore__Text__FontFeatureTable____c;
 }
 // Type: ::<>c
 namespace UnityEngine::TextCore::Text {
@@ -31,74 +30,74 @@ namespace UnityEngine::TextCore::Text {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13515))
 // CS Name: UnityEngine.TextCore.Text.FontFeatureTable::<>c
-class CORDL_TYPE ____UnityEngine__TextCore__Text__FontFeatureTable____c : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__TextCore__Text__FontFeatureTable____c : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____UnityEngine__TextCore__Text__FontFeatureTable____c() = default;
+virtual ~UnityEngine__TextCore__Text__FontFeatureTable____c() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__TextCore__Text__FontFeatureTable____c", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__TextCore__Text__FontFeatureTable____c(____UnityEngine__TextCore__Text__FontFeatureTable____c const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__TextCore__Text__FontFeatureTable____c", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__TextCore__Text__FontFeatureTable____c(UnityEngine__TextCore__Text__FontFeatureTable____c const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__TextCore__Text__FontFeatureTable____c", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__TextCore__Text__FontFeatureTable____c(____UnityEngine__TextCore__Text__FontFeatureTable____c&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__TextCore__Text__FontFeatureTable____c", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__TextCore__Text__FontFeatureTable____c(UnityEngine__TextCore__Text__FontFeatureTable____c&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__TextCore__Text__FontFeatureTable____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__TextCore__Text__FontFeatureTable____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__TextCore__Text__FontFeatureTable____c& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__TextCore__Text__FontFeatureTable____c& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__TextCore__Text__FontFeatureTable____c& operator=(void* o) noexcept {
+  constexpr UnityEngine__TextCore__Text__FontFeatureTable____c& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__TextCore__Text__FontFeatureTable____c& operator=(____UnityEngine__TextCore__Text__FontFeatureTable____c&& o) noexcept = default;
-  constexpr ____UnityEngine__TextCore__Text__FontFeatureTable____c& operator=(____UnityEngine__TextCore__Text__FontFeatureTable____c const& o) noexcept = default;
+  constexpr UnityEngine__TextCore__Text__FontFeatureTable____c& operator=(UnityEngine__TextCore__Text__FontFeatureTable____c&& o) noexcept = default;
+  constexpr UnityEngine__TextCore__Text__FontFeatureTable____c& operator=(UnityEngine__TextCore__Text__FontFeatureTable____c const& o) noexcept = default;
                 
 
 
 // Fields
 
-static ::UnityEngine::TextCore::Text::____UnityEngine__TextCore__Text__FontFeatureTable____c __declspec(property(get=__get___9, put=__set___9))  __9;
+static UnityEngine::TextCore::Text::UnityEngine__TextCore__Text__FontFeatureTable____c __declspec(property(get=__get___9, put=__set___9))  __9;
 
-static void __set___9(::UnityEngine::TextCore::Text::____UnityEngine__TextCore__Text__FontFeatureTable____c value) ;
+static void __set___9(UnityEngine::TextCore::Text::UnityEngine__TextCore__Text__FontFeatureTable____c value) ;
 
-static ::UnityEngine::TextCore::Text::____UnityEngine__TextCore__Text__FontFeatureTable____c __get___9() ;
+static UnityEngine::TextCore::Text::UnityEngine__TextCore__Text__FontFeatureTable____c __get___9() ;
 
-static ::System::Func_2<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord,uint32_t> __declspec(property(get=__get___9__6_0, put=__set___9__6_0))  __9__6_0;
+static System::Func_2<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord,uint32_t> __declspec(property(get=__get___9__6_0, put=__set___9__6_0))  __9__6_0;
 
-static void __set___9__6_0(::System::Func_2<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord,uint32_t> value) ;
+static void __set___9__6_0(System::Func_2<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord,uint32_t> value) ;
 
-static ::System::Func_2<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord,uint32_t> __get___9__6_0() ;
+static System::Func_2<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord,uint32_t> __get___9__6_0() ;
 
-static ::System::Func_2<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord,uint32_t> __declspec(property(get=__get___9__6_1, put=__set___9__6_1))  __9__6_1;
+static System::Func_2<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord,uint32_t> __declspec(property(get=__get___9__6_1, put=__set___9__6_1))  __9__6_1;
 
-static void __set___9__6_1(::System::Func_2<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord,uint32_t> value) ;
+static void __set___9__6_1(System::Func_2<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord,uint32_t> value) ;
 
-static ::System::Func_2<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord,uint32_t> __get___9__6_1() ;
+static System::Func_2<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord,uint32_t> __get___9__6_1() ;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__TextCore__Text__FontFeatureTable____c() ;
+explicit UnityEngine__TextCore__Text__FontFeatureTable____c() ;
 
 /// @brief Method .ctor addr 0x2bcc4ac size 0x8 virtual false final false
  void _ctor() ;
 
 /// @brief Method <SortGlyphPairAdjustmentRecords>b__6_0 addr 0x2bcc4b4 size 0x48 virtual false final false
- uint32_t _SortGlyphPairAdjustmentRecords_b__6_0(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord s) ;
+ uint32_t _SortGlyphPairAdjustmentRecords_b__6_0(UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord s) ;
 
 /// @brief Method <SortGlyphPairAdjustmentRecords>b__6_1 addr 0x2bcc4fc size 0x48 virtual false final false
- uint32_t _SortGlyphPairAdjustmentRecords_b__6_1(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord s) ;
+ uint32_t _SortGlyphPairAdjustmentRecords_b__6_1(UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord s) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -113,7 +112,7 @@ namespace UnityEngine::TextCore::Text {
 class CORDL_TYPE FontFeatureTable : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using __c = ::UnityEngine::TextCore::Text::____UnityEngine__TextCore__Text__FontFeatureTable____c;
+using __c = UnityEngine::TextCore::Text::UnityEngine__TextCore__Text__FontFeatureTable____c;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -148,28 +147,28 @@ constexpr explicit FontFeatureTable(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
- ::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> __declspec(property(get=__get_m_GlyphPairAdjustmentRecords, put=__set_m_GlyphPairAdjustmentRecords))  m_GlyphPairAdjustmentRecords;
+ System::Collections::Generic::List_1<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> __declspec(property(get=__get_m_GlyphPairAdjustmentRecords, put=__set_m_GlyphPairAdjustmentRecords))  m_GlyphPairAdjustmentRecords;
 
-constexpr void __set_m_GlyphPairAdjustmentRecords(::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> value) ;
+constexpr void __set_m_GlyphPairAdjustmentRecords(System::Collections::Generic::List_1<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> __get_m_GlyphPairAdjustmentRecords() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> __get_m_GlyphPairAdjustmentRecords() const;
 
- ::System::Collections::Generic::Dictionary_2<uint32_t,::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> __declspec(property(get=__get_m_GlyphPairAdjustmentRecordLookup, put=__set_m_GlyphPairAdjustmentRecordLookup))  m_GlyphPairAdjustmentRecordLookup;
+ System::Collections::Generic::Dictionary_2<uint32_t,UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> __declspec(property(get=__get_m_GlyphPairAdjustmentRecordLookup, put=__set_m_GlyphPairAdjustmentRecordLookup))  m_GlyphPairAdjustmentRecordLookup;
 
-constexpr void __set_m_GlyphPairAdjustmentRecordLookup(::System::Collections::Generic::Dictionary_2<uint32_t,::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> value) ;
+constexpr void __set_m_GlyphPairAdjustmentRecordLookup(System::Collections::Generic::Dictionary_2<uint32_t,UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<uint32_t,::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> __get_m_GlyphPairAdjustmentRecordLookup() const;
+constexpr System::Collections::Generic::Dictionary_2<uint32_t,UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> __get_m_GlyphPairAdjustmentRecordLookup() const;
 
 
 // Properties
 
- ::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> __declspec(property(get=get_glyphPairAdjustmentRecords))  glyphPairAdjustmentRecords;
+ System::Collections::Generic::List_1<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> __declspec(property(get=get_glyphPairAdjustmentRecords))  glyphPairAdjustmentRecords;
 
 
 // Methods
 
 /// @brief Method get_glyphPairAdjustmentRecords addr 0x2bc804c size 0x8 virtual false final false
- ::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> get_glyphPairAdjustmentRecords() ;
+ System::Collections::Generic::List_1<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> get_glyphPairAdjustmentRecords() ;
 
 // Ctor Parameters []
 explicit FontFeatureTable() ;
@@ -184,8 +183,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::Text
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::TextCore::Text::FontFeatureTable);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::FontFeatureTable, "UnityEngine.TextCore.Text", "FontFeatureTable");
-NEED_NO_BOX(::UnityEngine::TextCore::Text::____UnityEngine__TextCore__Text__FontFeatureTable____c);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::____UnityEngine__TextCore__Text__FontFeatureTable____c, "UnityEngine.TextCore.Text", "FontFeatureTable/<>c");
+NEED_NO_BOX(UnityEngine::TextCore::Text::FontFeatureTable);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Text::FontFeatureTable, "UnityEngine.TextCore.Text", "FontFeatureTable");
+NEED_NO_BOX(UnityEngine::TextCore::Text::UnityEngine__TextCore__Text__FontFeatureTable____c);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Text::UnityEngine__TextCore__Text__FontFeatureTable____c, "UnityEngine.TextCore.Text", "FontFeatureTable/<>c");

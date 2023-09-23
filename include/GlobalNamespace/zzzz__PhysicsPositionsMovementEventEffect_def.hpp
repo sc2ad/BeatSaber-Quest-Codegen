@@ -2,18 +2,8 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
-namespace GlobalNamespace {
-class SongTimeFixedUpdateController;
-}
-namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
-}
 namespace GlobalNamespace {
 struct BasicBeatmapEventType;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 namespace UnityEngine {
 class Transform;
@@ -22,7 +12,16 @@ namespace GlobalNamespace {
 class BasicBeatmapEventData;
 }
 namespace GlobalNamespace {
+class SongTimeFixedUpdateController;
+}
+namespace GlobalNamespace {
 class BeatmapCallbacksController;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,7 +33,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5068))
 // CS Name: PhysicsPositionsMovementEventEffect
-class CORDL_TYPE PhysicsPositionsMovementEventEffect : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE PhysicsPositionsMovementEventEffect : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -49,7 +48,7 @@ constexpr PhysicsPositionsMovementEventEffect(PhysicsPositionsMovementEventEffec
 constexpr PhysicsPositionsMovementEventEffect(PhysicsPositionsMovementEventEffect&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PhysicsPositionsMovementEventEffect(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit PhysicsPositionsMovementEventEffect(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -70,17 +69,17 @@ constexpr explicit PhysicsPositionsMovementEventEffect(void* ptr) noexcept : ::U
 
 // Fields
 
- ::GlobalNamespace::BasicBeatmapEventType __declspec(property(get=__get__event, put=__set__event))  _event;
+ GlobalNamespace::BasicBeatmapEventType __declspec(property(get=__get__event, put=__set__event))  _event;
 
-constexpr void __set__event(::GlobalNamespace::BasicBeatmapEventType value) ;
+constexpr void __set__event(GlobalNamespace::BasicBeatmapEventType value) ;
 
-constexpr ::GlobalNamespace::BasicBeatmapEventType __get__event() const;
+constexpr GlobalNamespace::BasicBeatmapEventType __get__event() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__movementVector, put=__set__movementVector))  _movementVector;
+ UnityEngine::Vector3 __declspec(property(get=__get__movementVector, put=__set__movementVector))  _movementVector;
 
-constexpr void __set__movementVector(::UnityEngine::Vector3 value) ;
+constexpr void __set__movementVector(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__movementVector() const;
+constexpr UnityEngine::Vector3 __get__movementVector() const;
 
  float_t __declspec(property(get=__get__stepSize, put=__set__stepSize))  _stepSize;
 
@@ -118,53 +117,53 @@ constexpr void __set__maxAcceleration(float_t value) ;
 
 constexpr float_t __get__maxAcceleration() const;
 
- ::GlobalNamespace::BeatmapCallbacksController __declspec(property(get=__get__beatmapCallbacksController, put=__set__beatmapCallbacksController))  _beatmapCallbacksController;
+ GlobalNamespace::BeatmapCallbacksController __declspec(property(get=__get__beatmapCallbacksController, put=__set__beatmapCallbacksController))  _beatmapCallbacksController;
 
-constexpr void __set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController value) ;
+constexpr void __set__beatmapCallbacksController(GlobalNamespace::BeatmapCallbacksController value) ;
 
-constexpr ::GlobalNamespace::BeatmapCallbacksController __get__beatmapCallbacksController() const;
+constexpr GlobalNamespace::BeatmapCallbacksController __get__beatmapCallbacksController() const;
 
- ::GlobalNamespace::SongTimeFixedUpdateController __declspec(property(get=__get__songTimeFixedUpdateController, put=__set__songTimeFixedUpdateController))  _songTimeFixedUpdateController;
+ GlobalNamespace::SongTimeFixedUpdateController __declspec(property(get=__get__songTimeFixedUpdateController, put=__set__songTimeFixedUpdateController))  _songTimeFixedUpdateController;
 
-constexpr void __set__songTimeFixedUpdateController(::GlobalNamespace::SongTimeFixedUpdateController value) ;
+constexpr void __set__songTimeFixedUpdateController(GlobalNamespace::SongTimeFixedUpdateController value) ;
 
-constexpr ::GlobalNamespace::SongTimeFixedUpdateController __get__songTimeFixedUpdateController() const;
+constexpr GlobalNamespace::SongTimeFixedUpdateController __get__songTimeFixedUpdateController() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
+ UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
 
-constexpr void __set__transform(::UnityEngine::Transform value) ;
+constexpr void __set__transform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__transform() const;
+constexpr UnityEngine::Transform __get__transform() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__startPos, put=__set__startPos))  _startPos;
+ UnityEngine::Vector3 __declspec(property(get=__get__startPos, put=__set__startPos))  _startPos;
 
-constexpr void __set__startPos(::UnityEngine::Vector3 value) ;
+constexpr void __set__startPos(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__startPos() const;
+constexpr UnityEngine::Vector3 __get__startPos() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__velocity, put=__set__velocity))  _velocity;
+ UnityEngine::Vector3 __declspec(property(get=__get__velocity, put=__set__velocity))  _velocity;
 
-constexpr void __set__velocity(::UnityEngine::Vector3 value) ;
+constexpr void __set__velocity(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__velocity() const;
+constexpr UnityEngine::Vector3 __get__velocity() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__prevPosition, put=__set__prevPosition))  _prevPosition;
+ UnityEngine::Vector3 __declspec(property(get=__get__prevPosition, put=__set__prevPosition))  _prevPosition;
 
-constexpr void __set__prevPosition(::UnityEngine::Vector3 value) ;
+constexpr void __set__prevPosition(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__prevPosition() const;
+constexpr UnityEngine::Vector3 __get__prevPosition() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__position, put=__set__position))  _position;
+ UnityEngine::Vector3 __declspec(property(get=__get__position, put=__set__position))  _position;
 
-constexpr void __set__position(::UnityEngine::Vector3 value) ;
+constexpr void __set__position(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__position() const;
+constexpr UnityEngine::Vector3 __get__position() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__targetPosition, put=__set__targetPosition))  _targetPosition;
+ UnityEngine::Vector3 __declspec(property(get=__get__targetPosition, put=__set__targetPosition))  _targetPosition;
 
-constexpr void __set__targetPosition(::UnityEngine::Vector3 value) ;
+constexpr void __set__targetPosition(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__targetPosition() const;
+constexpr UnityEngine::Vector3 __get__targetPosition() const;
 
  float_t __declspec(property(get=__get__maxSpeed, put=__set__maxSpeed))  _maxSpeed;
 
@@ -178,11 +177,11 @@ constexpr void __set__sqrMaxSpeed(float_t value) ;
 
 constexpr float_t __get__sqrMaxSpeed() const;
 
- ::GlobalNamespace::BeatmapDataCallbackWrapper __declspec(property(get=__get__beatmapDataCallbackWrapper, put=__set__beatmapDataCallbackWrapper))  _beatmapDataCallbackWrapper;
+ GlobalNamespace::BeatmapDataCallbackWrapper __declspec(property(get=__get__beatmapDataCallbackWrapper, put=__set__beatmapDataCallbackWrapper))  _beatmapDataCallbackWrapper;
 
-constexpr void __set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper value) ;
+constexpr void __set__beatmapDataCallbackWrapper(GlobalNamespace::BeatmapDataCallbackWrapper value) ;
 
-constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallbackWrapper() const;
+constexpr GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallbackWrapper() const;
 
 
 // Methods
@@ -200,7 +199,7 @@ constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallba
  void HandleSongTimeUpdate() ;
 
 /// @brief Method HandleBeatmapEvent addr 0x2267094 size 0x7c virtual false final false
- void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData basicBeatmapEventData) ;
+ void HandleBeatmapEvent(GlobalNamespace::BasicBeatmapEventData basicBeatmapEventData) ;
 
 // Ctor Parameters []
 explicit PhysicsPositionsMovementEventEffect() ;
@@ -212,6 +211,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PhysicsPositionsMovementEventEffect);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PhysicsPositionsMovementEventEffect, "", "PhysicsPositionsMovementEventEffect");
+NEED_NO_BOX(GlobalNamespace::PhysicsPositionsMovementEventEffect);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PhysicsPositionsMovementEventEffect, "", "PhysicsPositionsMovementEventEffect");

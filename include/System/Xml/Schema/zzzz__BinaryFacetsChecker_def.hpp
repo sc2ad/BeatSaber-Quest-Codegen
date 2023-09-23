@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-class Exception;
+namespace System::Collections {
+class ArrayList;
 }
 namespace System::Xml::Schema {
 class XmlSchemaDatatype;
 }
-namespace System::Collections {
-class ArrayList;
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -24,7 +23,7 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11628))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11636))
 // CS Name: System.Xml.Schema.BinaryFacetsChecker
-class CORDL_TYPE BinaryFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
+class CORDL_TYPE BinaryFacetsChecker : public System::Xml::Schema::FacetsChecker {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr BinaryFacetsChecker(BinaryFacetsChecker const& ) noexcept = default;
 constexpr BinaryFacetsChecker(BinaryFacetsChecker&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BinaryFacetsChecker(void* ptr) noexcept : ::System::Xml::Schema::FacetsChecker(ptr) {
+constexpr explicit BinaryFacetsChecker(void* ptr) noexcept : System::Xml::Schema::FacetsChecker(ptr) {
 }
 
 
@@ -61,16 +60,16 @@ constexpr explicit BinaryFacetsChecker(void* ptr) noexcept : ::System::Xml::Sche
 // Methods
 
 /// @brief Method CheckValueFacets addr 0x272f8dc size 0x90 virtual true final false
- ::System::Exception CheckValueFacets(::bs_hook::Il2CppWrapperType value, ::System::Xml::Schema::XmlSchemaDatatype datatype) ;
+ System::Exception CheckValueFacets(::bs_hook::Il2CppWrapperType value, System::Xml::Schema::XmlSchemaDatatype datatype) ;
 
 /// @brief Method CheckValueFacets addr 0x272f96c size 0x1b0 virtual true final false
- ::System::Exception CheckValueFacets(::ArrayW<uint8_t> value, ::System::Xml::Schema::XmlSchemaDatatype datatype) ;
+ System::Exception CheckValueFacets(::ArrayW<uint8_t> value, System::Xml::Schema::XmlSchemaDatatype datatype) ;
 
 /// @brief Method MatchEnumeration addr 0x272fc30 size 0x84 virtual true final false
- bool MatchEnumeration(::bs_hook::Il2CppWrapperType value, ::System::Collections::ArrayList enumeration, ::System::Xml::Schema::XmlSchemaDatatype datatype) ;
+ bool MatchEnumeration(::bs_hook::Il2CppWrapperType value, System::Collections::ArrayList enumeration, System::Xml::Schema::XmlSchemaDatatype datatype) ;
 
 /// @brief Method MatchEnumeration addr 0x272fb1c size 0x114 virtual false final false
- bool MatchEnumeration(::ArrayW<uint8_t> value, ::System::Collections::ArrayList enumeration, ::System::Xml::Schema::XmlSchemaDatatype datatype) ;
+ bool MatchEnumeration(::ArrayW<uint8_t> value, System::Collections::ArrayList enumeration, System::Xml::Schema::XmlSchemaDatatype datatype) ;
 
 // Ctor Parameters []
 explicit BinaryFacetsChecker() ;
@@ -82,6 +81,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::BinaryFacetsChecker);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::BinaryFacetsChecker, "System.Xml.Schema", "BinaryFacetsChecker");
+NEED_NO_BOX(System::Xml::Schema::BinaryFacetsChecker);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::BinaryFacetsChecker, "System.Xml.Schema", "BinaryFacetsChecker");

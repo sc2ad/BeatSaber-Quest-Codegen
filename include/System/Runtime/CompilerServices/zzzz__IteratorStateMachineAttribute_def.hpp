@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Runtime/CompilerServices/zzzz__StateMachineAttribute_def.hpp"
-namespace {
 namespace System {
 class Type;
 }
@@ -15,7 +14,7 @@ namespace System::Runtime::CompilerServices {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3376))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3372))
 // CS Name: System.Runtime.CompilerServices.IteratorStateMachineAttribute
-class CORDL_TYPE IteratorStateMachineAttribute : public ::System::Runtime::CompilerServices::StateMachineAttribute {
+class CORDL_TYPE IteratorStateMachineAttribute : public System::Runtime::CompilerServices::StateMachineAttribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr IteratorStateMachineAttribute(IteratorStateMachineAttribute const& ) n
 constexpr IteratorStateMachineAttribute(IteratorStateMachineAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit IteratorStateMachineAttribute(void* ptr) noexcept : ::System::Runtime::CompilerServices::StateMachineAttribute(ptr) {
+constexpr explicit IteratorStateMachineAttribute(void* ptr) noexcept : System::Runtime::CompilerServices::StateMachineAttribute(ptr) {
 }
 
 
@@ -51,16 +50,15 @@ constexpr explicit IteratorStateMachineAttribute(void* ptr) noexcept : ::System:
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stateMachineType", ty: "::System::Type", modifiers: "", def_value: None }]
-explicit IteratorStateMachineAttribute(::System::Type stateMachineType) ;
+// Ctor Parameters [CppParam { name: "stateMachineType", ty: "System::Type", modifiers: "", def_value: None }]
+explicit IteratorStateMachineAttribute(System::Type stateMachineType) ;
 
 /// @brief Method .ctor addr 0x236e0e0 size 0x28 virtual false final false
- void _ctor(::System::Type stateMachineType) ;
+ void _ctor(System::Type stateMachineType) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::CompilerServices
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::CompilerServices::IteratorStateMachineAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::IteratorStateMachineAttribute, "System.Runtime.CompilerServices", "IteratorStateMachineAttribute");
+NEED_NO_BOX(System::Runtime::CompilerServices::IteratorStateMachineAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::IteratorStateMachineAttribute, "System.Runtime.CompilerServices", "IteratorStateMachineAttribute");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 #include <cstddef>
-namespace {
 namespace HoudiniEngineUnity {
 struct HAPI_VolumeVisualType;
 }
@@ -19,8 +18,8 @@ namespace HoudiniEngineUnity {
 struct CORDL_TYPE HAPI_VolumeVisualInfo : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "type", ty: "::HoudiniEngineUnity::HAPI_VolumeVisualType", modifiers: "", def_value: None }, CppParam { name: "iso", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "density", ty: "float_t", modifiers: "", def_value: None }]
-constexpr HAPI_VolumeVisualInfo(::HoudiniEngineUnity::HAPI_VolumeVisualType type, float_t iso, float_t density) noexcept;
+// Ctor Parameters [CppParam { name: "type", ty: "HoudiniEngineUnity::HAPI_VolumeVisualType", modifiers: "", def_value: None }, CppParam { name: "iso", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "density", ty: "float_t", modifiers: "", def_value: None }]
+constexpr HAPI_VolumeVisualInfo(HoudiniEngineUnity::HAPI_VolumeVisualType type, float_t iso, float_t density) noexcept;
 
 
                     constexpr HAPI_VolumeVisualInfo(HAPI_VolumeVisualInfo const&) = default;
@@ -53,11 +52,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::HoudiniEngineUnity::HAPI_VolumeVisualType __declspec(property(get=__get_type, put=__set_type))  type;
+ HoudiniEngineUnity::HAPI_VolumeVisualType __declspec(property(get=__get_type, put=__set_type))  type;
 
-constexpr void __set_type(::HoudiniEngineUnity::HAPI_VolumeVisualType value) ;
+constexpr void __set_type(HoudiniEngineUnity::HAPI_VolumeVisualType value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_VolumeVisualType __get_type() const;
+constexpr HoudiniEngineUnity::HAPI_VolumeVisualType __get_type() const;
 
  float_t __declspec(property(get=__get_iso, put=__set_iso))  iso;
 
@@ -75,5 +74,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_VolumeVisualInfo, "HoudiniEngineUnity", "HAPI_VolumeVisualInfo");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_VolumeVisualInfo, "HoudiniEngineUnity", "HAPI_VolumeVisualInfo");

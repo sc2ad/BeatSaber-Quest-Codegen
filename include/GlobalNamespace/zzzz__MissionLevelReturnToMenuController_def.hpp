@@ -1,18 +1,17 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace GlobalNamespace {
-class IReturnToMenuController;
-}
-namespace GlobalNamespace {
-class MissionLevelScenesTransitionSetupDataSO;
+class MissionObjectiveCheckersManager;
 }
 namespace GlobalNamespace {
 class PrepareLevelCompletionResults;
 }
 namespace GlobalNamespace {
-class MissionObjectiveCheckersManager;
+class MissionLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class IReturnToMenuController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,11 +23,11 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5175))
 // CS Name: MissionLevelReturnToMenuController
-class CORDL_TYPE MissionLevelReturnToMenuController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MissionLevelReturnToMenuController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IReturnToMenuController
-constexpr operator  ::GlobalNamespace::IReturnToMenuController() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IReturnToMenuController
+constexpr operator  GlobalNamespace::IReturnToMenuController() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -42,7 +41,7 @@ constexpr MissionLevelReturnToMenuController(MissionLevelReturnToMenuController 
 constexpr MissionLevelReturnToMenuController(MissionLevelReturnToMenuController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MissionLevelReturnToMenuController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MissionLevelReturnToMenuController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -63,23 +62,23 @@ constexpr explicit MissionLevelReturnToMenuController(void* ptr) noexcept : ::Un
 
 // Fields
 
- ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO __declspec(property(get=__get__missionLevelSceneSetupData, put=__set__missionLevelSceneSetupData))  _missionLevelSceneSetupData;
+ GlobalNamespace::MissionLevelScenesTransitionSetupDataSO __declspec(property(get=__get__missionLevelSceneSetupData, put=__set__missionLevelSceneSetupData))  _missionLevelSceneSetupData;
 
-constexpr void __set__missionLevelSceneSetupData(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO value) ;
+constexpr void __set__missionLevelSceneSetupData(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO value) ;
 
-constexpr ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO __get__missionLevelSceneSetupData() const;
+constexpr GlobalNamespace::MissionLevelScenesTransitionSetupDataSO __get__missionLevelSceneSetupData() const;
 
- ::GlobalNamespace::PrepareLevelCompletionResults __declspec(property(get=__get__prepareLevelCompletionResults, put=__set__prepareLevelCompletionResults))  _prepareLevelCompletionResults;
+ GlobalNamespace::PrepareLevelCompletionResults __declspec(property(get=__get__prepareLevelCompletionResults, put=__set__prepareLevelCompletionResults))  _prepareLevelCompletionResults;
 
-constexpr void __set__prepareLevelCompletionResults(::GlobalNamespace::PrepareLevelCompletionResults value) ;
+constexpr void __set__prepareLevelCompletionResults(GlobalNamespace::PrepareLevelCompletionResults value) ;
 
-constexpr ::GlobalNamespace::PrepareLevelCompletionResults __get__prepareLevelCompletionResults() const;
+constexpr GlobalNamespace::PrepareLevelCompletionResults __get__prepareLevelCompletionResults() const;
 
- ::GlobalNamespace::MissionObjectiveCheckersManager __declspec(property(get=__get__missionObjectiveCheckersManager, put=__set__missionObjectiveCheckersManager))  _missionObjectiveCheckersManager;
+ GlobalNamespace::MissionObjectiveCheckersManager __declspec(property(get=__get__missionObjectiveCheckersManager, put=__set__missionObjectiveCheckersManager))  _missionObjectiveCheckersManager;
 
-constexpr void __set__missionObjectiveCheckersManager(::GlobalNamespace::MissionObjectiveCheckersManager value) ;
+constexpr void __set__missionObjectiveCheckersManager(GlobalNamespace::MissionObjectiveCheckersManager value) ;
 
-constexpr ::GlobalNamespace::MissionObjectiveCheckersManager __get__missionObjectiveCheckersManager() const;
+constexpr GlobalNamespace::MissionObjectiveCheckersManager __get__missionObjectiveCheckersManager() const;
 
 
 // Methods
@@ -97,6 +96,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MissionLevelReturnToMenuController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionLevelReturnToMenuController, "", "MissionLevelReturnToMenuController");
+NEED_NO_BOX(GlobalNamespace::MissionLevelReturnToMenuController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelReturnToMenuController, "", "MissionLevelReturnToMenuController");

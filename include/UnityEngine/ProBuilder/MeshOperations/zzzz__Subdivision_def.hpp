@@ -2,19 +2,18 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
-}
 namespace UnityEngine::ProBuilder {
 class Face;
 }
 namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
+}
+namespace UnityEngine::ProBuilder {
 class ActionResult;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::MeshOperations {
@@ -63,15 +62,14 @@ constexpr explicit Subdivision(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 // Methods
 
 /// @brief Method Subdivide addr 0x2a287b8 size 0xb4 virtual false final false
-static ::UnityEngine::ProBuilder::ActionResult Subdivide(::UnityEngine::ProBuilder::ProBuilderMesh pb) ;
+static UnityEngine::ProBuilder::ActionResult Subdivide(UnityEngine::ProBuilder::ProBuilderMesh pb) ;
 
 /// @brief Method Subdivide addr 0x2a2886c size 0x8 virtual false final false
-static ::ArrayW<::UnityEngine::ProBuilder::Face> Subdivide(::UnityEngine::ProBuilder::ProBuilderMesh pb, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face> faces) ;
+static ::ArrayW<UnityEngine::ProBuilder::Face> Subdivide(UnityEngine::ProBuilder::ProBuilderMesh pb, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Face> faces) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder::MeshOperations
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::MeshOperations::Subdivision);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::MeshOperations::Subdivision, "UnityEngine.ProBuilder.MeshOperations", "Subdivision");
+NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::Subdivision);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::Subdivision, "UnityEngine.ProBuilder.MeshOperations", "Subdivision");

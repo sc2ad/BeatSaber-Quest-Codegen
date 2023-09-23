@@ -2,13 +2,12 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace GlobalNamespace {
-class AlwaysOwnedContentSO;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
+}
+namespace GlobalNamespace {
+class AlwaysOwnedContentSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,7 +19,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4126))
 // CS Name: AlwaysOwnedContentContainerSO
-class CORDL_TYPE AlwaysOwnedContentContainerSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE AlwaysOwnedContentContainerSO : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr AlwaysOwnedContentContainerSO(AlwaysOwnedContentContainerSO const& ) n
 constexpr AlwaysOwnedContentContainerSO(AlwaysOwnedContentContainerSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AlwaysOwnedContentContainerSO(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit AlwaysOwnedContentContainerSO(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -56,39 +55,39 @@ constexpr explicit AlwaysOwnedContentContainerSO(void* ptr) noexcept : ::GlobalN
 
 // Fields
 
- ::GlobalNamespace::AlwaysOwnedContentSO __declspec(property(get=__get__alwaysOwnedContent, put=__set__alwaysOwnedContent))  _alwaysOwnedContent;
+ GlobalNamespace::AlwaysOwnedContentSO __declspec(property(get=__get__alwaysOwnedContent, put=__set__alwaysOwnedContent))  _alwaysOwnedContent;
 
-constexpr void __set__alwaysOwnedContent(::GlobalNamespace::AlwaysOwnedContentSO value) ;
+constexpr void __set__alwaysOwnedContent(GlobalNamespace::AlwaysOwnedContentSO value) ;
 
-constexpr ::GlobalNamespace::AlwaysOwnedContentSO __get__alwaysOwnedContent() const;
+constexpr GlobalNamespace::AlwaysOwnedContentSO __get__alwaysOwnedContent() const;
 
- ::System::Collections::Generic::HashSet_1<::StringW> __declspec(property(get=__get__alwaysOwnedBeatmapLevelIds, put=__set__alwaysOwnedBeatmapLevelIds))  _alwaysOwnedBeatmapLevelIds;
+ System::Collections::Generic::HashSet_1<::StringW> __declspec(property(get=__get__alwaysOwnedBeatmapLevelIds, put=__set__alwaysOwnedBeatmapLevelIds))  _alwaysOwnedBeatmapLevelIds;
 
-constexpr void __set__alwaysOwnedBeatmapLevelIds(::System::Collections::Generic::HashSet_1<::StringW> value) ;
+constexpr void __set__alwaysOwnedBeatmapLevelIds(System::Collections::Generic::HashSet_1<::StringW> value) ;
 
-constexpr ::System::Collections::Generic::HashSet_1<::StringW> __get__alwaysOwnedBeatmapLevelIds() const;
+constexpr System::Collections::Generic::HashSet_1<::StringW> __get__alwaysOwnedBeatmapLevelIds() const;
 
- ::System::Collections::Generic::HashSet_1<::StringW> __declspec(property(get=__get__alwaysOwnedPacksIds, put=__set__alwaysOwnedPacksIds))  _alwaysOwnedPacksIds;
+ System::Collections::Generic::HashSet_1<::StringW> __declspec(property(get=__get__alwaysOwnedPacksIds, put=__set__alwaysOwnedPacksIds))  _alwaysOwnedPacksIds;
 
-constexpr void __set__alwaysOwnedPacksIds(::System::Collections::Generic::HashSet_1<::StringW> value) ;
+constexpr void __set__alwaysOwnedPacksIds(System::Collections::Generic::HashSet_1<::StringW> value) ;
 
-constexpr ::System::Collections::Generic::HashSet_1<::StringW> __get__alwaysOwnedPacksIds() const;
+constexpr System::Collections::Generic::HashSet_1<::StringW> __get__alwaysOwnedPacksIds() const;
 
 
 // Properties
 
- ::System::Collections::Generic::HashSet_1<::StringW> __declspec(property(get=get_alwaysOwnedBeatmapLevelIds))  alwaysOwnedBeatmapLevelIds;
+ System::Collections::Generic::HashSet_1<::StringW> __declspec(property(get=get_alwaysOwnedBeatmapLevelIds))  alwaysOwnedBeatmapLevelIds;
 
- ::System::Collections::Generic::HashSet_1<::StringW> __declspec(property(get=get_alwaysOwnedPacksIds))  alwaysOwnedPacksIds;
+ System::Collections::Generic::HashSet_1<::StringW> __declspec(property(get=get_alwaysOwnedPacksIds))  alwaysOwnedPacksIds;
 
 
 // Methods
 
 /// @brief Method get_alwaysOwnedBeatmapLevelIds addr 0x20c7928 size 0x24 virtual false final false
- ::System::Collections::Generic::HashSet_1<::StringW> get_alwaysOwnedBeatmapLevelIds() ;
+ System::Collections::Generic::HashSet_1<::StringW> get_alwaysOwnedBeatmapLevelIds() ;
 
 /// @brief Method get_alwaysOwnedPacksIds addr 0x20c7bfc size 0x24 virtual false final false
- ::System::Collections::Generic::HashSet_1<::StringW> get_alwaysOwnedPacksIds() ;
+ System::Collections::Generic::HashSet_1<::StringW> get_alwaysOwnedPacksIds() ;
 
 /// @brief Method OnEnable addr 0x20c81c0 size 0x1c virtual true final false
  void OnEnable() ;
@@ -106,6 +105,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::AlwaysOwnedContentContainerSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AlwaysOwnedContentContainerSO, "", "AlwaysOwnedContentContainerSO");
+NEED_NO_BOX(GlobalNamespace::AlwaysOwnedContentContainerSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AlwaysOwnedContentContainerSO, "", "AlwaysOwnedContentContainerSO");

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::IO {
 class Stream;
 }
@@ -54,21 +53,20 @@ constexpr explicit ManagedStreamHelpers(void* ptr) noexcept : ::bs_hook::Il2CppW
 // Methods
 
 /// @brief Method ValidateLoadFromStream addr 0x2b5c2d8 size 0x110 virtual false final false
-static void ValidateLoadFromStream(::System::IO::Stream stream) ;
+static void ValidateLoadFromStream(System::IO::Stream stream) ;
 
 /// @brief Method ManagedStreamRead addr 0x2b5c3e8 size 0x120 virtual false final false
-static void ManagedStreamRead(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, ::System::IO::Stream stream, ::cordl_internals::intptr_t returnValueAddress) ;
+static void ManagedStreamRead(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, System::IO::Stream stream, ::cordl_internals::intptr_t returnValueAddress) ;
 
 /// @brief Method ManagedStreamSeek addr 0x2b5c508 size 0x118 virtual false final false
-static void ManagedStreamSeek(int64_t offset, uint32_t origin, ::System::IO::Stream stream, ::cordl_internals::intptr_t returnValueAddress) ;
+static void ManagedStreamSeek(int64_t offset, uint32_t origin, System::IO::Stream stream, ::cordl_internals::intptr_t returnValueAddress) ;
 
 /// @brief Method ManagedStreamLength addr 0x2b5c620 size 0xfc virtual false final false
-static void ManagedStreamLength(::System::IO::Stream stream, ::cordl_internals::intptr_t returnValueAddress) ;
+static void ManagedStreamLength(System::IO::Stream stream, ::cordl_internals::intptr_t returnValueAddress) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ManagedStreamHelpers);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ManagedStreamHelpers, "UnityEngine", "ManagedStreamHelpers");
+NEED_NO_BOX(UnityEngine::ManagedStreamHelpers);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ManagedStreamHelpers, "UnityEngine", "ManagedStreamHelpers");

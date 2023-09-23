@@ -6,7 +6,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System::Globalization {
 class CalendarData;
 }
@@ -21,7 +20,7 @@ namespace System::Globalization {
 class CultureData;
 }
 namespace System::Globalization {
-struct ____System__Globalization__CultureData__NumberFormatEntryManaged;
+struct System__Globalization__CultureData__NumberFormatEntryManaged;
 }
 // Type: ::NumberFormatEntryManaged
 namespace System::Globalization {
@@ -29,20 +28,20 @@ namespace System::Globalization {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3697))
 // CS Name: System.Globalization.CultureData::NumberFormatEntryManaged
-struct CORDL_TYPE ____System__Globalization__CultureData__NumberFormatEntryManaged : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE System__Globalization__CultureData__NumberFormatEntryManaged : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "currency_decimal_digits", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "currency_decimal_separator", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "currency_group_separator", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "currency_group_sizes0", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "currency_group_sizes1", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "currency_negative_pattern", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "currency_positive_pattern", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "currency_symbol", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nan_symbol", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "negative_infinity_symbol", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "negative_sign", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "number_decimal_digits", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "number_decimal_separator", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "number_group_separator", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "number_group_sizes0", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "number_group_sizes1", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "number_negative_pattern", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "per_mille_symbol", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "percent_negative_pattern", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "percent_positive_pattern", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "percent_symbol", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "positive_infinity_symbol", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "positive_sign", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____System__Globalization__CultureData__NumberFormatEntryManaged(int32_t currency_decimal_digits, int32_t currency_decimal_separator, int32_t currency_group_separator, int32_t currency_group_sizes0, int32_t currency_group_sizes1, int32_t currency_negative_pattern, int32_t currency_positive_pattern, int32_t currency_symbol, int32_t nan_symbol, int32_t negative_infinity_symbol, int32_t negative_sign, int32_t number_decimal_digits, int32_t number_decimal_separator, int32_t number_group_separator, int32_t number_group_sizes0, int32_t number_group_sizes1, int32_t number_negative_pattern, int32_t per_mille_symbol, int32_t percent_negative_pattern, int32_t percent_positive_pattern, int32_t percent_symbol, int32_t positive_infinity_symbol, int32_t positive_sign) noexcept;
+constexpr System__Globalization__CultureData__NumberFormatEntryManaged(int32_t currency_decimal_digits, int32_t currency_decimal_separator, int32_t currency_group_separator, int32_t currency_group_sizes0, int32_t currency_group_sizes1, int32_t currency_negative_pattern, int32_t currency_positive_pattern, int32_t currency_symbol, int32_t nan_symbol, int32_t negative_infinity_symbol, int32_t negative_sign, int32_t number_decimal_digits, int32_t number_decimal_separator, int32_t number_group_separator, int32_t number_group_sizes0, int32_t number_group_sizes1, int32_t number_negative_pattern, int32_t per_mille_symbol, int32_t percent_negative_pattern, int32_t percent_positive_pattern, int32_t percent_symbol, int32_t positive_infinity_symbol, int32_t positive_sign) noexcept;
 
 
-                    constexpr ____System__Globalization__CultureData__NumberFormatEntryManaged(____System__Globalization__CultureData__NumberFormatEntryManaged const&) = default;
-                    constexpr ____System__Globalization__CultureData__NumberFormatEntryManaged(____System__Globalization__CultureData__NumberFormatEntryManaged&&) = default;
-                    constexpr ____System__Globalization__CultureData__NumberFormatEntryManaged& operator=(____System__Globalization__CultureData__NumberFormatEntryManaged const& o) {
+                    constexpr System__Globalization__CultureData__NumberFormatEntryManaged(System__Globalization__CultureData__NumberFormatEntryManaged const&) = default;
+                    constexpr System__Globalization__CultureData__NumberFormatEntryManaged(System__Globalization__CultureData__NumberFormatEntryManaged&&) = default;
+                    constexpr System__Globalization__CultureData__NumberFormatEntryManaged& operator=(System__Globalization__CultureData__NumberFormatEntryManaged const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Globalization__CultureData__NumberFormatEntryManaged& operator=(____System__Globalization__CultureData__NumberFormatEntryManaged&& o) noexcept {
+                    constexpr System__Globalization__CultureData__NumberFormatEntryManaged& operator=(System__Globalization__CultureData__NumberFormatEntryManaged&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -55,7 +54,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x5c};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Globalization__CultureData__NumberFormatEntryManaged(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Globalization__CultureData__NumberFormatEntryManaged(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -217,7 +216,7 @@ namespace System::Globalization {
 class CORDL_TYPE CultureData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using NumberFormatEntryManaged = ::System::Globalization::____System__Globalization__CultureData__NumberFormatEntryManaged;
+using NumberFormatEntryManaged = System::Globalization::System__Globalization__CultureData__NumberFormatEntryManaged;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x88};
@@ -300,11 +299,11 @@ constexpr void __set_waCalendars(::ArrayW<int32_t> value) ;
 
 constexpr ::ArrayW<int32_t> __get_waCalendars() const;
 
- ::ArrayW<::System::Globalization::CalendarData> __declspec(property(get=__get_calendars, put=__set_calendars))  calendars;
+ ::ArrayW<System::Globalization::CalendarData> __declspec(property(get=__get_calendars, put=__set_calendars))  calendars;
 
-constexpr void __set_calendars(::ArrayW<::System::Globalization::CalendarData> value) ;
+constexpr void __set_calendars(::ArrayW<System::Globalization::CalendarData> value) ;
 
-constexpr ::ArrayW<::System::Globalization::CalendarData> __get_calendars() const;
+constexpr ::ArrayW<System::Globalization::CalendarData> __get_calendars() const;
 
  ::StringW __declspec(property(get=__get_sISO639Language, put=__set_sISO639Language))  sISO639Language;
 
@@ -372,16 +371,16 @@ constexpr void __set_sListSeparator(::StringW value) ;
 
 constexpr ::StringW __get_sListSeparator() const;
 
-static ::System::Globalization::CultureData __declspec(property(get=__get_s_Invariant, put=__set_s_Invariant))  s_Invariant;
+static System::Globalization::CultureData __declspec(property(get=__get_s_Invariant, put=__set_s_Invariant))  s_Invariant;
 
-static void __set_s_Invariant(::System::Globalization::CultureData value) ;
+static void __set_s_Invariant(System::Globalization::CultureData value) ;
 
-static ::System::Globalization::CultureData __get_s_Invariant() ;
+static System::Globalization::CultureData __get_s_Invariant() ;
 
 
 // Properties
 
-static ::System::Globalization::CultureData __declspec(property(get=get_Invariant))  Invariant;
+static System::Globalization::CultureData __declspec(property(get=get_Invariant))  Invariant;
 
  ::ArrayW<::StringW> __declspec(property(get=get_LongTimes))  LongTimes;
 
@@ -421,19 +420,19 @@ explicit CultureData(::StringW name) ;
  void _ctor(::StringW name) ;
 
 /// @brief Method get_Invariant addr 0x23f8da8 size 0x3a4 virtual false final false
-static ::System::Globalization::CultureData get_Invariant() ;
+static System::Globalization::CultureData get_Invariant() ;
 
 /// @brief Method GetCultureData addr 0x23fd028 size 0xec virtual false final false
-static ::System::Globalization::CultureData GetCultureData(::StringW cultureName, bool useUserOverride) ;
+static System::Globalization::CultureData GetCultureData(::StringW cultureName, bool useUserOverride) ;
 
 /// @brief Method GetCultureData addr 0x23fd120 size 0x120 virtual false final false
-static ::System::Globalization::CultureData GetCultureData(::StringW cultureName, bool useUserOverride, int32_t datetimeIndex, int32_t calendarId, int32_t numberIndex, ::StringW iso2lang, int32_t ansiCodePage, int32_t oemCodePage, int32_t macCodePage, int32_t ebcdicCodePage, bool rightToLeft, ::StringW listSeparator) ;
+static System::Globalization::CultureData GetCultureData(::StringW cultureName, bool useUserOverride, int32_t datetimeIndex, int32_t calendarId, int32_t numberIndex, ::StringW iso2lang, int32_t ansiCodePage, int32_t oemCodePage, int32_t macCodePage, int32_t ebcdicCodePage, bool rightToLeft, ::StringW listSeparator) ;
 
 /// @brief Method fill_culture_data addr 0x23fd240 size 0x4 virtual false final false
  void fill_culture_data(int32_t datetimeIndex) ;
 
 /// @brief Method GetCalendar addr 0x23fd244 size 0x11c virtual false final false
- ::System::Globalization::CalendarData GetCalendar(int32_t calendarId) ;
+ System::Globalization::CalendarData GetCalendar(int32_t calendarId) ;
 
 /// @brief Method get_LongTimes addr 0x23fd360 size 0x18 virtual false final false
  ::ArrayW<::StringW> get_LongTimes() ;
@@ -463,7 +462,7 @@ static ::System::Globalization::CultureData GetCultureData(::StringW cultureName
  ::ArrayW<int32_t> get_CalendarIds() ;
 
 /// @brief Method GetCalendarIds addr 0x23fd570 size 0xd8 virtual false final false
- ::ArrayW<::System::Globalization::CalendarId> GetCalendarIds() ;
+ ::ArrayW<System::Globalization::CalendarId> GetCalendarIds() ;
 
 /// @brief Method get_IsInvariantCulture addr 0x23f7a48 size 0xc virtual false final false
  bool get_IsInvariantCulture() ;
@@ -553,16 +552,15 @@ static ::StringW idx2string(void* data, int32_t idx) ;
  ::ArrayW<int32_t> create_group_sizes_array(int32_t gs0, int32_t gs1) ;
 
 /// @brief Method GetNFIValues addr 0x23f78b0 size 0x198 virtual false final false
- void GetNFIValues(::System::Globalization::NumberFormatInfo nfi) ;
+ void GetNFIValues(System::Globalization::NumberFormatInfo nfi) ;
 
 /// @brief Method fill_number_data addr 0x23fddc8 size 0x4 virtual false final false
-static void* fill_number_data(int32_t index, ByRef<::System::Globalization::____System__Globalization__CultureData__NumberFormatEntryManaged> nfe) ;
+static void* fill_number_data(int32_t index, ByRef<System::Globalization::System__Globalization__CultureData__NumberFormatEntryManaged> nfe) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Globalization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Globalization::CultureData);
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::CultureData, "System.Globalization", "CultureData");
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::____System__Globalization__CultureData__NumberFormatEntryManaged, "System.Globalization", "CultureData/NumberFormatEntryManaged");
+NEED_NO_BOX(System::Globalization::CultureData);
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CultureData, "System.Globalization", "CultureData");
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::System__Globalization__CultureData__NumberFormatEntryManaged, "System.Globalization", "CultureData/NumberFormatEntryManaged");

@@ -4,14 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace System::Collections {
-class IEnumerable;
-}
-namespace Priority_Queue {
-template<typename TItem,typename TPriority>
-class IFixedSizePriorityQueue_2;
-}
 namespace Priority_Queue {
 template<typename TItem,typename TPriority>
 class IPriorityQueue_2;
@@ -27,6 +19,13 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
+namespace Priority_Queue {
+template<typename TItem,typename TPriority>
+class IFixedSizePriorityQueue_2;
+}
+namespace System::Collections {
+class IEnumerable;
+}
 namespace System {
 class IDisposable;
 }
@@ -37,7 +36,7 @@ class FastPriorityQueue_1;
 }
 namespace Priority_Queue {
 template<typename T>
-class ____Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22;
+class Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22;
 }
 namespace Priority_Queue {
 template<::cordl_internals::il2cpp_reference_type T>
@@ -45,7 +44,7 @@ class FastPriorityQueue_1<T>;
 }
 namespace Priority_Queue {
 template<::cordl_internals::il2cpp_reference_type T>
-class ____Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22<T>;
+class Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22<T>;
 }
 // Type: ::<GetEnumerator>d__22
 // Type: Priority_Queue::FastPriorityQueue`1
@@ -57,46 +56,46 @@ template<::cordl_internals::il2cpp_reference_type T>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6159))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6159), inst: 2 })
 // CS Name: Priority_Queue.FastPriorityQueue`1::<GetEnumerator>d__22
-class CORDL_TYPE ____Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22<T> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22<T> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<T>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<T>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<T>
+constexpr operator  System::Collections::Generic::IEnumerator_1<T>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22() = default;
+virtual ~Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22", modifiers: " const&", def_value: None }]
-constexpr ____Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22(____Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22", modifiers: " const&", def_value: None }]
+constexpr Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22(Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22", modifiers: "&&", def_value: None }]
-constexpr ____Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22(____Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22", modifiers: "&&", def_value: None }]
+constexpr Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22(Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22& operator=(std::nullptr_t) noexcept {
+  constexpr Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22& operator=(void* o) noexcept {
+  constexpr Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22& operator=(____Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22&& o) noexcept = default;
-  constexpr ____Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22& operator=(____Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22 const& o) noexcept = default;
+  constexpr Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22& operator=(Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22&& o) noexcept = default;
+  constexpr Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22& operator=(Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22 const& o) noexcept = default;
                 
 
 
@@ -114,11 +113,11 @@ constexpr void __set___2__current(T value) ;
 
 constexpr T __get___2__current() const;
 
- ::Priority_Queue::FastPriorityQueue_1<T> __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ Priority_Queue::FastPriorityQueue_1<T> __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::Priority_Queue::FastPriorityQueue_1<T> value) ;
+constexpr void __set___4__this(Priority_Queue::FastPriorityQueue_1<T> value) ;
 
-constexpr ::Priority_Queue::FastPriorityQueue_1<T> __get___4__this() const;
+constexpr Priority_Queue::FastPriorityQueue_1<T> __get___4__this() const;
 
  int32_t __declspec(property(get=__get__i_5__2, put=__set__i_5__2))  _i_5__2;
 
@@ -137,7 +136,7 @@ constexpr int32_t __get__i_5__2() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22(int32_t __1__state) ;
+explicit Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -172,19 +171,19 @@ template<::cordl_internals::il2cpp_reference_type T>
 class CORDL_TYPE FastPriorityQueue_1<T> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using _GetEnumerator_d__22 = ::Priority_Queue::____Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22<T>;
+using _GetEnumerator_d__22 = Priority_Queue::Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22<T>;
 
-/// @brief Convert operator to ::Priority_Queue::IFixedSizePriorityQueue_2<T,float_t>
-constexpr operator  ::Priority_Queue::IFixedSizePriorityQueue_2<T,float_t>() const noexcept;
+/// @brief Convert operator to Priority_Queue::IFixedSizePriorityQueue_2<T,float_t>
+constexpr operator  Priority_Queue::IFixedSizePriorityQueue_2<T,float_t>() const noexcept;
 
-/// @brief Convert operator to ::Priority_Queue::IPriorityQueue_2<T,float_t>
-constexpr operator  ::Priority_Queue::IPriorityQueue_2<T,float_t>() const noexcept;
+/// @brief Convert operator to Priority_Queue::IPriorityQueue_2<T,float_t>
+constexpr operator  Priority_Queue::IPriorityQueue_2<T,float_t>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerable_1<T>
-constexpr operator  ::System::Collections::Generic::IEnumerable_1<T>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerable_1<T>
+constexpr operator  System::Collections::Generic::IEnumerable_1<T>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -298,10 +297,10 @@ explicit FastPriorityQueue_1(int32_t maxNodes) ;
  void ResetNode(T node) ;
 
 /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Collections::Generic::IEnumerator_1<T> GetEnumerator() ;
+ System::Collections::Generic::IEnumerator_1<T> GetEnumerator() ;
 
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
- ::System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
+ System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
 /// @brief Method IsValidQueue addr 0x0 size 0xffffffffffffffff virtual false final false
  bool IsValidQueue() ;
@@ -310,6 +309,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Priority_Queue
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Priority_Queue::FastPriorityQueue_1, "Priority_Queue", "FastPriorityQueue`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Priority_Queue::____Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22, "Priority_Queue", "FastPriorityQueue`1/<GetEnumerator>d__22");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Priority_Queue::FastPriorityQueue_1, "Priority_Queue", "FastPriorityQueue`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Priority_Queue::Priority_Queue__FastPriorityQueue_1___GetEnumerator_d__22, "Priority_Queue", "FastPriorityQueue`1/<GetEnumerator>d__22");

@@ -3,7 +3,6 @@
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__KeyParameter_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
 class RC5Parameters;
@@ -14,7 +13,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1015))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1077))
 // CS Name: Org.BouncyCastle.Crypto.Parameters.RC5Parameters
-class CORDL_TYPE RC5Parameters : public ::Org::BouncyCastle::Crypto::Parameters::KeyParameter {
+class CORDL_TYPE RC5Parameters : public Org::BouncyCastle::Crypto::Parameters::KeyParameter {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr RC5Parameters(RC5Parameters const& ) noexcept = default;
 constexpr RC5Parameters(RC5Parameters&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RC5Parameters(void* ptr) noexcept : ::Org::BouncyCastle::Crypto::Parameters::KeyParameter(ptr) {
+constexpr explicit RC5Parameters(void* ptr) noexcept : Org::BouncyCastle::Crypto::Parameters::KeyParameter(ptr) {
 }
 
 
@@ -77,6 +76,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Parameters
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::RC5Parameters);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Parameters::RC5Parameters, "Org.BouncyCastle.Crypto.Parameters", "RC5Parameters");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::RC5Parameters);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::RC5Parameters, "Org.BouncyCastle.Crypto.Parameters", "RC5Parameters");

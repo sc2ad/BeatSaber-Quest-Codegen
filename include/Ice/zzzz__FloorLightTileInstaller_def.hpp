@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__ScriptableObjectInstaller_def.hpp"
-namespace {
 namespace Ice {
 class FloorLightTile;
 }
@@ -15,7 +14,7 @@ namespace Ice {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11089))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16001))
 // CS Name: Ice.FloorLightTileInstaller
-class CORDL_TYPE FloorLightTileInstaller : public ::Zenject::ScriptableObjectInstaller {
+class CORDL_TYPE FloorLightTileInstaller : public Zenject::ScriptableObjectInstaller {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr FloorLightTileInstaller(FloorLightTileInstaller const& ) noexcept = de
 constexpr FloorLightTileInstaller(FloorLightTileInstaller&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FloorLightTileInstaller(void* ptr) noexcept : ::Zenject::ScriptableObjectInstaller(ptr) {
+constexpr explicit FloorLightTileInstaller(void* ptr) noexcept : Zenject::ScriptableObjectInstaller(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit FloorLightTileInstaller(void* ptr) noexcept : ::Zenject::Scri
 
 // Fields
 
- ::Ice::FloorLightTile __declspec(property(get=__get__floorLightTilePrefab, put=__set__floorLightTilePrefab))  _floorLightTilePrefab;
+ Ice::FloorLightTile __declspec(property(get=__get__floorLightTilePrefab, put=__set__floorLightTilePrefab))  _floorLightTilePrefab;
 
-constexpr void __set__floorLightTilePrefab(::Ice::FloorLightTile value) ;
+constexpr void __set__floorLightTilePrefab(Ice::FloorLightTile value) ;
 
-constexpr ::Ice::FloorLightTile __get__floorLightTilePrefab() const;
+constexpr Ice::FloorLightTile __get__floorLightTilePrefab() const;
 
 
 // Methods
@@ -73,6 +72,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Ice
-} // end anonymous namespace
-NEED_NO_BOX(::Ice::FloorLightTileInstaller);
-DEFINE_IL2CPP_ARG_TYPE(::Ice::FloorLightTileInstaller, "Ice", "FloorLightTileInstaller");
+NEED_NO_BOX(Ice::FloorLightTileInstaller);
+DEFINE_IL2CPP_ARG_TYPE(Ice::FloorLightTileInstaller, "Ice", "FloorLightTileInstaller");

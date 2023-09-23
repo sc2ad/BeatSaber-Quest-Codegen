@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__AssetDetails_def.hpp"
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_def.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class AssetDetailsList;
@@ -11,10 +10,10 @@ class AssetDetailsList;
 // Type: Oculus.Platform.Models::AssetDetailsList
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13410)), TypeDefinitionIndex(TypeDefinitionIndex(13388)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1130 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13388)), TypeDefinitionIndex(TypeDefinitionIndex(13410)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1130 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13389))
 // CS Name: Oculus.Platform.Models.AssetDetailsList
-class CORDL_TYPE AssetDetailsList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::AssetDetails> {
+class CORDL_TYPE AssetDetailsList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::AssetDetails> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr AssetDetailsList(AssetDetailsList const& ) noexcept = default;
 constexpr AssetDetailsList(AssetDetailsList&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AssetDetailsList(void* ptr) noexcept : ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::AssetDetails>(ptr) {
+constexpr explicit AssetDetailsList(void* ptr) noexcept : Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::AssetDetails>(ptr) {
 }
 
 
@@ -60,6 +59,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::AssetDetailsList);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::AssetDetailsList, "Oculus.Platform.Models", "AssetDetailsList");
+NEED_NO_BOX(Oculus::Platform::Models::AssetDetailsList);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AssetDetailsList, "Oculus.Platform.Models", "AssetDetailsList");

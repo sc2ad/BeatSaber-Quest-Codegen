@@ -5,18 +5,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine {
-struct Vector2;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
 class Mesh;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -65,16 +64,16 @@ constexpr explicit HEU_GeometryUtility(void* ptr) noexcept : ::bs_hook::Il2CppWr
 // Methods
 
 /// @brief Method GeneratePerTriangle addr 0x204e690 size 0x4c virtual false final false
-static ::ArrayW<::UnityEngine::Vector2> GeneratePerTriangle(::UnityEngine::Mesh meshSrc) ;
+static ::ArrayW<UnityEngine::Vector2> GeneratePerTriangle(UnityEngine::Mesh meshSrc) ;
 
 /// @brief Method GenerateSecondaryUVSet addr 0x2053df0 size 0x44 virtual false final false
-static void GenerateSecondaryUVSet(::UnityEngine::Mesh meshsrc) ;
+static void GenerateSecondaryUVSet(UnityEngine::Mesh meshsrc) ;
 
 /// @brief Method CalculateMeshTangents addr 0x204d634 size 0x4d8 virtual false final false
-static void CalculateMeshTangents(::UnityEngine::Mesh mesh) ;
+static void CalculateMeshTangents(UnityEngine::Mesh mesh) ;
 
 /// @brief Method GenerateCubeMeshFromPoints addr 0x2053e34 size 0xb00 virtual false final false
-static ::UnityEngine::Mesh GenerateCubeMeshFromPoints(::ArrayW<::UnityEngine::Vector3> points, ::ArrayW<::UnityEngine::Color> pointsColor, float_t size) ;
+static UnityEngine::Mesh GenerateCubeMeshFromPoints(::ArrayW<UnityEngine::Vector3> points, ::ArrayW<UnityEngine::Color> pointsColor, float_t size) ;
 
 /// @brief Method GetInstanceOutputName addr 0x2054934 size 0xbc virtual false final false
 static ::StringW GetInstanceOutputName(::StringW partName, ::ArrayW<::StringW> userPrefix, int32_t index) ;
@@ -83,6 +82,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_GeometryUtility);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_GeometryUtility, "HoudiniEngineUnity", "HEU_GeometryUtility");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_GeometryUtility);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_GeometryUtility, "HoudiniEngineUnity", "HEU_GeometryUtility");

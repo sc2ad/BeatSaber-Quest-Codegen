@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
 namespace Mono {
 struct RuntimeClassHandle;
 }
@@ -61,17 +60,16 @@ constexpr void* __get_value() const;
 
 // Properties
 
- ::Mono::RuntimeClassHandle __declspec(property(get=get_ProxyClass))  ProxyClass;
+ Mono::RuntimeClassHandle __declspec(property(get=get_ProxyClass))  ProxyClass;
 
 
 // Methods
 
 /// @brief Method get_ProxyClass addr 0x22a5034 size 0x1c virtual false final false
- ::Mono::RuntimeClassHandle get_ProxyClass() ;
+ Mono::RuntimeClassHandle get_ProxyClass() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Mono
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Mono::RuntimeRemoteClassHandle, "Mono", "RuntimeRemoteClassHandle");
+DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeRemoteClassHandle, "Mono", "RuntimeRemoteClassHandle");

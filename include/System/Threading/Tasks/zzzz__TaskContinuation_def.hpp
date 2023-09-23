@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Threading::Tasks {
 class Task;
 }
@@ -52,10 +51,10 @@ constexpr explicit TaskContinuation(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 // Methods
 
 /// @brief Method Run addr 0x0 size 0xffffffffffffffff virtual true final false
- void Run(::System::Threading::Tasks::Task completedTask, bool bCanInlineContinuationTask) ;
+ void Run(System::Threading::Tasks::Task completedTask, bool bCanInlineContinuationTask) ;
 
 /// @brief Method InlineIfPossibleOrElseQueue addr 0x24bcf3c size 0x144 virtual false final false
-static void InlineIfPossibleOrElseQueue(::System::Threading::Tasks::Task task, bool needsProtection) ;
+static void InlineIfPossibleOrElseQueue(System::Threading::Tasks::Task task, bool needsProtection) ;
 
 // Ctor Parameters []
 explicit TaskContinuation() ;
@@ -67,6 +66,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Threading::Tasks
-} // end anonymous namespace
-NEED_NO_BOX(::System::Threading::Tasks::TaskContinuation);
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::TaskContinuation, "System.Threading.Tasks", "TaskContinuation");
+NEED_NO_BOX(System::Threading::Tasks::TaskContinuation);
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskContinuation, "System.Threading.Tasks", "TaskContinuation");

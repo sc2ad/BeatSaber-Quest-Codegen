@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__AbstractECMultiplier_def.hpp"
-namespace {
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
@@ -18,7 +17,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1527))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1535))
 // CS Name: Org.BouncyCastle.Math.EC.Multiplier.MontgomeryLadderMultiplier
-class CORDL_TYPE MontgomeryLadderMultiplier : public ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier {
+class CORDL_TYPE MontgomeryLadderMultiplier : public Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr MontgomeryLadderMultiplier(MontgomeryLadderMultiplier const& ) noexcep
 constexpr MontgomeryLadderMultiplier(MontgomeryLadderMultiplier&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MontgomeryLadderMultiplier(void* ptr) noexcept : ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier(ptr) {
+constexpr explicit MontgomeryLadderMultiplier(void* ptr) noexcept : Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier(ptr) {
 }
 
 
@@ -55,7 +54,7 @@ constexpr explicit MontgomeryLadderMultiplier(void* ptr) noexcept : ::Org::Bounc
 // Methods
 
 /// @brief Method MultiplyPositive addr 0xfaa028 size 0x1fc virtual true final false
- ::Org::BouncyCastle::Math::EC::ECPoint MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint p, ::Org::BouncyCastle::Math::BigInteger k) ;
+ Org::BouncyCastle::Math::EC::ECPoint MultiplyPositive(Org::BouncyCastle::Math::EC::ECPoint p, Org::BouncyCastle::Math::BigInteger k) ;
 
 // Ctor Parameters []
 explicit MontgomeryLadderMultiplier() ;
@@ -67,6 +66,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Math::EC::Multiplier
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Multiplier::MontgomeryLadderMultiplier);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Multiplier::MontgomeryLadderMultiplier, "Org.BouncyCastle.Math.EC.Multiplier", "MontgomeryLadderMultiplier");
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Multiplier::MontgomeryLadderMultiplier);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::MontgomeryLadderMultiplier, "Org.BouncyCastle.Math.EC.Multiplier", "MontgomeryLadderMultiplier");

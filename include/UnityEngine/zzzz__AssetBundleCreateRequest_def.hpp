@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__AsyncOperation_def.hpp"
-namespace {
 namespace UnityEngine {
 class AssetBundle;
 }
@@ -15,7 +14,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10143))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15926))
 // CS Name: UnityEngine.AssetBundleCreateRequest
-class CORDL_TYPE AssetBundleCreateRequest : public ::UnityEngine::AsyncOperation {
+class CORDL_TYPE AssetBundleCreateRequest : public UnityEngine::AsyncOperation {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr AssetBundleCreateRequest(AssetBundleCreateRequest const& ) noexcept = 
 constexpr AssetBundleCreateRequest(AssetBundleCreateRequest&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AssetBundleCreateRequest(void* ptr) noexcept : ::UnityEngine::AsyncOperation(ptr) {
+constexpr explicit AssetBundleCreateRequest(void* ptr) noexcept : UnityEngine::AsyncOperation(ptr) {
 }
 
 
@@ -51,13 +50,13 @@ constexpr explicit AssetBundleCreateRequest(void* ptr) noexcept : ::UnityEngine:
 
 // Properties
 
- ::UnityEngine::AssetBundle __declspec(property(get=get_assetBundle))  assetBundle;
+ UnityEngine::AssetBundle __declspec(property(get=get_assetBundle))  assetBundle;
 
 
 // Methods
 
 /// @brief Method get_assetBundle addr 0x2b243e8 size 0x3c virtual false final false
- ::UnityEngine::AssetBundle get_assetBundle() ;
+ UnityEngine::AssetBundle get_assetBundle() ;
 
 // Ctor Parameters []
 explicit AssetBundleCreateRequest() ;
@@ -69,6 +68,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AssetBundleCreateRequest);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AssetBundleCreateRequest, "UnityEngine", "AssetBundleCreateRequest");
+NEED_NO_BOX(UnityEngine::AssetBundleCreateRequest);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AssetBundleCreateRequest, "UnityEngine", "AssetBundleCreateRequest");

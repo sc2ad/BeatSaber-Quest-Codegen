@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class IEntropySource;
 }
@@ -28,12 +27,11 @@ constexpr explicit IEntropySourceProvider(void* ptr) noexcept : ::cordl_internal
 // Methods
 
 /// @brief Method Get addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Crypto::IEntropySource Get(int32_t bitsRequired) ;
+ Org::BouncyCastle::Crypto::IEntropySource Get(int32_t bitsRequired) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::IEntropySourceProvider);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::IEntropySourceProvider, "Org.BouncyCastle.Crypto", "IEntropySourceProvider");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::IEntropySourceProvider);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::IEntropySourceProvider, "Org.BouncyCastle.Crypto", "IEntropySourceProvider");

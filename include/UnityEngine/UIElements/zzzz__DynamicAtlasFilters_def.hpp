@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 struct DynamicAtlasFilters;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::UIElements::DynamicAtlasFilters const None;
+static UnityEngine::UIElements::DynamicAtlasFilters const None;
 
 /// @brief Field Readability offset 0
-static ::UnityEngine::UIElements::DynamicAtlasFilters const Readability;
+static UnityEngine::UIElements::DynamicAtlasFilters const Readability;
 
 /// @brief Field Size offset 0
-static ::UnityEngine::UIElements::DynamicAtlasFilters const Size;
+static UnityEngine::UIElements::DynamicAtlasFilters const Size;
 
 /// @brief Field Format offset 0
-static ::UnityEngine::UIElements::DynamicAtlasFilters const Format;
+static UnityEngine::UIElements::DynamicAtlasFilters const Format;
 
 /// @brief Field ColorSpace offset 0
-static ::UnityEngine::UIElements::DynamicAtlasFilters const ColorSpace;
+static UnityEngine::UIElements::DynamicAtlasFilters const ColorSpace;
 
 /// @brief Field FilterMode offset 0
-static ::UnityEngine::UIElements::DynamicAtlasFilters const FilterMode;
+static UnityEngine::UIElements::DynamicAtlasFilters const FilterMode;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::DynamicAtlasFilters, "UnityEngine.UIElements", "DynamicAtlasFilters");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::DynamicAtlasFilters, "UnityEngine.UIElements", "DynamicAtlasFilters");

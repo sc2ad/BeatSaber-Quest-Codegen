@@ -4,21 +4,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::IO {
-class FileInfo;
-}
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class IStreamGenerator;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgOutputStream;
 }
+namespace System::IO {
+class Stream;
+}
 namespace System {
 struct DateTime;
+}
+namespace System::IO {
+class FileInfo;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -33,8 +32,8 @@ namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class CORDL_TYPE PgpLiteralDataGenerator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator
-constexpr operator  ::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator
+constexpr operator  Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -81,11 +80,11 @@ static constexpr char16_t  Utf8{u};
 /// @brief Field Console offset 0
 static constexpr ::ConstString  Console{u"_CONSOLE"};
 
- ::Org::BouncyCastle::Bcpg::BcpgOutputStream __declspec(property(get=__get_pkOut, put=__set_pkOut))  pkOut;
+ Org::BouncyCastle::Bcpg::BcpgOutputStream __declspec(property(get=__get_pkOut, put=__set_pkOut))  pkOut;
 
-constexpr void __set_pkOut(::Org::BouncyCastle::Bcpg::BcpgOutputStream value) ;
+constexpr void __set_pkOut(Org::BouncyCastle::Bcpg::BcpgOutputStream value) ;
 
-constexpr ::Org::BouncyCastle::Bcpg::BcpgOutputStream __get_pkOut() const;
+constexpr Org::BouncyCastle::Bcpg::BcpgOutputStream __get_pkOut() const;
 
  bool __declspec(property(get=__get_oldFormat, put=__set_oldFormat))  oldFormat;
 
@@ -109,16 +108,16 @@ explicit PgpLiteralDataGenerator(bool oldFormat) ;
  void _ctor(bool oldFormat) ;
 
 /// @brief Method WriteHeader addr 0x1023fc4 size 0x144 virtual false final false
- void WriteHeader(::Org::BouncyCastle::Bcpg::BcpgOutputStream outStr, char16_t format, ::ArrayW<uint8_t> encName, int64_t modificationTime) ;
+ void WriteHeader(Org::BouncyCastle::Bcpg::BcpgOutputStream outStr, char16_t format, ::ArrayW<uint8_t> encName, int64_t modificationTime) ;
 
 /// @brief Method Open addr 0x1024108 size 0x1d4 virtual false final false
- ::System::IO::Stream Open(::System::IO::Stream outStr, char16_t format, ::StringW name, int64_t length, ::System::DateTime modificationTime) ;
+ System::IO::Stream Open(System::IO::Stream outStr, char16_t format, ::StringW name, int64_t length, System::DateTime modificationTime) ;
 
 /// @brief Method Open addr 0x10242dc size 0x1c0 virtual false final false
- ::System::IO::Stream Open(::System::IO::Stream outStr, char16_t format, ::StringW name, ::System::DateTime modificationTime, ::ArrayW<uint8_t> buffer) ;
+ System::IO::Stream Open(System::IO::Stream outStr, char16_t format, ::StringW name, System::DateTime modificationTime, ::ArrayW<uint8_t> buffer) ;
 
 /// @brief Method Open addr 0x102449c size 0x84 virtual false final false
- ::System::IO::Stream Open(::System::IO::Stream outStr, char16_t format, ::System::IO::FileInfo file) ;
+ System::IO::Stream Open(System::IO::Stream outStr, char16_t format, System::IO::FileInfo file) ;
 
 /// @brief Method Close addr 0x1024520 size 0x40 virtual true final true
  void Close() ;
@@ -127,6 +126,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg::OpenPgp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator, "Org.BouncyCastle.Bcpg.OpenPgp", "PgpLiteralDataGenerator");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator, "Org.BouncyCastle.Bcpg.OpenPgp", "PgpLiteralDataGenerator");

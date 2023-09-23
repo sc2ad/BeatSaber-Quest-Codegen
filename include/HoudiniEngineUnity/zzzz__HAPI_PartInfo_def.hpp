@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace HoudiniEngineUnity {
-struct HAPI_GroupType;
+struct HAPI_PartType;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_AttributeOwner;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_PartType;
+struct HAPI_GroupType;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -26,8 +25,8 @@ namespace HoudiniEngineUnity {
 struct CORDL_TYPE HAPI_PartInfo : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "id", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nameSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "type", ty: "::HoudiniEngineUnity::HAPI_PartType", modifiers: "", def_value: None }, CppParam { name: "faceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "vertexCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "pointCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "attributeCounts", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "isInstanced", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "instancedPartCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "instanceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "hasChanged", ty: "bool", modifiers: "", def_value: None }]
-constexpr HAPI_PartInfo(int32_t id, int32_t nameSH, ::HoudiniEngineUnity::HAPI_PartType type, int32_t faceCount, int32_t vertexCount, int32_t pointCount, ::ArrayW<int32_t> attributeCounts, bool isInstanced, int32_t instancedPartCount, int32_t instanceCount, bool hasChanged) noexcept;
+// Ctor Parameters [CppParam { name: "id", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nameSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "type", ty: "HoudiniEngineUnity::HAPI_PartType", modifiers: "", def_value: None }, CppParam { name: "faceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "vertexCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "pointCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "attributeCounts", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "isInstanced", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "instancedPartCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "instanceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "hasChanged", ty: "bool", modifiers: "", def_value: None }]
+constexpr HAPI_PartInfo(int32_t id, int32_t nameSH, HoudiniEngineUnity::HAPI_PartType type, int32_t faceCount, int32_t vertexCount, int32_t pointCount, ::ArrayW<int32_t> attributeCounts, bool isInstanced, int32_t instancedPartCount, int32_t instanceCount, bool hasChanged) noexcept;
 
 
                     constexpr HAPI_PartInfo(HAPI_PartInfo const&) = default;
@@ -72,11 +71,11 @@ constexpr void __set_nameSH(int32_t value) ;
 
 constexpr int32_t __get_nameSH() const;
 
- ::HoudiniEngineUnity::HAPI_PartType __declspec(property(get=__get_type, put=__set_type))  type;
+ HoudiniEngineUnity::HAPI_PartType __declspec(property(get=__get_type, put=__set_type))  type;
 
-constexpr void __set_type(::HoudiniEngineUnity::HAPI_PartType value) ;
+constexpr void __set_type(HoudiniEngineUnity::HAPI_PartType value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_PartType __get_type() const;
+constexpr HoudiniEngineUnity::HAPI_PartType __get_type() const;
 
  int32_t __declspec(property(get=__get_faceCount, put=__set_faceCount))  faceCount;
 
@@ -141,10 +140,10 @@ constexpr bool __get_hasChanged() const;
 // Methods
 
 /// @brief Method getElementCountByAttributeOwner addr 0x201f3c4 size 0x4c virtual false final false
- int32_t getElementCountByAttributeOwner(::HoudiniEngineUnity::HAPI_AttributeOwner owner) ;
+ int32_t getElementCountByAttributeOwner(HoudiniEngineUnity::HAPI_AttributeOwner owner) ;
 
 /// @brief Method getElementCountByGroupType addr 0x201f410 size 0x28 virtual false final false
- int32_t getElementCountByGroupType(::HoudiniEngineUnity::HAPI_GroupType type) ;
+ int32_t getElementCountByGroupType(HoudiniEngineUnity::HAPI_GroupType type) ;
 
 /// @brief Method init addr 0x20145e4 size 0x58 virtual false final false
  void init() ;
@@ -177,5 +176,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_PartInfo, "HoudiniEngineUnity", "HAPI_PartInfo");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_PartInfo, "HoudiniEngineUnity", "HAPI_PartInfo");

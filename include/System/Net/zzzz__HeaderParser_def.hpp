@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net {
 class HeaderParser;
@@ -16,7 +15,7 @@ namespace System::Net {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7952))
 // CS Name: System.Net.HeaderParser
-class CORDL_TYPE HeaderParser : public ::System::MulticastDelegate {
+class CORDL_TYPE HeaderParser : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr HeaderParser(HeaderParser const& ) noexcept = default;
 constexpr HeaderParser(HeaderParser&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HeaderParser(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit HeaderParser(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -65,6 +64,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::HeaderParser);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::HeaderParser, "System.Net", "HeaderParser");
+NEED_NO_BOX(System::Net::HeaderParser);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::HeaderParser, "System.Net", "HeaderParser");

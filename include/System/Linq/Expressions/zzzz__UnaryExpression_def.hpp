@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Linq/Expressions/zzzz__Expression_def.hpp"
-namespace {
 namespace System::Linq::Expressions {
 class Expression;
 }
@@ -15,7 +14,7 @@ namespace System::Linq::Expressions {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14581))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14588))
 // CS Name: System.Linq.Expressions.UnaryExpression
-class CORDL_TYPE UnaryExpression : public ::System::Linq::Expressions::Expression {
+class CORDL_TYPE UnaryExpression : public System::Linq::Expressions::Expression {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr UnaryExpression(UnaryExpression const& ) noexcept = default;
 constexpr UnaryExpression(UnaryExpression&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UnaryExpression(void* ptr) noexcept : ::System::Linq::Expressions::Expression(ptr) {
+constexpr explicit UnaryExpression(void* ptr) noexcept : System::Linq::Expressions::Expression(ptr) {
 }
 
 
@@ -51,27 +50,26 @@ constexpr explicit UnaryExpression(void* ptr) noexcept : ::System::Linq::Express
 
 // Fields
 
- ::System::Linq::Expressions::Expression __declspec(property(get=__get__Operand_k__BackingField, put=__set__Operand_k__BackingField))  _Operand_k__BackingField;
+ System::Linq::Expressions::Expression __declspec(property(get=__get__Operand_k__BackingField, put=__set__Operand_k__BackingField))  _Operand_k__BackingField;
 
-constexpr void __set__Operand_k__BackingField(::System::Linq::Expressions::Expression value) ;
+constexpr void __set__Operand_k__BackingField(System::Linq::Expressions::Expression value) ;
 
-constexpr ::System::Linq::Expressions::Expression __get__Operand_k__BackingField() const;
+constexpr System::Linq::Expressions::Expression __get__Operand_k__BackingField() const;
 
 
 // Properties
 
- ::System::Linq::Expressions::Expression __declspec(property(get=get_Operand))  Operand;
+ System::Linq::Expressions::Expression __declspec(property(get=get_Operand))  Operand;
 
 
 // Methods
 
 /// @brief Method get_Operand addr 0x26824b0 size 0x8 virtual false final false
- ::System::Linq::Expressions::Expression get_Operand() ;
+ System::Linq::Expressions::Expression get_Operand() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Linq::Expressions
-} // end anonymous namespace
-NEED_NO_BOX(::System::Linq::Expressions::UnaryExpression);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::UnaryExpression, "System.Linq.Expressions", "UnaryExpression");
+NEED_NO_BOX(System::Linq::Expressions::UnaryExpression);
+DEFINE_IL2CPP_ARG_TYPE(System::Linq::Expressions::UnaryExpression, "System.Linq.Expressions", "UnaryExpression");

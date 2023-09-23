@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Utilities::Date {
 class DateTimeObject;
 }
@@ -64,16 +63,16 @@ constexpr void __set_status(int32_t value) ;
 
 constexpr int32_t __get_status() const;
 
- ::Org::BouncyCastle::Utilities::Date::DateTimeObject __declspec(property(get=__get_revocationDate, put=__set_revocationDate))  revocationDate;
+ Org::BouncyCastle::Utilities::Date::DateTimeObject __declspec(property(get=__get_revocationDate, put=__set_revocationDate))  revocationDate;
 
-constexpr void __set_revocationDate(::Org::BouncyCastle::Utilities::Date::DateTimeObject value) ;
+constexpr void __set_revocationDate(Org::BouncyCastle::Utilities::Date::DateTimeObject value) ;
 
-constexpr ::Org::BouncyCastle::Utilities::Date::DateTimeObject __get_revocationDate() const;
+constexpr Org::BouncyCastle::Utilities::Date::DateTimeObject __get_revocationDate() const;
 
 
 // Properties
 
- ::Org::BouncyCastle::Utilities::Date::DateTimeObject __declspec(property(get=get_RevocationDate, put=set_RevocationDate))  RevocationDate;
+ Org::BouncyCastle::Utilities::Date::DateTimeObject __declspec(property(get=get_RevocationDate, put=set_RevocationDate))  RevocationDate;
 
  int32_t __declspec(property(get=get_Status, put=set_Status))  Status;
 
@@ -81,10 +80,10 @@ constexpr ::Org::BouncyCastle::Utilities::Date::DateTimeObject __get_revocationD
 // Methods
 
 /// @brief Method get_RevocationDate addr 0x105c584 size 0x8 virtual false final false
- ::Org::BouncyCastle::Utilities::Date::DateTimeObject get_RevocationDate() ;
+ Org::BouncyCastle::Utilities::Date::DateTimeObject get_RevocationDate() ;
 
 /// @brief Method set_RevocationDate addr 0x105c58c size 0x8 virtual false final false
- void set_RevocationDate(::Org::BouncyCastle::Utilities::Date::DateTimeObject value) ;
+ void set_RevocationDate(Org::BouncyCastle::Utilities::Date::DateTimeObject value) ;
 
 /// @brief Method get_Status addr 0x105c594 size 0x8 virtual false final false
  int32_t get_Status() ;
@@ -102,6 +101,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Pkix
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Pkix::CertStatus);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Pkix::CertStatus, "Org.BouncyCastle.Pkix", "CertStatus");
+NEED_NO_BOX(Org::BouncyCastle::Pkix::CertStatus);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Pkix::CertStatus, "Org.BouncyCastle.Pkix", "CertStatus");

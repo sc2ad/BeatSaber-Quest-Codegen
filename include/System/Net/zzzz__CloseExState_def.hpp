@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net {
 struct CloseExState;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Normal offset 0
-static ::System::Net::CloseExState const Normal;
+static System::Net::CloseExState const Normal;
 
 /// @brief Field Abort offset 0
-static ::System::Net::CloseExState const Abort;
+static System::Net::CloseExState const Abort;
 
 /// @brief Field Silent offset 0
-static ::System::Net::CloseExState const Silent;
+static System::Net::CloseExState const Silent;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::CloseExState, "System.Net", "CloseExState");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::CloseExState, "System.Net", "CloseExState");

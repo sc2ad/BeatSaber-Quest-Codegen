@@ -5,12 +5,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class AudioClip;
-}
 namespace UnityEngine {
 struct FFTWindow;
+}
+namespace UnityEngine {
+class AudioClip;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -22,7 +21,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15607))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15609))
 // CS Name: UnityEngine.AudioSource
-class CORDL_TYPE AudioSource : public ::UnityEngine::AudioBehaviour {
+class CORDL_TYPE AudioSource : public UnityEngine::AudioBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr AudioSource(AudioSource const& ) noexcept = default;
 constexpr AudioSource(AudioSource&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AudioSource(void* ptr) noexcept : ::UnityEngine::AudioBehaviour(ptr) {
+constexpr explicit AudioSource(void* ptr) noexcept : UnityEngine::AudioBehaviour(ptr) {
 }
 
 
@@ -66,7 +65,7 @@ constexpr explicit AudioSource(void* ptr) noexcept : ::UnityEngine::AudioBehavio
 
  int32_t __declspec(property(get=get_timeSamples))  timeSamples;
 
- ::UnityEngine::AudioClip __declspec(property(get=get_clip, put=set_clip))  clip;
+ UnityEngine::AudioClip __declspec(property(get=get_clip, put=set_clip))  clip;
 
  bool __declspec(property(get=get_isPlaying))  isPlaying;
 
@@ -98,25 +97,25 @@ constexpr explicit AudioSource(void* ptr) noexcept : ::UnityEngine::AudioBehavio
 // Methods
 
 /// @brief Method GetPitch addr 0x2b259c4 size 0x3c virtual false final false
-static float_t GetPitch(::UnityEngine::AudioSource source) ;
+static float_t GetPitch(UnityEngine::AudioSource source) ;
 
 /// @brief Method SetPitch addr 0x2b25a00 size 0x4c virtual false final false
-static void SetPitch(::UnityEngine::AudioSource source, float_t pitch) ;
+static void SetPitch(UnityEngine::AudioSource source, float_t pitch) ;
 
 /// @brief Method PlayHelper addr 0x2b25a4c size 0x44 virtual false final false
-static void PlayHelper(::UnityEngine::AudioSource source, uint64_t delay) ;
+static void PlayHelper(UnityEngine::AudioSource source, uint64_t delay) ;
 
 /// @brief Method Play addr 0x2b25a90 size 0x4c virtual false final false
  void Play(double_t delay) ;
 
 /// @brief Method PlayOneShotHelper addr 0x2b25adc size 0x54 virtual false final false
-static void PlayOneShotHelper(::UnityEngine::AudioSource source, ::UnityEngine::AudioClip clip, float_t volumeScale) ;
+static void PlayOneShotHelper(UnityEngine::AudioSource source, UnityEngine::AudioClip clip, float_t volumeScale) ;
 
 /// @brief Method Stop addr 0x2b25b30 size 0x44 virtual false final false
  void Stop(bool stopOneShots) ;
 
 /// @brief Method GetSpectrumDataHelper addr 0x2b25b74 size 0x5c virtual false final false
-static void GetSpectrumDataHelper(::UnityEngine::AudioSource source, ByRef<::ArrayW<float_t>> samples, int32_t channel, ::UnityEngine::FFTWindow window) ;
+static void GetSpectrumDataHelper(UnityEngine::AudioSource source, ByRef<::ArrayW<float_t>> samples, int32_t channel, UnityEngine::FFTWindow window) ;
 
 /// @brief Method get_volume addr 0x2b25bd0 size 0x3c virtual false final false
  float_t get_volume() ;
@@ -140,10 +139,10 @@ static void GetSpectrumDataHelper(::UnityEngine::AudioSource source, ByRef<::Arr
  int32_t get_timeSamples() ;
 
 /// @brief Method get_clip addr 0x2b25da4 size 0x3c virtual false final false
- ::UnityEngine::AudioClip get_clip() ;
+ UnityEngine::AudioClip get_clip() ;
 
 /// @brief Method set_clip addr 0x2b25de0 size 0x44 virtual false final false
- void set_clip(::UnityEngine::AudioClip value) ;
+ void set_clip(UnityEngine::AudioClip value) ;
 
 /// @brief Method Play addr 0x2b25e24 size 0x40 virtual false final false
  void Play() ;
@@ -152,10 +151,10 @@ static void GetSpectrumDataHelper(::UnityEngine::AudioSource source, ByRef<::Arr
  void PlayScheduled(double_t time) ;
 
 /// @brief Method PlayOneShot addr 0x2b25ebc size 0x8 virtual false final false
- void PlayOneShot(::UnityEngine::AudioClip clip) ;
+ void PlayOneShot(UnityEngine::AudioClip clip) ;
 
 /// @brief Method PlayOneShot addr 0x2b25ec4 size 0xfc virtual false final false
- void PlayOneShot(::UnityEngine::AudioClip clip, float_t volumeScale) ;
+ void PlayOneShot(UnityEngine::AudioClip clip, float_t volumeScale) ;
 
 /// @brief Method Stop addr 0x2b25fc0 size 0x40 virtual false final false
  void Stop() ;
@@ -209,12 +208,11 @@ static void GetSpectrumDataHelper(::UnityEngine::AudioSource source, ByRef<::Arr
  void set_minDistance(float_t value) ;
 
 /// @brief Method GetSpectrumData addr 0x2b26450 size 0x5c virtual false final false
- void GetSpectrumData(::ArrayW<float_t> samples, int32_t channel, ::UnityEngine::FFTWindow window) ;
+ void GetSpectrumData(::ArrayW<float_t> samples, int32_t channel, UnityEngine::FFTWindow window) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AudioSource);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AudioSource, "UnityEngine", "AudioSource");
+NEED_NO_BOX(UnityEngine::AudioSource);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioSource, "UnityEngine", "AudioSource");

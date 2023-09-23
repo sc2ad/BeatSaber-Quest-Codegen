@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsHandshakeHash;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsContext;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
@@ -27,11 +26,11 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE CombinedHash : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash
-constexpr operator  ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash
+constexpr operator  Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash() const noexcept;
 
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IDigest
-constexpr operator  ::Org::BouncyCastle::Crypto::IDigest() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IDigest
+constexpr operator  Org::BouncyCastle::Crypto::IDigest() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -66,23 +65,23 @@ constexpr explicit CombinedHash(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 
 // Fields
 
- ::Org::BouncyCastle::Crypto::Tls::TlsContext __declspec(property(get=__get_mContext, put=__set_mContext))  mContext;
+ Org::BouncyCastle::Crypto::Tls::TlsContext __declspec(property(get=__get_mContext, put=__set_mContext))  mContext;
 
-constexpr void __set_mContext(::Org::BouncyCastle::Crypto::Tls::TlsContext value) ;
+constexpr void __set_mContext(Org::BouncyCastle::Crypto::Tls::TlsContext value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext __get_mContext() const;
+constexpr Org::BouncyCastle::Crypto::Tls::TlsContext __get_mContext() const;
 
- ::Org::BouncyCastle::Crypto::IDigest __declspec(property(get=__get_mMd5, put=__set_mMd5))  mMd5;
+ Org::BouncyCastle::Crypto::IDigest __declspec(property(get=__get_mMd5, put=__set_mMd5))  mMd5;
 
-constexpr void __set_mMd5(::Org::BouncyCastle::Crypto::IDigest value) ;
+constexpr void __set_mMd5(Org::BouncyCastle::Crypto::IDigest value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IDigest __get_mMd5() const;
+constexpr Org::BouncyCastle::Crypto::IDigest __get_mMd5() const;
 
- ::Org::BouncyCastle::Crypto::IDigest __declspec(property(get=__get_mSha1, put=__set_mSha1))  mSha1;
+ Org::BouncyCastle::Crypto::IDigest __declspec(property(get=__get_mSha1, put=__set_mSha1))  mSha1;
 
-constexpr void __set_mSha1(::Org::BouncyCastle::Crypto::IDigest value) ;
+constexpr void __set_mSha1(Org::BouncyCastle::Crypto::IDigest value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IDigest __get_mSha1() const;
+constexpr Org::BouncyCastle::Crypto::IDigest __get_mSha1() const;
 
 
 // Properties
@@ -98,17 +97,17 @@ explicit CombinedHash() ;
 /// @brief Method .ctor addr 0xed2cf0 size 0x7c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "t", ty: "::Org::BouncyCastle::Crypto::Tls::CombinedHash", modifiers: "", def_value: None }]
-explicit CombinedHash(::Org::BouncyCastle::Crypto::Tls::CombinedHash t) ;
+// Ctor Parameters [CppParam { name: "t", ty: "Org::BouncyCastle::Crypto::Tls::CombinedHash", modifiers: "", def_value: None }]
+explicit CombinedHash(Org::BouncyCastle::Crypto::Tls::CombinedHash t) ;
 
 /// @brief Method .ctor addr 0xed2d6c size 0x9c virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::Tls::CombinedHash t) ;
+ void _ctor(Org::BouncyCastle::Crypto::Tls::CombinedHash t) ;
 
 /// @brief Method Init addr 0xed2e08 size 0x8 virtual true final false
- void Init(::Org::BouncyCastle::Crypto::Tls::TlsContext context) ;
+ void Init(Org::BouncyCastle::Crypto::Tls::TlsContext context) ;
 
 /// @brief Method NotifyPrfDetermined addr 0xed2e10 size 0x4 virtual true final false
- ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash NotifyPrfDetermined() ;
+ Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash NotifyPrfDetermined() ;
 
 /// @brief Method TrackHashAlgorithm addr 0xed2e14 size 0x50 virtual true final false
  void TrackHashAlgorithm(uint8_t hashAlgorithm) ;
@@ -117,10 +116,10 @@ explicit CombinedHash(::Org::BouncyCastle::Crypto::Tls::CombinedHash t) ;
  void SealHashAlgorithms() ;
 
 /// @brief Method StopTracking addr 0xed2e68 size 0x60 virtual true final false
- ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash StopTracking() ;
+ Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash StopTracking() ;
 
 /// @brief Method ForkPrfHash addr 0xed2ec8 size 0x60 virtual true final false
- ::Org::BouncyCastle::Crypto::IDigest ForkPrfHash() ;
+ Org::BouncyCastle::Crypto::IDigest ForkPrfHash() ;
 
 /// @brief Method GetFinalHash addr 0xed2f28 size 0x50 virtual true final false
  ::ArrayW<uint8_t> GetFinalHash(uint8_t hashAlgorithm) ;
@@ -147,12 +146,11 @@ explicit CombinedHash(::Org::BouncyCastle::Crypto::Tls::CombinedHash t) ;
  void Reset() ;
 
 /// @brief Method Ssl3Complete addr 0xed384c size 0x33c virtual true final false
- void Ssl3Complete(::Org::BouncyCastle::Crypto::IDigest d, ::ArrayW<uint8_t> ipad, ::ArrayW<uint8_t> opad, int32_t padLength) ;
+ void Ssl3Complete(Org::BouncyCastle::Crypto::IDigest d, ::ArrayW<uint8_t> ipad, ::ArrayW<uint8_t> opad, int32_t padLength) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::CombinedHash);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::CombinedHash, "Org.BouncyCastle.Crypto.Tls", "CombinedHash");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::CombinedHash);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::CombinedHash, "Org.BouncyCastle.Crypto.Tls", "CombinedHash");

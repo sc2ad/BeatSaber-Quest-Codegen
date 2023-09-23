@@ -3,7 +3,6 @@
 #include "HMUI/zzzz__RangeValuesTextSlider_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
 // Forward declare root types
 namespace HMUI {
 class CustomFormatRangeValuesSlider;
@@ -14,7 +13,7 @@ namespace HMUI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13609))
 // CS Name: HMUI.CustomFormatRangeValuesSlider
-class CORDL_TYPE CustomFormatRangeValuesSlider : public ::HMUI::RangeValuesTextSlider {
+class CORDL_TYPE CustomFormatRangeValuesSlider : public HMUI::RangeValuesTextSlider {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr CustomFormatRangeValuesSlider(CustomFormatRangeValuesSlider const& ) n
 constexpr CustomFormatRangeValuesSlider(CustomFormatRangeValuesSlider&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CustomFormatRangeValuesSlider(void* ptr) noexcept : ::HMUI::RangeValuesTextSlider(ptr) {
+constexpr explicit CustomFormatRangeValuesSlider(void* ptr) noexcept : HMUI::RangeValuesTextSlider(ptr) {
 }
 
 
@@ -72,6 +71,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HMUI
-} // end anonymous namespace
-NEED_NO_BOX(::HMUI::CustomFormatRangeValuesSlider);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::CustomFormatRangeValuesSlider, "HMUI", "CustomFormatRangeValuesSlider");
+NEED_NO_BOX(HMUI::CustomFormatRangeValuesSlider);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::CustomFormatRangeValuesSlider, "HMUI", "CustomFormatRangeValuesSlider");

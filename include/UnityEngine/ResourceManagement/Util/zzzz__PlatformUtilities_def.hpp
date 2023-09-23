@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace UnityEngine {
 struct RuntimePlatform;
 }
@@ -52,7 +51,7 @@ constexpr explicit PlatformUtilities(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 // Methods
 
 /// @brief Method PlatformUsesMultiThreading addr 0x2a3a684 size 0xc virtual false final false
-static bool PlatformUsesMultiThreading(::UnityEngine::RuntimePlatform platform) ;
+static bool PlatformUsesMultiThreading(UnityEngine::RuntimePlatform platform) ;
 
 // Ctor Parameters []
 explicit PlatformUtilities() ;
@@ -64,6 +63,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ResourceManagement::Util
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ResourceManagement::Util::PlatformUtilities);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::Util::PlatformUtilities, "UnityEngine.ResourceManagement.Util", "PlatformUtilities");
+NEED_NO_BOX(UnityEngine::ResourceManagement::Util::PlatformUtilities);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::PlatformUtilities, "UnityEngine.ResourceManagement.Util", "PlatformUtilities");

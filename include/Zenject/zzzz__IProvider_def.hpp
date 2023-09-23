@@ -2,22 +2,21 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace {
-namespace System {
-class Type;
-}
-namespace System {
-class Action;
-}
-namespace Zenject {
-class InjectContext;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace Zenject {
 struct TypeValuePair;
+}
+namespace System {
+class Type;
+}
+namespace Zenject {
+class InjectContext;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace Zenject {
@@ -55,15 +54,14 @@ constexpr explicit IProvider(void* ptr) noexcept : ::cordl_internals::InterfaceW
  bool get_IsCached() ;
 
 /// @brief Method GetInstanceType addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Type GetInstanceType(::Zenject::InjectContext context) ;
+ System::Type GetInstanceType(Zenject::InjectContext context) ;
 
 /// @brief Method GetAllInstancesWithInjectSplit addr 0x0 size 0xffffffffffffffff virtual true final false
- void GetAllInstancesWithInjectSplit(::Zenject::InjectContext context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair> args, ByRef<::System::Action> injectAction, ::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> instances) ;
+ void GetAllInstancesWithInjectSplit(Zenject::InjectContext context, System::Collections::Generic::List_1<Zenject::TypeValuePair> args, ByRef<System::Action> injectAction, System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> instances) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::IProvider);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::IProvider, "Zenject", "IProvider");
+NEED_NO_BOX(Zenject::IProvider);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::IProvider, "Zenject", "IProvider");

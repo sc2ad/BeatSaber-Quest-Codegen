@@ -4,13 +4,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace UnityEngine {
+struct Color;
+}
 namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivable_1;
-}
-namespace UnityEngine {
-struct Color;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -25,8 +24,8 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE HEU_DetailPrototype : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailPrototype>
-constexpr operator  ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailPrototype>() const noexcept;
+/// @brief Convert operator to HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_DetailPrototype>
+constexpr operator  HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_DetailPrototype>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x60};
@@ -79,17 +78,17 @@ constexpr void __set__bendFactor(float_t value) ;
 
 constexpr float_t __get__bendFactor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__dryColor, put=__set__dryColor))  _dryColor;
+ UnityEngine::Color __declspec(property(get=__get__dryColor, put=__set__dryColor))  _dryColor;
 
-constexpr void __set__dryColor(::UnityEngine::Color value) ;
+constexpr void __set__dryColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__dryColor() const;
+constexpr UnityEngine::Color __get__dryColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__healthyColor, put=__set__healthyColor))  _healthyColor;
+ UnityEngine::Color __declspec(property(get=__get__healthyColor, put=__set__healthyColor))  _healthyColor;
 
-constexpr void __set__healthyColor(::UnityEngine::Color value) ;
+constexpr void __set__healthyColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__healthyColor() const;
+constexpr UnityEngine::Color __get__healthyColor() const;
 
  float_t __declspec(property(get=__get__maxHeight, put=__set__maxHeight))  _maxHeight;
 
@@ -137,12 +136,11 @@ explicit HEU_DetailPrototype() ;
  void _ctor() ;
 
 /// @brief Method IsEquivalentTo addr 0x207808c size 0xec virtual true final true
- bool IsEquivalentTo(::HoudiniEngineUnity::HEU_DetailPrototype other) ;
+ bool IsEquivalentTo(HoudiniEngineUnity::HEU_DetailPrototype other) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_DetailPrototype);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_DetailPrototype, "HoudiniEngineUnity", "HEU_DetailPrototype");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_DetailPrototype);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_DetailPrototype, "HoudiniEngineUnity", "HEU_DetailPrototype");

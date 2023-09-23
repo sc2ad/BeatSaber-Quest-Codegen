@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__Collider_def.hpp"
-namespace {
 namespace UnityEngine {
 class TerrainData;
 }
@@ -15,7 +14,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15468))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16027))
 // CS Name: UnityEngine.TerrainCollider
-class CORDL_TYPE TerrainCollider : public ::UnityEngine::Collider {
+class CORDL_TYPE TerrainCollider : public UnityEngine::Collider {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr TerrainCollider(TerrainCollider const& ) noexcept = default;
 constexpr TerrainCollider(TerrainCollider&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TerrainCollider(void* ptr) noexcept : ::UnityEngine::Collider(ptr) {
+constexpr explicit TerrainCollider(void* ptr) noexcept : UnityEngine::Collider(ptr) {
 }
 
 
@@ -51,18 +50,17 @@ constexpr explicit TerrainCollider(void* ptr) noexcept : ::UnityEngine::Collider
 
 // Properties
 
- ::UnityEngine::TerrainData __declspec(property(put=set_terrainData))  terrainData;
+ UnityEngine::TerrainData __declspec(property(put=set_terrainData))  terrainData;
 
 
 // Methods
 
 /// @brief Method set_terrainData addr 0x2baa284 size 0x44 virtual false final false
- void set_terrainData(::UnityEngine::TerrainData value) ;
+ void set_terrainData(UnityEngine::TerrainData value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::TerrainCollider);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TerrainCollider, "UnityEngine", "TerrainCollider");
+NEED_NO_BOX(UnityEngine::TerrainCollider);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TerrainCollider, "UnityEngine", "TerrainCollider");

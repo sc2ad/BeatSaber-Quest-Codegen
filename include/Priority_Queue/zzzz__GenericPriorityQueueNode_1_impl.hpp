@@ -1,16 +1,15 @@
 #pragma once
-namespace {
 #include "Priority_Queue/zzzz__GenericPriorityQueueNode_1_def.hpp"
-//  Writing Method size for method: ::Priority_Queue::GenericPriorityQueueNode_1.get_Priority
+//  Writing Method size for method: Priority_Queue::GenericPriorityQueueNode_1.get_Priority
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TPriority (::Priority_Queue::GenericPriorityQueueNode_1::*)()>(&::Priority_Queue::GenericPriorityQueueNode_1::get_Priority)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TPriority (Priority_Queue::GenericPriorityQueueNode_1::*)()>(&Priority_Queue::GenericPriorityQueueNode_1::get_Priority)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::GenericPriorityQueueNode_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Priority_Queue::GenericPriorityQueueNode_1>::get(),
                             "get_Priority",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -18,16 +17,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TPriority (
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Priority_Queue::GenericPriorityQueueNode_1.set_Priority
+//  Writing Method size for method: Priority_Queue::GenericPriorityQueueNode_1.set_Priority
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Priority_Queue::GenericPriorityQueueNode_1::*)(TPriority)>(&::Priority_Queue::GenericPriorityQueueNode_1::set_Priority)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Priority_Queue::GenericPriorityQueueNode_1::*)(TPriority)>(&Priority_Queue::GenericPriorityQueueNode_1::set_Priority)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::GenericPriorityQueueNode_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Priority_Queue::GenericPriorityQueueNode_1>::get(),
                             "set_Priority",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TPriority>::get()}
@@ -35,16 +34,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Pri
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Priority_Queue::GenericPriorityQueueNode_1.get_QueueIndex
+//  Writing Method size for method: Priority_Queue::GenericPriorityQueueNode_1.get_QueueIndex
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Priority_Queue::GenericPriorityQueueNode_1::*)()>(&::Priority_Queue::GenericPriorityQueueNode_1::get_QueueIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (Priority_Queue::GenericPriorityQueueNode_1::*)()>(&Priority_Queue::GenericPriorityQueueNode_1::get_QueueIndex)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::GenericPriorityQueueNode_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Priority_Queue::GenericPriorityQueueNode_1>::get(),
                             "get_QueueIndex",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -52,16 +51,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Priority_Queue::GenericPriorityQueueNode_1.set_QueueIndex
+//  Writing Method size for method: Priority_Queue::GenericPriorityQueueNode_1.set_QueueIndex
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Priority_Queue::GenericPriorityQueueNode_1::*)(int32_t)>(&::Priority_Queue::GenericPriorityQueueNode_1::set_QueueIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Priority_Queue::GenericPriorityQueueNode_1::*)(int32_t)>(&Priority_Queue::GenericPriorityQueueNode_1::set_QueueIndex)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::GenericPriorityQueueNode_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Priority_Queue::GenericPriorityQueueNode_1>::get(),
                             "set_QueueIndex",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
@@ -69,16 +68,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Pri
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Priority_Queue::GenericPriorityQueueNode_1.get_InsertionIndex
+//  Writing Method size for method: Priority_Queue::GenericPriorityQueueNode_1.get_InsertionIndex
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Priority_Queue::GenericPriorityQueueNode_1::*)()>(&::Priority_Queue::GenericPriorityQueueNode_1::get_InsertionIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Priority_Queue::GenericPriorityQueueNode_1::*)()>(&Priority_Queue::GenericPriorityQueueNode_1::get_InsertionIndex)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::GenericPriorityQueueNode_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Priority_Queue::GenericPriorityQueueNode_1>::get(),
                             "get_InsertionIndex",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -86,16 +85,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Priority_Queue::GenericPriorityQueueNode_1.set_InsertionIndex
+//  Writing Method size for method: Priority_Queue::GenericPriorityQueueNode_1.set_InsertionIndex
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Priority_Queue::GenericPriorityQueueNode_1::*)(int64_t)>(&::Priority_Queue::GenericPriorityQueueNode_1::set_InsertionIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Priority_Queue::GenericPriorityQueueNode_1::*)(int64_t)>(&Priority_Queue::GenericPriorityQueueNode_1::set_InsertionIndex)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::GenericPriorityQueueNode_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Priority_Queue::GenericPriorityQueueNode_1>::get(),
                             "set_InsertionIndex",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
@@ -103,16 +102,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Pri
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Priority_Queue::GenericPriorityQueueNode_1._ctor
+//  Writing Method size for method: Priority_Queue::GenericPriorityQueueNode_1._ctor
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Priority_Queue::GenericPriorityQueueNode_1::*)()>(&::Priority_Queue::GenericPriorityQueueNode_1::_ctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Priority_Queue::GenericPriorityQueueNode_1::*)()>(&Priority_Queue::GenericPriorityQueueNode_1::_ctor)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::GenericPriorityQueueNode_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Priority_Queue::GenericPriorityQueueNode_1>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -120,72 +119,72 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Pri
     return ___internal_method;
   }
 };
-constexpr void ::Priority_Queue::GenericPriorityQueueNode_1::__set__Priority_k__BackingField(TPriority value)  {
+constexpr void Priority_Queue::GenericPriorityQueueNode_1::__set__Priority_k__BackingField(TPriority value)  {
 ::cordl_internals::setInstanceField<TPriority, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<TPriority>(value));
 }
-constexpr TPriority ::Priority_Queue::GenericPriorityQueueNode_1::__get__Priority_k__BackingField() const {
+constexpr TPriority Priority_Queue::GenericPriorityQueueNode_1::__get__Priority_k__BackingField() const {
 return ::cordl_internals::getInstanceField<TPriority, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void ::Priority_Queue::GenericPriorityQueueNode_1::__set__QueueIndex_k__BackingField(int32_t value)  {
+constexpr void Priority_Queue::GenericPriorityQueueNode_1::__set__QueueIndex_k__BackingField(int32_t value)  {
 ::cordl_internals::setInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<int32_t>(value));
 }
-constexpr int32_t ::Priority_Queue::GenericPriorityQueueNode_1::__get__QueueIndex_k__BackingField() const {
+constexpr int32_t Priority_Queue::GenericPriorityQueueNode_1::__get__QueueIndex_k__BackingField() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void ::Priority_Queue::GenericPriorityQueueNode_1::__set__InsertionIndex_k__BackingField(int64_t value)  {
+constexpr void Priority_Queue::GenericPriorityQueueNode_1::__set__InsertionIndex_k__BackingField(int64_t value)  {
 ::cordl_internals::setInstanceField<int64_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<int64_t>(value));
 }
-constexpr int64_t ::Priority_Queue::GenericPriorityQueueNode_1::__get__InsertionIndex_k__BackingField() const {
+constexpr int64_t Priority_Queue::GenericPriorityQueueNode_1::__get__InsertionIndex_k__BackingField() const {
 return ::cordl_internals::getInstanceField<int64_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
- TPriority ::Priority_Queue::GenericPriorityQueueNode_1::get_Priority()  {
+ TPriority Priority_Queue::GenericPriorityQueueNode_1::get_Priority()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::GenericPriorityQueueNode_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Priority_Queue::GenericPriorityQueueNode_1>::get(),
                             "get_Priority",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<TPriority, false>(const_cast<void*>(instance), ___internal_method);
 }
- void ::Priority_Queue::GenericPriorityQueueNode_1::set_Priority(TPriority value)  {
+ void Priority_Queue::GenericPriorityQueueNode_1::set_Priority(TPriority value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::GenericPriorityQueueNode_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Priority_Queue::GenericPriorityQueueNode_1>::get(),
                             "set_Priority",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TPriority>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
- int32_t ::Priority_Queue::GenericPriorityQueueNode_1::get_QueueIndex()  {
+ int32_t Priority_Queue::GenericPriorityQueueNode_1::get_QueueIndex()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::GenericPriorityQueueNode_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Priority_Queue::GenericPriorityQueueNode_1>::get(),
                             "get_QueueIndex",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
- void ::Priority_Queue::GenericPriorityQueueNode_1::set_QueueIndex(int32_t value)  {
+ void Priority_Queue::GenericPriorityQueueNode_1::set_QueueIndex(int32_t value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::GenericPriorityQueueNode_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Priority_Queue::GenericPriorityQueueNode_1>::get(),
                             "set_QueueIndex",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
- int64_t ::Priority_Queue::GenericPriorityQueueNode_1::get_InsertionIndex()  {
+ int64_t Priority_Queue::GenericPriorityQueueNode_1::get_InsertionIndex()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::GenericPriorityQueueNode_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Priority_Queue::GenericPriorityQueueNode_1>::get(),
                             "get_InsertionIndex",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<int64_t, false>(const_cast<void*>(instance), ___internal_method);
 }
- void ::Priority_Queue::GenericPriorityQueueNode_1::set_InsertionIndex(int64_t value)  {
+ void Priority_Queue::GenericPriorityQueueNode_1::set_InsertionIndex(int64_t value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::GenericPriorityQueueNode_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Priority_Queue::GenericPriorityQueueNode_1>::get(),
                             "set_InsertionIndex",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
@@ -193,26 +192,26 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
 // Ctor Parameters []
- ::Priority_Queue::GenericPriorityQueueNode_1::GenericPriorityQueueNode_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GenericPriorityQueueNode_1>())) {}
- void ::Priority_Queue::GenericPriorityQueueNode_1::_ctor()  {
+ Priority_Queue::GenericPriorityQueueNode_1::GenericPriorityQueueNode_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GenericPriorityQueueNode_1>())) {}
+ void Priority_Queue::GenericPriorityQueueNode_1::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::GenericPriorityQueueNode_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Priority_Queue::GenericPriorityQueueNode_1>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-//  Writing Method size for method: ::Priority_Queue::GenericPriorityQueueNode_1<float_t>.get_Priority
+//  Writing Method size for method: Priority_Queue::GenericPriorityQueueNode_1<float_t>.get_Priority
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Priority_Queue::GenericPriorityQueueNode_1<float_t>::*)()>(&::Priority_Queue::GenericPriorityQueueNode_1<float_t>::get_Priority)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (Priority_Queue::GenericPriorityQueueNode_1<float_t>::*)()>(&Priority_Queue::GenericPriorityQueueNode_1<float_t>::get_Priority)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::GenericPriorityQueueNode_1<float_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Priority_Queue::GenericPriorityQueueNode_1<float_t>>::get(),
                             "get_Priority",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -220,16 +219,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Priority_Queue::GenericPriorityQueueNode_1<float_t>.set_Priority
+//  Writing Method size for method: Priority_Queue::GenericPriorityQueueNode_1<float_t>.set_Priority
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Priority_Queue::GenericPriorityQueueNode_1<float_t>::*)(float_t)>(&::Priority_Queue::GenericPriorityQueueNode_1<float_t>::set_Priority)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Priority_Queue::GenericPriorityQueueNode_1<float_t>::*)(float_t)>(&Priority_Queue::GenericPriorityQueueNode_1<float_t>::set_Priority)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::GenericPriorityQueueNode_1<float_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Priority_Queue::GenericPriorityQueueNode_1<float_t>>::get(),
                             "set_Priority",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
@@ -237,16 +236,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Pri
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Priority_Queue::GenericPriorityQueueNode_1<float_t>.get_QueueIndex
+//  Writing Method size for method: Priority_Queue::GenericPriorityQueueNode_1<float_t>.get_QueueIndex
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Priority_Queue::GenericPriorityQueueNode_1<float_t>::*)()>(&::Priority_Queue::GenericPriorityQueueNode_1<float_t>::get_QueueIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (Priority_Queue::GenericPriorityQueueNode_1<float_t>::*)()>(&Priority_Queue::GenericPriorityQueueNode_1<float_t>::get_QueueIndex)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::GenericPriorityQueueNode_1<float_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Priority_Queue::GenericPriorityQueueNode_1<float_t>>::get(),
                             "get_QueueIndex",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -254,16 +253,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Priority_Queue::GenericPriorityQueueNode_1<float_t>.set_QueueIndex
+//  Writing Method size for method: Priority_Queue::GenericPriorityQueueNode_1<float_t>.set_QueueIndex
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Priority_Queue::GenericPriorityQueueNode_1<float_t>::*)(int32_t)>(&::Priority_Queue::GenericPriorityQueueNode_1<float_t>::set_QueueIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Priority_Queue::GenericPriorityQueueNode_1<float_t>::*)(int32_t)>(&Priority_Queue::GenericPriorityQueueNode_1<float_t>::set_QueueIndex)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::GenericPriorityQueueNode_1<float_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Priority_Queue::GenericPriorityQueueNode_1<float_t>>::get(),
                             "set_QueueIndex",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
@@ -271,16 +270,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Pri
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Priority_Queue::GenericPriorityQueueNode_1<float_t>.get_InsertionIndex
+//  Writing Method size for method: Priority_Queue::GenericPriorityQueueNode_1<float_t>.get_InsertionIndex
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Priority_Queue::GenericPriorityQueueNode_1<float_t>::*)()>(&::Priority_Queue::GenericPriorityQueueNode_1<float_t>::get_InsertionIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Priority_Queue::GenericPriorityQueueNode_1<float_t>::*)()>(&Priority_Queue::GenericPriorityQueueNode_1<float_t>::get_InsertionIndex)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::GenericPriorityQueueNode_1<float_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Priority_Queue::GenericPriorityQueueNode_1<float_t>>::get(),
                             "get_InsertionIndex",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -288,16 +287,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Priority_Queue::GenericPriorityQueueNode_1<float_t>.set_InsertionIndex
+//  Writing Method size for method: Priority_Queue::GenericPriorityQueueNode_1<float_t>.set_InsertionIndex
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Priority_Queue::GenericPriorityQueueNode_1<float_t>::*)(int64_t)>(&::Priority_Queue::GenericPriorityQueueNode_1<float_t>::set_InsertionIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Priority_Queue::GenericPriorityQueueNode_1<float_t>::*)(int64_t)>(&Priority_Queue::GenericPriorityQueueNode_1<float_t>::set_InsertionIndex)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::GenericPriorityQueueNode_1<float_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Priority_Queue::GenericPriorityQueueNode_1<float_t>>::get(),
                             "set_InsertionIndex",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
@@ -305,16 +304,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Pri
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Priority_Queue::GenericPriorityQueueNode_1<float_t>._ctor
+//  Writing Method size for method: Priority_Queue::GenericPriorityQueueNode_1<float_t>._ctor
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Priority_Queue::GenericPriorityQueueNode_1<float_t>::*)()>(&::Priority_Queue::GenericPriorityQueueNode_1<float_t>::_ctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Priority_Queue::GenericPriorityQueueNode_1<float_t>::*)()>(&Priority_Queue::GenericPriorityQueueNode_1<float_t>::_ctor)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::GenericPriorityQueueNode_1<float_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Priority_Queue::GenericPriorityQueueNode_1<float_t>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -322,72 +321,72 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Pri
     return ___internal_method;
   }
 };
-constexpr void ::Priority_Queue::GenericPriorityQueueNode_1<float_t>::__set__Priority_k__BackingField(float_t value)  {
+constexpr void Priority_Queue::GenericPriorityQueueNode_1<float_t>::__set__Priority_k__BackingField(float_t value)  {
 ::cordl_internals::setInstanceField<float_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<float_t>(value));
 }
-constexpr float_t ::Priority_Queue::GenericPriorityQueueNode_1<float_t>::__get__Priority_k__BackingField() const {
+constexpr float_t Priority_Queue::GenericPriorityQueueNode_1<float_t>::__get__Priority_k__BackingField() const {
 return ::cordl_internals::getInstanceField<float_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void ::Priority_Queue::GenericPriorityQueueNode_1<float_t>::__set__QueueIndex_k__BackingField(int32_t value)  {
+constexpr void Priority_Queue::GenericPriorityQueueNode_1<float_t>::__set__QueueIndex_k__BackingField(int32_t value)  {
 ::cordl_internals::setInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<int32_t>(value));
 }
-constexpr int32_t ::Priority_Queue::GenericPriorityQueueNode_1<float_t>::__get__QueueIndex_k__BackingField() const {
+constexpr int32_t Priority_Queue::GenericPriorityQueueNode_1<float_t>::__get__QueueIndex_k__BackingField() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void ::Priority_Queue::GenericPriorityQueueNode_1<float_t>::__set__InsertionIndex_k__BackingField(int64_t value)  {
+constexpr void Priority_Queue::GenericPriorityQueueNode_1<float_t>::__set__InsertionIndex_k__BackingField(int64_t value)  {
 ::cordl_internals::setInstanceField<int64_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<int64_t>(value));
 }
-constexpr int64_t ::Priority_Queue::GenericPriorityQueueNode_1<float_t>::__get__InsertionIndex_k__BackingField() const {
+constexpr int64_t Priority_Queue::GenericPriorityQueueNode_1<float_t>::__get__InsertionIndex_k__BackingField() const {
 return ::cordl_internals::getInstanceField<int64_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
- float_t ::Priority_Queue::GenericPriorityQueueNode_1<float_t>::get_Priority()  {
+ float_t Priority_Queue::GenericPriorityQueueNode_1<float_t>::get_Priority()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::GenericPriorityQueueNode_1<float_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Priority_Queue::GenericPriorityQueueNode_1<float_t>>::get(),
                             "get_Priority",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
- void ::Priority_Queue::GenericPriorityQueueNode_1<float_t>::set_Priority(float_t value)  {
+ void Priority_Queue::GenericPriorityQueueNode_1<float_t>::set_Priority(float_t value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::GenericPriorityQueueNode_1<float_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Priority_Queue::GenericPriorityQueueNode_1<float_t>>::get(),
                             "set_Priority",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
- int32_t ::Priority_Queue::GenericPriorityQueueNode_1<float_t>::get_QueueIndex()  {
+ int32_t Priority_Queue::GenericPriorityQueueNode_1<float_t>::get_QueueIndex()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::GenericPriorityQueueNode_1<float_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Priority_Queue::GenericPriorityQueueNode_1<float_t>>::get(),
                             "get_QueueIndex",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
- void ::Priority_Queue::GenericPriorityQueueNode_1<float_t>::set_QueueIndex(int32_t value)  {
+ void Priority_Queue::GenericPriorityQueueNode_1<float_t>::set_QueueIndex(int32_t value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::GenericPriorityQueueNode_1<float_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Priority_Queue::GenericPriorityQueueNode_1<float_t>>::get(),
                             "set_QueueIndex",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
- int64_t ::Priority_Queue::GenericPriorityQueueNode_1<float_t>::get_InsertionIndex()  {
+ int64_t Priority_Queue::GenericPriorityQueueNode_1<float_t>::get_InsertionIndex()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::GenericPriorityQueueNode_1<float_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Priority_Queue::GenericPriorityQueueNode_1<float_t>>::get(),
                             "get_InsertionIndex",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<int64_t, false>(const_cast<void*>(instance), ___internal_method);
 }
- void ::Priority_Queue::GenericPriorityQueueNode_1<float_t>::set_InsertionIndex(int64_t value)  {
+ void Priority_Queue::GenericPriorityQueueNode_1<float_t>::set_InsertionIndex(int64_t value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::GenericPriorityQueueNode_1<float_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Priority_Queue::GenericPriorityQueueNode_1<float_t>>::get(),
                             "set_InsertionIndex",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
@@ -395,14 +394,13 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
 // Ctor Parameters []
- ::Priority_Queue::GenericPriorityQueueNode_1<float_t>::GenericPriorityQueueNode_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GenericPriorityQueueNode_1>())) {}
- void ::Priority_Queue::GenericPriorityQueueNode_1<float_t>::_ctor()  {
+ Priority_Queue::GenericPriorityQueueNode_1<float_t>::GenericPriorityQueueNode_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GenericPriorityQueueNode_1>())) {}
+ void Priority_Queue::GenericPriorityQueueNode_1<float_t>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::GenericPriorityQueueNode_1<float_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Priority_Queue::GenericPriorityQueueNode_1<float_t>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-} // end anonymous namespace

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace {
 namespace UnityEngine::Experimental::Rendering {
 class IScriptableRuntimeReflectionSystem;
 }
@@ -52,25 +51,25 @@ constexpr explicit ScriptableRuntimeReflectionSystemWrapper(void* ptr) noexcept 
 
 // Fields
 
- ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem __declspec(property(get=__get__implementation_k__BackingField, put=__set__implementation_k__BackingField))  _implementation_k__BackingField;
+ UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem __declspec(property(get=__get__implementation_k__BackingField, put=__set__implementation_k__BackingField))  _implementation_k__BackingField;
 
-constexpr void __set__implementation_k__BackingField(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem value) ;
+constexpr void __set__implementation_k__BackingField(UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem value) ;
 
-constexpr ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem __get__implementation_k__BackingField() const;
+constexpr UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem __get__implementation_k__BackingField() const;
 
 
 // Properties
 
- ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem __declspec(property(get=get_implementation, put=set_implementation))  implementation;
+ UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem __declspec(property(get=get_implementation, put=set_implementation))  implementation;
 
 
 // Methods
 
 /// @brief Method get_implementation addr 0x2b7b45c size 0x8 virtual false final false
- ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem get_implementation() ;
+ UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem get_implementation() ;
 
 /// @brief Method set_implementation addr 0x2b7b464 size 0x8 virtual false final false
- void set_implementation(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem value) ;
+ void set_implementation(UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem value) ;
 
 /// @brief Method Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes addr 0x2b7b46c size 0xb4 virtual false final false
  void Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes(ByRef<bool> result) ;
@@ -85,6 +84,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Experimental::Rendering
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper, "UnityEngine.Experimental.Rendering", "ScriptableRuntimeReflectionSystemWrapper");
+NEED_NO_BOX(UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper, "UnityEngine.Experimental.Rendering", "ScriptableRuntimeReflectionSystemWrapper");

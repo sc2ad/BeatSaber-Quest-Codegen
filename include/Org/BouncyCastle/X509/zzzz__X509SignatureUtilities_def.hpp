@@ -2,18 +2,17 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Null;
 }
 namespace Org::BouncyCastle::Crypto {
 class ISigner;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
@@ -64,23 +63,23 @@ constexpr explicit X509SignatureUtilities(void* ptr) noexcept : ::bs_hook::Il2Cp
 
 // Fields
 
-static ::Org::BouncyCastle::Asn1::Asn1Null __declspec(property(get=__get_derNull, put=__set_derNull))  derNull;
+static Org::BouncyCastle::Asn1::Asn1Null __declspec(property(get=__get_derNull, put=__set_derNull))  derNull;
 
-static void __set_derNull(::Org::BouncyCastle::Asn1::Asn1Null value) ;
+static void __set_derNull(Org::BouncyCastle::Asn1::Asn1Null value) ;
 
-static ::Org::BouncyCastle::Asn1::Asn1Null __get_derNull() ;
+static Org::BouncyCastle::Asn1::Asn1Null __get_derNull() ;
 
 
 // Methods
 
 /// @brief Method SetSignatureParameters addr 0x10f4da0 size 0x7c virtual false final false
-static void SetSignatureParameters(::Org::BouncyCastle::Crypto::ISigner signature, ::Org::BouncyCastle::Asn1::Asn1Encodable parameters) ;
+static void SetSignatureParameters(Org::BouncyCastle::Crypto::ISigner signature, Org::BouncyCastle::Asn1::Asn1Encodable parameters) ;
 
 /// @brief Method GetSignatureName addr 0x10ed3b8 size 0x2e4 virtual false final false
-static ::StringW GetSignatureName(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier sigAlgId) ;
+static ::StringW GetSignatureName(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier sigAlgId) ;
 
 /// @brief Method GetDigestAlgName addr 0x10f4e1c size 0x370 virtual false final false
-static ::StringW GetDigestAlgName(::Org::BouncyCastle::Asn1::DerObjectIdentifier digestAlgOID) ;
+static ::StringW GetDigestAlgName(Org::BouncyCastle::Asn1::DerObjectIdentifier digestAlgOID) ;
 
 // Ctor Parameters []
 explicit X509SignatureUtilities() ;
@@ -92,6 +91,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::X509
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::X509::X509SignatureUtilities);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::X509::X509SignatureUtilities, "Org.BouncyCastle.X509", "X509SignatureUtilities");
+NEED_NO_BOX(Org::BouncyCastle::X509::X509SignatureUtilities);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509SignatureUtilities, "Org.BouncyCastle.X509", "X509SignatureUtilities");

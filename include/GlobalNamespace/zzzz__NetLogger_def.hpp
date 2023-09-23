@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace LiteNetLib {
 class INetLogger;
 }
@@ -23,8 +22,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE NetLogger : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::LiteNetLib::INetLogger
-constexpr operator  ::LiteNetLib::INetLogger() const noexcept;
+/// @brief Convert operator to LiteNetLib::INetLogger
+constexpr operator  LiteNetLib::INetLogger() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -60,7 +59,7 @@ constexpr explicit NetLogger(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 // Methods
 
 /// @brief Method WriteNet addr 0xdbfd8c size 0x174 virtual true final true
- void WriteNet(::LiteNetLib::NetLogLevel level, ::StringW str, ::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
+ void WriteNet(LiteNetLib::NetLogLevel level, ::StringW str, ::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
 
 // Ctor Parameters []
 explicit NetLogger() ;
@@ -72,6 +71,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::NetLogger);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NetLogger, "", "NetLogger");
+NEED_NO_BOX(GlobalNamespace::NetLogger);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetLogger, "", "NetLogger");

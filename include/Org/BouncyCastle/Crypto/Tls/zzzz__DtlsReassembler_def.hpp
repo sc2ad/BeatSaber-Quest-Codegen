@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections {
 class IList;
 }
@@ -12,7 +11,7 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class DtlsReassembler;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class ____Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range;
+class Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range;
 }
 // Type: ::Range
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -20,37 +19,37 @@ namespace Org::BouncyCastle::Crypto::Tls {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1227))
 // CS Name: Org.BouncyCastle.Crypto.Tls.DtlsReassembler::Range
-class CORDL_TYPE ____Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range() = default;
+virtual ~Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range", modifiers: " const&", def_value: None }]
-constexpr ____Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range(____Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range", modifiers: " const&", def_value: None }]
+constexpr Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range(Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range", modifiers: "&&", def_value: None }]
-constexpr ____Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range(____Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range", modifiers: "&&", def_value: None }]
+constexpr Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range(Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range& operator=(std::nullptr_t) noexcept {
+  constexpr Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range& operator=(void* o) noexcept {
+  constexpr Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range& operator=(____Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range&& o) noexcept = default;
-  constexpr ____Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range& operator=(____Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range const& o) noexcept = default;
+  constexpr Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range& operator=(Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range&& o) noexcept = default;
+  constexpr Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range& operator=(Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range const& o) noexcept = default;
                 
 
 
@@ -79,7 +78,7 @@ constexpr int32_t __get_mEnd() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "start", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "end", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range(int32_t start, int32_t end) ;
+explicit Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range(int32_t start, int32_t end) ;
 
 /// @brief Method .ctor addr 0xede650 size 0x2c virtual false final false
  void _ctor(int32_t start, int32_t end) ;
@@ -109,7 +108,7 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE DtlsReassembler : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using Range = ::Org::BouncyCastle::Crypto::Tls::____Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range;
+using Range = Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -156,11 +155,11 @@ constexpr void __set_mBody(::ArrayW<uint8_t> value) ;
 
 constexpr ::ArrayW<uint8_t> __get_mBody() const;
 
- ::System::Collections::IList __declspec(property(get=__get_mMissing, put=__set_mMissing))  mMissing;
+ System::Collections::IList __declspec(property(get=__get_mMissing, put=__set_mMissing))  mMissing;
 
-constexpr void __set_mMissing(::System::Collections::IList value) ;
+constexpr void __set_mMissing(System::Collections::IList value) ;
 
-constexpr ::System::Collections::IList __get_mMissing() const;
+constexpr System::Collections::IList __get_mMissing() const;
 
 
 // Properties
@@ -192,8 +191,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::DtlsReassembler);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::DtlsReassembler, "Org.BouncyCastle.Crypto.Tls", "DtlsReassembler");
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::____Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::____Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range, "Org.BouncyCastle.Crypto.Tls", "DtlsReassembler/Range");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::DtlsReassembler);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::DtlsReassembler, "Org.BouncyCastle.Crypto.Tls", "DtlsReassembler");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range, "Org.BouncyCastle.Crypto.Tls", "DtlsReassembler/Range");

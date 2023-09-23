@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz____Il2CppComObject_def.hpp"
-namespace {
 // Forward declare root types
 namespace System {
 class __Il2CppComDelegate;
@@ -12,7 +11,7 @@ namespace System {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16106))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16107))
 // CS Name: System.__Il2CppComDelegate
-class CORDL_TYPE __Il2CppComDelegate : public ::System::__Il2CppComObject {
+class CORDL_TYPE __Il2CppComDelegate : public System::__Il2CppComObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr __Il2CppComDelegate(__Il2CppComDelegate const& ) noexcept = default;
 constexpr __Il2CppComDelegate(__Il2CppComDelegate&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit __Il2CppComDelegate(void* ptr) noexcept : ::System::__Il2CppComObject(ptr) {
+constexpr explicit __Il2CppComDelegate(void* ptr) noexcept : System::__Il2CppComObject(ptr) {
 }
 
 
@@ -55,6 +54,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::__Il2CppComDelegate);
-DEFINE_IL2CPP_ARG_TYPE(::System::__Il2CppComDelegate, "System", "__Il2CppComDelegate");
+NEED_NO_BOX(System::__Il2CppComDelegate);
+DEFINE_IL2CPP_ARG_TYPE(System::__Il2CppComDelegate, "System", "__Il2CppComDelegate");

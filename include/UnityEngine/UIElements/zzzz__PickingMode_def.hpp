@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 struct PickingMode;
@@ -67,14 +66,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Position offset 0
-static ::UnityEngine::UIElements::PickingMode const Position;
+static UnityEngine::UIElements::PickingMode const Position;
 
 /// @brief Field Ignore offset 0
-static ::UnityEngine::UIElements::PickingMode const Ignore;
+static UnityEngine::UIElements::PickingMode const Ignore;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::PickingMode, "UnityEngine.UIElements", "PickingMode");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::PickingMode, "UnityEngine.UIElements", "PickingMode");

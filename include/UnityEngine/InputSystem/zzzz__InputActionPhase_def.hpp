@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem {
 struct InputActionPhase;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Disabled offset 0
-static ::UnityEngine::InputSystem::InputActionPhase const Disabled;
+static UnityEngine::InputSystem::InputActionPhase const Disabled;
 
 /// @brief Field Waiting offset 0
-static ::UnityEngine::InputSystem::InputActionPhase const Waiting;
+static UnityEngine::InputSystem::InputActionPhase const Waiting;
 
 /// @brief Field Started offset 0
-static ::UnityEngine::InputSystem::InputActionPhase const Started;
+static UnityEngine::InputSystem::InputActionPhase const Started;
 
 /// @brief Field Performed offset 0
-static ::UnityEngine::InputSystem::InputActionPhase const Performed;
+static UnityEngine::InputSystem::InputActionPhase const Performed;
 
 /// @brief Field Canceled offset 0
-static ::UnityEngine::InputSystem::InputActionPhase const Canceled;
+static UnityEngine::InputSystem::InputActionPhase const Canceled;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::InputActionPhase, "UnityEngine.InputSystem", "InputActionPhase");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::InputActionPhase, "UnityEngine.InputSystem", "InputActionPhase");

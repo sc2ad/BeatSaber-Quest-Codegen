@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 struct DateTimeOffset;
 }
@@ -23,11 +22,11 @@ class TryParseDelegate_1<T>;
 }
 namespace System::Net::Http::Headers {
 template<>
-class TryParseDelegate_1<::System::DateTimeOffset>;
+class TryParseDelegate_1<System::DateTimeOffset>;
 }
 namespace System::Net::Http::Headers {
 template<>
-class TryParseDelegate_1<::System::TimeSpan>;
+class TryParseDelegate_1<System::TimeSpan>;
 }
 namespace System::Net::Http::Headers {
 template<>
@@ -46,7 +45,7 @@ template<::cordl_internals::il2cpp_reference_type T>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14827)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14827), inst: 2 })
 // CS Name: System.Net.Http.Headers.TryParseDelegate`1
-class CORDL_TYPE TryParseDelegate_1<T> : public ::System::MulticastDelegate {
+class CORDL_TYPE TryParseDelegate_1<T> : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -61,7 +60,7 @@ constexpr TryParseDelegate_1(TryParseDelegate_1 const& ) noexcept = default;
 constexpr TryParseDelegate_1(TryParseDelegate_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TryParseDelegate_1(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit TryParseDelegate_1(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -103,7 +102,7 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610)), TypeDefinitionIndex(TypeDefinitionIndex(14827))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14827), inst: 92 })
 // CS Name: System.Net.Http.Headers.TryParseDelegate`1
-class CORDL_TYPE TryParseDelegate_1<int32_t> : public ::System::MulticastDelegate {
+class CORDL_TYPE TryParseDelegate_1<int32_t> : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -118,7 +117,7 @@ constexpr TryParseDelegate_1(TryParseDelegate_1 const& ) noexcept = default;
 constexpr TryParseDelegate_1(TryParseDelegate_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TryParseDelegate_1(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit TryParseDelegate_1(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -160,7 +159,7 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14827)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14827), inst: 830 })
 // CS Name: System.Net.Http.Headers.TryParseDelegate`1
-class CORDL_TYPE TryParseDelegate_1<int64_t> : public ::System::MulticastDelegate {
+class CORDL_TYPE TryParseDelegate_1<int64_t> : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -175,7 +174,7 @@ constexpr TryParseDelegate_1(TryParseDelegate_1 const& ) noexcept = default;
 constexpr TryParseDelegate_1(TryParseDelegate_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TryParseDelegate_1(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit TryParseDelegate_1(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -214,10 +213,10 @@ namespace System::Net::Http::Headers {
 // cpp template
 template<>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14827)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610)), TypeDefinitionIndex(TypeDefinitionIndex(14827))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14827), inst: 2596 })
 // CS Name: System.Net.Http.Headers.TryParseDelegate`1
-class CORDL_TYPE TryParseDelegate_1<::System::DateTimeOffset> : public ::System::MulticastDelegate {
+class CORDL_TYPE TryParseDelegate_1<System::DateTimeOffset> : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -232,7 +231,7 @@ constexpr TryParseDelegate_1(TryParseDelegate_1 const& ) noexcept = default;
 constexpr TryParseDelegate_1(TryParseDelegate_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TryParseDelegate_1(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit TryParseDelegate_1(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -260,7 +259,7 @@ explicit TryParseDelegate_1(::bs_hook::Il2CppWrapperType object, ::cordl_interna
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
- bool Invoke(::StringW value, ByRef<::System::DateTimeOffset> result) ;
+ bool Invoke(::StringW value, ByRef<System::DateTimeOffset> result) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -271,10 +270,10 @@ namespace System::Net::Http::Headers {
 // cpp template
 template<>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14827)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610)), TypeDefinitionIndex(TypeDefinitionIndex(14827))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14827), inst: 2605 })
 // CS Name: System.Net.Http.Headers.TryParseDelegate`1
-class CORDL_TYPE TryParseDelegate_1<::System::TimeSpan> : public ::System::MulticastDelegate {
+class CORDL_TYPE TryParseDelegate_1<System::TimeSpan> : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -289,7 +288,7 @@ constexpr TryParseDelegate_1(TryParseDelegate_1 const& ) noexcept = default;
 constexpr TryParseDelegate_1(TryParseDelegate_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TryParseDelegate_1(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit TryParseDelegate_1(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -317,11 +316,10 @@ explicit TryParseDelegate_1(::bs_hook::Il2CppWrapperType object, ::cordl_interna
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
- bool Invoke(::StringW value, ByRef<::System::TimeSpan> result) ;
+ bool Invoke(::StringW value, ByRef<System::TimeSpan> result) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Http::Headers
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Net::Http::Headers::TryParseDelegate_1, "System.Net.Http.Headers", "TryParseDelegate`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Net::Http::Headers::TryParseDelegate_1, "System.Net.Http.Headers", "TryParseDelegate`1");

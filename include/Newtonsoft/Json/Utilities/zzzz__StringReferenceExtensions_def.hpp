@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Newtonsoft::Json::Utilities {
 struct StringReference;
 }
@@ -54,18 +53,17 @@ constexpr explicit StringReferenceExtensions(void* ptr) noexcept : ::bs_hook::Il
 // Methods
 
 /// @brief Method IndexOf addr 0x24e3a48 size 0x84 virtual false final false
-static int32_t IndexOf(::Newtonsoft::Json::Utilities::StringReference s, char16_t c, int32_t startIndex, int32_t length) ;
+static int32_t IndexOf(Newtonsoft::Json::Utilities::StringReference s, char16_t c, int32_t startIndex, int32_t length) ;
 
 /// @brief Method StartsWith addr 0x24e3acc size 0xb4 virtual false final false
-static bool StartsWith(::Newtonsoft::Json::Utilities::StringReference s, ::StringW text) ;
+static bool StartsWith(Newtonsoft::Json::Utilities::StringReference s, ::StringW text) ;
 
 /// @brief Method EndsWith addr 0x24e3b80 size 0xb8 virtual false final false
-static bool EndsWith(::Newtonsoft::Json::Utilities::StringReference s, ::StringW text) ;
+static bool EndsWith(Newtonsoft::Json::Utilities::StringReference s, ::StringW text) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Utilities
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Utilities::StringReferenceExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::StringReferenceExtensions, "Newtonsoft.Json.Utilities", "StringReferenceExtensions");
+NEED_NO_BOX(Newtonsoft::Json::Utilities::StringReferenceExtensions);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::StringReferenceExtensions, "Newtonsoft.Json.Utilities", "StringReferenceExtensions");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace UnityEngine {
 struct KeyCode;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13823))
 // CS Name: ResetPlayerPrefsOnButton
-class CORDL_TYPE ResetPlayerPrefsOnButton : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ResetPlayerPrefsOnButton : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr ResetPlayerPrefsOnButton(ResetPlayerPrefsOnButton const& ) noexcept = 
 constexpr ResetPlayerPrefsOnButton(ResetPlayerPrefsOnButton&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ResetPlayerPrefsOnButton(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ResetPlayerPrefsOnButton(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit ResetPlayerPrefsOnButton(void* ptr) noexcept : ::UnityEngine:
 
 // Fields
 
- ::UnityEngine::KeyCode __declspec(property(get=__get__keyCode, put=__set__keyCode))  _keyCode;
+ UnityEngine::KeyCode __declspec(property(get=__get__keyCode, put=__set__keyCode))  _keyCode;
 
-constexpr void __set__keyCode(::UnityEngine::KeyCode value) ;
+constexpr void __set__keyCode(UnityEngine::KeyCode value) ;
 
-constexpr ::UnityEngine::KeyCode __get__keyCode() const;
+constexpr UnityEngine::KeyCode __get__keyCode() const;
 
 
 // Methods
@@ -73,6 +72,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ResetPlayerPrefsOnButton);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ResetPlayerPrefsOnButton, "", "ResetPlayerPrefsOnButton");
+NEED_NO_BOX(GlobalNamespace::ResetPlayerPrefsOnButton);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResetPlayerPrefsOnButton, "", "ResetPlayerPrefsOnButton");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 struct Color;
 }
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14703))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14688))
 // CS Name: EnableRendererWithLightId
-class CORDL_TYPE EnableRendererWithLightId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
+class CORDL_TYPE EnableRendererWithLightId : public GlobalNamespace::LightWithIdMonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr EnableRendererWithLightId(EnableRendererWithLightId const& ) noexcept 
 constexpr EnableRendererWithLightId(EnableRendererWithLightId&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EnableRendererWithLightId(void* ptr) noexcept : ::GlobalNamespace::LightWithIdMonoBehaviour(ptr) {
+constexpr explicit EnableRendererWithLightId(void* ptr) noexcept : GlobalNamespace::LightWithIdMonoBehaviour(ptr) {
 }
 
 
@@ -55,11 +54,11 @@ constexpr explicit EnableRendererWithLightId(void* ptr) noexcept : ::GlobalNames
 
 // Fields
 
- ::UnityEngine::Renderer __declspec(property(get=__get__renderer, put=__set__renderer))  _renderer;
+ UnityEngine::Renderer __declspec(property(get=__get__renderer, put=__set__renderer))  _renderer;
 
-constexpr void __set__renderer(::UnityEngine::Renderer value) ;
+constexpr void __set__renderer(UnityEngine::Renderer value) ;
 
-constexpr ::UnityEngine::Renderer __get__renderer() const;
+constexpr UnityEngine::Renderer __get__renderer() const;
 
  float_t __declspec(property(get=__get__hideAlphaRangeMin, put=__set__hideAlphaRangeMin))  _hideAlphaRangeMin;
 
@@ -77,7 +76,7 @@ constexpr float_t __get__hideAlphaRangeMax() const;
 // Methods
 
 /// @brief Method ColorWasSet addr 0x1f9ccf8 size 0x44 virtual true final false
- void ColorWasSet(::UnityEngine::Color color) ;
+ void ColorWasSet(UnityEngine::Color color) ;
 
 // Ctor Parameters []
 explicit EnableRendererWithLightId() ;
@@ -89,6 +88,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::EnableRendererWithLightId);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EnableRendererWithLightId, "", "EnableRendererWithLightId");
+NEED_NO_BOX(GlobalNamespace::EnableRendererWithLightId);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnableRendererWithLightId, "", "EnableRendererWithLightId");

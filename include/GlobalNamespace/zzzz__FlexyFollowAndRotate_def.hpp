@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 class Transform;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13800))
 // CS Name: FlexyFollowAndRotate
-class CORDL_TYPE FlexyFollowAndRotate : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE FlexyFollowAndRotate : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr FlexyFollowAndRotate(FlexyFollowAndRotate const& ) noexcept = default;
 constexpr FlexyFollowAndRotate(FlexyFollowAndRotate&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FlexyFollowAndRotate(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit FlexyFollowAndRotate(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -52,11 +51,11 @@ constexpr explicit FlexyFollowAndRotate(void* ptr) noexcept : ::UnityEngine::Mon
 
 // Fields
 
- ::UnityEngine::Transform __declspec(property(get=__get__target, put=__set__target))  _target;
+ UnityEngine::Transform __declspec(property(get=__get__target, put=__set__target))  _target;
 
-constexpr void __set__target(::UnityEngine::Transform value) ;
+constexpr void __set__target(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__target() const;
+constexpr UnityEngine::Transform __get__target() const;
 
  float_t __declspec(property(get=__get__smooth, put=__set__smooth))  _smooth;
 
@@ -80,6 +79,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::FlexyFollowAndRotate);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FlexyFollowAndRotate, "", "FlexyFollowAndRotate");
+NEED_NO_BOX(GlobalNamespace::FlexyFollowAndRotate);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlexyFollowAndRotate, "", "FlexyFollowAndRotate");

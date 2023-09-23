@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 struct Decimal;
 }
@@ -16,7 +15,7 @@ namespace System::Runtime::CompilerServices {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3360))
 // CS Name: System.Runtime.CompilerServices.DecimalConstantAttribute
-class CORDL_TYPE DecimalConstantAttribute : public ::System::Attribute {
+class CORDL_TYPE DecimalConstantAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr DecimalConstantAttribute(DecimalConstantAttribute const& ) noexcept = 
 constexpr DecimalConstantAttribute(DecimalConstantAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DecimalConstantAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit DecimalConstantAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -52,16 +51,16 @@ constexpr explicit DecimalConstantAttribute(void* ptr) noexcept : ::System::Attr
 
 // Fields
 
- ::System::Decimal __declspec(property(get=__get__dec, put=__set__dec))  _dec;
+ System::Decimal __declspec(property(get=__get__dec, put=__set__dec))  _dec;
 
-constexpr void __set__dec(::System::Decimal value) ;
+constexpr void __set__dec(System::Decimal value) ;
 
-constexpr ::System::Decimal __get__dec() const;
+constexpr System::Decimal __get__dec() const;
 
 
 // Properties
 
- ::System::Decimal __declspec(property(get=get_Value))  Value;
+ System::Decimal __declspec(property(get=get_Value))  Value;
 
 
 // Methods
@@ -73,12 +72,11 @@ explicit DecimalConstantAttribute(uint8_t scale, uint8_t sign, uint32_t hi, uint
  void _ctor(uint8_t scale, uint8_t sign, uint32_t hi, uint32_t mid, uint32_t low) ;
 
 /// @brief Method get_Value addr 0x236def8 size 0xc virtual false final false
- ::System::Decimal get_Value() ;
+ System::Decimal get_Value() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::CompilerServices
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::CompilerServices::DecimalConstantAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::DecimalConstantAttribute, "System.Runtime.CompilerServices", "DecimalConstantAttribute");
+NEED_NO_BOX(System::Runtime::CompilerServices::DecimalConstantAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::DecimalConstantAttribute, "System.Runtime.CompilerServices", "DecimalConstantAttribute");

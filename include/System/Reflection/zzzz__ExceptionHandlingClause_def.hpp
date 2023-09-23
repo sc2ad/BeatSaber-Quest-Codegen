@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-class Type;
-}
 namespace System::Reflection {
 struct ExceptionHandlingClauseOptions;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -56,11 +55,11 @@ constexpr explicit ExceptionHandlingClause(void* ptr) noexcept : ::bs_hook::Il2C
 
 // Fields
 
- ::System::Type __declspec(property(get=__get_catch_type, put=__set_catch_type))  catch_type;
+ System::Type __declspec(property(get=__get_catch_type, put=__set_catch_type))  catch_type;
 
-constexpr void __set_catch_type(::System::Type value) ;
+constexpr void __set_catch_type(System::Type value) ;
 
-constexpr ::System::Type __get_catch_type() const;
+constexpr System::Type __get_catch_type() const;
 
  int32_t __declspec(property(get=__get_filter_offset, put=__set_filter_offset))  filter_offset;
 
@@ -68,11 +67,11 @@ constexpr void __set_filter_offset(int32_t value) ;
 
 constexpr int32_t __get_filter_offset() const;
 
- ::System::Reflection::ExceptionHandlingClauseOptions __declspec(property(get=__get_flags, put=__set_flags))  flags;
+ System::Reflection::ExceptionHandlingClauseOptions __declspec(property(get=__get_flags, put=__set_flags))  flags;
 
-constexpr void __set_flags(::System::Reflection::ExceptionHandlingClauseOptions value) ;
+constexpr void __set_flags(System::Reflection::ExceptionHandlingClauseOptions value) ;
 
-constexpr ::System::Reflection::ExceptionHandlingClauseOptions __get_flags() const;
+constexpr System::Reflection::ExceptionHandlingClauseOptions __get_flags() const;
 
  int32_t __declspec(property(get=__get_try_offset, put=__set_try_offset))  try_offset;
 
@@ -114,6 +113,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Reflection
-} // end anonymous namespace
-NEED_NO_BOX(::System::Reflection::ExceptionHandlingClause);
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::ExceptionHandlingClause, "System.Reflection", "ExceptionHandlingClause");
+NEED_NO_BOX(System::Reflection::ExceptionHandlingClause);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ExceptionHandlingClause, "System.Reflection", "ExceptionHandlingClause");

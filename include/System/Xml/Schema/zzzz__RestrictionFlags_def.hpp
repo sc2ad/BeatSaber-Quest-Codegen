@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Xml::Schema {
 struct RestrictionFlags;
@@ -77,44 +76,43 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Length offset 0
-static ::System::Xml::Schema::RestrictionFlags const Length;
+static System::Xml::Schema::RestrictionFlags const Length;
 
 /// @brief Field MinLength offset 0
-static ::System::Xml::Schema::RestrictionFlags const MinLength;
+static System::Xml::Schema::RestrictionFlags const MinLength;
 
 /// @brief Field MaxLength offset 0
-static ::System::Xml::Schema::RestrictionFlags const MaxLength;
+static System::Xml::Schema::RestrictionFlags const MaxLength;
 
 /// @brief Field Pattern offset 0
-static ::System::Xml::Schema::RestrictionFlags const Pattern;
+static System::Xml::Schema::RestrictionFlags const Pattern;
 
 /// @brief Field Enumeration offset 0
-static ::System::Xml::Schema::RestrictionFlags const Enumeration;
+static System::Xml::Schema::RestrictionFlags const Enumeration;
 
 /// @brief Field WhiteSpace offset 0
-static ::System::Xml::Schema::RestrictionFlags const WhiteSpace;
+static System::Xml::Schema::RestrictionFlags const WhiteSpace;
 
 /// @brief Field MaxInclusive offset 0
-static ::System::Xml::Schema::RestrictionFlags const MaxInclusive;
+static System::Xml::Schema::RestrictionFlags const MaxInclusive;
 
 /// @brief Field MaxExclusive offset 0
-static ::System::Xml::Schema::RestrictionFlags const MaxExclusive;
+static System::Xml::Schema::RestrictionFlags const MaxExclusive;
 
 /// @brief Field MinInclusive offset 0
-static ::System::Xml::Schema::RestrictionFlags const MinInclusive;
+static System::Xml::Schema::RestrictionFlags const MinInclusive;
 
 /// @brief Field MinExclusive offset 0
-static ::System::Xml::Schema::RestrictionFlags const MinExclusive;
+static System::Xml::Schema::RestrictionFlags const MinExclusive;
 
 /// @brief Field TotalDigits offset 0
-static ::System::Xml::Schema::RestrictionFlags const TotalDigits;
+static System::Xml::Schema::RestrictionFlags const TotalDigits;
 
 /// @brief Field FractionDigits offset 0
-static ::System::Xml::Schema::RestrictionFlags const FractionDigits;
+static System::Xml::Schema::RestrictionFlags const FractionDigits;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::RestrictionFlags, "System.Xml.Schema", "RestrictionFlags");
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::RestrictionFlags, "System.Xml.Schema", "RestrictionFlags");

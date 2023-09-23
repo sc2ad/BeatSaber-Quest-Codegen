@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Collections::Generic {
 class ByteEqualityComparer;
@@ -12,10 +11,10 @@ class ByteEqualityComparer;
 // Type: System.Collections.Generic::ByteEqualityComparer
 namespace System::Collections::Generic {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3854), inst: 717 }), TypeDefinitionIndex(TypeDefinitionIndex(3854))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3854)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3854), inst: 717 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3858))
 // CS Name: System.Collections.Generic.ByteEqualityComparer
-class CORDL_TYPE ByteEqualityComparer : public ::System::Collections::Generic::EqualityComparer_1<uint8_t> {
+class CORDL_TYPE ByteEqualityComparer : public System::Collections::Generic::EqualityComparer_1<uint8_t> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr ByteEqualityComparer(ByteEqualityComparer const& ) noexcept = default;
 constexpr ByteEqualityComparer(ByteEqualityComparer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ByteEqualityComparer(void* ptr) noexcept : ::System::Collections::Generic::EqualityComparer_1<uint8_t>(ptr) {
+constexpr explicit ByteEqualityComparer(void* ptr) noexcept : System::Collections::Generic::EqualityComparer_1<uint8_t>(ptr) {
 }
 
 
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Collections::Generic
-} // end anonymous namespace
-NEED_NO_BOX(::System::Collections::Generic::ByteEqualityComparer);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Generic::ByteEqualityComparer, "System.Collections.Generic", "ByteEqualityComparer");
+NEED_NO_BOX(System::Collections::Generic::ByteEqualityComparer);
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::ByteEqualityComparer, "System.Collections.Generic", "ByteEqualityComparer");

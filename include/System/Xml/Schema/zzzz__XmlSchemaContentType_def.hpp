@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Xml::Schema {
 struct XmlSchemaContentType;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field TextOnly offset 0
-static ::System::Xml::Schema::XmlSchemaContentType const TextOnly;
+static System::Xml::Schema::XmlSchemaContentType const TextOnly;
 
 /// @brief Field Empty offset 0
-static ::System::Xml::Schema::XmlSchemaContentType const Empty;
+static System::Xml::Schema::XmlSchemaContentType const Empty;
 
 /// @brief Field ElementOnly offset 0
-static ::System::Xml::Schema::XmlSchemaContentType const ElementOnly;
+static System::Xml::Schema::XmlSchemaContentType const ElementOnly;
 
 /// @brief Field Mixed offset 0
-static ::System::Xml::Schema::XmlSchemaContentType const Mixed;
+static System::Xml::Schema::XmlSchemaContentType const Mixed;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlSchemaContentType, "System.Xml.Schema", "XmlSchemaContentType");
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::XmlSchemaContentType, "System.Xml.Schema", "XmlSchemaContentType");

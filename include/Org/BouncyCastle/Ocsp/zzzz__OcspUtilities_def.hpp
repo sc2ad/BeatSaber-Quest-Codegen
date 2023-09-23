@@ -2,9 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace System::Collections {
+class IDictionary;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -12,11 +14,8 @@ class IEnumerable;
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace System::Collections {
-class IDictionary;
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Ocsp {
@@ -64,43 +63,43 @@ constexpr explicit OcspUtilities(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 
 // Fields
 
-static ::System::Collections::IDictionary __declspec(property(get=__get_algorithms, put=__set_algorithms))  algorithms;
+static System::Collections::IDictionary __declspec(property(get=__get_algorithms, put=__set_algorithms))  algorithms;
 
-static void __set_algorithms(::System::Collections::IDictionary value) ;
+static void __set_algorithms(System::Collections::IDictionary value) ;
 
-static ::System::Collections::IDictionary __get_algorithms() ;
+static System::Collections::IDictionary __get_algorithms() ;
 
-static ::System::Collections::IDictionary __declspec(property(get=__get_oids, put=__set_oids))  oids;
+static System::Collections::IDictionary __declspec(property(get=__get_oids, put=__set_oids))  oids;
 
-static void __set_oids(::System::Collections::IDictionary value) ;
+static void __set_oids(System::Collections::IDictionary value) ;
 
-static ::System::Collections::IDictionary __get_oids() ;
+static System::Collections::IDictionary __get_oids() ;
 
-static ::Org::BouncyCastle::Utilities::Collections::ISet __declspec(property(get=__get_noParams, put=__set_noParams))  noParams;
+static Org::BouncyCastle::Utilities::Collections::ISet __declspec(property(get=__get_noParams, put=__set_noParams))  noParams;
 
-static void __set_noParams(::Org::BouncyCastle::Utilities::Collections::ISet value) ;
+static void __set_noParams(Org::BouncyCastle::Utilities::Collections::ISet value) ;
 
-static ::Org::BouncyCastle::Utilities::Collections::ISet __get_noParams() ;
+static Org::BouncyCastle::Utilities::Collections::ISet __get_noParams() ;
 
 
 // Properties
 
-static ::System::Collections::IEnumerable __declspec(property(get=get_AlgNames))  AlgNames;
+static System::Collections::IEnumerable __declspec(property(get=get_AlgNames))  AlgNames;
 
 
 // Methods
 
 /// @brief Method GetAlgorithmOid addr 0x10158b8 size 0x20c virtual false final false
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier GetAlgorithmOid(::StringW algorithmName) ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier GetAlgorithmOid(::StringW algorithmName) ;
 
 /// @brief Method GetAlgorithmName addr 0x100ffa4 size 0x198 virtual false final false
-static ::StringW GetAlgorithmName(::Org::BouncyCastle::Asn1::DerObjectIdentifier oid) ;
+static ::StringW GetAlgorithmName(Org::BouncyCastle::Asn1::DerObjectIdentifier oid) ;
 
 /// @brief Method GetSigAlgID addr 0x1012514 size 0x16c virtual false final false
-static ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier GetSigAlgID(::Org::BouncyCastle::Asn1::DerObjectIdentifier sigOid) ;
+static Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier GetSigAlgID(Org::BouncyCastle::Asn1::DerObjectIdentifier sigOid) ;
 
 /// @brief Method get_AlgNames addr 0x1012818 size 0x10c virtual false final false
-static ::System::Collections::IEnumerable get_AlgNames() ;
+static System::Collections::IEnumerable get_AlgNames() ;
 
 // Ctor Parameters []
 explicit OcspUtilities() ;
@@ -112,6 +111,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Ocsp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Ocsp::OcspUtilities);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Ocsp::OcspUtilities, "Org.BouncyCastle.Ocsp", "OcspUtilities");
+NEED_NO_BOX(Org::BouncyCastle::Ocsp::OcspUtilities);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Ocsp::OcspUtilities, "Org.BouncyCastle.Ocsp", "OcspUtilities");

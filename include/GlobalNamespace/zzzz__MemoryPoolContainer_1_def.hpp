@@ -1,7 +1,10 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
+namespace GlobalNamespace {
+template<typename T>
+class LazyCopyHashSet_1;
+}
 namespace Zenject {
 template<typename TValue>
 class IMemoryPool_1;
@@ -9,10 +12,6 @@ class IMemoryPool_1;
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace GlobalNamespace {
-template<typename T>
-class LazyCopyHashSet_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -68,34 +67,34 @@ constexpr explicit MemoryPoolContainer_1(void* ptr) noexcept : ::bs_hook::Il2Cpp
 
 // Fields
 
- ::GlobalNamespace::LazyCopyHashSet_1<T> __declspec(property(get=__get__activeItems, put=__set__activeItems))  _activeItems;
+ GlobalNamespace::LazyCopyHashSet_1<T> __declspec(property(get=__get__activeItems, put=__set__activeItems))  _activeItems;
 
-constexpr void __set__activeItems(::GlobalNamespace::LazyCopyHashSet_1<T> value) ;
+constexpr void __set__activeItems(GlobalNamespace::LazyCopyHashSet_1<T> value) ;
 
-constexpr ::GlobalNamespace::LazyCopyHashSet_1<T> __get__activeItems() const;
+constexpr GlobalNamespace::LazyCopyHashSet_1<T> __get__activeItems() const;
 
- ::Zenject::IMemoryPool_1<T> __declspec(property(get=__get__memoryPool, put=__set__memoryPool))  _memoryPool;
+ Zenject::IMemoryPool_1<T> __declspec(property(get=__get__memoryPool, put=__set__memoryPool))  _memoryPool;
 
-constexpr void __set__memoryPool(::Zenject::IMemoryPool_1<T> value) ;
+constexpr void __set__memoryPool(Zenject::IMemoryPool_1<T> value) ;
 
-constexpr ::Zenject::IMemoryPool_1<T> __get__memoryPool() const;
+constexpr Zenject::IMemoryPool_1<T> __get__memoryPool() const;
 
 
 // Properties
 
- ::System::Collections::Generic::List_1<T> __declspec(property(get=get_activeItems))  activeItems;
+ System::Collections::Generic::List_1<T> __declspec(property(get=get_activeItems))  activeItems;
 
 
 // Methods
 
 /// @brief Method get_activeItems addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Collections::Generic::List_1<T> get_activeItems() ;
+ System::Collections::Generic::List_1<T> get_activeItems() ;
 
-// Ctor Parameters [CppParam { name: "memoryPool", ty: "::Zenject::IMemoryPool_1<T>", modifiers: "", def_value: None }]
-explicit MemoryPoolContainer_1(::Zenject::IMemoryPool_1<T> memoryPool) ;
+// Ctor Parameters [CppParam { name: "memoryPool", ty: "Zenject::IMemoryPool_1<T>", modifiers: "", def_value: None }]
+explicit MemoryPoolContainer_1(Zenject::IMemoryPool_1<T> memoryPool) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::Zenject::IMemoryPool_1<T> memoryPool) ;
+ void _ctor(Zenject::IMemoryPool_1<T> memoryPool) ;
 
 /// @brief Method Spawn addr 0x0 size 0xffffffffffffffff virtual false final false
  T Spawn() ;
@@ -107,5 +106,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::MemoryPoolContainer_1, "", "MemoryPoolContainer`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::MemoryPoolContainer_1, "", "MemoryPoolContainer`1");

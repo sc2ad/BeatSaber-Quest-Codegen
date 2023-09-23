@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Net::Cache {
 struct RequestCacheLevel;
 }
@@ -52,28 +51,28 @@ constexpr explicit RequestCachePolicy(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Fields
 
- ::System::Net::Cache::RequestCacheLevel __declspec(property(get=__get_m_Level, put=__set_m_Level))  m_Level;
+ System::Net::Cache::RequestCacheLevel __declspec(property(get=__get_m_Level, put=__set_m_Level))  m_Level;
 
-constexpr void __set_m_Level(::System::Net::Cache::RequestCacheLevel value) ;
+constexpr void __set_m_Level(System::Net::Cache::RequestCacheLevel value) ;
 
-constexpr ::System::Net::Cache::RequestCacheLevel __get_m_Level() const;
+constexpr System::Net::Cache::RequestCacheLevel __get_m_Level() const;
 
 
 // Properties
 
- ::System::Net::Cache::RequestCacheLevel __declspec(property(get=get_Level))  Level;
+ System::Net::Cache::RequestCacheLevel __declspec(property(get=get_Level))  Level;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "level", ty: "::System::Net::Cache::RequestCacheLevel", modifiers: "", def_value: None }]
-explicit RequestCachePolicy(::System::Net::Cache::RequestCacheLevel level) ;
+// Ctor Parameters [CppParam { name: "level", ty: "System::Net::Cache::RequestCacheLevel", modifiers: "", def_value: None }]
+explicit RequestCachePolicy(System::Net::Cache::RequestCacheLevel level) ;
 
 /// @brief Method .ctor addr 0x285ec94 size 0x7c virtual false final false
- void _ctor(::System::Net::Cache::RequestCacheLevel level) ;
+ void _ctor(System::Net::Cache::RequestCacheLevel level) ;
 
 /// @brief Method get_Level addr 0x285eda4 size 0x8 virtual false final false
- ::System::Net::Cache::RequestCacheLevel get_Level() ;
+ System::Net::Cache::RequestCacheLevel get_Level() ;
 
 /// @brief Method ToString addr 0x285edac size 0x98 virtual true final false
  ::StringW ToString() ;
@@ -82,6 +81,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Cache
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Cache::RequestCachePolicy);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Cache::RequestCachePolicy, "System.Net.Cache", "RequestCachePolicy");
+NEED_NO_BOX(System::Net::Cache::RequestCachePolicy);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Cache::RequestCachePolicy, "System.Net.Cache", "RequestCachePolicy");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityOpus {
 struct ErrorCode;
@@ -73,32 +72,31 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field OK offset 0
-static ::UnityOpus::ErrorCode const OK;
+static UnityOpus::ErrorCode const OK;
 
 /// @brief Field BadArg offset 0
-static ::UnityOpus::ErrorCode const BadArg;
+static UnityOpus::ErrorCode const BadArg;
 
 /// @brief Field BufferTooSmall offset 0
-static ::UnityOpus::ErrorCode const BufferTooSmall;
+static UnityOpus::ErrorCode const BufferTooSmall;
 
 /// @brief Field InternalError offset 0
-static ::UnityOpus::ErrorCode const InternalError;
+static UnityOpus::ErrorCode const InternalError;
 
 /// @brief Field InvalidPacket offset 0
-static ::UnityOpus::ErrorCode const InvalidPacket;
+static UnityOpus::ErrorCode const InvalidPacket;
 
 /// @brief Field Unimplemented offset 0
-static ::UnityOpus::ErrorCode const Unimplemented;
+static UnityOpus::ErrorCode const Unimplemented;
 
 /// @brief Field InvalidState offset 0
-static ::UnityOpus::ErrorCode const InvalidState;
+static UnityOpus::ErrorCode const InvalidState;
 
 /// @brief Field AllocFail offset 0
-static ::UnityOpus::ErrorCode const AllocFail;
+static UnityOpus::ErrorCode const AllocFail;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityOpus
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityOpus::ErrorCode, "UnityOpus", "ErrorCode");
+DEFINE_IL2CPP_ARG_TYPE(UnityOpus::ErrorCode, "UnityOpus", "ErrorCode");

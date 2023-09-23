@@ -2,7 +2,6 @@
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class PreCompInfo;
 }
@@ -22,8 +21,8 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
 class CORDL_TYPE WTauNafPreCompInfo : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo
-constexpr operator  ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo
+constexpr operator  Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -58,25 +57,25 @@ constexpr explicit WTauNafPreCompInfo(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Fields
 
- ::ArrayW<::Org::BouncyCastle::Math::EC::AbstractF2mPoint> __declspec(property(get=__get_m_preComp, put=__set_m_preComp))  m_preComp;
+ ::ArrayW<Org::BouncyCastle::Math::EC::AbstractF2mPoint> __declspec(property(get=__get_m_preComp, put=__set_m_preComp))  m_preComp;
 
-constexpr void __set_m_preComp(::ArrayW<::Org::BouncyCastle::Math::EC::AbstractF2mPoint> value) ;
+constexpr void __set_m_preComp(::ArrayW<Org::BouncyCastle::Math::EC::AbstractF2mPoint> value) ;
 
-constexpr ::ArrayW<::Org::BouncyCastle::Math::EC::AbstractF2mPoint> __get_m_preComp() const;
+constexpr ::ArrayW<Org::BouncyCastle::Math::EC::AbstractF2mPoint> __get_m_preComp() const;
 
 
 // Properties
 
- ::ArrayW<::Org::BouncyCastle::Math::EC::AbstractF2mPoint> __declspec(property(get=get_PreComp, put=set_PreComp))  PreComp;
+ ::ArrayW<Org::BouncyCastle::Math::EC::AbstractF2mPoint> __declspec(property(get=get_PreComp, put=set_PreComp))  PreComp;
 
 
 // Methods
 
 /// @brief Method get_PreComp addr 0xfadc44 size 0x8 virtual true final false
- ::ArrayW<::Org::BouncyCastle::Math::EC::AbstractF2mPoint> get_PreComp() ;
+ ::ArrayW<Org::BouncyCastle::Math::EC::AbstractF2mPoint> get_PreComp() ;
 
 /// @brief Method set_PreComp addr 0xfadc4c size 0x8 virtual true final false
- void set_PreComp(::ArrayW<::Org::BouncyCastle::Math::EC::AbstractF2mPoint> value) ;
+ void set_PreComp(::ArrayW<Org::BouncyCastle::Math::EC::AbstractF2mPoint> value) ;
 
 // Ctor Parameters []
 explicit WTauNafPreCompInfo() ;
@@ -88,6 +87,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Math::EC::Multiplier
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo, "Org.BouncyCastle.Math.EC.Multiplier", "WTauNafPreCompInfo");
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo, "Org.BouncyCastle.Math.EC.Multiplier", "WTauNafPreCompInfo");

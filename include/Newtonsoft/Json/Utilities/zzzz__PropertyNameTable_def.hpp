@@ -4,13 +4,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
-class PropertyNameTable;
+class Newtonsoft__Json__Utilities__PropertyNameTable__Entry;
 }
 namespace Newtonsoft::Json::Utilities {
-class ____Newtonsoft__Json__Utilities__PropertyNameTable__Entry;
+class PropertyNameTable;
 }
 // Type: ::Entry
 namespace Newtonsoft::Json::Utilities {
@@ -18,37 +17,37 @@ namespace Newtonsoft::Json::Utilities {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11791))
 // CS Name: Newtonsoft.Json.Utilities.PropertyNameTable::Entry
-class CORDL_TYPE ____Newtonsoft__Json__Utilities__PropertyNameTable__Entry : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Newtonsoft__Json__Utilities__PropertyNameTable__Entry : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____Newtonsoft__Json__Utilities__PropertyNameTable__Entry() = default;
+virtual ~Newtonsoft__Json__Utilities__PropertyNameTable__Entry() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Newtonsoft__Json__Utilities__PropertyNameTable__Entry", modifiers: " const&", def_value: None }]
-constexpr ____Newtonsoft__Json__Utilities__PropertyNameTable__Entry(____Newtonsoft__Json__Utilities__PropertyNameTable__Entry const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Newtonsoft__Json__Utilities__PropertyNameTable__Entry", modifiers: " const&", def_value: None }]
+constexpr Newtonsoft__Json__Utilities__PropertyNameTable__Entry(Newtonsoft__Json__Utilities__PropertyNameTable__Entry const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Newtonsoft__Json__Utilities__PropertyNameTable__Entry", modifiers: "&&", def_value: None }]
-constexpr ____Newtonsoft__Json__Utilities__PropertyNameTable__Entry(____Newtonsoft__Json__Utilities__PropertyNameTable__Entry&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Newtonsoft__Json__Utilities__PropertyNameTable__Entry", modifiers: "&&", def_value: None }]
+constexpr Newtonsoft__Json__Utilities__PropertyNameTable__Entry(Newtonsoft__Json__Utilities__PropertyNameTable__Entry&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Newtonsoft__Json__Utilities__PropertyNameTable__Entry(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Newtonsoft__Json__Utilities__PropertyNameTable__Entry(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Newtonsoft__Json__Utilities__PropertyNameTable__Entry& operator=(std::nullptr_t) noexcept {
+  constexpr Newtonsoft__Json__Utilities__PropertyNameTable__Entry& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Newtonsoft__Json__Utilities__PropertyNameTable__Entry& operator=(void* o) noexcept {
+  constexpr Newtonsoft__Json__Utilities__PropertyNameTable__Entry& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Newtonsoft__Json__Utilities__PropertyNameTable__Entry& operator=(____Newtonsoft__Json__Utilities__PropertyNameTable__Entry&& o) noexcept = default;
-  constexpr ____Newtonsoft__Json__Utilities__PropertyNameTable__Entry& operator=(____Newtonsoft__Json__Utilities__PropertyNameTable__Entry const& o) noexcept = default;
+  constexpr Newtonsoft__Json__Utilities__PropertyNameTable__Entry& operator=(Newtonsoft__Json__Utilities__PropertyNameTable__Entry&& o) noexcept = default;
+  constexpr Newtonsoft__Json__Utilities__PropertyNameTable__Entry& operator=(Newtonsoft__Json__Utilities__PropertyNameTable__Entry const& o) noexcept = default;
                 
 
 
@@ -66,20 +65,20 @@ constexpr void __set_HashCode(int32_t value) ;
 
 constexpr int32_t __get_HashCode() const;
 
- ::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__PropertyNameTable__Entry __declspec(property(get=__get_Next, put=__set_Next))  Next;
+ Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__PropertyNameTable__Entry __declspec(property(get=__get_Next, put=__set_Next))  Next;
 
-constexpr void __set_Next(::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__PropertyNameTable__Entry value) ;
+constexpr void __set_Next(Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__PropertyNameTable__Entry value) ;
 
-constexpr ::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__PropertyNameTable__Entry __get_Next() const;
+constexpr Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__PropertyNameTable__Entry __get_Next() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "next", ty: "::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__PropertyNameTable__Entry", modifiers: "", def_value: None }]
-explicit ____Newtonsoft__Json__Utilities__PropertyNameTable__Entry(::StringW value, int32_t hashCode, ::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__PropertyNameTable__Entry next) ;
+// Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "next", ty: "Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__PropertyNameTable__Entry", modifiers: "", def_value: None }]
+explicit Newtonsoft__Json__Utilities__PropertyNameTable__Entry(::StringW value, int32_t hashCode, Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__PropertyNameTable__Entry next) ;
 
 /// @brief Method .ctor addr 0x24e2340 size 0x40 virtual false final false
- void _ctor(::StringW value, int32_t hashCode, ::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__PropertyNameTable__Entry next) ;
+ void _ctor(::StringW value, int32_t hashCode, Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__PropertyNameTable__Entry next) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -94,7 +93,7 @@ namespace Newtonsoft::Json::Utilities {
 class CORDL_TYPE PropertyNameTable : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using Entry = ::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__PropertyNameTable__Entry;
+using Entry = Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__PropertyNameTable__Entry;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -141,11 +140,11 @@ constexpr void __set__count(int32_t value) ;
 
 constexpr int32_t __get__count() const;
 
- ::ArrayW<::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__PropertyNameTable__Entry> __declspec(property(get=__get__entries, put=__set__entries))  _entries;
+ ::ArrayW<Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__PropertyNameTable__Entry> __declspec(property(get=__get__entries, put=__set__entries))  _entries;
 
-constexpr void __set__entries(::ArrayW<::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__PropertyNameTable__Entry> value) ;
+constexpr void __set__entries(::ArrayW<Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__PropertyNameTable__Entry> value) ;
 
-constexpr ::ArrayW<::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__PropertyNameTable__Entry> __get__entries() const;
+constexpr ::ArrayW<Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__PropertyNameTable__Entry> __get__entries() const;
 
  int32_t __declspec(property(get=__get__mask, put=__set__mask))  _mask;
 
@@ -181,8 +180,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Utilities
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Utilities::PropertyNameTable);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::PropertyNameTable, "Newtonsoft.Json.Utilities", "PropertyNameTable");
-NEED_NO_BOX(::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__PropertyNameTable__Entry);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::____Newtonsoft__Json__Utilities__PropertyNameTable__Entry, "Newtonsoft.Json.Utilities", "PropertyNameTable/Entry");
+NEED_NO_BOX(Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__PropertyNameTable__Entry);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__PropertyNameTable__Entry, "Newtonsoft.Json.Utilities", "PropertyNameTable/Entry");
+NEED_NO_BOX(Newtonsoft::Json::Utilities::PropertyNameTable);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::PropertyNameTable, "Newtonsoft.Json.Utilities", "PropertyNameTable");

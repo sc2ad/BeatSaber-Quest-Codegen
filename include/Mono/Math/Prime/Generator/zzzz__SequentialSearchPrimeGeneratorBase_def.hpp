@@ -3,7 +3,6 @@
 #include "Mono/Math/Prime/Generator/zzzz__PrimeGeneratorBase_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace Mono::Math {
 class BigInteger;
 }
@@ -14,10 +13,10 @@ class SequentialSearchPrimeGeneratorBase;
 // Type: Mono.Math.Prime.Generator::SequentialSearchPrimeGeneratorBase
 namespace Mono::Math::Prime::Generator {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2294))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2295))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14022))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14023))
 // CS Name: Mono.Math.Prime.Generator.SequentialSearchPrimeGeneratorBase
-class CORDL_TYPE SequentialSearchPrimeGeneratorBase : public ::Mono::Math::Prime::Generator::PrimeGeneratorBase {
+class CORDL_TYPE SequentialSearchPrimeGeneratorBase : public Mono::Math::Prime::Generator::PrimeGeneratorBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr SequentialSearchPrimeGeneratorBase(SequentialSearchPrimeGeneratorBase 
 constexpr SequentialSearchPrimeGeneratorBase(SequentialSearchPrimeGeneratorBase&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SequentialSearchPrimeGeneratorBase(void* ptr) noexcept : ::Mono::Math::Prime::Generator::PrimeGeneratorBase(ptr) {
+constexpr explicit SequentialSearchPrimeGeneratorBase(void* ptr) noexcept : Mono::Math::Prime::Generator::PrimeGeneratorBase(ptr) {
 }
 
 
@@ -53,28 +52,27 @@ constexpr explicit SequentialSearchPrimeGeneratorBase(void* ptr) noexcept : ::Mo
 
 // Methods
 
-/// @brief Method GenerateSearchBase addr 0x22be480 size 0x74 virtual true final false
- ::Mono::Math::BigInteger GenerateSearchBase(int32_t bits, ::bs_hook::Il2CppWrapperType context) ;
+/// @brief Method GenerateSearchBase addr 0x22a2df0 size 0x74 virtual true final false
+ Mono::Math::BigInteger GenerateSearchBase(int32_t bits, ::bs_hook::Il2CppWrapperType context) ;
 
-/// @brief Method GenerateNewPrime addr 0x22be4f4 size 0x10 virtual true final false
- ::Mono::Math::BigInteger GenerateNewPrime(int32_t bits) ;
+/// @brief Method GenerateNewPrime addr 0x22a2e64 size 0x10 virtual true final false
+ Mono::Math::BigInteger GenerateNewPrime(int32_t bits) ;
 
-/// @brief Method GenerateNewPrime addr 0x22be504 size 0x2e4 virtual true final false
- ::Mono::Math::BigInteger GenerateNewPrime(int32_t bits, ::bs_hook::Il2CppWrapperType context) ;
+/// @brief Method GenerateNewPrime addr 0x22a2e74 size 0x2e4 virtual true final false
+ Mono::Math::BigInteger GenerateNewPrime(int32_t bits, ::bs_hook::Il2CppWrapperType context) ;
 
-/// @brief Method IsPrimeAcceptable addr 0x22be7e8 size 0x8 virtual true final false
- bool IsPrimeAcceptable(::Mono::Math::BigInteger bi, ::bs_hook::Il2CppWrapperType context) ;
+/// @brief Method IsPrimeAcceptable addr 0x22a3158 size 0x8 virtual true final false
+ bool IsPrimeAcceptable(Mono::Math::BigInteger bi, ::bs_hook::Il2CppWrapperType context) ;
 
 // Ctor Parameters []
 explicit SequentialSearchPrimeGeneratorBase() ;
 
-/// @brief Method .ctor addr 0x22bcf9c size 0x8 virtual false final false
+/// @brief Method .ctor addr 0x22a1ad8 size 0x8 virtual false final false
  void _ctor() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Math::Prime::Generator
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase, "Mono.Math.Prime.Generator", "SequentialSearchPrimeGeneratorBase");
+NEED_NO_BOX(Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase, "Mono.Math.Prime.Generator", "SequentialSearchPrimeGeneratorBase");

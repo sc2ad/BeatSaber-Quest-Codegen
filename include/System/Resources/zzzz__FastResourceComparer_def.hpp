@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections {
 class IEqualityComparer;
 }
@@ -12,12 +11,12 @@ namespace System::Collections::Generic {
 template<typename T>
 class IComparer_1;
 }
-namespace System::Collections {
-class IComparer;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEqualityComparer_1;
+}
+namespace System::Collections {
+class IComparer;
 }
 // Forward declare root types
 namespace System::Resources {
@@ -32,17 +31,17 @@ namespace System::Resources {
 class CORDL_TYPE FastResourceComparer : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::IComparer
-constexpr operator  ::System::Collections::IComparer() const noexcept;
+/// @brief Convert operator to System::Collections::IComparer
+constexpr operator  System::Collections::IComparer() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEqualityComparer
-constexpr operator  ::System::Collections::IEqualityComparer() const noexcept;
+/// @brief Convert operator to System::Collections::IEqualityComparer
+constexpr operator  System::Collections::IEqualityComparer() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::Generic::IComparer_1<::StringW>
-constexpr operator  ::System::Collections::Generic::IComparer_1<::StringW>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IComparer_1<::StringW>
+constexpr operator  System::Collections::Generic::IComparer_1<::StringW>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::Generic::IEqualityComparer_1<::StringW>
-constexpr operator  ::System::Collections::Generic::IEqualityComparer_1<::StringW>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEqualityComparer_1<::StringW>
+constexpr operator  System::Collections::Generic::IEqualityComparer_1<::StringW>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -77,11 +76,11 @@ constexpr explicit FastResourceComparer(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 // Fields
 
-static ::System::Resources::FastResourceComparer __declspec(property(get=__get_Default, put=__set_Default))  Default;
+static System::Resources::FastResourceComparer __declspec(property(get=__get_Default, put=__set_Default))  Default;
 
-static void __set_Default(::System::Resources::FastResourceComparer value) ;
+static void __set_Default(System::Resources::FastResourceComparer value) ;
 
-static ::System::Resources::FastResourceComparer __get_Default() ;
+static System::Resources::FastResourceComparer __get_Default() ;
 
 
 // Methods
@@ -126,6 +125,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Resources
-} // end anonymous namespace
-NEED_NO_BOX(::System::Resources::FastResourceComparer);
-DEFINE_IL2CPP_ARG_TYPE(::System::Resources::FastResourceComparer, "System.Resources", "FastResourceComparer");
+NEED_NO_BOX(System::Resources::FastResourceComparer);
+DEFINE_IL2CPP_ARG_TYPE(System::Resources::FastResourceComparer, "System.Resources", "FastResourceComparer");

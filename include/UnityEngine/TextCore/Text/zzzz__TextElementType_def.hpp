@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
 struct TextElementType;
@@ -67,14 +66,13 @@ constexpr void __set_value__(uint8_t value) ;
 constexpr uint8_t __get_value__() const;
 
 /// @brief Field Character offset 0
-static ::UnityEngine::TextCore::Text::TextElementType const Character;
+static UnityEngine::TextCore::Text::TextElementType const Character;
 
 /// @brief Field Sprite offset 0
-static ::UnityEngine::TextCore::Text::TextElementType const Sprite;
+static UnityEngine::TextCore::Text::TextElementType const Sprite;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::Text
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::TextElementType, "UnityEngine.TextCore.Text", "TextElementType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Text::TextElementType, "UnityEngine.TextCore.Text", "TextElementType");

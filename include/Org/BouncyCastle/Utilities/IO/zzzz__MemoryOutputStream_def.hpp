@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "System/IO/zzzz__MemoryStream_def.hpp"
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::IO {
 class MemoryOutputStream;
@@ -12,7 +11,7 @@ namespace Org::BouncyCastle::Utilities::IO {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1809))
 // CS Name: Org.BouncyCastle.Utilities.IO.MemoryOutputStream
-class CORDL_TYPE MemoryOutputStream : public ::System::IO::MemoryStream {
+class CORDL_TYPE MemoryOutputStream : public System::IO::MemoryStream {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr MemoryOutputStream(MemoryOutputStream const& ) noexcept = default;
 constexpr MemoryOutputStream(MemoryOutputStream&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MemoryOutputStream(void* ptr) noexcept : ::System::IO::MemoryStream(ptr) {
+constexpr explicit MemoryOutputStream(void* ptr) noexcept : System::IO::MemoryStream(ptr) {
 }
 
 
@@ -66,6 +65,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities::IO
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::IO::MemoryOutputStream);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::IO::MemoryOutputStream, "Org.BouncyCastle.Utilities.IO", "MemoryOutputStream");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::IO::MemoryOutputStream);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::MemoryOutputStream, "Org.BouncyCastle.Utilities.IO", "MemoryOutputStream");

@@ -3,16 +3,15 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace GlobalNamespace {
+struct PoseSerializable;
+}
 namespace GlobalNamespace {
 template<typename TStateTable,typename TType,typename TState>
 class StateBuffer_3;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
-}
-namespace GlobalNamespace {
-struct PoseSerializable;
 }
 namespace GlobalNamespace {
 struct NodePoseSyncState;
@@ -30,11 +29,11 @@ class MultiplayerSyncState_3;
 }
 namespace GlobalNamespace {
 template<>
-class MultiplayerSyncState_3<::GlobalNamespace::NodePoseSyncState,::System::Int32Enum,::GlobalNamespace::PoseSerializable>;
+class MultiplayerSyncState_3<GlobalNamespace::NodePoseSyncState,System::Int32Enum,GlobalNamespace::PoseSerializable>;
 }
 namespace GlobalNamespace {
 template<>
-class MultiplayerSyncState_3<::GlobalNamespace::StandardScoreSyncState,::System::Int32Enum,int32_t>;
+class MultiplayerSyncState_3<GlobalNamespace::StandardScoreSyncState,System::Int32Enum,int32_t>;
 }
 // Type: ::MultiplayerSyncState`3
 // Type: ::MultiplayerSyncState`3
@@ -45,7 +44,7 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4558))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4558), inst: 4981 })
 // CS Name: MultiplayerSyncState`3
-class CORDL_TYPE MultiplayerSyncState_3<::GlobalNamespace::NodePoseSyncState,::System::Int32Enum,::GlobalNamespace::PoseSerializable> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE MultiplayerSyncState_3<GlobalNamespace::NodePoseSyncState,System::Int32Enum,GlobalNamespace::PoseSerializable> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -81,27 +80,27 @@ constexpr explicit MultiplayerSyncState_3(void* ptr) noexcept : ::bs_hook::Il2Cp
 
 // Properties
 
- ::GlobalNamespace::StateBuffer_3<::GlobalNamespace::NodePoseSyncState,::System::Int32Enum,::GlobalNamespace::PoseSerializable> __declspec(property(get=get_stateBuffer))  stateBuffer;
+ GlobalNamespace::StateBuffer_3<GlobalNamespace::NodePoseSyncState,System::Int32Enum,GlobalNamespace::PoseSerializable> __declspec(property(get=get_stateBuffer))  stateBuffer;
 
- ::GlobalNamespace::IConnectedPlayer __declspec(property(get=get_player))  player;
+ GlobalNamespace::IConnectedPlayer __declspec(property(get=get_player))  player;
 
 
 // Methods
 
 /// @brief Method get_stateBuffer addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::StateBuffer_3<::GlobalNamespace::NodePoseSyncState,::System::Int32Enum,::GlobalNamespace::PoseSerializable> get_stateBuffer() ;
+ GlobalNamespace::StateBuffer_3<GlobalNamespace::NodePoseSyncState,System::Int32Enum,GlobalNamespace::PoseSerializable> get_stateBuffer() ;
 
 /// @brief Method get_player addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::IConnectedPlayer get_player() ;
+ GlobalNamespace::IConnectedPlayer get_player() ;
 
 /// @brief Method GetLatestTime addr 0x0 size 0xffffffffffffffff virtual false final false
  float_t GetLatestTime() ;
 
 /// @brief Method GetLatestState addr 0x0 size 0xffffffffffffffff virtual false final false
- ::GlobalNamespace::PoseSerializable GetLatestState(::System::Int32Enum type) ;
+ GlobalNamespace::PoseSerializable GetLatestState(System::Int32Enum type) ;
 
 /// @brief Method GetState addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::PoseSerializable GetState(::System::Int32Enum type, float_t time) ;
+ GlobalNamespace::PoseSerializable GetState(System::Int32Enum type, float_t time) ;
 
 /// @brief Method ClearBufferedStates addr 0x0 size 0xffffffffffffffff virtual false final false
  void ClearBufferedStates() ;
@@ -124,7 +123,7 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4558))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4558), inst: 4982 })
 // CS Name: MultiplayerSyncState`3
-class CORDL_TYPE MultiplayerSyncState_3<::GlobalNamespace::StandardScoreSyncState,::System::Int32Enum,int32_t> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE MultiplayerSyncState_3<GlobalNamespace::StandardScoreSyncState,System::Int32Enum,int32_t> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -160,27 +159,27 @@ constexpr explicit MultiplayerSyncState_3(void* ptr) noexcept : ::bs_hook::Il2Cp
 
 // Properties
 
- ::GlobalNamespace::StateBuffer_3<::GlobalNamespace::StandardScoreSyncState,::System::Int32Enum,int32_t> __declspec(property(get=get_stateBuffer))  stateBuffer;
+ GlobalNamespace::StateBuffer_3<GlobalNamespace::StandardScoreSyncState,System::Int32Enum,int32_t> __declspec(property(get=get_stateBuffer))  stateBuffer;
 
- ::GlobalNamespace::IConnectedPlayer __declspec(property(get=get_player))  player;
+ GlobalNamespace::IConnectedPlayer __declspec(property(get=get_player))  player;
 
 
 // Methods
 
 /// @brief Method get_stateBuffer addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::StateBuffer_3<::GlobalNamespace::StandardScoreSyncState,::System::Int32Enum,int32_t> get_stateBuffer() ;
+ GlobalNamespace::StateBuffer_3<GlobalNamespace::StandardScoreSyncState,System::Int32Enum,int32_t> get_stateBuffer() ;
 
 /// @brief Method get_player addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::IConnectedPlayer get_player() ;
+ GlobalNamespace::IConnectedPlayer get_player() ;
 
 /// @brief Method GetLatestTime addr 0x0 size 0xffffffffffffffff virtual false final false
  float_t GetLatestTime() ;
 
 /// @brief Method GetLatestState addr 0x0 size 0xffffffffffffffff virtual false final false
- int32_t GetLatestState(::System::Int32Enum type) ;
+ int32_t GetLatestState(System::Int32Enum type) ;
 
 /// @brief Method GetState addr 0x0 size 0xffffffffffffffff virtual true final false
- int32_t GetState(::System::Int32Enum type, float_t time) ;
+ int32_t GetState(System::Int32Enum type, float_t time) ;
 
 /// @brief Method ClearBufferedStates addr 0x0 size 0xffffffffffffffff virtual false final false
  void ClearBufferedStates() ;
@@ -195,5 +194,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::MultiplayerSyncState_3, "", "MultiplayerSyncState`3");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::MultiplayerSyncState_3, "", "MultiplayerSyncState`3");

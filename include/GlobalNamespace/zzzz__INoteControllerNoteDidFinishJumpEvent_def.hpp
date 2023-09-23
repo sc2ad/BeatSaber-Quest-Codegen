@@ -1,6 +1,5 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace GlobalNamespace {
 class NoteController;
 }
@@ -27,12 +26,11 @@ constexpr explicit INoteControllerNoteDidFinishJumpEvent(void* ptr) noexcept : :
 // Methods
 
 /// @brief Method HandleNoteControllerNoteDidFinishJump addr 0x0 size 0xffffffffffffffff virtual true final false
- void HandleNoteControllerNoteDidFinishJump(::GlobalNamespace::NoteController noteController) ;
+ void HandleNoteControllerNoteDidFinishJump(GlobalNamespace::NoteController noteController) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::INoteControllerNoteDidFinishJumpEvent);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::INoteControllerNoteDidFinishJumpEvent, "", "INoteControllerNoteDidFinishJumpEvent");
+NEED_NO_BOX(GlobalNamespace::INoteControllerNoteDidFinishJumpEvent);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INoteControllerNoteDidFinishJumpEvent, "", "INoteControllerNoteDidFinishJumpEvent");

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Net {
 struct WebExceptionStatus;
 }
@@ -63,12 +62,11 @@ static ::ArrayW<::StringW> __get_s_Mapping() ;
 // Methods
 
 /// @brief Method GetWebStatusString addr 0x280e470 size 0x198 virtual false final false
-static ::StringW GetWebStatusString(::System::Net::WebExceptionStatus status) ;
+static ::StringW GetWebStatusString(System::Net::WebExceptionStatus status) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::WebExceptionMapping);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::WebExceptionMapping, "System.Net", "WebExceptionMapping");
+NEED_NO_BOX(System::Net::WebExceptionMapping);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::WebExceptionMapping, "System.Net", "WebExceptionMapping");

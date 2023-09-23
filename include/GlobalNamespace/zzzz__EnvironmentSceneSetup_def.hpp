@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 class EnvironmentSceneSetupData;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11080))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6082))
 // CS Name: EnvironmentSceneSetup
-class CORDL_TYPE EnvironmentSceneSetup : public ::Zenject::MonoInstaller {
+class CORDL_TYPE EnvironmentSceneSetup : public Zenject::MonoInstaller {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr EnvironmentSceneSetup(EnvironmentSceneSetup const& ) noexcept = defaul
 constexpr EnvironmentSceneSetup(EnvironmentSceneSetup&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EnvironmentSceneSetup(void* ptr) noexcept : ::Zenject::MonoInstaller(ptr) {
+constexpr explicit EnvironmentSceneSetup(void* ptr) noexcept : Zenject::MonoInstaller(ptr) {
 }
 
 
@@ -52,11 +51,11 @@ constexpr explicit EnvironmentSceneSetup(void* ptr) noexcept : ::Zenject::MonoIn
 
 // Fields
 
- ::GlobalNamespace::EnvironmentSceneSetupData __declspec(property(get=__get__sceneSetupData, put=__set__sceneSetupData))  _sceneSetupData;
+ GlobalNamespace::EnvironmentSceneSetupData __declspec(property(get=__get__sceneSetupData, put=__set__sceneSetupData))  _sceneSetupData;
 
-constexpr void __set__sceneSetupData(::GlobalNamespace::EnvironmentSceneSetupData value) ;
+constexpr void __set__sceneSetupData(GlobalNamespace::EnvironmentSceneSetupData value) ;
 
-constexpr ::GlobalNamespace::EnvironmentSceneSetupData __get__sceneSetupData() const;
+constexpr GlobalNamespace::EnvironmentSceneSetupData __get__sceneSetupData() const;
 
 static int32_t __declspec(property(get=__get_trackLaneYPositionPropertyId, put=__set_trackLaneYPositionPropertyId))  trackLaneYPositionPropertyId;
 
@@ -80,6 +79,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::EnvironmentSceneSetup);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EnvironmentSceneSetup, "", "EnvironmentSceneSetup");
+NEED_NO_BOX(GlobalNamespace::EnvironmentSceneSetup);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentSceneSetup, "", "EnvironmentSceneSetup");

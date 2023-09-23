@@ -4,38 +4,37 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
-class BTSStarTextEventEffect;
+class BTSStarTextEffectController;
 }
 namespace UnityEngine {
 class Sprite;
-}
-namespace UnityEngine {
-class Transform;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__BTSStarTextEffectController__Pool;
+class BTSStarTextEventEffect;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace GlobalNamespace {
-class BTSStarTextEffectController;
+class GlobalNamespace__BTSStarTextEffectController__Pool;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
 class BTSStarTextEffectsManager;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5;
+class GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5;
 }
 // Type: ::<DespawnEffectDelayed>d__5
 namespace GlobalNamespace {
@@ -43,46 +42,46 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3965))
 // CS Name: BTSStarTextEffectsManager::<DespawnEffectDelayed>d__5
-class CORDL_TYPE ____GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5() = default;
+virtual ~GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5(____GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5(GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5(____GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5(GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5& operator=(____GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5&& o) noexcept = default;
-  constexpr ____GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5& operator=(____GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5 const& o) noexcept = default;
+  constexpr GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5& operator=(GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5&& o) noexcept = default;
+  constexpr GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5& operator=(GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5 const& o) noexcept = default;
                 
 
 
@@ -100,17 +99,17 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::GlobalNamespace::BTSStarTextEffectController __declspec(property(get=__get_effectController, put=__set_effectController))  effectController;
+ GlobalNamespace::BTSStarTextEffectController __declspec(property(get=__get_effectController, put=__set_effectController))  effectController;
 
-constexpr void __set_effectController(::GlobalNamespace::BTSStarTextEffectController value) ;
+constexpr void __set_effectController(GlobalNamespace::BTSStarTextEffectController value) ;
 
-constexpr ::GlobalNamespace::BTSStarTextEffectController __get_effectController() const;
+constexpr GlobalNamespace::BTSStarTextEffectController __get_effectController() const;
 
- ::GlobalNamespace::BTSStarTextEffectsManager __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::BTSStarTextEffectsManager __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::BTSStarTextEffectsManager value) ;
+constexpr void __set___4__this(GlobalNamespace::BTSStarTextEffectsManager value) ;
 
-constexpr ::GlobalNamespace::BTSStarTextEffectsManager __get___4__this() const;
+constexpr GlobalNamespace::BTSStarTextEffectsManager __get___4__this() const;
 
 
 // Properties
@@ -123,7 +122,7 @@ constexpr ::GlobalNamespace::BTSStarTextEffectsManager __get___4__this() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5(int32_t __1__state) ;
+explicit GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x20aadd0 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -153,10 +152,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3966))
 // CS Name: BTSStarTextEffectsManager
-class CORDL_TYPE BTSStarTextEffectsManager : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE BTSStarTextEffectsManager : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using _DespawnEffectDelayed_d__5 = ::GlobalNamespace::____GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5;
+using _DespawnEffectDelayed_d__5 = GlobalNamespace::GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -170,7 +169,7 @@ constexpr BTSStarTextEffectsManager(BTSStarTextEffectsManager const& ) noexcept 
 constexpr BTSStarTextEffectsManager(BTSStarTextEffectsManager&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BTSStarTextEffectsManager(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit BTSStarTextEffectsManager(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -191,17 +190,17 @@ constexpr explicit BTSStarTextEffectsManager(void* ptr) noexcept : ::UnityEngine
 
 // Fields
 
- ::GlobalNamespace::BTSStarTextEventEffect __declspec(property(get=__get__btsStarTextEventEffect, put=__set__btsStarTextEventEffect))  _btsStarTextEventEffect;
+ GlobalNamespace::BTSStarTextEventEffect __declspec(property(get=__get__btsStarTextEventEffect, put=__set__btsStarTextEventEffect))  _btsStarTextEventEffect;
 
-constexpr void __set__btsStarTextEventEffect(::GlobalNamespace::BTSStarTextEventEffect value) ;
+constexpr void __set__btsStarTextEventEffect(GlobalNamespace::BTSStarTextEventEffect value) ;
 
-constexpr ::GlobalNamespace::BTSStarTextEventEffect __get__btsStarTextEventEffect() const;
+constexpr GlobalNamespace::BTSStarTextEventEffect __get__btsStarTextEventEffect() const;
 
- ::GlobalNamespace::____GlobalNamespace__BTSStarTextEffectController__Pool __declspec(property(get=__get__btsStarTextEffectControllerPool, put=__set__btsStarTextEffectControllerPool))  _btsStarTextEffectControllerPool;
+ GlobalNamespace::GlobalNamespace__BTSStarTextEffectController__Pool __declspec(property(get=__get__btsStarTextEffectControllerPool, put=__set__btsStarTextEffectControllerPool))  _btsStarTextEffectControllerPool;
 
-constexpr void __set__btsStarTextEffectControllerPool(::GlobalNamespace::____GlobalNamespace__BTSStarTextEffectController__Pool value) ;
+constexpr void __set__btsStarTextEffectControllerPool(GlobalNamespace::GlobalNamespace__BTSStarTextEffectController__Pool value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__BTSStarTextEffectController__Pool __get__btsStarTextEffectControllerPool() const;
+constexpr GlobalNamespace::GlobalNamespace__BTSStarTextEffectController__Pool __get__btsStarTextEffectControllerPool() const;
 
 
 // Methods
@@ -213,10 +212,10 @@ constexpr ::GlobalNamespace::____GlobalNamespace__BTSStarTextEffectController__P
  void OnDestroy() ;
 
 /// @brief Method HandleBTSStarTextEventEffect addr 0x20aacc8 size 0x94 virtual false final false
- void HandleBTSStarTextEventEffect(::UnityEngine::Sprite sprite, ::UnityEngine::Transform parentTransform, float_t desiredAnimationLength) ;
+ void HandleBTSStarTextEventEffect(UnityEngine::Sprite sprite, UnityEngine::Transform parentTransform, float_t desiredAnimationLength) ;
 
 /// @brief Method DespawnEffectDelayed addr 0x20aad5c size 0x74 virtual false final false
- ::System::Collections::IEnumerator DespawnEffectDelayed(::GlobalNamespace::BTSStarTextEffectController effectController) ;
+ System::Collections::IEnumerator DespawnEffectDelayed(GlobalNamespace::BTSStarTextEffectController effectController) ;
 
 // Ctor Parameters []
 explicit BTSStarTextEffectsManager() ;
@@ -228,8 +227,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BTSStarTextEffectsManager);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BTSStarTextEffectsManager, "", "BTSStarTextEffectsManager");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5, "", "BTSStarTextEffectsManager/<DespawnEffectDelayed>d__5");
+NEED_NO_BOX(GlobalNamespace::BTSStarTextEffectsManager);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEffectsManager, "", "BTSStarTextEffectsManager");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5, "", "BTSStarTextEffectsManager/<DespawnEffectDelayed>d__5");

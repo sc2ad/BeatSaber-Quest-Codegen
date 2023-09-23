@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiMessage;
+class PkiHeader;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiBody;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiHeader;
+class PkiMessage;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cmp {
@@ -59,18 +58,18 @@ constexpr explicit GeneralPkiMessage(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 
 // Fields
 
- ::Org::BouncyCastle::Asn1::Cmp::PkiMessage __declspec(property(get=__get_pkiMessage, put=__set_pkiMessage))  pkiMessage;
+ Org::BouncyCastle::Asn1::Cmp::PkiMessage __declspec(property(get=__get_pkiMessage, put=__set_pkiMessage))  pkiMessage;
 
-constexpr void __set_pkiMessage(::Org::BouncyCastle::Asn1::Cmp::PkiMessage value) ;
+constexpr void __set_pkiMessage(Org::BouncyCastle::Asn1::Cmp::PkiMessage value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiMessage __get_pkiMessage() const;
+constexpr Org::BouncyCastle::Asn1::Cmp::PkiMessage __get_pkiMessage() const;
 
 
 // Properties
 
- ::Org::BouncyCastle::Asn1::Cmp::PkiHeader __declspec(property(get=get_Header))  Header;
+ Org::BouncyCastle::Asn1::Cmp::PkiHeader __declspec(property(get=get_Header))  Header;
 
- ::Org::BouncyCastle::Asn1::Cmp::PkiBody __declspec(property(get=get_Body))  Body;
+ Org::BouncyCastle::Asn1::Cmp::PkiBody __declspec(property(get=get_Body))  Body;
 
  bool __declspec(property(get=get_HasProtection))  HasProtection;
 
@@ -78,13 +77,13 @@ constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiMessage __get_pkiMessage() const;
 // Methods
 
 /// @brief Method ParseBytes addr 0x114be64 size 0x18 virtual false final false
-static ::Org::BouncyCastle::Asn1::Cmp::PkiMessage ParseBytes(::ArrayW<uint8_t> encoding) ;
+static Org::BouncyCastle::Asn1::Cmp::PkiMessage ParseBytes(::ArrayW<uint8_t> encoding) ;
 
-// Ctor Parameters [CppParam { name: "pkiMessage", ty: "::Org::BouncyCastle::Asn1::Cmp::PkiMessage", modifiers: "", def_value: None }]
-explicit GeneralPkiMessage(::Org::BouncyCastle::Asn1::Cmp::PkiMessage pkiMessage) ;
+// Ctor Parameters [CppParam { name: "pkiMessage", ty: "Org::BouncyCastle::Asn1::Cmp::PkiMessage", modifiers: "", def_value: None }]
+explicit GeneralPkiMessage(Org::BouncyCastle::Asn1::Cmp::PkiMessage pkiMessage) ;
 
 /// @brief Method .ctor addr 0x114be7c size 0x28 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::Cmp::PkiMessage pkiMessage) ;
+ void _ctor(Org::BouncyCastle::Asn1::Cmp::PkiMessage pkiMessage) ;
 
 // Ctor Parameters [CppParam { name: "encoding", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
 explicit GeneralPkiMessage(::ArrayW<uint8_t> encoding) ;
@@ -93,21 +92,20 @@ explicit GeneralPkiMessage(::ArrayW<uint8_t> encoding) ;
  void _ctor(::ArrayW<uint8_t> encoding) ;
 
 /// @brief Method get_Header addr 0x114bee4 size 0x20 virtual false final false
- ::Org::BouncyCastle::Asn1::Cmp::PkiHeader get_Header() ;
+ Org::BouncyCastle::Asn1::Cmp::PkiHeader get_Header() ;
 
 /// @brief Method get_Body addr 0x114bf04 size 0x20 virtual false final false
- ::Org::BouncyCastle::Asn1::Cmp::PkiBody get_Body() ;
+ Org::BouncyCastle::Asn1::Cmp::PkiBody get_Body() ;
 
 /// @brief Method get_HasProtection addr 0x114bf24 size 0x2c virtual false final false
  bool get_HasProtection() ;
 
 /// @brief Method ToAsn1Structure addr 0x114bf50 size 0x8 virtual false final false
- ::Org::BouncyCastle::Asn1::Cmp::PkiMessage ToAsn1Structure() ;
+ Org::BouncyCastle::Asn1::Cmp::PkiMessage ToAsn1Structure() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Cmp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Cmp::GeneralPkiMessage);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cmp::GeneralPkiMessage, "Org.BouncyCastle.Cmp", "GeneralPkiMessage");
+NEED_NO_BOX(Org::BouncyCastle::Cmp::GeneralPkiMessage);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Cmp::GeneralPkiMessage, "Org.BouncyCastle.Cmp", "GeneralPkiMessage");

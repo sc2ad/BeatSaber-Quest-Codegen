@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class ICloneable;
 }
@@ -20,8 +19,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
 class CORDL_TYPE SizedArray : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::ICloneable
-constexpr operator  ::System::ICloneable() const noexcept;
+/// @brief Convert operator to System::ICloneable
+constexpr operator  System::ICloneable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -88,11 +87,11 @@ explicit SizedArray(int32_t length) ;
 /// @brief Method .ctor addr 0x2365efc size 0x78 virtual false final false
  void _ctor(int32_t length) ;
 
-// Ctor Parameters [CppParam { name: "sizedArray", ty: "::System::Runtime::Serialization::Formatters::Binary::SizedArray", modifiers: "", def_value: None }]
-explicit SizedArray(::System::Runtime::Serialization::Formatters::Binary::SizedArray sizedArray) ;
+// Ctor Parameters [CppParam { name: "sizedArray", ty: "System::Runtime::Serialization::Formatters::Binary::SizedArray", modifiers: "", def_value: None }]
+explicit SizedArray(System::Runtime::Serialization::Formatters::Binary::SizedArray sizedArray) ;
 
 /// @brief Method .ctor addr 0x2369818 size 0xb4 virtual false final false
- void _ctor(::System::Runtime::Serialization::Formatters::Binary::SizedArray sizedArray) ;
+ void _ctor(System::Runtime::Serialization::Formatters::Binary::SizedArray sizedArray) ;
 
 /// @brief Method Clone addr 0x23698cc size 0x60 virtual true final true
  ::bs_hook::Il2CppWrapperType Clone() ;
@@ -110,6 +109,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization::Formatters::Binary
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::SizedArray);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::SizedArray, "System.Runtime.Serialization.Formatters.Binary", "SizedArray");
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::SizedArray);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::SizedArray, "System.Runtime.Serialization.Formatters.Binary", "SizedArray");

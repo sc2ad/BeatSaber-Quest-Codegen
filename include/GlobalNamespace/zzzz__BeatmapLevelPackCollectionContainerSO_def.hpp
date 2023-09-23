@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class BeatmapLevelPackCollectionSO;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4374))
 // CS Name: BeatmapLevelPackCollectionContainerSO
-class CORDL_TYPE BeatmapLevelPackCollectionContainerSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE BeatmapLevelPackCollectionContainerSO : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr BeatmapLevelPackCollectionContainerSO(BeatmapLevelPackCollectionContai
 constexpr BeatmapLevelPackCollectionContainerSO(BeatmapLevelPackCollectionContainerSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BeatmapLevelPackCollectionContainerSO(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit BeatmapLevelPackCollectionContainerSO(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -51,22 +50,22 @@ constexpr explicit BeatmapLevelPackCollectionContainerSO(void* ptr) noexcept : :
 
 // Fields
 
- ::GlobalNamespace::BeatmapLevelPackCollectionSO __declspec(property(get=__get__beatmapLevelPackCollection, put=__set__beatmapLevelPackCollection))  _beatmapLevelPackCollection;
+ GlobalNamespace::BeatmapLevelPackCollectionSO __declspec(property(get=__get__beatmapLevelPackCollection, put=__set__beatmapLevelPackCollection))  _beatmapLevelPackCollection;
 
-constexpr void __set__beatmapLevelPackCollection(::GlobalNamespace::BeatmapLevelPackCollectionSO value) ;
+constexpr void __set__beatmapLevelPackCollection(GlobalNamespace::BeatmapLevelPackCollectionSO value) ;
 
-constexpr ::GlobalNamespace::BeatmapLevelPackCollectionSO __get__beatmapLevelPackCollection() const;
+constexpr GlobalNamespace::BeatmapLevelPackCollectionSO __get__beatmapLevelPackCollection() const;
 
 
 // Properties
 
- ::GlobalNamespace::BeatmapLevelPackCollectionSO __declspec(property(get=get_beatmapLevelPackCollection))  beatmapLevelPackCollection;
+ GlobalNamespace::BeatmapLevelPackCollectionSO __declspec(property(get=get_beatmapLevelPackCollection))  beatmapLevelPackCollection;
 
 
 // Methods
 
 /// @brief Method get_beatmapLevelPackCollection addr 0x21e51a0 size 0x8 virtual false final false
- ::GlobalNamespace::BeatmapLevelPackCollectionSO get_beatmapLevelPackCollection() ;
+ GlobalNamespace::BeatmapLevelPackCollectionSO get_beatmapLevelPackCollection() ;
 
 // Ctor Parameters []
 explicit BeatmapLevelPackCollectionContainerSO() ;
@@ -78,6 +77,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BeatmapLevelPackCollectionContainerSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapLevelPackCollectionContainerSO, "", "BeatmapLevelPackCollectionContainerSO");
+NEED_NO_BOX(GlobalNamespace::BeatmapLevelPackCollectionContainerSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelPackCollectionContainerSO, "", "BeatmapLevelPackCollectionContainerSO");

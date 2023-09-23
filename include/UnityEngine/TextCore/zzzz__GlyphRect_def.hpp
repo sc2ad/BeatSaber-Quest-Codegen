@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 class IEquatable_1;
@@ -21,8 +20,8 @@ namespace UnityEngine::TextCore {
 struct CORDL_TYPE GlyphRect : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::TextCore::GlyphRect>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::TextCore::GlyphRect>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::TextCore::GlyphRect>
+constexpr operator  System::IEquatable_1<UnityEngine::TextCore::GlyphRect>() const;
 
 // Ctor Parameters [CppParam { name: "m_X", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Y", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Height", ty: "int32_t", modifiers: "", def_value: None }]
 constexpr GlyphRect(int32_t m_X, int32_t m_Y, int32_t m_Width, int32_t m_Height) noexcept;
@@ -82,11 +81,11 @@ constexpr void __set_m_Height(int32_t value) ;
 
 constexpr int32_t __get_m_Height() const;
 
-static ::UnityEngine::TextCore::GlyphRect __declspec(property(get=__get_s_ZeroGlyphRect, put=__set_s_ZeroGlyphRect))  s_ZeroGlyphRect;
+static UnityEngine::TextCore::GlyphRect __declspec(property(get=__get_s_ZeroGlyphRect, put=__set_s_ZeroGlyphRect))  s_ZeroGlyphRect;
 
-static void __set_s_ZeroGlyphRect(::UnityEngine::TextCore::GlyphRect value) ;
+static void __set_s_ZeroGlyphRect(UnityEngine::TextCore::GlyphRect value) ;
 
-static ::UnityEngine::TextCore::GlyphRect __get_s_ZeroGlyphRect() ;
+static UnityEngine::TextCore::GlyphRect __get_s_ZeroGlyphRect() ;
 
 
 // Properties
@@ -99,7 +98,7 @@ static ::UnityEngine::TextCore::GlyphRect __get_s_ZeroGlyphRect() ;
 
  int32_t __declspec(property(get=get_height))  height;
 
-static ::UnityEngine::TextCore::GlyphRect __declspec(property(get=get_zero))  zero;
+static UnityEngine::TextCore::GlyphRect __declspec(property(get=get_zero))  zero;
 
 
 // Methods
@@ -117,7 +116,7 @@ static ::UnityEngine::TextCore::GlyphRect __declspec(property(get=get_zero))  ze
  int32_t get_height() ;
 
 /// @brief Method get_zero addr 0x2baa418 size 0x58 virtual false final false
-static ::UnityEngine::TextCore::GlyphRect get_zero() ;
+static UnityEngine::TextCore::GlyphRect get_zero() ;
 
 /// @brief Method .ctor addr 0x2baa470 size 0xc virtual false final false
  void _ctor(int32_t x, int32_t y, int32_t width, int32_t height) ;
@@ -129,11 +128,10 @@ static ::UnityEngine::TextCore::GlyphRect get_zero() ;
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x2baa558 size 0x94 virtual true final true
- bool Equals(::UnityEngine::TextCore::GlyphRect other) ;
+ bool Equals(UnityEngine::TextCore::GlyphRect other) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::GlyphRect, "UnityEngine.TextCore", "GlyphRect");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::GlyphRect, "UnityEngine.TextCore", "GlyphRect");

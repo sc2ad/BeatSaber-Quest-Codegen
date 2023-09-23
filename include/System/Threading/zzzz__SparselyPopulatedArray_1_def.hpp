@@ -2,14 +2,13 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace System::Threading {
-template<typename T>
-class SparselyPopulatedArrayFragment_1;
-}
 namespace System::Threading {
 template<typename T>
 struct SparselyPopulatedArrayAddInfo_1;
+}
+namespace System::Threading {
+template<typename T>
+class SparselyPopulatedArrayFragment_1;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -65,22 +64,22 @@ constexpr explicit SparselyPopulatedArray_1(void* ptr) noexcept : ::bs_hook::Il2
 
 // Fields
 
- ::System::Threading::SparselyPopulatedArrayFragment_1<T> __declspec(property(get=__get__head, put=__set__head))  _head;
+ System::Threading::SparselyPopulatedArrayFragment_1<T> __declspec(property(get=__get__head, put=__set__head))  _head;
 
-constexpr void __set__head(::System::Threading::SparselyPopulatedArrayFragment_1<T> value) ;
+constexpr void __set__head(System::Threading::SparselyPopulatedArrayFragment_1<T> value) ;
 
-constexpr ::System::Threading::SparselyPopulatedArrayFragment_1<T> __get__head() const;
+constexpr System::Threading::SparselyPopulatedArrayFragment_1<T> __get__head() const;
 
- ::System::Threading::SparselyPopulatedArrayFragment_1<T> __declspec(property(get=__get__tail, put=__set__tail))  _tail;
+ System::Threading::SparselyPopulatedArrayFragment_1<T> __declspec(property(get=__get__tail, put=__set__tail))  _tail;
 
-constexpr void __set__tail(::System::Threading::SparselyPopulatedArrayFragment_1<T> value) ;
+constexpr void __set__tail(System::Threading::SparselyPopulatedArrayFragment_1<T> value) ;
 
-constexpr ::System::Threading::SparselyPopulatedArrayFragment_1<T> __get__tail() const;
+constexpr System::Threading::SparselyPopulatedArrayFragment_1<T> __get__tail() const;
 
 
 // Properties
 
- ::System::Threading::SparselyPopulatedArrayFragment_1<T> __declspec(property(get=get_Tail))  Tail;
+ System::Threading::SparselyPopulatedArrayFragment_1<T> __declspec(property(get=get_Tail))  Tail;
 
 
 // Methods
@@ -92,14 +91,13 @@ explicit SparselyPopulatedArray_1(int32_t initialSize) ;
  void _ctor(int32_t initialSize) ;
 
 /// @brief Method get_Tail addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Threading::SparselyPopulatedArrayFragment_1<T> get_Tail() ;
+ System::Threading::SparselyPopulatedArrayFragment_1<T> get_Tail() ;
 
 /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
- ::System::Threading::SparselyPopulatedArrayAddInfo_1<T> Add(T element) ;
+ System::Threading::SparselyPopulatedArrayAddInfo_1<T> Add(T element) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Threading
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Threading::SparselyPopulatedArray_1, "System.Threading", "SparselyPopulatedArray`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Threading::SparselyPopulatedArray_1, "System.Threading", "SparselyPopulatedArray`1");

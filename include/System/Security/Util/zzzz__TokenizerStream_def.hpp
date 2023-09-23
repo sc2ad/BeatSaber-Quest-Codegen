@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Security::Util {
-class TokenizerStringBlock;
-}
 namespace System::Security::Util {
 class TokenizerShortBlock;
+}
+namespace System::Security::Util {
+class TokenizerStringBlock;
 }
 // Forward declare root types
 namespace System::Security::Util {
@@ -62,23 +61,23 @@ constexpr void __set_m_countTokens(int32_t value) ;
 
 constexpr int32_t __get_m_countTokens() const;
 
- ::System::Security::Util::TokenizerShortBlock __declspec(property(get=__get_m_headTokens, put=__set_m_headTokens))  m_headTokens;
+ System::Security::Util::TokenizerShortBlock __declspec(property(get=__get_m_headTokens, put=__set_m_headTokens))  m_headTokens;
 
-constexpr void __set_m_headTokens(::System::Security::Util::TokenizerShortBlock value) ;
+constexpr void __set_m_headTokens(System::Security::Util::TokenizerShortBlock value) ;
 
-constexpr ::System::Security::Util::TokenizerShortBlock __get_m_headTokens() const;
+constexpr System::Security::Util::TokenizerShortBlock __get_m_headTokens() const;
 
- ::System::Security::Util::TokenizerShortBlock __declspec(property(get=__get_m_lastTokens, put=__set_m_lastTokens))  m_lastTokens;
+ System::Security::Util::TokenizerShortBlock __declspec(property(get=__get_m_lastTokens, put=__set_m_lastTokens))  m_lastTokens;
 
-constexpr void __set_m_lastTokens(::System::Security::Util::TokenizerShortBlock value) ;
+constexpr void __set_m_lastTokens(System::Security::Util::TokenizerShortBlock value) ;
 
-constexpr ::System::Security::Util::TokenizerShortBlock __get_m_lastTokens() const;
+constexpr System::Security::Util::TokenizerShortBlock __get_m_lastTokens() const;
 
- ::System::Security::Util::TokenizerShortBlock __declspec(property(get=__get_m_currentTokens, put=__set_m_currentTokens))  m_currentTokens;
+ System::Security::Util::TokenizerShortBlock __declspec(property(get=__get_m_currentTokens, put=__set_m_currentTokens))  m_currentTokens;
 
-constexpr void __set_m_currentTokens(::System::Security::Util::TokenizerShortBlock value) ;
+constexpr void __set_m_currentTokens(System::Security::Util::TokenizerShortBlock value) ;
 
-constexpr ::System::Security::Util::TokenizerShortBlock __get_m_currentTokens() const;
+constexpr System::Security::Util::TokenizerShortBlock __get_m_currentTokens() const;
 
  int32_t __declspec(property(get=__get_m_indexTokens, put=__set_m_indexTokens))  m_indexTokens;
 
@@ -86,17 +85,17 @@ constexpr void __set_m_indexTokens(int32_t value) ;
 
 constexpr int32_t __get_m_indexTokens() const;
 
- ::System::Security::Util::TokenizerStringBlock __declspec(property(get=__get_m_headStrings, put=__set_m_headStrings))  m_headStrings;
+ System::Security::Util::TokenizerStringBlock __declspec(property(get=__get_m_headStrings, put=__set_m_headStrings))  m_headStrings;
 
-constexpr void __set_m_headStrings(::System::Security::Util::TokenizerStringBlock value) ;
+constexpr void __set_m_headStrings(System::Security::Util::TokenizerStringBlock value) ;
 
-constexpr ::System::Security::Util::TokenizerStringBlock __get_m_headStrings() const;
+constexpr System::Security::Util::TokenizerStringBlock __get_m_headStrings() const;
 
- ::System::Security::Util::TokenizerStringBlock __declspec(property(get=__get_m_currentStrings, put=__set_m_currentStrings))  m_currentStrings;
+ System::Security::Util::TokenizerStringBlock __declspec(property(get=__get_m_currentStrings, put=__set_m_currentStrings))  m_currentStrings;
 
-constexpr void __set_m_currentStrings(::System::Security::Util::TokenizerStringBlock value) ;
+constexpr void __set_m_currentStrings(System::Security::Util::TokenizerStringBlock value) ;
 
-constexpr ::System::Security::Util::TokenizerStringBlock __get_m_currentStrings() const;
+constexpr System::Security::Util::TokenizerStringBlock __get_m_currentStrings() const;
 
  int32_t __declspec(property(get=__get_m_indexStrings, put=__set_m_indexStrings))  m_indexStrings;
 
@@ -147,6 +146,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Util
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Util::TokenizerStream);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Util::TokenizerStream, "System.Security.Util", "TokenizerStream");
+NEED_NO_BOX(System::Security::Util::TokenizerStream);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::TokenizerStream, "System.Security.Util", "TokenizerStream");

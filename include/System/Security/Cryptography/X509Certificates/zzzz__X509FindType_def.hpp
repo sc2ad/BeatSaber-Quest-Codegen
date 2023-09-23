@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
 struct X509FindType;
@@ -80,53 +79,52 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field FindByThumbprint offset 0
-static ::System::Security::Cryptography::X509Certificates::X509FindType const FindByThumbprint;
+static System::Security::Cryptography::X509Certificates::X509FindType const FindByThumbprint;
 
 /// @brief Field FindBySubjectName offset 0
-static ::System::Security::Cryptography::X509Certificates::X509FindType const FindBySubjectName;
+static System::Security::Cryptography::X509Certificates::X509FindType const FindBySubjectName;
 
 /// @brief Field FindBySubjectDistinguishedName offset 0
-static ::System::Security::Cryptography::X509Certificates::X509FindType const FindBySubjectDistinguishedName;
+static System::Security::Cryptography::X509Certificates::X509FindType const FindBySubjectDistinguishedName;
 
 /// @brief Field FindByIssuerName offset 0
-static ::System::Security::Cryptography::X509Certificates::X509FindType const FindByIssuerName;
+static System::Security::Cryptography::X509Certificates::X509FindType const FindByIssuerName;
 
 /// @brief Field FindByIssuerDistinguishedName offset 0
-static ::System::Security::Cryptography::X509Certificates::X509FindType const FindByIssuerDistinguishedName;
+static System::Security::Cryptography::X509Certificates::X509FindType const FindByIssuerDistinguishedName;
 
 /// @brief Field FindBySerialNumber offset 0
-static ::System::Security::Cryptography::X509Certificates::X509FindType const FindBySerialNumber;
+static System::Security::Cryptography::X509Certificates::X509FindType const FindBySerialNumber;
 
 /// @brief Field FindByTimeValid offset 0
-static ::System::Security::Cryptography::X509Certificates::X509FindType const FindByTimeValid;
+static System::Security::Cryptography::X509Certificates::X509FindType const FindByTimeValid;
 
 /// @brief Field FindByTimeNotYetValid offset 0
-static ::System::Security::Cryptography::X509Certificates::X509FindType const FindByTimeNotYetValid;
+static System::Security::Cryptography::X509Certificates::X509FindType const FindByTimeNotYetValid;
 
 /// @brief Field FindByTimeExpired offset 0
-static ::System::Security::Cryptography::X509Certificates::X509FindType const FindByTimeExpired;
+static System::Security::Cryptography::X509Certificates::X509FindType const FindByTimeExpired;
 
 /// @brief Field FindByTemplateName offset 0
-static ::System::Security::Cryptography::X509Certificates::X509FindType const FindByTemplateName;
+static System::Security::Cryptography::X509Certificates::X509FindType const FindByTemplateName;
 
 /// @brief Field FindByApplicationPolicy offset 0
-static ::System::Security::Cryptography::X509Certificates::X509FindType const FindByApplicationPolicy;
+static System::Security::Cryptography::X509Certificates::X509FindType const FindByApplicationPolicy;
 
 /// @brief Field FindByCertificatePolicy offset 0
-static ::System::Security::Cryptography::X509Certificates::X509FindType const FindByCertificatePolicy;
+static System::Security::Cryptography::X509Certificates::X509FindType const FindByCertificatePolicy;
 
 /// @brief Field FindByExtension offset 0
-static ::System::Security::Cryptography::X509Certificates::X509FindType const FindByExtension;
+static System::Security::Cryptography::X509Certificates::X509FindType const FindByExtension;
 
 /// @brief Field FindByKeyUsage offset 0
-static ::System::Security::Cryptography::X509Certificates::X509FindType const FindByKeyUsage;
+static System::Security::Cryptography::X509Certificates::X509FindType const FindByKeyUsage;
 
 /// @brief Field FindBySubjectKeyIdentifier offset 0
-static ::System::Security::Cryptography::X509Certificates::X509FindType const FindBySubjectKeyIdentifier;
+static System::Security::Cryptography::X509Certificates::X509FindType const FindBySubjectKeyIdentifier;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography::X509Certificates
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::X509Certificates::X509FindType, "System.Security.Cryptography.X509Certificates", "X509FindType");
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509FindType, "System.Security.Cryptography.X509Certificates", "X509FindType");

@@ -2,15 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
+namespace Zenject {
+class InjectTypeInfo;
+}
 namespace Zenject {
 class TickableManager;
 }
 namespace Zenject {
 class DisposableManager;
-}
-namespace Zenject {
-class InjectTypeInfo;
 }
 namespace Zenject {
 class InitializableManager;
@@ -25,7 +24,7 @@ namespace Zenject {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11265))
 // CS Name: Zenject.MonoKernel
-class CORDL_TYPE MonoKernel : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MonoKernel : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr MonoKernel(MonoKernel const& ) noexcept = default;
 constexpr MonoKernel(MonoKernel&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MonoKernel(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MonoKernel(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -61,23 +60,23 @@ constexpr explicit MonoKernel(void* ptr) noexcept : ::UnityEngine::MonoBehaviour
 
 // Fields
 
- ::Zenject::TickableManager __declspec(property(get=__get__tickableManager, put=__set__tickableManager))  _tickableManager;
+ Zenject::TickableManager __declspec(property(get=__get__tickableManager, put=__set__tickableManager))  _tickableManager;
 
-constexpr void __set__tickableManager(::Zenject::TickableManager value) ;
+constexpr void __set__tickableManager(Zenject::TickableManager value) ;
 
-constexpr ::Zenject::TickableManager __get__tickableManager() const;
+constexpr Zenject::TickableManager __get__tickableManager() const;
 
- ::Zenject::InitializableManager __declspec(property(get=__get__initializableManager, put=__set__initializableManager))  _initializableManager;
+ Zenject::InitializableManager __declspec(property(get=__get__initializableManager, put=__set__initializableManager))  _initializableManager;
 
-constexpr void __set__initializableManager(::Zenject::InitializableManager value) ;
+constexpr void __set__initializableManager(Zenject::InitializableManager value) ;
 
-constexpr ::Zenject::InitializableManager __get__initializableManager() const;
+constexpr Zenject::InitializableManager __get__initializableManager() const;
 
- ::Zenject::DisposableManager __declspec(property(get=__get__disposablesManager, put=__set__disposablesManager))  _disposablesManager;
+ Zenject::DisposableManager __declspec(property(get=__get__disposablesManager, put=__set__disposablesManager))  _disposablesManager;
 
-constexpr void __set__disposablesManager(::Zenject::DisposableManager value) ;
+constexpr void __set__disposablesManager(Zenject::DisposableManager value) ;
 
-constexpr ::Zenject::DisposableManager __get__disposablesManager() const;
+constexpr Zenject::DisposableManager __get__disposablesManager() const;
 
  bool __declspec(property(get=__get__hasInitialized, put=__set__hasInitialized))  _hasInitialized;
 
@@ -136,12 +135,11 @@ static void __zenFieldSetter1(::bs_hook::Il2CppWrapperType P_0, ::bs_hook::Il2Cp
 static void __zenFieldSetter2(::bs_hook::Il2CppWrapperType P_0, ::bs_hook::Il2CppWrapperType P_1) ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x2d9c5a8 size 0x480 virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::MonoKernel);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::MonoKernel, "Zenject", "MonoKernel");
+NEED_NO_BOX(Zenject::MonoKernel);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::MonoKernel, "Zenject", "MonoKernel");

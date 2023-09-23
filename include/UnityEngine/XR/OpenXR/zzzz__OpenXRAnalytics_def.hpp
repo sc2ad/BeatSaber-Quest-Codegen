@@ -5,13 +5,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::XR::OpenXR {
 class OpenXRAnalytics;
 }
 namespace UnityEngine::XR::OpenXR {
-struct ____UnityEngine__XR__OpenXR__OpenXRAnalytics__InitializeEvent;
+struct UnityEngine__XR__OpenXR__OpenXRAnalytics__InitializeEvent;
 }
 // Type: ::InitializeEvent
 namespace UnityEngine::XR::OpenXR {
@@ -19,20 +18,20 @@ namespace UnityEngine::XR::OpenXR {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14160))
 // CS Name: UnityEngine.XR.OpenXR.OpenXRAnalytics::InitializeEvent
-struct CORDL_TYPE ____UnityEngine__XR__OpenXR__OpenXRAnalytics__InitializeEvent : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__XR__OpenXR__OpenXRAnalytics__InitializeEvent : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "success", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "runtime", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "runtime_version", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "plugin_version", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "api_version", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "available_extensions", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "enabled_extensions", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "enabled_features", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "failed_features", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__XR__OpenXR__OpenXRAnalytics__InitializeEvent(bool success, ::StringW runtime, ::StringW runtime_version, ::StringW plugin_version, ::StringW api_version, ::ArrayW<::StringW> available_extensions, ::ArrayW<::StringW> enabled_extensions, ::ArrayW<::StringW> enabled_features, ::ArrayW<::StringW> failed_features) noexcept;
+constexpr UnityEngine__XR__OpenXR__OpenXRAnalytics__InitializeEvent(bool success, ::StringW runtime, ::StringW runtime_version, ::StringW plugin_version, ::StringW api_version, ::ArrayW<::StringW> available_extensions, ::ArrayW<::StringW> enabled_extensions, ::ArrayW<::StringW> enabled_features, ::ArrayW<::StringW> failed_features) noexcept;
 
 
-                    constexpr ____UnityEngine__XR__OpenXR__OpenXRAnalytics__InitializeEvent(____UnityEngine__XR__OpenXR__OpenXRAnalytics__InitializeEvent const&) = default;
-                    constexpr ____UnityEngine__XR__OpenXR__OpenXRAnalytics__InitializeEvent(____UnityEngine__XR__OpenXR__OpenXRAnalytics__InitializeEvent&&) = default;
-                    constexpr ____UnityEngine__XR__OpenXR__OpenXRAnalytics__InitializeEvent& operator=(____UnityEngine__XR__OpenXR__OpenXRAnalytics__InitializeEvent const& o) {
+                    constexpr UnityEngine__XR__OpenXR__OpenXRAnalytics__InitializeEvent(UnityEngine__XR__OpenXR__OpenXRAnalytics__InitializeEvent const&) = default;
+                    constexpr UnityEngine__XR__OpenXR__OpenXRAnalytics__InitializeEvent(UnityEngine__XR__OpenXR__OpenXRAnalytics__InitializeEvent&&) = default;
+                    constexpr UnityEngine__XR__OpenXR__OpenXRAnalytics__InitializeEvent& operator=(UnityEngine__XR__OpenXR__OpenXRAnalytics__InitializeEvent const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__XR__OpenXR__OpenXRAnalytics__InitializeEvent& operator=(____UnityEngine__XR__OpenXR__OpenXRAnalytics__InitializeEvent&& o) noexcept {
+                    constexpr UnityEngine__XR__OpenXR__OpenXRAnalytics__InitializeEvent& operator=(UnityEngine__XR__OpenXR__OpenXRAnalytics__InitializeEvent&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -45,7 +44,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x48};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__XR__OpenXR__OpenXRAnalytics__InitializeEvent(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__XR__OpenXR__OpenXRAnalytics__InitializeEvent(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -123,7 +122,7 @@ namespace UnityEngine::XR::OpenXR {
 class CORDL_TYPE OpenXRAnalytics : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using InitializeEvent = ::UnityEngine::XR::OpenXR::____UnityEngine__XR__OpenXR__OpenXRAnalytics__InitializeEvent;
+using InitializeEvent = UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRAnalytics__InitializeEvent;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -183,7 +182,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR::OpenXR
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::XR::OpenXR::OpenXRAnalytics);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::OpenXRAnalytics, "UnityEngine.XR.OpenXR", "OpenXRAnalytics");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::____UnityEngine__XR__OpenXR__OpenXRAnalytics__InitializeEvent, "UnityEngine.XR.OpenXR", "OpenXRAnalytics/InitializeEvent");
+NEED_NO_BOX(UnityEngine::XR::OpenXR::OpenXRAnalytics);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::OpenXR::OpenXRAnalytics, "UnityEngine.XR.OpenXR", "OpenXRAnalytics");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRAnalytics__InitializeEvent, "UnityEngine.XR.OpenXR", "OpenXRAnalytics/InitializeEvent");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__AbstractECMultiplier_def.hpp"
-namespace {
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
@@ -18,7 +17,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1527))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1551))
 // CS Name: Org.BouncyCastle.Math.EC.Multiplier.ZSignedDigitR2LMultiplier
-class CORDL_TYPE ZSignedDigitR2LMultiplier : public ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier {
+class CORDL_TYPE ZSignedDigitR2LMultiplier : public Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr ZSignedDigitR2LMultiplier(ZSignedDigitR2LMultiplier const& ) noexcept 
 constexpr ZSignedDigitR2LMultiplier(ZSignedDigitR2LMultiplier&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ZSignedDigitR2LMultiplier(void* ptr) noexcept : ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier(ptr) {
+constexpr explicit ZSignedDigitR2LMultiplier(void* ptr) noexcept : Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier(ptr) {
 }
 
 
@@ -55,7 +54,7 @@ constexpr explicit ZSignedDigitR2LMultiplier(void* ptr) noexcept : ::Org::Bouncy
 // Methods
 
 /// @brief Method MultiplyPositive addr 0xfadd4c size 0x130 virtual true final false
- ::Org::BouncyCastle::Math::EC::ECPoint MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint p, ::Org::BouncyCastle::Math::BigInteger k) ;
+ Org::BouncyCastle::Math::EC::ECPoint MultiplyPositive(Org::BouncyCastle::Math::EC::ECPoint p, Org::BouncyCastle::Math::BigInteger k) ;
 
 // Ctor Parameters []
 explicit ZSignedDigitR2LMultiplier() ;
@@ -67,6 +66,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Math::EC::Multiplier
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Multiplier::ZSignedDigitR2LMultiplier);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Multiplier::ZSignedDigitR2LMultiplier, "Org.BouncyCastle.Math.EC.Multiplier", "ZSignedDigitR2LMultiplier");
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Multiplier::ZSignedDigitR2LMultiplier);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::ZSignedDigitR2LMultiplier, "Org.BouncyCastle.Math.EC.Multiplier", "ZSignedDigitR2LMultiplier");

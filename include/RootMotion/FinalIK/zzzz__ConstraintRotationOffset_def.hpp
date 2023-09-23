@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "RootMotion/FinalIK/zzzz__Constraint_def.hpp"
-namespace {
 namespace UnityEngine {
 class Transform;
 }
@@ -18,7 +17,7 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12450))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12454))
 // CS Name: RootMotion.FinalIK.ConstraintRotationOffset
-class CORDL_TYPE ConstraintRotationOffset : public ::RootMotion::FinalIK::Constraint {
+class CORDL_TYPE ConstraintRotationOffset : public RootMotion::FinalIK::Constraint {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr ConstraintRotationOffset(ConstraintRotationOffset const& ) noexcept = 
 constexpr ConstraintRotationOffset(ConstraintRotationOffset&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ConstraintRotationOffset(void* ptr) noexcept : ::RootMotion::FinalIK::Constraint(ptr) {
+constexpr explicit ConstraintRotationOffset(void* ptr) noexcept : RootMotion::FinalIK::Constraint(ptr) {
 }
 
 
@@ -54,35 +53,35 @@ constexpr explicit ConstraintRotationOffset(void* ptr) noexcept : ::RootMotion::
 
 // Fields
 
- ::UnityEngine::Quaternion __declspec(property(get=__get_offset, put=__set_offset))  offset;
+ UnityEngine::Quaternion __declspec(property(get=__get_offset, put=__set_offset))  offset;
 
-constexpr void __set_offset(::UnityEngine::Quaternion value) ;
+constexpr void __set_offset(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get_offset() const;
+constexpr UnityEngine::Quaternion __get_offset() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get_defaultRotation, put=__set_defaultRotation))  defaultRotation;
+ UnityEngine::Quaternion __declspec(property(get=__get_defaultRotation, put=__set_defaultRotation))  defaultRotation;
 
-constexpr void __set_defaultRotation(::UnityEngine::Quaternion value) ;
+constexpr void __set_defaultRotation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get_defaultRotation() const;
+constexpr UnityEngine::Quaternion __get_defaultRotation() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get_defaultLocalRotation, put=__set_defaultLocalRotation))  defaultLocalRotation;
+ UnityEngine::Quaternion __declspec(property(get=__get_defaultLocalRotation, put=__set_defaultLocalRotation))  defaultLocalRotation;
 
-constexpr void __set_defaultLocalRotation(::UnityEngine::Quaternion value) ;
+constexpr void __set_defaultLocalRotation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get_defaultLocalRotation() const;
+constexpr UnityEngine::Quaternion __get_defaultLocalRotation() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get_lastLocalRotation, put=__set_lastLocalRotation))  lastLocalRotation;
+ UnityEngine::Quaternion __declspec(property(get=__get_lastLocalRotation, put=__set_lastLocalRotation))  lastLocalRotation;
 
-constexpr void __set_lastLocalRotation(::UnityEngine::Quaternion value) ;
+constexpr void __set_lastLocalRotation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get_lastLocalRotation() const;
+constexpr UnityEngine::Quaternion __get_lastLocalRotation() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get_defaultTargetLocalRotation, put=__set_defaultTargetLocalRotation))  defaultTargetLocalRotation;
+ UnityEngine::Quaternion __declspec(property(get=__get_defaultTargetLocalRotation, put=__set_defaultTargetLocalRotation))  defaultTargetLocalRotation;
 
-constexpr void __set_defaultTargetLocalRotation(::UnityEngine::Quaternion value) ;
+constexpr void __set_defaultTargetLocalRotation(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get_defaultTargetLocalRotation() const;
+constexpr UnityEngine::Quaternion __get_defaultTargetLocalRotation() const;
 
  bool __declspec(property(get=__get_initiated, put=__set_initiated))  initiated;
 
@@ -107,11 +106,11 @@ explicit ConstraintRotationOffset() ;
 /// @brief Method .ctor addr 0x11b88c4 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "transform", ty: "::UnityEngine::Transform", modifiers: "", def_value: None }]
-explicit ConstraintRotationOffset(::UnityEngine::Transform transform) ;
+// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
+explicit ConstraintRotationOffset(UnityEngine::Transform transform) ;
 
 /// @brief Method .ctor addr 0x11b88cc size 0x28 virtual false final false
- void _ctor(::UnityEngine::Transform transform) ;
+ void _ctor(UnityEngine::Transform transform) ;
 
 /// @brief Method get_rotationChanged addr 0x11b886c size 0x58 virtual false final false
  bool get_rotationChanged() ;
@@ -120,6 +119,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::ConstraintRotationOffset);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::ConstraintRotationOffset, "RootMotion.FinalIK", "ConstraintRotationOffset");
+NEED_NO_BOX(RootMotion::FinalIK::ConstraintRotationOffset);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::ConstraintRotationOffset, "RootMotion.FinalIK", "ConstraintRotationOffset");

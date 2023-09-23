@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Xml {
 class BitStack;
 }
-namespace System::Xml {
-class XmlWriterSettings;
-}
 namespace System::IO {
 class Stream;
+}
+namespace System::Xml {
+class XmlWriterSettings;
 }
 namespace System::Xml {
 struct ConformanceLevel;
@@ -27,7 +26,7 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11417))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11418))
 // CS Name: System.Xml.XmlUtf8RawTextWriterIndent
-class CORDL_TYPE XmlUtf8RawTextWriterIndent : public ::System::Xml::XmlUtf8RawTextWriter {
+class CORDL_TYPE XmlUtf8RawTextWriterIndent : public System::Xml::XmlUtf8RawTextWriter {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -42,7 +41,7 @@ constexpr XmlUtf8RawTextWriterIndent(XmlUtf8RawTextWriterIndent const& ) noexcep
 constexpr XmlUtf8RawTextWriterIndent(XmlUtf8RawTextWriterIndent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XmlUtf8RawTextWriterIndent(void* ptr) noexcept : ::System::Xml::XmlUtf8RawTextWriter(ptr) {
+constexpr explicit XmlUtf8RawTextWriterIndent(void* ptr) noexcept : System::Xml::XmlUtf8RawTextWriter(ptr) {
 }
 
 
@@ -87,26 +86,26 @@ constexpr void __set_mixedContent(bool value) ;
 
 constexpr bool __get_mixedContent() const;
 
- ::System::Xml::BitStack __declspec(property(get=__get_mixedContentStack, put=__set_mixedContentStack))  mixedContentStack;
+ System::Xml::BitStack __declspec(property(get=__get_mixedContentStack, put=__set_mixedContentStack))  mixedContentStack;
 
-constexpr void __set_mixedContentStack(::System::Xml::BitStack value) ;
+constexpr void __set_mixedContentStack(System::Xml::BitStack value) ;
 
-constexpr ::System::Xml::BitStack __get_mixedContentStack() const;
+constexpr System::Xml::BitStack __get_mixedContentStack() const;
 
- ::System::Xml::ConformanceLevel __declspec(property(get=__get_conformanceLevel, put=__set_conformanceLevel))  conformanceLevel;
+ System::Xml::ConformanceLevel __declspec(property(get=__get_conformanceLevel, put=__set_conformanceLevel))  conformanceLevel;
 
-constexpr void __set_conformanceLevel(::System::Xml::ConformanceLevel value) ;
+constexpr void __set_conformanceLevel(System::Xml::ConformanceLevel value) ;
 
-constexpr ::System::Xml::ConformanceLevel __get_conformanceLevel() const;
+constexpr System::Xml::ConformanceLevel __get_conformanceLevel() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "::System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
-explicit XmlUtf8RawTextWriterIndent(::System::IO::Stream stream, ::System::Xml::XmlWriterSettings settings) ;
+// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
+explicit XmlUtf8RawTextWriterIndent(System::IO::Stream stream, System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method .ctor addr 0x26e4c8c size 0x28 virtual false final false
- void _ctor(::System::IO::Stream stream, ::System::Xml::XmlWriterSettings settings) ;
+ void _ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method WriteDocType addr 0x26e4dc0 size 0x60 virtual true final false
  void WriteDocType(::StringW name, ::StringW pubid, ::StringW sysid, ::StringW subset) ;
@@ -118,7 +117,7 @@ explicit XmlUtf8RawTextWriterIndent(::System::IO::Stream stream, ::System::Xml::
  void StartElementContent() ;
 
 /// @brief Method OnRootElement addr 0x26e4f24 size 0x8 virtual true final false
- void OnRootElement(::System::Xml::ConformanceLevel currentConformanceLevel) ;
+ void OnRootElement(System::Xml::ConformanceLevel currentConformanceLevel) ;
 
 /// @brief Method WriteEndElement addr 0x26e4f2c size 0x80 virtual true final false
  void WriteEndElement(::StringW prefix, ::StringW localName, ::StringW ns) ;
@@ -166,7 +165,7 @@ explicit XmlUtf8RawTextWriterIndent(::System::IO::Stream stream, ::System::Xml::
  void WriteBase64(::ArrayW<uint8_t> buffer, int32_t index, int32_t count) ;
 
 /// @brief Method Init addr 0x26e4cb4 size 0x10c virtual false final false
- void Init(::System::Xml::XmlWriterSettings settings) ;
+ void Init(System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method WriteIndent addr 0x26e4e20 size 0x48 virtual false final false
  void WriteIndent() ;
@@ -175,6 +174,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::XmlUtf8RawTextWriterIndent);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlUtf8RawTextWriterIndent, "System.Xml", "XmlUtf8RawTextWriterIndent");
+NEED_NO_BOX(System::Xml::XmlUtf8RawTextWriterIndent);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlUtf8RawTextWriterIndent, "System.Xml", "XmlUtf8RawTextWriterIndent");

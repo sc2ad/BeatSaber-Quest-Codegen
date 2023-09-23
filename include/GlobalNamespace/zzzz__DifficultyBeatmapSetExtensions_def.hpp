@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
@@ -57,16 +56,15 @@ constexpr explicit DifficultyBeatmapSetExtensions(void* ptr) noexcept : ::bs_hoo
 
 /// @brief Method GetDifficultyBeatmapSetsWithout360Movement addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static ::System::Collections::Generic::IReadOnlyList_1<T> GetDifficultyBeatmapSetsWithout360Movement(::System::Collections::Generic::IReadOnlyList_1<T> difficultyBeatmapSets) ;
+static System::Collections::Generic::IReadOnlyList_1<T> GetDifficultyBeatmapSetsWithout360Movement(System::Collections::Generic::IReadOnlyList_1<T> difficultyBeatmapSets) ;
 
 /// @brief Method GetPreviewDifficultyBeatmapSets addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet> GetPreviewDifficultyBeatmapSets(::System::Collections::Generic::IReadOnlyList_1<T> difficultyBeatmapSets) ;
+static System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PreviewDifficultyBeatmapSet> GetPreviewDifficultyBeatmapSets(System::Collections::Generic::IReadOnlyList_1<T> difficultyBeatmapSets) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::DifficultyBeatmapSetExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DifficultyBeatmapSetExtensions, "", "DifficultyBeatmapSetExtensions");
+NEED_NO_BOX(GlobalNamespace::DifficultyBeatmapSetExtensions);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DifficultyBeatmapSetExtensions, "", "DifficultyBeatmapSetExtensions");

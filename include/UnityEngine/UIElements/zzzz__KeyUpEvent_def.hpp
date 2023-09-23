@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__KeyboardEventBase_1_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class KeyUpEvent;
@@ -12,7 +11,7 @@ namespace UnityEngine::UIElements {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7339)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7339), inst: 3803 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7341))
 // CS Name: UnityEngine.UIElements.KeyUpEvent
-class CORDL_TYPE KeyUpEvent : public ::UnityEngine::UIElements::KeyboardEventBase_1<::UnityEngine::UIElements::KeyUpEvent> {
+class CORDL_TYPE KeyUpEvent : public UnityEngine::UIElements::KeyboardEventBase_1<UnityEngine::UIElements::KeyUpEvent> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr KeyUpEvent(KeyUpEvent const& ) noexcept = default;
 constexpr KeyUpEvent(KeyUpEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit KeyUpEvent(void* ptr) noexcept : ::UnityEngine::UIElements::KeyboardEventBase_1<::UnityEngine::UIElements::KeyUpEvent>(ptr) {
+constexpr explicit KeyUpEvent(void* ptr) noexcept : UnityEngine::UIElements::KeyboardEventBase_1<UnityEngine::UIElements::KeyUpEvent>(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::KeyUpEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::KeyUpEvent, "UnityEngine.UIElements", "KeyUpEvent");
+NEED_NO_BOX(UnityEngine::UIElements::KeyUpEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::KeyUpEvent, "UnityEngine.UIElements", "KeyUpEvent");

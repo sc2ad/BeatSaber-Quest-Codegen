@@ -2,7 +2,9 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__TableCell_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace GlobalNamespace {
+class ColorSchemeView;
+}
 namespace TMPro {
 class TextMeshProUGUI;
 }
@@ -11,9 +13,6 @@ struct Color;
 }
 namespace UnityEngine::UI {
 class Image;
-}
-namespace GlobalNamespace {
-class ColorSchemeView;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,7 +24,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13715))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5499))
 // CS Name: ColorSchemeTableCell
-class CORDL_TYPE ColorSchemeTableCell : public ::HMUI::TableCell {
+class CORDL_TYPE ColorSchemeTableCell : public HMUI::TableCell {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr ColorSchemeTableCell(ColorSchemeTableCell const& ) noexcept = default;
 constexpr ColorSchemeTableCell(ColorSchemeTableCell&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ColorSchemeTableCell(void* ptr) noexcept : ::HMUI::TableCell(ptr) {
+constexpr explicit ColorSchemeTableCell(void* ptr) noexcept : HMUI::TableCell(ptr) {
 }
 
 
@@ -61,23 +60,23 @@ constexpr explicit ColorSchemeTableCell(void* ptr) noexcept : ::HMUI::TableCell(
 
 // Fields
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__text, put=__set__text))  _text;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__text, put=__set__text))  _text;
 
-constexpr void __set__text(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__text(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__text() const;
+constexpr TMPro::TextMeshProUGUI __get__text() const;
 
- ::GlobalNamespace::ColorSchemeView __declspec(property(get=__get__colorSchemeView, put=__set__colorSchemeView))  _colorSchemeView;
+ GlobalNamespace::ColorSchemeView __declspec(property(get=__get__colorSchemeView, put=__set__colorSchemeView))  _colorSchemeView;
 
-constexpr void __set__colorSchemeView(::GlobalNamespace::ColorSchemeView value) ;
+constexpr void __set__colorSchemeView(GlobalNamespace::ColorSchemeView value) ;
 
-constexpr ::GlobalNamespace::ColorSchemeView __get__colorSchemeView() const;
+constexpr GlobalNamespace::ColorSchemeView __get__colorSchemeView() const;
 
- ::UnityEngine::UI::Image __declspec(property(get=__get__editIcon, put=__set__editIcon))  _editIcon;
+ UnityEngine::UI::Image __declspec(property(get=__get__editIcon, put=__set__editIcon))  _editIcon;
 
-constexpr void __set__editIcon(::UnityEngine::UI::Image value) ;
+constexpr void __set__editIcon(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get__editIcon() const;
+constexpr UnityEngine::UI::Image __get__editIcon() const;
 
 
 // Properties
@@ -99,7 +98,7 @@ constexpr ::UnityEngine::UI::Image __get__editIcon() const;
  void set_showEditIcon(bool value) ;
 
 /// @brief Method SetColors addr 0x211e348 size 0x78 virtual false final false
- void SetColors(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environment0Color, ::UnityEngine::Color environment1Color, ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost, ::UnityEngine::Color obstacleColor) ;
+ void SetColors(UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environment0Color, UnityEngine::Color environment1Color, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost, UnityEngine::Color obstacleColor) ;
 
 // Ctor Parameters []
 explicit ColorSchemeTableCell() ;
@@ -111,6 +110,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ColorSchemeTableCell);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ColorSchemeTableCell, "", "ColorSchemeTableCell");
+NEED_NO_BOX(GlobalNamespace::ColorSchemeTableCell);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeTableCell, "", "ColorSchemeTableCell");

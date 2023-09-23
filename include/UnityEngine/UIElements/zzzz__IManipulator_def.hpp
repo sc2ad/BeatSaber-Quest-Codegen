@@ -1,6 +1,5 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
@@ -26,18 +25,17 @@ constexpr explicit IManipulator(void* ptr) noexcept : ::cordl_internals::Interfa
 
 // Properties
 
- ::UnityEngine::UIElements::VisualElement __declspec(property(put=set_target))  target;
+ UnityEngine::UIElements::VisualElement __declspec(property(put=set_target))  target;
 
 
 // Methods
 
 /// @brief Method set_target addr 0x0 size 0xffffffffffffffff virtual true final false
- void set_target(::UnityEngine::UIElements::VisualElement value) ;
+ void set_target(UnityEngine::UIElements::VisualElement value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::IManipulator);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::IManipulator, "UnityEngine.UIElements", "IManipulator");
+NEED_NO_BOX(UnityEngine::UIElements::IManipulator);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::IManipulator, "UnityEngine.UIElements", "IManipulator");

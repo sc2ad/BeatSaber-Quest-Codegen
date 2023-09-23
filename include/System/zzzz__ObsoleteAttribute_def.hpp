@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace System {
 class ObsoleteAttribute;
@@ -13,7 +12,7 @@ namespace System {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2453))
 // CS Name: System.ObsoleteAttribute
-class CORDL_TYPE ObsoleteAttribute : public ::System::Attribute {
+class CORDL_TYPE ObsoleteAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr ObsoleteAttribute(ObsoleteAttribute const& ) noexcept = default;
 constexpr ObsoleteAttribute(ObsoleteAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ObsoleteAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit ObsoleteAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -94,6 +93,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::ObsoleteAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::ObsoleteAttribute, "System", "ObsoleteAttribute");
+NEED_NO_BOX(System::ObsoleteAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::ObsoleteAttribute, "System", "ObsoleteAttribute");

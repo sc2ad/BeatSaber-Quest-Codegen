@@ -3,7 +3,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
-namespace {
+namespace System::Globalization {
+class CompareInfo;
+}
 namespace System::Numerics {
 template<typename T>
 struct Vector_1;
@@ -11,9 +13,6 @@ struct Vector_1;
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
-}
-namespace System::Globalization {
-class CompareInfo;
 }
 // Forward declare root types
 namespace System {
@@ -80,13 +79,13 @@ static int32_t IndexOf(ByRef<char16_t> searchSpace, char16_t value, int32_t leng
 static int32_t LastIndexOf(ByRef<char16_t> searchSpace, char16_t value, int32_t length) ;
 
 /// @brief Method LocateFirstFoundChar addr 0x2455e3c size 0x1c0 virtual false final false
-static int32_t LocateFirstFoundChar(::System::Numerics::Vector_1<uint16_t> match) ;
+static int32_t LocateFirstFoundChar(System::Numerics::Vector_1<uint16_t> match) ;
 
 /// @brief Method LocateFirstFoundChar addr 0x2455ffc size 0x20 virtual false final false
 static int32_t LocateFirstFoundChar(uint64_t match) ;
 
 /// @brief Method LocateLastFoundChar addr 0x245601c size 0x1c0 virtual false final false
-static int32_t LocateLastFoundChar(::System::Numerics::Vector_1<uint16_t> match) ;
+static int32_t LocateLastFoundChar(System::Numerics::Vector_1<uint16_t> match) ;
 
 /// @brief Method LocateLastFoundChar addr 0x24561dc size 0x2c virtual false final false
 static int32_t LocateLastFoundChar(uint64_t match) ;
@@ -104,13 +103,13 @@ template<typename T>
 static bool SequenceEqual(ByRef<T> first, ByRef<T> second, int32_t length) ;
 
 /// @brief Method EndsWithCultureHelper addr 0x2456208 size 0x200 virtual false final false
-static bool EndsWithCultureHelper(::System::ReadOnlySpan_1<char16_t> span, ::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::CompareInfo compareInfo) ;
+static bool EndsWithCultureHelper(System::ReadOnlySpan_1<char16_t> span, System::ReadOnlySpan_1<char16_t> value, System::Globalization::CompareInfo compareInfo) ;
 
 /// @brief Method EndsWithCultureIgnoreCaseHelper addr 0x2456408 size 0x120 virtual false final false
-static bool EndsWithCultureIgnoreCaseHelper(::System::ReadOnlySpan_1<char16_t> span, ::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::CompareInfo compareInfo) ;
+static bool EndsWithCultureIgnoreCaseHelper(System::ReadOnlySpan_1<char16_t> span, System::ReadOnlySpan_1<char16_t> value, System::Globalization::CompareInfo compareInfo) ;
 
 /// @brief Method EndsWithOrdinalIgnoreCaseHelper addr 0x2456528 size 0xe0 virtual false final false
-static bool EndsWithOrdinalIgnoreCaseHelper(::System::ReadOnlySpan_1<char16_t> span, ::System::ReadOnlySpan_1<char16_t> value) ;
+static bool EndsWithOrdinalIgnoreCaseHelper(System::ReadOnlySpan_1<char16_t> span, System::ReadOnlySpan_1<char16_t> value) ;
 
 /// @brief Method ClearWithoutReferences addr 0x2456608 size 0x1e8 virtual false final false
 static void ClearWithoutReferences(ByRef<uint8_t> b, uint64_t byteLength) ;
@@ -122,6 +121,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::SpanHelpers);
-DEFINE_IL2CPP_ARG_TYPE(::System::SpanHelpers, "System", "SpanHelpers");
+NEED_NO_BOX(System::SpanHelpers);
+DEFINE_IL2CPP_ARG_TYPE(System::SpanHelpers, "System", "SpanHelpers");

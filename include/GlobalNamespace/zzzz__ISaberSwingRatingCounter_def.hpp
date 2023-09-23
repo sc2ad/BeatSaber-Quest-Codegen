@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cmath>
-namespace {
-namespace GlobalNamespace {
-class ISaberSwingRatingCounterDidChangeReceiver;
-}
 namespace GlobalNamespace {
 class ISaberSwingRatingCounterDidFinishReceiver;
+}
+namespace GlobalNamespace {
+class ISaberSwingRatingCounterDidChangeReceiver;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -44,21 +43,20 @@ constexpr explicit ISaberSwingRatingCounter(void* ptr) noexcept : ::cordl_intern
  float_t get_afterCutRating() ;
 
 /// @brief Method RegisterDidChangeReceiver addr 0x0 size 0xffffffffffffffff virtual true final false
- void RegisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver receiver) ;
+ void RegisterDidChangeReceiver(GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver receiver) ;
 
 /// @brief Method RegisterDidFinishReceiver addr 0x0 size 0xffffffffffffffff virtual true final false
- void RegisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver receiver) ;
+ void RegisterDidFinishReceiver(GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver receiver) ;
 
 /// @brief Method UnregisterDidChangeReceiver addr 0x0 size 0xffffffffffffffff virtual true final false
- void UnregisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver receiver) ;
+ void UnregisterDidChangeReceiver(GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver receiver) ;
 
 /// @brief Method UnregisterDidFinishReceiver addr 0x0 size 0xffffffffffffffff virtual true final false
- void UnregisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver receiver) ;
+ void UnregisterDidFinishReceiver(GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver receiver) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ISaberSwingRatingCounter);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ISaberSwingRatingCounter, "", "ISaberSwingRatingCounter");
+NEED_NO_BOX(GlobalNamespace::ISaberSwingRatingCounter);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ISaberSwingRatingCounter, "", "ISaberSwingRatingCounter");

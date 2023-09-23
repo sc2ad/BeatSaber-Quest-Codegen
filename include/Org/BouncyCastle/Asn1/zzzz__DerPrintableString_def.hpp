@@ -5,15 +5,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class DerOutputStream;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerOutputStream;
+class Asn1TaggedObject;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -25,7 +24,7 @@ namespace Org::BouncyCastle::Asn1 {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(33))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(512))
 // CS Name: Org.BouncyCastle.Asn1.DerPrintableString
-class CORDL_TYPE DerPrintableString : public ::Org::BouncyCastle::Asn1::DerStringBase {
+class CORDL_TYPE DerPrintableString : public Org::BouncyCastle::Asn1::DerStringBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr DerPrintableString(DerPrintableString const& ) noexcept = default;
 constexpr DerPrintableString(DerPrintableString&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DerPrintableString(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::DerStringBase(ptr) {
+constexpr explicit DerPrintableString(void* ptr) noexcept : Org::BouncyCastle::Asn1::DerStringBase(ptr) {
 }
 
 
@@ -71,10 +70,10 @@ constexpr ::StringW __get_str() const;
 // Methods
 
 /// @brief Method GetInstance addr 0x11386d4 size 0xf0 virtual false final false
-static ::Org::BouncyCastle::Asn1::DerPrintableString GetInstance(::bs_hook::Il2CppWrapperType obj) ;
+static Org::BouncyCastle::Asn1::DerPrintableString GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method GetInstance addr 0x11387c4 size 0xec virtual false final false
-static ::Org::BouncyCastle::Asn1::DerPrintableString GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool isExplicit) ;
+static Org::BouncyCastle::Asn1::DerPrintableString GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool isExplicit) ;
 
 // Ctor Parameters [CppParam { name: "str", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
 explicit DerPrintableString(::ArrayW<uint8_t> str) ;
@@ -101,10 +100,10 @@ explicit DerPrintableString(::StringW str, bool validate) ;
  ::ArrayW<uint8_t> GetOctets() ;
 
 /// @brief Method Encode addr 0x1138a94 size 0x30 virtual true final false
- void Encode(::Org::BouncyCastle::Asn1::DerOutputStream derOut) ;
+ void Encode(Org::BouncyCastle::Asn1::DerOutputStream derOut) ;
 
 /// @brief Method Asn1Equals addr 0x1138ac4 size 0xa0 virtual true final false
- bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object asn1Object) ;
+ bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object asn1Object) ;
 
 /// @brief Method IsPrintableString addr 0x1138990 size 0xf0 virtual false final false
 static bool IsPrintableString(::StringW str) ;
@@ -113,6 +112,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::DerPrintableString);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::DerPrintableString, "Org.BouncyCastle.Asn1", "DerPrintableString");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::DerPrintableString);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerPrintableString, "Org.BouncyCastle.Asn1", "DerPrintableString");

@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Utilities::Zlib {
-class Inflate;
-}
 namespace Org::BouncyCastle::Utilities::Zlib {
 class Adler32;
+}
+namespace Org::BouncyCastle::Utilities::Zlib {
+class Inflate;
 }
 namespace Org::BouncyCastle::Utilities::Zlib {
 class Deflate;
@@ -165,17 +164,17 @@ constexpr void __set_msg(::StringW value) ;
 
 constexpr ::StringW __get_msg() const;
 
- ::Org::BouncyCastle::Utilities::Zlib::Deflate __declspec(property(get=__get_dstate, put=__set_dstate))  dstate;
+ Org::BouncyCastle::Utilities::Zlib::Deflate __declspec(property(get=__get_dstate, put=__set_dstate))  dstate;
 
-constexpr void __set_dstate(::Org::BouncyCastle::Utilities::Zlib::Deflate value) ;
+constexpr void __set_dstate(Org::BouncyCastle::Utilities::Zlib::Deflate value) ;
 
-constexpr ::Org::BouncyCastle::Utilities::Zlib::Deflate __get_dstate() const;
+constexpr Org::BouncyCastle::Utilities::Zlib::Deflate __get_dstate() const;
 
- ::Org::BouncyCastle::Utilities::Zlib::Inflate __declspec(property(get=__get_istate, put=__set_istate))  istate;
+ Org::BouncyCastle::Utilities::Zlib::Inflate __declspec(property(get=__get_istate, put=__set_istate))  istate;
 
-constexpr void __set_istate(::Org::BouncyCastle::Utilities::Zlib::Inflate value) ;
+constexpr void __set_istate(Org::BouncyCastle::Utilities::Zlib::Inflate value) ;
 
-constexpr ::Org::BouncyCastle::Utilities::Zlib::Inflate __get_istate() const;
+constexpr Org::BouncyCastle::Utilities::Zlib::Inflate __get_istate() const;
 
  int32_t __declspec(property(get=__get_data_type, put=__set_data_type))  data_type;
 
@@ -189,11 +188,11 @@ constexpr void __set_adler(int64_t value) ;
 
 constexpr int64_t __get_adler() const;
 
- ::Org::BouncyCastle::Utilities::Zlib::Adler32 __declspec(property(get=__get__adler, put=__set__adler))  _adler;
+ Org::BouncyCastle::Utilities::Zlib::Adler32 __declspec(property(get=__get__adler, put=__set__adler))  _adler;
 
-constexpr void __set__adler(::Org::BouncyCastle::Utilities::Zlib::Adler32 value) ;
+constexpr void __set__adler(Org::BouncyCastle::Utilities::Zlib::Adler32 value) ;
 
-constexpr ::Org::BouncyCastle::Utilities::Zlib::Adler32 __get__adler() const;
+constexpr Org::BouncyCastle::Utilities::Zlib::Adler32 __get__adler() const;
 
 
 // Methods
@@ -265,6 +264,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities::Zlib
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::Zlib::ZStream);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Zlib::ZStream, "Org.BouncyCastle.Utilities.Zlib", "ZStream");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Zlib::ZStream);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Zlib::ZStream, "Org.BouncyCastle.Utilities.Zlib", "ZStream");

@@ -2,13 +2,12 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System {
-struct DTSubStringType;
-}
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
+}
+namespace System {
+struct DTSubStringType;
 }
 // Forward declare root types
 namespace System {
@@ -23,8 +22,8 @@ namespace System {
 struct CORDL_TYPE DTSubString : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "s", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "type", ty: "::System::DTSubStringType", modifiers: "", def_value: None }, CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr DTSubString(::System::ReadOnlySpan_1<char16_t> s, int32_t index, int32_t length, ::System::DTSubStringType type, int32_t value) noexcept;
+// Ctor Parameters [CppParam { name: "s", ty: "System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::DTSubStringType", modifiers: "", def_value: None }, CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr DTSubString(System::ReadOnlySpan_1<char16_t> s, int32_t index, int32_t length, System::DTSubStringType type, int32_t value) noexcept;
 
 
                     constexpr DTSubString(DTSubString const&) = default;
@@ -57,11 +56,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::ReadOnlySpan_1<char16_t> __declspec(property(get=__get_s, put=__set_s))  s;
+ System::ReadOnlySpan_1<char16_t> __declspec(property(get=__get_s, put=__set_s))  s;
 
-constexpr void __set_s(::System::ReadOnlySpan_1<char16_t> value) ;
+constexpr void __set_s(System::ReadOnlySpan_1<char16_t> value) ;
 
-constexpr ::System::ReadOnlySpan_1<char16_t> __get_s() const;
+constexpr System::ReadOnlySpan_1<char16_t> __get_s() const;
 
  int32_t __declspec(property(get=__get_index, put=__set_index))  index;
 
@@ -75,11 +74,11 @@ constexpr void __set_length(int32_t value) ;
 
 constexpr int32_t __get_length() const;
 
- ::System::DTSubStringType __declspec(property(get=__get_type, put=__set_type))  type;
+ System::DTSubStringType __declspec(property(get=__get_type, put=__set_type))  type;
 
-constexpr void __set_type(::System::DTSubStringType value) ;
+constexpr void __set_type(System::DTSubStringType value) ;
 
-constexpr ::System::DTSubStringType __get_type() const;
+constexpr System::DTSubStringType __get_type() const;
 
  int32_t __declspec(property(get=__get_value, put=__set_value))  value;
 
@@ -102,5 +101,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::DTSubString, "System", "DTSubString");
+DEFINE_IL2CPP_ARG_TYPE(System::DTSubString, "System", "DTSubString");

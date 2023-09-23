@@ -3,7 +3,6 @@
 #include "System/Security/Cryptography/zzzz__MD5_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security::Cryptography {
 class MD5CryptoServiceProvider;
@@ -14,7 +13,7 @@ namespace System::Security::Cryptography {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2941))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2976))
 // CS Name: System.Security.Cryptography.MD5CryptoServiceProvider
-class CORDL_TYPE MD5CryptoServiceProvider : public ::System::Security::Cryptography::MD5 {
+class CORDL_TYPE MD5CryptoServiceProvider : public System::Security::Cryptography::MD5 {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr MD5CryptoServiceProvider(MD5CryptoServiceProvider const& ) noexcept = 
 constexpr MD5CryptoServiceProvider(MD5CryptoServiceProvider&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MD5CryptoServiceProvider(void* ptr) noexcept : ::System::Security::Cryptography::MD5(ptr) {
+constexpr explicit MD5CryptoServiceProvider(void* ptr) noexcept : System::Security::Cryptography::MD5(ptr) {
 }
 
 
@@ -123,6 +122,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::MD5CryptoServiceProvider);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::MD5CryptoServiceProvider, "System.Security.Cryptography", "MD5CryptoServiceProvider");
+NEED_NO_BOX(System::Security::Cryptography::MD5CryptoServiceProvider);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::MD5CryptoServiceProvider, "System.Security.Cryptography", "MD5CryptoServiceProvider");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace OVRSimpleJSON {
 class JSONNode;
 }
@@ -53,12 +52,11 @@ constexpr explicit JSON(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) 
 // Methods
 
 /// @brief Method Parse addr 0x2641870 size 0x8 virtual false final false
-static ::OVRSimpleJSON::JSONNode Parse(::StringW aJSON) ;
+static OVRSimpleJSON::JSONNode Parse(::StringW aJSON) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def OVRSimpleJSON
-} // end anonymous namespace
-NEED_NO_BOX(::OVRSimpleJSON::JSON);
-DEFINE_IL2CPP_ARG_TYPE(::OVRSimpleJSON::JSON, "OVRSimpleJSON", "JSON");
+NEED_NO_BOX(OVRSimpleJSON::JSON);
+DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSON, "OVRSimpleJSON", "JSON");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "RootMotion/zzzz__SolverManager_def.hpp"
-namespace {
 namespace RootMotion::FinalIK {
 class IKSolver;
 }
@@ -15,7 +14,7 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12441))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12478))
 // CS Name: RootMotion.FinalIK.IK
-class CORDL_TYPE IK : public ::RootMotion::SolverManager {
+class CORDL_TYPE IK : public RootMotion::SolverManager {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr IK(IK const& ) noexcept = default;
 constexpr IK(IK&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit IK(void* ptr) noexcept : ::RootMotion::SolverManager(ptr) {
+constexpr explicit IK(void* ptr) noexcept : RootMotion::SolverManager(ptr) {
 }
 
 
@@ -52,7 +51,7 @@ constexpr explicit IK(void* ptr) noexcept : ::RootMotion::SolverManager(ptr) {
 // Methods
 
 /// @brief Method GetIKSolver addr 0x0 size 0xffffffffffffffff virtual true final false
- ::RootMotion::FinalIK::IKSolver GetIKSolver() ;
+ RootMotion::FinalIK::IKSolver GetIKSolver() ;
 
 /// @brief Method UpdateSolver addr 0x11c4e84 size 0x78 virtual true final false
  void UpdateSolver() ;
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::IK);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::IK, "RootMotion.FinalIK", "IK");
+NEED_NO_BOX(RootMotion::FinalIK::IK);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IK, "RootMotion.FinalIK", "IK");

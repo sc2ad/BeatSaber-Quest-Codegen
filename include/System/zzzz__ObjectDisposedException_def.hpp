@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__InvalidOperationException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System {
@@ -19,7 +18,7 @@ namespace System {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2426))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2452))
 // CS Name: System.ObjectDisposedException
-class CORDL_TYPE ObjectDisposedException : public ::System::InvalidOperationException {
+class CORDL_TYPE ObjectDisposedException : public System::InvalidOperationException {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr ObjectDisposedException(ObjectDisposedException const& ) noexcept = de
 constexpr ObjectDisposedException(ObjectDisposedException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ObjectDisposedException(void* ptr) noexcept : ::System::InvalidOperationException(ptr) {
+constexpr explicit ObjectDisposedException(void* ptr) noexcept : System::InvalidOperationException(ptr) {
 }
 
 
@@ -89,14 +88,14 @@ explicit ObjectDisposedException(::StringW objectName, ::StringW message) ;
 /// @brief Method .ctor addr 0x244f6b0 size 0x38 virtual false final false
  void _ctor(::StringW objectName, ::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit ObjectDisposedException(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit ObjectDisposedException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x244f754 size 0x88 virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method GetObjectData addr 0x244f7dc size 0x108 virtual true final false
- void GetObjectData(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void GetObjectData(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method get_Message addr 0x244f9cc size 0xd4 virtual true final false
  ::StringW get_Message() ;
@@ -108,6 +107,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::ObjectDisposedException);
-DEFINE_IL2CPP_ARG_TYPE(::System::ObjectDisposedException, "System", "ObjectDisposedException");
+NEED_NO_BOX(System::ObjectDisposedException);
+DEFINE_IL2CPP_ARG_TYPE(System::ObjectDisposedException, "System", "ObjectDisposedException");

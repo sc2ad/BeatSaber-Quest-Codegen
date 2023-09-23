@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace OVR::OpenVR {
-struct IVRDriverManager;
-}
 namespace System::Text {
 class StringBuilder;
+}
+namespace OVR::OpenVR {
+struct IVRDriverManager;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -56,11 +55,11 @@ constexpr explicit CVRDriverManager(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
- ::OVR::OpenVR::IVRDriverManager __declspec(property(get=__get_FnTable, put=__set_FnTable))  FnTable;
+ OVR::OpenVR::IVRDriverManager __declspec(property(get=__get_FnTable, put=__set_FnTable))  FnTable;
 
-constexpr void __set_FnTable(::OVR::OpenVR::IVRDriverManager value) ;
+constexpr void __set_FnTable(OVR::OpenVR::IVRDriverManager value) ;
 
-constexpr ::OVR::OpenVR::IVRDriverManager __get_FnTable() const;
+constexpr OVR::OpenVR::IVRDriverManager __get_FnTable() const;
 
 
 // Methods
@@ -75,7 +74,7 @@ explicit CVRDriverManager(::cordl_internals::intptr_t pInterface) ;
  uint32_t GetDriverCount() ;
 
 /// @brief Method GetDriverName addr 0x26681b0 size 0x24 virtual false final false
- uint32_t GetDriverName(uint32_t nDriver, ::System::Text::StringBuilder pchValue, uint32_t unBufferSize) ;
+ uint32_t GetDriverName(uint32_t nDriver, System::Text::StringBuilder pchValue, uint32_t unBufferSize) ;
 
 /// @brief Method GetDriverHandle addr 0x26681d4 size 0x24 virtual false final false
  uint64_t GetDriverHandle(::StringW pchDriverName) ;
@@ -84,6 +83,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-NEED_NO_BOX(::OVR::OpenVR::CVRDriverManager);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::CVRDriverManager, "OVR.OpenVR", "CVRDriverManager");
+NEED_NO_BOX(OVR::OpenVR::CVRDriverManager);
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRDriverManager, "OVR.OpenVR", "CVRDriverManager");

@@ -3,7 +3,6 @@
 #include "Oculus/Platform/Models/zzzz__MatchmakingEnqueueResultAndRoom_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform::Models {
 class MatchmakingEnqueueResultAndRoom;
 }
@@ -14,10 +13,10 @@ class MessageWithMatchmakingEnqueueResultAndRoom;
 // Type: Oculus.Platform::MessageWithMatchmakingEnqueueResultAndRoom
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4459 }), TypeDefinitionIndex(TypeDefinitionIndex(13444)), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4459 }), TypeDefinitionIndex(TypeDefinitionIndex(13444))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13254))
 // CS Name: Oculus.Platform.MessageWithMatchmakingEnqueueResultAndRoom
-class CORDL_TYPE MessageWithMatchmakingEnqueueResultAndRoom : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom> {
+class CORDL_TYPE MessageWithMatchmakingEnqueueResultAndRoom : public Oculus::Platform::Message_1<Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr MessageWithMatchmakingEnqueueResultAndRoom(MessageWithMatchmakingEnque
 constexpr MessageWithMatchmakingEnqueueResultAndRoom(MessageWithMatchmakingEnqueueResultAndRoom&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MessageWithMatchmakingEnqueueResultAndRoom(void* ptr) noexcept : ::Oculus::Platform::Message_1<::Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom>(ptr) {
+constexpr explicit MessageWithMatchmakingEnqueueResultAndRoom(void* ptr) noexcept : Oculus::Platform::Message_1<Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom>(ptr) {
 }
 
 
@@ -60,15 +59,14 @@ explicit MessageWithMatchmakingEnqueueResultAndRoom(::cordl_internals::intptr_t 
  void _ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method GetMatchmakingEnqueueResultAndRoom addr 0x2582410 size 0x3c virtual true final false
- ::Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom GetMatchmakingEnqueueResultAndRoom() ;
+ Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom GetMatchmakingEnqueueResultAndRoom() ;
 
 /// @brief Method GetDataFromMessage addr 0x258244c size 0x9c virtual true final false
- ::Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
+ Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom GetDataFromMessage(::cordl_internals::intptr_t c_message) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::MessageWithMatchmakingEnqueueResultAndRoom);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithMatchmakingEnqueueResultAndRoom, "Oculus.Platform", "MessageWithMatchmakingEnqueueResultAndRoom");
+NEED_NO_BOX(Oculus::Platform::MessageWithMatchmakingEnqueueResultAndRoom);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithMatchmakingEnqueueResultAndRoom, "Oculus.Platform", "MessageWithMatchmakingEnqueueResultAndRoom");

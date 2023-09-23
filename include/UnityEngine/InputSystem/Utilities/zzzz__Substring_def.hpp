@@ -4,20 +4,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
-class IEquatable_1;
+class IComparable_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct InternedString;
 }
 namespace System {
-template<typename T>
-class IComparable_1;
+struct StringComparison;
 }
 namespace System {
-struct StringComparison;
+template<typename T>
+class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -32,11 +31,11 @@ namespace UnityEngine::InputSystem::Utilities {
 struct CORDL_TYPE Substring : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IComparable_1<::UnityEngine::InputSystem::Utilities::Substring>
-constexpr operator  ::System::IComparable_1<::UnityEngine::InputSystem::Utilities::Substring>() const;
+/// @brief Convert operator to System::IComparable_1<UnityEngine::InputSystem::Utilities::Substring>
+constexpr operator  System::IComparable_1<UnityEngine::InputSystem::Utilities::Substring>() const;
 
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::Substring>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::Substring>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::InputSystem::Utilities::Substring>
+constexpr operator  System::IEquatable_1<UnityEngine::InputSystem::Utilities::Substring>() const;
 
 // Ctor Parameters [CppParam { name: "m_String", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: None }]
 constexpr Substring(::StringW m_String, int32_t m_Index, int32_t m_Length) noexcept;
@@ -123,16 +122,16 @@ constexpr int32_t __get_m_Length() const;
  bool Equals(::StringW other) ;
 
 /// @brief Method Equals addr 0x28c6b68 size 0x30 virtual true final true
- bool Equals(::UnityEngine::InputSystem::Utilities::Substring other) ;
+ bool Equals(UnityEngine::InputSystem::Utilities::Substring other) ;
 
 /// @brief Method Equals addr 0x28c6c74 size 0x80 virtual false final false
- bool Equals(::UnityEngine::InputSystem::Utilities::InternedString other) ;
+ bool Equals(UnityEngine::InputSystem::Utilities::InternedString other) ;
 
 /// @brief Method CompareTo addr 0x28c6c58 size 0x1c virtual true final true
- int32_t CompareTo(::UnityEngine::InputSystem::Utilities::Substring other) ;
+ int32_t CompareTo(UnityEngine::InputSystem::Utilities::Substring other) ;
 
 /// @brief Method Compare addr 0x28c6cf4 size 0x28 virtual false final false
-static int32_t Compare(::UnityEngine::InputSystem::Utilities::Substring left, ::UnityEngine::InputSystem::Utilities::Substring right, ::System::StringComparison comparison) ;
+static int32_t Compare(UnityEngine::InputSystem::Utilities::Substring left, UnityEngine::InputSystem::Utilities::Substring right, System::StringComparison comparison) ;
 
 /// @brief Method StartsWith addr 0x28c6d1c size 0x98 virtual false final false
  bool StartsWith(::StringW str) ;
@@ -147,25 +146,25 @@ static int32_t Compare(::UnityEngine::InputSystem::Utilities::Substring left, ::
  int32_t GetHashCode() ;
 
 /// @brief Method op_Equality addr 0x28c6ea0 size 0x1c virtual false final false
-static bool op_Equality(::UnityEngine::InputSystem::Utilities::Substring a, ::UnityEngine::InputSystem::Utilities::Substring b) ;
+static bool op_Equality(UnityEngine::InputSystem::Utilities::Substring a, UnityEngine::InputSystem::Utilities::Substring b) ;
 
 /// @brief Method op_Inequality addr 0x28c6ebc size 0x1c virtual false final false
-static bool op_Inequality(::UnityEngine::InputSystem::Utilities::Substring a, ::UnityEngine::InputSystem::Utilities::Substring b) ;
+static bool op_Inequality(UnityEngine::InputSystem::Utilities::Substring a, UnityEngine::InputSystem::Utilities::Substring b) ;
 
 /// @brief Method op_Equality addr 0x28c6ed8 size 0x2c virtual false final false
-static bool op_Equality(::UnityEngine::InputSystem::Utilities::Substring a, ::UnityEngine::InputSystem::Utilities::InternedString b) ;
+static bool op_Equality(UnityEngine::InputSystem::Utilities::Substring a, UnityEngine::InputSystem::Utilities::InternedString b) ;
 
 /// @brief Method op_Inequality addr 0x28c6f04 size 0x30 virtual false final false
-static bool op_Inequality(::UnityEngine::InputSystem::Utilities::Substring a, ::UnityEngine::InputSystem::Utilities::InternedString b) ;
+static bool op_Inequality(UnityEngine::InputSystem::Utilities::Substring a, UnityEngine::InputSystem::Utilities::InternedString b) ;
 
 /// @brief Method op_Equality addr 0x28c6f34 size 0x30 virtual false final false
-static bool op_Equality(::UnityEngine::InputSystem::Utilities::InternedString a, ::UnityEngine::InputSystem::Utilities::Substring b) ;
+static bool op_Equality(UnityEngine::InputSystem::Utilities::InternedString a, UnityEngine::InputSystem::Utilities::Substring b) ;
 
 /// @brief Method op_Inequality addr 0x28c6f64 size 0x34 virtual false final false
-static bool op_Inequality(::UnityEngine::InputSystem::Utilities::InternedString a, ::UnityEngine::InputSystem::Utilities::Substring b) ;
+static bool op_Inequality(UnityEngine::InputSystem::Utilities::InternedString a, UnityEngine::InputSystem::Utilities::Substring b) ;
 
 /// @brief Method op_Implicit addr 0x28c6f98 size 0x18 virtual false final false
-static ::UnityEngine::InputSystem::Utilities::Substring op_Implicit___UnityEngine__InputSystem__Utilities__Substring(::StringW s) ;
+static UnityEngine::InputSystem::Utilities::Substring op_Implicit_UnityEngine__InputSystem__Utilities__Substring(::StringW s) ;
 
 /// @brief Method get_length addr 0x28c6fb0 size 0x8 virtual false final false
  int32_t get_length() ;
@@ -180,5 +179,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Utilities
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Utilities::Substring, "UnityEngine.InputSystem.Utilities", "Substring");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Utilities::Substring, "UnityEngine.InputSystem.Utilities", "Substring");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace TMPro {
 struct FontFeatureLookupFlags;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::TMPro::FontFeatureLookupFlags const None;
+static TMPro::FontFeatureLookupFlags const None;
 
 /// @brief Field IgnoreLigatures offset 0
-static ::TMPro::FontFeatureLookupFlags const IgnoreLigatures;
+static TMPro::FontFeatureLookupFlags const IgnoreLigatures;
 
 /// @brief Field IgnoreSpacingAdjustments offset 0
-static ::TMPro::FontFeatureLookupFlags const IgnoreSpacingAdjustments;
+static TMPro::FontFeatureLookupFlags const IgnoreSpacingAdjustments;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::FontFeatureLookupFlags, "TMPro", "FontFeatureLookupFlags");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::FontFeatureLookupFlags, "TMPro", "FontFeatureLookupFlags");

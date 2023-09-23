@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Security::Cryptography {
-class HashAlgorithm;
-}
 namespace System::IO {
 class Stream;
+}
+namespace System::Security::Cryptography {
+class HashAlgorithm;
 }
 // Forward declare root types
 namespace Mono::Security::Authenticode {
@@ -63,11 +62,11 @@ constexpr void __set_fileblock(::ArrayW<uint8_t> value) ;
 
 constexpr ::ArrayW<uint8_t> __get_fileblock() const;
 
- ::System::IO::Stream __declspec(property(get=__get_fs, put=__set_fs))  fs;
+ System::IO::Stream __declspec(property(get=__get_fs, put=__set_fs))  fs;
 
-constexpr void __set_fs(::System::IO::Stream value) ;
+constexpr void __set_fs(System::IO::Stream value) ;
 
-constexpr ::System::IO::Stream __get_fs() const;
+constexpr System::IO::Stream __get_fs() const;
 
  int32_t __declspec(property(get=__get_blockNo, put=__set_blockNo))  blockNo;
 
@@ -147,12 +146,11 @@ explicit AuthenticodeBase() ;
  ::ArrayW<uint8_t> GetSecurityEntry() ;
 
 /// @brief Method GetHash addr 0x229d380 size 0x488 virtual false final false
- ::ArrayW<uint8_t> GetHash(::System::Security::Cryptography::HashAlgorithm hash) ;
+ ::ArrayW<uint8_t> GetHash(System::Security::Cryptography::HashAlgorithm hash) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Security::Authenticode
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Security::Authenticode::AuthenticodeBase);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Authenticode::AuthenticodeBase, "Mono.Security.Authenticode", "AuthenticodeBase");
+NEED_NO_BOX(Mono::Security::Authenticode::AuthenticodeBase);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Authenticode::AuthenticodeBase, "Mono.Security.Authenticode", "AuthenticodeBase");
